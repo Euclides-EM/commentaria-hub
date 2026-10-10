@@ -8,6 +8,8 @@ cōmensurabiles,& γ,δ,igitur(per 11 decimi)potentia tantum sunt cōmensurabile
 
 ## Eucli.ex Zamb. Problema 5 Propositio 28
 
+[Curated heading level=3 type=zamberti_sequence: 28.]
+
 [Margin]
 28
 [/Margin]

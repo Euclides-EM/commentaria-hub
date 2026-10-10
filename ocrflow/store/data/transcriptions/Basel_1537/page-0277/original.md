@@ -8,11 +8,13 @@ linea e g sit rationalis in longitudine sicut sua æqualis c d, erit per 16 line
 
 ## Eucli.ex Camp. Propositio 23
 
+[Curated heading level=3 type=campanus_sequence: 23.]
+
 [Margin]
 23
 [/Margin]
 
-{dropcap:O|lines=?|style=decorated|decoration="a moon face"}## Mnis superficies quam continent duæ lineæ mediales potentialiter tantum cōmunicantes, aut rationalis est aut medialis.
+{dropcap:O|lines=?|style=decorated|decoration="a moon face"}Mnis superficies quam continent duæ lineæ mediales potentialiter tantum cōmunicantes, aut rationalis est aut medialis.
 
 CAMPANVS. Sint duæ lineæ a b & b c mediales potentia tantū communicantes, dico quod superficies a c ab eis contenta aut est rationalis, aut medialis. Sint enim, c d quadratū lineæ b c, & a e quadratum lineæ a b : erūtq̃ ex hypothesi hæc duo quadrata communicantia, & erit per primam sexti superficies a c medialis medio loco proportionalis inter ipsa quadrata. Sumatur igitur linea f g quæ sit rationalis in lōgitudine, cui adiungatur superficies f h æqualis quadrato a e, & h k æqualis superficiei a c, & k l æqualis quadrato d c, eruntq̃ hæ tres superficies f h, h k, & k l continue proportionales, sicut sunt æquales a e, a c, & d c, quare per primam sexti erunt etiam tres lineæ g h, h m, & m l, quæ sunt bases earum, continue proportionales. Et cum superficies f h & k l sint communicantes, sicut duo quadrata a e & c d eis æqualia, sequitur per primam sexti & decimam huius, ut linea g h sit cōmunicans cum l m, utraque autem earum est rationalis, in potentia per 20 huius : igitur superficies unius earum in alteram est rationalis : omnis enim superficies quam continent duæ lineæ rationales in potentia, cōmunicantes in longitudine, necessario est rationalis, ut patet ex prima sexti & prima parte decimæ huius & ex diffinitione superficierum rationalium. Et quia ex prima parte decimæsextæ quadratum lineæ l m est æquale superficiei ex g h in m l, erit quadratū lineæ h m rationale. Si ergo linea h m est rationalis in lōgitudine sibi cōmunicans lineæ k m quæ est æqualis lineæ f g, erit per 15 superficies h k rationalis, ideoq̃ & sua æqualis a c. Si autem h m sit irrationalis in longitudine siue incommensurabilis lineæ k m quæ est æqualis lineæ f g, cum ipsa sit rationalis saltem in potentia eo quod suum quadratum est rationale, erit ex 19 superficies h k medialis, quare & sua æqualis a c. Constat ergo propositum.
 

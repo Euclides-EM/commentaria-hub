@@ -10,6 +10,8 @@ CAMPANVS. Sint duo trianguli a b c, d e f: sitq̃ angulus b, æqualis angulo e, 
 
 ## Eucli. Ex Zamb. Theorema 17. Propositio 26.
 
+[Curated heading level=3 type=zamberti_sequence: 26.]
+
 [Margin]
 26
 [/Margin]

@@ -6,7 +6,9 @@ sic (per 1 sexti) α β γ triangulum ad α β η triangulum. Triangulum igitur 
 
 CORRELARIVM. Ex hoc utriq́ȝ manifestum est, quod si tres rectæ lineæ proportionales fuerint: sicut prima ad tertiam, sic quod à prima triangulum ad id quod est a secunda simile similiterq́ȝ descriptum: quoniā ostensum est quod sicut γ β ad β η, sic triangulum α β γ ad triangulum δ ε ζ, quod oportebat demonstrare.
 
-## Eucli. ex Zamb. — Theorema 14. — Propositio 20.
+## Eucli. ex Zamb. Theorema 14. Propositio 20.
+
+[Curated heading level=3 type=zamberti_sequence: 20.]
 
 [Margin]
 ὁμόλογα

@@ -6,6 +6,8 @@ itaque superficies e est irrationalis, & eius latus tetragonicum quod est a c, u
 
 ## Eucli. ex Zamb. Theorema 29 Propositio 41
 
+[Curated heading level=3 type=zamberti_sequence: 41.]
+
 [Margin]
 41
 [/Margin]

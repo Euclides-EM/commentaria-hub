@@ -4,6 +4,8 @@
 
 ## Eucli. ex Zamb. Theorema 8. Propositio 8.
 
+[Curated heading level=3 type=zamberti_sequence: 8.]
+
 [Margin]
 8
 [/Margin]
@@ -15,6 +17,8 @@ THEON ex Zamb. Recta enim linea quædā α β secetur utcunq́ꝫ in signo γ, d
 [Diagram: square α ε ζ δ (α top left, δ top right, ε bottom left, ζ bottom right); γ and β on the top side; verticals through γ and β meeting the bottom side at θ and λ; diagonal ε δ; two horizontals μ–ν and ξ–ο (μ, ξ on side α ε; ν, ο on side δ ζ); the crossings η, κ on the upper horizontal and π, ρ on the lower; τ on the diagonal near the top right, υ lower on the diagonal, σ inside; large circle marking the gnomon]
 
 ## Eucli. ex Camp. Propositio 9.
+
+[Curated heading level=3 type=campanus_sequence: 9.]
 
 [Margin]
 9

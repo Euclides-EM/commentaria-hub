@@ -8,7 +8,9 @@ qualē quærimus.Est enim ex ultima parte prædicti correlarij numerus f non qua
 
 [Diagram: at the right of the second paragraph, semicircle f h g on diameter f g with h on the arc and chords f h and h g; beneath the diameter a line labelled a Re. 3; below, a solid line and a dotted line divided at d and e]
 
-## Eucli.ex Zamb. — Problema 44 — Propositio 49
+## Eucli.ex Zamb. Problema 44{printer-error-correction:14} Propositio 49
+
+[Curated heading level=3 type=zamberti_sequence: 49.]
 
 [Margin]
 49

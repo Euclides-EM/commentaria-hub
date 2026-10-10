@@ -8,6 +8,8 @@ utraque. Quod si fuerit hoc possibile: ponatur, & sit primo, ut neutra transeat 
 
 ## Eucli. ex Zamb. Theorema 3. Propositio 4.
 
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
 [Margin]
 4
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. Sit circulus α β γ δ, & in eo binæ rectæ lineæ α γ, & β
 [Diagram: circle α β γ δ with chords α γ and β δ crossing at ε; ζ marks the centre above ε, line ζ ε drawn]
 
 ## Eucli. ex Camp. Propositio 5.
+
+[Curated heading level=3 type=campanus_sequence: 5.]
 
 [Margin]
 5
@@ -32,6 +36,8 @@ CAMPANVS. Sint duo circuli a c b, a d b, secantes se super puncta a & b. Dico qu
 
 ## Eucli. ex Zamb. Theorema 4. Propositio 5.
 
+[Curated heading level=3 type=zamberti_sequence: 5.]
+
 [Margin]
 5
 [/Margin]
@@ -43,6 +49,8 @@ THEON ex Zamberio. Duo inquam circuli α β γ, & γ δ κ, sese inuicem secent 
 [Diagram: two intersecting circles; γ at top, ε within with lines to γ and through ζ and κ; labels δ, α, β on the circumferences]
 
 ## Eucli. ex Camp. Propositio 6
+
+[Curated heading level=3 type=campanus_sequence: 6.]
 
 [Margin]
 6

@@ -16,6 +16,8 @@ Rursus supposita rationali & apotomæ, si tota maius potuerit cōgruente eo quod
 
 ## Eucli.ex Camp. Propositio 80
 
+[Curated heading level=3 type=campanus_sequence: 80.]
+
 [Margin]
 80
 [/Margin]
@@ -27,6 +29,8 @@ CAMPANVS Ab inuentione omniū specierum residui, facile nos absoluat inuentio pe
 [Diagram: four horizontal lines: line a; line b c with intermediate point d near b; shorter line e; dotted number lines f and g]
 
 ## Eucli.ex Zamb. Problema 19 Propositio 85
+
+[Curated heading level=3 type=zamberti_sequence: 85.]
 
 [Margin]
 85

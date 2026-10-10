@@ -14,6 +14,8 @@ prismata existentia in ipsa α β γ η pyramide inuicem sunt æqualia, & quia b
 
 ## Eucli. ex Camp. Propositio 5
 
+[Curated heading level=3 type=campanus_sequence: 5.]
+
 [Margin]
 5
 [/Margin]

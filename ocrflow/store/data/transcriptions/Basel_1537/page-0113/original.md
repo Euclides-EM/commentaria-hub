@@ -4,13 +4,25 @@
 
 maioris abstractionis, quàm proportionem arithmeticā: omnis enim proportio circa quam arithmetica uersatur, rationalis est: geometria uero, rationales & irrationales æqualiter considerat.
 
-## 4 Proportionalitas, est similitudo proportionum.
+[Curated heading level=3 type=campanus_sequence: 4.]
+
+[Margin]
+4
+[/Margin]
+
+Proportionalitas, est similitudo proportionum.
 
 CAMPANVS. Vt si dicamus quod quæ est proportio a ad b, ea est etiam c ad d: proportio quæ est inter a & b, similis est illi quæ est inter c & d. Hæc autem similitudo quæ ex istis proportionibus resultat: dicitur proportionalitas.
 
 [Diagram: four horizontal line segments in two pairs, labelled a and c (shorter, above) and b and d (longer, below)]
 
-## 5 Quantitates autem quæ dicuntur continuam habere proportionalitatem, sunt quarum æque multiplicia aut æqua sunt, aut æque sibi sine interru ptione addunt aut minuunt.
+[Curated heading level=3 type=campanus_sequence: 5.]
+
+[Margin]
+5
+[/Margin]
+
+Quantitates autem quæ dicuntur continuam habere proportionalitatem, sunt quarum æque multiplicia aut æqua sunt, aut æque sibi sine interru ptione addunt aut minuunt.
 
 CAMPANVS. Supposita diuisione proportionalitatis per cōtinuam & discontinuam: diffinit membra diuidentia, & primo continuam. Immo (ut uerius dicam) supposita diuisione proportionalium per cōtinue proportionalia & incontinue: diffinit non continuam proportionalitatem nec continuam, sed continue proportionalia & incontinue: diffinitio autem continuæ proportionalitatis & incontinuæ, satis patet per diffinitionem continue prooortionalium & incontinue.
 

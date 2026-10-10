@@ -8,7 +8,13 @@ planis angulis qui sub β α γ, δ α γ, δ α β. Dico quod ipsi β α γ, δ
 
 ## Eucli. ex Camp. Propositio 22
 
-22 {dropcap:S|lines=?|style=decorated}I tres anguli superficiales quorū quiq̃ duo pariter accepti tertio sint maiores, cunctis sibi inuicem æquis lineis contineātur, de tribus basibus angulos illos ab ipsarū linearū æqualium terminis subtendentibus, triangulū substitui uel constitui possibile est.
+[Curated heading level=3 type=campanus_sequence: 22.]
+
+[Margin]
+22
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated}I tres anguli superficiales quorū quiq̃ duo pariter accepti tertio sint maiores, cunctis sibi inuicem æquis lineis contineātur, de tribus basibus angulos illos ab ipsarū linearū æqualium terminis subtendentibus, triangulū substitui uel constitui possibile est.
 
 CAMPANVS. Sint tres superficiales anguli b a c, e d f, h g k, ut proponitur, tales uidelicet ut quiq̃ duo eorū tertio sint maiores, sintq̃ sex latera eos cōtinentia, æqualia, quæ sint a b, a c, d e, d f, g h, g k, & subtendantur eis tres bases quæ sint b c, e f, h k. Ex his ergo tribus basibus, triangulū aio constitui posse. Esto enī angulus b a l æqualis angulo d, & linea a l lineæ d e, & protrahātur l b, l c, eritq̃ ex 4 primi, linea l b, æqualis lineæ e f. Ex hypothesi uero constat, totalem angulū a esse maiorē angulo g, erant enim quiq̃ duo ex tribus angulis b a c, d & g, tertio maiores. Igitur ex 24 primi linea l c, linea h k est maior. Cumq̃ sint ex 20 primi duæ lineæ l b & b c maiores linea l c, sequitur duas lineas l b & b c esse multo fortius maiores linea h k. Quia igitur l b est æqualis e f, erūt duæ lineæ b c & e f maiores linea h k. Cōstat itaq̃ hoc modo, quasque duas lineas ex tribus lineis b c, e f, h k, esse longiores tertia. Igitur ex 22 primi constat uerum esse quod dicitur. Hoc dūtaxat addito, ꝙ si duo anguli b a c & d pariter accepti sint æquales duobus rectis, erūt duæ lineæ l a & a c ex 14 primi linea una, quæ cū sit æqualis ex hypothesi duabus lineis g h & g k quæ ex 20 primi longiores sunt linea h k, cumq̃ ex eadem lineæ duæ l b & b c sint lōgiores linea l c, sequitur ut prius b c & e f pariter acceptas esse longiores h k. At uero si duo prædicti anguli sunt maiores duobus rectis, erunt ex 21 primi duæ lineæ a l & a c (ideoq̃ & duæ g h & g k) breuiores duab. quæ sunt l b & b c. Quare ut prius, b c & e f pariter acceptæ sunt longiores linea h k.
 
@@ -20,7 +26,13 @@ CAMPANVS. Sint tres superficiales anguli b a c, e d f, h g k, ut proponitur, tal
 
 ## Eucli. ex Zamb. Theorema 20 Propositio 22
 
-22 Si fuerint tres anguli plani quorū bini reliquo sint maiores quomodocunq̃ assumpti, comprehendant autem ipsos æquales rectæ lineæ, ex connectentibus æquales rectas lineas triangulū constitui est possibile.
+[Curated heading level=3 type=zamberti_sequence: 22.]
+
+[Margin]
+22
+[/Margin]
+
+Si fuerint tres anguli plani quorū bini reliquo sint maiores quomodocunq̃ assumpti, comprehendant autem ipsos æquales rectæ lineæ, ex connectentibus æquales rectas lineas triangulū constitui est possibile.
 
 THEON ex Zamb. Sint tres anguli plani qui sub α β γ, δ ε ζ, & η θ κ, quorū bini reliquo sint maiores quomodocunq̃ sumpti, hoc est α β γ, δ ε ζ, ipso η θ κ, ipsi autē qui sub δ ε ζ, η θ κ, ipso α β γ, & insuper qui sub η θ κ, α β γ, eo qui sub δ ε ζ, sintq̃ æquales α β, β γ, δ ε, ε ζ, η θ, θ κ, rectæ lineæ, cōnectanturq̃ α γ, δ ζ, η κ. Dico quod ex æqualibus ipsis α γ, δ ζ, η κ, triangulū constituere est possibile, hoc est quod ipsarū α γ, δ ζ, η κ, binæ quomodocūq̃ sumptæ reliqua sunt maiores. Siquidem qui sub α β γ, δ ε ζ, η θ κ, anguli inuicem sunt æquales, manifestū quod & ipsis α γ, δ ζ, η κ, æqualibus adinuicē factis, est possibile ex æqualibus ipsis α γ, δ ζ, η κ, triangulū construi. Si autē non, sint inæquales. Constitua
 

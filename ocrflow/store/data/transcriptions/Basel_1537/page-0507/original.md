@@ -4,7 +4,9 @@
 
 quarum ipsæ l k, k h, in æquali tempore occidunt. Reliqua igitur m l, h k in æquàli tempore occidunt. Similiter iam ostendemus q̃ & ipsæ m c, a g, circūferentiæ tēpori æquali occidunt. Et quoniā in pluri tēpore a g, circūferentia occidit q̃ g h, & g h q̃ h k, in pluri ergo tempore occidit c m, circūferentia q̃ m l, & m l, q̃ l k. In pluri igitur tempore ipsæ a g, m c, circūferentiæ, occidunt in minori autem ipsæ g h, l m, in minimo uero h k, k l, in æquali autem quæ æqualiter ab æquinoctiali distant occidunt & oriūtur, eadem enim, manente descriptione, si conuertamus zodiacum, efficiamus a c semicirculum zodiaci infra terram, eadem demonstratio eueniet, demonstrabiturq̃ æque restantes ab æquinoctiali æquali tempore oriri & occidere.
 
-## Theorema 13 — Apparens 13
+## Theorema 13 Apparens 13
+
+[Curated heading level=3 type=zamberti_sequence: 13.]
 
 Emicirculi qui cum capricorno æquales circūferentiæ tēporibus inæqualibus oriuntur, in maiori quidem quæ ad tropicorū contactus, in minori autem quæ has subsequuntur, in minimis uero quæ ad æquinoctialem, in æquali porro quæ ab æquinoctiali circulo æque distant oriuntur & occidunt.
 
@@ -12,7 +14,9 @@ Sit hōrizō circulus a b c d, æstiuus uero tropicus sit a b, hybernus autem tr
 
 [Diagram: sphere with horizon circle a b c d; points a, b at top; o, p, k, l within upper region; h at left on the equinoctial circle e h f g; e at right, f at left; r, s at lower left; g, m, n along the Capricorn semicircle; d, c at bottom]
 
-## Theorema 14 — Apparens 14
+## Theorema 14 Apparens 14
+
+[Curated heading level=3 type=zamberti_sequence: 14.]
 
 Odiaci circuli æquales circūferentiæ inæqualibus tēporibus permutant apparens hemisphæriū, sed in pluri tempore quæ prope contactū æstiui tropici ea quæ longius distat, quādo polus horizontis inter arcticum circulum & æstiuum tropicum fuerit.
 

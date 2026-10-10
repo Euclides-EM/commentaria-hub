@@ -4,6 +4,8 @@
 
 ## Eucli. ex Zamb. Theorema 11 Propositio 11
 
+[Curated heading level=3 type=zamberti_sequence: 11.]
+
 [Margin]
 11
 [/Margin]
@@ -12,7 +14,7 @@
 Camp. 12
 [/Margin]
 
-## Si in circulo rationalem habente diametrum, quinquangulū æquilaterū inscribatur, quinquanguli latus irrationalis est ea quæ appellatur minor.
+Si in circulo rationalem habente diametrum, quinquangulū æquilaterū inscribatur, quinquanguli latus irrationalis est ea quæ appellatur minor.
 
 THEON ex Zamb. In circulo enim α β γ δ ε, rationalem habente diametrum, quinquangulū inscribatur α β γ δ ε. Dico quod ipsius α β γ δ ε quinquanguli latus α β irrationalis est ea quæ appellatur minor. Assumatur enim (per 1 tertij) circuli centrum ζ signum, & connectantur α ζ, ζ β, & extendantur in η, θ, signa, & connectatur α γ, ponaturq́; ipsius α ζ, quarta pars ζ κ. Rationalis autem α ζ, rationalis igitur & ζ κ. Est autem & β ζ rationalis. Tota igitur β κ rationalis est. Et quoniam circūferentia α γ η ipsi α δ η circūferentiæ est æqualis, quarū α β γ æqualis est & ipsi α ε δ, reliqua igitur γ η reliquæ η δ est æqualis. Et si cōnectamus α δ, *ducuntur recti qui ad λ anguli, & dupla est γ δ ipsius γ λ, & id propterea & qui ad μ recti sunt, & dupla est α γ ipsius γ μ.
 
@@ -26,6 +28,8 @@ Quoniam igitur angulus qui sub α λ γ ei est æquus qui sub α μ ζ, cōmunis
 
 ## Eucli. ex Zamb. Theorema 12 Propositio 12
 
+[Curated heading level=3 type=zamberti_sequence: 12.]
+
 [Margin]
 12
 [/Margin]
@@ -34,7 +38,7 @@ Quoniam igitur angulus qui sub α λ γ ei est æquus qui sub α μ ζ, cōmunis
 Camp. 8
 [/Margin]
 
-## Si in circulo triangulū æquilaterū descriptū fuerit, ipsius trianguli latus potentia triplum est eius quæ ex centro circuli.
+Si in circulo triangulū æquilaterū descriptū fuerit, ipsius trianguli latus potentia triplum est eius quæ ex centro circuli.
 
 THEON ex Zamb. Sit circulus α β γ, & in eo triangulū æquilaterū describatur α β γ. Dico quod ipsius α β γ triāguli latus potentia triplū est eius quæ ex centro ipsius circuli α β γ. Assumatur enim (per 1 tertij) centrum ipsius circuli δ, & connexa α δ extendatur in ε, & cōnectatur β ε. Et quoniā triangulū α β γ æquilaterū est, igitur β ε γ circūferentia tertia pars est ipsius circuli α β γ circūferentiæ: igitur β ε circūferentia, sexta pars est circūferentiæ ip-
 

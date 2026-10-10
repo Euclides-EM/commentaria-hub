@@ -10,6 +10,8 @@ Si uero neutra propositarũ pyramidum fuerit trigona, sed utraq̃ polygonia (uer
 
 ## Eucli. ex Camp. Propositio 8
 
+[Curated heading level=3 type=campanus_sequence: 8.]
+
 [Margin]
 8
 [/Margin]

@@ -8,6 +8,8 @@ Sed α μ est id quod fit sub α δ & δ β, æqualis enim est δ μ ipsi δ β:
 
 ## Eucli. ex Camp. Propositio 7.
 
+[Curated heading level=3 type=campanus_sequence: 7.]
+
 [Margin]
 7
 [/Margin]
@@ -20,6 +22,8 @@ CAMPANVS. Sit linea a b diuisa in duas partes in puncto c, dico quod quadratū t
 
 ## Eucli. ex Zamb. Theorema 7. Propositio 7.
 
+[Curated heading level=3 type=zamberti_sequence: 7.]
+
 [Margin]
 7
 [/Margin]
@@ -31,6 +35,8 @@ THEON ex Zamb. Recta enim linea α β, secetur utcunq́ꝫ in signo γ, dico quo
 [Diagram: square β α δ ε (β top left, α top right, ε bottom left, δ bottom right); γ on top side; diagonal β δ; vertical from γ through the diagonal; horizontal ζ θ (ζ on side β ε, θ on side α δ) crossing at η; λ inside the upper left square, κ inside right of centre, μ inside the lower left; circle through the pieces marking the gnomon]
 
 ## Eucl. ex Camp. Propositio 8.
+
+[Curated heading level=3 type=campanus_sequence: 8.]
 
 SI linea in duas partes diuidatur, eiq́ꝫ in longum æqualis uni diuidentium adiungatur, quod ex ductu totius iam compositæ in seipsam fiet, æquū erit ijs quæ ex ductu prioris lineæ in eam adiectam quater, & ei quod ex ductu alterius diuidentis in seipsam.
 

@@ -8,6 +8,8 @@
 
 ## Eucli. ex Zamb. Theorema 33. Propositio 47.
 
+[Curated heading level=3 type=zamberti_sequence: 47.]
+
 [Margin]
 47
 [/Margin]
@@ -25,6 +27,8 @@ utrobiq̃ duobus rectis æquos efficiunt (per 14 propositionem) in rectum igitur
 [Diagram: right triangle α β γ with square β δ ε γ below on β γ, squares η β on α β and θ γ on α γ above, line α λ parallel to β δ and γ ε, lines α δ, ζ γ, α ε, β κ drawn]
 
 ## Eucli. ex Camp. Propositio 47.
+
+[Curated heading level=3 type=campanus_sequence: 47.]
 
 [Margin]
 47

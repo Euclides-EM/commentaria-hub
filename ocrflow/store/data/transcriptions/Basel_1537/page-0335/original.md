@@ -4,6 +4,8 @@
 
 ## Eucli.ex Camp. Propositio 89
 
+[Curated heading level=3 type=campanus_sequence: 89.]
+
 [Margin]
 89
 [/Margin]
@@ -13,6 +15,8 @@ SI fuerit superficies linea rationali residuoq̃ quarto contenta, linea super ea
 CAMPANVS In hac quoq̃ nō aliter procedas quàm prius, facile erit ibi{printer-error-correction:tibi} propositum concludere, si præmissam non despicis. ex diffinitione residui quarti & secunda parte 14 & 9 & 19 & 15 & 71, & sic patebit propositum.
 
 ## Eucli.ex Zamb. Theorema 70 Propositio 94
+
+[Curated heading level=3 type=zamberti_sequence: 94.]
 
 [Margin]
 94
@@ -28,6 +32,8 @@ THEON ex Zãb. Areola nāque α β, comprehendatur sub rationali α γ, & quarta
 
 ## Eucli.ex Camp. Propositio 90
 
+[Curated heading level=3 type=campanus_sequence: 90.]
+
 [Margin]
 90
 [/Margin]
@@ -36,7 +42,9 @@ SI fuerit linea rationali residuoq̃ quinto superficies contēta, latus eius tet
 
 CAMPANVS Nitere præmissa argumentatiōe ex diffinitione residui quinti & secunda parte 14 & 9 & 19 & 15 & 72, quod propositū est concludere.
 
-## Eucli,ex Zamb, Theorema 71 Propositio 95
+## Eucli.ex Zamb. Theorema 71 Propositio 95
+
+[Curated heading level=3 type=zamberti_sequence: 95.]
 
 [Margin]
 95

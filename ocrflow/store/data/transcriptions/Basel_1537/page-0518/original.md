@@ -14,7 +14,7 @@ Sit fastigium quidem a e, speculum autē planum sit l, oculus uero sit b, uisus 
 
 [Diagram: vertical line at left with points e, k, a, f from top to bottom; horizontal line a d c l; oculus b at right; rays from b crossing at d and c toward e, k and f]
 
-## In crassitudinibus.
+### In crassitudinibus.
 
 Sit rursus crassitudo quidem e a, speculū autem planum sit a c, oculus uero sit d, uisus porro sint d c, d b refracti in e f, similiter eductis uisibus ad h k, apparet quidem e infra existens super h superius existente, & f, supra existēs super k infra existente.
 
@@ -28,7 +28,7 @@ Sit celsitudo a e, speculum autem conuexum sit a d c, uisus uero sint b d, b c r
 
 [Diagram: convex arc with points d and c on its top; a at upper left, b at upper right, h at left; rays from b crossing above the arc]
 
-## In crassitudinibus.
+### In crassitudinibus.
 
 Sit rursus crassitudo a e, speculum uero conuexum sit a d c. oculus autem sit b uisus autem refracti in e h. sint b c e, b d h. reliqua uero sicut & in planis.
 

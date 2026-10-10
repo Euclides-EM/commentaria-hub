@@ -28,7 +28,7 @@ Esto nempe maior b c, ipsa c d, & super ipsis b c & c d, semicirculi describātu
 
 [Diagram: large semicircle with a at its apex, over two smaller semicircles marked f and k; base line with b at the left, c in the middle, b at the right]
 
-## Problema primum &nbsp;&nbsp; Propositio 52
+## Problema primum Propositio 52
 
 LOcos inuenire a quibus æqualis magnitudo dimidiū apparet, siue quarta pars, & uniuersaliter in data ratione in qua & angulus secatur.
 
@@ -38,7 +38,7 @@ Sit enim recta linea l f, & super l f, describatur segmentū contingēs, & inscr
 
 [Diagram: fan of lines converging to m at the bottom; along the top the points b, f, n and z(?); on the descending lines the points d, f, p, r and i, t, k, f]
 
-## Theorema 52 &nbsp;&nbsp; Propositio 53
+## Theorema 52 Propositio 53
 
 AEquali celeritate delatorū, in eademq̃ recta linea existentium, propinquū oculo postremum
 

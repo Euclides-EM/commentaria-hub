@@ -1,12 +1,12 @@
-## PHAENOMENA
+<!-- Running title: PHAENOMENA -->
 
 <!-- Page number: 503 -->
 
 permutat apparens hemisphæriū quàm m n, non apparens. Sed in quo tempore m n, circūferentia permutat apparens hemisphæriū, ipsa h k non appares . Similiter iam demonstrabimus q̄ & contingens contingente, in pluri tempore permutat apparens hemisphærium quàm reliqua non apparens. Similiter autem & earum quæ in altero semicirculo assumpto, sub æquinoctiali ad hybernum tropicum æqualium circūferentiarū in pluri tempore altera permutat, non apparens hemisphærium quàm reliqua apparens, & contingens contingente.
 
-### PHAENOMENA FINIVNT.
+PHAENOMENA FINIVNT.
 
-## BARTHOLOMAEVS ZAMBERTVS VENETVS
+# BARTHOLOMAEVS ZAMBERTVS VENETVS
 
 ## Lodouico Mocenico patritio Veneto equiti iurato, Senatorij ordinis, ac oratori facundissimo, gaudere & bene rem gerere.
 

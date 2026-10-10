@@ -10,7 +10,7 @@ Exponatur recta linea g h iã d ipsi b , aut est simile aut nõ. Sit pri⁹ simi
 
 [Diagram: four figures at right: a square with b inside and base corners f, e; a square with a inside and base corners d, c; below, a small rectangle divided horizontally into cells n (above) and x (below) with k at its right; and a square with m inside and base corners h, g]
 
-## Theorema 55 — Propositio 55
+## Theorema 55 Propositio 55
 
 SI areola specie & magnitudine data fuerit, & eius latera magnitudine data erũt.
 
@@ -24,7 +24,7 @@ Esto areola k l m n x, specie data & magnitudine, dico quod & latera eius data s
 
 [Diagram: a house-shaped (pentagonal) areola with apex k, upper corners x (left) and l (right), points n (left side) and m (right side) below them, and o at the bottom left; horizontal lines divide the figure]
 
-## Theorema 56 — Propositio 56
+## Theorema 56 Propositio 56
 
 SI bina æquiangula parallelogramma, adinuicem rationem habuerint datã, erit sicut primi latus ad secundi latus, sic reliquum secundi latus ad quod alterum primi rationem habet datam, quam parallelogrammum ad parallelogrammum.
 

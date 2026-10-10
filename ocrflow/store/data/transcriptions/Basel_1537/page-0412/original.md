@@ -14,6 +14,8 @@ Si columnæ fuerint similes, erunt ex diffinitione similium corporũ, bases ear�
 
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
 
+[Curated heading level=3 type=zamberti_sequence: 8.]
+
 [Margin]
 Camp. 8
 [/Margin]

@@ -12,6 +12,8 @@ ALITER idem ostendere. Intra circulum enim α β γ, suscipiatur signũ δ, & ab
 
 ## Eucli. ex Camp. Propositio 10.
 
+[Curated heading level=3 type=campanus_sequence: 10.]
+
 [Margin]
 10
 [/Margin]
@@ -23,6 +25,8 @@ CAMPANVS Sint si possibile est, duo circuli, secãtes se in pluribus quàm in du
 [Diagram: two circles overlapping in a lens shape; a at the upper left, b at the upper right, d and e within, f below them, c at the lower left]
 
 ## Eucli. ex Zamb. Theorema 9. Propositio 10.
+
+[Curated heading level=3 type=zamberti_sequence: 10.]
 
 [Margin]
 10

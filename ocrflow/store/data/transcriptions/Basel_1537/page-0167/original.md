@@ -4,7 +4,13 @@
 
 ## Eucli.ex Camp. Propositio 21.
 
-21 SI fuerint quotlibet lineæ proportionales, atque super binas & binas similes superficies designentur, ipsæ quoq̃ superficies erunt proportionales. Si uero super binas & binas, similes superficies constitutæ fuerint proportionales: ipsas quoq̃ lineas proportionales esse necesse est.
+[Curated heading level=3 type=campanus_sequence: 21.]
+
+[Margin]
+21
+[/Margin]
+
+SI fuerint quotlibet lineæ proportionales, atque super binas & binas similes superficies designentur, ipsæ quoq̃ superficies erunt proportionales. Si uero super binas & binas, similes superficies constitutæ fuerint proportionales: ipsas quoq̃ lineas proportionales esse necesse est.
 
 CAMPANVS. Si quatuor lineæ proportionales, a,b,c,d, sitq̃ proportio a ad b, sicut c ad d: dico quod si superficies similes constituantur super a & b, utpote duo pentagoni similes, & aliæ similes constituãtur super c & d, utpote duo anguli similes, erit ꝓportio pentagonorum sicut triangulorum. Quod si fuerint pentagoni similes & similiter triãguli similes, fueritq̃ proportio pentagoni ad pentagonum sicut trianguli ad triangulũ: dico quod erit ꝓportio a ad b sicut c ad d.
 
@@ -12,9 +18,15 @@ Subiungantur enim lineis a & b,e,& lineis c & d, f,in cõtinua proportionalitate
 
 [Diagram: two short horizontal lines labelled e and f; below, a pentagon labelled a and a triangle labelled c; below these, a pentagon labelled b, a small triangle labelled g, and an inverted triangle labelled d]
 
-## Eucli.ex Zamb. Theorema 15. Propositio 22.
+## Eucli.ex Zamb. Theorema 15{printer-error-correction:16}. Propositio 22.
 
-## 22 Si quatuor rectæ lineæ proportionales fuerint etiam quæ ab eis rectilinea similia similiterq́̃ descripta, proportionalia erunt. Et si ab ipsis rectilinea, proportionalia fuerint: ipsæ quoq̃ rectæ lineæ proportionales erunt.
+[Curated heading level=3 type=zamberti_sequence: 22.]
+
+[Margin]
+22
+[/Margin]
+
+Si quatuor rectæ lineæ proportionales fuerint etiam quæ ab eis rectilinea similia similiterq́̃ descripta, proportionalia erunt. Et si ab ipsis rectilinea, proportionalia fuerint: ipsæ quoq̃ rectæ lineæ proportionales erunt.
 
 THEON ex Zamberto. Sint quatuor rectæ lineæ α β, γ ε, ε ζ, & η θ, sicut α β ad γ δ, sic ε ζ ad η θ. Describanturq́̃ (per 18 sexti) α β ipsis α β & γ δ, similia similiterq́̃ posita rectilinea κ α β & λ γ δ. Ab ipsis autem ε ζ & η θ, per eandem similia similiterq́̃ posita rectilinea μ ζ & ν θ. Dico quod est sicut κ α β ad λ γ δ, sic est μ ξ ad ν θ. Sumatur enim inq̃; (per 11 sexti) ipsarũ α β & γ δ: tertia proportionalis ξ: ipsarum autem ε ζ & η θ, tertia proportionalis ο, & quoniam est sicut α β ad γ δ, sic ε ζ ad η θ, sicut autem γ δ ad ξ, sic η θ ad ο: ex æquali igitur (per 22 quinti, sicut α β ad ξ, sic ε ζ ad ο. Sed sicut quidem α β ad ξ, sic & κ α β ad γ δ (per correlarium secundum 20 sexti. Sicut autem ε ζ ad ο, sic μ ζ ad ν θ. Sed iam esto, sicut κ α β ad λ γ δ, sic μ ζ ad ν θ. Dico quod est sicut α β ad γ δ, sic ε ζ ad η θ. Fiat enim (per 22 sexti) sicut α β ad γ δ, sic ε ζ ad π ρ, & describatur (per 8 sexti) ex π ρ, utriq̃; ipsorum μ ζ & ν θ simile, similiterq́̃ positum σ ρ. Quoniam igitur est sicut α β ad γ δ, sic ε ζ ad π ρ, & de
 

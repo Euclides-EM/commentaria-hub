@@ -18,7 +18,7 @@ Sit cauum speculum a c d, dimetiens autem esto ipsius sphæræ a d & ipsa a d ad
 
 [Diagram: semicircular arc on the base line a f m d, with c, K, e, n on the arc; b and x within; lines l and x descending; a long vertical line below the base ending at b]
 
-## Theorema uigesimumoctauum.
+## Theorema uigesimumoctauum{printer-error-correction:uigesimumseptimum}.
 
 IN cauis speculis si in dimetiente ponantur oculi æqualiter distantes a centro, nullus ipsorum oculorum spectabitur.
 

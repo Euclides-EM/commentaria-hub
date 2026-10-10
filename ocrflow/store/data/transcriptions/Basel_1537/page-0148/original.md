@@ -2,7 +2,11 @@
 
 <!-- Page number: 137 -->
 
-## 34
+[Curated heading level=3 type=campanus_sequence: 34.]
+
+[Margin]
+34
+[/Margin]
 
 Si quotlibet quantitates ad totidem alias cōparentur,fueritqꝫ cuiuslibet præcedētis ad suā relatiuā maior proportio q̄ alicuius subsequētis ad suā, erit omniū harum pariter acceptarum ad omnes illas pariter acceptas maior proportio q̄ alicuius subsequentiū ad suā parē,aut etiam q̄ omniū pariter acceptarū ad oēs pariter acceptas,minor aūt quàm primæ ad primam.
 
@@ -16,7 +20,11 @@ SEXTI LIBRI FINIS.
 
 ## Euclides ex Campano. Diffinitiones.
 
-## 1
+[Curated heading level=3 type=campanus_sequence: 1.]
+
+[Margin]
+1
+[/Margin]
 
 {dropcap:S|lines=?|style=decorated|decoration="figure riding among foliage and beasts"}Vperficies similes dicūtur, quarū anguli unius angulis alterius æquales,lateraqꝫ æquos angulos continentia proportionalia.
 
@@ -24,7 +32,11 @@ CAMPANVS. Vt sit trigonus a b c fuerit æquiangulus trigono d e f,fueritqꝫ ang
 
 [Diagram: two triangles, one with apex a and base b c, the other with apex d and base e f]
 
-## 2
+[Curated heading level=3 type=campanus_sequence: 2.]
+
+[Margin]
+2
+[/Margin]
 
 Superficies mutuorū laterum, sunt inter quarū latera, incontinua proportionalitas retransitiue habetur.
 
@@ -32,7 +44,11 @@ CAMPANVS. Vt si duorū quadrilaterorū a b c, d e f, proportio a b lateris primi
 
 [Diagram: two quadrilaterals, the first open-sided with corners a, b, c, the second a rectangle with corners e, d, f]
 
-## 3
+[Curated heading level=3 type=campanus_sequence: 3.]
+
+[Margin]
+3
+[/Margin]
 
 Linea dicitur diuidi secundū proportionē habentē medium & duo extrema,quando eadē est proportio totius ad maiorē sui sectionē quæ est maioris ad minorē.
 

@@ -4,6 +4,8 @@
 
 ## Eucli. ex Zamb. Theorema 29. Propositio 39.
 
+[Curated heading level=3 type=zamberti_sequence: 39.]
+
 [Margin]
 39
 [/Margin]
@@ -15,6 +17,8 @@ THEON ex Zamb. Sint bina triangula α β γ & δ γ β, constituta in eadem basi
 [Diagram: base β γ with points α and δ above, triangles α β γ and δ β γ, line α ε drawn and connecting lines crossing]
 
 ## Eucli. ex Camp. Propositio 40.
+
+[Curated heading level=3 type=campanus_sequence: 40.]
 
 [Margin]
 40
@@ -28,6 +32,8 @@ CAMPANVS. Sint duo trianguli a b c, d e f æquales, constituti super duas bases 
 
 ## Eucli. ex Zamb. Theorema 30. Propositio 40.
 
+[Curated heading level=3 type=zamberti_sequence: 40.]
+
 [Margin]
 40
 [/Margin]
@@ -39,6 +45,8 @@ THEON ex Zamb. Sint triangula æqualia α β γ & γ δ ε, in æqualibus basibu
 [Diagram: bases β γ and γ ε on one line, triangles α β γ and γ δ ε above with point ζ and connecting lines]
 
 ## Eucli. ex Camp. Propositio 41.
+
+[Curated heading level=3 type=campanus_sequence: 41.]
 
 [Margin]
 41

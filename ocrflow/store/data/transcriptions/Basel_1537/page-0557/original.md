@@ -6,11 +6,11 @@ A data siquidem magnitudine a b data auferatur magnitudo a c. Dico quod reliqua 
 
 [Diagram: two horizontal line segments, the first with points a, c, b, the second with points d, e, f]
 
-## Scholium.
+### Scholium.
 
 Et id theorema præcedentis quod minime est conuersum, proprie siquidem esset cōuersum, si data magnitudo in quascūq̃ diuisa fuerit, & unaqueq̃ earū in quas diuiditur data est, quæ eidē eædē & adinuicem sunt eædē, hoc, inquā, patet in 11 quinti elemētorū.
 
-## Theorema 5 — Propositio 5
+## Theorema 5 Propositio 5
 
 SI magnitudo ad sui partem aliquam rationem habuerit datā, & ad reliquam rationem habebit datam.
 
@@ -18,7 +18,7 @@ Magnitudo siquidem a b ad aliquam sui partem a c, rationem habeat datam, dico qu
 
 [Diagram: two horizontal line segments, the first with points a, c, b, the second with points d, e, f]
 
-## Theorema 6 — Propositio 6
+## Theorema 6 Propositio 6
 
 SI binæ magnitudines compositæ fuerint adinuicem rationem habentes datam, & tota ad ipsarum utranque rationem habebit datam.
 
@@ -26,11 +26,11 @@ Componantur enim binæ magnitudines a c, c b adinuicem datam rationem habentes. 
 
 [Diagram: two horizontal line segments, the first with points a, c, b, the second with points d, e, f]
 
-## Scholium.
+### Scholium.
 
 Datarum siquidem magnitudinum ratio inuicem datur, æquā enim ipsius d f, ad f e, exhibemus rationem.
 
-## Theorema 7 — Propositio 7
+## Theorema 7 Propositio 7
 
 SI data magnitudo in datam rationem diuisa fuerit, utrunq̃ segmentum datum est.
 

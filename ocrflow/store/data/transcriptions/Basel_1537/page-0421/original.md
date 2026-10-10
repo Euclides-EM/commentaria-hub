@@ -6,6 +6,8 @@
 
 ## Eucli. ex Zamb. Theorema 12 Propositio 12
 
+[Curated heading level=3 type=zamberti_sequence: 12.]
+
 [Margin]
 12
 [/Margin]

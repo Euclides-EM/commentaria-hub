@@ -8,6 +8,8 @@ quantitatem lineæ d f, describatur circulus f e g, secans datum circulum in pun
 
 ## Eucli. ex Zamb. Problema 1. Propositio 1
 
+[Curated heading level=3 type=zamberti_sequence: 1.]
+
 In datum circulum, datæ rectæ lineæ quæ circuli diametro maior non est, æqualem rectam lineam coaptare.
 
 [Margin]
@@ -20,6 +22,8 @@ THEON ex Zamb. *Esto datus circulus α β γ, data uero recta linea nō maior ci
 
 ## Eucli. ex Camp. Propositio 2
 
+[Curated heading level=3 type=campanus_sequence: 2.]
+
 [Margin]
 2
 [/Margin]
@@ -31,6 +35,8 @@ CAMPANVS Sit assignatus triangulus a b c, assignatusq́; circulus d e f. Volo in
 [Diagram: tangent line g d h touching at d a circle with inscribed triangle d e f; at the left, the assigned triangle a b c]
 
 ## Eucli. ex Zamb. Problema 2 Propositio 2
+
+[Curated heading level=3 type=zamberti_sequence: 2.]
 
 [Margin]
 2

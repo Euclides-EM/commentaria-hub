@@ -4,7 +4,7 @@
 
 lo. Datur autem d e g,triangulum specie, datur igitur & a b c,triangulum specie.
 
-## Scholium.
+### Scholium.
 
 Quoniam enim ponitur d e,positione & magnitudine data,manifestum quod si circulus bifariam secetur est centrum circuli positione. Dimidia uero,hoc est quæ ex centro datur positione & magnitudine sicut & circulus,per diffinitionem.
 
@@ -26,11 +26,11 @@ Esto triãgulum a b c,unum habens angulum datum qui sub b a c,at quæ circum b a
 
 [Diagram: triangle with apex a and base c, d, b; the cevian a d drawn]
 
-## Scholium.
+### Scholium.
 
 Sicut enim unum antecedentium ad unũ sequentium. sic omnia antecedentia ad omnia sequentia per 11 quinti elementorum.
 
-## Aliter
+### Aliter
 
 Extendatur b a in rectas lineas in d,& ipsi a c,ponatur æqualis a d & connectatur d c. Etenim ipsius b d ad b c, ratio data est. Et qui sub a d c,datus est,dimidius siquidẽ eius qui sub b a c. Datur igitur triangulũ b c d specie. Da
 

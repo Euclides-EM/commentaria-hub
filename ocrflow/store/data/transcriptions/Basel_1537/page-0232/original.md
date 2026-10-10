@@ -4,9 +4,15 @@
 
 ## Eucli. ex Camp. Propositio 5
 
-**5** {dropcap:S|lines=?|style=decorated|decoration="serpent ornament"}I numerus cubus in numerū alium ducatur, fueritq̃ productus cubus, in quem ductus est, numerū cubum esse necesse est.
+[Curated heading level=3 type=campanus_sequence: 5.]
 
-CORRELARIVM.
+[Margin]
+5
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="serpent ornament"}I numerus cubus in numerū alium ducatur, fueritq̃ productus cubus, in quem ductus est, numerū cubum esse necesse est.
+
+### CORRELARIVM.
 
 Vnde & manifestum est, quia ex ductu cubi in non cubum, producitur non cubus. Ductoq̃ cubo in numerum aliquem, si fuerit qui inde producitur non cubus, in quem ille ductus fuerit, necesse est esse non cubum.
 
@@ -14,7 +20,13 @@ CAMPANVS. Sit enim ex a cubo in b numerū, productus c cubus, dico b esse cubum:
 
 ## Eucli. ex Zamb. Theorema 5 Propositio 5
 
-**5** Si cubus numerus numerū aliquem multiplicans, cubum fecerit, & multiplicatus cubus erit.
+[Curated heading level=3 type=zamberti_sequence: 5.]
+
+[Margin]
+5
+[/Margin]
+
+Si cubus numerus numerū aliquem multiplicans, cubum fecerit, & multiplicatus cubus erit.
 
 THEON ex Zamb. Cubus enim numerus α numerū aliquem β multiplicans, cubum efficiat γ. Dico quod β cubus est. Ipse enim α seipsum multiplicās, ipsum δ efficiat. Cubus igitur est (per 3 noni) & ipse δ, & quoniā α seipsum multiplicās ipsum δ fecit, ipsum autem β multiplicās ipsum γ fecit, est igitur (per 17 septimi) sicut α ad β, sic δ ad γ. & quoniam ipsi δ, γ, cubi sunt, similes solidi sunt. Ipsorū igitur δ, γ, (per 19 octaui) bini medij sunt proportionales numeri. Estq́; sicut δ ad γ, sic est α ad β: & ipsorū igitur α, β, (per 8 eiusdem) bini medij sunt proportionales numeri, estq́; α cubus: cubus igitur & β, quod oportuit demonstrasse.
 
@@ -26,7 +38,13 @@ C.5 Z.5
 
 ## Eucli. ex Camp. Propositio 6
 
-**6** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I ex ductu cuiusdā numeri in seipsum cubus producatur, eum esse cubum necessario cōprobatur.
+[Curated heading level=3 type=campanus_sequence: 6.]
+
+[Margin]
+6
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I ex ductu cuiusdā numeri in seipsum cubus producatur, eum esse cubum necessario cōprobatur.
 
 CAMPANVS. Sit ut ex a in se fiat b, sitq̃ b cubus: dico ergo a esse cubū. Fiat enim c ex a in b, eritq̃ ex diffinitione, c cubus : & quoniā constat ex 18 septi. q̃ sit a ad b, sicut b ad c. cum sint b & c cubi, sequitur ex 23 octaui. a esse cubum, quod est propositū.
 
@@ -34,7 +52,13 @@ CAMPANVS. Sit ut ex a in se fiat b, sitq̃ b cubus: dico ergo a esse cubū. Fiat
 
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
 
-**6** Si numerus seipsum multiplicans, cubum fecerit, & ipse cubus erit.
+[Curated heading level=3 type=zamberti_sequence: 6.]
+
+[Margin]
+6
+[/Margin]
+
+Si numerus seipsum multiplicans, cubum fecerit, & ipse cubus erit.
 
 THEON ex Zamb. Numerus enim α seipsum multiplicans, cubum efficiat β. Dico quod α cubus est. Ipse enim α ipsum β multiplicās, ipsum efficiat γ. Quoniā igitur α seipsum quidē multiplicans ipsum β fecit, ipsum autem β multiplicās ipsum γ fecit, igitur γ (per 4 noni) cubus est. Et quoniā α seipsum multiplicās ipsum β fecit, ipsum autem β multiplicās ipsum effecit γ, sicut igitur (per 27 sept.) α ad β, sic β ad γ. Et quoniā ipsi β, γ, cubi sunt, similes solidi sunt, ipsorū igitur β, γ. (per 19 octaui) bini sunt medij proportionales numeri, estq́; sicut β ad γ, sic α ad β, & ipsorū igitur α β bini medij sunt proportionales numeri (per eandem:) est autem β cubus, cubus igitur est & α, quod ostendere oportuit.
 
@@ -42,7 +66,13 @@ THEON ex Zamb. Numerus enim α seipsum multiplicans, cubum efficiat β. Dico quo
 
 ## Eucli. ex Camp. Propositio 7
 
-**7** {dropcap:S|lines=?|style=decorated|decoration="serpent ornament"}I numerus compositus in numerū quemlibet ducatur, qui inde producetur erit solidus.
+[Curated heading level=3 type=campanus_sequence: 7.]
+
+[Margin]
+7
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="serpent ornament"}I numerus compositus in numerū quemlibet ducatur, qui inde producetur erit solidus.
 
 CAMPANVS. Sit a numerus cōpositus, qui ducātur in b, & proueniat c. dico c esse numerum solidum. Cum enim a sit cōpositus, numeratur ab aliquo numero, qui sit d, numeretq̃ eum secūdum e. Quia igitur ex e in d fit a, & ex a in b, c, erit ex diffinitione solidorū c solidus, eiusq̃ latera e, d, b, quod est propositū.
 
@@ -50,7 +80,13 @@ CAMPANVS. Sit a numerus cōpositus, qui ducātur in b, & proueniat c. dico c ess
 
 ## Eucli. ex Zamb. Theorema 7 Propositio 7
 
-**7** Si cōpositus numerus numerū aliquem multiplicās, aliquē fecerit, factus solidus erit.
+[Curated heading level=3 type=zamberti_sequence: 7.]
+
+[Margin]
+7
+[/Margin]
+
+Si cōpositus numerus numerū aliquem multiplicās, aliquē fecerit, factus solidus erit.
 
 THEON ex Zamb. Compositus enim numerus α numerū aliquem β multiplicans, ipsum γ efficiat. Dico quod γ solidus est. Quoniam enim α compositus est, eum aliquis numerus metietur (per diffinitionē) metiatur eum δ, & quoties δ ipsum α metitur, tot unitates sint in ε. Igitur ε ipsum δ multiplicans, ipsum effecit α. Et quoniam α
 

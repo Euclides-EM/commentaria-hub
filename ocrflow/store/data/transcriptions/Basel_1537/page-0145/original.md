@@ -4,6 +4,8 @@
 
 ## Eucli. ex Zamb. Theorema 25. Propositio 25
 
+[Curated heading level=3 type=zamberti_sequence: 25.]
+
 [Margin]
 25
 [/Margin]
@@ -20,6 +22,8 @@ small stroke resembling ſ in the left margin beside the proof
 
 Nouem sequentes propositiones quas ad 25 adiecit Campanus, nihil in Zamberto eis respondens habent : nec plures 25 in uetustioribus Euclidis exemplaribus reperiuntur : quare ex additione Campani esse uidentur.
 
+[Curated heading level=3 type=campanus_sequence: 26.]
+
 [Margin]
 26
 [/Margin]
@@ -31,6 +35,8 @@ CAMPANVS. Sit proportio a ad b, maior quàm c ad d: dico quod erit è conuerso, 
 [Diagram: horizontal line segments with tick marks: a longer segment labelled a and another labelled c in the first row; shorter segments labelled b and d in the second row; a short segment labelled e below]
 
 At uero si est b ad a maior quàm d ad c, sit e ad a, ut d ad c: eritq̃ ex duodecim, e ad a minor q̃ b ad a: quare ex prima parte decimæ e est minor b. Ideoq̃ ex secūda parte s, maior erit proportio a ad e, quàm a ad b: & quia per cōuersam proportionalitatem, a ad e, sicut c ad d : erit ex duodecima, proportio c ad d maior quàm a ad b, sed erit minor, relinquitur ergo propositum. Possumus quoq̃ (si libet ) astruere propositum ostensiue: manifestum enim est ex prima parte decimæ, quod illa quantitas cuius ad b est eadem proportio quæ est c ad d, est minor a: eo quòd ponitur maior proportio a ad b quàm c ad d: illa ergo quantitas sit e: cum sit igitur proportio e ad b ut c ad d: erit è conuerso b ad e, ut d ad c. Constat autem ex secunda parte octauæ, quod proportio b ad a : minor est quàm proportio b ad e. Itaq̃ per duodecimam, proportio b ad a: est minor q̃ d ad c. Quod uoluimus.
+
+[Curated heading level=3 type=campanus_sequence: 27.]
 
 [Margin]
 27

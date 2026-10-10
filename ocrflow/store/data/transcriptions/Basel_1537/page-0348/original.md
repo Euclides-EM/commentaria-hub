@@ -8,11 +8,13 @@ THEON ex Zamb, Auferatur enim sicut in præcedentibus descriptionibus, à medio 
 
 ## Eucli.ex Camp. Propositio 106
 
+[Curated heading level=3 type=campanus_sequence: 106.]
+
 [Margin]
 106
 [/Margin]
 
-## LInearum irrationalium quæ sunt residuum & post ipsam subsecutæ, ullam, alij termino & ordine subesse impossibile est, residuo quoque, binomij terminum uel ordine conuenire, non est possibile.
+LInearum irrationalium quæ sunt residuum & post ipsam subsecutæ, ullam, alij termino & ordine subesse impossibile est, residuo quoque, binomij terminum uel ordine conuenire, non est possibile.
 
 CAMPANVS Vult autem per hanc 106, quod residuum, & aliæ quinque lineæ irrationales eā sequentes differūt specie & diffinitione adinuicē, & nulla linea una potest esse sub duabus neque sub pluribus speciebus harū sex linearū irrationaliū quæ sunt residuū. & eius quinq́; comites. & quod omnes species residui differunt ab omnibus speciebus binomij, nec est possibile liueā{printer-error-correction:lineā} unā simul esse residuū & binomiū cuiuscunq́; speciei residui uel binomij. Pars prima sic cōstat, quoniā superficies æquales quadratis residui & suarū quinq́; comitū cum adiunguntur ad lineā rationalē habent secunda latera necessario diuersa abinuicem ex 92 & quinque eam sequētibus. sunt autē secunda latera residuū primum & secundum & deinceps usque ad sextum. Secunda pars cōstat hoc modo. Si eadē linea potest esse simul residuum & binomiū, sit a cuius quadrato superficies æqualis adiungatur ad rationalem lineā b c. sitq́; b d. eritq́; ex 54 linea c d binomium primum, & ex 92 residuum primum Inquantum ergo binomium primū, diuidatur in suas binomiales portiones ad punctum e, sitq́; maior portio c e quæ erat rationalis in longitudine per diffinitionē. inquantū autē est residuum primū, ei adiungatur d g. per cuius abscisionem fuerat residuum primum, eritq́; etiam ex diffinitione c g rationalis in longitudine Cū itaq́; sit utraq́; duarū linearū c g & c e rationalis in longitudine, erit etiā per 9 linea e g rationalis in longitudine. At quia linea d e est rationalis in potētia tantum cum ipsa sit per hypothesin minor portio binomij primi, erit per 68 linea d g residuum, & quia ipsa erat rationalis in potentia tantum. cum per eius abscisionem esset linea c d residuum. sequitur impossibile per 68. Quod ut clarius pateat, esto superficies b d adiuncta ad lineam rationalem b c. æqualis quadrato lineæ d g. Cum itaque linea d g sit rationalis in potentia. erit per 16 linea c d rationalis in longitudine. At cum etiam linea d g sit residuum. erit ex 92 linea c d residuum primū. quod esse non potest, cū linea quæ dicitur residuum, sit irrationalis per 68.
 
@@ -20,11 +22,13 @@ CAMPANVS Vult autem per hanc 106, quod residuum, & aliæ quinque lineæ irration
 
 ## Eucli.ex Zamb. Theorema 87 Propositio 111
 
+[Curated heading level=3 type=zamberti_sequence: 111.]
+
 [Margin]
 111
 [/Margin]
 
-## Apotome non est eadem ei quæ ex binis nominibus.
+Apotome non est eadem ei quæ ex binis nominibus.
 
 <!-- Signature: F -->
 

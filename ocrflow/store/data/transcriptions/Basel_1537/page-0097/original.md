@@ -2,6 +2,8 @@
 
 <!-- Page number: 88 -->
 
+[Curated heading level=3 type=campanus_sequence: 3.]
+
 [Margin]
 3
 [/Margin]
@@ -14,6 +16,8 @@ CAMPANVS. Sint ut prius: assignatus triangulus a b c: assignatusq́; circulus d 
 
 ## Eucli ex Zamb. Problema 3. Propositio 3
 
+[Curated heading level=3 type=zamberti_sequence: 3.]
+
 [Margin]
 3
 [/Margin]
@@ -25,6 +29,8 @@ THEON ex Zamberto. *Sit datus circulus α β γ, datum autem triangulum sit δ �
 [Diagram: triangle λ μ ν circumscribed about circle α β γ with centre κ, radii κ α, κ β, κ γ drawn to the tangent points; beside it the given triangle δ ε ζ with base δ ε produced to η and θ]
 
 ## Eucli. ex Camp. Propositio 4
+
+[Curated heading level=3 type=campanus_sequence: 4.]
 
 [Margin]
 4

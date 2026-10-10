@@ -6,10 +6,12 @@ a rationali positæ in longitudine. Super eam igitur lineetur f g h semicirculus
 
 [Diagram: semicircle f g h on diameter f g, with h on the arc towards the left and chords f h and h g drawn; below it five lines: a solid line a, a dotted line b, a dotted line c, and on one row a short dotted line d and a longer dotted line e]
 
-## Eucli.ex Zamb. — Problema 13 — Propositio 48
+## Eucli.ex Zamb. Problema 13 Propositio 48
+
+[Curated heading level=3 type=zamberti_sequence: 48.]
 
 [Margin]
-28 (sic, for 48)
+28{printer-error-correction:48}
 [/Margin]
 
 Inuenire ex binis nominibus primam.
@@ -18,7 +20,9 @@ THEON ex Zamb. Exponantur bini numeri α γ,γ β,ut compositus ex ipsis α β a
 
 [Diagram: at the right, four lines — a solid line α with tick marks; a solid line with endpoints ε and η divided at ζ, the parts numbered 16 and 12; a shorter solid line θ; and a dotted line of unit points with labels α, γ and β]
 
-## Eucli.ex Camp. — Propositio 43
+## Eucli.ex Camp. Propositio 43
+
+[Curated heading level=3 type=campanus_sequence: 43.]
 
 [Margin]
 43

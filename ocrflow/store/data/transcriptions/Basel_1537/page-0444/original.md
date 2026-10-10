@@ -8,7 +8,13 @@ quod erat ex principio demonstrandum. Hoc ergo modo sequitur, quod latus pentago
 
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
 
-8 Si quinquanguli æquilateri & æquianguli binos ordinatim angulos rectæ lineæ * expliciunt, extrema & media ratione sese inuicem dispescunt, & maiora earum segmenta ipsius quinquanguli lateri sunt æqualia.
+[Curated heading level=3 type=zamberti_sequence: 8.]
+
+[Margin]
+8
+[/Margin]
+
+Si quinquanguli æquilateri & æquianguli binos ordinatim angulos rectæ lineæ * expliciunt, extrema & media ratione sese inuicem dispescunt, & maiora earum segmenta ipsius quinquanguli lateri sunt æqualia.
 
 [Margin]
 Camp. 11
@@ -28,7 +34,13 @@ THEON ex Zamb. Quinquanguli enim æquilateri & æquianguli α β γ δ ε, binos
 
 ## Eucli. ex Zamb. Theorema 9 Propositio 9
 
-9 Si sexanguli & decagoni latus in eodem circulo descriptorū componantur, tota recta linea extrema & media ratione secatur, & maius segmentum est ipsius sexanguli latus.
+[Curated heading level=3 type=zamberti_sequence: 9.]
+
+[Margin]
+9
+[/Margin]
+
+Si sexanguli & decagoni latus in eodem circulo descriptorū componantur, tota recta linea extrema & media ratione secatur, & maius segmentum est ipsius sexanguli latus.
 
 <!-- Signature: Θ -->
 

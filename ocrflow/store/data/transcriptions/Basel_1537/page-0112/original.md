@@ -4,7 +4,13 @@
 
 autem ipsum, multiplex: propter hoc quod minus aliquoties sumptum, ipsum constituat: erunt igitur relatiue dicta adinuicem, pars & multiplex. Nam omnis pars, submultiplex: ut patet per eius diffinitionem.
 
-## 3 Proportio, est habitudo duarum quantæcunq̃ sint eiusdem generis quantitatum, certa alterius ad alteram habitudo.
+[Curated heading level=3 type=campanus_sequence: 3.]
+
+[Margin]
+3
+[/Margin]
+
+Proportio, est habitudo duarum quantæcunq̃ sint eiusdem generis quantitatum, certa alterius ad alteram habitudo.
 
 CAMPANVS. Proportio est habitudo duarum rerum eiusdem generis adinuicē, in eo quod earum altera maior aut minor est reliqua uel sibi æqualis. Nō enim solum in quantitatibus reperitur proportio, sed in ponderibus, potentijs & sonis. In ponderibus quidem & potentijs, uult Plato in Timæo esse proportionem: ubi elemētorum numerum ostendit.
 

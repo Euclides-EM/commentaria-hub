@@ -6,6 +6,8 @@ cylindrus ipso η χ cylindro. Et si minor, minor (per 1 quinti. Quatuor iā exi
 
 ## Eucli. ex Zamb. Theorema 14 Propositio 14
 
+[Curated heading level=3 type=zamberti_sequence: 14.]
+
 [Margin]
 14
 [/Margin]
@@ -17,6 +19,8 @@ THEON ex Zamb. Sint enim in æqualibus basibus α β, γ δ, cylindri ζ δ, ε 
 [Diagram: two cylinders each with an inscribed cone: the left, shorter, has top ellipse with rim ε and centre η, base circle α β with centre θ, the cone rising from the base to apex η; the right, taller, has top circle with rim ζ and centre κ, a middle circle γ δ with centre λ, and a lower circle with rim μ and centre ν, the cone rising from circle γ δ to apex κ]
 
 ## Eucli. ex Camp. Propositio 12
+
+[Curated heading level=3 type=campanus_sequence: 12.]
 
 [Margin]
 12

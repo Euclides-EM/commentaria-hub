@@ -4,6 +4,8 @@
 
 ## Eucli.ex Zamb. Problema 4 Propositio 16
 
+[Curated heading level=3 type=zamberti_sequence: 16.]
+
 [Margin]
 16
 [/Margin]

@@ -10,6 +10,8 @@ corpus multarum baſium quod eſt c d, utraque enim, eſt ſicut diameter a b ad
 
 ## Eucli. ex Zamb. Theorema 16 Propoſitio 18
 
+[Curated heading level=3 type=zamberti_sequence: 18.]
+
 [Margin]
 18
 [/Margin]
@@ -26,6 +28,6 @@ THEON ex Zãb. Intelligatur ſphæræ α β γ, δ ε ζ, diametri uero ipſarũ
 
 Dico iam quod neque ſphæra α β γ, ad maiorem aliquã ipſa δ ε ζ ſphæra triplã habet rationẽ quàm β γ ad ε ζ. Si enim poſſibile habeat ad maiorẽ λ μ ν. Conuerſim igitur ſphæra λ μ ν ad ſphæram α β γ triplã habet rationẽ, quàm diameter ε ζ ad diametrũ β γ. Sicut autẽ λ μ ν ſphæra ad α β γ, ſphæram, ſic δ ε ζ ſphæra ad minorẽ aliquã ipſa α β γ ſphæra, ſicut antea patuit, quoniam maior eſt λ μ ν ipſa δ ε ζ, & ſphæra δ ε ζ ad minorem ipſa α β γ, ſphæra triplam habet rationem quàm ε ζ ad β γ, quod eſt impoſſibile. Igitur ſphæra α β γ, ad maiorem ipſa δ ε ζ ſphæra, triplam rationẽ non habet quàm β ε{printer-error-correction:β γ} ad ε ζ. Patuit autẽ quod neque ad minorem. Ipſa igitur α β γ ſphæra, ad δ ε ζ ſphæram, triplam habet rationem, quàm β γ ad ε ζ. Quod oſtendendum fuerat.
 
-## DVODECIMI LIBRI FINIS.
+DVODECIMI LIBRI FINIS.
 
 <!-- Catchword: EVCLI -->

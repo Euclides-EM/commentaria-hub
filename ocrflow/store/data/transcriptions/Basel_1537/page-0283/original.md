@@ -4,6 +4,8 @@
 
 ## Eucli ex Camp. Propositio 26
 
+[Curated heading level=3 type=campanus_sequence: 26.]
+
 [Margin]
 26
 [/Margin]
@@ -25,6 +27,8 @@ CAMPANVS. Si autē cura esset inuenire duas lineas mediales potentia tantum cōm
 [Diagram: five horizontal lines in the right margin, labelled: R. 54 — d R. R. 1944 — d R. 36 (sic, apparently for b R. 36) — e R. R. 499 — c R. 10]
 
 ## Eucli.ex Zamb. Problema 9 Propositio 32
+
+[Curated heading level=3 type=zamberti_sequence: 32.]
 
 [Margin]
 32

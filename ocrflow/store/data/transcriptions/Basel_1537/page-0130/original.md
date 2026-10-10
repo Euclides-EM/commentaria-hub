@@ -2,6 +2,8 @@
 
 <!-- Page number: 121 -->
 
+[Curated heading level=3 type=campanus_sequence: 9.]
+
 [Margin]
 9
 [/Margin]
@@ -13,6 +15,8 @@ CAMPANVS. Sit duarum quantitatum a & b, proportio una ad c, dico eas esse æqual
 [Diagram: horizontal line segments a and b above, with segment c below, in the right margin]
 
 ## Eucli. ex Zamb. Theorema 9 Propositio 9
+
+[Curated heading level=3 type=zamberti_sequence: 9.]
 
 [Margin]
 9
@@ -26,6 +30,8 @@ THEON ex Zamb. Habeat inquam utraque ipsarum α β, ad γ, eandē rationem. Dico
 
 ## Eucli. ex Camp. Propositio 10
 
+[Curated heading level=3 type=campanus_sequence: 10.]
+
 [Margin]
 10
 [/Margin]
@@ -38,6 +44,8 @@ CAMPANVS. Quod si fuerit maior proportio a ad c quàm b ad c, dico a esse maiore
 
 ## Eucli. ex Zamb. Theorema 10 Propositio 10
 
+[Curated heading level=3 type=zamberti_sequence: 10.]
+
 [Margin]
 10
 [/Margin]
@@ -49,6 +57,8 @@ THEON ex Zamb. Habeat enim α, ad γ, maiorem rationem, quàm β, ad γ. Dico qu
 [Diagram: three vertical line segments labelled α, β, γ in the right margin]
 
 ## Eucli. ex Camp. Propositio 11
+
+[Curated heading level=3 type=campanus_sequence: 11.]
 
 [Margin]
 11

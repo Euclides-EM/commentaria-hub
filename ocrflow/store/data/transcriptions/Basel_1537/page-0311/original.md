@@ -10,11 +10,13 @@ CAMPANVS. Si hæc quoque fuerit linea a b linea maior diuisa secundum terminum s
 
 ## Eucli.ex Zãb. Theorema 45 Propositio 63
 
+[Curated heading level=3 type=zamberti_sequence: 63.]
+
 [Margin]
 63
 [/Margin]
 
-## Quod ex maiore ad rationalem compararum{printer-error-correction:comparatum} latitudinem efficit ex binis quartam nominibus.
+Quod ex maiore ad rationalem compararum{printer-error-correction:comparatum} latitudinem efficit ex binis quartam nominibus.
 
 THEON ex Zamb. Sit maior α β, diuisa in γ, ut maior sit α γ, ipsa γ β, Rtionalis{printer-error-correction:ra-} uero esto δ γ{printer-error-correction:δ ε}, & ei quod ex α β, æquum ad ipsam δ ε, comparetur (per 45 primi,) δ ζ, parallelogrammum, latitudinem efficiens δ η. Dico quod δ η, ex binis est quarta nominibus. Construantur eadem quæ in præostensis. Et quoniam (per 39 decimi) maior est α β. diuisa in γ, ipsæ α γ, γ β, potentia sunt incommensurabiles efficientes conflatum ex ijs quæ ex ipsis fiūt quadrata rationale, quod uero sub ipsis medium. Quon:ā{printer-error-correction:Quoniã} igitur rationale est conflatū ex ijs quæ ex α γ, γ β, rationale igitur est δ λ, rationalis igitur est & μ δ, & ipsi δ ε longitudine commensurabilis. Rursus quoniam medium est quod bis sub α γ, γ β, hoc est μ ζ, & ad rationalem comparatur μ λ, rationalis igitur (per 22 decimi) est & μ η, & ipsi δ ε, longitudine incōmensurabilis. Incommensurabilis igitur est (per 13 decimi,) & δ μ, ipsi μ η, lōgitudine. Ipsæ igitur δ μ, μ η, rationales sunt potentia tantum commensurabiles, ex binis igitur nominibus est δ η. Ostendendū iam quod & quarta. Similiter iam sicut & in præcedentibus rationabimur quod maior est δ μ ipsa μ θ, & quotquot sub δ κ, κ μ, æquum est ei quod ex ν η. Quoniam igitur incommensurabile est quod ex α γ, ei quod ex γ β, incommensurabile igitur est & δ θ ipsi κ λ. Quare (per primam sexti & 11 decimi,) & δ κ. ipsi κ μ incommensurabilis est. Si autem fuerint binæ rectæ lineæ inæquales, quartæ autem parti eius quod ex minore (per 17 decimi.) æquum comparatum fuerit parallelogrammum ad maiorem forma quadrata deficiens, & in incōmensurabilia ipsam diuiserit, maior minore maius potest eo quod à sibi incommēsurabili in longitudine, ipsa igitur δ μ, ipsa μ η maius potest eo quod à sibi incommensurabili, sunt & ipsæ δ μ, μ η, rationales potentia tantum commensurabiles. & δ μ, commensurabilis est ipsi expositæ rationali δ ε, ipsa igitur δ η, ex binis nominibus est quarta, quod erat ostendendum.
 
@@ -24,11 +26,13 @@ THEON ex Zamb. Sit maior α β, diuisa in γ, ut maior sit α γ, ipsa γ β, Rt
 
 ## Eucli.ex Camp. Propositio 58
 
+[Curated heading level=3 type=campanus_sequence: 58.]
+
 [Margin]
 58
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I lineæ rationali quadrato lineæ potētis supra rationale & mediale æqualis parte altera longior forma adiungatur, alterum latus eius, binomium quintū esse necesse est.
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I lineæ rationali quadrato lineæ potētis supra rationale & mediale æqualis parte altera longior forma adiungatur, alterum latus eius, binomium quintū esse necesse est.
 
 CAMPANVS Proposita linea a b ea quæ potest supra mediale & rationale diuisa secundum eius diffinitionem ad punctum c, nihil immutetur de reliquis, sequiturq̃ lineam f g esse binomium quintum, Cum enim partes huius lineæ a b contineāt rationalem superficiem necesse est ut superficies g m, ideoque per 16 linea n g) sit rationalis. Cumque ambo quadrata partium huius lineæ pariter accepta sint mediale, erit superficies e n medialis, & per 20 linea f n rationalis in potentia tantum lineæ f e potentia rationali communicans. At quia portiones
 

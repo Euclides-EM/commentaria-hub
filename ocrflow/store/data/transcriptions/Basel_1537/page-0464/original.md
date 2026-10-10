@@ -8,6 +8,8 @@ tione lineæ secundum proportionem medium duoqꝫ extrema diuisæ & ea parte 16 
 
 ## Eucl.ex Camp. Propositio 3
 
+[Curated heading level=3 type=campanus_sequence: 3.]
+
 [Margin]
 3
 [/Margin]

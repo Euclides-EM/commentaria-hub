@@ -6,22 +6,34 @@ Diuidatur enim e secundū quantitatē a sui multiplicis, & f secundum quantitate
 
 [Diagram: at right, horizontal lines labelled a, b, c and, longer and divided by ticks, e and f]
 
-## Eucli. ex Zamb. — Theorema 3 — Propositio 3
+## Eucli. ex Zamb. Theorema 3 Propositio 3
 
-## 3 Si primum secundi æque fuerit multiplex & tertium quarti, sumantur autem æque multiplicia primi & tertij, etiam ex æquo eorum quæ sumpta sunt utrunque utriusque æque erit multiplex, alterum quidem secundi, alterum autem quarti.
+[Curated heading level=3 type=zamberti_sequence: 3.]
+
+[Margin]
+3
+[/Margin]
+
+Si primum secundi æque fuerit multiplex & tertium quarti, sumantur autem æque multiplicia primi & tertij, etiam ex æquo eorum quæ sumpta sunt utrunque utriusque æque erit multiplex, alterum quidem secundi, alterum autem quarti.
 
 THEON ex Zamb. *Primum enim a secūdi β, æque sit multiplex, & tertiū γ, ipsius δ, quarti, sumanturq̃ ipsorū a γ, æque multiplicia ε ζ, & η θ. Dico quod æque multiplex est ε ζ, ipsius β, & η θ, ipsius δ. Quoniā enim æque multiplex est ε ζ, ipsius a, & η θ, ipsius γ, quot igitur sunt magnitudines æquales in ε ζ, ipsi a, tot etiā sunt magnitudines in η θ, æquales ipsi γ. Dirimatur quidē ε ζ, in magnitudines æquales ipsi a, hoc est ε κ, & κ ζ, & η θ, in magnitudines æquales ipsi γ, hoc est η λ, & λ θ, erit utiq̃ æqualis multitudo ipsorū ε κ, & κ ζ, multitudini ipsorū η λ, & λ θ. Et quoniā æque multiplex est a, ipsius β, & γ, ipsius δ, æqualis autē est ε κ, ipsi a, & η λ, ipsi γ, æque igitur multiplex est ε κ, ipsius β, & η λ, ipsius δ. Ac per hoc iam æque multiplex est κ ζ, ipsius β, & λ θ, ipsius δ. Quoniā igitur primū ε κ, ipsius β, secundi æque est multiplex & tertium η λ, ipsius δ, quarti: est autem & quintū κ ζ, ipsius β, secundi æque multiplex, & sextū λ θ, ipsius δ, quarti, compositū igitur (per 2 quinti) primum & quintū ε ζ, ipsius β, secundi æque est multiplex, & tertium & sextum η θ, ipsius δ, quarti. Si primum igitur secundi æque fuerit multiplex & tertium quarti, sumanturq̃ primi & tertij æque multiplicia, etiā ex æquo eorum quæ sumpta sunt utrunq̃ utriusq̃ æque erit multiplex, alterum secundi, alterum quarti, quod oportebat demonstrare.*
 
 [Diagram: in right margin, vertical lines of varying heights: tall lines ε ζ and η θ divided at κ and λ, beside shorter lines labelled a, β, γ, δ]
 
-## Eucli. ex Camp. — Propositio 4
+## Eucli. ex Camp. Propositio 4
 
-4 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerit proportio primi ad secundum sicut tertij ad quartum, ad primum autem & tertium æque multiplicia assignētur itemque ad secundum & quartum multiplices æquales, erunt assignatæ multiplices eodem ordine proportionales.
+[Curated heading level=3 type=campanus_sequence: 4.]
+
+[Margin]
+4
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerit proportio primi ad secundum sicut tertij ad quartum, ad primum autem & tertium æque multiplicia assignētur itemque ad secundum & quartum multiplices æquales, erunt assignatæ multiplices eodem ordine proportionales.
 
 CAMPANVS. Sit proportio a primi ad b secundū, sicut c tertij ad d quartū, sumanturq̃ e ad a, & f ad c, æque multiplicia: itēq̃ g ad b, & h ad d, æque multiplicia. Dico quod proportio e ad g, est sicut f ad h. Sumam k ad e, & l ad f, æque multiplicia, itemque m ad g: & n ad h, æque multiplicia. Quia ergo e & f sunt æque multiplicia ad a, & c, itemq̃ k & l æque multiplicia ad e & f, erunt per præmissam k & l, æque multiplicia ad a & c, per eandem quoq̃ erunt m & n, æque multiplicia ad b, & d. Quare per cōuersionem diffinitionis incōtinuæ proportionalitatis, k ad m, & l ad n, similiter se habebunt in addendo, diminuendo & æquādo. Quia ergo k & l sunt æque multiplicia ad e & f, itemq̃ m & n, æque multiplicia ad g & h, erit per diffinitionem incontinuæ proportionalitatis proportio e ad g, sicut f ad h, quod est propositum.
 
 [Diagram: at right, twelve vertical lines of varying heights standing over the letters k e a b g m l f c d h n]
 
-## Eucli. ex Zamb. — Theorema 4 — Propositio 4
+## Eucli. ex Zamb. Theorema 4 Propositio 4
 
 <!-- Catchword: Si -->

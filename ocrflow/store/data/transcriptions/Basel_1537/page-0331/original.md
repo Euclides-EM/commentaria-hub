@@ -6,6 +6,8 @@ igitur β η, η γ, rationales sunt potentia tantum cōmēsurabiles. Igitur β 
 
 ## Eucli.ex Camp. Propositio 85
 
+[Curated heading level=3 type=campanus_sequence: 85.]
+
 [Margin]
 85
 [/Margin]
@@ -16,7 +18,11 @@ CAMPANVS. Residuum sextum sic reperitur. Erit ut prius linea a rationalis posita
 
 [Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); dotted number line with labels f and g]
 
-## Inuenire sextam apotomen.
+[Curated heading level=2 type=missing-headers-in-print: Eucli. ex Zamb. Problema 24 Propositio 90]
+
+[Curated heading level=3 type=zamberti_sequence: 90.]
+
+Inuenire sextam apotomen.
 
 [Margin]
 90
@@ -33,6 +39,8 @@ THEON ex Zamb. Exponatur rationalis α, & tres numeri ε, β γ, γ δ, rationem
 [Diagram: line with points α, β, δ (α at the left end, β toward the right, δ at the right end)]
 
 ## Eucli. ex Camp. Propositio 86
+
+[Curated heading level=3 type=campanus_sequence: 86.]
 
 [Margin]
 86

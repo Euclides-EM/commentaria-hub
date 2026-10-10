@@ -2,6 +2,8 @@
 
 <!-- Page number: 117 -->
 
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
 [Margin]
 4
 [/Margin]
@@ -18,6 +20,8 @@ CORRELARIVM Hinc manifestū est quod si quatuor magnitudines proportionales fuer
 
 ## Eucli. ex Camp. Propositio 5
 
+[Curated heading level=3 type=campanus_sequence: 5.]
+
 [Margin]
 5
 [/Margin]
@@ -31,6 +35,8 @@ CAMPANVS Sit quantitas a b tota pars quantitatis c d, quota este b ipsius a b, m
 [Diagram: horizontal line segments with points c, f, d and a, e, b in the text column]
 
 ## Eucli. ex Zamb. Theorema 5 Propositio 5
+
+[Curated heading level=3 type=zamberti_sequence: 5.]
 
 [Margin]
 5

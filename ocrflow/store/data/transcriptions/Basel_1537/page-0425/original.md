@@ -6,9 +6,15 @@ tij, linea h e K, contingens circulū minorem. Postea uero quadrantē a b maiori
 
 [Diagram: circle with centre g; on the upper arc the points b, m, p, n, K, with p at the top; lines fan from g to the arc points; q inside where the perpendicular from g crosses the chord]
 
-## Eucli. ex Zamb. Theorema 1 Propositio 16
+## Eucli. ex Zamb. Theorema{printer-error-correction:Problema} 1 Propositio 16
 
-## 16 Binis orbibus circum idem centrum existētibus, in maiori orbe multāgulū æquilaterū & parilaterū inscribere, non tangens orbē minorē in superficie.
+[Curated heading level=3 type=zamberti_sequence: 16.]
+
+[Margin]
+16
+[/Margin]
+
+Binis orbibus circum idem centrum existētibus, in maiori orbe multāgulū æquilaterū & parilaterū inscribere, non tangens orbē minorē in superficie.
 
 THEON ex Zamb. Sint bini orbes α β γ δ, ε ζ η θ, circū idem cētrum κ. Oportet in maiori circulo α β γ δ, multāgulū æquilaterū & parilaterū inscribere, nō tangens ipsum ε ζ η θ, circulū. Excitetur per κ centrū, recta linea β δ, & a signo η ipsi δ β rectæ lineæ ad angulos rectos excitetur (per 12 primi) α η, & extendatur in γ. Igitur α γ tangit ipsum ε ζ η θ orbem. Secantes iam (per 30 tertij) ipsam β α δ circunferentiam diuidue, & ipsius dimidium bifariā, & hoc semper efficientes (per 1 decimi) relinquemus quandam circunferentiā minorē ipsa α δ, relinquatur, & esto λ δ, & ab ipso λ in β δ, perpendicularis excitetur (per 12 primi) λ μ, extendaturq̃, in ν, & connectantur ipsæ λ δ, δ ν, λ ν. Igitur λ δ, ipsi δ ν, est æqualis. Et quoniā parallelus est α γ ipsi λ ν, sed α γ tangit ipsum ε ζ η θ, orbem: igitur λ μ non tangit ipsum orbem ε ζ
 

@@ -8,6 +8,8 @@ Quoniam ostensum est quod quæ longitudine commēsurabiles omnino etiam potentia
 
 ## Eucli.ex Zamb. Theorema 16 Propositio 19
 
+[Curated heading level=3 type=zamberti_sequence: 19.]
+
 [Margin]
 19
 [/Margin]
@@ -20,6 +22,8 @@ THEON ex Zāb. Sub ratiōalibus enim lōgitudine cōmensurabilibus rectis lineis
 
 ## Eucli.ex Camp. Propositio 16
 
+[Curated heading level=3 type=campanus_sequence: 16.]
+
 [Margin]
 16
 [/Margin]
@@ -30,7 +34,9 @@ CAMPANVS Hæc est quasi conuersa prioris. Vt si superficies a c adiuncta ad line
 
 [Diagram: tall rectangle divided at its middle by a horizontal line; labels: d at the top right corner, a and b at the ends of the dividing line (a left, b right), c at the bottom right corner]
 
-## Eucli,ex Zamb. Theorema 17 Propositio 20
+## Eucli.ex Zamb. Theorema 17 Propositio 20
+
+[Curated heading level=3 type=zamberti_sequence: 20.]
 
 [Margin]
 20

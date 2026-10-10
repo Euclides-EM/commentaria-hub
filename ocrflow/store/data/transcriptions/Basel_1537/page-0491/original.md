@@ -6,9 +6,15 @@
 
 [Diagram: the octahedron drawn as a wide lozenge with the inscribed cube shown as an inner square; points labeled α, β, γ, δ, ε, ζ, η, θ, κ, λ, μ, ν]
 
-## Eucli. ex Zamb. — Theorema 5. — Propositio 5
+## Eucli. ex Zamb. Theorema{printer-error-correction:Problema} 5. Propositio 5
 
-## 5 In dato icosahedro dodecahedrum inscribere.
+[Curated heading level=3 type=zamberti_sequence: 5.]
+
+[Margin]
+5
+[/Margin]
+
+In dato icosahedro dodecahedrum inscribere.
 
 HYPSICLES ex Zamb. Exponatur quinquangulum ipsius icosahedri α β γ δ ε, & centra circulorum qui circū ζ α β, ζ β γ, ζ γ δ, ζ δ ε, ζ ε α triangula, sintq̃ η, θ, κ, λ, μ, connectanturq̃ η θ, θ κ, κ λ, λ μ, μ η. Et rursus connexæ α ζ, β ζ, extendantur in ζ ν, ζ ξ, bifariam nempe ipsæ α β, secabuntur in ipsis ζ ν, ζ ξ signis. Et sicut ζ ν ad ν ο, sic η θ ad θ κ, æqualis igitur & η θ ipsi θ κ. Similiter iam & reliqua ipsius η θ κ λ μ pentagoni latera, æqualia demonstrabuntur. Dico quod & æquiangulū.
 

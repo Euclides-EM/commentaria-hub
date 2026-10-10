@@ -6,6 +6,8 @@ distare à centro. Aliter idem. Quadratum enim e d, per penultimã primi, ualet 
 
 ## Eucli. ex Zamb. Theorema 13. Propositio 14.
 
+[Curated heading level=3 type=zamberti_sequence: 14.]
+
 [Margin]
 14
 [/Margin]
@@ -17,6 +19,8 @@ THEON ex Zamberto. Sit circulus α β γ δ, & in eo, sint æquales rectæ line�
 [Diagram: circle α β γ δ with chords α β and γ δ; centre within with perpendiculars ε ζ and ε η upon the chords; ζ, ε, η labelled inside, α, β, γ, δ on the circumference]
 
 ## Eucli. ex Camp. Propositio 14
+
+[Curated heading level=3 type=campanus_sequence: 14.]
 
 [Margin]
 14

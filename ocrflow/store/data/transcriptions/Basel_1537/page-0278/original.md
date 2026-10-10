@@ -14,11 +14,13 @@ Præcedentes duæ ex Campano propositiones, scilicet, 22. & 23. tribus ex Zamber
 
 ## Eucli.ex Zamb. Theorema 21 Propositio 24
 
+[Curated heading level=3 type=zamberti_sequence: 24.]
+
 [Margin]
 24
 [/Margin]
 
-## Sub medijs longitudine commensurabilibus rectis lineis comprehensum rectangulum, medium est.
+Sub medijs longitudine commensurabilibus rectis lineis comprehensum rectangulum, medium est.
 
 THEON ex Zamberto. Sub medijs enim longitudine commensurabilibus rectis lineis α β, β γ, comprehendatur rectangulum α γ, dico quod α γ medium est. Describatur enim (per 49 primi) ex α β, quadratum α δ, medium igitur est α δ. Et quoniam cōmensurabilis est α β ipsi β γ longitudine, æqualis autem est α β ipsi β δ, commensurabilis igitur est δ β ipsi β γ longitudine. Quare & δ α ipsi α γ (per correlarium 23 decimi) commensurabile est : medium autem est δ α, medium igitur est & α γ, quod oportebat ostendere.
 
@@ -26,11 +28,13 @@ THEON ex Zamberto. Sub medijs enim longitudine commensurabilibus rectis lineis �
 
 ## Eucli.ex Zamb. Theorema 22 Propositio 25
 
+[Curated heading level=3 type=zamberti_sequence: 25.]
+
 [Margin]
 25
 [/Margin]
 
-## Sub medijs potentia tantum commensurabilibus rectis lines{printer-error-correction:lineis} comprehensum rectangulum, aut rationale aut medium est.
+Sub medijs potentia tantum commensurabilibus rectis lines{printer-error-correction:lineis} comprehensum rectangulum, aut rationale aut medium est.
 
 THEON ex Zamberto. Sub medijs potentia tautum{printer-error-correction:tantum} cōmensurabilibus rectis lineis α β, β γ, cōprehendatur rectangulū α γ. Dico quod α γ, aut rationale, aut mediū est. Describantur enim (per 46 primi) ex α β & β γ, quadrata α δ & β ε, medium est igitur utrumq̃ ipsorū α δ & β ε. Exponaturq̃ rationalis ζ η, ipsiq̃ α δ æquum ad ζ η comparetur (per 4, primi) rectangulū paralle
 

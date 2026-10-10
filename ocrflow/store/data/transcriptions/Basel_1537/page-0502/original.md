@@ -2,7 +2,9 @@
 
 <!-- Page number: 491 -->
 
-## Theorema 9 — Apparens 9
+## Theorema 9 Apparens 9
+
+[Curated heading level=3 type=zamberti_sequence: 9.]
 
 Signorum circuli semicirculi qui exordium in eodem parallelo nõ habuerint inæquali tempore oriuntur toti, & in pluri qui cũ cancro, in minori autem qui subsequuntur, in minimis uero qui cum capricorno, quicunq̃ autem exordium in eodem habuerint, parallelo in æqualibus temporibus oriuntur.
 
@@ -10,7 +12,9 @@ Sit in mūdo horizon a b c d, æstiuus autem tropicus sit b c, zodiacus uero cir
 
 [Diagram: sphere with horizon circle a b c d; zodiac circle d e b f crossing it; parallel circles through e and f with endpoints g, h and k, l on the horizon; further points m and n on the parallels; b at right, c below, a at left]
 
-## Theorema 10 — Apparens 10
+## Theorema 10 Apparens 10
+
+[Curated heading level=3 type=zamberti_sequence: 10.]
 
 Si zodiaci circuli bini semicirculi cõmunem quandã habentes circūferentiam inæquali tempore orti fuerint, & ex opposito circunferentiæ inæquali tempore oriuntur, & eædem erunt differentiæ
 

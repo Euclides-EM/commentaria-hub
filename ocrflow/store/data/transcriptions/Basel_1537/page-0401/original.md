@@ -6,6 +6,8 @@ dratū diametri a b, erit sicut circuli c d ad superficiē f minorē circulo a b
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 
+[Curated heading level=3 type=zamberti_sequence: 2.]
+
 [Margin]
 2
 [/Margin]

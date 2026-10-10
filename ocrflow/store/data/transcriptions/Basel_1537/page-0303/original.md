@@ -14,7 +14,9 @@ Sint bina quadrata α β, β γ, ponaturq̃ (per 14 primi. ut δ β, ipsi β ε,
 
 [Diagram: square with corners κ (top-left), γ (top-right), α (bottom-left), θ (bottom-right); a horizontal line δ–β–ε and a vertical line ζ–β–η cross at β, dividing it into the two squares α β and β γ with their supplements]
 
-## Eucl. ex Zamb. Problema 16 Propositio 54
+## Eucl. ex Zamb. Problema 16{printer-error-correction:Theorema 36} Propositio 54
+
+[Curated heading level=3 type=zamberti_sequence: 54.]
 
 [Margin]
 54

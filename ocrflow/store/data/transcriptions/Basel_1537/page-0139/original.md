@@ -6,6 +6,8 @@ d f. tertia erit per 14 e h secunda, maior e f, quarta, quod quia est impossibil
 
 ## Eucli.ex Zamb. Theorema 18 Propositio 18 Cõuersa præcedentis.
 
+[Curated heading level=3 type=zamberti_sequence: 18.]
+
 [Margin]
 18
 [/Margin]
@@ -17,6 +19,8 @@ THEON ex Zãb. Sint disiunctæ magnitudines proportionales α γ, ε β, γ ζ, 
 [Diagram: two vertical bars with tick marks: one marked α at top with point ε and β at bottom; the other marked γ at top with points ζ and η, and δ at bottom]
 
 ## Eucli.ex Camp. Propositio 19.
+
+[Curated heading level=3 type=campanus_sequence: 19.]
 
 [Margin]
 19
@@ -33,6 +37,8 @@ CAMPANI additio. Ex hac autem decimanona, & permutata proportionalitate demonstr
 [Diagram: five vertical bars of differing heights with tick marks, labeled below a, b, c, d, e]
 
 ## Eucli.ex Zamb. Theorema 19 Propositio 19
+
+[Curated heading level=3 type=zamberti_sequence: 19.]
 
 [Margin]
 19

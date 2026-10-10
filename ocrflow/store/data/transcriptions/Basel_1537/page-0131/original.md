@@ -8,6 +8,8 @@ CAMPANVS Propositionem hanc quam Euclides in principio primi annumerauit inter c
 
 ## Eucli. ex Zamb. Theorema 11 Propositio 11
 
+[Curated heading level=3 type=zamberti_sequence: 11.]
+
 [Margin]
 11
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamberio. Sint enim sicut α, ad β, sic γ, ad δ, sicut uero γ, ad �
 [Diagram: group of tall vertical line segments of graduated heights with division marks, letters η α β λ γ δ μ ε ζ ν beneath, in the right margin]
 
 ## Eucli. ex Camp. Propositio 12
+
+[Curated heading level=3 type=campanus_sequence: 12.]
 
 [Margin]
 12

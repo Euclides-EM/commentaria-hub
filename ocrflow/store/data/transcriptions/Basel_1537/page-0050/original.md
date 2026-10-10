@@ -8,6 +8,8 @@ Sint duæ lineæ a b & c, quarū una scilicet a b, in quotlibet partes diuidatur
 
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
 
+[Curated heading level=3 type=zamberti_sequence: 1.]
+
 [Margin]
 1
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. Sint binæ rectæ lineæ α & β γ, seceturq̃ earū altera β �
 [Diagram: rectangle β γ θ η divided by the verticals δ κ and ε λ into three rectangles; β, δ, ε, γ along the top, η, κ, λ, θ along the bottom, ζ below η; beneath it the separate line α]
 
 ## Eucli. ex Camp. Propositio 2.
+
+[Curated heading level=3 type=campanus_sequence: 2.]
 
 [Margin]
 2
@@ -32,6 +36,8 @@ CAMPANVS. Sit linea diuisa in a c & c d & d b, dico q̃ illud quod fit ex ductu 
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 
+[Curated heading level=3 type=zamberti_sequence: 2.]
+
 [Margin]
 2
 [/Margin]
@@ -43,6 +49,8 @@ THEON ex Zamb. Recta enim linea α β, secetur utcunq̃, in signo γ. Dico quod 
 [Diagram: square on α β with α, γ, β along the top and δ, ζ, ε along the bottom; the vertical γ ζ dividing it in two]
 
 ## Eucli. ex Camp. Propositio 3.
+
+[Curated heading level=3 type=campanus_sequence: 3.]
 
 [Margin]
 3

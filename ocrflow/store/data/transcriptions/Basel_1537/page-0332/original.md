@@ -10,6 +10,8 @@ mo b c, dico latus tetragonicum superficiei a c, esse residuum. Adiungatur enim 
 
 ## Eucli.ex Zamb. Theorema 67 Propositio 91
 
+[Curated heading level=3 type=zamberti_sequence: 91.]
+
 [Margin]
 91
 [/Margin]

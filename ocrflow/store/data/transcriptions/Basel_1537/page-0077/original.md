@@ -2,6 +2,8 @@
 
 <!-- Page number: 68 -->
 
+[Curated heading level=3 type=zamberti_sequence: 16.]
+
 [Margin]
 16
 [/Margin]
@@ -14,7 +16,9 @@ THEON ex Zamberto. Sit circulus α β γ, circa centrum δ, & dimetientem α β.
 
 CORRELARIVM. Hinc manifestum est, quod à diametri circuli extremitate ad angulos rectos ductæ ipsum circulum tangit, & quod recta linea circulum in uno signo tantum tangit, quoniam ostensum est (per 2 tertij,) quod quæ in duobus illis signis incidit, intra ipsum cadit, quod demonstrasse oportuit.
 
-## Eucli.ex Camp.  Propositio 16
+## Eucli.ex Camp. Propositio 16
+
+[Curated heading level=3 type=campanus_sequence: 16.]
 
 [Margin]
 16
@@ -26,7 +30,9 @@ CAMPANVS. Sit circulus datus a b cuius centrum c, punctusque datus d, uolo ergo 
 
 [Diagram: two concentric circles with centre c; d at the left upon the outer circle, e at the top upon the outer circle, a and b upon the inner circle; the lines d c, a e, e c and d b are drawn]
 
-## Eucli.ex Zamb.  Problema 2  Propositio 17
+## Eucli.ex Zamb. Problema 2 Propositio 17
+
+[Curated heading level=3 type=zamberti_sequence: 17.]
 
 [Margin]
 17

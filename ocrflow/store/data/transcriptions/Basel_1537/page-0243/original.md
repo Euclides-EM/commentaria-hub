@@ -16,7 +16,13 @@ Quod 11 secundi proponit faciendum in lineis, demonstrat hoc impossibile esse in
 
 ## Eucli. ex Zamb. Theorema 15 Propositio 15
 
-**15** Si tres numeri continue proportionales fuerint minimi, eandem eis habentium rationem, bini quilibet compositi ad reliquum primi erunt.
+[Curated heading level=3 type=zamberti_sequence: 15.]
+
+[Margin]
+15
+[/Margin]
+
+Si tres numeri continue proportionales fuerint minimi, eandem eis habentium rationem, bini quilibet compositi ad reliquum primi erunt.
 
 THEON ex Zamber. Sint tres numeri continue proportionales, minimi eandem eis habentium rationem α, β, γ. Dico quod ipsorum α, β, γ, bini quilibet compositi, ad reliquum primi sunt, scilicet α β ad γ, & β γ ad α, & α γ ad β. Assumantur (per 35 septimi) bini minimi numeri eandem enim ipsis α,β,γ, habentium rationem, sintq̃ δ ε, ε ζ, manifestum iam est quod δ ε seipsum multiplicans, ipsum effecit α, & ipsum ε,ζ, multiplicans, ipsum β fecit, & insuper ε ζ seipsum multiplicans, ipsum effecit γ. Et quoniam ipsi δ ε, ε ζ, minimi sunt, primi adinuicem sunt (per 24 septimi.) Si autem bini numeri primi adinuicem fuerint, & uterque simul ad alterum primus est (per 30 septimi.) Igitur δ ζ, ad utrunque ipsorum δ ε, ε ζ, primus est. Sed & δ ε ad ε ζ primus est. Ipsi igitur δ ζ, δ ε, ad ipsum ε ζ primi sunt, & qui ex δ ζ, δ ε, igitur, ad ε ζ (per 26 septimi) primus est. Si uero bini numeri primi fuerint adinuicem, qui ex uno eorum gignitur ad reliquum primus est (per 27 septimi) quare qui ex δ ζ, δ ε, ad eum qui est ex ε ζ, primus est. Sed qui ex ζ δ, δ ε, est qui ex δ ε una cum eo qui ex δ ε, ε ζ, (per 3 secundi.) Qui igitur ex δ ε una cum eo qui ex δ ε, ε ζ, ad eum qui ex ε ζ primus est. Est autē qui ex δ ε, ipse α, qui uero ex δ ε, ε ζ, ipse β, qui autē ex ε ζ, est γ. Ipsi α,β, igitur cōpositi, ad γ primi sunt. Similiter ostēdemus quod ipsi β, γ, ad α primi. Dico iam quod ipsi α,γ, ad β primi sunt: nam quoniā δ ζ ad utrunq̃ ipsorū δ ε, ε ζ, primus est, & qui ergo ex δ ζ, ad eum qui sub δ ε, ε ζ, primus est. Sed ei qui ex δ ζ, æquales sunt qui ex δ ε, ε ζ, una cum eo qui bis est sub δ ε, ε ζ. Si enim quæ ex δ ε una cum eo quæ ex ε ζ, & qui sub δ ε, ε ζ, non essent primi, cum cōmunis dimensio metiatur compositum, non erunt qui ex δ ε, ε ζ, una cum eo qui sub δ ε, ε ζ, & qui sub δ ε, ε ζ, primi. At iterum cum communis dimensio metiatur & compositū, non erunt qui ex δ ε, ε ζ, una cum eo qui sub δ ε, ε ζ bis, & qui sub δ ε, ε ζ, adinuicem primi, cuius contrarium est ostensum.
 

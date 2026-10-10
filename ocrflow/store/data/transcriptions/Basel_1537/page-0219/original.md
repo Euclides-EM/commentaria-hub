@@ -8,6 +8,8 @@ præmissæ, appositum erat a & b esse contra se primos, quod non apponitur hic a
 
 ## Eucli.ex Zamb. Theorema 8 Propositio 10 Cōuersa præcedētis.
 
+[Curated heading level=3 type=zamberti_sequence: 10.]
+
 [Margin]
 10
 [/Margin]

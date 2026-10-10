@@ -12,7 +12,13 @@ LEMMA. Quod autem si rectilinea æqualia & similia fuerint similis rationis late
 
 ## Eucli.ex Camp. Propositio 22
 
-## 22 CVnctæ superficies æquidistantium laterum, quæ circa diametrũ consistunt, toti parallelogrammo atque sibi inuicem sunt similes.
+[Curated heading level=3 type=campanus_sequence: 22.]
+
+[Margin]
+22
+[/Margin]
+
+CVnctæ superficies æquidistantium laterum, quæ circa diametrũ consistunt, toti parallelogrammo atque sibi inuicem sunt similes.
 
 CAMPANVS. Sit ut in parallelogrammo b d cuius diameter a c, consistant superficies g h & f κ æquidistantium laterum circa diametrum dico eas esse similes toti parallelogrammo & sibi inuicem, est enim per secũdã huius, b g ad g c & d h ad h c, sicut a e ad e c, ergo coniunctim b c ad c g & d c ad c h, sicut a c ad c e, quare per 11 quinti, bc ad c g: sicut d c ad c h, sed etiã sicut a b ad e g cũ a b sit æqualis d c.& e g, h c, eodẽ modo erit a d ad e h, sicut a b ad e g, & d c ad h c, quia ergo ista parallelogrãma sunt æquiangula. cõstat per diffinitionem similium superficierum g h esse simile b d. Simili quoque modo probatur f κ esse simile eidem, propter hoc qd' b a ad a κ & d a ad a f, est sicut c a ad a e per secundam huius & coniũctam proportionalitatem, quare per 20 huius f κ, est etiam simile g h, sitq̃ patet totum.
 
@@ -20,7 +26,13 @@ CAMPANVS. Sit ut in parallelogrammo b d cuius diameter a c, consistant superfici
 
 ## Eucli.ex Camp. Propositio 23
 
-## 23 Si in suo spatio parallelogrammum partiale distinctum toti parallelogrammo simile atque secundum suum illius esse fuerit, circa eiusdem diametrum consistit.
+[Curated heading level=3 type=campanus_sequence: 23.]
+
+[Margin]
+23
+[/Margin]
+
+Si in suo spatio parallelogrammum partiale distinctum toti parallelogrammo simile atque secundum suum illius esse fuerit, circa eiusdem diametrum consistit.
 
 CAMPANVS Sit ut in parallelogrammo b d sit distinctum parallelogrammum f g, quod sit ei simile & secũdum suũ esse id est participãs cum eo in angulo c. dico quod parallelogrammum f g consistit circa diametrum parallelogrãmi b d, & est hæc conuersa præcedentis, producam enim a e c, quæ si fuerit diameter parallelogrãmi b d, constat propositũ. Sin autem sit a h c diameter eius, & ducatur h κ: æquidistãs f c, eritque per præmissam parallelogrammum f κ, simile parallelogrammo b d, ergo per conuersionem diffinitionis similium superficierum proportio b c ad k c, est sicut d c ad f c: sed per eandem conuersionẽ dictæ diffinitionis, proportio b c ad g c est sicut d c ad f c: propter id quod parallelogrammum f g, positum est simile parallelogrãmo
 

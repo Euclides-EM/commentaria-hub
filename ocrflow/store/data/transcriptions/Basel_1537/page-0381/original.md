@@ -8,11 +8,13 @@ THEON ex Zamb. Sit quidē data recta linea α β, datumq́̃ in ea signū sit α
 
 ## Eucli. ex Camp. Propositio 27.
 
+[Curated heading level=3 type=campanus_sequence: 27.]
+
 [Margin]
 27
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}Vper assignatam lineam, dato solido æquidistantiū superficierū simile solidum constituere.
+{dropcap:S|lines=?|style=decorated|decoration="ornamental"}Vper assignatam lineam, dato solido æquidistantiū superficierū simile solidum constituere.
 
 CAMPANVS. Sit assignata linea a b, de cuius situ utrū in plano iaceat uel sursum exurgat, nil curetur, sitq̃ assignatū parallelogrammū solidum, corpus c d, cui super lineam a b, iubemur simile solidum fabricare. Sint igitur tres lineæ continentes supficiales angulos, ex qbus cōponitur solidus angulus c, inscriptæ literis c e, c f, c g. At secundū præcepta præmissæ super punctū a lineæ a b, cōstituatur angulus solidus æqualis c, quem contineāt tres lineæ a b, a h, a k, & auxilio 10 sexti sit proportio c e ad a b, & e f ad a h, & g c ad a k, proportio una. Dehinc à tribus punctis b, h, k, ꝓtrahantur sex lineæ h l æquidistātes lineæ a b, & h m æquidistans lineæ a k, iterū b l æquidistās lineæ a h, & b n æquidistās lineæ a k, rursus quoq̃ k n æquidistās a b, & k m æquidistans a h, amplius autem protrahātur, m p æquidistās h l, & p l æquidistans h m, protrahatur quoq̃ & linea p n. Eritq̃ completū solidum parallelogrammū a p, quod dico esse simile solido c d. Hoc autem ex diffinitione similium superficierū & diffinitione similium corporū si earum memineris, facile concludes.
 
@@ -20,11 +22,13 @@ CAMPANVS. Sit assignata linea a b, de cuius situ utrū in plano iaceat uel sursu
 
 ## Eucli. ex Zamb. Problema 5. Propositio 27.
 
+[Curated heading level=3 type=zamberti_sequence: 27.]
+
 [Margin]
 27
 [/Margin]
 
-## Ex data recta linea, dato solido parallelepipedo simile & similiter positum solidum parallelepidedum{printer-error-correction:parallelepipedum} describere.
+Ex data recta linea, dato solido parallelepipedo simile & similiter positum solidum parallelepidedum{printer-error-correction:parallelepipedum} describere.
 
 THEON ex Zamb. Esto quidem data recta linea α β, datum autem solidum parallelepipedū esto γ δ. Oportet iam ex data recta linea α β, ipsi γ δ solido parallelepipedo dato simile similiterq́̃ positū solidū parallelepipedū describere. Constituatur enim (per 26 undecimi) ad ipsam α β rectam lineā, ad signumq́̃ in ea α, ei qui ad γ solido angulo æqualis qui sub β α θ, θ α κ, κ α β, cōprehēditur ut æqualis sit qui sub β α θ ei qui sub ε γ ζ, qui uero sub β α κ ei qui sub ε γ η, & insuper qui sub κ α θ ei qui sub η γ ζ. Fiatq́̃ sicut ε γ ad γ η, sic β α ad α κ, sicut autē η γ ad γ ζ, sic κ α ad α θ, & ex æquali igitur (per 22 quinti) sicut ε γ ad γ ζ, sic β α ad α θ. Cōpleaturq́̃ ipsum θ β parallelogrammū, & ipsum α λ soli
 

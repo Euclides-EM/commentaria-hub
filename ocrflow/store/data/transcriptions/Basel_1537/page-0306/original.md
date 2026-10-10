@@ -10,6 +10,8 @@ CAMP. Cũctis ut in præmissis manētibus. erit ex hypothesi & diffinitione bino
 
 ## Eucl. ex Zãb. Theorema 39 Propositio 57
 
+[Curated heading level=3 type=zamberti_sequence: 57.]
+
 [Margin]
 57
 [/Margin]
@@ -24,6 +26,8 @@ THEON ex Zãb. Areola nãq̃ α γ, cõprehēdatur sub rõnali α β, & ex binis
 
 ## Eucli. ex Camp. Propositio 52
 
+[Curated heading level=3 type=campanus_sequence: 52.]
+
 [Margin]
 52
 [/Margin]
@@ -37,6 +41,8 @@ CAMP. Nec in hac quoq̃ est aliquid ex priorũ dispositiõe & positiõibus mæt�
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
 ## Eucl. ex Zãb. Theorema 40 Propositio 58
+
+[Curated heading level=3 type=zamberti_sequence: 58.]
 
 [Margin]
 58

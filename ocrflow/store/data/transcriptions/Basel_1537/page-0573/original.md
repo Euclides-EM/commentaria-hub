@@ -4,7 +4,7 @@
 
 tus igitur est qui sub a b c,angulus est autem qui sub b a c, datus,& reliquus qui sub a c b datus est. Datur igitur a b c,triangulum specie.
 
-## Scholium
+### Scholium
 
 Quoniam enim angulus qui ad a datus est.& qui ad a eis qui ad d c,angulis exterior binis interioribus est æqualis,& opposito per 32 pri elemen. & anguli d h,quare & anguli a c,dati sunt.
 
@@ -16,7 +16,7 @@ Esto triangulum a b c,unum habens angulum datum qui sub a b c,circulum{printer-e
 
 [Diagram: triangle with apex a and base c, d, b; the cevian a d drawn]
 
-## Aliter
+### Aliter
 
 Ponatur ipsi c a,æqualis d a,& connectatur d c. Qnoniã{printer-error-correction:Quoniã} ratio utriusque b a c ad c b data est. Aequalis autem est c a ipsi a d. Ratio igitur & ipsius d b ad,b c data est. Et qui sub d b c angulus datus est. Datur igitur triãgulũ d b c specie. Datus igitur est qui sub b d c angulus. Et eius est duplus qui sub b a c. Qui sub b a c,angulus igitur datus est. Datur igitur a b c triangulum specie.
 

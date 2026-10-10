@@ -10,6 +10,8 @@ CAMPANI additio. Et nota quod per hoc iuuenitur latus tetragonicum cuiuslibet al
 
 ## Eucli. ex Zamb. Problema 2. Propositio 14.
 
+[Curated heading level=3 type=zamberti_sequence: 14.]
+
 [Margin]
 14
 [/Margin]

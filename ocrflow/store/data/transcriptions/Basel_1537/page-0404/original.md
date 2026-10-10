@@ -8,6 +8,8 @@ portio trianguli b c d ad triangulū k m d, est sicut lineæ b d ad lineam k d d
 
 ## Eucli. ex Zamb. Theorema 4 Propositio 4
 
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
 [Margin]
 4
 [/Margin]

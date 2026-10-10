@@ -8,6 +8,8 @@ quæ concurrent in puncto d, a quo ducam perpendiculares ad tria latera ipsius t
 
 ## Eucli. ex Zamb. Problema 4 Propositio 4
 
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
 [Margin]
 4
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. *Sit datum triangulum α β γ. oportet iam in triangulo α β γ
 [Diagram: triangle α β γ with inscribed circle ε ζ η, centre δ; the bisectors β δ, γ δ and the perpendiculars δ ε, δ ζ, δ η]
 
 ## Eucli. ex Camp. Propositio 5
+
+[Curated heading level=3 type=campanus_sequence: 5.]
 
 [Margin]
 5

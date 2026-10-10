@@ -10,6 +10,8 @@ THEON ex Zamb. Sint quatuor rectæ lineæ proportionales α β, γ δ, ε ζ, η
 
 ## Eucli. ex Zamb. Theorema 33 Propositio 38
 
+[Curated heading level=3 type=zamberti_sequence: 38.]
+
 [Margin]
 38
 [/Margin]
@@ -21,6 +23,8 @@ THEON ex Zamb. Planum enim γ δ, ad planum α β, rectum esto, cōmunis autem i
 [Diagram: a plane γ δ standing on the plane α β, their common section δ α, with the triangle ε ζ η drawn between them]
 
 ## Eucli. ex Camp. Propositio 40
+
+[Curated heading level=3 type=campanus_sequence: 40.]
 
 [Margin]
 40

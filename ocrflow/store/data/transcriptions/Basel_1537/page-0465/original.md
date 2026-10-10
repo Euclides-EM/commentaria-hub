@@ -6,6 +6,8 @@
 
 ## Eucli.ex Camp. Propositio 4
 
+[Curated heading level=3 type=campanus_sequence: 4.]
+
 [Margin]
 4
 [/Margin]
@@ -21,6 +23,8 @@ CORRELARIVM. Manifestum est ergo quod quadratum lateris cubi atque quadratum lat
 Istud correlarium uere manifestum est, constat enim ex demōstratione 17 tredecimi quod latus cubi subtenditur angulo pētagoni dodecedri, cum cubum & dodecedron una eadēqꝫ sphæra circunscribit, itaque per hanc 4 sine obice constat correlarium.
 
 ## Eucli.ex Camp. Propositio 5
+
+[Curated heading level=3 type=campanus_sequence: 5.]
 
 [Margin]
 5

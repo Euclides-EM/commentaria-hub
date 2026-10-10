@@ -6,6 +6,8 @@
 
 ## Eucli. ex Camp. Propositio 11
 
+[Curated heading level=3 type=campanus_sequence: 11.]
+
 [Margin]
 11
 [/Margin]
@@ -20,6 +22,8 @@ CAMPANVS Si enim linea transiens per centra duorum circulorum c e & d e sese con
 
 ## Eucli. ex Zamb. Theorema 10. Propositio 11.
 
+[Curated heading level=3 type=zamberti_sequence: 11.]
+
 [Margin]
 11
 [/Margin]
@@ -33,6 +37,8 @@ ALITER idem ostendere. Sed iam cadat sicut ζ γ, & extendatur in rectas directu
 [Diagram: two circles touching internally at α; lines from the centres ζ and η within, extended towards the contact and to θ on the circumference; β, γ, δ, ε on the circles]
 
 ## Eucli. ex Zamb. Theorema 11. Propositio 12.
+
+[Curated heading level=3 type=zamberti_sequence: 12.]
 
 [Margin]
 12

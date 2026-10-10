@@ -14,13 +14,13 @@ Sint tres rectæ lineæ ꝓportionales a b c, sicut a ad b, sic b ad c. At a ad 
 
 [Diagram: three vertical lines in the right margin labelled f, e, d]
 
-## Aliter idem.
+### Aliter idem.
 
 Quoniam ratio ipsius a ad c data est,sicut autem a ad c,sic quod ex a ad id quod sub a c. Ratio igitur ipsius a ad id quod sub a c data est. Ei autem quod sub a c æquum est id quod ex b. Ratio igitur eius quod ex a,ad id quod ex b data est. Quare & ipsius a ad b, ratio data est: utriq̃ siquidem ipsarũ a b, æquas exhibuimus in proprio cuilibet quadrato.
 
 [Diagram: three horizontal lines labelled a, b, c]
 
-## Scholium.
+### Scholium.
 
 Quoniam didicimus in diffinitiõibus,rectilineas figuras specie dari,quarum anguli dati sunt, & laterũ rationes adinuicem sunt datæ , si efficimus parallelogrammũ a b c d , rectangulum æquum habens d,ipsis a b. habemus siquidem angulorum unumquenq̃ datum, quoniam recti sunt,omnis enim rectus angulus datur,rectus siquidem à recto non differt, sicut patet per quartum postulatum , & manifestum quod rationes laterũ sunt datæ. Ratio siquidem ipsius a b,ad b c, datur. Quoniam & ipsius d ad f, ratio datur,ac per hoc quod sub d f,datur.
 

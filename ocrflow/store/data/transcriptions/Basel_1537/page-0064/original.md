@@ -8,6 +8,8 @@ cto, g, erit linea e f, maior linea e g, pars uidelicet toto, quod est impossibi
 
 ## Eucl. ex Zamb. Problema 1. Propositio 1
 
+[Curated heading level=3 type=zamberti_sequence: 1.]
+
 [Margin]
 1
 [/Margin]
@@ -22,6 +24,8 @@ CORRELARIVM Hinc est manifestū, quod si in circulo recta linea aliqua aliquā r
 
 ## Eucli. ex Camp. Propositio 2
 
+[Curated heading level=3 type=campanus_sequence: 2.]
+
 [Margin]
 2
 [/Margin]
@@ -33,6 +37,8 @@ CAMPANVS Sit ut in circūferētia circuli a b, cuius centrū sit c. signata sunt
 [Diagram: circle with d on the upper circumference, a horizontal line a b through the circle, and lines from a and b meeting at e below the centre]
 
 ## Eucli. ex Zamb. Theorema 1. Propositio 2
+
+[Curated heading level=3 type=zamberti_sequence: 2.]
 
 [Margin]
 2

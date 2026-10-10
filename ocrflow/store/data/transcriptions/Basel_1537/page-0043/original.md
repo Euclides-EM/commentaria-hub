@@ -6,6 +6,8 @@ des, quia leuiter patet ex hac præcedente correlariū & 38, diuiso parallelogra
 
 ## Eucli. ex Zamb. Theorema 31. Propositio 41.
 
+[Curated heading level=3 type=zamberti_sequence: 41.]
+
 [Margin]
 41
 [/Margin]
@@ -17,6 +19,8 @@ THEON ex Zamb. Parallelogrammū enim α β γ δ, & triangulum ε β γ, eandem 
 [Diagram: parallelogram α β γ δ with triangle ε β γ on the same base between the same parallels, diagonal α γ drawn]
 
 ## Eucli. ex Camp. Propositio 42.
+
+[Curated heading level=3 type=campanus_sequence: 42.]
 
 [Margin]
 42
@@ -30,6 +34,8 @@ CAMPANVS. Sit assignatus angulus a, & assignatus triangulus b c d, uolo describe
 
 ## Euclidis ex Zamb. Problema 11. Propositio 42.
 
+[Curated heading level=3 type=zamberti_sequence: 42.]
+
 [Margin]
 42
 [/Margin]
@@ -41,6 +47,8 @@ THEON ex Zamb. Sit datum triangulū α β γ, datus uero angulus rectilineus sit
 [Diagram: triangle α β γ with ε the midpoint of β γ, parallelogram ζ ε γ η between the same parallels; the given angle δ shown separately]
 
 ## Eucli. ex Camp. Propositio 43.
+
+[Curated heading level=3 type=campanus_sequence: 43.]
 
 [Margin]
 43

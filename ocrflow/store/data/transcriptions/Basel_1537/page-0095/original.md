@@ -22,6 +22,8 @@ FIgura rectilinea in figura rectilinea describi dicitur, quando unusquisque insc
 
 ## Eucli. ex Camp. Propositio 1.
 
+[Curated heading level=3 type=campanus_sequence: 1.]
+
 [Margin]
 1
 [/Margin]

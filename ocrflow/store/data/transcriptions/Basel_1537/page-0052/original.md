@@ -2,6 +2,8 @@
 
 <!-- Page number: 43 -->
 
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
 [Margin]
 4
 [/Margin]
@@ -20,7 +22,9 @@ CORRELARIVM. Ex hoc manifestū est, quod in quadratis \* areis parallelogrāma q
 χωρίοις
 [/Margin]
 
-## Euclides ex Campano. Proppsitio 5
+## Euclides ex Campano. Proppsitio{printer-error-correction:Propositio} 5
+
+[Curated heading level=3 type=campanus_sequence: 5.]
 
 [Margin]
 5

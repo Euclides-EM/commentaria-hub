@@ -4,25 +4,49 @@
 
 mutata, & in isto modo arguendi sit antecedens secundæ proportionis, consequens primæ, & consequens primæ, antecedens secundæ.
 
-## 13 Coniuncta uero proportionalitas dicitur, quoties sicut antecedens cū consequente ad consequens, sic etiam antecedens cum consequente ad cō sequens.
+[Curated heading level=3 type=campanus_sequence: 13.]
+
+[Margin]
+13
+[/Margin]
+
+Coniuncta uero proportionalitas dicitur, quoties sicut antecedens cū consequente ad consequens, sic etiam antecedens cum consequente ad cō sequens.
 
 CAMPANVS. Diffinit coniunctam, disiunctam, & euersam, in quibus etiam nihil extra sumitur, sed termini non manent in ipsis ijdem secundum substantiam, & uult quod si ita fuerit ut sit a ad b, sicut c ad d, & ego ex hoc cōcludam ergo totius a b ad b sicut totius c d ad d, quod iste modus arguendi dicatur proportionalitas coniuncta.
 
 [Diagram: at right, two horizontal lines each divided by a tick, the upper labelled a and b, the lower labelled c and d]
 
-## 14 Disiuncta uero proportionalitas, dicitur augmentorum antecedentiū supra consequentia æqua comparatio.
+[Curated heading level=3 type=campanus_sequence: 14.]
+
+[Margin]
+14
+[/Margin]
+
+Disiuncta uero proportionalitas, dicitur augmentorum antecedentiū supra consequentia æqua comparatio.
 
 CAMPANVS. Vult quod si fuerit proportio totius a b ad b sicut totius c d ad d, & ex hoc ego concludam ergo a ad b sicut c ad d, quod iste modus arguendi uocetur disiuncta proportionalitas.
 
 [Diagram: at right, two horizontal lines each divided by a tick, the upper labelled a and b, the lower labelled c and d]
 
-## 15 Euersa proportionalitas, dicitur quorumlibet antecedentiū ad augmēta sui supra consequentia sua similitudo proportionū.
+[Curated heading level=3 type=campanus_sequence: 15.]
+
+[Margin]
+15
+[/Margin]
+
+Euersa proportionalitas, dicitur quorumlibet antecedentiū ad augmēta sui supra consequentia sua similitudo proportionū.
 
 CAMPANVS. Vult quod si fuerit a b ad b, sicut c d ad d, & ex hoc ego cōcludam ergo a b ad a sicut c d ad c, quod iste modus arguendi dicatur euersa proportionalitas.
 
 [Diagram: at right, two horizontal lines each divided by a tick, the upper labelled a and b, the lower labelled c and d]
 
-## 16 Aequa proportionalitas dicitur, quantitatibus plurimis propositis, alijsq̃ que secundum eundem numerum in una proportione applicatis mediorum æquali numero remoto, utrorumque summorum similitudo proportionum.
+[Curated heading level=3 type=campanus_sequence: 16.]
+
+[Margin]
+16
+[/Margin]
+
+Aequa proportionalitas dicitur, quantitatibus plurimis propositis, alijsq̃ que secundum eundem numerum in una proportione applicatis mediorum æquali numero remoto, utrorumque summorum similitudo proportionum.
 
 CAMPANVS. Diffinit æquam proportionalitatem, quæ ad probandum propositum ad extra sumitur, & uult quod si sumātur quotlibet quantitates, ut a b c, itemq̃ totidem aliæ, siue sint eiusdẽ generis cum primis siue alterius ut c & f, fuerintq̃ secundæ in proportione primarum siue eodem ordine ut si dicatur a ad b sicut d ad e, & b ad c sicut e ad f, siue ordine conuerso ut si dicatur a ad b sicut e ad f, & b ad c sicut d ad e, & ex hoc concludatur ergo a ad c sicut d ad f, quod iste modus arguendi uocetur æqua proportionalitas.
 

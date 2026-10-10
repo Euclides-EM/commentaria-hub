@@ -4,6 +4,8 @@
 
 ## Eucli. ex Camp. Propositio 8.
 
+[Curated heading level=3 type=campanus_sequence: 8.]
+
 [Margin]
 8
 [/Margin]
@@ -16,6 +18,8 @@ CAMPANVS. Sint duo triāguli a b c, d e f: sitq̃ a c æqualis d f et b c æqual
 
 ## Eucli. ex Zam. Theorema 5. Propositio 8
 
+[Curated heading level=3 type=zamberti_sequence: 8.]
+
 [Margin]
 8
 [/Margin]
@@ -27,6 +31,8 @@ THEON ex Zamb. Sint bina triangula α β γ, δ ε ζ, duo latera α β, α γ, 
 [Diagram: three tall triangles side by side with Greek labels: one with two apexes γ and η close together above the base α β with crossing lines; one with apex ζ on base δ ε; one with apex γ on base α β]
 
 ## Eucli. ex Camp. Propositio 9.
+
+[Curated heading level=3 type=campanus_sequence: 9.]
 
 [Margin]
 9

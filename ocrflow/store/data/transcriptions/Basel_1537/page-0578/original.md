@@ -6,7 +6,7 @@ Datū siquidē a b ad datā a c proiectū sit excedens specie data c b, dico quo
 
 [Diagram: at right, a square with m at top left, g inside near the top, l at top right, and a diagonal from m to the bottom right corner; a horizontal strip extends left with d and f above it, b at its right end, c inside; bottom line with points a, k, c, b]
 
-## Theorema 60 — Propositio 60
+## Theorema 60 Propositio 60
 
 SI parallelogrammum specie & magnitudine datū dato gnomone auctum aut imminutū fuerit. Dātur latitudines gnomonis.
 
@@ -14,7 +14,7 @@ Parallelogrammum enim a b datum specie & magnitudine augeatur prius dato, gnomon
 
 [Diagram: a large rectangle with e at top left and g at top right; a smaller rectangle in its lower left corner with c at its upper left and b at its upper right; bottom line with points a, d, f]
 
-## Theorema 61 — Propositio 61
+## Theorema 61 Propositio 61
 
 SI data specie specie, ad unum latus parallelogrāma area proiecta fuerit in dato angulo, habeat autem species ad parallelogrāmum rationem datam. Datur parallelogrammum specie.
 

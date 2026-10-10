@@ -20,6 +20,8 @@ Circuli æquales — Linea cir. tangens. — Circuli se tangentes
 
 ## Eucli. ex Camp. Propositio 1.
 
+[Curated heading level=3 type=campanus_sequence: 1.]
+
 {dropcap:C|lines=?|style=decorated}Irculi propositi, cētrū inuenire. Vn̄ manifestū est q̃ duabus rectis lineis in eodē circulo apud circūferētiā terminatis, neutra illarū alterā p̄ æqualia orthogonaliter secat: nisi ipsa super cētrū trāsierit.
 
 CAMPANVS. Sit circulus propositus a b c, cuius uolumus centrū inuenire. Duco in ipso circulo lineā a c, qualitercūq̃ contingat, quā diuido per æqualia in puncto d a, quo duco perpendicularē ad lineā a c utraq̃ parte: sitq̃ e d b, quā rursus diuido per æqualia in puncto f, quē dico esse centrum circuli. Si enim nō est, erit autē alibi aut in linea e b, aut extra. In linea e b, nō. Si em fuerit in ea ut in pū

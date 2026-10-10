@@ -8,6 +8,8 @@ ne & in potentia. Sumo itaque duos numeros nequaquam se habentes in proportione 
 
 ## Eucli.ex Camp. Propositio 12
 
+[Curated heading level=3 type=campanus_sequence: 12.]
+
 [Margin]
 12
 [/Margin]

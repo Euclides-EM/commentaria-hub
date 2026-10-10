@@ -6,7 +6,13 @@ erit, quotlibet enim posito, per primam partem eiusdem secundum ipsum positum nu
 
 ## Eucli. ex Zamb. Theorema 19 Propositio 19
 
-**19** Tribus numeris datis, considerare si est possibile eis quartum inuenire proportionalem.
+[Curated heading level=3 type=zamberti_sequence: 19.]
+
+[Margin]
+19
+[/Margin]
+
+Tribus numeris datis, considerare si est possibile eis quartum inuenire proportionalem.
 
 [Margin]
 δέον ἴσω
@@ -18,7 +24,13 @@ THEON ex Zamber. Sint dati tres numeri, α β, γ, sitq̃ * opportunū coniectar
 
 ## Eucli. ex Camp. Propositio 21
 
-**21** {dropcap:D|lines=?|style=decorated|decoration="foliate ornament"}Atis quotlibet numeris primis, aliquem primum ab eis diuersum esse necesse est.
+[Curated heading level=3 type=campanus_sequence: 21.]
+
+[Margin]
+21
+[/Margin]
+
+{dropcap:D|lines=?|style=decorated|decoration="foliate ornament"}Atis quotlibet numeris primis, aliquem primum ab eis diuersum esse necesse est.
 
 CAMPANVS. Nihil aliud intenditur, nisi q̃ numeri primi sint infiniti, demonstrare. Sint enim a,b,c, numeri primi, dico esse aliquem primum diuersum ab eis, sit quidem d f minimus quem numerant, cui addita unitate fiat d g, qui est primus aut cōpositus, si primus, constat propositum, si compositus, numerat eum aliquis primus, qui sit h, quem non est possibile esse aliquem ex primis propositis. Si enim esset aliquis eorū, cum quilibet ipsorum numeret d f, ipse quoq̃ numeraret eundem, at quia numerat d g, oporteret ipsum numerare f g qui est unitas, quod est impossibile. Idem sequitur posito d f quotlibet numero quem numerant a,b,c, quare constat propositum.
 
@@ -26,7 +38,13 @@ CAMPANVS. Nihil aliud intenditur, nisi q̃ numeri primi sint infiniti, demonstra
 
 ## Eucli. ex Zamb. Theorema 20 Propositio 20
 
-**20** Primi numeri, plures sunt omni proposita multitudine primorum numerorum,
+[Curated heading level=3 type=zamberti_sequence: 20.]
+
+[Margin]
+20
+[/Margin]
+
+Primi numeri, plures sunt omni proposita multitudine primorum numerorum,
 
 <!-- Signature: u 4 -->
 

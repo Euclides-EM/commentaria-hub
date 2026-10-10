@@ -14,11 +14,13 @@ Similiter autē dicimus, ꝙ si fuerit aliquis angulus rectus cui basis subtenda
 
 ## Eucli. ex Zamb. Problema 1 Propositio 13
 
+[Curated heading level=3 type=zamberti_sequence: 13.]
+
 [Margin]
 13
 [/Margin]
 
-## Pyramidem constituere, & data sphæra cōprehendere, & demōstrare ꝙ ipsius sphæræ dimetiens potentia sesqualter est lateris ipsius pyramidis.
+Pyramidem constituere, & data sphæra cōprehendere, & demōstrare ꝙ ipsius sphæræ dimetiens potentia sesqualter est lateris ipsius pyramidis.
 
 THEON ex Zamb. Exponatur datæ sphæræ dimetiens α β, seceturq́; in γ signo, ut α γ ipsius β γ dupla sit. Describaturq́; super α β, semicirculus α δ β, exciteturq́; (per 11 primi) ab ipso γ signo ad angulos rectos, γ δ, & cōnectatur δ α, exponaturq́; circulus ε ζ η, æquam habens eam quæ ex centro ipsi δ γ, describaturq́; in ipso ε ζ η circulo triangulū æquilaterū ε ζ η, & accipiatur (per 1 tertij) centrū circuli, sitq́; θ signū, & cōnectatur ε θ, θ ζ, & θ η. Et constituatur
 

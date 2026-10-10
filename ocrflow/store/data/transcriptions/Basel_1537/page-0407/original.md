@@ -4,6 +4,8 @@
 
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
 
+[Curated heading level=3 type=zamberti_sequence: 6.]
+
 [Margin]
 6
 [/Margin]
@@ -15,6 +17,8 @@ THEON ex Zamb. Sint sub eadem altitudine pyramides, multangulas bases habentes, 
 [Diagram: two pyramids on pentagonal bases drawn in perspective — the left with apex μ and base α β γ δ ε (γ at left, β at centre, α at bottom, δ at lower left, ε at right), the right with apex ν and base ζ η θ κ λ (θ at left, η at top, ζ at right, κ and λ below), with diagonals drawn dividing the bases into triangles]
 
 ## Eucli. ex Camp. Propositio 6
+
+[Curated heading level=3 type=campanus_sequence: 6.]
 
 [Margin]
 6

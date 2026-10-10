@@ -10,7 +10,13 @@ Cum sit e primus, si non numerat a, primus erit ad ipsum per 32 septimi, itaq̃ 
 
 ## Eucli. ex Camp. Propositio 12
 
-**12** {dropcap:I|lines=?|style=decorated|decoration="foliate ornament"}N numeris ab unitate continue proportionalibus, minor maiorem numerat, secundū aliquē in illa proportionalitate dispositū.
+[Curated heading level=3 type=campanus_sequence: 12.]
+
+[Margin]
+12
+[/Margin]
+
+{dropcap:I|lines=?|style=decorated|decoration="foliate ornament"}N numeris ab unitate continue proportionalibus, minor maiorem numerat, secundū aliquē in illa proportionalitate dispositū.
 
 CAMPANVS. Sint ab unitate usq̃ ad f continue proportionales. dico nullum ipsorū numerare f, nisi secūdum aliquem aliorū. Constat enim q̃ e numerat ipsum f secundum a, est enim e ad f, ut unitas ad a. Sed & d numerat eundem f secundū b, est nanq̃ per æquam proportionalitatem d ad f, ut unitas ad b. De c quoq̃ patet eodem modo quod secūdum seipsum numeret eum. Econuersoquoq̃ a numerat eum secundum e, eo q̃ sicut unitas ad e, ita a ad f, b uero secūdum d, est enim ut unitas ad d, ita b ad f, uerū igitur est quod proponitur. Quippe quotus quisq̃ qui proponitur ultimum numerare, fuerit sub ultimo secūdum totum supra unitatem, numerare ipsum conuincitur per æquam proportionalitatem & diffinitionem.
 
@@ -18,9 +24,15 @@ CAMPANVS. Sint ab unitate usq̃ ad f continue proportionales. dico nullum ipsor�
 
 Sequentes duæ ex Zamberto Euclidis propositiones, duabus præcedentibus ex Campano ordine præpostero respondent.
 
-## Eucli.ex Zamb. Theorema 2 Propositio 11
+## Eucli.ex Zamb. Theorema 2{printer-error-correction:11} Propositio 11
 
-**11** Si ab unitate quotcunq̃ numeri cōtinue proportionales fuerint, minor maiorem metitur per aliquem præexistentē in proportionalibus numeris.
+[Curated heading level=3 type=zamberti_sequence: 11.]
+
+[Margin]
+11
+[/Margin]
+
+Si ab unitate quotcunq̃ numeri cōtinue proportionales fuerint, minor maiorem metitur per aliquem præexistentē in proportionalibus numeris.
 
 THEON ex Zamb. Sint ab unitate α, quotcunq; numeri continue proportionales β,γ,δ,ε. Dico quod ipsorum β,γ,δ,ε, minor β, ipsum ε maiorem metitur per aliquem ipsorū γ,δ. Quoniam enim est sicut α unitas ad β, sic δ ad ε, æque igitur α unitas ipsum β numerū metitur, & δ ipsum ε: uicissim igitur (per 15 septimi) æque α unitas ipsum δ metitur, & β ipsum ε. At α unitas ipsum δ metitur, per eas quæ in ipso sunt unitates: & β igitur ipsum ε metitur per eas quæ in ipso δ sunt unitates. Quare minor β ipsum ε maiorem metitur per aliquem numerum præexistentem in proportionalibus numeris, quod ostendere oportuit.
 
@@ -28,7 +40,13 @@ THEON ex Zamb. Sint ab unitate α, quotcunq; numeri continue proportionales β,�
 
 ## Eucli. ex Zamb. Theorema 12 Propositio 12
 
-**12** Si ab unitate quotlibet numeri cōtinue proportionales fuerint, quot primorū numerorū ultimū metient̃, tot & eum qui apud unitatē est metiētur.
+[Curated heading level=3 type=zamberti_sequence: 12.]
+
+[Margin]
+12
+[/Margin]
+
+Si ab unitate quotlibet numeri cōtinue proportionales fuerint, quot primorū numerorū ultimū metient̃, tot & eum qui apud unitatē est metiētur.
 
 THEON ex Zamb. Sint ab unitate quotlibet continue proportionales numeri α, β, γ, δ. Dico quod quot primorū numerorū ipsum δ metiuntur, tot quoq; & ipsum α metientur: metiatur enim ipsum δ numerus aliquis primus ε. Dico quod ε ipsum α metitur, non enim metiatur ε ipsum α, est autem ε primus, omnis autem numerus ad omnem numerū quem non metitur primus est (per 31 septimi,) ipsi igitur α, ε, primi sunt adinuicē. Et quoniam ε ipsum δ metitur, metiatur ipsum per ζ. Igitur ε ipsum ζ multiplicās, ipsum effecit δ. Rursus quoniam α ipsum δ metitur per eas quæ in ipso δ sunt unitates, igitur α ipsum γ multiplicans, ipsum δ effecit. Sed & ε ipsum ζ multiplicans, ipsum δ
 

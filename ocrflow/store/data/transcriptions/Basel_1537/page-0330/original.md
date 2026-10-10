@@ -6,6 +6,8 @@
 
 ## Eucli.ex Camp. Propositio 83
 
+[Curated heading level=3 type=campanus_sequence: 83.]
+
 [Margin]
 83
 [/Margin]
@@ -16,7 +18,9 @@ CAMPANVS Hic (sicut in inuentione residui primi) sit linea b c, cōmunicans line
 
 [Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); a third line with label e below it; dotted number line with labels f and g]
 
-## Eucl.ex Zãb. Problema 21 Propositio 88
+## Eucl.ex Zãb. Problema 21{printer-error-correction:22} Propositio 88
+
+[Curated heading level=3 type=zamberti_sequence: 88.]
 
 [Margin]
 88
@@ -30,6 +34,8 @@ THEON ex Zãb. Exponatur rōnalis α, & ei lōgitudine cōmēsurabilis esto β �
 
 ## Eucl.ex Cãp. Propositio 84
 
+[Curated heading level=3 type=campanus_sequence: 84.]
+
 [Margin]
 84
 [/Margin]
@@ -40,7 +46,9 @@ CAMPANVS Cum residuū quintū inuenire libuerit, erit linea c d communicans line
 
 [Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); a third line with label e below it; dotted number line with labels f and e]
 
-## Eucli.ex Zãb. Theorema 22 Propositio 89
+## Eucli.ex Zãb. Theorema 22{printer-error-correction:Problema 23} Propositio 89
+
+[Curated heading level=3 type=zamberti_sequence: 89.]
 
 [Margin]
 89

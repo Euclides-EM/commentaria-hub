@@ -6,6 +6,8 @@ sumptæ sunt ipsarū α γ, æque multiplices μ η, ipsarū β δ, aliæ quæui
 
 ## Eucli. ex Camp. Propositio 14.
 
+[Curated heading level=3 type=campanus_sequence: 14.]
+
 [Margin]
 14
 [/Margin]
@@ -16,7 +18,9 @@ CAMPANVS Sit proportio a ad b, sicut c ad d. Dico quod si a est maior c, b erit 
 
 [Diagram: horizontal line segments a, c above and b, d below, set beside the paragraph]
 
-## Eucli.ex Zamb. Theorema 14 Prepositio 14
+## Eucli.ex Zamb. Theorema 14 Prepositio{printer-error-correction:Propositio} 14
+
+[Curated heading level=3 type=zamberti_sequence: 14.]
 
 [Margin]
 14
@@ -30,6 +34,8 @@ THEON ex Zamberto. Primum enim α, ad secundum β, eandem habeat rationem, & ter
 
 ## Eucli. ex Camp. Propositio 15
 
+[Curated heading level=3 type=campanus_sequence: 15.]
+
 [Margin]
 15
 [/Margin]
@@ -41,6 +47,8 @@ CAMPANVS Sint c ad a, & d ad b, æque multiplices. Dico quod quæ est proportio 
 [Diagram: horizontal line segments c and d with division marks above, segments a and b below, set beside the paragraph]
 
 ## Eucli. ex Zamb. Theorema 15 Propositio 15
+
+[Curated heading level=3 type=zamberti_sequence: 15.]
 
 [Margin]
 15

@@ -8,7 +8,9 @@ CAMPANVS Scire aūt oportet.quod quicquid per hāc 36 & per septē eā cōtinue 
 
 ## Eucli.ex Zamb. Theorema 28 Propositio 33
 
-## Sīlia solida parallelepipeda,adiuicē in triplici rōne sūt eiusdē rōnis lateꝝ
+[Curated heading level=3 type=zamberti_sequence: 33.]
+
+Sīlia solida parallelepipeda,adiuicē in triplici rōne sūt eiusdē rōnis lateꝝ
 
 [Margin]
 33

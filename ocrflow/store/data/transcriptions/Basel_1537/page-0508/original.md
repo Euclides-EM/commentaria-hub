@@ -6,7 +6,9 @@ ximus orbis f n k, ipsum e f tangens, & ipsius f n k, igitur circuli polus est i
 
 [Diagram: sphere with a small always-visible circle at the top containing f; e at the top; a at the left edge, b and y at the upper right; r at the right; m, g near the centre; c at the right edge; o, d at the centre; x at the left; p at the lower left; a, s, t, l, b along the bottom]
 
-## Theorema 15 — Apparens 15
+## Theorema 15 Apparens 15
+
+[Curated heading level=3 type=zamberti_sequence: 15.]
 
 Imiliter autem & in altero semicirculo, æquales circūferentiæ in inæqualibus temporibus permutant apparens hemisphæriū, & in pluri quidem quæ propiores sunt contactui æstiui tropici ea quæ longius distat, in æquali uero quæ æqualiter distant ab æstiuo tropico in utroq̃ semicirculo.
 

@@ -2,13 +2,15 @@
 
 <!-- Page number: 274 -->
 
-## THEON — Lemma.
+## THEON Lemma.
 
 THEON ex Zamberto. Esto triangulum rectangulum α β γ, rectum habens qui sub β α γ, exciteturq̃ (per 11 primi) perpendicularis α δ. Dico quod sub γ β & β δ, æquum est ei quod ex β α, quod uero sub β γ,γ δ, ei quod sub γ α : quod autem sub δ β & δ γ, æquum est ei quod ex α δ : & insuper id quod sub β γ,α δ,æquum est ei quod sub β α & α γ. In primisq̃,quod id quod sub γ β & β δ æquum est ei quod ex α β. Quoniam enim in rectangulo triangulo β α γ, ab angulo recto in basin, perpendicularis ducta est α δ,igitur (per 8 sexti) triangulū α β δ & α δ γ, similia sunt toti α β γ, & sibi inuicem. Et quoniam triangulum α β γ simile est triangulo α δ β, est igitur sicut γ β ad β α, sic est α β ad β δ . Igitur quod sub γ δ{printer-error-correction:γ β} & β δ, æquum est ei quod ex α β. Id propterea iam quod sub β γ & γ δ,æquum est ei quod ex α γ. Et quoniam si in rectangulo triangulo ab angulo recto in basin perpendicularis excitetur, excitata basis segmentorum media proportionalis est (per correlarium 8 sexti) est igitur sicut β δ ad δ α, sic est α δ ad δ γ. Igitur (per 17 sexti) quod sub β δ,δ γ, æquum est ei quod ex δ γ{printer-error-correction:δ α}. Dico autem quod & id quod sub β γ & α δ,æquum est ei quod sub β α & α γ. Quoniā enim,ut diximus, α β γ simile est ipsi α γ δ, est igitur sicut β γ ad α γ, sic β α ad α δ . Si fuerint autem quatuor rectæ lineæ proportionales , quod sub extremis (per 16 sexti) æquum est ei quod sub medijs, quod igitur sub β γ, α δ, æquum est ei quod sub β α, α γ. Vel etiam quando describemus ε γ rectangulum parallelogrammum complebimusq̃ α ζ, æquum erit (per 41 primi) ε γ ipsi α ζ,utrunque enim eorum,ipsius α β γ trianguli duplum est , estq̃ quod ex β α, α γ{printer-error-correction:ε γ}, id quod sub β γ, α δ, ipsum autem α ζ est id quod sub β α & α γ. Quod igitur sub β γ,α δ, æquum est ei quod sub β α & α γ.
 
 [Diagram: right triangle β α γ with the right angle at α, perpendicular α δ let fall from α to the base β γ; about it the rectangle ε γ is completed with the parallelogram α ζ; labels ε and α at top, β at left, δ at the foot of the perpendicular, γ at right, ζ below]
 
-## Eucli.ex Zamb. — Problema 10 — Propositio 33
+## Eucli.ex Zamb. Problema 10 Propositio 33
+
+[Curated heading level=3 type=zamberti_sequence: 33.]
 
 [Margin]
 33
@@ -20,7 +22,9 @@ THEON ex Zamberto. Exponantur (per 30 decimi) binæ rationales potentia tantum c
 
 [Diagram: vertical line α β γ at the right of the text; on α β a semicircle α ζ β is described bulging to the left, with ε on α β at the foot of the perpendicular ε ζ and chords α ζ and ζ β drawn; δ is the midpoint of β γ; labels from top to bottom: α, ζ on the arc, ε, β, δ, γ]
 
-## Eucli.ex Camp. — Propositio 28
+## Eucli.ex Camp. Propositio 28
+
+[Curated heading level=3 type=campanus_sequence: 28.]
 
 [Margin]
 28

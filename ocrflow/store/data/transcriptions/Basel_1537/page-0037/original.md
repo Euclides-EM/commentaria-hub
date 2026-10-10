@@ -12,6 +12,8 @@ Patet etiam quod omnis pentagonus cuius unūquodq̃ latus duo secat ex reliquis 
 
 ## Eucli. ex Zamb. Theorema 22. Propositio 32.
 
+[Curated heading level=3 type=zamberti_sequence: 32.]
+
 [Margin]
 32
 [/Margin]
@@ -23,6 +25,8 @@ THEON ex Zamb. Sit triangulū α β γ, & producatur unum illius latus (sitq̃ �
 [Diagram: triangle α β γ with base β γ produced to δ, and line γ ε drawn from γ parallel to α β]
 
 ## Eucli. ex Camp. Propositio 33.
+
+[Curated heading level=3 type=campanus_sequence: 33.]
 
 [Margin]
 33

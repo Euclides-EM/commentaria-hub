@@ -10,7 +10,13 @@ ALITER idem ostendere. Constent binæ magnitudines inæquales α,β,γ. Sit aute
 
 ## Eucli. ex Camp. Propositio 2
 
-**2** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duæ quantitates inæquales, detrahaturq̃ à maiori æquale minori donec minus eo supersit, ac deinde à minori ipsius reliqui æquale dematur donec minus eo relinquatur, denuo quoq̃ reliquo primo æquale reliqui secundi donec minus eo supersit auferatur. & in huiusmodi continua detractione nullum reliquum quod ante relictum numeret inueniatur, eas duas quantitates incommensurabiles esse necesse est.
+[Curated heading level=3 type=campanus_sequence: 2.]
+
+[Margin]
+2
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duæ quantitates inæquales, detrahaturq̃ à maiori æquale minori donec minus eo supersit, ac deinde à minori ipsius reliqui æquale dematur donec minus eo relinquatur, denuo quoq̃ reliquo primo æquale reliqui secundi donec minus eo supersit auferatur. & in huiusmodi continua detractione nullum reliquum quod ante relictum numeret inueniatur, eas duas quantitates incommensurabiles esse necesse est.
 
 CAMPANVS Simile huic proposuit prima septimi in numeris. Sint duæ quantitates inæquales a & b maior a, quibus (si fiat reciproca quoad potest detractio) nō occurrat (etiam si infinities fiat) aliqua quantitas detractionem impediens, siue ante relictum numerans, dico eas incommensurabiles esse. Si autem sint cōmensurabiles, sit cōmunis earum mēsura c. Detrahatur igitur b, ex a quoties potest, sitq̃ residuū d, quod residuum detrahatur ex b quoties potest. & sit residuum e. Fiatq̃ toties ista detractio, quousq̃ ex alterutra duarū quātitatū a & b, remaneat minus c, hoc enim necesse est esse possibile per præcedentē, sitq̃ hic e minus c. Cū igitur c mēsuret b detracta ab a. & etiam a, mensurabit per conceptionem, d residuum, ideoq̃ cum mensuret d detractum ab ipso b, & etiā ipsum b, mēsurabit e, residuum, sed erat minus c, maior ergo quantitas, mensurat minorem, quod est impossibile.
 
@@ -18,7 +24,13 @@ CAMPANVS Simile huic proposuit prima septimi in numeris. Sint duæ quantitates i
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 
-**2** Si duabus magnitudinibus inæqualibus expositis: sublata semper minore à maiore reliqua minime metiatur præcedentem, incommēsurabiles erunt ipsæ magnitudines.
+[Curated heading level=3 type=zamberti_sequence: 2.]
+
+[Margin]
+2
+[/Margin]
+
+Si duabus magnitudinibus inæqualibus expositis: sublata semper minore à maiore reliqua minime metiatur præcedentem, incommēsurabiles erunt ipsæ magnitudines.
 
 THEON ex Zamb. Duabus enim magnitudinibus inæqualibus existentibus α β,γ δ, & existente minore ipsa α β, sublata semper minore ipsa α β, à maiore γ δ, reliqua nequaquā metiatur præcedentem. Dico quod incommensurabiles sunt ipsæ α β,γ δ, magnitudines. Si enim sunt commensurabiles metietur (per 1 diffinitionem decimi,) eas aliqua magnitudo, metiatur si possibile est, & esto ε, & α β, ipsam δ ζ metiens, relinquat seipsa minorem γ ζ. At γ ζ ipsam β η metiēs: (per 1 decimi,) relinquat seipsa minorem α η, & hoc semper fiat, quoad sumpta fuerit quædā magnitudo quæ sit minor quàm ε, fiat, & (per præcedentem) sumatur α η, minor quàm ε. Quoniam igitur ε ipsam α β metitur, sed α β ipsam δ ζ metitur igitur ε ipsam δ ζ, metietur, metitur autem & totam γ δ, igitur & reliquam γ ζ metietur. Sed γ ζ, ipsam β η, metitur, & ε, igitur ipsam β η metitur, metitur autem & totam α β, & reliquam igitur α η metietur, maior minorem, quod est impossibile. Ipsas igitur α β,γ δ, nulla metietur magnitu
 

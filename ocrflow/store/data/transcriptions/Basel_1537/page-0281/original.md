@@ -12,6 +12,8 @@ ipsius δ ζ duplus ponatur θ α. * Conducaturq́ʒ duplus rursus θ γ ipsius 
 
 ## Eucli.ex Zamb. Problema 6 Propositio 29
 
+[Curated heading level=3 type=zamberti_sequence: 29.]
+
 [Margin]
 29 Camp.17
 [/Margin]
@@ -24,6 +26,8 @@ THEON ex Zamb. Exponatur enim quædam rationalis α β,& bini quadrati numeri γ
 
 ## Eucli. ex Zamb. Problema 7 Propositio 30
 
+[Curated heading level=3 type=zamberti_sequence: 30.]
+
 [Margin]
 30 Camp.18
 [/Margin]
@@ -35,6 +39,8 @@ THEON ex Zamb. Exponatur rationalis α β, biniq́ʒ numeri quadrati γ ε & ε 
 [Diagram: semicircle on base α β (α at the left end, β at the right end) with an inscribed triangle whose apex, labelled ζ, stands near the top right of the arc; beneath the base, R. 18; below, a dotted line with the points γ . . . . . . ε . . . . δ]
 
 ## Eucli.ex Camp. Propositio 24
+
+[Curated heading level=3 type=campanus_sequence: 24.]
 
 [Margin]
 24

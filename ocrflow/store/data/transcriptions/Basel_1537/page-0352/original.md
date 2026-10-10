@@ -12,11 +12,13 @@ Apotome & quæ post eā irrationales,neque mediæ,neque adinuicē sunt eædē. Q
 
 ## Eucli.ex Zamb. Theorema 88 Propositio 112
 
+[Curated heading level=3 type=zamberti_sequence: 112.]
+
 [Margin]
 112
 [/Margin]
 
-## Quod ex rationali ad irrationalem eam quæ ex binis nominibus appositum latitudinem efficit apotomen cuius nomina cōmensurabilia sunt nominibus eius quæ ex binis nominibus est,& in eadem ratione, & insuper apotome quæ gignitur eundem habebit ordinem ei quæ ex binis nominibus est.
+Quod ex rationali ad irrationalem eam quæ ex binis nominibus appositum latitudinem efficit apotomen cuius nomina cōmensurabilia sunt nominibus eius quæ ex binis nominibus est,& in eadem ratione, & insuper apotome quæ gignitur eundem habebit ordinem ei quæ ex binis nominibus est.
 
 THEON ex Zamb. Sit rōnalis quidē α,ex binis uero nominibus sit β γ,cuius maius nomen esto δ γ,& ei quod ex α æquū esto id quod sub β γ,ε ζ.Dico quod ipsa ε ζ apotome est,cuius nōia cōmēsurabilia sunt ipsis γ δ,δ β,& in eadē ratione,& insuper ε ζ eundem ordinē habet ipsi β γ,Sit enim rursus ei quod ex α.æquū id quod sub β δ,η.Quoniā igitur quod sub β γ,ε ζ, æquum est ei quod sub β δ,δ η,est igitur(per 14 quinti)sicut γ β,& β δ,sic est η ad ε ζ,maior autē est γ β,ipsa β δ,maior igitur & η ipsa ε ζ.Esto ipsi η æqualis ε θ.Est igitur(per 7 & 11 quinti)sicut γ δ ad β δ,sic est θ ζ ad ζ ε.diuidēdo igitur est (per 17 quinti,)quod sicut γ δ,ad β δ,sic est θ ζ ad ζ ε.Fiat sicut θ ζ,ad ζ ε,sic ζ κ,ad κ ε,&
 

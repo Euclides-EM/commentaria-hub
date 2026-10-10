@@ -6,15 +6,17 @@ THEON ex Zamberto. Sint dati quotcunque numeri α β γ. Oportet iam inuenire mi
 
 [Diagram: dotted number lines beside the text: α······ / β········ / γ············ / δ·· / ε··· / ζ···· / η······ / θ·· / κ··· / λ···· / μ···]
 
-## Eucli. ex Camp. — Propositio 35
+## Eucli. ex Camp. Propositio 35
+
+[Curated heading level=3 type=campanus_sequence: 35.]
 
 [Margin]
 35
 [/Margin]
 
-## {dropcap:Q|lines=?|style=decorated|decoration="ornamental"}Vilibet duo numeri minimos numeros suæ proportionis maior minorem & minor maiorem multiplicantes, minimum ab ipsis numeratum producunt.
+{dropcap:Q|lines=?|style=decorated|decoration="ornamental"}Vilibet duo numeri minimos numeros suæ proportionis maior minorem & minor maiorem multiplicantes, minimum ab ipsis numeratum producunt.
 
-CORRELARIVM
+### CORRELARIVM
 
 Vnde manifestum est minimum quem duo numerant, quemlibet ab eis numeratum numerare.
 
@@ -22,15 +24,17 @@ CAMPANVS. Sint duo numeri a & b, minimiq̃ in eorum proportiōe c & d, eritq̃ p
 
 [Diagram: dotted number lines beside the text: a···· b······ / c·· d··· / e············ / f·········· / g··· h·····]
 
-Eucl. ex Camp. — Propositio 36
+## Eucl. ex Camp. Propositio 36
+
+[Curated heading level=3 type=campanus_sequence: 36.]
 
 [Margin]
 36
 [/Margin]
 
-## {dropcap:P|lines=?|style=decorated|decoration="ornamental"}Ropositis quotlibet numeris minimum ab eis numeratum repeperire{printer-error-correction:reperire}.
+{dropcap:P|lines=?|style=decorated|decoration="ornamental"}Ropositis quotlibet numeris minimum ab eis numeratum repeperire{printer-error-correction:reperire}.
 
-CORRELARIVM
+### CORRELARIVM
 
 Manifestum etiam ex hoc est, minimū numerum quē quodlibet numerant, quemlibet ab eis numeratum numerare,
 

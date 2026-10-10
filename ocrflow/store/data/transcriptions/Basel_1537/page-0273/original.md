@@ -6,6 +6,8 @@ proportio quadrati lineæ a b ad quadratũ lineæ a n sicut d ad l, & producatur
 
 ## Eucli. ex Camp. Propositio 18
 
+[Curated heading level=3 type=campanus_sequence: 18.]
+
 [Margin]
 18
 [/Margin]
@@ -19,6 +21,8 @@ CAMPANVS In hac quoq̃ remaneat eadem dispositio eædẽq̃ hypotheses quæ in p
 CAMPANI additio Et sciendũ quod duæ lineæ quales hæc & præmissa docẽt inuenire, cõponũt binomiũ, & minori earum abscisa de maiori, quæ reliqua est dicitur residuũ. Nota etiam quod lineæ tantum potentia rationales communicantes, possunt esse una rationalis & alia irrationalis, sicut latera tetragonica duarum superficierum quarũ una sit 25 pedum & alia 24, sunt rationalia potentia tantum communicantia, latus enim primæ superficici{printer-error-correction:superficiei} est 5 latus uero secundæ non numeratur. Et possunt esse ambæ irrationales, ut latera tetragonica duarum superficierum quarum una sit 24 pedum & alia 23, neutrius enim numeratur latus, suntq̃ in longitudine incommensurabilia ex ultima parte septimæ, Quod si libeat etiam inuenire plures lineas duabus potentia tantum rationales communicantes, quarum una sit potentior qualibet aliarũ in quadrato lineæ secum non cõmunicantis in longitudine, sumatur talis numerus qui possit pluries sic diuidi quod ipsius ad nullam suarum partium nec alicuius ad aliquã aliarum sit proportio ut numeri quadrati ad numerũ quadratũ, ut 25, potest diuidi in 2 & 23, item in 5 & 20, & rursus in 7 & 18. Et sic processus idem qui fuit in præmissa.
 
 ## Eucli. ex Camp. Propositio 19
+
+[Curated heading level=3 type=campanus_sequence: 19.]
 
 [Margin]
 19

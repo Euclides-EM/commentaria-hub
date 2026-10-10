@@ -12,6 +12,8 @@ dium duoqꝫ extrema. sitqꝫ maior portio eius linea l n. & secūdū quantitat�
 
 ## Eucli.ex Camp. Propositio 6
 
+[Curated heading level=3 type=campanus_sequence: 6.]
+
 {dropcap:Q|lines=?|style=decorated}Vadratum quoqꝫ quod est triangulum alias trigincuplum tetragoni qui sub perpēdiculari ducta à centro circuli circunscribentis pentagonū figuræ duodecim basiū ad latus pentagoni, atqꝫ sub latere ipsius pentagoni cōtinetur, oībus superficiebus corꝑis duodecim basiū p̃iter acceptis esse æquale ex necessitate cōuincit.
 
 CAMP. Sit pētagonus a. una ex 12 basibꝰ figuræ dodecedri, & unū ex eius lateribus sit b c, sibiqꝫ ex 14 quarti circūscribatur circulus supra cētrū a & ꝓtrahātur lineæ a b & a c & a d ꝑpēdicularis ad b c. Dico ergo ꝙ trigincuplū eiusꝙ fit ex a d in b c, est æquale oībus supficiebus dodecedri p̃iter acce{printer-error-correction:pariter acceptis} Cōstat enim pētagonū d{printer-error-correction:a} esse diuisibilē in q̄nqꝫ triāgulos æquales triāgulo a b c ex 8 primi. Itaqꝫ oēs 12 pētagoni dodecedri (cū oēs sint æquales & similes pētagono a) diuisibiles sūt in 60 triāgulos, quorū q̄sqꝫ p̄ 8 primi. est æqualis triāgulo a b c. Quod aūt fit ex a d in b c est duplū per 41 primi. ad triāgulū a b c. Ergo trigincu

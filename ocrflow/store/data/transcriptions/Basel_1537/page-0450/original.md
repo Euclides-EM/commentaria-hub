@@ -10,11 +10,13 @@ Vt autē cubū hūc ab assignata sphæra circūscriptibilē esse demōstremus, i
 
 ## Eucli. ex Camp. Propositio 15
 
+[Curated heading level=3 type=campanus_sequence: 15.]
+
 [Margin]
 15 / Zamb. 14
 [/Margin]
 
-## COrpus octo basium triangulariū & æquilaterarū à sphæra proposita circūscriptibile, cōponere. Eritq́; palàm eiusdem sphæræ diametrum lateri ipsius corporis duplicem esse potentialiter.
+COrpus octo basium triangulariū & æquilaterarū à sphæra proposita circūscriptibile, cōponere. Eritq́; palàm eiusdem sphæræ diametrum lateri ipsius corporis duplicem esse potentialiter.
 
 {dropcap:C|lines=?|style=decorated}AMPANVS. Diameter sphæræ propositæ sit a b, quæ diuidatur per æqualia in pūcto c, & super eam lineetur semicirculus a d b, & ꝓducatur c d ꝑpendicularis ad a b, & iungatur punctus d cum a & cum b, describaturq́; unum quadratū cuius singula latera sint æqualia lineæ b d, sitq́; quadratū hoc e f g h, in quo protrahātur diametri duæ e g & f h, secantes seinuicē in puncto k. Cōstat igitur ex 4 primi, ꝙ utraq́; istarū diametrorū sit æqualis lineæ a b quæ est diameter sphæræ, cum angulus d sit rectus ex prima parte 30 tertij, & singuli quoq́; anguli e, f, g, h, recti ex diffinitiōe quadrati. Cōstat rursus, ꝙ eædem diametri e g & f h diuidunt seinuicē per æqualia in puncto k. Hoc autē ex 5 primi & 32 & 6 eiusdē facile est elicere. Erigatur itaq́; super punctū k, linea k l perpēdicularis ad superficiē quadrati, quæ ponatur æqualis medietati diametri e g uel f h, & demittantur hypothenusæ l e, l f, l g, l h, eruntq́; ex his quæ posita sunt, & penult. primi, quoties oportuerit repetita, singulæ harū hypothenusarū æquales sibijnuicē & æquales lateribus quadrati. Habes ergo pyramidem quatuor æquilaterarū triangulariūq́; basium, super quadratū cōstitutā. Huic itaq́; sub ipso quadrato similem pyamidē{printer-error-correction:pyramidē}, hoc modo appone. Lineā l k producas, perforādo quadratū, usq́; ad m, ita ꝙ k m existēs sub quadrato, sit æqualis l k existēti supra, & iunge punctū m cū singulis angulis quadrati, ꝓducendo 4 alias hypothenusas quæ sunt m e, m f, m g, m h, de quibus quoq́; manifestum est ex penult. primi, quemadmodū de alijs quæ sunt in su
 

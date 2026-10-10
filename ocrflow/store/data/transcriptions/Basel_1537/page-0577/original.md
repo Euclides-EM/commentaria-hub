@@ -4,7 +4,7 @@
 
 ad c k. Compleaturq́; c l parallelogrammum. Quoniam igitur est sicut c d ad e f, sic e g, ad c k, æqualis autem est c d ipsi k l. Est igitur sicut k l ad e f, sic e g ad c k, circum æquales angulos qui sunt sub c k l, g e f, latera sunt reciproca, æquum igitur est per 14 sexti ele. k d ipsi g f. Et quoniam ratio ipsius a ad b est data, est aūt æquale b ipsi c l. Ratio igitur ipsius h d ad c l data est. At sicut h d ad c l, sic h c ad c k. Et ipsius igitur h c ad c k ratio est data: & quoniam est sicut c d ad e f, sic e g ad c k, at ipsa c h ad c k rationem habet datam, quam area a ad ipsam b: est igitur sicut c d ad e f: sic est e g ad quod h c, rationem habet quam areola a ad areolam b.
 
-## Theorema 57 — Propositio 57
+## Theorema 57 Propositio 57
 
 SI datum ad datam comparatum fuerit in angulo dato, datur latitudo excessus.
 
@@ -20,7 +20,7 @@ Quoniam binæ species e a, a d specie datæ sunt, adinuicem rationem habēt data
 
 Ipsius, inquam, a g b latitudo parallelus est, & a h ad rectam existēs ipsi a b, ipsius autem a c g b comparationis ut in quatuor rectis lineis a b, b g, g c, c a, longitudine existēte ipsa a b latitudo erit ipsa a c: in quatuor siquidē propositis rectis lineis latitudinem quærit, non autem ueræ areæ latitudo alia est præter quatuor sicut a e.
 
-## Theorema 58 — Propositio 58
+## Theorema 58 Propositio 58
 
 SI datum ad datam proiectum fuerit specie deficiens à dato specie, dantur latitudines defectus.
 
@@ -28,7 +28,7 @@ Datum enim a c ad datam a d proiectum sit specie deficiens à dato d c. Dico quo
 
 [Diagram: at right, a square with top corners g, b, f, divided by a vertical line under b and a diagonal from g; k at the left on a horizontal strip, e inside near the intersection; bottom line with points a, b, c, d]
 
-## Theorema 59 — Propositio 59
+## Theorema 59 Propositio 59
 
 SI datum ad datam proiectum fuerit excedens specie dato specie, dantur latitudines excessus.
 

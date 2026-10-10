@@ -4,7 +4,9 @@
 
 f & b f, eritq̃ per præmissam angulus f consistens supra centrum, ad unumquēq̃ eorū duplus. Quare ipsi sunt æquales, quod est propositum.
 
-## Eucli.ex Zamb.  Theorema 19,  Propositio 21.
+## Eucli.ex Zamb. Theorema 19. Propositio 21.
+
+[Curated heading level=3 type=zamberti_sequence: 21.]
 
 [Margin]
 21
@@ -16,7 +18,9 @@ THEON ex Zamberto. Sint in segmento β α ε δ, circuli α β γ δ, anguli qui
 
 [Diagram: circle with α and ε upon the upper arc, β at the left, γ at the foot, δ at the right; the chords β α, β ε, α δ, ε δ and the lines from the centre ζ to β and δ are drawn]
 
-## Eucli.ex Camp.  Propositio 21.
+## Eucli.ex Camp. Propositio 21.
+
+[Curated heading level=3 type=campanus_sequence: 21.]
 
 [Margin]
 21
@@ -28,7 +32,9 @@ CAMPANVS. Sit quadrilaterū a b c d, inscriptum circulo a b c d. Dico quosq̃ du
 
 [Diagram: quadrilateral a b c d inscribed in a circle, with d and c at the top and a and b below; both diagonals are drawn]
 
-## Eucli.ex Zamb.  Theorema 20  Propositio 22.
+## Eucli.ex Zamb. Theorema 20 Propositio 22.
+
+[Curated heading level=3 type=zamberti_sequence: 22.]
 
 [Margin]
 22
@@ -40,7 +46,9 @@ THEON ex Zamberto. Sit circulus α β γ δ, & in eo quadrilaterum sit α β γ 
 
 [Diagram: quadrilateral α β γ δ inscribed in a circle, with both diagonals α γ and β δ drawn]
 
-## Eucli.ex Camp.  Propositio 22.
+## Eucli.ex Camp. Propositio 22.
+
+[Curated heading level=3 type=campanus_sequence: 22.]
 
 [Margin]
 22

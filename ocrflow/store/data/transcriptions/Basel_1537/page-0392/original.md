@@ -6,13 +6,15 @@ d f,& super eos erigantur duæ lineæ hypothenusaliter a g & d b{printer-error-c
 
 [Diagram: two pyramid-like solids for prop. 37 — left, apex a with lines to r, b, p, q, c, s, and below k, m, g; right, apex d with lines to t, x, e, l, n, f, and below h]
 
-Eucl.ex Zamb. Theorema 30 Propositio 35
+## Eucl.ex Zamb. Theorema 30 Propositio 35
+
+[Curated heading level=3 type=zamberti_sequence: 35.]
 
 [Margin]
 35
 [/Margin]
 
-## Si fuerint bini anguli plani æquales,super quorum uerticibus sublimes rectæ lineæ steterint,æquales angulos comprehendentes cū ijs quæ in principio rectis lineis,alterum alteri,in sublimibus autem sumpta fuerint contingentia signa,& ab eisdem ad plana in quibus sunt qui in principio anguli,perpendiculares actæ fuerint à signis autē quæ in planis à perpendicularibus fiunt ad eos qui in principio angulos coniunctæ fuerint rectæ lineæ æquos angulos cum sublimibus comprehendent.
+Si fuerint bini anguli plani æquales,super quorum uerticibus sublimes rectæ lineæ steterint,æquales angulos comprehendentes cū ijs quæ in principio rectis lineis,alterum alteri,in sublimibus autem sumpta fuerint contingentia signa,& ab eisdem ad plana in quibus sunt qui in principio anguli,perpendiculares actæ fuerint à signis autē quæ in planis à perpendicularibus fiunt ad eos qui in principio angulos coniunctæ fuerint rectæ lineæ æquos angulos cum sublimibus comprehendent.
 
 THEON ex Zāb. Sint bini anguli rectilinei æquales plani qui sub β α γ,ε δ ζ,à signis autem α,δ,sublimes excitentur rectæ lineæ α η,δ μ,æquos comprehendentes angulos cū ijs quæ in principio rectis lineis alterū alteri,hoc est angulū μ δ ε angulo ei qui sub η α β,eum autem qui sub μ δ ζ,ei qui sub η α γ.sumanturq̃; in ipsis α η,δ μ,contingē
 

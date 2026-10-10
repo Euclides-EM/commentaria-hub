@@ -12,7 +12,13 @@ Hæc sequens undecima Euclidis ex Zamberto propositio, duodecimæ præcedenti ex
 
 ## Eucli. ex Zamb. Theorema 9 Propositio 11
 
-**11** Si fuerit sicut totus ad totum sic ablatus ad ablatum, & reliquus ad reliquum erit sicut totus ad totum.
+[Curated heading level=3 type=zamberti_sequence: 11.]
+
+[Margin]
+11
+[/Margin]
+
+Si fuerit sicut totus ad totum sic ablatus ad ablatum, & reliquus ad reliquum erit sicut totus ad totum.
 
 THEON ex Zamb. Esto sicut totus αβ ad totum γδ, sic ablatus αε ad ablatum γζ. Dico quod & reliquus εβ ad reliquū ζδ, est sicut totus αβ ad totum γδ. Quoniam enim est sicut αβ ad γδ sic αε ad γζ, qualis igitur pars est αβ ipsius γδ uel partes, eadem pars est & αε ipsius γζ uel eædem partes: & reliquus igitur εβ (per 5 septimi, reliqui ζδ eadem pars est uel partes, quæ αβ ipsius γδ: est igitur (per 11 quinti) sicut εβ ad ζδ, sic αβ ad γδ. Quod oportebat demonstrare.
 
@@ -20,7 +26,13 @@ THEON ex Zamb. Esto sicut totus αβ ad totum γδ, sic ablatus αε ad ablatum 
 
 ## Eucli. ex Camp. Propositio 13
 
-**13** {dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I fuerint quotlibet numeri proportionales, quantus erit unus antecedens ad suum consequentem, tanti erunt omnes antecedentes pariter accepti ad omnes consequentes pariter acceptos.
+[Curated heading level=3 type=campanus_sequence: 13.]
+
+[Margin]
+13
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I fuerint quotlibet numeri proportionales, quantus erit unus antecedens ad suum consequentem, tanti erunt omnes antecedentes pariter accepti ad omnes consequentes pariter acceptos.
 
 CAMPANVS. Quod proponit Euclides per 13 quinti de quantitatibus in genere, proponit per hanc de numeris. Vt si sint a, b, & c, d, & e, f proportionales, dico ꝙ quæ est proportio a ad b ea est quæ a, c, e. pariter acceptorū ad b, d, f pariter acceptos. Si enim a, c, e sint minores b, d, f, erit per conuersionē diffinitionis quota pars aut partes a b, tota uel totæ c, d, & e, f: per 5 ergo uel per 6 quoties oportuerit repetitas, erit quota pars uel partes a, b, tota uel totæ a, c, e pariter accepti b, d, f pariter acceptorū, quare per diffinitionē, proportio una. Si autem a, c, e, sunt maiores b, d, f, erit per per primam partem 11, quota pars uel partes b, a, tota uel totæ d, c & f, e, per 5 ergo uel 6 quoties oportuerit repetitas, erit quota pars uel partes b, a, tota uel totæ b, d, f, pariter accepti a, c, e pariter acceptorū: itaq̃ per secūdam partē 11, proportio a ad b sicut a, c, e pariter acceptorū, ad b, d, f pariter acceptos, quod est propositū.
 
@@ -28,7 +40,13 @@ CAMPANVS. Quod proponit Euclides per 13 quinti de quantitatibus in genere, propo
 
 ## Eucli. ex Zamb. Theorema 10 Propositio 12
 
-**12** Si fuerint quotcunq̃ numeri proportionales, erit sicut unus antecedentium ad unum sequentiū, sic omnes antecedentes ad omnes consequētes.
+[Curated heading level=3 type=zamberti_sequence: 12.]
+
+[Margin]
+12
+[/Margin]
+
+Si fuerint quotcunq̃ numeri proportionales, erit sicut unus antecedentium ad unum sequentiū, sic omnes antecedentes ad omnes consequētes.
 
 THEON ex Zamb. Sint quotcunq̃ numeri proportionales α, β, γ, δ, sicut α ad β sic γ ad δ. Dico quod est sicut α ad β, sic sunt α & γ ad β & δ. Quoniam enim (per hypothesin) est sicut α ad β sic γ ad δ, qualis igitur pars est α ipsius β uel partes eadem pars est & γ ipsius δ uel partes, & (per 5 septimi) uterq̃ igitur α, γ, utriusq̃ β, δ, eadem pars est uel eædem partes, quæ α ipsius β: est igitur (per 11 quinti) sicut α ad β, sic α γ ad β δ, quod erat demonstrandum.
 

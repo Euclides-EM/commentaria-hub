@@ -4,6 +4,8 @@
 
 ## Eucli. ex Camp. Propositio 1
 
+[Curated heading level=3 type=campanus_sequence: 1.]
+
 [Margin]
 1
 [/Margin]
@@ -17,6 +19,8 @@ CAMPANVS. Sint duo circuli a b c, d e f, quibus inscribantur duæ quælibet figu
 [Diagram: smaller circle with inscribed pentagon d e l m n — d at top, e left, n right, l lower left, m lower right, f at bottom; diameter d f, with lines d l and f e crossing]
 
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
+
+[Curated heading level=3 type=zamberti_sequence: 1.]
 
 [Margin]
 1

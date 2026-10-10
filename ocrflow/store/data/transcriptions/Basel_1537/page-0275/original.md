@@ -12,6 +12,8 @@ Sint binæ rectæ lineæ, ζ ε, ε η. Dico quod est sicut ζ ε, ad ε η, sic
 
 ## Eucli. ex Zamb. Theorema 19 Propositio 22
 
+[Curated heading level=3 type=zamberti_sequence: 22.]
+
 [Margin]
 22
 [/Margin]
@@ -23,6 +25,8 @@ THEON ex Zamberto. Sit (per 21 decimi) media quidem α, rationalis autem γ β, 
 [Diagram: tall rectangle with γ at lower left and β below its lower right corner; beside it a smaller rectangle with ζ at top left, ε at bottom left, η at bottom right; below, a horizontal segment labeled α]
 
 ## Eucli. ex Camp. Propositio 21
+
+[Curated heading level=3 type=campanus_sequence: 21.]
 
 [Margin]
 21

@@ -10,7 +10,13 @@ Sint quatuor numeri continuæ improportionales, qui sint 2,4,12,48: in quibus pr
 
 [Diagram: at right, a horizontal line with the number 48 at its right end; above it small arcs labelled 6 and 12 spanning the numbers 2, 3, 4 written along the line; below the line the numbers 4 and 12, and beneath the whole figure the number 24]
 
-## 12 Quantitates quæ sunt in proportione una, antecedens ad consequentem & antecedens ad consequentem, dicetur econtrario sicut consequens ad antecedentem, sic consequens ad antecedentem. Itemque permutatim sicut antecedens ad antecedentem, sic etiam consequens ad consequentem.
+[Curated heading level=3 type=campanus_sequence: 12.]
+
+[Margin]
+12
+[/Margin]
+
+Quantitates quæ sunt in proportione una, antecedens ad consequentem & antecedens ad consequentem, dicetur econtrario sicut consequens ad antecedentem, sic consequens ad antecedentem. Itemque permutatim sicut antecedens ad antecedentem, sic etiam consequens ad consequentem.
 
 CAMPANVS. Diffinit species proportionalitatis, quæ sunt sex, uidelicet conuersa, permutata, disiuncta, euersa, & æqua. Sūt autem hæ species, quasi quidam modi arguendi. Diffinit ergo primo conuersam proportionalitatem & permutatam, in quibus manent antecedentia & consequentia eadem secundum substantiam (quod non est in disiuncta, coniuncta, aut euersa) & in quibus nihil extra sumitur ut in æqua. Vocat autem antecedens, primū extremum proportionis: consequens uero uocat secundum. Vult itaque per hanc diffinitionē, quod si fuerit proportio a ad b sicut c ad d, & ex hoc ergo concludam ergo b ad a sicut d ad c, uidelicet ut faciam de antecedentibus consequentia, & de consequentibus antecedentia: quod iste modus arguendi uocetur proportionalitas ecōtrario siue conuersa. Si autem sic arguam a ad b sicut c ad d, ergo a ad c sicut b ad d, uidelicet ut ambo extrema primæ proportionis fiant antecedentia, ambo extrema secundæ, consequentia: uult quod iste modus arguendi uocetur proportionalitas per
 

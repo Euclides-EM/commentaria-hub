@@ -6,6 +6,8 @@ tes cum ijs quæ in principio rectis lineis alterum alteri. ipsæ igitur quæ ex
 
 ## Eucli. ex Camp. Propositio 39
 
+[Curated heading level=3 type=campanus_sequence: 39.]
+
 [Margin]
 39
 [/Margin]
@@ -21,6 +23,8 @@ CAMPANVS Simile proponit uigesima prima sexti de superficiebus. Sint itaq̃ quat
 [Diagram: a parallelepiped labelled K]
 
 ## Eucli. ex Zamb. Theorema 32 Propositio 37
+
+[Curated heading level=3 type=zamberti_sequence: 37.]
 
 [Margin]
 37

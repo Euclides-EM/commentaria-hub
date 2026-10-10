@@ -8,6 +8,8 @@
 
 ## Eucli.ex Camp. Propositio 16
 
+[Curated heading level=3 type=campanus_sequence: 16.]
+
 [Margin]
 16
 [/Margin]

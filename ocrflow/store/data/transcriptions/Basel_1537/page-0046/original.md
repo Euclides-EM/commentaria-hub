@@ -14,6 +14,8 @@ utrobiq̃ angulos binis rectis æquales efficiunt. In rectum igitur est κ θ ip
 
 ## Eucli. ex Camp. Propositio 45.
 
+[Curated heading level=3 type=campanus_sequence: 45.]
+
 [Margin]
 45
 [/Margin]
@@ -27,6 +29,8 @@ CAMPANVS. Sit data linea a b, ex qua uolo quadratum describere. A punctis a & b 
 Idem aliter ostendere. Sit a c perpendicularis super lineam a b per 11, & sit ei æqualis ut prius, & à puncto c per 31 ducatur c d æquidistans a b, & ponatur æqualis ei, & ducatur linea b d, quæ per 33 erit æqualis & æquidistās a c, & omnes anguli recti, per ultimam partem 29, quare per diffinitionē quadrati habemus propositū.
 
 ## Eucli. ex Zamb. Problema 14. Propositio 46.
+
+[Curated heading level=3 type=zamberti_sequence: 46.]
 
 [Margin]
 46
@@ -45,6 +49,8 @@ locorum autem latera & anguli ex opposito, sibi inuicem sunt æqualia (per 34 pr
 [Diagram: square α δ ε β on base α β, with γ above δ on the perpendicular α γ; δ, ε at top, α, β at bottom]
 
 ## Eucli. ex Camp. Propositio 46.
+
+[Curated heading level=3 type=campanus_sequence: 46.]
 
 [Margin]
 46

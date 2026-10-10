@@ -16,6 +16,8 @@ Sint enim binæ magnitudines α,β,& alia quædam γ,& α ipsi quidem γ esto co
 
 ## Eucli.ex Zamb. Theorema 10 Propositio 13
 
+[Curated heading level=3 type=zamberti_sequence: 13.]
+
 [Margin]
 13
 [/Margin]
@@ -34,7 +36,9 @@ THEON ex Zamb. Sint binæ datæ inæquales rectæ lineæ α β,γ,quarum maior s
 
 [Diagram: semicircle on diameter α β with point δ on the arc, chords α δ and δ β drawn; below, a separate line γ]
 
-## Eucli,ex Zamb. Theorema 11 Propositio 14
+## Eucli.ex Zamb. Theorema 11 Propositio 14
+
+[Curated heading level=3 type=zamberti_sequence: 14.]
 
 [Margin]
 14

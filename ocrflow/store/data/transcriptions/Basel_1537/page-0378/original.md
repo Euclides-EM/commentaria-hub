@@ -16,7 +16,13 @@ ipsi λ ξ rectæ lineæ æqualis ipsa α γ, connectanturq̃ γ β. Quoniam igi
 
 ## Eucli. ex Camp. Propositio 24
 
-24 {dropcap:S|lines=?|style=decorated}I superficiebus æquidistātibus solidum contineatur, eius oppositæ superficies sibi inuicē æquales sunt & æquidistantium laterum.
+[Curated heading level=3 type=campanus_sequence: 24.]
+
+[Margin]
+24
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated}I superficiebus æquidistātibus solidum contineatur, eius oppositæ superficies sibi inuicē æquales sunt & æquidistantium laterum.
 
 CAMPANVS. Quicquid dicant alij, solidum æquidistantibus superficiebus contentum, superficiebus paribus necesse est contineri, quæ sicut esse non possunt pauciores sex, ita possunt esse in omni numero pari senarium excedente. Constat enim columnā hexagonam, posse octo superficiebus quæ binæ & binæ oppositæ sibi inuicē æquidistant, contineri. Sic quoq̃ octogonam 10, & decagonam 12, & ad istarum similitudinem, in infinitum. Sed horum omnium solidorū æquidistantibus superficiebus contentorum quæ infinita esse pronuntio, solum illud dicitur parallelogrammū, cuius omnes superficies ipsum ambiētes parallelogrāmæ sunt, & istud sex superficiebus duntaxat necesse est ambiri. De tali itaq̃ quod sex tantum superficiebus ambitur, dico debere intelligi quod hæc 24 proponit. Sit igitur tale solidū, corpus a b, cuius omnino superficies fac ut solido habitu mente cōprehendas, patebitq̃ tibi unamquāq̃ earum quatuor ex reliquis secare eius quatuor latera, cum sint communes sectiones ipsius secantis & quatuor sectarum. Sint autem illæ quatuor sectæ binæ & binæ secundum quod adinuicem opponuntur, æquidistantes ex hypothesi, sequitur ex 10 bis assumpta, ut quatuor latera huius superficiei secantis & quatuor sectarum sint adinuicem bina & bina æquidistantia. Constat itaq̃ secundum. At uero ex 34 primi manifestum est, omnia latera opposita istarū sex superficierū esse æqualia, erunt igitur bina latera angulum planum continētia cuiusq̃ earum, æqualia binis lateribus angulum planum in superficie sibi opposita continentibus, anguli quoq̃ ab illis binis lateribus contenti, æquales per 10 huius. Igitur ex conuersa penultimæ cōmunis scientiæ in primo libro positæ, necesse est quasque duas superficies in solido a b oppositas, esse sibi inuicem æquales. Quod est propositum.
 
@@ -24,7 +30,13 @@ CAMPANVS. Quicquid dicant alij, solidum æquidistantibus superficiebus contentum
 
 ## Eucli. ex Zamb. Theorema 21 Propositio 24
 
-24 Si solidum sub parallelis planis cōprehendatur, quæ ex opposito ipsius plana, æqualia & parallelogramma sunt.
+[Curated heading level=3 type=zamberti_sequence: 24.]
+
+[Margin]
+24
+[/Margin]
+
+Si solidum sub parallelis planis cōprehendatur, quæ ex opposito ipsius plana, æqualia & parallelogramma sunt.
 
 THEON ex Zamb. Solidum, inquam, γ δ η θ, sub parallelis planis α γ, η ζ, α θ, δ ζ, ζ β, α ε, cōprehendatur. Dico quod quæ ex opposito ipsius plana, æqualia & parallelogramma sunt. Quoniam enim bina plana parallela, hoc est β η, γ ε, à plano α γ secantur, cōmunes ipsorum sectiones parallelæ sunt (per 16 undecimi,) parallelus igitur est α β, ipsi γ δ. Rursus quoniam planum α γ dispescit plana bina parallela β ζ, α ε, cōmunes ipsorum sectiones parallelæ sunt (per eandem,) parallelus igitur est α δ, ipsi β γ. Patuit autē quod & α β ipsi δ γ est parallelus: parallelogrammū igitur est α γ. Similiter iam ostendemus, quod & unumquodq̃ ipsorū δ ζ, ζ η, η β, β ζ, α ε, parallelogrammū est. Connectantur α θ, δ ζ. Et quoniam parallelus est α β ipsi δ γ, & β θ ipsi γ ζ, binæ iam α β, β θ, sese inuicē tangentes, binis rectis lineis δ γ, γ ζ, sese inuicē tangentibus parallelæ sunt, nō tamen in eodē plano, igitur æquales cōprehendūt angulos (per 10 undecimi.) Angulus igitur qui sub α β θ, angulo q̃ sub δ ε ζ{printer-error-correction:δ γ ζ}, est æqualis.
 

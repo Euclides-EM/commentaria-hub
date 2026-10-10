@@ -10,7 +10,13 @@ CAMPANVS. Sit linea a b diuisa in a c & b c, dico q̃ illud quod fit ex tota a b
 
 ## Eucli.ex Zamb. Theorema 3 Propositio 3
 
-3 Si recta linea secetur utcunq̃, rectangulũ sub tota & uno segmentorũ comprehensum, æquum est ei quod sub segmentis cõprehenditur rectangulo, & ei quod ex prædicto segmento fit quadrato.
+[Curated heading level=3 type=zamberti_sequence: 3.]
+
+[Margin]
+3
+[/Margin]
+
+Si recta linea secetur utcunq̃, rectangulũ sub tota & uno segmentorũ comprehensum, æquum est ei quod sub segmentis cõprehenditur rectangulo, & ei quod ex prædicto segmento fit quadrato.
 
 THEON ex Zamb. Recta enim linea α β, secetur utcunq̃ in signo γ. Dico quod rectangulũ comprehensum sub α β & β γ, æquũ est rectangulo cõprehenso sub α γ & γ β, cum quadrato quod ex β γ. Describatur enim (per 46 primi) ex β γ, quadratũ γ δ ε β, & extendatur ε δ in ζ, (per 2 postulatũ.) Et per α, utriq̃ γ δ & β ε, (per 31 primi) parallelus excitetur α ζ. Aequũ iam est α ε, ipsis α δ & γ ε, estq̃ α ε rectangulum cõprehensum sub α β & β γ, cõprehenditur etenim sub α β & β ε, & æqualis est β ε ipsi β γ. Et α δ est quod sub α γ & γ β, æqualis enim est δ γ ipsi γ β, at δ β quadratũ est q̃d fit ex γ β. Rectangulũ igitur contentũ sub α β & β γ, æquũ est rectangulo cõprehenso sub α γ & γ β cum quadrato quod ex β γ. Si recta igitur linea secetur & quæ sequũtur reliqua ut in theoremate. Quod demõstrasse oportuit.
 
@@ -18,7 +24,13 @@ THEON ex Zamb. Recta enim linea α β, secetur utcunq̃ in signo γ. Dico quod r
 
 ## Eucli.ex Camp. Propositio 4
 
-4 SI fuerit linea in duas partes diuisa, illud quod ex ductu totius in seipsam fit, æquũ est ĳs quæ ex ductu utriusq̃ partis in seipsam & alterius in alterã bis. Ex hoc manifestũ est q̃ in omni quadrato duæ superficies quas diameter secat per mediũ, sunt ambæ qnadratæ. {dropcap:S|lines=?|style=decorated|decoration="woodcut"}
+[Curated heading level=3 type=campanus_sequence: 4.]
+
+[Margin]
+4
+[/Margin]
+
+SI fuerit linea in duas partes diuisa, illud quod ex ductu totius in seipsam fit, æquũ est ĳs quæ ex ductu utriusq̃ partis in seipsam & alterius in alterã bis. Ex hoc manifestũ est q̃ in omni quadrato duæ superficies quas diameter secat per mediũ, sunt ambæ qnadratæ. {dropcap:S|lines=?|style=decorated|decoration="woodcut"}
 
 CAMPANVS. Sit linea a b diuisa in a c & b c, dico q̃ quadratũ totius a b, æquũ est duob. quadratis duarũ linearũ a c & b c & duplo eius quod fit ex ductu unius earũ in alterã. Describã quadratũ alterius partium, sitq̃ c d b e, quadratũ lineæ c b, cui adiungam gnomonẽ secundũ ductum directiuũ lineæ alterius, scilicet a c, quem faciã hoc modo. In quadrato descripto protrahã diametrũ b d, & à pũcto a educã perpendicularẽ super lineam a b, quæ sit a k, quã a k & diametrũ b d, producã usquequo per penultimã petitionẽ concurrant in puncto f, & à puncto f, producã f h æquidistantẽ lineæ a b, quam f h & b e, producã usq̃quo concurrãt in puncto g, & producã c d usq̃ ad h, & e d usq̃ ad k. Et quia duo latera d e & e b, trianguli d e b sunt æqualia, erunt per 5 primi, duo anguli e d b & e b d æquales; & quia angulus e est rectus, erit per 32 primi uterq̃ eorũ medietas recti, eadem ratione uterq̃ duorũ angulorũ c d b & c b d, erit medietas recti. Quare per secũdam partẽ 29 primi, & 15 eiusdẽ, erit unusquisq̃ quatuor angulorũ qui sunt h f d & h d f & k f d & k d f, medietas recti: ergo per 6 primi, f g & g h sunt æquales, similiter quoq̃ f a & a b, pari ratione f h & h d, itemq̃ f k & k d, quare utraq̃ duarũ superficierũ a b g f & k d h f, est quadrata. Et quia totale quadratũ a b f g quod est quadratũ lineæ a b, constat ex duobus quadratis quæ consistunt circa diametrũ quæ sunt quadrata duarũ linearũ a c & c b, & ex duobus supplemẽtis quorũ unumquodq̃ producitur ex a c in b c, patet propositũ nostrũ. Aliter. Sit linea a b, ut prius diuisa in a c & c b, eritq̃ per 2 huius quod fit ex tota a b in se, æquũ ei quod fit ex ipsa in a c & c b, sed ex ipsa in a c tantum fit quantũ ex a c in se & ex a c in b c, per 3 huius. Itemq̃ ex ipsa a b tota in b c tantum fit quantum ex c b in se & ex c b in a c per eandem, ergo quod fit ex tota a b in se, æquum est ei quod fit ex a c in se & in c b, & ex c b in se & in a c, quod est propositũ. Sed hac uia non patet correlarium, sicut uia præcedenti patet, unde prima est autori magis consona.
 

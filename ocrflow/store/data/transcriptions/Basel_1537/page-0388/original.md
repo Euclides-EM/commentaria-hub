@@ -6,6 +6,8 @@ neæ b & f d nō fuerint æquales, sit f d maior, ex ea resecetur f g ad æquali
 
 ## Eucl. ex Camp. Propositio 35
 
+[Curated heading level=3 type=campanus_sequence: 35.]
+
 [Margin]
 35
 [/Margin]
@@ -15,6 +17,8 @@ SI duo solida æquidistantiū terminorum fuerint æqualia, eorū bases eorundem 
 CAMPANVS Quod præmia{printer-error-correction:præmissa} proposuit de solidis parallelogrāmis quorū lineæ altitudinū sup̱ bases suas orthogonaliter exurgūt, hæc 35, ꝓponit indistincte de omnibus. Demōstrare aūt cōuenit hāc ex præmissa, quēadmodū demōstrauimꝰ 32 & 33 Fabricatis enim duobus solidis æquidistātiū laterū quibuscūq̃, si lineæ altitudinum suis basibus orthogonaliter insistunt, cōstat uerū esse qd̓ dicitur ex præmissa. Sinautē à quatuor angularibus punctis supremarū superficierū in utroq̃ solido quaternæ lineæ demittantur perpendiculariter ad bases, uel à pūctis angularibus infimarum superficierum quaternæ erigantur, inter quas duo solida parallelogramma perficiantur æque alta solidis prioribus, erūtq̃ ex 29 & 30 hæc duo solida duobus prioribus solidis æqualia. Cum igitur horum & eorum sint eædem bases & eædē altitudines, sit autem ex præmissa de posterioribus uerum quod hæc 35 proponit, uerum erit idem etiam de prioribus.
 
 ## Eucl. ex Camp. Propositio 36
+
+[Curated heading level=3 type=campanus_sequence: 36.]
 
 [Margin]
 36

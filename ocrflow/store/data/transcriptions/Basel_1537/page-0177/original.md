@@ -10,7 +10,11 @@ ALITER. Quoniam(per correlarium primū 20 sexti,) similes figuræ in dupla sunt 
 
 ## Eucli.ex Zamb. Theorema 22 Propositio 32
 
-## 32
+[Curated heading level=3 type=zamberti_sequence: 32.]
+
+[Margin]
+32
+[/Margin]
 
 Si duo triangula componantur ad unum angulum,duo latera duobus lateribus proportionalia habentia,ut quæ eiusdem rationis eorum latera sint etiam parallela,reliqua ipsorum triangulorum latera in rectam lineam erunt.
 
@@ -28,7 +32,11 @@ THEON ex Zamberto. Sint bina triangula α β γ,& δ γ ε,duo latera β α, & �
 
 ## Eucli.ex Camp. Propositio 32
 
-## 32
+[Curated heading level=3 type=campanus_sequence: 32.]
+
+[Margin]
+32
+[/Margin]
 
 SI in circulis æqualibus supra centrum siue supra circunferentiā anguli cōsistant,erit angulorū proportio tanquam proportio arcuū illos angulos suscipientium.
 

@@ -8,11 +8,13 @@ dum. Et quoniā est sicut ε γ ad γ η, sic β α ad α κ, & quæ circū æqu
 
 ## Eucli. ex Camp. Propositio 28.
 
+[Curated heading level=3 type=campanus_sequence: 28.]
+
 [Margin]
 28
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I superficies aliqua solidum parallelogrammū super duas quaslibet oppositas superficies eius terminales & super earum duas diametros secet, eandem superficiem corpus illud per æqualia secare necesse est.
+{dropcap:S|lines=?|style=decorated|decoration="ornamental"}I superficies aliqua solidum parallelogrammū super duas quaslibet oppositas superficies eius terminales & super earum duas diametros secet, eandem superficiem corpus illud per æqualia secare necesse est.
 
 CAMPANVS. Sit corpus a b solidum parallelogrammū, de quo sit positum ꝗ superficies a b c d secet ipsum super diametros duarum superficierū oppositarū ipsum terminantiū quæ sint a d & c b. Dico quod ipsa diuidit istud solidum propositū, per æqualia. Constat enim ꝗ ipsa diuidit illud solidum in duo serratilia, quorū superficies quadrilateras binas & binas adinuicē relatas secūdum ꝗ ipsæ sunt opposita latera solidi propositi, manifestum est ex 24 huius esse æquales, cum solidum de quo loquimur, positum sit esse parallelogrammū. Ex eadem quoq̃ & 41 primi constat, trilateras supficies dictorū serratiliū esse æquales. Igitur à diffinitiōe solidorū æqualiū, liquet q̊d ꝓpositū est.
 
@@ -20,11 +22,13 @@ CAMPANVS. Sit corpus a b solidum parallelogrammū, de quo sit positum ꝗ superf
 
 ## Eucli. ex Zamb. Problema 23{printer-error-correction:Theorema 23} Propositio 28.
 
+[Curated heading level=3 type=zamberti_sequence: 28.]
+
 [Margin]
 28
 [/Margin]
 
-## Si solidum parallelepipedum plano secetur per diagonios eorum quæ ex opposito planorū, ipsum solidum secabitur ab ipso plano bifariam.
+Si solidum parallelepipedum plano secetur per diagonios eorum quæ ex opposito planorū, ipsum solidum secabitur ab ipso plano bifariam.
 
 THEON ex Zamberto. Solidum enim parallelepipedum α β, plano γ δ ε ζ secetur per diagonios eorum quæ ex opposito planorum γ ζ, δ ε. Dico quod ipsum α β solidum, ab ipso γ δ ε ζ plano bifariam secabitur. Quoniam enim (per 34 primi) γ η ζ triangulum æquum est triangulo γ β ζ, & triangulum α δ ε ipsi δ ε θ, est autem γ α parallelogrammum ipsi β ε æquale, ex opposito enim, ipsum autem η ε ipsi γ θ, & (per 21 undecimi) prisma igitur comprehensum sub duobus triangulis γ η ζ, α δ ε, & tribus parallelogrammis, hoc est η ε, α γ, γ ε, æquum est prismati comprehenso sub duobus triangulis γ ζ β, δ ε θ, & tribus parallelogrammis, hoc est γ θ, β ε, γ ε. Sub æqualibus enim planis & multitudine & magnitudine comprehenduntur (per diffinitionem undecimi.) Quare totum α β solidum bifariam scinditur ab ipso γ δ, ε ζ, plano. Quod erat ostendendum.
 
@@ -36,11 +40,13 @@ ZAMBERTVS. Diagonius, linea recta est quæ in figuris angularibus ab uno angulo 
 
 ## Eucli ex Camp. Propositio 29.
 
+[Curated heading level=3 type=campanus_sequence: 29.]
+
 [Margin]
 29
 [/Margin]
 
-## CVncta solida æquidistantiū superficierū æque alta atq̃ in eadem basi super unam lineam cōstituta, probātur esse æqualia.
+CVncta solida æquidistantiū superficierū æque alta atq̃ in eadem basi super unam lineam cōstituta, probātur esse æqualia.
 
 {dropcap:C|lines=?|style=decorated|decoration="ornamental"}AMPANVS. Verum est quod solida æquidistantiū laterum æque alta, siue inter superficies æquidistantes super unam & eadem basin constituta sunt adinuicem æqualia, sicut de superficiebus æquidistantium laterum super unam basin & inter lineas æquidistantes constitutis in 35 primi demonstratum est. Sed talium solidorū quædam dicūtur constitui super lineam unam, & sunt illa quorum supremarū superficierum duo opposita latera sunt secundum rectitudinem protracta, linea una, & de talibus hæc 29 proponit
 

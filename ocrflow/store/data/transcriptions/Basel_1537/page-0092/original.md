@@ -6,6 +6,8 @@ quæ fiunt ex ε η, & η ζ, æquū est id quod fit ex ζ ε, (per 47 primi, ei
 
 ## Eucli. ex Camp. Propositio 35
 
+[Curated heading level=3 type=campanus_sequence: 35.]
+
 [Margin]
 35
 [/Margin]

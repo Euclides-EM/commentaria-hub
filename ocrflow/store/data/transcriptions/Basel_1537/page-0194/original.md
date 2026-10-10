@@ -8,6 +8,8 @@ THEON ex Zamberto. Sint bini numeri α,β, & α quidem ipsum β multiplicans, ef
 
 ## Eucli.ex Camp. Propositio 18
 
+[Curated heading level=3 type=campanus_sequence: 18.]
+
 [Margin]
 18
 [/Margin]
@@ -20,6 +22,8 @@ CAMPANVS. Multiplicet a utrunq̃ duorum numerorū b & c, & proueniant d & e. Dic
 
 ## Eucli.ex Zamb. Theorema 15 Propositio 17
 
+[Curated heading level=3 type=zamberti_sequence: 17.]
+
 [Margin]
 17
 [/Margin]
@@ -31,6 +35,8 @@ THEON ex Zamb. Numerus enim α duos numeros β,γ, multiplicans, efficiat ipsos 
 [Diagram: dot-rows in the right margin, ζ (1 dot), α (3 dots), β (4 dots), γ (5 dots), δ (12 dots), ε (15 dots)]
 
 ## Eucli. ex Camp. Propositio 19
+
+[Curated heading level=3 type=campanus_sequence: 19.]
 
 [Margin]
 19

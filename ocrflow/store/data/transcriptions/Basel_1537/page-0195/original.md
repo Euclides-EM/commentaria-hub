@@ -8,6 +8,8 @@ Vt si sit a ad b, sicut d ad f, & b ad e, sicut c ad d, erit a ad e, sicut c ad 
 
 ## Eucli.ex Zamb. Theorema 16 Propositio 18
 
+[Curated heading level=3 type=zamberti_sequence: 18.]
+
 [Margin]
 18
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamberto. Duo enim α, β. numerum aliquem δ multiplicantes, efficiant
 [Diagram: dot-rows in the right margin labelled α, β, γ, δ (12 dots), ε (15 dots)]
 
 ## Eucli. ex Camp. Propositio 20
+
+[Curated heading level=3 type=campanus_sequence: 20.]
 
 [Margin]
 20

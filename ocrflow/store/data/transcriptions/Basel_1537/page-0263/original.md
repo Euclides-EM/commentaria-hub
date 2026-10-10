@@ -10,6 +10,8 @@ CAMPANI *additio*. Si autem a & b sint incommunicantes,erit c incommunicans utri
 
 ## Eucli.ex Camp. Propositio 10
 
+[Curated heading level=3 type=campanus_sequence: 10.]
+
 [Margin]
 10
 [/Margin]
@@ -23,6 +25,8 @@ CAMPANVS. Sint quatuor quantitates proportionales,a,b,c,d: dico quod si a commun
 [Diagram: four horizontal lines labelled a; b Re. 32; c; d Re. 18]
 
 ## Eucli.ex Camp. Propositio 11
+
+[Curated heading level=3 type=campanus_sequence: 11.]
 
 [Margin]
 11

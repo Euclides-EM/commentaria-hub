@@ -6,7 +6,13 @@ Et quoniā binæ α β, β θ, duabus δ γ, γ ζ, sunt æquales, & angulus qui
 
 ## Eucli. ex Camp. Propositio 25
 
-25 {dropcap:S|lines=?|style=decorated}I superficies quædam secet solidū parallelogrammū æquidistanter duabus ipsius solidi supficiebus  oppositis, duo partialia corpora quæ ad illam secantem superficiem uelut ad cōmunem terminum copulantur, suis basibus sunt proportionalia.
+[Curated heading level=3 type=campanus_sequence: 25.]
+
+[Margin]
+25
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated}I superficies quædam secet solidū parallelogrammū æquidistanter duabus ipsius solidi supficiebus  oppositis, duo partialia corpora quæ ad illam secantem superficiem uelut ad cōmunem terminum copulantur, suis basibus sunt proportionalia.
 
 CAMPANVS. Sit corpus a b, solidū parallelogrammū, & secet ipsum supficies c d æquidistāter duabus eius oppositis superficiebus quæ sunt a e & f b. Et sit superficies g b, basis ipsius solidi a b, de qua constat per præmissam ꝙ ipsa sit æquidistantiū laterū. Et sit cōmunis sectio duarū superficierū c d & g b, linea h d, de qua cōstat per 3 huius, ꝙ ipsa sit linea recta, & per 16 huius, ꝙ ipsa sit æquidistās g e. Ideoq̃ sunt duæ superficies g d & h b æquidistantiū laterū, & ipsæ sunt bases duorū partialiū corporū in quæ supficies c d diuidit solidum a b. Dico itaq̃ ꝙ ꝓportio solidi a d ad solidū b c, est sicut basis g d ad basin h b. Protrahantur enim utrinq̃ quantū libuerit, quatuor lineæ penetrātes superficiē c d super eius angulos, & ipsæ sunt a f & e b cum duabus reliquis sibi æquidistātibus. Sumāturq̃ ex eis omnibus portiones ex parte puncti b, quot libuerit, quæ ponātur singulæ æquales lineæ b d, & ex parte puncti e, aliæ similiter quot libuerit, quæ ponantur æquales lineæ e d. Super quas utrinq̃ constituantur solida parallelogrāma secūdum longitudinū exigentiā, sintq̃ ex parte puncti b, solida f k & l m, & ex parte pūcti e, solida a n & p q. Eritq̃ ex diffinitiōe corporū æqualiū atq̃ similiū, unūquodq̃ solidorū f k & l m æquale solido c d, & unūquodq̃ a n & p q æquale a d. Fiat igitur argumentū quemadmodū in prima sexti. Est enim solidū c m ita multiplex solidi b c, sicut basis h m, basis h b, & solidū q c ita multiplex solidi a d, sicut basis q h, basis g d. Et si basis h m est æqualis basi q h, solidum e m est æquale solido q c ex diffinitione corporū æqualiū atq̃ similiū, & si basis est minor basi, & solidū est minus solido, & si maior, maius, quod patet ex diffinitiōe eadē, resecata maiori basi ad æqualitatē minoris, & descripto super eam solido parallelogrāmo. Itaq̃ ex diffinitione incōtinue ꝓportionalitatis proportio solidi a d ad solidū c b, sicut basis g d ad basin h b. Quod est propositū.
 
@@ -18,7 +24,13 @@ CAMPANVS. Quod si superficies aliqua secet corpus serratile æquidistāter duobu
 
 ## Eucli. ex Zamb. Theorema 22 Propositio 25
 
-25 Si solidum parallelepipedū plano secetur, parallelo existente eis quæ ex opposito planis, erit sicut basis ad basin sic solidum ad solidum.
+[Curated heading level=3 type=zamberti_sequence: 25.]
+
+[Margin]
+25
+[/Margin]
+
+Si solidum parallelepipedū plano secetur, parallelo existente eis quæ ex opposito planis, erit sicut basis ad basin sic solidum ad solidum.
 
 THEON ex Zāb. Solidū, inquā, parallelepipedū α β γ δ secetur à plano υ ε parallelo existēte eis quæ ex opposito planis scilicet ipsis ρ α & δ β. Dico qd̃ est sicut α ε ζ φ basis ad ε θ γ ζ basin, sic est α β ζ υ solidū ad ε η γ δ solidū.
 

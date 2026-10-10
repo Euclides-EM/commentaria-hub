@@ -14,6 +14,8 @@ CORRELARIVM. Si uero & in altera ſphæra ei quod in β γ δ ε, ſphæra, ſol
 
 ## Euclid. ex Camp. Propoſitio 15
 
+[Curated heading level=3 type=campanus_sequence: 15.]
+
 [Margin]
 15
 [/Margin]

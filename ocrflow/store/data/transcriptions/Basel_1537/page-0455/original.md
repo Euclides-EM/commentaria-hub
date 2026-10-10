@@ -10,7 +10,9 @@ semicirculus igitur super ψ ω descriptus, ueniet & per λ. iam id propterea qu
 
 CORRELARIVM. Ex hoc igitur est manifestum, quod sphæræ diameter potentia quincuplum est eius quæ ex centro circuli à quo icosahedrum describitur, & quod sphæræ diameter componitur ex binis decagoni in eodem circulo descriptorum lateribus.
 
-## Eucli. ex Camp. — Propositio 17
+## Eucli. ex Camp. Propositio 17
+
+[Curated heading level=3 type=campanus_sequence: 17.]
 
 [Margin]
 17

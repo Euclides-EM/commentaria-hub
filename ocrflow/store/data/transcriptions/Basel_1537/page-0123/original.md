@@ -10,9 +10,15 @@ gnitudinibus & alijs eis æqualibus multitudine* una sumptis & in eadem ratione 
 
 21 Perturbata autem proportio, est quando tribus existentibus magnitudinibus & alijs eis æqualibus multitudine, fit sicut quidem in primis magnitudinibus antecedens ad consequens sic in secundis magnitudinibus antecedens ad consequens, sicut autem in primis magnitudinibus cōsequens ad rem aliam, sic in secundis res alia ad antecedens.
 
-## Eucli. ex Camp. — Propositio 1
+## Eucli. ex Camp. Propositio 1
 
-1 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerint quotlibet quantitates aliarum totidem æquæ multiplices, aut singulæ singulis æquales, necesse est quemadmodum una illarum ad sui comparem, totum quoque ex his aggregatum ad omnes illas pariter acceptas similiter se habere.
+[Curated heading level=3 type=campanus_sequence: 1.]
+
+[Margin]
+1
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerint quotlibet quantitates aliarum totidem æquæ multiplices, aut singulæ singulis æquales, necesse est quemadmodum una illarum ad sui comparem, totum quoque ex his aggregatum ad omnes illas pariter acceptas similiter se habere.
 
 CAMPANVS Sint quotlibet quantitates quæ sint a b, c, aliarū totidem quæ sint d e f, æque multiplices, unaquæq̃ ad sui comparem. aut singulæ sint singulis æquales, ita uidelicet quod sicut a est multiplex d, ita b est multiplex e, & c, multiplex f uel si a est æqualis d, quod similiter b sit æqualis e, & c æqualis f, dico quod sicut se habet a ad d, ita se habet aggregatum ex omnibus quæ sunt a b c, ad aggregatum ex omnibus quæ sunt d e f.
 
@@ -22,9 +28,15 @@ Quod si singulæ singulis sint æquales, patet propositum per hanc commuuem scie
 
 [Diagram: at right, three short horizontal lines labelled a, b, c; beneath them three equal short lines labelled d, e, f]
 
-## Eucli. ex Zamb. — Theorema 1 — Propositio 1
+## Eucli. ex Zamb. Theorema 1 Propositio 1
 
-## 1 Si fuerint quotcunque magnitudines quotcunque magnitudinum æqualium numero singulæ singularum æque multiplices, quotuplex est unius una magnitudo, totuplices erunt & omnes omnium.
+[Curated heading level=3 type=zamberti_sequence: 1.]
+
+[Margin]
+1
+[/Margin]
+
+Si fuerint quotcunque magnitudines quotcunque magnitudinum æqualium numero singulæ singularum æque multiplices, quotuplex est unius una magnitudo, totuplices erunt & omnes omnium.
 
 THEON ex Zamb. *Sint quotcunque magnitudines a β, γ δ, quotcunque magnitudinū ε, ζ, æqualiū numero, æque multiplices, singulæ singularū. Dico quod quotuplex est a β, ipsius ε, totuplices erunt a β, & γ δ, ipsarū ε, ζ.*
 

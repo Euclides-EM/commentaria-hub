@@ -8,6 +8,8 @@ ad a b, sicut a b ad b c. Cūq̃ sit ex 7 quinti a b ad b c, sicut ad b d, erit 
 
 ## Eucli. ex Camp. Propositio 5
 
+[Curated heading level=3 type=campanus_sequence: 5.]
+
 [Margin]
 5
 [/Margin]
@@ -24,6 +26,8 @@ CAMPANVS. Sit linea a b, diuisa per sæpe dictam proportionē in puncto c, sitq�
 
 ## Eucli. ex Zamb. Theorema 4 Propositio 4
 
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
 [Margin]
 4
 [/Margin]
@@ -39,6 +43,8 @@ THEON ex Zamb. *Sit recta linea α β, seceturq̃ extrema & media ratione in γ,
 [Diagram: square α δ ε β on the line α β, with γ on the top side; vertical and horizontal dividing lines, a diagonal, and a circular arc about the centre; internal labels include δ, ζ, θ, κ, ν, ε]
 
 ## Eucli. ex Zamb. Theorema 5 Propositio 5.
+
+[Curated heading level=3 type=zamberti_sequence: 5.]
 
 [Margin]
 5

@@ -6,7 +6,13 @@ Et qui ex δ ε, ε ζ, igitur una cum ijs qui bis sub δ ε, ε ζ, ad eum qui 
 
 ## Eucli. ex Camp. Propositio 17
 
-**17** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duo numeri contra se primi, quantus est primus eorum ad secundum, tantum esse secundum ad tertium quemquam impossibile est.
+[Curated heading level=3 type=campanus_sequence: 17.]
+
+[Margin]
+17
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duo numeri contra se primi, quantus est primus eorum ad secundum, tantum esse secundum ad tertium quemquam impossibile est.
 
 CAMPANVS. Sint a & b contra se primi, dico impossibile esse, aliquem eis in continua proportionalitate adiungi. Si enim potest, sit c, quia igitur a ad b, sicut b ad c, sunt autem a & b in sua proportione minimi per 23 septimi, sequitur per 21 eiusdem, ut a numeret b, qui cum etiam numeret se, non erunt a & b contra se primi, quod est contrarium positioni.
 
@@ -14,7 +20,13 @@ CAMPANVS. Sint a & b contra se primi, dico impossibile esse, aliquem eis in cont
 
 ## Eucli. ex Zamb. Theorema 16 Propositio 16
 
-**16** Si bini numeri primi adinuicem fuerint, non erit sicut primus ad secundum, sic secundus ad aliquem alium.
+[Curated heading level=3 type=zamberti_sequence: 16.]
+
+[Margin]
+16
+[/Margin]
+
+Si bini numeri primi adinuicem fuerint, non erit sicut primus ad secundum, sic secundus ad aliquem alium.
 
 THEON ex Zamber. Bini enim numeri α,β, primi sint adinuicem. Dico quod non est sicut α ad β, sic β ad aliquem alium. Si enim possibile, sit sicut α ad β, sic β ad γ. Ipsi autē α,β, primi sunt: primi autem & minimi (per 23 septimi) minimi uero, metiuntur eandem rationem habentes, æqualiter (per 21 septimi) antecedens antecedentem & sequens sequentem: metitur igitur α ipsum β, antecedens antecedentem: metitur autem & seipsum, igitur α ipsos α,β, metitur primos adinuicem existentes, quod est absurdum, non est igitur sicut α ad β, sic β ad γ, quod ostendere oportebat.
 
@@ -22,7 +34,13 @@ THEON ex Zamber. Bini enim numeri α,β, primi sint adinuicem. Dico quod non est
 
 ## Eucli. ex Camp. Propositio 18
 
-**18** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I quotlibet numerorū continue proportionalium duo extremi fuerint contra se primi, quantus est primus ad secundum, tantum esse ultimum ad aliquem alium est impossibile.
+[Curated heading level=3 type=campanus_sequence: 18.]
+
+[Margin]
+18
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I quotlibet numerorū continue proportionalium duo extremi fuerint contra se primi, quantus est primus ad secundum, tantum esse ultimum ad aliquem alium est impossibile.
 
 CAMPANVS. Sint a, b, c, continue proportionales, sintq̃ a & c contra se primi: dico quod in eadem proportione non potest eis adiungi alius. Si enim potest, sit d. Quia igitur est a ad b sicut c ad d, erit permutatim a ad c, sicut b ad d, sunt autem a & c, in sua proportione minimi, per 23 septimi, itaq̃ per 21 eiusdem a numerat b, quare etiam numerat c, numerorū enim continue proportionaliū, si primus numerat secundum, ipse numerat omnes, & simpliciter quilibet præcedens quemlibet sequentem, at quia etiam numerat se, non erunt a & c contra se primi, quod est inconueniens.
 
@@ -30,7 +48,13 @@ CAMPANVS. Sint a, b, c, continue proportionales, sintq̃ a & c contra se primi: 
 
 ## Eucli. ex Zamb. Theorema 17 Propositio 17
 
-**17** Si fuerint quotcunq̃ numeri continue proportionales, ipsorum autem extremi primi adinuicem fuerint, non erit sicut primus ad secundum, sic ultimus ad aliquem alium.
+[Curated heading level=3 type=zamberti_sequence: 17.]
+
+[Margin]
+17
+[/Margin]
+
+Si fuerint quotcunq̃ numeri continue proportionales, ipsorum autem extremi primi adinuicem fuerint, non erit sicut primus ad secundum, sic ultimus ad aliquem alium.
 
 THEON ex Zamber. Sint quotcunq̃ numeri continue proportionales, α, β, γ, δ, ipsorum autem extremi α β{printer-error-correction:α δ} sint primi adinuicē. Dico quod non est sicut α ad β, sic δ ad aliquem alium. Si enim possibile, esto sicut α ad β, sic δ ad ε: uicissim igitur (per 13 septimi) est sicut α ad δ, sic β ad ε. Ipsi autem α,δ, primi sunt, primi autem & minimi, minimi uero numeri, metiuntur eandem rationem habentes æqualiter (per 21 septimi) antecedens antecedentē, & sequens sequentem: metitur igitur α ipsum β, estq́; sicut α ad β, sic β ad γ, & β igitur ipsum γ metitur, quare & α ipsum γ metitur: & quoniam est sicut β ad γ, sic γ ad δ, metitur autem β ipsum γ, metitur igitur & γ ipsum δ. Sed α ipsum γ metitur, quare & α ipsum δ metitur, metitur autem & seipsum. Igitur α, ipsos α,δ, metitur primos inuicem existentes, quod est impossibile. Non est igitur sicut α ad β, sic δ ad aliquem alium, quod ostendere oportuit.
 

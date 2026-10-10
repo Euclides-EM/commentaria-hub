@@ -1,4 +1,4 @@
-## PHAENOMENA
+<!-- Running title: PHAENOMENA -->
 
 <!-- Page number: 501 -->
 
@@ -10,7 +10,9 @@ Aliter idem. Sit horizon circulus a b c d, æstiuus autem tropicus sit b a, hybe
 
 [Diagram: sphere with horizon a b c d and several parallel circles; points b, q, a, m, l, h, k, x, o, e, n, s, y, u, p, r, z, c, d marked]
 
-### Theorema 17 — Apparens 17
+## Theorema 17 Apparens 17
+
+[Curated heading level=3 type=zamberti_sequence: 17.]
 
 {dropcap:Z|lines=?|style=decorated|decoration="woodcut"}Odiaci circuli æquales circūferētiæ æquali tempore non permutant non apparēs hemisphæriū, sed in pluri tempore quæ propinquior est tropico ea quæ longius distat, in æquali uero quæ ab utroq̃ contactu æque distant.
 

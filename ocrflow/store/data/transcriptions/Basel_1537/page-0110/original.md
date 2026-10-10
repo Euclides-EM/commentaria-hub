@@ -12,7 +12,13 @@ CAMPANI additio. Et nota quod quamcunq̃ figuram æquilateram circulo scimus ins
 
 ## Eucli.ex Zamb. Problema 16. Propositio 16.
 
-16 In dato circulo, quintidecagonum æquilaterum & æquiangulum describere.
+[Curated heading level=3 type=zamberti_sequence: 16.]
+
+[Margin]
+16
+[/Margin]
+
+In dato circulo, quintidecagonum æquilaterum & æquiangulum describere.
 
 THEON ex Zamberto. *Sit datus circulus α β γ δ: oportet iam in α β γ δ circulo, quintidecagonū æquilaterum & æquiangulum describere. Describatur in circulo α β γ δ, trianguli æquilateri latus α γ, pentagoni uero æquilateri latus α β in arcu α γ. Qualium igitur est circulus α β γ δ, æqualium segmentorum quindecim: talium quidem circunferentia α β γ, tertium existens ipsius circuli: erit quinq̃. Circunferentia autem α β, existens quintum cir*
 

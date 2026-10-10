@@ -8,7 +8,9 @@ quæ ipsam areolam α β potest, est quæ cum rationali medium totum conficit. S
 
 [Diagram: square with diagonal from ρ (bottom left) to ο (top right); a vertical line and a horizontal line cross on the diagonal; semicircular arcs are drawn about the crossing; labels: λ, ν, ο along the top, σ at the left, ξ at the right, υ, π, φ and χ inside, ρ, τ, μ along the bottom]
 
-## Eucli.ex Camp, Propositio 91
+## Eucli.ex Camp. Propositio 91
+
+[Curated heading level=3 type=campanus_sequence: 91.]
 
 [Margin]
 91
@@ -19,6 +21,8 @@ SI linea rationali residuoq̃ sexto superficies contineatur, latus tetragonicum 
 CAMPANVS Nunc quoque ultimo quod per hanc dicitur præmisso modo satage concludere ex diffinitione residui sexti, & secunda parte 14 & 9 & 19 & 73. In his autē omnibus processum tuum nihil offendere poterit. si primam earum & perfecte didiceris & memoriter tenueris. & quid quoq̃ supponet solerter attenderis. Quod si forsan de aliquo in quadrato l m te dubitare cōtigerit. ad suum æquale in superficie a d tibi recurrendū erit, & patebunt tuo ingenio.
 
 ## Eucl.ex Zamb. Theorema 62{printer-error-correction:72} Propositio 96
+
+[Curated heading level=3 type=zamberti_sequence: 96.]
 
 [Margin]
 96

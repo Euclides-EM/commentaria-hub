@@ -6,6 +6,8 @@ duobus rectis, quod est propositum. Ex quo patet totum spatium quod in qualibet 
 
 ## Eucli. ex Zamb. Theorema 6. Propositio 13.
 
+[Curated heading level=3 type=zamberti_sequence: 13.]
+
 [Margin]
 13
 [/Margin]
@@ -18,6 +20,8 @@ THEON ex Zamb. Recta enim linea quædam α β, super rectam lineam γ δ consist
 
 ## Eucli. ex Camp. Propositio 14.
 
+[Curated heading level=3 type=campanus_sequence: 14.]
+
 [Margin]
 14
 [/Margin]
@@ -29,6 +33,8 @@ CAMPANVS. Sit ut à puncto b lineæ a b, exeant duæ lineæ in oppositas partes,
 [Diagram: from the point b the line b a rises vertically, the line b c goes horizontally to the right, and three lines b e, b d, b f descend to the left one below the other]
 
 ## Eucli. ex Zamb. Theorema 7. Propositio 14.
+
+[Curated heading level=3 type=zamberti_sequence: 14.]
 
 [Margin]
 14

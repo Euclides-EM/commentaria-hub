@@ -8,6 +8,8 @@
 
 ## Eucli. ex Camp. Propositio 55
 
+[Curated heading level=3 type=campanus_sequence: 55.]
+
 [Margin]
 55
 [/Margin]
@@ -21,6 +23,8 @@ CAMPANVS Sit lnea{printer-error-correction:linea} a b bimediale primũ, diuisa a
 [Diagram: tall rectangle divided by horizontal lines into bands; right side labels from top: g, q, n, l, f; left side labels: p, m, e (bottom-left)]
 
 ## Eucli. ex Zãb. Theorema 43 Propositio 61
+
+[Curated heading level=3 type=zamberti_sequence: 61.]
 
 [Margin]
 61

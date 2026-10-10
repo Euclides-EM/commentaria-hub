@@ -6,6 +6,8 @@
 
 ## Eucli. ex Zamb. Theorema 5 Propositio 5
 
+[Curated heading level=3 type=zamberti_sequence: 5.]
+
 [Margin]
 5
 [/Margin]
@@ -18,6 +20,8 @@ THEON ex Zamb. Recta enim linea quædā α β secetur quidem in æqualia in γ, 
 
 ## Eucli. ex Camp. Propositio 6
 
+[Curated heading level=3 type=campanus_sequence: 6.]
+
 [Margin]
 6
 [/Margin]
@@ -29,6 +33,8 @@ CAMPANVS. Sit linea a b diuisa per æqualia in puncto c, eiq́ꝫ addatur linea 
 [Diagram: same woodcut as the preceding proposition: base line a c d b; square c b f e above segment c b, with g on top side e f; diagonal e b; vertical line d g cutting the diagonal at h; horizontal line K l h m through h, K above a, l on c e, m on b f]
 
 ## Eucli. ex Zamb. Theorema 6. Propositio 6.
+
+[Curated heading level=3 type=zamberti_sequence: 6.]
 
 [Margin]
 6

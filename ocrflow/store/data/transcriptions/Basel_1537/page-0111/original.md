@@ -12,11 +12,23 @@ QVARTI LIBRI FINIS.
 
 ## Euclides ex Campano. Diffinitiones.
 
-1 {dropcap:P|lines=?|style=decorated|decoration="putti"}ars, est quantitas quantitatis minor maioris, cum minor maiorem numerat.
+[Curated heading level=3 type=campanus_sequence: 1.]
+
+[Margin]
+1
+[/Margin]
+
+{dropcap:P|lines=?|style=decorated|decoration="putti"}ars, est quantitas quantitatis minor maioris, cum minor maiorem numerat.
 
 CAMPANVS. Pars, quandoq̃ sumitur proprie: & hæc est quæ aliquoties sumpta, suum totum præcise constituit: sine diminutione uel augmento: & dicitur suum totum numerare per illum numerū, secundum quem sumitur ad ipsius totius constitutionem: talem autem partem quam multiplicatiuam dicimus, hic diffinit. Quandoq̃ sumitur communiter: & hæc est quælibet quātitas minor, quæ quotiescunq̃ sumpta, suo toto minus aut maius constituit, quam aggregatiuam dicimus: eo quod cum alia quantitate diuersa totum suum constituat, per se autem quotiescunq̃ sumpta fuerit, non producat.
 
-## 2 Multiplex, est maior minoris quando eam minor metitur.
+[Curated heading level=3 type=campanus_sequence: 2.]
+
+[Margin]
+2
+[/Margin]
+
+Multiplex, est maior minoris quando eam minor metitur.
 
 CAMPANVS. Pars, relatiue dicitur ad totum, & in istis duobus extremis, consistit eorum adinuicem relatio: & ideo diffinito minori extremo: diffinit hic maius: uocat autem
 

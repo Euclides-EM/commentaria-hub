@@ -4,7 +4,13 @@
 
 ## Eucli.ex Zamb. Problema 14. Propositio 14.
 
-14 Circa datum pentagonum æquilaterum & æquiangulum, circulum describere.
+[Curated heading level=3 type=zamberti_sequence: 14.]
+
+[Margin]
+14
+[/Margin]
+
+Circa datum pentagonum æquilaterum & æquiangulum, circulum describere.
 
 THEON ex Zamberto. *Sit datum pentagogonum æquilaterum & æquiangulum α β γ δ ε: oportet iam circa pentagonum α β γ δ ε, circulum describere Secetur iam (per 9 primi) uterq̃, eorum qui sunt sub β γ δ & γ δ ε angulorum bifariam, per utramq̃ ipsarum γ ζ & δ ζ. Et à ζ signo in quo concurrunt ipsæ rectæ lineæ, ad signa β, α, ε, coniungantur rectæ lineæ ζ β, ζ α & ζ ε. Similiter præcedenti ostendetur, quod & unusquisq̃ eorū qui sunt sub γ β α, β α ε & α ε δ angulorum, bifariam secatur per unamquanq̃ ipsarum ζ β, ζ α, ζ ε rectarum linearum. Et quoniam æqualis est angulus β γ δ angulo γ δ ε, & angulus ζ γ δ dimidium est anguli β γ δ: anguli autem γ δ ε dimidiū est angulus ζ δ γ: & angulus ζ γ δ igitur angulo ζ δ γ est æqualis. Quare & latus ζ γ, lateri ζ δ est æquale. Similiter iam ostendetur, quod & unaquæq̃ ipsarum ζ β, ζ α, utraq̃ ipsarum ζ γ & ζ δ est æqualis. Quinq̃ igitur rectæ lineæ ζ α, ζ β, ζ γ, ζ δ, ζ ε, sibi inuicem sunt æquales. Centro igitur ζ, & spatio aut ζ α aut ζ β aut ζ γ aut ζ δ aut ζ ε, circulus descriptus: ueniet per reliqua signa, & descriptus erit circa α β γ δ ε pentagonum quod æquilaterum & æquiangulum est. Describatur & sit α β γ δ ε. Circa datum igitur pentagonum quod est æquiangulum & æquilaterum, circulus descriptus est, quod facere oportebat.*
 
@@ -12,7 +18,13 @@ THEON ex Zamberto. *Sit datum pentagogonum æquilaterum & æquiangulum α β γ 
 
 ## Eucli.ex Camp. Propositio 15.
 
-15 Ntra propositum circulum, hexagonum æquilaterum atque æquiangulum describere.
+[Curated heading level=3 type=campanus_sequence: 15.]
+
+[Margin]
+15
+[/Margin]
+
+Ntra propositum circulum, hexagonum æquilaterum atque æquiangulum describere.
 
 Ex hoc itaq̃ manifestum est quod latus hexagoni, æquū est dimidio diametri circuli qui inscribitur.
 

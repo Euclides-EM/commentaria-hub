@@ -8,11 +8,23 @@ istorum 4 modorum maior proportio primæ ad secundam, quàm tertiæ ad quartā. 
 
 Possunt autem esse hæ quantitates improportionales diuersorum generum, sicut & quantitates incontinue proportionales si intra eas fuerit incontinua improportionalitas, ut si dicatur maior est proportio a ad b, quam c ad d. Si autem fuerit continua improportionalitas: erunt omnes eiusdem generis necessario sicut sunt in continua proportionalitate, ut si dicatur maior est proportio a ad b, quàm b ad c.
 
-## 9 Est autem proportionalitas, ad minus inter tres terminos constituta.
+[Curated heading level=3 type=campanus_sequence: 9.]
+
+[Margin]
+9
+[/Margin]
+
+Est autem proportionalitas, ad minus inter tres terminos constituta.
 
 CAMPANVS. Postquam auctor diffiniuit proportionem, proportionalitatem, & quantitates proportionales & improportionales: ostendit quis sit minimus numerus terminorum inter quos proportionalitas potest consistere: maximum autem nō ponit, quia illum non contingit sumere: potest enim proportio quælibet continuari in terminis infinitis, siue fuerit rationalis proportio siue irrationalis. Ad proportionalitatem autem exiguntur ad minus duæ proportiones similes, eo quod proportionalitas sit similitudo proportionum. Quælibet autē proportio habet antecedens & consequēs: ergo quælibet proportionalitas habet ad minus duo antecedentia & duo consequētia: hoc est, impossibile fieri in paucioribus quàm tribus terminis, in quibus medius eorum antecedens est & consequens, & ideo proportionalitas erit continua: quare in tribus terminis ad minus erit continua proportionalitas constituta. Incontinua autem non erit in paucioribus quàm in 4, eo quod in ipsa quilibet terminus est tantum antecedens aut tantum consequens: idem intellige de minori numero terminorum improportionalitatis. Si enim fuerit continua, erit ad minus inter tres terminos. Si incontinua, ad minus inter quatuor.
 
-## 10 Si fuerint tres quantitates continue proportionales: dicetur proportio primæ ad tertiam, proportio primæ ad secundam duplicata.
+[Curated heading level=3 type=campanus_sequence: 10.]
+
+[Margin]
+10
+[/Margin]
+
+Si fuerint tres quantitates continue proportionales: dicetur proportio primæ ad tertiam, proportio primæ ad secundam duplicata.
 
 CAMPANVS. Diffinit proportionē quæ est inter extremos terminos cōtinuæ proportionalitatis in tribus terminis constitutæ, & dicit qđ si fuerit proportio primi ad
 

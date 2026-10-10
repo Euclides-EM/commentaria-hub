@@ -14,11 +14,13 @@ Dico iam ꝙ ipsius sphæræ dimetiēs, lateris ipsius pyramidis potentia sesqua
 
 ## Eucli. ex Camp. Propositio 14
 
+[Curated heading level=3 type=campanus_sequence: 14.]
+
 [Margin]
 14 / Zamb. 15
 [/Margin]
 
-## {dropcap:A|lines=?|style=decorated}B assignata sphæra circūscriptibilē cubum constituere. Eiusdem autem sphæræ diametrum lateri ipsius cubi potentialiter triplicem esse manifestum erit.
+{dropcap:A|lines=?|style=decorated}B assignata sphæra circūscriptibilē cubum constituere. Eiusdem autem sphæræ diametrum lateri ipsius cubi potentialiter triplicem esse manifestum erit.
 
 CAMPANVS. Assignatæ sphæræ diameter sit a b, sup quā lineetur semicirculus a d b, diuidaturq́; diameter in pūcto c, prorsus secundū conditionē præmissæ, uidelicet ut linea a c sit dupla ad lineam c b, & ꝓducatur c d perpendicularis ad a b, & protrahātur d b & d a. Postea fiat unū quadratū cuius omnia latera sint æqualia lineæ b d, sitq́; e f g h, super cuius quatuor angulos erigātur, ut docet 12
 

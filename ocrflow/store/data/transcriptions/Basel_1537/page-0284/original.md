@@ -8,6 +8,8 @@ sicut quod sub α, β, ad id quod sub β, γ, sic est α ad γ, sed ei quidem qu
 
 ## Eucli. ex Camp. Propositio 27
 
+[Curated heading level=3 type=campanus_sequence: 27.]
+
 [Margin]
 27
 [/Margin]

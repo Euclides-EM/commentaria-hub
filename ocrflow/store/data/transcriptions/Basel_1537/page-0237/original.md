@@ -8,7 +8,13 @@ effecit. Igitur qui ex α,γ, ei qui ex ε,ζ, est æqualis. Est igitur sicut α
 
 ## Eucli. ex Camp. Propositio 13
 
-**13** {dropcap:Q|lines=?|style=decorated|decoration="bird among foliage"}Votlibet numeris ab unitate cōtinue proportionalibus, si qui unitatem sequitur fuerit numerus primus, maximum eorum nisi de numeris in illa proportionalitate dispositis, nullus numerabit.
+[Curated heading level=3 type=campanus_sequence: 13.]
+
+[Margin]
+13
+[/Margin]
+
+{dropcap:Q|lines=?|style=decorated|decoration="bird among foliage"}Votlibet numeris ab unitate cōtinue proportionalibus, si qui unitatem sequitur fuerit numerus primus, maximum eorum nisi de numeris in illa proportionalitate dispositis, nullus numerabit.
 
 CAMPANVS. Sint ut prius usq̃ ad d, continue proportionales ab unitate, sitq̃ a numerus primus. Dico quod nullus numerabit ultimum, nec simpliciter aliquem eorum, nisi aliquis eorum qui antecedit ultimum, uel eum qui ponitur numerari. Sit enim (si possibile est) e diuersus ab eis, qui numeret d, qui si fuerit primus, per 11 numerabit a: non igitur est a primus, quod est contra hypothesin. Si autem ipse fuerit compositus, necesse est per 30 septimi. ut aliquis primus numeret eum, qui nō erit nisi a. Nam si est alius ab a ut f, cum necesse sit ipsum numerare d. arguetur etiā eundem numerare a per 11, sic quoq̃ a non erit primus. Est igitur a primus, numerans e. Quoniam autem e numerat d, fit ut secundum g, eritq̃ per secundā partem 20 septimi, a ad e. sicut g ad c: fit enim d ex a in c. Quare cum a numeret e, & g numerabit c, sitq̃ ut secundum h, sequiturq̃ ut a uumeret g, sicut sequebatur ut numeraret e, alioqui si g quidē est primus, cum numeret c, sequitur per 11 ipsum numerare a. Si autem compositus, per eandem sequitur numerū primum numerantē g, numerare a, quod est inconueniens. Itaq̃ a numerat eum. sequitur ergo per secūdam partem 20 septimi, ut h numeret quoq̃ b, eo q̃ tam ex g in h constat produci c. numeret h itaq̃ ipsum, secundum k. Constat autem (ut prius de g) quod a numeret h. Nam si non, non erit a primus, itaq̃ per secūdam partem 20 septimi, sequitur ut k numeret a: fit enim tam ex a in se quàm ex h in k, b. Manifestum est autem k non esse a, nullus enim numerorū g,h,k, est aliquis ex a,b,c,d: si enim g esset aliquis ex eis, cū ipse numeret d secundū e, esset per præmissam, e quoq̃ aliquis ex eis. sed non erat, igitur g. Similiter cum h numeret c secundū g, non erit h aliquis ex a,b,c, nam esset per præmissam & g: ostensum est autē q̃ non, nec igitur h. Eadē ratione nec K, cum enim ipse numeret b secundū h, si ipse esset a, cōuinceretur per præmissam, h quoq̃ esse a. At non erat, nec igitur K erit a. Numerat autē ipsum, non est itaq̃ a primus, quod est impossibile.
 

@@ -12,7 +12,13 @@ ALITER. Sint dati tres anguli plani qui sub α β γ, δ ε ζ, η θ κ, quorū
 
 ## Eucli. ex Camp. Propositio 23
 
-23 {dropcap:T|lines=?|style=decorated}Ribus angulis superficialibus propositis, quorū quiq̃ duo pariter accepti tertio sunt maiores omēs, & tres simul quatuor rectis angulis minores, ex tribus illis æqualibus qualescunq̃ sint, solidum angulum constituere.
+[Curated heading level=3 type=campanus_sequence: 23.]
+
+[Margin]
+23
+[/Margin]
+
+{dropcap:T|lines=?|style=decorated}Ribus angulis superficialibus propositis, quorū quiq̃ duo pariter accepti tertio sunt maiores omēs, & tres simul quatuor rectis angulis minores, ex tribus illis æqualibus qualescunq̃ sint, solidum angulum constituere.
 
 CAMPANVS. Sint propositi tres anguli supficiales  qui sunt a, b, c, de tribus illis æqualibus uolumus unū solidum angulū cōstituere. Oportet igitur ex 20 huius, ut quiq̃ duo eorū pariter accepti tertio sint maiores, & ex 17 huius{printer-error-correction:21}, ut omnes pariter accepti quatuor rectis angulis sint minores. Ex ipsis itaq̃ sint hæc posita. Latera uero eos continētia cuncta adinuicē sint æqualia, eisq̃ subtendantur tres bases, & ipsæ sint d e, e f, & f d, eritq̃ ex præmissa possibile, de tribus lineis his basibus æqualibus triangulū cōstitui. Sit igitur ex eis secundū doctrinā 22 primi, triāgulus d e f, cōstitutus, cui sicut docuit 5 quarti, circūscribatur circulus d e f supra centrū g, & ꝓtrahatur g d, g e, g f. Quæ cum sint adinuicē æquales ex diffinitiōe circuli, lateraq̃ tres propositos angulos ambiētia æqualia ex hypothesi, necesse est ut earū quælibet quolibet illorū laterū sit minor, æqualē autē aut maiorē esse est impossibile. Si enim linea exiens à centro g, circūferentiā circuli d e f esset æqualis alicui laterū a d, a e, b e, b f, c f, c d, sequeretur propter ea quæ posita sunt, annuente 8 primi, tres angulos a, b, c, propositos, esse æquales tribus angulis d g e, e g f, f g d. Cumq̃ hi tres sint æquales quatuor rectis angulis, ut facile patet ex 13 primi, protracta paulisper una linearū exeuntiū à cētro ad circūferentiā in continuū & directū, essent etiā tres anguli a, b, c, æquales etiā quatuor rectis.
 

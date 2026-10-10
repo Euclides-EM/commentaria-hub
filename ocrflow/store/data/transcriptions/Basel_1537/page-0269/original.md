@@ -8,6 +8,8 @@ THEON ex Zamb. Ad aliquā rectā lineam α β. cōparetur parallelogrāmū α δ
 
 ## Eucli.ex Zamb. Theorema 14 Propositio 17
 
+[Curated heading level=3 type=zamberti_sequence: 17.]
+
 [Margin]
 17
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamber. Sint binæ rectæ lineæ inæquales α,& β γ.quarum maior sit
 [Diagram: horizontal line with points marked, labeled from left to right β, ζ, ε, δ, γ; beside the text, a long vertical line labeled α at its middle]
 
 ## Eucli.ex Camp. Propositio 14
+
+[Curated heading level=3 type=campanus_sequence: 14.]
 
 [Margin]
 14

@@ -8,11 +8,13 @@ cies a medialis, cui ponatur superficies b esse cōmunicans, dico superficiem b 
 
 ## Eucli.ex Zamb. Theorema 20 Propositio 23
 
+[Curated heading level=3 type=zamberti_sequence: 23.]
+
 [Margin]
 23
 [/Margin]
 
-## Quæ mediæ commensurabilis, media est.
+Quæ mediæ commensurabilis, media est.
 
 THEON ex Zamberto. Sit media α, & ipsi α commensurabilis esto β. Dico quod & β media est. Exponatur enim rationalis γ δ, & ei quod ex α sit æquale ad γ δ comparetur area rectangula γ ε (per 45 primi), latitudinē efficiens ipsam ε δ. Rationalis igitur est (per præcedentem) ε δ, incommensurabilisq̃ ipsi γ δ longitudine, ei autem quod ex β æquale ad γ δ comparetur (per 44 primi) area rectangula γ ζ, latitudinem efficiens δ ζ. Quoniam igitur commensurabilis est α ipsi β, commensurabile est quoq̃ id quod ex α ad id quod ex β. Sed ei quidem quod ex α, æquum est ε γ : ei autem quod ex β, æquum est γ ζ. Cōmensurabile igitur est ipsi ε ζ, estq̃ sicut ε γ ad γ ζ, sic est ε δ ad δ ζ. Cōmensurabilis igitur est (per 11 decimi) ε δ ipsi δ ζ longitudine. Rationalis autem est ε δ, & ipsi δ γ incommensuralis{printer-error-correction:incommensurabilis} longitudine. Rationalis igitur est & δ ζ & ipsi δ γ longitudine incōmensurabilis. Igitur γ δ & δ ζ (per 13 decimi) rationales sunt potentia tantum cōmensurabiles. Quod autem sub rationalibus potentia tantum cōmensurabilibus rectis lineis comprehenditur rectangulum, irrationale est (per 21 decimi) & illud potens, irrationalis est, appellaturq̃ media : potens igitur id quod sub γ δ & δ ζ, media est, potestq̃ β quod sub γ δ & δ ζ sit, media igitur est β, quod erat ostendendum.
 
@@ -22,6 +24,8 @@ CORRELARIVM. Hinc igitur est manifestum, quod mediæ areæ commensurabilis media
 
 ## Eucli. ex Camp. Propositio 22
 
+[Curated heading level=3 type=campanus_sequence: 22.]
+
 [Margin]
 22
 [/Margin]
@@ -30,7 +34,7 @@ CORRELARIVM. Hinc igitur est manifestum, quod mediæ areæ commensurabilis media
 Zamb. 26
 [/Margin]
 
-{dropcap:O|lines=?|style=decorated|decoration="a moon face"}## Mnis differentia qua abundat mediale à mediali, irrationalis esse probatur.
+{dropcap:O|lines=?|style=decorated|decoration="a moon face"}Mnis differentia qua abundat mediale à mediali, irrationalis esse probatur.
 
 CAMPANVS. Sit utraq̃ duarū superficierū a b & a, medialis : dico quod superficies b quæ est earum differentia, est irrationalis. Sit enim linea c d rationalis in longitudine, cui adiungatur superficies d e æqualis superficiei a, & superficies d f æqualis totali superficiei a b, hoc autē qualiter fiat in præmissa docuimus. Quia ergo d f est æqualis a b & d e æqualis a, erit per conceptionē g f æqualis b. Si itaq̃ superficies b non est irrationalis sed rationalis, erit & f g sua æqualis rationalis. At cū
 

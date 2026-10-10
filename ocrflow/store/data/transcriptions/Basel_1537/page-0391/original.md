@@ -1,6 +1,6 @@
 <!-- Page number: 380 -->
 
-# GEO. ELEMEN. EVCLIDIS
+<!-- Running title: GEO. ELEMEN. EVCLIDIS -->
 
 sicut igitur(per 9 quinti)ε θ basis ad ν π,basin,sic μ γ ad α η.Ipsorū igitur α β,γ δ,solidorū parallelepipedorum reciprocæ sunt bases altitudinibus. Rursus ipsorum α β,γ δ,solidorū parallelepipedorū,reciprocæ sint bases altitudinibus,sitq̃; sicut ε θ basis ad ν π basin,sic ipsius γ δ solidi altitudo ad ipsius α β solidi altitudinē.Dico quod solidū α β,æquum est ipsi γ δ solido. Sint enim rursus stantes,ad angulos rectos ipsis basibus.Et si quidem æqualis est ε θ,basis ipsi ν π,basi estq̃; sicut ε θ basis ad ν π basin sic ipsius γ δ solidi altitudo ad ipsius α β solidi altitudinem, æqua igitur est ipsius γ δ solidi altitudo,altitudini ipsius α β solidi.Super æqualibus autem basibus existentia solida parallelepipeda & sub eadem altitudine,inuicem sunt æqualia(per 31 undecimi.Igitur solidū α β,æquū est ipsi γ δ solido.
 
@@ -12,11 +12,13 @@ Non sit iam ε θ basis ipsi ν π basi æqualis,sed esto maior ε θ,maior igit
 
 ## Eucli.ex Camp. Propositio 37
 
+[Curated heading level=3 type=campanus_sequence: 37.]
+
 [Margin]
 37
 [/Margin]
 
-## SI fuerint duo anguli plani æquales super quos duæ hypothenusæ in aére statuantur cū lateribus angulorū subiacētiū singulos singulis æquos angulos cótinentes,atque in illis hypothenusis duo pūcta signētur à quibus pūctis duæ perpēdiculares ad superficies angulorū propositorū demittant̃,à pūctis aūt super quæ p̃pendiculares ceciderint ad eosdē duos angulos planos duæ rectæ lineæ ducant̃,duo anguli q̃ ab illis duabꝰ lineis atq̃ duabꝰ hypothenusis cótinent̃,æqui sibi iuicē eē ꝓbant̃
+SI fuerint duo anguli plani æquales super quos duæ hypothenusæ in aére statuantur cū lateribus angulorū subiacētiū singulos singulis æquos angulos cótinentes,atque in illis hypothenusis duo pūcta signētur à quibus pūctis duæ perpēdiculares ad superficies angulorū propositorū demittant̃,à pūctis aūt super quæ p̃pendiculares ceciderint ad eosdē duos angulos planos duæ rectæ lineæ ducant̃,duo anguli q̃ ab illis duabꝰ lineis atq̃ duabꝰ hypothenusis cótinent̃,æqui sibi iuicē eē ꝓbant̃
 
 CAMPANVS Sint duo anguli plani a & d æquales contēti lineis a b & a c & d e &
 

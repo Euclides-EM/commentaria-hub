@@ -6,7 +6,13 @@ latus trigoni icosedri ab eadem sphæra circūscripti, item proportio cunctarū 
 
 ## Eucli. ex Camp. Propositio 11
 
-11 IN omni triangulo æquilatero si ab uno angulorū eius perpendicularis ad basin ducatur, latus eiusdem trianguli ad ipsam perpendicularem potentialiter sesquitertiū esse conueniet.
+[Curated heading level=3 type=campanus_sequence: 11.]
+
+[Margin]
+11
+[/Margin]
+
+IN omni triangulo æquilatero si ab uno angulorū eius perpendicularis ad basin ducatur, latus eiusdem trianguli ad ipsam perpendicularem potentialiter sesquitertiū esse conueniet.
 
 CAMPANVS. Sit enim triāgulus æquilaterus a b c, ducaturq́ⱼ ab angulo a, linea a d, perpendicularis ad basin. Dico q̃ b a est potentialiter sesquitertiū ad a d. Sunt quidem ex 8 primi, duo anguli b & c æquales. Et quia anguli ad d sunt recti, erit per 26 primi, linea b c diuisa per æqualia in puncto d. Itaq́ⱼ ex 4 secūdi quadratū b c, quadruplū ad quadratū b d, ideoq́ⱼ etiam quadratū a b, q̃druplū est ad quadratū b d, est enim triangulus æquilaterus. Quare per penult. primi, quadrata duarū linearū a d ⁊ b d pariter accepta, quadruplū sunt ad quadratū b d. Itaq́ⱼ quadratū a d, triplū est ad quadratū b d. Constat ergo propositū.
 
@@ -14,7 +20,13 @@ CAMPANVS. Sit enim triāgulus æquilaterus a b c, ducaturq́ⱼ ab angulo a, lin
 
 ## Eucli. ex Camp. Propositio 12
 
-12 OMnis trigonus æquilaterus cuius est latus rationale, superficies medialis esse probatur.
+[Curated heading level=3 type=campanus_sequence: 12.]
+
+[Margin]
+12
+[/Margin]
+
+OMnis trigonus æquilaterus cuius est latus rationale, superficies medialis esse probatur.
 
 CAMP. Sit ut prius, triangulus a b æquilaterus, & sit latus eius a b rationale siue in longitudine siue in potentia tantum. Dico itaq́ⱼ q̃ ipse triangulus est superficies medialis. Ducatur enim perpēdicularis a d à b, angulo a, ad basin, eritq́ⱼ ex præmissa & ex 6 decimi, & diffinitiōe supficiei rationalis, quadratū lineæ a d rationale, & linea a d rationalis in potentia. Ipsa autē ex ultima parte decimæ mediante præmissa erit incōmensurabilis lineæ a b, ideoq́ⱼ & linea b d, quæ est tanq̃ eius dimidiū. Sunt itaq́ⱼ duæ lineæ a d & b d rationales, potētialiter tantum cōmunicantes, igitur ex 19 decimi, superficies unius earū in alterā est medialis. Cumq́ⱼ superficies unius earū in alterā sit æqualis trigono a b c, constat uerū esse quod diximus.
 
@@ -22,7 +34,13 @@ CAMP. Sit ut prius, triangulus a b æquilaterus, & sit latus eius a b rationale 
 
 ## Eucli. ex Camp. Propositio 13
 
-13 CVnctæ superficies utriuslibet duorum solidorū, quorū alterū est pyramis quatuor basium triangulariū & æquilaterarū, reliquum uero est corpus octo basium triangulariū & æquilaterarū pariter acceptæ, si diameter sphæræ ea circūscribentis rationalis fuerit, componūt superficiem medialem.
+[Curated heading level=3 type=campanus_sequence: 13.]
+
+[Margin]
+13
+[/Margin]
+
+CVnctæ superficies utriuslibet duorum solidorū, quorū alterū est pyramis quatuor basium triangulariū & æquilaterarū, reliquum uero est corpus octo basium triangulariū & æquilaterarū pariter acceptæ, si diameter sphæræ ea circūscribentis rationalis fuerit, componūt superficiem medialem.
 
 CAMPANVS. Nam si diameter sphæræ alterum duorum propositorū corporum circūscribentis fuerit rationalis siue in longitudine siue in potentia tantum, erit ex correlario 12 tredecimi libri, latus pyramidis rationale in potentia, & ex correlario eiusdem 15, latus quoq́ⱼ corporis octo basium rationale in potentia, quare per præmissam, trianguli qui sunt bases utriuslibet corporis, erunt superficies mediales. Et quia trianguli utriuslibet eorum sibi ad inuicem sunt æquales, erunt ex 21 decimi, omnes superficies utriuslibet eorum pariter acceptæ componentes superficiem medialem, quemadmodum proponitur.
 

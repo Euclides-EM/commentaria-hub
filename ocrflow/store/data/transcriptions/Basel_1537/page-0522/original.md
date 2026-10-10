@@ -14,7 +14,7 @@ Sit speculum conuexum a c, centrum autem sphæræ sit h, oculus porro sit b, uis
 
 [Diagram: convex speculum arc with b at the top; on and about the arc the points g, f, c, l, k, a; long visual rays descending to e at the lower left, d at the bottom and b at the right]
 
-## Theoréma uigesimumprimum.
+## Theorema uigesimumprimum.
 
 IN conuexis speculis simulacrum spectatis minus est.
 

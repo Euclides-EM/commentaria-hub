@@ -4,7 +4,7 @@
 
 cie datur & ab eadem describitur recta linea a b, Ratio igitur ipsius e ad a g b, data est. Et quoniam ratio ipsius a b ad c d, data est. Describunturq̃ ab ipsis a b, c d, similia similiterq̃ posita a b g, f, ratio igitur ipsius a g b, ad f data est. Ipsius aũt a g b, ad e, ratio est data. Et ipsius igitur e ad f, ratio est data.
 
-## Theorema 52 — Propositio 52
+## Theorema 52 Propositio 52
 
 SI à data recta linea magnitudine data specie species descripta fuerit datur quæ descripta est magnitudine.
 
@@ -16,7 +16,7 @@ Omne enim quadratũ datum est specie quandoquidem ipsius anguli dãtur, omnes en
 
 [Diagram: square with corners a (top left), b (top right), g (bottom left), f (bottom right); standing on its top side a smaller pentagonal (house-shaped) figure with apex d and base corners c, e]
 
-## Theorema 53 — Propositio 53
+## Theorema 53 Propositio 53
 
 SI binæ species specie datæ fuerint, & unum latus unius ad unum latus alterius rationem datam habuerit, & reliqua latera ad reliqua latera rationem datam habebunt.
 
@@ -28,7 +28,7 @@ Ostensum est in scholio 20 propositionis quod si a ad b, rationem habet datam: f
 
 [Diagram: two rectangles: the first with corners g (top left), e (top right), b (bottom left), f (bottom right); the second, taller and narrower, with corners e (top left), a (top right), d (bottom left), b (bottom right)]
 
-## Theorema 54 — Propositio 54
+## Theorema 54 Propositio 54
 
 SI binæ species specie datæ adinuicẽ rationem datam habuerint, & eorum latera adinuicem rationem habebũt datam.
 

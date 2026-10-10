@@ -6,7 +6,13 @@ secundum, sicut secundi ad tertium: erit proportio primi ad tertium sicut primi 
 
 [Diagram: at right, three horizontal lines of decreasing length labelled 8, 4, 2]
 
-## 11 Cum fuerint quatuor quantitates continue proportionales, proportio primæ ad quartam, dicetur proportio primæ ad secundam triplicata.
+[Curated heading level=3 type=campanus_sequence: 11.]
+
+[Margin]
+11
+[/Margin]
+
+Cum fuerint quatuor quantitates continue proportionales, proportio primæ ad quartam, dicetur proportio primæ ad secundam triplicata.
 
 CAMPANVS. Diffinit proportionem quæ est inter extremos continuæ proportionalitatis in quatuor terminis constitutæ: & dicit si fuerint quatuor quātitates continue proportionales: erit proportio primæ ad quartā, sicut proportio primæ ad secundam triplicata, hoc est, ex tribus talibus composita, quoniam tres tales inueniuntur in ea: siue (quod idem est) erit proportio primæ ad quartam, sicut primæ ad secundam triplicata, hoc est in se, postea in productū multiplicata: uerbi gratia in numeris. Sint quatuor numeri continue proportionales, sintq̃ continue tripli, ut sint 1,3,9,27: proportio primi ad quartum erit sicut proportio primi ad secundum in se, postea in productū multiplicata: proportio autem primi ad secundū, est tripla: tripla uero in se multiplicata: producit noncuplam, & tripla in noncuplam, producit uigincuplamseptuplā: erit itaq̃ proportio extremorum uigincuplaseptupla, quod est triplum tripli.
 

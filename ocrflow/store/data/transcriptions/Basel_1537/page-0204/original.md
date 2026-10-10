@@ -10,6 +10,8 @@ ALITER Sit compositus numerus α. Dico quod erm aliquis primus numerus metitur. 
 
 ## Eucli.ex Zamb. Theorema 32 Propositio 34
 
+[Curated heading level=3 type=zamberti_sequence: 34.]
+
 [Margin]
 34
 [/Margin]
@@ -21,6 +23,8 @@ THEON ex Zamb. Sit numerus α. Dico quod est α, aut est primus, aut eum aliquis
 [Diagram: dotted number-lines in right margin — α (3 dots), α (6 dots)]
 
 ## Eucli.ex Camp. Propositio 34
+
+[Curated heading level=3 type=campanus_sequence: 34.]
 
 [Margin]
 34
@@ -48,7 +52,9 @@ Vt si sint a b c secundũ quorũ proportiones uolumus minimos inuenire: siue fue
 
 [Diagram: dotted number-lines in right margin — a (6 dots), b (8 dots), c (12 dots); d (2 dots); e (3 dots), f (4 dots), g (6 dots); h (2 dots), k (3 dots), l (5 dots)]
 
-## Eucli.ex Zamb. Problema 5 Propositio 35
+## Eucli.ex Zamb. Problema 5{printer-error-correction:3} Propositio 35
+
+[Curated heading level=3 type=zamberti_sequence: 35.]
 
 [Margin]
 35

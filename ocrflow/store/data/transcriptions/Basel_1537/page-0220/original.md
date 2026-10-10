@@ -2,7 +2,9 @@
 
 <!-- Page number: 209 -->
 
-## Eucli.ex Camp. Propositio 10
+## Eucli.ex Camp. Propositio 10{printer-error-correction:11}
+
+[Curated heading level=3 type=campanus_sequence: 11.]
 
 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerint ambo quadrati, erit proportio unius ad alterum tanquam sui lateris ad latus illius proportio duplicata. Si uero ambo fuerint cubi, erit proportio alterius ad alterum tanquam sui lateris ad latus alterius proportio triplicata.
 
@@ -11,6 +13,8 @@ CAMPANVS. Sint duo quadrati a & b, & duo cubi c,& d, latera tam quadratorū quà
 [Diagram: numbers as horizontal rows of dots, labelled c; a; e and b; g; f and k; b; d]
 
 ## Eucli.ex Zamb. Theorema 9 Propositio 11
+
+[Curated heading level=3 type=zamberti_sequence: 11.]
 
 [Margin]
 11
@@ -23,6 +27,8 @@ THEON ex Zamberto. Sint quadrati numeri α,β,& ipsius quidem β, latus sit γ, 
 [Diagram: numbers as horizontal rows of dots, labelled α; γ; ε; δ; β]
 
 ## Eucli.ex Zamb. Theorema 10 Propositio 12
+
+[Curated heading level=3 type=zamberti_sequence: 12.]
 
 [Margin]
 12

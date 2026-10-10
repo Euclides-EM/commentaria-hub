@@ -16,7 +16,7 @@ Quoniam autem ipsam d e c, ipsi a d c, æqualem constituere possimus: seorsum ab
 
 [Diagram: two further diagrams: at left a right triangle with d at the top left and l, c at the base; at right a triangle with apex a and base points f, h, e]
 
-## Theorema 68 — Propositio 68
+## Theorema 68 Propositio 68
 
 SI bina æquiangula parallelogramma adinuicem rationem datam habuerint, & unum latus ad unum latus rationem habuerit datam, & reliquum latus, ad reliquum latus rationem habebit datam.
 

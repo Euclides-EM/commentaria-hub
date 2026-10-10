@@ -6,21 +6,25 @@ demonstrandum proponit ea esse æqualia, Intelligantur itaq̃ super duas bases a
 
 ## Propositio 32.
 
+[Curated heading level=3 type=campanus_sequence: 32.]
+
 [Margin]
 32
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I solida æquidistantium superficierū in æquis basibus constituta æque alta fuerint, lineæ autem angulares supra bases orthogonaliter non steterint. ipsa esse æqualia necesse est.
+{dropcap:S|lines=?|style=decorated|decoration="ornamental"}I solida æquidistantium superficierū in æquis basibus constituta æque alta fuerint, lineæ autem angulares supra bases orthogonaliter non steterint. ipsa esse æqualia necesse est.
 
 CAMPANVS Fabricatis duobus corporibus, ut proponitur, uidelicet quæ sint æquidistantium terminorum & æque alta & super bases æquas perpendiculariter, nō autē super bases suas erecta sed ambo super eas inclinata, si autem à quatuor angulis supremarum superficierum ipsorum ad bases suas perpendiculares ducantur quæ ex sexta erunt singulæ æquidistantes & etiam ex hypothesi singulæ singulis æquales (ipsæ enim solidorum propositorum altitudinem diffiniunt) & si inter eas solida æquidistantium laterum perficiantur, constabit ex præmissa hæc duo solida ultimo cōstituta esse adinuicem æqualia. Cūq́̃ duorum priorū & duorū posteriorū sint eædē bases, uidelicet eorum superficies supremæ, cōstat ex 29 uel 30 & hac cōmuni scientia, quæcūq̃ æqualibus sunt æqualia sibi inuicem sunt æqualia, uerum esse quod propositum est. Ex his potes cōuersas huius & præmissæ eisdem mediantibus indirecte demonstrare si libet, eodem modo & ad idem inconueniens sicut in conuersis duarum istas antecedentiū deducendo. pones enim duo solida parallelogramma esse æqualia & super æquales bases, & conuinces ea esse æque alta, uel pones ea esse ea  æque alta & æqualia, & conuinces ea esse super bases æquales.
 
 ## Eucli. ex Zāb. Theorema 26. Propositio 31.
 
+[Curated heading level=3 type=zamberti_sequence: 31.]
+
 [Margin]
 31
 [/Margin]
 
-## Super æqualibus basibus solida parallelepida{printer-error-correction:parallelepipeda} existentia, & sub eadem altitudine, inuicem sunt æqualia.
+Super æqualibus basibus solida parallelepida{printer-error-correction:parallelepipeda} existentia, & sub eadem altitudine, inuicem sunt æqualia.
 
 THEON ex Zāb. Sint super æqualibus basibus α β, γ δ, solida parallelepipeda α ε, & γ ζ, sub eodem fastigio. Dico quod solidū α ε, æquū est ipsi γ ζ. solido. Sint primum stantes ipsæ θ κ, β ε, α η, λ μ, ο π, δ ζ, γ ξ, & ρ σ, ad angulos rectos ipsis α β γ δ, basibus, & angulus qui sub α λ β, æqualis non sit angulo qui sub γ ρ δ. Extendaturq́̃ in rectam lineam γ ρ, ipsi ρ τ. Constituaturq́̃ (per 23 primi) ad ipsam ρ τ rectā lineam, ad signumq́̃ in ea ρ, ipsi α λ β, angulo æqualis angulus qui sub τ ρ υ, ponaturq́̃ (per 3 primi,) ipsi quidem α λ, æqualis ρ τ. ipsi autē λ β æqualis ρ υ, (per 31 primi,) ipsi ρ τ parallelus excitetur χ υ, compleaturq́̃ basis ρ χ, & solidū ψ υ. Et quoniam binæ τ ρ, ρ υ, binis α λ, λ β, sunt æquales, & æquos angulos comprehendunt, æquum igitur est & simile ρ χ, parallelogrāmū ipsi α β, parallelogrāmo. Et quoniam rursus æqualis est α λ, quidem ipsi ρ τ, λ μ, uero ipsi ρ σ, & angulos rectos comprehēdunt, æquum igi
 

@@ -4,6 +4,8 @@
 
 ## Eucli ex Zamb. Theorema primum. Propositio 4.
 
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
 [Margin]
 4
 [/Margin]
@@ -15,6 +17,8 @@ THEON ex Zamb. Sint duo triangula α β γ, δ ε ζ, duo latera uidelicet α β
 [Diagram: two tall triangles side by side with Greek vertex labels; the left triangle δ ε ζ with curved lines below its base ε ζ, the right triangle α β γ]
 
 ## Eucli. ex Camp. Propositio 5.
+
+[Curated heading level=3 type=campanus_sequence: 5.]
 
 [Margin]
 5

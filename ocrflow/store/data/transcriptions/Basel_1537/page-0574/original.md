@@ -20,7 +20,7 @@ Binæ siquidẽ rectæ lineæ a b,c d,adinuicẽ rõnẽ habeant datã, describ�
 
 [Diagram: two similar triangles with apexes f and e standing above a line with points d, c, b, a; below, a separate horizontal line labelled g]
 
-## Scholium.
+### Scholium.
 
 Quoniam enim ipsius a b ad c d,ratio est data.est autem & ipsius c d ad g,ratio data. manifestum est quod & composita ex binis datis rationibus ratio data est,uel & per octauum theorema quod & melius est.
 

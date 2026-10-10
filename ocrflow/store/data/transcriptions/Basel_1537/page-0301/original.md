@@ -4,7 +4,9 @@
 
 rus c diuidatur in duos non quadratos qui sunt d &c{printer-error-correction:d & e} Cætera omnia negotianda sunt hic ex diffinitione binomij quarti,sicut ibi ex diffinitione binomij primi.
 
-## Eucli.ex Zāb. — Problema 16 — Propositio 51
+## Eucli.ex Zāb. Problema 16 Propositio 51
+
+[Curated heading level=3 type=zamberti_sequence: 51.]
 
 [Margin]
 51
@@ -16,7 +18,9 @@ THEON ex Zamb. Exponātur bini numeri α γ,γ β,ut α β,ad utrūq̃ ipsorum r
 
 [Diagram: at the right of the proof — a dotted line of unit points with labels α, γ, β; a solid line labelled δ; a solid line divided at ζ with endpoints ε and η, the parts numbered 26 and 10; and a shorter solid line with the labels θ and 6]
 
-## Eucli.ex Camp. — Propositio 46
+## Eucli.ex Camp. Propositio 46
+
+[Curated heading level=3 type=campanus_sequence: 46.]
 
 [Margin]
 46
@@ -28,7 +32,9 @@ CAMPANVS Huius inuentio sic est sicut binomij secundi exeepto{printer-error-corr
 
 [Diagram: at the right — a dotted line b; the label c 24 over a dotted line divided into parts d and e; a semicircle f b g on diameter f g with b on the arc and chords f b and b g; a solid line a; a second semicircle f b g with chords; a short solid line a with the figures 10 10 beneath it, and below them the row: 2 & med. 1]
 
-## Eucli.ex Zamb. — Problema 17 — Problema 52{printer-error-correction:Propositio 52}
+## Eucli.ex Zamb. Problema 17 Problema 52{printer-error-correction:Propositio 52}
+
+[Curated heading level=3 type=zamberti_sequence: 52.]
 
 [Margin]
 52

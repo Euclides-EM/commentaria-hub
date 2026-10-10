@@ -6,6 +6,8 @@ tionē) angulo ζ ε γ est æqualis, circa uerticem enim. Basis igitur α β, b
 
 ## Eucli. ex Camp. Propositio 17.
 
+[Curated heading level=3 type=campanus_sequence: 17.]
+
 [Margin]
 17
 [/Margin]
@@ -17,6 +19,8 @@ CAMPANVS. Sit triāgulus a b c, dico q̃ duo quilibet eius anguli, duobus rectis
 [Diagram: triangle a b c with side b c produced to d and side b a produced to e; labels e, a, d, c, b]
 
 ## Eucli. ex Zamb. Theorema 10. Propositio 17.
+
+[Curated heading level=3 type=zamberti_sequence: 17.]
 
 [Margin]
 17
@@ -30,6 +34,8 @@ THEON ex Zamb. Sit triangulū α β γ, dico quod ipsius α β γ trianguli duo 
 
 ## Eucli. ex Camp. Propositio 18.
 
+[Curated heading level=3 type=campanus_sequence: 18.]
+
 [Margin]
 18
 [/Margin]
@@ -41,6 +47,8 @@ CAMPANVS. Sit ut in triāgulo a b c, angulus a sit maior angulo c, dico q̃ latu
 [Diagram: triangle with vertices a, d, b along the top and c below, line c d drawn within triangle a b c]
 
 ## Eucli. ex Zamb. Theorema 11. Propositio 18.
+
+[Curated heading level=3 type=zamberti_sequence: 18.]
 
 [Margin]
 18
@@ -54,6 +62,8 @@ THEON ex Zamb. Sit enim triangulū α β γ, habens latus α γ, maius latere α
 
 ## Eucli. ex Camp. Propositio 19.
 
+[Curated heading level=3 type=campanus_sequence: 19.]
+
 [Margin]
 19
 [/Margin]
@@ -65,6 +75,8 @@ CAMPANVS. Sit ut in triangulo a b c, latus b c sit maius latere a b, dico q̃ an
 [Diagram: triangle with labels b at top, c at right, a at bottom left]
 
 ## Eucli. ex Zamb. Theorema 12. Propositio 19.
+
+[Curated heading level=3 type=zamberti_sequence: 19.]
 
 [Margin]
 19

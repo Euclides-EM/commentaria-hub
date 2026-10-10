@@ -10,7 +10,13 @@ IDEM aliter. Sit ut in præmissis linea d e rationalis in longitudine, superfici
 
 ## Eucli. ex Zamb. Theorema 28 Propositio 40
 
-40 Si binæ rectæ lineæ potentia incommensurabiles compositæ fuerint efficientes compositum quidem ex earum quadratis medium, quod uero sub ipsis rationale, tota recta linea irrationalis est, uocatur autem rationale mediumq́ⳓ potens.
+[Curated heading level=3 type=zamberti_sequence: 40.]
+
+[Margin]
+40
+[/Margin]
+
+Si binæ rectæ lineæ potentia incommensurabiles compositæ fuerint efficientes compositum quidem ex earum quadratis medium, quod uero sub ipsis rationale, tota recta linea irrationalis est, uocatur autem rationale mediumq́ⳓ potens.
 
 THEON ex Zāb. Componantur enim binæ rectæ lineæ potentia incommensurabiles α β, β γ, efficientes præcedentia. Dico quod irrationalis est α γ. Quoniam enim compositum ex ijs quæ ex α β, β γ, mediū est, quod uero bis sub α β, β γ, rationale, incommensurabile igitur est compositum ex ijs quæ ex α β, β γ, ei quod bis sub α β, β γ. Quare & componendo (per 16 decimi & 4 secundi,) quod ex α γ, incommensurabile est ei quod bis sub α β, β γ. Rationale autem est quod sub α β, β γ, Irrationale igitur est quod ex α γ. Irrationalis igitur est α γ. Vocatur autem rationale mediumq́ⳓ potens. Rationale autem & medium potentē eam appellauit, eo quia binas potest areas unā quidem rationalem, alteram uero mediam, ac propter rationalis præexistentiam, primam rationalem appellauit, quod erat ostendendum.
 
@@ -18,7 +24,13 @@ THEON ex Zāb. Componantur enim binæ rectæ lineæ potentia incommensurabiles �
 
 ## Eucl. ex Camp. Propositio 35
 
-35 CVm coniunctæ fuerint duæ lineæ potentialiter incommensurabiles superficiemq́ⳓ medialem continentes, quarum ambo quadrara{printer-error-correction:quadrata} pariter accepta sint mediale duplo superficiei unius in alteram incommensurabile, tota linea erit irrationalis, diceturq́ⳓ potens in duo medialia.
+[Curated heading level=3 type=campanus_sequence: 35.]
+
+[Margin]
+35
+[/Margin]
+
+CVm coniunctæ fuerint duæ lineæ potentialiter incommensurabiles superficiemq́ⳓ medialem continentes, quarum ambo quadrara{printer-error-correction:quadrata} pariter accepta sint mediale duplo superficiei unius in alteram incommensurabile, tota linea erit irrationalis, diceturq́ⳓ potens in duo medialia.
 
 CAMPANVS Sint quoque duæ lineæ hic a b & b c in continuū directūq́ⳓ cōiunctæ ut proponitur, quæ ex 29 sumendæ sunt. Dico quod linea a c ex eis composita est irratiōalis ac ipsa dicitur, potens in duo medialia. Adiūgatur enim ad lineam d e quæ sit rationalis in longitudine, superficies d f æqualis duobus quadratis duarū linearum a b & b c pariter acceptis, eritq́ⳓ medialis per hypothesin, quare per 20 linea d g erit rationalis in potentia tantū, & incommensurabilis d e lineæ rationali in longitudine. Rursus ad lineam g f quæ est æqualis d e, adiungatur superficies f h quæ sit æqualis duplo superficiei unius in alteram, erit etiā ex hypothesi medialis, quare per 20 linea g h, erit rationalis in potentia tantum. At quia per hypothesin ambo quadrata pariter accepta sunt iucōmēsurabile{printer-error-correction:incōmēsurabile} duplo superficiei unius in alteram, sequitur ut d f sit incōmensurabilis f h, quare per primam sexti & 2 partem 10 huius, linea d g est incommēsurabilis g h, per 30 igitur est linea d h, binomium & irrationalis,
 

@@ -6,7 +6,11 @@ e ad c,ut b ad d : eritqꝫ ex duodecima, maior proportio e ad c, quàm a ad c: 
 
 [Diagram: five horizontal line segments in two columns, labelled a and c above, b and d below, e at bottom left]
 
-## 28
+[Curated heading level=3 type=campanus_sequence: 28.]
+
+[Margin]
+28
+[/Margin]
 
 Si fuerint quatuor quantitates quarum primæ ad secundam sit maior proportio quàm tertiæ ad quartam: erit quoqꝫ coniunctim maior proportio primæ & secundæ ad secundam quàm tertiæ & quartæ ad quartam.
 
@@ -14,7 +18,11 @@ CAMPANVS. Sit maior proportio a ad b, quàm c ad d:dico quod maior erit totius a
 
 [Diagram: horizontal divided line with points a and b, a diagonal line descending from e above to the point b; below it a second divided line with points c and d]
 
-## 29
+[Curated heading level=3 type=campanus_sequence: 29.]
+
+[Margin]
+29
+[/Margin]
 
 Si fuerint quatuor quantitates quarum primæ & secundæ ad secundā sit maior proportio quàm tertiæ & quartæ ad quartam : erit quoqꝫ disiunctim proportio primæ ad secundam maior quàm tertiæ ad quartam.
 
@@ -24,7 +32,11 @@ CAMPANVS. Sit proportio a b ad b,maior quàm c d ad d:dico quod erit disiūctim,
 
 [Diagram: divided line with points a, e, b above a divided line with points c, d]
 
-## 30
+[Curated heading level=3 type=campanus_sequence: 30.]
+
+[Margin]
+30
+[/Margin]
 
 Si fuerint quatuor quantitates quarum primæ & secundæ ad secundā sit maior proportio quàm tertiæ & quartæ ad quartam , erit euersim minor proportio primæ & secundæ ad primam quàm tertiæ & quartæ ad tertiam.
 

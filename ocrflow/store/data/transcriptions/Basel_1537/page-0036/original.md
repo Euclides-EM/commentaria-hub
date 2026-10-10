@@ -8,6 +8,8 @@ propositionē) in rectis ipsis α ε, linea α ζ. Et quoniā in rectas lineas �
 
 ## Eucli. ex Camp. Propositio 32.
 
+[Curated heading level=3 type=campanus_sequence: 32.]
+
 [Margin]
 32
 [/Margin]

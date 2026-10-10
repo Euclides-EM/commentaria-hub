@@ -6,6 +6,8 @@ tatem duarum linearū f d & g h, intersecantes se in puncto k sicut docuit præc
 
 ## Euclidis ex Zamb. Problema 9. Propositio 23.
 
+[Curated heading level=3 type=zamberti_sequence: 23.]
+
 [Margin]
 23
 [/Margin]
@@ -18,6 +20,8 @@ THEON ex Zamb. Sit data recta linea α β, datumq̃ in ea signum sit α: datus a
 
 ## Eucli. ex Camp. Propositio 24.
 
+[Curated heading level=3 type=campanus_sequence: 24.]
+
 [Margin]
 24
 [/Margin]
@@ -29,6 +33,8 @@ CAMPANVS. Sint duo trianguli a b c, & d e f, sintq̃ duo latera a b & a c, æqua
 [Diagram: two triangles a b c and d e f side by side, the second with the angle e d g constructed and line e g drawn; below, four further triangles showing the three cases, with lines d f and d g produced to k and h; labels a, b, c, d, e, f, g, h, k]
 
 ## Eucli. ex Zamb. Theorema 15. Propositio 24.
+
+[Curated heading level=3 type=zamberti_sequence: 24.]
 
 [Margin]
 24

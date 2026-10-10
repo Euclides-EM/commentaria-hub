@@ -10,6 +10,8 @@ CORRELARIVM. Ex hoc iam est manifestũ, quod omnis pyramis, tertia pars est pris
 
 ## Eucli. ex Camp. Propositio 7
 
+[Curated heading level=3 type=campanus_sequence: 7.]
+
 [Margin]
 7
 [/Margin]

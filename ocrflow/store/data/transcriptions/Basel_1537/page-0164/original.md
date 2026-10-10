@@ -8,7 +8,9 @@ los ductis lineis d f, & d g, & super pūctum a constituo angulum æqualē angul
 
 Tres ex Zamberto sequentes propositiones, tribus præcedentibus ex Cāpano, eonuerso ordine respondent prima ultimæ: media primæ & ultima mediæ.
 
-## Eucli. ex Zumb. — Problema 6 — Propositio 18
+## Eucli. ex Zumb.{printer-error-correction:Zamb.} Problema 6 Propositio 18
+
+[Curated heading level=3 type=zamberti_sequence: 18.]
 
 [Margin]
 18
@@ -20,7 +22,9 @@ THEON ex Zamberto. Sit data quidem recta linea α β, datum uero rectilineum γ 
 
 [Diagram: two quadrilaterals. Left: quadrilateral with vertices η (top left), θ (top right), β (bottom right), α (bottom left); diagonal drawn from η to β. Right: smaller quadrilateral with vertices ζ (upper left), ε (upper right), δ (bottom right), γ (bottom left); diagonal drawn from ζ to δ]
 
-## Eucli. ex Zamb. — Theorema 13 — Propositio 19
+## Eucli. ex Zamb. Theorema 13 Propositio 19
+
+[Curated heading level=3 type=zamberti_sequence: 19.]
 
 [Margin]
 19

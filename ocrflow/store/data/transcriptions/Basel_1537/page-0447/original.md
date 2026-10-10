@@ -6,11 +6,13 @@ sius circuli, hexagoni igitur latus est ipsa β ε recta linea, æqualis igitur 
 
 ## Eucli. ex Camp. Propositio 13
 
+[Curated heading level=3 type=campanus_sequence: 13.]
+
 [Margin]
 13
 [/Margin]
 
-## {dropcap:P|lines=?|style=decorated}Yramidem quatuor basium triangulariū & æquilaterarū ab assignata sphæra circunscriptibilem fabricare. Huius ergo sphæræ diametros, ad latus ipsius pyramidis sesquialterā proportionem potentialiter habere probatur.
+{dropcap:P|lines=?|style=decorated}Yramidem quatuor basium triangulariū & æquilaterarū ab assignata sphæra circunscriptibilem fabricare. Huius ergo sphæræ diametros, ad latus ipsius pyramidis sesquialterā proportionem potentialiter habere probatur.
 
 CAMPANVS. Sit linea a b diameter assignatæ sphæræ, quæ diuidatur in pūcto c, ita q̃ a c sit dupla ad b c, & lineetur super eam semicirculus a d b, & producatur linea c d orthogonaliter super lineā a b, & producātur lineæ b d & d a. Postea fiat circulus f g h super centrū e, cuius semidiameter sit æqualis lineæ c d, cui ex 2 quarti libri inscribatur triangulus æquilaterus qui sit f g h, ad cuius angulos protrahātur à centro, lineæ e f, e g, e h, deinde super centrum e, erigatur (secundū q̃ docet 12 undecimi) linea e k quæ ponatur æqualis a c, perpendicularis ad superficiē circuli f g h, & demittātur à puncto k hypothenusæ k f, k g, k h, eritq́; completa pyramis quatuor basium triangulariū & æquilaterarū, quam dico esse ab assignata sphæra circūscriptibilē, & dico quadratū diametri propositæ sphæræ, sesquialterū esse ad quadratū lateris fabricatæ pyamidis{printer-error-correction:pyamidis}. Constat enim ex prima parte correlarij 8 sexti, q̃ linea c d est medio loco ꝓportionalis inter a c & c b, quare ex correlario 16 eiusdē, quadratū lineæ a c ad quadratū lineæ c d, est sicut linea a c ad c b, ergo coniunctim quadratū a c & quadratū c d, ad quadratū c d, sicut linea a b ad b c, ideoq́; ex penultima primi quadratū a d ad quadratū d c, sicut a b ad b c. Cum ergo linea a b sit tripla ad b c, erat enim a c dupla ad eam, erit quoq; quadratū a d triplum ad quadratū d c. Est autē ex 8 huius, quadratū f g, triplum ad quadratū e f, quare cum ex hypothesi d c sit æqualis e f, erit ex cōmuni scientia a d æqualis f g. Et quia ex diffinitiōe lineæ perpendicularis ad superficiē, linea e k continet cū singulis lineis e f, e g, e h, angulos rectos, quarū quælibet est æqualis lineæ c d, & quia ipsa eadem est æqualis lineæ a c, & angulus c est rectus, erit per 4 primi unaquæq; trium linearū k f, k g, k h, æqualis lineæ a d. Manifestum est igitur fabricatā pyramidē esse quatuor basium triangulariū æquilaterarū.
 

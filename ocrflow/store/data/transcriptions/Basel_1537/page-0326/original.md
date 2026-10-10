@@ -6,6 +6,8 @@ CAMPANVS Intellige quid sit linea minor quod si oblitus es, cōsule 21. & sine o
 
 ## Eucl.ex Zãb. Theorema 64 Propositio 82
 
+[Curated heading level=3 type=zamberti_sequence: 82.]
+
 [Margin]
 82
 [/Margin]
@@ -18,6 +20,8 @@ THEON ex Zamb. Esto minor α β, & ipsi α β congruens esto β γ, ipsæ igitur
 
 ## Eucli.ex Camp. Propositio 78
 
+[Curated heading level=3 type=campanus_sequence: 78.]
+
 [Margin]
 78
 [/Margin]
@@ -27,6 +31,8 @@ Linea quæ coniuncta cum rationali facit totum mediale, nisi uni tantum componi 
 CAMPANVS Quid sit linea quæ proponitur, ex 72 didicisti. Cum ergo de ea uolueris quod per hanc 78 dicitur demonstrare, à processu 75, in, quoquã non deuies, sed sicut in 76, si te delectauerit, ingenio duce poteris procedere.
 
 ## Eucli.ex Zamb. Theorema 65 Propositio 83
+
+[Curated heading level=3 type=zamberti_sequence: 83.]
 
 [Margin]
 83
@@ -40,6 +46,8 @@ THEON ex Zamberto. Sit cum rationali medium totum efficiens α β, & ipsi α β 
 
 ## Eucli.ex Camp. Propositio 79
 
+[Curated heading level=3 type=campanus_sequence: 79.]
+
 [Margin]
 79
 [/Margin]
@@ -49,6 +57,8 @@ Lineæ quæ iuncta cum mediali facit totū mediale, nisi una linea tantum iungi 
 CAMPANVS Huius lineæ quæ iuncta cum mediali componit totū mediale, magistra est 71. De qua quod hæc 79 enuntiat concludere cogeris, sicut de residuo mediali secundo (quod per 76 enuntiatum est) conclusisti.
 
 ## Eucli.ex Zamb. Theorema 66 Propositio 84
+
+[Curated heading level=3 type=zamberti_sequence: 84.]
 
 [Margin]
 84

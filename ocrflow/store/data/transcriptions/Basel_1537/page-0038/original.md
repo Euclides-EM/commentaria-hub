@@ -8,6 +8,8 @@ nem basis b d primi, est æqualis basi a c secundi, & anguli a d b primi, æqual
 
 ## Eucli. ex Zamb. Theorema 23. Propositio 33.
 
+[Curated heading level=3 type=zamberti_sequence: 33.]
+
 [Margin]
 33
 [/Margin]
@@ -20,8 +22,10 @@ THEON ex Zamb. Sint æquales rectæ lineæ & paralleli, α β, & γ δ, & ipsas 
 
 ## Eucli. ex Camp. Propositio 34.
 
+[Curated heading level=3 type=campanus_sequence: 34.]
+
 [Margin]
-43
+43{printer-error-correction:34}
 [/Margin]
 
 {dropcap:O|lines=?|style=decorated}Mnis superficies æquidistantibus contenta lateribus, lineas atque angulos ex aduerso collocatos habet æquales, diametro diuidente eam per medium.
@@ -31,6 +35,8 @@ CAMPANVS. Sit superficies a b c d æquidistantiū laterum, ita quòd linea a b �
 [Diagram: parallelogram b a, d c with diagonal a d]
 
 ## Eucli. ex Zamb. Theorema 24. Propositio 34.
+
+[Curated heading level=3 type=zamberti_sequence: 34.]
 
 [Margin]
 34

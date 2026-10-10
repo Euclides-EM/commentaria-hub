@@ -6,7 +6,13 @@ ipsum β multiplicans, ipsum γ fecit, & α est ex δ,ε, qui igitur ex δ,ε, i
 
 ## Eucli. ex Camp. Propositio 8
 
-**8** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint numeri ab unitate continue proportionales, tertius ab unitate erit quadratus, ac deinceps uno semper intermisso. Quartus uero ab unitate, cubus, ac deinceps duobus semper intermissis. Itemq̃ semptimus ab unitate, est quadratus cubicus, ac deinceps quinque semper intermissis quadratus cubicus continuo sequitur.
+[Curated heading level=3 type=campanus_sequence: 8.]
+
+[Margin]
+8
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint numeri ab unitate continue proportionales, tertius ab unitate erit quadratus, ac deinceps uno semper intermisso. Quartus uero ab unitate, cubus, ac deinceps duobus semper intermissis. Itemq̃ semptimus ab unitate, est quadratus cubicus, ac deinceps quinque semper intermissis quadratus cubicus continuo sequitur.
 
 CAMPANVS. Sint continue proportionales, unitas, a,b,c,d,e,f,g,h,K,l,m,n. Dico b esse quadratū, & d, omisso, c, & sic alios uno semper obmisso, unde simpliciter omnes existentes in locis imparibus, sunt quadrati, ut sunt tertius, quintus & septimus. Dico item c esse cubū, & f, duobus obmissis, & sic in cæteris. Omnisq̃ simpliciter est cubus, cuius ab unitate locus addit super ternariū, uel quemlibet multiplicē ipsius ternarij unitatē, ut sunt quartus, septimus, decimus. tertiusdecimus & sextusdecimus: in hoc enim cōueniunt omnes qui duos transmittunt. Itemq̃ dico f ab unitate septimū, esse quadratū cubicū, & similiter n, quinq̃ numeris intermissis, idemq̃ in cæteris. Simpliciter autem dico, cuius locus ac unitate addit super senarium, uel quēlibet multiplicē ipsius unitatē. ut sunt septimus, tertiusdecimus, decimusnonus, & uicesimusquintus, illum esse quadratū cubicum, quadratū quidem, quoniam eius locus impar, cubum autem quoniam super multiplicē ternarij addit unitatem, quippe senarij multiplices, cūctos ternarij necesse est esse multiplices. Quæ autē proposita sunt, sic constat. Est enim ex hypothesi a in b, quoties unitas in a, itaq̃ b, ex diffinitione quadratus. Quia igitur b,c,d, sunt continue proportionales, cū b sit quadratus. patet ex 17 uel 20 octaui, d esse quadratū. Eadem ratione & f, quia d,e,f, sunt continue proportionales, & d est quadratus. Idem in cæteris uno intermisso. Constat itaq̃ primum. Secundum sic. Cum sit b in c quoties a in b ex hypothesi, sequitur a diffinitione ut ex a in b suum quadratum fiat c, igitur ex diffinitione cubi, c est cubus. At quia c,d,e,f, sunt cōtinue proportionales, sed & f,g,h,k, est autē c cubus, necesse est per 19 uel 21 octaui, ut f quoq̃ sit cubus, ideoq̃ & k. Idemq̃ in cæteris, duobus transmissis. Quare liquet secūdum. Quoniam autem in f septimo, & in n tertiodecimo, cæterisq̃ quinq̃ medios obmittentibus, simpliciter uero & in omnibus quorum locus super quemlibet multiplicē senarij addit unitatem, terminantur quadratorū & cuborum computationes, in his quidem unius, in illis autem duorū obmissione, sequitur ipsos esse quadratos ex huius prima parte, & cubicos ex secunda, quare quadrati cubici. Constat exgo totum quod dicitur.
 
@@ -14,7 +20,13 @@ CAMPANVS. Sint continue proportionales, unitas, a,b,c,d,e,f,g,h,K,l,m,n. Dico b 
 
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
 
-**8** Si ab unitate quotcunq̃ numeri ordine proportionales fuerint, tertius ab unitate quadratus est, & unum relinquentes omnes, quartus autem cubus, & binos relinquentes omnes, septimus uero cubus simul & quadratus, & quinque relinquentes omnes.
+[Curated heading level=3 type=zamberti_sequence: 8.]
+
+[Margin]
+8
+[/Margin]
+
+Si ab unitate quotcunq̃ numeri ordine proportionales fuerint, tertius ab unitate quadratus est, & unum relinquentes omnes, quartus autem cubus, & binos relinquentes omnes, septimus uero cubus simul & quadratus, & quinque relinquentes omnes.
 
 [Margin]
 ἑξῆς continue

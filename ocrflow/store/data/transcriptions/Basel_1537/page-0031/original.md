@@ -10,6 +10,8 @@ THEON ex Zamberto. Sint bina triangula α β γ, δ ε ζ, duo latera, hoc est �
 
 ## Eucli. ex Camp. Propositio 25.
 
+[Curated heading level=3 type=campanus_sequence: 25.]
+
 [Margin]
 25
 [/Margin]
@@ -22,6 +24,8 @@ CAMPANVS. Sint duo triāguli a b c, d e f: sintq̃ duo latera a b & a c primi, �
 
 ## Eucli. ex Zamb. Theorema 16. Propositio 25.
 
+[Curated heading level=3 type=zamberti_sequence: 25.]
+
 [Margin]
 25
 [/Margin]
@@ -33,6 +37,8 @@ THEON ex Zamb. Sint duo triangula α β γ, δ ε ζ, duo latera hoc est α β &
 [Diagram: two triangles side by side, triangle α β γ and triangle δ ε ζ]
 
 ## Eucli. ex Camp. Propositio 26.
+
+[Curated heading level=3 type=campanus_sequence: 26.]
 
 [Margin]
 26

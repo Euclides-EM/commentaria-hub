@@ -8,7 +8,9 @@ est ν ο, quæ igitur ex ν σ, σ ο, tripla sunt eius quod ex ν ο. Æqualis
 
 CORRELARIVM. Ex hoc, inquā, est manifestum, quod cubi latere extrema & media ratione diuiso, maius segmentum est dodecahedri latus, quod erat ostendendum.
 
-## Eucli. ex Camp. — Propositio 18
+## Eucli. ex Camp. Propositio 18
+
+[Curated heading level=3 type=campanus_sequence: 18.]
 
 [Margin]
 18

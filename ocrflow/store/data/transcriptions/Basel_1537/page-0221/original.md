@@ -6,6 +6,8 @@
 
 ## Eucli.ex Camp. Propositio 12
 
+[Curated heading level=3 type=campanus_sequence: 12.]
+
 [Margin]
 12
 [/Margin]
@@ -19,6 +21,8 @@ Reliquū sic: Ducatur a in l & proueniāt n & p, c quoque ducatur in e & m. & pr
 [Diagram: at top the numbers a (4 dots), b (6 dots), c (9 dots); below, a ladder of horizontal ruled lines each labelled at left and with a value written vertically at its right end: d 16, l 24, e 36, m 54, f 81, g 64, n 96, p 144, h 216, q 324, r 486, k 729]
 
 ## Eucli.ex Zamb. Theorema 11 Propositio 13
+
+[Curated heading level=3 type=zamberti_sequence: 13.]
 
 [Margin]
 13

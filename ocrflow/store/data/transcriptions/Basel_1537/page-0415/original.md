@@ -1,6 +1,6 @@
 <!-- Page number: 404 -->
 
-# GEOMET. ELEMENT. EVCLI.
+<!-- Running title: GEOMET. ELEMENT. EVCLI. -->
 
 tertij) relictas circũferentias diuidue, & cõnectentes rectas lineas, excitãtesq̃ ab unoquoq̃ ipsorũ triangulorũ prismata æqualis fastigij ipsi cylindro, & hoc semper efficiẽtes, relinquemus quasdã segmẽta ipsius cylindri quæ erunt minores excessu quo excedit cylindrus triplũ coni. Relinquãtur, sintq̃ α ε, ε β, β ζ, ζ γ, γ η, η δ, δ θ, θ α. Reliquũ igitur prisma cuius basis quidẽ est α ε β ζ γ η δ θ multãgulũ, fastigiũ aũt idẽ cũ cylindro, maius est q̃ triplũ coni. Sed prisma cuius basis q̃dẽ est α ε β ζ γ η δ θ multangulũ, fastigiũ autẽ idem cum cylindro, pyramidis triplũ est cuius basis quidẽ est α ε β ζ γ η δ θ multãgulũ, fastigiũ uero idẽ quod & cono: & pyramis igitur cuius basis q̃dẽ est α ε β ζ γ η δ θ multangulũ, uertex aũt idẽ q̃ cono, maior est cono habẽte basin circulũ α β γ δ. Sed & minor, cõprehẽditur etenim ab ipso. Quod est ĩpossibile. Nõ est igitur cylindrus, cono maior q̃ triplus.
 
@@ -11,6 +11,8 @@ Dico insuper quod neq̃ minor q̃ triplus est cylindrus cono. Si enim possibile,
 [Diagram: circle inscribed in a square, with inscribed square and octagon within the circle; θ at top, α at upper left, δ at upper right, ε at the left, η at the right, β at lower left, γ at lower right, ζ at bottom]
 
 ## Eucli. ex Camp. Propositio 10
+
+[Curated heading level=3 type=campanus_sequence: 10.]
 
 [Margin]
 10

@@ -6,6 +6,8 @@ est sicut σ area ad ε ζ η θ circulum, sic est α β γ δ circulus ad τ ar
 
 ## Eucli. ex Camp. Propositio 3
 
+[Curated heading level=3 type=campanus_sequence: 3.]
+
 [Margin]
 3
 [/Margin]
@@ -17,6 +19,8 @@ CAMPANVS. Sit pyramis a b c d super basin triangulam b c d, eiusq̃ uertex solid
 [Diagram: pyramid a b c d drawn as inverted triangle — b at upper left, e at top middle, d at upper right, c at bottom; apex a in the centre with inner points h, l (upper), f, g (sides), k (lower); hypotenusae and dividing lines showing the two pyramids and two seratilia]
 
 ## Eucli. ex Zamb. Theorema 3 Propositio 3
+
+[Curated heading level=3 type=zamberti_sequence: 3.]
 
 [Margin]
 3

@@ -6,6 +6,8 @@ ipsam circunferentiam, intra igitur. Si in circuli circunferentia igitur, & quæ
 
 ## Eucli. ex Camp. Propositio 3.
 
+[Curated heading level=3 type=campanus_sequence: 3.]
+
 [Margin]
 3
 [/Margin]
@@ -20,6 +22,8 @@ Ponam iterum quod c d sit perpēdicularis super a b, & ostendam quod ipsa diuidi
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 3
 
+[Curated heading level=3 type=zamberti_sequence: 3.]
+
 [Margin]
 3
 [/Margin]
@@ -31,6 +35,8 @@ THEON ex Zamberto. Sit circulus α β γ, & in eo recta quædam linea per centru
 [Diagram: circle with γ at the top and δ at the bottom joined by a vertical diameter, ε at the centre, chord α β cut at ζ, lines ε α and ε β drawn]
 
 ## Eucli. ex Camp. Propositio 4.
+
+[Curated heading level=3 type=campanus_sequence: 4.]
 
 [Margin]
 4

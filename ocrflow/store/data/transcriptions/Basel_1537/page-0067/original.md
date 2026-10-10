@@ -8,6 +8,8 @@ Dico quod eorum sunt diuersa centra. Si enim habuerint idẽ centrum: erit per d
 
 ## Eucli. ex Zamb. Theorema 5. Propositio 6.
 
+[Curated heading level=3 type=zamberti_sequence: 6.]
+
 [Margin]
 6
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. Duo enim circuli α β γ, & γ δ ε, sese inuicem tangant in γ
 [Diagram: two circles touching at γ, one within the other; lines from ζ to γ and through β and δ; labels γ, ζ, δ, α, β, ε]
 
 ## Eucli. ex Camp. Propositio 7.
+
+[Curated heading level=3 type=campanus_sequence: 7.]
 
 [Margin]
 7

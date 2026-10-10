@@ -8,6 +8,8 @@ signum non diuiditur Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, 
 
 ## Eucli. ex Camp. Propositio 40
 
+[Curated heading level=3 type=campanus_sequence: 40.]
+
 [Margin]
 40
 [/Margin]
@@ -16,7 +18,9 @@ signum non diuiditur Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, 
 
 CAMPANVS Hæc quoque 40, manentibus prioribus figura & positionibus (excepto quod ipsa linea a b diuidatur in punctum c, in illas duas lineas ex quibus 32{printer-error-correction:34} dicit eam componi) probabitur, quemadmodũ 37. Si autem aliter fuerit quàm proponat, erit superficies k g rationalis & irrationalis, quod esse non potest.
 
-## Eucli, ex Zamb. Theorema 34 Propositio 46
+## Eucli.ex Zamb. Theorema 34 Propositio 46
+
+[Curated heading level=3 type=zamberti_sequence: 46.]
 
 [Margin]
 46
@@ -30,6 +34,8 @@ THEON ex Zamb. Esto rationale mediũq̃ potẽs α β. diuisa in γ, ut ipsæ α
 
 ## Eucli. ex Camp. Propositio 41
 
+[Curated heading level=3 type=campanus_sequence: 41.]
+
 [Margin]
 41
 [/Margin]
@@ -39,6 +45,8 @@ THEON ex Zamb. Esto rationale mediũq̃ potẽs α β. diuisa in γ, ut ipsæ α
 CAMPANVS Hæc enim 41 diuisa linea a b ad punctum c in eas ex quibus 35 asserit eã componi, cæterisq̃ ut supra tam figura quàm positionibus manentibus. probatur sicut 38. nam dato opposito propositi, sequitur oppositum 36, qupd{printer-error-correction:quod} est impossibile.
 
 ## Eucli. ex Zamb. Theorema 35 Propositio 47
+
+[Curated heading level=3 type=zamberti_sequence: 47.]
 
 [Margin]
 47

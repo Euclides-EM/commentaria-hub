@@ -4,6 +4,8 @@
 
 ## Eucli. ex Camp. Propositio 16
 
+[Curated heading level=3 type=campanus_sequence: 16.]
+
 [Margin]
 16
 [/Margin]
@@ -16,6 +18,8 @@ CAMPANVS. Vt si sit unitas ad a, sicut b ad c, erit permutatim unitas ad b, sicu
 
 ## Eucli.ex Zamb. Theorema 13 Propositio 15
 
+[Curated heading level=3 type=zamberti_sequence: 15.]
+
 [Margin]
 15
 [/Margin]
@@ -27,6 +31,8 @@ THEON ex Zamberto. Vnitas, inquam, α numerum aliquem β γ metiatur, pariter au
 [Diagram: α . — β . η . θ . γ — δ . . — ε . . κ . . λ . . ζ]
 
 ## Eucli. ex Camp. Propositio 17
+
+[Curated heading level=3 type=campanus_sequence: 17.]
 
 [Margin]
 17
@@ -41,6 +47,8 @@ CAMPANVS. Sicut si ex a in b proueniat c b, & ex b in a proueniat d, erunt c & d
 CAMPANI annotatio. Possumus quoq́; hanc conclusionem alio modo proponere. Si duorum numerorum uterque ducatur in alterum idem numerus utrobique proueniet, ut si ex a in b proueniat c, idem etiam ex b in proueniet. Quia enim ex a in b fit c, erit prius per conuersionem diffinitionis b in c quoties unitas in a. Et permutatim per præmissam a in c, quoties unitas in b, quia igitur a toties sibi coaceruatur in c, quoties in b est unitas, sequitur per diffinitionem quod ex b in a fit c.
 
 ## Eucli.ex Zamb. Theorema 14 Propositio 16
+
+[Curated heading level=3 type=zamberti_sequence: 16.]
 
 [Margin]
 16

@@ -8,6 +8,8 @@ CAMPANVS Hæc 14 ex cōtrario antecedentis præmissæ infert contrarium conseque
 
 ## Eucli.ex Zamb. Theorema 15 Propositio 18 Præcedentis conuersa.
 
+[Curated heading level=3 type=zamberti_sequence: 18.]
+
 [Margin]
 18
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zāb. Sint binæ rectæ lineæ inæquales α & β γ,quarū maior sit �
 [Diagram: horizontal line with points marked, labeled from left to right β, ζ, ε, δ, γ; from its middle a long vertical line extends downward, labeled α at its middle]
 
 ## Eucli.ex Camp. Propositio 15
+
+[Curated heading level=3 type=campanus_sequence: 15.]
 
 [Margin]
 15

@@ -4,6 +4,8 @@
 
 ## Eucli. ex Zamb. Theorema 2. Propositio 5
 
+[Curated heading level=3 type=zamberti_sequence: 5.]
+
 [Margin]
 5
 [/Margin]
@@ -16,6 +18,8 @@ THEON ex Zamberto. Sit triangulū isosceles α β γ, æquum habens latus α β,
 
 ## Eucli. ex Camp. Propositio 6.
 
+[Curated heading level=3 type=campanus_sequence: 6.]
+
 [Margin]
 6
 [/Margin]
@@ -27,6 +31,8 @@ CAMPANVS. Hæc est conuersa præmissæ: quantū ad primā partem ipsius. Sit eni
 [Diagram: triangle a b c with apex a above and base b c; the point d on the side a b, with the line d c drawn inside the triangle]
 
 ## Eucli. ex Zamb. Theorema 3. Propositio 6.
+
+[Curated heading level=3 type=zamberti_sequence: 6.]
 
 [Margin]
 6

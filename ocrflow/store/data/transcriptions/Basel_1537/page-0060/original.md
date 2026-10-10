@@ -6,6 +6,8 @@ reliquorum angulorum qui sunt a & b, acutus. Ducam igitur perpendicularem, ad li
 
 ## Eucli. ex Zamb. Theorema 12. Propositio 13.
 
+[Curated heading level=3 type=zamberti_sequence: 13.]
+
 [Margin]
 13
 [/Margin]
@@ -17,6 +19,8 @@ THEON ex Zamberto. Sit oxygonium triangulum α β γ, acutum habens angulum qui 
 [Diagram: acute-angled triangle with apex α and base γ δ β, the perpendicular α δ drawn from α to the base]
 
 ## Eucli. ex Camp. Propositio 14.
+
+[Curated heading level=3 type=campanus_sequence: 14.]
 
 [Margin]
 14

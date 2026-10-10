@@ -8,6 +8,8 @@ datur secundum quantitatem a, & e secundum quantitatem b, quod partes utrobique 
 
 ## Eucli. ex Zamb. Theorema 7 Propositio 7
 
+[Curated heading level=3 type=zamberti_sequence: 7.]
+
 [Margin]
 7
 [/Margin]
@@ -18,7 +20,9 @@ THEON ex Zamb. Sint æquales magnitudines α β, alia autem utcunque magnitudo �
 
 [Diagram: vertical line segments representing the magnitudes α, β, γ and their multiples δ, ε, ζ, in the right margin]
 
-## Eucli. ex Camp, Propositio 8
+## Eucli. ex Camp. Propositio 8
+
+[Curated heading level=3 type=campanus_sequence: 8.]
 
 [Margin]
 8

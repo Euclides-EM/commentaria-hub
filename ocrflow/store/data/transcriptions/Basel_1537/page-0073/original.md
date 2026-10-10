@@ -4,6 +4,8 @@
 
 ## Eucli. ex Camp. Propositio 12
 
+[Curated heading level=3 type=campanus_sequence: 12.]
+
 [Margin]
 12
 [/Margin]
@@ -17,6 +19,8 @@ In circulo uero contingẽte exterius in punctis c d, si ducamus lineam rectam a
 [Diagram: three small figures in a row: a circle with crossing diameters and centre e; two circles touching internally at the top with a, b above and e, c, d within; two circles touching externally with c, e, d at the contact and f in the right-hand circle]
 
 ## Eucli. ex Zamb. Theorema 12. Propositio 13
+
+[Curated heading level=3 type=zamberti_sequence: 13.]
 
 [Margin]
 13
@@ -33,6 +37,8 @@ Dico etiam quod nec exterius. Si enim est possibile: circulus α γ κ, circulum
 [Diagram: a lens-shaped figure of two arcs with a horizontal line through it; β, α, ε, δ labelled at the extremities and within; κ below]
 
 ## Eucli. ex Camp. Propositio 13
+
+[Curated heading level=3 type=campanus_sequence: 13.]
 
 [Margin]
 13

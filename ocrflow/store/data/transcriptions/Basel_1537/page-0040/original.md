@@ -8,6 +8,8 @@ tium laterum. Sint duæ superficies a b c d & e f g h, æquidistantium laterum, 
 
 ## Eucli. ex Zamb. Theorema 26. Propositio 36.
 
+[Curated heading level=3 type=zamberti_sequence: 36.]
+
 [Margin]
 36
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. Sint parallelogramma α β γ δ & ε ζ η θ, in æqualibus bas
 [Diagram: two parallelograms on equal bases between the same parallels, with connecting lines forming diagonals]
 
 ## Eucli. ex Camp. Propositio 37.
+
+[Curated heading level=3 type=campanus_sequence: 37.]
 
 [Margin]
 37
@@ -32,6 +36,8 @@ CAMPANVS. Sint duo trianguli a b c & d b c, constituti super basin b c, inter du
 
 ## Eucli. ex Zamb. Theorema 27. Propositio 37.
 
+[Curated heading level=3 type=zamberti_sequence: 37.]
+
 [Margin]
 37
 [/Margin]
@@ -43,6 +49,8 @@ THEON ex Zamb. Sint triangula α β γ & δ β γ, in eadem basi β γ, & in eis
 [Diagram: triangles α β γ and δ β γ on base β γ between parallels, with ε and ζ on the upper parallel and lines β ε, γ ζ drawn]
 
 ## Eucli. ex Camp. Propositio 38.
+
+[Curated heading level=3 type=campanus_sequence: 38.]
 
 [Margin]
 38

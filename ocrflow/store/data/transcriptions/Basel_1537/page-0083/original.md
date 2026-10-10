@@ -10,7 +10,13 @@
 
 ## Eucli. ex Camp. Propositio 25.
 
-25 SI in æquis circulis seu super centra, seu super circunferentias, æquales anguli consistant, super æquos arcus eos cadere necesse est.
+[Curated heading level=3 type=campanus_sequence: 25.]
+
+[Margin]
+25
+[/Margin]
+
+SI in æquis circulis seu super centra, seu super circunferentias, æquales anguli consistant, super æquos arcus eos cadere necesse est.
 
 CAMPANVS Sint duo circuli æquales a b c cuius centrum d, & e f g, cuius centrum h, & fiant supra centra eorum, duo anguli a d c & e h g, qui ponantur æquales. Dico duos arcus a b c, & e f g, esse æquales, Protrahãtur duæ lineæ a c & e g, & fiant duo anguli in circunferentijs ipsorum, consistentes, supra prædictos arcus, qui sint angulus a b c & angulus e f g. Quia ergo circuli sunt æquales, erunt per diffinitionem æqualium circulorum semidiametri æquales, & quia duo anguli d & h sunt æquales per 4 primi, linea a c æqualis lineæ e g, & per 19 huius, erit angulus, b, æqualis angulo f, cum d angulus sit æqualis angulo h. Ergo per diffinitionem similium portionum duæ portiones a b c & e f g, sunt similes, & quia ipsæ sunt super lineas a c & e g æquales: ipsæ erunt æquales per 23 huius, quare arcus a b c & e f g, sunt æquales. Quod si anguli b & f qui sunt in circunferentia, ponantur æquales, erũt per diffinitionem, portiones similes, & anguli d & h æquales per 19 huius. Et quia circuli sunt æquales per positionem, erunt per 4 primi, duæ lineæ a c & e g æquales, quare ut prius, portiones æquales per 23 huius: cum sint similes & super æquales lineas, igitur & arcus æquales. Quod est propositum.
 
@@ -18,9 +24,15 @@ CAMPANVS Sint duo circuli æquales a b c cuius centrum d, & e f g, cuius centrum
 
 [Diagram: circle with f at the top, centre h, e at lower left and g at lower right; inscribed triangle e f g with lines from e and g to h]
 
-## Eucli. ex Zamb. Theorema 25. Propositio 26.
+## Eucli. ex Zamb. Theorema 25{printer-error-correction:23}. Propositio 26.
 
-26 In æqualibus circulis æquales anguli æqualibus circunferentijs insistũt siue si ad centra siue si ad circunferentias consistunt.
+[Curated heading level=3 type=zamberti_sequence: 26.]
+
+[Margin]
+26
+[/Margin]
+
+In æqualibus circulis æquales anguli æqualibus circunferentijs insistũt siue si ad centra siue si ad circunferentias consistunt.
 
 THEON ex Zamb. *Sint æquales circuli: α β γ, & δ ε ζ. & in eis sint anguli æquales ad centra quidem, qui sub β η γ, & ε δ ζ, ad circunferentias autem, qui sub β α γ, & ε δ ζ. Dico quod circunferentia β κ γ, æqualis est circunferentiæ ε λ ζ. Coniungantur (per primum postulatum) β γ, & ε ζ. Et quoniam circuli α β γ & δ ε ζ, sunt æquales, etiam quæ ex centris, sunt æquales (per primam diffinitionem tertij). Duæ igitur β η, & η γ, duabus ε θ, & θ ζ, sunt æquales. Et angulus qui ad η, angulo qui ad θ est æqualis, Basis igitur β γ (per 4 primi) basi ε ζ, est æqualis Et quoniam angulus qui ad α. æqualis est angulo qui ad δ, segmentum igitur β α γ, (per 24 tertij simile est segmento ε δ ζ, & sunt in æqualibus rectis lineis β γ, & ε ζ. Super æqualibus autem rectis lineis (per 24 eandem) similia circulorum segmenta existentia, inuicem sunt æqualia. Segmentũ igitur β α γ. æquale est ipsi ε δ ζ, segmẽto. Est autẽ totus circulus α β γ, æqualis toti circulo δ ε ζ.*
 

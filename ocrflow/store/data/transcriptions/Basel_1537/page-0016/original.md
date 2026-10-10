@@ -4,6 +4,8 @@
 
 ## Primi libri propositio prima.
 
+[Curated heading level=3 type=campanus_sequence: 1.]
+
 [Margin]
 1
 [/Margin]

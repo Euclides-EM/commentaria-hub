@@ -6,6 +6,8 @@ Sit a punctus signatus extra circulum b c d, cuius centrum e, & ab ipso, a ducan
 
 ## Eucli. ex Zamb. Theorema 30. Propositio 36.
 
+[Curated heading level=3 type=zamberti_sequence: 36.]
+
 [Margin]
 36
 [/Margin]
@@ -17,6 +19,8 @@ THEON ex Zamb. Extra enim circulum α β γ, sumatur signū aliquod, sitq̃ illu
 [Diagram: two circles side by side: the first with the external point δ above, tangent δ β to the circle, and secant δ γ α extended through the centre ζ; the second with the external point δ, tangent δ β, secant δ γ α not through the centre ε, with the perpendicular ε ζ and the lines ε β, ε γ, ε δ drawn]
 
 ## Eucli ex Camp. Propositio 36
+
+[Curated heading level=3 type=campanus_sequence: 36.]
 
 [Margin]
 36

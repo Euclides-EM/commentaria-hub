@@ -2,7 +2,9 @@
 
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI MATHEMATICORVMQVE facile principis, ex Hypsiclis Alexandrini, Græci philosophi traditione, Geometricorum Elementorum Liber decimusquintus,
 
-## Eucli. ex Zamb. — Problema 1 — Propositio 1
+## Eucli. ex Zamb. Problema 1 Propositio 1
+
+[Curated heading level=3 type=zamberti_sequence: 1.]
 
 [Margin]
 Cāp. 1.
@@ -18,7 +20,9 @@ HYPSICLES ex Zāb. Esto datus cubus α β γ δ ε ζ η θ, in quo oportet pyra
 
 [Diagram: cube in perspective with the face-diagonals drawn, forming the inscribed pyramid α ε γ θ; corner labels partly legible]
 
-## Eucli, ex Zāb. — Problema 2 — Propositio 2
+## Eucli, ex Zāb. Problema 2 Propositio 2
+
+[Curated heading level=3 type=zamberti_sequence: 2.]
 
 [Margin]
 Cāp. 2
@@ -34,7 +38,9 @@ HYPSIC. ex Zamb. Esto data pyramis α β γ δ, seceturq̃ bifariā ipsis ε, ζ
 
 [Diagram: triangle α β γ with the sides bisected and the inscribed octahedron drawn; visible interior labels include η, λ]
 
-## Eucli. ex Zamb, — Probleme 3 — Propositio 3
+## Eucli. ex Zamb. Probleme 3 Propositio 3
+
+[Curated heading level=3 type=zamberti_sequence: 3.]
 
 [Margin]
 Cāp. 3
@@ -52,7 +58,9 @@ HYPSICLES ex Zamb. Esto datus cubus α β γ δ ε ζ η, Et capiantur centra* i
 ἐφεςώτων ſtãtiũ
 [/Margin]
 
-## Eucl. ex Zāb. — Problema 4 — Propositio 4
+## Eucl. ex Zāb. Problema 4 Propositio 4
+
+[Curated heading level=3 type=zamberti_sequence: 4.]
 
 [Margin]
 Cāp. 4

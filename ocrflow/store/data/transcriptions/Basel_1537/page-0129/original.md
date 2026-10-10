@@ -6,6 +6,8 @@ k f, non erit k f minor d, itaque k f & d non efficient minus quam l & d, quare 
 
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
 
+[Curated heading level=3 type=zamberti_sequence: 8.]
+
 [Margin]
 8
 [/Margin]

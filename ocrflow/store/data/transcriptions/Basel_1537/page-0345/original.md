@@ -6,7 +6,9 @@ les. Quoniam igitur est sicut α ε, ad ε β, sic est γ ζ ad ζ δ, est igitu
 
 [Diagram: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]
 
-## Eucli.ex Camp. — Propositio 101
+## Eucli.ex Camp. Propositio 101
+
+[Curated heading level=3 type=campanus_sequence: 101.]
 
 [Margin]
 101
@@ -16,23 +18,27 @@ les. Quoniam igitur est sicut α ε, ad ε β, sic est γ ζ ad ζ δ, est igitu
 Figura propositionis 100
 [/Margin]
 
-## OMnis linea communicans lineæ cum rationali componenti mediale, est cum rationali componens mediale.
+OMnis linea communicans lineæ cum rationali componenti mediale, est cum rationali componens mediale.
 
 CAMPANVS Hanc quoque duplici prædicto modo non est difficile probare, siue de communicantia in lōgitudine siue in cōmunicantia in potētia tantum intelligatur. Sed quantū ad primum modū, erunt duo quadrata duarū linearum f & d pariter accepta mediale per 21, quemadmodū sunt duo quadrata duarum linearum e & c pariter accepta ex 72, quibus ipsa cōmunicant, & superficies l erit rationalis, per diffinitionem, quemadmodum est superficies K ex 72 cui ipsa cōmunicat. Igitur ex 72 b est cum rationali cōponens mediale. Quantum ad secundum modum, erit d e residuum quintum ex 69, ideoq̃ & e g ex 98. quare b est cum rationali componens mediale per 90.
 
-## Eucli.ex Zamb. — Theorema 82 — Propositio 106
+## Eucli.ex Zamb. Theorema 82 Propositio 106
+
+[Curated heading level=3 type=zamberti_sequence: 106.]
 
 [Margin]
 106
 [/Margin]
 
-## Cum rationali medium totum efficienti commensurabilis, & eadem cū rationali medium totum efficiens est.
+Cum rationali medium totum efficienti commensurabilis, & eadem cū rationali medium totum efficiens est.
 
 THEON ex Zamb. Esto cum rationali medium totum efficiens α β, & ipsi α β cōmensurabilis esto γ δ. Dico quod γ δ est cū rationali mediū totū efficiēs. Sit inquā (per 79 decimi) ipsi α β cōgruēs β ε. Ipsæ igitur α ε, ε β. (per 80 decimi, potentia sunt incommensurabiles, efficientes quidē ex ipsarū quadratis mediū, quod autem sub ipsis rationale & eadem cōstruātur. Similiter iam ostendemus ex præcedētibus, quod ipsæ γ ζ, ζ δ, in eadē sunt ratiōe ipsis α ε, ε β, & conflatum quidē ex ipsarum α ε, ε β, quadratis, commensurabile est conflato ex ijs quæ ex γ ζ, ζ δ, quadratis, quod autem sub α ε, ε β, ei quod sub ε ζ{printer-error-correction:γ ζ}, ζ δ. Quare & ipsæ γ ζ, ζ δ, potentia sunt incommēsurabiles, efficientes conflatum quidē ex ipsarū γ ζ, ζ δ, quadratis medium, quod autem sub ipsis rationale. Ipsa igitur γ δ est cum rationali totum efficiens medium. Cum rationali ergo medium totū efficienti, & quæ sequuntur reliqua. Quod ostendere oportebat.
 
 [Diagram: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]
 
-## Eucli.ex Camp. — Propositio 102
+## Eucli.ex Camp. Propositio 102
+
+[Curated heading level=3 type=campanus_sequence: 102.]
 
 [Margin]
 102
@@ -42,16 +48,18 @@ THEON ex Zamb. Esto cum rationali medium totum efficiens α β, & ipsi α β cō
 Figura eadē
 [/Margin]
 
-## OMnis linea commensurabilis lineæ cum mediali constituēs mediale, est cum mediali constituens mediale.
+OMnis linea commensurabilis lineæ cum mediali constituēs mediale, est cum mediali constituens mediale.
 
 CAMPANVS Hic quoque pone lineam aliquam communicare cum ea quæ cum mediali componit mediale, indifferenter in longitudine uel potentia tantum prout uolueris, & duplici modo præmisso sine difficultate cōcludes eam quoque cum mediali componere mediale. Erit etiam quantum ad primum modum, superficies l medialis quemadmodum & k, & duo quoque quadrata duarum linearum f d pariter accepta mediale, sicut & duo quadrata duarum e & c. Et quia duo quoque duarum linearum e & c ad K sicut duo duarum f & d ad l, cum duo prima non communicent cum dupso{printer-error-correction:duplo} K ex 73, neque duo secunda communicabunt cum duplo l ex 10. Igitur ex 73 b est cum mediali cōponens mediale. Quantum autem ad secundum modum, erit d e residuum sextum ex 97, ideoq̃ & e g ex 98. Quare b est cum mediali cōponens mediale ex 91.
 
-Eucl.ex Zamb. — Theorema 83 — Propositio 107
+## Eucl.ex Zamb. Theorema 83 Propositio 107
+
+[Curated heading level=3 type=zamberti_sequence: 107.]
 
 [Margin]
 107
 [/Margin]
 
-## Cum medio medium totum efficienti commensurabilis, & eadem cum medio medium totum efficiens est.
+Cum medio medium totum efficienti commensurabilis, & eadem cum medio medium totum efficiens est.
 
 <!-- Catchword: THEON -->

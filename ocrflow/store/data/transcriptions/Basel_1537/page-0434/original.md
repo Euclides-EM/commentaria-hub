@@ -8,6 +8,8 @@ IDEM aliter. Cum sit ex hypothesi quadratum lineæ a d quintuplum ad quadratū l
 
 ## Eucli. ex Zamb. Theorema 3 Propositio 3
 
+[Curated heading level=3 type=zamberti_sequence: 3.]
+
 [Margin]
 3
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. *Recta enim quædā linea α β, media & extrēma ratione secetur
 [Diagram: square described on the line α β, whose top side bears the points α, δ, γ, β; the square is divided by vertical lines through δ and γ and by horizontal lines, with a diagonal from the lower left corner to the upper right, and a circle drawn about the centre; internal and side labels include ε, ζ, η, θ, κ, λ, μ, ν, ξ, ο, π, ρ, σ]
 
 ## Eucli. ex Camp. Propositio 4
+
+[Curated heading level=3 type=campanus_sequence: 4.]
 
 [Margin]
 4

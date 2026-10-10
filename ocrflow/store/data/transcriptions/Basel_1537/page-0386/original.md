@@ -14,11 +14,13 @@ tur & simile est ρ ψ parallelogrammū ipsi α μ parallelogrāmo. Iam idq́̃ 
 
 ## Eucl. ex Camp. Propositio 33.
 
+[Curated heading level=3 type=campanus_sequence: 33.]
+
 [Margin]
 33
 [/Margin]
 
-## {dropcap:O|lines=?|style=decorated|decoration="a face"}Mnia solida æquidistātium superficierū. æque alta suis basibus sunt ꝓportiōalia.
+{dropcap:O|lines=?|style=decorated|decoration="a face"}Mnia solida æquidistātium superficierū. æque alta suis basibus sunt ꝓportiōalia.
 
 CAMPANVS Sint duo solida æquidistantiū superficierū æque alta, cōstituta super duas bases a b & c d. Dico quod proportio illorū duorū solidorum unius ad alterū. est sicut proportio suarū basiū quæ sunt a b & c d, unius ad alterā. Constat quidē ex 24, utrāq̃ harū duarū basium esse æquidistātium laterū, duo igitur latera opposita & æquidistantia, in superficie a b protrahantur, & inter ea fiat superficies æquidistantiū laterum quæ sit f e, æqualis c d. Dehinc supra superficiē f e, cōpleatur solidū parallelogrammū æque altū ei quod cōstitutū est super basin a b, sitq́̃ amborū cōmunis terminis illa superficies quæ exurgit super lineam b f, hæc autem solida & suæ bases, eisdem nūcupentur nominibus. Quia igitur basis f e est æqualis basi c d. erit ex 31 uel 32 solidū f e æquale solido c d. At quia totale solidū a e secat superficies, exur
 

@@ -4,6 +4,8 @@
 
 ## Eucli.ex Camp. Propositio 13
 
+[Curated heading level=3 type=campanus_sequence: 13.]
+
 [Margin]
 13
 [/Margin]
@@ -15,6 +17,8 @@ CAMPANVS. Sint duo numeri a & b quadrati, lateraq̃ eorū c & d, dico quod si a 
 [Diagram: numbers as rows of dots, labelled a (4 dots), e (6 dots), b (9 dots), c (2 dots), d (3 dots)]
 
 ## Eucli.ex Zamb. Theorema 12 Propositio 14
+
+[Curated heading level=3 type=zamberti_sequence: 14.]
 
 [Margin]
 14
@@ -28,6 +32,8 @@ THEON ex Zamb. Sint quadrati nrmeri α.β, latera uero ipsorū, sint γ,δ, at �
 
 ## Eucli.ex Camp. Propositio 14
 
+[Curated heading level=3 type=campanus_sequence: 14.]
+
 [Margin]
 14
 [/Margin]
@@ -37,6 +43,8 @@ THEON ex Zamb. Sint quadrati nrmeri α.β, latera uero ipsorū, sint γ,δ, at �
 CAMPANVS Sint duo nūeri a & cubi, lateraq̃ eorū c & d, dico quod si a numerat b, c quoq̃ nūerabit d, & ecōuerso ducatur enim b in se & fiat c, d quoq̃ in se, & fiat f, cōstat igitur q̃ ex c in e fit a, & ex d in g, b, fiat itaq̃ f, ex c in d erūtq̃ per 17 & 19 septimi, e.f,g, cōtinue ptoportionales in proportione c ad d, sed & h, & k, proueniant ex c in f & g, per easdē igitur erūt a,h,k,b: continue quoq̃ proportionales in eadem proportione, itaque si a numerat b. idem per 7 huius numerabit h, quare & c,d, est enim c ad d, sicut a ad h, constat igitur prima pars. Conuersa patet, sicut conuersa prioris. Nā si e numerat d, a quoque numerabit h, quem si numerat, necesse est ut numeret b.
 
 ## Eucli.ex Zamb. Theorema 13 Propositio 15
+
+[Curated heading level=3 type=zamberti_sequence: 15.]
 
 [Margin]
 15
@@ -49,6 +57,8 @@ THEON ex Zamb. Cubus enim numerus α, cubū β metiatur, & ipsius quidē α, lat
 [Diagram: numbers as rows of dots, labelled α, θ, κ, β, γ, δ, ε, ζ, η]
 
 ## Eucl.ex Cāp. Propositio 15
+
+[Curated heading level=3 type=campanus_sequence: 15.]
 
 [Margin]
 15

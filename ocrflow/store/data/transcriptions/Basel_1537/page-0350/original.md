@@ -8,7 +8,7 @@
 
 [Diagram: four short horizontal lines labelled a, b, c, d]
 
-## Quibuslibet duobus inuicem ductis si quid licet producatur,quota latera tetragonica duorum præcedētium inuicem duces,totum tetragonicum latus ipsius producti produces.
+Quibuslibet duobus inuicem ductis si quid licet producatur,quota latera tetragonica duorum præcedētium inuicem duces,totum tetragonicum latus ipsius producti produces.
 
 Verbi gratia. Sit ut ex a in b sit k:at cd sint latera tetragonica a & b:fiat autē e,ex c in d: sintq̃ iterum f & g latera tetragonica c & d,& fiat h ex f in g. Dico quod h est latus tetragonicū e,& quod e rursus est latus tetragonicū k. Cum enim ex f in se & in g fiant c & h,erit c ad h sicut f ad g,sed & sit h ad g{printer-error-correction:d},sicut f ad g,eo quod ex g in f & in se fiunt h & d, sūt igitur c,h,d,cōtinue proportionales. Itaq̃ ex h in se,quātū ex c in d,quare h,est latus tetragonicū e.
 

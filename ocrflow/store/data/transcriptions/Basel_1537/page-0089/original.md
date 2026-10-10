@@ -2,6 +2,8 @@
 
 <!-- Page number: 80 -->
 
+[Curated heading level=3 type=campanus_sequence: 32.]
+
 [Margin]
 32
 [/Margin]
@@ -15,6 +17,8 @@ CAMPANVS. Sit a b linea data, & c datus angulus. Super lineā a b uolo describer
 [Diagram: circle a k b with centre f and k at top; tangent d a at a, perpendicular a e rising to e at upper right, line b f, points g and h below the base a b; at the right the given angle c]
 
 ## Eucli. ex Zamb. Problema 5. Propositio 33.
+
+[Curated heading level=3 type=zamberti_sequence: 33.]
 
 [Margin]
 33

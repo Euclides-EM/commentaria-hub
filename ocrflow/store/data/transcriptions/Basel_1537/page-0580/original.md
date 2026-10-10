@@ -10,7 +10,7 @@ Excitetur ad angulos rectos ab ipso b signo ipsi a d per 31 primi ele. æqua & p
 
 [Diagram: a rectangle with a at top left, f at top middle, e at top right, and d, b, c along the base; a vertical line from f to b, and lines from a to b and from a to c]
 
-## Theorema 65 — Propositio 65
+## Theorema 65 Propositio 65
 
 SI triangulum acutum habuerit angulum datum, qua minus potest angulum acutum subtendens latus comprehendentibus lateribus acutum angulum, illa areola ad triangulum rationem habebit datam.
 
@@ -18,7 +18,7 @@ Esto triangulum acutum habens angulum a b c. Exciteturq́; ab ipso a per 12 prim
 
 [Diagram: a triangle with apex a at the top; base line with c at the left, d in the middle, b at the right; a vertical line from a to d]
 
-## Theorema 66 — Propositio 66
+## Theorema 66 Propositio 66
 
 SI triangulum datum habuerit angulum, rectangulum sub datum angulum comprehendentibus rectis lineis ad triangulum rationē habebit datam.
 
@@ -26,7 +26,7 @@ Esto triangulum a b c, datum habens angulum eum qui ad a. Dico q̃ quod sub b a 
 
 [Diagram: a triangle with apex a at the top, d on the right side below a, b at the lower left, c at the lower right; lines run from b to d and from b to the side a c]
 
-## Theorema 67 — Propositio 67
+## Theorema 67 Propositio 67
 
 SI triangulum datum habuerit angulum, qua maius possint datum angulum comprehendentia latera ut unum, ea quæ ex reli
 

@@ -8,6 +8,8 @@ Protraham ergo b n æquidistantem a l, & producam diametrū n a, quam protraham 
 
 ## Eucli. ex Zamb. Problema 12. Propositio 44.
 
+[Curated heading level=3 type=zamberti_sequence: 44.]
+
 [Margin]
 44
 [/Margin]
@@ -33,6 +35,8 @@ Constituatur (per 42) ipsi γ triangulo æquale parallelogrammū β ε ζ η, in
 [Diagram: triangle γ with angle δ marked beside it; construction figure with parallelogram β ε ζ η, line α β, points θ, λ, κ, μ, and the diameter θ κ with supplements about it]
 
 ## Euclidis ex Zamb. Problema 13. Propositio 45.
+
+[Curated heading level=3 type=zamberti_sequence: 45.]
 
 [Margin]
 45

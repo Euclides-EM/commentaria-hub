@@ -18,7 +18,13 @@ CORRELARIVM. Vnde manifestum est quod omnis numerus numerans quotlibet adinuicem
 
 ## Eucli. ex Zamb. Problema 2 Propositio 3
 
-**3** Tribus numeris datis non primis adinuicem, maximam eorum communem mensuram inuenire.
+[Curated heading level=3 type=zamberti_sequence: 3.]
+
+[Margin]
+3
+[/Margin]
+
+Tribus numeris datis non primis adinuicem, maximam eorum communem mensuram inuenire.
 
 THEON ex Zamberto. Sint dati tres numeri non primi adinuicem α, β, γ, oportet iam ipsorum α, β, γ, maximam communem dimensionem inuenire. Sumatur ipsorum α, β, maxima communis mensura δ, (per secundam septimi.) Iam ipse δ, ipsum γ aut metitur aut non metitur, metiatur primum: metitur autem ipsos & α, β. Igitur δ metitur ipsos α, β, γ. Igitur δ, ipsorum α, β, γ communis dimensio est. Dico iam quod & maxima. Si autem δ ipsorum α, β, γ non est maxima communis mensura, metietur ipsos α, β, γ, numeros aliquis numerus maior ipso δ. Metiatur, & esto ε. Quoniam enim ε metitur ipsos α, β, γ, metietur igitur & ipsos α, β. Igitur & ipsorum α, β, maximam communem mensuram metietur, (per correlarium secundæ septimi.) Ipsorum autem α, β, maxima cōmunis mensura est δ. Igitur γ ipsum δ metietur, maior minorem, quod est impoßibile (per constructionem.) Ipsos igitur α, β, γ, numeros, numerus aliquis non metietur maior existens ipso δ. Igitur δ ipsorum α, β, γ, maxima communis dimensio est.
 

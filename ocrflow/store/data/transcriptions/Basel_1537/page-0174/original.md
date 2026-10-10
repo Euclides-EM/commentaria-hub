@@ -12,6 +12,8 @@ CAMPANI additio Possumus aut ad lineam datam adiũgere parallelogrammum æquale 
 
 ## Eucli.ex Zamb. Problema 9 Propositio 29
 
+[Curated heading level=3 type=zamberti_sequence: 29.]
+
 [Margin]
 29
 [/Margin]

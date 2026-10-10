@@ -6,7 +6,9 @@ centrum est circulorum β γ, & α ε ζ: æqualis est δ α, ipsi δ ζ, & ipsa
 
 [Diagram: two concentric circles with centre δ; α at the top upon the outer circle, ζ upon it below, β upon the inner circle, γ at the foot; the lines δ α, γ ζ, ζ δ and α β form two triangles]
 
-## Eucli.ex Camp.  Propositio 17
+## Eucli.ex Camp. Propositio 17
+
+[Curated heading level=3 type=campanus_sequence: 17.]
 
 [Margin]
 17
@@ -18,7 +20,9 @@ CAMPANVS. Sit linea a b, cōtingens circulum c e, cuius centrum sit d, in puncto
 
 [Diagram: circle with centre d; above it the horizontal tangent line a c f b, touching at c, with e upon the circle beneath f; the lines d c and d f are drawn]
 
-## Eucli. ex Zamb.  Theorema 16.  Propositio 18.
+## Eucli. ex Zamb. Theorema 16. Propositio 18.
+
+[Curated heading level=3 type=zamberti_sequence: 18.]
 
 [Margin]
 18
@@ -30,7 +34,9 @@ THEON ex Zamb. Circulum enim α β γ, tangat recta linea quædam δ ε, in γ s
 
 [Diagram: circle with α at the top and centre ζ; below, the tangent line δ γ η ε touching at γ; the lines ζ γ and ζ η are drawn, β lying upon ζ η within the circle]
 
-## Eucli.ex Camp.  Propositio 18
+## Eucli.ex Camp. Propositio 18
+
+[Curated heading level=3 type=campanus_sequence: 18.]
 
 [Margin]
 18
@@ -42,7 +48,9 @@ CAMPANVS. Sit ut prius linea a b contingēns circulum c e in pūcto c, & contact
 
 [Diagram: horizontal tangent line a c b above a circle touching at c; the line c e descends through the circle, d lying within it beside the line]
 
-## Eucli.ex Zamb.  Theorema 17.  Propositio 19.
+## Eucli.ex Zamb. Theorema 17. Propositio 19.
+
+[Curated heading level=3 type=zamberti_sequence: 19.]
 
 [Margin]
 19

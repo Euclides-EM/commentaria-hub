@@ -8,7 +8,13 @@ per eas quæ in α sunt unitates, igitur & α ipsum β metitur per eas quæ in i
 
 ## Eucli. ex Camp. Propositio 9
 
-**9** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numeris quotlibet ab unitate continua proportionalitate dispositis, unitatem sequens quadratus fuerit, cæteri quoq̃ omnes erunt quadrati. Si uero qui unitatē sequitur fuerit cubus, cæteri quoq̃ omnes erunt cubi.
+[Curated heading level=3 type=campanus_sequence: 9.]
+
+[Margin]
+9
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numeris quotlibet ab unitate continua proportionalitate dispositis, unitatem sequens quadratus fuerit, cæteri quoq̃ omnes erunt quadrati. Si uero qui unitatē sequitur fuerit cubus, cæteri quoq̃ omnes erunt cubi.
 
 CAMPANVS. Sint qui prius continue proportionales ab unitate, sitq̃ a quadratus, dico omnes esse quadratos. Aut sit idem cubus, tunc quoq̃ dico omnes esse cubos, b enim constat esse quadratum per præmissam, quia ergo a ad b, sicut b ad c, ex 22 octaui, sequitur c esse quadratum, idem quoq̃ ex eiusdem 17 uel 20 potes arguere. De sequētibus autem idem eodemq̃ modo probabis, quare patet primum. Secūdum autem sic. Cum b fiat ex a in se, si fuerit a cubus, erit per tertiam ipse quoq̃ cubus, c uero constat esse cubum per præmissam, itaque per 25 octaui, d omnesq̃ sequentes cubicos esse probabis, est enim a ad b, sicut c ad d. Idem quoq̃ arguere potes ex 19 uel 21 eiusdem, sunt enim a, b, c, d, sed & b,c,d,e, singuliq̃ quatuor continue sumpti, continue proportionales.
 
@@ -16,7 +22,13 @@ CAMPANVS. Sint qui prius continue proportionales ab unitate, sitq̃ a quadratus,
 
 ## Eucli. ex Zamb. Theorema 9 Propositio 9
 
-**9** Si ab unitate quotcunq̃ numeri * consequenter proportionales fuerint, qui uero post unitatem quadratus fuerit, & reliqui omnes quadrati ernrt. Et si qui post unitatem cubus fuerit, & reliqui omnes cubi erunt.
+[Curated heading level=3 type=zamberti_sequence: 9.]
+
+[Margin]
+9
+[/Margin]
+
+Si ab unitate quotcunq̃ numeri * consequenter proportionales fuerint, qui uero post unitatem quadratus fuerit, & reliqui omnes quadrati ernrt. Et si qui post unitatem cubus fuerit, & reliqui omnes cubi erunt.
 
 [Margin]
 ἑξῆς

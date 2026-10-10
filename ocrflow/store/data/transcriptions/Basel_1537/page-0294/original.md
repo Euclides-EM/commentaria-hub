@@ -8,6 +8,8 @@ potentia tantum cõmensurabiles. Dico quod ipsa α β, ad aliud signum nõ diuid
 
 ## Eucli. ex Camp. Propositio 37
 
+[Curated heading level=3 type=campanus_sequence: 37.]
+
 [Margin]
 37
 [/Margin]
@@ -19,6 +21,8 @@ CAMPANVS. Sit quoq̃ hic linea a b, bimediale primũ, diuisa in duas lineas medi
 [Diagram: horizontal line with points a, d, c, b; below, a tall rectangle on the line e f, divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]
 
 ## Eucli. ex Zamb. Theorema 31 Propositio 43
+
+[Curated heading level=3 type=zamberti_sequence: 43.]
 
 [Margin]
 43
@@ -32,8 +36,10 @@ THEON ex Zamb. Esto ex binis prima medijs α β diuisa in γ, ut ipsæ α γ, γ
 
 ## Eucli. ex Camp. Propositio 38
 
+[Curated heading level=3 type=campanus_sequence: 38.]
+
 [Margin]
-48 (sic, for 38)
+48{printer-error-correction:38}
 [/Margin]
 
 {dropcap:B|lines=?|style=decorated|decoration="ornamental"}Imediale secũdum, nisi in duas lineas tantum sub termino suo diuidi non potest.

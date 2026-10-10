@@ -8,6 +8,8 @@ CAMPANVS. Sit triangulus a b c, habens angulum a, obtusum. A pūcto c, ducatur l
 
 ## Eucli. ex Zamb. Theorema 11. Propositio 12.
 
+[Curated heading level=3 type=zamberti_sequence: 12.]
+
 [Margin]
 12
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. Sit obtusi anguli triangulū α β γ, obtusum habēs angulū β 
 [Diagram: obtuse-angled triangle with apex β at the upper right and base points δ, α, γ; the perpendicular β δ falls outside the triangle on the extension of γ α]
 
 ## Eucli. ex Camp. Propositio 13.
+
+[Curated heading level=3 type=campanus_sequence: 13.]
 
 [Margin]
 13

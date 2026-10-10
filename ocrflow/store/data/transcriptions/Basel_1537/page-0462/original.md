@@ -14,7 +14,9 @@ F I N I S.
 
 # EVCLIDI MEGARENSI CLARISSIMO PHILOSOPHO MATHEMATICORVMQVE facile principi deputatus liber de regularium corporū proportione Campano cōmentatore, qui in ordine est decimusquartus.
 
-## Eucli. ex Camp. — Propositio 1
+## Eucli. ex Camp. Propositio 1
+
+[Curated heading level=3 type=campanus_sequence: 1.]
 
 [Margin]
 1

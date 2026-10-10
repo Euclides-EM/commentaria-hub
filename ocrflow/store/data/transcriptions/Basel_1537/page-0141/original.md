@@ -6,7 +6,9 @@ THEON ex Zamb. Sint tres magnitudines α β γ, & aliæ eisdem æquales numero �
 
 [Diagram: nine vertical bars of differing heights with tick marks, labeled below α β γ γ γ δ ε ζ ζ]
 
-## Eucli,ex Camp. Propositio 21
+## Eucli.ex Camp. Propositio 21
+
+[Curated heading level=3 type=campanus_sequence: 21.]
 
 [Margin]
 21
@@ -18,7 +20,9 @@ CAMPANVS. Secundum antecedens, sint tres quãtitates a b e, sumãturq̃ aliæ tr
 
 [Diagram: three groups of paired horizontal segments with tick marks, labeled a and f, b and c, e and d in each group]
 
-## Eucli.ex amb. Theorema 21 Propositio 21
+## Eucli.ex amb.{printer-error-correction:Zamb.} Theorema 21 Propositio 21
+
+[Curated heading level=3 type=zamberti_sequence: 21.]
 
 [Margin]
 21

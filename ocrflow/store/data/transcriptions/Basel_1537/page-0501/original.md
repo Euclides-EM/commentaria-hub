@@ -4,7 +4,9 @@
 
 f, quod ei est in diametro occidit per k signum, & ipso n signo oriente per l, signum ipsum m, quod ei est in diametro signum per g, signum occidit & insuper ipso b, signo per c oriente, ipsum d, quod ei est in diametro per a occidit. Quando igitur zodiacus circulus ortu meridiano cum occasu septentrionali immutatus fuerit, transmutatus apparet. Dico quod & quando ortu quod ad septentrionem, occasu eo qui ad meridiem permutatus fuerit immutatus apparet. Oriente siquidem d e b, semicirculo, zodiacus circulus positionem habebit a x c. Similiterq̃ ostendemus quod in diametro est ipsum quidem x signum ipsi o signo & r ipsi p. Et quoniã signo c oriente per c, quod in diametro ipsi c, est a, signum occidit per a. Ipso autem o, per l, signum oriente, ipsum x, quod est ei in diametro per g signum occidit. Ipso autem p signo per h, oriente ipsum r, quod ei est in diametro per k occidit. Et insuper ipso a signo, per d oriente, ipsum c, quod ei est in diametro per b occidit. Quãdo igitur zodiacus circulus ortu septentrionali eo qui ad meridiem immutatus fuerit, permutatus apparet, patuit autẽ quod & quãdo ortu meridiano occasu septentrionali immutatus fuerit, permutatus apparet, & manifestũ quod quandoq̃ aliter supra nos stabit. Quãdo enim zodiaci circuli contactus fuerit in bifaria sectione segmenti quod supra terram tropici æstiui ad nos erit rectus: quando uero in bifaria sectiõe segmenti quod infra terram æstiui tropici humilior ad nos erit: semperq̃ longius factus à bifaria sectione segmenti circuli quod supra terram æstiui tropici ualde erit proclinatus, similiter autem erit inclinatus æque distans ab utraque bifaria sectione.
 
-## Theorema 8 — Apparens 8
+## Theorema 8 Apparens 8
+
+[Curated heading level=3 type=zamberti_sequence: 8.]
 
 Signa in inæqualibus horizontis segmentis oriūtur, & occidunt, & in maximis quæ ad æquinoctialem, in minoribus autem quæ hæc sequuntur, in minimis uero quæ ad tropicos, in æqualibus quæ ab æquinoctiali circulo æque distant.
 

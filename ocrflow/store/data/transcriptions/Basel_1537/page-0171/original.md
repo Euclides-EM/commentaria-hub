@@ -4,7 +4,9 @@
 
 quæ circum æquales angulos. Simile igitur est (per primam diffinitionē sexti) parallelogrammū α β γ δ, parallelogrammo ε η. Id propterea, & parallelogrammum α β γ δ, parallelogrammo η θ, est simile, utrumq́ȝ igitur ipsorum ε η & θ κ, parallelogrammorum, ipsi α β γ δ, parallelogrammo simile est. Quæ autem eidem rectilineo similia, & sibi inuicem sunt similia (per 11 sexti) igitur & ε η, parallelogrammum ipsi θ κ, parallelogrammo simile est. Omnis igitur parallelogrammi quæ circa dimetientem parallelogrāma, similia sunt toti & adinuicem, quod erat demonstrandum.
 
-## Eucli. ex Zamb. — Problema 7 — Propositio 25
+## Eucli. ex Zamb. Problema 7 Propositio 25
+
+[Curated heading level=3 type=zamberti_sequence: 25.]
 
 [Margin]
 25
@@ -16,7 +18,9 @@ THEON ex Zamberto. Sit quidem datum rectilineum cui oportet simile constituere, 
 
 [Diagram: at top left a small square containing the point δ; at top right a triangle with apex α standing on the segment γ ζ; beneath them a long rectangle with β (top left), γ (top middle), ζ (top right), λ (bottom left), ε (bottom middle), μ (bottom right), divided by the vertical line γ ε into two parallelograms; below, a separate triangle with base corners η (left) and θ (right), its apex label κ faint]
 
-## Eucli. ex Zamb. — Theorema 19 — Propositio 26
+## Eucli. ex Zamb. Theorema 19 Propositio 26
+
+[Curated heading level=3 type=zamberti_sequence: 26.]
 
 [Margin]
 26
@@ -28,7 +32,9 @@ THEON ex Zamberto. A parallelogrammo enim α β γ δ, parallelogrāmum auferatu
 
 [Diagram: parallelogram with α (top left), ε (on the top side), δ (top right), γ (bottom right); on the left side the points η and θ with horizontal lines drawn from them; a vertical line down from ε; interior points θ and ζ at the crossings; the diagonal α γ and a second line from α through the inner corner to γ]
 
-## Eucli. ex Camp. — Propositio 26
+## Eucli. ex Camp. Propositio 26
+
+[Curated heading level=3 type=campanus_sequence: 26.]
 
 [Margin]
 26

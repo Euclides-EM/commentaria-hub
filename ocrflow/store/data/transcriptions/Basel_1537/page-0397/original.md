@@ -8,6 +8,8 @@ ALITER uero conuenit quod propositum est demonstrare. Producantur enim duæ line
 
 ## Eucli. ex Zamb. Theorema 34 Propositio 39
 
+[Curated heading level=3 type=zamberti_sequence: 39.]
+
 [Margin]
 39
 [/Margin]

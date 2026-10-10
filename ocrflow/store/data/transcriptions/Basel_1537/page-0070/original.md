@@ -8,6 +8,8 @@ munis apponatur μ δ. Igitur ε μ, & μ δ, ipsis μ ζ, & μ δ, sunt æquale
 
 ## Eucli. ex Camp. Propositio 9.
 
+[Curated heading level=3 type=campanus_sequence: 9.]
+
 [Margin]
 9
 [/Margin]
@@ -19,6 +21,8 @@ CAMPANVS. Sit ut à puncto a, signato intra circulum b c d, ductæ sint tres lin
 [Diagram: circle with interior point a; lines from a to the circumference through d, f, b, c, e, crossing as diagonals and perpendiculars]
 
 ## Eucli. ex Zamb. Theorema 8. Propositio 9.
+
+[Curated heading level=3 type=zamberti_sequence: 9.]
 
 [Margin]
 9

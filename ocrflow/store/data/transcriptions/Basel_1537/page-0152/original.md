@@ -10,7 +10,11 @@ THEON ex Zamberto. Sit triangulum α β γ,seceturque (per 9 primi,)angulus β �
 
 ## Eucli.ex Camp. Propositio 4
 
-## 4
+[Curated heading level=3 type=campanus_sequence: 4.]
+
+[Margin]
+4
+[/Margin]
 
 {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duorum triangulorum quorum anguli unius angulis alterius sunt æquales, latera æquos angulos continentia sunt proportionalia,
 
@@ -18,9 +22,13 @@ CAMPANVS. Sint duo trianguli a b c,d e f æquianguli: sitqꝫ angulus a æqualis
 
 [Diagram: two triangles: one with apex a and base b c; the other with apex g, point a on its left side, point d on the right, and base e f c, with inner lines drawn]
 
-## Eucli.ex Zamb. Theorema 3. Propositio 4.
+## Eucli.ex Zamb. Theorema 3{printer-error-correction:4}. Propositio 4.
 
-## 4
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
+[Margin]
+4
+[/Margin]
 
 Æquiangulorum triangulorum proportionalia sunt latera : quæ circū æquales angulos, & similis sunt rationis quæ æqualibus angulis latera subtenduntur.
 

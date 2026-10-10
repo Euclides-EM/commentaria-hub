@@ -6,6 +6,8 @@ tiplex. α ε, ipsius γ ζ, & α β, ipsius γ δ, æque igitur multiplex est �
 
 ## Eucli. ex Camp. Propositio 6
 
+[Curated heading level=3 type=campanus_sequence: 6.]
+
 [Margin]
 6
 [/Margin]
@@ -22,6 +24,8 @@ Si autē a g sit multiplex c, ponam ut e k sit æque multiplex f, eritque ut pri
 
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
 
+[Curated heading level=3 type=zamberti_sequence: 6.]
+
 [Margin]
 6
 [/Margin]
@@ -33,6 +37,8 @@ THEON ex Zamb. Duæ enim magnitudines α β, γ δ, duarum magnitudinū ε ζ, �
 [Diagram: vertical line segments representing the magnitudes α β, γ δ with points η, θ, κ and the magnitudes ε, ζ, in the right margin]
 
 ## Eucli. ex Camp. Propositio 7
+
+[Curated heading level=3 type=campanus_sequence: 7.]
 
 [Margin]
 7

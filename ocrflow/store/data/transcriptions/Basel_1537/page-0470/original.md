@@ -8,7 +8,13 @@ demōstratione 17 tredecimi erit latus cubi quem eadem sphaera cōcludit, protra
 
 ## Eucli. ex Camp. Propositio 9
 
-9 DIuisa qualibet linea secundum proportionē habentem medium duoq́ⱼ extrema, erit proportio lineae potentis supra totam lineā eiusq́ⱼ maiorem portionē ad lineam potentem supra totam eiusdemq́ⱼ minorem portionē, tanq̃ proportio lateris cubi ad latus trianguli corporis uiginti basium una cum cubo ipso in eadem sphæra contenti.
+[Curated heading level=3 type=campanus_sequence: 9.]
+
+[Margin]
+9
+[/Margin]
+
+DIuisa qualibet linea secundum proportionē habentem medium duoq́ⱼ extrema, erit proportio lineae potentis supra totam lineā eiusq́ⱼ maiorem portionē ad lineam potentem supra totam eiusdemq́ⱼ minorem portionē, tanq̃ proportio lateris cubi ad latus trianguli corporis uiginti basium una cum cubo ipso in eadem sphæra contenti.
 
 CAMPANVS. Sit linea a b diuisa secūdum proportionē habentē medium duoq́ⱼ extrema, & maior portio sit linea a c, & super centrū a secundū quantitatem lineæ a b describatur circulus d b e, eiq́ⱼ inscribatur ex 12 quarti pentagonus aequilaterus cuius unū latus sit d e, & ex secūda eiusdem trigonus aequilaterus cuius unū latus sit d f, & uni ex angulis pentagoni qui sit d, subtēdatur linea e g. Constat igitur ex 8 huius, q̃ sphæra circūscribēs dodecedron cuius pentagoni latus est d e, circūscribit simul icosedron cuius triāguli latus est d f, ⁊ ex demōstratione 17 tredecimi manifestū est, q̃ eadem sphæra circūscribit cubum cuius latus est e g. Sumatur ergo linea h potens super totam a b & eius maiorem portionē a c, & sumatur k potēs super totam a b & minorē eius portionē b c. Dico itaq́ⱼ q̃ proportio e g ad d f, hoc est lateris cubi ad latus triāguli icosedri una cum ipso cubo ab ipsa sphæra contenti, est sicut h ad k. Constat quidem quod ex correlario 12 quarti, q̃ a b est tanq̃ latus hexagoni aequilateri circulo b d e inscripti. Igitur ex 9 huius, a c est tanq̃ latus decagoni eiusdem circuli. Itaq́ⱼ per 10 tredecimi, h e potens est super totam a b & eius maiorē portionē a c, quare d e est aequalis h, nam quadratū utriusq́ⱼ earū, tantū est quantū quadrata duarū linearū a b & a c pariter accepta. Patet autē ex 13 tredecimi, q̃ d f est tripla potentialiter ad a b, at uero sic a c esset illa patet, q̃ quoq́ⱼ tripla est potentialiter ad a c. Ergo ex secūda parte 12 sexti, proportio f ad a b, est sicut k ad a c, quare permutatim d f ad k, sicut a b ad a c. Et quia ex demōstratione 17 tredecimi, quoniā q̃ si e g diuidatur secundum proportionē habentē medium duoq́ⱼ extrema, maior portio eius erit tanq̃ d e, erit per secūda, huius, p̃portio e g ad d e, sicut a b ad a c, quare per 11 quinti erit quoq́ⱼ e g ad d e, sicut d f ad k, & permutatim e g ad d f, sicut d e ad k. Et quia per primā partem 7 quinti, d e ad k, sicut h ad k, eo q̃ d e ⁊ h sunt aequales, erit per 11 quintiē g ad d f, sicut h ad k.
 

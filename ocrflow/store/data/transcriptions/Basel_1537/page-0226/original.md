@@ -8,7 +8,13 @@ quoniam est sicut γ, ad δ, sic est ζ, ad η, uicissim igitur (per 13 septimi,
 
 ## Eucli. ex Zamb. Theorema 18 Propositio 20
 
-**20** Si binorum numerorum unus medius proportionalis fuerit numerus, similes plani erunt ipsi numeri.
+[Curated heading level=3 type=zamberti_sequence: 20.]
+
+[Margin]
+20
+[/Margin]
+
+Si binorum numerorum unus medius proportionalis fuerit numerus, similes plani erunt ipsi numeri.
 
 THEON ex Zamberto. Duorum enim numerorum α, β, unus medius proportionalis esto γ, nnmerus. Dico quod ipsi α, β: similes plani sunt numeri, Sumantur (per 35 septimi) enim minimi numeri eandem rationem habentiū ipsis α, γ, β, duo: sintq́; δ, ε. Est igitur sicut δ, ad ε, sic est α, ad γ, sed sicut α, ad γ, sic est γ, ad β, & sicut igitur (per 11 quinti,) δ, ad ε, sic γ ad β, Aeque igitur δ, ipsum α metitur, & ε, ipsum γ, quoties autē δ, ipsum α metitur, tot unitates sint in ζ, igitur ζ, ipsum δ multiplicans ipsum effecit α, Ipsum autem ε, multiplicans, ipsum fecit γ, quare α, planus est: latera autem eius sunt δ, ζ, (per 22 diffinitionē septimi.) Rursus quoniam ipsi δ, ε, minimi sunt eandem rationem habentium ipsis γ, β, æque igitur (per 21 septimi,) δ, ipsum γ, metitur & ε, ipsum β. Quoties, autē ε, ipsum β, metitur, tot unitates sint in ipso η, Igitur ε, ipsum β, metitur per eas quæ in η, sunt unitates, igitur η, ipsum ε multiplicās, ipsum effecit β, igitur planus est (per 23 diffinitionē septimi,) latera aūt eius sunt ε, η. Igitur ipsi α β, plani sunt duo numeri. Dico insuper quod & similes. Quoniam enim uetrq́; ipsorū ζ, η, ipsum ε, multiplicans, utrunque ipsorū γ, β, effecit, est igitur (per 17 septimi,) sicut ζ ad η, sicut est γ, ad β. Sicut autem γ, ad β, sic δ ad ε, & sicut igitur (per 11 quinti,) δ ad ε, sic ζ, ad ζ. Ipsi igitur α, β similes plani sunt numeri, eorum enim latera proportionalia sunt quod erat demonstrandum.
 
@@ -20,7 +26,13 @@ Hoc fiet, per 35 septimi, sumendo ipsorum aut α γ, aut γ β, maximam dimensio
 
 ## Eucli. ex Zamb. Theorema 19 Propositio 21
 
-**21** Si duorum numerorū duo medij proportionales fuerint numeri similes solidi sunt ipsi numeri.
+[Curated heading level=3 type=zamberti_sequence: 21.]
+
+[Margin]
+21
+[/Margin]
+
+Si duorum numerorū duo medij proportionales fuerint numeri similes solidi sunt ipsi numeri.
 
 THEON ex Zamberto. Duorum enim numerorum α, β, duo medij proportionales sint numeri γ, δ, dico quod ipsi α, β, similes solidi sunt. Sumantur enim (per 35 septimi, aut 2 octaui,) minimi numeri eandem rationem habentium eisdem α, γ, δ, β, tres: sintque ε, ζ, η. Igitur (per tertiā octaui) eorum extremi ε, η, primi adinuicē sunt, & quoniā ipsorū ε, η, unus medius proportionalis est numerus, similes igitur plani sunt (per 20 octaui.)
 

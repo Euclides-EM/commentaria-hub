@@ -8,7 +8,11 @@ qui sunt ad a,& de ijs qui sunt ad e,sicut igitur arcus k c est multiplex arcus 
 
 ## Eucli.ex Zamb. Theorema 23 Propositio 33
 
-## 33
+[Curated heading level=3 type=zamberti_sequence: 33.]
+
+[Margin]
+33
+[/Margin]
 
 In æqualibus circulis anguli eandem habent rationem ipsis circunferentijs in quibus consistunt,& si ad centra & si ad circunferentias fuerint constuti,tum etiam sectores,ut puta ad centra constituti.
 

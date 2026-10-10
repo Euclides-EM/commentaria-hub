@@ -8,11 +8,13 @@ tangentes rectas lineas (per 2 diffinitionẽ undecimi) & in subiecto plano exis
 
 ## Eucli. ex Camp. Propositio 7
 
+[Curated heading level=3 type=campanus_sequence: 7.]
+
 [Margin]
 7
 [/Margin]
 
-## SI in duabus lineis æquedistantibus, duobus punctis signatis, ab altero ad alterum recta linea ducatur, in qua superficie illæ duæ lineæ sitæ sunt, eam quoq̃ in eandem sitam esse necessario comprobatur.
+SI in duabus lineis æquedistantibus, duobus punctis signatis, ab altero ad alterum recta linea ducatur, in qua superficie illæ duæ lineæ sitæ sunt, eam quoq̃ in eandem sitam esse necessario comprobatur.
 
 CAMPANVS. Sint duæ lineæ a b & d c æquidistantes, de quibus constat per diffinitionẽ ꝙ ipsæ sunt in supficie una, in eis autẽ signentur duo puncta e & f, & ꝓducatur linea recta e f. Dico itaq̃ lineã e f, esse sitam in superficie linearũ a b & c d. Sin autẽ sit e f in alia supficie ut in sublimi, depẽdens quoq̃ supficies si ꝓtrahatur, secabit necessario superficiẽ in qua sitæ sunt duæ lineæ a b & c d, eritq̃ per 3 huius, cõmunis sectio earum, linea recta eisdem punctis terminata. Quod est impossibile. sic enim duæ rectæ lineæ concluderẽt superficiem.
 
@@ -20,11 +22,13 @@ CAMPANVS. Sint duæ lineæ a b & d c æquidistantes, de quibus constat per diffi
 
 ## Eucli. ex Zamb. Theorema 7 Propositio 7
 
+[Curated heading level=3 type=zamberti_sequence: 7.]
+
 [Margin]
 7
 [/Margin]
 
-## Si fuerint binæ rectæ lineæ parallelæ, assumãturq̃ in ipsarũ utraq̃ contingentia signa, ad ipsa signa connexa recta linea in eodem est plano cum ipsis parallelis.
+Si fuerint binæ rectæ lineæ parallelæ, assumãturq̃ in ipsarũ utraq̃ contingentia signa, ad ipsa signa connexa recta linea in eodem est plano cum ipsis parallelis.
 
 THEON ex Zamb. Sint binæ rectæ lineæ parallelæ α β, γ δ, sumanturq̃ in ipsarũ utraq̃ utcunq̃ signa ε, ζ. Dico quod ad ipsa ε, ζ, signa, \*adiecta recta linea, in eodẽ est plano cum ipsis parallelis.
 
@@ -44,11 +48,13 @@ Sectionẽ iam faciet in supposito plano rectam lineã, efficiat (per 3 undecimi
 
 ## Eucli. ex Cãp. Propositio 8
 
+[Curated heading level=3 type=campanus_sequence: 8.]
+
 [Margin]
 8
 [/Margin]
 
-## SI in idẽ planũ duæ rectę lineę æquedistanter erigãtur, altera uero earũ orthogonaliter sistat, reliquã quoq̃ ad idẽ planũ perpendicularẽ esse cõueniet.
+SI in idẽ planũ duæ rectę lineę æquedistanter erigãtur, altera uero earũ orthogonaliter sistat, reliquã quoq̃ ad idẽ planũ perpendicularẽ esse cõueniet.
 
 CAMPANVS. Hæc est quasi conuersa sextæ. Sint enim duæ lineæ a b & c d æquidistantes, & sit earũ altera ut c d erecta perpẽdiculariter super supficiem quãlibet. Dico reliquã earũ quæ est a b, esse perpendicularẽ ad eandem superficiẽ. Fiat enĩ prorsus eadẽ dispositio quæ est sexta, eritq̃ ut ibi uterq̃ duorũ angulorũ f b e, & f d e, erectus: primꝰ quidẽ, per positionẽ, secũdus autẽ, per 8 primi, quare per 4 huius, linea f b, est perpẽdiculariter erecta super superficiẽ in qua sunt duæ lineæ b d & b e. Cumq̃ per præmissam duæ lineæ a b & c d sint in eadem superficie cum duabus lineis b d & b e, sequitur lineã f b esse perpen
 

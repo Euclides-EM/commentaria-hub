@@ -10,6 +10,8 @@ tudine. Et quoniã cōmēsurabilis est α η, ipsi ε η, cōmēsurabilis est & 
 
 ## Eucli. ex Camp. Propositio 50
 
+[Curated heading level=3 type=campanus_sequence: 50.]
+
 [Margin]
 50
 [/Margin]
@@ -24,6 +26,8 @@ CAMPA. Dispositio & hypotheses maneãt ut supra. Eritq̃ ex his hypothesibus & d
 
 ## Eucl. ex Zãb. Theorema 38 Propositio 56
 
+[Curated heading level=3 type=zamberti_sequence: 56.]
+
 [Margin]
 56
 [/Margin]
@@ -37,6 +41,8 @@ THEON ex Zamb. Areola nãq̃ α β γ δ, cõprehēdatur sub rõnali α β. ac e
 [Diagram: square divided by a vertical and a horizontal line into four compartments; labels: τ, ς, π along the top, μ at the left, υ at the centre, ξ at the right, σ and ο along the bottom]
 
 ## Eucl. ex Cãp Propositio 51
+
+[Curated heading level=3 type=campanus_sequence: 51.]
 
 [Margin]
 51

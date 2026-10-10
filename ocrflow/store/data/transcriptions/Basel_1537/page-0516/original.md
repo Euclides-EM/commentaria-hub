@@ -1,8 +1,8 @@
-## SPECVLARIA
+<!-- Running title: SPECVLARIA -->
 
 <!-- Page number: 505 -->
 
-### Theorema primum.
+## Theorema primum.
 
 {dropcap:A|lines=?|style=decorated|decoration="woodcut"} Planis, conuexis, cauisq̃ speculis uisus inæqualibus angulis refringuntur.
 
@@ -22,7 +22,7 @@ Sit rursus cauum speculum a k c uisus autem b k refractus in d. Dico quod angulu
 
 [Diagram: concave mirror a k c with tangent plane mirror l k b / m n at k, rays to b and d; points m, k, l, f, e, b, n, a, b, d marked]
 
-### Theorema secundum.
+## Theorema secundum.
 
 {dropcap:I|lines=?|style=decorated|decoration="woodcut"}N qualiacunq̃ specula inciderit uisus æquos efficiens angulos, per sese refringetur.
 
@@ -30,7 +30,7 @@ Sit planum speculum a k c oculus autem sit b, uisus uero sit b k, cadatq̃ æquo
 
 [Diagram: plane mirror a k c with perpendicular k b and oblique ray k d; points a, k, c, f, b, e, b, d marked]
 
-### Theorema tertium.
+## Theorema tertium.
 
 {dropcap:I|lines=?|style=decorated|decoration="woodcut"}N qualecunque speculum procidens uisus inæquales efficiens angulos, in se ipsum non refringetur neque in minori etiam angulo.
 
@@ -38,7 +38,7 @@ Sit planum speculum a k c, uisus autem b k procidat maiorem efficiens angulum f 
 
 [Diagram: plane mirror a k c with rays k b and k d below, angles f, h, l at k; points a, k, c, f, h, l, b, d marked]
 
-### Theorema quartum.
+## Theorema quartum.
 
 {dropcap:V|lines=?|style=decorated|decoration="woodcut"}Isus in planis speculis, & cōuexis refracti, neque concurrunt adinuicem, neque sunt paralleli.
 

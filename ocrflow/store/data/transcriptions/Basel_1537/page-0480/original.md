@@ -8,7 +8,9 @@ Hoc ostenso, demonstrandum est quod circulus idem comprehendit & dodecahedri pen
 
 [Diagram: sphere diameter drawn as horizontal line α β; below it a regular pentagon γ δ ε ζ η with the diagonal γ ε; a short horizontal line μ ν divided at ξ; and an equilateral triangle θ κ λ]
 
-## Eucli. ex Zamb. — Theorema 3 — Propositio 3
+## Eucli. ex Zamb. Theorema 3 Propositio 3
+
+[Curated heading level=3 type=zamberti_sequence: 3.]
 
 [Margin]
 3

@@ -10,11 +10,13 @@ cōstituatur angulus solidus æqualis angulo solido a,secundū quod docet 26 lin
 
 ## Eucli.ex Zamb. Theorema 31 Propositio 36
 
+[Curated heading level=3 type=zamberti_sequence: 36.]
+
 [Margin]
 36
 [/Margin]
 
-## Si tres rectæ lineæ proportionales fuerint,ex ipsis tribus rectis lineis solidū parallelepipedū æquū est ei qd̕ ex media fit solido parallelepipedo æquilatero quidem,æquiangulo autē prædicto.
+Si tres rectæ lineæ proportionales fuerint,ex ipsis tribus rectis lineis solidū parallelepipedū æquū est ei qd̕ ex media fit solido parallelepipedo æquilatero quidem,æquiangulo autē prædicto.
 
 [Diagram: three line segments labelled α, β, γ]
 

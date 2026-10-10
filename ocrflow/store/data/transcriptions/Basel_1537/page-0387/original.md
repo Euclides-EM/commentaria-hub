@@ -6,6 +6,8 @@ ges super lineā b f æquidistāter duobus lateribus oppositis, erit ex 25 ꝓpo
 
 ## Eucl. ex Zamb. Theorema 27 Propositio 32
 
+[Curated heading level=3 type=zamberti_sequence: 32.]
+
 [Margin]
 32
 [/Margin]
@@ -17,6 +19,8 @@ THEON ex Zamb. Sint sub eadem altitudine solida parallelepipeda, α β, γ δ. D
 [Diagram: two solid parallelepipeds side by side: at left a cube with β at top, ε on the front face, α at bottom left; at right a wider parallelepiped divided by a vertical plane, with δ and κ at top, ζ on the front face, and γ, η, θ along the bottom]
 
 ## Eucl. ex Camp. Propositio 34
+
+[Curated heading level=3 type=campanus_sequence: 34.]
 
 [Margin]
 34

@@ -10,6 +10,8 @@ Hæ sequentes duæ propositiones 12 scilicet & 13 ex Zamberto, duabus præcedent
 
 ## Eucli. ex Zamb. Theorema 12 Propositio 12
 
+[Curated heading level=3 type=zamberti_sequence: 12.]
+
 [Margin]
 12
 [/Margin]
@@ -21,6 +23,8 @@ THEON ex Zamb. Sint quotcunque magnitudines proportionem habentes α β γ δ ε
 [Diagram: group of tall vertical line segments of graduated heights with division marks, letters η θ α γ ε λ β δ ζ μ ν beneath, in the right margin]
 
 ## Eucli. ex Zamb. Theorema 13 Propositio 13
+
+[Curated heading level=3 type=zamberti_sequence: 13.]
 
 [Margin]
 13

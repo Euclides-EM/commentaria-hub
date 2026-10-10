@@ -6,6 +6,8 @@
 
 ## Eucli. ex Camp. Propositio 54
 
+[Curated heading level=3 type=campanus_sequence: 54.]
+
 [Margin]
 54
 [/Margin]
@@ -27,6 +29,8 @@ Sit recta linea α β, seceturq̃ in inæqualia in γ, sitq̃ maior α γ. Dico 
 [Diagram: horizontal line with points labelled α, δ, γ, β from left to right]
 
 ## Eucli. ex Zãb. Theorema 42 Propositio 60
+
+[Curated heading level=3 type=zamberti_sequence: 60.]
 
 [Margin]
 60

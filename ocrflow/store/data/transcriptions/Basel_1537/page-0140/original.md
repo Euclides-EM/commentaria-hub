@@ -6,6 +6,8 @@ tendo. Hinc manifestum, quod si compositæ magnitudines propositionales fuerint,
 
 ## Eucli. ex Camp. Propositio 20
 
+[Curated heading level=3 type=campanus_sequence: 20.]
+
 [Margin]
 20
 [/Margin]
@@ -26,7 +28,9 @@ Quod si a sit minor e, per easdem & eodem modo probabitur c esse minorem f, erit
 
 CAMPANI additio. Quidam autẽ hanc conclusionẽ demõstrauerũt per proportionalitatẽ, permutatim, hoc modo. proportio a ad b, est sicut c ad d, ergo permutatim a ad c, sicut b ad d, & quia rursus b ad e sicut d ad f, erit permutatim b ad d sicut e ad f, sed erat h ad d. sicut a ad c, ergo per 11 erit a ad c, sicut e ad f, itaq̃ per 14. si a prima est maior e tertia, erit c, secũda maior f, quarta, & si minor, minor, & si æqualis æqualis, quod est propositum. Isti autem errauerunt in sua demonstratione, quia si esset intentio Euclidis sic demonstrare, non oporteret ipsum præmittere hanc cõclusionem pro antecedente, ad æquam proportionalitatem, si enim rursus fiat una permutatio proportionalitatis ad quam deuẽtum est, quæ est esse a ad c sicut e ad f, sequitur quod sit a ad e sicut c ad f, & hoc est æqua proportionalitas. Præterea eorum cõclusio non sequitur nisi omnes quantitates amborũ ordinũ fuerint generis unius. Si enim a b e, sint lineæ & c d f, superficies, aut corpora, aut tempora, non erit tunc permutare proportiones, peccant igitur uniuersaliter dictum, particulariter demonstrantes.
 
-## Eucli,ex Zamb, Theorema 20 Propositio 20
+## Eucli.ex Zamb. Theorema 20 Propositio 20
+
+[Curated heading level=3 type=zamberti_sequence: 20.]
 
 [Margin]
 20

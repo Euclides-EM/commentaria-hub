@@ -6,6 +6,8 @@ tione incontinuæ proportionalitatis quæ posita est in proœmio quinti libri ar
 
 ## Eucli. ex Zamb. Theorema 11 Propositio 11
 
+[Curated heading level=3 type=zamberti_sequence: 11.]
+
 [Margin]
 11
 [/Margin]

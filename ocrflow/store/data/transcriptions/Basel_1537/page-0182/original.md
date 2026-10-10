@@ -14,7 +14,11 @@ CAMPANI additio. Quod si duo numeri a b & c d sint contra se primi,non erit in h
 
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
 
-## 1
+[Curated heading level=3 type=zamberti_sequence: 1.]
+
+[Margin]
+1
+[/Margin]
 
 Si duobus numeris inæqualibus expositis, sublato semper minore,à maiore reliquus minime metiatur præcedentem quoad assumpta fuerit unitas,qui à principio numeri,primi adinuicem erunt.
 
@@ -24,11 +28,15 @@ THEON ex Zamb. Duobus namq̃ inæqualibus numeris propositis α β & γ δ, subl
 
 ## Eucli. ex Camp. Propositio 2
 
-## 2
+[Curated heading level=3 type=campanus_sequence: 2.]
+
+[Margin]
+2
+[/Margin]
 
 {dropcap:P|lines=?|style=decorated|decoration="woodcut"}Ropositis duobus numeris adinuicem compositis, maximum numerum communem eos numerantem inuenire.
 
-CORRELARIVM.
+### CORRELARIVM.
 
 Vnde manifestum est quia omnis numerus duos numeros numerans,numerat numerum maximum ambos numerantem.
 

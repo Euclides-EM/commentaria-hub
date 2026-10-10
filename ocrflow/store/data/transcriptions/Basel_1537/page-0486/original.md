@@ -6,21 +6,25 @@ punctū sectiōis earū (quēadmodū 12 docet undecimi) ꝑpēdicularē erige, q
 
 ## Eucli. ex Camp. Propositio 5
 
+[Curated heading level=3 type=campanus_sequence: 5.]
+
 [Margin]
 5
 [/Margin]
 
-## {dropcap:P|lines=?|style=decorated|decoration="figures"}Yramidem quatuor basium triangularium atque æquilaterarū, assignato corpori octo basiū triāgulariū quoq; atq; æquilaterarū inscribere.
+{dropcap:P|lines=?|style=decorated|decoration="figures"}Yramidem quatuor basium triangularium atque æquilaterarū, assignato corpori octo basiū triāgulariū quoq; atq; æquilaterarū inscribere.
 
 CAMP. Assignato corpori octo basium inscribe scd'm præcepta præmissæ cubum, cuboq́; inscripto inscribe (ut docet prima huiꝰ) pyramidē qualis proponitur. Cum igitur huiꝰ pyramidis anguli sint etiā anguli cubi, quemadmodū ex demōstratione primæ manifestum est: cuncti autē anguli cubi sint ex præmissa in superficiebus assignati octoedri. erunt quoq; cuncti anguli pyramidis huius in superficiebus corporis octo basium cui eam iubemur inscribere, quare ex diffinitione manifestum est nos fecisse quod quæritur.
 
 ## Eucli. ex Camp. Propositio 6
 
+[Curated heading level=3 type=campanus_sequence: 6.]
+
 [Margin]
 6
 [/Margin]
 
-## {dropcap:I|lines=?|style=decorated|decoration="foliate decoration"}Ntra datum corpus uiginti basium & æqualium laterum, corpus duodecim basium pentagonalium æqualium laterum atq; æqualium angulorum figuraliter componere.
+{dropcap:I|lines=?|style=decorated|decoration="foliate decoration"}Ntra datum corpus uiginti basium & æqualium laterum, corpus duodecim basium pentagonalium æqualium laterum atq; æqualium angulorum figuraliter componere.
 
 CAMPA. Corpus 20 basium non docemus hic fabricare, quoniam ex 16 tredecimi qua conuenit arte hoc fieri, satis euidens est. Eo igitur ut ibi docetur composito ut sibi
 

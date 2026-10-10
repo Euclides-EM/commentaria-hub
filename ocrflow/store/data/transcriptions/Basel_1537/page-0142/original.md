@@ -2,6 +2,8 @@
 
 <!-- Page number: 131 -->
 
+[Curated heading level=3 type=campanus_sequence: 22.]
+
 [Margin]
 22
 [/Margin]
@@ -14,6 +16,8 @@ CAMPANVS Demonstratis antecedētibus ad æquam proportionalitatem, hic demonstra
 
 ## Eucli. ex Zamb. Theorema 22. Propositio 22
 
+[Curated heading level=3 type=zamberti_sequence: 22.]
+
 [Margin]
 22
 [/Margin]
@@ -25,6 +29,8 @@ THEON ex Zamb. Sint quælibet magnitudines α β γ, & aliæ eisdem æquales num
 [Diagram: twelve upright lines of varying heights with tick marks, labelled below η κ μ α β δ γ ε ζ θ λ ν]
 
 ## Eucli. ex Camp. Propositio 23
+
+[Curated heading level=3 type=campanus_sequence: 23.]
 
 [Margin]
 23

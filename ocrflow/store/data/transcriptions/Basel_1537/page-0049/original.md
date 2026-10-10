@@ -28,6 +28,8 @@ Omnis parallelogrammi * loci eorum quæ circa dimetientē illius sunt parallelog
 
 ## Eucli. ex Camp. Propositio 1.
 
+[Curated heading level=3 type=campanus_sequence: 1.]
+
 [Margin]
 1
 [/Margin]

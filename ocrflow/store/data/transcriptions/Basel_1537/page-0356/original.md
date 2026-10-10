@@ -20,15 +20,21 @@ DECIMI LIBRI FINIS.
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER VNDECIMVS,
 
-{dropcap:C|lines=?|style=decorated|decoration="figures"}## Eucli.ex Camp.no Diffinitiones.
+## Eucli.ex Campano Diffinitiones.
 
-Orpus,est quod longitudinem latitudinem,& altitudinem habet.Cuius termini,sunt superficies.
+[Curated heading level=3 type=campanus_sequence: 1.]
+
+{dropcap:C|lines=?|style=decorated|decoration="figures"}Orpus,est quod longitudinem latitudinem,& altitudinem habet.Cuius termini,sunt superficies.
+
+[Curated heading level=3 type=campanus_sequence: 2.]
 
 Linea erecta supra superficiem,est quæ cum singulis sibi conterminalibus lineis in ea superficie expassis angulos rectos facit.Linea autem hæc supra eam superficiem perpendicularis esse, & ad eandem orthogonaliter insistere dicitur.
 
 Intelligatur enim linea a b exurgere supra planū,ita quod pūctus a imaginetur in aëre,& b in plano.& à puncto b ducantur plures lineæ in eodē plano:ut b c,b d,& quotlibet aliæ.Si igitur ita fuerit quod linea a b cum linea b c,& cum linea b d,& cum qualibet alia linea protracta a puncto b in plano illo angulum rectum contineat,ipsa dicetur esse perpēdicularis ad illā superficiem in qua protractæ sunt hæ lineæ,uidelicet b c & b d,& aliæ cum quibus ipsa ponitur continere angulum rectum.
 
 [Diagram: a plane drawn as a parallelogram with several lines crossing at the point b, the letters c and d at its edges, and the line b a rising obliquely to the point a above]
+
+[Curated heading level=3 type=campanus_sequence: 3.]
 
 Superficies autem erecta super superficiem est,quoties puncto uno eodē lineæ quæ est communis terminus illarum superficierum duæ perpendiculares conterminales superstant,quæ rectum continentes angulum in eisdē superficiebus sitæ sunt.
 

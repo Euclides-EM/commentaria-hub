@@ -6,11 +6,13 @@ etiã est perpendicularis ad superficiẽ sectam. Ergo ab uno puncto protractæ 
 
 ## Eucli. ex Zamb. Theorema 11 Propositio 13
 
+[Curated heading level=3 type=zamberti_sequence: 13.]
+
 [Margin]
 13
 [/Margin]
 
-## Ab eodem signo, ad idem planum binæ rectæ lineæ ad angulos rectos non constituentur ad easdem partes.
+Ab eodem signo, ad idem planum binæ rectæ lineæ ad angulos rectos non constituentur ad easdem partes.
 
 THEON ex Zamb. Si enim possibile, ab eodem signo α, ad idem planum binæ rectæ lineæ α β, α γ, ad angulos rectos constituãtur ad easdẽ partes. \*Extendaturq̃ per β α, α γ, planũ.
 
@@ -24,25 +26,29 @@ Quod iam efficiet sectionẽ per α in subiecto plano lineam rectam, efficiat li
 
 ## Eucli. ex Camp. Propositio 14
 
+[Curated heading level=3 type=campanus_sequence: 14.]
+
 [Margin]
 14
 [/Margin]
 
-## SI linea una super duas superficies assignatas orthogonaliter insistat, illæ duæ superficies si etiam in infinitũ in quamcunq̃ partem protrahantur, nunquam concurrent.
+SI linea una super duas superficies assignatas orthogonaliter insistat, illæ duæ superficies si etiam in infinitũ in quamcunq̃ partem protrahantur, nunquam concurrent.
 
 CAMPANVS. Posita enim una linea duabus supficiebus orthogonaliter insistere, si impossibile est supficies illas cõcurrere, in earũ cõmuni sectione quæ per 3 huius, erit linea recta, pũctus quocũq̃ modo signetur, à quo duæ lineæ in illis duabus supficiebus ad lineã illã quæ ipsis perpẽdiculariter superstat protrahatur, eritq̃ cõstitutus triãgulus ex his duabus lineis & perpendiculari. Huius itaq̃ triãguli uterq̃ duorũ angulorũ q̃ super perpendicularẽ consistũt, est rectus, ut patet ex diffinitione lineæ sup superficiẽ perpẽdiculariter stantis, hoc aũt est impossibile per 32 primi. Ecõuerso quoq̃, uidelicet.
 
-## Si super duas superficies æquidistãtes linea recta ceciderit quæ ad alterã earum perpendicularis sit, ipsa quoq̃ perpendicularis erit ad reliquam.
+Si super duas superficies æquidistãtes linea recta ceciderit quæ ad alterã earum perpendicularis sit, ipsa quoq̃ perpendicularis erit ad reliquam.
 
 Positis enim duabus superficiebus æquidistãtibus, intelligatur linea recta ambas penetrãs quæ alteri earũ perpẽdiculariter superstat. Dico ꝙ eadem linea reliquæ superficiei perpẽdiculariter superstat. Sit enim superficies una secans positas supficies æquidistantes, super lineã eas penetrantẽ, eritq̃ cõmunis sectio huius superficiei & alterius sectarũ uidelicet illius cui linea penetrãs ponitur perpẽdiculariter insistere, continẽs angulũ rectũ cum ipsa linea penetrãte ex diffinitione lineæ perpẽdicularis ad superficiẽ. Si igitur alia cõmunis sectio ipsius supficiei secantis & reliquæ duarũ sectarũ cum eadẽ linea penetrãte non contineat angulũ rectũ, erit ex ultima petitione primi, ut illæ duæ cõmunes sectiones in alterutrã partem protractæ necessario concurrãt, quare & supficies quæ positæ sunt æquidistantes, necessario concurrẽt. Et q̃a hoc est impossibile, erit ille angulus rectus. Eodemq̃ modo erit de qualibet alia superficie easdẽ supficies æquidistantes secante super eandẽ lineã, igitur ex quarta huius & ex ista 14, constat uerũ esse quod diximus.
 
 ## Eucli. ex Zamb. Theorema 12 Propositio 14
 
+[Curated heading level=3 type=zamberti_sequence: 14.]
+
 [Margin]
 14
 [/Margin]
 
-## Ad quæ plana eadem recta linea recta est, parallela suut{printer-error-correction:sunt} ipsa plana.
+Ad quæ plana eadem recta linea recta est, parallela suut{printer-error-correction:sunt} ipsa plana.
 
 THEON ex Zamb. Recta enim quædam linea α β, ad utrunq̃ γ δ, ε ζ, planorũ, esto ad angulos rectos. Dico quod parallela sunt ipsa plana. Si autẽ non,\* extensa concurrunt.
 
@@ -56,10 +62,12 @@ Concurrant. Efficient iam cõmunem sectionem lineam rectam, efficiant η θ (per
 
 ## Eucli. ex Camp. Propositio 15
 
+[Curated heading level=3 type=campanus_sequence: 15.]
+
 [Margin]
 15
 [/Margin]
 
-## SI fuerint duæ lineæ se contingentes angulariter, æquidistantes alijs duabus se contingentibus, non autem in superficie una, ab
+SI fuerint duæ lineæ se contingentes angulariter, æquidistantes alijs duabus se contingentibus, non autem in superficie una, ab
 
 <!-- Catchword: eisdem -->

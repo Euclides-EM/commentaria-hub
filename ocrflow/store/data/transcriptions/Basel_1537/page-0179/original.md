@@ -8,7 +8,7 @@ pterea & θ ε ζ, θ ζ μ, & θ μ ν.sectores,sibi inuicem sunt æquales.Quot
 
 CORRELARIVM Et manifestum est quod sicut sector ad sectorem,sic angulus ad angulum.
 
-## SEXTI LIBRI FINIS.
+SEXTI LIBRI FINIS.
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEPTIMVS.
 

@@ -8,6 +8,8 @@ Sed quadratum a f est iterum æquale per eandem quadrato a d & quadrato d f, erg
 
 ## Eucli. ex Zamb. Theorema 9. Propositio 9.
 
+[Curated heading level=3 type=zamberti_sequence: 9.]
+
 [Margin]
 9
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. Recta enim linea quædam α β, secetur in æqualia in signo γ, 
 [Diagram: triangle on base α γ δ β with apex ε above γ, interior points η and ζ, lines α ε, ε β, δ ζ and ζ η drawn]
 
 ## Eucli. ex Camp. Propositio 10.
+
+[Curated heading level=3 type=campanus_sequence: 10.]
 
 [Margin]
 10

@@ -8,9 +8,15 @@ At uero si e non numerat k,sit m minimus numeratus ab eis scilicet e & k,quē m 
 
 [Diagram: dotted number lines beside the text, labelled a (3 dots), b (2 dots), c (4 dots), d (3 dots), e (5 dots), f (4 dots), g (12 dots), h (9 dots), K (6 dots), then n, p, m, q, r, s, t, x (long rows of dots)]
 
-## Eucli.ex Zamb. — Problema 2 — Propositio 4
+## Eucli.ex Zamb. Problema 2 Propositio 4
 
-## 4 Rationibus datis quibuscunque in minimis numeris,numeros inuenire continue proportionales minimos in datis rationibus.
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
+[Margin]
+4
+[/Margin]
+
+Rationibus datis quibuscunque in minimis numeris,numeros inuenire continue proportionales minimos in datis rationibus.
 
 THEON ex Zamb. *Sint datæ rationes in minimis numeris,ipsius α ad β,& ipsius γ ad δ,& ipsius ε ad ζ oportet iam numeros inuenire continue proportionales minimos,in ipsius α ad β,& γ ad δ,& ε ad ζ,ratione.Sumatur enim η minimus numerus quem metiuntur β γ,& quoties quidem β,ipsum η,metitur,toties α,ipsum θ metiatur,quoties autem γ ipsum η metitur,toties δ,ipsum κ,metiatur.At γ{printer-error-correction:ε},ipsum κ aut metitur,aut non metitur.Metiatur primum.Et quoties γ ipsum κ metitur:toties & ζ,ipsum λ metiatur,& quoniam α,ipsum θ,æque metitur & β,ipsum η,est igitur(per 17 septimi,)sicut α ad β,sic est θ,ad η.Id propterea &,sicut γ ad δ,sic η ad κ,& insuper sicut ε ad ζ,sic κ ad λ,Igitur ipsi η θ κ λ,continue sunt proportionales,& in ipsius α ad β,& ipsius γ,ad δ,& insuper ipsius ε ad ζ,ratione.Dico quod & minimi.Si autē ipsi η θ κ λ,non sunt continue proportionales minimi in ipsius α ad β,& γ ad δ,& ε ad ζ,rationibus:erunt aliqui numeri minores ipsis η θ κ λ,in ipsius α ad β,& γ ad δ,& ε ad ζ rationibus:sint autem ν ξ μ ο.Et quoniam est sicut α ad β,sic ν ad ξ,ipsi autem α β,minimi,minimi autem(per 21 septimi)metiuntur eandem habentes æque,maior maiorem & minor minorem,hoc est antecedens antocedentē,sequens sequentem,igitur β,ipsum ξ metitur.Id propterea & γ,ipsum ξ metitur.Igitur γ β.ipsum ξ,metiūtur,& minimus igitur quem ipsi β γ,metiuntur(per 37 septimi)ipsum ξ metietur minimus autem quem ipsi β γ.metiuntur.est η.Igitur η ipsum ξ metitur maior minorem quod est impossibile.Non erunt igi aliqui numeri minores(per 15 septimi.)ipsis η θ κ ν,continue proportionales in ipsius α,ad β,& γ ad δ:& ε ad ζ,ratione.Non metiatur iam ε,ipsum κ,& sumatur(per 36 septimi,)minimus numerus quem metiuntur ipsi ε κ,& sit μ,& quoties quidem κ,ipsum μ,metitur,toties uterque ipsorum η θ utrunq; ipsorum ν ξ.metiatur.Quoties autē ε,ipsum μ,metitur,toties & ζ,ipsum ο,metiatur.Et quoniā η ipsum ν,& θ,ipsum ξ,æque metitur:est igitur sicut θ ad η,sic est ν ad ξ.Sicut autem θ ad η,sic est α ad β,& sicut igitur(per 11 quinti)α ad β,sic ξ ad ν.Id propterea etiam sicut γ ad δ,sic est ξ ad μ.Rursus quoniam quoties ε,ipsum μ metitur,toties & ζ,ipsum ο,est igitur sicut ε ad ζ,sic est μ ad ο.Igitur ipsi ν ξ,μ ο,continue proportionales sunt in ipsius α ad β,& γ ad δ,& ε ad ζ,rationibus.Dico quod & minimi.Si autem ipsi ν ξ μ ο:nō sunt continue propor*
 

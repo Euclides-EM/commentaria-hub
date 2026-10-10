@@ -14,11 +14,13 @@ Quoniam prædictæ latitudines differunt & à prima & adinuicem, à prima quonia
 
 ## Eucli. ex Camp. Propositio 68
 
+[Curated heading level=3 type=campanus_sequence: 68.]
+
 [Margin]
 68
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I linea de linea abscindatur, fuerintq̃ ambæ potentialiter tantū rationales cōmunicātes, reliqua linea erit irrationalis, diceturq̃ residuū.
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I linea de linea abscindatur, fuerintq̃ ambæ potentialiter tantū rationales cōmunicātes, reliqua linea erit irrationalis, diceturq̃ residuū.
 
 CAMPANVS. Sit linea b c, abscisa ex a b, sintq̃ ambæ rationales tantum potentia cōmunicātes, quales docuit inuenire 17 & 18, & hæ sunt quæ cōponunt binomium. Dico q̃ a c reliqua est irrationalis & ipsa uocatur residuū. Constat enim ex 7 secundi, quod quadrata duarū linearū a b & b c pariter accepta, quæ cōponunt superficiē rationalem ex hypothesi & diffnitione rationalis superficiei & 9 huius, tantū sunt quantū duplum superficiei a b & b c cum quadrato a c. Cumq̃ ex 19 superficies a b in b c sit medialis, ideoq̃ & duplū eius mediale per 21, & ideo irrationale per 19, sequitur ut ambo quadrata duarū linearū a b & b c pariter accepta sint incōmensurabile duplo superficiei unius earū in alterā, quare per 9, & quadrato lineæ a c. Ex diffinitione igitur quadratū lineæ a c est irrationale, cum ipsum sit incōmensurabile rationali, uidelicet, duobus quadratis duarū linearū a b & b c pariter acceptis, itaq̃ etiā ex diffinitiōe linea a c est irrationalis, quod est propositū. Exēplariter in figura, esto supficies e g æqualis duob. quadratis duarū linearū a b & b c pariter acceptis, eritq̃ rationalis, itemq̃ sit supficies d f æqualis duplo superficiei unius in alterā, eritq̃ ex 19 medialis, & erit ex 7 secundi supficies f g æqualis quadrato lineæ a c. Cumq̃ supficies e g sit incōmensurabilis supficiei d f, eadē erit ex 9 incōmensurabilis f g, quare f g irrationalis, & eius tetragonicū latus a c.
 
@@ -28,13 +30,13 @@ Incipiunt hexades per aphæresin, hoc est per abscisionem.
 
 ## Eucli.ex Zamb. Theorema 55 Propositio 75{printer-error-correction:73}
 
+[Curated heading level=3 type=zamberti_sequence: 73.]
+
 [Margin]
-75
+75{printer-error-correction:73}
 [/Margin]
 
-{printer-error-correction:73}
-
-## Si à rationali rationalis auferatur, potentia tantum cōmensurabilis existens toti, reliqua irrationalis est, uocatur autem apotome.
+Si à rationali rationalis auferatur, potentia tantum cōmensurabilis existens toti, reliqua irrationalis est, uocatur autem apotome.
 
 THEON ex Zamb. A rationali nanq̃ α β, rationalis auferatur β γ, potentia tantum toti cōmensurabilis existens. Dico quod reliqua α γ irrationalis est, apotome appellata. Quoniam α β ipsi β γ longitudine est incōmensurabilis, estq̃ (per lemma 21 decimi) sicut α β ad β γ sic quod ex α β ad id quod sub α β, β γ, incōmensurabile igitur est (per 11 decimi) quod ex α β, ei quod sub α β, β γ. Sed ei quidem quod ex α β, incōmensurabilia sunt quæ ex α β, β γ, quadrata, ei autem quod sub α β, β γ, com
 

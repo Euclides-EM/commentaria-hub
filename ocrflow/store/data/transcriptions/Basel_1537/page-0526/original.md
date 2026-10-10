@@ -20,7 +20,7 @@ Esto cauum speculum a b c, sol autem sit e f, centrum autem speculi sit h, & à 
 
 [Diagram: pointed arch with b at the apex between a at the left and c at the right; within it p, K and b on a vertical line; lines converge downward to d; below, a separate circle with e at its left and f at its right]
 
-## Aliter.
+### Aliter.
 
 Esto rursus cauum speculum a b c, sol autem sit d e f & à signo quoddam e per h centrum sit e h b & a b d f, sint b a. Igitur demonstraui quidem quod quæ ex e actæ concurrunt in se ipsas per p r, angulos æquos existentes, diametri enim sunt. Quæ uero ab a & f in h a, per K l angulos. Quæ uero à b d in h c, quoniam n x anguli sunt æquales, quod autem omnes in se ipsas refringuntur, manifestum. ex centro namque existentes semicirculos faciunt. qui uero in semicirculis anguli sunt æquales per 27 tertij elemētorum, per æquos enim angulos sunt refractiones, in se ipsos igitur refringuntur. omnes igitur coincidunt quæ ab omnibus signis in eas quæ per centrum & in centro agitur, hijs igitur actis, calefacti igitur circa centrum ignis colligitur, quare ibi stupa apposita accendetur.
 

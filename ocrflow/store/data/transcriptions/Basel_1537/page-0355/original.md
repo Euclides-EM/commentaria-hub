@@ -6,11 +6,13 @@ retur ζ η,latitudinē efficiēs ζ θ.Quoniā igitur cōmēsurabilis est α ip
 
 ## Eucli.ex Zamb. Theorema 94 Propositio 118
 
+[Curated heading level=3 type=zamberti_sequence: 118.]
+
 [Margin]
 118
 [/Margin]
 
-## Propositum nobis sit ostendere,quod in quadratis figuris incommensurabilis est dimetiens lateri longitudine.
+Propositum nobis sit ostendere,quod in quadratis figuris incommensurabilis est dimetiens lateri longitudine.
 
 THEON ex Zamb, Esto quadratū α β γ δ,dimetiēs uero illius sit α,γ.Dico quod α γ,ipsi α β, lōgitudine est incōmensurabilis.Si enim possibile,sit cōmēsurabilis. Dico quod eueniet,quod idem nūerus erit par & impar.Manifestū quidē igitur(per 47 primi) quod id quod ex α γ duplū est eius quod ex α β.Et quoniā α γ ipsi α β cōmēsurabilis est.igitur α γ,ad α β rōnē habet quā nūerus ad numerū(per 5 decimi)habeat aūt.quā ε ζ ad η.Sintq̃ ε ζ,η,minimi eādē rōnē habentiū eis.Igitur ε ζ nō est unitas.Si enim ε ζ,est unitas,& rationem habet ad η,quam α γ ad α β,& maior est α γ ipsa α β,maior igitur est ε ζ unitas ipso η nūero,quod est impossibile.Igitur ε ζ,nō est unitas,nūerus igitur. Et quoniā est sicut α γ ad β,sic est ε ζ ad η,& sicut igitur(per 15 quinti)quod ex γ α,ad id quod ex α β,sic qui ex ε ζ,ad eū qui ex η. Duplū aūt est quod ex γ α eius quod ex α β.Duplus igitur est & qui ex ε ζ,eius qui ex η,par igitur est qui est ex ε ζ,quare & ipse ε ζ,par est.Si enim impar esset,& qui ex eo quadratus impar esset(per 29 noni,)quippe quoniā si quilibet nūeri impares cōpositi fuerint,multitudoq̃ fuerit impar,& totus impar est.Igitur ε ζ,par est.Secetur(per 10 primi) ε ζ,bifariā in θ.Et quoniā ipsi ε ζ,η,numeri,minimi sunt eādē eis habentiū rōnē,primi sunt adinuicē(per 24 septimi,)& ε ζ,par est.Impar igitur est η.Si enim esset par,ipsos ε ζ, metiretur binarius,(omnis etēnim par,habet partē dimidiā)primos adinuicē existentes, quod est impossibile.Igitur η nō est par.Et quoniā ipsius ε θ,duplus est ε ζ,quadruplus igitur est qui ex ε ζ.eius quod ex ε θ,Duplus aūt qui ex ε ζ,eius qui ex η. duplus igitur qui ex η,eius qui ex ε θ.Igitur qui ex η par est,& par igitur est η per ea quæ dicta sunt,sed & impar,quod est impossibile.Igitur α γ,ipsi α β longitudine nō est cōmensurabilis,incōmensurabilis igitur.
 

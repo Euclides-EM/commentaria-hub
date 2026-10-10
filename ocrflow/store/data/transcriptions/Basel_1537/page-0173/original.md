@@ -10,6 +10,8 @@ small marks in the right margin beside the middle of the paragraph and in the le
 
 ## Eucli. ex Zamb. Problema 8 Propositio 28
 
+[Curated heading level=3 type=zamberti_sequence: 28.]
+
 [Margin]
 28, with a small illegible italic note beneath it
 [/Margin]
@@ -24,10 +26,12 @@ THEON ex Zāb. Sit quidē data recta liuea α β. datū uero rectilineū cui opo
 
 [Diagram: a triangle labelled γ; a rhomboid parallelogram labelled δ; a rectangle with corners labelled λ, μ above and η, ρ below; below these, a large rectangle with top corners θ and ρ, bottom corners α and β, points η and ο on the top edge, ξ and τ on the horizontal midline, ε and σ on the bottom edge, a diagonal running to β, internal verticals, the letters φ, π, χ inside, and a circular arc drawn about the intersection of the lines]
 
-## Eucli. ex Camp. Propositio 30
+## Eucli. ex Camp. Propositio 30{printer-error-correction:28}
+
+[Curated heading level=3 type=campanus_sequence: 28.]
 
 [Margin]
-30
+30{printer-error-correction:28}
 [/Margin]
 
 SVper datā lineā datæ superficiei trilateræ æquū parallelogrāmū cōstituere, quod addat super cōpletionē datæ lineæ superficiem æ

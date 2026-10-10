@@ -6,6 +6,8 @@ ipsorum δ κ, κ λ, & λ ε. Et quoniam α η, η θ, & θ β, sibi inuicem su
 
 ## Eucli.ex Camp. Propositio 16
 
+[Curated heading level=3 type=campanus_sequence: 16.]
+
 [Margin]
 16
 [/Margin]
@@ -18,6 +20,8 @@ CAMPANVS. Sit proportio a ad b, sicut c ad d. Dico quod erit a ad c sicut b ad d
 
 ## Eucli ex Zamb. Theorema 16 Propositio 16
 
+[Curated heading level=3 type=zamberti_sequence: 16.]
+
 [Margin]
 16
 [/Margin]
@@ -29,6 +33,8 @@ THEON ex Zamberto. Sint quatuor magnitudines proportionales α β γ δ, sicut �
 [Diagram: eight vertical bars of differing heights with tick marks, labeled below ε α β ζ η γ δ θ]
 
 ## Eucli.ex Camp. Propositio 17
+
+[Curated heading level=3 type=campanus_sequence: 17.]
 
 [Margin]
 17

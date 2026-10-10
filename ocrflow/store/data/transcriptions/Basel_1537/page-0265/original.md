@@ -8,7 +8,9 @@ cimæ & decimætertiæ ex Zamberto propositionibus respondet. Nona apud Campanū
 
 Quoniam autem ostensum est in arithmeticis(ex 26 octaui)quod similes plani numeri adinuicem rationem habent quam quadratus numerus ad quadratum numerum,& quod si bini numeri adinuicem rationem habuerint quam quadratus numerus ad quadratum numerum similes sunt ipsi plani numeri(per 24 eiusdem)manifestum ex his quod dissimiles plani numeri hoc est latera proportionalia non habentes,adinuicem rationem non habent quam quadratus numerus ad quadratum numerum. Si enim habebunt,similes ipsi plani erant,quod quidem non supponitur. Dissimiles igitur plani numeri adinuicem rationem nō habent, quam quadratus numerus ad quadratum numerum.
 
-## Eucli ex Zamb. Problema 5 Propositio 10
+## Eucli ex Zamb. Problema 5{printer-error-correction:3} Propositio 10
+
+[Curated heading level=3 type=zamberti_sequence: 10.]
 
 [Margin]
 10
@@ -22,6 +24,8 @@ THEON ex Zamberto. Sit proposita recta linea α,oportet iam ipsi α,binas rectas
 
 ## Eucli.ex Zamb. Theorema 8 Propositio 11
 
+[Curated heading level=3 type=zamberti_sequence: 11.]
+
 [Margin]
 11
 [/Margin]
@@ -33,6 +37,8 @@ THEON ex Zamb. Sint quatuor magnitudines proportionales α,β,γ,δ,sicut α ad 
 [Diagram: two groups of four horizontal lines, each labelled α, β, γ, δ]
 
 ## Eucli.ex Zamb. Theorema 9 Propositio 12
+
+[Curated heading level=3 type=zamberti_sequence: 12.]
 
 [Margin]
 12

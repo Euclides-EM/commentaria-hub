@@ -2,11 +2,11 @@
 
 <!-- Page number: 545 -->
 
-## Scholium
+### Scholium
 
 Datorum aliqua positione: at alia magnitudine data sunt. Datum siquidem quadrupliciter dicetur, aut enim magnitudine, aut specie, aut ratione, aut positiōe dari dicitur: quid uero horū unūquodq̃ significet, ipse Euclides docet. Cōiter aūt dicitur datum, cui idem inuenire & exhibere est possibile. Datorum uero traditionem in plano uno positā accipimus, sicut in sex prioribus libris elementorum. Data sunt definita, hoc est quorū finis datur aut intellectu aut sensu, hijs enim æqua possumus exhibere, similiter autem siue intelligentia, siue sensu, potest autem rationale & irrationale datum esse, ut inquit Pappus in principio eorum quæ in Euclidem scripsit, rationale namq̃ Datum est: sed non omnino Datum rationale est, sed has tres diffinitiōes ultimas de magnitudinibus aiunt esse Apollonij.
 
-## Theorema 1 — Propositio 1
+## Theorema 1 Propositio 1
 
 DAtarum magnitudinum ratio adinuicem datur.
 
@@ -14,7 +14,7 @@ Sint datæ magnitudines a, b, dico quod ipsius a ad b, ratio data est. Quoniam e
 
 [Diagram: four vertical line segments labelled a, b, c, d]
 
-## Theorema 2 — Propositio 2
+## Theorema 2 Propositio 2
 
 SI magnitudo data ad aliam aliquam magnitudinem rationem datam habuerit, & eadem magnitudine datur.
 
@@ -22,11 +22,11 @@ Data, inquam, magnitudo a ad quampiam aliam magnitudinem b rationem habeat datam
 
 [Diagram: four horizontal line segments labelled a, b, c, d]
 
-## Scholium
+### Scholium
 
 Hoc precedētis conuersum est quodammodo, sed non uniuersaliter id esse conuersum dicendum est, esset enim uniuersaliter id precedentis cōuersum si magnitudines inuicē rationem haberent datam, dantur magnitudine, nonnulli autem aggrediuntur ut ostendant esse conuersum precedentis, inquiuntq̃ quod si magnitudines aliquæ rationem adinuicem datam habuerint dantur magnitudine.
 
-## Theorema 3 — Propositio 3
+## Theorema 3 Propositio 3
 
 SI datæ magnitudines quæcunque compositæ fuerint, & ex ipsis compositum datum erit.
 
@@ -34,7 +34,7 @@ Componantur enim quælibet datæ magnitudines a b, b c. Dico quod & quod ex a b,
 
 [Diagram: two horizontal line segments, the first with points a, b, c, the second with points d, e, f]
 
-## Theorema 4 — Propositio 4
+## Theorema 4 Propositio 4
 
 SI à data magnitudine, data magnitudo auferatur, reliqua data erit.
 

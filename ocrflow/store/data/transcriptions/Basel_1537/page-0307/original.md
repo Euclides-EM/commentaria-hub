@@ -12,6 +12,8 @@ THEON ex Zãb. Areola etenim α γ, cõprehēdatur sub ratiõali α β, ac ex bi
 
 ## Eucli. ex Camp. Propositio 53
 
+[Curated heading level=3 type=campanus_sequence: 53.]
+
 [Margin]
 53
 [/Margin]
@@ -25,6 +27,8 @@ CAMP. Hæc 53, adhuc te sustinet ociari a pingēdis figuris, cõtēta enim est p
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
 ## Eucli. ex Zamb. Theorema 41 Propositio 59
+
+[Curated heading level=3 type=zamberti_sequence: 59.]
 
 [Margin]
 59

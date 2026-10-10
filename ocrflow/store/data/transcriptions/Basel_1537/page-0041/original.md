@@ -8,6 +8,8 @@ b c & e f æquales, & inter lineas a g & b h æquidistantes, dico eos esse æqua
 
 ## Eucli. ex Zamb. Theorema 28. Propositio 38.
 
+[Curated heading level=3 type=zamberti_sequence: 38.]
+
 [Margin]
 38
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. Sint triangula α β γ & δ ε ζ, in æqualibus basibus constit
 [Diagram: triangles α β γ and δ ε ζ on equal bases β γ and ε ζ between parallels, with η and θ on the upper parallel and lines β η, ζ θ drawn]
 
 ## Eucli. ex Camp. Propositio 39.
+
+[Curated heading level=3 type=campanus_sequence: 39.]
 
 [Margin]
 39

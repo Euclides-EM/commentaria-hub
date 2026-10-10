@@ -10,6 +10,8 @@ CORRELARIVM Per prædicta patet quod si triangulus fuerit orthogonius, centrū c
 
 ## Eucli. ex Zamb. Problema 5 Propositio 5
 
+[Curated heading level=3 type=zamberti_sequence: 5.]
+
 [Margin]
 5
 [/Margin]

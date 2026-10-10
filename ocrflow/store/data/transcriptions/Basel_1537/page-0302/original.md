@@ -6,6 +6,8 @@ Conuertendo igitur (per 19 quinti & eius correlarium, est sicut α β numerus ad
 
 ## Eucli. ex Camp. Propositio 47
 
+[Curated heading level=3 type=campanus_sequence: 47.]
+
 [Margin]
 47
 [/Margin]
@@ -18,6 +20,8 @@ CAMPANVS. Binomium sextum sicut tertium scrutãdum est, & tamen erit hic numerus
 
 ## Eucl. ex Zamb. Problema 18 Propustio{printer-error-correction:Propositio} 53
 
+[Curated heading level=3 type=zamberti_sequence: 53.]
+
 [Margin]
 53
 [/Margin]
@@ -29,6 +33,8 @@ THEON ex Zamb. Explicentur bini numeri α γ, γ β, ut α β, ad utrunq̃ ipsor
 [Diagram: dotted number-lines α – γ – β (one row) and δ (one row); solid lines: ε 20; a longer line ζ 10 – η – 10; a shorter line θ 6]
 
 ## Eucli. ex Camp. Propositio 48
+
+[Curated heading level=3 type=campanus_sequence: 48.]
 
 [Margin]
 48

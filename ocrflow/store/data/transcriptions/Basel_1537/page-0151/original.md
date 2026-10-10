@@ -6,7 +6,11 @@ linea d e æquidistans lineæ b c,quod est secundum.
 
 ## Eucli.ex Zamb. Theorema 2 Propositio 2
 
-## 2
+[Curated heading level=3 type=zamberti_sequence: 2.]
+
+[Margin]
+2
+[/Margin]
 
 Si trianguli ad unum laterum ducta fuerit aliqua recta linea parallelus proportionaliter secat ipsius triāguli latera,& si trianguli latera proportionaliter secta fuerint,ipsas sectiones connectēs recta linea, parallelus ad reliquum erit ipsius trianguli latus.
 
@@ -16,7 +20,11 @@ THEON ex Zamberto. Trianguli enim α β γ.parallelus ad latus β γ,agatur δ �
 
 ## Eucli.ex Camp. Propositio 3
 
-## 3
+[Curated heading level=3 type=campanus_sequence: 3.]
+
+[Margin]
+3
+[/Margin]
 
 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I ab aliquo angulorum trianguli linea recta ad basin ducta,angulum illum per æqualia secet , duas partes ipsius basis reliquis eiusdem rrianguli lateribus proportionales esse.Si uero duæ partes basis quas linea ab angulo ducta distinguit,reliquis triāguli lateribus proportionales fuerint,lineam illā angulum per æqualia diuidere necessario comprobatur.
 
@@ -26,7 +34,11 @@ CAMPANVS Sit trigonus a b c,cuius angulum a diuidat linea a d per æqualia,dico 
 
 ## Eucli.ex Zamb. Theorema 3 Propositio 3
 
-## 3
+[Curated heading level=3 type=zamberti_sequence: 3.]
+
+[Margin]
+3
+[/Margin]
 
 Si trianguli angulus bifariam secetur , dispescens autem angulum recta linea secuerit & basin,basis segmenta eandem habebunt rationem reliquis ipsius trianguli lateribus , & si basis segmenta eandem habuerint rationem reliquis ipsius trianguli lateribus,à uertice ad sectionem con
 

@@ -6,6 +6,8 @@ f est æqualis angulo f k e: erit per decimamtertiam primi angulus l k h æquali
 
 ## Eucli. ex Zamb. Theorema 6. Propositio 7.
 
+[Curated heading level=3 type=zamberti_sequence: 7.]
+
 [Margin]
 7
 [/Margin]
@@ -17,6 +19,8 @@ THEON ex Zamb. Sit circulus α β γ δ, eiusq̃ dimetiens sit α δ, & in ipsa 
 [Diagram: circle α β γ δ with diameter α δ; interior point ζ near δ; centre ε; lines from ζ to β, γ, κ, λ and radii from ε, forming a star-like fan within the circle]
 
 ## Eucli. ex Camp. Propositio 8.
+
+[Curated heading level=3 type=campanus_sequence: 8.]
 
 [Margin]
 8

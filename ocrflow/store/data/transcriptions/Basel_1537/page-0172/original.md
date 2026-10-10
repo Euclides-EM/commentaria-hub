@@ -6,7 +6,9 @@
 
 [Diagram: rectangle with f and g on the top edge, d at the right side, e inside at the middle right, a (bottom left), c (bottom middle), b (bottom right); a vertical line below f, a horizontal mid line, and a diagonal running down to b]
 
-## Eucli. ex Zamb. — Theorema 20 — Propositio 27
+## Eucli. ex Zamb. Theorema 20 Propositio 27
+
+[Curated heading level=3 type=zamberti_sequence: 27.]
 
 [Margin]
 27
@@ -30,7 +32,9 @@ ALITER Sit enim rursus α β, dissecta bifariam in γ, & comparatū α λ, defic
 
 [Diagram: parallelogram with θ, ε, κ, ζ along the top, κ on the left side, interior point λ, and α, δ, γ, β along the bottom; two slanted cross lines, a horizontal mid line, and a diagonal running down to β]
 
-## Eucli. ex Camp. — Propositio 27
+## Eucli. ex Camp. Propositio 27
+
+[Curated heading level=3 type=campanus_sequence: 27.]
 
 [Margin]
 27

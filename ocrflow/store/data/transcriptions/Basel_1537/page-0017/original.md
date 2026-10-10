@@ -6,6 +6,8 @@ re a k, est maior b k. Sed & b k, est maior a b: triangulus ergo a b k, est triu
 
 ## Euclides ex Zamberto. Problema 1. Propositio 1.
 
+[Curated heading level=3 type=zamberti_sequence: 1.]
+
 [Margin]
 1
 [/Margin]
@@ -18,6 +20,8 @@ THEON ex Zamberto. Sit data recta terminata linea: α β. Oportet super α β: t
 
 ## Euclides ex Campano. Propositio 2.
 
+[Curated heading level=3 type=campanus_sequence: 2.]
+
 [Margin]
 2
 [/Margin]
@@ -29,6 +33,8 @@ CAMPANVS. Sit a, punctus datus: & b c linea recta data. uolo à puncto a, ducere
 [Diagram: two circles, the smaller e b with centre c inside the larger e f with centre d; small triangle a c d at the centre, b at the left on the smaller circle, line d c produced to e below and line d a produced to f at the right]
 
 ## Eucl. ex Zamb. Problema 2. Propositio 2.
+
+[Curated heading level=3 type=zamberti_sequence: 2.]
 
 [Margin]
 2

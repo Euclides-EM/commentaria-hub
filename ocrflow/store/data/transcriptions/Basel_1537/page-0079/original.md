@@ -4,7 +4,9 @@
 
 at angulus α γ δ, rectus est, æqualis igitur est angulus ζ γ δ, ei qui sub α γ δ, minor maiori, quod est impossibile. Igitur ζ, centrum circuli α β γ, non est. Similiter quoque ostendemus, quod nec alibi præter quàm in α γ. Si circulum igitur aliqua recta linea tetigerit, à contactu autem ipsi tangenti ad angulos rectos recta linea excitetur, in excitata erit centrum circuli quod demonstrasse oportuit.
 
-## Eucli.ex Camp.  Propositio 19.
+## Eucli.ex Camp. Propositio 19.
+
+[Curated heading level=3 type=campanus_sequence: 19.]
 
 [Margin]
 19
@@ -18,7 +20,9 @@ CAMPANVS Sit ut in circulo a b c, cuius cētrum d, fiat angulus a d c, supra cē
 
 Quod si altera duarum linearum a b & b c, fuerit linea una cum altera duarum quæ sunt a d & d c, ut in secunda figuratione apparet, per easdem per quas prius & simili modo liquet propositum. Quod si altera duarum linearum primarum secet alterā duarum postremarum, ut in tertia figuratione apparet ubi linea a b secat lineam d c, producatur linea b d e. Erit per easdem quas à principio assumpsimus & simili modo angulus e d a, duplus ad angulum d b a, & totus angulus e d c, duplus ad totū angulum d b c, quare angulus a d c, duplus est ad angulum a b c. Quod est propositum.
 
-## Eucli ex Zamb.  Theorema 18.  Propositio 20.
+## Eucli ex Zamb. Theorema 18. Propositio 20.
+
+[Curated heading level=3 type=zamberti_sequence: 20.]
 
 [Margin]
 20
@@ -30,7 +34,9 @@ THEON ex Zamb. Sit circulus α β γ, & eius centrum, sit angulus β ε γ, ad c
 
 [Diagram: circle with δ at the top, α at the left, ε near the centre, β and γ at the foot; the chords and the lines drawn through ε produced to ζ and η form a star-shaped figure]
 
-## Eucli.ex Camp.  Propositio 20.
+## Eucli.ex Camp. Propositio 20.
+
+[Curated heading level=3 type=campanus_sequence: 20.]
 
 [Margin]
 20

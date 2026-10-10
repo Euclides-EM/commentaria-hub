@@ -6,13 +6,13 @@ Esto cauum speculum a c d, dimetiens autem sit a d cētrum sit k, & quæ ad rect
 
 [Diagram: semicircle on the base line a…d with t and g on the arc and c at the apex; e and f at the ends of a horizontal chord; within, the letters i, p, b, b, r, n, q around the centre and K at the middle of the base; a vertical line from c to K]
 
-## Aliter.
+### Aliter.
 
 Sint rursus eadem qui supra, sed b h oculi sint in bifaria, & ad angulos rectos secta ea quæ ex centro a d: quoniam igitur æqualis quidem est b c ipsi b f & e h ipsi f h, parallelus igitur est b c ipsi f h. Igitur b c, uisus non concurrit ei quæ ex cētro in spectatū, hoc est ipsi f h ad partes, h c: quare oculus h non spectatur, spectabitur namque propter ipsorum b c f h, congressum.
 
 [Diagram: semicircle on the base line d…a with K, c and e on the arc; within, triangles carrying the letters b, g, b]
 
-## Aliter.
+### Aliter.
 
 Sunto rursus eadem, in superiori uero ipsius bifariæ sectionis ponantur oculi b c, æque distantes ab ea quæ ex centro hoc est f a. Dico iam b c, ipsos spectari, & ea quæ dextra sunt dextra sinistra, & quæ sunt sinistra dextra, & simulacrum maius ore & interuallū à speculo maius habens simulacrum: esto enim b a, uisus refractus & connectatur à centro f ad b c signa f b, f c, & extendatur b a Quoniam igitur bifaria sectio est g maior est angulus k angulo c: æqualis autē est k ipsi d: maior igitur est & d ipso c: coincidunt igitur in p. Id propterea iam b a, f c concurrunt in h, spectabitur igitur ipse quidem c, in h, ipsa uero b in p & dextra quidem sinistra, & sinistra dextra apparent. Sed maior esto h p ipsa b c, paralleli enim sunt: simulacrum igitur maius apparet, & magis à speculo distans, maior est enim m a ipsa a l.
 

@@ -4,7 +4,7 @@
 
 tur g b.data est,& quoniam est sicut a e ad c f,sic est a g ad c d,& reliquæ g e,ad reliquã f d ratio est data. Data autem est g b,igitur e b,ipsa f d,dato maior est quàm in ratione.
 
-## Scholium
+### Scholium
 
 Quoniam enim est sicut a e ad c f,sic est a g,ad c d,manifestum quod & reliquæ e g ad reliquam. f d,ratio data per 19 quinti elementorum & in alijs eiusmodi per scholiũ maxime decimi theorematis.
 
@@ -32,7 +32,7 @@ Habeat enim totum a b ad totum,c d,datam rationem, habeant autẽ & a e,e b, par
 
 [Diagram: two horizontal lines; the upper with points b, e, a; the lower with points d, g, f, c]
 
-## Scholium
+### Scholium
 
 Receptum siquidem est quod ipsius c f ad f d,ratio data est, ponitur autem & ipsius e b
 

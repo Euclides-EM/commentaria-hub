@@ -6,7 +6,7 @@ Sit planum speculū a c, oculus sit b, uisus uero refracti sunt. b c d. b a e. D
 
 [Diagram: plane speculum on a horizontal line with points a and e; angle labels m, k, b, f along the line; rays descend and cross below toward h and the points c, d]
 
-## In conuexis.
+### In conuexis.
 
 Sit rursus conuexum speculum a g f c, oculus uero sit b, aspectus autem refractus sint b f d b g e. Dico quod ipsi f d, g e, neque in e d cōcurrūt, neque sunt paralleli, & cōnectatur enim g f, recta linea, extendaturq́; ex utraque parte, quoniā æqualis est k h, ipsi l, eo quia in æquis angulis refringitur. maior fuerit quoque l m ipso k & k ipso n x est maior. sed n x ipso p o maior est. Rursus x, æqualis est ipsi o, maior igitur est l m ipso o p, multo igitur maior est l m ipso o: non concurrunt: igitur ipsæ f d, g e, rectæ lineæ, neque sunt paralleli.
 
@@ -18,7 +18,7 @@ Sit cauum speculum a c d, centrum autem sphæræ sit b ponaturque oculus in b & 
 
 [Diagram: concave arc between two descending lines; point labels e, b, f at left, g, p at right, and l, o, n, x, q below the arc]
 
-## Oculus in circunferentia.
+### Oculus in circunferentia.
 
 Sit rursus cauum speculum a b c, oculus autē esto. b ponaturq́; in eius circunferentia, & ab ipso b, incidāt uisus b c. b a, refracti in d e signis. Quoniam maius est a c b segmētum ipso b c, segmento, maior est angulus f, angulo h per 21 tertij elemētorū & g per a igitur ipso k, maior. Ipsi igitur f k, ipsis h k, sunt maiores. Reliquus igitur l reliquo m minor, multo magis igitur: quæ enim cōcurrunt igitur ipsæ c d a e, in f similiter ostendetur, & si extra circunferentiam ceciderit oculus, sicut in sequenti theoremate.
 

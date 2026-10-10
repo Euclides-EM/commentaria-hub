@@ -4,6 +4,8 @@
 
 ## Eucli. ex Camp. Propositio 41
 
+[Curated heading level=3 type=campanus_sequence: 41.]
+
 [Margin]
 41
 [/Margin]
@@ -17,6 +19,8 @@ CAMPANVS. Sit superficies a b d æquidistantiū laterum dupla trilateræ superfi
 [Diagram: parallelepiped with top face l s, points e and r, left point m, interior point n, lower front corners f and g; diagonals divide it into two prisms]
 
 ## Eucli. ex Zamb. Theorema 35 Propositio 40
+
+[Curated heading level=3 type=zamberti_sequence: 40.]
 
 [Margin]
 40

@@ -6,6 +6,8 @@ in longitudine ſiue in potẽtia tantũ. Ad concludẽdũ igitur de maiori port
 
 ## Eucli. ex Zamb. Theorema 6 Propoſitio 6
 
+[Curated heading level=3 type=zamberti_sequence: 6.]
+
 [Margin]
 6
 [/Margin]
@@ -18,6 +20,8 @@ THEON ex Zãb. Sit recta linea ratiõalis α β, ſeceturq̃ extrema & media rat
 
 ## Eucl. ex Camp. Propoſitio 7
 
+[Curated heading level=3 type=campanus_sequence: 7.]
+
 [Margin]
 7
 [/Margin]
@@ -29,6 +33,8 @@ CAMPA. Sit pẽtagonus a b c d e. æquilaterus, ſintq̃ quilibet tres eius angu
 [Diagram: pentagon a b c d e with diagonals b e, b d, e c crossing at f inside; labels a (top), b (left), e (right), c (lower left), d (lower right), f (centre)]
 
 ## Eucli. ex Zamb. Theorema 7 Propoſitio 7
+
+[Curated heading level=3 type=zamberti_sequence: 7.]
 
 [Margin]
 7

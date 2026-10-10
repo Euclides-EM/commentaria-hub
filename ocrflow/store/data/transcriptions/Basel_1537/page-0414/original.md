@@ -8,6 +8,8 @@ tionibus circuli, quarũ portionũ latera quadrati sunt chordæ, diuisis arcubus
 
 ## Eucli ex Zamb. Theorema 10 Propositio 10
 
+[Curated heading level=3 type=zamberti_sequence: 10.]
+
 [Margin]
 10
 [/Margin]

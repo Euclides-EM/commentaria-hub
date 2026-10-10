@@ -6,6 +6,8 @@ torum linearũ a c & c b sit incõmensurabile superficiei unius in alteram. Cumq
 
 ## Eucli. ex Zamb. Theorema 32 Propositio 44
 
+[Curated heading level=3 type=zamberti_sequence: 44.]
+
 [Margin]
 44
 [/Margin]
@@ -18,6 +20,8 @@ THEON ex Zamberto. Sit ex binis medijs secunda α β, diuisa in γ, ut α γ, γ
 
 ## Eucli. ex Camp. Propositio 39
 
+[Curated heading level=3 type=campanus_sequence: 39.]
+
 [Margin]
 39
 [/Margin]
@@ -29,6 +33,8 @@ CAMPANVS. Sit quoq̃ hæc linea maior a b diuisa ad punctũ c, in duas lineas po
 [Diagram: horizontal line with points a, d, c, b]
 
 ## Eucli. ex Zamb. Theorema 33 Propositio 45
+
+[Curated heading level=3 type=zamberti_sequence: 45.]
 
 Maior, ad unum duntaxat signum diuiditur in nomina.
 

@@ -10,13 +10,15 @@
 
 CORRELARIVM. Ex hoc,inquā,manifestū est,q̃ si quatuor rectæ lineæ proportiōales fueriut{printer-error-correction:fuerint},erit sicut prima ad quartā,sic quod ex prima solidū parallelepipedū ad id quod ex secūda simile similiterq̃ descriptū,quādoquidem prima ad quartā triplicem rationē habet,quàm ad secundam.
 
-Eucl.ex Zamb. Theorema 29 Propositio 34
+## Eucl.ex Zamb. Theorema 29 Propositio 34
+
+[Curated heading level=3 type=zamberti_sequence: 34.]
 
 [Margin]
 34
 [/Margin]
 
-## Aequaliū solidorū parallelepipedorū,reciprocæ sunt bases altitudinibus. Et solida parallelepipeda quorum bases altitudinibus sunt reciprocæ, sunt æqualia.
+Aequaliū solidorū parallelepipedorū,reciprocæ sunt bases altitudinibus. Et solida parallelepipeda quorum bases altitudinibus sunt reciprocæ, sunt æqualia.
 
 [Diagram: two equal parallelepipeds α β and γ δ standing side by side, their sides at right angles to the bases; visible point labels include ε, π, μ, λ, ν, α, θ, γ, δ]
 

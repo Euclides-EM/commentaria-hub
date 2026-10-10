@@ -10,11 +10,13 @@ CAMPANVS. Sit linea a b orthogonaliter erecta super incisionẽ duarum linearũ 
 
 ## Eucli. ex Zamb. Theorema 4 Propositio 4
 
+[Curated heading level=3 type=zamberti_sequence: 4.]
+
 [Margin]
 4
 [/Margin]
 
-## Si recta linea duabus rectis lineis se adinuicẽ dispescentibus in cõmuni sectione ad rectos angulos steterit, & ad earũdem planũ ad angulos rectos erit.
+Si recta linea duabus rectis lineis se adinuicẽ dispescentibus in cõmuni sectione ad rectos angulos steterit, & ad earũdem planũ ad angulos rectos erit.
 
 THEON ex Zamb. Recta enim linea quædam ε ζ, duabus rectis lineis α β, γ δ, seinuicem dispescentibus in ε signo, ex ε ad angulos rectos constituatur. Dico quod ε ζ etiam ad ipsarũ α β γ δ planum ad angulos est rectos. Assumantur nanq̃ ipsæ α ε, ε β, γ ε, ε δ, sibi inucem{printer-error-correction:inuicem} æquales. Extendaturq̃ quædam recta linea per ε utcunq̃, sitq̃ η ε θ, cõnectanturq̃ ipsæ ζ α, ζ η, ζ δ, ζ γ, ζ θ, ζ β. Et quoniam binæ α ε, ε δ, duabus γ ε, ε β, sunt æquales, & æquales comprehendunt angulos (per 13 primi) igitur (per 4 primi) basis α δ æqualis est basi γ β, & triangulũ α ε δ ipsi γ ε β triangulo æquũ est, quare & angulus qui sub δ α ε angulo qui sub ε β γ est æqualis. Est autẽ & qui sub α ε η angulus, ei qui sub β ε θ æqualis: bina igitur sunt triangula (per 26 primi) α η ε, β ζ θ{printer-error-correction:β ε θ}, binos angulos binis angulis æqualia habentia alterũ alteri, & unum latus uni lateri æquũ ad æquos angulos, α ε ipsi ε β, & reliqua igitur latera, reliquis lateribus æqualia habebunt: æqualis igitur est η ε ipsi ε θ, & α β{printer-error-correction:α η} ipsi β θ. Et quoniã æqualis est α ε ipsi ε β, cõmunis autem & ad angulos rectos ζ ε, basis igitur ζ α (per 7 primi) basi ζ β, est æqualis. Id propterea & ζ γ ipsi ζ δ est æqualis. Et quoniã æqualis est α δ ipsi γ β, est autem & ζ α ipsi ζ β æqualis, duæ igitur ζ α, α δ, duabus ζ β, γ β, æquales sunt altera alteri, & basis ζ δ, basi ζ β{printer-error-correction:ζ γ} est æqualis: & angulus igitur qui sub ζ α δ, angulo qui sub ζ β γ est æqualis. Et quoniã rursus ostensum quod α η ipsæ β θ est æqualis, sed ζ α ipsi ζ β est æqualis, binæ iam ζ α, α η, duabus ζ β, β θ, sunt æquales, & angulus qui sub ζ α η, ostensus est æqualis ei qui sub ζ γ θ{printer-error-correction:ζ β θ}, basis igitur ζ η (per 4 primi) basi ζ θ est æqualis. Et quoniã rursus æqua est ostensa η ε ipsi ε θ, cõmunis autem ε ζ, duæ igitur η ε, ε ζ, duabus θ ε, ε ζ sunt æquales & basis ζ θ, basi ζ η est æqualis: angulus igitur qui sub η ε ζ, angulo qui sub θ ε ζ est æqualis, uterq̃ igitur ipsorũ η ε ζ, θ ε ζ, angulorũ, rectus est. Ipsa igitur ζ ε, ad ipsam η θ contingẽter per ε ductam, recta est. Similiter iam demõstrabimus, quod ζ ε ad omnes eam tangẽtes rectas lineas & in subiecto existentes plano, rectos efficiet angulos. Recta enim linea ad planũ (per 2 diffinitionẽ 11) recta est. quando ad omnes eam tangentes rectas lineas & in eodem existentes plano, rectos efficit angulos. Igitur ipsa ζ ε in subiecto plano, est ad angulos rectos. Subiectũ autem planũ, est quod fit per ipsas α β, γ δ, rectas lineas. Ipsa igitur ζ ε ad angulos rectos est ei quod per α β, γ δ, est plano. Si recta igitur linea duabus rectis lineis, & quæ sequuntur reliqua. Quod erat ostendendum.
 
@@ -22,11 +24,13 @@ THEON ex Zamb. Recta enim linea quædam ε ζ, duabus rectis lineis α β, γ δ
 
 ## Eucli. ex Camp. Propositio 5
 
+[Curated heading level=3 type=campanus_sequence: 5.]
+
 [Margin]
 5
 [/Margin]
 
-## SI super tres lineas conterminales cõmuni earum termino erecta linea quædam orthogonaliter insistat, eædem tres lineæ in una superficie sitæ erunt.
+SI super tres lineas conterminales cõmuni earum termino erecta linea quædam orthogonaliter insistat, eædem tres lineæ in una superficie sitæ erunt.
 
 CAMPANVS. Sit linea a b orthogonaliter erecta super cõmunem terminũ trium linearũ b c, b d, b e, angulariter se contingentiũ in puncto b, quarũ nulla alij directe applicetur, quod idem est ac si seinuicem secent in
 

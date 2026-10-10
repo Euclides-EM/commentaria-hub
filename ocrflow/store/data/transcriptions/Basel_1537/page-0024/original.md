@@ -12,6 +12,8 @@ printed two-line note, partly legible: ipsius / ipsius
 
 ## Eucli. ex Camp. Propositio 12.
 
+[Curated heading level=3 type=campanus_sequence: 12.]
+
 [Margin]
 12
 [/Margin]
@@ -23,6 +25,8 @@ CAMPANVS. Sit a, punctus signatus extra lineā b c, à quo ad ipsam oportet dedu
 [Diagram: circle with centre a; the horizontal line cuts the circle at b and c below, with d between them; the lines a b, a c and the perpendicular a d drawn]
 
 ## Eucli. ex Zamb. Problema 7. Propositio 12.
+
+[Curated heading level=3 type=zamberti_sequence: 12.]
 
 [Margin]
 12
@@ -39,6 +43,8 @@ printed two-line note, partly legible: ipsius / æqua fecerit
 [Diagram: circle with ζ at the top and centre γ; the horizontal line α β below cuts the circle at η and ε, with θ between them; the lines γ η, γ ε and the perpendicular γ θ drawn, δ on the far side of the line]
 
 ## Eucli. ex Camp. Propositio 13.
+
+[Curated heading level=3 type=campanus_sequence: 13.]
 
 [Margin]
 13

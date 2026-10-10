@@ -10,7 +10,9 @@ Quod si neutra earū transit per centrum, siue altera diuidat alteram per æqual
 
 [Diagram: two circles side by side, each with g at top and h at bottom joined by the diameter g f e h through the centre f; chords a c and b d crossing at e]
 
-## Eucli. ex Zamb. Theorema.29. Propositio.35.
+## Eucli. ex Zamb. Theorema 29. Propositio 35.
+
+[Curated heading level=3 type=zamberti_sequence: 35.]
 
 [Margin]
 35

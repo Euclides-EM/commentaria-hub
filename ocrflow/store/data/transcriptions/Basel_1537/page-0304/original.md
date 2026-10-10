@@ -6,6 +6,8 @@ ex minore hoc est ei quod ex ε ζ, æquũ ad maiorē α ε cōparatũ fuerit de
 
 ## Eucli. ex Camp. Propositio 49
 
+[Curated heading level=3 type=campanus_sequence: 49.]
+
 [Margin]
 49
 [/Margin]
@@ -19,6 +21,8 @@ CAMPA. Sit eadē figura eædēq̃ hypotheses quæ in præmissa, eritq̃ ex diffi
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
 ## Eucli. ex Zamb. Theorema 37 Propositio 55
+
+[Curated heading level=3 type=zamberti_sequence: 55.]
 
 [Margin]
 55

@@ -10,6 +10,8 @@ telligamus tot seratilia detracta esse ex pyramide a, quot detraximus ex pyramid
 
 ## Eucli. ex Zamb. Theorema 5 Propositio 5
 
+[Curated heading level=3 type=zamberti_sequence: 5.]
+
 [Margin]
 5
 [/Margin]

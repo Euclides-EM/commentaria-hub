@@ -8,6 +8,8 @@ stantem cd, & produco f d & e b, quousq̃ concurrant in puncto g, & produco line
 
 ## Eucli. ex Zamb. Theorema 10. Propositio 10.
 
+[Curated heading level=3 type=zamberti_sequence: 10.]
+
 [Margin]
 10
 [/Margin]

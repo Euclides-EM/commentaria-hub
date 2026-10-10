@@ -8,6 +8,8 @@ igitur δ μ, μ η, rationales sunt potentia tantum commensurabiles, ex binis i
 
 ## Eucli. ex Camp. Propositio 56
 
+[Curated heading level=3 type=campanus_sequence: 56.]
+
 [Margin]
 56
 [/Margin]
@@ -22,6 +24,8 @@ CAMPANVS Si fuerit linea a b bimediale secũdum diuisa per terminũ suũ ad pũc
 
 ## Eucli. ex Zamb. Theorema 44 Propositio 62
 
+[Curated heading level=3 type=zamberti_sequence: 62.]
+
 [Margin]
 62
 [/Margin]
@@ -33,6 +37,8 @@ THEON ex Zãb. Esto (per 44 decimi) ex binis medijs secunda α β. diuisa in med
 [Diagram: line α–γ–β; below, rectangle with δ at the left, divided by vertical lines into several compartments, two of which project above the top line; labels κ, μ, ν, η along the middle row and ε, θ, λ, ξ, ζ along the bottom]
 
 ## Eucli. ex Cãp. Propositio 57
+
+[Curated heading level=3 type=campanus_sequence: 57.]
 
 [Margin]
 57

@@ -8,6 +8,8 @@ possit amplius breuiori in quadrato alicuius lineæ sibi cōmunicantis in longit
 
 ## Eucli ex Camp. Propositio 25
 
+[Curated heading level=3 type=campanus_sequence: 25.]
+
 [Margin]
 25
 [/Margin]
@@ -19,6 +21,8 @@ CAMPANVS. Positis duabus lineis a & b rationalibus potentia tantum cōmunicantib
 [Diagram: four horizontal lines in the right margin, labelled: a 36 — c — b R. 18 — d]
 
 ## Eucli.ex Zamb. Problema 8 Propositio 31
+
+[Curated heading level=3 type=zamberti_sequence: 31.]
 
 [Margin]
 31

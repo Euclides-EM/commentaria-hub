@@ -4,11 +4,15 @@
 
 ## Eucli.ex Zamb. Diffinitiones.
 
+[Curated heading level=3 type=zamberti_sequence: 1.]
+
 [Margin]
 Κατὰ μίαν sigillatim.
 [/Margin]
 
-## 1
+[Margin]
+1
+[/Margin]
 
 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}Imiles figuræ rectilineæ,sunt quæ & angulos æquales habent † ad unum,& quæ circa angulos æquales,sunt latera proportionalia. 2 Reciprocæ autem figuræ,sunt quādo in utraqꝫ figura antecedentes & consequētes termini rationales fuerint. 3 Extrema & media ratione,recta linea diuidi dicitur,quando fuerit sicut tota ad maius segmentum,sic maius ad minus. 4 Altitudo uninscuiusqꝫ figuræ,est à uertice ad basin perpēdicularis deducta. 5 Ratio ex duabus rationibus,aut ex pluribus constare dicitur,quandorationum: quantitates multiplicatæ, aliquā efficiunt quantitatem.
 
@@ -22,7 +26,11 @@ THEON ex Zamb. Sit enim α β ad γ δ rationem habens datam,ueluti duplam aut t
 
 ## Eucli.ex Camp. Propositio 1.
 
-## 1
+[Curated heading level=3 type=campanus_sequence: 1.]
+
+[Margin]
+1
+[/Margin]
 
 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I duarum rectilinearum superficierum æquidistantium laterū siue triāgulorum, fuerit altitudo una, tanta erit alterutra earū ad alteram, quanta sua basis ad basin alterius.
 

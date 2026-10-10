@@ -8,7 +8,9 @@ Apollonio conscriptum, qui recte complectebatur eius quod obijciebatur demonstra
 προσφωνῆσαι dedicare
 [/Margin]
 
-## Eucli. ex Zamb. — Theorema 1 — Propositio 1
+## Eucli. ex Zamb. Theorema 1 Propositio 1
+
+[Curated heading level=3 type=zamberti_sequence: 1.]
 
 [Margin]
 1 / Camp. 1
@@ -20,7 +22,9 @@ HYPSICLES ex Zamber. Sit circulus α β γ, & in ipso α β γ circulo latus pen
 
 [Diagram: circle α β γ with pentagon side β γ; centre δ; perpendicular δ ε on β γ produced to ζ on the circumference; κ on the line with ε κ equal to ε ζ; lines δ γ, ζ γ, κ γ drawn]
 
-## Eucli. ex Zamb. — Theorema 2 — Propositio 2
+## Eucli. ex Zamb. Theorema 2 Propositio 2
+
+[Curated heading level=3 type=zamberti_sequence: 2.]
 
 [Margin]
 2

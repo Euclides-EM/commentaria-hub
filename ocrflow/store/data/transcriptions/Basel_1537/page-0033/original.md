@@ -8,6 +8,8 @@ Rursus sint ad angulos æquos latera subtensa, æqualia, sintq̃ α β & δ ε. 
 
 ## Eucli. ex Camp. Propositio 27.
 
+[Curated heading level=3 type=campanus_sequence: 27.]
+
 [Margin]
 27
 [/Margin]
@@ -20,6 +22,8 @@ CAMPANVS. Sit ut linea a b cadat super duas lineas c d, e f, & secet lineam c d 
 
 ## Eucli. ex Zamb. Theorema 18. Propositio 27.
 
+[Curated heading level=3 type=zamberti_sequence: 27.]
+
 [Margin]
 27
 [/Margin]
@@ -31,6 +35,8 @@ THEON ex Zamberto. In binas enim rectas lineas α β, γ δ recta incidens linea
 [Diagram: transversal line crossing two lines α β and γ δ at points ε and ζ, the lines produced to a meeting point η at the right; labels α, β, γ, δ, ε, ζ, η]
 
 ## Eucli. ex Camp. Propositio 28.
+
+[Curated heading level=3 type=campanus_sequence: 28.]
 
 [Margin]
 28

@@ -1,6 +1,6 @@
 <!-- Page number: 382 -->
 
-# GEO. ELEMEN. EVCLIDIS
+<!-- Running title: GEO. ELEMEN. EVCLIDIS -->
 
 [Margin]
 Camp.31
@@ -16,11 +16,13 @@ CORRELARIVM. Ex hoc nempe manifestū,quod si fuerint bini anguli plani rectiline
 
 ## Eucli.ex Camp. Propositio 38
 
+[Curated heading level=3 type=campanus_sequence: 38.]
+
 [Margin]
 38
 [/Margin]
 
-## SOlidum tribus lineis proportionalibus contentum, æquum erit solido quod à mediæ lineæ æquis lateribus continetur, si anguli sui amborum sibi inuicem æquales fuerint.
+SOlidum tribus lineis proportionalibus contentum, æquum erit solido quod à mediæ lineæ æquis lateribus continetur, si anguli sui amborum sibi inuicem æquales fuerint.
 
 CAMPANVS De solidis parallelogrāmis intelligatur.de his enim qualiacunq̃ sint dum tamen æquiangula,uerum est,quod contentum à tribus lineis proportionalibus æquale est ei quod à media earū continetur,quēadmodū de superficiebus rectangulis probatū est in 16 sexti,& de non rectangulis elicitur euidenter ex secunda parte 13 eiusdem. Sint igitur tres lineæ a b,b c,& c d,cōtinue proportionales,fiatq̃ ex eis unus angulus solidus ad libitum,& perficiatur solidū æquidistātiū laterū cuius linea a b sit longitudo,b c uero altitudo, sed c d latitudo, & ipsum solidum dicatur e d.Sūpta quoq̃ alia linea qualibet æquali b c quæ etiam uocetur b c.super ipsius extremitatē quæ est b
 

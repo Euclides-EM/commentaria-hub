@@ -4,7 +4,9 @@
 
 festum est ex 2 decimiquarti, quæ sine auxilio alicuius earum quæ sequuntur firma demonstratione solidatur: ergo per 15 primi a fortiori n b, maior est quàm p b. Quare patet latera horum corporum præmissorum fere eo ordine quo corpora seinuicem sequuntur: seinuicem excedere. In cubo enim dūtaxat & octoedro habet hic instantias, nam latus octoedri excedit latus cubi, quamuis cubus antecedat octoedron. Cubum autem præmittunt idcirco octoedro, quia eadē diuisione diametri, assignatæ sphæræ, latus pyramidis 4 bases triangulas habentis, & latus cubi inuenitur. Est igitur a e latus pyramidis, maius lateribus cæterorum corporū, post ipsum autē, est f b latus octoedri maius sequentium corporū lateribus. Tertio ordine sequitur in magnitudine e b, latus cubi. Quarto uero loco est n b latus icosedri. Minimū autem est omniū p b, latus dodecedri.
 
-## Eucli. ex Zamb. — Problema 6. Propositio 18
+## Eucli. ex Zamb. Problema 6. Propositio 18
+
+[Curated heading level=3 type=zamberti_sequence: 18.]
 
 [Margin]
 18

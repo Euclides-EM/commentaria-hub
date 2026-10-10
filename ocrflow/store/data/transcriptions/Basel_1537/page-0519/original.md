@@ -14,7 +14,7 @@ Sit cauum speculum a c, oculus aut sit b, uisus uero refracti sint b a, b c. eor
 
 [Diagram: concave arc at top with points b at upper left, e and d at upper right; crossing rays through points k, m, n, a inside; m, b at centre; l and g at bottom]
 
-## In crassitudinibus.
+### In crassitudinibus.
 
 Rursus crassitudo quidem sit d e, & k h, cauū autem speculum sit a c, oculus uero sit b, uisus autem refracti sint b, & cōcurrētes in f b a, b c. igitur productis uisibus similiter k h, cōuersæ apparent, K quidem per c & h p a. Sicut est in planis & conuexis speculis ad d e, sicut ipsum quidem e. infra per a & d super c.
 

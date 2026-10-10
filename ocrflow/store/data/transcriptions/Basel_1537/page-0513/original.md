@@ -6,7 +6,9 @@ Sit in mundo horizon a b c, æstiuus quidem tropicus sit a b, hybernus uero sit 
 
 [Diagram: sphere with horizon and oblique zodiac band crossed by parallel circles; points b, t, d, g, h, l, m, n, r, x, o, f, e, c, d marked]
 
-### Theorema 18 — Apparens 18
+## Theorema 18 Apparens 18
+
+[Curated heading level=3 type=zamberti_sequence: 18.]
 
 {dropcap:E|lines=?|style=decorated|decoration="woodcut"}Arum quæ in utraq̃ parte æquinoctialis circūferentiarū æqualium, & ab æquinoctiali æqualiter distantiū, in quo tēpore altera permutat apparens hemisphæriū, altera non apparēs, & in quo tempore altera permutat non apparens hemisphæriū, altera apparens.
 
@@ -14,7 +16,9 @@ Sit in mūdo horizon a b c, æquinoctialis autem circulus sit b d c, zodiacus au
 
 [Diagram: sphere with horizon, equinoctial and oblique zodiac; points a, b, x, l, m, d, e, n, f, k, c, h marked]
 
-### Theorema 19 — Apparens 19
+## Theorema 19 Apparens 19
+
+[Curated heading level=3 type=zamberti_sequence: 19.]
 
 {dropcap:I|lines=?|style=decorated|decoration="woodcut"}N semicirculo assumpto sub æquinoctiali ad æstiuum tropicum æqualium circūferentiarū existentium, in pluri tempore altera earum permutat apparens hemisphæriū quàm reliqua non apparens, & contingens contingente.
 

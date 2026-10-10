@@ -14,6 +14,8 @@ Dico etiam, quod dimetiens ea bifariam secat. Quoniam enim α β æquum est ipsi
 
 ## Eucli. ex Camp. Propositio 35.
 
+[Curated heading level=3 type=campanus_sequence: 35.]
+
 [Margin]
 35
 [/Margin]
@@ -30,6 +32,8 @@ CAMPANVS. Sint duæ lineæ a b & c d æquidistantes, inter quas fiat a c f e sup
 
 ## Eucli. ex Zamb. Theorema 25. Propositio 35.
 
+[Curated heading level=3 type=zamberti_sequence: 35.]
+
 [Margin]
 35
 [/Margin]
@@ -41,6 +45,8 @@ THEON ex Zamb. Sint parallelogramma α β γ δ & ε β γ ζ, in eadem basi exi
 [Diagram: parallelograms α β γ δ and ε β γ ζ on the same base β γ between the same parallels, with connecting lines]
 
 ## Eucli. ex Camp. Propositio 36.
+
+[Curated heading level=3 type=campanus_sequence: 36.]
 
 [Margin]
 36

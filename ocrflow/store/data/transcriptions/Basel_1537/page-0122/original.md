@@ -6,9 +6,9 @@ nor a b, quorum primum demonstrat 8 huius, & secundum 10. Nam cum uult sumere qu
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
 
-{dropcap:P|lines=?|style=decorated|decoration="depicting Alexander and Diogenes, inscribed ALIXANDER DIOGEN"}## Euclides ex Zamberto. Diffinitiones.
+## Euclides ex Zamberto. Diffinitiones.
 
-Ars est magnitudo magnitudinis minor maioris quando minor metitur maiorē. 2 Multiplex autē, maior minori, quādo eā metitur minor. 3 Ratio, est duarū magnitudinū eiusdem generis* aliquatenus adinuicem quædā habitudo,
+{dropcap:P|lines=?|style=decorated|decoration="depicting Alexander and Diogenes, inscribed ALIXANDER DIOGEN"}Ars est magnitudo magnitudinis minor maioris quando minor metitur maiorē. 2 Multiplex autē, maior minori, quādo eā metitur minor. 3 Ratio, est duarū magnitudinū eiusdem generis* aliquatenus adinuicem quædā habitudo,
 
 [Margin]
 *κατὰ πηλικότητα, id est quo ad quantitatem quod ad quantitatem pertinet.

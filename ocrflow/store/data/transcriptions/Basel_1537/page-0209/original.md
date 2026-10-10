@@ -10,13 +10,13 @@ CAMPANI *annotatio*. Habito minimo,si cura est habere secundum, aut quotūcunque
 
 ## CAMPANI additiones.
 
-## Minimum numerum habentem partes propositarum denominationum sumptarum continue, reperire.
+Minimum numerum habentem partes propositarum denominationum sumptarum continue, reperire.
 
 Vt minimum numerum habentem secundam quæ secunda habeat tertiam, quæ etiam tertia habeat quartam,aut qualitercunque contingat eas ab eisdem uel diuersis denominari.Multiplicare oportet denominatorem primæ partis in denominatorem secundæ,& ex eis productum in denominatorem tertiæ, productum quoque in denominatorem, sicque de cæteris usque ad ultimam,a prima,uel usque ad primam ab ultima,& qui prouenerit:erit qui inquiritur,ut proposito 60 uel 84. Hoc autem ita esse demonstratiue sic habeto. Sint numeri partes propositas denominantes a,b,c,uolumus inuenire minimum numerum qui habeat partē denominatam ab a,ita quod illa pars habeat partem denominatā a b,sed & hæc aliā dictam a c.Ducatur itaque c in b,& proueniat e,& e in a, & proueniat f,eū dico esse quem quærimus. Cum enim f proueniat ex a in e,erit e pars f dicta ab a,sed & propter hoc erit c pars e dicta a b,& quia unitas est pars c dicta ab ipso c,patet f habere partes ut proponitur. Si ergo f non fuerit minimus:sit g,sitq̃ h pars eius dicta ab a & K pars h dicta a b,l quoque pars k dicta a c,eritq̃ per 18,f ad g,ut e ad h & e ad h,ut c ad K,itēq̃ c ad K,ut unitas ad l,quare permutatim f ad c,ut g ad h,& e ad c,ut h ad k,& c ad unitatē:ut k ad l,ergo per 15,erit in proportione æqualitatis f ad unitatē,ut g ad l,ergo permutatim erit f ad g:ut unitas ad l,quare cū g sit minor f,erit l minor unitate,sequitur igitur impossibile:partē numeri,minorē esse unitate:erit itaque f minimus,habēs partes ut proponitur. Quo inuento si cura fuerit habere secūdum aut quotūcūq̃ libet,per minimi multiplices(ut prius dictum est)sumendi erunt. hoc autem 39 proponitur in alio secundum hunc modum.
 
 [Diagram: dotted number lines beside the text: f (longest); e; then in one row c, b, a (short) with "unitas" and a single dot below; then g, h, K, l of decreasing length]
 
-## Propositis partibus quotiscunquelibet, minimum numerum eas continentium inuenire.
+Propositis partibus quotiscunquelibet, minimum numerum eas continentium inuenire.
 
 [Diagram: dotted number lines beside the text: a "tertia" d (3 dots); b "quinta" e (5 dots); c "sexta" f (6 dots); g (long); h (long)]
 

@@ -8,7 +8,11 @@
 
 ## Eucli.ex Zamb. Problema 1 Propositio 2
 
-## 2
+[Curated heading level=3 type=zamberti_sequence: 2.]
+
+[Margin]
+2
+[/Margin]
 
 Duobus numeris datis non primis adinuicem, maximam eorum commuuem dimensionem inuenire.
 
@@ -20,7 +24,11 @@ CORRELARIVM. Ex hoc manifestum est quod si numerus binos numeros metitur,& maxim
 
 ## Eucli. ex Camp. Propositio 3
 
-## 3
+[Curated heading level=3 type=campanus_sequence: 3.]
+
+[Margin]
+3
+[/Margin]
 
 {dropcap:P|lines=?|style=decorated|decoration="woodcut"}Ropositis tribus numeris adinuicem compositis, maximum numerorum eos communiter numerantium inuenire.
 

@@ -6,6 +6,8 @@ bilis igitur est (per 18 decimi α ζ, ipsi ζ η, longitudine. Sicut autem (per
 
 ## Eucli.ex Camp. Propositio 92
 
+[Curated heading level=3 type=campanus_sequence: 92.]
+
 [Margin]
 92
 [/Margin]

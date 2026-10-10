@@ -8,7 +8,7 @@ Deferantur æquiceleriter b c, d f, k l, & ab oculo m, procidāt radij m c, m f,
 
 [Diagram: three lines from b, c, d at the top converging downwards to k]
 
-## Theorema 53 &nbsp;&nbsp; Propositio 54
+## Theorema 53 Propositio 54
 
 SI aliquibus delatis, & pluribus celeritate inæquali, cōferatur uero ad eadē & oculus, oculo quidē æquiceleriter delata stare, quæ uero tardius in contrariū ferri, quæ autē celerius, præcedere existimabuntur.
 
@@ -16,7 +16,7 @@ Ferantur inæquali celeritate b c d, tardius uero feratur b, sed & æquicelerite
 
 [Diagram: three lines from b, c, d at the top converging downwards to f]
 
-## Theorema 54 &nbsp;&nbsp; Propositio 55
+## Theorema 54 Propositio 55
 
 SI aliq̃bus delatis differat quippiā aliquid non delatū, non delatū in contrariū ferri putabit.
 
@@ -24,7 +24,7 @@ Ferrantur nanq̃ b, d, maneat autem c, & ab oculo f, procidant radij f b, f c, f
 
 [Diagram: c and b at the top; lines converge downwards through d to f]
 
-## Theorema 55 &nbsp;&nbsp; Propositio 56
+## Theorema 55 Propositio 56
 
 OCulo prope spectatum accedente, spectatū augeri putabitur.
 
@@ -32,7 +32,7 @@ Spectetur, inquā, b c, oculo in f, posito sub f b, f c, radijs, permuteturq̃ o
 
 [Diagram: horizontal lines b, c and f at the top with k below; lines converge downwards to a]
 
-## Theorema 56 &nbsp;&nbsp; Propositio 57
+## Theorema 56 Propositio 57
 
 AEquali celeritate delatorū, quæ longius distant tardius ferri uidentur.
 

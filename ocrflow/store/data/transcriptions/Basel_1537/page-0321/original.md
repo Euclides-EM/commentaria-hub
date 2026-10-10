@@ -8,7 +8,13 @@ IDEM aliter. Sit linea d e rationalis, cui adiungatur superficies d f æqualis d
 
 ## Eucli. ex Zamb. Theorema 57 Propositio 75
 
-## 75 Si à media media auferatur potentia tantum toti cōmensurabilis subsistens, & cum tota medium comprehendens, reliqua irrationalis est, uocetur autem mediæ secunda apotome.
+[Curated heading level=3 type=zamberti_sequence: 75.]
+
+[Margin]
+75
+[/Margin]
+
+Si à media media auferatur potentia tantum toti cōmensurabilis subsistens, & cum tota medium comprehendens, reliqua irrationalis est, uocetur autem mediæ secunda apotome.
 
 THEON ex Zamb. A media nanq̀; α β, media auferatur γ β potentia tantum toti α β cōmensurabilis subsistens, unaq́; cum ipsa tota α β medium cōprehendens quod sub α β, β γ. Dico quod reliqua α γ irrationalis est, appellatur autem mediæ secunda apotome. Exponatur enim rationalis δ ι. Et ipsis quidem quæ ex α β, β γ, æquū ad δ ι comparetur (per 44 primi) δ ε, latitudinē efficiens δ η, ei uero quod bis sub α β, β γ, æquū ad ipsam δ ι cōparetur (per 44 primi) δ θ, latitudinē efficiēs δ ζ. Reliquū igitur ζ ε, æquū est ei quod ex α γ. Et quoniam ea quæ ex α β, β γ, media sunt, medium igitur est & δ ε, & ad ipsam rationalem δ ι comparatur, latitudinē efficiens δ η: rationalis igitur est (per 22 decimi) δ η, & ipsi δ ι longitudine incōmensurabilis. Rursus quoniam quod sub α β, β γ, medium est, & quod bis igitur sub α β, β γ, medium est, & est æquale ipsi δ θ, & δ θ igitur medium est, & ad ipsam δ ι rationalem comparatū est, latitudinē efficiens δ ζ, rationalis igitur est δ ζ, & ipsi δ ι longitudine incōmensurabilis. Et quoniam α β, β γ, potentia tantum sunt cōmensurabiles, incōmensurabilis est igitur α β ipsi β γ longitudine. Incōmensurabile igitur (per lemma 21 decimi & 11 decimi) & quod ex α β quadratū, ei quod sub α β, β γ. Sed ei quidem quod ex α β, cōmensurabilia sunt quæ ex α β, β γ, ei autem quod sub α β, β γ, cōmensurabile est quod bis sub α β, β γ. Incōmensurabilia igitur sunt quæ ex α β, β γ, ei quod bis sub α β, β γ. Sed eis quidem quæ ex α β, β γ, æquum est δ ε, ei autem quod bis sub α β, β γ, æquum est δ θ. Incōmensurabile igitur est δ ε, ipsi δ θ. Sicut autem δ ε ad δ θ, sic η δ ad δ ζ. Incommensurabilis igitur est η δ, ipsi δ ζ longitudine. Et utræq́; rationales. Ipsæ igitur η δ, δ ζ (per 11 decimi) rationales sunt potentia tantum commensurabiles. Ipsa igitur ζ η, apotome est. Rationalis autem δ ι. Quod autem sub rationali & irrationali comprehensum, irrationale est (per lemma 20 decimi,) & quæ illud potest irrationalis est. Ipsum autem ζ ε, potest ipsa α γ, ipsa igitur α γ irrationalis est, appellatur autem mediæ secunda apotome.
 
@@ -16,13 +22,21 @@ THEON ex Zamb. A media nanq̀; α β, media auferatur γ β potentia tantum toti
 
 ## Eucli. ex Camp. Propositio 71
 
-71 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I linea de linea detrahať, fuerintq́; ambæ potentialiter incōmensurabiles, continentesq́; mediale, quadrataq́; earū ambo pariter accepta rationale, reliq̃ linea erit irrationalis, uocabiturq́; minor.
+[Curated heading level=3 type=campanus_sequence: 71.]
+
+[Margin]
+71
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I linea de linea detrahať, fuerintq́; ambæ potentialiter incōmensurabiles, continentesq́; mediale, quadrataq́; earū ambo pariter accepta rationale, reliq̃ linea erit irrationalis, uocabiturq́; minor.
 
 CAMPANVS. Si sint a b & b c quales proponitur, quæ per 27 reperiuntur & cōponunt lineam maiorem, erit linea a c irrationalis, & ipsa est quæ dicitur linea minor. Quod qui præmissa firmiter tenuerit, positionesq́; diligenter attenderit, duplici modo ut antecedentes facile probabit.
 
 [Diagram: line a c b]
 
-## Eucli. ex Zamb. Theorema 68 Propositio 76
+## Eucli. ex Zamb. Theorema 68{printer-error-correction:58} Propositio 76
+
+[Curated heading level=3 type=zamberti_sequence: 76.]
 
 Si à recta linea recta linea auferatur potentia toti subsistens incōmensurabilis, cum tota uero efficiens quod ab eis simul rationale, quod uero sub ipsis medium, reliqua irrationalis est, appellaturq́; minor.
 

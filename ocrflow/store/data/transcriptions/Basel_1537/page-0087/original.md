@@ -12,6 +12,8 @@ Quod ut clarius pateat: ſit in circulo a b c cuius centrũ d, linea a b cui non
 
 ## Eucli.ex Zamb. Theorema 27. Propoſitio 31.
 
+[Curated heading level=3 type=zamberti_sequence: 31.]
+
 [Margin]
 31
 [/Margin]

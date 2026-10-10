@@ -8,7 +8,9 @@ Sit horizon circulus a b c d, tropicus uero æstiuus sit a c, hybernus aūt sit 
 
 [Diagram: circle a b c d with a at top, b at bottom; two arcs from c to b through e and f forming the zodiac semicircles; points e and f inside]
 
-## Theorema 11 — Apparens 11
+## Theorema 11 Apparens 11
+
+[Curated heading level=3 type=zamberti_sequence: 11.]
 
 [Margin]
 11
@@ -22,7 +24,9 @@ Sit horizon circulus a b c d, tropicus autem æstiuus sit a c, hybernus autem b 
 
 [Diagram: second sphere for the inverted case: horizon a b c d; zodiac arc from a through e and g to b; points e, g at right, l and f near b at bottom left]
 
-## Theorema 12 — Apparens 12
+## Theorema 12 Apparens 12
+
+[Curated heading level=3 type=zamberti_sequence: 12.]
 
 [Margin]
 12

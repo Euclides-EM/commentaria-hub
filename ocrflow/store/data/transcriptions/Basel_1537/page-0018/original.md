@@ -6,6 +6,8 @@ est æqualis (per præcedentem): reliqua igitur α λ, reliquæ β η (per 3 cō
 
 ## Eucli. ex Camp. Propositio 3
 
+[Curated heading level=3 type=campanus_sequence: 3.]
+
 [Margin]
 3
 [/Margin]
@@ -18,6 +20,8 @@ CAMPANVS. Sint duæ lineæ a b & c d, & sit a b minor: uolo ex c d abscindere un
 
 ## Eucli. Ex Zamb. Problema 3. Propositio 3.
 
+[Curated heading level=3 type=zamberti_sequence: 3.]
+
 [Margin]
 3
 [/Margin]
@@ -29,6 +33,8 @@ THEON ex Zamberto. Sint datæ duæ rectæ lineæ inæquales, α β, γ, quarum m
 [Diagram: circle with centre α, the line α β descending to β below and cut by the circle at ε; δ on the circumference at the left, and the separate shorter line γ at the right]
 
 ## Eucl. ex Camp. Propositio 4.
+
+[Curated heading level=3 type=campanus_sequence: 4.]
 
 [Margin]
 4

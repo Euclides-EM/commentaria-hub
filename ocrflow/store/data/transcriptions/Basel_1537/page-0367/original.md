@@ -14,21 +14,25 @@ Extendatur enim quædã in subiecto plano recta linea utcunq̃, sitq̃ θ γ{pri
 
 ## Eucli. ex Camp. Propositio 12
 
+[Curated heading level=3 type=campanus_sequence: 12.]
+
 [Margin]
 12
 [/Margin]
 
-## SVperficie proposita, punctoq̃ in ea assignato, ab eo puncto ad datam superficiem, lineam orthogonaliter erigere.
+SVperficie proposita, punctoq̃ in ea assignato, ab eo puncto ad datam superficiem, lineam orthogonaliter erigere.
 
 CAMPANVS. Cum à pũcto quolibet in superficie proposita assignato, perpendicularẽ educere libuerit, à quolibet puncto sursum in aere ad libitum posito, ad eandem superficiẽ perpendicularẽ (quemadmodũ præmissa docuit) demitte, quæ si assignatũ punctũ ceciderit, ipsa est quã quæris. Sin autẽ, ab ipsa assignato pũcto ad demissam perpendicularẽ, æquidistantẽ ducito, eamq̃ per 8 huius probabis esse quam quæris.
 
 ## Eucli. ex Zamb. Problema 2 Propositio 12
 
+[Curated heading level=3 type=zamberti_sequence: 12.]
+
 [Margin]
 12
 [/Margin]
 
-## Ad datũ planũ, à dato in eo signo, ad angulos rectos rectã lineã constituere.
+Ad datũ planũ, à dato in eo signo, ad angulos rectos rectã lineã constituere.
 
 THEON ex Zamb. Sit datũ planũ suppositũ, signũ autẽ in eo sit α. Oportet ab ipso α signo, ipsi supposito plano ad angulos rectos rectam lineã constituere. Intelligatur signũ quoddã in sublimi, sitq̃ β, & ab ipso β (per 11 undecimi) ad subiectum planũ perpendicularis excitetur β γ, exciteturq̃ (per 11 primi) ab ipso α signo, ad angulos rectos α δ. Quoniam igitur binæ rectæ lineæ parallelæ sunt α δ, γ β, altera autem ipsarũ β γ ad subiectũ planũ ad rectos est angulos, reliqua igitur α δ ad subiectũ ad angulos est rectos (per 8 undecimi:) ad datum igitur planũ, à signo in eo dato α, ad rectos angulos constituta est α δ. Quod facere oportebat.
 
@@ -36,11 +40,13 @@ THEON ex Zamb. Sit datũ planũ suppositũ, signũ autẽ in eo sit α. Oportet 
 
 ## Eucli.ex Camp. Propositio 13
 
+[Curated heading level=3 type=campanus_sequence: 13.]
+
 [Margin]
 13
 [/Margin]
 
-## DVas lineas super punctum unum ad superficiem unam orthogonaliter insistere, impossibile est.
+DVas lineas super punctum unum ad superficiem unam orthogonaliter insistere, impossibile est.
 
 CAMPANVS. Si enim possibile est ut duæ lineæ uni eidemq̃ superficiei super punctũ unum perpẽdiculariter insistant, superficies in qua ipsæ perpẽdiculares sitæ sunt intelligatur ꝓduci quousq̃ secet in superficiẽ, cui dictæ lineæ perpẽdiculariter insistunt, eritq̃ per 3 huius, cõmunis earũ sectio linea recta. Et quia ex diffinitione utraq̃ illarũ duarũ perpendiculariũ cum cõmuni sectione continet angulum rectũ, sequitur ut angulus rectus sit pars anguli recti. Quod est impossibile. Quemadmodũ autem demonstratũ est impossibile esse ab uno eodemq̃ puncto extra superficiem duas lineas super punctũ unũ ad eandem superficiẽ esse perpẽdiculares, ita etiã demõstrabimus impossibile esse duas lineas ab uno eodemq̃ puncto extra superficiẽ signato ad eandem superficiẽ protractas ad ipsam esse perpẽdiculares. Si enim hoc fuerit, ipsæ erunt æquidistãtes ex 6 huius. Quod est impossibile ex diffinitiõe linearũ æquidistantiũ. Constat igitur ex hac, ꝙ si aliqua superficies plana aliam planã superficiẽ orthogonaliter secet, & ab aliquo puncto secantis supficiei ad superficẽ sectam perpẽdicularis ducatur, in cõmuni earũ sectione eam cadere necesse est. Alioqui ab eodem pũcto secãtis superficiei ad cõmunem earũ sectionẽ perpẽdicularis ꝓtrahatur, ut docet 12 primi, & à puncto in quo incidit cum cõmuni sectione, alia perpẽdicularis ad eaudem{printer-error-correction:eandem} cõmunẽ sectionẽ in superficie secta educatur ut docet 11 primi. Eritq̃ ex diffinitione superficiei super aliam superficiem orthogonaliter erectæ angulus quem continent hæ duæ lineæ perpẽdiculares, rectus: quare per 4 huius prima harum duarũ perpendiculariũ
 

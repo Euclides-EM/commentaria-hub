@@ -2,7 +2,13 @@
 
 <!-- Page number: 348 -->
 
-13 Similes sunt figuræ corporeæ rotundæ, siue sint colũnæ siue earũ pyramides, quarũ axes diametris suarum basium sunt proportionales.
+[Curated heading level=3 type=campanus_sequence: 13.]
+
+[Margin]
+13
+[/Margin]
+
+Similes sunt figuræ corporeæ rotundæ, siue sint colũnæ siue earũ pyramides, quarũ axes diametris suarum basium sunt proportionales.
 
 Propositis enim duabus pyramidibus rotundis aut duabus columnis rotundis. si fuerit proportio axis unius earũ ad diametrum suæ basis sicut axis alterius ad diametrũ suæ basis, illæ duæ columnæ aut pyramides similes adinuicem esse dicuntur.
 

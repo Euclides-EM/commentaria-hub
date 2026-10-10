@@ -8,21 +8,25 @@ tem est quod bis sub α η, η β, comprehenditur. rationale igitur & ζ λ. Et 
 
 ## Eucli.ex Camp. Propositio 94
 
+[Curated heading level=3 type=campanus_sequence: 94.]
+
 [Margin]
 94
 [/Margin]
 
-## SI superficies æqualis quadrato residui medialis secundi applicata fuerit ad lineam rationalem, alterum latus eius residuum tertium esse conueniet.
+SI superficies æqualis quadrato residui medialis secundi applicata fuerit ad lineam rationalem, alterum latus eius residuum tertium esse conueniet.
 
 CAMPANVS. Hic etiam erit d e residuū mediale secundum, & sequetur ut sit c b residuum tertium. Quod ut facile concludas, primæ demonstrationi insistas, & quales lineas conueniat esse d f & f e. ex 70, collige.
 
 ## Eucli.ex Zamb. Theorema 75 Propositio 99
 
+[Curated heading level=3 type=zamberti_sequence: 99.]
+
 [Margin]
 99
 [/Margin]
 
-## Quod ex mediæ apotomæ secunda ad rationalem comparatum latitudinem tertiam apotomen conficit.
+Quod ex mediæ apotomæ secunda ad rationalem comparatum latitudinem tertiam apotomen conficit.
 
 THEON ex Zamb, Esto mediæ apotomæ secunda α β, rationalis autem esto γ δ, & ei quod ex α β, (per 44 primi) æquum ad ipsam γ δ apponatur γ ε, latitudinem efficiens γ ζ. Dico quod γ ζ est apotome tertia. Sit namq́; α β, congruens β η, ipsæ igitur α η, η β, (per 81 decimi.) mediæ sunt potentia tantum commensurabiles medium comprehendentes. Et ei quidem quod ex α η. (per 44 primi,) æquum ad ipsam γ δ, cōparetur γ θ, latitudinem efficiens γ κ, ei autem quod ex β η, (per cādem{printer-error-correction:eādem}) æquum ad ipsam κ θ comparetur κ λ, latitudinem efficiens κ μ. Totum igitur γ λ, æquum est eis quæ ex α η, η β. Et ea quæ ex α η, η β, media sunt, medium igitur est & γ λ. Et ad ipsam γ δ apponitur, latitudinem efficiens γ μ. Rationalis igitur est γ μ, & ipsi γ δ longitudine incōmensurabilis, Et quoniam totū γ λ, æquum est eis quæ ex α η, η β, quorum γ ε æquum est ei quod ex α β. reliquum igitur λ ζ (per 7 secundi,) æquum est ei quod bis sub α η, η β. Secetur igitur (per 10 primi) ζ μ, bifariam in ν, signo, & ipsi γ δ, (per 31 primi) parallelus excitetur ν ξ, utrūq́; igitur ipsorum ζ ξ, ν λ, æquū est ei quod sub α η, η β. Mediū autem est quod sub α η, η β, medium igitur est & λ ζ. Et ad ipsam ε ζ rationalem comparatur, latitudinem efficiens ζ μ, rationalis igitur est (per 22 decimi) ζ μ, & ipsi γ δ, longitudine incommensprabilis{printer-error-correction:incommensurabilis}. Et quoniam ipsæ α η, η β, potentia tantum sunt commensurabiles, incommensurabilis igitur est (per 9 decimi,) α η, ipsi η β longitudine. Incommēsurabile igitur est & quod ex α η, ei quod sub α η, η β. Sed ei quidem quod ex α η, cōmensurabilia sunt quæ ex α η, η β, ei autem quod sub α η, η β, commensurabile est quod bis sub α η, η β. Incommensurabilia igitur sunt quæ ex α η, η β, ei quod bis sub α η, η β. Sed eis quidē quæ ex α η, η β, æquum est γ λ ei autem quod bis sub α η, η β, æquū est ζ λ. Incōmēsurabile igitur est γ λ, ipsi ζ λ. Sicut autem γ λ ad ζ λ. sic est per 1 sexti, & 11 decimi) γ μ ad ζ μ, incommensurabilis igi
 

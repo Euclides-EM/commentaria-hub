@@ -4,6 +4,8 @@
 
 ## Eucl. ex Zamb. Theorema 15 Propositio 15
 
+[Curated heading level=3 type=zamberti_sequence: 15.]
+
 [Margin]
 15
 [/Margin]
@@ -15,6 +17,8 @@ THEON ex Zamb. Sint æquales coni & cylindri, quorū bases quidē α β γ δ, �
 [Diagram: two cylinders each with inscribed cones: the left with top circle ξ (centre λ) and base circle α β γ δ (centre κ); the right, taller, with top circle ρ ο (centre ν), a cutting circle τ υ σ (centre π) part way down, and base circle ε ζ η θ (centre μ)]
 
 ## Eucli. ex Camp Propositio 13
+
+[Curated heading level=3 type=campanus_sequence: 13.]
 
 [Margin]
 13

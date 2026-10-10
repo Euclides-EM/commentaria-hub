@@ -6,6 +6,8 @@ angulo β α γ. Sed ostensum est quod angulus β δ γ, eo qui sub γ ε β, es
 
 ## Eucli. ex Camp. Propositio 22.
 
+[Curated heading level=3 type=campanus_sequence: 22.]
+
 [Margin]
 22
 [/Margin]
@@ -18,6 +20,8 @@ CAMPANVS. Sint tres lineæ rectæ propositæ, a, b, c, & sint quælibet duæ sim
 
 ## Eucli. ex Zamb. Problema 8. Propositio 22.
 
+[Curated heading level=3 type=zamberti_sequence: 22.]
+
 [Margin]
 22
 [/Margin]
@@ -29,6 +33,8 @@ THEON ex Zamb. Sint datæ tres rectæ lineæ α, β, γ, quarū duæ reliqua sin
 [Diagram: three given line segments α, β, γ at right; below, two intersecting circles about centres ζ and η on the straight line δ ε, meeting at κ, with triangle κ ζ η drawn; labels δ, ζ, η, ε, θ, κ, λ]
 
 ## Eucli. ex Camp. Propositio 23.
+
+[Curated heading level=3 type=campanus_sequence: 23.]
 
 [Margin]
 23

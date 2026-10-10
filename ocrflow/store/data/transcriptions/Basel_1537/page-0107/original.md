@@ -4,7 +4,9 @@
 
 Quia ergo duo anguli g & b trianguli g f b sunt æquales duobus angulis h & b trianguli h f b, & latus f b commune, erit per 26 primi, f h æqualis f g. Eodem modo probabis f k, æqualem f l: sumptis triangulis l f d, k f d. Quoniã igitur quinq̃ lineæ f g, f h, f k, f l, & f m sunt æquales: erit f, centrum circuli per 9 tertij. Quem circulum describemus secundum quantitatem unius earum: & tanget omnia latera pentagoni, propter æqualitatem linearum: & nullum eorum secabit: per primam partem 15 tertij: sicq̃ cõstat propositum.
 
-## Eucli.ex Zamb.  Problema 13.  Propositio 13.
+## Eucli.ex Zamb. Problema 13. Propositio 13.
+
+[Curated heading level=3 type=zamberti_sequence: 13.]
 
 [Margin]
 13
@@ -16,7 +18,9 @@ THEON ex Zamberto. Sit datum pentagonum æquilaterum & æquiangulum α β γ δ 
 
 [Diagram: pentagon α β γ δ ε with all lines drawn from the interior point ζ to the vertices and to the points η θ κ λ μ on the sides, forming a radiating star pattern]
 
-## Eucli.ex Camp.  Propositio 14.
+## Eucli.ex Camp. Propositio 14.
+
+[Curated heading level=3 type=campanus_sequence: 14.]
 
 [Margin]
 14

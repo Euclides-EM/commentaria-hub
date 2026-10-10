@@ -10,6 +10,8 @@ Sit linea a b diuisa per duo inæqualia in pũcto c, itemq̃ per alia minus inæ
 
 ## Eucl. ex Camp. Propositio 36
 
+[Curated heading level=3 type=campanus_sequence: 36.]
+
 [Margin]
 36
 [/Margin]
@@ -22,13 +24,15 @@ CAMPANVS Sit a b binomiũ, eritq̃ ex 30 cõposita ex duabus lineis in potẽtia
 
 Quod autẽ prædictæ irratiõales solummodo diuiduntur in eas rectas lineas ex quibus componuntur efficientibus propositas species, ostendemus iam huiusmodi proponentes lemmatium.
 
-## THEON — Lemma.
+## THEON Lemma.
 
 Exponatur recta linea α β, seceturq̃ tota in inæqualia in utrunque signorũ γ δ, supponaturq̃ maior α γ quàm δ β. Dico quod quæ ex α γ, β γ, maiora sunt eis quæ ex α δ, δ β. Secetur enim (per 10 primi) α β, bifariã in ε, & quoniã maior est α γ, quã δ β, cõis auferatur δ γ. Reliqua igitur α δ, reliqua γ β, maior est, æqualis aũt est α ε, ipsi ε β, minor igitur est δ ε quã ε γ, igitur γ & δ signa, nõ æqualiter distãt à bifaria sectiõe, Et quoniã (per 5 secũdi) quod sub α γ, γ β, una cũ eo quod ex γ ε, æquum est ei quod ex ε β, at quod sub α δ, δ β, una cum eo quod ex δ ε, æquum est ei quod ex ε β, igitur quod sub α γ, γ β, una cum eo quod ex ε γ, æquũ est ei quod sub α δ, δ β, una cum eo quod ex δ ε, quorũ quod ex δ ε, minus est eo quod ex ε γ, & reliquũ igitur quod sub α γ, γ β, minus est eo quod sub α δ, δ β. Quare & quod bis sub α γ, γ β, minus est eo quod bis sub α δ, δ β, & reliquũ igitur cõpositũ ex ijs quæ ex α γ, γ β, maius est composito ex ijs quæ fiunt ex α δ, δ β, siquidem utraq̃ æqualia sunt ei quod ex α β, quod ostendere oportuit.
 
 [Diagram: horizontal line with points α, δ, ε, γ, β]
 
 ## Eucli. ex Zãb. Theorema 30 Propositio 42
+
+[Curated heading level=3 type=zamberti_sequence: 42.]
 
 Quæ ex binis nominibus, ad unũ duntaxat signũ diuiditur in nomina.
 

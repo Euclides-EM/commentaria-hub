@@ -14,6 +14,8 @@ COMPOSITIO *Quoniā α β, extrema & media ratione in γ secatur, est igitur sic
 
 ## Eucli. ex Camp. Propositio 6
 
+[Curated heading level=3 type=campanus_sequence: 6.]
+
 [Margin]
 6
 [/Margin]

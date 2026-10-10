@@ -8,7 +8,7 @@ angulus, in parallelos enim f g, c b recta cecidit linea c f, efficiens interior
 
 Quoniam enim ipsius f b parallelogrāmi ad a f c b, speciē ratio est data, ipsius autē a f c b, speciei ad c d, ratio est data, & ex æquali per 22 quinti ele. ipsius b f ad c d, ratio est data.
 
-## Theorema 62 — Propositio 62
+## Theorema 62 Propositio 62
 
 SI binæ rectæ lineæ adinuicem rationem habuerint datā. Descriptáque fuerit ab una quidem data specie species, altera uero area parallelogramma in angulo dato, habuerit aūt species ad parallelogrammū rationē datā. Datur parallelogrāmū specie.
 
@@ -16,7 +16,7 @@ Binæ enim rectæ lineæ a b, c d, adinuicē rationē habeāt datā, & describat
 
 [Diagram: at right, two figures: a tall rectangle with f at its top right and d, e at its base; beside it a house-shaped figure (square topped by a triangle) with c at the apex, b on the left side, a on the right side, and g, b at the base]
 
-## Theorema 63 — Propositio 63
+## Theorema 63 Propositio 63
 
 SI triangulum specie datum fuerit, quod ex uno quoq́; latere ipsius, quadratum ad triangulum rationem datam habebit.
 
@@ -24,7 +24,7 @@ Esto triangulū specie datū a b c. Describaturq́; ex unoquoq́; ipsius latere 
 
 [Diagram: a triangle with squares described on its sides: f at upper left, a at top, e at upper right, c at the left vertex, b at the right vertex, and d at the bottom corner of the square on the base]
 
-## Theorema 64 — Propositio 64
+## Theorema 64 Propositio 64
 
 SI triangulum obtusum habuerit angulum datū qua maius quod obtusum angulū subtendit latus, area lateribus obtusum angulū cōprehendentibus ad triangulum, rationem datam habebit.
 

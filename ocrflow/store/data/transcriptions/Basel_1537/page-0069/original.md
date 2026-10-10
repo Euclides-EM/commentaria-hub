@@ -10,6 +10,8 @@ Itẽq̃ quia in triãgulo a h n, duo latera a h & h n sunt maiora a n per 20. p
 
 ## Eucli. ex Zamb. Theorema 7. Propositio 8.
 
+[Curated heading level=3 type=zamberti_sequence: 8.]
+
 [Margin]
 8
 [/Margin]

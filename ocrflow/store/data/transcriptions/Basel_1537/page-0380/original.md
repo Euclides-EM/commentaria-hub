@@ -8,11 +8,13 @@ Extēdatur enī α θ ex utraq̃ parte, ponāturq́̃ ipsi qdē ε θ æquales q
 
 ## Eucli. ex Camp. Propositio 26.
 
+[Curated heading level=3 type=campanus_sequence: 26.]
+
 [Margin]
 26
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}Vper datum punctū datæ lineæ, angulo solido proposito æqualem angulū solidum constituere.
+{dropcap:S|lines=?|style=decorated|decoration="ornamental"}Vper datum punctū datæ lineæ, angulo solido proposito æqualem angulū solidum constituere.
 
 CAMPANVS. Solidus angulus propositus sit a, qui contineatur tribus lineis a b, a c, a d, tres superficiales angulos ipsum solidum perficientes continētibus, cui super punctū e lineæ e f propositæ quæ ad libitū proponentis iaceat aut in sublimi consurgat, iubemur æqualē angulum solidum constituere. Qualiscunq̃ sit situs lineæ e f, à puncto g ubicunq̃ uolueris signato, producito lineā g e, eruntq́̃ (ex 2 huius) duæ lineæ e f & g e, in superficie una. In hac itaq̃ superficie super punctū e datū in assignata linea secundum consiliū 23 primi constitue angulū æqualē angulo b a c, & ipsæ sit f e g, dehinc ex linea a d abscinde lineā a h sicut uolueris, & à pūcto h producito perpendicularē h k ad superficiē in qua sunt duæ lineæ a b & a c. Quod qualiter faciendum sit, 11 huius docuit. Nec sit igitur tibi cura de puncto k. Nihil enim refert, utrum perpēdicularis h k occurrat superficiei in qua sunt duæ lineæ a b & a c, inter ipsas lineas, aut extra aut in earū altera, ducito tamen lineā a k. Positoq́̃ puncto in linea a b ubicunq̃ uolueris, protrahe lineas k l & l h, & pone angulū f e m in superficie linearū e f & e g, æqualē angulo b a k, & lineā e m æqualē lineæ a k, & ex linea e f, sume lineā e p æqualē lineæ a l, & à puncto m educ lineā m n perpendicularē ad superficiē in qua sunt duæ lineæ e f & e g, & pone eam æqualē h k, & protrahe lineas e n, n p, & p m. Dico igitur tres lineas e f, e g, e n, continere angulū solidū in pūcto e, æqualē angulo a proposito. Cum sint enim ex hypothesi duo latera a k & k h, trianguli a k h æqualia duobus lateribus e m & m n trianguli e m n, & anguli qui sunt ad k & ad m recti ex diffinitione lineæ perpēdiculariter erectæ supra superficiē, erunt ex 4 primi duæ lineæ a h & e n, æquales, per eandem quoq̃ erunt duæ lineæ k l & m p, æquales: ideoq̃ etiā per eandē, h l & n p æquales, cum sint h k & k l æquales m n & m p, & anguli h k l & m n p, recti: per 8 igitur primi, erit angulus n e p, æqualis angulo h a l. Simili quoq̃ modo ꝓbabis, angulū g e n esse æqualē angulo c a d. Constat itaq̃ nos effecisse quod uolumus. Huic si studiosus institeris, quotcunq̃ lateribus solidus angulus propositus cōtineatur, quod à te petitur sine offendiculo persicere{printer-error-correction:perficere} poteris.
 
@@ -20,10 +22,12 @@ CAMPANVS. Solidus angulus propositus sit a, qui contineatur tribus lineis a b, a
 
 ## Eucli. ex Zamb. Problema 4. Propositio 26.
 
+[Curated heading level=3 type=zamberti_sequence: 26.]
+
 [Margin]
 26
 [/Margin]
 
-## Ad datam rectam lineam, ad signumq́̃ in ea, dato solido angulo æquū solidum angulum constituere.
+Ad datam rectam lineam, ad signumq́̃ in ea, dato solido angulo æquū solidum angulum constituere.
 
 <!-- Catchword: THEON -->

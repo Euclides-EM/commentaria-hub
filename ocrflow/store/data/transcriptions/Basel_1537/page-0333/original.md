@@ -8,13 +8,17 @@ est igitur (per 17 sexti) sicut α ζ ad ε η, sic ε η ad ζ η. Sed sicut qu
 
 [Diagram: square with diagonal from ρ (bottom left) to ο (top right); a vertical line and a horizontal line cross on the diagonal; a semicircular arc is drawn about the crossing; labels: λ, ν, ο along the top, σ at the left, ξ at the right, υ, φ and χ inside, ρ, τ, μ along the bottom]
 
-## Eucl. ex Zamb. Propositio 87
+## Eucl. ex Zamb.{printer-error-correction:Camp.} Propositio 87
+
+[Curated heading level=3 type=campanus_sequence: 87.]
 
 SI superficies aliqua linea rationali residuoq̃ secundo contineatur, linea in eandem potens erit residuum mediale primum.
 
 CAMPANVS In hac quoque argue sicut in præmissa ex diffinitione residui secundi & secunda parte 15 & nona & decimanona & 15 & 69.
 
 ## Eucl.ex Zãb. Theorema 68 Propositio 92
+
+[Curated heading level=3 type=zamberti_sequence: 92.]
 
 [Margin]
 92

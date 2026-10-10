@@ -8,7 +8,7 @@ prætermisit demonstrare. Primum itaque demonstrabimus conuersam, ut si sit a ad
 
 b ad a, sicut d ad c: si enim fuerit a minor b, tunc quoq́; erit c minor d, & tota pars aut partes a, b, quota uel quotæ c, d, quare per secundam partem 11, erit b ad a, sicut d ad c: si autẽ fuerit a maior b, erit quoq́; & c maior d, & per primam partem 11 b tota pars aut partes a, quota uel quotæ d, c, per diffinitionem igitur, b ad a, sicut d ad c.
 
-## Disiunctam proportionalitatem ostendere.
+Disiunctam proportionalitatem ostendere.
 
 Vt si sit a b ad b, sicut c d ad d, erit a ad b, sicut c ad d, erit enim permutatim a b ad c d, sicut b ad d, & per 11 sicut a ad c,
 
@@ -16,13 +16,13 @@ Vt si sit a b ad b, sicut c d ad d, erit a ad b, sicut c ad d, erit enim permuta
 
 quia ergo a ad c, sicut b ad d, erit permutatim a ad b, sicut c ad d.
 
-## Coniunctæ proportionalitati demonstrationem afferre.
+Coniunctæ proportionalitati demonstrationem afferre.
 
 Vt si sit a ad b, sicut c ad d, erit a b ad b, sicut c d ad d: erit enim permutatim a ad c, sicut b ad d: quare per 11 a b ad c d, sicut b ad d, permutatim igitur erit a b ad b, sicut c d ad d.
 
 [Diagram: a . . . . . . b . . . / c . . . . d . .]
 
-## Euersam proportionalitatem restat in numeris stabilire.
+Euersam proportionalitatem restat in numeris stabilire.
 
 Vt si sit a b ad b, sicut c d ad d, erit a b ad a, sicut c d ad c, erit enim
 
@@ -45,6 +45,8 @@ conuersam proportionalitatem b ad e, sicut d ad f: quare per
 Eodemq́; modo probabis econuerso, si sit b ad a, sicut d ad c, itemq́; b ad e, sicut d ad f, erit b ad a & e, sicut d ad c & f, erit enim per conuersam proportionalitatẽ a ad b, sicut c ad d: quare per æquam a ad e, sicut c ad f, & cõiunctim a & e ad e, sicut c & f ad f: igitur econuerso e ad a & e, sicut f ad c & f, per æquam itaq́; prrportionalitatẽ erit b ad a & e, sicut d ad c & f, quod erat propositum. Ex hoc quoq́; manifestum rst quod si fuerit proportio quotlibet numerorũ ad primum sicut totidem aliorum ad secundum, erit aggregari ex omnibus antecedẽtibus ad primum, ad primum, sicut aggregati ex omnibus antecedentibus ad secundum, ad secundum. Itemq́; econuerso si fuerit proportio primi ad quotlibet numeros sicut secundi ad totidem alios, erit primi ad aggregatum ex omnibus consequentibus ad ipsum, sicut secundi ad aggregatum ex omnibus consequentibus ad ipsum.
 
 ## Eucli.ex Zamb. Theorema 12 Propositio 14
+
+[Curated heading level=3 type=zamberti_sequence: 14.]
 
 [Margin]
 14

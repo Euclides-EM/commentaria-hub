@@ -6,6 +6,8 @@ munibus h k & m n: erit per communem scientiam, ut si g h addit super k p, quod 
 
 ## Eucli.ex Zamb. Theorema 17. Propositio 17.
 
+[Curated heading level=3 type=zamberti_sequence: 17.]
+
 [Margin]
 17
 [/Margin]
@@ -17,6 +19,8 @@ THEON ex Zamberto. Sint compositæ magnitudines proportionales α β, β ε, γ 
 [Diagram: four vertical bars with tick marks; the first, tall, marked ξ at top with points κ and θ, labeled η below; the second marked α at top with point ε, labeled β below; the third marked γ at top, labeled δ below; the fourth, tall, marked π at top with points ν and μ, labeled λ below]
 
 ## Eucli.ex Camp. Propositio 18.
+
+[Curated heading level=3 type=campanus_sequence: 18.]
 
 [Margin]
 18

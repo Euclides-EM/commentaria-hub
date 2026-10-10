@@ -2,7 +2,9 @@
 
 <!-- Page number: 289 -->
 
-## Eucli.ex Camp. — Propositio 44
+## Eucli.ex Camp. Propositio 44
+
+[Curated heading level=3 type=campanus_sequence: 44.]
 
 [Margin]
 44
@@ -14,7 +16,9 @@ CAMPANVS Binomium quoque tertium sic reperitur.Posita ut prius linea a rationali
 
 [Diagram: at the right, semicircle on diameter f g with apex b on the arc and chords drawn to f and g; below, a solid line a, a dotted line b, and a dotted line c divided into parts d and e]
 
-## Eucli.ex Zamb. — Theorema 15 — Propositio 50
+## Eucli.ex Zamb. Theorema{printer-error-correction:Problema} 15 Propositio 50
+
+[Curated heading level=3 type=zamberti_sequence: 50.]
 
 [Margin]
 50
@@ -26,7 +30,9 @@ THEON ex Zamb. Exponantur bini numeri α γ,γ β,ut ex ipsis compositus α β,a
 
 [Diagram: at the right of the proof — a dotted line of unit points with labels α, γ, β; a dotted line of unit points labelled δ; a solid line labelled ε; a solid line divided at η with endpoints ζ and θ, the parts numbered 20 and 15; and a shorter solid line labelled κ with the number 5]
 
-## Eucli. ex Camp. — Propositio 45
+## Eucli. ex Camp. Propositio 45
+
+[Curated heading level=3 type=campanus_sequence: 45.]
 
 [Margin]
 45

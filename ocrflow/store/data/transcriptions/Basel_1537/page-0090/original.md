@@ -10,6 +10,8 @@ Sed iam esto angulus qui ad γ, obtusus, & constituatur ei iterum ad α β recta
 
 ## Eucli. ex Camp. Propositio 33.
 
+[Curated heading level=3 type=campanus_sequence: 33.]
+
 [Margin]
 33
 [/Margin]
@@ -22,6 +24,8 @@ CAMPANVS. Sit a b datus circulus, & c datus angulus, uolo ergo à circulo a b, a
 
 ## Eucli. ex Zamb. Problema. 6. Propositio 34.
 
+[Curated heading level=3 type=zamberti_sequence: 34.]
+
 [Margin]
 34
 [/Margin]
@@ -33,6 +37,8 @@ THEON ex Zamberto. Esto datus circulus α β γ: datus uero angulus rectilineus 
 [Diagram: circle α β γ with inscribed triangle, α at top, γ at right, β at bottom; tangent line ε ζ touching at β; at the left the given angle δ]
 
 ## Eucli. ex Camp. Propositio. 34.
+
+[Curated heading level=3 type=campanus_sequence: 34.]
 
 [Margin]
 34

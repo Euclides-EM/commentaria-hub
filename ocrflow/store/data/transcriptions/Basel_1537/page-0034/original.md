@@ -8,6 +8,8 @@ lus g extrinsecus, æqualis angulo h intrinseco ex eadem parte sumpto, aut duo a
 
 ## Eucli. ex Zamb. Theorema 19. Propositio 28.
 
+[Curated heading level=3 type=zamberti_sequence: 28.]
+
 [Margin]
 28
 [/Margin]
@@ -20,6 +22,8 @@ THEON ex Zamb. In binas enim rectas lineas α β & γ δ, recta linea incidens �
 
 ## Eucli. ex Camp. Propositio 29.
 
+[Curated heading level=3 type=campanus_sequence: 29.]
+
 [Margin]
 29
 [/Margin]
@@ -31,6 +35,8 @@ CAMPANVS. Sint duæ lineæ a b & c d æquidistantes: super quas cadat linea e f,
 [Diagram: transversal line e f crossing line a b at g and line c d at h, the two lines produced to a meeting point k at the right; labels e, a, g, b, k, c, h, d, f]
 
 ## Eucli. ex Zamb. Theorema 20. Propositio 29.
+
+[Curated heading level=3 type=zamberti_sequence: 29.]
 
 [Margin]
 29

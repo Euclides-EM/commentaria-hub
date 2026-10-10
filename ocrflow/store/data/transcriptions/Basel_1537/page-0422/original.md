@@ -6,6 +6,8 @@ est sicut κ β ad β τ sic μ ζ ad ζ ο, ex æquali igitur (per 22 quinti) s
 
 ## Eucli. ex Zamb. Theorema 13 Propositio 13
 
+[Curated heading level=3 type=zamberti_sequence: 13.]
+
 [Margin]
 13
 [/Margin]

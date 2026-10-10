@@ -10,6 +10,8 @@ CAMPANVS. Sit a punctus signatus extra circulum b c d, cuius cētrum e, à quo d
 
 ## Eucli. ex Zamb. Theorema 31. Propositio 37. Conuersa præcedentis.
 
+[Curated heading level=3 type=zamberti_sequence: 37.]
+
 [Margin]
 37
 [/Margin]

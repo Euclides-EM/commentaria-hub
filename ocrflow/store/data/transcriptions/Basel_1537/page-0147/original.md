@@ -6,7 +6,11 @@ CAMPANVS. Sit maior proportio a b ad b,quàm c d ad d : dico quod euersim minor 
 
 [Diagram: divided line a b above a divided line c d]
 
-## 31
+[Curated heading level=3 type=campanus_sequence: 31.]
+
+[Margin]
+31
+[/Margin]
 
 Si fuerint tres quātitates in uno ordine,itemqꝫ tres in alio, fueritqꝫ primæ priorum ad secundam maior proportio quàm primæ posteriorum ad secundam , itemqꝫ secundæ priorum ad tertiam maior quàm secundæ posteriorum ad tertiam: erit quoqꝫ primæ priorum ad tertiam maior proportio,quàm primę posteriorum ad tertiam.
 
@@ -14,7 +18,11 @@ CAMPANVS. Sint tres quantitates,a,b,c, itemqꝫ aliæ tres,d c f: sitqꝫ maior 
 
 [Diagram: paired divided line segments a and d, b and e, c and f; below them two shorter segments, the lower labelled b]
 
-## 32
+[Curated heading level=3 type=campanus_sequence: 32.]
+
+[Margin]
+32
+[/Margin]
 
 Si fuerint tres quantitates in uno ordine, itemqꝫ tres in alio, fueritqꝫ proportio secundæ priorum ad tertiam maior quàm primæ posteriorum ad secundam , itemqꝫ primæ priorum ad secundam maior quàm secūdæ posteriorum ad tertiam, erit maior proportio primæ priorum ad tertiam, quàm primæ posteriorum ad tertiam.
 
@@ -22,7 +30,11 @@ CAMPANVS. Sint enim tres quantitates in uno ordine,a,b,c : itemqꝫ tres in alio
 
 [Diagram: paired divided line segments a and d, b and e, c and f; below them two shorter segments labelled g and b]
 
-## 33
+[Curated heading level=3 type=campanus_sequence: 33.]
+
+[Margin]
+33
+[/Margin]
 
 Si fuerit proportio totius ad totū , maior quàm abscisi ad abscisum, erit residui ad residuum,maior proportio quàm totius ad totum.
 

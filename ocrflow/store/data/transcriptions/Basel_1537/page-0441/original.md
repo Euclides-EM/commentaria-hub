@@ -6,6 +6,8 @@ duorum relatiuorum laterum illarum figurarum ſicut duarum diametrorum illorũ c
 
 ## Eucli. ex Camp. Propoſitio 10
 
+[Curated heading level=3 type=campanus_sequence: 10.]
+
 [Margin]
 10
 [/Margin]

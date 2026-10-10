@@ -4,6 +4,8 @@
 
 ## Eucli.ex Zamb. Theorema 17 Propositio 19
 
+[Curated heading level=3 type=zamberti_sequence: 19.]
+
 [Margin]
 19
 [/Margin]
@@ -15,6 +17,8 @@ THEON ex Zamberto. Sint quatuor numeri proportionales α,β, γ,δ, sicut α ad 
 [Diagram: dot-columns in the right margin labelled at the foot η, ζ, ε, δ, γ, β, α]
 
 ## Eucli. ex Zamb. Theorema 18 Propositio 20
+
+[Curated heading level=3 type=zamberti_sequence: 20.]
 
 [Margin]
 20
@@ -29,6 +33,8 @@ Sed qui ex α,γ, æquus esto ei qui ex β. Dico quod sicut α ad β, sic est β
 [Diagram: dot-columns in the right margin labelled at the foot δ, γ, β, α]
 
 ## Euclides ex Campano. Propositio 21
+
+[Curated heading level=3 type=campanus_sequence: 21.]
 
 [Margin]
 21

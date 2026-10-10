@@ -44,6 +44,8 @@ Si altera earum fuerit super basin trigonam, ex præmissa interposita constat qu
 
 ## Eucli. ex Zamb. Theorema 7 Propositio 7
 
+[Curated heading level=3 type=zamberti_sequence: 7.]
+
 [Margin]
 7
 [/Margin]

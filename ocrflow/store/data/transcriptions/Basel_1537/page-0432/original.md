@@ -8,6 +8,8 @@ THEON ex Zãb. Recta enim linea α β. extrema & media rõne ſecetur in γ ſig
 
 ## Eucli. ex Camp. Propoſitio 2
 
+[Curated heading level=3 type=campanus_sequence: 2.]
+
 SI cuilibet lineæ bipartitæ cuius quadratum quadrati alterius ſuarum portionum ſit quintuplum, in longum ſibi linea addatur donec eidem portioni reliqua portio cum addita linea fiat duplex, eadem duplex linea ſecundum proportionem habentem medium duoq̃ extrema diuiſa erit, maiorq̃ portio eius erit linea media.
 
 CAMPANVS Hæc eſt conuerſa præmiſſæ, duplici quoque modo ſicut illa demonſtrabitur uia retrograda, eadẽ prorſus manente diſpoſitione. Verbi gratia, ſit quadratum h k quintuplum ad quadratum d e, & linea a b dupla ad lineam b d. Dico quod linea a b diuiſa eſt in puncto c ſecundum proportionem habentem medium & duo extrema, & maior portio eius eſt linea media ut eſt c b. Conſtat autẽ ex 4 ſecundi, q̃ quadratum a q eſt quadruplũ ad quadratum d e. Itaque gnomo d g e, æqualis eſt quadrato a q. Cumq̃ duo ſupplementa l d & c e pariter accepta ſint quantum gnomo c m l, atque eadẽ ſupplemẽta pariter accepta ſint ex 1 ſexti quãtũ a l, ideoq̃ quantum c q, ſequitur q̃ c q ſit æqualis gnomoni c m l. Dempta igitur ab utroque, ſuperficie l n, erit quadratum c l æquale ſuperficiei a n. Cum igitur fiat ſuperficies a n ex a b in a c, ſit autẽ quadratum c l quadratum lineæ c b, erit ex ſecunda parte 16 ſexti proportio a b ad b c. ſicut b c ad c a. Ex diffinitione ergo lineæ ſecundum proportionem habentem medium & duo extrema diuiſæ, poſitam in principio ſexti libri conclude propoſitum.

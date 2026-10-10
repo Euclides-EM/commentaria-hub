@@ -8,6 +8,8 @@ secet utrunq̃ latus a b & c d, sitq̃ tota g k h. Erit totum parallelogrammū a
 
 ## Eucli. ex Zamb. Theorema 32. Propositio 43.
 
+[Curated heading level=3 type=zamberti_sequence: 43.]
+
 [Margin]
 43
 [/Margin]
@@ -19,6 +21,8 @@ THEON ex Zamb. Sit parallelogrammū α β γ δ, dimetiens uero illius sit α γ
 [Diagram: parallelogram α β γ δ with dimetiens α γ, parallelograms ε θ and ζ η about the diameter meeting in κ, and the two supplements]
 
 ## Eucli. ex Camp. Propositio 44.
+
+[Curated heading level=3 type=campanus_sequence: 44.]
 
 [Margin]
 44

@@ -12,6 +12,8 @@ Quoniam enim ex longitudine commensurabilibus rectis lineis quadrata rationem ha
 
 ## Eucli.ex Camp. Propositio 8
 
+[Curated heading level=3 type=campanus_sequence: 8.]
+
 [Margin]
 8
 [/Margin]
@@ -27,6 +29,8 @@ CAMPANI additio. Ex hac quoqʒ sequitur,quod si fuerint duæ quātitates sibi in
 [Diagram: three horizontal lines, labeled a, c (with Re. 18 printed beside the label) and b]
 
 ## Eucli.ex Camp. Propositio 9
+
+[Curated heading level=3 type=campanus_sequence: 9.]
 
 [Margin]
 9

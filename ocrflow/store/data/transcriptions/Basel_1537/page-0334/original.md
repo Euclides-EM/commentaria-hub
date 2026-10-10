@@ -6,6 +6,8 @@
 
 ## Eucli.ex Camp. Propositio 88
 
+[Curated heading level=3 type=campanus_sequence: 88.]
+
 [Margin]
 88
 [/Margin]
@@ -15,6 +17,8 @@ SI linea rationali residuoq̃ tertio superficies contineatur, erit linea super e
 CAMPANVS Priori demonstrationi insiste. & facile concludes propositū ex diffinitione residui tertij & secunda parte 15 & 9 & 19 & 70.
 
 ## Eucli.ex Zamb. Theorema 69 Propositio 93
+
+[Curated heading level=3 type=zamberti_sequence: 93.]
 
 [Margin]
 93

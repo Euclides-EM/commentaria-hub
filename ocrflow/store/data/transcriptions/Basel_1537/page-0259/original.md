@@ -6,7 +6,13 @@ conceptionem mensurabit a, igitur a & b communicantes: mensurabat enim & b, quod
 
 ## Eucli. ex Zamb Theorema 4 Propositio 6
 
-**6** Si binæ magnitudines adinuicem rationem habuerint quam numerus ad numerum, commensurabiles erunt ipsæ magnitudines.
+[Curated heading level=3 type=zamberti_sequence: 6.]
+
+[Margin]
+6
+[/Margin]
+
+Si binæ magnitudines adinuicem rationem habuerint quam numerus ad numerum, commensurabiles erunt ipsæ magnitudines.
 
 THEON ex Zamberto. Binæ enim magnitudines α,β, ad inuicem rationem habeant, quam numerus δ ad numerū ε. Dico quod commēsurabiles sunt ipsæ α,β, magnitudines. Quot enim sunt in ipso α{printer-error-correction:δ} unitates, in tot æquales diuidatur (per 9 sexti ipsa α, & uni earum æqualis esto γ. Quot autem unitates sunt in ε, ex totidē magnitudinibus ipsi γ æqualibus cōponatur ζ. Quoniā igitur quot sunt unitates in ipsa δ, tot magnitudines sunt & in ipsa α, æquales ipsi γ, qualis igitur pars est η, unitas ipsius δ, talis pars est & γ ipsius α, est igitur sicut γ ad α sic η, unitas ad ipsum δ. Metitur autem η, unitas ipsum δ numerū, metitur igitur & γ, ipsum, α. Et quoniā est sicut γ ad α, sic est η unitas ad numerum δ, & contra (per correlarium 4 quinti,) sicut est α ad γ, sic est δ numerus ad η unitatem. Rursus quoniam quot unitates sunt in ε, tot sunt & in ipsa ζ, æquales magnitudines ipsi γ, est igitur sicut γ ad ζ, sic η unitas ad ζ{printer-error-correction:ε} numerum. Patuit autem & sicut α ad γ, sic est δ ad unitatem η. Ex æquali igitur (per 22 quinti,) est sicut α ad ζ, sic est δ ad ε. Sed sicut δ ad ε, sic est α ad β. Igitur (per 11 quinti,) & sicut α ad β, sic est & α ad ζ. Igitur α, ad utrāq̃ ipsarū β,ζ, eandem habet rationem, æqualis (per 9 quinti,) igitur est β, ipsi ζ, metitur aūt γ, ipsam ζ, metitur igitur & β, sed & ipsam α. Igitur γ, ipsas α,β, metitur. Cōmēsurabilis igitur est α ipsi β. Si binæ igitur magnitudines adinuicem rationem habuerint quam numerus ad numerum, commensurabiles erunt ipsæ magnitudines , quod erat ostendendum.
 
@@ -24,9 +30,15 @@ ALITER idem ostendere. Binæ enim magnitudines α, β, adinuicem rationem habean
 
 [Diagram: at the left of the ALITER proof, three vertical ticked lines of decreasing height, two columns of square dots and a single dot, labelled below α, β, ε, γ, δ]
 
-## Eucli. ex Camp. Propositio 6
+## Eucli. ex Camp. Propositio 6{printer-error-correction:7}
 
-**6** {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duarū superficierum quadratarum quarum latera in longitudine cōmunicant, est proportio unius ad alteram, tanquā numeri quadrati ad numerum quadratum. Si uero fuerit proportio superficiei quadratæ ad superficiē quadratam tanquā proportio numeri quadrati ad numerū quadratū, erūt latera earū in lōgitudine cōmunicantia. Quod si fuerit proportio superficiei quadratæ ad superficiē quadratā, nō uelut numeri quadrati ad numerum quadratum, latera earum erunt in longitudine incommensurabilia.
+[Curated heading level=3 type=campanus_sequence: 7.]
+
+[Margin]
+6{printer-error-correction:7}
+[/Margin]
+
+{dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duarū superficierum quadratarum quarum latera in longitudine cōmunicant, est proportio unius ad alteram, tanquā numeri quadrati ad numerum quadratum. Si uero fuerit proportio superficiei quadratæ ad superficiē quadratam tanquā proportio numeri quadrati ad numerū quadratū, erūt latera earū in lōgitudine cōmunicantia. Quod si fuerit proportio superficiei quadratæ ad superficiē quadratā, nō uelut numeri quadrati ad numerum quadratum, latera earum erunt in longitudine incommensurabilia.
 
 [Diagram: at the right, a square divided into a 4×4 grid, labelled c above and a below; and a smaller square divided into a 2×2 grid, labelled d above and b below]
 

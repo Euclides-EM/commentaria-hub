@@ -6,21 +6,21 @@ d b. Dico quod a b ipsi c d, aut est æqualis, uel altera altera dato maior est.
 
 [Diagram: one horizontal line segment with points d, e, b, c, a]
 
-## Scholium.
+### Scholium.
 
 Si autem maior fuerit b d ipsa a c dato a c æquum aūt quod ex b & eadem efficiētes demōstrabimus, quod c d ipsa a b dato maior est, hoc enim patuit in prima, uel altera, altera dato maior est.
 
-## Theorema 13 — Propositio 13
+## Theorema 13 Propositio 13
 
 I fuerint tres magnitudines, & prima ad secundam rationē habuerit datam, secunda uero tertia dato maior fuerit quàm in ratione, & prima tertia dato maior erit quæ in ratione. {dropcap:S|lines=?|style=decorated|decoration="not printed; guide letter ſ in the blank space"}int tres magnitudines a b, c d, e & ipsa quidem a b, ad c b{printer-error-correction:c d}, rationem habeat datam, at c d ipsa e dato maior sit quàm in ratione. Dico quod & a b ipsa e dato maior est quàm in ratione. Nam quoniā c d ipsa e dato maior est quàm in ratione: auferatur data magnitudo c f. Reliquæ igitur d f, ad e ratio data est, & quoniam ipsius a b ad c d, ratio data est, eadē eidem fiat quæ ipsius a g ad c f, data. Data est c f, data igitur & a g & reliquæ g b ad reliquam f d, ratio data est, & ipsius d f ad e, ratio data est, & ipsius g b ad e igitur ratio data est. Est autem data a g. Igitur ipsa c{printer-error-correction:e} dato maior est quā in ratione.
 
 [Diagram: three vertical line segments: one with points c, f, d; one with points a, g, b; one labelled e]
 
-## Scholium.
+### Scholium.
 
 Si enim fuerit sicut totum ad totum, sic ablatum ad ablatum, & reliquū ad reliquū erit sicut totum ad totum, sicut patet per 19 quinti elemen. & in diffinitionibus, componitur enim dato quod maior sit quàm in ratione.
 
-## Theorema 14 — Propositio 14
+## Theorema 14 Propositio 14
 
 I binæ magnitudines adinuicem rationem datam habuerint, appositaq̃ fuerit earum utrique data magnitudo, totæ adinuicem aut rationem datam habebunt, aut altera altera maior est quàm in ratione. {dropcap:S|lines=?|style=decorated|decoration="not printed; guide letter ſ in the blank space"}
 
@@ -28,11 +28,11 @@ Binæ siquidem magnitudines a b, c d, adinuicē rationē habeant datam, & appona
 
 [Diagram: two horizontal line segments: the upper with points b, a, g, e; the lower with points d, c, f]
 
-## Scholium
+### Scholium
 
 Si uero efficiemus sicut a b ad c d, sic a e, ad id quod ex c, sicut in 7 inuenietur f d ipsa e b. dato maior quàm in ratione.
 
-## Theorema 15 — Propositio 15
+## Theorema 15 Propositio 15
 
 SI binæ magnitudines adinuicem rationem datam habuerint, & auferatur ab earū utraq̃ data magnitudo, reliquæ adinuicē aut
 

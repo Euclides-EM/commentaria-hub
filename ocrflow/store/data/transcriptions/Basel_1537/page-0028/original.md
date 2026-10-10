@@ -6,6 +6,8 @@
 
 ## Eucli. ex Camp. Propositio 20.
 
+[Curated heading level=3 type=campanus_sequence: 20.]
+
 [Margin]
 20
 [/Margin]
@@ -17,6 +19,8 @@ CAMPANVS. Sit triāgulus a b c, dico q̃ duo latera a b & a c, sunt lōgiora lat
 [Diagram: triangle a b c with side b a produced to d and line c d drawn; labels d at top, a, c, b]
 
 ## Eucli. ex Zamb. Theorema 13. Propositio 20.
+
+[Curated heading level=3 type=zamberti_sequence: 20.]
 
 [Margin]
 20
@@ -30,6 +34,8 @@ THEON ex Zamb. Sit triangulū α β γ. Aio ipsius α β γ trianguli bina later
 
 ## Eucli. ex Camp. Propositio 21.
 
+[Curated heading level=3 type=campanus_sequence: 21.]
+
 [Margin]
 21
 [/Margin]
@@ -41,6 +47,8 @@ CAMPANVS. Sit ut in triāgulo a b c, ab extremitatibus lateris b c concurrant du
 [Diagram: triangle a b c with interior point d, lines b d and c d drawn, b d produced to e on side a c; labels a at top, e, d within, b, c at base]
 
 ## Eucli. ex Zamb. Theorema 14. Propositio 21.
+
+[Curated heading level=3 type=zamberti_sequence: 21.]
 
 [Margin]
 21

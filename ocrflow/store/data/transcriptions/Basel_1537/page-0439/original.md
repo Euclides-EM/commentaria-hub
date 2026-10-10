@@ -8,6 +8,8 @@ primi) baſi β ε eſt æqualis, & triãgulũ α β γ, triãgulo α β ε, eſ
 
 ## Eucli. ex Camp. Propoſitio 8
 
+[Curated heading level=3 type=campanus_sequence: 8.]
+
 [Margin]
 8
 [/Margin]
@@ -23,6 +25,8 @@ CAMPANVS Sit triangulus a b c æquilaterus, cui circũſcribatur circulus a b c 
 [Diagram: circle with inscribed equilateral triangle; labels a (top vertex), d (centre), f (midpoint below d), b (left vertex), c (right vertex), e (bottom of the circle); radii and chords drawn]
 
 ## Eucli. ex Camp. Propoſitio 9
+
+[Curated heading level=3 type=campanus_sequence: 9.]
 
 [Margin]
 9

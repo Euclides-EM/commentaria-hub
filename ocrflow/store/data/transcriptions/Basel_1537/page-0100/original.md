@@ -8,6 +8,8 @@ CORRELARIVM. *Et manifestum est quod quando introrsum trianguli, cadit centrum c
 
 ## Eucli. ex Camp. Propositio 6
 
+[Curated heading level=3 type=campanus_sequence: 6.]
+
 [Margin]
 6
 [/Margin]
@@ -19,6 +21,8 @@ CAMPANVS Sit datus circulus a b c d, cuius cētrū e: uolo intra ipsum describer
 [Diagram: circle with inscribed square a b c d, the diagonals a c and b d crossing at the centre e]
 
 ## Eucli. ex Zamb. Problema 6 Propositio 6
+
+[Curated heading level=3 type=zamberti_sequence: 6.]
 
 [Margin]
 6
@@ -32,6 +36,8 @@ THEON ex Zamberto. *Sit datus circulus α β γ δ. oportet iam in circulo α β
 
 ## Eucli. ex Camp. Propositio 7
 
+[Curated heading level=3 type=campanus_sequence: 7.]
+
 [Margin]
 7
 [/Margin]
@@ -43,6 +49,8 @@ CAMPANVS Sit propositus circulus a b c d: cuius cētrū e, uolo circa ipsum, des
 [Diagram: circle a b c d with two perpendicular diameters through the centre e, circumscribed by the square f g h k touching at the extremities of the diameters]
 
 ## Eucli. ex Zamb. Problema 7. Propositio 7
+
+[Curated heading level=3 type=zamberti_sequence: 7.]
 
 [Margin]
 7

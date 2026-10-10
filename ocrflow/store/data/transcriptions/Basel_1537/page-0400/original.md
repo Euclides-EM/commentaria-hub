@@ -6,6 +6,8 @@
 
 ## Eucli. ex Camp. Propositio 2
 
+[Curated heading level=3 type=campanus_sequence: 2.]
+
 [Margin]
 2
 [/Margin]

@@ -8,6 +8,8 @@ THEON ex Zamb. In parallelos enim rectas lineas α β & γ δ, recta incidat lin
 
 ## Eucli. ex Camp. Propositio 30.
 
+[Curated heading level=3 type=campanus_sequence: 30.]
+
 [Margin]
 30
 [/Margin]
@@ -19,6 +21,8 @@ CAMPANVS. Sint duæ lineæ a b & c d, quarum utraq̃ æquidistet lineæ e f. Dic
 [Diagram: transversal line g h crossing three lines: a b at k, e f at l, c d at m; labels g at top, a, k, b, e, l, f, c, m, d, h at bottom]
 
 ## Eucli. ex Zamb. Theorema 21. Propositio 30.
+
+[Curated heading level=3 type=zamberti_sequence: 30.]
 
 [Margin]
 30
@@ -32,6 +36,8 @@ THEON ex Zamb. Sint α β & γ δ, ipsi ε ζ paralleli, dico quod & α β, ipsi
 
 ## Eucli. ex Camp. Propositio 31.
 
+[Curated heading level=3 type=campanus_sequence: 31.]
+
 [Margin]
 31
 [/Margin]
@@ -43,6 +49,8 @@ CAMPANVS. Punctus extra lineā datus intelligitur, cum linea utrinq̃ protracta,
 [Diagram: point a above with line a e drawn to the right, slant line a d descending to the lower line b c at d; labels a, e, d, f on the lines]
 
 ## Eucli. ex Zamb. Problema 10. Propositio 31.
+
+[Curated heading level=3 type=zamberti_sequence: 31.]
 
 [Margin]
 31

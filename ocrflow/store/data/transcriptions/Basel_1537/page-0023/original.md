@@ -6,6 +6,8 @@ tem angulus a b d est æqualis angulo c b d, quod oportebat efficere.
 
 ## Eucli. ex Zamb. Problema 4. Propositio 9.
 
+[Curated heading level=3 type=zamberti_sequence: 9.]
+
 [Margin]
 9
 [/Margin]
@@ -17,6 +19,8 @@ THEON. ex Zamberto. Sit datus rectilineus angulus β α γ. Oportet ipsum bifari
 [Diagram: angle at α opening downwards to β and γ; points δ and ε on the two legs, the line δ ε drawn, the equilateral triangle δ ζ ε below it with ζ at the bottom, and the bisecting line α ζ]
 
 ## Eucli. ex Camp. Propositio 10.
+
+[Curated heading level=3 type=campanus_sequence: 10.]
 
 [Margin]
 10
@@ -30,6 +34,8 @@ CAMPANVS. Sit proposita linea quā oportet diuidere per æqualia: linea a b, sup
 
 ## Euclides ex Zamb. Problema 5. Propositio 10.
 
+[Curated heading level=3 type=zamberti_sequence: 10.]
+
 [Margin]
 10
 [/Margin]
@@ -42,6 +48,8 @@ THEON. ex Zamberto. Sit data linea terminata α β. oportet lineā α β bifaria
 
 ## Eucli. ex Camp. Propositio 11.
 
+[Curated heading level=3 type=campanus_sequence: 11.]
+
 [Margin]
 11
 [/Margin]
@@ -53,6 +61,8 @@ CAMPANVS. Sit data linea a b: in qua sit datus punctus c, à quo oportet perpend
 [Diagram: triangle with apex d above; base line a b with the point c between a and b, and the perpendicular line d c drawn from the apex to c]
 
 ## Eucli. ex Zamb. Problema 6. Propositio 11.
+
+[Curated heading level=3 type=zamberti_sequence: 11.]
 
 [Margin]
 11

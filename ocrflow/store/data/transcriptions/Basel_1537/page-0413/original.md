@@ -6,6 +6,8 @@ CORRELARIVM. Ex hoc nempe est manifestũ, quod & multangulas bases habẽtes sim
 
 ## Eucli. ex Zamb. Theorema 9 Propositio 9
 
+[Curated heading level=3 type=zamberti_sequence: 9.]
+
 [Margin]
 9
 [/Margin]
@@ -25,6 +27,8 @@ THEON ex Zamb. Sint enim æque pyramides α β γ η, δ ε ζ θ, triãgulares 
 Sed iam ipsarũ α β γ η, δ ε ζ θ, pyramidum reciprocæ sint bases altitudinibus, estoq̃ sicut α β γ basis ad δ ε ζ basin, sic ipsius δ ε ζ θ pyramidis fastigiũ ad ipsius α β γ η pyramidis fastigiũ. Dico quod pyramis α β γ η, æqualis est ipsi δ ε ζ θ pyramidi. Eisdem nanq̃ dispositis, quoniã est sicut α β γ basis ad δ ε ζ basin, sic est ipsius δ ε ζ θ pyramidis uertex ad ipsius α β γ η pyramidis uerticem, sed sicut α β γ basis ad ipsam δ ε ζ basin, sic β μ parallelogrammũ ad ε π parallelogrammũ, & sicut igitur (per 11 quinti) β μ parallelogrammũ ad ε π parallelogrammũ, sic est ipsius δ ε ζ θ pyramidis fastigiũ ad ipsius α β γ η pyramidis fastigiũ. Sed ipsius quidẽ δ ε ζ θ pyramidis uertex, est idem ipsius ε θ π ο parallelepipedi uertici, & fastigiũ ipsius α β γ η pyramidis, idem est ipsius β η μ λ parallelepipedi altitudini: est igitur sicut β μ basis ad ε π basin, sic ipsius ε θ π ο parallelepipedi altitudo ad ipsius β η μ λ parallelepipedi altitudinẽ. Solida uero parallelepipeda quorũ reciprocæ sunt bases altitudinibus, sunt æqualia (per 34 undecimi.) Igitur solidum parallelepipedũ β η μ λ, ipsi ε θ π ο solido parallelepipedo est æquale, Estq̃ ipsius quidẽ β η μ λ parallelepipedi, pyramis α β γ η sexta pars, ipsius autẽ ε θ π ο parallelepipedi, sexta pars est pyramis δ ε ζ θ. Igitur pyramis α β γ η, ipsi δ ε ζ θ pyramidi est æqualis. Aequaliũ igitur pyramidũ & triangulares bases habentiũ, reciprocæ sunt bases altitudinibus. Et pyramides triangulares bases habentes quarũ bases uerticibus sunt reciprocæ, sunt æquales. Quod ostendendum fuerat.
 
 ## Eucli. ex Camp. Propositio 9
+
+[Curated heading level=3 type=campanus_sequence: 9.]
 
 [Margin]
 9

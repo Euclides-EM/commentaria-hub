@@ -8,7 +8,13 @@ nisi irrationali superficie per 12. Hoc autem fit manifestius in figura, sic. Si
 
 ## Eucli. ex Zamb. Theorema 61 Propositio 79
 
-## 79 Apotome una tantum congruit recta linea rationalis, potentia tantū toti subsistens commensurabilis.
+[Curated heading level=3 type=zamberti_sequence: 79.]
+
+[Margin]
+79
+[/Margin]
+
+Apotome una tantum congruit recta linea rationalis, potentia tantū toti subsistens commensurabilis.
 
 THEON ex Zāb. Sit apotome α β, cōgruēs aūt ei sit β γ, ipsæ igitur α γ, γ β, potentia tantū sunt cōmensurabiles. Dico quod ipsi α β, altera non congruit rationalis potētia tantū subsistens toti cōmensurabilis. Si enim possibile, cōgruat, sitq́; β δ. Ipsæ igitur α δ, δ β, potētia tātū sunt cōmēsurabiles. Et quoniā (per 7 secūdi) quo excedūt ea quæ ex α δ, δ β, id quod bis sub α δ, δ β, hoc excedūt & quæ ex α γ, γ β, id quod bis sub α γ, γ β, (eodē nāq̀; id est quod ex α β, utraq̀; excedūt) uicissim igitur (per 16 quinti) quo excedunt quæ ex α δ, δ β, ea quæ ex α γ, γ β eo excedit & id quod bis sub α δ, δ β, id quod bis sub α γ, γ β. Sed quæ ex α β, β δ{printer-error-correction:α δ, δ β}, ea quæ ex α γ, γ β, excedūt ratiōali, utraq̀; nāq̀; rationalia sunt, & quod bis igitur sub α δ, δ β, id quod bis sub α γ, γ β, ratiōali excedit, quod est impossibile. Vtraq̀; nāq̀; media sunt, & (per 22 decimi) medium nō excedit rationali. Ipsi igitur α β, altera non congruit ratiōalis potentia tantū cōmensurabilis existēs toti. Vna igitur tantū ipsi apotomæ cōgruit, rationalis potentia tantū toti subsistens cōmensurabilis. Quod erat ostendendū.
 
@@ -16,13 +22,25 @@ THEON ex Zāb. Sit apotome α β, cōgruēs aūt ei sit β γ, ipsæ igitur α �
 
 ## Eucli. ex Camp. Propositio 75
 
-## 75 {dropcap:N|lines=?|style=decorated|decoration="woodcut"}Vlla linea nisi una tantum residuo mediali primo coniungi potest, ut sint ambæ sub termino earum quæ erant ante separationem.
+[Curated heading level=3 type=campanus_sequence: 75.]
+
+[Margin]
+75
+[/Margin]
+
+{dropcap:N|lines=?|style=decorated|decoration="woodcut"}Vlla linea nisi una tantum residuo mediali primo coniungi potest, ut sint ambæ sub termino earum quæ erant ante separationem.
 
 CAMPANVS Hæc quoque probabis simili modo. Sint enim in utraq̀ sectione ambo quadrata pariter accepta, mediale, duplū uero superficiei unius in alterā ratiōale. Et quia ut prius eadē differentia quadratorū unius sectionis ad quadrata altius{printer-error-correction:alterius}, quæ est dupli superficiei unius ad duplum superficiei alterius, erit una & eadē superficies differentia duarū medialium & duarum rationalium. Quod est impossibile.
 
 ## Eucli. ex Zamb. Theorema 62 Propositio 80
 
-## 80 Mediæ apotomæ primæ una tantum congruit recta linea media, potentia tantum toti subsistens commensurabilis, & cum tota rationale comprehendens.
+[Curated heading level=3 type=zamberti_sequence: 80.]
+
+[Margin]
+80
+[/Margin]
+
+Mediæ apotomæ primæ una tantum congruit recta linea media, potentia tantum toti subsistens commensurabilis, & cum tota rationale comprehendens.
 
 THEON ex Zāb. Esto namq̀; media apotome prima α β, & ipsi α β, cōgruat β γ, ipsæ igitur α γ, γ β, mediæ sunt potentia tantū cōmensurabiles, rōnale cōprehēdētes duo quod sub α γ, γ β. Dico quod ipsi α β, altera nō congruit media, toti potētia tantū subsistēs cōmēsurabilis, & cū tota ratiōale cōprehendēs. Si enim possibile, cōgruat & δ β, ipsæ igitur α δ, δ β, mediæ sunt potētia tantū cōmensurabiles, ratiōale cōprehēdentes quod sub α δ, δ β. Et quoniā (per 7 secūdi) quo excedūt ea quæ ex α δ, δ β, id quod bis sub α δ, δ β, hoc excedūt & que ex α γ, γ β, id quod bis sub α γ, γ β, (eodē etenim rursus excedūt, id est quod ex α β) uicissim igitur (per 16 quinti) quo excedūt quæ ex α δ, δ β, ea quæ ex α γ, γ β, eo excedit & id quod bis sub α δ, δ β, id quod bis sub α γ, γ β. At quod bis sub α δ, δ β, id quod bis sub α γ, γ β, excedit rationali, utraque nēpe rationalia. Et que ex α δ, δ β, igitur quadrata, quæ ex α γ, γ β, excedunt rationali. Quod est impossibile. Media etenim utraq̀; & (per 26 decimi,) mediū sane mediū nō excedit rationali. Mediæ igitur apotomæ primæ una cōgruit recta linea media, potentia tantū toti subsistēs cōmensurabilis, & cum tota rationale cōprehendens. Quod oportuit demonstrare.
 

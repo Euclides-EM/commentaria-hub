@@ -8,6 +8,8 @@ perpendicularem super lineam b c, quam pono æqualem a b, & produco lineam d c, 
 
 ## Eucli. ex Zamb. Theorema 34. Propositio 48.
 
+[Curated heading level=3 type=zamberti_sequence: 48.]
+
 [Margin]
 48
 [/Margin]
@@ -30,4 +32,4 @@ Proponantur ergo duo quadrata, scilicet, a b & c d, & sit propositum producere g
 
 <!-- Catchword: EVCLIDIS -->
 
-## LIBRI PRIMI FINIS.
+LIBRI PRIMI FINIS.

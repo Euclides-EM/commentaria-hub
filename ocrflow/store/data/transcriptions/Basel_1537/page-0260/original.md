@@ -16,7 +16,13 @@ Sequentia duo ex Zamberto Theoremata. in Campano nihil respondens habent,
 
 ## Eucli. ex Zamb. Theorema 5 Propositio 7 Conuersa quintæ
 
-**7** Incommensurabiles magnitudines adiuuicem{printer-error-correction:adinuicem} rationem non habent, quam numerus ad numerum.
+[Curated heading level=3 type=zamberti_sequence: 7.]
+
+[Margin]
+7
+[/Margin]
+
+Incommensurabiles magnitudines adiuuicem{printer-error-correction:adinuicem} rationem non habent, quam numerus ad numerum.
 
 THEON ex Zamberto. Sint incommensurabiles magnitudines, α,β. Dico quod α, ad β, rationem nō habet quam numerus ad numerum. Si enim habet α ad β, eam rationem quam numerus ad numerum, commensurabilis erit α ipsi β, (per sextam decimi) Non est autem, igitur α ad β rationem non habet, quam numerus ad numerum. Incommensurabiles igitur magnitudines rationem non habent adinuicem, quam numerus ad numerum, quod oportuit demonstrasse.
 
@@ -24,7 +30,13 @@ THEON ex Zamberto. Sint incommensurabiles magnitudines, α,β. Dico quod α, ad 
 
 ## Eucli. ex Zamb. Theorema t 6{printer-error-correction:Theorema 6} Propositio 8 Conuersa sextæ
 
-**8** Si binæ magnitudines adinuicem rationem non habuerint quam numerus ad numerum incommensurabiles erunt ipsæ magnitudines.
+[Curated heading level=3 type=zamberti_sequence: 8.]
+
+[Margin]
+8
+[/Margin]
+
+Si binæ magnitudines adinuicem rationem non habuerint quam numerus ad numerum incommensurabiles erunt ipsæ magnitudines.
 
 THEON ex Zamb. Binæ enim magnitudines α,β, adinuicem non eam habeant rationem, quam numerus ad numerum. Dico quod ipsæ α,β, magnitudines sunt incommensurabiles. Si enim commensurabilis est α ipsi β, rationem habebit quam numerus ad numerum (per quintam decimi) non habet autē. Incōmonsurabiles{printer-error-correction:Incōmensurabiles} igitur sunt ipsæ α,β, magnitudines. Si binæ igitur magnitudines, & quæ sequuntur reliqua, quod erat ostendendum.
 
@@ -32,6 +44,12 @@ THEON ex Zamb. Binæ enim magnitudines α,β, adinuicem non eam habeant rationem
 
 ## Eucli. ex Zamb. Theorema 7 Propositio 9
 
-**9** A lōgitudine cōmēsurabilibꝰ rectis lineis quadrata, adinuicē rationē habēt
+[Curated heading level=3 type=zamberti_sequence: 9.]
+
+[Margin]
+9
+[/Margin]
+
+A lōgitudine cōmēsurabilibꝰ rectis lineis quadrata, adinuicē rationē habēt
 
 <!-- Catchword: quàm -->

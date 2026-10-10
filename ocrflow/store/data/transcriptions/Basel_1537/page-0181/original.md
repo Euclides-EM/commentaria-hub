@@ -16,6 +16,8 @@ Perfectus numerus,est qui suijpsius pattibus est æqualis.
 
 ## Eucli. ex Camp. Propositio 1.
 
+[Curated heading level=3 type=campanus_sequence: 1.]
+
 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I à maiore duorum numerorū minor detrahatur donec minus eo supersit,ac deinde de minore ipsum reliquū donec minus eo relinquatur, itemq̃ à reliquo primo reliquum secundum quousque minus eo supersit,atq̃ in huiuscemodi continua detractione nullus
 
 <!-- Catchword: fuerit -->

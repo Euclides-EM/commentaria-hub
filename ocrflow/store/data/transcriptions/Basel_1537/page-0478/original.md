@@ -8,6 +8,8 @@ Cumq̃ perpendiculares ad circulos basium, sint quoq̃ perpēdiculares ad bases,
 
 ## Eucli. ex Camp. Propositio 18
 
+[Curated heading level=3 type=campanus_sequence: 18.]
+
 [Margin]
 18
 [/Margin]

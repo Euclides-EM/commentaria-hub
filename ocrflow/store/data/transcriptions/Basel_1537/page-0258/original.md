@@ -10,7 +10,13 @@ CORRELARIVM. Ex hoc proinde manifestum est, quod si magnitudo tres magnitudines 
 
 ## Eucli. ex Camp. Propositio 5
 
-**5** {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duarum quantitatum communicantium est proportio tanquam numeri ad numerum.
+[Curated heading level=3 type=campanus_sequence: 5.]
+
+[Margin]
+5
+[/Margin]
+
+{dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duarum quantitatum communicantium est proportio tanquam numeri ad numerum.
 
 CAMPANVS Sint duæ quantitates a & b, communicantes. Dico quod earum proportio est sicut alicuius numeri ad alium numerum. Sit enim, c maxima quantitas communiter mensurans a & b, reperta ut docet secunda huius, quæ mensuret a secundum numerum d, & b secundum numerū e, eritq̃ a ad c ut d ad unitatem, eo quod sicut a est multiplex c, ita d est multiplex unitatis, ac c ad b, ut unitas ad e, quoniam sicut c est submultiplex b. ita uuitas{printer-error-correction:unitas} est sub multiplex e, igitur per æquam proportionalitatem a ad b, ut d ad e, quod est propositum.
 
@@ -18,7 +24,13 @@ CAMPANVS Sint duæ quantitates a & b, communicantes. Dico quod earum proportio e
 
 ## Eucli. ex Zamb. Theorema 3 Propositio 5
 
-**5** Commensurabiles magnitudines, adinuicem rationem habent quam numerus ad numerum.
+[Curated heading level=3 type=zamberti_sequence: 5.]
+
+[Margin]
+5
+[/Margin]
+
+Commensurabiles magnitudines, adinuicem rationem habent quam numerus ad numerum.
 
 THEON ex Zamberto. Sint commensurabiles magnitudines α,β. Dico quod α ad β, rationem habet, quam numerus ad numerum. Quoniam enim commensurabiles sunt α,β, metietur eas aliqua magnitudo, metiatur, & esto γ, Et quoties γ ipsam α, metitur. tot unitates sint in δ, quoties autem γ ipsum β metitur, tot unitates sint in ε. Quoniam igitur γ ipsum α metitur per eas quæ in δ sunt unitates & unitas metitur ipsum δ per eas quæ in ipso sunt unitates, æque igitur unitas ipsum δ metitur numerum, & γ magnitudo ipsam α, est igitur sicut γ ad α, sic est unitas ad δ, contra igitur (per correlarium 4 quinti) sicut α ad γ, sic δ ad unitatem. Rursus quoniam γ ipsam β metitur per eas quæ in ε sunt unitates, metitur autē & unitas ipsum ε per eas quæ in eo sunt unitates, æque igitur unitas ipsum ε metitur. & γ ipsum β. Est igitur (per idem) sicut γ ad β, sic est unitas ad ε. Patuit autē quod & sicut α ad γ, sic δ ad unitatem, ex æquali igitur (per 21 quinti,) est sicut α ad β, sic est δ numerus ad ε numerum. Commensurabiles igitur magnitudines α,β, adinuicem rationē habent, quam numerus δ ad numerum ε, quod oportebat demonstrare.
 
@@ -30,7 +42,13 @@ THEON ex Zamberto. Sint commensurabiles magnitudines α,β. Dico quod α ad β, 
 
 ## Eucli. ex Camp. Propositio 6
 
-**6** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duæ quātitates quarū sit proportio unius ad alterā tanquam numeri ad numerum, eas duas communicātes esse necesse est.
+[Curated heading level=3 type=campanus_sequence: 6.]
+
+[Margin]
+6
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duæ quātitates quarū sit proportio unius ad alterā tanquam numeri ad numerum, eas duas communicātes esse necesse est.
 
 CAMPANVS. Hæc est conuersa prioris. Vt si sit a ad b sicut numerus e ad numerum d, erunt duæ quātitates a & b cōmuuicantes{printer-error-correction:cōmunicantes} Sit enim e toties mensurans b, quoties est unitas in d, & toties mensurans f, quoties unitas in c. Cum sit igitur f ad e ut c ad unitatem. ac e ad b ut unitas ad d , erit per æquam proportionalitatem f ad b ut c ad, quare etiam ut a ad b. Igitur per primam partem 9 quinti, f est æqualis a. Cum itaque e mensuret f, per
 

@@ -16,6 +16,8 @@ rectæ lineæ ε θ, θ η, duabus, κ δ, δ λ, sunt æquales altera alteri, &
 
 ## Eucli. ex Camp. Propositio 4
 
+[Curated heading level=3 type=campanus_sequence: 4.]
+
 [Margin]
 4
 [/Margin]

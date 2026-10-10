@@ -8,7 +8,13 @@ Sint igitur ipsius quidem ε, latera θ, κ, ipsius autem η, sint λ, μ. Manif
 
 ## Eucli. ex Camp. Propositio 20
 
-**20** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I trium numerorum continue proportionalium primus fuerit quadratus, tertium quoque quadratum esse.
+[Curated heading level=3 type=campanus_sequence: 20.]
+
+[Margin]
+20
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I trium numerorum continue proportionalium primus fuerit quadratus, tertium quoque quadratum esse.
 
 CAMPANVS Sint tres numeri continue proportionales a, b, c, sitque a quadratus. Dico quod c est etiam quadratus: sunt enim per 17 a & c superficiales & similes, cum igitur a sit quadratus: per hypothesin, erit c quadratus.
 
@@ -16,7 +22,13 @@ CAMPANVS Sint tres numeri continue proportionales a, b, c, sitque a quadratus. D
 
 ## Eucli. ex Zamb. Theorema 20 Propositio 22
 
-**22** Si tres numeri continue proportionales fuerint, primusque fuerit quadratus, & tertius quadratus erit.
+[Curated heading level=3 type=zamberti_sequence: 22.]
+
+[Margin]
+22
+[/Margin]
+
+Si tres numeri continue proportionales fuerint, primusque fuerit quadratus, & tertius quadratus erit.
 
 THEON ex Zamberto. Sint tres numeri continue proportionales α, β, γ, primus autem sit quadratus. Eico quod & tertius quadratus est, quoniam enim ipsorum α, γ, (per 20 octaui,) unus medius proportioualis est numerus β, igitur α, γ, similes plani sunt, at quadratus est α, quadratus igitur est & γ, quod erat demonstrādum.
 
@@ -24,13 +36,25 @@ THEON ex Zamberto. Sint tres numeri continue proportionales α, β, γ, primus a
 
 ## Eucli. ex Camp. Propositio 21
 
-**21** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I quatuor numerorum continue proportionalium primus fuit cubus, quartum cubum esse necesse est.
+[Curated heading level=3 type=campanus_sequence: 21.]
+
+[Margin]
+21
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I quatuor numerorum continue proportionalium primus fuit cubus, quartum cubum esse necesse est.
 
 CAMPANVS Sint quatuor numeri continue proportionales a, b, c, d sitque a cubus, dico quod d est etiam cubus, constat enim per 19 quod a & d sunt solidi similes, & quia a est cubus per hypothesin, erit etiam d cubus.
 
-## Eucli. ex Zamb. Theorema 22 Propositio 23
+## Eucli. ex Zamb. Theorema 22{printer-error-correction:21} Propositio 23
 
-**23** Si quatuor numeri continue proportionales fuerint, primus autem cubus fuerit, & quartus cubus erit.
+[Curated heading level=3 type=zamberti_sequence: 23.]
+
+[Margin]
+23
+[/Margin]
+
+Si quatuor numeri continue proportionales fuerint, primus autem cubus fuerit, & quartus cubus erit.
 
 THEON ex Zamberto. Sint quatuor numeri proportionales continue, α, β, γ, δ, sit autem α, cubus, dico quod & δ, cubus erit. Quoniam enim ipsorum α, δ, duo medij proportionales sunt numeri β, γ, Ipsi igitur α, δ, similes sunt solidi numeri, at α, cubus est, cubus igitur est & δ, quod demonstrasse oportuit.
 

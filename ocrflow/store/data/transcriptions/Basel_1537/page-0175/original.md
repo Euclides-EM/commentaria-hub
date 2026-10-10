@@ -6,6 +6,8 @@ ponatur ε ξ, totum igitur α ξ, æquum est ipsi φ χ ψ, gnomoni. Sed φ χ 
 
 ## Eucli.ex Camp. Propositio 29.
 
+[Curated heading level=3 type=campanus_sequence: 29.]
+
 [Margin]
 29
 [/Margin]
@@ -17,6 +19,8 @@ CAMPANVS Sit proposita linea a b: quam uolo diuidere secundũ proportionem haben
 [Diagram: rectangle with c at top left and a at top right, divided by a vertical line toward the right and a horizontal line below; e on the left side, f and d at the right of the vertical divider, b at bottom right]
 
 ## Eucli.ex Zamb. Problema 10 Propositio 30
+
+[Curated heading level=3 type=zamberti_sequence: 30.]
 
 [Margin]
 * τεμεῖν secare
@@ -37,6 +41,8 @@ THEON ex Zamberto. Sit data recta linea terminata α β, oportet iam ipsam α β
 ALITER Sit data recta linea α β, oportet ipsam iã α β, extrema, & media ratione secare, secetur enim α β, in γ, (per 11 secundi): ut quod sub α β, & β γ, æquum sit ei quod ex γ α, quadrato. Quoniã igitur quod sub α β & β γ. æquũ est ei quod ex γ α, est igitur (per 17 huius) sicut β α, ad α γ sic α γ, ad γ β. Igitur α β, media & extrema diuisa est ratione in γ, quod oportebat facere.
 
 ## Eucli.ex Camp. Propositio 30
+
+[Curated heading level=3 type=campanus_sequence: 30.]
 
 [Margin]
 30

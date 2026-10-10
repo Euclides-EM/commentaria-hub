@@ -6,7 +6,13 @@ sunt æqualia duobus lateribus a f ⁊ f c triangulia f c{printer-error-correcti
 
 ## Eucli. ex Camp. Propositio 16
 
-16 SOlidum octo basium triangulariū atq́ⱼ æquilaterarū quod ab aliqua sphæra circūscribitur, diuisibile est in duas pyramides æque altas quarū altitudo æqualis est semidiametro sphæræ, basis autem utriusq́ⱼ quadratū quod est subduplum quadrato diametri sphæræ.
+[Curated heading level=3 type=campanus_sequence: 16.]
+
+[Margin]
+16
+[/Margin]
+
+SOlidum octo basium triangulariū atq́ⱼ æquilaterarū quod ab aliqua sphæra circūscribitur, diuisibile est in duas pyramides æque altas quarū altitudo æqualis est semidiametro sphæræ, basis autem utriusq́ⱼ quadratū quod est subduplum quadrato diametri sphæræ.
 
 CAMPANVS. Esto corpus octo basium triangulariū atque æquilaterarū cuius sexanguli sint a, b, c, d, e, f, circūscripta à sphæra cuius centrū g. Constat itaq́ⱼ q̃ sex puncta a, b, c, d, e, f, sunt in superficie sphæræ cuius centrum g. Si igitur centrū g iungatur cum quolibet horum sex punctorū, erunt duæ lineæ iungentes ipsum eis adinuicem æquales, cum ipsæ sint à centro sphæræ ad superficiē. Cum aūt ex correlario 15 tredecimi, sit diameter sphæræ potētialiter dupla ad latus huius corporis, erit ex 4 secundi latus huius corporis potētialiter duplū ad semidiametrū sphæræ. Quadratū ergo e f, duplum est ad quadratū ipsius c e, ideoq́ⱼ æquale duobus quadratis duarū linearū e g ⁊ g f. Itaq́ⱼ per penultimā primi angulus c g f{printer-error-correction:e g f} est rectus, eadem ratione quisq̃ angulorū f g d, d g e, & e g c, est rectus, quare per 14 primi, & c g d, & f g e, est linea una, igitur ex 2 undecimi quinq́ⱼ puncta c, e, d, f, g, sunt in superficie una. Manifestū est autem ex 8 primi & 4 eiusdē q̃ quilibet quatuor angulorū c e d, e d f, d f c, f c e est rectus, igitur ex diffinitione quadrati, supficies c e d f est quadrata. Et quia latus eius est latus propositi corporis, constat ex correlario 15 tredecimi, istud quadratū esse subduplum quadrato diametri sphæræ. Cōsimili quoq́ⱼ ratiocinatione constat utranq́ⱼ duarum linearū a g & g b, cum quolibet quatuor linearū c g, f g, d g, e g, continere angulum rectum, ideoq́ⱼ ex 4 undecimi utranq́ⱼ earum esse perpendiculariē ad superficiē c e d f, & ambas scilicet a g & g b per 14 primi cōponere lineā unam. Diuisum est igitur propositū corpus in pyramidem a c f d e cuius basis quadratū c e d f quod est subduplū quadrato diametri sphæræ, & etiam altitudo linea a g quæ est semidiameter sphæræ, & in pyramidem b c f d e cuius basis est prædictum quadratū, & eius altitudo linea g b quæ est semidiameter sphæræ. Et hoc est quod oportebat ostendere.
 
@@ -14,7 +20,13 @@ CAMPANVS. Esto corpus octo basium triangulariū atque æquilaterarū cuius sexan
 
 ## Eucli. ex Camp. Propositio 17
 
-17 PYramide quatuor basium triangulariū atq́ⱼ æquilaterarū sphæra aliqua circūscribente, erit pportio tetragoni qui sub linea potentialiter subsesquitertia ad dodrantē lateris ipsius pyramidis & sub linea superquincupartiente uicesimasseptimas eius dodrantis cōtinetur, ad quadratū diametri sphæræ, sicut corporis ipsius pyramidis ad corpus octo basiū triangulariū atq́ⱼ æquilaterarū, quæ ambo eadē sphæra circūducant.
+[Curated heading level=3 type=campanus_sequence: 17.]
+
+[Margin]
+17
+[/Margin]
+
+PYramide quatuor basium triangulariū atq́ⱼ æquilaterarū sphæra aliqua circūscribente, erit pportio tetragoni qui sub linea potentialiter subsesquitertia ad dodrantē lateris ipsius pyramidis & sub linea superquincupartiente uicesimasseptimas eius dodrantis cōtinetur, ad quadratū diametri sphæræ, sicut corporis ipsius pyramidis ad corpus octo basiū triangulariū atq́ⱼ æquilaterarū, quæ ambo eadē sphæra circūducant.
 
 CAMPANVS. Sit sphæra cuius diameter a b & centrū h, circūscribens pyramidem quatuor basium triangulariū atq́ⱼ æquilaterarū a c d, & corpus octo basium triangulariū atq́ⱼ æquilaterarū quod sit e, sitq́ⱼ linea l m potētialiter subsesquitertia ad dodrantē lineæ a c quæ est latus pyramidis, & linea m n contineat dodrantem prædictum & eius
 

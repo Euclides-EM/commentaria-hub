@@ -6,6 +6,8 @@ ab in l a & in l b eſt æquale quadrato lineæ a b: eſt autem linea a b latus 
 
 ## Eucli. ex Camp. Propoſitio 11
 
+[Curated heading level=3 type=campanus_sequence: 11.]
+
 [Margin]
 11
 [/Margin]
@@ -17,6 +19,8 @@ CAMPANVS. Sit pentagonus æquilaterus a b c d e, inſcriptus circulo eiſdẽ li
 [Diagram: circle with inscribed pentagon a b c d e and the two chords crossing at f; labels a (upper left), b (upper right), f (within), c (left), e (right), d (bottom)]
 
 ## Eucli. ex Camp. Propoſitio 12
+
+[Curated heading level=3 type=campanus_sequence: 12.]
 
 [Margin]
 12

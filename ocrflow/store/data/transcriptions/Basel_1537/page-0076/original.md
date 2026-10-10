@@ -12,7 +12,7 @@ CAMPANI additio. Ex hoc notandum, quod non ualet ista argumentatio, hoc transit 
 
 Posset probari quod angulus contingentiæ est diuisibilis secundum lineam rectam ut cōstat per figurationem hic a latere positam. Certum est quod angulus qui causatur ex contactu duorum circulorum uel sphærarum, est angulus contingentiæ: & talis diuidatur per lineam e g, quia hic habetur triangulus h g k, cuius basis h k, diuidatur per æqualia in puncto e: & protrahatur uersus g, contactum: & arguitur per 4 primi: deinde per 16 huius, & patet propositum.
 
-## Eucli.ex Zamb.  Theorema 15.  Propositio 16
+## Eucli.ex Zamb. Theorema 15. Propositio 16
 
 <!-- Signature: f 4 -->
 

@@ -12,7 +12,7 @@ Binorum siquidem parallelogrammorum a b, e g, quæ circum angulos qui ad f c, au
 
 Nam quoniam æquiangulum est a b ipsi e g, æqualis est qui sub a c b ei qui ad g & qui ad f exterior interiori, & alius igitur ad g ei qui ad f est æqualis, similiter quoque & alij a c b, in rectum igitur est d b ipsi b m. Quoniam enim parallelus est a g ipsi d m anguli qui sub d b c, b c n, inuicem sunt æquales. Rursus quoniā parallelus est m b ipsi a c, qui sub m b c, a c b sunt inuicē æquales, qui sub a c b, b c n, eis qui sub d b c, c b l sunt æquales. Recti enim duo, qui sub a c b, b c n, & qui sub d b c, c b m. Si autem ad aliquam rectā lineam & ad signum & quæ sequuntur ut in 23 primi elementorum.
 
-## Theorema 71 — Propositio 71
+## Theorema 71 Propositio 71
 
 SI binorum triangulorum quæ circum æquos angulos, uel inæquales, datos tamen, latera rationem habuerint datam, & eadem triangula adinuicem rationem datam habebunt.
 

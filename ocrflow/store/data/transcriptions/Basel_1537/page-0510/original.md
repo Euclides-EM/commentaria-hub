@@ -8,7 +8,7 @@ Eisdem expositis assumātur æquales, & ex opposito circūferentiæ f g, h k, si
 
 [Diagram: circle; a, b across the top; e at the centre; f, l on either side below e; m at the right; g at the lower left, b at the right; k at the lower right; d, c at the bottom]
 
-## Altera traditio super 14. Propositionem.
+### Altera traditio super 14. Propositionem.
 
 Odiaci circuli æquales circūferentiæ tempore in æquali permutāt apparēs hemisphæriū, in pluri quæ propius contactui æstiui tropici, ea quæ longius distat, quādo polus horizontis inter arcticū circulum & æstiuū tropicum fuerit.
 

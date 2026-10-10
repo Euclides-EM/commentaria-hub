@@ -6,51 +6,59 @@ CANPANVS Huius sensus est, quod omnis numerus numeratus a ternario: habet tertia
 
 [Diagram: dotted number lines beside the text: unitas · / c··· c·· / a······]
 
-## Eucli. ex Zamb. — Theorema 34 — Propositio 39
+## Eucli. ex Zamb. Theorema 34 Propositio 39
+
+[Curated heading level=3 type=zamberti_sequence: 39.]
 
 [Margin]
 39
 [/Margin]
 
-## Si numerum aliquis numerus metiatur, mensus cognominatam partē habebit metienti.
+Si numerum aliquis numerus metiatur, mensus cognominatam partē habebit metienti.
 
 THEON ex Zamb. Nuuerum{printer-error-correction:Numerum} enim α, numerus aliquis β, metiatur. Dico quod α, cognominatam partem habet ipsi β. Quoties enim β, ipsum α metitur, tot unitates sint in γ. Quoniam β, ipsum α, metitur per eas quæ in γ, sunt unitates, metitur autem & δ, unitas ipsum γ, per eas quæ in eo sunt unitates, æque igitur (per 15 septimi,) δ, unitas ipsum γ, numerum metitur, & β. ipsum α. Vicissim igitur (per eandē,) æque δ unitas ipsum β metitur numerū, γ, ipsum α. Qualitatis igitur pars est δ, unitas ipsius β, nūeri talis pars est & γ, ipsius α. At δ, unitas pars est ipsius β ei cognominata, & γ, igitur ipsius α, pars est cognominata ipsi β. Quare α, partem habet γ cognominatam ipsi β, quod erat demonstrandum.
 
 [Diagram: dotted number lines beside the text: α············ / β···· / γ··· / δ·]
 
-## Eucli. ex Camp. — Propositio 38
+## Eucli. ex Camp. Propositio 38
+
+[Curated heading level=3 type=campanus_sequence: 38.]
 
 [Margin]
 38
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I numerus aliquis partem quotamcunque habeat, numerabit ipsum numerus ad illam partem dictus.
+{dropcap:S|lines=?|style=decorated|decoration="ornamental"}I numerus aliquis partem quotamcunque habeat, numerabit ipsum numerus ad illam partem dictus.
 
 CAMPANVS Hæc est cōuersa præmissæ: cuius est intētio, quod omnis numerus habens tertiam, numeratur a ternario, & habens quintam, à quinario, sicque de cæteris, ut si b sit pars a denominata a c, sequitur ut c nūeret a, quia enim b est pars a denominata a c, sed & unitas est pars c denominata ab ipso c per conceptionem, sequitur ut quoties unitas numerat c, toties b numeret a, itaque per 16 quoties unitas b, toties c, numerat a, quare constat propositum. Aliter idem. Cum sit b pars a, sit tota unitas c, eritque per hanc communem scientiam, unitatem esse partem omnis numeri ab ipso denominatam c, denominans b in a: & quia est b in a quoties unitas in c, euidenter sequitur propositum per 16,
 
 [Diagram: dotted number lines beside the text: unitas · / b·· c··· / a······]
 
-## Eucli. ex Zamb. — Theorema 35 — Propositio 40
+## Eucli. ex Zamb. Theorema 35 Propositio 40
+
+[Curated heading level=3 type=zamberti_sequence: 40.]
 
 [Margin]
 40
 [/Margin]
 
-## Si numerus partem habuerit quamlibet, eum numerus cognominatus parti, metietur.
+Si numerus partem habuerit quamlibet, eum numerus cognominatus parti, metietur.
 
 THEON ex Zamb. Numerus inquam α, partem habeat quamlibet β, & ipsi β, parti cognominatus sit numerus γ. Dico quod γ, ipsum α, metitur. Quoniam enim β, ipsius α, pars est cognominata ipsi γ, est autem & δ unitas ipsius γ, pars cognominata ei: qualis igitur pars est δ, unitas ipsius γ, numeri: talis pars est & β ipsius α, æque igitur δ unitas ipsum γ numerum metitur: & β, ipsum α. Vicissim igitur (per 15 septimi,) æque δ, unitas ipsum β numerum metitur: & γ ipsum α, & γ igitur ipsum α metitur quod erat demonstrandum.
 
 [Diagram: dotted number lines beside the text: α········ / β···· / γ·· / δ·]
 
-## Eucli. ex Camp. — Propositio 39
+## Eucli. ex Camp. Propositio 39
+
+[Curated heading level=3 type=campanus_sequence: 39.]
 
 [Margin]
 39
 [/Margin]
 
-## {dropcap:N|lines=?|style=decorated|decoration="ornamental"}Vmerorum minimum, propositarum denominationum habentem partes inuenire.
+{dropcap:N|lines=?|style=decorated|decoration="ornamental"}Vmerorum minimum, propositarum denominationum habentem partes inuenire.
 
-CORRELARIVM
+### CORRELARIVM
 
 Ex quo manifestū est, quod minimus numerus numeratus à quotlibet, est minimus habens partes denominatas ipsis.
 

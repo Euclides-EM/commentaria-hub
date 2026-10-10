@@ -8,7 +8,7 @@ Binæ nãq̃ magnitudines a b,c d,adinuicẽ rõnẽ habeant datã,auferaturq̃ 
 
 [Diagram: two horizontal lines; the upper with points b, g, e, a; the lower with points d, f, c]
 
-## Scholium.
+### Scholium.
 
 Hoc conuersum est quodammodo præcedentis,ostendens, ꝙ si appositæ fuerint datæ magnitudines,eis datam habent, rationem,nunc uero auferatur eadem ab eisdem idem ostendit.
 

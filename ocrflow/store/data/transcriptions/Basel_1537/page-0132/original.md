@@ -12,6 +12,8 @@ Conuersam huius demonstrare possumus, uidelicet, quod si contingit reperire aliq
 
 ## Eucli. ex Camp. Propositio 13
 
+[Curated heading level=3 type=campanus_sequence: 13.]
+
 [Margin]
 13
 [/Margin]

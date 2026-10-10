@@ -8,11 +8,13 @@ ipsi α β, utraq̃ enim ipsarū est ex binis nominibus secunda. Si uero neutra 
 
 ## Eucli. ex Camp. Propositio 61
 
+[Curated heading level=3 type=campanus_sequence: 61.]
+
 [Margin]
 61
 [/Margin]
 
-## {dropcap:O|lines=?|style=decorated|decoration="woodcut"}Mnis linea alterutri bimedialium commensurabilis, sub eadem specie bimedialis esse ex necessitate conuincitur.
+{dropcap:O|lines=?|style=decorated|decoration="woodcut"}Mnis linea alterutri bimedialium commensurabilis, sub eadem specie bimedialis esse ex necessitate conuincitur.
 
 CAMPANVS. Veritatem habet quod dicitur, siue in longitudine, siue etiam in potentia tantum cōmunicet aliqua linea alterutri bimedialium. Sint enim duæ lineæ cōmunicantes a & b quouis duorum modorum prædictorū, sitq̃ a bimediale primum uel secundum, dico quod etiam b est bimediale primum uel secundum, prout fuerit a. Diuiso enim a bimediali in suas bimediales portiones ex quibus componitur per 31 & 32 quæ sint c & d, b quoq̃ diuisa in e & f secundum proportionē c ad d ut docet 12 sexti, positaq̃ g superficie contenta sub c & d, & k sub e & f, & posito h quadrato d, & l, f, erit per coniunctā & euersam & permutatam proportionalitatē quemadmodū in præmissa c ad e & d ad f, sicut a ad b: sicut igitur ex positione a & b sunt cōmunicantes, siue hoc sit in longitudine siue in potentia, sic c & e, itemq̃ d & f, similiter erunt cōmunicantes. At quia c & d sunt mediales potentia tantū communicantes, sequitur ex 12 ut e & f sint etiam mediales, & ex 10 potentia tantum cōmunicantes, cum ipsæ per hypothesin sint proportionales c & d. Cumq̃ sit per primam sexti g ad h, sicut c ad d & k ad l sicut e ad f, erit g ad h sicut k ad l, & permutatim g ad k sicut h ad l. Quia igitur h est cōmunicans l, eo quod duo eorum latera quæ sunt d & f cōmunicant in longitudine uel in potentia secundum quod a & b in alterutro eorum cōmunicant, sequitur ex 10 ut g & k quoq̃ subinuicem cōmunicent: erit igitur K rationalis aut medialis prout fuerit g, ex diffinitione superficiei rationalis aut 21. In hoc enim tantum differt bimediale primū a bimediali secūdo, quod portiones bimedialis primi in quas secūdum suum terminū diuiditur, continent superficiē rationalem, bimedialis autē secundi, medialem. Si igitur a fuerit bimediale primū, erit superficies g rationalis, quare & K, & ideo b bimediale primū per 31. Quod si a fuerit bimediale secūdum, erit superficies g medialis, ob hoc etiam & K, b itaq̃ per 32 erit bimediale secundum, quare constat propositū. Idem aliter. Ad lineam rationalem c d (posita a alterutro bimedialium, & b sibi in longitudine uel potentia cōmunicante) adiungatur superficies c e æqualis quadrato a, & f g æqualis quadrato b, eruntq̃ superficies c e & f g cōmunicantes, eo quod quadrata eis æqualia quæ sunt quadrata linearum a & b sunt cōmunicantia ex hypothesi: ex prima igitur sexti & decima huius, necesse est duas lineas d e & e g esse cōmunicantes. Et quia si a fuerit bimediale primum, linea d e erit binomium secūdum per 55, ideoq̃ e g etiam binomium secundum per præmissam, quare latus tetragonicū superficiei f g (& ipsum est b) bimediale primū per 49, at uero si a fuerit bimediale secūdum linea d e erit binomium tertium per 56, ideo e g est binomium tertium pet{printer-error-correction:per} præmissam, quare & latus tetragonicū superficiei f g (& ipsum est b) bimediale secundum per 50, manifestū est igitur uerum esse quod proponitur.
 
@@ -24,11 +26,13 @@ CAMPANVS. Veritatem habet quod dicitur, siue in longitudine, siue etiam in poten
 
 ## Eucli. ex Zamb. Theorema 49 Propositio 67
 
+[Curated heading level=3 type=zamberti_sequence: 67.]
+
 [Margin]
 67
 [/Margin]
 
-## Ei quæ ex binis medijs longitudine cōmensurabilis, & ipsa ex binis est medijs, & in ordine eadem.
+Ei quæ ex binis medijs longitudine cōmensurabilis, & ipsa ex binis est medijs, & in ordine eadem.
 
 THEON ex Zamb. Esto ex binis medijs α β, & ipsi α β cōmensurabilis esto longitudine γ δ. Dico quod γ δ ex binis est medijs, & in ordine ipsi α β eadem. Quoniam enim α β ex binis medijs est diuisa in medias in ε, ipsæ igitur α ε, ε β (per 37 & 38 decimi) mediæ sunt potentia tantum cōmensu
 

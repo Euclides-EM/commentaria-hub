@@ -8,7 +8,9 @@ a b, & ducatur linea f g. Quia igitur impossibile est partẽ trianguli e f g es
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 
-## Si binæ rectæ lineæ se adinuicẽ secuerint, in uno sunt plano, & omne triangulũ in uno plano est.
+[Curated heading level=3 type=zamberti_sequence: 2.]
+
+Si binæ rectæ lineæ se adinuicẽ secuerint, in uno sunt plano, & omne triangulũ in uno plano est.
 
 [Margin]
 2
@@ -20,7 +22,9 @@ THEON ex Zamberto. Binæ, inquam, rectæ lineæ α β, γ δ, se adinuicem secen
 
 ## Eucli. ex Camp. Propositio 3
 
-## OMnium duarum superficierũ seinuicem secantium, communis sectio est linea recta.
+[Curated heading level=3 type=campanus_sequence: 3.]
+
+OMnium duarum superficierũ seinuicem secantium, communis sectio est linea recta.
 
 [Margin]
 3
@@ -32,7 +36,9 @@ CAMPANVS. De planis superficiebus intellige, & uerum erit quod dicitur. Sint ita
 
 ## Eucli. ex Zamb. Theorema 3 Propositio 3
 
-## Si bina plana se adinuicẽ secuerint, cõmunis eorũ sectio recta linea est.
+[Curated heading level=3 type=zamberti_sequence: 3.]
+
+Si bina plana se adinuicẽ secuerint, cõmunis eorũ sectio recta linea est.
 
 [Margin]
 3
@@ -44,10 +50,12 @@ THEON ex Zamb. Bina etenim plana α β, β γ, se adinuicem dispescant, cõmunis
 
 ## Eucli. ex Camp. Propositio 4
 
+[Curated heading level=3 type=campanus_sequence: 4.]
+
 [Margin]
 4
 [/Margin]
 
-## SI fuerit linea orthogonaliter ab incisione duarum linearum erecta intersecantiũ se, ipsa ad earundem su
+SI fuerit linea orthogonaliter ab incisione duarum linearum erecta intersecantiũ se, ipsa ad earundem su
 
 <!-- Catchword: perficiem -->

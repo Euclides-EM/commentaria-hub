@@ -8,7 +8,13 @@ inuicem æquales, manifestū est quod bini reliquo, quomodocunq̃ suscepti sunt 
 
 ## Eucli. ex Camp. Propositio 21
 
-21 {dropcap:O|lines=?|style=decorated|decoration="a face in a roundel"}Mnis angulus solidus quatuor rectis angulis minor esse probatur.
+[Curated heading level=3 type=campanus_sequence: 21.]
+
+[Margin]
+21
+[/Margin]
+
+{dropcap:O|lines=?|style=decorated|decoration="a face in a roundel"}Mnis angulus solidus quatuor rectis angulis minor esse probatur.
 
 CAMPANVS. Anguli solidi quantitas, ex angulorū superficialium ipsum solidum continentiū quantitate determinatur. Hac ergo 21 propositione id etiam proponitur, quoslibet superficiales angulos solidum quēlibet continētes pariter acceptos, quatuor rectis angulis esse minores. Sit enī triāgula pyramisa a b c d{printer-error-correction:pyramis}, cuius supremus angulus cum possit esse quilibet suorum angulorū, hic tamen sit a, de quo dico, quod tres superficiales anguli ipsum a continentes, sunt minores quatuor rectis. Constat enī ex 32 primi, nouem angulos trium triangulorū hanc pyramidem circumstantium (& ipsi sunt a b c, a c d, a d b) esse æquales sex angulis rectis, de tribus autem angulis basis eius quæ est triangulus b c d, constat quoq̃ per eandem, ꝙ ipsi sunt æquales duobus rectis. Cum igitur sex anguli trium triangulorū prædictorū hanc nostram pyramidem (de cuius supremo angulo disputamus) circundantium, qui inquam sex anguli cum tribus angulis basis reliquos tres angulos solidos pyramidis continent, sint ex præmissa ter assumpta maiores tribus angulis basis, sequitur ipsos sex angulos esse maiores duobus rectis, ex nouem igitur angulis trium triangulorū pyramidem circundantiū his sex angulis demptis erunt ex cōmuni scientia reliqui tres (& ipsi sunt qui constituūt solidum angulum a) minores 4 rectis.
 
@@ -20,7 +26,13 @@ Si autē angulus a supremus in assumpta pyramide pluribus angulis supficialibus 
 
 ## Eucli. ex Zamb. Theorema 19 Propositio 21
 
-21 Omnis solidus angulus, sub paucioribus, quàm quatuor rectis angulis planis cōprehenditur.
+[Curated heading level=3 type=zamberti_sequence: 21.]
+
+[Margin]
+21
+[/Margin]
+
+Omnis solidus angulus, sub paucioribus, quàm quatuor rectis angulis planis cōprehenditur.
 
 THEON ex Zamb. Sit solidus angulus qui ad α, comprehensus sub
 

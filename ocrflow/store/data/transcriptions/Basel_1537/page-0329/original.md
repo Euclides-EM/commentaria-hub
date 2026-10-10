@@ -6,6 +6,8 @@ dine commensurabili, estque tota β η, ipsi α expositæ rationali commensurabi
 
 ## Eucli.ex Camp. Propositio 81
 
+[Curated heading level=3 type=campanus_sequence: 81.]
+
 [Margin]
 81
 [/Margin]
@@ -16,7 +18,9 @@ CAMPANVS Ad habendum residuum secundum, sit a linea rationalis posita, eique com
 
 [Diagram: line a; line with points c, d, b (c at left, d toward the right, b at the right end); a shorter line e; dotted number line with labels f and g]
 
-## Eucli.ex Zãb. Problema 19 Propositio 86
+## Eucli.ex Zãb. Problema 19{printer-error-correction:20} Propositio 86
+
+[Curated heading level=3 type=zamberti_sequence: 86.]
 
 [Margin]
 86
@@ -30,6 +34,8 @@ THEON ex Zamb. Exponatur rationalis α. & ipsi α longitudine commensurabilis es
 
 ## Eucli.ex Camp. Propositio 82
 
+[Curated heading level=3 type=campanus_sequence: 82.]
+
 [Margin]
 82
 [/Margin]
@@ -40,7 +46,9 @@ CAMPANVS Residuum tertium sic habetur. Posita ut prius a rationali numeróque e 
 
 [Diagram: dotted number line e divided into parts f and g; dotted number line h; line a; line with points b, d, c (b at the left end, d in the middle, c at the right end)]
 
-## Eucli.ex Zamb. Problema 20 Propositio 87
+## Eucli.ex Zamb. Problema 20{printer-error-correction:21} Propositio 87
+
+[Curated heading level=3 type=zamberti_sequence: 87.]
 
 [Margin]
 87

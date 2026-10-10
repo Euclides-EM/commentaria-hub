@@ -4,6 +4,8 @@
 
 ## Eucli. ex Camp. Propositio 15.
 
+[Curated heading level=3 type=campanus_sequence: 15.]
+
 [Margin]
 15
 [/Margin]
@@ -15,6 +17,8 @@ CAMPANVS. Sint duæ lineæ a b & c, d, se inuicē secantes in puncto e: dico q̃
 [Diagram: two straight lines a b and c d crossing at point e; labels a and c above, d and b below]
 
 ## Eucli. ex Zamb. Theorema 8. Propositio 15.
+
+[Curated heading level=3 type=zamberti_sequence: 15.]
 
 [Margin]
 15
@@ -28,6 +32,8 @@ THEON ex Zamb. Duæ rectæ lineæ α β & γ δ, se inuicem secent in signo ε. 
 
 ## Eucli. ex Camp. Propositio 16.
 
+[Curated heading level=3 type=campanus_sequence: 16.]
+
 [Margin]
 16
 [/Margin]
@@ -39,6 +45,8 @@ CAMPANVS. Sit ut triangulia b c, latus a b protrahatur usq̃ ad d, dico q̃ angu
 [Diagram: triangle a b c with side a b produced to d; e midpoint of c b with line a e f drawn through, g midpoint of a b with line c g h drawn through, and h b produced to k, forming a star-like configuration; labels d, b, f, h, g, e, a, c]
 
 ## Eucli. ex Zamb. Theorema 9. Propositio 16.
+
+[Curated heading level=3 type=zamberti_sequence: 16.]
 
 [Margin]
 16

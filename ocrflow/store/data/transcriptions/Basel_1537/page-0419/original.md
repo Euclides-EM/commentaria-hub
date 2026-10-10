@@ -4,6 +4,8 @@
 
 ## Eucli. ex Camp. Propositio 11
 
+[Curated heading level=3 type=campanus_sequence: 11.]
+
 [Margin]
 11
 [/Margin]

@@ -6,7 +6,11 @@ per 36 primi:æqualis a c:quare sicut linea g c est multiplex lineæ b c:ita sup
 
 ## Eucli.ex Zamb. Theorema 1. Propositio 1.
 
-## 1
+[Curated heading level=3 type=zamberti_sequence: 1.]
+
+[Margin]
+1
+[/Margin]
 
 Triangula & parallelogramma,quæ sub eadem sunt altitudine,ad se inuicem sunt ut bases.
 
@@ -16,7 +20,11 @@ THEON ex Zamberto. Sint triangula quidem α β γ,& α γ δ,parallelogramma uer
 
 ## Eucli.ex Camp. Propositio 2
 
-## 2
+[Curated heading level=3 type=campanus_sequence: 2.]
+
+[Margin]
+2
+[/Margin]
 
 {dropcap:S|lines=?|style=decorated|decoration="figures"}I linea recta duo trianguli latera secans, reliquo fuerit æquidistans,eam duo illa latera proportionaliter secare.Si uero proportionaliter secet,eam reliquo lateri æquidistare necesse est.
 

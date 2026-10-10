@@ -6,7 +6,11 @@
 
 ## Eucli.ex Camp. Propositio 5.
 
-## 5
+[Curated heading level=3 type=campanus_sequence: 5.]
+
+[Margin]
+5
+[/Margin]
 
 {dropcap:O|lines=?|style=decorated|decoration="a face among foliage"}Mnium duorum triangulorum quorum cunctorum laterum sese respicientium est proportio una, anguli lateribus proportionalibus contenti,æqui sibijnuicem esse probantur.
 
@@ -16,7 +20,11 @@ CAMPANVS. Hæc est conuersa prioris. Nec fecit ex ea & præmissa unam conclusion
 
 ## Eucli.ex Zamb. Theorema 5. Propositio 5.
 
-## 5
+[Curated heading level=3 type=zamberti_sequence: 5.]
+
+[Margin]
+5
+[/Margin]
 
 Si duo triāgula,latera proportionalia habuerint,æquiangula erūt triangula,& æquales habebūt angulos sub quibus eiusdem rationis latera subtenduntur.
 

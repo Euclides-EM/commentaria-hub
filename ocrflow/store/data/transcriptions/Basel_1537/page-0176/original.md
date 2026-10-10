@@ -8,7 +8,11 @@ sin̄ & 6 huius:ipsi trianguli sunt æquianguli, & angulus b,est æqualis angulo
 
 ## Eucli.ex Camp. Propositio 31
 
-## 31
+[Curated heading level=3 type=campanus_sequence: 31.]
+
+[Margin]
+31
+[/Margin]
 
 IN omni triāgulo rectāgulo superficies lateris quod subtēditur angulo recto, æqualis est superficiebus duorū laterū angulū rectum continentiū pariter acceptis,cū fuerint similes ei in lineatione & creatiōe.
 
@@ -24,7 +28,11 @@ Sequentes duæ ex Zamberto propositiones,duabus præcedētibus ex Campano præpo
 
 ## Eucli.ex Zamb. Theorema 21 Propositio 31
 
-## 31
+[Curated heading level=3 type=zamberti_sequence: 31.]
+
+[Margin]
+31
+[/Margin]
 
 In rectangulis triangulis quæ ab rectum angulum subrendente latere species, æqualis est eis quæ ab rectum angulum comprehendentibus lateribus speciebus similibus similiterq̃ descriptis.
 

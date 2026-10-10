@@ -14,7 +14,9 @@ Sit in mūdo horizon a b c d, tropicus uero æstiuus sit a d, zodiacus circulus 
 
 Aduerte. Vniuersaliter scire oportet, quod præcedētibus signis super horizonte existentibus circūferentia neq̃ oritur neq̃ occidit, subsequentibus autem signis super horizonte existentibus, tota oritur & tota occidit, præcedētia nanq̃ signa prius oriuntur & prius occidunt per 5 theorema. Ipsius igitur p r circūferentiæ signum præcedens est p, ipsius autem g f præcedens est g: accipiēs igitur ipsam p r occidentem, ipsam uero g f orientem, necessario permutationes earum quærens, eas in semper apparēti hemisphærio accepit. Ipsius autem p r occasum, ipsius uero g f, ortum quādo enim p ad ipsum l uenit, ipsa p r nequaq̄ occidit, sed adhuc super terram est quare accepit eius occasum, ipsum enim p r, per k in oriente existente, tota p r sub terra est, motaq̃ sphæra tota superfertur. Quare in quo p ab ipso k ad l, uenit cum occasu ipsius p r, id est tempus in quo p r permutat apparens hemisphæriū. Rursus ipso f per k, in oriente existente, ipsa g f tota prius oritur. Quare accepit eius ortum. Facto autem f per l, tota g f occidit. Quere in quo f ab ipso k in l, uenit cum ortu ipsius g f, tempus est in quo g f, permutat apparens hemisphæriū. Si autem sicut habetur in alia traditione ipsius quidem p r ortum ipsius g f occasum, nequaq̄ accipient ipsa g f signa, sed ipsa r g, & tempus in quo sub terram r ipsam r g, & n ipsam n m, perficit.
 
-### Theorema 16 — Apparens 16
+## Theorema 16 Apparens 16
+
+[Curated heading level=3 type=zamberti_sequence: 16.]
 
 {dropcap:Z|lines=?|style=decorated|decoration="woodcut"}Odiaci circuli æqualiū & ex opposito circūferentiarū in quo tempore permutat altera apparēs hemisphæriū, altera non apparēs, & in quo tempore altera non apparens, altera apparens.
 

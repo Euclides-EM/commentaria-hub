@@ -16,6 +16,8 @@ Poßit enim α, irrationalem aream, hoc est id quod ex α, quadratum æquale irr
 
 ## Eucli. ex Zamb. Theorema 81{printer-error-correction:18} Propositio 21
 
+[Curated heading level=3 type=zamberti_sequence: 21.]
+
 [Margin]
 21
 [/Margin]
@@ -27,6 +29,8 @@ THEON ex Zamberto. Sub rationalibus enim potentia tantum commensurabilibus recti
 [Diagram: rectangle divided by a vertical line into two rectangles; labels δ, β, γ along the top]
 
 ## Eucli. ex Camp. Propositio 20
+
+[Curated heading level=3 type=campanus_sequence: 20.]
 
 [Margin]
 20

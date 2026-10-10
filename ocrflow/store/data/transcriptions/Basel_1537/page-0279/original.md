@@ -8,7 +8,9 @@ logrammū η θ, ipsam latitudinē efficiens ζ θ. Ipsi autem α γ ad θ μ æ
 
 ## Eucli.ex Zamb. Theorema 23 Propositio 26
 
-## Medium, non excedit medium rationali.
+[Curated heading level=3 type=zamberti_sequence: 26.]
+
+Medium, non excedit medium rationali.
 
 [Margin]
 26
@@ -22,7 +24,9 @@ Sequentes duæ ex zamberto neutiquā in Campano respondentes habent.
 
 ## Eucli.ex Zamb. Problema 4 Propositio 27
 
-## Medias inuenire potentia tantum cōmensurabiles, rationale comprehendentes.
+[Curated heading level=3 type=zamberti_sequence: 27.]
+
+Medias inuenire potentia tantum cōmensurabiles, rationale comprehendentes.
 
 [Margin]
 27

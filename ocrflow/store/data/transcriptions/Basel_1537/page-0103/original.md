@@ -18,7 +18,13 @@ Secet ergo ipsum in punctis e d, dico arcum e d, maioris, esse æqualem arcui d 
 
 ## Eucli ex Zamb. Problema 10 Propositio 10
 
-10. Isosceles triangulum constituere, habens unumquenq̃ eorum qui ad basin sunt angulorum duplum reliqui.
+[Curated heading level=3 type=zamberti_sequence: 10.]
+
+[Margin]
+10
+[/Margin]
+
+Isosceles triangulum constituere, habens unumquenq̃ eorum qui ad basin sunt angulorum duplum reliqui.
 
 THEON ex Zamb. Ponatur quædā recta linea α β, seceturq̃: (per 11 secūdi) in γ, signo ut sub α β, & β γ, cōprehensum rectāgulū æquale sit ei quod fit ex γ α, quadrato, cētro α, spatio uero α β, (per 3 postulatū) circulus describatur β δ ε. Applicetur q̃ in circulū β δ ε, ipsi α γ, rectæ lineæ quæ diametro ipsius β δ ε, maior nō est circuli ε δ, æqualis recta linea β δ, (per 1 quarti,) & cōnectātur α δ, γ δ, describaturq̃: (per 5 quarti) circa α γ δ, triangulū, circulus α γ δ. Et quoniā cōtinetur sub α β, & β γ, rectāngulū æquū est ei quod fit ex α γ, quadrato, æqualis autē est α γ, ipsi β δ, quod igitur continetur extra circulum α γ δ, suscipitur signū aliquod β, & ab ipso ε, in circulū α γ δ, ceciderint duæ rectæ lineæ & earū una secat & altera incidit, & id quod cōtinetur sub α β, & β γ, æquū est ei quod fit ex β δ, γ, igitur (per 37 tertij,) β δ, tangit circulū α γ δ, in β δ, signo, ab ipso autē δ, contactūs ducta est δ γ, angulus igitur β δ γ, (per 32 tertij,) æqualis est ei qui in alterno est circuli segmēto, angulo qui sub δ α γ. Quoniam igitur æqualis est angulus β δ γ, angulo δ α γ, cōmunis apponatur angulus γ δ α. Totus igitur angulus β δ α, æqualis est duobus qui sub γ δ α, & γ α δ, sunt angulis. Sed eis qui sunt sub γ δ α, & γ α δ, æqualis est angulus exterior β γ δ, (per 32, primi, & angulus igitur β δ α, est angulo β γ δ. Sed angulus β δ α, æqui sub γ β δ
 

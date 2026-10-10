@@ -14,7 +14,7 @@ Si tres magnitudines a b,c d,e.& a b ipsa c d,dato maior esto quàm in ratione,&
 
 [Diagram: three vertical line segments in the right margin, with visible point labels a, g, b; e, f, d; e]
 
-## Aliter.
+### Aliter.
 
 Sint tres magnitudines a b,c,d,& a b ipsa c dato maior sit quàm in ratione. & c ipsa d.dato maior sit quã in ratione. Dico quod & a b ipsa d, dato maior est quã in ratione. Quoniã a b ipsa c dato maior est quã in ratione, auferatur data magnitudo a e. Reliquæ igitur e b ad c ratio est data per 4 ꝓpositionẽ. At c ipsa d,dato maior est q̃ in ratiõe,& e b igitur ipsa d,dato maior est quàm in ratione. Auferatur igitur data magnitudo e f. Reliquæ igitur f b ad d,ratio est data per eandem,At a f,data est,& a b igitur ipsa d,dato maior est quàm in ratione.
 

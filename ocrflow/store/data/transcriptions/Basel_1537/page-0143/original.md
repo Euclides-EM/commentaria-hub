@@ -10,7 +10,9 @@ Potest quoque & hoc demonstrari per decimamtertiā huius, sumptis g l m ad a b e
 
 Quod si plures tribus fuerint quantitates in utroque ordine, utpote quatuor additis p & q. ita quod sit a ad b sicut d ad q, & b ad e, sicut c ad d, & e ad p sicut f ad c, erit iterum a ad p, sicut f ad q. erit enim per prædemonstrata a ad e, sicut c ad q. Sublatis igitur b & d, erunt tres quantitates a e p, & aliæ tres f c q. ut proponitur, quare a ad p, sicut f ad q. Sic igitur demōstratur de quatuor per tres, sublato uno medio. Eodem modo demonstrabis de quinque per quatuor, sublatis duobus medijs, & de sex per quinque, sublatis tribus. & sic in cæteris.
 
-## Eucli. ex Zamb. Theorema 25 Propositio 25
+## Eucli. ex Zamb. Theorema 25{printer-error-correction:23} Propositio 25{printer-error-correction:23}
+
+[Curated heading level=3 type=zamberti_sequence: 23.]
 
 [Margin]
 23

@@ -8,7 +8,13 @@ Dico quod α γ, irrationalis est. Quoniam enim incommensurabilis est α β, ips
 
 ## Eucli. ex Camp. Propositio 31
 
-31 SI duæ lineæ mediales potentia tantū communicantes superficiémque rationalem continētes, directe coniungātur, tota linea ex his composita erit irrationalis, diceturq́ⳓ bimediale primum.
+[Curated heading level=3 type=campanus_sequence: 31.]
+
+[Margin]
+31
+[/Margin]
+
+SI duæ lineæ mediales potentia tantū communicantes superficiémque rationalem continētes, directe coniungātur, tota linea ex his composita erit irrationalis, diceturq́ⳓ bimediale primum.
 
 CAMPANVS Sint duæ lineæ a b & b c, in continuum directumque coniunctæ quales proponuntur, quas per 24 & 25 reperies, dico totam lineam a c esse irrationalem, & ipsa uocatur bimediale primum. Est enim duplum superficiei a b in b c rationale per hypothesin, duoq́ⳓ quadrata duarū linearū a b & b c pariter accepta faciunt mediale, cum utrūq́ⳓ quadratum sit mediale per hypothesin, & unum eorū cōmunicans alij, duplum igitur superficiei unius earum in alteram est incommunicans duobus quadratis pariter acceptis, totū ergo aggregatū ex duplo superficiei & duobus quadratis (& ipsum est quadratū totius a c per 4 secundi) est incommensurabile duplo superficiei unius earū in alteram per 9 huius. Cū itaque duplum superficiei sit rationale, erit quadratum a c irrationale, ideoq́ⳓ & linea a c. quod est propositum.
 
@@ -20,7 +26,13 @@ IDEM aliter. Sit linea d e, rationalis in longitudine, cui adiūgatur superficie
 
 ## Eucli. ex Zamb. Theorema 25 Propositio 37
 
-37 Si binæ mediæ potentia tantum commensurabiles compositæ fuerint rationale comprehendentes, tota irrationalis est, uocatur autē ex binis prima medijs.
+[Curated heading level=3 type=zamberti_sequence: 37.]
+
+[Margin]
+37
+[/Margin]
+
+Si binæ mediæ potentia tantum commensurabiles compositæ fuerint rationale comprehendentes, tota irrationalis est, uocatur autē ex binis prima medijs.
 
 THEON ex Zāb. Componantur enim binæ mediæ potentia tantum commensurabiles α β, β γ, rationale cōprehendentes. Dico quod α γ irrationalis est. Quoniam enim incommensurabilis est α β, ipsi β γ, longitudine, & quæ ex α β, β γ, igitur sunt incommensurabilia ut quod bis sub α β, β γ. Componendo igitur quæ ex α β, β γ, una cum eo quod bis sub α β, β γ, hoc est illud quod ex α γ, incommensurabile est ei quod sub α β, β γ. Supponuntur autem ipsæ α β, β γ, rntionale{printer-error-correction:rationale} comprehendentes irrationale igitur est id quod ex α γ, irratiōalis igitur est α γ, uocatur sane ex binis medijs prima,\* uocauit autē eam ex binis medijs primam, quoniam rationale comprehendit, & conterit rationale.
 
@@ -32,7 +44,13 @@ Græcus non habet
 
 ## Eucl. ex Camp. Propositio 32
 
-32 SI duæ lineæ mediales potentialiter tantum communicantes superficiemq́ⳓ medialem continentes directe coniungantur, tota
+[Curated heading level=3 type=campanus_sequence: 32.]
+
+[Margin]
+32
+[/Margin]
+
+SI duæ lineæ mediales potentialiter tantum communicantes superficiemq́ⳓ medialem continentes directe coniungantur, tota
 
 <!-- Signature: A -->
 

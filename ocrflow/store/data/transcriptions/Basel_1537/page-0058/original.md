@@ -4,6 +4,8 @@
 
 ## Eucli. ex Camp. Propositio 11.
 
+[Curated heading level=3 type=campanus_sequence: 11.]
+
 [Margin]
 11
 [/Margin]
@@ -16,6 +18,8 @@ CAMPANVS. Sit linea data a b, quā uolumus sic diuidere: ut quod ex tota & una e
 
 ## Eucli. ex Zamb. Problema 1. Propositio 11.
 
+[Curated heading level=3 type=zamberti_sequence: 11.]
+
 [Margin]
 11
 [/Margin]
@@ -27,6 +31,8 @@ THEON ex Zamb. Sit data recta linea α β: oportet autem ipsam α β secare, ut 
 [Diagram: square α β γ δ with a smaller square on α ζ adjoined above, points ε, ζ, η, θ, κ marking the construction; a diagonal line runs across the figure]
 
 ## Eucli. ex Camp. Propositio 12.
+
+[Curated heading level=3 type=campanus_sequence: 12.]
 
 [Margin]
 12
