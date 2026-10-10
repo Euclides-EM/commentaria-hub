@@ -11,9 +11,11 @@ Dan zweymal genommen erfüllet ſy die linj a f nit/dreymal genommen/thůt ſy m
 
 Volgt.
 
-## 4. Diſe quantiteten haben ain Proportz gegenainander/deren die aine ettlich mal genommen oder gemehrt/die ander ybertreffen mag.
+[Curated heading level=3 type=numbered_item: 4.]
 
-### Erklärung.
+4. Diſe quantiteten haben ain Proportz gegenainander/deren die aine ettlich mal genommen oder gemehrt/die ander ybertreffen mag.
+
+#### Erklärung.
 
 Durch diſe beſchreibung erklärt (meins erachtens) Euclides noch beſſer das/ſo zůuor von gleichförmigkhait deren ding/ſo gegen ainander geſchetzt worden/geſagt iſt. Magſtu auß obgemeltem exempel verſtehn. Dan die linj a b oder a d/mögen ſo offt genommen werden/das ſy die linj a f/ybertreffen:nemlich/ſo du a b 9 mal nemeſt/oder a d dreymal. Deßgleichen ſo du die figur f a b g/viermal an ainander ſetzeſt/wurde ain figur darauß/ſo ain gröſſern platz inhette/weder die fürgeben ſechſeckete figur. Derhalben recht geſagt wirt/die linj a b oder a d/ſey gegen der linj a f proportioniert. Item die figur f a g b/dem ſechſeck a b c d e f. Alſo hat je ain zal gegen der anderen ain proportz/deßgleichen ain linj gegen ainer anderen linj/vnd ain figur gegen ainer anderen figur aine proportion. Als auß den erſten propoſ. des ſibenden/vnd zehenden bůchs Euclidis zůuerſtehn/ob auch ſchon ſolche proportion mit verſtendtlichen zalen nit möchte außgeſprochen werden/dennacht ſo ferr ſy gleichförmig/haben ſy ain proportiō gegenainander/vrſach/aine mag ſo offt genommen werden/das ſy mehr oder gröſſer iſt/weder die ander.
 

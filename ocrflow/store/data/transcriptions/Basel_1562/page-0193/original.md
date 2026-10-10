@@ -2,7 +2,7 @@
 
 <!-- Page number: 172 -->
 
-#### 4 Erklärt die zwelfft propoſition diß bůchs/durch zalen. Item/der grund der regel De tri angezaigt.
+### 4 Erklärt die zwelfft propoſition diß bůchs/durch zalen. Item/der grund der regel De tri angezaigt.
 
 So aber auß vier proportional zalen (die weren gleich ſtettiger oder vnderſchnittner weiß gegenainander geproportioniert) aine welche ja die ſein wurde/abgieng/gibt vns abermal die 16 propoſition gnůgſame anlaittung ſy zůfinden/angeſechen die art des multiplicierns vnd diuidierens. Dann ſo ain zal auß multiplicierung ainer zal inn ain andre entſpringt/wann mann ſolches product mitt der ainen zal tailt/zaigt ja alle mal der quotient die ander. Zum exempel/wie ſych halt 6 gegen 14/alſo halten ſych 15 gegen ainer zal/die mir vnbewüſſt/zaigt die 16 propoſition das ſolche vierdte zal mit 6 (alß der erſten) gemultipliciert/ſouil bringt alß ſo ich 14.mitt 15 multiplicier/nun 14 mal 15 iſt 210.volgt ſo ich 210 tail mitt 6.das die vierdt vnnd vnbekhannt zal ſych finden wirt/nemlich 35. Derhalben mangelt die erſt oder vierdt/multiplicier die ander mitt der dritten/das product tail inn die vierdt oder erſt/zaigt der quotient die geſůcht zal. Mangelt die ander oder dritt multiplicier die erſt mitt der vierdten das product tail mitt der dritten oder anderen/der quotient zaigt die geſůchte zal.
 

@@ -11,7 +11,7 @@ linien c f vnd c e/gleich der linien b c. Aber wie du ſichſt/ſy machen khaine
 Zwen triangel/da yeder zwo ſeytten oder linien hatt des andern zwayen linien geleich/vnd auch ire baider baſes/einander gleich ſeind/habend auch allweg zwen winckell einander gleich/nemlich welche von gleichen linien begriffen.
 [/Subhead]
 
-## Erklaͤrung.
+### Erklaͤrung.
 
 [Figure: two triangles a b c and d e f side by side]
 
@@ -27,7 +27,7 @@ Lehrt/Ain fürgebnen rechtliniſchen winckel in zwen gleich tail zerſchneiden. 
 
 Durch ein exempel ſeind diſe propoſition leichtlich zuͤuerſtehn. Derhalben ſei der fürgeben winckel a b c/mit den linien a b vn̄ b c beſchloſſen. Diſen winckel in zwen gleiche tail zethailen/nim erſtlich zwen gleiche tail von dem winckel an in baiden linien mit einem zirckel/als in diſer figur ſeind b d vnd b e. Solche zeuch zuͤſamen mit einer linien zuͦ eim triangel d b c/mit der lini d e. Nun auff diß lini ſetz ein gleich ſeittigen triangel/wie dich die erſte propoſition lehrt/der iſt verzaichnet d f e. Von dem winckel f gegen dem winckel b zeuch ain ſtracke lini/dieſelbig zerſchneidt den fürgebnen winckel a b c/in zwen gleiche tail.
 
-## Demonſtration.
+### Demonſtration.
 
 Sollichs zuͦbeweiſen/merckh das die zwo lini d b vnd b e/einander (lautt diſer operation) gleich ſeind. Item d f vnd f e/dieweil es ſeitten ſeind eins gleich ſeittigen triangells. Demnach verſteh zwen triangel d b f vnd b e f. Dieweil dann die lini d b/der lini b e/item die lini d f/der lini f e gleich iſt/auch baide triangel gleiche baſes haben (dann die lini b f/iſt ir baider gemainer baſis) volgt auß der vorgehnden 8 propoſition/das auch die zwen winckel d b f vnd e b f/ſo von gleichen linien begriffen/vnd in welche der fürgeben winckel zertailt iſt/einander gleich ſein. Gleicherweiß mag es auch bewiſen werden durch die vierdt vnd funfft propoſition/laß ich von khurtzen wegen auß.
 

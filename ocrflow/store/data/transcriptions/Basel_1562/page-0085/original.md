@@ -1,7 +1,7 @@
 <!-- Running title: Des ander bůchs Euclidis -->
 <!-- Page number: 64 -->
 
-## Verkhürtzerung diſer Operation.
+### Verkhürtzerung diſer Operation.
 
 [Diagram: geometric construction with lettered points and radical-number labels]
 

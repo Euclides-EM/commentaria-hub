@@ -4,7 +4,11 @@ A. gr.
 1.
 [/Handwritten]
 
-# Die Sechs Erſte Bücher Euclidis/ Vom anfang oder grund der Geometrj.
+# Die Sechs Erſte Bücher Euclidis/
+
+[Subhead]
+Vom anfang oder grund der Geometrj.
+[/Subhead]
 
 In welchen der rechte grund/nitt allain der Geometrj (verſteh alles kunſtlichen/gwiſen/vnd vortailigen gebrauchs des Zirckels/Linials oder Richtſcheittes vnd andrer werckzeüge/ſo zů allerlaj abmeſſen dienſtlich) ſonder auch der fürnemſten ſtuck vnd vortail der Rechenkhunſt/furgeſchriben vnd dargethon iſt.
 

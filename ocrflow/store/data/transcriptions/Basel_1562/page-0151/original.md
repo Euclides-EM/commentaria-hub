@@ -11,9 +11,11 @@ So wenig nun ain jede zal mag one brůch getailt werden/ſo wenig mag auß ainer
 Antecedēs dux, conſequens, comes.
 [/Margin]
 
-## 12 {dropcap:I|lines=2|style=plain}n vergleichung zwayer proportion/wirt baydertails die zal ſo gegen ainer andern geſchezt/die vorgehnd genennt: die aber/gegen deren die vergleichung geſchicht/nennt man die volgend.
+[Curated heading level=3 type=numbered_item: 12.]
 
-### Erklärung.
+12 {dropcap:I|lines=2|style=plain}n vergleichung zwayer proportion/wirt baydertails die zal ſo gegen ainer andern geſchezt/die vorgehnd genennt: die aber/gegen deren die vergleichung geſchicht/nennt man die volgend.
+
+#### Erklärung.
 
 Wie ſich halten 6 gegen 8/alſo auch 9 gegen 12/ſie nennen wir 6 vnd 9 die vorgehnden 8 vnd 12 die volgenden/daruon auch zůuor meldung gethon. Volgen nunn ettliche aigenſchafften/ſo auß verkerung/verſetzung oder zůſamen ziehen der vier alſo proportionierten quantiteten oder zalen ſich erzeigen.
 
@@ -21,7 +23,9 @@ Wie ſich halten 6 gegen 8/alſo auch 9 gegen 12/ſie nennen wir 6 vnd 9 die vor
 ἐναλλάξ.
 [/Margin]
 
-## 13 {dropcap:V|lines=2|style=plain}erwechſlung der proportion haiſt/wan man die vorgehnd gegen der vorgehnden/die folgende gegen der volgenden ſchetzett. Als/
+[Curated heading level=3 type=numbered_item: 13.]
+
+13 {dropcap:V|lines=2|style=plain}erwechſlung der proportion haiſt/wan man die vorgehnd gegen der vorgehnden/die folgende gegen der volgenden ſchetzett. Als/
 
 [Diagram: “6 gegen 8 / wie 9 gegen 2.”; an upper bracket links 6 and 9 beneath “Vor-” and “gend.”, and a lower bracket links 8 and 2 beneath “Vol-” and “gend.”; below are “Der halben auch” and two opposing labels “gegen.”]
 

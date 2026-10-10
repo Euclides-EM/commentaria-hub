@@ -7,6 +7,6 @@ wie die 8 propoſit. deß erſten bůchs beſchreibt/demnach auch die winckel a 
 
 Diſe propoſit. mag auch durch die 8 diſes bůchs demonſtriert werden/vnd ſunſt in ander weg/vnderlaß ich von khürtz wegen/vnnd gibs zur vbung dem fleiſſigen leſer ſelbß zůbedencken. Bei der 10 propoſition diß volgenden bůchs/wirt jr nutz ettlicher maß angezaigt.
 
-# Endet ſych hiemit das dritt bůch.
+Endet ſych hiemit das dritt bůch.
 
 [Ornament: interlaced strapwork]

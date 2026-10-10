@@ -1,7 +1,7 @@
 <!-- Page number: 56 -->
 <!-- Running title: Des andern bůchs Euclidis -->
 
-## Anderſt.
+### Anderſt.
 
 Wa aber das quadrat gröſſer/wie in diſer andern figur zůſehen/da eben die vorgehnd vergleichung iſt/auch die figur gemacht nach beſchehenem bericht/allain hab ich gleiche linj für gleiche genommen (dan es bringt khain irrung) das quadrat 4 des exceß hinein zebringenn on irrthumb.
 

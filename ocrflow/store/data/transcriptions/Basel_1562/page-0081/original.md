@@ -1,7 +1,7 @@
 <!-- Page number: 60 -->
 <!-- Running title: Des erſt büchs Euclidis -->
 
-## Erklärung vnd demonſtration.
+### Erklärung vnd demonſtration.
 
 Beſchreib ein quadrat von der gantzen linj vnd dem ainen ſtuckh daran gehenckht als ainer linj/in dem ſelben zeuch ain diameter/als dann zeuch zwo linien/aine von dem puncten des zertailens der linien/die ander von dem puncten da das ain ſtuckh der gantzen linj iſt angehenckt/welche gegen des quadrats ſeitten parallel ſeyen/vnd da ſy den diameter treffen. Durch die ſelben puncten zeuch zwo ander linien/den andern ſeitten des quadrats parallel/ſo haſtu die figur/welche augenſcheinlich das außweißt/vnd durch die 24. vnd 36. propoſitiones des erſten bůchs/leichtlich mag demonſtriert werden/ſo du gleichs für gleichs nimbſt.
 

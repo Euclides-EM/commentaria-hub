@@ -5,4 +5,4 @@
 
 [Diagram]
 
-## End des andern bůchs Euclidis.
+End des andern bůchs Euclidis.

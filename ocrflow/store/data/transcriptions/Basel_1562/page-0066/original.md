@@ -5,7 +5,7 @@
 
 So zwo rechte linien ſeind/vnder welchen aine in etlich thail zertailt iſt/wirt die winckelrecht figur/ſo von diſen zwaien linien begriffen iſt/gleich ſein allen winckelrechten figuren ſambtlich/ſo von der gantzen vnd yedem ſtücklin der zertailten lini begriffen werden.
 
-## Erklärung.
+### Erklärung.
 
 Das winckelrecht parallelogram a/iſt gleich den anderen fünff figuren ſambtlich/nemlich b c d e f/iſt leichtlich zů beweyſen/angeſehen gleiche linien/welche auch von nott gleiche figuren beſchlieſſen. Auch iſt dz gantz ſo groß als all ſeine tail/ſambtlich. Item im exempel ſo mit zalen erklärt/ſeind die zwo linien 8 vnd 10/ſeind die zehen in 1.2.3.4. zertailt 10 mal 8/thůt 80/den innhalt der erſten figur/ſouil thůnd auch ſambtlich die andern figurn/ſo von der gantzen lini 8 vnd den ſtücklin der zertailten/als 1.2.3.4. begriffen werden/Nemlich 8.16.24.32. deren aller ſumma iſt auch 80. &c.
 

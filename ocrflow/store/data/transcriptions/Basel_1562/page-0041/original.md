@@ -25,7 +25,7 @@ Wo yede figur inn ire triangel zertailen.
 Alle außwenndig winckell ainer figur/wieuil gerechter winckeln die gleich.
 [/Margin]
 
-## Ain andern weg zůbeweyſen/daß yede rechtliniſche figur/ſo vil Gerecht winckel vermög/als yetz angezaigt.
+### Ain andern weg zůbeweyſen/daß yede rechtliniſche figur/ſo vil Gerecht winckel vermög/als yetz angezaigt.
 
 Jeder rechtliniſcher figur winckel all ſambtlich genommen/thůnd ſouil gerechter winckel/ſouil entſpringt/ſo du die zal aller winckel duplierſt (das iſt/zwaymal nimbſt) vom product vier ſubtrahierſt/Darauß aber volgt/daß ain fünffeckh/ſechs gerecht winckel vermag/Dann 2 mal 5 iſt 10. daruon nim 4 bleibt 6. Auch hatt ain ſechßeckh/acht gerechten wincklen gleich ſeine eckh/⁊c. magſtu ſelbs rechnen. Vrſach/
 

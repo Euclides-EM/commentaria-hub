@@ -17,9 +17,13 @@ Darbay zůmercken/das inn zalen durch das diuidiern leictlich entſchaiden wirt 
 Vortail.
 [/Margin]
 
-## 10. So drey quantiteten in ſtetiger proportion gegen ainander volgen: alßdann iſt die proportion der erſten/gegen der dritten/zwaymal ſo groß als der erſten gegen der andern.
+[Curated heading level=3 type=numbered_item: 10.]
 
-## 11. Wann vier quantiteten geproportioniert ſein inn annainander hangender proportion/ſo iſt die proporz der erſten gegen der vierdten dreymal ſo groß/als der erſten gegen der ander/vnnd alſo forthin: nemlich wan ir fünffen der geſtalt proportioniert weren/iſt der erſten proporz gegen der letſten viermal ſo groß/als gegen der andern/ꝛc.
+10. So drey quantiteten in ſtetiger proportion gegen ainander volgen: alßdann iſt die proportion der erſten/gegen der dritten/zwaymal ſo groß als der erſten gegen der andern.
+
+[Curated heading level=3 type=numbered_item: 11.]
+
+11. Wann vier quantiteten geproportioniert ſein inn annainander hangender proportion/ſo iſt die proporz der erſten gegen der vierdten dreymal ſo groß/als der erſten gegen der ander/vnnd alſo forthin: nemlich wan ir fünffen der geſtalt proportioniert weren/iſt der erſten proporz gegen der letſten viermal ſo groß/als gegen der andern/ꝛc.
 
 <!-- Signature: L iiij -->
 <!-- Catchword: Erſtli- -->

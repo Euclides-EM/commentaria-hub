@@ -5,9 +5,7 @@ Deßgleichen auch von den ſupplementen b f g h/vnd d e g k/zůuerſtehn. mag b 
 
 [Diagram: a rectangle divided into four smaller rectangles by one horizontal and one vertical line, with a diagonal from the upper-left corner to the lower-right corner; labelled a, b, c, d, e, f, g, h, and with numerical calculations]
 
-## XXV. Die fünffvndzwainzigſt propoſition.
-
-### Lehrt/
+## XXV. Die fünffvndzwainzigſt propoſition. Lehrt/
 
 Ain rechtliniſche figur machen welche zwaien rechtliniſchen figurn/der ainen gleichförmig der andern gleich ſei.
 

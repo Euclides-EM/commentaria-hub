@@ -1,6 +1,9 @@
 <!-- Page number: 6 -->
 
-# Volgen des Erſten Buͤch Euclidis Propoſition/Das iſt/Fürgaͤben/oder Schlußreden.
+# Volgen des Erſten Buͤch
+[Subhead]
+Euclidis Propoſition/Das iſt/Fürgaͤben/oder Schlußreden.
+[/Subhead]
 
 ## I. Die erſt Propoſition/ Lehrt
 

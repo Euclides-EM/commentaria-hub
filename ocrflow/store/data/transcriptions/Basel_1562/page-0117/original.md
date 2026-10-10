@@ -3,7 +3,11 @@
 
 ſchriben/wann des zirckels vmbkraiß alle ſeitten der rechtliniſchen figur berüert.
 
+[Curated heading level=3 type=numbered_item: 6.]
+
 6 Ain zirckel wirt vmb ain rechtliniſche figur beſchriben/wan ſein vmbkhraiß alle winckell der rechtliniſchen figur berüert.
+
+[Curated heading level=3 type=numbered_item: 7.]
 
 7 Ain rechte linj wirt inn ainem zirckel geſtellt oder gefüegt/wann ire baide ortt/in dem vmbkraiß des zirckels ſeind.
 

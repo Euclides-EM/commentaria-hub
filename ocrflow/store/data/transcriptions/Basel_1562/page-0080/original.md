@@ -5,7 +5,7 @@
 
 So ain linj nach gefallen entzwaj getailt wirtt/ſeind die quadrat der gantzen linj vnd des ainen ſtucks ſambtlich/gleich dem ſo zwaj mal von der gantzen linj vnd bemeltem ſtuck begreiffen wirt/ſambt des andern ſtuckhs quadrat.
 
-## Erklärung vnd demonſtration.
+### Erklärung vnd demonſtration.
 
 Diſe propoſition iſt etlicher geſtalt vmbkhert die vierdt. Sey ain linj getailt/mach vber ſy ain quadrat vnd beraitt die figur wie bey der 4 geſchehen/dann die 4 propoſition iſt diſer grund. Als das quadrat der gantzen linj vnd auch das quadrat des gröſſern tails/ſeind gleich zwaj mal (oder dem duplat) der figur von gemeltem tail/vnnd der gantzen lini begriffen/ſambt des klainern tails quadrat. Vrſach das quadrat der gantzen iſt gleich baider tail quadraten/vnnd dem ſo entſpringt von baiden tailen zwajmal/demnach ſo du deß gröſſern tails quadrat diſen zwajen gleich addierſt/werden die ſummen gleich ſein/namlich die zwaj quadrat des gröſſern tails vnnd der gantzen lini/ſeind gleich den zwajen figuren/da die ain auß dem gröſſern quadratt vnnd ainen ſupplement zůſamen geſetzt/vnd die ander abermals auß dem gröſſeren quadrat vnd anderen ſupplement/ſambt dem klainern quadrat. Alſo in der rechnung ſei 5 tailt in 2 vnnd 3. Iſt 25 vnnd 9 (als 34.) Souil als 3 mal 5. zů zwaj malen vnnd darzů 4. Item 25 vnnd 4 (als 29.) Souil als 2 mal 5 zweymal/vnnd 9 darzů. Hiehar beſihe die figuren der 4 propoſ.
 

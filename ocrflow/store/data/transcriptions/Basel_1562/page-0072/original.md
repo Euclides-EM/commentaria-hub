@@ -27,7 +27,7 @@ Iſt alſo 5 der ander tail der wurtzl vnd die gantz wurtzl 25. auch augenſchei
 
 In ſumma wie ſych das multipliciern vnd diuidiern gegen einander hallten/alſo auch das quadriern vnd wurtzl ſůchen. Derhalben ſo du auß diſer 4 prop. gelernet/wie ain quadrat auß den ſtücklin ſeiner wurtzel vnd den ſupplementen erſtattet/kheer das vmb/ſo findſtu wie die ſtücklin der wurtzel ordenlich zůbekhommen.
 
-## II. Anhang das quadrat zümehren vnd mindern.
+## II. Anhang das quadrat zůmehren vnd mindern.
 
 So du ainer zal quadrat haſt/vn̄ begerſt zefinden das nehſt gröſſer/duplier die zal/addier 1. die ſum thů zů dem quadrat/härgegen zůhaben das nehſt klainer/duplier die zal/daruon ſubtrahier 1. diſen reſt nimm von dem quadrat/⁊c. Als/ich waiß daß das quadrat von 27. iſt 729. Nun zůhaben dz quadrat von 28. duplier 27. werd 54. addier 1. thůt 55. die addier zů 729. werden 784. ſouil iſt 28 mal 28. Item zůhaben das quadrat auß 26 duplier 27 werden 54/ſubtrahier 1 bleyben 53. die nimm von 729. Reſt des quadrat von 26. nemlich 676 vrſach diß griffs magſtu auß diſer propoſition nemen. Den nutz aber beweißt die yebung/⁊c.
 

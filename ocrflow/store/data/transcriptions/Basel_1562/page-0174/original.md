@@ -9,7 +9,7 @@ vom anfang vnnd grund der Geometri.
 
 ## Beſchreibungen/oder außlegungen ettlicher wörtlin.
 
-### I.
+### 1.
 
 {dropcap:G|lines=3|style=decorated}leichförmig oder entliche rechtliniſche figurn ſeind/deren der ainen winckel/den wincklen der anderen gleich:vnnd die linien/ſo gleiche winckel begriffen/geproportioniert ſeind.
 

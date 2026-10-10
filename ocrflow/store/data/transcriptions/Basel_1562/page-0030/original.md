@@ -11,7 +11,7 @@ winckel bey der baſi/nemlich b a c vnd a c b/einander gleich auch ſo die zwo l
 So ein triangell zwen gleiche winckell hatt/werden auch die zwo ſeitten oder linien/ſo vnder diſen gleichen wincklen gezogen werden/einander gleich ſein.
 [/Subhead]
 
-## Erklaͤrung.
+### Erklaͤrung.
 
 [Figure: a triangle with apex a and base points b and c]
 
@@ -25,7 +25,7 @@ Wann von den zwayen auſſerſten puncten ainer lini zwo linien gezogen werden w
 So iſt nit muglich/daß zwo ander lini/die in einem andern puncten zuͤſamen fallen/von den zwayen puncten der bemelten lini gezogen werden eben auff die ſelbig ſeitten der fürgebnen lini/dergſtallt/das ye zwo linien ſo von ainem puncten außgezogen werden/einander gleich ſeien.
 [/Subhead]
 
-## Erklaͤrung.
+### Erklaͤrung.
 
 [Figure: a triangle on base a c with apex b, containing crossing lines to a point d marked with dotted lines]
 

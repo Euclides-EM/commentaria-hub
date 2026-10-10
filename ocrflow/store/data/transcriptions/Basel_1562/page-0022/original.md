@@ -2,23 +2,37 @@
 
 [Ornament: headpiece with foliate scrollwork and grotesque figures]
 
-# Das erſt buͦch Euclidis/ Von dem anfang oder grund der Geometrj.
+# Das erſt buͦch Euclidis/
+
+[Subhead]
+Von dem anfang oder grund der Geometrj.
+[/Subhead]
 
 [Ornament: band of floral ornaments]
 
-## 1. Beſchreibungen/ das iſt/ Erklaͤrung ettlicher woͤrttlin/ ſo in diſem buͦch begegnen.
+## I. Beſchreibungen/ das iſt/ Erklaͤrung ettlicher
+
+[Subhead]
+woͤrttlin/ ſo in diſem buͦch begegnen.
+[/Subhead]
 
 [Margin]
 Definitiones.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 1.]
+
 1. Ain punct oder tipfflin/ wirtt das genant/ ſo khain thail hatt.
 
 Der punct iſt ein anfang aller groͤſſen oder quantitet/ yedoch er ſelbſt iſt khain groͤſſe. Darum mag er auch nit gethailt werden. Alſo iſt 1.(wie im vij.Euclidis volgt) khain zall/ dan 1. multipliciert/ vnd diuidiert nit/ ⁊c. aber iſt ein vrſprung aller zalen.
 
+[Curated heading level=3 type=numbered_item: 2.]
+
 2. Ain linj iſt ain lenge/ on alle breitte/ welche ſich an einem puncten anfacht/ vn̄ an einem puncten endet.
 
 [Diagram: a straight horizontal line and a curved line]
+
+[Curated heading level=3 type=numbered_item: 3.]
 
 3. Ain geſtrackhe oder rechte linj iſt/ welche zuͦgleich zwiſchen jren zwen puncten (darinn ſy begriffen) ligt. Oder/ iſt die nechſt vnd kürtzeſt außſtreckung von ainem punctenn zum anderen.
 
@@ -30,13 +44,19 @@ Dann die khrum̄en oder gebognē linien/ ſchwingen ſich überſich oder vnder�
 Superficies
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 4.]
+
 4. Ain fleche wirt genent/ waß allain ain lenge vnnd braitte hatt/ vnd wirt mit linien eingeſchloſſen.
+
+[Curated heading level=3 type=numbered_item: 5.]
 
 5. Ain ebne fleche iſt/ welche zuͦgleich ligt zwiſchen den linienn darmit ſy begriffen wirtt.
 
 [Diagram: a circle labelled 4.5., a triangle labelled 4.5. and a square labelled 4.5.]
 
 Hiemit werdē außgeſchloſſen die khrum̄e vn̄ gebogne flechinen/ als die ſeind an kuglen/ ſeulen/ ⁊c.
+
+[Curated heading level=3 type=numbered_item: 6.]
 
 6. Ain ebenn/ eckh/ oder ebner winckel iſt/ ſo zwo linien in einer ebnen einander betreffend vnnd anrürend/ welche nit ſtracks einander nach ligen.
 

@@ -225,6 +225,8 @@ Codex — GPT-5.6 Sol
 
 **Next steps:** Ready for curation.
 
+# Completed
+
 ## Basel_1562
 
 The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile.
@@ -251,10 +253,6 @@ Codex:
 - **Output tokens:** 838,437
 - **Reasoning tokens:** 0
 - **Total tokens:** 17,262,262
-
-**Next steps:** Ready for curation.
-
-# Completed
 
 ## Glasgow_1756
 

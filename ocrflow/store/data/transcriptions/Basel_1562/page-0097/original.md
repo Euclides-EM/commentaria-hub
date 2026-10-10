@@ -11,13 +11,23 @@ Sey der diameter a b/das centrum c/der punct d/die linien d a/d b/d e/d f/d g/d 
 
 ## VIII. Die achte propoſition.
 
+[Curated heading level=3 type=numbered_item: 1.]
+
 1 So auſſerthalb ains zirckels ain punct genomen wirt/vnnd von dem ſelben etlich linien inn den zirckel gezogen werden. Aine durch das centrum/die andern on gefohr oder nach gefallen: Iſt vnder denenn ſo auff den holenn vmbkraiß fallen/welche durch das centrum gehtt/die lengſt.
+
+[Curated heading level=3 type=numbered_item: 2.]
 
 2 Vnd nachmals allweg welche derſelben neheſte/lenger weder die weitter.
 
+[Curated heading level=3 type=numbered_item: 3.]
+
 3 Vnder denen aber/ſo auff den khrumen vmbkhraiß fallen/härgegen diſe die khürtzeſt. So zwiſchen des puncten vnd diameters.
 
+[Curated heading level=3 type=numbered_item: 4.]
+
 4 Nachmals allweg die nechſt bei ir/kürtzer weder die weitter.
+
+[Curated heading level=3 type=numbered_item: 5.]
 
 5 Es mögen auch nit mehr dann zwo gleiche linien von dem puncten zů baider ſeitten der khürtzſten auſſen auff den zirckel fallen.
 

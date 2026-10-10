@@ -2,15 +2,13 @@
 
 <!-- Page number: 114 -->
 
-## Innhallt des fünffecks.
+#### Innhallt des fünffecks.
 
 Demnach den innhallt des fünffeckhs zů finden imm erſten exempel. So die ſeitten 10/iſt die perpendicular √25+√500. Multiplicier 25 (als den halbten tail der ſumm aller ſeitten/mit √25+√500/entſpringen √15625+√195312500, der innhallt des regular fünffeckhs/etc.
 
-### 7.
-
 Auß diſem allem haſtu zůmercken/das ſolche perpendicular allmal gleich iſt dem ſemidiameter des zirckels/ſo darein/lautt diß bůchs 13 propoſ. beſchreiben wirt. Derhalben wa ain regular fünffeckh fürkhomment/dem ain zirckel aingeſchreiben iſt/haſtu ſchon die lehr deſſen diameter zůerkennen/ſo ferr die lenge der ſeitten des fünffeckhs bekhannt iſt. Härgegen ſo der diameter bekhant iſt/die ſeitten des fünffeckhs zůerlernen/můſt du wiſſen.
 
-## Die ij. propoſition des xiij. bůchs/alſo lauttend.
+### 7. Die ij. propoſition des xiij. bůchs/alſo lauttend.
 
 {dropcap:S|lines=2|style=plain}o der halb diameter ains zirckels/vnd die ſeitten ains regular zehenecks/ſo ain demſelben beſchreiben iſt/ſtracks an ainander geſetzt werden/nemlich das es jetz ain lini ſei/Als dann iſt ſolche lini zertailt/laut der 11 propoſit. des andern bůchs/vnd iſt der gröſſer tail/der halb diameter.
 

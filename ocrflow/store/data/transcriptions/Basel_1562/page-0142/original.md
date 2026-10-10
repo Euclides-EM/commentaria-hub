@@ -3,7 +3,7 @@
 
 Ich hab aber meine vrſachen/warumb ich mir die gmain/vnnd vilgebrauchte weiß neben dem Campano hierin erwölet.
 
-### Erklärung.
+#### Erklärung.
 
 Alles das jhenig/ſo man gegen ainander ſchetzt/oder vergleicht/wirt ainteweders durch zal/oder aber durch maß außgeſprachen/was zal ſey/verſtehe jederman. Maß nenne ich/da man ſagt/wie lang/hoch/brait/dickh/tieff/ſchwer/weit ain ding ſey:vnd was dergleichen iſt. Diſe wörtlin alle/werden von den glehrten vnder dem wörtlin quantitet/verſtanden vnd gehandelt.
 

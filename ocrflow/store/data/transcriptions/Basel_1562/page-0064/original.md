@@ -7,6 +7,6 @@
 
 Es hatt auch Campanus in ettlichen edition/hie noch zů end ain prop. die lehrt/ſo zway quadrat fürgeben ain gnomonem/das iſt winckelhacken/vmb dz ain machen/der dem andern gleich ſey. Aber dieweil nit allain das Griechiſch vnd andre Lateiniſche exemplar diſelb hie nit haben/ſonder auch noch nichts von diſen gnomonibus oder winckelhacken geredt/iſt woll zůerachten ſy gehör nit hiehär. Lucas Paciolus/ain Minorit vnd fürtreffenlicher mann in diſem khünſten/der ſy auch ettwa zů Venedig profitiert/vnd in Welſcher auch Lateiniſcher ſprach herrlich außgeſtrichen/bezeügt er hab in allten bůchern dieſelb gefunden die letſt on aine des andern bůchs/dahin ſy on zweifel gehört/ſo ſy des Euclidis iſt/vnd ich ſy auch zů end deſſelben bůchs geſetzt/wiewol ſy im Griechiſchen text nit verhanden/vnd villeicht durch ainen tolmetſchen oder außleger hinzugethon. Hab ich wöllen anzaigen/ꝛc.
 
-# End des erſten bůchs Euclidis.
+End des erſten bůchs Euclidis.
 
 <!-- Signature: D iiij -->

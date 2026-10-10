@@ -2,7 +2,7 @@
 
 <!-- Page number: 116 -->
 
-### Gleichſeittig triangel.
+#### Gleichſeittig triangel.
 
 Es iſt auch offenbar/das ſo man ye zwiſchen zwayen diſer puncten des ſechßeckhs ainen außlaßt/als dan ain regular triangel in den zirckel beſchriben/vnd dermaſſen auch vmb den ſelben beſchriben mag werden/welches dan (dieweil ſolliche 6 puncten leichtlich mögen verzaichnet werden/ſo ye der zirckel inn der weitte des Semidiameters außgethon im vmbkraiß härumb verkert wirt/wie meniglich bekant) behender zügeht/weder oben die ander propoſition lehrt.
 

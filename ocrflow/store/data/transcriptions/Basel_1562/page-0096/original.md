@@ -33,11 +33,19 @@ Dann wa von ſolchem gmainen centro zum puncten der berüerung ain lini (als bai
 
 ## VII. Die ſibendt propoſition.
 
+[Curated heading level=3 type=numbered_item: 1.]
+
 1 So in dem diametro ains zirckels ain punct fürgenomen wirdt/der da nitt iſt das centrum/vnnd von dem ſelben ettlich linien auff den vmbkhrais des zirckels fallen: iſt die lini vnder den anderen allen/die lengſt/welche durch das centrum geht.
+
+[Curated heading level=3 type=numbered_item: 2.]
 
 2 Vnd derſelben erfüllung die khürtzeſt.
 
+[Curated heading level=3 type=numbered_item: 3.]
+
 3 Nachmals ye/die ſo deren welche durchs centrum geht/zum nechſten/lenger/dan welche weitter daruon.
+
+[Curated heading level=3 type=numbered_item: 4.]
 
 4 Es mögen auch nit mehr dann zwo gleiche linien
 

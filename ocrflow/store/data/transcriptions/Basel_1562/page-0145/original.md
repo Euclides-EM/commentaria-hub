@@ -1,11 +1,15 @@
 <!-- Running title: Des fünfft bůchs Euclidis -->
 <!-- Page number: 124 -->
 
-## 5 Vergleichung der proportion/wirt proportionalitet genant.
+[Curated heading level=3 type=numbered_item: 5.]
 
-## 6 Zů ſolcher werden zum wenigſten drey zalen/oder zil (termini) erfordert.
+5 Vergleichung der proportion/wirt proportionalitet genant.
 
-### Erklärung.
+[Curated heading level=3 type=numbered_item: 6.]
+
+6 Zů ſolcher werden zum wenigſten drey zalen/oder zil (termini) erfordert.
+
+#### Erklärung.
 
 Alß ſo ich ſag/wie ſich ain minut helt gegen ainer ſtund/alſo halt ſich auch ain kreützer gegen ainem floren (verſtehe)/das bayde tayl 1/60 jrs gantzes ſeind. Item ſo ich ſag/wie ſich 4 helt gegen 6/alſo halten ſich die 6 gegen 9 (verſtehe das 6 anderhalb mal 4/auch 9 anderhalbmal 6 iſt) jede proportion ſteht inn vergleichung zwayer ding/als nun klar iſt/werden ſolche ding zů Latein Termini genant/als zil/oder mal ſtot/zwiſchen welchen die proportz jren platz hat.
 
@@ -37,7 +41,7 @@ Geometriſche progreſſion.
 
 Nennet man in der rechenkunſt aigentlich ain geometriſche progreſſion. Da aber nun die erſt gegen der andern/die drit gegen der vierdten ainerlay proportion halt/vnangeſehen/wie ſich die ander gegen der dritten ſchicke/iſt es ain vnderſchaydne/oder vnderſchnittene proportionalitet/als 4 gegen 16/wie 5 gegen 20. Iſt bayder tails die proportz ſo man verzaichnet ¼ aber die ander/vnd dritt (als 16 gegen 5) halten ſich anderſt/deſſen doch in diſer vergleichung nit geacht wirdt.
 
-### Merckh.
+#### Merckh.
 
 Dabey woll zůmercken/das/was volgendts von proportionaliteten/vnnd gegen ainander proportionierten zalen geredt wirt/alles in gmain geredt iſt/es werde dan außtruckelich diſer oder jhener art zůgeſchriben.
 

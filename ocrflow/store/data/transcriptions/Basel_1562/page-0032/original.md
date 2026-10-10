@@ -1,7 +1,7 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 11 -->
 
-## Warnung.
+### Warnung.
 
 [Figure: two creützriß arcs crossing over a line, with a vertical linj through the crossing points, labelled d, e, a, c and f]
 

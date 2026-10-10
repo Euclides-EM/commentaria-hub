@@ -3,7 +3,7 @@
 
 triangel a b c/der mit drej ainander geleichen linien begreiffen vnd beſchloſſen iſt.
 
-## Demonſtratio/das iſt/Grund vnd vrſach diſer Operation.
+### Demonſtratio/das iſt/Grund vnd vrſach diſer Operation.
 
 Sollichs zuͤbeweiſen/biß ingedenck des zirckels beſchreibung/oben N°.14 angezaigt. dañ auß der ſelben volgt das die linien a b/vñ a c/ainer lenge ſeind/dieweil ſy von dem Centro oder mittlen puncten aines zirckels biß an den vmbkhraiß raichen. Auß bemelter vrſach/ſeind auch die zwo linien a b vnd b c ainander geleich. So nun baide/a c/vnnd b c/der linien a b gleich ſeind/wie yetzo erwyſen/ſo müſſen auch ſy baid einander gleich ſein/auß dem Erſten puncten deren ſo durch gemainen verſtand bekhandt ſeind/⁊c. Demnach ſeind alle drej linien einander geleich/vnd dem begern ein benuͤgen geſchechen.
 

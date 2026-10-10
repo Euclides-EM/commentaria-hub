@@ -5,7 +5,7 @@
 
 Im triangell a b c/iſt d das centrum. d e/die perpendicular. die lini e f/halb ſo lang als die linien a b/a c/b c ſambtlich/nemlich 1½ mal ſo lang als ain ſeitten des triangels. Demnach das parallelogram von d e vnnd e f/begriffen/gleich dem triangel/magſtu auch probiern durch rechnung/derhalben ich die ziffern darzů geſetzt hab. Alſo iſt auch im andern exempel das parallelogram von c d vnnd d e beſchloſſen/dem quadrat a b gleich/vnnd die lini d e zwaimal ſo lang als ain ſeitten des quadrats/das iſt halb ſo lang alß all 4 ſeitten ſambtlich/ꝛc.
 
-## Demonſtration.
+### Demonſtration.
 
 [Diagram]
 

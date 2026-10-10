@@ -3,7 +3,11 @@
 
 vmbkraiſß vnd bemellter perpendicular fallen.
 
+[Curated heading level=3 type=numbered_item: 3.]
+
 3 Vnd der winckel des halben zirckels/iſt gröſſer dan yeder ſcharpffer rechtliniſcher winckel.
+
+[Curated heading level=3 type=numbered_item: 4.]
 
 4 Der vberig winckel aber/klainer.
 
