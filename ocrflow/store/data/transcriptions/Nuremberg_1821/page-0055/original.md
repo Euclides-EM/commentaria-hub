@@ -8,7 +8,7 @@ aber DF entweder =½DE, oder größer als ½DE, (nach d. Conſtr.) iſt nun DF=�
 
 Zwei der Lage und Größe nach gegebene gerade Linien BD und AF, von denen alle Punkte der einen auſſerhalb der andern ſind, und die in einerlei Ebene ſo liegen, daß wenn ſie von einer geraden Linie AB geſchnitten werden, die Summe der beiden innern an einerlei Seite der ſchneidenden Linie liegenden Winkel kleiner als zwei rechte iſt, ſind nicht parallel.
 
-## Beweis.
+### Beweis.
 
 Es ſei ABD+BAF kleiner als zwei rechte Winkel. Man nehme auf BD irgend einen Punkt M, und ziehe AM. Nun liegt AF entweder auſſerhalb AM, oder inner-
 

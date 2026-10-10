@@ -4,7 +4,7 @@ AC, und drehe ſolche in dieſer Ebene um den Punkt A, bis ſie wieder die erſt
 
 Zweiter Fall. Wenn dieſe Ebene nicht gegeben iſt, ſo ziehe man die gerade Linie AC, nehme irgendwo einen dritten von A und C verſchiedenen Punkt B an, der nicht in der geraden Linie AC oder ihrer Verlängerung iſt, und lege durch die drei Punkte A, C und B eine Ebene, (3 Ford.) betrachte dieſe Ebene als eine gegebene, und verfahre übrigens nach dem erſten Fall.
 
-## Beweis.
+### Beweis.
 
 Da die gerade Linie AC ſich in einer Ebene dreht, und in jeder Lage nicht nur ihr einer Endpunkt A unverrückt bleibt, ſondern auch ihre Größe ſich nicht ändert, ſo daß, wenn ſie in ihre erſte Lage zurückkehrt, ihr Endpunkt C wiederum im gegebenen Punkt C liegt, ſo beſchreibt ſie eine ebene Figur, und zwar eine ſolche, in der alle vom Punkt A zu beliebigen Punkten ihres Umfangs gezogenen geraden Linien der AC gleich, alſo auch einander gleich ſind. (1 Grundſ.) Folglich iſt dieſe Figur ein Kreis. (15 Erkl.)
 

@@ -2,9 +2,7 @@
 
 ſenkrechte QP größer als die ſenkrechte BD. Denn geſetzt: QB ſei =BD, ſo QPD=BDP, (30 Satz,) gegen die Bedingung. Iſt aber QP kleiner als BD, d. h. BD größer als QP, ſo iſt der Winkel BDP kleiner als der Winkel QPD, d. h. der Winkel QPD größer als der Winkel BDP, welches gleichfalls gegen die Bedingung iſt.
 
-## Zwei und dreißigſter Satz. Lehrſatz.
-
-## (Fig. 13.)
+## Zwei und dreißigſter Satz. Lehrſatz. (Fig. 13.)
 
 Wenn auf einer geraden Linie AB in einerlei und Ebene an der nemlichen Seite der AB zwei gerade Linien AE und BD ſenkrecht ſtehen, und aus einem Punkt D der einen auf die andere AE eine gerade Linie DC ſenkrecht gezogen iſt, ſo daß alſo ACD ein rechter Winkel iſt, ſo iſt der andere Winkel BDC auch ein rechter.
 

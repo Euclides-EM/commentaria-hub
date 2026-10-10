@@ -8,7 +8,7 @@ Zahl m, d. h. m mal entweder ganz genau enthalten, (d. h. A iſt ein Vielfaches 
 
 Wenn zwei ungleiche gleichartige Größen AB und C gegeben ſind, und von der größern AB die Hälfte BQ, von dem Reſt AQ wiederum die Hälfte QR, von dem Reſt AR wiederum die Hälfte RS u. ſ. f. weggenommen wird, ſo wird endlich eine Größe z. B. AS übrig bleiben, welche kleiner als die gegebene Größe C iſt.
 
-## Beweis.
+### Beweis.
 
 Man mache von der gegebenen kleinern Größe C ein ſolches Vielfaches ED, das größer als AB iſt, (35 Satz,) ſo iſt EF=FG=GH=HD=C. Man nehme hierauf die Hälfte BQ von AB weg, von dem Reſt AQ, (der =BQ =½AB iſt,) wiederum die Hälfte QR, von dem Reſt AR=QR=¼AB wiederum die Hälfte RS, und wiederhole dieſes Wegnehmen und Halbiren ſo vielmal, bis die Anzahl der Theile BQ, QR, RS und SA der Anzahl der Theile EF, FG, GH und HD gleich iſt. Nun iſt AB kleiner als DE, alſo ½ AB oder AQ kleiner als ½ DE. Es iſt
 

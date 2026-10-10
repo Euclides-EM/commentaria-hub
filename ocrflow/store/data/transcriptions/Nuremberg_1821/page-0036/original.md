@@ -12,7 +12,7 @@ Scheitelwinkel ſind gleich.
 
 Bew. S. die Uiberſ. v. L. od. B.
 
-## Zuſatz.
+### Zuſatz.
 
 1) Die Summe der vier Scheitelwinkel iſt vier rechten Winkeln gleich.
 

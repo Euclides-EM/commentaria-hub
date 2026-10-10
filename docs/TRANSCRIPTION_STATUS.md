@@ -350,16 +350,18 @@ OCR was done on Google books facs:
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_tjokpg
 
-Liri run the corrector:
-```shell
-2026/09/05 11:40:17 complete pages=72 rounds=1 requests=72 tokens_input=340 tokens_cached=1697451 tokens_cache_creation=583576 tokens_output=165781 tokens_reasoning=0 tokens_total=2447148 cost_usd=21.876591 cost_reports=72/72 final_outputs=store/data/ds_0n6l0d/annotations/ann_i74rcq/transcriptions/page-NNNN/original.md
-```
-
 Actual final version is on public domain facs:
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_yp36ia
 
-**Status**: Curation in progress.
+Fable usage:
+
+- Input tokens: 340
+- Cache creation tokens: 583,576
+- Cache read tokens: 1,697,451
+- Output tokens: 165,781
+- Total tokens: 2,447,148
+- Total cost: $21.876591
 
 # Completed
 

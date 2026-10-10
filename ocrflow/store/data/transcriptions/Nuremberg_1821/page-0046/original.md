@@ -1,8 +1,6 @@
 <!-- Page number: 41 -->
 
-## Ein und dreißigſter Satz. Lehrſatz.
-
-## (Fig. 14.)
+## Ein und dreißigſter Satz. Lehrſatz. (Fig. 14{printer-error-correction:11}.)
 
 Wenn auf einer geraden Linie AB zwei gerade Linien, AC und BD in einerlei Ebene und an dernemlichen Seite der AB ſenkrecht ſtehen, und ihre Endpunkte C und D mit einer geraden Linie CD ſo verbunden ſind, daß der Winkel BDC dem Winkel ACD gleich iſt, ſo ſind auch die ſenkrechten Linien AC und BD gleich.
 

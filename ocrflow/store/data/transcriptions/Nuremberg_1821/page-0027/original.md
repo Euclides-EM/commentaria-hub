@@ -16,7 +16,7 @@ Eben ſo: wäre die Grenze der Fläche keine Linie, ſo wäre ſie der Breite na
 
 Aus einem gegebenen Punkt A als Mittelpunkt einen Kreis zu beſchreiben, deſſen Umfang durch einen andern gegebenen Punkt C geht.
 
-## Auflöſung.
+### Auflöſung.
 
 Die Ebene, in welcher der Kreis beſchriebeu{printer-error-correction:beſchrieben} werden ſoll, iſt entweder gegeben oder nicht.
 
