@@ -417,7 +417,7 @@ export class AnnotationsService {
         id,
         categories,
         types = 'default',
-        applyPrinterErrorCorrection = false,
+        normalize = false,
     }: {
         /**
          * Dataset ID
@@ -436,9 +436,9 @@ export class AnnotationsService {
          */
         types?: string,
         /**
-         * Replace printer errors with their corrections instead of omitting the correction marks
+         * Normalize headings by applying printer error corrections and removing a leading paragraph mark
          */
-        applyPrinterErrorCorrection?: boolean,
+        normalize?: boolean,
     }): CancelablePromise<annotation_Index> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -450,7 +450,7 @@ export class AnnotationsService {
             query: {
                 'categories': categories,
                 'types': types,
-                'applyPrinterErrorCorrection': applyPrinterErrorCorrection,
+                'normalize': normalize,
             },
         });
     }

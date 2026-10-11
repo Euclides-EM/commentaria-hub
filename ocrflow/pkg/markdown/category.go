@@ -9,7 +9,7 @@ import (
 // ExtractIndexContentsFromMarkdown returns headings in the requested index
 // layers and, in the same pass, all layer names present in the document.
 // Printed headings and untyped curated headings belong to the default layer.
-func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []string, applyPrinterErrorCorrection bool) ([]Category, []string, error) {
+func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []string, normalize bool) ([]Category, []string, error) {
 	if md == nil {
 		return nil, []string{DefaultIndexType}, nil
 	}
@@ -52,9 +52,13 @@ func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []str
 				continue
 			}
 		}
+		content = StripEmphasis(ResolvePrinterErrorCorrections(ExpandDropcaps(content), normalize))
+		if normalize {
+			content = normalizeIndexHeadingContent(content)
+		}
 		results = append(results, Category{
 			Category:  category,
-			Content:   StripEmphasis(ResolvePrinterErrorCorrections(ExpandDropcaps(content), applyPrinterErrorCorrection)),
+			Content:   content,
 			IndexType: indexType,
 		})
 	}
@@ -68,6 +72,12 @@ func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []str
 		availableTypes[0], availableTypes[i] = availableTypes[i], availableTypes[0]
 	}
 	return results, availableTypes, nil
+}
+
+func normalizeIndexHeadingContent(content string) string {
+	content = strings.TrimSpace(content)
+	content = strings.TrimPrefix(content, "¶")
+	return strings.TrimSpace(content)
 }
 
 type Category struct {
