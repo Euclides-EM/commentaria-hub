@@ -3,7 +3,7 @@
 
 [Figure: two parallelepipeds, the first labelled E, D, F, G, H, C, A, B, the second labelled T, V, R, S, Q, N, P, O, M, L, I, K, with dotted lines]
 
-## I. Préparation.
+### I. Préparation.
 
 1. {dropcap:C|lines=2|style=plain}Oupez de la hauteur RI la partie PI = à la hauteur BG.
 2. Par le point P, faites paſſer le Plan PONQ, Plle à la baze IL.
@@ -68,11 +68,11 @@ Prop. 11. L. 5.
 
 C. Q. F. D. II.
 
-## CAS III.
+### CAS III.
 
 Lorſque le ⊟ IV à un inclinaiſon differente que le ⊟ AD.
 
-## II. Préparation.
+### II. Préparation.
 
 {dropcap:C|lines=2|style=plain}Onſtruiſéz un ⊟ de même hauteur que le ⊟ IV, ayant la même inclinaiſon que le ⊟ AD.
 

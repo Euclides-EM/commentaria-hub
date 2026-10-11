@@ -8,15 +8,15 @@
 
 {dropcap:S|lines=2|style=plain}I deux triangles (ABC, DEF), ont deux côtés (BA, BC) égaux à deux côtés (ED, EF) chacun à chacun; mais l'angle-compris (B) plus grand que l'angle compris (DEF): la baſe (AC) oppoſée au plus grand angle, ſera auſſi plus grande que la baſe (DF) oppoſée au plus petit angle.
 
-Hypothese.
+### Hypothese.
 *I. BA ＝ ED
 II. BC ＝ EF.
 III. ∀ B ＞ ∀ DEF.*
 
-These.
+### These.
 *La baſe AC eſt ＞ la baſe DF.*
 
-Préparation.
+### Préparation.
 
 1. {dropcap:S|lines=2|style=plain}Ur la ligne DE au point E décrivez ∀ DEG ＝ à ∀ donné B.
 
@@ -36,7 +36,7 @@ Prop. 3. L. 1.
 Dem. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ ABC les côtés BA, BC ſont ＝ aux côtés ED, EG du △ DEG (*Hyp.* 1. *Prep.* 2) & ∀ compris B ＝ à ∀ compris DEG (*Prep.* 1).
 

@@ -19,7 +19,7 @@ I. Le diametre AB eſt > chacune des cordes HI, FK.
 
 II. La corde HI eſt > la corde FK.
 
-#### *Préparation.*
+### *Préparation.*
 
 1. {dropcap:D|lines=2|style=plain}U centre C abaiſſez ſur HI & FK les ⟂ CG, CN.
 
@@ -45,7 +45,7 @@ Prop. 11. L. 1.
 Dem. 1.
 [/Margin]
 
-#### DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites CD, CE, CA, CB ſont = entr’elles (*Prep.* 4 & *Def.* 15. L. 1).
 

@@ -7,15 +7,15 @@
 
 {dropcap:S|lines=2|style=plain}I la premiere grandeur (a M) eſt multiple de la ſeconde (M), autant que la troiſieme (a N) l'eſt de la quatrieme (N); & que la cinquieme (c M) ſoit encore multiple de la ſeconde (M), autant que la ſixieme (c N) l'eſt de la quatrieme (N): la grandeur (a M + c M) compoſée de la premiere & cinquieme, eſt multiple de la ſeconde (M), autant que la grandeur (a N + c N) compoſée de la troiſieme & ſixieme l'eſt de la quatrieme (N).
 
-Hypothese.
+### Hypothese.
 
 a M & a N de même que c M & c N ſont des équimult. de M & N chacune de chacune.
 
-These.
+### These.
 
 a M + c M eſt autant multiple de M, que a N + c N l'eſt de N.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque a M eſt autant multiple de M, que a N l'eſt de N (Hyp.),
 

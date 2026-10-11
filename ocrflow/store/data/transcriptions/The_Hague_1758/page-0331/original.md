@@ -8,15 +8,15 @@
 {dropcap:T|lines=2|style=plain}Ous les angles-plan (BAC, CAD & DAB) qui forment un angle ſolide (A): ſont moindre qne quatres angles droits.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 Les ∀ BAC, CAD & DAB forment ∀ ſolide A.
 
-These.
+### These.
 Les ∀ plan BAC + CAD + DAB ſont < 4 ⌐.
 [/Subhead]
 
 [Subhead]
-Préparation.
+### Préparation.
 [/Subhead]
 
 1. {dropcap:S|lines=2|style=plain}Ur les cotés BA, AC, & AD prenez les trois points B, C & D.

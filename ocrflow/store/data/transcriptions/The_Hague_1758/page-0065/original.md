@@ -8,17 +8,17 @@
 
 {dropcap:L|lines=2|style=plain}Es triangles (ACB, ADB), placés ſur une même baſe (AB) & entre les mêmes paralleles (AB, CD), ſont égaux entr'eux.
 
-Hypothese.
+### Hypothese.
 
 *I. ACB, ADB ſont deux △,*
 
 *II. Et ces deux △ ſont placés ſur la même baſe AB & entre les mêmes Plles AB, CD.*
 
-These.
+### These.
 
 *Le △ ACB eſt ＝ au △ ADB.*
 
-Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=2|style=plain}Rolongez la droite CD de part & d'autre à l'infini.
 
@@ -32,7 +32,7 @@ Dem. 2.
 Prop. 31. L. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans la figure BF les côtés oppoſés AB, FC & AF, BC ſont Plles (*Hyp.* 2. & *Prep.* 2).
 

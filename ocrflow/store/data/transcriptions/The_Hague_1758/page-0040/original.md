@@ -8,11 +8,11 @@
 
 {dropcap:S|lines=2|style=plain}I deux droites (AC, BC) rencontrent de part & d'autre une droite (EC), en un même point (C), faiſant avec cette droite (EC) la ſomme des deux angles contigus (ACE, ECB) égale à deux angles droits: ces deux lignes droites (AC, BC) ſe rencontreront directement.
 
-Hypothese.
+### Hypothese.
 *I. Les deux lignes* AC, BC *ſe rencontrent au point* C.
 *II. Les* ∀ *contigus* ACE + ECB *ſont* ═ *à deux* ⌐.
 
-These.
+### These.
 *Les lignes* AC, BC, *ſe rencontrent directement c. à. d. elles ne forment qu'une même ligne droite* AB.
 
 ### Demonstration.

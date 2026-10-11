@@ -7,16 +7,16 @@
 
 {dropcap:S|lines=2|style=plain}'Il y a deux ſuites de grandeurs (A, B, C &c. a, b, c &c.) de même nombre de part & d'autre, telles que les raiſons de l'une ſoient égales aux raiſons de l'autre, chacune à chacune, priſes dans un ordre direct, les extrêmes ſeront proportionelles par égalité de raiſon ordonnée, ou ex æquo ordinatè.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. A : B = a : b.
 II. B : C = b : c.
 
-THESE.
+### THESE.
 
 A : C = a : c.
 
-Préparation.
+### Préparation.
 
 1. Prenez m A & m a équimult. de A & a.
 2. De même n B & n b autres équimult. de B & b.
@@ -26,7 +26,7 @@ Préparation.
 Dem. 1. L. 5.
 [/Margin]
 
-DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque A : B = a : b (Hyp. 1).
 1. On aura m A : n B = m a : n b

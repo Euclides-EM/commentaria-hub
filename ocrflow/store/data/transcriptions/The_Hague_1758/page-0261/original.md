@@ -8,11 +8,11 @@
 {dropcap:L|lines=2|style=plain}Es triangles équiangles (ABC, CDE) ont les côtés (AC, AB & CE, CD &c), qui comprennent des angles égaux (m & n &c), proportionels; & les côtés (AB, CD &c) oppoſés aux angles égaux (r & s &c), ſont homologues.
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 Les △ ABC, CDE ſont équiangles; ou ∀ m ═ à ∀ n, ∀ r ═ à ∀ s, & ∀ p ═ à ∀ o.
 
-THESE.
+### THESE.
 
 I. AB : AC ═ CD : CE. AC : BC ═ CE : DE. AB : BC ═ CD : DE.
 

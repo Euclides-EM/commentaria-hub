@@ -15,7 +15,7 @@
 
 *Le* ⊟ *EB eſt au* ⊟ *FH en raiſon triplée de AB à GH, ou comme AB³ : GH³.*
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=1|style=plain}Rolongez AB & faites AR = GH.
 
@@ -25,7 +25,7 @@
 
 4. Achevez de même le ⊟ AP, qu'il faſſe avec OA, le ⊟ OC, & avec EB le ⊟ PB.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ⊟s EB & RL, ſont ∽. (*Prép. 2.*)
 

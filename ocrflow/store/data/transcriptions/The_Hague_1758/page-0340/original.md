@@ -7,14 +7,14 @@
 
 {dropcap:S|lines=2|style=plain}Ur une ligne droite donnée (AB) : décrire un paralelipipéde (AF), ſemblable & ſemblablement poſé, à un paralelipipéde donné. (HN).
 
-DONNEES.
+### DONNEES.
 *I. La droite AB.*
 *II. Le* ⊟ *HN.*
 
 CHERCHEES.
 *Sur AB faire un* ⊟ *AF,* ∽ *& ſemblablement poſé à un* ⊟ *HN.*
 
-## Reſolution.
+### Reſolution.
 
 1. AU point A de la ligne AB faites un ∀ ſolide CADB, = à ∀ ſolide H, ou LHMI.
 
@@ -26,7 +26,7 @@ CHERCHEES.
 
 5. Achevez le ⊟ AF.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:L|lines=2|style=plain}Es trois Pgr. AE, BD, & BC ſont ∽, & ſemblablement poſés aux trois Pgr. HG, MI & LI du ⊟ HN, chacun à chacun (*Reſ.* 1. 2. 3 & 4. & *Def.* 1. *L.* 6.)
 

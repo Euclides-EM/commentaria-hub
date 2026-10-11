@@ -8,14 +8,14 @@
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (EF), tombant ſur deux autres lignes droites (AB, CD) ſituées dans un même plan, fait les angles alternes (*m* & *p* ou *n* & *o*) égaux entr'eux: ces deux lignes (AB, CD) ſont paralleles.
 
-Hypothese.
+### Hypothese.
 *I. AB, CD ſont deux lignes droites, ſituées dans un même plan,
 II. La ligne EF les coupe tellement que ∀ m ＝ ∀ p ou ∀ n ＝ ∀ o.*
 
-These.
+### These.
 *Les lignes AB, CD ſont Plles.*
 
-Demonstration.
+### Demonstration.
 
 {dropcap:S|lines=2|style=plain}I non.
 
@@ -25,7 +25,7 @@ Les droites AB, CD prolongées doivent ſe couper quelque part.
 D. 35. L. 1.
 [/Margin]
 
-*Préparation.*
+### *Préparation.*
 
 Prolongez les donc juſqu'à ce qu'elles ſe coupent en M.
 

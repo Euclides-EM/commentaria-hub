@@ -8,7 +8,7 @@
 {dropcap:E|lines=2|style=plain}Tant donnés deux ſphères (KON & GFEH), ayant un même centre (I): inſcrire dans le plus grand (KON) un polyëdre (KCSPTQVRO &c.) dont les Plans ne touchent point la petite ſphère (GFEH).
 
 [Subhead]
-DONNEES.
+### DONNEES.
 Deux ſphères concentriques KON & GFEH.
 [/Subhead]
 
@@ -18,7 +18,7 @@ I. Inſcrire dans la plus grande ſphère KON un polyëdre KPTRVO &c.
 II. Les Plans de ce polyëdre inſcrit ne doivent point toucher la petite ſphère GFEH.
 [/Subhead]
 
-## Reſolution.
+### Reſolution.
 
 1. {dropcap:C|lines=2|style=plain}Oupez les deux ſphères par un Plan KBND paſſant par leur centre commun.
 

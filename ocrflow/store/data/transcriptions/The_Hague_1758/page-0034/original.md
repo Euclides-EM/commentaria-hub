@@ -4,16 +4,16 @@
 
 [Figure: two triangles, FHG and ACB, the second with dotted lines from A and B to a point D above C]
 
-## PROPOSITION VIII. THEORÊME. V.
+## PROPOSITION VIII. THEORÊME V.
 
 {dropcap:T|lines=2|style=plain}Ous les triangles, (FHG, ACB), qui ont les trois côtés (FH, HG, GF) égaux aux trois côtés (AC, CB, BA) chacun à chacun: ſont égaux entr'eux, & les angles compris par des côtés égaux, ſont auſſi égaux chacun à chacun.
 
-Hypothese.
+### Hypothese.
 I. FH = AC.
 II. HG = CB.
 III. GF = BA.
 
-These.
+### These.
 △ FHG = △ ACB, et ∀ F = ∀ A, ∀ G = ∀ B, ∀ H = ∀ C
 
 ### Préparation.

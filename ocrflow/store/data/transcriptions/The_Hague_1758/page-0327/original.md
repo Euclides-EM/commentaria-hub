@@ -3,19 +3,19 @@
 
 [Diagram: a horizontal parallelogram plane labelled Z X within a ruled border, with a vertical rectangular plane Q E standing on it along the line E B D F, a vertical line A B, and a dotted vertical line C D]
 
-## PROPOSITION. XVIII. THEOREME XVI.
+## PROPOSITION XVIII. THEOREME XVI.
 
 {dropcap:S|lines=2|style=plain}I une droite (AB) eſt perpendiculaire à un Plan (ZX): Tous les Plans (comme QE) qui paſſent par cette ligne (AB) ſeront perpendiculaire ſur le même Plan (ZX).
 
 [Subhead]
-Hypothese.
+### Hypothese.
 AB eſt ⊥ ſur le Plan ZX.
 
-Thèse.
+### Thèse.
 Tous les Plans (comme QE), paſſant par la ⊥ AB. ſont ⊥ ſur le Plan ZX.
 [/Subhead]
 
-*Préparation.*
+### *Préparation.*
 
 1. {dropcap:F|lines=2|style=plain}Aites paſſer le Plan QE, par la ligne AB, qui coupera le Plan ZX en EF.
 2. Prenez dans cette droite EF, un point D, à volonté.

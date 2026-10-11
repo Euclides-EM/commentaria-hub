@@ -3,7 +3,7 @@
 
 [Diagram: within a ruled border, three triangles A B C, D E F and G H I, and a dotted circle L M N with centre O and apex P joined by lines to L, M, N and O]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque PO eſt ⊥ ſur le Plan du ⊙ LMN. (Reſ. 6.).
 

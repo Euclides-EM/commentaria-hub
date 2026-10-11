@@ -15,7 +15,7 @@ Prop. 32. L. 1.
 
 C. Q. F. D.
 
-*Remarque.*
+### *Remarque.*
 
 {dropcap:S|lines=2|style=plain}I les ∀ C & F *ſont l'un & l'autre droits*, les △ ABC & DEF *ſont équiangles* (*Hyp.* 1 & Prop. 32. L. 2).
 

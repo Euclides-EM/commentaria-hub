@@ -7,25 +7,25 @@
 
 {dropcap:L|lines=2|style=plain}Es cercles (AFD & ILP), ſont entr'eux comme les quarrez décrits ſur leurs diamétres (AE & IN).
 
-Hypothese.
+### Hypothese.
 
 Dans les cercles AFD & ILP on a tiré les diamétres AE & IN.
 
-These.
+### These.
 
 ⊙ AFD : ⊙ ILP = AE² : IN².
 
-Demonstration.
+### Demonstration.
 
 {dropcap:S|lines=2|style=plain}I non.
 
 AE² eſt à IN² comme le ⊙ AFD eſt à une grandeur T (qui eſt < ou > que le ⊙ ILP.)
 
-## I. Suppoſition.
+### I. Suppoſition.
 
 Soit T < ⊙ ILP de la grandeur V. c. a. d. T + V = ⊙ ILP.
 
-## I. Préparation.
+### I. Préparation.
 
 1. {dropcap:D|lines=2|style=plain}Ans le ⊙ LIP décrivez le □ ILNP.
 

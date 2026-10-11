@@ -7,11 +7,11 @@
 
 {dropcap:E|lines=2|style=plain}N tout triangle amblygone (CBA) le quarré du côté (BC): qui eſt oppoſé à l'angle obtus (A) eſt plus grand que les quarrés des deux autres côtés (AB, CA), du double rectangle compris d'un des côtés (CA) alentour de l'angle obtus, ſur le prolongement duquel tombe la perpendiculaire abaiſſée de l'angle oppoſé (B), & de la partie (AD) compriſe entre cette perpendiculaire & le ſommet de l'angle obtus (A).
 
-HYPOTHESE.
+### HYPOTHESE.
 *I. CBA eſt un △ amblygone,*
 *II. Et BD la ⊥ abaiſſée du ſommet de l'angle B, ſur le prolongement du côté oppoſé CA.*
 
-THESE.
+### THESE.
 *Le □ de BC eſt = au □ de AB + au □ de AC + au double Rgle CAD.*
 
 ### Demonstration.

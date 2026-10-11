@@ -76,7 +76,7 @@ De même tous les triangles qui forment les pyramides BLHF & ALGI ſont ∽ à t
 
 C. Q. F. D. III.
 
-## II. Préparation.
+### II. Préparation.
 
 {dropcap:T|lines=2|style=plain}Irez GH & EH.
 

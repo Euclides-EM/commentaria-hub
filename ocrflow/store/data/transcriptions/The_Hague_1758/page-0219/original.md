@@ -7,11 +7,11 @@
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs ( A, B, C, D ) ſont en proportion, elles le ſeront encore en raiſon alterne.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 A : B = C : D.
 
-THESE.
+### THESE.
 
 A : C = B : D.
 

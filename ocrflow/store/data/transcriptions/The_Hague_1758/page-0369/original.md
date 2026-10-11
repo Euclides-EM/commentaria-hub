@@ -21,11 +21,11 @@ Prop. 14. L. 5.
 
 15. D'où il ſuit qu'il n'eſt pas poſſible que le quarré du diamêtre (AE) d'un cercle (ACEG), ſoit au quarré du diamêtre (IN) d'un autre cercle (ILP), comme le premier cercle (ACEG) à une grandeur moindre que le ſecond cercle (ILP.)*
 
-## II. Suppoſition.
+### II. Suppoſition.
 
 Soit l'éſpace ou grandeur T > que le cercle ILP.
 
-## II. Préparation.
+### II. Préparation.
 
 {dropcap:P|lines=2|style=plain}Renez une grandeur ou eſpace V, de manière que T : ⊙ ACEG = ⊙ ILP : V.
 
@@ -64,7 +64,7 @@ Prop. 7. L. 5.
 
 C. Q. F. D.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:L|lines=2|style=plain}Es cercles ſont entr'eux comme les polygones ſemblables qui y ſont décrits. (*Prop. 1. L. 12. & Prop. 11. L. 5.*)
 

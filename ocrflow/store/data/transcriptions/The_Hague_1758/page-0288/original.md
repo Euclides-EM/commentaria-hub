@@ -7,20 +7,20 @@
 
 {dropcap:D|lines=2|style=plain}E tous les Parallélogrammes (AG) appliqués ſelon une même ligne droite (AB), & défaillans de Parallélogrammes (NI) ſemblables & ſemblablement poſés, à un autre Parallélogramme (FD) décrit de la moitié (FB) de la ligne entière (AB); Le plus grand eſt le Parallélogramme (AE) appliqué à l'autre moitié (AF), & ſemblable à ſon défaut (FD).
 
-## HYPOTHESE.
+### HYPOTHESE.
 
 [Subhead]
 *I. AE eſt un Pgr appliqué à la moitié AF, de la droite AB.
 II. Lequel eſt ſemblable & ſemblablement poſé à ſon défaut, le Pgr FD, déjà décrit de l'autre moitié FB.*
 [/Subhead]
 
-## THESE.
+### THESE.
 
 [Subhead]
 *AE eſt le plus grand de tous les Pgrs, tel que AG, applicables ſelon AB, ayant leurs défauts, tel que NI, ſemblables & ſemblablement poſés au Pgr FD, défaut de AE, décrit de FB moitié de AB.*
 [/Subhead]
 
-## Préparation.
+### Préparation.
 
 1. Tirez la Diagonale BE.
 
@@ -40,7 +40,7 @@ Afin d'avoir un Pgr quelconque AG, appliqué ſelon AB, défaillant d'un Pgr NI,
 Prop. 26. L. 6.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 CAS I. Lorſque le point N tombe dans la moitié FB.
 

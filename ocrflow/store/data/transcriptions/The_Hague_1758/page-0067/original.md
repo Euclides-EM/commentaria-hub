@@ -8,23 +8,23 @@
 
 {dropcap:L|lines=2|style=plain}Es triangles égaux (ACB, ADB), placés ſur une même baſe (AB) & du même côté, ſont entre les mêmes paralleles (AB, CD).
 
-Hypothese.
+### Hypothese.
 
 *I. Les △ ACB, ADB ſont égaux,*
 
 *II. Et ces △ ſont placés ſur la même baſe AB.*
 
-These.
+### These.
 
 *Les △ ACB, ADB ſont entre les mêmes Plles AB, CD.*
 
-Demonstration.
+### Demonstration.
 
 Si non.
 
 Les droites AB, CD ne ſont pas Plles, & on pourra tirer par le point C quelque autre droite CO Plle à AB.
 
-Préparation.
+### Préparation.
 
 1. {dropcap:T|lines=2|style=plain}Irez donc par le point C la droite CO Plle à AB; laquelle coupera la droite AD quelque part en E (*Rem. de la Prop. XXVII*).
 

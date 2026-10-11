@@ -7,21 +7,21 @@
 
 {dropcap:D|lines=2|style=plain}E deux grandeurs ( M & P ), celle ( M ) qui a plus grande raiſon à une méme ( N ), eſt la plus grande. Au contraire, celle ( P ) à laquelle une même grandeur ( N ) a plus grande raiſon, eſt la plus petite.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 M : N eſt > P : N.
 
-THESE.
+### THESE.
 
 La gdr. M eſt > P.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
-## I.
+### I.
 
 Sinon; M eſt = P, ou < P.
 
-## CAS I. Si M eſt = P.
+### CAS I. Si M eſt = P.
 
 1. {dropcap:L|lines=2|style=plain}Es deux gdrs. M & P auroient donc même raiſon à la même gdr. N. Or elles n’ont point même raiſon à la même gdr. N (Hyp.);
 
@@ -31,7 +31,7 @@ Prop. 7. L. 5.
 
 2. La gdr. M n’eſt donc point = à la gdr. P.
 
-## CAS II. Si M eſt < P.
+### CAS II. Si M eſt < P.
 
 3. {dropcap:L|lines=2|style=plain}A raiſon de M : N ſeroit < la raiſon P : N. Or la raiſon de M : N n’eſt pas < la raiſon P : N (Hyp.);
 
@@ -45,21 +45,21 @@ Prop. 8. L. 5.
 
 C. Q. F.D. I.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 N : P > N : M.
 
-THESE
+### THESE
 
 La gdr. P eſt < M.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
-## II.
+### II.
 
 Sinon; P eſt =, ou > M.
 
-## CAS I. Si P eſt = M.
+### CAS I. Si P eſt = M.
 
 1. {dropcap:L|lines=2|style=plain}A raiſon N : M devroit être = à la raiſon de N : P.
 
@@ -69,7 +69,7 @@ Prop. 7. L. 5.
 
 2. Ce qui étant contraire à l’hypotheſe, P ne ſera pas = M.
 
-## CAS II. Si P eſt > M.
+### CAS II. Si P eſt > M.
 
 3. {dropcap:L|lines=2|style=plain}A raiſon N : M devient > la raiſon N : P.
 

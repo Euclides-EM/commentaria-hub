@@ -7,11 +7,11 @@
 
 {dropcap:E|lines=2|style=plain}N tout triangle oxygone (CBA): le quarré d'un des côtés (BA) oppoſé à un des angles aigus (C) eſt plus petit que les quarrés des deux autres côtés (CB, CA), du double rectangle compris d'un des côtés (AC) alentour de l'angle aigû, ſur lequel tombe la perpendiculaire (BD), abaiſſée de l'angle oppoſé (B), & de la partie (CD) compriſe entre cette perpendiculaire & le ſommet de l'angle aigû (C).
 
-HYPOTHESE.
+### HYPOTHESE.
 *I. CBA eſt un △ oxygone,*
 *II. Et BD la ⊥ abaiſſée du ſommet de l'angle B ſur le côté oppoſé CA.*
 
-THESE.
+### THESE.
 *Le □ de BA + le double Rgle ACD eſt = au □ de CA + au □ de CB.*
 
 ### Demonstration.

@@ -7,7 +7,7 @@
 
 {dropcap:S|lines=2|style=plain}I deux triangles (ABC, CDE), qui ont deux côtés (AB, BC) proportionels à deux côtés (CD, DE), s'entretouchent (en C), de manière que leurs côtés homologues (AB, CD, BC, DE) ſoient Parallèles, les deux autres côtés (AC, CE) ſe rencontreront directement.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. AB : BC ⚌ CD : DE.
 
@@ -15,11 +15,11 @@ II. *Les* △ ABC, CDE *s'entretouchent en* C.
 
 III. *De manière que* AB *eſt* Plle *à* CD, & BC Plle *à* DE.
 
-THESE.
+### THESE.
 
 *Les deux autres côtés* AC, CE *de ces* △, *ſe rencontrent directement, ou ils ne forment qu'une même droite* AE.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Plles AB, CD ſont coupées par la droite BC, & les Plles BC, DE par la droite DC (*Hyp.* 2),
 

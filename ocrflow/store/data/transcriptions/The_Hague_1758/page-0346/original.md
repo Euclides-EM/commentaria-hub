@@ -15,7 +15,7 @@
 
 ⊟ *BD :* ⊟ *EP = baze AK : baze EG.*
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=1|style=plain}Rolongez EF en M.
 
@@ -23,7 +23,7 @@
 
 3. Achevez le ⊟ FI.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque la baze FL du ⊟ FI, eſt = à la baze AK du ⊟ BD (*Prép. 2.*)
 

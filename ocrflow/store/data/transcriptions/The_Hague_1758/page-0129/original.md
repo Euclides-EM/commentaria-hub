@@ -25,11 +25,11 @@ III. L’angle mixtiligne HAD eſt > tout ∠ rectiligne aigu.
 
 IV. L’angle mixtiligne HAB eſt < tout ∠ rectiligne aigu.
 
-#### DEMONSTRATION.
+### DEMONSTRATION.
 
 I. {dropcap:S|lines=2|style=plain}I non. La ⟂ AB tombera au dedans du ⊙ AHD & le coupera quelque part en E, comme AE.
 
-#### *Préparation.*
+### *Préparation.*
 
 Du centre C au point de ſection E tirez le rayon CE.
 

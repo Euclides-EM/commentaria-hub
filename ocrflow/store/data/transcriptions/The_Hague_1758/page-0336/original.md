@@ -8,14 +8,14 @@
 {dropcap:S|lines=2|style=plain}I un paralelipipède (BEDC) eſt coupé par un Plan (KIML) parallele aux Plans oppoſés (AEFB & CGDH): Les deux paralelipipédes provenants (ſavoir les ⏥ˢ. BEMK & KMDC) ſeront entr'eux comme leurs bazes (BFLK & KLHC).
 
 [Subhead]
-Hypothese.
+### Hypothese.
 Le ⏥ BEDC eſt coupé en deux ⏥ˢ. BM & MC, par un Plan KM, Plle aux Plans oppoſés BE & CD.
 
-These.
+### These.
 Le ⏥ BM : ⏥ MC = baze BL : baze LC.
 [/Subhead]
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=2|style=plain}Rolongez BC de part & d'autre, de même que FH.
 2. Prenez ſur le prolongement de BC pluſieurs lignes égales à BK Et CK: comme BO & TO chacune = à BK, & CW = KC.
@@ -28,7 +28,7 @@ Prop. 3. L. 1.
 Prop. 31. L. 1.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les lignes BO & TO, ſont chacune = à BK & CW = KC (*Prép*. 2.) & que les lignes OP, TU & WX Plles à BF ou CH, rencontrent le prolongement de FH, dans les points, P, U & X (*Prép*. 3.).
 

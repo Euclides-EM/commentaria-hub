@@ -3,11 +3,11 @@
 
 [Figure: two pentagons ABCDE and FGHIK inscribed in circles, with diagonals drawn as dotted lines and diameters EL and GM]
 
-## PROPOSITION. I. THEOREME I.
+## PROPOSITION I. THEOREME I.
 
 {dropcap:L|lines=2|style=plain}Es polygones ſemblables (ABCDE & FGHIK) inſcrits dans des cercles: ſont entr'eux comme les quarrez décrits ſur les diamêtres (EL & GM) de ces mêmes cercles.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. Les polygones ABCDE & FGHIK ſont ∽.
 
@@ -17,7 +17,7 @@ THESÈ.
 
 polygone ACE : polygone FIH = le □ ſur le diamêtre EL eſt au □ ſur le diamêtre GM ou comme diamêtre EL² : diamêtre GM².*
 
-Préparation.
+### Préparation.
 
 1. {dropcap:D|lines=2|style=plain}Ans le ⊙ ACD, tirez AL & BE. Item le diam. EL
 
@@ -27,7 +27,7 @@ Préparation.
 Dem. 1. L. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les polygones ABCDE & GFKIH ſont ∽ (Hyp. 1.) que l'angle A ou EAB eſt = à ∀ GFK & que AE : AB = FG : FK (Déf. 1. L. 6.).
 

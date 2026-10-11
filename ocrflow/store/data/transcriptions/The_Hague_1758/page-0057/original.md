@@ -8,11 +8,11 @@
 
 {dropcap:U|lines=2|style=plain}Ne ligne droite (EF), tombant ſur deux autres droites paralleles (AB, CD), fait les angles alternes (*n* & *m*) égaux; de plus l'angle extérieur (*r*) égal à ſon intérieur oppoſé du même côté (*m*); & enfin les deux intérieurs oppoſés du même côté (*p* ＋ *m*) égaux à deux droits.
 
-Hypothese.
+### Hypothese.
 
 *AB, CD ſont deux lignes Plles, coupées par une même droite EF.*
 
-These.
+### These.
 
 *I.* ∀ *n* ＝ ∀ *m*.
 
@@ -20,7 +20,7 @@ These.
 
 *III. Les* ∀ *p* ＋ *m* ＝ *à* 2 ⌐.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 SI non.
 

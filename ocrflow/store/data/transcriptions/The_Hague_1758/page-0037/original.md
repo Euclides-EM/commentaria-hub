@@ -8,10 +8,10 @@
 
 {dropcap:D|lines=2|style=plain}'un point quelconque (C), dans une droite indéfinie (AB), élever une perpendiculaire (CF) ſur cette droite.
 
-Donnee
+### Donnee
 *La droite indéfinie* AB & *le point* C *dans cette droite.*
 
-Cherchee.
+### Cherchee.
 *La droite* CF *elevée du point* C ⊥ *ſur* AB.
 
 ### Réſolution.

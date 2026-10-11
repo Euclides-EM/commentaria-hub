@@ -3,19 +3,19 @@
 
 [Figure: two parallelepipeds on the same base in a double-ruled frame, labelled K, H, M, G, E, I, L, F, D, C, A and B, with diagonals drawn]
 
-## PROPOSITION. XXIX. THEOREME XXIV.
+## PROPOSITION XXIX. THEOREME XXIV.
 
 {dropcap:L|lines=2|style=plain}Es paralelipipédes (HB & KB) placés ſur la même baze BD, ayant même hauteur (AE) & deſquels les lignes inſiſtantes (AE, AI, &c.) ſont dans la même direction (IF, GK) : ſont égaux.
 
-HYPOTHESE.
+### HYPOTHESE.
 *I. Les* ⊟s *KB & HB, ont la même baze BD.*
 *II. Ils ont la même hauteur AE.*
 *III. Les lignes inſiſtantes AE, AI &c. ſont dans la même direction IF & KG.*
 
-THESE.
+### THESE.
 ⊟ *HB eſt =* ⊟ *KB.*
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Pgr. KC ou KMCD, & HC ou HGCD, ont la même baze DC, & qu'il ſont dans la même direction de KG qui eſt Plle à DC. (*Hyp.* 3.).
 

@@ -5,11 +5,11 @@
 
 ## DEFINITIONS.
 
-## IX.
+### IX.
 
 {dropcap:U|lines=2|style=plain}N *Parallélogramme excédant* (AF) eſt celui dont la baſe (AB) eſt plus grande que la ligne propoſée (CD), à laquelle il eſt dit être appliqué.
 
-## X.
+### X.
 
 {dropcap:E|lines=2|style=plain}T *l'excès d'un Parallélogramme excédant* (AF) eſt un Parallélogramme (HF) compris du ſurplus, dont la baſe AB ſurpaſſe la droite propoſée (CD), & de l'autre côté (BF) du Parallélogramme excédant.
 

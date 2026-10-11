@@ -8,10 +8,10 @@
 {dropcap:S|lines=2|style=plain}I deux lignes droites (AB & BC) qui ſe touchent (en B), ſont paralleles à deux autres lignes (DE & EF) ſituées dans un autre Plan, & qui ſe touchent en E; Elles formeront des angles égaux. (ABC & DEF.).
 
 [Subhead]
-Hypothese.
+### Hypothese.
 AB & CD ſe touchent en B, dans un Plan different de celui ou DE & EF ſont, qui ſe touchent auſſi en E.
 
-These.
+### These.
 ∀ ABC eſt = ∀ DEF.
 [/Subhead]
 

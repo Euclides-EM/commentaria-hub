@@ -23,7 +23,7 @@ Puis donc que ce Pgr AG a pour excès le Pgr MI, ſemblable au Pgr ED (*Prop.* 2
 
 C. Q. F. F.
 
-## Remarque.
+### Remarque.
 
 {dropcap:S|lines=2|style=plain}*I, comme dans le cas précédent, on fait* AB ⚌ *a; l'eſpace donné* V (*reduit à un Pgr équiang. au Pgr* T) ⚌ *nl; la raiſon des côtés* QP, PR *du Pgr* X (*qui eſt celle des côtés du Pgr* T) *m : n; de plus* AM ⚌ *x & par conſéquent* MB ⚌ *x—a. L'on arrive à une égalité de la même eſpéce.*
 

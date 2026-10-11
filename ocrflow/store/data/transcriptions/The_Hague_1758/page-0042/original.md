@@ -8,12 +8,12 @@
 
 {dropcap:E|lines=2|style=plain}N tout triangle (ACB), dont un des côtés (comme AB) eſt prolongé, l'angle extérieur (CBF) eſt plus grand que chacun des intérieurs oppoſés (ACB, CAB).
 
-Hypothese.
+### Hypothese.
 *I. ACB eſt un △.*
 *II. ∀ CBF eſt un ∀ extérieur formé par le côté prolongé AB.*
 *III. Les ∀ ACB & CAB ſont intérieurement oppoſés.*
 
-These.
+### These.
 *∀ extérieur CBF > que ∀ intérieur oppoſé ACB, ou CAB.*
 
 ### Préparation.

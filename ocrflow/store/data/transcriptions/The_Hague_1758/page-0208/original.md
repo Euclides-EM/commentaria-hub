@@ -5,7 +5,7 @@
 
 CAS II. Si eM eſt multiple de M.
 
-Préparation.
+### Préparation.
 
 Prenez 1eN autant multiple de N, que eM l'eſt de M.
 
@@ -13,7 +13,7 @@ Prenez 1eN autant multiple de N, que eM l'eſt de M.
 Dem. 1. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque eM eſt autant multiple de M, que 1eN l'eſt de N (Prep.), & que cM eſt autant multiple de M, que cN l'eſt de N (Hyp. 2),
 

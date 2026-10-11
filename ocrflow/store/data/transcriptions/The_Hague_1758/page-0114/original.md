@@ -8,21 +8,21 @@
 
 {dropcap:S|lines=2|style=plain}I un diametre (CD) coupe une corde (AB) en deux également (en F): il la coupe à angles droits. Et *reciproquement*; ſi un diametre (CD) coupe une corde (AB) à angles droits: il la coupe auſſi en deux également.
 
-## I.
+### I.
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 *CD eſt un diametre du* ⊙ *ACBD, qui coupe AB en deux également au point F.*
 [/Subhead]
 
 [Subhead]
-THESE.
+### THESE.
 
 *Le diametre CD eſt* ⊥ *ſur la corde AB.*
 [/Subhead]
 
-## Préparation
+### Préparation
 
 {dropcap:T|lines=1|style=plain}Irez les rayons EA, EB.
 
@@ -30,7 +30,7 @@ THESE.
 Dem. 1.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:D|lines=2|style=plain}Ans les △ AEF, BEF, le côté EA eſt = au côté EB (*Prep*. & *Def*. 15. *L*. 1), le côté EF eſt commun aux deux △, & la baſe AF = a la baſe BF (*Hyp*.).
 
@@ -45,21 +45,21 @@ Prop. 8. L. 1.
 Def. 10. L. 1.
 [/Margin]
 
-## II.
+### II.
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 *La droite CD eſt un diametre du* ⊙ *ACBD, qui eſt* ⊥ *ſur la corde AB; ou qui fait* ∀ *m* = ∀ *n.*
 [/Subhead]
 
 [Subhead]
-THESE.
+### THESE.
 
 *AF eſt* = *à FB.*
 [/Subhead]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:L|lines=2|style=plain}Es côtés EA, EB du △ AEB étant = entr'eux (*Prep*. & *Def*. 15. *L*. 1).
 

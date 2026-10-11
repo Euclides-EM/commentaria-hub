@@ -4,7 +4,7 @@
 
 [Figure: isosceles triangle BAC in a double-ruled frame, with angles a & b on the base BC and angles e & f below it; the sides are prolonged to points D and E, with dotted lines BE and CD crossing below the base and angles m and n at D and E]
 
-## PROPOSITION V. THEOREME. II.
+## PROPOSITION V. THEOREME II.
 
 {dropcap:D|lines=2|style=plain}Ans tout triangle iſoſcèle (BAC): les angles (*a* & *b*) ſur la baſe (BC) ſont égaux entr'eux, & les côtés égaux (AB, AC) étant prolongés: les angles (*c* + *e*, & *d* + *f*) ſous la baſe (BC) ſont auſſi égaux entr'eux.
 

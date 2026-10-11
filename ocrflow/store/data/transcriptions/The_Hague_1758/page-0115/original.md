@@ -9,23 +9,23 @@
 {dropcap:S|lines=2|style=plain}I dans un cercle (ADCB) deux cordes (AC, DB) s'entrecoupent: elles s'entre-couperont en deux inégalement.
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 *Les deux cordes AC, DB du* ⊙ *ADCB s'entre-coupent au point E.*
 [/Subhead]
 
 [Subhead]
-THESE.
+### THESE.
 
 *Ces cordes s'entre-coupent en deux inégalement.*
 [/Subhead]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:S|lines=1|style=plain}I non.
 Les cordes AC, DB s'entre-coupent en deux également.
 
-## Préparation.
+### Préparation.
 
 {dropcap:T|lines=1|style=plain}Irez du centre F au point E la portion de diametre FE.
 

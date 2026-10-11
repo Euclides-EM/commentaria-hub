@@ -11,10 +11,10 @@
 Donnees.
 *Les lignes droites A, B, C telles que A ＋ B ⟩ C, A ＋ C ⟩ B, C ＋ B ⟩ A.*
 
-Cherchee.
+### Cherchee.
 *La conſtruction d'un △ FHE, tel que EH ſoit ＝ A, FE ＝ B, & FH ＝ C.*
 
-Réſolution.
+### Réſolution.
 
 {dropcap:T|lines=2|style=plain}Irez la droite indéterminée DM.
 
@@ -42,7 +42,7 @@ Dem. 3.
 Dem. 2.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:L|lines=2|style=plain}Es droites ED, EH étant tirées du centre E à la ○ DH (*Reſ.* 3 & 5).
 
@@ -76,6 +76,6 @@ Or le côté EH étant ＝ à la donnée A (*Arg.* 3), le côté FH ＝ à la do
 
 C. Q. F. F.
 
-## REMARQUE.
+### REMARQUE.
 
 *La condition ajoutée, que deux des données quelconques ſoient plus grandes que la troiſieme, eſt eſſentielle, en vertu de la XX Prop. du 1 Livre; ſans cette condition les cercles décrits des centres E & F ne ſçauroient s'entre-couper, défaut qui rendroit la conſtruction impoſſible.*

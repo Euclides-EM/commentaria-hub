@@ -8,15 +8,15 @@
 
 {dropcap:S|lines=2|style=plain}I deux triangles (BAC, EDF), ont deux côtés égaux à deux côtés chacun à chacun, mais la baſe (BC) plus grande que la baſe (EF): l'angle (BAC) oppoſé à la plus grande baſe (BC), ſera auſſi plus grand que l'angle (D) oppoſé à la plus petite baſe (EF).
 
-Hypothese.
+### Hypothese.
 *I. AB ＝ DE.
 II. AC ＝ DF.
 III. BC ＞ EF.*
 
-These.
+### These.
 *L'angle A oppoſé à la plus grande baſe BC eſt ＞ ∀ D oppoſé à la plus petite baſe EF.*
 
-Demonstration.
+### Demonstration.
 
 {dropcap:S|lines=2|style=plain}I non.
 

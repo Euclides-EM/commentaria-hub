@@ -7,7 +7,7 @@
 
 {dropcap:C|lines=2|style=plain}Ouper une ligne droite donnée (AB) de façon; que le rectangle de l'entiére (BA) & de l'une de ſes parties (AC) ſoit égal au quarré de l'autre partie (CB).
 
-DONNEE
+### DONNEE
 *La droite AB.*
 
 CHERCHE.

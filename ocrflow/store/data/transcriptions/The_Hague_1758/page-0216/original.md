@@ -7,16 +7,16 @@
 
 {dropcap:S|lines=2|style=plain}I la premiere grandeur ( A ) a même raiſon à la ſeconde ( B ), que la troiſieme ( C ) à la quatrieme ( D ); mais que la troiſieme ( C ) ait plus grande raiſon à la quatrieme ( D ), que la cinquieme ( E ) à la ſixieme ( F ) : la raiſon de la premiere ( A ) à la ſeconde ( B ) ſera auſſi plus grande, que la raiſon de la cinquieme ( E ) à la ſixieme ( F ).
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. A : B = C : D.
 II. C : D > E : F.
 
-THESE.
+### THESE.
 
 A : B > E : F.
 
-Préparation.
+### Préparation.
 
 1. La raiſon de C : D étant > la raiſon de E : F (Hyp. 2), prenez des équimult. mC & mE des antécédens C & E; & pareillement d’autres équimultiples nD & nF des conſéquens D & F, tellement que mC ſoit > nD ſans que mE ſoit > nF;
 2. Prenez mA autant multiple de A que mC l’eſt de C.
@@ -28,7 +28,7 @@ Def. 7. L. 5. §. 5.
 Dem. 1. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que A : B = C : D (Hyp. 1), & que mA, mC ſont des équimultiples des antécédens & nB, nD des équimultiples des conſéquens (Prep. 2 & 3),
 

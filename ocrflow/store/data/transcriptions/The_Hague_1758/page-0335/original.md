@@ -8,18 +8,18 @@
 {dropcap:D|lines=2|style=plain}Ans tout Paralelipipéde (AH): Les Plans oppoſés (BD & CF, Item BE & FG, Item AF & BH) ſont des paralelogrammes ſemblables & égaux, chacun à chacun; (c. a. d. le Pgr. AG eſt égal & ſemblable au Pgr. EH &c.).
 
 [Subhead]
-Hypothese.
+### Hypothese.
 Dans le ⏥ donné BF le Plan BD eſt oppoſé à CF. BE à FG & AF à BH.
 
-These.
+### These.
 Les plans oppoſés BD, CF, Item BE & FG, Item AF & BH ſont des Pgr. égaux & ∽ chacun à chacun.
 [/Subhead]
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:T|lines=2|style=plain}Iréz les diagonales oppoſés EH & AG. Item AC & DH.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Plans Plle BD & CF ſont coupéz par le Plan ABCE.
 

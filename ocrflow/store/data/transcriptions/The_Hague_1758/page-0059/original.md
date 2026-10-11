@@ -8,15 +8,15 @@
 
 {dropcap:P|lines=2|style=plain}Ar un point donné (E), tirer une ligne droite (AB) parallele à une autre droite donnée (CD).
 
-Donnee
+### Donnee
 
 *La droite CD avec le point E.*
 
-Cherchee.
+### Cherchee.
 
 *La droite AB Plle à CD & paſſant par le point E.*
 
-Réſolution.
+### Réſolution.
 
 1. {dropcap:D|lines=2|style=plain}Ans la droite donnée CD prenez un point quelconque F.
 
@@ -38,7 +38,7 @@ Prop. 23. L. 1.
 Dem. 2.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ∀ alternes *m* & *n*, formés par la droite EF, qui coupe les deux lignes AB, CD, ſont ＝ entr'eux (*Ref.* 3).
 

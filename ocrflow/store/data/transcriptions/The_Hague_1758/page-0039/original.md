@@ -8,10 +8,10 @@
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (EC) tombe ſur une autre ligne droite (AB): elle fait ou deux angles droits, ou deux angles égaux à deux droits.
 
-Hypothese
+### Hypothese
 *EC eſt une droite tombant ſur* AB, *au point* C.
 
-These.
+### These.
 *I. Ou chacun des* ∀ ACE, ECB *eſt un* ⌐.
 *II. Ou leur ſomme eſt* ═ *à deux* ⌐.
 

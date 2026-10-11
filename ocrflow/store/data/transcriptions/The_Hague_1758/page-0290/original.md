@@ -17,7 +17,7 @@ II. *Le Rectiligne* V, *qui n'eſt pas* 〉 *qu'un Pgr* ED, *ſemblable à* T, *
 *La conſtruction d'un Pgr* AG, *appliqué ſelon* AB, *qui ſoit* ⚌ *à* V, *& défaillant d'un Pgr* MI, *ſemblable à* T.
 
 [Subhead]
-*Réſolution.*
+### *Réſolution.*
 [/Subhead]
 
 1. Coupez AB en deux également en E.

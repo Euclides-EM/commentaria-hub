@@ -73,6 +73,6 @@ Et Io eſt < IZ. (*Arg*. 33.).
 
 C. Q. F. F. II.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:S|lines=2|style=plain}I dans deux ſphères on décrit deux polyëdres ſemblables: ces polyëdres ſeront entr'eux en raiſon triplée des diamêtres des ſphères dans leſquels ils ſe trouvent, *car ſes polyëdres étant* ∽, *ſont terminés par un pareil nombre de Plans* ∽ *chacun à chacun* (Def. 9. L. 11.). *Partant chaque polyëdre peut ſe diviſer en des pyramides ayant tous leurs ſommets au centre de la ſphère & pour bazes les Plans du polyëdre; de plus tous les pyramides du premier polyëdre ſont* ∽ *à tous les pyramides contenues dans le ſecond polyëdre chacun à chacun; elles ſont donc l'une à l'autre (ſavoir les pyramides du premier polyëdre aux pyramides du ſecond) en raiſon triplée de leurs cotés homologues à ſavoir des demi diamêtres de leurs ſphères*, (par le Corol. de la Prop. 8. L. 12.), *d'où il ſuit* (par la douzieme du cinquieme Livre) *que toutes les pyramides compoſant le premier polyëdre ſont à toutes les pyramides compoſant le ſecond polyëdre en raiſon triplée des demi diamêtres de leurs ſprères, &* (par les Prop. 11 & 15. L. 5.) *que le premier polyëdre eſt au ſecond en raiſon triplée des diamêtres de leurs ſphères.*

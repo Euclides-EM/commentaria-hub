@@ -8,10 +8,10 @@
 {dropcap:S|lines=2|style=plain}I deux lignes droites (AB & CD) ſont perpendiculaires ſur un Plan (ZX); Elles ſont Paralleles.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 AB & CD ſont ⊥ ſur le Plan ZX.
 
-These.
+### These.
 AB & CD ſont paralleles.
 [/Subhead]
 

@@ -7,11 +7,11 @@
 
 {dropcap:I|lines=2|style=plain}Nſcrire dans un pentagone équilatéral & équiangle (ABDEF); un cercle (GHIKL).
 
-Donne.
+### Donne.
 
 *Le Pentagone équilatéral & équiangle ABDEF.*
 
-Cherche.
+### Cherche.
 
 *Le ⊙ GHIKL inſcrit dans ce pentagone.*
 

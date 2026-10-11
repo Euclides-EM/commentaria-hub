@@ -5,7 +5,7 @@
 
 ## DEFINITIONS.
 
-## IV.
+### IV.
 
 Deux grandeurs ſont dites *avoir une raiſon l'une à l'autre*; lorſqu'il eſt poſſible, qu'un multiple de la plus petite, égale ou ſurpaſſe la plus grande.
 
@@ -15,7 +15,7 @@ Deux grandeurs ſont dites *avoir une raiſon l'une à l'autre*; lorſqu'il eſt
 
 *§. 2. En vertu de cette définition, il n'y a point de raiſon entre une grandeur finie & une infinie, encore qu'on les ſuppoſe de même genre. Car une grandeur conçue infinie, eſt conçue ſans limites; par conſéquent une grandeur finie répétée tant de fois que l'on voudra, (pourvû que le nombre des répétitions ſoit déterminé) ne peut jamais parvenir, ni à égaler, ni à ſurpaſſer une telle grandeur infinie.*
 
-## V.
+### V.
 
 On dit que *des grandeurs ſont en même raiſon* la première à la ſeconde & la troiſième à la quatrième: lorſque des équimultiples quelconques de la première & de la troiſième, comparés à d'autres équimultiples quelconques de la ſeconde & de la quatrième, chacun à chacun (c. à. d. *le multiple du* I *terme à celui du* II, *& le multiple du* III *terme à celui du* IV.) ſe trouvent conſtamment ou plus grands, ou égaux, ou plus petits, de part & d'autre, ſelon quelque multiplication que ce puiſſe être.
 

@@ -8,11 +8,11 @@
 {dropcap:S|lines=2|style=plain}'Il y a trois angles-plan, deux deſquels pris comme l'on voudra ſoyent plus grand que le troiſiéme, & que les cotés qui comprennent ces angles ſoyent des droites égales. Il ſera poſſible de conſtruire un triangle des trois lignes (DF, GI, & AC,) qui ſoutiennent ces angles.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 I. Des trois ∀ donnéz a, b, & c, deux quelconques ſont > que le troiſieme, comme b + a > c, ou a + c > b, ou b + c > a.
 II. Les cotés HG, HI, DE, EF, AB & BC qui comprennent ces ∀, ſont égaux.
 
-These.
+### These.
 Des droites GI, DF & AC qui ſoutiennent les ∀, on peut conſtruire un △.
 [/Subhead]
 
@@ -39,7 +39,7 @@ C. Q. F. D.
 CAS II. Si les angles donnez a, b, & c ſont inégaux.
 
 [Subhead]
-Préparation.
+### Préparation.
 [/Subhead]
 
 1. {dropcap:A|lines=2|style=plain}U ſommet d'un des ∀ comme en B, faites ∀ ABL = ∀ a.

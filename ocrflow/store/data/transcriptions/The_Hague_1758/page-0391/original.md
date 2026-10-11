@@ -3,11 +3,11 @@
 
 30. D'où il ſuit qu'il eſt impoſſible qu'un cone BFE eſt à une grandeur moindre que le cone LOM, en raiſon triplée du diamêtre CD au diamêtre iH.
 
-## II. Suppoſition.
+### II. Suppoſition.
 
 {dropcap:S|lines=2|style=plain}Oit Z > que le cone LOM.
 
-## II. Préparation.
+### II. Préparation.
 
 {dropcap:P|lines=2|style=plain}Renez une grandeur X, de façon que Z : cone BFE = cone LOM : X.
 

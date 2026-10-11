@@ -8,19 +8,19 @@
 
 {dropcap:L|lines=2|style=plain}Es lignes droites (AB, EF), paralleles à une même droite (CD), ſont paralleles entr'elles.
 
-Hypothese.
+### Hypothese.
 
 *AB, EF ſont des droites Plles à CD.*
 
-These.
+### These.
 
 *Les droites AB, EF ſont Plles entr'elles.*
 
-Préparation.
+### Préparation.
 
 {dropcap:T|lines=2|style=plain}Irez la droite GH qui coupe les trois lignes AB, CD, EF.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites AB, CD ſont deux Plles (*Hyp.*) coupées par une même droite GH (*Prep.*).
 

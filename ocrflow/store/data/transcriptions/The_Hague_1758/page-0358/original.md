@@ -46,7 +46,7 @@ Ax. 7. L 1.
 
 C. Q. F. D. II.
 
-## REMARQUE.
+### REMARQUE.
 
 I. {dropcap:P|lines=2|style=plain}*Uiſque le priſme triangulaire eſt la moitié de ſon paralelipipéde* (par la Propoſition 28. de ce Livre.) *Il s'enſuit* (par Ax. 7. L. 1.) *que la même vérité à lieu pour les priſmes triangulaires ſemblables.*
 

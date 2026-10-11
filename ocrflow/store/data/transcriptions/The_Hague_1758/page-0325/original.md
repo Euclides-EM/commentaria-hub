@@ -8,11 +8,11 @@
 {dropcap:S|lines=2|style=plain}I deux Plans paralleles (ZX & YP) ſont coupez par un autre Plan, (ABDC) les lignes de commune Section (CD & AB) ſeront paralleles.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 I. Les Plans ZX & PY ſont Plle
 II. Ils ſont coupez par le Plan ABCD.
 
-Thèse.
+### Thèse.
 Les lignes de commune Section CD & AB ſont Plle.
 [/Subhead]
 
@@ -21,7 +21,7 @@ Les lignes de commune Section CD & AB ſont Plle.
 {dropcap:S|lines=2|style=plain}I non.
 Les lignes AB & CD étant prolongées doivent ſe couper quelque part.
 
-*Preparation.*
+### *Preparation.*
 
 {dropcap:P|lines=2|style=plain}Rolongez les donc juſqu'à ce qu'elles ſe coupent en F.
 

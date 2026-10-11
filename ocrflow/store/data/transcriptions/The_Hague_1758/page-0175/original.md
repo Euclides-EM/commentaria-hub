@@ -7,11 +7,11 @@
 
 {dropcap:I|lines=2|style=plain}Nſcrire un quindécagone (EAFG &c.) équilatéral & équiangle, dans un cercle donné (EBI).
 
-Donne.
+### Donne.
 
 *Le ⊙ EBI.*
 
-Cherche.
+### Cherche.
 
 *Le quindécagone équilatéral & équiangle EAFG &c.*
 

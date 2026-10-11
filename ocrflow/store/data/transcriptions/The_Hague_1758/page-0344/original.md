@@ -7,20 +7,20 @@
 
 {dropcap:L|lines=2|style=plain}Es paralelipipédes (KI & NZ) dont les bazes (KH & Nq) ſont égales & qui ont la même hauteur : ſont égaux.
 
-HYPOTHESE.
+### HYPOTHESE.
 *I. Les* ⊟s. *KI & NZ, ont leurs bazes KH & Nq, égales.*
 *II. Ils ont la même hauteur.*
 
 THÉSE.
 *Le* ⊟ *KI eſt = au* ⊟ *NZ.*
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 ### CAS I.
 
 {dropcap:S|lines=2|style=plain}I les lignes inſiſtantes AG, &c. du ⊟ KI; & les inſiſtantes CM &c. du ⊟ NZ, ſont ⊥ ſur leurs bazes, ou ſi les inclinaiſons des inſiſtantes AG, & MC ſont les mêmes.
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=2|style=plain}Rolongez NF, & faites FQ = AH.
 2. Au point F ſur FQ, faites ∀ plan QFR = ∀ plan HAK.
