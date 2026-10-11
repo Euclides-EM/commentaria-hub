@@ -74,7 +74,7 @@ For each item give the exact replacement line, written per `docs/MARKDOWN_DIALEC
 - OCR error or wrong level: the corrected line, changing only the misread characters or the `#` count. Keep the surrounding punctuation, spacing and label spelling as printed.
 - Header as plain text: the joined line with the `#` prefix, wording unchanged.
 - Printer's error: keep the printed reading and append the correction to the wrong token: `## PROBL{printer-error-correction:THEOR}. 20. PROP. XXII.`, `PROP. CXIII{printer-error-correction:XCIII}.`. If something was left out in print, attach the correction to the token before the gap: `## THEOR.{printer-error-correction:THEOR. 25.} PROP. XXV.`
-- Header not in print: a curated heading in the `missing-headers-in-print` layer, placed just before the statement with a blank line before and after it: `[Curated heading level=2 type=missing-headers-in-print: THEOR. 32. PROP. XXXIIII.]`
+- Header not in print: a curated heading with no `type` (default index layer), placed just before the statement with a blank line before and after it: `[Curated heading level=2: THEOR. 32. PROP. XXXIIII.]`
 - Page transcription empty: say so; do not transcribe it.
 
 Page images for checking are at `ocrflow/store/data/<dataset_id>/imgs/page-NNNN.png` (`dataset_id` is in `index.json`). Mention the image path for every possible printer's error. Do not open or view page images yourself unless the user asks; leave the check against the scan to the user.

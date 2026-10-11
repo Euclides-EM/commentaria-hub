@@ -1,5 +1,3 @@
-<!-- Running title: [illegible] -->
-
 [Ornament: woodcut headpiece frieze with putti and figures among foliage]
 
 ## ¶Vorred an den Kunſtlie

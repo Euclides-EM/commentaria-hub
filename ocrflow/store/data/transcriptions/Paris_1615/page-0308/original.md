@@ -12,7 +12,7 @@ Soit le nombre A duquel la moitié B eſt impair, ie dis que A ſera pairement 
 
 [Diagram]
 
-[Curated heading level=2 type=missing-headers-in-print: THEOR. 32. PROP. XXXIIII.]
+[Curated heading level=2: THEOR. 32. PROP. XXXIIII.]
 
 Si vn nombre pair n’eſt de ceux qui ſont doubles depuis le binaire, & que ſa moitié ne ſoit nombre impair, il ſera pairement pair, & pairement impair.
 

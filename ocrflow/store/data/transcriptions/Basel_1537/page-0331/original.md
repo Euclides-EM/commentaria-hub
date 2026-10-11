@@ -18,7 +18,7 @@ CAMPANVS. Residuum sextum sic reperitur. Erit ut prius linea a rationalis posita
 
 [Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); dotted number line with labels f and g]
 
-[Curated heading level=2 type=missing-headers-in-print: Eucli. ex Zamb. Problema 24 Propositio 90]
+[Curated heading level=2: Eucli. ex Zamb. Problema 24 Propositio 90]
 
 [Curated heading level=3 type=zamberti_sequence: 90.]
 
