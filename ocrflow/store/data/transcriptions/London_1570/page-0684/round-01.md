@@ -1,0 +1,19 @@
+<!-- Running title: The tenth Booke -->
+
+other: which is impoſſible. Wherefore the diameter A is not commenſurable in length to the ſide B. Wherefore it is incommenſurable: which was required to be demonſtrated.
+
+## An other demonſtration after Fluſſas.
+
+Suppoſe that vppon the line A B be deſcribed a ſquare whoſe diameter let be the line A C. Then I ſay that the ſide A B is incommenſurable in length vnto the diameter A C. Foraſmuch as the lines A B and B C are equall, therefore the ſquare of the line A C is double to the ſquare of the line A B by the 47. of the firſt. Take by the 2. of the eight nũbers how many ſoeuer in continuall proportion frõ vnitie, and in the proportion of the ſquares of the lines A B and A C. Which let be the numbers D, E, F, G. And foraſmuch as the firſt from vnitie namely E is no ſquare number, for that it is a prime number, neither is alſo any other of the ſayd numbers a ſquare number except the third from vnitie and ſo all the reſt leuing one betwene, by the 10. of the ninth. Wherefore D is to E, or E to F, or F to G, in that proportion that a ſquare number is to a number not ſquare. Wherefore by the corrollary of the 25. of the eight, they are not in that proportion the one to the other that a ſquare number is to a ſquare number. Wherefore neither alſo haue the ſquares of the lines A B and A C (which are in the ſame proportion) that porportion that a ſquare number hath to a ſquare number. Wherefore by the 9. of this booke their ſides, namely, the ſide A B and the diameter A C are incommenſurable in length the one to the other which was required to be proued.
+
+[Figure: a ſquare with corners labelled B, A and C, with a diagonall drawne from B to the oppoſite corner; beneath it, rowes of prickes labelled D, E, F and G]
+
+This demonſtration I thought good to adde, forthat the former demonſtrations ſeme not ſo full, and they are thought of ſome to be none of Theons, as alſo the propoſition to be none of Euclides.
+
+## Here followeth an inſtruction by ſome ſtudious and ſkilfull Grecian (perchance Theon) which teacheth vs of farther vſe and fruite of theſe irrationall lines.
+
+Seing that there are founde out right lines incommenſurable in length the one to the other, as the lines A and B, there may alſo be founde out many other magnitudes hauing lẽgth and breadth (ſuch as are playne ſuperficieces) which ſhalbe incommẽſurable the one to the other. For if (by the 13. of the ſixth) betwene the lines A and B there be taken the meane proportionall line, namely C, then (by the ſecond corrollary of the 20. of the ſixth) as the line A is to the line B, ſo is the figure deſcribed vpon the line A to the figure deſcribed vpon the line C, being both like and in like ſort deſcribed, that is, whether they be ſquares (which are alwayes like the one to the other), or whether they be any other like rectiline figures, or whether they be circles aboute the diameters A and C. For circles haue that proportion the one to the other, that the ſquares of their diameters haue (by the 2. of the twelfth). Wherfore (by the ſecond part of the 10. of the tenth) the figures deſcribed vpon the lines A and C being like and in like ſort deſcribed are incommenſurable the one to the other. Wherfore by this meanes there are founde out ſuperficieces incommenſurable the one to the other. In like ſort there may be founde out figures cõmẽſurable the one to the other, if ye put the lines A and B to be cõmenſurable in lẽgth the one to the other. And ſeing that it is ſo, now let vs alſo proue that euen in ſolides alſo or bodyes there are ſome commenſurable the one to the other, and other ſome incommenſurable the one to the other. For if from eche of the ſquares of the lines A and B, or from any other rectiline figures equal to theſe ſquares
+
+[Figure: three horizontal lines labelled A, C and B]
+
+<!-- Catchword: be -->

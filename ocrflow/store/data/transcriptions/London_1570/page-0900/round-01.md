@@ -1,0 +1,17 @@
+<!-- Running title: The twelueth Booke -->
+
+[Margin]
+Demonſtration of the firſt part.
+[/Margin]
+
+namely, B G M L and E H P O. And foraſmuch as the pyramis B C G A is equall to the pyramis E F H D, & the ſolide B G M L is ſextuple to the pyramis B C G A. (For the parallelipipedon is duple to the Priſme ſet vpon the baſe of the Pyramis, & the Priſme is triple to the pyramis): and likewiſe the ſolide E H P O is ſextuple to the pyramis E F H D. Wherefore the ſolide B G M L is equall to the ſolide E H P O. But in equall parallelipipedons, the baſes are (by the 34. of the eleuenth) reciprokall to their altitudes. Wherefore as the baſe B N is to the baſe E Q, ſo is the altitude of the ſolide E H P O, to the altitude of the ſolide B G M L. But as the baſe B N is to the baſe E Q, ſo is the triangle G B C to the triangle H E F (by the 15. of the fifth, for the triangles G B C & H E F are the halues of the parallelogrammes B N and E Q). Wherefore (by the 11. of the fifth) as the triangle G B C is to the triangle H E F, ſo is the altitude of the ſolide E H P O to the altitude of the ſolide B G M L. But the altitude of the ſolide E H P O is one and the ſame with the altitude of the pyramis E F H D, and the altitude of the ſolide B G M L is one and the ſame with the altitude of the pyramis B C G A. Wherefore as the baſe G B C is to the baſe H E F, ſo is the altitude of the pyramis E F H D to the altitude of the pyramis B C G A. Wherefore the baſes of the two pyramids B C G A and E F H D are reciprokall to their altitudes.
+
+[Diagram]
+
+[Margin]
+Demonſtration of the ſecond part, which is the conuerſe of the firſt.
+[/Margin]
+
+But now ſuppoſe that the baſes of the pyramids B C G A and E F H D be reciprokall to their altitudes; that is, as the baſe G B C is to the baſe H E F, ſo let the altitude of the pyramis E F H D be to the altitude of the pyramis B C G A. Then I ſay that the pyramis B C G A is equall to the pyramis E F H D. For (the ſelfe ſame order of conſtruction remaining), for that as the baſe G B C is to the baſe H E F, ſo is the altitude of the pyramis E F H D to the altitude of the pyramis B C G A. But as the baſe G B C is to the baſe H E F, ſo is the parallelogramme G C to the parallelogramme H F. Wherefore (by the 11. of the fifth) as the parallelogramme G C is to the parallelogramme H F, ſo is the altitude of the pyramis E F H D to the altitude of the pyramis B C G A. But the altitude of the pyramis E F H D and of the ſolide E H P O, is one and the ſelfe ſame, and the altitude of the pyramis B C G A and of the ſolide B G M L, is alſo one and the ſame. Wherefore as the baſe G C is to the baſe H F, ſo is the altitude of the ſolide E H P O to the altitude of the ſolide B G M L. But parallelipipedons, whoſe baſes are reciprokall to their altitudes are (by the 34. of the eleuenth) equall the one to the other. Wherefore the parallelipipedon B G M L is equall to the parallelipipedon E H P O. But the pyramis B C G A is the ſixth part of the ſolide B G M L, and likewiſe the pyramis E F H D is the ſixth part of the ſolide E H P O. Wherefore the pyramis B C G A is equall to the pyramis E F H D. Wherefore in equall pyramids hauing triangles to their baſes, the baſes are reciprokall to their altitudes. And pyramids hauing triangles to their baſes, whoſe baſes are reciprokall to their altitudes, are equall the one to the other: which was required to be demonſtrated.
+
+<!-- Catchword: A Corollary -->
