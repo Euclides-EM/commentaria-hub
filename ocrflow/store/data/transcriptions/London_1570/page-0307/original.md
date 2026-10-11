@@ -1,0 +1,12 @@
+<!-- Running title: of Euclides Elementes. -->
+<!-- Page number: Fol.121. -->
+
+{dropcap:S|lines=3|style=decorated|decoration="ornamental block with foliate background"}Vppoſe yͭ yͤ equilater & equiangle Pẽtagõ figure geuẽ be ABCDE. It is required in the ſaid fiue angled figure ABCDE to deſcribe a circle. Deuide (by the the 9. of the firſt) either of theſe angles BCD, and CDE, into two equall partes, by theſe right lines CF and FD, and from the point F where theſe right lines CF and DF meete. Draw theſe right lines FB, FA, & FE. And foraſmuch as BC is equal vnto CD and CF is common to them both. Wherefore theſe two lines BC and CF are equal to theſe two lines DC and CF: and the angle BCF is equall to the angle DCF. Wherfore (by the 4. of the firſt) the baſe BF is equall to the baſe DF, and the triangle BCF is equall to the triangle DCF, and the angles remayning are equall vnto the angles remaynyng the one to the other, vnder which are ſubtended equall ſides. Wherefore the angle CBF is equall to the angle CDF. And foraſmuch as the angle CDE is double to the angle CDF. But the angle CDE is equall to the angle ABC, and the angle CDF is equall to the angle CBF. Wherefore the angle CBA is double to the angle CBF. Wherefore the angle ABF is equall to the angle FBC. Wherefore the angle ABC is deuided into two equall partes by the right line BF. In lyke ſorte alſo may it be proued, that either of theſe angles BAE, and AED are deuided into two equall partes by either of theſe lines FA and EF. Drawe (by the 12. of the firſt) from the pointe E to the right lines AB, BC, CD, and EA perpendicular lines FG, FH, FK, FL, and FM. And foraſmuch as the angle HCF is equall to the angle KCF, and the right angle FHC is equall to the right angle FKC: now then there are two triangles FHC, and FKC hauyng two angles equall to two angles the one to the other, and one ſide equall to one ſide: for FC is common vnto them both, and is ſubtended vnder one of the equal angles. Wherfore (by the 26. of the firſt) the ſides remayning are equall vnto the ſides remayning. Wherfore the perpendiculer FH is equall vnto the perpendiculer FK. And in like ſort alſo may it be proued that euery one of theſe lines FL, FM, and FG is equall to euery one of theſe lines FH and FK. Wherfore theſe fiue right lines FG, FH, FK, FL, and FM are equall the one to the other.
+
+[Margin]
+Demonſtration.
+[/Margin]
+
+[Figure: pentagon BCDAE with inscribed circle, centre F, lines drawen from the centre to the angles, and points G, M, H, L, K on the circle]
+
+<!-- Catchword: Wher- -->

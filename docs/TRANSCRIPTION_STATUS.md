@@ -32,7 +32,7 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 OCR for Greek:
 https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
-**Status:** Waiting for LLM corrector run.
+**Status:** LLM in progress. 0/719
 
 ## Venice_1482
 
@@ -45,15 +45,38 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_6vegrr&annotationId=ann_3pg8ot
 
 OCR was run but performed very poorly, need to re-run with proper page-by-page.
 
-**Status:** Waiting for LLM corrector run.
+**Status:** LLM in progress. 6/284
+
+# Manual Curation
 
 ## London_1570s
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 
-*Status* - Fable running. Done 1043/1098
+Claude Code — Fable
 
-# Manual Curation
+- **Runs:** 8
+- **Requests:** 656
+- **Input tokens:** 2,786
+- **Cached tokens:** 14,816,611
+- **Cache creation tokens:** 7,815,233
+- **Output tokens:** 1,715,991
+- **Reasoning tokens:** 0
+- **Total tokens:** 24,350,621
+- **Cost:** $259.51
+
+Codex — GPT-5.6 Sol
+
+- **Runs:** 4
+- **Requests:** 267
+- **Input tokens:** 12,776,948
+- **Cached tokens:** 9,661,184
+- **Cache creation tokens:** 0
+- **Output tokens:** 1,023,810
+- **Reasoning tokens:** 0
+- **Total tokens:** 13,800,758
+
+**Next steps:** Ready for curation.
 
 ## Pesaro_1572
 
