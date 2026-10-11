@@ -24,7 +24,7 @@ Diſe iſt leichtlich auß der ailfften propoſition zůuerſtehn.
 
 ## XIIII. Die vierzehend Propoſition.
 
-{dropcap:W|lines=2|style=plain}an vier proportionierte quantiteten ſeind/iſt die erſt gröſſer dan die dritt/ſo iſt auch die ander gröſſer/weder die vierdt/Iſt ſy klainer/auch klainer: iſt ſy gleich/auch gleich.
+{dropcap:W|lines=2|style=plain}an vier proportionierte quantiteten ſeind / iſt die erſt gröſſer dan die dritt / ſo iſt auch die ander gröſſer / weder die vierdt / Iſt ſy klainer / auch klainer: iſt ſy gleich / auch gleich.
 
 ### Erklärung.
 
@@ -47,10 +47,10 @@ Diſe iſt leichtlich auß der ailfften propoſition zůuerſtehn.
 
 ## XV. Die fünffzehende Propoſition.
 
-{dropcap:W|lines=2|style=plain}ie ſich die gantzen gegenainander halten/alſo halten ſich auch gegenainander ire tail/ſo gleicher (das iſt ainerlay) benennung ſein.
+{dropcap:W|lines=2|style=plain}ie ſich die gantzen gegenainander halten / alſo halten ſich auch gegenainander ire tail / ſo gleicher (das iſt ainerlay) benennung ſein.
 
 ### Erklärung.
 
-Wie ich mit der erſten prop. diß bůchs gehandelt hab/alſo hab ich auch hie gethon/nemlich diſe fürgab auff allerlay geſchlecht der proportion erſtreckt/angeſehen das alle proportion auß der multiplici (das iſt da ain quantitet/die an der gerad/etlich mal inn ſich begreifft/als 12 gegen 3. 2 gegen 1. 49 gegen 7 etc.) entſprungen/vnd jrer art vnd aigenſchafft tailhafftig ſeind/wie dz ſonderlich
+Wie ich mit der erſten prop. diß bůchs gehandelt hab / alſo hab ich auch hie gethon / nemlich diſe fürgab auff allerlay geſchlecht der proportion erſtreckt / angeſehen das alle proportion auß der multiplici (das iſt da ain quantitet / die an der gerad / etlich mal inn ſich begreifft / als 12 gegen 3. 2 gegen 1. 49 gegen 7 etc.) entſprungen / vnd jrer art vnd aigenſchafft tailhafftig ſeind / wie dz ſonderlich
 
 <!-- Catchword: inn -->
