@@ -116,39 +116,21 @@ func (s *Backup) CreateBackup(syncToDrive bool, progress func(string)) (string, 
 	ts := time.Now().UTC().Format("20060102T150405Z")
 	name := fmt.Sprintf("%s%s.zip", backupZipPrefix, ts)
 	dst := filepath.Join(s.backupdir, name)
-	partialDst := dst + ".partial"
 
 	log.Printf("creating backup in directory: %s", s.backupdir)
-	if fileExists(dst) {
+	// Overwrite protection: if exists, add a monotonic suffix.
+	for fileExists(dst) {
 		return "", fmt.Errorf("backup: file already exists: %s", dst)
 	}
-	if fileExists(partialDst) {
-		return "", fmt.Errorf("backup: partial file already exists: %s", partialDst)
-	}
 
-	// Build under a non-discoverable name. Only a completely written and closed
-	// archive is atomically promoted to the final .zip path.
-	f, err := os.OpenFile(partialDst, os.O_WRONLY|os.O_CREATE|os.O_EXCL, 0o666)
+	f, err := os.Create(dst)
 	if err != nil {
-		return "", fmt.Errorf("create backup: create partial zip: %w", err)
+		return "", fmt.Errorf("create backup: create zip: %w", err)
 	}
-	removePartial := true
-	defer func() {
-		_ = f.Close()
-		if removePartial {
-			if err := os.Remove(partialDst); err != nil && !os.IsNotExist(err) {
-				log.Printf("warning: failed to remove partial backup %s: %v", partialDst, err)
-			}
-		}
-	}()
+	defer func() { _ = f.Close() }()
 
 	zw := zip.NewWriter(f)
-	zipClosed := false
-	defer func() {
-		if !zipClosed {
-			_ = zw.Close()
-		}
-	}()
+	defer func() { _ = zw.Close() }()
 
 	// Keep paths stable inside the ZIP, independent of absolute paths.
 	// Layout:
@@ -156,44 +138,30 @@ func (s *Backup) CreateBackup(syncToDrive bool, progress func(string)) (string, 
 	//   models/...       (contents of modelsDir)
 	//   items_metadata/... (contents of itemsMetadataDir)
 	//   db/<basename>    (dbPath file)
-	log.Printf("adding base data from %s to partial backup zip %s", s.baseDataDir, partialDst)
+	log.Printf("adding base data from %s to backup zip %s", s.baseDataDir, dst)
 	if err := addDirToZip(zw, s.baseDataDir, "base_data"); err != nil {
 		return "", err
 	}
-	log.Printf("adding models from %s to partial backup zip %s", s.modelsDir, partialDst)
+	log.Printf("adding models from %s to backup zip %s", s.modelsDir, dst)
 	if err := addDirToZip(zw, s.modelsDir, "models"); err != nil {
 		return "", err
 	}
-	log.Printf("adding items metadata from %s to partial backup zip %s", s.itemsMetadataDir, partialDst)
+	log.Printf("adding items metadata from %s to backup zip %s", s.itemsMetadataDir, dst)
 	if err := addDirToZip(zw, s.itemsMetadataDir, "items_metadata"); err != nil {
 		return "", err
 	}
 	// Flush WAL into the main DB file before copying, so the backup contains all data.
 	// Without this, on systems using WAL mode only the main file is copied and recent writes are in the -wal file.
 	if s.checkpointDB != nil {
-		log.Printf("running checkpoint function before adding DB to partial backup zip %s", partialDst)
+		log.Printf("running checkpoint function before adding DB to backup zip %s", dst)
 		if err := s.checkpointDB(); err != nil {
 			return "", fmt.Errorf("create backup: checkpoint db: %w", err)
 		}
 	}
-	log.Printf("adding db from %s to partial backup zip %s", s.dbPath, partialDst)
+	log.Printf("adding db from %s to backup zip %s", s.dbPath, dst)
 	if err := addFileToZip(zw, s.dbPath, filepath.Join("db", filepath.Base(s.dbPath))); err != nil {
 		return "", err
 	}
-	if err := zw.Close(); err != nil {
-		return "", fmt.Errorf("create backup: close zip: %w", err)
-	}
-	zipClosed = true
-	if err := f.Sync(); err != nil {
-		return "", fmt.Errorf("create backup: sync partial zip: %w", err)
-	}
-	if err := f.Close(); err != nil {
-		return "", fmt.Errorf("create backup: close partial zip: %w", err)
-	}
-	if err := os.Rename(partialDst, dst); err != nil {
-		return "", fmt.Errorf("create backup: promote partial zip: %w", err)
-	}
-	removePartial = false
 
 	log.Printf("backup created: %s", dst)
 
@@ -423,10 +391,6 @@ func (s *Backup) ensureBackupDir() error {
 }
 
 func (s *Backup) CreateBackupFromZip(file multipart.File, f func(dstPath string) error) (string, error) {
-	if err := s.ensureBackupDir(); err != nil {
-		return "", err
-	}
-
 	dst, err := futils.CreateTemp("upload-*.zip")
 	if err != nil {
 		return "", fmt.Errorf("create backup from zip: create temp file: %w", err)
@@ -445,30 +409,9 @@ func (s *Backup) CreateBackupFromZip(file multipart.File, f func(dstPath string)
 
 	// validations can be added here if needed, e.g. check for expected files/dirs in the extracted content.
 
-	name := fmt.Sprintf("%s%s.zip", backupZipPrefix, time.Now().UTC().Format("20060102T150405Z"))
-	finalPath := filepath.Join(s.backupdir, name)
-	partialPath := finalPath + ".partial"
-	if fileExists(finalPath) {
-		return "", fmt.Errorf("create backup from zip: backup file already exists: %s", finalPath)
-	}
-	if fileExists(partialPath) {
-		return "", fmt.Errorf("create backup from zip: partial file already exists: %s", partialPath)
-	}
-	removePartial := true
-	defer func() {
-		if removePartial {
-			if err := os.Remove(partialPath); err != nil && !os.IsNotExist(err) {
-				log.Printf("warning: failed to remove partial uploaded backup %s: %v", partialPath, err)
-			}
-		}
-	}()
-	if err := futils.CopyFile(dst.Name(), partialPath); err != nil {
+	if err := futils.CopyFile(dst.Name(), filepath.Join(s.backupdir, fmt.Sprintf("%s%s.zip", backupZipPrefix, time.Now().UTC().Format("20060102T150405Z")))); err != nil {
 		return "", fmt.Errorf("create backup from zip: save backup: %w", err)
 	}
-	if err := os.Rename(partialPath, finalPath); err != nil {
-		return "", fmt.Errorf("create backup from zip: promote partial backup: %w", err)
-	}
-	removePartial = false
 
 	if err := s.ensureMaxBackups(); err != nil {
 		log.Printf("warning: failed to ensure max backups after creating backup from zip: %v", err)
