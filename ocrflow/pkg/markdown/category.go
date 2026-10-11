@@ -54,7 +54,7 @@ func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []str
 		}
 		content = StripEmphasis(ResolvePrinterErrorCorrections(ExpandDropcaps(content), normalize))
 		if normalize {
-			content = strings.TrimPrefix(content, "¶")
+			content = normalizeIndexHeadingContent(content)
 		}
 		results = append(results, Category{
 			Category:  category,
@@ -72,6 +72,12 @@ func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []str
 		availableTypes[0], availableTypes[i] = availableTypes[i], availableTypes[0]
 	}
 	return results, availableTypes, nil
+}
+
+func normalizeIndexHeadingContent(content string) string {
+	content = strings.TrimSpace(content)
+	content = strings.TrimPrefix(content, "¶")
+	return strings.TrimSpace(content)
 }
 
 type Category struct {
