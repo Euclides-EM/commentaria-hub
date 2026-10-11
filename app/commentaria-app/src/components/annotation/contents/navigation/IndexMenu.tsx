@@ -241,14 +241,13 @@ export function IndexMenu({
       storageSync: false,
     },
   )
-  const [applyPrinterErrorCorrection, setApplyPrinterErrorCorrection] =
-    useLocalStorageState(
-      useScopedStorageKey('indexApplyPrinterErrorCorrection'),
-      {
-        defaultValue: false,
-        storageSync: false,
-      },
-    )
+  const [normalize, setNormalize] = useLocalStorageState(
+    useScopedStorageKey('indexNormalize'),
+    {
+      defaultValue: false,
+      storageSync: false,
+    },
+  )
   const {
     data: annotationIndex,
     isLoading,
@@ -257,7 +256,7 @@ export function IndexMenu({
     state.datasetId,
     state.annotationId,
     indexTypes,
-    applyPrinterErrorCorrection,
+    normalize,
   )
   const normalizedSearchTerm = searchTerm.trim()
   const navigationNodes = useMemo(
@@ -397,18 +396,18 @@ export function IndexMenu({
             <div className="flex items-center justify-end gap-2">
               <label
                 className="mr-auto flex cursor-pointer items-center gap-1 text-[0.65rem] text-gray-500 hover:text-gray-700"
-                title="Show printer error corrections instead of the printed text"
+                title="Apply printer error corrections and remove leading paragraph marks"
               >
                 <input
                   type="checkbox"
-                  checked={applyPrinterErrorCorrection}
+                  checked={normalize}
                   onChange={(event) => {
                     scrolledPageRef.current = null
-                    setApplyPrinterErrorCorrection(event.target.checked)
+                    setNormalize(event.target.checked)
                   }}
                   className="h-3 w-3 accent-gray-500"
                 />
-                Corrected
+                Normalized
               </label>
               <button
                 type="button"

@@ -62,6 +62,24 @@ func TestExtractCategoryContentsStripsEmphasis(t *testing.T) {
 	}, categories)
 }
 
+func TestExtractCategoryContentsNormalizesHeadings(t *testing.T) {
+	md := &Markdown{Content: "## ¶Vorred an den Kunſtlie druckfeler{printer-error-correction:druckfehler}\n\nBody text.\n\n## Zeichen ¶ bleibt"}
+
+	unmodified, _, err := ExtractIndexContentsFromMarkdown(md, nil, nil, false)
+	require.NoError(t, err)
+	require.Equal(t, []Category{
+		{Category: "header2", Content: "¶Vorred an den Kunſtlie druckfeler", IndexType: DefaultIndexType},
+		{Category: "header2", Content: "Zeichen ¶ bleibt", IndexType: DefaultIndexType},
+	}, unmodified)
+
+	normalized, _, err := ExtractIndexContentsFromMarkdown(md, nil, nil, true)
+	require.NoError(t, err)
+	require.Equal(t, []Category{
+		{Category: "header2", Content: "Vorred an den Kunſtlie druckfehler", IndexType: DefaultIndexType},
+		{Category: "header2", Content: "Zeichen ¶ bleibt", IndexType: DefaultIndexType},
+	}, normalized)
+}
+
 func TestParseHeaderBlockDoesNotJoinDifferentLevels(t *testing.T) {
 	lines := []string{"# Book", "", "## Definitions"}
 
