@@ -7,13 +7,13 @@
 
 {dropcap:L|lines=2|style=plain}Es parallelipipédes égaux (AD & IV) ont leurs bazes (Pgr. AC & Pgr, IL) & leurs hauteurs (GB & IR) reciproquement proportionelles. Et les paralelipipédes (AD & IV) dont les bazes (Pgr. AC & Pgr. IL) & les hauteurs. (GB & IR) ſont reciproquement proportionelles: ſont égaux.
 
-HYPOTHESE.
+### HYPOTHESE.
 ⊟ AD eſt = ⊟ IV.
 
-THESE.
+### THESE.
 Baze AC : Baze IL = hauteur IR : hauteur GB.
 
-## I. DEMONSTRATION.
+### I. DEMONSTRATION.
 
 LEs paralelipipédes donnés peuvent être.
 
@@ -23,7 +23,7 @@ II. De differente hauteur
 
 III. Ayant des inclinaiſons differentes: comme ſi l'un étoit ⊥ ſur ſa baze, & l'autre oblique.
 
-## CAS I.
+### CAS I.
 
 Lorſque les ⊟s ont la même hauteur, c. a. d. IR = GB.
 
@@ -39,7 +39,7 @@ Def. 6. L. 5.
 
 C. Q. F. D. 1.
 
-## CAS II.
+### CAS II.
 
 Lorſque IR eſt > GB.
 

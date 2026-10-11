@@ -1,22 +1,22 @@
 <!-- Running title: LIVRE SIXIEME. -->
 <!-- Page number: 271 -->
 
-## II.
+### II.
 
-## HYPOTHESE.
+### HYPOTHESE.
 
 [Subhead]
 *I. M : N ⚌ P : Q.*
 *II. Ces Figures ſont ſemblables, & décrites en des poſitions ſemblables des droites AB, CD, item EF, GH.*
 [/Subhead]
 
-## THESE.
+### THESE.
 
 [Subhead]
 *AB : CD ⚌ EF : GH.*
 [/Subhead]
 
-## Préparation.
+### Préparation.
 
 1. Aux lignes AB, CD, EF prenez la IV<sup>me</sup>. proportionelle KL.
 
@@ -30,7 +30,7 @@ Prop. 12. L. 6.
 Prop. 18. L. 6.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque AB : CD ⚌ EF : KL (*Prep.* 1); & qu'on a décrit de ces droites, les Fig. M & N, item P & R ſemblables chacune à chacune, & en des poſitions ſemblables (*Hyp.* 2 & *Prep.* 2),
 

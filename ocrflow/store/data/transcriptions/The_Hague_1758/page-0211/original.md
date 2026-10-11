@@ -3,7 +3,7 @@
 
 [Diagram: bars labelled aM (divided into aR and 1aN), M (divided into R and 1N), aN, N, and multiples of P labelled 4P, 3P, P and 2P]
 
-## II. Préparation.
+### II. Préparation.
 
 Si on ſuppoſe en ſecond lieu R > 1N ou N.
 
@@ -15,7 +15,7 @@ Si on ſuppoſe en ſecond lieu R > 1N ou N.
 Dem. 1. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:D|lines=2|style=plain}’Abord on prouvera, comme dans le raiſonnement précédent (Arg. 1. 2 & 3), que
 
@@ -51,7 +51,7 @@ De plus, ſans changer de préparation, on démontre comme dans le cas précéde
 
 C. Q. F.D. 11.
 
-## III.
+### III.
 
 Et en appliquant la même préparation & le même raiſonnement au dernier Cas lorſque R = 1N,
 

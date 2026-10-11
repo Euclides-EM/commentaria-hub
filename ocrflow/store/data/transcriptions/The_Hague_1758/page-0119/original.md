@@ -20,7 +20,7 @@ Par un raiſonnement ſemblable on prouvera que
 
 C. Q. F. D. III.
 
-## II. *Préparation*. Fig. 2.
+### II. *Préparation*. Fig. 2.
 
 1. {dropcap:F|lines=1|style=plain}Aites enſuite ∀ FEG = à ∀ FEH, & prolongez EG juſqu'à la rencontre de la ⊙ AHG.
 2. Du point F au point G tirez la droite FG.

@@ -8,17 +8,17 @@
 
 {dropcap:S|lines=2|style=plain}I un parallélogramme (BD) & un triangle (BEC) ſont placés ſur une même baſe (BC), & entre les mêmes paralleles (BC, AE): le parallélogramme ſera double du triangle.
 
-Hypothese.
+### Hypothese.
 
 *I. BD eſt un Pgr, & BEC un △.*
 
 *II. Ces figures ſont placées ſur la même baſe BC, & entre les mêmes Plles BC, AE.*
 
-These.
+### These.
 
 *Le Pgr BD eſt double du △ BEC.*
 
-Préparation.
+### Préparation.
 
 {dropcap:D|lines=2|style=plain}U point A au point C tirez la droite AC.
 
@@ -26,7 +26,7 @@ Préparation.
 Dem. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les △ BAC, BEC ſont placés ſur une même baſe BC & entre les mêmes Plles BC, AE (*Hyp.* 2).
 

@@ -7,17 +7,17 @@
 
 {dropcap:S|lines=2|style=plain}I deux grandeurs (M & N) ſont inégales, la plus grande (M) aura une plus grande raiſon à une même grandeur (P), que la plus petite (N); & au contraire la même grandeur (P) aura une plus grande raiſon à la plus petite (N), qu’à la plus grande (M).
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. M > N.
 II. P eſt une gdr. quelconque.
 
-THESE.
+### THESE.
 
 I. M : P > N : P.
 II. P : N > P : M.
 
-I. Préparation.
+### I. Préparation.
 
 1. Rétranchez de la plus grande M la partie 1N = à la plus petite N; Et le reſte R ſera ou <, ou > ou enfin = N; Suppoſez premierement que ce reſte ſoit < N.
 2. De ce reſte R prenez un multiple aR > P,
@@ -28,7 +28,7 @@ I. Préparation.
 Dem. 1. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque 4P eſt le premier des multiples de P, qui eſt > aN (Prep. 4),
 

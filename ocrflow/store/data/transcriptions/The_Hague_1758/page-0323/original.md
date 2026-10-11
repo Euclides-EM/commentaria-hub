@@ -8,10 +8,10 @@
 {dropcap:L|lines=2|style=plain}Es Plans (XZ & TY) ſur leſquels une même ligne (AB) eſt perpendiculaire; ſont paralleles.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 AB eſt ⊥ ſur les Plans XZ & TY.
 
-These.
+### These.
 Le Plan XZ eſt Plle au Plan TY.
 [/Subhead]
 
@@ -24,7 +24,7 @@ Les Plans XZ & TY, prolongez ſe couperont quelque part.
 Def. 8. L. 11.
 [/Margin]
 
-*Préparation.*
+### *Préparation.*
 
 1. {dropcap:P|lines=2|style=plain}Rolongéz les Plans XZ & TY juſqu'à ce qu'ils ſe coupent en DC.
 2. Prenez un point E dans la ligne de ſection DC.

@@ -7,7 +7,7 @@
 
 {dropcap:S|lines=1|style=plain}I deux grandeurs (AB & C) ſont inégales, & qu'on retranche de la plus grande (AB) plus que la moitié (ſavoir AH), & du reſte (HB) encore plus que la moité (ſavoir HK), & qu'on continue ainſi de ſuite: on parviendra à avoir un reſte (KB), qui ſera plus petit que la moindre grandeur C.
 
-Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=2|style=plain}Renez un multiple EI de la moindre C. qui ſurpaſſe AB, & qui ſoit > 2 C.
 
@@ -29,7 +29,7 @@ Dem. 2. L. 5.
 Dem. 2. L. 5.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:L|lines=2|style=plain}A grandeur EI eſt un multiple plus grand que deux fois la moindre grandeur C. (Prép. 1.).
 

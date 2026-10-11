@@ -8,10 +8,10 @@
 
 {dropcap:D|lines=2|style=plain}'un point donné (C), hors d'une ligne droite indéfinie (AB); abaiſſer ſur cette droite une ligne perpendiculaire (CF).
 
-Donnee
+### Donnee
 *La droite indéfinie* AB *et le point* C *hors de cette droite.*
 
-Cherchee.
+### Cherchee.
 *La droite* CF *abaiſſée du point* C ⊥ *ſur* AB.
 
 ### Réſolution.

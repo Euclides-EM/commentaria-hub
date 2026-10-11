@@ -9,14 +9,14 @@
 {dropcap:T|lines=2|style=plain}Rouver le centre (F) d'un cercle donné (ACBE).
 
 [Subhead]
-Donne
+### Donne
 *Le cercle ACBE.*
 
-Cherche.
+### Cherche.
 *Le centre F de ce ⊙.*
 [/Subhead]
 
-## Réſolution.
+### Réſolution.
 
 1. Tirez la corde AB.
 
@@ -33,11 +33,11 @@ Prop. 11. L. 1.
 Prop. 10. L. 1.
 [/Margin]
 
-## Demonstration.
+### Demonstration.
 
 Si non. Quelqu'autre point, comme H ou G pris dans la ligne ou hors de la ligne EC, ſera le centre cherché du ⊙ ACBE.
 
-## CAS. I.
+### CAS. I.
 
 Suppoſé, que le centre ſe trouve dans la ligne EC, en un point H différent du point F.
 
@@ -55,11 +55,11 @@ Suppoſé, que le centre ſe trouve dans la ligne EC, en un point H différent d
 Def. 15. L. 1.
 [/Margin]
 
-## CAS II.
+### CAS II.
 
 Suppoſé, que le centre ſe trouve hors de la ligne EC, en un point G.
 
-## Préparation.
+### Préparation.
 
 Tirez donc du centre G les droites GA, GD, GB.
 

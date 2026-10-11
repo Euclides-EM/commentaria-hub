@@ -7,7 +7,7 @@
 
 {dropcap:S|lines=2|style=plain}'Il y a deux pyramides (ABCD & EFGH) de même hauteur ayant des bazes (ABC & EFG) triangulaires; & que chacune d'elles ſoit diviſée en deux pyramides égales & ſemblables entr'elles, & ſemblables à leur tout, (ſavoir les pyramides DLKM & ANIL, pour la pyramide ABCD; & HRQP, & REPT pour la pyramide EFGH), & en deux priſmes égaux (ſavoir LB & LC pour ABCD; & RF & RG pour EFGH) & que ſemblablement les quatres pyramides (LDKM, LINA, RQSH, & RTPE) provenues de cette premiere diviſion ſoyent de rechef diviſées; & qu'on continue cette diviſion ainſi de ſuite: la baze (ABC) de l'une des pyramides données (ABCD) ſera à la baze (EFG) de l'autre pyramide (EFGH) comme la ſomme de tous les priſmes qui ſont contenus dans la premiere pyramide (ABCD) eſt à la ſomme de tous les priſmes qui ſont contenus dans la ſeconde (EFGH) étant égaux en multitude.
 
-## HYPOTHESE.
+### HYPOTHESE.
 
 *I. Les pyramides triangulaires ABCD & EFGH, ont des hauteurs égales.*
 
@@ -15,11 +15,11 @@
 
 *III. Ces pyramides provenues LDMK, LNIA, RTPE & RQSH, ſont ſuppoſées être diviſées de même que les grandes; & ainſi de ſuite.*
 
-## THESE.
+### THESE.
 
 *La ſomme de tous les priſmes contenus dans la pyramide ABCD eſt à la ſomme de ceux qui ſont dans la pyramide EFGH étant égaux en multitude; comme la baze ABC de la pyramide ABCD eſt à la baze EFG, de la pyramide EFGH.*
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les pyramides ABCD & EFGH ont des hauteurs égales & que les priſmes LB, LC, RF & RG ont chacun la moitié de cette hauteur. (*Hyp. 1. & Prop. 3. L. 12.*).
 

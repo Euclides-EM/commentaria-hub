@@ -17,7 +17,7 @@ L'Arithmétique détermine ces racines ou exactement, ou à peu près, par ſes 
 
 {dropcap:L|lines=2|style=plain}A racine d'une grandeur E, exprimée par un Expoſant radical déterminé, eſt égale à la première moyenne proportionelle entre l'unité & la grandeur E; ſi l'on prend autant de ces moyennes proportionelles, que l'Expoſant radical contient d'unités, moins une.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:S|lines=2|style=plain}Uppoſons pour fixer les idées, qu'il ſoit queſtion de la racine quatrième de E, que nous nommerons R; je dis, que prenant entre 1 & E, quatre moyennes proportionelles moins une, c. à. d. trois, que nous nommerons R, S, T; la première R eſt égale à la racine quatrième de E.
 
@@ -34,7 +34,7 @@ Et comme le même raiſonnement eſt applicable à tous les Cas, l'énoncé de l
 
 C. Q. F. D.
 
-## COROLLAIRE I.
+### COROLLAIRE I.
 
 {dropcap:L|lines=2|style=plain}'Interpoſition des moyennes proportionelles R, S, T, réſout la raiſon de 1 : E, en autant de raiſons égales à celle de 1 : R, que l'Expoſant radical contient d'unités. Par ex. dans ce cas, les
 

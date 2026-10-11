@@ -8,11 +8,11 @@
 {dropcap:S|lines=2|style=plain}I l'on joint deux points (A & B) ſitués dans deux Paralleles (DC & FE) par une droite (AB); Elle ſera dans le même Plan (PL) que les Paralleles.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 I. A & B ſont deux points pris à volonté dans les Paralleles EF & CD.
 II. AB eſt la droite qui joint ces points.
 
-Thése.
+### Thése.
 AB eſt dans le même Plan PL que les Plles CD & EF.
 [/Subhead]
 

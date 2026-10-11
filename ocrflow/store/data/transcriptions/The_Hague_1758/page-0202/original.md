@@ -7,15 +7,15 @@
 
 {dropcap:S|lines=2|style=plain}I pluſieurs grandeurs (a M, a N, a O) ſont équimultiples d'un pareil nombre d'autres grandeurs (M, N, O &c), chacune de chacune, la ſomme (a M + a N + a O &c) des premieres ſera autant multiple de la ſomme (M + N + O &c) des ſecondes, qu'une des premieres (a M) eſt multiple de ſa correſpondante (M).
 
-Hypothese.
+### Hypothese.
 
 a M, a N, a O ſont des équimultiples de M, N, O chacune de chacune.
 
-These.
+### These.
 
 a M + a N + a O eſt autant multiple de M + N + O que a M l'eſt de M, ou a N de N &c.
 
-Préparation.
+### Préparation.
 
 La Gdr. a M étant autant multiple de M, que a N l'eſt de N (Hyp)., on peut prendre dans a N autant de grandeurs X, Y, Z &c. chacune égale à ſa correſpondante N, qu'on en peut prendre dans a M, comme A, B, C, &c. chacune égale à ſa correſpondante M.
 
@@ -25,7 +25,7 @@ Faites donc A, B, C égale chacune à M & X, Y, Z égale chacune à N.
 Dem. 2.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque a M eſt autant multiple de M, que a N l'eſt de N. (Hyp),
 

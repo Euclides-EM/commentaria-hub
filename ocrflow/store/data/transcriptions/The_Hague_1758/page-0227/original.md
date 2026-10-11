@@ -7,16 +7,16 @@
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs (A, B, C, D) ſont proportionelles, & qu'une cinquieme (E) ſoit à la ſeconde (B), comme une ſixieme (F) eſt à la quatrieme (D), la compoſée (A+E) de la premiere & de la cinquieme ſera à la ſeconde (B), comme la compoſée (C+F) de la troiſieme & de la ſixieme ſera à la quatrieme (D).
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. A : B = C : D.
 II. E : B = F : D.
 
-THESE.
+### THESE.
 
 A + E : B = C + F : D.
 
-DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque E : B = F : D (Hyp. 2).
 1. Il ſuit par inverſion B : E = D : F.

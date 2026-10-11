@@ -7,15 +7,15 @@
 
 {dropcap:L|lines=2|style=plain}Es raiſons ( A : B & E : F ) qui ſont égales à une même troiſiemé raiſon ( C : D ), ſont égales entr’elles.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 Les raiſons A : B & E : F ſont = à la même raiſon C : D.
 
-THESE.
+### THESE.
 
 A : B = E : F.
 
-Préparation.
+### Préparation.
 
 1. Prenez des équimultiples quelconques aA, aC, aE des trois antécédens A, C, E.
 2. Et d’autres équimultiples quelconques cB, cD, cF des trois conſéquens B, D, F.
@@ -24,7 +24,7 @@ Préparation.
 Dem. 1. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque A : B = C : D (Hyp);
 

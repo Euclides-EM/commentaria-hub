@@ -8,7 +8,7 @@
 {dropcap:S|lines=2|style=plain}I deux triangles (ABC, DEF) ont les côtés proportionels, ces triangles ſeront équiangles; & les angles (A & *m*, C & *n* &c) oppoſés aux côtés homologues, (BC, EF & AB, DE &c) ſeront égaux entr'eux.
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 Les △ ABC, DEF ont les côtés proportionels, c. à. d.
 
@@ -16,7 +16,7 @@ I. AB : AC ═ DE : DF. AB : BC ═ DE : EF. AC : BC ═ DF : EF.
 
 II. Les côtés BC, EF, AB, DE, AC, DF ſont homologues.
 
-THESE.
+### THESE.
 
 I. Les △ ABC, DEF ſont équiangles.
 

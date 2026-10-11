@@ -7,24 +7,24 @@
 
 {dropcap:S|lines=2|style=plain}I d'un Parallélogramme (AC) on retranche un Parallélogramme (FG), ſemblable & ſemblablement poſé au Parallélogramme entier (AC), ayant un angle (FBG) commun avec lui: le Parallélogramme (FG) eſt placé alentour de la diagonale (BD) du Parallélogramme entier (AC).
 
-## HYPOTHESE
+### HYPOTHESE
 
 [Subhead]
 *I. AC eſt un Pgr, dont BD eſt la diagonale.
 II. FG eſt un Pgr ſemblable à AC, & ayant un ∀ FBG commun avec AC.*
 [/Subhead]
 
-## THESE.
+### THESE.
 
 [Subhead]
 *Le Pgr FG eſt placé alentour de la diagonale BD du Pgr AC.*
 [/Subhead]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 Si non. Soit une autre ligne BHD, différente de BED, la diagonale du Pgr AC, coupant le côté GE en un point H.
 
-## Préparation.
+### Préparation.
 
 Par ce point H tirez HI Plle à CB ou DA.
 

@@ -8,10 +8,10 @@
 
 {dropcap:U|lines=2|style=plain}N angle rectiligne (ECF) étant donné; le couper en deux parties égales (ECD, FCD).
 
-Donne
+### Donne
 ∀ *rectiligne* ECF.
 
-Cherche.
+### Cherche.
 ∀ ECD = ∀ FCD.
 
 ### Réſolution.

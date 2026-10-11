@@ -7,12 +7,12 @@
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs ( A, B, C, D ) ſont proportionelles : ſelon que la premiere ( A ) ſera plus grande, égale, ou moindre, que la troiſieme ( C ), la ſeconde ( B ) ſera auſſi plus grande, égale, ou moindre que la quatrieme ( D ).
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. A : B = C : D.
 II. A eſt >, = ou < C.
 
-THESE.
+### THESE.
 
 Se’on{printer-error-correction:Selon} que A eſt >, = ou < C.
 B ſera >, = ou < D.

@@ -8,10 +8,10 @@
 {dropcap:S|lines=2|style=plain}I trois angles-plans (CAB, BAD & DAC) forment un angle ſolide A: deux de ces angles (comme BAD & CAB) pris comme l'on voudra ſeront plus grand que le troiſiéme (CAD).
 
 [Subhead]
-Hypothese.
+### Hypothese.
 Les trois ∀ plans CAB, d, & c + b forment ∀ ſolide A.
 
-These.
+### These.
 ∀ CAB + d > ∀ b + c
 [/Subhead]
 

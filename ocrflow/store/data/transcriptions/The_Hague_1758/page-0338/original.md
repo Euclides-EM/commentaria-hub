@@ -7,7 +7,7 @@
 
 {dropcap:D|lines=2|style=plain}'Un point (A) ſur une droite donnée (AB), faire un angle ſolide (AB): égal à un angle ſolide donné (F).
 
-DONNEES.
+### DONNEES.
 I. Un point A, dans une droite AB
 II. Un angle ſolide F.
 
@@ -15,7 +15,7 @@ CHERCHEES.
 Au point A un angle ſolide = à l'angle ſolide F.
 
 [Subhead]
-Reſolution.
+### Reſolution.
 [/Subhead]
 
 1. D'Un point I pris à volonté ſur une des lignes de ſection autour de ∀ ſolide F, decendez une ⊥ IL ſur le Plan oppoſé GFH.
@@ -52,7 +52,7 @@ Dem. 1. L. 1.
 [/Margin]
 
 [Subhead]
-Préparation.
+### Préparation.
 [/Subhead]
 
 Tiréz ME, ED, CD, & CM, dans Plans MAD, CAD & MAC.

@@ -37,11 +37,11 @@ Et comme la même Demonſtration a lieu pour tout autre ſolide plus grand que l
 
 C. Q. F. D.
 
-## COROLLAIRE I.
+### COROLLAIRE I.
 
 {dropcap:L|lines=2|style=plain}Es pyramides qui ont même hauteur, & pour bazes des triangles égaux: ſont égales (*Prop.* 14 *&* 16. *L.* 5.).
 
-## COROLLAIRE II.
+### COROLLAIRE II.
 
 {dropcap:L|lines=2|style=plain}Es pyramides égales qui ont des bazes triangulaires égales: ont la même hauteur.
 

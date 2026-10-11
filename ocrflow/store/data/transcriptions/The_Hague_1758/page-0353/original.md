@@ -19,7 +19,7 @@
 
 *∀ DAE eſt = ∀ KHM.*
 
-*Préparation.*
+### *Préparation.*
 
 1. {dropcap:F|lines=1|style=plain}Aites AF = HK.
 

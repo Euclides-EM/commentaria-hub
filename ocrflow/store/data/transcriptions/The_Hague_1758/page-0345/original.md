@@ -63,7 +63,7 @@ Prop. 14. L. 5.
 Ax. 1. L. 1.
 [/Margin]
 
-## CAS II.
+### CAS II.
 
 {dropcap:S|lines=2|style=plain}I les angles d'inclinaiſon des lignes inſiſtantes AG, &c. du ⊟ KI ne ſont pas égaux aux angles d'inclinaiſon des inſiſtantes CM, &c. du ⊟ MF.
 
@@ -73,7 +73,7 @@ Et par conſequent qui lui ſera égal, (*par la Prop. 30. L. 11.*).
 
 Le reſte de la conſtruction & de la demonſtration ſont les mêmes que dans le Cas precedent.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:L|lines=2|style=plain}Es paralelipipédes égaux qui ont même hauteur; ont des bazes égales.
 

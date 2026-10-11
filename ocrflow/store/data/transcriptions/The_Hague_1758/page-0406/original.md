@@ -13,7 +13,7 @@ La ſphère ſuppoſée ne pouvant donc être ni < ni > que la ſphère ABCD.
 Prop. 7. L. 5.
 [/Margin]
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:L|lines=2|style=plain}Es ſphères ſont entr'eux comme les polyëdres ſemblables qui y ſont inſcrit, (*Cor. de la Prop*. 17. *L*. 12. & *Prop*. 11. *L*. 5.).
 

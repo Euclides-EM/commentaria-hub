@@ -3,7 +3,7 @@
 
 ## DEFINITIONS.
 
-## VII.
+### VII.
 
 Mais ſi dans cette comparaiſon des équimultiples, le multiple de la première ſurpaſſe le multiple de la ſeconde, ſans que le multiple de la troiſième ſurpaſſe le multiple de la quatrième, on dira que *la raiſon de la prèmiere à la ſeconde, eſt plus grande que la raiſon de la troiſième à la quatrième.*
 

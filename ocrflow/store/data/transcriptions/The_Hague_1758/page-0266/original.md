@@ -37,6 +37,6 @@ Prop. 4. L. 6. Coroll.
 
 C. Q. F. D.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:I|lines=2|style=plain}L eſt manifeſte que cette perpendiculaire BD, abaiſſée du ſommet de l'angle droit ſur la baſe, eſt une moyenne proportionelle entre les deux ſegmens AD & DC de cette baſe; car les triangles ADB, BDC étant équiangles, on aura AD : DB ═ DB : DC (*Prop.* 4. *L.* 6). De même, chaque côté AB ou BC du triangle ABC eſt une moyenne proportionelle entre la baſe AC & le ſegment AD ou DC adjacent à ce côté. Car puiſque chacun des triangles ADB, BDC eſt équiangle au △ total ABC, on aura AC : AB ═ AB : AD, & AC : BC ═ BC : DC (*Prop.* 4. *L.* 6).

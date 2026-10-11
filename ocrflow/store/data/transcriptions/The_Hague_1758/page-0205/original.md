@@ -7,17 +7,17 @@
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs (M, N, O, P) ſont proportionelles: les équimultiples (aM, aO) de la premiere (M) & de la troiſieme (O), comparés, chacun à chacun, à des équimultiples (cN, cP) de la ſeconde (N) & de la quatrieme (P), ſeront en même raiſon, ſelon quelque multiplication que ce puiſſe être.
 
-Hypothese.
+### Hypothese.
 
 I. M : N = O : P.
 
 II. aM & aO ſont des équimult. de M & O, item cN & cP des équimult. de N & P.
 
-These.
+### These.
 
 aM : cN : = aO : cP.
 
-Préparation.
+### Préparation.
 
 1. Prenez RaM, RaO équimultiples de aM & de aO.
 2. De même ScN, ScP équimultiples de cN & de cP.
@@ -26,7 +26,7 @@ Préparation.
 Dem. 1. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que aM eſt autant multiple de M, que aO l'eſt de O (Hyp. 2), & que les grandeurs RaM, RaO ſont des équimultiples des grandeurs aM, aO (Prep. 1),
 
@@ -56,7 +56,7 @@ Def. 5. L. 5.
 
 C. Q. F. D.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:I|lines=2|style=plain}L s'enſuit de l'Arg. 3, que, ſelon que ScN eſt >, =, ou < RaM; pareillement ScP ſera >, = ou < RaO; c'eſt pourquoi cN : aM = cP : aO (Def. 5. L. 5).
 

@@ -24,7 +24,7 @@ SI non.
 Pyramide ABCD : pyramide EFGH 〉 baze ABC : baze EFG.
 
 [Subhead]
-Préparation.
+### Préparation.
 [/Subhead]
 
 1. {dropcap:P|lines=1|style=plain}Renez un ſolide X qui ſoit 〈 que la pyramide ABCD, de façon que X : pyramide EFGH = baze ABC : baze EFG.

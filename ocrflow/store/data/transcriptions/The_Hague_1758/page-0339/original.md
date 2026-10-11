@@ -1,7 +1,7 @@
 <!-- Running title: LIVRE ONZIEME. -->
 <!-- Page number: 327 -->
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans les △ GFH & MAD, les cotés FG & FH ſont égaux aux cotés AM & AD chacun à chacun. (*Reſ.* 3 & 5.) & que ∀ GFH eſt = à ∀ MAD. (*Reſ.* 4.).
 

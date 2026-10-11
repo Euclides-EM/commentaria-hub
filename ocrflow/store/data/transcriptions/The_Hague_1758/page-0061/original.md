@@ -8,19 +8,19 @@
 
 {dropcap:L|lines=2|style=plain}Es droites (AC, BD), qui joignent de même part les extrêmités (A, C & B, D) de deux autres droites (AB, CD) égales & paralleles : ſont auſſi égales & paralleles entr'elles.
 
-Hypothese.
+### Hypothese.
 
 *AC, BD ſont deux droites, qui joignent de même part les extrêmités de deux autres droites ＝ & Plles AB, CD.*
 
-These.
+### These.
 
 *I. Les droites AC, BD ſont égales, II. Et ces droites AC, BD ſont Plles.*
 
-Préparation.
+### Préparation.
 
 {dropcap:D|lines=1|style=plain}U point B au point C tirez la droite BC.
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites AB, CD ſont deux Plles (*Hyp.*), coupées par une même droite BC (*Prep.*).
 

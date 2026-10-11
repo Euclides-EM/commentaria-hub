@@ -7,15 +7,15 @@
 
 {dropcap:S|lines=2|style=plain}I le Tout (A + B) eſt au Tout (C + D), comme le retranché (A) eſt au retranché (C), le reſte (B) ſera auſſi au reſte (D), comme le Tout (A + B) eſt au Tout (C + D).
 
-HYPOTHESE.
+### HYPOTHESE.
 
 [unclear: A] + B : C + D = A : C.
 
-THESE.
+### THESE.
 
 B : D = A + B : C + D.
 
-DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque A + B : C + D = A : C. (*Hyp.*).
 1. Donc alternando A + B : A = C + D : C.
@@ -33,7 +33,7 @@ Prop. 11. L. 5.
 
 C. Q. F. D.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:S|lines=2|style=plain}I des grandeurs, compoſées ſont proportionelles, c. à. d. que A + B : A = C + D : C
 On peut inférer par *converſion de raiſon* A + B : B = C + D : D (*Def.* 17. *L.* 5).

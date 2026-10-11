@@ -8,17 +8,17 @@
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (EF), tombant ſur deux autres lignes droites (AB, CD) ſituées dans un même plan, fait l'angle extérieur (*m*) égal à ſon intérieur (*n*) oppoſé du même côté; ou bien les deux intérieurs (*o*＋*n*) du même côté égaux à deux droits: ces deux lignes (AB, CD) ſont paralleles entr'elles.
 
-## CAS. I.
+### CAS. I.
 
-Hypothese.
+### Hypothese.
 
 ∀ *m* ＝ ∀ *n*.
 
-These.
+### These.
 
 *AB, CD ſont des lignes Plles.*
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ∀ *m* & *p* ſont des ∀ oppoſés au ſommet.
 
@@ -44,17 +44,17 @@ Mais les ∀ égaux *p* & *n* (*Arg.* 2), ſont en même tems des ∀ alternes.
 Prop. 27. L. 1.
 [/Margin]
 
-## CAS. II.
+### CAS. II.
 
-Hypothese.
+### Hypothese.
 
 *Les* ∀ *o* ＋ *n ſont* ＝ *à* 2 ⌐.
 
-These.
+### These.
 
 *AB, CD ſont des lignes Plles.*
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque la droite EF, tombant ſur la droite AB, forme avec elles les ∀ contigus *o* & *p*.
 

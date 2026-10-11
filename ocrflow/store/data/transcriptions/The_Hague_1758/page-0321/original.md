@@ -11,7 +11,7 @@
 Donnees.
 Un point A dans le Plan XZ.
 
-Cherchee.
+### Cherchee.
 La droite BA élevée du point A ⊥ ſur le Plan XZ.
 [/Subhead]
 

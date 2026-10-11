@@ -8,7 +8,7 @@
 {dropcap:S|lines=2|style=plain}I deux triangles (ABC, DEF) ont un angle (A) égal à un angle (*m*), & les côtés (BA, AC & ED, DF), qui comprennent ces angles, proportionels: les triangles ſont équiangles; & les angles (C & *n* item B & E) oppoſés aux côtés homologues, (BA, ED item AC, DF) ſont égaux entr'eux.
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 I. ∀ A ═ à ∀ m.
 
@@ -16,7 +16,7 @@ II. BA : AC ═ ED : DF.
 
 III. BA, ED; AC, DF ſont homologues.
 
-THESE.
+### THESE.
 
 I. Les △ ABC, DEF ſont équiangles.
 

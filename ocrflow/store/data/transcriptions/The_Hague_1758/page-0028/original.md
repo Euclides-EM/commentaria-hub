@@ -4,7 +4,7 @@
 
 [Figure: two triangles in a double-ruled frame: triangle BAC with angle a at apex A and angles b and c at base, with a dotted circle; triangle EDF with angle d at apex D, angles e and f at base, a point X above the base EF and a dotted arc through Y below it]
 
-## PROPOSITION IV. THEORE'ME. I.
+## PROPOSITION IV. THEORE'ME I.
 
 {dropcap:S|lines=2|style=plain}I deux triangles (BAC, EDF), ont deux côtés égaux à deux côtés chacun à chacun; (c. à. d. AB = DE, & AC = DF), & de plus, l'angle compris (a) égal à l'angle compris (d): ils auront auſſi la baſe (BC), égale à la baſe (EF); & les deux autres angles (b & c) égaux aux deux autres angles (e & f), chacun à chacun de ceux qui ſe trouvent oppoſés à des côtés égaux; & le triangle entier (BAC) ſera égal au triangle entier (EDF).
 

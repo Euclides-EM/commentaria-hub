@@ -9,7 +9,7 @@
 {dropcap:S|lines=2|style=plain}I on prend deux points quelconques (A & B) dans la circonférence d'un cercle (AEB): la droite (AB), qui joint ces deux points, tombera au dedans du cercle.
 
 [Subhead]
-HYPOTHESE
+### HYPOTHESE
 
 Les deux points *A & B ſont pris dans la* ○ *AEB*.
 [/Subhead]
@@ -20,7 +20,7 @@ THÉSE.
 *La droite AB tombe au dedans du* ⊙ *AEB*.
 [/Subhead]
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:C|lines=1|style=plain}Herchez le centre C du ⊙ AEB.
 
@@ -31,7 +31,7 @@ Prop. 1. L. 3.
 Dem. 1.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ ACB, le côté CA eſt = au côté CB (*Prep*. 2 & *Def*. 15. *L*. 1).
 

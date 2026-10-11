@@ -7,15 +7,15 @@
 
 {dropcap:S|lines=2|style=plain}I des grandeurs diviſées ſont proportionelles ( A : B = C : D ), elles ſeront encore proportionelles en compoſant ( A + B : B = C + D : D ).
 
-HYPOTHESE.
+### HYPOTHESE.
 
 A : B = C : D.
 
-THESE.
+### THESE.
 
 A + B : B = C + D : D.
 
-DEMONSTRATION.
+### DEMONSTRATION.
 
 Sinon, A + B : B = C + D : autre gdr. M < ou > D.
 

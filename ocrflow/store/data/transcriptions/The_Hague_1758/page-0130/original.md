@@ -7,7 +7,7 @@ II. Si non.
 
 On pourra tirer une droite, comme AG, entre la ⟂ AB & la circonférence du ⊙ AHD.
 
-#### *Préparation.*
+### *Préparation.*
 
 Du centre C, abaiſſez ſur AG la ⟂ CG.
 

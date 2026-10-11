@@ -31,7 +31,7 @@ Dem. 1.
 Prop. 31. L. 1.
 [/Margin]
 
-### DEMONSRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure BN eſt un quarré (*Prep.* 1).
 

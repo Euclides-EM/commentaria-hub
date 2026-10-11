@@ -7,11 +7,11 @@
 
 {dropcap:I|lines=2|style=plain}Nſcrire un Hexagone (ABDEFG) équilatéral & équiangle ; dans un cercle donné (BEG).
 
-Donne.
+### Donne.
 
 *Le ⊙ BEG.*
 
-Cherche.
+### Cherche.
 
 *L'Hexagone équilatéral & équiangle ABDEFG, inſcrit dans le ⊙ BEG.*
 

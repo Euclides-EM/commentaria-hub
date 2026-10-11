@@ -7,21 +7,21 @@
 
 {dropcap:E|lines=2|style=plain}*N tout Parallélogramme* (BD), *les Parallélogrammes* (FH, IG) *alentour de la diagonale* (AC) *ſont ſemblables & au Tout & entr'eux.*
 
-## HYPOTHESE.
+### HYPOTHESE.
 
 [Subhead]
 *I. BD eſt un Pgr.
 II. FH, IG ſont des Pgrs alentour de la diagonale AC.*
 [/Subhead]
 
-## THESE.
+### THESE.
 
 [Subhead]
 *I. Les Pgrs AFEH, EICG ſont ſemblables au Pgr ABCD,
 II. Et ſemblables entr'eux.*
 [/Subhead]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque FE eſt Plle à BC (*Hyp.* 1. & 2. & *Prop.* 30. L. 1.),
 

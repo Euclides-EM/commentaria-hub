@@ -3,11 +3,11 @@
 
 de ſa multiplicité. Ainſi lorſqu'on compoſe les raiſons directes R² : 1 & R³ : 1 &c, avec leurs réciproques R⁻² : 1 & R⁻³ : 1 &c. On trouve toujours les raiſons R⁰ : 1, R⁰ : 1 &c, déſignant la raiſon d'égalité, 1 : 1. D'où il ſuit que le caractère R⁰ répréſente conſtamment l'unité, quelle que puiſſe être la valeur de R.
 
-## COROLLAIRE IX.
+### COROLLAIRE IX.
 
 {dropcap:P|lines=2|style=plain}Uiſque la raiſon 1 : R³ eſt compoſée des raiſons 1 : R + 1 : R + 1 : R. (Def. 6 & Hyp. 3.), Et celle de 1 : R^⁻¾, des raiſons 1 : R^⁻¼, + 1 : R^⁻¼ + 1 : R^⁻¼ & ainſi des autres: On voit qu'en général les raiſons exprimées par une même primordiale 1 : R, ſe compoſent par la ſimple addition des Expoſans, ſoit affirmatifs, ſoit négatifs; & dans l'un ou l'autre cas, ſoit entiers, ou fractionnaires, c. à. d. potentiels ou radicaux.
 
-## COROLLAIRE X.
+### COROLLAIRE X.
 
 {dropcap:S|lines=2|style=plain}I on ſuppoſe qu'une raiſon donnée F : 1 ſoit exprimée par une raiſon R^m⁄n : 1 dérivée de la primordiale R : 1, & une autre f : 1, de même par une autre dérivée R^p⁄q : 1.
 
@@ -17,7 +17,7 @@ Il eſt clair que la compoſée fF : 1 = R^m⁄n : 1 + R^p⁄q : 1. ſera exprim
 
 {dropcap:U|lines=2|style=plain}Ne raiſon primordiale 1 : R peut être décompoſée à l'infini par la voye de l'interpoſition, & compoſée à l'infini par la voye de la continuation.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:E|lines=2|style=plain}Ntre les deux termes 1 & R de la raiſon donnée, on peut prendre une moyenne proportionelle R^½, qui réſout la raiſon donnée dans les deux raiſons égales 1 : R^½, & R^½ : R¹ (Prop. 8).
 

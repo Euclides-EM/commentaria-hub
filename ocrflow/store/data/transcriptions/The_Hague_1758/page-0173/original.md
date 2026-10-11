@@ -7,11 +7,11 @@
 
 {dropcap:C|lines=2|style=plain}Irconſcrire un cercle (ADF); à un pentagone (ABDEF) équiangle & équilatéral.
 
-Donne.
+### Donne.
 
 *Le pentagone ABDEF équiangle & équilatéral.*
 
-Cherche.
+### Cherche.
 
 *Le ⊙ ADF circonſcrit à ce pentagone.*
 

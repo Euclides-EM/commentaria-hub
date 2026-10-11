@@ -7,11 +7,11 @@
 
 {dropcap:S|lines=2|style=plain}I les grandeurs compoſées ( A + B & C + D comparées à leurs parties B & D ) ſont proportionelles : les grandeurs diviſées le ſeront auſſi.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 A + B : B = C + D : D
 
-THESE.
+### THESE.
 
 A : B = C : D.
 

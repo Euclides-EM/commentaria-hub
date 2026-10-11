@@ -8,14 +8,14 @@
 {dropcap:S|lines=2|style=plain}I on partage une droite (AB) en deux également (en C), & qu'on y ajoute directement une autre droite (BD): le quarré de la droite (AD) compoſée de l'entiere (AB) & de l'ajoutée (BD), avec le quarré de l'ajoutée (BD) ſont doubles du quarré de la moitié (AC) de l'entiere (AB), & du quarré de la droite (CD), compoſée de la moitie (CB) de l'entiere (AB) & de l'ajoutée (BD),
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 AB eſt une droite partagée également en C, & à laquelle on ajoute directement une partie BD.
 
-THESE.
+### THESE.
 Le □ de AD + le □ de BD ſont doubles du □ de AC + du □ de CD.
 [/Subhead]
 
-*Préparation.*
+### *Préparation.*
 
 1. SUr AB, au point C, élevez la ⊥ CE.
 2. Faites CE = à AC ou BC.
@@ -30,7 +30,7 @@ Prop. 31. L. 1.
 Dem. 2.
 [/Margin]
 
-DEMONSTRATION.
+### DEMONSTRATION.
 
 PUiſque dans le △ ACE le côté AC eſt = au CE (*Prep.* 2).
 1. L'angle CAE eſt = à ∀ *m*.

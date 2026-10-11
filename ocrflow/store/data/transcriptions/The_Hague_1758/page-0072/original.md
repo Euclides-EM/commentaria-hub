@@ -20,7 +20,7 @@ Cherchée.
 
 *La conſtruction d'un Pgr ſur la droite AB ＝ au △ T; & qui ait un ∀ BAC ＝ à ∀ donné M.*
 
-Réſolution.
+### Réſolution.
 
 1. {dropcap:P|lines=1|style=plain}Rolongez la droite AB indéfiniment.
 
@@ -76,7 +76,7 @@ Prop. 31. L. 1.
 Dem. 2.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans la figure DG les côtés oppoſés GI, FD & GF, ID ſont Plles (*Reſ.* 5. 6. 8. & 9).
 

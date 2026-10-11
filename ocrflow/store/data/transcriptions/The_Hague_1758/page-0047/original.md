@@ -8,14 +8,14 @@
 
 {dropcap:S|lines=2|style=plain}I des extrêmités (A & B) d'un côté (AB) de quelque triangle (ACB), on tire à un point quelconque (D), pris au dedans de ce triangle, deux lignes droites (DA, DB): ces deux droites ſeront plus petites que les deux côtés (CA, CB) de ce triangle; mais elles comprendront un plus grand angle (ADB).
 
-Hypothese.
+### Hypothese.
 *DA, DB ſont deux droites tirées, des points A & B au point D, pris au dedans du △ ACB.*
 
-These.
+### These.
 *I. DA ＋ DB ⟨ CA ＋ CB.*
 *II. ∀ ADB ⟩ ∀ C.*
 
-Préparation.
+### Préparation.
 
 {dropcap:P|lines=2|style=plain}Rolongez la droite DA, juſqu'à ce qu'elle rencontre le côté CB en E.
 
@@ -23,7 +23,7 @@ Préparation.
 Dem. 2.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure ACE eſt un △ (*Def.* 21. *L.* 1).
 

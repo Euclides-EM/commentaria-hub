@@ -7,15 +7,15 @@
 
 {dropcap:L|lines=2|style=plain}Es paralelipipédes (FGHEDCBA & IMLKBCA) placés ſur la même baze (ABCD), ayant même hauteur, & deſquels les lignes inſiſtantes (FA, AI &c.) ne ſont point dans la même direction : ſont égaux.
 
-HYPOTHESE.
+### HYPOTHESE.
 *I. Les* ⊟s *HA & LA ſont placés ſur la même baze AC.*
 *II. Ils ont la même hauteur.*
 *III. Les lignes inſiſtantes AF & AI, ne ſont point dans la même direction.*
 
-THESE.
+### THESE.
 ⊟ *FHCA eſt =* ⊟ *ILCA.*
 
-## Préparation.
+### Préparation.
 
 1. Prolongez LK & FG vers P, juſqu'à ce qu'elles s'y rencontrent.
 2. Prolongez IM, juſqu'à ce qu'elle rencontre FG en Q.
@@ -27,7 +27,7 @@ Dem. 2. L. 1.
 Dem. 1. L. 1.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ⊟s FHCA & QOCA ont la même baze ABCD & que leurs lignes inſiſtantes AF, AQ; ED, DN; BG, BP; & HC, CO; ſont dans les directions FP & EO.
 

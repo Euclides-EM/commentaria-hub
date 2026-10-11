@@ -54,6 +54,6 @@ Ax. 7. L. 1.
 
 C. Q. F. D. II.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:L|lines=2|style=plain}Es pyramides-polygones égales: ont leurs bazes & hauteurs reciproquement proportionelles. Et les pyramides-polygones, dont les bazes & les hauteurs ſont reciproquement proportionelles: ſont égales.

@@ -8,10 +8,10 @@
 {dropcap:D|lines=2|style=plain}'Un point (B) dans un Plan (ZX) on ne peut tirer du même coté qu'une ſeule perpendiculaire (AB).
 
 [Subhead]
-Hypothese.
+### Hypothese.
 AB eſt ⊥ au point B, ſur le Plan XZ.
 
-These.
+### These.
 Il eſt impoſſible de tirer du point B une autre ⊥ ſur le Plan XZ du même coté que AB.
 [/Subhead]
 
@@ -20,7 +20,7 @@ Il eſt impoſſible de tirer du point B une autre ⊥ ſur le Plan XZ du même 
 {dropcap:S|lines=2|style=plain}I non.
 On peut élever du point B encore une ⊥.
 
-*Preparation.*
+### *Preparation.*
 
 {dropcap:D|lines=2|style=plain}U point B élevéz une ⊥ BC different de AB.
 

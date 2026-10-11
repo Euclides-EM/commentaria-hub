@@ -8,11 +8,11 @@
 {dropcap:L|lines=2|style=plain}Es Triangles (ABC, CBD) & les Parallélogrammes (CF, CE), qui ont la même hauteur, ſont entr'eux en raiſon de leurs baſes (AC, CD).
 
 [Subhead]
-HYPOTHESE
+### HYPOTHESE
 
 Les △ ABC, CBD & les Pgmes CF, CE ont la même hauteur.
 
-THESE.
+### THESE.
 
 I. Le △ ABC : △ CBD ═ AC : CD.
 II. Le Pgme CF : Pgme CE ═ AC : CD.

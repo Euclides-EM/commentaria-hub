@@ -7,7 +7,7 @@
 
 Par ex. La raiſon directe 3 : 1 a pour réciproque la raiſon 1 : 3. De même prenant B : A pour directe, ſa réciproque eſt A : B. En général la grandeur ¹⁄A eſt la réciproque de la grandeur A. Car une grandeur A ſe rapportant naturellement à l'unité comme conſéquent, A eſt autant que A⁄1.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:S|lines=2|style=plain}I la directe, par ex. 3 : 2, eſt une raiſon de plus grande inégalité, ſa réciproque 2 : 3 ſera néceſſairement une raiſon de moindre inégalité.
 

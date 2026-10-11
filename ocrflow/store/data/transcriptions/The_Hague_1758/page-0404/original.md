@@ -7,23 +7,23 @@
 
 {dropcap:L|lines=2|style=plain}Es ſphères (ABCD & HILK): ſont entr'eux en raiſon triplée de leurs diamêtres (AC & KI).
 
-HYPOTHESE.
+### HYPOTHESE.
 *AC eſt le diamêtre de la ſphère ABCD, & KI, le diamêtre de la ſphère HILK.*
 
-THESE.
+### THESE.
 *Sphère ABCD : ſphère HILK = A̅C̅³ : K̅I̅³.* *
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:S|lines=2|style=plain}I non.
 
 Une ſphère < ou > que la ſphère ABCD ſera à la ſphère HILK = A̅C̅³ : K̅I̅³.
 
-## I. Suppoſition.
+### I. Suppoſition.
 
 {dropcap:S|lines=2|style=plain}Oit la ſphère VRT < que la ſphère ABCD, de façon que la ſphère VRT : ſphère HILK = A̅C̅³ : K̅I̅³.
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=2|style=plain}Lacez la ſphère VRT autour du centre de la ſphère ABCD, comme eſt EFG, (qui eſt = à la ſphère VRT).
 

@@ -8,13 +8,13 @@
 
 {dropcap:E|lines=2|style=plain}N tout triangle (ABC): deux côtés quelconques (AB, BC) ſont plus grands que le troiſieme (AC).
 
-Hypothese.
+### Hypothese.
 *ABC eſt un △.*
 
-These.
+### These.
 *Deux côtés quelconques, comme AB ＋ BC, ſont ⟩ le troiſieme AC,*
 
-Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=2|style=plain}Rolongez un des deux côtés, comme AB, à l'infini.
 
@@ -34,7 +34,7 @@ Prop. 3. L. 1.
 Dem. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ BDC le côté BD eſt ═ au côté BC (*Prep.* 2).
 

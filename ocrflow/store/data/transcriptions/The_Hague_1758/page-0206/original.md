@@ -7,17 +7,17 @@
 
 {dropcap:S|lines=2|style=plain}I une grandeur (aM) eſt autant multiple d'une autre grandeur (M), que la retranchée (aN) l'eſt de la retranchée (N), le reſte (aP) ſera autant multiple du reſte (V), que la grandeur entiére (aM), l'eſt de la grandeur entiére (M).
 
-Hypothese.
+### Hypothese.
 
 I. Les gdrs. aM & M ſont deux Touts, les gdrs. aN & N leurs parties retranchées & les gdrs. aP & V les reſtes.
 
 II. aM eſt multiple de M, autant que aN l'eſt de N.
 
-These.
+### These.
 
 aP eſt autant multiple de V, que aM l'eſt de M.
 
-Préparation.
+### Préparation.
 
 Prenez une grandeur P telle, que aP ſoit autant multiple de P, que aN l'eſt de N, ou aM de M.
 
@@ -25,7 +25,7 @@ Prenez une grandeur P telle, que aP ſoit autant multiple de P, que aN l'eſt de
 Dem. 2. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que aN eſt autant multiple de N, que aP l'eſt de P (Prep.),
 

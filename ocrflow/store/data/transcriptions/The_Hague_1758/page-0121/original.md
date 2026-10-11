@@ -50,7 +50,7 @@ On démontrera de la même maniere, que
 
 C. Q. F. D. IV.
 
-## II. *Préparation*.
+### II. *Préparation*.
 
 1. {dropcap:F|lines=1|style=plain}Aites enſuite ∀ DMB = à ∀ DMK, & prolongez MB juſqu'à la rencontre de la ⊙.
 2. Du point D au point B tirez la droite DB.

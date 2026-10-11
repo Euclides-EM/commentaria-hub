@@ -7,16 +7,16 @@
 
 {dropcap:S|lines=2|style=plain}'il y a deux ſuites de grandeurs (A, B, C &c a, b, c &c) de même nombre de part & d'autre, telles que les raiſons de l'une ſoient égales aux raiſons de l'autre, chacune à chacune, dans un ordre renverſé ou troublé, les extrêmes ſeront proportionelles par égalité de raiſon troublée, ou ex æquo perturbatè.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. A : B = b : c.
 II. B : C = a : b.
 
-THESE.
+### THESE.
 
 A : C = a : c.
 
-Préparation.
+### Préparation.
 
 1. Prenez m A, m B, m a équimult. des gdrs. A, B, a.
 2. De même n C, n b, n c autres équimult. des gdrs. C, b, c.
@@ -25,7 +25,7 @@ Préparation.
 Dem. 1. L. 5.
 [/Margin]
 
-DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque m A & m B ſont des équimult. de A & de B (Prep. 1).
 1. On aura A : B = m A : m B.

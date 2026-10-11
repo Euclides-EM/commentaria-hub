@@ -3,7 +3,7 @@
 
 ## DEFINITIONS.
 
-## XX.
+### XX.
 
 Au contraire, l'*égalité de raiſon* eſt appellée *renverſée* ou *troublée*, dans le ſecond cas, c. à d. lorſque les raiſons de la premiere ſuite ſont égales à celles de la ſeconde ſuite chacune à chacune; en prenant ces dernieres dans un ordre renverſé.
 

@@ -12,7 +12,7 @@ Donnees.
 I. Trois ∀ ABC, DEF & GHI, deux deſquels pris comme l'on voudra ſont toujours plus grand que le troiſieme, comme ∀ B + E > H, B + H > E, & E + H > B.
 II. ∀ B + E + H < quatres ⌊.
 
-Cherchee.
+### Cherchee.
 Des trois ∀ B, E & H faire un ∀ ſolide P.
 [/Subhead]
 

@@ -7,10 +7,10 @@
 
 {dropcap:C|lines=2|style=plain}Onſtruire un quarré ; égal à une figure rectiligne donnée (A).
 
-DONNEE.
+### DONNEE.
 *La figure rectiligne A.*
 
-CHERCHEE.
+### CHERCHEE.
 *La conſtruction d'un quarré = à la figure rectiligne donnée A.*
 
 ### Réſolution.

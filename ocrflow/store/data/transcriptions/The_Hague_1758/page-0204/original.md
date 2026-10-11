@@ -7,21 +7,21 @@
 
 {dropcap:S|lines=2|style=plain}I la premiere grandeur (a M) eſt multiple de la ſeconde M, autant que la troiſieme (a N) l'eſt de la quatrieme (N), & qu'on prenne des équimultiples (e a M, e a N) de la premiere (a M) & de la troiſieme (a N): ces deux dernieres grandeurs (e a M, e a N) ſeront également multiples de la ſeconde (M) & de la quatrieme (N).
 
-Hypothese.
+### Hypothese.
 
 1. a M & a N ſont deux équimultiples de M chacune & de N chacune.
 
 2. e a M & e a N ſont deux équimultiples de a M chacune & de a N chacune.
 
-These.
+### These.
 
 e a M eſt autant multiple de M, que e a N l'eſt de N.
 
-Préparation.
+### Préparation.
 
 Partagez donc e a M en ſes parties 1 a M, a 1 M &c. chacune = a M. & e a N en ſes parties 1 a N, a 1 N &c. chacune = a N.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque e a M eſt autant multiple de a M, que e a N l'eſt de a N (Hyp. 2),
 

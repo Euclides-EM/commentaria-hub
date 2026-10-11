@@ -4,7 +4,7 @@
 
 [Figure: line L N crossing transversal E F at point G above horizontal dotted line A B, with angles p, n, m at G; horizontal line C D crossed by E F at H with angle o; dotted lines from N and D meeting at point M at right]
 
-## REMARQUE.
+### REMARQUE.
 
 {dropcap:S|lines=2|style=plain}*I on reçoit au nombre des axiomes, la propoſition qu'Euclide ſuppoſe comme évidente par elle-même,* \* *à ſçavoir,* qu'une ligne droite (EF), qui coupe une de deux paralleles (comme AB), en coupera néceſſairement l'autre (CD) auſſi, pourvû que cette ligne coupante (EF) ſoit prolongée ſuffiſamment: *on peut démontrer ſans peine l'axiome XI, dont la vérité eſt un peu éloignée des notions communes, & qui ſert cependant de fondement à la Propoſition XXIX. Voici de quelle maniere cela ſe peut faire.*
 
@@ -12,7 +12,7 @@
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (EF), tombant ſur deux autres lignes droites (LN, CD) ſituées dans un même plan, fait les angles alternes (*p*＋*n* & *o*) inégaux entr'eux: ces deux lignes (LN & CD), prolongées ſuffiſamment, s'il eſt néceſſaire, ſe rencontreront quelque part (en M), du côté ou ſe trouve le plus petit des angles alternes (*o*).
 
-*Préparation.*
+### *Préparation.*
 
 {dropcap:C|lines=2|style=plain}Ar puiſqu'on ſuppoſe ∀ *p* ＋ *n* ＞ ∀ *o*.
 
@@ -28,7 +28,7 @@ Prop. 23. L. 1.
 Dem. 2.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uis donc que les deux lignes AB, CD ſont coupées par une troiſieme EF, enſorte que les ∀ alternes *n* & *o* ſont ＝ entr'eux (*Prep.* 1).
 

@@ -1,15 +1,15 @@
 <!-- Running title: LIVRE ONZIEME. -->
 <!-- Page number: 339 -->
 
-## Hypothese.
+### Hypothese.
 
 Baze IL : baze AC = hauteur GB : hauteur IR.
 
-## These.
+### These.
 
 ⊟ AD eſt = ⊟ IV.
 
-## II. Demonstration.
+### II. Demonstration.
 
 *La Préparation eſt la même que pour le Cas II, precedent.*
 
@@ -67,7 +67,7 @@ C. Q. F. D. I.
 
 *Les Demonſtrations pour le premier & le troiſieme Cas dans cette Hypotheſe, ſont les mêmes, c'eſt pourquoi nous les obmettons.*
 
-## REMARQUE I.
+### REMARQUE I.
 
 {dropcap:C|lines=2|style=plain}E qui vient d'être Demontré dans les Propoſitions 25, 29, 30, 31, 32, 33 & 34. au ſujet des paralelipipédes; eſt auſſi vrai, par rapport aux priſmes triangulaires; puiſque un tel priſme eſt la moitié de ſon paralelipipéde: par la Propoſition 28. de ce Livre, d'où l'on peut conclure.
 

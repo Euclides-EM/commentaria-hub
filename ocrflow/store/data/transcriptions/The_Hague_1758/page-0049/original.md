@@ -8,15 +8,15 @@
 
 {dropcap:U|lines=2|style=plain}Ne droite indéterminée (AM) étant donnée, avec un de ſes points (A); décrire ſur cette droite & à ce point un angle rectiligne (BAC), égal à un autre angle rectiligne donné (HDG).
 
-Donnee
+### Donnee
 *I. La droite indéterminée AM,
 II. Le point A dans la droite AM.
 III. L'angle rectiligne HDG.*
 
-Cherchee.
+### Cherchee.
 *Un angle BAC décrit ſur AM, au point A ＝ à ∀ HDG.*
 
-Réſolution.
+### Réſolution.
 
 {dropcap:S|lines=2|style=plain}Ur les jambes DG, DH, de l'angle donné HDG, prenez deux points quelconques E & F.
 
@@ -32,7 +32,7 @@ Dem. 1.
 Prop. 22. L. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les trois côtés AB, AC, BC du △ ABC ſont ＝ aux trois côtés DF, DE, FE du △ DFE chacun à chacun (*Reſ.* 3).
 

@@ -9,12 +9,12 @@
 {dropcap:S|lines=2|style=plain}I le quarré de l'un des côtés (CA) d'un triangle (CBA) eſt égal aux quarrés des deux autres côtés (AB, BC): l'angle (ABC) compris de ces deux côtés (AB, BC) eſt droit.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 Le □ de CA eſt ⚌ aux □ de AB & au □ de BC.
 [/Subhead]
 
 [Subhead]
-These.
+### These.
 L'angle ABC compris des côtés AB, BC eſt ⌐.
 [/Subhead]
 

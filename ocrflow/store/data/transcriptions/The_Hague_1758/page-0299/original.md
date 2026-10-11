@@ -3,7 +3,7 @@
 
 [Figure: dans un encadrement, Fig. 1: deux cercles inégaux de centre C, avec des angles au centre marqués, points m, n, B, D, E, F sur les circonférences; Fig. 2: deux cercles concentriques de centre C, avec deux rayons coupant les circonférences aux points E, F et B, D, points m et n marqués]
 
-## COROLLAIRE I.
+### COROLLAIRE I.
 
 L'angle au centre, eſt à 4 angles droits, comme l'arc ſur lequel il appuye, eſt à la circonférence. Car (*Fig.* 1) ∀BCD : ⌐ ⚌ BD : à un quart de ⊙. C'eſt pourquoi, quadruplant les conſéquens,
 
@@ -13,7 +13,7 @@ L'angle au centre, eſt à 4 angles droits, comme l'arc ſur lequel il appuye, e
 Prop. 15. L. 5.
 [/Margin]
 
-## COROLLAIRE II.
+### COROLLAIRE II.
 
 Les arcs EF, BD de cercles inégaux, ſont ſemblables, s'ils ſoutiennent des angles égaux C & C, ſoit aux centres, ſoit aux circonférences (*Fig.* 2).
 
@@ -29,7 +29,7 @@ Prop. 11. L. 5.
 
 Les arcs EF, BD ſont donc ſemblables.
 
-## COROLLAIRE III.
+### COROLLAIRE III.
 
 Deux rayons CB, CD rétranchent de circonférences concentriques, des arcs ſemblables EF, BD (*Fig.* 2).
 

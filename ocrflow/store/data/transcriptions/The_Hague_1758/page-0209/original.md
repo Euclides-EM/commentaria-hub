@@ -7,16 +7,16 @@
 
 {dropcap:L|lines=2|style=plain}Es grandeurs égales (M & 1M), ont même raiſon à une même grandeur (m); & une même grandeur (m) a même raiſon à des grandeurs égales (M & 1M).
 
-HYPOTHESE.
+### HYPOTHESE.
 
 M & 1M ſont deux gdrs. égales, & m en eſt une troiſieme.
 
-THESE.
+### THESE.
 
 I. M : m = 1M : m.
 II. m : M = m : 1M.
 
-Préparation.
+### Préparation.
 
 1. Prenez aM & a1M équimultiples de M & de 1M.
 2. Et em un multiple quelconque de m.
@@ -25,7 +25,7 @@ Préparation.
 Dem. 1. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque aM & a1M ſont des équimult. de M & de 1M (Prep. 1), & que M = 1M (Hyp.),
 

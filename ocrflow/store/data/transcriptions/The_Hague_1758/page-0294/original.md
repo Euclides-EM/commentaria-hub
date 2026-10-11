@@ -7,15 +7,15 @@
 
 {dropcap:C|lines=2|style=plain}Ouper une droite donnée (AB) en extrême & moyenne raiſon (en E).
 
-DONNEE.
+### DONNEE.
 
 *La droite* AB.
 
-CHERCHEE.
+### CHERCHEE.
 
 *Le point* E, *tel que* AB *ſoit coupé en extrême & moyenne raiſon; de manière que* BA : AE ⚌ AE : BE.
 
-## Réſolution.
+### Réſolution.
 
 1. De la droite AB décrivez un quarré BC.
 
@@ -29,7 +29,7 @@ Prop. 46. L. 1.
 Prop. 29. L. 6.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que BC ⚌ CD (*Reſ.* 2.); ſi l'on ôte le Rgle commun CE,
 
@@ -71,7 +71,7 @@ Def. 3. L. 6.
 
 C. Q. F. F.
 
-## Autrement.
+### Autrement.
 
 Partagez BA en E, enſorte que le Rgle AB . BE ſoit ⚌ au □ de AE.
 
@@ -79,7 +79,7 @@ Partagez BA en E, enſorte que le Rgle AB . BE ſoit ⚌ au □ de AE.
 Prop. 11. L. 2.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que BA . BE eſt ⚌ au □ de AE (*Reſ.*),
 

@@ -33,11 +33,11 @@ Prop. 11. L. 5.
 
 C. Q. F. D. III.
 
-## COROLLAIRE I.
+### COROLLAIRE I.
 
 {dropcap:P|lines=2|style=plain}Uiſqu'on peut appliquer cette Démonſtration aux Quadrilatères, & qu'on vient de prouver la même vérité des Triangles (*Prop.* 19), il eſt clair qu'en général *toutes les Figures rectilignes ſemblables ſont entr'elles en raiſon doublée de leurs côtés homologues quelconques.* C'eſt pourquoi prenant aux côtés homologues AB, FG une III<sup>me</sup> proportionelle X; puiſqu' AB eſt à X, en raiſon doublée de AB : FG; & qu'un Rectiligne M eſt à un autre Rectiligne ſemblable N, en raiſon doublée des mêmes côtés AB : FG, on voit *que ſi trois lignes ſont proportionelles, la première eſt à la troiſième, comme le Rectiligne décrit de la première eſt au Rectiligne décrit de la ſeconde, ſemblablement & en une poſition ſemblable* (Prop. 11. L. 5).
 
-## COROLLAIRE II.
+### COROLLAIRE II.
 
 {dropcap:E|lines=2|style=plain}N particulier, tous les Quarrés étant ſemblables (*Def.* 30. *L.* 1 & *Def.* 1. *L.* 6), deux Rectilignes ſemblables quelconques M & N, ſont toujours en raiſon des Quarrés de leurs côtés homologues AB, CD. Car de part & d'autre ces Figures ſont en raiſon doublée de ces mêmes côtés.
 

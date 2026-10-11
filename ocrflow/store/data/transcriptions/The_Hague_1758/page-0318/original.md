@@ -8,15 +8,15 @@
 {dropcap:L|lines=2|style=plain}Es lignes (AB & CD) qui ſont paralleles à une même ligne (EF) quoique ſituées dans les Plans differents (SF & RF); ſont paralleles entr'elles.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 I. AB eſt dans le Plan SF, & CD dans le Plan RF.
 II. AB & CD ſont chacun Plle EF.
 
-These.
+### These.
 AB eſt Plle CD.
 [/Subhead]
 
-### Préparatian.
+### Préparation.
 
 1. {dropcap:D|lines=2|style=plain}'Un point H de la ligne AB dans le Plan FS abaiſſez une ⊥ HG ſur EF.
 2. Du Point G dans le Plan RF abaiſſez la ⊥ GK ſur CD.

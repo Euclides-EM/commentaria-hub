@@ -11,11 +11,11 @@
 35 : 31⅔  ;   55   :   57
 [/Calculation]
 
-## VIII.
+### VIII.
 
 La proportion eſt une ſimilitude des raiſons. (*Voyez* Def. V §. 5 & 6).
 
-## IX.
+### IX.
 
 La proportion conſiſte au moins en trois termes.
 

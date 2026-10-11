@@ -1,7 +1,7 @@
 <!-- Running title: APPENDICE. -->
 <!-- Page number: 221 -->
 
-## COROLLAIRE I.
+### COROLLAIRE I.
 
 {dropcap:L|lines=2|style=plain}A tranſpoſition des Lettres ne change point la valeur du produit, c. a. d. fF = Ff.
 
@@ -22,7 +22,7 @@ Prop. 11. L. 5.
 Prop. 14. L. 5.
 [/Margin]
 
-## COROLLAIRE II.
+### COROLLAIRE II.
 
 {dropcap:L|lines=2|style=plain}Orſqu'on multiplie deux Facteurs égaux r & r; le produit rr eſt appellé un QUARRÉ, & le Facteur r ſa RACINE. Par conſéquent l'unité 1 eſt à la racine r, comme cette racine r eſt au quarré rr. c. à. d. 1 : r = r : rr. (Def. 1).
 
@@ -36,7 +36,7 @@ De même, en multipliant le Cube rrr par la racine r, le produit rrrr eſt appel
 
 Et ainſi des autres produits à l'infini, auxquels on donne le nom de PUISSANCES. On les nomme premiere, ſeconde, troiſieme, &c, puiſſance; ſelon que dans l'expreſſion la lettre (r) déſignant la racine, eſt répétée une, deux, trois &c fois. On les marque auſſi de cette maniere r¹, r², r³, caractériſtique d'un uſage fort étendu, qui a ſon fondement dans la compoſition & décompoſition des raiſons, comme nous l'expliquerons dans la ſuite.
 
-## COROLLAIRE III.
+### COROLLAIRE III.
 
 {dropcap:P|lines=2|style=plain}Uiſque toutes les raiſons ſont égales à la raiſon 1 : r, il s'enſuit que
 

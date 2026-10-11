@@ -22,7 +22,7 @@ Def. 10. L. 1.
 Ax. 8. L. 1.
 [/Margin]
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:S|lines=2|style=plain}I dans un cercle ACBE, une corde EC coupe une autre corde AB en deux également & à angles droits; cette corde CE eſt un diametre, & par conſéquent le centre du cercle s'y trouve (*Def*. 17. *L*. 1).
 

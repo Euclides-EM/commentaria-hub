@@ -4,27 +4,27 @@
 
 [Figure: two triangles: at left, Fig. 1, triangle ACB on base A B; at right, Fig. 3, triangle DFE on base D E with point G on the base and dotted line FG]
 
-## CAS. II.
+### CAS. II.
 
-Hypothese.
+### Hypothese.
 *I. ∀ A ＝ ∀ D.
 II. ∀ B ＝ ∀ E.
 III. AC ＝ DE.*
 
 Lorſque les côtés égaux AC, DF ſe trouvent oppoſés aux angles égaux B & E (*Fig.* 1 & 3).
 
-These.
+### These.
 *I. AB ＝ DE.
 II. BC ＝ EF.
 III. ∀ C ＝ ∀ F.*
 
-Demonstration.
+### Demonstration.
 
 {dropcap:S|lines=2|style=plain}I non.
 
 Les côtés AB, DE ſont inégaux: & l'un, comme DE, ſera ＞ l'autre AB.
 
-*Préparation.*
+### *Préparation.*
 
 1. Retranchez donc du plus grand côté DE une partie DG ＝ à AB.
 

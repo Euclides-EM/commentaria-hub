@@ -8,11 +8,11 @@
 {dropcap:S|lines=2|style=plain}I deux lignes (AB & CD) ſont paralleles, & que l'une (comme AB) eſt perpendiculaire ſur un Plan (ZX); l'autre CD ſera auſſi perpendiculaire ſur le même Plan.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 I. AB & CD ſont Plles.
 II. AB eſt ⊥ ſur le Plan ZX.
 
-These.
+### These.
 CD eſt ⊥ ſur le même Plan ZX.
 [/Subhead]
 

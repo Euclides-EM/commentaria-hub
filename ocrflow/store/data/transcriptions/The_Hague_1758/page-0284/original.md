@@ -7,20 +7,20 @@
 
 {dropcap:L|lines=2|style=plain}*Es Parallélogrammes équiangles* (M & N) *ſont entr'eux en raiſon compoſée des raiſons de leurs côtés* (AC, CD & EC, CG) *alentour des angles égaux.*
 
-## HYPOTHESE.
+### HYPOTHESE.
 
 [Subhead]
 *Les Pgrs M & N ſont équiangles;
 ſi bien que ∀ ACD ⚌ ∀ ECG.*
 [/Subhead]
 
-## THESE.
+### THESE.
 
 [Subhead]
 *Pgr M : Pgr N ⚌ AC.CD : EC.CG.*
 [/Subhead]
 
-## Préparation.
+### Préparation.
 
 1. Diſpoſez AC & CG en une même droite AG; cela fait, EC & CD formeront auſſi une même droite ED.
 
@@ -34,7 +34,7 @@ Prop. 14. L. 1.
 Dem. 1. L. 1.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Pgrs M, P, N, forment une ſuite de trois grandeurs,
 
