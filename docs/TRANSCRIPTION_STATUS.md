@@ -32,7 +32,7 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 OCR for Greek:
 https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
-**Status:** Waiting for LLM corrector run.
+**Status:** LLM in progress. 0/719
 
 ## Venice_1482
 
@@ -45,7 +45,7 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_6vegrr&annotationId=ann_3pg8ot
 
 OCR was run but performed very poorly, need to re-run with proper page-by-page.
 
-**Status:** Waiting for LLM corrector run.
+**Status:** LLM in progress. 6/284
 
 # Manual Curation
 
