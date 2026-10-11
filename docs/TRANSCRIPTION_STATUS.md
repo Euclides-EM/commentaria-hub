@@ -41,23 +41,48 @@ Two facsimiles are available:
 * **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
 * **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
 
+https://euclides.huma-num.fr/hub/?datasetId=ds_6vegrr&annotationId=ann_3pg8ot
+
 OCR was run but performed very poorly, need to re-run with proper page-by-page.
 
 **Status:** Waiting for LLM corrector run.
-
-## Pesaro_1572
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1&annotationId=ann_uomk97
-
-*Status* - Fable running. Done 432/544
 
 ## London_1570s
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 
-*Status* - Fable running. Done 581/1098
+*Status* - Fable running. Done 1043/1098
 
 # Manual Curation
+
+## Pesaro_1572
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1&annotationId=ann_uomk97
+
+### Dataset Usage Summary
+
+Claude Code — Fable
+
+- **Requests:** 248
+- **Input tokens:** 1,106
+- **Cached tokens:** 6,172,118
+- **Cache creation tokens:** 3,552,784
+- **Output tokens:** 1,181,982
+- **Reasoning tokens:** 0
+- **Total tokens:** 10,907,990
+- **Cost:** $137.20
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 237
+- **Input tokens:** 34,277,269
+- **Cached tokens:** 30,052,992
+- **Cache creation tokens:** 0
+- **Output tokens:** 1,260,640
+- **Reasoning tokens:** 0
+- **Total tokens:** 35,537,909
+
+**Next steps:** Ready for curation.
 
 ## Lyon_1603
 
