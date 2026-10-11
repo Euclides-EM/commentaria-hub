@@ -9,16 +9,16 @@
 {dropcap:D|lines=2|style=plain}Ans tout triangle rectangle (ABC): le quarré de l'hypothenuſe (AC) eſt égal aux quarrés des deux autres côtés (AB, BC), qui renferment l'angle droit (ABC).
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 *Le △ ABC eſt Rgle, ou ∀ ABC eſt ⌐.*
 
-THESE.
+### THESE.
 
 *Le □ de l'hypothenuſe AC eſt ⚌ au □ de AB & au □ de BC pris enſemble.*
 [/Subhead]
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:C|lines=1|style=plain}Onſtruiſez (*Fig.* 1.) ſur les trois côtés AC, AB, BC des □ AG, AM, CD.
 
@@ -40,7 +40,7 @@ Prop. 31. L. 1.
 Dem. 1.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure AM eſt un □ (*Prep.* 1).
 

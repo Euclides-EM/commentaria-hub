@@ -98,6 +98,16 @@ const isNodeActive = (
   currentPage >= nodePage &&
   (endPage === undefined || currentPage < endPage || currentPage === nodePage)
 
+const hasNodeOnPage = (
+  nodes: NavigationIndexNode[],
+  currentPage: number,
+): boolean =>
+  nodes.some(
+    (node) =>
+      getPageNumber(node.location?.page) === currentPage ||
+      hasNodeOnPage(node.children ?? [], currentPage),
+  )
+
 const getActivePathKeys = (
   nodes: NavigationIndexNode[],
   currentPage: number,
@@ -107,7 +117,12 @@ const getActivePathKeys = (
     const endPage = getEndPage(nodes, index, parentEndPage)
     if (
       !node.children?.length ||
-      !isNodeActive(getPageNumber(node.location?.page), endPage, currentPage)
+      (!isNodeActive(
+        getPageNumber(node.location?.page),
+        endPage,
+        currentPage,
+      ) &&
+        !hasNodeOnPage(node.children, currentPage))
     )
       return []
     return [
@@ -428,7 +443,10 @@ export function IndexMenu({
               <button
                 type="button"
                 className="text-xs text-gray-700 hover:text-gray-900 disabled:text-gray-400 disabled:cursor-not-allowed"
-                onClick={() => setExpandedNodeKeys(new Set(expandableNodeKeys))}
+                onClick={() => {
+                  scrolledPageRef.current = null
+                  setExpandedNodeKeys(new Set(expandableNodeKeys))
+                }}
                 disabled={
                   expandableNodeKeys.length === 0 ||
                   allExpanded ||

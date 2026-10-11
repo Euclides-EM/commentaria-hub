@@ -1,0 +1,26 @@
+<!-- Running title: The thirtenth Booke -->
+
+[Margin]
+The ſides of the angle &c. of the Icoſahedron proued irrationall.
+[/Margin]
+
+the ſeuenth meaſure the reſidue, namely, the power of the ſide: which is irrationall for that it is a leſſe line, which were abſurd. Wherefore it is manifeſt that the right lines which compoſe the angle of the inclination of the baſes of the Icoſahedron are Irrationall lines. For the ſubtending line hath to the line contayninge, a greater proportion, then the whole hath to the greater ſegment.
+
+The angle of the inclination of the baſes of a dodecahedron, is contayned vnder two perpendiculars of the baſes of the dodecahedron, and is ſubtended of that right line, whoſe greater ſegment is the ſide of a Cube inſcribed in the dodecahedron, which right line is equall to the line which coupleth the ſections, into two equal parts, of the oppoſite ſides of the dodecahedron. And this coupling line we ſay is an irrationall line, for that the diameter of the ſphere contayneth in power both the coupling line, and the ſide of the dodecahedron: but the ſide of the dodecahedron is an irrationall line, namely, a reſiduall line (by the 17.of this booke). Wherefore the reſidue namely, the coupling line is an irrationall line, as it is eaſy to proue by the 4.cómon ſentence of the ſeuẽth. And that the perpẽdicular lines which contayne the angle of the inclination are irrationall, is thus proued.
+
+Suppoſe that there be a Pentagon A B C D E, and draw in it the perpendicular line, A G, and let the line ſubtending the angle of the pentagon be A C. Now foraſmuch as the right line A C is the ſide of the cube, and C D the ſide the Dodecahedron inſcribed in one and the ſelfe ſame ſphere, by the 2. Corollary of the 17.of this booke: but the line A C is commenſurable to the diameter of the ſphere, by the 15.of this booke, and is therefore rationall, by the 6. diffinitió of the tenth: & the right line C D which is the ſide of the dodecahedron is irrationall (by the 17.of this booke). Wherfore the line C G which is the halfe of the line C D is irrationall by the 103.of the 10.boke. And the right line A C contayneth in power the two right lines A G and G C (by the 47.of the firſt). If therfore from the power of the right line A C being rationall, be takẽ away the power of the line C G being irrationall, the power remayning, namely, the power of the line A G, ſhall of neceſſitie be irrationall. For if the power of the line A G taken away ſhould be rationall, and the whole power of the line A C is rationall, the reſidue, namely, the power of the line C G ſhould be alſo rationall, and ſhould be meaſured by the ſelfe ſame numbers, by the 4.common ſentence of the ſeuenth. But it is proued that the line C G is irrationall, for it is the halfe of the whole reſiduall line C D (by the 17.of the thirtenth): which is impoſſible. Wherefore the perpendicular line A G is irrationall. Wherfore the angle of the inclination of the dodecahedron, which is contayned vnder two perpendicular lines of the pentagon, and is ſubtended of a right line, which coupleth the ſections into two equall parts of the oppoſite ſides of the dodecahedron (by the 2.corollary of the 18. of this booke) which line we haue proued to be irrationall (for that it is equall to the two lines A C, and C D by the 4. corollary of the 17.of this booke) is contayned vnder irrationall right lines.
+
+[Figure: pentagon A B C D E with lines drawn from A to C, G and D]
+
+[Margin]
+The ſides of the angle &c. of the dodecahedrõ proued irrationall.
+How to know whether the angle of the inclinatiõ be a right angle, an acute angle, or an oblique angle.
+[/Margin]
+
+By the proportion of the ſubtending line (of the foreſayd angles of inclination) to the lines which containe the angle, is found out the obliquitie of the angle. For if the ſubtending line be in power double to the line which contayneth the angle, then is the angle a right angle (by the 48.of the firſt. ) But if it be in power leſſe then the double it is an acute angle (by the 13. of the ſecond). But if it be in power more then the double, or haue a greater proportion then the whole hath to the greater ſegmẽt, the angle ſhalbe an obtuſe angle (by the 12.of the ſecond and 4. of the thirtenth). By which may be proued that the ſquare of the whole is greater then the double of the ſquare of the greater ſegment.
+
+This is to be noted that that which Fluſſas hath here taught touching the inclinations of the baſes of the fiue regular bodies, Hypſicles teacheth after the 5.propoſition of the 15.booke. Where he confeſſeth, that he receiued it of one Iſidorus, and ſeking to make the mater more cleare, he endeuored himſelfe to declare, that the angles of the inclination of the ſolides are geuen, and that they are either acute or obtuſe, according to the nature of the ſolide: although Euclide in all his 15. bookes hath not yet ſhewed, what a thing geuen is. Wherefore Fluſſas framing his demõſtration vpon an other ground procedeth after an other maner, which ſemeth more playne, and more aptly here to be placed then there. Albeit the reader in that place ſhal not be fruſtrate of his alſo.
+
+(.·.)
+
+# The ende of the thirtenth Booke of Euclides Elementes.

@@ -5,15 +5,15 @@ poſée 1 : R². Et que pareillement en reſolvant la raiſon 1 : R en deux ou p
 
 Et en général, comme l'expoſant de multiplicité ou de ſousmultiplicité, p. ex. 2 ou ¾ d'une raiſon compoſée 1 : R² ou 1 : R^(3/4) eſt multiple ou ſous multiple de l'expoſant de multiplicité 1 de la Primordiale 1 : R¹ : ainſi le Logarithme 2L ou ¾L de la compoſée, eſt multiple ou ſousmultiple du Logarithme L de cette même Primordiale. D'où l'on voit, qu'on trouve les Logarithmes dérivés, en multipliant le Logarithme Primordial L par les expoſans de multiplicité des raiſons dérivées auxquelles ils doivent apartenir.
 
-## COROLLAIRE II.
+### COROLLAIRE II.
 
 {dropcap:L|lines=2|style=plain}E Logarithme Primordial L étant arbitraire, on peut ſuppoſer L = + 1. Et en ce cas les expoſans de multiplicité des raiſons dérivées deviennent eux mêmes les Logarithmes de ces raiſons. Mais ſi on fait L = — 1 ces mêmes expoſans, pris avec leurs ſignes contraires, ſe changent en Logarithmes.
 
-## COROLLAIRE III.
+### COROLLAIRE III.
 
 {dropcap:L|lines=2|style=plain}A raiſon d'égalité 1 : 1 ou 1 : R° &c. (Prop. 8. Cor. 8.) ne produiſant ni augmentation, ni diminution dans la compoſition des raiſons, il eſt de l'ordre analogique de lui aſſigner Zéro pour Logarithme, attendu que Zéro ajouté ou retranché des grandeurs, n'y produit aucun changement.
 
-## COROLLAIRE IV.
+### COROLLAIRE IV.
 
 {dropcap:P|lines=2|style=plain}Uis donc que de la compoſition d'une raiſon directe 1 : R avec ſa réciproque R : 1, il réſulte une raiſon d'égalité, R : R, dont le Logarithme eſt égal à Zéro (Cor. 3.); il s'enſuit que leurs Logarithmes doivent avoir des ſignes contraires, tellement que ſi celui de la directe 1 : R eſt poſitif, celui de ſa réciproque R : 1 ſoit négatif, afin que s'entredétruiſant il en reſulte Zéro, qui eſt le Logarithme de la raiſon d'égalité provenue de leur compoſition.
 

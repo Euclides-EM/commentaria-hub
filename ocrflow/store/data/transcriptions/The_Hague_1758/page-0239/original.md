@@ -7,7 +7,7 @@ compoſition des grandeurs les poſitives augmentent la ſomme, que les négativ
 
 {dropcap:D|lines=2|style=plain}Ans toute Progreſſion Géométrique, les termes équidiſtans ſont proportionels; ou bien leurs raiſons ſont égales.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:Q|lines=2|style=plain}Ue les grandeurs A, B, C, D, E, F, G, H, I, K, L, &c, répréſentent les termes d'une Progreſſion Géométrique, où les termes B & E, item F & I, ſoient des termes équidiſtans. On a donc en vertu de l'égalité & continuité des raiſons qui règne dans les Progreſſions Géométriques,
 
@@ -24,7 +24,7 @@ C. Q. F. D.
 
 {dropcap:D|lines=2|style=plain}Ans une Progreſſion Géométrique A, B, C, D, E, F, G, &c, deux termes quelconques ſont entr'eux, comme les Puiſſances de deux autres termes, qui ſe ſuivent immédiatement, exprimées par le nombre des raiſons égales, interpoſées entre les deux termes qu'on compare.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:S|lines=2|style=plain}Oient les deux termes qu'on compare C & G, entre leſquels il ſe trouve quatre raiſons égales, à ſçavoir, les raiſons C : D, D : E, E : F, F : G. je dis que
 

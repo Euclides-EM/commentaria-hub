@@ -5,7 +5,7 @@
 
 {dropcap:L|lines=2|style=plain}E Logarithme du Produit f F eſt égal à la ſomme des Logarithmes des Facteurs f & F.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:L|lines=2|style=plain}E Logarithme du Produit f F eſt proprement celui de la raiſon f F : 1.
 
@@ -47,7 +47,7 @@ C. Q. F. D.
 
 {dropcap:L|lines=2|style=plain}E Logarithme du quotient M/N eſt égal au Logarithme du Dividende moins le Logarithme du Diviſeur.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:L|lines=2|style=plain}E Logarithme du nombre M/N eſt proprement le Logarithme de la raiſon
 

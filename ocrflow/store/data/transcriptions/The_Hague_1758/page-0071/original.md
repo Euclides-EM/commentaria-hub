@@ -8,17 +8,17 @@
 
 {dropcap:E|lines=2|style=plain}N tout parallélogramme (AD): les complémens (AF, FD) des parallélogrammes (HG, EI) alentour de la diagonale (BC) ſont égaux entr'eux.
 
-Hypothese
+### Hypothese
 
 *I. AD eſt un Pgr, dont BC eſt la diagonale.*
 
 *II. HG, EI ſont des Pgrs alentour de la diagonale.*
 
-These.
+### These.
 
 *Les Pgrs AF, FD qui ſont les complémens des Pgrs HG, EI ſont ＝ entr'eux.*
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque AD eſt un Pgr, dont BC eſt la diagonale (*Hyp.* 1).
 

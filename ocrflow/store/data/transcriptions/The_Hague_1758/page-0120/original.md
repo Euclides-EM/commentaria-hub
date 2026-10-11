@@ -28,11 +28,11 @@ IV. *Les droites* DK *ou* DL, *ſelon qu'elles ſont plus proches de la ligne* D
 
 V. *Du point* D, *de part & d'autre de la droite* DH, *on ne peut tirer plus de deux droites* DK, DB = *entr'elles*.
 
-## I. *Préparation*.
+### I. *Préparation*.
 
 {dropcap:T|lines=1|style=plain}Irez les rayons ME, MF, MC, MK, ML.
 
-## Demonstration.
+### Demonstration.
 
 1. {dropcap:L|lines=1|style=plain}Es deux côtés DM+ME du △ DME ſont > le troiſieme DE.
 Et parceque ME = MA (*Def*. 15. *L*. 1).

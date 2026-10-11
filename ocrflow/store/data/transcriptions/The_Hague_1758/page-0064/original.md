@@ -8,17 +8,17 @@
 
 {dropcap:L|lines=2|style=plain}Es parallélogrammes (AC, GE), placés ſur des baſes égales (BC, DE) & entre les mêmes paralleles (AH, BE), ſont égaux entr'eux.
 
-Hypothese.
+### Hypothese.
 
 *I. AC, GE ſont deux Pgrs,*
 
 *II. Et ces deux Pgrs ſont placés ſur des baſes égales BC, DE & entre les mêmes Plles AH, BE.*
 
-These.
+### These.
 
 *Le Pgr AC eſt ＝ au Pgr GE.*
 
-Préparation.
+### Préparation.
 
 1. {dropcap:D|lines=2|style=plain}U point B au point G tirez la droite BG.
 
@@ -28,7 +28,7 @@ Préparation.
 Dem. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure GE eſt un Pgr (*Hyp.* 1).
 

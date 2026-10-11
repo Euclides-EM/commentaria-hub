@@ -7,17 +7,17 @@
 
 {dropcap:L|lines=2|style=plain}Es grandeurs ( M & 1 M ) qui ſont en même raiſon à une même grandeur ( N ): ſont égales entr’elles. Et celles ( M & 1 M ) auxquelles une même grandeur ( N ) a même raiſon : ſont auſſi égales entr’elles.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 M : N = 1 M : N.
 
-THESE.
+### THESE.
 
 La gdr. M = 1 M.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
-## I.
+### I.
 
 Sinon, les deux gdrs. M & 1 M ſont inégales.
 
@@ -31,17 +31,17 @@ Prop. 8. L. 5.
 
 C. Q. F.D.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 N : M = N : 1 M.
 
-THESE.
+### THESE.
 
 La gdr. M = 1 M.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
-## II.
+### II.
 
 Sinon, les deux gdrs. M & 1 M ſont inégales.
 

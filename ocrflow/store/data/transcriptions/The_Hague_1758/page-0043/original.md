@@ -4,14 +4,14 @@
 
 [Figure: triangle BAC within a ruled frame, with base BC prolonged to D]
 
-## PROPOSITION XVII. THEOREME. X.
+## PROPOSITION XVII. THEOREME X.
 
 {dropcap:E|lines=2|style=plain}N tout triangle (BAC), deux angles quelconques (comme ABC, ACB) ſont moindres que deux droits.
 
-Hypothese.
+### Hypothese.
 *ABC eſt un △.*
 
-These.
+### These.
 *Les ∀ ABC ┼ ACB ſont ⟨ deux ∟.*
 
 ### Préparation.

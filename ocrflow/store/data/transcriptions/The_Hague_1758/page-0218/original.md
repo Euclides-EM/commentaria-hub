@@ -7,11 +7,11 @@
 
 {dropcap:L|lines=2|style=plain}Es parties ( A & B ) ſont en même raiſon que leurs équimultiples ( m A & m B ).
 
-HYPOTHESE
+### HYPOTHESE
 
 Les gdrs. m A & m B ſont des équimult. des gdrs. A & B.
 
-THESE.
+### THESE.
 
 A : B = m A : m B.
 

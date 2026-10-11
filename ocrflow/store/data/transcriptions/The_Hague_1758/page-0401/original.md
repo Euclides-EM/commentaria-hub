@@ -5,7 +5,7 @@
 
 8. Tirez les droites SP, TQ, VR.
 
-## I. Préparation. *
+### I. Préparation. *
 
 1. {dropcap:D|lines=2|style=plain}Es points P & S, abaiſſez les ⊥ PX & SY, ſur le Plan du ⊙ ABCD.
 
@@ -15,7 +15,7 @@ Prop. 12. L. 12.
 
 2. Tirez YX.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Plans KON & COA paſſent par la ligne IO, (*Reſ. 6.*).
 
@@ -107,7 +107,7 @@ Prop. 7. L. 11.
 
 C. Q. F. F. 1.
 
-## II. Préparation.
+### II. Préparation.
 
 1. {dropcap:D|lines=2|style=plain}U centre I, abaiſſez ſur le Plan KSPC, la ⊥ IZ.
 

@@ -8,14 +8,14 @@
 {dropcap:S|lines=2|style=plain}I deux lignes (AB & AC) ſituées dans un Plan (AX) & s'entre touchant (en A) ſont paralleles, à deux autres lignes (DE & DF), s'entre touchant & ſituées dans un autre Plan (DZ); ces Plans (AX & DZ) ſeront paralleles.
 
 [Subhead]
-Hypothese.
+### Hypothese.
 AB & AC ſituées dans le Plan AX & qui ſe touchent en A, ſont paralleles à DE & EF qui ſe touchent en D, & qui ſont ſituées dans le Plan DZ.
 
-These.
+### These.
 Le Plan AX dans lequel les lignes AB & AC ſe trouvent eſt parallele au Plan DZ ou les lignes DE & DF ſe trouvent.
 [/Subhead]
 
-*Préparation.*
+### *Préparation.*
 
 1. {dropcap:D|lines=2|style=plain}U point A abaiſſez la ⊥ AG ſur le Plan DZ.
 2. Tirez GH Plle à DE, & GL Plle à DF.

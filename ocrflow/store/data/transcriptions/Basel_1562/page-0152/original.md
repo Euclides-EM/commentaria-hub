@@ -3,7 +3,9 @@
 
 [Curated heading level=3 type=numbered_item: 14.]
 
-14 Umbkerung der proportion haiſſet/ſo mann die volgenden/an ſtatt der vorgenden vmb härgegen nim̃ett.
+14 Umbkerung der proportion haiſſet / ſo mann die volgenden / an ſtatt der vorgenden vmb härgegen nim̃ett.
+
+[Curated heading level=3 type=margin_terms: ἀνάπαλιν]
 
 [Margin]
 ἀνάπαλιν.
@@ -15,7 +17,9 @@
 
 [Curated heading level=3 type=numbered_item: 15.]
 
-15 Samblung der proportion iſt/ſo man die vorgende vnd die volgend bayder tails ſambtlich als aine zal gegen der volgenden ſchetzett. Als/
+15 Samblung der proportion iſt / ſo man die vorgende vnd die volgend bayder tails ſambtlich als aine zal gegen der volgenden ſchetzett. Als /
+
+[Curated heading level=3 type=margin_terms: σύνθεσις]
 
 [Margin]
 σύνθεσις.
@@ -30,7 +34,9 @@ Demnach auch
 
 [Curated heading level=3 type=numbered_item: 16.]
 
-16 Zertailung der proportion iſt/ſo man den yberſchuß der vorgenden yber die folgend (oder härgegen) gegen der volgenden bayder tails ſchetzett. Als/
+16 Zertailung der proportion iſt / ſo man den yberſchuß der vorgenden yber die folgend (oder härgegen) gegen der volgenden bayder tails ſchetzett. Als /
+
+[Curated heading level=3 type=margin_terms: διαίρεσις]
 
 [Margin]
 διαίρεσις.
@@ -40,7 +46,9 @@ Demnach auch
 
 [Curated heading level=3 type=numbered_item: 17.]
 
-17 Verwendung der proporz iſt/ſo gegen ſolchem exceß baider tails die vorgſhend geſetzt wirt. Als/
+17 Verwendung der proporz iſt / ſo gegen ſolchem exceß baider tails die vorgſhend geſetzt wirt. Als /
+
+[Curated heading level=3 type=margin_terms: ἀναστροφή]
 
 [Margin]
 ἀναστροφή.
@@ -48,9 +56,9 @@ Demnach auch
 
 [Diagram: “6 gegen 8/wie 9 gegen 12.” with lower brackets beneath 6 and 8 and beneath 9 and 12; below, “Derhalben auch / 6 gegen 2/wie 9 gegen 3.”]
 
-## Anhang.
+#### Anhang.
 
-Diſe aigenſchafften haben ſonderlich in der Rechenkunſt bey der practic/ vnd vortailen der regel Detri/jren gebrauch/daruon härnach anzaigung ſol geſchon werden. Darmitt aber du ſy deſto bequemer mögeſt dir ainbilden/vnd in gedächtnus behalten/willich dir ſy alle inn ainem exempel begriffen/für augen ſtellen.
+Diſe aigenſchafften haben ſonderlich in der Rechenkunſt bey der practic / vnd vortailen der regel Detri / jren gebrauch / daruon härnach anzaigung ſol geſchon werden. Darmitt aber du ſy deſto bequemer mögeſt dir ainbilden / vnd in gedächtnus behalten / willich dir ſy alle inn ainem exempel begriffen / für augen ſtellen.
 
 [Calculation]
 ²⁷⁄₁₅ vnd ⁷⁄₈ von ¹⁸⁄₁₀ vnd ¹⁵⁄₁₀ von 27 halt ſich gegen 18/wie 15 gegen 10.

@@ -16,7 +16,7 @@ Prop. 8. L. 1.
 
 C. Q. F. D.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 {dropcap:S|lines=2|style=plain}I aux ſommets A & H de deux angles-plan égaux BAC & IHL, on a élevé des droites égales AF & HK; faiſant avec les cotés reſpectifs des angles BAF & FAC égaux aux ∀ IHK & KHL, chacun à chacun, & qu'on abaiſſe de ces points F & K (de ces lignes élevées) des perpendiculaires FG & KM ſur les Plans BAC & IHL: ces ⊥s, FG & KM ſeront égales. (*Arg.* 15.).
 

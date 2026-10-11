@@ -7,20 +7,20 @@
 
 {dropcap:S|lines=2|style=plain}I deux grandeurs (aM, aN) ſont équimultiples de deux autres grandeurs (M & N), chacune de chacune, & les retranchées (cM & cN) équimultiples des mêmes grandeurs, les reſtes (eM & eN) ſeront reſpectivement ou égaux à ces grandeurs (M & N), ou ils en ſeront des équimultiples.
 
-Hypothese.
+### Hypothese.
 
 I. aM & aN ſont deux Touts, cM & cN leurs parties retranchées. eM & eN leurs reſtes.
 
 II. aM & item aN, cM & cN ſont des équimult. de M & N.
 
-These.
+### These.
 
 I. Si eM = M, eN ſera = N.
 II. Si eM eſt multiple de M, eN ſera équimultiple de N.
 
 CAS I. Si eM eſt = M.
 
-Préparation.
+### Préparation.
 
 Faites 1N = N.
 
@@ -28,7 +28,7 @@ Faites 1N = N.
 Dem. 2. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque cM eſt autant multiple de M, que cN l'eſt de N (Hyp. 2), & que eM = M (Sup. 1), & 1N = N (Prep.),
 

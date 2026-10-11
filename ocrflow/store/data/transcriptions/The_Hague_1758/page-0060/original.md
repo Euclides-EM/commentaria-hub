@@ -8,15 +8,15 @@
 
 {dropcap:E|lines=2|style=plain}N tout triangle (ABC), un des côtés (comme AC) étant prolongé: l'angle extérieur (*o* ＋ *p*) eſt égal à la ſomme des deux intérieurs oppoſés (*n* ＋ *m*); & les trois angles du triangle (*n* ＋ *m* ＋ *r*) ſont égaux à deux droits.
 
-Hypothese.
+### Hypothese.
 
 *ABC eſt un △, dont un des côtés AC eſt prolongé indéfiniment en D.*
 
-These.
+### These.
 
 *I. ∀ o ＋ p eſt ＝ aux ∀ m ＋ n. II. Les ∀ n ＋ m ＋ r ſont ＝ à 2 ⌐.*
 
-Préparation.
+### Préparation.
 
 {dropcap:P|lines=1|style=plain}Ar le point C tirez la droite CE Plle à la droite AB.
 
@@ -24,7 +24,7 @@ Préparation.
 Prop. 31. L. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites AB, CE ſont deux Plles (*Prep.*) coupées par une même droite BC,
 

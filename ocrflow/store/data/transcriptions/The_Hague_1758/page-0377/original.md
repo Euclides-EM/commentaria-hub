@@ -7,15 +7,15 @@
 
 {dropcap:T|lines=2|style=plain}Out priſme triangulaire (ADE): peut être diviſé (par des Plans paſſant par les △ BCF & BDF) en trois pyramides égales (ACBF, BDEF & DCBF) ayant des bazes triangulaires.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 *Le priſme donné* AE *eſt triangulaire.*
 
-THÈSE.
+### THÈSE.
 
 *Le priſme* ADE *peut être diviſé en trois pyramides triangulaires égales* ACBF, BDEF & DCBF.
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:T|lines=2|style=plain}Irez dans le Pgr DA une diagonale CF à volonté.
 
@@ -29,7 +29,7 @@ Dem. 1. L. 1.
 
 4. Par CF & BF faites paſſer un Plan, item par BF & BD.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque AD eſt un Pgr coupé par la diagonale CF. (*Prép.* 1.).
 

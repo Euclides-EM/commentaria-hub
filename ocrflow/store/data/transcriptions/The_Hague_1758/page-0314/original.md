@@ -8,7 +8,7 @@
 {dropcap:S|lines=2|style=plain}I une ligne droite (AB) eſt perpendiculaire ſur trois lignes (BC, BD & BE) qui ſe rencontrent en un point (B); ces trois lignes (BC, BD, & BE) ſeront dans le mème Plan (ZX).
 
 [Subhead]
-Hypothese.
+### Hypothese.
 I. BC, BD & BE ſe rencontrent en B.
 II. AB eſt ⊥ ſur ces lignes.
 

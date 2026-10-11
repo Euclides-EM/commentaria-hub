@@ -7,19 +7,19 @@
 
 {dropcap:L|lines=2|style=plain}Es figures rectilignes A, C, ſemblables à une même (B), ſont ſemblables entr'elles.
 
-## HYPOTHESE.
+### HYPOTHESE.
 
 [Subhead]
 *Les Figures rectilignes A et C ſont ſemblables à la Figure B.*
 [/Subhead]
 
-## THESE.
+### THESE.
 
 [Subhead]
 *La Figure rectiligne A eſt ſemblable à la Figure rectiligne C.*
 [/Subhead]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que chacune des figures A et C eſt ſemblable à la figure B (*Hyp.*),
 

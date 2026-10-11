@@ -7,20 +7,20 @@
 
 {dropcap:C|lines=2|style=plain}*Onſtruire un Rectiligne* (N), *ſemblable à un Rectiligne donné* (L), *& égal à un autre* (M).
 
-## DONNEE.
+### DONNEE.
 
 [Subhead]
 *I. Le Rectiligne L.
 II. Et le Rectiligne M.*
 [/Subhead]
 
-## CHERCHEE.
+### CHERCHEE.
 
 [Subhead]
 *Le Rectiligne N, ſemblable au Rectiligne L, & ⚌ au Rectiligne M.*
 [/Subhead]
 
-## Réſolution.
+### Réſolution.
 
 1. Appliquez à la droite AC, un Pgr AH ⚌ au Rectiligne donné L.
 
@@ -52,7 +52,7 @@ Prop. 13. L. 6.
 Prop. 18. L. 6.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Pgrs AH, CK, ont la même hauteur (*Reſ.* 2 & 3),
 

@@ -6,15 +6,15 @@
 
 ## DEFINITIONS
 
-## IV.
+### IV.
 
 {dropcap:L|lines=2|style=plain}A *diſtance d'une ligne droite* (FB) *du centre du cercle, eſt la perpendiculaire* (CM) *abaiſſée du centre du cercle* (C) *ſur cette ligne droite* (FB); C'eſt pour cela que l'on dit; que *deux lignes droites* (FB, DE) *ſont également diſtantes du centre du cercle*, quand les perpendiculaires (CM, CN), abaiſſées du centre (C) ſur ces lignes droites (FB, DE) ſont égales. *Fig*. 1.
 
-## V.
+### V.
 
 Mais on dit qu'*une ligne droite* (AG) *eſt plus éloignée du centre du cercle que* (BF ou ED), lorſque la perpendiculaire (CH) abaiſſée du centre (C) ſur cette ligne droite eſt plus grande que (CM ou CN) *Fig*. 1.
 
-## VI.
+### VI.
 
 *L'angle mixtiligne du ſegment*, eſt cet angle (CAB ou DAB) formé de l'arc (CA ou DA) du ſegment (ACB ou ADB) & de ſa corde (AB); *Fig*. 2.
 

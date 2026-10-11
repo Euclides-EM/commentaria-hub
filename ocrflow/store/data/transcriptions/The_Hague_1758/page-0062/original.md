@@ -8,13 +8,13 @@
 
 {dropcap:E|lines=2|style=plain}N tout parallélogramme (BC), les côtés oppoſés (AC, BD item CD, AB) & les angles oppoſés (B, C item *m* ＋ *r*, *n* ＋ *s*) ſont égaux entr'eux & la diagonale (AD) le coupe en deux également.
 
-Hypothese.
+### Hypothese.
 
 *I. BC eſt un Pgr.*
 
 *II. AD eſt la diagonale de ce Pgr.*
 
-These.
+### These.
 
 *I. Les côtés AC, BD item CD, AB ſont ＝ entr'eux, & ∀ C ＝ ∀ B.*
 
@@ -22,7 +22,7 @@ These.
 
 *III. Les △ CAD, BDA formés par la diagonale ſont ＝ entr'eux.*
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites AB, CD ſont deux Plles (*Hyp.* 1) coupées par une même droite AD (*Hyp.* 2).
 

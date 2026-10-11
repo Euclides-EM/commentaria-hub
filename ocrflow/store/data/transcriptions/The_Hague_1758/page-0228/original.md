@@ -7,20 +7,20 @@
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs (A, B, C, D) ſont proportionelles, la ſomme de la plus grande (A) & de la plus petite (D) excède la ſomme des deux autres (B & C).
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. A : B = C : D.
 II. A eſt le plus grand terme & par conſéquent (*) D le plus petit.
 
-THESE.
+### THESE.
 
 A + D > B + C.
 
-Préparation.
+### Préparation.
 
 Faites 1C = C & 1D = D.
 
-DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que A : B = C : D (Hyp. 1), & que C = 1C & D = 1D (Prep.).
 1. Il ſuit que A : B = 1C : 1D.

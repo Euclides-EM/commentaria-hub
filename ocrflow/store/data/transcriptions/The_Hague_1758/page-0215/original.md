@@ -7,15 +7,15 @@
 
 {dropcap:S|lines=2|style=plain}I pluſieurs grandeurs ( A, B, C, D, E, F, &c. ) ſont en proportion ( ou bien ſi pluſieurs raiſons ſont égales ) : la ſomme de tous les antécédens ( A + C + E &c. ) eſt à la ſomme de tous les conſéquens ( B + D + F &c. ), comme un antécédent eſt à ſon conſéquent.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 Les gdrs. A, B, C, D, E, F ſont proportionelles ou A : B = C : D = E : F &c.
 
-THESE.
+### THESE.
 
 A + C + E : B + D + F = A : B.
 
-Préparation.
+### Préparation.
 
 1. Prenez les équimultiples mA, mC, mE des antécédens A, C, E;
 2. De même les équimultiples nB, nD, nF des conſéquens B, D, F.
@@ -24,7 +24,7 @@ Préparation.
 Dem. 1. L. 5.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que A : B = C : D = E : F (Hyp.);
 

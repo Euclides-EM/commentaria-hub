@@ -8,17 +8,17 @@
 
 {dropcap:L|lines=2|style=plain}Es triangles (ADB, EGF), placés ſur des baſes égales (AB, EF) & entre les mêmes paralleles (AF, DG), ſont égaux entr'eux.
 
-Hypothese.
+### Hypothese.
 
 *I. ADB, EGF ſont deux △,*
 
 *II. Et ces deux △ ſont placés ſur des baſes ＝ AB, EF. & entre les mêmes Plles AF, DG.*
 
-These.
+### These.
 
 *Le △ ADB eſt ＝ au △ EGF.*
 
-Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=2|style=plain}Rolongez la droite DG de part & d'autre à l'infini.
 
@@ -32,7 +32,7 @@ Dem. 2.
 Prop. 31. L. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans la figure BC les côtés oppoſés AB, CD & AC, BD ſont Plles (*Hyp.* 2 & *Prep.* 2);
 

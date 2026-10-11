@@ -7,13 +7,13 @@
 
 {dropcap:U|lines=2|style=plain}N paralelipipéde (AB) coupé par un Plan (FCDE) paſſant par les diagonales (FC & ED) des Plans oppoſés (BG & AH): eſt coupé en deux également.
 
-HYPOTHESE.
+### HYPOTHESE.
 *Le* ⊟ *AB eſt coupé par un Plan FD paſſant par les diagonales FC & ED, des Plans oppoſés BG & AH.*
 
-THÈSE.
+### THÈSE.
 *Le Plan FD coupe le* ⊟ *AB en deux également.*
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque le Plan FA eſt un Pgr.
 

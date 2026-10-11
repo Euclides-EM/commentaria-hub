@@ -14,11 +14,11 @@ Donnees
 
 *II. Et ∀ rectiligne M.*
 
-Cherchee.
+### Cherchee.
 
 *La Conſtruction d'un Pgr ＝ au △ BAD; & qui ait un ∀ DCE ＝ à ∀ donné M.*
 
-Réſolution.
+### Réſolution.
 
 1. {dropcap:C|lines=2|style=plain}Oupez la baſe BD en deux parties égales, au point C.
 
@@ -51,7 +51,7 @@ Prop. 31. L. 1.
 Dem. 2.
 [/Margin]
 
-Préparation.
+### Préparation.
 
 Du point A au point C tirez la droite AC.
 
@@ -59,7 +59,7 @@ Du point A au point C tirez la droite AC.
 Dem. 1.
 [/Margin]
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les △ BAC, CAD ſont placés ſur des baſes égales BC, CD (*Ref.* 1) & entre les mêmes Plles BD, AF (*Ref.* 3).
 

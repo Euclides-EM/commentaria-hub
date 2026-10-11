@@ -8,23 +8,23 @@
 
 {dropcap:L|lines=2|style=plain}Es triangles égaux (BAC, EDF), placés ſur des baſes égales (BC, EF) & du même côté, ſont entre les mêmes paralleles (BF, AD).
 
-Hypothese.
+### Hypothese.
 
 *I. Les △ BAC, EDF, ſont égaux,*
 
 *II. Et ces △ ſont placés ſur des baſes ＝ BC, EF.*
 
-These.
+### These.
 
 *Les △ BAC, EDF ſont entre les mêmes Plles BF, AD.*
 
-Demonstration.
+### Demonstration.
 
 Si non.
 
 Les droites BF, AD ne ſont pas Plles, & on pourra tirer par le point A quelque autre droite AO Plle à BF.
 
-Préparation.
+### Préparation.
 
 1. {dropcap:T|lines=2|style=plain}Irez donc par le point A la droite AO Plle à BF; laquelle coupera la droite ED quelque part en G (*Rem. de la Prop. XXVII*).
 

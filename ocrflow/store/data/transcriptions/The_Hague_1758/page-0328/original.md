@@ -8,11 +8,11 @@
 {dropcap:S|lines=2|style=plain}I deux Plans (CD & EF) qui inſiſtent perpendiculairement ſur un Plan (ZX) s'entre-coupent; la ligne de commune Section (AB) ſera auſſi perpendiculaire ſur le même Plan (ZX).
 
 [Subhead]
-Hypothese.
+### Hypothese.
 I. Les Plans CD & EF ſont ⊥ ſur le Plan ZX.
 II. Ils s'entre-coupent en AB.
 
-These.
+### These.
 La commune Section AB eſt ⊥ ſur le Plan ZX.
 [/Subhead]
 

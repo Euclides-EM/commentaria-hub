@@ -8,13 +8,13 @@
 
 {dropcap:E|lines=2|style=plain}N tout triangle (BAC), les plus grands angles ſont oppoſés aux plus grands côtés.
 
-Hypothese.
+### Hypothese.
 *Dans le △ BAC, ∀ C eſt ⟩ ∀ A.*
 
-These.
+### These.
 *Le côté AB oppoſé à ∀ C eſt ⟩ le côté CB oppoſé à ∀ A.*
 
-Demonstration.
+### Demonstration.
 
 {dropcap:S|lines=2|style=plain}I non.
 Le côté AB eſt ou égal, ou plus petit que le côté CB.

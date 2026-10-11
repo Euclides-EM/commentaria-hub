@@ -9,23 +9,23 @@
 {dropcap:S|lines=2|style=plain}I deux cercles (ABE, ADE) s'entre-coupent mutuellement: ils n'ont pas un même centre (C).
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 *ABE, ADE ſont deux* ⊙ *qui s'entre-coupent mutuellement aux points A & E.*
 [/Subhead]
 
 [Subhead]
-THESE.
+### THESE.
 
 *Ces deux cercles n'ont pas un même centre C.*
 [/Subhead]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:S|lines=1|style=plain}I non.
 Les cercles ABE, ADE ont un même centre C.
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:T|lines=1|style=plain}Irez du point C à un point de ſection A le rayon CA.
 2. Et du même point C la droite CB, qui coupe les deux ⊙ aux points D & B.

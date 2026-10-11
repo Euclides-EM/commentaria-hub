@@ -11,7 +11,7 @@
 
 *Au reſte quand Euclide parle de* parties *dans ce Cinquieme Livre, il entend toujours des parties aliquotes, conformément à cette définition. Il n'explique les parties aliquantes que dans la IV Définition du VIIe Livre.*
 
-## II.
+### II.
 
 Une grandeur plus grande eſt nommée *un multiple* d'une moindre; lorſque la moindre peut meſurer la plus grande.
 
@@ -19,7 +19,7 @@ Une grandeur plus grande eſt nommée *un multiple* d'une moindre; lorſque la m
 
 *Au terme de multiple repond celui de* ſousmultiple, *qui déſigne qu'une moindre grandeur eſt une partie aliquote d'une plus grande; ainſi* 4 *eſt un ſousmultiple de* 12, *comme* 12 *eſt un multiple de* 4.
 
-## III.
+### III.
 
 La *Raiſon* eſt une certaine rélation mutuelle de deux grandeurs homogènes, comparées l'une à l'autre ſelon leur quantité.
 

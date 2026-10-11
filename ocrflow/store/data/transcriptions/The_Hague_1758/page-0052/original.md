@@ -8,27 +8,27 @@
 
 {dropcap:S|lines=2|style=plain}I deux triangles (ACB, DFE), ont deux angles (A & B) égaux à deux angles (D & FED) chacun à chacun, & un côté égal à un côté; ſoit, que ce côté, (comme AB & DE) ſoit adjacent aux deux angles égaux; ſoit, qu'il ſe trouve oppoſé (comme AC & DF) à un de ces angles: ils auront auſſi les deux autres côtés (AC, BC ou AB, BC) égaux aux deux autres côtés (DF, EF ou DE, EF) chacun à chacun, & le troiſieme angle (C) égal au troiſieme angle (F).
 
-## CAS. I.
+### CAS. I.
 
-Hypothese
+### Hypothese
 *I. ∀ A ＝ ∀ D.
 II. ∀ B ＝ ∀ FED.
 III. AB ＝ DE.*
 
 Lorſque les côtés égaux AB, DE ſont adjacens aux angles égaux A & D, item B & FED, (*Fig.* 1 & 2).
 
-These.
+### These.
 *I. AC ＝ DF.
 II. BC ＝ EF.
 III. ∀ C ＝ ∀ F.*
 
-Demonstration.
+### Demonstration.
 
 {dropcap:S|lines=2|style=plain}I non.
 
 Les côtés ſont inégaux, & l'un, comme DF, ſera ＞ l'autre AC.
 
-*Préparation.*
+### *Préparation.*
 
 1. Retranchez donc du plus grand côté DF une partie DG ＝ à AC.
 

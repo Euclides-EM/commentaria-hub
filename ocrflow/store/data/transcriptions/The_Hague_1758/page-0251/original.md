@@ -5,7 +5,7 @@
 
 {dropcap:L|lines=2|style=plain}E Logarithme d'une Puiſſance eſt égal au Logarithme de la racine de cette Puiſſance, multiplié par l'expoſant potentiel. Et réciproquement; le Logarithme de la racine eſt égal à celui de la Puiſſance, diviſé par l'expoſant radical.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:L|lines=2|style=plain}E Logarithme d'une Puiſſance quelconque, comme R³, eſt proprement le Logarithme de la Raiſon R³ : 1. (Def. 11. Cor. 1.)
 
@@ -46,7 +46,7 @@ Donc le Logarithme de la racine eſt égal à celui de la Puiſſance diviſé p
 
 C. Q. F. D. 2°.
 
-## REMARQUE.
+### REMARQUE.
 
 {dropcap:O|lines=2|style=plain}N a calculé les Logarithmes de tous les nombres naturels, depuis l'unité juſqu'à dix mille, & même juſqu'à cent mille, & on les a reduits en Tables. On y a choiſi pour raiſon Primordiale celle de 10 : 1, à laquelle on a donné l'unité pour Logarithme, par conſéquent la raiſon doublée 100 : 1, ou ſimplement le nombre 100 a dû recevoir 2 pour Logarithme; & de même la triplée 1000 : 1, ou le nombre 1000, a dû avoir 3 pour le ſien; & ainſi de même des autres Puiſſances du nombre 10.
 

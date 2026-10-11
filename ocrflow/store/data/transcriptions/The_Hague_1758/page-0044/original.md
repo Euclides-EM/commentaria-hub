@@ -8,10 +8,10 @@
 
 {dropcap:D|lines=2|style=plain}Ans tout triangle (ACB); les plus grands côtés ſont oppoſés aux plus grands angles.
 
-Hypothese.
+### Hypothese.
 *ACB eſt un △, ou AB eſt un côté ⟩ AC.*
 
-These.
+### These.
 *∀ ACB, oppoſé au ⟩ côté AB, eſt plus grand que ∀ ABC oppoſé au moindre côté AC.*
 
 ### Préparation.

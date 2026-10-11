@@ -8,11 +8,11 @@
 {dropcap:S|lines=2|style=plain}I une ligne droite (DE) eſt tirée parallèlement à un côté (AC) d'un Triangle (ABC): elle coupera les deux autres côtés (AB, BC) proportionellement (c. à. d. que AD : DB ═ CE : EB); & réciproquement, ſi une ligne droite (DE) coupe proportionellement les deux côtés (AB, BC), elle ſera parallèle au troiſieme côté (AC).
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 La droite DE eſt Plle à AC.
 
-THESE.
+### THESE.
 
 AD : DB ═ CE : EB.
 [/Subhead]
@@ -43,11 +43,11 @@ Prop. 11. L. 5.
 C. Q. F. D. I.
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 AD : DB ═ CE : EB.
 
-THESE.
+### THESE.
 
 La droite DE eſt Plle à AC.
 [/Subhead]

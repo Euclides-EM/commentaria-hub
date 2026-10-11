@@ -9,11 +9,11 @@
 
 C. Q. F. D.
 
-## COROLLAIRE I.
+### COROLLAIRE I.
 
 {dropcap:Q|lines=2|style=plain}*Uand deux droites* HB, DF *Plles aux côtés d'un quarré s'entrecoupent en un même point* E *de la diagonale, les* Rgles BF, DH *formés autour de la diagonale ſont des quarrés.*
 
-## COROLLAIRE II.
+### COROLLAIRE II.
 
 {dropcap:S|lines=2|style=plain}*I l'on coupe la ligne* AC *en deux également en* B, *les complémens* AE, EI *ſont des quarrés, & ces complémens égaux entr'eux, ſont auſſi égaux aux quarrés alentour de la diagonale, & le quarré de la ligne entiere* AC *eſt quadruple du quarré d'une des parties* AB *ou* BC.
 

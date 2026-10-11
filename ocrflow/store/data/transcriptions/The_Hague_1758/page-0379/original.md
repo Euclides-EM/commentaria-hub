@@ -8,14 +8,14 @@
 {dropcap:L|lines=2|style=plain}Es pyramides ſemblables (ABCD & EFGH) ayant des bazes triangulaires (BDC & FGH): ſont entr'elles en raiſon triplée de leurs cotés homologues:
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 Les pyramides ∽ ABCD & EFGH, ont des bazes triangulaires DBC & GFH, dont les cotés homologues ſont BD & FG, &c.
 
-THESE.
+### THESE.
 La pyramide ABCD eſt à la pyramide EFGH, en raiſon triplée de BD à FG, c. a. d. comme D̅B̅³ : F̅G̅³.
 [/Subhead]
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:P|lines=2|style=plain}Rolongez les Plans des △ BDC, ABD & ADC; & achevez les Pgr. DR, DQ & DP.
 
@@ -32,7 +32,7 @@ Prop. 31. L. 1.
 Prop. 31. L. 1.
 [/Margin]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les pyramides ABCD & EFGH ſont ∽. (Hyp.)
 

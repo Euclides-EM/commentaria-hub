@@ -7,23 +7,23 @@
 
 {dropcap:L|lines=2|style=plain}Es pyramides (FGLIM & ABCDE) dont les bazes (FGHLI & ABCD) ſont des polygones & qui ont même hauteur: ſont entr’eux comme leurs bazes.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. *Les pyramides* FGHLI & ABCD, *ont pour bazes des polygones.*
 
 II. *Ils ont même hauteur.*
 
-THESE.
+### THESE.
 
 *Pyramide* MFGHLI: *pyramide* ABCDE = *baze* FILHG : *baze* ABCD.
 
-## Préparation.
+### Préparation.
 
 1. {dropcap:D|lines=2|style=plain}Iviſez les bazes FILHG & ABCD en triangles par les lignes GI & IH, item DB.
 
 2. Suppoſé qu’il paſſe des Plans par ces lignes, & par les ſommets des pyramides ou ces lignes de diviſion ſe trouvent, qui diviſeront chacune de ces pyramides en autant de pyramides partielles que chaque baze contient de triangles.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les pyramides triangulaires ILHM & ABDE ont même hauteur, (*Hyp.* II. *& Prép.* 2.).
 

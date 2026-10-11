@@ -32,11 +32,11 @@ Ax. 3. L. 1.
 
 C. Q. F. D.
 
-## COROLLAIRE. I.
+### COROLLAIRE I.
 
 {dropcap:I|lines=2|style=plain}L eſt évident que ſi *(Fig. 3)* d’un point quelconque (E), pris hors d’un cercle (ADBF), on tire pluſieurs droites (AE, EG &c) qui coupent le cercle (en B & F &c): les rectangles compris des ſecantes entieres (AE, GE), & des parties extérieures (EB, EF), ſont égaux entr’eux; puiſqu’en tirant du point E la tangente (ED), ces rectangles ſeront tous égaux au quarré de la même tangente (ED).
 
-## COROLLAIRE II.
+### COROLLAIRE II.
 
 {dropcap:I|lines=2|style=plain}L eſt auſſi évident que, ſi d’un point quelconque (E), pris hors d’un cercle (ADBF), on tire à ce cercle deux tangentes (ED, EC), elles ſeront égales entr’elles; puiſque le quarré de chacune eſt égal au même rectangle (AE. EB).
 

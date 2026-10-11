@@ -11,7 +11,7 @@ Il ne faut pas confondre les Equimultiples avec les Equiproduits. Lorſque le Fa
 
 {dropcap:L|lines=2|style=plain}Es Equiproduits mA & mB ſont comme les Facteurs A & B.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque mA eſt un produit de A par m; & mB un produit de B par m; on peut inférer
 
@@ -39,7 +39,7 @@ C. Q. F. D.
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs A, B, C, D, ſont en proportion, les Equiproduits mA & mC des antécédens, comparés à d'autres Equiproduits nB, nD des conſéquens, chacun à chacun, ſont encore en proportion.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 [Calculation]
 {dropcap:P|lines=2|style=plain}Uiſque   mA & mC   ſont des Equiproduits de A & C (Hyp.).

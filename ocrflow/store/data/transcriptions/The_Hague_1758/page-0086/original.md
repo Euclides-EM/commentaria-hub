@@ -5,13 +5,13 @@
 
 ## AXIOMES.
 
-## I.
+### I.
 
 {dropcap:L|lines=2|style=plain}E tout eſt égal à toutes ſes parties priſes enſemble.
 
 *Le* Pgr *entier* PQ, (Fig. 2) *eſt égal à toutes ſes parties, les* Pgrs PR, TS, VQ *pris enſemble.*
 
-## II.
+### II.
 
 {dropcap:L|lines=2|style=plain}Es parallélogrammes rectangles compris de côtés égaux; ſont égaux.
 

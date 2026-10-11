@@ -3,7 +3,7 @@
 
 ### Erklärung durch exempel.
 
-Hie haſtu zway schöne/vnd mit ziffren erklerte exempel. Im erſten ſeind zwen triangel ainer baſis ain gleichſeittiger 8. 8. 8 vnnd ain vngleicher √112. 8. √48. welche auch bayde zwiſchē zwayen parallelen ſtehn/als augenſcheinlich/wie du probiern magſt durch die rechnung ires inhalts/der baider tailen iſt √768. Im andern exempel haſtu ein winckelrechten triangel 8. 4. √80. Ain gleichfüſſigen √68. 4. √68. vnnd ein vngleichen weitteckigen √128. 4. √80. deren aller baſis iſt 4/vnd ſtehn all zwiſchen paralleln. Demnach ſy auch all einander gleich/wie dann ir yedes begreiff iſt 16/als nachuolgende Rechnung beweyßt.
+Hie haſtu zway schöne / vnd mit ziffren erklerte exempel. Im erſten ſeind zwen triangel ainer baſis ain gleichſeittiger 8. 8. 8 vnnd ain vngleicher √112. 8. √48. welche auch bayde zwiſchē zwayen parallelen ſtehn / als augenſcheinlich / wie du probiern magſt durch die rechnung ires inhalts / der baider tailen iſt √768. Im andern exempel haſtu ein winckelrechten triangel 8. 4. √80. Ain gleichfüſſigen √68. 4. √68. vnnd ein vngleichen weitteckigen √128. 4. √80. deren aller baſis iſt 4 / vnd ſtehn all zwiſchen paralleln. Demnach ſy auch all einander gleich / wie dann ir yedes begreiff iſt 16 / als nachuolgende Rechnung beweyßt.
 
 [Diagram: five triangles standing between two parallel lines, with side lengths 8, 4 and radicals]
 
@@ -59,7 +59,7 @@ Erſt reſt                    Ander                 Dritt
 √2560 − 48. das ain product.                      √2560 + 48. Das ander product.
 [/Calculation]
 
-Multiplicier das Binomium mit dem reſiduo/kompt 256. darauß radix iſt 16 des triangels innhalt.
+Multiplicier das Binomium mit dem reſiduo / kompt 256. darauß radix iſt 16 des triangels innhalt.
 
 <!-- Signature: C -->
 <!-- Catchword: Die -->

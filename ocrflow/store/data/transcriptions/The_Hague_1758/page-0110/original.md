@@ -6,13 +6,13 @@
 
 ## AXIOMES.
 
-## I.
+### I.
 
 {dropcap:L|lines=2|style=plain}Es cercles égaux (ABD, EGH), ſont ceux dont les diamétres (AD, EH), ou les rayons (CB, FG) ſont égaux. *Fig*. 1.
 
 *Le rayon eſt la déterminante du cercle; parcequ'un cercle eſt décrit par le mouvement du rayon autour du centre: Or quand les déterminantes de deux figures ſont les mêmes, il eſt naturel que les déterminées le ſoient auſſi; & c'eſt la raiſon pourquoi l'égalité des rayons entraine néceſſairement l'égalité parfaite des cercles décrits de ces rayons.*
 
-## II.
+### II.
 
 {dropcap:L|lines=2|style=plain}Es ſegmens de cercle (ABC, DEF), qui peuvent contenir des angles égaux (ABC, DEF), ſont ſemblables. *Fig*. 2.
 

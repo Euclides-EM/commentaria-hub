@@ -1,7 +1,7 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 149 -->
 
-Steht alſo/
+Steht alſo /
 
 [Calculation]
 c.       fl.     kronen       c.
@@ -13,7 +13,7 @@ daruon  1 ─────── 24
 110 fl.     36 kronen/facit.
 [/Calculation]
 
-### Anderſt.
+#### Anderſt.
 
 [Calculation]
 c.      fl.     kronen      kronen
@@ -29,9 +29,9 @@ c.      fl.     kronen      kronen
                 110 fl.     36 kronen.
 [/Calculation]
 
-### Ain ander exempel.
+#### Ain ander exempel.
 
-Item 1 c Zin/per 15 fl. 18 ß. 10 helb. wie 10 c. Multiplicier mitt 16 fl. iſt zůuil vmb 1 ß. 2 helb. das nimm vom product 10. mal/als 11 ß. 8 helb.
+Item 1 c Zin / per 15 fl. 18 ß. 10 helb. wie 10 c. Multiplicier mitt 16 fl. iſt zůuil vmb 1 ß. 2 helb. das nimm vom product 10. mal / als 11 ß. 8 helb.
 
 [Calculation]
 c.      fl.      ß.      helb.      c.
@@ -43,7 +43,7 @@ c.      fl.      ß.      helb.      c.
 Facit 159 fl. 8 ß. 4 helb.
 [/Calculation]
 
-### Practiciert anderſt.
+#### Practiciert anderſt.
 
 [Calculation]
 c.      fl.      ß.      helb.           ß.  helb.
@@ -58,7 +58,7 @@ c.      fl.      ß.      helb.           ß.  helb.
 Facit 159 fl. 8 ß. 4 helb.
 [/Calculation]
 
-Gib dir ſelbs zůdencken/welches behender ſey. So behilfft man ſich auch/da die rechnung geſtelt iſt auff ettlich fl. minder/ort/halb ort/ ⁊c. laß ich dich durch yebung erfaren. Item ich ſoll multipliciern 96 mit 50. minder ⅛ das iſt mit 49⅞. Multiplicier 96 mit 50 (gſchwind) werden 4800. daruon nim ⅛ auß 96 als 12. Reſt das recht product/nemblich 4788 ſouil thů 49⅞ mal 96.
+Gib dir ſelbs zůdencken / welches behender ſey. So behilfft man ſich auch / da die rechnung geſtelt iſt auff ettlich fl. minder / ort / halb ort / ⁊c. laß ich dich durch yebung erfaren. Item ich ſoll multipliciern 96 mit 50. minder ⅛ das iſt mit 49⅞. Multiplicier 96 mit 50 (gſchwind) werden 4800. daruon nim ⅛ auß 96 als 12. Reſt das recht product / nemblich 4788 ſouil thů 49⅞ mal 96.
 
 ⁊c.
 

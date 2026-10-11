@@ -3,7 +3,7 @@
 
 ### Erklärung.
 
-Diſe prop. füret nach auſtruckhlicher auß/das jhenig ſo inn der 7 angezaigt worden. Dann daſelbſt redt er nur von̄ gleichen quantiteten/hie zaigt er an/es gelte gleich/allain das die vergleichung durch ainerlay proportion geſchehe/vnd iſt nit nur von zwayen/ſonder ſouil du wilt gleichförmigen proportion zůuerſtehen. Als /
+Diſe prop. füret nach auſtruckhlicher auß / das jhenig ſo inn der 7 angezaigt worden. Dann daſelbſt redt er nur von̄ gleichen quantiteten / hie zaigt er an / es gelte gleich / allain das die vergleichung durch ainerlay proportion geſchehe / vnd iſt nit nur von zwayen / ſonder ſouil du wilt gleichförmigen proportion zůuerſtehen. Als /
 
 [Calculation]
  8 ┐           ┌  6
@@ -16,11 +16,11 @@ wie 4 gegen 3. volgt das diſe proportion alle gleichförmig/vnd ainerlay ſein.
 
 ## XII. Die zwölffte Propoſition.
 
-{dropcap:S|lines=2|style=plain}o ettwa vil quantiteten gegen ainander mitt ainerlay proportion verglichen werden/wie ſich ain jede vorgehnde gegen jrer volgenden halten wirt: alſo wirt ſich auch das collect der vorgehnden ſambtlich/halten gegen dem collect der volgenden ſambtlich.
+{dropcap:S|lines=2|style=plain}o ettwa vil quantiteten gegen ainander mitt ainerlay proportion verglichen werden / wie ſich ain jede vorgehnde gegen jrer volgenden halten wirt: alſo wirt ſich auch das collect der vorgehnden ſambtlich / halten gegen dem collect der volgenden ſambtlich.
 
 ### Erklärung.
 
-Beſiche hierzů diſes bůchs erſte propoſition/vnd diß exempel.
+Beſiche hierzů diſes bůchs erſte propoſition / vnd diß exempel.
 
 [Calculation]
 vorgehnd   volgend          vorgehnd   volgend
@@ -47,6 +47,6 @@ alles       duppel          alles       1½
 
 ## XIII. Die dreyzehend propoſition.
 
-Wann vier geproportionierte quantiteten ſeind/vnd zů denen noch zwo kommen in ainer andern proportion: iſt ſolche proportion klainer dann der dritten gegen der vierdten/ſo wirt ſy auch klainer ſein/weder der erſten gegen der andern/Des gleichen verſteh auch ſo ſy gröſſeren.
+Wann vier geproportionierte quantiteten ſeind / vnd zů denen noch zwo kommen in ainer andern proportion: iſt ſolche proportion klainer dann der dritten gegen der vierdten / ſo wirt ſy auch klainer ſein / weder der erſten gegen der andern / Des gleichen verſteh auch ſo ſy gröſſeren.
 
 <!-- Catchword: Erklä- -->

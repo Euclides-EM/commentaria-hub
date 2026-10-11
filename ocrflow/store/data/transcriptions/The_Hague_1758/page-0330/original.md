@@ -8,7 +8,7 @@
 Lorſque les trois angles ſont inégaux, & que b + c eſt > que CAB ou d.
 
 [Subhead]
-Préparation.
+### Préparation.
 [/Subhead]
 
 1. {dropcap:A|lines=2|style=plain}Vec AC au point A faites ∀ b = ∀ CAB dans le Plan CAD.

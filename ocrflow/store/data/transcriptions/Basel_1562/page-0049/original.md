@@ -1,7 +1,11 @@
 <!-- Running title: Deß erſten bůchs Euclidis -->
 <!-- Page number: 28 -->
 
-### Rechnung der Triangel/vorgeſetzter figuren.
+### Rechnung der Triangel /
+
+[Subhead]
+vorgeſetzter figuren.
+[/Subhead]
 
 [Subhead]
 Der dritten Figur.
@@ -22,7 +26,7 @@ Product √7696 − 64
 Product √7696 + 64
 [/Calculation]
 
-Multiplicier das Binomium √7696 + 64 mit ſeinem Reſiduo √7696 − 64. kompt 3600. Darauß radix iſt 60. die feldung des triangels/vnnd ½ auß 120. als dem innhalt des parallelogram̃s.
+Multiplicier das Binomium √7696 + 64 mit ſeinem Reſiduo √7696 − 64. kompt 3600. Darauß radix iſt 60. die feldung des triangels / vnnd ½ auß 120. als dem innhalt des parallelogram̃s.
 
 [Subhead]
 Der vierdten Figur.
@@ -43,4 +47,4 @@ Product √10136¼ − 88½
 Product √10136¼ + 88½
 [/Calculation]
 
-Multiplicier &c̄. Summum 2304. darauß √ iſt 48 des triangels begriff/vnd halbtail des parallelogram̃s.
+Multiplicier &c̄. Summum 2304. darauß √ iſt 48 des triangels begriff / vnd halbtail des parallelogram̃s.

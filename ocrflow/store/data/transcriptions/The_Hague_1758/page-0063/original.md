@@ -8,17 +8,17 @@
 
 {dropcap:L|lines=2|style=plain}Es parallélogrammes (AD, ED) placés ſur la même baſe (BD) & entre les mêmes paralleles (AF, BD): ſont égaux entr'eux.
 
-Hypothese
+### Hypothese
 
 *I. AD & ED ſont deux Pgrs,*
 
 *II. Et ces deux Pgrs ſont placés ſur la même baſe BD & entre les mêmes Plles AF, BD.*
 
-These.
+### These.
 
 *Le Pgr AD eſt ＝ au Pgr ED.*
 
-Demonstration.
+### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure AD eſt un Pgr (*Hyp.* 1).
 

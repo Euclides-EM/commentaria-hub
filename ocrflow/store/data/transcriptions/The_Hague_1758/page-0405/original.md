@@ -31,11 +31,11 @@ Mais la ſphère EFG eſt contenue dans le polyëdre ABCD (*Prép*. 2.).
 
 7. D'où il ſuit qu'il n'eſt pas poſſible que le cube du diamêtre (AC; ou A̅C̅³.) d'une ſphère (ABCD) eſt au cube du diamêtre (KI; ou K̅I̅³.) d'une autre ſphère (HILK,) comme une ſphère VRT (qui eſt moindre que la première ſphère ABCD *Sup*.), eſt à cette ſeconde HILK.
 
-## II. Suppoſition.
+### II. Suppoſition.
 
 {dropcap:S|lines=2|style=plain}Oit la ſphère ZXY > que la ſphère ABCD, de façon que la ſphère ZXY : ſphère HILK = A̅C̅³ : K̅I̅³.
 
-## II. Préparation.
+### II. Préparation.
 
 {dropcap:P|lines=2|style=plain}Renez une ſphère VRT, de manière que la ſphère ABCD : ſphère VRT = A̅C̅³ : K̅I̅³.
 

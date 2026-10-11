@@ -7,7 +7,7 @@
 
 {dropcap:D|lines=2|style=plain}Ans tout triangle rectangle (ABC), la figure (E) décrite de l'hypothenuſe (AC) eſt égale à la ſomme des figures ſemblables & ſemblablement poſées (G & H), décrites des deux côtés (AB, BC) alentour de l'angle droit.
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. ABC *eſt un* △ Rgle *en* B.
 
@@ -15,11 +15,11 @@ II. *La figure* E *eſt décrite de l'hypothenuſe* AC *de ce* △.
 
 III. *Et les figures* G & H *ſont ſemblables à* E & *décrites ſemblablement des deux autres côtés* AB, BC.
 
-THESE.
+### THESE.
 
 *La figure* E *eſt* ⚌ *aux figures* G + H.
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que les figures E, G, H ſont ſemblables & décrites ſemblablement des côtés homologues AC, AB, BC (*Hyp.* 3),
 

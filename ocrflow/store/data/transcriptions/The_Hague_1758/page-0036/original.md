@@ -8,10 +8,10 @@
 
 {dropcap:C|lines=2|style=plain}Ouper en deux parties égales, (AC, CB) une ligne donnée & terminée (AB).
 
-Donnee.
+### Donnee.
 *La droite terminée* AB
 
-Cherchee.
+### Cherchee.
 AC = BC.
 
 ### Réſolution.

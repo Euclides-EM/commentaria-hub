@@ -30,6 +30,6 @@ Prop. 15. L. 5.
 
 ## C. Q. F. D.
 
-## COROLLAIRE
+### COROLLAIRE
 
 {dropcap:L|lines=2|style=plain}Es pyramides ſemblables dont les bazes ſont des polygones ſont entr'elles en raiſon triplée de leurs cotés homologues, (parce qu'elles peuvent être diviſées en des pyramides partielles, triangulaires, & ſemblables deux à deux).

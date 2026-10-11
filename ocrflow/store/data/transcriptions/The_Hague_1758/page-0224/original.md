@@ -7,17 +7,17 @@
 
 {dropcap:S|lines=2|style=plain}'Il y a une ſuite de trois grandeurs (A, B, C) d'un côté, & une ſuite de trois autres grandeurs (a, b, c) de l'autre, telles que les raiſons de la premiere ſuite ſoient égales à celles de la ſeconde ſuite, chacune à chacune, dans un ordre troublé, il ſera vrai, par égalité de raiſon, que ſelon que la premiere grandeur (A) eſt plus grande, égale, ou moindre que la troiſieme (C) dans une des ſuites, de même dans l'autre la premiere grandeur (a) ſera auſſi plus grande, égale, ou moindre que la troiſieme (c).
 
-HYPOTHESE.
+### HYPOTHESE.
 
 I. A : B = b : c.
 II. B : C = a : b.
 
-THESE.
+### THESE.
 
 Selon que A eſt >, =, ou < C.
 a eſt auſſi >, =, ou < c.
 
-DEMONSTRATION.
+### DEMONSTRATION.
 
 CAS I. Soit A > C.
 

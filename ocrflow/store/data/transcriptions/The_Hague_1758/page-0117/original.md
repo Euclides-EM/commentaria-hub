@@ -9,23 +9,23 @@
 {dropcap:S|lines=2|style=plain}I deux cercles (BCA, ECD) ſe touchent intérieurement en (C): ils n'ont pas un même centre (F).
 
 [Subhead]
-HYPOTHESE.
+### HYPOTHESE.
 
 *Le* ⊙ *ECD touche le* ⊙ *BCA intérieurement en C.*
 [/Subhead]
 
 [Subhead]
-THESE.
+### THESE.
 
 *Ces deux* ⊙ *n'ont point un même centre F.*
 [/Subhead]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 {dropcap:S|lines=1|style=plain}I non.
 Les ⊙ BCA, ECD ont un même centre F.
 
-## Préparation.
+### Préparation.
 
 {dropcap:T|lines=1|style=plain}Irez donc les rayons FB, FC.
 
