@@ -58,28 +58,28 @@ const annotationIndexQueryKey = (
   datasetId: string,
   annotationId: string,
   indexTypes: string[],
-  applyPrinterErrorCorrection: boolean,
+  normalize: boolean,
 ) =>
   [
     'annotations',
     datasetId,
     annotationId,
     'index',
-    { indexTypes, applyPrinterErrorCorrection },
+    { indexTypes, normalize },
   ] as const
 
 export function useAnnotationIndexQuery(
   datasetId: string,
   annotationId: string,
   indexTypes: string[] = ['default'],
-  applyPrinterErrorCorrection = false,
+  normalize = false,
 ) {
   return useQuery({
     queryKey: annotationIndexQueryKey(
       datasetId,
       annotationId,
       indexTypes,
-      applyPrinterErrorCorrection,
+      normalize,
     ),
     queryFn: () =>
       AnnotationsService.getDatasetsAnnotationsIndex({
@@ -87,7 +87,7 @@ export function useAnnotationIndexQuery(
         id: annotationId,
         categories: '',
         types: indexTypes.join(','),
-        applyPrinterErrorCorrection,
+        normalize,
       }),
     enabled: !!datasetId && !!annotationId,
   })
