@@ -1,4 +1,4 @@
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 <!-- Page number: 377 -->
 
 ratio ex iis compoſita, hoc eſt ratio parallelogrammorum; ut Tyrones in ſimilibus caſibus rationem ex duabus vel pluribus rationibus datis compoſitam invenire queant.

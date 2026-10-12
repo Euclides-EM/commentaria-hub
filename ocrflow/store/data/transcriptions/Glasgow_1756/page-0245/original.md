@@ -7,15 +7,25 @@
 
 Sit utraque ipſarum AB, CD parallela ipſi EF, non exiſtentes in eodem in quo ipſa plano. Dico AB ipſi CD parallelam eſſe.
 
-Sumatur in EF punctum quodvis G, a quo ipſi EF in plano quidem per EF, AB tranſeunte, ad rectos angulos ducatur GH; in plano autem tranſeunte per EF, CD rurſus ducatur ipſi EF ad rectos angulos GK. et quoniam EF ad utramque ipſarum GH, GK eſt perpendicularis, erit etiam EF ad rectos angulos plano per GH, GK tranſeunteᵃ. atque eſt EF ipſi AB parallela; ergo et AB plano per HGK ad rectos angulos eſtᵇ. eadem ratione et CD plano per HGK eſt ad rectos angulos. utraque igitur ipſarum AB, CD plano per HGK ad rectos angulos erit. Si autem duae rectae lineae eidem plano ad rectos angulos fuerint, parallelae erunt inter ſeᶜ. Ergo AB ipſi CD parallela eſt. Q. E. D.
+Sumatur in EF punctum quodvis G, a quo ipſi EF in plano quidem per EF, AB tranſeunte, ad rectos angulos ducatur GH; in plano autem tranſeunte per EF, CD rurſus ducatur ipſi EF ad rectos angulos GK. et quoniam EF ad utramque ipſarum GH, GK eſt perpendicularis, erit etiam EF ad rectos angulos plano per GH, GK tranſeunteᵃ.
 
 [Margin]
 a. 4. 11.
+[/Margin]
 
+atque eſt EF ipſi AB parallela; ergo et AB plano per HGK ad rectos angulos eſtᵇ.
+
+[Margin]
 b. 8. 11.
+[/Margin]
 
+eadem ratione et CD plano per HGK eſt ad rectos angulos. utraque igitur ipſarum AB, CD plano per HGK ad rectos angulos erit. Si autem duae rectae lineae eidem plano ad rectos angulos fuerint, parallelae erunt inter ſeᶜ.
+
+[Margin]
 c. 6. 11.
 [/Margin]
+
+Ergo AB ipſi CD parallela eſt. Q. E. D.
 
 [Diagram: three horizontal lines AB, EF, and CD, with segments HG and KG]
 

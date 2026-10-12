@@ -31,17 +31,21 @@ et CA aequalis eſt et parallela ipſi EG; erit et DB ipſi EG aequalis et paral
 b. 9. 11.
 [/Margin]
 
-et ipſas conjungunt rectae lineae DE, BG; parallelaᵃ igitur et aequalis eſt DE ipſi BG.
+et ipſas conjungunt rectae lineae DE, BG; parallelaᵃ
 
 [Margin]
 a. 33. 1.
 [/Margin]
 
-et ſumpta ſunt in utraque ipſarum quaedam puncta D, Y, G, S, et junctae ſunt DG, YS. ergo DG, YS in uno ſunt plano. et manifeſtum eſt propterea ipſas ſibi mutuo occurrere: occurrant in T. et quoniam DE parallela eſt ipſi BG, erit et EDT angulus angulo BGT aequalisᶜ, alterni enim ſunt; eſt autem et DTY angulus aequalisᶠ ipſi GTS.
+igitur et aequalis eſt DE ipſi BG.
+
+et ſumpta ſunt in utraque ipſarum quaedam puncta D, Y, G, S, et junctae ſunt DG, YS. ergo DG, YS in uno ſunt plano. et manifeſtum eſt propterea ipſas ſibi mutuo occurrere: occurrant in T. et quoniam DE parallela eſt ipſi BG, erit et EDT angulus angulo BGT aequalisᶜ, alterni enim ſunt; eſt autem et DTY angulus aequalisᶠ
 
 [Margin]
 f. 15. 1.
 [/Margin]
+
+ipſi GTS.
 
 duo igitur ſunt triangula DTY, GTS duos angulos duobus angulis aequales habentia, et unum
 

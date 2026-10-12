@@ -1,11 +1,13 @@
 <!-- Page number: 332 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+tentum DB, BV minus duplo rectanguli DVB, hoc eſt, erit ⁿ
+
 [Margin]
 n. 8. 6.
 [/Margin]
 
-tentum DB, BV minus duplo rectanguli DVB, hoc eſt, erit ⁿ quadratum ex KB minus duplo quadrati ex KV. ſed quadratum ex KB majus eſt quam duplum quadrati ex BZ; ergo quadratum ex KV quadrato ex BZ eſt majus. et quoniam BA eſt aequalis AK, et quadrato quidem ex BA aequalia ſunt quadrata ex BZ, ZA, quadrato autem ex AK aequalia quadrata ex KV, VA, erunt quadrata ex BZ, ZA qua-
+quadratum ex KB minus duplo quadrati ex KV. ſed quadratum ex KB majus eſt quam duplum quadrati ex BZ; ergo quadratum ex KV quadrato ex BZ eſt majus. et quoniam BA eſt aequalis AK, et quadrato quidem ex BA aequalia ſunt quadrata ex BZ, ZA, quadrato autem ex AK aequalia quadrata ex KV, VA, erunt quadrata ex BZ, ZA qua-
 
 [Diagram: two concentric circles about centre A, crossed by diameters DB and XE, with points X, R, C, Y, P, I, T, N, H, O, S, Z, V, G, B, D, F, Q, K, L, U, M, E and connecting lines]
 

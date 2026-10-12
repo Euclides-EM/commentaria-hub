@@ -1,13 +1,25 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 273 -->
 
-igitur eſt ut baſis EH ad baſim NP, ita CM altitudo ſolidi CD ad AG altitudinem ſolidi AB; erit CM majorᵉ ipſa AG. ponatur rurſus ipſi AG aequalis CT, et ſimiliter ſolidum CV compleatur. itaque quoniam eſt ut EH baſis ad baſim NP, ita CM ad ipſam AG; aequalis autem eſt AG ipſi CT, erit ut baſis EH ad NP baſim, ita MC ad CT. ſed ut baſis EH ad NP baſim, itaᵇ AB ſolidum ad ſolidum CV; aeque alta enim ſunt ſolida AB, CV; ut autem MC ad CT, ita et MP baſis ad baſim PT, et ſolidum CD ad ſolidum CVᶜ. et igitur ut ſolidum AB ad ſolidum CV, ita CD ſolidum ad ſolidum CV. utrumque igitur ſolidorum AB, CD ad ipſum CV eandem rationem habet; ſolidum igitur AB ſolido CD eſt aequale. Q. E. D.
+igitur eſt ut baſis EH ad baſim NP, ita CM altitudo ſolidi CD ad AG altitudinem ſolidi AB; erit CM majorᵉ
 
 [Margin]
 e. A. 5.
+[/Margin]
+
+ipſa AG. ponatur rurſus ipſi AG aequalis CT, et ſimiliter ſolidum CV compleatur. itaque quoniam eſt ut EH baſis ad baſim NP, ita CM ad ipſam AG; aequalis autem eſt AG ipſi CT, erit ut baſis EH ad NP baſim, ita MC ad CT. ſed ut baſis EH ad NP baſim, itaᵇ
+
+[Margin]
 b. 32. 11.
+[/Margin]
+
+AB ſolidum ad ſolidum CV; aeque alta enim ſunt ſolida AB, CV; ut autem MC ad CT, ita et MP baſis ad baſim PT, et ſolidum CD ad ſolidum CVᶜ.
+
+[Margin]
 c. 25. 11.
 [/Margin]
+
+et igitur ut ſolidum AB ad ſolidum CV, ita CD ſolidum ad ſolidum CV. utrumque igitur ſolidorum AB, CD ad ipſum CV eandem rationem habet; ſolidum igitur AB ſolido CD eſt aequale. Q. E. D.
 
 [Diagram: parallelepiped labelled A, B, E, F, G, H, K, L]
 [Diagram: parallelepiped labelled C, D, M, N, O, P, R, T, V, X]

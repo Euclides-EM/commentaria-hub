@@ -1,5 +1,5 @@
 <!-- Page number: 366 -->
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
 quae quidem Propoſitiones ſunt converſae 1<sup>mae</sup> et 2<sup>dae</sup>. hiſce autem, quintâ ſc. et ſexta, nulla Propoſitio hujus Libri, ut eum nunc habemus, utitur; neque ulli in Elementis praeterquam huic 18<sup>vae</sup> utiles eſſe poſſunt. et hoc quidem certum eſt indicium eaſdem ab Euclide in ſua hujus 18<sup>vae</sup> demonſtratione adhibitas fuiſſe, eamque quam poſuimus, quaeque, ut fieri debuit, converſa eſt demonſtrationis 17<sup>mae</sup>, ab ea Eudoxi vel Euclidis haud differre. nulli enim uſui inſervirent 5<sup>ta</sup> et 6<sup>ta</sup> ſi in demonſtrationibus Lib. 5. adhibitae non eſſent, ut reliquae de aeque multiplicibus Propoſitiones omnes adhibitae ſunt.
 

@@ -1,11 +1,13 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 267 -->
 
-primo ſit MO una ex rectis inſiſtentibus, GQ vero in altero. Quoniam igitur ſolida parallelepipeda AB, CD eandem habent altitudinem, erunt ea inter ſe ut baſis AE ad baſim CF; quare priſmata quae ipſorum ſunt dimidiaᵈ ſunt inter ſe ut baſis AE ad CF baſim, hoc eſt ut triangulum AEM ad triangulum CFG.
+primo ſit MO una ex rectis inſiſtentibus, GQ vero in altero. Quoniam igitur ſolida parallelepipeda AB, CD eandem habent altitudinem, erunt ea inter ſe ut baſis AE ad baſim CF; quare priſmata quae ipſorum ſunt dimidiaᵈ
 
 [Margin]
 d. 28. 11.
 [/Margin]
+
+ſunt inter ſe ut baſis AE ad CF baſim, hoc eſt ut triangulum AEM ad triangulum CFG.
 
 ## PROP. XXXIII. THEOR.
 

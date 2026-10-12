@@ -1,11 +1,13 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 292 -->
 
-BD, ita ſpatium T ad ABCD circulum. erit autem ut ſpatium † T ad ABCD circulum, ita circulus EFGH ad ſpatium quoddam, quod quidem minus erit circulo ABCDᵈ, quia ſpatium T majus eſt EFGH circulo. ergo et ut quadratum ex FH ad quadratum ex BD, ita EFGH circulus ad aliquod ſpatium minus circulo ABCD; quod fieri non poſſe
+BD, ita ſpatium T ad ABCD circulum. erit autem ut ſpatium † T ad ABCD circulum, ita circulus EFGH ad ſpatium quoddam, quod quidem minus erit circulo ABCDᵈ,
 
 [Margin]
 d. 14. 5.
 [/Margin]
+
+quia ſpatium T majus eſt EFGH circulo. ergo et ut quadratum ex FH ad quadratum ex BD, ita EFGH circulus ad aliquod ſpatium minus circulo ABCD; quod fieri non poſſe
 
 [Diagram: circles labelled AXBOCPDR and EKFLGMHN with diameters BD and FH, the latter also labelled E, F, G, H; circles labelled S and T]
 

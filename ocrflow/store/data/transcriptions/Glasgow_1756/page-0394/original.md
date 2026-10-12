@@ -1,4 +1,4 @@
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 <!-- Page number: 381 -->
 
 plicare, deficiens quadrato. oportet autem datum quadratum non majus eſſe eo quod a dimidia deſcribitur.
@@ -9,11 +9,13 @@ Secetur AB bifariam in D, et ſi quadratum ex AD aequale fuerit quadrato ex rect
 
 [Figure: geometrical diagram with rectangle AGHL, square GBKH, points D, F, E, and line C]
 
-Quoniam igitur bifariam ſecta eſt AB in D, erit ª rectangulum AG, GB una cum quadrato ex DG aequale (quadrato ex DB, hoc eſt quadrato ex EF ſive EG, hoc eſt) quadratis ex ED, DG. commune auferatur quadratum ex DG, et reliquum rectangulum AG, GB aequale erit quadrato ex ED, hoc eſt ex C. rectangulum autem AG, GB eſt ipſum AH rectangulum, quia GH aequalis eſt ipſi GB. rectangulum igitur AH aequale eſt dato quadrato ex recta C. Quare ad datam rectam lineam AB dato quadrato ex recta C, aequale rectangulum AH applicatum eſt deficiens quadrato GK. Quod facere oportebat.
+Quoniam igitur bifariam ſecta eſt AB in D, erit ª
 
 [Margin]
 a. 5. 2.
 [/Margin]
+
+rectangulum AG, GB una cum quadrato ex DG aequale (quadrato ex DB, hoc eſt quadrato ex EF ſive EG, hoc eſt) quadratis ex ED, DG. commune auferatur quadratum ex DG, et reliquum rectangulum AG, GB aequale erit quadrato ex ED, hoc eſt ex C. rectangulum autem AG, GB eſt ipſum AH rectangulum, quia GH aequalis eſt ipſi GB. rectangulum igitur AH aequale eſt dato quadrato ex recta C. Quare ad datam rectam lineam AB dato quadrato ex recta C, aequale rectangulum AH applicatum eſt deficiens quadrato GK. Quod facere oportebat.
 
 2. Ad datam rectam lineam dato quadrato aequale rectangulum applicare, excedens quadrato.
 

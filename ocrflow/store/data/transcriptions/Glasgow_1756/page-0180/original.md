@@ -13,11 +13,18 @@ Sint primum tres magnitudines A, B, C, et aliae ipſis numero aequales, binae ſ
 
 [Diagram: twelve vertical lines in six pairs labelled A, B, C, D, E, F and G, H, L, K, M, N]
 
-Sumantur ipſarum quidem, A, B, D utcunque aeque multiplices G, H, K; ipſarum vero C, E, F aliae utcunque aeque multiplices L, M, N. et quoniam G, H aeque multiplices ſunt ipſarum A, B, partes autem eandem habent rationem quam habent earum aeque multiplices ᵃ; erit ut A ad B, ita G ad H. et ſimili ratione ut E ad F, ita M ad N. atque eſt ut A ad B, ita E ad F. ut igitur G ad H, ita ᵇ M ad N. et
+Sumantur ipſarum quidem, A, B, D utcunque aeque multiplices G, H, K; ipſarum vero C, E, F aliae utcunque aeque multiplices L, M, N. et quoniam G, H aeque multiplices ſunt ipſarum A, B, partes autem eandem habent rationem quam habent earum aeque multiplices ᵃ;
 
 [Margin]
 a. 15. 5.
+[/Margin]
+
+erit ut A ad B, ita G ad H. et ſimili ratione ut E ad F, ita M ad N. atque eſt ut A ad B, ita E ad F. ut igitur G ad H, ita ᵇ
+
+[Margin]
 b. 11. 5.
 [/Margin]
+
+M ad N. et
 
 <!-- Catchword: quoniam -->

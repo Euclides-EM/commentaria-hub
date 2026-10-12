@@ -1,13 +1,25 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 85 -->
 
-riam ſecabitᵃ. quare AF eſt aequalis FB, ideoque AB dupla eſt ipſius AF. eadem ratione, et CD dupla eſt CG. atque eſt AB ipſi CD aequalis; aequalis igitur et AF ipſi CG. et quoniam AE eſt aequalis EC, erit et quadratum ex AE quadrato ex EC aequale. ſed quadrato quidem ex AE aequalia ſunt ex AF, FE quadrataᵇ, rectus enim eſt angulus ad F; quadrato vero ex EC aequalia ſunt quadrata ex EG, GC, rectus eſt enim angulus ad G. quadrata igitur ex AF, FE aequalia ſunt quadratis ex CG, GE, quorum quadratum ex AF eſt aequale quadrato ex CG, etenim aequalis eſt AF ipſi CG; reliquum igitur ex FE aequale eſt reliquo quadrato ex EG, quare recta FE ipſi EG eſt aequalis. in circulo autem aequaliter a centro diſtare rectae lineae dicuntur, quando a centro ad ipſas perpendiculares ductae aequales ſuntᶜ. igitur AB, CD a centro aequaliter diſtant.
+riam ſecabitᵃ.
 
 [Margin]
 a. 3. 3.
+[/Margin]
+
+quare AF eſt aequalis FB, ideoque AB dupla eſt ipſius AF. eadem ratione, et CD dupla eſt CG. atque eſt AB ipſi CD aequalis; aequalis igitur et AF ipſi CG. et quoniam AE eſt aequalis EC, erit et quadratum ex AE quadrato ex EC aequale. ſed quadrato quidem ex AE aequalia ſunt ex AF, FE quadrataᵇ,
+
+[Margin]
 b. 47. 1.
+[/Margin]
+
+rectus enim eſt angulus ad F; quadrato vero ex EC aequalia ſunt quadrata ex EG, GC, rectus eſt enim angulus ad G. quadrata igitur ex AF, FE aequalia ſunt quadratis ex CG, GE, quorum quadratum ex AF eſt aequale quadrato ex CG, etenim aequalis eſt AF ipſi CG; reliquum igitur ex FE aequale eſt reliquo quadrato ex EG, quare recta FE ipſi EG eſt aequalis. in circulo autem aequaliter a centro diſtare rectae lineae dicuntur, quando a centro ad ipſas perpendiculares ductae aequales ſuntᶜ.
+
+[Margin]
 c. 4. Def. 3.
 [/Margin]
+
+igitur AB, CD a centro aequaliter diſtant.
 
 [Diagram: circle labelled A, B, C, D, with centre E, chords AB and CD, and lines AE, EC, EF and EG]
 

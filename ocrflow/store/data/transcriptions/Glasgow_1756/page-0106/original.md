@@ -7,15 +7,19 @@
 
 Sit circulus ABC, et ad centrum quidem ejus ſit angulus BEC, ad circumferentiam vero BAC, habeant autem eandem circumferentiam BC pro baſi; dico BEC angulum anguli BAC duplum eſſe.
 
-Primo, ſit centrum E intra angulum BAC, et jungatur AE et ad F producatur. quoniam igitur EA eſt aequalis EB, erit et angulus EAB angulo EBA aequalisᵃ; anguli igitur EAB, EBA dupli ſunt ipſius EAB; ſed angulus BEF eſt aequalis angulis EAB, EBAᵇ; ergo et angulus BEF ipſius EAB eſt duplus. eadem ratione et angulus FEC duplus eſt ipſius EAC. totus igitur BEC totius BAC duplus erit.
+Primo, ſit centrum E intra angulum BAC, et jungatur AE et ad F producatur. quoniam igitur EA eſt aequalis EB, erit et angulus EAB angulo EBA aequalisᵃ;
 
 [Margin]
 a. 5. 1.
 [/Margin]
 
+anguli igitur EAB, EBA dupli ſunt ipſius EAB; ſed angulus BEF eſt aequalis angulis EAB, EBAᵇ;
+
 [Margin]
 b. 32. 1.
 [/Margin]
+
+ergo et angulus BEF ipſius EAB eſt duplus. eadem ratione et angulus FEC duplus eſt ipſius EAC. totus igitur BEC totius BAC duplus erit.
 
 [Diagram: circle labelled A, B, C, E and F, with lines AB, AC, AE, EB and EC]
 

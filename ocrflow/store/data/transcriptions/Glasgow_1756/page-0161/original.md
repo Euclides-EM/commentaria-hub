@@ -3,11 +3,13 @@
 
 C. Dico utramque A, B ad C eandem rationem habere; et C ad utramque A, B ſimiliter eandem habere rationem.
 
-Sumantur enim ipſarum A, B utcunque aeque multiplices D, E, et ipſius C alia utcunque multiplex F. quoniam igitur aeque multiplex eſt D ipſius A, atque E ipſius B, eſtque A ipſi B aequalis; erit et D aequalis ipſi Eᵃ. Ergo ſi D ſuperat F, et E ipſam F ſuperabit; et ſi aequalis, aequalis; et ſi minor, minor. et ſunt D, E quidem ipſarum A, B utcunque aeque multiplices; F vero alia utcunque multiplex ipſius C. erit igitur ut A ad C, ita B ad Cᵇ.
+Sumantur enim ipſarum A, B utcunque aeque multiplices D, E, et ipſius C alia utcunque multiplex F. quoniam igitur aeque multiplex eſt D ipſius A, atque E ipſius B, eſtque A ipſi B aequalis; erit et D aequalis ipſi Eᵃ.
 
 [Margin]
 a. 1. Ax. 5.
 [/Margin]
+
+Ergo ſi D ſuperat F, et E ipſam F ſuperabit; et ſi aequalis, aequalis; et ſi minor, minor. et ſunt D, E quidem ipſarum A, B utcunque aeque multiplices; F vero alia utcunque multiplex ipſius C. erit igitur ut A ad C, ita B ad Cᵇ.
 
 [Margin]
 b. 5. Def. 5.

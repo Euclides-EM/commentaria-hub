@@ -13,18 +13,27 @@ Et ſi per puncta A, B, C, D, E, F contingentes circulum ducamus, circa circulum
 
 Sit datus circulus ABCD; oportet in ABCD circulo quindecagonum æquilaterum et æquiangulum inſcribere.
 
-Sit in circulo ABCD trianguli quidem æquilateri ipſi inſcripti latus ACᵃ, pentagoni vero æquilateri et æquianguli latusᵇ AB;
+Sit in circulo ABCD trianguli quidem æquilateri ipſi inſcripti latus ACᵃ,
 
 [Margin]
 a. 2. 4.
+[/Margin]
+
+pentagoni vero æquilateri et æquianguli latusᵇ
+
+[Margin]
 b. 11. 4.
 [/Margin]
 
-qualium igitur partium eſt ABCD, tota ſcilicet circumferentia, quindecim, earum circumferentia quidem ABC tertia exiſtens totius erit quinque; circumferentia vero AB, quæ quinta eſt totius, erit trium; reliqua igitur BC eſt duarum. ſecetur BC bifariamᶜ in E;
+AB;
+
+qualium igitur partium eſt ABCD, tota ſcilicet circumferentia, quindecim, earum circumferentia quidem ABC tertia exiſtens totius erit quinque; circumferentia vero AB, quæ quinta eſt totius, erit trium; reliqua igitur BC eſt duarum. ſecetur BC bifariamᶜ
 
 [Margin]
 c. 30. 3.
 [/Margin]
+
+in E;
 
 quare utraque ipſarum BE, EC circumferentiarum quintadecima pars eſt circumferentiæ circuli ABCD. ſi igitur jungentes BE, EC æquales ipſis in continuum rectas lineas in circulo ABCD aptemusᵈ,
 

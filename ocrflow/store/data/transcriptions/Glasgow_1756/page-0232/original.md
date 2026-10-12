@@ -9,33 +9,45 @@ multiplicia, circumferentia EN et EHN ſector; atque oſtenſum eſt ſi BL circ
 
 Sit ABC triangulum, et bifariam ſecetur angulus BAC rectâ linea AD; erit rectangulum BA, AC aequale rectangulo BDC una cum quadrato ex AD.
 
-Circa triangulum deſcribaturᵃ circulus ACB, et producatur AD ad circumferentiam in E, et jungatur EC. igitur quoniam angulus BAD aequalis eſt angulo CAE, et angulus ABD anguloᵇ AEC, ſunt enim in eodem ſegmento; erunt ABD, AEC triangula inter ſe aequiangula. Ergo ut BA ad AD, ita eſtᶜ EA ad AC, et rectangulum BA, AC aequale eritᵈ rectangulo EA, AD, hoc eſtᵉ rectangulo ED, DA una cum quadrato ex AD. eſt autem rectangulum ED, DA aequaleᶠ rectangulo BD, DC. rectangulum igitur BA, AC aequale eſt rectangulo BD, DC una cum quadrato ex AD. Quare ſi trianguli &c. Q. E. D.
+Circa triangulum deſcribaturᵃ
 
 [Margin]
 a. 5. 4.
 [/Margin]
 
-[Diagram: circle with inscribed lines, labelled A, B, C, D and E]
+circulus ACB, et producatur AD ad circumferentiam in E, et jungatur EC. igitur quoniam angulus BAD aequalis eſt angulo CAE, et angulus ABD anguloᵇ
 
 [Margin]
 b. 21. 3.
 [/Margin]
 
+AEC, ſunt enim in eodem ſegmento; erunt ABD, AEC triangula inter ſe aequiangula. Ergo ut BA ad AD, ita eſtᶜ
+
 [Margin]
 c. 4. 6.
 [/Margin]
+
+EA ad AC, et rectangulum BA, AC aequale eritᵈ
 
 [Margin]
 d. 16. 6.
 [/Margin]
 
+rectangulo EA, AD, hoc eſtᵉ
+
 [Margin]
 e. 3. 2.
 [/Margin]
 
+rectangulo ED, DA una cum quadrato ex AD. eſt autem rectangulum ED, DA aequaleᶠ
+
 [Margin]
 f. 35. 3.
 [/Margin]
+
+rectangulo BD, DC. rectangulum igitur BA, AC aequale eſt rectangulo BD, DC una cum quadrato ex AD. Quare ſi trianguli &c. Q. E. D.
+
+[Diagram: circle with inscribed lines, labelled A, B, C, D and E]
 
 <!-- Signature: E e 2 -->
 <!-- Catchword: PROP. C. -->

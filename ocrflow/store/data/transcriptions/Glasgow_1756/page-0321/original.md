@@ -13,10 +13,12 @@ Si enim cylindrus non ſit triplus coni, vel major erit quam triplus, vel minor.
 
 et a quadrato ABCD erigatur priſma aeque altum cylindro; priſma vero hoc majus erit quam cylindri dimidium; quoniam ſi circa circulum ABCD quadratum deſcribatur, et ab ipſo erigatur priſma aeque altum cylindro, erit inſcriptum quadratum dimidium circumſcripti. et ſunt ab iis baſibus quadratis erecta ſolida parallelepipeda aeque alta, nimirum priſmata; priſma igitur a quadrato ABCD dimidium eſt priſmatis erecti a quadrato quod circa circulum ABCD deſcribitur.
 
+etenim inter ſe ſunt ut baſesᵃ.
+
 [Margin]
 a. 32. 11.
 [/Margin]
 
-etenim inter ſe ſunt ut baſesᵃ. atque eſt cylindrus minor priſmate erecto a quadrato quod deſcribitur circa circulum ABCD. priſma igitur erectum a quadrato ABCD aeque altum cylindro, dimidio cylindri eſt majus. ſecentur circumferentiae AB, BC, CD, DA bifariam in punctis E, F, G, H, et AE, EB, BF, FC, CG, GD, DH, HA jungantur. unumquodque igitur triangulorum AEB, BFC, CGD, DHA majus eſt dimidio portionis circuli ABCD, in qua conſiſtit, ut prius oſtenſum in Prop. 2. hujus. Erigantur ab unoquoque triangulorum AEB, BFC,
+atque eſt cylindrus minor priſmate erecto a quadrato quod deſcribitur circa circulum ABCD. priſma igitur erectum a quadrato ABCD aeque altum cylindro, dimidio cylindri eſt majus. ſecentur circumferentiae AB, BC, CD, DA bifariam in punctis E, F, G, H, et AE, EB, BF, FC, CG, GD, DH, HA jungantur. unumquodque igitur triangulorum AEB, BFC, CGD, DHA majus eſt dimidio portionis circuli ABCD, in qua conſiſtit, ut prius oſtenſum in Prop. 2. hujus. Erigantur ab unoquoque triangulorum AEB, BFC,
 
 <!-- Catchword: CGD, -->

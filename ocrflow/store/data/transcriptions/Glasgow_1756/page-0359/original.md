@@ -1,6 +1,6 @@
 <!-- Page number: 346 -->
 
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
 rectis concipere poteſt. etenim una ipſarum AB non poteſt concipi vergere vel minimum verſus alteram CD, ni ſimul concipiatur AB magis inclinari verſus partes rectae AC ad quas eſt CD, quam verſus partes contrarias; quod fieri non poteſt, recta enim AB ad rectos angulos eſt ipſi AC. idemque dicendum eſt de duabus quibuſvis rectis AB, CD quae cum aliqua recta EAC aequales angulos EAB, ECD ad eaſdem partes continent; nam hae cuidam rectae ſunt ad rectos angulos. ſecetur enim AC bifariam in F, et ducatur FG perpendicularis ad AB, occurratque rectae CD in H. quoniam igitur in triangulis AFG, CFH, anguli GAF, AFG ipſis HCF, CFH ſunt aequales, alter alteri, ex hypotheſi et Prop. 15. Lib. 1. et latus AF aequale eſt lateri FC, erit AGF angulus aequalis ipſi CHF, ex Prop. 26. Lib. 1. rectus autem eſt AGF, quare et CHF rectus eſt. igitur rectae BG, DH ad rectos ſunt angulos eidem rectae GH.
 

@@ -1,11 +1,13 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM. -->
 <!-- Page number: 142 -->
 
-ponitur AB ipſius E, atque CD ipſius F; ergo KH aeque multiplex eſt F, atque CD ejuſdem F. aequalis igitur ᵃ eſt KH ipſi CD. communis auferatur CH; ergo reliqua KC reliquae HD eſt aequalis. Quam multiplex autem eſt GB ipſius E, tam multiplex eſt KC ipſius F, ſed KC eſt aequalis HD. Ergo tam multiplex eſt HD ipſius F, atque GB ipſius E. ſi igitur duae &c. Q. E. D.
+ponitur AB ipſius E, atque CD ipſius F; ergo KH aeque multiplex eſt F, atque CD ejuſdem F. aequalis igitur ᵃ
 
 [Margin]
 a. 1. Ax. 5.
 [/Margin]
+
+eſt KH ipſi CD. communis auferatur CH; ergo reliqua KC reliquae HD eſt aequalis. Quam multiplex autem eſt GB ipſius E, tam multiplex eſt KC ipſius F, ſed KC eſt aequalis HD. Ergo tam multiplex eſt HD ipſius F, atque GB ipſius E. ſi igitur duae &c. Q. E. D.
 
 [Diagram: four vertical lines labelled A, G, B; K, C, H, D; E; and F]
 

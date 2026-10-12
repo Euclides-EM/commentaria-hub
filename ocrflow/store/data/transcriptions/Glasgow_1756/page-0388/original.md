@@ -1,4 +1,4 @@
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 <!-- Page number: 375 -->
 
 tiplicatione antecedentium C, D ad factum ex multiplicatione conſequentium E, Z, hoc eſt ratio numeri plani cujus latera ſunt C, D ad numerum planum cujus latera ſunt E, Z. Igitur Propoſitio quae eſt Definitio 5. Lib. 6. eadem omnino eſt cum Propoſitione 5. Lib. 8. In altero igitur horum locorum delenda eſt; abſurdum enim eſt Propoſitionem in Elementis poni tanquam Definitionem, et eandem in iiſdem demonſtrari. Nullum autem dubium eſt Prop. 5. Lib. 8. debere locum habere in Elementis, idem enim in ea demonſtratur de numeris planis quod in Prop. 23. Lib. 6. demonſtratur de parallelogrammis aequiangulis; quare Definitio 5. Lib. 6. in Elementis locum habere non poteſt. unde perſpicue apparet eam minime poſitam fuiſſe ab Euclide, ſed a Theone vel alio quodam Geometriae minus perito.

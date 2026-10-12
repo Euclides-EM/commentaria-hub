@@ -1,19 +1,25 @@
 <!-- Running title: LIBER DUODECIMUS. -->
 <!-- Page number: 323 -->
 
-quidem EFGH circulus, altitudo autem MP. Quoniam igitur AX cylindrus aequalis eſt cylindro EO, erit ut AX cylindrus ad cylindrum ES, ita cylindrus EO ad ES cylindrumᵇ. ſed ut AX cylindrus ad cylindrum ES, ita baſis ABCD ad EFGH baſimᵃ; cylindri enim AX, ES eandem habent altitudinem; ut autem cylindrus EO ad ES cylindrum, ita MN altitudo ad altitudinem MPᶜ, nam cylindrus EO ſecatur plano TYS oppoſitis planis parallelo. eſt igitur ut ABCD baſis ad baſim EFGH, ita altitudo MN ad MP altitudinem. aequalis autem eſt MP altitudo altitudini KL; quare ut baſis ABCD ad EFGH baſim, ita MN altitudo ad altitudinem KL. aequalium igitur cylindrorum AX, EO baſes et altitudines reciproce ſunt proportionales.
+quidem EFGH circulus, altitudo autem MP. Quoniam igitur AX cylindrus aequalis eſt cylindro EO, erit ut AX cylindrus ad cylindrum ES, ita cylindrus EO ad ES cylindrumᵇ.
 
 [Margin]
 b. 7. 5.
 [/Margin]
 
+ſed ut AX cylindrus ad cylindrum ES, ita baſis ABCD ad EFGH baſimᵃ;
+
 [Margin]
 a. 11. 12.
 [/Margin]
 
+cylindri enim AX, ES eandem habent altitudinem; ut autem cylindrus EO ad ES cylindrum, ita MN altitudo ad altitudinem MPᶜ,
+
 [Margin]
 c. 13. 12.
 [/Margin]
+
+nam cylindrus EO ſecatur plano TYS oppoſitis planis parallelo. eſt igitur ut ABCD baſis ad baſim EFGH, ita altitudo MN ad MP altitudinem. aequalis autem eſt MP altitudo altitudini KL; quare ut baſis ABCD ad EFGH baſim, ita MN altitudo ad altitudinem KL. aequalium igitur cylindrorum AX, EO baſes et altitudines reciproce ſunt proportionales.
 
 Sed cylindrorum AX, EO baſes et altitudines ſint reciproce proportionales, ſit ſcilicet ut ABCD baſis ad baſim EFGH, ita altitudo MN ad KL altitudinem. Dico AX cylindrum cylindro EO aequalem eſſe.
 

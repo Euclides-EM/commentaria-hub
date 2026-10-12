@@ -1,12 +1,19 @@
 <!-- Running title: LIBER DUODECIMUS. -->
 <!-- Page number: 303 -->
 
-midi cujus baſis EBC triangulum, et vertex punctum D. rurſus, quoniam FCBE parallelogrammum eſt cujus diameter CE, triangulum ECF triangulo ECB eſt aequaleᵃ; ergo et pyramis cujus baſis ECB triangulum, vertex autem punctum D, aequalis eſt pyramidi cujus baſis triangulum ECF, et vertex punctum Dᵇ. ſed pyramis cujus baſis quidem ECB triangulum, vertex autem punctum D oſtenſa eſt aequalis pyramidi cujus baſis triangulum ABD, et vertex C punctum. quare et pyramis cujus baſis triangulum ECF, et vertex punctum D, aequalis eſt pyramidi cujus baſis triangulum ABD, et vertex C punctum. priſma igitur ABCDEF dividitur in tres pyramides inter ſe aequales quae triangulares baſes habent, videlicet in ipſas ABDC, EBDC, ECFD. et quoniam pyramis cujus baſis ABD triangulum, vertex autem punctum C, eadem eſt cum pyramide, cujus baſis triangulum ABC, et vertex D punctum, iiſdem namque planis continentur; pyramis vero cujus baſis triangulum ABD, et vertex punctum C, tertia pars oſtenſa eſt priſmatis cujus baſis ABC triangulum, et oppoſitum ipſi DEF; et pyramis igitur, cujus baſis triangulum ABC, vertex autem D punctum, tertia pars eſt priſmatis eandem baſim habentis, videlicet ABC triangulum, et oppoſitum ipſi triangulum DEF. Q. E. D.
+midi cujus baſis EBC triangulum, et vertex punctum D. rurſus, quoniam FCBE parallelogrammum eſt cujus diameter CE, triangulum ECF triangulo ECB eſt aequaleᵃ;
 
 [Margin]
 a. 34. 1.
+[/Margin]
+
+ergo et pyramis cujus baſis ECB triangulum, vertex autem punctum D, aequalis eſt pyramidi cujus baſis triangulum ECF, et vertex punctum Dᵇ.
+
+[Margin]
 b. 5. 12.
 [/Margin]
+
+ſed pyramis cujus baſis quidem ECB triangulum, vertex autem punctum D oſtenſa eſt aequalis pyramidi cujus baſis triangulum ABD, et vertex C punctum. quare et pyramis cujus baſis triangulum ECF, et vertex punctum D, aequalis eſt pyramidi cujus baſis triangulum ABD, et vertex C punctum. priſma igitur ABCDEF dividitur in tres pyramides inter ſe aequales quae triangulares baſes habent, videlicet in ipſas ABDC, EBDC, ECFD. et quoniam pyramis cujus baſis ABD triangulum, vertex autem punctum C, eadem eſt cum pyramide, cujus baſis triangulum ABC, et vertex D punctum, iiſdem namque planis continentur; pyramis vero cujus baſis triangulum ABD, et vertex punctum C, tertia pars oſtenſa eſt priſmatis cujus baſis ABC triangulum, et oppoſitum ipſi DEF; et pyramis igitur, cujus baſis triangulum ABC, vertex autem D punctum, tertia pars eſt priſmatis eandem baſim habentis, videlicet ABC triangulum, et oppoſitum ipſi triangulum DEF. Q. E. D.
 
 [Diagram: triangular prism divided into pyramids, labelled A, B, C, D, E and F]
 

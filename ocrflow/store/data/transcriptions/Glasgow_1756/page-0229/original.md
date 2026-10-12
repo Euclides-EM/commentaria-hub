@@ -1,11 +1,13 @@
 <!-- Page number: 216 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-ſunt ACE, ACB duobus rectis aequales efficiunt. Ergo BC ipſi CE in directum eritᵈ. Si igitur duo triangula &c. Q. E. D.
+ſunt ACE, ACB duobus rectis aequales efficiunt. Ergo BC ipſi CE in directum eritᵈ.
 
 [Margin]
 d. 14. 1.
 [/Margin]
+
+Si igitur duo triangula &c. Q. E. D.
 
 ## PROP. XXXIII. THEOR.
 
@@ -17,10 +19,12 @@ Ponantur enim circumferentiae quidem BC aequales quotcunque deinceps CK, KL; cir
 
 [Diagram: two circles; the left labelled A, B, C, G, K, L, and the right labelled D, E, F, H, M, N, with chords and radii]
 
-FM, MN; et jungantur GK, GL, HM, HN. Quoniam igitur circumferentiae BC, CK, KL inter ſe ſunt aequales, et anguli BGC, CGK, KGL inter ſe aequales eruntᵃ. quam multiplex igitur eſt circumferentia BL circumferentiae BC, tam multiplex eſt et BGL angulus anguli BGC. eadem ratione et quam multiplex eſt circumferentia EN circumferentiae EF, tam multiplex et EHN angulus anguli EHF. et ſi aequalis eſt BL circumferentia circumferentiae EN, et angulus BGL
+FM, MN; et jungantur GK, GL, HM, HN. Quoniam igitur circumferentiae BC, CK, KL inter ſe ſunt aequales, et anguli BGC, CGK, KGL inter ſe aequales eruntᵃ.
 
 [Margin]
 a. 27. 3.
 [/Margin]
+
+quam multiplex igitur eſt circumferentia BL circumferentiae BC, tam multiplex eſt et BGL angulus anguli BGC. eadem ratione et quam multiplex eſt circumferentia EN circumferentiae EF, tam multiplex et EHN angulus anguli EHF. et ſi aequalis eſt BL circumferentia circumferentiae EN, et angulus BGL
 
 <!-- Catchword: angulo -->

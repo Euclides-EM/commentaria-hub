@@ -9,12 +9,19 @@ ipſi E, et AG ipſi F. ut igitur AB ad CD, ita E ad F. ergo ſi quatuor rectae 
 
 Sint tres rectae lineae proportionales A, B, C; ſit ſcilicet ut A ad B, ita B ad C; dico rectangulum contentum rectis A, C aequale eſſe ei quod à media B fit quadrato.
 
-Ponatur ipſi B aequalis D; et quoniam ut A ad B, ita B ad C, aequalis autem eſt B ipſi D; erit ᵃ ut A ad B, ita D ad C. ſi autem quatuor rectae lineae proportionales fuerint, rectangulum ab extremis contentum eſt aequale ei quod à mediis continetur ᵇ. Ergo rectangulum rectis A, C contentum eſt aequale ei quod continetur ipſis B, D. ſed rectangulum contentum rectis B, D eſt aequale quadrato quod fit ex ipſa B; etenim B eſt aequalis D. rectangulum igitur contentum rectis A, C eſt aequale ei quod ex B fit quadrato.
+Ponatur ipſi B aequalis D; et quoniam ut A ad B, ita B ad C, aequalis autem eſt B ipſi D; erit ᵃ
 
 [Margin]
 a. 7. 5.
+[/Margin]
+
+ut A ad B, ita D ad C. ſi autem quatuor rectae lineae proportionales fuerint, rectangulum ab extremis contentum eſt aequale ei quod à mediis continetur ᵇ.
+
+[Margin]
 b. 16. 6.
 [/Margin]
+
+Ergo rectangulum rectis A, C contentum eſt aequale ei quod continetur ipſis B, D. ſed rectangulum contentum rectis B, D eſt aequale quadrato quod fit ex ipſa B; etenim B eſt aequalis D. rectangulum igitur contentum rectis A, C eſt aequale ei quod ex B fit quadrato.
 
 [Diagram: four horizontal lines labelled A, B, D and C; a rectangle labelled A and C, and a square labelled B and D]
 

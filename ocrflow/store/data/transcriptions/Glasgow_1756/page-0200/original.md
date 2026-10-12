@@ -1,12 +1,19 @@
 <!-- Running title: LIBER SEXTUS. -->
 <!-- Page number: 187 -->
 
-gulus BGC rectus eritᶠ. trianguli igitur BGC duo anguli non ſunt minores duobus rectis, quod fieri non poteſtʰ; et propterea triangulum ABC triangulo DEF aequiangulum eſt. ſi igitur duo triangula &c. Q. E. D.
+gulus BGC rectus eritᶠ.
 
 [Margin]
 f. 5. 1.
+[/Margin]
+
+trianguli igitur BGC duo anguli non ſunt minores duobus rectis, quod fieri non poteſtʰ;
+
+[Margin]
 h. 17. 1.
 [/Margin]
+
+et propterea triangulum ABC triangulo DEF aequiangulum eſt. ſi igitur duo triangula &c. Q. E. D.
 
 ## PROP. VIII. THEOR.
 
@@ -16,15 +23,27 @@ h. 17. 1.
 
 Sit triangulum rectangulum ABC, rectum habens angulum BAC; et a puncto A ad BC perpendicularis ducatur AD. Dico triangula ABD, ADC toti triangulo ABC, et inter ſe ſimilia eſſe.
 
-Quoniam enim angulus BAC eſt aequalis angulo ADB, rectus enim uterque eſt, et angulus ad B communis duobus triangulis ABC, ABD; eritᵃ reliquus ACB reliquo BAD aequalis. aequiangulum igitur eſt triangulum ABC triangulo ABD; quare latera circa aequales angulos proportionalia habentᵇ, et propterea inter ſe ſimilia ſuntᶜ. eadem ratione demonſtrabitur etiam ADC triangulum triangulo ABC ſimile eſſe.
-
-[Diagram: triangle ABC with perpendicular AD drawn to base BC]
+Quoniam enim angulus BAC eſt aequalis angulo ADB, rectus enim uterque eſt, et angulus ad B communis duobus triangulis ABC, ABD; eritᵃ
 
 [Margin]
 a. 32. 1.
+[/Margin]
+
+reliquus ACB reliquo BAD aequalis. aequiangulum igitur eſt triangulum ABC triangulo ABD; quare latera circa aequales angulos proportionalia habentᵇ,
+
+[Margin]
 b. 4. 6.
+[/Margin]
+
+et propterea inter ſe ſimilia ſuntᶜ.
+
+[Margin]
 c. 1. Def. 6.
 [/Margin]
+
+eadem ratione demonſtrabitur etiam ADC triangulum triangulo ABC ſimile eſſe.
+
+[Diagram: triangle ABC with perpendicular AD drawn to base BC]
 
 Dico inſuper triangula ABD, ADC etiam inter ſe ſimilia eſſe.
 

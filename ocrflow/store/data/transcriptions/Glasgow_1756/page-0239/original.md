@@ -7,11 +7,13 @@ Ergo rectae lineae AB, CD in uno ſunt plano. Igitur ſi duae rectae lineae &c. 
 
 {dropcap:S|lines=2|style=plain}I duo plana ſe invicem ſecent, communis ipſorum ſectio recta linea erit.
 
-Duo plana AB, BC ſe invicem ſecent, communis autem ipſorum ſectio ſit DB linea. Dico lineam DB eſſe rectam. ſi enim non ita ſit, ducatur a puncto D ad B in plano quidem AB recta linea DEB; in plano autem BC recta linea DFB. Erunt igitur duarum rectarum linearum DEB, DFB iidem termini, et ipſae ſpatium continebunt, quod eſt abſurdumᵃ. igitur planorum AB, BC, communis ſectio BD non poteſt non eſſe recta linea; recta igitur eſt. Si igitur duo plana &c. Q.E.D.
+Duo plana AB, BC ſe invicem ſecent, communis autem ipſorum ſectio ſit DB linea. Dico lineam DB eſſe rectam. ſi enim non ita ſit, ducatur a puncto D ad B in plano quidem AB recta linea DEB; in plano autem BC recta linea DFB. Erunt igitur duarum rectarum linearum DEB, DFB iidem termini, et ipſae ſpatium continebunt, quod eſt abſurdumᵃ.
 
 [Margin]
 a. 10. Ax. 1.
 [/Margin]
+
+igitur planorum AB, BC, communis ſectio BD non poteſt non eſſe recta linea; recta igitur eſt. Si igitur duo plana &c. Q.E.D.
 
 [Diagram: two intersecting planes AB and BC with common line B–D and lines D–E–B and D–F–B]
 

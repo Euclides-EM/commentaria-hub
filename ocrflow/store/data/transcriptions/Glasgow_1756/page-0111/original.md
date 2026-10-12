@@ -13,12 +13,24 @@ Jungantur enim BC, EF; et quoniam æquales ſunt ABC, DEF circuli, erunt et quæ
 
 [Diagram: two circles; the left labelled A, B, C, G and K, and the right labelled D, E, F, H and L, with inscribed and central triangles]
 
+H; baſis igitur BC baſi EF eſt æqualisᵃ.
+
 [Margin]
 a. 4. 1.
+[/Margin]
+
+et quoniam æqualis eſt angulus ad A angulo ad D, ſegmentum BAC ſimile erit ſegmento ᵇEDF;
+
+[Margin]
 b. 11. Def. 3.
+[/Margin]
+
+et ſunt ſuper æqualibus rectis lineis BC, EF; quæ autem ſuper æqualibus rectis lineis ſimilia ſunt circulorum ſegmenta, inter ſe æqualia ſuntᶜ;
+
+[Margin]
 c. 24. 3.
 [/Margin]
 
-H; baſis igitur BC baſi EF eſt æqualisᵃ. et quoniam æqualis eſt angulus ad A angulo ad D, ſegmentum BAC ſimile erit ſegmento ᵇEDF; et ſunt ſuper æqualibus rectis lineis BC, EF; quæ autem ſuper æqualibus rectis lineis ſimilia ſunt circulorum ſegmenta, inter ſe æqualia ſuntᶜ; ſegmentum igitur BAC ſegmento EDF eſt æquale. ſed et totus ABC circulus æqualis eſt toti DEF, reliquum igitur ſegmentum
+ſegmentum igitur BAC ſegmento EDF eſt æquale. ſed et totus ABC circulus æqualis eſt toti DEF, reliquum igitur ſegmentum
 
 <!-- Catchword: BKC -->

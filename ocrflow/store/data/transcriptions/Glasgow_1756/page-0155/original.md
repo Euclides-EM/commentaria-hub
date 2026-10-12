@@ -9,15 +9,19 @@ Sumantur ipſarum E, F utcunque aeque multiplices K, L, et ipſarum B, D aliae u
 
 Magnitudo enim AB magnitudinis CD aeque multiplex ſit atque ablata AE ablatae CF. Dico et reliquam EB reliquae FD aeque multiplicem eſſe atque totam AB totius CD.
 
-Quam multiplex enim eſt AE ipſius CF, tam multiplex fiat et AG ipſius FD. erit igitur ᵃ AE aeque multiplex ipſius CF atque EG ipſius CD; ponitur autem AE aeque multiplex ipſius CF atque AB ipſius CD; ſunt igitur EG, AB ipſius CD aeque multiplices; ac propterea EG ipſi AB eſt aequalisᵇ. communis auferatur AE, reliqua igitur AG aequalis eſt reliquae EB. itaque quoniam AE aeque multiplex eſt CF atque AG ipſius FD, eſtque AG aequalis ipſi EB; erit AE aeque multiplex CF atque EB ipſius FD. aeque multiplex autem ponitur AE ipſius CF atque AB ipſius CD; ergo EB ae-
+Quam multiplex enim eſt AE ipſius CF, tam multiplex fiat et AG ipſius FD. erit igitur ᵃ
 
 [Margin]
 a. 1. 5.
 [/Margin]
 
+AE aeque multiplex ipſius CF atque EG ipſius CD; ponitur autem AE aeque multiplex ipſius CF atque AB ipſius CD; ſunt igitur EG, AB ipſius CD aeque multiplices; ac propterea EG ipſi AB eſt aequalisᵇ.
+
 [Margin]
 b. 1. Ax. 5.
 [/Margin]
+
+communis auferatur AE, reliqua igitur AG aequalis eſt reliquae EB. itaque quoniam AE aeque multiplex eſt CF atque AG ipſius FD, eſtque AG aequalis ipſi EB; erit AE aeque multiplex CF atque EB ipſius FD. aeque multiplex autem ponitur AE ipſius CF atque AB ipſius CD; ergo EB ae-
 
 [Diagram: two vertical lines labelled G, A, E, B and C, F, D]
 

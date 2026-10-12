@@ -122,6 +122,11 @@ Use a specific zone whenever possible. `[Other]` is only for a distinct relevant
 zone with no defined type, may be empty, and must not replace ordinary text or a
 difficult classification.
 
+Each separately positioned marginal note is its own `[Margin]` block. Place it
+immediately after the body word carrying its reference mark, or, without a mark,
+after the body text of the printed line beside which it begins. Split the body
+paragraph at that point; this is the only permitted break inside a paragraph.
+
 Non-textual page objects occur on their own line at the corresponding position.
 Each object may optionally include a concise description after a colon:
 
@@ -224,7 +229,7 @@ Soit le triangle ABC, duquel les deux costez AB, AC sont égaux entr'eux.
 
 Separate distinct paragraphs with one blank line.
 
-Do not insert a paragraph break merely because of vertical spacing or a printed line break.
+Do not insert a paragraph break merely because of vertical spacing or a printed line break. The only exception is the split required to align a marginal note with the body text (section 9).
 
 When a word is divided across a printed line solely because of line wrapping, join the divided parts and omit the line-end hyphen used for that division.
 
@@ -571,6 +576,20 @@ Scholium.
 
 Do not preserve ordinary printed lineation inside the margin. Preserve paragraph boundaries where present.
 
+Each marginal note printed at a separate position MUST be its own `[Margin]` block. Do not merge notes printed beside different lines of the body into one block. Notes that the print groups together, for example two references joined by a brace, form a single block.
+
+Align each marginal note with the body text it accompanies. Place the `[Margin]` block immediately after the body word that carries its reference mark (for example `aequalisᶠ.` for the note `f. 34. 1.`). When a note has no reference mark in the body, place it after the body text of the printed line beside which the note begins. If this position falls inside a paragraph, split the paragraph there and put the `[Margin]` block between the two parts, each separated by one blank line. This split is the only permitted break inside a paragraph; it does not mark a printed paragraph boundary.
+
+```markdown
+et quoniam uni laterum trianguli FBE, videlicet ipſi FE, parallela ducta eſt AC; erit ᵍ
+
+[Margin]
+g. 2. 6.
+[/Margin]
+
+ut BA ad AF, ita BC ad CE.
+```
+
 Do not use `[Margin]` for handwritten annotations.
 
 ## 10. Footnotes
@@ -852,7 +871,7 @@ To be determined.
 
 ## 22. Core syntax constraints
 
-1. Preserve paragraph boundaries but do not preserve ordinary printed line breaks.
+1. Preserve paragraph boundaries but do not preserve ordinary printed line breaks; split a paragraph only to align a marginal note.
 2. Join words divided solely because of printed line wrapping.
 3. Do not invent annotation names.
 4. Do not vary the capitalization or spelling of annotation names.

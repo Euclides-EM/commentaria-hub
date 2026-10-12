@@ -1,5 +1,5 @@
 <!-- Page number: 364 -->
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
 nis, 7<sup>tima</sup> ſc. Lib. 5. concluſio decimae breviter et directe oſtendatur.
 
@@ -11,7 +11,7 @@ Sint enim ipſarum A, B aeque multiplices D, E, et ipſius C multiplex F, ita ut
 
 Quoniam enim A habet ad C, majorem rationem quam B ad C, erit per 10. 5. A major quam B; igitur D multiplex ipſius A major erit E aeque multiplici ipſius B. eſt autem E major F; multo igitur D major eſt ipsâ F.
 
-## PROP. XIII. LIB. V.
+#### PROP. XIII. LIB. V.
 
 In verſionibus Commandini, Briggii et Gregorii habetur ad initium demonſtrationis, " et multiplex quidem C ſuperat multiplicem D; multiplex vero E non ſuperat multiplicem F." quae quidem ex textu Graeco ad verbum tranſlata ſunt. ſenſus autem loci manifeſte requirit ita legantur, viz. " ut multiplex quidem C ſuperet multiplicem D; multiplex vero E non ſuperet multiplicem F." et hoc modo hic locus recte reſtitutus fuit in primis editionibus Elementorum ex verſione Commandini quae Oxoniae impreſſa fuerunt. in poſterioribus vero, ſaltem anni 1747, error textus Graeci retentus eſt.
 

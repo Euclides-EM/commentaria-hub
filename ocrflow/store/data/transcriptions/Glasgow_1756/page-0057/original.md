@@ -7,19 +7,23 @@
 
 Sint aequalia triangula ABC, DBC ſuper eadem baſi BC conſtituta, et ad eaſdem partes; dico in eiſdem eſſe parallelis.
 
-Jungatur enim AD, dico AD parallelam eſſe ipſi BC; ſi enim non eſt, ducatur per A punctum ipſi BC parallela recta linea AEᵃ, et EC jungatur.
+Jungatur enim AD, dico AD parallelam eſſe ipſi BC; ſi enim non eſt, ducatur per A punctum ipſi BC parallela recta linea AEᵃ,
 
 [Margin]
 a. 31. 1.
 [/Margin]
 
+et EC jungatur.
+
 [Diagram: geometric construction labelled A, D above, B, C below, with diagonals intersecting at E]
 
-aequale igitur eſt ABC triangulum triangulo EBCᵇ, ſuper eadem enim eſt baſi BC, et in eiſdem parallelis BC, AE. ſed ABC triangulum triangulo DBC eſt aequale; ergo et triangulum DBC aequale eſt EBC triangulo, majus minori, quod fieri non poteſt. Non igitur AE ipſi BC parallela eſt. ſimiliter oſtendemus neque aliam quampiam parallelam eſſe, praeter ipſam AD; ergo AD ipſi BC eſt parallela. Triangula igitur aequalia &c. Q. E. D.
+aequale igitur eſt ABC triangulum triangulo EBCᵇ,
 
 [Margin]
 b. 37. 1.
 [/Margin]
+
+ſuper eadem enim eſt baſi BC, et in eiſdem parallelis BC, AE. ſed ABC triangulum triangulo DBC eſt aequale; ergo et triangulum DBC aequale eſt EBC triangulo, majus minori, quod fieri non poteſt. Non igitur AE ipſi BC parallela eſt. ſimiliter oſtendemus neque aliam quampiam parallelam eſſe, praeter ipſam AD; ergo AD ipſi BC eſt parallela. Triangula igitur aequalia &c. Q. E. D.
 
 ## PROP. XL. THEOR.
 

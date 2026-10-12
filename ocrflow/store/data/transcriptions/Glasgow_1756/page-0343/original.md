@@ -1,11 +1,13 @@
 <!-- Page number: 330 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-et propterea quadrilaterum SOPT in uno erit plano. eadem ratione quadrilaterum TPRY eſt in uno plano. eſt autem in uno plano figura YRXⁱ. ſi igitur a punctis O, S, P, T, R, Y ad A ductas rectas lineas intelligamus, conſtituetur quaedam figura ſolida polyedra inter circumferentias BX, KX, ex pyramidibus compoſita, quarum baſes quidem KBOS, SOPT, TPRY quadrilatera, et triangulum YRX, ver-
+et propterea quadrilaterum SOPT in uno erit plano. eadem ratione quadrilaterum TPRY eſt in uno plano. eſt autem in uno plano figura YRXⁱ.
 
 [Margin]
 i. 2. 11.
 [/Margin]
+
+ſi igitur a punctis O, S, P, T, R, Y ad A ductas rectas lineas intelligamus, conſtituetur quaedam figura ſolida polyedra inter circumferentias BX, KX, ex pyramidibus compoſita, quarum baſes quidem KBOS, SOPT, TPRY quadrilatera, et triangulum YRX, ver-
 
 [Figure: sphere with inscribed circles and polygonal divisions, labelled X, R, C, Y, P, I, T, N, H, O, S, Z, D, A, G, V, B, F, Q, K, U, L, E, M]
 

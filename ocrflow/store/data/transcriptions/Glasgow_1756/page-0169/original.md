@@ -1,13 +1,25 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 154 -->
 
-B, habebit ᵃ A ad B majorem rationem quam C ad B. ſed ut C ad D, ita eſt A ad B; ergo et C ad D majorem habebit ᵇ rationem quam C ad B. ad quam vero eadem majorem rationem habet, illa minorᶜ eſt. quare D eſt minor quam B, ac propterea B quam D major erit.
+B, habebit ᵃ
 
 [Margin]
 a. 8. 5.
+[/Margin]
+
+A ad B majorem rationem quam C ad B. ſed ut C ad D, ita eſt A ad B; ergo et C ad D majorem habebit ᵇ
+
+[Margin]
 b. 13. 5.
+[/Margin]
+
+rationem quam C ad B. ad quam vero eadem majorem rationem habet, illa minorᶜ
+
+[Margin]
 c. 10. 5.
 [/Margin]
+
+eſt. quare D eſt minor quam B, ac propterea B quam D major erit.
 
 [Diagram: twelve vertical lines labelled A, B, C, D in three groups numbered 1, 2, 3]
 

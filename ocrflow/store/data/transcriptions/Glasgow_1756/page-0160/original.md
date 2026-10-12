@@ -7,25 +7,31 @@
 
 Sit A ad B, ut C ad D; ſitque A multiplex ipſius B, erit C eadem multiplex ipſius D.
 
-Sumatur enim E aequalis ipſi A, et quam multiplex eſt A ſive E ipſius B, tam multiplex fiat F ipſius D. Ergo quoniam A ad B eandem habet rationem, quam C ad D, et ſecundae B et quartae D aeque multiplices ſumptae ſunt E, F, eritᵃ A ad E, ut C ad F. et eſt A aequalis ipſi E; ergo C aequalis eſt ipſi Fᵇ. eſt autem F aeque multiplex ipſius D, atque E ſive A ipſius B. Ergo C aeque multiplex eſt D, atque A ipſius B.
-
-[Diagram: four vertical lines labelled A, B, C and D, with longer extensions labelled E beneath B and F beneath D]
+Sumatur enim E aequalis ipſi A, et quam multiplex eſt A ſive E ipſius B, tam multiplex fiat F ipſius D. Ergo quoniam A ad B eandem habet rationem, quam C ad D, et ſecundae B et quartae D aeque multiplices ſumptae ſunt E, F, eritᵃ
 
 [Margin]
 a. Cor. 4. 5.
 [/Margin]
 
+A ad E, ut C ad F. et eſt A aequalis ipſi E; ergo C aequalis eſt ipſi Fᵇ.
+
 [Margin]
 b. Prop. A. 5.
 [/Margin]
 
+eſt autem F aeque multiplex ipſius D, atque E ſive A ipſius B. Ergo C aeque multiplex eſt D, atque A ipſius B.
+
+[Diagram: four vertical lines labelled A, B, C and D, with longer extensions labelled E beneath B and F beneath D]
+
 Sed ſit prima A pars ſecundae B, erit tertia C eadem pars quartae D.
 
-Quoniam enim eſt A ad B, ut C ad D, invertendoᶜ, erit B ad A, ut D ad C. eſt autem A pars ipſius B, hoc eſt B multiplex eſt ipſius A, quare, per caſum praecedentem, D eadem eſt multiplex ipſius C, hoc eſt C eadem pars eſt ipſius D, atque A ipſius B. ſi igitur fuerit prima &c. Q. E. D.
+Quoniam enim eſt A ad B, ut C ad D, invertendoᶜ,
 
 [Margin]
 c. B. 5.
 [/Margin]
+
+erit B ad A, ut D ad C. eſt autem A pars ipſius B, hoc eſt B multiplex eſt ipſius A, quare, per caſum praecedentem, D eadem eſt multiplex ipſius C, hoc eſt C eadem pars eſt ipſius D, atque A ipſius B. ſi igitur fuerit prima &c. Q. E. D.
 
 ## PROP. VII. THEOR.
 

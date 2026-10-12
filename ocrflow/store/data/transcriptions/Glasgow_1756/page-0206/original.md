@@ -1,21 +1,35 @@
 <!-- Running title: LIBER SEXTUS. -->
 <!-- Page number: 193 -->
 
-ABC aequale eſt triangulo ADE, aliud autem eſt ABD; erit ut CAB triangulum ad triangulum BAD, ita ᵇ triangulum EAD ad triangulum DAB. ſed ut triangulum quidem CAB ad BAD triangulum, ita CA ad ADᶜ; ut autem triangulum EAD ad ipſum DAB, ita EA ad ABᶜ; ut igitur ᵈ CA ad AD, ita EA ad AB. quare triangulorum ABC, ADE latera, quae circum aequales angulos reciproce ſunt proportionalia.
+ABC aequale eſt triangulo ADE, aliud autem eſt ABD; erit ut CAB triangulum ad triangulum BAD, ita ᵇ
 
 [Margin]
 b. 7. 5.
+[/Margin]
+
+triangulum EAD ad triangulum DAB. ſed ut triangulum quidem CAB ad BAD triangulum, ita CA ad ADᶜ;
+
+[Margin]
 c. 1. 6.
+[/Margin]
+
+ut autem triangulum EAD ad ipſum DAB, ita EA ad ABᶜ; ut igitur ᵈ
+
+[Margin]
 d. 11. 5.
 [/Margin]
 
+CA ad AD, ita EA ad AB. quare triangulorum ABC, ADE latera, quae circum aequales angulos reciproce ſunt proportionalia.
+
 [Diagram: lines BC, BD, DE, BE and CD, labelled A, B, C, D and E]
 
-Sint autem latera triangulorum ABC, ADE circum aequales angulos reciproce proportionalia, ſcilicet ſit ut CA ad AD, ita EA ad AB; dico triangulum ABC triangulo ADE aequale eſſe. junctâ enim rurſus BD, quoniam ut CA ad AD, ita eſt EA ad AB, ut autem CA ad AD, ita eſt BAC triangulum ad triangulum BADᶜ; et ut EA ad AB, ita triangulum EAD ad triangulum BADᶜ; erit ᵈ ut triangulum BAC ad triangulum BAD, ita triangulum EAD ad BAD triangulum. aequale igitur ᵉ eſt triangulum ABC triangulo ADE. Aequalium igitur &c. Q. E. D.
+Sint autem latera triangulorum ABC, ADE circum aequales angulos reciproce proportionalia, ſcilicet ſit ut CA ad AD, ita EA ad AB; dico triangulum ABC triangulo ADE aequale eſſe. junctâ enim rurſus BD, quoniam ut CA ad AD, ita eſt EA ad AB, ut autem CA ad AD, ita eſt BAC triangulum ad triangulum BADᶜ; et ut EA ad AB, ita triangulum EAD ad triangulum BADᶜ; erit ᵈ ut triangulum BAC ad triangulum BAD, ita triangulum EAD ad BAD triangulum. aequale igitur ᵉ
 
 [Margin]
 e. 9. 5.
 [/Margin]
+
+eſt triangulum ABC triangulo ADE. Aequalium igitur &c. Q. E. D.
 
 ## PROP. XVI. THEOR.
 

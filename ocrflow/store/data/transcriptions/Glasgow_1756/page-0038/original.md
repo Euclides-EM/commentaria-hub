@@ -1,13 +1,19 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 23 -->
 
-jungatur. et quoniam trianguli BDC exterior angulus eſt ADB, erit ADB major interiore et oppoſito DCBᵇ. aequalis autem eſt ADB ipſi ABD, quod et latus AB lateri AD ſit aequaleᶜ; major igitur eſt ABD angulus angulo ACB; quare ABC ipſo ACB multo major erit. Omnis igitur trianguli &c. Q. E. D.
+jungatur. et quoniam trianguli BDC exterior angulus eſt ADB, erit ADB major interiore et oppoſito DCBᵇ.
 
 [Margin]
 b. 16. 1.
+[/Margin]
 
+aequalis autem eſt ADB ipſi ABD, quod et latus AB lateri AD ſit aequaleᶜ;
+
+[Margin]
 c. 5. 1.
 [/Margin]
+
+major igitur eſt ABD angulus angulo ACB; quare ABC ipſo ACB multo major erit. Omnis igitur trianguli &c. Q. E. D.
 
 ## PROP. XIX. THEOR.
 
@@ -19,13 +25,19 @@ Sit triangulum ABC habens ABC angulum majorem angulo BCA. dico et latus AC later
 
 [Diagram: triangle ABC]
 
-Si enim non eſt majus, vel AC eſt aequale ipſi AB, vel ipſo minus. aequale autem non eſt, nam et angulus ABC angulo ACB aequalis eſſetᵃ; non eſt autem; non igitur AC ipſi AB eſt aequale. ſed neque minus eſt latus AC ipſo AB; eſſet enim et angulus ABC angulo ACB minorᵇ; atqui non eſt; non igitur AC latus minus eſt ipſo AB. oſtenſum autem eſt neque aequale eſſe; eſt igitur AC ipſo AB majus. Omnis igitur trianguli &c. Q. E. D.
+Si enim non eſt majus, vel AC eſt aequale ipſi AB, vel ipſo minus. aequale autem non eſt, nam et angulus ABC angulo ACB aequalis eſſetᵃ;
 
 [Margin]
 a. 5. 1.
+[/Margin]
 
+non eſt autem; non igitur AC ipſi AB eſt aequale. ſed neque minus eſt latus AC ipſo AB; eſſet enim et angulus ABC angulo ACB minorᵇ;
+
+[Margin]
 b. 18. 1.
 [/Margin]
+
+atqui non eſt; non igitur AC latus minus eſt ipſo AB. oſtenſum autem eſt neque aequale eſſe; eſt igitur AC ipſo AB majus. Omnis igitur trianguli &c. Q. E. D.
 
 ## PROP. XX. THEOR.
 

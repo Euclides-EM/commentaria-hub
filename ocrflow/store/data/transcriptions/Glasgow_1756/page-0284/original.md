@@ -1,11 +1,13 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 271 -->
 
-compoſita dicitur ᵈ ex rationibus a ad b, b ad c, et c ad d, quae eaedem ſunt, ſingulae ſingulis, rationibus laterum MA ad AP, NA ad AQ, et OA ad AR. latera autem AP, AQ, AR, aequalia ſunt lateribus DL, DK, DH, ſingula ſingulis. Ergo ſolidum AB habet ad ſolidum CD rationem eandem ei quae compoſita eſt ex rationibus laterum AM ad DL, AN ad DK, et AO ad DH. Q. E. D.
+compoſita dicitur ᵈ
 
 [Margin]
 d. A. Def. 5.
 [/Margin]
+
+ex rationibus a ad b, b ad c, et c ad d, quae eaedem ſunt, ſingulae ſingulis, rationibus laterum MA ad AP, NA ad AQ, et OA ad AR. latera autem AP, AQ, AR, aequalia ſunt lateribus DL, DK, DH, ſingula ſingulis. Ergo ſolidum AB habet ad ſolidum CD rationem eandem ei quae compoſita eſt ex rationibus laterum AM ad DL, AN ad DK, et AO ad DH. Q. E. D.
 
 ## PROP. XXXIV. THEOR.
 

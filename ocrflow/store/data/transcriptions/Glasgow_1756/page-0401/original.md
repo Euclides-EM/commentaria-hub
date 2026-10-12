@@ -1,9 +1,9 @@
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 <!-- Page number: 388 -->
 
 tionem anguli ſolidi. Ex hiſce autem et Definitione decima, ſatis liquet quam multum ab imperitis depravati ſint hi Libri.
 
-## DEF. X. LIB. XI.
+#### DEF. X. LIB. XI.
 
 [Margin]
 X

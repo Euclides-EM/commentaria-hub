@@ -1,29 +1,39 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 28 -->
 
-angulo BAC aequalis angulus EDGᵃ; ponaturque alterutri ipſarum AC, DF aequalis DGᵇ, et EG, GF jungantur.
-
-Itaque quoniam AB quidem eſt aequalis DE, AC vero ipſi DG, duae BA, AC duabus ED, DG aequales ſunt, altera alteri; et angulus BAC eſt aequalis angulo EDG; baſis igitur BC baſi EG eſt aequalisᶜ. rurſus quoniam aequalis eſt DG ipſi DF, eſt angulus DFG angulo DGF aequalisᵈ; major autem eſt angulus DGF angulo EGF, erit itaque DFG angulus angulo EGF major; multo igitur major eſt EFG angulus ipſo EGF. et quoniam triangulum eſt EFG angulum EFG majorem habens angulo EGF, majori autem angulo latus majus ſubtenditurᵉ; erit latus EG latere EF majus. ſed EG latus eſt aequale lateri BC; ergo et BC ipſo EF majus erit. ſi igitur duo triangula &c. Q. E. D.
+angulo BAC aequalis angulus EDGᵃ;
 
 [Margin]
 a. 23. 1.
 [/Margin]
 
+ponaturque alterutri ipſarum AC, DF aequalis DGᵇ,
+
 [Margin]
 b. 3. 1.
 [/Margin]
+
+et EG, GF jungantur.
+
+Itaque quoniam AB quidem eſt aequalis DE, AC vero ipſi DG, duae BA, AC duabus ED, DG aequales ſunt, altera alteri; et angulus BAC eſt aequalis angulo EDG; baſis igitur BC baſi EG eſt aequalisᶜ.
 
 [Margin]
 c. 4. 1.
 [/Margin]
 
+rurſus quoniam aequalis eſt DG ipſi DF, eſt angulus DFG angulo DGF aequalisᵈ;
+
 [Margin]
 d. 5. 1.
 [/Margin]
 
+major autem eſt angulus DGF angulo EGF, erit itaque DFG angulus angulo EGF major; multo igitur major eſt EFG angulus ipſo EGF. et quoniam triangulum eſt EFG angulum EFG majorem habens angulo EGF, majori autem angulo latus majus ſubtenditurᵉ;
+
 [Margin]
 e. 19. 1.
 [/Margin]
+
+erit latus EG latere EF majus. ſed EG latus eſt aequale lateri BC; ergo et BC ipſo EF majus erit. ſi igitur duo triangula &c. Q. E. D.
 
 [Diagram: triangle ABC and geometrical construction DEFG]
 

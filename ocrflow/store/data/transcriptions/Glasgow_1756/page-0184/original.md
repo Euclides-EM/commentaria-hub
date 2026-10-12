@@ -3,12 +3,19 @@
 
 et C ad D, eadem ſit rationi G ad K quae compoſita eſt ex rationibus G ad H, et H ad K. erit ratio D ad F quae compoſita eſt ex reliquis rationibus prioribus D ad E, et E ad F, eadem rationi K ad M quae compoſita eſt ex reliquis rationibus poſterioribus K ad L, et L ad M.
 
-Quoniam enim, ex hypotheſi, eſt A ad D, ut G ad K, erit invertendoᵇ, D ad A, ut K ad G; ut vero A ad F, ita eſt G ad M; ergoᶜ, ex aequali, erit D ad F, ut K ad M. ſi igitur &c. Q. E. D.
+Quoniam enim, ex hypotheſi, eſt A ad D, ut G ad K, erit invertendoᵇ,
 
 [Margin]
 b. B. 5.
+[/Margin]
+
+D ad A, ut K ad G; ut vero A ad F, ita eſt G ad M; ergoᶜ,
+
+[Margin]
 c. 22. 5.
 [/Margin]
+
+ex aequali, erit D ad F, ut K ad M. ſi igitur &c. Q. E. D.
 
 ## PROP. K. THEOR.
 

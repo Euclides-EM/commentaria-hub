@@ -1,11 +1,13 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 300 -->
 
-ABCG priſmatibus quae in ipſa ſunt; ergo et ſolidum Q priſmatibus quae ſunt in pyramide DEFH eſt majusᶜ. ſed et minus, quod fieri non poteſt. non igitur ut ABC baſis ad baſim DEF, ita eſt pyramis ABCG ad ſolidum aliquod minus pyramide DEFH. ſimiliter oſtendemus neque ut DEF baſis ad baſim ABC, ita eſſe pyramidem DEFH ad ſolidum aliquod pyramide ABCG minus. Dico etiam neque eſſe ut ABC baſis ad baſim DEF, ita ABCG pyramidem ad aliquod ſolidum majus pyramide DEFH. ſi enim fieri poteſt, ſit ad majus, videlicet ad ſolidum Z. erit igitur invertendo, ut DEF baſis ad baſim
+ABCG priſmatibus quae in ipſa ſunt; ergo et ſolidum Q priſmatibus quae ſunt in pyramide DEFH eſt majusᶜ.
 
 [Margin]
 c. 14. 5.
 [/Margin]
+
+ſed et minus, quod fieri non poteſt. non igitur ut ABC baſis ad baſim DEF, ita eſt pyramis ABCG ad ſolidum aliquod minus pyramide DEFH. ſimiliter oſtendemus neque ut DEF baſis ad baſim ABC, ita eſſe pyramidem DEFH ad ſolidum aliquod pyramide ABCG minus. Dico etiam neque eſſe ut ABC baſis ad baſim DEF, ita ABCG pyramidem ad aliquod ſolidum majus pyramide DEFH. ſi enim fieri poteſt, ſit ad majus, videlicet ad ſolidum Z. erit igitur invertendo, ut DEF baſis ad baſim
 
 [Diagram: two pyramids labelled A, B, C, G, K, L, M, N, O, X and D, E, F, H, P, R, S, T, V, Y; two prisms labelled Q and Z]
 

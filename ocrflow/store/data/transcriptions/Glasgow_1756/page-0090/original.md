@@ -1,11 +1,13 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 75 -->
 
-bebuntᵉ. aequalis igitur eſt AF ipſi FB. ſi igitur in circulo recta linea &c. Q. E. D.
+bebuntᵉ.
 
 [Margin]
 e. 26. 1.
 [/Margin]
+
+aequalis igitur eſt AF ipſi FB. ſi igitur in circulo recta linea &c. Q. E. D.
 
 ## PROP. IV. THEOR.
 
@@ -13,15 +15,19 @@ e. 26. 1.
 
 Sit circulus ABCD, et in ipſo duae rectae lineae AC, BD ſe invicem ſecent in puncto E, non ductae per centrum. dico eas ſeſe bifariam non ſecare.
 
-Si enim fieri poteſt, ſecent ſeſe bifariam, ita ut AE ſit aequalis EC, et BE ipſi ED. ſi igitur una rectarum per centrum tranſit, manifeſtum eſt eam non poſſe bifariam ſecari ab altera quae non tranſit per centrum. ſi vero neutra ipſarum per centrum tranſit, ſumatur centrum ABCD circuliᵃ, et ſit F, et EF jungatur. Quoniam igitur recta linea FE per centrum ducta rectam lineam AC non ductam per centrum bifariam ſecat, et ad rectos angulos ipſam ſecabitᵇ; quare rectus eſt FEA angulus. rurſus quoniam recta linea FE rectam lineam BD non ductam per centrum bifariam ſecat, et ad angulos rectos ipſam ſecabitᵇ; rectus igitur angulus eſt FEB. oſtenſus autem eſt rectus et FEA; ergo FEA angulus ipſi FEB aequalis erit, minor majori, quod fieri non poteſt. non igitur AC, BD ſeſe bifariam ſecant. ſi igitur in circulo &c. Q. E. D.
+Si enim fieri poteſt, ſecent ſeſe bifariam, ita ut AE ſit aequalis EC, et BE ipſi ED. ſi igitur una rectarum per centrum tranſit, manifeſtum eſt eam non poſſe bifariam ſecari ab altera quae non tranſit per centrum. ſi vero neutra ipſarum per centrum tranſit, ſumatur centrum ABCD circuliᵃ,
 
 [Margin]
 a. 1. 3.
 [/Margin]
 
+et ſit F, et EF jungatur. Quoniam igitur recta linea FE per centrum ducta rectam lineam AC non ductam per centrum bifariam ſecat, et ad rectos angulos ipſam ſecabitᵇ;
+
 [Margin]
 b. 3. 3.
 [/Margin]
+
+quare rectus eſt FEA angulus. rurſus quoniam recta linea FE rectam lineam BD non ductam per centrum bifariam ſecat, et ad angulos rectos ipſam ſecabitᵇ; rectus igitur angulus eſt FEB. oſtenſus autem eſt rectus et FEA; ergo FEA angulus ipſi FEB aequalis erit, minor majori, quod fieri non poteſt. non igitur AC, BD ſeſe bifariam ſecant. ſi igitur in circulo &c. Q. E. D.
 
 [Diagram: circle labelled A, B, C and D on the circumference, with centre F, intersection E, chords AC and BD, and line FE]
 

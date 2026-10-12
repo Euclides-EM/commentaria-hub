@@ -9,15 +9,27 @@ erit et reliqua ad reliquam ut ablata ad ablatam. hoc enim in ipſa demonſtrati
 
 Sit enim ut AB ad BE, ita CD ad DF; convertendo erit ut BA ad AE, ut DC ad CF.
 
-Quoniam enim ut AB ad BE, ita CD ad DF, dividendo ᵃ erit AE ad EB, ut CF ad FD; et invertendo ᵇ, BE ad EA, ut DF ad FC. Quare componendo ᶜ, erit BA ad AE, ut DC ad CF. ſi igitur &c. Q. E. D.
-
-[Diagram: two vertical lines labelled A, E, B and C, F, D]
+Quoniam enim ut AB ad BE, ita CD ad DF, dividendo ᵃ
 
 [Margin]
 a. 17. 5.
+[/Margin]
+
+erit AE ad EB, ut CF ad FD; et invertendo ᵇ,
+
+[Margin]
 b. B. 5.
+[/Margin]
+
+BE ad EA, ut DF ad FC. Quare componendo ᶜ,
+
+[Margin]
 c. 18. 5.
 [/Margin]
+
+erit BA ad AE, ut DC ad CF. ſi igitur &c. Q. E. D.
+
+[Diagram: two vertical lines labelled A, E, B and C, F, D]
 
 ## PROP. XX. THEOR.
 
@@ -25,13 +37,15 @@ c. 18. 5.
 
 Sint tres magnitudines A, B, C, et aliae ipſis numero aequales D, E, F, quae binae ſumptae ſunt in eadem ratione; ſit ſcilicet ut A ad B, ita D ad E; et ut B ad C, ita E ad F; major autem ſit A quam C. Dico et D quam F majorem eſſe; et ſi aequalis, aequalem; et ſi minor, minorem.
 
-Quoniam enim A major eſt quam C, alia vero utcunque eſt B, et major ad eandem majorem habet rationem quam minor ᵃ; habebit A ad B majorem rationem, quam
-
-[Diagram: three vertical lines labelled A, D; B, E; and C, F]
+Quoniam enim A major eſt quam C, alia vero utcunque eſt B, et major ad eandem majorem habet rationem quam minor ᵃ;
 
 [Margin]
 a. 8. 5.
 [/Margin]
+
+habebit A ad B majorem rationem, quam
+
+[Diagram: three vertical lines labelled A, D; B, E; and C, F]
 
 <!-- Signature: X -->
 <!-- Catchword: C ad -->

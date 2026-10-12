@@ -1,11 +1,13 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 256 -->
 
+NV æquale eritᶜ;
+
 [Margin]
 c. C. 11.
 [/Margin]
 
-NV æquale eritᶜ; et ſi baſis LF ſuperat NF baſim, et ſolidum LV ſolidum NV ſuperabit; et ſi minor, minus. quatuor igitur magnitudinibus exiſtentibus, duabus ſcilicet baſibus AF, FH, et duobus ſolidis AV, ED; baſis quidem AF et AV ſolidi ſumpta ſunt utcunque æque multiplicia, videlicet baſis LF et ſolidum LV; baſis vero FH et ED ſolidi
+et ſi baſis LF ſuperat NF baſim, et ſolidum LV ſolidum NV ſuperabit; et ſi minor, minus. quatuor igitur magnitudinibus exiſtentibus, duabus ſcilicet baſibus AF, FH, et duobus ſolidis AV, ED; baſis quidem AF et AV ſolidi ſumpta ſunt utcunque æque multiplicia, videlicet baſis LF et ſolidum LV; baſis vero FH et ED ſolidi
 
 [Diagram: ſegmented parallelepiped labelled X, Z, L, K, O, P, B, A, Y, R, G, E, F, V, I, D, H, C, U, M, Q, N, T, S]
 

@@ -13,10 +13,12 @@ Sumantur enim ipſarum A, C, E utcunque aeque multiplices G, H, K, et ipſarum B
 
 [Diagram: twelve horizontal lines labelled G, H, K; A, C, E; B, D, F; L, M, N]
 
-quidem A, C, E aeque multiplices G, H, K, ipſarum vero B, D, F aliae aeque multiplices L, M, N; ſiᵃ G ſuperat L, et H ipſam M ſuperabit, et K ipſam N; et ſi aequalis, aequalis; et ſi minor, minor. Quare et ſi G ſuperat L, ſuperabunt et G, H, K ipſas L, M, N; et ſi aequalis, aequales; et ſi minor, minores. ſuntque G, et G, H, K ipſarum A, et A, C, E utcunque aeque multiplices, quoniam ſi fuerint quotcunque magnitudines quotcunque magnitudinum, aequalium numero,
+quidem A, C, E aeque multiplices G, H, K, ipſarum vero B, D, F aliae aeque multiplices L, M, N; ſiᵃ
 
 [Margin]
 a. 5. Def. 5.
 [/Margin]
+
+G ſuperat L, et H ipſam M ſuperabit, et K ipſam N; et ſi aequalis, aequalis; et ſi minor, minor. Quare et ſi G ſuperat L, ſuperabunt et G, H, K ipſas L, M, N; et ſi aequalis, aequales; et ſi minor, minores. ſuntque G, et G, H, K ipſarum A, et A, C, E utcunque aeque multiplices, quoniam ſi fuerint quotcunque magnitudines quotcunque magnitudinum, aequalium numero,
 
 <!-- Catchword: ſingulae -->

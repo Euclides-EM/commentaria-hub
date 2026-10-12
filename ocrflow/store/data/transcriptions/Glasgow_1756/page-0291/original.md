@@ -13,7 +13,6 @@ planis EDF, EDM, MDF quibus continetur angulus ſolidus ad D; erunt anguli ſoli
 
 [Margin]
 i. 13. 11.
-M.
 [/Margin]
 
 <!-- Catchword: PROP. XXXVI. -->

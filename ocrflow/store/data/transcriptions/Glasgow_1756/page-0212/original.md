@@ -11,14 +11,26 @@ COR. Ex hoc manifeſtum eſt, ſi tres rectae lineae proportionales fuerint, ut 
 
 Sint ſimilia polygona ABCDE, FGHKL, et ſit AB latus homologum ipſi FG. Dico polygona ABCDE, FGHKL in ſimilia triangula dividi, et numero aequalia et homologa totis; et polygonum ABCDE ad polygonum FGHKL duplicatam rationem habere ejus quam habet AB ad FG.
 
-Jungantur BE, EC, GL, LH. et quoniam ſimile eſt ABCDE polygonum polygono FGHKL, angulus BAE angulo GFL eſt aequalisᵃ, atque eſt ut BA ad AE, ita GF ad FLᵃ. quoniam igitur duo triangula ſunt ABE, FGL unum angulum uni angulo aequalem habentia, circum aequales autem angulos latera proportionalia; erit triangulum ABE triangulo FGL aequiangulumᵇ; ergo et ſimileᶜ. angulus igitur ABE aequalis eſt angulo FGL. eſt autem et totus ABC angulus aequalis toti FGHᵃ; propter
-
-[Diagram: two pentagons ABCDE and FGHKL divided into triangles, with a horizontal segment labelled M between them]
+Jungantur BE, EC, GL, LH. et quoniam ſimile eſt ABCDE polygonum polygono FGHKL, angulus BAE angulo GFL eſt aequalisᵃ,
 
 [Margin]
 a. 1. Def. 6.
+[/Margin]
+
+atque eſt ut BA ad AE, ita GF ad FLᵃ. quoniam igitur duo triangula ſunt ABE, FGL unum angulum uni angulo aequalem habentia, circum aequales autem angulos latera proportionalia; erit triangulum ABE triangulo FGL aequiangulumᵇ;
+
+[Margin]
 b. 6. 6.
+[/Margin]
+
+ergo et ſimileᶜ.
+
+[Margin]
 c. 4. 6.
 [/Margin]
+
+angulus igitur ABE aequalis eſt angulo FGL. eſt autem et totus ABC angulus aequalis toti FGHᵃ; propter
+
+[Diagram: two pentagons ABCDE and FGHKL divided into triangles, with a horizontal segment labelled M between them]
 
 <!-- Catchword: ſimilitudinem -->

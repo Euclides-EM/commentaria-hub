@@ -1,11 +1,13 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 275 -->
 
-dem EH eſt aequalis baſi FK; NP vero ipſi XR; erit ut FK baſis ad baſim XR, ita altitudo ſolidi CD ad ſolidi AB altitudinem. eaedem autem ſunt altitudines ſolidorum AB, BT, et ipſorum CD, DZ; eſt igitur ut FK baſis ad baſim XR, ita ſolidi DZ altitudo ad altitudinem ſolidi BT. quare ſolidorum BT, DZ parallelepipedorum baſes ſunt reciproce proportionales altitudinibus; ipſorum autem inſiſtentes ſunt ad rectos angulos baſibus; ergo, ut prius oſtenſum, BT ſolidum ſolido DZ eſt aequale. ſed ſolidum quidem BT aequaleᵍ eſt ſolido BA, ſolidum vero DZ eſt aequale ſolidoᵍ DC, ſiquidem in iiſdem ſunt baſibus, et eadem altitudine. Ergo et ſolidum AB ſolido CD eſt aequale.
+dem EH eſt aequalis baſi FK; NP vero ipſi XR; erit ut FK baſis ad baſim XR, ita altitudo ſolidi CD ad ſolidi AB altitudinem. eaedem autem ſunt altitudines ſolidorum AB, BT, et ipſorum CD, DZ; eſt igitur ut FK baſis ad baſim XR, ita ſolidi DZ altitudo ad altitudinem ſolidi BT. quare ſolidorum BT, DZ parallelepipedorum baſes ſunt reciproce proportionales altitudinibus; ipſorum autem inſiſtentes ſunt ad rectos angulos baſibus; ergo, ut prius oſtenſum, BT ſolidum ſolido DZ eſt aequale. ſed ſolidum quidem BT aequaleᵍ
 
 [Margin]
 g. 29. aut 30. 11.
 [/Margin]
+
+eſt ſolido BA, ſolidum vero DZ eſt aequale ſolidoᵍ DC, ſiquidem in iiſdem ſunt baſibus, et eadem altitudine. Ergo et ſolidum AB ſolido CD eſt aequale.
 
 Q. E. D.
 

@@ -9,11 +9,13 @@ Duo enim circuli ABC, ADE ſeſe intus contingant in puncto A, et ſumatur circu
 
 [Diagram: two internally tangent circles labelled A, B, C, D, E, F, G and H, with straight lines]
 
-Non enim; ſed ſi fieri poteſt, cadat ut FGDH, et AF, AG jungantur. itaque quoniam AG, GF majores ſunt quam FAᵃ hoc eſt quam FH, (eſt enim FA aequalis ipſi FH, nam ab eodem ſunt centro) communis auferatur FG, reliqua igitur AG major eſt quam reliqua GH. ſed AG eſt aequalis GD, ergo GD ipſâ GH eſt major, minor majore, quod fieri non poteſt. non igitur puncta F, G conjungens recta linea extra contactum A cadet. cadet igitur in ipſum. ſi igitur duo circuli &c. Q. E. D.
+Non enim; ſed ſi fieri poteſt, cadat ut FGDH, et AF, AG jungantur. itaque quoniam AG, GF majores ſunt quam FAᵃ
 
 [Margin]
 a. 20. 1.
 [/Margin]
+
+hoc eſt quam FH, (eſt enim FA aequalis ipſi FH, nam ab eodem ſunt centro) communis auferatur FG, reliqua igitur AG major eſt quam reliqua GH. ſed AG eſt aequalis GD, ergo GD ipſâ GH eſt major, minor majore, quod fieri non poteſt. non igitur puncta F, G conjungens recta linea extra contactum A cadet. cadet igitur in ipſum. ſi igitur duo circuli &c. Q. E. D.
 
 ## PROP. XII. THEOR.
 

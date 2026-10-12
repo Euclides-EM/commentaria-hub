@@ -1,23 +1,31 @@
 <!-- Page number: 218 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-lis, et triangulum GBC triangulo GCKᵉ aequale. et quoniam circumferentia BC circumferentiae CK eſt aequalis, et reliqua circumferentia quae complet totum circulum ABC aequalis eſt reliquae quae eundem circulum complet. quare et angulus BXC angulo COK eſt aequalisᵃ; ſimile igitur eſt BXC ſegmentum ſegmento COKᶠ; et ſunt ſuper aequalibus rectis lineis BC, CK. ſuper aequalibus autem rectis lineis ſimilia circulorum ſegmenta, inter ſe aequalia ſuntᵍ. Ergo ſegmentum BXC eſt aequale ſegmento COK. eſt autem et BGC triangulum triangulo CGK aequale. et totus igitur ſector BGC toti ſectori CGK aequalis erit. eadem ratione et KGL ſector utrique ipſorum BGC, CGK aequalis erit. ſimiliter et ſectores EHF, FHM, MHN inter ſe ſunt aequales.
+lis, et triangulum GBC triangulo GCKᵉ
 
 [Margin]
 e. 4. 1.
 [/Margin]
 
+aequale. et quoniam circumferentia BC circumferentiae CK eſt aequalis, et reliqua circumferentia quae complet totum circulum ABC aequalis eſt reliquae quae eundem circulum complet. quare et angulus BXC angulo COK eſt aequalisᵃ;
+
 [Margin]
 a. 27. 3.
 [/Margin]
+
+ſimile igitur eſt BXC ſegmentum ſegmento COKᶠ;
 
 [Margin]
 f. 11. Def. 3.
 [/Margin]
 
+et ſunt ſuper aequalibus rectis lineis BC, CK. ſuper aequalibus autem rectis lineis ſimilia circulorum ſegmenta, inter ſe aequalia ſuntᵍ.
+
 [Margin]
 g. 24. 3.
 [/Margin]
+
+Ergo ſegmentum BXC eſt aequale ſegmento COK. eſt autem et BGC triangulum triangulo CGK aequale. et totus igitur ſector BGC toti ſectori CGK aequalis erit. eadem ratione et KGL ſector utrique ipſorum BGC, CGK aequalis erit. ſimiliter et ſectores EHF, FHM, MHN inter ſe ſunt aequales.
 
 [Diagram: two circles; the left labelled A, B, C, G, K, L, O, X, and the right labelled D, E, F, H, M, N, with radii and chords]
 

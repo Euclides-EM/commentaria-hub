@@ -1,17 +1,21 @@
 <!-- Page number: 84 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+producta cadet in circulorum contactumᶜ;
+
 [Margin]
 c. 11. 3.
 [/Margin]
 
-producta cadet in circulorum contactumᶜ; ſed, in contactum non cadit, quia B, D puncta ſunt extra rectam GH, quod eſt abſurdum. non igitur circulus circulum intus contingit in pluribus punctis quam uno.
+ſed, in contactum non cadit, quia B, D puncta ſunt extra rectam GH, quod eſt abſurdum. non igitur circulus circulum intus contingit in pluribus punctis quam uno.
 
-Dico etiam neque extra contingere: ſi enim fieri poteſt circulum ABC contingat circulus AKC in pluribus punctis quam uno, videlicet in A, C, et AC jungatur. itaque quoniam in circumferentia circuli AKC ſumpta ſunt duo puncta A, C recta linea AC quae ipſa conjungit intra circulum AKC cadetᵃ. eſt autem circulus AKC extra circulum ABC; quare recta AC eſt extra ABC circulum; quoniam vero A, C puncta ſunt in circumferentia ipſius ABC circuli, recta AC eſt intraᵃ eundem, quod eſt abſurdum. non igitur circulus circulum extra contingit in pluribus punctis quam uno. oſtenſum autem eſt neque intus. circulus igitur circulum non contingit in pluribus punctis quam uno, ſive intus ſive extra contingit. Q. E. D.
+Dico etiam neque extra contingere: ſi enim fieri poteſt circulum ABC contingat circulus AKC in pluribus punctis quam uno, videlicet in A, C, et AC jungatur. itaque quoniam in circumferentia circuli AKC ſumpta ſunt duo puncta A, C recta linea AC quae ipſa conjungit intra circulum AKC cadetᵃ.
 
 [Margin]
 a. 2. 3.
 [/Margin]
+
+eſt autem circulus AKC extra circulum ABC; quare recta AC eſt extra ABC circulum; quoniam vero A, C puncta ſunt in circumferentia ipſius ABC circuli, recta AC eſt intraᵃ eundem, quod eſt abſurdum. non igitur circulus circulum extra contingit in pluribus punctis quam uno. oſtenſum autem eſt neque intus. circulus igitur circulum non contingit in pluribus punctis quam uno, ſive intus ſive extra contingit. Q. E. D.
 
 [Diagram: two circles intersecting at A and C, the upper labelled K and the lower labelled B, with line AC]
 

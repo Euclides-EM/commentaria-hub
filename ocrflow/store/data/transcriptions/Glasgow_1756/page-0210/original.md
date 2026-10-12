@@ -1,11 +1,21 @@
 <!-- Running title: LIBER SEXTUS. -->
 <!-- Page number: 197. -->
 
-GB, ut CF ad FD; ut vero GB ad GH, ita, propter aequiangula triangula BGH, DFE, eſt FD ad FE; erit ex aequali ᵈ AG ad GH, ut CF ad FE. ſimiliter oſtendetur AB ad BH, ut CD ad DE. et eſt GH ad HB, ut FE ad ED ᶜ. quoniam igitur aequiangula ſunt rectilinea, ABHG, CDEF, et latera circum aequales angulos proportionalia habent, erunt inter ſe ſimilia ᵉ.
+GB, ut CF ad FD; ut vero GB ad GH, ita, propter aequiangula triangula BGH, DFE, eſt FD ad FE; erit ex aequali ᵈ
 
 [Margin]
 d. 22. 5.
+[/Margin]
+
+AG ad GH, ut CF ad FE. ſimiliter oſtendetur AB ad BH, ut CD ad DE. et eſt GH ad HB, ut FE ad ED ᶜ.
+
+[Margin]
 c. 4. 6.
+[/Margin]
+
+quoniam igitur aequiangula ſunt rectilinea, ABHG, CDEF, et latera circum aequales angulos proportionalia habent, erunt inter ſe ſimilia ᵉ.
+
+[Margin]
 e. 1. Def. 6.
 [/Margin]
 

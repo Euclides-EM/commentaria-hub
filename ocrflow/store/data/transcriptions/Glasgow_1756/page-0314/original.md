@@ -11,11 +11,18 @@ Dividatur enim baſis quidem ABCDE in triangula ABC, ACD, ADE; baſis vero FGHKL
 
 [Diagram: two pyramids labelled A, B, C, D, E, M and F, G, H, K, L, N]
 
-vero communis vertex ſit punctum N. Quoniam igitur eſt ut triangulum ABC ad triangulum FGH, ita ABCM pyramis ad pyramidem FGHNᵃ; ut vero triangulum ACD ad triangulum FGH, ita ACDM pyramis ad pyramidem FGHN; et adhuc ut ADE triangulum ad triangulum FGH, ita pyramis ADEM ad pyramidem FGHN; erit ut omnes antecedentes primi ad communem conſequentem, ita omnes antecedentes reliqui ad conſequentem communemᵇ; hoc eſt erit ut baſis ABCDE ad baſim FGH, ita pyramis ABCDEM ad pyramidem FGHN. eademque ratione ut baſis FGHKL ad baſim FGH, ita erit pyramis FGHKLN ad pyramidem FGHN, et invertendo. Quoniam igitur ut
+vero communis vertex ſit punctum N. Quoniam igitur eſt ut triangulum ABC ad triangulum FGH, ita ABCM pyramis ad pyramidem FGHNᵃ;
 
 [Margin]
 a. 5. 12.
+[/Margin]
+
+ut vero triangulum ACD ad triangulum FGH, ita ACDM pyramis ad pyramidem FGHN; et adhuc ut ADE triangulum ad triangulum FGH, ita pyramis ADEM ad pyramidem FGHN; erit ut omnes antecedentes primi ad communem conſequentem, ita omnes antecedentes reliqui ad conſequentem communemᵇ;
+
+[Margin]
 b. 2. Cor. 24. 5.
 [/Margin]
+
+hoc eſt erit ut baſis ABCDE ad baſim FGH, ita pyramis ABCDEM ad pyramidem FGHN. eademque ratione ut baſis FGHKL ad baſim FGH, ita erit pyramis FGHKLN ad pyramidem FGHN, et invertendo. Quoniam igitur ut
 
 <!-- Catchword: baſis -->

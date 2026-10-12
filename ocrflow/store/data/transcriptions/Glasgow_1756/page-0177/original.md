@@ -1,22 +1,49 @@
 <!-- Page number: 162 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-C ad B. ſed ut D ad E, ita A ad B; ergo ᵇ et D ad E majorem habet rationem, quam C ad B. et quoniam eſt B ad C, ut E ad F, invertendo erit C ad B, ut F ad E; oſtenſa autem eſt D ad E majorem rationem habere quam C ad B; ergo ᶜ D ad E majorem habet rationem quam F ad E. ad eandem vero rationem habentium, quae majorem habet rationem illa major eſtᵈ. major igitur eſt D quam F.
+C ad B. ſed ut D ad E, ita A ad B; ergo ᵇ
 
-Secundo, Sit A aequalis ipſi C; erit et D aequalis ipſi F. Quoniam enim aequales ſunt A, C, et alia utcunque eſt B, erit ᵉ A ad B, ut C ad B. eſt autem A ad B, ut D ad E; et C ad B, ut F ad E; ergo ᶠ eſt D ad E, ut F ad E; et propterea ᵍ D aequalis eſt ipſi F.
+[Margin]
+b. 13. 5.
+[/Margin]
+
+et D ad E majorem habet rationem, quam C ad B. et quoniam eſt B ad C, ut E ad F, invertendo erit C ad B, ut F ad E; oſtenſa autem eſt D ad E majorem rationem habere quam C ad B; ergo ᶜ
+
+[Margin]
+c. Cor. 13. 5.
+[/Margin]
+
+D ad E majorem habet rationem quam F ad E. ad eandem vero rationem habentium, quae majorem habet rationem illa major eſtᵈ.
+
+[Margin]
+d. 10. 5.
+[/Margin]
+
+major igitur eſt D quam F.
+
+Secundo, Sit A aequalis ipſi C; erit et D aequalis ipſi F. Quoniam enim aequales ſunt A, C, et alia utcunque eſt B, erit ᵉ
+
+[Margin]
+e. 7. 5.
+[/Margin]
+
+A ad B, ut C ad B. eſt autem A ad B, ut D ad E; et C ad B, ut F ad E; ergo ᶠ
+
+[Margin]
+f. 11. 5.
+[/Margin]
+
+eſt D ad E, ut F ad E; et propterea ᵍ
+
+[Margin]
+g. 9. 5.
+[/Margin]
+
+D aequalis eſt ipſi F.
 
 Tertio, Sit A minor C, erit et D minor F. quoniam enim A minor eſt C, erit C major quam A. et quoniam ex hypotheſi, et invertendo, eſt C ad B, ut F ad E; et B ad A, ut E ad D; et eſt C major A; erit et F major D, per Caſum primum, et ob id erit D minor F. ſi igitur &c. Q. E. D.
 
 [Diagram: six vertical lines arranged in two groups, labelled A, B, C above D, E, F]
-
-[Margin]
-b. 13. 5.
-c. Cor. 13. 5.
-d. 10. 5.
-e. 7. 5.
-f. 11. 5.
-g. 9. 5.
-[/Margin]
 
 ## PROP. XXI. THEOR.
 

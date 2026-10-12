@@ -1,15 +1,19 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 78 -->
 
-Dico et a puncto F duas tantum rectas lineas aequales cadere in circumferentiam ABCD ad utraſque partes minimae FD. conſtituatur enim ad rectam lineam EF, et ad punctum in ea E, angulo GEF aequalis angulusᶜ FEH, et FH jungatur. Quoniam igitur GE eſt aequalis EH, communis autem EF, duae GE, EF duabus HE, EF aequales ſunt; et angulus GEF eſt aequalis angulo HEF; baſis igitur FG baſi FH aequalis eritᵈ. dico a puncto F ad circumferentiam non cadere aliam ipſi FG aequalem. ſi enim fieri poteſt, cadat FK, et quoniam FK eſt aequalis FG, eſtque ipſi FG aequalis FH, erit et FK ipſi FH aequalis, videlicet propinquior ei quae per centrum tranſit aequalis remotiori; quod fieri non poteſt. ſi igitur in circuli &c. Q. E. D.
+Dico et a puncto F duas tantum rectas lineas aequales cadere in circumferentiam ABCD ad utraſque partes minimae FD. conſtituatur enim ad rectam lineam EF, et ad punctum in ea E, angulo GEF aequalis angulusᶜ
 
 [Margin]
 c. 23. 1.
 [/Margin]
 
+FEH, et FH jungatur. Quoniam igitur GE eſt aequalis EH, communis autem EF, duae GE, EF duabus HE, EF aequales ſunt; et angulus GEF eſt aequalis angulo HEF; baſis igitur FG baſi FH aequalis eritᵈ.
+
 [Margin]
 d. 4. 1.
 [/Margin]
+
+dico a puncto F ad circumferentiam non cadere aliam ipſi FG aequalem. ſi enim fieri poteſt, cadat FK, et quoniam FK eſt aequalis FG, eſtque ipſi FG aequalis FH, erit et FK ipſi FH aequalis, videlicet propinquior ei quae per centrum tranſit aequalis remotiori; quod fieri non poteſt. ſi igitur in circuli &c. Q. E. D.
 
 [Diagram: circle labelled A, B, C, D, E, F, G, H and K, with diameter AD and intersecting lines]
 

@@ -1,11 +1,13 @@
 <!-- Running title: LIBER UNDECIMUS -->
 <!-- Page number: 285 -->
 
-latus uni lateri aequale, quod uni aequalium angulorum ſubtenditur, videlicet DY ipſi GS; dimidia enim ſunt ipſarum DE, BG. ergo et reliqua latera reliquis lateribus aequalia habebuntᵍ. quare DT quidem eſt aequalis TG, YT vero ipſi TS. Si igitur in ſolido &c. Q. E. D.
+latus uni lateri aequale, quod uni aequalium angulorum ſubtenditur, videlicet DY ipſi GS; dimidia enim ſunt ipſarum DE, BG. ergo et reliqua latera reliquis lateribus aequalia habebuntᵍ.
 
 [Margin]
 g. 26. 1.
 [/Margin]
+
+quare DT quidem eſt aequalis TG, YT vero ipſi TS. Si igitur in ſolido &c. Q. E. D.
 
 ## PROP. XL. THEOR.
 
@@ -17,10 +19,12 @@ Sint priſmata aeque alta ABCDEF, GHKLMN, quorum primum continetur duobus triang
 
 baſim habet parallelogrammum AF, alterum vero GHK triangulum, et duplum ſit AF parallelogrammum trianguli GHK. Dico priſma ABCDEF priſmati GHKLMN aequale eſſe.
 
-Compleantur enim AX, GO ſolida, et quoniam parallelogrammum AF trianguli GHK eſt duplum; eſt autem et HK parallelogrammum duplumᵃ trianguli GHK; erit AF parallelogrammum parallelo-
+Compleantur enim AX, GO ſolida, et quoniam parallelogrammum AF trianguli GHK eſt duplum; eſt autem et HK parallelogrammum duplumᵃ
 
 [Margin]
 a. 34. 1.
 [/Margin]
+
+trianguli GHK; erit AF parallelogrammum parallelo-
 
 <!-- Catchword: grammo -->

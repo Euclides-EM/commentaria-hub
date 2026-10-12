@@ -1,24 +1,33 @@
 <!-- Page number: 268 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-lelogrammis ſolidi CD aequalia et ſimilia ſunt. ſed tria tribus oppoſitis aequalia ſunt et ſimiliaᵃ. ſolidum igitur KO aequale eſt et ſimile ſolido CDᵇ.
+lelogrammis ſolidi CD aequalia et ſimilia ſunt. ſed tria tribus oppoſitis aequalia ſunt et ſimiliaᵃ.
 
 [Margin]
 a. 24. 11.
+[/Margin]
+
+ſolidum igitur KO aequale eſt et ſimile ſolido CDᵇ.
+
+[Margin]
 b. C. 11.
 [/Margin]
 
-compleatur GK parallelogrammum, et a baſibus quidem GK, KL parallelogrammis, altitudine vero eadem cum ipſo AB, ſolida compleantur EX, LP ita ſcilicet ut recta EH ſit una ex earum rectis inſiſtentibus. et quoniam ob ſimilitudinem ſolidorum AB, CD, et permutando, eſt ut AE ad CF, ita EG ad FN, et EH ad FR; aequalis autem FC ipſi EK, et FN ipſi EL, et FR ipſi EM; erit igitur ut AE ad EK, ita EG ad EL, et HE ad EM. ſed ut AE quidem ad EK, ita ᶜ AG parallelogrammum ad parallelogrammum GK; ut autem GE ad EL, ita GK ad KL; et ut HE ad EM, ita PE ad KM.
+compleatur GK parallelogrammum, et a baſibus quidem GK, KL parallelogrammis, altitudine vero eadem cum ipſo AB, ſolida compleantur EX, LP ita ſcilicet ut recta EH ſit una ex earum rectis inſiſtentibus. et quoniam ob ſimilitudinem ſolidorum AB, CD, et permutando, eſt ut AE ad CF, ita EG ad FN, et EH ad FR; aequalis autem FC ipſi EK, et FN ipſi EL, et FR ipſi EM; erit igitur ut AE ad EK, ita EG ad EL, et HE ad EM. ſed ut AE quidem ad EK, ita ᶜ
 
 [Margin]
 c. 1. 6.
 [/Margin]
 
-et ut igitur AG parallelogrammum ad parallelogrammum GK, ita GK ad KL, et PE ad KM. ſed ut AG quidem ad GK, ita AB ſolidum ad ſolidum EXᵈ; ut autem GK ad KL, ita ſolidum EX ad PL ſolidum; et ut PE ad KM, ita PL ſolidum ad ſolidum KO. et ut igitur ſolidum AB ad ſolidum EX, ita EX ad PL, et PL ad KO.
+AG parallelogrammum ad parallelogrammum GK; ut autem GE ad EL, ita GK ad KL; et ut HE ad EM, ita PE ad KM.
+
+et ut igitur AG parallelogrammum ad parallelogrammum GK, ita GK ad KL, et PE ad KM. ſed ut AG quidem ad GK, ita AB ſolidum ad ſolidum EXᵈ;
 
 [Margin]
 d. 25. 11.
 [/Margin]
+
+ut autem GK ad KL, ita ſolidum EX ad PL ſolidum; et ut PE ad KM, ita PL ſolidum ad ſolidum KO. et ut igitur ſolidum AB ad ſolidum EX, ita EX ad PL, et PL ad KO.
 
 [Diagram: two geometric solid constructions; the left labelled C, D, F, N and R, and the right labelled A, B, E, G, H, K, L, M, O, P and X]
 

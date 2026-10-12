@@ -1,17 +1,21 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 25 -->
 
-ipſis BE, EC majoraᵇ. rurſus quoniam CED trianguli duo latera CE, ED ſunt majora latere CD, communis apponatur DB; ſunt igitur CE, EB majora ipſis CD, DBᵇ. ſed oſtenſum eſt BA, AC majora eſſe BE, EC; multo igitur BA, AC, ipſis BD, DC majora ſunt.
+ipſis BE, EC majoraᵇ.
 
 [Margin]
 b. Ax. 4.
 [/Margin]
 
-Rurſus quoniam omnis trianguli exterior angulus interiore et oppoſito eſt majorᶜ, erit trianguli CDE exterior angulus BDC major ipſo CED. eadem ratione et trianguli ABE exterior angulus CEB ipſo BAC eſt major. ſed angulus BDC oſtenſus eſt major angulo CEB; multo igitur BDC angulus angulo BAC major erit. ſi igitur a terminis unius lateris &c. Q. E. D.
+rurſus quoniam CED trianguli duo latera CE, ED ſunt majora latere CD, communis apponatur DB; ſunt igitur CE, EB majora ipſis CD, DBᵇ. ſed oſtenſum eſt BA, AC majora eſſe BE, EC; multo igitur BA, AC, ipſis BD, DC majora ſunt.
+
+Rurſus quoniam omnis trianguli exterior angulus interiore et oppoſito eſt majorᶜ,
 
 [Margin]
 c. 16. 1.
 [/Margin]
+
+erit trianguli CDE exterior angulus BDC major ipſo CED. eadem ratione et trianguli ABE exterior angulus CEB ipſo BAC eſt major. ſed angulus BDC oſtenſus eſt major angulo CEB; multo igitur BDC angulus angulo BAC major erit. ſi igitur a terminis unius lateris &c. Q. E. D.
 
 [Diagram: triangle ABC with D and E on interior lines]
 

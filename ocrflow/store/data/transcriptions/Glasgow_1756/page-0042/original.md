@@ -1,15 +1,19 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 27 -->
 
-Sumantur in utraque ipſarum CD, CE quaevis puncta D, E, jungaturque DE; et ex tribus rectis lineis, quae aequales ſint tribus CD, DE, EC triangulum conſtituaturᵃ AFG, ita ut CD ſit aequalis AF, et CE ipſi AG, et DE ipſi FG. Quoniam igitur duae DC, CE duabus FA, AG aequales ſunt, altera alteri, et baſis DE eſt aequalis baſi FG; angulus DCE aequalis erit angulo FAGᵇ. Ad datam igitur rectam lineam AB, et ad datum in ea punctum A, dato angulo rectilineo DCE aequalis angulus rectilineus conſtitutus eſt FAG. Q. E. F.
+Sumantur in utraque ipſarum CD, CE quaevis puncta D, E, jungaturque DE; et ex tribus rectis lineis, quae aequales ſint tribus CD, DE, EC triangulum conſtituaturᵃ
 
 [Margin]
 a. 22. 1.
 [/Margin]
 
+AFG, ita ut CD ſit aequalis AF, et CE ipſi AG, et DE ipſi FG. Quoniam igitur duae DC, CE duabus FA, AG aequales ſunt, altera alteri, et baſis DE eſt aequalis baſi FG; angulus DCE aequalis erit angulo FAGᵇ.
+
 [Margin]
 b. 8. 1.
 [/Margin]
+
+Ad datam igitur rectam lineam AB, et ad datum in ea punctum A, dato angulo rectilineo DCE aequalis angulus rectilineus conſtitutus eſt FAG. Q. E. F.
 
 [Diagram: triangle CDE and triangle AFG, with AF extended to B]
 

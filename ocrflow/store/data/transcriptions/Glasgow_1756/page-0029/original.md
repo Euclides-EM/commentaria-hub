@@ -1,11 +1,13 @@
 <!-- Page number: 14 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-multo major erit. rurſus quoniam CB eſt aequalis ipſi DB, et angulus BDC aequalisᵃ erit angulo BCD; oſtenſus autem eſt ipſo major; quod fieri non poteſt.
+multo major erit. rurſus quoniam CB eſt aequalis ipſi DB, et angulus BDC aequalisᵃ
 
 [Margin]
 a. 5. 1.
 [/Margin]
+
+erit angulo BCD; oſtenſus autem eſt ipſo major; quod fieri non poteſt.
 
 Sed ſit alterutrius trianguli vertex, puta D, intra reliquum triangulum ACB; quoniam igitur AC eſt aequalis ipſi AD, erunt anguli ECD, FDC ſub baſi inter ſe aequalesᵃ; eſt autem angulus ECD major angulo BCD, quare FDC angulus major eſt angulo BCD; multo igitur angulus BDC major eſt angulo BCD. rurſus quoniam CB aequalis eſt ipſi DB, erit angulus BDC aequalis angulo BCDᵃ; oſtenſus autem eſt BDC angulus eodem BCD major. quod fieri non poteſt. caſus autem in quo vertex unius trianguli cadit in latus alterutrum reliqui demonſtratione non eget.
 

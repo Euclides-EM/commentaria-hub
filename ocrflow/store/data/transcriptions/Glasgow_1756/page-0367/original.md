@@ -1,11 +1,13 @@
 <!-- Page number: 354 -->
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
-## PROP. XV. et XVI. LIB. IV.
+#### PROP. XV. et XVI. LIB. IV.
 
 In Corollario primae harum deſunt voces "aequilatero et aequian- "gulo" in textu Graeco. et in Prop. 16. habetur circulus vice circumferentiae, ubi dicitur "quarum igitur partium eſt ABCDF circu- "lus."
 
-## DEF. III. LIB. V.
+[Curated heading level=3: LIB. V.]
+
+#### DEF. III. LIB. V.
 
 {dropcap:R|lines=2|style=plain}ECENTIORUM multi Definitionem hanc tanquam minime probam rejiciunt. fuſe eam explicavit vir doctiſſimus Iſaacus Barrow in fine Lect. 3. anni 1666, et, quantum ex natura rei fieri potuit, objectiones contra eam diluit, atque ita ſententiam ſuam in epilogo ejuſdem lectionis exponit.
 

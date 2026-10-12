@@ -1,11 +1,11 @@
 <!-- Page number: 360 -->
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
-## PROP. B. LIB. V.
+#### PROP. B. LIB. V.
 
 Haec etiam ex Definitione 5<sup>ta</sup> facile fluit, quare poſt praecedentem merito locatur. ineptiſſime enim poſita fuit ut Corollarium Prop. 4. Lib. hujus. Vid. Notam ad Cor. ejus Prop.
 
-## PROP. C. LIB. V.
+#### PROP. C. LIB. V.
 
 Propoſitio haec ſaepius a Geometris uſurpatur, et neceſſaria eſt Prop. 5<sup>tae</sup> et 6<sup>tae</sup> Lib. 10. Clavius in notis poſt Def. 8. Lib. 5. eam, in numeris tantum, oſtendit ope quarundam Propoſitionum Libri 7. ut ſc. Definitionem 5. Lib. 5. quatenus numeris congruit, ex eâ numerorum proportionalium quae habetur in Def. 20. Lib. 7. demonſtret. plerique autem Commentatores exiſtimant difficile eſſe oſtendere quatuor magnitudines quae proportionales ſunt ſecundum Def. 20. Lib. 7. proportionales quoque eſſe ſecundum Def. 5. Lib. 5. Verum hoc facile ut ſequitur oſtendi poteſt.
 

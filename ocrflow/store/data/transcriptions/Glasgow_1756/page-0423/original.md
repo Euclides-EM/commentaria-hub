@@ -1,5 +1,5 @@
 <!-- Page number: 410 -->
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
 referenda igitur ſunt ea verba ad τὸ ϛερεὸν πολύεδρον, et vertenda " in ma" jori ſphaera ſolidum polyedrum deſcribere cujus ſuperficies ſphaeram " minorem non attingat;" ut ſenſus Propoſitionis neceſſario requirit.
 
