@@ -15,6 +15,8 @@ Car le parallélogramme ABCD est équivalent au rectangle ABEF, qui a même base
 Fig. 97.
 [/Margin]
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc les parallélogrammes de même base sont entre eux comme leurs hauteurs, et les parallélogrammes de même hauteur sont entre eux comme leurs bases ; car si les bases sont égales, les produits des bases par les hauteurs seront comme les hauteurs ; et si les hauteurs sont égales, les produits des bases par les hauteurs seront comme les bases.
 
 ## PROPOSITION VI.
@@ -28,6 +30,8 @@ Car le triangle ABC est la moitié du parallélogramme ABCE, qui a même base BC
 [Margin]
 F. 104.
 [/Margin]
+
+[Curated heading level=4: Corollaire.]
 
 *Corollaire.* Donc deux triangles de même hauteur sont entre eux comme leurs bases, et deux triangles de même base sont entre eux comme leurs hauteurs.
 

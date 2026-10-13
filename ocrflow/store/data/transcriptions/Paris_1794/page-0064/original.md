@@ -11,6 +11,8 @@ Car s’il y avoit une seconde circonférence qui passât par les trois points d
 * 17. 1.
 [/Margin]
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Deux circonférences ne peuvent se rencontrer en plus de deux points ; car si elles avoient trois points communs, elles auroient le même centre et ne feroient qu’une seule et même circonférence.
 
 ## PROPOSITION VIII.
@@ -22,6 +24,8 @@ Car s’il y avoit une seconde circonférence qui passât par les trois points d
 [Margin]
 Fig. 53.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1°. Soit la corde AB=DE : menez du centre les perpendiculaires CF, CG, sur ces cordes, et tirez les rayons CA, CD.
 

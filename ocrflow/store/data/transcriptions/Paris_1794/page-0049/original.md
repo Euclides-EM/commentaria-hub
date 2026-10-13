@@ -22,6 +22,8 @@ Menez AC de sorte que les deux angles CAB, ABD, valent ensemble deux angles droi
 * Pr. 20.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Si les lignes AM et BD faisoient avec AB deux angles BAM, ABD, dont la somme fût plus grande que deux angles droits, alors les deux lignes AM, BD, ne se rencontreroient pas au-dessus de AB, mais elles se rencontreroient au-dessous : car les deux angles ABD, ABF, valent deux droits, les deux angles BAM, BAN, en valent deux aussi ; donc ces quatre
 
 <!-- Signature: B 3 -->

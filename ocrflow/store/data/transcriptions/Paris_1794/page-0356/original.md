@@ -11,6 +11,8 @@ Donc l’angle BAD croissant et devenant bAD, l’angle adjacent ADC décroît e
 
 Donc, tandis que les côtés du quadrilatere ABCD demeurent constants, si les angles varient, leurs variations seront alternativement en plus et en moins.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Si on désigne l’augmentation par le signe +, la diminution par le signe −, on peut dire, pour abréger, que si A est +, B sera −, C + et D −. Et en revenant à l’angle solide S directement, supposons que l’inclinaison sur l’arête SA augmente, ou qu’on ait SA +, alors on aura SB −, CS + et DS −. Il est donc impossible que les inclinaisons sur deux arêtes consécutives d’un angle solide quadruple varient toutes deux en plus ou toutes deux en moins.
 
 [Margin]

@@ -19,6 +19,8 @@ Cela posé, si la ligne AMB n’est pas plus petite que toutes celles qui l’en
 F. 163.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* On démontrera absolument de la même maniere qu’une ligne convexe et rentrante sur elle-même
 
 <!-- Signature: H 2 -->

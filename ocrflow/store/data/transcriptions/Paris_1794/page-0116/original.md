@@ -23,6 +23,8 @@ Joignez AC et BD : dans les triangles ACO, BOD, les angles en O sont égaux, l�
 
 AO : DO :: CO : OB.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc AO×OB=DO×CO ; donc le rectangle des deux parties de l’une des cordes est égal au rectangle des deux parties de l’autre.
 
 ## PROPOSITION XXIX.

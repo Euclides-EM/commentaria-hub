@@ -7,6 +7,8 @@ Ainsi dans le quadrilatere équiangle, chaque angle est droit ; dans le pentagon
 Fig. 43.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Si on vouloit appliquer la proposition présente à un polygone qui auroit un ou plusieurs angles rentrants, il faudroit considérer chaque angle rentrant comme étant plus grand que deux angles droits. Mais pour éviter tout embarras, nous ne considérerons ici et dans la suite que les polygones à angles saillants, qu’on peut appeler autrement *polygones convexes*. Tout polygone convexe est tel qu’une ligne droite menée comme on voudra ne peut rencontrer le contour de ce polygone qu’en deux points.
 
 ## PROPOSITION XXX.

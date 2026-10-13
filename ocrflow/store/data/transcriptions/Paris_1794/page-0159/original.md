@@ -14,9 +14,13 @@ o
 
 ## DÉFINITIONS.
 
+[Curated heading level=3 type=numbered_item: 1.]
+
 I. {dropcap:O|lines=1|style=plain}N appelle maximum la quantité la plus grande entre toutes celles de la même espece ; minimum la plus petite.
 
 Ainsi le diametre du cercle est un maximum entre toutes les lignes qui joignent deux points de la circonférence ; et la perpendiculaire est un minimum entre toutes les lignes menées d’un point donné à une ligne donnée.
+
+[Curated heading level=3 type=numbered_item: 2.]
 
 II. On appelle figures isopérimetres celles qui ont des périmetres égaux.
 

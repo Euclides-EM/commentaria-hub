@@ -23,4 +23,6 @@ Si la perpendiculaire AD tomboit au dehors du triangle, alors le ſolide décrit
 F. 267.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Le cercle dont A̅D̅ eſt le rayon a pour ſurface π × A̅D̅²; donc π × A̅D̅² × B̅C̅ eſt la meſure du cylindre décrit par BCEF, et π⁄3 × A̅D̅² × B̅C̅ eſt celle du ſolide décrit par le triangle ABC.

@@ -5,6 +5,8 @@ L’angle ADB=BCI, parcequ’ils sont inscrits dans le même segment AOB ; donc 
 
 Ajoutant les deux résultats trouvés, et observant que AI×BD+CI×BD=(AI+CI)×BD=AC×BD, on aura AD×BC+AB×CD=AC×BD.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* On peut démontrer de la même maniere un autre théorême sur le quadrilatere inscrit. Le triangle ABD, semblable à BIC, donne aussi la proportion BD:BC::AB:BI, d’où résulte BI×BD=BC×AB. Si on joint CO, le triangle ICO, semblable à ABI, sera semblable à BDC, et donnera la proportion BD:CO::DC:OI; d’où résulte OI×BD=CO×DC, ou, à cause de CO=AD, OI×BD=AD×DC; ajoutant les deux résultats, et observant que BI×BD+OI×BD se réduit à BO×BD, on aura
 
 BO×BD=AB×BC+AD×DC.

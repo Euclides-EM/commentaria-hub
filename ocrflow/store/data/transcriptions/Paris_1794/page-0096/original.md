@@ -15,6 +15,8 @@ Construisez le quarré ABIF, prenez AE = AC, menez CG parallèle à BI, HK paral
 
 Les deux rectangles CBIG, GLKD, ont chacun pour mesure AB × BC : si on les retranche de la figure entière ABILKEA qui a pour valeur AB² + BC², il est clair qu’il restera le quarré ACDE ; donc, etc.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Cette proposition revient à la formule d’algèbre (a — b)² = a² + b² — 2ab.
 
 ## PROPOSITION X.

@@ -5,7 +5,11 @@ ces triangles sont semblables, et les côtés homologues donnent la proportion
 
 OB : OC :: OD : OA.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc le rectangle OA×OB est égal au rectangle OC×OD.
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* On peut remarquer que cette proposition a beaucoup d’analogie avec la précédente, et qu’elles ne different qu’en ce que les deux cordes AB, CD, au lieu de se couper dans le cercle, se coupent au dehors. La proposition suivante peut encore être regardée comme un cas particulier de celle-ci.
 

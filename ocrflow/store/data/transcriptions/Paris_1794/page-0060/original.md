@@ -11,6 +11,8 @@ conservant la base commune AB, il faudra que la ligne courbe AEB tombe exactemen
 
 Car si aux extrémités de la corde AD on mene les rayons AC, CD, on aura AD < AC+CD, ou AD < AB.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc la plus grande ligne droite qu’on puisse inscrire dans un cercle est égale à son diametre.
 
 ## PROPOSITION III.

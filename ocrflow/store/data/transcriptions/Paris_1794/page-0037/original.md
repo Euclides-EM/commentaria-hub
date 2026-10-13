@@ -17,6 +17,8 @@ Car, puisque la ligne DE est droite, la somme des angles ACD, ACE, est égale à
 
 On démontreroit de même que l’angle ACE est égal à son opposé BCD.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Les quatre angles formés autour d’un point par deux droites qui se coupent valent ensemble quatre angles droits. Car les angles ACE, BCE, pris ensemble, valent deux angles droits ; et les deux autres ACD, BCD, ont la même valeur.
 
 En général, si tant de droites qu’on voudra CA, CB, etc. se rencontrent en un point C, la somme de tous les angles consécutifs ACB, BCD, DCE, ECF, FCA, sera égale à quatre angles droits.

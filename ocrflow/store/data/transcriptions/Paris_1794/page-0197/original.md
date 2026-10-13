@@ -3,6 +3,8 @@
 
 si on veut en construire un autre qui ait les mêmes angles et en même nombre, il faudra que les plans de celui-ci ne passent pas tous par les mêmes angles que dans le premier, sans quoi ils ne différeroient pas l’un de l’autre : mais alors il est clair que quelques uns des nouveaux plans couperoient le premier polyedre ; il y auroit des angles solides au-dessus de ces plans et des angles solides au-dessous, ce qui ne peut convenir à un polyedre convexe : donc si deux polyedres ont les mêmes angles et en même nombre, ils doivent nécessairement coïncider.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Etant donnés de position les points A, B, F, C, K, etc. qui doivent servir d’angles solides à un polyedre, il est facile de décrire le polyedre.
 
 [Margin]

@@ -7,6 +7,8 @@ Mais si le quatrieme terme de la proportion CA : OB :: *circ.* CA : X ne peut ê
 
 Un raisonnement et une construction entièrement semblables serviront à démontrer que les surfaces des cercles sont comme les quarrés de leurs rayons. Nous n’entrerons pas dans d’autres détails sur cette proposition qui d’ailleurs est un corollaire de la suivante.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Les arcs semblables AB, DE, sont comme les rayons AC, DO, et les secteurs semblables ACB, DOE, comme les quarrés de ces mêmes rayons.
 
 [Margin]

@@ -1,6 +1,8 @@
 <!-- Page number: 91 -->
 <!-- Running title: LIVRE III. -->
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Si on multiplie ces quantités égales par la même quantité BC, on aura AB×AC×BC=CE×AD×BC. Or AD×BC est le double de la surface du triangle * ; donc *le produit des trois côtés d’un triangle est égal à sa surface multipliée par le double du diametre du cercle circonscrit.*
 
 [Margin]
@@ -8,6 +10,8 @@
 [/Margin]
 
 Le produit de trois lignes s’appelle quelquefois un *solide*, par une raison qu’on verra ci-après. Sa valeur se conçoit aisément en imaginant que les lignes sont réduites en nombres, et multipliant les nombres dont il s’agit.
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* On peut démontrer aussi que *la surface d’un triangle est égale à son périmetre multiplié par la moitié du rayon du cercle inscrit.*
 

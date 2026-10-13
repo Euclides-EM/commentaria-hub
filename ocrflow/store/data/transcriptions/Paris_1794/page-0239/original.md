@@ -19,6 +19,8 @@ F. 226.
 
 Soit FAG un plan perpendiculaire à l’extrémité du rayon OA ; si on prend un point quelconque M sur ce plan et qu’on joigne OM et AM, l’angle OAM sera droit, et ainsi la distance OM sera plus grande que OA. Le point M est donc hors de la sphere ; et comme il en est de même de tout autre point du plan FAG, il s’ensuit que ce plan n’a que le seul point A commun avec la surface de la sphere ; donc il est tangent à cette surface.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* On peut prouver de même que deux spheres n’ont qu’un point commun, et sont par conséquent *tangentes* l’une à l’autre, lorsque la distance de leurs centres est égale à la somme ou à la différence de leurs rayons. Alors les centres et le point de contact sont en ligne droite.
 
 <!-- Signature: O 2 -->

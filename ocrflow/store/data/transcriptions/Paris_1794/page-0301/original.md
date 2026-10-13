@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE VIII. -->
 <!-- Page number: 273 -->
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Soit R le rayon d’une sphere, sa surface sera 4 π R², et sa solidité 4 π R² × ⅓ R, ou ⁴⁄₃ π R³. Si on appelle D le diametre, à cause de R = ½ D, on a R³ = ⅛ D³, et la solidité s’exprime aussi par ⁴⁄₃ π × ⅛ D³, ou ⅙ π D³.
 
 ## PROPOSITION XVI.

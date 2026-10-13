@@ -19,6 +19,8 @@ On peut pareillement retrancher l’angle B en substituant au triangle ABC le tr
 
 Le même procédé s’appliquera à toute autre figure ; car, en diminuant d’un à chaque fois le nombre des côtés, on finira par tomber sur le triangle équivalent.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Et puisque tout triangle peut être changé en un quarré équivalent, il s’ensuit qu’on trouvera toujours un quarré équivalent à une figure rectiligne donnée. C’est ce qu’on appelle quarrer la figure rectiligne ou en trouver la quadrature.
 
 Le problème de la quadrature du cercle consiste à trouver un quarré équivalent à un cercle dont le diamètre est donné.

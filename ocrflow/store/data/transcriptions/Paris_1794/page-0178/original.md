@@ -1,6 +1,8 @@
 <!-- Page number: 150 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Si deux plans parallèles MN, PQ, sont rencontrés par deux autres plans CABD, EABF, les angles CAE, DBF, formés par les intersections des plans parallèles, seront égaux; car l’intersection AC est parallèle à BD, AE à BF; donc l’angle CAE=DBF.
 
 ## PROPOSITION XIV.

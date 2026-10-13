@@ -23,4 +23,6 @@ Les angles de tous les triangles ASB, BSC, etc., formés autour du sommet S, pri
 
 Il suit de là que dans les triangles dont le sommet est en O tous les angles à la base pris ensemble sont plus petits que tous les angles à la base des triangles dont le sommet est en S ; donc par compensation la somme des angles formés autour du point O est plus grande que la somme des angles autour du point S. Mais la somme des angles autour du point O est égale à quatre angles droits ; donc la somme des angles plans qui forment l’angle solide S est moindre que quatre angles droits.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Cette démonstration suppose que l’angle solide est *convexe*, ou que le plan d’une face prolongé ne peut jamais couper l’angle solide ; s’il en étoit autrement, la somme des angles plans n’auroit plus de bornes et pourroit être d’une grandeur quelconque.

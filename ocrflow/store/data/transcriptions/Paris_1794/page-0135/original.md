@@ -7,11 +7,15 @@ homologues proportionnels; donc elles sont semblables*.
 *Def. 2.
 [/Margin]
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc les périmètres de deux polygones réguliers d’un même nombre de côtés sont entre eux comme les côtés homologues, et leurs surfaces comme les quarrés de ces côtés*.
 
 [Margin]
 * 27.
 [/Margin]
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* L’angle d’un polygone régulier se détermine par le nombre de ses côtés comme celui d’un polygone équiangle. *Voyez la propos. XXIX, liv. I.*
 

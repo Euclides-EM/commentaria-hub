@@ -23,6 +23,8 @@ Car leur somme est égale à AB, et leur rectangle AF × FB est égal au quarré
 
 donc ce rectangle est équivalent au quarré donné C.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Il faut, pour que le problême soit possible, que la distance AD n’excede pas le rayon, ou que le côté du quarré C n’excede pas la moitié de la ligne AB.
 
 ### PROBLÊME XVIII.

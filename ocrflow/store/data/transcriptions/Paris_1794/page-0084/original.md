@@ -15,6 +15,8 @@ Décrivez avec des rayons égaux les arcs CD, EF, qui servent de mesure à ces a
 * 17. 2.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* On peut ainsi trouver la valeur absolue d’un angle en comparant l’arc qui lui sert de mesure à toute la circonférence : par exemple, si l’arc CD est à la circonférence comme 3 est à 25, l’angle A sera les ³⁄₂₅ de quatre angles droits, ou ¹²⁄₂₅ d’un angle droit.
 
 Il pourra arriver aussi que les arcs comparés n’aient pas de commune mesure ; alors on n’aura pour les angles que des rapports en nombres plus ou moins approchés, selon que l’opération aura été poussée plus ou moins loin.

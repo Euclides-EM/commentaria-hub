@@ -29,6 +29,8 @@ Mais par conſtruction AF = circ. AO; donc DH = circ. DC. Cela poſé, le triang
 
 donc la ſurface du tronc de cône ADEB eſt égale à ſon côté AD multiplié par la demi-ſomme des circonférences de ſes deux baſes.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Par le point I, milieu de AD, menez IKL parallele à AB, et IM parallele à AF: on démontrera comme ci-deſſus que IM = circ. IK. Mais le trapeze ADHF = AD × IM = AD × circ. IK. Donc *la ſurface d’un tronc de cône eſt égale à ſon côté mul-*
 
 <!-- Signature: R 2 -->

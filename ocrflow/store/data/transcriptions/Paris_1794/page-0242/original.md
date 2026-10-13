@@ -9,6 +9,8 @@ Cette propriété doit être réciproque entre les deux triangles, puisqu’ils 
 F. 228.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Il faut remarquer qu’outre le triangle DEF on en pourroit former trois autres dont les angles seroient pareillement les poles des côtés du triangle ABC, car l’intersection de trois arcs donnés de position produit quatre triangles. Mais la proposition actuelle n’a lieu que pour le triangle central, qui est distingué des trois autres en ce que les deux angles A et D sont situés d’un même côté de BC, les deux B et E d’un même côté de AC, et les deux C et F d’un même côté de AB.
 
 On donne différens noms aux deux triangles ABC, DEF : le plus convenable paroît être celui de *triangles polaires*.

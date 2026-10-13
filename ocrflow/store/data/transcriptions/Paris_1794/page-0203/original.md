@@ -3,6 +3,8 @@
 
 parallèles, il s’ensuit qu’une face quelconque et son opposée peuvent être prises pour les bases du parallélépipede.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Etant données trois droites AB, AE, AD, non situées dans le même plan et faisant entre elles des angles donnés, on peut sur ces trois droites construire un parallélépipede AG ; il faut pour cela mener par l’extrémité de chaque droite un plan parallèle au plan des deux autres, savoir par le point B un plan parallèle à DAE, par le point D un plan parallèle à BAE, et par le point E un plan parallèle à BAD. Les rencontres mutuelles de ces plans formeront le parallélépipede demandé AG.
 
 ## PROPOSITION V.

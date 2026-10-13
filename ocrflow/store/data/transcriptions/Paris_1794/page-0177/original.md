@@ -3,6 +3,8 @@
 
 EGHF qui rencontrera les plans parallèles suivant EF et GH. Les intersections EF, GH, sont parallèles ainsi que EG, FH; donc la figure EGHF est un parallélogramme; donc EG=FH.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Il suit de là que *deux plans parallèles sont par-tout à égale distance*; car si EG et FH sont perpendiculaires aux deux plans MN, PQ, elles seront parallèles entre elles; donc elles seront égales.
 
 ## PROPOSITION XIII.

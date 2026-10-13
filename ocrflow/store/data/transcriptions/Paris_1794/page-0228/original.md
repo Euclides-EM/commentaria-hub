@@ -5,6 +5,8 @@ cens est égale à celle de leurs homologues. Donc les deux angles solides sont 
 
 Donc enfin deux polyedres semblables ont les faces homologues semblables et les angles solides homologues égaux.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Il suit de la démonstration précédente que si avec quatre angles solides d’un polyedre on forme une pyramide triangulaire, et aussi une pyramide avec les quatre angles homologues d’un polyedre semblable, ces deux pyramides seront semblables ; car elles auront les côtés homologues proportionnels.
 
 On voit en même temps que deux diagonales homologues, par exemple, AN, *an*, sont entre elles comme deux côtés homologues AB, *ab*.

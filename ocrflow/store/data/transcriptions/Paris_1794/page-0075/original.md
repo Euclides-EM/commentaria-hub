@@ -15,6 +15,8 @@ Prenez les points B et C à égale distance de A, ensuite des points B et C, com
 
 Car le point D, étant également éloigné de B et C, appartient à la perpendiculaire élevée sur le milieu de BC ; donc AD est cette perpendiculaire.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* La même construction sert à faire un angle droit BAD en un point donné A sur une ligne donnée BC.
 
 ### PROBLÊME III.

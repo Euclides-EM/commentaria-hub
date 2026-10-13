@@ -3,6 +3,8 @@
 
 deux parties ABHE + BHLK ; et la partie BHLK est égale au rectangle EDGF, car BH = ED et BK = EF ; donc AKLE = ABHE + EDGF. Or ces deux parties forment le quarré ABIF moins le quarré DHIG qui est le quarré fait sur BC : donc enfin (AB + BC) × (AB — BC) = AB² — BC².
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Cette proposition revient à la formule d’algèbre (a + b) (a — b) = a² — b².
 
 ## PROPOSITION XI.

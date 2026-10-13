@@ -17,6 +17,12 @@ Suivant les paralleles AP, DE, conduisez un plan dont l’intersection avec le p
 
 Suivant le corollaire du théorême précédent, BC est perpendiculaire au plan APDE ; donc l’angle BDE est droit : mais l’angle EDP est droit aussi, puisque AP est perpendiculaire à PD, et que DE est parallele à AP ; donc la ligne DE est perpendiculaire aux deux droites DP, DB ; donc elle est perpendiculaire à leur plan MN.
 
+[Curated heading level=4: Corollaire.]
+
+[Curated heading level=5 type=numbered_item: 1.]
+
 *Corollaire I.* Réciproquement si les droites AP, DE, sont perpendiculaires au même plan MN, elles seront paralleles ; car si elles ne l’étoient pas, conduisez par le point D une parallele à AP, cette parallele sera perpendiculaire au plan MN ; donc on pourroit par un même point D élever deux perpendiculaires à un même plan, ce qui est impossible.
+
+[Curated heading level=5 type=numbered_item: 2.]
 
 *Corollaire II.* Deux lignes A et B, paralleles à une troisième C, sont paralleles entre elles ; car imaginez

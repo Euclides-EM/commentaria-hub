@@ -9,6 +9,8 @@ DBE=C, tirez BO perpendiculaire à BE, et GO perpendiculaire sur le milieu de AB
 
 Car l’angle EBD est égal à son opposé ABF ; et puisque BF est perpendiculaire à l’extrémité du rayon OB, BF est une tangente, et l’angle ABF a pour mesure la moitié de l’arc AKB*, l’angle AMB a la même mesure ; donc l’angle AMB=EBD=C ; donc tous les angles inscrits dans le segment AMB sont égaux à l’angle donné C.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Si l’angle donné étoit droit, le segment cherché seroit le demi-cercle décrit sur le diamètre AB.
 
 ### PROBLÊME XVII.

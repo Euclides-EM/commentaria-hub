@@ -19,6 +19,8 @@ En effet si le centre de la sphère est supposé en O, on peut concevoir un angl
 * 22. 5.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* L’égalité de ces triangles n’est cependant pas une égalité absolue ou de superposition, car il seroit impossible de les appliquer l’un sur l’autre exac-
 
 <!-- Signature: O 4 -->

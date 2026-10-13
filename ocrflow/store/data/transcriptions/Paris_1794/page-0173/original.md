@@ -15,7 +15,11 @@ F. 185.
 
 Prenez DB=DC et joignez PB, PC, AB, AC : puisque DB=DC, l’oblique PB=PC ; et par rapport à la perpendiculaire AP, puisque PB=PC, l’oblique AB=AC ; donc la ligne AD a deux de ses points A et D également distants des extrémités B et C ; donc AD est perpendiculaire sur le milieu de BC.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* On voit en même temps que BC est perpendiculaire au plan APD, puisque BC est perpendiculaire à la fois aux deux droites AD, PD.
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* Les deux lignes AP, BC, offrent l’exemple de deux lignes qui ne se rencontrent point, parcequ’elles ne sont pas situées dans un même plan. La plus courte distance de ces lignes est la droite PD qui est à la fois perpendiculaire à la ligne AP et à la ligne BC. La distance PD est la plus courte entre ces deux lignes ; car si on joint deux autres points, comme A et B, la distance AB est plus grande que AD ; AD est plus grande que PD ; donc, à plus forte raison, AB > PD.
 

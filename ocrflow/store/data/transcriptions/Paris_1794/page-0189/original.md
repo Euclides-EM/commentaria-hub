@@ -5,6 +5,8 @@ lide. Or les deux triangles B′SA, BSA, sont rectangles en A, les angles en S s
 
 Lorsque le point O tombe entre A et B′ dans la figure plane, l’angle EAB devient obtus et mesure toujours la vraie inclinaison des plans. C’est pour cela que l’on a désigné par EAB et non par OAB l’inclinaison demandée, afin que la même solution convienne à tous les cas sans exception.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* On peut se demander si, en prenant trois angles à volonté, on pourra former avec ces trois angles plans un angle solide.
 
 D’abord il faut que la somme des trois angles donnés soit plus petite que quatre angles droits, sans quoi l’angle solide ne peut être formé ; il faut de plus qu’après avoir pris deux des angles à volonté B′SA, ASC, le troisieme CSB″ soit tel que la perpendiculaire B″C au côté SC rencontre le diamètre B′E entre ses extrémités B′ et E. Ainsi les limites de la grandeur de l’angle CSB″ sont celles qui font aboutir la perpendiculaire

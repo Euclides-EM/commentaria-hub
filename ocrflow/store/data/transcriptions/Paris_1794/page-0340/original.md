@@ -13,6 +13,8 @@ d’où l’on voit que *a*, *b*, *c*, ne peuvent pas être zéro à la fois, et
 
 Puisqu’on a *H* > 4 + ¹⁄₃ *ω*, la substitution dans les valeurs de *S* et de *A* donnera *S* > 4 + ²⁄₃ *ω* et *A* > 6 + *ω*. Mais en même temps *ω* < 3*H* − 12; et de là résulte *S* < 2*H* − 4, et *A* < 3*H* − 6; où l’on se souviendra que les signes > et < n’excluent pas l’égalité. Ces limites ont lieu généralement dans tous les polyèdres.
 
+[Curated heading level=3 type=numbered_item: 2.]
+
 2°. Supposons 2*A* > 4*S*, ce qui convient à une infinité de polyèdres, et nommément à ceux dont tous les angles solides sont formés de quatre plans ou plus, on aura dans ce cas *H* > 8 + *ω*, ou, en faisant la substitution,
 
 [Calculation]

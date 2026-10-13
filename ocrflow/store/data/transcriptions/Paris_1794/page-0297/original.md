@@ -7,7 +7,11 @@
 F. 269.
 [/Margin]
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Si le côté AC = CB, la ligne CI sera perpendiculaire à AB, l’aire ABC sera égale à AB × ¹⁄₂ CI, et la solidité ⁴⁄₃ π × ABC × IK deviendra ²⁄₃ π × AB × IK × CI. Mais les triangles ABO, CIK, sont semblables et donnent la proportion AB : BO ou MN :: CI : IK ; donc AB × IK = MN × CI ; donc le solide décrit par le triangle isoscèle ABC aura pour mesure ²⁄₃ π × MN × CI.
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* La démonstration précédente paroît supposer que la ligne AB prolongée rencontre l’axe ; mais les résultats n’en seroient pas moins vrais, quand la ligne AB seroit parallèle à l’axe.
 

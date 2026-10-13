@@ -7,6 +7,8 @@ La troisième opération, qui consiste à comparer AD avec AB, se réduira de m�
 
 De là il résulte que l’opération n’aura pas de fin, et qu’ainsi il n’y a pas de commune mesure entre la diagonale et le côté du quarré ; vérité qui étoit déjà connue par l’arithmétique ( puisque ces deux lignes sont entre elles :: √2 : 1 ), mais qui acquiert un plus grand degré de clarté par la résolution géométrique.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Il n’est donc pas possible non plus de trouver le rapport exact en nombres de la diagonale au côté du quarré ; mais on peut en approcher tant qu’on voudra au moyen de la fraction continue qui est égale à ce rapport. La premiere opération a donné pour quotient 1 ; la seconde et toutes les autres à l’infini donnent 2 ; ainsi la fraction dont il s’agit est
 
 [Calculation]

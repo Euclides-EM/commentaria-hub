@@ -3,6 +3,8 @@
 
 définition 18); donc les deux pyramides SABCDE, Sabcde, sont semblables.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Au lieu des cinq données requises par la définition pour que deux pyramides triangulaires soient semblables, on pourroit en substituer cinq autres, suivant différentes combinaisons, et il en résulteroit autant de théorêmes parmi lesquels on peut distinguer celui-ci : *Deux pyramides triangulaires sont semblables lorsqu’elles ont les côtés homologues proportionnels.*
 
 Car si on a les proportions AB:DE::BC:EF::

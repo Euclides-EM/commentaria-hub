@@ -19,6 +19,8 @@ Mais si du quadrilatere ABED on retranche le triangle ADF, il reste le parallél
 Fig. 97.
 [/Margin]
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc tout parallélogramme ABCD est équivalent au rectangle ABEF de même base et de même hauteur.
 
 ## PROPOSITION II.
@@ -36,5 +38,9 @@ Fig. 98.
 [/Margin]
 
 Car les triangles ABC, ACD, sont égaux *.
+
+[Curated heading level=4: Corollaire.]
+
+[Curated heading level=5 type=numbered_item: 1.]
 
 *Corollaire I.* Donc un triangle ABC est la moitié du rectangle BCEF qui a même base BC et même

@@ -15,6 +15,10 @@ Sur le prolongement de DC prenez CA égale au rayon du cercle circonscrit à une
 
 Car les triangles rectangles CDO, CAO, de la figure 249 sont égaux aux triangles de même nom dans la figure 248. Ainsi, tandis que CD et CA sont les rayons des cercles inscrit et circonscrit à une face du polyedre, OD et OA sont les rayons des spheres inscrite et circonscrite au même polyedre.
 
+[Curated heading level=4: Scholie.]
+
 Scholie. On peut tirer des propositions précédentes plusieurs conséquences.
+
+[Curated heading level=5 type=numbered_item: 1.]
 
 1°. Tout polyedre régulier peut être partagé en autant de pyramides régulières que le polyedre a de faces ; le sommet commun de ces pyramides sera le
