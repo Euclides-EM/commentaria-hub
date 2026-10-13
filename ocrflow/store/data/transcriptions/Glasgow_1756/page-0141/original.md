@@ -25,10 +25,12 @@ circulum igitur contingit unaquæque ipſarum AB, BC, CD, DE, EA, atque erit cir
 
 Sit datum pentagonum æquilaterum et æquiangulum ABCDE; oportet circa pentagonum ABCDE circulum circumſcribere.
 
-Secetur uterque angulorum BCD, CDE bifariamᵃ rectis lineis CF, FD, et a puncto F in quo conveniunt rectæ lineæ, ad puncta B, A, E ducantur FB, FA, FE. ſimiliter ut in antecedente oſtendetur unum-
+Secetur uterque angulorum BCD, CDE bifariamᵃ
 
 [Margin]
 a. 9. 1.
 [/Margin]
+
+rectis lineis CF, FD, et a puncto F in quo conveniunt rectæ lineæ, ad puncta B, A, E ducantur FB, FA, FE. ſimiliter ut in antecedente oſtendetur unum-
 
 <!-- Catchword: quemque -->

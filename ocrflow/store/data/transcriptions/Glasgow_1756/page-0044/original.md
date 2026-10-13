@@ -1,15 +1,19 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 29 -->
 
-aequalisᵃ. Non eſt autem; non igitur aequalis eſt BAC angulus angulo EDF. ſed neque minor; minor enim eſſet et baſis BC baſi EFᵇ. atqui non eſt; non igitur angulus BAC angulo EDF eſt minor. oſtenſum autem eſt neque aequalem eſſe; angulus igitur BAC angulo EDF major erit. ſi igitur duo triangula &c. Q. E. D.
+aequalisᵃ.
 
 [Margin]
 a. 4. 1.
 [/Margin]
 
+Non eſt autem; non igitur aequalis eſt BAC angulus angulo EDF. ſed neque minor; minor enim eſſet et baſis BC baſi EFᵇ.
+
 [Margin]
 b. 24. 1.
 [/Margin]
+
+atqui non eſt; non igitur angulus BAC angulo EDF eſt minor. oſtenſum autem eſt neque aequalem eſſe; angulus igitur BAC angulo EDF major erit. ſi igitur duo triangula &c. Q. E. D.
 
 [Diagram: triangles ABC and DEF]
 

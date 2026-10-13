@@ -5,11 +5,13 @@
 
 {dropcap:S|lines=2|style=plain}I duo trapezia ABCD, EFGH inſcripta ſint circulis quorum centra K, L puncta, fuerint autem latera AB, DC ut et EF, HG parallela; reliqua autem quatuor AD, BC, EH, FG inter ſe aequalia; ſit autem AB latus majus latere EF, et DC majus HG. erit recta KA quae eſt ex centro circuli in quo majora ſunt latera, major ea LE quae eſt ex centro alterius circuli.
 
-Non enim, ſi fieri poteſt, ſit KA major recta LE; erit igitur KA vel aequalis ipſi LE vel minor eâdem. ſit primo KA aequalis LE. quoniam igitur in aequalibus circulis rectae AD, BC aequales ſunt ipſis EH, FG, erunt circumferentiae AD, BC aequales circumferentiis EH, FGᵃ; quoniam vero rectae AB, DC majores ſunt ipſis EF, HG, altera
+Non enim, ſi fieri poteſt, ſit KA major recta LE; erit igitur KA vel aequalis ipſi LE vel minor eâdem. ſit primo KA aequalis LE. quoniam igitur in aequalibus circulis rectae AD, BC aequales ſunt ipſis EH, FG, erunt circumferentiae AD, BC aequales circumferentiis EH, FGᵃ;
 
 [Margin]
 a. 28. 3.
 [/Margin]
+
+quoniam vero rectae AB, DC majores ſunt ipſis EF, HG, altera
 
 [Figure: two circles, the left with centre K containing inscribed trapezium ABCD, the right with centre L containing inscribed trapezium EFGH and inner circle through points M, N, O, P]
 

@@ -1,19 +1,23 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 101 -->
 
-Et quoniam trianguli ABC duo anguli ABC, BAC duobus rectis ſunt minoresᵈ, rectus autem BAC, erit ABC angulus recto minor; atque eſt in ſegmento ABC majore ſemicirculo.
+Et quoniam trianguli ABC duo anguli ABC, BAC duobus rectis ſunt minoresᵈ,
 
 [Margin]
 d. 17. 1.
 [/Margin]
 
-Et quoniam in circulo quadrilaterum eſt ABCD, quadrilaterorum vero qui in circulis deſcribuntur, anguli oppoſiti duobus rectis ſunt aequalesᵉ, erunt ABC, ADC anguli aequales duobus rectis; et angulus ABC minor eſt recto, reliquus igitur ADC recto major erit; atque eſt in ſegmento ADC minore ſemicirculo. Q. E. D.
+rectus autem BAC, erit ABC angulus recto minor; atque eſt in ſegmento ABC majore ſemicirculo.
 
-[Diagram: circle ABCD with points A, B, C and D on the circumference, interior point E, F above A, and lines AB, AC, AD, AE, AF and BC]
+Et quoniam in circulo quadrilaterum eſt ABCD, quadrilaterorum vero qui in circulis deſcribuntur, anguli oppoſiti duobus rectis ſunt aequalesᵉ,
 
 [Margin]
 e. 22. 3.
 [/Margin]
+
+erunt ABC, ADC anguli aequales duobus rectis; et angulus ABC minor eſt recto, reliquus igitur ADC recto major erit; atque eſt in ſegmento ADC minore ſemicirculo. Q. E. D.
+
+[Diagram: circle ABCD with points A, B, C and D on the circumference, interior point E, F above A, and lines AB, AC, AD, AE, AF and BC]
 
 Et patet circumferentiam AB cadere extra rectam AB quae cum AC baſi ſc. ſegmenti continet angulum rectum verſus partes majoris ſegmenti ABC, circumferentiam vero AD cadere intra rectam AF quae cum eâdem AC angulum rectum continet verſus partes minoris ſegmenti ADC. ‘Et hoc, ‘nihilque aliud, intelligendum eſt quando in textu Graeco et verſionibus, ‘angulus ſegmenti majoris, major; angulus vero ſegmenti minoris ‘minor eſſe dicitur angulo recto.’
 

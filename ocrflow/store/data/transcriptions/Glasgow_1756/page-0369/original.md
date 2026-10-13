@@ -1,9 +1,9 @@
 <!-- Page number: 356 -->
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
 quentibus occurrunt, explicationem continent, qui quidem, paucis exceptis, ex ipſis Propoſitionibus hujus libri in quibus primò utuntur ſatis innoteſcunt; a Theone vel alio quodam additae videntur hae Definitiones. Utut ſit, eas paulo dictinctius tradere, Tyronum gratia, viſum eſt.
 
-## PROP. IV. LIB. V.
+#### PROP. IV. LIB. V.
 
 In conſtructione, demonſtrationi hujus praemiſſa, verba ἃ ἔτυχε, utcunque, bis omittuntur in textu Graeco, et verſione Latina; addita igitur ſunt, utpote omnino neceſſaria.
 

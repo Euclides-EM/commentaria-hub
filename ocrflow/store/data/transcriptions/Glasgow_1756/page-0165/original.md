@@ -1,11 +1,13 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 150 -->
 
-que ipſarum B, A quaedam aeque multiplices E, D, ita ut F ſuperet E, non vero ſuperet ipſam D. eſt igitur E minor quam D; et quoniam E, D ipſarum B, A ſunt aeque multiplices, eritᵇ B minor quam A. ad eandem igitur &c. Q. E. D.
+que ipſarum B, A quaedam aeque multiplices E, D, ita ut F ſuperet E, non vero ſuperet ipſam D. eſt igitur E minor quam D; et quoniam E, D ipſarum B, A ſunt aeque multiplices, eritᵇ
 
 [Margin]
 b. Ax. 4. 5.
 [/Margin]
+
+B minor quam A. ad eandem igitur &c. Q. E. D.
 
 ## PROP. XI. THEOR.
 
@@ -13,11 +15,13 @@ b. Ax. 4. 5.
 
 Sint enim ut A ad B, ita C ad D; ut autem C ad D, ita E ad F. Dico ut A ad B, ita E ad F.
 
-Sumantur enim ipſarum quidem A, C, E aeque multiplices quaevis G, H, K; ipſarum vero B, D, F aliae utcunque aeque multiplices, L, M, N. Quoniam igitur eſt ut A ad B, ita C ad D, et ſumptae ſunt ipſarum A, C aeque multiplices G, H; et ipſarum B, D aliae aeque multiplices L, M; ſi G ſuperat L, et H ipſam M ſuperabitᵃ; et ſi aequalis, aequalis; et ſi minor, minor.
+Sumantur enim ipſarum quidem A, C, E aeque multiplices quaevis G, H, K; ipſarum vero B, D, F aliae utcunque aeque multiplices, L, M, N. Quoniam igitur eſt ut A ad B, ita C ad D, et ſumptae ſunt ipſarum A, C aeque multiplices G, H; et ipſarum B, D aliae aeque multiplices L, M; ſi G ſuperat L, et H ipſam M ſuperabitᵃ;
 
 [Margin]
 a. 5. Def. 5.
 [/Margin]
+
+et ſi aequalis, aequalis; et ſi minor, minor.
 
 [Diagram: twelve horizontal lines labelled G, H, K; A, C, E; B, D, F; L, M, N]
 

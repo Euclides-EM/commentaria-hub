@@ -9,19 +9,23 @@ Sit enim ut A ad B, ita D ad E; ut vero B ad C, ita E ad F. erit ratio compoſit
 
 [Diagram: two rows labelled A, B, C and D, E, F]
 
-Quoniam enim tres ſunt magnitudines A, B, C et aliae ipſis numero aequales D, E, F quae binae ſumptae in eadem ſunt ratione, erit ᵃ ex aequali A ad C, ut D ad F.
+Quoniam enim tres ſunt magnitudines A, B, C et aliae ipſis numero aequales D, E, F quae binae ſumptae in eadem ſunt ratione, erit ᵃ
 
 [Margin]
 a. 22. 5.
 [/Margin]
 
-Rurſus ſit ut A ad B, ita E ad F; ut vero B ad C, ita D ad E; erit igitur ex aequali in proportione perturbata ᵇ, A ad C, ut D ad F, hoc eſt ratio A ad C, quae ſc. compoſita eſt ex rationibus A ad B, et B ad C, eadem eſt rationi D ad F, quae compoſita eſt ex rationibus D ad E, et E ad F. et ſimiliter ſi fuerint plures rationes in utroque caſu. Rationes igitur &c. Q. E. D.
+ex aequali A ad C, ut D ad F.
 
-[Diagram: two rows labelled A, B, C and D, E, F]
+Rurſus ſit ut A ad B, ita E ad F; ut vero B ad C, ita D ad E; erit igitur ex aequali in proportione perturbata ᵇ,
 
 [Margin]
 b. 23. 5.
 [/Margin]
+
+A ad C, ut D ad F, hoc eſt ratio A ad C, quae ſc. compoſita eſt ex rationibus A ad B, et B ad C, eadem eſt rationi D ad F, quae compoſita eſt ex rationibus D ad E, et E ad F. et ſimiliter ſi fuerint plures rationes in utroque caſu. Rationes igitur &c. Q. E. D.
+
+[Diagram: two rows labelled A, B, C and D, E, F]
 
 ## PROP. G. THEOR.
 

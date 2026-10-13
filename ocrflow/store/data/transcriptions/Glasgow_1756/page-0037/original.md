@@ -1,11 +1,13 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 22 -->
 
-neâ BC bifariam ſectâ, oſtendetur etiam BCG angulus, hoc eſt ACD angulus ᵈ angulo ABC major. Omnis igitur trianguli &c. Q. E. D.
+neâ BC bifariam ſectâ, oſtendetur etiam BCG angulus, hoc eſt ACD angulus ᵈ
 
 [Margin]
 d. 15. 1.
 [/Margin]
+
+angulo ABC major. Omnis igitur trianguli &c. Q. E. D.
 
 ## PROP. XVII. THEOR.
 
@@ -17,13 +19,19 @@ Sit triangulum ABC; dico ipſius ABC trianguli duos angulos quomodocunque ſumpt
 
 [Diagram: triangle ABC with side BC extended to D]
 
-Producatur enim BC ad D; et quoniam trianguli ABC exterior angulus eſt ACD, erit ACD major interiore et oppoſito ABCᵃ; communis apponatur ACB; anguli igitur ACD, ACB angulis ABC, ACB majores ſunt. ſed ACD, ACB ſunt aequales duobus rectisᵇ; anguli igitur ABC, BCA duobus rectis ſunt minores. ſimiliter oſtendemus angulos quoque BAC, ACB, itemque CAB, ABC duobus rectis minores eſſe. Omnis igitur trianguli &c. Q. E. D.
+Producatur enim BC ad D; et quoniam trianguli ABC exterior angulus eſt ACD, erit ACD major interiore et oppoſito ABCᵃ;
 
 [Margin]
 a. 16. 1.
+[/Margin]
 
+communis apponatur ACB; anguli igitur ACD, ACB angulis ABC, ACB majores ſunt. ſed ACD, ACB ſunt aequales duobus rectisᵇ;
+
+[Margin]
 b. 13. 1.
 [/Margin]
+
+anguli igitur ABC, BCA duobus rectis ſunt minores. ſimiliter oſtendemus angulos quoque BAC, ACB, itemque CAB, ABC duobus rectis minores eſſe. Omnis igitur trianguli &c. Q. E. D.
 
 ## PROP. XVIII. THEOR.
 
@@ -35,10 +43,12 @@ Sit triangulum ABC habens latus AC latere AB majus; dico et ABC angulum angulo B
 
 [Diagram: triangle ABC with point D on AC and line BD]
 
-Quoniam enim AC major eſt quam AB, ponatur ipſi AB aequalis ADᵃ, et BD
+Quoniam enim AC major eſt quam AB, ponatur ipſi AB aequalis ADᵃ,
 
 [Margin]
 a. 3. 1.
 [/Margin]
+
+et BD
 
 <!-- Catchword: jungatur. -->

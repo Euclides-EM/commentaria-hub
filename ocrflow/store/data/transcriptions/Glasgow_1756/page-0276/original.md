@@ -1,11 +1,13 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 263 -->
 
-BLPQ, CAOR in planis inter ſe parallelis. ſimiliter quoniam planum ALNG oppoſito plano CBKE parallelum eſt, et planum quidem ALNG illud eſt in quo ſunt parallelae AL, OPGN, in quo etiam eſt figura ALPO; planum vero CBKE eſt illud in quo ſunt parallelae CB, RQEK, in quo etiam eſt figura CBQR; erunt figurae ALPO, CBQR in planis inter ſe parallelis. et ſunt plana ACBL, ORQP inter ſe parallela; ſolidum igitur CP eſt parallelepipedum. ſolidum autem CM cujus baſis ACBL, et parallelogrammum ipſi oppoſitum FDHM, aequale eſtᵃ ſolido CP cujus baſis eſt parallelogrammum ACBL, et ei oppoſitum ORQP; in eadem enim ſunt baſi, et ipſorum inſiſtentes rectae AF, AO, CD, CR; LM, LP, BH, BQ ſunt in eiſdem rectis lineis FR, MQ. ſed ſolidum CP eſt aequaleᵃ ſolido CN, etenim in eadem ſunt baſi ACBL, et eorum inſiſtentes rectae AO, AG, LP, LN; CR, CE, BQ, BK ſunt in eiſdem rectis lineis ON, RK. Ergo ſolidum CM, ſolido CN aequale erit. Solida igitur parallelepipeda &c. Q. E. D.
+BLPQ, CAOR in planis inter ſe parallelis. ſimiliter quoniam planum ALNG oppoſito plano CBKE parallelum eſt, et planum quidem ALNG illud eſt in quo ſunt parallelae AL, OPGN, in quo etiam eſt figura ALPO; planum vero CBKE eſt illud in quo ſunt parallelae CB, RQEK, in quo etiam eſt figura CBQR; erunt figurae ALPO, CBQR in planis inter ſe parallelis. et ſunt plana ACBL, ORQP inter ſe parallela; ſolidum igitur CP eſt parallelepipedum. ſolidum autem CM cujus baſis ACBL, et parallelogrammum ipſi oppoſitum FDHM, aequale eſtᵃ
 
 [Margin]
 a. 29. 11.
 [/Margin]
+
+ſolido CP cujus baſis eſt parallelogrammum ACBL, et ei oppoſitum ORQP; in eadem enim ſunt baſi, et ipſorum inſiſtentes rectae AF, AO, CD, CR; LM, LP, BH, BQ ſunt in eiſdem rectis lineis FR, MQ. ſed ſolidum CP eſt aequaleᵃ ſolido CN, etenim in eadem ſunt baſi ACBL, et eorum inſiſtentes rectae AO, AG, LP, LN; CR, CE, BQ, BK ſunt in eiſdem rectis lineis ON, RK. Ergo ſolidum CM, ſolido CN aequale erit. Solida igitur parallelepipeda &c. Q. E. D.
 
 ## PROP. XXXI. THEOR.
 

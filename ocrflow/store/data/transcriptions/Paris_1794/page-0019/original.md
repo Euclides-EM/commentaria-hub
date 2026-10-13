@@ -1,4 +1,4 @@
-# ÉLÉMENTS DE GÉOMÉTRIE,
+# ÉLÉMENTS DE GÉOMÉTRIE.
 
 [Subhead]
 AVEC DES NOTES.

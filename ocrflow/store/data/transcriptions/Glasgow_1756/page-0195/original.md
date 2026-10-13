@@ -1,15 +1,37 @@
 <!-- Page number: 182 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-rurſus, quoniam aequalis eſt angulus ACB angulo DEC, parallela erit ᵉ AC ipſi FE. parallelogrammum igitur eſt FACD; ac propterea AF quidem ipſi CD, AC vero ipſi FD eſt aequalisᶠ. et quoniam uni laterum trianguli FBE, videlicet ipſi FE, parallela ducta eſt AC; erit ᵍ ut BA ad AF, ita BC ad CE. aequalis autem eſt AF ipſi CD; ut igitur ʰ BA ad CD, ita BC ad CE; et permutando ut AB ad BC, ita DC ad CE. rurſus, quoniam CD parallela eſt BF, erit ᵍ ut BC ad CE, ita FD ad DE. ſed FD eſt aequalis AC; ergo ut BC ad CE, ita AC ad DE. permutando igitur, ut BC ad CA, ita CE ad ED. itaque quoniam oſtenſum eſt, ut AB ad BC, ita DC ad CE; ut autem BC ad CA, ita CE ad ED; erit ⁱ ex aequali, ut BA ad AC, ita CD ad DE aequiangulorum igitur &c. Q. E. D.
+rurſus, quoniam aequalis eſt angulus ACB angulo DEC, parallela erit ᵉ
 
 [Margin]
 e. 28. 1.
+[/Margin]
+
+AC ipſi FE. parallelogrammum igitur eſt FACD; ac propterea AF quidem ipſi CD, AC vero ipſi FD eſt aequalisᶠ.
+
+[Margin]
 f. 34. 1.
+[/Margin]
+
+et quoniam uni laterum trianguli FBE, videlicet ipſi FE, parallela ducta eſt AC; erit ᵍ
+
+[Margin]
 g. 2. 6.
+[/Margin]
+
+ut BA ad AF, ita BC ad CE. aequalis autem eſt AF ipſi CD; ut igitur ʰ
+
+[Margin]
 h. 7. 5.
+[/Margin]
+
+BA ad CD, ita BC ad CE; et permutando ut AB ad BC, ita DC ad CE. rurſus, quoniam CD parallela eſt BF, erit ᵍ ut BC ad CE, ita FD ad DE. ſed FD eſt aequalis AC; ergo ut BC ad CE, ita AC ad DE. permutando igitur, ut BC ad CA, ita CE ad ED. itaque quoniam oſtenſum eſt, ut AB ad BC, ita DC ad CE; ut autem BC ad CA, ita CE ad ED; erit ⁱ
+
+[Margin]
 i. 22. 5.
 [/Margin]
+
+ex aequali, ut BA ad AC, ita CD ad DE aequiangulorum igitur &c. Q. E. D.
 
 [Diagram: geometric figure labelled F, A and B on the left, and D, C and E on the right]
 
@@ -19,10 +41,12 @@ i. 22. 5.
 
 Sint duo triangula ABC, DEF, quae latera proportionalia habeant, hoc eſt, ſit ut AB quidem ad BC, ita DE ad EF; ut autem BC ad CA, ita EF ad FD; et propterea ex aequali ut BA ad AC, ita ED ad DF. Dico triangulum ABC triangulo DEF aequiangulum eſſe, et aequales habere angulos quibus homologa latera ſubtenduntur. angulum quidem ABC angulo DEF, angulum vero BCA angulo EFD, et praeterea angulum BAC angulo EDF.
 
-Conſtituatur enim ᵃ ad rectam lineam EF et ad puncta in ipſa E, F,
+Conſtituatur enim ᵃ
 
 [Margin]
 a. 23. 1.
 [/Margin]
+
+ad rectam lineam EF et ad puncta in ipſa E, F,
 
 <!-- Catchword: angulo -->

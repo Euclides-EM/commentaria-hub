@@ -5,15 +5,17 @@
 
 [Diagram: vertical lines labelled E, F, G; A, C, B; L, K, H and D]
 
-Quoniam igitur L multiplex eſt ipſius D quae primò major ſit ipſâ FG, non erit K major quam FG, ideoque FG non minor erit quam K. et cum aeque multiplex ſit EF ipſius AC, atque FG ipſius CB, eritᵃ et FG aeque multiplex ipſius CB, atque EG ipſius AB; quare EG, FG ipſarum AB, CB ſunt aeque multiplices. oſtenſa autem fuit FG non minor quam K, et ex conſtructione, eſt EF major quam D; ergo tota EG utriſque ſimul K, D major erit. ſed utraque ſimul K, D aequales ſunt ipſi L; ſuperat igitur EG ipſam L; FG vero non ſuperat L; et ſunt EG, FG ip-
-
-[Diagram: vertical lines labelled E, F, G; A, C, B; L, K, H and D]
-
-[Diagram: vertical lines labelled E, F, G; A, C, B; L, K and D]
+Quoniam igitur L multiplex eſt ipſius D quae primò major ſit ipſâ FG, non erit K major quam FG, ideoque FG non minor erit quam K. et cum aeque multiplex ſit EF ipſius AC, atque FG ipſius CB, eritᵃ
 
 [Margin]
 a. 1. 5.
 [/Margin]
+
+et FG aeque multiplex ipſius CB, atque EG ipſius AB; quare EG, FG ipſarum AB, CB ſunt aeque multiplices. oſtenſa autem fuit FG non minor quam K, et ex conſtructione, eſt EF major quam D; ergo tota EG utriſque ſimul K, D major erit. ſed utraque ſimul K, D aequales ſunt ipſi L; ſuperat igitur EG ipſam L; FG vero non ſuperat L; et ſunt EG, FG ip-
+
+[Diagram: vertical lines labelled E, F, G; A, C, B; L, K, H and D]
+
+[Diagram: vertical lines labelled E, F, G; A, C, B; L, K and D]
 
 <!-- Signature: T 2 -->
 <!-- Catchword: ſarum -->

@@ -1,4 +1,4 @@
-<!-- Running title: P R A E F A T I O. -->
+<!-- Running title: PRAEFATIO. -->
 
 ſario corrigenda. quorum omnium ratio in Notis ad finem Libri reddetur.
 

@@ -9,21 +9,35 @@
 
 Sit data recta linea terminata AB, oportet vero ſuper recta AB triangulum aequilaterum conſtituere.
 
+Centro quidem A intervallo autem AB circulus deſcribaturᵃ
+
 [Margin]
 a. 3. Poſtulatum.
+[/Margin]
+
+BCD; et rurſus centro B, intervallo BA deſcribatur circulus ACE; et a puncto C, in quo circuli ſe invicem ſecant ad puncta A, B ducanturᵇ
+
+[Margin]
 b. 2. Poſt.
 [/Margin]
 
-Centro quidem A intervallo autem AB circulus deſcribaturᵃ BCD; et rurſus centro B, intervallo BA deſcribatur circulus ACE; et a puncto C, in quo circuli ſe invicem ſecant ad puncta A, B ducanturᵇ rectae CA, CB. erit ABC triangulum aequilaterum.
+rectae CA, CB. erit ABC triangulum aequilaterum.
 
 [Diagram: two intersecting circles labelled A, B, C, D and E, with triangle ABC]
 
+Quoniam igitur punctum A centrum eſt circuli BCD, erit AC ipſi AB aequalisᶜ;
+
 [Margin]
 c. 15. Definit.
+[/Margin]
+
+rurſus quoniam punctum B centrum eſt circuli CAE, erit BC aequalis rectae BA. oſtenſa autem eſt recta CA aequalis ipſi AB; utraque igitur ipſarum CA, CB, ipſi AB eſt aequalis. quae autem eidem ſunt aequalia, et inter ſe aequalia ſuntᵈ;
+
+[Margin]
 d. 1. Axioma.
 [/Margin]
 
-Quoniam igitur punctum A centrum eſt circuli BCD, erit AC ipſi AB aequalisᶜ; rurſus quoniam punctum B centrum eſt circuli CAE, erit BC aequalis rectae BA. oſtenſa autem eſt recta CA aequalis ipſi AB; utraque igitur ipſarum CA, CB, ipſi AB eſt aequalis. quae autem eidem ſunt aequalia, et inter ſe aequalia ſuntᵈ; recta igitur CA ipſi CB eſt aequalis. tres igitur CA, AB, BC inter ſe ſunt aequales. aequilaterum propterea eſt triangulum ABC, et conſtitutum eſt ſuper datâ recta linea terminata AB. Quod erat faciendum.
+recta igitur CA ipſi CB eſt aequalis. tres igitur CA, AB, BC inter ſe ſunt aequales. aequilaterum propterea eſt triangulum ABC, et conſtitutum eſt ſuper datâ recta linea terminata AB. Quod erat faciendum.
 
 ## PROP. II. PROB.
 

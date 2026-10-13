@@ -11,11 +11,18 @@ Compleantur enim parallelogramma AC, AG, GC ut et DF, DH, HF; compleanturque ſo
 
 [Diagram: two parallelepipeds containing pyramids, labelled A, B, C, G, K, L, M, N and D, E, F, H, O, P, R, X]
 
-et quoniam pyramis ABCG eſt aequalis pyramidi DEFH, atque eſt pyramidis quidem ABCG ſextuplum BGML ſolidum, pyramidis vero DEFH ſextuplum ſolidum EHPO; erit ſolidum BGML ſolido EHPO aequaleᵃ. aequalium autem ſolidorum parallelepipedorum baſes et altitudines ſunt reciproce proportionalesᵇ; eſt igitur ut BM baſis ad baſim EP, ita EHPO ſolidi altitudo ad altitudinem ſolidi BGML. ſed ut BM baſis ad baſim EP, ita ABC triangulum ad triangulum DEF; ergo et ut ABC triangulum ad triangulum DEF, ita ſolidi EHPO altitudo ad altitudinem
+et quoniam pyramis ABCG eſt aequalis pyramidi DEFH, atque eſt pyramidis quidem ABCG ſextuplum BGML ſolidum, pyramidis vero DEFH ſextuplum ſolidum EHPO; erit ſolidum BGML ſolido EHPO aequaleᵃ.
 
 [Margin]
 a. 1. Ax. 5.
+[/Margin]
+
+aequalium autem ſolidorum parallelepipedorum baſes et altitudines ſunt reciproce proportionalesᵇ;
+
+[Margin]
 b. 34. 11.
 [/Margin]
+
+eſt igitur ut BM baſis ad baſim EP, ita EHPO ſolidi altitudo ad altitudinem ſolidi BGML. ſed ut BM baſis ad baſim EP, ita ABC triangulum ad triangulum DEF; ergo et ut ABC triangulum ad triangulum DEF, ita ſolidi EHPO altitudo ad altitudinem
 
 <!-- Catchword: ſolidi -->

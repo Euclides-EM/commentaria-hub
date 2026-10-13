@@ -1,4 +1,4 @@
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 <!-- Page number: 359 -->
 
 parebat ei aliiſque qui confuſaneam et indiſtinctam proportionalium ideam apud vulgus receptam, ſubſtituunt loco accuratae ideae quae ex Definitione 5. Lib. 5. habetur. neque dubium eſt Eudoxum vel Euclidem qui hâc nihilo difficiliores 7<sup>timam</sup> ſc. et 9<sup>am</sup> hujus Libri demonſtratione munivit, etiam huic in Elementis locum dediſſe.

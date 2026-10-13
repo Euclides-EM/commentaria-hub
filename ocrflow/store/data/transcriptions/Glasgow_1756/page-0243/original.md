@@ -7,11 +7,13 @@
 
 Sint duae rectae lineae parallelae AB, CD, et in utraque ipſarum ſumantur quaelibet puncta E, F; dico rectam lineam quae conjungit E, F in eodem plano eſſe in quo ſunt parallelae.
 
-Non enim ſed, ſi fieri poteſt, ſit in ſublimi, ut EGF; et in plano ABCD, in quo ſunt parallelae, ducatur a puncto E ad F recta linea EHF; et recta ponitur EGF. Ergo duae rectae lineae EHF, EGF ſpatium continebunt, quod fieri non poteſtᵃ. non igitur quae a puncto E ad F ducitur recta linea in ſublimi eſt, quare erit in plano quod per AB, CD parallelas tranſit. Si igitur duae rectae &c. Q. E. D.
+Non enim ſed, ſi fieri poteſt, ſit in ſublimi, ut EGF; et in plano ABCD, in quo ſunt parallelae, ducatur a puncto E ad F recta linea EHF; et recta ponitur EGF. Ergo duae rectae lineae EHF, EGF ſpatium continebunt, quod fieri non poteſtᵃ.
 
 [Margin]
 a. 10. Ax. 1.
 [/Margin]
+
+non igitur quae a puncto E ad F ducitur recta linea in ſublimi eſt, quare erit in plano quod per AB, CD parallelas tranſit. Si igitur duae rectae &c. Q. E. D.
 
 [Diagram: parallel horizontal lines AB and CD, with points E and F joined by curved lines EGF and EHF]
 

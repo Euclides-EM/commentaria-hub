@@ -1,15 +1,19 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 41 -->
 
-grammi vero DBCF dimidium triangulum DBCᶜ, ipſum enim bifariam ſecat diameter DC. aequalium autem dimidia inter ſe aequalia ſuntᵈ; ergo triangulum ABC triangulo DBC eſt aequale. Triangula igitur ſuper eadem baſi &c. Q. E. D.
+grammi vero DBCF dimidium triangulum DBCᶜ,
 
 [Margin]
 c. 34. 1.
 [/Margin]
 
+ipſum enim bifariam ſecat diameter DC. aequalium autem dimidia inter ſe aequalia ſuntᵈ;
+
 [Margin]
 d. Ax. 7.
 [/Margin]
+
+ergo triangulum ABC triangulo DBC eſt aequale. Triangula igitur ſuper eadem baſi &c. Q. E. D.
 
 ## PROP. XXXVIII. THEOR.
 
@@ -25,19 +29,25 @@ a. 31. 1.
 
 [Diagram: geometric construction labelled G, A, D, H above and B, C, E, F below]
 
-parallelogrammum igitur eſt utrumque ipſorum GBCA, DEFH; atque eſt GBCA aequale ipſi DEFHᵇ; ſuper aequalibus enim ſunt baſibus BC, EF et in eiſdem parallelis BF, GH; parallelogrammi vero GBCA dimidium eſt ABC triangulum, nam diameter AB ipſum bifariam ſecat; et parallelogrammi DEFH dimidium eſt triangulum DEFᶜ, diameter enim DF ipſum ſecat bifariam. aequalium autem dimidia inter ſe aequalia ſuntᵈ; ergo ABC triangulum triangulo DEF eſt aequale. Triangula igitur ſuper aequalibus baſibus &c. Q. E. D.
+parallelogrammum igitur eſt utrumque ipſorum GBCA, DEFH; atque eſt GBCA aequale ipſi DEFHᵇ;
 
 [Margin]
 b. 36. 1.
 [/Margin]
 
+ſuper aequalibus enim ſunt baſibus BC, EF et in eiſdem parallelis BF, GH; parallelogrammi vero GBCA dimidium eſt ABC triangulum, nam diameter AB ipſum bifariam ſecat; et parallelogrammi DEFH dimidium eſt triangulum DEFᶜ,
+
 [Margin]
 c. 34. 1.
 [/Margin]
 
+diameter enim DF ipſum ſecat bifariam. aequalium autem dimidia inter ſe aequalia ſuntᵈ;
+
 [Margin]
 d. Ax. 7.
 [/Margin]
+
+ergo ABC triangulum triangulo DEF eſt aequale. Triangula igitur ſuper aequalibus baſibus &c. Q. E. D.
 
 <!-- Signature: F -->
 <!-- Catchword: PROP. XXXIX. -->

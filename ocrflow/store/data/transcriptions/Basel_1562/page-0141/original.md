@@ -6,7 +6,9 @@
 vom anfang vnd grund der Geometri.
 [/Subhead]
 
-Beſchreybungen/oder außlegung etlicher wörtlin.
+Beſchreybungen / oder außlegung etlicher wörtlin.
+
+[Curated heading level=3 type=margin_terms: Pars]
 
 [Margin]
 a Pars.
@@ -14,11 +16,13 @@ a Pars.
 
 [Curated heading level=3 type=numbered_item: 1.]
 
-1 {dropcap:E|lines=3|style=decorated}ß wirt ain tailᵃ genant/das klainer/ſo inn ainem gröſſeren gerad ettlich mall begreiffen wirt.
+1 {dropcap:E|lines=3|style=decorated}ß wirt ain tailᵃ genant / das klainer / ſo inn ainem gröſſeren gerad ettlich mall begreiffen wirt.
 
 [Curated heading level=3 type=numbered_item: 2.]
 
-2 Solliches gröſſers/inn welchem das klainer gerad ettlich mal begreiffen iſt/nennen wir ain Gantzesᵇ.
+2 Solliches gröſſers / inn welchem das klainer gerad ettlich mal begreiffen iſt / nennen wir ain Gantzesᵇ.
+
+[Curated heading level=3 type=margin_terms: Multiplex]
 
 [Margin]
 b Multiplex.
@@ -26,7 +30,9 @@ b Multiplex.
 
 [Curated heading level=3 type=numbered_item: 3.]
 
-3 So man zwar gleichförmige ding irer zal/oder gröſſe wegen (oder was vnder zal/vnd gröſſe begriffen/auch dadurch verſtanden wirt) gegen ainander haltett/oder ſchetzet:wirt ſolliche vergleichung oder gegenſatz ain Proporzᶜ genant.
+3 So man zwar gleichförmige ding irer zal / oder gröſſe wegen (oder was vnder zal / vnd gröſſe begriffen / auch dadurch verſtanden wirt) gegen ainander haltett / oder ſchetzet:wirt ſolliche vergleichung oder gegenſatz ain Proporzᶜ genant.
+
+[Curated heading level=3 type=margin_terms: λόγος, ratio, proportio]
 
 [Margin]
 c λόγος, ratio, proportio.
@@ -34,6 +40,6 @@ c λόγος, ratio, proportio.
 
 #### Warnung.
 
-{dropcap:D|lines=5|style=decorated}Jeſſenigen/ſo auß vnuerſtand/oder argwilligkait alle ding pflegen zůtadlen (deren zwar ſehr vil ſeind) ſollen wiſſen/dā ich von jret wegen diſe arbait nit angefangen/auch mich ires granens wenig bekümmere. Die verſtendigen aber vnd gůthertzigen/ſo ettwa auch Griechiſcher ſprach bericht/ſollen mir wiſſen im beſten zürechnen/das ich nitt allmal von wort zů wort dem Euclidi bin nachgangen/ſonder hab mich meiner freyhait nach erforderung der ſprach/vnd brauchs züreden (doch vnuerzůchten ſinn) beholffen/welches die glerten auch dem Campano vertragen haben/welcher gleichwol/vilmalß auch gar andere ordnung/vil weiß beim Euclide gebraucht/weder der Griechiſchen vnd vrſprung gleich thůt vermag. Das ich nit allmal neüwe wörtlin tichte/oder frembde brauch/ſonder der art meiner ſprach (dann jede ſprach hat jr aigen art vnd weiß züreden:welche von wort zů wort inn ainer andern/gar närriſch lautten wurde) vnnd wol bequemen gebrauch züreden nachuolge/thů ich dem Leſer zůgůt. Derhalben ich auch hie alſo gehandlet/vnd das wörtlin multiplex (ſo ſunſt Vilfältig haiſt) nit verteutſchen wöllen/noch es brauchen:ſonder an ſein ſtatt auß vrſachen/ſo volgen werden/geſetzt das wörtlin Ganz. Hab ich nit wöllen onanzäigt laſſen/dann ich wird es noch mehr müſſen alſo machen. Du ſolt auch wiſſen/das ich diſputierens alhie (deſſen wol anlaß genůg vorhanden) mich mitt flaiß überhaben/vnnd mich nach des Teütſchen leſers verſtand gerichtet hab. Belangend das wörtlin Proporz/dieweil ich khain bequemers finde/hab ichs mitt Campano gebraucht/iſt die vrſach Latiniſcher wörtlin hierin zůdulden inn der algemainen vorred angezeigt. Andere nennen diß zů Latein rationem (haiſſt auff Griechiſch λόγος) vnd was wir mitt Campano proportionalitatem/oder vergleichung der Proporzen nennen/haiſſet inen proportio,zů Griechiſch/ἀναλογία.
+{dropcap:D|lines=5|style=decorated}Jeſſenigen / ſo auß vnuerſtand / oder argwilligkait alle ding pflegen zůtadlen (deren zwar ſehr vil ſeind) ſollen wiſſen / dā ich von jret wegen diſe arbait nit angefangen / auch mich ires granens wenig bekümmere. Die verſtendigen aber vnd gůthertzigen / ſo ettwa auch Griechiſcher ſprach bericht / ſollen mir wiſſen im beſten zürechnen / das ich nitt allmal von wort zů wort dem Euclidi bin nachgangen / ſonder hab mich meiner freyhait nach erforderung der ſprach / vnd brauchs züreden (doch vnuerzůchten ſinn) beholffen / welches die glerten auch dem Campano vertragen haben / welcher gleichwol / vilmalß auch gar andere ordnung / vil weiß beim Euclide gebraucht / weder der Griechiſchen vnd vrſprung gleich thůt vermag. Das ich nit allmal neüwe wörtlin tichte / oder frembde brauch / ſonder der art meiner ſprach (dann jede ſprach hat jr aigen art vnd weiß züreden:welche von wort zů wort inn ainer andern / gar närriſch lautten wurde) vnnd wol bequemen gebrauch züreden nachuolge / thů ich dem Leſer zůgůt. Derhalben ich auch hie alſo gehandlet / vnd das wörtlin multiplex (ſo ſunſt Vilfältig haiſt) nit verteutſchen wöllen / noch es brauchen:ſonder an ſein ſtatt auß vrſachen / ſo volgen werden / geſetzt das wörtlin Ganz. Hab ich nit wöllen onanzäigt laſſen / dann ich wird es noch mehr müſſen alſo machen. Du ſolt auch wiſſen / das ich diſputierens alhie (deſſen wol anlaß genůg vorhanden) mich mitt flaiß überhaben / vnnd mich nach des Teütſchen leſers verſtand gerichtet hab. Belangend das wörtlin Proporz / dieweil ich khain bequemers finde / hab ichs mitt Campano gebraucht / iſt die vrſach Latiniſcher wörtlin hierin zůdulden inn der algemainen vorred angezeigt. Andere nennen diß zů Latein rationem (haiſſt auff Griechiſch λόγος) vnd was wir mitt Campano proportionalitatem / oder vergleichung der Proporzen nennen / haiſſet inen proportio,zů Griechiſch / ἀναλογία.
 
 <!-- Catchword: Jch -->

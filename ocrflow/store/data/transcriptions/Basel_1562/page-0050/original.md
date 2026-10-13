@@ -5,7 +5,7 @@
 Der fünfften Figur.
 [/Subhead]
 
-Erſtlich iſt daß rhomboides/deßen ſeitten oder lenge vnnd braitte ſeind 12 vnnd √180. durch den diameter in gleich tailt/laut der 34 propoſ. Demnach ſůch den begriff deß triangels √180. √180. 12. als deß halben parallelograms/ſouil ſolt auch der triangel 12. √544. √208. halten.
+Erſtlich iſt daß rhomboides / deßen ſeitten oder lenge vnnd braitte ſeind 12 vnnd √180. durch den diameter in gleich tailt / laut der 34 propoſ. Demnach ſůch den begriff deß triangels √180. √180. 12. als deß halben parallelograms / ſouil ſolt auch der triangel 12. √544. √208. halten.
 
 [Subhead]
 Volgt die rechnung.
@@ -45,7 +45,7 @@ Product √28288 − 152
 Product √28288 + 152
 [/Calculation]
 
-Multiplicier daß Binomium mitt ſeinem Reſiduo/kommen 5184. darauß √ iſt 72/deß triangels feldung/vnd halbtail deß parallelograms. Die ziffern der multiplicierung hab ich außgelaſſen/vnd ſchlechts die product geſetzt/darmitt du in dern probierung dich hetteſt zůueben.
+Multiplicier daß Binomium mitt ſeinem Reſiduo / kommen 5184. darauß √ iſt 72 / deß triangels feldung / vnd halbtail deß parallelograms. Die ziffern der multiplicierung hab ich außgelaſſen / vnd ſchlechts die product geſetzt / darmitt du in dern probierung dich hetteſt zůueben.
 
 <!-- Signature: C iij -->
 <!-- Catchword: Anhang -->

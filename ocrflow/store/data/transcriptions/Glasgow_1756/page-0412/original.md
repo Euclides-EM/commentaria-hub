@@ -1,9 +1,9 @@
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 <!-- Page number: 399 -->
 
 denda ſunt, ſimilia debent eſſe et aequalia; ut aequalitas ſolidorum ex Prop. C. Lib. 11. inferatur. et quidem in Editione Oxonienſi Corollarium adjectum eſt Prop. 24ᵗᵃᵉ, oſtendens parallelogramma, de quibus agitur in hac Propoſitione, ſimilia eſſe, ut ſolidorum aequalitas in Prop. 25. ex Def. 10. Lib. 11. oſtendatur.
 
-## PROP. XXV, et XXVI. LIB. XI.
+#### PROP. XXV, et XXVI. LIB. XI.
 
 In Propoſitione 25ᵗᵃ figurae ſolidae quae continentur planis ſimilibus, multitudine et magnitudine aequalibus, inter ſe aequales ponuntur. et videtur Theonem aut alium quendam ut taedium effugeret demonſtrandi figuras de quibus agitur in hac Propoſitione aequales eſſe, Definitionem decimam hujus Libri poſuiſſe vice demonſtrationis; quod quidem inſcite admodum factum eſt.
 

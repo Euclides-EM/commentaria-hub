@@ -98,6 +98,16 @@ const isNodeActive = (
   currentPage >= nodePage &&
   (endPage === undefined || currentPage < endPage || currentPage === nodePage)
 
+const hasNodeOnPage = (
+  nodes: NavigationIndexNode[],
+  currentPage: number,
+): boolean =>
+  nodes.some(
+    (node) =>
+      getPageNumber(node.location?.page) === currentPage ||
+      hasNodeOnPage(node.children ?? [], currentPage),
+  )
+
 const getActivePathKeys = (
   nodes: NavigationIndexNode[],
   currentPage: number,
@@ -107,7 +117,12 @@ const getActivePathKeys = (
     const endPage = getEndPage(nodes, index, parentEndPage)
     if (
       !node.children?.length ||
-      !isNodeActive(getPageNumber(node.location?.page), endPage, currentPage)
+      (!isNodeActive(
+        getPageNumber(node.location?.page),
+        endPage,
+        currentPage,
+      ) &&
+        !hasNodeOnPage(node.children, currentPage))
     )
       return []
     return [
@@ -241,14 +256,13 @@ export function IndexMenu({
       storageSync: false,
     },
   )
-  const [applyPrinterErrorCorrection, setApplyPrinterErrorCorrection] =
-    useLocalStorageState(
-      useScopedStorageKey('indexApplyPrinterErrorCorrection'),
-      {
-        defaultValue: false,
-        storageSync: false,
-      },
-    )
+  const [normalize, setNormalize] = useLocalStorageState(
+    useScopedStorageKey('indexNormalize'),
+    {
+      defaultValue: false,
+      storageSync: false,
+    },
+  )
   const {
     data: annotationIndex,
     isLoading,
@@ -257,7 +271,7 @@ export function IndexMenu({
     state.datasetId,
     state.annotationId,
     indexTypes,
-    applyPrinterErrorCorrection,
+    normalize,
   )
   const normalizedSearchTerm = searchTerm.trim()
   const navigationNodes = useMemo(
@@ -397,18 +411,18 @@ export function IndexMenu({
             <div className="flex items-center justify-end gap-2">
               <label
                 className="mr-auto flex cursor-pointer items-center gap-1 text-[0.65rem] text-gray-500 hover:text-gray-700"
-                title="Show printer error corrections instead of the printed text"
+                title="Apply printer error corrections and remove leading paragraph marks"
               >
                 <input
                   type="checkbox"
-                  checked={applyPrinterErrorCorrection}
+                  checked={normalize}
                   onChange={(event) => {
                     scrolledPageRef.current = null
-                    setApplyPrinterErrorCorrection(event.target.checked)
+                    setNormalize(event.target.checked)
                   }}
                   className="h-3 w-3 accent-gray-500"
                 />
-                Corrected
+                Normalized
               </label>
               <button
                 type="button"
@@ -429,7 +443,10 @@ export function IndexMenu({
               <button
                 type="button"
                 className="text-xs text-gray-700 hover:text-gray-900 disabled:text-gray-400 disabled:cursor-not-allowed"
-                onClick={() => setExpandedNodeKeys(new Set(expandableNodeKeys))}
+                onClick={() => {
+                  scrolledPageRef.current = null
+                  setExpandedNodeKeys(new Set(expandableNodeKeys))
+                }}
                 disabled={
                   expandableNodeKeys.length === 0 ||
                   allExpanded ||

@@ -1,5 +1,5 @@
 <!-- Page number: 400 -->
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
 Lib. 1. Sphaericorum, explicite demonſtrat triangula ſphaerica inter ſe aequilatera eſſe etiam inter ſe aequiangula; unde et ſibi mutuo congruere facile oſtendi poteſt, ſi ſcilicet eorum latera eodem ordine et ſitu diſpoſita fuerint.
 
@@ -7,11 +7,11 @@ Ad defectus igitur hos ſupplendos neceſſarium fuit tres Propoſitiones A, B, 
 
 Obſervandum eſt Andream Tacquet in Euclide ſuo definire angulos ſolidos aequales eſſe, " qui intra invicem poſiti congruunt." Propoſitio autem haec non eſt Definitio ſed Axioma; vera enim eſt de magnitudinibus quibuſcunque. poſuit autem Definitionem hanc inutilem ut ope ejus demonſtraret Prop. 36. hujus Libri ſine ope Prop. 35. ejuſdem. de qua demonſtratione vide Notam ad Prop. 36.
 
-## PROP. XXVIII. LIB. XI.
+#### PROP. XXVIII. LIB. XI.
 
 In hac oſtendi debuit diagonales eſſe in uno plano, non aſſumi. defectum hunc ſupplevit Clavius.
 
-## PROP. XXIX. LIB. XI.
+#### PROP. XXIX. LIB. XI.
 
 Hujus Propoſitionis tres ſunt caſus; primus ſcilicet in quo duo parallelogramma baſi AB oppoſita latus habent commune; ſecundus in quo parallelogramma haec a ſe invicem ſeparata ſunt, et tertius in quo ha-
 

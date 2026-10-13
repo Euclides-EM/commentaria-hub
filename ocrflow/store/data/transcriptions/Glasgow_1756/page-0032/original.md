@@ -1,13 +1,19 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 17 -->
 
-Quoniam enim DC eſt aequalis CE, et FC communis; duae DC, CF duabus EC, CF ſunt aequales, altera alteri; et baſis DF eſt aequalis baſi FE; angulus igitur DCF angulo ECF eſt aequalisᶜ, et ſunt deinceps. Quando autem recta linea ſuper rectâ lineâ inſiſtens, eos qui deinceps ſunt angulos aequales inter ſe fecerit, rectusᵈ eſt uterque aequalium angulorum; ergo uterque ipſorum DCF, FCE eſt rectus. Datae igitur rectae lineae AB, a puncto in ipſa dato C, ad rectos angulos ducta eſt recta linea FC. Q. E. F.
+Quoniam enim DC eſt aequalis CE, et FC communis; duae DC, CF duabus EC, CF ſunt aequales, altera alteri; et baſis DF eſt aequalis baſi FE; angulus igitur DCF angulo ECF eſt aequalisᶜ,
 
 [Margin]
 c. 8. 1.
+[/Margin]
 
+et ſunt deinceps. Quando autem recta linea ſuper rectâ lineâ inſiſtens, eos qui deinceps ſunt angulos aequales inter ſe fecerit, rectusᵈ
+
+[Margin]
 d. 10. Def. 1.
 [/Margin]
+
+eſt uterque aequalium angulorum; ergo uterque ipſorum DCF, FCE eſt rectus. Datae igitur rectae lineae AB, a puncto in ipſa dato C, ad rectos angulos ducta eſt recta linea FC. Q. E. F.
 
 [Diagram: triangle DFE with base points A, D, C, E, B and line FC from the apex F]
 

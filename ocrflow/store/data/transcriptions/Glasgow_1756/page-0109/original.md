@@ -13,11 +13,13 @@ Applicato enim ſegmento AEB ſegmento CFD, et poſito quidem puncto A in C, rec
 
 [Diagram: two circular segments on baselines AB and CD, labelled A, B, C, D, E and F]
 
-puncto D, propterea quod AB ipſi CD ſit aequalis. non igitur, congruente recta linea AB ipſi CD, non congruet ſegmentum AEB ſegmento CFDᵃ. congruet igitur et ipſi aequale erit. ſuper aequalibus igitur rectis lineis &c. Q. E. D.
+puncto D, propterea quod AB ipſi CD ſit aequalis. non igitur, congruente recta linea AB ipſi CD, non congruet ſegmentum AEB ſegmento CFDᵃ.
 
 [Margin]
 a. 23. 3.
 [/Margin]
+
+congruet igitur et ipſi aequale erit. ſuper aequalibus igitur rectis lineis &c. Q. E. D.
 
 ## PROP. XXV. PROB.
 
@@ -25,10 +27,12 @@ a. 23. 3.
 
 Sit datum circuli ſegmentum ABC; oportet deſcribere circulum cujus ABC eſt ſegmentum.
 
-Sectetur AC bifariamᵃ in D, et a puncto D ipſi AC ad rectos an-
+Sectetur AC bifariamᵃ
 
 [Margin]
 a. 10. 1.
 [/Margin]
+
+in D, et a puncto D ipſi AC ad rectos an-
 
 <!-- Catchword: gulos -->

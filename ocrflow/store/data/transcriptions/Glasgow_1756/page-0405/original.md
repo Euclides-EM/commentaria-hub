@@ -1,5 +1,5 @@
 <!-- Page number: 392 -->
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
 at major exceſſu earundem; ſumatur, erit igitur E major exceſſu ipſarum A, B; quare B et E ſimul majores ſunt quam A; eſt autem A non minor B, ergo A et E ſimul majores ſunt B. et, ex hypotheſi, A una cum B, non minor eſt quam C una cum D, C autem cum D major eſt quam E, igitur et A una cum B major eſt quam E.
 
@@ -7,7 +7,7 @@ Sit autem exceſſus ipſarum A, B major exceſſu ipſarum C, D; et quoniam, ex
 
 Et quoniam in utroque caſu E major eſt exceſſu ipſarum C, D, erit E una cum D major quam C; et, ex hypotheſi, C non minor eſt D, ergo E una cum C major erit quam D; eſt autem ex conſtructione C una cum D, major quam E. igitur ipſarum C, D, E duae quomodocunque ſumptae majores ſunt reliquâ. Q. E. F.
 
-## PROP. III. THEOREMA.
+#### PROP. III. THEOREMA.
 
 Fieri poteſt ut ex iiſdem quatuor angulis planis conſtituantur innumeri anguli ſolidi inter ſe inaequales.
 

@@ -1,19 +1,33 @@
 <!-- Page number: 260 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-ſunt hae parallelae; et inter ſe parallelae eruntᵇ. Dico igitur ſolidum AB a plano CDEF bifariam ſecari.
+ſunt hae parallelae; et inter ſe parallelae eruntᵇ.
 
 [Margin]
 b. 16. 11.
 [/Margin]
 
-Quoniam enim aequale eſt CGF triangulum triangulo CBF, triangulum vero DAE triangulo DHEᶜ; eſt autem et CA parallelogrammum parallelogrammo BE aequaleᵈ, oppoſitum enim eſt; et parallelogrammum GE parallelogrammo CH: erit priſma contentum duobus triangulis CGF, DAE, et tribus parallelogrammis CA, GE, EC aequale priſmati quod continetur duobus triangulis CBF, DHE, et tribus parallelogrammis BE, CH, ECᵉ; etenim planis ſimilibus, multitudine et magnitudine aequalibus, et ſimiliter poſitis continentur, et nullus ex ipſorum angulis ſolidis continetur pluribus quam tribus angulis planis. Ergo totum AB ſolidum a plano CDEF bifariam ſecatur. Q. E. D.
+Dico igitur ſolidum AB a plano CDEF bifariam ſecari.
+
+Quoniam enim aequale eſt CGF triangulum triangulo CBF, triangulum vero DAE triangulo DHEᶜ;
 
 [Margin]
 c. 34. 1.
+[/Margin]
+
+eſt autem et CA parallelogrammum parallelogrammo BE aequaleᵈ,
+
+[Margin]
 d. 24. 11.
+[/Margin]
+
+oppoſitum enim eſt; et parallelogrammum GE parallelogrammo CH: erit priſma contentum duobus triangulis CGF, DAE, et tribus parallelogrammis CA, GE, EC aequale priſmati quod continetur duobus triangulis CBF, DHE, et tribus parallelogrammis BE, CH, ECᵉ;
+
+[Margin]
 e. C. 11.
 [/Margin]
+
+etenim planis ſimilibus, multitudine et magnitudine aequalibus, et ſimiliter poſitis continentur, et nullus ex ipſorum angulis ſolidis continetur pluribus quam tribus angulis planis. Ergo totum AB ſolidum a plano CDEF bifariam ſecatur. Q. E. D.
 
 [Diagram: parallelepiped labelled A, B, C, D, E, F, G and H, divided by diagonal planes]
 

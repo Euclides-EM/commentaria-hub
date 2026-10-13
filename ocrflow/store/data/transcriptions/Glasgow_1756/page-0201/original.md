@@ -1,11 +1,13 @@
 <!-- Page number: 188 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-inter ſegmenta baſis: et praeterea inter baſim et baſis ſegmentum utrumlibet, latus ſegmento conterminum medium eſſe proportionale. eſt enim BD ad DA, ut DA ad DCᵇ, in triangulis aequiangulis BDA, ADC; et BC ad BA, ut BA ad BDᵇ, in triangulis aequiangulis ABC, DBA; et BC ad CA, ut CA ad CD, in triangulis aequiangulis ABC, DAC.
+inter ſegmenta baſis: et praeterea inter baſim et baſis ſegmentum utrumlibet, latus ſegmento conterminum medium eſſe proportionale. eſt enim BD ad DA, ut DA ad DCᵇ,
 
 [Margin]
 b. 4. 6.
 [/Margin]
+
+in triangulis aequiangulis BDA, ADC; et BC ad BA, ut BA ad BDᵇ, in triangulis aequiangulis ABC, DBA; et BC ad CA, ut CA ad CD, in triangulis aequiangulis ABC, DAC.
 
 ## PROP. IX. PROB.
 
@@ -19,13 +21,25 @@ Ducatur a puncto A quaedam recta linea AC, quae cum ipſa AB angulum quemlibet c
 
 [Diagram: triangle ABC with ED drawn parallel to BC]
 
-Itaque quoniam uni laterum trianguli ABC, videlicet ipſi BC, parallela ducta eſt ED; eritᵃ ut CD ad DA, ita BE ad EA; et componendoᵇ, ut CA ad AD, ita BA ad AE. eſt autem CA multiplex ipſius AD; ergo BA eadem eſt multiplex ipſius AEᶜ. quare quaecunque pars AD eſt ipſius AC, eadem pars erit AE ipſius AB; eſt igitur AE pars a recta AB abſcindenda. a data igitur recta linea AB imperata pars abſciſſa eſt. Quod facere oportebat.
+Itaque quoniam uni laterum trianguli ABC, videlicet ipſi BC, parallela ducta eſt ED; eritᵃ
 
 [Margin]
 a. 2. 6.
+[/Margin]
+
+ut CD ad DA, ita BE ad EA; et componendoᵇ,
+
+[Margin]
 b. 18. 5.
+[/Margin]
+
+ut CA ad AD, ita BA ad AE. eſt autem CA multiplex ipſius AD; ergo BA eadem eſt multiplex ipſius AEᶜ.
+
+[Margin]
 c. D. 5.
 [/Margin]
+
+quare quaecunque pars AD eſt ipſius AC, eadem pars erit AE ipſius AB; eſt igitur AE pars a recta AB abſcindenda. a data igitur recta linea AB imperata pars abſciſſa eſt. Quod facere oportebat.
 
 ## PROP. X. PROB.
 

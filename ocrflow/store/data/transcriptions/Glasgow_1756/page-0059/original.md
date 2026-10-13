@@ -3,27 +3,37 @@
 
 Sit datum triangulum ABC, datus autem rectilineus angulus D. itaque oportet, dato triangulo ABC aequale parallelogrammum conſtituere in angulo rectilineo ipſi D aequali.
 
-Secetur BC biſariamᵃ in E, jungatur AE, et ad rectam lineam EC atque ad punctum in ea E, conſtituatur angulus CEF aequalis ipſi Dᵇ; et per A quidem ipſi EC parallela ducatur AGᶜ, per C vero ipſi EF ducatur parallela CGᶜ. parallelogrammum igitur eſt FECG. et quoniam BE eſt aequalis EC, erit et ABE triangulum triangulo AEC aequaleᵈ, ſuper aequalibus enim ſunt baſibus BE, EC, et in eiſdem BC, AG parallelis; ergo triangulum ABC triangoli AEC eſt duplum. eſt autem et parallelogrammum FECG duplum trianguli AECᵉ, baſim enim eandem habet, et in eiſdem eſt parallelis. aequale igitur eſt FECG parallelogrammum triangulo ABC, habetque CEF angulum aequalem angulo D dato. Dato igitur triangulo ABC aequale parallelogrammum FECG conſtitutum eſt, in angulo CEF qui angulo D eſt aequalis. Q. E. F.
+Secetur BC biſariamᵃ
 
 [Margin]
 a. 10. 1.
 [/Margin]
 
+in E, jungatur AE, et ad rectam lineam EC atque ad punctum in ea E, conſtituatur angulus CEF aequalis ipſi Dᵇ;
+
 [Margin]
 b. 23. 1.
 [/Margin]
+
+et per A quidem ipſi EC parallela ducatur AGᶜ,
 
 [Margin]
 c. 31. 1.
 [/Margin]
 
+per C vero ipſi EF ducatur parallela CGᶜ. parallelogrammum igitur eſt FECG. et quoniam BE eſt aequalis EC, erit et ABE triangulum triangulo AEC aequaleᵈ,
+
 [Margin]
 d. 38. 1.
 [/Margin]
 
+ſuper aequalibus enim ſunt baſibus BE, EC, et in eiſdem BC, AG parallelis; ergo triangulum ABC triangoli AEC eſt duplum. eſt autem et parallelogrammum FECG duplum trianguli AECᵉ,
+
 [Margin]
 e. 41. 1.
 [/Margin]
+
+baſim enim eandem habet, et in eiſdem eſt parallelis. aequale igitur eſt FECG parallelogrammum triangulo ABC, habetque CEF angulum aequalem angulo D dato. Dato igitur triangulo ABC aequale parallelogrammum FECG conſtitutum eſt, in angulo CEF qui angulo D eſt aequalis. Q. E. F.
 
 [Diagram: geometric construction labelled A, F, G above and B, E, C below, with angle D at right]
 

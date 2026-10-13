@@ -23,11 +23,13 @@ Ergo ſolidum KO aequale eſt ſolido DH. atque eſt ſolidum quidem KO quod fit
 
 Sint quatuor rectae lineae proportionales AB, CD, EF, GH, ſit ſc. ut AB ad CD, ita EF ad GH; et deſcribantur ab ipſis ſimilia et ſimiliter poſita ſolida parallelepipeda AK, CL, EM, GN. Dico ut AK ad CL, ita eſſe EM ad GN.
 
-Fiant enim deinceps proportionalesᵃ AB, CD, O, P; ut et EF, GH, Q, R.
+Fiant enim deinceps proportionalesᵃ
 
 [Margin]
 a. 11. 6.
 [/Margin]
+
+AB, CD, O, P; ut et EF, GH, Q, R.
 
 Quoniam igitur eſt ut AB ad CD, ita EF ad GH; erit et CD ad O, ut GH ad Q; et O ad P, ut Q ad Rᵇ;
 

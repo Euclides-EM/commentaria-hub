@@ -1,15 +1,19 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 152 -->
 
-ſingulae ſingularum aeque multiplices; quam multiplex eſt una magnitudo unius, tam multiplicesᵇ erunt et omnes omnium. eadem ratione L, et L, M, N ipſarum B, et B, D, F ſunt utcunque aeque multiplices. Eſt igiturᵃ ut A ad B, ita A, C, E ad B, D, F. Quare ſi &c. Q. E. D.
+ſingulae ſingularum aeque multiplices; quam multiplex eſt una magnitudo unius, tam multiplicesᵇ
 
 [Margin]
 b. 1. 5.
 [/Margin]
 
+erunt et omnes omnium. eadem ratione L, et L, M, N ipſarum B, et B, D, F ſunt utcunque aeque multiplices. Eſt igiturᵃ
+
 [Margin]
 a. Def. 5. 5.
 [/Margin]
+
+ut A ad B, ita A, C, E ad B, D, F. Quare ſi &c. Q. E. D.
 
 ## PROP. XIII. THEOR.
 
@@ -21,10 +25,12 @@ Quoniam enim C ad D majorem habet rationem quam E ad F, ſunt quaedam ipſarum C
 
 [Diagram: twelve horizontal lines labelled M, G, H; A, C, E; B, D, F; N, K, L]
 
-quaedam aeque multiplices, ut multiplex quidem C ſuperet multiplicem D; multiplex vero E non ſuperet multiplicem ipſius Fᵃ. ſumantur, et ſint ipſarum C, E aeque multiplices G, H; et ipſarum D, F aliae aeque multiplices K, L; ita ut G quidem ſuperet K, H vero ipſam L non ſuperet; et quam multiplex eſt G ipſius C, tam multiplex fiat M ipſius A; quam multiplex autem eſt K ipſius D, tam multiplex fiat N ipſius
+quaedam aeque multiplices, ut multiplex quidem C ſuperet multiplicem D; multiplex vero E non ſuperet multiplicem ipſius Fᵃ.
 
 [Margin]
 a. 7. Def. 5.
 [/Margin]
+
+ſumantur, et ſint ipſarum C, E aeque multiplices G, H; et ipſarum D, F aliae aeque multiplices K, L; ita ut G quidem ſuperet K, H vero ipſam L non ſuperet; et quam multiplex eſt G ipſius C, tam multiplex fiat M ipſius A; quam multiplex autem eſt K ipſius D, tam multiplex fiat N ipſius
 
 <!-- Catchword: ipſius -->

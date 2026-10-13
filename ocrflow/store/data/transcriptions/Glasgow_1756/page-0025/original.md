@@ -1,11 +1,13 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 10 -->
 
-circuli, erit AE ipſi AD aequalis. ſed et recta C aequalis eſt ipſi AD; utraque igitur ipſarum AE, C ipſi AD aequalis erit. quare et recta AE ipſi C eſt aequalisᶜ. Duabus igitur datis rectis lineis inaequalibus AB et C, a majore AB minori C aequalis abſciſſa eſt. Quod erat faciendum.
+circuli, erit AE ipſi AD aequalis. ſed et recta C aequalis eſt ipſi AD; utraque igitur ipſarum AE, C ipſi AD aequalis erit. quare et recta AE ipſi C eſt aequalisᶜ.
 
 [Margin]
 c. Ax. 1.
 [/Margin]
+
+Duabus igitur datis rectis lineis inaequalibus AB et C, a majore AB minori C aequalis abſciſſa eſt. Quod erat faciendum.
 
 ## PROP. IV. THEOREMA.
 

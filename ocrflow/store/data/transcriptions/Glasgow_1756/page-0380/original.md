@@ -1,4 +1,4 @@
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 <!-- Page number: 367 -->
 
 " partem reperitur, ut puta ad partem primae A [et ſecundae B] vel " nuſquam. ſi primum; ergo (ex praemiſſis Euclideae majoris, ac " minoris Proportionis Definitione) habebit A ad B majorem aut " minorem proportionem, quam C ad D; prout GH multiplex tertiae C " minor fuerit, aut major ipſa LM multiplici quartae D. ſin vero " ſecundum; ergo ex una " quidem parte, v. g. ad ipſas A " primam, et B ſecundam, " contingere poterit, ut illa " multiplex EF minor ſit alterâ " multiplici IK, dum vice " verſa ex altera parte illa multiplex GH major eſt alterâ multiplici " LM. Tunc autem (ſub eadem Euclidea Definitione) ratio primae A " ad ſecundam B erit minor ratione tertiae C ad quartam D; aut vice " versâ.

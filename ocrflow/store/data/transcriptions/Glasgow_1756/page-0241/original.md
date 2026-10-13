@@ -7,13 +7,25 @@
 
 Recta linea quaedam AB tribus rectis lineis BC, BD, BE, in tactu B, ad rectos angulos inſiſtat; dico BC, BD, BE in uno plano eſſe.
 
-Non enim, ſed ſi fieri poteſt, ſint BD, BE quidem in ſubjecto plano, BC vero in ſublimi; et planum per AB, BC producatur; communem igitur ſectionem in ſubjecto plano faciet rectam lineamᵃ; faciat BF. in uno igitur ſint plano per AB, BC ducto, tres rectae lineae AB, BC, BF. et quoniam AB utrique ipſarum BD, BE, ad rectos angulos inſiſtit, et ducto per ipſas DB, BE plano ad rectos angulos eritᵇ; planum autem per DB, BE eſt ſubjectum planum; ergo AB ad ſubjectum planum recta eſt; quare et ad omnes rectas lineas ipſam tangentes, quae in eodem plano ſunt, rectosᶜ faciet angulos; ſed ipſam tangit BF in ſubjecto exiſtens plano. Ergo angulus ABF rectus eſt. ponitur autem et ABC angulus rectus; aequalis igitur eſt angulus ABF angulo ABC, et in eodem ſunt plano, quod fieri non poteſt. recta igitur linea BC non eſt in ſublimi; quare tres rectae lineae BC, BD, BE in uno ſunt plano. Si igitur recta linea &c. Q. E. D.
+Non enim, ſed ſi fieri poteſt, ſint BD, BE quidem in ſubjecto plano, BC vero in ſublimi; et planum per AB, BC producatur; communem igitur ſectionem in ſubjecto plano faciet rectam lineamᵃ;
 
 [Margin]
 a. 3. 11.
+[/Margin]
+
+faciat BF. in uno igitur ſint plano per AB, BC ducto, tres rectae lineae AB, BC, BF. et quoniam AB utrique ipſarum BD, BE, ad rectos angulos inſiſtit, et ducto per ipſas DB, BE plano ad rectos angulos eritᵇ;
+
+[Margin]
 b. 4. 11.
+[/Margin]
+
+planum autem per DB, BE eſt ſubjectum planum; ergo AB ad ſubjectum planum recta eſt; quare et ad omnes rectas lineas ipſam tangentes, quae in eodem plano ſunt, rectosᶜ
+
+[Margin]
 c. 3. Def. 11.
 [/Margin]
+
+faciet angulos; ſed ipſam tangit BF in ſubjecto exiſtens plano. Ergo angulus ABF rectus eſt. ponitur autem et ABC angulus rectus; aequalis igitur eſt angulus ABF angulo ABC, et in eodem ſunt plano, quod fieri non poteſt. recta igitur linea BC non eſt in ſublimi; quare tres rectae lineae BC, BD, BE in uno ſunt plano. Si igitur recta linea &c. Q. E. D.
 
 [Diagram: five straight lines meeting at B, labelled A, B, C, F, D and E]
 

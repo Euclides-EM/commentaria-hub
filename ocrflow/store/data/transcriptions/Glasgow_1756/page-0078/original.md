@@ -9,22 +9,30 @@ gulus qui ad D; ergo ex AD, DF quadrata dupla ſunt quadratorum ex AC, CD. eſt 
 
 Recta enim linea AB ſecetur bifariam in C, et ipſi in directum adjiciatur quaevis recta linea BD; dico quadrata ex AD, DB quadratorum ex AC, CD dupla eſſe.
 
-Ducatur enim a puncto C ipſi AB ad rectos angulosᵃ CE, et alterutri ipſarum AC, CB aequalis ponatur, junganturque AE, EB; et per E quidem ipſi AB parallela ducaturᵇ EF, per D vero ducatur DF parallelaᵇ ipſi CE. et quoniam in parallelas EC, FD recta quaedam linea EF incidit, anguli CEF, EFD aequales ſunt duobus rectisᶜ; anguli igitur BEF, EFD duobus rectis ſunt minores. quae vero cum aliqua recta angulos duobus rectis minores efficiunt, in infinitum productae inter ſe conveniuntᵈ. ergo EB, FD productae ad partes BD conveniunt; producantur, et conveniant in G, et AG jungatur. itaque quoniam AC eſt aequalis CE, erit et angulus CEA angulo EAC aequalisᵉ;
-
-[Diagram: triangle AEG with baseline A–C–B–D, perpendicular CE, rectangle CEFD, diagonals EB and AG, and EF and FD produced to G; labelled A, B, C, D, E, F and G]
+Ducatur enim a puncto C ipſi AB ad rectos angulosᵃ
 
 [Margin]
 a. 11. 1.
 [/Margin]
 
+CE, et alterutri ipſarum AC, CB aequalis ponatur, junganturque AE, EB; et per E quidem ipſi AB parallela ducaturᵇ
+
 [Margin]
 b. 31. 1.
 [/Margin]
+
+EF, per D vero ducatur DF parallelaᵇ ipſi CE. et quoniam in parallelas EC, FD recta quaedam linea EF incidit, anguli CEF, EFD aequales ſunt duobus rectisᶜ;
 
 [Margin]
 c. 29. 1.
 [/Margin]
 
+anguli igitur BEF, EFD duobus rectis ſunt minores. quae vero cum aliqua recta angulos duobus rectis minores efficiunt, in infinitum productae inter ſe conveniuntᵈ.
+
 [Margin]
 d. Ax. 12.
 [/Margin]
+
+ergo EB, FD productae ad partes BD conveniunt; producantur, et conveniant in G, et AG jungatur. itaque quoniam AC eſt aequalis CE, erit et angulus CEA angulo EAC aequalisᵉ;
+
+[Diagram: triangle AEG with baseline A–C–B–D, perpendicular CE, rectangle CEFD, diagonals EB and AG, and EF and FD produced to G; labelled A, B, C, D, E, F and G]

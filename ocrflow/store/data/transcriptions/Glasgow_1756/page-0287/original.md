@@ -1,11 +1,13 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 274 -->
 
-ſes eſſe reciproce proportionales altitudinibus, ſc. ut EH baſis ad baſim NP, ita eſſe altitudinem ſolidi CD ad ſolidi AB altitudinem. Quoniam enim ſolidum AB ſolido CD eſt aequale, ſolido autem AB aequale eſt ſolidum BTᵍ, in eadem namque ſunt baſi FK, et eadem altitudine; et ſolidum DC eſt aequale ſolido DZᵍ, in eadem enim rurſus ſunt baſi XR, et eadem altitudine; erit et ſolidum BT ſolido DZ aequale. aequalium autem ſolidorum parallelepipedorum, quorum inſiſtentes baſibus ipſorum ſunt ad rectos angulos, baſes ſunt reciproce proportionales altitudinibus, ut oſtenſum fuit. eſt igitur ut baſis FK ad baſim XR, ita ſolidi DZ altitudo ad altitudinem ſolidi BT. atque eſt baſis quidem FK
+ſes eſſe reciproce proportionales altitudinibus, ſc. ut EH baſis ad baſim NP, ita eſſe altitudinem ſolidi CD ad ſolidi AB altitudinem. Quoniam enim ſolidum AB ſolido CD eſt aequale, ſolido autem AB aequale eſt ſolidum BTᵍ,
 
 [Margin]
 g. 29. aut 30. 11.
 [/Margin]
+
+in eadem namque ſunt baſi FK, et eadem altitudine; et ſolidum DC eſt aequale ſolido DZᵍ, in eadem enim rurſus ſunt baſi XR, et eadem altitudine; erit et ſolidum BT ſolido DZ aequale. aequalium autem ſolidorum parallelepipedorum, quorum inſiſtentes baſibus ipſorum ſunt ad rectos angulos, baſes ſunt reciproce proportionales altitudinibus, ut oſtenſum fuit. eſt igitur ut baſis FK ad baſim XR, ita ſolidi DZ altitudo ad altitudinem ſolidi BT. atque eſt baſis quidem FK
 
 [Diagram: parallelepiped labelled A, B, E, F, G, H, K, L, S, T, V, Y]
 [Diagram: parallelepiped labelled C, D, I, M, N, O, P, Q, R, U, X, Z]

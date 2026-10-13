@@ -1,4 +1,4 @@
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 <!-- Page number: 393 -->
 
 lis A, B, E, reliquo ſint majores quomodocunque ſumpti, et etiam duo ex ipſis C, D, E quomodocunque ſumpti ſint majores reliquo. et quoniam A et B ſimul minores ſunt duobus rectis angulis, erunt A et B ſimul bis ſumpti minores quatuor rectis. ſunt autem A et B ſimul majores angulo E, quare A et B ſimul bis ſumpti majores erunt angulis A, B, E ſimul, qui propterea minores erunt quatuor rectis; et duo ex ipſis reliquo ſunt majores, quomodocunqe ſumpti; ergo ope Prop. 23. Lib. 11. conſtitui poteſt angulus ſolidus ex tribus angulis planis qui ipſis A, B, E, ſunt aequales. conſtituatur, ſitque angulus ſolidus ad F, contentus ſcilicet planis angulis GFH, HFK, GFK qui angulis A, B, E aequales ſunt, ſinguli ſingulis. et quoniam anguli C, D ſimul non

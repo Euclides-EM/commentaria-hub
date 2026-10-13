@@ -1,11 +1,13 @@
 <!-- Page number: 240 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM. -->
 
-eſt perpendicularis. angulus igitur ABF rectus eſt; ſed et GFB eſt rectus; ergo AB parallela eſt ipſi FGᵇ. eſt autem AB ſubjecto plano ad rectos angulos; et FG igitur eidem plano ad rectos angulos eritᶜ. at planum ad planum rectum eſt, quando communi planorum ſectioni ad rectos angulos ductae rectae lineae in uno planorum, reliquo plano ad rectos angulos ſuntᵈ; communi vero planorum ſectioni CE in uno plano DE ad rectos angulos ducta FG, oſtenſa eſt ſubjecto plano ad rectos eſſe angulos; ergo planum DE rectum eſt ad ſubjectum planum. ſimiliter demonſtrabuntur et omnia quae per AB tranſeunt plana ſubjecto plano recta eſſe. Si igitur recta linea &c. Q. E. D.
+eſt perpendicularis. angulus igitur ABF rectus eſt; ſed et GFB eſt rectus; ergo AB parallela eſt ipſi FGᵇ.
 
 [Margin]
 b. 28. 1. c. 8. 11. d. 4. Def. 11.
 [/Margin]
+
+eſt autem AB ſubjecto plano ad rectos angulos; et FG igitur eidem plano ad rectos angulos eritᶜ. at planum ad planum rectum eſt, quando communi planorum ſectioni ad rectos angulos ductae rectae lineae in uno planorum, reliquo plano ad rectos angulos ſuntᵈ; communi vero planorum ſectioni CE in uno plano DE ad rectos angulos ducta FG, oſtenſa eſt ſubjecto plano ad rectos eſſe angulos; ergo planum DE rectum eſt ad ſubjectum planum. ſimiliter demonſtrabuntur et omnia quae per AB tranſeunt plana ſubjecto plano recta eſſe. Si igitur recta linea &c. Q. E. D.
 
 [Diagram: two intersecting planes with labels D, G, A, H, K, C, F, B and E]
 

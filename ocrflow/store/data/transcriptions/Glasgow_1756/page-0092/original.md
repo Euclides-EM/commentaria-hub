@@ -9,14 +9,18 @@ Sit circulus ABCD, diameter autem ejus AD, et in ipſa AD ſumatur aliquod punct
 
 [Diagram: circle labelled A, B, C, D, E, F, G, H and K, with diameter AD and intersecting lines from E and F to the circumference]
 
-Jungantur enim BE, CE, GE; et quoniam omnis trianguli duo latera reliquo ſunt majoraᵃ, erunt BE, EF majores quam BF; eſt autem AE aequalis BE, ergo BE, EF ipſi AF ſunt aequales; major igitur eſt AF quam FB. rurſus quoniam BE eſt aequalis CE, communis autem FE; duae BE, EF duabus CE, EF aequales ſunt; ſed BEF angulus major eſt angulo CEF, baſis igitur BF baſi FC eſt majorᵇ. eadem ratione et CF major eſt quam FG. rurſus quoniam GF, FE majores ſunt quam EGᵃ, aequalis autem EG ipſi ED, erunt GF, FE majores quam ED. communis auferatur FE; ergo reliqua GF major eſt quam reliqua FD. maxima igitur eſt FA, et FD minima; major vero BF quam FC, et FC quam FG.
+Jungantur enim BE, CE, GE; et quoniam omnis trianguli duo latera reliquo ſunt majoraᵃ,
 
 [Margin]
 a. 20. 1.
 [/Margin]
 
+erunt BE, EF majores quam BF; eſt autem AE aequalis BE, ergo BE, EF ipſi AF ſunt aequales; major igitur eſt AF quam FB. rurſus quoniam BE eſt aequalis CE, communis autem FE; duae BE, EF duabus CE, EF aequales ſunt; ſed BEF angulus major eſt angulo CEF, baſis igitur BF baſi FC eſt majorᵇ.
+
 [Margin]
 b. 24. 1.
 [/Margin]
+
+eadem ratione et CF major eſt quam FG. rurſus quoniam GF, FE majores ſunt quam EGᵃ, aequalis autem EG ipſi ED, erunt GF, FE majores quam ED. communis auferatur FE; ergo reliqua GF major eſt quam reliqua FD. maxima igitur eſt FA, et FD minima; major vero BF quam FC, et FC quam FG.
 
 <!-- Catchword: Dico -->

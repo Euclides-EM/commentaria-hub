@@ -11,11 +11,18 @@ Compleantur enim parallelogramma ABCM, GBCN, ABGK, et ſolidum parallelepipedum 
 
 [Diagram: two parallelepipeds containing pyramids, labelled A, B, C, G, K, L, M, N and D, E, F, H, O, P, R, X]
 
-et quoniam pyramis ABCG ſimilis eſt pyramidi DEFH, erit angulus ABC angulo DEF aequalisᵃ, anguluſque GBC aequalis angulo HEF, et angulus ABG angulo DEH. atque eſt ut AB ad BC, ita DE ad EFᵇ, hoc eſt circum aequales angulos latera ſunt proportionalia; parallelogrammum igitur BM parallelogrammo EP ſimile erit. eadem ratione et parallelogrammum BN ſimile eſt parallelogrammo ER, et BK ipſi EX. tria igitur parallelogramma BM, BN, BK tribus EP, ER, EX ſunt ſimilia. ſed tria quidem BM, BN, BK tribus op-
+et quoniam pyramis ABCG ſimilis eſt pyramidi DEFH, erit angulus ABC angulo DEF aequalisᵃ,
 
 [Margin]
 a. 11. Def. 11.
+[/Margin]
+
+anguluſque GBC aequalis angulo HEF, et angulus ABG angulo DEH. atque eſt ut AB ad BC, ita DE ad EFᵇ,
+
+[Margin]
 b. 1. Def. 6.
 [/Margin]
+
+hoc eſt circum aequales angulos latera ſunt proportionalia; parallelogrammum igitur BM parallelogrammo EP ſimile erit. eadem ratione et parallelogrammum BN ſimile eſt parallelogrammo ER, et BK ipſi EX. tria igitur parallelogramma BM, BN, BK tribus EP, ER, EX ſunt ſimilia. ſed tria quidem BM, BN, BK tribus op-
 
 <!-- Catchword: poſitis -->

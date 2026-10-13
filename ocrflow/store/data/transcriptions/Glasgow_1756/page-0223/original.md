@@ -9,11 +9,18 @@ Sit data quidem recta linea AB; datum autem rectilineum, cui oportet aequale ad 
 
 [Diagram: divided parallelogram with diagonals, labelled H, G, O, F, T, X, P, R, A, E, S and B; below, triangle C and quadrilaterals labelled L, M, K, N and D]
 
-Secetur AB bifariam in Eᵃ, et ab ipſa EB deſcribatur ᵇ ſimile, et ſimiliter poſitum ipſi D; quod ſit EBFG, et compleatur AG parallelogrammum. itaque AG vel aequale eſt ipſi C, vel eo majus, ob determinationem. et ſi quidem AG ſit aequale C, factum jam erit quod proponebatur; etenim ad rectam lineam AB dato rectilineo C aequale parallelogrammum AG applicatum eſt, deficiens figura parallelogramma EF ipſi D ſimili. ſi autem non eſt aequale, erit AG majus quam C; atque EF aequale eſt AG; ergo, et EF quam C eſt majus. quo autem EF ſuperat C, ei exceſſui aequale,
+Secetur AB bifariam in Eᵃ,
 
 [Margin]
 a. 10. 1.
+[/Margin]
+
+et ab ipſa EB deſcribatur ᵇ
+
+[Margin]
 b. 18. 6.
 [/Margin]
+
+ſimile, et ſimiliter poſitum ipſi D; quod ſit EBFG, et compleatur AG parallelogrammum. itaque AG vel aequale eſt ipſi C, vel eo majus, ob determinationem. et ſi quidem AG ſit aequale C, factum jam erit quod proponebatur; etenim ad rectam lineam AB dato rectilineo C aequale parallelogrammum AG applicatum eſt, deficiens figura parallelogramma EF ipſi D ſimili. ſi autem non eſt aequale, erit AG majus quam C; atque EF aequale eſt AG; ergo, et EF quam C eſt majus. quo autem EF ſuperat C, ei exceſſui aequale,
 
 <!-- Catchword: ipſi -->

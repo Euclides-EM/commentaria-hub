@@ -9,15 +9,27 @@ AB ſegmentum circuli deſcriptum eſt AHB quod capiat angulum dato angulo ad C 
 
 Sit datus circulus ABC, datus autem angulus rectilineus qui ad D. oportet a circulo ABC ſegmentum abſcindere quod capiat angulum angulo ad D aequalem.
 
-Ducatur recta linea EF circulum ABC in puncto B contingensᵃ, et ad rectam lineam BF et ad punctum in ea B conſtituatur angulus FBC angulo qui eſt ad D aequalisᵇ. Quoniam igitur circulum ABC contingit quaedam recta linea EF, et a tactu B ducta eſt BC, erit angulus FBC aequalis ei qui in alterno circuli ſegmento BAC conſtituiturᶜ. ſed FBC angulus angulo qui ad D eſt aequalis; angulus igitur in ſegmento BAC angulo ad D aequalis erit. A dato igitur circulo ABC abſciſſum eſt ſegmentum BAC capiens angulum dato angulo rectilineo qui eſt ad D aequalem. Q. E. F.
-
-[Diagram: circle ABC with inscribed triangle ABC, tangent EF at B, and angle D]
+Ducatur recta linea EF circulum ABC in puncto B contingensᵃ,
 
 [Margin]
 a. 17. 3.
+[/Margin]
+
+et ad rectam lineam BF et ad punctum in ea B conſtituatur angulus FBC angulo qui eſt ad D aequalisᵇ.
+
+[Margin]
 b. 23. 1.
+[/Margin]
+
+Quoniam igitur circulum ABC contingit quaedam recta linea EF, et a tactu B ducta eſt BC, erit angulus FBC aequalis ei qui in alterno circuli ſegmento BAC conſtituiturᶜ.
+
+[Margin]
 c. 32. 3.
 [/Margin]
+
+ſed FBC angulus angulo qui ad D eſt aequalis; angulus igitur in ſegmento BAC angulo ad D aequalis erit. A dato igitur circulo ABC abſciſſum eſt ſegmentum BAC capiens angulum dato angulo rectilineo qui eſt ad D aequalem. Q. E. F.
+
+[Diagram: circle ABC with inscribed triangle ABC, tangent EF at B, and angle D]
 
 ## PROP. XXXV. THEOR.
 

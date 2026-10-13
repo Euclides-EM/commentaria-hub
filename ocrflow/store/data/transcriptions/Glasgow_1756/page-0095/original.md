@@ -1,11 +1,13 @@
 <!-- Page number: 80 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-mus, et DL quam DH minorem eſſe. ergo DG minima eſt, minor vero DK quam DL, et DL quam DH. dico etiam duas tantum aequales a puncto D in circumferentiam cadere ad utraſque minimae partes. conſtituatur ad rectam lineam MD, et ad punctum in ea M, angulo KMD aequalis angulus DMB, et DB jungatur. itaque quoniam MK eſt aequalis MB, communis autem MD, duae KM, MD duabus BM, MD aequales ſunt, altera alteri, et angulus KMD aequalis angulo BMD; baſis igitur DK baſi DB eſt aequalisᶠ. dico autem a puncto D aliam ipſi DK aequalem in circumferentiam non cadere. ſi enim fieri poteſt, cadat DN; et quoniam DK eſt aequalis DN, et DK ipſi DB eſt aequalis, erit et DB aequalis DN, propinquior ſcilicet minimae aequalis remotiori, quod fieri non poſſe oſtenſum eſt. ſi igitur extra circulum &c. Q. E. D.
+mus, et DL quam DH minorem eſſe. ergo DG minima eſt, minor vero DK quam DL, et DL quam DH. dico etiam duas tantum aequales a puncto D in circumferentiam cadere ad utraſque minimae partes. conſtituatur ad rectam lineam MD, et ad punctum in ea M, angulo KMD aequalis angulus DMB, et DB jungatur. itaque quoniam MK eſt aequalis MB, communis autem MD, duae KM, MD duabus BM, MD aequales ſunt, altera alteri, et angulus KMD aequalis angulo BMD; baſis igitur DK baſi DB eſt aequalisᶠ.
 
 [Margin]
 f. 4. 1.
 [/Margin]
+
+dico autem a puncto D aliam ipſi DK aequalem in circumferentiam non cadere. ſi enim fieri poteſt, cadat DN; et quoniam DK eſt aequalis DN, et DK ipſi DB eſt aequalis, erit et DB aequalis DN, propinquior ſcilicet minimae aequalis remotiori, quod fieri non poſſe oſtenſum eſt. ſi igitur extra circulum &c. Q. E. D.
 
 [Diagram: circle labelled A, B, C, E, F, G, H, K, L, M and N, with exterior point D and intersecting straight lines]
 

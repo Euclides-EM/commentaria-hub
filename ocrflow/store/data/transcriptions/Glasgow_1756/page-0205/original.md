@@ -1,22 +1,31 @@
 <!-- Page number: 192 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-ut igitur DB ad BE, ita GB ad BFᵈ. ergo parallelogrammorum AB, BC latera, quae circum aequales angulos, ſunt reciproce proportionalia.
+ut igitur DB ad BE, ita GB ad BFᵈ.
 
 [Margin]
 d. 11. 5.
 [/Margin]
 
+ergo parallelogrammorum AB, BC latera, quae circum aequales angulos, ſunt reciproce proportionalia.
+
 Sint autem latera, quae circum aequales angulos, reciproce proportionalia, ſit nempe ut DB ad BE, ita GB ad BF; dico parallelogrammum AB parallelogrammo BC aequale eſſe.
 
 [Diagram: parallelograms labelled A, B, C, D, E, F and G]
 
-Quoniam enim eſt ut DB ad BE, ita GB ad BF; ut autem DB ad BE, ita AB parallelogrammum ad parallelogrammum FEᶜ; et ut GB ad BF, ita BC parallelogrammum ad parallelogrammum FEᶜ; eritᵈ et ut AB ad FE, ita BC ad FE. aequale igiturᵉ eſt AB parallelogrammum parallelogrammo BC. Ergo parallelogrammorum &c. Q. E. D.
+Quoniam enim eſt ut DB ad BE, ita GB ad BF; ut autem DB ad BE, ita AB parallelogrammum ad parallelogrammum FEᶜ;
 
 [Margin]
 c. 1. 6.
+[/Margin]
+
+et ut GB ad BF, ita BC parallelogrammum ad parallelogrammum FEᶜ; eritᵈ et ut AB ad FE, ita BC ad FE. aequale igiturᵉ
+
+[Margin]
 e. 9. 5.
 [/Margin]
+
+eſt AB parallelogrammum parallelogrammo BC. Ergo parallelogrammorum &c. Q. E. D.
 
 ## PROP. XV. THEOR.
 
@@ -26,10 +35,12 @@ e. 9. 5.
 
 Sint aequalia triangula ABC, ADE unum angulum uni angulo aequalem habentia, angulum ſcilicet BAC angulo DAE; dico triangulorum BAC, DAE latera quae circum aequales angulos eſſe reciproce proportionalia, hoc eſt ut CA ad AD, ita eſſe EA ad AB.
 
-Ponantur enim ita ut in directum ſit CA ipſi AD; ergo et EA ipſi AB in directum eritᵃ; et jungatur BD. Quoniam igitur triangulum
+Ponantur enim ita ut in directum ſit CA ipſi AD; ergo et EA ipſi AB in directum eritᵃ;
 
 [Margin]
 a. 14. 1.
 [/Margin]
+
+et jungatur BD. Quoniam igitur triangulum
 
 <!-- Catchword: ABC -->

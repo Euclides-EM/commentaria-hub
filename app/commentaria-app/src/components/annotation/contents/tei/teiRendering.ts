@@ -533,6 +533,32 @@ const joinLiteralLineTexts = (
 const getTeiBlockType = (element: Element) =>
   getElementAttr(element, 'type') || undefined
 
+const getTableLineCells = (text: string, separator: string) => {
+  const cells: { start: number; end: number }[] = []
+  let cellStart = 0
+  for (const cell of text.split(separator)) {
+    cells.push({ start: cellStart, end: cellStart + cell.length })
+    cellStart += cell.length + separator.length
+  }
+
+  const first = cells[0]
+  const firstText = text.slice(first.start, first.end)
+  if (firstText === '|' || firstText.startsWith('| ')) {
+    first.start += firstText === '|' ? 1 : 2
+    cells.unshift({ start: 0, end: 0 })
+  }
+
+  const last = cells[cells.length - 1]
+  const lastText = text.slice(last.start, last.end)
+  if (lastText === '|' || lastText.endsWith(' |')) {
+    last.end -= lastText === '|' ? 1 : 2
+    last.start = Math.min(last.start, last.end)
+    cells.push({ start: text.length, end: text.length })
+  }
+
+  return cells
+}
+
 const getParagraphTable = (
   lines: LineTextWithAnchors[],
 ): Pick<
@@ -545,7 +571,7 @@ const getParagraphTable = (
   }
 
   const columnCount = Math.max(
-    ...lines.map((line) => line.text.split(separator).length),
+    ...lines.map((line) => getTableLineCells(line.text, separator).length),
   )
   let text = ''
   const anchors: Record<string, number> = {}
@@ -557,15 +583,10 @@ const getParagraphTable = (
       text += '\n'
     }
     const lineStart = text.length
-    const cells = line.text.split(separator)
-    const row = []
-    let cellStart = lineStart
-
-    for (const cell of cells) {
-      const cellEnd = cellStart + cell.length
-      row.push({ start: cellStart, end: cellEnd })
-      cellStart = cellEnd + separator.length
-    }
+    const row = getTableLineCells(line.text, separator).map((cell) => ({
+      start: lineStart + cell.start,
+      end: lineStart + cell.end,
+    }))
     while (row.length < columnCount) {
       row.push({
         start: lineStart + line.text.length,
@@ -661,7 +682,7 @@ export const renderStructuredDivToParagraphs = (
           certaintyDegree: degree,
         } satisfies LineTextWithAnchors
       })
-      if (blockType === 'paragraph') {
+      if (blockType === 'paragraph' || blockType === 'table') {
         appendParagraphLines(
           paragraphs,
           renderedLines,
@@ -980,6 +1001,11 @@ const DESCRIBED_BLOCK_TYPES = new Set([
   'ornament',
 ])
 
+const getRenderedBlockType = (paragraph: ParagraphTextWithAnchors) =>
+  paragraph.blockType === 'calculation' && !paragraph.text
+    ? 'figure'
+    : paragraph.blockType
+
 const renderParagraphElement = (
   paragraph: ParagraphTextWithAnchors,
   spans: ParagraphHighlightSpan[],
@@ -988,11 +1014,8 @@ const renderParagraphElement = (
   attrs: string,
 ) => {
   const markerRanges = getMarkerRanges(paragraph.anchors)
-  if (
-    !paragraph.text &&
-    paragraph.blockType &&
-    DESCRIBED_BLOCK_TYPES.has(paragraph.blockType)
-  ) {
+  const blockType = getRenderedBlockType(paragraph)
+  if (!paragraph.text && blockType && DESCRIBED_BLOCK_TYPES.has(blockType)) {
     return `<p${attrs}></p>`
   }
   if (!paragraph.table) {
@@ -1051,9 +1074,6 @@ const getBlockTypeAttrs = (
   if (blockLevel) {
     attrs += ` data-tei-block-level="${escapeHtmlAttr(blockLevel)}"`
   }
-  if (blockType === 'calculation') {
-    attrs += ' title="Calculation"'
-  }
   if (DESCRIBED_BLOCK_TYPES.has(blockType)) {
     attrs += ` title="${escapeHtmlAttr(startCase(blockType))}"`
   }
@@ -1079,7 +1099,7 @@ export const renderStructuredDiv = (
         index,
         !!opts.showCertaintyVisualization,
         getBlockTypeAttrs(
-          paragraph.blockType,
+          getRenderedBlockType(paragraph),
           paragraph.blockSubtype,
           paragraph.blockLevel,
         ),
@@ -1236,6 +1256,53 @@ export const getOriginalParagraphSpans = (
   return { paragraphs, paragraphSpans }
 }
 
+const HEADER_ANCHOR_BLOCK_TYPES = new Set(['running-title', 'page-number'])
+const HEADER_BLOCK_TYPES = new Set([...HEADER_ANCHOR_BLOCK_TYPES, 'ornament'])
+const FOOTER_ANCHOR_BLOCK_TYPES = new Set([
+  'page-number',
+  'catchword',
+  'signature',
+])
+const FOOTER_BLOCK_TYPES = new Set([...FOOTER_ANCHOR_BLOCK_TYPES, 'ornament'])
+
+const getPageSectionEnd = (
+  paragraphs: ParagraphTextWithAnchors[],
+  blockTypes: Set<string>,
+  anchorBlockTypes: Set<string>,
+) => {
+  let end = 0
+  for (const [index, paragraph] of paragraphs.entries()) {
+    if (!paragraph.blockType || !blockTypes.has(paragraph.blockType)) {
+      break
+    }
+    if (anchorBlockTypes.has(paragraph.blockType)) {
+      end = index + 1
+    }
+  }
+  return end
+}
+
+const PAGE_SECTION_TITLE_LABELS: Record<string, string> = {
+  'running-title': 'Running title',
+  'page-number': 'Page number',
+  catchword: 'Catchword',
+}
+
+const getPageSectionTitleAttr = (
+  paragraph: ParagraphTextWithAnchors,
+  index: number,
+  headerEnd: number,
+  footerStart: number,
+) => {
+  const label = paragraph.blockType
+    ? PAGE_SECTION_TITLE_LABELS[paragraph.blockType]
+    : undefined
+  if (!label || (index >= headerEnd && index < footerStart)) {
+    return ''
+  }
+  return ` title="${escapeHtmlAttr(`${label}: ${paragraph.text.trim()}`)}"`
+}
+
 export const renderOriginalView = (
   doc: Document,
   body: Element,
@@ -1248,11 +1315,38 @@ export const renderOriginalView = (
     opts,
     highlightConfig,
   )
+  const blankPageParagraphs = paragraphs.filter(
+    (paragraph) => paragraph.blockType === 'blank-page',
+  )
+  if (blankPageParagraphs.length) {
+    const hasAdditionalContents = paragraphs.some(
+      (paragraph) => paragraph.text.trim() !== '',
+    )
+    if (!hasAdditionalContents) {
+      return '<div class="tei-blank-page" data-tei-blank-page="true"><span class="tei-blank-page-label">Blank page</span><span class="tei-blank-page-hint">This page has no printed text</span></div>'
+    }
+    console.warn(
+      'TEI blank-page marker found alongside additional contents',
+      paragraphs,
+    )
+  }
+  const headerEnd = getPageSectionEnd(
+    paragraphs,
+    HEADER_BLOCK_TYPES,
+    HEADER_ANCHOR_BLOCK_TYPES,
+  )
+  const footerStart =
+    paragraphs.length -
+    getPageSectionEnd(
+      [...paragraphs].reverse().slice(0, paragraphs.length - headerEnd),
+      FOOTER_BLOCK_TYPES,
+      FOOTER_ANCHOR_BLOCK_TYPES,
+    )
   const parts = paragraphs.map((paragraph, index) => {
     const spans = paragraphSpans.get(index) || []
     const paragraphTextAttr = escapeHtmlAttr(encodeURIComponent(paragraph.text))
     const blockTypeAttrs = getBlockTypeAttrs(
-      paragraph.blockType,
+      getRenderedBlockType(paragraph),
       paragraph.blockSubtype,
       paragraph.blockLevel,
     )
@@ -1261,11 +1355,23 @@ export const renderOriginalView = (
       spans,
       index,
       !!opts.showCertaintyVisualization,
-      ` data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttrs}`,
+      ` data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttrs}${getPageSectionTitleAttr(paragraph, index, headerEnd, footerStart)}`,
     )
   })
 
-  return parts.join('') || '<p></p>'
+  const header = parts.slice(0, headerEnd).join('')
+  const main = parts.slice(headerEnd, footerStart).join('')
+  const footer = parts.slice(footerStart).join('')
+  const sections = [
+    header
+      ? `<div class="tei-page-header" data-tei-page-section="header">${header}</div>`
+      : '',
+    main,
+    footer
+      ? `<div class="tei-page-footer" data-tei-page-section="footer">${footer}</div>`
+      : '',
+  ]
+  return sections.join('') || '<p></p>'
 }
 
 export const renderAlternativeView = (

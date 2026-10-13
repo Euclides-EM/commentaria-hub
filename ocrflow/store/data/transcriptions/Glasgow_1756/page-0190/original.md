@@ -7,21 +7,31 @@
 
 Trianguli enim ABC uni laterum BC, parallela ducatur DE. Dico ut BD ad DA, ita eſſe CE ad EA.
 
-Jungantur enim BE, CD; triangulum igitur BDE triangulo CDE eſt aequaleᵃ, ſuper eadem enim ſunt baſi DE, et in eiſdem parallelis DE, BC. aliud autem triangulum eſt ADE; aequalia vero ad idem eandem habent rationemᵇ; ergo ut triangulum BDE ad triangulum ADE, ita eſt CDE triangulum ad triangulum ADE;
+Jungantur enim BE, CD; triangulum igitur BDE triangulo CDE eſt aequaleᵃ,
 
 [Margin]
 a. 37. 1.
+[/Margin]
 
+ſuper eadem enim ſunt baſi DE, et in eiſdem parallelis DE, BC. aliud autem triangulum eſt ADE; aequalia vero ad idem eandem habent rationemᵇ;
+
+[Margin]
 b. 7. 5.
 [/Margin]
 
+ergo ut triangulum BDE ad triangulum ADE, ita eſt CDE triangulum ad triangulum ADE;
+
 [Diagram: three geometric figures labelled A, B, C, D and E]
 
-ut autem triangulum BDE ad triangulum ADE, ita eſt ᶜ BD ad DA; nam cum eandem altitudinem habent, videlicet perpendicularem a puncto E ad AB ductam, inter ſe ſunt ut baſes. et ob eandem cauſam ut CDE triangulum ad triangulum ADE, ita CE ad EA. ut igitur BD ad DA, ita eſt CE ad EAᵈ.
+ut autem triangulum BDE ad triangulum ADE, ita eſt ᶜ
 
 [Margin]
 c. 1. 6.
+[/Margin]
 
+BD ad DA; nam cum eandem altitudinem habent, videlicet perpendicularem a puncto E ad AB ductam, inter ſe ſunt ut baſes. et ob eandem cauſam ut CDE triangulum ad triangulum ADE, ita CE ad EA. ut igitur BD ad DA, ita eſt CE ad EAᵈ.
+
+[Margin]
 d. 11. 5.
 [/Margin]
 

@@ -505,7 +505,7 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	return categories, nil
 }
 
-func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexTypes []string, applyPrinterErrorCorrection bool) (*annotation.Index, error) {
+func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexTypes []string, normalize bool) (*annotation.Index, error) {
 	ann, err := a.Get(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
@@ -540,7 +540,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexT
 
 	// An annotation-level Markdown transcription is an explicit override of the
 	// annotation's original ALTO and must be indexed first.
-	categories, allLocs, availableTypes, annMdErr := a.getIndexFromAnnotationMarkdown(pages, ann, categories, indexTypes, applyPrinterErrorCorrection)
+	categories, allLocs, availableTypes, annMdErr := a.getIndexFromAnnotationMarkdown(pages, ann, categories, indexTypes, normalize)
 	if annMdErr == nil {
 		return &annotation.Index{
 			DatasetID:      datasetID,
@@ -587,7 +587,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexT
 		}, nil
 	}
 
-	categories, allLocs, availableTypes, edMdErr := a.getIndexFromEditionMarkdown(pages, ds.EditionID, categories, indexTypes, applyPrinterErrorCorrection)
+	categories, allLocs, availableTypes, edMdErr := a.getIndexFromEditionMarkdown(pages, ds.EditionID, categories, indexTypes, normalize)
 	if edMdErr == nil {
 		return &annotation.Index{
 			DatasetID:      datasetID,
@@ -903,14 +903,14 @@ func (a *Annotation) getIndexFromAnnotationAlto(pages []int, ann *annotation.Ann
 	}, "ALTO")
 }
 
-func (a *Annotation) getIndexFromAnnotationMarkdown(pages []int, ann *annotation.Annotation, categories, indexTypes []string, applyPrinterErrorCorrection bool) ([]string, []categoryPageContent, []string, error) {
+func (a *Annotation) getIndexFromAnnotationMarkdown(pages []int, ann *annotation.Annotation, categories, indexTypes []string, normalize bool) ([]string, []categoryPageContent, []string, error) {
 	return getIndexFromMarkdown(pages, categories, func(page int) (*markdown.Markdown, error) {
 		md, err := a.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, fmt.Sprintf("%d", page))
 		if err != nil {
 			return nil, fmt.Errorf("failed to retrieve annotation markdown page: %w", err)
 		}
 		return md, nil
-	}, "annotation markdown", indexTypes, applyPrinterErrorCorrection)
+	}, "annotation markdown", indexTypes, normalize)
 }
 
 func (a *Annotation) getIndexFromEditionAlto(pages []int, editionKey string, categories []string) ([]string, []categoryPageContent, error) {
@@ -923,14 +923,14 @@ func (a *Annotation) getIndexFromEditionAlto(pages []int, editionKey string, cat
 	}, "edition ALTO")
 }
 
-func (a *Annotation) getIndexFromEditionMarkdown(pages []int, editionKey string, categories, indexTypes []string, applyPrinterErrorCorrection bool) ([]string, []categoryPageContent, []string, error) {
+func (a *Annotation) getIndexFromEditionMarkdown(pages []int, editionKey string, categories, indexTypes []string, normalize bool) ([]string, []categoryPageContent, []string, error) {
 	return getIndexFromMarkdown(pages, categories, func(page int) (*markdown.Markdown, error) {
 		md, err := a.fileSysMgt.RetrieveEditionMarkdownPage(editionKey, page)
 		if err != nil {
 			return nil, fmt.Errorf("failed to retrieve edition markdown page: %w", err)
 		}
 		return md, nil
-	}, "edition markdown", indexTypes, applyPrinterErrorCorrection)
+	}, "edition markdown", indexTypes, normalize)
 }
 
 func getIndexFromAlto(pages []int, categories []string, loadPage func(int) (*alto.Alto, error), source string) ([]string, []categoryPageContent, error) {
@@ -977,7 +977,7 @@ func getIndexFromAlto(pages []int, categories []string, loadPage func(int) (*alt
 	return altoCat, allLocs, nil
 }
 
-func getIndexFromMarkdown(pages []int, categories []string, loadPage func(int) (*markdown.Markdown, error), source string, indexTypes []string, applyPrinterErrorCorrection bool) ([]string, []categoryPageContent, []string, error) {
+func getIndexFromMarkdown(pages []int, categories []string, loadPage func(int) (*markdown.Markdown, error), source string, indexTypes []string, normalize bool) ([]string, []categoryPageContent, []string, error) {
 	allLocs := make([]categoryPageContent, 0)
 	seenCategories := make(map[string]struct{})
 	seenTypes := map[string]struct{}{markdown.DefaultIndexType: {}}
@@ -986,7 +986,7 @@ func getIndexFromMarkdown(pages []int, categories []string, loadPage func(int) (
 		if err != nil {
 			return nil, nil, nil, err
 		}
-		headers, availableTypes, err := markdown.ExtractIndexContentsFromMarkdown(md, categories, indexTypes, applyPrinterErrorCorrection)
+		headers, availableTypes, err := markdown.ExtractIndexContentsFromMarkdown(md, categories, indexTypes, normalize)
 		if err != nil {
 			return nil, nil, nil, fmt.Errorf("failed to extract headers from %s page %d: %w", source, page, err)
 		}

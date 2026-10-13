@@ -1,11 +1,13 @@
 <!-- Running title: LIBER QUARTUS. -->
 <!-- Page number: 115 -->
 
-qualis; ergo et reliquus MLN eſt aequalis reliquo ᵉ EDF. aequiangulum igitur eſt LMN triangulum triangulo DEF, et circumſcriptum eſt circa ABC circulum. Circa datum igitur circulum, dato triangulo aequiangulum triangulum circumſcriptum eſt. Q. E. F.
+qualis; ergo et reliquus MLN eſt aequalis reliquo ᵉ
 
 [Margin]
 e. 32. 1.
 [/Margin]
+
+EDF. aequiangulum igitur eſt LMN triangulum triangulo DEF, et circumſcriptum eſt circa ABC circulum. Circa datum igitur circulum, dato triangulo aequiangulum triangulum circumſcriptum eſt. Q. E. F.
 
 ## PROP. IV. PROB.
 
@@ -13,27 +15,35 @@ e. 32. 1.
 
 Sit datum triangulum ABC; oportet in triangulo ABC circulum inſcribere.
 
-Secentur anguli ABC, BCA bifariam ᵃ rectis lineis BD, CD quae conveniant inter ſe in D puncto, et a puncto D ad rectas lineas AB, BC, CA perpendiculares ducantur ᵇ DE, DF, DG.
+Secentur anguli ABC, BCA bifariam ᵃ
 
 [Margin]
 a. 9. 1.
 [/Margin]
 
+rectis lineis BD, CD quae conveniant inter ſe in D puncto, et a puncto D ad rectas lineas AB, BC, CA perpendiculares ducantur ᵇ
+
 [Margin]
 b. 12. 1.
 [/Margin]
 
+DE, DF, DG.
+
 [Diagram: triangle ABC containing an inscribed circle centred at D, touching sides at E, F and G, with lines BD, CD, DE, DF and DG]
 
-et quoniam angulus EBD eſt aequalis ipſi FBD, bifariam enim ſectus eſt ABC, eſt autem et rectus BED recto BFD aequalis, erunt duo triangula EBD, FBD duos angulos duobus angulis aequales habentia, et unum latus BD utrique commune, quod ſcilicet uni aequalium angulorum ſubtenditur; reliqua igitur latera reliquis lateribus aequalia habebuntᶜ, et erit DE aequalis DF. eadem ratione et DG aequalis erit DF; tres igitur rectae lineae DE, DF, DG inter ſe aequales ſunt; quare centro D, intervallo autem unius ipſarum DE, DF, DG circulus deſcriptus etiam per reliqua tranſibit puncta, et rectas lineas AB, BC, CA continget, propterea quod recti ſunt anguli ad E, F, G puncta; quae enim diametro circuli ad rectos angulos ab extremitate ducitur circulum contingitᵈ. circulum igitur contingit unaquaeque ipſarum AB, BC, CA,
+et quoniam angulus EBD eſt aequalis ipſi FBD, bifariam enim ſectus eſt ABC, eſt autem et rectus BED recto BFD aequalis, erunt duo triangula EBD, FBD duos angulos duobus angulis aequales habentia, et unum latus BD utrique commune, quod ſcilicet uni aequalium angulorum ſubtenditur; reliqua igitur latera reliquis lateribus aequalia habebuntᶜ,
 
 [Margin]
 c. 26. 1.
 [/Margin]
 
+et erit DE aequalis DF. eadem ratione et DG aequalis erit DF; tres igitur rectae lineae DE, DF, DG inter ſe aequales ſunt; quare centro D, intervallo autem unius ipſarum DE, DF, DG circulus deſcriptus etiam per reliqua tranſibit puncta, et rectas lineas AB, BC, CA continget, propterea quod recti ſunt anguli ad E, F, G puncta; quae enim diametro circuli ad rectos angulos ab extremitate ducitur circulum contingitᵈ.
+
 [Margin]
 d. 16. 3.
 [/Margin]
+
+circulum igitur contingit unaquaeque ipſarum AB, BC, CA,
 
 <!-- Signature: P 2. -->
 <!-- Catchword: atque -->

@@ -1,17 +1,21 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 31 -->
 
-triangulum triangulo DEF, et reliqui anguli reliquis angulis aequales erunt, alter alteri, quibus aequalia latera ſubtenduntur. aequalis igitur eſt angulus BHA angulo EFD. ſed EFD eſt aequalis angulo BCAᵇ; ergo et BHA angulus angulo BCA eſt aequalis, trianguli ſcilicet AHC exterior angulus BHA aequalis interiori et oppoſito BCA, quod fieri non poteſtᶜ. quare non inaequalis eſt BC ipſi EF; aequalis igitur; eſt autem et AB aequalis DE; duae igitur AB, BC duabus DE, EF aequales ſunt, altera alteri; anguloſque aequales continent; quare baſis AC aequalis eſt baſi DF, et reliquus angulus BAC reliquo angulo EDF eſt aequalis. ſi igitur duo triangula &c. Q. E. D.
+triangulum triangulo DEF, et reliqui anguli reliquis angulis aequales erunt, alter alteri, quibus aequalia latera ſubtenduntur. aequalis igitur eſt angulus BHA angulo EFD. ſed EFD eſt aequalis angulo BCAᵇ;
 
 [Margin]
 b. ex hyp.
 [/Margin]
 
-[Diagram: triangle ABC with point H on BC and line AH, beside triangle DEF]
+ergo et BHA angulus angulo BCA eſt aequalis, trianguli ſcilicet AHC exterior angulus BHA aequalis interiori et oppoſito BCA, quod fieri non poteſtᶜ.
 
 [Margin]
 c. 16. 1.
 [/Margin]
+
+quare non inaequalis eſt BC ipſi EF; aequalis igitur; eſt autem et AB aequalis DE; duae igitur AB, BC duabus DE, EF aequales ſunt, altera alteri; anguloſque aequales continent; quare baſis AC aequalis eſt baſi DF, et reliquus angulus BAC reliquo angulo EDF eſt aequalis. ſi igitur duo triangula &c. Q. E. D.
+
+[Diagram: triangle ABC with point H on BC and line AH, beside triangle DEF]
 
 ## PROP. XXVII. THEOR.
 

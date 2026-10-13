@@ -1,11 +1,13 @@
 <!-- Page number: 186 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-deinceps eſt AGB major eſt rectoᵍ. atque oſtenſus eſt angulus AGB aequalis angulo qui ad F; angulus igitur qui ad F recto major eſt. atqui ponitur minor recto; quod eſt abſurdum. non eſt igitur angulus ABC inaequalis angulo DEF; ergo ipſi eſt aequalis. eſt autem angulus qui ad A aequalis ei qui ad D; quare et reliquus qui ad C aequalis eſt reliquo qui ad F. aequiangulum igitur eſt triangulum ABC triangulo DEF.
+deinceps eſt AGB major eſt rectoᵍ.
 
 [Margin]
 g. 13. 1.
 [/Margin]
+
+atque oſtenſus eſt angulus AGB aequalis angulo qui ad F; angulus igitur qui ad F recto major eſt. atqui ponitur minor recto; quod eſt abſurdum. non eſt igitur angulus ABC inaequalis angulo DEF; ergo ipſi eſt aequalis. eſt autem angulus qui ad A aequalis ei qui ad D; quare et reliquus qui ad C aequalis eſt reliquo qui ad F. aequiangulum igitur eſt triangulum ABC triangulo DEF.
 
 [Diagram: triangles ABC and DEF; point G on AC joined to B]
 
@@ -13,11 +15,13 @@ Sed rurſus ponatur uterque angulorum qui ad C, F, non minor recto. Dico rurſus
 
 [Diagram: triangles ABC and DEF; point G on AC joined to B]
 
-Iiſdem enim conſtructis, ſimiliter demonſtrabimus BC aequalem ipſi BG, angulumque ad C angulo BGC aequalem. ſed angulus qui ad C non minor eſt recto; non eſt igitur minor recto BGC. quare trianguli BGC duo anguli non ſunt duobus rectis minores; quod fieri non poteſtʰ; ac propterea triangulum ABC triangulo DEF aequiangulum eſt, ut in praecedente caſu oſtenſum fuit.
+Iiſdem enim conſtructis, ſimiliter demonſtrabimus BC aequalem ipſi BG, angulumque ad C angulo BGC aequalem. ſed angulus qui ad C non minor eſt recto; non eſt igitur minor recto BGC. quare trianguli BGC duo anguli non ſunt duobus rectis minores; quod fieri non poteſtʰ;
 
 [Margin]
 h. 17. 1.
 [/Margin]
+
+ac propterea triangulum ABC triangulo DEF aequiangulum eſt, ut in praecedente caſu oſtenſum fuit.
 
 Sit denique alter angulorum ad C, F, puta qui ad C, rectus; erit et in hoc caſu triangulum ABC triangulo DEF aequiangulum.
 

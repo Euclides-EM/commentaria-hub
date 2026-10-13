@@ -13,10 +13,12 @@ utrumque enim ipſorum aequale eſt quadrato ex contingente AD.
 
 Extra circulum enim ABC ſumatur aliquod punctum D, atque ab ipſo in circulum cadant duae rectae lineae DCA, DB, et DCA quidem circulum ſecet, DB vero incidat; ſitque rectangulum ab AD, DC aequale quadrato ex DB. Dico ipſam DB circulum ABC contingere.
 
-Ducatur enim recta linea DE contingens circulumᵃ ABC, et ſumatur
+Ducatur enim recta linea DE contingens circulumᵃ
 
 [Margin]
 a. 17. 3.
 [/Margin]
+
+ABC, et ſumatur
 
 <!-- Catchword: tur. -->

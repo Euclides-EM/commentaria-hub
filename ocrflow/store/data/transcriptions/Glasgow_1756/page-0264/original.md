@@ -1,23 +1,31 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 251 -->
 
-MBG anguli, ut et AKD, BMG, uterque enim eſt rectus; ſuntque latera AK, BM quae aequalibus angulis adjacent inter ſe aequalia; erit KD quidem aequalis ipſi MG, AD vero ipſi BGᵇ. eadem ratione, in triangulis KAL, MBN, erit KL aequalis MN, AL vero ipſi BN. in triangulis autem LAD, NBG duae LA, AD duabus NB, BG aequales oſtenſae ſunt, altera alteri, et aequales continent angulos; baſis igitur LD baſi NG eſt aequalisᶜ. Denique in triangulis KLD, MNG, duae DK, KL duabus GM, MN ſunt aequales, et eſt baſis LD aequalis baſi NG; angulus igitur DKL aequalis eſt angulo GMNᵈ. eſt vero angulus DKL inclinatio plani CAD ad planum CAE, et angulus GMN inclinatio plani FBG ad ipſum FBH, quae propterea plana ad ſe invicem ſunt ſimiliter inclinataᵉ. et eadem ratione reliqua plana in quibus ſunt aequales anguli ad ſe invicem ſimiliter inclinata oſtendentur. Si igitur ſint duo anguli ſolidi &c. Q. E. D.
+MBG anguli, ut et AKD, BMG, uterque enim eſt rectus; ſuntque latera AK, BM quae aequalibus angulis adjacent inter ſe aequalia; erit KD quidem aequalis ipſi MG, AD vero ipſi BGᵇ.
 
 [Margin]
 b. 26. 1.
 [/Margin]
 
+eadem ratione, in triangulis KAL, MBN, erit KL aequalis MN, AL vero ipſi BN. in triangulis autem LAD, NBG duae LA, AD duabus NB, BG aequales oſtenſae ſunt, altera alteri, et aequales continent angulos; baſis igitur LD baſi NG eſt aequalisᶜ.
+
 [Margin]
 c. 4. 1.
 [/Margin]
+
+Denique in triangulis KLD, MNG, duae DK, KL duabus GM, MN ſunt aequales, et eſt baſis LD aequalis baſi NG; angulus igitur DKL aequalis eſt angulo GMNᵈ.
 
 [Margin]
 d. 8. 1.
 [/Margin]
 
+eſt vero angulus DKL inclinatio plani CAD ad planum CAE, et angulus GMN inclinatio plani FBG ad ipſum FBH, quae propterea plana ad ſe invicem ſunt ſimiliter inclinataᵉ.
+
 [Margin]
 e. 7. Def. 11.
 [/Margin]
+
+et eadem ratione reliqua plana in quibus ſunt aequales anguli ad ſe invicem ſimiliter inclinata oſtendentur. Si igitur ſint duo anguli ſolidi &c. Q. E. D.
 
 ## PROP. B. THEOR.
 

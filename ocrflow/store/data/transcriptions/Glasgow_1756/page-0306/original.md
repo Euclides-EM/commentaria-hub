@@ -11,16 +11,30 @@ Secentur enim AB, BC, CA, AD, DB, DC bifariam in punctis E, F, G, H, K, L, et EH
 
 [Diagram: triangular pyramid ABCD with points E, F, G, H, K and L and connecting lines]
 
-Quoniam igitur AE quidem eſt aequalis EB, AH vero ipſi HD, erit HE ipſi DB parallelaᵃ. eadem ratione et HK eſt parallela ipſi AB. parallelogrammum igitur eſt HEBK; quare HK eſt aequalis EBᵇ. ſed EB ipſi AE eſt aequalis; ergo et AE ipſi HK aequalis erit. eſt autem et AH aequalis HD; duae igitur EA, AH duabus KH, HD aequales ſunt, altera alteri; et angulus EAH aequalis angulo KHDᶜ; baſis igitur EH baſi KD eſt aequalis, et triangulum AEH aequaleᵈ et ſimile triangulo HKD. eadem ratione et triangulum AGH triangulo HLD aequale eſt et ſimile. et quoniam duae rectae lineae EH, HG ſeſe tangentes duabus rectis lineis ſeſe tangentibus KD, DL parallelae ſunt, non autem in eodem
+Quoniam igitur AE quidem eſt aequalis EB, AH vero ipſi HD, erit HE ipſi DB parallelaᵃ.
 
 [Margin]
 a. 2. 6.
+[/Margin]
 
+eadem ratione et HK eſt parallela ipſi AB. parallelogrammum igitur eſt HEBK; quare HK eſt aequalis EBᵇ.
+
+[Margin]
 b. 34. 1.
+[/Margin]
 
+ſed EB ipſi AE eſt aequalis; ergo et AE ipſi HK aequalis erit. eſt autem et AH aequalis HD; duae igitur EA, AH duabus KH, HD aequales ſunt, altera alteri; et angulus EAH aequalis angulo KHDᶜ;
+
+[Margin]
 c. 29. 1.
+[/Margin]
 
+baſis igitur EH baſi KD eſt aequalis, et triangulum AEH aequaleᵈ
+
+[Margin]
 d. 4. 1.
 [/Margin]
+
+et ſimile triangulo HKD. eadem ratione et triangulum AGH triangulo HLD aequale eſt et ſimile. et quoniam duae rectae lineae EH, HG ſeſe tangentes duabus rectis lineis ſeſe tangentibus KD, DL parallelae ſunt, non autem in eodem
 
 <!-- Catchword: plano, -->

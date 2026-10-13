@@ -1,10 +1,10 @@
 <!-- Page number: 342 -->
 
-<!-- Running title: N O T A E. -->
+<!-- Running title: NOTAE. -->
 
 " quae quidem et bifariam circulum ſecat." haec autem omiſimus, non enim ſunt pars Definitionis, ſed Corollarium ex ea. Proclus id oſtendit concipiendo unum ex ſegmentis in quae diameter circulum dividit, altero applicari; manifeſtum enim eſt ea neceſſario ſibi mutuo congruere; ſi enim non congruerent, rectae a centro ad circumferentiam ductae non eſſent inter ſe aequales. idem etiam facile oſtenditur ex Prop. 31. Lib. 3. et Prop. 24. ejuſdem. ex prima enim harum ſequitur ſemicirculos ſimilia eſſe circuli ſegmenta; et ex altera ſegmenta haec aequalia eſſe.
 
-## Ad DEF. XXXIII. LIB. I.
+#### Ad DEF. XXXIII. LIB. I.
 
 Definitio haec affectionem continet ſuperfluam rei definitae; etenim omnis figura quadrilatera quae habet latera oppoſita inter ſe aequalia, habebit etiam angulos oppoſitos inter ſe aequales; et contra.
 

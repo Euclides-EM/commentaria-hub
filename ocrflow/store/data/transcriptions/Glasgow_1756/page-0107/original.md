@@ -3,11 +3,13 @@
 
 Sit circulus ABCD, et in eodem ſegmento BAED anguli ſint BAD, BED; dico eos inter ſe aequales eſſe.
 
-Sumatur enim circuli ABCD centrum, ſitque F. et primo, ſit BAED ſegmentum majus ſemicirculo, et jungantur BF, FD. et quoniam angulus quidem BFD eſt ad centrum, angulus vero BAD. ad circumferentiam, et circumferentiam eandem BCD pro baſi habent, erit BFD angulus anguli BAD duplusᵃ. eadem ratione angulus BFD duplus eſt etiam anguli BED. angulus igitur BAD angulo BED aequalis erit.
+Sumatur enim circuli ABCD centrum, ſitque F. et primo, ſit BAED ſegmentum majus ſemicirculo, et jungantur BF, FD. et quoniam angulus quidem BFD eſt ad centrum, angulus vero BAD. ad circumferentiam, et circumferentiam eandem BCD pro baſi habent, erit BFD angulus anguli BAD duplusᵃ.
 
 [Margin]
 a. 20. 3.
 [/Margin]
+
+eadem ratione angulus BFD duplus eſt etiam anguli BED. angulus igitur BAD angulo BED aequalis erit.
 
 [Diagram: circle labelled A, B, C, D, E and F, with chords and radii]
 
@@ -21,8 +23,10 @@ Sit vero ſegmentum BAED non majus ſemicirculo, et in ipſo ſint anguli BAD, B
 
 Sit circulus ABCD, et in ipſo quadrilaterum ABCD; dico angulos ipſius oppoſitos duobus rectis aequales eſſe.
 
-Jungantur AC, BD; quoniam igitur omnis trianguli tres anguli duobus rectis ſunt aequalesᵃ, erunt trianguli ABC tres anguli CAB, ABC,
+Jungantur AC, BD; quoniam igitur omnis trianguli tres anguli duobus rectis ſunt aequalesᵃ,
 
 [Margin]
 a. 32. 1.
 [/Margin]
+
+erunt trianguli ABC tres anguli CAB, ABC,

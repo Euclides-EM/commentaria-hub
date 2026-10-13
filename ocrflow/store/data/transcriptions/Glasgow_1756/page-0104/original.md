@@ -1,21 +1,27 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 89 -->
 
-ipſi EA ad rectos angulos ducaturᵇ DF, junganturque EBF, AB. dico a puncto A ductam eſſe AB quae circulum BCD contingit.
+ipſi EA ad rectos angulos ducaturᵇ
 
 [Margin]
 b. 11. 1.
 [/Margin]
 
-Quoniam enim E centrum eſt circulorum BCD, AFG, erit EA aequalis EF, et ED ipſi EB; duae igitur AE, EB duabus FE, ED aequales ſunt, et angulum communem ad E continent; ergo baſis DF baſi AB eſt aequalis, triangulumque EDF aequale triangulo EBA, et reliqui anguli reliquis angulisᶜ. aequalis igitur eſt angulus EBA angulo EDF. rectus autem eſt EDF, rectus igitur eſt EBA. atque eſt EB ex centro; quae autem diametro circuli ab extremitate ad rectos angulos ducta eſt, circulum contingitᵈ; contingit igitur AB circulum.
+DF, junganturque EBF, AB. dico a puncto A ductam eſſe AB quae circulum BCD contingit.
+
+Quoniam enim E centrum eſt circulorum BCD, AFG, erit EA aequalis EF, et ED ipſi EB; duae igitur AE, EB duabus FE, ED aequales ſunt, et angulum communem ad E continent; ergo baſis DF baſi AB eſt aequalis, triangulumque EDF aequale triangulo EBA, et reliqui anguli reliquis angulisᶜ.
 
 [Margin]
 c. 4. 1.
 [/Margin]
 
+aequalis igitur eſt angulus EBA angulo EDF. rectus autem eſt EDF, rectus igitur eſt EBA. atque eſt EB ex centro; quae autem diametro circuli ab extremitate ad rectos angulos ducta eſt, circulum contingitᵈ;
+
 [Margin]
 d. Cor. 16. 3.
 [/Margin]
+
+contingit igitur AB circulum.
 
 [Diagram: two concentric circles centred at E, labelled A, B, C, D, F and G, with radii and intersecting lines]
 
