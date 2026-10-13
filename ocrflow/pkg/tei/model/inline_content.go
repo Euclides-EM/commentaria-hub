@@ -5,7 +5,8 @@ import "encoding/xml"
 type Inline struct {
 	XMLName xml.Name
 
-	Text string `xml:",chardata"`
+	Text  string   `xml:",chardata"`
+	Nodes []ABNode `xml:"-"`
 
 	XmlID   string `xml:"xml:id,attr,omitempty"`
 	Corresp string `xml:"corresp,attr,omitempty"`
@@ -51,6 +52,11 @@ func (i Inline) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	}
 	if i.Text != "" {
 		if err := e.EncodeToken(xml.CharData(i.Text)); err != nil {
+			return err
+		}
+	}
+	for _, node := range i.Nodes {
+		if err := node.MarshalXML(e, xml.StartElement{}); err != nil {
 			return err
 		}
 	}
