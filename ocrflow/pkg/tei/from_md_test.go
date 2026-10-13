@@ -208,6 +208,20 @@ func TestMarkdownInlineEscapedAsteriskBecomesLiteralText(t *testing.T) {
 	}
 }
 
+func TestMarkdownInlineDropcapInsideItalic(t *testing.T) {
+	nodes := markdownInlineNodes(`*{dropcap:IL|lines=2|style=plain} ne peut y avoir que cinq polyedres réguliers.*`)
+	if got := inlineText(nodes); got != "IL ne peut y avoir que cinq polyedres réguliers." {
+		t.Fatalf("inline text = %q", got)
+	}
+	if len(nodes) != 1 || nodes[0].Inline == nil || nodes[0].Inline.Rend != "italic" {
+		t.Fatalf("nodes = %#v, want single italic inline", nodes)
+	}
+	children := nodes[0].Inline.Nodes
+	if len(children) != 2 || children[0].Inline == nil || children[0].Inline.Rend != "dropcap lines=2 style=plain" || children[0].Inline.Text != "IL" {
+		t.Fatalf("italic children = %#v, want dropcap then text", children)
+	}
+}
+
 func TestMarkdownInlineEscapedAsteriskInMarginTEI(t *testing.T) {
 	doc, err := BuildTEIFromMarkdown("38", &markdown.Markdown{Content: `[Margin]
 \* Le chiffre eſt manqué, ne marque que [unclear: 260], & le ſuivant 221.
@@ -233,7 +247,7 @@ func inlineText(nodes []model.ABNode) string {
 	var result string
 	for _, node := range nodes {
 		if node.Inline != nil {
-			result += node.Inline.Text
+			result += node.Inline.Text + inlineText(node.Inline.Nodes)
 		} else {
 			result += node.CharData
 		}

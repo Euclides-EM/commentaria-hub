@@ -241,7 +241,7 @@ func markdownInlineNodes(s string) []model.ABNode {
 			nodes = append(nodes, model.ABNode{Inline: &model.Inline{
 				XMLName: xml.Name{Local: "hi"},
 				Rend:    "bold",
-				Text:    s[2 : 2+end],
+				Nodes:   markdownInlineNodes(s[2 : 2+end]),
 			}})
 			s = s[2+end+2:]
 		case strings.HasPrefix(s, "*"):
@@ -254,7 +254,7 @@ func markdownInlineNodes(s string) []model.ABNode {
 			nodes = append(nodes, model.ABNode{Inline: &model.Inline{
 				XMLName: xml.Name{Local: "hi"},
 				Rend:    "italic",
-				Text:    s[1 : 1+end],
+				Nodes:   markdownInlineNodes(s[1 : 1+end]),
 			}})
 			s = s[1+end+1:]
 		}
