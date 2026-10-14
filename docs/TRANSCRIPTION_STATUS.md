@@ -1,5 +1,14 @@
 # OCR Pipeline Queue
 
+Strasbourg_1564
+Strasbourg_1566
+Pisa_1658
+Würzburg_1661
+Paris_1685
+Vienna_1694
+Oxford_1701
+Paris_1814
+
 # Train to improve segmentation
 
 > Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].
