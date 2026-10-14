@@ -14,6 +14,8 @@ PARI ratione, pluribus numeris datis, quam tribus, non primis inter ſe, maxima 
 4.
 [/Margin]
 
+[Curated heading level=3 type=incipit: OMNIS]
+
 OMNIS numerus, omnis numeri, minor maioris, aut pars eſt, aut partes.
 
 SINT duo numeri A, minor, & B, maior. Dico A, eſſe aut partem, aut partes ipſius B. Sint enim primo A, & B, inter ſe primi. Quia igitur quælibet unitas numeri A, pars eſt numeri B; perſpicuum eſt, numerum A, eſſe partes numeri B.
@@ -35,6 +37,8 @@ SED iam A, non metiatur ipſum B; inuenta autem maxima eorum menſura communis �
 [Margin]
 5.
 [/Margin]
+
+[Curated heading level=3 type=incipit: SI]
 
 SI numerus numeri pars fuerit, & alter
 

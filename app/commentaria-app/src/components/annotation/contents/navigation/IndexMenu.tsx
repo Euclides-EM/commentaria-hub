@@ -259,7 +259,7 @@ export function IndexMenu({
   const [normalize, setNormalize] = useLocalStorageState(
     useScopedStorageKey('indexNormalize'),
     {
-      defaultValue: false,
+      defaultValue: true,
       storageSync: false,
     },
   )

@@ -3,6 +3,8 @@
 [Ornament]
 <!-- Page number: 329 -->
 
+[Curated heading level=3 type=incipit: PAR]
+
 PAR numerus A, neque ſit a binario duplus, neque dimidium habeat imparem, ſed parem. Dico A, & pariter parem eſſe, & pariter imparem. Quod enim ſit pariter par, liquet. Nam cum dimidium habeat parem, metietur eum binarius, par numerus, per parem, nempe per dimidium. Igitur ex definitione, pariter par eſt.
 
 [Diagram: horizontal row of points labelled A]

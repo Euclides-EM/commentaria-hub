@@ -21,6 +21,8 @@ NVMERVS 10. bifariam ſecetur in 5. & 5. cui addatur numerus quiuis 3. vt totus 
 11.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DATAM]
+
 DATAM rectam lineam ſecare, ut cõprehenſum ſub tota, & altero ſegmentorũ rectangulum, æquale ſit ei, quod a reliquo ſegmento fit, quadrato.
 
 DATA ſit recta AB, quam ſecare oportet in duas partes, ita ut rectangulum cõprehenſum ſub tota AB, & minori eius ſegmento, æquale ſit quadrato reliqui ſegmenti maioris. Deſcribatur ex AB, quadratũ AC, & diuiſo latere AD, quod cũ linea data AB, angulũ rectũ efficit, bifariam in E, iungatur recta EB, cui ex EA, producta æqualis ſumatur EF; & ipſi AF, abſcindatur ex recta AB, data æqualis AG. Dico rectam AB, ſectã eſſe in G, ita ut rectangulum comprehenſum ſub AB, & BG, æquale ſit quadrato rectæ AG. Ducatur enim per G, recta HI, parallela rectæ DF, ſecans CD, in I; Ac per F, ducatur ipſi AG, parallela FH, ſecans HI, in H. Erit igitur parallelogrãmum AH, quadratum ſegmenti AG, cum omnia eius quatuor latera ſint

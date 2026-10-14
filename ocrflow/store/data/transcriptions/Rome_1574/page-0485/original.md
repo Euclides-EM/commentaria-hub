@@ -10,6 +10,8 @@ tionalis, ſexta, ſeptima, octaua, &c.
 
 ## PROBL. 4. PROPOS. 12.
 
+[Curated heading level=3 type=incipit: TRIBVS]
+
 TRIBVS datis rectis lineis, quartam proportionalem inuenire.
 
 SINT tres lineæ rectæ AB, BC, AD, quibus inueniẽda ſit quarta proportionalis; ſicut quidem AB, ad BC, ita AD, ad quartam. Diſponantur primæ duæ AB, BC, ſecundum lineam rectã, quæ ſit AC: Tertia uero AD, cum prima AB, faciat angulum A, quemcunque. Deinde ex B, ad D, recta ducatur BD, cui per C, parallela ducatur CE, occurrens rectæ AD, productæ, in E, puncto. Dico DE, eſſe quartam proportionalem. Cum enim in triangulo ACE, lateri CE, acta ſit perpendicularis BD, erit ut AB, ad BC, ita AD, ad DE. Quare DE, quarta eſt proportionalis; ac propterea, tribus datis rectis lineis, quartam proportionalem inuenimus. Quod faciendum erat.

@@ -27,6 +27,8 @@ QVOD ſi punctum D, fuerit in altera medietate EC, eodem modo problema conficiem
 39.
 [/Margin]
 
+[Curated heading level=3 type=incipit: TRIANGVLA]
+
 TRIANGVLA æqualia ſuper eadem baſi, & ad eaſdem partes conſtituta; & in eiſdem ſunt parallelis.
 
 SINT duo triangula æqualia ABC, DBC, ſuper eandem baſin BC, & ad eaſdẽ partes; Dico ipſa eſſe inter eaſdem parallelas conſtituta, hoc eſt, rectam ductam AD, parallelam eſſe ipſi BC. Si enim non eſt, ducatur ex A, parallela ipſi BC,

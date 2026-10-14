@@ -12,6 +12,8 @@
 NVMERORVM a binario duplorum unuſquiſque pariter par eſt tantum.
 [/Subhead]
 
+[Curated heading level=3 type=incipit: NVMERI]
+
 NVMERI a binario A, dupli quotcunque ſint B, C, D, E. Dico B, C, D, E, eſſe pariter pares tantum. Quod enim ſint pariter pares, perſpicuum eſt. Nam expoſita unitate,
 
 [Calculation]

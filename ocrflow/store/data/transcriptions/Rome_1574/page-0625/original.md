@@ -28,6 +28,8 @@ Ex hoc ſequitur, numerum, qui ex duobus compoſitus ad unũ illorum primus eſt
 
 ## THEOR. 29. PROPOS. 31.
 
+[Curated heading level=3 type=incipit: OMNIS]
+
 OMNIS primus numerus, ad om-
 
 <!-- Catchword: nem -->

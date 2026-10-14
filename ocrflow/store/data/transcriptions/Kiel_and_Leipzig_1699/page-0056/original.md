@@ -11,16 +11,29 @@ Müssen also jedwedes △es zweene Winckel auff allerley Weise genommen/ kleiner
 
 Jedwedes Dreyeckes längste Seite überspannet den grössesten Winckel.
 
-### Gegebene. Begehrte.
+### Gegebene.
+
 1. △ ABC
-2. AC ⊣ AB 1. ABC ⲗ BCA.
-3. AC ⊣ CB 2. ABC ⲗ BAC.
-4. AB ⊣ CB 3. ACB ⲗ BAC.
+2. AC ⊣ AB
+3. AC ⊣ CB
+4. AB ⊣ CB
+
+### Begehrte.
+
+1. ABC ⲗ BCA.
+2. ABC ⲗ BAC.
+3. ACB ⲗ BAC.
 
 [Diagram: Dreieck ABC mit B oben, A unten links, C unten rechts; Punkte E auf AB, F und D auf AC, punktierte Linien von B nach F und D.]
 
 ### 1. Vorbereitung.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Von dem Strich AC werde abgeschnitten AD | AB, n. 3. Vortr.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Werde der Strich BD gezogen.
 
 ### Beweiß.

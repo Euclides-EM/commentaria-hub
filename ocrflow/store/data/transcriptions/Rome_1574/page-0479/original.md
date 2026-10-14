@@ -16,6 +16,8 @@ partes æquales uſque ad D, punctum, ex quo ad B, recta ducatur DB; & huic para
 12.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DATAM]
+
 DATAM rectam lineam inſectam ſimiliter ſecare, ut data altera recta ſecta fuerit.
 
 SIT recta AB, ſecanda ſimiliter, ut ſecta eſt recta AC, in D, & E, hoc eſt, in partes, quæ ſint partibus AD, DE, EC, proportionales. Coniungantur datæ duæ lineæ ad A, facientes angulum quemcunque BAC, & connectatur recta BC. Deinde ex D, E, agantur DF, EG, parallelæ ipſi BC. Dico rectam AB, ſimiliter eſſe ſectam in F, & G, ut eſt ſecta AC, in D, & E. Nam ut AD, ad DE, ita AF, ad FG; Proportionales ergo ſunt partes AF, FG, partibus AD, DE. Quod ſi ducatur DH, ipſi FB, parallela, ſecans EG, in I, erit rurſus ut DE, ad EC, ita DI, ad IH, hoc eſt, ita FG, ad GB; quod FG, ipſi DI, & GB, ipſi IH, æqualis ſit. Quare proportionales quoque erunt partes FG, GB, partibus DE, EC. Itaque datam rectam lineam inſectam ſimiliter ſecuimus, ut data altera recta ſecta fuit. Quod faciendum erat.

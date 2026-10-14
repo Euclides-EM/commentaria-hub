@@ -26,13 +26,17 @@ Weil nun kein Düttel / ohne allein der Düttel b zu finden / wo die andern beed
 
 Weñ in zweyen Drey-Ecken/ die zween Seiten-Striche des ersten △, denen zween Seiten-Strichen des andern Drey-eckes/ jedweder jedwedem gleich sind / die Grund-Striche aber auch gleich lang sind/ so werden auch die zwischen denen beeden gleich-grossen Seiten begriffene Winckel einander gleich
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
 1. Zwey △ △
-2. AB + AC | ED + DF | BAC ⋏ EDF
+2. AB + AC | ED + DF
 3. AB | ED
 4. AC | DF
 5. BC | EF
+
+### Begehrtes.
+
+BAC ⋏ EDF
 
 <!-- Signature: D 2 -->
 

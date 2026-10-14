@@ -19,6 +19,8 @@ Quoniam igitur eſt ut AB ad E, ita BC, ad F; & CD, ad G; (quod ſemper ſit pro
 
 ## THEOR. 20. PROPOS. 22.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI impares numeri quotcunque componantur, multitudo autem ipſorum ſit par: Totus par erit.
 
 COMPONANTVR quotcunque numeri impares, quorum multitudo par AB, BC, CD, DE. Dico & totum compoſitum AE, parem eſſe. Cum enim AB, BC, CD, DE, ſint impares;
@@ -44,6 +46,8 @@ Eſt autem & multitudo unitatum detractarum par: Igitur & totus AE, compoſitus 
 [Curated heading level=2 type=campanus: 24]
 
 ## THEOR. 21. PROPOS. 23.
+
+[Curated heading level=3 type=incipit: SI]
 
 SI impares numeri quotcunque componantur, multitudo autem ipſorum ſit impar: & totus impar erit.
 

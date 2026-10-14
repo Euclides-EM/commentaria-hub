@@ -8,14 +8,18 @@ Wird also allezeit das gleichseitige □ des Halben und angesetzten Striches so 
 
 ### Nach der Löse-Kunst.
 
-### Gegebenes. | Begehrtes.
+### Gegebenes.
 
-1. c | CD — bb + ca | dd
+1. c | CD
 2. c | 2b
 3. b | BC | DB
 4. c | AC
 5. b + c | AB | d
 6. a | 2b + c
+
+### Begehrtes.
+
+bb + ca | dd
 
 ### Beweiß.
 
@@ -32,11 +36,15 @@ bb + ca | dd — n. 3. Gr. I. W. Z. B.
 
 [Diagram: Waagerechter Strich mit den Punkten A, B, C, D, E.]
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-c | AC | DE — dd | fc + bb
+c | AC | DE
 b | CB | BD
 c + b | d | AB | BE
 d + b | f | AD
+
+### Begehrte.
+
+dd | fc + bb
 
 <!-- Catchword: Be- -->

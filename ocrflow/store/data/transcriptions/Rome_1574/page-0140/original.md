@@ -39,6 +39,8 @@ Tiiãguli enim A B C, productis lateribus AB, AC, ad D, & E, fiant anguli D B C,
 7.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SVPER]
+
 SVPER eadem recta linea, duabus eiſdem rectis lineis aliæ duæ rectæ lineæ æquales, utraque utrique, non conſtituentur, ad
 
 <!-- Signature: D 4 -->

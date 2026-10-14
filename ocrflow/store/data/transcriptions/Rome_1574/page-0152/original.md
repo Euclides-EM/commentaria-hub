@@ -22,6 +22,8 @@ BREVIVS lineam perpendicularem erigemus ex puncto dato, ſiue extremum illud ſi
 12.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SVPER]
+
 SVPER datam rectam lineam infinitam, a dato puncto, quod in ea non eſt, perpendicularem rectam deducere.
 
 SIT recta A B, interminatæ quantitatis, & extra ipſam punctum C, a quo oporteat lineam perpendicularem deducere ad rectam A B. Cẽtro C, interuallo vero quolibet circulus deſcribatur ſecans A B, in D, & E. (quóniam interuallum aſſumptum tantum eſſe debet, vt tranſcendat rectam A B; alias eam non ſecaret.) Diuiſa autem recta D E, bifariam in F, ducatur recta C F, quam dico perpendicularẽ eſſe ad A B. Si enim ducantur C D, C E, erunt duo latera D F, F C, trianguli D F C, æqualia duobus lateribus E F,

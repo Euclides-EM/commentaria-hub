@@ -1,11 +1,17 @@
-### Data (Gegebene.)          Quæsita (Begehrte.)
+### Data (Gegebene.)
 
-1. Duo rectilinea triangula
-   ABC & abc                    BC | bc
-2. AB + AC | ab + ac            ABC ⋏ abc
-3. AB      | ab                 BCA ⋏ bca
-4.      AC |      ac            CBA ⋏ cba
+1. Duo rectilinea triangula ABC & abc
+2. AB + AC | ab + ac
+3. AB      | ab
+4.      AC |      ac
 5. BAC ⋏ bac
+
+### Quæsita (Begehrte.)
+
+BC | bc
+ABC ⋏ abc
+BCA ⋏ bca
+CBA ⋏ cba
 
 ### Præparatio I. (Vorbereitung.)
 

@@ -24,6 +24,8 @@ conſtituemus pẽtagonum æquilaterum, & æquiangulum, hoc modo. Fiat triangulu
 12.
 [/Margin]
 
+[Curated heading level=3 type=incipit: CIRCA]
+
 CIRCA datum circulum, pentagonũ æquilaterum, & æquiangulum deſcribere.
 
 SIT circa datum circulum A B C D E, deſcribendum pentagonum æquilaterum, & æquiangulum. Inſcribatur in eo pentagonum æquilaterum, & æquiangulum A B C D E, & ex centro F, ducantur rectæ F A, F B, F C, F D, F E, ad quas ducant᷑ perpendiculares G H, H I, I K, K L, L G, coeuntes in G, H, I, K, L. Cum .n. anguli G A E, G E A, duobus ſint rectis minores, coibunt rectæ A G, E G, ad partes G; & ſic de alijs. Et quia ipſæ tangunt circulum, per coroll. propos. 16. lib. 3. erit deſcriptum pentagonum G H I K L, circa circulum; quod dico eſſe æquilaterum, ac æquiangulum. Ductis enim rectis F G, F H, F I, F K, F L; erunt quadrato rectæ F H, æqualia tam quadrata rectarum F A, A H, quam rectarum F B, B H: Quare quadrata rectarum F A, A H, æqualia erunt quadratis rectarum F B, B H. Demptis igitur quadratis æqualibus rectarum æqualium F A, F B, remanebũt quadrata rectarũ A H, B H, æqualia; ideoq; & rectæ A H,

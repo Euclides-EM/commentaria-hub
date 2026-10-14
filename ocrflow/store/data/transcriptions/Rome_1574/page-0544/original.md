@@ -15,11 +15,15 @@ IN parallelogrammo ABCD, duæ rectæ EF, GH, lateribus AD, DC, parallelæ ſe mu
 11. quinti.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: XII.]
+
 [Margin]
 XII.
 [/Margin]
 
-#### OMNE quadrilaterum a duabus diametris ſe mutuo ſecantibus diuiditur in quatuor triangula proportionalia.
+[Curated heading level=4: OMNE]
+
+OMNE quadrilaterum a duabus diametris ſe mutuo ſecantibus diuiditur in quatuor triangula proportionalia.
 
 DIVIDANT diametri AC, BD, ſe mutuo ſecantes in E, quadrilaterum ABCD. Dico quatuor triangula AED, CED, AEB, CEB, eſſe proportionalia. Erit enim vt AE, ad EC, ita triangulum AED, ad triangulum CED; & triangulum AEB, ad triangulum CEB. Quare vt triangulum AED, ad triangulum CED; ita triangulum AEB, ad triangulum CEB. Eademq́; ratione oſtendes eſſe ut BEA, ad DEA, ita BEC, ad DEC, cum vtraq; proportio eadem ſit proportioni BE, ad ED. Conſtat ergo propoſitum.
 
@@ -29,11 +33,15 @@ DIVIDANT diametri AC, BD, ſe mutuo ſecantes in E, quadrilaterum ABCD. Dico qua
 1. ſexti.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: XIII.]
+
 [Margin]
 XIII.
 [/Margin]
 
-#### A DATO puncto in latere trianguli lineam rectam ducere, quæ triangulum diuidat in duo ſegmenta ſecundum proportionem datam.
+[Curated heading level=4: A DATO]
+
+A DATO puncto in latere trianguli lineam rectam ducere, quæ triangulum diuidat in duo ſegmenta ſecundum proportionem datam.
 
 SIT triangulum ABC, oporteatque a dato puncto D, in eius latere BC, lineam rectam ducere, quæ triangulum ſecet in duo ſegmẽta ſecundum proportionem datam E, ad F. Diuidatur BC, in G, ſecundum proportionẽ E, ad F, cadatq́; primo punctum G, in datum punctum D, ducaturq́; recta DA. Quoniam igitur eſt vt BD, ad DC, ita triangulum BDA, ad triangulum CDA, ſecabit recta DA, triangulum datum ſecundum proportionem datam BG, ad GC, hoc eſt, E, ad F.
 

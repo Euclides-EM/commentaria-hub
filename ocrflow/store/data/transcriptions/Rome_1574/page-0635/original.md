@@ -21,6 +21,8 @@ PARI ratione; Pluribus numeris datis, quam tribus, reperiemus, quem illi minimum
 
 ## THEOR. 34. PROPOS. 39.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI numerum quiſpiam numerus metiatur; ille, quem metitur, partem habebit a metiente denominatam.
 
 METIATVR numerum A, numerus B. Dico A, habere partem aliquã a B, denominatam. Metiatur enim B, ipſum A, toties, quot unitates ſunt in numero G. Quia igitur unitas ipſum C, & B, ipſum A, æque metitur; & uiciſſim unitas æque ipſum B, & C, ipſum A, metietur; atque adeo eadem pars erit unitas ipſius B, quæ C, ipſius A: Eſt autem unitas pars ipſius B, denominata ab ipſo B, ut ad defin. 2. huius lib. docuimus. Igitur & C, pars

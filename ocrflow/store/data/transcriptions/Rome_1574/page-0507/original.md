@@ -4,6 +4,8 @@
 
 quoque proportio ABC, ad DEF, compoſita ex proportionibus laterum BC, AC, ad latera EF, DF.
 
+[Curated heading level=4 type=numbered_item: II.]
+
 [Margin]
 II.
 [/Margin]
@@ -14,6 +16,8 @@ HOC, quo modo fiat, facile colligitur ex demonſtratione huius propoſ. 23. Sint
 
 [Figure: ten horizontal lines of varying lengths labelled A, B, C, D, E, F, G, H, I and K]
 
+[Curated heading level=4 type=numbered_item: III.]
+
 [Margin]
 III.
 [/Margin]
@@ -23,6 +27,8 @@ PROPORTIONEM minorem ex maiore auferre.
 SIT proportio A, ad B, minor auferenda ex proportione maiore C, ad D. Fiat, ut A, ad B, ita C, ad E; ſtatuaturque E, terminus medius inter C, & D. Dico ablatam eſſe proportionem A, ad B, ex proportione C, ad D, reliquamque eſſe proportionem E, ad D. Cum enim proportio C, ad D, componatur ex proportionibus C, ad E, & E, ad D: Si proportio C, ad E, hoc eſt A, ad B, auferatur, relinquetur proportio E, ad D.
 
 [Figure: five horizontal lines of varying lengths labelled A, B, C, E and D]
+
+[Curated heading level=4 type=numbered_item: IIII.]
 
 [Margin]
 IIII.

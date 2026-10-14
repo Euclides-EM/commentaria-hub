@@ -32,6 +32,8 @@ SINT ſecundo eadem parallelogramma æqualia inter eaſdem parallelas AH, BG. Di
 
 ## THEOR. 27. PROPOS. 37.
 
+[Curated heading level=3 type=incipit: TRIANGVLA]
+
 TRIANGVLA ſuper eadẽ baſi cõſti-
 
 [Margin]

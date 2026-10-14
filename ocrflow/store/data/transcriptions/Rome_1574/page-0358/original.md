@@ -16,6 +16,8 @@ I G, I H, æquales erunt, ac propterea circulus deſcriptus ex I, ad interuallum
 9.
 [/Margin]
 
+[Curated heading level=3 type=incipit: CIRCA]
+
 CIRCA datum quadratum circulum deſcribere.
 
 SIT deſcribendus circulus circa quadratum A B C D. Ducantur diametri A C, B D, ſecantes ſe in E. Quoniam igitur latera A B, D A trianguli A B D, æqualia ſunt; erunt anguli A B D, A D B, æquales: eſt autẽ angulus B A D, rectus; Quare A B D, A D B, ſemirecti erunt. Similiter oſtendemus, reliquos omnes angulos ad A, B, C, D, eſſe ſemirectos, & idcirco inter ſe æquales. Cum ergo anguli E A D, E D A, ſint æquales; erunt rectæ E A, E D, æquales. Eadem ratione E A, E B, æquales erunt; nec non E B, E C; Item E C, E D. Quare circulus ex E, deſcriptus, interuallo E A, tranſibit per reliqua puncta B, C, D. Circa datum ergo quadratum circulũ deſcripſimus, quod erat faciendũ.

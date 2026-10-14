@@ -12,6 +12,8 @@ tas in omni genere proportionis rationalis appareret. Theon enim, & nonnulli ali
 
 ## THEOR. 12. PROPOS. 14.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint quotcunque numeri, & alij illis æquales multitudine, qui bini ſumantur, & in eadem ratione: Etiam ex æqualitate in eadem ratione erunt.
 
 SINT quotcunque numeri A, B, C, & alij totidem D, E, F, ſitque ut A, ad B, ita D, ad E; & ut B, ad C, ita E, ad F. Dico ex æqualitate quoque eſſe ut A, ad C, ita D, ad F. Quoniam eſt, ut A, ad B, ita D, ad E; erit uiciſſim, ut A, ad D, ita B, ad E: Similiterque, eadem ob cauſam, cum ſit, ut B, ad C, ita E, ad F; erit uiciſſim, ut B, ad E, ita C, ad F. Igitur erit ut A, ad D, ita C, ad F; Cũ enim utraque proportio A, ad D, & C, ad F, eadem ſit pro

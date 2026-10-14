@@ -9,6 +9,8 @@
 
 [Diagram: rows of dotted lines labelled A, C; B, D]
 
+[Curated heading level=4 type=numbered_item: II.]
+
 [Margin]
 II.
 [/Margin]
@@ -27,6 +29,8 @@ Si compoſiti numeri proportionales ſint: Hi quoque diuiſi proportionales erun
 13. ſeptimi
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: III.]
+
 [Margin]
 III.
 [/Margin]
@@ -44,6 +48,8 @@ Si diuiſi numeri proportionales ſint; Hi quoque compoſiti proportionales erun
 
 13. ſeptimi
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: IIII.]
 
 [Margin]
 IIII.

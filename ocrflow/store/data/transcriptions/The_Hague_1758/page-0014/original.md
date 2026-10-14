@@ -2,13 +2,19 @@
 
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 3.]
+
 [Figure: Fig. 3. a straight line A B with dotted curved lines below]
+
+[Curated heading level=1 type=figures: Fig. 4.]
 
 [Figure: Fig. 4. a shaded rectangle labelled A, B, C, D]
 
+[Curated heading level=1 type=figures: Fig. 5.]
+
 [Figure: Fig. 5. a shaded rectangular solid labelled A, C, D, E, F, G]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### III.
 

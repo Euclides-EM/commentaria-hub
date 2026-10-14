@@ -17,6 +17,8 @@ SINT tres rectæ AB, BC, CD; oporteatq́ue inuenire quartam, quæ ad CD, tertiam
 9.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DVABVS]
+
 DVABVS datis rectis lineis, mediam proportionalem adinuenire.
 
 SINT duæ rectæ AB, BC, quibus media inuenienda eſt proportionalis, diſpoſitæ ſecundum lineam rectam AC. Diuiſa AC, bifariam in E, ex E, centro, & interuallo EA, uel EC, ſemicirculus deſcribatur ADC; Deinde ex B, ad AC, perpendicularis educatur BD, ad circumferentiam uſque. Dico BD, eſſe mediam proportionalẽ. Ductis enim rectis AD, CD, erit angulus ADC, rectus in ſemicirculo exiſtens. Cum igitur ex angulo recto ADC, trianguli rectanguli ADC, deducta ſit ad baſin AC, perpendicularis DB; erit per corollarium 8. propos. huius lib. BD, media proportionalis inter AB, & BC. Duabus ergo datis rectis lineis, mediã proportionalem adinuenimus. Quod erat faciendum.

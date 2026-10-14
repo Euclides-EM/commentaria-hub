@@ -12,13 +12,17 @@ Wenn derowegen aus vier Grössen die I. zu der II. in solcher Verhältnüß / wi
 
 Wenn die Erste Grösse eben so vielfältig ist gegen die Andere Grösse / als das von der Ersten abgenommene Stück gegen das von der andern abgenommene Stück: So wird auch das Erste Übergebliebene gegen das Andere Übergebliebene eben so vielfältig seyn / als die Erste gantze Grösse gegen die Andere gantze Grösse.
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
 [Diagram: Zwey waagerechte Linien mit Teilstrichen, bezeichnet A und B]
 
 1. A | 2B
-2. a | 2b — A—a : B—b | A : B
+2. a | 2b
 3. A : B | a : b
+
+### Begehrtes.
+
+A—a : B—b | A : B
 
 ### Beweiß.
 

@@ -39,6 +39,8 @@ ALITER hoc theorema, a familiaribus Heronis, & Porphyrij demonſtratur, nullo la
 21.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſuper trianguli uno latere, ab extremitatibus duæ rectæ lineæ interius conſtitutæ fuerint; hæ conſtitutæ reliquis trianguli duobus lateribus minores quidem erunt,
 
 <!-- Catchword: maio- -->

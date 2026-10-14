@@ -5,6 +5,8 @@ ter par nuncupabitur, cum eum par numerus 4. metiatur per numerum parem 6. &c.
 
 ### IX.
 
+[Curated heading level=4 type=incipit: PARITER]
+
 PARITER autem impar eſt, quem par numerus metitur per numerum imparem.
 
 QVOD ſi numerum parem metiatur numerus par per imparem numerum, vocabitur is pariter impar. Qualis eſt par numerus 30. Metitur enim eum numerus par 2. per imparem numerum 15. Sic quoque par numerus 6. metitur eundem per numerum imparem 5. &c.

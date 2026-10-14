@@ -10,7 +10,7 @@ u. | CE | CF | n. 9. V.
 Dw. | CDE ⋏ CDF | n. 8. I.
 welches unmüglich n. 9. Gr. I.
 
-III. Ahrt Vorbereitung.
+### III. Ahrt Vorbereitung.
 
 Es werde 1. CEG ⋏ bca
 und 2. ECG ⋏ abc   n. 23. I.

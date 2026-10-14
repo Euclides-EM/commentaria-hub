@@ -30,6 +30,8 @@ HABEAT primo A, ad C, maiorem proportionem, quam B, ad eandem C. Dico A, maiorem
 11.
 [/Margin]
 
+[Curated heading level=3 type=incipit: QVAE]
+
 QVAE eidem ſunt eædem rationes, & inter ſe ſunt eædem.
 
 SINT proportiones A, ad B; & C, ad D, eædem proportioni E, ad F. Dico & proportiones A, ad B, & C, ad D, eaſdem eſſe inter ſe. Sumantur enim ad omnes antecedentes A, C, E, æque multiplices quęcunque G, H, I; & ad omnes conſequentes B, D, E{printer-error-correction:F}, aliæ quæcunque æque multiplices K, L, M. Quoniam igitur ponitur eſſe A, prima ad B, ſecundam, ut E, tertia ad F, quartam;

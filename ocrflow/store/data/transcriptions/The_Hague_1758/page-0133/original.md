@@ -32,9 +32,13 @@ Dem. 1.
 Prop. 18. L. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. L’angle FBE eſt un ∟.
 
 Mais ∠ ABE étant auſſi un ∟ (*Hyp.* 2.).
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. L’angle ABE eſt = à ∠ FBE ; ce qui eſt impoſſible.
 
@@ -42,6 +46,8 @@ Mais ∠ ABE étant auſſi un ∟ (*Hyp.* 2.).
 Ax. 10. L. 1.
 Ax. 8. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. C’eſt pourquoi le centre C ſera neceſſairement dans la droite BA.
 

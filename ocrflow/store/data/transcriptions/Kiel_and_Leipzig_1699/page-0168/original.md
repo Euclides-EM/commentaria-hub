@@ -23,7 +23,12 @@ Wann der inwendige Kreyß den eussern in h und g anrühret.
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 So seyen 1. die beeden Mittel-Düpffele e und f.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. darnach werden aus den Anrührungs-Dütteln die Stralen hf, he, gf und ge, zu den beeden Mittel-Düpffeln gezogen.
 
 ### Beweiß.

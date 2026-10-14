@@ -9,6 +9,8 @@ SIT ſegmentum circuli quodcunq; ABC, cuius baſis recta AC: Ex ſuſcepto quoli
 
 ### VIII.
 
+[Curated heading level=4 type=incipit: CVM]
+
 CVM vero comprehendentes angulũ rectæ lineæ aliquam aſſumũt peripheriam, illi angulus inſiſtere dicitur.
 
 [Diagram: circle with A at top, D and B at the sides, and C at bottom, with triangle ABD inscribed]

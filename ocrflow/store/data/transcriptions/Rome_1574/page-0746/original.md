@@ -17,6 +17,8 @@ Si igitur adiiciantur 1. 3. 9. 27. 81. 243. 729. 2187. in unum, habebitur tota �
 39.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ab unitate quotcunque numeri deinceps, exponantur in dupla proportione, quoad totus compoſitus fiat primus; & totus hic in ultimum multiplicatus faciat aliquem: Factus erit perfectus.
 
 SINT ab unitate quotcunque numeri A, B, C, D, dupli; quoad E, ex illis compoſitus ſit primus; & E, multiplicans D, ultimum faciat F. Dico F, eſſe numerum perfectum.

@@ -11,6 +11,8 @@ metiri cubum B. Eodem enim argumento erit, ut C, ad D, ita A, ad H, propterea qu
 15.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI quadratus numerus quadratum numerum non metiatur; neq; latus unius metietur alterius latus. Et ſi latus unius quadrati non metiatur latus alterius: neq; quadratus quadratum metietur.
 
 SINT quadrati A, & B, quorum latera C, & D; Non metiatur autem A, ipſum B. Dico neque C, latus metiri latus D. Si enim fieri poteſt, metiatur C, ipſum D. Quia igitur C, latus quadrati A, metitur D, latus quadrati B; metietur & quadratus A, quadratum B. Quod eſt abſurdum; Ponitur enim non metiri. Non ergo latus C, metietur latus D.

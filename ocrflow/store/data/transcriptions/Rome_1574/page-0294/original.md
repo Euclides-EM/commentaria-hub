@@ -10,6 +10,8 @@
 9.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI in circulo acceptum fuerit punctum aliquod, & ab eo puncto ad circulum cadant plures, quam duæ rectæ lineæ æquales; acceptum punctum centrum eſt ipſius circuli.
 
 A puncto aſſumpto A, in circulo B C D, cadant plures rectæ, quam duæ, A B, A C, A D, inter ſe æquales: Dico A, punctum eſſe centrum circuli. Connectantur enim puncta B, C, D, rectis B C, C D; quibus diuiſis bifariam in E, & F, ducantur ex A, rectæ A E, A F. Quoniam igitur latera A E, E B, trianguli A E B, æqualia ſunt lateribus A E, E C, trianguli A E C; & baſes A B, A C, ponuntur etiam æquales; erunt anguli A E B, A E C, æquales, ideoque recti. Eodem modo oſtendemus, angulos ad F, eſſe rectos. Quare cum rectæ A E, A F, diuidant rectas B C, C D, bifariam, & ad angulos rectos; tranſibit utraque producta per centrum circuli, per corollarium propos. 1. huius lib. Punctum igitur A, in quo ſe mutuo ſecant, centrum ſerit circuli. Si enim eſſet aliud punctum centrum, non tranſiret utraque per centrum. Si itaque in circulo acceptum fuerit punctum, &c. Quod demonſtrandum erat.

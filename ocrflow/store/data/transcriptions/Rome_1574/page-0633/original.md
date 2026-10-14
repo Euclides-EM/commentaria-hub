@@ -19,6 +19,8 @@ METIANTVR duo numeri A, & B, quemlibet numerum CD, ſitque alius numerus E, mini
 36.
 [/Margin]
 
+[Curated heading level=3 type=incipit: TRIBVS]
+
 TRIBVS numeris datis, reperire, quẽ illi minimum metiantur, numerum.
 
 SIT inueniendus minimus numerus, quem dati tres numeri A, B, C, metiantur. Inuento D, minimo, quem metiantur duo A, & B; metietur & eundem D, reliquus C, aut non metietur. Metiatur primo C, ipſum D, ita ut omnes tres A, B, C, ipſum D, metiantur. Dico numerum D, minimum inuentum, quem A, & B, metiantur, minimum quoque eſſe, quẽ tres A, B, C, metiantur. Si enim D, non eſt minimus, me

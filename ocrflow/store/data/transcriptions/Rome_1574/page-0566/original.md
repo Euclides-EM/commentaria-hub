@@ -9,6 +9,8 @@ PARI ratione infertur, maioris numeri ad eundem, maiorem proportionem eſſe, qu
 
 ### XXI.
 
+[Curated heading level=4 type=incipit: SIMILES]
+
 SIMILES plani, & ſolidi ſunt, qui proportionalia habent latera.
 
 NON neceſſe eſt, vt planus numerus plano numero ſit ſimilis, quælibet duo illius latera quibuſuis duobus lateribus huius eſſe proportionalia; ſed ſatis eſt, illum habere aliqua duo latera, quæ ſint proportionalia quibuſdam duobus lateribus huius. Nam hac ratione erunt eorum latitudines longitudinibus proportionales, ſi ſecundũ ſuas vnitates in formam planã redigantur, prout latera aſſumpta exigunt. Vt numeri plani 24. & 6. ſimiles ſunt, quoniã illius latera 6. 4. proportionalia ſunt lateribus huius 3. 2. quamuis his eiſdem non ſint proportionalia alia illius latera, nempe 8. 3. vel 12. 2.

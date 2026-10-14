@@ -7,6 +7,8 @@ OMNIS autem pars ab eo numero nomen ſibi ſumit, per quem ipſa numerum, cuius 
 
 ### IIII.
 
+[Curated heading level=4 type=incipit: PARTES]
+
 PARTES autem, cum non metitur.
 
 VVLT Euclides, numerum minorem maioris numeri, quem nõ metitur, non partem, ſed partes appellari: cuiuſmodi eſt numerus 5. ſi conferatur cum hoc numero 18. Quamuis enim, cũ eum non metiatur, niſi per ſuas vnitates, pars dici non debeat; apte tamen congruenterque partes poterit appellari, quod quinque contineat vnitates, quarum quælibet decimaoctaua pars eſt huius numeri 18. Vnde numerum 5. dicemus quinque partes decimasoctauas numeri 18. Ex quibus liquido conſtat, Euclidem nomine partis intellexiſſe partem aliquotam tantum, nõ autem & aliquantum, vt volunt nonnulli; alioquin ſuperuacanea eſſet hæc definitio quarta, quæ partem aliquantam comprehendit.

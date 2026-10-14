@@ -51,6 +51,8 @@ SECET iam recta DE, latera AB, AC, proportionaliter. Dico DE, parallelam eſſe 
 3.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI trianguli angulus bifariam ſectus ſit, ſecans autem angulum recta linea ſecuerit & baſin: baſis ſegmenta eandem habebunt
 
 <!-- Catchword: rationem -->

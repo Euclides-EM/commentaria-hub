@@ -12,6 +12,8 @@
 
 ## PROBL. 1. PROPOS. 1.
 
+[Curated heading level=3 type=incipit: DATI]
+
 DATI circuli centrum reperire.
 
 [Diagram: circle with B at top, A at left, C at right, D at bottom; points E, F, G inside with connecting lines]

@@ -12,6 +12,8 @@ AB æqualibus AB, CD, auferantur inæqualia BE, DF. Sitq́; EG, exceſſus, quo 
 
 ### XVII.
 
+[Curated heading level=4 type=incipit: SI]
+
 SI ab inæqualibus æqualia demantur, erit reſiduorum exceſſus, exceſſui totorum æqualis.
 
 AB inæqualibus AB, CD, auferantur æqualia AE, CF. Sitq́; BG, exceſſus, quo tota quãtitas AB, ſuperat totam quantitatem CD, ita vt AG, æqualis ſit ipſi CD. Quoniam igitur ab æqualibus AG, CD, ablata ſunt æqualia AE, CF, remanebunt EG, FD, æqualia. Quare reſiduum EB, ſuperabit reſiduum FD, eodem exceſſu BG, quo tota quantitas AB, ſuperat totam quantitatem CD. Quod eſt propoſitum.

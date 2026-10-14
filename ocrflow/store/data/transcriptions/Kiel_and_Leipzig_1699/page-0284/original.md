@@ -2,10 +2,10 @@
 
 <!-- Page number: 267 -->
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
 a ____
-b ______ | a : b | A : B.
+b ______
 A __c__d__e__f__
 B __g__h__i__k__
 
@@ -14,9 +14,18 @@ B __g__h__i__k__
 4a | A
 4a | B
 
+### Begehrtes.
+
+a : b | A : B.
+
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Es werde A in vier gleiche Theile getheilet/ daß c | a, d | a, e | a und f | a, n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Auch werde B also getheilet/ daß g | b, h | b, i | b, und k | b, werde. n. 3. I.
 
 ### Beweiß.

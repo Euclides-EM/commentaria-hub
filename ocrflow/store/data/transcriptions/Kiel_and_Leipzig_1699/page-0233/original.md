@@ -24,10 +24,15 @@ Ein gleichschenckliches Dreyeck zu machen/
 dessen jeder Grundwinckel noch einmahl so groß/
 als der Gipffelwinckel.
 
-### Gegebene. — Begehrte.
-1. Gleichgrosse Schenckel — 1. Gleichschencklichtes Dreyeck
-2. jedweder Grundwinckel noch einmahl so groß als der Gipffelwinckel. — 2. in welchem der Gipffelwinckel halb so groß als ein Grund-
-winckel.
+### Gegebene.
+
+1. Gleichgrosse Schenckel
+2. jedweder Grundwinckel noch einmahl so groß als der Gipffelwinckel.
+
+### Begehrte.
+
+1. Gleichschencklichtes Dreyeck
+2. in welchem der Gipffelwinckel halb so groß als ein Grundwinckel.
 
 [Diagram: links ein Quadrat mit Punkten A, C, B auf der Grundlinie und einem Kreisbogen; rechts ein punktierter großer Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c und d]
 

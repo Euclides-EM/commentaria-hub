@@ -8,6 +8,8 @@
 
 ## THEOR. 21. PROPOS. 21.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint tres magnitudines, & aliæ ipſis æquales numero, quæ binæ, & in eadem ratione ſumantur, fueritque perturbata earum proportio; ex æquo autem prima quã tertia maior fuerit: erit & quarta, quam ſexta, maior. Quod ſi prima tertiæ fuerit æqualis, erit & quarta æqualis ſextæ; ſin illa minor, hæc quoque minor erit.
 
 SINT tres magnitudines A, B, C, & totidem D, E, F; Sitque earum proportio perturbata, hoc eſt, ſit ut A, ad B, ita E, ad F, & ut B, ad C, ita D, ad E; Sit autem primo A. prima maior quam C, tertia. Dico & D, quartam eſſe maiorem ſexta F. Cum enim A, maior ſit quam C, erit maior proportio A, ad B, quam C, ad B; eſt autem ut A, ad B, ita E, ad F: Maior ergo proportio eſt E, ad F, quam C, ad B. Quoniam uero ut B, ad C, ita D, ad E, erit conuertendo ut C, ad B, ita E, ad F. Quare maior erit proportio E, ad F, quam E, ad D; Ideoque maior erit D, quam F; quod eſt propoſitum.

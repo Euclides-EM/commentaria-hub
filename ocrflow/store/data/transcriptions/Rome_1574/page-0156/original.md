@@ -31,6 +31,8 @@ RECTE Euclides addidit in propoſitione hac: & non ad eaſdem partes. Quoniam vt
 15.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duæ rectæ lineæ ſe mutuo ſecuerint, angulos ad verticẽ æquales inter ſe efficiẽt.
 
 SECENT ſe duæ rectæ A B, C D, in puncto E, vtcũq;. Dico angulos, quos faciunt ad verticem E, inter ſe eſſe æquales, angulum videlicet A E D, angulo B E C,

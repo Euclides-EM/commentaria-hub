@@ -8,6 +8,8 @@
 10.
 [/Margin]
 
+[Curated heading level=3 type=incipit: CIRCVLVS]
+
 CIRCVLVS circulum in pluribus, quam duobus punctis non ſecat.
 
 SECET enim, ſi fieri poteſt, circulus ABCDEF, circulũ AGBDHE, in pluribus, quã duobus, punctis A, B, & D, quæ iungantur rectis AB, BD: quibus bifariam diuiſis in I, & K, educantur ex I, & K, ad AB, & BD, perpendiculares IL, KL. Quoniam igitur rectæ IL, KL, ſecant rectas AB, BD, in circulo AGBDHE, bifariam, & ad angulos rectos; tranſibit utraq; ex corollario propos. 1. huius lib. per centrũ ipſius. Quare punctum L, in quo ſe diuidunt, erit centrũ dicti circuli. Eodem modo demonſtrabimus, punctum L, eſſe centrum circuli ABCDEF. Duo igitur circuli ſe mutuo ſecantes idem poſſident centrum. quod eſt abſurdum. Circulus ergo circulum in pluribus, quam duobus punctis non ſecat. Quod erat demonſtrandum.
@@ -41,6 +43,8 @@ ALITER. Secent ſe ijdem duo circuli, ſi fieri poteſt, in tribus punctis A, & 
 [Margin]
 11.
 [/Margin]
+
+[Curated heading level=3 type=incipit: SI]
 
 SI duo circuli ſe ſe intus contingant, atque accepta fuerint eorum centra; ad eorum centra adiuncta recta linea, & produ-
 

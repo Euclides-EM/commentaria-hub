@@ -18,6 +18,8 @@ HIC autem defectus DB, uel exceſſus, in rectangulis quidem eſſe poteſt uel 
 
 ## THEOR. 1. PROPOS. 1.
 
+[Curated heading level=3 type=incipit: TRIANGVLA]
+
 TRIANGVLA & parallelogramma, quorum eadem fuerit altitudo, ita ſe habent inter ſe, ut baſes.
 
 SINT duo triangula ABC, DEF, quorum baſes BC, EF; habentia eandem altitudinem. Item duo parallelogramma CG, EH, eiuſdem altitudinis, quorum eædem baſes BC, EF. Dico ita eſſe triangulum ABC, ad triangulum DEF; & parallelogrammum CG, ad parallelogrammum EH, ut eſt baſis BC, ad baſin EF. Collocentur enim tam triangula, quam parallelogramma inter eaſdem parallelas GH, LN. (Nam ut in defin. 4. di-

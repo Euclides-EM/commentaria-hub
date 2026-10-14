@@ -9,6 +9,8 @@
 
 ### I.
 
+[Curated heading level=4 type=incipit: OMNE]
+
 OMNE parallelogrammum rectangulum contineri dicitur ſub rectis duabus lineis, quæ rectum comprehendunt angulũ.
 
 {dropcap:A|lines=7|style=decorated}GIT Euclides in ſecundo hoc libro de potentijs linearum rectarum, inquirendo, quanta ſint & quadrata partiũ cuiuſuis lineæ rectæ diuiſæ, & parallelogramma rectãgula ſub partibus eiuſdem lineæ diuiſæ comprehenſa, tam inter ſe, quàm comparata cum quadrato totius lineæ, &c. Quod ut commode exequatur, explicat prius duabus definitionibus duo ad ea, quæ demonſtranda ſunt, rectè intelligenda maxime neceſſaria.

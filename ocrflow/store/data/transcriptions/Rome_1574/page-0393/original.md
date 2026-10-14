@@ -6,6 +6,8 @@ propoſitæ quantitates habeant. Itaque ut inquit, uult Euclides, ſi magnitudo 
 
 ### VI.
 
+[Curated heading level=4 type=incipit: IN]
+
 IN eadem ratione magnitudines dicuntur eſſe, prima ad ſecundã, & tertia ad quartam, cum primæ & tertiæ æque multiplicia, a ſecundæ & quartæ æquemultiplicibus, qualiſcunque ſit hæc multiplicatio, utrunque ab utroque uel una deficiunt, uel una æqualia ſunt, uel una excedunt; ſi ea ſumãtur, quæ inter ſe reſpondent.
 
 EXPLICAT hoc in loco Euclides, quænam conditiones requirant apud Geometras, magnitudines, ut eandem dicantur habere proportionem. Quod ut rectius exequatur, cogitur confugere ad earum æquemultiplicia, ut complectatur omnes proportiones magnitudinum, tam rationales,

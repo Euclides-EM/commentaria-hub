@@ -17,6 +17,8 @@ norem peripheria DEF. Ductis enim rectis AG, GC, DH, HF, erunt latera AG, GC, tr
 
 ## THEOR. 26. PROPOS. 29.
 
+[Curated heading level=3 type=incipit: IN]
+
 IN æqualibus circulis, æquales peripherias, æquales rectæ lineæ ſubtendunt.
 
 IN circulis eiſdem æqualibus, ponantur æquales peripheriæ ABC, DEF; Item AC, & DF. Dico rectas AC, DF, quæ eas ſubtendunt, eſſe æquales. Ductis enim lineis, ut prius, erunt latera AG, GC, trianguli AGC, æqualia lateribus DH, HF, trianguli DHF; Sunt autẽ & anguli G, H, æquales, quod æqualibus peripherijs AC, DF, inſiſtant: Igitur baſes AC, DF, æquales erunt. In æqualibus ergo circulis, æquales peripherias, &c. Quod erat oſtendendum.

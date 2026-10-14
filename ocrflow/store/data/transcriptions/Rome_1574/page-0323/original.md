@@ -21,6 +21,8 @@ ALITER. Ductis rectis DF, CF, ad pũctũ circũferẽtiæ quoduis F, includẽti
 21.
 [/Margin]
 
+[Curated heading level=3 type=incipit: QVADRILATERORVM]
+
 QVADRILATERORVM in circulis deſcriptorum anguli, qui ex aduerſo, duobus rectis ſunt æquales.
 
 IN circulo, cuius cẽtrũ E, inſcriptũ ſit quadrilaterũ ABCD. Dico duos angulos oppoſitos ABC, CDA: Itẽ BCD, DAB, æquales eſſe duobus rectis. Ductis .n. diametris AC, BD, erunt duo anguli ABD, ACD, ĩ eodẽ ſegmẽto ABCD, ęquales. Similiter erũt duo anguli CBD, CAD, in eodẽ ſegmẽto CBAD, æquales. Quare duo anguli ABD, CBD, hoc eſt, totus angulus ABC, æqualis eſt duobus angulis ACD, CAD. Addito igit̃ cõi angulo CDA, erũt duo anguli ABC, CDA, æquales tribus angulis ACD, CAD, CDA: Sed hi tres æquales ſunt duobus rectis; igitur & duo

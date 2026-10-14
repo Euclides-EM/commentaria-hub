@@ -4,8 +4,16 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 So ziehe man 1. aus dem Anrührungs-Düttel b einen geraden Strich/durch die beeden Mittel-Düpffele o und d, zu dem eussersten Kreyß.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Es werden zu dem andern Anrührungs-Düttel aus dem Mittel-Düpffel o, wie auch
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. aus d gerade Striche oa und da gezogen.
 
 ### Beweiß.

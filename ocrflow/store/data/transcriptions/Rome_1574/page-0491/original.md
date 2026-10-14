@@ -16,6 +16,8 @@ IDEM uerum eſt, etiam ſi parallelogramma AC, EG, non ſint rectangula, dummodo
 16.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI tres rectæ lineæ ſint proportionales: quod ſub extremis comprehenditur rectangulum, æquale eſt ei, quod a media deſcri bitur, quadrato. Et ſi ſub extremis comprehenſum rectangulum æquale ſit ei, quod a media deſcribitur, quadrato: illæ tres rectæ lineæ proportionales erunt.
 
 SINT tres lineæ rectæ AB, EF, & BC, proportionales, ut quidem AB, ad EF, ita EF, ad BC, ſitque rectangulum ABCD, contentum ſub extremis AB, BC; & quadratum mediæ EF, ſit EFGH. Dico æqualia eſſe rectangulum AC, & quadratum EG. Sumpta enim recta FG, quæ æqualis ſit ipſi EF, erunt quatuor lineæ AB, EF, FG, BC, proportionales, ut quidem AB, ad EF, ita FG, ad BC; eritque quadratum EG, comprehenſum ſub medijs EF, FG, propter æqualitatem rectarũ EF, FG; Quare rectangulum AC, comprehenſum ſub

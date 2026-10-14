@@ -7,11 +7,15 @@ obumbrati. Finis enim, ſeu terminus communis lucidi, & obumbrati, longitudo qu�
 
 ### III.
 
+[Curated heading level=4 type=incipit: LINEAE]
+
 LINEAE autem termini, ſunt puncta.
 
 DOCET, quænam ſint extrema lineæ cuiuſuis, ſeu termini, dicens lineam terminari, ſiue claudi vtrinqʒ punctis; Non quod omnis linea terminos habeat; quomodo enim lineæ infinitæ terminos aſſignare poterimus? qua etiam ratione in linea circulari extremum aliquod deprehendemus? Sed quod linea quælibet habens extrema, in ſuis extremitatibus puncta recipiat. Vt ſuperior linea A B, extrema habet puncta A, & B. Idémqʒ in omnibus lineis terminatis, ac finitis intelligendum eſt, ita vt earum extremitates ſola eſſe puncta cogitemus.
 
 ### IIII.
+
+[Curated heading level=4 type=incipit: RECTA]
 
 RECTA linea eſt, quæ ex æquo ſua interiacet puncta.
 

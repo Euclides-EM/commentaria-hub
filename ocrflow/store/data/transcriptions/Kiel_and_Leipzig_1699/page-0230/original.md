@@ -30,14 +30,23 @@ Ist also umb den O dahf ein □ bcge beschrieben. W. Z. M.
 
 Einem gegebenen Viereck einen Kreyß einzuschreiben.
 
-### Gegebene. Begehrtes.
+### Gegebene.
 
-Viereck bcde. 1. Kreyß fghi
+Viereck bcde.
+
+### Begehrtes.
+
+1. Kreyß fghi
 2. Dem Viereck eingeschrieben.
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werden die Zwergstriche bd, ec gezogen.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Alle Seiten des Vierecks bc, cd, de, eb werden in zwey gleiche Theile bf | fc : ci | id und so weiter/ getheilet/n. 10. I.
 
 <!-- Signature: Dd 3 -->

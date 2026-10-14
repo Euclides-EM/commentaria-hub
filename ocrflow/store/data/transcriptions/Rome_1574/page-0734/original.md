@@ -25,6 +25,8 @@ NAM ſi primi quotcunque propoſiti ſint A, B, C, inueniemus eodem modo alium p
 22.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI pares numeri quotcunque componã tur: totus par erit.
 
 COMPONANTVR quotcunque pares numeri AB, BC, CD. Dico & totum compoſitum AD, parem eſſe. Cũ

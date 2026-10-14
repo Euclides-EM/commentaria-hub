@@ -17,6 +17,8 @@ IAM vero rurſus numerus, 10. diuidatur æqualiter in 5. & 5. Item inæqualiter 
 10.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI recta linea ſecetur bifariam, adijciatur autem ei in rectũ quæpiam recta linea: Quod a tota cum adiuncta, & quod ab adiuncta, utraque ſimul quadrata, duplicia ſunt & eius, quod a dimidia, & eius, quod a compoſita ex dimidia & adiuncta, tanquã ab vna, deſcriptum ſit, quadrati.
 
 SECETVR recta AB, bifariam in C, & ei in rectum addatur BD: Dico duo quadrata rectarum AD, BD, dupla eſſe quadratorum, quæ ex rectis AC, CD, deſcribuntur. Super AB, enim ex C, erigatur perpendicularis CE, quæ ſit æqualis dimidiæ AC, uel CB, & iungantur rectæ AE, EB. Per D, deinde educatur DF, ipſi CE, parallela, occurrens rectæ EB, protractæ in G; & per E, ducatur rectę CD, parallela EF, ſecans DF, in F, iungaturque recta AG. Oſtendetur iã, angulum AEB, eſſe rectum, ut in præcedenti propos. & CEB, ſemirectum; ideoque eius alternum EGF, ſemirectum quoque: Eſt autem angulus F, rectus, cum in paral

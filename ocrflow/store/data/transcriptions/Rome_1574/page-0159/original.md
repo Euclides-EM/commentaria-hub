@@ -10,6 +10,8 @@ les duobus angulis D A C, C A B; Quare vt prius, concludetur propoſitum. Peleta
 
 ## THEOR. 9. PROPOS. 16.
 
+[Curated heading level=3 type=incipit: CVIVSCVNQVE]
+
 CVIVSCVNQVE trianguli vno latere producto, externus angulus vtrolibet interno, & oppoſito, maior eſt.
 
 [Margin]

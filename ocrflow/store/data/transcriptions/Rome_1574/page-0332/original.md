@@ -16,6 +16,8 @@ les ſunt ſuper baſes GB, GC, ac propterea recti. Igitur & AGB, AGC illis dein
 27.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN æqualibus circulis, æquales rectæ lineæ, æquales peripherias auferunt, maiorẽ quidem maiori, minorem autem minori.
 
 IN circulis æqualibus ABC, DEF, quorum centra G, & H, ſint rectæ æquales AC, DF. Dico maiorẽ peripheriam ABC, æqualẽ eſſe maiori DEF; & minorẽ AC, minori DF. Ductis .n. rectis AG, GC, DH, HF, erunt latera AG, GC, trianguli AGC, æqualia lateribus DH, HF, trianguli DHF; Sunt autẽ & baſes AC, DF, æquales: Igitur anguli G, & H, æquales erunt: Ac propterea peripheriæ AC, DF, quibus inſiſtunt, æquales erunt; quæ ablatæ ex totis æqualibus, relinquũt æquales ABC, DEF. In æqualibus ergo circulis, æquales rectæ lineæ, &c. Quod erat demonſtrandum.

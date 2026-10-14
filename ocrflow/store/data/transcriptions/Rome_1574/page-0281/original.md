@@ -11,6 +11,8 @@ PRAETER tres dictos angulos cõſideratur etiam a Geometris angulus contingenti�
 
 ### IX.
 
+[Curated heading level=4 type=incipit: SECTOR]
+
 SECTOR autem circuli eſt, cum ad ipſius circuli centrum conſtitutus fuerit angulus, comprehenſa nimirum figura & a rectis lineis angulum continentibus, & a peri-
 
 <!-- Catchword: pheria -->

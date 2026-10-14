@@ -22,6 +22,8 @@
 
 {dropcap:L|lines=2|style=plain}Es deux côtés CB, CD du △ BCD étant = aux deux côtés HE, HG du △ EHG *(Hyp. 3 & Ax. 1. L. 3)*, & ∀ compris C = à ∀ compris H *(Hyp. 2)*.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La baſe BD ſera = à la baſe EG.
 
 [Margin]
@@ -30,11 +32,15 @@ Prop. 4. L. 1.
 
 Et puiſque ∀ A eſt = à ∀ F *(Hyp. 1)*.
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Le ſegment BAD eſt ſemblable au ſegment EFG.
 
 [Margin]
 Ax. 2. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. C’eſt pourquoi la baſe BD étant = à la baſe EG *(Arg. 1)* ces ſegmens ſeront = entr’eux.
 
@@ -43,6 +49,8 @@ Prop. 24. L. 3.
 [/Margin]
 
 Si on retranche donc des ⊙ égaux BADM, EFGN *(Hyp. 3)* les ſegmens égaux BAD, EFG *(Arg. 3)*.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Les arcs reſtans BMD, ENG ſeront auſſi = entr’eux.
 

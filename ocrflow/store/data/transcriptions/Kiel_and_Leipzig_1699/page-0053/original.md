@@ -25,8 +25,14 @@ Sind also allezeit die aneinander stossende Gipffel-Winckel einander gleich. W. 
 
 Wenn in einem Dreyeck der eine Strich verlängert wird; so wird der auswendige Winckel allezeit grösser seyn/ als einer von beeden inwendig gegen überstehenden Winckeln.
 
-### Gegebene. Begehrte.
-1. △ ABC. DAC ⋀ ACB.
-2. Die verlängerte Seite BA gegen D. DAE ⋀ ABC.
+### Gegebene.
+
+1. △ ABC.
+2. Die verlängerte Seite BA gegen D.
+
+### Begehrte.
+
+DAC ⋀ ACB.
+DAE ⋀ ABC.
 
 <!-- Catchword: Vor- -->

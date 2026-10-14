@@ -21,7 +21,12 @@ Pythagoras beweiset auff eine andere Arth/ daß drey Winckel des Dreyeckes eben 
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Durch einen des △es Düttel C wird ein gerader
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Neben-Strich DE gegen AB gezogen/ n. 31. Vortr.
 
 [Diagram: Dreieck ABC, durch C der punktierte Neben-Strich DE parallel zu AB]

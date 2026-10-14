@@ -22,11 +22,26 @@ AB eſt dans le même Plan PL que les Plles CD & EF.
 Elle ſera dans un Plan different AG, comme eſt la ligne AxB.
 
 {dropcap:P|lines=2|style=plain}Uiſque AxB eſt dans le Plan AG, different du Plan PL, & que ſes extremités A & B ſont dans les lignes CD & EF, ſituées dans Plan PL.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La ligne AxB ſera commune aux deux Plans, *c. a. d.* AxB eſt la commune Section des deux Plans AG & PL.
 Mais AB eſt auſſi une droite ayant les mêmes extremités A & B par (*Hyp.* 11.).
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant AB & AxB ſont deux droites differentes ayant les mêmes extrêmités.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Ce qui eſt impoſſible.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. C'eſt pourquoi la ligne droite (AB) qui joint les points A & B n'eſt point dans un Plan AG different de celui ou les Paralleles CD & EF ſe trouvent.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Donc AB eſt dans le même Plan PL que les Plles CD & EF.
 
 C. Q. F. D.

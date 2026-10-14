@@ -5,6 +5,8 @@ medij C D, eſſe æqualem quadrato, qui ex dimidio numero C B, efficitur. Nam c
 
 [Diagram: horizontal line with points labelled A, C, D, B]
 
+[Curated heading level=5 type=numbered_item: VI.]
+
 [Margin]
 VI.
 [/Margin]

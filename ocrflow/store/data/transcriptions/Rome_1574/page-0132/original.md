@@ -54,6 +54,8 @@ HVIVS problematis varij eſſe poſſunt caſus, vt ait Proclus. Aut.n.datũ pun
 3.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DVABVS]
+
 DVABVS datis rectis lineis inæqua-
 
 <!-- Catchword: libus, -->

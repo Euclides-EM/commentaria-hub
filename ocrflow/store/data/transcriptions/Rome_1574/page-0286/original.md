@@ -9,6 +9,8 @@
 3.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI in circulo recta quædam linea per centrum extenſa, quandam non per centrum extenſam bifariam ſecet; & ad angulos rectos ipſam ſecabit. Et ſi ad angulos rectos eam ſecet, bifariam quoq; eam ſecabit.
 
 PER A, centrum circuli BCD, recta CE, extenſa diuidat rectam BD, non per centrum extenſam, bifariam in F. Dico rectam AF, eſſe ad angulos rectos ipſi BD. Ductis enim rectis AB, AD, erunt duo latera AF, FB, trianguli AFB, duobus lateribus AF, FD, trianguli AFD, æqualia; & baſes AB, AD, æquales; Igitur anguli AFB, AFD, æquales erũt, hoc eſt recti. Quod erat primo propoſitũ.

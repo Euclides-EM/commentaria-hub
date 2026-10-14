@@ -6,6 +6,8 @@ punctum quodpiam ad aliud directo moueri intellexerimus, ducta ſane ſit a punc
 
 ### II.
 
+[Curated heading level=4 type=incipit: ET]
+
 ET rectam lineam terminatam in continuum recta producere.
 
 QVOD ſi punctum illud ferri adhuc cogitauerimus motu directo, & qui omnis inclinationis ſit expers, producta erit ipſa recta linea terminata, & nunquam erit finis huius productionis, cum punctum illud intelligere poſſimus moueri ad infinitam diſtantiam. Sic linea recta A B. producta eſt primo in continuum ad punctum C, Deinde ad punctum D, &c.
@@ -13,6 +15,8 @@ QVOD ſi punctum illud ferri adhuc cogitauerimus motu directo, & qui omnis incli
 [Figure: horizontal line through points A, B, C and D]
 
 ### III.
+
+[Curated heading level=4 type=incipit: ITEM]
 
 ITEM quouis centro, & interuallo circulum deſcribere.
 

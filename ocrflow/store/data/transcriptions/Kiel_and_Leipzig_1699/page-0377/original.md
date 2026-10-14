@@ -2,6 +2,8 @@
 
 <!-- Page number: 360 -->
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Auch werde zu den Strichen ef und gh und der Dritte ebenmässige Strich q gefunden n. 11. VI. ef : gh | gh : q.
 
 ### I. Beweiß.

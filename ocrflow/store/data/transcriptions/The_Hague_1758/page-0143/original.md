@@ -15,11 +15,15 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:C|lines=2|style=plain}Herchez les centres C & G des deux ⊙ BADM, EFHN.
 
 [Margin]
 Prop. 1. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez les rayons CB, CD, GE, GH.
 
@@ -31,6 +35,8 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uisque les ⊙ BADM, EFHN ſont égaux *(Hyp. 1).*
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les côtés CB, CD, & GE, GH des △ BCD, EGH ſont = entr’eux.
 
 [Margin]
@@ -39,11 +45,15 @@ Ax. 1. L. 3.
 
 Mais les arcs BMD, ENH étant auſſi égaux *(Hyp. 2).*
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Les ∀ C & G, compris par ces côtés égaux, ſeront = entr’eux.
 
 [Margin]
 Prop. 27. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, la corde BD eſt = à la corde EH.
 

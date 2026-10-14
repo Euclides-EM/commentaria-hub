@@ -2,6 +2,8 @@
 
 <!-- Page number: 235 -->
 
+[Curated heading level=3 type=numbered_item: XIX.]
+
 XIX. Verwirrete Ebenmässigkeit ist / wenn man drey Grössen in der ersten Ordnung / und eben so viel in der andern Ordnung hat/da die Vorgehende zu der Nachgehenden in der I. Ordnung sich eben so / wie die Vorgehende zu der Nachgehenden in der II. Ordnung hält: Darnach aber die Nachgehende der I. Ordnung zu etwas Anders: wie etwas Anders zu der Vorgehenden in der II. Ordnung.
 
 4a : 2a : (a)

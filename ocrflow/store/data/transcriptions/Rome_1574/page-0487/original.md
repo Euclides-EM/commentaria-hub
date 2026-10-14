@@ -29,6 +29,8 @@ SIT data recta AC, & diuidenda proponatur recta AB, (quæ minor non ſit quam du
 
 ## THEOR. 9. PROPOS. 14.
 
+[Curated heading level=3 type=incipit: AEQVALIVM]
+
 AEQVALIVM, & unum uni æqua
 
 <!-- Catchword: lem -->

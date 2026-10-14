@@ -4,7 +4,12 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werden gezogen die geraden Striche eb und ec
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Deßgleichen kg und ig
 
 ### Beweiß.

@@ -1,10 +1,18 @@
 <!-- Page number: 22 -->
 
+[Curated heading level=3 type=numbered_item: 10)]
+
 10) Alle rechten Winkel ſind gleich.
+
+[Curated heading level=3 type=numbered_item: 11)]
 
 11) Zwei gerade Linien ſchlieſen keinen Raum ein.
 
+[Curated heading level=3 type=numbered_item: 12)]
+
 12) Wenn zwei gerade Linien etwas Gemeinſchäftliches haben, ſo iſt dieſes ein Punkt, woferne ſie nicht in einer einzigen geraden Linie liegen ſollen.
+
+[Curated heading level=3 type=numbered_item: 13)]
 
 13) Die Grenzen der Linien ſind Punkte, und die Grenzen der Flächen ſind Linien.
 
@@ -19,6 +27,8 @@ Aus einem gegebenen Punkt A als Mittelpunkt einen Kreis zu beſchreiben, deſſe
 ### Auflöſung.
 
 Die Ebene, in welcher der Kreis beſchriebeu{printer-error-correction:beſchrieben} werden ſoll, iſt entweder gegeben oder nicht.
+
+[Curated heading level=4 type=cases: Erſter Fall.]
 
 Erſter Fall. Wenn dieſe Ebene gegeben iſt, ſo ziehe man vom Punkt A zum Punkt C eine gerade Linie
 

@@ -8,12 +8,16 @@
 
 Wenn in einem Kreyß zween gerade Striche sich Kreutzweiß durchschneiden: So ist das rechtwincklichte Viereck / welches die beeden Stücke des einen Striches begreiffen / eben so groß/ als das Viereck / welches von den beeden Stücken des andern Striches begriffen wird.
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-1. Kreyß adcb. | deb ⊞ aec
-2. Zween gerade Striche ac, bd. | oder olm ⊞ klp.
+1. Kreyß adcb.
+2. Zween gerade Striche ac, bd.
 3. Welche in dem Kreyß stehen /
 4. Und einander durchschneiden in e oder l.
+
+### Begehrte.
+
+deb ⊞ aec oder olm ⊞ klp.
 
 ### I. Begebenheit.
 

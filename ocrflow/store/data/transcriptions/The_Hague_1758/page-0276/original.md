@@ -17,8 +17,16 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Sur les extrêmités B & D des droites AB, CD, élevez les ⊥ BE, DF.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Faites BE ═ M, & DF ═ DC.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Achevez les Rgles EA, FC.
 
 [Margin]
@@ -30,9 +38,18 @@ Prop. 31. L. 1.
 ### I. Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque AB : CD ═ CD : M (*Hyp*), que CD ═ DF & M ═ BE (*Prep*, 2).
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. AB : CD ═ DF : BE.
 Les côtés des Rgles EA, FC, alentour des angles égaux B & D (*Prep.* 1 & *Ax.* 10. *L.* 1.) ſont donc réciproques.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant le Rgle EA eſt ═ au Rgle FC, ou le Rgle ſous AB. BE ═ au Rgle ſous CD. DF.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C'eſt pourquoi BE étant ═ M & DF ═ CD (*Prep.* 2), le Rgle AB. M eſt auſſi ═ au □ de CD.
 
 [Margin]
@@ -56,10 +73,19 @@ C. Q. F.D.
 ### II. Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque le Rgle ſous AB. M eſt ═ au □ de CD (*Hyp.*), & que BE eſt ═ M, & DF ═ CD (*Prep.* 2),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le Rgle ſous AB. BE eſt ═ au Rgle ſous CD. DF.
 Or ces côtés environnent les ∀ égaux EBA, FDC; (*Ax.* 10. *L.* 1 & *Pr.* 1).
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Donc AB : CD ═ DF : BE,
 Et par la raiſon que DF ═ CD & BE ═ M (*Prep.* 2),
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. AB : CD ═ CD : M.
 
 [Margin]

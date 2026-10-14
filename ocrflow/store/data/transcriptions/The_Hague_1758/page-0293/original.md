@@ -3,6 +3,8 @@
 
 Ajoutant donc de part & d'autre le Pgr commun MK,
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Réſulte le Pgr AG ⚌ au Gnomon *abc*.
 
 [Margin]
@@ -11,6 +13,8 @@ Ax. 2. L. 1.
 
 Or le Gnomon *abc* eſt ⚌ au Rectil. V (*Arg.* 4);
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Partant le Pgr AG eſt ⚌ au Rectil. V.
 
 [Margin]
@@ -18,6 +22,8 @@ Ax. 1. L. 1.
 [/Margin]
 
 Puis donc que ce Pgr AG a pour excès le Pgr MI, ſemblable au Pgr ED (*Prop.* 24. *L.* 6); & par conſéquent ſemblable au Pgr T (*Reſ.* 2. *Prop.* 21. *L.* 6),
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. On a appliqué ſelon AB, un Pgr AG ⚌ au Rectil. V, ayant pour excès un Pgr MI, ſemblable au Pgr T.
 

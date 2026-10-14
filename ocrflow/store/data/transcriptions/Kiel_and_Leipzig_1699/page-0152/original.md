@@ -8,13 +8,18 @@
 
 Wenn in einem Kreyß zween gerade Striche ein ander durchschneiden/ aber nicht durch den Mittel-Düpffel gehen/ so werden sie auch einander nicht in gleichgrosse Theile schneiden.
 
-### Gegebene. — Begehrte.
+### Gegebene.
 
-1. Der Kreyß caeb, — fg ⊢ ge
-2. Gerader Strich cf — dg ⊢ ge
+1. Der Kreyß caeb,
+2. Gerader Strich cf
 3. und - - - - - de
 4. Einander durchschneidend /
 5. Keiner durch den Mittel-Düpffel gehend.
+
+### Begehrte.
+
+fg ⊢ gc
+dg ⊢ ge
 
 [Diagram: Kreis mit Dütteln d, a (oben), c (links), f, e (rechts), b (unten), die Striche cf und de schneiden einander in g, punktierter Durchschlag von a über g und o nach b]
 

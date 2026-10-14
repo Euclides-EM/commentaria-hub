@@ -17,10 +17,14 @@ dd | fc + bb — n. 5. II. W. Z B.
 
 Wenn ein gerader Strich/ auff wasserley weise in zwey Stücke getheilet ist/ so wird das von dem gantzen Strich/ und das von einem Stück begriffene gleichseitige Viereck/ eben so groß seyn/ als das von diesem Stück und dem gantzen Strich begriffene Viereck/ zweymal genommen/ samt dem gleichseitigen Viereck des übrigen Stückes.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-1. Gerader Strich ab. — □ ab + □ cb | □ abc + □ ac
+1. Gerader Strich ab.
 2. getheilet in c.
+
+### Begehrtes.
+
+□ ab + □ cb | □ abc + □ ac
 
 [Diagram: Links ein Quadrat a c b mit innerer gestrichelter Linie, Punkten e, d, g, c, f, a, h, b; rechts Rechtecke D, E, F mit n oben, darunter H, G mit o, p, m.]
 

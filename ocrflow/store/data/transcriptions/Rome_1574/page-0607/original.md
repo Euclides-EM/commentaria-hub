@@ -22,6 +22,8 @@ FIANT enim E, F, G, ex A, in B, C, D, uel ex B, C, D, in A. Dico eaſdem ratione
 20.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI quatuor numeri proportionales fuerint; qui ex primo, & quarto fit, numerus, æqualis erit ei, qui ex ſecundo, & tertio fit, numero. Et ſi qui ex primo, & quarto fit, numerus, æqualis fuerit ei, qui ex ſecundo, & tertio fit, numero; ipſi quatuor numeri proportionales erunt.
 
 SINT quatuor numeri proportionales A, B, C, D, ut quidem A, ad B, ita C, ad D; fiatque E, ex A, primo in

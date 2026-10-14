@@ -28,6 +28,8 @@ BREVIVS tota propoſitio demonſtrabitur hoc modo. Cõueniant duo puncta A, & C,
 
 ## PROBL. 3. PROPOS. 11.
 
+[Curated heading level=3 type=incipit: DVABVS]
+
 DVABVS datis rectis lineis, tertiam proportionalem adinuenire.
 
 SINT duæ rectæ AB, AC, ita diſpoſitæ, ut efficiant

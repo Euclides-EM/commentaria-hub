@@ -6,9 +6,14 @@
 A : C ⊣ a : c
 
 ### Vorbereitung.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Man nehme eine Grösse D darzu / welche sich zu C wie a zu b verhalte.
 
 D : C | a : b
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auch nehme man die Grösse d, welche sich zu D, wie b zu c verhalte.
 

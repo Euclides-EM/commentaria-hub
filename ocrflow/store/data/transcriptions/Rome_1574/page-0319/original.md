@@ -18,6 +18,8 @@ QVONIAM vero, circulis inæqualibus exiſtẽtibus, initiũ cõſtructionis ſum
 
 ## THEOR. 16. PROPOS. 18.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI circulũ tangat recta quæpiam linea, a centro autem ad contactum adiungatur recta quædam linea: quæ adiũcta fuerit, ad ipſam contingentem perpendicularis erit.
 
 RECTA A B, tãgat in C, circulũ C D, cuius cẽtrũ E, & ex E, ad C, recta ducatur E C. Dico E C, perpendicularẽ eſſe ad

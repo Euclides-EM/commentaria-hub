@@ -20,6 +20,8 @@ PERSPICVVM eſt, eodem modo diuidi poſſe eandem lineã rectã A B, in 4. parte
 
 ## PROBL. 6. PROPOS. 11.
 
+[Curated heading level=3 type=incipit: DATA]
+
 DATA recta linea, a puncto in ea dato, rectã lineam ad angulos rectos excitare.
 
 RECTA linea data ſit A B, & in ea punctũ C, a quo iubemur erigere ſuper A B, lineam ad angulos rectos, ſeu perpendicularem. A puncto C, ſumatur recta C D, cui æqualis auferatur C E. Deinde ſuper D E, conſtituatur triangulum æquilaterum D E F, atq; ex F, ad C, ducatur recta F C, quam dico eſſe perpendicularem ad A B. Quoniam latera D C, C F, trianguli D C F, æqualia ſunt lateribus E C, C F, trianguli E C F, vtrumq; vtriq;, nempe D C, ipſi E C, per conſtructionem, & C F, commune; Eſt vero & baſis D F, baſi E F, æqualis, ob triangulum æquilaterum: Erunt anguli ad C, contenti dictis lateribus, æquales. Quare dicetur vterq; rectus, atq́; adeo F C, recta, ad A B, perpendicularis. Data

@@ -2,6 +2,8 @@
 
 <!-- Page number: 234 -->
 
+[Curated heading level=3 type=numbered_item: XVI.]
+
 XVI. Verwendete Verhältniß ist/ wenn man die Vorgehenden gegen den Uberschuß/womit die Vorgehenden die Nachgehenden übertroffen / hält.
 
 6a : 4a | 3a : 2a
@@ -9,6 +11,8 @@ XVI. Verwendete Verhältniß ist/ wenn man die Vorgehenden gegen den Uberschuß/
 6a : 6a — 4a | 3a : 3a — 2a
 
 oder 6a : 2a | 3a : a.
+
+[Curated heading level=3 type=numbered_item: XVII.]
 
 XVII. Verhältniß aus der Gleichheit (ex æqualitate ratio) ist/ wenn man mehr/als zwo in Verhältniß stehende Grössen hat: und darnach wiederümb eben so viel Grössen / so in gleichmässiger Verhältniß stehen/nimt: so wird in der ersten Ordnung die Erste Grösse sich zu der Letzten eben so/ wie in der andern Ordnung die Erste zu der Letzten verhalten.
 
@@ -29,6 +33,8 @@ Oder
 24b : 12b : 6b : 3b
 
 16a : 2a | 24b : 3b
+
+[Curated heading level=3 type=numbered_item: XIIX.]
 
 XIIX. Ordentliche Ebenmässigkeit ist/ wenn in der ersten Ordnung die Vorgehende zu der Nachgehenden/wie die Vorgehende zu der Nachgehenden in der andern Ordnung sich verhält. Und ferner die Nachgehende in der ersten Ordnung zu etwas Anders/wie die Nachgehende der andern Ordnung zu etwas Anders.
 

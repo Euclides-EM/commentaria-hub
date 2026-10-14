@@ -12,6 +12,8 @@ QVOD eodem modo demonſtrabimus. Si enim primus non dicatur metiri ſecundum, ve
 
 ## THEOR. 6. PROPOS. 8.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI inter duos numeros medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri: tot & inter alios eandem cum illis habentes rationem medij continua proportione cadent.
 
 CADANT inter duos numeros A, B, medij proportionales continue C, D; ſitque ut A, ad B, ita E, ad F. Dico tot medios numeros continue proportionales cadere inter E, & F, quot inter A, & B. Sumptis enim totidem numeris G, H, I, K, minimis ĩ ratione A, ad C, quot ſunt numeri A, C, D, B; erit ex æquo, ut A, ad B, atque adeo ut E, ad F, ita G, ad K. Quare cũ G, & K, inter ſe primi ſint, nempe extremi minimorum numerorum, ac pro-

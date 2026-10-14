@@ -22,11 +22,15 @@ Cherchée.
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:P|lines=1|style=plain}Rolongez la droite AB indéfiniment.
 
 [Margin]
 Dem. 2.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Faites AL ＝ à un des côtés du △ donné T,
 
@@ -34,11 +38,15 @@ Dem. 2.
 Prop. 3. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Et conſtruiſez le △ AKL ＝ au △ donné T.
 
 [Margin]
 Prop. 22. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Décrivez enſuite le Pgr EH ＝ au △ AKL; & qui ait un ∀ HAE ＝ à ∀ donné M.
 
@@ -46,11 +54,15 @@ Prop. 22. L. 1.
 Prop. 42. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Par le point B tirez une droite BF Plle à EA ou GH.
 
 [Margin]
 Prop. 31. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Prolongez GH indéfiniment; de même GE, juſqu'à ce qu'elle rencontre BF en F (*Rem. de la Prop.* XXVII).
 
@@ -58,17 +70,23 @@ Prop. 31. L. 1.
 Dem. 2
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Par les points F & A tirez la droite FA, qui prolongée coupera le prolongement de GH quelque part en I (*Rem. de la Prop.* XXVII).
 
 [Margin]
 Dem. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Par le point de rencontre I tirez la droite ID Plle à HB ou GF,
 
 [Margin]
 Prop. 31. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. Et prolongez FB, EA, juſqu'à ce qu'elles rencontrent ID aux points D & C (*Rem. de la Prop.* XXVII).
 
@@ -79,6 +97,8 @@ Dem. 2.
 ### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans la figure DG les côtés oppoſés GI, FD & GF, ID ſont Plles (*Reſ.* 5. 6. 8. & 9).
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. La figure DG eſt un Pgr.
 

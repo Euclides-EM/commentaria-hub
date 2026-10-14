@@ -5,11 +5,15 @@ nes numeros primos, præter binarium, eſſe impares, quandoquidem ex paribus, �
 
 ### XIIII.
 
+[Curated heading level=4 type=incipit: COMPOSITI]
+
 COMPOSITI autem inter ſe numeri ſunt, quos numerus aliquis, communis menſura, metitur.
 
 DVo numeri, vel plures, quos præter vnitatem, aliquis alius numerus, tanquam menſura communis, metitur, dicuntur inter ſe compoſiti, licet non quilibet ſit compoſitus numerus; quemadmodum & numerus ille, quem præter vnitatem, numerus quiſpiam metitur, compoſitus nominatur. Vt hi numeri 15. 24. compoſiti inter ſe ſunt, quia eos hic numerus 3. tanquam communis menſura, metitur. Ita etiam inter ſe compoſiti erunt hi numeri 7. 21. 35. Nam primus eorũ & ſe ipſum, & reliquos duos metitur, licet per ſe ſumptus, Primus uocetur.
 
 ### XV.
+
+[Curated heading level=4 type=incipit: NVMERVS]
 
 NVMERVS numerum multiplicare dicitur, cum toties compoſitus fuerit is, qui multiplicatur, quot ſunt in ipſo multiplicante unitates, & procreatus fuerit aliquis.
 

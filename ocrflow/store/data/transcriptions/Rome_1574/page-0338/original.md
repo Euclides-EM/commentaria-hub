@@ -19,6 +19,8 @@ ad interuallum dimidiæ ſubtenſæ; circulum tranſire per angulum rectum. Angu
 31.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI circulum tetigerit aliqua recta linea, a contactu autem producatur quædam recta linea circulum ſecans: Anguli, quos ad contingentem facit, æquales ſunt ijs, qui in alternis circuli ſegmentis conſiſtunt, angulis.
 
 TANGAT recta AB, circulum CDE, in C, puncto, a quo ducatur recta CE; diuidens circulum in duo ſegmenta, in quibus fiant anguli CGE, CDE. Dico angulum ACE, æqualem eſſe angulo CGE, in alterno ſegmento; & angulum BCE, angulo CDE, in alterno quoque ſegmento. Tranſeat enim primo recta CE, per centrum. Erit igitur uterque angulus ACE, BCE, rectus: ſunt autem & anguli CGE, CDE, in ſemicirculis recti; Igitur angulus ACE, angulo CGE; & angulus BCE, angulo CLE{printer-error-correction:CDE}, æqualis eſt.

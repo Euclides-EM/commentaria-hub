@@ -640,8 +640,12 @@ const appendParagraphLines = (
     run = []
   }
 
-  for (const line of lines) {
-    const lineIsTable = line.text.includes(separator)
+  const lineHasSeparator = lines.map((line) => line.text.includes(separator))
+  for (const [lineIndex, line] of lines.entries()) {
+    const lineIsTable =
+      lineHasSeparator[lineIndex] &&
+      (lineHasSeparator[lineIndex - 1] === true ||
+        lineHasSeparator[lineIndex + 1] === true)
     if (run.length > 0 && lineIsTable !== runIsTable) {
       pushRun()
     }
@@ -1285,19 +1289,15 @@ const getPageSectionEnd = (
 const PAGE_SECTION_TITLE_LABELS: Record<string, string> = {
   'running-title': 'Running title',
   'page-number': 'Page number',
+  signature: 'Signature',
   catchword: 'Catchword',
 }
 
-const getPageSectionTitleAttr = (
-  paragraph: ParagraphTextWithAnchors,
-  index: number,
-  headerEnd: number,
-  footerStart: number,
-) => {
+const getPageSectionTitleAttr = (paragraph: ParagraphTextWithAnchors) => {
   const label = paragraph.blockType
     ? PAGE_SECTION_TITLE_LABELS[paragraph.blockType]
     : undefined
-  if (!label || (index >= headerEnd && index < footerStart)) {
+  if (!label) {
     return ''
   }
   return ` title="${escapeHtmlAttr(`${label}: ${paragraph.text.trim()}`)}"`
@@ -1355,7 +1355,7 @@ export const renderOriginalView = (
       spans,
       index,
       !!opts.showCertaintyVisualization,
-      ` data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttrs}${getPageSectionTitleAttr(paragraph, index, headerEnd, footerStart)}`,
+      ` data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttrs}${getPageSectionTitleAttr(paragraph)}`,
     )
   })
 

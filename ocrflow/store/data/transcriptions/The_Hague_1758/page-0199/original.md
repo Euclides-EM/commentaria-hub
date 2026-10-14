@@ -1,7 +1,7 @@
 <!-- Running title: LIVRE CINQUIEME. -->
 <!-- Page number: 187 -->
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 [Calculation]
 Si A : B = C : D |  on peut faire dividendo  | A — B : B = C — D : D.

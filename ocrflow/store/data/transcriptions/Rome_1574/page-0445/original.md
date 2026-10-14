@@ -22,6 +22,8 @@ SIT namq; minor proportio A, ad B, quam C, ad D. Dico permutando, minorem quoque
 
 ## THEOR. 28. PROPOS. 28.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI prima ad ſecundam habuerit maiorem proportionem, quàm tertia ad quartam: Habebit quoque compoſita prima cum ſecunda, ad ſecundam maiorem proportionem, quàm compoſita tertia cum quarta, ad quartam.
 
 SIT maior proportio A B, ad B C, quam D E, ad E F. Dico & componendo maiorem eſſe proportionem A C, ad B C, quam D F, ad E F. Intelligatur enim eſſe G B, ad B C, vt D E, ad E F; eritq; proportio A B, ad B C, maior quoque, quam G B, ad B C; Ideoq; A B, maior quam G B. Addita ergo communi

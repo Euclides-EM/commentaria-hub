@@ -15,6 +15,8 @@ CONVERTIT autem hoc præſens theorema duo præcedentia theoremata, vt perſpicu
 30.
 [/Margin]
 
+[Curated heading level=3 type=incipit: QVAE]
+
 QVAE eidem rectæ lineæ parallelæ, & inter ſe ſunt parallelæ.
 
 SINT rectę A B. C D, eidem rectæ E F, parallelę; Dico & ipſas A B, C D, eſſe inter ſe parallelas. Quoniam omnes hæ lineę in eodem ponuntur eſſe plano, ( Nam propoſ. 9. vndecimi libri agetur de lineis in diuerſis planis ) ducatur recta G H, ſecans A B, in I; C D, in K; & E F, in L. Quia igitur A B, ponitur parallela ipſi E F, erit angulus A I L, alterno F L I, æqualis. Rurſus quia C D, ponitur etiam parallela ipſi E F, erit angulus D K I, eidem angulo F L I, nempe internus externo, vel externus interno, æqualis. Quare anguli A I L, D K I, æquales inter ſe quoq; erunt. Cum igitur ſint alterni, erunt rectæ A B, C D, parallelę inter ſe. Quæ igitur eidem rectę lineæ parallelæ, & inter ſe ſunt parallelæ. Quod demonſtrandum erat.

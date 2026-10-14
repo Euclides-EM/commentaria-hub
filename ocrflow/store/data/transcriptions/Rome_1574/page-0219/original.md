@@ -34,6 +34,8 @@ SIT trapezium ABCD, cuius duo latera oppoſita A B, D C, ſint parallela, & ſup
 42.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DATO]
+
 DATO triangulo æquale parallelo gram-
 
 <!-- Catchword: gram- -->

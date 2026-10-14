@@ -19,6 +19,8 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque la droite AC tombe ſur la droite DE (*Hyp.*),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La ſomme des deux ∀ contigus ECA + ACD eſt ═ à deux ⌐.
 
 [Margin]
@@ -27,11 +29,15 @@ Prop. 13. L. 1.
 
 Derechef, puiſque la droite DC tombe ſur la droite AB (*Hyp.*),
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. La ſomme des ∀ contigus ACD + DCB eſt auſſi ═ à deux ⌐.
 
 [Margin]
 Prop. 13. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Par conſéquent, les ∀ ECA + ACD ſont égaux aux ∀ ACD + DCB.
 
@@ -40,6 +46,8 @@ Ax. 1.
 [/Margin]
 
 Retranchant donc de ces ſommes égales (*Arg.* 3), ∀ ACD, qui leur eſt commun.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Les ∀ reſtans ECA, DCB, oppoſés au ſommet C, ſont ═ entr'eux.
 
@@ -50,6 +58,8 @@ Ax. 3.
 C. Q. F. D. I.
 
 Par un raiſonnement ſemblable on prouvera
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Que ∀ ACD eſt ═ à ∀ BCE qui lui eſt oppoſé au ſommet.
 

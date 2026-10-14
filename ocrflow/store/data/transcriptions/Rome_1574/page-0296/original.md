@@ -23,6 +23,8 @@ TANGAT circulus ABC. circulum ADE, intus in A, & ſit F, centrũ circuli ABC, & 
 11.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo circuli ſeſe exterius contingant, linea recta, quæ ad centra eorum adiungitur, per contactum tranſibit.
 
 CIRCVLI ABC, DBE tangãt ſe exterius in B, & cẽtrũ circuli ABC, ſit F; circuli uero DBE, centrũ ſit G; Dico rectã extenſam p F, & G, trãſire per contactũ B. Si enim non

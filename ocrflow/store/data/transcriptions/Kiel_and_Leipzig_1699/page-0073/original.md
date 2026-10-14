@@ -26,12 +26,17 @@ Vorsatz (Lemma)
 
 Wenn ein auff zween gerade Striche einfallender Strich/ auff der einen Seite zweene Winckel/welche kleiner/als zween rechte Winckel sind/ machet/so werden gedachte beede Striche nach nothturfft verlänget auff selbiger Seite / wo die zween Winckel kleiner/ als zween rechte Winckel sind / zusammen stossen.
 
-### Gegebene.                              Begehrtes.
-1. Zween gerade Striche AB und CD,     1. Zusammenkunfft der beyden Striche AB und CD,
+### Gegebene.
+
+1. Zween gerade Striche AB und CD,
 2. Der gerade
 3. Einfallende Strich IK.
-4. Zween auff einer Seite stehende     2. Und zwar auff der Seite gegen B und D in G.
-        Winckel.
+4. Zween auff einer Seite stehende Winckel.
 5. BEF + DFE ⊼ ⏥
+
+### Begehrtes.
+
+1. Zusammenkunfft der beyden Striche AB und CD,
+2. Und zwar auff der Seite gegen B und D in G.
 
 <!-- Catchword: Be- -->

@@ -17,6 +17,8 @@ Quoniam vero, vt ante, ex inuerſa ratione vt C, ad B, Ita E, ad D; erit quoque 
 
 ## THEOR. 22. PROPOS. 22.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint quotcunq; magnitudines, & aliæ ipſis æquales numero, quæ binæ in eadem ratione ſumantur : Et ex æqualitate in eadem ratione erunt.
 
 SINT quotcunq; magnitudines A, B, C, & aliæ totidem D, E, F, ſitq; A, ad B, vt D ad E; & B, ad C, vt E, ad F. Dico quoque ex æqualitate eſſe A, ad C, vt D, ad F; Sumptis enim ipſarum A, D, çquemultiplicibus G, H; Item ipſarum B, E, æquemultiplicibus I, K; Item ipſarum C, F, æquemultiplicibus L, M; cum ſit A, prima ad B, ſecundam, vt D, tertia ad E, quartam; erit quoq; G, multiplex primæ ad I, multiplicem ſecundæ, vt H, multiplex tertiæ ad K, multiplicem quartæ. Eadem ratione, cum ſit B, prima ad C, ſecũdam, vt E, tertia ad F, quartam; erit I, multiplex primæ ad L; multiplicem ſecundæ, vt K, multiplex tertiæ ad M, multiplicem quartæ.

@@ -27,11 +27,15 @@ N. C.
 
 {dropcap:P|lines=2|style=plain}Uis donc que le côté AB eſt ═ au côté CB (*Sup.* 1).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le △ BAC eſt iſocèle.
 
 [Margin]
 Def. 25. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, les ∀ C & A ſur la baſe ſont ═ entr'eux.
 
@@ -41,11 +45,15 @@ Prop. 5. L. 1.
 
 Or ces ∀ C & A ne ſont pas ═ entr'eux (*Hyp*).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Donc les côtés AB & CB ne ſont point ═ entr'eux non plus.
 
 ### CAS. II. Suppoſé que AB ſoit ⟨ CB.
 
 {dropcap:P|lines=2|style=plain}Uis donc que le côté AB eſt ⟨ le côté CB (*Sup.* 2).
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. Il s'enſuit que ∀ C, oppoſé au plus petit côté AB, eſt ⟨ ∀ A oppoſé au plus grand côté CB.
 
@@ -55,9 +63,13 @@ Prop. 18. L. 1.
 
 Or ∀ C n'eſt pas ⟨ ∀ A (*Hyp*).
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Par conſéquent le côté AB ne ſauroit être ⟨ le côté CB.
 
 Le côté AB n'étant donc ni ═ au côté CB (*Cas.* 1.); ni ⟨ le côté CB (*Cas.* 2).
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Il s'enſuit, que ce côté AB eſt ⟩ le côté CB.
 

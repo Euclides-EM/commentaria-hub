@@ -4,6 +4,8 @@
 
 *DENIQVE ex his omnibus inferemus hoc theorema,*
 
+[Curated heading level=4 type=numbered_item: VIII.]
+
 [Margin]
 VIII.
 [/Margin]

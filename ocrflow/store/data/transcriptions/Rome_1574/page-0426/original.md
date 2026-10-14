@@ -23,6 +23,8 @@ fit, ut ſi G, multiplex primæ deficit a K, multiplici ſecundæ, deficiat quoq
 12.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint magnitudines quotcunque proportionales; quemadmodum ſe habuerit una antecedentium ad unam conſequentium, ita ſe habebunt omnes antecedentes ad omnes conſequentes.
 
 SINT quotcunque magnitudines A, B; C, D; E, F, proportionales, hoc eſt, ſit A, ad B, ut C, ad D; & E, ad F. Dico ut eſt una antecedentium ad unam conſequentiũ, nimirum A, ad B; ita eſſe omnes antecedentes ſimul A, C, E, ad omnes conſequentes ſimul B, D, F. Sumptis enim G, H, I, æque multiplicibus antecedentium; & K, L, M, æque multiplicibus conſequentium, erunt omnes G, H, I, ſimul omnium A, C, E, ſimul ita multiplices, ut una unius nempe ut G, ipſius

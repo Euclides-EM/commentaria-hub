@@ -20,13 +20,19 @@ III. GF = BA.
 
 {dropcap:Q|lines=2|style=plain}u'on s'imagine, que le △ FHG ſoit poſé ſur le △ ACB, enſorte
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Que le point F convienne au point A.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et la baſe FG à la baſe AB.
 
 ### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uis donc que le point F convient au point A (*Prep.* 1) & la ligne FG à la ligne AB (*Prep.* 2), & que ces lignes ſont égales (*Hyp.* 3).
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. Il faut que le point G convienne au point B.
 
@@ -36,6 +42,8 @@ Ax. 9.
 
 Les points extrêmes F & G du côté FG, convenant donc aux points extrêmes A & B du côté AB, (*Prep.* 1. *Arg.* 1.); & les droites FH, GH étant égales aux droites AC, BC, chacune à chacune.
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Les droites FH, GH, conviendront néceſſairement aux droites AC, BC, chacune à chacune.
 
 Si non; on pourroit tirer des extrêmités A & B, d'une ligne AB, à deux points differens C & D, & du même côté, deux droites AC, BC égales à deux autres droites AD, BD chacune à chacune. Ce qui eſt impoſſible.
@@ -44,9 +52,15 @@ Si non; on pourroit tirer des extrêmités A & B, d'une ligne AB, à deux points
 P. 7. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Ces côtés conviennent donc.
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Mais la baſe FG convenant à la baſe AB (*Prep.* 2.), le côté FH au côté AC & le côté GH au côté BC (*Arg.* 2.)
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Il ſuit que les △ ACB, FGH ſont égaux entr'eux; auſſi bien que leurs ∀ compris par des côtés égaux chacun à chacun.
 

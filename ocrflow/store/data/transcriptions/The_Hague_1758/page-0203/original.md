@@ -19,17 +19,25 @@ a M + c M eſt autant multiple de M, que a N + c N l'eſt de N.
 
 {dropcap:P|lines=2|style=plain}Uiſque a M eſt autant multiple de M, que a N l'eſt de N (Hyp.),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La grandeur a M contient M le même nombre de fois que a N contient N.
 
 De même, puiſque c M eſt autant multiple de M, que c N l'eſt de N (Hyp.),
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. La grandeur c M contient M le même nombre de fois que c N contient N.
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant la grandeur entiere a M + c M contient M le même nombre de fois que la grandeur entiere a N + c N contient N.
 
 [Margin]
 Ax. 2. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent a M + c M eſt autant multiple de M, que a N + c N l'eſt de N.
 

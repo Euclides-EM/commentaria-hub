@@ -15,11 +15,15 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Sur AB, au point d’attouchement F, élevez la ⊥ FE.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Prenez dans l’arc DF un point quelconque C & tirez ED, DC, CF.
 
@@ -31,11 +35,15 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uisque la droite AB touche le ⊙ ECF *(Hyp. I)*, & que FE eſt une ⊥ élevée ſur AB au point d’attouchement F *(Prep. I)*.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La droite FE eſt un diametre du ⊙ ECF.
 
 [Margin]
 Prop. 19. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, ∀ FDE eſt un ∟.
 
@@ -43,17 +51,23 @@ Prop. 19. L. 3.
 Prop. 31. L. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C’eſt pourquoi, les ∀ DEF + DFE ſont = à un ∟. Mais ∀ EFB ou ∀ DFE + ∀ DFB étant auſſi = à un ∟ *(Prep. I)*.
 
 [Margin]
 Prop. 32. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Les ∀ DEF + DFE ſont = aux ∀ DFB + DFE.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. D’où il ſuit que ∀ DEF eſt = à ∀ DFB; ou ∀ placé dans le ſegment DEF = à ∀ formé par la tangente BF & la corde DE.
 
@@ -66,11 +80,15 @@ C. Q. F. D. I.
 
 Les ∀ FED + FCD étant = à 2 ∟ *(Prop. 22. L. 3)*, & les ∀ contigus DFB + DFA étant auſſi = à 2 ∟ *(Prop. 13. L. 1)*.
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Les ∀ FED + FCD ſont = aux ∀ DFB + DFA.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. C’eſt pourquoi, ∀ FED étant = à ∀ DFB *(Arg. 5)*, l’angle FCD eſt auſſi = à ∀ DFA; ou ∀ placé dans le ſegment FCD, = à ∀ compris par la tangente AF & la corde DF.
 

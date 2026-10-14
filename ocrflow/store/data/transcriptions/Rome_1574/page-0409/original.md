@@ -9,6 +9,8 @@ SINT plures magnitudines duabus A, B, C, & totidẽ D, E, F, ſintque binæ ac b
 
 ### XVIII.
 
+[Curated heading level=4 type=incipit: ORDINATA]
+
 ORDINATA proportio eſt, cum fuerit, quemadmodum antecedens ad conſequentem, ita antecedens ad conſequentem; fuerit etiam, ut conſequens ad aliud quidpiam, ita conſequens ad aliud quidpiam.
 
 VT quando fuerit A, ad B, vt D, ad E; Rurſus vt B, conſequens ad aliud quidpiam, vt ad C, ita E, conſequens ad F, aliud quidpiam; Ideoq́ue concludatur A, ad C, vt D, ad

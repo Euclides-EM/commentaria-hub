@@ -2,9 +2,11 @@
 
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Diagram: three cones in a ruled frame — Fig. 1. cone with apex B, base points A, E, C, D and interior point G; Fig. 2. cone with apex B and base points A, E, C; Fig. 3. cone with apex B and base points A, E, C]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### XVIII.
 

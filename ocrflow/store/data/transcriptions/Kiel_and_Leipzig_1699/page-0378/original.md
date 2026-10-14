@@ -22,10 +22,14 @@ Dw. ab : cd | ef : gh n. Bew. α | n. 11. V.
 
 Gleichmässige und ähnliche geradstrichichte Gestalte stehen auf gleichmässigen geraden Strichen.
 
-### Gegebene. Begehrtes.
+### Gegebene.
 
-1. □ gi | □ rt gh | rs
+1. □ gi | □ rt
 2. □ gi ähnlich □ rt
+
+### Begehrtes.
+
+gh | rs
 
 [Diagram: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]
 

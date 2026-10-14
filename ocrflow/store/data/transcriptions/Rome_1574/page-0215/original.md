@@ -16,6 +16,8 @@ NAM quadrilaterum ABCD, diuidatur bifariam ab vtraq; diametro AC, BD. Dico ipſu
 40.
 [/Margin]
 
+[Curated heading level=3 type=incipit: TRIANGVLA]
+
 TRIANGVLA æqualia ſuꝑ æqualibus baſibus, & ad eaſdem partes conſtituta; & in eiſdem ſunt parallelis.
 
 [Figure: two triangles on a common base line B, C, E, F, with A at top left, G at top right, D and H near G, and lines drawn between the points]

@@ -21,6 +21,8 @@ I,8. K,64. L,512. M,4096.
 13.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI quadratus numerus quadratum numerum metiatur; & latus unius metietur latus alterius. Et ſi unius quadrati latus metiatur latus alterius; & quadratus quadratum metietur.
 
 METIATVR quadratus A, cuius latus C, quadratũ B, cuius latus D. Dico & latus C, latus D, metiri. Multiplicantes enim ſe mutuo C, & D, faciant E. Quoniam igitur,

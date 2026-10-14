@@ -5,17 +5,23 @@ Et comme la ſphère VRT : ſphère HIKL = A̅C̅³ : K̅I̅³. (1. *Sup*.).
 
 De plus que la ſphère VRT eſt = à la ſphère EFG (*Prép*.).
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. On peut conclure (invertendo) que la ſphère HILK : ſphère EFG = K̅I̅³ : A̅C̅³.
 
 [Margin]
 Prop. 4. L. 5. Corol. Prop. 7. L. 5.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. D'où il ſuit que la ſphère HILK : ſphère EFG = pol. KHIL : pol. ABCD. Or la ſphère HILK eſt > que le polyëdre KHIL.
 
 [Margin]
 Prop. 11. L. 5. Ax. 8. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc la ſphère EFG (ou ſon égale VRT) eſt auſſi > que le polyëdre ABCD.
 
@@ -25,9 +31,15 @@ Prop. 14. L. 5.
 
 Mais la ſphère EFG eſt contenue dans le polyëdre ABCD (*Prép*. 2.).
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Partant la partie ſeroit > que ſon tout.
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Ce qui eſt impoſſible.
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. D'où il ſuit qu'il n'eſt pas poſſible que le cube du diamêtre (AC; ou A̅C̅³.) d'une ſphère (ABCD) eſt au cube du diamêtre (KI; ou K̅I̅³.) d'une autre ſphère (HILK,) comme une ſphère VRT (qui eſt moindre que la première ſphère ABCD *Sup*.), eſt à cette ſeconde HILK.
 
@@ -43,11 +55,15 @@ Mais la ſphère EFG eſt contenue dans le polyëdre ABCD (*Prép*. 2.).
 
 Et que la ſphère ABCD : ſphère VRT = A̅C̅³ : K̅I̅³ (11. *Prép*.).
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. La ſphère XZY : ſphère HILK = ſphère ABCD : ſphère VRT. Or la ſphère XZY eſt > que la ſphère ABCD. (11. *Sup*.).
 
 [Margin]
 Prop. 11. L. 5.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. Partant la ſphère HILK eſt auſſi > que la ſphère VRT.
 
@@ -57,7 +73,11 @@ Prop. 14. L. 5.
 
 Mais il eſt demontré (*Arg*. 7.) qu'il eſt impoſſible que le cube du diamêtre (AC; ou A̅C̅³.) d'une ſphère (ABCD) eſt au cube du diamêtre (KI; ou K̅I̅³.) d'une autre ſphère (HILK;) comme une ſphère ABCD eſt a une ſphère moindre que HILK.
 
+[Curated heading level=4 type=numbered_item: 10.]
+
 10. Donc la ſphère VRT n'eſt pas < que la ſphère HILK, (comme on l'avoit prouvé *Arg*. 9.).
+
+[Curated heading level=4 type=numbered_item: 11.]
 
 11. Partant la ſphère XZY n'eſt pas > que la ſphère ABCD (ainſi qu'on l'avoit ſuppoſée).
 

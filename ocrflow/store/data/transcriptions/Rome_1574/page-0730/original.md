@@ -24,6 +24,8 @@ SED non metiatur A, ipſum C. Dico ipſis A, B, non poſſe reperiri tertium pro
 
 ## PROBL. 2. PROPOS. 19.
 
+[Curated heading level=3 type=incipit: TRIBVS]
+
 TRIBVS numeris datis, conſiderare, an poſſit ipſis quartus proportionalis inueniri.
 
 [Margin]

@@ -23,24 +23,40 @@
 ### Préparation.
 
 {dropcap:I|lines=2|style=plain}maginez que le △ BAC ſoit poſé ſur le △ EDF; de maniere que
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le ſommet A tombe ſur le ſommet D.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Et que le côté AB tombe ſur le côté DE.
 
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque la ligne AB eſt = à la ligne DE *(Hyp. 1)*, que le point A tombe ſur le point D *(Prep. 1)*, & la ligne AB ſur la ligne DE *(Prep. 2)*.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le point B tombera néceſſairement ſur le point E.
 
 De même; puiſque ∀ a = ∀ d *(Hyp. 3)*, que le ſommet A tombe ſur le ſommet D *(Prep. 1)* & la jambe AB ſur la jambe DE *(Prep. 2.)*
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. La jambe AC tombera néceſſairement ſur la jambe DF.
 
 De plus, à cauſe que cette jambe AC eſt = à la jambe DF.
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Il faut, que le point C tombe auſſi ſur le point F.
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. C'eſt pourquoi les extrêmités B & C de la baſe BC, conviennent aux extrêmités E & F de la baſe EF.
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Et par conſequent, la baſe entiere BC convient à la baſe entiere EF.
 

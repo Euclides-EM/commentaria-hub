@@ -41,6 +41,8 @@
 2.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN dato circulo triangulum deſcribere dato triangulo æquiangulum.
 
 SIT in circulo ABC, dato deſcribendũ triangulũ æquiangulum triangulo dato cuicunque DEF. Ducatur recta GH, tangens circulum in A, fiatq; angulus GAB, angulo F, ęqualis, & angulus HAC, angulo E; atq; extendantur rectæ AB, AC, ad circunferentiam uſque in puncta B, & C, coniungaturque recta BC. Dico triangulum ABC, circulo dato inſcriptum, eſſe æquiangulum dato triangulo DEF. Eſt enim angulus C, æqualis angulo GAB; & eidem angulo GAB, æqualis eſt angulus F, ex conſtructione: Quare anguli C, & F, inter ſe quoq; erũt æquales. Similiter quia angulus B, æqualis eſt angulo HAC, & eidem angulo HAC, ęqualis eſt, per cõſtructionẽ, angulꝰ E; erũt etiã anguli B, & E, inter ſe ęquales. Cum

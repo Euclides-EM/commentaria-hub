@@ -21,6 +21,8 @@ SUP. I. Si ∀ ACE eſt ═ à ∀ ECB
 
 {dropcap:P|lines=2|style=plain}Uiſque les angles contigus ACE, ECB, formés par les droites CE & AB ſont égaux entr'eux (*Sup*).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s'enſuit que chacun d'eux eſt un ⌐.
 
 [Margin]
@@ -43,6 +45,8 @@ P. 11. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque DC eſt ⊥ ſur AB (*Prep*).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les deux ∀ DCA & DCB ſont des ⌐.
 
 [Margin]
@@ -50,6 +54,8 @@ D. 10. L. 1.
 [/Margin]
 
 Mais comme ∀ DCB eſt ═ aux deux ∀ *n* + *o*; ſi on ajoute de part & d'autre ∀ DCA ou ∀ *m*.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les deux ∀ DCA + DCB ſont ═ aux trois ∀ *m* + *n* + *o*.
 
@@ -59,11 +65,15 @@ Ax. 2.
 
 Derechef, puiſque ∀ ECA eſt ═ aux deux ∀ *m* + *n*, ſi on ajoute de part & d'autre ∀ ECB ou ∀ *o*.
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Les deux ∀ ECA, ECB ſont auſſi ═ à ces mêmes trois ∀ *m* + *n* + *o*.
 
 [Margin]
 Ax. 2.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent, les deux ∀ ECA & ECB ſont ═ aux deux ∀ DCA & DCB.
 
@@ -72,6 +82,8 @@ Ax. 1.
 [/Margin]
 
 Mais les deux ∀ DCA & DCB étant deux ⌐ (*Arg.* 1).
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Il eſt évident, que la ſomme des deux ∀ ECA & ECB eſt auſſi ═ à deux ⌐.
 

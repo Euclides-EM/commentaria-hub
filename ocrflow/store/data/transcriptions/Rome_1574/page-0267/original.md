@@ -24,6 +24,8 @@ CONVERSVM quoque huius theorematis ita oſtendemus. In triangulo ABC, quadratum 
 
 ## THEOR. 12. PROPOS. 13.
 
+[Curated heading level=3 type=incipit: IN]
+
 IN oxygonijs triãgulis, quadratũ a latere angulũ acutũ ſubtendente minus eſt quadratis, quæ fiunt a lateribus acutum angulũ cõprehendentibus, rectangulo bis comprehẽſo, & ab uno laterum, quæ ſunt circa acutũ angulum, in quod perpendicularis cadit, & ab aſſumpta interius linea ſub perpendiculari prope acutum angulum.
 
 <!-- Catchword: SINT -->

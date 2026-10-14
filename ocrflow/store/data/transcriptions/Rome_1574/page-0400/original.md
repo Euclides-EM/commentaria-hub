@@ -7,6 +7,8 @@ tiones, æque multiplicia primæ, ac tertiæ excedant æque multiplicia ſecund�
 
 ### IX.
 
+[Curated heading level=4 type=incipit: PROPORTIO]
+
 PROPORTIO autem in tribus terminis pauciſſimis conſiſtit.
 
 QVONIAM omnis Analogia, ſeu proportionalitas, quã interpres, vt dictum eſt, proportionem nominat, ſimilitudo eſt duarum, vel plurium proportionum; omnis autem proportio habet & antecedens, & conſequens, neceſſe eſt, in omni proportionalitate reperiri, vt minimum, duo antecedentia, ac duo conſequentia. Quare ſi proportionalitas fuerit non continua, requirentur ſaltem quatuor termini, ſiue magnitudines: At vero ſi fuerit continua, erunt cum minimũ tres termini; quoniam terminus medius bis ſumitur, cum ſit conſequens vnius proportionis, & antecedens alterius: Atque hic eſt minimus numerus terminorum proportionalitatis. Nam in duobus terminis quibuſcumque, ſolum proportio, non autem proportionalitas reperitur.

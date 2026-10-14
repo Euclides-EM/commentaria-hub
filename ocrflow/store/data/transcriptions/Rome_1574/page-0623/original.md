@@ -16,6 +16,8 @@ SINT inter ſe primi A, & B, gignaturque C, ex A, in ſe ipſum. Dico C, ad reli
 
 ## THEOR. 26. PROPOS. 28.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo numeri ad duos numeros, uterque ad utrunque, primi fuerint; Et qui ex eis gignentur, primi inter ſe erunt.
 
 [Margin]
@@ -37,6 +39,8 @@ SIT uterque A, & B, ad utrunque C, & D, primus, gignaturque E, ex A, in B; & F, 
 [Curated heading level=2 type=campanus: 28]
 
 ## THEOR. 27. PROPOS. 29.
+
+[Curated heading level=3 type=incipit: SI]
 
 SI duo numeri primi inter ſe fuerint, & multiplicans uterque ſe ipſum fecerit aliquem; Et geniti ex ipſis primi inter ſe erũt:
 

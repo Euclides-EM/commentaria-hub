@@ -9,6 +9,8 @@ Prop. 4. L. 12.
 
 Et le ſolide X : pyramide EFGH = baze ABC : baze EFG. (*Prép.* 1.)
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant tous les priſmes contenus dans la pyramide ABCD ſont à tous les priſmes contenus dans la pyramide EFGH, comme le ſolide X eſt à la pyramide EFGH.
 
 [Margin]
@@ -17,11 +19,15 @@ Prop. 11. L. 5.
 
 Or tous les priſmes contenus dans la pyramide ABCD ſont plus grand que le ſolide X. (*Arg.* 1.).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Donc tous les priſmes contenus dans la pyramide EFGH ſont plus grand que la pyramide EFGH même.
 
 [Margin]
 Prop. 14..L 5.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Ce qui eſt impoſſible.
 
@@ -29,9 +35,13 @@ Prop. 14..L 5.
 Ax. 8. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Partant aucun ſolide (comme X) qui eſt moindre que la pyramide ABCD, ne peut avoir la même raiſon à la pyramide EFGH, qu’a la baze ABC à la baze EFG.
 
 Et comme la même Demonſtration a lieu pour tout autre ſolide plus grand que la pyramide ABCD.
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Il s’enſuit que la pyramide ABCD : pyramide EFGH = baze ABC : baze EFG.
 

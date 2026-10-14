@@ -8,6 +8,8 @@
 
 ## THEOR. 15. PROPOS. 17.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI cubus numerus cubum numerum non metiatur; neque latus unius latus alterius metietur. Et ſi latus cubi unius latus alterius non metiatur; neque cubus cubum metietur.
 
 SINT cubi A, & B, quorum latera C, & D; Non metiatur autem A, ipſum B. Dico quod nec latus C, latus D, metietur. Si enim C, dicatur metiri D; metietur quoque A, cubus cubum B. Quod eſt abſurdum, cũ ponatur non metiri. Non ergo latus C, latus D, metietur.

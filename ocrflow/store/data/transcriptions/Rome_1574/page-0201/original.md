@@ -30,7 +30,9 @@ IN omni tamen parallelogrammo diametri ſe mutuo bifariam diuidunt. Cum enim duo
 
 HVIVS autem, quod modo diximus, conuerſum etiam demonſtrabimus, [unclear: nimirum].
 
-#### OMNE quadrilaterum, in quo diametri ſe mutuo bifariã diuidunt, parallelogrammũ eſt.
+[Curated heading level=4: OMNE]
+
+OMNE quadrilaterum, in quo diametri ſe mutuo bifariã diuidunt, parallelogrammũ eſt.
 
 IN quadrilatero enim ABCD, diametri AC, BD, ſe mutuo bifariam diuidant in E. Dico ABCD, parallelogrãmum eſſe. Cum enim latera AE, EB trianguli AEB, æqualia ſint lateribus CE, ED, trianguli CED; & anguli con
 

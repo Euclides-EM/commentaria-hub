@@ -6,7 +6,7 @@ Striches/ welcher aus dem halben und angesetzten Stück zusammen gesetzet cd, zw
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
 1. a | ad
 2. b | cd
@@ -14,6 +14,8 @@ Striches/ welcher aus dem halben und angesetzten Stück zusammen gesetzet cd, zw
 4. d | bd
 5. a | b + c
 6. d | b — c
+
+### Begehrtes.
 
 ### Beweiß.
 
@@ -30,14 +32,23 @@ oder aa + dd | 2bb + 2cc | W. Z B.
 
 Einen geraden Strich also zu theilen/ daß das Viereck/ welches der gantze Strich und das eine Stück begreiffen/ eben so groß sey/ als das gleichseitige Viereck des andern Stückes.
 
-### Gegebenes. | Begehrtes.
+### Gegebenes.
 
-Gerader Strich ab | 1. Getheilet in c also
+Gerader Strich ab
+
+### Begehrtes.
+
+1. Getheilet in c also
 2. daß ▭ abc | □ ac
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Auff ab werde ein gleichseitiges □ ab gesetzt/ n. 46. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Die Seite ae werde in zween gleiche Theil getheilet in dem Düttel d, n. 10. I.
 
 <!-- Catchword: 3. Aus -->

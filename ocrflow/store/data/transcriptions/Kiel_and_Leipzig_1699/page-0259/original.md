@@ -17,9 +17,20 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Man nehme A + C 3 mahl/
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Und B + D auch 3 mahl/
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Die Grösse a aber 2 mahl
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Und b auch 2 mahl.
 
 [Diagram: sechs waagerechte Linien, bezeichnet 3A, 2a, 3C, 3B, 2b, 3D]

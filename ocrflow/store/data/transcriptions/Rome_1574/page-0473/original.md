@@ -26,6 +26,8 @@ ALITER. Quoniã triangula ABF, ADG, ſimilia ſunt, nec non triangula AFC, AGE, 
 
 ## THEOR. 5. PROPOS. 5.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo triangula latera proportionalia habeant; æquiangula erunt triangula, & æquales habebunt eos angulos, ſub quibus & homologa latera ſubtenduntur.
 
 HABEANT triangula ABC, DEF, latera proportionalia, ſitque AB, ad BC, ut DE, ad EF; & BC, ad CA, ut EF, ad FD; & AB, denique ad AC, ut DE, ad DF. Dico triangula eſſe æquiangula, angulum ſcilicet A, æqualem eſſe angulo D; & angulum B, angulo E; & angulum C, angulo F; ſic enim anguli æquales reſpiciunt homologa latera. Fiat angulus FEG, æqualis angulo B; & angulus EFG, angulo C, conueniantque rectæ EG, FG, in G; eritq́; reliquus angulus G, reliquo angulo A, æqualis. Aequiangula igitur ſunt triangula ABC, GEF. Quare ut AB, ad BC, ita GE, ad EF; Vt autem AB, ad BC, ita ponitur DE, ad EF. Igitur ut GE, ad EF, ita DE, ad EF, eandem: proptereaque æquales erunt GE, DE. Rurſus, quoniam ut BC, ad CA, ita EF, ad FG; Vt autem BC, ad CA, ita ponitur EF, ad

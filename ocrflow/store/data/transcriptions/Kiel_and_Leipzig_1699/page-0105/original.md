@@ -8,17 +8,29 @@ Demnach werden aus der Löse-Kunst vor diesesmahl entlehnet nachfolgende
 
 ## Grund-Sätze:
 
+[Curated heading level=3 type=numbered_item: I.]
+
 I. Wenn zwo gleiche Grössen/ in zwo andere gleiche Grössen gezogen werden / so werden auch gleichgrosse Dinge daraus.
+
+[Curated heading level=4 type=numbered_item: (t)]
 
 (t) Wenn die Seiten oder Striche gleichlang/so sind auch die Vierecke ( und Würffel ) solcher gleichgrossen Seiten gleichgroß.
 
+[Curated heading level=3 type=numbered_item: II.]
+
 II. Wenn zwo ( oder mehr ) gleiche Grössen an gleiche Grössen angeschlagen werden/ so entspringen darauß auch gleichgrosse Dinge.
 
+[Curated heading level=4 type=numbered_item: (u)]
+
 (u) Gleichgrosse rechtwincklichte Vierecke ( und Würffel ) haben auch gleich lange Striche/ ( oder Vierecke. )
+
+[Curated heading level=3 type=numbered_item: 1.]
 
 1. Ein jedes rechtwincklichtes Nebenstrichiches Viereck ( Parallelogrammum rectangulum abcd ) wird von zween geraden Strichen ( ab und cb, ) so einen rechten Winckel (abc) machen/ begriffen.
 
 [Diagram: zwey rechtwincklichte Vierecke mit den Eckpunkten d, c oben und a, b unten]
+
+[Curated heading level=3 type=numbered_item: 2.]
 
 2. In jedwedem nebenstrichichen Viereck (ADBC) wird ein jedes/derer ümb den Zwerg-Strich ( ABC ) stehenden Vierecke (FG oder HI,)samt den zwo nebenstehenden Füllflächen (DE und FH) ein Winckelmaß (Gnomonem) machen.
 

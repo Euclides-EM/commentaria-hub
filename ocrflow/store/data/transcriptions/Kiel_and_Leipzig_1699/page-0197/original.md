@@ -20,7 +20,13 @@ cdb ⋀ ∟
 [Diagram: Kreyß mit dem Zwerg-Strich bc durch den Mittel-Düpffel a, dem Punckt d oben am Kreyß und dem verlängten Strich bis e; der Strahl ad punctirt]
 
 ### Vorbereitung.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werde der Strich bd verlängt biß e.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Der Strahl ad gezogen.
 
 ### I. Beweiß.

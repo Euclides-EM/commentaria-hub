@@ -25,10 +25,14 @@ Fünffeck ein Kreyß umbschrieben. W. Z. M.
 Umb ein gegebenes gleichseitiges und gleich-
 wincklichtes Fünffeck einen Kreyß zu beschreiben.
 
-### Gegebenes. — Begehrte.
-Fünffeck bgefd — 1. Kreyß fegbd
-2. umb das Fünffeck
-beschrieben.
+### Gegebenes.
+
+Fünffeck bgefd
+
+### Begehrte.
+
+1. Kreyß fegbd
+2. umb das Fünffeck beschrieben.
 
 [Diagram: Kreis mit einbeschriebenem Fünffeck f d b g e, aus dem Mittelpunkt a laufen gerade Striche zu den Ecken]
 

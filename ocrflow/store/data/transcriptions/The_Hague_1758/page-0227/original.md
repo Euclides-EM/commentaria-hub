@@ -19,11 +19,23 @@ A + E : B = C + F : D.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque E : B = F : D (Hyp. 2).
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il ſuit par inverſion B : E = D : F.
 Et d'autant que A : B = C : D (Hyp. 1).
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Par égalité ordonnée A : E = C : F.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Donc par compoſition A + E : E = C + F : F.
 Mais à cauſe que E : B = F : D (Hyp. 2).
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Il ſuit encore par égalité ordonnée que A + E : B = C + F : D.
 
 [Margin]

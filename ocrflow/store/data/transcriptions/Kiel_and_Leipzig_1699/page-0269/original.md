@@ -12,15 +12,17 @@ Wenn derowegen die I. Grösse der III. und die II. Grösse der IV. gleichvielfä
 
 Gleichgrosse Grössen sind gegen eine einige Grösse gleichvielfältig: Und eine einige Grösse ist auch gegen gleichgrosse Grössen gleichvielfältig.
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
 [Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
-
-A : a | B : a.
 
 A | B
 A | 3a
 B | 3a
+
+### Begehrtes.
+
+A : a | B : a.
 
 ### I. Beweiß.
 

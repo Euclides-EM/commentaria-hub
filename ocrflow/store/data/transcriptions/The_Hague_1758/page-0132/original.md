@@ -28,11 +28,15 @@ Prop. 12. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque l’angle BGC du △ BCG eſt un ∟ (*Prep.*).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. L’angle CBG ſera < un ∟.
 
 [Margin]
 Prop. 17. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, CB eſt > CG,
 
@@ -42,11 +46,15 @@ Et CF étant = CB (*Def.* 15. L. 1.)
 Prop. 19. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. La droite CF eſt auſſi > CG ; ce qui eſt impoſſible.
 
 [Margin]
 Ax. 8. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. C’eſt pourquoi le rayon CB eſt ⟂ ſur la tangente DE.
 

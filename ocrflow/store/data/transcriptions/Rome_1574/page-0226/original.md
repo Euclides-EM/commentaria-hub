@@ -11,7 +11,9 @@ PARI ratione, propoſitis quotcunq́; rectilineis, conſtituemus illis parallelo
 
 HVC referri poteris problema vtiliſſimum ex Peletario, qd́ nos tamẽ alio modo, et breuiori demõſtrabimꝰ, in hũc modũ.
 
-#### DATIS duobus rectilineis inæqualibus, exceſſum maioris ſupra minus inquirere.
+[Curated heading level=4: DATIS]
+
+DATIS duobus rectilineis inæqualibus, exceſſum maioris ſupra minus inquirere.
 
 SINT data rectilinea A, & B. ſitq́; A, maius. Oportet igitur indagare, qua magnitudine rectilineum A, ſuperet rectilineum B. Fiat parallelogrammum CDEF in quocũq; angulo D, æquale maiori rectilineo A. Et ſuper rectam CD parallelogrammum CDGH, in eodem angulo D. æquale rectilineo minori B. Quoniam igitur parallelogrammum CDEF, ſuperat parallelogrammum CDGH, parallelogrammo EFHG; ſuperabit quoq; figura A, figurã B, eodẽ parallelogrãmo EFHG. Quod eſt propoſitum.
 

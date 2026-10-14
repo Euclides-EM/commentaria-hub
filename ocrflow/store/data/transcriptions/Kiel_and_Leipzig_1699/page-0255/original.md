@@ -20,8 +20,16 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Zu der Grösse A werde noch die Helffte derselben/
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. u. zu der Grösse B werde gleichfals die Helffte derselben beygefüget/
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. a werde fünf mahl/und 4. b auch fünfmahl/ genommen.
 
 [Diagram: vier waagerechte Linien, bezeichnet 1½A, 5a, 1½B, 5b]

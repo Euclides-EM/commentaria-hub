@@ -8,7 +8,7 @@
 
 Auff den Grund-Strich BC setze man die zween Striche ED und FD, auff dieselbe Seite / an welcher die Striche AB und AC stehen/ so werden sie zusammen kommen in dem Düttel A, nach 7. Vortr. und werden sich alßdann die beeden Winckel BAC und EDF zusammen schicken/und auch ein ander gleich seyn/nach 8. Grund-Satz. W. Z. B.
 
-I. Zugabe.
+### I. Zugabe.
 
 Weil in den beeden Dreyecken
 Die Seiten-Striche AB + AC | DE + DF
@@ -26,9 +26,13 @@ und ABC ⏉ DEF } alles nach 4. Vortr. W. Z. B.
 
 Einen gegebenen gerad-strichichen Winckel in zweene gleiche Theile zu theilen.
 
-### Gegebenes | Begehrtes
+### Gegebenes
 
-Gerad-strichicher Winckel | 1. theilung des ⋀ BAC.
-⋀ BAC. | 2. BAF ⋏ CAF.
+Gerad-strichicher Winckel ⋀ BAC.
+
+### Begehrtes
+
+1. theilung des ⋀ BAC.
+2. BAF ⋏ CAF.
 
 <!-- Catchword: Wir- -->

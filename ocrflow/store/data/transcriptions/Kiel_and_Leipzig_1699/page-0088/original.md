@@ -8,12 +8,18 @@
 
 Diejenigen Dreyecke / welche einen einigen Grundstrich / und gleiche Grösse haben/ müssen auch zwischen einerley Nebenstrichen stehen.
 
-### Gegebene. | Begehrte.
-1. △ ABC | 1. CD durch die Gipffel derer △ △
-2. △ ABD | 2. CD ⟛ AB.
+### Gegebene.
+
+1. △ ABC
+2. △ ABD
 3. ABC ⩓ ABD
 4. Gemeiner Grundstrich AB
 5. Gleichmäßige Setzung derer △ △.
+
+### Begehrte.
+
+1. CD durch die Gipffel derer △ △
+2. CD ⟛ AB.
 
 [Diagram: Viereck ABDC mit gezogenen und punctirten Strichen, mit den Puncten C, D, E oben, F in der Mitte, A, B unten]
 
@@ -23,8 +29,16 @@ Entweder ist CD = AB, oder nicht. Ist nun CD kein Nebenstrich/ des Striches AB, 
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werde entgegen AB durch C der Nebenstrich CE gezogen.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Verlänge man die Seite AD biß zum Nebenstrich in E.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Ziehe man den Strich BE.
 
 <!-- Catchword: Ver- -->

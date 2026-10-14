@@ -18,6 +18,8 @@ QVOD ſi fuerint plures magnitudines tribus, ita vt ſit etiã C, ad N, vt F, ad
 
 ## THEOR. 23. PROPOS. 23.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint tres magnitudines, aliæq́; ipſis æquales numero, quæ binæ in eadem ratione ſumantur, fuerit autem perturbata earũ proportio : Etiam ex æqualitate in eadem ratione erunt.
 
 [Diagram: vertical lines of varying heights labelled ABCN DEFO and GHK ILM]

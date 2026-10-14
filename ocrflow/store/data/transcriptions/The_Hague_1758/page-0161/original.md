@@ -17,11 +17,15 @@
 
 ### *Réſolution.*
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. PRolongez de part & d'autre le côté HL du △ HKL.
 
 [Margin]
 Dem. 2.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Cherchez le centre C du ⊙ EFG, & tirez le rayon CE.
 
@@ -29,11 +33,15 @@ Dem. 2.
 Prop. 1. L. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Faites ſur CE, au point C, l'angle ECF = à ∀KHM, & ∀ECG = à ∀KLN.
 
 [Margin]
 Prop. 23. L 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Sur CE, CF, CG élevez les ⊥ prolongées AD, AB, DB.
 
@@ -49,6 +57,8 @@ TIrez la droite FE.
 
 PUiſque les ∀ CEA, CFA ſont des ⌐ (*Reſ.* 4),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les ∀ FEA + EFA ſont < 2 ⌐, & les droites AD, AB ſe rencontreront quelque part en A.
 
 [Margin]
@@ -58,7 +68,11 @@ Ax. 11. L. 1.
 
 On démontrera de la même maniere, que
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Les droites AD, DB item AB, DB ſe rencontreront quelque part en D & B, Et par la raiſon que les droites AD, AB, DB ſont ⊥ à l'extremité E, F, G des rayons EF, CF, CG (*Reſ.* 4),
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Ces droites touchent le ⊙ EFG; & le △ ABD formé par ces droites eſt circonſcrit au ⊙ EFG.
 
@@ -69,11 +83,15 @@ Cor. D. 4. L. 4.
 
 De plus, les 4 ∀ CEA + CFA + ECF + FAE du quadrilatère AFCE étant = à 4 ⌐ (*Prop.* 32. *L.* 1), & les ∀ CEA + CFA = à 2 ⌐ (*Reſ.* 4),
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Les ∀ ECF + FAE ſont auſſi = à 2 ⌐,
 
 [Margin]
 Ax. 3. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Ou égaux aux ∀ KHM + KHL, à cauſe que ceux-ci ſont auſſi = à 2 ⌐. Mais ∀ ECF étant = à ∀ KHM (*Reſ.* 3),
 
@@ -82,17 +100,23 @@ Ax. 1. L. 1.
 Prop. 13. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. L'angle FAE eſt = à ∀ KHL, & par la même raiſon ∀ GDE = à ∀ KLH.
 
 [Margin]
 Ax. 3. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. C'eſt pourquoi le troiſieme ∀ FBG, du △ ABD, eſt = au troiſieme ∀ HKL, du △ HKL.
 
 [Margin]
 Prop. 32. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 8.]
 
 8. Le △ ABD circonſcrit au ⊙ EFG eſt donc auſſi équiangle au △ donné HKL.
 

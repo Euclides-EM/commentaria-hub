@@ -14,6 +14,8 @@ QVAMVIS autem omnis figura æquiangula parium laterum habeat latera oppoſita pa
 
 ## THEOR. 25. PROPOS. 35.
 
+[Curated heading level=3 type=incipit: PARALLELOGRAMMA]
+
 PARALLELOGRAMMA ſuper eadem baſi, & in eiſdem parallelis conſtituta, inter ſe ſunt æqualia.
 
 INTER duas parallelas AB, CD, ſuper baſi CD, exiſtant duo parallelogramma CDEA, CDBF; (Dicuntur autem parallelogramma in eiſdem eſſe parallelis quando duo latera oppoſita partes ſunt parallelarum, ut in exemplo propoſito cernitur.) Dico ipſa inter ſe eſſe æqualia, non quoad angulos & latera, ſed quoad areã, ſeu capacitatem. Cadat enim primo punctum F, inter A, & E. Quoniam igitur in parallelogrammo CDEA, recta AE æqualis eſt rectæ CD oppoſitæ; & eidem CD æqualis eſt FB, in parallelogrammo CDBF; Erunt AE, FB, inter ſe æquales: Dempta igitur communi FE, remanebit AF, ipſi EB, æqualis: Eſt autem & AC, ipſi ED, æqualis in parallelogrammo CDEA, & angulus BED, angulo FAC, externus interno. Quare triangulũ FAC, triangulo BED, æquale erit: Addito igitur communi tra

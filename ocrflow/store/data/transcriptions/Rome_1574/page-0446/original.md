@@ -35,6 +35,8 @@ SIT minor proportio A B, ad B C, quam D E, ad E F. Dico & componendo minorem eſ
 29.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI compoſita prima cum ſecunda ad ſecundam maiorem habuerit proportionem, quam compoſita tertia cũ quarta ad quartam: Habebit quoque diuidendo prima ad ſecundam maiorem proportionem, quam tertia ad quartam.
 
 SIT maior proportio A C, ad B C, quam D F, ad E F. Dico & diuidendo maiorem eſſe proportionẽ A B, ad B C,

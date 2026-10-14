@@ -11,6 +11,8 @@ erit ipſius A, ab eodem B, denominata. Si numerum ergo quiſpiam numerus metiat
 38.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI numerus partem habuerit quamlibet; metietur illum numerus a parte denominatus.
 
 HABEAT numerus A, partem B. a qua numerus C, denominatur. Dico C, metiri ipſum A. Nã cũ B, pars denominetur a C; ſit autẽ & unitas pars ipſius C, ab eodem C, denominata; metietur unitas ipſum C, & B, ipſum A, æque. Viciſſim ergo & unitas ipſum B, & C, ipſum A, metietur. Si numerus ergo partem habuerit quamlibet, &c. Quod demonſtrandũ erat.
@@ -28,6 +30,8 @@ HABEAT numerus A, partem B. a qua numerus C, denominatur. Dico C, metiri ipſum 
 [Margin]
 39.
 [/Margin]
+
+[Curated heading level=3 type=incipit: NVMERVM]
 
 NVMERVM reperire, qui minimus cum ſit, habeat datas partes.
 

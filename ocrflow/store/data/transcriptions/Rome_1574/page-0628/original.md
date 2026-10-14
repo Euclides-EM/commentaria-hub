@@ -26,6 +26,8 @@ ALITER. Quia numerus A, compoſitus eſt; metietur eum aliquis numerus, uel etia
 31.
 [/Margin]
 
+[Curated heading level=3 type=incipit: OMNIS]
+
 OMNIS numerus aut primus eſt, aut eum aliquis primus metitur.
 
 SIT numerus quicunque A. Dico eum uel eſſe primũ, uel certe aliquem primum eum metiri. Cum enim omnis numerus uel primus ſit, uel compoſitus; ſi quidem A, primus eſt, habetur propoſitum: Si vero compoſitus; metietur eum aliquis primus. Omnis igitur numerus aut primus eſt, aut eum aliquis primus metitur. Quod erat oſtendendum.
@@ -43,6 +45,8 @@ SIT numerus quicunque A. Dico eum uel eſſe primũ, uel certe aliquem primum eu
 [Margin]
 34.
 [/Margin]
+
+[Curated heading level=3 type=incipit: NVMERIS]
 
 NVMERIS datis quotcunque, reperire minimos omnium eandem ratio-
 

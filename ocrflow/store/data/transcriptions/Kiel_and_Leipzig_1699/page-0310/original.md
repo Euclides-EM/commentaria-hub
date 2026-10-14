@@ -3,11 +3,16 @@
 <!-- Page number: 293 -->
 
 ### Vorbereitung.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Nehme man eine Grösse D darzu / welche zu C sich also / wie b zu c verhalte.
 
 [Diagram: drei waagerechte Linien d, D, C von unterschiedlicher Länge]
 
 D : C | b : c
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auch nehme man eine Grösse d, welche sich zu D also / wie a : b verhalte.
 

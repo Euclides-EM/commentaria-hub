@@ -14,7 +14,12 @@ welches unmöglich n. 9. Gr:S.
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Man ziehe entgegen dem Strich AB, den Nebenstrich FC.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Ziehe man den Strich AF.
 
 ### Beweiß.

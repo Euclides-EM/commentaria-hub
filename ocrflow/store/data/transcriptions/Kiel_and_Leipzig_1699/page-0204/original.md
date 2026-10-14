@@ -4,9 +4,20 @@
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Auff den gegebenen Strich ab oder al werde gesetzet der Winckel baf oder laf ⋀ ead. n. 23. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Auff den Strich fa und zwar auff den Düttel a werde ein Senckstrich ag gesetzet. n. 11. I.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Der Strich ad werde in zween gleiche Theil geschnitten in k. n. 10. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Auff dieses Striches ab oder al Mittel k werde der Senckstrich ki gesetzet. n. 11. I.
 
 Aus dem Düttel g, wo die beeden Senckstriche einander durchschneiden/ werde der Kreyß bha oder lha beschrieben.
@@ -26,14 +37,25 @@ In das Kreyßstück bha oder lha werde der Winckel ahb oder abl gesetzet.
 | baf oder laf ⋀ bha oder lha |  |  | n. 32. III. |
 | Dw. | ecd ⋀ bha oder lha |  | n. 1. Gr. I. |
 
-II. Arth.
+### II. Arth.
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Auff den gegebenen Strich ab werde gesetzet
 baf ⋀ ecd n. 23. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Auff a werde der Senckstrich ag gesetzet.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Auff b werde gesetzet abg ⋀ bag n. 23. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Aus g nach der weite ga werde der Kreyß ahb beschrieben.
 
 <!-- Signature: Aa 2 -->

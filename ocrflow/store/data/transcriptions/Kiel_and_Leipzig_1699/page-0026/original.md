@@ -6,17 +6,32 @@
 
 Weil man keine Erklärung oder Beweiß nachtrücklich anstellen kan/es werden denn zufoderst etliche begehrte Sätze oder Foderungen zugegeben/so hat Euclides drey solche Foderungen seinen Beweißthümern vorgesetzet/ welchen aber billich die vierte vorgefüget wird/ als
 
+[Curated heading level=3 type=numbered_item: 1.]
+
 1. Daß man einen sichtbahren Düpffel mit der Feder/Stifft/ Kreiden/ oder auff andere Arth/ machen möge/ welcher bey dem Beweiß die Stelle eines zarten unsichtbaren Düttels vertreten könne.
+
+[Curated heading level=3 type=numbered_item: 2.]
+
 2. I. Daß man von einem jeden Düpffel zu einem andern Düpffel einen geraden Strich ziehen könne.
+
+[Curated heading level=3 type=numbered_item: 3.]
+
 3. II. Daß man einen geendeten Strich nothdürfftig oder so weit / als nöthig ist / ungehindert verlängern könne.
+
+[Curated heading level=3 type=numbered_item: 4.]
+
 4. III. Daß man aus jedwedem gegebenen Düpffel/ nach der gegebenen Weite / einen Kreyß beschreiben könne.
 
 ## Außsprüche oder Grund-Sätze.
 (Axiomata sive communes notiones.)
 
+[Curated heading level=3 type=numbered_item: I.]
+
 I. Welche zwo Grössen c oder b ( oder Zalen ) einer dritten Grösse a ( oder Zal ) gleich sind/ dieselbigen sind auch unter sich gleich.
 
 [Diagram: drei gleich lange Striche, bezeichnet mit b, a, c]
+
+[Curated heading level=4 type=numbered_item: (a)]
 
 (a) Welch Ding a grösser ist/als eins b von zwey gleichen Dingen/ das ist auch grösser / als das andere c.
 

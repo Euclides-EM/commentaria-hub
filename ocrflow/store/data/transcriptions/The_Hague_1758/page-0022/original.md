@@ -2,9 +2,11 @@
 
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 6, 7.]
+
 [Figure: Fig. 6. a horizontal line labelled A, B, C; Fig. 7. two angles labelled A, B, C and a, b, c]
 
-## AXIOMES.
+<!-- Running title: AXIOMES. -->
 
 ### VIII.
 

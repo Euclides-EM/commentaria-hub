@@ -15,6 +15,8 @@ nenitur; Atque adeo ſi ordo numerorum a binario duplorum infinite augeatur, omn
 SI numerus dimidium habeat imparem: Pariter impar eſt tantum.
 [/Subhead]
 
+[Curated heading level=3 type=incipit: HABEAT]
+
 HABEAT numerus A, dimidiam partem numerum imparem. Dico A, eſſe pariter imparem tantum. Quod enim ſit pariter impar, ita perſpicuum fiet.
 
 [Diagram: horizontal row of points labelled A]

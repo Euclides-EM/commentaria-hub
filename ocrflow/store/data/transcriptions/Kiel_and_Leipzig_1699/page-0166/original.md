@@ -2,13 +2,15 @@
 
 <!-- Page number: 149 -->
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
 1. Zweene Kreyse ebf und dbg.
 2. Welche auswendig in b
 3. Einander anrühren.
 4. Gerader Strich ac,
 5. Welcher die beeden Mittel-Düpffel a und c zusammen henget.
+
+### Begehrtes.
 
 Strich ac durch den Anrührungs-Düttel b gehend.
 

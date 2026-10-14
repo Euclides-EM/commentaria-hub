@@ -20,9 +20,14 @@ Müssen derowegen allezeit die im abgewandten Krayß-Stück stehende Winckel eda
 
 Auff einen gegebenen geraden Strich ein Kreyß-Stück zu beschreiben/in welchem ein Winckel/ so dem gegebenen Winckel gleichgroß ist/ stehen könne.
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-1. Gerader Strich ab oder al. | 1. ◠ ahb.
-2. Winckel ecd. | 2. In welchem stehen kan ahb oder abl ⋀ ecd.
+1. Gerader Strich ab oder al.
+2. Winckel ecd.
+
+### Begehrte.
+
+1. ◠ ahb.
+2. In welchem stehen kan ahb oder abl ⋀ ecd.
 
 [Diagram: zwei Kreise mit Konstruktionen; links Kreis mit Punkten e, h, k, a, b, g, i und Tangenten c, d, f; rechts Kreis mit Punkten h, e, i, g, k, a, b und Tangenten d, c, f]

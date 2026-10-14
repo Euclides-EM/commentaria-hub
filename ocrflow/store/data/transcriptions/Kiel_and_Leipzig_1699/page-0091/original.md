@@ -14,12 +14,17 @@ Müssen also alle gleichgrosse △ △ , so auff gleichlangen Grundstrichen glei
 
 Wenn ein Nebenstrichiches Viereck mit einem Dreyeck auff einem einigen Grundstrich stehet / und sich zwischen einerley Nebenstrichen befinden; so ist das Viereck noch eins so groß/als das Dreyeck.
 
-### Gegebene. | Begehrtes.
-1. □ ABDE | □ ABDE | 2 △ ABC.
+### Gegebene.
+
+1. □ ABDE
 2. △ ABC
 3. Gemeiner Grundstrich AB
 4. EC = AB
 5. Zwischen welchen □ und △ stehen.
+
+### Begehrtes.
+
+□ ABDE | 2 △ ABC.
 
 [Diagram: Viereck mit den Puncten C, D, E oben und B, A unten, mit gezogenen und punctirten Strichen]
 

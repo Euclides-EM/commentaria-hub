@@ -12,6 +12,8 @@ bari poteſt, ad hunc modum. Si enim duæ quantitates æquales fuerint alicui te
 
 ### VII.
 
+[Curated heading level=4 type=incipit: ET]
+
 ET quæ eiuſdem ſunt dimidia, inter ſe æqualia ſunt.
 
 PARI ratione, quæ eiuſdem ſunt partes tertiæ, vel quartæ, vel quintæ, &c. inter ſe æqualia ſunt.
@@ -19,6 +21,8 @@ PARI ratione, quæ eiuſdem ſunt partes tertiæ, vel quartæ, vel quintæ, &c. 
 IN his duobus pronunciatis per eandem quantitatem, intelligi debent quantitates etiam æquales. Nam quæ æqualium duplicia ſunt, vel triplicia. &c. inter ſe æqualia quoque ſunt: Item, quæ æqualium ſunt dimidia, vel tertia, vel quarta, &c. & inter ſe æqualia neceſſario exiſtunt.
 
 ### VIII.
+
+[Curated heading level=4 type=incipit: ET]
 
 ET quæ ſibi mutuo congruunt, ea inter ſe ſunt æqualia.
 

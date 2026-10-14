@@ -29,6 +29,8 @@ SECVNDO ſint latera A B, A C, æqualia, & recta A D, ſecans baſin B C, in D, 
 20.
 [/Margin]
 
+[Curated heading level=3 type=incipit: OMNIS]
+
 OMNIS trianguli duo latera reliquo ſunt maiora, quomodocunque aſſumpta.
 
 [Figure: triangle with apex D at top, points B and C on the base, and point A between D and C]

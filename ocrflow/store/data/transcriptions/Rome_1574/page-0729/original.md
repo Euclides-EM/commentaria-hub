@@ -22,6 +22,8 @@ ut A, ad B, ita D, ad alium, uidelicet ad E. Erit igitur permutando ut A, ad D, 
 
 ## PROBL. 1. PROPOS. 18.
 
+[Curated heading level=3 type=incipit: DVOBVS]
+
 DVOBVS numeris datis, conſiderare an poſſit ipſis tertius proportionalis inueniri.
 
 DATI duo numeri ſint A, & B, oporteatque conſiderare, an inueniri poſſit tertius ipſis proportionalis, hoc eſt, an ſit B, ad alium quempiam numerũ, ut A, ad B. Aut igitur A, B, primi inter ſe ſunt, aut non. Si ſunt inter ſe primi; perſpicuum eſt ex demonſtratis, non poſſe ipſis reperiri tertium proportionalem. Si uero non ſunt A, & B, inter ſe primi; multiplicans B, ſe ipſum faciat C. Aut igitur A, metitur ipſum C, aut non. Metiatur primum A, ipſum C, per D. Dico ipſis A, B, inueniri poſſe tertium proportionalem, immo ipſum D, eſſe tertiũ proportionalem. Cum enim A, metiatur C, per D; fiet C, ex A, in D: Fit autem ex conſtructione, idem C, ex B, in ſe ipſum. Igitur, qui continetur ſub extremis A, D, æqua-

@@ -4,9 +4,20 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Man nehme noch darzu d | b n. 2. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. werde gemacht ▭ ac
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Deßgleichen ▭ bd.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Und zwar nach rechten Winckeln.
 
 ### I. Beweiß.
@@ -20,10 +31,13 @@ u. ▭ ac | ▭ db n. 16. VI.
 ▭ db | gleichseitig □ bb n 29. Besch. I.
 Dw. ▭ ac | □ bb
 
-### II. Gegebenes. Begehrte.
+### II. Gegebenes.
 
-▭ ac | □ bb 1. a : b | b : c
+▭ ac | □ bb
 
+### Begehrte.
+
+1. a : b | b : c
 2. in ungertrennter Ebenmaß stehend.
 
 ### Beweiß.

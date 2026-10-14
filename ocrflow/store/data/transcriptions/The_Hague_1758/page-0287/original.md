@@ -34,11 +34,15 @@ Prop. 31. L. 1.
 
 {dropcap:L|lines=2|style=plain}Es Pgrs AC, IG étant donc placés alentour de la même diagonale BHD, & ∀FBG étant commun aux deux Pgrs (*Sup. & Prep.*),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le Pgr AC eſt ſemblable au Pgr IG.
 
 [Margin]
 Prop. 24. L. 6.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant CB : BA ⚌ GB : BI.
 
@@ -48,11 +52,15 @@ Def. 1. L. 6.
 
 Mais les Pgrs AC & FG étant auſſi ſemblables, & ∀B commun aux deux Pgrs (*Hyp.* 2),
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. On aura CB : BA ⚌ GB : BF.
 
 [Margin]
 Def. 1. L. 6.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent GB : BI ⚌ GB : BF.
 
@@ -60,11 +68,15 @@ Def. 1. L. 6.
 Prop. 11. L. 5.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Donc BI ⚌ BF.
 
 [Margin]
 Prop. 14. L. 5.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Ce qui eſt impoſſible.
 
@@ -72,7 +84,11 @@ Prop. 14. L. 5.
 Ax. 8. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Ainſi toute ligne BHD, différente de la ligne BED, n'eſt point la diagonale du Pgr AC.
+
+[Curated heading level=4 type=numbered_item: 8.]
 
 8. Partant, la ligne BED eſt la véritable diagonale, & le Pgr FG eſt placé alentour d'elle.
 

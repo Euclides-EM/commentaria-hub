@@ -19,6 +19,8 @@ HOC idem demonſtrabitur vniuerſe in omni genere proportionis, propos. 12.
 2.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI prima ſecundæ æque fuerit multiplex, atque tertia quartæ; fuerit autem & quinta ſecundæ æque multiplex, atque ſexta quartæ; erit & compoſita prima cũ quinta, ſecundæ æque multiplex, atque tertia cum ſexta, quartæ.
 
 SIT magnitudo prima AB, tam multiplex ſecundæ C, quam eſt multiplex DE, tertia, quartæ F; Rurſus tam ſit multiplex BG, quinta ipſius C, ſecundæ, quam multiplex eſt EH, ſexta ipſius F, quartæ. Dico AB, primam cũ BG, quinta compoſitam, tam multiplicem eſſe ſecundæ C, quã multiplex eſt DE, tertia compoſita cum ſexta EH, ipſius F, quartę. Cum enim AB, DE, ſint æque multiplices ipſarum C, F; erunt in AB, tot magnitudines ipſi C, æqua

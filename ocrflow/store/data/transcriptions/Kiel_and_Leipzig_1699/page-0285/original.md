@@ -8,10 +8,10 @@
 
 Vier Ebenmässige Grössen sind auch wechselweiß genommen Ebenmässig.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
 A ____________
-B ________ | A : a | B : b
+B ________
 a ____
 b __
 
@@ -20,6 +20,10 @@ b __
 A : B | a : b
 A | 4a
 B | 4b
+
+### Begehrtes.
+
+A : a | B : b
 
 ### Beweiß.
 

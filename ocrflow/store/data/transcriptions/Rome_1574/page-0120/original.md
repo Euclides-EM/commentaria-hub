@@ -5,6 +5,8 @@ te dictarum linearum ſpatium coarctari, ex altera vero magis ac magis dilatari;
 
 ### XII.
 
+[Curated heading level=4 type=incipit: DVAE]
+
 DVAE rectæ lineæ ſpatium non comprehendunt.
 
 NVLLAM prorſus habet difficultatem hoc principium; Si enim duæ rectæ lineæ ex vna parte coeant ad efficiendum angulũ, neceſſario ex altera parte ſemper magis ac magis diſiungẽtur ſi producãtur, vt in exemplo propoſito perſpicuũ eſt.

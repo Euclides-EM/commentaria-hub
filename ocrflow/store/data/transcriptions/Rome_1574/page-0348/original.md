@@ -9,6 +9,8 @@
 
 ### I.
 
+[Curated heading level=4 type=incipit: FIGVRA]
+
 FIGVRA rectilinea in figura rectililinea inſcribi dicitur, cũ ſinguli eius figuræ, quæ inſcribitur, anguli ſingula latera eius, in qua inſcribitur, tangunt.
 
 {dropcap:A|lines=6|style=decorated|decoration="white letter A on black ground with foliate and figural ornament"}GENS Euclides in quarto hoc libro de uarijs inſcriptionibus figurarum rectilinearum in circulo, & earundem circa circulum deſcriptionibus; nec nõ de inſcriptionibus circuli in eiſdem figuris, & circuli deſcriptionibus circa eadem: exponit paucis definitionibus, quid ſit figuram in figura inſcribi, aut circa figuram deſcribi, incipiens a rectilineis figuris. SI igitur anguli D, E, F, trianguli interni DEF, tangant latera AB, AC, BC, trianguli externi ABC; dicetur triangulum DEF, in triangulo ABC, eſſe inſcriptum. At quoniam angulus M, trianguli KLM, non tangit latus HI, trianguli GHI, non dicetur triangulum KLM, inſcribi in triangulo GHI; quamuis totum illud ſit intra hoc, duoque anguli K, L, tangant duo latera GH, GI.

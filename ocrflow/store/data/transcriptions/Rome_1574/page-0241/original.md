@@ -8,6 +8,8 @@ OBITER quoque monendus mihi lector uidetur, Euclidem in hoc ſecundo libro, & in
 
 ### II.
 
+[Curated heading level=4 type=incipit: IN]
+
 IN omni parallelogrammo ſpatio, unũquodlibet eorum, quæ circa diametrum illius ſunt, parallelogrammorum, cum duobus complementis, Gnomon uocetur.
 
 IN Parallelogrammo ABCD, ſiue rectangulum illud ſit, ſiue non, ducatur diameter AC, ex cuius puncto quolibet G, ducantur rectæ EF, HI, parallelæ lateribus parallelogrammi, ita vt parallelogrammum diuiſum ſit in quatuor parallelogramma, quorum duo EH, IF, dicuntur eſſe circa diametrum, alia vero duo BG, GD, complementa, vt manifeſtum eſt ex vltima definitione primi lib. Itaque figura compoſita ex parallelogrammo vtrolibet circa diametrum, ut ex IF, vna cum duobus complementis BG GD, qualis eſt figura EBCDHGE, quam complectitur circunferentia KLM, dicitur Gnomon. Eadem ratione figura FDABIGF, compoſita ex parallelogrammo EH, circa diametrum, & duobus

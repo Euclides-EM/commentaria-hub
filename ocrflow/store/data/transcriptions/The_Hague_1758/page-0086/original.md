@@ -1,6 +1,8 @@
 <!-- Page number: 74 -->
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2.]
+
 [Diagram: Fig. 1., rectangle with vertices labelled A, F, D, E; Fig. 2., rectangle with vertices labelled R, S, Q, P, T, V; two horizontal lines labelled N and M]
 
 ## AXIOMES.

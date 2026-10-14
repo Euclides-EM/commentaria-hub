@@ -12,18 +12,35 @@ Wird dannenhero allezeit das □ , so mit einem △ auff einem Grundstrich / und
 
 Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck zu machen.
 
-### Gegebene. | Begerthe{printer-error-correction:Begehrte}.
-1. △ ABC | 1. □ CEFG
-2. ∧ D | 2. □ CEFG | △ ABC
-| 3. ECG ⋀ D
+### Gegebene.
+
+1. △ ABC
+2. ∧ D
+
+### Begerthe{printer-error-correction:Begehrte}.
+
+1. □ CEFG
+2. □ CEFG | △ ABC
+3. ECG ⋀ D
 
 [Diagram: Dreyeck und Viereck auff dem Grundstrich mit den Puncten G, F, A oben und C, E, B unten, daneben der Winckel D]
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Durch denn Gipffel des △ werde dem Grundstrich gegen über/ der Nebenstrich GA gezogen / nach 31. Vortr.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Der Grundstrich BC werde in zwey gleiche Theile geschnitten in E, nach 10. Vortr.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Auff des Grundstrichs Enddüttel E setze man den Winckel ECG ⋀ D, nach 23. Vortr.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Aus E ziehe man EF ⟛ CG nach 31. Vortr.
 
 ### Vorbereitung.

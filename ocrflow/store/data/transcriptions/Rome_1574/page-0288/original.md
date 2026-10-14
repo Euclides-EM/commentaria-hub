@@ -11,6 +11,8 @@ culi EBD, erit recta EC, rectæ BC, æqualis. Rurſus quia C, centrum quoque pon
 
 ## THEOR. 5. PROPOS. 6.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo circuli ſeſe mutuo interius tangant; eorum non erit idem centrum.
 
 DVO circuli AB, BC, ſe interius tangant in B; Dico eos non habere idem centrum. Habeant enim, ſi fieri poteſt, idem centrum D, a quo duæ rectę ducantur; DB, quidem ad tactum B; At DC, ſecans vtramq; circunferentiam in A, & C. Quoniam igitur D, ponitur centrum circuli AB, erit recta AD, rectæ BD, æqualis. Rurſus quia D, ponitur centrum circuli BC, erit recta CD, eidem rectæ BD, ęqualis. Quare rectæ AD, & CD, inter ſe erunt æquales, pars & totum, quod eſt abſurdum. Si igitur duo circuli ſeſe mutuo interius tangant, &c. Quod demonſtrandum erat.
@@ -28,6 +30,8 @@ EVCLIDES propoſuit theorema hoc de circulis ſeſe interius tangentibus duntaxa
 [Curated heading level=2 type=campanus: 7]
 
 ## THEOR. 6. PROPOS. 7.
+
+[Curated heading level=3 type=incipit: SI]
 
 SI in diametro circuli quodpiam ſumatur punctum, quod circuli centrum non ſit, ab eoq́; puncto in circulum quædam rectæ lineæ cadant; Maxima quidem erit ea,
 

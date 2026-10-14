@@ -24,6 +24,8 @@ HOC quoque ab Euclide concludetur in omni genere proportionis uniuerſe propos. 
 
 ## THEOR. 3. PROPOS. 3.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſit prima ſecundæ æquemultiplex, atque
 
 <!-- Catchword: atque -->

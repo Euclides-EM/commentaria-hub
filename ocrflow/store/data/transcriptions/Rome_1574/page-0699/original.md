@@ -8,6 +8,8 @@
 6.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI numerus ſe ipſum multiplicans cubum faciat: Et ipſe cubus erit.
 
 MVLTIPLICANS ſe ipſum numerus A, faciat B, cubum. Dico & A, cubum eſſe. Fiat ex A, in B, numerus C, qui cubus erit, cum A, in ſe faciat B, & ipſe C, ex A, in B, gignatur, atque adeo æqualis æqualiter ęqualis ſit, ut per ſpicuum eſt ex ijs, quæ ad de finitionem cubi ſcripſimus. Quia igitur B, cubus multipliplicans{printer-error-correction:multiplicans} numerum quempiam A, facit cubum C; erit & A, cubus. Quare ſi numerus ſe ipſum multiplicans cubum faciat, &c. Quod erat demonſtrandum.
@@ -51,6 +53,8 @@ A,8.  B,64.  C,512.
 [Margin]
 7.
 [/Margin]
+
+[Curated heading level=3 type=incipit: SI]
 
 SI compoſitus numerus numerum aliquem multiplicans, quempiam faciat: Factus ſolidus erit.
 

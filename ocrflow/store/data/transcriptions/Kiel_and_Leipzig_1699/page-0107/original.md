@@ -2,19 +2,39 @@
 
 <!-- Page number: 90 -->
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Werden ad | AD
 de | DE
 eb | EB | nach 3. Vortr. I.
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Zeihe man nebenstriche
 df = ac
 eg = ac | n. 31. Vortr. I.
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Werden die Zwerg-Striche af, dg und eh gezogen.
+
+[Curated heading level=4 type=numbered_item: 9.]
+
 9. Ziehe man auch die Striche
 pq | BE
 rs | ED
 tu | DA | nach 2. Vortr. I.
+
+[Curated heading level=4 type=numbered_item: 10.]
+
 10. Diese drey Striche werden gezogen in andere drey Striche qn, sl und ui, welche aber alle dem Striche AC gleich seyn müssen / damit man die Vierecke □ pqn, □ rsl und □ tui bekomme.
+
+[Curated heading level=4 type=numbered_item: 11.]
+
 11. Ziehe man die Zwerg-Striche af, dg und ah.
+
+[Curated heading level=4 type=numbered_item: 12.]
+
 12. Wie auch - - - uk, sm und qo.
 
 [Diagram: Reihe rechtwincklichter Vierecke mit punktierten Diagonalen; Punkte c, f, g, h, i, k, l, m, n, o oben, E, D links, A, d, e, b, u, t, s, r, q, p unten]

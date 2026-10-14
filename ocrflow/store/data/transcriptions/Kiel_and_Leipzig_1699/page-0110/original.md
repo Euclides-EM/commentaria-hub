@@ -21,10 +21,15 @@ Wird also allezeit das □ von dem gantzen Strich AB so groß seyn/ als die beed
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrte.
-1. a. | aa | ab + ac
+### Gegebene.
+
+1. a.
 2. b + c
 3. a | b + c
+
+### Begehrte.
+
+aa | ab + ac
 
 ### Beweiß.
 

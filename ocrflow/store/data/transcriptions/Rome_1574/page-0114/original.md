@@ -8,13 +8,21 @@ PRAETER hæc tria poſtulata quibus Euclides cõtentus fuit, ſunt multa alia æ
 
 ### IIII.
 
+[Curated heading level=4 type=incipit: ITEM]
+
 ITEM quacunq; magnitudine data, ſumi poſſe aliam magnitudinem vel maiorem, vel minorem.
 
 OMNIS enim quantitas continua per additionem augeri, per diuiſionem vero diminui poteſt infinite: Vnde nunquã dabitur quantitas continua adeo magna, quin ea maior dari poſſit: neque tam parua, quin minor ea poſſit exhiberi. Hoc idem in numeris verum eſt, quod ad additionem pertinet. Namquilibet numerus per continuam additionem vnitatis augeri poteſt infinite: quamuis in eius diminutione ad vnitatem indiuiduam deueniatur.
 
-## COMMVNES NOTIONES, ſiue Axiomata, quæ & Pronunciata di ci ſolent, vel Dignitates.
+## COMMVNES NOTIONES,
+
+[Subhead]
+ſiue Axiomata, quæ & Pronunciata dici ſolent, vel Dignitates.
+[/Subhead]
 
 ### I.
+
+[Curated heading level=4 type=incipit: QVAE]
 
 QVAE eidem æqualia, & inter ſe ſunt æqualia.
 

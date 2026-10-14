@@ -15,6 +15,8 @@ Itaque cum rurſus ſit B G, ad A B, vt E H, ad D E; & A B, ad C, vt D E, ad F; 
 
 ## THEOR. 25. PROPOS. 25.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI quatuor magnitudines proportionales fuerint: maxima & minima reliquis duabus maiores erunt.
 
 [Margin]

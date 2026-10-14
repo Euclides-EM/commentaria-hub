@@ -26,10 +26,15 @@ Werden also die bey denen Neben-Strichen von dem einfallenden Strich gemachte (�
 
 Wenn zween Striche neben dem dritten in unveränderter Weite hinlauffen / so sind selbige auch unter sich Neben-Striche.
 
-### Gegebene.                         Begehrtes.
-1. Zween Striche AB und CD        AB ═ CD
+### Gegebene.
+
+1. Zween Striche AB und CD
 2. Der Strich EF
 3.        AB ╪ EF
 4.        CD ╪ EF
+
+### Begehrtes.
+
+AB ═ CD
 
 [Diagram: Drei waagerechte Striche AB, EF und CD, geschnitten vom schrägen Strich GH in den Dütteln I, L und K]

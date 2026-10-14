@@ -25,9 +25,13 @@ II. Et ſemblables entr'eux.*
 
 {dropcap:P|lines=2|style=plain}Uiſque FE eſt Plle à BC (*Hyp.* 1. & 2. & *Prop.* 30. L. 1.),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le △ AFE eſt équiangle au △ ABC, ſelon l'ordre des lettres.
 
 De même, parceque HE eſt Plle à DC,
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Le △ AHE eſt équiangle au △ ADC, ſelon l'ordre des lettres.
 
@@ -35,9 +39,13 @@ De même, parceque HE eſt Plle à DC,
 Prop. 29. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Le Pgr AFEH eſt donc auſſi équiang. au Pgr ABCD, ſelon l'ordre des lettres.
 
 Et à cauſe que dans les △ AHE, ADC, les ∀ AHE & D ſont égaux (*Arg.* 2), comme dans les △ AFE, ABC, les ∀ AFE & B (*Arg.* 1),
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. AH : HE ⚌ AD : DC & AF : FE ⚌ AB : BC
 
@@ -47,11 +55,15 @@ Prop. 4 L. 6.
 
 De plus, à cauſe que les ∀ AEH, ACD ; item FEA, BCA ſont égaux (*Arg.* 1 & 2)
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. HE : AE ⚌ DC : AC & AE : EF ⚌ AC : CB
 
 [Margin]
 Prop. 4. L. 6.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Donc par égalité HE : EF ⚌ DC : CB.
 
@@ -61,11 +73,15 @@ Prop. 22. L. 5.
 
 Et encore, à cauſe que les ∀ EAH, EFA ſont communs, de part & d'autre, aux deux triangles AHE, ADC & AFE, ABC,
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. HA : EA ⚌ DA : CA & EA : AF ⚌ CA : AB
 
 [Margin]
 Prop. 4. L. 6.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 8.]
 
 8. Donc par égalité HA : AF ⚌ DA : AB
 
@@ -73,7 +89,11 @@ Prop. 4. L. 6.
 Prop. 22. L. 5.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 9.]
+
 9. C'eſt pourquoi les Pgrs AFEH, ABCD, ont leurs angles égaux, chacun à chacun, dans l'ordre des lettres (*Arg.* 3); & les côtés alentour des angles égaux, proportionels (*Arg.* 4. 6. 8.).
+
+[Curated heading level=4 type=numbered_item: 10.]
 
 10. Par conſéquent ces Pgrs ſont ſemblables.
 
@@ -81,9 +101,13 @@ Prop. 22. L. 5.
 Def. 1. L. 6.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 11.]
+
 11. On démontre de la même manière, que les Pgrs EICG, ABCD ſont ſemblables.
 
 C. Q. F. D. I.
+
+[Curated heading level=4 type=numbered_item: 12.]
 
 12. Par conſéquent les Pgrs AFEH, EICG ſont auſſi ſemblables entr'eux.
 

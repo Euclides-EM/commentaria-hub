@@ -17,6 +17,8 @@ le complemento BN, erit & AO, ipſi BN, æquale; Addito ergo communi OQ, fiet AP
 
 ## PROBL. 10. PROPOS. 30.
 
+[Curated heading level=3 type=incipit: PROPOSITAM]
+
 PROPOSITAM rectam lineam terminatã, extrema, ac media ratione ſecare.
 
 [Margin]

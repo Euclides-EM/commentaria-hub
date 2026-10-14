@@ -21,7 +21,12 @@ II. Les côtés AB, CD; AC, CE; BC, DE oppoſés aux ∀ égaux, ſont homologue
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Placez les △ ABC, CDE, enſorte que les baſes AC, CE ſe rencontrent directement.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Prolongez les côtés AB, DE indéfiniment en F.
 
 [Margin]
@@ -31,17 +36,44 @@ Dem. 2. L. 1.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ∀ m ┼ r du △ ABC ſont ⟨ 2⌐ (*Prop.* 17. *L.* 1), & que ∀ r eſt ═ à ∀ s (*Hyp*),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les ∀ m ┼ s ſont auſſi ⟨ 2⌐, & AB, DE ſe rencontreront quelque part en F.
 Mais ∀ m étant ═ à ∀ n & ∀ r ═ à ∀ s (*Hyp*),
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Les droites AF, CD item BC, FE ſont Plles,
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Et le quadrilatère CF eſt un Pgme.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant les côtés oppoſés BC, FD; item CD, BF ſont ═ entr'eux.
 Or BC étant Plle au côté FE du △ FAE (*Arg.* 2),
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Donc AB : BF ═ AC : CE.
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Ou alternando AB : AC ═ BF : CE.
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Ou bien AB : AC ═ CD : CE; parce que CD eſt ═ à BF (*Arg.* 4).
 Pareillement CD étant Plle au côté AF du △ FEA; on prouvera de même
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Que AC : BC ═ CE : DE.
+
+[Curated heading level=4 type=numbered_item: 9.]
+
 9. Parconſéquent AB : BC ═ CD : DE.
 
 [Margin]
@@ -58,6 +90,9 @@ Prop. 22. L. 5.
 C. Q. F. D. I.
 
 Or les côtés AB, CD, item AC, CE & BC, DE, ſont oppoſés aux ∀ égaux r & s, item p & o, & m & n.
+
+[Curated heading level=4 type=numbered_item: 10.]
+
 10. Partant les côtés AB, CD; AC, CE; BC, DE oppoſés aux ∀ égaux, ſont homologues.
 
 [Margin]

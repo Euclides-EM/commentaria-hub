@@ -11,6 +11,8 @@ SIT parallelogrammũ A B C D, in quo diameter A C; & linea E F, ſecans diametru
 
 ### I.
 
+[Curated heading level=4 type=incipit: POSTVLETVR]
+
 POSTVLETVR, vt a quouis puncto in quoduis punctum, rectam lineam ducere concedatur.
 
 PRIMVM hoc poſtulatum planum admodum eſt, ſi recte conſiderẽtur ea, quæ paulo ante de linea ſcripſimus. Nam cum linea ſit fluxus quidam puncti imaginarius; atq́; adeo linea recta fluxus directo omnino itinere progrediens, fit vt ſi

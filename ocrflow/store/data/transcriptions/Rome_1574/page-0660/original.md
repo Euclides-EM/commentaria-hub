@@ -7,6 +7,8 @@ RVRSVM ex his demonſtrari poteſt, proportionem diametri cuiusuis quadrati ad l
 
 ## THEOR. 7. PROPOS. 9.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo numeri ſint inter ſe primi, & inter eos medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri, totidem & inter utrunque eorum, ac unitatem medij continua proportione cadent.
 
 CADANT inter numeros A, B, inter ſe primos medij continue proportionales C, D. Dico, totidem cadere conti

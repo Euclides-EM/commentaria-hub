@@ -12,10 +12,19 @@
 9b | D — n. Bew. β
 9b ⊢ 10b — n. 9. Gr. I.
 λ Dw. 10b ⊣ D — n. 1. Gr. c. I.
+
+[Curated heading level=4 type=numbered_item: (1)]
+
 Weil nun (1) C | 9a — n. Bew. α
 und D | 9b — n. Bew. β
+
+[Curated heading level=4 type=numbered_item: (2)]
+
 (2) 2C ⊣ 4a — n. Bew. γ
 und 2D ⊣ 4b — n. Bew. φ
+
+[Curated heading level=4 type=numbered_item: (3)]
+
 (3) 10a ⊣ C — n. Bew. κ
 und 10b ⊣ D — n. Bew. λ
 

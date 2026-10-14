@@ -14,17 +14,26 @@ Wenn der Mittel-Düpffel f auff eine deß △ Seiten fället / so ist das Dreyec
 
 Durch drey gegebene Düttele / welche aber nicht in einem geraden Striche stehen/ einen Kreyßbogen zu ziehen.
 
-### Gegebene. Begehrte.
+### Gegebene.
 
-1. Drey Düttele a, h, c. 1. Kreyß ahc.
-2. Nicht in einem geraden 2. Mittel-Düpffel e.
-Strich stehend.
+1. Drey Düttele a, h, c.
+2. Nicht in einem geraden Strich stehend.
+
+### Begehrte.
+
+1. Kreyß ahc.
+2. Mittel-Düpffel e.
 
 [Diagram: punktierter Kreis mit den Dütteln a, h, c auf dem Bogen; Striche ac und hc, deren Mittel g und f, von dort punktierte Senckstriche zum Mittel-Düpffel e]
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Von h zu c werde ein gerader Strich hc gezogen.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Dieser Strich werde in zween gleiche Theile hf | fc getheilet/n. 10. I.
 
 <!-- Catchword: 3. Auch -->

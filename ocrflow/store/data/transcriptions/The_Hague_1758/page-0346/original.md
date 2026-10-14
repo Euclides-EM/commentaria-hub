@@ -17,9 +17,15 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:P|lines=1|style=plain}Rolongez EF en M.
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Faites ſur FG avec FM, le Pgr. FL = Pgr. KA, qui ſera dans la même direction avec le Pgr. EG de ſorte que les Pgr. EG, & FL, faſſent enſemble le Pgr. EL.
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Achevez le ⊟ FI.
 
@@ -27,13 +33,19 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque la baze FL du ⊟ FI, eſt = à la baze AK du ⊟ BD (*Prép. 2.*)
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le ⊟ FI eſt = au ⊟ BD.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant ⊟ FI : ⊟ EP = ⊟ BD : ⊟ EP.
 
 Mais ⊟ FI : ⊟ EP = baze FL : baze EG.
 
 Et baze FL eſt = à la baze AK. (*Prép. 2.*)
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Donc ⊟ BD : ⊟ EP = baze AK : baze EG.
 

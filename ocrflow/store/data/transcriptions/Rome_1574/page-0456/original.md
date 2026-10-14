@@ -9,6 +9,8 @@ SI linea recta quæuis A B, ita diuidatur in C, inæqualiter, ut ſit, quemadmod
 
 ### IIII.
 
+[Curated heading level=4 type=incipit: ALTITVDO]
+
 ALTITVDO cuiuſque figuræ eſt linea perpendicularis a uertice ad baſin deducta.
 
 SI a uertice A, trianguli A B C, ad baſin B C, perpendicularis ducatur A G; dicetur hæc perpendicularis, altitudo trianguli A B C; ita ut tantam dicatur habere altitudinem dictum triangulum, quanta eſt perpendicularis A G. Sic etiam perpendicularis D H, ducta a D, uertice trianguli D E F, ad baſin E F, ad partes E, protractam, appellabitur altitudo trianguli D E F. Vnde ſi duarum figurarum perpendiculares a verticibus ad baſes, (ſiue hæ protractæ ſint, ſiue non) demiſſæ fuerint æquales, eandem dicentur huiuſmodi figuræ habere altitudinem. Tunc autem dictæ perpendiculares erunt æquales, cum baſes figurarum, ac vertices in eiſdem conſtituti fuerint parallelis, cuiuſmodi ſunt perpendiculares A G, D H, triangulorum A B C, D E F, in eiſdem parallelis conſtitutorum. Cum enim anguli A G H, D H G,

@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE SIXIEME. -->
 <!-- Page number: 243 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Figure: two similar triangles labelled A, B, C and a, b, c (Fig. 1.); a line A C B (Fig. 3.); crossed triangles labelled A, B, d, b, D (Fig. 2.); two rectangles labelled D, d, A, B, b]
 
 ## DEFINITIONS.

@@ -47,6 +47,8 @@ SIT tertio A, minor quam C, eritque ob hoc maior proportio C, maioris ad B, quam
 15.
 [/Margin]
 
+[Curated heading level=3 type=incipit: PARTES]
+
 PARTES cum pariter multiplicibus in eadem ſunt ratione, ſi prout ſibi mutuo reſpondent, ita ſumantur.
 
 SINT partium A, & B, æque multiplices CD, & EF. Dico ita eſſe CD, ad EF, ut A, ad B. Cum enim CD, & EF, ſint æque multiplices ipſarum A, & B; continebitur A, toties in CD, quoties B, in EF. Diuidat ergo CD, in partes CG, GH, HD, æquales ipſi A; & EF, in partes EI, IK, KF, æquales ipſi B; eritque CG, ad EI, ut A, ad B, ex ſcholio propos 7. huius lib. quod CG, & A, æquales inter ſe ſint, nec non EI, & B. Eadem ratione erit GH, ad IK; & HD, ad KF, ut A, ad

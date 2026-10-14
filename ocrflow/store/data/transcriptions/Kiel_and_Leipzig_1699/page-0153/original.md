@@ -17,16 +17,24 @@ Können also dergleichen Striche/ welche nicht durch den Mittel-Düpffel o gehen
 
 Wenn zween Kreyse einander durchschneiden/ so müssen sie mehr/ als einen Mittel-Düpffel haben.
 
-### Gegebene. — Begehrte.
+### Gegebene.
 
-1. Zween Kreyse bdg und bce. — Solche zween Kreyse haben zween unterschiedliche Mittel-Düpffel.
+1. Zween Kreyse bdg und bce.
 2. Welche einander durchschneiden.
+
+### Begehrte.
+
+Solche zween Kreyse haben zween unterschiedliche Mittel-Düpffel.
 
 ### Vorbereitung.
 
 Wenn man sagen wolte/ sie hätten nur einen einigen Mittel-Düpffel/ nemlich a, so ziehe man
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Auß a zu dem Düttel b, wo sie einander durchschneiden / einen geraden Strich ab.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Ziehe man auch den Strich ad.
 

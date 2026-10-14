@@ -20,6 +20,8 @@
 14.
 [/Margin]
 
+[Curated heading level=3 type=incipit: CIRCA]
+
 CIRCA datum pentagonum æquilaterum, & æquiangulũ circulũ deſcribere.
 
 SIT circa pentagonũ A B C D E, æquilaterũ, & æquiangulum, circulus deſcribendus. Diuiſis duobus angulis B A E, A B C, bifariã rectis A F, B F, quæ coeant in F; & coniũctis rectis F C, F D, F E, oſtẽdemus, ut in præcedenti problemate, reliquos etiã angulos B C D, C D E, D E A, ſecari bifariã; Erunt ergo oẽs anguli dimidij inter ſe æquales, quod toti anguli æquales ponãtur. Quoniam igitur in triãgulo A F B,

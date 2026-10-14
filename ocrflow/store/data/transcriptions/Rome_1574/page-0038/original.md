@@ -1,7 +1,11 @@
 <!-- Signature: c -->
 <!-- Catchword: Si -->
 
-# INDEX PROBLEMATVM, AC THEOREMATVM, QVAE præter ea, quæ continentur in Euclidis propoſitionibus, in his elementorum libris demonſtrantur.
+# INDEX PROBLEMATVM, AC THEOREMATVM,
+
+[Subhead]
+QVAE præter ea, quæ continentur in Euclidis propoſitionibus, in his elementorum libris demonſtrantur.
+[/Subhead]
 
 [Ornament: floral headpiece]
 

@@ -18,7 +18,12 @@ A : C = a : c.
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Prenez m A, m B, m a équimult. des gdrs. A, B, a.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. De même n C, n b, n c autres équimult. des gdrs. C, b, c.
 
 [Margin]
@@ -28,14 +33,35 @@ Dem. 1. L. 5.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque m A & m B ſont des équimult. de A & de B (Prep. 1).
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. On aura A : B = m A : m B.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Par la même raiſon b : c = n b : n c.
 Mais A : B = b : c. (Hyp. 1).
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Donc m A : m B = n b : n c.
 Et à cauſe que B : C = a : b. (Hyp. 2).
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. On aura m B : n C = m a : n b.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. D'où il ſuit que m A, m B, n C, & m a, m b, n c forment deux ſuites de gdrs. telles que les raiſons de l'une ſont égales aux raiſons de l'autre, chacune à chacune, dans un ordre renverſé:
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Partant, par égalité de raiſon, ſelon que la premiere m A de l'une des ſuites eſt >, = ou < que la troiſieme n C, de méme la premiere m a de l'autre ſuite ſera >, =, ou < que la troiſieme n c.
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. C'eſt pourquoi A : C = a : c.
 
 [Margin]

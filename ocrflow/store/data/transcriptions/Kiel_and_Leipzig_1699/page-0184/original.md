@@ -8,12 +8,16 @@
 
 Alle in einem Kreyßstück stehende Winckel sind gleich groß.
 
-### Gegebene. Begehrtes.
+### Gegebene.
 
-1. Kreyßstück dbce — dbe ∠ dce
+1. Kreyßstück dbce
 2. Zweene in solchem Kreyßstück stehende Winckel dbe und dce.
 
-I. Arth.
+### Begehrtes.
+
+dbe ∠ dce
+
+### I. Arth.
 
 ### Vorbereitung.
 
@@ -27,11 +31,16 @@ Es werde gezogen der Strahl ea
 dce ∠ ½ dae — n. 20. I.
 Dw. dce ∠ [unclear: dbe] — n. 7. Gr. I.
 
-II. Arth.
+### II. Arth.
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werden auß den Winckeln b und c durch den Mittel-Düpffel a gezogen zween gerade Striche bg und cf.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Werden auch die Strahlen da und ea gezogen.
 
 <!-- Catchword: I. Be- -->

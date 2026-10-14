@@ -21,6 +21,8 @@
 
 ## THEOR. 22. PROPOS. 32.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo triangula, quæ duo latera duobus lateribus proportionalia habeant, ſecundum unum angulum compoſita fuerint, ita ut homologa eorum latera ſint etiam parallela; tum reliqua illorum triangulorum latera in rectam lineã collocata reperiẽtur.
 
 HABEANT triangula ABC, DCE, latera AB, AC, lateribus DC, DE, proportionalia, ut quidem AB, ad AC, ita DC, ad DE; componanturque ad angulum ACD. ita ut latera homologa AB, DC; Item AC, DE, inter ſe ſint parallela. Dico duo latera reliqua BC, CE, rectam cõponere lineam. Cum enim parallelæ ſint AB, DC, erit angulus A, alterno ACD, æqualis: Eademq́; ratione angulus D, eidem ACD, æqualis erit; ac propterea A, & D, inter ſe quoque exiſtent æquales. Quoniam igitur triangula ABC, DCE, habent latera circa æquales angulos A, & D, proportionalia; ipſa erũt

@@ -16,6 +16,8 @@ ILLVD idem, quod Euclides demonſtrauit de numeris, propos. 13. oſtendit hoc in
 17.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo numeri mutuo ſe ſe multiplicantes fecerint aliquos; geniti ex ipſis æquales inter ſe erunt.
 
 DVO numeri A, & B, ſe mutuo multiplicantes faciant numeros C, & D, ita ut A, multiplicans ipſum B, faciat C, at B, ipſum A, multiplicans faciat D. Dico numeros C, & D, inter ſe æquales eſſe. Sumpta enim unitate E; cũ A,

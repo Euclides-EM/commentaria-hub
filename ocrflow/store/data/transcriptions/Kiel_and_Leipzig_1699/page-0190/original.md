@@ -2,10 +2,24 @@
 
 <!-- Page number: 173 -->
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Durch das mittel e werde der gerade Strich hf nach rechten Winckeln gezogen. n. 11. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Werde noch ein anderer Düttel dieses Bogens/ nemlich b mit einem geraden Strich an den Düttel c gehänget.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Und in zwey gleiche Theile db | dc getheilet. n. 10. I.
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Durchs mittel d wird ein Senckstrich kf gezogen n. 11. I.
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Aus dem Düttel f, wo die beeden Senckstriche he und kd einander durchschneiden/ werde der verlangte Kreyß beschrieben.
 
 ### Vorbereitung.

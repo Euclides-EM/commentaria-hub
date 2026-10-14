@@ -32,6 +32,8 @@ apparet. Manifeſtum eſt autem, inuentos E, F, G, eſſe mininimos{printer-erro
 36.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DVOBVS]
+
 DVOBVS numeris datis, reperire,
 
 <!-- Signature: Mm -->

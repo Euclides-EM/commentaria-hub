@@ -9,7 +9,12 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Auß C werde der Nebenstrich CE,
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Wie auch der Nebenstrich CF gezogen.
 
 [Diagram: Dreyecke auff dem Grundstrich BC, mit den Puncten A, D, E, F oben und B, C unten, mit gezogenen und punctirten Strichen]

@@ -20,6 +20,8 @@ SINT triangula ABC, DEF, angulum A, angulo D, habentia æqualem. Dico eſſe ABC
 41. primi
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: V.]
+
 [Margin]
 V.
 [/Margin]

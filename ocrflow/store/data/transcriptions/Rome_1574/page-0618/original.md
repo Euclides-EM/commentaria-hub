@@ -11,6 +11,8 @@
 23.
 [/Margin]
 
+[Curated heading level=3 type=incipit: PRIMI]
+
 PRIMI inter ſe numeri, minimi ſunt omnium eandem cum eis rationem habentium.
 
 SINT numeri A, B, inter ſe primi. Dico eos eſſe minimos omnium, qui eandem proportionem habent, quam ipſi A, & B. Nam ſi non ſunt minimi, erunt aliqui alij minores ipſis, minimi habentes proportionem, quam A, & B. ſint ergo, ſi fieri poteſt, C, D, minimi in proportione A, & B, minoresque ipſis A, & B. Quoniam igitur C, D, minimi ſunt in proportione A, & B; metietur C, ipſum A, & D, ipſum B, æque; atque adeo ſecundum eundem numerum, qui ſit E, ita ut C, toties metiatur ipſum A, & D, ipſum B, quoties unitas eſt in E. Itaq; cũ unitas numerũ E, & numerus C, numerũ A, ęque metiatur; metietur & uiciſſim ęque unitas numerum C, & numerus E, numerum A. Rurſus quia unitas numerum E, & numerus D, numerum B, æque metitur; metietur quoque uiciſſim æque unitas numerum D, & numerus E, numerum B; Atque adeo, cum idem nu-

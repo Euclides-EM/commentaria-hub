@@ -31,6 +31,8 @@ B H, æquales erunt: Quoniam ergo latera A F, F H, trianguli A F H, æqualia ſu
 13.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN dato pentagono æquilatero & æquiangulo circulum inſcribere.
 
 SIT inſcribẽdus circulus in dato pentagono A B C D E; Diuidantur duo eius anguli B A E, A B C, bifariam rectis A F, B F, quæ coeant in F. Cum enim anguli B A F, A B F,

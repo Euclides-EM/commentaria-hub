@@ -10,6 +10,8 @@ tiones, ſed ſolum, ut probetur recte eſſe per ipſas effectum, quod imperaba
 
 ## PROBL. 5. PROPOS. 10.
 
+[Curated heading level=3 type=incipit: DATAM]
+
 DATAM rectam lineam finitam bifariam ſecare.
 
 [Margin]

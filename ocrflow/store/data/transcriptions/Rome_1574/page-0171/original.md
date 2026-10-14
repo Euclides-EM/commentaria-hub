@@ -24,6 +24,8 @@ HAC arte cuicunque triangulo propoſito alterum prorſus æquale & quoad latera,
 
 ## PROBL. 9. PROPOS. 23.
 
+[Curated heading level=3 type=incipit: AD]
+
 AD datam rectam lineam, datumq́; in ea punctum, dato angulo rectilineo æqualem angulum rectilineum conſtituere.
 
 DATA recta ſit A B, datumque in ea punctum C, & datus angulus D E F. Oportet igitur ad rectam A B, in puncto C, angulum conſtituere æqualem angulo E. Sumantur in rectis E D, E F, duo puncta utcunque G, H, quæ rectâ G H, connectantur: Deinde conſtituatur triangulum C I K, habens

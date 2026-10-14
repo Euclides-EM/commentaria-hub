@@ -10,10 +10,10 @@ wird/eben so groß seyn/ als das Viereck der beeden Stücke bl, ld des andern St
 
 Wenn man von einem ausser dem gegebenen Kreyß erwehlten Düttel zween gerade Striche zu dem Kreyß zeucht/ deren einer den Kreyß nur anrühret/ der andere aber selbigen schneidet: So wird das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/und dem Stück desselben/ so zwischen dem Düttel und aussern Kreyß-krümme stehet/ eben so groß seyn / als das rechtwincklichte Viereck/ das von dem Rührstrich kan gemacht werden.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-1. Kreyß edgh. | 1. ▭ ha, ag | □ ad
-2. Düttel a. | 2. ▭ ea, ab | □ ad
+1. Kreyß edgh.
+2. Düttel a.
 3. Ausser dem Kreyß erwehlet.
 4. Gerade Striche ad, ae, ah.
 5. Von dem Düttel a gezogen.
@@ -21,6 +21,11 @@ Wenn man von einem ausser dem gegebenen Kreyß erwehlten Düttel zween gerade St
 7. ah den Kreyß in g,
 8. Und ae denselben in b schneide /
 9. Zugleich aber durch den Mittel-Düpffel c gehe.
+
+### Begehrtes.
+
+1. ▭ ha, ag | □ ad
+2. ▭ ea, ab | □ ad
 
 <!-- Signature: Bb 3 -->
 

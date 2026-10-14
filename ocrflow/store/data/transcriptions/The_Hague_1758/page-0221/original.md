@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE CINQUIEME. -->
 <!-- Page number: 209 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2.]
+
 [Diagram: ruled frame containing two figures: Fig.1. shows a rectangle divided into A and B beside a rectangle labelled R under braces C and D, with braces below marked C+R and M; Fig.2. shows a rectangle divided into A and B beside a rectangle containing R under braces C and D, with braces below marked C–R and M]
 
 ## PROPOSITION XVIII. THEOREME XVIII.
@@ -22,10 +24,19 @@ Sinon, A + B : B = C + D : autre gdr. M < ou > D.
 CAS I. Soit d'abord M < D, ou M + R = D (*Fig.* 1).
 
 {dropcap:P|lines=2|style=plain}Uis donc que A + B : B = C + D : M, ou A + B : B = C + M + R : M.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. On aura dividendo A : B = C + R : M.
 Mais A : B = C : D. (*Hyp.*);
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant C + R : M = C : D.
 Or C + R eſt > C (*Ax.* 8. *L.* 1);
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Donc M eſt > D, & la ſuppoſition que M ſoit < D, eſt impoſſible.
 
 [Margin]
@@ -37,12 +48,24 @@ Prop. 14. L. 5.
 CAS II. Soit enſuite M > D, ou M = D + R (*Fig.* 2).
 
 {dropcap:P|lines=2|style=plain}Uis donc que A + B : B = C + D : M, ou A + B : B = C + D : D + R.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. On aura dividendo A : B = C — R : D + R.
 Mais A : B = C : D. (*Hyp.*).
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Partant C — R : M = C : D.
 Or C — R eſt < C (*Ax.* 8. *L.* 1);
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. La gdr. M eſt donc < D, & la ſuppoſition que M ſoit > D, eſt impoſſible.
 La gdr. M ne pouvant donc être ni < D (*Arg.* 3), ni > D (*Arg.* 7),
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Il s'enſuit que M eſt = D; & que A + B : B = C + D : D.
 
 [Margin]

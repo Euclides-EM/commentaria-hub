@@ -26,7 +26,12 @@ ab : eh ⊤ fe : db.
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Es werde gemacht ABDC ⌻ abdc. n. 46. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Verlänget man nach Nothdurfft die Striche CD und BD gegen H und F.
 
 <!-- Signature: Uu 3 -->

@@ -46,6 +46,7 @@ export function AnnotationContentsTab({
     { defaultValue: compareLayout, storageSync: false },
   )
   const [navigationFloatingOpen, setNavigationFloatingOpen] = useState(false)
+  const [navigationExpandGlow, setNavigationExpandGlow] = useState(true)
   const [navigationPinnedCollapsed, setNavigationPinnedCollapsed] =
     useLocalStorageState(useScopedStorageKey('sidebarCollapsed'), {
       defaultValue: false,
@@ -60,6 +61,9 @@ export function AnnotationContentsTab({
 
   const handleNavigationCollapsedChange = useCallback(
     (collapsed: boolean) => {
+      if (!collapsed) {
+        setNavigationExpandGlow(false)
+      }
       if (navigationFloating) {
         setNavigationFloatingOpen(!collapsed)
       } else {
@@ -84,6 +88,7 @@ export function AnnotationContentsTab({
       onFloatingChange={handleNavigationFloatingChange}
       collapsed={navigationCollapsed}
       onCollapsedChange={handleNavigationCollapsedChange}
+      expandGlow={navigationExpandGlow}
     />
   )
 
@@ -170,6 +175,7 @@ export function AnnotationContentsTab({
   if (compareLayout) {
     return (
       <div
+        data-navigation-scope
         className="h-full overflow-y-auto overflow-x-hidden"
         style={{ scrollbarGutter: 'stable' }}
       >
@@ -229,7 +235,7 @@ export function AnnotationContentsTab({
   }
 
   return (
-    <div className="h-full flex overflow-hidden">
+    <div data-navigation-scope className="h-full flex overflow-hidden">
       {navigationDocked && navigation}
       <div
         ref={contentRef}

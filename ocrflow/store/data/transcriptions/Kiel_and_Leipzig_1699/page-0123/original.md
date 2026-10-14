@@ -17,12 +17,16 @@ Werden also allezeit die beeden □ □ von dem gantzen Strich ab, und von dem e
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-1. a | AB — aa + cc | 2ac + bb
+1. a | AB
 2. b | AC
 3. c | CB
 4. a | b + c
+
+### Begehrtes.
+
+aa + cc | 2ac + bb
 
 ### Beweiß.
 

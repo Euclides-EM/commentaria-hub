@@ -12,6 +12,8 @@ RECTE autem hoc loco monet Pappus, axioma iſtud nõ poſſe conuerti; non enim 
 
 ### XI.
 
+[Curated heading level=4 type=incipit: ET]
+
 ET ſi in duas rectas lineas altera recta incidens, internos ad eaſdemq́; partes angulos duobus rectis minores faciat, duæ illæ rectæ lineæ in infinitum productæ ſibi mutuo incident ad eas partes, vbi ſunt anguli duobus rectis minores.
 
 [Figure: two lines AB and CD crossed by an oblique line through points E and F]

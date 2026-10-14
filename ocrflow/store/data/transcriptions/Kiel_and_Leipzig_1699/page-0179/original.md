@@ -2,9 +2,20 @@
 
 <!-- Page number: 162 -->
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Nach der Weite des Striches eb werde ein Kreyß ea gezogen:
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Aus dem Düttel d, wo der gerade Strich eb den Kreyß fcd schneidet/ werde ein Senckstrich da auffgerichtet/ welcher den äussern Kreyß ae in dem Düttel a schneide. n. 11. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Aus diesem Düttel a werde zu dem Mittel-Düpffel b der gerade Strich ab gezogen.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Zu dem Düttel c, wo dieser Strich den Kreyß schneidet/ werde aus dem Düttel e ein gerader Strich ec gezogen.
 
 ### Beweiß.

@@ -31,6 +31,8 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque BA eſt = à BD & CA = à CG (*Def.* 15. L. 1).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les droites BA + CA ſont = aux droites BD + CG ;
 
 [Margin]
@@ -39,11 +41,15 @@ Ax. 2. L. 1.
 
 Et ſi on ajoute aux droites BD + CG la partie DG ;
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. BD + DG + CG, ou la baſe BC du △ BAC eſt > les deux côtés BA + CA ; ce qui eſt impoſſible.
 
 [Margin]
 Prop. 20. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. La droite BC, qui joint les centres, paſſera donc par le point d’attouchement A.
 

@@ -22,8 +22,17 @@ Wan keiner von Beeden Strichen durch den Mittel-Düpffel gehet/auch keiner derse
 ### Vorbereitung.
 
 Aus dem Mittel-Düpffel e werden wiederumb gezogen
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Die Strahlen eb und ec.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Zum Düttel l, wo die Striche einander schneiden/ der Strich el.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Auff die beeden Striche zween Senckstriche eh und en n. 12. I.
 
 ### Beweiß.

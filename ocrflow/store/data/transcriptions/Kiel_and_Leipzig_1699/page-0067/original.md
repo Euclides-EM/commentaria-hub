@@ -26,8 +26,13 @@ Ist also allezeit des △es / dessen zwo Seiten / zweyen Seiten eines andern △
 
 Wenn zwey Dreyecke / zwo Seiten zweyen Seiten/jedwede jedweder/gleich groß/eines aber einen grössern Grundstrich / als das andere hat: So wird selbiges auch einen grössern Winckel/als das andere / zwischen seinen zwo Seiten haben.
 
-### Gegebene.                    Begehrte.
-1. Das △ ABC                 BAC ⊼ bac
+### Gegebene.
+
+1. Das △ ABC
 2.     △ abc
+
+### Begehrte.
+
+BAC ⊼ bac
 
 <!-- Catchword: 3.AB -->

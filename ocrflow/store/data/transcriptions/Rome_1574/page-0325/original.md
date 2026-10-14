@@ -26,6 +26,8 @@ EADEM ratione, neq; ad diuerſas partes ſuper eadē recta linea duo ſegmēta c
 
 ## THEOR. 22. PROPOS. 24.
 
+[Curated heading level=3 type=incipit: SVPER]
+
 SVPER æqualibus rectis lineis, ſimilia circulorum ſegmenta ſunt inter ſe æqualia.
 
 [Figure: three circle segments, the first on line AB with vertex E, the second on line ACDB with vertices E and F, the third on line ACDB with vertices F and G]

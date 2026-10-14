@@ -17,14 +17,27 @@ Ist also in jedwedem rechtwincklichten △ das □ des Strichs/ so dem rechten W
 
 Wenn in einem Dreyeck/ das Viereck einer Seite eben so groß ist / als der übrigen beeden Seiten Vierecke/ so werden diese beeden Seiten einen rechten Winckel begreiffen.
 
-### Gegebene. | Begehrtes.
-1. △ abc | acb | ⌐
+### Gegebene.
+
+1. △ abc
 2. □ ab | □ cb + □ ac
+
+### Begehrtes.
+
+acb | ⌐
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Auff die Seite ac, und zwar den Düttel c, werde ein Senckstrich cd gesetzet. n. 11. Vortr.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Senckstrich cd | cb n. 2. Vortr.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Werde der Strich ad gezogen.
 
 [Diagram: Dreyeck mit Spitze a oben, Grundpunkten d und b, Fußpunkt c unten, mit Senckstrich und Winckelzeichen]

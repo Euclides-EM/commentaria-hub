@@ -19,7 +19,11 @@ II. *Ils ont même hauteur.*
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:D|lines=2|style=plain}Iviſez les bazes FILHG & ABCD en triangles par les lignes GI & IH, item DB.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Suppoſé qu’il paſſe des Plans par ces lignes, & par les ſommets des pyramides ou ces lignes de diviſion ſe trouvent, qui diviſeront chacune de ces pyramides en autant de pyramides partielles que chaque baze contient de triangles.
 
@@ -27,7 +31,11 @@ II. *Ils ont même hauteur.*
 
 {dropcap:P|lines=2|style=plain}Uiſque les pyramides triangulaires ILHM & ABDE ont même hauteur, (*Hyp.* II. *& Prép.* 2.).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La pyramide IHLM : pyramide ABDE = baze HIL : baze ABD.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. De même pyr. GIHM: pyramide ABDE = baze HIG: baze ABD.
 
@@ -35,17 +43,23 @@ II. *Ils ont même hauteur.*
 Prop. 5. L. 12.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Partant pyramide IHLM + pyramide GIHM : pyramide ABDE = baze HIL + baze HIG : baze ABD.
 
 [Margin]
 Prop. 24. L. 5.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. De plus pyramide FIGM : pyramide ABDE = baze FIG : baze ABD.
 
 [Margin]
 Prop. 5. L. 12.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Donc pyramide IHLM + pyram. GIHM + pyram. FIGM : pyram. ABDE = baze HIL + baze HIG + baze FIG : baze ABD.
 
@@ -59,6 +73,8 @@ Mais pyramide IHLM + pyramide GIHM + pyramide FIGM ſont = à la pyramide MFGHLI
 Ax. 1. L. 2.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Partant pyramide MFGHIL: pyramide ABDE = baze FILHG: baze ABD.
 
 [Margin]
@@ -67,7 +83,11 @@ Prop. 7. L. 5.
 
 On prouvera de même que
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Pyramide MFGHLI: pyramide BDCE = baze FILHG : baze BDC.
+
+[Curated heading level=4 type=numbered_item: 8.]
 
 8. Donc pyramide MFGHLI: pyramide ABCDE = baze FILHG : baze ADCB.
 

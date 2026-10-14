@@ -6,7 +6,12 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. In das gefundene Kreyßstück werde der Winckel ahb gesetzt.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Aus g werde gegen ab ein Senckstrich gk gezogen n. 12. I.
 
 ### Beweiß.
@@ -23,7 +28,7 @@
 | und in | ag | Mittel-Düpffel | n. 19. III. |
 | Dw. | g | Mittel-Düpffel |  |
 
-III. Arth.
+### III. Arth.
 
 ### Gegebenes:
 
@@ -31,7 +36,12 @@ Der Winckel ecd | ∟
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Wird der gegebene Strich ab in zween gleiche Theil getheilet. n. 10. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Aus dieses Striches ab Mittel m wird nach der weite ma ein Kreyß beschrieben.
 
 [Diagram: Halbkreis über dem Strich a–b mit Mittelpunkt m; Punkte c, h, e oben, d bei a]

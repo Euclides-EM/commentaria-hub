@@ -8,6 +8,8 @@
 
 ## THEOR. 14. PROPOS. 14.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI minimum numerum primi numeri metiantur: Nullus alius numerus primus illum metietur, præter eos, qui a principio metiebantur.
 
 SIT numerus A, minimus quem metiantur primi numeri B, C, D. Dico nullum alium primum præter ipſos B, C, D, metiri ipſum A. Metiatur enim, ſi fieri poteſt, primus numerus E, diuerſus a B, C, D, ipſum A, per numerum F. Quia igitur E, metitur A, per
@@ -28,6 +30,8 @@ ADDIT hoc loco Campanus ſequens theorema ad ea, quæ ſequuntur, non inutile. V
 [Margin]
 15.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 15]
 
 SI quotcunque numeri deinceps proportionales, fuerint minimi omnium eandem rationem habentium cum ipſis: Numerus aliquem eorum metiens, compoſitus erit ad alterum duorum numerorum, qui in eadem ratione ſumuntur minimi.
 

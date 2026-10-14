@@ -18,6 +18,8 @@ SIT tertio angulus datus H, obtuſus. Fiat rurſus angulo H, æqualis angulus IA
 
 ## PROBL. 6. PROPOS. 34.
 
+[Curated heading level=3 type=incipit: A DATO]
+
 A DATO circulo ſegmentum abſcindere capiens angulum æqualem dato angulo rectilineo.
 
 [Margin]

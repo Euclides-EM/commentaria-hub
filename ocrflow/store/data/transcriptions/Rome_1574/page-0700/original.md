@@ -24,6 +24,8 @@ D,2.  E,3.
 8.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ab unitate quotcunque numeri deinceps proportionales fuerint: Tertius quidem ab unitate quadratus eſt, & unum intermittentes omnes: Quartus autem eſt cubus, & duos intermittentes omnes: Septimus uero cubus ſimul, & quadratus, & quinque intermittentes omnes.
 
 SINT ab unitate cõtinue proportionales numeri quotcunque A, B, C, D, E, F, G, H, I, K, L, M. Dico tertiũ quidẽ B, ab vnitate eſſe quadratum, & unũ intermittentes

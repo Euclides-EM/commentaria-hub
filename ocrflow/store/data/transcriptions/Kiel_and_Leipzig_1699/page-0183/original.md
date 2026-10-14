@@ -2,7 +2,7 @@
 
 <!-- Page number: 166 -->
 
-II. Arth.
+### II. Arth.
 
 cah ∠ 2 cph
 dah ∠ 2 dph — n. 1. Bew.
@@ -11,7 +11,7 @@ oder cad ∠ 2 cpd — n. 9. Gr. q. I.
 
 [Diagram: Kreis mit Mitteldüpffel a, Punkt p oben, c links unten, d rechts unten, h unten; Striche pc, pd, ac, ad und punktierte Linie ph]
 
-III. Arth.
+### III. Arth.
 
 eac ∠ 2 efc
 dae ∠ 2 efd — n. 1. Bew.

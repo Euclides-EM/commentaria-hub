@@ -20,6 +20,8 @@ IDEM quoque hic perſpicitur in rectangulis, quorum unũ eſt extra alterum, ſe
 
 ## THEOR. 20. PROPOS. 27.
 
+[Curated heading level=3 type=incipit: OMNIVM]
+
 OMNIVM parallelogrammorum ſecundum eandem rectam lineam applicatorum, deficientiumq́; figuris parallelogrammis ſimilibus ſimiliterque poſitis ei, quod a dimidia deſcribitur; maximũ id eſt, quod ad dimidiam applicatur, parallelogramũ ſimile exiſtens defectui.
 
 DETVR recta AB, diuiſa bifariam in C, ſuperq́; eius dimidiam BC, conſtituatur quodcunque parallelogrammũ CDEB, cuius diameter BD. Si igitur compleatur totum

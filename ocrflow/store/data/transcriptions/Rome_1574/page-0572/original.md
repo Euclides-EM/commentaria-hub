@@ -8,11 +8,15 @@ NAM unitas ſumpta toties, quot ſunt in numero propoſito unitates, ipſum con�
 
 ### VI.
 
+[Curated heading level=4 type=incipit: OMNIS]
+
 OMNIS numerus ſe ipſum metitur per unitatem.
 
 CVM quilibet numerus ſemel ſumptus ſibi ipſi ſit æqualis, manifeſtum eſt, omnem numerum ſeipſum metiri per unitatẽ.
 
 ### VII.
+
+[Curated heading level=4 type=incipit: SI]
 
 SI numerus numerum multiplicans, aliquẽ produxerit, metietur multiplicans productum per multiplicatum, multiplicatus autem eundem per multiplicantem.
 
@@ -21,6 +25,8 @@ NVMERVS enim A, numerum B, multiplicans producat numerum C. Dico A, metiri ipſu
 [Diagram: three horizontal dotted lines labelled A, B and C]
 
 ### VIII.
+
+[Curated heading level=4 type=incipit: SI]
 
 SI numerus numerum metiatur, & ille, per quem metitur, eundem metietur per eas, quæ in metiente ſunt, unitates,
 

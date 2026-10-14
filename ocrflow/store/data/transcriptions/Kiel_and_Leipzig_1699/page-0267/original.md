@@ -12,16 +12,18 @@ Wann derowegen das I. Gantze zu dem II. Gantzen sich also verhält / wie das von
 
 Wenn zwo Grössen zweyer Andern Grössen gleichvielfältig sind; darnach zwey von denen Ersten Grössen abgenommene Stücke auch so vielfältig zu denen zwo Andern Grössen sind: So werden die übergebliebene Stücke denen andern zwo Grössen gleich an Grösse / oder gegen dieselben gleichvielfältig seyn.
 
-### Gegebene. — Begehrte.
+### Gegebene.
 
 [Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet A, a, B, b]
-
-A—c | a
-B—d | b
 
 1 A | 5a
 2 c | 4a
 3 B | 5b
 4 d | 4b
+
+### Begehrte.
+
+A—c | a
+B—d | b
 
 <!-- Catchword: I. Beweiß. -->

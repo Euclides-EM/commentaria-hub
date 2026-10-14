@@ -8,12 +8,18 @@
 
 Zween gerade Striche/ welche zween gleichlange Neben-Striche an beeden Enden/auff gleiche Weise/zusammen hengen / sind gleich-lange Neben-Striche.
 
-### Gegebene.                              Begehrte.
-1. Zween gerade Striche AC und BD.     1. AC | BD
-2. AB | CD                             2. AC ╪ BD
+### Gegebene.
+
+1. Zween gerade Striche AC und BD.
+2. AB | CD
 3. AB ╪ CD.
 4. Zusammen hengung
 5. Auff gleiche Weise / das ist / nicht Creutzweiß/sondern auff gleich-ähnliche Weise.
+
+### Begehrte.
+
+1. AC | BD
+2. AC ╪ BD
 
 [Diagram: Viereck ABDC mit punktierter Diagonale von C nach B]
 

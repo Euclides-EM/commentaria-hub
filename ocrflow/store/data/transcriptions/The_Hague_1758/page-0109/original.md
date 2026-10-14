@@ -2,9 +2,11 @@
 
 <!-- Page number: 97 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Figure: Fig. 1., a circle with centre C, points A, B, D and E, with lines from A and C to B and D; Fig. 2., a circle with points A, B and C, and lines AB, AC and BC; Fig. 3., a circle with centre C, radii CA and CB, and point D on the arc]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### VII.
 

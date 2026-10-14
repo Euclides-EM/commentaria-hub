@@ -5,11 +5,15 @@ exceſſus eſt 2. idem qui ipſorum 5. & 3. Rurſus, ſi ad 5. & 3. addas 6. fi
 
 ### XVIII.
 
+[Curated heading level=4 type=incipit: OMNE]
+
 OMNE totum æquale eſt omnibus ſuis partibus ſimul ſumptis.
 
 QVONIAM omnes partes ſimul ſumptæ conſtituũt totũ, cuius ſunt partes, manifeſta eſt veritas huius axiomatis.
 
 ### XIX.
+
+[Curated heading level=4 type=incipit: SI]
 
 SI totum totius eſt duplum, & ablatum ablati; erit & reliquum reliqui duplum.
 

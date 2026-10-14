@@ -8,9 +8,9 @@
 
 Welche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind / dieselbigen Verhältnüsse sind auch unter sich gleichhaltig.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-A ________ | A : a | B : b.
+A ________
 a __
 B ________
 b __
@@ -22,10 +22,22 @@ c __
 A : a | C : c
 B : b | C : c
 
+### Begehrtes.
+
+A : a | B : b.
+
 ### Vorbereitung:
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Nehme man A zweymahl
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Deßgleichen auch B zweymahl
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Die Grösse a und b aber jedwede viermahl.
 
 2A ________________

@@ -20,6 +20,8 @@ inter ſe æquales. Si enim fieri poteſt, ducantur ex A, ad lineam B C, tres li
 
 ## THEOR. 10. PROPOS. 17.
 
+[Curated heading level=3 type=incipit: CVIVSCVNQVE]
+
 CVIVSCVNQVE trianguli duo anguli duobus rectis ſunt minores, omnifariam ſumpti.
 
 [Margin]

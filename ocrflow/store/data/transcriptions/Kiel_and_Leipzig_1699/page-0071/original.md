@@ -12,12 +12,17 @@ Müssen also allezeit in zweyen △ △, deren beede Winckel/ und eine Seite gle
 
 Wenn auff zween gerade Striche ein anderer gerader Strich fället / und die Wechsel-Weiß genommene (alternatim sumtos) Winckel gleich groß machet : So werden solches gerade Neben-Striche seyn.
 
-### Gegebene.                              Begehrtes.
-1. Zween gerade Striche AB und CD.     AB ═══ CD
+### Gegebene.
+
+1. Zween gerade Striche AB und CD.
 2. Der einfallende gerade Strich EF.
 3. Die Wechsel-Winckel.
    AGH ⋏ GHD.
    BGH ⋏ GHC.
+
+### Begehrtes.
+
+AB ═══ CD
 
 [Diagram: Zwei waagerechte Striche AB und CD, von dem schrägen Strich EF in G und H geschnitten, mit punktierten Linien zum Punkt I]
 

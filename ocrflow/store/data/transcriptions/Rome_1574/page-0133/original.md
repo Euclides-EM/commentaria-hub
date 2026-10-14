@@ -36,6 +36,8 @@ VARIOS etiam poſſe caſus eſſe in hoc problemate, nemõ ignorat, cum duæ li
 4.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo triãgula duo latera duobus late ribus æqualia habeãt, vtrũq; vtriq́;; habeãt vero & angulũ angulo æqualẽ ſub æqualib⁹ rectis lineis cõtentũ: Et baſim baſi æqualẽ habebũt; eritq́; triangulũ triangulo æquale; ac reliqui anguli reliquis angulis æquales erunt, vterq; vtriq́;, ſub quibus æqualia la tera ſubtenduntur.
 
 <!-- Catchword: SINT -->

@@ -17,6 +17,8 @@ CONVERSVM quoque huius propoſ. & præcedentis, facile demonſtrabitur. Nimirum,
 24.
 [/Margin]
 
+[Curated heading level=3 type=incipit: CIRCVLI]
+
 CIRCVLI ſegmento dato, deſcribere circulum, cuius eſt ſegmentum.
 
 [Figure: circle segment on line AC with vertex B at top, point D at the centre of the line, and point E below the line]

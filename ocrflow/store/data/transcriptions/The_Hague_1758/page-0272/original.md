@@ -18,7 +18,12 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Diſpoſez les deux Pgrs AB, BC, tellement que les côtés FB, BE ne forment qu'une même ligne droite FE.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Achevez le Pgr DE.
 
 [Margin]
@@ -28,9 +33,21 @@ Dem. 2. L. 1.
 ### I. Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ∀ FBD, GBE ſont égaux (*Hyp.* 2); & que les droites FB, BE ne forment qu'une même droite FE (*Prep.* 1).
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les droites GB, BD ne forment auſſi qu'une même droite GD. Mais le Pgr AB étant ═ au Pgr BC (*Hyp.* 1).
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Le Pgr AB : Pgr DE ═ Pgr BC : Pgr DE. Or les Pgrs AB, DE item BC, DE ont la même hauteur (*Prep.* 2. *Arg.* 1 & *Def.* 4. *L.* 6. *Rem.*).
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C'eſt pourquoi le Pgr AB : Pgr DE ═ FB : BE & le Pgr BC : Pgr DE ═ GB : BD.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant FB : BE ═ GB : BD (*Arg.* 2).
 
 [Margin]
@@ -53,9 +70,20 @@ C. Q. F. D.
 
 ### II. Demonstration.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:O|lines=2|style=plain}N démontrera comme auparavant que les droites GB, BD ne forment qu'une même droite GD. Or les Pgrs AB, DE item BC, DE ont la même hauteur (*Prep.* 2. *Arg.* 1 & *Def.* 4. *L.* 6. *Rem.*).
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant le Pgr AB : Pgr DE ═ FB : BE. & le Pgr BC : Pgr DE ═ GB : BD. Or FB : BE ═ GB : BD (*Hyp.* 1).
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C'eſt pourquoi le Pgr AB : Pgr DE ═ Pgr BC : Pgr DE.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant le Pgr AB eſt ═ au Pgr BC.
 
 [Margin]

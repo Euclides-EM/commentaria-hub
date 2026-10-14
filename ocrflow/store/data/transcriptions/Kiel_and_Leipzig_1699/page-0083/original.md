@@ -4,11 +4,16 @@
 
 ### 2. Begebenheit.
 
-### Gegebenes. | Begehrtes.
-1. □ ABDC | ABDC ⌻ CDEF
+### Gegebenes.
+
+1. □ ABDC
 2. □ CDEF
 3. Grundstrich CD
 4. AE=CD
+
+### Begehrtes.
+
+ABDC ⌻ CDEF
 
 [Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, F, B, E oben und C, D unten]
 

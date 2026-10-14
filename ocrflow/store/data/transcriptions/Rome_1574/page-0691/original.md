@@ -42,6 +42,8 @@ EX hoc perſpicuum eſt, planos numeros, qui ſimiles non ſunt, proportionem no
 25.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SIMILES]
+
 SIMILES ſolidi numeri rationem habent inter ſe, quam cubus numerus ad cubum numerum.
 
 SINT ſimiles ſolidi A, B. Dico eſſe, ut A, ad B, ita cubum quempiam numerum ad alium quendam cubum. Quia A, B, ſunt ſolidi ſimiles, cadent inter eos duo medij

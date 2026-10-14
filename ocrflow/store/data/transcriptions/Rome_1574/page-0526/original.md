@@ -28,6 +28,8 @@ HABET admiranda hæc ſectio lineæ extrema ac media ratione inſignes utilitate
 31.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN rectangulis triangulis, figura quæuis a latere rectum angulum ſubtendẽte deſcripta, æqualis eſt figuris, quæ priori illi ſimiles, & ſimiliter poſitæ a lateribus rectũ angulum continentibus deſcribuntur.
 
 TRIANGVLVM rectangulum ſit ABC, habens angulum BAC, rectũ; deſcribaturq́; ſuper BC, quæcunq́; figura rectilinea BCDE, cui ſimiles ſimiliterq́; poſitæ ſuper AB, AC, cõſtituantur ABFG, ACIH. Dico figuram BD, æqualem eſſe duabus figuris AF, AI. Demiſſa enim ex A, ad BC, perpendiculari AK; erit per corollarium propos. 8.

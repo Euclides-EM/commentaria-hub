@@ -2,6 +2,8 @@
 
 ### X.
 
+[Curated heading level=4 type=incipit: CVM]
+
 CVM autem tres magnitudines proportionales fuerint; Prima ad tertiam duplicatam rationem habere dicitur eius, quã habet ad ſecundam: At cum quatuor magnitudines proportionales fuerint; prima ad quartam triplicatam rationem habere dicitur eius, quam habet ad ſecundam: Et ſemper deinceps, uno amplius, quamdiu proportio extiterit.
 
 [Diagram: five vertical lines of decreasing length labelled A, B, C, D, E, with the numbers 81, 54, 36, 24, 16]

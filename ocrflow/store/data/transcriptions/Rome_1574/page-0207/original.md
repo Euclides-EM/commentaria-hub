@@ -18,6 +18,8 @@ CADAT ſecundo AB, producta ſupra EF. Cadet igitur FE, protracta infra AB: Quar
 
 ## THEOR. 26. PROPOS. 36.
 
+[Curated heading level=3 type=incipit: PARALLELOGRAMMA]
+
 PARALLELOGRAMMA ſuper æqualibus baſibus, & in eiſdem parallelis conſtituta, inter ſe ſunt æqualia.
 
 SINT duo parallelogramma ACEF, GHDB, ſuper æquales baſes CE, HD, inter eaſdem parallelas AB, CD, Dico ea eſſe æqualia. Connectantur enim extrema rectarũ CE, GB, ad eaſdem partes lineis rectis CG, EB. Quoniam igitur recta CE, æqualis ponitur rectæ HD, & eidem HD, æqualis eſt GB. Erunt CE, GB, æquales inter ſe; ſunt autem & parallelæ, per hypotheſin: Quare & CG, EB, ipſas coniungentes parallelæ erunt, & æquales, ideoq́; CEBG, parallelogrammum erit. Itaq; cum parallelogramma ACEF, GCEB, ſint inter eaſdẽ parallelas, & ſuper eandem baſin CE, erit parallelogrammũ ACEF, parallelogrammo GCEB, æquale. Rurſus quia parallelogramma GCEB, GHDB, ſunt inter eaſdẽ parallelas, & ſuper eandem baſin GB, erit quoq; parallelogrãmum

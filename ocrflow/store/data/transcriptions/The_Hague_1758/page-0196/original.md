@@ -1,9 +1,13 @@
 <!-- Page number: 184 -->
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
+
+[Curated heading level=4 type=numbered_item: §. 4.]
 
 *§. 4. Cette Définition fait voir, qu'entre les termes équidiſtans, il ſe trouve toujours le même nombre de raiſons égales, ou bien, que pour arriver de l'un des équidiſtans* 1, *à l'autre* 8, *il faut toujours paſſer par trois raiſons égales* 1 : 2, 2 : 4, 4 : 8; *comme pour arriver du terme* 8 *à l'équidiſtant* 64, *il faut paſſer par les trois raiſons* 8 : 16, 16 : 32, 32 : 64 *égales entr'elles & à chacune des trois précédentes. On démontrera en ſon lieu, que tous les termes équidiſtans d'une progreſſion Géométrique ſont en même raiſon. (Voyez l'Appendice de ce V Livre Prop. VI).*
+
+[Curated heading level=4 type=numbered_item: §. 5.]
 
 *§. 5. On peut appeller* raiſon primordiale d'une progreſſion, *celle qui ſe trouve entre les deux termes avec leſquels on a commencé à former la progreſſion, ou qu'on regarde comme ayant ſervi à la commencer. Par exemple. Si on part de la raiſon de* 1 : 2, *pour faire comme* 1 *eſt à* 2 *ainſi* 2 *eſt à* 4; *& comme* 2 *eſt à* 4 *ainſi* 4 *eſt à* 8 &c. *on détermine la progreſſion des nombres* 1, 2, 4, 8, 16 &c. *par les deux premiers termes* 1 & 2 *choiſis arbitrairement; c'eſt donc cette raiſon qui ſe trouve entre ces deux premiers termes arbitraires* 1 & 2, *qu'on peut appeller la raiſon primordiale de cette progreſſion.*
 
@@ -24,6 +28,8 @@ Si trois grandeurs ſont proportionelles, on dit que la première eſt à la tro
 ### XI.
 
 Si quatre grandeurs ſont proportionelles, on dit que la première eſt à la quatrième en raiſon triplée de la première à la ſeconde. On dira de même *qu'une raiſon eſt quadruplée, quintuplée, ſextuplée* &c, en augmentant d'une unité la dénomination de la raiſon, à meſure que la proportion ſera pouſſée plus loin d'un terme.
+
+[Curated heading level=4 type=numbered_item: §. 1.]
 
 *§. 1. Par des* grandeurs proportionelles, *il faut entendre des grandeurs en proportion continue* (Def. IX. §. 1), *qui conſtituent une progreſſion Géométrique, où les termes équidiſtans ſont en*
 

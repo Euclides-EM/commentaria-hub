@@ -9,6 +9,8 @@
 4.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN dato triangulo circulum inſcribere.
 
 SIT deſcribendus circulus in dato triangulo ABC. Diuiſis duobus angulis ABC, ACB, bifariam rectis BD, CD, quæ intra triangulum coeant in D; ducantur ex D, ad tria latera, perpendiculares DE, DF, DG. Quoniam igitur duo anguli DBE, DEB, trianguli DBE, æquales ſunt duobus angulis DBF, DFB, trianguli DBF, uterque utrique; & latus BD, commune; erunt quoque latera DE, DF, æqualia. Eademque ratione æqualia erunt latera DF, DG, in triangulis DCF, DCG. Cum igitur tres rectæ DE, DF, DG, ſint æquales; circulus ex D, ad interuallum DE, deſcriptus tranſibit per reliqua puncta F, & G; tangetq́; latera trianguli in E, F, G, per coroll. propos. 16. lib. 3. eo quod perpendicularia ſint ad ſemidiametros DE, DF, DG. In dato ergo triangulo circulum deſcripſimus. Quod erat efficiendum.
@@ -26,6 +28,8 @@ SIT deſcribendus circulus in dato triangulo ABC. Diuiſis duobus angulis ABC, A
 [Margin]
 5.
 [/Margin]
+
+[Curated heading level=3 type=incipit: CIRCA]
 
 CIRCA datum triangulum circulum deſcribere.
 

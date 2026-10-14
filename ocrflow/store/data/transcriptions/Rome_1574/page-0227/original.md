@@ -4,6 +4,8 @@
 
 ## PROBL. 14. PROPOS. 46.
 
+[Curated heading level=3 type=incipit: A DATA]
+
 A DATA recta linea quadratum deſcribere.
 
 [Figure: square with vertices labelled D, C above and A, B below]

@@ -20,6 +20,8 @@ argumento fere demonſtrari poſſit. Quare vt omni ex parte confirmatum relinqu
 
 ## THEOR. 13. PROPOS. 14.
 
+[Curated heading level=3 type=incipit: IN]
+
 IN circulo æquales rectæ lineæ æqualiter diſtant a centro. Et quæ æqualiter diſtãt a centro, æquales ſũt inter ſe.
 
 SINT in circulo ABCD, cuius centrum E, duæ rectæ æquales AB, CD; Dico ipſas æqualiter diſtare a centro E. Ducantur enim ex E, centro ad rectas AB, CD, duæ perpendiculares EF, EG, & coniugantur rectæ EA. ED; Secabuntque rectæ EF, EG, rectas AB. CD, bifariã. Quare cum totæ AB, CD, æquales ponantur, erunt & dimidia earum, rectæ uidelicet AF, DG, æqualia. Quoniam igi{printer-error-correction:igitur} quadrata rectarum EA, ED, æqualium, inter ſe ſunt æqualia: Quadratum autem rectæ EA æquale eſt quadratis rectarum AF. FE; & quadratum rectæ ED, quadratis rectarum DG, GE: Erunt quoque quadrata rectarũ AF. FE, æqualia quadratis rectarũ DG, GE. Ablatis ergo quadratis

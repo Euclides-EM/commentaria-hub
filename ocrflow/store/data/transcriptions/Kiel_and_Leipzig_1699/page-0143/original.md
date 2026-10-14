@@ -18,9 +18,13 @@ W. Z. M.
 
 ## Beschreibungen.
 
+[Curated heading level=3 type=numbered_item: I.]
+
 I. Gleichgrosse Kreyse sind / deren Durchschläge gleichlang sind.
 
 [Diagram: zwei gleichgrosse Kreise, der linke mit waagerechtem, der rechte mit schrägem Durchmesser]
+
+[Curated heading level=3 type=numbered_item: II.]
 
 II. Ein anrührender Strich ca ist / welcher den Kreyß zwar in dem Düttel a berühret / wenn er aber fort gezogen wird / denselben nicht durchschneidet.
 

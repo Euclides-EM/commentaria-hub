@@ -2,6 +2,8 @@
 
 <!-- Page number: 171 -->
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Werde auch bd gezogen.
 ### Beweiß.
 ⌓ adb gleichgestalt mit ⌓ acb   n. 1. Vorber.

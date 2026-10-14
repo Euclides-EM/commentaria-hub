@@ -25,6 +25,8 @@ SIMILI arte explorabimus, an plures numeri, quam tres ſint inter ſe primi, an 
 3.
 [/Margin]
 
+[Curated heading level=3 type=incipit: TRIBVS]
+
 TRIBVS numeris datis non primis inter ſe, maximam eorum cõmunem menſuram reperire.
 
 DENTVR tres numeri A, B, C, non primi inter ſe, quorum maximam menſurã cõmunem oporteat reperire. Sit D, maxima menſura numerorum A, & B; Si ergo D, metiatur

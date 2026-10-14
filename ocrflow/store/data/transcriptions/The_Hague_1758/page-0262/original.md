@@ -25,7 +25,12 @@ II. Les ∀ oppoſés aux côtés homologues ſont égaux; ou ∀ A ═ à ∀ m
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Faites ſur la droite DF au point D, ∀ p ═ à ∀ A; Et au point F, ∀ q ═ à ∀ C.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Prolongez les côtés DG, FG juſques à ce qu'ils ſe rencontrent en G.
 
 [Margin]
@@ -36,15 +41,33 @@ Prop. 27. L. 1. Rem.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans les △ équiangles ABC, DGF, (*Prep.* 1. & *Prop.* 32. *L.* 1), & ſpecialement ∀ C ═ ∀ q & ∀ B ═ ∀ G.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. AB : AC ═ DG : DF.
 Mais AB : AC ═ DE : DF (*Hyp.* 1);
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Donc DG : DF ═ DE : DF. Et DG eſt ═ à DE.
 Par un même raiſonnement on prouvera que
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. La droite GF eſt ═ à EF.
 Puis donc que dans les deux △ DEF, DGF les deux côtés DE, EF ſont ═ aux deux côtés DG, GF (*Arg.* 2 & 3), & que la baſe DF eſt commune aux deux △,
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Les ∀ n & m ſont ═ aux ∀ q & p chacun à chacun,
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Et les △ DEF, DGF ſont équiangles.
 Mais le △ DGF eſt équiangle au △ ABC (*Prep.* 1 & *Prop.* 32. *L.* 1);
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Il s'enſuit donc que les △ ABC, DEF ſeront auſſi équiangles.
 
 [Margin]
@@ -57,7 +80,12 @@ Ax. 1. L. 1.
 
 C. Q. F. D. I.
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. De plus, les ∀ A, C, & B oppoſés aux côtés BC, AB, AC, étant égaux chacun à chacun aux ∀ m, n & E oppoſés aux côtés EF, DE, DF; homologues aux côtés BC, AB, AC chacun à chacun, parceque les uns & les autres de ces ∀, ſont égaux chacun à chacun aux ∀ p, q, G (*Prep.* 1. *Prop.* 32. *L.* 1 & *Arg.* 4),
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Il s'enſuit, que les ∀ A, m; item C, n; & B, E oppoſés aux côtés homologues ſont égaux.
 
 C. Q. F. D. II.

@@ -17,6 +17,8 @@ SVNT autem proxime antecedentes quatuor propoſitiones 26. 27. 28. & 29. intelli
 29.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DATAM]
+
 DATAM peripheriam bifariam ſecare.
 
 SIT peripheria ABC, ſecanda bifariam. Ducatur recta ſubtendens AC, qua diuiſa bifariam in D, erigatur perpendicularis DB, quæ peripheriam ABC, bifariam ſecabit in B. Ductis enim rectis AB, CB, erunt latera AD, DB, trianguli ADB, æqualia lateribus CD, DB, trianguli CDB; Sunt autem & anguli ad D, æquales, nempe recti: Igitur & baſes AB, CB, æquales erunt; Ac propterea peripheriæ AB, CB, erunt æquales. Datam ergo peripheriam bifariam ſecuimus: Quod erat faciendum.
@@ -35,6 +37,8 @@ SIT peripheria ABC, ſecanda bifariam. Ducatur recta ſubtendens AC, qua diuiſa
 [Margin]
 30.
 [/Margin]
+
+[Curated heading level=3 type=incipit: IN]
 
 IN circulo angulus, qui in ſemicirculo, rectus eſt: qui autem in maiore ſegmento, minor recto: qui uero in minore ſegmento, maior eſt recto. Et inſuper angulus ma-
 

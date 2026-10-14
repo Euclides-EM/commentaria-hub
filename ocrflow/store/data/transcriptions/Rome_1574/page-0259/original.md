@@ -27,6 +27,8 @@ SECETVR iam numerus 10. vtcunq; in 6. & 4. Numerus igitur 240. qui quater fit ex
 
 ## THEOR. 9. PROPOS. 9.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI recta linea ſecetur in æqualia, & nõ
 
 <!-- Catchword: æqua- -->

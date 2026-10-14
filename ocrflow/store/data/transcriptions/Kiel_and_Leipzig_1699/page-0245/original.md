@@ -2,13 +2,13 @@
 
 <!-- Page number: 228 -->
 
-I. Anhang.
+### I. Anhang.
 
 Hierauß erhellet / daß die Seiten des Sechseckes eben so
 groß seyn / als der Strahl oder halbe Durchschlag des Kreyses /
 welchem das Sechseck eingeschrieben ist.
 
-II. Anhang.
+### II. Anhang.
 
 Fast auff gleiche Weise kan ein gleichseitiges Dreyeck einem
 gegebenen Kreyß eingeschrieben werden.
@@ -17,12 +17,23 @@ gegebenen Kreyß eingeschrieben werden.
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
 se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
 e und o schneidet.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Aus e und o werden nach selbiger Weite zwey Kreyßstücke
 gemacht /welche den Kreyß in d und b schneiden.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Werden die Striche fd und fb gezogen.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Wird der Strich db gezogen.
 
 ### Beweiß.

@@ -30,6 +30,8 @@ QVOD ſi prima cum ſecunda ad ſecundam, minorem proportionem habuerit, quam te
 
 ## THEOR. 30. PROPOS. 30.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI compoſita prima cum ſecunda, ad ſecũdam habuerit maiorem proportionem, quam cõpoſita tertia cum quarta, ad quartam: Habebit per conuerſionem rationis, prima cum ſecunda ad primam, minorem proportionem, quam tertia cum quarta, ad tertiam.
 
 [Margin]

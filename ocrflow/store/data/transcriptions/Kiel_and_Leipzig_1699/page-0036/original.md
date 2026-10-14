@@ -19,13 +19,20 @@ W. Z. M.
 
 Wenn in zweyen Dreyecken zwo Seiten des einen eben so groß seynd / als zwo Seiten des andern/und zwar jedwede Seite einer jedweden absonderlich; darnach auch diejenigen Winckel/ welche von den gedachten Seiten eingeschlossen werden / gleich sind: so werden auch die beeden Grund-Striche/ und die beeden Dreyecke ein ander gleich seyn; deßgleichen werden die übrigen Winckel/ derer gegenüberstehende Striche gleich groß seynd / auch ein ander gleich seyn.
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-1. Zwey geradstrichiche Dreyecke ABC und abc | BC | bc, ABC ⏉ abc
-2. AB + AC | ab + ac | BCA ⋏ bca
-3. AB | ab | und ABC ⋏ abc
+1. Zwey geradstrichiche Dreyecke ABC und abc
+2. AB + AC | ab + ac
+3. AB | ab
 4. AC | ac
 5. BAC ⋏ bac
+
+### Begehrte.
+
+BC | bc
+ABC ⏉ abc
+BCA ⋏ bca
+und ABC ⋏ abc
 
 ### Vorbereitung.
 

@@ -23,6 +23,8 @@ Quoniam uero eſt ut C, ad dimidium ſui, ita B, ad dimidium ſui; & permutando 
 34.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 {dropcap:S|lines=2|style=plain}I impar numerus ad aliquem numerum primus ſit: & ad illius duplum primus erit.
 
 IMPAR numerus A, primus ſit ad aliquem numerum B, cuius duplus ſit C. Dico A, ad C, quoque primum eſſe. Si enim A, C, non ſunt inter ſe primi; metietur eos aliquis numerus, qui ſit D; qui neceſſario impar erit. Nam ſi ſit par, cùm metiatur imparem A; erit A, factus ex D, pari in eum numerum, per quem metitur, par.

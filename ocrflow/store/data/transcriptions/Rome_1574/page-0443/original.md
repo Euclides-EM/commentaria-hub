@@ -18,6 +18,8 @@ HIC finem Euclides imponit quinto libro; Verum quia Campanus, & nonnulli alij ad
 
 ## THEOR. 26. PROPOS. 26.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI prima ad ſecundam habuerit maiorem proportionem, quam tertia ad quartã: habebit cõuertẽdo ſecũda ad primã minorẽ proportionẽ, quã quarta ad tertiam.
 
 HABEAT A, ad B, maiorẽ proportionẽ, quã C, ad D. Dico proportionẽ B, ad A, minorẽ eſſe proportione D, ad C.

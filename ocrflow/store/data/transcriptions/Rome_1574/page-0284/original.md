@@ -19,6 +19,8 @@ HINC manifeſtum eſt, ſi in circulo recta aliqua linea aliquam rectam lineam b
 2.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI in circuli peripheria duo quælibet puncta accepta fuerint; Recta linea, quæ ad ipſa puncta adiungitur, intra circulum cadet.
 
 IN circulo ABC, ſumantur quælibet duo puncta A, & C, in eius circunferentia: Dico rectam ex A, in C, ductam cadere intra circulum, ita vt ipſum ſecet. Si enim non cadit intra, cadat extra, qualis eſt linea ADC, recta. Inuento igitur centro E, ducantur ab eo ad puncta aſſumpta A, & C, nec non ad quoduis punctum D, in recta ADC, lineæ rectæ EA, EC, ED, ſecetq́; ED, circunferentiam in B. Quoniam ergo duo latera EA, EC, trianguli, cuius baſis ponitur recta ADC, ęqualia ſunt, (e centro enim ducuntur) erunt anguli EAD, ECD, æquales: Eſt autem angulus EDA, angulo ECD, maior, externus interno oppoſito, cum latus CD, in triangulo ECD, ſit productum ad A. Igitur

@@ -16,6 +16,8 @@ EF, æqualia ſint lateribus GE, EF, & anguli ipſis contenti æquales quoque; (
 
 ## THEOR. 7. PROPOS. 7.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo triangula vnum angulum uni an gulo æqualem, circum autem alios angulos latera proportionalia habeant; reliquorum uero ſimul utrunque aut minorem, aut nõ minorem recto: Aequiangula erunt triangula, & æquales habebunt eos angulos, cir cum quos proportionalia ſunt latera.
 
 SIT angulus A, trianguli ABC, æqualis angulo D, trianguli DEF; & latera AC, CB, circa angulum ACB, proportionalia lateribus DF, FE, circa angulum F, hoc eſt, ſit ut AC, ad CB, ita DF, ad FE; hac tamen lege, ut quilibet reliquorum angulorum B, & E, ſit uel minor recto, uel non minor. Dico æquiangula eſſe triangula, angulos ſcilicet ACB, & F, circa quos ſunt latera proportionalia, nec non & angulos B, & E, æquales eſſe. Sit enim primo tam B, quam E, recto minor: Quo poſito, ſi anguli ACB, & F, non ſunt æquales, ſit ACB, maior, quam F; fiatque ipſi F, æqualis ACG. Cum igitur, & angulus A, angulo D,

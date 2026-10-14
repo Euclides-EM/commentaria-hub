@@ -1,5 +1,14 @@
 # OCR Pipeline Queue
 
+> Strasbourg_1564 - Facs importing
+> Strasbourg_1566 - Facs importing
+> Pisa_1658 - Facs importing
+> Würzburg_1661 - Facs importing
+> Paris_1685 - Facs importing
+> Vienna_1694 - Facs importing
+> Oxford_1701 - Facs importing
+> Paris_1814 - Facs importing
+
 # Train to improve segmentation
 
 > Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].

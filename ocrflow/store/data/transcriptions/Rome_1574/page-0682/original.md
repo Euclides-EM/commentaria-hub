@@ -12,6 +12,8 @@ quentes conſequentem; ſi de proportionibus N, ad B, & C, ad F, vel D, ad G, ve
 17.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI inter duos numeros unus medius proportionalis cadat numerus; Similes plani erunt illi numeri.
 
 CADAT inter A, & B, medius proportionalis C. Dico A, & B, eſſe planos ſimiles. Sumantur D, & E, minimi in ra

@@ -19,7 +19,11 @@ deinde latere eius EH, in I, ſecundum proportionem B, ad C, (quod facile fiet, 
 
 [Figure: a rectangle D, a triangle A, and a semicircle EKH on line EIH with attached rectilinear figures labelled L, K, O, M, N, and below the lines F, B, C]
 
-#### DATO rectilineo, duo rectilinea æqualia exhibere, quæ cuiuis rectilineo ſimilia ſint, ſimiliterque deſcripta, lateraque eorum homologa habeant inter ſe proportionem datam.
+[Curated heading level=4: DATO]
+
+DATO rectilineo, duo rectilinea æqualia exhibere, quæ cuiuis rectilineo ſimilia ſint, ſimiliterque deſcripta, lateraque eorum homologa habeant inter ſe proportionem datam.
+
+[Curated heading level=4 type=numbered_item: VI.]
 
 [Margin]
 VI.

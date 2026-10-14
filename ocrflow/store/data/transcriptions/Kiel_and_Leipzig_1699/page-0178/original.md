@@ -12,15 +12,22 @@ Wenn nun auff eines Kreyses cgf Durchschlags fc Ende-Düttel c ein Senckstrich b
 
 Aus einem gegebenen Düttel einen geraden Strich zu ziehen/ welcher den gegebenen Kreyß anrühre.
 
-### Gegebene. Begehrtes.
+### Gegebene.
 
-1. Düttel e. — 1. Gerader Strich ec
-2. Kreyß fcd. — 2. Aus e gezogen also/ daß es
+1. Düttel e.
+2. Kreyß fcd.
+
+### Begehrtes.
+
+1. Gerader Strich ec
+2. Aus e gezogen also/ daß es
 3. Den Kreyß fcd anrühre.
 
 [Diagram: kleiner Kreis fcd mit Mittel-Düpffel b, darum ein grosser punktierter Kreis durch a und e; vom Düttel e Linien nach a, d und b, mit Punkten c und d]
 
 ### Wirckung.
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. Aus dem gegebenen Düttel e werde zu des gegebenen Kreyses Mittel-Düpffel b ein gerader Strich eb gezogen.
 

@@ -21,6 +21,8 @@ A,81. B,54. C,36. D,24. E,16.
 7.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint quotcunqꝫ numeri deinceps proportionales, primus autem extremum metiatur, is etiam metietur ſecundum.
 
 SINT deinceps proportionales A, B, C, D, E; & A, primus extremũ E, metiatur. Dico & A, primũ metiri B, ſecundum. Si enim A, ipſum B, non dicatur metiri; neque alius quiſquam ullũ metietur. Quare nec A, ipſum E. Quod eſt abſurdum. Ponitur enim A, metiri E. Igitur A, primus B, ſecundum metietur; Atque idcirco, ſi ſint quotcunque numeri deinceps proportionales, &c. Quod erat demonſtrandum.

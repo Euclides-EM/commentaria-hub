@@ -4,12 +4,16 @@
 
 mal genommene Vier-Eck/ welches von der einen Seite/ und von dieser Seiten Verlängung biß zum Senckstrich / so aus dem Ende der andern Seite auff solche Verlängung fället/ gemacht wird.
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-1. Stumpffwincklicht △ abc. | □ ac ) □ ab + 2 ▭ abd + 2 □ bc.
+1. Stumpffwincklicht △ abc.
 2. Verlängte Seite ab biß d.
 3. Verlängung bd.
 4. Senckstrich cd.
+
+### Begehrte.
+
+□ ac | □ ab + 2 ▭ abd + 2 □ bc.
 
 [Diagram: stumpfwinkliges Dreieck a b c; die Grundlinie ab ist punktiert bis d verlängert, von c fällt ein punktierter Senkstrich auf d]
 

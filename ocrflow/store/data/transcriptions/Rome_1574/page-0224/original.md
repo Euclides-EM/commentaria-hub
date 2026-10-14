@@ -23,6 +23,8 @@ SIT data recta AB; datũ parallelogrãmũ CDEF, & datus angulus L. Producaĩ CD,
 O.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DATO]
+
 DATO rectilineo æquale parallelogrãmum cõſtituere, in dato angulo rectilineo.
 
 DATVM rectilineum ſit ABC, & datus angulus D: oportet igitur cõſtruere parallelogrammũ ęquale rectilineo ABC, qd̃ habeat angulũ æqualẽ angulo D. Reſoluaĩ rectilineũ in triãgula A, B, & C. Deinde triãgulo A, ęquale paralle

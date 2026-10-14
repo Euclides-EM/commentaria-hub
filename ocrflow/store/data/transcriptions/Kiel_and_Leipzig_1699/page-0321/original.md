@@ -2,28 +2,44 @@
 
 <!-- Running title: Das VI. Buch -->
 
-### I. Gegebene. — Begehrtes.
+### I. Gegebene.
 
 1. Dreyeck abc
-2. Dreyeck def — ab : de | △ abc : △ def.
+2. Dreyeck def
 3. Die Höhen cq | fq
 4. Grundstriche ab | 3 db
+
+### Begehrtes.
+
+ab : de | △ abc : △ def.
 
 [Diagram: Zwei Dreiecke mit gemeinsamer Grundlinie u t d q e q a r s b, aus den Gipffeln f und c gehen gestrichelte und ausgezogene Striche auf die Grundlinie herab]
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Des grössern Dreyecks abc Grundstrich ab, welcher dreyfach gegen des kleinern Dreyecks def Grundstrich de ist/ werde in solche Stücke getheilet/ welche dem Grundstrich de gleichmässig sind n. 3. I.
 
 de|ar|rs|sb.
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Aus dem Gipffel c werden gerade Striche auf des Grundstrichs Abtheilungen gezogen/ nemlich cr und cs.
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Der Grundstrich de des kleinern Dreyecks werde verlängert.
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Von diesem verlängeten Strich werde ein Stück eu|ab abgeschnitten n. 3. I.
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Auf diesen Strich ab werden auch gesetzet die Längen dt|tu|de n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Werden die Striche ft und fu gezogen.
 

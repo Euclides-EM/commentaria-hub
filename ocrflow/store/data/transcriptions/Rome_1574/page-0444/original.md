@@ -32,6 +32,8 @@ SIT enim minor proportio A, ad B, quã C, ad D. Dico conuertendo, B, ad A, maior
 27.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI prima ad ſecundam habuerit maiorẽ proportionẽ, quã tertia ad quartam: Habebit quoq; viciſſim prima ad tertiã maiorẽ proportionẽ, quã ſecunda ad quartam.
 
 HABEAT A, ad B, maiorem proportionem, quam C, ad D. Dico permutando maiorẽ eſſe quoque proportionem A, ad C, quã B, ad D. Intelligatur nãq; eſſe E, ad B, ut C, ad D, eritq; proportio A, ad B, maior etiam quã E, ad B; Ideoq; A, maior erit quam E. Quare maior erit proportio A, ad C, quam E, ad C: Quoniam vero permutando, eſt vt E,

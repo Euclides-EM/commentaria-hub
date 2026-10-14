@@ -18,6 +18,8 @@ IAM vero, ſi proportio A, ad B, minor fuerit, quam C, ad D; & C, ad D, minor, q
 
 ## THEOR. 14. PROPOS. 14.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI prima ad ſecundam eandem habuerit rationem, quam tertia ad quartam; Prima uero quam tertia maior fuerit, erit & ſecunda maior quam quarta. Quod ſi prima fuerit æqualis tertiæ, erit & ſecunda æqualis quartæ: Si uero minor, & minor erit.
 
 SIT A, prima ad B, ſecundam, ut C, tertia ad D, quartam. Dico ſi A, maior fuerit quam C, fore quoque B, maiorem quam D; Quod ſi A, æqualis fuerit ipſi C, æqualem quoque eſſe B, ipſi D; Si denique A, minor fuerit quã C, minorem quoque eſſe B, ipſa D. Sit primo A, maior quã C, eritque propterea proportio A, maioris ad B, maior quam C, minoris ad eandem B. Quoniam igitur eſt C, prima ad D, ſecundam, ut A, tertia ad B, quartam; Proportio autem A, tertiæ ad B, quartam, maior eſt, ut oſtendimus, quam C, quintæ ad B, ſextam; Maior quoque erit proportio C, primæ ad D, ſecundam, quam C, quintæ ad

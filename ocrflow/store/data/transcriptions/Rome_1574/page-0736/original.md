@@ -27,6 +27,8 @@ Quare addita unitate ED, totus AD, impar erit, cum impar à pari differat unitat
 25.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI a pari numero par detrahatur: Et reliquus par erit;
 
 Ex pari numero AB, detrahatur par CB. Dico & reliquum AC, parem eſſe. Aut enim CB, par detractus dimidia pars eſt ipſius AB, aut maior quà dimidia pars, uel minor.

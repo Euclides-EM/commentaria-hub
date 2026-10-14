@@ -18,6 +18,8 @@ CAETERVM quo pacto triangulum conſtitui debeat habens tria latera æqualia trib
 
 ## PROBL. 2. PROPOS. 2.
 
+[Curated heading level=3 type=incipit: AD]
+
 AD datum punctum, datæ rectæ lineæ æqualem rectam lineam ponere.
 
 [Figure: two circles, each containing a smaller circle with points B, C, D, A, E, F, G marked]

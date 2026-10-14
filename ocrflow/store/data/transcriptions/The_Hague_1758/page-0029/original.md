@@ -4,6 +4,8 @@
 
 [Figure: two triangles in a double-ruled frame: triangle BAC with angle a at apex A and angles b and c at base; triangle EDF with angle d at apex D, angles e and f at base, a point X above the base EF and a dotted arc through Y below it]
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Cette baſe BC ſera = à la baſe EF.
 
 [Margin]
@@ -14,6 +16,8 @@ C. Q. F. D. I.
 
 Derechef, la baſe BC convenant à la baſe EF *(Arg. 5)*, & les deux autres côtés AB, AC du △ BAC convenant aux deux autres côtés DE, DF du △ EDF *(Prep. 2, Arg. 2.)*
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Ces deux △ BAC, EDF ſont néceſſairement égaux entr'eux.
 
 [Margin]
@@ -23,6 +27,8 @@ Ax. 9.
 C. Q. F. D. III.
 
 Enfin, puiſque les ∀ b & ∀ e oppoſés aux côtés égaux AC, DF *(Hyp 2)*; Item, les ∀ c & ∀ f oppoſés aux côtés égaux AB, DE *(Hyp. 1)*, conviennent & par leurs ſommets & par leurs jambes. *(Arg. 1. 2. 3. 5.)*
+
+[Curated heading level=4 type=numbered_item: 8.]
 
 8. Il s'en ſuit, que les ∀ b & ∀ e de même que les ∀ c & ∀ f, oppoſés à des côtés égaux, ſont égaux entr'eux.
 

@@ -2,9 +2,11 @@
 
 <!-- Page number: 96 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2.]
+
 [Figure: Fig. 1., a circle with centre C, chords FB and DE with perpendiculars CM and CN, and chord AG with perpendicular CH; Fig. 2., a circle CADB with chord AB]
 
-## DEFINITIONS
+<!-- Running title: DEFINITIONS -->
 
 ### IV.
 

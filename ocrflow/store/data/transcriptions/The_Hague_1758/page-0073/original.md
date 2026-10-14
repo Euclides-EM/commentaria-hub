@@ -4,6 +4,8 @@
 
 Derechef, les côtés oppoſés EA, FB & EF, AB; item HI, AC & HA, IC, des figures EB, HC, étant Plles (*Reſ.* 5. 6. 8. & 9).
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Ces figures EB, HC ſont des Pgrs.
 
 [Margin]
@@ -11,6 +13,8 @@ Def. 35. L. 1.
 [/Margin]
 
 Mais la droite FI eſt la diagonale du Pgr DG (*Reſ.* 7) & EB, HC ſont des Pgrs alentour de cette diagonale (*Arg.* 2 & *Reſ.* 7)
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Par conſéquent, les Pgrs BC, EH qui en ſont les complémens, ſont ＝ entr'eux.
 
@@ -20,6 +24,8 @@ Prop. 43. L. 1.
 
 Or le Pgr EH eſt ＝ au △ AKL (*Reſ.* 4) & le △ donné T eſt ＝ au même △ AKL (*Reſ.* 3).
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. D'où il ſuit, que le Pgr EH eſt ＝ au △ donné T.
 
 [Margin]
@@ -27,6 +33,8 @@ Ax. 1.
 [/Margin]
 
 Le Pgr EH étant donc ＝ au △ donné T (*Arg.* 4) & ce même Pgr EH étant ＝ au Pgr BC (*Arg.* 3).
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Le Pgr BC eſt ＝ au △ donné T.
 
@@ -36,6 +44,8 @@ Ax. 1.
 
 De plus, à cauſe que les ∀ HAE, BAC ſont oppoſés au ſommet.
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Ces angles ſont ＝ entr'eux.
 
 [Margin]
@@ -44,11 +54,15 @@ Prop. 15. L.1.
 
 C'eſt pourquoi, ∀ HAE étant ＝ à ∀ donné M (*Reſ.* 4).
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. L'angle BAC eſt auſſi ＝ à cet ∀ donné M.
 
 [Margin]
 Ax. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 8.]
 
 8. On a donc, ſur la droite donnée AB, conſtruit un Pgr BC ＝ au △ donné T (*Arg.* 5); & qui a un ∀ BAC ＝ à ∀ donné M (*Arg.* 7).
 

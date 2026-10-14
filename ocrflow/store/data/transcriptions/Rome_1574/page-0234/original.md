@@ -11,6 +11,8 @@ SINT duo quadrata ABCD, EFGH, propoſitumq́ue ſit quadrato ABCD, apponere figu
 47. primi
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: VIII.]
+
 [Margin]
 VIII.
 [/Margin]

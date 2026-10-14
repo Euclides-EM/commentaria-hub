@@ -8,7 +8,11 @@ bus rectilineis A, & B, per ea, quæ ad propos. 45. lib. 1. docuimus. Si enim hu
 25. ſexti.
 [/Margin]
 
-#### SI in circulo duæ rectæ lineę ſe ſe mutuo ſecuerint: Erunt ſegmenta unius ſegmentis alterius reciproca.
+[Curated heading level=4: SI]
+
+SI in circulo duæ rectæ lineę ſe ſe mutuo ſecuerint: Erunt ſegmenta unius ſegmentis alterius reciproca.
+
+[Curated heading level=4 type=numbered_item: VIII.]
 
 [Margin]
 VIII.
@@ -24,7 +28,11 @@ IN circulo ABCD, ſe mutuo ſecent rectæ AC, BD, in E. Dico ſegmenta AE, EC, e
 
 [Figure: circle ABCD with two chords AC and BD intersecting at point E]
 
-#### SI extra circulum ſumatur punctũ aliquod, ab eoque in circulum cadãt duæ rectæ lineæ circulum ſecantes: Erunt totæ, & ſegmenta extra circulum reciproca. Quod ſi ab eodem puncto linea ducatur, quæ circulum tangat; Erit hęc media proportionalis inter quamlibet rectam, quę circulum ſecet & eius ſegmentum exterius.
+[Curated heading level=4: SI]
+
+SI extra circulum ſumatur punctũ aliquod, ab eoque in circulum cadãt duæ rectæ lineæ circulum ſecantes: Erunt totæ, & ſegmenta extra circulum reciproca. Quod ſi ab eodem puncto linea ducatur, quæ circulum tangat; Erit hęc media proportionalis inter quamlibet rectam, quę circulum ſecet & eius ſegmentum exterius.
+
+[Curated heading level=4 type=numbered_item: IX.]
 
 [Margin]
 IX.

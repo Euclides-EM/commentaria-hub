@@ -10,8 +10,13 @@ Ist also bey jedwedem △, wan dessen eine Seite verlängert wird/ der auswendig
 
 In jedwedem Dreyeck sind zween Winckel zusammen/ auff waserley Weise genommen/ kleiner/ als zween rechte Winckel.
 
-### Gegebenes. Begehrte.
-△ ABC. ABC + ACB ⲗ ⊥
+### Gegebenes.
+
+△ ABC.
+
+### Begehrte.
+
+ABC + ACB ⲗ ⊥
 ABC + ACB ⲗ ⊥
 ACB + BAC ⲗ ⊥
 

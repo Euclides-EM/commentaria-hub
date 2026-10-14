@@ -29,6 +29,8 @@ D, 3. E, 4. F, 6. G, 8.
 
 ## THEOR. 19. PROPOS. 21.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI inter duos numeros duo medij proportionales cadant numeri; Similes ſolidi ſunt illi numeri.
 
 [Margin]

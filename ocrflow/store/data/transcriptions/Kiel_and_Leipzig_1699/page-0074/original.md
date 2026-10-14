@@ -6,8 +6,16 @@
 
 ### Beweiß.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Entweder sind        AB — DC.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. oder lauffen zusammen in H.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. oder  -  -  -  -  in G.
 
 ### Vorbereitung.

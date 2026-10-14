@@ -1,9 +1,11 @@
 <!-- Page number: 244 -->
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Figure: a triangle A B C with perpendicular B D to the base (Fig. 1.); a rectangle F B E A on a line C D (Fig. 2.); a rectangle E F A B on a line C D with a dotted rectangle F G B H adjoining (Fig. 3.)]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### IV.
 

@@ -25,6 +25,8 @@ POSSENT hæc omnia multo breuius probari per ſuperpoſitionẽ quadrati vnius �
 46.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN rectãgulis triãgulis, quadratũ, quod a latere rectum angulum ſubtendente deſcribitur, æquale eſt eis, quæ a lateribus rectum angulum continentibus.
 
 [Figure: two right triangles with squares deſcribed on each of their three sides and diagonal lines drawn, the first with equal legs, the second with unequal legs, labelled A, B, C, D, E, F, G, H, I, K, L]

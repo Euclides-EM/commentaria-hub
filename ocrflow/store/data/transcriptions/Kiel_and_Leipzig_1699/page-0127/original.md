@@ -9,13 +9,36 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. An den Düttel c werde ein Senckstrich ce auffgerichtet. n. 11. Vortr. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Senckst. ce | ca n. 2. Vortr.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Auff d werde auch ein Senckstrich dg gesetzet.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Senckstrich dg | da
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Werde gezogen gf ⋕ dc
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. - - - der Zwergstrich gb
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. - - - Strich ae
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. - - - - - be
 
 [Diagram: Dreieck über der Grundlinie a d c b mit Spitze e, darin die Punkte g und f, gestrichelte Linien; oben eine Linie von A nach B]

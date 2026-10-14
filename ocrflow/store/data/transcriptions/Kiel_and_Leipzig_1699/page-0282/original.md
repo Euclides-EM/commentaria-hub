@@ -2,9 +2,9 @@
 
 <!-- Page number: 265 -->
 
-### I. Gegebene. | Begehrtes.
+### I. Gegebene.
 
-A ________ | a ⊣ b.
+A ________
 a ____
 B ______
 b __
@@ -13,6 +13,10 @@ b __
 
 A : a | B : b
 A ⊣ B
+
+### Begehrtes.
+
+a ⊣ b.
 
 ### Beweiß.
 
@@ -23,9 +27,9 @@ Dw. 3a ⊣ B — n. 1. Gr. c. I.
 und 3a ⊣ 3b — n. 1. Gr. a. I.
 Dw. a ⊣ b — n. 7. Gr. p. I.
 
-### II. Gegebene. | Begehrte.
+### II. Gegebene.
 
-A ________ | a | b
+A ________
 a ____
 B ________
 b ____
@@ -34,6 +38,10 @@ b ____
 
 A : a | B : b
 A | B
+
+### Begehrte.
+
+a | b
 
 ### Beweiß.
 

@@ -2,10 +2,18 @@
 
 <!-- Page number: 220 -->
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Der Winckel bca werde in zween gleiche Theile getheilet
 durch den Strich ce. n. 9. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Der Winckel cba werde gleicher Weise in zween gleiche
 Theile getheilet/ durch den Strich db. n. 9. I.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Werden die geraden Striche be. ea. ad. dc. gezogen.
 
 ### Beweiß
@@ -37,9 +45,13 @@ lichtes Fünffeck eingeschrieben. W. Z. M.
 Umb einen gegebenen Kreyß ein gleichseitig
 und gleichwincklicht Fünffeck zubeschreiben.
 
-### Gegebenes. — Begehrte.
-Kreyß ghikl — 1. Fünffeck bcdef
-2. dem gegebenen Kreyß ümb-
-schrieben.
+### Gegebenes.
+
+Kreyß ghikl
+
+### Begehrte.
+
+1. Fünffeck bcdef
+2. dem gegebenen Kreyß ümbschrieben.
 
 <!-- Catchword: Wir- -->

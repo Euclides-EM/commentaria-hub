@@ -36,16 +36,40 @@ Prop. 23. L. 1.
 CAS I. Si les ∀ C & F ſont l'un & l'autre aigus.
 
 {dropcap:P|lines=2|style=plain}Uis donc que ∀ *o* eſt ═ à ∀ D ((*Prep.*) & ∀ B ═ à ∀ E (*Hyp.* 1),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s'enſuit que ∀ *n* eſt ═ à ∀ F; & que les △ ABG, DEF ſont équiangles.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant BA : AG ═ ED : DF.
 Mais BA : AC ═ ED : DF (*Hyp.* 2),
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Par conſéquent BA : AG ═ BA : AC;
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. D'où il ſuit que AG eſt ═ à AC.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. C'eſt pourquoi ∀ C eſt ═ à ∀ *m*.
 Et à cauſe que dans ce Cas ∀ C eſt ⟨ L.
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. L'angle *m* ſera auſſi ⟨ L; & ∀ *n* qui lui eſt contigu > L,
 Mais cet ∀ *n* étant ═ à ∀ F (*Arg.* 1), qui eſt dans ce Cas ⟨ L,
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Ce même ∀ *n* ſeroit auſſi ⟨ L; ce qui eſt impoſſible.
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Les ∀ BAC & D ſont donc ═ entr'eux, & le troiſième ∀ C eſt ═ à ∀ F; ou les △ ABC, DEF ſont équiangles.
 
 [Margin]

@@ -15,6 +15,8 @@ PRIMVS numerus A, non metiatur numerum B. Dico A, ad B, primum eſſe. Si enim A
 33.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo numeri ſeſe mutuo multiplican tes fecerint aliquem; genitum autem ex ipſis metiatur aliquis primus numerus: is etiã unum eorum, qui in principio, metietur.
 
 DVO numeri A, & B, ſe mutuo multiplicantes faciant C, quem metiatur numerus primus D. Dico & D, metiri ſaltem unum ipſorum A, & B, ſi non utrunque metitur. Non metiatur enim D, ipſum A; metiatur uero ipſum C, toties, quot ſũt unitates in numero E; ita ut C, fiat ex D, in E, qui idem factus eſt ex A, in B. Quia igitur numerus genitus ex D, primo in E, quartum, æqualis eſt numero genito ex A, ſecundo in B, tertium; erit ut D, primus ad A, ſecundũ, ita B, tertius ad E, quartũ. Quia uero primꝰ D, ad A, primus eſt, cum eum non metiatur; erunt D, & A, in ſua proportione minimi. Quare æque metientur ipſos B, & E; nimirum D, ipſum B, & A, ipſum E; Ac proinde ſi D, non metitur ip

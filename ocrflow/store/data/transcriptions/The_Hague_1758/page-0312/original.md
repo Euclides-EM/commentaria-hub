@@ -21,18 +21,38 @@
 
 ### Preparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:P|lines=2|style=plain}Renez EC à volonté, & faites EB, ED & AE chacune égale à EC.
-2 Joignez les points A, & C, Item B & D.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
+2. Joignez les points A, & C, Item B & D.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Tiréz par le point E dans le même Plan PL, la droite GH qui ſera terminée par les droites AC & BD aux points G & H.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Tirez AF, GF, CF, DF, HF & BF.
 
 ### DEMONSTRATION.
 
 {dropcap:L|lines=2|style=plain}Es △ AEF, CEF, BEF, & DEF, ont le coté EF commun.
 Les cotés AE, CE, BE, & DE égaux. (*Prép.* 1.) & les ∀ contigus AEF, CEF, BEF & DEF égaux. (*Hyp.* 3.)
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Partant les bazes AF, CF, BF & DF ſont égales.
 Dans les △ AEC & DEB, les cotés AE, CE, ED & EB ſont = (*Prép.* 1.) & les ∀ AEC & DEB auſſi égaux.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Donc AC = BD
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Et ∀ EAC = ∀ EBD
 Les △ GAE & EBH ont ∀ AEG = ∀ HEB.
 ∀ EAG = ∀ EBH (*Arg.* 3.) & AE = EB. (*Prép.* 1.).

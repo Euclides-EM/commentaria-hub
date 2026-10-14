@@ -23,6 +23,8 @@ enim primo non exiſtente quadrato, nullus alius quadratus ſit, præter tertium
 12.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ab unitate quotcunque numeri dein ceps proportionales fuerint; Minor maiorem metitur per aliquem eorum, qui in proportionalibus ſunt numeris.
 
 SINT ab unitate quotcunque numeri continue proportionales A,B,C,D,E,F,G. Dico quemlibet minorẽ, ut

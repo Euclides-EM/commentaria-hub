@@ -28,6 +28,8 @@ QVAMVIS autem optime a Proclo demonſtratum ſit vndecimum hoc pronunciatum, vt 
 29.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN parallelas rectas lineas recta incidẽs linea; Et alternatim angulos inter ſe æqua-
 
 <!-- Signature: G 2 -->
