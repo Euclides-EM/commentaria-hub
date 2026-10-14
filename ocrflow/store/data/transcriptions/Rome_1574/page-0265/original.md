@@ -24,6 +24,8 @@ HOC theorema nulla ratione accommodari poteſt numeris. Non enim numerus vllus i
 12.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN amblygonijs triangulis, quadratum, quod fit a latere angulum obtuſum ſubtendente, maius eſt quadratis, quæ fiunt a lateribus obtuſum angulum comprehendentibus, rectangulo bis comprehenſo & ab uno laterum, quæ ſunt circa obtuſum angu
 
 <!-- Catchword: lum, -->

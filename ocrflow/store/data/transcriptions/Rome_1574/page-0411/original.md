@@ -16,6 +16,8 @@ VT, quam proportionem habet A, ad B, eandem habebit magnitudo propoſita C, ad a
 
 ## THEOR. 1. PROPOS. 1.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint quotcunq; magnitudines quotcunque magnitudinum æqualium numero, ſingulæ ſingularum æque multiplices; quã multiplex eſt unius una magnitudo, tam multiplices erunt & omnes omnium.
 
 SINT quotcunque magnitudines AB, CD, totidem magnitudinum E, F, æque multiplices. Dico magnitudines AB, CD, ſimul, tam eſſe multiplices magnitudinum E, F, ſimul, quam eſt multiplex AB, ipſius E, uel CD, ipſius F. Cum enim AB, CD, ſint æque multiplices ipſarum E, & F; ſi AB, diuidatur in magnitudines AG, GH, HB, ipſi E, æquales, & CD, quoque in magnitudines CI, IK, KD, ipſi F, æquales; erũt magni-

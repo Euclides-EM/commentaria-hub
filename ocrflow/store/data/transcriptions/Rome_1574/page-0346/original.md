@@ -42,6 +42,8 @@ ALITER. Erunt duæ tangentes AB, AD, æquales, ut oſtenſum eſt; quod eſt ab�
 36.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI extra circulum ſumatur punctum aliquod, ab eoque puncto in circulum cadant duæ rectæ lineæ, quarum altera circulum ſecet, altera in eum incidat; ſit autem, quod ſub tota ſecante, & exterius inter punctum & conuexam peripheriam aſſumpta, com-
 
 <!-- Signature: R 3 -->

@@ -24,6 +24,8 @@ NAM ex A, in B, fiat C, quem uel metiatur numerus non primus D, uel certe compo�
 30.
 [/Margin]
 
+[Curated heading level=3 type=incipit: OMNEM]
+
 OMNEM compoſitum numerum, aliquis primus numerus metitur.
 
 SIT numerus compoſitus A. Dico aliquem numerũ primum eum metiri. Metiatur enim ipſum numerus B, qui ſi primus fuerit, habetur propoſitum: Si uero compoſitus, metiatur eum numerus C, qui uel primus erit, uel compoſitus: Si primus, cum metiatur ipſum B; & B, ipſum A; metietur quoque C, primus ipſum A. Si autem C, compoſi

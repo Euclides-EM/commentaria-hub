@@ -8,6 +8,8 @@ ORONTIVS, & nonnulli alij interpretes, longe aliter definitionem hanc exponunt. 
 
 ### XII.
 
+[Curated heading level=4 type=incipit: ALTERNA]
+
 ALTERNA ratio, eſt ſumptio antecedentis ad antecedentem, & conſequentis ad conſequentem.
 
 EXPLICAT hic quoſdam modos argumentandi ex pro

@@ -7,6 +7,8 @@
 do, & ultimo æquales ipſi primo: Erit ut ſecundi exceſſus ad primum, ita ultimi exceſſus ad omnes ipſum antecedentes.
 [/Subhead]
 
+[Curated heading level=3 type=incipit: SINT]
+
 SINT quotcunque numeri continue proportionales A, BC, D, EF; & ex BC, ſecundo, & EF, ultimo detrahantur CG, FH, primo A, æquales. Dico eſſe ut BG, ad A, ita EH, ad A, BC, & D, ſimul.
 
 [Diagram: two arrangements of dotted horizontal lines labelled A; B, G, C; D; and E, K, I, H, F]

@@ -27,6 +27,8 @@ NON differt huius problematis praxis ab illa, quam in præcedente problemate tra
 24.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo triangula duo latera duobus lateribus æqualia habuerint, vtrumq; vtriq;,
 
 <!-- Signature: F 4 -->

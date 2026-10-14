@@ -2,7 +2,11 @@
 
 <!-- Page number: 231 -->
 
-#### DATO rectilineo ſimile ſimiliterque poſitum rectilineum deſcribere, maius, uel minus, ſecundum proportionem datam.
+[Curated heading level=4: DATO]
+
+DATO rectilineo ſimile ſimiliterque poſitum rectilineum deſcribere, maius, uel minus, ſecundum proportionem datam.
+
+[Curated heading level=4 type=numbered_item: XIIII.]
 
 [Margin]
 XIIII.

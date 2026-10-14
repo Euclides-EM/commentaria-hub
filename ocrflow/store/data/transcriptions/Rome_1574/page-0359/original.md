@@ -8,6 +8,8 @@
 10.
 [/Margin]
 
+[Curated heading level=3 type=incipit: ISOSCELES]
+
 ISOSCELES triangulũ conſtituere; quod habeat utrumq; eorum, qui ad baſin ſunt, angulorum, duplum reliqui.
 
 [Margin]

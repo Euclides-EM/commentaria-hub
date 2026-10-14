@@ -12,6 +12,8 @@ les; Ac propterea AC, maior, quam DF.
 26.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN æqualibus circulis, anguli, qui æqualibus peripherijs inſiſtũt, ſunt inter ſe æquales, ſiue ad centra, ſiue ad peripherias conſtituti inſiſtant.
 
 IN circulis æqualibus ABC, DEF, quorum centra G, H, inſiſtant primo anguli ad centra AGC, & DHF, æqualibus peripherijs AC, DF; Dico angulos AGC, & DHF, æquales eſſe. Si enim non ſunt æquales, ſit angulus G, maior, fiatque angulus AGI, æqualis angulo DHF. Erunt igitur peripheriæ AI, DF, æquales. Cum igitur peripheria AC, æqualis ponatur peripheriæ DF, erunt peripheriæ AI, AC, inter ſe æquales, pars, & totum; quod eſt abſurdum. Sunt ergo anguli AGC, DHF, æquales.

@@ -29,6 +29,8 @@ QVOD ſi fuerint plures magnitudines tribus, fueritq; earum proportio perturbata
 24.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI prima ad ſecundam eandem habuerit rationem, quam tertia ad quartam; habuerit autem & quinta ad ſecundam eandem rationem, quam ſexta ad quartam: Etiam compoſita prima cum quinta, ad ſecundam eandem habebit rationem, quam tertia cum ſexta, ad quartam.
 
 <!-- Signature: Z 2 -->

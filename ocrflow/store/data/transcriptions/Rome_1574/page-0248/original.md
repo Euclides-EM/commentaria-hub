@@ -25,6 +25,8 @@ VT hoc theorema numeris accommodetur, ſit numerus 10. diuiſus in 7. & 3. Dico 
 
 ## THEOR. 4. PROPOS. 4.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI recta linea ſecta ſit vtcunq;; Quadratum, quod a tota deſcribitur, æquale eſt
 
 <!-- Signature: L 2 -->

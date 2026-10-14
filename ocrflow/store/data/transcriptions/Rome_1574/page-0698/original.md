@@ -9,6 +9,8 @@
 5.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI cubus numerus numerum quendam multiplicans faciat cubum; Et multiplicatus cubus erit.
 
 FIAT ex cubo A, in numerum B, numerus cubus C. Dico & B, cubum eſſe. Multiplicans enim A, ſe ipſum faciat D, qui cubus erit. Quoniam igitur A, multiplicans A, & B, fecit D, & C; erit ut A, ad B, ita D, ad C; At inter D, & C, cubos duo cadunt medij proportionales. Totidem igitur & inter A, & B, cadent; Ac proinde exiſtente A, cubo, & B, cubus erit. Quamobrẽ ſi cubus numerus numerum quendam multiplicans, &c. Quod oſtendendum erat.
@@ -42,6 +44,8 @@ D,64.  C,216.
 
 Ex his & hac, quæ ſequuntur, facile demonſtrabuntur, videlicet.
 
+[Curated heading level=4 type=numbered_item: I.]
+
 [Margin]
 I.
 [/Margin]
@@ -58,6 +62,8 @@ C,160.
 [Margin]
 5. noni.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: II.]
 
 [Margin]
 II.

@@ -14,6 +14,8 @@
 
 *RVRSVS ex his facile demonſtrabimus theorema illud in numeris, quod in magnitudinibus oſtendit Euclides propoſ. 24. lib. 5. Videlicet.*
 
+[Curated heading level=4 type=numbered_item: V.]
+
 [Margin]
 V.
 [/Margin]
@@ -25,6 +27,8 @@ Si primus ad ſecundum eandem habuerit rationem, quam tertius ad quartum; habuer
 [Diagram: rows of dotted lines labelled A, B, G; C; D, E, H; F]
 
 *EODEM modo & hoc Theorema oſtendemus.*
+
+[Curated heading level=4 type=numbered_item: VI.]
 
 [Margin]
 VI.

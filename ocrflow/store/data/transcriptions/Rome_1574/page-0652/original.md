@@ -11,6 +11,8 @@ libus in datis rationibus, ſi ij multiplicentur per quemcunque numerum eundem, 
 5.
 [/Margin]
 
+[Curated heading level=3 type=incipit: PLANI]
+
 PLANI numeri rationem inter ſe habent ex lateribus compoſitam.
 
 SINT duo numeri plani A, B, & latera prioris quæcunque C, D; poſterioris uero E, F. Dico proportionem A, ad B, compoſitam eſſe ex laterum proportionibus, nimirum ex proportionibus C, ad E, & D, ad F; uel ex proportionibus C, ad F; & D, ad E, ita ut latera unius ſint antecedentia, & alterius conſequentia, quemadmodum propos. 23. lib. 6. docuimus. Faciant D, & B, ſe mutuo multiplicantes numerum G. Quoniam igitur D, multiplicans C, & E, fecit A, & G; erit A, ad G, ut C, ad E. Eodemque modo, quia E, multiplicans D, & F, fecit G, & B; erit G, ad B, ut D, ad F. Quare A, G, B, ſunt deinceps proportionales in proportionibus laterum C, ad E, & D, ad F. Componitur autem proportio A, ad B, ex proportionibus A, ad G, & G, ad B. Eadem ergo proportio A, ad B, ex proportionibus laterum C ad E, & D, ad F, componitur.

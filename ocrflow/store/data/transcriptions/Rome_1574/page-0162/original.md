@@ -15,6 +15,8 @@ CONSTAT etiam ex his, In omni triangulo, cuius vnus angulus fuerit rectus, vel o
 
 ## THEOR. 11. PROPOS. 18.
 
+[Curated heading level=3 type=incipit: OMNIS]
+
 OMNIS trianguli maius latus maiorem angulum ſubtendit.
 
 [Margin]

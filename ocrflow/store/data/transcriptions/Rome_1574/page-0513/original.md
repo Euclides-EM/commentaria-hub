@@ -8,7 +8,9 @@ Quare ſimilia ſunt parallelogramma AC, GE: Quod ſi circa eandem diametrum con
 
 SED & abſoluemus cum Peletario ſequens problema.
 
-#### DATIS duobus parallelogrammmis æquiangulis, ſed non ſimilibus : ex quouis illorum alteri ſimile reſecare.
+[Curated heading level=4: DATIS]
+
+DATIS duobus parallelogrammmis æquiangulis, ſed non ſimilibus : ex quouis illorum alteri ſimile reſecare.
 
 DVO parallelogramma æquiangula, ſed non ſimilia, ſint ABCD, CEFG; & ex ABCD, abſcindendum ſit parallelogrammum ipſi CEFG, ſimile. Coniungantur ambo ad angulos æquales BCD, ECG, ita ut ſit una linea recta BCG, & propterea ut ad ppoſ. 15. lib. 1. demõſtratum eſt, ECD, quoq; una recta linea. Deinde ducta diameter FC, producatur, donec in H, ſecet uel latus AD, uel latus AB; & per H, ducatur HI, parallela ipſi AB, vel ipſi AD. Dico parallelogramum abſciſſum HC, ſimile eſſe ipſi CF. Si enim totum parallelogrammum KL, compleatur; erunt HC, CF, circa diametrum; Quare inter ſe ſimilia, vt Euclides demonſtrauit in hac propoſitione.
 

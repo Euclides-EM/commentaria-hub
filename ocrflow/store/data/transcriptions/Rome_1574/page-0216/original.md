@@ -20,6 +20,8 @@ SINT triangula æqualia, ABC, DEF, inter parallelas AD, BF, & ſuper baſes BC, 
 41.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI parallelogrammum cum triangulo eandem baſin habuerit, in eiſdemq́; fuerit parallelis, duplum erit parallelogrammum ipſius trianguli.
 
 INTER parallelas AB, CD, & ſuper baſin CD, conſtituantur parallelogrammum ACDE, & triangulum BCD. Dico parallelogrammum eſſe duplum trianguli BCD. Ducta enim diametro AD, in parallelogrammo, erunt triangula ACD, BCD, æqualia; At parallelogrammum ACDE, duplum eſt trianguli ACD; Igitur & trianguli BCD, duplum erit idẽ parallelogrammũ ACDE. Quamobrem, ſi parallelogrammum cũ triangulo, &c. Quod erat demonſtrãdũ.

@@ -23,6 +23,8 @@ IN omnibus autem his non uariabitur demonſtratio, etiam ſi triangula, & parall
 2.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ad unum trianguli latus parallela ducta fuerit recta quædam linea, hæc proportionaliter ſecabit ipſius trianguli latera. Et ſi trianguli latera proportionaliter ſecta fuerint, quæ ad ſectiones adiuncta fuérit recta linea, erit ad reliquum ipſius trianguli latus parallela.
 
 IN triangulo ABC, ducatur recta DE, parallela lateri BC. Dico latera AB, AC, ſecta eſſe proportionaliter in D, & E, hoc eſt, eſſe ut AD, ad DB, ita AE, ad EC. Ductis enim rectis CD, BE, erunt triangula DEB, DEC, ſuper eandem baſin DE, & inter eaſdem parallelas DE,

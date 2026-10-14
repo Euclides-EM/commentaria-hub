@@ -19,6 +19,8 @@ addita unitate AD, fiet AC, impar. Si ergo ab impari numero par detrahatur, &c. 
 29.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 {dropcap:S|lines=2|style=plain}I impar numerus parem multiplicans fecerit aliquem: Factus par erit.
 
 FIAT ex A, impari in B, parem numerus C. Dico C, parem eſſe. Cum enim C, fiat ex A, in B; componetur C, ex tot numeris ipſi B, æqualibus, quot in A, ſunt unitates. Quare cum B, ſit par,
@@ -48,6 +50,8 @@ EADEM demonſtratione oſtendemus & hoc.
 [Margin]
 30.
 [/Margin]
+
+[Curated heading level=3 type=incipit: SI]
 
 {dropcap:S|lines=2|style=plain}I impar numerus imparẽ numerũ multiplicans fecerit aliquẽ. Factus impar erit.
 

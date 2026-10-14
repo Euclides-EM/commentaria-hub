@@ -22,6 +22,8 @@ ferentia duo puncta vtcunque A, & B, e quibus deſcribantur duo arcus ad idẽ i
 25.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN æqualibus circulis, æquales anguli æqualibus peripherijs inſiſtunt, ſiue ad centra, ſiue ad peripherias conſtituti inſiſtant.
 
 IN circulis æqualibus ABC, DEF, quorũ cẽtra G, H, cõſtituti ſint primo ad cẽtra anguli æquales AGC, DHF. Dico peripherias AC, DF, qb⁹ inſiſtũt, ſiue ſup quas aſcẽderut, eſſe ęquales. Sumantur enim in peripherijs ABC, DEF, duo pũcta B, E, ad q̃ rectę ducant̃ AB, CB, DE, FE, cõnectãturq; rectę AC, DF. Quoniam igitur anguli B, & E, dimidij ſunt ęqualiũ angulorum G, & H; erunt ipſi æquales inter ſe: Quare ex definitione ſegmẽta ABC, DEF, ſimilia erunt.

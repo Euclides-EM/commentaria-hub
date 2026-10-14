@@ -13,6 +13,8 @@ NAM primi ordinis numeri omnes ſemper unum intermittunt poſt tertium ab unitat
 9.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ab unitate quotcunque numeri deinceps proportionales fuerint, qui uero poſt vnitatem ſit quadratus; Et reliqui omnes quadrati erunt. At ſi qui poſt vnitatem, ſit cubus; & reliqui omnes cubi erunt.
 
 SINT ab unitate cõtinue proportionales numeri quotcunque A, B, C, D, E, F, ſitque primum A, proximus unita-

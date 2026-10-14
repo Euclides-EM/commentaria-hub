@@ -20,6 +20,8 @@ PRIMVM vero membrum perſpicue & aperte oſtendunt. Nam ſi tres numeri deinceps
 
 ## THEOR. 18. PROPOS. 20.
 
+[Curated heading level=3 type=incipit: PRIMI]
+
 PRIMI numeri plures ſunt, omni propoſita multitudine primorum numerorũ.
 
 SINT propoſiti primi numeri quotcunque A, B, C. Dico ipſis A, B, C, plures eſſe primos numeros. Sumpto enim numero DE, minimo, quem A, B, C, metiantur; apponatur ei vnitas EF. Aut ergo totus DF, primus eſt, aut non primus. ſit primum primus. Sunt ergo primi numeri A, B, C, & DF, plures propoſita multitudine A, B, C.

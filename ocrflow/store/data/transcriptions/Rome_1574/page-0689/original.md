@@ -10,6 +10,8 @@ cubus ſit, ex conſtructione, cubus quoque erit D.
 
 ## THEOR. 22. PROPOS. 24.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo numeri rationem habeant inter ſe, quam quadratus numerus ad quadratũ numerum, primus autem ſit quadratus; & ſecundus quadratus erit.
 
 SIT A, ad B, ut C, quadratus ad quadratum D; ſitque A, quadratus. Dico & B, eſſe quadratum. Cum enim ſit A, ad B, ut C, ad D; cadat autem inter C, & D, quadratos unus medius proportionalis, nempe E; cadet quoque inter A, & B, medius unus, qui ſit F. Quia igitur tres numeri ſunt continue proportionales A, F, B; & A, primus eſt quadratus; erit & B, tertius, quadratus. Quare ſi duo numeri rationem habeant inter ſe, quam quadratus numerus ad quadratum numerum, &c. Quod erat oſtendendum.
@@ -50,6 +52,8 @@ LIQVET ex his, proportionem cuiusuis numeri quadrati ad quemlibet numerum non qu
 [Curated heading level=2 type=campanus: 23]
 
 ## THEOR. 23. PROPOS. 25.
+
+[Curated heading level=3 type=incipit: SI]
 
 SI duo numeri rationem inter ſe habeant, quam cubus numerus ad cubum nu-
 

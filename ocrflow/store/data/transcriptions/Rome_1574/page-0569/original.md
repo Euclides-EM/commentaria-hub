@@ -6,9 +6,13 @@ QVÆ cum ita ſint, perſpicuum eſt, tum demum quatuor numeros dici proportiona
 
 ### XXV.
 
+[Curated heading level=4 type=incipit: TERMINI]
+
 TERMINI, ſiue radices proportionis dicuntur duo numeri, quibus in eadem proportione minores ſumi nequeunt.
 
 ### XXVI.
+
+[Curated heading level=4 type=incipit: CVM]
 
 CVM tres numeri proportionales fuerint; Primus ad tertium, duplicatam rationem habere dicitur eius, quam habet ad ſecundum. At cum quatuor numeri proportionales fuerint; Primus ad quartum, triplicatam rationem habere dicitur eius, quã habet ad ſecundum: Et ſemper deinceps uno amplius, quamdiu proportio extiterit.
 

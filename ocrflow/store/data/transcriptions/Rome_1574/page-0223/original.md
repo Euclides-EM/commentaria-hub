@@ -14,6 +14,8 @@
 44.
 [/Margin]
 
+[Curated heading level=3 type=incipit: AD]
+
 AD datam rectam lineam, dato triangulo æquale parallelogrammum applicare, in dato angulo rectilineo.
 
 DATA recta linea ſit A, datum triangulum B, & datus angulus rectilineus C. oportet igitur conſtituere parallelogrammum ęquale triangulo B, angulum habens ęqualem angulo C, & vnum latus æquale rectæ A. Cõſtituatur triangulo B, æquale parallelogrãmũ DEFG, habens angulũ EFG, angulo C, æqualem, producaturq́; GF, ad H, vt FH, ſit æqualis rectæ A; & per H, ducatur HI, parallela ipſi FE, occurrens DE, productæ in I. Extendatur deinde ex I, per F, diameter IF, occurrens rectę DG, productæ in K; & per K, ducatur KL, parallela ipſi GH, ſecans IH, protractam in L, producaturq́; EF, ad M. Dico parallelogrammum LMFH, eſſe id, quod quæritur; Habet enim latus FH, ęquale datæ rectæ A. & angulum HFM, angulo dato C, æqualẽ, cum angulus HFM, æqualis ſit angulo EFG, qui factus eſt æqualis angulo C: Deniq́; parallelogràmmum LMFH, æquale eſt triangulo B, cũ æquale ſit cõplemento DEFG, qd̃ factũ eſt æquale triangulo B. Ad datã igitur rectã lineam dato triangulo, &c. Quod erat faciendum.

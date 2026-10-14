@@ -7,6 +7,8 @@ A, multiplex: Diuiſo ergo BC, in partes BE, EC, ipſi A, æquales, & ipſo CD, 
 
 ### XI.
 
+[Curated heading level=4 type=incipit: NVMERVS]
+
 NVMERVS quemcunque numerũ metiens, metitur quoque omnem numerum, quem ille metitur.
 
 METIATVR numerus A, numerum B; & B, numerum CD. Dico eundem A, metiri quoque numerum CD, quẽ B, metitur. Cum enim B, metiatur ipſum CD; erit CD, ipſius B, multiplex. Diuiſo ergo CD, in partes CE, ED, ipſi B, æquales; metietur A, ipſos numeros CE, ED; quandoquidem numerum B, tam numero CE, quam ED, æqualem, metiri ponitur. Igitur idem A, per pron. 10. metietur quoque numerum CD, ex CE, ED, compoſitum. Quod eſt propoſitum.
@@ -14,6 +16,8 @@ METIATVR numerus A, numerum B; & B, numerum CD. Dico eundem A, metiri quoque num
 [Diagram: three horizontal dotted lines labelled A, B, and C, E, D]
 
 ### XII.
+
+[Curated heading level=4 type=incipit: NVMERVS]
 
 NVMERVS metiens totum & ablatum, metitur & reliquum.
 

@@ -5,6 +5,8 @@
 
 ## THEOR. 18. PROPOS. 27.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI in duas rectas lineas recta incidens linea alternatim angulos æquales inter ſe fecerit: parallelæ erũt inter ſe illæ rectæ lineæ.
 
 [Margin]

@@ -34,9 +34,15 @@ METIATVR impar A, parem B, per C. Dico C, parem eſſe. Nam ſi impar erit; B, f
 
 METIATVR impar A, imparem B, per C. Dico C, imparem eſſe. Si enim ſit par; erit B, factus ex A, impari in C, pariter par. Quod eſt abſurdum, cùm impar ponatur. Erit ergo C, impar.
 
+[Margin]
+33.
+[/Margin]
+
+[Curated heading level=2 type=campanus: 33]
+
 ## THEOR. 28. PROPOS. 30.
 
-33.
+[Curated heading level=3 type=incipit: SI]
 
 {dropcap:S|lines=2|style=plain}I impar numerus parem numerũ metiatur; & illius dimidium metietur.
 

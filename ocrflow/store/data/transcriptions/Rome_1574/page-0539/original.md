@@ -22,6 +22,8 @@ ALITER. Sit rurſus inter rectilinea A, & B, perquirendum mediũ proportionale. 
 
 QVOD etiam in hunc modum confirmari poteſt. Cum DF, GI, ſimilia ſint, ſimiliterq́ue poſita, conſiſtent ea circa eandem diametrum. Quare complementa EK, EL, æqualia erunt. Vt autem DF, ad EK, ita eſt EL, ad GI, eo quod vtraque proportio eadem ſit proportioni DE, ad EI. Igitur erit, vt DF, ad EK, ita EK, ad GI.
 
+[Curated heading level=4 type=numbered_item: V.]
+
 [Margin]
 26. ſexti.
 
@@ -30,7 +32,9 @@ QVOD etiam in hunc modum confirmari poteſt. Cum DF, GI, ſimilia ſint, ſimili
 V.
 [/Margin]
 
-#### DATO rectilineo duo rectilinea æqualia cõſtituere, quæ ſimilia ſint, ſimiliterque deſcripta cuicunque rectilineo, habeantque inter ſe proportionem propoſitam quamcunque.
+[Curated heading level=4: DATO]
+
+DATO rectilineo duo rectilinea æqualia cõſtituere, quæ ſimilia ſint, ſimiliterque deſcripta cuicunque rectilineo, habeantque inter ſe proportionem propoſitam quamcunque.
 
 SIT datum rectilineũ A, dataq́; proportio rectæ B, ad C, oporteatq́; conſtituere duo rectilinea, quæ ipſi A, æqualia ſint, habeantq́; proportionem, quam B, & C; ac ſimilia ſimiliterque poſita ſint rectilineo cuiuis D. Conſtituatur rectilineum EFGH, æquale ipſi A, & ſimile ſimiliterq́ue poſitum ipſi D. Diuiſa
 

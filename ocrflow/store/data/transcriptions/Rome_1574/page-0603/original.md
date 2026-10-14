@@ -14,6 +14,8 @@ HOC idem demonſtratum fuit ab Euclide lib. 5. de proportionibus magnitudinum, p
 
 ## THEOR. 13. PROPOS. 15.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI unitas numerum quempiam metiatur, æque autem alter numerus alterũ quẽdam numerum metiatur: Et uiciſſim æque unitas tertium numerum metietur, & ſecundus quartum.
 
 METIATVR unitas A, numerum B C, & numerus D, numerum E F, æque. Dico uiciſſim unitatem A, numerum D, & numerum B C, numerum E F, æque metiri. Diuiſo enim numero B C, in unitates B G, G H, H C, & numero E F, in partes E I, I K,

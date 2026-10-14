@@ -12,6 +12,8 @@ unitas tertij numeri eadẽ pars, quæ ſecundus numerus quarti; id, quod eodem 
 10.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI numerus numeri partes fuerit, & alter alterius eædem partes: Et uiciſſim, quæ partes eſt primus tertij, aut pars, eædem partes erit & ſecundus quarti, aut pars.
 
 SIT numerus AB, eædem partes numeri C, quę numerus DE, numeri F, ſintque AB, C, ipſis DE, F, minores, ſinguli ſingulis. Dico & uiciſſim, numerum AB, eaſdem partes eſſe, aut partem numeri DE, quæ numerus C, eſt numeri F. Diuiſis enim numeris AB, DE, in partes AG, GB, & DH, HE, numerorum C, & F; erit multitudo partiũ in AB, æqualis multitudini partium in DE, & tam AG, quam GB, eadem pars ipſius C, quæ tam DH, quam HE, ipſius F. Viciſſim ergo eadem pars erit, aut partes AG, ipſius DH, & GB, ipſius HE. quæ C, ipſius F: Ac propterea eadẽ pars erit, uel partes AG, ipſius DH, quæ GB, ipſius HE. Igitur & uterque AG, GB, ſimul, nimirum primus AB, eadem pars erit, aut partes utriuſque DH, HE, ſimul, nimirum DE, tertij, quæ AG, ipſius DH, hoc eſt, quæ C, ſecundus quarti F. Si numerus ergo numeri partes fuerit, & alter alterius, &c. Quod demonſtrandum erat.

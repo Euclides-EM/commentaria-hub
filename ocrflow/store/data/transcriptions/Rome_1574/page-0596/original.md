@@ -13,6 +13,8 @@ IAM uero ſit CD, ipſius AB, & CF, ipſius AE, eadem partes. Dico e contrario A
 13.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint quotcunque numeri proportio-
 
 <!-- Catchword: nales, -->

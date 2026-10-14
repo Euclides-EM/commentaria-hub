@@ -15,4 +15,6 @@ QVINQVE autem prædictis definitionibus Euclidis addendam eſſe cenſemus ſequ
 
 ### VI.
 
+[Curated heading level=4 type=incipit: PARALLELOGRAMMVM]
+
 PARALLELOGRAMMVM ſecundum aliquam rectam lineam applicatũ, deficere dicitur parallelogrammo, quando non occupat totam lineam. Excedere uero, quando occupat maiorem lineam, quã

@@ -32,6 +32,8 @@ EX poſteriori huius theorematis parte efficitur, quamlibet rectam lineam eſſe
 19.
 [/Margin]
 
+[Curated heading level=3 type=incipit: A DATA]
+
 A DATA recta linea dato rectilineo ſimile ſimiliterq́; poſitum rectilineum deſcribere.
 
 SIT data recta A B, ſuper quam deſcribendum ſit re

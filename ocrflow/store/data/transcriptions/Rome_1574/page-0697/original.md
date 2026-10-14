@@ -49,6 +49,8 @@ B,64.  Vnitas.
 4.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI cubus numerus cubum numerum multiplicans faciat aliquem; Factus cubus erit.
 
 FIAT ex cubo A, in cubum B, numerus C. Dico C, cubum eſſe. Multiplicans enim A, ſe ipſum faciat D; eritq; D, cubus. Quoniam uero A, multiplicans A, & B, fecit D, & C; erit ut A, ad B, ita D ad C. At inter A, & B, cubos duo medij proportionales cadunt. Igitur & inter D, & C, duo medij proportionales cadent; Ac propterea D, exiſtente cubo, & C, cubus erit. Quo circa ſi cubus numerus cubum numerum multiplicans, &c. Quod erat oſtendendum.

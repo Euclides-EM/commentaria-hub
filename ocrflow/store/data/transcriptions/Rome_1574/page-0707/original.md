@@ -30,6 +30,8 @@ HINC rurſus efficitur, quemlibet numerum, qui ſe ipſum multiplicet, producere
 
 ## THEOR. 12. PROPOS. 12.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ab unitate quotcunque numeri deinceps proportionales fuerint; quicunque pri-
 
 <!-- Catchword: morum -->

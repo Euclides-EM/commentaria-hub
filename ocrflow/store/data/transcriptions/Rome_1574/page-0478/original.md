@@ -15,6 +15,8 @@ OSTENSVM eſt enim, eſſe ut BD, ad DA, ita DA, ad DC; ac propterea DA, eſſe 
 11.
 [/Margin]
 
+[Curated heading level=3 type=incipit: A DATA]
+
 A DATA recta linea imperatam par tem auferre.
 
 IMPERETVR, ut ex linea AB, auferamus partem tertiam. Ex A, ducatur recta AC, utcunque faciens angulum CAB; & ex AC, abſcindantur tot partes æquales cuiuslibet magnitudinis, quota pars detrahenda eſt ex AB, ut in propoſito exemplo tres AD, DE, EF. Deinde ex F, ad B, recta ducatur FB, cui per D, parallela agatur DG. Dico AG, eſſe partem tertiam imperatam. Nam cum in triangulo ABF, lateri FB, parallela ſit recta DG; erit ut FD, ad DA, ita BG, ad GA; componendo igitur, ut FA, ad DA, ita BA, ad GA: ſed FA, ipſius AD, eſt tripla ex conſtructione; Igitur & BA ipſius AG, erit tripla, ideoque AG, erit tertia pars ipſius AB, quæ imperabatur. A data ergo recta linea imperatam partem abſtulimus. Quod faciendum erat.

@@ -6,6 +6,8 @@ bifariam ſecari a diametro, perſpicuum ex eo eſſe poteſt, quod diameter per
 
 ### XVIII.
 
+[Curated heading level=4 type=incipit: SEMICIRCVLVS]
+
 SEMICIRCVLVS vero eſt figura, quæ continetur ſub diametro, & ſub ea linea, quæ de circuli peripheria aufertur.
 
 EXEMPLI gratia, in ſuperiori circulo figura A D B, contenta ſub diametro A B, & peripheria A D B, dicitur ſemicirculus, quia, vt in præcedenti definitione oſtendimus, ea eſt dimidiata pars circuli. Eadem ratione erit figura A E B, ſemicirculus. Idem autem punctum C, diametrum ſecans bifariam, centrum eſt in circulo, & in ſemicirculo.

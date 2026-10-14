@@ -26,6 +26,8 @@ erit & HN, ſic multiplex ſecundæ CB, ut LO, multiplex eſt quartæ FE. Itaque
 
 ## THEOR. 18. PROPOS. 18.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI diuiſæ magnitudines ſint proportio-
 
 <!-- Catchword: nales, -->

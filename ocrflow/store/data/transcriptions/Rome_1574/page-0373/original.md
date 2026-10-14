@@ -8,6 +8,8 @@ DVPLEX autém eſt pars apud Mathematicos: Quædã metitur ſuum totum, ita ut a
 
 ### II.
 
+[Curated heading level=4 type=incipit: MVLTIPLEX]
+
 MVLTIPLEX autem eſt maior minoris, cum minor metitur maiorem.
 
 VT in ſuperiori exemplo tam magnitudo B, quam magnitudo C, multiplex eſt magnitudinis A; quoniam hæc utramq; illam metitur. At uero neque magnitudo E, neque magnitudo F, multiplex eſt dicenda magnitudinis D; propterea quod hæc neutram illarum metiatur. Itaque pars ad multiplex re

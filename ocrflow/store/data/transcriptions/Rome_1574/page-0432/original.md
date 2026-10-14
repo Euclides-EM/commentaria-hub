@@ -28,6 +28,8 @@ SIT enim ut A, prima ad B, ſecundam, ita C, tertia ad D, quartam. Dico, ſi A, 
 17.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI compoſitæ magnitudines proportionales fuerint, hæ quoque diuiſæ proportio nales erunt.
 
 SINT compoſitæ magnitudines AB, CB, & DE, FE, ꝓportionales, hoc eſt, AB, ad CB, ut DE, ad FE. Dico & diuiſas eaſdem proportionales eſſe, hoc eſt, ut eſt AC, ad CB, ita eſſe DF, ad FE. Ipſarum enim AC, CB, DF, FE, æque multiplices capiãtur eodem ordine GH, HI, KL, LM, eritque GI, ita multiplex ipſius AB, ut eſt GH, ipſius AC,

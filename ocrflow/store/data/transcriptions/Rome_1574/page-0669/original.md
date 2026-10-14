@@ -21,6 +21,8 @@ PARI ratione liquet, numerum medium proportionalem E, & utrumlibet quadratorum A
 11.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DVORVM]
+
 DVORVM cuborum numerorum duo medij proportionales ſunt numeri: Et
 
 <!-- Catchword: cubus -->

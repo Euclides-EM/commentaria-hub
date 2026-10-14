@@ -9,6 +9,8 @@ SI in circulo ABCD, cuius centrum E, rectæ AE, CE, conſtituant angulum AEC, ad
 
 ### X.
 
+[Curated heading level=4 type=incipit: SIMILIA]
+
 SIMILIA circuli ſegmenta ſunt, quæ angulos capiunt æquales: Aut in quibus anguli inter ſe ſunt æquales.
 
 [Diagram: circle with inscribed figures, B and C at top, A at left, D and E at right, F at bottom]

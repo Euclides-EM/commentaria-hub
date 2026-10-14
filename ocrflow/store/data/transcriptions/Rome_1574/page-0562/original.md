@@ -7,6 +7,8 @@ DEFINIT autem & hic Euclides tantum numerum ſolidum rectangulum, cuius baſes o
 
 ### XVIII.
 
+[Curated heading level=4 type=incipit: QVADRATVS]
+
 QVADRATVS numerus eſt, qui æqualiter æqualis. Vel qui ſub duobus æqualibus numeris continetur.
 
 PLANVM illum numerum, qui æqualiter æqualis eſt, hoc eſt, qui ſecundum vnitates ſuas in longum & latum diſpoſitas, refert parallelogrammum rectangulum, cuius longitudo latitudini eſt æqualis, ita vt omnia latera ſint æqualia, vel qui ex multiplicatione mutua duorum numerorum æqualium procreatur, atque adeo ſub illis continetur, vocat quadratum. Huiuſmodi eſt numerus 25. contentus ſub numeris æqualibus 5. & 5. hoc eſt, ex eorum mutua multiplicatione genitus. Nam ſi eius unitates in formã planam redigantur, referet perfectum quadratum Geometricum, in omnibus lateribus habens quinque vnitates, ideoque æqualiter æqualis erit.

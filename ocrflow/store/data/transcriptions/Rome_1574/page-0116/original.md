@@ -7,6 +7,8 @@ PORRO in his omnibus pronunciatis, primo exceptò, nomine æqualium quantitatum 
 
 ### VI.
 
+[Curated heading level=4 type=incipit: ET]
+
 ET quæ eiuſdem duplicia ſunt, inter ſe ſunt æqualia.
 
 SIMILITER, quæ eiuſdem ſunt triplicia, vel quadruplicia, vel quincuplicia &c. inter ſe ſunt æqualia. Si enim inæqualia forent, & maius eorum eſſet duplex, vel triplex &c. alicuius quantitatis, deficeret vtiq; minus a duplici, vel triplici, &c. Quod ſi cõtra, minus eſſet duplex, vel triplex, &c. quantitatis cuiuſpiam, excederet ſane maius duplex ipſum, vel triplex, &c. Hoc autem & ex ſecundo axiomate compro-

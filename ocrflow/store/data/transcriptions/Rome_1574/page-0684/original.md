@@ -28,6 +28,8 @@ DVO exempla appoſuimus, in quorum priori liquido conſtat, vnitatem E, eſſe p
 
 ## THEOR. 21{printer-error-correction:20}. PROPOS. 22.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI tres numeri deinceps ſint proportio
 
 <!-- Signature: Pp 4 -->

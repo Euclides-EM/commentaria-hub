@@ -25,6 +25,8 @@ ALITER. Si E C, non eſt perpendicularis ad A B, erit alter angulorũ Ad C, obtu
 
 ## THEOR. 17. PROPOS. 19.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI circulum tetigerit recta quæpiam linea, a cõtactu autem recta linea ad angulos rectos ipſi tangenti excitetur: In excitata erit centrum circuli.
 
 TANGAT recta A B, circulum C D E, in C; & ex C, ducatur C E, perpendicularis ad A B. Dico in C E, eſſe centrum circuli. Si enim eſt extra C E, ſit F, centrum, a quo ad C, ducatur recta F C, quæ perpendicularis erit ad A B. Quare rectus angulus F C B, recto angulo E C B, æqualis erit, pars toti: quod eſt abſurdũ. Nõ igitur extra C E, cẽtrũ circuli exiſtet. Itaq́ſ ſi circulũ tetigerit recta quæpiam linea, &c. Quod erat demõſtrandũ.
@@ -42,6 +44,8 @@ TANGAT recta A B, circulum C D E, in C; & ex C, ducatur C E, perpendicularis ad 
 [Curated heading level=2 type=campanus: 19]
 
 ## THEOR. 18. PROPOS. 20.
+
+[Curated heading level=3 type=incipit: IN]
 
 IN circulo, angulus ad centrum duplex eſt anguli ad peripheriam, cum fuerit eadem peripheria baſis angulorum.
 

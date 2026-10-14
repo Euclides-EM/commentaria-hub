@@ -16,6 +16,8 @@ ut G, toties metiatur ipſum A, quoties unitas eſt in D; & ipſum B, toties, qu
 
 ## THEOR. 23. PROPOS. 25.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo numeri primi inter ſe fuerint; Qui unum eorum metitur numerus, ad reliquum primus erit.
 
 SINT inter ſe primi A, & B; & ipſum A, metiatur numerus C. Dico C, ad reliquum B, eſſe primum. Si enim nõ ſunt inter ſe primi B, & C; metiatur eos communi menſura, ſi fieri poteſt, numerus D. Quoniam igitur D, metitur C; & C, ipſum A; metietur etiam D, ipſum A: Metitur autem & ipſum B. Igitur A, & B, non ſunt inter ſe primi, cum habeant menſuram communem, numerum D. Quod eſt abſurdum, & contra hypotheſim. Eſt ergo C, ad B, primus. Eodem modo, ſi numerus quiſpiam metiatur ipſum B, erit is ad A, primus. Quapropter ſi duo numeri primi inter ſe fuerint, &c. Quod erat demõſtrandum.

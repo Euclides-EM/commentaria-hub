@@ -9,6 +9,8 @@
 
 ### I.
 
+[Curated heading level=4 type=incipit: SIMILES]
+
 SIMILES figuræ rectilineæ ſunt, quæ & angulos ſingulos ſingulis æquales habẽt, atque etiam latera, quæ circum angulos æquales, proportionalia.
 
 {dropcap:V|lines=6|style=decorated|decoration="woodcut initial with figures"}T triangula ABC, DEF, ſimilia dicentur, ſi fuerint æquiangula, ita ut angulus A, angulo D; & B, ipſi E; & C, ipſi F, æqualis ſit; Itẽ latera circa æquales angulos proportionalia, hoc eſt, vt AB, ad AC, ita DE, ad DF; & ut AB, ad BC, ita DE, ad EF, & ut AC, ad CB, ita DF, ad FE.

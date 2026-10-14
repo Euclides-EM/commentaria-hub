@@ -5,11 +5,15 @@ ECONTRARIO, Quæ inter ſe ſunt æqualia, ſibi mutuo congruent. ſi alterum al
 
 ### IX.
 
+[Curated heading level=4 type=incipit: ET]
+
 ET totum ſua parte maius eſt.
 
 CVM pars a toto ablata relinquat adhuc aliquid, ne totum ipſum auferatur; perſpicuum eſt, omne totum ſua eſſe parte maius.
 
 ### X.
+
+[Curated heading level=4 type=incipit: ITEM]
 
 ITEM, omnes anguli recti ſunt inter ſe æquales.
 

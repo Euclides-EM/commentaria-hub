@@ -13,6 +13,8 @@ Ex his perſpicuum eſt, cur Euclides in propos. 24. ſolum collegerit inæquali
 38.
 [/Margin]
 
+[Curated heading level=3 type=incipit: TRIANGVLA]
+
 TRIANGVLA ſuper æqualibus baſibus conſtituta, & in eiſdem parallelis, inter ſe ſunt æqualia.
 
 INTER parallelas AB, CD, & ſuper æquales baſes CE, FD, ſint conſtituta triangula ACE, BFD. Dico ipſa eſſe æqualia. Ducatur.n. EG, parallela ipſi AC, & DH, ipſi BF; Eruntq́; parallelogramma ACEG, BFDH, æqualia. Cum igitur horum dimidia ſint triangula ACE, BFD; erunt hæc inter intr{printer-error-correction:inter} ſe æqualia. Triangula ergo ſuper æqualibus baſibus, &c. Quod erat oſtendendum.

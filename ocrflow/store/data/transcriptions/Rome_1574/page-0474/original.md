@@ -24,6 +24,8 @@ FD; erit ut EF, ad FG, ita eadē EF, ad FD; ideoque æquales erunt FG, FD. Itaqu
 
 ## THEOR. 6. PROPOS. 6.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo triangula unum angulum uni angulo æqualem, & circum æquales angulos latera proportionalia habuerint: æquiangula erunt triangula, æqualesque habebunt angulos, ſub quibus homologa latera ſubtenduntur.
 
 SIT angulus B, trianguli ABC, æqualis angulo E, trianguli DEF, ſintque latera AB, BC, proportionalia lateribus DE, EF, hoc eſt, ſit AB, ad BC, ut DE, ad EF. Dico reliquos angulos reliquis angulis æquales eſſe, angulū ſcilicet A, angulo D, & angulum C, angulo F; Ita enim ęquales anguli homologa latera reſpiciunt. Fiat angulo B, æqualis angulus FEG; & angulo C, angulus EFG; eritque, ut in præcedenti propos. dictum eſt, triangulum GEF, triangulo ABC, æquiangulum. Quare ut AB, ad BC, ita GE, ad EF; ſed ut AB, ad BC, ita ponitur DE, ad EF; igitur ut DE, ad EF, ita GE, ad eandem EF; ac idcirco DE, GE, æquales erunt. Itaque cum latera DE,

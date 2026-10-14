@@ -11,6 +11,8 @@ DH. Item ex A, & C, quouis alio interuallo, uel etiam, ſi placet, eodem, alij d
 6.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN dato circulo quadratum deſcribere.
 
 SIT in dato circulo ABCD, cuius centrum E, inſcribendum quadratum. Ducantur duæ diametri AC, BD, ſecantes ſeſe ad angulos rectos in centro E, & iungantur rectæ AB, BC, CD, DA. Dico ABCD, eſſe quadratum inſcriptum in dato circulo. Nam quia latera EA, EB, trianguli AEB, æqualia ſunt lateribus EC, EB, trianguli CEB, cum omnia ſint ex centro; & anguli contenti ſunt recti; erũt baſes AB, BC, æquales. Eadem ratione æquales erunt rectæ BC, CD; Item rectæ CD, DA; Et rectæ DA, AB. Omnia igitur latera quadrilateri ABCD, æqualia inter ſe ſunt. Sunt autem & anguli recti, cum omnes in ſemicirculis exiſtant. Quare quadratum erit ABCD; proptereaque in dato circulo quadratum deſcripſimus. Quod erat faciendum.
@@ -32,6 +34,8 @@ SIT in dato circulo ABCD, cuius centrum E, inſcribendum quadratum. Ducantur du�
 [Margin]
 7.
 [/Margin]
+
+[Curated heading level=3 type=incipit: CIRCA]
 
 CIRCA datum circulum quadratum deſcribere.
 

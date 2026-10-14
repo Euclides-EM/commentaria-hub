@@ -16,6 +16,8 @@ Eadem ratione poſſunt ex A, & B, infra A B, baſim trianguli A B C, hoc eſt a
 
 ## THEOR. 5. PROPOS. 8.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo triangula duo latera habuerint duobus lateribus, vtrumque vtrique, æqualia, habuerint vero & baſim baſi æqualem: Angulum quoque ſub æqualibus rectis lineis contentum angulo æqualem habebũt.
 
 SINT duo latera A B, A C, trianguli A B C, duobus lateribus D E, D F, trianguli D E F, æqualia, utrumque vtrique, nempe A B, ipſi D E, & A C, ipſi D F; ſit autem & baſis B C, baſi E F, æqualis. Dico angulum A, æqualem eſſe angulo D, quorum uidelicet vterque dictis lateribus cõtinetur.

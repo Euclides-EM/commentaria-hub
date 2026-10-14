@@ -20,6 +20,8 @@ DEMONSTRAT hoc in loco Federicus Commandinus nonnulla alia ad compoſitionem pro
 
 TRIANGVLA, quæ unum angulum uni angulo æqualem habent, proportionem habent ex lateribus æqualem angulum comprehendentibus compoſitam.
 
+[Curated heading level=4 type=numbered_item: I.]
+
 [Margin]
 I.
 [/Margin]

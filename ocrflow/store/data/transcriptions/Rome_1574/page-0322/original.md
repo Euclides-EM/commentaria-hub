@@ -11,6 +11,8 @@ trũ, erit tã angulus BDE, ad cẽtrũ duplus anguli BAE, ad circunferentiã, q
 20.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN circulo, qui in eodem ſegmento ſunt, anguli, ſunt inter ſe æquales.
 
 IN circulo ABCD, cuius centrum E, exiſtãt anguli A, & B, in ſegmento DABC; Dico eos eſſe æquales. Sit enim primo ſegmentum DABC, ſemicirculo maius; & ducantur rectæ DE, CE, ad centrũ E. Quoniam igitur angulus DEC, ad centrum, duplus eſt tam anguli DAC, quam DBC, ad peripheriã, cũ omnes habeant eandẽ baſin DC; erunt anguli A, & B, dimidiatæ partes anguli E. Quare inter ſe æquales erunt. Eadẽq; ratione oẽs alij anguli exiſtentes in ſegmento DABC, oſtendent̃ eſſe æquales.

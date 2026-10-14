@@ -20,6 +20,8 @@ I, recta IK, lateri CD, parallela, & ſic deinceps, donec omnia latera ſuas hab
 
 ## THEOR. 13. PROPOS. 19.
 
+[Curated heading level=3 type=incipit: SIMILIA]
+
 SIMILIA triangula inter ſe ſunt in duplicata ratione laterum homologorum.
 
 [Margin]

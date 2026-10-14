@@ -29,6 +29,8 @@ IN quadrilatero enim ABCD, ſint anguli oppoſiti A, & C; Item B, & D, duobus re
 22.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SVPER]
+
 SVPER eadem recta linea, duo ſegmenta circulorum ſimilia, & inæqualia, nõ conſtituentur ad eaſdem partes.
 
 <!-- Signature: S 1 -->

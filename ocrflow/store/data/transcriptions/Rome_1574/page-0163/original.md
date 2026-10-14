@@ -10,6 +10,8 @@ erit angulus C, angulo A, quandoquidem & latus A B, latere B C, maius ponitur. S
 
 ## THEOR. 12. PROPOS. 19.
 
+[Curated heading level=3 type=incipit: OMNIS]
+
 OMNIS trianguli maior angulus maiori lateri ſubtenditur.
 
 [Figure: triangle with apex A, base points B, C]

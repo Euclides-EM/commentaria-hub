@@ -32,6 +32,8 @@ nor eſt ſemper angulo D E F; cum angulus D E G, (qui æqualis eſt, per 4. pro
 
 ## THEOR. 16. PROPOS. 25.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo triangula duo latera duobus lateribus æqualia habuerint, vtrunque vtrique, baſin vero baſi maiorem: Et angulum ſub æqualibus rectis lineis contentum angulo maiorem habebunt.
 
 DVO latera A B, A C, trianguli A B C, æqualia ſint duobus

@@ -9,6 +9,8 @@ cta D, E, F, donec circulum contingat in A; Hoc conceſſo, manifeſtum eſt, qu
 
 ## PROBL. 2. PROPOS. 17.
 
+[Curated heading level=3 type=incipit: A DATO]
+
 A DATO puncto rectam lineam du cere, quæ datum tangat circulum.
 
 [Margin]

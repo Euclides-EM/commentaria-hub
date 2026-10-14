@@ -21,6 +21,8 @@ METIATVR iam C, latus latus D. Dico & quadratum A, quadratum B, metiri. Eodem en
 14.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI cubus numerus cubum numerum metiatur; & latus unius metietur latus alterius. Et ſi latus unius cubi latus alterius metiatur; & cubus cubum metietur.
 
 METIATVR cubus A, cuius latus C, cubum B, cuius latus D. Dico & latus C, metiri latus D. Vterque C, & D, ſe ipſum multiplicans faciat E, & F; multiplicantes autem ſe mutuo faciant G: Multiplicantes denique G, faciant H, I. Quoniam igitur, ut apparet ex demonſtratione propos. 12. huius lib. tam E, G, F, quam A, H, I, B, continue ſunt proportionales in ratione C, ad D; Metitur autem A, primus B, extremum; metietur quoque idem A, primus H, ſecundum. Cum ergo ſit, ut A, ad H, ita C, ad D; metietur & C, latus latus D.

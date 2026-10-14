@@ -2,6 +2,8 @@
 
 ### XI.
 
+[Curated heading level=4 type=incipit: OBTVSVS]
+
 OBTVSVS angulus eſt, qui recto maior eſt.
 
 [Diagram: oblique line AB inclined upon horizontal line, with label A above and C, B, D along the horizontal line]
@@ -9,6 +11,8 @@ OBTVSVS angulus eſt, qui recto maior eſt.
 QVANDO recta AB, rectæ CD, inſiſtens non fecerit angulos ad punctum B, æquales, & ob eam cauſam neutrum rectum, ſed vnum quidem recto maiorem, alterum vero minorem, dicitur maior angulus obtuſus, qualis eſt angulus B, ad punctum C, vergens, qui continetur rectis lineis AB, BC.
 
 ### XII.
+
+[Curated heading level=4 type=incipit: ACVTVS]
 
 ACVTVS vero, qui minor eſt recto.
 

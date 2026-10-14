@@ -11,6 +11,8 @@ igitur duorum triangulorum & baſes, & anguli, nec non triãgula ipſa æqualia 
 5.
 [/Margin]
 
+[Curated heading level=3 type=incipit: ISOSCELIVM]
+
 ISOSCELIVM triangulorum, qui ad baſim ſunt, anguli inter ſe ſunt æquales: Et productis æqualibus rectis lineis, qui ſub baſi ſunt, anguli inter ſe æquales erunt.
 
 [Figure: isosceles triangle with apex A and base B C, sides produced beyond the base to points D and E, with crossing lines from B and C to F and D]

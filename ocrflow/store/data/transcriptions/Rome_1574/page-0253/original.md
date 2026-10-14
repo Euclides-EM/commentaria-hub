@@ -27,6 +27,8 @@ IDEM in numeris eſt manifeſtum: Diuidatur enim numerus 10 æqualiter in 5. & 5
 6.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI Recta linea bifariam ſecetur, & illi recta quædam linea in rectum adijciatur; rectangulum comprehenſum ſub tota cum adiecta, & adiecta, vna cum quadrato a dimidia, æquale eſt quadrato a linea, quæ tũ ex dimidia, tum ex adiecta componitur, tanquam ab vna, deſcripto.
 
 <!-- Catchword: SECE- -->

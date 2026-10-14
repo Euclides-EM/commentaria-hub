@@ -10,6 +10,8 @@ A,4.  B,20.
 C,80.
 [/Calculation]
 
+[Curated heading level=4 type=numbered_item: IIII.]
+
 [Margin]
 IIII.
 [/Margin]
@@ -30,6 +32,8 @@ C,180.
 [Margin]
 3.
 [/Margin]
+
+[Curated heading level=3 type=incipit: SI]
 
 SI cubus numerus ſeipſum multiplicãs procreet aliquem; Productus cubus erit.
 

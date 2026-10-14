@@ -12,6 +12,8 @@
 
 ## THEOR. 33. PROPOS. 33.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI fuerit maior proportio totius ad totum, quam ablati ad ablatum: Erit & reliqui ad reliquum maior proportio, quam totius ad totum.
 
 SIT maior proportio totius A B, ad totam C D, quã ablatæ A E, ad ablatam C F. Dico & proportionem reliquæ E B ad reliquam F D, maiorem eſſe, quam totius AB, ad totam CD. Cum enim maior ſit proportio AB, ad CD, quam A E, ad C F, erit quoque permutando maior proportio A B, ad A E, quã CD, ad C F; ac propterea, per conuerſionem rationis, minor erit proportio A B, ad E B, quã C D, ad F D. Permutando igitur, minor quoque erit proportio A B, ad C D, quam E B, ad F D; hoc eſt, E B, reliqua ad reliquam F D, maiorem habebit proportionem, quam tota A B, ad totam C D. quod eſt propoſitum.
@@ -33,6 +35,8 @@ SIT maior proportio totius A B, ad totam C D, quã ablatæ A E, ad ablatam C F. 
 [Curated heading level=2 type=campanus: 34]
 
 ## THEOR. 34. PROPOS. 34.
+
+[Curated heading level=3 type=incipit: SI]
 
 SI ſint quotcunq; magnitudines, & aliæ ipſis æquales numero, ſitq́; maior proportio primæ priorum ad primam poſteriorũ,
 

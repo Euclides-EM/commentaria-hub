@@ -6,6 +6,8 @@ Sumpto enim numero D, qui dictæ parti AC, æqualis ſit; erit ex 1. theorem. nu
 [Calculation]
 [/Calculation]
 
+[Curated heading level=5 type=numbered_item: IIII.]
+
 [Margin]
 IIII.
 [/Margin]
@@ -16,6 +18,8 @@ SIT numerus AB, diuiſus in AC, CB. Dico numerum quadratum ex AB, factum æquale
 
 [Calculation]
 [/Calculation]
+
+[Curated heading level=5 type=numbered_item: V.]
 
 [Margin]
 V.

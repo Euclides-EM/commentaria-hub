@@ -24,6 +24,8 @@ deſcribendum quadratum. Ducantur duæ diametri AC, BD, ſecantes ſe in E, cent
 8.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN dato quadrato circulum deſcribere.
 
 SIT in dato quadrato ABCD, inſcribendus circulus. Diuiſis lateribus bifariam in E, F, G, H, ducantur rectæ EG, FH, ſecantes ſe in I. Quoniam igitur AD, BC, rectæ æquales ſunt, & parallelæ, erunt & dimidiæ earum AH, BF, æquales, & parallelæ. Quare & AB, parallela eſt, & æqualis ipſi FH. Eadem ratione erit DC, parallela, & æqualis eidem FH: Itemque rectæ AD, BC, parallelæ erunt, & æquales ipſi EG. Sunt igitur parallelogramma AI, IB, CI, ID, ideoque rectæ IE, IF IG, IH, æquales erunt rectis AH, EB, DH, AE; ſunt autem hæ inter, ſe æquales, cum ſint dimidiæ æqualium AD, AB, &c. Quare & rectæ IE, IF,

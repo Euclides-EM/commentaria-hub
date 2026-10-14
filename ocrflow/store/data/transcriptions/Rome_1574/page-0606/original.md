@@ -19,6 +19,8 @@ NVMERVS enim A, multiplicans numeros B, C, faciat D, E. Dico eſſe, ut B, ad C,
 19.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo numeri numerum quempiã multiplicantes, fecerint aliquos: Geniti ex ipſis eandem rationem habebunt, quam multiplicantes.
 
 NVMERI A, & B, multiplicantes numerum C, faciant D, & E. Dico eſſe ut A, ad B, ita D, ad E. Cum enim ex A, in C, fiat D; fiet quoque idem D, ex C, in A. Eademque ratione, cũ ex B, in C, fiat E; fiet idem E, ex C, in B. Quia igitur idem C, multiplicãs ipſos A, & B, facit D, & E; erit, ut A, ad B, ita D, ad E. Si duo ergo numeri numerum quempiam multiplicantes, fecerint aliquos, &c. Quod erat demonſtrandum.

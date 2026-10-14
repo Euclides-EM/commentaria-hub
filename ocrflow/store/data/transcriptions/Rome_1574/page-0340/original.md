@@ -27,6 +27,8 @@ EODEM modo, ſi angulus BCE, æqualis fuerit angulo CDE, in alterno ſegmento mi
 
 ## PROBL. 5. PROPOS. 33.
 
+[Curated heading level=3 type=incipit: SVPER]
+
 SVPER data recta linea deſcribere ſegmentum circuli, quod capiat angulum æqualem dato angulo rectilineo.
 
 [Margin]

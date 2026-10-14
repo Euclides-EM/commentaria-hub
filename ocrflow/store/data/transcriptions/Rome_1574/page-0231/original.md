@@ -4,6 +4,8 @@ tribuitur Platoni, quæ talis eſt. Accipiatur numerus quicunque par, nempe 6; E
 
 COLLIGVNTVR ex celeberrimo hoc Pythagoræ inuento plurima ſcitu non iniucunda tam theoremata, quã problemata, e quibus viſum eſt ea duntaxat in medium proferre, quæ vtilitatem magnam rebus Geometricis allatura creduntur, initium hinc ſumentes.
 
+[Curated heading level=4 type=numbered_item: I.]
+
 [Margin]
 I.
 [/Margin]
@@ -18,6 +20,8 @@ SI in quadrato quouis diameter ducatur, quadratum a diametro deſcriptum duplũ 
 
 IN quadrato ABCD, ducatur diameter A C; Dico quadratum A C, duplum eſſe quadrati ABCD. Cum enim in triangulo ABC, angulus B rectus ſit, erit quadratum lateris A C, æquale duobus quadratis laterum AB, BC. Cum igitur quadrata linearũ AB, BC, æqualia ſint, quod lineæ AB, BC, ſint æquales; erit quadratum lineæ A C, duplum cuiuslibet illorum, vt quadrati lineæ AB, hoc eſt, quadrati ABCD. Quod eſt propoſitum.
 
+[Curated heading level=4 type=numbered_item: II.]
+
 [Margin]
 II.
 [/Margin]
@@ -31,6 +35,8 @@ QVADRATVM diametri figuræ altera parte longioris æquale eſt duobus quadratis 
 [Figure: rectangle ABCD with diagonal drawn from A to C]
 
 IN altera parte longiori ABCD, ducatur diameter A C; & quia in triangulo ABC, angulus B, eſt rectus, erit quadratũ lateris AC, æquale duob⁹ quadratis laterũ inæqualiũ AB BC. Quod eſt propoſitũ.
+
+[Curated heading level=4 type=numbered_item: III.]
 
 [Margin]
 III.

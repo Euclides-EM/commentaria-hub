@@ -23,6 +23,8 @@ EX quo conſtat modus argumentandi, quo frequentiſſime vtuntur Geometræ, maxi
 5.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI magnitudo magnitudinis æque fuerit multiplex, atque ablata ablatæ: Etiam reliqua reliquæ ita multiplex erit, ut tota totius.
 
 ITA multiplex ſit tota AB, totius CD, ut eſt multiplex AE, ablata ablatę CF: Dico rel quam EB, ita eſſe multipticem{printer-error-correction:multiplicem} reliquæ CD, ut eſt tota AB, totius CD. Ponatur enim EB, ita multiplex cuiuſpiam magnitudinis uidelicet

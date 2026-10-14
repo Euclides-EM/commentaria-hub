@@ -23,6 +23,8 @@ SI aliquando ex CD, ablata fuerit unitas CF; uel reliqua ſit unitas FD: vel den
 8.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI numerus numeri partes fuerit, quales ablatus ablati: Et reliquus reliqui eædem partes erit, quales totus totius.
 
 SIT numerus AB, partes eædem numeri CD, quæ ablatus AE, ablati CF. Dico reliquũ EB, eaſdem eſſe partes reliqui FD, quæ totus AB, totius CD. Sumpto enim numero GH, æquali ipſi AB; erit

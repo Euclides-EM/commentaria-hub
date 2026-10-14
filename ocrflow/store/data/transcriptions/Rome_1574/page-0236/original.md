@@ -23,6 +23,8 @@ PAPPVS cõſtruit figurã aliter. Nam ſumit rectas AC, AE; et AB, AG, in direct
 47.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI quadratũ, quod ab uno laterũ trianguli deſcribitur, æquale ſit eis, quæ a reliq́s trianguli lateribus deſcribuntur, quadratis: Angulus comprehenſus ſub reliquis duobus trianguli lateribus, rectus eſt.
 
 DETVR triangulum ABC, ſitq́; quadratũ lateris AC, æquale quadratis reliquorũ laterũ BA, BC: Dico angulũ ABC, eſſe rectũ. Ducat̃ namq́; BD, perpendicularis ad BA, & æqualis rectæ BC, connectaturq́; recta AD. Quoniã igitur in triãgulo ABD, angulus ABD, rectus eſt, erit quadratum rectæ AD, æquale quadratis rectarũ BA, BD: Eſt autẽ quadratũ rectæ BD, quadrato rectæ BC, æquale, ob linearũ æquali

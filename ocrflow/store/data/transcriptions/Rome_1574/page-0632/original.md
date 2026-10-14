@@ -26,6 +26,8 @@ HOC autem corollarium apud Campanum eſt propoſitio 35. huius libri ſeptimi; E
 35.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo numeri numerum quempiã me
 
 <!-- Signature: Mm 2 -->

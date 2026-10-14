@@ -8,6 +8,8 @@ perſpicuum erat, reliquum EB, alicuius numeri eandem eſſe partem, quæ eſt A
 
 ## THEOR. 7. PROPOS. 9.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI numerus numeri pars fuerit, & alter alterius eadem pars: Et uiciſſim, quæ pars eſt, aut partes primus tertij, eadẽ pars erit, uel eædem partes & ſecundus quarti.
 
 [Margin]

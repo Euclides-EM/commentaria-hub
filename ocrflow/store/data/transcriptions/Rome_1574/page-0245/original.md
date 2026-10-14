@@ -12,6 +12,8 @@ RVRSVS, ſi ijdem numeri ſecentur vtcunque, prior quidem in 3. 7. poſterior au
 
 ## THEOR. 2. PROPOS. 2.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI recta linea ſecta ſit utcunque, Rectangula, quæ ſub tota, & quolibet ſegmentorum comprehenduntur, æqualia ſunt ei, quod a tota ſit, quadrato.
 
 RECTA linea AB, diuidatur utcunque in C, duas in partes; Dico duo rectangula comprehenſa ſub tota AB, & ſegmentis AC, CB, ſimul ſumpta, æqualia eſſe quadrato totius lineæ AB. Deſcribatur enim AD, quadratum lineæ AB, & ex C, ducatur CF parallela rectæ AE, vel BD, quæ æqualis erit rectæ AE, hoc eſt, rectæ AB. Quoniam igitur recta AE, æqualis eſt rectæ AB, ex definitione quadrati, erit rectangulum AF, comprehenſum ſub tota AB, & ſegmento AC; ſimiliter erit rectangulum CD, comprehenſum ſub AB, & ſegmento CB. Quare cum rectanguli AF, CD, æqualia ſint quadrato AD, perſpicuum eſt rectangula comprehenſa ſub AB, & ſegmentis AC, CB, æqualia eſſe quadrato lineæ AB. Si igitur recta linea ſecta ſit utcunque, &c. Quod demonſtrandum erat.

@@ -6,6 +6,8 @@ VT quia numerus 6. metitur numerum 18. per 3. metitur & numerus 3. eundem numeru
 
 ### IX.
 
+[Curated heading level=4 type=incipit: SI]
+
 SI numerus numerum metiens, multiplicet eum, per quẽ metitur, uel ab eo multiplicetur, illum quem metitur, producet.
 
 METIATVR enim numerus A, numerum C, per B. Dico A, multiplicantem ipſum B, uel multiplicatum a B, producere ipſum C. Nam numerus A, numerum C, metiri dicitur per eum numerum, quem multiplicans, vel a quo multiplicatus, ipſum C, producit, per defin. 23. Cum ergo A, metiri ponatur ipſum C, per B; perſpicuum eſt, numerum A, multiplicantem ipſum B, vel ab eo multiplicatum, producere ipſum C.
@@ -13,6 +15,8 @@ METIATVR enim numerus A, numerum C, per B. Dico A, multiplicantem ipſum B, uel 
 [Diagram: three horizontal dotted lines labelled A, B and C]
 
 ### X.
+
+[Curated heading level=4 type=incipit: NVMERVS]
 
 NVMERVS quotcunque numeros metiens, compoſitum quoque ex ipſis metitur.
 

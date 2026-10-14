@@ -5,6 +5,8 @@ vel minore exiſtentes; aut omnes tres inæquales; erit omne triãgulum vel æqu
 
 ### XXVI.
 
+[Curated heading level=4 type=incipit: AD]
+
 AD hæc etiam, trilaterarum figurarum, Rectangulum quidem triangulum eſt, quod rectum angulum habet.
 
 NVNC exponit triangulorum ſpecies iuxta poſteriorem diuiſionem, habita ratione varietatis angulorum. Quia vero tria tantummodo ſunt angulorum rectilineorum genera diuerſa; (Omnis enim angulus rectilineus vel eſt rectus. vel obtuſus, vel acutus, vt ſupra diximus.) fit vt tres quoq́; ſpecies triangulorum ſub hac conſideratione reperiantur. Nam aut vnus angulus trianguli eſt rectus, & ob eam rem reliqui acuti, vt ex 17. propos. 1. lib. conſtabit; aut obtuſus, & ob eandem cauſam reliqui acuti; aut deniq́; nullus rectus. nulluſq́; obtuſus, ſed omnes acuti. Quando igitur triangulum aliquod habet angulum vnum rectum, vocatur ab Euclide, & alijs Geometris Rectangulum. Poteſt autem triangulum huiuſmodi eſſe; vel Iſoſceles, vel ſcalenum, vt hæ figuræ indicant; AEquilaterum autem nulla ratione. Propter æqualitatem enim laterum eſſent per ea, quæ propos. 5. dicemus, omnes etiam anguli æquales, ideoq́;, cum vnus concedatur rectus, omnes tres recti, quod pugnat cum propos. 17. & 32. huius libri.
@@ -12,6 +14,8 @@ NVNC exponit triangulorum ſpecies iuxta poſteriorem diuiſionem, habita ration
 [Figure: two right triangles]
 
 ### XXVII.
+
+[Curated heading level=4 type=incipit: AMBLYGONIVM]
 
 AMBLYGONIVM autem, quod
 

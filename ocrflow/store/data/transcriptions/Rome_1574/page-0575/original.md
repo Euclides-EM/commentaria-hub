@@ -6,6 +6,8 @@ ipſius A, multiplex. Diuiſo ergo tam BC, quàm BD, in partes ipſi A, æquales
 
 ## THEOR. 1. PROPOS. 1.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duobus numeris inæqualibus propoſitis, detrahatur ſemper minor de maiore, alterna quadam detractione, neq; reliquus unquã metiatur præcedentẽ, quoad aſſumpta ſit unitas; qui principio propoſiti ſunt numeri, primi inter ſe erunt.
 
 SINT duo numeri propoſiti inæquales AB, CD, quorum CD, minor ex maiore AB, quoties poteſt, detrahatur: & reliquus EB, ex CD, quoties etiam poteſt; & reliquus FD, ex EB: Et in hac alterna detractione nunquam numerus reliquus præcedentem, a quo fuit detractus, metiatur, donec ad unitatẽ GB, quæ quidem præcedentẽ numerum FD, metitur, detractio perueniat. Dico numeros AB, CD, eſſe inter ſe primos; hoc eſt ſolam unitatem communi menſura eos metiri. Si enim non dicantur inter ſe primi, metietur eos aliquis numerus, qui ſit H, communi menſura, præter unitatem. Quia ergo H, metitur numerum CD; & CD, numerũ AE, (quod CD, uel pars ſit ipſius AE, uel certe ei æqualis, cum detractus ex AB, reliquerit numerum EB,) metietur quoque H, ipſum AE: At H, metitur quoque totum

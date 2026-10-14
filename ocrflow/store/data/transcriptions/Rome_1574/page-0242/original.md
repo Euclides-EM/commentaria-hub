@@ -11,6 +11,8 @@ bus complementis BG, GD, Gnomon appellabitur.
 1.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI fuerint duæ rectæ lineæ, ſeceturque ipſarum altera in quotcunque ſegmenta: Rectangulum comprehenſum ſub illis duabus rectis lineis, æquale eſt eis, quæ ſub inſecta, & quolibet ſegmentorum comprehenduntur, rectangulis.
 
 SINT duæ rectæ A, & BC. quarum BC, ſecetur quomodocunque in quotlibet ſegmenta BD, DE, EC: Dico rectangulum ſub A, & BC, comprehenſum æquale eſſe omnibus rectangulis ſimul ſumptis, quæ ſub linea indiuiſa A, & quolibet ſegmento comprehenduntur, nempe rectangulo ſub A, & BD; Item ſub A, & DE; Item ſub A, & EC, comprehenſo.

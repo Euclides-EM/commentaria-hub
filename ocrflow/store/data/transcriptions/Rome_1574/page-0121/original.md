@@ -6,6 +6,8 @@ HVIC duodenario numero Axiomatum ab Euclide poſitorum adiungemus nos nonnulla a
 
 ### XIII.
 
+[Curated heading level=4 type=incipit: DVAE]
+
 DVAE lineæ rectæ non habent vnum & idem ſegmentum commune.
 
 NON eſt difficile iſtud Axioma, ſi perfecte intelligatur natura rectæ lineæ. Cum enim linea recta directo ſemper itinere, nullam in partem deflectendo, producatur. fieri nulla ratione poteſt, vt duæ lineæ rectæ habeant vnam partem, quamuis minimam, communem, præter vnicum punctum, in quo ſe mutuo interſecant. Quod tamen breuiter Proclus ita demonſtrat. Habeant, ſi fieri poteſt, duæ rectæ AB, AC, partem communem AD. Ex centro autem D, & interuallo DA, deſcribatur circulus ſecans duas rectas propoſitas in punctis B, & C; Erunt igitur duæ circunferentiæ AB, ABC, inter ſe æquales, (Sunt enim circunferentiæ ſemicirculorum æqualium, cum ADB, ADC, ponantur eſſe diametri) pars & totum, quod eſt abſurdum. Non ergo duæ rectæ habent vnum & idem ſegmentum commune. Quod eſt propoſitum.

@@ -9,6 +9,8 @@ TRIANGVLVM amblygonium, ſiue obtuſangulum eſſe [illegible: 1 word] poteſt v
 
 ### XXVIII.
 
+[Curated heading level=4 type=incipit: OXYGONIVM]
+
 OXYGONIVM vero, quod tres habet acutos angulos.
 
 OMNE triangulum Oxygonium, ſiue acutangulum, poteſt eſſe vel æquilaterum, vel Iſoſceles, vel ſcalenum, vt cernere licet in triangulis, quæ in ſpeciebus prioris diuiſionis ſpectanda exhibuimus, ne eadem hic fruſtra repetantur. Ex dictis igitur palam fit, triangulum quodcunq; æquilaterum, eſſe neceſſario Oxygonium: At omne triangulum tam Iſoſceles, quam Scalenum, eſſe vel rectangulum, vel amblygonium, vel Oxygonium; Vt vnica ſit ſpecies trianguli æquilateri tres vero tam Iſoſcelis, quam Scaleni: atq; in vniuerſum ſeptem triangulorum genera, æquilaterum, quod perpetuo Oxygonium eſſe diximus, Iſoſceles rectangulum, Iſoceles amblygonium. Iſoſceles oxygonium, ſcalenum rectangulum, ſcalenum amblygonium, & ſcalenum oxygonium. Quæ etiam hiſce licebit nominibus immutatis appellare, Rectangulum Iſoſceles, Rectangulum Scalenum, Amblygonium Iſoſceles, Amblygonium Scalenum, Oxygonium æquilaterum, Oxygonium Iſoſceles, & Oxygonium Scalenum. Quare perſpicuum eſt, quamnam connexionem, ſiue affinitatem habeant inter ſe triangula vtriuſq; partitionis. In omni porro triangulo, cuius duo quæcunq; latera expreſſe nominantur, ſolet reliquum latus tertium a Mathematicis appellari Baſis, ſiue illud in ſitu infimum occupet locum, ſiue ſupremum &c. Hoc te breuiter

@@ -14,6 +14,8 @@ RECTE vero ab Euclide altitudo figuræ cuiusuis definita eſt per lineam perpend
 
 ### V.
 
+[Curated heading level=4 type=incipit: RATIO]
+
 RATIO ex rationibus componi dicitur, cum rationum quantitates inter ſe multiplicatæ, aliquam effecerint rationem.
 
 QVONIAM denominator cuiuslibet proportionis exprimit, quanta ſit magnitudo antecedens ad conſequentem; (ut denominator quadruplæ proportionis, nempe 4. oſtendit, in quauis proportione quadrupla antecedentem magnitudinem quater continere conſequentem; denominator vero propotionis{printer-error-correction:proportionis}

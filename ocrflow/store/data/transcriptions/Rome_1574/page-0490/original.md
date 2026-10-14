@@ -11,6 +11,8 @@ DBE. Aequalium igitur, & unum uni æqualem habentium angulum, &c. Quod oſtenden
 15.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI quatuor rectæ lineæ proportionales fuerint: quod ſub extremis comprehenditur rectangulum, æquale eſt ei, quod ſub medijs comprehenditur, rectangulo. Et ſi ſub extremis comprehenſum rectangulum æquale fuerit ei, quod ſub medijs continetur, rectangulo: illæ quatuor rectæ lineæ proportionales erunt.
 
 SINT quatuor rectæ proportionales AB, FG, EF, BC, ut quidem AB, ad FG, ita EF, ad BC: Sitque rectangulum ABCD, comprehenſum ſub extremis AB, BC; rectangulum uero EFGH, comprehenſum ſub medijs EF, FG. Dico rectangula AC, EG, eſſe æqualia. Cũ enim anguli recti B. & F, ſint æquales, & ſit ut AB, ad FG, ita EF, ad BC; erunt latera circa æquales angulos B, & F, reciproca. Quare parallelogrãma AC, EG, æqualia erunt. Quod eſt propoſitum.

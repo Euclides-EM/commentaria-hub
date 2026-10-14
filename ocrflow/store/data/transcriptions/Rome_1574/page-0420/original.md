@@ -9,6 +9,8 @@
 6.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI, duæ magnitudines duarum magnitudinum ſint æque multiplices, & detractæ quædam ſint earundem æque multiplices: & reliquæ eiſdẽ aut æquales ſunt, aut æque ipſarum multiplices.
 
 SINT AB, CD, æque multiplices ipſarum E, F; & detractæ AG, CH, earundem E, F, æque multiplices. Dico reliquas GB, HD, aut eſſe æquales eiſdem E, F, aut certe earundem æque multiplices. Cum enim AB, ſit multiplex ipſius E, & ablata quoque AG; erit reliqua GB, uel æqualis ipſi E, uel eius multiplex, alias inęqualis, uel non multiplex magnitudo addita multiplici, componeret multiplicem, quod eſt abſurdum. Sit igitur primum GB, æqualis ipſi E; Dico etiam HD, ipſi F, eſſe æqualem. Ponatur enim CI, æqualis ipſi F. Et quia prima AG, tam eſt multiplex ſecundæ E, quam CH, tertia quartæ F; & quinta GB, æqualis eſt ſecundæ E, ſicut & CI, ſexta æqualis eſt quartę F; erit AB, prima cum quinta, ita multiplex ſecundæ E, ut HI, tertia cum ſexta, quartæ F; Atqui CD, ipſius F, erat quoque tam multiplex quã AB, ipſius E; Aeque multiplices igitur ſunt HI, CD, ipſius F; Ideoque æquales inter ſe. Quare dempta CH, communi, remanebunt CI, HD, æquales. Cum igitur CI, poſita ſit æqualis ipſi F, erit quoque HD, eidem F, æqualis. quod eſt propoſitum.

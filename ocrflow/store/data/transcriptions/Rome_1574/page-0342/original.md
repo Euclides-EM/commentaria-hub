@@ -9,6 +9,8 @@
 34.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI in circulo duæ rectæ lineæ ſe ſe mutuo ſecuerint, rectangulum comprehenſum ſub ſegmentis unius, æquale eſt ei, quod ſub ſegmentis alterius comprehenditur, rectangulo.
 
 IN circulo ACBD, ſecent ſe mutuo rectæ AB, CD, in E; Dico rectangulum comprehenſum ſub ſegmentis AE, EB, æquale eſſe rectangulo comprehenſo ſub ſegmentis CE, ED. Aut enim utraque linea tranſit per centrum, aut una tantum, aut neutra. Tranſeat primo utraque per cẽtrum. Quoniam igitur omnia quatuor ſegmenta inter ſe æqualia ſunt, perſpicuum eſt, rectangulum comprehenſum ſub duobus, æquale eſſe ei, quod ſub reliquis duobus comprehenditur, rectangulo.

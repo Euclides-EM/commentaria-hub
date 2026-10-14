@@ -7,6 +7,8 @@ DE, ipſius HI; & EB, ipſius IK, pars erit a C, denominata, nempe eadem quæ AB
 4. pron.
 [/Margin]
 
+[Curated heading level=5 type=numbered_item: II.]
+
 [Margin]
 II.
 [/Margin]
@@ -24,6 +26,8 @@ IDEM demonſtrabitur, ſi AB, in plures partes, quam in duas ſecetur, vt ex app
 E . . . . . . . .
 A . . . C . . . D . . B
 [/Calculation]
+
+[Curated heading level=5 type=numbered_item: III.]
 
 [Margin]
 III.

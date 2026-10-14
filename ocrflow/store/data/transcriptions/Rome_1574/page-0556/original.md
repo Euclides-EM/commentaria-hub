@@ -5,11 +5,15 @@ clidis inſtituto, vt perſpicuum eſt & ex definitionibus traditis, in quibus n
 
 ### X.
 
+[Curated heading level=4 type=incipit: IMPARITER]
+
 IMPARITER vero impar numerus eſt, quem impar numerus metitur per numerum imparem.
 
 VT hic numerus impar 15. impariter impar dicitur, quoniam numerus impar 3. eum metitur per 5. numerum imparẽ. Sic quoque hi numeri impares 9. 21. 25. 27. 33. 35. 39. 135. 2025. & alij infiniti, impariter impares nominantur.
 
 ### XI.
+
+[Curated heading level=4 type=incipit: PRIMVS]
 
 PRIMVS numerus eſt, quem unitas ſola metitur.
 

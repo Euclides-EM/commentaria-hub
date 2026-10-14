@@ -15,6 +15,8 @@ Quoniã igitur ex defin. B, ad F, proportionẽ habet duplicatam eius, quã habe
 
 HOC idem demonſtrabimus, ſi fuerint duo ordines numerorum continue proportionalium, ab aliquo numero eodem incipientes. Vnde hoc idem theorema ita proponemus.
 
+[Curated heading level=4 type=numbered_item: II.]
+
 [Margin]
 II.
 [/Margin]

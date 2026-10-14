@@ -38,6 +38,8 @@ PATET etiam ex his, proportionem cuiusuis numeri cubi ad quemlibet numerum non c
 24.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SIMILES]
+
 SIMILES plani numeri rationem inter ſe habent, quam quadratus numerus ad quadratum numerum.
 
 SINT plani ſimiles A, & B. Dico eſſe ut A, ad B, ita aliquem numerum quadratum ad alium quendam quadratũ. Cum enim A, & B, ſint plani ſimiles cadet inter eos unus medius proportionalis, uidelicet C. Sumptis ergo tribus numeris D, E, F, minimis in ratione continua A, C, B; erunt ex-

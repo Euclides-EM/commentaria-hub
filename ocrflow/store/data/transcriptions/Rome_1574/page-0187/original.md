@@ -22,6 +22,8 @@ inter ſe ſunt parallelæ; Vel certe vnam, & eandem lineam conſtituunt, quando
 
 ## PROBL. 10. PROPOS. 31.
 
+[Curated heading level=3 type=incipit: A DATO]
+
 A DATO puncto, datæ rectæ lineæ parallelam rectam lineam ducere.
 
 EX puncto A, ducenda ſit linea parallela lineæ B C. Ducatur ex A, ad B C, linea A D, vtcunq; faciens angulum quemcunq; A D B; Cui ad A, æqualis conſtituatur E A D. Dico igitur rectã E A, extenſam ad F, quantumlibet, parallelam eſſe ipſi B C. Cum enim anguli alterni A D B, D A E, æquales ſint, per conſtructionẽ; Erunt rectæ B C, E F, parallelæ. A dato, igitur puncto, datæ rectæ lineæ, &c. Quod erat faciendum.

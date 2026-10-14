@@ -10,6 +10,8 @@
 
 ## THEOR. 18. PROPOS. 20.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI tres numeri proportionales fuerint; qui ſub extremis continetur, æqualis eſt ei, qui a medio efficitur: Et ſi, qui ſub extremis continetur, æqualis fuerit ei, qui a medio deſcribitur; ipſi tres numeri proportionales erunt.
 
 SINT tres numeri proportionales A, B, C, ut quidẽ A, ad B, ita B, ad C. Dico numerum qui fit ex A, primo in C, tertium, æqualem eſſe ei, qui ex B, medio procreatur. Sumpto enim D, qui ipſi B, ſit æqualis, erit ut B, ad C, hoc eſt, ut A, ad B, ita D, ad C; numerusque genitus ex B, in D, æqualis erit ei, qui ex B, in ſe procreatur. Quia igitur quatuor numeri A, B, D, C, proportionales ſunt, erit numerus factus ex A, in C, æqualis ei, qui fit ex B, in D, hoc eſt, ei, qui ex B, in ſe producitur.

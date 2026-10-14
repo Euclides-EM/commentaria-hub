@@ -22,6 +22,8 @@ MVLTIPLICET enim A, ipſum B, faciatque C. Dico eundem C, gigni, ſi B, ipſum A
 18.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI numerus duos numeros multiplicans, fecerit aliquos; Geniti ex ipſis eandem ra-
 
 <!-- Catchword: tionem -->

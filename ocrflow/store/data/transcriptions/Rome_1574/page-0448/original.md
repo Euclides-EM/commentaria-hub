@@ -29,6 +29,8 @@ NON diſſimili ratione oſtẽdemus, ſi compoſita prima cum ſecunda minorem 
 
 ## THEOR. 31. PROPOS. 31.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint tres magnitudines, & aliæ ipſis æquales numero, ſitq́; maior proportio primæ priorum ad ſecundam, quam primæ poſteriorum ad ſecundam; Item ſecundæ priorum ad tertiam maior, quam ſecundæ poſteriorum ad tertiam: Erit quoque ex æqualitate maior proportio primæ priorum ad tertiã, quam primæ poſteriorum ad tertiã.
 
 [Margin]

@@ -11,10 +11,6 @@ DICVNTVR autem rectilinea ſuper lineas rectas deſcripta, eſſe ſimilia & ſi
 
 [Figure: rectangles labelled A, B, C, D, E, F, G, H, I, K]
 
-[Margin]
-17.
-[/Margin]
-
 Omnes autem figuræ ſecundum conſtractionem huius problematis deſcriptæ, ſunt neceſſario ſimiliter poſitæ, ut patet in rectilineis ABHIK, CDEFG, ſuper lineas AB, & CD, deſcriptis. Item omnes æquilateræ figuræ, & æquiangulæ, ſunt quoque poſitæ ſimiliter.
 
 FORTASSIS autem expeditius Problema propoſitum conficiemus ad hunc modum. Sit dato rectilineo ABCDEF, ſuper datam rectam G, deſcribendum ſimile rectilineum, ſimiliterque poſitum. Productis duobus lateribus AB, AF, circa angulum A, educantur ex A, per omnes alios angulos rectæ AC, AD, AE, quantumlibet. Deinde ex AB, abſcindatur AH, æqualis datæ rectæ G, uel certe ex ipſa AB, ulterius producta, ſi uidelicet G, fuerit maior, quam AB. Poſt hæc per H, agatur recta HI, lateri BC, parallela, & per I, recta

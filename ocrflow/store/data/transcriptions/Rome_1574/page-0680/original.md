@@ -14,6 +14,8 @@ Ex qua demonſtratione etiã manifeſtum relinquitur, priorum duorum numerorum A
 18.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DVORVM]
+
 DVORVM ſimilium ſolidorum numerorum duo medij proportionales ſunt numeri: Et ſolidus ad ſolidum triplicatam rationem habet lateris homologi ad latus homologum.
 
 SINT ſolidi numeri ſimiles A, B, & latera illius ſint C, D, E, huius uero illis proportionalia F, G, H, ita ut ſit C, ad D, quemadmodum F, ad G; & D, ad E, ſicut G, ad H. Dico inter A, & B, cadere duos medios proportionales, & proportionem A, ad B, eſſe triplicatam eius, quam habent latera homologa C, F, uel D, G, uel E, H. Multiplicantes ſe mutuo C, D, faciant I; & F, G, ſe mutuo multiplicantes faciant K. Item D, F, ſe mutuo multiplicantes faciant L. Poſtremo E, H, ipſum L, multiplicantes faciant M, N. Q uia igitur C, D, E, ipſis F, G, H, proportionales ſunt; erunt & permutando proportionales, nimirum ut C, ad F, ita D, ad G, & E, ad H. Q uoniam uero D, multiplicans C, & F, fecit I, & L; erit ut C, ad F, ita I, ad L. Simili modo, quia F, multiplicans D, & G, fecit L, & K; erit quoque ut D, ad G, ita L, ad K. Sunt ergo I, L, K, continue proportionales in ratione C, ad F, uel D, ad G, uel E, ad H. Et quoniam A, ſolidus factus eſt ex mutua multiplicatione la

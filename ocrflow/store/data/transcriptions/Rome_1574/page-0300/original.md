@@ -22,6 +22,8 @@ RVRSVS diſtent rectæ AB, CD, æqualiter a centro E; Dico eas inter ſe eſſe 
 14.
 [/Margin]
 
+[Curated heading level=3 type=incipit: IN]
+
 IN circulo maxima quidẽ linea eſt diameter; aliarum autem propinquior centro, remotiore ſemper maior.
 
 IN circulo ABCDEF, cuius centrũ G, diameter ſit AF; & recta ei propinquior HI, remotior autem CD. Dico omnium eſſe maximam AF; & HI, maiorem, quam CD. Ducantur enim ex G, centro rectæ GK, GL, perpendiculares ad CD, HI. Et quia remotior eſt CD, a cẽtro, quã HI, erit GK, maior quã GL, per 4. defin. huius lib. Abſcindat ex GK, recta GM, ipſi GL, æqualis, atq; per M, educatur BME, perpendicularis ad GK, & cõnectantur rectæ GB, GC, GD, GE. Qm̃ igitur rectæ ꝑpendiculares GM, GL, æquales ſunt, æqualiter diſtabũt rectæ BE, HI, a centro, per 4 defin. huius lib. & ideo inter ſe æquales erunt. Rurſus quia rectæ GB, GE, maiores quidem

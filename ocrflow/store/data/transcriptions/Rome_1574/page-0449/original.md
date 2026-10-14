@@ -34,6 +34,8 @@ QVOD ſi plures fuerint magnitudines tribus, oſtendemus maiorem vel minorem quo
 
 ## THEOR. 32. PROPOS. 32.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint tres magnitudines, & aliæ ipſis æquales numero, ſitq́; maior proportio primæ priorum ad ſecundam, quam ſecundæ
 
 <!-- Catchword: poſte- -->

@@ -3,6 +3,8 @@
 
 ### XXXI.
 
+[Curated heading level=4 type=incipit: RHOMBVS]
+
 RHOMBVS autem, quæ æquilatera, ſed rectangula non eſt.
 
 [Figure: rhombus labelled A, B, C, D]
@@ -11,6 +13,8 @@ HAEC figura tertia inter quadrilateras, quæ Rhombus dicitur, oppoſitas prorſu
 
 ### XXXII.
 
+[Curated heading level=4 type=incipit: RHOMBOIDES]
+
 RHOMBOIDES vero, quæ aduerſa & latera, & angulos habens inter ſe æquales, neque æquilatera eſt, neq; rectangula.
 
 [Figure: rhomboid labelled A, B, C, D]
@@ -18,6 +22,8 @@ RHOMBOIDES vero, quæ aduerſa & latera, & angulos habens inter ſe æquales, ne
 EST hæc figura, quæ Rhomboides vocatur, quadrato omni ex parte oppoſita. Nam neq; eius latera omnia æqualia ſunt, neq; vllus angulus rectus, ſed tamen latera bina oppoſita, qualia ſunt A B, D C, & A D, B C, in Rhomboide A B C D, æqualia inter ſe, item anguli bini oppoſiti, quales ſunt A, C, & B, D, inter ſe exiſtunt æquales. Hæ igitur quatuor figuræ quadrilateræ dici poſſunt regulares; cæteræ vero omnes, quæcunq; ſunt, irregulares.
 
 ### XXXIII.
+
+[Curated heading level=4 type=incipit: PRAETER]
 
 PRAETER has autem, reliquæ quadrilateræ figuræ, trapezia appellentur.
 

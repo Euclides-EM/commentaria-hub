@@ -9,12 +9,10 @@ PATET etiam ex hac demonſtratione, ſi quotquot numeri fuerint ab unitate conti
 
 LIBET hoc loco nonnulla alia theoremata demonſtrare ad numeros continue proportionales pertinentia, quæ tum ad ea, quæ ſequuntur, tum ad alia multa erunt vtilia, hinc initium ſumentes.
 
-[Margin]
-I.
-[/Margin]
+[Curated heading level=4 type=numbered_item: I.]
 
 [Margin]
-II.
+I.
 [/Margin]
 
 SI ſint ab unitate duo ordines numerorum continue proportionaliũ, & multitudine æqualium; habebunt tertij ab unitate proportionem duplicatam eius, quam habent ſecundi ab unitate; quarti uero eiuſdẽ triplicatã; & quinti quadruplicatam; & ſemper deinceps uno amplius.

@@ -41,6 +41,8 @@ RVRSVS ſit triangulum ſcalenum A B C, cuius latus maximũ B C, minimum A B. Ex
 22.
 [/Margin]
 
+[Curated heading level=3 type=incipit: EX]
+
 EX tribus rectis lineis, quæ ſunt tribus datis rectis lineis æquales, triangulum con-
 
 <!-- Catchword: ſtituere -->

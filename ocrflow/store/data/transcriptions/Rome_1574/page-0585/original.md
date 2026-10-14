@@ -18,6 +18,8 @@ QVOD ſi loco unius numerorum D, E, F, aſſumatur vnitas, uel etiam loco pluriu
 
 ## THEOR. 4. PROPOS. 6.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI numerus numeri partes fuerit, & alter alterius eædem partes: Et ſimul uterque utriuſque ſimul eædem partes erit, quæ unus unius.
 
 SIT numerus AB, eædem partes numeri C, quæ nu-

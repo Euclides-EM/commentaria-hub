@@ -49,6 +49,8 @@ SIMILITER ſi C, latus lateris D, non ſit multiplex; non metietur D, latus latu
 16.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DVORVM]
+
 DVORVM ſimilium planorum numerorum unus medius proportionalis eſt numerus: Et planus ad planum duplicatam habet lateris homologi ad latus homologum rationem.
 
 SINT plani numeri ſimiles A, B, & latera illius ſint C, D, huius uero illis proportionalia E, F, ita ut C, D, ſe mutuo multiplicantes faciant A; & E, F, mutuo ſe multiplicantes faciant B; ſitque ut C, ad D, ita E, ad F. Dico inter A, & B, cadere unum numerum medium proportionalem, &

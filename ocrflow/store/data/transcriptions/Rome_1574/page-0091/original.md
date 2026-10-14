@@ -6,6 +6,8 @@ BC, CD, DA, comprehenſa conſiderataq́; ſecundum longitudinem AB, vel DC, & �
 
 ### VI.
 
+[Curated heading level=4 type=incipit: SVPERFICIEI]
+
 SVPERFICIEI autem extrema, ſunt lineæ.
 
 NON diſſimilis eſt hæc definitio ſuperiori, qua termini lineæ fuere explicati. Vult enim extremitates ſuperficiei eſſe lineas, quemadmodum lineæ fines extitere puncta. Vt ſuperioris ſuperficiei ABCD, extrema ſunt lineæ AB, BC, CD, DA; Eodemq́; modo in quacunq; altera ſuperficie, quæ extrema habet, lineas cogitare oportet in extremitatibus: Non autem in ſuperficie infinita, vel etiam ſphærica, quæ corpus ſphæricum circundat. Poteſt etiam ſuperficies aliqua claudi, & terminari vnica tantum linea, qualis eſt circularis ſuperficies, vt dicemus in definitione circuli.

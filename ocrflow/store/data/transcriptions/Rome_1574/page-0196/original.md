@@ -10,6 +10,8 @@
 33.
 [/Margin]
 
+[Curated heading level=3 type=incipit: RECTAE]
+
 RECTAE lineæ, quæ æquales, & parallelas lineas ad partes eaſdem coniungũt; Et ipſæ æquales, & parallelæ ſunt.
 
 SINT rectæ lineæ AB, CD, æquales, & parallelæ; Ipſas autem coniungant ad eaſdem partes rectæ AC, BD. Dico AC, BD, æquales quoque eſſe, & parallelas. Ducatur enim recta AD. Quoniam igitur AD, incidit in parallelas AB, CD, erunt anguli alterni BAD, CDA, æquales; Quare cum duo latera BA, AD, trianguli BAD, æqualia ſint duobus lateribus CD, DA, trianguli CDA, vtrumq́; vtriq́;, & anguli quoq; dictis lateribus incluſi ęquales; erunt baſes BD, AC, æquales, & angulus ADB, angulo DAC, æqualis. Cum igitur hi anguli ſint alterni inter rectas AC, BD, erunt AC, BD, parallelæ: Probatum autem iam fuit, eaſdem eſſe æquales. Rectæ ergo lineæ, quæ æquales, & parallelas lineas, &c. Quod erat demonſtrandum.
@@ -39,6 +41,8 @@ DIXIT Euclides, lineas æquales, & parallelas ad eaſdem partes debere coniungi,
 [Margin]
 34.
 [/Margin]
+
+[Curated heading level=3 type=incipit: PARALLELOGRAMMORVM]
 
 PARALLELOGRAMMORVM ſpatiorum æqualia ſunt inter ſe, quæ ex
 

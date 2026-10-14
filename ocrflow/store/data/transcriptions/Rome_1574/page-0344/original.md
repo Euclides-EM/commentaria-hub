@@ -17,6 +17,8 @@ SECENT ſe mutuo rectæ AB, CD, in E, ſitque rectangulum ſub AE, EB, æquale r
 
 ## THEOR. 30. PROPOS. 36.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI extra circulum ſumatur punctum aliquòd, ab eoque in circulum cadant duæ rectæ lineæ, quarum altera quidem circulum ſecet, altera uero tangat: Quod ſub tota ſecante, & exterius inter punctum & conuexam peripheriam aſſumpta comprehenditur rectangulum, æquale erit ei, quod a tangente deſcribitur, quadrato.
 
 EXTRA circulum ABC, punctum ſumatur D, a quo linea ducatur DA, ſecans circulum in C, & linea DB, circulum tangens in B. Dico rectangulum ſub DA, DC, æquale eſſe quadrato rectæ DB. Tranſeat enim primo recta DA, per centrum E, & iungatur recta EB, quæ perpendicularis erit ad DB. Quoniam igitur CA, diuiſa eſt per æqualia in E, & ei addita in rectum & continuum CD, erit rectangulum ſub DA, DC, una cum quadrato rectæ EC, hoc eſt, cum quadrato rectæ EB,

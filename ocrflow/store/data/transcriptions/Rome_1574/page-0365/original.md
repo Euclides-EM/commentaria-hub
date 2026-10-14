@@ -16,6 +16,8 @@ CAETERVM per ea, quæ dicta ſunt de pentagono, propos. 12. 13. & 14. deſcribem
 
 ## PROBL. 16. PROPOS. 16.
 
+[Curated heading level=3 type=incipit: IN]
+
 IN dato circulo, quintidecagonum & æquilaterum, & æquiangulum deſcribere.
 
 SIT in dato circulo ABC, inſcribendum Quintidecagonum æquilaterum, & æquiangulum. Conſtituto triangulo æquilatero D, inſcribatur ei æquiangulum triangulum ABC, in dato circulo, quod etiam erit æquilaterũ, eruntque tres arcus AB, BC, CA, æquales. Qualiũ igitur partiũ æqualium quindecim eſt circunferẽtia tota ABC, talium quinque erit arcus AB, q̃ tertia pars eſt totius circunferentiæ. Inſcribatur rurſus in dato circulo pentagonũ æquilaterum, & æquiangulum AEFGH, eruntque quinque arcus AE, EF, FG, GH.

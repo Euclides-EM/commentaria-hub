@@ -18,6 +18,8 @@ C,3. D,4.
 12.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint quotlibet numeri deinceps proportionales, & multiplicans quiſq; ſeipſum faciat aliquos; qui ab illis producti fuerint, proportionales erunt: Et ſi numeri primum poſiti multiplicantes iam factos fecerint aliquos: ipſi quoque proportionales erunt: Et ſemper circa extremos hoc eueniet.
 
 <!-- Catchword: SINT -->

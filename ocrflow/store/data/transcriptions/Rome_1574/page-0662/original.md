@@ -15,6 +15,8 @@ CONSTAT quoque ex demonſtratione hac, ſi numerus ſe ipſum multiplicans aliqu
 10.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI inter duos numeros, & unitatem, continue proportionales ceciderint numeri; quot inter utrunque ipſorum, & unitatẽ deinceps medij continua proportione cadunt numeri, totidem & inter ipſos medij continua proportione cadent.
 
 CADANT inter utrunque numerorum A, B, & unitatem, quotcunque numeri medij continue proportionales; inter A, quidem & unitatem, numeri C, D, E. At vero inter B, & unitatẽ, numeri F, G, H, illis multitudine æquales. Dico totidem medios continue proportionales cadere inter A, & B, quot inter utrunque A, B, & unitatem.

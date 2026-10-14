@@ -20,7 +20,11 @@ FACILE etiam conuerti poterit prima pars propoſitionis Euclidis: Hoc eſt, ſi 
 14. primi.
 [/Margin]
 
-#### QVOT ANGVLIS RECTIS æquiualeant anguli omnes interni cuiuſcunq; figuræ rectilineæ.
+#### QVOT ANGVLIS RECTIS
+
+[Subhead]
+æquiualeant anguli omnes interni cuiuſcunq; figuræ rectilineæ.
+[/Subhead]
 
 DVOBVS modis ex hac propoſ.32. colligemus, quot nam rectis angulis æquiualeant interni anguli figuræ cuiuslibet rectilineæ, quorum primus hic eſt.
 

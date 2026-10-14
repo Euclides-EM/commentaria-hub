@@ -22,6 +22,8 @@ A, & C, cadat medius proportionalis; erunt A, & C, plani ſimiles. Quare exiſte
 
 ## THEOR. 21. PROPOS. 23.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI quatuor numeri deinceps ſint proportionales, primus autem ſit cubus; Et quartus cubus erit.
 
 SINT quatuor numeri A, B, C, D, proportionales continue, & A, primus ſit cubus. Dico & quartum D, cubum eſſe. Cum enim inter A,

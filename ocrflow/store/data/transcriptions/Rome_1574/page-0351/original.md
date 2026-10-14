@@ -12,6 +12,8 @@
 
 ## PROBL. 1. PROPOS. 1.
 
+[Curated heading level=3 type=incipit: IN]
+
 IN dato circulo rectam lineam accommodare æqualem datæ rectæ lineæ, quæ circuli diametro non ſit maior.
 
 [Margin]

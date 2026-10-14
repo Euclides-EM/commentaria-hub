@@ -14,6 +14,8 @@ BOETIVS autem, & alij regulam hanc ita explicant. Sumantur tot numeri continue a
 3.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ſint quotcunque numeri deinceps proportionales minimi omnium eandem cũ eis rationem habentium; Illorum extremi ſunt inter ſe primi.
 
 SINT numeri A, B, C, D, minimi deinceps proportionales. Dico extremos A, & D, inter ſe primos eſſe. Inue-

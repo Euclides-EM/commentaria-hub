@@ -25,6 +25,8 @@ SINT quarto & ultimo A, C, E, ipſis B, D, F, æquales Quoniam igitur, ſi æqua
 14.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI quatuor numeri proportionales ſint: Et uiciſſim proportionales erunt.
 
 SIT A, ad B, ut C, ad D. Dico uiciſſim eſſe A, ad C,

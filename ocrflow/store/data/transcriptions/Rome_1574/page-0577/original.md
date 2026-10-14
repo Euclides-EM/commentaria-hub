@@ -20,6 +20,8 @@ EX his facile dignoſcemus, an duo quicunque numeri propoſiti ſint inter ſe p
 
 ## PROBL. 1. PROPOS. 2.
 
+[Curated heading level=3 type=incipit: DVOBVS]
+
 DVOBVS numeris datis non primis inter
 
 <!-- Catchword: inter -->

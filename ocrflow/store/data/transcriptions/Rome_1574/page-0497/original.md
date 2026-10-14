@@ -18,6 +18,8 @@ EODEM modo oſtendes, ita eſſe triangulum ſupra ſecundam ad triangulum ſupr
 18.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SIMILIA]
+
 SIMILIA polygona in ſimilia triangula diuiduntur, & numero æqualia, & homologa totis. Et polygona duplicatam habent eam inter ſe rationem, quam latus homologum ad homologum latus.
 
 SINT polygona ſimilia ABCDE, FGHIK, habentia angulos æquales BAE, GFK; Item angulos B, G, & ſic deinceps. habeant autem latera proportionalia circa angulos æquales; ut quidem AB, ad BC, ita FG, ad GH; & ut BC, ad CD, ita GH, ad HI, &c. Dico primo, hæc polygona diuidi in triangula ſimilia, quæ ſint numero ęqualia. Ab angulis enim BAE, GFK, rectæ educantur ad ſingulos angulos oppoſitos, quæ ſint AC, AD, FH, FI; diuiſaque erunt polygona in triangula numero æqualia, cũ propter ſimilitudinem habeant angulos numero æquales. Quoniam uero angulus B, æqualis eſt angulo G, ex hypotheſi, & circa ipſos latera proportionalia; æquiangula erunt

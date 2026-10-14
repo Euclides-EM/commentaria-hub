@@ -3,6 +3,8 @@
 
 ### XXVII.
 
+[Curated heading level=4 type=incipit: QVOTLIBET]
+
 QVOTLIBET numeris ordine poſitis, proportio primi ad ultimum componi dicitur ex proportionibus primi ad ſecundum, & ſecundi ad tertiũ, & tertij ad quartum, & ita deinceps, donec extiterit proportio.
 
 HOC ita ſe habere, pluribus uerbis a nobis demonſtratum eſt ad defin. 5. lib. 6.
@@ -13,9 +15,13 @@ POSSVNT etiam huc referri definitiones illæ in quinto libro traditæ de alterna
 
 ### I.
 
+[Curated heading level=4 type=incipit: POSTVLETVR]
+
 POSTVLETVR, cuilibet numero quotlibet poſſe ſumi æquales, uel multiplices.
 
 ### II.
+
+[Curated heading level=4 type=incipit: QVOLIBET]
 
 QVOLIBET numero ſumi poſſe maiorem.
 

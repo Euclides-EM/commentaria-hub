@@ -11,6 +11,8 @@ reliqui omnes quadrati erunt, vt demonſtratum eſt. Omnes igitur erunt cubi ſi
 10.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI ab unitate quotcunque numeri deinceps proportionales fuerint, qui uero poſt unitatẽ, non ſit quadratus; neque alius vllus quadratus erit, præter tertium ab unitate, & unum intermittentes omnes. At ſi, qui poſt vnitatẽ, non ſit cubus; neque alius ullus cubus erit, præter quartum ab unitate, & duos intermittentes omnes.
 
 SINT ab unitate quotcunque numeri deinceps proportionales A, B, C, D, E, F, G, H, I; & primum A, proximus unitati non ſit quadratus. Dico nec alium ullum eſſe quadratum, præter tertium ab unitate, & unum intermittentes omnes, nempe præter B, D, F, H. Si enim præter hos alius

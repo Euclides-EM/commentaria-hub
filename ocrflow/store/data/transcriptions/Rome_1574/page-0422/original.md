@@ -20,6 +20,8 @@ EODEM fere modo oſtendemus, æquales magnitudines ad alias inter ſe æquales, 
 8.
 [/Margin]
 
+[Curated heading level=3 type=incipit: INAEQVALIVM]
+
 INAEQVALIVM magnitudinum maior ad eandem, maiorem rationem ha-
 
 <!-- Signature: Y -->

@@ -16,6 +16,8 @@ tranſit, ſecet circunferentias in C, & E; ducanturque a centris F, G, ad B, co
 
 ## THEOR. 12. PROPOS. 13.
 
+[Curated heading level=3 type=incipit: CIRCVLVS]
+
 CIRCVLVS circulum non tangit in pluribus punctis, quam uno, ſiue intus, ſiue extra tangat.
 
 [Margin]

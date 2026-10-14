@@ -45,6 +45,8 @@ RVRSVS, quia A, & B, ſunt inter ſe primi, erit & C, factus ex A, in ſe, ad B,
 29.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI duo numeri primi inter ſe fuerint:
 
 <!-- Catchword: Etiam -->

@@ -8,6 +8,8 @@
 
 ## THEOR. 10. PROPOS. 15.
 
+[Curated heading level=3 type=incipit: AEQVALIVM]
+
 AEQVALIVM, & unum uni æqualem habentium angulum, triangulorum, reciproca ſunt latera, quæ circum æquales angulos. Et quorum triangulorum unum angulum uni æqualem habentium reciproca ſunt latera, quæ circum æquales angulos; illa ſunt æqualia.
 
 SINT duo triangula æqualia ABC, DBE, habentia angulos, qui ad B, æquales. Dico latera circa hoſce angulos eſſe reciproca, hoc eſt, eſſe ut AB, ad BE, ita DB, ad BG{printer-error-correction:BC}. Coniungantur triangula ad angulos æquales, ita ut AB, BE, unam efficiant lineam rectam. Quo facto, cum anguli ABC, DBE, ſint æquales; erũt & DB, BC, una recta linea, ceu demonſtratum eſt, ad propos. 15. lib. 1. ex Proclo. Ducta igitur recta CE; quoniam æqualia ſunt triangula ABC, DBE, erit ut ABC, ad BCE, ita DBE, ad idẽ BCE; ſed ut triangulum ABC, ad triangulum BCE, ita eſt baſis AB, ad baſin BE, quod hæc triangula eiuſdem ſint altitudinis; & ſimiliter ut DBE, ad BCE, ita baſis DB, ad BC; Quare ut AB, ad BB{printer-error-correction:BE}, ita DB, ad BC. Quod eſt propoſitum.

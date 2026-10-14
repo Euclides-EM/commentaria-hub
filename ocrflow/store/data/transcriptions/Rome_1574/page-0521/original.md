@@ -23,6 +23,8 @@ MANIFESTVM autem eſt, lineam, ad quam parallelogrammum deficiens applicatur, e�
 
 ## PROBL. 8. PROPOS. 28.
 
+[Curated heading level=3 type=incipit: AD]
+
 AD datam lineam rectam, dato rectilineo æquale parallelogrammum applicare deficiens figura parallelogramma, quæ ſimi-
 
 <!-- Catchword: lis -->

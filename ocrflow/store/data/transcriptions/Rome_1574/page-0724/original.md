@@ -19,6 +19,8 @@ ALITER. Quoniam numerus A B, in C, ita diuiſus eſt, vt is qui fit ex A B, in C
 16.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI tres numeri deinceps proportionales, fuerint minimi omnium eandem cum
 
 <!-- Catchword: ipſis -->

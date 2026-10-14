@@ -22,6 +22,8 @@
 19.
 [/Margin]
 
+[Curated heading level=3 type=incipit: SI]
+
 SI fuerint tres numeri, & alij ipſis multitudine æquales, qui bini ſumantur, & in eadem ratione, fuerit autem perturbata eorum proportio; Etiam ex æqualitate in eadem ratione erunt.
 
 *SINT tres numeri A, B, C, & totidem D, E, F, qui bini ſumantur, & in eadẽ ratione, ſitque perturbata eorũ pportio, ut quidẽ A, ad B, ita E, ad F; & ut B, ad C, ita D, ad E. Dico, ex æqualitate quoque eſſe*

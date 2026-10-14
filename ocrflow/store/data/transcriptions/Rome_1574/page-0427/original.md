@@ -20,6 +20,8 @@ ipſius A; & omnes K, L, M, ſimul omnium B, D, F, ſimul ita multiplices, ut un
 
 ## THEOR. 13. PROPOS. 13.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI prima ad ſecundam eandem habuerit rationem, quam tertia ad quartam; tertia uero ad quartam maiorem rationem habuerit, quam quinta ad ſextam: Prima quoque ad ſecundam maiorem rationem habebit, quam quinta ad ſextam.
 
 SIT A, prima ad B, ſecundam, ut C, tertia ad D, quartam: ſit autem proportio C, tertiæ ad D, quartam maior, quam E, quintæ ad F, ſextam. Dico & proportionem A, primæ ad B; ſecundam eſſe maiorem quam E, quintæ ad F, ſextam. Sumptis enim G, H, I, æque multiplicibus antecedentium; Et K, L, M, æque multiplicibus conſequentium, cum ſit A, prima ad B, ſecundam, ut C, tertia ad D, quartam; fit ut ſi G, multiplex primæ exceſſerit K, multiplicem ſecundæ, excedat quoque H, multiplex tertiæ ipſam

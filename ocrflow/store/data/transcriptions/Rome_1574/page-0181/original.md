@@ -12,6 +12,8 @@ ex C, in alio plano, ad C D, ducatur alia perpendicularis C E, ita ut punctum E,
 
 ## THEOR. 19. PROPOS. 28.
 
+[Curated heading level=3 type=incipit: SI]
+
 SI in duas rectas lineas recta incidens linea externum angulum interno, & oppoſito, & ad eaſdem partes, æqualem fecerit; Aut internos, & ad eaſdem partes duobus rectis æquales: Parallelæ erũt inter ſe ipſæ rectæ lineæ.
 
 IN duas rectas A B, C D, recta incidens E F, faciat primo externum angulum E G A, æqualem angulo interno, & oppoſito ad eaſdem partes G H C. Dico rectas A B, C D, eſſe parallelas. Quoniã angulo E G A, æqualis ponitur angulus G H C, & eidẽ angulo E G A, æqualis eſt angulus H G B; erunt anguli alterni G H C, H G B, æquales: Quare lineæ A B, C D, parallelæ erunt. Idem oſtendetur, ſi angulus externus E G B, æqualis ponatur interno G H D.

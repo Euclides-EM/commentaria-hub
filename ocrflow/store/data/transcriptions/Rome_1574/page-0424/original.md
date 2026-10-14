@@ -15,6 +15,8 @@ D, (ponitur enim nunc D, prima ac tertia; At C, ſecunda, & AB, quarta) maior e�
 9.
 [/Margin]
 
+[Curated heading level=3 type=incipit: QVAE]
+
 QVAE ad eandem, eandem habent rationem, æquales ſunt inter ſe: Et ad quas eadem eandem habet rationem, eæ quoq; ſunt inter ſe æquales.
 
 HABEANT primo A, & B, eandem rationem ad C; Dico A, & B, eſſe inter ſe æquales. Sit enim, ſi fieri poteſt, altera nempe A, maior & B, minor. Erit igitur maior proportio A, maioris ad C, quã B, minoris ad eandem C; quod eſt contra hypotheſin. Non ergo inæquales ſunt A, & B, ſed æquales. Habeat ſecundo C, eandem proportionem ad A, & B; Dico adhuc A, & B, eſſe æquales. Nam ſi altera, nempe A, eſſet maior, & B, minor; haberet C, ad B, minorem, maiorem proportionem, quam ad A, maiorem: quod eſt contra hypotheſin. Non igitur maior erit A, quam B, ſed æqualis. Quæ igitur ad eandem, eandem habent rationem, &c. Quod demonſtrandum erat.
@@ -36,6 +38,8 @@ HABEANT primo A, & B, eandem rationem ad C; Dico A, & B, eſſe inter ſe æqual
 [Margin]
 10.
 [/Margin]
+
+[Curated heading level=3 type=incipit: AD]
 
 AD eandem magnitudinem rationem habentium, quæ maiorem rationem habet, illa maior eſt: Ad quam autem eadem
 

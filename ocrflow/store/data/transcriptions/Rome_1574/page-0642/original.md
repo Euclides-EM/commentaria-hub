@@ -17,6 +17,8 @@ PERSPICVVM autem eſt ex demonſtratione, numeros A, B, C, D, eſſe minimos in 
 2.
 [/Margin]
 
+[Curated heading level=3 type=incipit: NVMEROS]
+
 NVMEROS reperire deinceps proportionales minimos, quotcunque iuſſerit quiſpiam, in data ratione.
 
 SINT minimi numeri datæ rationis A, & B, oporteatq́ʒ inuenire primum tres numeros minimos in proportione data A, ad B. Multiplicans A, ſeipſum, & numerum B, faciat C, & D. Deinde B, multiplicans ſeipſum faciat E. Dico C, D, E, eſſe tres minimos in proportione A, ad B; hoc eſt, eſſe ut C, ad D, ita D, ad E. Quod enim proportionales ſint in data proportione A, ad B, ſic oſtendemus. Cum ex A, in A, & B, fiãt C, & D; erit ut A, ad B, ita C, ad D. Rurſus cum ex B, in A, & B, fiant D, & E; erit quoque, ut A, ad B, ita D, ad E. Quare proportionales ſunt C, D, E, continue in proportione data A, ad B. Quod uero in eadẽ ratione ſint minimi, ita demonſtrabitur. Quoniam extre-

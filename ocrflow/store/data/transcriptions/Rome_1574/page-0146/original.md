@@ -29,6 +29,8 @@ rectam, quod quidem continget, ſi duo anguli C, & F, recti extiterint; aut non.
 9.
 [/Margin]
 
+[Curated heading level=3 type=incipit: DATVM]
+
 DATVM angulum rectilineum bifariam ſecare.
 
 SIT diuidendus rectilineus angulus B A C, bifariam, hoc eſt, in duos angulos æquales. In recta A B, ſumatur quodcunq; punctũ D, & rectæ A D, ſecetur ex A C, recta A E, æqualis, ducaturque recta D E. Deinde ſuper D E, conſtituatur triangulum æquilaterum D F E, & ducatur recta A F, diuidens angulum B A C, in angulos B A F, C A F. Dico hos

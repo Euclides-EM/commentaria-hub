@@ -7,6 +7,8 @@ rum, vel angulorum, declarat prius ſpecies prioris diuiſionis, quæ tres ſunt
 
 ### XXIIII.
 
+[Curated heading level=4 type=incipit: ISOSCELES]
+
 ISOSCELES autem eſt, quod duo tantum æqualia habet latera.
 
 EX hac rurſum æqualitate duorum laterum trianguli Iſoſcelis efficitur, duos angulos ſuper reliquum latus etiam eſſe æquales, vt demonſtrabit Euclides propos. 5. huius libri. Appoſuimus autem duo triangula Iſoſcelia, quorum prius habet tertium latus vtrouis æqualium maius, poſterius autem idem minus obtinet.
@@ -14,6 +16,8 @@ EX hac rurſum æqualitate duorum laterum trianguli Iſoſcelis efficitur, duos 
 [Figure: two isosceles triangles, the first with a longer base, the second with a shorter base]
 
 ### XXV.
+
+[Curated heading level=4 type=incipit: SCALENVM]
 
 SCALENVM vero eſt, quod tria inæqualia habet latera.
 
