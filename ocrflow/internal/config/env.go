@@ -29,11 +29,12 @@ type EnvConfig struct {
 	GPUFarmJobRoot           string        `env:"GPU_FARM_JOB_ROOT" envDefault:""`
 	APIURL                   string        `env:"API_URL" envDefault:""`
 
-	RootDir          string `env:"ROOT_DIR" envDefault:"../"`
-	StoreDir         string `env:"STORE_DIR" envDefault:"./store"`
-	TempDir          string `env:"OCRFLOW_TEMP_DIR"`
-	BackupRootDir    string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
-	BackupMaxToStore int    `env:"BACKUP_MAX_TO_STORE" envDefault:"5"`
+	RootDir               string `env:"ROOT_DIR" envDefault:"../"`
+	StoreDir              string `env:"STORE_DIR" envDefault:"./store"`
+	TempDir               string `env:"OCRFLOW_TEMP_DIR"`
+	BackupRootDir         string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
+	BackupLocalMaxToStore int    `env:"BACKUP_LOCAL_MAX_TO_STORE" envDefault:"2"`
+	BackupDriveMaxToStore int    `env:"BACKUP_DRIVE_MAX_TO_STORE" envDefault:"5"`
 
 	FacsimilesPDFDir         string `env:"FACSIMILES_PDF_DIR" envDefault:""`
 	FacsimilesDiagramsPath   string `env:"FACSIMILES_DIAGRAMS_PATH" envDefault:"docs/diagrams"`
