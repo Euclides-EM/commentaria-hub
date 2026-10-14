@@ -8,6 +8,7 @@ interface AnnotationNavigationProps {
   onFloatingChange: (floating: boolean) => void
   collapsed: boolean
   onCollapsedChange: (collapsed: boolean) => void
+  expandGlow: boolean
 }
 
 export const AnnotationNavigation = ({
@@ -15,6 +16,7 @@ export const AnnotationNavigation = ({
   onFloatingChange,
   collapsed,
   onCollapsedChange,
+  expandGlow,
 }: AnnotationNavigationProps) => {
   const [sidebarWidth, setSidebarWidth] = useLocalStorageState(
     useScopedStorageKey('sidebarWidth'),
@@ -25,7 +27,6 @@ export const AnnotationNavigation = ({
   )
   const [isResizing, setIsResizing] = useState(false)
   const asideRef = useRef<HTMLElement | null>(null)
-  const pointerInsideRef = useRef(false)
 
   useEffect(() => {
     const clampWidth = (value: number) => {
@@ -66,11 +67,16 @@ export const AnnotationNavigation = ({
 
   useEffect(() => {
     if (!floating || collapsed) return
-    const onPointerDown = () => {
-      if (!pointerInsideRef.current) {
+    const onPointerDown = (event: PointerEvent) => {
+      if (!(event.target instanceof Element)) return
+      const pane = event.target.closest('[data-navigation-dismiss]')
+      if (
+        pane &&
+        pane.closest('[data-navigation-scope]') ===
+          asideRef.current?.closest('[data-navigation-scope]')
+      ) {
         onCollapsedChange(true)
       }
-      pointerInsideRef.current = false
     }
     window.addEventListener('pointerdown', onPointerDown)
     return () => {
@@ -81,7 +87,7 @@ export const AnnotationNavigation = ({
   if (collapsed) {
     return (
       <button
-        className="absolute top-2 left-2 z-40 p-1.5 cursor-pointer text-white bg-gray-700 border border-gray-800 rounded-md shadow-[0_4px_14px_rgba(15,23,42,0.45)] hover:bg-gray-800"
+        className={`absolute top-2 left-2 z-40 p-1.5 cursor-pointer text-white bg-gray-700 border border-gray-800 rounded-md shadow-[0_4px_14px_rgba(15,23,42,0.45)] hover:bg-gray-800 ${expandGlow ? 'label-glow' : ''}`}
         onClick={() => onCollapsedChange(false)}
         title="Expand navigation"
         aria-label="Expand navigation"
@@ -106,9 +112,6 @@ export const AnnotationNavigation = ({
   return (
     <aside
       ref={asideRef}
-      onPointerDownCapture={() => {
-        pointerInsideRef.current = true
-      }}
       className={`border-r flex flex-col overflow-hidden ${floating ? 'absolute top-0 left-0 bottom-0 z-40 border-gray-400/70 bg-white/55 backdrop-blur-xl backdrop-saturate-150 shadow-[0_10px_40px_rgba(15,23,42,0.32),0_0_0_1px_rgba(15,23,42,0.08),inset_1px_1px_0_rgba(255,255,255,0.7)]' : 'border-gray-300 bg-white flex-1 relative'}`}
       style={{
         width: `${sidebarWidth}px`,
@@ -127,12 +130,12 @@ export const AnnotationNavigation = ({
             title={
               floating
                 ? 'Pin navigation: keep it docked beside the contents'
-                : 'Unpin navigation: float it over the contents and hide it when you click outside'
+                : 'Unpin navigation: float it over the contents and hide it when you click the page image or contents'
             }
             aria-label={
               floating
                 ? 'Pin navigation: keep it docked beside the contents'
-                : 'Unpin navigation: float it over the contents and hide it when you click outside'
+                : 'Unpin navigation: float it over the contents and hide it when you click the page image or contents'
             }
           >
             <svg

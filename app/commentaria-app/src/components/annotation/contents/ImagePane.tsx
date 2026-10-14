@@ -410,7 +410,10 @@ export function ImagePane({
   }
 
   return (
-    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white relative">
+    <section
+      data-navigation-dismiss
+      className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white relative"
+    >
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
         <div
           className={`text-sm font-semibold grow min-w-0 ${titleInset ? 'pl-6' : ''}`}

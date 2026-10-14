@@ -416,6 +416,7 @@ export function GalleryViewTab() {
     { defaultValue: false, storageSync: false },
   )
   const [navigationFloatingOpen, setNavigationFloatingOpen] = useState(false)
+  const [navigationExpandGlow, setNavigationExpandGlow] = useState(true)
   const [navigationPinnedCollapsed, setNavigationPinnedCollapsed] =
     useLocalStorageState(useScopedStorageKey('sidebarCollapsed'), {
       defaultValue: false,
@@ -427,6 +428,9 @@ export function GalleryViewTab() {
   const navigationDocked = !navigationFloating && !navigationCollapsed
   const handleNavigationCollapsedChange = useCallback(
     (collapsed: boolean) => {
+      if (!collapsed) {
+        setNavigationExpandGlow(false)
+      }
       if (navigationFloating) {
         setNavigationFloatingOpen(!collapsed)
       } else {
@@ -997,6 +1001,7 @@ export function GalleryViewTab() {
           onFloatingChange={handleNavigationFloatingChange}
           collapsed={navigationCollapsed}
           onCollapsedChange={handleNavigationCollapsedChange}
+          expandGlow={navigationExpandGlow}
         />
       )}
       <div className="relative flex-1 flex flex-col min-h-0 overflow-hidden">
@@ -1006,6 +1011,7 @@ export function GalleryViewTab() {
             onFloatingChange={handleNavigationFloatingChange}
             collapsed={navigationCollapsed}
             onCollapsedChange={handleNavigationCollapsedChange}
+            expandGlow={navigationExpandGlow}
           />
         )}
         <div className="border-b border-gray-200 bg-gray-50 shrink-0 flex flex-col">

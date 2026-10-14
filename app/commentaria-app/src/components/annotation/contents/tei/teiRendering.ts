@@ -640,8 +640,12 @@ const appendParagraphLines = (
     run = []
   }
 
-  for (const line of lines) {
-    const lineIsTable = line.text.includes(separator)
+  const lineHasSeparator = lines.map((line) => line.text.includes(separator))
+  for (const [lineIndex, line] of lines.entries()) {
+    const lineIsTable =
+      lineHasSeparator[lineIndex] &&
+      (lineHasSeparator[lineIndex - 1] === true ||
+        lineHasSeparator[lineIndex + 1] === true)
     if (run.length > 0 && lineIsTable !== runIsTable) {
       pushRun()
     }
