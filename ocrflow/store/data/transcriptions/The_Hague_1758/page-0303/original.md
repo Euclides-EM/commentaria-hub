@@ -2,6 +2,8 @@
 
 <!-- Page number: 291 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Diagram: three plane figures — Fig. 1. plane PL with lines through B labelled A, F, D, C, E; Fig. 2. plane PL with perpendicular plane containing B, F, N, D, G, E, A; Fig. 3. plane PL with line BA, dotted lines to E]
 
 ## DEFINITIONS.

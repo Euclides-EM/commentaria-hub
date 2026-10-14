@@ -1,9 +1,11 @@
 <!-- Running title: LIVRE SECOND. -->
 <!-- Page number: 73 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2.]
+
 [Diagram: Fig. 1., parallelogram with vertices labelled A, B, C, E, with interior points G, H, D, a, b, c and a diagonal from E to B; Fig. 2., parallelogram with vertices labelled A, B, C, E, with interior points D, G, H, a, b, c and a diagonal]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### II.
 

@@ -18,13 +18,36 @@ Des trois ∀ B, E & H faire un ∀ ſolide P.
 
 ### Reſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:P|lines=2|style=plain}Renez AB à volonté, & faites les cotés BC, DE, EF, GH & HI égaux entr'eux & à AB.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Tiréz les bazes AC. DF, & GI.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. De ces trois bazes AC, DF, & GI faites un △ LMN de façon que NM ſoit = GI, NL = AC, & LM = DF.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Inſcrivez le △ LMN dans un Cercle LMN.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Du centre O, aux ∀ L, M & N, tiréz les droites LO, ON & OM.
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Du point O, élevéz la ⊥ OP, ſur le Plan du cercle LMN.
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Coupéz OP de façon que le quarré ſur le rayon LO, plus le quarré ſur PO ſoyent égaux au quarré ſur AB.
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Tiréz les droites LP, PN & PM.
 
 [Margin]

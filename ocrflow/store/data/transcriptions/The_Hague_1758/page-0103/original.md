@@ -17,10 +17,19 @@
 ### Demonstration.
 
 PUiſque la droite CA eſt partagée en deux parties quelconques CD, DA (*Hyp.* 2).
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le □ de CA avec le □ de CD eſt = au double Rgle AC.CD avec le □ de AD.
 Si donc on ajoute de part & d'autre le □ de DB,
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Le □ de CA + le □ de CD + le □ de DB ſera = au double Rgle AC.CD + au □ de AD + au □ de DB.
 Mais le □ de CD + le □ de DB eſt = au □ de CB, & le □ de AD + le □ de DB eſt = au □ de BA (*Prop.* 47. *L.* 1).
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C'eſt pourquoi, le □ de BA + le double Rgle ACD eſt = au □ de CA + au □ de CB.
 
 [Margin]

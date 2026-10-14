@@ -4,11 +4,15 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque AC eſt ſuppoſée = AD.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le △ CAD ſera un △ iſoſcéle.
 
 [Margin]
 D. 25. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par conſéquent les ∀ ſur la baſe *a + b* & *c* ſeront égaux entr'eux.
 
@@ -18,11 +22,15 @@ P. 5. L. 1.
 
 De même BC étant ſuppoſée = BD.
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Le △ CBD ſera auſſi un △ iſoſcéle.
 
 [Margin]
 D. 25. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Et à cauſe de cela les ∀ ſous la baſe, *b* & *c + d*, ſeront auſſi égaux entr'eux.
 
@@ -32,6 +40,8 @@ P. 5. L. 1.
 
 C'eſt pourquoi, ſi on ôte de ∀ *c + d* ſa partie ∀ *d*.
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. ∀ *b* ſera > ∀ *c*.
 
 [Margin]
@@ -40,11 +50,15 @@ N. C.
 
 Et ſi au même ∀ *b*, on ajoute enſuite ∀ *a*.
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. ∀ entier *a + b* ſera à plus forte raiſon > ∀ *c*.
 
 [Margin]
 N. C.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. Partant ∀ *a + b* & ∀ *c* ne ſont point égaux.
 
@@ -54,13 +68,19 @@ N. C.
 
 Mais on a démontré qu'en vertu de la ſuppoſition de ce cas, ∀ *a + b* & ∀ *c* doivent être égaux (*Arg.* 2).
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. D'où il ſuit que cette ſuppoſition ne ſçauroit avoir lieu, à moins que ces ∀ ne ſoient à la fois égaux & inégaux.
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. Ce qui eſt impoſſible.
 
 [Margin]
 N. C.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 10.]
 
 10. Partant, la ſuppoſition, qui fait AC = AD & BC = BD, eſt impoſſible elle-même.
 
@@ -78,11 +98,15 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſqu'on ſuppoſe AC = AD
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le △ CAD ſera un △ iſoſcéle.
 
 [Margin]
 D. 25. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par conſéquent ∀ *b* & ∀ *d + c* ſur la baſe ſont égaux entr'eux.
 
@@ -92,11 +116,15 @@ P. 5. L. 1.
 
 Derechef, puiſqu'on ſuppoſe auſſi BC = BD;
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Le △ CBD ſera auſſi un △ iſoſcéle.
 
 [Margin]
 D. 25. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent ∀ *c* & ∀ *b + a* ſur la baſe ſeront auſſi égaux entr'eux.
 
@@ -106,6 +134,8 @@ P. 5. L. 1.
 
 Otant donc du dernier de ces ∀ *b + a* ſa partie ∀ *a*.
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. L'∀ *c* ſera > ∀ reſtant *b*.
 
 [Margin]
@@ -114,23 +144,33 @@ N. C.
 
 Si à ce même ∀ *c* on ajoute donc ∀ *d*.
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. L'∀ entier *c + d* ſera à plus forte raiſon > ∀ *b*.
 
 [Margin]
 N. C.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Partant, ∀ *c + d* & ∀ *b* ne ſont point égaux entr'eux.
 
 Or, on vient de prouver, qu'en vertu de la ſuppoſition de ce cas, ∀ *d + c* & ∀ *b* ſont égaux entr'eux (*Arg.* 2).
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. D'où il ſuit encore que cette ſuppoſition ne ſçauroit avoir lieu, à moins que ces angles ne ſoient à la fois égaux & inégaux.
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. Ce qui eſt impoſſible.
 
 [Margin]
 N. C.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 10.]
 
 10. Partant, la ſuppoſition, qui fait AC = AD & BC = BD eſt impoſſible.
 

@@ -9,17 +9,23 @@
 Ax. 8. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La moitié de ce quarré ſera > que la moitié du ⊙ ILP. Mais le quarré inſcrit ILNP eſt = à la moitié du quarré circonſcrit *.
 
 [Margin]
 Prop. 19. L. 5.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Donc le □ LIPN eſt > que la moitié du ⊙ ILP. Le Rgle SI eſt > que le ſegment LKI. (*Prép. 5. & Ax. 8. L. 1.*).
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant la moitié du Rgle SI eſt > la moitié du ſegment LKI. Le △ LKI eſt = à la moitié du Rgle SI.
 
@@ -28,23 +34,35 @@ Prop. 19 L. 5.
 Prop. 41. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Donc le △ LKI eſt > que la moitié du ſegment LKI.
 
 [Margin]
 Prop. 19. L. 5.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. On prouvera de même que tous les △ LMN, NOP, &c. ſont chacun plus grand que la moitié du ſegment dans leſquels ils ſont placés.
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. C'eſt pourquoi la ſomme de tous ces triangles ſera plus grand que la ſomme de la moitié de tous les ſegments. Si on continuoit à diviſer les ſegments KI, IL &c. de même que les ſegments provenants de ces diviſions. On prouveroit de même.
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Que les triangles provenants des droites qu'on tireroit dans ces ſegments, ſont enſemble plus grands, que la moitié des ſegments dans leſquels ces triangles inſiſtent. Si donc on retranche du cercle ILP, plus que la moitié à ſavoir le □ ILNP, & que des ſegmens reſtant (LKI, IQP, &c.), on retranche encore plus que la moitié, & ainſi de ſuite.
+
+[Curated heading level=4 type=numbered_item: 8.]
 
 8. On parviendra à avoir pour reſte des ſegmens dont la ſomme ſera moindre que V. Or le ⊙ ILP eſt = T + V. (*par la 1. Sup.*). Retranchant donc du ⊙ ILP ces ſegments LKI, &c. Et de T + V la grandeur V, (qui eſt plus grand que ces ſegments).
 
 [Margin]
 Lemme de Prop. 2. L. 12.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. Le reſte ſavoir le polygone IKLMNOPQ ſera > T. Or le polygone ADFK : polygone ILOQ = □ ſur AE : □ ſur IN.
 

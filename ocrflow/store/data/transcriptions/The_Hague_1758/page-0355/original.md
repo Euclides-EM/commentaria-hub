@@ -1,11 +1,17 @@
 <!-- Running title: LIVRE ONZIEME. -->
 <!-- Page number: 343 -->
 
+[Curated heading level=4 type=numbered_item: 14.]
+
 14. Le reſte ſavoir le □ ſur GF, ſera = au □ ſur KM.
+
+[Curated heading level=4 type=numbered_item: 15.]
 
 15. Partant GF = KM. (*Corol.* 3. *de la Prop.* 46. *L.* 1.).
 
 Enfin puiſque dans les deux △ AGF & HKM les trois cotés AF, AG & FG ſont = aux cotés HK, HM, & KM, chacun à chacun. (*Prép.* 1. & *Arg.* 13 & 15.).
+
+[Curated heading level=4 type=numbered_item: 16.]
 
 16. l'Angle FAG ou DAE eſt = à l'angle KHM.
 

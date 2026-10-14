@@ -22,11 +22,15 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Diſpoſez AC & CG en une même droite AG; cela fait, EC & CD formeront auſſi une même droite ED.
 
 [Margin]
 Prop. 14. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Achevez le Pgr P.
 
@@ -37,6 +41,8 @@ Dem. 1. L. 1.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Pgrs M, P, N, forment une ſuite de trois grandeurs,
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. La raiſon de la première M à la dernière N, ſe trouve compoſée des deux raiſons intermédiaires M : P & P : N.
 
@@ -53,13 +59,19 @@ Or à cauſe que AC : CG ⚌ M : P. & DC : CE ⚌ P : N.
 Prop. 1. L. 6.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. La raiſon des côtés AC : CG eſt la même que celle des Pgrs M : P; & la raiſon des côtés DC : CE, la même que celle des Pgrs P : N. Puis donc que la raiſon de M : N ſe trouve compoſée des raiſons M : P & P : N (*Arg.* 1);
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Cette même raiſon ſe trouve compoſée de leurs égales; des raiſons AC : CG, & CD : EC, des côtés alentour des angles égaux ACD, ECG.
 
 [Margin]
 Prop. 3. App.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent M : N ⚌ AC.CG : EC.CG.
 

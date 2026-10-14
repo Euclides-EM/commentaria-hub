@@ -23,13 +23,28 @@ Faites 1C = C & 1D = D.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que A : B = C : D (Hyp. 1), & que C = 1C & D = 1D (Prep.).
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il ſuit que A : B = 1C : 1D.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. C'eſt pourquoi A : B = M : N.
 Mais la gdr. A étant > B (Hyp. 2).
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. La gdr. M eſt auſſi > N.
 De plus, à cauſe que C = 1C & D = 1D (Prep. 1 & 2).
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Il s'enſuit que 1C + D = 1D + C.
 Et comme M eſt > N (Arg. 3).
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Il s'enſuit de plus que 1C + D + M > 1D + C + N, c. à. d. que A + D eſt > B + C.
 
 [Margin]

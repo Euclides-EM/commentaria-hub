@@ -18,8 +18,16 @@ A : B > E : F.
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La raiſon de C : D étant > la raiſon de E : F (Hyp. 2), prenez des équimult. mC & mE des antécédens C & E; & pareillement d’autres équimultiples nD & nF des conſéquens D & F, tellement que mC ſoit > nD ſans que mE ſoit > nF;
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Prenez mA autant multiple de A que mC l’eſt de C.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. De même nB autant multiple de B que nD l’eſt de D.
 
 [Margin]
@@ -32,6 +40,8 @@ Dem. 1. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uis donc que A : B = C : D (Hyp. 1), & que mA, mC ſont des équimultiples des antécédens & nB, nD des équimultiples des conſéquens (Prep. 2 & 3),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La gdr. mA ſera >, =, ou < nB; ſelon que mC ſera >, =, ou < nD.
 
 [Margin]
@@ -40,9 +50,13 @@ Def. 5. L. 5.
 
 Or mC eſt > nD (Prep. 1);
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Donc mA eſt auſſi > nB.
 
 Mais en même tems mE n’eſt pas > nF (Prep. 1), & les gdrs. mA & mE ſont des équimultiples des antécédens A & E, & nB, nF des équimultiples des conſéquens B & F (Prep. 1 & 2),
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant la raiſon A : B eſt > la raiſon E : F.
 

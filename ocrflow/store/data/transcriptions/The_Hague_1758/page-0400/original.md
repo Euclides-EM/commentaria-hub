@@ -20,7 +20,11 @@ II. Les Plans de ce polyëdre inſcrit ne doivent point toucher la petite ſphè
 
 ### Reſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:C|lines=2|style=plain}Oupez les deux ſphères par un Plan KBND paſſant par leur centre commun.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez dans le ⊙ ABCD, les diamêtres AC & BD, ſe coupant en angle droit.
 
@@ -29,13 +33,19 @@ Dem. 1. L. 1.
 Prop. 12 L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Dans ce plus grand ⊙ ABCD, inſcrivez le polygone CKLMD &c. de façon, qu'il ne touche point le petit ⊙ GFEH.
 
 [Margin]
 Prop. 16. L. 12.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Tirez le diamêtre KIN.
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Du centre I ſur le Plan du ⊙ ABCD, élevez la ⊥ IO, & prolongez la juſqu'à la ſuperficie concave de la grande ſphère en O.
 
@@ -43,6 +53,8 @@ Prop. 16. L. 12.
 Prop. 12 L 12.
 Dem. 2. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Par IO & les diamêtres AC, BD & KN, faites paſſer les Plans AOC, BOD & KON. *
 

@@ -5,21 +5,31 @@ Puis donc que les trois Pgr. FS, FT, & DR, du ⊟ DS ſont = & ∽ aux trois Pgr
 
 Et que les Pgr. reſtans du ⊟ DS, de même ceux du ⊟ KI ſont égaux, & ∽ aux précédents; chacun à chacun.
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Le ⊟ DS, ſera égal & ∽ au ⊟ KI.
 
 Les ⊟s DX & DS, ont la même baze DQ, & leurs lignes inſiſtantes FV & FR, &c. ſont dans les mêmes directions Plle VS, &c.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant ⊟ DS eſt = au ⊟ DX.
 
 Or le ⊟ DS eſt = au ⊟ KI. (*Arg. 3,*).
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Donc le ⊟ DX eſt auſſi = au ⊟ KI.
 
 Le ⊟ MQ * eſt coupé par le Plan FZ, Plle au Plan MN.
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Partant baze Nq : baze qQ = ⊟ MF : ⊟ ZQ.
 
 Le ⊟ ZX eſt coupé par le Plan DQ, Plle au Plan ZY.
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. Partant baze FX : baze qQ = ⊟ DX : ⊟ ZQ.
 
@@ -27,9 +37,13 @@ Or le Pgr. FX eſt = au Pgr. FS.
 
 Et Pgr. FS eſt = au Pgr. HK. (*Arg. 1.*).
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Partant le Pgr. FX eſt = au Pgr. HK.
 
 Or la baze HK eſt = à la baze qN. (*Hyp. 1.*).
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. Donc baze qN = à la baze FX.
 
@@ -37,13 +51,19 @@ Mais baze qN : baze qQ = ⊟ MF : ⊟ ZQ. (*Arg. 6.*)
 
 Et baze qQ : baze FX = ⊟ ZQ : ⊟ DX, (*Conv. Arg. 7.*).
 
+[Curated heading level=4 type=numbered_item: 10.]
+
 10. Part. baze qN : baze FX = ⊟ MF : ⊟ DX.
 
 Or baze qN eſt = à la baze FX. (*Arg. 9.*).
 
+[Curated heading level=4 type=numbered_item: 11.]
+
 11. Partant le ⊟ MF eſt = au ⊟ DX.
 
 Mais les ⊟s DX & KI ſont égaux. (*Arg. 5.*).
+
+[Curated heading level=4 type=numbered_item: 12.]
 
 12. Donc le ⊟ MF eſt = au ⊟ KI.
 

@@ -7,6 +7,8 @@ CAS II. Lorſque le point N tombe dans la moitié AF.
 
 Le Pgr NE étant ⚌ au Pgr IE (*Prop.* 43. *L.* 1), ſi l'on ajoute de part & d'autre le Pgr commun FD,
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le Pgr ND ſera ⚌ au Pgr FI;
 
 [Margin]
@@ -15,6 +17,8 @@ Ax. 2. L. 1.
 
 Mais à cauſe que le Pgr AK eſt auſſi ⚌ au Pgr FI (*Prop.* 36. *L.* 1),
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Le Pgr ND ſera ⚌ au Pgr AK.
 
 [Margin]
@@ -22,6 +26,8 @@ Ax. 1. L. 1.
 [/Margin]
 
 Si l'on rétranche donc de part & d'autre le Pgr commun FM,
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Reſte le Pgr FD ⚌ au Gnomon *abc*.
 
@@ -35,11 +41,15 @@ Or le Pgr FD eſt ⚌ au Pgr AE;
 Prop. 36. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. C'eſt pourquoi le Pgr AE ⚌ au Gnomon *abc*.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Par conſéquent le Pgr AE 〉 que le Pgr AG.
 

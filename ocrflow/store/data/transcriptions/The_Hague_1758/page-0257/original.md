@@ -3,7 +3,7 @@
 
 [Figure: a rectangle E G F over base A H B, with dotted line G H and a line C D below]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### IX.
 

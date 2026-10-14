@@ -19,11 +19,15 @@ La droite ED touche le ⊙ ADH au point D.
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:D|lines=2|style=plain}U point E tirez au ⊙ ADH la tangente EH.
 
 [Margin]
 Prop. 17. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez les rayons CD, CH & la droite CE.
 
@@ -35,6 +39,8 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque le Rgle de AE. EB eſt = au □ de ED *(Hyp. 3)* & que le Rgle AE. EB eſt auſſi = au □ de EH *(Prep. 1 & Prop. 36. L. 3)*.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le □ de ED eſt = au □ de EH *(Ax. 1. L. 1)*, ou ED = EH, Et comme de plus, dans les △ CDE, CHE, le côté CD eſt = au côté CH *(Def. 15. L. 1)*, & CE commun aux deux △.
 
 [Margin]
@@ -42,17 +48,23 @@ Prop. 46. L. 1.
 Coroll. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. L'angle CDE eſt = à ∀ CHE.
 
 [Margin]
 Prop. 8. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C'eſt pourquoi, ∀ CHE étant un ⌐ *(Prep. 1 & Prop. 18. L. 3)*, ∀ CDE eſt un ⌐ auſſi,
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Et la droite ED touche le ⊙ ADH au point D.
 

@@ -17,8 +17,16 @@
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Joignez les deux droites AB, BC en une même droite AC.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Décrivez ſur AC le demi ⊙ ADC.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Sur AC, au point B, élevez la ⊥ BD, juſqu'à la ○ en D.
 
 [Margin]
@@ -37,8 +45,17 @@ Dem. 1. L. 1.
 ### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uis donc que ∀ ADC ſe trouve dans un demi cercle (*Reſ.* 2, & *Prep.*).
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. C'eſt un angle droit.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 3.{printer-error-correction:2.} C'eſt pourquoi le △ ADC eſt rectangle en D, & BD eſt une ⊥ abaiſſée du ſommet D de l'angle droit, à la baſe AC (*Reſ.* 3).
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Par conſéquent AB : BD ═ BD : BC.
 
 [Margin]

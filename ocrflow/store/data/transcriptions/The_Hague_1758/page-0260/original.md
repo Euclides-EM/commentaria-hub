@@ -19,7 +19,12 @@ AD : DC ═ AB : BC.
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Par le point C tirez CE Plle à DB.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Prolongez AB juſqu'à ce qu'elle rencontre CE en E.
 
 [Margin]
@@ -30,10 +35,22 @@ Dem. 2. L. 1.
 ### I. DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites DB, CE ſont Plles (*Prep.* 1);
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s'enſuit que AD : DC ═ AB : BE.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Et que ∀ *n* ═ à ∀ *m*, & ∀ *o* ═ ∀ *p*.
 Mais, ∀ *o* étant ═ à ∀ *n* (*Hyp*).
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. L'angle *m* eſt auſſi ═ à ∀ *p*, & BC ═ à BE.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. C'eſt pourquoi AD : DC ═ ou AB : BC
 
 [Margin]
@@ -59,11 +76,23 @@ La droite BD coupe ∀ ABC en deux également ou ∀ o ═ ∀ n.
 ### II. DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites DB, CE ſont Plles (*Prep.* 1),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s'enſuit que AD : DC ═ AB : BE.
 Mais AD : DC ═ AB : BC (*Hyp.*);
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. C'eſt pourquoi AB : BE ═ AB : BC.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Par conſéquent, BE eſt ═ BC, & ∀ *m* ═ ∀ *p*.
 Mais ∀ *m* eſt auſſi ═ à ∀ *n*, & ∀ *p* ═ à ∀ *o* (*Prop.* 29. *L.* 1).
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant ∀ *n* eſt ═ à ∀ *o*, ou la droite BD coupe ∀ ABC en deux également.
 
 [Margin]

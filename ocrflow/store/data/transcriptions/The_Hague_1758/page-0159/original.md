@@ -17,6 +17,8 @@
 
 ### *Réſolution.*
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Tirez le diamêtre AD du ⊙ ABD.
 
 [Margin]
@@ -39,7 +41,12 @@ C. Q. F. F.
 
 Si AD eſt > N.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. FAites AE = à N.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Du centre A & du rayon AE décrivez le ⊙ EBF, & tirez AB.
 
 [Margin]
@@ -50,6 +57,8 @@ Dem. 3.
 ### Demonstration.
 
 PUiſque AB eſt = à AE (*Def.* 15. *L.* 1), & que la droite N eſt = à AE (*Ref.* 1),
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. La droite AB, appliquée dans le ⊙ ABD, ſera auſſi = à N.
 

@@ -20,7 +20,12 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Diſpoſez les deux △ ACB, ECD, enſorte que les côtés AC, CD, ne forment qu'une même droite AD.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Tirez la droite BD.
 
 [Margin]
@@ -30,9 +35,21 @@ Dem. 1. L. 1.
 ### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque ∀ *m* ═ ∀ *n* (*Hyp.* 2), & que les droites AC, CD, ne forment qu'une même droite AD (*Prep.* 1),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les lignes EC, CB, ne formeront auſſi qu'une même droite EB. Mais le △ ACB étant ═ au △ ECD (*Hyp.* 1),
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Le △ ACB : △ CBD ═ △ ECD : △ CBD. Or les △ ACB, CBD, item ECD, CBD, ont la même hauteur (*Prep.* 2 *Arg.* 1 & *Def. L.* 6. *Rem.*);
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C'eſt pourquoi le △ ACB : △ CBD ═ AC : CD. & le △ ECD : △ CBD ═ EC : CB.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant AC : CD ═ EC : CB. (*Arg.* 2 & *Prop.* 11. *L.* 5.).
 
 [Margin]

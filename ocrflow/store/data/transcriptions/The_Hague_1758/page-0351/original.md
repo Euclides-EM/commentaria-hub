@@ -15,6 +15,8 @@ Baze IL : baze AC = hauteur GB : hauteur IR.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ⊟s IN & AD ont la même hauteur (1. *Prép.* 1.).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le ⊟ IN : ⊟ AD = baze IL : baze AC.
 
 [Margin]
@@ -23,6 +25,8 @@ Prop.32.L.11.
 
 Or baze IL : baze AC = hauteur GB : hauteur IR (*Hyp.*).
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Donc ⊟ IN : ⊟ AD = hauteur GB : hauteur IR.
 
 [Margin]
@@ -30,6 +34,8 @@ Prop. 11. L 5.
 [/Margin]
 
 Et comme PI eſt = BG (1. *Prép.* 1.).
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Le ⊟ IN : ⊟ AD = hauteur PI : hauteur IR.
 
@@ -49,6 +55,8 @@ Et Pgr. KP : Pgr. KR = ⊟ IN : ⊟ IV.
 Prop.32.L.11.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Donc le ⊟ IN : ⊟ AD = ⊟ IN : ⊟ IV.
 
 [Margin]
@@ -56,6 +64,8 @@ Prop.11.L. 5.
 [/Margin]
 
 Or le ⊟ IN eſt égal à lui même & il eſt le premier & troiſieme terme de la proportion.
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant le ⊟ AD eſt = au ⊟ IV.
 

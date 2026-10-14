@@ -9,6 +9,8 @@
 Prop. 2. L. 6.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 14.]
+
 14. IC : CK = IX : XY.
 
 [Margin]
@@ -21,6 +23,8 @@ Mais IC eſt > IX.
 Prop. 14. L. 5.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 15.]
+
 15. Donc CK > XY.
 
 Or PS eſt = à XY (*Arg*. 8.).
@@ -29,7 +33,11 @@ Or PS eſt = à XY (*Arg*. 8.).
 Prop. 7. L. 5.
 [/Margin]
 
-16 D'où il ſuit que CK eſt auſſi > PS.
+[Curated heading level=4 type=numbered_item: 16.]
+
+16. D'où il ſuit que CK eſt auſſi > PS.
+
+[Curated heading level=4 type=numbered_item: 17.]
 
 17. De la même manière on demontrera que SP eſt > TQ, & TQ > VR.
 
@@ -50,7 +58,11 @@ Prop. 46. L. 1.
 Cor. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 18.]
+
 18. Donc ZP = ZC = ZK = ZS.
+
+[Curated heading level=4 type=numbered_item: 19.]
 
 19. Partant le ⊙ décrit du centre Z, avec le rayon ZP, paſſera par les points K, S, & C, & le quadrilatère KSPC ſera inſcrit dans un ⊙.
 
@@ -62,13 +74,19 @@ Mais ſi les quatres cotés du quadrilatère étoit égaux; les arcs, qui les ſ
 
 Or KS, CK & CP, ſont égaux (*Ref*. 7.) & CK eſt > SP (*Arg*. 16.)
 
+[Curated heading level=4 type=numbered_item: 20.]
+
 20. D'où il eſt évident que les trois cotés KS, CK & CP ſous tendent plus que les trois quarts de la ○; & CK (qui eſt = à KS & CP) en ſouſtent, par conſequent plus que le quart.
 
 [Margin]
 Prop. 33. L. 6.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 21.]
+
 21. Partant l'∀ du centre qui eſt ∀ CZK eſt > ∟.
+
+[Curated heading level=4 type=numbered_item: 22.]
 
 22. D'où il ſuit que le □ ſur KC eſt > que □ ſur ZC + le □ ſur ZK.
 
@@ -79,6 +97,8 @@ Prop. 12. L. 2.
 Mais le □ ſur ZC eſt = au □ ſur ZK (*Prop*. 46. *L*. 1. *Cor*. 3.).
 
 puiſque ZC eſt = à ZK (*Arg*. 18.).
+
+[Curated heading level=4 type=numbered_item: 23.]
 
 23. Donc le □ ſur KC eſt > que le double du □ ſur ZC.
 

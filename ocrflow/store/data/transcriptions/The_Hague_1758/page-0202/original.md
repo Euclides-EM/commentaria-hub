@@ -29,9 +29,13 @@ Dem. 2.
 
 {dropcap:P|lines=2|style=plain}Uiſque a M eſt autant multiple de M, que a N l'eſt de N. (Hyp),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La gdr. a M doit contenir autant de grandeurs A, B, C &c. égales chacune à M, que a N en contient d'égales à N, comme X, Y, Z &c.
 
 Mais A = M & X = N (Prep.),
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc A + X = M + N.
 
@@ -41,6 +45,8 @@ Ax. 2. L. 1.
 
 De même B étant = M & Y = N (Prep.),
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Il ſuit que B + Y = M + N.
 
 [Margin]
@@ -49,6 +55,8 @@ Ax. 2. L. 1.
 
 Derechef, puiſque C = M & Z = N (Prep.),
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. On aura C + Z = M + N.
 
 [Margin]
@@ -56,6 +64,8 @@ Ax. 2. L. 1.
 [/Margin]
 
 Par conſéquent il ſe trouve dans a M autant de grandeurs = M, Qu'il s'en trouve dans a M + a N = M + N.
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. D'où il ſuit que a M + a N eſt autant multiple de M + N, que a M l'eſt de M, ou que a N l'eſt de N, & par la même raiſon a M + a N + a O autant multiple de M + N + O, que a M l'eſt de M ou a N de N &c.
 

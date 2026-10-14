@@ -26,6 +26,8 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites AB, CD ſont deux Plles (*Hyp.* 1) coupées par une même droite AD (*Hyp.* 2).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les ∀ alternes *m* & *n* ſont ＝ entr'eux.
 
 [Margin]
@@ -34,6 +36,8 @@ Prop. 29. L. 1.
 
 Derechef, puiſque les droites AC, BD ſont deux Plles (*Hyp.* 1) coupées par une même droite AD (*Hyp.* 2).
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Les ∀ alternes *r* & *s* ſont ＝ entr'eux.
 
 [Margin]
@@ -41,6 +45,8 @@ Prop. 29. L. 1.
 [/Margin]
 
 Mais les △ CAD, BDA ont deux ∀ *m* & *s* ＝ à deux ∀ *n* & *r* (*Arg.* 1 & 2), & le coté AD adjacent à ces ∀ égaux eſt commun aux deux △.
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, les côtés AC & BD, oppoſés aux ∀ égaux *m* & *n*, item les côtés CD, AB, oppoſés aux ∀ égaux *s* & *r* ſont ＝ entr'eux & le troiſieme ∀ C eſt ＝ au troiſieme ∀ B.
 
@@ -52,6 +58,8 @@ C. Q. F. D. I.
 
 Or ∀ *m* étant ＝ à ∀ *n* (*Arg.* 1) & ∀ *r* ＝ ∀ *s* (*Arg.* 2);
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. L'angle entier *m* ＋ *r* eſt ＝ à l'angle entier *n* ＋ *s*.
 
 [Margin]
@@ -61,6 +69,8 @@ Ax. 2.
 C. Q. F. D. II.
 
 Enfin, puiſque dans les △ CAD, BDA le côté CD eſt ＝ au côté AB (*Arg.* 3), le côté AD commun aux deux △ & ∀ compris *m* ＝ à ∀ compris *n* (*Arg.* 1).
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Ces deux △ CAD, BDA, formés par la diagonale AD ſont ＝ entr'eux.
 

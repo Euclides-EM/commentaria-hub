@@ -17,17 +17,23 @@
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:C|lines=2|style=plain}Oupez les deux ∀ BAF, AFE du pentagone ABDEF en deux également, par les droites prolongées CA, CF.
 
 [Margin]
 Prop. 9. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Du point C, où ces droites ſe joignent, abaiſſez ſur AF la ⊥ CL.
 
 [Margin]
 Prop. 12. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Du point C, comme centre & du rayon CL, décrivez le ⊙ GHIKL.
 
@@ -37,11 +43,15 @@ Dem. 3.
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:T|lines=2|style=plain}Irez les droites CB, CD, CE.
 
 [Margin]
 Dem. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point C abaiſſez ſur AB, BD, DE, EF les ⊥ CG, CH, CI, CK.
 
@@ -53,6 +63,8 @@ Prop. 12. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans les △ ACF, ACB le côté AF eſt = au côté AB, le côté CA commun aux deux △ & ∀ CAF = à ∀ CAB (*Reſ.* 1 *& donné*).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s'enſuit que ∀ CFA eſt = à ∀ CBA.
 
 [Margin]
@@ -60,6 +72,8 @@ Prop. 4. L. 1.
 [/Margin]
 
 Mais ∀ AFE étant = ∀ DBA & double de ∀ CFA (*Reſ.* 1).
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Il s'enſuit que ∀ DBA eſt auſſi double de ∀ CBA; ou ∀ CBD = à ∀ CBA.
 
@@ -69,6 +83,8 @@ Ax. 6. L. 1.
 
 On démontrera de même, que
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. L'angle CDB eſt = à ∀ CDE, & ∀ CED = à ∀ CEF.
 
 On a donc dans les △ CBG, CBH, l'angle CBG = a ∀ CBH (*Arg.* 2), l'angle CGB = à ∀ CHB (*Prep.* 2 *& Ax.* 10. *L.* 1) & CB commun aux deux △.
@@ -77,7 +93,11 @@ On a donc dans les △ CBG, CBH, l'angle CBG = a ∀ CBH (*Arg.* 2), l'angle CGB
 Prop. 26. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant, la droite CG eſt = à CH; & par la même raiſon CI, CK, CL ſont = à CH ou à CG.
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Le ⊙ décrit du centre C & du rayon CL paſſera donc auſſi par les points G, H, I, K.
 
@@ -86,6 +106,8 @@ Def. 15. L. 1.
 [/Margin]
 
 Et parceque les droites AB, BD, DE, EF, FA ſont ⊥ à l'extrémité des rayons CG, CH, CI, CK, CL (*Prep.* 2 *& Reſ.* 2).
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Ces droites toucheront le ⊙ GHIKL (*Prop.* 16. *L.* 3. *Coroll.*); & ce ⊙ eſt inſcrit dans le pentagone ABDEF.
 

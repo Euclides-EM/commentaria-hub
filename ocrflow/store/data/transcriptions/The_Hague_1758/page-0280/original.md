@@ -4,12 +4,27 @@
 [Figure: two polygons M and N; polygon M with vertices A, B, C, D, E and diagonals AC, AD, with angles m and n at C; polygon N with vertices F, G, H, I, K and diagonals FH, FI, with angles a and e at H]
 
 De même, parceque les △ ABC, FGH ſont ſemblables (*Arg.* 2),
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Le △ ABC : △ FGH ═ A̅C̅² : F̅H̅²; *
 De même le △ ACD : △ FHI ═ A̅C̅² : F̅H̅². *
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Donc le △ ABC : △ FGH ═ △ ACD : △ FHI.
 On démontrera de même que
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Le △ ADE : △ FIK ═ △ ACD : △ FHI.
+
+[Curated heading level=4 type=numbered_item: 9.]
+
 9. C'eſt pourquoi △ ABC : △ FGH ═ △ ACD : △ FHI ═ △ ADE : △ FIK.
+
+[Curated heading level=4 type=numbered_item: 10.]
+
 10. Comparant donc la ſomme des Antécédens à celle des Conſéquens,
 le △ ABC + △ ACD &c. △ FGH + △ FHI &c. ═ △ ABC : △ FGH, &c.
 c. à. d. le Polyg. M : Polyg. N ═ △ ABC : △ FGH ═ △ ACD : △ FHI &c.
@@ -25,6 +40,9 @@ Prop. 7. L. 5.
 C. Q. F. D. II.
 
 Puis donc que le △ ABC : △ FGH ═ A̅B̅² : F̅G̅² * (*Prop.* 19. *L.* 6.),
+
+[Curated heading level=4 type=numbered_item: 11.]
+
 11. Le Polyg. M : Polyg. N ═ A̅B̅² : F̅G̅². *
 
 [Margin]

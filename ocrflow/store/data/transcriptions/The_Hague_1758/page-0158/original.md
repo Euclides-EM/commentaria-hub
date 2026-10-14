@@ -1,9 +1,11 @@
 <!-- Page number: 146 -->
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Diagram: Fig. 1. square FCGE(H) with inscribed circle labelled B, D, A; Fig. 2. circle with inscribed triangle ABC, D below; Fig. 3. circle with points A, B, D, E]
 
-## DEFINITIONS
+<!-- Running title: DEFINITIONS -->
 
 ### V.
 

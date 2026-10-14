@@ -2,17 +2,27 @@
 
 <!-- Page number: Pag. 5 -->
 
+[Curated heading level=1 type=figures: Fig. 13.]
+
 [Figure: Fig. 13. a triangle]
+
+[Curated heading level=1 type=figures: Fig. 14.]
 
 [Figure: Fig. 14. a quadrilateral]
 
+[Curated heading level=1 type=figures: Fig. 15.]
+
 [Figure: Fig. 15. an irregular pentagon]
+
+[Curated heading level=1 type=figures: Fig. 16.]
 
 [Figure: Fig. 16. a triangle]
 
+[Curated heading level=1 type=figures: Fig. 17.]
+
 [Figure: Fig. 17. a triangle]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### XX.
 

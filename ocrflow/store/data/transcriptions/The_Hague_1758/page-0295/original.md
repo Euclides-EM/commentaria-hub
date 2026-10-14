@@ -23,11 +23,15 @@ III. *Et les figures* G & H *ſont ſemblables à* E & *décrites ſemblablement
 
 {dropcap:P|lines=2|style=plain}Uis donc que les figures E, G, H ſont ſemblables & décrites ſemblablement des côtés homologues AC, AB, BC (*Hyp.* 3),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. G : E ⚌ □ de AB : □ de AC. Et H : E ⚌ □ de BC : □ de AC.
 
 [Margin]
 Prop. 20. L. 6. Coroll. 2.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant G + H : E ⚌ □ de AB + □ de BC : □ de AC.
 
@@ -37,11 +41,15 @@ Prop. 24. L. 5.
 
 Or à cauſe que le △ ABC eſt rectangle en B (*Hyp.* 1),
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Le □ de AB + □ de BC eſt ⚌ au □ de AC.
 
 [Margin]
 Prop. 47. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc la figure E eſt ⚌ aux figures G + H.
 

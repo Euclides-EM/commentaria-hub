@@ -16,11 +16,15 @@
 
 {dropcap:C|lines=2|style=plain}Ar puiſqu'on ſuppoſe ∀ *p* ＋ *n* ＞ ∀ *o*.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. On peut décrire dans le plus grand ∀ *p* ＋ *n*, ſur la droite EF au point G, l'angle *n* ＝ ∀ *o*,
 
 [Margin]
 Prop. 23. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et prolonger AG à volonté en B.
 
@@ -32,6 +36,8 @@ Dem. 2.
 
 {dropcap:P|lines=2|style=plain}Uis donc que les deux lignes AB, CD ſont coupées par une troiſieme EF, enſorte que les ∀ alternes *n* & *o* ſont ＝ entr'eux (*Prep.* 1).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Ces deux lignes AB, CD ſont Plles.
 
 [Margin]
@@ -39,6 +45,8 @@ Prop. 27. L. 1.
 [/Margin]
 
 Mais la ligne LN coupe une des deux Plles, à ſçavoir AB en G.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc, ſi on la prolonge ſuffiſamment, elle coupera auſſi l'autre CD quelque part en M, du côté où ſe trouve le plus petit des ∀ alternes *o*.
 

@@ -2,13 +2,19 @@
 
 <!-- Running title: LIVRE PREMIER. -->
 
+[Curated heading level=1 type=figures: Fig. 25.]
+
 [Figure: Fig. 25. a rhomboid]
+
+[Curated heading level=1 type=figures: Fig. 26.]
 
 [Figure: Fig. 26. a trapezium]
 
+[Curated heading level=1 type=figures: Fig. 27.]
+
 [Figure: Fig. 27. two parallel lines]
 
-## DEFINITIONS
+<!-- Running title: DEFINITIONS -->
 
 ### XXXIII.
 

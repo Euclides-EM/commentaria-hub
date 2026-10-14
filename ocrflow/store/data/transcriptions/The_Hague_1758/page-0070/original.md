@@ -20,11 +20,15 @@ Donnees
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:C|lines=2|style=plain}Oupez la baſe BD en deux parties égales, au point C.
 
 [Margin]
 Prop. 10. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Sur la droite BD au point C conſtruiſez un ∀ DCE ＝ à ∀ donné M.
 
@@ -32,17 +36,23 @@ Prop. 10. L. 1.
 Prop. 23. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Par le point A tirez la droite AF Plle à BD.
 
 [Margin]
 Prop. 31. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Prolongez la jambe CE de l'angle DCE, juſqu'à ce qu'elle rencontre la droite AF en un point E (*Rem. de la Prop. XXVII*).
 
 [Margin]
 Dem. 2.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Par le point D tirez DF Plle à CE, & prolongez la juſqu'à ce qu'elle rencontre AF en un point F (*Rem. de la Prop. XXVII*).
 
@@ -63,11 +73,15 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les △ BAC, CAD ſont placés ſur des baſes égales BC, CD (*Ref.* 1) & entre les mêmes Plles BD, AF (*Ref.* 3).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le △ BAC eſt ＝ au △ CAD.
 
 [Margin]
 Prop. 38. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, le △ BAD eſt double du △ CAD.
 
@@ -77,6 +91,8 @@ N. C.
 
 Mais dans la figure ED les côtés CD, EF & CE, DF ſont Plles (*Ref.* 3 & 5).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Par conſéquent, ED eſt un Pgr.
 
 [Margin]
@@ -84,6 +100,8 @@ Def. 35. L. 1.
 [/Margin]
 
 Or ce Pgr ED & le △ CAD ſont placés ſur une même baſe CD, & entre les mêmes Plles BD, AF (*Ref.* 1. 3 & *Prep.*).
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. D'où il ſuit, que le Pgr ED eſt double du △ CAD.
 
@@ -93,6 +111,8 @@ Prop. 41. L. 1.
 
 Puis donc que le Pgr ED eſt double du △ CAD (*Arg.* 4) & que le △ BAD eſt auſſi double du même △ CAD (*Arg.* 2).
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Il eſt évident, que le Pgr ED eſt ＝ au △ BAD,
 
 [Margin]
@@ -100,6 +120,8 @@ Ax. 6.
 [/Margin]
 
 Et comme ſon angle DCE eſt outre cela ＝ à ∀ donné M (*Ref.* 2).
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Ce Pgr ED eſt ＝ au △ donné BAD; & a un ∀ DCE ＝ à ∀ donné M.
 

@@ -17,11 +17,15 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:S|lines=2|style=plain}Ur AD au point A élevez la ⊥ AK.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. De la droite AK retranchez une partie EA = N.
 
@@ -29,7 +33,12 @@ Prop. 11. L. 1.
 Prop. 3. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Par les points D & E tirez les droites DH, EH Plles à AE, AD,
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Et par les points de ſection B, & C, les droites BF, CG Plles à AE ou DH.
 
 [Margin]
@@ -37,6 +46,8 @@ Prop. 31. L. 1.
 [/Margin]
 
 ### Demonstration.
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. {dropcap:L|lines=2|style=plain}E Rgle AH eſt = aux Rgles AF, BG, CH pris enſemble.
 
@@ -46,6 +57,8 @@ Ax. 1. L. 2.
 
 Mais à cauſe que le Rgle AH eſt compris des droites EA, AD (*Prep.* 3) & que AE = N (*Prep.* 2).
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Ce Rgle AH eſt compris des droites AD & N.
 
 [Margin]
@@ -54,17 +67,23 @@ Ax. 2. L. 2.
 
 De même; à cauſe que le Rgle AF eſt compris des droites EA, AB (*Prep.* 4) & que EA = N (*Prep.* 2).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Ce Rgle AF eſt compris des droites AB & N.
 
 [Margin]
 Ax. 2. L. 2.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. De la même maniere; le Rgle BG eſt compris des droites BC & N; parce qu'il eſt compris des droites FB & BC & que FB = N; Et ainſi de tous les autres.
 
 [Margin]
 Prop. 34. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant, le Rgle compris des droites AD & N eſt = aux Rgles compris des droites AB & N, BC & N, CD & N pris enſemble. c. à. d. le Rgle AD.N eſt = aux Rgles AB.N + BC.N + CD.N.
 

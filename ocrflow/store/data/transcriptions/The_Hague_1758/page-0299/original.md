@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE SIXIEME. -->
 <!-- Page number: 287 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2.]
+
 [Figure: dans un encadrement, Fig. 1: deux cercles inégaux de centre C, avec des angles au centre marqués, points m, n, B, D, E, F sur les circonférences; Fig. 2: deux cercles concentriques de centre C, avec deux rayons coupant les circonférences aux points E, F et B, D, points m et n marqués]
 
 ### COROLLAIRE I.

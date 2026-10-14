@@ -2,9 +2,11 @@
 
 <!-- Running title: ELEMENS D'EUCLIDE -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Diagram: three figures in a ruled frame — Fig. 1. octahedron; Fig. 2. dodecahedron; Fig. 3. icosahedron]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### XXVII.
 

@@ -15,10 +15,24 @@
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. **F**Aites le Pgr Rgle CE = à la figure A.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Prolongez le côté BE, & faites EF = à ED.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Partagez la droite BF en deux parties égales au point H.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Et du point H comme centre, & du rayon HB décrivez le ⊙ BGF.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Prolongez le côté DE, juſqu'a ce qu'il coupe la ○ BGF en G.
 
 [Margin]
@@ -40,16 +54,34 @@ Dem. 1.
 ### Demonstration.
 
 PUiſque la droite BF eſt coupée en deux également en H & en deux inégalement en E (*Ref.* 3 & 2).
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le Rgle BE.EF & le □ de HE pris enſemble ſont = au □ de HF.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Et parceque HF = HG (*Def.* 15. *L.* 1); le □ de HF eſt = au □ HG.
 Le Rgle BE.EF + le □ HE eſt = au □ de HG.
 Mais le □ de HG etant = au □ HE & au □ de EG pris enſemble (*Prop.* 47. *L.* 1).
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Le Rgle BE.EF + le □ de HE eſt auſſi = au □ de HE + au □ de EG.
 Si on retranche donc de part & d'autre le □ de HE ;
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Le Rgle BE.EF ſera = au □ de EG.
 Et ce Rgle BE.EF étant de plus = au Rgle BE.ED; à cauſe que EF = ED. (*Ref.* 2).
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Le Rgle BE.ED ſera auſſi = au □ de EG.
 Mais le Rgle BE.ED eſt = à la figure donnée A (*Ref.* 1).
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Par conſéquent, le □ de EG ſera auſſi égal à cette figure rectiligne donnée A.
 
 [Margin]

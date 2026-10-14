@@ -1,6 +1,8 @@
 <!-- Page number: 136 -->
 <!-- Running title: ÉLEMENS D’EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Diagram: three geometrical figures labelled Fig. 1., Fig. 2. and Fig. 3., showing circles and construction lines labelled A, B, C, D, E, F, G and N]
 
 ## PROPOSITION XXXIII. PROBLEME V.
@@ -11,11 +13,15 @@
 |---|---|
 | *La droite AB avec ∀ N.* | *Le ſegment ADB décrit ſur AB, qui contienne un ∀ = à ∀ N.* |
 
-### CAS I. Si ∀ donné eſt ∟, (Fig. 1).
+### CAS I.
+
+Si ∀ donné eſt ∟, (Fig. 1).
 
 #### DEMONSTRATION.
 
 {dropcap:O|lines=2|style=plain}N n’a qu’à décrire ſur AB un demi ⊙ ADB.
+
+[Curated heading level=5 type=numbered_item: 1.]
 
 1. Ce demi ⊙ contiendra un ∀ = à ∀ droit donné N.
 
@@ -24,9 +30,13 @@ Dem. 3.
 Prop. 31. L. 3.
 [/Margin]
 
-### CAS II. Si ∀ donné eſt aigu, (Fig. 2.); ou obtus (Fig. 3).
+### CAS II.
+
+Si ∀ donné eſt aigu, (Fig. 2.); ou obtus (Fig. 3).
 
 #### Réſolution.
+
+[Curated heading level=5 type=numbered_item: 1.]
 
 1. {dropcap:F|lines=2|style=plain}Aites ſur AB, au point A, l’angle BAE = à ∀ donné N.
 
@@ -34,11 +44,15 @@ Prop. 31. L. 3.
 Prop. 23. L. 1.
 [/Margin]
 
+[Curated heading level=5 type=numbered_item: 2.]
+
 2. Du point A élevez ſur AE la ⊥ AG.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
+
+[Curated heading level=5 type=numbered_item: 3.]
 
 3. Coupez la droite AB en deux également au point F.
 
@@ -46,11 +60,15 @@ Prop. 11. L. 1.
 Prop. 10. L. 1.
 [/Margin]
 
+[Curated heading level=5 type=numbered_item: 4.]
+
 4. Elevez ſur AB, au point F, la ⊥ FC, qui coupera AG quelque part en C.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
+
+[Curated heading level=5 type=numbered_item: 5.]
 
 5. De ce point C comme centre, & du rayon CA, décrivez le ⊙ ADG;
 
@@ -74,7 +92,11 @@ Dem. 1.
 Prop. 4. L. 1.
 [/Margin]
 
+[Curated heading level=5 type=numbered_item: 1.]
+
 1. La baſe CA eſt = à la baſe CB.
+
+[Curated heading level=5 type=numbered_item: 2.]
 
 2. Partant, le ⊙ décrit du centre C & du rayon CA, paſſera auſſi par le point B, & ADB eſt un ſegment décrit ſur AB.
 
@@ -89,7 +111,11 @@ Mais la droite AE touchant le ⊙ ADB au point A *(Reſ. 2. & Prop. 16. L. 3. Co
 Prop. 32. L. 3.
 [/Margin]
 
+[Curated heading level=5 type=numbered_item: 3.]
+
 3. L’angle compris dans le ſegment alterne ADB eſt = à ∀ BAE.
+
+[Curated heading level=5 type=numbered_item: 4.]
 
 4. C’eſt pourquoi, ∀ BAE étant = à ∀ donné N *(Reſ. 1)*, ∀ compris dans le ſegment ADB décrit ſur AB, eſt auſſi = à ∀ donné N.
 

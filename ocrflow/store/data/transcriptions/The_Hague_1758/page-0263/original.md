@@ -25,7 +25,12 @@ II. Les ∀ C & n, item les ∀ B & E ſont ═ entr'eux.
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Faites ſur la droite DF au point D, ∀ p ═ à ∀ A, ou ═ à ∀ m, & au point F, ∀ q ═ à ∀ C.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Prolongez les côtés DG, FG juſqu'à ce qu'ils ſe rencontrent en G.
 
 [Margin]
@@ -36,13 +41,28 @@ Prop. 27. L. 1. Rem.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les △ ABC, DGF ſont équiangles (*Prep.* 1. & *Prop.* 32. *L.* 1), & ſpecialement ∀ C ═ ∀ q & ∀ B ═ ∀ G.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. BA : AC ═ GD : DF.
 Or BA : AC ═ ED : DF (*Hyp.* 2),
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. C'eſt pourquoi GD : DF ═ ED : DF.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. D'où il ſuit que GD eſt ═ à ED.
 Les deux △ DEF, DGF ayant donc deux côtés ED, DF ═ à deux côtés GD, DF (*Arg.* 3) & ∀ compris *m* ═ à ∀ compris *p* (*Prep.* 1),
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Les deux autres ∀ *n* & *q* item E & G ſont ═ entr'eux; & ces deux △ DEF, DGF ſont équiangles.
 Mais les △ ABC, DGF étant auſſi équiangles (*Prep.* 1 & *Prop.* 32. *L.* 1),
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Il ſuit que les △ ABC, DEF ſont équiangles
 
 [Margin]
@@ -56,9 +76,18 @@ Ax. 1. L. 1.
 C. Q. F. D. I.
 
 De plus, chacun des angles C & *n* étant ═ à ∀ q (*Prep.* 1 & *Arg.* 4),
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. L'angle C eſt ═ à ∀ *n*.
+
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Partant, ∀ A étant ═ à ∀ *m* (*Hyp.* 1), l'angle B eſt auſſi ═ à ∀ E.
 Et les côtés BA, ED & AC, DF oppoſés à ces angles, étant homologues (*Hyp.* 3. & *Def.* 12. *L.* 5),
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Il s'enſuit que les ∀ C & *n*, item B & E oppoſés à ces côtés homologues, ſont ═ entr'eux.
 
 [Margin]

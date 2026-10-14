@@ -28,10 +28,19 @@ Dem. 1. L. 1.
 ### I. DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que DE eſt Plle à AC (*Hyp.*)
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le △ DAE eſt ═ au △ ECD.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant △ DAE : △ DBE ═ △ ECD : △ DBE.
 Mais le △ DAE : △ DBE ═ AD : DB,
 & le △ ECD : △ DBE ═ CE : EB (*Prop.* 1. *L.* 6).
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Donc AD : DB ═ CE : EB.
 
 [Margin]
@@ -55,11 +64,23 @@ La droite DE eſt Plle à AC.
 ### II. DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les △ DAE, DBE ſont entre les mêmes Plles, de même que les △ ECD, DBE,
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. On aura le △ DAE : △ DBE ═ AD : DB,
 & le △ ECD : △ DBE ═ CE : EB.
 Mais AD : DB ═ CE : EB (*Hyp.*),
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Donc le △ DAE : △ DBE ═ △ ECD : △ DBE.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C'eſt pourquoi le △ DAE eſt ═ au △ ECD.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant la droite DE eſt Plle à AC.
 
 [Margin]

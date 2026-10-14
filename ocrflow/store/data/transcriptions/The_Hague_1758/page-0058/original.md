@@ -24,6 +24,8 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites AB, CD ſont deux Plles (*Hyp.*) coupées par une même droite GH (*Prep.*).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les ∀ alternes *m* & *n* ſont ＝ entr'eux.
 
 [Margin]
@@ -31,6 +33,8 @@ Prop. 29. L. 1.
 [/Margin]
 
 De même, puiſque les droites CD, EF ſont deux Plles (*Hyp.*) coupées par une même droite GH (*Prep.*).
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. L'angle extérieur *n* eſt ＝ à ſon intérieur *p* oppoſé du même côté.
 
@@ -40,6 +44,8 @@ Prop. 29. L. 1.
 
 Mais ∀ *n* étant ＝ à ∀ *m* (*Arg.* 1), & le même ∀ *n* étant auſſi ＝ à ∀ *p* (*Arg.* 2).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Les ∀ *m* & *p* ſeront ＝ entr'eux.
 
 [Margin]
@@ -47,6 +53,8 @@ Ax. 1.
 [/Margin]
 
 Or ces ∀ égaux *m* & *p* (*Arg.* 3), ſont des ∀ alternes, formés par les deux droites AB, EF, qui ſont coupées par la droite GH.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent, ces droites AB, EF ſont Plles.
 

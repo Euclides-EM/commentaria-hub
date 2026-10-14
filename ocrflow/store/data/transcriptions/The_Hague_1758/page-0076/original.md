@@ -16,11 +16,15 @@ Chercheé. *La conſtruction d'un quarré ſur la droite AB.*
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. DU point A élevez ſur la droite AB la perpendiculaire AK.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Retranchez de la droite AK une partie AC ＝ à AB.
 
@@ -28,7 +32,11 @@ Prop. 11. L. 1.
 Prop. 3. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Par le point C tirez la droite CO Plle à AB,
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Et par le point B tirez la droite BD Plle à AC, laquelle coupera CO quelque part en D (*Rem. de la Prop. XXVII*).
 
@@ -40,11 +48,15 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans la figure AD les côtés oppoſés AB, CD, de même que AC, BD ſont Plles (*Reſ* 3 & 4).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La figure AD eſt un Pgr
 
 [Margin]
 Def. 35. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, les côtés oppoſés AB, CD & AC, BD ſont ＝ entr'eux.
 
@@ -54,6 +66,8 @@ Prop. 34. L. 1.
 
 Mais AC eſt ＝ à AB (*Reſ* 2).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Par conſéquent, les quatre côtés AB, CD, AC, BD ſont ＝ entr'eux.
 
 [Margin]
@@ -61,6 +75,8 @@ Ax. 1.
 [/Margin]
 
 Derechef, puiſque les droites AB, CD ſont Plles. (*Reſ.* 3).
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Les ∀ intérieurs oppoſés A & ACD ſont ＝ à deux ∟.
 
@@ -70,6 +86,8 @@ Prop. 29. L. 1.
 
 Or l'angle A étant un ∟ (*Reſ.* 1).
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Il eſt évident, que ∀ ACD eſt un ∟ auſſi.
 
 [Margin]
@@ -78,15 +96,21 @@ N. C.
 
 De plus, à cauſe que AD eſt un Pgr (*Arg.* 1).
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Les angles oppoſés ſont ＝ entr'eux.
 
 [Margin]
 Prop 34. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. C'eſt pourquoi, les ∀ BDC & B, oppoſés aux ∀ droits A & ACD, ſont auſſi des ∟.
 
 La figure AD étant donc un Pgr (*Arg.* 1) équilatéral (*Arg.* 3) & rectangulaire (*Arg.* 7).
+
+[Curated heading level=4 type=numbered_item: 8.]
 
 8. Il s'enſuit, que cette figure AD conſtruite ſur la droite AB eſt un quarré.
 

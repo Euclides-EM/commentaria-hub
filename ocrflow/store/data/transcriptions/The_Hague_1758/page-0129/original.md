@@ -39,11 +39,15 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque CA eſt = à CE (*Def.* 15. L. 1).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. L’angle CAE ſera = à ∠ CEA.
 
 [Margin]
 Prop. 5. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et à cauſe que ∠ CAE eſt un ∟ (*Sup.*) ; ∠ CEA eſt auſſi un ∟.
 
@@ -51,11 +55,15 @@ Prop. 5. L. 1.
 Ax. 1. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C’eſt pourquoi, les deux ∠ CAE + CEA, du △ AEC, ne ſeront pas < 2∟ ; ce qui eſt impoſſible.
 
 [Margin]
 Prop. 17. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. La ⟂ AB tombe donc hors du cercle.
 

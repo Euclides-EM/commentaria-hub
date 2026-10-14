@@ -18,13 +18,19 @@ III. L'angle rectiligne HDG.*
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 {dropcap:S|lines=2|style=plain}Ur les jambes DG, DH, de l'angle donné HDG, prenez deux points quelconques E & F.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point E au point F tirez la droite EF.
 
 [Margin]
 Dem. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Sur la droite indéterminée AM & au point A, conſtruiſez un △ ABC, dont les trois côtés ſoient égaux aux trois côtés du △ DFE.
 
@@ -36,6 +42,8 @@ Prop. 22. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les trois côtés AB, AC, BC du △ ABC ſont ＝ aux trois côtés DF, DE, FE du △ DFE chacun à chacun (*Reſ.* 3).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s'enſuit, que les ∀ BAC & HDG, oppoſés aux côtés égaux BC, FE, ſont ＝ entr'eux.
 
 [Margin]
@@ -43,6 +51,8 @@ Prop. 8. L. 1.
 [/Margin]
 
 Mais ∀ BAC étant ＝ à ∀ donné HDG, & ſe trouvant décrit outre cela ſur la droite donnée AM au point donné A (*Reſ.* 3).
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Il s'enſuit, qu'on a décrit ſur une droite donnée AM, & à ſon point donné A, un ∀ rectiligne BAC ＝ à un autre ∀ rectiligne donné HDG.
 

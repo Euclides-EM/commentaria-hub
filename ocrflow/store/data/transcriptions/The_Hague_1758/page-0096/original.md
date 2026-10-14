@@ -3,11 +3,19 @@
 
 [Diagram: square A P N D with diagonal P D; points P, O, R, N at top; F, K, M, H and E, I, L, G on horizontal lines through the square; A, C, B, D at bottom; small letters a, b near the diagonal with dotted curve]
 
+[Curated heading level=4 type=numbered_item: 9.]
+
 9. Par conſéquent, leur ſomme eſt = au quadruple Rgle AI. Si on ajoute de part & d'autre le □ CH, qui eſt = au quadruple □ CL (*Arg.* 3).
+
+[Curated heading level=4 type=numbered_item: 10.]
 
 10. Le Gnomon *a b c*, qui en reſulte d'une part, eſt = au Rgle quadruple AI & au quadruple □ CL pris enſemble; c. à. d. au Rgle quadruple AL, attendu que le Rgle AI + le □ CL eſt = au Rgle AL. En ajoutant de nouveau de part & d'autre le □ de AC, qui eſt = au □ FO; à cauſe que AC = FK (*Prop.* 34. *L.* 1);
 
+[Curated heading level=4 type=numbered_item: 11.]
+
 11. Le Rgle quadruple AL & le □ de AC ſeront = au □ AN. Mais le Rgle AL eſt = au Rgle compris de AB, BC; à cauſe que BC = BL (*Arg.* 2), & le □ AN eſt = au □ de AD (*Prep.* 1).
+
+[Curated heading level=4 type=numbered_item: 12.]
 
 12. Partant, le Rgle quadruple ABC + le □ de AC ſont = au □ de AD.
 

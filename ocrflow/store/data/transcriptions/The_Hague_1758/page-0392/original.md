@@ -21,11 +21,15 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:P|lines=2|style=plain}Rolongez l'axe EF du cylindre ABDC de part & d'autre vers N & M.
 
 [Margin]
 Dem. 2. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Sur l'axe prolongé NM, prenez pluſieurs parties égales à EK & FK; comme EN = EK, & FX &c. chacune = FK.
 
@@ -33,7 +37,11 @@ Dem. 2. L. 1.
 Prop. 3. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Par ces points N, X & M, faites paſſer des Plans SR, TY & VQ Plle aux Plans oppoſés BA & DC.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Sur ces Plans Plle décrivez des points N, X & M, des ⊙s SR, TY & VQ chacun égal aux ⊙s oppoſés BA & DC.
 
@@ -41,17 +49,23 @@ Prop. 3. L. 1.
 Dem. 3. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Achevez les cylindres SA, CY, & TQ.
 
 ### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque les axes FX, & XM des cylindres DT & TQ ſont égaux à l'axe FK, du cylindre GD. (*Prép.* 2.).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Ces cylindres DT, TQ & GD, ſeront entr'eux comme leurs bazes. Mais ces bazes ſont égaux. (*Prép.* 4.).
 
 [Margin]
 Prop. 11. L. 12.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc ces cylindres TD, TQ & GD ſont auſſi égaux.
 

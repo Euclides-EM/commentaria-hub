@@ -2,13 +2,19 @@
 
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 10.]
+
 [Figure: Fig. 10. an irregular quadrilateral]
+
+[Curated heading level=1 type=figures: Fig. 11.]
 
 [Figure: Fig. 11. a circle with centre C and radii C B and C D]
 
+[Curated heading level=1 type=figures: Fig. 12.]
+
 [Figure: Fig. 12. a circle with centre C, diameter B D, chord near F and A, and points G and E]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### XIV.
 

@@ -15,9 +15,15 @@ Prop. 11. L.1. Dem. 1 L.1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la demi ○ ABC, eſt diviſé en deux au point B. (*Reſ.* 3.). Et qu'on a continué à prendre la moitiez des moitiez juſqu'à l'arc KC. (*Reſ.* 4.).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s'enſuit que cet arc KC meſurera la ○, un nombre pair de fois ſans reſte (puiſqu'il meſure la demi ○ *Reſ.* 3 & 4.).
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant la ligne KC (corde de l'arc KC) ſera le coté d'un polygone regulier inſcrit au ⊙, ayant le nombre de ſes cotés pair. De plus les deux ∀ HEM & KME, étant deux ⌊. (*Reſ.* 2. & *Prép.*).
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. La ligne KM ou KL eſt Plle à HE ou HI. Or la ligne HI eſt tangente du ⊙ DEF en E (*Reſ.* 2.).
 
@@ -25,11 +31,15 @@ Prop. 11. L.1. Dem. 1 L.1.
 Prop. 28. L.1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant KL ne touche point le ⊙ DEF. Mais KC eſt ⟨ KL, (*Prop.* 15. *L.* 3.) puiſque KC eſt plus éloigné du centre que KL (*Prép.*).
 
 [Margin]
 Def. 35. L.1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Donc a plus forte raiſon KC ne pourra toucher le ⊙ DEF. Et comme les autres cotés du polygone inſcrit dans le ⊙ ABCI ſont chacun ⚌ à KC. (*Reſ.* 5.).
 
@@ -37,7 +47,11 @@ Def. 35. L.1.
 Prop. 15. L.1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. On demontrera de même qu'ils ne touchent point le ⊙ DEF.
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. Partant on a inſcrit au ⊙ ABCI, un polygone, ayant le nombre de cotés pair, leſquels ne touchent point le ⊙ DEF.
 

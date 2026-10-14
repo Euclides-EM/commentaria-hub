@@ -30,7 +30,11 @@ Tirez GF.
 
 {dropcap:P|lines=2|style=plain}Uiſque la partie AFGD du △ EAD n'eſt point dans le même Plan (ZX) avec EFG. (*Sup.*)
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s'enſuit que la partie GD de la ligne CD eſt dans un Plan different que l'autre partie CG de la même droite; & que la partie AF de la droite AB, eſt dans un Plan different que ſon autre partie FB. de même pour AFGD & FEG.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Ce qui eſt impoſſible.
 
@@ -38,7 +42,11 @@ Tirez GF.
 Prop. 1. L. 11.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Les parties des deux lignes & du △ ne pouvant être ſituées dans des Plans differens.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Sont donc dans le même Plan.
 

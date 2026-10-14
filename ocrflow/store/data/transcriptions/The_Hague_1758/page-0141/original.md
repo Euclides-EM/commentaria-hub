@@ -27,6 +27,8 @@ Les ∀ au centre BCG & H, ſeront inégaux, & l’un comme BCG ſera > l’autr
 Prop. 23. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:L|lines=2|style=plain}’arc BK eſt donc = à l’arc DF.
 
 [Margin]
@@ -35,6 +37,8 @@ Prop. 26. L. 3.
 
 Mais l’arc DF étant = à l’arc BG. *(Hyp. 2).*
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. L’arc BK ſeroit auſſi = à l’arc BG; ce qui eſt impoſſible;
 
 [Margin]
@@ -42,11 +46,15 @@ Ax. 1. L. 1.
 Ax. 8. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Partant, les ∀ au centre BCG & H ſont = entr’eux.
 
 C. Q. F. D. I.
 
 Et ces ∀ étant doubles des ∀ à la ⊙ A & E *(Prop. 20. L. 3).*
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Les ∀ à la ⊙ A & E ſont auſſi = entr’eux.
 

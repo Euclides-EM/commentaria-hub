@@ -2,9 +2,11 @@
 
 <!-- Page number: Pag. 9 -->
 
+[Curated heading level=1 type=figures: Fig. 3, 4, 5.]
+
 [Figure: Fig. 3. Fig. 4. Fig. 5. six horizontal lines labelled A B C and D E F, some with dotted extensions]
 
-## AXIOMES.
+<!-- Running title: AXIOMES. -->
 
 ### III.
 
