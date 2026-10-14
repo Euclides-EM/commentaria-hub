@@ -7,6 +7,8 @@ Il faut dans ce premier cas que le côté B soit plus grand que A, car l’angle
 Fig. 81.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2º. Si l’angle C est aigu, et que B soit plus grand que A, la même construction a toujours lieu, et DEF est le triangle requis.
 
 [Margin]
@@ -14,6 +16,8 @@ Fig. 82.
 [/Margin]
 
 Mais si, l’angle C étant aigu, le côté B est moindre que A, alors l’arc décrit du centre E avec le rayon EF = B coupera le côté DF en deux points F et G, situés du même côté de D : donc il y aura deux triangles DEF, DEG, qui satisferont également au problême.
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* Le problême seroit impossible dans tous les cas si le côté B étoit plus petit que la perpendiculaire abaissée de E sur la ligne DF.
 
@@ -32,6 +36,8 @@ Car, par construction, les côtés opposés sont égaux ; donc la figure décrit
 [Margin]
 \* 31. ✣
 [/Margin]
+
+[Curated heading level=4: Corollaire.]
 
 *Corollaire.* Si l’angle donné est droit, la figure sera un rectangle ; si de plus les côtés sont égaux, ce sera un quarré.
 

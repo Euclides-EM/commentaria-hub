@@ -17,6 +17,8 @@ Si l’on prolonge les côtés AB, AC, jusqu’à leur rencontre en E, le triang
 * 22.
 [/Margin]
 
+[Curated heading level=5 type=numbered_item: 2.]
+
 *Scholie II.* Il n’y auroit pas lieu à *maximum* si la somme des deux côtés donnés AB, AC, étoit égale ou plus grande qu’une demi-circonférence ; car puisque le triangle ABC doit être inscrit dans un demi cercle de la sphère, il faut que la somme des deux côtés AB, AC, soit plus petite que la demi-circonférence d’un cercle de la sphère, et par conséquent plus petite que la demi-circonférence d’un grand cercle.
 
 La raison pourquoi il n’y a pas de *maximum*, lorsque la somme des deux côtés donnés est plus grande

@@ -9,6 +9,8 @@ BC² : AB² :: BC : BD.
 
 BC² : AC² :: BC : CD.
 
+[Curated heading level=5 type=numbered_item: 4.]
+
 *Corollaire IV.* Les rectangles BDEF, DCGE, ayant aussi même hauteur, sont entre eux comme leurs bases BD, DC. Or ces rectangles sont équivalents aux quarrés AB², AC² ; donc
 
 AB² : AC² :: BD : DC.
@@ -26,6 +28,8 @@ F. 110.
 *Dans un triangle ABC, si l’angle C est aigu, le quarré du côté opposé sera plus petit que la somme des quarrés des côtés qui comprennent l’angle C ; et en abaissant la perpendiculaire AD sur BC, la différence sera égale au double du rectangle BC × CD ; de sorte qu’on aura*
 
 AB² = AC² + BC² − 2BC × CD.
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 Il y a deux cas. 1°. Si la perpendiculaire tombe au dedans du triangle ABC, on aura BD = BC − CD, et
 

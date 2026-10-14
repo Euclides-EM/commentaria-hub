@@ -3,6 +3,8 @@
 
 les angles alternativement, on formera le triangle équilatéral ACE.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* La figure ABCO est un parallélogramme et même un lozange, puisque AB = BC = CO = AO ;
 
 [Margin]

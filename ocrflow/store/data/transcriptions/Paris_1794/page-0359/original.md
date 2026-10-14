@@ -7,6 +7,8 @@ gne. Il y auroit donc trois variations consécutives de même signe sur AD, DB, 
 Fig. 16.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* S’il y avoit trois faces triangulaires ABE, BEC, CED, réunies en un même sommet E, et si en même temps les angles A, B, C, D, étoient quadruples, on trouveroit de même que le changement d’inclinaison est impossible, à moins que E ne fût plus que sextuple, et ainsi de suite.
 
 Avec ce petit nombre de cas où le changement de figure est impossible, on peut démontrer qu’une infinité de polyedres ne peuvent avoir leurs faces égales et situées dans le même ordre sans être égaux.

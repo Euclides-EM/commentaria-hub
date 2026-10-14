@@ -5,7 +5,11 @@ polygone ſera toujours égale à MS × *circ.* AC. Mais MS eſt plus petit que 
 
 Donc la ſurface de la ſphere eſt égale à ſon diametre multiplié par la circonférence de ſon grand cercle.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* La ſurface du grand cercle ſe meſure en multipliant ſa circonférence par la moitié du rayon ou le quart de diametre ; donc *la ſurface de la ſphere eſt quadruple de celle d’un grand cercle.*
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* La ſurface de la ſphere étant ainſi meſurée et comparée à des ſurfaces planes, il ſera facile d’avoir la valeur abſolue des fuſeaux et triangles ſphériques dont on a déterminé ci-deſſus le rapport avec la ſurface entiere de la ſphere.
 

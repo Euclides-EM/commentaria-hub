@@ -25,6 +25,8 @@ F. 225.
 
 Soit, par exemple, le pentagone ABCDE ; prolongez les côtés AB, DC, jusqu’à leur rencontre en F ; puisque BC est plus petit que BF+CF, le contour du pentagone ABCDE est plus petit que celui du quadrilatere AEDF. Prolongez de nouveau les côtés AE, FD, jusqu’à leur rencontre en G, on aura ED<EG+GD ; donc le contour du quadrilatere AEDF est plus petit que celui du triangle AFG ; celui-ci est plus petit que la circonférence d’un grand cercle ; donc *a fortiori* le contour du polygone ABCDE est moindre que cette même circonférence.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Cette proposition est au fond la même que la XXIᵉ du livre V. Car si O est le centre de la sphere, on peut imaginer au point O un angle solide
 
 <!-- Catchword: formé -->

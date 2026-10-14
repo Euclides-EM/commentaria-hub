@@ -11,8 +11,14 @@ Donc enfin la circonférence d’un cercle multipliée par la moitié de son ray
 F. 168.
 [/Margin]
 
+[Curated heading level=4: Corollaire.]
+
+[Curated heading level=5 type=numbered_item: 1.]
+
 *Corollaire I.* La surface d’un secteur est égale à l’arc de ce secteur multiplié par la moitié du rayon.
 
 Car le secteur ACB est au cercle entier comme l’arc AMB est à la circonférence entière ABD, ou comme AMB × ½ AC est à ABD × ½ AC. Mais le cercle entier = ABD × ½ AC ; donc le secteur ACB a pour mesure AMB × ½ AC.
+
+[Curated heading level=5 type=numbered_item: 2.]
 
 *Corollaire II.* Appelons π la circonférence dont le diamètre est l’unité ; puisque les circonférences sont comme les rayons ou comme les diamètres, on pourra faire cette proportion : le diamètre 1 est à sa circonférence π comme le diamètre 2CA est à la circonférence qui a pour rayon CA ; de sorte qu’on aura 1 : π :: 2CA : *circ.* CA ; donc *circ.* CA = 2π × CA. Multi-

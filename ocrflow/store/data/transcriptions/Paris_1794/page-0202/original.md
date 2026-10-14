@@ -7,6 +7,8 @@
 
 les mêmes angles solides\*. Donc deux prismes sont égaux, etc.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Un prisme est entièrement déterminé lorsqu’on connoît sa base ABCDE et que l’arête BG est donnée de grandeur et de position. Car si par le point G on mène GF égale et parallèle à AB, GH égale et parallèle à BC, et que dans le plan FGH parallèle à ABC on décrive le polygone FGHIK égal à ABCDE, il est clair que tous les angles du prisme seront déterminés. Donc deux prismes construits avec les mêmes données ne peuvent être inégaux ; ce qui confirme la proposition que nous venons de démontrer.
 
 ## PROPOSITION IV.
@@ -26,5 +28,7 @@ Car, suivant la définition de ce solide, les bases ABCD, EFGH, sont des parall�
 [/Margin]
 
 Donc aussi le parallélogramme DAEH est égal au parallélogramme CBFG. On démontrera de même que les parallélogrammes ABFE, DCGH, sont égaux et parallèles. Donc dans tout parallélépipede, etc.
+
+[Curated heading level=4: Corollaire.]
 
 *Corollaire.* Puisque le parallélépipede est un solide compris sous six plans dont les opposés sont égaux et

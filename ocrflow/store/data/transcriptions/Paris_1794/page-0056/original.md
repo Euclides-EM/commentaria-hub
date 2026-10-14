@@ -1,6 +1,8 @@
 <!-- Page number: 28 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc deux paralleles AB, CD, comprises entre deux autres paralleles AD, BC, sont égales.
 
 ## PROPOSITION XXXI.

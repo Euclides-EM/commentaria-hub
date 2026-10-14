@@ -13,6 +13,8 @@ F. 157.
 
 Tirez deux diametres AC, BD, qui se coupent à angles droits ; joignez les extrémités A, B, C, D, et la figure ABCD sera le quarré inscrit, car les angles AOB, BOC, etc. étant égaux, les cordes AB, BC, etc. sont égales.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Le triangle BOC étant rectangle et isoscele, on a* BC : BO :: √2 : 1 ; donc *le côté du quarré inscrit est au rayon comme la racine quarrée de 2 est à l’unité.*
 
 [Margin]

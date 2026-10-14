@@ -9,6 +9,8 @@ Car si on faisoit un angle solide avec les trois angles plans B′SA, ASC, CSB�
 F. 199.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Si un angle solide est *quadruple*, ou formé par quatre angles plans ASB, BSC, CSD, DSA, la connoissance de ces angles ne suffit pas pour déterminer les inclinaisons mutuelles de leurs plans ; car avec les mêmes angles plans on pourroit former une infinité d’angles solides. Mais si on ajoute une condition, par exemple, si on donne l’inclinaison des deux plans ASB, BSC, alors l’angle solide est entièrement déterminé, et on pourra trouver l’inclinaison de deux de ses plans quelconques. En effet imaginez un angle solide *triple* formé par les angles plans ASB, BSC, ASC ; les deux premiers angles sont donnés, ainsi que l’inclinaison de leurs plans ; on pourra donc déterminer par le problême présent le troisieme angle ASC. Ensuite, si on considere l’angle solide triple formé par les angles plans ASC, ASD, DSC, ces trois angles sont connus, ainsi l’angle solide est entièrement déterminé. Mais l’angle solide quadruple est formé par la réunion des deux angles solides triples dont on vient de parler ; donc, puisque ces angles partiels sont connus et déterminés,
 
 <!-- Signature: L 2 -->

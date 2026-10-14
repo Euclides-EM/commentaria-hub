@@ -3,17 +3,23 @@
 
 autre surface qui envelopperoit OABCD et qui seroit terminée au même contour ABCD.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Par un raisonnement entièrement semblable on prouvera,
 
 [Margin]
 F. 256.
 [/Margin]
 
+[Curated heading level=5 type=numbered_item: 1.]
+
 1°. Que si une surface convexe terminée par deux contours ABC, DEF, est enveloppée par une autre surface quelconque terminée aux mêmes contours, la surface enveloppée sera la plus petite des deux.
 
 [Margin]
 F. 257.
 [/Margin]
+
+[Curated heading level=5 type=numbered_item: 2.]
 
 2°. Que si une surface convexe AB est enveloppée de toutes parts par une autre surface MN, soit qu’elles aient des points, des lignes ou des plans communs, soit qu’elles n’aient aucun point de commun, la surface enveloppée sera toujours plus petite que la surface enveloppante.
 

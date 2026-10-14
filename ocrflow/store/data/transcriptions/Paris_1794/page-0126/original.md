@@ -15,6 +15,8 @@ Soit X une quatrieme proportionnelle aux trois lignes B, C, D ; je dis que le ra
 
 Car, puisqu’on a B:C::D:X, il en résulte C×D=B×X ; donc A×B:C×D::A×B:B×X::A:X.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc, pour avoir le rapport des quarrés faits sur les lignes données A et C, cherchez une troisieme proportionnelle X aux lignes A et C, en sorte qu’on ait A:C::C:X, et vous aurez A²:C²::A:X.
 
 [Handwritten]

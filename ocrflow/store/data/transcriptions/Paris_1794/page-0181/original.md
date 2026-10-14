@@ -7,6 +7,8 @@ au coin DAMN, car la base DAP se placeroit exactement sur son égale DAN, la hau
 * 17, 2e.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Lorsque deux plans se traversent mutuellement, il se forme quatre angles dont les opposés sont égaux, et deux adjacents valent deux angles droits ; donc si un plan est perpendiculaire à un autre, celui-ci est perpendiculaire au premier. Pareillement dans la rencontre des plans paralleles par un troisieme plan, on aura les mêmes égalités d’angles et les mêmes propriétés que dans la rencontre de deux lignes paralleles par une troisieme ligne.
 
 ## PROPOSITION XVII.

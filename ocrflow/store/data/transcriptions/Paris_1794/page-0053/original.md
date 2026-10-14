@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE 1er. -->
 <!-- Page number: 25 -->
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* On met dans cette proposition la restriction que EF soit dirigé dans le même sens que AC, et ED dans le même sens que AB ; car si on prolonge FE vers H, l’angle DEH aura ses côtés paralleles à ceux de l’angle BAC : mais ces angles ne seront pas égaux, parceque EH et AC sont dirigés en sens contraires : dans ce cas l’angle DEH et l’angle BAC feroient ensemble deux angles droits.
 
 ## PROPOSITION XXVII.
@@ -27,6 +29,12 @@ Menez AE parallele à CB ; par rapport à la sécante AB les angles BAE, ABC, so
 
 Car, en vertu du théorême précédent, B+C=BAD ; ajoutant de part et d’autre l’angle A ou BAC, on aura A+B+C=BAC+BAD=deux angles droits.
 
+[Curated heading level=4: Corollaire.]
+
+[Curated heading level=5 type=numbered_item: 1.]
+
 *Corollaire I.* Deux angles d’un triangle étant donnés, ou seulement leur somme, on connoîtra le troisieme en retranchant la somme des deux angles donnés de deux angles droits.
+
+[Curated heading level=5 type=numbered_item: 2.]
 
 II. Si deux angles d’un triangle sont égaux à deux angles d’un autre triangle, chacun à chacun, le troisieme angle de l’un sera égal au troisieme de l’autre, et ces deux triangles seront équiangles entre eux.

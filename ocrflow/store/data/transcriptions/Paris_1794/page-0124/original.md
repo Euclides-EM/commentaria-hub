@@ -17,6 +17,8 @@ Car AB, étant perpendiculaire à l’extrémité du rayon CB, est une tangente 
 * 30.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Cette sorte de division de la ligne AB s’appelle division en *moyenne et extrême raison*. On en verra des usages. On peut remarquer que la sécante AE est divisée en moyenne et extrême raison au point D ; car AE:DE::DE:AD.
 
 ### PROBLÊME V.

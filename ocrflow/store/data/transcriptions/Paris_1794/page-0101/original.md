@@ -31,6 +31,8 @@ Donc, en ajoutant et observant que EB = EC, on aura
 AB² + AC² = 2AE² + 2EB².
 [/Calculation]
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire. Dans tout parallélogramme la somme des quarrés des côtés est égale à la somme des quarrés des diagonales.*
 
 [Margin]

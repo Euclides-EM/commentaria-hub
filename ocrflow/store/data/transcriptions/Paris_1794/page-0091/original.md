@@ -24,6 +24,8 @@ Multipliant ces proportions par ordre, et observant que le moyen terme AEHD peut
 ABCD : AEGF :: AB × AD : AE × AF.
 [/Calculation]
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Donc on peut prendre pour mesure d’un rectangle le produit de sa base par sa hauteur, pourvu qu’on entende par ce produit celui de deux nombres, savoir, le nombre d’unités linéaires contenues dans la base, et le nombre d’unités linéaires contenues dans la hauteur.
 
 Cette mesure d’ailleurs n’est pas absolue, mais seulement relative; elle suppose qu’on évalue semblablement un autre rectangle en mesurant ses côtés par la même unité linéaire; on obtient ainsi un second produit, et le rapport des deux produits est égal à celui

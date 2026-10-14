@@ -19,6 +19,8 @@ ce qui se décompose en deux parties : l’une ⅙ π EF. (3 BE² + 3 DF²) ou E
 * 15.
 [/Margin]
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Si l’une des bases est nulle, le segment dont il s’agit devient un segment sphérique à une seule base ; donc *tout segment sphérique à une base a pour valeur la moitié du cylindre de même base et de même hauteur, plus la sphere dont cette hauteur est le diametre.*
 
 ### *Scholie général.*

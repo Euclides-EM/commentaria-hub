@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE Ier. -->
 <!-- Page number: 23 -->
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* On donne ordinairement des noms particuliers à quelques uns de ces angles comparés deux à deux. Nous avons déjà appellé les angles AGO, GOC, *intérieurs d’un même côté* ; les angles BGO, GOD, ont le même nom. Les angles AGO, GOD, s’appellent *alternes-internes*, ou simplement *alternes* ; il en est de même des angles BGO, GOC. Les angles EGB, GOD, s’appellent *internes-externes* ; et enfin les angles EGB, COF, prennent le nom d’*alternes-externes*. On peut donc regarder comme autant de propositions déjà démontrées les suivantes.
 
 Les angles intérieurs d’un même côté pris ensemble valent deux angles droits.

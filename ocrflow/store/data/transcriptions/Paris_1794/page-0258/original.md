@@ -17,4 +17,8 @@ Car le triangle ABD a les deux côtés AB, BD, égaux aux deux AB, AC, du triang
 
 Il suit de là que l’angle BAD est égal à ABC, et qu’ainsi le triangle BAO est isoscele ; on a donc BO=AO ; on a de même AO=CO. Donc, si du point O comme pole et de l’intervalle BO on décrit une circonférence, cette circonférence passera par les trois points B, A, C ; donc le triangle *maximum* BAC est celui qu’on peut inscrire dans une demi-circonférence dont la corde du troisième côté BC est le diamètre.
 
+[Curated heading level=4: Scholie.]
+
+[Curated heading level=5 type=numbered_item: 1.]
+
 *Scholie I.* Le triangle sphérique BAC devient un maxi-

@@ -15,6 +15,8 @@ Des points A, B, C, comme poles, soient décrits les arcs EF, DF, DE, qui par le
 
 Car le point A étant le pole de l’arc EF, la distance AE est un *quadrans* ; le point C étant le pole de l’arc DE, la distance CE est pareillement un *quadrans* ; donc le point E est éloigné d’un *quadrans* de chacun des points A et C ; donc il est le pole de l’arc AC. On démontrera de même que D est le pole de l’arc BC, et F celui de l’arc AB.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc le triangle ABC peut être décrit par le moyen de DEF, comme DEF par le moyen de ABC.
 
 ## PROPOSITION X.

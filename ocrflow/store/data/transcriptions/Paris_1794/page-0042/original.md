@@ -3,7 +3,11 @@
 
 commun, AB=AC par hypothese, et BD=DC par construction ; donc, en vertu du théorême précédent, l’angle B est égal à l’angle C.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Un triangle équilatéral est en même temps équiangle, c’est-à-dire qu’il a ses angles égaux.
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* L’égalité des triangles ABD, ACD, prouve en même temps que l’angle BAD=DAC, et que l’angle BDA=ADC ; donc ces deux derniers sont droits ; donc *la ligne menée du sommet d’un triangle isoscele au milieu de sa base est perpendiculaire à la base, et divise l’angle du sommet en deux parties égales.*
 

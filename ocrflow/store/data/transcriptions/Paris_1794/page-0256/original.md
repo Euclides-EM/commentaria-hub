@@ -3,6 +3,8 @@
 
 sure la somme de ses angles moins deux angles droits ; et il est clair que la somme de tous les angles des triangles est égale à la somme des angles du polygone. Donc la surface du polygone est égale à la somme de ses angles moins autant de fois deux angles droits qu’il a de côtés moins deux.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Soit *s* la somme des angles d’un polygone sphérique, *n* le nombre de ses côtés ; l’angle droit étant supposé l’unité, la surface du polygone aura pour mesure *s* — 2 (*n* — 2) ou *s* — 2*n* + 4.
 
 ## PROPOSITION XXIV.

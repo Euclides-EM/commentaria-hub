@@ -17,6 +17,8 @@ Construisez le quarré ACDE, prenez AF = AB, menez FG parallèle à AC, et BH pa
 
 Le quarré ABCD est divisé en quatre parties : la première ABIF est le quarré fait sur AB, puisqu’on a pris AF = AB : la seconde IGDH est le quarré fait sur BC, car puisqu’on a AC = AE, et AB = AF, la différence AC — AB est égale à la différence AE — AF ; c’est-à-dire que BC = EF. Mais à cause des parallèles IG = BC, et DG = EF ; donc HIGD est égal au quarré fait sur BC. Ces deux parties étant retranchées du quarré total, il reste les deux rectangles BCGI, EFIH, qui ont chacun pour mesure AB × BC. Donc le quarré fait sur AC, etc.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Cette proposition revient à celle qu’on démontre en algèbre pour la formation du quarré d’un binôme, et qui est ainsi exprimée : (a + b)² = a² + 2ab + b².
 
 <!-- Signature: E 2 -->

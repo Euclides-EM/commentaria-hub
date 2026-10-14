@@ -15,6 +15,8 @@ Soit l’angle A égal à l’angle D, le côté AB égal à DE, le côté AC é
 
 En effet ces triangles peuvent être posés l’un sur l’autre de manière qu’ils coïncident parfaitement. Et d’abord si on place le côté DE sur son égal AB, le point D tombera en A et le point E en B. Mais puisque l’angle D est égal à l’angle A, dès que le côté DE sera placé sur AB, le côté DF prendra la direction AC. De plus DF est égal à AC ; donc le point F tombera en C, et le troisième côté EF couvrira exactement le troisième côté BC ; donc le triangle DEF est égal au triangle ABC.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc, de ce que trois choses sont égales dans deux triangles, savoir, l’angle A=D, AB=DE, AC=DF, on peut conclure que les trois autres le sont, savoir, l’angle B=E, l’angle C=F, et le côté BC=EF.
 
 ## PROPOSITION VII.

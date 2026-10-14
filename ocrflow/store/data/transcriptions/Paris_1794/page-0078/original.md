@@ -21,6 +21,8 @@ Fig. 79.
 
 Tirez DE égal au côté A ; du point E, comme centre, et d’un rayon égal au second côté B, décrivez un arc ; du point D, comme centre, et d’un rayon égal au troisième côté C, décrivez un autre arc qui coupe le premier en F ; tirez DF, EF, et DEF sera le triangle requis.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Si l’un des côtés étoit plus grand que la somme des deux autres, les arcs ne se couperoient pas, et le problême seroit impossible.
 
 ### PROBLÊME XI.
@@ -30,5 +32,7 @@ Fig. 80.
 [/Margin]
 
 *Etant donnés deux côtés A et B d’un triangle, avec l’angle C opposé au côté B, décrire le triangle.*
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 Il y a deux cas : 1º. si l’angle C est droit ou obtus ; faites l’angle EDF égal à l’angle C ; prenez DE = A, du point E comme centre, et d’un rayon égal au côté donné B, décrivez un arc qui coupe en F la ligne DF ; tirez EF, et DEF sera le triangle demandé.

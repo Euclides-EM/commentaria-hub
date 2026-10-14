@@ -17,7 +17,11 @@ AC : DE :: BA : CD.
 
 Donc les triangles équiangles BAC, CDE, ont les côtés homologues proportionnels : mais suivant la définition, deux figures sont semblables lorsqu’elles ont à la fois les angles égaux chacun à chacun et les côtés homologues proportionnels ; donc les triangles équiangles BAC, CDE, sont deux figures semblables.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Il suffit pour que deux triangles soient semblables qu’ils aient deux angles égaux chacun à chacun, car alors le troisieme sera égal de part et d’autre et les deux triangles seront équiangles.
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* Remarquez que, dans les triangles semblables, les côtés homologues sont opposés à des angles égaux ; ainsi l’angle ACB étant égal à DEC, le côté AB est homologue à DC ; de même AC est homologue à DE, et BC à CE : les côtés homologues étant reconnus, on forme aussitôt les proportions
 

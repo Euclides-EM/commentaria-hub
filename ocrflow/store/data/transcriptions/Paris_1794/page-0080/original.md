@@ -11,6 +11,8 @@ Fig. 84.
 
 Prenez à volonté dans la circonférence ou dans l’arc trois points A, B, C, joignez ou imaginez qu’on joigne AB et BC, divisez ces deux lignes en deux parties égales par les perpendiculaires DE, FG ; le point O où ces perpendiculaires se rencontrent sera le centre cherché.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* La même construction sert à faire passer une circonférence par les trois points donnés A, B, C, et aussi à faire en sorte que le triangle donné ABC soit inscrit dans un cercle.
 
 ### PROBLÊME XIV.
@@ -34,5 +36,7 @@ Car, en menant CB, l’angle CBA inscrit dans le demi-cercle est un angle droit 
 [Margin]
 \* 18. 2.
 [/Margin]
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* Le point A étant hors du cercle, on voit qu’il y a toujours deux tangentes égales AB, AD, qui passent par le point A ; elles sont égales, car les

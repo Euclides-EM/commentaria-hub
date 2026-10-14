@@ -7,6 +7,8 @@ a pour base le parallélogramme ACDE; tirez la diagonale CE et conduisez le plan
 \* 17ᵉ
 [/Margin]
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc la solidité d’une pyramide triangulaire est égale au tiers du produit de sa base par sa hauteur.
 
 ## PROPOSITION XIX.

@@ -9,6 +9,8 @@ Donc tout secteur sphérique a pour mesure la zone qui lui sert de base multipli
 
 Un secteur circulaire ACB peut augmenter jusqu’à devenir égal au demi-cercle; alors le secteur sphérique décrit par sa révolution est la sphere entiere. Donc *la solidité de la sphere est égale à sa surface multipliée par le tiers du rayon.*
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Les surfaces des spheres étant comme les quarrés de leurs rayons, ces surfaces multipliées par les rayons seront comme les cubes des rayons. Donc *les solidités de deux sphères sont comme les cubes de leurs rayons, ou comme les cubes de leurs diametres.*
 
 <!-- Catchword: Scholie. -->

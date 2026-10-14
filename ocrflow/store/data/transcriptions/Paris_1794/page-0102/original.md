@@ -41,10 +41,16 @@ Mais le triangle BDE = DEC ; donc, à cause du rapport commun dans ces deux prop
 AD : DB :: AE : EC.
 [/Calculation]
 
+[Curated heading level=4: Corollaire.]
+
+[Curated heading level=5 type=numbered_item: 1.]
+
 *Corollaire I. De là résulte componendo AD + DB : AD :: AE + EC : AE, ou AB : AD :: AC : AE, et aussi AB : BD :: AC : CE.*
 
 [Margin]
 F. 115.
 [/Margin]
+
+[Curated heading level=5 type=numbered_item: 2.]
 
 *Corollaire II. Si entre deux droites AB, CD, on mene tant de paralleles qu’on voudra, AC, EF, GH, BD, etc., ces droites seront coupées proportionnellement, et on aura AE : CF :: EG : FH :: GB : HD.*

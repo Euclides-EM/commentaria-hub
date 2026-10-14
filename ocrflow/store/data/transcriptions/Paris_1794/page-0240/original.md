@@ -19,7 +19,11 @@ Car la tangente AF, menée dans le plan de l’arc AB, est perpendiculaire au ra
 
 Pareillement si l’arc AD est égal à un *quadrans* ; ainsi que AE, les lignes OD, OE, seront perpendiculaires à AO, et ainsi l’angle DOE sera égal à l’angle des plans AOD, AOE. Donc l’arc DE est la mesure de l’angle de ces plans, ou la mesure de l’angle BAC.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Les angles des triangles sphériques peuvent se comparer entre eux par les arcs de grands cercles décrits de leurs sommets comme poles et compris entre leurs côtés. Ainsi il est facile de faire un angle égal à un angle donné.
+
+[Curated heading level=4: Scholie.]
 
 *Scholie.* L’angle BAC est égal à l’angle BHC formé par les mêmes côtés prolongés : l’un ou l’autre est toujours l’angle formé par les deux plans BAO, CAO.
 

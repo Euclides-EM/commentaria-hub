@@ -19,4 +19,6 @@ Pareillement de ce que l’angle AHG = ACB, on conclura que les triangles ICH, H
 
 Maintenant si des égales BK, IG, on retranche les égales CK, IH, les restes BC, GH, seront égaux. D’ailleurs l’angle BCA = AHG, et l’angle ABC = AGH. Donc les triangles ABC, AHG, ont un côté égal adjacent à deux angles égaux; donc ils sont égaux. Mais le triangle DEF est égal dans toutes ses parties au triangle AHG; donc il est égal aussi au triangle ABC, et on aura AB = DE, AC = DF, BC = EF. Donc si deux triangles sphériques sont équiangles entre eux, les côtés opposés aux angles égaux seront égaux.
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* Cette proposition n’a pas lieu dans les triangles rectilignes, où de l’égalité des angles on ne peut conclure que la proportionnalité des côtés. Mais il est aisé de se rendre compte de la différence qui se trouve à cet égard entre les triangles rectilignes et les triangles sphériques. Dans la proposition présente

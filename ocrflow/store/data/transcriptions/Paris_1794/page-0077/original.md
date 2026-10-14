@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE II. -->
 <!-- Page number: 49 -->
 
+[Curated heading level=4: Scholie.]
+
 *Scholie.* On peut par la même construction diviser chacune des moitiés AE, EB, en deux parties égales ; ainsi par des sous-divisions successives on divisera un angle ou un arc donné en quatre parties égales, en huit, en seize, etc.
 
 ### PROBLÊME VI.

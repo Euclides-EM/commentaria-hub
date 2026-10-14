@@ -1,6 +1,8 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 141 -->
 
+[Curated heading level=3 type=numbered_item: 6.]
+
 VI. *L’angle solide* est formé par la réunion de plusieurs angles situés dans différens plans.
 
 Ainsi l’angle solide S est formé par la réunion des angles plans ASB, BSC, CSD, DSA.
@@ -19,6 +21,8 @@ Il faut au moins trois angles plans pour former un angle solide.
 
 Car, suivant la définition du plan, dès qu’une ligne droite a deux points communs avec un plan, elle est tout entiere dans ce plan.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc pour reconnoître si une surface est plane, il faut appliquer une ligne droite en différens sens sur cette surface, et voir si elle touche la surface dans toute son étendue.
 
 ## PROPOSITION II.
@@ -32,5 +36,9 @@ Soient AB, AC, deux lignes droites qui se coupent en A : on peut concevoir un pl
 [Margin]
 F. 181.
 [/Margin]
+
+[Curated heading level=4: Corollaire.]
+
+[Curated heading level=5 type=numbered_item: 1.]
 
 *Corollaire I.* Donc un triangle ABC, ou trois points

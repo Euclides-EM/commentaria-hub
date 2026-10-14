@@ -5,11 +5,17 @@ On a prouvé, que le triangle ABF est égal au triangle HBC ; donc le rectangle 
 
 BC² = AB² + AC².
 
+[Curated heading level=4: Corollaire.]
+
+[Curated heading level=5 type=numbered_item: 1.]
+
 *Corollaire I.* Donc le quarré d’un des côtés de l’angle droit est égal au quarré de l’hypoténuse moins le quarré de l’autre côté, ce qu’on exprime ainsi : AB² = BC² − AC².
 
 [Margin]
 F. 118.
 [/Margin]
+
+[Curated heading level=5 type=numbered_item: 2.]
 
 *Corollaire II.* Soit ABCD un quarré, AC sa diagonale ; le triangle ABC est rectangle et isoscèle : ainsi on aura AC² = AB² + BC² = 2 AB². *Donc le quarré fait sur la diagonale AC est double du quarré fait sur le côté AB.*
 
@@ -22,5 +28,7 @@ C’est ce qu’on développera davantage dans une autre occasion.
 [Margin]
 F. 109.
 [/Margin]
+
+[Curated heading level=5 type=numbered_item: 3.]
 
 *Corollaire III.* On a démontré que le quarré AH

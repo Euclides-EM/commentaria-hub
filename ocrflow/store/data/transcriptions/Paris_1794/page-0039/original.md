@@ -3,6 +3,8 @@
 
 en C. Puisque l’angle E est égal à l’angle B, le côté ED prendra la direction de BA ; ainsi le point D se trouvera sur quelque point de la ligne BA. De même, puisque l’angle F est égal à l’angle C, la ligne FD prendra la direction de CA, et le point D se trouvera sur quelque point du côté CA ; donc le point D qui doit se trouver à la fois sur les deux lignes BA, CA, tombera sur leur intersection A ; donc les deux triangles ABC, DEF, coïncident l’un avec l’autre, et sont parfaitement égaux.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc, de ce que trois choses sont égales dans deux triangles, savoir BC=EF, B=E, C=F, on peut conclure que les trois autres le sont, savoir AB=DE, AC=DF, A=D.
 
 ## PROPOSITION VIII.

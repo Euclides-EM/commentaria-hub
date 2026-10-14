@@ -7,6 +7,8 @@ chacun à chacun ; d’ailleurs ils sont disposés semblablement. Donc ces deux 
 * 3.
 [/Margin]
 
+[Curated heading level=4: Corollaire.]
+
 *Corol.* Un prisme triangulaire quelconque ABDHEF est la moitié du parallélépipede construit sur les trois arêtes AB, AD, AE, qui aboutissent à un même angle A : il seroit aussi la moitié du parallélépipede construit sur trois autres arêtes BA, BD, BF.
 
 ## PROPOSITION VII.

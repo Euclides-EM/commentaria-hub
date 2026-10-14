@@ -13,6 +13,8 @@ A raison de cette difficulté le problème de la *duplication du cube* a été c
 
 *La solidité d’un parallélépipede et en général la solidité d’un prisme quelconque est égale au produit de sa base par sa hauteur.*
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 Car 1°. un parallélépipede quelconque est équivalent à un parallélépipede rectangle de même hauteur et de base équivalente*. Or la solidité de celui-ci est égale à sa base multipliée par sa hauteur; donc la solidité du premier est pareillement égale au produit de sa base par sa hauteur.
 
 <!-- Signature: * 9, -->

@@ -9,4 +9,6 @@ Conſidérons enfin une zone quelconque décrite par la révolution de l’arc P
 
 La zone décrite par l’arc BM a pour meſure DM × *circ.* AC : la zone décrite par l’arc PM a pour meſure MQ × *circ.* AC : donc la différence de ces deux zones ou la zone décrite par l’arc BP a pour meſure (DM—MQ) × *circ.* AC ou DQ × *circ.* AC. Donc toute zone ſphérique à une ou à deux baſes a pour meſure la hauteur de cette zone multipliée par la circonférence d’un grand cercle.
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Deux zones ſont entre elles comme leurs hauteurs, et une zone quelconque eſt à la ſurface de la ſphère comme la hauteur de la zone eſt au diamètre.

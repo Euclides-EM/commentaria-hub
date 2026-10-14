@@ -7,6 +7,8 @@ faces de ce prisme seront des quarrés égaux, et que ses angles solides sont é
 F. 245.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3°. *L’octaedre.* Soit AMB un triangle équilatéral donné : sur le côté AB décrivez le quarré ABCD ; au point O, centre de ce quarré, élevez sur son plan la perpendiculaire TS, terminée de part et d’autre en T et S, de maniere que OT=OS=AO ; joignez ensuite SA, SB, TA, etc. ; vous aurez un solide SABCDT, composé de deux pyramides quadrangulaires SABCD, TABCD, adossées par leur base commune ABDC : ce solide sera l’octaedre régulier demandé.
 
 En effet le triangle AOS est rectangle en O, ainsi que le triangle AOD ; les côtés AO, OS, OD, sont égaux ; donc ces triangles sont égaux, et on a AS=AD. On démontrera de même que tous les autres triangles rectangles AOT, BOS, COT, etc. sont égaux au triangle AOD ; donc tous les côtés AB, AS, AD, etc. sont égaux entre eux, et par conséquent le solide SABCDT est compris sous huit triangles égaux au triangle équilatéral donné ABM. Je dis de plus que les angles solides du polyedre sont égaux entre eux ; par exemple l’angle S est égal à l’angle B.

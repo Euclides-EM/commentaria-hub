@@ -1,6 +1,8 @@
 <!-- Page number: 18 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2°. Soit I un point hors de la perpendiculaire; si on joint IA, IB, l’une de ces lignes coupera la perpendiculaire en D, d’où l’on tirera DB. Cela posé, IB est plus petit que ID+DB : mais à cause de DB=DA, on a ID+DB=ID+DA=IA ; donc IB < IA ; donc 2°. tout point hors de la perpendiculaire sera inégalement distant des extrémités A et B.
 
 ## PROPOSITION XVIII.

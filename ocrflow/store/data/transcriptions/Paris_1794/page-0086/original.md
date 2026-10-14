@@ -5,17 +5,23 @@
 Fig. 93.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 4.]
+
 IV. *La hauteur* d’un parallélogramme est la perpendiculaire EF menée entre les deux côtés ou *bases* opposées AB, CD.
 
 [Margin]
 Fig. 94.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 5.]
+
 V. La *hauteur* d’un triangle est la perpendiculaire AD abaissée d’un angle A sur le côté opposé BC qu’on appelle la *base*.
 
 [Margin]
 Fig. 95.
 [/Margin]
+
+[Curated heading level=3 type=numbered_item: 6.]
 
 VI. La *hauteur* du trapeze est la perpendiculaire EF menée entre ses deux *bases* paralleles AB, CD.
 

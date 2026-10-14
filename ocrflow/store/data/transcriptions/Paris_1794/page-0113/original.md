@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 85 -->
 
+[Curated heading level=4: Corollaire.]
+
 *Corollaire.* Donc les deux triangles seroient équivalents, si le rectangle AB × AC étoit égal au rectangle AD × AE, ou si on avoit AB : AD :: AE : AC.
 
 ## PROPOSITION XXV.

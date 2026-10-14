@@ -1,7 +1,11 @@
 <!-- Running title: LIVRE VII. -->
 <!-- Page number: 227 -->
 
+[Curated heading level=5 type=numbered_item: 1.]
+
 1°. Deux pyramides triangulaires sphériques sont entre elles comme leurs bases; et puisqu’une pyramide polygonale peut se partager en plusieurs pyramides triangulaires, il s’ensuit que deux pyramides sphériques quelconques sont entre elles comme les polygones qui leur servent de bases.
+
+[Curated heading level=5 type=numbered_item: 2.]
 
 2°. Les angles solides au sommet des mêmes pyramides sont également dans la proportion des bases. Donc, pour comparer deux angles solides quelconques, il faut placer leurs sommets au centre de deux spheres égales, et ces angles solides seront entre eux comme les polygones sphériques interceptés entre leurs plans ou faces.
 

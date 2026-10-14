@@ -9,7 +9,13 @@ En second lieu, par rapport à cette circonférence, tous les côtés AB, BC, CD
 * 8, 2.
 [/Margin]
 
+[Curated heading level=4: Scholie.]
+
+[Curated heading level=5 type=numbered_item: 1.]
+
 *Scholie I.* Le point O, centre commun du cercle inscrit et du cercle circonscrit, peut être regardé aussi comme le centre du polygone, et par cette raison on appelle *angle au centre* l’angle AOB formé pas les deux rayons menés aux extrémités d’un même côté AB. Puisque toutes les cordes AB, BC, etc. sont égales, il est clair que tous les angles au centre sont égaux, et qu’ainsi la valeur de chacun se trouve en divisant quatre angles droits par le nombre des côtés du polygone.
+
+[Curated heading level=5 type=numbered_item: 2.]
 
 *Scholie II.* Pour inscrire un polygone régulier d’un certain nombre de côtés dans une circonférence donnée, il ne s’agit que de diviser la circonférence en autant de parties égales que le polygone doit avoir de côtés; car, les arcs étant égaux, les cordes AB, BC, CD, etc. seront égales; les triangles ABO, BOC, COD, etc. seront égaux aussi, parcequ’ils sont équilatéraux entre eux; donc tous les angles ABC, BCD, CDE, etc. seront égaux; donc la figure ABCDE, etc. est un polygone régulier.
 
