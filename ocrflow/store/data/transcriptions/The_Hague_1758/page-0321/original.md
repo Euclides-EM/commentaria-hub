@@ -17,9 +17,20 @@ La droite BA élevée du point A ⊥ ſur le Plan XZ.
 
 ### Reſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:P|lines=2|style=plain}Renez à volonté un point D hors du Plan XZ.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. De ce point D, decendéz la ⊥ DC ſur ce Plan.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Joignez les points A & C.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Du point A tiréz AB Plle à DC.
 
 [Margin]
@@ -32,6 +43,9 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la ligne AB eſt Plle à DC (*Reſ.* 4.)
 & que DC eſt ⊥ ſur le Plan XZ. (*Reſ.* 2.).
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. AB ſera auſſi ⊥ ſur le même Plan XZ.
 
 [Margin]

@@ -34,6 +34,8 @@ Prop. 34. L. 1.
 Prop. 29. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La baze HS du △ HSQ ſera = à la baze SB du △ BSR, & ∀ HSQ = ∀ RSB.
 
 [Margin]
@@ -46,11 +48,15 @@ Or les ∀ RSH & HSQ ſont enſemble = 2⌐.
 Prop. 13. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant ∀ RSH + ∀ RSB = 2⌐.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. D'où il ſuit que HSB eſt une droite.
 
@@ -58,11 +64,15 @@ Ax. 1. L. 1.
 Prop. 14. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. On prouvera de même que FD eſt une droite. De plus BD étant = & Plle à AG, & AG = & Plle à FH,
 
 [Margin]
 Prop. 34. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. La ligne BD ſera = & Plle à FH.
 

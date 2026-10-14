@@ -1,6 +1,10 @@
 <!-- Running title: ELEMENS D'EUCLIDE, LIVRE PREMIER. -->
 
+[Curated heading level=1 type=figures: Fig. 1.]
+
 [Figure: Fig. 1. two star-shaped points]
+
+[Curated heading level=1 type=figures: Fig. 2.]
 
 [Figure: Fig. 2. two curved lines and a straight line]
 

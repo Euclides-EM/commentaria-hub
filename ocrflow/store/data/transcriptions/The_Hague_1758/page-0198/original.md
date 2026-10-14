@@ -1,7 +1,7 @@
 <!-- Page number: 186 -->
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 *de quantités, de la même maniere que d'une ligne, ou d'une ſurface multipliée ou diviſée convenablement, on peut faire réſulter toutes les lignes & toutes les ſurfaces à l'infini.*
 

@@ -18,7 +18,12 @@ II. *Et la droite AC coupée aux points D & E &c.*
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Joignez les droites données AB, AC ſous un angle quelconque BAC.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Tirez CB, & des points D & E, les droites DF, EG Plles à CB, item DH Plle à AB.
 
 [Margin]
@@ -29,11 +34,23 @@ Prop. 31. L. 1.
 ### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uiſque DF eſt Plle au côté EG du △ AGE (*Reſ.* 2. & *Prop.* 30. *L.* 1), & KE Plle au côté HC du △ DHC (*Reſ.* 2),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. AF : FG ═ AD : DE
 Et DK : KH ═ DE : EC.
 Mais les figures KF, HG étant des Pgmes (*Reſ.* 2. & *Def.* 35. *L.* 1).
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Il s'enſuit que FG eſt ═ à DK, & GB ═ KH.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Donc FG : GB ═ DE : EC.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant la droite donnée AB eſt coupée ſemblablement à AC aux points F & G; enſorte que AF : FG ═ AD : DE & FG : GB ═ DE : EC.
 
 [Margin]

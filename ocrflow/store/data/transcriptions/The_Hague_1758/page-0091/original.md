@@ -3,7 +3,11 @@
 
 [Diagram: square with corners G, I above and A, C below; H at top middle, B at bottom middle; horizontal line DEF and vertical line HEB crossing at E; diagonal from G through E to C]
 
+[Curated heading level=4 type=numbered_item: 11.]
+
 11. Par conſéquent, les deux Rgles AE, EI pris enſemble, ſont égaux au double rectangle des parties AB, BC. Puis donc que les deux □ GH & BF ſont les quarrés des deux parties AB & BC (*Arg.* 7 & 8). & que les Rgles AE, EI pris enſemble, ſont = au double Rgle des parties AB, BC.
+
+[Curated heading level=4 type=numbered_item: 12.]
 
 12. Il s'enſuit, que le □ de la ligne entiere AC eſt = au □ de AB + au □ de BC + 2 Rgles ABC.
 

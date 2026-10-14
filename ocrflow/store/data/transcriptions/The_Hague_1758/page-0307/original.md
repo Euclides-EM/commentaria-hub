@@ -2,9 +2,11 @@
 
 <!-- Page number: 295 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Diagram: three figures in a ruled frame — Fig. 1. cylinder with points E, A, B, N, F, C, D, M; Fig. 2. cube with vertices C, D, B, E, H, G, A, F; Fig. 3. tetrahedron with vertices D, B, C, A]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### XXI.
 

@@ -20,11 +20,15 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:P|lines=2|style=plain}Rolongez la droite CD de part & d'autre à l'infini.
 
 [Margin]
 Dem. 2.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par les points A & B tirez les droites AF, BE Plles aux côtés BC, AD; qui rencontreront la prolongée CD quelque part en F & en E (*Rem. de la Prop. XXVII*).
 
@@ -36,6 +40,8 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans la figure BF les côtés oppoſés AB, FC & AF, BC ſont Plles (*Hyp.* 2. & *Prep.* 2).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La figure BF eſt un Pgr.
 
 [Margin]
@@ -44,9 +50,13 @@ Def. 35. L. 1.
 
 Par un raiſonnement ſemblable on prouvera,
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Que la figure AE eſt un Pgr.
 
 Mais les Pgrs BF, AE, ſont placés ſur la même baſe AB & entre les mêmes Plles AB, FE (*Hyp.* 2. & *Prep.* 1).
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Par conſéquent, le Pgr BF eſt ＝ au Pgr AE.
 
@@ -56,15 +66,21 @@ Prop. 35. L. 1.
 
 Or les droites AC, BD ſont des diagonales des Pgrs BF, AE (*Prep.* 1 & 2).
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. C'eſt pourquoi ces diagonales AC, BD partagent les Pgrs BF, AE en deux également.
 
 [Margin]
 Prop. 34. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Partant, le △ ACB eſt la moitié du Pgr BF & le △ ADB la moitié du Pgr AE.
 
 Puis donc que les Pgrs entiers, BF, AE ſont égaux entr'eux (*Arg.* 3), & que les △ ACB, ADB ſont les moitiés de ces Pgrs (*Arg.* 5).
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Il eſt évident que les △ ACB, ADB ſont auſſi égaux entr'eux.
 

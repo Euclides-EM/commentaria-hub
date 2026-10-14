@@ -17,23 +17,41 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque le Plan FA eſt un Pgr.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les cotés EF & GA, ſont égaux & Plles
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. De même CD & GA ſont égaux & Plles
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Partant EF eſt = & Plle à CD.
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Donc ED = & Plle à FC.
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. D'où il s'enſuit que FCDE eſt un Pgr.
 
 Mais le Pgr. BCGF eſt = & Plle au Pgr. HDAE.
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Partant les △ BCF & FGC ſont = & ∽ aux △ HDE & EDA. De plus les Pgr. FEAG & GADC, ſont = & ∽ aux Pgr. BHDC, & BHEF, chacun à chacun.
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. Donc tous les Plans qui forment le priſme BFD ſont égaux & ∽ à tous les Plans qui forment le priſme DFG.
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Donc le priſme BFD ou BHEDCF eſt égal & ∽ au priſme DFG ou DEFCGA.
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. Partant le Plan FCDE, coupe le ⊟ AB en deux également.
 

@@ -2,9 +2,11 @@
 
 <!-- Page number: 293 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2.]
+
 [Diagram: two figures in a ruled frame — Fig. 1. pentagonal prism with vertices G, H, I, F, K, C, B, A, D, E; Fig. 2. sphere with points F, A, B, D and dotted diameter AB]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### XIII.
 

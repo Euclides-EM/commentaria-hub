@@ -17,7 +17,12 @@ A : C = B : D.
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Prenez des équimult. quelconques m A, & m B des termes A & B de la premiere raiſon.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Prenez d'autres équimult. quelconques n C, n D des termes C & D de la ſeconde raiſon.
 
 [Margin]
@@ -27,13 +32,31 @@ Dem. 1. L. 5.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uis donc que A & B ſont des parties des équimult. m A & m B (*Prep.* 1),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. On aura A : B = m A : m B.
 Mais A : B = C : D (*Hyp.*);
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Donc C : D = m A : m B.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. De même C : D = n C : n D.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant m A : m B = n C : n D.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. C'eſt pourquoi, ſelon que m A eſt >, =, ou < n C, pareillement m B ſera >, =, ou < n D.
 Or m A & m B étant des équimult. des termes A & B pris comme antécédens (*Prep.* 1), & n C, n D étant d'autres équimultiples des termes C & D conſidérés comme conſéquens (*Prep.* 2),
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Partant A : C = B : D.
 
 [Margin]
@@ -52,7 +75,13 @@ C. Q. F. D.
 {dropcap:I|lines=2|style=plain}L ſuit de cette propoſition, que ſi quatre grandeurs ſont proportionelles, ſelon que la premiere eſt plus grande, égale, ou moindre que la ſeconde, la troiſieme eſt de même plus grande, égale, ou moindre que la quatrieme.
 
 Car puiſque A : B = C : D (*Hyp*),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. On aura A : C = B : D.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Donc, ſelon que A &{printer-error-correction:eſt} > = ou < B, C ſera pareillement >, = ou < D.
 
 [Margin]

@@ -5,6 +5,8 @@
 
 De plus la baze de la pyramide ABCD eſt la moitié de la baze du ▱ BO. Et la baze de la pyramide EFGH eſt la moitié de la baze du ▱ FK.
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant baze ABC : baze EFG = hauteur FH : hauteur BD.
 
 [Margin]
@@ -30,15 +32,21 @@ II. *Baze ABC : baze EFG = hauteur FH : hauteur BD.*
 
 Et que Pgr. BQ eſt le double du △ ABC, item le Pgr. FM le double du △ EFG.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s'enſuit que Pgr. BQ : Pgr. FM = FH : BD.
 
 Or le ▱ BO a pour baze le Pgr. BQ, & pour hauteur BD Et le ▱ FK a pour baze le Pgr. FM, & pour hauteur FH (*Prép.*)
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant le ▱ BO eſt = au ▱ FK.
 
 Mais les ▱s BO & FK ſont chacun le double des priſmes PNB, & LIF.
 
 Et ces priſmes PNB & LIF ſont chacun le triple de leurs pyramides ABCD, & EFGH.
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Donc la pyramide triangulaire ABCD eſt = à la pyramide triangulaire EFGH.
 

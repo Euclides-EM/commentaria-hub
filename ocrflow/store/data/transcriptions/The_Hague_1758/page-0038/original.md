@@ -16,7 +16,11 @@
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:D|lines=1|style=plain}E l'autre côté de la droite AB, par rapport au point donné C, prenez un point quelconque G.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point C comme centre, & du rayon CG, décrivez un arc de ⊙ DGE, qui coupe la ligne indéfinie AB en deux points D & E.
 
@@ -24,11 +28,15 @@
 Dem. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Coupez la ligne DE en deux parties égales, au point F.
 
 [Margin]
 P. 10. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Du point C au point F tirez la droite CF.
 
@@ -48,11 +56,15 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les lignes CD, CE, ſont tirées du centre C à la ⊙ DGE (*Reſ.* 2. & *Prep.*),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Ces lignes ſont des rayons d'un même ⊙.
 
 [Margin]
 D. 16. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, la ligne CD eſt ═ à la ligne CE.
 
@@ -62,7 +74,11 @@ D. 15. L. 1.
 
 Puis donc que CD eſt ═ à CE (*Arg.* 2), DF ═ FE (*Reſ.* 3) & que le côté CF eſt commun aux deux △ DCF, ECF
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Ces deux △ ont les trois côtés égaux aux trois côtés chacun à chacun.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant, les ∀ CFD, CFE, compris par les côtés égaux FC, FD, & FC, FE ſont ═ entr'eux.
 
@@ -71,6 +87,8 @@ P. 8. L. 1.
 [/Margin]
 
 Mais ces deux ∀ CFD, CFE ═ entr'eux (*Arg.* 4), ſont des ∀ contigus formés par la ligne CF qui tombe ſur la ligne AB,
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant, chacun de ces deux ∀ CFD, CFE, eſt un ⌐, & la ligne CF eſt ⊥ ſur la ligne AB.
 

@@ -1,17 +1,23 @@
 <!-- Running title: LIVRE TROISIEME. -->
 <!-- Page number: 141 -->
 
+[Curated heading level=1 type=figures: Fig. 3.]
+
 [Diagram: Fig. 3. circle cut by two secants AE and GE meeting at exterior point E, with the secants cutting the circle at B and F, and tangents from E touching the circle at D and C]
 
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque la droite AB eſt coupée en deux également en F *(Prep. 1. & Prop. 3. L. 3)*, & que la droite BE y eſt ajoutée directement,
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le Rgle AE. EB + le □ de FB eſt = au □ FE.
 
 [Margin]
 Prop. 6. L. 2.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, le Rgle AE. EB + le □ FB + le □ de FC eſt = au □ de FE + au □ de FC, ou = au □ de CE.
 
@@ -22,7 +28,11 @@ Prop. 47. L. 1.
 
 Mais par la raiſon que le □ de DE + le □ de CD eſt = au □ de CE & le □ de FB + le □ de FC = au □ de CB *(Prop. 47. L. 1)*, ou = au □ de CD *(Def. 15. & Prop. 46. L. 1, Coroll. 3)*.
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Le Rgle AE. EB + le □ de CD eſt = au □ de DE + au □ de CD.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent, le Rgle AE. EB eſt = au □ de DE.
 

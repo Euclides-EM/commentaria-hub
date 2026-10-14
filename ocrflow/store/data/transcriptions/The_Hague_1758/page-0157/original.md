@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE QUATRIEME. -->
 <!-- Page number: 145 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Diagram: Fig. 1. square EFGH with inscribed square ABCD; Fig. 2. circle ABCDE with inscribed square; Fig. 3. pentagon with circumscribed sides touching a circle, labelled A, B, C, D, E]
 
 ## DEFINITIONS

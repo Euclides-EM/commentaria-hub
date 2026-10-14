@@ -17,9 +17,20 @@
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Joignez les deux droites AB, AC, en un ∀ quelconque BAC.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Prolongez les, & faites BD ═ AC.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Joignez BC,
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Et par l'extrémité D de la droite AD, tirez DE Plle à BC.
 
 [Margin]
@@ -31,8 +42,14 @@ Prop. 31. L. 1.
 ### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uis donc que BC eſt Plle à DE (*Reſ.* 4),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. AB : BD ═ AC : CE.
 Mais BD eſt ═ à AC (*Reſ.* 2);
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant AB : AC ═ AC : CE.
 
 [Margin]

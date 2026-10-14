@@ -5,25 +5,39 @@
 
 Le ⊟ OC eſt coupé par le Plan Plle RD. (*Prép. 4.*).
 
+[Curated heading level=4 type=numbered_item: 9.]
+
 9. Partant baze RC : baze AM = ⊟ AP : ⊟ OA.
 
 Et baze RC : baze AM = AC : AI.
+
+[Curated heading level=4 type=numbered_item: 10.]
 
 10. Donc AC : AI = ⊟ AP : ⊟ OA.
 
 Enfin le ⊟ OK étant coupé par le Plan Plle AM. (*Prép. 4.*)
 
+[Curated heading level=4 type=numbered_item: 11.]
+
 11. On demontrera de même que AD : AK = ⊟ AO : ⊟ AN.
 
 Or les trois raiſons, de AB à AR, AC à AI, & AD à AK ſont égales à la raiſon de AB à GH. (*Arg. 6.*).
 
+[Curated heading level=4 type=numbered_item: 12.]
+
 12. Partant les quatres ⊟s BE, AP, AO, & AN, forment une ſuite de grandeurs entre leſquels regne une même raiſon (*de AB : GH*).
 
+[Curated heading level=4 type=numbered_item: 13.]
+
 13. Donc ils ſont proportionels.
+
+[Curated heading level=4 type=numbered_item: 14.]
 
 14. Partant le ⊟ BE eſt au ⊟ AN, en raiſon triplée de AB à GH.
 
 Or le ⊟ AN eſt = & ∽ au ⊟ FH. (*Prép. 2.*).
+
+[Curated heading level=4 type=numbered_item: 15.]
 
 15. Donc le ⊟ BE eſt au ⊟ FH, en raiſon triplée de AB à GH. (ou comme AB³ : GH³. *Ap. Prop. 7.*).
 

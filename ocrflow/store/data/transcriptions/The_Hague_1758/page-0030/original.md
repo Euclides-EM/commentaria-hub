@@ -22,13 +22,19 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Sur le côté prolongé AB prenez un point quelconque D.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Faites AE = AD.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Par les points B & E, item C & D tirez les droites BE, CD.
 
@@ -40,6 +46,8 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ DAC les deux côtés AD, AC ſont égaux aux deux côtés AE, AB du △ EAB chacun à chacun (*Prep. 2. Hyp. 1*); & que ∀ A compris entre ces côtés égaux eſt commun aux deux △.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. La baſe DC eſt = à la baſe BE; & les deux autres ∀ *m* & *b* + *d* du △ DAC, ſont égaux aux deux autres ∀ *n* & *a* + *c* du △ EAB chacun à chacun de ceux qui ſont oppoſés à des côtés égaux.
 
 [Margin]
@@ -48,13 +56,17 @@ Prop. 4. L. 1
 
 De plus la ligne entière AD étant = à la ligne entière AE (*Prep. 2*), & la partie AB = à la partie AC (*Hyp. 1.*); *en retranchant &c.*
 
-2 Les lignes reſtantes BD, CE ſont auſſi = entr'elles.
+[Curated heading level=4 type=numbered_item: 2.]
+
+2. Les lignes reſtantes BD, CE ſont auſſi = entr'elles.
 
 [Margin]
 Ax. 3.
 [/Margin]
 
 Derechef, puiſque dans le △ DBC les côtés DB, DC ſont égaux aux côtés CE, EB du △ ECB chacun à chacun (*Arg. 2. & 1.*) & qu'outre cela ∀ compris *m* eſt égal à ∀ compris *n* (*Arg. 1.*).
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Les deux autres ∀ ſont = aux deux autres ∀ oppoſés à des côtés égaux, chacun à chacun c. à. d. ∀ *c* + *e* = ∀ *d* + *f* & ∀ *d* = ∀ *c*.
 
@@ -64,6 +76,8 @@ Prop. 4. L. 1.
 
 Les ∀ entiers *a* + *c* & *b* + *d* étant donc = entr'eux, & leurs parties ∀ *c* & ∀ *d* l'étant de même (*Arg. 1 & 3.*); *en retranchant &c.*
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Les ∀ reſtants *a* & *b* ſont auſſi = entr'eux.
 
 [Margin]
@@ -72,11 +86,15 @@ Ax. 3.
 
 Mais ces ∀ ſont les deux ∀ ſur la baſe BC.
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Donc ∀ *a* & ∀ *b* ſur la baſe BC ſont = entr'eux.
 
 C. Q. F. D. I.
 
 De plus, puiſque ∀ *e* + *c* = ∀ *d* + *f* (*Arg. 3.*) ſont les ∀ ſous la baſe.
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Il eſt clair que les ∀ *e* + *c* & ∀ *d* + *f* ſous la baſe ſont auſſi = entr'eux.
 

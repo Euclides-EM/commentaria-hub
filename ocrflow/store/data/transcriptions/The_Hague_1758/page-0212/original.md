@@ -21,11 +21,15 @@ La gdr. M = 1 M.
 
 Sinon, les deux gdrs. M & 1 M ſont inégales.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:L|lines=2|style=plain}Es deux gdrs. M & 1 M n’ont donc pas même raiſon à la même gdr. N. Mais elles ont même raiſon à cette même gdr. N (Hyp.);
 
 [Margin]
 Prop. 8. L. 5.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. La gdr. M eſt donc = à la gdr. 1 M.
 
@@ -45,11 +49,15 @@ La gdr. M = 1 M.
 
 Sinon, les deux gdrs. M & 1 M ſont inégales.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:L|lines=2|style=plain}A même gdr. N n’a donc pas même raiſon aux deux gdrs. M & 1 M. Or elle a même raiſon à ces deux gdrs. (Hyp.);
 
 [Margin]
 Prop. 8. L. 5.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc la gdr. M eſt = à la gdr. 1 M.
 

@@ -2,6 +2,8 @@
 
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2.]
+
 [Figure: Fig. 1., two circles: one with centre C, diameter AD and radius CB; the other with centre F, diameter EH and radius FG; Fig. 2., two circles: one with points A, B and C joined by chords; the other with points D, E and F joined by chords]
 
 ## AXIOMES.

@@ -19,6 +19,8 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque le ⊟ ſur A eſt ∽ au ⊟ ſur B (*Hyp.* 1.)
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le ⊟ ſur A : ⊟ ſur B = A³ : B³.
 
 [Margin]
@@ -26,6 +28,8 @@ Prop.33. L.11.
 [/Margin]
 
 De même le ⊟ ſur C eſt ∽ au ⊟ ſur D. (*Hyp.* 2.).
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Le ⊟ ſur C : ⊟ D = C³ : D³.
 
@@ -35,12 +39,16 @@ Prop.33.L.11.
 
 Or le ⊟ ſur A : ⊟ ſur B = ⊟ C : ⊟ D. (*Hyp.* 3.).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Donc A³ : B³ = C³ : D³.
 
 [Margin]
 Prop. 11. L. 5.
 Ax. 7. L 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant A : B = C : D.
 

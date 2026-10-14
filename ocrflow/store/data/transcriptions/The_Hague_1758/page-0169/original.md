@@ -17,11 +17,15 @@
 
 ### *Réſolution.*
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. COnſtruiſez le △ iſoſcéle FGH, qui ait chacun des ∀ à la baſe FH double de ∀ au ſommet G.
 
 [Margin]
 Prop. 10. L. 4.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Inſcrivez dans le ⊙ ACE un △ ACE équiangle au △ FGH.
 
@@ -29,11 +33,15 @@ Prop. 10. L. 4.
 Prop. 2. L. 4.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Coupez les ∀ à la baſe CAE & CEA en deux également par les droites AD, EB,
 
 [Margin]
 Prop. 9. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Et tirez les droites AB, BC, CD, DE.
 
@@ -45,11 +53,15 @@ Dem. 1.
 
 PUiſque chacun des ∀ CAE, CEA eſt double de ∀ ACE (*Reſ.* 1. & 2), & que ces angles ſont coupés en deux également (*Reſ.* 3).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les cinq ∀ ACE, CAD, DAE, BEA CEB, ſeront = entr'eux.
 
 [Margin]
 Ax. 7. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. D'où il ſuit, que les arcs AE, ED, DC, CB, BA ſont = entr'eux; de même que les cordes AE, ED, DC, CB, BA.
 
@@ -60,6 +72,8 @@ Prop. 29. L. 3.
 
 Mais, ſi on ajoute de part & d'autre aux arcs égaux AE = CD (*Arg.* 2) l'arc ABC.
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. L'arc entier EABC eſt = à l'arc entier ABCD; & ∀ CDE eſt = à ∀ DEA.
 
 [Margin]
@@ -69,7 +83,11 @@ Prop. 27. L. 3.
 
 On demontrera de même que
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Chacun des ∀ EAB, ABC, BCD eſt = à ∀ CDE ou DEA.
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. C'eſt pourquoi on a inſcrit dans le ⊙ ACE, un pentagone équilatéral (*Arg.* 2) & équiangle (*Arg.* 4).
 

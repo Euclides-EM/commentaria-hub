@@ -5,7 +5,11 @@
 
 La ſphère ſuppoſée ne pouvant donc être ni < ni > que la ſphère ABCD.
 
+[Curated heading level=4 type=numbered_item: 12.]
+
 12. Elle la ſera égale.
+
+[Curated heading level=4 type=numbered_item: 13.]
 
 13. D'où il ſuit que la ſphère ABCD : ſphère HILK = A̅C̅³ : K̅I̅³.
 
@@ -17,6 +21,6 @@ Prop. 7. L. 5.
 
 {dropcap:L|lines=2|style=plain}Es ſphères ſont entr'eux comme les polyëdres ſemblables qui y ſont inſcrit, (*Cor. de la Prop*. 17. *L*. 12. & *Prop*. 11. *L*. 5.).
 
-## FIN.
+FIN.
 
 [Ornament: two winged putti on clouds holding a large pair of compasses]

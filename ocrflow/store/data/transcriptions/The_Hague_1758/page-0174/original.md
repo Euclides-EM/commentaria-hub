@@ -17,11 +17,15 @@
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:C|lines=2|style=plain}Herchez le centre C du ⊙ BEG, & tirez un diametre quelconque AE.
 
 [Margin]
 Prop. 1. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point A comme centre, & du rayon AC décrivez l'arc de ⊙ BCG.
 
@@ -29,11 +33,15 @@ Prop. 1. L. 3.
 Dem. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Tirez les rayons CG, CB prolongés en D & F.
 
 [Margin]
 Dem. 1 & 2.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Tirez les droites AB, BD, DE, EF, FG, GA.
 
@@ -45,11 +53,15 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ BCA, le côté BC eſt = au côté AC, & AB = auſſi à AC (*Reſ. 3. & Def. 15. L. 1*).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Ce △ eſt équilatéral & équiangle.
 
 [Margin]
 Def. 24. L. 1. Prop. 5. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. C'eſt pourquoi, ∀ BCA eſt = à la troiſieme partie de 2 ⌊, & par la même raiſon ∀ ACG eſt auſſi = à la troiſieme partie de 2 ⌊.
 
@@ -59,11 +71,15 @@ Prop. 32. L. 1.
 
 Mais les ∀ BCA + ACG + GCF étant = à 2 ⌊ (*Prop. 13. L. 1*).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. L'angle GCF ſera auſſi = à la troiſieme partie de 2 ⌊ ; & les ∀ BCA, ACG, GCF ſont = entr'eux.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent, les ∀ FCE, ECD, DCB, qui les égalent comme leurs oppoſés au ſommet, ſont auſſi = entr'eux.
 
@@ -71,15 +87,21 @@ Ax. 1. L. 1.
 Prop. 15. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Partant, les arcs BA, AG, GF, FE, ED, DB ſont = entr'eux, de même que les cordes BA, AG, GF, FE, ED, DB.
 
 [Margin]
 Prop. 26. L. 3. Prop. 29. L. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. L'Hexagone ABDEFG, inſcrit dans le ⊙ BEG, eſt donc équilatéral.
 
 De plus l'arc BA étant = à l'arc ED (*Arg. 5*) ; ſi on ajoute l'arc commun AGFE.
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. L'arc BAGFE ſera = à l'arc AGFED.
 
@@ -87,11 +109,15 @@ De plus l'arc BA étant = à l'arc ED (*Arg. 5*) ; ſi on ajoute l'arc commun AG
 Ax. 2. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. D'où il ſuit, que ∀ EDB eſt = à ∀ DBA ; & par la même raiſon, chacun des ∀ FED, GFE, AGF eſt = à ∀ EDB ou à ∀ DBA.
 
 [Margin]
 Prop. 27. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. L'Hexagone équilatéral ABDEFG, inſcrit dans le ⊙ BEG, eſt donc auſſi équiangle.
 

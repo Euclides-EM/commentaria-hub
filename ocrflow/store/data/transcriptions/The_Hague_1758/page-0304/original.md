@@ -2,9 +2,11 @@
 
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2, 3.]
+
 [Diagram: three figures in a ruled frame — Fig. 1. plane PL with inclined plane AB, points B, D, N, L, E, F, A; Fig. 2. solid angle at A with lines to B, D and C; Fig. 3. pyramid with apex A over base E, B, D, F]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### VI.
 

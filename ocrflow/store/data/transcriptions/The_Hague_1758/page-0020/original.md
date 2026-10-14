@@ -2,6 +2,8 @@
 
 <!-- Running title: ELEMENS D'EUCLIDE -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2.]
+
 [Figure: Fig. 1. three horizontal lines labelled A, B and C; Fig. 2. two lines A D E and B F G with dotted extensions]
 
 ## DEMANDES

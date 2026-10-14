@@ -27,11 +27,15 @@ II. Ou bien les ⊙ ABCD, BECH ſe touchent extérieurement en plus d’un point
 
 ### I. *Préparation.*
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:T|lines=2|style=plain}Rouvez les centres M & N des ⊙ ABCD, AGDF.
 
 [Margin]
 Prop. 1. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez par les centres la droite MN & prolongez la de part & d’autre, juſqu’à la rencontre de la ⊙.
 
@@ -41,6 +45,8 @@ Dem. 1. & 2.
 
 {dropcap:P|lines=2|style=plain}Uiſque la droite MN joint les centres M & N des deux ⊙ ABCD, AGDF, (*Prep.* 2), qui ſe touchent intérieurement (*Sup.* 1).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Cette droite paſſera par les points d’attouchement A & D.
 
 [Margin]
@@ -48,6 +54,8 @@ Prop. 11. L. 3.
 [/Margin]
 
 Or AM eſt = à MD (I. *Prép.* 2. & *Def.* 15. L. 1).
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. La droite AM eſt donc > ND & à plus forte raiſon AN > ND.
 
@@ -57,7 +65,11 @@ Ax. 8. L. 1.
 
 Mais par la raiſon que AN eſt = à ND (I. *Prep.* 2. & *Def.* 15. L. 1).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. La droite AN ſeroit à la fois > ND & = à ND; ce qui eſt impoſſible.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant, deux ⊙ ABCD, AGDF, qui ſe touchent intérieurement, ne ſauroient ſe toucher en plus d’un point.
 
@@ -73,6 +85,8 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la droite BC joint deux points B & C, pris dans les ⊙ des cercles ABCD, BECH (II *Prep.*).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Cette droite tombera au dedans des deux ⊙ ABCD, BECH.
 
 [Margin]
@@ -81,13 +95,19 @@ Prop. 2. L. 3.
 
 Mais le ⊙ BECH touchant extérieurement le ⊙ ABCD (*Sup.* 2).
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. La droite BC, tirée dans le ⊙ BECH, tombera hors du ⊙ ABCD.
 
 [Margin]
 Def. 3. L. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. D’où il ſuit, que la droite BC tomberoit à la fois dans le ⊙ ABCD (*Arg.* 1) & hors du même ⊙ (*Arg.* 2); ce qui eſt impoſſible.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. C’eſt pourquoi deux ⊙ ABCD, BCEH, qui ſe touchent extérieurement, ne ſe touchent pas en plus d’un point.
 

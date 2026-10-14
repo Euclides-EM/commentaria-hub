@@ -2,21 +2,35 @@
 
 <!-- Running title: ELEMENS D'EUCLIDE. -->
 
+[Curated heading level=1 type=figures: Fig. 18.]
+
 [Figure: Fig. 18. a scalene triangle]
+
+[Curated heading level=1 type=figures: Fig. 19.]
 
 [Figure: Fig. 19. a right triangle with angle A]
 
+[Curated heading level=1 type=figures: Fig. 20.]
+
 [Figure: Fig. 20. a triangle with obtuse angle A]
+
+[Curated heading level=1 type=figures: Fig. 21.]
 
 [Figure: Fig. 21. a triangle with angles A, B, C]
 
+[Curated heading level=1 type=figures: Fig. 22.]
+
 [Figure: Fig. 22. a square]
+
+[Curated heading level=1 type=figures: Fig. 23.]
 
 [Figure: Fig. 23. a rectangle]
 
+[Curated heading level=1 type=figures: Fig. 24.]
+
 [Figure: Fig. 24. a rhombus]
 
-## DEFINITIONS
+<!-- Running title: DEFINITIONS -->
 
 ### XXVI.
 

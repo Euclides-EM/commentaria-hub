@@ -16,13 +16,23 @@ CHERCHEES.
 
 ### Reſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. AU point A de la ligne AB faites un ∀ ſolide CADB, = à ∀ ſolide H, ou LHMI.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Coupéz AC de façon que HI : HL = AB : AC
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Item AD de façon que HL : HM = AC : AD
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Achevez les Pgr. AE, BD & BC.
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Achevez le ⊟ AF.
 
@@ -32,7 +42,11 @@ CHERCHEES.
 
 Et leurs oppoſés le ſont de même.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Partant les ſix Plans ou Pgrs qui forment le ⊟ AF, ſont ∽, & ſemblablement poſés aux ſix Plans ou Pgr. qui forment le ⊟ donné HN.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc le ⊟ AF conſtruit ſur AB, eſt ſemblable & ſemblablement poſé au ⊟ donné HN.
 

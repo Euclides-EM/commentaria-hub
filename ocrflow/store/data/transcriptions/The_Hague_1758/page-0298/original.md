@@ -5,11 +5,15 @@
 
 De plus, ∀ AMC étant double de ∀ AIC, & ∀ ENG double de ∀ EKG (*Prop.* 20. *L.* 3),
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Il s'enſuit que ∀ AMC : ∀ ENG ⚌ ∀ AIC : ∀ EKG.
 
 [Margin]
 Prop. 15. L. 5.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. Partant ∀ AIC : ∀ EKG ⚌ AmC : EnG.
 
@@ -27,6 +31,8 @@ Dem. 1. L. 1.
 
 Puis donc que les deux côtés AM, MC ſont ⚌ aux deux côtés CM, MD (*Def.* 15. *L.* 1.), & que les ∀ compris AMC, CMD ſont égaux (*Arg.* 2),
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. La baſe AC eſt ⚌ à la baſe CD, & le △ AMC ⚌ au △ CMD.
 
 [Margin]
@@ -35,17 +41,23 @@ Prop. 4. L. 1.
 
 De plus, par la raiſon que l'arc AmC eſt ⚌ CoD (*Arg.* 1),
 
+[Curated heading level=4 type=numbered_item: 9.]
+
 9. Le complément AIBDC du premier eſt ⚌ au complément CAIBD du ſecond.
 
 [Margin]
 Ax. 3. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 10.]
+
 10. C'eſt pourquoi ∀ AmC eſt ⚌ ∀ CoD.
 
 [Margin]
 Prop. 27. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 11.]
 
 11. Le Segment AmC eſt donc ſemblable au Segment CoD
 
@@ -55,6 +67,8 @@ Ax. 2. L. 3.
 
 Et ils ſont outre cela ſoutendus par des cordes égales (*Arg.* 8).
 
+[Curated heading level=4 type=numbered_item: 12.]
+
 12. Par cette raiſon le Segment AmC eſt ⚌ au Segment CoD.
 
 [Margin]
@@ -62,6 +76,8 @@ Prop. 24. L. 3.
 [/Margin]
 
 Or comme le △ AMC eſt auſſi ⚌ au △ CMD (*Arg.* 8),
+
+[Curated heading level=4 type=numbered_item: 13.]
 
 13. Le Secteur AMCm eſt ⚌ au Secteur CMDo.
 
@@ -71,15 +87,23 @@ Ax. 2. L. 1.
 
 De la même manière, le Secteur DMB eſt égal à chacun des deux précédens AMCm, CMDo.
 
+[Curated heading level=4 type=numbered_item: 14.]
+
 14. Les trois Secteurs AMC, CMD, DMB ſont donc égaux entr'eux.
 
+[Curated heading level=4 type=numbered_item: 15.]
+
 15. On démontre de même, que les trois Secteurs ENG, GNH, HNF ſont ⚌ entr'eux.
+
+[Curated heading level=4 type=numbered_item: 16.]
 
 16. C'eſt pourquoi le Sect. AMBDC & l'arc ACDB ſont d'un côté des équimultiples du Sect. AMCm & de l'arc AmC; comme de l'autre côté, le Sect. ENFHG, & l'arc EGHF ſont des équimultiples du Sect. ENGn, & de l'arc EnG.
 
 Or à cauſe que les ⊙ AIBC, EKFG ſont égaux (*Hyp.* 1),
 
 Selon que l'arc ACDB eſt ＞, ⚌ ou ＜ que l'arc EGHF: (*) le Sect. AMBDC eſt auſſi ＞, ⚌ ou ＜ que le Sect. ENFHG.
+
+[Curated heading level=4 type=numbered_item: 17.]
 
 17. Partant Sect. AMC : Sect. ENG ⚌ AmC : EnG.
 

@@ -23,17 +23,23 @@ III. *Sect.* AMCm : *Sect.* ENGn ⚌ AmC : EnG.
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Joignez les cordes AC, EG.
 
 [Margin]
 Dem. 1. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Appliquez dans la ○ AIBC, les cordes CD, DB &c, chacune ⚌ à AC, & dans la ○ EKFG un pareil nombre de cordes, GH, HF &c, chacune ⚌ à EG.
 
 [Margin]
 Prop. 1. L. 4.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Tirez MD, MB &c, item NH, NF &c.
 
@@ -45,11 +51,15 @@ Dem. 1. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque d'un côté les cordes AC, CD, DB, & de l'autre les cordes EG, GH, HF ſont ⚌ entr'elles (*Prép.* 2),
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les arcs AmC, CoD, DB ſont tous égaux d'un côté; comme les arcs EnG, GH, HF le ſont de l'autre.
 
 [Margin]
 Prop. 28. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant les ∀ AMC, CMD, DMB &c; item ENG, GNH, HNF &c, ſont auſſi ⚌ entr'eux, d'un côté & de l'autre.
 
@@ -57,7 +67,11 @@ Prop. 28. L. 3.
 Prop. 27. L. 3.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. C'eſt pourquoi ∀ AMB & l'arc ACDB, ſont des équimultiples de ∀ AMC & de l'arc AmC.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Et par la même raiſon ∀ ENF & l'arc EGHF ſont des équimultiples de ∀ ENG & de l'arc EnG.
 
@@ -68,6 +82,8 @@ Selon que l'arc ACDB eſt ＞, ⚌ ou ＜ que l'arc EGHF; ∀ AMB eſt auſſi �
 [Margin]
 Prop. 27. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. C'eſt pourquoi ∀ AMC : ∀ ENG ⚌ AmC : EnG.
 

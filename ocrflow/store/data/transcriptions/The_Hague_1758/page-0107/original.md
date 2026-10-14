@@ -2,6 +2,8 @@
 
 <!-- Page number: 95 -->
 
+[Curated heading level=1 type=figures: Fig. 1, 2.]
+
 [Figure: Fig. 1., a circle touched at D by a horizontal line ADB; Fig. 2., a circle ABC touched externally at C by circle CEF and internally at B by circle GBH]
 
 ## DEFINITIONS

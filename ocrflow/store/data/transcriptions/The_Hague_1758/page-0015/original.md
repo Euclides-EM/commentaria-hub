@@ -2,15 +2,23 @@
 
 <!-- Page number: Pag. 3 -->
 
+[Curated heading level=1 type=figures: Fig. 6.]
+
 [Figure: Fig. 6. an angle formed by two lines B A and B C]
+
+[Curated heading level=1 type=figures: Fig. 7.]
 
 [Figure: Fig. 7. a vertical line A B perpendicular to a horizontal line D C, with a dotted semicircle]
 
+[Curated heading level=1 type=figures: Fig. 8.]
+
 [Figure: Fig. 8. an oblique line A B on a horizontal line D C, with a dotted vertical E B and a dotted semicircle]
+
+[Curated heading level=1 type=figures: Fig. 9.]
 
 [Figure: Fig. 9. an oblique line B A on a horizontal line D C, with a dotted vertical E B and a dotted arc]
 
-## DEFINITIONS.
+<!-- Running title: DEFINITIONS. -->
 
 ### VIII.
 

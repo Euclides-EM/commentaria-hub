@@ -17,11 +17,15 @@
 
 ### *Réſolution.*
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. TIrez donc une ligne quelconque CA.
 
 [Margin]
 Dem. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Coupez cette ligne, enſorte que le Rgle de CA. AD ſoit = au □ de CD.
 
@@ -29,11 +33,15 @@ Dem. 1.
 Prop. 11. L. 2.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Du centre C & du rayon CA décrivez le ⊙ ABE.
 
 [Margin]
 Dem. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Appliquez dans ce ⊙ la droite AB = à CD, & tirez CB.
 
@@ -43,11 +51,15 @@ Prop. 1. L. 4.
 
 ### *Préparation.*
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. TIrez la droite DB,
 
 [Margin]
 Dem. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et circonſcrivez un ⊙ au △ CDB.
 
@@ -59,17 +71,23 @@ Prop. 5. L. 4.
 
 PUis donc que le Rgle CA. AD eſt = au □ de CD (*Reſ.* 2), & que le □ de AB eſt = au □ de CD (*Reſ.* 4. & *Prop.* 46. *Coroll.* 3. *L.* 1).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le Rgle CA. AD ſera auſſi = au □ de AB.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant la droite AB eſt tangente du ⊙ CDB.
 
 [Margin]
 Prop. 37. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. D'où il ſuit que ∀ DBA eſt = à ∀ BCD.
 
@@ -79,6 +97,8 @@ Prop. 32. L. 3.
 
 En ajoutant donc de part & d'autre ∀ DBC,
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. L'angle ABC ſera = aux ∀ BCD + DBC.
 
 [Margin]
@@ -86,6 +106,8 @@ Ax. 2. L. 1.
 [/Margin]
 
 Mais ∀ BDA étant auſſi = aux ∀ BCD + DBC (*Prop.* 32. *L.* 1).
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. L'angle BDA eſt donc = à ∀ ABC.
 
@@ -95,11 +117,15 @@ Ax. 1. L. 1.
 
 De même, puiſque CB eſt = à CA (*Reſ.* 4 & *Def.* 15. *L.* 1).
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. L'angle BAC eſt = à ∀ ABC.
 
 [Margin]
 Prop. 5. L. 1.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. C'eſt pourquoi, ∀ BDA eſt = à ∀ BAC, & DB eſt = à AB.
 
@@ -110,6 +136,8 @@ Prop. 6. L. 1.
 
 Et à cauſe que CD eſt auſſi = à AB (*Reſ.* 4).
 
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. La droite DB ſera = à CD, & ∀ CBD = à ∀ BCD.
 
 [Margin]
@@ -118,6 +146,8 @@ Prop. 5. L. 1.
 [/Margin]
 
 En ajoutant de part & d'autre ∀ DBA ou ſon égal ∀ BCD (*Arg.* 3).
+
+[Curated heading level=4 type=numbered_item: 9.]
 
 9. Les ∀ CBD + DBA ou ∀ CAB eſt = 2 ∀ BCD; Et on a conſtruit un △ iſoſcéle CAB, qui a chacun des ∀ ſur la baſe double de ∀ au ſommet.
 

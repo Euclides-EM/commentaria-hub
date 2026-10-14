@@ -19,18 +19,27 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:S|lines=2|style=plain}Ur l'axe du plus grand cylindre AONB, prenez la partie PC d'égale hauteur qu'eſt le cylindre GIKH.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Par le point P : faites paſſer un Plan LM, Plle à la baze BA, qui coupera le cylindre AONB en deux cylindres, qui ſont BAML & LMON.
 
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque le cylindre BNOA eſt coupé par un Plan Plle à ſa baze (*Prép. 2.*)
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le cylindre NOML : cylindre LMAB = PE : PC.
 
 [Margin]
 Prop. 13. L. 12.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant le cylindre NOML + LMAB : cylindre LMAB = PE + PC : PC.
 
@@ -46,6 +55,8 @@ Ax. 1. L. 1.
 
 De plus le cylindre LMAB eſt = au cylindre IGHK,* & PC = DF. (*Prép. 1.*).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Donc le cylindre BNOA : cylindre IGHK = hauteur EC : hauteur DF.
 
 [Margin]
@@ -59,6 +70,8 @@ Le cone BEA eſt le tiers du cylindre BNOA. Et le cone GFH le tiers du cylindre 
 [Margin]
 Prop. 10. L. 12.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant le cone BEA : cone GFH = hauteur EC : hauteur DF.
 

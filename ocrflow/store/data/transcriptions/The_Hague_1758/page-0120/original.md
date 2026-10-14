@@ -34,6 +34,8 @@ V. *Du point* D, *de part & d'autre de la droite* DH, *on ne peut tirer plus de 
 
 ### Demonstration.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:L|lines=1|style=plain}Es deux côtés DM+ME du △ DME ſont > le troiſieme DE.
 Et parceque ME = MA (*Def*. 15. *L*. 1).
 

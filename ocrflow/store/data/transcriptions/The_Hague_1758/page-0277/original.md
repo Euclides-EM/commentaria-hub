@@ -18,8 +18,16 @@
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Joignez HF.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Sur AD, aux points A & D, faites ∀ A ═ ∀ E & ∀ *m* ═ ∀ *n*; c'eſt pourquoi le troiſième ∀ ABD ſera ═ au troiſième ∀ EFH.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Sur DB, au point D, faites ∀ *o* ═ ∀ *p* & au point B, ∀ *q* ═ ∀ *r*. Par conſéquent le troiſième ∀ C ſera ═ au troiſième ∀ G.
 
 [Margin]
@@ -31,13 +39,31 @@ Remarq. de Prop. 27. L. 1.
 ### Demonstration.
 
 {dropcap:P|lines=2|style=plain}Uis donc que le △ ABD eſt équiangle au △ EFH, & le △ DBC équiangle au △ HFG (*Reſ.* 2 & 3),
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. BD : FH ═ BA : FE ═ AD : EH. & BD : FH ═ DC : HG ═ CB : GF.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Partant BA : FE ═ AD : EH ═ DC : HG ═ CB : GF.
 Maintenant ∀ *m* étant ═ à ∀ *n* (*Reſ.* 2), ainſi que ∀ *o* ═ ∀ *p* (*Reſ.* 3),
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. L'angle entier *m* + *o* eſt ═ à l'angle entier *n* + *p*.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Par la même raiſon ∀ ABC ═ ∀ EFG.
 De plus ∀ A ═ ∀ E (*Reſ.* 2), & ∀ C ═ ∀ G (*Reſ.* 3).
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. C'eſt pourquoi le Rectilig. M eſt équiangle au Rectilig. N, & leurs côtés alentour des angles égaux ſont proportionels.
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Le Rectilig. M, conſtruit ſur la donnée AD, eſt donc ſemblable au Rectilig. EG, & il eſt ſemblablement poſé.
 
 [Margin]

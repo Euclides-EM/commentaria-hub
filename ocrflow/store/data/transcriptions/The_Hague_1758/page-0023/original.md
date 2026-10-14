@@ -2,13 +2,21 @@
 
 <!-- Page number: Pag. 11 -->
 
+[Curated heading level=1 type=figures: Fig. 8, 9.]
+
 [Figure: Fig. 8. two lines CD and EF crossed by a vertical line AB at points G and H, with dotted lines meeting at K; Fig. 9. an oval EF with points X and Y]
 
-## AXIOMES.
+<!-- Running title: AXIOMES. -->
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. {dropcap:T|lines=2|style=plain}Ous les points conviennent.
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Les lignes droites égales entr'elles conviennent. Et réciproquement; les lignes droites dont les extrêmités conviennent; ſont égales.
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Si dans deux angles égaux (ABC, abc,) les ſommets, (B & b,) conviennent, & une des jambes (BA) à une des jambes (ba); l'autre jambe (BC) conviendra auſſi à l'autre jambe (bc). *Item*, tous les angles dont les jambes conviennent; ſont égaux, *Fig.* 7.
 

@@ -18,10 +18,24 @@ La conſtruction d'un △ équilatéral ſur la droite terminée AB.
 
 ### Réſolution.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Du point A comme centre & du rayon AB decrivez le cercle BCD.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Du point B comme centre & du rayon BA decrivez le cercle ACE.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Marquez le point d'interſection C.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Du point A au point C tirez la droite AC.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Du point B au point C tirez la droite BC.
 
 [Margin]
@@ -38,22 +52,42 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque le point A eſt le centre du ⊙ BCD *(Reſ. 1.)*, & que les lignes AB, AC ſont tirées du centre A à la ○ BCD *(Reſ. 4.)*.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Ces deux lignes AB, AC ſont des rayons d'un même ⊙.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Par conſéquent, la ligne AC eſt = à la ligne AB.
 
 De même, puiſque le point B eſt le centre du ⊙ ACE *(Reſ. 2.)*, & que les lignes BA, BC, ſont tirées du centre B à la ○ ACE *(Reſ. 5.)*.
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Ces deux lignes ſont encore des rayons d'un même cercle ACE.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant, la ligne BC eſt auſſi = à la même ligne AB.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Les lignes AC, BC ſont donc = à une même troiſiéme AB. *(Arg. 2. & 4.)*
 
 Or *ſi deux grandeurs ſont égales à une même troiſieme elles ſont égales entr'elles.*
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. La ligne AC eſt donc = à la ligne BC.
 
 Mais chacune de ces deux lignes = entr'elles *(Arg 6.)* eſt auſſi = à la ligne AB, *Arg. 5)*.
 
+[Curated heading level=4 type=numbered_item: 7.]
+
 7. Donc les trois lignes AB, BC, AC, qui forment les trois cotés du △ ABC, ſont toutes les trois = entr'elles.
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. Partant, le △ ABC conſtruit ſur la droite donnée & terminée AB, eſt un triangle équilatéral.
 
 [Margin]

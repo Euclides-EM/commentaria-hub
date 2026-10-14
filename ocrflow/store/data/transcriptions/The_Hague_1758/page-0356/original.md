@@ -25,6 +25,8 @@
 
 Et que ∀ plan EFH eſt = ∀ plan DKL. (*Hyp.* 3.).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Le Pgr. DL, baze du ⊟ DN eſt = au Pgr. EH, baze du ⊟ EI.
 
 [Margin]
@@ -33,7 +35,11 @@ Prop. 14. L. 6.
 
 De plus les ∀ plan GFE & GFH, compris de l'élevée FG, & des cotés EF & FH, étant égaux aux ∀ plan MKD & MKL, compris de l'élevée KM & de DK & KL, chacun à chacun. (*Hyp.* 3.) & que FG eſt = KM. (*Hyp.* 2 & 3.).
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. La perpendiculaire abaiſſée du point G, ſur la baze EH, ſera égal à la perpendiculaire abaiſſée du point M, ſur la baze DL. (*Cor. de la Prop.* 35. *L.* 11.)
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant le ⊟ EI aura la même hauteur que le ⊟ DN.
 
@@ -42,6 +48,8 @@ Def. 4. L. 6.
 [/Margin]
 
 Or la baze EH du ⊟ EI eſt = à la baze DL du ⊟ DN (*Arg.* 1.).
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc le ⊟ EI eſt = au ⊟ DN.
 

@@ -15,11 +15,15 @@
 
 ### Préparation.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. {dropcap:C|lines=2|style=plain}Herchez les centres C & G des deux ⊙ ABDE, FHMN.
 
 [Margin]
 Prop. 1. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez les rayons CA, CD item GF, GM.
 
@@ -31,11 +35,15 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uisque les ⊙ ABDE, FHMN ſont égaux *(Hyp. 1):*
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les côtés CA, CD, & GF, GM des △ ACD, FGM ſont = auſſi. Et les cordes AD, FM étant outre cela égales *(Hyp. 2).*
 
 [Margin]
 Ax. 1. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les ∀ ACD, FGM ſont = entr’eux.
 
@@ -43,11 +51,15 @@ Ax. 1. L. 3.
 Prop. 8. L. 1.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Partant, les arcs AED, FNM ſoustendus par les cordes AD, FM ſeront auſſi = entr’eux.
 
 [Margin]
 Prop. 26. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Et les ⊙ entieres étant, de plus égales *(Hyp. 1),* les arcs ABD, FHM ſont auſſi égaux.
 

@@ -4,13 +4,23 @@
 
 [Figure: circle with points C, H, G, F, A, D, B, E; the perpendicular CE through D, chord AB, and dotted lines from G to A, D and B]
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Les ∀ contigus *a* + *b* & *c*, oppoſés aux côtés égaux GA, GB, ſont = entr'eux.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant ∀ *a* + *b* eſt un L. Mais ∀ *a* étant auſſi un L (*Reſ*. 3).
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Il ſuit, que ∀ *a* + *b* eſt = à ∀ *a*; ce qui eſt impoſſible.
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Partant le point G pris hors de la ligne EC, ne peut être le centre du ⊙ ACBE. Ce centre n'étant donc ni dans la ligne EC, en un point H différent du point F (*Cas*. 1); ni hors de la ligne EC, en un point G (*Cas*. 11).
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Le centre cherché du ⊙ ACBE ſera néceſſairement en F.
 

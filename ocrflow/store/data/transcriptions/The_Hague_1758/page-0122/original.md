@@ -22,11 +22,15 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque donc le point D n’eſt pas le centre (*Sup.*), & que de ce point D, on peut tirer à la circonference plus de deux droites DA, DB, DC = entr’elles (*Hyp*).
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Il s’enſuivroit, que d’un point D, autre que le centre, on pourroit tirer plus de deux droites = entr’elles; ce qui eſt impoſſible.
 
 [Margin]
 Prop. 7. L. 3.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, le point D eſt le centre du ⊙ ABC.
 
