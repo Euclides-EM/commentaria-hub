@@ -18,9 +18,10 @@ import (
 )
 
 const (
-	defaultMaxBackupsToStore = 5
-	zipProgressLogEveryFiles = 100
-	backupZipPrefix          = "euclides_backup_"
+	defaultLocalMaxBackupsToStore = 2
+	defaultDriveMaxBackupsToStore = 5
+	zipProgressLogEveryFiles      = 100
+	backupZipPrefix               = "euclides_backup_"
 )
 
 type dirZipStats struct {
@@ -43,8 +44,9 @@ type Backup struct {
 	backupdir             string
 	restoreFromBackupPath string
 
-	rclone            *RcloneDrive
-	maxBackupsToStore int
+	rclone                 *RcloneDrive
+	localMaxBackupsToStore int
+	driveMaxBackupsToStore int
 
 	shutdownFunc func() error
 	// checkpointDB, if set, is called before copying the DB file into the backup.
@@ -53,21 +55,25 @@ type Backup struct {
 	checkpointDB func() error
 }
 
-func NewBackup(baseData, models, items, db, backupDir, restoreDir, rcloneRemoteName, rcloneGDriveFolderID string, maxBackupsToStore int, shutdownFunc func() error) *Backup {
-	if maxBackupsToStore <= 0 {
-		maxBackupsToStore = defaultMaxBackupsToStore
+func NewBackup(baseData, models, items, db, backupDir, restoreDir, rcloneRemoteName, rcloneGDriveFolderID string, localMaxBackupsToStore, driveMaxBackupsToStore int, shutdownFunc func() error) *Backup {
+	if localMaxBackupsToStore <= 0 {
+		localMaxBackupsToStore = defaultLocalMaxBackupsToStore
 	}
-	log.Printf("Creating new backup service with max backups to store: %d", maxBackupsToStore)
+	if driveMaxBackupsToStore <= 0 {
+		driveMaxBackupsToStore = defaultDriveMaxBackupsToStore
+	}
+	log.Printf("Creating new backup service with max local backups to store: %d and max Drive backups to store: %d", localMaxBackupsToStore, driveMaxBackupsToStore)
 	return &Backup{
-		baseDataDir:           baseData,
-		modelsDir:             models,
-		itemsMetadataDir:      items,
-		dbPath:                db,
-		backupdir:             backupDir,
-		restoreFromBackupPath: restoreDir,
-		rclone:                NewRcloneDrive(rcloneRemoteName, rcloneGDriveFolderID, "backup rclone"),
-		maxBackupsToStore:     maxBackupsToStore,
-		shutdownFunc:          shutdownFunc,
+		baseDataDir:            baseData,
+		modelsDir:              models,
+		itemsMetadataDir:       items,
+		dbPath:                 db,
+		backupdir:              backupDir,
+		restoreFromBackupPath:  restoreDir,
+		rclone:                 NewRcloneDrive(rcloneRemoteName, rcloneGDriveFolderID, "backup rclone"),
+		localMaxBackupsToStore: localMaxBackupsToStore,
+		driveMaxBackupsToStore: driveMaxBackupsToStore,
+		shutdownFunc:           shutdownFunc,
 	}
 }
 
@@ -214,17 +220,17 @@ func (s *Backup) ensureMaxDriveBackups() error {
 	if err != nil {
 		return fmt.Errorf("drive retention: list backups: %w", err)
 	}
-	if len(entries) <= s.maxBackupsToStore {
+	if len(entries) <= s.driveMaxBackupsToStore {
 		return nil
 	}
 
-	log.Printf("deleting %d old backups from drive to enforce maxBackupsToStore=%d", len(entries)-s.maxBackupsToStore, s.maxBackupsToStore)
-	for _, entry := range entries[s.maxBackupsToStore:] {
+	log.Printf("deleting %d old backups from drive to enforce driveMaxBackupsToStore=%d", len(entries)-s.driveMaxBackupsToStore, s.driveMaxBackupsToStore)
+	for _, entry := range entries[s.driveMaxBackupsToStore:] {
 		if err := s.deleteDriveBackup(entry); err != nil {
 			return fmt.Errorf("drive retention: delete %s: %w", entry.name, err)
 		}
 	}
-	log.Printf("backups deleted from drive: %d", len(entries)-s.maxBackupsToStore)
+	log.Printf("backups deleted from drive: %d", len(entries)-s.driveMaxBackupsToStore)
 	return nil
 }
 
@@ -442,8 +448,8 @@ func (s *Backup) ensureMaxBackups() error {
 	if err != nil {
 		return fmt.Errorf("list backups: %w", err)
 	}
-	if len(l) > s.maxBackupsToStore {
-		toDelete := l[s.maxBackupsToStore:]
+	if len(l) > s.localMaxBackupsToStore {
+		toDelete := l[s.localMaxBackupsToStore:]
 		for _, b := range toDelete {
 			p := filepath.Join(s.backupdir, b+".zip")
 			if err := os.Remove(p); err != nil {

@@ -81,10 +81,12 @@ export type ItemProps = {
 
 export const STUDY_CORPUSES: Record<string, string> = {
   dh: "DH Core",
-  dotted_lines: "Dotted Lines",
+  dotted_lines: "Dotted Lines (Experiment)",
+  dotted_lines_26_additional_works: "Dotted Lines (2026, Additional Works)",
+  dotted_lines_26_elements: "Dotted Lines (2026, Elements)",
   Angela_metadata: "Angela Metadata",
   origin_eip_csv: "Original EiP",
   axiomatics_16: "Axiomatics 16",
-  tps_experiment: "Title Pages Experiment",
-  tps_experiment_reviewed: "Title Pages Experiment [Reviewed]",
+  tps_experiment: "Title Pages (Experiment)",
+  tps_experiment_reviewed: "Title Pages (Experiment, Reviewed)",
 };
