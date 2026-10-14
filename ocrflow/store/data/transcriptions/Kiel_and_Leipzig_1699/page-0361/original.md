@@ -17,11 +17,28 @@ AB : DE ⊤ EF : BC.
 
 ### I. Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Es werde gemacht abc ⩓ ABC n. 22. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Die Seiten ab und ce werden gegen d und f verlängert.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Es werde ed ⊤ ED
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. und ef ⊤ EF   n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Auch werde df
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Wie auch dc gezogen.
 
 ### Beweiß.

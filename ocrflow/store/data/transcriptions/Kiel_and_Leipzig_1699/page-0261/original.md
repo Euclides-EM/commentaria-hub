@@ -17,9 +17,20 @@ C : a | D : b
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Die Grösse A werde in l, c, d, also getheilet / daß l | a, c | a und d | a werde. n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Deßgleichen werde B in e, f, g, getheilet / daß e | b, f | b und g | b werde. n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Es werde auch C in h, k, m, also getheilet / daß h | A k | A und m | A werde. n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Und D werde in n, p, q, getheilet / daß n | B, p | B q | B werde. n. 3. I.
 
 <!-- Catchword: I. Be- -->

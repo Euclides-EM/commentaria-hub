@@ -4,12 +4,21 @@
 
 werden die übrigen Seiten / denen übrigen Seiten / jedwede jedweder / und der übrige Winckel/ dem übrigen Winckel auch gleich seyn.
 
-### Gegebene.                    Begehrte.
-1. △ ABC                     A ⋏ a
-2. △ abc                     AB | ab
-3. BC | bc                   AC | ac
+### Gegebene.
+
+1. △ ABC
+2. △ abc
+3. BC | bc
 4.   B ⋏ b
-5.   C ⋏ c    Beweiß.
+5.   C ⋏ c
+
+### Begehrte.
+
+A ⋏ a
+AB | ab
+AC | ac
+
+### Beweiß.
 
 Entweder ist   AB ⊢ ab
 oder           AB ⊣ ab

@@ -2,19 +2,30 @@
 
 <!-- Running title: Das I. Buch -->
 
-### Gegebene. | Begehrtes.
-1. △ ABC | ABC ⩓ DEF.
+### Gegebene.
+
+1. △ ABC
 2. △ DEF
 3. Grundstriche BC | EF
 4. Nebenstriche AD = BF
 5. Zwischen welchen die △ △ stehen.
+
+### Begehrtes.
+
+ABC ⩓ DEF.
 
 [Diagram: Viereck mit den Puncten D, H, G, A oben und F, E, C, B unten, darinnen Dreyecke mit gezogenen und punctirten Strichen]
 
 ### Vorbereitung.
 
 Es werden Nebenstriche gezogen
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Auß C gegen AB nemlich CG
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. — E — DF — EH.
 
 ### Beweiß.

@@ -11,11 +11,17 @@ Sind derowegen in jedweden △ zwo Seiten grösser/ als die Dritte. W. Z. B.
 
 Wenn in einem Dreyeck / auff einer dessen Seite Endsdüttele/ zween gerade Striche einwerts gesetzet werden; So werden diese beede Striche zwar kleiner seyn/ als die beyden Seiten-Striche des Dreyeckes / sie werden aber einen Winckel / so grösser/ als des Dreyecks Winckel ist/ begreiffen.
 
-### Gegebene. Begerthe.
-1. △ ABC BD + DC ⊢ BA + AC
-2. Zween gerade Striche BD und CD. BDC ⲗ BAC.
+### Gegebene.
+
+1. △ ABC
+2. Zween gerade Striche BD und CD.
 3. Auf die Endsdüttele des Gr-Strichs. B und C
 4. Einwerts auffgesetzet.
+
+### Begerthe{printer-error-correction:Begehrte}.
+
+BD + DC ⊢ BA + AC
+BDC ⲗ BAC.
 
 ### Vorbereitung.
 Es werde der Strich BD biß zu E verlängert.

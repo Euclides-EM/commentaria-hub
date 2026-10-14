@@ -8,12 +8,17 @@
 
 Aller Nebenstrichichten Vier-Ecke gegen überstehende Seiten und Winckel sind gleich groß/ werden auch von dem Zwerg-Strich in zweene gleiche Theile getheilet.
 
-### Gegebene. | Begehrte.
-Nebenstrichichtes Viereck ABCD | 1. AB | CD
-| 2. AC | BD
-| 3. A ⋀ D
-| 4. B ⋀ C
-| 5. ACD ⩓ ABD
+### Gegebene.
+
+Nebenstrichichtes Viereck ABCD
+
+### Begehrte.
+
+1. AB | CD
+2. AC | BD
+3. A ⋀ D
+4. B ⋀ C
+5. ACD ⩓ ABD
 
 [Diagram: Nebenstrichichtes Viereck (Parallelogramm) ABCD mit punktirter Zwerg-Linie von A nach D]
 

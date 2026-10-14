@@ -8,14 +8,18 @@ Ist also der Strich ab also in c geschnitten/ daß das Viereck/ so der gantze St
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-1. a | ab | 1. a getheilet in c und e getheilet also daß ae | cc.
+1. a | ab
 2. b | ad
 3. c | ac
 4. e | cb
 5. d | ef
 6. f | db | df.
+
+### Begehrtes.
+
+1. a getheilet in c und e getheilet also daß ae | cc.
 
 ### Beweiß.
 

@@ -2,12 +2,14 @@
 
 <!-- Page number: 147 -->
 
-### Gegebene. — Begehrte.
+### Gegebene.
 
 1. Zweene Kreyse abc und aeq
 2. Deren kleinerer den grössern inwendig berühret in a.
 3. Strich cf durch beede Mittel-Düpffele d und f.
 4. Welcher Strich nach nothdurfft verlängert wird.
+
+### Begehrte.
 
 1. Der verlängerte Strich cf stösset auff den Anrührungs-Düttel a.
 

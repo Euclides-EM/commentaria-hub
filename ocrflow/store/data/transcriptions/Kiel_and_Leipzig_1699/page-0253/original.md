@@ -4,7 +4,11 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. A Werde getheilet in c, d, e also/daß c|a. d|a und e|a n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Deßgleichen werde B in f, g, h, also getheilet / daß f|b, g|b, und h|b, n. 3. I.
 
@@ -30,9 +34,20 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. A Werden zweymahl/ und
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. B auch zweymahl genommen.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. a werden viermahl/ und
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. b gleichfals viermahl genommen.
 
 <!-- Catchword: 2 A -->

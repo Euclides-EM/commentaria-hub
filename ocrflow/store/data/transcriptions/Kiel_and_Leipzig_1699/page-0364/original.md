@@ -4,8 +4,16 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werde gemacht das □ ad
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Deßgleichen auch □ bc.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Und zwar nach gleichmässigen Winckel gemacht. n. 23. I.
 
 ### I. Beweiß.

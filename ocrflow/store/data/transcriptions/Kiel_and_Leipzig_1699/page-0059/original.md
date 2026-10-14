@@ -4,15 +4,28 @@
 
 sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als die dritte.
 
-### Gegebenes. Begehrte.
-△ ABC. 1. AB + BC ⊣ CA
+### Gegebenes.
+
+△ ABC.
+
+### Begehrte.
+
+1. AB + BC ⊣ CA
 2. CA + AB ⊣ BC
 3. BC + CA ⊣ BA.
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werde die Seite CA nach nohturfft verlängert. n. 2. Fod.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. werde AD | AB n. 3. Vortr.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Ziehe man den geraden Strich BD.
 
 [Diagram: Dreieck ABC mit C unten links, B unten rechts, A oben; die Seite CA über A hinaus punktiert verlängert bis D, punktierte Linie von D nach B.]

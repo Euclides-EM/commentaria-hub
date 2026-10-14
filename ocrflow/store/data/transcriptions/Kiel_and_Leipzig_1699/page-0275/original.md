@@ -2,13 +2,15 @@
 
 <!-- Page number: 258 -->
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
 [Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-A ⊣ B
-
 A : a ⊣ B : a
+
+### Begehrtes.
+
+A ⊣ B
 
 ### I. Beweiß.
 
@@ -22,9 +24,13 @@ auch A : a ⊢ B : a — n. 8. V.
 
 Beedes ist wider das Gegebene.
 
-### Gegebenes. — Begehrtes.
+### Gegebenes.
 
-a : B ⊣ a : A — B ⊢ A.
+a : B ⊣ a : A
+
+### Begehrtes.
+
+B ⊢ A.
 
 ### II. Beweiß.
 

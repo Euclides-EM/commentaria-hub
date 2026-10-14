@@ -27,9 +27,14 @@ Sind also allezeit diejenigen Winckel/welche in einem Kreyßstück stehen/ gleic
 
 Aller einem Kreyß eingeschriebenen Vierecke gegen einander überstehende Winckel sind eben so groß/ als zween rechte Winckel.
 
-### Gegebene. Begehrte.
+### Gegebene.
 
-1. Viereck abcd, — 1. adc + abc | 2 ∟
-2. Welches dem Kreyß acb eingeschrieben. — 2. dcb + dab | 2 ∟
+1. Viereck abcd,
+2. Welches dem Kreyß acb eingeschrieben.
+
+### Begehrte.
+
+1. adc + abc | 2 ∟
+2. dcb + dab | 2 ∟
 
 <!-- Catchword: Vor- -->

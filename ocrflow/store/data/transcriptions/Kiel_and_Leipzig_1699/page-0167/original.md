@@ -21,10 +21,12 @@ Muß also allezeit der gerade Strich / welcher zweene Mittel-Düpffele derer Kre
 
 Kein Kreyß kan einen andern Kreyß in mehr/ als einem Düttel anrühren/ sie mögen gleich von innen oder von aussen einander berühren.
 
-### Gegebene. — Begehrte.
+### Gegebene.
 
 1. Zweene Kreyse/
 2. Welche einander anrühren.
+
+### Begehrte.
 
 Nicht mehr als ein Anrührungs-Düttel.
 

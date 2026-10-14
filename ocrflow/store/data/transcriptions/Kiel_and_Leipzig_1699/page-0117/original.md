@@ -16,15 +16,19 @@ Wird derowegen allezeit das □ der Helffte/ des in gleiche und ungleiche Theil 
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-1. Strich a | AD — dc + ee | bb
+1. Strich a | AD
 2. b + b | AB + BD
 3. a | b + b
 4. d | AC
 5. e | BC
 6. b + e | c
 7. d + e | b
+
+### Begehrte.
+
+dc + ee | bb
 
 ### Beweiß.
 

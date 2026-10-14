@@ -14,6 +14,7 @@ sé s'il est quarré, ou s'il n'est quarré, le plus grand nombre quarré conten
 
 Les quarrez de ces 9 nombres estant cognus, pour extraire les racines des autres nombres plus grands, il faut premierement separer les figures du nombre proposé deux à deux, commençant à la main droicte. Puis ayant pris la racine de la premiere partie du costé gauche, & escrit le reste au dessus, en tranchant les figures comme en la diuision : Pour chaque partie ou section de nostre nombre, il faut trouuer nouueau diuiseur à mesure qu'on aduance, & mettre la figure qui monstre combien de fois il est contenu au nombre superieur correspondant, non seulement au quotient, mais aussi au costé droict du diuiseur ; le tout comme on peut voir aux exemples suiuants.
 
+[Calculation]
 2 | 1
 8 | 4 4
 5 7 | 8 0 | 5 6 | 0 9 | 47 [76030.
@@ -21,5 +22,6 @@ Les quarrez de ces 9 nombres estant cognus, pour extraire les racines des autres
 7 | 4 6 | 2 0 | 0 3 | 6 0
 1 | 1 5 | 5 2 | 2 0
 1 | 1 5
+[/Calculation]
 
 Soit à extraire la racine de 5780560947, premierement ie separe les figures du nombre proposé deux à deux, commençant à la main droicte, puis ayant mis la racine de 57, qui est 7, au quotient, &

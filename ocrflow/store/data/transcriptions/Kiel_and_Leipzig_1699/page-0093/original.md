@@ -22,11 +22,16 @@ Ist also dem gegebenen △ ein gleichhaltendes □ , und zwar nach dem ∧ D ver
 
 In jedwedem Nebenstrichichen Viereck/sind die Füllflächen derer ümb den Zwergstrich stehenden Vierecke von gleicher grösse.
 
-### Gegebene. | Begehrtes.
-1. □ ADBC | FH ⌻ GI.
+### Gegebene.
+
+1. □ ADBC
 2. Zwergstrich AB
 3. Ümb den Zwergstrich stehende □ □ FG und HI
 4. Füllflächen FH und GI.
+
+### Begehrtes.
+
+FH ⌻ GI.
 
 [Diagram: Nebenstrichichtes Viereck mit den Puncten A, F, C oben, G, E, H in der Mitte und D, I, B unten, mit dem Zwergstrich und inneren Vierecken]
 

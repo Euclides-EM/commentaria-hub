@@ -26,12 +26,16 @@ Wenn ein gerader Strich in einem Kreyß einen andern Strich des Kreyses / nach r
 
 Wenn in eines Kreyses Umfang zween Düttele erwehlet/ und mit einem geraden Strich zusammen gehänget werden/ so fället solcher Strich inwendig in den Kreyß.
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
-1. Der Kreyß hcg, — Strich hg Jnwendig im Kreyß.
+1. Der Kreyß hcg,
 2. Zween Düttel h und g,
 3. Der Strich hg, welcher
 4. Die beyden Düttele zusammen hänget.
+
+### Begehrtes.
+
+Strich hg Jnwendig im Kreyß.
 
 <!-- Signature: R 2 -->
 

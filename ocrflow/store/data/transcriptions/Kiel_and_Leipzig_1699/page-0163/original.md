@@ -2,7 +2,12 @@
 
 <!-- Page number: 146 -->
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Werden gezogen die geraden Striche fc und cd.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Durch die Mittel dieser beyden Striche werden gerade Senckstriche gezogen / bg und ek.
 
 [Diagram: zwei einander schneidende Kreise; darauf die Punkte i und k oben, d und h, l, b, a, g, m in der Mitte, c und f unten, e zuunterst; punktierte Verbindungsstriche durch a]

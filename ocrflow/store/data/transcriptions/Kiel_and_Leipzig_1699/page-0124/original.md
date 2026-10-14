@@ -14,19 +14,37 @@ W. Z. B.
 
 Weñ ein gerader Strich auff waserley Weise in zwey Stücke geschnitten ist/ so wird das rechtwincklichte Viereck/ so von dem gantzen Strich und dem einen Stück begriffen wird/ viermahl genommen/ samt dem gleichseitigen Viereck des andern Stückes/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem gantzen/ und ersten Stück zusammen gesetzten Strich gemacht wird.
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-1. Gerader Strich ab — □ ad | 4 □ abc + □ ca
+1. Gerader Strich ab
 2. Geschnitten in c
 3. Angesetztes Stück. bd | bc
 4. ab + bd | ad
 
+### Begehrte.
+
+□ ad | 4 □ abc + □ ca
+
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Der Strich ab werde verlänget biß d. daß bd | bc
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Auff einen Strich/ so dem Strich ad gleich/ werde ein gleichseitiges □ gesetzet. n. 46. I.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Dieser Strich werde eben so getheilet/ wie der Strich ad. n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Auff ac werde ein gleichseitig □ gesetzet. n. 46. I.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Werden vier □ a b c gemacht.
 
 <!-- Signature: O 2 -->

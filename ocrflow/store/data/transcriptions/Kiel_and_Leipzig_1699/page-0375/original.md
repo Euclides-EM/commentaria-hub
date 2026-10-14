@@ -2,10 +2,14 @@
 
 <!-- Page number: 358 -->
 
-### Gegebene. Begehrte.
+### Gegebene.
 
-1. △ abc \ △ abc ähnlich △ efg
+1. △ abc \
 2. △ efg / ähnlich △ cde
+
+### Begehrte.
+
+△ abc ähnlich △ efg
 
 [Diagram: drey Dreyecke auf einer gemeinsamen Grundlinie b c e g mit den Spitzen a, d und f]
 

@@ -26,9 +26,13 @@ Dw. sind bc und de gleichweit von dem Mittel-Düpffel entfernet. n. 4. Beschr. I
 
 Anderer Theil dieses Vortrags.
 
-### Gegebene. Begehrtes.
+### Gegebene.
 
-1. Zween Senckstriche ag und af. — cb | de
+1. Zween Senckstriche ag und af.
+
+### Begehrtes.
+
+cb | de
 
 <!-- Signature: V 2 -->
 <!-- Catchword: 2. Aus -->

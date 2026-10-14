@@ -21,7 +21,13 @@ Kreyß bhac, dessen Theil das gegebene Kreyßstück ist.
 [Diagram: Kreyßstück mit den Punckten k, b, h, d, e, c, a, f; der Kreyß ist punctirt vollendet, mit Strichen durch e und f]
 
 ### Wirckung.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Man ziehe in dem gegebenen Bogen den geraden Strich ac.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Welcher in zwey gleiche Stücke ea | ec getheilet wird. n. 10. I.
 
 <!-- Catchword: 3. Durch -->

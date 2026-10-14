@@ -15,11 +15,16 @@ Sind also allezeit diejenigen rechtwincklichten Vierecke/ welche der unzertheilt
 
 ### Nach der Löß-Kunst.
 
-### Gegebene. | Begehrtes.
-1. Strich a | ae | be + ce + de
+### Gegebene.
+
+1. Strich a
 2. Getheilet b + c + d
 3. a | b + c + d
 4. ungetheilter Strich e.
+
+### Begehrtes.
+
+ae | be + ce + de
 
 ### Beweiß.
 

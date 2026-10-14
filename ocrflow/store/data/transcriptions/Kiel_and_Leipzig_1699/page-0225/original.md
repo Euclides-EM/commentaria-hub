@@ -2,7 +2,12 @@
 
 <!-- Page number: 208 -->
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Der Senckstrich ab zu dem Strich gf }
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. - - - - ad - - - eg } n. 12. I.
 
 ### I. Beweiß.
@@ -34,9 +39,13 @@ Ist also dem gegebenen △ efg ein O bcd eingeschrieben. W. Z. M.
 
 Umb ein gegebenes Dreyeck einen Kreyß zu beschreiben.
 
-### Gegebenes. Begehrte.
+### Gegebenes.
 
-Dreyeck abc 1. Kreyß abc
+Dreyeck abc
+
+### Begehrte.
+
+1. Kreyß abc
 2. Umb das △ abc beschrieben.
 
 <!-- Catchword: Wirckung. -->

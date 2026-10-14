@@ -2,10 +2,24 @@
 
 <!-- Running title: Das VI. Buch -->
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. auf welchen die Längen der Striche AD und
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. CD gesetzet werden ad ⊤ AD / cd ⊤ CD   n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Der gantze Strich ac wird in zween gleiche Theile getheilet n. 10. I.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Aus dem Mittel g wird nach der Weite ag ein Halbkreyß beschrieben,
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Aus dem Düttel d, wo die beyden Striche zusammen stossen/ werde biß zu dem Kreyßzug ein Senckstrich db gezogen. n. 11. I.
 
 ### Vorbereitung.

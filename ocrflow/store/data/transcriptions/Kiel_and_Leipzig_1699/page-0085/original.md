@@ -30,7 +30,12 @@ Worauß nun erhellet/ daß alle auff gleichgrossen Grundstrichen/und zwischen ei
 
 Alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Dreyecke sind gleichgroß.
 
-### Gegebene. | Begehrtes.
-1. △ ABC | ABC ⩓ BCD.
+### Gegebene.
+
+1. △ ABC
+
+### Begehrtes.
+
+ABC ⩓ BCD.
 
 <!-- Catchword: 2. △ -->

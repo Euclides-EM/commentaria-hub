@@ -2,23 +2,36 @@
 
 <!-- Page number: 12 -->
 
+[Curated heading level=3 type=numbered_item: VI.]
+
 VI. Diejenigen (zwey) Dinge ab und cd / welche zweyfach grösser sind / als das dritte ef/ dieselbigen ab und cd sind einander gleich.
 
 [Diagram: drei Striche a–b, e–f (kürzer), c–d]
+
+[Curated heading level=4 type=numbered_item: (i)]
 
 (i) Wenn (zwey) Dinge ab und cd zwiefach so groß sind/als (zwey) andere gleiche Dinge ef und im / sind die beeden ersten ab und cd auch einander gleich.
 
 [Diagram: vier Striche a–b, e–f, i–m, c–d]
 
+[Curated heading level=4 type=numbered_item: (k)]
+
 (k) Wenn ein Ding ab zweymal so groß ist / als das eine cd ( zweyer gleichen Dinge cd und ef/ ) so ist ab auch zweymal so groß/ als das andere ef.
 
 [Diagram: drei Striche a–b (lang), c–d, e–f (kürzer, gleich lang)]
+
+[Curated heading level=4 type=numbered_item: (l)]
 
 (l) Eben dieses gehet auch bey denen Dingen ef an / welche drey-vier-oder mehr-mal grösser oder kleiner sind.
 
 [Diagram: links drei Striche a–b, e–f (kurz), c–d; rechts drei Striche e–f (lang), a–b (kurz), c–d (kurz)]
 
+[Curated heading level=3 type=numbered_item: VII.]
+
 VII. Wenn (zwey) Dinge ab und cd halb so groß sind /als das dritte ef/ so sind sie unter einander gleich.
+
+[Curated heading level=4 type=numbered_item: (m)]
+
 (m) Welche ab und cd gleich groß sind/ die sind auch halb so groß / als das dritte ef.
 
 [Diagram: drei Striche a–b, c–d (gleich lang), e–f (doppelt so lang)]

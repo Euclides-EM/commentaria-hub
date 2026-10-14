@@ -8,29 +8,33 @@ Wird also allezeit das □ der Seite ac, welche dem stumpffen Winckel abc gegen-
 
 ### Nach der Löse-Kunst.
 
-### Gegebenes. | Begehrtes.
+### Gegebenes.
 
-1. a | ac | aa | bb ✠ 2be ✠ cc.
+1. a | ac
 2. b | ab
 3. c | bc
 4. d | ad
 5. e | bd
 6. f | cd
-7. d | b ✠ e
+7. d | b + e
 8. adc | ∟
+
+### Begehrtes.
+
+aa | bb + 2be + cc.
 
 ### Beweiß.
 
 adc | ∟ | n. 8. Geg.
-Dw. aa | dd ✠ ff | n. 47. I.
-d | b ✠ e
-dd | bb ✠ 2be + ee | n. 4. I.
-dd ✠ aa | bb ✠ 2be + ee + dd ✠ ff | n. 2. Gr. I.
+Dw. aa | dd + ff | n. 47. I.
+d | b + e
+dd | bb + 2be + ee | n. 4. I.
+dd + aa | bb + 2be + ee + dd + ff | n. 2. Gr. I.
 dd | dd
-aa | bb ✠ 2be + ee + ff | n. 3 Gr. I.
-ee ✠ ff | cc | n. 47. I.
-ee ✠ ff ✠ aa | bb ✠ 2be + ee + ff ✠ cc | n. 2. Gr. I.
-ee ✠ ff | ee ✠ ff
-aa | bb ✠ 2be + cc | n. 3. Gr. I. W Z. B.
+aa | bb + 2be + ee + ff | n. 3 Gr. I.
+ee + ff | cc | n. 47. I.
+ee + ff + aa | bb + 2be + ee + ff + cc | n. 2. Gr. I.
+ee + ff | ee + ff
+aa | bb + 2be + cc | n. 3. Gr. I. W Z. B.
 
 <!-- Catchword: Der -->

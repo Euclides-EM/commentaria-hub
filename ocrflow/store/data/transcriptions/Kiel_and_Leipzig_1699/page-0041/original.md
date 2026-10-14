@@ -2,10 +2,14 @@
 
 <!-- Page number: 24 -->
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-1. Das △ ABC | AB | AC
+1. Das △ ABC
 2. ABC ⋏ ACB
+
+### Begehrtes.
+
+AB | AC
 
 [Diagram: Dreyeck ABC mit Punkt D auff der Seite AB und punktiertem Strich DC]
 

@@ -4,11 +4,17 @@
 
 nommene; Wie auch den auswendigen dem inwendig entgegen stehenden ; Und die beeden inwendig auff einer Seiten befindliche Winckele gleich groß.
 
-### Gegebene.                    Begehrte.
-1. AB = CD                   1. AGH ⋏ GHD
-2. Einfallender Strich EF    2. BGH ⋏ GHC
-                             3. EGB ⋏ GHD
-                             4. BGH + GHD ⋏ ⏥
+### Gegebene.
+
+1. AB = CD
+2. Einfallender Strich EF
+
+### Begehrte.
+
+1. AGH ⋏ GHD
+2. BGH ⋏ GHC
+3. EGB ⋏ GHD
+4. BGH + GHD ⋏ ⏥
 
 [Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
 

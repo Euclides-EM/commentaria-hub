@@ -20,16 +20,25 @@ Können also zweene Kreyse / so einander durchschneiden/ nicht aus einem einigen
 
 Wenn zween Kreyse/ deren einer in dem andern stehet/ einander berühren/ so können sie nicht einen einigen Mittel-Düpffel haben.
 
-### Gegebene. — Begehrte.
+### Gegebene.
 
-1. Zween Kreyse bfd und bgc. — Diese Kreyse haben verschiedene Mittel-Düpffele.
+1. Zween Kreyse bfd und bgc.
 2. Der Kreyß bgc rühret den andern bfd inwendig bey b an
+
+### Begehrte.
+
+Diese Kreyse haben verschiedene Mittel-Düpffele.
 
 ### Vorbereitung.
 
 Wolte man sagen / sie hätten nur einen eintzigen Mittel-Düpffel/ nemlich a, so ziehe man aus a
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Zu dem anrührungs-Düpffel b den Strich ab.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Auch den Strich af.
 
 [Diagram: zween Kreyse, deren innerer den äusseren unten bey b anrühret, mit den Dütteln d, c (oben), f, g (links), e und a in der Mitte, punktierte Striche von a nach b, c und g]

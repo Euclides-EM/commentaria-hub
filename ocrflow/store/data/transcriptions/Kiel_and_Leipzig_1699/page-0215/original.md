@@ -7,8 +7,17 @@
 ### Vorbereitung.
 
 Aus dem Mittel-Düpffel ac werden gezogen.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Der Strahl cg.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Der Senckstrich cd.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Ein Senckstrich cf auff den Schneidenden Strich ah n. 12. I.
 
 ### I. Beweiß.

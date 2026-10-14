@@ -24,10 +24,16 @@ Müssen derowegen die beeden Striche EC und DC gerade auff einander stossen / un
 
 Wenn zween gerade Striche einander durchschneiden/ so werden sie die gegen einander stehende Gipffel-Winckel einander gleich-groß machen.
 
-### Gegebene. Begehrte.
+### Gegebene.
+
+1. Zween gerade Striche AB und DE.
+2. Welche einander durchschneiden in E.
+
+### Begehrte.
+
 Die Gipffel-Winckel (anguli ad verticem)
-1. Zween gerade Striche AB und DE. AEC ⋀ DEB.
-2. Welche einander durchschneiden in E. AED ⋀ CEB.
+AEC ⋀ DEB.
+AED ⋀ CEB.
 
 <!-- Signature: E 2 -->
 <!-- Catchword: Be- -->

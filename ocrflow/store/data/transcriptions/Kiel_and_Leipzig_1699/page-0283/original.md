@@ -2,9 +2,9 @@
 
 <!-- Page number: 266 -->
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-A ________ | a ⊢ b
+A ________
 a ____
 B ________
 b ____
@@ -13,6 +13,10 @@ b ____
 
 A : a | B : b
 A ⊢ B
+
+### Begehrtes.
+
+a ⊢ b
 
 ### Beweiß.
 

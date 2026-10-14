@@ -24,13 +24,21 @@ BDC ⲗ BAC n. Bew. a. W. Z. B.
 
 Aus drey geraden Strichen / welche drey andern gegebenen geraden Strichen gleich sind / ein Dreyeck zu verfertigen. Es müssen aber allezeit zween Striche/ auff waserley Weise genommen/ zusammen/ grösser seyn/ als der dritte.
 
-### Gegebene. Begehrte.
-Drey Striche 1. △ ABF
-1. c —— a 2. AB | bc
-2. c ——— b 3. BF | ba
-3. a ——— b 4. AF | ac
+### Gegebene.
+
+Drey Striche
+1. c —— a
+2. c ——— b
+3. a ——— b
 4. ca + cb ⊣ ab
 5. cb + ab ⊣ ca
 6. ca + ab ⊣ cb
+
+### Begehrte.
+
+1. △ ABF
+2. AB | bc
+3. BF | ba
+4. AF | ac
 
 <!-- Catchword: Wir- -->

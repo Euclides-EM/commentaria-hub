@@ -2,11 +2,19 @@
 
 <!-- Page number: 379 -->
 
+[Curated heading level=4 type=numbered_item: 9.]
+
 9. Aus d werde durch B ein gerader Strich dm gezogen/ welcher den Strich mp in m schneide.
+
+[Curated heading level=4 type=numbered_item: 10.]
 
 10. Aus m werde gegen pg der Nebenstrich mb gezogen. n. 31. I.
 
+[Curated heading level=4 type=numbered_item: 11.]
+
 11. Durch B werde auch gegen dq der Nebenstrich on gezogen. n. 31. I.
+
+[Curated heading level=4 type=numbered_item: 12.]
 
 12. Der Strich AB werde biß f verlängert.
 

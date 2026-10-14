@@ -25,10 +25,15 @@ Ist also der begehrte Senckstrich CF aus dem gegebenen Düttel C auff den gegebe
 
 Wenn ein gerader Strich auff einen liegenden geraden Strich stösset/ und zween Winckel machet / so werden solche Winckel entweder selbst zween rechte Winckel / oder wenigstes zweyen rechten Winckeln an grösse gleich seyn.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-Liegender Strich AB. | ⋀ ACD und DCB zween ∟ ∟. oder
-Darauff stossender Strich DC. | ⋀ ADC + BCD | ⊾.
+Liegender Strich AB.
+Darauff stossender Strich DC.
+
+### Begehrtes.
+
+⋀ ACD und DCB zween ∟ ∟. oder
+⋀ ADC + BCD | ⊾.
 
 [Diagram: links liegender Strich AB mit senkrechtem Strich DC auff C; rechts liegender Strich AB mit schrägem Strich DC und punktiertem E]
 

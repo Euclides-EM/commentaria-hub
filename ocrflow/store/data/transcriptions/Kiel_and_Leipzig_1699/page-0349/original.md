@@ -2,15 +2,26 @@
 
 <!-- Running title: Das VI. Buch -->
 
-I. Ahrt.
+### I. Ahrt.
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Auf des Striches ag Endedüttel a werde nach beliebigem Winckel ein gerader Strich ak gezogen.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Von diesem Strich ak werden abgeschnitten drey Striche | ab | AB
 | bc | BC
 | cd | CD | n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Aus d werde zu g der gerade Strich dg gezogen.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Aus b und c werden gegen dg gerade Nebenstriche be und cf gezogen. n. 31. I.
 
 ### Vorbereitung.

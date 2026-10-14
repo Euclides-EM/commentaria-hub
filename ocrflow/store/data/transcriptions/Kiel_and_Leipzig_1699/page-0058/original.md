@@ -2,11 +2,18 @@
 
 <!-- Running title: Euclidis. -->
 
-### Gegebene. Begehrte.
+### Gegebene.
+
 1. △ ABC
-2. ACB ⲗ ABC. 1. AC ⊢ AB.
-3. BCA ⲗ BAC. 2. BA ⊢ BC.
-4. ABC ⲗ BAC. 3. AC ⊢ BC.
+2. ACB ⲗ ABC.
+3. BCA ⲗ BAC.
+4. ABC ⲗ BAC.
+
+### Begehrte.
+
+1. AC ⊢ AB.
+2. BA ⊢ BC.
+3. AC ⊢ BC.
 
 [Diagram: Rechtwinkliges Dreieck mit C oben, A unten links, B unten rechts.]
 

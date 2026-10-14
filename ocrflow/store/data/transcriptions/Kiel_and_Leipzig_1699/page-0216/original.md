@@ -17,8 +17,12 @@ Wird also allezeit das rechtwincklichte Viereck □ hag oder □ eab, welches vo
 
 Wenn man ausser dem gegebenen Kreyß einen Düttel erwehlet/ und von selbigem zween Striche zeucht/ deren einer den Kreyß schneidet/ der andere aber nur auff den Kreyß stösset : Und als dann das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/ und dem Stück/ so zwischen dem Düttel und äussern Kräyßkrümme stehet/ begriffen wird/ eben so groß ist/ als das gleichseitige Vier-Eck des darauff stossenden Striches / so wird solcher auffstossender Strich ein Rührstrich des Kreysses seyn.
 
-### Gegebene. Begehrtes.
+### Gegebene.
 
-1. Kreyß dhkg. da | Rührstrich des Kreyses.
+1. Kreyß dhkg.
+
+### Begehrtes.
+
+da | Rührstrich des Kreyses.
 
 <!-- Catchword: 2.Düt- -->

@@ -4,22 +4,24 @@
 
 4. Welcher nicht in der Mitte des Kreyses stehet.
 5. Die geraden Striche ai, ah, ag, ak, ab, ac.
+6. ab durch den Mittel-Dupffel gehend.
+7. Das übrige dieses Striches / nemlich ac.
+8. Die Striche ah und al gleich weit von dem durch den Mittel-Düpffel gehenden Strich entfernet.
 
 4. ag ⊣ ah
 5. ah ⊣ ai
 6. ah | al.
 
-6. ab durch den Mittel-Dupffel gehend.
-7. Das übrige dieses Striches / nemlich ac.
-8. Die Striche ah und al gleich weit
-von dem durch den Mittel-Düpffel gehenden Strich entfernet.
-
 [Diagram: Kreis mit den Punkten h, g, k oben, i links, c, a, e, b auf dem waagerechten Durchmesser und l unten; von a und e ausgehende teils punktierte Striche zu den Punkten am Umfang]
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werde auff den [unclear: Düttel] a gesetzet ein ∠ ael ⋀ [unclear: aeb]
 n. 23. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werden aus dem Mittel-Düpffel e gezogen ek,
 eg, eh, ei, el, und al.

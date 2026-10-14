@@ -8,16 +8,20 @@
 
 Wenn zusammengesetzte Grössen Ebenmässig sind / so werden sie auch zertheilet Ebenmässig bleiben.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
 A ________________
-a ______ | A—a : a | B—b : b.
+a ______
 B __________
 b ____
 
 [Diagram: Strecken A (mit Theil a), a, B (mit Theil b), b]
 
 A : a | B : b
+
+### Begehrtes.
+
+A—a : a | B—b : b.
 
 ### Beweiß.
 

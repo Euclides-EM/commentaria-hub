@@ -30,10 +30,15 @@ Müssen also alle □ □ , welche einen einigen Grundstrich haben/ und zwischen
 
 Alle auff gleich-grossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Vierecke sind gleich-groß.
 
-### Gegebene. | Begehrte.
-1. □ AC | AC ⌻ EG.
+### Gegebene.
+
+1. □ AC
 2. □ EG
 3. Grundstriche
+
+### Begehrte.
+
+AC ⌻ EG.
 
 <!-- Signature: I 2 -->
 

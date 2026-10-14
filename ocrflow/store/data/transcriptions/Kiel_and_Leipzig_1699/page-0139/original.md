@@ -32,9 +32,13 @@ Wird also in jedwedem spitzwincklichten △ das □ der dem spitzigen ∠ b übe
 
 ### Nach der Löß-Kunst.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-a | ac | cc | bb + aa — [unclear: 2ba]
+a | ac
 b | ab
+
+### Begehrtes.
+
+cc | bb + aa — [unclear: 2ba]
 
 <!-- Catchword: ccb -->

@@ -34,8 +34,16 @@ Wenn in zweyen Dreyecken zweene gleichmässige winckel gefunden werden / deren S
 
 Auf den Strich ed werden gesetzet
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. deg ⋏ bac
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. gde ⋏ abc | n. 23. I.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. werden gezogen eg und dg.
 
 <!-- Signature: Ss 2 -->

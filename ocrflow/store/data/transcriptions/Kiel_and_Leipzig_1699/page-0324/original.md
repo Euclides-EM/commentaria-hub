@@ -18,7 +18,12 @@ Höhen cq | fp.
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 Wenn die Höhe cq länger were/ als die Höhe fp, so schneide man ab ein Stück rq | fp.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Ziehe man die Striche ra und rb.
 
 ### Beweiß.

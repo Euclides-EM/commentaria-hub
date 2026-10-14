@@ -23,9 +23,9 @@ Wenn derowegen zertheilte Grössen Ebenmässig sind/ so werden dieselben auch zu
 
 Wenn eine Gantze Grösse zu einer andern Gantzen Grösse sich also verhält/ wie das von der Ersten abgenommene Stück/ zu dem von der Andern abgenommene Stück: So wird auch das von der Ersten übergebliebene sich zu dem von der Andern übergebliebenen also/ wie das Erste Gantze zu dem Andern Gantzen verhalten.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-A __a__c__ | a : b | A : B.
+A __a__c__
 B __b__d__
 
 [Diagram: Strecken A (mit Theilen a, c) und B (mit Theilen b, d)]
@@ -33,5 +33,9 @@ B __b__d__
 A : B | c : d.
 A | a + c.
 B | b + d.
+
+### Begehrtes.
+
+a : b | A : B.
 
 <!-- Catchword: Beweiß. -->

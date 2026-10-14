@@ -2,13 +2,17 @@
 
 <!-- Page number: 253 -->
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
 [Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-A | B — a : A | a : B
+A | B
 a | 4A
 a | 4B
+
+### Begehrtes.
+
+a : A | a : B
 
 ### II. Beweiß.
 
@@ -26,10 +30,14 @@ Sind derowegen gleiche Grössen gegen eine Grösse allezeit gleichvielfältig: U
 
 Ebener Gestalt sind gleichgrosse Grössen gegen gleichgrosse Grössen gleichvielfältig.
 
-### Gegebene. — Begehrte.
+### Gegebene.
 
-A B — A : B | a : b
+A B
 a / b
+
+### Begehrte.
+
+A : B | a : b
 
 ### Beweiß.
 

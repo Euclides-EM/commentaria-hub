@@ -2,20 +2,32 @@
 
 <!-- Page number: 254 -->
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
 [Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
 
-A ⊣ B — A : a ⊣ B : a
+A ⊣ B
 A | 5a
 B | 3a
+
+### Begehrtes.
+
+A : a ⊣ B : a
 
 ### Vorbereitung.
 
 ### Des I. Theils.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Man nehme A zweymahl
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Wie auch B zweymahl
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Aber a siebenmahl.
 
 [Diagram: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]

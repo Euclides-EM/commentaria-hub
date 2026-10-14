@@ -4,11 +4,15 @@
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-1. a | AB — aa | bb + 2bc + cc
+1. a | AB
 2. b + c | AC + CB
 3. a | b + c
+
+### Begehrtes.
+
+aa | bb + 2bc + cc
 
 ### Beweiß.
 
@@ -30,10 +34,13 @@ Dw. aa | bb + 2bc + bb n. 1. Gr. I. W. Z. B.
 
 Wenn man einen geraden Strich in zween gleiche/ und in zween ungleiche Theile schneidet/ so wird das rechtwincklichte Viereck/ so die beeden ungleichen Theile begreiffen/ samt dem gleichseitigen Vierecke des Mittelstückes/ eben so groß seyn/ als das gleichseitige Viereck des halben Striches.
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-1. Gerader Strich AD — □ ACD + □ BC | □ AB
-2. In zween gleiche Theil
-in B, als AB | BD
+1. Gerader Strich AD
+2. In zween gleiche Theil in B, als AB | BD
+
+### Begehrte.
+
+□ ACD + □ BC | □ AB
 
 <!-- Catchword: und -->

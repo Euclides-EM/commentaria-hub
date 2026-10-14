@@ -16,18 +16,33 @@ dc + ee | bb — n. 3. Gr. I. W. Z. B.
 
 Wenn ein gerader Strich in zween gleiche Theile getheilet/ und gerade aus ein Strich angesetzet wird; So wird das rechtwincklichte Viereck/ welches von dem zusammen-gesetzten Strich/ und von dem angesetzten Stücke gemacht wird/ samt dem gleichseitigen Viereck des halbē Strichs/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem halben und angesetzten Stück gemacht wird.
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-1. Gerader Strich cd — □ dac + □ bc | □ ab.
+1. Gerader Strich cd
 2. getheilet in b
 3. bd | cb
 4. angesetztes Stück ac
 
+### Begehrte.
+
+□ dac + □ bc | □ ab.
+
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werde das □ dac gemacht.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. - - - - □ ab - -
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. - - - - □ bc - -
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. - - Der Strich ee verlängert biß f.
 
 <!-- Signature: N 3 -->

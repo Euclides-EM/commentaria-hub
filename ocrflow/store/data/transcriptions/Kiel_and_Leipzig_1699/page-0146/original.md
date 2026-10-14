@@ -14,9 +14,13 @@ Also werden auch gleichgestalte Bogen (arcus similes genennet/ auff welchen glei
 
 Eines gegebenen Kreyses Mitteldüpffel zu finden.
 
-### Gegebenes. — Begehrtes.
+### Gegebenes.
 
-Der Kreyß bhc. — Mittel-Düpffel a.
+Der Kreyß bhc.
+
+### Begehrtes.
+
+Mittel-Düpffel a.
 
 [Diagram: Kreis mit Düpffeln g (oben), b (links), e (Mitte), c (rechts), h (unten), darinnen a, d, f, mit punktierten Strichen von b und c nach d]
 

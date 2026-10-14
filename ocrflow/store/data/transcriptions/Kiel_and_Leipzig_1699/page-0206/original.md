@@ -27,10 +27,15 @@ Ist also das Kreyß-Stück bha oder lha verfertiget / in welchem ein Winckel ahb
 
 Von einem gegebenen Kreyß ein Stück / in welchem ein Winckel / so dem gegebenen Winckel gleich groß ist/ stehen könne / abzuschneiden.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-1. Kreyß dead. | 1. Abgeschnittenes Kreyßstück dea.
-2. Winckel hfg. | 2. In welchem stehen kan aed ⋀ hfg.
+1. Kreyß dead.
+2. Winckel hfg.
+
+### Begehrtes.
+
+1. Abgeschnittenes Kreyßstück dea.
+2. In welchem stehen kan aed ⋀ hfg.
 
 [Diagram: Kreis mit Punkten e, d, n, m, a, b; Tangente g–c–f–a–b unten, Striche h und k links]
 

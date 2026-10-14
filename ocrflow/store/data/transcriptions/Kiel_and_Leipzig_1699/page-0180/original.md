@@ -2,14 +2,18 @@
 
 <!-- Page number: 163 -->
 
-### Gegebene. Begehrtes.
+### Gegebene.
 
-1. Kreyß fda. — ba ein Senckstrich des Rührstrichs ca
+1. Kreyß fda.
 2. Gerader Rühr Srich ca.
 3. Rührdüpffel a.
 4. Gerader Strich ba
 5. Auß dem Mittel-Düpffel b
 6. Zu dem Rühr-Düpffel a gezogen.
+
+### Begehrtes.
+
+ba ein Senckstrich des Rührstrichs ca
 
 [Diagram: Kreis fda mit Mittel-Düpffel b, oben die waagerechte Rührlinie durch a und c, der Strich ba senkrecht, punktierte Linie von b nach c mit Punkt d am Kreyßzug]
 

@@ -1,13 +1,13 @@
 # OCR Pipeline Queue
 
-Strasbourg_1564
-Strasbourg_1566
-Pisa_1658
-Würzburg_1661
-Paris_1685
-Vienna_1694
-Oxford_1701
-Paris_1814
+> Strasbourg_1564 - Facs importing
+> Strasbourg_1566 - Facs importing
+> Pisa_1658 - Facs importing
+> Würzburg_1661 - Facs importing
+> Paris_1685 - Facs importing
+> Vienna_1694 - Facs importing
+> Oxford_1701 - Facs importing
+> Paris_1814 - Facs importing
 
 # Train to improve segmentation
 

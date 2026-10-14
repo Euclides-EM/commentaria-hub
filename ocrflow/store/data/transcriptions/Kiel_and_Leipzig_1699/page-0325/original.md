@@ -22,7 +22,11 @@ Höhen gp | hq.
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 Wenn gp ⊢ hp so schneide man von hq ein Stück ab/ nemlich rp | gp n. 3. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Ziehe man den Strich sr ⧣ ab.
 

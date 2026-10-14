@@ -12,14 +12,19 @@ Werden also jedwedes Nebenstrichiches Viereckes entgegen stehende Seiten α. β.
 
 Alle auff einen einigen Grundstrich/und zwischen einerley Nebenstrichen stehende Nebenstrichiche Vierecke sind gleich groß.
 
-### 1. Begebenheit.
+### 1. Begehenheit{printer-error-correction:Begebenheit}.
 
-### Gegebene. | Begehrtes.
-1. □ ABDC | ABDC ⌻ BCDE
+### Gegebene.
+
+1. □ ABDC
 2. □ BCDE
 3. Der gemeine Grundstrich CD
 4. Die Nebenstriche AE=CD
 5. Zwischen welchen die □ □ stehen.
+
+### Begehrtes.
+
+ABDC ⌻ BCDE
 
 [Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten E, B, A oben und D, C unten]
 

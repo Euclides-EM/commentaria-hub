@@ -5,15 +5,45 @@
 ### Vorbereitung.
 
 Es werden
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Die Seite CA gegen G,
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. - - - BA gegen D verlängert.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. - - - CA in zween gleiche Theil bey H bey E, geschnitten
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. - - - BA - - -
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Ein gerader Strich aus B durch E gegen F.
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. - - - - - - C - - H - - I gezogen.
+
+[Curated heading level=4 type=numbered_item: 8.]
+
 8. machet man EF | EB
+
+[Curated heading level=4 type=numbered_item: 9.]
+
 9. - - - HI | HC
+
+[Curated heading level=4 type=numbered_item: 10.]
+
 10. Zeucht man den geraden Strich AF.
+
+[Curated heading level=4 type=numbered_item: 11.]
+
 11. - - - - - - - - AI.
 
 [Diagram: Dreieck mit verlängerten Seiten und punktierten Linien; bezeichnete Punkte D, A oben, E, H in der Mitte, B, C, I unten.]

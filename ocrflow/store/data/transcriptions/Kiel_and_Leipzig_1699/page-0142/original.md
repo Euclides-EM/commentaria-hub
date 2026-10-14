@@ -23,13 +23,17 @@ Ist also die Gestalt abdc in das gleichseitige □ ek verwandelt. W. Z. M.
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. — Begehrte.
+### Gegebene.
 
-a | ih | ik — ee | cd
+a | ih | ik
 c | eh | ef
 b | ei
 d | ae
 e | ek
+
+### Begehrte.
+
+ee | cd
 
 <!-- Signature: Q 3 -->
 

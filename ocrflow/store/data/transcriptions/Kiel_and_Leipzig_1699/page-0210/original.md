@@ -4,7 +4,12 @@
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werde auff den Strich ac aus dem Mittel-Düpffel e ein Senckstrich en gezogen n. 12. I.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Werde auch der Strich ec gezogen.
 
 ### Beweiß.

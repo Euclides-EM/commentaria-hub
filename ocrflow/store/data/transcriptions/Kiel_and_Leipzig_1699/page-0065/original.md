@@ -2,8 +2,16 @@
 
 <!-- Running title: Das I. Buch -->
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. ac | AD
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Werden gezogen cd
+
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. und cb.
 
 Erste Begebenheit (1. Casus.)

@@ -14,9 +14,14 @@
 
 Dem gegebenen Kreyß ein gleichseitig und gleichwincklicht Funffzehen-Eck einzuschreiben.
 
-### Gegebenes. — Begehrte.
+### Gegebenes.
 
-Kreyß abfdea. — 1. Funffzehn-Eck dgafe 2. dem Kreyß eingeschrieben.
+Kreyß abfdea.
+
+### Begehrte.
+
+1. Funffzehn-Eck dgafe
+2. dem Kreyß eingeschrieben.
 
 [Diagram: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]
 

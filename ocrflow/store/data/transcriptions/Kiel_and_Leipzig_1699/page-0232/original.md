@@ -17,13 +17,23 @@ schrieben. W. Z. M.
 Umb ein gegebenes Viereck einen Kreyß zube-
 schreiben.
 
-### Gegebenes. — Begehrte.
-Viereck bcde. — 1. Kreyß cdeb
+### Gegebenes.
+
+Viereck bcde.
+
+### Begehrte.
+
+1. Kreyß cdeb
 2. Umb das Viereck beschrieben.
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werden die Zwergstriche bd, ec gezogen.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Aus dem Düttel a, wo diese Zwergstriche einander durch-
 schneiden/ werde nach der Weite ab ein Kreyß beschrieben.
 

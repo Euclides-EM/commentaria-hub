@@ -3,6 +3,9 @@
 <!-- Page number: 319 -->
 
 Dw. | ba : cd | ba : CD | n. 7. V.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. u. | ba : CD | bc : CE | n. 11. V.
 γ | bc : ce | fd : de | n. 2. VI.
 δ | fd | ac | n. 34. I.
@@ -13,6 +16,9 @@ Dw. | fd : DE | ac : DE | n. 7. V.
 Dw. | fd : DE | fd : de | n. 7. V.
 u. | bc : ce | ac : DE | n. 11. V.
 | CE | ce | n. 2. Vorb.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Dw. | bc : CE | ac : DE | n. 7. V.
 
 | ba : af | bc : ce | n. Bew. α

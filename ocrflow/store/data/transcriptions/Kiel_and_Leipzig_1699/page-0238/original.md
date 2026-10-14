@@ -4,10 +4,18 @@
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werde in den Kreyß ein gleichseitiges Fünffeck ghikl ein-
 geschrieben/ n. 11. IV.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Aus des Kreyses Mittel-Düpffel a werden zu allen Ecken
 gerade Striche ag, ah, ai, ak, al gezogen.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Auff solche Striche werden zu beeden Seiten Senckstriche
 gb, gc : hc, hd : id, ie : ke, kf : lf, lb gesetzet/ n. 11. I.
 

@@ -21,16 +21,30 @@ Und ist also der begehrte bley-rechte Senckstrich CD auff den gegebenen Strich A
 
 Auff einen unendlichen Strich aus einem ausser demselben gegebenen Düttel einen bley-rechten Senckstrich zu ziehen.
 
-### Gegebene. | Begehrte.
+### Gegebene.
 
-1. Der gerade Strich AB | 1. Bley rechte Senckstrich CF.
-2. Der Düttel - - C | 2. Auß dem gegebenen Düttel C.
-3. Ausserhalb dem Strich AB. | 3. Auff den gegebenen Strich AB (gesetzet.
+1. Der gerade Strich AB
+2. Der Düttel - - C
+3. Ausserhalb dem Strich AB.
+
+### Begehrte.
+
+1. Bley rechte Senckstrich CF.
+2. Auß dem gegebenen Düttel C.
+3. Auff den gegebenen Strich AB (gesetzet.
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Aus dem Düttel C wird ein Kreyß-stück gezogen/welches den gegebenen Strich in zwey Orthen/ nemlich in D und E durchschneide.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Der Strich DE wird in zween gleiche Theile getheilet in dem Düttel F.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Wird der gerade Strich CF gezogen.
 
 [Diagram: Strich AB mit den Düttelen D, F, E, darüber der Düttel C mit punktiertem Kreyß-Stück und Senckstrich CF]

@@ -2,11 +2,19 @@
 
 <!-- Running title: Das VI. Buch -->
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Von dem ungeendeten Strich hg werde fg ⊤ FG abgeschnitten. n 3. I.
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Aus A durch f werde ein gerader Strich Ak nach Nothdurfft gezogen.
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Desgleichen ein gerader Strich aus G durch g, biß er dem Strich Ak in dem Düttel k aufstosse.
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Aus diesem Düttel k werden gerade Striche biß auf den getheilten Strich GA gezogen/nemlich kB, kC, kD, kE und kT, welche den ungetheilten Strich fg in b, c, d, e, und t schneiden.
 

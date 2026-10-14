@@ -13,7 +13,7 @@ Dw. | bc : CH | bc : CE | n. 11. V.
 u. | CH | CE | n. 9. V.
 welches aber unmüglich / n. 9. Gr. I.
 
-II. Ahrt Vorbereitung.
+### II. Ahrt Vorbereitung.
 
 Man setze wiederum auf CD den
 Winckel   CDF ⋏ bac

@@ -23,7 +23,13 @@ cad [unclear: ⋀] ∟
 [Diagram: Kreyß mit den Punckten a, c, b, d; darin die Striche ac, ad, bd und bc, etliche punctirt]
 
 ### Vorbereitung.
+
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Durch den Mittel-Düpffel werde der Durchschlag cb,
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Der Strich bd gezogen.
 
 ### II. Beweiß.

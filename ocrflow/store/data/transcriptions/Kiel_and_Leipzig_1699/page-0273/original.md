@@ -8,11 +8,15 @@
 
 Welche Grössen zu einer einigen Grösse gleiche Verhältnüß haben / dieselbigen sind gleich groß; Und zu welchen Grössen eine einige Grösse gleiche Verhältnüß hat / dieselbigen sind gleich groß.
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
 [Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-A : a | B : a — A | B.
+A : a | B : a
+
+### Begehrtes.
+
+A | B.
 
 ### Beweiß.
 
@@ -31,11 +35,15 @@ Beedes aber ist wider das Gegebene: müssen derowegen A und B gleichgroß seyn.
 
 ### Beweiß des II. Theils.
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
 [Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-a : A | a : B — A | B
+a : A | a : B
+
+### Begehrtes.
+
+A | B
 <!-- Signature: B -->
 
 <!-- Catchword: Beweiß. -->

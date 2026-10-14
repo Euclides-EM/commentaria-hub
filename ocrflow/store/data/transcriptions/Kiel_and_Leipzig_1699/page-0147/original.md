@@ -4,11 +4,19 @@
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Man ziehe von dem Düttel b biß zu dem Düttel c einen geraden Strich bc.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Dieser Strich bc werde in zween gleiche Theile getheilet in e. n. 10. I.
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Durch diesen Düttel e, werde von einem Ende des Kreyses biß zum andern ein gerader Senck-Strich gh gezogen. n. 11. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Dieser Strich gh werde in zween gleiche Theile geschnitten in a. n. 10. I.
 
@@ -18,7 +26,11 @@ Wenn der Düttel a nicht der Mittel-Düpffel ist/ so lasse man d den Mittel-Düp
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Aus den beeden Enden des Striches bc ziehe man zu dem angenommenem Mittel-Düpffel d zween gerade Striche bd und cd.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Aus dem Düttel e, wo die beeden Striche bc und gh einander durchschneiden / ziehe man auch den Strich ed.
 

@@ -16,14 +16,19 @@ Können also diese Striche AB und CD weder auff der einen/ noch auff der andern 
 
 Wenn der auff zween gerade Striche einfallende gerade Strich / den auswendigen / dem auff selbiger Seite inwendig entgegen stehenden Winckel/ gleich groß machet : Oder auch die beeden inwendige aufft eben derselben Seite / neben-Winckel / zweyen rechten Winckeln gleich machet : So werden es auch Neben-Striche seyn.
 
-### Gegebene.                              Begehrtes.
-1. Zween gerade Striche AB und CD      AB ═══ CD
+### Gegebene.
+
+1. Zween gerade Striche AB und CD
 2. Einfallender gerader Strich   EF
 3. Außwen-        EGB ⋏ GHD   inwendig ent-
         dige      EGA ⋏ GHC   gegen stehende.
 4. [unclear: Inwegendige]
 5. Auff eben selbiger Seite
 6. Gegeneinanderstehende BGH + GHD | [unclear: ⏥]
+
+### Begehrtes.
+
+AB ═══ CD
 
 [Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
 

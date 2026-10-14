@@ -23,14 +23,18 @@ Wird demnach allezeit derjenige Düttel/ von welchem mehr/ als zween gerade Stri
 
 Es kan kein Kreyß einen andern Kreyß in mehr/ als zween Dütteln schneiden.
 
-### Gegebenes. — Begehrtes.
+### Gegebenes.
 
 1. Kreyß ibeg.
 2. Angenommener Kreyß klfm.
 
+### Begehrtes.
+
 Nicht in mehr/als in 2. Dütteln geschnitten.
 
 ### Vorbereitung.
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. Zu drey Dütteln/ wo die Kreyse einander durchschneiden/ nemlich zu f, o, d werden aus dem Mittel-Düpffel gerade Striche af, ac, ad gezogen.
 

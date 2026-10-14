@@ -24,11 +24,16 @@ Muß also allezeit das □, welches von dem gantzen Strich AB, und einen Stück 
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-1. a | AB — ac | bc + cc
-2. b + c | AC + CB — oder ab | cb + bb
+1. a | AB
+2. b + c | AC + CB
 3. a | b + c
+
+### Begehrtes.
+
+ac | bc + cc
+oder ab | cb + bb
 
 ### Beweiß.
 

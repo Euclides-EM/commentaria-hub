@@ -7,10 +7,24 @@ in C, als AC + CD
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Mache man das rechtwincklichte Viereck ACD (oder gcd)
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Werde auff dem Strich AB ein gleichseitiges □, wie auch
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Auff das Mittel-Stück CB cb ein gleichseitiges □ gesetzet n. 46. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Der Strich cg werde biß zu e,
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Und der Strich fg biß zu h fortgezogen.
 
 [Diagram: Waagerechter Strich D B C A (unten d b c a); darüber ein Quadrat über C A mit den Punkten e, g, h und gestrichelten Linien; links der Strich f g; unter b c ein kleineres Rechteck.]

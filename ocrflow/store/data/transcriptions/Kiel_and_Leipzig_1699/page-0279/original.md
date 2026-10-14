@@ -2,9 +2,9 @@
 
 <!-- Page number: 262 -->
 
-### Gegebene. | Begehrtes.
+### Gegebene.
 
-A ______ | A + B + C : a + b + c | A : a
+A ______
 a __
 B ______
 b __
@@ -14,6 +14,10 @@ c __
 [Diagram: Strecken A, a, B, b, C, c]
 
 A : a | B : b | C : c
+
+### Begehrtes.
+
+A + B + C : a + b + c | A : a
 
 ### Beweiß.
 

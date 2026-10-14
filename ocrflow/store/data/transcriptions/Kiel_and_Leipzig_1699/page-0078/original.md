@@ -17,13 +17,24 @@ Ist also dem Strich AB, ein Neben-Strich CH, durch den Düttel C, gezogen W. Z. 
 
 Jedwedes Dreyeckes / dessen eine Seite verlängert ist/auswendiger Winckel/ist eben so groß/ als die beeden inwendig gegen überstehende Winckel ; Und jedwedes Dreyeckes drey inwendige Winckel sind zweyen rechten Winckeln gleich.
 
-### Gegebene.                    Begehrte.
-1. △ ABC.                    BAC + ACB ⋏ DBC.
-2. AB verlänget gegen D.     ABC + BAC + ACB ⋏ ⏥
+### Gegebene.
+
+1. △ ABC.
+2. AB verlänget gegen D.
+
+### Begehrte.
+
+BAC + ACB ⋏ DBC.
+ABC + BAC + ACB ⋏ ⏥
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Gegen die Seite AC werde ein Neben-Strich/ und zwar
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Aus dem Düttel B gezogen / nemlich BE n. 31. Vortr.
 
 [Diagram: Dreieck ABC, die Seite AB gegen D verlängert, aus B der Strich BE gezogen; punktierter Bogen von C nach E]

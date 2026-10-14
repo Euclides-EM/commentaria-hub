@@ -2,12 +2,18 @@
 
 <!-- Running title: Euclidis. -->
 
-### Gegebene. | Begehrte.
-1. △ ABC | 1. CE durch die Gipffel der △ △
-2. △ FEH | 2. CE ⟛ AH
+### Gegebene.
+
+1. △ ABC
+2. △ FEH
 3. ABC ⩓ FEH
 4. Grundstriche AB | FH
 5. Gleichmässiger Stand derer △ △.
+
+### Begehrte.
+
+1. CE durch die Gipffel der △ △
+2. CE ⟛ AH
 
 [Diagram: zwey Dreyecke auff dem Strich A, B, F, H, mit den Puncten C, D, E, G oben, mit gezogenen und punctirten Strichen]
 
@@ -17,8 +23,16 @@ Wenn der Nebenstrich des Striches AH nicht durch den Gipffel E gehet/ so ziehe m
 
 ### Vorbereitung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Werde auß C, entgegen AH, der Nebenstrich CD gezogen/ nach 31. Vortrag.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Verlänge man die Seite HE biß D.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Ziehe man den Strich FD.
 
 ### Verfolg des Beweises.

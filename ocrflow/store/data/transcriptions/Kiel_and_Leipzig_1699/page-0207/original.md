@@ -4,10 +4,24 @@
 
 ### Wirckung.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Wird ein gerader Strich bc gezogen /
+
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Welcher den Kreyß anrühre.
+
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Werde aus dem Mittel-Düpffel ein Senckstrich na auff den Rührstrich gezogen. n. 12. I.
+
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Auff den Strich bc und zwar an den Düttel a werde der Winckel bam ⋀ hfg gesetzet. n. 23. I.
+
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Nach diesen Winckel werde der gerade Strich ad gezogen.
 
 [Diagram: Kreis mit Punkten d, e, n, m, a; Tangente b–a–c unten, oben rechts kleiner Winckel f, g, h]

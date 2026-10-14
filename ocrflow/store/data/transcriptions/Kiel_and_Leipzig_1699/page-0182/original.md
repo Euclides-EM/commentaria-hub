@@ -12,16 +12,20 @@ Man mag nun einen Düttel des Kreyses ausser dem Senckstrich cd nehmen/ welchen 
 
 Jn jedwedem Kreyß ist des Mitteldüpffels-Winckel noch einmahl so groß / als der auff eben solchem Kreyßzug stehende Kreyßstücks Winckel.
 
-### Gegebene. Begehrtes.
+### Gegebene.
 
-1. Kreyß bcde. — cad ∠ 2 [unclear: abc]
+1. Kreyß bcde.
 2. Kreyßdüpffels-Winckel cad.
 3. Jn dem Kreyß stehender Winckel cbd.
 4. Bogen/ auff welchem beede Winckel stehen cd.
 
+### Begehrtes.
+
+cad ∠ 2 [unclear: abc]
+
 [Diagram: Kreis bcde mit Mitteldüpffel a, Punkt b oben, e rechts oben, c unten links, d unten; Striche bc, bd, ac und ad]
 
-I. Arth.
+### I. Arth.
 
 ab | ac — n. 15. Beschr. I.
 Dw. abc ∠ acb — n. 5. I.

@@ -21,10 +21,16 @@ Können also einander inwendig anrührende Kreyse nicht nur einen einigen Mittel
 
 Wenn man in eines Kreyses Durchschlag einen Düttel erwehlet / welcher nicht der Mittel-Düpffel ist / und von selbigem etliche gerade Striche zu des Kreyses Umfang zeucht: So wird der durch den Mittel-Düpffel gehende Strich/ der grösseste; dessen übriges aber der kleineste seyn: Alle andere aber / je näher sie dem Mittel-Düpffel kommen / werden länger / und je weiter sie von dem Mittel-Düpffel abstehen/ je kützer werden sie seyn: Zwey aber / welche nemlich gleichweit von dem Mittel-Düpffel entfernet sind / werden allezeit gleichlang seyn.
 
-### Gegebene. — Begehrte.
+### Gegebene.
 
-1. Der Kreyß bhlc. — 1. ab der längste
-2. Durchschlag bc. — 2. ac der kürtzeste.
-3. Erwehlter Düttel a, — 3. ak ⊣ ag
+1. Der Kreyß bhlc.
+2. Durchschlag bc.
+3. Erwehlter Düttel a,
+
+### Begehrte.
+
+1. ab der längste
+2. ac der kürtzeste.
+3. ak ⊣ ag
 
 <!-- Catchword: 4. Welcher -->
