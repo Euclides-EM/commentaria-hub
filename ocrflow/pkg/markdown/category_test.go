@@ -83,6 +83,8 @@ func TestExtractCategoryContentsNormalizesHeadings(t *testing.T) {
 func TestNormalizeIndexHeadingContentTrimsWhitespaceAroundParagraphMark(t *testing.T) {
 	require.Equal(t, "Heading", normalizeIndexHeadingContent(" \n\t¶ \n\tHeading \n\t"))
 	require.Equal(t, "Heading", normalizeIndexHeadingContent(" \n\tHeading \n\t"))
+	require.Equal(t, "Éléments", normalizeIndexHeadingContent("§ ⁋ *Éléments"))
+	require.Equal(t, "1. Heading.", normalizeIndexHeadingContent("¶ 1. Heading."))
 }
 
 func TestParseHeaderBlockDoesNotJoinDifferentLevels(t *testing.T) {

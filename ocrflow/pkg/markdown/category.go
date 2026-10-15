@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"slices"
 	"strings"
+	"unicode"
 )
 
 // ExtractIndexContentsFromMarkdown returns headings in the requested index
@@ -75,9 +76,9 @@ func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []str
 }
 
 func normalizeIndexHeadingContent(content string) string {
-	content = strings.TrimSpace(content)
-	content = strings.TrimPrefix(content, "¶")
-	return strings.TrimSpace(content)
+	return strings.TrimRightFunc(strings.TrimLeftFunc(content, func(r rune) bool {
+		return !unicode.IsLetter(r) && !unicode.IsNumber(r)
+	}), unicode.IsSpace)
 }
 
 type Category struct {
