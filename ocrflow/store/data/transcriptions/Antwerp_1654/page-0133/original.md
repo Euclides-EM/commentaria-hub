@@ -5,6 +5,8 @@
 
 ## PROPOSITIO XXX.
 
+[Curated heading level=2 type=figures: Fig. 39]
+
 [Margin]
 Fig. 39.
 [/Margin]
@@ -24,6 +26,8 @@ Fig. 39.
 Praxis. Centris A & C deſcribe pari interuallo arcus ſe ſecantes in punctis F, & I, per quæ ducta recta arcum A B C biſecabit.
 
 ## PROPOSITIO XXXI.
+
+[Curated heading level=2 type=figures: Fig. 40]
 
 [Margin]
 Fig. 40.

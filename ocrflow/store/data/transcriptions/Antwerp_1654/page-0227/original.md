@@ -8,6 +8,8 @@ Hæ duæ praxes ſunt faciliores Euclideâ, quia pauciores ducendæ ſunt parall
 
 ## PROPOSITIO XI.
 
+[Curated heading level=2 type=figures: Fig. 16]
+
 [Margin]
 Fig.16.
 [/Margin]
@@ -26,7 +28,9 @@ c Per 2.l.6.
 d Per conſtr.
 [/Margin]
 
-## Aliter.
+### Aliter.
+
+[Curated heading level=2 type=figures: Fig. 17]
 
 [Margin]
 Fig.17.
@@ -34,7 +38,7 @@ Fig.17.
 
 {dropcap:S|lines=2|style=plain}Tatuantur AB, BC ad angulum rectũ. Iunge AC. Ex C duc CX perpendicularem ad AC infinitam, cui in L occurrat AB producta; Dico AB eſt ad BC, vt BC ad BL. Patet ex coroll.1. prop.8.
 
-## Scholium.
+### Scholium.
 
 {dropcap:P|lines=2|style=plain}Oterit verò proportio data non ſolum per tres terminos, ſed etiam per infinitos continuari, &
 

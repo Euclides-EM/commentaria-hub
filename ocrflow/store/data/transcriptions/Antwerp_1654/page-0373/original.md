@@ -9,7 +9,7 @@ g Per corol.
 p.12. huius.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:T|lines=2|style=plain}Ota cylindri recti ſphæræ circumſcripti ſuperficies, eſt ad totam ſuperficiem cylindri æquilateri inſcripti, vt 2 ad 1. Nam circumſcripta eſt ad ſphæricam vt 12 ad 8 per 32. huius. Sphærica autem eſt ad inſcriptam, vt 8 ad 6 per hanc. Ergo ex æquo circumſcripta eſt ad inſcriptam, vt 12 ad 6, ſiue vt 2 ad 1.
 

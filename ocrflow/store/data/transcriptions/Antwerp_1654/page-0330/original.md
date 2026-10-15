@@ -1,7 +1,7 @@
 <!-- Running title: Ex Archimede. -->
 <!-- Page number: 295 -->
 
-## Dimenſio cylindrorum & Conorum.
+### Dimenſio cylindrorum & Conorum.
 
 {dropcap:E|lines=2|style=plain}Am hic appono, quod à circuli dimenſione pendeat.
 

@@ -3,6 +3,8 @@
 
 ſed ex corollario 1.p.9. & coroll.p.14.
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Etiam conus ad conum & pyramis ad pyramidem rationem habent compoſitam ex rationibus baſis ad baſim, & altitudinis ad altitudinem.
 
 [Margin]
@@ -15,7 +17,11 @@ Sunt enim e cylindrorum ac priſmatum partes tertiæ.
 
 {dropcap:H|lines=2|style=plain}Ae propoſitiones omnium prolixiſſimæ non alium vſum habent, quam vt demonſtretur P.18, quam nos aliâ faciliori viâ demonſtrabimus.
 
+[Curated heading level=1 type=lemma_target: Lemma ad XII.18]
+
 ## Lemma ad P.18.
+
+[Curated heading level=2 type=figures: Fig. 26]
 
 {dropcap:C|lines=2|style=plain}Ylindri hemiſpherio inſcripti in hemiſpherium deſinunt.
 

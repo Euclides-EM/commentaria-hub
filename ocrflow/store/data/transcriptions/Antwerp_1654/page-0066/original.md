@@ -15,7 +15,7 @@ Deinde C O L cum F O L facit duos rectos. Sed per hyp. idem C O L etiam cum A L 
 c Per præc.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:E|lines=2|style=plain}X ſecunda parte patet omne rectangulum eſſe parallelogrammum.
 

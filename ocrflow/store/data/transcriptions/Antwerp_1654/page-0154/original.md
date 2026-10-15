@@ -12,9 +12,13 @@ c Per corol. 1.p.13.l.1.
 d Per 4.l.1.
 [/Margin]
 
-## Corollaria.
+### Corollaria.
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. {dropcap:L|lines=2|style=plain}Atus hexagoni circulo inſcripti æquale eſt radio.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Angulus hexagoni ordinati eſt quatuor tertiæ vnius recti,conſtat enim ex duo-
 

@@ -1,7 +1,7 @@
 <!-- Running title: Liber Duodecimus. -->
 <!-- Page number: 267 -->
 
-## Scholium.
+### Scholium.
 
 {dropcap:E|lines=2|style=plain}X hactenus demõſtratis elicietur dimenſio quorumcunque priſmatum ac pyramidum.
 
@@ -19,6 +19,8 @@ e Per conſtr.
 [/Margin]
 
 Hinc vero & ex 7 patet demonſtratio partis ſecundæ.
+
+[Curated heading level=1 type=lemma_target: Lemma ad XII.10]
 
 ## Lemma ad P.10.
 

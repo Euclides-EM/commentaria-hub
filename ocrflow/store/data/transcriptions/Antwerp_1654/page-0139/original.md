@@ -62,7 +62,9 @@ Ablato igitur communi quadrato A F, remanet
 rect. C B O.    æ.    quad. B F.
 [/Calculation]
 
-## Corollaria.
+### Corollaria.
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. {dropcap:S|lines=2|style=plain}I ab eodem extra circulum puncto B, quotuis ducantur ſecantes B C, omnia rectangula C B O, inter ſe æqualia ſunt. Singula enim æquantur quadrato tangentis B F.
 

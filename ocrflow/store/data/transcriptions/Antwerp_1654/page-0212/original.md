@@ -1,7 +1,9 @@
 <!-- Running title: Liber Quintus. Pars III. -->
 <!-- Page number: 179 -->
 
-## XIII.
+### XIII.
+
+[Curated heading level=2 type=figures: Fig. 36]
 
 Si dentur quotcumque rationes, A ad B, C ad D, E ad F: Exhibebitur ratio ex omnibus compoſita.
 
@@ -11,7 +13,7 @@ Fig.36.
 
 {dropcap:S|lines=2|style=plain}I fiat vt A ad B, ita quæpiam G ad H, & vt C ad D, ita H ad I, & vt E ad F, ita I ad K: ratio enim G ad K erit compoſita ex rationibus G ad H, H ad I, I ad K, vt num.præced.demonſtrauimus, hoc eſt per conſtr.ex rationibus datis A ad B, C ad D, E ad F.
 
-## XIV.
+### XIV.
 
 Ratio non eſt æqualis rationibus ex quibus componitur.
 

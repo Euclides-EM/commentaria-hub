@@ -262,6 +262,8 @@ Fable:
 
 **Next steps:** Ready for curation.
 
+# Completed
+
 ## The_Hague_1758
 
 Data set is public domain. I run the full OCR pipeline.
@@ -288,10 +290,6 @@ Codex — GPT-5.6 Sol
 - **Output tokens:** 81,425
 - **Reasoning tokens:** 0
 - **Total tokens:** 1,757,102
-
-**Next steps:** Ready for curation.
-
-# Completed
 
 ## Basel_1562
 

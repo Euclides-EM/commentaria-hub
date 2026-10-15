@@ -3,7 +3,9 @@
 
 tota infinitorum proportionalium terminorum ſumma exhiberi. Pulcherrimè hanc rem, totumq́; adeò Geometricæ progreßionis negotium Gregorius à S.Vincentio proſecutus eſt toto libro 2. ſui operis. Nos in gratiam ſtudioſorum ſuccinctam rei propoſitæ conſtructionem, ac demonſtrationem hic exhibebimus.
 
-## Lemma 1.
+### Lemma 1.
+
+[Curated heading level=2 type=figures: Fig. 18]
 
 [Margin]
 Fig.18. ſecunda.
@@ -25,7 +27,7 @@ b Per 17.l.5.
 c Per 16.l.5.
 [/Margin]
 
-## Lemma 2.
+### Lemma 2.
 
 [Margin]
 Fig.18. vtraque.

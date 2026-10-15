@@ -5,6 +5,8 @@ Quæ ſequuntur non ſunt propoſitiones Euclidis, ſed ex Pappo Alexandrino, al
 
 ## PROPOSITIO XXVI.
 
+[Curated heading level=2 type=figures: Fig. 17]
+
 [Margin]
 Fig.17.
 [/Margin]

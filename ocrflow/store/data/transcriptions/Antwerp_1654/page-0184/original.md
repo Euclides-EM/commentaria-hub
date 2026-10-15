@@ -30,6 +30,8 @@ c Patet ex 28.l.5.
 
 ## PROPOSITIO XXXI.
 
+[Curated heading level=2 type=figures: Fig. 19]
+
 [Margin]
 Fig.19.
 [/Margin]

@@ -1,11 +1,17 @@
 <!-- Page number: 8 -->
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=figures: Fig. 11 & 12]
+
 tria latera habet æqualia.
 
 [Margin]
 Fig.11.12.
 [/Margin]
+
+[Curated heading level=3 type=numbered_item: 26.]
+
+[Curated heading level=2 type=figures: Fig. 13]
 
 26. Triangulum Iſoſceles, ſeu æquicrure, quod duo tantùm latera habet æqualia.
 
@@ -13,11 +19,17 @@ Fig.11.12.
 Fig.13.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 27.]
+
+[Curated heading level=2 type=figures: Fig. 15]
+
 27. Scalenum, quod tria latera inæqualia habet.
 
 [Margin]
 Fig.15.
 [/Margin]
+
+[Curated heading level=3 type=numbered_item: 28.]
 
 28. Rectangulum triangulum eſt, quod vnum angulum habet rectum.
 
@@ -25,11 +37,17 @@ Fig.15.
 Fig.12.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 29.]
+
 29. Obtuſangulum triangulum eſt, quod vnum angulum habet obtuſum.
 
 [Margin]
 Fig.10.11.
 [/Margin]
+
+[Curated heading level=3 type=numbered_item: 30.]
+
+[Curated heading level=2 type=figures: Fig. 14]
 
 30. Acutangulum triangulum eſt, quod tres habet acutos angulos.
 
@@ -37,13 +55,19 @@ Fig.10.11.
 Fig.14.15.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 31.]
+
 31. Inter figuras quadrilateras, rectangulum eſt, quod quatuor angulos habet rectos, adeoque æquales: ſiue latera æqualia ſint, ſiue non.
 
 [Margin]
 Fig.15.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 32.]
+
 32. Quadratum eſt, quod æquilaterum, & rectangulum eſt, ac proinde æquiangulum.
+
+[Curated heading level=2 type=figures: Fig. 16]
 
 Omne quadratum eſt rectangulum, ſed non contra.
 
@@ -51,17 +75,25 @@ Omne quadratum eſt rectangulum, ſed non contra.
 Fig 16.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 33.]
+
+[Curated heading level=2 type=figures: Fig. 17]
+
 33. Rhombus eſt, qui æquilaterus, ſed non æquiangulus eſt.
 
 [Margin]
 Fig.17.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 34.]
+
 34. Rhomboides, quæ aduerſa latera & angulos habens æqualia, neque æquilatera, neque æquiangula eſt.
 
 [Margin]
 Fig.14.15. 16.17.
 [/Margin]
+
+[Curated heading level=3 type=numbered_item: 35.]
 
 35. Parallelogrammum eſt figura quadrilatera, cuius bina oppoſita latera (A B, F C, & B F, A C) ſunt parallela. Quid vero ſint parallelæ, dicetur ſeq. defin.
 

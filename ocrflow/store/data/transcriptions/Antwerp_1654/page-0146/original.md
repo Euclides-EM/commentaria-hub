@@ -3,6 +3,8 @@
 
 ## PROPOSITIO VIII. & IX.
 
+[Curated heading level=2 type=figures: Fig. 6]
+
 [Margin]
 Fig.6.
 [/Margin]

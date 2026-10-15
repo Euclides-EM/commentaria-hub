@@ -7,6 +7,8 @@ Cum enim rectangula A B Z, C B D b æqualia ſint, erit A B ad B C, vt B D ad B 
 b Per 35.l.3.
 [/Margin]
 
+[Curated heading level=2 type=figures: Fig. 23]
+
 Si dentur duæ rectæ A B, B C ; ſecundæ B C apponatur in directum B D æqualis B C. Dein ipſam C B in B tangat prima A B ſub quouis angulo. Tum reliqua vt ſupra. Erit B Z tertia proportionalis quæſita.
 
 [Margin]
@@ -16,6 +18,8 @@ Fig.23.
 Demonſtratio ſimilis eſt, cum enim rectangula A B Z, C B D ſint æqualia, erit A B ad B C vt B D (hoc eſt vt B C) ad B Z.
 
 ## PROPOSITIO XIII.
+
+[Curated heading level=2 type=figures: Fig. 24]
 
 {dropcap:D|lines=2|style=plain}Atis duabus rectis (A C, C B) mediam proportionalem inuenire.
 
@@ -37,7 +41,7 @@ a Per 31.l.3.
 b Per corol. 1.p.8 l.6.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:H|lines=2|style=plain}Inc patet ſi ex quouis peripheriæ puncto (F) ducta ſit ad diametrum per-
 

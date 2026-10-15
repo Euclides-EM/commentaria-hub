@@ -1,6 +1,8 @@
 <!-- Page number: 322 -->
 <!-- Running title: Theoremata ſelecta -->
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Diameter ſphæræ multiplicata per circumferentiam maximi circuli exhibet ſphæræ ſuperficiem. Vt ſi terræ diametro dentur milliaria vnius horæ 2750[unclear: ⅓] atque inde maximi circuli circũferentia eliciatur milliariorum 8640; hi duo numeri omiſsâ fractione multiplicati per inuicem dabunt rurſum quadrata milliaria vnius horæ, 23;760,000 totam orbis terræ ſuperficiem conſtituentia.
 
 Demonſtratio patet ex primo corol. p.5. huius; rectangulum enim ſub diametro ſphæræ, & maximi circuli circumferentiâ, per dictum corol. eſt quadruplum maximi circuli.

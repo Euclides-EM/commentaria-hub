@@ -3,6 +3,8 @@
 
 ## PROPOSITIO VII.
 
+[Curated heading level=2 type=figures: Fig. 15]
+
 [Margin]
 Fig.15.
 [/Margin]
@@ -17,7 +19,7 @@ Planum rectarum A B, C D ſecet aliud planum per puncta E, F, ſi iam E F non e�
 a Per 3. l.11.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:H|lines=2|style=plain}Inc ſequitur ſi E F ſecat parallelas A B, C D, in eodem eſſe cum ipſis plano; omnes enim parallelæ ᵇ ſunt in vno plano.
 

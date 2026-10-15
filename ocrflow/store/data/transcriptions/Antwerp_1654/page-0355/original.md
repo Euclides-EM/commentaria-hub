@@ -1,6 +1,8 @@
 <!-- Page number: 320 -->
 <!-- Running title: Theoremata ſelecta -->
 
+[Curated heading level=1 type=lemma_target: Lemma ad Archim. XXIV]
+
 ## Lemma ad ſequen.
 
 {dropcap:S|lines=2|style=plain}I diameter diametri dupla eſt, circulus Circuli, quadruplus erit.

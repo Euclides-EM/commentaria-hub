@@ -3,7 +3,7 @@
 
 rum hoc per ſe notum non eſt, ob rationem datam ad def. 36.
 
-## Corollarium.
+#### Corollarium.
 
 [Margin]
 Fig. 50.
@@ -17,7 +17,9 @@ b Per 27. l.1.
 
 ## PROPOSITIO XXXII.
 
-## Pars I.
+### Pars I.
+
+[Curated heading level=2 type=figures: Fig. 51]
 
 [Margin]
 Fig. 51.
@@ -39,11 +41,13 @@ b Per 27. l.1.
 c Per eand.
 [/Margin]
 
-## Corollaria.
+#### Corollaria.
 
 [Margin]
 Fig. 51.
 [/Margin]
+
+[Curated heading level=5 type=numbered_item: 1.]
 
 1. {dropcap:E|lines=2|style=plain}Xternus angulus (F B C) quolibet internorum oppoſitorum, A, vel, C, maior eſt.
 

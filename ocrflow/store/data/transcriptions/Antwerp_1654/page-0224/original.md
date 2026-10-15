@@ -6,6 +6,8 @@
 
 {dropcap:I|lines=2|style=plain}N triangulo rectangulo perpendicularis (B C) ab angulo recto in baſim ducta ſecat triangulum in partes toti, & inter ſe ſimiles.
 
+[Curated heading level=2 type=figures: Fig. 11]
+
 In triangulis A B F, & L, angulus F communis eſt, anguli vero A B F, & X per hypotheſim ſunt recti, adeoque æquales. Ergo reliqui A & O etiam a æquales erunt. Ergo b triangula A B F & L ſimilia ſunt. Eodem modo ſimilia oſtendam eſſe triangula A B F & R, angulumque I, parem angulo F. Ex quo iam patet etiam R & L ſimilia eſſe, cum æquales ſint anguli I & F: O & A: V & X. Quod erant demonſtrandum.
 
 [Margin]
@@ -20,7 +22,9 @@ a Per corol. 9.p 32.l.1.
 b Per 4.l.6.
 [/Margin]
 
-## Corollaria.
+### Corollaria.
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 PRimo B C eſt media proportionalis inter A C, C F.
 
@@ -34,6 +38,8 @@ Patet c A C eſſe ad C B, vt C B eſt ad C F.
 [Margin]
 c Per 4.l.6.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. B F eſt media proportionalis inter A F & C F. Item A B eſt media inter F A, & C A.
 

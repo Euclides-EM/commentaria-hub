@@ -3,6 +3,8 @@
 
 ## PROPOSITIO XVIII.
 
+[Curated heading level=2 type=figures: Fig. 35]
+
 {dropcap:S|lines=2|style=plain}Vper data recta (R S) dato polygono (B Q) ſimile ſimiliterq́ꝫ poſitum deſcribere.
 
 [Margin]
@@ -29,6 +31,8 @@ i Per 22.l.5.
 [/Margin]
 
 ## PROPOSITIO XIX.
+
+[Curated heading level=2 type=figures: Fig. 36 & 37]
 
 {dropcap:T|lines=2|style=plain}Riangulorum (X, Z) ſimilium proportio eſt duplicata proportionis laterum (A C, F I) æqualibus angulis ſubtenſorum.
 

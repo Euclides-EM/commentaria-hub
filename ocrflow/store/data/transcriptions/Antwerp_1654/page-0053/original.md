@@ -11,6 +11,8 @@ Plures caſus, quos hoc theorema admittit, conſultò prætermiſi, ne tyrones f
 
 ## PROPOSITIO IX.
 
+[Curated heading level=2 type=figures: Fig. 29]
+
 [Margin]
 Fig. 29.
 [/Margin]
@@ -25,7 +27,7 @@ Ducantur enim B F, C F; triangula F A B, F A C ſunt ſibi mutuo æquilatera; na
 a Per. 8. l. 1.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:H|lines=2|style=plain}Inc patet quomodo angulus ſecari poſſit in æquales angulos 4, 8, 16 &c. ſingulas nimirum partes iterum biſecando.
 

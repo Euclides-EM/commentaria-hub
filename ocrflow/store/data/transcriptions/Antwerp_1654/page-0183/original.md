@@ -12,6 +12,8 @@ Idem ſimiliter demonſtrabitur de proportione minori.
 
 ## PROPOSITIO XXVIII.
 
+[Curated heading level=2 type=figures: Fig. 18]
+
 [Margin]
 Fig.18.
 [/Margin]

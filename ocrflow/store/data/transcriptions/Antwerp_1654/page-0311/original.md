@@ -1,7 +1,7 @@
 <!-- Page number: 276 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-## Scholium.
+### Scholium.
 
 {dropcap:Q|lines=2|style=plain}Vemadmodum ſimiles planæ figuræ per mediam proportionalem vnam, ita corpora ſimilia non niſi per medias duas, in proportione data augentur vel diminuuntur.
 

@@ -2,7 +2,7 @@
 
 <!-- Page number: 73 -->
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:E|lines=2|style=plain}X demonſtratis patet, ſi in circulo recta (L F) aliam (B C) bifariam & perpendiculariter ſecat, in ſecante eſſe centrum.
 

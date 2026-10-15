@@ -5,6 +5,8 @@ Quod ſi detur angulus obtuſus R B C, eadem conſtrue, eritque ſegmentum C Q B
 
 ## PROPOSITIO XXXIV.
 
+[Curated heading level=2 type=figures: Fig. 45]
+
 [Margin]
 Fig. 45.
 [/Margin]
@@ -18,6 +20,8 @@ a Per 23. l. 1.
 Ad circuli diametrum F A duc perpendicularem B A L; ducatur item A C, quæ a faciat angulum B A C parem dato. Hæc auferet ſegmentum A Q C capiens angulum parem dato; vti patet ex 32.
 
 ## PROPOSITIO XXXV.
+
+[Curated heading level=2 type=figures: Fig. 46, 47 & 48]
 
 [Margin]
 Fig. 46. 47. 48.

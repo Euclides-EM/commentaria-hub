@@ -7,7 +7,7 @@ milliaria continere Belgica vnius horæ 8640, & quæratur terræ diameter, ſic 
 
 multiplica iam ſecundum per tertium, & productum diuide per primum; proueniunt milliaria Belgica 2750 ¹⁴⁄₇₁ pro diametro orbis terræ.
 
-## Inuentio circumferentiæ ex Diametro.
+### Inuentio circumferentiæ ex Diametro.
 
 {dropcap:T|lines=2|style=plain}Erminus minor vnius è proportionibus ſupra traditis ſtatuatur primo loco: maior ſecundo: Diameter nota tertio. His tribus numeris quæratur quartus proportionalis, Is dabit quæſitam circumferentiam.
 

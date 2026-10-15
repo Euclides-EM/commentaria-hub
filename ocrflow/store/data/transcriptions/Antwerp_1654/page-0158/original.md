@@ -3,7 +3,7 @@
 
 figurarum dependeat à diuiſione circumferentiæ in partes datas, quæ etiamnum deſideratur. Licebit tamen, circuli circumferentiâ in 360 partes diuisâ, mechanicè figuras quaſcunque ordinatas circulo inſcribere hunc in modum.
 
-## Problema 1.
+### Problema 1.
 
 {dropcap:G|lines=2|style=plain}Radius 360 (hoc eſt totam circumferentiam) diuide per denominatorem polygoni inſcribendi (exem. gr. nonanguli) quot vnitatibus conſtat quotiens (40) tot graduum fac in centro angulum A G K. A K erit latus figuræ quæſitæ (nonangulæ) circulo inſcribendæ.
 
@@ -11,7 +11,7 @@ figurarum dependeat à diuiſione circumferentiæ in partes datas, quæ etiamnum
 Fig.15.
 [/Margin]
 
-## Problema 2.
+### Problema 2.
 
 {dropcap:A|lines=2|style=plain}T ſuper data recta quamuis figuram ordinatam deſcribes præſidio tabellæ ſequentis: Angulus rectus eſt ad angulum figuræ.
 

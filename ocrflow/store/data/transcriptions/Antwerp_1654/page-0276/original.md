@@ -5,6 +5,8 @@ EGS, AOS latera ad baſes EG & AO obliqua. Fiant ſuper EG. AO parallelepipeda, 
 
 ## PROPOSITIO XXXII.
 
+[Curated heading level=2 type=figures: Fig. 34]
+
 {dropcap:P|lines=2|style=plain}Arallelepipeda quæuis æquè alta, ſunt inter ſe vt baſes.
 
 [Margin]

@@ -13,6 +13,8 @@ Deinde, d F A B, C A B, faciunt duos rectos; & in quadrilatero B O A L e oppoſi
 
 ## PROPOSITIO XXXIII.
 
+[Curated heading level=2 type=figures: Fig. 44]
+
 [Margin]
 Fig. 44.
 [/Margin]

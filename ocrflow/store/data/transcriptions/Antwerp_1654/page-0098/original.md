@@ -12,6 +12,8 @@ Ergo
 
 ## PROPOSITIO XI.
 
+[Curated heading level=2 type=figures: Fig. 11]
+
 [Margin]
 Fig.11.
 [/Margin]

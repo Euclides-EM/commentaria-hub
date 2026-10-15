@@ -11,9 +11,13 @@ i Per 1.l.6.
 k Per 3. huius.
 [/Margin]
 
-## Corollaria.
+### Corollaria.
+
+[Curated heading level=4 type=numbered_item: 1.]
 
 1. {dropcap:E|lines=2|style=plain}X hac & 41. l.1. patet rectangulum ſub radio & dimidiâ circumferentia eſſe æquale circulo: ſub radio & totâ circumferentiâ eſſe duplum: ſub totâ diametro & totâ circumferentiâ eſſe quadruplum circuli.
+
+[Curated heading level=4 type=numbered_item: 2.]
 
 2. Circulus eſt ad quadratum ſibi inſcriptum vt circumferentia dimidia (C D E) ad diametrum; ad quadratum verò circumſcriptum, vt quarta circumferentiæ pars ad diametrum.
 

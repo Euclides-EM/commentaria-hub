@@ -5,7 +5,9 @@
 
 Demonſtratio patet ex coroll.1.p.8.l.6. Nam A D E rectangulum triangulum eſt, & ab angulo recto in baſim perpendicularis cadit D B. Ergo per dictum coroll. vt A B ad B D, ſic B D ad B E: Et ob eandem cauſam, vt B D, ad B E, ſic B E ad B C. Inter datas igitur A B, B C repertæ ſunt duæ mediæ B D, B E, Quod erat faciendum. Hic modus inter omnes intellectu facillimus eſt.
 
-## Modus Philonis Byſantij.
+### Modus Philonis Byſantij.
+
+[Curated heading level=2 type=figures: Fig. 27]
 
 [Margin]
 Fig.27.

@@ -3,6 +3,8 @@
 
 ## PROPOSITIO VI.
 
+[Curated heading level=2 type=figures: Fig. 12 & 13]
+
 [Margin]
 Fig.12. & 13.
 [/Margin]
@@ -21,6 +23,8 @@ f Per eand.
 [/Margin]
 
 ## PROPOSITIO VII.
+
+[Curated heading level=2 type=figures: Fig. 14]
 
 {dropcap:O|lines=2|style=plain}Mnis pyramis tertia pars eſt priſmatis habentis eandem baſim & altitudinem.
 

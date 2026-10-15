@@ -13,7 +13,7 @@ e Per 4.l.1.
 
 Hæc propoſitio fiet vniuerſalis p.1. lib.6. Obſeruent hic tyrones, quamuis parallelogramma inter eaſdem parallelas ſine fine productas in infinitam longitudinem extendantur ex eadem baſi AB, ſemper tamen manere æqualia ex vi demonſtrationis iam datæ.
 
-## Scholium.
+### Scholium.
 
 {dropcap:E|lines=2|style=plain}X hoc theoremate habetur dimenſio parallelogrammi cuiuſcunque. Illius igirur area producitur ex altitudine QX ſeu CA ducta in baſim AB. Nam area rectanguli CB parallelogrammo BL æqualis, fit f ex AC ducta in AB. Ergo &c.
 
@@ -26,6 +26,8 @@ f Per ſchol. præced.
 [/Margin]
 
 ## PROPOSITIO XXXVII. & XXXVIII.
+
+[Curated heading level=2 type=figures: Fig. 63]
 
 {dropcap:T|lines=2|style=plain}Riangula (ACB, AFB) ſuper baſi eadem (AB) vel æquali, inter eaſdem parallelas (CI, AZ) conſtituta, ſunt æqualia.
 

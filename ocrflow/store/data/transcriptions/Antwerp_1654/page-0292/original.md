@@ -7,9 +7,13 @@ X. Ergo ratio A ad B æqualis eſt rationi, X ad Z. Quod erat demonſtrandum.
 
 {dropcap:S|lines=2|style=plain}Vnt Prolixæ & difficiles tyronibus, nec alium habent vſum, quàm vt per eas demonſtretur quinta, quam nos ſine illis multò facilius demonſtrabimus.
 
+[Curated heading level=1 type=lemma_target: Lemmata ad XII.5]
+
 ## Lemmata ad P.5.
 
 ### I.
+
+[Curated heading level=2 type=figures: Fig. 9]
 
 {dropcap:S|lines=2|style=plain}I duæ pyramides triangulares ſecentur planis (OSE, RXZ) ad baſes (ABC, IQV) parallelis, quæ diuidant latera (CF, QL,) proportionaliter (in E & Z:) erunt (OSE, RXZ) inter ſe vt baſes (ACB, IQV.)
 

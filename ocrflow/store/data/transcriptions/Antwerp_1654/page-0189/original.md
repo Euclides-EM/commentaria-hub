@@ -5,6 +5,8 @@ Ponatur C contineri in B quater, & in A ſexies, ac proinde B eſſe 4.C, & A e�
 
 ## Theorema 1.
 
+[Curated heading level=2 type=figures: Fig. 23]
+
 [Margin]
 Fig.23.
 [/Margin]

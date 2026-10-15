@@ -1,11 +1,13 @@
 <!-- Page number: 274 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:E|lines=3|style=plain}Odem modo demõſtrabitur cylindros, cono,conoidi,ſphæroidi &c. inſcriptos, in ipſa deſinere.
 
 ## PROPOSITIO XVIII.
+
+[Curated heading level=2 type=figures: Fig. 27]
 
 [Margin]
 Fig.27.

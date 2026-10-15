@@ -27,6 +27,8 @@ rect.L B F.  Æ.  rect. A F B.
 
 ## PROPOSITIO VII.
 
+[Curated heading level=2 type=figures: Fig. 7]
+
 [Margin]
 Fig.7.
 [/Margin]

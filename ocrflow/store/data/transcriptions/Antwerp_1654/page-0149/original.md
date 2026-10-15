@@ -8,7 +8,7 @@ e Per 27. l.3.
 d Per 29. l.3.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:A|lines=2|style=plain}Ngulus pentagoni ordinati facit ſex quintas vnius recti, ſeu tres quintas duorum. Nam tres anguli ad A, cùm ſint æquales, vtpote æqualibus arcubus B C, C D, D E inſiſtentes, & medius per coroll. præced. ſit duæ quintæ vnius recti, tres ſimul, hoc eſt ipſe pentagoni angulus, conficient ſex quintas vnius recti.
 
@@ -16,7 +16,9 @@ d Per 29. l.3.
 Fig.8.
 [/Margin]
 
-## Scholium.
+### Scholium.
+
+[Curated heading level=2 type=figures: Fig. 12]
 
 {dropcap:I|lines=2|style=plain}Ngenioſa eſt Euclidæa pentagoni inſcriptio, ſed multò expeditior illa Ptolomæi, quam tradit lib.1. Almageſti, & eſt eiuſmodi.
 

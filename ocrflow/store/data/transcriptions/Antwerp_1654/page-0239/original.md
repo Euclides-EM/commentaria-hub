@@ -7,13 +7,15 @@ Et ſi latera ſic habent reciproca, triangula ſunt æqualia.
 
 Ducatur recta LB; reliqua demonſtratio eadem quæ præcedentis.
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:T|lines=2|style=plain}Am parallelogramma, quam triangula, quæ reciprocant baſes & altitudines ſunt æqualia: Et è conuerſo.
 
 Patet ex duabus præcedentibus.
 
 ## PROPOSITIO XVI.
+
+[Curated heading level=2 type=figures: Fig. 33]
 
 [Margin]
 Fig.33.

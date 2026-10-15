@@ -5,6 +5,8 @@
 Fig. 4.5.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 3.]
+
 3. Si circa duos circulos æquales & parallelos (C L, O Q) recta linea infinita (C O F) conuertatur, donec in locum redeat, vnde moueri cœpit, ſic vt mota ſibi ipſi ſemper parallela maneat; ſuperficies à recta (C O F) deſcripta dicitur cylindrica ſuperficies: corpus vero quod hac ſuperficie & binis circulis continetur, cylindrus vocatur.
 
 Baſes cylindri ſunt circuli (C L, O Q)
@@ -25,13 +27,19 @@ Fig 5.
 
 Scalenus cylindrus dicitur, cum axis ad baſes non eſt rectus.
 
+[Curated heading level=2 type=figures: Fig. 20 & 21]
+
 *Fit etiam cylindrus rectus à rectangulo (O C B A) circa vnum latus (B A) in orbem ducto vide Fig. 4.*
 
 [Margin]
 Fig. 20. & 21.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 4.]
+
 4. Similes coni & cylindri ſunt, quorum axes (A K, Z O) & baſium diametri (B F, Q R) ſunt proportionales.
+
+[Curated heading level=3 type=numbered_item: 5.]
 
 5. Sphæra eſt ſolidum comprehenſum vnâ ſuperficie, ad quam omnes rectæ lineæ à quodam puncto intra ipſam poſito ductę, ſunt æquales.
 

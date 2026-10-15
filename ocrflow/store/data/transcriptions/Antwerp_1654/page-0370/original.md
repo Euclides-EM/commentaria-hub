@@ -1,7 +1,7 @@
 <!-- Running title: Ex Archimede. -->
 <!-- Page number: 335 -->
 
-## Scholium.
+### Scholium.
 
 {dropcap:E|lines=2|style=plain}X prima parte huius theorematis, habetur alia, eaq́; facillima ſegmentorum ſphæricorum dimenſio; ſi nimirum coni I D G, I N G menſurentur, quod fiet ſi s tertiæ partes rectarum D O, N O ducantur in circulum QT.
 

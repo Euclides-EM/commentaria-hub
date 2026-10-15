@@ -5,6 +5,8 @@ tionis maioris excedente multiplam conſequentis S, multipla antecedentis O non 
 
 ## Theorema 4.
 
+[Curated heading level=2 type=figures: Fig. 25]
+
 [Margin]
 Fig.25.
 [/Margin]

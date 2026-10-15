@@ -22,6 +22,8 @@ Atqui rect. B C A bis cum quadrato A C bis, æquatur b rectangulo B A C bis. Qua
 
 ## PROPOSITIO VIII.
 
+[Curated heading level=2 type=figures: Fig. 8]
+
 [Margin]
 Fig.8.
 [/Margin]

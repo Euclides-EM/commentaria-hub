@@ -1,6 +1,8 @@
 <!-- Running title: Liber Duodecimus. -->
 <!-- Page number: 263 -->
 
+[Curated heading level=2 type=figures: Fig. 15]
+
 BFC, BFO ſunt a paria. Ergo pyramis BFCA pyramidi BOFA b æqualis eſt. Ob eandem cauſam pyramis OEAF par eſt pyramidi OBAF, hoc eſt pyramidi BOFA, ſunt enim eædem pyramides. Igitur etiam BFCA, & OEAF æquales ſunt. Omnes igitur tres BFCA, OEAF, OBAF, ſiue BOFA ſunt pares. Ergo tres ſimul vnius BFCA triplæ ſunt. Atqui tres illæ conſtituunt priſma BACFEO. Illud ergo pyramidis BFCA, hoc eſt c BGAC, triplum eſt. Quod erat demonſtrandum.
 
 [Margin]
@@ -13,6 +15,8 @@ Fig.15.
 Sit deinde pyramis quæuis eandem habens baſim & altitudinem cum priſmate AEFH ductis lineis BC, BO, BE & NI, NG, NH, reſolue priſma in triangularia priſmata, & pyramidem in trigonas pyramides. Quo facto patet demonſtratio ex prima parte. Nam ſingulæ partes priſmatis triplæ erunt ſingularum partium pyramidis. Ac proinde totum priſma totius pyramidis triplum eſt. Quod erat demonſtrandum.
 
 ## PROPOSITIO VIII.
+
+[Curated heading level=2 type=figures: Fig. 16]
 
 {dropcap:S|lines=2|style=plain}Imilium pyramidum (OACB, KHIN) proportio eſt triplicata eius, quã habent homologa latera (AB, HN.)
 

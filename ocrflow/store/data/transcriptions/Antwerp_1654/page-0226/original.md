@@ -2,11 +2,15 @@
 
 <!-- Page number: 193 -->
 
-## Scholium.
+### Scholium.
+
+[Curated heading level=2 type=figures: Fig. 15]
 
 [Margin]
 Fig.15.
 [/Margin]
+
+[Curated heading level=2 type=figures: Fig. 14]
 
 {dropcap:E|lines=2|style=plain}X hac propoſitione diſcemus rectam datam in quotuis æquales partes ſecare. Cum rectâ ſecandâ AB, faciat quemuis angulum rectâ quæpiam infinita; ex qua circino cape tot æquales partes AC, CF, FI, in quot ſecare placuerit AB. Duc rectam IB, eiq́, parallelas FL, CQ. Dico factum.
 

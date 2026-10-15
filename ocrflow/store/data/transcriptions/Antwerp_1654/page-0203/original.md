@@ -1,9 +1,11 @@
 <!-- Running title: Elementorum Geometriæ -->
 <!-- Page number: 170 -->
 
-## VI.
+### VI.
 
-## Rationum irrationalium Additio & Subtractio.
+#### Rationum irrationalium Additio & Subtractio.
+
+[Curated heading level=2 type=figures: Fig. 31]
 
 [Margin]
 Fig.31.
@@ -13,9 +15,9 @@ Fig.31.
 
 Subtractio perficitur, ſi rationes datæ ad commune conſequens reducantur, ac tum minus antecedens G auferatur à maiori F; ratio enim reſidui ad H, eſt ea quæ remanet poſtquam rationem G ad H, ſeu C ad D ſubtraxeris à ratione F ad H, ſeu A ad B. Patet ex 1.axiom.
 
-## VII.
+### VII.
 
-## Rationum rationalium multiplicatio & Diuiſio.
+#### Rationum rationalium multiplicatio & Diuiſio.
 
 {dropcap:D|lines=2|style=plain}Enominatores rationum per inuicem multiplicati dabunt denominatorem rationis, quæ ex datarum rationum multiplicatione producitur.
 

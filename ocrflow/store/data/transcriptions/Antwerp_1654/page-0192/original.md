@@ -5,6 +5,8 @@ In hac demonſtratione, vti & in ſequentibus eæ ſolum propoſitiones ex quint
 
 ## Theorema 3.
 
+[Curated heading level=2 type=figures: Fig. 24]
+
 [Margin]
 Fig.24.
 [/Margin]

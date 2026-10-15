@@ -7,9 +7,17 @@ Tertio peripheria circulum ambiens, conſtat quodammodo ex contrariis, & extremi
 
 Circumferentiam Mathematici partiri ſolent in 360 æquales partes (quas gradus vocant) ob multas illius numeri commoditates: ſemicircumferentiam in 180, quadrantem in 90.
 
+[Curated heading level=3 type=numbered_item: 23.]
+
 23. Rectilinea figura, eſt ſuperficies plana, rectis lineis vndique terminata.
 
+[Curated heading level=3 type=numbered_item: 24.]
+
 24. Triangulum, ſiue trilaterum, eſt plana ſuperficies tribus rectis comprehenſa. Hæc figurarum rectilinearum prima ac ſimplicißima eſt, in quam ceteræ omnes reſoluuntur.
+
+[Curated heading level=3 type=numbered_item: 25.]
+
+[Curated heading level=2 type=figures: Fig. 10]
 
 25. Triangulum æquilaterum, eſt quod
 

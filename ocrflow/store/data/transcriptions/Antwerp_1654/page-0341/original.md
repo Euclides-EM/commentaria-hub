@@ -11,11 +11,15 @@ d Per hanc. 13.
 
 Ex hoc corollario liquet ſuperficies conicas triangulorum ſubire leges. Itaque
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Superficies conicæ B A F, Q X R æqualia latera B A, Q X, habentes, ſunt inter ſe, vt baſium diametri B F, Q R.
 
 [Margin]
 Fig.20.& 21.l.12. tab.5.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Et (C F T, A Z B) quæ baſes habent æquales, ſunt inter ſe vt latera (C F, A Z.)
 
@@ -23,11 +27,15 @@ Fig.20.& 21.l.12. tab.5.
 Fig.23.& 24.l.12. tab.6.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 4.]
+
 4. Et quæ ſimiles ſunt (B A F, Q Z R) duplicatam habent rationem eius, quæ eſt inter baſium diametros.
 
 [Margin]
 Fig.20.& 21.l.12. tab.5.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 5.]
 
 5. Et quælibet, rationem inter ſe habent compoſitam ex rationibus laterum (B A, Q Z) & diametrorum (B F, Q R) quæ ſunt in baſibus.
 
@@ -35,9 +43,13 @@ Fig.20.& 21.l.12. tab.5.
 Fig.ead.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 6.]
+
 6. Et quæ æquales ſunt reciprocant latera & baſium diametros; & quæ reciprocant, ſunt æquales.
 
 Quæ omnia demonſtrantur ex coroll.1. vt ſupra corollaria de cylindrica ſuperficie deduximus ex corollario iſthic primo.
+
+[Curated heading level=4 type=numbered_item: 7.]
 
 7. Metiemur denique conicam ſuperficiem, ſi latus F C per baſeos peripheriam dimidiam multiplicemus. Vt ſi latus ſit pedum 5, peripheria baſeos pedum 20, duc 5 per 10, proueniút 50 pedes quadrati pro conica ſuperficie. Dem. patet ex eodé 1.coroll.
 

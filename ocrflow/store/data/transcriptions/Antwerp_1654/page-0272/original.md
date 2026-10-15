@@ -3,6 +3,8 @@
 
 ## PROPOSITIO XXV.
 
+[Curated heading level=2 type=figures: Fig. 30]
+
 [Margin]
 Fig 30.
 [/Margin]
@@ -11,7 +13,7 @@ Fig 30.
 
 Demonſtrabitur eodem modo, quo 1.6.
 
-## Corollarium.
+### Corollarium.
 
 Priſma ſectum plano aduerſis planis parallelo, ſectionem habet ſimilem & æqualem planis aduerſis.
 

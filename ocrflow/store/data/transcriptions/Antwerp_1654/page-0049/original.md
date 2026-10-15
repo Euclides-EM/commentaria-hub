@@ -13,6 +13,8 @@ d Per def. 25.
 
 ## PROPOSITIO II.
 
+[Curated heading level=2 type=figures: Fig. 24]
+
 {dropcap:A|lines=2|style=plain}D datum punctum (A) datæ rectæ (E F) æqualem ponere.
 
 [Margin]
@@ -40,6 +42,8 @@ b Poſtul.3.
 [/Margin]
 
 ## PROPOSITIO IV.
+
+[Curated heading level=2 type=figures: Fig. 25]
 
 {dropcap:S|lines=2|style=plain}I duorum triangulorum (X, Z) latus vnum (B A) vni (F L) & alterum (C A) alteri (I L) ſit æquale; anguliq́; (A & L) ab illis lateribus facti, etiam ſint æquales; æquabuntur etiam & ba-
 

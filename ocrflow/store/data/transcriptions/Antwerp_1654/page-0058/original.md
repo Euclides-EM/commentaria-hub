@@ -13,6 +13,8 @@ d Per axio. 3.
 
 ## PROPOSITIO XVIII.
 
+[Curated heading level=2 type=figures: Fig. 38]
+
 [Margin]
 Fig.38.
 [/Margin]

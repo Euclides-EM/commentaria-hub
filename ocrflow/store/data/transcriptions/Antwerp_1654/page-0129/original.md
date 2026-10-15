@@ -11,6 +11,8 @@ Fig. 33.
 
 {dropcap:A|lines=2|style=plain}Nguli (B Q C, B F C,) qui in circulo, inſiſtunt eidem arcui (B O C,) ſiue qui in eodem ſegmento (B Q S C) exiſtunt, inter ſe omnes ſunt æquales.
 
+[Curated heading level=2 type=figures: Fig. 34]
+
 Sit primò ſegmentum B Q S C maius ſemicirculo. Ex centro A duc A B, A C. Per præced. angulus B A C ad centrum, duplus eſt ſingulorum B Q C, B F C. Ergo omnes B Q C, B F C ſunt a æquales. Quod erat demonſtrandum.
 
 [Margin]

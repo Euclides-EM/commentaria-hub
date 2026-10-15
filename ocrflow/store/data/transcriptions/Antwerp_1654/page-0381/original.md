@@ -5,6 +5,8 @@ cies eſt ad totam ſuperficiem æquilateri inſcripti, vt 16 ad 4, ſiue vt 4 a
 
 ## PROPOSITIO XLII.
 
+[Curated heading level=2 type=figures: Fig. 29]
+
 {dropcap:S|lines=2|style=plain}Phæra ad inſcriptum ſibi conum æquilaterum (B K C) eam rationem habet quam 32 ad 9.
 
 [Margin]

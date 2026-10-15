@@ -7,7 +7,7 @@ dem inter ſe rationem habent, b quam axeos ſegmenta BC, CD, DA &c. Ergo & illa
 b Per 13. l.12.
 [/Margin]
 
-## Scholium.
+### Scholium.
 
 {dropcap:E|lines=2|style=plain}X hac innoteſcit proportio zonarum & climatum inter ſe. Sunt enim ad inuicem vt ſegmenta axis, quæ nota fiunt ex tabula ſinuum.
 
@@ -15,7 +15,11 @@ Ex eâdem habetur dimenſio ſegmentorum ſuperficiei ſphæricæ. Nam quia & to
 
 Cæterum & quatuor præcedentia theoremata, & reliqua omnia quæ ſequuntur, omnino ſingularia atque admiranda ſunt, planeq́, digna, ad quæ intelligenda Geometriæ ſtudioſi ardenti ſtudio incumbant.
 
+[Curated heading level=1 type=lemma_target: Lemma ad Archim. XXVIII]
+
 ## Lemma ad ſequent.
+
+[Curated heading level=2 type=figures: Fig. 19]
 
 {dropcap:S|lines=2|style=plain}I ſphæram tangat planum (QN in O,) recta (AO) ex centro ad contactum ducta eſt plano tangenti perpendicularis.
 

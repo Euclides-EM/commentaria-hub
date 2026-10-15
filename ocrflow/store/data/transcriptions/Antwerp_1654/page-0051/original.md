@@ -3,6 +3,8 @@
 
 ## PROPOSITIO V.
 
+[Curated heading level=2 type=figures: Fig. 26]
+
 [Margin]
 Fig. 26.
 [/Margin]
@@ -15,7 +17,7 @@ Intelligatur triangulum A B C bis poſitum, ſed ſitu conuerſo c b a. Quoniam 
 b Per 4. l.1.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:Æ|lines=2|style=plain}Quilaterum ergò triangulum, etiam æquiangulum eſt.
 

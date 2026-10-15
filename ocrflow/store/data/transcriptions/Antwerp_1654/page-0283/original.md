@@ -7,6 +7,8 @@
 
 ## PROPOSITIO XL.
 
+[Curated heading level=2 type=figures: Fig. 39 & 40]
+
 [Margin]
 Fig.39.& 40.
 [/Margin]
@@ -20,7 +22,7 @@ b Per 28. l.11.
 
 Nam ſi perficiantur parallelepipeda KR & CH, erũt hæc æqualia a ob baſium CA, MK & altitudinum æqualitatem. Ergo etiam priſmata ipſorum b dimidia æqualia erunt. Quod erat demonſtrandum.
 
-## Scholium.
+### Scholium.
 
 {dropcap:E|lines=2|style=plain}*X hactenus demonſtratis habetur dimenſio priſmatum triangularium, & quadrangularium, ſeu parallelepipedorum, ſi nimirum altitudo ducatur in baſim, vt ſi altitudo ſit 10 pedum, baſis verò pedum quadratorum 100, (menſurabitur autem baſis per ſchol.p.36.vel 41.l.1.) multiplica 10 per 100, proueniunt 1000 pedes cubici pro ſoliditate priſmatis dati.*
 

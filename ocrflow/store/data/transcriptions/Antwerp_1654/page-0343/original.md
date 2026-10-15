@@ -11,6 +11,8 @@ d Patet ex 26.l.1.
 Fig.24.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Superficies cylindri recti (G K) eſt ad ſuperficiem coni recti ( G B N, ) vt cylindri latus ad dimidium latus coni.
 
 Nam ſuperficies coni G B N eſt ad baſim M I, vt latus B N ad e ſemidiametrum baſis Q N; hoc eſt vt dimidium lateris B N ad quartam partem diametri G N. Eſt autem baſis M I ad ſuperficiem cylindri G K, vt i quarta pars diametri ad N K cylindri latus. Ex æquo igitur ſuperficies conica G B N eſt ad ſuperficiem cylindricam GK, vt dimidium latus coni ad cylindri latus N K. Quod erat dem.
@@ -20,7 +22,11 @@ e Per 14. huius.
 i Per 12. huius.
 [/Margin]
 
+[Curated heading level=1 type=lemma_target: Lemma ad Archim. XV]
+
 ## Lemma ad ſequen.
+
+[Curated heading level=2 type=figures: Fig. 10]
 
 {dropcap:I|lines=2|style=plain}N triangulo N P V ducta ſit Q D parallela ad N V.
 

@@ -9,7 +9,7 @@ gonæ reciprocant baſes & altitudines. Quod erat demonſtrandum.
 b Per 34. l.11.
 [/Margin]
 
-## Corollaria.
+### Corollaria.
 
 {dropcap:Q|lines=2|style=plain}Væ de pyramidibus demonſtrata ſunt p.6,8,9, etiam conueniunt quibuſcunque priſmatis; cum hæc tripla c ſint pyramidum eandem baſim & altitudinem habentium. Igitur
 
@@ -17,9 +17,15 @@ b Per 34. l.11.
 c Per 7. l.12.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 1.]
+
 1. Priſmatum æquè altorum eadem eſt proportio, quæ baſium. Id enim oſtenſum eſt de pyramidibus p.6.
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Similium priſmatum proportio eſt triplicata proportionis homologorum laterum. Id enim oſtenſum eſt de pyram. p.8.
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Æqualia priſmata reciprocant baſes & altitudines, & quæ reciprocant ſunt æqualia. Id enim de pyramidibus oſtenditur p.9.
 

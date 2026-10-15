@@ -15,6 +15,8 @@ b Patet ex. 1.l.6.
 
 ## PROPOSITIO V.
 
+[Curated heading level=2 type=figures: Fig. 2]
+
 {dropcap:C|lines=2|style=plain}Irculus eſt æqualis triangulo, cuius baſis eſt peripheria circuli, altitudo autem ſemidiameter.
 
 [Margin]

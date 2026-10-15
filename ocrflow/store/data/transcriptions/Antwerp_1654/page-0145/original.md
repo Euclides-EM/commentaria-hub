@@ -17,7 +17,7 @@ Demonſtratio patet ex 4.l.1.& ex 31.l.3. Ducantur deinde quatuor tãgentes circ
 
 Demonſtratio patet ex 18.l.3. ex coroll. 2.p.36.l.3;ex 28 & 34.l.1.
 
-## Scholium.
+### Scholium.
 
 [Margin]
 Fig.5.

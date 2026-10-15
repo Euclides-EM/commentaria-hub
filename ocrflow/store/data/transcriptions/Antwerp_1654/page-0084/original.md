@@ -3,6 +3,8 @@
 
 ## PROPOSITIO XLVII.
 
+[Curated heading level=2 type=figures: Fig. 72]
+
 {dropcap:I|lines=2|style=plain}*N omni triangulo (A B C) rectangulo, quadratum lateris (A C) quod recto angulo opponitur, æquale eſt duobus ſimul reliquorum laterum (A B, C B) quadratis.*
 
 [Margin]

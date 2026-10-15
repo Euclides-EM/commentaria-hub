@@ -1,7 +1,11 @@
 <!-- Running title: Ex Archimede. -->
 <!-- Page number: 299 -->
 
+[Curated heading level=1 type=lemma_target: Lemma ad Archim. XI]
+
 ## Lemma ad ſequen.
+
+[Curated heading level=2 type=figures: Fig. 7]
 
 {dropcap:S|lines=2|style=plain}Int AB, CD, EF proportionales, ſitq́; KB dimidia AB, & EG dupla EF; etiam KB, CD, EG proportionales erunt.
 
@@ -12,6 +16,8 @@ Fig.7.
 Recta KB eſt ad AB, vt EF ad EG. Rectangulum ergo KB, EG æquatur per 16.l.6. rectangulo AB, EF. Sed hoc per 17. l.6. æquatur quadrato CD. Ergo & rectangulum KB, EG par eſt quadrato CD. Ergo per 17.l.6. KB, CD, EG, ſunt proportionales.
 
 ## PROPOSITIO XI.
+
+[Curated heading level=2 type=figures: Fig. 5]
 
 {dropcap:C|lines=2|style=plain}Irculus, cuius radius (GH) eſt medius proportionalis inter recti cylindri latus (BC) & baſeos diametrum (BD,) æqualis eſt ſuperficiei cylindricæ.
 

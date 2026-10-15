@@ -10,6 +10,8 @@ b Per eand.
 
 ## PROPOSITIO XLIV.
 
+[Curated heading level=2 type=figures: Fig. 68]
+
 [Margin]
 Fig.68.
 [/Margin]
