@@ -1,27 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-eni eſt maior proportio prime. a quantitatũ ad ſcbam q̃z rertie ad quartam? quin contingat aliqua cque multiplicia ad primã z tertiã repiri. Que cum rclata fuerint ad aliqua cque multiplicia ſcoe z quarte: inucnietur multiplex prime addere ſuper mnltiplex ſcce:nõ aũt multiplex tertic ſuper multipler quarte. Icc vſq̃z contingit boc reperirc quin ſit maior proportio prime ad ſcoam q̃z tertie ad quartam vt oe? monſtrabimus infra ſupra decimam buins.
+eni eſt maior proportio prime.4.quantitatũ ad ſcd̃am q̃ʒ tertie ad quartam: quin contingat aliqua eque multiplicia ad primã ⁊ tertiã repiri. Que cum relata fuerint ad aliqua eque multiplicia ſcd̃e ⁊ quarte:inuenietur multiplex prime addere ſuper multiplex ſcd̃e:nõ aũt multiplex tertie ſuper multiplex quarte. Nec vſq̃ʒ contingit hoc reperire quin ſit maior proportio prime ad ſcd̃am q̃ʒ tertie ad quartam vt demonſtrabimus infra ſupra decimam huius. ¶Poſſunt autem eſſe hee quãtitates improportionales diuerſoꝝ generum ſicut ⁊ quãtitates incõtinue proportionales ſi inter eas fuerit incõtinua improportionalitas: vt ſi dicatur maior eſt proportio a.ad.b.q̃ʒ.c.ad.d. Si autem fuerit continua improportionalitas erũt oẽs eiuſdẽ generis neceſſario ſicut ſunt in continua proportionalitate. vt ſi dicatur maior eſt proportio.a.ad.b.q̃ʒ.b.ad.c.
 
-¶ Poſſunt autem eſſe bce quãtirates improportionales piucrſoy generun ſicut z quãtitates incõtinue proportionales li inter cas fuerit incõtinua improportionaliras: vt li oicatur maior eſt proporrio a.ad.b.q5.c.ad. d. Si autem fuerit continua improportionalitas erũt oẽs ciuſdẽ generis neceſſario ſicut ſunt in continua proportionalitate. vt li oicatur maior eſt
+## Diffinitio .9.
 
-## [illegible]
+{dropcap:E|lines=5|style=decorated|decoration="floriated initial on criblé ground"}St autem proportionalitas ad minus inter tres termios cõſtituta.
 
-proportio.a:ad.b.q̃z. b.ad.c. Diffinitio.9. {dropcap:[illegible]|lines=5|style=decorated}Et autem proportionalitas ad minus inter tres termios conſtituta.
+¶Poſtq̃ʒ auctor diffiniuit ꝓportionẽ ꝓportionalitatẽ ⁊ q̃ntitates ꝓportionales ⁊ iꝓportionales.oſtẽdit q̃s ſit minim⁹ numer⁹ terminorũ inter quos proportionalitas poteſt cõſiſtere maximũ autẽ nõ ponit:quia illum nõ cõtingit ſumere:poteſt enim proportio quelibet continuari ĩ terminis infinitis:ſiue fuerit rõnalis proportio ſiue irrõnalis. ¶Ad proportionalitatẽ aũt exigunt̃ ad minus due proportiões ſiꝉes:eo ꝙ proportiõalitas ſit ſimilitudo proportionũ. Quelibet aũt proportio habet antecedens ⁊ conſequẽs:ergo q̃libet proportionalitas habet ad minus duo antecedẽtia ⁊ duo conſequẽtia: hoc ẽ impoſſibile fieri in paucioribus q̃ʒ tribus terminis:in quibus medius eoꝝ fiet antecedẽs ⁊ ꝯſequẽs:⁊ iõ proportiõalitas erit ꝯtinua:quare in trib⁹ terminis ad minus erit cõtinua proportionalitas cõſtituta. Incõtinua aũt non erit ĩ pauciorib⁹ q̃ʒ in.4.eo ꝙ in ipſa quilibet termin⁹ ẽ tm̃ antecedẽs:aut tm̃ ꝯñs: idem intellige de minori numero terminoꝝ improportionalitatis. Si enim fuerit ꝯtinua:erit ad minus inter tres terminos. Si incõtinua ad minus inter quatuor.
 
-¶ Poſtq̃z auctor biffiniuit ꝓportionẽ pportionalitatẽ z q̃ntitates ꝓ pportionales zi ꝓportionales. oſtẽdit q̃s ſit minimꝰ numerꝰ termino I rũ inter quos proportionalitas poreſt cõfiſtere marimũ autẽ nõ po nit: quia illum nõ cõtingit ſumere: poteſt cnim proportio quelibet continuari i ier minis infinitis: ſine fuerit rõnalis proportio fiue irrõnalis.
+## Diffinitio 10.
 
-¶ Ad proportionali? tatẽ aũt crigunt ad minus ouc proportiões ſiles: eo ꝙ proportiõaliras ſit ſimili? tndo proportionũ. Ouclibct aũt proportio baber antecedens z conſequẽs: crgo q̃ uibet proportionalitas babet ad minus ouo antecedẽtia z ouo conſequẽtia: bor e impolſibile fieri in paucioribus q̃s tribus terminis: in quibus medius coy fiet an tecedes z oſequẽs: z iõ proportiõalitas erit priuua: quare in tribꝰ terminis ad mi nus erit cõtinua proportionaliras cõſtitnta. Jncõrinua aũt non crit i panciorib) q̃z in.a co ꝙ in ipla quilibet terminꝰ ẽ tm̃ antecedés:aut tmi oño: idem intellige e minort numero terminoy improportionalitatis. Si cnim fucrit ptinua: crit ad minus inter tres terminos. Si incõtinua ad minus inter quatuor.
+{dropcap:S|lines=5|style=decorated|decoration="floriated initial on criblé ground"}I fuerit tres q̃ntitates ꝯtinue ꝓportiõales dicet̃ ꝓportio prime ad tertiã. ꝓportio prime ad ſcd̃am duplicata.
 
-## Diffinitio io
+¶Diffinit proportionẽ q̃ ẽ ĩter extremos termios continue proportionalitatis in trib⁹ termis cõſtitute.⁊ dicit ꝙ ſi fuerit proportio primi ad ſcd̃m ſicut ſcd̃i ad tertiũ:erit proportio p̃mi ad tertiũ ſicut primi ad ſcd̃m duplicata:hoc ẽ ex duabus talib⁹ cõpoſita. ſiue qd̃ idẽ ẽ:erit proportio primi ad tertiũ. ſicut p̃mi ad ſcd̃m duplicata:hoc eſt in ſe multiplicata. verbi gr̃a. ĩ numeris Sint.3.numeri cõtinue proportionales:ſintqʒ continue dupli:vt.2.4.8 proportio primi ad tertiũ erit ſicut proportio p̃mi ad ſcd̃m in ſe multiplicata:proportio aũt p̃mi ad ſcd̃m ẽ dupla:dupla vero in ſe multiplicata: producit quadruplã:vnde proportio extremoꝝ ẽ quadrupla:videlicet duplũ dupli: vel ſcd̃m priorẽ expoſitionem proportio extremorum eſt ſicut proportio primi ad ſecundũ duplicata:quia quadrupla conſtat ex duabus duplis.
 
-{dropcap:[illegible]|lines=5|style=decorated}y fuerit tres q̃nritates prinne pportiõales dicet pportio prime ad tertiã. pportio prime ad ſcoam ouplicata.
+[Diagram: three horizontal lines labelled a 8, b 4 and c 2]
 
-¶ Diffinit proportionẽ q̃ e iter ertremos termios continue propor?
+## Diffinitio .11.
 
-[Diagram]
-
-tionalitatis in tribꝰtermis cõſtitute.z oicit ꝙ li fuerit proportio pri I mi ad ſcom ſicut ſcoi ad tertiũ: crit proportis pmi ad tertiũ ſicnt pri mi ad ſcom ouplicata: boc ẽ ex ouabus talibcõpolita. ſiue qo idẽ e:crit proportio primi ad tertiũ. ſicut pmi ad ſcom ouplicata:boc eſt in ſe multiplicata. verbi gra. i numeris Sint.3 numeri cotinne proportionales: ſinty continue oupli:vt.2. 48 proportio primi ad terriũ erit ſicut proportio pmi ad scom in ſe multiplicara: proꝰ portio aũt pmi ad ſcom ẽ oupla: oupla vero in ſe multiplicata: producit quadru plã: vnde proportio ertremoy ẽ quadrupla: videlicet ouplũ oupli: vel ſcom pnorẽ erpolitionem proportio extremorum eſt ſicut proportio primi ad ſecundũ oupli? cata:quia quadrupla conſtat ex ouabus ouplis. {dropcap:[illegible]|lines=5|style=decorated}Diffimtio aui¬
-
-## [illegible]
-
-Am fuerit q̃tor qnoirati duinue pportionalcs. pportio prime ad quartã oicet pportio prime ad lcbaz triplicara
+{dropcap:C|lines=3|style=decorated|decoration="floriated initial on criblé ground"}um fuerit q̃tuor q̃ntitates ꝯtinue ꝓportionales. ꝓportio prime ad quartã dicet̃ ꝓportio prime ad ſcd̃aʒ triplicata

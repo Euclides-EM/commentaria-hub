@@ -1,61 +1,39 @@
-<!-- Page number: 1 -->
+<!-- Running title: -->
 
-<!-- Running title: ie V -->
+[Handwritten]
+[unclear: Alia eſt romboides ⁊ ſimilis rombo cuius duo latera ex aduerſo poſita ſt equalia]
+[/Handwritten]
 
-<!-- Running title: LE -->
+¶ Alia eſt ſimilis helmuaym que oppoſita latera habet equalia atqʒ oppoſitos angulos equales: idẽ tamen nec rectis angulis nec equis lateribus cõtineꝛ: ¶ Preter has autẽ oẽs quadrilatere figure helmuariphe nominantur. ¶ Equidiſtantes linee ſunt que in eadem ſuperficie collocate atqʒ in alterutram partem ꝓtracte non conueniunt etiã ſi in infinitum protrahantur.
 
-¶Nuia eſt ſimilis belmnaym que oppolita latera babet equalia atq;
+[Margin]
+[Handwritten]
+[illegible: 1 words]
+[/Handwritten]
 
-[Diagram]
+[Diagram: rhomboid labelled Silis helmu and two parallel horizontal lines labelled Paralelle.]
 
-[Diagram]
+[Diagram: three concentric circles with a point at the centre]
 
-[Diagram]
+[Diagram: straight lines with dotted endpoints crossing one another]
 
-oppoſitos angulos equales: idẽ tamen nec rectis angulis nec equis lateribus cõtinet: PPreter bas autẽ oẽs quadrilatere figure belmua? ripbe nominantur.
+[Handwritten]
+[unclear: Ex greco Et ea quoꝝ vnũquodqʒ eiuſdẽ duplũ exiſtit ſt equalia]
+[/Handwritten]
 
-¶ E quidiſtantes linee ſunt que in eãdem fuperfi, cie collocate aroy in alterutram partem ptracte non conueniunt etiã ſi in infinitum prorrabantur. euriones ſunt quinoy.
+[Diagram: two intersecting circles labelled f, a, b, h, d and c, with triangles drawn between the centres and the points of intersection]
+[/Margin]
 
-¶A quolibet pucro in quemliber {dropcap:[illegible]|lines=5|style=decorated}punctum rectã lineã bucere atqz lineã oefinitã in cõtinuũ rectũqz quãtũlibet protrabere.
+{dropcap:P|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Etitiones ſunt quinqʒ: ¶ A quolibet pũcto in quemlibet punctum rectã lineã ducere atqʒ lineã definitã in cõtinuũ rectũqʒ quãtũlibet protrahere. ¶ Super centrũ quodlibet quãtumlibet occupando ſpacium circuluʒ deſignare. ¶ Omnes rectos angulos ſibiĩuicem eſſe equales: ¶ Si linea recta ſup duas lineas rectas ceciderit duoqʒ anguli ex vna parte duobꝰ rectis angulis minores fuerint iſtas duas lineas in eãdẽ ptẽ ꝓtractas ꝓculdubio ꝯiũctim ire. ¶ Duas lineas rectas ſupficiẽ nullam concludere.
 
-¶ Super centrũ quodli, bet quãtumlibet occnpando ſpacium circuluz deſignare.
+{dropcap:C|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ommunes animi ꝯceptiones ſunt hee: ¶ Que vni ⁊ eidẽ ſunt equalia ⁊ ſibiĩuicẽ ſunt equalia: ¶ Et ſi equalibꝰ equalia addant᷑ tota quoqʒ fiẽt equalia. ¶ Et ſi ab equalibꝰ eq̃lia auferant᷑ que relinquũt᷑ erũt equalia. ¶ Et ſi ab ineq̃libus equalia demas q̃ relinquũt᷑ erũt ineq̃lia. ¶ Et ſi ineq̃libus equalia addas ipſa quoqʒ fiẽt inequalia. ¶ Si fuerint due res vni equales ipſe ſibiĩuicem erũt equales. ¶ Si fuerint due res quaꝝ vtraqʒ vniꝰ eiuſdẽ fuerit dimidiũ vtraqʒ erit equalis alteri. ¶ Si aliqua res alicui ſuperponat᷑ applicet᷑qʒ ei nec excedat altera alterã: ille ſibiĩuicẽ erunt eq̃les. ¶ Omne totum ẽ maius ſua pte.
 
-¶ Dmnes rectos angulos ſibiinuicem eſſe equales: d Oi linea recta ſup onas lineas rectas ceciderit ouoqz anguli ex vna par, te onobꝰrects angnlis minores fuerint iltas ouãs lineas in eãdẽ ptẽ
-
-[Diagram]
-
-ptractas pculdubio piüctim ire.
-
-¶ Vnas lincas rectas ſupficiẽ nul, lam concludere. {dropcap:[illegible]|lines=5|style=decorated}Ommunes animi yceptiones ſunt bee:
-
-¶Que vni zeidẽ ſnnt eqnalia z ſibiiuicẽ ſunt equalia:
-
-¶ Et ſi equalib?equa lia addant tota quoqz fiẽt equalia.
-
-¶Et ſi ab equalibꝰ eq̃ lia auferant que relinquũt erũt equalia.
-
-¶ Et ſi ab ineq̃li bus equalia demas q̃ relinquũt erũt ineq̃lia.
-
-¶ Et ſi ineq̃ libus equalia addas ipſa quoqz hiẽt inequalia.
-
-¶ Oi fuerint oue res ni equales iple ſibiiuicem erũt equales
-
-¶ Si fuerint oueres quay vtraqz vniꝰeinidez fuerit oimidiũ vrraqz erit equalis alteri.
-
-¶ Oi ali, qua res alicni ſuperponat applicetqz ei nec excedat altera alterã: ille ſibiinuicẽ cruut eq̃les.
-
-¶ Dmne totum ẽ maius ſua pte.
-
-{dropcap:[illegible]|lines=5|style=decorated}Liendũ eſt aũt ꝙ preter bas ainmi cõceptiões: liue cões ſcias mul tas alias que numero ſunt incõprebenſibiles pretermiſit Euclides: quarũ bec eſt vna.
-
-¶ Si oue quantitates equales ad quãlibct tertiã ciuſdem generis cõparentur ſimul erunt ambe illa tertia aut eque maiores: aut eque minores: aut ſimul equales.
-
-¶Jtẽ alia Duanta eſt aliqua qnantiras ad quãlibet aliam einſdẽ generis tantã eſſc quãlibet tertiã ad aliquam quartã einſdem generis in quantitatibꝰ continuis: boc vniucrſaliter ve? rum eſt ſine antecedentes maiores fuerint conſequentibus ſiue minores. magnitu do enim occreſcit in infinitũ. in numeris aũt non ſic: ſed ſi fuerit primus ſubmul, tiplex ſecundi: erit quilibet tertins cque ſubmultipley alicuiꝰ quarti: quoniã nume rus creſcit in infinitũ: ſicut magnitudo in in finitum minuitur.
-
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ciendũ eſt aũt ꝙ preter has aĩmi cõceptiões: ſiue cões ſcias multas alias que numero ſunt incõprehenſibiles pretermiſit Euclides: quarũ hec eſt vna. ¶ Si due quantitates equales ad quãlibet tertiã eiuſdem generis cõparentur ſimul erunt ambe illa tertia aut eque maiores: aut eque minores: aut ſimul equales. ¶ Jtẽ alia Quanta eſt aliqua quantitas ad quãlibet aliam eiuſdẽ generis tantã eſſe quãlibet tertiã ad aliquam quartã eiuſdem generis in quantitatibꝰ continuis: hoc vniuerſaliter verum eſt ſiue antecedentes maiores fuerint conſequentibus ſiue minores. magnitudo enim decreſcit in infinitũ. in numeris aũt non ſic: ſed ſi fuerit primus ſubmultiplex ſecundi: erit quilibet tertius eque ſubmultiplex alicuiꝰ quarti: quoniã numerus creſcit in infinitũ: ſicut magnitudo in in finitum minuitur.
 
 ## Propoſitio prima.
 
-{dropcap:[illegible]|lines=5|style=decorated}Riangulnm'equllaterum ſupia batam lineam rectam coi locare.
+{dropcap:T|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Riangulum equilaterum ſupra datam lineam rectam collocare. ¶ Eſto data linea recta. a.b. volo ſuper ipſam triangulũ equilaterũ cõſtituere ſuper alterã eius extremitatẽ. ſ. in puncto a. ponam pedẽ circini immobilem: ⁊ alterũ pedem mobilem extendam vſqʒ ad. b. ⁊ deſcribã ſm̃ quantitatem ipſius linee date per ſecũdam petitionẽ circulũ. c.b.d.f.
 
-¶ Eſto pata linca recta. a.b. voilo ſuper ipſam trangulu cquilaterũ cõſtitucre ſuper aierã cins eytremitate. ſ.in puncto a. ponam pede lcircint immobilem: z alterui pedem moboilem eytendam vlay ad. b.? ceſcribã bm quantitatem ipſius lince pate per ſecũdam petitione circulu.c.b d.f.
+[Handwritten]
+[unclear: Suꝑ rectã lineam definitã triangulũ equilaterũ ꝯſtituere]
+[/Handwritten]

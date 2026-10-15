@@ -1,31 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-{dropcap:[illegible]|lines=6|style=decorated}nium ouarum quantiratum cõmunicantium eſt ppor
+{dropcap:O|lines=5|style=decorated|decoration="foliate woodcut initial"}Mnium duarum quantitatum cõmunicantium eſt ꝓpoꝛtio tanqʒ numeri ad numerum.
 
-[Diagram]
+¶Sint due quãtitates.a.⁊.b.cõmunicantes:dico ꝙ earum ꝓpoꝛtio eſt ſicut alicuius numeri ad aliũ numeꝝ.ſit eni.c.maxima quantitas cõmuniter menſurans.a.⁊.b.reperta ut docet ſcd̃a huius:que menſuret.a.ſm̃ numeꝝ.d.⁊.b.ſm̃ numerũ.e.eritqʒ.a.ad.c.vt.d.ad vnitatẽ:eo ꝙ ſicut a.eſt multiplex.c.ita.d.ẽ multiplex vnitatis.ac.c.ad.b.vt vnitas ad.e.qm̃ ſicut.c. ẽ ſubmultiplex.b.ita vnitas ẽ ſub multiplex.e.igitur per equã ꝓpoꝛtionalitatem. a.ad.b.ut.d.ad.e.quod eſt propoſitum.
 
-tio tanqz numeri ad numerum.
+[Diagram: horizontal segments labelled a, c, b, d and e with handwritten numerals]
 
-¶ Sint oue quãtitatcs. a. 2.b.cõmunicantes: dico ꝙ earum pportio eſt ſicut alicuins numeri ad aliũ numey. ſit eni. c.marima quanritas lõmuniter menſurans. a. 2.b. reperta ut oocct ſcoa buins: que men! ſuret. a. bmn numey. d.z. b.bm numerũ.c.erity.a.ad.c.vt. d.ad vnitaté:eo q ſicut a eſt multipler. c.ita. d.ẽ multipler vnitaris. ac.c.ad. b. vt vniras ad.c, qui ſicut.c. ẽ ſubmultipler. b.ita vnitas é ſub multipler.e. igitur per cqui pportionalitatem. a.ad.b.ut. d.ad.e,quod eſt propoſitum.
+## Pꝛopoſitio .6.
 
-## PPropoſitio.6.
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint due quantitates quaꝝ ſit proportio vnius ad alterã tanqʒ numeri ad numeꝝ:eas duas cõmunicantes eſſe neceſſe eſt.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint oue quantirates quay ſit proportio vnius ad al terã tanqz numeri ad numeg: eas duae cõmunicantes eſle neceſſe eſt. l pes eſt conuerſa pnons ut ſi fit.a.ad.b.ficut numerus.cad nume
+¶hec eſt conuerſa pꝛioꝛis ut ſi ſit.a.ad.b.ſicut numerus.c.ad numerum.d.erunt due quantitates.a.⁊.b.ꝯmunicantes.ſit eni.e.totiens menſurans.b.quotiẽs eſt vnitas in.d.⁊ totiens menſurans.f.quotiens vnitas in.c.Cum ſit igitur.f.ad.e.ut.c.ad vnitatẽ.ac.e.ad.b.vt vnitas ad.d.erit ꝑ equam ꝓpoꝛtionalitatẽ.f.ad.b.ut.c.ad.d.quare etiã ut.a.ad.b.igit̃ per primã partem.9. quinti.f.eſt equalis.a.cũ itaqʒ.e.menſuret.f.per conceptionẽ menſurabit.a.igitur a.⁊.b.cõicantes:mẽſurabat eni ⁊.b.quod eſt propoſitum.
 
-[Diagram]
+[Diagram: horizontal segments labelled f, a, e, b, c and d]
 
-frum. d. crunt one quantiratco. a:z. b.omunicantes. ſir cui.c. totiens menſurans. b. quotics eſt vniras in. d. totiens menſurans.f, quotiens vniras i c. Cum ſit igitur.f.ad.c.ut.c.ad vnitarẽ. ac.c.ad.b. vt vnitas ad.d. erit p cquam nportionaltate. f.ad. b.ut.c.ad. d quarc eriã ut.a.ad.b.igit per primã partem.9. quinti.f. eſt equalis. .cui iragy-c. menſuret. f. per conceptione menſurabit. a.igimr a.2.b. cõicantes: mẽſurabat eni z.b. quod eſt propoſitum.
+## Pꝛopoſitio .7.
 
-## Propoſitio .2.
+{dropcap:O|lines=5|style=decorated|decoration="foliate woodcut initial"}Mnium duarum ſuperficierũ quadrataꝝ quaꝝ latera in longitudine cõmunicant eſt propoꝛtio vnius ad alteram tanquã numeri quadrati ad numerũ quadratum.Si vero fuerit propoꝛtio ſuꝑficiei quadrate ad ſuperficiem quadratam:tanquã propoꝛtio numeri quadrati ad numerũ quadratũ:erunt latera earũ in longitudine communicantia.Qd̃ ſi fuerit ꝓpoꝛtio ſuperficiei quadrate ad ſuperficiem quadratã:non velut numeri quadrati ad numerum quadratum:latera earum erunt in longitudine incõmenſurabilia.
 
-{dropcap:[illegible]|lines=5|style=decorated}Ouium ouarum ſuperficierũ quadratay qnay latera in Iongitndine cõmunicant eſt propoztio vnins ad altcram tanquã numeri quadrati ad numerũ qnadratum. Oi vero fuerit proportio iupficiei quadrate ad iuperficiem quadra
+¶Sint.a.⁊.b.due linee quadrate quaꝝ quadrata ſint.c.⁊.d.dico ꝙ ſi.a.⁊.b.communicant in longitudine erit ꝓpoꝛtio.c.ad.d.ſicut numeri quadrati ad numerum quadratũ ⁊ ecõuerſo:ſi aũt ꝓpoꝛtio.c.ad.d.nõ ſit ſicut numeri quadrati ad numerũ quadratũ.a.⁊.b.erũt incõmẽſurabiles in longitudine ⁊ ecõuerſo.Verũtñ iſtud argumẽtũ quartũ nõ proponit:Primũ pʒ ſic.ſi.a.⁊.b.cõmunicant ĩ longitudine ipſe per.5.erunt in propoꝛtione duoꝝ numeroꝝ qui ſint.e.⁊.f.quoꝝ quadrati ſint g.⁊.h.qꝛ ergo ẽ.c.ad.d.ſicut.a.ad.b.duplicata per.18.ſexti:ſequit̃ ut ſit etiam.c. ad.d.ſicut.e.ad.f.duplicata.ſed etiã ẽ per.11.octaui.g.ad.h.ut.e.ad.f.duplicata ergo.c.ad.d.ſicut.g.ad.h.qd̃ ẽ primũ.Scd̃m ſic:ſit.c.ad.d.ſicut.g.numerus quadratus ad.h.numeꝝ quadratũ:dico ꝙ.a.⁊.b.erunt in longitudine cõicantes.Cũ enim ſit.c.ad.d.ut.a.ad.b.duplicata ꝑ.18.ſexti.⁊.g.ad.h.ꝑ.11.octaui ut.c.ad.f. duplicata:quare ⁊ ſimpla.a.ad.b.ſicut ſimpla.e.ad.f.ꝑ.6.igitur ſunt.a.⁊.b.cõicãtes qd̃ eſt ſcd̃m.Tertiũ vero pʒ ex primo a deſtructione cõſequentis.Sil'r quartũ patet ex ſcd̃o a deſtructione ꝯñtis.¶Ex tertia pte huiꝰnota diametꝝ ẽe incõmenſurabilẽ coſte.Cũ eni ſit q̃dratũ diametꝝ duplũ q̃drato coſte:dupla vero ꝓpoꝛtio
 
-[Diagram]
+[Diagram: two squares labelled c and d with sides labelled a and b and horizontal segments labelled e, f, g and h]
 
-ltam:tanquà propoirio numeri quadrati ad numerû qua¬ dratũs erunt latera caru in longimdine communicantia. Mo ſi fucrit Dportio luperficici quadrate ad ſuperficieim quadrata non velut nu, meri quadran ad numernm quadratum: latera carum erunt in longirn dine incõmenſurabilia. ( Sint, a.z'b oue lince quadrate quay quadrata fint. c.. d.bico ꝙ fi.a. 2. b.com
-
-[Diagram]
-
-mumicont in longitudme crit ꝓponio.c.ad. d ſicut numer quadratt ad nmcrin quadratu e ecouerfo: ſi aut ppontio.c.ad. d.no ſit ſicut nmeri quadrartad nume ra quadratii, a. c.b.cruit incomeſurables in longimndine z cconcrſo. Leruiri iſind argumeti quarii nõ propont. Primã py lic. fi. a. a. b. tomumicant i longimndine iple per.S.crunt in proporrionc ouoy numeroy qui fint.e.z.f. quoy quadrati ſint 6z.h. oncrgoë c.ad. d.ſicut. a ad.b ouplicata per.is ſeyi :ſequit ut ſit etiam.c. ad. d. ficut,e. ad.f. ouplicara. ſcd ctiã é per.11.octani.s. ad.h.ut.e.ad.f. ouplicara crgo.c.ad. d.ſicut. s ad b.qb é primu.Scom fic:ſit. c.ad. d.ſicut.s numcrus qua dratno ad. b numer quadratũ:pico q.a.z.b.erunt in longimdine cõicantes. Cũ enim fit, e.ad.d.nt,a ad. b. puplicata p-is. ſerti. z.g.ad. b.p.nn. octani ut.c. ad.f. ouplicata:quore e ſimpla.a.ad. b.ſicur ſimpla, c.ad.ſ. p.s. iguur ſunt .a.z b.coics tes ob eſt ſcom. Tertin vero py er primo a beſtrcione coſcquentis. Sill quarii paret er ſccoo a beſtructione ontis.
-
-¶Ey teria pre bui'nora piamery ee incomen ſurabile coſte. Lũ eni ſit q̃dratũ biamety ouplu q̃draio coſte: oupla vero xponio
+[Handwritten]
+[unclear: Nota quadratũ dyametri eq̃lateri] Nota dyametrũ quadrati eq̃lateri eſſe incõmenſurabilẽ coſte [unclear: ſue]
+[/Handwritten]

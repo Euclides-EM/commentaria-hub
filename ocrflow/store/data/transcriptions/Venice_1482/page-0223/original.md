@@ -1,19 +1,25 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: XII -->
 
-filem piramidi. b.h. l.m.z piramidẽ. a.c.f.g-piramidi. b. hm.n.qu ergo ey bac.S portio piramidis. a.c. d.e ad piramidẽ.b.b. l.L.ẽ ficut lateris.c. d.ad latus. h le, triplicata z etiã piramidis.a.ce.f.ad piramidẽ. b.b. Lm. ficut.e.f.ad.I.m.tripli, cata. ac etiã piramidis.a.c.f.g-ad piramidẽ. b. b.m.n. ſicut. c. s ad.h.n. rriplicata cui ſit er ppoihcſi pportio. e. f.ad. Lm.2.c.g.ad. h.n.ſicut.c. d.ad. b.l. ſcquitur ey 43 quinti vt pportio totaliũ piramidũ.a. 2. b. ſit ſicut onins bax ptialium ad aliã vnã.igit ey bac. s.z vndecima quinti conſtat verũ cẽ quod oirimus.
+ſiľem piramidi.b.h.l.m.⁊ piramidẽ.a.c.f.g.piramidi.b.h.m.n.qꝛ ergo ex hac.8. ꝓportio piramidis.a.c.d.e.ad piramidẽ.b.h.k.l.ẽ ſicut lateris.c.d.ad latus.h.k. triplicata ⁊ etiã piramidis.a.c.e.f.ad piramidẽ.b.h.l.m.ſicut.e.f.ad.l.m.triplicata.ac etiã piramidis.a.c.f.g.ad piramidẽ.b.h.m.n.ſicut.c.g.ad.h.n.triplicata cũ ſit ex ypotheſi ꝓportio.e.f.ad.l.m.⁊.c.g.ad.h.n.ſicut.c.d.ad.h.k. ſequitur ex 13.quinti vt ꝓportio totaliũ piramidũ.a.⁊.b.ſit ſicut vnius haꝝ ptialium ad aliã vnã.igiť ex hac.8.⁊ vndecima quinti conſtat verũ eẽ quod diximus.
 
-¶Dmnes colũne laterate eque alte ſuis baſibus ſut pportionales.
+¶Omnes colũne laterate eque alte ſuis baſibus ſũt ꝓportionales.
 
-[Diagram]
+¶Verũ ẽ qꝺ dicitur ſup qualeſcũqʒ baſes poligonias ſint.colũne. Colũnas autẽ lateratas vocamus ſolida corpora laterata quoꝝ baſes ⁊ ſupficies ſuppreme ſunt ſiľes ⁊ equales.cuncte vero relique ſuperficies ipſa ſolida circũſtantes:ſunt equidiſtantiũ laterum Talium autẽ ſolidoꝝ prima ſpẽs ẽ ſeratile cũ ſuper vnã ſuaꝝ trilaterarũ ſupficieꝝ intelligiť eẽ ſtatutũ Scꝺa vero ſpẽs ẽ colũna cui⁹ baſis ſit q̃drilatera quã ex duobus ſeratilibus neceſſe ẽ eſſe cõpoſitã:⁊ tertia ẽ cuius baſis ẽ pentagona ⁊ ipſa ex tribus ſeratilib⁹ pficiť.Simpliciter aũt dico ꝙ oĩs laterata colũna in tot corpora ſeratilia põt diſtingui in quot triãgulos ſua baſis Intelliganť itaqʒ due colũne laterate.a.⁊.b.ꝯſtitute ſup duas baſes.a.⁊.b.eque alte.dico ꝙ ꝓportio colũnaꝝ.a.⁊.b.ẽ ſicut baſiũ.a.⁊.b.diſtinguãť nãqʒ hee baſes ĩ triãgulos ⁊ hee columne in ſeratilia:baſis quidẽ.a.que ponatur eſſe quadrangula in duos trigonos.ſ.c.⁊.d.⁊ colũna.a.in duo ſeratilia.c.⁊.d.baſis vero.b.que ſit pentagona diſtinguať in tres trigonos.e.f.g.⁊ colũna.b.in tria ſeratilia que ſiľr vocenť.e.f.g. Manifeſtũ ẽ igiť ex his que in.36.vndecimi dicta ſunt ꝙ ꝓportio ſeratilis.c.ad ſeratile.e.eſt ſicut baſis.c.ad baſim.e.⁊ iterũ ſeratilis.d.ad ſeratile.e.ſicut baſis d.ad baſim.e.quare per.24.quinti erit columne.a.ad ſeratile.e.ſicut baſis.a.ad baſim.e.eadem ratione erit columna.a.ad ſeratile.f.ſicut baſis.a.ad baſim.f.at rurſus columne.a.ad ſeratile.g.ſicut baſis.a.ad baſim.g.igiť ex.24.quinti quotiens neceſſe fuerit aſſumpta facile cõcludes propoſitũ.conſtat itaqʒ ex hoc ꝙ
 
-¶Berũ é qb oicitur ſup qualeſcuqy bales poligonias ſint. colune. Colunas aure lateratas vocamus ſolida corpora laterata quoy bales ⁊ ſupficies ſuppreme ſunt files z equales. cuncte vero relique ſuperficies ipla folida circuſtantes: ſunt cquidi ſtantiĩ laterum Talium auté ſolidoy prima ſpẽs è ſerarle cũ ſuper vnã ſuay trila terarũ ſupficiey intelligit ce ſtatutũ Scoa vero spẽs ẽ colũna cui baſis ſit q̃drilare ra quã ey ouobus ſcratilibus neceſſe è eſſe cõpolitã:z tertia ẽ cuius baſis ẽ penta, gona c ipla ey tribus ſeratilibꝰ pficit Simpliciter aũt oico ꝙ ois laterata colũna in tot corpora ſeratilia põt oiſtingui in quor triãgulos ſua baſis Jntelligant itas oue colũne laterate. a. 2. b. oſtitute ſup onas baſes.a. 2.b.eque alte. oico ꝙ pporl tio colũnay.a. 2.b. ẽ ſicut baliũ. a.z.b. oiſtinguãr nã bee baſes i triãgnlos cbee columne in ſeratilia: baſis quidẽ. a que ponatur eſſe quadrangnla in ouos trigo? nos.f.c.2. d.z colũna. a. in ouo ſeratilia.c. 2. d.baſis vero. b. que ſit pentagona oi ſtinguai in tres trigonos.e.f.g.z colũna. b. in tria ſeratilia que ſilr vocent.c.f.g. DlSanifeſtũ ẽigit ex bis que in.3s.vndecimi oicta ſunt ꝙ pportio ſeratilis.c.ad feratile.e.eſt licut baſis.c.ad bafim. c.⁊ iterũ ſerarilis. d.ad ſeratile. e. ſicut baſis d.ad baſim. e. quare per.2a quinti erit columne. a. ad ſeratile. c. ſicut baſis. a. ad baſim. e. cadem ratione erit columna. a. ad ſeratile. f. ſicut baſis. a:ad baſim.f.at rurſus columne.a. ad ſeratile.g.ſicur baſis. a. ad baſim.g-igit ex. 2a quinti quo tiens ncceſſe fuerit aſſumpta facile cõcludes propoſitũ. conſtat ita er boc ꝙ
+¶Omnes colũne laterate ſuper eandẽ baſim vel ſuper equales conſtitute ſi fuerint eque alte erunt equales.
 
-¶ Dmnes colũne laterate ſuper eandẽ baſim vel ſuper equales con ſtitute li fuerint eque alte erunt equales.
+¶Cum eni vt proximo probatum eſt eque alte colũne laterate ſint ſuis baſib⁹ ꝓportionales.ponantur aũt baſes eſſe aut eaſdẽ aut equales neceſſe ẽ ex.24.quinti vt etiam colũne ſint equales.conſtat quoqʒ ꝙ.
 
-¶ Lum eni vt proyimo probatum eſt eque alte colũne laterate ſint ſuis baſibꝰ ꝓl portionales. ponantur aũt baſcs eſſe aut eaſde aut equales neceſſe ẽ ey.2a quinti vt etiam colũne ſint equales. conſtat quooz ꝙ.
+¶Si fuerint quelibet ſolida paralellograma ſeratilia ⁊ laterate colũne eque alta ipſa quoqʒ ſuis baſibus proportionalia eẽ neceſſario cõprobantur.
 
-¶Oi fuerint quelibet ſolida paralellograma ſeratilia ⁊ laterate coluĩ? ne eque alta ipſa quoqz ſuis baſibus proportionalia cẽ neceſſario cõ probantur.
+¶Omnia enim hee ſpecies ſunt laterataꝝ columnarum de quibus paulo ante vniuerſaliter probatum eſt verum eſſe quod dicitur.
 
-¶Omnia enim bee ipecies ſunt lateratay columnarum oe quibus panlo ante vni uerſaliter probatum eſt verum eſſe quod oicitur. d Vmnis laterata columna tripla eſt ad ſuam piramidem.
+¶Omnis laterata columna tripla eſt ad ſuam piramidem.
 
-¶ Diſtinguatur baſis columne in triangulos z bm numerum triangulorum illo, rum oiſtinguatur columna in ſeratilia z piramis columne in piramides babentes bales triangulas que videlicet ſunt baſes ſeratilium. conſtat iraqz vnumquodoz ſeratile ad cã piramidem que ſuper eandem balim cum ipſo ſeratili conſiſtit tri plum eſſe. hoc enim oemonſtratum eſt in ſerta buius ouodecimi libri:igitur ey. 13 quinti omnia ſeratilia pariter accepta ad omnes piramides pariter acccptas neꝰ ceſſe eſt eſſe triplum cumoy ex omnibus ſeratilibus pariter acceptis columna et
+¶Diſtinguatur baſis columne in triangulos ⁊ ƀm numerum triangulorum illorum diſtinguatur columna in ſeratilia ⁊ piramis columne in piramides habentes baſes triangulas que videlicet ſunt baſes ſeratilium.conſtat itaqʒ vnumquodqʒ ſeratile ad eã piramidem que ſuper eandem baſim cum ipſo ſeratili conſiſtit triplum eſſe.hoc enim demonſtratum eſt in ſexta huius duodecimi libri:igitur ex.13 quinti omnia ſeratilia pariter accepta ad omnes piramides pariter acceptas neceſſe eſt eſſe triplum cumqʒ ex omnibus ſeratilibus pariter acceptis columna et
+
+[Figure: pentagonal column divided into three seratilia, its base labelled e, f and g with b below]
+
+[Figure: quadrangular column, its base labelled c and d with a below]
+
+<!-- Signature: o 3 -->

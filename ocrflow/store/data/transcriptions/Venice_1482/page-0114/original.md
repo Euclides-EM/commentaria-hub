@@ -1,41 +1,33 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-ad.f.igitur ecõuerſo.c.ad.a. t.c.licut.f.ad.c.2.f.per cquã itagz proportionalita! tem erit. b.ad.a.2.c.ſicut. d.ad.c. t.f. qo crat ppolitũ. Ex boc quoz manifeſtũ ẽ g li fucrit ꝓportio quorlibet numeroy ad primũ ſicut toridem alioy ad ſcom. erit aggregati ex omnibus antecedentibus ad pmũ: ad pmũ ſicut aggregati cr oibns añtibꝰad ſcom: ad ſcom. itẽz ecõnerſo ſi ſuerit pportio pini ad quorlibct numeros ficut ſcoi ad toridẽ alios: crit primi ad agsregatũ ex oibꝰ oñtibꝰ ad iplũ: ſicut ſcoi
-
-[Diagram]
-
-ad aggrcgatũ cy oib oñtibꝰ ad ipfũ. Propoſitio .16.
-
-## [illegible]
-
-{dropcap:[illegible]|lines=5|style=decorated}J numeret vniras aliquẽ numey quotiẽs quilibet tertins laliquẽ quartui: erit quoqz pmurati ut quoriés vnitas nume rat tertium totiens lecũdus numeret quartum.
-
-¶Hr ſi ſit vniras ad. a.ſicut. b. ad.c. erit pmutati vniras ad. b.ſi? l cut a.ad.c.Non ſupfluit aũt bec ocmnonſtrata pinurata pportione. non eni ey illa põt cõcludi qo bic proponitur. Hã illa oemonſtrata eſt oe. a nume ris ꝓportionalibus: vnitas vero nõ eſt numerus p oiffinitione: boc ergo mõ pate at propoſitum. oiuidar.a.ꝑ vnirates z.c.bm quãtitatem. b. eruntos pcr preſentem otbe. tot ptes. a. quot.c.⁊ quia vnaq̃os partiũ.a.eſt vnitas z vnaqy ptium.c.
-
-[Diagram]
-
-eſt equalis. b.erit ut quoriens vnitas in.b. totiens vnaq̃ ptiũ. a. in ſua cõpari cy ptibꝰ. c.p modũ ttay demõſtratiõis.;. ſcquci totiens eſſe. a.in.c. quorens vnitas
-
-## ropoſitio a17.
-
-in. b. qo eſt propoſitum {dropcap:[illegible]|lines=5|style=decorated}J ouorum numeroruz vterqz oucatur in alterum:qui ini de producentur erunt cqualcs.
-
-[Diagram]
-
-¶Sicut ſi ex. a.in. b. pueniat.c. 7 cr.b. in. a. pueniat. d.crunt.c.2.d cqualcs: cũ eni.b. multiplicatus p.a. pducat. c. erit p cõucrſione oiffi nitionis. b.in.c, quoriens vnitas in.a. crgo p premiſam erit.a.in.c. quoriens vniras in. b.z qr totiens eſt. a.ctiã in.d.qicr. b.in. a. fit. d.ſcquitur ut to tiẽ ſit. a.i.. quoties in. d.p concept.igitur.c. 2.d. ſunt ſimiles. Poſſunus quous banc concuſionem alio modo xponere: ſi ouoy numeroy vterqz oucair in alterũ ide numerus vtrobio ꝓueniet: vt ſi ey. a.in.b. pucniat. c.idẽ etlã ey. bain.a. proil ueniet: qu eni ey.a.in.b.fit. c.erit ut prius p cõucrſionẽ diffinitionis.b.in.c.quori? ens vnitas in.a. Et permntatim ppremiſſam. a.in.c. quoticns vnitas in. b. quia igir.a.totiens ſibi coaceruat in.c quoriens in. b. eſt vniras: ſcquit p oiffinironcm
+ad.f.igitur ecõuerſo.e.ad.a.⁊.e.ſicut.f.ad.c.⁊.f.per equã itaqʒ proportionalitatem erit.b.ad.a.⁊.e.ſicut.d.ad.c.⁊.f.qꝺ erat ꝓpoſitũ.Ex hoc quoqʒ manifeſtũ ẽ ꝙ ſi fuerit ꝓportio quotlibet numeroꝝ ad primũ ſicut totidem alioꝝ ad ſcꝺm.erit aggregati ex omnibus antecedentibus ad pmũ:ad pmũ ſicut aggregati ex oibus añtib⁹ ad ſcꝺm:ad ſcꝺm.itẽqʒ ecõuerſo ſi fuerit ꝓportio pmi ad quotlibet numeros ſicut ſcꝺi ad totidẽ alios:erit primi ad aggregatũ ex oib⁹ ꝯñtib⁹ ad ipſũ:ſicut ſcꝺi ad aggregatũ ex oib⁹ ꝯñtib⁹ ad ipſũ.
 
 ## Propoſitio .16.
 
-ꝙex.b.in.a. fit.c. {dropcap:[illegible]|lines=5|style=decorated}J vnus numerus in ouos oncatur:tantus erit ouox inde
+{dropcap:S|lines=6|style=decorated|decoration="foliate woodcut initial"}I numeret vnitas aliquẽ numeꝝ quotiẽs quilibet tertius aliquẽ quartũ:erit quoqʒ ꝑmutatĩ ut quotiẽs vnitas numerat tertium totiens ſecũdus numeret quartum.
 
-[Diagram]
+¶Vt ſi ſit vnitas ad.a.ſicut.b.ad.c.erit ꝑmutatĩ vnitas ad.b.ſicut.a.ad.c.Non ſupfluit aũt hec demonſtrata ꝑmutata ꝓportione:non eni ex illa põt cõcludi qꝺ hic proponitur.Nã illa demonſtrata eſt de.4.numeris ꝓportionalibus:vnitas vero nõ eſt numerus ꝑ diffinitionẽ:hoc ergo mõ pateat propoſitum.diuidat̃.a.ꝑ vnitates ⁊.c.ſm̃ quãtitatem.b.eruntqʒ per preſentem ypothe.tot ptes.a.quot.c.⁊ quia vnaq̃qʒ partiũ.a.eſt vnitas ⁊ vnaq̃qʒ ptium.c.eſt equalis.b.erit ut quotiens vnitas in.b.totiens vnaq̃qʒ ptiũ.a.in ſua cõpari ex ptib⁹.c.ꝑ modũ itaqʒ demõſtratiõis.5.ſequet̃ totiens eſſe.a.in.c.quotiens vnitas in.b.qꝺ eſt propoſitum.
 
-productorum alter ad alterum: quantns duoum multipli catorum alter ad alterum.
+[Diagram: a unit stroke labelled 1 and a segment labelled b above segments labelled a and c]
 
-¶ DHultiplicct. a. vrruioz ouoy nũcroy. b.et.c. c pueniãt. d.z.c.oico y erit pportio. d.ad.e. ſicut. b. ad.c.ſequit cni p cõucrſione oiffini? tionis cius qo eſt multiplicari ut. b.in. d.z. c.in.e. ſit quotiens vnitas in.a. quarc P oiffinitioné pportio.d.ad. b.é ſicut.e.ad.c.cqualiter cni cos continent. qu quoꝰ tiens. a. vnitarc: crgo pemutatim.d.ad.c. ſicut.b.ad.c quod eſt propoſitun.
+## Propoſitio .17.
 
-## Aopoſitio .19..
+{dropcap:S|lines=6|style=decorated|decoration="foliate woodcut initial"}I duorum numeroꝝ vterqʒ ducatur in alterum:qui inde producentur erunt equales.
 
-{dropcap:[illegible]|lines=5|style=decorated}I ouo numeri vnum multiplicent icrit proportio onorui inde pductoy tanqz ouorum multiplicantium.
+¶Sicut ſi ex.a.in.b.ꝓueniat.c.⁊ ex.b.in.a.ꝓueniat.d.erunt.c.⁊.d equales:cũ eni.b.multiplicatus ꝑ.a.ꝓducat.c.erit ꝑ cõuerſionẽ diffinitionis.b.in.c.quotiens vnitas in.a.ergo ꝑ premiſſam erit.a.in.c.quotiens vnitas in.b.⁊ qꝛ totiens eſt.a.etiã in.d.qꝛ ex.b.in.a.fit.d.ſequitur ut totiẽs ſit.a.i.c.quoties in.d.ꝑ concept.igitur.c.⁊.d.ſunt ſimiles. Poſſumus quoqʒ hanc concluſionem alio modo ꝓponere:ſi duoꝝ numeroꝝ vterqʒ ducat̃ in alterũ idẽ numerus vtrobiqʒ ꝓueniet:vt ſi ex.a.in.b.ꝓueniat.c.idẽ etiã ex.b.in.a.ꝓueniet:qꝛ eni ex.a.in.b.fit.c.erit ut prius ꝑ cõuerſionẽ diffinitionis.b.in.c.quotiens vnitas in.a.Et permutatim ꝑ premiſſam.a.in.c.quotiens vnitas in.b.quia igit̃.a.totiens ſibi coaceruat̃ in.c.quotiens in.b.eſt vnitas:ſequit̃ ꝑ diffinitionem ꝙ ex.b.in.a.fit.c.
 
-¶Er conucrſione antecedentis premile conduditur bec cadẽ pallio qque in pamniſſa: vr ſi vicros ouoy nomeroy b. ec. mulnpletà c
+[Diagram: segments labelled a and b with the numbers 3 and 4, above longer segments labelled c and d each marked 12]
+
+## Propoſitio .18.
+
+{dropcap:S|lines=6|style=decorated|decoration="foliate woodcut initial"}I vnus numerus in duos ducatur:tantus erit duoꝝ inde productorum alter ad alterum:quantus duorum multiplicatorum alter ad alterum.
+
+¶Multiplicet.a.vtrũqʒ duoꝝ nũeroꝝ.b.et.c.⁊ ꝓueniãt.d.⁊.e.dico ꝙ erit ꝓportio.d.ad.e.ſicut.b.ad.c.ſequit̃ eni ꝑ cõuerſione diffinitionis eius qꝺ eſt multiplicari ut.b.in.d.⁊.c.in.e.ſit quotiens vnitas in.a.quare ꝑ diffinitionẽ ꝓportio.d.ad.b.ẽ ſicut.e.ad.c.equaliter eni eos continent.qꝛ quotiens.a.vnitatẽ:ergo permutatim.d.ad.e.ſicut.b.ad.c.quod eſt propoſitum.
+
+[Diagram: segments labelled d, e, c, b and a with the numbers 20, 30, 4, 6 and 5, and a unit stroke]
+
+## Propoſitio .19..
+
+{dropcap:S|lines=6|style=decorated|decoration="foliate woodcut initial"}I duo numeri vnum multiplicent:erit proportio duorũ inde ꝓductoꝝ tanqʒ duorum multiplicantium.
+
+¶Ex conuerſione antecedentis premiſſe concluditur hec eadẽ paſſio que in premiſſa:vt ſi vterqʒ duoꝝ numeroꝝ.b.⁊.c.multiplicet.a.et

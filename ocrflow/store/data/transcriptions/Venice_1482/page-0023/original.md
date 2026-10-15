@@ -1,39 +1,40 @@
-omnpta ergo linca.f.s-cõmuimi remanebit. a.s. cqualis.f.h, qppccdenté iterũ ẽ a.c.equalis.f.c. z angulus.h.f.e. angulo.s.a.c. per ſcoam pte.a p videlicet ertrin ſccus intrinſcco crit pa triangulus. a.c.g cqualis triangulo.f.c.b. crgo irregula ri figura quadrilatera quc eſt.g.c.f.c.addira vtrio erit ſupficics. a. c.f.e. cqual ſu pcrficici.g.c.h.c, quod eſt upoſituin. &cet ergo mõ linca.c.s lincĩ. a. b. in pun? cto.f.vt in ſecũda figurationc epparet. crũtoy ſilli argumentatione priori euo tri
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-anguli.a. c.f. d. f.c.h. equales quare vrrobio; addiro mrangilo. f.c.c. patct ppofi tuim. Secct rcrtio mõ linea.c.s.- lincain. a.b. inter ouo puncta.f.b.vt in tertia fiy guratione apparct:ſecabitay lincam. f.c. fic vt in puncto.l.t quia fimili argumẽ ratione prioni linea.a.f.ẽ cqualis linec.&h. facta comuni linea. g.f.erit a.5.cquar f.h. e triangnlus. a.g-c.cqualis triangulo..f.c. h.addito ergo virig trangulo.c. l.e.c oetracto ab vmroqy triangulo. l.i. g crit ſuperficies. a.c.f.e cqual ſuperficici
+dempta ergo linea.f.g.cõmuni remanebit.a.g.equalis.f.h.qꝛ ꝑ p̃cedentẽ iterũ ẽ a.c.equalis.f.e.⁊ angulus.h.f.e.angulo.g.a.c.per ſcd̃am ptẽ.29.videlicet extrinſecus intrinſeco erit ꝑ.4.triangulus.a.c.g.equalis triangulo.f.e.h.ergo irregulari figura quadrilatera que eſt.g.c.f.e.addita vtriqʒ erit ſupficies.a.c.f.e.equal' ſuperficiei.g.c.h.e.quod eſt ꝓpoſitum.Secet ergo mõ linea.c.g.lineã.a.b.in puncto.f.vt in ſecũda figuratione apparet.erũtqʒ ſili argumentatione pꝛioꝛi duo trianguli.a.c.f.⁊.f.c.h.equales quare vtrobiqʒ addito triangulo.f.c.e.patet ꝓpoſitum. Secet tertio mõ linea.c.g.lineam.a.b.inter duo puncta.f.b.vt in tertia figuratione apparet:ſecabitqʒ lineam.f.e.ſic vt in puncto.k.⁊ quia ſimili argumẽtatione pꝛioꝛi linea.a.f.ẽ equalis linee.g.h.facta cõmuni linea.g.f.erit a.g.equal' f.h.⁊ triangulus.a.g.c.equalis triangulo..f.e.h.addito ergo vtriqʒ triangulo.c.k.e.⁊ detracto ab vtroqʒ triangulo.f.k.g.erit ſuperficies.a.c.f.e.equal' ſuperficiei g.c.h.e.quod eſt ꝓpoſitum.
 
 ## Propoſitio .36
 
-g.C.h.c. quod eſt ppoſitum {dropcap:[illegible]|lines=5|style=decorated}Ania palellograma in baſibus equalibus atoz in eiſdez lineis conſtituta equalia eſſe neceſſe eſt.
+{dropcap:O|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnia palellograma in baſibus equalibus atqʒ in eiſdeʒ lineis conſtituta equalia eſſe neceſſe eſt.
 
-¶ Paralellogramũ oicit ſupficies eqdiſtantiu lateru. Sint oue ſup' ficics. a.b.c.d.z e.f.g.h. cquidiſtantiũ laterũ conſtitnte inter ouas lincas cquidiſtantcs que ſunt. a.f. e.c.h. ⁊ ſuper equales baſcs que ſunt.c. d..6. b. bico eas cé cqualcs. nam protrabã ouas lincus.c.e. 1 .d.f. eritoy per.yy-ſup ericico.cd.e f.cquidiſtantium latcrum apter boc q.e. f.eſt cqualis ? couidiſtans. cd. nani vtra carui eſt cqualis. s.h, quia ergo per pmiſſa; viraq; ouari ſuperficierũ. a. b.c.d.2.e.f.g. b.eſt eqnalis ſuperficiei.c. d.e. f.ipſe crũt ſibi inuicemn equales:quod eſt xpoſitum. Propoſitio. 51.
+¶Paralellogramũ dicit̃ ſupficies eq̃diſtantiũ laterũ.Sint due ſupficies.a.b.c.d.⁊.e.f.g.h.equidiſtantiũ laterũ conſtitute inter duas lineas equidiſtantes que ſunt.a.f.⁊.c.h.⁊ ſuper equales baſes que ſunt.c.d.⁊.g.h.dico eas eẽ equales.nam ꝓtrahã duas lineas.c.e.⁊.d.f.eritqʒ per.33.ſuperficies.c.d.e.f.equidiſtantium laterum ꝓpter hoc ꝙ.e.f.eſt equalis ⁊ equidiſtans.c.d.nam vtraqʒ earũ eſt equalis.g.h.quia ergo per p̃miſſaʒ vtraqʒ duarũ ſuperficierũ.a.b.c.d.⁊.e.f.g.h.eſt equalis ſuperficiei.c.d.e.f.ipſe erũt ſibi inuicem equales:quod eſt ꝓpoſitum.
 
-## [illegible]
+## Propoſitio .37.
 
-[Diagram]
+{dropcap:E|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Quales ſunt ſibi cuncti trianguli qui ſup eãdẽ baſim atqʒ inter duas lineas equidiſtantes ſunt conſtituti.
 
-[Diagram]
+¶Sint duo trianguli.a.b.c.⁊.d.b.c.ꝯſtituti ſuper baſim.b.c.inter duas lineas.a.e.⁊.b.f.que ſint equidiſtãtes:dico eas eſſe equales. ꝓtraham eni.c.g.equidiſtantẽ.a.b.⁊.c.h.equidiſtantẽ.d.b.per.31. erũtqʒ due ſuperficies.a.b.c.g.⁊.d.b.c.h.equales per.35.⁊ quia dicti trianguli ſunt earũ dimidia ꝑ correlariũ.34.ipſe erũt eq̃les per cõeʒ ſciam q̃ eſt quoꝝ tota ſũt eq̃lia ⁊ dimidia:ſicqʒ pʒ ꝓpoſitũ.
 
-Quales ſunt ſibi cuncr triangnli qui lup cãdé baſim at; {dropcap:[illegible]|lines=5|style=decorated}inter ouas lineas equidiſtantes ſunt conſtituti. ( Sint ouo trianguli.a.b.c.z.d.b.c. oſtituri ſuper baſim.b.c.inter puas lincas.a.c.2.b f, que ſint equidiſtãtco: bico cas eſſe cqualco. ptrabam eni.c.S-cquidiſtanté, a.b.z.ch.cquidiſtanté. d.b peryi. eruitay cue ſuperficies, à b.c.g.2.d.b ch, cquales per. 3s. * quia oicit trianguli ſunt caru oimidia p corrclari. ⁊⁊ ipſe erũt cq̃les per coz ſcian queſt quoy tora
+## Propoſitio .38.
 
-## [illegible]
+{dropcap:S|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I duo trianguli ſuper baſes equales atqʒ inter duas lineas equidiſtantes ceciderint equales eos eſſe neceſſe eſt.
 
-fũr cq̃lia z oimidia:ſicy pz ppolitũ. Propoſitio.3. J ouo trianguli ſuper baſcs cquales aioy inter ouas line
+¶Sint duo triãguli.a.b.c.⁊.d.e.f.ꝯſtituti ſup baſes.b.c.⁊.e.f.eq̃les ⁊ int̃ lineas.a.g.⁊.b.h.eq̃diſtãtes:dico eos eſſe eq̃les.ꝓtrahã eni. c.k.eq̃diſtantẽ.a.b.⁊.f.l.eq̃diſtantẽ.e.d.erũtqʒ due ſupficies.a.b. c.k.⁊.d.e.f.l.eq̃les ꝑ.36.⁊ qꝛ dicti triãguli ſũt eaꝝ dimidia ꝑ cõrelariũ.34.ipſi erũt eq̃les ꝑ antedictã cõmunẽ ſcientiam.
 
-[Diagram]
+## Propoſitio .39.
 
-{dropcap:[illegible]|lines=5|style=decorated}ãs cquidiſtantes ceciderint cquales cos elle neceſſe eſf. U coint ouo tiãguli.a b.c.s d.e. foftitui ſup baiet. b.e. E.c.. eqles c int lincas. a.5.2.b.b. cõdiſtãtes: vico cos efle cq̃les. prrabã cui. le. cqdiſtante. a.b.z. f.l. codiſtanté.e.d., cruitqy oue ſupficies.a. b. c.h.t.de. fil. coles p.ys. z qu bicti trãguli ſut cay pimnidia p corelari. ⁊ ipl erũt cqles pantedicia comuné ſcientiam. PPropoſitio, 39.
+{dropcap:O|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnes duo triãguli eq̃les ſi in eandẽ baſim ⁊ ex eadẽ pte ceciderint:inter duas lineas equidiſtantes erunt:
 
-## [illegible]
+¶Sint duo triãguli.a.b.c.⁊.d.b.c.ꝯſtituti ſup baſi.b.c.ex vna eademqʒ pte:ſintqʒ equales:dico eas eẽ int̃ lineas equidiſtantes:⁊ hec eſt conuerſa.37.a puncto.a.ꝓtrabam lineam equidiſtanteʒ linee.b c.que ſi pertranſierit per punctuʒ.d.liquet propoſitum. Si autem pertranſierit ſupꝛa aut infra:tranſeat pꝛimo ſupꝛa ⁊ ſit.a.e.producamqʒ.b.d.vſquequo ſecet
 
-MSnes ouo triõgnli efles l'in cande baſim zer eadẽ pte {dropcap:[illegible]|lines=5|style=decorated}cecidcrint:inter duas lineas equidiſtantes erunt:
+[Margin]
+[Diagram: two parallel horizontal lines, the upper marked a, b, e and f, the lower marked c, d, g and h, joined by vertical and oblique lines forming parallelograms with diagonals]
+[Diagram: two parallel horizontal lines, the upper marked a, g, d, h and e, the lower marked b, c and f, joined by several oblique lines crossing between them]
+[Diagram: two parallel horizontal lines, the upper marked a, k, d, l and g, the lower marked b, c, e, f and h, joined by oblique lines forming triangles]
+[Diagram: quadrilateral with a at top left, e at top right, d below e, f in the interior, b at bottom left and c at bottom right, with crossing diagonal lines]
+[/Margin]
 
-¶ Oint ouo fanguli.a. b.c. 2. d. b.c oſtituti ſup baſi. b.c.cy vna ca) demo pre ſmtcy coualco: bico cal ce int linens coudiſtanteo: e bec leſt conuerſa. ⁊y a puncto.a. ꝓtrabam lincam couidiſtantez lince b cque ſi pertranſierit per punctuz d.liquet propoſttum. Si autem pertranſicrit ſu pa aut mnſra: mranſeat pumno ſupn eſit,ac, prodiramay ba viquequs ſect
+[Handwritten]
+[unclear: hinc demõſtrare] [illegible]
+[/Handwritten]
+
+[Handwritten]
+[illegible]
+[/Handwritten]

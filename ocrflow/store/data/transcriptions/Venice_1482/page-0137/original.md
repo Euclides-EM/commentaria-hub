@@ -1,53 +1,17 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: IX -->
 
-eſſe ad.c.z cõpoſitui cy. b. t.c. ad. a. itcqy ey.a.2.c. ad.b. manifeſtũ enimn eſt ey ſe, cunda octaui qb ey. d.in ſe fit.a.z in.e.fit.b. Tey.e. in ſe. 6.2cy.22. ſeptimi.qo.d. .e. ſũt cõtra ſe primi:iraaz er pmna pte.ay ciuſdẽ erit totꝰ d.e pinꝰ ad vtrũqy coy igir vterqys ouoy numeroy. d.t.d.e pinꝰ é ad.e, crit p'as eiuſdé qn er. d.in, à e. pducitur ipſe ẽ cõpolitus cy. a.z. b. pnus ad.e. ſcquit ergo p.2s.ciuſdẽ. nt ctiã
+eſſe ad.c.⁊ cõpoſitũ ex.b.⁊.c.ad.a.itẽqʒ ex.a.⁊.c.ad.b.manifeſtũ enim eſt ex ſecunda octaui qd̃ ex.d.in ſe fit.a.⁊ in.e.fit.b.⁊ ex.e.in ſe.c.⁊ ex.22.ſeptimi.qd̃.d.⁊.e.ſũt cõtra ſe pꝛimi:itaqʒ ex p̃ma pte.29.eiuſdẽ erit tot⁹.d.e.p̃m⁹ ad vtrũqʒ eoꝝ qꝛ igit̃ vterqʒ duoꝝ numeroꝝ.d.⁊.d.e.pꝛim⁹ ẽ ad.e.erit p.25.eiuſdẽ qui ex.d.in.d e.ꝓducitur ⁊ ipſe ẽ cõpoſitus ex.a.⁊.b.p̃mus ad.e.ſequit̃ ergo p.26.eiuſdẽ.ut etiã cõpoſitus ex.a.⁊.b.ſit p̃m⁹ ad.c.fit eni.c.ex.e.ī ſe¶Simili quoqʒ demõſtratõe ꝓbabis cõpoſitũ ex.b.⁊.c.p̃mũ eſſe ad.a.At vero cõpoſitũ ex.a.⁊.c.p̃mũ eſſe ad.b:ſic habeto:cũ ſit eni vterqʒ duoꝝ.d.⁊.e.p̃mus ad totum.d.e.erit p.25.ſeptimi qui ex.d.in.e.ꝓducit̃:⁊ ipſe eſt.b.p̃mus ad.d.e.itaqʒ p.26.eiuſdẽ qui ex.d.e.in ſe ꝓuenit:⁊ ipſe eſt qui cõponit̃ ex.a.⁊.c.⁊ duplo.b.pꝛimus erit ad.b.ſequit̃ ergo compoſitũ ex.a.⁊.c.p̃mũ eſſe ad.b.neceſſe eni ẽ ut ex duobus cõpoſitus cũ pꝛimus fuerit ad vnũ eoꝝ ex quib⁹ componit̃:ſit pꝛimus ad reliquũ:demõſtratum aũt ẽ hoc ſupra.29.ſeptimi.Opoꝛtet aũt ſtabilire ad robur iſtius demonſtratiõis compoſitũ ex.a.⁊.b.ꝓduci ex.d.in cõpoſitũ ex.d.⁊.e.ſuppoſito ꝙ ex.d.in ſe fit.a.⁊ ex eodeʒ in.e.b.itẽqʒ ꝙ ex.d.e.ī ſe ꝓducat̃ cõpoſitũ ex.a.⁊.c.⁊ duplo.b.ſuppoſito eo quod pꝛius ⁊ ꝙ ex.e.in ſe ſit.c.huius itaqʒ gr̃a ꝓponim⁹ hec demonſtrãda.
 
-[Diagram]
+[Diagram: horizontal segments in three rows labelled a and b; a, b and c; and d and e]
 
-cõpoſitus ey.a.z.b. ſit pm’ad.c. fit eni.c.ey.c.i ſe ( Gimili quoo demõſtratõe ꝓͬ babis cõpoſitũ cy. b.z.c pmũ eſſe ad.a. At vero cõpoſitui er a. z.c.pmũ eſſe ad. b: lic babeto: cũ ſit eni vterqy ouoy. d.z.c, pmus ad totum. d.e. erit p'as- ſeptimi qui er. d.in. e. pducir: z iple eſt. b.pmnus ad. d.e ita pas.ciuſdé qui cr. d. c.in ſe pl uenit:z iplc eſt qui cõponit er.a.t.c.z ouplo. b. primus erit ad.b. ſcquit crgo com politũ ey.a.z.c.pmũ eſſe ad.b.necefſe eni eut er ouobus cõpoſitus cũ primus fue rit ad vnũ coy er quib componit: ſit primus ad reliquui: ocmonſtratum aiit é boc ſupra.ay.ſeprimi. Oportet aũt ſtabilire ad robur iſtius bemonſtratiois compolitũ cr.a.2.b. pduci ey. d.in cõpoſitũ er. d.1.e. ſuppoſito q cy.d.in ſe fit.a.zey codez in.e.b.itẽ ꝙ cr.d.e.i ſe pducat cõpoſitui er.a. 1.c. ⁊ ouplo. b.ſuppoſito co quod prius z q er.e. in ſe ſit.c. huius ita gra xponimꝰ bec pemonſtrãda.
+¶Qd̃ fit ex ductu vni⁹ numeri ī quotlibet tantũ ẽ:quantũ qd̃ ex ductu eiuſdẽ ī cõpoſitũ ex illis.¶Idẽ ꝓponit p̃ma ſcõi de lineis.Sit eni ut ex.a.ī.b ⁊ in.c.⁊ in.d.ꝓueniant.e.⁊.f.⁊.g.dico ꝙ ex.a.in cõpoſitũ ex.b.⁊.c.⁊.d.ꝓuenit cõpoſitũ ex.e.⁊.f.⁊.g.ſequit̃ eni ex cõuerſione diffinitionis eius qd̃ multiplicat̃ ut tota pars ſit.b.e.⁊ tota.c.f.ſed ⁊.d.tota.g.quota ẽ vnitas.a. per quintã itaqʒ ſeptimi:tota quoqʒ ps erit cõpoſitus ex.b.⁊.c.⁊.d.compoſiti ex.e.⁊.f.⁊.g.quota eſt vnitas.a.ergo per diffinitionẽ ex.a.in cõpoſitũ ex.b.⁊.c.⁊.d.fit cõpoſitus ex.e.⁊ f.⁊.g.qd̃ eſt pꝛopoſitũ.¶Qd̃ fit ex ductu quotlibet numeroꝛum in vnum equũ ẽ ei qd̃ fit ex cõpoſito eoꝝ in eundẽ.¶Hoc ẽ cõuerſũ eius qd̃ modo demonſtratũ ẽ:vt ſi ex.b.⁊.c.⁊.d.in.a.fiant.e.⁊.f.⁊.g.fiet quoqʒ cõpoſitus ex cõpoſito ī eundẽ:qd̃ ex.17.ſeptimi ⁊ p̃demonſtrato facile cõcludit̃.¶Qd̃ fit ex ductu quotlibet numeroꝝ in quotlibet alios:equũ eſt ei qd̃ fit ex cõpoſito hoꝛum in compoſitũ illoꝝ.¶Vt ſi.a.b.c.multiplicẽt.d.e.f.quilibet quẽlibet:iungant̃qʒ ꝓducta.dico aggregatũ ex pꝛoductis eſſe equale ꝓducto ex cõpoſito ex.a.⁊.b.⁊.c.in cõpoſitũ ex.d.⁊.e.⁊.f.eſt eni ꝑ pꝛemiſſam qd̃ fit ex cõpoſito ex.a.b.c.in.d.quãtũ qd̃ ex ſingulis in illũ.d.ſic ⁊ in.e.⁊ in.f.ex cõpoſito aũt hoꝝ a.b.c.in quẽlibet illoꝝ.d.e.f.ꝑ ante p̃miſſã fit quãtũ ex cõpoſito in cõpoſitũ.itaqʒ cõſtat ꝓpoſitũ.¶Numero in quotlibet ptes diuiſo:tantũ eſt qd̃ fit ex toto eo in ſe:quantũ qd̃ ex eo in omnes ſuas ptes.¶Idẽ ꝓponit ſcõa ſecundi de lineis.vt ſi.a.diuidat̃ in.b.⁊.c.⁊.d.dico ꝙ tantum fit ex.a.in ſe quantũ in oẽs illos.b.c.d.poſito eni.e.equali.a.conſtat ex pꝛima haꝝ incidentiũ tm̃ fieri ex.e.in.a.quãtũ in oẽs ptes.a.ſed ꝑ cõcept.ex.e.in.a.fit quãtum ex.a.in ſe.⁊ ex.e.in ptes.a.quãtũ ex.a.in eaſdẽ.Manifeſtũ ergo ẽ veꝝ eſſe qd̃ dicit̃.¶Numero in duo diuiſo qd̃ fit ex toto in alterum diuidentium:tm̃ eſt quantũ qd̃ ex eodem in ſe ⁊ in alterum.¶Idem pꝛoponit tertia ſcõi de lineis.Sit eni.a diuiſus in.b.⁊.c.dico tm̃ fieri ex.a.in.c.quãtũ ex.c.in ſe.⁊ in.b.Nam qd̃ ex.a.ī.c. ẽ quãtũ qd̃ ex.c.in.a.p.17.ſeptimi.ſumpto itaqʒ.d.equali.c.erit.a.in.c.quantum d.in.a.At per pꝛimã haꝝ.d.in.a.ẽ quantũ in.b.⁊.c.qꝛ ergo.d.in.a.⁊ ī.b.⁊ ī.c.ẽ quantum.c.in.a.⁊ in.b.⁊ in ſe pꝛopter equalitatem.c.⁊.d.conſtat pꝛopoſitum.
 
-[Diagram]
+[Diagram: horizontal segments in three rows labelled e, f and g; b, c and d; and a]
 
-¶ Mo liter ouctu vniꝰnumeri i quotlibet tantũ ẽ: quantũ qo ey ouctu ciuſdẽ i copoſitui ey illis.
+[Diagram: horizontal segments labelled e, f and g; a; and b, c and d]
 
-¶ Jde pponit pna ſcoi ve lineis Si eni ut er. a i.b zin.c.z in.d. pueniant.e.2.f.2. 5.oico ꝙ ey.a.in cõpoſitũ er. b.2. c.z. d. puenit cõpolitũ er. e.2.f.2.3 ſequir eni cy cõuerſione oiffinitionis eius qo multiplicar ut tota pars ſit.b.e. ⁊ tota.c.f. ſed z.d.tota.s-quora é vnitas. a. per quintã ira ſe, primi:tora quo ps crit cõpolitus cy. b.2.c.2.d.compoſui er.e.2.f.t.g quora eſt vnitas.a. crgo per diffinitlouẽ er.a.in cõpoſitũ cr. b. 1.c.43. d.fit cõpoſitus er. e. ?
+[Diagram: horizontal segments in two rows labelled d, e and f; and a, b and c]
 
-[Diagram]
+[Diagram: two horizontal segments, the upper labelled a, the lower labelled b, c, e and d]
 
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-f.2.s.qb eſt propoliti.
-
-¶ No fit er ouctu quorlibet numerozum in vnum eqnii ẽ ci qo fit ey cõpoſi o eorui in cundẽ.
-
-¶ hocé couerſu eius qomodo oemnonſtratu ẽ: vr ſi cy.b.2.c.2. d.in. a. fiant.c.2.f.2.g-fiet quony cõpolius ey cõ politoi eunde: qoey. ix ſeptimi z pdemonſtrato facile cõcludir.
-
-¶ Mo fit er ou ctu quotlibet numeroy in quotlibet alios: equũ eſt ei qo fit ey cõpoſi to borum in compoſitũ illoy.
-
-¶It ſi.a.b.c. multiplicẽt. d.e. f. quilibet quẽ? libet: iungantas pducta. dico aggregatũ er productis eſſe equale ꝓducto cy cõpoꝰ ſito er.a.2.b..c.in cõpoſitũ cr.d.z.e. 2. f. eſt eni p premilſam qo fir ey cõpoſito ez.a.b.c.in. d.quãtũ qs er ſingulis in illũ. d.ſic cin.c. z in.f.ey cõpoſito oũt boui .b.c.in quelibet illoy. d.e.f.pante pmiſſa fit quãtũ cr cõpoſito in cõpolitui. iray conſtat ppoſitũ.
-
-¶ Humero in quotlibet pres oiniſo: tantũ eſt qo fit er
-
-[Diagram]
-
-toto eo in ſe: quantui qo ey eo in omnes ſnas ptes.
-
-¶ Jde pponir ſcoa ſe cundi de lineis. vt ſi. a.oinidat in. b.z.c.. d.oico ob iantum fit ey. a.in ſe quantũ in oẽs illos.b.c.d. poſito eni.e. equall.a. conſtat er prima bay incidentiũ tm fieri ez.e.in.a. quãtui in oẽs ptes. a. ſed p cõcept.er.e. in. a. fit quãtum cy.a.in ſe. ter. e in ptes. a, quãtũ er. a.in eaſdẽ. Dl Ianifeſtũ ergo ẽ vey eſſe qo oicit.
-
-¶ Humero in ouo diniſo qo fit ex toto in alterum dinidentium- tm̃ eſt quantũ qo er eodem in ſe z in alterum.
-
-¶ Jdem proponit tertia ſcoi oc lincis. Sit eni. a biuiſus in.b.z.c. oico uiñ fieri ey. a.in.c, quãtui ey.c.in ſe. cin.b. Iamqoer. a.i.c. ẽ quãtũ qo er. c.in.a. p.ix.ſeptimi. ſumpto irags.d.cquali.c.erit. a.in.c. quantum d.in. a. At per primã baru. d.in.a.é quantũ in. b.2.c.q ergo.d.in.a. ci.b.2.i.c.ẽ quantuin.c.in. a.c in. b in ſe propter cqualiraten.c.2 d conſtat propoſirum.
+[Diagram: a horizontal segment with labels b, a and c, and below it a shorter segment labelled d]

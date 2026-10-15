@@ -1,27 +1,45 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: V -->
 
-cordas ſubtractas ſingulis arcubus zbabcbo intentum. lF Erplicit liber quartus incipit liber quintus.
+cordas ſubtractas ſingulis arcubus ⁊ habebo intentum. ¶ Explicit liber quartus incipit liber quintus.
 
 ## Diffinitio .1.
 
-{dropcap:[illegible]|lines=10|style=decorated}Ars eſt quantitas quantitatis minoz maio? ris cum minoz maiozem numeret.
+{dropcap:P|lines=9|style=decorated|decoration="foliate white-on-black woodcut initial"}Ars eſt quantitas quantitatis minor maioris cum minor maiorem numeret.
 
-[Diagram]
+¶Pars quãdoqʒ ſumitur proprie:⁊ hec eſt q̃ aliquotiens ſumpta ſuum totum preciſe conſtituit:ſine diminutione vel augmento:⁊ dicitur ſuum totum numerare per illum numerum ſm̃ quẽ ſumitur ad ipſi⁹ totius conſtitutionẽ:talem autem partem quã multiplicatiuã dicimus hic diffinit.¶Quãdoqʒ ſumitur cõmuniter ⁊ hec eſt quelibet quantitas minor q̃ quotienſcũqʒ ſũpta ſuo toto min⁹ aut maius conſtituit. quã aggregatiuã dicimus:eo ꝙ cum alia quantitate diuerſa totum ſuũ cõſtituat:ꝑ ſe aũt quotienſcũqʒ ſumpta fuerit non producat.
 
-¶ Pars quãdooz ſumitur proprie: a bec eſt q̃ aliquo uens ſumpra ſuum torum preciſe conſtituit: line oiꝰ minutionc vel augmento: z oicitur ſuum totum nu¬ lmerare per illum numerum bm quẽ ſumtur ad ipſi' totius conſtitutionẽ: ralcm autem partem quã muilti plicaruã oicimus bic oiffinit.
-
-¶ Duãdooz ſumirur cõmuniter z bec eſt quelibet quantiras minor q̃ quo tienſcũqs ſũpta ſuo roro minꝰ aut mains conſtituit. l quã aggregatiuã oicimus: co ꝙ cum alia quantirate L oincrſa totum ſuũ cõſtiruat:ꝑ ſe aũt quorienſcũoz ſumpra fucrit non producat.
+[Handwritten]
+pars multiplicatiua
+pars aggregatiua
+[/Handwritten]
 
 ## Diffinitio .2.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mltipler eſt maioz minoris quando eaz minoz metitur.
+{dropcap:M|lines=5|style=decorated|decoration="foliate white-on-black woodcut initial"}Vltiplex eſt maior minoris quando eaʒ minor metitur.
 
-¶ Pars rclatiue oicitur ad toruz: z in iſtis ouobus ertremis conſi ſtit coruz admuicẽ relatio: c ideo oiffinito minon eytremo oiflinit bic maius: vocat autcz ipſum mul iplcr propter boc ꝙ minus ipſũ I aliquotiens ſumptuz conſtitat:crnt igitur rclarinc oicta adinui, ce:pars zmultiplez. Iã oninis par ſubmultipler: vt paicr per cius oiffinitionẽ.
+¶Pars relatiue dicitur ad totuʒ:⁊ in iſtis duobus extremis conſiſtit eoruʒ adinuicẽ relatio:⁊ ideo diffinito minori extremo diffinit hic maius:vocat auteʒ ipſum multiplex propter hoc ꝙ minus ipſũ aliquotiens ſumptuʒ conſtituat:erunt igitur relatiue dicta adinuicẽ:pars ⁊ multiplex. Nã omnis pars ſubmultiplex:vt patet per eius diffinitionẽ.
 
-## Diffinito 3.
+## Diffinitio .3.
 
-{dropcap:[illegible]|lines=5|style=decorated}Roportio eſt ouarum quantecunq; ſint cinſdem generis quantitatum certa alterins ad alteram babitudo. d Proportio eſt babitudo ouarm rcrum cinſdem generis adini? cem in co q caruz altera maior aut minor eſt rcliqua vel ſibi cqua? Ius. Ilon enun ſoiuz in quantitatibus reperitur proportio.ſedi põr dcribus: porentijs ct ſonis. Jn ponderibus quidẽ z poicujs vult plaroi ibimeo eſſc propotione. vbi ccmnentouum numcrũ oſtendit:in ſonis autem dle proport tioncin liquet cr muſica. Ilam vt vult Soccius in quaro ſi quiliber nerus in ou as incqualcs partes oinidatur. crit ipſary pariu ſuommay ſonoy caden couer Io modo proportio. &y in quibuſcunqs proporrio reperitur, ca parriopant naiu? rã ppricratẽoy quãtiratio: nõ cnim repcrtur in aliqubus rebns ouabus nis in co ꝙ caruin vna eſt rcliqua maior aut minor. aut ſibi cqualis.
+{dropcap:P|lines=4|style=decorated|decoration="foliate white-on-black woodcut initial"}Roportio eſt duarum quantecunqʒ ſint eiuſdem generis quantitatum certa alterius ad alteram habitudo.
 
-¶ Ouantiratis autem pvuum eſt fin ipſam cquale vd incquale oic. vt vult Arſto. in predicameus, vny dc liquct pportione pumo in quantirate rcpcriri.z per ipſam in omnibus alie Dee eſcin aliquib' reous propontione cui ſimlis no fit in a’iquibns quantitati Iy croobenc oint cucuidco ppouone ſimpliorer eſcin quantiote com ca pifi nuit per babitudinem ouari quantiratũ cuſdemn generis adinuicon
+¶Proportio eſt habitudo duarum rerum eiuſdem generis adinuicem in eo ꝙ earuʒ altera maior aut minor eſt reliqua vel ſibi equalis. Non enim ſoluʒ in quantitatibus reperitur proportio.ſed ī põderibus:potentijs et ſonis. In ponderibus quidẽ ⁊ potẽtijs vult plato ī thimeo eſſe proportionẽ:vbi elementorum numerũ oſtendit:in ſonis autem eſſe proportionem liquet ex muſica. Nam vt vult Boecius in quarto ſi quilibet neruus in duas inequales partes diuidatur.erit ipſaruʒ partiũ ſuorumqʒ ſonoꝝ:eadem cõuerſo modo proportio. Sʒ in quibuſcunqʒ proportio reperitur:ea participant naturã ꝓprietatẽqʒ quãtitatis:nõ enim reperitur in aliquibus rebus duabus niſi in eo ꝙ earum vna eſt reliqua maior aut minor.aut ſibi equalis.¶Quantitatis autem ꝓprium eſt ſm̃ ipſam equale vel inequale dici.vt vult Ariſto.in predicamẽtis.vnde liquet ꝓportionẽ primo in quantitate reperiri.⁊ per ipſam in omnibus alijs Nec eſſe in aliquib⁹ rebus proportionẽ cui ſimilis nõ ſit in aliquibus quantitatib⁹ ꝓpter qd̃ bene dixit euclides ꝓportionẽ ſimpliciter eſſe in quantitate cum eã diffiniuit per habitudinem duarũ quantitatũ eiuſdem generis adinuicem ¶Cui⁹ diffinitionis intellectus ẽ:ꝙ proportio ẽ habitudo duarum quantitatum adinuicem que attenditur in eo ꝙ vna earum eſt maior aut minor alia vel ſibi equalis:ꝑ qd̃ patet ꝙ oportet eas eſſe eiuſdem generis:vt duos numeros:aut duas lineas:aut duas ſuperficies:aut duo corꝑa:aut duo loca:aut duo tempora. Non eniʒ poteſt
 
-¶ Lulꝰ oif finitionis intcllecrus e: ꝙ proporrio ẽbabirudo ouarum quantiratum adinmicem que attenditur in co q vna carum eſt maior aur minor alia vel ſibi equalis :pqo patct q opoitet eas ele ciuſdem gencris: vt euos numeros: aut ouas lincas: aut ouas ſuperficies: aur euo cora: aut ouo loca: aut euo tempon. Ilon ents p oteſt d 3
+[Handwritten]
+[unclear: proportiones muſicales]
+[unclear: Dupla dat dyapaſon]
+[unclear: Seſqualtera dyapente]
+[unclear: Seſquitertia dyateſſeron]
+[unclear: dyapente et dyapaſon compoſite triplam]
+[/Handwritten]
+
+[Handwritten]
+[unclear: proportio denominatur]
+[illegible: 5 lines]
+[/Handwritten]
+
+[Handwritten]
+[illegible: 2 lines]
+[/Handwritten]
+
+<!-- Signature: d 3 -->

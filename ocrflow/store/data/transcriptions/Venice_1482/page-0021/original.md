@@ -1,37 +1,14 @@
-[Diagram]
+linee.a.d.conſtituo angulũ.e.a.d.ꝑ doctrinã.23.equalem angulo.b.d.a.ſibi coalterno:eritqʒ.a.e.equidiſtãs.b.c.ꝑ.27.quod eſt ꝓpoſitum.
 
-[Diagram]
+## Propoſitio .32.
 
-[Diagram]
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis trianguli angulus extrinſecus duobus intrinſecis ſibi oppoſitis eſt equalis: Omnes autẽ tres angulos eius duobus rectis angulis equos eſſe neceſſe eſt.
 
-[Diagram]
+¶Sit triangulus a.b.c.cuius lat⁹.b.c.ꝓtrahaᷣ vſqʒ ad.d.dico ꝙ angulus.c.extrinſecus ẽ eq̃lis duob⁹ angulis.a.⁊.b.intrinſecis ſibi oppoſitis ſil' iũctis:⁊ ꝙ tres anguli trianguli.a.b.c.ſil' iuncti ſũt eq̃les duob⁹ rectis. A puncto.c.ꝓtraham.c.f.eq̃diſtantẽ.a.b.ſm̃ doctrinã p̃cedẽtis: eritqʒ angul⁹.f.c.a.eq̃lis angulo.a.qꝛ ſũt coalterni ꝑ p̃mã ptẽ.29.⁊ angulus.f.c.d.extrinſec⁹eq̃lis angulo.b.intrinſeco ꝑ ſcðam ptem eiuſdẽ:q̃re tot⁹.a.c.d.extrinſec⁹ẽ equal' duob⁹ angulis.a.⁊.b.intrinſecis ſibi oppoſitis:qð ẽ p̃mũ.⁊ qꝛ duo anguli.a.c.b.⁊.a.c.d.ſũt eq̃les duob⁹rectis ꝑ.13.erũt tres anguli.a.b.⁊.c.intriſeci eq̃les duob⁹rectis: qð ẽ ſcðm ꝓpoſitũ. ¶Ex hac aũt pʒ ꝙ ois figure poligonie oẽs anguli ſil' ſumpti tot rectis angulis ſũt eq̃les quot⁹ẽ nũer⁹ quo a p̃ma deſtiterit duplicat⁹: vbi gr̃a Poligoniarũ figurarũ ẽ triangula p̃ma:qꝛ ſi eſſʒ duaꝝ lineaꝝ:cũ figura ſit clauſio linearũ:tunc due linee recte includerent ſupficiẽ qð ẽ ipoſſibile ꝑ vltimã petitionẽ Quadrilatera ſcða:penthagona 3ᵃ.ſil'r aũt q̃libet tota erit i oꝛdĩe quotus erit numer⁹ laterũ aut anguloꝝ ei⁹inde dempto binario. Dico g̃ ꝙ triãgule q̃ ẽ p̃ma oẽs anguli ſũt eq̃les duob⁹rectis. Quadrilatere q̃ ẽ ſcða erũt eq̃lis q̃tuoꝛ rectis ⁊ penthagone q̃ ẽ t̃tia erũt eq̃les ſex rectis. hoc aũt inde manifeſtũ ẽ qm̃ cũ q̃libet talis figura ſit in tot triangulos reſolubilis quota ipſa fuerit a pꝛima ductis rectilineis a quouis anguloꝝ eius ad oẽs angulos oppoſitos:ſintqʒ oẽs anguli ois trianguli duobus rectis eq̃les erũt oẽs laterate figure oẽs ãguli bis tot rectis equales quota ipſa fuerit a p̃ma:quod ẽ ꝓpoſitũ. Sit.n.exẽpli gr̃a: Penthagon⁹.a.b.c.d.e.a cuius angulo.a.ducã lineas ad angulos.c.d.ſibi oppoſitos:eritqʒ tot⁹ penthagon⁹ reſolutus in triangulos.a.b.c.a.c.d.⁊.a.d.e.quoꝝ cũ cuiuſlibet ſint anguli eq̃les duob⁹rectis erũt penthagoni anguli eq̃les ſex rectis:qð ẽ duplũ ei⁹nũeri quo a p̃ma diſtat ſiue duplum numeri angulorum aut laterum ei⁹ inde dempto binario. ¶Poſſum⁹ quoqʒ ⁊ ſic idẽ ꝓponẽ dicentes ꝙ ois figure poligonie oẽs anguli pariter accepti ſũt tot rectis angulis eq̃les q̃tus eſt numer⁹quẽ ei⁹anguli duplicant inde dẽptis q̃tuoꝛ.pũcto.n.quolibet intra figurã ſignato ⁊ ab eo ad ſingulos ãgulos lineis ꝓtractis erit ipſa figura in tot angulos reſoluta quãti fuerit ei⁹ anguli: iõ qʒ oẽs anguli oium illoꝝ trianguloꝝ piter accepti tot rectis angulis erũt eq̃les quãtus ẽ numer⁹quẽ duplicãt anguli ꝓpoſite figure:cũ itaqʒ ſint oẽs anguli trianguloꝝ in quos ipſa reſoluta ẽ pũctuʒ mediũ circũſtãtes q̃tuoꝛ rectis equales ꝑ.13. manifeſtũ conſtat ꝓpoſitũ.¶Similit̃ quoqʒ pʒ ꝙ ois figure poligonie anguli oẽs extrinſeci q̃tuoꝛ rectis angulis ſũt eq̃les:ſũt eni ĩtrinſeci ⁊ extriſeci ⁊ bis tot rectis eq̃les quot hũerint angulos per.13. Intrinſeci ãt ſũt bis tot rectis eq̃les quot hũerit ãgl'os demptis inde q̃tuoꝛ:g̃ extrinſeci ſunt q̃tuoꝛ rectis equales:qð ẽ ꝓpoſitũ. Exempli gratia:ꝓpoſiti penthagoni latera ꝓtrahantur vt fiant anguli extrinſeci a.b.quidẽ ꝓtrahaᷣ vſqʒ ad.f. b.c.vſqʒ ad.g.c.d.vſqʒ ad.h. d.e. vſqʒ ad.k.e.a. vſqʒ ad.l.eruntqʒ per.13. duo anguli.a. intrinſecus ⁊.a. extrinſecus equales duobus rectis:eadem autem ratione duo anguli.b.intrinſecus.⁊.b.extrinſecus:ſic et
 
-[Diagram]
-
-lince. a.d. conſtituo angului.c. a.d. p boctrinã. 23. cqualem angulo. b. d.a. ſibi coal terno:critq.a.e,cquidiſtãs. b.c.p.27 quod eſt ppoſitum.
-
-## Propoſitio.32.
-
-{dropcap:[illegible]|lines=5|style=decorated}Mnis trianguli angnlus ertrinſecus ouobus intrinſecis ſibi oppoſitis eſt equalis: Dmnes autẽ tres angulos eius ouobus rectis augulis equos eſſe neceſle eſt.
-
-¶Oit triangulns a.b.c. cuius lat?.c. ptrabat vſoy ad. d.oico q an gulus.c. eytrinſecus ẽ cq̃lis cuobꝰ angulis. a. t. b.intrinſecie ſibi op poſitis ſil iũctis:z ꝙ tres anguli trianguli. a. b.c. ſil iuncti ſũt eq̃les ouobꝰ rcctis. A puncto. c. ptrabam. c.f. eqdiſtante, a. b.bm ooctrina pcedẽtis: eritoy angulꝰ f. ca. cq̃lis angulo.a.q ſũt coalterni p pmã pré. ap angulus.f.c. d. eytrinlec'eq̃lis angulo. b. intrinſeco p ſcoam prem ciuſde: qre torꝰ.a.c.d.ertrinſecẽ equal ouobꝰ angulis. a. 1.b. intrinſecis ſibi oppoſitis: qo ẽ pmũ. qr ouo angnli.a.c.b.1.a.c. d. ſũt cq̃les ouob' rectis p.iz, erũt tres angnli. a. b. 2.c.intriſeci eq̃les ouobꝰ rectio: q e ſcom ppoſitii.
-
-¶Er bac aũt pz ꝙ ois figure poligonie oẽs anguli ſil ſumpti tot rectis angulis ſũt cõlcs quotꝰẽ nũerꝰ quo a pma peſtiterit ouplicatꝰ: vbi gra Poligoniarũ figurarũ ctriangula pma: qu li eſlz ouay lineay: cũ figura ſit clauſio lincarui: tunc oue lince recte incuderent ſupficié qu e ipolſibile p pitimã peritionẽ Ouadrilatera ſcoa:penrbagona zꝰ. ſilr aut q̃lbet tota erit i ordie quotus erit nu
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-merꝰ laterũ aut anguloy ei inde oempto binario. Dico si ꝙ triãgule q̃ e pma oẽs angnli ſũt cqles ouob rectis. Ouadrilaterc q̃ ẽ ſcoa crũt cq̃lis q̃tuor rectis z pen? thagone q̃ cltia erũt eq̃les ſey rectis. hoc aũt inde manifeſtũ ẽ qm̃ cũ q̃ubet ralis bigura ſit in tot trianguios resolubilis quota ipſa fuerit a prima ouctis rectilincis a quouis anguloy euus ad oẽs angulos oppoſitos: ſintqy oẽs anguli ois trianguli ouobus rectis cq̃les crũt oẽs laterate figure oẽs ãguli bis tot rectis cquales quora ipſa fuerit a pma: quod e ppoſitũ. Sit. n.erẽpli gra: Pentbagonꝰ. a.b.c.d.e. a cu ins angulo. a. oncã lineas ad angulos. c. d. fibi oppoſitos: eritoz torꝰ pentbagon reſolutus in triangulos. a.b.c.a.c. d.2.a. d.e. quoy cũ cuiuſſibet ſint anguli eqles ouobꝰ rectis crũt pentbagoni anguli eq̃lcs ſey rectis: qb ẽ ouplũ ciꝰ nũeri quo a p̃ ma oiſtat ſiue ouplum numeri angulorum aut latcrum elꝰ inde bempto binario.
-
-¶ Poſſum? quouy z ſic idé xponẽ oiccntes q ois figure poligonic oẽs anguli pa riter accepti ſũt tot rectis angulis cq̃les qtus eſt numer?quẽ ciꝰanguli ouplicant inde oẽptis q̃tuor. pũcto.n. quolibet intra figurã ſignate z ab co ad ſingulos ãgu los lineis ptractis erit ipſa figura in tot angulos reſoluta quãti fucrit ciꝰ anguli:
-
-[Diagram]
-
-iõ g oẽs anguli oium illoy trianguloy piter accepti tor rectis angulis crũt eqles quatus e numer?quẽ ouplicãt anguli ppolite figure: cũ iraqz ſint oẽs anguli trian guloy in quos ipſa reſoluta ẽ pũctuz mediũ circũſtãtes q̃tuor rectis cquales p.iz. manifeſtũ conſtat ppoſitũ.
-
-¶ Simlil quoz pz ꝙ ois figure poligonie anguli oẽs crtrinſeci q̃tuor rectis angulis ſũt cq̃les: ſũt eni itrinſeci z extriſeci z bis tot rectis eqles quot bũerint angulos pcr. iz. Intrinſeci ãt ſũt bis tot rectis cq̃les quot bũc, rit ãglos oemptis inde q̃tuor: S ertrinſcci ſunt q̃tuor rectis equales: qo ẽ ppoſitũ. Erempli gratia: ppoſiti pentbagoni latcra ptrabantur vt fiant anguli ertrinſcci a.b, quidẽ ptrabai vſoz ad.f. b.c. vſz ad.g.c.d.vſyad.h. d.e. vſoy ad. l.c.a. vſqy ad.l. cruntoz per.iz. ouo anguli. a. intrinſecus z. a. extrinſecus cquales ouo busicctio: cudem autem ratione duo auguli.b.intunſequs.2. b. crtrinſecus:ſic er
+[Margin]
+[Diagram: triangle with apex a and base b.c, the base extended rightward to d, with a line drawn from c up to f parallel to b.a]
+[Diagram: square with corners a and b at top, c and d at bottom, with a diagonal drawn from c to b]
+[Diagram: pentagon a.b.c.d.e with lines drawn from angle a to angles c and d, its sides extended beyond the vertices to points f, g, h, k and l]
+[Diagram: octagon with diagonals joining opposite vertices through the centre]
+[/Margin]

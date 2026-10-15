@@ -1,35 +1,57 @@
-d.b.a. ps toti:quod e ipoffibile:filr lineã.c.b. ꝓtractã pbabis angulii d.b.a.eſſe
+d.b.a.ꝑs toti:quod ẽ ipoſſibile:ſiłr lineã.c.b.ꝓtractã ꝓbabis angulũ d.b.a.eſſe eq̃lem angulo.f.b.a.ſi forte diceret aduerſari⁹lineã.c.b.ꝓtractã cadere ifra.b.d.
 
-[Diagram]
+## Propoſitio. 15.
 
-[Diagram]
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnium duarũ linearum ſe inuicẽ ſecãtiũ:oẽs anguli cõtra ſe poſiti ſũt eq̃les:vnde manifeſtũ eſt ꝙ cũ due linee recte ſe iuicẽ ſecãt q̃tuoꝛ q̃ fiũt ãgulos q̃tuoꝛ rectis eẽ eq̃les
 
-cqlem angulo. f.ba.ſi fonte ticerct adnerſan’iincã.c.b, ptractã cadere ifra. b.d.
+¶Sint due linee.a.b.⁊.c.d.ſe iuicẽ ſecãtes i pũcto.e.dico ꝙ angul⁹d.e.b.eſt eq̃lis angulo.a.e.c.⁊ angulus.b.e.c.ẽ eq̃lis angulo.a.e.d.Erũt.n.ꝑ.13.duo anguli.a.e.c.⁊.c.e.b.eq̃les duob⁹rectis:itẽqʒ duo anguli.c.e.b.⁊.d.e.b.eq̃les duobus rectis ꝑ eandẽ:q̃re duo p̃mi ſt̃ eq̃les duob⁹poſtremis eo ꝙ oẽs recti ſũt ad inuicẽ equales ꝑ.4.petitionẽ:dempto ergo cõi angulo q̃ ẽ.c.e.b.erit angulus.a.e.c.eq̃lis angulo.d.e.b.Eodẽ mõ ꝓbabiᷣ anguluʒ.c.e.b.eẽ eq̃leʒ angulo.a.e.d.qð ẽ ꝓpoſitũ.
 
-## Propoſitio i5.
+[Margin]
+[Diagram: two lines a.b and c.d crossing at point e]
+[/Margin]
 
-{dropcap:[illegible]|lines=5|style=decorated}Onium onaru linearum ſe inuice ſecãtiũ: oẽs anguli cõ tra ſe poſiti ſũt e qles: vnde manifeſtu eſt ꝙ cũ oue linee precte ſe iuice ſecãt qtuoz q fiũt ãgulol q̃tuon rectil eẽ eq̃les ( Oint oue lince. a. b.2.c. d. ſe iuice ſecãtesi pucto.c.oico ꝙ angul' d.e.b.eſt cõlis angulo.a. c.c. z angulus. b. e. c.ẽ cq̃lis angulo. a.c.d. Eruit.n. p.iz ouo anguli.a.e.c.2.c.e. b.eqles onobꝰrectis:itéoz ouo anguli.c.e.b. .d.e. b.cq̃les ouobus rectis p candẽ: q̃re ouo pmi ſt eqles ouobꝰ poſtremis eo q oës recri ſũt ad inuice equales p 4-peritione: dempro ergo cõi angulo q ẽc.e.b. crit angnlus. a.e.c.cq̃lis angulo. d.e. b. Fodẽ mõ pbabit anguluy. c.c.b.cẽ eq̃lez angulo,a.c. d.qbé ppoſitũ. Propoſitio io
+## Propoſitio 16
 
-## [illegible]
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I quodlibet laterũ trianguli directe ꝓtrahaᷣ faciet angulum extrinſecum vtroqʒ angulo trianguli ſibi intrinſecus oppoſito maiorem.
 
-[Diagram]
+¶Sit vt trianguli.a.b.c.latus.a.b.ꝓtrahaᷣ vſqʒ ad.d.dico ꝙ angulus.d.b.c.maioꝛ ẽ vtroqʒ duoꝝ anguloꝝ itrinſecoꝝ ſibi oppoſitorũ q̃ ſũt.b.a.c.⁊.b.c.a.diuidã.n.ꝑ.10.lineã.c.b.ꝑ eq̃lia in pũcto.e.⁊ ꝓtrahã.a.e.vſqʒ ad.f.ita vt.e.f.fiat eq̃lis.a.e.⁊ ꝓtrahã lineã.f.b.intelligo duos triangulos c.e.a.⁊.b.e.f.⁊ qꝛ duo latera.a.e.⁊.e.c.trianguli.a.e.c.ſũt eq̃lia duobus laterib⁹ f.e.⁊.e.b.trianguli.f.e.b.⁊ angulus.e.vnius ẽ eq̃lis angulo.e.alteri⁹ꝑ p̃miſſã q̃a ſũt anguli ꝯpoſiti:erit ꝑ.4.angul⁹.e.c.a.eq̃lis angulo.e.b.f.⁊ iõ angulus.e.b.d.maioꝛ erit angulo.b.c.a.Siłr quoqʒ ꝓbabitur ꝙ eſt maioꝛ angulo.c.a.b.naʒ diuidam.a.b.ꝑ eq̃lia in pũcto.g.ꝑ.10.⁊ ꝓtrahaʒ lineã.g.h.equalẽ linee.c.g.ꝑ.3.poſtea ꝓtrahã.b.h.k.erũtqʒ duoꝝ triãguloꝝ q̃ ſũt.a.g.c.⁊.b.g.h.duo latera.a.g.⁊ g.c.p̃mi eq̃lia duob⁹laterib⁹.b.g.⁊.b.h.ſcði:⁊ angulus.g.vni⁹angulo.g.alteri⁹ꝑ 15.ergo ꝑ.4.angulus.g.c.a.eſt eq̃lis angulo.g.b.h.q̃re ꝑ.15.⁊ angulo.k.b.d ⁊ qꝛ angulus.c.b.d.ẽ maioꝛ angulo.k.b.d.erit etiã maioꝛ ãgulo.b.a.c.qð ẽ ꝓpoſitũ.
 
-J quodlibet latéru trianguli pirecte ptrabat faciet angu {dropcap:[illegible]|lines=5|style=decorated}Ium eytrinſecum vtroqz angulo trianguli ſibi intrinſecns oppoſito maiorem.
+[Margin]
+[Diagram: triangle a.b.c with apex b, side a.b extended to d, lines through medial points g and e extended to h, k and f]
+[/Margin]
 
-¶Sit vt trianguli.a.b.c latus. a. b. ptrabai vſy ad.d. oico ꝙ angu lus. d.b. c.maior ẽ vtrooz ouoy angnloy itrinſecoy ſibi oppoſito? rĩ q ſũt. b. a. c.z.b.c.a. oiuidã.n.p.io. lineã.c. b. p eq̃lia in pũcto.e.z ꝓtrabã.a.c. vſqy ad.f.ita vt.c.f. fiat eq̃lis. a.c. z ptrabã lincã. f. b. intelligo ouos rriangulos C.e.a. 2.b.e. f.zqr ouo latcra. a.c.2.e.c.trianguli. a.e. c. ſũt cqlia ouobus laterib? f.e.2.e.b. trianguli.f.e.b. z angulus. e. vnins ẽ cq̃lis angulo. c. alteri? p p̃milſã qa fũt anguli Spoſitit erit p.a angulꝰ. c.c. a. eqlis angulo.e. b. f.⁊ iõ angulus.e.b. d. maior crit angulo.b.c.a. Oilr quoaz pbabitur ꝙ eſt maior angulo. c.a.b. naz oiui dam. a. b. p eq̃lia in pũcto.g.p.io. z ꝓtrabaz lineã.g.h. cqualẽ lince. c. g.D.3- po! ſtea ptrabã.b. b.l. crũty ouoy triãguloy q ſũt.a.8.C.2.b.6.b. ouo latera.a.g.4 S.c.pmi cq̃lia ouobꝰ lateribꝰ b.8.2. b. b. ſcoi:z angulus. g-vniꝰangulo.g-alteriꝰ p i5. crgo p.4.angulus. g.c.a. eſt eq̃lis angulo.g.b.h. qre p.i. T angulo.l.b. d cq1 angulns. c.b. d.ẽ maior angulo. R.b. d.erit ctiã maior ãgulo.b.a.c.qb ẽ ppoſitũ.
+[Handwritten]
+[unclear: g a c]
+[/Handwritten]
 
-## Mropoſitio. i7.
+## Propoſitio .17.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mnis triãguli ouo qlibet ãgnli ouob? rectis ſũt miores.
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis triãguli duo q̃libet ãguli duob⁹rectis ſũt mioꝛes.
 
-¶ Sit triangulus. a.b.c. oico ꝙ ouo qlibet eiꝰ anguli ouobꝰrectis ſũt minorcs: ptrabai. n.-vnũ latus eins vr. b.c. vſz ad. d. critoz ppce) dentẽ angulus. c. eytrinſecus maior. a.z maior. b. ſ3.c. extrinſcc? cum lc.intrinſeco ẽ cq̃lis ouobus rectis p.iz, g anguli. b. z.c.intrinſcci ſiue anguli. a.z. c.intrinſeci ſũt minores ouobus rectis: ſilr ſi ptrabat latus. b. a.ꝓba bit ꝙ ouo anguli.a.2. b. ſunt minores ouobus rectis: quod ẽ ppolitũ.
+¶Sit triangulus.a.b.c.dico ꝙ duo q̃libet ei⁹anguli duob⁹rectis ſũt minoꝛes:ꝓtrahaᷣ.n.vnũ latus eius vt.b.c.vſqʒ ad.d.eritqʒ ꝑ p̃cedentẽ angulus.c.extrinſecus maioꝛ.a.⁊ maioꝛ.b.ſʒ.c.extrinſec⁹cum c.intrinſeco ẽ eq̃lis duobus rectis ꝑ.13.g̃ anguli.b.⁊.c.intrinſeci ſiue anguli.a.⁊.c.intrinſeci ſũt minoꝛes duobus rectis:ſiłr ſi ꝓtrahaᷣ latus.b.a.ꝓbabiᷣ ꝙ duo anguli.a.⁊.b.ſunt minoꝛes duobus rectis:quod ẽ ꝓpoſitũ.
 
-## Iropoſitio.is.
+[Margin]
+[Diagram: triangle with base d.c.b and apex a, side b.a extended to e]
+[/Margin]
 
-{dropcap:[illegible]|lines=5|style=decorated}Mmis trianguli lõgins latꝰ maiori angulo oppoſitũ eſt.
+## Propoſitio .18.
 
-¶ Sit vtai fangulo. a.b.c. ãgul a. ſit maior ãgulo. c. oico ꝙ lat? c.b. maior erit latere. a.b. Si.n.ſit cõle crit p.s-ãgulꝰa.eq̃l angulo.c.q6 ẽ S ypotbeſym: ſi aũt. a.b. ſit mai reſccet ad cõlitatẽ. c. b.p.3. ſitoz. d b.eqle. c.b.erit g̃p.5. ãgulꝰd.c.b.eq̃l anglo. b. d.c.ſ3.b.d.cẽmaior ãgulo.b.a.c.p.is. f5. b.c.dẽ maior. b. a.c. qre mlio foutl maior.a.cb. ps toto:qo
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis trianguli lõgius lat⁹maioꝛi angulo oppoſitũ eſt.
 
-## Propoſitio i9¬
+¶Sit vt̃ [unclear: ĩ triãgulo].a.b.c.ãgul⁹.a.ſit maioꝛ ãgulo.c.dico ꝙ lat⁹.c.b.maioꝛ erit latere.a.b.Si.n.ſit eq̃le erit ꝑ.5.ãgul⁹a.eq̃l' angulo.c.qð ẽ ꝯ ypotheſym:ſi aũt.a.b.ſit mai⁹reſeceᷣ ad eq̃litatẽ.c.b.ꝑ.3.ſitqʒ.d b.eq̃le.c.b.erit g̃ ꝑ.5.ãgul⁹d.c.b.eq̃l' angl'o.b.d.c.ſʒ.b.d.c.ẽ maioꝛ ãgulo.b.a.c.ꝑ.16.g̃.b.c.d.ẽ maioꝛ.b.a.c.q̃re ml'to foꝛti⁹maioꝛ.a.c.b.ꝑs toto:qð ẽ ipoſſibile.
 
-e ipoſſibile. lpeſ e li pnn li voter opele lspii
+[Margin]
+[Diagram: triangle b.c.a with apex c and a line from c to point d on the base]
+[/Margin]
+
+## Propoſitio 19.
+
+[Handwritten]
+Ex greco
+
+18 — Longius latus cuiuslibet trianguli maiori angulo ſubtenditur
+
+[illegible]
+
+[Diagram: small handwritten triangle with labels a and e]
+[/Handwritten]

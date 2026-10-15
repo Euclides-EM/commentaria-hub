@@ -1,29 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: XI -->
 
-auadrilatere oẽs anguli ſunt cquales quatuor rectis cy.32. primi:neceſſe ẽ ouos re liquos vnins eſle cqualcs ouobus rcliquis ſue relatiue. cumaz ipſi oyo reliqui in
+quadrilatere oẽs anguli ſunt equales quatuor rectis ex.32.primi:neceſſe ẽ duos reliquos vnius eſſe equales duobus reliquis ſue relatiue.cumqʒ ipſi duo reliqui in qualibet ſint etiã adinuicẽ equales cõuincitur neceſſario vt vnaq̃qʒ ex ſupficiebus ſolidi.a.d.ſit equiangula ſue relatiue ĩ ſolido.b.c.quare ex ſcꝺa pte.13.ſexti baſes duoꝝ ſolidoꝝ ꝓpoſitoꝝ erunt eq̃les.ſũt eni equiangule ⁊ laterũ mutuoꝝ.Si itaqʒ linee altitudinũ ſuper baſes ipſoꝝ orthogonaliter inſiſtunt conſtat ex.31.ipſa eſſe equalia.cũ eni hee linee ſint equales ⁊ ipſe determinent altitudinẽ ſolidorũ erunt ſolida eque alta.At ſi linee altitudinũ ipſorũ nõ inſiſtunt ſuis baſibus orthogonaliter ab ipſaꝝ ſũmitatibus ad baſes perpendicularibus demiſſis erunt ex p̃miſſa hee ppendiculares adinuicẽ equales ipſe eni erũt ſicut erant ⁊ in premiſſe demonſtrationis figura due linee.p.q.⁊.l.n.quas demoſtrauimus oportere eẽ equales. Quia igiť omniũ ſolidoꝝ altitudo ex ppendicularibus a ſũmitatib⁹ ipſoꝝ ad ſuas baſes deſcẽdẽtib⁹ diffiniť erũt ex.32.duo ſolida.a.d.⁊.c.b.equalia. Cõuerſa quoqʒ huius poſſumus ſi delectat cõuerſo mõ ꝓbare vt ſi palellogramũ corpus.a.d.ſit equale ⁊ equiangulũ corpori palellogramo.b.c.⁊ corpus.b.c.cõtineať a media triũ linearũ cõtinentiũ corpus.a.d.erunt tres linee cõtinẽtes corpus.a.b.cõtinue ꝓportionales.cũ eni duo ſolida palellograma.a.d.⁊.c.b.ſint equalia ⁊ eque alta ex ypotheſi ipſa erũt ſuper baſes equales ꝑ cõuerſas.31.⁊.32.⁊ qꝛ ipſe baſes eorũ ſunt equiangule ſequiť ex prima pte.13.ſexti ꝙ ipſe ſunt mutuorũ laterũ itaqʒ proportio.a.b.ad.b.c.ſicut.b.c.ad.c.d.quare cõſtat propoſitum.
 
-[Diagram]
+[Figure: oblique parallelepiped with corners labelled b, c, b and c]
 
-qualibet ſint etiã adinuicé equales cõnincirur ncceſſario vt vnaq̃y ex ſupficicbus folidi. a. d. ſit equiangnla ſue relatiue i ſolido.b. c. quare ex ſcoa pte.13.ſeyti baſes ouon ſolidoy ꝓpoſitoy erunt eqles. ſũt eni equiangule z latcrũ mutuox. Sl iraoz lince altitudinũ ſuper bales ipſox ortbogonaliter inſiſtunt conſtat er. 31.ipſa eſſe equalia. cũ eni bee lince ſint equales z ipſe oeterminent altitudiné ſolidorũ erunt ſolida eque alta. At ſi lince altirudinũ ipſorũ nõ inſiſtunt ſuis baſibus ortbogoua liter ab ipſax ſũmitatibus ad baſes perpendicularibus oemiſſis erunt ex pmiſſa bee ppendiculares adinuicé equalcs ipſe eni erũt ſicut crant z in premiſſe pemon ? ſtrationis figura oue linee. p. q..l.n. quas oemoſtrauimus oportcre cẽ cquales. Quia igit omniũ ſolidoy altitudo cy ppendicularibus a ſũmiratibꝰ ipſoy ad ſuas baſes oeſcẽdẽribꝰ oiffinit erũt ex.32.ouo ſolida.a.d.2.c.b. cqualia. Lõnerſa quo, ez buius poſſumus ſi oelectat cõuerſo mõ pbare vt ſi palellogramũ coipus. a. d. ſit equale z equiangulũ corpori palcllogramo.b. c.t corous. b.c. cõtincat a media triũ linearũ cõtinentiũ corpus. a. d.erunt tres linee cõtinẽtes corpus.a.b. cõtinue pportionales. cũ eni ouo ſolida palellograma. a. d.z.c.b.ſint equalia z eque alra ex pporbeſi ipſa crũt ſuper baſes equalcs p cõucrlas. 31.2.32. t q iple baſcs eorũ ſunt equiangule ſequit ex prima pte.13.ſerti ꝙ iple ſunt mutuorũ laterũ iraz pro portio.a.b.ad. b.c.ſicut.b. c.ad.c.d.quare cõſtat propoſitum.
+## Propoſitio .39.
 
-## Propoſitio.39.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quotlibet linee ꝓportionales ſolida quoqʒ ſua equidiſtantium atqʒ ſimilium vniuſcuiuſqʒ creationis ſuperficieꝝ erũt ꝓportionalia.ſi vero ſolida equidiſtantiũ atqʒ ſiľium vniuſcuiuſqʒ creatiõis ſupficieꝝ fuerint ꝓportionalia linee quoqʒ a quibus ipſa ſolida continenť erunt ꝓportionales. Siľe ꝓponit vigeſima prima ſexti de ſuperfciebus{printer-error-correction:ſuperficiebus}.
 
-[Diagram]
+¶Sint eni.4.linee.a.b.⁊.c.d.ꝓportiõales ⁊ ſup has fabricenť quatuor ſolida palellograma eiſdẽ noĩbus dicta q̃ ſint exp̃ſſe ſiľia.duobus eni ad libitũ fabricatis ſuper duas lineas.a.⁊.c.cetera ſm p̃cepta.27.cõſtituenda erũt.dico hec.4.ſolida eẽ ꝓportionalia ⁊ ecõuerſo.ſubiunganť eni duabus lineis.a.⁊.b.in continua ꝓportione due:q̃ ſunt.e.⁊.f.quẽadmodũ docet.10.ſexti ex duabus lineis.c.⁊.d.alie due que ſint.g.⁊.h.conſtat igiť ex.36. et ex diffinitione ꝓportionis triplicate que poſita ẽ in principio quinti ⁊ ex hac ypotheſi ꝙ ſolida.a.⁊.b.ſibi inuicem ⁊ ſolida.c.⁊.d.ſibi adinuicẽ ſunt expreſſe ſiľia ꝙ ꝓportio ſolidi.a.ad ſolidũ.b.ẽ ſicut ꝓportio linee.a.ad lineã.f.ſolidi quoqʒ.c.ad ſolidũ.d.ſicut linee.c.ad lineã.h.⁊ quia ꝑ.22.quinti proportio linee.a.ad lineã.f.eſt ſicut linee.c.ad lineã.h.erit ex.11.quinti ſolidũ.a:ad ſolidũ.b.ſicut ſolidũ.c.ad ſolidũ.d.ꝯſtat igitur prima pars. Secunda ſic ſint duo ſolida.a.⁊.b.ſibi adinuicẽ duoqʒ que ſint.c.⁊.d.ſibi adinuicẽ expreſſe ſimilia.Sintqʒ cuncta palellograma ⁊ ponať ꝓportionalia.dico ꝙ linee.a.b.⁊.c.d.ſup q̃s ſũt ꝯſtituta ſũt ꝓportiõales.ſit eni ex.10.ſexti ſicut linea.a.ad lineã.b.ita linea.c.ad lineã.k.⁊ fiat ſm.27.h⁹ ſup lineã.k.ſolidũ exp̃ſſe ſiľe ſolido.d.qꝺ etiaʒ dicať.k.eritqʒ ex diffinitionib⁹ ſiľiuʒ corporũ ⁊ ſiľiuʒ ſupficieꝝ ⁊.20.ſexti corp⁹.k.exp̃ſſe ſiľe corpi.c.iõqʒ ꝑ primã ptẽ huius.39.iã ꝓbataʒ erit ꝓportio ſolidi.a.ad ſolidum.b.ſicut ſolidi.c.ad ſolidum.k.⁊ quia eadem erat ſolidi.c.ad ſolidum.d.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint quotlibet linee pportionales ſolida quoqz ſua equidiſtantium atqz limilium vniulcuinſqz creationis ſu perficiez erũt pportionalia. ſi vero ſolida equidiſtantiũ
+[Figure: two horizontal line segments labelled e and f]
 
-[Diagram]
+[Figure: two cubes labelled a and b]
 
-atqz ſil inm vniuſcuiulqz creatiois iupficie fuerint ppor tionalia linee quoqz a quibus ipſa ſolida continent crunt pportionales. Sil e pponit vigelima prima lerti oe ſuperfciebus. (Oint eni 4 linee. a.b. 2.c.d. pportiõales z ſup bas fabricent quatuor ſolida pa lellograma eiſdẽ noibus oicta q̃ ſint erplle filia.ouobus eni ad liboitũ fabricatis ſu per ouas lineas. a.2.c.cetera bm pcepta. 2 cõſtituenda erũt. bico bcc. 4. ſolida cẽ pportionalia z ecõuerſo. ſubiungant eni ouabus lineis.a. . b. in continua ppor rione oue: q̃ ſunt.e. 2. f. quéadmodũ oocct. io. ſerti ex ouabus lineis. c.z. d.alie oue que ſint.g.2. b. conſtat igit ey. 3. ct cy oiffinitione ppotionis triplicare quc po)
+[Figure: two horizontal line segments labelled g and h]
 
-[Diagram]
+[Figure: two cubes labelled c and d]
 
-[Diagram]
-
-[Diagram]
-
-ſita é in principio quinti z er bac yporbeſi ꝙ ſolida. a.z. b. ſibi inuicem e ſolida.c. z.d.ſibi adinicé ſunt erpreſſe filia ꝙ xportio ſolidi.a. ad ſolidũ.b.ẽ ſicut pportio lince. a. ad lincã. f. folidi quogz. c. ad ſolidũ. d.ſicut lince. c. ad lincã.h. z quia naa¬ quin i proportio linec. a. ad lincã. f.eſt ſicut lince. c.ad lineã.b.erit cr. 11.quinti ſoli di,.a:ad ſolidũ.b. ficut ſolidũ. c.ad ſolidũ. d. oſtat igitur prima pars. Sccunda ſic fint ouo folida.a. . b. ſibi adinuicé ouog; que ſint.c. z.d. ſibi adinuicé erpreſſe ſi? milia. Sintoy cuncta palellograma z ponat pportionalia.oico ꝙ lincc. a.b. t.c.d.
-
-[Diagram]
-
-sup q̃s ſit oltituta ſut pportiõales. ſit eni ey. io ſeyti ſicut linea. a. ad lincã.b.ita inca. cadlinea.k. z fiat bm. ay. bꝰ ſup lueã.h. ſolidũ erplſe ſile ſolido. d. qb etia; oicat. E. eritay er oiffinitionibꝰ filiuz coyporũ z ſiliuz ſupficiey z.2o. ſerti copꝰ l. crplſe ſile corpi.c.iõ ꝑ primã ptẽ buius.39 iã pbata; erit pportio ſolidi.a. ad oidiumn,b.ſicur ſoildi,s ad ſoildumn E. z quis endem crur ſoidi. cadſoidion d¬
+[Figure: rectangular parallelepiped labelled k]

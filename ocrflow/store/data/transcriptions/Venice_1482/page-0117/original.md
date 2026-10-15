@@ -1,31 +1,41 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VII -->
 
-ſiue eadẽ ſiue diuerſe fuerint mimi. nullus numerus numerabit oms.
+ſiue eadẽ ſiue diuerſe fuerint mimi.nullus numerus numerabit om̃s.
 
-[Diagram]
+¶Vt ſi ſint.a.b.c.minimi in ꝯtinuatione ſuaꝝ proportionũ:dico ꝙ nullus numerabit omnes.Sin autem numeret eos.d.a.quidẽ.ſm̃.e.b.vero ſm̃.f.⁊.c.ſm̃.g.eritqʒ ꝑ.18.e.ad.f.ſicut.a.ad.b.⁊.f.ad.g.ſicut.b.ad.c.qr ergo.e.f.g.ſũt minores a.b.c.⁊ ſm̃ ꝓportionẽ eorum nõ erunt.a.b.c.quales poſiti ſunt:quod ẽ inconueniens.
 
-GHE ſi ſint.a. b.c.minimi in otinnatione ſuay proportionũ: oico q nullus nume rabit omnes. Sin autem numeret eos. d.a, quidé.fm. e.b, vero bm. f.2.c. bm.S. gitot p'is. c.ad.f.ſicut. a. ad b.2 f.ad.g ſicut.b.ad.c quergo ſ.s ſũt minors b.c.bm ppontione corum nõ crunt. a. b.c quales poſiti ſunt: quod éinconue! nieus. ( Ouãq̃ aute nulus numeret.a.b.c. ſi fuerint minimi: poreſt ramé eſſe ut ouoiliber cuos ey dle numeret vnus : puctoiletenim quoibet numero in aliqucy ad le prni ae vrrony coy in alique tern ad virono pimi, pronenient trcs numen ouor quigy ouo crunt copoliti. Nuil' tame numerabit omo. Sint eni. a.b. ctres numeri quoy quiſay ſit prinus ad alios: oucaiy a.in b. 2.c. ⁊ proueniat. d.2.c. itemou. b.in.c.⁊ pueniat.f. oico quolay ouos er d.e.f.efſe adinuicem compoſitos
+[Diagram: segments labelled a, b and c, above a segment labelled d, above segments labelled e, f and g]
 
-[Diagram]
+¶Quãqʒ autẽ nullus numeret.a.b.c.ſi fuerint minimi:poteſt tamẽ eſſe ut quoſlibet duos ex eis numeret vnus:ducto etenim quolibet numero in aliquẽ ad ſe primũ ac vtroqʒ eoꝝ in aliquẽ tertiũ ad vtrunqʒ primũ:prouenient tres numeri quoꝝ quiqʒ duo erunt cõpoſiti.Nullꝰ tamẽ numerabit om̃s.Sint eni.a.b.c.tres numeri quoꝝ quiſqʒ ſit primus ad alios:ducatqʒ.a.in.b.⁊.c.⁊ proueniat.d.⁊.e.itemqʒ.b.in.c.⁊ ꝓueniat.f.dico quoſqʒ duos ex.d.e.f.eſſe adinuicem compoſitos tamẽ nullus numerabit omnes duos quoſqʒ pʒ eſſe cõpoſitos.a.enim numerat.d ⁊.e.b.vero.d.⁊.f.⁊.c.e.⁊.f.Qꝺ autẽ nullus numeret oẽs:patebit prius demõſtrato ꝙ.a.eſt maximus numerans.d.⁊.e.b.quoqʒ maximꝰ numerãs.d.⁊.f.⁊.c.maximus numerãs.e.⁊.f.hoc aũt ſic cõſtat:ſi eni.a.nõ ẽ maximꝰ numerãs.d.⁊.e.ſit itaqʒ.g.numeretqʒ.d.ſm̃.h.⁊.e.ſm̃.k.eritqʒ ꝑ ſcꝺam ptẽ.20.a.ad.g.ſicut.h.ad.b itemqʒ ꝑ eãdẽ.a.ad.g.ſicut.k.ad.c.qr ergo.a.eſt minor.g.erit.h.minor.b.⁊.k.minor.c.⁊ qr.h.ad.k.ſicut.b.ad.c.vtraqʒ eni ẽ ſicut.d.ad.e.ꝑ.18.bis aſſumptã.ſunt autẽ.h.⁊.k.minores.b.⁊.c.erit ꝑ imediate ſequẽtẽ ⁊ per hãc ypoth.ꝙ.b.⁊.c.ſint ꝯtra ſe primi reperire minimis minores:qꝺ qr ẽ impoſſibile:erit.a.maximꝰ numerãs.d.⁊.e.Eodẽqʒ mõ ꝓbabit̃ ꝙ.b.ſit maximus numerãs.d.⁊.f.⁊.c.maximꝰ numerãs.e.⁊.f.ſiquis ergo numerat.d.e.f.ꝑ correlʼ.ſcꝺe ter aſſũptũ ipſe numerabit a.b.c.ſed quiſqʒ eoꝝ primus erat ad reliquos.Accidit igit̃ ipoſſibile.Silʼr quoqʒ
 
-tome nuilus numerabit omnes ouos quoloy ps ele copoiitos. a cnim numerat. d e ch vero. d.. l. E.ce. t.l. Ob anté nollus nmneret oëx: pateboit prns cemoſtra io q a st mapimno numcrans d.s.e. b quon mapim'nnmerais. d.2f. ECma? prmus nomeras, c e ſ.hoc aüt fic coſtatsſi enl.a no emapmn' numeras.d.ze,fit moi o numcereros d fin. h.i.e. fm R. eritoy pſccam pré, ro a ad s ſicut h'ad.b ſtemos pcãdé. a. ad.g-ſicut. le ad.c qu ergo.a cſt minor ⁊-crit h'minon. b.2 Rmi nonsc.t qu b.ad. E. ſicut b.ad.c vtraqy ent e fſicut. d.ad.c. pas bis aſiumptã. ſunt auie b. s'R minoies b. t. cerit pimediate ſequeié e per pac moin. y. b.z cſint Qura ſe puini repcrire minimnis minous: qb qr e'unpolſioile: ent a mapim' numne ro.d..e F'odcas mo poubit q b ſit marinus nmerais d 2.f.t. cmapim' nus meri. c. t. f'ſiquo cryo numerat. de l pconcl. ſcoe ter aſuiptu ple numerabit a'bs ſed ouiſoy con puinus crat ad relquos. Acidit iait ipoiſibile, Silr quon
+[Diagram: segments labelled g, h and k, above segments labelled a, b and c, above segments labelled d, e and f]
 
-[Diagram]
+¶Quotlibet numeri quos vnus nõ numerat ſcꝺm cõtinuationẽ ſuaꝝ ꝓportionũ ſunt minimi.
 
-¶ Ouorliber numeri quos vnus nõ numerat ſcom cõtiuuatione luax ppoitonui ſunt minimi. GIt ſi ſint.a b.c quuiet numen quos c'onuis us numerat., oico v ipli ſunt in continuatione ſuay pporion minimi. Alio min fint minimi. d.ef, qui p-ai-numerabunt. a.b. c quiſoy ſuũ rclatiuum equaliter .ſit ergo vt ſcom. s-eritoy per.in. vt viceuerſa.s-numeret.a. b.c.ſcom.d.e.f. quare act
+¶Vt ſi ſint.a.b.c.quilibet numeri quos oẽs nullus numerat.dico ꝙ ipſi ſunt in continuatione ſuaꝝ ꝓportionũ minimi.Alioquin ſint minimi.d.e.f.qui ꝑ.21.numerabunt.a.b.c.quiſqʒ ſuũ relatiuum equaliter.ſit ergo vt ſcꝺm.g.eritqʒ per.17.vt viceuerſa.g.numeret.a.b.c.ſcꝺm.d.e.f.quare accidit ꝯ̃rium poſitioni.
 
-## Propoſitio . 23.
+[Diagram: segments labelled a, b and c, above segments labelled d, e and f, above a segment labelled g]
 
-cidit Srium poſitioni. ilibet numeri ptra ſe primi lũt bm ſua pportoem mimi. {dropcap:[illegible]|lines=5|style=decorated}
+## Propoſitio .23.
 
-¶hecè couerla pmiſle vr ſi ouo numeriint. a.2 b. orra ſe pmi :ipſi enĩt bi ſua pportione minimi: ſin aũt ſint minimii cade ꝓportiõe ſi poſſibile e.c.z. d.cõſtat iragy pai..c.numerat.a.2. d.b. cq̃litcr ſit igirur vr ſcom.e.crit per.i7. vt viccuerſa.e.numerat.a.2.b.a. qui ddem ſecddũ.c.1.b. ſcom. d. non ſunt igit a. 2.b. 9 ſc pmi qbẽ ꝯ ppoib.
+{dropcap:Q|lines=5|style=decorated|decoration="foliate woodcut initial"}Vilibet numeri ꝯtra ſe primi ſũt ſm̃ ſuã ꝓportiõem mimi:
 
-## Propoſitio .aa.
+¶hec ẽ cõuerſa ꝑmiſſe vt ſi duo numeri ſint.a.⁊.b.ꝯtra ſe ꝑmi:ipſi erũt ſm̃ ſuã ꝓportionẽ minimi:ſin aũt ſint minimi ĩ eadẽ ꝓportiõe ſi poſſibile ẽ.c.⁊.d.cõſtat itaqʒ ꝑ.21.ꝙ.c.numerat.a.⁊.d.b.eq̃liter ſit igitur vt ſcꝺm.e.erit per.17.vt viceuerſa.e.numerat.a.⁊.b.a.quidem ſecddũ.c.⁊.b.ſcꝺm.d.non ſunt igit̃.a.⁊.b.ꝯ̃ ſe ꝑmi qꝺ ẽ ꝯ̃ ypoth.
 
-[Diagram]
+[Diagram: segments labelled a and b, above segments labelled c and d, above a segment labelled e]
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint ouo numeri cõtra ſe primni. ſi quis vnu coy nus meret ad alterũ eẽ primus neceſſario comprobatur. ( Sit. a. 2.b. S ſe pmi,c. vero numeret. a.oico ꝙ. c pn'ẽ ad. b.alior lqui nûeret cos. d.q p penul. xcept, nucrabir eria. a. no ſut b.a.2.b. {dropcap:[illegible]|lines=5|style=decorated}S ſe pmni-d-eni numerat ãbos. PPropoſitio .25.
+## Propoſitio .24.
 
-## [illegible]
+{dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I fuerint duo numeri cõtra ſe primi.ſi quis vnũ eoꝝ numeret ad alterũ eẽ primus neceſſario comprobatur.
 
-J fuerint ouo numeri ad aliu quelibet primi qui er ouctu vnius in alterũ pducetur. ad eundem erit primus. ( Oit vierqy ouoy numeroy. a. t.b, primus ad.c.2er.a.in. b. fit. d Ioico y'd cit pumuo adc.allter eni puneraret eos, e. d.qda fmif.
+¶Sit.a.⁊.b.ꝯ̃ ſe ꝑmi.c.vero numeret.a.dico ꝙ.c.ꝑmꝰ ẽ ad.b.alioqui nũeret eos.d.q̃ ꝑ penulʼ.ꝑcept.nũerabit etiã.a.nõ ſũt ḡ.a.⁊.b.ꝯ̃ ſe ꝑmi.d.eni numerat ãbos.
+
+[Diagram: segments labelled a and b, above segments labelled c and d]
+
+## Propoſitio .25.
+
+{dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I fuerint duo numeri ad aliũ quẽlibet primi qui ex ductu vnius in alterũ ꝓducetur.ad eundem erit primus.
+
+¶Sit vterqʒ duoꝝ numeroꝝ.a.⁊.b.primus ad.c.⁊ ex.a.in.b.fit.d dico ꝙ.d.eſt primus ad.c.aliter eni numeraret eos.e.d.quidẽ ſm̃.f.
+
+[Diagram: segments labelled a and b, above a segment labelled c, above a segment labelled d, above segments labelled e and f]

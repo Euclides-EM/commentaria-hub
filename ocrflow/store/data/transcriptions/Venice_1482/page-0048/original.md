@@ -1,31 +1,16 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-[Diagram]
+[Margin]
+[Diagram: circle with centre d on the diameter a.d.e, b at the top and c beside it, with lines joining a, b, c and e]
+[Diagram: circle with centre e, b at the left, c at the right, a below b and d at the bottom, with the line b.a extended beyond the circle to f]
+[Diagram: circle with centre d, c at the left, a at the right, e above and b below at the left, with lines from a through e and through b extended beyond the circle]
+[Diagram: circle touched at d by the tangent line a.d.b, with centre g, e at the right, c at the left, f at the lower right and h at the bottom, with lines joining the points inside the circle]
+[/Margin]
 
-c.cuins centrum. d. portio. a. b.c.cuius corda.a.c. que fit ſemicirculo minor: ⁊ fiat ſnper eins circumferentiam angulus.a. b. c. ouctis lincis. b.a.2. b.c. oico bunc an! gulum eſſe maioiem recto, producantur enim oiametri a.d. e.z linea.b.c. critqz per primam partem buius angulns. a.b. e. rectus, quare angulns. a. b. c. erit maꝰ ior recto quod eſt tertium propofitum.
+c.cuius centrum.d.portio.a.b.c.cuius corda.a.c.que ſit ſemicirculo minor:⁊ fiat ſuper eius circumferentiam angulus.a.b.c.ductis lineis.b.a.⁊.b.c.dico hunc angulum eſſe maiorem recto.producantur enim diametri.a.d.e.⁊ linea.b.e.eritqʒ per primam partem huius angulus.a.b.e.rectus.quare angulus.a.b.c.erit maior recto quod eſt tertium propoſitum.¶Quartum ⁊ quintum ſic. Sint in circulo a.b.c.d.cuius centrum.e.portio.a.b.c.cuius corda.a.c.maior ſemicirculo ⁊ portio.a.d.c.cuius eadẽ corda.a.c.minor ſemicirculo dico angulũ contentum ab arcu b.a.⁊ corda.a.c.eſſe maiorem recto ⁊ angulum contentum ab arcu.d.a.⁊ corda a.c.eſſe minorem recto.producantur diametri.c.e.b.⁊ linea.b.a.vſqʒ ad.f.eritqʒ per primam partem huius angulus.b.a.c.rectus.quare per.13.primi angulus.f.a.c.eſt ſimiliter rectus.Quia igitur angulus rectus eſt primi ⁊ ſecũdus pars recti euidenter patet vtrũqʒ.quare tota liquet hec pẽthamembris concluſio.¶Ex iſtis autem duobus vltimis partibus nota etiã inſtantiam contra illas duas argumẽtationes ad quas tulimus inſtantiam.in.15.huius.tranſitur enim ab angulo portionis ſemicirculo minoris qui eſt minor recto per vltimam partem huius ad angulum portionis ſemicirculo maioris qui eſt maior recto per penultimam partem huius.non tamen per equale.Cum enim omnis portio circuli ſit ſemicirculus aut maior ſemicirculo.aut minor:ſit autem tam angulus ſemicirculi per primam partem.15.quã angulus portionis minoris per vltimã partẽ huius minor recto. portionis vero maioris ſit maior recto.⁊ tñ nõ erit alicui⁹ portionis ãgul⁹.nec ſimpl'r aliquis contentus a circumferentia.⁊ linea recta nec rect⁹ nec eq̃lis recto.Qd' vt clarius pateat ſit i circulo.a.b.c.cuius centrum.d.linea.a.b.cui non ſit determinatus finis ex parte.b.ſecans ex ipſo portionẽ ſemicirculo minorẽ.eritqʒ per vltimã partem huius minor recto.huius circuli ſit diameter.a.d.c.⁊ imaginetur linea. a.b. moueri ad partem.c.ſuper punctũ.a.que quãdiu fuerit citra.c.vel in ipſo.6.coopiens diametrum.a.d.c.faciet cum arcu angulum minorem recto. Jn omni autem pũcto vltra.c.velut in.e.faciet ꝑ penult' ptem h⁹ angulũ maiorẽ recto.trãſit ergo a minori ad maius non per equale.⁊ ſicut in rectilineis angulis eſt reperire maioreʒ angulo ſemicirculi ⁊ minorem.non tamẽ equalem ut mõſtratũ ẽ in.15.huius:ſic in angulis portionis eſt reperire maiorem recto ⁊ minorem non tamen equalem:vt patet ex iſta demonſtratione.
 
-¶ Ouartum z quintum ſic. Sint in circnlo .b.c.d.cuius centrum.e. portio. a.b.c. cuius corda. a.c maior ſemicirculo z porr tio.a.d.c.cuins cadé corda.a.c. minor ſemicirculo oico angulũ contentum ab arcu
+## Propoſitio .31.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="white foliate ornament on black ground"}I circulum linea recta contingat ⁊ a contactu in circulum quedam circulum ſecans recta linea preter centrum ducatur quoſcunqʒ duos angulos cum contingẽte facit.duobus angulis qui in alternatis circuli ſuper arcus conſiſtunt portionibus:equales ſunt.
 
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-b.a.z conda.a.c.eſſe maiorem recto z angulum contentum ab arcu.d.a. z conda a.c.eſſe minorem recto, producantur oiametri.c.e.b.z linea.b.a. vſoy ad.f. eritoy per primam partem buins angulus. b. a. c.rectus, quare per.13 primi angulus. f. a.c.eſt fimiliter rectus. Onia igitur angulus rectus eſt primi ſecũdus pars recti euidenter paret etrũy quare tora liquet bec pẽthamembris conduſio.
-
-¶ Er iſtis autem ouobus vltimis partibns nora etiã inſtantiam contra illas ouas argumẽ? tationes ad quas tulimus inſtantiam. in.i5 buius. tranſitur enim ab angulo por tionis ſemicirculo minoriis qui eſt minor recto per vlrimam partem buins ad an? gulum portionis ſemicirculo maioris qui eſt maior recto per penultimam partem buins. non tamen per cquale. Cum cnim omnis portio circuli ſit ſemicirculus aut maior ſemicirculo, aut minor: ſit autemn tam angnlns ſemicirculi per primam par? tem.is, quã angulus portionis minoris per vltimã parte buius minor recto. porr tionis vero maions ſit maior recto. z ti nõ erit alicul portionis ãgulꝰ nec ſimplr aliquis contentus a circumferentia. c linca recta ncc rect nec cq̃lis recto. Dout dla rius patcat ſit i circulo.a. b..cuius centrum. d.linca. a. b.cui non ſit veterminatus
-
-[Diagram]
-
-finis cr parte. b ſccans cr ipſo portione ſemicirculo minoie. eritoas per vltuna par tem buius minor recto. buius circuli ſit oiameter. a. d.c. imaginetur ſinca. a.b. mouer ad partemn. c ſuper punciu.a que quãdin fuerit citra.c.vel in ipſos coopi ens piamctrum.a. d.c faciet cumn arcu angulum minorem recto. Ju omni antemn pũcto vltra.c velut in, e faciet p pcnult prem bꝰ angulu maiore recto. traſit crgo a minou ad maius non per cquale,e ſicut in recruineis angulis eſt rcperire maiorey angulo ſemteirouilt x minorein non tame cqudlomn ut moſtratu e iais huiuo:ſic in angulis portionis eſt reperire maiorem recto z minorem non taincn cqualem evt pater ex iſta demonſtratione.
-
-## Propoſitio.3.
-
-{dropcap:[illegible]|lines=5|style=decorated}J circulum linea recra contingat z a contactn in circunlum
-
-[Diagram]
-
-quedam circulum ſecans recta linea preter centrum on! catur quoſcunoz onos angnlos cum contingete facit, ono bns angulis qui in altcrnatis circuli ſuper arcus confi ſtunt portionibns: equales ſunt. doit reeta tinca a b contmgens dreulom e. de f cuus centui.s in puncto a. a quo d oucatur in circulum preter centrom lines d. f.ſccans ipium fianteyangn lus d'cf. conſitens ſmper aromn portonis d cf cucris lineis ed erefs easqu lus de f.conſiltens ſuper arcum portionis. d e f. enciis lineis e.d. s cf. oicoan guium.c.eſe cqualem anguo b d f.t onguiom e, angilo. a dl. oncantur oun oamen d s.h.s linca ſh, gruitqy per. iy poius d̀ h perpendicuaris ſuper ab¬ e per pimnan partemn prnle angulurs d f'h mvomus quare cuo angul a, dh.s
+¶Sit recta linea.a.b.contingens circulum.c.d.e.f.cuius centrũ.g.in puncto.d. a quo.d.ducatur in circulum preter centrum linea.d.f.ſecans ipſum.fiantqʒ angulus.d.c.f.conſiſtens ſuper arcum portionis.d.c.f.ductis lineis.c.d.⁊.c.f.⁊ angulus.d.e.f.conſiſtens ſuper arcum portionis.d.e.f.ductis lineis.e.d.⁊.e.f.dico angulum.c.eſſe equalem angulo.b.d.f.⁊ angulum.e.angulo.a.d.f.ducantur enim diametri.d.g.h.⁊ linea.f.h.eritqʒ per.17.huius.d.h.perpendicularis ſuper.a.b.⁊ per primam partem premiſſe angulus.d.f.h.rectus.quare duo anguli.a.d.h.⁊

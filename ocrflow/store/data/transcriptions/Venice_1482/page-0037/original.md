@@ -1,39 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: III -->
 
-## Propoſino.5.
+## Propoſitio .5.
 
-[Diagram]
+{dropcap:C|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Irculorum ſe inuicem ſecantium centra diuerſa eſſe.
 
-{dropcap:[illegible]|lines=5|style=decorated}Jrculorum ſe inuicem ſecantium centra biuerſa eſſe.
+¶Sint duo circuli.a.c.b.a.d.b.ſecantes ſe ſuper duo puncta.a.⁊.b. Dico ꝙ eorum ſunt diuerſa centra. ¶Si enim haberẽt idem cẽtrum ipſũ erit per diffinitionẽ in portione vtriqʒ circulo cõmuni:ſitqʒ illud e.⁊ ducantur linee.e.a.⁊.e.f.c.eruntqʒ ꝑ diffinitionẽ due linee.e.a.⁊ e.f.equales. ¶Itemqʒ per diffinitionem due linee.e.a.⁊.e.c.equales:quare e.f. eſt equalis.e.c.cum vtraqʒ earum ſit equalis.e.a.pars videlicet toti qꝙ eſt impoſſibile.
 
-¶Oint ouo circnli.a.c.b.a. d. b. ſecantes ſe ſuper ouo puncia.a.2.b Dico ꝙ corum ſunt biuerſa centra.
+## Propoſitio .6.
 
-¶ Si enim baberẽt idem cẽtrum iplũ erit per oiffinitionẽ i portione vtri circulo cõmuni: ſitaz illud e.z oucantur linee. e. a.z.c.f.c. cruntoz p oiffinitionẽ oue lince.e.a. T c.f. equales.
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Irculorum ſe ſe contingentium nõ idem centrum eſſe neceſſe eſt.
 
-¶ Jtemoz per oiffinitionem oue linec.c.a.z.e.t.equales: quare c.f. eſt equalis.e.c. cum vtraqy earum ſir cqualis.e. a. pars videlicet toti qo eſt impos? ſibile.
+¶Sint duo circuli.a.b.⁊.a.c.contingentes ſe in puncto.a. Dico ꝙ eorum ſunt diuerſa centra. Si enim habuerint idem centrum erit ꝑ diffinitionem inter minorem eoꝝ cum minor poſitus fuerit itra maiorem:ſitqʒ ipſum.d.⁊ ducantur linee.d.a.⁊.d.b.c.eritqʒ per diffinionem vtraqʒ duarum linearum.d.b.⁊.d.c.equalis.a.d.qꝙ eſt impoſſibile. ¶De circulis autem ſe contingentibus extra quorum ſcʒ vnus eſt extra alterũ:manifeſtum eſt per diffinitionem centri qꝙ ipſi non habent idem centrum.
 
-## Propoſitio.s.
+## Propoſitio .7.
 
-{dropcap:[illegible]|lines=5|style=decorated}Srculorum ſe ſe contingentium nõ idem centrum eſſe ne ceſſe eſt.
+{dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I in diametro circuli punctus preter centrum ſiguetur:⁊ ab eo ad circũferentiam linee plurime ducãtur:que ſuper centrum tranſierit omnium erit longiſſima.que vero dyametrum perficiet omnium erit breuiſſima.que autem centro proxime ceteris longiores. ¶Quanto vero a centro remotiores tanto breuiores eſſe conueniet. ¶Duas quoqʒ equidiſtãtes linee breuiſſime collaterales equales eſſe neceſſe eſt.
 
-[Diagram]
+¶Sit vt in diametro.a.f.circuli.a.b.c.cuius centrum ſit.h.ſit ſignatus punctus k.preter centrum a quo ducantur plurime linee que ſunt.k.a.k.b.k.c.k.d.k.e.k.f.k.g.ad circumferentiam:⁊ tranſeat.a.k.per centrum.h.⁊.k.f.ſit complemẽtum dyametri:ſitqʒ vt.k.e.⁊.k.g.equidiſtent a.k.f.hoc eſt dicere vt angulus.e.k.f.ſit equalis angulo.f.k.g.dico ꝙ.k.a.eſt omnium lougiſſima.⁊.k.f.omnium breuiſſima:alie vero tanto lõgiores quãto cẽtro ꝓpinquiores:vt.k.b.eſt longior.k.c.⁊ k.c.eſt longior.k.d.⁊.k.d.longior.k.e.⁊.k.e.⁊.k.g.ſunt equales:quia enim in triangulo.b.k.h.duo latera.h.b.⁊.h.k.per.20.primi:ſunt maiora latere.b.k.et ipſa ſunt equalia linee.a.k.erit.a.k.maior b.k.⁊ eadem ratione maior omnibus alijs ⁊ hoc eſt primum. ¶Itemqʒ quia in triangulo.e.h.k.duo latera.h.k.et.k.e.per eandem ſunt maiora latere.h.e.quod eſt equale linee.h.f.ipſa erũt maiora linea.h.f.ergo dempta communi linea que eſt.h.k.remanebit.k.e.maior k.f.eadem ratione quelibet aliarum erit maior ipſa ⁊ hoc eſt ſecundum. ¶Itẽqʒ qꝛ duo latera.h.b.⁊.h.k.trianguli.h.b.k.ſunt equalia duob⁹ laterib⁹.c.h.⁊.h.k
 
-¶Oint ouo circuli.a. b.2. a.c. contingentes ſe in puncto.a. Dico ꝙ corum ſunt oiuerſa centra. Si enim babuerint idem centrum crit p l oiffinitionem inter minorem eoy cum minor politus fuerit itra ma iorem: ficy ipſum. d.z oncantur lince. d.a.2. d.b.c.erity per biffinionem vtraq; ouarum lincarum. d.b. 2. d.c. equalis. a. d.qo eſt impoſſibile.
+[Margin]
+[Diagram: two intersecting circles meeting at points a and b, with centre e, a line from e to a and a vertical line through f to c; point d on the lower circle]
 
-¶De circulis autem se contingentibus eytra quorum ſcz vnus eſt ertra alterũ:manifeſtum eſt per oiffi nitionem centri qo ipſi non babent idem centrum.
+[Diagram: two circles one within the other touching at a, with a vertical line from a down to d and a horizontal line from d through b to c]
 
-## Propoſitio 2.
-
-[Diagram]
-
-{dropcap:[illegible]|lines=5|style=decorated}J in diametro circuli punctus preter centrum ſiguetur: ⁊ ab eo ad circũferentiam lince plurime ducãtur que ſuper centrum tranſierit omnium erit longiſſima, que vero oya metrum perficiet omnium erit breuiſſima, que autem cen ltro prorime ceteris longiores.
-
-¶ Nuanto vero a centro remotiores tanto breuiores eſle conueniet.
-
-¶ Muas quoqz equidiſtã tes linee breuiſſime collaterales equales eſſe neceſſe eſt.
-
-¶ Sit vt in oiametro. a. f.circuli. a. b.c. cuius centrum ſit. b.ſit ſignatus punctus E. preter centrum a quo oucantur plurime linee que ſunt. l.a.R.b.R. C.R. d.l.C.R. f.l.g.ad circumferentiam: z tranſeat.a.l. per centrum.b. 2.l.f. ſit complemẽtum byametri: ſitqy vt.lt.e. 1.l.g.equidiſtent a.E.f. boc eſt oicere vt angulus. e. E.f.ſit cqualix angulo. f.R.g. oico ꝙ. l. a. eſt omnium lougiſſima.2.E.f. omnium breuiſ, fima:alie vero tanto lõgiores quãto cẽtro ꝓpinquiorcs: vt.E.b. eſt longior. R..7 E.c.eſt longior. E.d.2.R. d.longior. k.e. 1. R. e.2.l.g. ſunt equales: quia enim in triangulo.b. R.h. ouo latera. b. b.2.b. R.per. 2o- primi: ſunt maiora latere.b. E. et ipla ſunt equalia lince. a.E. erit. a.E maion b.R.z eadem ratione maior omnibus alijs z boc eſt primumi.
-
-¶ Jtemqz quia in triangulo.e. b. E. ouo latera.b.R.ct. R. c.pcr candem ſunt maiora latcre.b.e. quod eſt cquale linee.h.f. ipla crũt ma iora linea.b.f. ergo vempra communi lines que eſt. b. E. remanebit. R.c. maior E. f. cadem ratione quelibet aliarum erit maior ipla z boc eſt secundum.
-
-¶Itẽqz ono latera.b.b.z.h.I. tranguli.b.b. Eſunt cqualla puobꝰlaterbꝰ.ch.G.h.E
+[Diagram: circle with points a, b, c, d, e, f, g and m on the circumference, centre h and point k inside, with lines drawn from h and k to the circumference]
+[/Margin]

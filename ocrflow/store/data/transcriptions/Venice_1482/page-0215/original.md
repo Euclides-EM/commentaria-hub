@@ -1,27 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: XII -->
 
-efuper ipſã incdinatũ. Vnde ampliat in bac. ao. figuratio cubi ad oc̃s figuras pa! ropolitio.ai. ralcllogramas ſolidas.
+⁊ ſuper ipſã inclinatũ. Vnde ampliať in hac.40.figuratio cubi ad oẽs figuras paralellogramas ſolidas.
 
-## [illegible]
+## Propoſitio .41.
 
-{dropcap:[illegible]|lines=5|style=decorated}J ouo corpora ſeratilia quoy altex balim triangnlã alte rũ vero balum babeat equidiſtantiu laterũ ipli baii trian gule ouplã eque alta fuerint illa ouo corpora neceſſe ẽ cẽ equalia.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I duo corpora ſeratilia quoꝝ alteꝝ baſim triangulã alterũ vero baſim habeat equidiſtantiũ laterũ ipſi baſi triangule duplã eque alta fuerint illa duo corpora neceſſe ẽ eẽ equalia.
 
-¶Sit ſuperficics. a. b. c. d.cquidiſtãtiũ laterũ oupla trila?
+¶Sit ſuperficies.a.b.c.d.equidiſtãtiũ laterũ dupla trilatere ſuperficiei.e.f.g.⁊ ſuper has duas ſuperficies fiãt duo corpora ſeratilia eque alta:ſitqʒ ſeratile qꝺ eſt ſupra baſim q̃drangulã.a.b.h.d.c.k.cui⁹ baſis eſt ſuperficies equidiſtantiũ lateꝝ ꝓpoſita.a.b.c.d.alia eius ſuperficies equidiſtantiũ lateꝝ ẽ.a.h.d.k.tertia vero ẽ.b.h.c.k.due aũt ei⁹ triãgulares ſupficies ſũt altera quidem triangulus.a.b.h.reliqua vero triangulus.d.c.k.ſeratile aũt qꝺ eſt ſuper baſim triangulã.e.f.g.ſit.e.f.g.l.m.n.cui⁹ altera duaꝝ trilateraꝝ ſuperficieꝝ ẽ baſis predicta:reliqua vero triangulus.l.m.n.triũ aũt ſupficieꝝ ei⁹ equidiſtãtiuʒ lateꝝ:prima quidẽ ẽ.e.f.l.m.ſcꝺa vero.e.g.l.n.tertia vero.f.g.m.n.dico itaqʒ hec duo ſeratilia ꝓpoſita eſſe adinuicẽ equalia:perficianť eni duo ſolida palellograma adiungendo vtriqʒ duoꝝ propoſitoꝝ ſeratiliũ aliud ſeratile ſibi equale:primo quidẽ ſeratili ſuper eandẽ baſim ſitqʒ adiunctũ ſeratile.a.p.b.d.q.k.cuius due trilatere ſuperficies ſunt.a.p.h.d.q.k.tres aũt quadrilatere:prima quidẽ.a.h.d.k.qui ẽ terminus cõis ſibi ⁊ ei cui adiungiť:ſcꝺa vero.a.d.p.q.ťcia quoqʒ.p.q.h.k.ſcꝺo aũt ſeratili adiungať aliud ſeratile ſibi equale hoc modo:adiungať primo triangulo.e.f.g.alius triangulus equalis qui ſit.e.g.r.ita ꝙ tota ſupficies.e.f.g.r.ſit equidiſtãtiũ laterũ ⁊ ſuper hunc trianguluʒ fiat ſeratile.e.g.r.l.n.ſ.qꝺ cũ illo cui adiungiť perficiat corpus palellogramũ huius ſeratilis adiuncti:due trilatere ſuperficies ſunt.e.g.r.l.n.ſ.tres aũt palellograme ſunt:prima quidẽ.e.l.r.ſ.ſcꝺa.e.l.g.n.⁊ ipſa ẽ cõmunis terminus ſibi ⁊ ei cui adiũgiť:tertia vero.g.r.n.ſ.manifeſtum igitur ex diffinitione ſolidoꝝ equaliũ atqʒ ſimiliũ ꝙ duo ſeratilia paralellogramũ cõponentia ſolidũ.a.k.ſibi inuicem.itẽqʒ duo cõponentia ſolidum paralellogramum.e.n.ſibi ad inuicẽ ſũt eq̃lia. At vero ex.31.vel ex.32.h⁹ duo ſolida.a.k.⁊.e.n.ſunt ſibi inuicẽ equalia:qꝛ ergo hoꝝ ſolidoꝝ medietates ſunt ſeratilia ꝓpoſita per cõem ſciam ꝯſtat ea eſſe equalia:quecunqʒ eni fuerint equalia eoꝝ medietates neceſſe ẽ eſſe equales:liquet itaqʒ qꝺ ꝓpoſitũ ẽ. Explicit liber Vndecim⁹ Incipit liber Duodecimus.
 
-[Diagram]
+[Figure: seratile solid on quadrangular base, vertices labelled a, b, c, d, h, k, p and q]
 
-terc ſuperficici.e.f.g.z ſuper bas ouas ſuperficies fiãt ouo corpora ſcratilia cque alra: ſitay ſeratile qo eſt ſupra baſim q̃drangulã.a.b. b. d.c.E.cul ba? his et ſuperficies equidiſtantiĩ latey ppolita.a.b.c. d. aua cins ſuperiicico cquidi ſtantiũ latex ẽ. a. b.d l.tertia vero c.b.h.c.l. oue aũt eiꝰ triãgnlares ſupficies ſũt altera quidem triangulus.a.b. b. reliqua vero triangulas. d.c. R. ſeratile aũt qo eſt ſuper baſim triangulã.e.f.g.ſit.c.f.5-lam.n.cul’olrera ouax trilateray ſuperiicicy ẽ baſis predicta:reliqna vero triangunlus. l.m.n. trĩ aiit ſupficiey ciꝰ cquidiſtãruz latey: prima quidẽ ẽ.e.f.I.m.ſcoa vecro.c.g .n. tertia vero.t.g.m.n. oico itay bce ouo ſcratilia ppoſira efle adinnice cqualia: perficiant cni ouo ſolida palcllograma
+[Figure: seratile solid on triangular base, vertices labelled e, f, g, l, m and n]
 
-[Diagram]
+[Handwritten]
+hic finit [unclear: libre ellemẽtoꝝ] euclidis
+[/Handwritten]
 
-[Diagram]
+## Propoſitio .1.
 
-[Diagram]
-
-adiungendo virigz ouoy propoſitoy ſerau iũ alind ſeratile fibi cquale: prmo qui de ſeratili ſupcr cande baſim ſitoy adiunctii ſcratile. a. p.b. d.q.l.cuius oue trila, terc ſuperficies ſunt. a. p.h.d.q.E. tres aũt quadrilatere: prima quide. a. b. d.E. qui ẽ terminus cõis ſibi z ei cui adiungit: ſcoa vero. a. d.p.q. icia quoy. p.q.h.li. ſcoo aüt ſeratili adiungai alind ſeratile ſibi equalc bocmodo:adinngat primo trangu lo.e.f.g alns triangulus cqualis qui ſit.e.g.r.ila ꝙ tota ſupficies. e.f.g.r. ſit cqui diſtãtiũ laterũ z ſuper bunc triangulu; fiat ſeratile.e. g-lar.ln.ſ, qb cui iilo cui ad, imngir perficiat corpus palcllogramu buis ſeratilis aduuncri oue trlatere ſuper, ficics ſunt.e.G.r.l.n.ſ. tres aũt palcllograme ſunt: primna quidé. c.l.r. l. ſcoa.c.l.5¬ n.c ppla é comunis tcrminus ſibi z ci cui aduigit: iertia vro.g.rn. ſ.manifeſtum igitur er oiffiniritione ſolidoy cqualũ at ſimiliũ g ouo ſcratlia paralcllogamũ coponcntia ſoiidui.a.l. ſibi inuiccm.itcoy ouo cõponcntia ſolidum paralellogra? mum.e.n.ſibi ad inuice ſũt eq̃lia. At vero ey. 31 vel cy. 32.b' cuo ſolida. a.h..e. n.ſunt ſibi inuicé cqualia: qu crgo boy ſolidoy medietaics ſunt ſeratilia ppolita pcr cõem ſciam oſtat ca clle cqualia: quecunay eni fucrint cqualla coy medicrates neceſſe ẽ eſſe equales:liquet itay qo ppoſitu e. Eyrlicit liber Indccimꝰ Jncipit Propoſitio.i.
-
-## [illegible]
-
-{dropcap:[illegible]|lines=10|style=decorated}liber Duode. imus. Mniũ ouax ſupficiex ſil iuz multiangulax iter ouos circulos deſcriptax ẽ pportio al? terins ad alterã tãq̃z, pportio q̃dratox q̃ er iametris circuloy cas circũſcribẽtiũ pue ninnt.
-
-¶Sint ouo circuli.a.b.c. d.c.f. quib'inſcrbã tur onc quelibet figure poligonie q̃ ponant adiuicẽ files: ſintoz nũc pentbagonc inſcripre vt oocet.1i.qr ti zipſe ſint. a.b.g.b.R. alind pentbagonũ.d. c.l.m n. oiametri quoqz circuloy ſint. a.c.2.d.f. oico itaqz ꝙ proportio pentbagoni.a.b.g.b. l.ad pẽtbagonu d.e.l.m.h.ẽ. ficut q̃dratũ oiametri.a.c.ad quadratii oiametri. d.f. protrabantur enim in vtroz circulo ouc lince ab eytrenutate oiametri ad ertremitatem vnius latens pentpagont ciamerro no contemialis le iniee cancclantes inira ipium
+{dropcap:O|lines=10|style=decorated|decoration="white foliate ornament on black ground"}Mniũ duaꝝ ſupficieꝝ ſiľiuʒ multiangulaꝝ ĩter duos circulos deſcriptaꝝ ẽ ꝓportio alterius ad alterã tãqʒ ꝓportio q̃dratoꝝ q̃ ex diametris circuloꝝ eas circũſcribẽtiũ ꝓueniunt. ¶Sint duo circuli.a.b.c.d.e.f.quib⁹ inſcribãtur due quelibet figure poligonie q̃ ponanť adiuicẽ ſiľes:ſintqʒ nũc penthagone inſcripte vt docet.11.q̃rti ⁊ ipſe ſint.a.b.g.h.k.aliud penthagonũ.d.e.l.m.n.diametri quoqʒ circuloꝝ ſint.a.c.⁊.d.f.dico itaqʒ ꝙ proportio penthagoni.a.b.g.h.k.ad pẽthagonũ d.e.l.m.n.ẽ.ſicut q̃dratũ diametri.a.c.ad quadratũ diametri.d.f.protrahantur enim in vtroqʒ circulo due linee ab extremitate diametri ad extremitatem vnius lateris penthagoni diametro nõ conterminalis ſe inuicẽ cancellantes infra ipſum

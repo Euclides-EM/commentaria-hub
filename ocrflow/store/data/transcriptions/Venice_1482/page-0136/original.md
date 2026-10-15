@@ -1,33 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-tiens opontet afſumptam. Ion cſt igir,e. viuerſus ab cio:ab eſt etiã cõtra mome. iroor conſtat vey dle oo proponit.. Propoſitio .a.
+tiens opoꝛtet aſſumptam.Non eſt igit̃.e.diuerſus ab eis:qd̃ eſt etiã cõtra ypothe. itaqʒ cõſtat veꝝ eſſe qd̃ pꝛoponit̃.
 
-## [illegible]
+## Propoſitio .14.
 
-I ppoſitus fuerit numer? mimus quẽ numerãt primi alli {dropcap:[illegible]|lines=5|style=decorated}qnan nõ numerabit eu aliquis numerus primus preter il los aflignatos
+{dropcap:S|lines=4|style=decorated|decoration="white foliate initial on black ground"}I ꝓpoſitus fuerit numerꝰ mīmus quẽ numerãt pꝛimi aſſignati nõ numerabit eũ aliquis numerus pꝛimus pꝛeter illos aſſignatos.
 
-¶Sit, a minimus numems numerat' a numeris primis qui fuit.b.
+¶Sit.a.minimus numerus numeratꝰ a numeris pꝛimis qui ſũt.b.c.d.dico ꝙ alius pꝛimus p̃ter eos nõ numerabit.a.Sin autem ſit.e pꝛimus numerãs eũ ſm̃.f.qꝛ ergo quilibet numeroꝝ.b.c.d.numerat.a.ꝓductũ ex e.in.f.ẽ autẽ quilibet eoꝛum pꝛimus ſequitur ex.33.ſeptimi:vt quilibet eoꝝ numeret.e.vel.f.ſed.e.nullus numerat cũ ſit pꝛimus:quilibet ergo eoꝝ numerat.f.cum itaqʒ ſit.f.minoꝛ.a.vtpote qui numerat eũ ſm̃.e.nõ erit.a.minimus numeratus ab illis qd̃ eſt inconueniens.
 
-[Diagram]
+[Diagram: horizontal segments in three rows labelled a; b, c and d; e and f]
 
-cd.oico q alius primus pter cos no numerabit. a. Sin autem ſit.e puimus numerde ci fm.i ou cro quuiber numeroy b.e. d numerat .a. Nucu er e in, f,ẽ auté quilibet coruni pnmus ſequitur ey yy ſeptimie vt quilibet coy nume? ret e vel.f.ſed.e. nullus numerat cu ſit primus: quilibet ergo coy numerat.f.cum itao ſit. famninon. à. vmpote qui numerat eu fu, e nõ crit.a. mininus numeratus Propoſitio ai5.
+## Propoſitio .15.
 
-## [illegible]
+{dropcap:S|lines=4|style=decorated|decoration="white foliate initial on black ground"}I quotlibet numeri continue propoꝛtionales ſm̃ ſuã pꝛopoꝛtionẽ fuerint minimi:quicũqʒ aliquẽ illoꝝ numerat alteri terminoꝝ illius ꝓpoꝛtionis erit cõmenſurabilis
 
-ab'illis ao eſt inconueniens. J quoilibet numeri connnue proportionales bmn ſuã pro {dropcap:[illegible]|lines=5|style=decorated}portione fuerint minimi: quicũqy aliqnẽ illoru numerat alteri terminorũ illius pportionis erit cõmenſurabilis TGint. a.b.c.d.e. cõtinue ꝓporrionales zminimi bm pportione; ſad.s qui ſint in ſua pponione minmi:z ponatur. b. numnerare.s.
+¶Sint.a.b.c.d.e.cõtinue ꝓpoꝛtionales ⁊ minimi ſm̃ ꝓpoꝛtioneʒ f.ad.g.qui ſint in ſua ꝓpoꝛtione minimi:⁊ ponatur.h.numerare.c. dico ꝙ.h.eſt cõmenſurabilis.f.vel.g.ſumant̃ enī in eadẽ ꝓpoꝛtione quatuoꝛ minimi qui ſunt.k.l.m.n.cõſtat aũt ex ſcõa octaui ꝙ ex.f.in.m.fit.c.alioquin cõtingeret eſſe minus minimo qd̃ eſſe nõ poteſt.itaqʒ per coꝛrel'.33.ſeptimi erit.h.cõmenſurabilis.f.vel.m.ꝙ ſi.f.cõſtat ꝓpoſitum:ſi aũt.m.ſumant̃ in eadẽ ꝓpoꝛtione tres minimi qui ſint.p.q.r.eritqʒ ex ſcõa octaui vt.m.fiat ex.f.in.r.ne minus mīmo aliqd̃ eẽ cogamur cõcedere:q̃re per pꝛedictũ coꝛrel'.h.ẽ cõmenſurabilis.f.vl' r.ſed nõ erat.f.ſic enī cõſtabat propoſitũ:cõmenſurabilis igitur ẽ.r.qui cum ex ſecũda octaui fiat ex.g.in ſe ſequitur ex dicto coꝛrel'.ut.h.ſit cõmenſurabilis.g.qd̃ eſt propoſitum.
 
-[Diagram]
+[Diagram: five rows of horizontal segments with numerals, labelled a, b, c, d and e; k, l, m and n; p, q and r; f and g; and h]
 
-oico q.h.eſt comenſurablio. vel s ſumant oii in ende ppouione quatuorms nimi qui ſunt. l.lam.n. coſtat aũt cy ſcoa ocraui ꝙ ey f.in. m.fit.c.alioquin cõtin, nerct ele minuo minino qo dle no poreſt. itaay per concl.ny ſeptimi ent. h.to menſurabilis.f. vdl.m.ꝙ li.f. cõſtat ppoſitum:ſi aũt. m.ſumant in cadé pponto ne tres minimi qui ſint. p.q.r. critoy er ſcoa octaui vt. m.fiat ey.f.in.r. ne minus mimo aliqd cé cogamur cõcedere :dre per predicuũ concl. b é comenſurabilis. f.vr r ſed nõ erat.f.ſic eni conſtabat propoſitũ : cõmenſurabilio igitur é. r. qui cum ey fesuda octaut fiat er.s in ſe ſcquitur cy bicro connel.ut. b.ſit comncnſurabilis.5-qb
+## Propoſitio .16.
 
-## Propoſitio ais.
+{dropcap:S|lines=4|style=decorated|decoration="white foliate initial on black ground"}I fuerint numeri quotlibet cõtinue propoꝛtionales ī ſua propoꝛtione minimi quilibet eoꝛuʒ ad compoſitum ex reliquis pꝛimus eſſe neceſſario compꝛobatur.
 
-eſt propoſitum. J fuerint numeri quolliber cõtinue proportionales i fua {dropcap:[illegible]|lines=5|style=decorated}proportione minimi quilibet eoruz ad compoſitum ey re liquis primio eſle neceſſario comprobatur.
+¶Sint.a.b.c.d.cõtinue ꝓpoꝛtionales ⁊ minimi.dico cõpoſitũ ex.a b.c.pꝛimũ eſſe ad.d.Si enī nõ numerabit aliquis numerus qui ſit.e cõpoſitũ ex.a.b.c.⁊.d.ꝑ p̃miſſã igit̃ erit.e.cõicans alteri terminoꝝ illius ꝓpoꝛtionis qui ſunt.f.⁊.g.erit itaqʒ numerꝰ aliq̃s numerãs.e.⁊ alterum duoꝛum.f.g.qui ſit.h.quia ergo.h.numerat.e.numerabit.d.⁊ cõpoſitum ex.a.b.c.⁊ quia numerat.f.vel.g.quoꝛũ vterqʒ numerat vtrũqʒ medioꝛum ⁊ ſimpliciter oẽs ſi pl̃es duobus ſint:ex ſecũda octaui ſequit̃ ut ipſe numeret.b.⁊.c.ergo ⁊.a.qꝛ numerat totum a.b.c.nõ ſunt igit̃.a.⁊.d.ꝯ̃ ſe p̃mi qd̃ ẽ incõueniẽs p.3.octaui:ſilꝛ quoqʒ conſtabit ꝓpoſitũ ex.a.b.d.p̃mũ eẽ ad.c.ſi enī vt pꝛius.e.numerat ãbos ſequit̃ ꝑ p̃miſſam ut aliquis numerus qui etiã ſit.h.numeret.e.⁊ alterũ duoꝛũ.f.g.itaqʒ.h.numerat c.⁊ totũ.a.b.d.ſed ⁊.b.cũ vtraqʒ radicũ numeret omnes medios:igit̃ ⁊ cõpoſitũ ex.a.⁊.d.⁊ qꝛ neceſſario numerat alterũ duoꝛũ.a.d.cũ numeret alterũ duoꝛũ.f.g. numerabit ⁊ reliquũ.Nõ ſũt igitur a.⁊.d.cõtra ſe pꝛimi:⁊ ita idẽ ut pꝛiꝰ.¶Demõſtrãt aũt idẽ aliter de tribꝰ cõtinue ꝓpoꝛtiõalibꝰ ⁊ mīmis ſine aminiculo p̃miſſe ꝓbãt enī ex quibuſqʒ duobꝰ cõpoſitũ p̃mũ eẽ ad reliquũ.ſint itaqʒ.3.cõtinue ꝓpoꝛtionales ⁊ mīmi.a.b.c.quoꝝ termini.d.⁊.e.dico tũc compoſitum ex.a.⁊.b.p̃mũ
 
-¶ Sint. a. b.c. d. cõtinue pportionales z minimi. oico cõpolitũ ey. a
-
-[Diagram]
-
-b.c. primũ eſſc ad. d. Si eni nõ numerabit aliquis numerus qui ſit-e cõpoſitũ cr. a.b.c.z. d.p pmillã igir erit. c.cõicans alteri temninoy illius pportio nis qui ſunt.f.2.S.erit iiaqy numer? aliqs numerãs. c.z alterum ouorum.f.g- qui lit.h.quia ergo.h. numerat.e. numerabit. d.1 cõpoſitum ey. a. b.c. * quia nume. rat.f.vcl.g- quorũ vterz numerat virũqz mediorui z ſimpliciter ocs ſi ples ouoꝰ bus ſint: cy ſccũda octaui ſcquir ut ipſe numeret.b. 2.c. crgo 1.a.qͬ numcrat totiin a.b.c.nõ ſunt igir. a.2.d.3 ſe pni qbẽ incõueniẽs p.3. octaui: ſilr quoy conſtabit ppoſitui ey. a.b. d pmũ ce ad.c.ſi eni vt prins. e. numerat ãbos ſequit ꝑ pmiſſam ut aliquis numcrus qui etiã ſit. h. numeret.e. ⁊ alterũ ouonũ.f. g.iras. h. numcrat .a totũ.a.b. d.ſcd z. b.cũ vtraqg radicũ numeret omncs medios :igit e cõpoſitu cr.a.2. d.z qu ncceſſario numerat alterũ ouorũ. a. d. cũ numeret alterũ ouorũ.f.g. numerabit z reliquii. Iõ ſut igitur a.t. d.cõtra ſe primi: ita idẽ ur priꝰ.
-
-¶ Demõ ſtrãt oũt idẽ auter ce trͬ cõrinue pportõaliꝰz mimis ſine amimculo pmiſſe p bãt eni cy quibuſqz ouobꝰ cõpoſitũ pmũ cẽ ad rcliquũ. ſint itay.3. cõtinue ꝓpor tionales z mimi.a.b.c, quoy termini.d.zc. vico ruic compoituun ez a.z b pamui
+[Diagram: horizontal segments in six rows labelled a, b and d; a, b, c and d; a, b and c; e; f and g; and h]

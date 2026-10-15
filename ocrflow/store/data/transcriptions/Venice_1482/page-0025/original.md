@@ -1,41 +1,27 @@
-[Diagram]
+<!-- Running title: I -->
 
-trangulo cõſtituto ad que ouplui crit paralellogramũ per banc precedenté z iple coualis alteri triangulo pcr.3s. Propoſitio.42.
+triangulo cõſtituto ad quẽ duplũ erit paralellogramũ per hanc precedentẽ ⁊ ipſe equalis alteri triangulo per.38.
 
-## [illegible]
+## Propoſitio.42.
 
-{dropcap:[illegible]|lines=5|style=decorated}Quidiſtantium larerum lupcrficiẽ delignare cuins angu, lus ſit angulo aſſignato equalis. ipla vero ſuperficies tri angulo aſlignato equalis.
+{dropcap:E|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Quidiſtantium laterum ſuperficiẽ deſignare cuius angulus ſit angulo aſſignato equalis.ipſa vero ſuperficies triangulo aſſignato equalis.
 
-[Diagram]
+¶Sit aſſignatus angulus.a.⁊ aſſignatus triangul⁹.b.c.d.volo deſcribere ſupficiẽ equidiſtantium laterũ equalem triangulo .b.c.d.cuius vterqʒ duoꝝ angulorum contra ſe poſitoꝝ ſit equalis.a.diuido baſim.c.d.per dimidiũ in puncto.e.⁊ protraho lineã.b.e.⁊ a puncto.b.duco.b.f. equidiſtantem c.d.eritqʒ per.38.triangulus.b.e.d.equalis triangulo.b.e.c.quare triangulus.b.e d.eſt dimidiũ totalis trianguli.b.c.d.igit̃ ſuper punctũ.e.linee.d.c.conſtituo angulum.d.e.g.equalem angulo.a.⁊ perficio paralellogramũ.g.e.d.f. quod etiã qꝛ per precedentẽ ẽ duplũ ad triangulũ.b.c.d.erit etiã equale triangulo.b.c.d.ꝑ hãc cõem ſcienciam:quoꝝ dimidia ſunt equalia ipſa quoqʒ ſunt equalia. eſt eni triangulus.b.e.d.vtriuſqʒ dimidiũ quare deſcripſimus palellogramũ.g.e.d.f.equale triangulo.b.c.d.cuius vterqʒ duoꝝ anguloꝝ.g.e.d.⁊.d.f.g.cõtraſe poſitorum eſt eq̃lis angulo.a.quod fuit propoſitum.
 
-[Diagram]
+## Propoſitio .43.
 
-[Diagram]
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis paralellogrami ſpacij eorum que circa diametrũ ſunt palellogramoꝝ ſupplementa equa ſibi inuicẽ eſſe neceſſe eſt.
 
-¶Sit aſſignatus angulus. a. c aſſignatus triangulꝰ. b.c. d. volo pe! scribere ſuphiciẽ cquidiſtantium laieri cqnalem triangulo. b.c.d.cu ius vrcraz onoy angulornin contra ſe poſitoy lit equalis. a. biuido baſim.c.d. per oimidiũ in puncto.c. ⁊ prorrabo lineã. b.e. ⁊ a puncto. b. ouco. b.f. cquidiſtantem c.d.erity per-3s.triangulus. b.e. dequalis triangulo. b.e.c.quare triangulus.b.e d. eſt oimidiu toralis trianguli. b.c.d.igir ſuper punciũ.e. lince. d.c. conſtituo an? gulum. d.e.g.equalem angulo. a. ⁊ perficio paralellogramui.q-e.d.f. quod etiã qu per precedenté e ouplũ ad rrianguli. b.c. d.erit ctiã cquale triangulo. bc. d.nbãc
+¶Sit paralellogramũ.a.b.c.d.in quo protraham diametrum.b.c.⁊ protraham.e.f.equidiſtantẽ vtriqʒ duoꝝ lateꝝ.a.b.⁊.c.d.que ſecet diametrum in puncto.k.a quo ducã.k.g.equidiſtantẽ vtriqʒ duoꝝ laterũ.a.c.⁊.b.d.⁊ producã eam quouſqʒ ſecet vtrũqʒ lat⁹.a.b.⁊.c.d.ſitqʒ tota.g.k.h. eritqʒ totum palellogramũ.a.b.c.d.diuiſum in quatuoꝛ palellograma quoꝝ duo ſcʒ.e.c.k.h.⁊.g.k.b.f. dicunt̃ conſiſtere circa.c.b.ꝙ diametrum tranſit per medium eorum et ideo ſunt circa diametrum:reliqua duo ſcilicet .a.e.g.k.⁊.k.h.f.d.dicũt̃ ſupplemẽta hec duo ſupplementa dicunt̃ eẽ equalia.ſunt eni duo trianguli.a.b.c.⁊.c.d.b.equales ꝑ correl'.34.ſil'r quoqʒ duo trianguli.g.k.b.⁊.f.k.b.ſũt equales per idẽ correl'.34.At duo trianguli.e.c.k.⁊.k.h.c.ſil'r equales ꝑ idẽ correlariuʒ demptis igitur duobus triangulis.b.g.k.⁊.k.c.e.de totali triãgulo.a.b.c.ac duobus triangulis reliquis.b.f.k.⁊.k.c.h.de totali triangulo reliquo.c.d.b.erunt per cõem ſciam reſidua:que ſunt duo dicta ſupplemẽta equalia:quod eſt propoſitum.
 
-[Diagram]
+## Propoſitio .44.
 
-cõemn ſcienciam: quoy binidia ſunt cqualia ipſa quoaz ſunt coualia. eſt cni trian qulno.b.e. d. vtriuſoy oimidiũ quarc deſcriplimus palellogramui. g.e. d.f. cquale triangulo.b.c. d. cuius vreras ouoy anguloy. g.e.d.s.d.f.g.cõrraſe poſitorm eſt cq̃lis angulo. a. quod fuit propoſitum.
+{dropcap:P|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ropoſita linea recta ſup eam ſupficiẽ equidiſtantiũ laterum cuius angulus ſit angulo aſſignato equalis ipſa vero ſuperficies triangulo aſſignato equalis deſignare.
 
-## Propoſitio.a3.
+¶Deſignare ſuperficiẽ equidiſtantiũ lateꝝ ſuper lineã aliquã ẽ lineã ipſã facere latus vnũ ipſi⁹ ſupficiei. Sit ergo data linea.a.b.⁊ dat⁹ angulus.c.⁊ datus triangulus.d.e.f.ſuper lineã.a.b. volo deſignare ſupficiẽ vnã equidiſtantiũ lateꝝ ita ꝙ linea.a.b.ſit vnũ ex lateribus eius cuius vterqʒ duorum angulorum contra ſe poſitorum ſit equalis angulo.c.⁊ ipſa totalis ſupficies ſit eq̃lis triangulo.d.e.f.differt autem hec a.42.qꝛ hic dat̃ latus vnius ſupficiei deſcribende ſcʒ linea.a.b.ibi autem nullum.cũ ergo voluero facere adiungo lineam.a.g
 
-{dropcap:[illegible]|lines=5|style=decorated}MNnis paralellogrami ipacij eorum que circa diametrû ſunt palellogramox ſupplementa cqua ſibi inuicẽ eſſe ne
+[Margin]
+[Diagram: parallelogram with top corners b, g and f and bottom corners c, e and d, with lines drawn from b to e and from b to d, and a separate angle with vertex a at the left]
 
-[Diagram]
-
-ceſſe eſt. a
-
-¶ Sit paralcllorrami. a. b.c. d.in quo protrabam biamctrm. b.c. e protrabam. e.f.cquidiſtante vreray ouoy latey. a.b..c. d que ſer cet biametrum in puncro. l.a quo ouca. l.5.cquidiſtanreſt viriay ouoy latcrui.a. t.b.d.z produci cam quouſay ſecet vtruos lar'. a b z.c.d.ſitay tora.s.Rh, enit ꝙy toum palellogramii. a.b.c. d. oiuiſum in quamos palcllograma quoy cuo ſc e clh. 2.g-lb.f. vicunt conſiſtere circa.c.b. ꝙ biametrum tranſit per medium corum er ideo ſuntcirca piametrum :rcliqua ouo ſciiicer .a.e.g.R.2.R.h.f.d. oi cut ſuppleméta bec tuo ſupplementa oicunt ce cqnalia. ſont eni ouo riangnli.a. b.t.2.c.d.h.cquales pconel., a filr quoqy ouo trianguli.S.l. b. 2.f.E.b. ſut equai les per ide concl. a Ãt ouo irianguli, c.c. E.2. Rh.cailr condles pidé toncaruy oempts igirur ouobus triangulis. b. 5.h.2.E.c.c.oc torali triãgulo. a. b.c.acouoꝰ
-
-[Diagram]
-
-[Diagram]
-
-bus mangulis reliquis. b.f. le.t.E. c.h. e torali triangulo rcliouo. c.d.b. crunt per coem ſoamn reſidua: que ſunt ouo victa ſupplemeta cyualia: quod eſt propofirum.
-
-## Propoſitio.aa.
-
-{dropcap:[illegible]|lines=5|style=decorated}Ropoſita linca recta ſup cam fnpficiẽ equidiſtantiu late rum cuins angulus ſit angulo aſſignato equalis ipla vero ſuperficies triangulo aſſi gnato equalis deſignare.
-
-¶ Deſignare ſnpesficié cquidifantii latey ſuper lineã aliquã elineã lipſã facere latuo vnũ ipllꝰ ſuphiciei. Sit ergo para linca. a.b.z oatꝰ angulus.c. ⁊ patuo triangolus. d.e. f.ſuper linca.a. b. volo ocſignare ſuphicié vnã cquidiſtantiũ latcy ira q lines.a.b. ſit vnũ cr lateribus cius cuius vreroy ouorum anguloum contra ſe politoum ſit equalis angnlo.c. ⁊ ipla toralis ſuplicies fit cq̃ lis triangulo.d.e.f. oiffert autem bee a.ar.qu bic par latus vnius ſupficiei deſcri? bende ſq̃ linca. a. b. ibi autem nullum,cu cr, o volucro faccre adungo lincama.s
+[Diagram: square with labels a, g and b along the top, e, k and f at the sides and middle, and c, h and d along the bottom, divided by the vertical line g–k–h and the horizontal line e–k–f, with a diagonal from c to b]
+[/Margin]

@@ -1,39 +1,35 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-## Propoſitio i94
+## Pꝛopoſitio .94.
 
-3 ſuperfcics cqnalis q̃drato reſidni medialis ſcoi appli, {dropcap:[illegible]|lines=5|style=decorated}cata fucrit ad lineam rõnalẽ: alterum latus eins reſidunm tertium eſſe conueniet.
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}J ſuperficies equalis q̃drato reſidui medialis ſcꝺi applicata fuerit ad lineam rõnalẽ: alterum latus eius reſiduum tertium eſſe conueniet.
 
-¶bic etiã erit. d.e. reſidnũ mediale ſcom e ſcquctur ut ſit. c.b. reſidu
+¶hic etiã erit.d.e.reſiduũ mediale ſcꝺm ⁊ ſequetur ut ſit.c.b.reſiduum tertiũ:qꝺ ut facile ꝯcludas pꝛime demõſtrationi iſiſtas ⁊ q̃les lineas ꝯueniat eſſe.d.f.⁊.f.e.ex.70.collige.
 
-[Diagram]
+[Figure: square with corners g, d and h, vertical line from f through e, horizontal line from k through e to l, and a diagonal from g to h]
 
-lum tertii: qour facile pdudas prime cemnoftrationi iliſtas z q̃les ui, ropoſitio 95. neas oueniat eſſe.d.f.t.f.e.ey. 7o.collige.
+[Figure: tall rectangle a b n s divided by horizontal lines at p m, r q and c]
 
-## [illegible]
+## Pꝛopoſitio .95.
 
-{dropcap:[illegible]|lines=5|style=decorated}m adiuncta fuerit lince rõnali ſuperficies equalis qua drato linee minoris latus eins ſcom erit reſiduu quartum:
+{dropcap:C|lines=4|style=decorated|decoration="foliate initial on black ground"}Um adiuncta fuerit linee rõnali ſuperficies equalis quadrato linee minoꝛis latus eius ſcꝺm erit reſiduũ quartum:
 
-¶Si fuerit. d.e. linca minon aſſerit bcc. 95.ꝙ.b.c.erit reſiduũ quar, leũ- eſt aũt ſumendĩ er.xi-quales lincas elſe neceſſe ſit. d.f.2.f.c. cum d.e, fucrit linea minor: z eſt aſtruendum ppoſitu pmillo modo:cyce nto cin bac z ouabus ſcquentibous neceſe eſt linea ban, oiuidi ad punciu. m.in puo mncõmenſurabilia que in tribus premiſſis oinidebat neceſſarioi ouo cõmenſu rabilia: nam'in tribous pmilſis fuerant one linee, d.f.zf.e. coicantes i potentia tmni ideo carum quadrata cõicantia: propter qu z ſupficies. a.m.z. p.n. quadraris ea
+¶Si fuerit.d.e.linea minoꝛ aſſerit hec.95.ꝙ.b.c.erit reſiduũ quartũ:eſt aũt ſumendũ ex.71.quales lineas eſſe neceſſe ſit.d.f.⁊.f.e.cum d.e.fuerit linea minoꝛ:⁊ eſt aſtruendum ꝓpoſitũ pmiſſo modo:excepto ꝙ in hac ⁊ duabus ſequentibus neceſſe eſt lineã.b.n.diuidi ad punctũ.m.in duo incõmenſurabilia que in tribus premiſſis diuidebat̃ neceſſario i duo cõmenſurabilia:nam in tribus pmiſſis fuerant due linee.d.f.⁊.f.e.cõicantes i potentia tm̃ ⁊ ideo earum quadrata cõicantia:propter qꝺ ⁊ ſupficies.a.m.⁊.p.n.quadratis earum equales cõicantes.Quapropter etiã ⁊ due linee.b.m.⁊.m.n.ideoqʒ fuit i tribus premiſſis linea.b.n.potentioꝛ linea.n.c.in quadrato linee ſecum cõmunicantis in longitudine ex prima pte.13.Jn hac aũt ⁊ duabus ſequẽtibus ſunt due linee d.f.⁊.f.e.incõmenſurabiles in potentia ut apparet ex.71.⁊.72.⁊.73.⁊ ideo earum quadrata ꝓpter qꝺ ⁊ ſupficies.a.m.⁊.p.n.incõmenſurabiles ꝓpter qꝺ ⁊ due linee.b.m.⁊.m.n.incõmenſurabiles.ideoqʒ per primã pte.14.tam in hac q̃ʒ in duabus ſequentibus neceſſe eſt lineã.b.n.eſſe potentioꝛẽ linea.n.c.in quadrato linee ſibi icõmenſurabilis i longitudine:cetera perquire ut prius.
 
-[Diagram]
+## Pꝛopoſitio .96.
 
-rin eouales coicantes. Quapropter etã z oue lince. b.m. t. m.n. idcoq fuit i fri? bus premiſſis linea. b. n. poientior linca. n.c. in quadrato lince ſecum cõmunican? tis in longitudine ex prima pre. 13. Jn bac aũt z ouabus ſequctibus ſunt one lince d.f.1.f.e. mcõmenſurabiles in potcntia ut apparct cy. 71.2.72.2τ3.T ideo earum quadrata pprter qb z ſnpcrficics.a.m.2.p.n.incõmenſurables pprer qoz oueli nee hm, e. m.n. mcõmenſnrabiles. ideoaz per primã prẽ.1a tam in bac q̃z in ous bus ſcquentibus neceſſe eſt lincã.b.n. elle potcntiorẽ linea.n.c.in quadraro lin ce fibi icõmenſurabilis i longitudine: cetera perquire ut prins. Propoſitio96.
+{dropcap:S|lines=4|style=decorated|decoration="foliate initial on black ground"}J ad lineam rationalem quadrato linee cum rationali cõſtituentis mediale equale ſuperficies adiungatur:lat⁹ eius ſecundum erit reſiduum quintum.
 
-## [illegible]
+¶Pone ſimiliter hic lineã.d.e.eſſe illã que iuncta cũ rõnali ꝯponat totũ mediale ⁊ attende ex.72.quales lineas opoꝛteat eſſe.d.f.⁊.f.e.⁊ concludes ſine offendiculo ſi prius habite demonſtrationi opoꝛtune inſtiteris lineam.b.c.eſſe reſiduum quintũ.
 
-{dropcap:[illegible]|lines=5|style=decorated}J ad lineam rationalem quadrato lince cum rationali cõ; ſtituentis mediale equale luperficies adiungatur: latꝰ eins
+## Pꝛopoſitio .97.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="foliate initial on black ground"}J ad lineã rationalẽ ſuperficies equalis quadrato linee cum mediali componentis mediale adiungatur:latus eius alterum erit reſiduũ ſextum.
 
-ſecundum erit reſiduum quintum.
+¶Nunc vltimo conuenit lineã.d.e.eſſe illam que iuncta cum mediali cõponit totum mediale cui adiuncta linea.e.f.que videlicet ſit illa per cuius abſciſionem linea.d.e.fuerat que proponitur ſi quales lineas.d.f.⁊.f.e.eſſe opoꝛteat ex.73.didiceris ⁊ prioꝛẽ argumẽtationẽ firma mente tenueris ſine obice quoqʒ lineã.b.c.eſſe reſiduũ ſextũ cõcludere poteris.ſi aũt fortaſſis in aliquo te heſitare ꝯtigerit quicquid illud fuerit de quadrato.g.h.ad ſibi equalẽ ſupficiẽ.a.n.ꝯferẽdum erit:⁊ ſic patebit ꝓpoſitũ noſtrũ.
 
-¶ Pone fimilircr bic linea.d.c. eſſe illã que iuncta cũ rõnali oponat torũ mediale z attende ey.7z quales lincas oporteat cſſe. d.f. t.f.e. z condudes ſinc offendiculo ſi prius babitc oemonſtrationi opontune inſtireris li
+## Pꝛopoſitio .98.
 
-## [illegible]
+{dropcap:O|lines=4|style=decorated|decoration="foliate initial on black ground"}Mnis linea reſiduo ꝯmẽſurabil' ipſa quoqʒ i termio ⁊ oꝛdine ẽ idẽ reſiduũ
 
-ropoſitio.97. neam. b.c. eſſe rcliduum quintũ. {dropcap:[illegible]|lines=5|style=decorated}J ad lineã rationalẽ ſuperficies equalis quadrato linee cum mediali componentis mediale adiungatur: latus eins alterum erit reſiduũ ſextum.
-
-¶ Hunc vlrimo conuenit lincã. d.c. eſſe illam quc inncta cum media, li cõponit totum mediale cui adiuncta linca.c.f. que vidclicet ſit il'a per cuius abſciſionem linea. d.e. fucrat que proponitur ſi qualcs lineas. d.f. 4.f.c. eſſe oportcat ex.73. oidiceris priorẽ argumẽtationẽ firma mente tenueris ſine obi ce quoq̃z lincã. b.c. eſſe reliduũ ſeytũ cocludere porcris. ſi aũt fortaſlis in aliquo re beſitare otigerit quicquid illud fuerit oe quadrato. g.b. ad ſibi cqualẽ ſnpficic. a. n {dropcap:[illegible]|lines=5|style=decorated}ofercdum erit: z lic patcbit xpoſitũ noſtrũ. Propoſitio Onis linea reſiduo ꝯmẽſurabil ipfa quoqz i termio zor dine ẽ idẽ reliduũ
-
-¶Ob. 6o.2. quatuor. cã ſequẽtcs ce binomio cinſoz comiriꝰ qnay Lpoſueruit bec. 9s.. quaruon, cam ſcquentes ce reiduo ſuilx qnai
+¶Qꝺ.60.⁊ quatuoꝛ eã ſequẽtes de binomio eiuſqʒ comitib⁹ qnqʒ ꝓpoſuerũt hec.98.⁊ quatuoꝛ eam ſequentes de reſiduo ſuiſqʒ qnqʒ

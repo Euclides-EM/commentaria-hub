@@ -1,35 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-e tuo cctroma e maion ponis dus ct iines a h auod eit propofitm. éde cuoy x modo ſi cr malon porione ouoiter lmee ſemnoin predicà pporioné oinſe niymiuior poule p'ampntr,ent mpa maitoiponis lcmn conde preporenen ia cnty maiorponio cus lnes ceitacia refi grana Sit luca a'b.icut p' pomiur mn pinoio.s vunlta liq maioi pouo a ca qua ceirapit.ed evailas. Prits r'x'tre tintx fmn prcponent cmndeni poneis à s gnair pouis e?
+⁊ duo extrema ⁊ maior portio eius eſt linea.a.b.quod eſt propoſitum. Eodẽ quoqʒ modo ſi ex maiori portione cuiuſlibet linee ſecundũ predictã pportionẽ diuiſe tanqʒ minor portio detrahatur:erit ipſa maior portio ſcõm eandẽ proportionem diuiſa.eritqʒ maior portio eius linea detracta. verbi gratia. Sit linea.a.b.ſicut pponitur in puncto.c.diuiſa ſitqʒ maior portio.a.c.a qua detrahať.c.d.equalis.c.b.dico ꝙ.a.c.ẽ diuiſa:ꞗm proportionẽ eandem i puncto.d.⁊ ꝙ maior portio ei⁹ ẽ linea.d.c.cum eni ſit ex diffinitione.b.a.ad.a.c.ſicut.a.c.ad.c.b.At ex ſeptima quinti.a.c.ad.c.b.ſicut ad.c.d.erit ex vndecima eiuſdẽ.b.a.ad.a.c.ſicut.a.c.ad c d.ideoqʒ per.19.quinti:ſicut.c.b.reſiduũ ad.d.a.reſiduũ.ſed ex ſeptima eiuſdem c.b.ad.d.a.ſicut.c.d.ad.d.a.itaqʒ.a.c.ad.c.d.ſicut.c.d.ad.d.a.ex diffinitiõe ergo cõſtat qd̃ dixim⁹:nec igiť ea quã auctor pponit additio nec ea quã ex oppoſito proponimus detractio quãtũcunqʒ vtralibet in prolixum tendat a proprietate diuiſionis linee primitiue diſcordat.
 
-[Diagram]
+[Diagram: horizontal line with points a, d, c and b]
 
-[Diagram]
+## Propoſitio .5.
 
-iuies, dsccum co ſu cr pifimione b.a ad. a.c. fiout.a. cad. b'at er ſepuma
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on dark ground within a square frame"}J ſecũdũ proportionẽ habentẽ medium ⁊ duo extrema quelibet linea fuerit diuiſa qd̃ ex tota linea quodqʒ ex minori portione produciť ambo q̃drata piter accepta triplũ ſunt eius qd̃ ex maiore portione quadratũ deſcribiť.
 
-[Diagram]
+¶Sit linea.a.b.diuiſa per ſepe dictã portionẽ in puncto.c.ſitqʒ maior portio eius linea.c.b.dico ꝙ quadrata duarum linearum.a.b.⁊.c.a.pariter accepta triplum ſunt ad quadratum linee.c.b.hec enim duo quadrata pariter accepta ſunt ex ſeptima ſecundi quantum quadratum.c.b.⁊ duplum eius quod fit ex a.b.in.a.c.itemqʒ quia quod fit ex.a.b.in.a.c.eſt equale quadrato.c.b.ex diffinitione ⁊ prima parte.16.ſexti:manifeſtum eſt propoſitum.
 
-opintl a c ad̀ s'h iout ad e d ent cr vndcoima oiuſde ba d.a ciicut a adc diderms peris quinieſicut .e.b rcidon ad. d a rcidnu ſca er ſepnm cuſden paii an iioiter e re da ineracad d iout e, dad̃ da erpimnineeer, ro uſar ap pipi'ner loí cu qù aucoi pponit adduionc es qui er omneiuro lrprorimus demrueils qurniionqy piraiber in praipon tendut a popueimie vie uiſionis lince primitiue biſcordat.
+[Diagram: horizontal line with points a, c and b]
 
-## PPropoſitio5.
+## Propoſitio .6.
 
-J ſecudu propornone habenté medium a ous ertrema {dropcap:[illegible]|lines=5|style=decorated}quelibet linea fuerit piuiſa qo er tota linea quodog er mi nori portione producit ambo qdrara piter accepta pri' plu ſunt cius qo ey maiore portione quãdratui oeicribit. (Oit linca. a.b.ouiſa pcr ſepe pcta ponionc in puncro.c.ſitay na lior pouio cus lincs cb oits q quadraia vuaromn incarom a b 2.c a panterac
+{dropcap:O|lines=5|style=decorated|decoration="foliate initial on dark ground within a square frame"}Mnis rationalis linee ſecundũ proportionem habentẽ mediũ ⁊ duo extrema diuiſe vtranqʒ portionem reſiduũ eſſe neceſſe eſt.
 
-[Diagram]
+¶Sit linea.a.b.ꞗm ſolitã proportionem diuiſam in puncto.c.rationalis.dico ꝙ vtraqʒ portio eius reſiduũ.Sit eni maior ei⁹ portio.a.c.cui directe adijciatur.a.d.equalis dimidio totius.a.b.eritqʒ etiã.d.a.rationalis ex.6.decimi libri ⁊ diffinitione.conſtat autẽ ex prima huius ꝙ quadratuʒ linee.d.c.quintuplũ ẽ ad quadratũ linee.d.a.igiť linea.d.c.eſt cõicans linee.d.a.in potentia ex diffinitione.ſed non in longitudine ex vltima pte.7.decimi quare ꝑ 68.decimi linea.a.c.eſt reſiduum cum due linee.c.d.⁊.d.a.ſint ambe rõnales potentialiter tm̃ cõicantes.⁊ quia iterum ſi ad lineam rationalem.a.b.adiungatur ſuperficies equalis quadrato linee.a.c.que eſt reſiduum erit latus eius ſecundum linea.c.b.ex prima pte.16.ſexti neceſſe eſt ex.92.decimi vt linea.c.b.ſit reſiduũ primum:quare conſtat propoſitum.Amplius autẽ ſi linee ſic diuiſe vt proponiť maior portio fuerit rõnalis:erit minor reſiduum:verbi grã.ſit vt prius.a.b.diuiſa i.c ꞗm dictam proportionem ⁊ maior portio eius que eſt.a.c.ſit rõnalis que diuidať per equalia in.d.eritqʒ ex tertia huius quadratũ.d.b.quintuplum ad quadratum d.c.at qꝛ.d.c.ẽ rõnalis cuʒ ipſa ſit dimidiũ.a.c.ſequiť vt due linee.d.b.⁊.d.c.ſint rõnales potentialiter tm̃ cõicantes quare ut prius linea.c.b.eſt reſiduum.at vero ſi linea rõnalis in potentia tm̃ ꞗm proportionem habentem mediũ ⁊ duo extrema
 
-cepia mnpim font ad odratomnliee, c h hes cnim ouo quadrata panter ncre pia iont r ſepnmis ſcoundi quantumn quadraiumie h, e cuplon eus quodit er bin.a itonoy quia quod lit er a. bain. a.c eſt couale quadrato.c.b cy oifinte tione z prima parre. io. ſcyti: manteſtum eſt propoſirum.
+[Diagram: horizontal line with points d, a, c and b]
 
-## Propoſitio.s.
-
-Mnis rationalis lincc lecundu proportionem babeue {dropcap:[illegible]|lines=5|style=decorated}mediu rouo errrema oiniſe vrranos portonem reiiduu elſe neceſſe eſt.
-
-¶Oit luea a b. fm ſointa proportionem piuſam in puncto, cmy I uondl e. tico q viraoy pono cus rcidui. Sit eni maion g pon llo a.ccmi pireae aduicatur, a d.couls pimdio iorius. a b. critny au. da.m
-
-[Diagram]
-
-nenais era veomibou e eifimiſone contat auié cr pnima buus g quadrany pince ds ominmplui e ad quxdrati lince, d.a ioi inca d̀ ceſt coicans linee. da¬ in porenta er ifonione ſed non mlongurdimne ey pimma presx xecmi qurep au xecimi linea à Let rciduom coumn pue lunce c.d.2.da ſuit one ronaleape tentialier imni coſcantes, e quia terom ſi ad lincom rationalem. a b adungarar iuperuieirco tonnli cmadris inee ac que ct reidmom ent lamo cius ſeeundum lmres t'h er pumma pre la ſcri nerle ater pr peoim v imncs ch ai reitdun pn moms qare conſtai piopoiitom. Amplins aute ſi uince fie pinſe vi proyonit na lot pomio fuent rondlir crnit minon reidnoms vetoi gr li vt puus a b.cinſai.?
-
-[Diagram]
-
-fm gicamn prapomionomn vmalor porio cus que cil a xhit rendlis cue eudae per colia i d̀ eruios er ieria pous quadrains, d h, quntuplun ad quadramn ds at or d̂ cé ronalies cu iola fit omidin, a cſeuit vi euic iunce, d b.z de ſimne ronales porentialier im oicontes qare ut pnins linca ch, eſt rceidunin at vers ſi lyes rondle i peicnuias vn fm paponencn tapoucn medu e tus cmons
+[Diagram: horizontal line with points a, d, c and b]

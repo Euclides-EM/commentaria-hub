@@ -1,31 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-etiam. d.p conel. precedentis. ſicoz eſſent. d.z.c. cõpoliti qo eſt contra pporbe. Gi autẽ. c.z.d. ſunt cõpoſiti erunt etiã.a.b.c. adinuicẽ cõpoliti. Sit eni per premiſſã e. marimus numerans.c.2.d qui etiã p penult. cõcep. numerabit. a.2. b. quare per oiffinitionẽ. a.b. c. ſunt adinuicé cõpoſiti.
+etiam.d.ꝑ correl'.precedentis.ſicqʒ eſſent.d.⁊.c.cõpoſiti qꝺ eſt contra ypothe. Si autẽ.c.⁊.d.ſunt cõpoſiti erunt etiã.a.b.c.adinuicẽ cõpoſiti. Sit eni per premiſſã e.maximus numerans.c.⁊.d.qui etiã ꝑ penul'.cõcep.numerabit.a.⁊.b.quare per diffinitionẽ.a.b.c.ſunt adinuicẽ cõpoſiti.¶Sil'i quoqʒ mõ ſcietur ꝓpoſitis quotlibet pluribus q̃ʒ tribus an omnes ſint ad inuicem cõpoſiti. Propoſitis itaqʒ tribꝰ qui ſunt adinuicem compoſiti.qui etiam ſint.a.b.c.volo inuenire maximũ numerum numerantẽ omnes.Sũmo ſm doctrinã premiſſe.d.maximũ numerantẽ.a.⁊ b.qui ſi numerat.c.ipſe eſt quẽ querimus.alioquin per correl'.precedentis ſequeretur maiorem numerare minorem. Si autem non numerat.c.erũt tamẽ.c.⁊.d.adinuicem cõpoſiti per ypothe.⁊ correl'.precedentis ⁊ diffinitionẽ.ſit igitur maximꝰ eos numerans.e.dico.e.eſſe maximum numerantẽ.a.b.c.Qꝺ enim eos numeret patet per hanc vlt̃.ypothe.que eſt ipſum eſſe maximũ numerantẽ.c.⁊.d.⁊ per penul'.concep.Et ꝙ nullus eo maior numeret eos ſic patet.ſit enim ſi poteſt fieri.f.maior.e.qui numeret.a.b.c.qui cũ numeret.a.⁊.b.numerabit ꝑ correl'.premiſſe.d.⁊ quia etiã numerat.c.numerabit ꝑ idẽ correl'.e.maior videlicet minorem quod eſt impoſſibile.Non erit igitur numerus aliquis maior.e.numerans.a.b.c.qꝺ ẽ propoſitum.¶Simili quoqʒ modo inuenietur maximus numerus numerans quotlibet plures tribus adinuicem compoſitos:vnde nõ oportuit euclidem de pluribus tribus hoc docere:quia idem eſt modus ⁊ ars in tribus ⁊ pluribus. Ex vltimo aũt huius demonſtrationis proceſſu:poſſumus etiam iſtud correl'.huic tertie concluſioni adijcere. Vnde manifeſtum eſt ꝙ omnis numerus numerans quotlibet adinuicem compoſitos:numerat maximum numerantem eos omnes.⁊ etiam maximos numerantes binos ⁊ binos eorum.
 
-¶ Sili quoz mõ ſcietur xpoſitis quorli bet pluribus q̃z tribus an omnes ſint ad inuicem cõpoliti. Propoſitis itagz trib qui ſunt adinuicem compoſiti. qui ctiam ſint.a.b. c. volo inuenire marimũ nume.
+[Diagram: two columns of three horizontal segments labelled a, b and c on the left and d, e and f on the right]
 
-[Diagram]
+## Propoſitio .4.
 
-rum numeranté omnes. Gũmo bm ooctrinã premiſſe. d. maximũ numeranté. a.2 b. qui ſi numerat. c.ipſe eſt quẽ querimus. alioquin per conel. precedentis ſcqucre tur maiorem numerare minorem. Si autem non numerat.c erũt tamẽ.c. 2. d.ad inuicem cõpoliti per yporbe.z conel. precedentis e oiffinitionẽ. ſit igitur marim' eos numerans.e.oico. c. eſſe marimum numerantẽ.a.b.c. Oo enim eos numeret patct per banc vlt.ypotbe, que eſt ipſum eſle maximũ numerantẽ. c.2.d.z per pe nult. concep. Et g nullus eo maior numeret eos lic patet. ſit enim ſi poteſt fieri.f. maior.e, qui numeret. a.b.c. qui cũ numerct. a.2.b. numerabit pconel. premiſſe.d quia ctiã numerat. c. numerabit p idẽ conel. c. maior videlicet minorem quod eſt impoſfibile. Ion erit igitur numerus aliqnis maior.e. numerans. a.b.c.qbẽ proꝰ politum.
+{dropcap:O|lines=3|style=decorated|decoration="white foliate ornament on black ground"}Mnium duorum numerorũ inequalium minor maioris aut pars eſt:aut partes.
 
-¶ Simili quoz modo inuenietur mayimus numerus numerans quorli bet plures tribus adinuicem compolitos: vnde nõ oportuit eudidem oe pluribus tribus boc pocerc: quia idem eſt modns z ars in tribus ⁊ pluribus. Ex vltimo aũt buius bemonſtrationis proceſſu: poſſumus etiam iſtud conel. buic tetrie condu, ſioni adijcere. Inde manifeſtum eſt ꝙ omnis numerus numerans quorlibct ad inuicem compoſitos: numerat marimum numerantem eos omnes. z etiam mayi. mos numerantes binos z binos corum.
+¶Sint duo numeri.a.⁊.b.b.minor.dico ꝙ.b.eſt pars vel ptes.a. Aut eni.b.numerat.a.aut nõ.ſi numerat pars eius ẽ ꝑ diffinitionẽ Si nõ numerat ipſum.aut ergo ſunt adinuicem primi aut nõ:ſi non ſunt adinuicem primi:habebunt per diffinitionem partem cõmuneʒ:que quotiẽs fuerit in.b.tot partes.a.dicetur eſſe.b.per diffinitionem.ſi autem ſint adinuicem primi:quia tamen omnis numeri pars eſt vnitas ab ipſo denominata.patet ideʒ per vnitates.
 
-## IPropoſitio.a.
+[Diagram: two horizontal lines labelled a and b]
 
-{dropcap:[illegible]|lines=5|style=decorated}nium ouorum numerorũ inequalium minor maioris laut pars eſt: aut partes.
+## Propoſitio 5.
 
-¶ Sint ouo numeri.a. 2. b.b. minon. bico ꝙ.b. eſt pars vel ptes.a.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerit quatuor numeri quorum primus tota pars ſecundi quota tertius quarti:erunt primus ⁊ tertius pariter accepti tota pars ſecundi ⁊ quarti pariter acceptorum quota primus ſecundi.
 
-[Diagram]
+¶Volens euclides hos libros de numeris aliquo precedentium non indigere ſed per ſe ipſos ſtare:parteʒ eius qꝺ propoſuit per primã quinti de quãtitatibus in genere:proponit per hanc quintã huius ſeptimi de numeris.Sint igitur.4.numeri.a.b.c.d.ſitqʒ.b.tota pars.a.quota.d.c.dico ꝙ.b.⁊.d.pariter accepti ſũt tota pars.a.⁊.c.pariter acceptoꝝ:quota.b.eſt.a.diuiſis eni.a.⁊.c.ſcꝺm quãtitatẽ.b.⁊.d.argumẽtare ſicut in p̃ma quinti.erit eni ut totidẽ ſunt ptes.a.quot.c.per poſitionẽ:⁊ ut aggregatũ ex p̃ma pte.a.⁊ p̃ma.c.ſit equale aggregato ex.b.⁊.d.ſimiliter quoqʒ ⁊ aggregatũ ex ſcꝺa pte.a.⁊ ſcꝺa.c.⁊ qr hec aggregatio
 
-Aut eni.b.numerat. a.aut nõ. ſi numerat pars eius ẽ p oiffinitionẽ Li nõ numerat ipfum. aut ergo ſunt adinuicem primi aut nõ:ſi uon sunt adinuicem primi: babebunt per piffinitioncm partem cõmunez: que quotiẽs fucrit in. b. tot partes.a.vicctur eſſe. b. per oiffinitionem. ſi autem ſint adinuicem primi:quia tamen omnis numeri pars eſt vniras ab iplo penominata., patct idey per vnitates.
-
-## PPropoſitio ;.
-
-{dropcap:[illegible]|lines=5|style=decorated}J fuerit quatuor uumeri quorum primus tota pars ſecun Adi quota tertius quarti: erunt primus ⁊ tertins pariter acꝰ cepti tora pars ſecundi z quarti pariter acceptorum quol lta primus lecundi.
-
-¶ Lolens eucides bos libros be numcris aliquo precedentium non indigere ſed per ſe iplos ſtare: partez cius qo propoſuit pcr primã quinti de quãꝰ titaribus in gencre: proponit per banc quintã buius ſcptimi de numeris. Sint igi
-
-[Diagram]
-
-tur. a numeri. a. b.c. d.ſitoy. b. tota pars.a, quota d.c.oico ꝙ.b. t. d. pariter aci ccpti ſũt tota pars. a.1.c. pariter acceptoy: quota.b.eſt. a. biuiſis eni.a. 2.c.ſcom quãtitatẽ. b.z. d.argumnétare ſicut in prma quinti, erit eni ut totide ſunt pres.a. quot.c. pcr poſitionẽ: z ut aggregatũ ex pma pte.a.z pma.c.fit equalc aggregato Y.b.z. d. ſimiliter quog aggregatũ cx ſcoa pre la.z ſcoa.c. z q bec aggregario
+[Diagram: two columns of segments, labelled b and a with a longer line beneath on the left, and d and e with a longer line beneath on the right]

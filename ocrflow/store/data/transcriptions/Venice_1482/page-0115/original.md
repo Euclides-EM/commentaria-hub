@@ -1,29 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VII -->
 
-mueniant. d.. c.erit. d.ad.c.ſicut. b. ad. c.crit eni p ante pmiſſã ut ex.a.in.b.4. c?
+ꝓueniant.d.⁊.e.erit.d.ad.e.ſicut.b.ad.c.erit eni ꝑ ante p̃miſſã ut ex.a.in.b.⁊.c.fiãt.d.⁊.e:q̃re ꝑ p̃miſſã.d.ad.e.ſicut.b.ad.c.qꝺ ẽ ꝓpoſitũ:¶Potes aũt qꝺ proponit ꝑ hanc ⁊ p̃miſſã de duobus numeris ad quotlibet numeros ampliare:ꝙ ſi vnus multiplicet quotlibet erit ꝓductoꝝ ⁊ multiplicatoꝝ vna ꝓportio.Silʼr quoqʒ ſi quotlibet multiplicẽt vnũ erit ꝓductoꝝ ⁊ multiplicantium vna ꝓportio qꝺ ꝑ hãc ⁊ premiſſã quotiens oportuerit repetitas facile ꝓbabis.Hic aũt ut ſupra polliciti ſumus demõſtrare volumus equã ꝓportionalitatẽ in quotlibet numeris duoꝝ ordinũ indirecte ꝓportionalitatis quã demõſtrat euclides ꝑ.23.quinti ī quantitatibus in genere:dicim⁹ igitur quoniã.
 
-[Diagram]
+[Diagram: segments labelled d, e, a, b and c with the numbers 8, 12, 4, 2 and 3]
 
-fiãt, d.z.e: q̃re ppremiſſã. d.ad.e.ſicut.b.ad.c.qbẽ ppolitũ:
+¶Si quotlibet numeri totidẽ alijs fuerint indirecte proportionales extremi quoqʒ in eadem ꝓportione proportionales erunt.
 
-¶ Potes aũt qo pro ponit pbanc z pmiſſã oe ouobus numeris ad quotlibet numeros ampliare : ꝙ ſi euns multiplicet quorlibct erit pductoy z multiplicatoy vna pportio. Silr ouonz ſi quollibet multiplicẽt vnũ crit pductoy z multiplicantium vna ꝓportio qo pbãc z premiſſã quotiens oportuerit repetitas facile ꝓbabis. Dic aũt ui ſupra pollirici ſumus demõſtrare volumus cquã ꝓportionalitatẽ in quorlibet numeris ouoy onr, dinũ indirccte ꝓportionalitatis quã demõſtrat euclides paaz quinti i quantitati, bus in genere: oicimꝰ igitur quoniã.
+¶Vt ſi ſit.a.ad.b.ſicut.d.ad.f.⁊.b.ad.e.ſicut.c.ad.d.erit.a.ad.e.ſicut.c.ad.f.ducatur eni.c.in.d.⁊.f.⁊ ꝓueniant.g.⁊.h.eritqʒ per premiſſam.g.ad.h.ſicut.d ad.f.quare ⁊ ſicut.a.ad.b.ducat̃.itẽ.f.in.d.⁊ ꝓueniat.k.eritqʒ per hanc.19.g.ad k.ſicut.c.ad.f.⁊ qꝛ ex.f.in.d.fit.k.fiet idem ecõuerſo ꝑ.10.ex.d.in.f.quia igit̃ ex c.⁊.d.in.f.fiunt.h.⁊.k.erit ꝑ hanc.19.h.ad.k.ſicut.c.ad.d.quare ſicut.b.ad.e.et qꝛ iam oſtenſum eſt ꝙ ẽ.g.ad.h.ſicut.a.ad.b.erit ꝑ.15.a.ad.e.ſicut.g.ad.k.ſed ſic erat etiam.c.ad.f.eſt igitur.a.ad.e.ſicut.c.ad.f.quod eſt propoſitum.Idem probabis ſi fuerint in vtroqʒ ordine numeri plures tribus quẽadmodum ꝓbatur in 23.quinti de quantitatib⁹ plurib⁹ trib⁹.
 
-¶ Si quotlibet numeri totidẽ alijs fuerint indirecte proportionales crtremi quoqz in eadem pportione proportionales erunt.
+[Diagram: segments labelled a, c and g, above segments labelled b, d and h, above segments labelled e, f and k]
 
-¶ Bt ſi ſit.a.ad.b.ſicut. d.ad.f.. b.ad.e.ſicut.c.ad.d.erit.a. ad.e. ſicut. c. ad.f.
+## Propoſitio .20.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint quatuor numeri proportiõales qꝺ ex ductu primi in vltimũ ꝓducetur equũ erit ei qꝺ ex ductu ſecundi in tertiũ.Si vero qꝺ ex primo ī vltimũ ꝓducet̃ equũ ẽ ei qꝺ ex ſecundo in tertiũ:illi quatuor numeri ſũt ꝓportiõales.
 
-oucatur eni.c.in. d.2.f.z proucniant.g.z. h.crit per preniiſſam.g.ad. b. ſicut. d ad. f. quare z ſicut.a.ad.b.oucai. itẽ.f.in. d. gueniat. R. eritaz per banc. 19. g.ad E.ſicut. c.ad. f.qr ey.f.in. d.fit. R. fiet idem ecõuerſo p.io. cy. d. in. f. quia igii ey .z. d.in.f.fiunt. b. 2.E. crit pbanc. 19. b.ad.E. ſicut.c.ad. d.quare ſicut. b.ad.c. ct qr iam oſtenſum eſt q ẽ.s.ad.b.ſicut. a.ad.b. erit paiz. a.ad.e. ficut. g. ad.E ſcd ſic crat ctiam.c.ad.f.eſt igitur.a.ad.e.ſicut. c.ad.f. quod eſt propoſitum. Idem proꝰ babis ſi fucrint in vtrooz ordine numeri plures tribus quẽadmodum probatur in 23 quinti de quantitatib? pluribꝰ tribꝰ.
+¶Quod propoſuit euclides per.15.ſexti de quatuor lineis ꝓportionalibus:ꝓponit hic de quatuor numeris ꝓportionalibus.verbi gratia.Sit ꝓportio.a.ad.b.ſicut.c.ad.d.fiatqʒ ex.a.in.d.e.⁊ ex.b.in.c.f.dico ꝙ.e.⁊.f.ſunt equales econuerſo:ducatur enim.a.in.b.⁊ fiat.g.eritqʒ per.18.g.ad.e.ſicut.b.ad.d.et qꝛ per.17.ex.b.in.a.fit.g.⁊ ex eodẽ.b.ī.c.f.erit ꝑ.18.g.ad.f.ſicut.a.ad.c.ſed ꝑ.14.eſt.a.ad.c.ſicut.b.ad.d.ergo erit.g.ad.f.ſicut.g.ad.e.eq̃les igit̃ ſũt.f.⁊.e.qꝺ eſt p̃mũ.Nec oportet p̃demõſtrare ſi vni⁹ numeri ad duos ſit vna ꝓportio ꝙ ipſi ſũt eq̃les:aut ſi ipſi ſũt eq̃les ꝙ vni⁹ ad ipſos ſit vna ꝓportio.Si enim eſt vna proportio.g.ad.e.⁊ ad.f.aut ipſe erit tota pars vel partes.e.quota vel quote idem eſt.f.⁊ tunc per conceptionem patet.e.⁊.f.eſſe eq̃les:aut totiens.g.continebit.e.quotiens.f.⁊ ſuperfluent in eo tota pars vel partes.e.quota vel quote in eodem ſuperfluent.f.⁊ tũc etiam per conceptionẽ patet eos eſſe equales.Qꝺ ſi ipſi fuerint equales patet per conceptionẽ ꝙ aut.g.erit tota pars vel partes.e.quota vel quote.f.⁊ tunc per diffinitionem erit ipſius.g.ad vtrumqʒ eorum proportio vna:aut equaliter continebit vtrunqʒ cum ſuperfluitate ſimilium ⁊ tot numero partium:⁊ tunc etiam per diffinitionem erit eius ad vtrunqʒ proportio vna.¶Secundũ ſic patet:ſit.e.productus ex.a.in.d.equalis.f.ꝓducto ex.b.in.c.dico ꝙ ꝓportio.a.ad.b.eſt ſicut.c.ad.d.⁊ eſt hec conuerſa prime partis.Sit enim vt prius
 
-## Propoſitio .20
-
-{dropcap:[illegible]|lines=5|style=decorated}fuerint quatuor numeri proportiõales qo er ouctu pri mi in vltimũ pducetur cquũ erit ei qo ex ouctu ſecundi i tertiũ. Si vero qo cr primoĩ vltimũ pducet equũ ẽ ci qõ ex ſecundo in tertiũ:illi quatuoz numeri ſũt pportiõales.
-
-¶ Ouod propoſuit euclides per.i5. ſeyti de quatuor lineis pportio?
-
-[Diagram]
-
-nalibons: pponit bic oe quatuoz numeris pportionalibus. verbi gratia. Sit ppor tio.a.ad.b.ſicut.c.ad. d.fiatqy er. a.in. d.e.⁊ey.b.in.c.f. Oico ꝙ.c.2.f.ſunt equa. les econuerſo: oucatur enim. a.m.b. z fiat.g.eritaz per.18. g.ad.e.ſicut.b. ad.d. et qr pcr.ix. cY. b.in. a.fit.g.z ey codẽ. b.i. c.f.erit p.1s. g.ad.f.ſicut.a.ad.c. ſed peia¬ eſt.a.ad.c. ficut. b.ad. d.ergo crit.g.ad.f.ſicnt.g.ad.e. cq̃les igit ſũt.f. 1.e. qdeſt bnũ. Iec oportet pdemõſtrare ſi oniꝰ numeri ad ouos ſit vna pportio g ipli ſũt cq̃les: aut ſi ipli ſũt eq̃les ꝙ vniꝰ ad ipſos ſit vna ꝓportio. Si enim eſt vna pro! portio.g.ad.c. ad.f.aut iple erit tota pars vel partes. c. quota vel quote idem eſt.f.t tunc per conceptionem paiet.e. 2.f.eſſe cq̃lcs: aut totiens.g. contincbit.e. quotiens.f.z ſuperlluent in co tora pars vel partes.e. quota vel quote in eodem ſupcrfluent.f.z tũc ctiam per conceptionẽ patet cos eſſe cquales. Do ſi ipſi fue? rint equales patet per conceptionẽ ꝙ aut. g. erir tota pars vel partes. e. quota vel quote.f.z tunc per oiffinitionem crit ipſius. g. ad vtrumz eorum proportio vna: aut equalitcr contincbit vtrunz cum ſuperfluitate ſimilium z tot numero par! tium: e tunc etiam per oiffinitionem erit eius ad vtrunqz proportio vna.
-
-¶&e? cundũ ſic patet: ſit.e. producius ey.a.in. d.cqualis. f. pducto ey. b.in.c. dico ꝙꝓl portio. a.ad.b. eſt ſicut.c.ad.d.z eſt bec conuerſa prime partis. Sit enim vt prius
+[Diagram: segments labelled e, g and f, above segments labelled a and c, above segments labelled b and d]

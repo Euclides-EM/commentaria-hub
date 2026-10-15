@@ -1,59 +1,57 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: IX -->
 
-us aut compoſitus.ſi primus conſtar ꝓpolitum.ſi compolitus numerat
+eſt pꝛimus aut compoſitus.ſi pꝛimus conſtat ꝓpoſitum.ſi compoſitus numerat eũ aliquis pꝛimus qui ſit.h.quẽ non eſt poſſibile eſſe aliquẽ ex pꝛimis ꝓpoſitis.ſi eni eſſet aliquis eoꝝ cũ quilibet ipſoꝝ numeret.d.f.ipſe quoqʒ numeraret eundẽ: at qꝛ numerat.d.g.oporteret ipſuʒ numerare.f.g.qui eſt vnitas qd̃:eſt impoſſibile Jdẽ ſequitur poſito.d.f.quolibet numero quẽ numerant.a.b.c.q̃re ꝯſtat ꝓpoſitũ
 
-[Diagram]
+## Pꝛopoſitio .22.
 
-iis primus qui ſit.D. quẽ non eſt poſſibile eſſe aliquẽ ex primis ꝓpolitis. ſi aliquis coy cũ quilibet ipſoꝑ numeret. d. f.ipſe quoqz numeraret eundẽ: merat. d.g- oporteret ipſuz numerare. f.g.qui eſt vnitas qoͬeſt impoſſibile aitur poſito. d.f, quolibet numero que numcrant. a.b.c.q̃re oſtat ppolitũ
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I coaceruentur quotlibet numeri pares:totus quoqʒ ab eis coaceruatus erit par.
 
-## Propoſitio.22.
+¶Sit quiſqʒ numeroꝝ.a.b.c.par:dico ex eis cõpoſitũ eẽ parem.habet eni ex cõuerſione diffinitionis quiſqʒ eoꝝ medietatẽ.ſint ergo eorum medietates.d.e.f.qꝛ igitur ſicut.a.ad.d.ſic.b.ad.e.⁊.c.ad.f.erit ex.13.ſeptimi ſicut.a.ad.d.itaqʒ totꝰ.a.b.c.ad totum.d.e.f.itaqʒ.d.e.f.eſt medietas.a.b.c.ergo per diffinitionem.a.b.c.eſt par:quod eſt propoſitum.
 
-{dropcap:[illegible]|lines=5|style=decorated}J coaceruentur quotlibet numcri pares: totus quoz ab cis coaceruatus erit par.
+## Pꝛopoſitio .23.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I numeri impares numero pares coaceruent̃:totus quoqʒ ex eis coaceruatus erit par.
 
-¶ Sit quiſay numeroy. a.b.c. par: oico ey eis cõpolitũ cẽ parem. ba bet eni ex couerſione biffinitionis quilz eoy medietatẽ. ſint ergo eo lrum medietatef. d.e.f.q igitur ſicut. a. ad.d.ſic.b.ad.e.2.c.ad.f.erit otimi ſicut. a.ad. d.itaz totꝰ. a.b.c.ad totum. d.e.f.itaqz. d.e.f. eſt medie C.ergo per oiffinitioncin. a. b.c.eſt par: quod eſt propoſitum.
+¶Sit quilibet numeroꝝ.a.b.c.d.impar:dico ex eis compoſitum eſſe parem:dempta enim a quolibet vnitate cõſtat reſiduos eſſe pares:⁊ qꝛ ille vnitates dempte cõponũt parẽ.cũ ſint numero pares:conſtat propoſitum per premiſſam.
 
-## PPropoſitio . 23.
+## Pꝛopoſitio .24.
 
-{dropcap:[illegible]|lines=5|style=decorated}J numeri impares numero pares coaceruent: totus quoͬ qer eis coaceruatus erit par. ( Sit quilibet numeroy. a.b.c.d.impar: oico ey eis compoſitum eſſe
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I numeri impares numero impares coaceruentur:totum quoqʒ ex eis coaceruatum imparem eſſe.
 
-[Diagram]
+¶Sit quilibet numeroꝝ.a.b.c.impar:dico totũ ex eis cõpoſitũ eſſe imparem.erit eni per p̃miſſam cõpoſitus ex.a.⁊.b.par:⁊ qꝛ.c.dempta vnitate eſt par erit per ante premiſſã totus.a.b.c.dempta vnitate par:per diffinitionem itaqʒ conſtat totum eſſe imparem.
 
-parem: dempta cnim a quolibet vnitate cõſtat reliduos eſſe pares:z qu ille vnitates dempte cõponũt parẽ. cũ ſint numero pares: conſtat tum per premiſſam. Propoſitio 2a¬
+## Pꝛopoſitio .25.
 
-## [illegible]
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I a numero pari numerus par detrahat̃ reliquus erit par
 
-{dropcap:[illegible]|lines=5|style=decorated}J numert impares numero impares coaceruentur: totum quoqz ey eis coaceruatum imparem eſſe.
+¶Sit totus.a.par a quo detrahat̃.b.qui quoqʒ ſit par:⁊ reſiduꝰ ſit c.dico.c.eſſe parẽ.ſit eni.d.medietas.a.e.quoqʒ ſit medietas.b.detractoqʒ.e.de.d.ſit reliquus.f.erit p̃.14.ſeptimi.c.ad.f.ſicut.a.ad.d.quare.f.ẽ medietas.itaqʒ.c.eſt par:qd̃ eſt propoſitum.
 
-¶ Sit quilibet numeroy. a.b. c.impar: oico torũ ey eis cõpoſitũ eſſe
+## Pꝛopoſitio .26.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I a numero impari detrahat̃ impar reliquus erit par.
 
-limparein, crit eni per piniſſam cõpoſitus cy. a.2.b. par:z qu.c. oemn? lpta vnirate eſt par erit per ante prciiſſã totus.a.b.c. oempta vnita er oiffimtioncin ira conſtat totum eſſe imparem. Sropoſitio a5. {dropcap:[illegible]|lines=5|style=decorated}J a numero part numerus par ogtrabatreliquus erit par
+¶Sit.a.b.numerꝰ impar a quo detrahat̃.b.c.qui etiã ſit impar:dico reliquum qui eſt.a.c.eſſe parẽ:detrahatur eni ab vtroqʒ duorum numeroꝝ.a.b.⁊.b.c.vnitas q̃ ſit.b.d.eritqʒ vterqʒ duoꝝ reſiduoꝝ q̃ ſũt.a.d.⁊.d.c.par ꝑ p̃miſſã itaqʒ conſtat.a.c.eẽ parẽ:qd̃ ẽ ꝓpoſitũ.
 
-¶ Sit totus.a, par a quo octrabai. b. qui quoax ſit par :z reſiduꝰ ſit
+## Pꝛopoſitio .27.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I a numero impari numerũ parẽ ſubtrahas qui relinquitur impar eſt.
 
-c. oico.c. eſſe parẽ. ſit eni. d.medietas. a.e. quoz ſit medietas. b. oe? ractoqz. c. de. d.ſit rcliquus. f. erit paay ſeptimi.c.ad.f. ficut.a. ad. d. quare. f.ẽ medietas. iradz.c. eſt par: qu eſt propolitum.
+¶Sit.a.b.impar:a quo detrahatur.a.c.qui ſit par:dico.c.b.reſiduũ eẽ imparẽ.ſit eni.b.d.vnitas:eritqʒ.a.d.par ⁊ qꝛ.a.c.ẽ par erit ꝑ.25.c.d.par cũ itaqʒ ſit.d.b.vnitas erit.c.b.impar:qd̃ eſt propoſitum.
 
-## Propoſitio as¬
+## Pꝛopoſitio .28.
 
-{dropcap:[illegible]|lines=5|style=decorated}V a numero impari oetrabat impar reliquus erit par.
+[Diagram: three horizontal segments labelled a, b and c, with segments labelled d, e and f below, and a segment labelled h below]
 
-¶ Sit. a.b. numer'impar a quo oetrabai .b.c. qui etiã ſit unpar: oi?
+[Diagram: three horizontal segments labelled a, b and c, with segments labelled d, e and f below]
 
-[Diagram]
+[Diagram: a horizontal line divided into segments labelled a, b, c and d]
 
-co reliquum qui eſt. a.c. eſſe pare: octrabatur eni ab vtrooz ouorm numeroy. a.b.2.b.c. vnitas q̃ fit.b. d.eritoz vreray ouoy reliduoy q̃ sũt.a.d..d.c. par pp̃millã iraoz conſtat.a.c.ce parẽ:qo ẽ xpolitũ.
+[Diagram: a horizontal line divided into segments labelled a, b and c]
 
-## Propoſitio .27
+[Diagram: a horizontal segment labelled a, with segments labelled b, d and c below, and segments labelled e and f below]
 
-{dropcap:[illegible]|lines=5|style=decorated}J a numero impari numerũ parẽ ſubrrabas qui relinqui tur impar eſt.
+[Diagram: a horizontal line with points labelled a, c, d and b, with a short segment below]
 
-¶Git. a. b.impar: a'quo bctrabatur. a. c, qui ſit par: oico.c. b. reſidnũ ce imparẽ. ſit eni.b. d. vnitas: eritoy.a. d. par ⁊ qu.a.c.ẽ par crit p'aas le d.par cũ itaq; ſit. d.b. vnitas enit.c.b.impar: qb eſt propoſitum. lropoſitio 2.
+[Diagram: a horizontal line with points labelled a, c, d and b, with a short segment below]
 
-## [illegible]
-
-2
+<!-- Signature: i 2 -->

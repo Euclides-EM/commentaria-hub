@@ -1,31 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-gonaliter ſup cetrũ.e.a q̃y euronitatbus ouco i vrrãgy pre lincas onlboyonalier
+[Margin]
+[Diagram: square f.k.h.g with inscribed circle a.b.c.d about centre e and two diameters crossing at e]
+[Diagram: square a.d.c.b with midpoints f, g, h and e of its sides, lines crossing at the centre k, and inscribed circle]
+[Diagram: circle with inscribed square a.b.c.d and its two diagonals]
+[/Margin]
 
-[Diagram]
+[Handwritten]
+hec ꝓpoſitio [unclear: extrahitur] ex [unclear: .9ª.13.]
+[/Handwritten]
 
-ououſos quubet eay ocurrat cũ onab' lateralib'ſintax pucra ycurſus cay. f.8.b.h. critoy p concl.is tertij vrerqy anguloy qui ſũt ad vnuiquéqy quatuor puictoy. a b. e. d rccuuo: quia crgo in quadrlaicro.a h.c. tres anguli a. b.2 c. ſunt recu ent quartus angulus qui eſt. f.rccus: abet enimn quodlibpet quadriaterum quatuor. anqulos cquales qtuon rectlorvt pononſtratumn et ſupra.ya pnimi : eadem ronc omuiper anguloron, oh. s I. erit recmorcrpo per ſccuidam partemn. a primi, eue lince fp.a Rh. Jteiqy oue. I.R. 2.g.b ſunt cquiditantes ergo per.y a puimi.fil elt equalis. g.h.4.f.g.R.b.⁊ quia pcande. f'l.eſt cqualis. b.d.1. f.6.a.c. At vero b. d. oſt cqualis. a c.cruir quamorlince.f.l.gb.f.5.2. E.h, cqualeo: ſed e quatuor angui .p le l. funt re vt probatum cit pnus. crgo.f.s. Eh. eſt quadratom per piffimitionẽ quod eſt propoſitum.
+gonaliter ſup cẽtrũ.e.a q̃ꝝ extremitatibus duco ĩ vtrãqʒ ptẽ lineas orthogonaliter quouſqʒ q̃libet eaꝝ ꝯcurrat cũ duab⁹ lateralib⁹ſintqʒ pũcta ꝯcurſus eaꝝ.f.g.h.k. eritqʒ ꝑ correl'.15.tertij vterqʒ anguloꝝ qui ſũt ad vnũquẽqʒ quatuor pũctoꝝ.a.b.c.d.rectus:quia ergo in quadrilatero.a.f.b.e.tres anguli.a.b.⁊.e.ſunt recti: erit quartus angulus qui eſt.f.rectus:habet enim quodlibet quadrilaterum quatuor angulos equales q̃tuor rectis: vt demonſtratum eſt ſupra.32.primi :eadem rõne quilibet angulorum.g.h.⁊.k.erit rectus:ergo per ſecũdam partem.28.primi. due linee.f.g.⁊.k.h. Jtemqʒ due.f.k.⁊.g.h.ſunt equidiſtantes.ergo per.34.primi.f.k. eſt equalis.g.h.⁊.f.g.k.h.⁊ quia ꝑ eandẽ.f.k.eſt equalis.b.d.⁊.f.g.a.c. At vero b.d.eſt equalis.a.c.erũt quatuor linee.f.k.g.h.f.g.⁊.k.h. equales: ſed ⁊ quatuor anguli.f.g.k.h. ſunt recti :vt probatum eſt prius. ergo.f.g.k.h. eſt quadratum per diffinitionẽ quod eſt propoſitum.
 
-[Diagram]
+## Propoſitio .8.
 
-## PPropoſitio.8.
+{dropcap:I|lines=5|style=decorated|decoration="foliate initial on black ground"}Ntra quadratum aſſignatum circulum deſcribere.¶Sit quadratum aſſignatum.a.b.c.d.volo intra ipſum deſcribere circuluʒ hec eſt quaſi conuerſa.6.diuido vnũqõqʒ latus eius ꝑ equalia.a.d.quidẽ in puncto.f.b.a.in puncto.g.c.b.in puncto.h.⁊.d.c.in puncto.e.⁊ produco lineas.e.g.⁊.f.h.ſecantes ſe in pũcto.k.quẽ dico eſſe centrum circuli.erit eniʒ.f.h.equidiſtans ⁊ equalis.a.b.per.33.primi:ꝓpter id quod.a.f.⁊.b.h.ſunt equales ⁊ equidiſtantes.Similiter per eandem ⁊.d.c.a.b.⁊ quia omnes medietates quatuor laterũ ipſius quadrati ſunt adinuicẽ equales erunt per.34.primi:quatuor linee.k.e.k.f.k.g.⁊.k.h.equales.ergo per.9.tertij.k.eſt centrum circuli queſiti.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mtra quadratum aſſignatuim circulum oeſcribere.
+## Propoſitio .9.
 
-¶ Sit quadratum aſſignatumn. a. b.c. d. volo intra ipſun oeſcribere circulu bec eſt quaſi conucrſa.s. ouuido vnuiqboy latus eius p cqus lia. a.d. quidé in puncto.f.b.a.in pincto.s.c.b.in puncto.h.z.d.c. Il in puncto.c. cprodnco lincas.c.p s.f.h. ſecantes ſe in pucto. Eque oico clle centrumn circuli. crit eniy. f.b. cquidiſtans z cqualis. a. b.per.33 primi: p pier id quod.a.f.c. d.h.ſunt cquales e cquiditantes. Similiter per candem e.d̃c a. b.t quia omncs medierarcs quatuor laterui ipfius quadran ſunt adinuicé cqua lco crunt per, aa primisquatuorlinec. h.e. Rf.E.5.E. l. h, cquales. crgo per.9 leri tij.h. eſt centrum circuli queſiti.
+{dropcap:C|lines=5|style=decorated|decoration="foliate initial on black ground"}Irca aſſignatum quadratum circulum deſcribere.¶Sit quadratum.a.b.c.d.volo circa ipſum circuluʒ deſcribere.hec eſt quaſi conuerſa.7. Protraho in ipſo duas diametros.a.c.⁊.b.d.ſecantes ſe in puncto.e.quẽ dico eſſe centrum circuli. Cum enĩ linee.a.d.⁊.a.b.ſint equales erũt per.5.primi: anguli.a.d.b.⁊.a.b.d.equales.⁊ quia angulus.a.totalis eſt rectus.erit per.32.primi:vterqʒ eorum medietas recti.¶Simili quoqʒ modo ꝓbabitur quẽlibet partialiũ angulorum a predictis diametris ⁊ laterib⁹ quadrati propoſiti contentorum eſſe medietatem recti quia igitur angulus.e.a.d.eſt equalis angulo.e.d.a.erit per.9.primi:linea.e.a. equalis linee.e.d.eadem rõne erit.e.a.equalis.e.b.⁊.e.c.equalis.e.d.quare quia quatuor linee.e.a.e.b.e.c.e.d.ſunt equales.erit per.9.tertii.e.centruʒ circuli queſiti.quod eſt propoſitum.
 
-## Propoſitio.9.
+## Propoſitio .10.
 
-{dropcap:[illegible]|lines=5|style=decorated}Jrca allignatum qua aratnm circnlum oeſcribere.
+{dropcap:D|lines=5|style=decorated|decoration="foliate initial on black ground"}Uum equaliuʒ laterum triangulum deſignare. cuius vterqʒ duorum angulorum quos baſis optinet. reliquo duplus exiſtat.
 
-¶ Sit quadratum.a.b.c.d.volo circa ipſum circuluy deſcribere. hec
-
-[Diagram]
-
-eſt quaſi conucrſa.x. Protrabo in ipſo onas biamerros.a.c. 2.b.d. ſecantes ſe in puncto.e,que pico eſſe centrum circuli. Cum eni lince Ia.d.s.a b. ſut cquales cruit per.s primi: anguli.a. d.b.t. a. b.d.e qualcs. t ouia angulus. a ioralis cſt rectus. ent per.ya primis vreroy corm med ctas recti. (Simili quoay modo pbabitur quelibet partialiu angulorum a pre oicris piamctris z latcrib' quadran pror oſit contentouum eſſe medieratem rceu ouia igitur angulus. e. a.d.eſt equalis angulo. e.d.a. crit per. o prini:linca.e.d. equalis line:. c. d.cadein rone erit.e. a.cqualis.c.b.t.e.c. cqualis. c. d. quare quia quatuor lince.e.a. c.b.e.c.c. d.ſunt cquales, crit per.q- tertii e.centruz circuli que. fiti, quod eſt propoſitum.
-
-## Propoſitio.io.
-
-{dropcap:[illegible]|lines=5|style=decorated}Mum equaliuz laterum triangulum deſignare. cuius vter qz ouorum angulorum quos baſis optinet. reliquo ou, plus eriſtat. Tntentio ẽ oeſcribere vnũ triangulũ ouũ cq̃liũ latey z tertii incq̃lis cuiꝰvrerqz angulon q ſup lat'qo e reliqs i eqle eriſtũt ad rcrtiũ ou? plus criſtat. Ad boc aut faciedu ſumat. linca q̃uber qͥ ſit.a.b. que ouidat fm ꝙ bocet.ii.ſcci in puncro.c.ira q ilo quod fit &y. a bai b.c. ſit cquale quadrato. a.c
-
-ipi MImiri Tifii TiiI riii Tii. Tupilriyruprriyriipii 2 10 13 14 17 18 22 2 19 19 21 12 20 IE
+Intentio ẽ deſcribere vnũ triangulũ duũ eq̃liũ lateꝝ ⁊ tertii ineq̃lis cui⁹vterqʒ anguloꝝ q̃ ſup lat⁹qõ ẽ reliq̃s ĩ eq̃le exiſtũt ad tertiũ duplus exiſtat. Ad hoc aũt faciẽdũ ſumat̃. linea q̃libet q̃ ſit.a.b.que diuidat̃ ſm̃ ꝙ docet.11.ſcõi in puncto.c.ita ꝙ illõ quod fit ex.a.b.ĩ.b.c.ſit equale quadrato.a.c

@@ -1,27 +1,25 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: II -->
 
-myuut:anadratis ouay lincaruin. e.b.c. b.a crgo dempto ab vtriſaz quadrato lil nee c.b crit qo fit ey d.f.in. b.f.z ipfui eſt ſuperficies, d.s cquale quadrato lince ab cmo cenupio ab vrriles paraleiopramo ha ent oudrai. h scqmnle poleio aramo bc.s quia quadratum.hi. eſt quadratum linee. h. b.a paleloyramui.be. prodnoitur cy l.a que eſt couolis a.b.in.a.h patcr factumn eſle propofui.
-
-¶na bos aute faciendun in numeris non laborcx: quis impoiſiboile eſt numerom ſie bis nidie-gt bic vndecima proponit ficut ſcies ſeyti.ap te oocente.
-
-[Diagram]
+primi:quadratis duaꝝ linearum.e.b.⁊.b.a.ergo dempto ab vtriſqʒ quadrato linee.e.b.erit qꝙ fit ex.d.f.in.b.f.⁊ ipſũ eſt ſuperficies.d.g.equale quadrato linee a.b.ergo dempto ab vtriſqʒ paralelogramo.b.d.erit quadratũ.b.f.equale palellogramo.b.c.⁊ quia quadratum.b.f.eſt quadratum linee.h.b.⁊ palellogramũ.b.c. producitur ex.c.a.que eſt equalis.a.b.in.a.h.patet factum eſſe propoſitũ. ¶Ad hoc autẽ faciendum in numeris non labores:quia impoſſibile eſt numerum ſic diuidi:vt hic vndecima proponit ſicut ſcies ſexti.29.te docente.
 
 ## Propoſitio .12.
 
-{dropcap:[illegible]|lines=5|style=decorated}M bis triangulis qui obtulum babent angulum: tanto ca que obtuſum ſubtendit angnlunm: ambobus reliquis lateri bus que obruſim continent angulnm amplins poreſt, quã tu est oocouner bis ſub vno coy arqs ea que ſibi oirecte iũcta ad obrſum angulu a ppẽdiculari eyira dephendit.
+{dropcap:I|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}N his triangulis qui obtuſum habent angulum: tanto ea que obtuſum ſubtendit angulum:ambobus reliquis lateribus que obtuſum continent angulum amplius poteſt.quãtũ eſt qꝙ cõtinetꝛ bis ſub vno eoꝝ:atqʒ ea que ſibi directe iũcta ad obtuſum angulũ a ꝑpẽdiculari extra dephenditꝛ.
 
-¶ Oit triangnlus.a. b.c. habens angulum.a, obtuſumn, a puncto.c. oncat linca pꝰ pendieulario ad linca b a que neccario cader crira rangniu a be alioqin an, aulus obtuſus ellct rcctus aut minor recto pais primisſit ergo..d. perp endicla Pio ſuper imcam a. b. prodncain vio ad d. Dico q ouadratum lateri bcas ſubtenditur angulo obtuſo tanto mauus eſt ouabus quadratis puarum lincarum a.b.e.a.cambicntbous ipſum angulum obtuſum, quantum eſt iludap fit er b. a.in.a.d bis: potena eni lince roipectu q̃drati ſuit eſt. vnde rii picit pofſe linca oucibct qantu in ſe puera pioduoit. Ent eni p'a buiꝰ q̃drati.b. d cquale euos bus quadratis cuarn lincarim. b.a.t.a. d.e ouplo cius qofit cr.b.a.ina. dcr quia quadratum.b.c. pcr penultimam primi eſt cquale quadrato.b.d.⁊ quadrato di caipiun crit cquole quadratis trin lincarumi b'a a.d.2 dc. ⁊ ouplo ciuoos fit cr b’a iaa d'icd pcondé quadr atli..c é cyle quadratis.a.d.1. d.c.crgo q̃ dratomn. b.c.eſt cquale quadratis ouarum lincarum.b.a.2.c.a.⁊ ouplo cius qo fit cylb.a.in.a d quare. b.c.ranto amplius poreſt ouabus iineis. b.a. a.c. quantom ct eupi cus ap fit er b'a ina d. Jans enm pipinuns q rant oicimur polle us nca qucliber quantum in ſe oucta prpducir quod eſt propofitum.
+¶Sit triangulus.a.b.c.habens angulum.a.obtuſum.a puncto.c.ducatꝛ linea ꝑpendicularis ad lineã.b.a.que neceſſario cadet extra triangulũ.a.b.c. alioq̃n angulus obtuſus eſſet rectus aut minor recto ꝑ.16.primi:ſit ergo.c.d. perpendicularis ſuper lineam.a.b. productam vſqʒ ad.d. Dico ꝙ quadratum lateris.b.c.qꝙ ſubtenditur angulo obtuſo tanto maius eſt duabus quadratis duarum linearum a.b.⁊.a.c.ambientibus ipſum angulum obtuſum.quantum eſt illud qꝙ fit ex.b.a.in.a.d.bis: potentia eni linee reſpectu q̃drati ſui eſt. vnde tm̃ dicitꝛ poſſe linea quelibet quantũ in ſe ducta producit. Erit eni ꝑ.4.huiꝰ q̃dratũ.b.d.equale duobus quadratis duarum linearum.b.a.⁊.a.d.⁊ duplo eius qꝙ fit ex.b.a.in.a.d.et quia quadratum.b.c.per penultimam primi eſt equale quadrato.b.d.⁊ quadrato d.c.ipſum erit equale quadratis trium linearum.b.a.a.d.⁊.d.c.⁊ duplo eius qꝙ fit ex.b.a.i.a.d.ſed ꝑ eandẽ quadratũ.a.c.ẽ equale quadratis.a.d.⁊.d.c.ergo q̃dratum.b.c.eſt equale quadratis duarum linearum.b.a.⁊.c.a.⁊ duplo eius qꝙ fit ex.b.a.in.a.d.quare.b.c.tanto amplius poteſt duabus lineis.b.a.a.c. quantum eſt duplũ eius.qꝙ fit ex.b.a.in.a.d. Jam enim diximus ꝙ tantũ dicitur poſſe linea quelibet quantum in ſe ducta producit quod eſt propoſitum.
 
-## Propoſitio.13.
+[Margin]
+[Diagram: obtuse-angled triangle with base b at left and c at right, the side from b extended beyond the obtuse vertex a to a point d above, with lines joining c to a and c to d]
+[/Margin]
 
-{dropcap:[illegible]|lines=5|style=decorated}nis origonij tanto ea que acntum reſpicit angnlũ am
+## Propoſitio .13.
 
-[Diagram]
+{dropcap:O|lines=5|style=decorated|decoration="woodcut initial with rosette and foliate decoration on black ground"}Mnis oxigonij tanto ea que acutum reſpicit angulũ ambobus lateribus angulum acutum continentibus minus poteſt:quãtum eſt qꝙ bis continetur ſub vno eorum cui ꝑpendicularis intra ſuperſtat:eaqʒ ſui parte:que perpendiculari anguloqʒ acuto interiacet.
 
-bobns latcribus angnlum acntnm continentibns minus poteſt: quãtum eſt qo bis continetur ſub vno corum cui p pendicularis intra ſuperſtat: caqz ſui parte: que perpendi culari anguloqz acuto interiacet.
+¶Quod hic proponitur de latere ſubtenſo alicui angulo acuto in triangulo oxigonio veritatem habet de latere ſubtenſo cuilibet angulo acuto in omni triangulo ſiue fiat orthogonius ſiue ambligoniꝰ ſiue oxigonius. ¶Sit ergo in triangulo a.b.c.quicũqʒ triangulus fuerit.angulus.c.acutus qui ſi fuerit oxigonius ducatur ꝑpendicularis ab vtroqʒ anguloꝝ.a.vel.b.ad vtrãqʒ baſim.b.c.vel.a.c.quia cum ſic fuerit ſemper cadet perpendicularis intra triangulum. Si autem ſit ambligonius aut orthogonius ab angulo obtuſo vel recto ducatur perpendicularis ad latus oppoſitũ quã manifeſtũ eſt cadere intra triangulũ:⁊ ut ſimpliciter dicam cum in omni triangulo ſunt duo acuti anguli neceſſario erit alter reliquoꝝ anguloꝛũ. qui ſunt.a.⁊.b.acutus. Ducam igitur perpendicularẽ ad lineam illam que duobus
 
-¶Ouod bic proponitur oc latere ſubreuſo alicui angnlo acuto in triangulo oyi? gonio veritarem babet de latcre ſubrenſo culibet angulo acuto in onni triangu, lo ſine fiat orbogonius ſiue ambligonlꝰ ſine origonins. ( Sit crgo in triangulo a.b.c,quiciiqz trangulus fucrit. angulus. c.acutus qui ſi fucrit oygonius oucatur rpendicularis ab viroay anguloy. a vel.b.ad vtraoy baſimn.b.c. vcl. a.c,quia cuin fic fucrit ſempcr cadcr perpendicularis intra triangnlum. Si antemn ſit ambligor nius aut ortbogonius ab angulo obtuſo vel rccro oucatur perpendicularis ad la tus oppolitui quã mnanifeſtũ eſt cadere intra triangulũ: z ut ſimpliciter oicam cum in omni triangulo ſunt ouo acuti angnli neceſſaro crit alter reliquoy angulori. qui ſint.a.z bacutus. Ducam igitur perpendiularé ad lincamn ilam que oucbus
+[Margin]
+[Diagram: triangle with apex a and base from b at left to c at right, with a perpendicular from a to the point d on the base]
+[/Margin]
 
-<!-- Signature: [illegible] -->
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: b 4 -->

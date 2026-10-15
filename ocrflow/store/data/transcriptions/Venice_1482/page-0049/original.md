@@ -1,27 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: III -->
 
-Aſ h ſunt equales, poſito ergo cõmuni angnlo. b. d. frerit angulus. a. d.f.ennalis nnobus angulis qui ſunt. d. f.l. 2. b. d.f. ſed bi ouo cum angulo.b. ſunt cqualco nuobus rectis per. 3z. primi: ergo angulus a. d.f. cum angulo. b. cquales ouobus rectis. Ied angulus. a. d.f.cum angulo. b. d.f.equinalet ouobus rectis pcr.iy pril mi:ergo angulus. b. d.f. eſt cqualis angulo b. ergo ⁊ angulo. c. per. 2o. bui? a boc eſt nrimum. z quia ouo anguli. c.z. c. ſunt cquales ouobus rectis per. 21. buiꝰ erit angulus.c. cqualis angulo. a. d.f. quod eſt ſcom. Bel iſtud ſcom ſit angulus. a. d.f cum angulo.b. equiualct ouobus rectis. vt premonftratum eſt. ſed angulus. e. cum angulo.b. cquiualct ouobus rectis per. 21.buius. ergo angulus.e. eſt equalis angu lo.a. d.f. quod eſt propoſitum.
+[Margin]
+[Diagram: semicircle on the base line a.b with an inscribed triangle whose apex touches the arc, and at the right the angle c formed by two lines meeting at a right angle]
+[Diagram: circle with k at the top, h at the bottom, a at the left and b at the right, f at the centre, inscribed triangle and lines joining a, k, b and h, with the line d.a extended outside the circle at the upper left and the line a.g at the lower left, and the line a.e extended to e at the upper right, with two angles marked e and c at the right]
+[Diagram: circle touched at a by the tangent line d.a.e, with b at the lower right of the circle and a line from a to b, and at the right the angle c formed by two lines]
+[/Margin]
 
-## PPropoſitio .72.
+d.f.h.ſunt equales.poſito ergo cõmuni angulo.b.d.f:erit angulus.a.d.f.equalis duobus angulis qui ſunt.d.f.h.⁊.b.d.f.ſed hi duo cum angulo.b.ſunt equales duobus rectis per.32.primi:ergo angulus.a.d.f.cum angulo.b.equales duobus rectis.ſed angulus.a.d.f.cum angulo.b.d.f.equiualet duobus rectis per.13.primi:ergo angulus.b.d.f.eſt equalis angulo.b.ergo ⁊ angulo.c.per.20.hui⁹ ⁊ hoc eſt primum.⁊ quia duo anguli.c.⁊.e.ſunt equales duobus rectis per.21.hui⁹ erit angulus.e.equalis angulo.a.d.f.quod eſt ſcõm. Vel iſtud ſcõm ſit angulus.a.d.f cum angulo.b.equiualet duobus rectis.vt premonſtratum eſt.ſed angulus.e.cum angulo.b.equiualet duobus rectis per.21.huius.ergo angulus.e.eſt equalis angulo.a.d.f.quod eſt propoſitum.
 
-{dropcap:[illegible]|lines=5|style=decorated}Aper datam lineam. circuli portionẽ deſcribere capien tem angulum. dato angulu equalem. ſeu rectum. ſeu ma iozem leu minozem recto.
+## Propoſitio .32.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="white foliate ornament on black ground"}Vper datam lineam.circuli portionẽ deſcribere capientem angulum.dato angulo equalem.ſeu rectum.ſeu maiorem ſeu minorem recto.
 
-¶Oit. a. b.linea pata z.c. oatus angulus ſuper lincam a.b. volo pe scribcre vnã circuli portione recipiẽte i circũferẽtia rectilineũ angulũ equalem angulo. c. Si igitur fuerit angulus.c. rectus oiuiſa. a. b. p medium pelcni, bain ſuper cam ſemicirculum. factumoy erit propoſitum. per primam parteni. 3o. buius.
+¶Sit.a.b.linea data ⁊.c.datus angulus ſuper lineam a.b.volo deſcribere vnã circuli portionẽ recipiẽte ĩ circũferẽtia rectilineũ angulũ equalem angulo.c.Si igitur fuerit angulus.c.rectus diuiſa.a.b.ꝑ medium deſcribam ſuper eam ſemicirculum.factumqʒ erit propoſitum.per primam partem.30.huius.¶Si autẽ fit obtuſus ducã lineam.d.a.cum linea.b.a.continentẽ equalẽ angulum angulo.c.⁊ a puncto.a.ducam lineam.a.e.perpendicularem ſup lineam a.d.⁊ ſuper punctũ.b.faciã angulũ ꝑ.23.p̃mi equalẽ angulo.e.a.b.ĩ quo obtuſus excedet rectum.ducta linea.b.f.vſqʒ ad perpendicularem.a.e.eruntqʒ per.6.p̃mi: linee.f.a.⁊ f.b.equales:facto itaqʒ pũcto.f.centro circuli deſcribam ſm quantitatem linee.f.a:circulum.a.b.h.eritqʒ per correl'.15.huius linea.a.d.contingens circulum.quare per premiſſam angulus qui fit in portione.a.b.h.eſt equalis angulo.d.a.b.quare ⁊ angulo.c.quod eſt propoſitum.¶Si autem angulus.c.ſit acutus.producam lineam.a.g:continentem cum linea.a.b.angulum equalem angulo.c.⁊ a puncto.a.ducam.a.e.perpendicularem ad lineam.a.g.⁊ ſuper punctum b.faciam angulum equalem angulo.e.a.b.in quo rectus excedit acutũ.ducta linea b.f.vſqʒ ad perpendiculareʒ.a.e.eruntqʒ per.6.primi linee.f.a.⁊.f.b.equales: facto itaqʒ puncto.f.centro circuli.deſceibam{printer-error-correction:deſcribam} ſm quantitatem linee.f.a.circulum.a.k.b.eritqʒ per correlarium.15.huius linea.a.g.contingens circulũ.quare per premiſſam angulus qui fit in portione.a.k.b.eſt equalis angulo.g.a.b.quare ⁊ angulo.c.quod eſt propoſitum.
 
-¶ Si aute fit obtuſus oucrã lincam. d.a. cum linca. b.a. contincnté cqualẽ angulum angulo.c.z a puncto. a. oucam lincam. a.c. pcrpendicularem ſup lincam
+## Propoſitio .33.
 
-[Diagram]
+{dropcap:A|lines=4|style=decorated|decoration="white foliate ornament on black ground"}Dato circulo:dato angulo.equum angulum capientem portionem abſcindere.
 
-a.d.c ſuper punctũ. b. faciã angulĩ paz pmi cqualé angulo.e. a.b.i quo obtuſus ercedet rectum. oucta linea. b.f. vſy ad pcrpendicularem. a.e. cruntoy per.s pmi: lince. f.a. 2 f.b. cquales: facto itaqy pũcto.f.centro circuli deſcribam bm quantita, tem linee. f.azcirculum. a.b. b. eritoz per conel.15 buius linea. a. d. contingens cir culum. quare per premiſſam angulus qui fit in portione. a.b. b. eſt cqualis angu? lo. d.a. b. quare zangulo.c. quod eſt propoſitum.
+¶Sit.a.b.datus circulus.et.c.datus angulus.volo ergo a circulo.a.b.abſcindere portionem vnam capientem equaleʒ angulum angulo.c.produco lineam.d.a.e.contingentem datum circulum in puncto.a.a quo ducto in circulum lineam.a.b.continentem cum linea.a.e.angulum equalem angulo.c.eritqʒ per.31.huius portio.a.b.exiſtens a parte linee.a.d.recipiens angulum equalem angulo.c.quod eſt propoſitum.
 
-¶ Si autem angulus. c. ſit acu, tus producam lineam. a.g: continentem cum linea.a. b. angnlum equalem angu, lo.c.z a puncto. a. oucam. a.c. perpendicularem ad lincam. a.g.z ſuper punctum b. faciam angulum equalem angulo. c.a.b.in quo rcctus eycedit acutũ. oucta linea b.f. vſz ad pcrpendicularcz. a.e. cruntoz per.s. primi lince. f.a. 2.f.b. equales: fa? cto iragy puncto.f centro circuli. eſceibam bm quantiratei lince. f.a. circulum.a. R. b. critoz per conclarium.15. buius linca. a.g. contingens circulũ quarc per pre? miſſam angulus qui fit in portione. a.E. b.cſt equalis angulo. g.a. b. quare ⁊ an? gulo.c. quod eſt propoſitum.
-
-[Diagram]
-
-## PPropolitio .33.
-
-{dropcap:[illegible]|lines=5|style=decorated}Vato circnlo: dato angulo. cquum angulum capientem portionem abſcindere.
-
-¶ Sit.a.b. oatus circulus.et. c. oatus angulus. volo crgo a circulo. a b.abſcindcre portionem vnam capienten equalez angulum anguꝰ llo.c. prodnco lincam. d.a.e. contingentem oatum circulum in pun? cto. a. a quo oucto in circulum lineam. a. b. continentem cum linea.a.e. angulum cqualem angulo.c, criry per. y1 buius portio.a. b.criſtens a parte lince. a.dreci) piens angulum equalem angulo.c, quod eſt propoſitum.
+<!-- Signature: c 4 -->

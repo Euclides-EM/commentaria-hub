@@ -1,7 +1,5 @@
-[Illustration: small handwritten figure of a standing bearded man]
+[Blank page]
 
-[Other type="Stamp"]
-BIBLIOTHÈQUE DE SAINTE-GENEVIÈVE
-
-SG
+[Other type="stamp"]
+BIBLIOTHÈQUE SAINTE GENEVIÈVE SG
 [/Other]

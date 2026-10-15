@@ -1,31 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-comittibus vcrum elle proponunt: quibus qui vſe ad ſolitum babitun inſtiterit bas ignomre non poterit. Ouicquid autemn in ilis ve coicantia in ſongitndine ct porentia rantum oictum eſt:in bis quog iden opoitet intellgi. nam omnis liuca reiduo comn anicans in longitudine finc in potentia tin ipla ciis eſt rciidommn. ſca ſi commoniat in longimicine: non ſeiom et ppla rcidunn ſea cran ciudé pe reiduum. Ieroi gratia: lues comunicans in longindine rciduo paino cſt rei. duu pnuis e ſccudo coicans eſt ſcci ſic quooy in ceterio: Oo auit linca communi cat reiduo in porentia tantumaipſam quooy netele eſt dſle reſidoum ſed uo ouf¬ den ſpeciei: imo ipoſſiole cſt vr imea commmicans in porctia tanti reiduo pn mo aut ſcoo aut tertio aut quarto aut quinto cadat ſimul cun co ſub caden ſpccie ſed necefle eſt vt ãbo cadãt fimil ſub is' pnmis ſpericbous aut abo ſimul ſus tri buis poſtrenis. Sit iraas cremplil graria. a. reidni cut commicet. b. in longitudi ne: pico q.b.crit rciiduns ouſdie ſpecioi ci.a Adun gatur cnimn lica c. ad lincay a.c cun illa ſit per cuius abſoſione, foit reſidui: c ad. b.ndiignt dia que fitsd. ad quas ſic ſe habeat b ſicut a.ad. c ſiy compoſia er a.a ce. tompolta vero cy b s d ſitf entos cr permtata pporiondlitaic a.ad b ſicut c.ad d.e piy quin n crit. c.ad.f.ſicut.a. ad. b. vel ſicut.c.ad.d cum itaqy a coimnicet cuin b.crit per ioc. tõmunicans cumn. d..c quouy comumicans cun. f. * quia ctiam eſt ncceſſa! no er pernutata proportionaitare. c. ad. c.ſicut. f' ad.d. ſcquitur p'ia vt ſi fuenit e potentior.c. in quadrato lince ſibi coicantis in longimudine vel ſi fonte incomen? ſurabilis:ſit fun liter f.potentio d. at qii omnnis luica comunicans in longitudi ne lincc rationali eſt ſumiliter ili rationalis: ſuniliter oico quia ambe crunt rationa
+comittibus verum eſſe proponunt:quibus qui vſqʒ ad ſolitum habitum inſtiterit has ignorare non poterit.Quicquid autem in illis de cõicantia in longitudine et potentia tantum dictum eſt:in his quoqʒ idem opoꝛtet intelligi.nam omnis linea reſiduo cõmunicans in longitudine ſiue in potentia tm̃ ipſa etiã eſt reſiduum.ſed ſi communicat in longitudine:non ſolum eſt ipſa reſiduum.ſed etiam eiuſdẽ ſpẽi reſiduum.Verbi gratia:linea cõmunicans in longitudine reſiduo pꝛimo eſt reſiduũ pmũ:⁊ ſcꝺo cõicans eſt ſcꝺm.ſic quoqʒ in ceteris:Qꝺ aũt linea communicat reſiduo in potentia tantum:ipſam quoqʒ neceſſe eſt eſſe reſiduum ſed nõ eiuſdem ſpeciei:imo ipoſſibile eſt vt linea cõmunicans in potentia tantũ reſiduo pꝛimo aut ſcꝺo aut tertio aut quarto aut quinto cadat ſimul cum eo ſub eadem ſpecie ſed neceſſe eſt vt ãbo cadãt ſimul ſub trib⁹ pꝛimis ſpeciebus aut ãbo ſimul ſub tribus poſtremis.Sit itaqʒ exempli gratia.a.reſiduũ cui cõmunicet.b.in longitudine:dico ꝙ.b.erit reſiduũ eiuſdẽ ſpeciei cũ.a.Adiungatur enim linea.c.ad lineaʒ a.⁊ cum illa ſit per cuius abſciſionẽ.a.fuit reſiduũ:⁊ ad.b.adiũgat̃ alia que ſit.d. ad quã ſic ſe habeat.b.ſicut.a.ad.c.ſitqʒ compoſita ex.a.⁊.c.e.compoſita vero ex b.⁊.d.ſit.f.eritqʒ ex permutata ꝓpoꝛtionalitate.a.ad.b.ſicut.c.ad.d.⁊ p.13.quinti erit.e.ad.f.ſicut.a.ad.b.vel ſicut.c.ad.d.cum itaqʒ.a.cõmunicet cum.b.erit per 10.c.cõmunicans cum.d.⁊.e.quoqʒ cõmunicans cum.f.⁊ quia etiam eſt neceſſario ex permutata pꝛopoꝛtionalitate.e.ad.c.ſicut.f.ad.d.ſequitur p.12.vt ſi fuerit e.potentioꝛ.c.in quadrato linee ſibi cõicantis in longitudine vel ſi foꝛte incõmenſurabilis:ſit ſimiliter.f.potentioꝛ.d.at qm̃ omnis linea cõmunicans in longitudine linee rationali eſt ſimiliter illi rationalis:ſimiliter dico quia ambe erunt rationales in longitudine vel ambe in potentia tantum:ſequitur ex diffinitionibus reſiduoꝛum vt.b.ſit reſiduum eiuſdem ſpeciei cum.a.Si autẽ.b.cõmunicat in potentia tantũ cum.a.ipſa quoqʒ erit reſiduum non tamen eiuſdem ſpeciei neceſſario.ſed queadmodũ dictũ eſt:cuius demõſtratio ex his que in.60.de binomijs dicta ſunt colligenda eſt.
 
-[Diagram]
+[Figure: three horizontal lines, the first labelled e, the second labelled c and f, the third divided and labelled d and b]
 
-[Diagram]
+## Pꝛopoſitio .99.
 
-[Diagram]
+{dropcap:O|lines=5|style=decorated|decoration="foliate initial on black ground"}Mnis linea vtrilibʒ reſiduo mediali cõmunicans:eſt ſub ipſius termio ⁊ oꝛdine reſiduũ mediale.
 
-[Diagram]
+¶Veꝝ eſt qꝺ dicit ſiue cõicet linea cum vtrolibet reſiduo mediali in longitudine ſiue in potentia.Sit enim.a.vtrũlibet reſiduũ mediale cui.b.cõicet in lõgitudine vl'potẽtia.dico ꝙ.b.ẽ etiã reſiduũ mediale q̃le fuerit.a.adiũgat̃ eni linea.c.ad lineã.a.⁊ ſit.c.p c⁹ abſciſionẽ.a.fuit reſiduũ mediale:⁊ ad.b. adiũgat̃ alia q̃ ſit.d.ſitqʒ.b.ad.d.ſicut.a.ad.c.totaqʒ ꝯpoſita ex.a.⁊.c.ſit.e.⁊ ex b.d.ſit.f.deſcribãt̃ igit̃ q̃drata.c.⁊.d.q̃ ſint.g.⁊.h.⁊ ſupficies.e.i.c.ſit.k.⁊.f.i.d.⁊ ſit.l.Et qꝛ ẽ vt pꝛi⁹.e.ad.f.⁊.c.ad.d.ſicut.a.ad.b.ſũt aũt.c.⁊.e.mediales potentia tm̃ cõicãtes ex.69.⁊.70.ſequit̃ ex.21.vt.f.⁊.d.eis cõicãtes.ſint etiã mediales potẽtia tm̃ cõicãtes:ꝯſtat aũt ex pꝛima ſexti ꝙ ſit.k.ad.g.ſicut.e.ad.c.⁊.l.ad.h.ſicut f.ad.d.⁊ qꝛ ẽ.e.ad.c.ſicut.f.ad.d.ſequit̃ ut ſit.k.ad.g.ſicut.l.ad.h.Et pmutatĩ.k. ad.l.ſicut.g.ad.h.cũ g̃.g.cõicet cũ.h.ſequit̃ vt.k.cõicet cũ.l.Si igit̃.k.ẽ rõnale qꝺ ẽ in reſiduo mediali pꝛimo erit etiã p diffinitionẽ.l.rõnalis qꝛe p.69.b.etiã ẽ reſiduũ mediale pꝛimũ.ſi aũt.k.ſit medial' qꝺ ẽ i reſiduo mediali ſcꝺo:erit p.21.etiã.l medialis:ideoqʒ.b.p.70.reſiduũ mediale ſcꝺʒ qꝛe ꝯſtat ꝓpoſitũ.Jdẽ aliter Si lĩea b.cõicat cũ lĩea.a.q̃ ẽ vtrũlibet reſiduũ mediale ĩ lõgitudine l'i potẽtia ſit ſupficies c.e.adiũcta ad lineã rõalẽ.c.d.eq̃lis q̃drato.a.⁊.f.g.eq̃lis q̃drato.b.erũtqʒ ob hoc
 
-[Diagram]
+[Figure: rectangle k above square g, labelled c at the left and e and a below]
 
-lcs in longiudine vel ambe in potentia tantum:ſcquitur er oiffinitiontbus reiidu orumn vt.b. ſit reſiduum cinſdein ſpeciei cum. a. Si autc. b.comunicat in potentia tantui cun. a.ipſa quouy crit rciduum non tamnen ciuſden ſpecici necellario.ſca queadmnodis oictũ eſt: cuius pemoſtratio ey bis que in so.be binomijs oicta ſunt colligenda eſt.
+[Figure: rectangle l above square h, labelled d and f at the sides and d and b below]
 
-## Propoſitio.99.
+[Figure: two horizontal lines labelled b and a]
 
-{dropcap:[illegible]|lines=5|style=decorated}nis linea vtrilibz reſiduo mediali cõmunicans eſt ſub ipſius termio zordine reſiduumediale.
-
-¶ Len eſt qp oiat ſine coicet linca cum vtrolibet reſiduo mediali in longitndine ſiue in potentia. Sit enim.a. vtrũlibet refiduũ mediale cui.b. coicet in lõgi? tudine elpotc̃tia. oico qu b.ẽ ctiã reſiduũ mediale qle fucrit. a.adũ gai eni linea, c.ad linca. a.* ſit.c. pc' abſciione. a. fuit reſiduui mediole:z ad.b. adiugat alia q̃ ſit. d.ſit. b.ad. d. ſicut. a.ad.c. tota opoſita er. a..c.ſit.c. ⁊er:
-
-[Diagram]
-
-[Diagram]
-
-b.d ſit.f. eſcr,bãr igit qdrata. c.t. d.q̃ ſint. s e.h.s ſupficies. e.i.c.ſit R.t.f.i.ds fit.l. Et qrẽ vr piꝰ e.ad.f.⁊ cad. d.ſicut.a.ad. b. ſũt aũt. c.e. c. mediales porentia iffi cõicates cr o9. ⁊ xo. ſcquit er. a 1.Vt.f.t.d.cis cõicãtes. ſint eriã medialcs po
-
-[Diagram]
-
-tẽtia tm coicates: pſtat aũt cr primna ſerti q fit.l. ad.g-ſicut.c.ad.c.2.l.ad.h.ſicut f.ad.d equé,e, ad. c. ſicut. f.ad d ſcequit ui ſit. ſ. ad. sſiout.l.ad. h. Et pinutaii. ſe. ad l.ficut.g ad. b.cũ s.s-coicet ci. b ſcquir vt. E. coicet. cui.l. Si igit. lt. e ronale qo e mn reiduo mediali primo erit crã poifunirone. l.ronalis qre poy b. cté rcſi, dui mediale primĩ.ſi aũt. E. fit medial qoei reſiduo mediaui ſcoor erit p.ai.ctiã.i mcdialio:idcoqy b. p.ro. reſiduus mediale ſcoz qre oſtat ppoſuu. Jde auter Si lléa b.coicat cu liéa a qe vtrulibet reſiduu medile i logitndiel'i poigtia ſit ſupficics ce,aduĩcia ad lunca roale.d.cqlis q̃drato.a.2. s. coul q̃drato. b.eriqy ob bor
+[Figure: rectangle with corners c, d, e and g divided by a horizontal line at f]

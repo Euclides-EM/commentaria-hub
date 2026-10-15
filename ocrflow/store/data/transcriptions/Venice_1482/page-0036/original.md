@@ -1,27 +1,35 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-## Propoſitio.2.
+## Propoſitio .2.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Uper circuli circũferentiam duobus punctis ſignatis.lineam rectam ductam ab altero ad alterum.circulum ſecare neceſſe eſt.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mper circuli circũferentiam ouobus punctis ſignatis. li neam rectam ouctam ab altero ad alterum. circulum ſeca re neceſſe eſt.
+¶Sit vt in circũferentia circuli.a.b.cuius centruʒ ſit.c.ſignata ſint duo puncta que ſunt.a.⁊.b.dico ꝙ linea recta coniũgens vnũ cum cum altero ſecabit circulum. Alioquin cadet extra circulum:ſitqʒ.a.e.b.linea recta ſi poſſibile eſt:producã lineas.c.a.⁊.c.b.erũtqʒ per.5.primi:angulus.c.a.b.⁊.c.b.a.equales:protraham itẽ lineã.c.e.que ſecet circũferentiam in puncto.d.eritqʒ per.16.primi:angulus.a.e.c.maior angulo.c.b.e.quare maior angulo.c.a.e.quare per.18.eiuſdem latus.a.c.maius latere.c.e.⁊ quia.c.d.eſt equalis.c.a.erit.c.d maior.c.e.pars toto quod eſt impoſſibile:quia ergo linea coniungens duo pũcta a.b.non tranſibit extra circulum ſecabit ipſum quod eſt propoſitum.
 
-¶Oit vt in circũferentia circuli.a. b. cuius centruz ſit. c. lignata ſint ono puncta que ſunt.a. 2. b. oico ꝙ linea recta coniũgens vnũ cum cum altero ſecabit circulum. Alioquin cadet eytra circulum:ſitoz. a.e. b. linea rccta ſi poſſibile eſt: producã lincas.c.a. 2.c.b. erũtoy per.s primi:angnlus. c. a.b.2.6. b.a.equales: protrabam itẽ lincã.c.e, que ſccct circãferentiam in puncto. d. critqz ner ia primi:angulus. a. e.c.maior angulo. c.b.e- quare maior angulo.c.a.c. oua re per. 1S.ciuſdem latus.a.c.maius latere.c.e. z quia.c. d.eſt cqualis.c.a. crit.c. d maio..c.e. pars toro quod eſt impoſſibilc: quia crgo linea coniungens ouo pũcta a.b. non tranſibit eytra circulum ſecabit ipſum quod eſt propoſitum.
+## Propoſitio .3.
 
-## IPropolitio.3.
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I lineam intra circulum preter centrum collocatam. alia a centro veniens per equa ſecet.orthogonaliter ſup eam inſiſtere.⁊ ſi in eam orthogonaliter ſteterit. eam p equalia diuidere neceſſe eſt.
 
-{dropcap:[illegible]|lines=5|style=decorated}5 lineam intra circulum preter centrum collocatam. alia la centro veniens per equa ſecct.ozthogonaliter ſup eam inſiſtere. ſi in cam ortbogonaliter ſteterit. eam p equa lia oinidere neceſle eſt.
+¶Sit vt lineam.a.b.collocatã intra circulum.a.b.cuius centrum ſit c.linea.c.d.veniẽs a cẽtro diuidat p eq̃lia: dico ꝙ diuidit eam orthogonaliter.⁊ e conuerſo videlicet ſi diuidit eam orthogonaliter diuidit eam per equalia:producã lineas.c.a.⁊.c.b.⁊ ponã primo ꝙ diuidat eã per eq̃lia: erũt ergo duo latera.c.d.⁊.d.a.trianguli.c.d.a.equalia duobus lateribus.c.d.⁊.d.b.trianguli.c.d.b.⁊ baſis.c.a.baſi.c.b.ergo per.8.primi:angulus.d.vnius eſt equalis angulo.d.alterius quare vterqʒ rectus:quare.c.d.eſt perpendicularis ſuper.a.b.qꝙ eſt propoſitum. ¶Ponam iterum ꝙ.c.d.ſit perpendicularis ſuper.a.b.⁊ oſtendam ꝙ ipſa diuidit.a.b.per equalia erit enim ꝓpter hanc poſitionẽ vterqʒ anguloꝝ qui ſunt ad.d rectus quare vnus equalis alteri. At qꝛ p.5.primi angulus.c.a.d.eſt equalis angulo.c.b.d.⁊ latus.c.a.eq̃le lateri.c.b.per.26.primi:eiuſdem erit linea.a.d.equalis linee.d.b.quod eſt propoſitum.
 
-¶ Oit vt lincant.a. b. collocatã intra circulum.a. b.cuins centrum ſit Clinca. c. d. veniẽs a cẽtro oimidat p eq̃lia: oico ꝙ oinidir cam ortbogonaliter. ze conuerſo vidclicet ſi oiuidit cam ortbogonaliter oiuidit cam pcr cqualia: producã lincas.c.a.t.c.b. z ponã primo ꝙ oinidat cã per cõlia: crũt ergo ouo latera. c.d. . d.a. trianguli. c. d.a. cqualia ouobus lateribus. c. d. 2. d.b. trianguli.c. d.b.z ba) ſis.c.a.baſi.c.b. crgo pcr. S. primi:angulus. d. vnius eſt cqualis angulo. d. altcrins quare vterqy rectus: quarc.c.d.cſt perpendicularis ſupcr. a.b. qb eſt propoſituin. d ponam ircrumi q.c. d.ſit pcrpendicularis ſuper-a.b.z oſtendam ꝙ ipſa piui, dit. a.b.per cqualia crit cnim ppter banc poſitionẽ vteroz anguloy qui ſunt ad. d rectus quare vnus cqualis altcri. At ꝙν p-5 primi angulns. c.a. d.eſt cqualis an, gulo.c.b. d.c latus.c. a.cq̃le latcri.c.b. pcr.as primi: ciuſdem erit linca. a. d.cqua lis lince. d.b. quod eſt propoſitum.
+## Propoſitio .4.
 
-## PPropoiitio a
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I intra circulum due linee ſe inuicem ſecent. ⁊ ſuper centrũ non tranſeant.nõ per equalia eas ſecari neceſſe eſt.
 
-[Diagram]
+¶Sit vt in circulo.a.b.c.d.cui⁹ centrũ ſit.e.due linee.a.c.⁊.b.d.ſecent ſe in pũcto.f.⁊ vtraqʒ eaꝝ vel altera non trãſeat per centꝝ.dico ꝙ ipſe nõ diuidunt ſeſe ꝑ equalia:ita ꝙ vtraqʒ ꝑ equalia diuidat̃ ab altera. ¶Qꝙ ſi fuerit hoc poſſibile:ponat̃ ⁊ ſic primo vt neutra trãſeat ꝑ centrum a centro.e.producã lineã.e.f.eritqʒ ꝑ primã premiſſe vnuſquiſqʒ.4.anguloꝝ: qui ſunt.a.f.e.e.f.c.b.f.c.⁊.c.f.d.rect⁹ qꝙ ẽ impoſſibile:ſic eni rect⁹eſſet minor recto. ¶Sit igit̃ vt altera eaꝝ trãſeat ꝑ centꝝ ⁊ altera nõ:ſitqʒ.b.d.trãſiens per centrum adhuc dico ꝙ nõ diuidunt ſeſe per equalia:qꝙ ſi ſic.tunc ꝑ primã ptẽ premiſſe:cũ b.d.ducta a centro diuidat.a.c.per equalia diuidat eã orthogonaliter. quare etiã a.c.diuidet.b.d.orthogonaliter:⁊ qꝛ diuidit.a.c.ipſã.b.d.ꝑ eq̃lia vt ponit aduerſarius:ipſa tranſibit per centrum per correlarium prime huius:quare ambe tranſeunt per centrum quod eſt contra ypotheſim.
 
-{dropcap:[illegible]|lines=5|style=decorated}J intra circuluni oue linee ſe inuicem ſecent. z ſuper cen trũ non tranſeant. nõ per equalia eas ſecari necelfe eſt.
+[Margin]
+[Diagram: circle with chord a.b, arc from a to b passing through e and d above the chord, and lines from a and b meeting at the centre c below]
 
-¶Sit vt in circulo. a.b.c. d.cui? centrũ ſit. c.-ouc linec. a.c..b. d.ſe cent ſe in pũcro. f.z vrraqz cay vel altera non trãſeat per centꝑ. oico y ipſe nõ oinidunt ſeſe ꝑ cqualia:ita ꝙ vrras ꝑ cqualia oinidai ab altcra.
+[Diagram: circle with centre c, chord a.b at the bottom with midpoint d, lines from c to a, to d and to b]
 
-¶ Oo ſi fuerit boc poſſibile: ponat z ſic primo vr neutra traſcat p centrum a centro. c. prodncã lincã. e.f. critoz ꝑ primã premiſſe vnuſquiſoz- a-anguloy: qui ſnnt, a. f.e.e. f.c.b. f.c.2.c.f.d.rect? qd ẽ impollibile: ſic eni rectꝰeſſet minor recto.
+[Diagram: circle with two vertical lines from b to d, points e and f near the centre, and a horizontal line from a to c at the bottom]
+[/Margin]
 
-¶ Sit igit vt altera cay trãſcat p centy z altera no:ſitz. b. d. trãſiens per centrum adhuc pico ꝙ nõ oiuidunt ſeſc per equalia: qo ſi ſic.tunc pprimã ptẽ premile: cũ b. d.oucta a centro pinidat. a.c. per equalia oiuidat cã ortbogonalitcr. quarc ctiã a.c.oiuidet. b. d.orbogonaliter: qr oiuidit. a.c.ipſã.b. d.p cq̃lia vt ponit aducr ſarins: ipla tranſibit per centrum per conclarium prime buins: quare ambe tran? seunt per centrum quod eſt contra ppoibeſim.
+[Handwritten]
+[unclear: Ex tertia huius ſequitur ꝙ equidiſtantes linee diuerſas equales circuli portiones intercipiũt]
+[/Handwritten]
+
+[Handwritten]
+[Diagram: faint hand-drawn circle with a vertical and a horizontal line crossing inside it, with small letters at their ends]
+[/Handwritten]

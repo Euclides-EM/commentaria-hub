@@ -1,39 +1,25 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: IIII -->
 
-[Diagram]
+[Handwritten]
+Linea ſecans duo latera [unclear: trianguli] ꝑ eq̃lia 3º eſt eq̃diſtans
+[/Handwritten]
 
-btnſus latus b. creſpiciens buuc angnlon obtufom. oinido per coualia in pun
+[Margin]
+[Diagram: circle circumscribing obtuse-angled triangle a.b.c with apex a at the top, points d and e on the upper sides, point h between b and c, and lines meeting at the point f below the triangle]
+[Diagram: circle circumscribing acute-angled triangle a.b.c with apex a at the top, points d and e on the upper sides, point h between b and c, and lines meeting at the point f within the triangle]
+[Diagram: circle with inscribed square a.d.c.b and its two diagonals]
+[/Margin]
 
-[Diagram]
+obtuſus latus.b.c.reſpiciens hunc angulum obtuſum.diuido per equalia in puncto.h.a quo ad media puncta duorum reliquorum laterum que ſunt.d.⁊.e.duco lineas.h.d.⁊.h.e.eritqʒ.d.h.equidiſtans.a.c.⁊.e.h.equidiſtans.a.b.propter id quod demonſtratum eſt ſupra.39.primi:videlicet q̃ linea ſecans duo latera alicuius trianguli per equalia.tertio eſt equidiſtans:quare per ſecundam partē.29.primi erit vterqʒ duoꝝ anguloꝝ.b.d.h.⁊.c.e.h.eq̃lis ãgulo.a.⁊ ideo vterqʒ obtuſus.ductis igitur perpendicularibus.d.f.ad lineam.a.b.et.e.f.ad lineam.a.c.quouſqʒ concurrant in puncto.f.quẽ dico eſſe centrum circuli.Manifeſtũ ẽ enĩ eas concurrere propter cauſã p̃us dictã.ſecabit vtraqʒ earum lineam.b.c.que reſpicit obtuſum ⁊ concurrent extra triangulum.a.b.c.igitur a puncto.f.qui ẽ punctus concurſus earum:produco lineas.f.a.f.b.f.c.que per quartam primi bis aſſumptam erunt equales cõparatis primo lateribus et angulis duorum triangulorum.a.d.f.b.d.f.deinde aliorum duorum.a.e.f.c.e.f.quare per.9.tertii.f.ẽ centrum circuli queſiti.¶Eſto iterum vt trigonus.a.b.c.ſit oxigonius diuiſis omnibus eius lateribus per equalia:videlicet latus.a.b.in puncto.d.⁊ latus.a.c.ĩ puncto.e.⁊.b.c.in puncto.h.protraho lineas.d.e.d.h.⁊.e.h.eritqʒ.d.h.equidiſtans.a.c.⁊.e.h.a.b.propter id quod demonſtratum eſt ſuper.39.primi:quare per ſecundam partem.39.primi:vterqʒ angulorum.b.d.h.c.e.h.erit equalis angulo.a.⁊ iõ acutus:ductis igitur perpendicularibus.d.f.ad lineam.a.b.⁊.e.f.ad lineam.a.c.manifeſtum eſt eas concurrere intra triangulum.a.b.c.ſitqʒ punctus concurſus.f.quem dico eſſe centrũ circuli:produco enim lineas.f.a.f.b.f.c.que per q̃rtam primi:bis aſſumptam vt prius erunt equales:quare per.9.tertii erit.f.centrum circuli queſiti.¶Per predicta patet q̃ ſi triangulus fuerit orthogonius centrum circuli circũſcribendi cadet in medio lateris quod opponitur angulo recto.Si fuerit ambligonius centrum cadet extra triangulum.Si autem fuerit oxigonius cadet intra triangulum.
 
-[Diagram]
+## Propoſitio .6.
 
-cto. b.a quo ad media puncia ouorum reliquorum latcrm que ſunt.d. Tc. ouco lincas. b. d.z. h.c. eritoy d.h. cquidiſtans.a. c. 2.e. b.cquidiſtans.a.b. piol pter id quod ocmonſtratum eſt ſupra.3n, primiz vidclicet q linca ſecano ouolate? ra alcuius trianguli per cqualia.tertio eſt cquidiſtans: quare per ſecundam par, e. ao primi enit vtcray ouoy anguloy b. d.h. E.ce b.cqlis ãgulo a. c ideo vieroy obruſus, ouctis igitur pcrpendiclarbus.d. f.ad lincam. a.b.ct e.f.ad incam.a¬ cquouſay concurrant in puncto.f, que oico eſle centrum circuli. DHaniſeſtũ écni cas concurrcre propter cauſa pus bicta ſecabit vrragy carmn lincam. bic que re spicit obruſum e concurrent eytra triangulmm. a b. cigitur a puncto. f. qui é pun cus concurſus carum: produco lincas. f.a. ſ.b.fc oue per quartam primi bis aſ ſumptam erunt cquales coparatis primno laterbus ct angulis ouoi triangu'
+{dropcap:I|lines=5|style=decorated|decoration="foliate initial on black ground"}Ntra datum circulum quadratũ deſcribere.¶Sit datus circulus.a.b.c.d.cuius centruʒ.e.volo intra ipſuʒ deſcribere quadratuʒ.protraho in ipſo duas diametros.a.c.⁊.b.d.ſecantes ſe orthogonaliter ſupra centruʒ.e.quaruʒ extremitates coniungo protractis lineis.a.b.b.c.c.d.⁊.d.a.quas dico cõtinere quadratum queſitum:ipſe enim erunt equales adinuicem.per quartam primi ter aſſumptam propter id q̃ quatuor linee.e.a.e.b.e.c.⁊.e.d.ſunt equales.et quatuor anguli qui ſunt ad.e.recti.ſi vnuſquiſqʒ.quatuor angulorum.a.b.c.⁊.d.eſt rectꝰ per primam partem.30.tertii:propter id quod quilibet eorum ẽ in ſemicirculo erit igitur.a.b.c.d.quadratum per diffinitionem quod eſt propoſitum.
 
-[Diagram]
+[Other type="stamp"]
+BIBLIOTHEQUE SAINTE GENEVIEVE
+[/Other]
 
-lorum. a. d.f.b. d.f. ocinde aliorum ouorm. a.c.f.c. e.f.quare per. ꝓ tertii.f.ẽ cen trumn circuli quefiti.
+## Propoſitio .7.
 
-¶ Eſto iterum vt trigonus. a.b.c. ſit origonius oiuiſis omni bus cins lateribus per cqualla: videlicer larus. a b'in puncro. d.s latus a ci pun cto.e..b.c.in puncto. h, protrabo lineas. d.e. d.b.2.e.h.critq.d.b. equidiſtans 4 ct.e.b. a. b. propter id quod vemonſtratum eſt ſuper.yp pnmis quare per ſccun dam partein.;ꝓ primi: vreraz angulorum.b. d.b.c.e. h.erit equalis angulo.a.z iõ acutus: onctis igitur perpendicularbus. d.f.ad lincama. b.z. e.f.ad lincam.a.c. manifeſtum eſt cas concurrere intra triangulum. a. b.c.ſitay puncrus concurſus S.quen oico eſſe centrm circulieproduco cnim lncas. f.a.f. b.f.c. que per q̃rram primi: bis aſſumpram vt prius erunt equales: quare per.y tertii ent.f.centrum cir culi queſiti.
-
-¶ Per predicta patet q ſi trianqulus fucerit onbogonius centrum dr? cnli crciſcnbend cadet in medio ſateris quod oppontur angulo recto, Sifnenit anbligonius centrum cadet eytra ranquium Si autemn fucrit ongont
-
-[Diagram]
-
-[Diagram]
-
-tra triangulum.
-
-## Propoſitio 6.
-
-[Diagram]
-
-{dropcap:[illegible]|lines=5|style=decorated}Mtra batum circulum qnadratũ deſcribere.
-
-¶Sit oatus circulus.a. b.c. d.cuius centruy, e. volo intra iplus de) ſcribere quadratuy protrabo in iplo buas biamerros.a c.z.b'aſe cantes ſe ontbogonalircr ſupra centruz, e, quaruz ertranitates con iungo protractis lincis. a.b.b.c.c.d.z.d.a. quas oico cõtinere qua dratum queſitum :ipſe enim erunt equales adinuicem. pcr quartam primi ter aſi ſumpram propter id qo quatuor linee.e. a.e. b.c.c.t.e. d. ſunt equales, et quatuor anguli qui ſunt. a.d.e. recti. ſi vnuſquiſa, quatnor anguloum.a. b.c. t. d.eſt rect per primam partem ꝓo terti: propter id quod quiibẽt coum e in ſemicirao ent {dropcap:[illegible]|lines=5|style=decorated}igitur.a. b.s. d quadratum per offinitionein quod eſt propolitum.
-
-## Aropoſitio 2.
-
-Jrca propoſitum circulum quadratum deſcribere.
-
-¶Oit ppolitꝰ circulꝰ a.b.c.d. culꝰcenty, e, volo circa ipm oeſcibere qdrati: piraboi iplo ouao bianctron à. cct b d ſecuics ſe oupor
+{dropcap:C|lines=5|style=decorated|decoration="foliate initial on black ground"}Irca propoſitum circulum quadratum deſcribere.¶Sit ꝓpoſitꝰ circulꝰ.a.b.c.d.cuiꝰ centꝝ.e.volo circa ipm̃ deſcribere q̃dratũ:ꝓtraho ĩ ipſo duas diametros.a.c.et.b.d.ſecãtes ſe ortho-

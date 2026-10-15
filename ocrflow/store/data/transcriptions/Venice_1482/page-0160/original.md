@@ -1,37 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-4e.2.e.b. pariter acceptis z boc erat mõſtrandũ.
+a.e.⁊.e.b.pariter acceptis ⁊ hoc erat mõſtrandũ.¶Due linee quas hec.29.docet inuenire cõponũt lineã potentẽ in duo medialia ⁊ minori eaꝝ abſciſa de maiori q̃ reliqua eſt dicitur linea que iuncta cum mediali facit totum mediale.
 
-¶Duc lince quas bec. 2o. bocet inuenire cõponũt lincã potenté in ono medialia z minori cay abſciſa pe maion q̃ reliqua eſt oicitur linea que iuncta cum mediali facit totum mcdiale.
+## Pꝛopoſitio .30.
 
-## PPropolitio 3o.
+{dropcap:S|lines=5|style=decorated|decoration="floriated initial on black ground"}I due linee potentialiter tantũ rõnales cõmunicantes in longum directumqʒ coniungantur:tota linea ex his compoſita erit irrationalis:diceturqʒ binomium.
 
-{dropcap:[illegible]|lines=5|style=decorated}J oue lince potentialiter tantũ rõnales cõmunicantes in longum oirectumqz coniungantur: tota linea ex bis com! poſita erit irrationalis: oiceturqz binomium.
+¶Sint due linee.a.b.⁊.b.c.in cõtinuũ directũqʒ cõiuncte rõnales in potentia tm̃ cõcantes:quas p.17.⁊.18.reperies:dico totã lineã.a.c.ex eis cõpoſitã eſſe irrõnalem ⁊ ipſa vocatur binomiũ.Eſt eni per quartã ſecundi quadratũ.a.c.equale quadratis duaꝝ lineaꝝ.a.b.⁊.b.c.⁊ duplo ſupficiei vniꝰ earum in alterã:quadrata aũt ambaꝝ faciunt ſupficiẽ rõnalem ex ypotheſi:duplũ vero ſuperficiei vnius eaꝝ in alterã facit ſupficiẽ medialẽ ex.19.itaqʒ quadrata ambarũ pariter acceptaꝝ faciunt ſupficiẽ incõmenſurabilẽ duplo ſupficiei vnius earum in alterã.erit igit̃ ex.9.quadratũ.a.c.incõmenſurabile duobus quadratis duarum lineaꝝ.a.b.⁊.b.c.piter acceptis quare irrõnale ꝑ diffinitionẽ cũ duo illa quadrata faciãt ſupficiẽ rõnalem.ideoqʒ ſuum latus tetragonicũ quod eſt.a.c.irrõnale quoqʒ ꝑ diffinitionẽ:ꝯſtat ergo ꝓpoſitũ.
 
-¶ Sint oue lince. a. b. 2. b. c. in cõtinuũ pirectũ cõiuncte rõnales in potentia tiñ cõcantes: quas p.i7. 2.1S. repcries: dico torã lineã.a. c
+[Diagram: horizontal line with points labelled a, b and c]
 
-[Diagram]
+## Pꝛopoſitio .31.
 
-cy cis cõpoſitã eſſe irrõnalem ⁊ ipſa vocatur binomiũ. Eſt eni per quarrã ſecundi quadratũ.a.c. cqualc quadratis ouay lincay. a.b. .b.c. z ouplo ſupficici vniꝰ ca rum in alterã: quadrata aũt ambax faciunt ſupficiẽ rõnalem ex ypotl eſi: ouplũ ve ro ſuperficici vnins cay in alterã facit ſupficiẽ medialẽ cy-i p.itaqy quadrara amba rũ pariter acceptay faciunt ſupficiẽ incõmenſurabilẽ ouplo ſupficici vnius carum in alterã. erit igit ex. 9. quadratũ. a. c.incõmenſurabile ouobus quadratis ouarum lincay. a.b.2.b.c.piter acceptis quare irrõnale p oiffinitionẽ cũ ouo illa quadrata faciãt ſupficiẽ rõnalem. idcoqz ſuum latus tetragonicũ quod eſt.a.c. irrõnale quo
+{dropcap:S|lines=5|style=decorated|decoration="floriated initial on black ground"}I due linee mediales potentia tantũ cõicantes ſuperficiemqʒ rationalẽ continentes directe coniungant̃:tota linea ex his cõpoſita erit irrõalis dicet̃qʒ bimediale p̃mũ.
 
-## [illegible]
+¶Sint due linee.a.b.⁊.b.c.ĩ cõtinuũ directũqʒ ꝯiuncte quales ꝓponuntur quas p.24.⁊.25.reperies:dico totam lineã.a.c.eſſe irrõnalem ⁊ ipſa vocatur bimediale primũ.Eſt eni duplũ ſupficiei.a.b.i.b.c.rõnale per ypothe.duoqʒ quadrata duaꝝ lineaꝝ.a.b.⁊.b.c.piter accepta faciunt mediale.cũ vtrũqʒ quadratũ ſit mediale per ypotheſim ⁊ vnũ eoꝝ cõicans alij:duplũ igitur ſuperficiei vnius eaꝝ in alterã eſt incõicans duobꝰ quadratis piter acceptis:totum ergo aggregatũ ex duplo ſupficiei ⁊ duobus quadratis ⁊ ipſũ ẽ quadratũ totiꝰ.a.c.per quartã ſcõi ẽ incõmenſurabile duplo ſupficiei vnius eaꝝ in alterã p.9.huius cũ itaqʒ duplũ ſupficiei ſit rõnale erit quadratũ.a.c.irrõnale.ideoqʒ ⁊ linea.a.c.qꝺ ẽ ꝓpoſitũ.¶Idẽ aliter:ſit linea.d.e.rõnalis in longitudine cui adiungat̃ ſupficies.d.f.equalis duobus quadratis duaꝝ lineaꝝ.a.b.⁊.b.c.eritqʒ ſupficies hec d.f.medialis cum vtrũqʒ quadratũ ſit mediale per ypothe.⁊ vnũ eoꝝ cõicans alij quare per.20.linea.d.g.eſt rõnalis in potentia tm̃:non cõicans in longitudine linee.d.e.rurſus ad lineã.f.g.que eſt equalis.d.e.adiũgat̃ ſupficies.f.h.equalis duplo ſuperficiei.a.b.in.b.c.eritqʒ.f.h.rõnalis per ypotheſim:quare per.16.linea.g.h.erit rõnalis in longitudine:due itaqʒ linee.d.g.⁊.g.h.ſunt potentialiter rõnales ⁊ in ea tm̃ cõicantes:ergo p.30.tota linea ex eis cõpoſita que eſt.d.h.eſt binomiũ ⁊ irrõnalis:quare p.16.a deſtructione ꝯñtis ſupficies.e.h.ẽ irrõnalis.At quia ꝑ quartã ſcõi latus eiꝰ tetragonicũ ẽ linea.a.c.ipſa erit irrõnalis ꝑ diffinitionẽ qꝺ oportuit demõſtrari.
 
- p oiffinitione: oſtat ergo ppoſitũ. Propoſitio.31.
+[Diagram: horizontal line with points labelled a, b and c]
 
-[Diagram]
+[Diagram: rectangle with corners d and e at the base and h at the top left, divided by a horizontal line labelled g and f]
 
-{dropcap:[illegible]|lines=5|style=decorated}J one lince mediales potentia tantũ cõicantes ſuperfici emqz rationalẽ continentes oirecte coniungant: tota li? nea cx bis cõpoſita erit irrõalis oicerqz bimediale pmũ.
+## Pꝛopoſitio .32.
 
-¶Sint ouc lince. a. b. 2.b. c. i cõtinuũ oirectũy piuncte quales pro ponuntur quas p.24.τ25. repcries: oico toram lincã.a.c. eſſe irrõna lem z ipſa vocarur bimedialc primũ. Eſt eni ouplũ ſupficici.a.b. i.b.c. rõnale per orbe. ouoqz quadrata ouay lineay. a.b. 2. b.c. piter acccpta faciunt mediale. cuz
+{dropcap:S|lines=4|style=decorated|decoration="floriated initial on black ground"}I due linee mediales potentialiter tantum cõmunicantes ſuperficiemqʒ medialẽ continentes directe coniungantur tota linea erit irrõnalis diceturqʒ bimediale ſecundum.
 
-[Diagram]
-
-vtrũ quadratũ ſit mediale per pporbeſim z vnũ coy cõicans alij: ouplũ igitur ſu pcrficiei vnius eay in alterã eſt incõicans ouobꝰ quadratis piter acceptis : totum ergo aggregatũ er ouplo ſupficici z ouobus quadratis z iplũ ẽ quadratũ toti’.a. c.per quartã ſcoi ẽ incõmenſurabile cuplo ſupficici vnius cay in altcrã p.9. buius cũ ira ouplũ ſupficici fit rõnale erit quadratũ.a.c. irronalc. idcoy z linca.a.c. 0ẽ ppoſirũ.
-
-¶Jdẽ aliter:ſit linea. d.e. rõnalis in longirudine cui adiungat ſup? ficies. d.f.cqualis ouobus qu: dratis ouay lincay. a. b. 2. b. c. critqz ſupficies bec d.f.medialis cum vrrũoz qnadratũ ſit mediale per ppoibe.z vnũ coy coicans alij quare per. 2o.linea. d.g.eſt ronalis in porentia tm: non cõicans in longitudine li, nee. d.e. rurſus ad lincã.f.g-que eſt cqualis. d.e. adiũgat ſupficies. f.b. cqualis ou, plo ſuperficici. a. b.in.b.c. eritqz. f.b. rõnalis per yporbeſim: quarc per. is. linea, ⁊ b. crit rõnalis in longitudine: oue ;tacz lince. d.g.2.g.b. ſunt porcntialiter rõna, les ⁊ in ea tm cõicantes: ergo p.3o.tora linca ey cis cõpolita que cſt. d.b. eſt bino, miũ z irrõnalis: quare p.is.a deſtructionc oñtis ſupficies.e.b.ẽ irronalis. At quia p quartã ſcoi latus eiꝰ tetragonicũ ẽlinca. a. c.ipſa crit irrõnalis p oiffinitionẽ qo {dropcap:[illegible]|lines=5|style=decorated}joportuit bemõſtrari. Propoſitio.32¬
-
-## [illegible]
-
-J oue linee mediales potentialiter tantum cõmunicantes iuperficiemoz medialẽ continentes oir ecte coniungantur tora linea erir irrõnalis diceturqz bimediale ſecundum.
-
-¶Sint ouc linee.a.b.2.b.c.in cotinnu oirectumas oũcte ut xpont
+¶Sint due linee.a.b.⁊.b.c.in cõtinuũ directumqʒ ꝯiũcte ut ꝓponit̃

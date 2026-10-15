@@ -1,27 +1,15 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-[Diagram]
-
-sed z vnitas eſt pars.c.bcnominsta ab iplo ꝑ cõcep. ſequitur ut quorieus vnitas numerat. c. toriens. b. numcrat. a.iraqz pcr.is. quoriens vniias.b. Ioncns. c.nul merat. a. q̃re cõſtat ꝓpoſirũ.
-
-¶ Aliter ide: cũ ſit.b. pars. a.ſi tora vnitas.c.eruqy per banc cõunen ſciam vniratein eſſe partem omnis numeri ab ipſo penomi. natam.c. cenoians. b.in. a. ⁊ quia cſt.b.in. a. quoriens vniras in.c.cuidc̃ter ſequi tur propoſitum p.i6.
+ſed ⁊ vnitas eſt pars.c.denominata ab ipſo ꝑ cõcep.ſequitur ut quotiens vnitas numerat.c.totiens.b.numerat.a.itaqʒ per.16.quotiens vnitas.b.totiens.c.numerat.a.q̃re cõſtat ꝓpoſitũ.¶Aliter idẽ:cũ ſit.b.pars.a.ſi tota vnitas.c.eritqʒ per hanc cõmunem ſciam vnitatem eſſe partem omnis numeri ab ipſo denominatam.c.denoians.b.in.a.⁊ quia eſt.b.in.a.quotiens vnitas in.c.euidẽter ſequitur propoſitum ꝑ.16.
 
 ## Propoſitio .39.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mmerum minimum propoiitarui oenominationum ba bentem partes innenire Erquo manifeſtum ẽ g minim? numerus numeratus a quorliber ẽ minimus babens par. tes oenominatas ab ipſis.
+{dropcap:N|lines=5|style=decorated|decoration="foliate woodcut initial"}Vmerum minimum propoſitarum denominationum habentem partes inuenire Exquo manifeſtum ẽ ꝙ minim⁹ numerus numeratus a quotlibet ẽ minimus habens partes denominatas ab ipſis.
 
-¶ Oint. a.b.c. d.ocnominantcs partes ꝓpoſitas.z.e niinimus nu, meratus ab cis ſũprũ bm.3s.:ipſũ.e. oico eſſe que queriinus. Sint cni bmquos nu mcrant ipſum.f.g.b.E. eritay per.is.z banc comunen ſcientiam: vniras eſt pars omnis numeri ab ipſo picta: vt viceuerſa.f. g.b.E. numerent. c.bin. a.b.c. d. quare
+¶Sint.a.b.c.d.denominantes partes ꝓpoſitas.⁊.e.minimus numeratus ab eis ſũptũ ſm̃.36.ipſũ.e.dico eſſe quẽ querimus.Sint eni ſm̃ quos numerant ipſum.f.g.h.k.eritqʒ per.16.⁊ hanc comunem ſcientiam:vnitas eſt pars omnis numeri ab ipſo dicta:vt viceuerſa.f.g.h.k.numerent.e.ſm̃.a.b.c.d.quare ſunt partes eius ab illis dicte.eſt igitur.e.habens partes propoſitarum denominationũ.Minimus etiã qm̃ ſi aliter fuerit vt.l.ſint ptes.l.dicte ab eis.m.n.p.q.eruntqʒ per.16.⁊ predictam cõem ſcientiam.a.b.c.d.viceuerſa ptes.l.dicte ab.m.n.p.q.quare nõ erat.e.minim⁹ quẽ numerãt.a.b.c.d.qꝺ eſt incõueniẽs.¶Habito minimo:ſi cura eſt habere ſcꝺm.aut quotũcũqʒ libet:ſi ſcꝺm qꝺ ſume duplũ minimi:ſi tertium triplum:⁊ ad hunc modũ in alijs.Cum enim omnis multiplex.e.numeretur ab.a.b.c.d.per hanc cõem ſcientiam:Omnis numerus numerans alium numerat omnem numeratũ ab illo neceſſe eſt per.37.vt omnis multiplex.e.habeat partes denominatas ab.a.b.c.d.ſi itaqʒ duplus.e.nõ fuerit ſcꝺs habens ptes ꝓpoſitarũ denoiationũ:erit ali⁹ quẽ ſicut ſequit̃ eẽ maiorẽ.e.ſic ſequit̃ eẽ minorẽ duplo:⁊ qꝛ illum numerant.a.b.c.d.per.38.ſequitur per correl'.36.ꝙ.e.numeret eundẽ qꝺ eſt impoſſibile.cum enim numeret ſe.numeraret ꝑ hanc cõmunem ſciaʒ omnis numerus numerãs totũ ⁊ detractum:numerat reſiduũ:differentiam illius ad ſe.que cum ſit minor ſe:maior numerus numeraret minorem qꝺ eſſe non poteſt ſequitur itaqʒ duplum.e.eſſe ſm̃ numerũ habentẽ propoſitarum denominationũ partes.¶Similit̃ quoqʒ argues triplũ.e.eſſe tertiũ probato duplo eſſe ſcꝺm.alioquin quia eſſet triplo minor.⁊ duplo maior.ſequeretur.e.numerare aliq̃ʒ iter ipſius duplum ⁊ triplum.qꝺ ut prius patʒ eſſe impoſſibile:probato aũt triplo eſſe tertium ad huius ſimilitudinem probabis quadruplum eſſe quartum:⁊ ſic in ceteris.
 
-[Diagram]
+[Diagram: segments labelled e and l, above segments labelled a, f and m, above segments labelled b, g and n, above segments labelled c, h and p, above segments labelled d, k and q]
 
-ſunt partes cius ab illis oicte. eſt igitur.e. babens partes propoſitarum ocnomi. nationũ. DIinimus ctiã qm ſi alier fuerit vt.l.ſint ptes.l.oictc ab cis.m.n.p.q cruntoz per.1s.z predictam cõem ſcicntiam. a b.c. d. viceucrſa pres.l. oicie ab.m. "n.O. onare nõ erat.c.minim? quẽ numerãt. a.b.c. d.qo eſt incouenies.
+¶Minimũ numerum habentem partes propoſitarum denominationum ſumptarum continue reperire.
 
-¶ Dabito minimo: si cura eſt baberc ſcom. aut quotũcũqz libct: l ſcom qo ſume ouplũ mini. mi:ſi tcrnum triplum: z ad bunc modu in alijs. Cum enim omnis mul-ipler e.nt meretur ab.a.b.c. d. per banc cõem ſcicntiam: Oinnis numerus numerans alinm numcrat omnem numeratũ ab illo neceſſe eſt pcr. 37. vt oinis multipley. e. habe at partes benominaras ab.a. b.c. d.ſi iraz ouplus. c. nõ fucrit ſcos babens pres ppoſitarũ denoiationũ: erit aliꝰ quẽ ſicut ſequit cẽ maiorẽ. c. ſic ſcqiur ce minore ouplo:z qͬ illum numerant.a.b.c. d.per. 3s-ſcquitur per concl.36. ꝙ.c. numeret cundẽ qo eſt impoſſibile.cum enim numerer ſe. numerarct pbanc cõmunain ſciaz omnis numerus numerãs totũ z oetractum: numerat reliduũ: bifferentiam illins ad ſc. que cum fit minor ſe: maior numerus numeraret mino:em qo clle non poreſt ſcquitur itaz ouplum.e. ele bm numerũ babenté propolirarum oenominationũ partes.
-
-¶ Oimilit quoay argues triplũ.c. eſſe tertu probato cuplo eiſe ſcom, alo qquin quia eſſet triplo minon.z our lo maior. ſcqueretur. c. numerare aliq̃z iter ipli us ouplum z triplum. qour prius patz eſſe impoſſibile: probato aũt triplo eſſe ter tium ad buins ſimilitudinem probabis quadruplum elle quartum:z lic in ceteris.
-
-¶Dinimũ numerum babentem partes propolitarum ocnominatio num ſumprarum continue reperire.
-
-¶It mimimum numey babentẽ tertiã que tertia babcat quartam: que ctiã quar, ta babcat quintã:aut ſcptimã: aut qualitercũqz contingar cas ab ciſdem vel piucr ſis oenominari. DlSultiplicari oporter denominatore prime partis in ocnomina? torẽ ſcoc:z ey cis pductum in cenominatorẽ tertie: pductum quoqz i ccnomina torẽ quarte. ſic oe ceteris vlqz ad vltimam. a prima vel vſz ad primã ab vltima qui pruencrit crit qui inquirit vt in ppoſito. 6o.vel. Sa.
-
-¶hoc autẽ ita eſſe oe monſtratine ſic babeto. Oint numcri pres ꝓpoſitas denoiantes. a.b.. d.volumꝰ inuenire minimũ numerum qui babeat partem oenominatam ab.a. ita ꝙ illa ps babcat parté ocnominatã a.b.z illa allã cenominatà a.c. ſcd z bec allã oictã a.d
+¶Vt minimum numeꝝ habentẽ tertiã que tertia habeat quartam:que etiã quarta habeat quintã:aut ſeptimã:aut qualitercũqʒ contingat eas ab eiſdem vel diuerſis denominari.Multiplicari oportet denominatorẽ prime partis in denominatorẽ ſcꝺe:⁊ ex eis ꝓductum in denominatorẽ tertie:ꝓductum quoqʒ i denominatorẽ quarte.ſicqʒ de ceteris vſqʒ ad vltimam.a prima vel vſqʒ ad primã ab vltima ⁊ qui ꝓuenerit erit qui inquirit̃ vt in ꝓpoſito.60.vel.84.¶Hoc autẽ ita eſſe demonſtratiue ſic habeto.Sint numeri ptes ꝓpoſitas denoiantes.a.b.c.d.volum⁹ inuenire minimũ numerum qui habeat partem denominatam ab.a.ita ꝙ illa ps habeat partẽ denominatã a.b.⁊ illa aliã denominatã a.c.ſed ⁊ hec aliã dictã a.d

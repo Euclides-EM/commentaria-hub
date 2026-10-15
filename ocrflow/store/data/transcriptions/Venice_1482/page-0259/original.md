@@ -1,29 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: XIIII -->
 
-drata puarumlinearum.a. b.2.c.a.ſint quincuplum ad quadratum.d.e. quod eſt
+drata duarum linearum.a.b.⁊.c.a.ſint quincuplum ad quadratum.d.e.quod eſt propoſitum.
 
-[Diagram]
+¶Manifeſtum eſt ergo ꝙ quadratum lateris cubi atqʒ quadratum lateris figure duodecim baſium cum cubum ⁊ figurã duodecim baſiũ eadem ſpera circũſcribit ambo quadrata pariter accepta quincuplum ſunt quadrati medietatis diametri circuli qui circumſcribit pentagonum eiuſdem figure duodecim baſium.
 
-propoſitum.
+¶Iſtud correlariũ vere manifeſtum eſt:conſtat enim ex demonſtratione.17.tredecimi libri ꝙ latus cubi ſubtenditur angulo pentagoni duodecedri cum cubũ ⁊ duodecedron vna eademqʒ ſpera circũſcribit:itaqʒ ꝑ hanc quartam ſine obice conſtat correlarium.⁊c.
 
-¶t Iamrfeſtum eſt ergo ꝙ quadratum lateris cubi atoz quadratnm lateris figure ouodecim baſium cum cubum a figurã onodecim baiui cadem ſpera circũſcribit ambo quadrata pariter accepta quincuplum ſunt quadrati medietatis diametri circuli qui circumſcribit pentago num ciuſdem figure ouodecim baſium.
+[Figure: pentagon inscribed in a circle, faintly impressed]
 
-¶ Iſtnd conclariũ vcre manifeſtum eſt: conſtat enim cx demonſtratione. i7. trede cimi libri ꝙ latus cubi ſubtenditur angulo pentagont cuodecedri cum cubũ ⁊o o decedron vna cademaz ſpera circũſcribit:itaz p banc quartam ſine obice conſtat conclarium.æ.
+## Propoſitio .5.
 
-## PPrcpoſitio5.
+{dropcap:P|lines=4|style=decorated|decoration="foliate initial on dark ground"}Entagonus figure duodecim baſium triangulus qʒ figure viginti baſium quos eadẽ ſpera circumſcribit vno eodemqʒ circulo circumſcribuntur.
 
-{dropcap:[illegible]|lines=5|style=decorated}Entagonus figure onodecim baſium triangulus qz figuꝰ re viginti baſinm quos eadẽ ſpera circumſcribit vno eo demqz circulo circumicribuntur.
+¶Sit ſpera cuius diameter.a.b.circũſcribens duas ſolidos figuras videlicet duodecedron cuius vnus ex duodecim pentagonis ſit.c.et ycocedron cuius vnus ex.20.triangulis ſit.d.pentagono aũt.c.⁊ trigono.d.ſuper duo centra.d.⁊.c.circumſcribanť duo circuli huic q̃dẽ.ſ.c.ex.14.q̃rti illi vero.ſ.d.ex.5.eiuſdẽ:dico itaqʒ ꝙ hi duo circuli ſperaꝝ ꝓpoſitaꝝ quorum alter circũſcribit pentagonũ.c.alter vero trigonum.d.ſunt equales.Signentur enim duo latera pentagoni.c.vnũ ex ſuis angulis cõtinentia litteris.e.f.⁊.f.g.⁊ protrahanť linea e.g.que ſubtendat angulum.f.⁊ ſemidiameter circuli que ſit.c.f.vnũqđqʒ ex lateribus trigoni.d.ſigneť litteris.k.h.⁊ protrahatur ſemidiameter ſui circuli que ſit.d.k.dehinc ſumať linea.l.m.ad quã ſit linea.a.b.que ẽ diameter ſpere aſſignate quīcupla i potentia:q̃ quidẽ.l.m.diuidať i.n.ſm proportionẽ habentem mediũ duoqʒ extrema ſitqʒ maior portio eius linea.l.n.⁊ ſcõm quãtitatẽ totius.l.m.lineetur circulus.p.q.itaqʒ ſemidiameter circuli.p.q.ſit equalis linee.l.m.eritqʒ ex correlario.15.quarti linea.l.m.tanqʒ latus exagoni equilateri circulo.p.q.inſcripti.ideoqʒ per tertiam huius linea.l.n.erit tanqʒ latus decagoni equilateri eidẽ circulo inſcripti:igitur ex.11.quarti inſcribať pentagonus equilaterus circulo.p.q.cuius vnum latus ſit.p.q.eritqʒ ex.10.tredecimi libri quadratũ.p.q.equale quadratis duarum linearum.l.m.⁊.l.n.pariter acceptis.conſtat autem ex demonſtratione.16.tredecimi ꝙ.h.k.eſt equalis.p.q.ergo quadratum.h.k.eſt equale quadratis duarum lineaꝝ.l.m.⁊.l.n.pͣiter acceptis.At vero ex demõſtratiõe.17.tredecimi.manifeſtũ ẽ ꝙ.e.g.ẽ latus cubi ab eadẽ ſpera circũſcriptibilis:q̃re ꝑ correl'.14.tredecimi.a.b.q̃ ẽ diameter ſpere potentialiter ẽ tripla ad.e.g.q̃ ẽ latus cubi.ſi aũt.e.g.diuidatur ſm ꝓportionẽ hñtem mediũ duoqʒ extrema pʒ ex demonſtratiõe.17.tredecimi ꝙ e.f.ẽ tanqʒ maior portio eius:igitur ex ſecunda huiꝰ.e.g.ad.l.m.ſicut.e.f.ad.l.n.nam vt tota ad totam ſic maior portio ad maiorem.itaqʒ per.21.ſexti quadratum e.g.ad quadratum.l.m.ſicut quadratum.e.f.ad quadratũ.l.n.q̃re ꝑ.13.quinti q̃drata duarum linearum.e.g.⁊.e.f.pariter accepta ad quadrata duarum linearum l.m.⁊.l.n.pͣiter accepta ſicut quadratũ.e.g.ad quadratũ.l.m.ergo ꝑ.15.quinti:et
 
-[Diagram]
+[Figure: circle with inscribed pentagon, vertices e, f and g marked, centre c, with lines drawn between e, f and g, overlapping a fainter pentagon and circle]
 
-[Diagram]
+[Figure: horizontal line marked a at one end and b at the other]
 
-[Diagram]
+[Figure: horizontal line marked l, n and m]
 
-[Diagram]
-
-¶Oit ſpera cuius piamercr. a.b. circuſcribens ouas ſolidos figuras idelicet ouodecedron cuius vnus ex ouodecim pentagonis lit. C.et ycocedron cuius vuns cy. 2o.triangulis ſit. d. pentagono aũt.c.⁊ trigono. d.ſuper ouo centra.d.2.c.circumſcribant ouo circuli buic q̃dẽ.f.c.ey.1 a q̃rti illi vero.ſ.d. cy 5-ciuſdẽ: oico itaoz q bi ouo arcnli ſperay ppolitay quorm alter circũſcri, bit pentagonui.c. alter vero trigonum. d. ſunt equales. Signentur enim ono latera pentagoni.c.vnũ cy ſuis angnlis cõtinentia litteris. e. f.2.f.g.z protrabant linca e.g-que ſubtendat angnlnm. f. z ſemidiametcr circuli que fit.c.f. vnũqoy er lateri buc trigoni. d ſignct littcris. l. h.z prorrabatur ſemidiameser ſui circuli que ſit. d. R pebinc ſumat linea. I.m ad qua ſit linea. a. b que e biamerer ſpere aſſignate qui cupla i porcntia: q̃ quidẽ. I.m. oiuidat i.n.bm proportionẽ babentem mcduũ ouoͬ  ertrema ſirz maior portio eius linca.l.n.z ſcom quãtitatẽ totius. l.m. lincerur circu'us. p.q.ita; ſemidiamcter circuli. p. q fit cqualis lince. l.m.critoz er concla rio.is quarni linca.lm. ranq; latns cragoni cquilateri circulo.p.q. inſcripri. lõus per tertiam buins linca.I.n.erit tanq latus pecagoni cquilateri cide circulo inſeri pri:igitur ey 1i, quarti inſcribat pentagonus cquilaterus cireulo. p.q. cnius vnum
-
-[Diagram]
-
-iatus ſit, p.q criioy cr io tredecimi libri quadrati, p.q cquale quadratis puaruim iincarun.L.m,.&. ln pariter acceptis, conſtat autem er demonſtrationc. io trede) cimni qy. h.l. eſt equalis. p.q.ergo quadratumn. h. l.eſt cquale quadratis ouarmn uincay. l.m.z. In-piter acceptio. At vero er bemoſtratõe. iꝰ ttedecimi, manfeſtui ẽ q.c.s e latus cubi ab cade ſpera circuſcriptibilis: q̃re p concl.ia tredccimi.a.b. qẽ diamerer ſperc potentialitcr ẽ tripla ad.c.s q̃ élatus cubi.ſi aũt, e. 3. oinidatur oem ppomione biitem medii ouoo ertrema ps &r bemonſtrande. ir iredecimi q ef.ẽtan̃y maior portio cins: igitur er ſccunda buiꝰ c.g.ad. lm. ſicut. e.f.ad. lam. nam vt tota ad roram fic maion portio ad maiorem.itaqz per. ai ſeyti quadratum e.sad quadratum. lm. ficut quadratum. c. f.ad quadratui. l.n. q̃re paiy, quinti q̃' drara puarm incarmmn, e g ve s parter actepra ad quadrata buarum imncaromn Am.a l n pter accepta ſicut quadrati.c.s ad quadratud. m, ergo pais quinti:ct
+[Figure: circle with inscribed triangle, vertex k at top and h at lower left, with a line from k to centre d]

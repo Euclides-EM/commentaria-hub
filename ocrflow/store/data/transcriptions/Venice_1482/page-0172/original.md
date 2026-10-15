@@ -1,29 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-linee libi incõmenſurabilis: ey biffinitione igitur è linca.f.g binomium quartum: quod crat propolitum
+linee ſibi incõmenſurabilis:ex diffinitione igitur ẽ linea.f.g.binomium quartum: quod erat pꝛopoſitum.
 
-## Propoſitio 5s.
+## Pꝛopoſitio 58.
 
-{dropcap:[illegible]|lines=5|style=decorated}J linee rõnali quadrato lince porentis ſupra rõnale erit mediale cqualis : parte altera longioz formna adiungatur alterum lains eius binomium quintum elſe neceſſe eſt.
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linee rõnali quadrato linee potentis ſupꝛa rõnale erit mediale equalis:parte altera longioꝛ foꝛma adiungatur alterum latus eius binomium quintum eſſe neceſſe eſt. ¶Pꝛopoſita linea.a.b.ea que põt ſupꝛa mediale ⁊ rõnale diuiſa ſm eius diffinitionẽ ad punctũ.c.nihil imutet de reliquis.ſequit̃qʒ lineã f.g.eſſe binomium quintũ Cũ enim ptes huiꝰ linee.a.b.contineãt rõnalẽ ſuperficiẽ neceſſe eſt vt ſuperficies.g.m.ideoqʒ ꝑ.16.linea.n.g. ſit rationalis. Cumqʒ ambo quadrata partium huius linee piter accepta ſint mediale erit ſuperficies.e.n.medialis ⁊ per.20.linea.f.n.rõnalis in potentia tm̃.at qꝛ poꝛtiones predicte linee ſũt incõmenſurabiles in potentia:erit ſuperficies.e.l.incõmenſurabilis ſuperficiei.m.l.ideoqʒ ⁊ linea.f.l.linee.l.n.potentioꝛ igit̃ ẽ per pꝛimã ptẽ.14.linea.f.n.linea.n.g in quadrato linee ſibi incõmenſurabilis:per diffinitionẽ itaqʒ binomij quinti conclude pꝛopoſitum.
 
-¶ Propoſita linea. a.b. ea que põt ſupra mediale c rõnale oiuia bm leius oiffinitionẽ ad punctũ. c.nibil imutct oe reliquis. ſequiiqy lincã f.s. eſſe binomium quintũ Lũ enim pres bui linee.a.b. contineãr rõnale ſuperficiẽ neceffe eſt vr ſuperficies.s.m.ideoy p.is.linea.n.3- ſit rationalis. Cumoz ambo quadrata partium buins lince piter accepta fint mediale erit ſuperficies.e.nme dialis cper. o. linea. f.n. ronalis in potentia tin. at q portioncs predicre lince ſur incõmenfurabiles in potentia: erit ſuperficies.e l.incomenſurabilis ſuperficiei.m. Lideooy z linca. f.l. lince. ln porentior igit é per primã prẽ.14. linea. fan. linea.n.g in quadrato lince ſibi incõmenſurabilis: per oiffinitione iraqy binomij quinti con clnde propoſitum.
+## Pꝛopoſitio .59.
 
-## "propoſitio .59.
+{dropcap:Q|lines=5|style=decorated|decoration="foliate initial on black ground"}Votiens adiuncta fuerit linee rõnali ſupficies rectangula equalis quadrato linee potentis in duo medialia eiuſdem ſuperficiei latus ſcꝺm binomiũ ſextum eſſe conuicitur. ¶In hac.59.ſit linea.a.b.linea potens ſupꝛa duo medialia:que aũt pꝛeter hec ſunt ſicut ſupꝛa maneant ⁊ erit tunc linea.f.g.binomium ſextũ qꝺ ignoꝛare nõ poteris ſi pꝛemiſſoꝝ eiuſqʒ qꝺ.35.ꝓponit imemoꝛ nõ fueris: ⁊ ſic pʒ in hac noſtra intentio.
 
-{dropcap:[illegible]|lines=5|style=decorated}Motiens adiuncta fuerit linee ronali ſupficies rectangula equalis quadrato linee potentis in ouo medialia einſdein ſuperficiei latus ſcom binomiu ſeytum elle conuicitur.
+## Pꝛopoſitio .60.
 
-¶In bac. 5a. ſit linea. a. b. linea potens ſupra ouo medialia: que aũt preter bec ſunt ſicut ſupra mancant z erit tunclinea. f.g. binomium ſepũ qo ignonare nõ poreris ſi premilloy ciuſas qo.zs,ꝓponit imemor nõ fucns: zlic py in bacnoſtra intentio. PPropoſitio.oo.
+{dropcap:O|lines=5|style=decorated|decoration="foliate initial on black ground"}Mnis linea cuiuſlibet binomioꝛum cõmunicans ſub eadem ſpecie binomium eſſe pꝛobatur.
 
-## [illegible]
+[Figure: two horizontal lines, the upper labelled a with points c and d beneath it, the lower labelled b with points e and f beneath it]
 
-{dropcap:[illegible]|lines=5|style=decorated}nis linea cuiullibet biriomiorum cõmunicans fub ea Nem ſpccie binomium eſle probatur.
-
-[Diagram]
-
-[Diagram]
-
-¶ Sit linea.a. binomium cuins uis ſpeciei: ſitoz linea. b. ſibi cõicans lin longitudine: oico linea.b. cé binomĩ ciuſde ipeciei culꝰ a.ſmnt ent
-
-[Diagram]
-
-l binom ales portionco.a.c.z. d.eruntoy ambe ronales in potctia tiĩ coicantes per-yo.linea vcro. b. binidet per. 12. ſeyri bm pportionë. c.ad. d.in.e.t l.eritqy per couunctam z euerſam e pernuratam proportionaliratem. c.ad.c. 2. d. ad.f.ficut, a ad.b cum ſint igitur. a.z.b. coicateo: ernt etlã per primã parté. io. 2.c.itẽ d. 2.f.cõicantes. ſi igitur fuerit. c rõnolis in porcntia t̃̃ erit t. eſi au tem in longitudine z.e. Fodeoy modo ſi. d.é ronalis i poicntia tin ve erias in ſon gimndine t. erit quogy z. t.filr e cy. na. ſi potetior é, c. d, quadrato lince ſioi comé furablis in lõgitudine vel ſi forte incõmẽſurablis crit. z.e. potentioi. f.in quadral to lince ſibi comenſurabilis vel etlã incommenſurabilis: ncceſle et ey oiffinitioni bꝰ ſer ſpeciey binomioy vt eiuſde ſpecici binoii ſint. a.2. b. Oi aute linca. b.co municet binomio. a. in potentia tn erit etia ct fic linea. b. Sinomium aũt ciuſde specici non eſt ncceſfaru imo impoſſibile eſt vr ambe ſunul cadaut ſub prima ſpe? cie binomiorum vel fubs ſcon quarta vel quinta ſy ncceſſe eit vr ainbo cadant ſubl primis trbus aut ambo ſub tribus poſtremis: vnii cni con elſe in aliqua eyr trbous primis ſpeciebns z aliund in alioua er tribus poſtremis eſt impoſſibilc, cim enuin,a coicet cui.b. mn potenta ti.c.quoay ci.e. .d ci f.coicabit im i potentia cy io¬ St igir alterutra cuarom uincarimn. s.a d ficrt rondlis m longindme nonent ſua cõpar er lieis. c. zf. rationdlis in longitndimne. Ilon et iraox poſſibileur act b ctont ſimuiluis aiqu crils ſpeeicfus bingmeum ii qubis aleoa vrmu
+¶Sit linea.a.binomium cuius uis ſpeciei:ſitqʒ linea.b.ſibi cõicans in longitudine:dico lineã.b.eẽ binomiũ eiuſdẽ ſpeciei cuiꝰ.a.ſint enĩ binomiales poꝛtiones.a.c.⁊.d.eruntqʒ ambe rõnales in potẽtia tm̃ cõicantes per.30.linea vero.b.diuidat̃ per.12.ſexti ſm ꝓpoꝛtionẽ.c.ad.d.in.e.⁊ f.eritqʒ per cõiunctam ⁊ euerſam ⁊ permutatam pꝛopoꝛtionalitatem.c.ad.e.⁊.d. ad.f.ſicut.a.ad.b.cum ſint igitur.a.⁊.b.cõicãtes:erunt etiã per pꝛimã partẽ.10. c.⁊.e.itẽqʒ.d.⁊.f.cõicantes.ſi igitur fuerit.c.rõnalis in potentia tm̃ erit ⁊.e.ſi autem in longitudine ⁊.e.Eodẽqʒ modo ſi.d.ẽ rõnalis in potentia tm̃ vel etiã in longitudine tm̃.erit quoqʒ ⁊.f.ſilꝛ ⁊ ex.12.ſi potẽtioꝛ ẽ.c.d.quadrato linee ſibi cõmẽſurabilis in lõgitudine vel ſi foꝛte incõmẽſurabilis erit.⁊.e.potentioꝛ.f.in quadrato linee ſibi cõmenſurabilis vel etiã incommenſurabilis:neceſſe eſt ex diffinitionibꝰ ſex ſpecieꝝ binomioꝝ vt eiuſdẽ ſpeciei binomij ſint.a.⁊.b.Si autẽ linea.b.cõmunicet binomio.a.in potentia tm̃ erit etiã et ſic linea.b.Binomium aũt eiuſdẽ ſpeciei non eſt neceſſariũ imo impoſſibile eſt vt ambe ſimul cadant ſub pꝛima ſpecie binomiorum vel ſub ſcꝺa quarta vel quinta.ſʒ neceſſe eſt vt ambo cadant ſub pꝛimis tribus aut ambo ſub tribus poſtremis:vnũ enĩ coꝝ eſſe in aliqua ex tribus pꝛimis ſpeciebus ⁊ aliud in aliqua ex tribus poſtremis eſt impoſſibile.cum enim.a.cõicet cũ.b.in potentia tm̃.c.quoqʒ cũ.e.⁊.d.cũ.f.cõicabit tm̃ in potentia ex.10. Si igitur alterutra duarum linearum.c.⁊.d.fuerit rõnalis in longitudine non erit ſua cõpar ex lineis.e.⁊.f.rationalis in longitudine. Non eſt itaqʒ poſſibile vt.a.et b.cadant ſimul ſub aliqua ex illis ſpeciebus binomioꝛum in quibus altera duarum

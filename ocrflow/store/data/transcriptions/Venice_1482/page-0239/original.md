@@ -1,29 +1,17 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: XIII -->
 
-oindat adouc necefe eſt vi'rrag portio cins ſit rcidni.ſit eni.a b.ronalis i n tentia tii oiuiia ſint poonttur in puncto c.z fumat alſqus rondlis in lonaimai¬ queſit, de.q cus puuidat i.l fm pdicta proportione. nianilestu eſt igt crſecud¬ ta lori que fine adimnicinlo alicuius coy que ſcquistur inconcula emoſtrarioue
+diuidať adhuc neceſſe eſt vt vtraqʒ portio eius ſit reſiduũ.ſit eni.a.b.rõnalis i potentia tm̃ diuiſa ſicut ꝓponitur in puncto.c.⁊ ſumať aliqua rõnalis in longitudie que ſit.d.e.q̃ etiã diuidať in.f.ꞗm p̃dictã proportionẽ. manifeſtũ eſt igiť ex ſecũda 14.libri que ſine adminiculo alicuius coꝝ que ſequũtur inconcuſſa demõſtratione roborať ꝙ ꝓportio.a.b.ad.d.e.eſt ſicut.a.c.ad.d.f.⁊ ſicut.c.b.ad.f.e.Cum ergo a.b.cõicet cum.d.e.in potentia ſequiť ex prima pte.10.decimi ꝙ.a.c.communicet cũ.d.f.⁊.c.b.cũ.f.e.in potentia.Et qꝛ vtraqʒ portio linee.d.e.ẽ reſiduum ut patet ex predictis ſequiť ex.98.decimi vt vtraqʒ portio linee.a.b.ſit etiã reſiduũ ſed non eiuſdem ſpeciei vt ibidẽ demonſtratũ eſt.Quare cõſtat ꝙ oẽs linee rõnalis in longitudine vel in potentia tm̃ ſcõm ꝓportionẽ habentẽ mediũ ⁊ duo extrema diuiſe vtraqʒ portio ẽ reſiduũ.Et nota ꝙ prima ps pñtis demonſtrationis qua demonſtrať ꝙ maior portio linee diuiſe ꞗm ꝓportionẽ habentẽ mediũ ⁊ duo extrema ſit reſiduũ ſi tota linea ſit rõnalis ꝓcedit ex ſufficientib⁹ ſiue tota linea ponať rõnalis in longitudine ſiue in potentia tm̃.Scõa vero ps qua demonſtrať hoc de minori portione ꝙ ipſa quoqʒ ſit reſiduũ ſi tota ẽ rõnalis nõ ꝓcedit ex ſufficientib⁹ niſi tota ſit rõnalis in longitudine. Tertia aut pars qua ꝓbatur ꝙ minor portio ẽ reſiduum ſufficienter procedit ſiue maior portio ſit rationalis in longitudine ſiue in potentia tantum. Ad concludendum igitur de maiori portione linee predicto modo diuiſe ꝙ ipſa ſit reſiduũ ſufficit ponere totam lineam diuiſam eſſe rationalem in potentia tm̃.ſed ad cõcludendũ quoqʒ hoc de minori portione mediante maiore ſufficit ponere portionẽ maiorẽ.ſiľ rõnalẽ in potentia tm̃. ſed ad cõcludenduʒ hoc de minori portione mediante neceſſe eſt ponere totã lineã eſſe rõnalem i longitudine aut vtẽdũ ẽ ſcõa.14.libri queadmodũ dictum eſt.
 
-[Diagram]
+[Diagram: horizontal line with points a, c and b]
 
-[Diagram]
+[Diagram: horizontal line with points d, f and e]
 
-[Diagram]
+## Propoſitio .7.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on dark ground within a square frame"}J quis pentagonus tres equos angulos habens fuerit equilaterus equiangulus quoqʒ idẽ pentagon⁹ eẽ ꝓbať.
 
-robouat v ppontio. a. b.ad.d e.eſt ficut. a c.ad.d. f.c ſicut.c'bad. fe, fum err a.b.coicet coumn.d.e m porentla ſcouits er prina ple io pecuint qy a.c comprmiexe a'dt ec h ai fte mporeirs Ei q virey poms imes de xreaidimmmtpare cr piedictis ſequi er. ps ncoimi vt viracn porio lince a b'ſit ets reiiduir les nor a ſdemn ſpeciei vt ibidé emonſtraui eſt. Ouare toſtat q oes imcee ronlis inlon guudine vel in potentia tii ſcoin pooroné babente medus e ouo cytrema pinſe trags pomio é reſidon. Et nors y pnima po pntis cenonſtrations qua penone ſtrat vmaior pomo lince vile pu ppouione pacente medu e ous crrens lue
+¶Sit pentagonus.a.b.c.d.e.equilater⁹.ſintqʒ quilibet tres ei⁹ anguli ſiue cõtinue ſiue incõtinue:ſumanť adinuicẽ equales ⁊ ſint pri⁹ incontinue ſumpti.ſintqʒ anguli.a.c.d.illi tres qui ponunť adinuicẽ equales dico totũ pentagonũ eẽ equiangulũ.His angulis ſubtendanť chorde.b.e. b.d.⁊.e.c.⁊ totus pentagonus diuidať in trigonũ ⁊ quadrilateꝝ cuius due diagonales ſint chorde duoꝝ proximoꝝ equaliũ anguloꝝ ſecantes ſe intra quadrilaterũ ipſũ in puncto.f.eritqʒ ꝑ quartã primi baſis.b.e.equalis baſi.b.d.⁊ angulus.a.e.b.equalis angulo.c.d.b.Cunqʒ ꝑ quintã primi angulus.b.e.d.ſit equalis angulo b.d.c.eo ꝙ duo latera.b.e.⁊.b.d. ſint equalia. erit ex cõi ſcia totalis angulus.e.equalis totali angulo.d.ſimiliter probabis totalẽ angulum.b. eſſe equalẽ angulo totali.c.eſt eni per quartã primi baſis.b.e.equalis baſi.c.e.⁊ angulus.a.b.e.equalis angulo.d.c.e.per quintã aũt eiuſdẽ ſcʒ primi eſt angulus.e.b.c. equalis angulo.e.c.b.igiť ex cõi ſcia totalis angul⁹.b.ẽ equalis totali angulo.c.Sint itaqʒ tres anguli.b.c.d.cõtinue ſũpti equales ⁊ ſic quoqʒ erit pentagonus equiangulus:erit enim ex.4.primi baſis.b.d.equalis baſi.c.e.⁊ angulus.c.d.b.angulo.d.c.e.⁊ angulus.b.d.c.angulo.e.c.d.quare ꝑ ſextã primi due linee.c.f.⁊.f.d.erũt equales cũ duo anguli trianguli.f.c.d.qui ſunt ad baſim.c.d.ſunt equales:igiť ex hac cõi ſcia erit linea.f.b.equalis linee.f.e.erat eni tota.b.d.equalis toti.c.e.ideoqʒ per quintã primi erit angulus.f.b.e.equalis angulo. f.e.b. ꝑ eandẽ autẽ ẽ angulus.a.b.e.
 
-[Diagram]
+[Diagram: pentagon with vertices a, b, e, c and d, diagonals intersecting at point f]
 
-reſiduu ſi tora iines ſit rondlis peedir er ſufficientib'fiue tors lies ponar ronae i in longitndine ſiue in poicntia ti. Scoia vero po ous cemonſtrar boe vemns ri ponione q ipſa quon ſit reitduu ſi roia e ronaiis no perdit er lufficienmoe mle
-
-idmomn ſufioenter proredit ſine maion porofit ratondis inonpimuaine fure in potentia tantum. Ra condndendum oimr ce maion poulonc lnce prelcomo do oinſe q ipfa ſit reidon ſufioit poncre toram lincam oiiſam dle rationlen in potentia tin. ſed ad codudendu quogy hoc be minori poitione mediante mais¬ re ſufficit ponere portone maione. ſir ronale in poientia ni, ſed ad corindendus boc te minou portione mediante neceſſe eſt poncre tors linci clle rondlemi lon gitudine aut vrẽdũ ẽſcoa.ra libri queadmodu oictum eſt.
-
-## Ibropoſitio.7.
-
-{dropcap:[illegible]|lines=5|style=decorated}J quis pentagoius tres equos augulos babens fucrit equilaterus cquiangulus quonz idé pentagons tẽ pbpar G ont pentagonus. a. b.c de.coulaier' ſinten ouupet tres dꝰan? ani ſue coumne fme mncorinner immant a dimmice couales eſmt pn I incontimne fumpn, ſintop anpol, a cc d' ius trco qui pommnt adimme comnlen ieo torn pentagonu cé copiangui, Dis angplis ſupiencant corde be
-
-[Diagram]
-
-b.ad. t.e c tomus pentagons pindat in irigonn s quadriater onus oue plags nalcs ſint coorde cuoy prorimor epouis angloy ſerantes ſe mnm quadrioten ipin in puncio. s crigs n quarra puni bafis be cqualt bai b d tanpuusài b cquaiie angulo, c d. S L'unoy pouinta pumi angolus bc. diit counis anguis b.d.c. co q puo liera be. e. b d int coudis cnit er cor leia torais angolois cmlies torait angmlos, d ſimiter prepabis torale angoionn, b cile cenies angus, torali c et ons per ouatas pumi pi be conis baiulcce, angplia baros li angulo d ce per oointa aut einde lo pumi c̃t angnlns c brescqualts anqus ls e c'h igt er coi ſeia toralis anqui' bé counlis toiaii anguo, c' Sint uap ires angpi b ed. touime fupii couoles e iic quoay erit pentagoins cyuiarpoluerenit cnimez a puimi baſis. b.d cqualio baſt ce, s’angnine. t d.b-angulo, dct tant goluo b à cangnls e.d quare p ſepa pnimt ouelince cf. s'l.d cnit emles au pouos ananu troangoi. fe, d qui funt ad paſun c d ſuns couleo iot cr puc roitos erit linca. ſ.h, cqualo uinee. fic. crat ent iors b d cynalis toit c.cãdeooy per qoin tipamni ent anpiluis foc cula ayguo, fe b pende aute c’anguius à e
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: p 3 -->

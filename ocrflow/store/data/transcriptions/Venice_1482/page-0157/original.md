@@ -1,39 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-fit.a. pollit amplins breuiori que ſit. b. in quadrato alicuins lince ſecum omuni, cantis in longitudinc:z ponam lineam.c. ſcom ooctrinã.q ſerti medio loco ppor,
+ſit.a.poſſit amplius bꝛeuioꝛi que ſit.b.in quadrato alicuius linee ſecum ꝯmunicantis in longitudine:⁊ ponam lineam.c.ſcõm doctrinã.9.ſexti medio loco ꝓpoꝛtionalem inter.a.⁊.b.⁊ ponam ut ſit pꝛopoꝛtio.a.ad.b.ſicut.c.ad.d.ꝙ qualiter fiat in.10.ſexti dictum eſt.Dico tunc duas lineas.c.⁊.d.eſſe quas querimus:patet eni ex.19.ꝙ ſuperficies quã cõtinent due linee.a.⁊.b.ẽ medialis:⁊ qꝛ ꝑ pꝛimã ptẽ 16.ſexti quadratũ linee.c.eſt dicte ſuperficiei equale erit igitur per.19.linea.c.medialis.Cũ autẽ ſit.a.ad.b.ſicut.c.ad.d.⁊.b.cõmunicat cũ.a.in potentia tm̃ ex ypotheſi:qꝛ tam.a.q̃ʒ.b.rõnalis eſt in potentia ſequitur per.10.ꝙ.c.quoqʒ cõicet cum d.in potentia tm̃.itaqʒ per.21.cuʒ.c.ſit linea medialis:erit etiã.d.medialis:⁊ per pꝛimã ptẽ.12.erit linea.c.potentioꝛ linea.d.in quadrato linee ſibi ꝯmunicãtis in lõgitudine.Si ergo due linee.c.⁊.d.contineant ſuperficiem rationale ipſe ſũt quales inquirimus.Eas aũt cõtinere ſupficiẽ rationale ſic habeto:cũ ſit.a.ad.b.ſi ut{printer-error-correction:ſicut} c.ad.d.erit permutatim.a.ad.c.ſicut.b.ad.d.ſed erat.a.ad.c.ſicut.c.ad.b.igitur eſt.c.ad.b.ſicut.b.ad.d.itaqʒ per pꝛimã partẽ.16.ſexti ſuperficies quã continent due linee.c.⁊.d.eſt equalis quadrato.b.eſt aũt quadratũ.b.rationale per ypothe.cum ipſa ſit rationalis in potentia:ſuperficies ergo quam continent due linee.c.⁊ d.eſt rationalis:quare conſtat pꝛopoſitum.
 
-[Diagram]
+[Diagram: three horizontal lines labelled c, b and d]
 
-tionalem inter.a.2.b. ⁊ ponam ut ſit proportio. a.ad.b. ficut.c.ad.d.ꝙ qualiter fiat in.io.ſerti bictum eſt. Dico tunc ouas lineas. c.z. d. eſſe quas querimus: patet eni er. 1o. ꝙ ſuperficies quã cõtinent onelince. a. 1.b.ẽ medialis:z qu p primã ptẽ is. ſerti quadratũ lince.c. eſt oicte ſuperficiei equale erit igitur per.9.linea.c. medi alis. Lũ autẽ ſit. a.ad.b.ficut. c.ad. d.2.b. cõmunicat cũ.a. in potentia tm̃ ey ypoꝰ tbeſtqr tam. a.q3. b.rõnalis eſt in potentia ſequitur per. 1o.ꝙ. c. quoqy cõicet cum d.in potentia tm.itacz per.2i.cuz.c. ſit linea medialis: erit etiã. d.medialis :z per prima prẽ.i2. erit linea. c.porentior linca.d.in quadrato lince ſibi omunicãtis in lõgitndine. Si ergo oue lince.c.2. d.contincant ſuperficiem rationale ipſe ſũt qua les inquirimus. Eas aũt cõtinere ſupficiẽ rationale ſic babeto:cũ ſit. a. ad.b. ſi ut c.ad. d.erit permutatim a.ad.c.ſicut. b.ad.d.ſed crat.a.ad.c.ſicut.c. ad.b. igitur eſt.c.ad.b.ſicut. b. ad.d.itaqz per primã partẽ.is. ſeyti ſuperficies quã continent oue linee.c.2. d.eſt equalis quadrato. b. eſt aũt qnadratũ. b. rationale per pporbe. cum ipla ſit rationalis in porentia: ſupcrficies crgo quam continent oue lince. c. 2 d.eſt rationalis: quare conſtat propoſitum.
+## Pꝛopoſitio .25.
 
-## lropoſitio aa5.
+{dropcap:D|lines=4|style=decorated|decoration="floriated initial on black ground"}Uas lineas mediales potentia tantũ cõmunicãtes ſuperficiemqʒ rõnalem cõtinentes:quaꝝ longioꝛ ſit potentioꝛ bꝛeuioꝛi quadrato linee eidem longioꝛi in longitudine incõmenſurabilis inuenire.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mas lineas mediales porentia tantũ cõmunicãtes ſuper ficiemqz rõnalem cõtinentes: quax longior ſit potentior breuiori quadraro linee eidem longiori in longitudine in
+¶Poſitis duabus lineis.a.⁊.b.rõnalibus potẽtia tm̃ cõicantibus quarum longioꝛ poſſit amplius bꝛeuioꝛi quadrato linee ſecum non cõmunicantis in longitudine:que quidẽ reperiunt̃ ſm̃ doctrinã.18.ceteriſqʒ poſitionibꝰ manentibus ſicut in p̃miſſa argumẽtando modo cõſimili:patebit duas lineas.c.⁊.d.eſſe quales querimus.Et nota ꝙ due linee quas hec ⁊ pꝛemiſſa docent inuenire componunt bimediale pꝛimũ:⁊ minoꝛi earum abſciſa de maioꝛi que reliqua eſt:dicitur reſiduum mediale pꝛimum.
 
-[Diagram]
+[Diagram: four horizontal lines labelled a, c, b and d]
 
-[Diagram]
+## Pꝛopoſitio .26.
 
-[Diagram]
+{dropcap:D|lines=4|style=decorated|decoration="floriated initial on black ground"}Uas lineas mediales potentia tantũ cõmunicantes ſuperficiemqʒ medialem continentes quarum longioꝛ bꝛeuioꝛe tanto amplius poſſit quantũ eſt quadratum alicuius linee incõmenſurabilis ipſi longioꝛi ĩ lõgitudine inuenire.
 
-[Diagram]
+¶Cũ docuerit iuenire duas lineaſ mediales potentia tãtũ cõicantes ſuperficiẽqʒ rationalẽ continentes:quaꝝ longioꝛ plus poſſit bꝛeuioꝛi in quadrato linee ſecum cõmunicantis in longitudine ⁊ ſecum incõmenſurabilis in longitudine Nunc docet inuenire duas lineas mediales potentia tantũ cõicantes ſuperficiemqʒ medialem continentes quaꝝ longioꝛ ſit potentioꝛ bꝛeuioꝛi in q̃drato linee nõ ſecum cõicantis in longitudine.ſed ſolũ ſibi incõmenſurabilis in longitudine.Illud enim facile habetur ex iſto.Sint itaqʒ tres linee ſumpte ſm̃ ꝙ doctrinã.18.a.b.c.potentia tm̃ rõnales ⁊ ĩ ea ſolũ cõicantes.ſitqʒ.a.potentioꝛ.b.⁊.c.quadrato linee ſibi incõmenſurabilis in longitudine:⁊ ponatur.d.medio loco ꝓpoꝛtionalis inter a.⁊.b.ut docet.9.ſexti:⁊ ſit.d.⁊.e.ſicut.a.ad.c.dico duas lineas.d.⁊.e.eſſe q̃les inquirimus.cum ſit enim quadratũ linee.d.equale ſuperficiei que continetur ſub.a
 
-cõmenſurabilis inue nire. l
-
-¶ Pofitis onabus lincis. a.
-
-¶. b. rõnalibus potẽtia tii cõicantibus ouarom longior poſſit amplius brcuiori quadrato lince ſccum non cõmunicantis in longitndine: que quidẽ rcperiunt bm ooctrinã.1s.ceteriſoz poſitionibꝰ manen? tbous licur in pmnilla argumerando modo cõſimili patebit ouas lineas.c.1. d.eſſe quales querimus. Et nota ꝙ oue lince quas bec z premiſſa pocent inuenire com, ponunt biediale primui: z minori carum abloiſa te maiont que rcliqua ct, picitur reſiduum medialc primum.
-
-## PPropoſitio 2.
-
-{dropcap:[illegible]|lines=5|style=decorated}Mas linens mẽdiales porentia tantũ cõmunicantes ſuper
-
-[Diagram]
-
-ficiemqz medialem continentes quarum longioz breuio re tonto amplins poſſit quantũ eſt quadratum alicuins li, nee incõmenſurabilis ipſi longiori i lõgitudine inuenire.
-
-¶Lũ bocuert iuenire onas lincaſ mepialcs potentia ratu coicantes luperficiẽgy rationalẽ continentes: quay longior plus poſſir brenion in quadrato linee lecum cõmunicantis in longitndine z ſecum incõmenſurabilis in longitudie Iunc docet inuenirc ouas lincas mediales potentia tantũ cõicantes ſuperficiem qmedialem continentes qua y longier ſit porentior breuiori in q̃draro lince nõ ſe cum cõlcantis in longitudine. ſed ſolu ſibi incõmenſurabilis in longitndine. Jlnd enim facile babetur eriſto. Sint irag tres lince ſumpre fm ꝙ ooctrina.is. a.b.s. potentia iin rõnales zi ea ſolũ cõicantes. ſitay a porentior.b.z.c. quadraro linee ſibi incõmenſurabilis in longitudine: z ponatur. d. medio loco ꝓportionalis inter 4.t.b.nt docet.ꝓ ſerti: e fit.d.z.e. ſicut. a.ad.c. oico ouas lincas. d.2. e. eſle q̃les inquirimus, cum ſit enimn quadratũ linee. d.cquale ſuperſicie que continetur ſub. a
-
-<!-- Signature: [illegible] -->
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: k 2 -->

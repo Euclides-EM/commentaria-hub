@@ -1,51 +1,43 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VII -->
 
-funt otra ſe primi: polito eni q. d.numeret vtrũdz ouorum numeroy. a. 1.b.ſe? ouitur per cõcm ſciam ꝙ etiã numerct. a.b. cr cis cõpoſituin : quare ad neutrum puon numeror.a. 2. b.crit. a.b.primus: ſed poſitum erat ꝙ eſſer ad vtrũoz. Acci. dit igitur impoſſibile. Eodé quoaz mõ ſi coaceruatus ey ouobus primus ſuerit ad alterum: primus quoqz crit ad reliquũ. ideoy z coaccruati inter ſe:ſit eni cõpoſi? tns er. a.2.b. primus ad.a. ico ꝙ erit etiã primus ad. b. alioquin numeret cos.d qui per cõceptione numerabit .a. cum numeret totum e octractum: boc auté in? conucniens erat enim conipoſitus er.a.2.b. primus ad.a. ropoſitio 3o.
+ſunt ꝯ̃tra ſe primi:poſito eni ꝙ.d.numeret vtrũqʒ duorum numeroꝝ.a.⁊.b.ſequitur per cõem ſciam ꝙ etiã numeret.a.b.ex eis cõpoſitum:quare ad neutrum duoꝝ numeroꝝ.a.⁊.b.erit.a.b.primus:ſed poſitum erat ꝙ eſſet ad vtrũqʒ.Accidit igitur impoſſibile. Eodẽ quoqʒ mõ ſi coaceruatus ex duobus primus fuerit ad alterum: primus quoqʒ erit ad reliquũ.ideoqʒ ⁊ coaceruati inter ſe:ſit eni cõpoſitus ex.a.⁊.b.primus ad.a.dico ꝙ erit etiã primus ad.b.alioquin numeret eos.d qui per cõceptionẽ numerabit ⁊.a.cum numeret totum ⁊ detractum: hoc autẽ inconueniens erat enim compoſitus ex.a.⁊.b.primus ad.a.
 
-## [illegible]
+## Propoſitio .30.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mnis numerus coponituo ab auquo primo numcratur.
+{dropcap:O|lines=5|style=decorated|decoration="foliate woodcut initial"}Mnis numerus cõpoſitus ab aliquo primo numeratur.
 
-¶ Sit. a, quilibet numerus cõpolitus: bico ꝙ aliquis primꝰ numerat lplũ:qu eni eſt cõpolitus numerabit ab aliquo numero qui ſit. b. qui
+¶Sit.a.quilibet numerus cõpoſitus:dico ꝙ aliquis prim⁹ numerat ipſũ:qꝛ eni eſt cõpoſitus numerabit̃ ab aliquo numero qui ſit.b. qui ſi fuerit primus verũ erit qꝺ dicit̃.ſi aũt cõpoſitus ſit.c.qui numerat eum:qui etiã per cõem ſciam numerabit.a.ſi ergo vel ipſe fuerit primus conſtat qꝺ dicit̃.At ſi cõpoſitus neceſſario numerabit eũ.alius qui ſit.d.qui etiã per cõem ſciam numerabit.a.de quo rõcinare vt prius:qꝛ ergo quotiens occurrit cõpoſitus neceſſe eſt minorem aſſumere qui cõpoſitum occurrentẽ numeret ſequitur ut tandẽ deueniatur ad aliquẽ primũ:alioquin accidet impoſſibile ⁊ contrarium petitioni numerum in infinitum decreſcere.
 
-[Diagram]
+[Diagram: four horizontal segments of decreasing length labelled a, b, c and d]
 
-ſi fucrit primus verũ erit qo oicit. ſi aũt cõpoſitus ſit. .qui numerat leum: qui etiã per cõem ſciam numerabit.a.ſi crgo vel iple fucrit priꝰ mus conſtat qb oicit. It ſi cõpoſitus neceſſario numerabit eũ.alius qui fit. d. qui etiã ner cõem ſciam numerabit. a. de quo rõcinare vt prius: qr ergo quoriens oc, currit cõpoſitus neceſle eſt minorcm aſſumere qui cõpolitum occurrentẽ numerer ſcquitur ut tandé ocueniatur ad aliqué primũ: alioquin accider impoſſibile z con! trarium peritioni numcrum in inſinitum oecreſccre.
+## Propoſitio .31.
 
-[Diagram]
+{dropcap:O|lines=5|style=decorated|decoration="foliate woodcut initial"}Mnis numerus aut ẽ primus aut a primo numeratur.
 
-[Diagram]
+¶Sit.a.quilibet numerus:dico ipſum eſſe primũ vel numerari a primo.quia ſi non eſt primus erit cõpoſitus:quilibet autẽ talis ab aliquo primo numeratur per premiſſam.a.igitur vel primus eſt vel a primo numeratur:quod proponitur.
 
-## Iropoſitio .31.
+[Diagram: a single horizontal segment labelled a]
 
-{dropcap:[illegible]|lines=5|style=decorated}Mnis numerus aut éprimus aur a primo numeratur.
+## Propoſitio .32.
 
-¶ Git.a quilibet numerus: oico ipſum eſſe primu vel numerar a pii mo, quia ſi non eſt pimus crit copolitus: quilbet outé ralis ab aui, quo paimo numeraiur per premniſiam.a.ipitur vel prinus eſt vela primo numeratur: quod proponitur.
+{dropcap:O|lines=4|style=decorated|decoration="foliate woodcut initial"}Mnis numer⁹ primus ad omnẽ quẽ nõ numerat ẽ prim⁹.
 
-[Diagram]
+¶Sit.a.numerus primus non numerãs.b.dico ꝙ.a.⁊.b.ſũt cõtra ſe primi.ſi eni.c.numerat eos nõ eſt verũ ꝙ.a.ſit primus.
 
-## Propoſitio 32.
-
-{dropcap:[illegible]|lines=5|style=decorated}Mnis numer? prinne ad omné quẽ nõ numerat e prin
-
-¶ Sit .a. numerus primus non numerãs. b.oico ꝙ.a. 2.b. ſut cõtra ſe primi.ſi eni.c numerat cos no eſt verũ q.a.ſit primus.
+[Diagram: segments labelled a and b, above a segment labelled c]
 
 ## Propoſitio .33.
 
-S numer? ey ouob? pouctꝰ ab aliquo primo numeretur
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I numer⁹ ex duob⁹ ꝓduct⁹ ab aliquo primo numeretur neceſſe eſt eundem primũ alteꝝ illoꝝ duoꝝ numerare.
 
-[Diagram]
+¶Sit.c.productus ex.a.in.b.⁊ ſit.d.numerus primus qui ponatur numerare.c.dico ꝙ.d.numerat.a.vel.b.numeret eni.c.ſm̃.e.ſi ergo nõ numerat.a.erit primus ad ipſũ ꝑ premiſſam:⁊ iõ erũt ſm̃ ſuã ꝓportionẽ mĩmi ꝑ.23.⁊ qꝛ.a.ad.d.ſicut.e.ad.b.ꝑ ſcꝺam ptẽ.20.ſequit̃ ut.d.numeret.b.ꝑ.21.qꝺ eſt propoſitũ. Vñ manifeſtũ ẽ ꝙ ſi aliquis numerus numerat ꝓductũ ex duobus vel ſi eidẽ fuerit cõmẽſurabilis cõmẽſurabilis quoqʒ erit alteri eoꝝ.
 
-[Diagram]
+[Diagram: segments labelled a and b, above a segment labelled c, above segments labelled d and e]
 
-{dropcap:[illegible]|lines=5|style=decorated}necelie eſt eundem primũ altez illox ouoy numerare.
+## Propoſitio .34.
 
-¶Sit. c.productus ex. a.in. b. z ſit. d. numerus primus qui ponatur numerare. c. oico ꝙ. d. numerat. a. vel.b. numeret eni.c. pm e.ſi er! go nõ numerat. a. erit primus ad ipſũ ꝑ premiſſam: z iõ crũt bm ſuã nportionẽ mimi p.23 T q1.a.ad. d.ſicut.c.ad. b.p ſcoam ptẽ. 2o. ſcquit ut. d. nu? meret. b.Pai.qb eſt propolitũ. Mñ manifeſtũ ẽ ꝙ ſi aliquis numerus nuꝰ
+{dropcap:N|lines=5|style=decorated|decoration="foliate woodcut initial"}Vmerus ſm̃ ꝓportionẽ nũeroꝝ aſſignatoꝝ minimos inuenire. ¶Vnde manifeſtũ ẽ maximũ numeꝝ duos cõiter numerantẽ ſm̃ minimos illius ꝓportionis eos numerare
 
-[Diagram]
+¶Sint.a.⁊.b.numeri propoſiti ſm̃ quorum proportionẽ volumus inuenire mĩmos.ſi g̃ fuerit ꝯ̃ ſe ꝑmi ſũt q̃les inq̃rim⁹ ꝑ.23.ſi aũt cõpoſiti ſumat̃:vt docet ſcꝺa maxim⁹ eos cõiter numerãs q̃ ſit.c.numeretqʒ eos ſm̃
 
-merat pductũ ex ouobus vel ſi cide fucrit cõmẽſurabilis cõmẽſurabi lis quoqz erit alteri eoy. Propoſitio.3 {dropcap:[illegible]|lines=5|style=decorated}merns bm pportionẽ nũeroy aſſignatoy minimos in ucnire.
-
-¶ Mnde manifeſtũ ẽ maximũ numez ouos cõiter numerantẽ bm minimos illius pportionis eos numerare
-
-¶Oint.a.z.b. numeri propoſiti bm quorum proportionẽ volumus Il inuenire mimos. ſi g fuerit q̃ ſe pmi ſũt q̃les inqrim'p.ay.ſi aũt cõr poſiti ſumat: vr pocet ſcca maym' cos coiter numeras q̃ ſit.c-numereray eos bmt
+[Diagram: segments labelled a and b, above a segment labelled c, above segments labelled d and e, above segments labelled f and g, above a segment labelled h]

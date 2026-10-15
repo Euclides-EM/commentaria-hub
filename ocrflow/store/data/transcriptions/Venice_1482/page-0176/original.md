@@ -1,29 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-binomiĩ prmũ: que li fuerit bimediale primũ:erit.c. d.cy. 55. binomiũ ſcom:ſi aũt binediale ſcom:erit. c. d.ey.5s binomiũ tertiũ. Et ſi linca maior erit.c. d.er. 5z bi
+[Figure: horizontal line segment labelled a above a tall rectangle with d at the top right corner and b and c at the bottom corners]
 
-[Diagram]
+binomiũ pꝛimũ:que ſi fuerit bimediale pꝛimũ:erit.c.d.ex.55.binomiũ ſcꝺm:ſi aũt bimediale ſcꝺm:erit.c.d.ex.56.binomiũ tertiũ. Et ſi linea maioꝛ erit.c.d.ex.57.binomiũ quartũ. At ſi potens in rõnale ⁊ mediale.aut ſi potens in duo medialia:erit ex.58.c.d.binomiũ quintũ:aut ex.59.binomiũ ſextũ:et qꝛ impoſſibile eſt.c.d.eſſe ſimul ſub diuerſis ſpecieb⁹ binomioꝝ a diffinitiõe ẽ ipoſſibile.a.eſſe ſimul ſub diuerſis ſpeciebus ſex p̃habitaꝝ lineaꝝ irrationaliũ:De linea aũt mediali cõſtat ꝙ ipſa quoqʒ nõ ſit aliqua ſex ſequentiũ videlicet neqʒ binomiũ neqʒ aliqua ex ipſius comitibus.cũ enĩ ſupficies equalis quadrato linee medialis adiungitur ad lineam rationalẽ:latus eius ſcꝺm eſt rõnale in potentia ex.20.cum aũt ſuperficies equalis quadrato binomij aut alicuius ſuaꝝ comitũ:latus eius ſcꝺm eſt binomiũ aut p̃mũ aut ſcꝺm ⁊ ſic de ceteris per.54.⁊.5.eã ſequẽtes quare ipſũ eſt irrationale et in longitudine ⁊ in potentia.per.30.Cum igitur ſit impoſſibile eandẽ lineã eſſe rõnalem in potentia ⁊ irrationalem tã in longitudine q̃ʒ in potentia:nimirũ impoſſibile lineam medialem eſſe bimedialem aut aliquã ex quinqʒ ſuis comitibus.
 
-nomiũ quartũ. It ſi potens in rõndle z mediale. aut ſi potens in ono medialia: erit cx.5S-e. d.binomiũ quintũ: aut er. 59. binomiũ ſextũ: et qr impoſſibile eſt.c. d.eſſe fimul ſub oiuerſis ſpecicbꝰ binomioy a biffinitiõe ẽ ipolſibile. a. eſſe ſimul ſub oiꝰ uerſis ſpeciebus ſex phabita y lineay irrationaliũ: Dc linca aũt mediali cõſtat ꝙ ipſa quooz nõ ſit aliqua ſer ſequentiũ videlicet ne binomiũ ncq aliqua ey iplins comitibus. cũ eni ſupficies equalis quadrato linee medialis adiungitur ad lineam rationalẽ: latus cius ſcom eſt rõnale in potentia ey. 2o-cum aũt ſupcrficies cqualis quadrato binomij aut alicuius ſuay comitũ: latus eius ſcom eſt binomiũ aut pmũ ant ſcom e ſic de ceteris per. 54.t.5.eã ſequẽtcs quare iplũ eſt irrationale ct in lon gitndine z in potentia. per.3o. Cum igitur ſit impoſſibile candẽ lineã eſſe rõnalem in potentia z irrationalem tã in longitudine q̃z in potentia: nimirũ impoſſibile li? neam medialem eſſe bimedialem aut aliquã ex quinz ſuis comitibus.
+## Pꝛopoſitio .68.
 
-## Propoſitio.6s.
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linea de linea abſcindatur fuerintqʒ ambe potẽtialiter tantũ rationales cõicantes:reliqua linea erit irrationalis diceturqʒ reſiduum:
 
-{dropcap:[illegible]|lines=5|style=decorated}5 linea de linca abſcindatur fuerintoz ambe porẽtialiter tantũ rationales cõicantes: reliqua linca erit irrationalis oiceturqz reſiduum.
+[Handwritten]
+Quid ſit reſiduũ
+[/Handwritten]
 
-¶Sit linea.b.c. abſciſa ey. a. b. ſintay ambe rõnales tantui potentia
+[Figure: horizontal line segment labelled a, c and b above a tall rectangle with g at the top left, a dividing line with h at the left and f at the right, and d and e at the bottom corners]
 
-[Diagram]
+¶Sit linea.b.c.abſciſa ex.a.b.ſintqʒ ambe rõnales tantũ potentia cõicantes quales docuit inuenire.17.⁊.18.⁊ hec ſunt que cõponunt binomiũ.dico ꝙ.a.c.reliqua eſt irrõnalis ⁊ ipſa vocatur reſiduum.cõſtat enim ex 7.ſcꝺi ꝙ quadrata duaꝝ lineaꝝ.a.b.⁊.b.c.piter accepta que cõponunt ſuperficiem rõnalem ex ypotheſi ⁊ diffinitione rõnalis ſupficiei ⁊.9.huius tm̃ ſunt quantũ duplum ſuperficiei.a.b.⁊.b.c.cũ quadrato.a.c.cũqʒ ex.19.ſuperficies.a.b.ĩ.b.c.ſit medialis.ideoqʒ ⁊ duplum ei⁹ mediale per.21.⁊ iõ. irrõnale per 19.ſequit̃ vt ambo quadrata duaꝝ lineaꝝ.a.b.⁊.b.c.piter accepta ſint incõmenſurabile duplo ſuperficiei vnius eaꝝ in alterã:quare per.9.⁊ quadrato linee.a.c.ex diffinitione igit̃ quadratũ linee.a.c.ẽ irrõnale cũ ipſũ ſit incõmenſurabile rõnali videlicet duobus quadratis duaꝝ lineaꝝ.a.b.⁊.b.c.piter acceptis:itaqʒ etiã ex diffinitione linea.a.c.ẽ irrõnalis quod eſt propoſitũ.Exemplariter in figura eſto ſupficies.e.g.equalis duobus quadratis duaꝝ lineaꝝ.a.b.⁊.b.c.piter acceptis:eritqʒ rõnalis.itemqʒ ſit ſupficies.d.f.equalis duplo ſupficiei vnius in alterã:eritqʒ ex.19.medialis ⁊ erit ex 7.ſcꝺi ſupficies.f.g.equalis q̃drato linee.a.c.cũqʒ ſupficies.e.g.ſit incõmenſurabilis ſupficiei.d.f.eadẽ erit ex.9.incõmenſurabilis.f.g.quare.f.g.irrõnalis ⁊ eius tetragonicũ latus.a.c.
 
-cõicantes quales oocuit inuenire. ix. 2.is.⁊ lec ſunt que cõponunt binomii.oico ꝙ.a.c. reliqua eſt irrõnalis c ipla vocatur reſiduum.cõſtat cnim ey "z.ſcoi q quadrata puay lineap. a.b.z. b.c. pitcr accepta que cõponunt ſupcrſiciem
+## Pꝛopoſitio .69.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I fuerit linea de linea abſciſa fueritqʒ ambe mediales potentialiter tantũ cõicantes ſuperficiemqʒ rõnalẽ cõtinẽtes reliq̃ linea erit irrõnalis dicet̃qʒ reſiduum mediale p̃mũ.
 
-rõnalcm ex pporbeſi biffinitione rõnalis ſupficiei z. ꝓ.buins tin ſunt quantũ ouꝰ plum ſnperficiel. a.b.z. b.c.cũ quadrato.a.c. cũy er. iy ſuperficies. a.b.i.b. c.ſit medislis. ideooz z ouplum ciꝰ mediale per. 21.⁊ io. irronale per ip. ſequit vt am? bo quadrata ouay lineay. a.b.1.b.c. pirer accepra ſint incõmenſurabile ouplo ſu? perficiei vnins eay in alterã: quare per.9.z quadrato linee. a.c. cy oiffinitionc igil quadratũ lince.a.c.é irrõnale cũ iplu ſit incõmenſurabile rõnali videlicet ouobus quadratis puay lineay. a. b.2. b.c. piter acceptis:iray ctiã ey piffinitionc linca.a. c.ẽirronalis quod et propoſitũ. Eyemplariter in figura cſto fupficies. .g equalis ouobus quadratis puay lincay a.b.⁊ b.c. piter acceptis: eritq rõnalis. itemqy ſit lupficies. d.i.cqualis ouplo ſupficici vnius in alterã: erirqy ey. i9. medialis ⁊ euit ey iscoi ſupficies. f.s-cqualis q̃drato lince. a.c. cũgz ſupficies.c.s ſit incõmenſurabi lis ſugficici.d.f. cadé crit er. ꝓ incõmenſurabilis. f.g-quare. f.g-irronalis z eius te tragonicũ latus.a.c.
-
-## Propoſitio.o9.
-
-{dropcap:[illegible]|lines=5|style=decorated}J fuerit linea de linea abſciſa fueritq ambe mediales po tentialiter tantu cõicantes ſuperficiemqs ronalẽ cõtinẽtes reliq̃ linca erit irronalis oicetqy reſiduum mediale pmũ.
-
-¶Sit l'nea. b.c. abſciſa cy linca.a. b. ſintqs ambe quales pponitur lquas ey.24..25 reperics z bec ſunt que cõiungũt bimedialc primũ. oico g reliqua linea. a.c.erit irronalis c ipla oicit rcſiduii mediole primu: Frut cui ambo carum quadrata parter accepta medialc: ouplu vero fupficiei vnius in alte, ram ronale. ira ambo quadrata pirer accepta incomenſurabile ſunt ouplo ſuper fciei vnſ'i altcrã qu ttags abo quadrata piter accepta coponunt ey ouplo ſupſidei mei altera c q̃draiolunet a sſequt p s ut q̃dramlunet a c, ſi incomneurabit
-
-J iliitiii. 22 14 16 19 20 10 12 I 19 27 17 12 l
+¶Sit linea.b.c.abſciſa ex linea.a.b.ſintqʒ ambe quales ꝓponitur quas ex.24.⁊.25.reperies ⁊ hec ſunt que cõiungũt bimediale p̃mũ.dico ꝙ reliqua linea.a.c.erit irrõnalis ⁊ ipſa dicit̃ reſiduũ mediale pꝛimũ:Erũt enĩ ambo earum quadrata pariter accepta mediale:duplũ vero ſupficiei vnius in alteram rõnale.itaqʒ ambo quadrata piter accepta incõmenſurabile ſunt duplo ſuperficiei vni⁹ ĩ alterã qꝛ itaqʒ ãbo quadrata piter accepta cõponunt ex duplo ſupficiei vni⁹ ĩ alterã ⁊ q̃drato linee.a.c.ſequit̃ p.9.ut q̃dratũ linee.a.c.ſit incõmeſurabile

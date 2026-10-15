@@ -1,27 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-{dropcap:[illegible]|lines=5|style=decorated}3 in ſuperficie aſſignata ortbogonaliter ſteterit: linea
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I in ſuperficie aſſignata orthogonaliter ſteterit:linea oĩs ſuperficies a linea illa quorſum libet ducta ad eandem aſſignatam ſuperficiem erit orthogonaliter erecta.
 
-[Diagram]
+¶Sit eni linea.a.b.erecta perpendiculariter ſup aſſignatã ſuperficiẽ ⁊ a linea.a.b.ꝓducať ſuperficies quorſũ libuerit:quã dico ſup propoſitam ſuperficiem eſſe perpendiculariter erectam.cum enim ipſa ſecet ſuperficiem aſſignatam:erit earum cõmunis ſectio linea recta ex.3.huius.ſitqʒ.b.d.in hac ergo cõmuni ſectione ſignato puncto quolibet qui ſit.d.extrahatur ab eo in ſuperficie que producta eſt a linea.a.b.linea quedã ꝑpendicularis ad lineã.b.d.que ſit d.c.eritqʒ ex ſecunda ꝑte.28.primi linea.c.d.equidiſtans:linee.a.b.ideoqʒ ex.8.huius linea.c.d.eſt etiã perpendicularis ad ſuperficiẽ propoſitã:quia ergo hoc modo quelibet linea protracta orthogonaliter a quolibet puncto linee.b.d.ad ipſam lineam.b.d.in ipſa ſuperficie que producta eſt a linea.a.b.eſt perpendicularis ad propoſitã ſuperficiem ex diffinitione ſuperficiei ſupra ſuperficiẽ orthogonaliter erecte:cõſtat veꝝ eſſe ꝙ propoſitũ eſt.
 
-ois ſuperficies a linea illa quorſum libet oncta ad eandem laſſignatam ſuperficiem erit ortbogonaliter erecta.
+[Figure: two vertical lines a b and c d standing on a horizontal base line]
 
-¶Sir eni linea.a.b.erecta perpendiculariter ſup alſignatã ſuperficiẽ lz a linea.a.b. pducat ſuperficies quorſũ libuerit: quã oico ſup pro, noſitam ſuperficiem eſſe perpendiculariter crectam. cum enim ipla ſecet ſuperlici e afſignatam: erlt eorum comunis ſectio linca recia er,; buius, ſitay b. d.in bac ergo cõmuni ſectione ſignaro puncto quolibet qui ſit. d. ertrabatur ab eo Jn ſuper ficie que producta eſt a linea.a.b.linea quedã ppendicularis ad lincã. b. d. que ſit d.c.critqy ey ſecunda pre.as primi linea.c.d. cquidiſtans: linec. a. b. ideoy er.S. buiuns linca.c. d.eſt eriã perpendicularis ad ſupcrficiẽ propoſirã: quia crgo boc mo do onclibet linca protracta ortbogonalitcr a quolibet puncto lince.b. d.ad ipſam lincam. b. d.in ipla ſupcrficie que producra cſt a linea. a.b.cſt pcrpendicularis ad nropoſitã ſuperficiem ex oiffinitionc ſupcrficiei ſupra ſuperſicié ortbogonaliter ere ropoſitio.19.
+## Propoſitio .19.
 
-## [illegible]
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I due ſuperficies ſe inuicẽ ſecantes ſupra vnam ſuperficiem erecte fuerint orthogonaliter cõmunis earum ſectio ad eandem ſuperficiem perpendicularis erit.
 
-cte: cõſtat vey eſſe qo propolitũ eſt. J oue ſuperficies ſe inuicẽ ſecantes ſupra vnam ſuperfi, {dropcap:[illegible]|lines=5|style=decorated}ciem crecte fuerint oztbogonaliter cõmunis earum lectio ad eandem ſuperficiem perpendicularis crit.
+¶Sint due ſuperficies.a.b.⁊.c.d.ſeinuicem ſecantes erecte orthogonaliter ſuper aſſignatã ſuperficieʒ:ſitqʒ cõmunis eaꝝ ſectio linea recta.e.f.hanc dico eſſe perpendicularẽ ad aſſignatã ſuperficiem.alioquin a puncto.f.qui eſt cõis terminꝰ ſectionũ duaꝝ ſuperficieꝝ ſecantiũ:⁊ tertie ſupficiei ſecte ꝓducať vna linea recta que ſit.f.g.in ſuperficie.a.b.perpẽdicularis ad ſupficiẽ aſſignatã.itemqʒ ab eodẽ pũcto ducať alia perpendicularis ad eandẽ ſupficiẽ que ſita ſit in ſuperficie.c.d.⁊ ipſa ſit.f.h.eruntqʒ due linee.f.g.⁊.f.h.orthogonaliter inſiſtentes ſuper punctũ vnũ ad ſupficiẽ aſſignatã:hoc aũt impoſſibile per.13.huius Tales aũt lineas poſſe ꝓtrahi a puncto.f.in vtraqʒ duaꝝ ſuperficieꝝ.a.b.⁊.c.d.cũ.e.f.nõ fuerit perpẽdicularis ad aſſignatã ſuperficiẽ dubitare nõ cõuenit. Intelligať quidẽ linea.f.b.cõis ſectio ſuperficiei.a.b.⁊ ſupficiei aſſignate ⁊ linea.f.d.ſuperficiei.c.d.⁊ ſupficiei aſſignate.Si igiť linea.e.f.fuerit ꝑpendicularis ad vtranqʒ duaꝝ lineaꝝ.f.b.⁊.f.d.ipſa etiã erit perpendicularis ad ſupficiẽ aſſignatã ex q̃rta huius.ſi aũt ad neutrã ſit.f.g.ꝑpendicularis ad.f.b.⁊.f.h.perpendicularis ad.f.d deinde a puncto.f.ꝓtrahe in ſuperficie aſſignata vnã lineã ꝑpendicularẽ ad lineã f.b.q̃ ex diõne ſupficiei ſup aliã ſupficiẽ orthogonaliter erecte cũ linea.f.g.ꝯtinebit angulũ rectũ:ꝑ quartã igiť huiꝰ erit linea.f.g.ꝑpendicularis ad ſuperficiẽ aſſignatã Eodẽ quoqʒ mõ ꝓtracta alia linea a puncto.f.ĩ ſupficie aſſignata q̃ ſit perpendicularis ad lineã.f.d.ſequeť ex diõne predicta ⁊ ex quarta huiꝰ lineã.f.h.eẽ ꝑpẽdicularẽ ad ſupficiẽ aſſignatã ꝙ ẽ impoſſibile p.13.huius.Ꝙ ſi ꝯfiteare lineã.e.f.eſſe ꝑpendicularẽ ad lineã.f.b.ſed nõ ad lineã.f.d.ſequeť modo conſimili duas lineas.e.f.⁊.f.h.eſſe perpendiculares ad ſuperficiem aſſignatam:ꝙ nihil minus ẽ impoſſibile.
 
-¶ Sint oue ſuperficies. a.b. 2.c. d.ſcinuicem ſccantes erecte ortbogo llnaliter ſuper aſſignarã ſuperficiez: ſitaz cõmunis cay ſectio linca re?
+[Figure: two pairs of lines crossing at point f, labelled a, g, h, c above, e between, and d, b below]
 
-[Diagram]
+## Propoſitio .20.
 
-cta.e.f.banc oico eſſe perpendiculare ad aſlignatã ſuperliciem. alioquin a puncto f,qui eſt cõis termin? ſectionũ ouax ſuperficiez ſecantiũ: z tcrrie ſupficici ſecte pr ducat vna linea recta que fit. f.g- in ſupcrficie. a.b. perpẽdicularis ad ſupficié alli, gnatã.iteqyab codẽ pũcto oucar alia pcrpendicularis ad candé ſupficié que lita ſit in ſuperficie. c. d.z ipla ſit. f.b. eruntoy ouc linec.f.g.2.f. h. ortbogonaliter inſi? ſtentes ſuper punctũ vnũ ad ſupficie aſſignatã: boc aũt impoſfibile per. 13.buins Tales aũt lineas poſſe ptrabi a puncto.f. in vtraz ouay ſuperficiey. a .b.z. c.d. cũ.c. f.nõ fuerit perpẽdicularis ad aſſignatã ſuperficiẽ vubitare nõ cõucnit. Intel ligat quidẽ linca.f.b.cõis ſcctio ſuperficiei.a.b.z ſupficici aſlignate z linea. f.d.ſu perficici.c.d.z ſupficici aſſignate. Si igit linea. c.f. fucrit ppendicularis ad vtranqz ouay lincay. f.b.2. f. d.ipla criã erit perpendicularis ad ſupficie aſſignatã ex q̃rra buius. ſi aũt ad neutrã ſit.f.s-ppendicularis ad.f.b.2. f.h. perpendicularis ad. f. d beinde a puncto.f. ꝓtrabe in ſuperficie aſſignata vnã lincã ppendicularẽ ad lineã f.b.q̃ cr bione ſupliciei ſup alia ſupficiẽ ortbogonaliter erecte cui linea.f.g.otincbit angulũ rectũ: p quartã igir buierit linca. f.s-ppendicularis ad ſupcricie allignatã Eodẽ quoay mõ ptracta alia linea a puncto.f.i ſupficie aſſignara q̃ ſit perpendi? cularis ad lineã. f. d.ſcquct cx bionc predicta z ey quarta buiꝰ lincã.f.b. ce ppẽdi,
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I tres anguli ſupficiales ſolidũ angulũ ꝯtineãt illoꝝ triũ angulorum quiqʒ duo ꝑiter accepti reliquo ſũt maiores.
 
-eſſe ppendiculare ad lineã.f. b. ſed nõ ad lineã.f. d. ſcquct modo conſimili ouas li, neas.e.f.2. f.b. eſſe perpendicularcs ad ſuperficiem alſignatam : qo nibil minus ẽ {dropcap:[illegible]|lines=5|style=decorated}Jimpoſſibilc.
-
-## Propoſitio .ao.
-
-J tres anguli ſupficiales ſolidũ angnlũ otineãt illoy triũ angulorum quiqz ouo piter accepti reliquo ſut maiores.
-
-¶ Sint tres linee. a.b.a.c.a. d. piramidaliter erecte ſupra ſuperfici! lem. b.c .d. continentes tres ſuperficialcs angulos cy quibꝰ ſolidus
+¶Sint tres linee.a.b.a.c.a.d.piramidaliter erecte ſupra ſuperficiem.b.c.d.continentes tres ſuperficiales angulos ex quibꝰ ſolidus

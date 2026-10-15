@@ -1,41 +1,33 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-## Propoſitio78.
+## Pꝛopoſitio .77.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mila linea minori cõiungibilis eſt vt ſub termino ſuo fiãt niſi tãtũ que ante ſibi ablciſionẽ coniungebatur.
+{dropcap:N|lines=5|style=decorated|decoration="foliate initial on black ground"}Ulla linea minoꝛi cõiungibilis eſt vt ſub termino ſuo fiãt niſi tãtũ que ante ſibi abſciſionẽ coniungebatur.
 
-¶Jntellige quid lit linea minor: qo ſi oblitus es cõſule.21.⁊ ſinc obꝰ ſiectione ocludes ppoſitũ. Si quẽadmodũ i.n4.ꝓceſſeris: potcriſos ſi libuerit quẽadmodũ i.xs.ꝓcederc. PPropolitio 78.
+¶Intellige quid ſit linea minoꝛ:qꝙ ſi oblitus es cõſule.21.⁊ ſine obiectione ꝯcludes ꝓpoſitũ.Si quẽadmodũ ĩ.74.ꝓceſſeris:poteriſqʒ ſi libuerit quẽadmodũ ĩ.76.ꝓcedere.
 
-## [illegible]
+## Pꝛopoſitio .78.
 
-{dropcap:[illegible]|lines=5|style=decorated}Jnea que coniuncta cum rationali facit totum mediale niſi vni tantũ componi nõ poteſt vt ſub eax termino fiant.
+{dropcap:L|lines=5|style=decorated|decoration="foliate initial on black ground"}Inea que coniuncta cum rationali facit totum mediale niſi vni tantũ componi nõ poteſt vt ſub eaꝝ termino fiant.
 
-¶ Ouid ſit linea que proponitur ey.72. oidiciſti.cum ergo de ca vor lueris quod per banc.7 8. oicitur bemonſtrare a pceſſu-z 5. in quoq̃s lnõ ocuias. ſed ſicut i.xs-ſi te oclectanerit igeio ouce poreris ꝓcedere
+¶Quid ſit linea que pꝛoponitur ex.72.didiciſti.cum ergo de ea volueris quod per hanc.78.dicitur demonſtrare a ꝓceſſu.75.in quoqʒ nõ deuias.ſed ſicut ĩ.76.ſi te delectauerit ĩgeĩo duce poteris ꝓcedere
 
-## PPropoſitio.79.
+## Pꝛopoſitio .79.
 
-[Diagram]
+{dropcap:L|lines=5|style=decorated|decoration="foliate initial on black ground"}Inee que iuncta cũ mediali facit totum mediale niſi vna linea tantum iungi nequit vt ſub earum termino fiant que erant ante ſeparationem.¶Huius linee que iuncta cuʒ mediali cõponit totũ mediale mgr̃a ẽ.73.de q̃ qꝙ hec.79.enũciat ſic ꝯcludere cogeris ſicut de reſiduo mediali ſcꝺo qꝙ ꝑ.76.enunciatũ eſt ꝯcluſiſti.
 
-{dropcap:[illegible]|lines=5|style=decorated}Jnee que iuncta cũ mediali facit totum mediale niſi vna linea tantum iungi nequit vt ſub earum termino fiant que erant ante ſeparationem.
+¶Poſitis duabus lineis altera rationali altera vero reſiduo:adiectaqʒ ipſi reſiduo linea aliqua ſm̃ eius terminum ſi fuerit totum inde cõpoſitum potentius linea adiecta in quadrato linee ipſi toti cõicantis in longitudine:fueritqʒ idẽ totũ poſite rõnali linee in longitudine cõmenſurabile qꝙ poſitũ erat dicetur reſiduũ pꝛimũ.Si vero linea adiecta poſite rationali cõicet in longitudine dicet̃ reſiduũ ſcꝺm.Qꝙ ſi fuerit vtraqʒ rõnali poſite in longitudine incõmenſurabilis vocabit̃ reſiduũ tertiũ.Si fuerit tota linea potentioꝛ adiecta augmẽto quadrati linee ipſi toti incõmenſurabilis eadẽqʒ tota poſite rõnali cõicet in longitudine nuncupabitur reſiduũ quartũ:Si vero linea adiecta poſite rõnali cõicet in longitudine vocabit̃ reſiduũ quintũ.Qꝙ ſi fuerit vtraqʒ poſite rõnali ĩ longitudine ĩcõmenſurabilis appellabit̃ reſiduum ſextum.
 
-¶buius lince que iuncta cuz mediali lcõponit totũ mediale mgra ẽ.73. de q̃ qo bcc.x9.enũciat ſic pdudcre llcogeris licut ve reſiduo mediali ſcoo qup.76.enunciatũ eſt pdluſiſti.
+[Figure: semicircle on base b c with straight lines from b and c meeting at point d on the arc]
 
-¶ Poſitis ouabus lineis altera rationali altera vero reliduo: adiccta qzipſi reſiduo linea aliqua bm eius terminum ſi fuerit totum inde cõ poſitum porentius linea adiecta in quadrato lince ipſi toti cõicantis in longitndine: fneritqz idẽ totũ polite rõnali linee in longitudine cõ, menſurabile qu poſitũ erat oicetur reliduũ primũ. Oi vero linea adi iecta poſite rationali cõicet in longitudine oicet reſiduũ ſcom. No li fuerit vtraqz rõnali poſite in longitndinc incõmenſurabilis vocabit reſiduũ tertiũ. Si fuerit tota linca potentioz adiecta augmẽto quadra ti linee ipli toti incõmenlurabilis eadẽqz tota poſite rõnali cõicet in longitndine nuncupabitur reſidnũ quartũ: Gi vero linca adiecta por ſite rõnali cõicet in longitndine vocabit reſiduũ quintũ. No ſi fuerir
+[Figure: horizontal line segments labelled a and e, a divided line with points f and g and the numerals 5, 9 and 4, and a line segment with points c, d and b]
 
-[Diagram]
+## Pꝛopoſitio .80.
 
-vtraqz polite rõnali i longitudine icõmenſurabilis appellabit relidn?
+{dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduũ pꝛimũ inueſtigare.¶Ab inuentione omniuʒ ſpecierũ reſidui facile nos abſoluat inuentio ꝑ ordinẽ omniũ ſpecieꝝ binomij Nam ĩ qualibet ſpecie bĩomioꝝ ſi minoꝛ portio abſcindat̃ de maioꝛi linea reliqua erit reſiduũ ſilis ſpẽi vt pʒ ex diffinitionib⁹ tam binomiorũ q̃ʒ reſiduoꝝ:ꝓprijs tñ inuentionibus reſiduoꝝ ĩſiſtentes ſic inquiram⁹ pꝛimũ.Sit linea.a.rõnalis poſita cui cõmeſurabilis ĩ lõgitudie.ſumat̃.b.c.ſitqʒ.e.numer⁹ quadratus diuiſus in.f.non quadratum.⁊ in quadratum.g.ſitqʒ ꝓportio q̃drati linee.b.c.ad q̃dratũ linee.c.d.ſicut.e.ad.f.eritqʒ ꝑ vltimã partẽ.c.d.rõnalis ĩ potẽtia tm̃.cũ itaqʒ ſit.c.b.potẽtioꝛ.c.d.ĩ q̃drato linee ſibi cõicãtis ĩ lõgitudine qꝙ pʒ ſicut ĩ explanatiõe binomij p̃mi ꝯſtat ex diffĩtiõe lineã.b.d.eẽ reſiduũ pꝛimũ.
 
-## Propoſitio.6o.
+[Figure: horizontal line segment labelled a, a divided line with points f, e and g and the numeral 9, and a line with the letter h and the numerals 5, 4 and 7]
 
-um ſextum. {dropcap:[illegible]|lines=5|style=decorated}EEſiduũ primũ inneſtigare.
+## Pꝛopoſitio .81.
 
-¶Ab inuentione omniuz ſpecicrũ lreſidui facile nos abſoluat mucntio p ordinẽ omniũ specicy binomij ami qualibet ſpecie biomioy ſi minor portio abſcindar de maioni linca reliqua erit rcſiduũ ſilis spc̃i vt pz er oiffinitionibꝰ tam binomi lorũ q̃z rcſidnoy: pprijs tñ inuentionibus reſiduoy iſiſtentes ſic in, quiram primũ. Sit linea.a. rõnalis poſita cui cõmeſurabilis i lõgitudic. ſumar. b. c.ſitqz-e. numer? quadratus piuiſus in.f. non quadratum. z in quadratum.g. ſitoy pportio q̃drati lince.b.c. ad q̃dratũ linee.c. d.licut.c.ad.f.erit, p vltimã partẽ. t. d.rõnalis i potẽtia tm̃. cũ itay ſit.c.b. potẽtior.c. d.i q̃drato lince ſibi cõicãtis i lõgitudinc aopz ficut i crplanatiõe binomiij pmi poſtat ey oiffitiõe lincã. b.d.cẽ re
-
-## ropoſitio.8i.
-
-{dropcap:[illegible]|lines=5|style=decorated}Jſidnũ primũ Eſiduũ ſcom patefacere.
-
-¶ Adbndũ rcſiduũ ſcom ſit. a. lic̃a rõ nalis polita: cicx cõicãs in lõgitndie.c.d.z lit q̃dratũ.c.d ad q̃draiĩ b.c. ſicut.f.ad.e. eritz. b. d.reſiduũ ſcom ey oione: ſi oubitas aut poͬ ſiras nõ ſcruas porbeſes aut binomij ſecudi repctitione indiges.
-
-IiTTIMiIiſi 2 29 22 14 I 16 19 19 20 12 10 1 I2 2
+{dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduũ ſcꝺm patefacere.¶Ad hñdũ reſiduũ ſcꝺm ſit.a.lĩea rõnalis poſita:eiqʒ cõicãs in lõgitudie.c.d.⁊ ſit q̃dratũ.c.d ad q̃dratũ b.c.ſicut.f.ad.e.eritqʒ.b.d.reſiduũ ſcꝺm ex dĩone:ſi dubitas aut poſitas nõ ſeruas ypotheſes aut binomij ſecũdi repetitione indiges.

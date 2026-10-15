@@ -1,37 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: VIII -->
 
-monortionc put pocet ſcoa buius qui ſint. g.h.E. ocinde q̃tuor qui ſint. l.m.n.n. 2
+proportione,ꝓut docet ſcd̃a huius qui ſint.g.h.k.deinde q̃tuoꝛ qui ſint.l.m.n.p.⁊ hoc totiens fiat vſquequo ſic ſumpti fiãt totidẽ quot ſunt numeri ꝓpoſiti:vt ſunt hic.l.m.n.p.Cõſtat itaqʒ cũ ſint.a.c.d.b.in ſua ꝓportione mīmi ꝑ primã huius. ſintqʒ.l.m.n.p.totidẽ ⁊ mīmi in eadẽ.Nõ ſit aũt poſſibile eẽ aliquid minus minimo ꝙ numeri.l.m.n.p.equales erũt nũeris.a.c.d.b.quiſqʒ ſuo relatiuo ẽ igit̃:l.equalis.a.⁊.p.b.Manifeſtũ aũt ex ſcd̃a huius ꝙ ex.f.in ſe fit.k.⁊ ex eodẽ in.k.p ꝑ diffinitionẽ igit̃ eius qd̃ ẽ ml'tiplicari:erit.f.in.k.k.quoqʒ in.p.quotiẽs vnitas ẽ in.f.itaqʒ vnitas.f.k.p.ſunt cõtinue ꝓportionales.Sil'r aũt ⁊ vnitas.e.g.l.ſũptis ergo.a.⁊.b.loco.l.⁊.p.ſibi equaliũ erunt inter.a.⁊ vnitatẽ.g.⁊.e.⁊ inter.b.⁊ vnitatem.k.⁊.f.cõtinue proportionales:totidem quot ſunt inter.a.⁊.b.quod eſt propoſitum.
 
-[Diagram]
+[Diagram: segments labelled a, c, d and b beside segments labelled l, m, n and p, with segments labelled g, h and k, segments labelled e and f, and a unity stroke]
 
-boc toriens fiat vſquequo ſic ſumpti fiãt toridẽ quor ſunt numeni ppoſiti :vt ſnnt bic. I.m.n.p. Lõſtat itaaz cui ſint. a. c. d.b. in ſua pportione mimi p primã buius. ſintoz.I.m.n. p. toridẽ z mimi in eadẽ. Iõ ſit aũt poſſibile cẽ aliquid minus min! mo ꝙ numeri.l.m.n.p. equales crũt nũcris. a.c. d.b. qui vſoz ſuo relatino ẽigit:l. cqualis. a.2.p.b. DHanifeſtũ aũt ex ſcoa buins ꝙ er.f.in ſe fit.R.z ex eodẽ.m. Ep nn oiffinitionẽ igit eius qo ẽ mltiplicari:erit. f.in.l.R quooz in. p. quotiẽs vnitas ẽ in.f.itaz vnitas.I.R. p. ſunt cõtinue ꝓportionales. Silr aũt z vnitas. e.g.I. ſũptis ergo.a.1 b. loco.l.2. p. ſibi equaliũ erunt inter. a.z vnitatẽ. g.2.e. 2 inter.b. z vni? tatem. l.2.f. cõtinue proportionales:totidem quot ſunt inter.a.2.b. quod eſt pro politum.
+## Propoſitio 10.
 
-## PPropoſitio io.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I inter vtrũqʒ eoꝝ ⁊ vnitatem quotlibet numeri cõtinua proportionalitate ceciderint ambobus numeris totidem continua proportionalitate inter eſſe neceſſe eſt.
 
-{dropcap:[illegible]|lines=5|style=decorated}3 inter vtrũgz eox a vniratem quollibet numeri cõtinua proportionalitate ceciderint ambobus numeris totidem continna proportionalitate inter eſle necelle eſt.
+¶Sint duo numeri.a.⁊.b.ſintqʒ.c.⁊.d.inter.a.⁊ vnitatẽ.e.quoqʒ ⁊ f.inter.b.⁊ vnitatẽ continue proportionales.dico totidẽ eſſe inter.a ⁊.b.cõtinue proportiõales:hec ẽ cõuerſa prioris excepto ꝙ ad ſubiectum p̃miſſe appoſitũ erat.a.⁊.b.eſſe contra ſe primos qd̃ nõ apponit̃ hic ad paſſionẽ:quaꝓpter vl'ioꝛ eſt paſſio huius ſubiecto illius.Quia igit̃ quotiens vnitas in.d.totiẽs ẽ d.in.c.⁊ totiẽs.c.in.a.cõſtat qd̃ ex.d.in ſe fit.c.⁊ ex eodẽ.d.i.c.a.Sil'r quoqʒ ex.f.in ſe ⁊ in.e.fient.e.⁊.b.ducat̃ itaqʒ.d.in.f.⁊ ꝓductus ſit.g.itẽqʒ idẽ.d.ducat̃.i.g.⁊.e.⁊ ſint producti.h.⁊.k.Cõſtat igitur ex.18.ſeptimi ꝙ.c.ad.g.vt.d.ad.f.⁊ ex 19.ꝙ.g.ad.e.vt.d.ad.f.quare.c.g.e.ſunt continue proportionales ī proportione d.ad.f.itẽ ꝑ.18.iteꝝ ſunt.a.ad.h.ſicut.c.ad.g.⁊.h.ad.k.ſicut.g.ad.e.⁊ ꝑ.19.k.ad b.ſicut.d.ad.f.igitur ſunt.a.h.k.b.continue proportionales:quare cõſtat propoſitum.
 
-¶Sint ouo numeri.a.z.b.ſintqy.c.z. d.inter. a. z vnitatẽ.e. quoqy z
+[Diagram: segments labelled a, h, k and b above segments labelled c, g and e, segments labelled d and f, and a unity stroke]
 
-[Diagram]
+## Propoſitio 11.
 
-f.inter. b.z vnitatẽ continue proportionales. oico totidẽ eſſe inter. a 2.b.cõtinue proportiõales:bec ẽ couerſa prors eycepto q ad ſubiecrum pmiſſe appoſitũ crat.a.2.b. eſſe contra ſe primos qo nõ apponit bic ad paſſionẽ: qua pi nter vlior eſt paſſio buius ſubiecto illius. Ouia igit quotiens vnitas in. d. roriẽs ẽ d.in.c.z totiẽs. c.in.a. cõſtat qo ex. d.in ſe fit. c.z ex codẽ. d.i.c.a. Silr quoqz ey.f. in ſe z in.e. fient.e.2. b. oucat itas. d.in.f.z pductns ſit. g.itẽqz idẽ. d.oucar.i.6. 4e. z ſint producti.h. 2. l. Lonſtat igitur er.is. ſeptimi ꝙ. c.ad.g.vt. d.ad. f.z er 10O a ad.e.vt. d.ad.faquare.c.g.e. ſunt continue proportionales i proportione A ad. fitẽ pas. itey ſunt. a. ad.h. ſicut.c.ad.g.2. h.ad.l. ſicut.g. ad.e. 2p.19.h.ad b.ſicut. d.ad.f.igitur ſunt.a.b.l.b. continue proportionalcs: quare cõſtat propo¬
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I fuerint ambo quadrati erit ꝓportio vnius ad alterũ tãquã ſui lateris ad latus illius proportio duplicata. Si vero ambo fuerint cubi:erit proportio alterius ad alterum tãquã ſui lateris ad latus alterius proportio triplicata.
 
-## aPropoſitio ii.
+¶Sint duo quadrati.a.⁊.b.⁊ duo cubi.c.⁊.d.latera tã quadratoꝝ q̃ʒ cuboꝝ ſint.e.quidẽ.a.⁊.c.f.vero b.⁊.d.dico ꝙ proportio.a.ad.b.erit ſicut.e.ad.f.duplicata.c.vero ad.d.ſicut eadẽ triplicata.Manifeſtũ enī eſt ꝙ ex.e.in ſe fit.a.⁊ ex ipſo.e.i.a.c.ſic quoqʒ ex.f.in ſe fit.b.⁊ ex ipō in.b.d.ducat̃ igit̃.e.in.f.⁊ ꝓuenit.g.⁊ in.g.⁊.b.⁊ ꝓueniant.h.⁊.k.eritqʒ ꝑ.18.ſeptimi.a.ad.g.ſicut.e.ad.f ⁊ per.19.g.ad.b.ſicut.e.ad.f.igitur ex diffinitione.a.ad.b.ſicut.e.ad.f.duplicata qd̃ eſt primũ.Scd̃m eodeʒ modo cõſtat.ſunt enī ꝑ.18.iteꝝ.c.ad.h.ſicut.a.ad.g.⁊ h.ad.k.ſicut.g.ad.b.⁊ per.19.k.ad.d.ſicut.e.ad.f.quare.c.h.k.d.ſunt etiã continue proportionales in ꝓportione.e.ad.f.ꝑ diffinitionẽ igitur erit.c.ad.d.ſicut e.ad.f.triplicata:quod eſt ſecũdũ.
 
-litum. {dropcap:[illegible]|lines=5|style=decorated}J fuerint ambo quadrati erit pportio onins ad alterũ tã quã lui lateris ad latus illius proportio ouplicata. Si ve ro ambo fuerint cubi:erit proportio alrerins ad alterum
+[Diagram: segments labelled c, h, k and d above segments labelled a, g and b and segments labelled e and f]
 
-[Diagram]
+## Propoſitio 12
 
-ãquã ſui lateris ad latns alterins proportio triplicata.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I numeroꝝ cõtinue ꝓportionalitatis quiſqʒ in ſeipſũ ducatur:qui inde ꝓducent̃ ſub cõtinua ꝓportionalitate eſſe. Qd̃ ſi itẽ in ipſos ꝓductos prīcipia ſua ducant̃: inde quoqʒ ꝓductos cõtinue ꝓportionalitatis eẽ neceſſe eſt. idẽqʒ in omnibus hoc modo productis extremitatibus.
 
-¶Gint ouo quadrati.a.2.b. z ouo cubi.c. 4. d. latera tã quadratorũ õz cubon ſint.e. quidẽ. a. 4. C.f. vero b.z. d.oico ꝙ proportio. a. ad.b. crit ſicun,e, ad. f. ouplicata.c. vero ad. d.ſicut eade triplicata. DlJanifeſtũ eni eſt ꝙex.e. in ſe fit.a.z er iplo.c.i.a.c.ſic quooz ey.f.in ſc fit. b.z ex ipo in.b. d.oucar igit. e.in.f. 1 nuenit. g. 2 in.g.2.b.z proueniant. b.2. l. crit p.1s. ſeptimi. a.ad.g.ſicut.e. ad.f z per.9.g.ad.b. ſicut.c.ad. f.igitur ex oiffinitione. a.ad.b. ſicut. e. ad.f. onplicata od eſt primũ. Gcom codez modo cõſtat. ſunt cui p.ais.iteꝑ.c.ad.b. ſicut.a.ad.4. 2 b.ad.E.ſicut.g. ad.b.z per.19. R.ad. d.ſicut.e. ad.f. quare. c.b.E. d. ſunt etiã con, tinue proportionales in pportione.e.ad.f.ꝑ oiffinitionẽ igitur erit.c. ad. d. ſicut c.ad. Itriplicata: quod eſt ſecũdũ. IPropolitio i2
-
-## [illegible]
-
-{dropcap:[illegible]|lines=5|style=decorated}J numeroy cõtinue pportionalitatis quiſqz in ſeipſũ ou
-
-[Diagram]
-
-catur: qui inde pducent ſub cõtinua pportionalitate eſſe No ſi itẽ in ipſos pductos pricipia ſua oucant: inde quo as pductos cõtinue pportionalitatis eẽ neceſle eſt. idẽqz lin omnibus boc modo productis eytremitatibns.
-
-Aiii. IIII 19 28 1 10 12 14 1 16 1 7 P
+<!-- Signature: b 3 -->

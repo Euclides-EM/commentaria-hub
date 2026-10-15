@@ -1,27 +1,17 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-cõrinue pportionales? vemai igit ey.h. cqualis. e. qui fit.m.h. t reſiduus. b. n.o
+[Diagram: horizontal segments: f.g with point n and the number 496; d with 16 and l with 248; c with 8 and k with 124; b with 4 and h with points m and n and the number 62; a with 2 and e with 13; and two segments labelled p and q]
 
-[Diagram]
+cõtinue ꝓportionales:demat̃ igit̃ ex.h.equalis.e.qui ſit.m.h.⁊ reſiduus.h.n.q̃ erit etiã eq̃lis.e.itẽqʒ ex.f.g.demat̃ eidẽ equalis qui ſit.f.n.eritqʒ ꝑ p̃miſſam.n.g. quãtũ aggregatũ ex.e.⁊.h.⁊.k.⁊.l.ſed ⁊.f.n.cũ ſit equalis.e.ẽ quãtũ aggregatum ex.a.⁊.b.⁊.c.⁊.d.⁊ vnitate.itẽqʒ totus.f.g.ẽ quantus aggregatꝰ ex oĩbus his ſcʒ a.b.c.d.⁊ vnitate ⁊ illis.e.h.k.l.de quibus oĩbus manifeſtũ ẽ ꝙ numerãt eũ ſcʒ.f. g.e.quidẽ ſm̃.d.⁊.d.ſm̃.e.qd̃ ex p̃ma pte.20.ſep.ꝯuincit̃ adiuuãte equa ꝓportionalitate ſicubi opus fuerit.Eſt enim vt.d.ad.c.ſic.h.ad.e.⁊ vt.d.ad.b.ſic.k.ad .e.ꝑ equam ꝓportionalitatẽ:quare ⁊ ex.c.in.h.⁊ ex.b.in.k.neceſſe ẽ ꝓuenire.f.g. quẽ dudũ ꝓduxerat.d.in.e.ſi igit̃ nullus alius ab his numerat.f.g.ipſe erit ꝑ diffinitionẽ numerus ꝑfectus.¶Quod autem nullus alius eum numeret ſic patet ſi eni hoc poſſibile ẽ ſit.p.qui numeret eũ ſm̃.q.eritqʒ ꝑ.33.ſep.vt.e.numeret alteꝝ eoꝝ ponat̃qʒ ꝙ numeret.p.⁊ qꝛ ꝑ ſcd̃am ptẽ.20.ſep.ẽ.q.ad.d.ſicut e.ad.p.ſequit̃ vt.q.numeret.d.quare cũ.a.qui ſequit̃ vnitatẽ ſit primus ẽ eni binariꝰ erit.q.ꝑ.13 huius aut.a.aut.b.aut.c.quicunqʒ aũt hoꝝ fuerit erit.p.aut.l.aut.k.aut.h.ſi eni q.fuerit.a.conſtat ꝙ p.erit.l.qd̃ ſi fuerit.b.p.erit.k.ſi aũt.c.p.quoqʒ erit.h.non ẽ igit̃.p.diuerſus ab illis vt fuerat poſitũ:relinquitur ergo ꝙ.f.g.ſit numerus perfectus quod erat demonſtrandum. Explicit liber Nonus Jncipit liber Decimus
 
-crit enã eq̃lis. e.itéoy cx. f.g. cemnat eidẽ cqualis qui ſit. f.n.eritaz ppmiſſam.n.a. Quãtũ aggregatũ ey.e. 2.b. 1.k.2.l. ſed z. f.n. cũ ſit equalis.c. é quãtũ aggrcgatum cx 4.2.b.2.c.2.d.⁊ vnitate. itéqz totus. f.g.é quantus aggregatꝰ cr oibus bis ſc a h.c. d.z vnitate c illis.e.h. R.l. oe quibus oibus manifeſtũ ẽ ꝙ numerãt cũ ſc.f. gec.quidẽ bm.b.z.b.bm.E. qu cr pmna pte.2o. ſep. ouincii adiuuãte cqua pportio, rionalitatc ſicubi opus fuerit. Eſt enimnt. d.ad.c. fic.h.ad.e. Tut. d.ad.b.ſic. E.ad en cauam pportionalitatẽ: quare z ey. c.in.b. z ex. b.in. R. ncceſſe ẽ puenire. f.4. ouẽ ondũ ꝓpdurerat. d.in.e. ſi igit nullus alius ab bis numerat. f.g. i pſc erit p oif? finitionez numerus pfectus.
+{dropcap:Q|lines=10|style=decorated|decoration="foliate woodcut initial"}Vantitates quibꝰ fuerit vna quantitas cõis eas numerãs:dicẽt̃ cõicãtes.quibꝰ vero nõ fuerit vna cõis q̃ntitas eas numerãs dicẽt̃ icõmẽſurabiles.Linee i potẽtia cõicãtes dicunt̃ quaꝝ ſupficies q̃dratas vna cõis ſupficies nũerat.Linee icõmẽſurabiles i potẽtia dicunt̃ quaꝝ ſupficies q̃dratas nõ numerat vna cõis ſupficies:q̃ cũ ita ſint manifeſtũ ẽ qꝛ oĩ linee poſite multe alie ſũt incõmẽſurabiles.q̃dã i longitudie tm̃.q̃dã i lõgitudine ⁊ potẽtia.Oĩs aũt linea cũ q̃ rõcinamur poſita vocet̃ rõnalis.Lineeqʒ ei cõicãtes dicũt̃ rõnales:Eidẽ aũt icõicãtes dicũt̃ irrõnales ſiue ſurde.Oĩs vero q̃drata ſupficies de q̃ ꝑ ypoteſi rõcinamur dicit̃ rõnalis.Supficies vero ei cõicãtes dicũt̃ rõnales.Eidẽ autem icommenſurabiles ſuperficies dicũtur irrationales ſiue ſurde Latera vero q̃ in illas q̃dratas poſſũt dicũt̃ rõnalia.¶Quãlibʒ quãtitatẽ totiẽs poſſe multiplicari vt quãlibet eiuſdẽ generis quãtitatem poſitam excedat.
 
-¶ Quod autem nullus alius eum numeret fic patet ſi eni boc poſſibile ẽ ſit. p.qui numcret eũ bm.q.erits p.33.ſep.Vt.e. numeret altey coy ponarqs ꝙ numcret. p. qr p ſcoam ptẽ ao.ſep.ẽ. q.ad. d.ſicut e.ad.p. ſeqnit nt, o. numcret. d.quare cũ. a. qui ſequit vnitatẽ ſit primus ẽ eni binariꝰ erit.q.D. ia bnins aut. a. aut.b. aut.c. quicunqz aũt boy fuerit erit. p.aut.l.aut. R.aut. b. ſi eni q.fuerit. a. conſtat ꝙ p.erit.I.qo fit fuerit.b.p.crit. l.ſi aũt. c.p.quoy erit.b. non eigit.p.oinerſns ab illis vt fuerat politũ:relinquitur ergo ꝙ.f.g.lit numerus per fectus quod erat pemonſtrandum. Explicir liber Nonus Jncipit liber Decimus {dropcap:[illegible]|lines=10|style=decorated}Mantitates quibꝰ fuerit ona quantitas cois leas numerãs: dicẽt coicãtes. quibꝰ vero nõ fuer it vna cõis q̃ntitas eas numerãs dicẽt i c õ mẽſurabiles. Iinee i potẽtia cõicãtes oi cunt quax ſupficies q̃dratas vna cõis ſupfici es nũerat. Lunce icõmẽſurabiles i potc̃tiaoi cunt quax lupficies q̃dratas nõ numcrat vna cõis lupficies: q̃ cũ ita ſint manifeſtũ ẽ qu oi linee poſite muite alie ſũt incõmẽſurabiles. q̃dã i longitudie tm̃. q̃dã i lõgitudine ⁊ potẽ tia. Dis aüt linca cũ q rõcinamur poſita vo
+## Pꝛopoſitio .1.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I a duabus quãtitatibus inequalibus ꝓpoſitis maius dimidio a maiori detrahat̃.itẽqʒ de reliquo maius dimidio demat̃ deinceps quoqʒ eodẽ mõ:neceſſe ẽ vt tandẽ minore poſitaꝝ minoꝛ quãtitas relinquat̃.
 
-cet rõnalis. Iincez ei cõicãtes oicũt rõnalcs: Eidẽ aũt icoicãtes di cũt irrõnaleſ ſiue ſurde. Dis vero q̃drata ſupficiel de q̃ ꝑypoteſi rõci namur dicit rõnalis. Suplicies vero ci cõicãtes dicui ronales. Eidẽ autem icommenſurabiles ſuperficies oicũtur irrationales ſine ſnrde Latera vero q̃ in illas q̃dratas poſſut oicut rõnalia.
+¶Sint due quantitates inequales.a.⁊.b.c.b.c.maioꝛ.dico ꝙ totiẽs põt maius dimidio detrahi a.b.c.vel eius reſiduo ꝙ neceſſe erit relinqui quantitatẽ minorem.a. multiplicet̃ eni.a.quotiẽs excedat.b.c.ſitqʒ eius multiplex.d.e.f.maius.b.c.detrahatur itaqʒ.a.b.c.maius dimidio qd̃ ſit.b.g.itẽqʒ ex reſiduo qd̃ eſt.g.c.maiꝰ dimidio qd̃ ſit.g.h.hoc quoqʒ totiens fiat quouſqʒ.b.c.diuiſa fiunt in tot ptes quoties a ꝯtinet̃ in.d.e.f.dico tunc ꝙ vltimũ reſiduũ vt eſt hic.h.c.eſt minꝰ.a.multiplicet̃
 
-¶ Quãlibz quã titatẽ toriẽs poſle multiplicari vt quãlibet eiuſde gencris quãritatem poſitam ercedat.
+[Diagram: horizontal segments: one with points d, e and f; one labelled a; one with points b, g, h and c; and one with points k, l and m]
 
-## ropoſitio .1.
-
-{dropcap:[illegible]|lines=5|style=decorated}J a ouabus quãtitatibus inequalibus ppoſitis mains oi midio a maiori oetrabat. itẽqz be reliquo maius oimidio oemat deinceps quoqz codẽ mõ: necelle ẽ vt tandẽ mino re poſitax minoz quãtitas relinquaf.
-
-¶Sint oue quan
-
-[Diagram]
-
-titates inequalcs. a. 2.b.c.b.c.maior. oico ꝙ totiẽs põr mains oimi dio octrabi a.b.c. vel cius rcſiduo q neceſſe crit rdinqui quantirate minorem.a. multiplicer eni. a,quoriẽs eycedat. b. c. ſitqz cius multiplcy. d.c.f.maius. b.c. petra batur itaqz. a.b.c.maius oimidio ꝙ lit.b.g.itẽqz ey reſiduo qo eſt.g.C.maiꝰ oimni dio qo lit.g.b. boc quogz totiens fiar quouſqy.b. c.diniſa fiunt in tor ptes quoties a ptiner in.d.e.f.oico tunc ꝙ vltimũ reſiduũ vt eſt bic.b.c. eſt minꝰ. a. multiplicci
-
-[Diagram]
+[Diagram: handwritten ink segments with points d, e and f numbered 60; a and b with numbers 30, 15 and 50; g, h and c with numbers 5, 5 and 5; points k, l and m; and a segment from b to c numbered 50]

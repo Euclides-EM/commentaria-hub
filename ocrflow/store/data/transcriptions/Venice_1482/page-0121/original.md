@@ -1,47 +1,33 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VII -->
 
-[Diagram]
+¶Dati numeri ſint.a.⁊.b.quoꝝ minor ſi numerat maiorem eſt maior quẽ querimus. alioquin maior eoꝝ numeraret minorem ſe. Si autẽ neuter neutrũ numeret ſi ipſi ſunt contra ſe primi.erit qui ex.a.in.b.ꝓuenit qui ſit.c. minimus omnium quẽ numerat.a.⁊.b. Nam ſi minorem eo numerauerint eſto.d. quẽ numerent ſm̃ e.⁊.f.eritqʒ per ſcꝺam partem.20.a.ad.b.ſicut.f.ad.e.⁊ quia.a.⁊.b. ſunt ſue proportionis minimi per.23.numerabit.a.f.per.21.⁊ quia per.18.eſt.c.ad.d. ſicut.a. ad.f. Nam ex.b.in.a.⁊.f.fiunt.c.⁊.d.ſequitur.c.numerare.d.ſed erat.d. minor.c quare impoſſibile. Si autem.a.⁊.b.ſint cõicantes: negociare propoſituʒ ut in.35. ſecunda trium concluſionum ex ambobus correl'.eſt confecta.
 
-¶Dati numeri ſint. a.2.b. quorũ minor ſi numerat maiorem eſt maior quẽ queri? mus. alioquin maior eoy numerarct minorem ſe. Si autẽ neuter neutrũ numeret ſi ipli ſunt contra ſe primi. erit qui ex.a.in.b. puenit qui fit. c. minimus omnium que numerat. a.2.b. Iam ſi minorem eo numeranerint eſto. d. que numerent bm e.2.f. critoy per ſcoam partem.2o .a.ad.b. ſicut. f.ad.e. z quia.a.2.b. ſunt ſue pro? portionis minimi per.2z. numerabit. a.f.per. 21. quia per.18. eſt. c.ad. d. ſicut.a. ad.f. Ilami cy. b.in. a. 2. f. fiunt. c.z. d.ſequitur. c. numerare. d.ſed erat. d. minor. c quare impolſibile. Si autem.a.2.b. ſint cõicantes: negociarc propoſituz ut in.35. ſecunda trium conduſionum ex ambobus conel. eſt confecta.
+[Diagram: segments labelled a and b, above a segment labelled c, above a segment labelled d, above segments labelled e and f]
 
-¶Si plures numeri numerum vnum numerent: neceſſe eſt vt' mini, mus quẽ numerant eundẽ numerum numeret.
+¶Si plures numeri numerum vnum numerent:neceſſe eſt vt minimus quẽ numerant eundẽ numerum numeret.
 
-¶ Bt ſi ſit quilibet numerus quẽ numerat. a. z. b. d. minimuſqz ab ciſdem nume
+¶Vt ſi ſit quilibet numerus quẽ numerat.a.⁊.b.d.minimuſqʒ ab eiſdem numeratus.c.erit ut.c.numeret.d.cũ eni ſit.d.maior.c.ſi.c.nõ numerat ipſũ. numerabit tamẽ aliquid eius: ſitqʒ plurimũ qꝺ numerat.e.⁊ reſiduũ ſit.f.eritqʒ.f.minus c.quia igitur.a.⁊.b.numerant.c.numerabunt per cõem ſcientiaʒ ⁊.e. ſed numerabunt.d.itaqʒ per aliã cõmunem ſciam numerabunt.f. incõueniens ergo ſequit̃ ꝙ c.nõ fuit minimus quẽ numerant.a.⁊.b.¶Idem cõuinces ⁊ eodẽ mõ de quolibet numerato a quotlibet pluribus.ſ.ꝙ minim⁹ ab illis quotlibet pluribus numeratus eundem numeret:vltima triũ cõcluſionũ ẽ.
 
-[Diagram]
+[Diagram: a segment labelled d, above segments labelled a, e, b and f, above a segment labelled c]
 
-ratus.c. crit ut.c. numeret. d. cũ eni ſit.d. maior.c. ſi.c. nõ numerat ipſũ. numera bit tamẽ aliquid cins: ſits plurimũ qo numerat.c.z reſiduũ lit.f. erit.f. minus c.quia igitur.a.z.b. numerant. c. numerabunt per cõem ſcientiaz z.e. ſed numera bunt. d.ita per aliã cõmunem ſciam numerabunt.f. incõueniens ergo ſequii ꝙ .nõ fuit minimus quẽ numerant. a. 2.b.
+¶Propoſitis tribus numeris:minimũ numeroꝝ ab eis numeratorum inuenire:
 
-¶ Jdem cõuinces ⁊ eodẽ mõ oe quolibet numerato a quorlibet pluribus.ſ. ꝙ minimꝰ ab illis quorlibet pluribus numera? tus eundem numeret: vltima triũ cõduſionũ ẽ. rum inuenire:
+¶Tres numeri ꝓpoſiti ſint.a.b.c.minimuſqʒ quẽ numerant.a.⁊.b.ſit.d. qui ſumetur ut prima trium concluſionũ docet. Si igitur.c.numerat.d.ſcito.d. eſſe quẽ querim⁹. Si eni.a.b.c.minorem eo numerant:ſit eni.e.quẽ per p̃miſſam concluſionẽ numerabit.d.qꝺ eſt impoſſibile. Si autem.d.non numerat.c.ſumatur.e.minimus numeratus ab eis.ꝙ autem.e.numeret̃ ab.a.b.c.patet qꝛ.c. numerat ipſum ⁊.d.ſimiliter:ergo ⁊.a.b.qui numerant.d.quare.e.numerabitur ab.a.b.c.eritqʒ.e minimus quẽ numerãt.a.b.c.Sin autem ſit.f.quẽ per premiſſam concluſionẽ numerabit.d.ſed.c.numerat.f. quia.a.b.c. numerant eum:quare.c.d. numerabut eum:quare per premiſſam.e.numerabit eum ⁊ eſt maior eo ſed ⁊.e.maior minorẽ qꝺ nõ eſſe poteſt. Idem inuenies ⁊ eodẽ modo quotlibet propoſitis.
 
-¶ PPropoſitis tribus numeris: minimũ numeroy ab cis numeratoꝰ
+[Diagram: segments labelled a and d, above segments labelled b and e, above segments labelled c and f]
 
-[Diagram]
+## Propoſitio .37.
 
-¶ Lres numeri ppoſiti ſint.a.b. c.minimuſ quẽ numcrant. a. 2. b. fit. d. qui ſu, metur ut prima trium condnſionũ docet. Si igitur. c. numerat. d. ſcito. d. eſſe quẽ querimꝰ Si eni.a b.c. minorcem co numerant: lit eni.e, que per pmiſſam conduſio nẽ numerabit. d. qo eſt impoſſibile. S autem. d.non numerat. c. ſumatur.e. mini, mus numeratns ab eis. ꝙ autem.e. numerct ab. a.b.c. patet qr.c- numerat ipſum .d.ſimiliter: ergo z.a.b, qui numerant. d. quare. c. numerabitur ab. a.b.c. eritqy.-e minimus quẽ numerãt. a.b.c. Sin autem ſit. f. quẽ per premiſſam concluſionẽ nu? merabit. d.icd.c.numerat. f. quia. a.b. c. numerant eum: quare. c.d. numerabut eum: quare per premiſſam.e. numerabit eum z eſt maior eo ſed z.e. maior minorẽ qo nõ eſſc poteſt. Jdem inuenies z codẽ modo quorlibet propolitis.
+{dropcap:S|lines=6|style=decorated|decoration="foliate woodcut initial"}I numerus aliquis aliũ numerum numeret:erit in numerato pars a numerante denominata.
 
-## ropoſitio .37.
+¶Huius ſenſus eſt ꝙ ois numer⁹ numerat⁹ a ternario habet tertiaʒ ⁊ numerat⁹ a quinario hʒ quintã.ſicqʒ de ceteris:vt ſi.b.numeret.a. erit in.a.ps denominata a.b.numeret eniʒ ipſũ quotiens vnitas in c.eritqʒ per.16.vt.c.quoqʒ totiens numeret.a.quotiens vnitas i.b.quare tota{printer-error-correction:quota} ps eſt.c.a.quotta vnitas.b.⁊ qꝛ vnitas eſt pars omnis numeri ab ipſo denominata per cõmunem ſciam:erit.c.pars.a.denominata a.b.quod eſt propoſitum.
 
-{dropcap:[illegible]|lines=5|style=decorated}S numerus aliquis aliũ numerum numeret: erit in nume, rato pars a numerante oenominata.
+[Diagram: a segment labelled a, above segments labelled c and b, above a short unlabelled segment]
 
-¶buins ſeuſus eſt ꝙ ois numer numcrat? a ternario babet tertiaz
+## Propoſitio .38.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I numerus aliquis partẽ quotãcunqʒ habeat numerabit ipſum numerus ad illam partem dictus.
 
-[Diagram]
+¶Hec eſt cõuerſa premiſſe cuius eſt intentio:ꝙ ois nũerus hñs tertiã numerat̃ a ternario:⁊ hñs quitã a q̃nario:ſicqʒ de ceteris vt ſi.b ſit ps.a.denoiata a.c.ſeq̃t ut.c.nũerʒ.a.qꝛ ei.b.ẽ ps.a.denoiata a.c
 
-[Diagram]
-
-[Diagram]
-
-numerat? a quinario b; quintã.ſic de cetcris: vt ſi.b. numeret.a. erit in. a.ps oenominata a.b. numeret eniz ipſũ quotiens vnitas in c.erit per. 16. vt.c. quo totiens numeret. a. quotiens vnitas i.b. quare tota ps eſt.c.a, quotta vnitas.b. ⁊ qz vnitas eſt pars omnis numeri ab ipſo oenominata per cõmunem ſciam: erit.c. pars. a.benominata a.b, quod eſt propolitum.
-
-## Propoſitio .s.
-
-{dropcap:[illegible]|lines=5|style=decorated}J numerus aliquis partẽ quotãcunqz babeat numerabit
-
-[Diagram]
-
-ipſum numerus ad illam partem oictus.
-
-¶bec eſt cõuerſa premiſſe cuius eſt intentio: ꝙ ois nũcrus bĩs ter? lã numerat a temario: z bĩs quitã a quario:lic de ceteris vt si.b ſit ps. a. Nenoiata a.c. ſeqt ut.c. nũerz a.quci. b.éps.a.cenoiata a.c
+[Diagram: a segment labelled a, above segments labelled c and b, above a short unlabelled segment]

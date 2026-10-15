@@ -1,31 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-e.a.b.eſt equalis angulo ſemicirculi predicto: angulus aũt ſemicirculi ẽ ampliſſim omniũ acutoy ꝑ vltimã partẽ buins: erit angnlus.c.a. b.ampliſſim omniũ acuto rui: oinidat ergo angulns.e. a.d. ſicut propoſuit.ꝓ primi p equalia oucta linca.a.f. eritoz p cõceptione angulus. f.a.b.ãplior angulo. e.a.b, quare erit aliqd ãpli'am pliſſimo quod e ipoſſibile.
+e.a.b.eſt equalis angulo ſemicirculi predicto:angulus aũt ſemicirculi ẽ ampliſſim⁹ omniũ acutoꝝ ꝑ vltimã partẽ huius:erit angulus.e.a.b.ampliſſim⁹ omniũ acutorũ:diuidaꝛ ergo angulus.e.a.d.ſicut propoſuit.9.primi ꝑ equalia ducta linea.a.f. eritqʒ ꝑ cõceptionẽ angulus.f.a.b.ãplior angulo.e.a.b.quare erit aliqd ãpli⁹ ampliſſimo quod ẽ ipoſſibile.¶Vel ſic cũ angulus.e.a.b.ſit equalis angulo ſemicirculi ſicut poniꝛ.At angulus ſemicirculi cũ angulo cõtingẽtie ẽ equalis vni recto.Similiter quoqʒ angulus.e.a.b.cũ angulo.e.a.d.ẽ equalis vni recto:erit angul⁹.e.a.d.equalis angulo cõtingentie:⁊ qꝛ angulus cõtingentie ẽ anguſtiſſimus omnium acutoꝝ per.3.ꝑtem huius:erit ſimiliter angulus.e.a.d.ſibi equalis anguſtiſſimus omniũ acutoꝝ.ſed angul⁹.e.a.f.ẽ eo anguſtior ꝑ cõceptionẽ:erit ergo aliquid anguſtius anguſtiſſimo quod ẽ impoſſibile:¶Non ergo erit angulus rectiline⁹ equalis angulo ſemicirculi ⁊ qꝛ trãſitur a minori ad maius ⁊ non ꝑ equale. Itẽ qꝛ eſt reperire minorẽ eo ⁊ maiorẽ:patet inſtantia cõtra vtrãqʒ argumẽtationẽ predictam Unde per interemptionem ad illud eſt reſpondendum.
 
-¶Bel ſic cũ angulus e. a. b.ſit equalis angulo ſemicircu i ſicut ponit. At angulns ſemicirculi cũ angulo cõtingẽtie ẽ equalis vni recto.Si militer quoqs angulus.e. a. b.cũ angulo.e. a. d.é cqualis vni recto: crit anguiꝰ e.a d.equalis angulo cõtingentie:z qu angulus cõtingentie ẽ anguſtiſfimus omnium acutoy per.3 ptem buins: erit ſimiliter angulns. e.a. d.ſibi equalis anguſtiſfimue
+[Margin]
+[Diagram: two equal circles labelled a and b meeting at point g, with a horizontal line above touching them at h and k, points c, e and d on the line, lines drawn from points on the line down to g, and point f below g]
+[/Margin]
 
-[Diagram]
-
-omniũ acutoy. ſed angulꝰ e.a. f.ẽ co anguſtior p cõceptionẽ: crit ergo aliquid an? guſtins anguſtiſſimo quod ẽ impoſfibile:
-
-¶Ion ergo erit angulns rectiline? cqua lis angulo ſemicirculi ? qu trãſitur a minori ad mains e non pequale. Jté qu eſt re perire minorẽ co ⁊ maiorẽ :patet inſtantia cõtra vtrãgz argumẽtarione predictam Unde per interemptionem ad illnd eſt reſpondendum. {dropcap:[illegible]|lines=2|style=plain}OOhet probari quod angulus contingentie eſt oiniſibilis ſcom lincã rectã vt Lcõſtat per figuratione bic a latere poſitam. Lertume y angulus qui cauſat ey cõtactu ouoy circuloy vel ſpay ẽ angulus contingentie z talis oiuidar per linca.e. s: qu bic babei triangulus. b.g.l. cuius baſis. b.E. oinidatur per equalia in pun,
-
-[Diagram]
-
-cto.e. ⁊ protrabat verſus. g-contactum zarguitur pcr.a primi. ocinde p.as. bu? ius ⁊ patet ppoſitum.
+{dropcap:P|lines=2|style=plain}Oſſet probari quod angulus contingentie eſt diuiſibilis ſcõm lineã rectã vt cõſtat per figurationẽ hic a latere poſitam. Certum ẽ ꝙ angulus qui cauſaꝛ ex cõtactu duoꝝ circuloꝝ vel ſpaꝝ ẽ angulus contingentie ⁊ talis diuidaꝛ per lineã.e.g: qꝛ hic habeꝛ triangulus.b.g.k.cuius baſis.b.k.diuidatur per equalia in puncto.e.⁊ protrahaꝛ verſus.g.contactum ⁊ arguitur per.4.primi.deinde ꝑ.26.huius ⁊ patet ꝓpoſitum.
 
 ## Propoſitio .16.
 
-{dropcap:[illegible]|lines=5|style=decorated}ato puncto ad oatuiin circnli lineã cõtingentẽ oucere.
+[Margin]
+[Diagram: two concentric circles with centre c, points a and b on the circumferences at the upper left and right, point e above, point d at the upper left, with lines joining d, a, b and e to the centre]
+[/Margin]
 
-¶Sit drculus batus. a.b. cui'centy. c. punctuſoy oatur. d. volo crgo a puncto. d. ouccre lincã otingente circului.a.b. pduco lineã.d.c.ſe? cantez circuferentiã circui. a b.in puncto. a. ſup quã peſcrbo ciran lomn. d.e. ſecuĩdũ quãtitatẽ lince.d.c concétricũ circulo.a.b. z a pũcto a, produco lincam. a.c. ppendicularez ad lineã. d.c, que ſecet circũferentiã circuli.d e.in puncto;c. * pduco lineã.e.c. ſecanté circuiferẽtiã circuli.a.b. in puncto. b. del inde produco lincã. d.b,que erit cõtingens circulum.a.b,qu eni ouo latera.a.c. ct ce. trianguli.a.c.e. ſunt equalia ouobus laterib'. b.c.2.c.d. trianguli. b.c.d. z an gulus.c.é cõis vtriqz erit pa primi angulus.c.a.c.cqualis angulo. d.b.c. angui
+{dropcap:A|lines=5|style=decorated|decoration="white foliate ornament on black ground"} Dato puncto ad datum circulũ lineã cõtingentẽ ducere:¶Sit circulus datus.a.b.cui⁹centꝝ.c.punctuſqʒ datur.d.volo ergo a puncto.d.ducere lineã ꝯtingentẽ circulũ.a.b.ꝓduco lineã.d.c.ſecanteʒ circũferentiã circuli.a.b.in puncto.a.ſup quã deſcribo circulum.d.e.ſecũdũ quãtitatẽ linee.d.c.concẽtricũ circulo.a.b.⁊ a pũcto a.produco lineam.a.e.ꝑpendiculareʒ ad lineã.d.c.que ſecet circũferentiã circuli.d e.in puncto.e.⁊ ꝓduco lineã.e.c.ſecantẽ circũferẽtiã circuli.a.b.in puncto.b.deinde produco lineã.d.b.que erit cõtingens circulum.a.b.qꝛ eni duo latera.a.c. et c.e.trianguli.a.c.e.ſunt equalia duobus laterib⁹.b.c.⁊.c.d.trianguli.b.c.d.⁊ angulus.c.ẽ cõis vtriqʒ erit ꝑ.4.primi angulus.e.a.c.equalis angulo.d.b.c. angulus autem.e.a.c.eſt rectus quare angulus.d.b.c.eſt rectus:ꝑ correlarium ergo precedentis erit linea.d.b.contingens circulum.a.b.quod eſt propoſitum.
 
-[Diagram]
+## Propoſitio .17.
 
-Ius autem,e.a.c.eſt rectus quare angulus. d.b.c. eſt rectus:p conclarium ergo pre cedentis erit linca. d.b. contingens circulum. a.b quod eſt propoſitum.
+[Margin]
+[Diagram: circle with centre d, a horizontal tangent line above touching it at c, points a, f and b on the line, point e on the circumference below f, with lines drawn from d to c and to f]
+[/Margin]
 
-## Propoſitio aix.
+{dropcap:S|lines=3|style=decorated|decoration="white foliate ornament on black ground"}I circulum linea recta contingat a contactu vero ad centrum linea recta ducatur.neceſſe eſt eam ſuper lineã contingentem eſſe perpendicularem.
 
-{dropcap:[illegible]|lines=5|style=decorated}J circulum linea recta contingat a contactu vero ad cen, trum linea recra ducatur neceſſe eſt eam ſuper lineã con tingentem eſle perpendicularem.
-
-¶Sit linea. a.b.contingens circulum,ce cuius centrũ fit. d.in pun l cto.c, qui iungatur cui centro per lincam.c.d. dico banc eſſe perpen icularemn ſuper lincam contingentem. St enim non eſt perpendiclaris ad ipſa. fit ergo.d.f. perpendicnlaris ad eandem que ſecer circuferentiam circulii puncio e eritoy vreray angulorm qui funt. ad. f.rectus igiur per.is. primi linea. cdeſt maior linea d.t, quod et impoffibile Lonſtat irag dc. cle perpendicularon ſu per.a.b,quod eſt propolitum.
+¶Sit linea.a.b.contingens circulum.c.e.cuius centrũ ſit.d.in puncto.c.qui iungatur cũ centro per lineam.c.d. dico hanc eſſe perpendicularem ſuper lineam contingentem.Si enim non eſt perpendicularis ad ipſa.ſit ergo.d.f.perpendicularis ad eandem que ſecet circũferentiam circuli ĩ puncto e.eritqʒ vterqʒ angulorum qui ſunt.ad.f.rectus igitur per.18.primi linea.c.d.eſt maior linea.d.f.quod eſt impoſſibile:Conſtat itaqʒ.d.c.eſſe perpendicularem ſuper.a.b.quod eſt propoſitum.

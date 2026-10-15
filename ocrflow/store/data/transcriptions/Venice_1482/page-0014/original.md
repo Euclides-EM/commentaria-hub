@@ -1,43 +1,35 @@
-Similiter equales per candem: z quia angulus. b. d.c. eſt maior angulo.a.d.c.ſe? quipur anguinn. b.c. d. efſe maiorein angulo.a. c.d parton.ſ.roto quod eſt ipois ſibile: Si autem. d. cadit eytra trianguluni.a. b.c.ita ꝙ lince non ſe ſecent ptrabã
+Similiter equales per eandem:⁊ quia angulus.b.d.c.eſt maior angulo.a.d.c.ſequitur angulum.b.c.d.eſſe maiorem angulo.a.c.d.partem.ſ.toto quod eſt ipoſſibile:Si autem.d.cadit extra triangulum.a.b.c.ita ꝙ linee non ſe ſecent ꝓtrahã lineam.d.c.⁊ producam.b.d.⁊.b.d.⁊.b.c.ſub baſi vſqʒ ad.f.⁊ ad.e. ⁊ quia linee a.d.⁊.a.c.ſunt equales:erũt anguli.a.c.d.⁊.a.d.c.equales p.5.Similit̃ quia.b.c ⁊.b.d.ſunt equales erunt anguli ſub baſi qui ſunt.c.d.f.⁊.d.c.e.equales ꝑ ſcðaʒ partem eiuſdem:quia ergo angulus.e.c.d.minor eſt angulo.a.c.d.ſequitur angulum.f.d.c.eſſe minorem angulo.a.d.c.quod eſt impoſſibile:⁊ eodem modo deducetur aduerſarius ad inconueniens: ſi.d.pũctus cadat intra triangulũ.a.b.c.⁊c̃.
 
-[Diagram]
+[Margin]
+[Diagram: two triangles side by side, the left with apex c and base vertices a and b, the right with apex f and base vertices d and e]
+[/Margin]
 
-[Diagram]
+## Propoſitio .8.
 
-[Diagram]
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnium duoꝝ trianguloꝝ quorum duo latera vni⁹ duobus lateribus alterius fuerint equalia:baſiſqʒ vnius baſi alterius equalis:duos angulos equis lateribus contentos:equales eſſe neceſſe eſt.
 
-[Diagram]
+¶Sint duo triãguli.a.b.c. d.e.f.ſitqʒ.a.c.equalis.d.f.⁊.b.e.eq̃lis e.f.⁊.a.b.equalis.d.e.dico ꝙ angulus.c.eſt equalis angulo.f.⁊ angulus.a.angulo.d.⁊ angulus.b.angulo.e.ſuperponã baſim.a.b.baſi.d.e.que cum ſint equales neutra excedet alterã per penultimã conceptionem:aut ergo punctus.c.cadet ſuper punctũ.f.aut non.Si ſic:tunc quia angulus.c.ſuperpoſit⁹erit angulo.f.⁊ neuter eoꝝ excedit alterum:ipſi ſunt equales per conuerſionem conceptionis p̃dicte: Similiter argue reliquos angulos eſſe equales:Si autem punctus.c.non cadit ſuper.f.ſed ſuper quemlibet alium qui ſit punct⁹.g.quia.e.g.eſt equalis.b.c.imo eadem:itemqʒ.d.g.equalis.a.c.erit.e.g.equalis.e.f.⁊.d.g.equalis.d.f.quod eſt impoſſibile per precedentem.
 
-lincam. d.c. c prodncam.b.d.t. b. d. z. b.c. ſub baſi vſoy ad. f. cad.e. z quia lince a.d.t.a.c.ſunt equales: eruit anguli. a. c.d.t.a. d.c.cquales pey. Similit quia.b.c .b. d. ſunt equales crunt angulit ſub baſi qui ſunt. c.d.f. 1. d.c.c. cquales pſcoaz partem ciuſdem: quia ergo angulus. e. c. d.minor eſt angulo.a.c. d.ſcquitur angu ium.f.d.c.eſſe minorcm angulo.a.d.c.quod eſt impoſſibile:z codem modo pedu cetur aduerſarius ad inconueniens: ſi.d. pũctus cadat intra trianguli. a.b.c. cẽ.
+[Margin]
+[Diagram: two overlapping triangles on a common base d.e with apices f and g and crossing lines between them]
+[/Margin]
 
-## Propoſitio..
+## Propoſitio .9.
 
-{dropcap:[illegible]|lines=5|style=decorated}Dnium ouoy trianguloy quorum ouo latera vniꝰouo, bus lateribus alterius fuerint equalia: baſiſqz vnius baſi alterins equalis: ouos angulos equis latcribus conten?
+{dropcap:D|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Atum angulum per equalia ſecare.
 
-[Diagram]
+¶Sit datus angulus quem oportet diuidere:angulus.a.b.c.lineas ipſum continentes que ſunt.a.b.⁊.b.c.ponam equales per tertiaʒ ⁊ producam lineam.a.c.ſuper quaʒ conſtituam triangulum equilaterum.a.d.c.⁊ protraham lineã.b.d.dico ꝙ ipſa diuidit datũ angulũ per equalia:Intelligo duos triangulos.a.b.d.⁊.c.b.d.⁊ quia duo latera a.b.⁊.b.d.trianguli.a.b.d.ſunt equalia duobus lateribus.c.b.⁊.b.d.trianguli.c.b.d.⁊ baſis.a.d.baſi.c.d.ergo per precedentem angulus.a.b.d.eſt equalis angulo.c.b.d.quod eſt ꝓpoſitum facere.
 
-tos: equales eſſe neceſle eſt.
+[Margin]
+[Diagram: a quadrilateral with vertices b at top, a at left, c at right and d at bottom, with internal lines crossing at the centre]
+[/Margin]
 
-¶ Gint ouo triãguli.a.b.c. d.e.f.ſitqs.a.c.cqualis. d.f.c.b.e. cq̃lis e.f.t.a.b.cqualis. d.c. oico g angulus. c.eſt cqualis angulo. f. z angulus. a.angu lo.d.t angulus.b. angulo.c. ſupcrponã baſim. a. b. baſi, d.c. que cum ſint cquales neutra cycedet alterã per penultimã conceptionem: aut crgo punctus. c.cadet ſu! per punctũ.f. aut non. Si ſic: tunc quia angulus.c. ſupcrpoſit crit angulo.f.
+## Propoſitio .10.
 
-¶ ncu ter coy eycedit alterum: ipſi ſunt equalcs per conuerſionem conceptionis pdicte: Similiter argue reliquos angulos eſſe equales: Si autem punctus.c. non cadit ſuper.f. ſed ſuper quemlibet alium qui ſit punctꝰ.g-quia.e.S- eſt cqualis. b. c. imo cadem:itemy.d.g-equalis. a.c.erit.c.g.cqualis. c.f. 2. d.g. equalis. d.f, quod eſt impoſſibile per precedentem.
+{dropcap:P|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ropoſita recta linea eam per equalia diuidere.
 
-[Diagram]
+¶Sit propoſita linea quã oportet diuidere ꝑ equalia.linea a.b.ſup ipſã ꝯſtituã triãgulũ eq̃laterũ.a.b.c.⁊ angulũ.c.diuido ꝑ eq̃lia ſm̃ doctrinaʒ p̃cedentis per lineam.c.d.dico ꝙ linea.c.d.diuidit datã lineã.a.b.ꝑ eq̃lia:Intelligo.n.duos triãgulos.a.c.d.⁊.b.c.d.⁊ arguo ſic:duo lat̃a.a.c.⁊.c.d.trianguli.a.c.d.ſt̃ eq̃lia duob⁹laterib⁹ b.c.⁊.c.d.triãguli.b.c.d.⁊ angulus.c.vnius angulo.c.alterius ergo per quartam baſis.a.d.baſi.d.b.quod eſt ꝓpoſitum.
 
-[Diagram]
-
-[Diagram]
-
-## Propoſitio:9.
-
-{dropcap:[illegible]|lines=5|style=decorated}Atum anguluin per equalia ſecare.
-
-¶ Oit batuo angulns quem oportet oinidcre: angnluf. a.b.c. lincas ipſum continentes que ſunt. a.b. 2. b. c. ponam cqualcs per tertiaz producam lincam. a.c. ſuper quaz conſtituam triangulum equila terum.a. d.c. z priotrabam lincã. b. d.oico ꝙ ipſa oiuidit oatũ an gulũ per cqualia: Jntelligo ouos triangulos. a.b.d. z.c.b. d.z quia ouo latera a. b. 2.b.d. trianguli. a.b. d. ſunt cqualia ouobus lateribus. C.b.2. b. d.trianguli.C.b d.z baſis. a.d. baſi.c.d.ergo pcr preccdentem angulus. a.b. d. eſt equalis angulo .b.d.quod eſt xpoſitum facere.
-
-## PPropoſitio io.
-
-[Diagram]
-
-{dropcap:[illegible]|lines=5|style=decorated}RRRopoſita recta linea eam per equalia oiuidere.
-
-¶ Sit propolita linea quã oportet oiuidere p equalia. linca a.b. ſup ipſã oſtitnã triãgulũ eqlaterũ. a.b.c.z angnlũ.C.oiuido p eq̃lia bm ooctrinaz pcedentis per lincam.c. d. oico ꝙ linca.c.d. oiuidit patã lincã.a. b. p eq̃lia: Jntelligo.n.ouos triãgulos. a.c. d.2.b.c. d.z ar? guo ſic: ouo lata. a.c. 2.c. d.trianguli.a.c. d.ſt eq̃lia ouobꝰlaterib b.c.2.c. d.triã? guli. b.c.d. z angulus. c. vnius angulo.c. alterius ergo per quartant baſis.a.d.ba ſi.d.b, quod eſt poſitum.
+[Margin]
+[Diagram: a triangle with apex c and base vertices a and b, divided by a vertical line from c to the midpoint d of the base]
+[/Margin]

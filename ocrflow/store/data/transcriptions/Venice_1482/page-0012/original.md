@@ -1,33 +1,29 @@
-cquilateri g opponit pũcto pato. f. latus. d.c. ꝓtrabam p centrũ circuli deſcripti vlqz ad eiꝰ drcũferẽtiã: z ſit tota linca lic ptracta. d.c.e.bm cuiꝰ quãtitaté linca? bo circulũ polito centro in. d. qui ſit circulns.e.f.z poſtca ptrabã latus. d.a. vſqy ad circũferentiã bꝰ eltimi' circuli z occurrat circũferẽtie ipſius in pũcto.f. oico igu ꝙ.a.f.eſt equalis. b. c.nam. b.c. . c.e. ſunt cquales: quia ereũt a centro circuli.c. b ad eius circũferentiã. Silr quooz.d.f. 2. d.e. ſunt equales qur eyeũt a centro circuli c.f.ad circũferentiã. ſed. d.a.2. d.c. ſunt equales qu ſunt latera trianguli equilateri
+equilateri qð opponit᷑ pũcto dato.ſ.latus.d.c.ꝓtraham ꝑ centrũ circuli deſcripti vſqʒ ad ei⁹ circũferẽtiã: ⁊ ſit tota linea ſic ꝓtracta.d.c.e.ſm̃ cui⁹ quãtitatẽ lineabo circulũ poſito centro in.d.qui ſit circulus.e.f.⁊ poſtea ꝓtrahã latus.d.a.vſqʒ ad circũferentiã h⁹ vltimi circuli ⁊ occurrat circũferẽtie ipſius in pũcto.f.dico igit᷑ ꝙ.a.f.eſt equalis.b.c.nam.b.c.⁊.c.e.ſunt equales: quia exeũt a centro circuli.c.b ad eius circũferentiã. Siꝉr quoqʒ.d.f.⁊.d.e.ſunt equales qꝛ exeũt a centro circuli e.f.ad circũferentiã.ſed.d.a.⁊.d.c.ſunt equales qꝛ ſunt latera trianguli equilateri ergo ſi.d.a.⁊.d.c.demant᷑.d.e.⁊.d.f.que ſunt equales: erũt reſidua que ſũt.a.f.⁊ c.e.equalia qꝛ g̃ vtraqʒ duarũ lineaꝝ.a.f.⁊.c.b.ẽ equalis.c.e.ipſe ſũt equales int̃ ſe: quare a pũcto.a.ꝓtraximus lineam.a.f.equalem.b.c.quod ẽ ꝓpoſitum.
 
-[Diagram]
+[Margin]
+[Diagram: a short horizontal line segment with endpoints a and b above a large circle containing smaller circles, with centre c, points e and f on the inner circumferences, d to the right, and lines drawn from c to e and from c through f to d]
+[/Margin]
 
-ergo ſi.d.a.t.d.c. oemant. d.c. 2. d.f, que ſunt cqualcs: crũt reſidua que ſut.a.f.z Ce. equalia qu g̃ vtrac ouarũ lineay.a.f.z.c. b.ẽ equalis.c.e. ipſe ſũt cqualcs int ſe: quarc a pũcto. a. ptrayimus lincam. a.f.equalem. b. c.quodẽ ppoſitum.
+## Propoſitio .3.
 
-## Eropoſitio.3
+{dropcap:P|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ropoſitis duabus lineis inequalibus de longiori earum breuiori equalem abſcindere. ¶ Sint due linee.a.b.⁊.c.d.⁊ ſit.a.b.minor volo ex.c.d.abſcindere vnã que ſit eq̃lis.a.b.duco p̃mo a pũcto.c.vnã lineã equalẽ.a.b.ſʒ qð docuit p̃cedens: que ſit.c.e.poſito ergo centro in pũcto.c.deſcribam circulũ ſm̃ quantitatẽ.c.e.q̃ ſecabit lineã.c.d.Sit ergo vt ſecet eã ĩ pũcto.f. eritqʒ linea.c.f.equalis linee.c.e.quia ambo exeũt a centro eiuſdem circuli ad circumferẽtiã: ⁊ qꝛ vtraqʒ duarũ linearũ.a.b.⁊.f.c.eſt equalis.c.e.ipſe ſũt int̃ ſe equales:quod eſt ꝓpoſitum.
 
-{dropcap:[illegible]|lines=5|style=decorated}Ropoſitis ouabus lineis inequalibus oe longiori carum breuiori equalem abſcinderé.
+## Propoſitio .4.
 
-¶ Sint oue lince. a.b.2.c. d.z fit. a. b. minor volo cr.c. d. abſcindere onã que ſit eq̃lis. a.b. ouco pme a pũcto. c. vnã lincã cqualẽ.a.b. ly o ocuit pcedens: que ſit. C.e. poſito ergo centro in pũcto.c.oeſcri, bam circulu fm quanttaté,c.e, q ſecabit linca.c.d. Sit ergo vt ſecet ca i pictoif. critoy linea. c.f. cqualis lince. c.e quia ambo eyeût a centro ciuſdem circuli ad cir, cumierẽtiã: c qu viraoy ouari luncari.a. b.E. f.c, eſt cqualis.ce iple fut int ſe cqua les: uod eſt ppoſitum. PPropoſitio
+{dropcap:O|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mniũ duoꝝ trianguloꝝ quoꝝ duo latera vnius duobus lateribus alterius equalia fuerint: duoqʒ anguli eoꝝ illis equilateribus contenti equales fuerint alter alteri: latera quoqʒ illoꝝ reliqua ſeſe reſpicientia equalia: reliqui vero anguli vni⁹ reliq̃s angulis alterius equales erũt: ac totus triangul⁹ toti triangulo equalis.
 
-## [illegible]
+[Margin]
+[Diagram: two triangles side by side, one with vertices a, b and c, the other with vertices d, e and f with point g between e and f and a curved line through the base]
+[/Margin]
 
-{dropcap:[illegible]|lines=5|style=decorated}Mniu ouoy trianguloy quoy ouo latera vnins onobus
+¶ Sint duo trianguli.a.b.c. d.e.f.ſitqʒ latus.a.b.equale lateri.d.e.⁊ lat⁹.a.c.eq̃le lateri.d.f.⁊ angul⁹.a.equalis angulo.d.tũc dico ꝙ baſis.b.c.ẽ equalis baſi.e.f ⁊ angulus.b.equaꝉ angulo.e. Itẽ angul⁹.c.equalis angulo.f.qð ꝓbat᷑: ſupponaʒ triangulũ.a.b.c.triangulo.d.e.f.ita ꝙ angulus.a.cadat ſup angulũ d.⁊ lat⁹.a.b. ſup latus.d.e.⁊ latus.a.c.ſup latus.d.f.⁊ pʒ per penultimã ꝯceptionẽ ꝙ nec anguli nec latera ſeſe excedent eo ꝙ angulus.a.eſt equalis angulo.d.⁊ latera ſuppoſita his quibus ſupponunt᷑ ꝑ ypotheſym.puncta ergo.b.c.cadent ſup pũcta.e.f. ſi ergo linea.b.c.cadit ſup lineã.e.f.pʒ ꝓpoſitum: quia cum linea.b.c.ſuperpoſita linee.e.f.non excedat eã nec excedat᷑ ab ea ẽ ei equalis ꝑ ꝯuerſionẽ penultime conceptiõis: eadem rõne erit angul⁹.b.equalis angulo.e.⁊ angulus.c.eq̃lis angulo.f.ſi autem linea.b.c.non cadit ſuper lineam.e.f.ſed cadit inter triangulum ſicut linea.e.g.f.aut extra ſicut linea.e.h.f.tunc due linee recte concludũt ſuꝑficiẽ quod eſt contra vltimã petitionẽ.
 
-[Diagram]
+[Margin]
+[Diagram: a triangle with apex a and base vertices b and c, whose sides are produced beyond the base and joined by crossing lines to points d and e below]
+[/Margin]
 
-[Diagram]
+## Propoſitio .5.
 
-[Diagram]
+{dropcap:O|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnes trianguli duũ eq̃liũ laterũ angulos qui ſupra baſim ſunt equales eſſe neceſſe eſt: ꝙ ſi eius duo equalia latera directe ꝓtrahant᷑ fient quoqʒ ſub baſi duo anguli inuicem equales.
 
-[Diagram]
-
-[Diagram]
-
-lateribus alterins equalia fuerint: vuoos anguli coy illie equilateribns contenti eqnales fuerint alter alterielatcra quooy illoy reliqua ſeſe reſpicientia cquaila reliqui vero I anguli vniꝰ relidg angulis alterius cquales crut:ac totns triangulꝰ toti triangulo equalis. gront puo trangnil à be d'e l'iioy lamuo. a b cquolelater,d̀ e clae' accqj le laten d̀f, s anqui' a couali aranlo d̀ mne pics qplis bcecouolis bai ci zangulue b couat anguo s Jé angul' c cqualis augulo l ap pbat: ſuppoiny tranguli,a b e rrianquo, de fita q anguins a. cadat ſup angiu d'e lar a b¬ ſup lamne. d e. xlame a, cſup latus d ſ. e py per penmoimi orentoné qnes an gui neclatera ſete credent ẽs q angnlus a cit eqolis anguo, d.e latera ſiurpo ira bis cnſbous ionpponnt p mpoipã́pn puneis cipo bs cadent iup puoineei. ſi cruolies. b.e cadit ſup linci ef, ps ppofim quta cum lien bc ſupempoü? talinee e f.non credat es nes credut ab cue ci couais pouerione penome centepueiercademn rone ent anon' b, cquais angul es angrure c eqle anpi la sa autemn inea b. non caoi ſuper lincam e T'ied cadt iuter triangrliomn ii, courlien e a faut eura icot ines en f me pue liuce rete concuduit iurfie quod et contra eima pentione. Iropoſtio 5
-
-## [illegible]
-
-{dropcap:[illegible]|lines=5|style=decorated}A nes trangui cui, chiii lateru angnlos qui fupra ba ſimn ſont eouales efle nerelle eit: m li eus ouc ecndis la lera oirecte prrabant fient qugas iub baſt oug ancnli inuicem equales. Moit mranguue .be coue lams a b ſit coule htei a.cpues o Prroin a Scécvnlo avils a cp vii pmfauit à f’ua t'vlyad26
-
-p Mſi TII 1 17 1O 16 18 19 20 21 72 22 1 I2 I2 A4 13
+¶ Sit triangulus.a.b.c.cuius latus.a.b.ſit equale lateri a.c.dico ꝙ angulus.a.b.c.ẽ equalis angulo.a.c.b.ꝙ ſi ꝓtrahant᷑.a.b.⁊.a.c. vſqʒ ad.d.⁊.e.

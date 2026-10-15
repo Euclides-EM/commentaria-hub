@@ -1,33 +1,43 @@
-<!-- Running title: lo ai e to p -->
+[Handwritten]
+[unclear: 19 Maior angulus est cuiuslibet trianguli longiori oppositus lateri]
+[/Handwritten]
 
-{dropcap:[illegible]|lines=5|style=decorated}cnis triangnli maiori angnlo longins latus oppoſitu e
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis trianguli maioꝛi angulo longius latus oppoſitũ ẽ
 
-[Diagram]
+¶Sit vt in triangulo.a.b.c.latus.b.c.ſit mai⁹latere.a.b.dico ꝙ angul⁹a.erit maioꝛ angulo.c.⁊ ẽ ꝯuerſa p̃cedẽtis:ſi.n.ſit eq̃lis tũc ꝑ.6. latus.a.b.ẽ eq̃le lateri.b.c.qð eſt ꝯ ypotheſym:Si aũt.c.ſit maioꝛ tũc ꝑ p̃cedentẽ latus.a.b.ẽ mai⁹latere.b.c.qð ẽ ꝯ ypotheſym q̃re aſtruiᷣ ꝓpoſitum.
 
-¶Oit vt in triangulo. a.b.c. latus b.c.ſit mal latere.a. b. oico q an
+[Margin]
+[Diagram: right triangle with vertices b at left, a at top right and c at bottom right]
+[/Margin]
 
-[Diagram]
+## Propoſitio 20.
 
-[Diagram]
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis trianguli duo quelibet latera ſimul iuncta reliquo ſunt longioꝛa.
 
-gul’a. crit maios angulo.c.z é querſa pcedétis: ſi. n. ſit cq̃lis tuicp.6. fatus.a bié eqle laterl b.c ap et p yompeſm'Si at, cſit maio tuic lp pcedenté latuis.a b.e mai latere. b.ca e 9̃ moibeſnu qre aſtruir
+¶Sit triãgul⁹.a.b.c.dico ꝙ duo latera.a.b.⁊.a.c.ſũt lõgioꝛa latere b.c.ꝓtrahaᷣ linea.b.a.vſqʒ ad.d.ita vt.a.d.ſit eq̃lis.a.c.⁊ ꝓtrahaᷣ c.d.ꝑ.5.erit angulus.a.c.d.eq̃lis angulo.d.q̃re angul⁹.b.c.d.ẽ maioꝛ angulo.d.ergo ꝑ.18.latus.b.d.eſt mai⁹latere.b.c.ſʒ.b.d.ẽ eq̃le.a.b.⁊.a.c.q̃re b.a.⁊.a.c.ſił iũcta ſt̃ maioꝛa.b.c.
 
-## Propoſitio 2o.
+[Margin]
+[Diagram: triangle with base b.c and apex a, side b.a extended to d, line d.c drawn]
+[/Margin]
 
-gpoſitum. Mnis trianguli ouo quelibet latera ſimul iuncra reliquo {dropcap:[illegible]|lines=5|style=decorated}ſunt longioza.
+## Propoſitio .21.
 
-¶ Git triãgul' a. b. c. oico q ouo latera.a.b.z a.c.ſũt lõgiora latere bc prrafat uinea. b'a vload dira vra diit cque a ce prrabat le d p.s-crit angulus. a.c.d, cõlis angulo.d. qre angui' b. .d é ma ioy opgulo, d ergo pis latus b.d eſt mail latere. b. cſy b.d.é cqle.a.b.ta.c.qre b'a, t'a.c. ſil uuicta ſt maiora.b.c.
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I de duobus punctis terminalibus vnius lateris triãguli due linee exeuntes intra triangulum ipſum ad punctũ vnũ ꝯueniant eedẽ duabus quidẽ reliquis trianguli lineis bꝛeuiores erunt ⁊ maioꝛẽ angulum continebunt.
 
-## PPropoſitio ai.
+¶Sit vt in triangulo.a.b.c.ab extremitatibus lateris.b.c.concurrant due linee.b.d.⁊.c.d.ad punctũ.d.intra triangulum.a.b.c.dico ꝙ ipſe ſimul iuncte ſũt bꝛeuiores duabus lineis.a.b.⁊.a.c.ſił iunctis ⁊ ꝙ angulus.d.ẽ maioꝛ angulo.a.ꝓtrahã eni.b.d.vſqʒ quo ſecet latus.a.c.in puncto.e.erũtqʒ per.20.b.a.⁊.a.e.ſimul iũcte maioꝛes.b.e.ergo.b.a.⁊.a.c.ſunt maioꝛes.b.e.⁊.e.c. At vero.d.e.⁊.e.c.ſimł iuncte ꝑ eandẽ ſũt maioꝛes.d.c.q̃re.b.e.⁊.e.c.ſunt maioꝛes.b.d.⁊.d.c.⁊ qꝛ.b.a.⁊ a.c.ſunt maioꝛes.b.e.⁊.e.c.vt ꝓbatũ ẽ prius erũt multo foꝛtius maioꝛes.b.d. et d.c.qð ẽ p̃mũ ꝓpoſitum:At qm̃ angulus.b.d.c.eſt maioꝛ angulo.d.e.c.ꝑ.16. et angulus.d.e.c.ẽ maioꝛ angulo.e.a.b.ꝑ eandẽ:erit angulus.b.d.c.multo foꝛti⁹ma ioꝛ angulo.b.a.c.qð ẽ ſcðʒ ꝓpoſitũ.
 
-{dropcap:[illegible]|lines=5|style=decorated}J be bncbns pnncus termnralious vniuns lateris triãguis Sue linee crenntes intra rrian gnlum iplium ad puncru vnu Queniant écde ouabus quidé reliquls trianguli lincis be luiores crunt z maiorẽ angulum continebunt. d oit vtin trangulo a blc ab crremtatiois latens bc concorrant eue linee & dec d ad̀ pmnciu, d'mtra mpangulomn a bc pies g mie fimm imnce ſut bxens lrs prnpuis lneiea p.pacehit uicis e q orpuurs d eminr anguls a. prroapi eni m'a pion quo ſeer uims a.cin pmncis, e crumos per ao ba. aa cfmmmiu ae maiprer e crpo ba ta cimnt moaiorcs b'e. te c. Mt vero à ea et. ſint iuncte p cande ſut maiorco dc qre.b'e. scc funt maioren, b.d d.c.aqub,az ble ſunt mabres b'c c e c.vt poaiu é pnius eruit mnlis fontus maiores b d. ct Ac me pnu npoiumn at oin angppis bad cait maior aropo, de.c. ple c apuiuie d̀ eic émlr auoulo ca bn cude cut anrgrlus ds mio ſoni ma ioranguilo. ba.capéſcoy ppoiiti. Ppropoſitio 2.
+[Margin]
+[Diagram: triangle with apex a and base b.c, interior point d joined to b and c, line b.d extended to point e on side a.c]
+[/Margin]
 
-## [illegible]
+## Propoſitio .22.
 
-Ropoſitis tribus lineis rects quaru oue quelibet ſimul {dropcap:[illegible]|lines=5|style=decorated}iuncte relique ſint longiones è tribns alijs lincis ſibie, qualibus triangulum conſtitncre. (l Cint tres lince recte ppoſite. a.b. c. ⁊ ſint ouciber eue fit iucre lon aiorcs reliq-alit.ncr ilio mnbus cqlibuo tranoul' non poler con Muimi p'ao. oui ger quuils mrius pdicis volo oftimere manguli,ſumnolues reran
+{dropcap:P|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ropoſitis tribus lineis rectis quarũ due quelibet ſimul iuncte relique ſint longioꝛes de tribus alijs lineis ſibi equalibus triangulum conſtituere.
 
-[Diagram]
+¶Sint tres linee recte ꝓpoſite.a.b.c.⁊ ſint quelibet due ſił iũcte longioꝛes reliq̃:aliᷣ.n.ex illis tribus eq̃libus triangul⁹non poſſet conſtitui ꝑ.20.cũ g̃ ex illis tribus p̃dictis volo ꝯſtituere triangulũ:ſũmo lineã rectam que ſit.d.e.cui nõ pono a ꝑte.e.determinatũ finẽ:ð q̃ ſũmo ꝑ.3.d.f.equalẽ.a.⁊.f.g equalẽ.b.⁊.g.h.eq̃lem.c.ſcðqʒ puncto.f.centro deſcribo ſm̃ quantitatẽ linee.f.d. circulũ.d.k.itẽqʒ facto.g.centro deſcribo ſm̃ q̃titatẽ linee.g.h.k.h.q̃ circuli iterſecabunt ſe in duobus punctis quoꝝ vnũ ſit.k.alioquin ſequereᷣ vnã dictaꝝ linearũ eſſe equalẽ alijs duab⁹iunctis aut maioꝛeʒ eis:quod eſt ꝯꝛiũ põni:duco ergo lineã.k.f.⁊.k.g.eritqʒ triangulus.k.f.g.conſtitutus ex tribus lineis eq̃lib⁹ lineis a.b.c.datis:ſũt enim.f.d.⁊.f.k.equales qm̃ ſunt a centro ad circũferentiã quare f.k.ẽ equalis.a.Similiterqʒ.g.h.⁊.g.k.ſunt equales:quia exeunt a centro ad circũferentiam:quare.g.k.eſt equalis.c.⁊ quia.g.f.ſũpta fuit equalis.b.patet ꝓpoſitum manifeſte.
 
-muelit de outno pono a pre e vcremmatu fmers q̃ fomony dſ.couale. a e.ts cnleb. t'a b'cdlen, c l'omy puneio f.centro peſcnbo fm quantitaté lnee.ſ'd. oronli d̀ faieny facio s ccouto peſcenbo fm quate linee ⁊ h.E h aq̃ creu ier, lrprnt le m eui cprs poncus cror vnu ne &' aicynipicourerer na vicayines ru dle crdlé dis ouab’iunctis aut maiore; cio quod cit primn pont eucos crue luci lei. t fg eripys mrangulus fl s conipimius &y irious lnce cqus'ineis be cobio ſiut ouinl' f. d. E.I. E.cculees qi ſunt a contro ad croiſercntã quare Ele ecoualis a coumuites ſ’h g Rſont counleo quia cpcunt a centro ad ciroui fercnrcaur quare. s Leiſt equals c's quia s i,upra fut cole b paic propoii. tum manifeſte.
+[Margin]
+[Diagram: three horizontal line segments labelled a, b and c; below, two intersecting circles with centres f and g on a horizontal line through d, f, g, h and c, intersecting at point k, with lines drawn from f and g to k]
+[/Margin]
 
-## Propoſitio ay.
+## Propoſitio .23.

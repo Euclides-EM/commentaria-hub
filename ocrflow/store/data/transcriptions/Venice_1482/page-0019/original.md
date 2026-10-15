@@ -1,29 +1,27 @@
-{dropcap:[illegible]|lines=5|style=decorated}ninm ouoy trianguloy quoy ouo anguli vnius ouo,
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnium duoꝝ trianguloꝝ quoꝝ duo anguli vnius duobus angulis alterius ⁊ vterqʒ ſe reſpicienti eq̃les fuerint latus quoqʒ vni⁹ lateri alterius equale: fueritqʒ latus illud inter duos angulos eq̃les aut vni eoꝝ oppoſitũ: erũt quoqʒ duo vni⁹reliq̃ latera duob⁹reliq̃s alteri⁹ trianguli laterib⁹ vnũquodqʒ ſe reſpicienti equalia: anguluſqʒ reliquus vnius angulo reliquo alterius equalis.
 
-[Diagram]
+¶Sint duo trianguli.a.b.c. d.e.f.ſitqʒ angulus.b.eq̃lis angulo.e.⁊ angulus.c. equalis ãgulo.f.ſitqʒ latus.b.c.eq̃le lateri.e.f. aut alterũ duoꝝ laterũ.a.b.⁊.a.c. equale alteri duoꝝ laterũ.d.e.⁊.d.f.ita ꝙ.a.b.ſit eq̃le d.e.aut.a.c. d.f.dico ꝙ reliqua duo latera vni⁹erũt eq̃lia reliq̃s duob⁹laterib⁹alteri⁹⁊ reliqu⁹ angul⁹ reliquo angulo eq̃lis:ãgul⁹vʒ.a.ãgulo.d.ponã ergo p̃mo vt lat⁹.b.c.ſup qð iacent anguli b.c.ſit eq̃le lateri.e.f.ſup qð iacent anguli.e.f.qui poſiti ſũt eq̃les angulis.b.c.tũc dico ꝙ latus.a.b.eſt eq̃le lateri.d.e.⁊ latus.a.c.lateri.d.f.⁊ angulus.a.angulo.d Si.n.latus.a.b.non ſit equale lateri.d.e.alterũ erit maius: ſit ergo mai⁹.d.e. qð reſecabo ad equalitatẽ.a.b.ſitqʒ.g.e.equale.a.b.⁊ ꝓducã lineã.g.f.eritqʒ per.4. angulus.g.f.e.eq̃lis angulo.a.c.b.q̃re ⁊ angulo.d.f.e.ps toti quod ẽ ipoſſibile: erit ergo.d.e.eq̃le.a.b.ergo p.4.d.f.eq̃le.a.c.⁊ angulus.d.eq̃lis angulo.a.qð eſt p̃mũ mẽbrũ diuiſiõis ꝓpoſite: Sint rurſus vt pꝛi⁹ duo anguli.b.⁊.c.eq̃les duobus angulis.e.⁊.f.ſitqʒ latus.a.b.quod opponiᷣ angulo.c.eq̃le lateri.d.e.qð opponiᷣ angulo.f.cui poſitus ẽ eq̃lis angulus.c.dico ꝙ latus.b.c.erit eq̃le lateri.e.f ⁊ latus.a.c.lateri.d.f.⁊ angulus.a.angulo.d.Si.n.latus.e.f.nõ fuerit equale lateri.b.c.erit alterũ maius:ſit ergo.e.f.maius:ponaᷣ itaqʒ.e.g.eq̃le.b.c. ⁊ ꝓducã lineã.d.g.eritqʒ p.4.angulus.d.g.e.equalis angulo.a.c.b.q̃re ⁊ angulo.d.f.e. extrinſec⁹videlʒ itrinſeco qð ẽ ipoſſibile:p.16.erit ergo.e.f.eq̃le.b.c.ergo p.4.latus.d.f.equale lateri.a.c.⁊ angulus.d.totalis angulo.a.qð ẽ ſcðm mẽbꝝ diuiſionis ꝓpoſite:q̃re totũ manifeſte pʒ.
 
-bus angulis alterius z vterqz ſe reſpicienti eqles fuerint latns quoqz vniꝰ lateri alterius cquale: fueritoz latus il, Iud inter ouos angulos eq̃les aut vni eoy oppoſitũ: crũt quoqz duo vniꝰ reliq̃ latera duobꝰreliqs alter? trianguli lateribꝰ vnuquodqz ſe relpicienti equalia: anguluſqz reliquns vni us angulo reliquo alterins equalis.
+[Margin]
+[Diagram: two triangles; the left with apex d and base through e, g and f, with interior lines drawn from d to g and f; the right with apex a and base from b to c]
+[/Margin]
 
-¶ Sint ouo trianguli, a. b.c. d.e. f.ſitoy angulus.b. cq̃lis angulo.e.2.angulus. c. cqualis ãgulo. f. ſitoz latus. b.c.cq̃le lateri.e. f. aut alterũ ouoy laterũ. a.b.2.a.C. cquale altcri ouoy laterui. d.e..d.f.ita ꝙ. a.b. ſit eqle d.e. aut.a.c. d.f.oico qre, liqua ouo latcra vni'crũt cq̃lia rcliq̃s ouob latcrib’alteriꝰe reliqu angulꝰ rcliquo angulo cõlis: ãgulꝰvz, a.ãgulo. d. ponã ergo pmo vt latꝰ. b.c.ſup qo iacent angnli b.c. ſit cq̃le lateri.c.f.ſup qo iacent anguli. c.f. qui poſiti ſũt eq̃lcs angulis.b. c.tũc oico ꝙ latus. a.b. eſt cõle lateri. d.e. z latus. a.c. latcri. d.f.⁊ angulus. a. angulo. d Oin latus.a.b. non ſit cquale lateri. d.c. alterũ crit mains: ſit ergo malꝰ d.e. qo reſccabo ad equalitatẽ. a.b.ſitoy.g-c.cquale.a. b.c ꝓducã lincã. g.f.criic per. a¬ angulus. g. f.. eq̃lis angulo. a.C.b. q̃re z angulo. d.f.e. ps tori quod ẽ ipoſſibile: crit ergo.d.e.eq̃le.a. b.ergo p.a.d.f.cqle.a.c.c angulus. d.cqlis angulo.a.qo eſt pmu mebi oiniſiois ppoiitc: Sint rurſus vr pul' cuo anguli. b. z c cq̃les ouoꝰ bus angulis.e. . f.ſitqy latns.a.b. quod opponit angulo. c, eq̃le latcri.d.c. aq op ponit angulo. f.cui politus é cq̃lis angulus. c. oico q latns. b.c ert cq̃le laten e.f z latus. a. c.latcri.O. f.T angulus. a.angulo. d.Oi.n. latns. c.f. nõ fucrit cquale la, teri.b.c.erit altcrii mains:ſit ergo.c.f.mains: ponar iragy-e.s-cq̃le.b.c.
+## Propoſitio .27.
 
-¶ ꝓducã
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I recta linea ſup duas lineas rectas ceciderit duoſqʒ angulos coalternos ſibiĩuicẽ equales fecerit ille due linee erũt equidiſtantes.
 
-[Diagram]
+¶Sit vt linea.a.b.cadat ſuper duas lineas.c.d.⁊.e.f.⁊ ſecet lineã c.d.in puncto.g.⁊ lineam.e.f.in puncto.h.ſitqʒ angulus.d.g.h. eq̃lis angulo.e.h.g.dico ꝙ linee.c.d.⁊.e.f.ſũt eq̃diſtãtes. Si.n.nõ ꝯcurrant aut ad ptẽ.c.e.ſup pũctũ.k.aut a pte.d.f.ſup pũctũ.l.⁊ q̃litercũqʒ fuerit accidet ipoſſibile p.16.videlʒ angulũ extrinſecũ eẽ eq̃lẽ itrinſeco:nã vn⁹ dictoꝝ anguloꝝ coalt̃noꝝ q̃ poſiti ſt̃ eq̃les erit extrinſec⁹⁊ reliquus intrinſec⁹:qꝛ igiᷣ ipoſſibile ẽ eas ꝯcurrẽ i alterutrã ptẽ ꝓtractas ipſe ꝑ diffinitõem erũt eq̃diſtãtes:quod eſt ꝓpoſitum.
 
-lincã.d.g-critqy p-a4 angulus. d.g.c.cqualis angulo. a.c.b.qre ⁊ angulo. d.f.c. cytrinſec vidclz imrinſcco qo ẽ ipoſſibile: p.is.erit crgo. c.f. cq̃le. b.c. crgo p'a lar tuo.d.f.cqualc lateri a.c. c angunlus. d. toialis angulo. a. qp eſcoim meby viuiſior
+[Margin]
+[Diagram: line from a to b crossing two lines which converge to point k on the left and point l on the right, passing through points c, g and d above and e, h and f below]
+[/Margin]
 
-## [illegible]
+## Propoſitio .28.
 
-## [illegible]
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I linea recta duabus lineis rectis ſupuenerit fueritqʒ angulus eius itrinſecus angulo extrinſeco ſibi oppoſito equalis aut duo anguli itrinſeci ex vna parte duob⁹ angulis rectis eq̃les ille due linee equidiſtantes erunt.
 
-## [illegible]
+¶Sit vt linea.a.b.ſecet duas lineas.c.d.⁊.e.f.i pũcto g.⁊.h.ſitqʒ angulus.g.extrinſecus equalis angulo.h.intrinſeco ex eadem parte ſumpto :aut duo anguli.g.⁊.h.intrinſeci ex eadeʒ parte ſumpti ſint equales duobus angulis
 
-nis ppolitc: q̃re totũ manifeſte pz. Vropolitio 27. {dropcap:[illegible]|lines=5|style=decorated}Jrecta linea fup ouas lineas rectas çeciderit onoſoz an, gulos coalternos ſibiinicẽ cquales fecerit illc onc linee crũt equidiſtantes.
-
-¶ Sit vr linca. a.b.cadat ſuper ouas lincas. c.d.z. c.f.e ſccet lincã l. d. in puncto. g-z lincam.e. f.in puncto. b. ſitay angulus. d.g.h. cq̃ lis angnlo, e.b.g-oico g lince. c.d.t e.f. ſut eoditates. Sl n,nõ ocurrant aur ad ptẽ cie ſup piicti. l. aut a pte.d.f.ſup pucti. l.e qlitciqy fucrit accider ipoffibile n. is videlz angulĩ extrinſccũ cé cq̃le itrinſeco: nã vn’ oictoy anguloy coaltnoni q poini ſt eqles crit cyrrinſec'e rcliquus intrinſcc': qigit ipoſſipile é cas veurẽ i'aliertra pré prractas ipſe p oiffinitoem eruit cõdifatco: quod eſt ppoſitum.
-
-## Propoſitio as.
-
-{dropcap:[illegible]|lines=5|style=decorated}J linea recta ouabus lineis rectis ſupnenerit fucritoz angulns eins itrinſecns angnlo ertrinſeco ſibi oppoſitõ equalis aut ouo anguli irrinſeci er vna parte ouobꝰ an gulis rectis eq̃les ille oue linee cquidiſtantes crunt.
-
-¶ Git vt linca. a. b. ſccet onas lincas. c.d.2.c.f.i pũcto g. z.h. ſito; angulus. g. eyrrinſccus cqualis angulo. b. intrinſeco cy cadem partc ſumpto :aut ono anguli.g.2.h.intrinſcci cy cadez parte ſumpti ſint cqualcs ouobus angulis
+[Margin]
+[Diagram: line from a to b crossing two horizontal parallel lines, c.d at point g and e.f at point h]
+[/Margin]

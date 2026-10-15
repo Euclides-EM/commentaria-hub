@@ -1,29 +1,25 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: XI -->
 
-[Diagram]
+## Propoſitio .10.
 
-## Propoſitio .1o.
+{dropcap:S|lines=4|style=decorated|decoration="white foliate ornament on black ground"}I due linee ſe angulariter contingentes duabus alijs ſe cõtingentibus eis oppoſitis equidiſtantes fuerint:nõ aũt in ſuperficie vna qui ab eis fiunt duo anguli eque ſibi inuicem eſſe comprobantur.
 
-{dropcap:[illegible]|lines=5|style=decorated}Y oue linee le angulariter contingentes ouabus alijs ſe cõtingentibus eis oppolitis equidiffantes fuerint mõ aut din fuperficie vna qui ab eis fiunt ouo anguli cque ſibi inni cem eſle comprobantur.
+¶Sint due linee.a.b.⁊.a.c.ſe angulariter contingentes in puncto.a equidiſtantes alijs duabus que ſunt.d.e.⁊.d.f.ſe quoqʒ angulariter contingentibus in puncto.d.nec ſint cum eis i ſuperficie vna:dico angulũ.a.eſſe equalẽ angulo.d.Eſto eni linea.d.e.equalis linee.a.b.cui ipſa poſita eſt eſſe equidiſtans.⁊.d.f.equalis.a.c.cui etiã ipſa equidiſtare poniť ⁊ ducanť linee.d.a.⁊.e.b.⁊.f.c.eritqʒ ex.33.primi bis aſſumpta vtraqʒ duaꝝ lineaꝝ.b.e.⁊.c.f.equalis ⁊ equidiſtans linee.a.d.per conceptionẽ igitur ⁊ premiſſam eedẽ ſunt equales ⁊ equidiſtantes ſibi inuicem.⁊ itaqʒ per.33.primi denuo repetitã due linee.b.c.⁊.e.f.ſunt etiã equales ⁊ equidiſtãtes:igiť per.8.primi cõſtat ꝓpoſitũ.
 
-¶Sint oue lince:a. b.2.a.c. ſe angulariter contingentes in puncto.a cquidiſtantes alijs ouabus que ſunt. d.c.z. d.f. ſe quoqz angulariter contingenti? bus in puncto. d nec ſint cum eis i ſuperficie vna: pico angulũ.a.eſſe cquale anaux lo. d.Eſto eni linca.d.c. equalis linee.a.b-cui ipſa poſuta eſt eſſe cquidiſtans. d. L.cqualls. a.c cui eriã ipſa cquidiſtare ponit c oucant lince.d.a.4.e.b.2. f.c. eritos cr.i3 primi bis aſſumpta yrra ouay lineay. b.e.⁊.e.t.cqualis ⁊ cquidiſtans ly nee. a.d.per conceprioné igitur z premiſſam cedẽ ſunt cquales ⁊ equidiſtantea ſi bi inuiceni.z ita per.33 primi oenuo repctitã oue lince. b.c.z.e.f. ſunt etiã cqua les z equidiſtãtes:igit per.s. primi cõſtat vpoſitũ.
+[Figure: triangle with apex a above points c, d and b, with lines descending from c, d and b to points f and e below]
 
-## ropoſitio .11.
+## Propoſitio .11.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mncto in aere aſſignato ab co ad oatam iuperficiem per, pendicularem oucere
+{dropcap:P|lines=4|style=decorated|decoration="white foliate ornament on black ground"}Uncto in aere aſſignato ab eo ad datam ſuperficiem perpendicularem ducere
 
-[Diagram]
+¶Sit punctus.a.ſurſum in aere a quo volumus ad ſuperficiẽ ſubiacentem perpendicularem ducere:ducať igitur in plano illo:linea.b.c vtcũqʒ cõtigerit ad quã ab ipſo puncto.a.ducať perpẽdicularis.a.d ſcõm doctrinã.12.primi rurſuſqʒ a puncto.d.in plano illo ad qꝺ ducenda eſt perpendicularis a puncto.a.extrahať linea.d.e.que ſit perpendicularis ad lineã.b.c vt docet.11.primi.Ad hanc quoqʒ lineã.d.e.ducať alia linea perpẽdicularis a puncto.a.que ſit.a.f.hanc dico eſſe eã quã intẽdim⁹.Sit eni linea.f.g.equidiſtãs linee b.c.⁊ qꝛ vterqʒ duoꝝ anguloꝝ.b.d.a.⁊.b.d.f.eſt rectus: erit ex quarta hui⁹ linea b.d.perpendicularis ad ſupficiẽ in qua eſt triangulus.a.d.f.ideoqʒ etiã ꝑ.8.hui⁹ erit linea.g.f.ppendicularis ad eandẽ ſuperficiẽ:igiť a diffinitione erit angulus.g.f.a.rectus:cũqʒ etiã angulus.d.f.a.ſit rectus:ſequiť ex quarta huius lineã.a.f.eſſe ppendicularẽ ad ſuperficiem in qua ſunt due linee.d.f.⁊.f.g.qꝺ eſt propoſitum
 
-¶oit punctus. a. ſurſum in aere a quo volumus ad ſuperficie ſubia? centem perpcndicularem oucere: oucut igitur in plano ilorlinea. bc vicuqy cotigerit ad quà ab iplo puncio.a. oucar perpedicularis.a à ſcom poctrinã.i2 primi ruriuſay a puncto. d.in plano illo ad qb oucenda eſt per? pendicularis a puncto.a.cytrabat linca.d.e, que ſit perpcndicularis ad lincã .b.c vt oocct.u primi. Md banc quoqy lincã.d.c. oucar alia linca perpedicnlaris a pun cto.a.que ſit.a.f. hanc bico eiſe cã quã intédim' Sit eni linea.f.s.cquidiſtãs lince b.c.* qu vteras ouoy angulop.b. d.a.2.b. d.f. eſt rectus: erit cr quarta buiꝰ linca b.d. perpendicularis ad ſupficié in qua eſt triangulns. a. d.f.idcoay ctiã p.8. buiꝰ erit linea.g f, ppendicularis ad cande ſuperiicié :igit a oiffiitione crit angulus.s La rectus: cũy etiã angulus. d.f.a. ſit rectus: ſequit ey quar, a buius lineã. a.f, eſſe rpendicularé ad ſuperficiem in qua ſunt oue lince. d.f.2.f.s-qb eſt propolitum
+[Figure: horizontal line b d c at bottom, vertical line from d to e, horizontal line g f, and oblique lines from a to f and from a to d]
 
-## Propoſitio .1.
+## Propoſitio .12.
 
-{dropcap:[illegible]|lines=5|style=decorated}aperficie ppoura punciodz in ea allignato ab eo puncto lad oatam ſuphciẽ lincã ortbõgonaliter erigere.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Uperficie ꝓpoſita punctoqʒ in ea aſſignato ab eo puncto ad datam ſupficiẽ lineã orthogonaliter erigere.¶Cũ a puncto quolibet in ſuperficie ꝓpoſita aſſignato ppendicularem educere libuerit a quolibet puncto ſurſum in aere ad libitum poſito ad eandẽ ſupficiẽ ppẽdicl'arẽ quẽadmodũ p̃miſſa docuit demittere que ſi i aſſignatũ punctũ ceciderit ipſa ẽ quã queris. Sin aũt ab ipſa aſſignato pũcto ad demiſſã perpendicularẽ equidiſtantem ducito:eã qʒ per.8.huius probabis eẽ quam queris.
 
-¶Lu a pon cio quoliber in ſuperficie ppoſia allignato ppencicularem educere Qoncrt a quci bet puncto iuron in acre ad uoitnm poiio ad cnnde ſupficie ppẽdiclare qucadmos pmiſſa oocuit deinirrere que ſi i aſſil gnatũ punctũ ceciderit ipla é quã queris Sin aũt ab ipſa aſſignato pũcto ad oe? muilà perpendicularé cquidiſtanten oucito ca as per. s huius probabis cé quam Iqueris.
+## Propoſitio .13.
 
-## Propoſitio ,ui3
-
-{dropcap:[illegible]|lines=5|style=decorated}das lincas ſuper pucru vuu ad iupficiẽ vnã ortbogonali ter iſiſtere e ipoſſibileẽ. ( Si cni polſibile e vr oue lince vn eide
-
-Pppendiculares ſite ſut ireligar pduci quouſoy ſecet ſupficié cui picie. iince ppondou'arter iliſtut eritoy per,; bui' comunis cay ſecrio iinca reciuse o cr oiffinitione vtraq illay ouaru perpendicularu ci cõmuni ſectionc cõtner an? gulum rectu ſeouitur ut angnlus rect) ſit ps angult recti qb eſt impollibile. Quend modus aut conontratu et inpoſſiboie ele as tuo codemn puneto crra ugfcien
+{dropcap:D|lines=4|style=decorated|decoration="white foliate ornament on black ground"}Uas lineas ſuper pũctũ vnũ ad ſupficiẽ vnã orthogonaliter iſiſtere ẽ ipoſſibileẽ.¶Si eni poſſibile ẽ vt due linee vni eidẽqʒ ſupficiei ſup punctũ vnũ ppendiculariter inſiſtãt ſupficies i q̃ ipſe ppendiculares ſite ſũt itelligať ꝓduci quouſqʒ ſecet ſupficiẽ cui dicte linee ppendiculariter iſiſtũt eritqʒ per.3.hui⁹ cõmunis eaꝝ ſectio linea recta:⁊ qꝛ ex diffinitione vtraqʒ illaꝝ duarũ perpendicularũ cũ cõmuni ſectione cõtinet angulum rectũ ſequitur ut angulus rect⁹ ſit ps anguli recti qꝺ eſt impoſſibile.Quẽadmodũ aũt demonſtratũ eſt impoſſibile eſſe ab vno eodem puncto extra ſupficiem

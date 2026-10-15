@@ -1,43 +1,20 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-onplo ſupcrficiei vnlꝰ in alterã quarc tam ipliũ quadratũ q̃z latus eiꝰ a.c. ẽ irrõna le poiffinirioné oſtat ergo ppolitũ Oo queadmodũ i pmiſſa ſi libet potes occla, rare eréplariter i ſigura
+duplo ſuperficiei vni⁹ in alterã quare tam ipſũ quadratũ q̃ʒ latus ei⁹.a.c.ẽ irrõnale ꝑ diffinitionẽ ꝯſtat ergo ꝓpoſitũ Qꝺ quẽadmodũ i p̃miſſa ſi libet potes declarare exẽplariter i figura ¶Aliter idẽ ſic:ſit linea.d.e.rõnalis i lõgitudine:cui adiũgatur ſupficies.d.f.equalis duplo ſupficiei vnius in alterã ⁊ ſupficies.g.e.equalis ambobus quadratis pariter acceptis.eritqʒ p.7.ſcꝺi ſupficies.f.g.equalis quadrato linee.a.c.cũ itaqʒ.ꝑ.ypotheſi ſit ſupficies.e.g.medialis erit p.20.linea.d.g.rationalis in potentia tm̃. Cũ vero ſit ſupficies.e.h.rõnalis ꝑ ypotheſim erit ex.16.linea.d.h.rõnalis in longitudine:itaqʒ per.68.linea.g.h.eſt reſiduũ ⁊ irrationalis ideoqʒ p.16.a deſtructione ꝯñtis ſuperficies.f.g.eſt irrõnalis ⁊ eius latus tetragonicum quod eſt.a.c.eſt irrationale.Et ſic patet propoſitum.
 
-¶Aliter idẽ ſic: ſit linea. d.e. rõnalis i lõgitudine: cui adiũ gatur ſupficies. d.f. equalis oupls ſupficiei vnius in alterã z ſupficies.g.e. cqualis ambobus quadratis pariter acceptis. critaz p.7. ſcoi ſupficies. f.g.equalis quadra to linee. a.c. cũ itadz.p.ypotbeſi lit ſupficics.e. g- medialis crit p.2o-linea. d.g. ra tionalis in porentia tm. Lũ vero ſit ſuplicics. C.b. rõnalis p ypotbeſim erit cy. 16. linea. d.h. rõnalis in longitndine: itay per. os.linea.g.b. eſt reſiduũ z irrationalis ideo p.is. a peſtructionc oiitis ſuperficies.f.s. eſt irrõnalis ⁊ eius latus tetra, gonicum quod eſt. a.c. eſt irrationale. Et lic patet propolitum.
+## Pꝛopoſitio .70.
 
-## Propoſitio 7.
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linea de linea ſecetur fuerintqʒ ambe mediales potentialiter tantũ cõmunicãtes cõtinenteſqʒ mediale:reliqua linea erit irrõnalis dicet̃qʒ reſiduũ mediale ſecundum.
 
-{dropcap:[illegible]|lines=5|style=decorated}J linea de linea ſecetur fucrintqz ambe mediales poten,
+[Figure: horizontal line segment with a at the left, c in the middle and b at the right]
 
-[Diagram]
+[Figure: tall rectangle with g at the top left corner, a dividing line near the top with h at the left and f at the right, and d and e at the bottom corners]
 
-[Diagram]
+¶Sit hic quoqʒ linea.b.c.abſciſa ex linea.a.b.vterqʒ autẽ.a.b.⁊.b.c.ſint vt proponitur ⁊ ipſe p.26.reperiunt̃ ⁊ ſunt que cõponunt bimediale ſcꝺm:dico ꝙ linea reliqua que eſt.a.c.ẽ irrõnalis ⁊ ipſa dicit̃ reſiduũ mediale ſcꝺm.Sunt enĩ ex ypotheſi ⁊.21.ambo quadrata duaꝝ lineaꝝ.a.b.⁊.b.c.pariter accepta mediale.ſilꝛ quoqʒ duplũ ſuperficiei vnius in alterã ẽ mediale.Cum itaqʒ ex.22.mediale nõ differat a mediali niſi i irrõnali:erit quadratum linee.a.c in quo p.7.ſcꝺi duo quadrata.a.b.⁊.b.c.pariter accepta excedunt duplũ ſupficiei vnius in alterã irrõnale quare ⁊ linea.a.c.irrõnalis. Figurali quoqʒ exemplo patefieri põt iſtud ut pꝛi⁹.Si enĩ ſit.c.g.eq̃lis ambob⁹ quadratis.a.b.⁊.b.c.ſilꝛ ⁊.d.f duplo ſupficiei vnius in alterã erit.f.g.p.7.ſcꝺi equalis quadrato.a.c.que cum ſit differentia ſupficiei vnius medialis.c.g.ad ſupficiẽ medialẽ.d.f.ipſa eſt irrationalis per.22.⁊ ei⁹ tetragoicũ lat⁹.a.c.irrõnale. ¶Idẽ aliter Sit linea.d.e.rõalis cui adiungat̃ ſupficies.d.f.equalis duplo ſupficiei vnius in alterã ⁊.e.g.equalis ambobus quadratis piter acceptis.eritqʒ p.7.ſcꝺi.f.g.equalis quadrato.a.c.qꝛ vero e.g.eſt medialis erit ex.20.linea.d.g.in potentia tm̃ rõnalis. Silꝛ quoqʒ.cũ.e.h.ſit medialis erit ex eadẽ linea.d.h.rõnalis:ſilꝛ in potentia tm̃. Et qm̃.a.b.⁊.b.c.ſunt incõmenſurabiles in longitudine ideoqʒ quadratũ vtriuſqʒ eaꝝ ſupficiei vni⁹ in alterã:⁊ propter hoc ambo quadrata pariter accepta cum ipſa ex ypotheſi communicent.ſũt quoqʒ incõmenſurabiles duplo ſupficiei vnius in alterã:ſequit̃ vt.e.g.ſit incõmenſurabilis.h.e.qua ꝓpter linea.d.g.linee.d.h.igit̃ ex.68.linea.g.h.ẽ reſiduũ ⁊ irrõnalis.ideoqʒ per.16.a deſtructione ꝯñtis ſupficies.f.g.irrationalis.⁊ eius latus tetragonicũ.a.c.irrõnale.
 
-[Diagram]
+## Pꝛopoſitio .71.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linea de linea detrahat̃ fueritqʒ ambe potentialiter incõmenſurabiles cõtinenteſqʒ mediale quadrataqʒ earum ãbo piter accepta rõnale:reliqua linea erit irrõnalis vocabiturqʒ minoꝛ.¶Si ſint.a.b.⁊.b.c.q̃les ꝓponit̃ que p.27.repiriuntur ⁊ ꝯponũt lineã maioꝛẽ erit linea.a.c.irrõnalis ⁊ ipſa eſt q̃ dicit̃ linea minoꝛ:qꝺ qui p̃miſſa firmiter tenuerit poſitioneſqʒ diligenter attenderit duplici modo vt antecedentes facile probabit.
 
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-ialirer tantũ cõmunicãtes cõtinentesqz mediale: reliqua linea crit irrõnalis dicetqz reſiduũ mediale ſecundum.
-
-[Diagram]
-
-¶ Sit bic quoz linca. b.c.abſciſa cx linca.a.b.vtcrqy autẽ. a. b. 2.b: lc.ſint vt proponitur zipſe p.as. repcriunt z ſunt que cõponunt bis medialc ſcomn: oico ꝙ linea reliqua que eſt.a.c.é irrõnalis z ipla oicit reſiduũ me? diale ſcom. Gunt eni ex ypotbeſi z.21.ambo quadrata ouay lineay. a. b. 2.b.c. pa riter accepta mediale. ſillr quoaz on plũ ſuperficici vnius in alterã ẽ mediale. Lum itaqs ey. 22. medialc nõ oifferat a mediali niſi i irrõnali: crit quadratum lince.a. c in quo p.7. ſcoi ouo quadrata.a. b. 2. b.c. paritcr accepra ercedunt ouplũ ſupficiei vnius in alterã irrõnale quare ⁊ linea. a. c.irrõnalis. Sigurali quoaz eremplo paꝰ teficri põt iſtud ut prꝰ Si cni ſit.c.g.eq̃lis ambob quadratis.a.b.2. b.c. ſilz. d.f ouplo ſupficiei vnins in alterã crit.f.g.P.x. ſcoi equalis quadrato. a. c. que cum ſit oifferentia ſupficiei vnius medialis. c.g.ad ſupficiẽ medialẽ. d.f.ipla eſt irrationa lis per.22-⁊ ciꝰ tetragoicũ latꝰ. a.c. irrõnale.
-
-¶Jdẽ aliter Sit linea. d.e rõalis cui adiungat ſupficies. d.f. cqualis ouplo ſupficici vnius in alterã z. e.g. cqualis am bobus quadratis pirer acccptis. eritaz p.7.ſcoi. f.g.cqualis quadrato.a.t. qu vero e.g.eſt medialis erit ey. 2o.linea. d.g.in potentia tm̃ rõnalis. Silr quoqyz-cũ.e.b. lit medialis crit er eadẽ linca. d.b. rõnalis: ſilr in potentia tin. Et qm. a.b.2.b.6. funt incõmenſurabiles in longirudine idcooy quadratũ vrriuſoz ea y ſupficiei vniꝰ in alrcrã: ⁊ proptcr boc ambo quadrata pariter acccpta cun ipla cx yporbeſi com municent. ſũt quoz incõmenſurabiles ouplo ſupficiei vnius in alterã : ſcquit vt.e s.ſit incõmenſurabilis. b.e. qua pprcr linea.d.g linee. d.b.igir er. os-linca.gh.ẽ reliduũ z irrõnalis. ideoaz per.is. a oeſtructione oũtis ſupficies. f.g.irrationalis. ⁊ eius latns tetragonicũ. a.c.irrõnale., ropoſitio .71.
-
-## [illegible]
-
-{dropcap:[illegible]|lines=5|style=decorated}J linea de linea detrabat fueritoz ambe porentialiter in cõmenſurabiles cõtinenteſqz mediale quadrataqz earum ãbo piter accepta rõnale: reliqua linea erit irrõnalis voca biturq3 minoz.
-
-¶Gi ſint.a.b.2.b.c. q̃les pponir que p.a2r repi? luntur s oponũt lincã maioré erit linea.a.c.irronalis cipla eſt q̃ oiꝰ cit linea minor: qo qui pmiſſa firmiter tenuerit poſitioneſaz oiligenter artenderit ouplici modo vt anteredentes facile probabit. Propoſiuo n
-
-## [illegible]
-
-<!-- Signature: [illegible] -->
+<!-- Catchword: Pꝛopoſitio 72 -->
+<!-- Signature: l 4 -->

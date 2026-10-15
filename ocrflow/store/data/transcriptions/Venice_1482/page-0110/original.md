@@ -1,33 +1,33 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-le.tota pars.f.quota eſt.a.b. tota enim crat.e. s, quod eſt propolitum. Propoſitio s {dropcap:[illegible]|lines=5|style=decorated}J a ouobus numeris quorum alter alterins partes pror politis partes ille ſubtrabãtur: erit reliquus reliqui cedẽ partes qui eſt totus totius.
+e.tota pars.f.quota eſt.a.b.tota enim erat.e.g.quod eſt propoſitum.
 
-[Diagram]
+## Propoſitio 8
 
-dbec et quaſi couerſa ſerte: vt ſi ſit quot z quote pres eſt totus. a. otins.b. tot z toic.c. betractus ab. a.d.petracti.a.b. crit.c.rcſiduꝰ a tor ⁊ tote pres. f. reſidui.b. quot z quote ẽ.a.b. Oit eni. g- vna ptiũ. a.. b. vna par tium.c.eritoz ppter ppotb.g.tota ps.a. quora.b.c.z tora.b. quota. b.d.octrabat igitur.b. oc.S.t remancat. R eritqy l.p pmiſſã tota pars.e. quora.s.a.z tota.f.p candẽ quora. g.b. quia igitur.c. 2.f. babent pare cõmunẽ que ẽ. R.erit per.is-oif, finitionc.e. ptes. f. tot quidẽ quota pars eſt. l.e. z tote quora eſt.E.f. z quia tot ct tore erat. a.b. patet propolitum.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I a duobus numeris quorum alter alterius partes propoſitis partes ille ſubtrahãtur:erit reliquus reliqui eedẽ partes qui eſt totus totius.
 
-## Propolitio 9
+¶Hec eſt quaſi cõuerſa ſexte:vt ſi ſit quot ⁊ quote ptes eſt totus.a.totius.b.tot ⁊ tote.c.detractus ab.a.d.detracti.a.b.erit.e.reſiduꝰ.a.tot ⁊ tote ptes.f.reſidui.b.quot ⁊ quote ẽ.a.b.Sit eni.g.vna ptiũ.a.⁊.h.vna partium.c.eritqʒ ꝓpter ypoth.g.tota ps.a.quota.h.c.⁊ tota.b.quota.h.d.detrahat̃ igitur.h.de.g.⁊ remaneat.k.eritqʒ.k.ꝑ p̃miſſã tota pars.e.quota.g.a.⁊ tota.f.ꝑ eandẽ quota.g.b.quia igitur.e.⁊.f.habent partẽ cõmunẽ que ẽ.k.erit per.16.diffinitionẽ.e.ptes.f.tot quidẽ quota pars eſt.k.e.⁊ tote quota eſt.k.f.⁊ quia tot et tote erat.a.b.patet propoſitum.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint quatuoz numeri quox primꝰ ſcoi tota ps quota tertius quarti:erit pmutatim tota ps aut ptes primus ter, tij quota pars aut partes ſecundus quarti.
+[Diagram: horizontal segments with numerals 18, 6, 12 and 4 and letters b, f, a, g, d, e, c, k and h]
 
-¶ Oit. a primus tora pars.b. ſcoi quora. c. tertius. d.quarti. ſintoy a
+## Propoſitio 9
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quatuor numeri quoꝝ primꝰ ſcꝺi tota ps quota tertius quarti:erit ꝑmutatim tota ps aut ptes primus tertij quota pars aut partes ſecundus quarti.
 
-l z.b.minores.c.z.d.aliter eni ellet econuerſo ci qo proponit. oico q quora pars vel ptes eſt. a.c. tora vel tote eſt. b.d. oiuidant eni. b. quidc bm quãti, tatẽ.a.d. vero bm.c. eruntoaz per, preſentem ypoib. tot partes.b. quot. d.z qr vna? quey ptium. b.eſt equalis. a.z vnaq̃qy.d.c. eſt auté. a.c.ps aut ptes per preſentẽ yporb. z per quatuor erit vnaqas partium. b. ſue cõparis cx partibus. d.ut prima prime ſcoa ſcce: ſicoy de ceteris tora ps aut ptes quora vel quore eſt.a.c.per.5.igi tur vel.s.ſub oiſiunctionc quotiens oportuerit repetiras: erit tora pars aut ptes b.d qnota vel quote eſt.a.c. quod eſt propoſitum.
+¶Sit.a.primus tota pars.b.ſcꝺi quota.c.tertius.d.quarti.ſintqʒ.a.⁊.b.minores.c.⁊.d.aliter eni eſſet econuerſo ei qꝺ proponit̃.dico ꝙ quota pars vel ptes eſt.a.c.tota vel tote eſt.b.d.diuidant̃ eni.b.quidẽ ſm quãtitatẽ.a.d.vero ſm.c.eruntqʒ per preſentem ypoth.tot partes.b.quot.d.⁊ qꝛ vnaqueqʒ ptium.b.eſt equalis.a.⁊ vnaq̃qʒ.d.c.eſt autẽ.a.c.ps aut ptes per preſentẽ ypoth.⁊ per quatuor erit vnaq̃qʒ partium.b.ſue cõparis ex partibus.d.ut prima prime ſcꝺa ſcꝺe:ſicqʒ de ceteris tota ps aut ptes quota vel quote eſt.a.c.per.5.igitur vel.6.ſub diſiunctione quotiens oportuerit repetitas:erit tota pars aut ptes b.d.quota vel quote eſt.a.c.quod eſt propoſitum.
 
-## Propoſitio io
+[Diagram: two horizontal segments labelled b and d with shorter segments labelled a and c beneath]
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint quatuoz numeri quoy primus tote pres ſecũde quote tertius quarti:erit pmutatim primus tota pars aut
+## Propoſitio 10
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quatuor numeri quoꝝ primus tote ptes ſecũde quote tertius quarti:erit ꝑmutatim primus tota pars aut partes tertij quota vel quote ſecundus quarti.
 
-partes tertij quota vel quote secundus quarti. d Sint quatuor numeri ut prius quoy ſimilirer minores fint. a.ct l.b. ſitqy.a. tote ptes. b. quotc.c. eſt. d. oico ꝙ quora pars aut pres eſt. a.c. tora vel tote eſt.b. d-oiuidantur enim minores iu partcs illas qui ſunt.a. 4..eruntoz per preſentẽ ypoib. tor partes. a. quot. c.z quia vnaqz ey partibus. a eſt tota pars.b. quota quelibct ey ptibus. c. eſt. d. boc eui babemus ey nra ypotbe. crit permutatim per premiſſam:ut quota pars aut ptes ẽ. b.d.tora vel tote ſit vna õz er partibus. a. ſue cõparis er partibus. c.p quintã igitur vel.s. ſub oiſiunctiõe quotiens oportucrit reperitas: erit tota pars aut ptes.b.d. quota vel quote ẽ.a.c. Propoſitio .u.
+¶Sint quatuor numeri ut prius quoꝝ ſimiliter minores ſint.a.et.b.ſitqʒ.a.tote ptes.b.quote.c.eſt.d.dico ꝙ quota pars aut ptes eſt.a.c.tota vel tote eſt.b.d.diuidantur enim minores in partes illas qui ſunt.a.⁊.c.eruntqʒ per preſentẽ ypoth.tot partes.a.quot.c.⁊ quia vnaq̃qʒ ex partibus.a.eſt tota pars.b.quota quelibet ex ptibus.c.eſt.d.hoc eni habemus ex nr̃a ypothe.erit permutatim per premiſſam:ut quota pars aut ptes ẽ.b.d.tota vel tote ſit vnaq̃qʒ ex partibus.a.ſue cõparis ex partibus.c.ꝑ quintã igitur vel.6.ſub diſiunctiõe quotiens oportuerit repetitas:erit tota pars aut ptes.b.d.quota vel quote ẽ.a.c.quod eſt propoſitum
 
-## [illegible]
+[Diagram: two horizontal segments labelled b and d with shorter segments labelled a and c beneath and numerals 5, 6 and 7]
 
-quod eſt propoſitum {dropcap:[illegible]|lines=5|style=decorated}fuerint quatuor numeri pportionales quoy primꝰ ſe cũdo z tertiꝰ q̃rto ſit maior: crit ſcos tora pars aut partes primi quota vel quote quart?tertij.No ſi ſcos fuerit tota ps aut partes primi quora vel quote quartus tertij quaru loz numeros proportionales eſle conuenict.
+## Propoſitio .11.
 
-¶Sit proportio.a. ad.b. ſicut.cad d.ſintoy a.z.c niaiores: pics ꝙ quots po aut
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quatuor numeri ꝓportionales quoꝝ primꝰ ſecũdo ⁊ tertiꝰ q̃rto ſit maior:erit ſcꝺs tota pars aut partes primi quota vel quote quartꝰ tertij.Qꝺ ſi ſcꝺs fuerit tota ps aut partes primi quota vel quote quartus tertij quatuoꝛ numeros proportionales eſſe conueniet.
 
-I I1i b 10 12 19 17 20 21 13 14 18 19 11 16 22
+¶Sit proportio.a.ad.b.ſicut.c.ad.d.ſintqʒ.a.⁊.c.maiores:dico ꝙ quota ps aut

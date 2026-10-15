@@ -1,39 +1,35 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-tritas pſccam pté. ao a. ad.e.ſicut. f.ad.b. 7 qu.a..c ſut pmni z. c nuinerat.c ipſe crit p'aa paimus ad.a q̃re p'aj a.t.e.ſunt ſcom ſuã ppoione minimi: ſcouit grae Pai.ut.c.numcret. b.z qu poſuui é ꝙ ipſe numeret.e, no crunt. b.2.c. 9 ſe pmis ot eſt contra ypotbe.
+eritqʒ ꝑ ſcꝺam ptẽ.20.a.ad.e.ſicut.f.ad.b.⁊ qr.a.⁊.c.ſũt ꝑmi ⁊.e.numerat.c.ipſe erit ꝑ.24.primus ad.a.q̃re ꝑ.23.a.⁊.e.ſunt ſcꝺm ſuã ꝓportionẽ minimi:ſequit̃ ergo ꝑ.21.ut.c.numeret.b.⁊ qr poſitũ ẽ ꝙ ipſe numeret.e.nõ erunt.b.⁊.c.ꝯ̃ ſe ꝑmi:qꝺ eſt contra ypothe.
 
-## Propoſitio a6.
+## Propoſitio .26.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I fuerint duo numeri contra ſe primi qui ex vno eorũ in ſe ipſum producitur ad reliquum eſt primus.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint ono numeri contra ſe primi qui ey vno eorui in le ipſum producitur ad reliquum eſt primus.
+¶Sint cõtra ſe primi.a.⁊.b.⁊ ex.a.in ſe fiat.c.dico ꝙ.c.primus eſt ad.b.ſit enim.d.equalis.a.eritqʒ.d.primus ad.b.⁊ ex.a.in.d:fiet.c per premiſſam igitur patet.c.primũ eſſe ad.b.qꝺ propoſuimus.
 
-¶ Sint cõtra ſe primi.a. 2.b.z ey.a.in ſe fiat. c. oico ꝙ.c. primus eſt ad. b ſit enim, d. cqualis. a critoy d pimno ad. b.z cy aan, dhiec per premiſſam igitur patet,.c prinui ele ad b. qb propoſuinus.
+[Diagram: segments labelled a and b, above a segment labelled c, above a segment labelled d]
 
-## Propoſitio 27
+## Propoſitio .27.
 
-{dropcap:[illegible]|lines=5|style=decorated}A duobus numeris ad alios ouos cõpatis vterqz ad vtrũ ds fuerit primus qui ey onobus prioribus ad eum oui er
+{dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I duobus numeris ad alios duos cõpatis vterqʒ ad vtrũqʒ fuerit primus qui ex duobus prioribus ad eum qui ex duobus poſterioribus producetur erit primus.
 
-[Diagram]
+¶Sint.a.⁊.b.p̃ores.c.⁊.d.poſteriores:ſitqʒ vterqʒ duoꝝ.a.⁊.b.primus ad vtrũqʒ duoꝝ.c.⁊.d.⁊ ex.a.in.b.ſit.e.⁊ ex.c.in.d.f.dico ꝙ e primus eſt ad.f.hoc aũt.25.ter aſſumpta euidenter concludit:cũ eni fiat.e.ex.a.ĩ.b.quorum vterqʒ primus eſt ad.c.⁊ ad.d.erit per ipſam.e.primus ad.c.⁊ item ꝑ ipſam primus ad.d.quia item.f.fit.ex.c.in.d.quoꝝ vterqʒ prim⁹ eſt ad.d.erit rurſus per ipſam.f.primus ad.e.qꝺ ẽ ꝓpoſitũ.
 
-uobus poſteriozibus producetur erit primus. (Sint, a.2 b.porcs.c. . d poſteriores: ſitoy vieray buion a 2bpI I mus ad vtrũos ouon c.z. d.e er. a.in. b.ſit.e. ⁊ cy.c.in. d.f. oico oi e prinus eſt ad. f.boc aût.a; tcr aſſumpta euidenter condudit:cui eni fiat,e, er a I'b,quonumn vtery primus eſt ad.c.z ad.d.crit per ipſam.e, primus ad-c.z itemr iplam primus ad. d.quia itcm.f.fit.cy. c.in. d.quoy vrer pimn' eſt ad.d. erit pu ſus per ipſam. f. primus ad.e. qu ẽ ppoſitũ.
+[Diagram: segments labelled a and b, above a segment labelled e, above segments labelled c and d, above a segment labelled f]
 
-## Propoſitio.26.
+## Propoſitio .28.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint ouo numert contra ſe primi oucaturq; eorun vterqs i ſeipuin: erunt inde producii cõtra ſe primi. Arẽ
+{dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I fuerint duo numeri contra ſe primi ducaturqʒ eorum vterqʒ ĩ ſeipſum: erunt inde producti cõtra ſe primi. Itẽqʒ ſi in vtrũqʒ productoꝝ ſuum ducatur principiuʒ: erũt quoqʒ producti contra ſe primi.
 
-[Diagram]
+¶Sint.a.⁊.b.cõtra ſe primi:ducat̃qʒ vterqʒ in ſe:⁊ ꝓueniant ex.a quidem.c.ex.b.vero.d.itẽqʒ ducat̃.a.in.c.⁊ ꝓueniat.e.⁊.b.in.d.⁊ ꝓueniat.f. dico.c.⁊.d.eſſe contra ſe primos:itemqʒ.e.⁊.f.contra ſe primos:eſt enim per.26. c.primus ad.b.per eandẽ igitur erit.d.primus ad.a.⁊ ad.c.ſicqʒ conſtat primum qꝺ ẽ.c.⁊.d.eſſe contra ſe primos.¶Reliquum ſic:eſt eni vterqʒ duoꝝ numerorum a.⁊.c.primus ad vtrũqʒ duoꝝ.b.⁊.d.itaqʒ per.27.erit.e.primus ad.f.qꝺ eſt reliquum.Non ſolum autem erit.e.primus ad.f.ſed etiã per.25.ad.b.⁊ ad.d.itemqʒ per eandẽ.f.ad.a.⁊.c.ſicqʒ ſi infinities duceret̃ vtrũqʒ productoꝝ in ſuum principium eſſent omnes producti contra ſe primi:⁊ non ſolum ſed quilibet eductus ab a.ad quemlibet eductum ab.b.
 
-dy li in vtruaz productoy ſuum oucatur principiuy: crũt quodz producti contra ſe primi. MSint.a.z. b.cotra ſe primi: pucaray vreraz in ſe: c proucniant er a quidem.c. cy. b. vero. d.itéy oucar.a.in.c.⁊ proueniat.e.z.b.in.d.z proueniar t boico.c.2. d eſſe contra ſe prumnos: itemag e. 2.f.contra ſe primos: eſt enimn per.aa. Cprimus ad. b, per candé ſgitur erit. d. primuo ad. a. zad. cſicoy conſtar primnm bé.c.z. d.cſſe contra ſe primos.
+[Diagram: segments labelled f and e, above segments labelled d and c, above segments labelled b and a]
 
-¶ Reliquum fic: eſt eni vteroy cuon numeroyum a.t.c.primus ad vtruĩqy ouoy. b.z. d.itay per. a crit, e primus ad.f.ob eſt reui? quuin. Ilon ſolum autein erit. c.primus ad.f.ſed ctiã per. as.ad.b. z ad.d. iremor per cande.f.ad.a.2.c. ſico ſi infinirics ouceret vtrũq productoy in ſuum nyinei. pium eſſeunt omnes producii contra ſe primni:z non ſoumn ſed quilbet cducius on a.ad quemlibet cductum.a.b.
+## Propoſitio .29.
 
-## Iropoſitio 29
+{dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I fuerint duo numeri contra ſe primi:qui ex ambobus coaceruatur ad vtrũqʒ eoruʒ erit primus. Si vero ex ambobus coaceruatus ad vtrũqʒ eorũ fuerit prim⁹ duo quoqʒ numeri adinuicem erunt primi.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint ouo numeri contra ſe primi:qui ey ambobna co aceruatur ad vtrũqz eoruz erit primus. Si vero er ambo bus coaceruatus ad vrruids coiu fuerit prine puo ouco
+¶Sint.a.⁊.b.cõtra ſe primi:dico ꝙ ex eis cõpoſitus.a.b.ad vtrũqʒ eorũ erit prim⁹ ⁊ ecõuerſo.nã ſi.d.numerat totũ.a.b.⁊ alteꝝ eoꝝ numerabit ꝑ cõeʒ ſciaʒ ⁊ reliquũ.q̃re nõ erũt ꝯ̃ ſe ꝑmi:ſʒ hoc poſitũ fuerat:pʒ ergo pmũ. Scꝺm ſic:ſit.a.b.prim⁹ ad vtrũqʒ ſuoꝝ componentium qui ſunt.a.⁊.b.dico ꝙ.a.⁊.b.
 
-[Diagram]
-
-numeri adinuicem erunt primi. ( ount. a.t. b cotra ſe pnmnispico qer cis copoſitus.a.b.ad ermi? y conui ent primn' e ccoucrſo. nã ſi. d numnerat toru. a. b.⁊ altey coy numerabit p ccez ſoiaz ⁊ rdliouu, qre no eruit s ſe pnieſ; poc polu fucrat p; crgo p Soin ſciuta b paul ad vuin uroy cenpencupon qu ſmt, a en vis ga 1d.
-
-Mpi I. 16 17 18 21 14 19 20 22 IE 1O 11 12 17
+[Diagram: segments labelled a and b, above a segment labelled d]

@@ -1,37 +1,35 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-motrabantur aũt oue linee.m.p. q.n. vel cquidiſãter lateribus toralis quadrati. Neo crao ouadratum, par, eſſe cquale ſuperficiel, a.t. z eins larus quodẽ.n.p.é rel
+[Figure: square l t r m with internal lines through n and q and a diagonal from l to m, labelled l, t, q, n, r, p and m]
 
-[Diagram]
+pꝛotrahantur aũt due linee.m.p.q.n.vel equidiſtãter lateribus totalis quadrati. dico ergo quadratum.p.r.eſſe equale ſuperficiei.a.c.⁊ eius latus quod ẽ.n.p.ẽ reſiduũ.Cum eni linea.d.e.ſit ex ypotheſi medio loco ꝓportionalis inter.b.f.⁊.f.d. erit ex prima ſexti ſuperficies.d.b.medio loco propoꝛtionalis inter duas ſupficies a.f.⁊.g.d.ideoqʒ ⁊ inter duo quadrata.l.m.⁊.n.l.cũqʒ ex prima ſexti ſit ſupficies l.p.medio loco ꝓportionalis inter eadem duo quadrata erit.l.p.equalis. d.b.et etiã.b.c.⁊ qꝛ quadratũ.l.n.eſt equale.g.d.erit.t.r.equale.g.e. totus itaqʒ gnomo circũſcriptus quadrato.m.n.eſt equalis.c.g.⁊ qꝛ.l.m.erat equale. a.f. relinquitur m.n.equale.a.c.ꝙ aũt.n.p.lat⁹ quadrati.m.n.ſit reſiduũ ſic collige. Eſt eni vtraqʒ duaꝝ.p.t.⁊.t.n.rõnalis in potentia eo ꝙ vtrũqʒ quadratũ.l.m.⁊.n.l.ẽ rõnale vnaqʒ eaꝝ eſt incõmenſurabilis alij per primã ſexti ⁊.10.huius:eo ꝙ quadratum l.m.eſt incõmenſurabile.l.r.ſuperficiei ſicut ſupficies.a.f.ſupficiei.b.d.de quibus manifeſtũ eſt ꝙ ipſe ſunt incõmenſurabiles:eſt eni per primã ſexti vna eaꝝ ad alterã ſicut linea.b.f.que ẽ rõnalis in longitudine ad lineã.d.e.que eſt rõnalis i potentia tantũ ex.68.igit̃ linea.p.n.que põt in ſupficiem.a.c.eſt reſiduum:⁊ hoc eſt quod intendimus.
 
-iiduu. Lum eni linen. de. ſit cr ppoibei medioloco nportionalis inter. bſ.2f.d. ent ey prima ſeyti ſuperficico. d.b, medio loco propoitionalis inter onas ſupficies a.f. 2. g.d.ideouy c inter ouo quadrata. lm.z.nil cũoy cr prima ſeyni ſit ſupficics l. p.medio loto xpontionalis inter cadem ouo quadrata erit. I.p. cqualis. dh.et etiã.b.c.z qu quadratu l.n. eſt cquale. g.d.erit.t.r. cquale. ⁊.e. totus itaoy gnomo circuſcriptus quadrato.m.n. eſt equalis.c.s.⁊ qu.l.m, erat equale. a.f. relinquiſtur mn. cquole.a.c. ꝙ aũt. n. p latꝰ quadrati.m.n. ſit reſiduu fie coilige. Eſt eni vtra? "r puax. D.t.2.t.n. rõnalis in potentia co ꝙ vtrũgz quadratũ.l.m.1.n.lé ronale vnaq; eay eſt incomenſurabilis alij per primã ſeyti z. io. huius:co v quadratum Am, eſt incomenſurabile. l.r. ſuperficiei ſicut ſupficies. a.f.ſupficiei.b. d. oe quibous maniieſiu eſt v iple ſunt incomenſurables: eſt eni per primã ſeni vna cay ad ale tera ficut linea. b.f-que è ronalis in longitudine ad linea. d.e, que eſt ronaisi poi tentia tantũ er. os.igit linea. p.n, que põt in ſuphiciem. a. c.eſt reſiduum: ⁊ boceſt quod intendimus.
+## Pꝛopoſitio .87.
 
-## Propoſitio.8.
+{dropcap:S|lines=4|style=decorated|decoration="foliate initial on black ground"}I ſuperficies aliqua linea rationali reſiduoqʒ ſecundo cõtineatur: linea in eandẽ potẽs erit reſiduũ mediale pꝛimũ
 
-{dropcap:[illegible]|lines=5|style=decorated}J ſuperficies aliqua ſinea ratonali reſiduoqs ſecundo cõ tineatur: linea in eandẽ potẽs erit reliduũ mẽdiale primĩ
+¶Jn hac quoqʒ argue ſicut in premiſſa ex diffinitione reſidui ſecundi ⁊ ſcꝺa pte. 13.⁊ nona ⁊ decimanona ⁊.15.⁊.69.
 
-¶ Jn bac quoay argue ficut in premiſla cy oiffinitione reſidut fecun di zſcoa pte. 13.⁊nona ⁊ oecimanona z.15.2.69.
+## Pꝛopoſitio .88.
 
-## Propoſitio.8s.
+{dropcap:S|lines=4|style=decorated|decoration="foliate initial on black ground"}I linea rõnali reſiduoqʒ tertio ſuperficies contineat̃ erit linea ſup eam potens reſiduum mediale ſecundum.
 
-linea rõnali reliduoqz tertio ſuperficies contineat erit {dropcap:[illegible]|lines=5|style=decorated}linca ſup eam potens reſiduum mediale ſecundum.
+¶Pꝛiori demonſtrationi inſiſte ⁊ facile cõcludes propoſitum ex diffinitione reſidui tertij ⁊ ſecunda pte. 13.⁊.9.⁊.19.⁊.70.
 
-¶ Priou demnonſtrationi inſiſte e facile cõdndes propoſitum er oil finitione reſidui tertij z ſccunda pre. 13. 2.9.2. 19.2.70.
+## Pꝛopoſitio .98.{printer-error-correction:.89.}
 
-## Propoſitio.98.
+{dropcap:S|lines=4|style=decorated|decoration="foliate initial on black ground"}I fuerit ſupficies linea rõnali reſiduoqʒ quarto contenta linea ſuper eam potens erit linea minoꝛ.
 
-{dropcap:[illegible]|lines=5|style=decorated}* fuerit ſupficies linea rõnali reſiduooz quarto contenta linea ſuper eam potens crit linea minoz.
+¶Jn hac quoqʒ nõ aliter ꝓcedas qʒ pꝛius. facile eni erit ibi ꝓpoſitũ ꝯcludere.ſi premiſſam nõ deſpicis ex dĩone reſidui q̃rti ⁊ ſcꝺa pte.14 ⁊.9.⁊.19.⁊.15.⁊.71.⁊ ſic patebit ꝓpoſitum.
 
-¶ Jn bac quoay nõ aliter ꝓcedas q̃ prius. facile eni erit ibi ꝓppoſitũ pdudere, ſi premiſſam nõ peſpicis ex bionc relidui q̃ri z ſcoa pte.ia l2.9.2.19.415.2.7I.⁊ ſic patebit ꝓpolitum.
+## Pꝛopoſitio .90.
 
-## Propoſitio.90.
+{dropcap:S|lines=4|style=decorated|decoration="foliate initial on black ground"}I fuerit linea rõnali reſiduoqʒ quinto ſupficies contenta latus eius tetragonicum erit cũ rõnali cõponẽs mediale:
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerit linea rõnali reſiduoaz quinto ſupficies contenta latus eius tetra gonicum erit cũ rõnali coponẽs mediale:
+¶Nitere premiſſa argumentatione ex diffinitione reſidui quinti ⁊ ſecunda parte. 14.⁊.9.⁊.19.⁊.15.⁊.72.quod propoſituʒ eſt coucludere{printer-error-correction:concludere}.
 
-¶ Mitere premiſſa argumentatione ey oiffinitione rclidui quinti z ſe cunda parte. ia. 1.9.2.19.1.15.2.72. quod propoſituz eſt coucludere.
+## Pꝛopoſitio .91.
 
-## PPropoſitio.9i.
+{dropcap:S|lines=4|style=decorated|decoration="foliate initial on black ground"}I linea rõnali reſiduoqʒ ſexto ſuperficies contineatur latus tetragonicum qꝺ ſuper eam poteſt cum mediali conſtituens totum mediale eſſe compꝛobatur.
 
-{dropcap:[illegible]|lines=5|style=decorated}5 linca rõnali reſiduodz ſerto ſuperficies contineatur la us tetragonicum qo ſuper eam poreſt cum mediali conſi tuens totum mediale eſle comprobatur.
-
-¶Hunc quoay vltimo quod per banc oicitur premiſſo modo ſarage cõdudere ey oiffinitione reſidui ſeyn z ſcoa parte. 14.1.9.2.19173.
+¶Nunc quoqʒ vltimo quod per hanc dicitur premiſſo modo ſatage cõcludere ex diffinitione reſidui ſexti ⁊ ſcꝺa parte. 14.⁊.9.⁊.19.⁊.73.
