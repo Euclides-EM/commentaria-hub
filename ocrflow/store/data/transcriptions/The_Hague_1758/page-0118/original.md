@@ -6,6 +6,10 @@
 
 [Figure: Fig. 1. circle AHG with center E; diameter from A through E and F to D; lines from the point F to B, C, H and G on the circumference, with dotted lines from E to B, C and H]
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THEOREME VI.]
+
+[Curated heading level=2 type=theorems: THEOREME VI. PROPOSITION VII.]
+
 ## PROPOSITION VII. THEOREME VI.
 
 {dropcap:S|lines=2|style=plain}I d'un point quelconque (F) dans un cercle (AHG), différent de ſon centre (E), on tire à ſa circonférence tant de lignes droites (FA, FB, FC, FH) que l'on voudra, la plus grande de toutes eſt (FA) qui paſſe par le centre, & la plus petite eſt ſa prolongée (FD). Quant aux autres; celle (FB ou FC), qui eſt plus proche de la ligne (FA) paſſant par le centre, eſt plus grande qu'une autre (FC ou FH), qui en eſt plus éloignée. Enfin; de part & d'autre de la plus petite (FD), on ne ſauroit tirer de ce même point (F) plus de deux lignes droites (FH, FG) égales entr'elles.

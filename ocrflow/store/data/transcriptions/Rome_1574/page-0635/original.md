@@ -19,6 +19,8 @@ PARI ratione; Pluribus numeris datis, quam tribus, reperiemus, quem illi minimum
 
 [Curated heading level=2 type=campanus: 37]
 
+[Curated heading level=2 type=theorems: THEOR. 34. PROPOS. 39.]
+
 ## THEOR. 34. PROPOS. 39.
 
 [Curated heading level=3 type=incipit: SI]

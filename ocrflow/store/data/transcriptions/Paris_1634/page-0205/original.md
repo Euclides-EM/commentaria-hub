@@ -15,6 +15,10 @@ Demonstr.
 9.a.1 | <lgk 3|2 <cgb,
 2.concl. 24.1 | klufe 3|2 bc.
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XVI.]
+
 ## THEOR. XV. PROPOS. XVI.
 
 Quæ ab extremitate diametri cuiusque circuli ad angulos rectos ducitur, extra ipsum circulum cadet; & in locum inter ipsam rectam lineam, & peripheriam comprehensum, altera recta linea non cadet: & semicirculi quidem angulus, quouis angulo acuto rectilineo maior est; reliquus autem minor.

@@ -4,7 +4,9 @@
 
 [Diagram: two rectangles, the left with corners labelled B, E, D and G, the right with upper edge labelled A, K and T and lower edge labelled I and L]
 
-## Propoſitio centeſima vndecima.
+[Curated heading level=2 type=propositions: Propoſitio centeſimavndecima.]
+
+## Propoſitio centeſimavndecima.
 
 Apotome non eſt eadem ei quæ Ex binis nominibus.
 
@@ -12,7 +14,7 @@ Apotome non eſt eadem ei quæ Ex binis nominibus.
 
 [Diagram: a rectangle with left corners labelled G and E, its upper edge labelled I and B and extended to D; below, a separate horizontal line labelled A]
 
-## Corollarium.
+### Corollarium.
 
 Hinc fit ſex binomia ſemper differre à ſex apotomis ſiue reſiduis, & inſuper quinque binomij comites ſimiliter differre ab apotome & ſuis quinque comitibus, cæteris incertis. *Binomij etenim & quinque eam ſequentium potentiæ ad certam comparatæ, ſex binomij ſpecies ſua produ*
 

@@ -28,6 +28,8 @@ CAMPANVS. Si recta linea a b, contingens circulum c d e f, cuius centrum g, in p
 
 [Diagram: circle c d e f with centre g; tangent line a d b touching the circle at d on top (a at left, b at right); chords d c, c f, d e, e f and secant d f; diameter d g h to h at bottom, with line f h drawn]
 
+[Curated heading level=2 type=theorems: Theorema 28. Propositio 32.]
+
 ## Eucli. ex Zamb. Theorema 28. Propositio 32.
 
 [Curated heading level=3 type=zamberti_sequence: 32.]

@@ -9,6 +9,10 @@ d. 15. 1.
 
 angulo ABC major. Omnis igitur trianguli &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVII. THEOR.]
+
 ## PROP. XVII. THEOR.
 
 [Subhead]
@@ -32,6 +36,10 @@ b. 13. 1.
 [/Margin]
 
 anguli igitur ABC, BCA duobus rectis ſunt minores. ſimiliter oſtendemus angulos quoque BAC, ACB, itemque CAB, ABC duobus rectis minores eſſe. Omnis igitur trianguli &c. Q. E. D.
+
+[Curated heading level=2 type=propositions: PROP. XVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVIII. THEOR.]
 
 ## PROP. XVIII. THEOR.
 

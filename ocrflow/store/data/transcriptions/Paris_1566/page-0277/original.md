@@ -2,11 +2,13 @@
 
 *comparatio, quæ vnica eſt quantitatum diſcretio ipſa rationem non diſcretam, ſiue cognitam: ſed equidem ſurdam & inexplicabilem vlla diſcretione quantitatis habere dicentur. Non enim ratione priuantur, ſed tantum commenſuratione.*
 
-# INCIPIVNT SENARIA INCERTARVM.
+## INCIPIVNT SENARIA INCERTARVM.
 
 [Subhead]
 per ablationem genitarum.
 [/Subhead]
+
+[Curated heading level=2 type=propositions: Propoſitio ſeptuageſimatertia.]
 
 ## Propoſitio ſeptuageſimatertia.
 
@@ -16,6 +18,8 @@ Si à Certa Certa auferatur potẽtia tantùm commenſurabilis exiſtens toti, R
 
 [Diagram: horizontal line labelled A at the left, G above an interior point, and B at the right]
 
+[Curated heading level=2 type=propositions: Propoſitio ſeptuageſimaquarta.]
+
 ## Propoſitio ſeptuageſimaquarta.
 
 Si à Media auferatur Media, potẽtia tantùm commenſurabilis toti, cum tota verò certum comprehendens, reliqua incerta eſt, vocatur autem Mediæ apotome prima.
@@ -23,6 +27,8 @@ Si à Media auferatur Media, potẽtia tantùm commenſurabilis toti, cum tota v
 *Sit media AB, à qua auferatur BG qua quidem ſit media potentia tantùm ipſi AB commenſurabilis, & cum ipſa AB certum comprehendens, per 27 huius: Dico reliquam AG incertam eſſe, quæ dicitur Mediæ apotome prima. Cùm quadrata ex AB BG mediis ſint commenſurabilia, compoſitum ex ipſis eſt medium, quod quidem æquatur, per ſeptimam ſecundi, ei quod bis ſub AB BG, & quadrato AG. Sed quod bis ſub AB BG (ex hypotheſi) certum eſt, cùm ſit duplum eius quod ſub AB BG. Quod igitur ſub ipſis AB BG certum, incommenſurabile eſt compoſito ex AB BG quadratis medio, igitur per ſecundam partem duodecimæ huius, incommenſurabile erit quod ex AG ei quod bis ſub AB BG. Ea etenim totum efficiunt compoſitum ex quadratis AB BG. Quod igitur ex AG (ipſi quod bis ſub AB BG certo incommenſurabile) incertum erit, per decimam diffinitionem huius: & proinde recta AG illud potens incerta erit, per lemma vigeſima huius, quæ dicitur Mediæ apotome prima. Si igitur à media auferatur media, potentia, &c.*
 
 [Diagram: horizontal line labelled A at the left, G above an interior point, and B at the right]
+
+[Curated heading level=2 type=propositions: Propoſitio ſeptuageſimaquinta.]
 
 ## Propoſitio ſeptuageſimaquinta.
 

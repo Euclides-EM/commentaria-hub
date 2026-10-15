@@ -16,6 +16,10 @@ Notandum.
 
 ¶Hinc fit manifestum, cur in dimetiendis rriangulorum areis, dimidium basis ducatur in perpendicularem: aut ipsius perpendicularis dimidiũ, per basin ipsam multiplicetur. Fit enim hoc modo dimidium parallelógrammi, quod in eadem basi atq; in eisdem collocatur parallelis cum ipso triangulo dato.
 
+[Curated heading level=2 type=propositions: Problema 11, Propositio 42.]
+
+[Curated heading level=2 type=problems: Problema 11, Propositio 42.]
+
 ## Πρόβλημα ια, Πρόθεσις μβ.
 
 ΤΩ δοθέντι τριγώνῳ ἴσον παραλληλόγραμμον συστήσασθαι ἐν τῇ δοθείσῃ εὐθυγράμμῳ γωνίᾳ.

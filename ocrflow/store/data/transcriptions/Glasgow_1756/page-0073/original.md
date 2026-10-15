@@ -1,6 +1,10 @@
 <!-- Page number: 58 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. VI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VI. THEOR.]
+
 ## PROP. VI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea bifariam ſecetur, atque ipſi in directum adjiciatur quaedam recta linea; rectangulum a tota cum adjecta, et ipſa adjecta contentum, una cum quadrato ex dimidia, aequale eſt quadrato quod ex ea quae compoſita eſt ex dimidia et adjecta, tanquam ab una recta linea, deſcribitur.

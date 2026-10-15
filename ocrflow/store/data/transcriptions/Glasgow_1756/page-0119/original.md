@@ -3,6 +3,10 @@
 
 AB ſegmentum circuli deſcriptum eſt AHB quod capiat angulum dato angulo ad C aequalem. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XXXIV. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXXIV. PROB.]
+
 ## PROP. XXXIV. PROB.
 
 {dropcap:A|lines=2|style=plain} Dato circulo ſegmentum abſcindere quod capiat angulum dato angulo rectilineo aequalem.
@@ -30,6 +34,10 @@ c. 32. 3.
 ſed FBC angulus angulo qui ad D eſt aequalis; angulus igitur in ſegmento BAC angulo ad D aequalis erit. A dato igitur circulo ABC abſciſſum eſt ſegmentum BAC capiens angulum dato angulo rectilineo qui eſt ad D aequalem. Q. E. F.
 
 [Diagram: circle ABC with inscribed triangle ABC, tangent EF at B, and angle D]
+
+[Curated heading level=2 type=propositions: PROP. XXXV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXV. THEOR.]
 
 ## PROP. XXXV. THEOR.
 

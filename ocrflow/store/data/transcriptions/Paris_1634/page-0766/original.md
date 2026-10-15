@@ -9,6 +9,10 @@ constr. | ◇ fi 2|2 ◇ ab,
 concl. 25.11 | ◇piped. finm, Ⅱ cd π ◇piped. efgl,
 ◇ fi, Ⅱ ab π ◇ ef.
 
+[Curated heading level=2 type=propositions: THEOR. XXVIII. PROPOS. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVIII. PROPOS. XXXIII.]
+
 ## THEOR. XXVIII. PROPOS. XXXIII.
 
 Similia solida parallelepipeda, inter se sunt in triplicata ratione homologorum laterum.

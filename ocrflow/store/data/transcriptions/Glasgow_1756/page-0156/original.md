@@ -5,6 +5,10 @@ que multiplex eſt ipſius FD atque AB ipſius CD. Quare ſi &c.
 
 Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. VI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VI. THEOR.]
+
 ## PROP. VI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duae magnitudines duarum magnitudinum aeque multiplices ſint, et ablatae quaedam ſint earundem aeque multiplices; erunt et reliquae vel eiſdem aequales, vel ipſarum aeque multiplices.

@@ -16,6 +16,10 @@ constr. | da 2|2 dc,
 15.d.1. | bc 2|2 ce,
 concl. 1.a.1. | ag 2|2 bc.
 
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. III.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. III.]
+
 ## PROBL. III. PROPOS. III.
 
 Duabus datis rectis lineis inæqualibus, de majore æqualem minori rectam lineam detrahere.
@@ -43,6 +47,10 @@ Demonstr.
 15.d.1. | be 2|2 bd,
 constr. | a 2|2 bd,
 concl. 1.a.1. | be 2|2 a,
+
+[Curated heading level=2 type=propositions: THEOR. I. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. IV.]
 
 ## THEOR. I. PROPOS. IV.
 

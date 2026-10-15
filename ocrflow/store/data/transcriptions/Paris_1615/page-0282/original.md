@@ -6,6 +6,10 @@ exhibee en deux nombres quarrez: Car ſi elle y eſtoit exhibee, par la 24.8. p.
 
 Semblablement les nombres en raiſon quintuple, ne ſont auſſi cõme nombre quarré à nombre quarré. Car s’ils y eſtoient, par la 11.p. B. il tomberoit entre iceux vn milieu propo. donc auſſi entre 5. & 1. les plus petits nombres de la raiſon quintuple, par la 8.p. 2. Ce qui eſt impoſſible, comme nous auons demonſtré au Scholie de la 8.p.8.
 
+[Curated heading level=2 type=propositions: THEOR. 23. PROP. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. 23. PROP. XXV.]
+
 ## THEOR. 23. PROP. XXV.
 
 Si deux nombres ſont l’vn à l’autre comme nombre cube à nombre cube, & que l’vn d’iceux ſoit cube, auſſi ſera l’autre.
@@ -15,6 +19,10 @@ Ceſte demonſtration eſt aiſee: d’autant que par la 8.p. 8. il tombera deux
 ### COROLLAIRE.
 
 Il appert auſſi des choſes cy deſſus, que la raiſon de quelque nombre cube que ce ſoit à quelconque nombre non cube, ne ſe peut exhiber par deux nombres cubes.
+
+[Curated heading level=2 type=propositions: THEO.24. PROP. XXVI.]
+
+[Curated heading level=2 type=theorems: THEO.24. PROP. XXVI.]
 
 ## THEO.24. PROP. XXVI.
 

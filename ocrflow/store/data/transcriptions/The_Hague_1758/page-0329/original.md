@@ -3,6 +3,10 @@
 
 [Diagram: within a ruled border, a triangle C B D with apex B; interior point A with small angles labelled d and b, a dotted line from A to point E on the base C D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XX. THEOREME XVIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVIII. PROPOSITION XX.]
+
 ## PROPOSITION XX. THEOREME XVIII.
 
 {dropcap:S|lines=2|style=plain}I trois angles-plans (CAB, BAD & DAC) forment un angle ſolide A: deux de ces angles (comme BAD & CAB) pris comme l'on voudra ſeront plus grand que le troiſiéme (CAD).

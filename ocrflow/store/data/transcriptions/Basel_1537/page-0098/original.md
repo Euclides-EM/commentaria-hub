@@ -6,6 +6,8 @@ quæ concurrent in puncto d, a quo ducam perpendiculares ad tria latera ipsius t
 
 [Diagram: triangle a b c with inscribed circle, centre d; perpendiculars d e, d f, d g drawn to the three sides]
 
+[Curated heading level=2 type=problems: Problema 4 Propositio 4]
+
 ## Eucli. ex Zamb. Problema 4 Propositio 4
 
 [Curated heading level=3 type=zamberti_sequence: 4.]

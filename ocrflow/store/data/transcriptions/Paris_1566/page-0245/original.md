@@ -4,6 +4,10 @@ Proponantur binæ rectæ certæ potentia tantùm commenſurabiles A & B. Quibus 
 
 [Diagram: four horizontal lines labelled A, G, B and D with values ℞ 9, ℞ ℞ 54, ℞ 6 and ℞ ℞ 24]
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaoctaua.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimaoctaua. Problema 5.]
+
 ## Propoſitio vigeſimaoctaua. Problema 5.
 
 Medias inuenire potentia tantum commenſurabiles Medium comprehendentes.
@@ -12,7 +16,9 @@ Exponantur tres rectæ certæ potentia tantùm commenſurabiles A B G. Inter A &
 
 [Diagram: five horizontal lines labelled A, D, B, G and E with values ℞ 16, ℞ ℞ 128, ℞ 8, ℞ 6 and ℞ ℞ 72]
 
-## Lemma.
+[Curated heading level=1 type=lemma_target: Lemma 1 ad X.29]
+
+### Lemma.
 
 Comperire duos quadratos numeros qui coniuncti quadratum numerum efficiant.
 
@@ -20,11 +26,13 @@ Sint bini numeri ſimiles plani, ſimul pares aut ſimul impares A B & B G. Quon
 
 [Diagram: horizontal line with points A, D, G and B and numbers above the segments]
 
-## Corollarium.
+### Corollarium.
 
 Inuenire duos quadratos numeros ſe quadrato excedentes. Nam poſitis A B & B G ſimilibus planis, inuenimus duos quadratos numeros ſcilicet qui ex B D & eum qui ex D G, quorum exceſſus (is ſcilicet qui ſub A B B G) quadratus eſt. Quòd ſi ſimiles plani non fuerint ipſi A B & B G, exceſſus duorum quadratorum ex B D & D G, ſcilicet qui ſub A B B G quadratus non erit. Nam ſi quadratus eſſet ipſi A B & B G ſimiles eſſent plani, per ſecundam noni, contra hypotheſim.
 
-## Lemma ſecundum.
+[Curated heading level=1 type=lemma_target: Lemma 2 ad X.30]
+
+### Lemma ſecundum.
 
 Comperire duos numeros quadratos, compoſitum non quadratum efficientes.
 

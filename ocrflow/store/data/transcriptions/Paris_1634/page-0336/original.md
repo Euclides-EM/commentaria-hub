@@ -3,6 +3,10 @@
 15.5 | ab/bc 2|2 a/c,
 concl. s3.d.5 | a/c est quantit. raō.. a π c,
 
+[Curated heading level=2 type=propositions: THEOR. I. PROPOS. I.]
+
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. I.]
+
 ## THEOR. I. PROPOS. I.
 
 Triangula & parallelogramma, quorum eadem fuerit altitudo, ita se habent inter se, vt bases.

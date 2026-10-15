@@ -2,6 +2,8 @@
 
 *ipſæ A & Z I longitudine incommenſurabiles erunt: quia ſimiliter E ad G B, & B G ad G D fuerint vt quadrata A ad Z I, & Z I ad I T. Erit æqua ratione (per 22 quinti) E ad D G, ſicut quadrata A ad I T, ſed E ad D G rationem non habet quadratorum, per corollarium 26 octaui. Quadrata igitur A & I T rationem quadratorum numerorum non habebunt, & proinde (ex nona huius) incommenſurabiles erunt lōgitudine ipſæ A & I T. Certæ tamen potentia tantùm cōmenſurabiles ideo erunt ipſæ Z I I T, cùm habeant ad ſe rationē numerorum B G & G D, qui quadratorū rationem non habēt. Reliqua igitur Z T apotome erit, ꝑ 73 huius: Dico quod & ſexta: nā cùm ſit B G ad G D ſicut quadrata Z I ad I T, Erit B G ad exceſſum B D, ſicut quadratum Z I ad exceſſum, quod ex K, quo excedit ſuum conſequens ex I T conuerſione rationis, per corollarium 19 quinti: ſed B G ad B D non quadratum, ratione quadratorum caret, per corollarium 25 octaui. Quadrata igitur Z I & K rationem quaratorum{printer-error-correction:quadratorum} numerorum non habēt, nec proinde latera Z I & K longitudine commēſurabilia, per nonam huius. Tota itaq́ Z I maius poteſt congruente I T, eò quòd ex K ſibi longitudine incommenſurabili: ſed neutra ipſarum Z I & I T longitudine propoſitæ certæ A fuit commenſurabilis, vt oſtendimus, reliqua igitur Z T apotome erit ſexta, per ſextam apotomarum diffinitionem. Inuenimus itaque apotomen ſextam.*
 
+[Curated heading level=2 type=propositions: Propoſitio nonageſimaprima.]
+
 ## Propoſitio nonageſimaprima.
 
 Si areola comprehendatur ſub Certa & Apotome prima, quæ areolā poteſt, Apotome eſt.

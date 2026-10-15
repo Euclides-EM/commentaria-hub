@@ -1,6 +1,8 @@
 <!-- Running title: LIBER SEXTVS. -->
 <!-- Page number: 52 -->
 
+[Curated heading level=2 type=propositions: Propoſitio tertia.]
+
 ## Propoſitio tertia.
 
 Si trianguli angulus bifariam ſeccetur, diſpeſcens autem angulum recta ſecuerit & baſim, baſis ſegmenta eandem habebunt ratione, reliquis ipſius trianguli lateribus. Et ſi baſis ſegmenta eandem habuerint rationem reliquis ipſius trianguli lateribus, à vertice ad ſectionem coniuncta recta, bifariam ſecat ipſius trianguli angulum.
@@ -9,6 +11,8 @@ Trianguli A B G angulus A bifariam ſeccetur ductâ A D, per 9 primi, ſecante b
 
 [Diagram: triangle B G E with A on B E, D on B G, and lines A D and A G]
 
+[Curated heading level=2 type=propositions: Propoſitio quarta.]
+
 ## Propoſitio quarta.
 
 Æquiangulorum triangulorum proportionalia ſunt latera quæ circum æquales angulos, & ſimilis rationis ſunt, quæ æqualibus angulis latera ſubtenduntur.
@@ -16,6 +20,8 @@ Trianguli A B G angulus A bifariam ſeccetur ductâ A D, per 9 primi, ſecante b
 Sint triangula æquiangula A B G, D G E, habentia angulos æquales A B G ipſi D G E, & A G B ipſi D E G, ac B A G ipſi G D E: Dico ea proportionalia habere latera, A B ad D G vt B G ad G E, vtq́ A G ad D E æqualibus angulis ſubtenſa. Ponatur trianguli D E G (vel ſimiliter deſcripti) latus E G in rectam ipſius G B, quoniam anguli A G B & D E G ſunt æquales, per 28 primi, parallelæ erunt E D & G A, quia verò anguli A B G & D G E ſunt æquales, erunt (per eandem) parallelæ A B & D G. Compleatur igitur parallelogrammum A G D Z, in rectam cadent E D, D Z, per 30 primi, cùm ſint eidem A G parallelæ, & concurrant in D, ſimiliter B A, A Z, cùm parallelæ ſint ipſi G D. Cùm autem trianguli B E Z ad vnum latus B Z acta ſit parallela D G, erit E G ad G B ſicut E D ad D Z, hoc eſt, ad G A ſibi æqualem. Similiter quia ad vnum rurſus latus E Z acta eſt parallela A G, erit B G ad G E ſicut B A ad A Z, hoc eſt G D ſibi æqualem, ſicut igitur conuerſim (per corol. 4. quinti) B G ad G E, ſic A G ad D E, & ſic fuit A B ad D G. Æquiangulorum itaque triangulorum proportionalia ſunt, &c.
 
 [Diagram: triangle E B Z with G on E B, D on E Z, A on B Z, and lines D G and G A]
+
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
 
 ## Propoſitio quinta.
 

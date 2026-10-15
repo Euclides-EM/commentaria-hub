@@ -18,6 +18,10 @@ arbitr. | ef, est 6,
 s.46.1 | fg, est √.20.
 ef, est 6 + √.20.
 
+[Curated heading level=2 type=propositions: PROBL. XIV. PROPOS. L.]
+
+[Curated heading level=2 type=problems: PROBL. XIV. PROPOS. L.]
+
 ## PROBL. XIV. PROPOS. L.
 
 A....4 C.....5 B

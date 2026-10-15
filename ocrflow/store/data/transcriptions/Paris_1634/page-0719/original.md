@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. LXXXIX. PROPOS. CXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXXIX. PROPOS. CXIII.]
+
 ## THEOR. LXXXIX. PROPOS. CXIII.
 
 Quadratum rationalis ad eam, quæ ex binis nominibus, applicatum, latitudinem facit apotomen cuius nomina commensurabilia sunt nominibus eius, quæ ex binis nominibus, & in eadem proportione; & adhuc apotomæ, quæ fit, eundem habet ordinem, quem ea, quæ ex binis nominibus.

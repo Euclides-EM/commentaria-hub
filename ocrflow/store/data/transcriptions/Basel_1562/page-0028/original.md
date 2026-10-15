@@ -17,6 +17,8 @@ Will hiemitt den ainfeltigen ermantt haben / vnnd gewarnet / Das nit vonnoͤtten
 
 [Figure: triangle drawn with two short intersecting arcs at its apex]
 
+[Curated heading level=2 type=propositions: II. Die ander propoſition]
+
 ## II. Die ander propoſition.
 
 [Subhead]
@@ -26,6 +28,8 @@ Von ainem fürgenommen puncten / ain linj die einer fürgegebnen linj gleich ſe
 Wiewol gar leichtlich / ſollichs zuͤwegen mag bracht werden / nemlich ſo du die lenge der fürgebnen linj / mit einem zirckel begreiffeſt / vnd alß dan von dem fürgenommen puncten an die ſelbig miſſeſt / vñ ain geſtracke linj in ſollicher weitte zieheſt / wie dann ſolliches khlar vnd on mangell iſt / vnd die aigenſchafft deß zirckels mit ſich bringt: Hab ye doch die yenigen / ſo Demonſtrationes vber den Euclidem geſchriben / ain andere / gleichwol künſtliche / aber ſchwere Operation / an diſem ort geſetzt welche ich als vnnottwendig dem ainfeltigen Teütſchen leſer (dem ich fürnemlich zedienen vorhabens) außgelaſſen hab.verſiche mich hierumb nit zuͤtadlen ſein / ⁊c. In der figur / iſt a die fürgeben linj / b der punct / die linien b c / b d / b e / ⁊c. all der fürgebnen gleich.
 
 [Figure: a horizontal line labelled a above a point b from which several equal lines radiate to points c, d, e, f, g and h]
+
+[Curated heading level=2 type=propositions: III. Die dritt propoſition]
 
 ## III. Die dritt propoſition. Lehrt
 

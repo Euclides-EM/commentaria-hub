@@ -5,6 +5,10 @@
 7.2 | ▭.ab + ▭.bc u ▭.bf 2|2 ▭.af + 2▭.abf,
 concl. 1.a.1 | ▭.ac + ▭.abc 2|2 ▭.ab u ▭.bc.
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. XIV.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. XIV.]
+
 ## PROBL. II. PROPOS. XIV.
 
 Dato rectilineo æquale quadratum constituere.

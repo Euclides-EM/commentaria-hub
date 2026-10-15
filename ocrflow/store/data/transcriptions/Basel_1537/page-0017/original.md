@@ -4,6 +4,8 @@
 
 re a k, est maior b k. Sed & b k, est maior a b: triangulus ergo a b k, est trium inæqualiū laterū. Sic igitur super datam lineā rectam, omnes triangulorū species collocauimus.
 
+[Curated heading level=2 type=problems: Problema 1. Propositio 1.]
+
 ## Euclides ex Zamberto. Problema 1. Propositio 1.
 
 [Curated heading level=3 type=zamberti_sequence: 1.]
@@ -31,6 +33,8 @@ THEON ex Zamberto. Sit data recta terminata linea: α β. Oportet super α β: t
 CAMPANVS. Sit a, punctus datus: & b c linea recta data. uolo à puncto a, ducere lineam unam æqualem lineæ b c: in quamcunq̃ partem contingat. Coniungam ergo punctum a, cum altera extremitate lineæ b c: cum qua uoluero: & coniungam ipsum a, cum extremitate c, per lineam a c: super quam constituam triangulum æquilaterū secundum doctrinā præcedentis. qui sit a c d. & in illa extremitate lineæ datæ cum qua coniunxi punctum datum, a scilicet: in extremitate c ponam pedem circini immobilem, describamq̃ super ipsum (per 2 petitionem) circulum secūdū quantitatem ipsius datæ lineæ: qui sit circulus e b. & latus trianguli æquilateri q̃d opponitur puncto dato, scilicet latus d c protraham per centrum circuli descripti usq̃ ad eius circūferentiam: & sit tota linea sic protracta d e. secundum cuius quantitatē, lineabo circulum, posito centro in d: qui sit circulus e f. Postea protraham latus d a usque ad circunferentiam huius ultimi circuli: & occurrat circunferentiæ ipsius in puncto f. Dico igitur quod a f: est æqualis b c. nam b c, & c e sunt æquales: quia exeunt a centro circuli e b, ad eius circunferentiam. Similiter quoq̃ d f & d e sunt æquales: quia exeunt à centro circuli e f, ad circunferentiā. sed d a & d c sunt æquales: quia sunt latera trianguli æquilateri. ergo si d a & d c demantur de d e & d f quæ sunt æquales: erunt residua quæ sunt a f & c e, æqualia. Quia ergo utraq̃ duarū linearū a f & c b est æqualis c e: ipsæ per 1 cōmunem animi conceptionē adinuicem sunt æquales. Quare à puncto a, protraximus lineam a f æqualē b c: quod est propositū.
 
 [Diagram: two circles, the smaller e b with centre c inside the larger e f with centre d; small triangle a c d at the centre, b at the left on the smaller circle, line d c produced to e below and line d a produced to f at the right]
+
+[Curated heading level=2 type=problems: Problema 2. Propositio 2.]
 
 ## Eucl. ex Zamb. Problema 2. Propositio 2.
 

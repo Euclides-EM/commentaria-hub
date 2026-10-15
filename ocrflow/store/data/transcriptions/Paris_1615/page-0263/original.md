@@ -8,6 +8,10 @@ mee par le nombre C.Ie dis que C meſure A. B... 3C....4.
 
 Car puis que B eſt partie depommée par C; & l’vnité eſt partie de C.denommée par le meſme C; comme l’vnité meſure C, ainſi B meſure A: & par la 5.p.7. en changeant comme l’vnité meſur era B, ainſi C meſurera A.
 
+[Curated heading level=2 type=propositions: PROB. 6. PROP. XLI.]
+
+[Curated heading level=2 type=problems: PROB. 6. PROP. XLI.]
+
 ## PROB. 6. PROP. XLI.
 
 Trouuer le plus petit nombre qui ayt les parties donnees.

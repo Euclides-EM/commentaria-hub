@@ -2,6 +2,8 @@
 
 [Curated heading level=2 type=campanus: 10]
 
+[Curated heading level=2 type=theorems: THEOR. 9. PROPOS. 10.]
+
 ## THEOR. 9. PROPOS. 10.
 
 [Margin]
@@ -37,6 +39,8 @@ ALITER. Secent ſe ijdem duo circuli, ſi fieri poteſt, in tribus punctis A, & 
 [/Margin]
 
 [Curated heading level=2 type=campanus: 11]
+
+[Curated heading level=2 type=theorems: THEOR. 10. PROPOS. 11.]
 
 ## THEOR. 10. PROPOS. 11.
 

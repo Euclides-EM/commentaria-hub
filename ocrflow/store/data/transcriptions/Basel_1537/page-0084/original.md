@@ -20,6 +20,8 @@ CAMPANVS. Sint ut prius duo circuli æquales: a b c cuius centrum d, & e f g cui
 
 [Diagram: circle with f at the top, centre h, e at lower left and g at lower right, k at the bottom of the circumference; lines from e and g to h and f, and from h to k]
 
+[Curated heading level=2 type=theorems: Theorema 25 Propositio 26]
+
 ## Eucli. ex Zamb. Theorema. 25. Propositio. 26. Conuersa præcedentis.
 
 [Curated heading level=3 type=zamberti_sequence: 27.]

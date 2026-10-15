@@ -4,6 +4,10 @@
 
 ſolido ablato priſmate AFG, CDE; erit reliquum ſolidum, parallelepipedum ſc. AH aequale reliquo ſolido, parallelepipedo ſc. AK. ſolida igitur parallelepipeda &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXX. THEOR.]
+
 ## PROP. XXX. THEOR.
 
 {dropcap:S|lines=2|style=plain}OLIDA parallelepipeda quae in eadem ſunt baſi, et eadem altitudine, quorum inſiſtentes rectae non ſunt in eiſdem rectis lineis, inter ſe ſunt aequalia.

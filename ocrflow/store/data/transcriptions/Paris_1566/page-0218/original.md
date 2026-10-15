@@ -4,11 +4,17 @@
 
 # EVCLIDIS DEMONSTRATIONum reſtitutarum Liber decimus.
 
+[Curated heading level=1 type=definitions: EVCLIDIS DEMONSTRATIONum reſtitutarum Liber decimus.]
+
+[Curated heading level=2 type=definitions: Diffinitio prima.]
+
 ## Diffinitio prima.
 
 {dropcap:C|lines=5|style=decorated|decoration="foliate scrollwork"}Ommensurabiles magnitudines dicuntur quas eadem menſura metitur.
 
 Prioribus libris præmiſit Euclides maximè tribus poſtremis neceſſaria ad quantitatis intelligentiam, per vnius ad alteram relationis operationem, vt cognita vnius magnitudinis quantitate, eius opera ſiue auxilio alterius propoſitæ magnitudinis quantitatem vſque adeo præcisè ſiue exactè nouerimus, quod nihil amplius ad earum quantitatum intelligentiam, requiratur. Quod autem hoc decimo proponet Euclides, aliud expectat negotium. Nam his cognitis quantitatibus per earum naturæ intelligentiam, ſimulac numerorum obſequio, incertarum magnitudinum quantitates generare docebit. Et licet quo differant, à cognitis illæ incertè reticere cogatur (ob occultatam nobis à natura cognitionem) tamen propoſitarum ſiue cognitarum legibus, quid inter ſe illæ incognitæ aut incertæ habeant affinitatis proferre facile poterit. Inchoans Euclides itaque à præcipuo quantitatum notarum vinculo, eo ſolo ſcilicet quo vnius magnitudinis ad alteram habitudo (quæ ratio dicitur) ſit. Commenſurabiles cœpit dicere magnitudines eas quas eadem magnitudo (quam communem vocant menſuram) ita præcisè conſtituit, vt alteram earum per quaſdam vnitates repetitam. Reliquam verò per quotuis ex eiſdem vnitatibus repetitam, præcisè conſtituat, illæ commenſurabiles, ſiue communem menſuram habentes, dici poterunt. Hoc autem dixit vt quàm differant ab his quas eadem vnitas quibusuis repetitionibus complere vtraſque non poteſt (quæ proxima diffinitione patefient) edoceat.
+
+[Curated heading level=2 type=definitions: Diffinitio ſecunda.]
 
 ## Diffinitio ſecunda.
 

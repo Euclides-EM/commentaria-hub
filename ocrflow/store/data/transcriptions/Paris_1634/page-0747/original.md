@@ -11,6 +11,10 @@ contr. 9. a. 1.
 
 [Figure: labels arranged F D E / A / H C G / B]
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XIV.]
+
 ## THEOR. XII. PROPOS. XIV.
 
 Ad quæ plana, eadem recta linea recta est; illa sunt parallela.
@@ -34,6 +38,10 @@ arbitr. | i, est ● ꝗn gh,
 1. p. 1 | ia & ib snt ——,
 hyp. | <iab & <iba snt ⊥;
 contr. 17. 1.
+
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XV.]
 
 ## THEOR. XIII. PROPOS. XV.
 

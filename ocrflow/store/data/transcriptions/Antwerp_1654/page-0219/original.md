@@ -28,6 +28,8 @@ o Per 34.l.1.
 b Per 2.l.6.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO III.]
+
 ## PROPOSITIO III.
 
 [Curated heading level=2 type=figures: Fig. 6]

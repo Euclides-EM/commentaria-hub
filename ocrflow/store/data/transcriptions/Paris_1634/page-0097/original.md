@@ -10,6 +10,10 @@ hyp. | <ebd est ∟,
 hyp. | <abd 2|3 ∟,
 2.c.13.1. | <abc 3|2 ∟.
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. XIV.]
+
 ## THEOR. VII. PROPOS. XIV.
 
 Si ad aliquam rectam lineam, atque ad eius punctum, duæ rectæ lineæ non ad easdem partes ductæ eos, qui sunt deinceps angulos, duobus rectis æquales fecerint ; in directum erunt inter se ipsæ rectæ lineæ.

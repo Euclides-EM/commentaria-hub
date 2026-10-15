@@ -8,6 +8,10 @@ egales amx baſes des angles donnez, parlas pi. les troit angles plans faiſant 
 
 Ssi auelou vn obiectoit ioy que la perpendieulaire tu ne put pas touſiours eſtreresronches, en ſorte qus ſon quarré auee le quarré de IE ſoient egaux au quarré de l’on des coſtez des angles donnez: comme par exemple ſi iceluy coſté eſtoit egal ou plus petit que HL. Ie au queeel.narrue iamau, non pus ſeuemont qui ſoit agalant. Car ſi uL &IL eſtoient egaux à aD & AE: & la baſent egale Ala bae DE, par la 8.p.1. (& ainſi des deux autres triangles) les trois ang es au poinct L ſerount egaux aux trois anglurA,B,.C, chacun au ſien: ei qui eſt euidemmens faux: Car toufiours par bmetheſe les trois angles A, B, C. ſont plus petits que quaire droicts; & par le corol. de la 1s P.les trois au poina L ſont agaux à quau droicts.
 
+[Curated heading level=2 type=propositions: THEOR. 21. PROP. XXIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 21. PROP. XXIIII.]
+
 ## THEOR. 21. PROP. XXIIII.
 
 Si vn ſolide eſt compris de plans parallels;

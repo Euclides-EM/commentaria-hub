@@ -26,6 +26,8 @@ EX poſteriori huius theorematis parte efficitur, quamlibet rectam lineam eſſe
 
 [Curated heading level=2 type=campanus: 19]
 
+[Curated heading level=2 type=problems: PROBL. 6. PROPOS. 18.]
+
 ## PROBL. 6. PROPOS. 18.
 
 [Margin]

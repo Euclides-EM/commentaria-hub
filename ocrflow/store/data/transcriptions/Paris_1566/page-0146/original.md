@@ -19,7 +19,7 @@ Hinc aſſequimur, A dato rectilineo ordinatam partem auferre, reliquum ſimile 
 
 Bina ſimilia rectilinea in ſimile ac eiſdem æquale rectilineum componere. Conſtituantur eorum ſimilia latera ad angulos rectos, vt AF FB, tum quod à ſubtendente AB ſimile ſimiliterque poſitum reliquis (per 18 huius) fiet, æquum erit per 31 huius binis.
 
-## MONITVM.
+### MONITVM.
 
 Cur autem non deduxerit Euclides modum proportionis ſimilium rectilineorum, veluti de lineis dixit decima huius & tribus eam ſequentibus. Id equidem abſoluit 22 huius. Nam duobus datis rectilineis ſimilibus tertium ſcrutari proportionale. Item duobus datis medium perquirere. Tribus quoque datis quartum ſimile ſimiliterque deſcriptum, & id genus proportionum per linearum proportiones reperiemus. Si binis ſimilis rationis lateribus tertium demus proportionale, per 11 huius. Ex eo rectilineum deſcriptum tertium erit proportionale, per 22 huius. Siquidem binis lateribus medium proportionale (per 13 huius) detur latus. Ex eo deſcriptum, medium proportionale rectilineum ſimiliter erit. Haud ſecus ſi tribus datis quartum latus, per 12 huius, detur proportionale, ex ipſo deſcriptum rectilineum ſimile, quartum erit proportionale. Nam ſi rectæ lineæ ſint proportionales, ex eis deſcripta ſimilia (per 22 huius) proportionalia erunt. Licet tamen ea vigeſimaſecunda quatuor proponat rectas. Idem ſentiendum eſt de tribus, nempe cum bis repetetur media, fient quatuor, quod vnum ac idem eſt hoc loco, horum vltimum reliquit Euclides, ſcilicet binis datis, bina media continuè proportionalia ſcrutandum, diſcentibus ſimul ac docentibus, vt ludant eorum ingenia in
 

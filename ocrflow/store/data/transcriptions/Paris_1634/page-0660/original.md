@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. XLVI. PROPOS. LXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XLVI. PROPOS. LXIV.]
+
 ## THEOR. XLVI. PROPOS. LXIV.
 
 Quadratum majoris ad rationalem applicatum, latitudinem facit ex binis nominibus quartam.
@@ -37,6 +41,10 @@ l.60.10 | ▭lf 2|2, 2▭.acb,
 α.hyp. | □.ac, incomm. □.bc,
 l.60.10 | □.dl 3|2 □.lg..□.——, incomm. dl,
 concl. 4d48.10 | dg, est binom. 4.
+
+[Curated heading level=2 type=propositions: THEOR. XLVII. PROPOS. LXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XLVII. PROPOS. LXV.]
 
 ## THEOR. XLVII. PROPOS. LXV.
 

@@ -3,9 +3,19 @@
 
 # EUCLIDIS ELEMENTORUM
 
+[Curated heading level=1 type=propositions: LIBER TERTIUS.]
+
+[Curated heading level=1 type=theorems: LIBER TERTIUS.]
+
+[Curated heading level=1 type=problems: LIBER TERTIUS.]
+
+[Curated heading level=1 type=definitions: LIBER TERTIUS.]
+
 # LIBER TERTIUS.
 
 ## DEFINITIONES.
+
+[Curated heading level=2 type=definitions: DEF. I.]
 
 ### I.
 
@@ -13,9 +23,13 @@
 
 ‘Hæc non eſt definitio ſed Theorema cujus veritas patet; ſi enim ‘circuli, quorum quæ ex centris ſunt æquales, ſibi mutuo applicentur ‘ita ut centra eorum congruant, congruent et ipſi circuli.’
 
+[Curated heading level=2 type=definitions: DEF. II.]
+
 ### II.
 
 Recta linea circulum contingere dicitur, quæ tangens circulum et producta ipſum non ſecat.
+
+[Curated heading level=2 type=definitions: DEF. III.]
 
 ### III.
 

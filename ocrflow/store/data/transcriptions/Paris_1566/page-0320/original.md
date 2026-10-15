@@ -5,7 +5,7 @@
 
 [Figure: two parallel planes B A and G T cut by a plane rising to a point K, with points Z, D, T above and E, A, G, I below]
 
-## Corollarium.
+### Corollarium.
 
 Si bina plana eidem plano parallela fuerint, & ad inuicem parallela erunt, aut idem planum efficient.
 
@@ -13,9 +13,11 @@ Si bina plana eidem plano parallela fuerint, & ad inuicem parallela erunt, aut i
 
 [Figure: an upper plane with points A, C, B and a lower plane D G H K crossed by oblique lines meeting at E]
 
-## MONITVM.
+### MONITVM.
 
 *Præcedens corollarium huic theoremati contulimus, futuris demonſtrandis admodum vtile, quod enim trigeſima primi diſcußimus in lineis, idem in planis hoc corollario docemus, vt in ſolidis exponendis eorum baſes in eodem eſſe plano huius adminiculo ſæpius oſtendamus. Quare eadem neceßite qua trigeſima primi compulſi, diſiũctiuam conferre voluimus, vt ſcilicet parallela, aut equidem in eodem plano degentia ſint parallela plana veluti rectas eidem rectæ parallelas inter ſe aut parallelas, aut rectam eandem conſtituentes trigeſima primi diximus.*
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
 
 ## Propoſitio decimaſeptima.
 

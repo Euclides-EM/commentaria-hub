@@ -2,6 +2,10 @@
 
 Les figures ABHG & CDFE sont posées semblablement sur AB & CD, à cause que les lignes AB & CD sont homologues, c'est à dire que l'vne n'est pas antecedent & l'autre consequent.
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XIX.]
+
 ## THEOR. XIII. PROPOS. XIX.
 
 Les triangles semblables sont entr'eux en raison doublée de leurs costez de mesme raison.

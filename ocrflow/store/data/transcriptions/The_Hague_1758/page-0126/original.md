@@ -3,6 +3,10 @@
 
 [Diagram: two internally tangent circles ABCD and AGDF and an externally tangent circle BECH, with centres M and N and labelled points A, B, C, D, E, F, G and H]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. THEOREME XII.]
+
+[Curated heading level=2 type=theorems: THEOREME XII. PROPOSITION XIII.]
+
 ## PROPOSITION XIII. *THEOREME XII.*
 
 {dropcap:D|lines=2|style=plain}Eux cercles (ABCD, AGDF ou ABCD, BECH), qui ſe touchent; ſoit intérieurement; ſoit extérieurement: ne ſe touchent pas en plus d’un point.

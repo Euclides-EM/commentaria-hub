@@ -1,6 +1,12 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 268 -->
 
+[Curated heading level=1 type=problems: Livre VIII]
+
+[Curated heading level=2 type=propositions: PROPOSITION XIII. PROBLÊME.]
+
+[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION XIII.]
+
 ## PROPOSITION XIII.
 
 ### PROBLÊME.

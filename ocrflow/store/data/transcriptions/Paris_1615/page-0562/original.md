@@ -4,6 +4,10 @@
 
 Sciuc.onnerei du. drgi. auc.es pei toumitetele t ndirt ieiſere.. An laneſci ſueteilx ſnee mnc iiarnepe Steamneiis.tmeuiiroit laintealng. lis viiſaSler loirturaelie: tdintux igc nasrtua maairſii aiairiettiſean roi Mrtenias ſ:reſeaie:: e-urifa aati ci Auprou ſont imeſoiceirie ifein: cagrpeAmneu: mies a ius temneraeneirrſa Atu-ſe,& ci,iarettiratcent fii -an Aine. hmrnouiies carneurouyor, ms Aanſus ſimenurroie ſioiniie ditairi eae Aoin toiuiie vuiirae ar uliuns iriiir egre eſtoit à prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 2. PROP. II.]
+
+[Curated heading level=2 type=theorems: THEOR. 2. PROP. II.]
+
 ## THEOR. 2. PROP. II.
 
 les cereſes ſontr vns laute, commelquarrez deſcrts de leurs diamerres.

@@ -9,6 +9,10 @@ Maneat angulus A D C, vt modò, ad Centrum : & conſtituatur ad peripheriam A B 
 
 Id verò patet ex hac ipſa Decimanona. Nam A D E angulus ad Centrum, duplus eſt anguli A B D : quum ſint ſuper eandem peripheriam A E. Eadem ratione, C D E duplus eſt ipſius C B D. Quare duo anguli A D E & C D E ſimul ſumpti, dupli ſunt ad totum A B C angulum, Quod erat oſtendendum.
 
+[Curated heading level=2 type=propositions: THEOREMA 18, PROPOSITIO XX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 18, PROPOSITIO XX.]
+
 ## THEOREMA 18, PROPOSITIO XX. Theoni 21.
 
 In Circulo, qui in eodem ſegmento ſunt anguli, inter ſe ſunt æquales.
@@ -23,6 +27,10 @@ Connectatur A B. Ac tum ſi duæ linearum aliquæ ſe in Centro ſecent : erit m
 
 Si verò fuerint in minori ſegmento, vt in A E B : tum connexis A F & B F : atque item ductis lineis ab vnoquoque angulorum, per Centrum, ad peripheriam (hìc verò ſatis fuerit duxiſſe E F G:) erit totum ſpatium circa angulum F, duplum ad vnumquenque illorum. Quare ipſi inter ſe æquales, Quod fuit demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 19, PROPOSITIO XXI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 19, PROPOSITIO XXI.]
+
 ## THEOREMA 19, PROPOSITIO XXI. Theoni 22.
 
 Quadrilaterotum in Circulis inſcriptorum, duo anguli inter ſe oppoſiti, duobus rectis ſunt æquales.
@@ -32,6 +40,10 @@ Sit Quadrilaterum A B C D, in Circulo eiuſdem deſignationis, A B C D inſcript
 [Diagram: circle with D at the upper left, C at the upper right, A at the lower left and B at the lower right, with sides and crossing diagonals]
 
 Ducantur in Quadrilatero duæ lineæ dimetientes, A C & B D. Eruntq́;, per antecedentem, duo anguli A B D & A C D, qui in eodem ſegmento A B D, æquales : Duo itidem C B D & C A D, qui in eodem ſegmento B D C, æquales. Totus itaque B angulus, duobus A C D & C A D æqualis. At duo ipſi A C D & C A D cum toto D, ſunt duobus rectis æquales, per trigeſimamſecundam Primi. Sunt igitur duo B & D, anguli oppoſiti, duobus rectis æquales. Eadé argumétatione probabimus duos A & C oppoſitos, duobus rectis eſſe æquales.
+
+[Curated heading level=2 type=propositions: THEOREMA 20, PROPOSITIO XXII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 20, PROPOSITIO XXII.]
 
 ## THEOREMA 20, PROPOSITIO XXII. Theoni 23.
 

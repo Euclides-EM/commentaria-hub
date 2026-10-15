@@ -3,6 +3,10 @@
 
 quinque igitur anguli GHK, HKL, KLM, LMG, MGH inter ſe æquales ſunt; æquiangulum igitur eſt GHKLM pentagonum. oſtenſum autem eſt etiam æquilaterum eſſe; et circumſcriptum eſt circa ABCDE circulum. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XIII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XIII. PROB.]
+
 ## PROP. XIII. PROB.
 
 [Subhead]

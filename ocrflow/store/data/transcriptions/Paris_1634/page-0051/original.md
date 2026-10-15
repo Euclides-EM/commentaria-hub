@@ -1,16 +1,22 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=definitions: XXXI.]
+
 ### XXXI.
 
 Rhombus autem, quæ æquilatera, sed rectangula non est, vt A. | Rhombe est vne figure equilatere, mais n'est pas rectangle, comme A.
 
 [Figure: rhombe A, parallelogramme incliné]
 
+[Curated heading level=2 type=definitions: XXXII.]
+
 ### XXXII.
 
 Rhomboïdes verò, quæ aduersa & latera & angulos habens inter se æquales, neque æquilatera est, neque rectangula, vt GLMH. | Rhomboïde est vne figure, laquelle a les costez opposez egaux, & les angles opposez außi egaux, mais n'est pas equilatere ny rectägle, comme GLMH.
 
 [Figure: rhomboïde GLMH, H en haut à gauche, M en haut à droite, G en bas à gauche, L en bas à droite]
+
+[Curated heading level=2 type=definitions: XXXIII.]
 
 ### XXXIII.
 

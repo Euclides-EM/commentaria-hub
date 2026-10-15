@@ -6,6 +6,8 @@ cōmensurabiles,& γ,δ,igitur(per 11 decimi)potentia tantum sunt cōmensurabile
 
 [Diagram: four horizontal lines of decreasing length in the right margin, labelled above: α R. 9 — γ R. R. 54 — δ R. 6 (sic, apparently for β R. 6) — δ R. R. 24]
 
+[Curated heading level=2 type=problems: Problema 5 Propositio 28]
+
 ## Eucli.ex Zamb. Problema 5 Propositio 28
 
 [Curated heading level=3 type=zamberti_sequence: 28.]

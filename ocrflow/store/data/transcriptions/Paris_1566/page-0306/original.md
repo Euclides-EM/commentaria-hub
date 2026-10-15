@@ -4,11 +4,17 @@
 
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber vndecimus.
 
+[Curated heading level=1 type=definitions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber vndecimus.]
+
+[Curated heading level=2 type=definitions: Diffinitio prima.]
+
 ## Diffinitio prima.
 
 {dropcap:S|lines=6|style=decorated|decoration="large foliate woodcut initial"}Olidum eſt quod longitudinem, latitudinem & profunditatem habet, ſolidi verò termini ſunt ſuperficies.
 
 *Tertium quantitatis genus diffinit Euclides. Primùm quidem fuiſſe lineam, quæ longitudinem tantùm habet. Secundùm verò ſuperficiem, quæ binas dimenſiones ſeſe ad rectos dirimentes habet, ſcilicet longitudinem ac latitudinem. Tertium igitur erit, Solidum tribus menſuris dimenſum ſeſe inuicem ad rectos angulos ſecantibus, longitudine, latitudine, ac ſublimitate, quam alij craßitudinem, profunditatem, ſeu denſitudinem nuncupant, quorum intercapedinem nihili faciemus, Cùm illæ tres dimenſiones tres ſint tantùm longitudines, ſeſe ad angulos rectos dirimentes in eodem ſubiecto, quod ideo ob tres illas dimenſiones quibus menſum eſt, ſolidum dicitur, præter illud alia quantitas plures dimenſiones habere regulares non poteſt. Nam ad idem ſignum plures tribus lineis ad rectos ſeſe ſecantes concurrere non poſſunt. Conuerti itaque poterit hæc diffinitio, vt quæcunque fuerit ſubiecti natura tribus illis dimenſionibus ornata, ſolidum dici poßit. Quod quidem ſolidum ſimiliter dicemus terminari ſuperficiebus (ac ſuperficiem lineis, lineam verò ſignis terminari antea diximus) ſub quæ ipſarum clauſura contineri, illud præter reliqua quantitatis genera ſibi aſſumens. Nam ſuperficies tantùm finita non concluſa eſt lineis, linea verò terminata non autem menſa, nec quidem concluſa ſignis. Solidum autem ſuperficiebus terminatum, concluditur eiſdem.*
+
+[Curated heading level=2 type=definitions: Diffinitio ſecunda.]
 
 ## Diffinitio ſecunda.
 
@@ -17,6 +23,8 @@ Recta linea ad planum recta eſt, quando ad omnes ipſam tangentes rectas in ſu
 *Veluti ſi ad planum C D E erigatur recta A B eo ſitu quo quælibet rectæ in ipſo plano ductæ ipſam A B tangentes cum illa angulos rectos efficiunt, vt lineæ A C A E A D, tunc recta A B dicetur recta ad illud planum C D E, eò quòd à contactu plani quælibet in plano rectæ, ad ipſam rectos concludant angulos, hæc methodum concipit à decima primi diffinitione, cùm idem agat in ſuperficiem hæc, quod prior in lineam, ſcilicet vtraque vtrobique rectos angulos.*
 
 [Figure: a plane figure with vertices C, D and E, with a vertical line rising from the point A to B and lines from A to the vertices C, D and E]
+
+[Curated heading level=2 type=definitions: Diffinitio tertia.]
 
 ## Diffinitio tertia.
 

@@ -29,6 +29,10 @@ suppos. | ad u cb est 10, δ
 1.s.1.d.2 | ▭.ced est 6,
 concl. 16.app. | ▭.adb + ▭.ced 2|2 ▭.aeb u 56.
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. XVIII.]
+
 ## THEOR. VII. PROPOS. XVIII.
 
 Snelius in Apollonio Batauo.

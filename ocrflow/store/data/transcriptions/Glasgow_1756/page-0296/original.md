@@ -1,6 +1,10 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 283 -->
 
+[Curated heading level=2 type=propositions: PROP. XXXIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXIX. THEOR.]
+
 ## PROP. XXXIX. THEOR.
 
 {dropcap:S|lines=2|style=plain}I in ſolido parallelepipedo oppoſitorum planorum latera ſecentur bifariam, per ſectiones vero plana ducantur; communis planorum ſectio et ſolidi parallelepipedi diameter ſe mutuo bifariam ſecabunt.

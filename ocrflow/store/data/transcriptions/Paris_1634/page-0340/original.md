@@ -50,6 +50,10 @@ hyp. | ba π ac 2|2 bd π dc,
 29.1 | <dac 2|2 <ace,
 2.concl. 1.a.b | <dab 2|2 <dac.
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. IV.]
+
 ## THEOR. IV. PROPOS. IV.
 
 Æquiangulorum triangulorum proportionalia

@@ -26,6 +26,8 @@ CAMP. Hæc 53, adhuc te sustinet ociari a pingēdis figuris, cõtēta enim est p
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
+[Curated heading level=2 type=theorems: Theorema 41 Propositio 59]
+
 ## Eucli. ex Zamb. Theorema 41 Propositio 59
 
 [Curated heading level=3 type=zamberti_sequence: 59.]

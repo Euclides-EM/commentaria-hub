@@ -27,6 +27,8 @@ SIT data recta AC, & diuidenda proponatur recta AB, (quæ minor non ſit quam du
 
 [Curated heading level=2 type=campanus: 13]
 
+[Curated heading level=2 type=theorems: THEOR. 9. PROPOS. 14.]
+
 ## THEOR. 9. PROPOS. 14.
 
 [Curated heading level=3 type=incipit: AEQVALIVM]

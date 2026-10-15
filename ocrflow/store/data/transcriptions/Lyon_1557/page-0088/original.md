@@ -1,6 +1,10 @@
 <!-- Running title: LIBER III. -->
 <!-- Page number: 79 -->
 
+[Curated heading level=2 type=propositions: PROBLEMA 2, PROPOSITIO XVI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 2, PROPOSITIO XVI.]
+
 ## PROBLEMA 2, PROPOSITIO XVI. Theoni 17.
 
 A puncto extra Circulum ſignato, lineam ad Circuli contactum ducere.
@@ -26,6 +30,10 @@ Sit linea A B, ſecans Circulum A B C, cuius Centrum D, in punctis A & B. Volo i
 Diuido A B bipartitò in puncto E. Tum per E punctum & per Centrum D, duco Diametrum C D E F. Duco poſtmodùm G F H lineam ad angulos rectos ipſi C F Diametro. Dico G F H, quæ, per Conſectarium decimæquintæ, tangit Circulum, eſſe ipſi A B parallelum.
 
 Nam quum recta C F in vtranq́; cadens, faciat omnes angulos qui ad E rectos, per tertiam huius : ſintq́; duo anguli qui ad F poſiti recti : erunt A B & G H paralleli, per vigeſimamnonam Primi, Quod erat demõſtrandum. Hæc ad Figuras Circulis inſcribendas percommoda.
+
+[Curated heading level=2 type=propositions: THEOREMA 15, PROPOSITIO XVII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 15, PROPOSITIO XVII.]
 
 ## THEOREMA 15, PROPOSITIO XVII. Theoni 18.
 

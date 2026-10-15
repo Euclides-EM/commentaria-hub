@@ -12,6 +12,10 @@ Car purs qu’elle meſure AB, elle meſurera suſſi CE ſon egale: & ſe meſu
 
 De cecy eſt manifeſte que ſi vne grandeur meſure deux grandeurs, qu’elle meſurera außi la plus grande cmmuxe meſure d’icetles. Car nl a eſte demonſtré que ſi G meſure A8 & CD, qu eite meſurera außi leur plus grande commune meſure ED.
 
+[Curated heading level=2 type=propositions: PROBL. 2. PROP. IIII.]
+
+[Curated heading level=2 type=problems: PROBL. 2. PROP. IIII.]
+
 ## PROBL. 2. PROP. IIII.
 
 Trois grandeurs commenſurables eſtans donnees, trouuer la plus grande cõmune meſure d’icelles.

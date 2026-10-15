@@ -14,6 +14,10 @@ Car eſtans menees les deux lignes AD & BD, l’angle ADB dans le demy cercle ſ
 
 De cecy eſt eu dent qu’vne ligne droicte tiree perpendiculairement de quelconque poinctdi diametre d’vn cercle, iuſques à la circonference, eſt mo: enne proportion, entre les ſegmens du diametre faicts par icelle perpendiculaire. Car de quelque poinct pris au diametre A B, eſtant leuee vne perpendiculaire iuſques a la circonfereuce, par les meſmes raiſons que deſſus, icelle perpend. ſera moyenne propo. entre les deux ſegmens du diametre AB.
 
+[Curated heading level=2 type=propositions: THEOR. 9. PROP. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 9. PROP. XIV.]
+
 ## THEOR. 9. PROP. XIV.
 
 Des parallelogrãmes egaux qui ont vn angle egal a vn angle; les coſtez au long des angles egaux ſont reciproques: & les parallelogrammes qui ont vn angle egal a vn angle, & les coſtez au long des angles egaux reciproques, ſont auſſi egaux.

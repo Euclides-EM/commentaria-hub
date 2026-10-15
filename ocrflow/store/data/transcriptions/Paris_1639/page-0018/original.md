@@ -2,9 +2,21 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: PREMIER LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=theorems: PREMIER LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=problems: PREMIER LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=definitions: PREMIER LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=axioms: PREMIER LIVRE DES ELEMENTS D'EVCLIDE.]
+
 # PREMIER LIVRE DES ELEMENTS D'EVCLIDE.
 
 ## DEFINITIONS.
+
+[Curated heading level=2 type=definitions: DEF. I.]
 
 ### I.
 

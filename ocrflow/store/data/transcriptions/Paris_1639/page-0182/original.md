@@ -31,6 +31,10 @@ hyp. | ae Ⅱ eb *eſt* 2,
 9.a.1 | □.ab *eſt* 8,
 ſ.46.1 | ab *eſt* √.8.
 
+[Curated heading level=2 type=propositions: PROBL. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=problems: PROBL. VII. PROPOS. VII.]
+
 ## PROBL. VII. PROPOS. VII.
 
 A l'entour d'vn cercle donné, descrire vn quarré.

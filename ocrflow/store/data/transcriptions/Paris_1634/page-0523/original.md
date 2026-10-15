@@ -20,6 +20,10 @@ Demonstr.
 hyp. | a, est nr. cub.
 concl. 23.8 | b, est nr. cub.
 
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXVI.]
+
 ## THEOR. XXIV. PROPOS. XXVI.
 
 Similes plani numeri rationem inter se habent, quam quadratus numerus ad quadratū numerum.

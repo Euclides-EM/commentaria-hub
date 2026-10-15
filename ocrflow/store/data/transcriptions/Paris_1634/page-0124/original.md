@@ -18,6 +18,10 @@ hyp. | ab 2|2 cd,
 4.1. | <acb 2|2 <cbd,
 2.cöcl. 27.1. | ac == bd.
 
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXXIV.]
+
 ## THEOR. XXIII{printer-error-correction:XXIV}. PROPOS. XXXIV.
 
 Parallelogrammorum spatiorum æqualia sunt inter se, quæ ex aduerso & latera, & anguli ; atque illa bifariam secat diameter.

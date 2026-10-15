@@ -6,6 +6,8 @@ a rationali positæ in longitudine. Super eam igitur lineetur f g h semicirculus
 
 [Diagram: semicircle f g h on diameter f g, with h on the arc towards the left and chords f h and h g drawn; below it five lines: a solid line a, a dotted line b, a dotted line c, and on one row a short dotted line d and a longer dotted line e]
 
+[Curated heading level=2 type=problems: Problema 13 Propositio 48]
+
 ## Eucli.ex Zamb. Problema 13 Propositio 48
 
 [Curated heading level=3 type=zamberti_sequence: 48.]

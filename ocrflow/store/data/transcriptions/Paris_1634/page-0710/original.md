@@ -7,6 +7,10 @@ suppos. | ▭.acb, est medi.
 β. 24.10 | ▭.dfe, est medi.
 2 concl. 39. 10 | de, est apotom. 2.. medi.
 
+[Curated heading level=2 type=propositions: THEOR. LXXXII. PROPOS. CVI.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXXII. PROPOS. CVI.]
+
 ## THEOR. LXXXII. PROPOS. CVI.
 
 Recta linea minori commensurabilis; & ipsa minor est.

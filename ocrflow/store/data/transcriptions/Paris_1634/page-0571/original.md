@@ -1,16 +1,22 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. IX.]
+
 ## DEFINIT. IX.
 
 Et huic commensuralia quidem Rationalia.
 
 *Et les figures commensurables à ce quarré rationel, soient appellees Rationelles.*
 
+[Curated heading level=2 type=definitions: DEFINIT. X.]
+
 ## DEFINIT. X.
 
 Huic vero incommensurabilia, Irrationalia dicantur.
 
 *Mais les figures incommensurables au quarré rationel, soient appellees Irrationelles.*
+
+[Curated heading level=2 type=definitions: DEFINIT. XI.]
 
 ## DEFINIT. XI.
 

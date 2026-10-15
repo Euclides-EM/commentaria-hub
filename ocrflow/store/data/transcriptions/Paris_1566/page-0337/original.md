@@ -2,9 +2,11 @@
 
 *bifariam ſecanti. Cùm igitur totum ſua parte maius exiſtat, neceſſe eſt alteram harum ſectionum dimidio ſolidi eſſe minorem, & ideo reliquam maiorem. Omne itaque planum per centrum parallelepipedi extenſum, &c.*
 
-## MONITVM.
+### MONITVM.
 
 *Diſiunctiuam huic theoremati contulit Theon, vt illud in cubo cenſeat intelligi, ſimiliter & Cãpanus in Cubo tantùm illud explicat, licet ſub parallelepipedo Cubum concipiamus: nos itaque diſciplinæ genus ſectantes, dicemus parallelepipedum in ſolidis eadem frui dignitate, qua parallelogrammum in planis: nam vt hoc quadrata, rectangula, rhombos, & rhomboides continet, ſic illud Cubos, ſolida altero longiora rectangula, aliáque non rectangula, quorum ſtantes in eiſdem ſunt rectis, & reliqua quorum ſtantes in eiſdem rectis non conſiſtunt, quorum ſingulorum oppoſitæ baſes & latera emper{printer-error-correction:ſemper} æqualia, ſimilia & parallela exiſtent, vnde illud ſolidum inter regulares enumerabimus figuras, tamen non inter perfectas, obque eius regularem conſtructionem corollarium præfatum (ſequuturis vtile) eidem coniunximus.*
+
+[Curated heading level=2 type=propositions: Propoſitio quadrageſima.]
 
 ## Propoſitio quadrageſima.
 
@@ -14,7 +16,7 @@ Si fuerint bina Priſmata ſub æquis altitudinibus, & alterum quidem baſim par
 
 [Diagram: two parallelepipeds in perspective with internal diagonals, the left labelled with the letters G, D, E, A, B, K and X, the right labelled with the letters O, M, L, C, I, K, T and N]
 
-## Corollarium.
+### Corollarium.
 
 Ex prælibatis fit manifeſtum Priſmata ac ſolida ſub binis poligonis æquis ſimilibus & parallelis, Reliquis vero parallelogrammis comprehenſa, ad ſeinuicem poſſe eiſdem conferri legibus, ac parallelepipeda. *Cùm enim (ex hac & coroll. ſecundo vigeſimæquintæ huius) conſtet, omne parallelepipedum in bina ſimilia & æqualia reſolui Priſmata, eiuſdẽ cum ipſo verticis, Super eadem verò aut dimidia eiuſdem baſi, eiſdémque ipſius ſolidi lateribus terminata, & ſimilis rationis: Dicemus Priſmata ſuorum parallelepipedorũ ſequi diſciplinam, quoniam ſi Priſma inſtar ſui ſolidi ſecandum (ex vigeſimaquinta huius) fuerit, docuimus corollariis eiuſdem, idem ſequi quod in parallelepipedo proponitur, æquè in Priſmate, vt in ſolido propoſito, à poligonis præfatis comprehenſo. Si autem ex vigeſimaſeptima deſcribendum offeramus, Priſma ex data recta dato ſimile optatum*
 

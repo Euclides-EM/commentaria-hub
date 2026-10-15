@@ -13,6 +13,8 @@ An die fürgeben lini henckh ain andere / in deren müße vom puncten an mit vnv
 
 Mir iſt vnverborgen / das ſich die gelehrten mit diſer vnnd volgender ettlicher propoſition ordnung nitt vertragen / ſonder ainer diſe / ain anderer andre vorſezt. Daran aber dem Teutſchen Leſer nichts gelegen / vnnd es zwar der ſachen weder gibt noch nimpt. Souil die Demonſtration belangt / möcht es ettwas vnderſcheids haben. Jch bin dem Griechiſchen text nachgangen / vnd zwar dieweil diſe propoſition ſchlechtlich auß der andern diß bůchs beweiſen wirt / geht ſy nit vnbillich den andern vor / &c.
 
+[Curated heading level=2 type=propositions: X. Die zehendt propoſition]
+
 ## X. Die zehendt propoſition.
 
 [Subhead]

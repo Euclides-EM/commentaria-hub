@@ -1,5 +1,7 @@
 [Ornament: horizontal typographic rule]
 
+[Curated heading level=1 type=propositions: Livre VIII]
+
 # LIVRE VIII.
 
 [Subhead]
@@ -13,6 +15,10 @@ LES CORPS RONDS.
 [Margin]
 E. 250.
 [/Margin]
+
+[Curated heading level=1 type=definitions: Livre VIII]
+
+[Curated heading level=2 type=definitions: Définition I.]
 
 [Curated heading level=3 type=numbered_item: 1.]
 
@@ -29,6 +35,8 @@ Toute section PQGH faite suivant l’axe, est un rectangle double du rectangle g
 [Margin]
 F. 251.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Définition II.]
 
 [Curated heading level=3 type=numbered_item: 2.]
 

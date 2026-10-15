@@ -4,11 +4,15 @@ Proponatur certa linea AB ad quam applicetur rectangulum AG certum, efficiens la
 
 [Diagram: rectangle divided by a vertical line, with A at the top, G at the lower left, B at the lower middle and D at the lower right]
 
-## Lemma.
+[Curated heading level=1 type=lemma_target: Lemma ad X.21]
+
+### Lemma.
 
 Potens incertam aream, incerta eſt recta. Poßit recta A aream B incertam: Dico rectam A incertam eſſe. Nam ſi certa eſſet, ea poſſet certum, ſed non poteſt, imò incertum B ex hypotheſi: igitur recta A incerta eſt. Potẽs itaque incertam, &c. Hæc vndecimæ diffinitionis primam partem ferè repetiuit.
 
 [Diagram: rectangle labelled B, with a separate horizontal line labelled A below it]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaprima.]
 
 ## Propoſitio vigeſimaprima.
 
@@ -18,11 +22,13 @@ Comprehendatur rectangulum AG ſub rectis AB BG, quæ quidem ſint certæ potent
 
 [Diagram: rectangle divided by a vertical line, with G at the upper left, 4 and B along the top, D at the upper right and A at the bottom; the left compartment contains ℞ 160 and the divider bears ℞ 20]
 
-## Corollarium.
+### Corollarium.
 
 Sub certa & incerta comprehenſum, incertum eſt. Nam ſi AB ſit certa, GB verò incerta, BD recta (ipſi AB æqualis) erit ad BG vt AD ad AG. Incommenſurabile igitur erit AG ipſi AD certo, & igitur AG ſub certa & incerta AB BG incertum erit, per decimam diffinitionem huius.
 
-## Lemma.
+[Curated heading level=1 type=lemma_target: Lemma ad X.22]
+
+### Lemma.
 
 Duabus datis rectis erit ſicut prima ad ſecundam, ſic quod à prima ad id quod ſub binis continetur. Et inſuper prima ad ſecundam, ſicut quod ſub binis ad quod ex vltima quadratum.
 

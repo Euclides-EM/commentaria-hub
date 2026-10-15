@@ -8,6 +8,10 @@ tié EK, & ſon egai OP compris d’icelles lignes OM, MP. Et ſi iceluy rectan
 
 La rationele AB ſoit 5, AC √12 4√8. Do -c le rectangle AD ſerd √300—√200. Et pource que AE eſt √12, & EC√ 8; EF ſera √2, au quarvé de laquelle eſtant egal le rectangle de AGE; le costé AG jera ViI, & le coſté GE√3—1: Parqu oy le rectangle AH ſera √75 +s:, & la igne OM√ (√7555) & GI eſtant √75—5, MP ſera √(√75—5.) Mais EC eſtant √8, le rectangle ED double d. MT √50; ſera √200. Donc les quarrez LM, MN, feront enſemble√;o0, & les rectangles SMT√200; & partant tout le quarré LN ſera √300—√200; & par cõſequét ſon coſté OP ſera√(√75—5)—√ (√ 75—) ou bien√(√300—√200,) qui eſt ligne pouuant deux mediaux.
 
+[Curated heading level=2 type=propositions: THEOR. 43. PROP. LXI. Six. 5.]
+
+[Curated heading level=2 type=theorems: THEOR. 43. PROP. LXI. Six. 5.]
+
 ## THEOR. 43. PROP. LXI. Six. 5.
 
 Le quarré d’vn binome, appliqué ſur vne ligne rationele, faict l’autre coſté binome premier.

@@ -32,6 +32,10 @@ d.α. | <adb 2|2 <acb,
 15.1 | <afd 2|2 <bfc,
 2.cōcl. 1.c.32.1 | <dac 2|2 <dbc.
 
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XXII.]
+
 ## THEOR. XX. PROPOS. XXII.
 
 Quadrilaterorum in circulis descriptorum anguli, qui ex aduerso, duobus rectis sunt æquales.

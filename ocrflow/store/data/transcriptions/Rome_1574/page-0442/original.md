@@ -13,6 +13,8 @@ Itaque cum rurſus ſit B G, ad A B, vt E H, ad D E; & A B, ad C, vt D E, ad F; 
 
 [Curated heading level=2 type=campanus: 25]
 
+[Curated heading level=2 type=theorems: THEOR. 25. PROPOS. 25.]
+
 ## THEOR. 25. PROPOS. 25.
 
 [Curated heading level=3 type=incipit: SI]

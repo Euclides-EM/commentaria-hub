@@ -2,6 +2,10 @@
 
 <!-- Running title: Euclidis. -->
 
+[Curated heading level=2 type=propositions: Der XXXIX. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 29. Beweiß-Stück. Der XXXIX. Vortrag.]
+
 ## Der XXXIX. Vortrag.
 
 ## Das 29. Beweiß-Stück.

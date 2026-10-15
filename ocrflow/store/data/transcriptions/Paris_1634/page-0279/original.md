@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. X.]
+
 ## DEFINIT. X.
 
 Cùm autem tres magnitudines proportionales fuerint, prima ad tertiam duplicatam rationem habere dicetur eius, quam habet ad secundam : at cùm quatuor magnitudines proportionales fuerint, prima ad quartam triplicatam rationem habere dicetur eius quam habet ad secundam, & semper deinceps, vno amplius, quandiu proportio extiterit.

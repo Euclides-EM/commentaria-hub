@@ -3,6 +3,8 @@
 
 [Curated heading level=2 type=campanus: 12]
 
+[Curated heading level=2 type=theorems: THEOR. 9. PROPOS. 11.]
+
 ## THEOR. 9. PROPOS. 11.
 
 [Margin]

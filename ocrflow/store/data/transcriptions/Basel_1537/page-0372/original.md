@@ -4,6 +4,8 @@
 
 quæ ex diffinitione superficiei super aliam superficiē orthogonaliter erectæ, cum linea f g continebit angulum rectum : per quartā igitur huius erit linea f g, perpendicularis ad superficiem assignatā. Eodem quoq̃ modo protracta alia linea à puncto f in superficie assignata, quæ sit perpendicularis ad lineam f d, sequetur ex diffinitione prædicta & ex quarta huius, lineam f h esse perpendicularem ad superficiem assignatam, quod est impossibile per 13 huius. Quod si confiteare lineam e esse perpendicularē ad lineam f b, sed non ad lineam f d, sequetur modo consimili duas lineas e f & f h esse perpendiculares ad superficiem assignatam. Quod nihil minus est impossibile.
 
+[Curated heading level=2 type=theorems: Theorema 17 Propositio 19]
+
 ## Eucli. ex Zamb. Theorema 17 Propositio 19
 
 [Curated heading level=3 type=zamberti_sequence: 19.]
@@ -31,6 +33,8 @@ THEON ex Zamber. Bina etenim plana α β, β γ, subiecto plano ad angulos sint 
 CAMPANVS. Sint tres lineæ a b, a c, a d, pyramidaliter erectæ supra superficiem b c d, cōtinentes tres superficiales angulos, ex quibus solidus perficitur angulus in puncto a. Dico quoslibet duos ex ipsis superficialibus angulis solidum angulum in puncto a constituentibus, pariter acceptos, tertio esse maiores. Si enim hi tres anguli superficiales fuerint sibi inuicem æquales, aut si duo tantū æquales existente tertio minore utrolibet duorum æqualium, constat per communem scientiam uerum esse quod dicitur. Quod si eorum unus utrolibet duorum reliquorū maior fuerit siue illi duo ponantur æquales siue non æquales, adhuc constat illum maiorem & utrumlibet duorum reliquorū pariter acceptos, tertio esse maiores. Sed & illos duos minores pariter acceptos hoc tertio qui maior utrolibet ponitur, esse maiores, sic collige. Esto enim trium propositorū angulorum superficialiū angulus c a d, maior utrolibet reliquorū duorum. Ex ipso ergo abscindam angulum e a d æqualem angulo b a d, protracta linea a e. Et sumam ex hac linea a e, lineam a g, & ex linea a b, lineam a f, quas ponam esse æquales. Et protraham lineam à puncto g qualitercunq̃ contingat, in superficie duarum linearū a c & a d, quousq̃ secet a c in puncto h, & a d in puncto k, & ipsa sit h g k. Et producam lineas f h & f k. Cum sit igitur a f æqualis a g, posita a k cōmuni, erit per 4 primi f k æqualis k g. Et quia ex 20 primi duæ lineæ h f & f k sunt maiores linea h k, erit per conceptionem h f maior h g. Ideoq̃ per 25 primi cum sit linea a f æqualis lineæ a g, erit angulus f a l{printer-error-correction:f a h}, maior angulo h a g. Per conceptionem igitur constat duos angulos h a f, f a k, pariter acceptos, esse maiores angulo h a k. Quod erat demonstrandum.
 
 [Diagram: pyramid with apex a above base line c e d; h lies on edge a c, k on edge a d, points g and f within, with the transversal h g k and lines f h, f k drawn]
+
+[Curated heading level=2 type=theorems: Theorema 18 Propositio 20]
 
 ## Eucli. ex Zamb. Theorema 18 Propositio 20
 

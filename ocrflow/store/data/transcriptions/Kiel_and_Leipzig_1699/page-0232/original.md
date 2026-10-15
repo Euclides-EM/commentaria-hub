@@ -10,6 +10,10 @@ Und dem □ eingeschrieben ist/ n. 5. Beschr. IV.
 Ist also dem gegebenen Viereck bcde ein Kreyß fghi einge-
 schrieben. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der IX. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 9. Werck-Stück. Der IX. Vortrag.]
+
 ## Der IX. Vortrag.
 
 ## Das 9. Werckstück.

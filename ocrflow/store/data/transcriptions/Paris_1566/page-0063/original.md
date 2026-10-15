@@ -2,6 +2,10 @@
 
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber tertius.
 
+[Curated heading level=1 type=definitions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber tertius.]
+
+[Curated heading level=2 type=definitions: Diffinitio 1.]
+
 ## Diffinitio 1.
 
 {dropcap:A|lines=5|style=decorated}EQVALES circuli ſunt quorum dimetientes, vel quæ ex eorum centris, ſunt æquales.
@@ -9,6 +13,8 @@
 Æqualitatem circulorum A B & C D ideo ab æqualitate diametrorum vel ſemidiametrorum ſumit, quòd circulus vnica ſemidiametri reuolutione manente vno eius extremo, deſcribatur. Quare ſi maior fuerit ſemidiameter, maior circulus deſcribetur, ſi minor minor, ſi æqualis æqualis. Si itaque æquales ſint, quæ ex centro, neceſſarium erit circulos eſſe æquales. Nam ſi maior eſſet quæ ex centro, & circulus maior eſſet reliquo. Eadem enim comparatio ex integris diametris poteſt ſumi, non equidem poteſt dimidium augeri, ſine duplicis augmento.
 
 [Diagram: two circles with segments AB and CD]
+
+[Curated heading level=2 type=definitions: Diffinitio 2.]
 
 ## Diffinitio 2.
 
@@ -18,6 +24,8 @@ Licet lineæ rectæ ad circuli circunferentiam plures poſſint incumbere inclin
 
 [Diagram: circle labelled A tangent at B to line CD]
 
+[Curated heading level=2 type=definitions: Diffinitio 3.]
+
 ## Diffinitio 3.
 
 Circuli ſeſe adinuicem in plano tangere dicuntur, qui tangentes ſeſe inuicem non ſecant.
@@ -25,6 +33,8 @@ Circuli ſeſe adinuicem in plano tangere dicuntur, qui tangentes ſeſe inuicem
 Idem in contactu circulorum mutuo quod de lineæ ad circulum contactu dicit, vt circulus A B circulum B D tangere dicetur, eò quòd in ſigno B tantum concurrant, in eodem exiſtentes plano. Similiter B C ipſum B D tangere dicetur, eò quòd tangens non ſecat. Si enim ſeſe ſecarent, fieret ſuperficierum contactus, vel potius communitas, non tantum vnius ſigni. Quare circuli tactus ſolum vnicum commune admittit cum tangente ſignum, vt B.
 
 [Diagram: circle AB externally tangent at B to concentric circles BC and BD]
+
+[Curated heading level=2 type=definitions: Diffinitio 4.]
 
 ## Diffinitio 4.
 

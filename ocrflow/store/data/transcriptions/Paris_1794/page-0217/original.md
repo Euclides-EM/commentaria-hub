@@ -1,6 +1,10 @@
 <!-- Running title: LIVRE VI. -->
 <!-- Page number: 189 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XVII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVII.]
+
 ## PROPOSITION XVII.
 
 ### THÉORÊME.

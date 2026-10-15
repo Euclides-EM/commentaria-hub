@@ -3,6 +3,10 @@
 
 [Diagram: a bracketed bar aM divided into cells aP and aN, and below a bracketed bar M divided into cells V=P and N, with a dotted cell P adjoined]
 
+[Curated heading level=2 type=propositions: PROPOSITION V. THEOREME V.]
+
+[Curated heading level=2 type=theorems: THEOREME V. PROPOSITION V.]
+
 ## PROPOSITION V. THEOREME V.
 
 {dropcap:S|lines=2|style=plain}I une grandeur (aM) eſt autant multiple d'une autre grandeur (M), que la retranchée (aN) l'eſt de la retranchée (N), le reſte (aP) ſera autant multiple du reſte (V), que la grandeur entiére (aM), l'eſt de la grandeur entiére (M).

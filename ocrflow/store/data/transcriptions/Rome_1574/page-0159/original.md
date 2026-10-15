@@ -8,6 +8,8 @@ les duobus angulis D A C, C A B; Quare vt prius, concludetur propoſitum. Peleta
 
 [Curated heading level=2 type=campanus: 16]
 
+[Curated heading level=2 type=theorems: THEOR. 9. PROPOS. 16.]
+
 ## THEOR. 9. PROPOS. 16.
 
 [Curated heading level=3 type=incipit: CVIVSCVNQVE]

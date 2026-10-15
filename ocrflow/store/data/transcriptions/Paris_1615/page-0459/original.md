@@ -10,6 +10,10 @@ Ie dis d’auantage qu’il eſt binome troiſieſme. Car il a eſté demonſtr
 
 AB ſoit 4√73 VV8, et DE 4. Donc DH ſera √72, 1K √8. &IX. ou MF√24, qui appliquez ſur DE; DI ſera √4).IL √,, & LM ou MG √I,: & partant la toute DL ſera √8, & LG√6. Parquoy la toute DG eſt √8 —√6, qui eſt binome troiſieſme.
 
+[Curated heading level=2 type=propositions: THEO. 46. PROP. LXIIII.]
+
+[Curated heading level=2 type=theorems: THEO. 46. PROP. LXIIII.]
+
 ## THEO. 46. PROP. LXIIII.
 
 Le quarré d’vne ligne maieur, appliqué ſur vne ligne rationele, faict l autre coſté binome quatrieſme.

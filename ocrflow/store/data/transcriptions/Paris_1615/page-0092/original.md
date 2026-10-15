@@ -10,6 +10,10 @@ Soit la ligne droite AB coupee en deux egalement au poinct C, à laquelle ſoit
 
 Maintenant par la 47.p.1. le quarré de AE, coſté qui ſouſtient l’angle droict C, eſt egal aux deux quarrez des deux autres coſtez AC, CE; partant double du quarré de AC. Par meſme diſcours EG ſe trouuera double du quarré de EF, ou de CD qui luy eſt egale par la 34.p.1.ainſi les deux quarrez de AE, & EG, ou le ſeul de AG qui leur eſt egal par la 47.p.1.ſera double des deux de AC & CD. Mais par la meſme 47. p.1.il eſt egal au deux quarrez de AD & DG, ou BD ſon egal; & par conſequent les deux quarrez de AD& BD ſerõt doubles des deux de AC& CD: ce qu’il faloit prouuer.
 
+[Curated heading level=2 type=propositions: PROBL. 1. PROP. XI.]
+
+[Curated heading level=2 type=problems: PROBL. 1. PROP. XI.]
+
 ## PROBL. 1. PROP. XI.
 
 Couper vne ligne droite donnee, tellement

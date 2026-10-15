@@ -6,7 +6,7 @@ A E ſemidimetientem. Cùm dimetiens A C poßit duplum lateris B K octahedri, pe
 
 [Diagram: cube with diagonals, labelled H, F, M, O, G, I]
 
-## Corollarium.
+### Corollarium.
 
 Quinque ſolidorum laterum potentias à dimetientis potentia diſtinguere.
 
@@ -14,7 +14,7 @@ Pyramidis & cubi latera ſecant potentiam dimetientis ſphæræ in binas ratione
 
 [Diagram: semicircle with lines drawn from the ends of the diameter, labelled A, C, B, E, F, G, D]
 
-## MONITVM.
+### MONITVM.
 
 Hac itaque lege, data dimetiente ſphæræ dabitur cuiuſuis corporum inſcriptorum latus, eorum autem corporum cùm tria habeant latera propoſitæ dimetienti potentia tantùm commenſurabilia, lon-
 

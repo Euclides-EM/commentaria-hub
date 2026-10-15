@@ -2,6 +2,8 @@
 
 <!-- Page number: 33 -->
 
+[Curated heading level=2 type=theorems: Theorema 29. Propositio 39.]
+
 ## Eucli. ex Zamb. Theorema 29. Propositio 39.
 
 [Curated heading level=3 type=zamberti_sequence: 39.]
@@ -29,6 +31,8 @@ THEON ex Zamb. Sint bina triangula α β γ & δ γ β, constituta in eadem basi
 CAMPANVS. Sint duo trianguli a b c, d e f æquales, constituti super duas bases quæ sunt b c & e f, & ex eadem parte: dico eos esse inter duas lineas æquidistantes, & hæc est cōuersa 38. Et pbatur per ipsam, sicut præcedens per 37. A puncto a, ducatur linea æquidistās lineæ b c, quæ si transierit per punctum d, patet propositū: sin autem, pertranseat supra ut a g, & producatur e d usq̃ ad ipsum g, ut sit e g, & ducatur linea g f. Erit per 38 triāgulus a b c, æqualis triangulo g e f, quare & triangulus d e f erit æqualis triangulo g e f, pars toti, quod est impossibile: non ergo transibit supra. Transeat ergo infra, secetq̃ lineam d e in puncto h, & ducatur linea f h, erit per 38 triāgulus h e f æqualis triangulo a b c, quare & triāgulo d e f, pars toti, quod est impossibile. Quia ergo non transibit nisi per punctum d, patet p̃positū.
 
 [Diagram: bases b c and e f on one line, triangles a b c and d e f above, with points g above d and h on line d e, lines g f and f h drawn]
+
+[Curated heading level=2 type=theorems: Theorema 30. Propositio 40.]
 
 ## Eucli. ex Zamb. Theorema 30. Propositio 40.
 

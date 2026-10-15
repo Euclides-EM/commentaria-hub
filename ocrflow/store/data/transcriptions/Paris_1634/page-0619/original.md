@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: PROBL. VIII. PROPOS. XXXII.]
+
+[Curated heading level=2 type=problems: PROBL. VIII. PROPOS. XXXII.]
+
 ## THEOR{printer-error-correction:PROBL}. VIII. PROPOS. XXXII.
 
 Inuenire duas medias potentia tantùm commensurabiles, quæ rationale contineant; ita vt major plus possit quàm minor, quadrato rectæ lineæ sibi longitudine commensurabilis.

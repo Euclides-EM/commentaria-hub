@@ -14,6 +14,10 @@ c.8.6 | ba π ae 2|2 ae π ad,
 2.concl. 1.a.f | □.ba π ▭.bad 2|2 ▭.bad π □.ad, α
 3.concl. d.α | □.ab π ▭.abd 2|2 ▭.abd π □.db.
 
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XXIII.]
+
 ## THEOR. XVII. PROPOS. XXIII.
 
 Æquiangula parallelogramma inter se rationem habent eam, quæ ex lateribus componitur.

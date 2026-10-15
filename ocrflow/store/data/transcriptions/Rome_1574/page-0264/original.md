@@ -15,6 +15,8 @@ NVMERVS 10. bifariam ſecetur in 5. & 5. cui addatur numerus quiuis 3. vt totus 
 
 [Curated heading level=2 type=campanus: 11]
 
+[Curated heading level=2 type=problems: PROBL. 1. PROPOS. 11.]
+
 ## PROBL. 1. PROPOS. 11.
 
 [Margin]

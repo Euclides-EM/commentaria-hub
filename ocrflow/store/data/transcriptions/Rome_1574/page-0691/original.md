@@ -36,6 +36,8 @@ EX hoc perſpicuum eſt, planos numeros, qui ſimiles non ſunt, proportionem no
 
 [Curated heading level=2 type=campanus: 25]
 
+[Curated heading level=2 type=theorems: THEOR. 25. PROPOS. 27.]
+
 ## THEOR. 25. PROPOS. 27.
 
 [Margin]

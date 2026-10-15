@@ -4,6 +4,8 @@ guras rectilineas, quæ pluribus quam quatuor rectis lineis circumscribuntur gen
 
 [Figure: triangle equilateral A]
 
+[Curated heading level=2 type=definitions: XXIII.]
+
 ### XXIII.
 
 Trilaterarum autem figurarum, æquilaterum est triangulum, quod tria latera habet æqualia, vt A. | Or des figures trilateres, celle qui a trois costez egaux, s'appelle triangle equilateral, comme A.

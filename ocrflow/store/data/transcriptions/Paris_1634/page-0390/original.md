@@ -9,6 +9,10 @@ Dmonstr.
 47.1 | □.ef 2|2 □.ed + □.df,
 concl. 1.a.f | □gh 2|2 □.ed + □.df + □.fg u □.a + □.b + □.c.
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. VI.]
+
 ## PROBL. VI. PROPOS. VI.
 
 Propositis duobus quadratis inæqualibus, inuenire quadratum, quo maius excedit minus.

@@ -13,6 +13,8 @@ d Per 8.l.5.
 e Per eand.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXXII.]
+
 ## PROPOSITIO XXXII.
 
 [Margin]
@@ -22,6 +24,8 @@ Fig.19.
 {dropcap:S|lines=2|style=plain}I AB ad C maiorem rationem habet, quàm I ad S; & C ad L Q maiorem, quàm F ad I; etiam ex æquo habebit maiorem rationem AB ad L Q, quam F ad S.
 
 Demonſtratio eadem quæ præcedentis, ſed pro 22.citetur 23.
+
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXXIII.]
 
 ## PROPOSITIO XXXIII.
 

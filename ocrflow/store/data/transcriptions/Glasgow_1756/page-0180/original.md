@@ -5,6 +5,10 @@ ad F; ut vero B ad C, ita F ad G; et ut C ad D, ita G ad H; erit A ad D, ut E ad
 
 Quoniam enim tres ſunt magnitudines A, B, C et aliae ipſis numero aequales, E, F, G quae binae ſumptae ſunt in eadem ratione, erit, per Caſum primum, A ad C, ut E ad G; eſt autem et C ad D, ut G ad H; quare rurſus per Caſum primum, eſt A ad D, ut E ad H. et ſic quotcunque fuerint magnitudines. Quare ſi &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXIII. THEOR.]
+
 ## PROP. XXIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint quotcunque magnitudines, et aliae ipſis numero aequales, quae binae ſumantur in eadem ratione; ſit autem perturbata ſeu inordinata earum proportio: et ex aequali in eadem ratione erunt.

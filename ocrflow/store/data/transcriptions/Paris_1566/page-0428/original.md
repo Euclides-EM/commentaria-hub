@@ -1,9 +1,13 @@
 <!-- Running title: LIBER DECIMVSSEXTVS. -->
 <!-- Page number: 100 -->
 
-## Corollarium.
+### Corollarium.
 
 Dodecahedrum eſt ſibi inſcripti cubi duplum, dempto tertio minoris ſegmenti cubi, ac inſuper minori ſegmento minoris dimidij huius exceſſus. Nam ſi proponatur cubus, à quo ſecetur ſolidum quod ſuper tertio minoris ſegmenti baſis, eodem autem cubi vertice, ablatũ illud ad totum rationem ſectionis ad baſim ſeruat, per trigeſimamſecundam vndecimi, demitur itaque à cubo tertium miroris ſegmenti. Præterea quia reliquum deficit à vertice cubi minori ſegmento minoris dimidij verticis, vel lateris, cùm reliquum illud ſit parallelepipedum, ſi ſecetur plano parallelo oppoſitis planis, per ſignum ſecans verticem cubi: tollet ab eo parallelepipedo ſolidum, habens ad totum rationem ſectionis ad verticem, per tertium corollarium vigeſimæquintæ vndecimi. Deficit itaque exceſſus eidem cubo æqualis tertio minoris ſegmenti, ac inſuper minori ſegmento minoris dimidij huius exceſſus.
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquarta.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio trigeſimaquarta.]
 
 ## Propoſitio trigeſimaquarta.
 
@@ -16,6 +20,10 @@ Eſto dodecahedrum A H B C K cuius dimetiens A B, recta verò oppoſitarum baſi
 [Diagram: polyhedron inscribed in another with points labelled D, I and F]
 
 [Diagram: triangle inscribed in a circle with points labelled I, G and O]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquinta.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio trigeſimaquinta.]
 
 ## Propoſitio trigeſimaquinta.
 

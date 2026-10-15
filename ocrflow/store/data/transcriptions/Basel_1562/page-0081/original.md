@@ -58,6 +58,8 @@ Die linj 6. tailt in 4 vnd 2.
 100
 [/Calculation]
 
+[Curated heading level=2 type=propositions: IX. Die neündt propoſition]
+
 ## IX. Die neündt propoſition.
 
 So ain linj in zway gleich / vnd zway vngleiche ſtuckh zertailt wirt / ſeind die quadrat / ſo von den vngleichen ſtuckhen khommen / ſambtlich / zwaimal ſo groß / als die quadrat der halben linj / vnd des vnderſchaids (des gröſſern tails vnd der halben linj) ſambtlich ſeind.

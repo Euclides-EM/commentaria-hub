@@ -11,6 +11,8 @@ d Per 8. l.1.
 e Per def. 14.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XIII.]
+
 ## PROPOSITIO XIII.
 
 [Curated heading level=2 type=figures: Fig. 34]

@@ -2,6 +2,10 @@
 
 <!-- Page number: 95 -->
 
+[Curated heading level=2 type=propositions: THEOR. 18. PROP. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. 18. PROP. XX.]
+
 ## THEOR. 18. PROP. XX.
 
 Dans le cercle, l’angle du centre eſt double de l’angle de la circonference quand iceux ongles ont vne meſme circonference pour baſe.

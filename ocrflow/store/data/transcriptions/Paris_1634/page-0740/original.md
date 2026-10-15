@@ -11,6 +11,10 @@
 α. 8. 1 | <feg 2|2 <feh,
 concl. 3. d. 11 | ef ⊥ plan. acbd.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. V.]
+
 ## THEOR. V. PROPOS. V.
 
 Si recta linea rectis tribus lineis se mutuo tangentibus in communi sectione ad rectos angulos insistat: illæ tres rectæ in vno sunt plano.

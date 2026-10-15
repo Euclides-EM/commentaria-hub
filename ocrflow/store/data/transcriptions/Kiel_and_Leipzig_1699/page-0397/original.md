@@ -15,6 +15,10 @@
 
 Ist also an den gegebenen Strich AB ein übertreffendes □ fp | △ K also angeschlagen/ daß der Uberschuß □ fo ähnlich dem □ L, auch auf gleiche Weise gesetzet seye. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der XXX. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 10. Werck-Stück. Der XXX. Vortrag.]
+
 ## Der XXX. Vortrag.
 
 ## Das 10. Werck-Stück.

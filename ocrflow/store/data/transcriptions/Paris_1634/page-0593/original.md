@@ -12,6 +12,10 @@ hyp. | c, comm. a,
 contr. hypoth.
 concl. 21.a.1 | a, incomm. b.
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XIV.]
+
 ## THEOR. XI. PROPOS. XIV.
 
 Si sint duæ magnitudines commensurabiles, altera autem ipsarum magnitudini cuipiam incommensurabilis fuerit ; & reliqua eidem incommensurabilis erit.
@@ -36,6 +40,10 @@ hyp. | a, comm b,
 12.10 | a, comm. c.
 contr. hypoth.
 21.a.1 | b, incomm. c.
+
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XV.]
 
 ## THEOR. XII. PROPOS. XV.
 

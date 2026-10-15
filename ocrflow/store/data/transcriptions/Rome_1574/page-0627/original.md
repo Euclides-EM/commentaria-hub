@@ -18,6 +18,8 @@ NAM ex A, in B, fiat C, quem uel metiatur numerus non primus D, uel certe compo≈
 
 [Curated heading level=2 type=campanus: 30]
 
+[Curated heading level=2 type=theorems: THEOR. 31. PROPOS. 33.]
+
 ## PROBL{printer-error-correction:THEOR}. 31. PROPOS. 33.
 
 [Margin]

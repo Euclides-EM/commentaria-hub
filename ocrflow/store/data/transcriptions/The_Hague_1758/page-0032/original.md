@@ -6,6 +6,10 @@
 
 [Figure: three triangles in a double-ruled frame; Fig. 1. triangle ACB with point D on side AC and line DB; Fig. 2. triangle ACB with interior point D, dotted lines to E and F, angles a, c at C and b, a at D; Fig. 3. triangle ACB with point D outside near C, angles d, c at C and b, a at D]
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THEOREME IV.]
+
+[Curated heading level=2 type=theorems: THEOREME IV. PROPOSITION VII.]
+
 ## PROPOSITION VII. THEOREME IV.
 
 {dropcap:D|lines=2|style=plain}Es extrêmités (A & B) d'une ligne droite (AB), deſquelles on a mené à un même point (C), deux droites (AC, BC): on ne peut mener à quelqu'autre point (D), ſitué du même côté de cette ligne, deux autres droites (AD, BD), égales aux deux premieres chacune à chacune.

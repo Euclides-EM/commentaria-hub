@@ -7,6 +7,10 @@ fiatq́; F H K æqualis ipſi G. Ac tum, ex antecedente, erit Arcus F K æqualis
 
 V E L ſic, Quum probati fuerint G & H anguli æquales, tum ductis B A & C A, itemq́; E D & F D : erunt A & D anguli æquales, ex decimanona huius & animi Notione, Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 24, PROPOSITIO XXVII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 24, PROPOSITIO XXVII.]
+
 ## THEOREMA 24, PROPOSITIO XXVII. Theoni 28.
 
 In Circulis æqualibus, æquales rectæ lineæ æquos Arcus abſcindunt : & maior linea, maiorem Arcum : minor verò minorem.
@@ -19,6 +23,10 @@ Connectantur A D & C D ad Centrum : vel A K & C K ad Peripheriam : ac ſimiliter
 
 At ſi E G linea ponatur maior : erit quoq; angulus H maior, per vigeſimamquintam Primi. Facto itaq; angulo F H G æquali ipſi D : erit Arcus F G æqualis Arcui A B C, per vigeſimamquintam huius. Maior igitur E F G ipſo A B C, Quod erat probandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 25, PROPOSITIO XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 25, PROPOSITIO XXVIII.]
+
 ## THEOREMA 25, PROPOSITIO XXVIII. Theoni 29.
 
 In Circulis æqualibus, ſub æquis Arcubus æquales rectæ lineæ ſubtenduntur.
@@ -28,6 +36,10 @@ In Circulis æqualibus, ſub æquis Arcubus æquales rectæ lineæ ſubtenduntur
 Sint duo Circuli æquales : A B C, cuius Centrum D : & E F G, cuius Centrum H : ſitq́; Arcus A B C æqualis Arcui E F G. Dico lineam A C eſſe æqualem lineæ E G. Conuerſa antecedentis.
 
 Connectantur D A & D C : itemq́; H E & H G. Eruntq́;, per vigeſimamſextam huius, anguli D & H æquales. Quare, per quartam Primi, erit A C æqualis E G, Quod erat demonſtrandum.
+
+[Curated heading level=2 type=propositions: PROBLEMA 4, PROPOSITIO XXIX.]
+
+[Curated heading level=2 type=problems: PROBLEMA 4, PROPOSITIO XXIX.]
 
 ## PROBLEMA 4, PROPOSITIO XXIX. Theoni 30.
 

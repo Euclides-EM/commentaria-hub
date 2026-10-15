@@ -1,6 +1,8 @@
 <!-- Running title: APPENDICE. -->
 <!-- Page number: 239 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV.]
+
 ## PROPOSITION XIV.
 
 {dropcap:L|lines=2|style=plain}E Logarithme d'une Puiſſance eſt égal au Logarithme de la racine de cette Puiſſance, multiplié par l'expoſant potentiel. Et réciproquement; le Logarithme de la racine eſt égal à celui de la Puiſſance, diviſé par l'expoſant radical.

@@ -17,6 +17,10 @@ Sit enim, vt ipſe in exemplum proponit, area C Rectilinei vigintiduorum pepedum
 
 Hoc igitur Problema, vt nihil diſſimulemus, eo minus Geometricum eſt, quo minus vniuerſale. Quinetiam in errorem inducere poſſit bene exercitatos. Quod ego longiori ſermone non explicabo. Satis fuerit admonuiſſe de errore vitando.
 
+[Curated heading level=2 type=propositions: PROBLEMA 9, PROPOSITIO XXIX.]
+
+[Curated heading level=2 type=problems: PROBLEMA 9, PROPOSITIO XXIX.]
+
 ## PROBLEMA 9, PROPOSITIO XXIX.
 ### Campano 28.
 

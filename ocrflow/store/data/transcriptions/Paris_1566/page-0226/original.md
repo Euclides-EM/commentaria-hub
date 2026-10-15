@@ -7,9 +7,11 @@ AZ & DG communem eſſe menſuram, & earundem maximam: quia ZB metitur DI, metie
 
 Si magnitudo duas metiatur magnitudines, & maximã earum communem metitur menſuram. Nam ſi metitur totas & ablatas, metietur & proinde reliquas, quarum vna eſt maxima.
 
-## Propoſitio quarta.
+[Curated heading level=2 type=propositions: Propoſitio quarta.]
 
-## Problema 2.
+[Curated heading level=2 type=problems: Propoſitio quarta. Problema 2.]
+
+## Propoſitio quarta. Problema 2.
 
 Pluribus magnitudinibus commenſurabilibus datis, maximam earum communem inuenire menſuram.
 

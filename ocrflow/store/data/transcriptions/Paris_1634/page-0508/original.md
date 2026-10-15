@@ -26,6 +26,10 @@ Demonstr.
 1.s.12.8 | a4 π b4, 2|2 a π e, u b π f,
 3.concl. 16.7 | a4f 2|2 b5.
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XIII.]
+
 ## THEOR. XI. PROPOS. XIII.
 
 Si sint quotlibet numeri deinceps proportionales, & multiplicans quisque seipsum faciat ali-

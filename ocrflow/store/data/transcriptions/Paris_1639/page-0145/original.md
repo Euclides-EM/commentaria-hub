@@ -10,6 +10,10 @@ ergo | cfgb *eſt diametre du* ⊙cab. α
 *contr. 9. a. 1.*
 concl. 21.a.1 | cfga *eſt* ——,
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XII.]
+
 ## THEOR. XI. PROPOS. XII.
 
 Si deux cercles se touchent l'vn l'autre, au dehors, la ligne droicte menée d'vn centre à l'autre, passera par l'attouchement.

@@ -34,6 +34,10 @@ Dw. DAF ⋏ EAF nach 8. Vortr.
 
 Und ist also der gegebene Winckel ABC in zween gleiche theile getheilet / W. Z. M.
 
+[Curated heading level=2 type=propositions: Der X. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 5. Werck-Stück. Der X. Vortrag.]
+
 ## Der X. Vortrag.
 
 ## Das 5. Werckstück.

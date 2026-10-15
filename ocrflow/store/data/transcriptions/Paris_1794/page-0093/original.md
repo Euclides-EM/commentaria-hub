@@ -3,6 +3,10 @@
 
 *l’aire de cette figure.* Toute surface ou aire équivaut à un rectangle et se mesure par le produit de deux lignes.
 
+[Curated heading level=2 type=propositions: PROPOSITION V. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION V.]
+
 ## PROPOSITION V.
 
 ### THÉORÊME.
@@ -18,6 +22,10 @@ Fig. 97.
 [Curated heading level=4: Corollaire.]
 
 *Corollaire.* Donc les parallélogrammes de même base sont entre eux comme leurs hauteurs, et les parallélogrammes de même hauteur sont entre eux comme leurs bases ; car si les bases sont égales, les produits des bases par les hauteurs seront comme les hauteurs ; et si les hauteurs sont égales, les produits des bases par les hauteurs seront comme les bases.
+
+[Curated heading level=2 type=propositions: PROPOSITION VI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VI.]
 
 ## PROPOSITION VI.
 

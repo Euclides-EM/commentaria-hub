@@ -11,6 +11,10 @@ u. □ hag | □ ad n. 3. Gr. I.
 
 Wird also allezeit das rechtwincklichte Viereck □ hag oder □ eab, welches von dem gantzen schneidenden Strich ea oder ha, und dem Stück/ so zwischen dem erwehlten Düttel a und äussern Kreyßkrümme b oder g stehet/ begriffen wird/ so groß seyn/ als das gleichseitige Viereck des Rührstriches ad, nemlich □ ad. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXXVII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 31. Beweiß-Stück. Der XXXVII. Vortrag.]
+
 ## Der XXXVII. Vortrag.
 
 ## Das 31. Beweiß-Stück.

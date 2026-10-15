@@ -1,6 +1,6 @@
 <!-- Running title: EVCL. ELEMENT. GEO. -->
 
-# NVMERORVM GEOMETRIÆ OBSEQVIO
+## NVMERORVM GEOMETRIÆ OBSEQVIO
 
 [Subhead]
 imploratorum alij ſunt actiui, diſcreti ſeu Arithmeticarum operationum actores, alij vero paſſiui, continui, ſeu Geometricarum quantitatum ſignificatores.
@@ -18,6 +18,10 @@ imploratorum alij ſunt actiui, diſcreti ſeu Arithmeticarum operationum actore
 | Minimi | Proportionales |
 | Perfecti, | Multiplicandus vel ſimplex. |
 
+[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſeptimus.]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
+
 ## Propoſitio prima.
 
 Si duobus numeris expoſitis, ſublato ſemper minore à maiori, reliquus minimè metiatur præcedentem quoad aſſumpta fuerit vnitas, qui à principio numeri primi adinuicem erunt.
@@ -25,6 +29,12 @@ Si duobus numeris expoſitis, ſublato ſemper minore à maiori, reliquus minim�
 Exponantur duo numeri A B maior & G D, à maiore autem A B auferatur G D relinquens Z B, ab ipſo autem G D tollatur Z B relinquens I D numerum. Et à Z B verò dematur I D, ſicq; ſemper quoad ſuperſit tantùm vnitas quæ ſit T B: Dico nullum numerum ipſos A B & G D metiri, quod ſi credatur aliquis eos metiri ſit E, quoniam E metitur A B totum & G D ablatum, metitur idem E, reliquum Z B (per ſecundam communem ſententiam huius) quia ſimiliter idem E metitur totum G D & ablatum Z B metietur & reliquum I D (per eandem) Et tandem cùm metiatur totum Z B & ablatum I D metietur idem E numerus reliquum, vnitatem ſcilicet T B, quod eſſet abſurdum, cùm maior ſit E numerus vnitate. Nullus igitur numeros A B, G D numerus metietur, ſed ſola vnitas & proinde expoſiti primi erunt (per 13 diffinitionem huius) Si itaque duobus numeris, &c.
 
 [Diagram]
+
+[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſeptimus.]
+
+[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
+
+[Curated heading level=2 type=problems: Propoſitio ſecunda. Problema 1.]
 
 ## Propoſitio ſecunda.
 

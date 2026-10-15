@@ -3,6 +3,10 @@
 
 AG+GC < AB+BC. Retranchant d’une part AG, et de l’autre son égale AB, il restera GC < BC, ou EF < BC.
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XI.]
+
 ## PROPOSITION XI.
 
 ### THÉORÊME.
@@ -20,6 +24,10 @@ Car si l’angle A étoit plus grand que l’angle D, comme les côtés AB, AC, 
 [Curated heading level=4: Scholie.]
 
 *Scholie.* On peut remarquer que les angles égaux sont opposés à des côtés égaux. Ainsi les angles égaux A et D sont opposés aux côtés égaux BC, EF.
+
+[Curated heading level=2 type=propositions: PROPOSITION XII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XII.]
 
 ## PROPOSITION XII.
 

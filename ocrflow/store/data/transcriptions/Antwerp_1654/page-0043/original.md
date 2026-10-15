@@ -3,6 +3,8 @@
 
 los oppoſitos ducta.
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 38]
+
 [Curated heading level=3 type=numbered_item: 38.]
 
 [Curated heading level=2 type=figures: Fig. 19]
@@ -12,6 +14,8 @@ los oppoſitos ducta.
 [Margin]
 Fig.19.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. I, Def. 39]
 
 [Curated heading level=3 type=numbered_item: 39.]
 
@@ -36,6 +40,10 @@ Fig.19.
 ## Axiomata.
 
 {dropcap:A|lines=2|style=plain}Xioma eſt ſententia per ſe manifeſta.
+
+[Curated heading level=1 type=axioms: Liber I]
+
+[Curated heading level=2 type=axioms: Lib. I, Ax. 1]
 
 [Curated heading level=3 type=numbered_item: 1.]
 

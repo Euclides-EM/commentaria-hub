@@ -6,6 +6,8 @@ utraque. Quod si fuerit hoc possibile: ponatur, & sit primo, ut neutra transeat 
 
 [Diagram: circle with centre e; vertical line b d and chord a c meeting it at f; labels b, b at top, e at centre, a, f, c across the middle, d at bottom]
 
+[Curated heading level=2 type=theorems: Theorema 3. Propositio 4.]
+
 ## Eucli. ex Zamb. Theorema 3. Propositio 4.
 
 [Curated heading level=3 type=zamberti_sequence: 4.]
@@ -33,6 +35,8 @@ CIrculorum se inuicem secantium, centra diuersa esse.
 CAMPANVS. Sint duo circuli a c b, a d b, secantes se super puncta a & b. Dico quod eorum sunt diuersa centra. Si enim haberẽt idem centrum: ipsum esset per diffinitionem, in portione utrique circulo communi, sitque illud e, & ducantur lineæ e a & e f c, erũtq̃ per diffinitionẽ circuli duæ lineæ e a & e f, æquales. Itemq̃ per eandẽ diffinitionẽ duæ lineæ e a & e c, æquales, quare e f est æqualis e c, cũ utraq̃ earũ sit æqualis e a, pars uidelicet toti, quod est impossibile.
 
 [Diagram: two circles intersecting at a and b; points c and f on the upper arc, e within the common portion, d on the lower circle]
+
+[Curated heading level=2 type=theorems: Theorema 4. Propositio 5.]
 
 ## Eucli. ex Zamb. Theorema 4. Propositio 5.
 

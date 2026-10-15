@@ -4,6 +4,10 @@
 
 [Figure: parallelograms A B D C and E B D F on the same base BD between parallels AF and BD, with M at the intersection of CD and BE]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXV. THEOREME XXV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXV. PROPOSITION XXXV.]
+
 ## PROPOSITION XXXV. THEOREME XXV.
 
 {dropcap:L|lines=2|style=plain}Es parallélogrammes (AD, ED) placés ſur la même baſe (BD) & entre les mêmes paralleles (AF, BD): ſont égaux entr'eux.

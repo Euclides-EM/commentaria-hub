@@ -3,6 +3,10 @@
 
 [Diagram: two concentric circles centred at C, with lines CA and CD, perpendicular BD, and points A, B, D, E, F and G]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVII. PROBLEME II.]
+
+[Curated heading level=2 type=problems: PROBLEME II. PROPOSITION XVII.]
+
 ## PROPOSITION XVII. *PROBLEME II.*
 
 {dropcap:T|lines=2|style=plain}Irer d’un point donné (A)hors d’un cercle (BEF); une tangente (AE) à ce cercle.

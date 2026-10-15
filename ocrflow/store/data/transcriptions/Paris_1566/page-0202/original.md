@@ -5,9 +5,11 @@ Sint quotcunque numeri A B C D E continuè proportionales minimi eandem rationem
 
 [Diagram: horizontal lines labelled H, F 2, G 3, P 4, Q 6, R 9, K 8, L 12, M 18, N 27, A 16, B 24, C 36, D 54, E 81]
 
-## MONITVM.
+### MONITVM.
 
 Licet hanc decimāquintam in vulgato græco exemplari non reperiamus, tamen Campanum eam ab Euclide traditam ſcripſiſſe legimus, quod duabus de cauſis verum fuiſſe arbitramur, vt ſcilicet decimamſextam ſequentem (quam Theon per numeros non demonſtrauit, ſed per 3 & 4 ſecundi) numeris demonſtraret. Quamuis autem ſolos numeros qui geometricis quantitatibus conueniant, exponat Euclides, & ideo (ad extrema fugienti) ſufficiat eos numeros per continuorum præcepta prioribus ſex libris expoſita demonſtrare. Non tamen ea familiaritate numeros per continuorum notitiam, qua per eorundem numerorum intelligentiam conſequi videbimur: altera quod huius 15 auxilio proximam decimamſextam ampliorem ac vberiorem tradimus, ad quotcunque proportionales, quam Theon ad tres eam extendi tantùm docuit, ob aſſumptas linearum ſecundi libri ſectiones, quare exiſtimantes Euclidem geometriam potius fecundam quàm ſterilem tradendam optaſſe. Non dubitamus quin hæc Euclidis fuerit, & inſuper plures aliæ quæ vitio & temporis iniuria deperditæ iacent.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
 
 ## Propoſitio decimaſexta.
 

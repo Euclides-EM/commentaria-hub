@@ -9,6 +9,10 @@ k. 15. 5.
 
 oſtenſum enim eſt omnem conum tertiam partem eſſe cylindri eandem quam ipſe baſim habentis, et aequalem altitudinem. Ergo et cylindrus ad cylindrum triplicatam rationem habebit ejus quam AC ad EG. ſimiles igitur coni et cylindri inter ſe ſunt in triplicata ratione diametrorum baſium. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIII. THEOR.]
+
 ## PROP. XIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I cylindrus plano ſecetur oppoſitis planis parallelo, erit ut cylindrus ad cylindrum, ita axis ad axem.

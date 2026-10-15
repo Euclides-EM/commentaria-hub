@@ -7,6 +7,8 @@ Porro quia anguli natura in linearum inclinatione conſiſtit, inclinatio autem 
 Fig. 2. 4.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 13]
+
 [Curated heading level=3 type=numbered_item: 13.]
 
 [Curated heading level=2 type=figures: Fig. 6]
@@ -16,6 +18,8 @@ Fig. 2. 4.
 [Margin]
 Fig. 6.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. I, Def. 14]
 
 [Curated heading level=3 type=numbered_item: 14.]
 

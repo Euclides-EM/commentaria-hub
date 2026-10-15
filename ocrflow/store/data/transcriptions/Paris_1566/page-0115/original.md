@@ -8,9 +8,11 @@ Sit A primum ad B ſecundum vt G tertium ad D quartum. Sintque ipſorum A & G æ
 
 Si quatuor magnitudines proportionales fuerint & conuerſim proportionales erunt. Nam ſi K & L ſimul excedentes vel deficientes ipſis M N, efficiant E ad I ſicut Z ad T, ſequetur conuerſim, quod M & N ſimul excedentes vel deficientes ipſis K & L, efficient I ad E ſicut T ad Z. Si igitur quatuor magnitudines proportionales fuerint, & conuerſim proportionales erunt, hoc corollarium exponit 13 diffinitionem.
 
-## MONITVM.
+### MONITVM.
 
 Quoniam Campanus diffinitionũ quinta & octauæ huius neceſſariam veritatem non expoſuit, Theon verò tacuit eius expoſitionem, per quintam hanc (ea non expoſita) demonſtrantes, an demonſtrata ſit, iudicandum relinquunt. Nam quintam prius exponens Campanus diffinitionem, ſimilem 15 huius theoremati efficit. Quare hoc monitum præferendum arbitrati ſumus, vt huius potiſſimè veritatem, à diffinitionis quintæ conuerſa, à nobis expoſita conſtare præuideamus, id enim cauſæ fuit, cur prolixiores in ea & octaua diffinit. exponendis euaſerimus, vt perfectè hanc & plures ſequentes ipſius quintæ & octauæ obſequio demonſtrandas, certis prælibatis concluderemus.
+
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
 
 ## Propoſitio quinta.
 
@@ -19,6 +21,8 @@ Si magnitudo magnitudinis æquè fuerit multiplex, vt ablata ablatæ, Et reliqua
 Sit tota A B totius G D æquemultiplex, vt ablata A E ablatæ G Z: Dico reliquam E B reliquæ Z D æquè eſſe multiplicem, vt tota A B totius G D, ponatur E B æquemultiplex ipſius I G, vt A E ipſius G Z. Quoniam ſingulæ A E E B ſingularum G Z I G ſunt æquemultiplices, vt vna A E vnius G Z, vel E B ipſius I G, tota A B totius I Z æquè erit multiplex, vt vna A E vnius G Z, per primam huius, ſed (per hypotheſim) quotuplex A E eſt ablatæ G Z, æquemultiplex eſt tota A B totius G D. Tota igitur A B æquè erit multiplex ipſius I Z, vt ipſius G D: æquales igitur ſunt G D & I Z. Communis auferatur G Z, reliquæ I G & Z D erunt æquales. Quotuplex erit igitur E B ipſius I G, totuplex erit & ipſius Z D ſibi æqualis. Sed quotuplex E B ipſius I G, totuplex fuit A E ipſius G Z, & A B ipſius G D, per hypotheſes. Quotuplex itaque erit tota A B totius G D, vel ablata A E ablatæ G Z, totuplex erit reliqua E B reliquæ Z D. Si igitur magnitudo, &c.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
 
 ## Propoſitio ſexta.
 

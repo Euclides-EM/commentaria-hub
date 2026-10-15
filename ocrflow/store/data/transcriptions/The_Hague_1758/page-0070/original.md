@@ -4,6 +4,10 @@
 
 [Figure: angle M at left; parallelogram-like figure with points A, E, F above and B, C, D below, with dotted lines from A to C and D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XLII. PROBLEME XI.]
+
+[Curated heading level=2 type=problems: PROBLEME XI. PROPOSITION XLII.]
+
 ## PROPOSITION XLII. PROBLEME XI.
 
 {dropcap:C|lines=2|style=plain}Onſtruire un parallélogramme (ED); égal à un triangle donné (BAD); & qui ait un angle (DCE) égal à un angle rectiligne donné (M).

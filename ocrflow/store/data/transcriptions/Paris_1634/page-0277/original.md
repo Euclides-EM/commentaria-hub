@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. VII.]
+
 ## DEFINIT. VII.
 
 Eandem autem habentes rationem magnitudines, proportionales vocentur.
@@ -11,6 +13,8 @@ A, 4. B, 6. C, 8. D, 12.
 hyp. | a π b 2|2 c π d. α
 α.7.d.5 | Magnitudines A, B, C, D, sunt proportionales.
 7.d.5 | Les grandeurs A, B, C, D, sont proportionnelles.
+
+[Curated heading level=2 type=definitions: DEFINIT. VIII.]
 
 ## DEFINIT. VIII.
 

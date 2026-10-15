@@ -1,6 +1,10 @@
 <!-- Page number: 34 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. XXX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXX. THEOR.]
+
 ## PROP. XXX. THEOR.
 
 {dropcap:Q|lines=2|style=plain}VAE eidem rectae lineae ſunt parallelae, et inter ſe ſunt parallelae.
@@ -22,6 +26,10 @@ b. 27. 1.
 Ergo quae eidem rectae lineae &c. Q. E. D.
 
 [Diagram: three parallel horizontal lines AB, EF, and CD intersected by diagonal GHK at G, H, and K]
+
+[Curated heading level=2 type=propositions: PROP. XXXI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXXI. PROB.]
 
 ## PROP. XXXI. PROB.
 

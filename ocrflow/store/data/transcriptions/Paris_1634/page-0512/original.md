@@ -31,6 +31,10 @@ hyp. | c, msur: d,
 2c20 d7 | i, msur: b,
 2.concl. 11.a.7 | a, msur: b.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XVI.]
+
 ## THEOR. XIV. PROPOS. XVI.
 
 Si quadratus numerus quadratum numerum non metiatur, neque latus vnius metietur alterius latus. Et si latus vnius quadrati non metiatur latus alterius, neque quadratus quadratum metietur.

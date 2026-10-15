@@ -10,6 +10,10 @@ Demonstr.
 10. 12 | con. cdf 2|2, ⅓ cylindr. cк,
 2 concl. β. 15, 5 | con. abf π con. cdf 2|2 me π fn.
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XV.]
+
 ## THEOR. XV. PROPOS. XV.
 
 Æqualium conorum, & cylindrorum reciprocantur bases & altitudines: & quorum conorum, & cylindrorum reciprocantur bases & altitudines, illi sunt æquales.

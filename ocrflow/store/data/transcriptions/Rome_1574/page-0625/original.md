@@ -26,6 +26,8 @@ Ex hoc ſequitur, numerum, qui ex duobus compoſitus ad unũ illorum primus eſt
 
 [Curated heading level=2 type=campanus: 32]
 
+[Curated heading level=2 type=theorems: THEOR. 29. PROPOS. 31.]
+
 ## THEOR. 29. PROPOS. 31.
 
 [Curated heading level=3 type=incipit: OMNIS]

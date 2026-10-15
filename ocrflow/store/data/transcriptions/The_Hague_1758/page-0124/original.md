@@ -3,6 +3,10 @@
 
 [Diagram: two internally tangent circles labelled A, B, C, D, E, F and G, with straight lines AF, AD and CGB]
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. THEOREME X.]
+
+[Curated heading level=2 type=theorems: THEOREME X. PROPOSITION XI.]
+
 ## PROPOSITION XI. *THEOREME X.*
 
 {dropcap:S|lines=2|style=plain}I deux cercles ſe touchent intérieurement (en A) : la droite qui joint leurs centres, étant prolongée, paſſera par le point de leur attouchement (A).

@@ -21,6 +21,10 @@ Gleiche bewandniß hat es mit allen Winckeln/ so in das verfertigte Kreyßstück
 
 Ist also das Kreyß-Stück bha oder lha verfertiget / in welchem ein Winckel ahb ⋀ ecd stehen kan. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der XXXIV. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 6. Werck-Stück. Der XXXIV. Vortrag.]
+
 ## Der XXXIV. Vortrag.
 
 ## Das 6. Werckstück.

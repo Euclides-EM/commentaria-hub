@@ -20,6 +20,8 @@ CAMPANVS. Et hoc quoq̀ nescire non potest qui priora nouerit, nisi a memoria ex
 
 [Diagram: line a c b]
 
+[Curated heading level=2 type=theorems: Theorema 59 Propositio 77]
+
 ## Eucli. ex Zamb. Theorema 59 Propositio 77
 
 [Curated heading level=3 type=zamberti_sequence: 77.]
@@ -47,6 +49,8 @@ THEON ex Zamb. A recta enim linea α β, recta linea auferatur β γ, toti α β
 CAMPANVS. Sint etiam hic a b & b c quales proponitur, quæ per 29 reperiuntur, & ipsæ sunt quæ cōponunt lineam potentē in duo medialia, eritq́; a c reliqua irrationalis dicta, quæ iuncta cum mediali componit totum mediale. Quod ut facile (sicut præmissa) duplici argumentatione concludes, processum 70 moneo diligenter attendas.
 
 [Diagram: line a c b]
+
+[Curated heading level=2 type=theorems: Theorema 60 Propositio 78]
 
 ## Eucli. ex Zamb. Theorema 60 Propositio 78
 

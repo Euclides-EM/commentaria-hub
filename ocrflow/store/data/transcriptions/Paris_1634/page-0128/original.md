@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXXV.]
+
 ## THEOR. XXV. PROPOS. XXXV.
 
 Parallelogramma super eadem basi, & in eisdem parallelis constituta, inter se sunt æqualia.
@@ -31,6 +35,10 @@ Demonstr.
 3.a.1. | badg 2|2 cgef,
 | bgc commun. add.
 concl. 2.a.1. | ◊badc 2|2 ◊bcfe.
+
+[Curated heading level=2 type=propositions: THEOR. XXVI. PROPOS. XXXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVI. PROPOS. XXXVI.]
 
 ## PROBL{printer-error-correction:THEOR}. XXVI. PROPOS. XXXVI.
 

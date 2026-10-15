@@ -25,6 +25,10 @@ g. B. 11.
 
 Ad datam igitur rectam lineam, et ad datum in ipſa punctum dato angulo ſolido tribus planis angulis contento æqualis angulus ſolidus conſtitutus eſt. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XXVII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXVII. PROB.]
+
 ## PROP. XXVII. PROB.
 
 {dropcap:A|lines=2|style=plain} Data recta linea dato ſolido parallelepipedo ſimile, et ſimiliter poſitum ſolidum parallelepipedum deſcribere.

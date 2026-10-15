@@ -24,6 +24,10 @@ Eadem demonstratione ostendetur, si A, est numerus par, C, esse numerum parem.
 
 *Par la mesme demonstration sera demonstré, que si A, est nombre pair, C, est nombre pair.*
 
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XXIX.]
+
 ## THEOR. XXVII. PROPOS. XXIX.
 
 Si impar numerus imparem numerum multiplicans fecerit aliquem ; factus impar erit.

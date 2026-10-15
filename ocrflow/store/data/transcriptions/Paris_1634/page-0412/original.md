@@ -7,6 +7,10 @@
 1.2 | ▭.ch,ed 2|2 ▭.ch,ef + ▭ ch,fd,
 concl. ε.1.a.f | ▭.cae 2|2 ▭.bad + ▭.ch,ed u ▭bc,ei.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XXV.]
+
 ## THEOR. XIV. PROPOS. XXV.
 
 Snelius in Apollonio Batauo.

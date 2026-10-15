@@ -10,6 +10,8 @@ AB æqualibus AB, CD, auferantur inæqualia BE, DF. Sitq́; EG, exceſſus, quo 
 3. pron.
 [/Margin]
 
+[Curated heading level=2 type=axioms: XVII.]
+
 ### XVII.
 
 [Curated heading level=4 type=incipit: SI]

@@ -16,6 +16,10 @@ suppos. | a π bl 2|2 d π e,
 | contr. 9.a.1.
 concl. 2.a.1 | a π b 2|2 d π e.
 
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXIV.]
+
 ## THEOR. XXIV. PROPOS. XXIV.
 
 Si prima ad secundam eandem habuerit rationem quam tertia ad quartam ; habuerit autem & quinta ad secundam eandem rationem, quam sexta ad quartam : Etiam composita prima cum quinta ad secundam eandem habebit rationem, quam tertia cum sexta ad quartam.

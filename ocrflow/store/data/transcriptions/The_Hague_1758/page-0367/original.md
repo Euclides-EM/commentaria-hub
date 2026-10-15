@@ -3,6 +3,10 @@
 
 [Figure: two circles side by side within a border; the left circle AFD with points H, B, G, C, F and D and dotted inscribed lines; between the circles two ovals labelled V and T; the right circle ILP with points R, I, K, O, S, P, L, O, M and N and dotted inscribed lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION II. THEOREME II.]
+
+[Curated heading level=2 type=theorems: THEOREME II. PROPOSITION II.]
+
 ## PROPOSITION II. THEOREME II.
 
 {dropcap:L|lines=2|style=plain}Es cercles (AFD & ILP), ſont entr'eux comme les quarrez décrits ſur leurs diamétres (AE & IN).

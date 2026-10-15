@@ -10,6 +10,10 @@ Par cecy eſt euident que s’il y a quatre lignes droictes continuelle.
 
 ment proportioneles, comme la premiere eſt à la 4. ainſi le parallelipipede deſcrit ſur la premiere, eſt au parallelip. ſemblable, & ſemblablement deſcrit ſur la ſeconde. Puis que tant le parallelipipede eſt au parallelip. que la premiere ligne à la 4. en raiſon :riplee de la raiſon de la premiere ligne à la 2.ſçauoir des coſtez homologues.
 
+[Curated heading level=2 type=propositions: THEOR. 29. PROP. XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 29. PROP. XXXIV.]
+
 ## THEOR. 29. PROP. XXXIV.
 
 Les egaux ſolides parallelipipedes, ont les

@@ -17,6 +17,10 @@ Dw. der Strich ce der vierte ebenmässige Strich.
 
 Ist also zu den drey gegebenen Strichen AB, AC, AD der vierte ebenmässige Strich ce gefunden. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der XIII. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 5. Werck-Stück. Der XIII. Vortrag.]
+
 ## Der XIII. Vortrag.
 
 ## Das 5. Werck-Stück.

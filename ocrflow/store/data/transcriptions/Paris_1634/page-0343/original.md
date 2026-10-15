@@ -30,6 +30,10 @@ constr. | <b 2|2 <feg,
 2.concl. 1.a.1 | <b 2|2 fed,
 3.concl. 32.1 | <c 2|2 <efd.
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VI.]
+
 ## THEOR. VI. PROPOS. VI.
 
 Si duo triangula vnum angulum vni angulo æqualem, & circum æquales angulos latera proportionalia habuerint : æquiangula erunt triangula, æqualesque habebunt angulos, sub quibus homologa latera subtenduntur.

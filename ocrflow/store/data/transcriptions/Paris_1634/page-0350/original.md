@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. XII.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. XII.]
+
 ## PROBL. IV. PROPOS. XII.
 
 Tribus datis rectis lineis, quartam proportionalem inuenire.
@@ -30,6 +34,10 @@ Demonstr.
 
 concl. 2.6 | deua π efub,
 | dguc π gh.
+
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. XIII.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. XIII.]
 
 ## PROBL. V. PROPOS. XIII.
 

@@ -30,6 +30,10 @@ Hæc eadem propositio vera est, etiamsi duæ rectæ AB & CD, parallelæ non sint
 
 *Ceste proposition est aussi veritable, encore que AB & CD, ne soient paralleles, pourueu qu'elles soient en vn mesme plan, comme il appert par la demonstration.*
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. VIII.]
+
 ## THEOR. VIII. PROPOS. VIII.
 
 Si duæ sint parallelæ rectæ lineæ, quarum altera

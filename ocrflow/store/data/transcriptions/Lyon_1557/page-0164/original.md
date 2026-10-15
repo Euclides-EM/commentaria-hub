@@ -5,6 +5,10 @@ ABC ad Triangulum DEF ratio, eſt vt BC ad DF duplicata, Quod erat demonſtrandu
 
 Iam verò ſi CG ſit æqualis BC, erit, per alteram partem decimæquintæ huius, Triangulum ABC æquale Triangulo DEF. Æqualis autem proportio, quocunque modo multiplicetur, manet eadem: quum ab vnitate denominationem ſumat, quæ ipſa ſui eſt Quadrum, Cubus: ac in vniuerſum in ſe ducta, ſemper ſibi æqualis.
 
+[Curated heading level=2 type=propositions: THEOREMA 14, PROPOSITIO XIX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 14, PROPOSITIO XIX.]
+
 ## THEOREMA 14, PROPOSITIO XIX.
 ### Theoni 20, Campano 18.
 

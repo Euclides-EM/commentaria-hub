@@ -8,6 +8,8 @@ co esse centrum circuli, ad medium punctum utriusque duorū reliquorum laterū, 
 
 CORRELARIVM Per prædicta patet quod si triangulus fuerit orthogonius, centrū circuli circunscribētis cadet in medio lateris quod opponitur angulo recto si fuerit amblygonius, centrum cadet extra triangulum. Si autem fuerit oxygonius, cadet intra triangulum.
 
+[Curated heading level=2 type=problems: Problema 5 Propositio 5]
+
 ## Eucli. ex Zamb. Problema 5 Propositio 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]

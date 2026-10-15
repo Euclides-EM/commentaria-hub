@@ -19,6 +19,10 @@ Or la solidité de celui-ci est égale à la base multipliée par sa hauteur ; d
 
 *Corollaire.* Si on compare deux prismes qui ont même hauteur, les produits des bases par les hauteurs seront comme les bases. Donc *deux prismes de même hauteur sont entre eux comme leurs bases* ; par une raison semblable *deux prismes de même base sont entre eux comme leurs hauteurs.*
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. LEMME.]
+
+[Curated heading level=2 type=lemmas: LEMME. PROPOSITION XV.]
+
 ## PROPOSITION XV.
 
 ### LEMME.

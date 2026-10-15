@@ -22,6 +22,8 @@ HOC quoque ab Euclide concludetur in omni genere proportionis uniuerſe propos. 
 
 [Curated heading level=2 type=campanus: 3]
 
+[Curated heading level=2 type=theorems: THEOR. 3. PROPOS. 3.]
+
 ## THEOR. 3. PROPOS. 3.
 
 [Curated heading level=3 type=incipit: SI]

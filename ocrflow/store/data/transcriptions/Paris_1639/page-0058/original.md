@@ -23,6 +23,10 @@ Car si on suppose que le poinct B soit mis sur le poinct E, & la ligne BC sur la
 2.concl. 8.a.1 | ∠c 2|2 ∠f,
 3.concl. 8.a.1. | △abc 2|2 △def.
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. IX.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. IX.]
+
 ## PROBL. IV. PROPOS. IX.
 
 Couper en deux également vn angle rectiligne donné.

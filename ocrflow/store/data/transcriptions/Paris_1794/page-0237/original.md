@@ -3,6 +3,10 @@
 
 formé par les angles plans AOB, BOC, COD, etc., et la somme de ces angles doit être plus petite que quatre angles droits, ce qui ne differe pas de la proposition présente. La démonstration que nous venons de donner est différente de celle du livre V : l’une et l’autre supposent que le polygone ABCDE est convexe, ou qu’aucun côté prolongé ne coupe la figure.
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VI.]
+
 ## PROPOSITION VI.
 
 ### THÉORÊME.

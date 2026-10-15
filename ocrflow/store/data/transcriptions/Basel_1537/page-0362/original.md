@@ -8,6 +8,8 @@ CAMPANVS. Sit linea a b orthogonaliter erecta super incisionẽ duarum linearũ 
 
 [Diagram: lines c d and e f crossing at b, with the transversal g h through b (its left end printed b, right end g); from the point a at the apex, lines a c, a d, a e, a f, a g, a h are drawn to all the points below]
 
+[Curated heading level=2 type=theorems: Theorema 4 Propositio 4]
+
 ## Eucli. ex Zamb. Theorema 4 Propositio 4
 
 [Curated heading level=3 type=zamberti_sequence: 4.]

@@ -7,6 +7,10 @@ tes: nempè ſicut A ad B, ita C ad D & E ad F. Dico eſſe ſicut A ad B, ita o
 
 Sumantur ipſarum A, C, E, æquemultiplicia G, H, K: & ipſarum B, D, F, alia vtcunq́; æquemultiplicia L, M, N. Eritq́;, per primã huius, totũ ex G, H, K, ita multiplex totius ex A, C, E, vt G eſt multiplex A: itidemq́; totum ex L, M, N, ita multiplex totius ex B, D, F, vt L eſt multiplex B. Et per conuerſionem ſextæ Definitionis bis ſumptam, ſi G excedit L, & H excedet M, & K excedet N: & ſi æquale, æquale: & ſi minus, minus. Itaque, per communem Notionem, ſi G excedit L: excedit & totum ex G, H, K, totum ex L, M, N: & ſi æquale, æquale: & ſi minus, minus. Quare, per eandem Definitionem, erit ſicut A ad B, ita totum ex A, C, E, ad totum ex B, D, F, Quod erat probandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 13, PROPOSITIO XIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 13, PROPOSITIO XIII.]
+
 ## THEOREMA 13, PROPOSITIO XIII.
 ### Campano 12.
 

@@ -6,6 +6,8 @@ Sed quadratum a f est iterum æquale per eandem quadrato a d & quadrato d f, erg
 
 [Diagram: triangle with apex e over base a c d b, interior points g and f, lines drawn from e and f to the base]
 
+[Curated heading level=2 type=theorems: Theorema 9. Propositio 9.]
+
 ## Eucli. ex Zamb. Theorema 9. Propositio 9.
 
 [Curated heading level=3 type=zamberti_sequence: 9.]

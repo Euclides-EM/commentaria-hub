@@ -6,6 +6,8 @@ Quod est contra posita. Quod si esset maior superpositis tribus triangulis quor≈
 
 [Diagram: circle with inscribed triangle, f at top, d at bottom left, e at bottom right, centre g, and an external point h at the left joined by lines to d, e, f and g]
 
+[Curated heading level=2 type=problems: Problema 3 Propositio 23]
+
 ## Eucli. ex Zamb. Theorema{printer-error-correction:Problema} 3 Propositio 23
 
 [Curated heading level=3 type=zamberti_sequence: 23.]

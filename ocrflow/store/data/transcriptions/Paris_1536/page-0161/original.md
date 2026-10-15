@@ -14,6 +14,10 @@ Ostēsionis deductio.
 Resolutio theorematis.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 6, Propositio 6.]
+
+[Curated heading level=2 type=theorems: Theorema 6, Propositio 6.]
+
 ## Θεώρημα ς, Πρόθεσις ς.
 
 Ἐὰμ δύο τρίγωνα μίαμ γωνίαμ μιᾷ γωνίᾳ ἴσηυ ἔχῃ, περὶ δὲ τὰς ἴσας γωνίας τὰς πλευρὰς ἀνάλογομ:ἰσογώνια ἔσαι τὰ τρίγωνα,& ἴσας ἕξει τὰς γωνίας, ὑφ᾽ ἃς αἱ ὁμόλογοι πλευραὶ ὑποτείνουσιμ.

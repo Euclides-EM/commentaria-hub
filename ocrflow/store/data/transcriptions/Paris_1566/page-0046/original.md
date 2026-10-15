@@ -1,11 +1,13 @@
 <!-- Running title: LIBER PRIMVS. -->
 <!-- Page number: 11 -->
 
-### MONITVM.
+#### MONITVM.
 
 Huius integritatem conſeruantes, à Theonis vocibus paululum digredi cogimur. Inquit enim ille, per datum ſignum datæ rectæ parallelam rectam lineam ducere. Quid tum ſi in eadem propoſita detur ſignum, aut equidem extra propoſitam ſibi in rectum collocetur, per ea ſigna parallela duci minimè poteſt. Quare ne in rectum apponatur extra illam ſignum, infinitam diximus. Vt autem reliqua parallela dari valeat, datum extra eam ſignum propoſuimus.
 
-## Propoſitio trigeſima ſecunda.
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſecunda.]
+
+### Propoſitio trigeſimaſecunda.
 
 Omnis trianguli vno latere producto exterior angulus, binis interioribus & ex oppoſito eſt æqualis. Et trianguli tres interiores anguli, binis rectis ſunt æquales.
 
@@ -13,11 +15,11 @@ Exponatur A B G triangulum cuius vnum latus B G producatur in D: Dico exteriorem
 
 [Diagram: triangle A B G on the line B G D, with G E parallel to A B]
 
-### Corollarium primum.
+#### Corollarium primum.
 
 Si triangulorum bini vnius anguli, binis alterius æquales fuerint, reliquus reliquo æqualis erit. Nam ex ſecunda huius parte, tres quorumuis triangulorum anguli, tribus æquales exiſtunt, nempè vtrique duobus rectis. Ablatis itaque binis æqualibus, reliqui (per primam ſenten.) æquales erunt.
 
-### Corollarium ſecundum.
+#### Corollarium ſecundum.
 
 Ex hac fœliciter elicere poſſumus cuiuſlibet poligoni angulos tot binis rectis æquiualere, quot triangula poligonum ſuſcipit, angulos in poligoni angulis conſtituentia. Vt autem demonſtremus quot poligonis incidant triangula, Dicemus angulorum Poligoni numerum, ſemper binario triangulorum numerum ſuperare. Nam cuiuſlibet propoſiti poligoni ab vno quouis angulorum ad ſingulos oppoſitos ductis rectis, hæc deſcribuntur triangula. Quia verò duo proximi remanent anguli non oppoſiti, nulla intra figuram ad illos linea duci poteſt, vt his patet exemplis.
 

@@ -1,6 +1,10 @@
 <!-- Page number: 256 -->
 <!-- Running title: GÉOMÉTRIE -->
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VI.]
+
 ## PROPOSITION VI.
 
 ### THÉORÊME.

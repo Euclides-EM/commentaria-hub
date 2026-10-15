@@ -4,6 +4,10 @@
 
 que A & C ſont premiers à B, leur produict Eſera auſſi premier à B par la 26.p.7. Par la meſme raiſon F ſera auſſi premier à A: Ainſi les deux A, E, ſeront premiers aux deux B, F, ſçauoir l’vn & l’autre, à l’vn & à l’autre; &partant par la 28.p. 7.G produict de A en E, ſera auſſi premier à H produict de B en F, & ainſi a l’infiny.
 
+[Curated heading level=2 type=propositions: THEOR. 28. PROPO. XXX.]
+
+[Curated heading level=2 type=theorems: THEOR. 28. PROPO. XXX.]
+
 ## THEOR. 28. PROPO. XXX.
 
 Si deux nombres premiers entr’eux ſont adiouſtez enſemble; le produict ſera premier à tous deux: & ſi le produict eſt premier à iceux deux nombres; ils ſeront premiers entr eux.

@@ -3,6 +3,10 @@
 
 [Figure: line segment M above two rectangles drawn in dotted lines, ABE on base AB and CDF on base CD]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVII. THEOREME XII.]
+
+[Curated heading level=2 type=theorems: THEOREME XII. PROPOSITION XVII.]
+
 ## PROPOSITION XVII. THEOREME XII.
 
 {dropcap:S|lines=2|style=plain}I trois lignes droites (AB, CD, M) ſont proportionelles, le rectangle (AB. M) des deux extrêmes eſt égal au quarré de la moyenne (CD). Et ſi le rectangle des deux extrêmes (AB. M) eſt égal au quarré de la moyenne (CD), les trois droites (AB, CD, M) ſont proportionelles.

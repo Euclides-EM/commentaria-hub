@@ -21,6 +21,8 @@ Mais si, l’angle C étant aigu, le côté B est moindre que A, alors l’arc d
 
 *Scholie.* Le problême seroit impossible dans tous les cas si le côté B étoit plus petit que la perpendiculaire abaissée de E sur la ligne DF.
 
+[Curated heading level=2 type=problems: PROBLÊME XII.]
+
 ### PROBLÊME XII.
 
 [Margin]

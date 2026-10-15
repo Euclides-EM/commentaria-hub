@@ -6,6 +6,8 @@ sit quintuplū quadrati r f. Cōstat enim ex gnomone quadruplo, & r f simplo. Ho
 
 IDEM aliter. Cum sit ex hypothesi quadratum lineæ a d quintuplum ad quadratū lineæ c d, & ex 6 secundi idem ipsum quadratum sit æquale ei quod fit ex a b in a c cum quadrato c d, sequitur ut id quod fit ex a b in a c cū quadrato c d, sit quintuplū ad idē quadratum c d. Ideoq̃ eo dēpto, erit residuum uidelicet quod fit ex a b in a c, quadruplum ad ipsum. Et quia etiam ex 4 secundi quadratum lineæ c b est quadruplum ad idem, necesse est ut quod fit ex a b in a c, sit æquale quadrato c b. Quare iterū ex secunda parte 16 sexti & diffinitione, linea a b est diuisa secundum proportionē habētem mediū & duo extrema in puncto c, & maior portio est linea c b.
 
+[Curated heading level=2 type=theorems: Theorema 3 Propositio 3]
+
 ## Eucli. ex Zamb. Theorema 3 Propositio 3
 
 [Curated heading level=3 type=zamberti_sequence: 3.]

@@ -22,6 +22,8 @@ FD; erit ut EF, ad FG, ita eadē EF, ad FD; ideoque æquales erunt FG, FD. Itaqu
 
 [Curated heading level=2 type=campanus: 6]
 
+[Curated heading level=2 type=theorems: THEOR. 6. PROPOS. 6.]
+
 ## THEOR. 6. PROPOS. 6.
 
 [Curated heading level=3 type=incipit: SI]

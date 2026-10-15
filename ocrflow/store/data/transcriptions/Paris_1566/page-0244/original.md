@@ -1,13 +1,15 @@
 <!-- Running title: LIBER DECIMVS. -->
 <!-- Page number: 108 -->
 
-## Corollarium.
+### Corollarium.
 
 Hinc aſſequimur, quod ſub duabus rectis, medium eſſe inter earum quadrata. Vt patuit ex prima ſexti, quod ſub A B B G medium fuiſſe inter A D & G Z.
 
-## MONITVM.
+### MONITVM.
 
 Adnotat Campanus quæ dixit Euclidis theorema vigeſimumquartum, Ac inſuper, ſi binæ Mediæ propoſitæ A B B G potentia incommenſurabiles exiſterent, ſub ipſis comprehenſum, nec certum, nec èquidem medium eſſet: nam contineretur ſub certa & media, hac methodo. Nam I T N L incommenſurabilia efficerent rectas C T K L longitudine incommenſurabiles (per primam ſexti) certas tamen cum Media ſint, I T N L, per 22 huius: quare ſub C T & K L comprehenſum medium eſſet, per vigeſimamprimam huius, ac ideo quod ex T K medium (per decimam ſeptimam ſexti) æquum comprehenſo ſub C T K L. Media igitur eſſet T K & proinde M K contineretur ſub Media T K & certa C I, vel T M. Quod quidem M K æquum eſt ei quod ſub binis A B B G, nõ igitur medium eſſet, nec quidem certum, ſed alia quantitatis ſpecies.
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſexta.]
 
 ## Propoſitio vigeſimaſexta.
 
@@ -19,7 +21,11 @@ Eſto medium A B, quod excedat ablatum medium A G rectangulo D B: Dico D B non e
 
 [Diagram: rectangle with I and T at top, E at left and Z and K at bottom, divided into compartments labelled ℞ 12 and ℞ 27]
 
-## Propoſitio vigeſimaſeptima. Problema 4.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſeptima.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimaſeptima. Problema 5.]
+
+## Propoſitio vigeſimaſeptima. Problema 4{printer-error-correction:5}.
 
 Medias inuenire potentia tantum commenſurabiles Certum comprehendentes.
 

@@ -15,6 +15,10 @@ suppos. | ▭.acb, est medi.
 β.24.10 | ▭.dfe, est medi.
 2 concl. 39.10 | de, est bimed. 2.
 
+[Curated heading level=2 type=propositions: THEOR. LI. PROPOS. LXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. LI. PROPOS. LXIX.]
+
 ## THEOR. LI. PROPOS. LXIX.
 
 Majori commensurabilis, & ipsa major est.

@@ -1,6 +1,10 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 308 -->
 
+[Curated heading level=2 type=propositions: PROP. X. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. X. THEOR.]
+
 ## PROP. X. THEOR.
 
 {dropcap:O|lines=2|style=plain}MNIS conus tertia pars eſt cylindri, qui eandem baſim habet et altitudinem aequalem.

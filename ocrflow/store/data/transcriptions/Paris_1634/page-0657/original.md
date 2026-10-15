@@ -8,6 +8,10 @@ hyp. | □.ac, incomm. □.cb,
 10.10 | di, incomm. il,
 concl. 19.10 | □.dl 3|2 □.lg..□.——, incomm. dl.
 
+[Curated heading level=2 type=propositions: THEOR. XLIII. PROPOS. LXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XLIII. PROPOS. LXI.]
+
 ## THEOR. XLIII. PROPOS. LXI.
 
 Quadratum eius, quæ ex binis nominibus, ad rationalem applicatum, latitudinem facit ex binis nominibus primam.

@@ -5,6 +5,10 @@ l.66 10 | ▭.dfe, comm. ▭.acb,
 s.12.10 | ▭.dfe, est ration.
 concl. 78. 10 | de, est ——, fa. rat. & medi.
 
+[Curated heading level=2 type=propositions: THEOR. LXXXIV. PROPOS. CVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXXIV. PROPOS. CVIII.]
+
 ## THEOR. LXXXIV. PROPOS. CVIII.
 
 Recta linea commensurabilis ei, quæ cum medio medium totum efficit; & ipsa cum medio medium totum efficiens est.

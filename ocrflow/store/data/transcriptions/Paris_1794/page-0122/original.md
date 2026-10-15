@@ -3,6 +3,10 @@
 
 ## *Problêmes annexés au Livre III.*
 
+[Curated heading level=1 type=problems: Livre III, Problêmes annexés au Livre III]
+
+[Curated heading level=2 type=problems: PROBLÊME I.]
+
 ### PROBLÊME I.
 
 *Diviser une ligne droite donnée en tant de parties égales qu’on voudra, ou en parties proportionnelles à des lignes données.*

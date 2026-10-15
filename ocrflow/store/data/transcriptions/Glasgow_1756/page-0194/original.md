@@ -23,6 +23,10 @@ f. 9. 5.
 
 et propterea angulus AFC angulo ACF aequalis. ſed angulus quidem AFC eſt aequalis angulo exteriori EAD, angulus vero ACF aequalis alterno CAD; quare et EAD angulus ipſi CAD aequalis erit. angulus igitur CAE bifariam ſectus eſt recta linea AD. Ergo ſi &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. IV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IV. THEOR.]
+
 ## PROP. IV. THEOR.
 
 {dropcap:A|lines=3|style=plain}EQUIANGULORUM triangulorum latera circum aequales angulos proportionalia ſunt. et homologa ſunt latera quae aequalibus angulis ſubtenduntur.

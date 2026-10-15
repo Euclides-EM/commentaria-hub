@@ -13,6 +13,8 @@ a Per hanc 28.
 b Per ſchol. p.6.huius.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXIX.]
+
 ## PROPOSITIO XXIX.
 
 {dropcap:O|lines=2|style=plain}Mnis ſector ſphæræ æqualis eſt cono, cuius altitudo eſt radius ſphæræ, baſis vero ſectoris ſphærica ſuperficies.

@@ -1,5 +1,9 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. X.]
+
 ## THEOR. IX. PROPOS. X.
 
 Vn cercle ne couppe pas vn cercle à plus de deux poincts.
@@ -23,6 +27,10 @@ i, k, l, *ne ſont interſect.*
 c.1.3 | •o *eſt centre du* ⊙iak, & *du* ⊙iek.
 *contr. 5.3.*
 concl. 21.a.1 | i, k, l, *ne ſont interſect.*
+
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. XI.]
 
 ## THEOR. X. PROPOS. XI.
 

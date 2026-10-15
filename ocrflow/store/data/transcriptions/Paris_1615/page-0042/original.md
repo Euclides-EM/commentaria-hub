@@ -8,6 +8,10 @@ contreront au poinct A, & conuiendront auec les lignes BA & CA: partant conuiend
 
 Puis que la baſe EF conuient auec la baſe BC & les coſtez DE. DF conuiennent außi auec les coſtez AB, AC. Il s’enſuit que non ſeulement l’angle A eſt egal à l’angle D;, mais qu’auſi l’angle E eſt igal àlangle E& l angle F, egol à tangle C, & tout le triangle egat à tout le triangle.
 
+[Curated heading level=2 type=propositions: PROBL. 4. PROPOS. IX.]
+
+[Curated heading level=2 type=problems: PROBL. 4. PROPOS. IX.]
+
 ## PROBL. 4. PROPOS. IX.
 
 Couper en deux egallement vn angle rectiligne donné.

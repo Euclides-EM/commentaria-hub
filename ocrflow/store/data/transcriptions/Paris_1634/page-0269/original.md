@@ -25,6 +25,8 @@ B, mesure A, par E.
 D, mesure C, par F.
 Donc E est egal à F.
 
+[Curated heading level=2 type=definitions: DEFINIT. IV.]
+
 ## DEFINIT. IV.
 
 Proportio verò est rationum similitudo.

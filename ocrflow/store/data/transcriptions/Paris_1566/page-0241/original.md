@@ -2,6 +2,8 @@
 
 cùm hæc commenſuratio naturam linearum non exprimat, ſed habitudinem, ea refertur ad linearum habitudinem: Quæ ideo inter ſe potentia tantùm commenſurabiles non erunt, quia earum extremarum quadrata rationem haberent quam quadrati numeri. Nam ſuſcipiunt medium proportionalem, & igitur ſimiles plani ſunt (per vigeſimam noni) qui rationem habent quam quadrati, per vigeſimamſextam eiuſdem, & igitur latera habent longitudine commenſurabilia, per nonam huius. Non igitur potentia tantùm eſſent commenſurabiles, ſed & longitudine.
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſecunda.]
+
 ## Propoſitio vigeſimaſecunda.
 
 Quod à Media, ad certam applicatum, latitudinem efficit certam, ei verò ad quam applicatur longitudine incommenſurabilem.
@@ -10,9 +12,11 @@ Sit propoſita certa AB recta, media verò eſto C quæ poßit rectangulum DEZ, 
 
 [Diagram: rectangle with A and B at the left, D and G at the right, divided into an upper compartment labelled 4 and ℞ 384 and a lower compartment labelled ℞ 24; below, a horizontal line C labelled ℞ ℞ 384; at the right a taller rectangle with E and Z labelled ℞ 384]
 
-## MONITVM.
+### MONITVM.
 
 Hæc præcedentis fuit ferè conuerſa: nam prior ſub longitudine & latitudine certarũ potentia tantùm commenſurabilium, mediam ſuperficiem concluſit, hæc autem ait, mediam ſuperficiem vnum latus rectanguli certa vallatum linea habentem, neceſſariò reliquam ſcilicet latitudinem certam efficere, & (vt priori vigeſimaprima dixit) potentia tantùm ipſi certæ (vnum latus continenti) commenſurabilem. Patet itaque mediam ſuperficiem contineri ſub lateribus binis quadratorum non habentium rationem quam quadrati numeri, ſed tantùm numerorum rationem, quorum aliquando vnus eſt quadratus, quandoque verò neuter, vt in numeris, cùm ſub radice numeri quadrati & radice ſurda non quadrati continetur rectangulum, vel cùm ſub duabus ſurdis quarum quadrati rationem quadratorum non habent, tunc verò quæ eam ſuperficiem poteſt, radix ſurda radicis ſurdæ dicetur, vt patuit præcedenti monito.
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimatertia.]
 
 ## Propoſitio vigeſimatertia.
 

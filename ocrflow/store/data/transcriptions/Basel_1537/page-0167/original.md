@@ -18,6 +18,8 @@ Subiungantur enim lineis a & b,e,& lineis c & d, f,in cõtinua proportionalitate
 
 [Diagram: two short horizontal lines labelled e and f; below, a pentagon labelled a and a triangle labelled c; below these, a pentagon labelled b, a small triangle labelled g, and an inverted triangle labelled d]
 
+[Curated heading level=2 type=theorems: Theorema 16. Propositio 22.]
+
 ## Eucli.ex Zamb. Theorema 15{printer-error-correction:16}. Propositio 22.
 
 [Curated heading level=3 type=zamberti_sequence: 22.]

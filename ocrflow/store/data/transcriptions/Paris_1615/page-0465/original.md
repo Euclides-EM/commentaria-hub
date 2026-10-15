@@ -4,6 +4,10 @@
 
 & FE eſt commenſurable au rectangle de AC & BC: Iequel eſtant medial, par la 40.p.10. auſſi ſera celuy de DF & FE, par Ie corol. de la 22.p.10. Parquoy DE ſera ligne maieure.
 
+[Curated heading level=2 type=propositions: THEOR. 52. PROP. LXX.]
+
+[Curated heading level=2 type=theorems: THEOR. 52. PROP. LXX.]
+
 ## THEOR. 52. PROP. LXX.
 
 La ligne commenſurable a vne ligne pouuant vn rationel, & vn medial; eſt auſſi ligne pouuant vn rationel, & vn medial.
@@ -11,6 +15,10 @@ La ligne commenſurable a vne ligne pouuant vn rationel, & vn medial; eſt auſ�
 Soit la ligne AB pouuant vn rationel & vn medial, diuiſee en ſes noms en D, & à icelle ſoit commenſ. la ligne DE. Ie dis qu’elle eſt auſsi pouuant vn rationel & vn medial.
 
 Car ſapres telle conſtruction qu’aux precedentes) on prouvera que comme AC & BC ſont incommenſ. en puiſſance, auſei ſeront DF & FG. Item les quatrez de AC & BC compoſez ſeront commenſ. au compoſe des quarrez de DF & FE, & le rectangle de AC & BC ſera commenſ. au rectangle de DF &IE Aais par la a1.p.1o. le compoſe des quarrez de Ac & BC eſt medial, & leur rectangle rationel: Partant le compoſe des quartez de Dr & FE ſera auſsi medial, & leur rectangle rationel. & DE ſera ligne pouuant vn rationel, & vn medial, par la 40.p.10.
+
+[Curated heading level=2 type=propositions: THEOR. 53. PROP. LXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 53. PROP. LXXI.]
 
 ## THEOR. 53. PROP. LXXI.
 

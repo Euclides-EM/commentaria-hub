@@ -30,6 +30,10 @@ constr. | <akl 2|2 <akc,
 α | ad 3|2 ac, β
 β | al, ac, ad, ñ snt 2|2 ⁊e.
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. IX.]
+
 ## THEOR. VIII. PROPOS. IX.
 
 Si in circulo acceptum fuerit punctum aliquod, & ab eo puncto ad circulum cadant plures quàm duæ rectæ lineæ æquales; acceptum punctum centrum est ipsius circuli.

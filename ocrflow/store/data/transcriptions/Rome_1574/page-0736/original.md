@@ -21,6 +21,8 @@ Quare addita unitate ED, totus AD, impar erit, cum impar à pari differat unitat
 
 [Curated heading level=2 type=campanus: 25]
 
+[Curated heading level=2 type=theorems: THEOR. 22. PROPOS. 24.]
+
 ## THEOR. 22. PROPOS. 24.
 
 [Margin]

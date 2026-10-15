@@ -3,6 +3,10 @@
 
 erit et reliqua ad reliquam ut ablata ad ablatam. hoc enim in ipſa demonſtratione oſtenſum eſt.
 
+[Curated heading level=2 type=propositions: PROP. E. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. E. THEOR.]
+
 ## PROP. E. THEOR.
 
 {dropcap:S|lines=2|style=plain}I quatuor magnitudines proportionales ſint, et convertendo proportionales erunt.
@@ -30,6 +34,10 @@ c. 18. 5.
 erit BA ad AE, ut DC ad CF. ſi igitur &c. Q. E. D.
 
 [Diagram: two vertical lines labelled A, E, B and C, F, D]
+
+[Curated heading level=2 type=propositions: PROP. XX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XX. THEOR.]
 
 ## PROP. XX. THEOR.
 

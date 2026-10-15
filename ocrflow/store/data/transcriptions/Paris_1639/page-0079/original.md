@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. I. -->
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XXVII.]
+
 ## THEOR. XVIII. PROPOS. XXVII.
 
 Si vne ligne droicte tombante sur deux autres lignes droictes, fait les angles alternes égaux entr'eux : icelles lignes droictes seront paralleles entr'elles.
@@ -24,6 +28,10 @@ ab == cd.
 concl. 21.a.1 | ab == cd.
 
 En cette demonstration, pour monstrer l'inconuenient qui en arriueroit, on suppose que EB & FD continuées directement se rencontrent en G : d'où s'ensuit, que la figure EFG est vn triangle rectiligne, & par consequent par la 16. du 1. l'angle externe AEF est plus grand que son interne & opposé EFG, ce qu'estant contre l'hypothese, il est manifeste que les lignes EB & FD continuées directement ne se peuuent rencontrer, & par consequent qu'elles sont paralleles entr'elles.
+
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXVIII.]
 
 ## THEOR. XIX. PROPOS. XXVIII.
 

@@ -5,6 +5,10 @@
 ### Beschluß.
 Sind derowegen in jedweden △ zwo Seiten grösser/ als die Dritte. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXI. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 14. Beweiß-Stück. Der XXI. Vortrag.]
+
 ## Der XXI. Vortrag.
 
 ## Das 14. Beweiß-Stück.

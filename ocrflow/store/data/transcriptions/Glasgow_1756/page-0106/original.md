@@ -1,6 +1,10 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 91 -->
 
+[Curated heading level=2 type=propositions: PROP. XX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XX. THEOR.]
+
 ## PROP. XX. THEOR.
 
 {dropcap:I|lines=2|style=plain}N circulo angulus qui ad centrum duplus eſt ejus qui ad circumferentiam, quando circumferentiam eandem pro baſi habent.
@@ -26,6 +30,10 @@ ergo et angulus BEF ipſius EAB eſt duplus. eadem ratione et angulus FEC duplus
 Rurſus inflectatur BDC ad circumferentiam, ita ut centrum E ſit extra angulum BDC, junctaque DE ad G producatur. ſimiliter oſtendemus angulum GEC anguli GDC duplum eſſe, quorum GEB duplus eſt ipſius GDB; reliquus igitur BEC reliqui BDC eſt duplus. in circulo igitur angulus &c. Q. E. D.
 
 [Diagram: circle labelled A, B, C, D, E and G, with lines DB, DC, DE, EB and EC]
+
+[Curated heading level=2 type=propositions: PROP. XXI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXI. THEOR.]
 
 ## PROP. XXI. THEOR.
 

@@ -20,6 +20,10 @@ Terti⁹modus
 
 d/f/& d/g/inuicem æqualibus: quæ relinquētur erunt pariter inæquales, e/g/ quidem maior e/f. Ipsi porrò e/g, æqualis mōstrata est b/c: cōcludes ergo rursum, b/c/basin fore maiorē ipsa basi e/f. Igitur si bina triāgula, duo latera duobus lateribus æqualia habuerint alterum alteri, angulum verò: &c. vt in theoremate. Quod ostendere fuerat operæpretium.
 
+[Curated heading level=2 type=propositions: Theorema 16, Propositio 25.]
+
+[Curated heading level=2 type=theorems: Theorema 16, Propositio 25.]
+
 ## Θεώρημα ις, Πρόθεσις κε.
 
 Εὰν δύο τρίγωνα τὰς δύο πλευρὰς ταῖς δυσὶ πλευραῖς ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, τὴν δὲ βάσιν τῆς βάσεως μείζονα ἔχῃ, καὶ τὴν γωνίαν τῆς γωνίας μείζονα ἕξει τὴν ὑπὸ τῶν ἴσων εὐθειῶν περιεχομένην.

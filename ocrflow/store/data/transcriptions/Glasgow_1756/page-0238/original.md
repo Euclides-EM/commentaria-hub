@@ -1,6 +1,10 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 225 -->
 
+[Curated heading level=2 type=propositions: PROP. I. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. I. THEOR.]
+
 ## PROP. I. THEOR.
 
 {dropcap:R|lines=2|style=plain}ECTAE lineae pars quaedam non eſt in ſubjecto plano, quaedam vero in ſublimi.
@@ -14,6 +18,10 @@ a. Cor. 11. 1.
 Non igitur rectae &c. Q. E. D.
 
 [Diagram: plane containing the line A–B–D, with the line B–C rising beyond it]
+
+[Curated heading level=2 type=propositions: PROP. II. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. II. THEOR.]
 
 ## PROP. II. THEOR.
 

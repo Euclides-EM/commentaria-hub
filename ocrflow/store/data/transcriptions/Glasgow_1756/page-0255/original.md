@@ -11,6 +11,10 @@ et ex conſtructione eſt DAB angulus aequalis ipſi BAE; quare DAB, DAC anguli,
 
 [Diagram: triangle DBC with interior point A and point E on BC, joined by lines DA, AB, AC and AE]
 
+[Curated heading level=2 type=propositions: PROP. XXI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXI. THEOR.]
+
 ## PROP. XXI. THEOR.
 
 {dropcap:O|lines=2|style=plain}MNIS ſolidus angulus, minoribus quam quatuor rectis angulis planis continetur.

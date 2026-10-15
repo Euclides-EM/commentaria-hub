@@ -43,6 +43,10 @@ parallelum igitur eſt planum per AB, BC plano per DE, EF. Quare ſi duae rectae
 
 [Diagram: two parallel planes, labelled A, B, C and D, E, F, with perpendicular line BG and parallel lines GH and GK]
 
+[Curated heading level=2 type=propositions: PROP. XVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVI. THEOR.]
+
 ## PROP. XVI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duo plana parallela ab aliquo plano ſecentur, communes ipſorum ſectiones parallelae erunt.

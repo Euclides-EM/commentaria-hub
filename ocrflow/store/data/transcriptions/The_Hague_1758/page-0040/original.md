@@ -4,6 +4,10 @@
 
 [Figure: horizontal line AB with point C; a vertical line CE rises from C, and a dotted line CD ascends to the right toward D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV. THEOREME VII.]
+
+[Curated heading level=2 type=theorems: THEOREME VII. PROPOSITION XIV.]
+
 ## PROPOSITION XIV. THEOREME VII.
 
 {dropcap:S|lines=2|style=plain}I deux droites (AC, BC) rencontrent de part & d'autre une droite (EC), en un même point (C), faiſant avec cette droite (EC) la ſomme des deux angles contigus (ACE, ECB) égale à deux angles droits: ces deux lignes droites (AC, BC) ſe rencontreront directement.

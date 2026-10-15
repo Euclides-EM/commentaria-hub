@@ -2,6 +2,10 @@
 
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſecundus.
 
+[Curated heading level=1 type=definitions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſecundus.]
+
+[Curated heading level=2 type=definitions: Diffinitio prima.]
+
 ## Diffinitio prima.
 
 {dropcap:O|lines=6|style=decorated|decoration="foliate ornament"}MNE parallelogrammum rectangulum, ſub duabus rectum angulum comprehendentibus rectis lineis, dicitur contineri.

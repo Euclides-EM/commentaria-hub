@@ -3,6 +3,10 @@
 
 [Figure: deux cones inſcrits dans des cylindres, avec cercles QRBE (points A, a, B, b, C, c, D, d, E, F) & STKH (points G, g, H, h, K, L, l, I, M), & deux parallelepipedes marqués X & Z]
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. THEOREME XI.]
+
+[Curated heading level=2 type=theorems: THEOREME XI. PROPOSITION XI.]
+
 ## PROPOSITION XI. *THEOREME XI.*
 
 {dropcap:L|lines=2|style=plain}Es cones (EABDF & HGKIM) & les cylindres (QRBE & STKH) qui ont la même hauteur ſont entr'eux comme leurs bazes.

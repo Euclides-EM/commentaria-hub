@@ -11,6 +11,10 @@ Hinc perspicuum est, inter duos similes planos cadere vnum medium proportionalem
 
 *D'icy il est manifeste, qu'entre deux plans semblables tombe vn moyen proportionel en la raison des costez homologues.*
 
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XIX.]
+
 ## THEOR. XVII. PROPOS. XIX.
 
 Duorum similium solidorum numerorum duo medij proportionales sunt numeri : Et solidus ad solidum triplicatam rationem habet lateris homologi ad latus homologum.

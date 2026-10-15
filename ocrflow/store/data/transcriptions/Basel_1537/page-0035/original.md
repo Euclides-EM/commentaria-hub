@@ -20,6 +20,8 @@ CAMPANVS. Sint duæ lineæ a b & c d, quarum utraq̃ æquidistet lineæ e f. Dic
 
 [Diagram: transversal line g h crossing three lines: a b at k, e f at l, c d at m; labels g at top, a, k, b, e, l, f, c, m, d, h at bottom]
 
+[Curated heading level=2 type=theorems: Theorema 21. Propositio 30.]
+
 ## Eucli. ex Zamb. Theorema 21. Propositio 30.
 
 [Curated heading level=3 type=zamberti_sequence: 30.]
@@ -47,6 +49,8 @@ A Puncto extra lineam dato, lineæ propositæ æquidistantē ducere.
 CAMPANVS. Punctus extra lineā datus intelligitur, cum linea utrinq̃ protracta, per ipsum non transit. Sit ergo punctus a, datus extra lineā b c, ab eodem pūcto a, à quo oportet protrahere lineā æquidistantē ipsi b c, protraho lineam a d lineæ b c superstantem qualitercūq̃ contingat, & super punctū a qui est extremitas lineæ a d, cōstituo angulum e a d per doctrinā 23 propositionis, æqualem angulo b d a sibi coalterno, eritq̃ a e æquidistans b c per 27 propositionē, quod est propositū.
 
 [Diagram: point a above with line a e drawn to the right, slant line a d descending to the lower line b c at d; labels a, e, d, f on the lines]
+
+[Curated heading level=2 type=problems: Problema 10. Propositio 31.]
 
 ## Eucli. ex Zamb. Problema 10. Propositio 31.
 

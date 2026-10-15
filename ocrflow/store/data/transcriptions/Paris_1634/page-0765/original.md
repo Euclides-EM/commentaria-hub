@@ -14,6 +14,10 @@ Demonstr.
 29. 11 | ◇piped. hqdnyεzx 2|2 ◇piped. hqdncpfo,
 2 concl. 1. a. 1 | ◇piped. gmbialeк 2|2 ◇piped. hqdncpfo.
 
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XXXII.]
+
 ## THEOR. XXVII. PROPOS. XXXII.
 
 Solida parallelepipeda sub eadem altitudine, inter se sunt vt bases.

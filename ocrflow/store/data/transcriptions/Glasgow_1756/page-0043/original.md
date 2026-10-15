@@ -37,6 +37,10 @@ erit latus EG latere EF majus. ſed EG latus eſt aequale lateri BC; ergo et BC 
 
 [Diagram: triangle ABC and geometrical construction DEFG]
 
+[Curated heading level=2 type=propositions: PROP. XXV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXV. THEOR.]
+
 ## PROP. XXV. THEOR.
 
 [Subhead]

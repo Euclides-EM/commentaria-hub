@@ -12,6 +12,10 @@ Idem alia ratione demonstrare.
 
 [Diagram: d a e b f c]
 
+[Curated heading level=2 type=propositions: Theorema 21, Propositio 31.]
+
+[Curated heading level=2 type=theorems: Theorema 21, Propositio 31.]
+
 ## Θεώρημα κα, Πρόθεσις λα.
 
 Ἐν τοῖς ὀρθογωνίοις τριγώνοις, τὸ ἀπὸ τῆς τὴν ὀρθὴν γωνίαν ὑποτεινούσης πλευρᾶς εἶδος, ἴσον ἐστὶ τοῖς ἀπὸ τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν πλευρῶν εἴδεσι, τοῖς ὁμοίοις τε καὶ ὁμοίως ἀναγραφομένοις.

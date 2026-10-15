@@ -11,6 +11,10 @@ Super æqualibus rectis A B & G D ſimiles conſiſtant ſectiones A B C, D E G.
 
 Quoniam Theon & Campanus hanc demonſtrare conati ſunt, aut hi à quibus demonſtrationes ſumpſerunt, inſtrumento fere mechanico, nempe coaptata figura ſupra figuram, quod indignum traditione mathematica ſupramodum exiſtimatur. Demonſtrandi nouam rationem aperire cogimur; Theon item hanc per 20 tertij, loco decimæ voluit oſtendere (fruſtra tamen.) Poterant enim ſuper eadem recta duæ deſcribi ſectiones circulorum, in pluribus duobus ſignis ſe non ſecantium, quare non neceſſario concludit hoc ſuppoſito, quod videlicet congruentibus rectis, licet ſectiones circulorum non congruant, ſectionum circulos ſeſe in pluribus duobus ſignis ſecari, maximè ſi concurrant ſectiones tantum ad extrema lineæ ſubtendentis ſigna, tunc in duobus illis ſeſe tantum ſecabunt ſignis. Campanus verò unam ſectionem per puram alterius ſuperpoſitionem, tanquam inſtrumento mechanico metitur ut æqualem probet, quod eſſe argumentum verè mechanicum, patet. Aliquas inſuper demonſtrationes quaſdam hac via demonſtrare conati ſunt (veluti 4 & 8 primi, &c.) Sub octauæ communis ſententiæ quidem prætextu, per quam quæ ſibimetipſis congruunt vel conueniũt, æqualia adinuicem eſſe dixit Euclides, cupiens artem non artis praxim deſcribere. Quare non intelligit figuras ſuperponendas figuris ut æquales aut inæquales percipiantur, ſed figurarum aut aliorum quorumuis ſubiectorum quantitates, ratiocinante argumento conuenire cognitæ, adinuicem ſibimetipſis illæ quantitates æquales dicentur, non autem quæ experimento congruere palpantur, illæ æquales dici debeant. Matheſis enim ex præaſſumptis certis neceſſario concludit, non autem ex ſenſibus externis praxim operantibus, ſæpius fallacem.
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquinta.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimaquinta. Problema 3.]
+
 ## Propoſitio vigeſimaquinta.
 
 [Subhead]
@@ -22,6 +26,8 @@ Circuli ſectione data, deſcribere circulum cuius eſt ſectio.
 Data circuli ſectio eſto A B D, in qua duæ rectæ, non parallelæ utcunque ducantur A G & B D, quibus bifariam in I & O ſectis, excitentur perpendiculares I E & O E. Sequetur (per coroll. I. huius) in utraque eſſe centrũ circuli A B G D, commune ſcilicet ipſis ſignũ E, centro igitur E interuallo verò E A vel D E circulus perficiatur, per 3 poſt. Circuli igitur ſectione data deſcripſimus circulum cuius eſt ſectio.
 
 [Diagram: circular section A B G D with chords A G and B D, bisected at I and O, and perpendiculars meeting at E]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſexta.]
 
 ## Propoſitio vigeſimaſexta.
 

@@ -12,6 +12,10 @@ Soit expoſee la rationele AB & ſoient trouuez (comme il a eſte enſeigne au l
 
 Si la rationele AB eſt 3: AF ſera √6, & BF√3.
 
+[Curated heading level=2 type=propositions: PROB. 8. PROP. XXXII.]
+
+[Curated heading level=2 type=problems: PROB. 8. PROP. XXXII.]
+
 ## PROB. 8. PROP. XXXII.
 
 Trouuer deux mediales commeſurables en

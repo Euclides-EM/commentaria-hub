@@ -7,6 +7,8 @@ mutuo impoſiti congruent, punctaque F, I incident in puncta C, E. Ergo & ſubte
 d Per axio. 7.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXVIII. & XXIX.]
+
 ## PROPOSITIO XVIII{printer-error-correction:XXVIII}. & XXIX.
 
 [Curated heading level=2 type=figures: Fig. 38]

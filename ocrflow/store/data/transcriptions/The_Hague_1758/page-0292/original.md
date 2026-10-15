@@ -3,6 +3,10 @@
 
 [Figure: planche encadrée contenant les Pgrs T (angles r, p, q), le Rectiligne V, la figure de construction avec les points F, D, N, R, S en haut, A, E, B, M au milieu, H, K, I, G, P, Q en bas, et le Pgr X]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIX. PROBLEME IX.]
+
+[Curated heading level=2 type=problems: PROBLEME IX. PROPOSITION XXIX.]
+
 ## PROPOSITION XXIX. *PROBLEME IX.*
 
 {dropcap:S|lines=2|style=plain}Elon une droite donnée (AB), appliquer un Parallélogramme (AG), égal à un Rectiligne donné (V), excédant d'un Parallélogramme (MI), ſemblable à un Parallélogramme donné (T).

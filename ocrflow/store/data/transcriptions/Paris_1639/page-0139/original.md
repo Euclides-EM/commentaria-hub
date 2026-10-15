@@ -14,6 +14,10 @@ hyp. | af 2|2 fb,
 *contr. 9. a.. 1*
 concl. 21.a.1 | cf n̄. *eſt* 2|2 fd.
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. V.]
+
 ## THEOR. IV. PROPOS. V.
 
 Si deux cercles se couppent l'vn l'autre, ils n'auront pas le mesme centre.
@@ -37,6 +41,10 @@ e n̄. *eſt centr. du* ⊙bac, & *du* ⊙bdc.
 1.a.1 | ed 2|2 ea,
 *contr. 9. a. 1.*
 concl. 21,a.1 | e n̄ *eſt centr. du* ⊙bac, & *du* ⊙bdc.
+
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. VI.]
 
 ## THEOR. V. PROPOS. VI.
 

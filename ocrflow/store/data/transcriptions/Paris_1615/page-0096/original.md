@@ -8,6 +8,10 @@ nuarré commun de AD, les trois quarrez de BC, CD, AD, ſeont egaux aux deux qu
 
 Or combien qu’Euclide propoſe ce theoreme des triangles oxigones ſeulement: toutesfois le meſme eſt auſſi veritable és triangles rectangles & ambligones, la perpendiculaire tombant de l’angle droict ou obtus: Car il eſt manifeſte par la 17.ou 32.p.1. que les deux autres angles ſont aigus: & partant la perpendiculaire tombera touſiours dans le triangle, comme Euclide l’a pris en la demonſtration: ce aui eſt auſſi facile à prouuer. Car ſi elle tomboit hors le triangle, il s’enſuiuroit qu’vn angle aigu ſeroit plus grand que le droict: ce qui eſt abſurde.
 
+[Curated heading level=2 type=propositions: PROB. 2. PROP. XIIII.]
+
+[Curated heading level=2 type=problems: PROB. 2. PROP. XIIII.]
+
 ## PROB. 2. PROP. XIIII.
 
 Faire vn quarré egal à vne figure rectiligne donnee. Soit donnee la figure rectiligne A, à laquelle il faut faire vn quarré egal.

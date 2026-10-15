@@ -10,6 +10,10 @@ conſtr. | ◊df 2|2 a,
 conſtr. | ◊dh 2|2 b,
 concl. 3.a.1 | ◊gf 2|2 a~b.
 
+[Curated heading level=2 type=propositions: PROBL. XIV. PROPOS. XLVI.]
+
+[Curated heading level=2 type=problems: PROBL. XIV. PROPOS. XLVI.]
+
 ## PROBL. XIV. PROPOS. XLVI.
 
 D'vne ligne droicte donnée, descrire vn quarré.

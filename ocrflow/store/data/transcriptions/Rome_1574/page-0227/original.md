@@ -2,6 +2,8 @@
 
 [Curated heading level=2 type=campanus: 45]
 
+[Curated heading level=2 type=problems: PROBL. 14. PROPOS. 46.]
+
 ## PROBL. 14. PROPOS. 46.
 
 [Curated heading level=3 type=incipit: A DATA]

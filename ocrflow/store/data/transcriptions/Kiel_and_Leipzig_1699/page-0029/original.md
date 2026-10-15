@@ -2,6 +2,8 @@
 
 <!-- Page number: 12 -->
 
+[Curated heading level=2 type=axioms: Grund-Satz VI.]
+
 [Curated heading level=3 type=numbered_item: VI.]
 
 VI. Diejenigen (zwey) Dinge ab und cd / welche zweyfach grösser sind / als das dritte ef/ dieselbigen ab und cd sind einander gleich.
@@ -25,6 +27,8 @@ VI. Diejenigen (zwey) Dinge ab und cd / welche zweyfach grösser sind / als das 
 (l) Eben dieses gehet auch bey denen Dingen ef an / welche drey-vier-oder mehr-mal grösser oder kleiner sind.
 
 [Diagram: links drei Striche a–b, e–f (kurz), c–d; rechts drei Striche e–f (lang), a–b (kurz), c–d (kurz)]
+
+[Curated heading level=2 type=axioms: Grund-Satz VII.]
 
 [Curated heading level=3 type=numbered_item: VII.]
 

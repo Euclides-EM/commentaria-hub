@@ -5,6 +5,10 @@
 
 pars toto, quod eſt abſurdum. Iiſdem rationibus probabitur Dimetiens educi non poſſe ſupra Dimetientes C F & F B. Quare C F B vna eſt Dimetiens totius Parallelogrammi, Quod erat probandum.
 
+[Curated heading level=2 type=propositions: PROBLEMA 12, PROPOSITIO XLIIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 12, PROPOSITIO XLIIII.]
+
 ## PROBLEMA 12, PROPOSITIO XLIIII.
 
 Super data recta linea, dato Triangulo æquale Parallelogrammum conſtituere, habens angulum angulo dato æqualem.

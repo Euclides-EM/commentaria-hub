@@ -4,6 +4,8 @@
 
 CORRELARIVM. Ex hoc nempe est manifestũ, quod & multangulas bases habẽtes similes pyramides, adinuicẽ in triplici sunt ratione eiusdẽ rationis laterũ. Diuisis enim ipsis in ipsas pyramides, triãgulares bases habentes (quia similia polygona basium in similia triangula diuiduntur, & in æque multiplicia, & eiusdem rationis totis) erit sicut in altera una pyramis triangularẽ habens basin ad unam basin triangularẽ habentem in altera pyramide, sic & omnes pyramides in altera pyramide triãgulares bases habẽtes, ad pyramides existentes in altera pyramide, & habentes triãgulares bases. Hoc est, Pyramis ipsa polygonã basin habens ad pyramida basin polygonã habentẽ. Pyramis autẽ triangularẽ basin habens ad pyramida triangularẽ basin habentẽ, in triplici est ratione eiusdẽ ratiõis laterũ. Et polygonã igitur basin habens, ad similem basin habentẽ, triplam habet rationẽ quàm latus ad latus.
 
+[Curated heading level=2 type=theorems: Theorema 9 Propositio 9]
+
 ## Eucli. ex Zamb. Theorema 9 Propositio 9
 
 [Curated heading level=3 type=zamberti_sequence: 9.]

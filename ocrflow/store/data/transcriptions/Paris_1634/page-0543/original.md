@@ -2,6 +2,10 @@
 
 *Si le nombre prochain à l'vnité est nombre premier, il n'y aura point d'autre nombre premier qui mesure le dernier.*
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XIII.]
+
 ## THEOR. XIII. PROPOS. XIII.
 
 Si ab vnitate quotcunque numeri deinceps proportionales fuerint ; qui verò post vnitatem, primus sit ; maximum nullus alius metietur, præter eos, qui sunt in numeris proportionalibus.

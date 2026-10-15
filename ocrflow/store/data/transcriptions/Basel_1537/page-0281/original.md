@@ -10,6 +10,8 @@ ipsius δ ζ duplus ponatur θ α. * Conducaturq́ʒ duplus rursus θ γ ipsius 
 
 [Diagram: a dotted horizontal line with the points α . . η . . θ . δ . ε . ζ . . . γ . . . . . . . . β]
 
+[Curated heading level=2 type=problems: Problema 6 Propositio 29]
+
 ## Eucli.ex Zamb. Problema 6 Propositio 29
 
 [Curated heading level=3 type=zamberti_sequence: 29.]
@@ -23,6 +25,8 @@ Comperire binas rationales potentia tantum cōmensurabiles,ut maior minore maius
 THEON ex Zamb. Exponatur enim quædam rationalis α β,& bini quadrati numeri γ δ,δ ε,ut ipsorum residuus γ ε non sit quadratus (per correlarium 1 lemmatis 28 decimi,) & super α β describatur semicirculus α ζ β. Fiatq́ʒ sicut (per correlarium 6 decimi) δ γ ad γ ε, sic quod ex β α quadratū ad id quod ex α ζ quadratū,connectaturq́ʒ ζ β.Quoniam igitur est sicut quod ex β α ad id quod est ex α ζ, sic γ δ ad δ γ{printer-error-correction:γ ε}, igitur quod ex β α ad id qtod{printer-error-correction:quod} ex α ζ, eam habet rationem quam numerus γ δ ad numerū γ ε. Cōmensurabile igitur est quod ex β α,ei quod ex α ζ.Rationale autem quod ex α β,rationale igitur & id quod ex α ζ.Rationalis igitur est & α ζ.Et quoniam δ γ ad γ ε rationem non habet quam quadratus numerus ad quadratū numerum , neq́ʒ quod ex α β igitur ad id quod ex α ζ rationem habet quam quadratus numerus ad quadratū numerum. Igitur α β(per 9 decimi)ipsi α ζ longitudine incōmensurabilis est.Ipsæ igitur α ζ,α β,rationales sunt potentia tantum cōmensurabiles. Et quoniam est sicut δ γ ad γ ε,sic est quod ex α β ad id quod ex α ζ,conuertendo igitur (per correlariū 19 quinti)sicut γ δ ad δ ε,sic quod ex α β ad id quod ex β ζ.At γ δ ad δ ε eam habet rationem quam quadratus numerus ad quadratū numerum.Quod igitur ex α β ad id quod ex β ζ,eam habet rationem quam quadratus numerus ad quadratum numerum. Cōmensurabilis igitur est(per 9 decimi) α β ad β ζ longitudine.Et quod ex α β(per 47 primi)æquū est eis quæ ex α ζ & ζ β. Igitur α β ipsa α ζ maius potest ipsa β ζ sibi cōmensurabili.Inuentæ igitur sunt binæ rationales potentia tantum cōmensurabiles β α & α ζ, ut β maior ipsa α ζ maius poßit eo quod ex ζ β sibi longitudine cōmensurabili . Quod facere oportebat.
 
 [Diagram: semicircle on base β α (β at the left end, α at the right end) with an inscribed triangle whose apex, labelled ζ, stands near the top of the arc, with tick marks on the left chord and on the base; below, a dotted line with the points δ . . . . ε . . . . γ]
+
+[Curated heading level=2 type=problems: Problema 7 Propositio 30]
 
 ## Eucli. ex Zamb. Problema 7 Propositio 30
 

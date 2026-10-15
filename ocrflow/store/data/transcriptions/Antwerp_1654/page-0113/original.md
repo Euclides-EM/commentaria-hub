@@ -1,6 +1,8 @@
 <!-- Page number: 80 -->
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XIII.]
+
 ## PROPOSITIO XIII.
 
 [Curated heading level=2 type=figures: Fig. 15]

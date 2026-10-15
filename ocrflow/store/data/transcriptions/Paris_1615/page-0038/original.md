@@ -2,6 +2,10 @@
 
 <!-- Page number: 15 -->
 
+[Curated heading level=2 type=propositions: THEO. 2. PROP. V.]
+
+[Curated heading level=2 type=theorems: THEO. 2. PROP. V.]
+
 ## THEO. 2. PROP. V.
 
 Les triangles Iſoſceles ont les angles ſur la ba ſe egaux: & les coſtez egaux eſtans con tinuez, les angles exterieurs ſoubs la baſe, ſont egaux.

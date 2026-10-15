@@ -4,6 +4,10 @@
 
 [Figure: triangles ACB and ADB on base AB between parallels AB and CD, with dotted lines to points F and E on the upper line]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXVII. THEOREME XXVII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXVII. PROPOSITION XXXVII.]
+
 ## PROPOSITION XXXVII. THEOREME XXVII.
 
 {dropcap:L|lines=2|style=plain}Es triangles (ACB, ADB), placés ſur une même baſe (AB) & entre les mêmes paralleles (AB, CD), ſont égaux entr'eux.

@@ -14,6 +14,8 @@ Diſe prop. füret nach auſtruckhlicher auß / das jhenig ſo inn der 7 angezai
 wie 4 gegen 3. volgt das diſe proportion alle gleichförmig/vnd ainerlay ſein.
 [/Calculation]
 
+[Curated heading level=2 type=propositions: XII. Die zwölffte Propoſition]
+
 ## XII. Die zwölffte Propoſition.
 
 {dropcap:S|lines=2|style=plain}o ettwa vil quantiteten gegen ainander mitt ainerlay proportion verglichen werden / wie ſich ain jede vorgehnde gegen jrer volgenden halten wirt: alſo wirt ſich auch das collect der vorgehnden ſambtlich / halten gegen dem collect der volgenden ſambtlich.
@@ -44,6 +46,8 @@ alles       duppel          alles       1½
         85  gegen   212½. wie
              5 gegen 2
 [/Calculation]
+
+[Curated heading level=2 type=propositions: XIII. Die dreyzehend propoſition]
 
 ## XIII. Die dreyzehend propoſition.
 

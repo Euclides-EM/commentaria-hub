@@ -10,6 +10,10 @@ Car ayant mené de A par le centre D le diametre AC, & tiré les lignes DB, DE
 
 De cecy eſt euident que le coſté de l’hexagone eſtaut couppé en la moyenne & extreme raiſon, le plus grand ſegment eſt coſté du decagone inſcrit au meſme cerc.e. Car ſi de BE coſté de l’hexagone on couppe vne partie egale à AB: comme la toute AE ſera à la toute Be ainſi la retranchee BE ſera à la retranchee de BE, c’eſt à dire à AB: & partant par la 19.p. 5. le reſte ſera au reſte, comme la toutc a la ioute, oz la retranchee à la retranchee. Parquoy BE ſera ſemblablement eouppee que AE en la moyenne & extreme raiſon par la 3.d. 6. dont le plus grand ſegment ſera AB coſté du decagone.
 
+[Curated heading level=2 type=propositions: THEOR. 10. PROP. X.]
+
+[Curated heading level=2 type=theorems: THEOR. 10. PROP. X.]
+
 ## THEOR. 10. PROP. X.
 
 Le quarré du coſté du pentagone equilateral inſcrit en vn cercle, eſt egal auxdeux quarrez des coſtez du decagone, & de l’hexagone, nſcrits au meſme cercle.

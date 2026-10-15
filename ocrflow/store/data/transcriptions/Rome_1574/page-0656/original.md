@@ -15,6 +15,8 @@ A,81. B,54. C,36. D,24. E,16.
 
 [Curated heading level=2 type=campanus: 7]
 
+[Curated heading level=2 type=theorems: THEOR. 5. PROPOS. 7.]
+
 ## THEOR. 5. PROPOS. 7.
 
 [Margin]

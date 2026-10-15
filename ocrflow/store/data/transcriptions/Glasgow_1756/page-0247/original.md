@@ -29,6 +29,10 @@ tangit autem ipſam recta AF exiſtens in plano per ED, DA. Ergo GH perpendicula
 
 [Diagram: plane labelled B, C, D, F, G and H, with points A and E above it]
 
+[Curated heading level=2 type=propositions: PROP. XII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XII. PROB.]
+
 ## PROP. XII. PROB.
 
 {dropcap:D|lines=2|style=plain}ATO plano, a puncto quod in ipſo datum eſt, ad rectos angulos rectam lineam conſtituere.

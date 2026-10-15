@@ -6,6 +6,10 @@ E, comme C a B: & comme C eſt a B, ainſi F a E. Donc D ſera auſsi a E comme 
 
 En troiſieſme lieu, ſi A eſt moindre que C, ie dis auſsi queD eſt moindre que F. Car puiſque A eſt moindre que C, il y aura moindre raiſon de A a B, que de C a B par la 8. p.5. Mais cõme A eſt a B, ainſi D eſt a E; Il y aura donc auſsi moindré raiſon de D a E, que de C a B, par la 13.p.3. Mais en changeant comme deſſus, C eſt a B, comme F a E. Il y a donc pareillement moindre raiſon de D a E, que de Fa E: & partant par la 10.p.5.D ſera moindre que F
 
+[Curated heading level=2 type=propositions: THEOR. 21. PROP. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 21. PROP. XXI.]
+
 ## THEOR. 21. PROP. XXI.
 
 Si trois grandeurs d’vn coſté, & trois d’vn autre, priſes de deux en deux ſont en meſme raiſon, eſtant leur proportion ſans ordre, & qu’en raiſon egale la premiere ſoit plus grande que la troiſieſme, auſſi la quatrieſme ſera plus grande que la ſixieſme; & ſi egale, egale; ſi plus petite, plus petite.

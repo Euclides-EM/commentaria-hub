@@ -1,8 +1,10 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
-## MONITVM.
+### MONITVM.
 
 *Hanc protulit Campanus in lineis ſeſe tangentibus aut parallelis intelligi, Theon verò vberiorem proferens Geometriæ fructum, in quibuſuis indefinitè lineis intelligit. Veruntamen illud vnum omiſit, quod ſectiones illæ proportionales, intelligi debeãt inter plana comprehenſæ. Nam ſi lineæ ipſa plana prætergrederentur, non ſequeretur ipſas proportionaliter ſecari, ob contingentes earum extra plana quantitates: quare huic theoremati contulimus has voces interea plana.*
+
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
 
 ## Propoſitio decimaoctaua.
 
@@ -12,6 +14,8 @@ Si recta linea plano alicui ad angulos rectos fuerit, & omnia quę per ipſam pl
 
 [Figure: two vertical rectangular planes with points H, D, F above and E, C, I below, standing on a base plane B G]
 
+[Curated heading level=2 type=propositions: Propoſitio decimanona.]
+
 ## Propoſitio decimanona.
 
 Si bina plana ſeinuicem ſecantia plano alicui ad angulos rectos fuerint, & ipſorum communis ſectio ad idem planum ad angulos rectos erit.
@@ -19,6 +23,8 @@ Si bina plana ſeinuicem ſecantia plano alicui ad angulos rectos fuerint, & ip�
 *Bina inquam plana A B & G B ſeinuicem ſecantia in B D ſint alicui plano A E recta: Dico B D communem eorum ſectionẽ eidem plano A E rectam eſſe: quod ſi non credatur, excitetur rectæ A D communi planorum A B & A E ſectioni, ortogonalis D C in plano A B, per 11 primi, ipſi verò D G communi planorum B G & A E ſectioni ſimiliter in plano B G ad rectos erigatur D Z: quoniam planum A B eſt rectum ad planum A E, ex hypotheſi, & communi ipſorum ſegmẽto (D A) angulos rectos efficit C D, poſita in altero ipſorum planorum. Recta igitur C D ad reliquum A E planum recta erit, per conuerſam 3 diffinitionis huius. Simili argumento recta patebit Z D ad idem A E planum eſſe, cùm recta ſit ad D G communem ſectionem. Ad idem igitur planum A E atque idem in eo ſignum D, binæ rectæ lineæ C D Z D angulos rectos efficiunt, contra 13 huius, quod fieri nequit: ſola itaque B D ad ſignum D plano A E recta erit, nec alia vlla. Si igitur bina, &c.*
 
 [Figure: two intersecting vertical planes meeting in a line B D, with points C and Z near the top, standing on a base plane A E with points D, G]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſima.]
 
 ## Propoſitio vigeſima.
 

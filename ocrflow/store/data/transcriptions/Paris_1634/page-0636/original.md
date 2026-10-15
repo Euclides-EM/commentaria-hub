@@ -3,6 +3,10 @@
 s.12.10 | ▭.aeb ∼ ▭.adb, est ration.
 α | contr. 27.10.
 
+[Curated heading level=2 type=propositions: THEOR. XXXV. PROPOS. XLVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXV. PROPOS. XLVII.]
+
 ## THEOR. XXXV. PROPOS. XLVII.
 
 Rationale ac medium potens, ad vnum duntaxat punctum diuiditur in nomina.

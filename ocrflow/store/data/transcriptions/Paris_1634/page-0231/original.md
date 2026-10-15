@@ -10,6 +10,8 @@ Vt triangulum DEF est inscriptū in triangulo ABC, quia singuli anguli inscripti
 
 Comme le triangle DEF est inscrit dans le triangle ABC, à cause que chacun des angles de l'inscrit DEF touchent chacun des costez du circonscrit ABC ; & au contraire le triangle ABC est descrit à l'entour du triangle DEF, à cause que chacun des costez de celuy-là touche chacun des angles de celuy-cy : Mais le triangle LMN n'est pas inscrit dans le triangle GHI, à cause que l'angle N ne touche point le costé HI.
 
+[Curated heading level=2 type=definitions: DEFINIT. III.]
+
 ## DEFINIT. III.
 
 Figura rectilinea in circulo inscribi dicitur, cùm singuli eius figuræ, quæ inscribitur, anguli tetigerunt circuli peripheriam.

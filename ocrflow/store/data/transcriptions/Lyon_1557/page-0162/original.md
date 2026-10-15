@@ -17,6 +17,10 @@ Cæterùm hæc mutuorum laterum in Triangulis comparatio, ſic colligitur: vt ſ
 
 Atque hoc notabile eſt ad reciprocationis cognitionem. Hoc igitur totum ex duabus Dimetientibus Quadrilateri ſe decuſſantibus pendet.
 
+[Curated heading level=2 type=propositions: THEOREMA 11, PROPOSITIO XVI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 11, PROPOSITIO XVI.]
+
 ## THEOREMA 11, PROPOSITIO XVI.
 ### Campano 15.
 

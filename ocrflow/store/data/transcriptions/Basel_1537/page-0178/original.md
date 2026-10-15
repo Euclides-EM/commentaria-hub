@@ -6,6 +6,8 @@ qui sunt ad a,& de ijs qui sunt ad e,sicut igitur arcus k c est multiplex arcus 
 
 [Diagram: two circles: left circle with a at top, centre d, and points k, b, c on the circumference, with lines joining them; right circle with e at top, centre h, and points m, l, f, g on the circumference, with lines joining them]
 
+[Curated heading level=2 type=theorems: Theorema 23 Propositio 33]
+
 ## Eucli.ex Zamb. Theorema 23 Propositio 33
 
 [Curated heading level=3 type=zamberti_sequence: 33.]

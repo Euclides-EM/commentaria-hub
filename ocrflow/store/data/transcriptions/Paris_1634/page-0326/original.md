@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXX. PROPOS. XXX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXX. PROPOS. XXX.]
+
 ## THEOR. XXX. PROPOS. XXX.
 
 Si composita prima cum secunda, ad secundam habuerit maiorem proportionem, quàm composita tertia cum quarta, ad quartam : Habebit per conuersionem rationis, prima cum secunda ad primam, minorem proportionem, quàm tertia cum quarta ad tertiam.
@@ -22,6 +26,10 @@ hyp. | ac π bc 3|2 df π ef,
 19.5 | ab π bc 3|2 de π ef,
 26.5 | bc π ab 2|3 ef π de,
 concl. 28.5 | ac π ab 2|3 df π de.
+
+[Curated heading level=2 type=propositions: THEOR. XXXI. PROPOS. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXI. PROPOS. XXXI.]
 
 ## THEOR. XXXI. PROPOS. XXXI.
 

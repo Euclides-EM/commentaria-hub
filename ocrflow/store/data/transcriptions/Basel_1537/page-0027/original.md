@@ -18,6 +18,8 @@ CAMPANVS. Sit triāgulus a b c, dico q̃ duo quilibet eius anguli, duobus rectis
 
 [Diagram: triangle a b c with side b c produced to d and side b a produced to e; labels e, a, d, c, b]
 
+[Curated heading level=2 type=theorems: Theorema 10. Propositio 17.]
+
 ## Eucli. ex Zamb. Theorema 10. Propositio 17.
 
 [Curated heading level=3 type=zamberti_sequence: 17.]
@@ -46,6 +48,8 @@ CAMPANVS. Sit ut in triāgulo a b c, angulus a sit maior angulo c, dico q̃ latu
 
 [Diagram: triangle with vertices a, d, b along the top and c below, line c d drawn within triangle a b c]
 
+[Curated heading level=2 type=theorems: Theorema 11. Propositio 18.]
+
 ## Eucli. ex Zamb. Theorema 11. Propositio 18.
 
 [Curated heading level=3 type=zamberti_sequence: 18.]
@@ -73,6 +77,8 @@ OMnis trianguli maior angulus, longiori lateri oppositus est.
 CAMPANVS. Sit ut in triangulo a b c, latus b c sit maius latere a b, dico q̃ angulus a, erit maior angulo c. Hæc est cōuersa præcedentis. Si enim sit æqualis, tunc per 6, latus a b est æquale lateri b c, q̃d est contra hypothesin. Si autē sit maior, tunc per præcedentē, latus a b est maius latere b c, q̃d est cōtra hypothesin. Quare astruitur propositū.
 
 [Diagram: triangle with labels b at top, c at right, a at bottom left]
+
+[Curated heading level=2 type=theorems: Theorema 12. Propositio 19.]
 
 ## Eucli. ex Zamb. Theorema 12. Propositio 19.
 

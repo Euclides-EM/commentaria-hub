@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/ oder Schlußreden. -->
 <!-- Page number: 63 -->
 
+[Curated heading level=2 type=propositions: XI. Die ailfft propoſition]
+
 ## XI. Die ailfft propoſition.
 
 [Subhead]

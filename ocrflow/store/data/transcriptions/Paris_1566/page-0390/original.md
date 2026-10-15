@@ -7,6 +7,8 @@ Eſto propoſita recta A G dimetiens ſphæræ iſacohedrum A B G C continentis,
 
 [Diagram: dodecahedron with internal lines, labelled E, I, D, F, K, H]
 
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
+
 ## Propoſitio decimaſexta.
 
 Si lateris Octahedri potentia per binas rectas extrema & media ratione coniunctas exprimatur, latus Icoſahedri eadem ſphæra comprehenſi duplum poteſt minoris earum.

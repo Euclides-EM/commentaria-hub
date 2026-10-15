@@ -16,6 +16,10 @@ hyp. | △bcd 2|2 △bca,
 *contr. 9. a. 1.*
 concl. 21.a.1 | ad == bc.
 
+[Curated heading level=2 type=propositions: THEOR. XXX. PROPOS. XL.]
+
+[Curated heading level=2 type=theorems: THEOR. XXX. PROPOS. XL.]
+
 ## THEOR. XXX. PROPOS. XL.
 
 Les triangles égaux constituez sur bases égales, & de mesme part, sont entre mesmes paralleles.
@@ -41,6 +45,10 @@ hyp. | △efd 2|2 △bca,
 1.a.1 | △efh 2|2 △efd,
 *contr. 9. a. 1.*
 concl. 21.a.1 | ad == bf.
+
+[Curated heading level=2 type=propositions: THEOR. XXXI. PROPOS. XLI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXI. PROPOS. XLI.]
 
 ## THEOR. XXXI. PROPOS. XLI.
 

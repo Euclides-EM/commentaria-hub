@@ -5,11 +5,15 @@ Diſponamus vt prius numeros A B & B G ſecto bifariam A G in D. Auferatur inſu
 
 [Diagram: horizontal line with points A, D, E, G and B and the numbers 5, 1, 4 and 8 above the segments]
 
-## MONITVM.
+### MONITVM.
 
 Animaduertendum curauimus quadratorum numerorum ſeriẽ, ex imparium ſerie ortam eſſe. Soli nempe impares ab vnitate cõiuncti, quadratos efficiunt, ac quotlibet couiuncti: doceamus exemplo, Sumatur vnitas quadratum referens (ea etenim quibuslibet ſubiectis adaptatur vt prima ſeptimi diffinitione diximus) cui proximus addatur impar, qui quidem bina eius latera cum anguli complemento reſtituat, is erit ternarius, qui vnitati additus 4 producit, binarij ſcilicet quadratum. Illi item conſequens impar quinarius addatur is proferet nouem, ſcilicet ternarij quadratum, cui additus quartus impar 7 facit 16 quaternarij quippe quadratum, eidem porrò iungatur 9 fiet 25 quinarij quadratum. Rurſus ipſi copuletur ſequens impar 11 fiet 36 ſenarij quadratum: ſicque infinitè ad quotuis procedemus quadratos, cùm ſcilicet cuilibet quadrato additur gnomon, æquipollens duplicatæ radici, ac inſuper vnitati quæ angulum gnomonis compleat, qui quidem gnomones ſinguli impares numeri ſunt, eò quòd ſeſe excedant tantùm binario, vel quia bina quadrati æqualia latera augẽt vnitate. Quare ſi eorum quadratorum vnitate tantùm augeantur latera, perſpicuum eſt, ea ſerie omnes contineri quadratos, cùm nullus ſit quadratus numerus niſi is cuius latus vnitatibus integris referri poteſt, in ſe multiplicatis ipſum producentibus. Nullius itaque quadrati latus inter duas vnitates cadet, & proinde inter eos cadentium, nullus quadratus erit ab ipſis alius, quorum infiniti rationem non habentes quam quadrati, variis modis educi poſſunt, ſcilicet ſumpto quadrato ad non quadratum, per corollarium vigeſimæquintæ octaui, aliis in ratione ſuperparticulari, ac ſuperbipartiente, per corollarium octauæ octaui. Et demum omnibus dißimilibus planis, per corollarium nonæ huius: qui quidem infiniti ſunt numero ſcilicet primi, per corollarium vigeſimæſextæ octaui, qui ſunt infiniti, per vigeſimamprimam noni, nempe plures omni multitudine, ac alij dißimiles plani innumerabiles. Quod apponit autem græcum lemma huic, corollarium fuit ſextæ huius.
 
 [Diagram: nested square gnomons with interior numbers 36, 25, 16, 9 and 4, horizontal lines labelled 1 to 6 at the right, and the numbers 11, 9, 7, 5, 3 and 1 along the bottom]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimanona.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimanona. Problema 6.]
 
 ## Propoſitio vigeſimanona. Problema 6.
 

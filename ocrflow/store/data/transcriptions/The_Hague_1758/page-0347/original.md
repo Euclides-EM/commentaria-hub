@@ -3,6 +3,10 @@
 
 [Figure: two parallelepipeds, the first labelled P, E, O, Q, D, R, C, A, B, M, I, K, N, L with dotted extensions, the second labelled G, H, F]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIII. THEOREME XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXVIII. PROPOSITION XXXIII.]
+
 ## PROPOSITION XXXIII. THEOREME XXVIII.
 
 {dropcap:L|lines=2|style=plain}Es paralelipipédes ſemblables (EB & FH) : ſont entr'eux en raiſon triplée de leurs cotés homologues (AB & GH).

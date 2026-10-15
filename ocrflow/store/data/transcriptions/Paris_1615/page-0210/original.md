@@ -8,6 +8,10 @@ De cecy eſt manifeſte, qu’eſtant trois lignes droictes proportiõneles.
 
 comme la premiere ſera a la troiſieſme, ainſi le triangle deſcrit ſur la premiere ſera au triangle ſemblable, & ſemblablement poſé ſur la ſeconde. Car il a eſté demonſtré que comme BC eſt a BG, ainſi le triangle ABC au triangle DEF.
 
+[Curated heading level=2 type=propositions: THEOR. 14. PROP. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. 14. PROP. XX.]
+
 ## THEOR. 14. PROP. XX.
 
 Les polygones ſemblables peuuent eſtre diuiſez en nombre egal de triangles ſemblables entr’eux, & proportionaux à leur tout: & les polygones ſont l’vn à l’autre en raiſon doublee de leurs coſtez de meſme raiſon.

@@ -4,7 +4,9 @@ Sint triangula A B G & D B G, in eadem baſi B G & eiſdem parallelis A D, B G. 
 
 [Diagram]
 
-## Propoſitio trigeſimaoctaua.
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaoctaua.]
+
+### Propoſitio trigeſimaoctaua.
 
 Triangula in æqualibus baſibus & in eiſdem parallelis conſtituta, adinuicem ſunt æqualia.
 
@@ -12,7 +14,9 @@ Sint triangula A B G, D G Z, in æqualibus baſibus B G, G Z, & in eiſdem paral
 
 [Diagram]
 
-## Propoſitio trigeſimanona.
+[Curated heading level=2 type=propositions: Propoſitio trigeſimanona.]
+
+### Propoſitio trigeſimanona.
 
 Triangula æqualia, in eadem baſi ad eaſdem partes conſtituta, in eiſdem ſunt parallelis.
 
@@ -20,13 +24,13 @@ Proponantur triangula A G D, B G D æqualia, ſuper eadem baſi G D in plano con
 
 [Diagram]
 
-### Corrollarium.
+#### Corollarium.
 
 Idem ſequitur in parallelogrammis: Nã ſi ſuper A B recta baſi fuerint parallelogrãma æqualia A B C D & A B G E, neceſſe eſt ea eſſe in eiſdem parallelis. Si autem non ſed extra, vel intus, vnum eorum conſtitur, ipſi A B C D æquum ſit B I intus conſtitutum. Idem igitur B I æquum eidem A D, æquale erit reliquo A B G E. Cui quidem æquum eſt A B C D, per 35 huius, & primam communem ſententiam. Pars ſcilicet toti, quod eſt abſurdum. Non igitur cadit extra vel intus. In parallelas igitur cadunt æqualia parallelogramma ſuper eadem baſi.
 
 [Diagram]
 
-### Corollarium ſecundum.
+#### Corollarium ſecundum.
 
 Infert ab hac Campanus, Linea ſecans bifariam duo trianguli latera, reliquo eſt parallela.
 

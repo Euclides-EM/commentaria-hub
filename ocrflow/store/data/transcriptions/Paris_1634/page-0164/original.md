@@ -31,6 +31,10 @@ hyp. | db est 2,
 1.s.1.d.2 | ▭.db est 4,
 2.concl. 2.a.1. | ▭.ad + ▭.db snt 29
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. VIII.]
+
 ## THEOR. VIII. PROPOS. VIII.
 
 Si recta linea secetur vtcunque : Rectangulum quater comprehensum sub tota, & vno segmento-

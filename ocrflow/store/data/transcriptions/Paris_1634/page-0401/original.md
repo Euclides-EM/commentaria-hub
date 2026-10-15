@@ -29,6 +29,10 @@ in 3. & 4. figur.
 δ.1.a.1 | <efd 2|2 <fdc,
 2.concl. 27.1 | cd == ef.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. XVI.]
+
 ## THEOR. V. PROPOS. XVI.
 
 Pappus lib. 7. propos. 108.

@@ -6,6 +6,8 @@ duæ lineæ a b & c d, quales proponit 25, eruntq́ⳓ simili argumentatione pr�
 
 [Diagram: semicircle on diameter a b with apex e; perpendicular e g to a b at g; chords from e to a and to b; below, a short line b and a divided line c f d]
 
+[Curated heading level=2 type=problems: Problema 11 Propositio 34.]
+
 ## Eucli. ex Zamb. Problema 12{printer-error-correction:11} Propositio 34.
 
 [Curated heading level=3 type=zamberti_sequence: 34.]

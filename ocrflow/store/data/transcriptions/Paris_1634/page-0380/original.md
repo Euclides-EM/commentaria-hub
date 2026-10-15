@@ -29,6 +29,10 @@ c.20.6 | db π bc 2|2 bg π bf,
 24.5 | al + bg π bf 2|2 bc π bc,
 concl. s.14.5 | al + bg 2|2 bf.
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXXII.]
+
 ## THEOR. XXII. PROPOS. XXXII.
 
 Si duo triangula, quæ duo latera duobus lateribus proportionalia habeant, secundum vnum angulum composita fuerint, ita vt homologa eorum latera sint etiam parallela : tum reliqua illorum

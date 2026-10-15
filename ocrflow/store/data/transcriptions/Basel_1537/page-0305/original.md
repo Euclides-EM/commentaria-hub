@@ -24,6 +24,8 @@ CAMPA. Dispositio & hypotheses maneãt ut supra. Eritq̃ ex his hypothesibus & d
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
+[Curated heading level=2 type=theorems: Theorema 38 Propositio 56]
+
 ## Eucl. ex Zãb. Theorema 38 Propositio 56
 
 [Curated heading level=3 type=zamberti_sequence: 56.]

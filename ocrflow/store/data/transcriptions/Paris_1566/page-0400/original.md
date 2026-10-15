@@ -3,6 +3,10 @@
 
 æqualium pentagonorum ſubtendunt angulos, rectos verò vt oſtendimus dodecahedrum præfata decimaſeptima conſtruentes. Sex itaque baſes quadratæ cubum (ex vigeſimaprima diffinitione vndecimi) conſtituunt, cuius octo anguli in octo dodecahedri angulis cohærentes cubum dodecahedro inſcriptum (ex vigeſimaſexta diffinitione vndecimi) perhibent. In dato itaque dodecahedro cubum incluſimus.
 
+[Curated heading level=2 type=propositions: Propoſitio nona.]
+
+[Curated heading level=2 type=problems: Propoſitio nona. Problema 9.]
+
 ## Propoſitio nona. Problema 9.
 
 In dato Dodecahedro, Octahedrum concludere.
@@ -10,6 +14,10 @@ In dato Dodecahedro, Octahedrum concludere.
 Eſto propoſitum dodecahedrum ABGDE, cuius ſumantur (ex tertio corollario decimæſeptimæ decimitertij) ſex latera inter ſe oppoſita, quorum bifarias ſectiones, iungunt tres rectæ ſe ad centrum ſphæræ dodecahedrum ambientis bifariam & ad rectos ſecantes, quæ ſint AB GD CI centrum verò E. Cùm ideo (per præfatum corollarium) tres illæ rectæ ſint æquales, ſequetur (ex quarta primi) ſubtendentes illarum dimidias angulos rectos continentes, quæ ſunt AG GB BD DA CA CG CB CD & IA IG IB ID æquales eſſe. Ac proinde octo triangula CAG CGB CBD CDA IAG IGB IBD & IDA æqualia & æquilatera eſſe, & ideo octahedrum eſſe AGBDCI, per vigeſimamſecundam diffinitionem vndecimi. Quod ea de cauſa dodecahedro inſcriptũ erit, quod eius anguli ſimul latera dodecahedri ſimul tangant, per vigeſimamſextam diffinitionem vndecimi. In dato itaque dodecahedro octahedrum concluſimus.
 
 [Figure: dodecahedron with inscribed octahedron, labelled A, C, G, E, D, I, B]
+
+[Curated heading level=2 type=propositions: Propoſitio decima.]
+
+[Curated heading level=2 type=problems: Propoſitio decima. Problema 10.]
 
 ## Propoſitio decima. Problema 10.
 

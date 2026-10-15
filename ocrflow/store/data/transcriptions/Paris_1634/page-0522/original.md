@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXIV.]
+
 ## THEOR. XXII. PROPOS. XXIV.
 
 Si duo numeri rationem habeant inter se, quam quadratus numerus ad quadratū numerū, primus autem sit quadratus, & secundus quadratus erit.
@@ -25,6 +29,10 @@ Demonstr.
 8.8 | ꝗntr. a & b, est vn. medi. proport.
 hyp. | a, est nr. □,
 concl. 22.8 | b, est nr. □.
+
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXV.]
 
 ## THEOR. XXIII. PROPOS. XXV.
 

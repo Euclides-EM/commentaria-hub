@@ -27,6 +27,8 @@ NON diſſimili ratione oſtẽdemus, ſi compoſita prima cum ſecunda minorem 
 
 [Curated heading level=2 type=campanus: 31]
 
+[Curated heading level=2 type=theorems: THEOR. 31. PROPOS. 31.]
+
 ## THEOR. 31. PROPOS. 31.
 
 [Curated heading level=3 type=incipit: SI]

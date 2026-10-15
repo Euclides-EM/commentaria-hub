@@ -1,6 +1,8 @@
 <!-- Page number: 143 -->
 <!-- Running title: Liber Quintus. Pars 1. -->
 
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XVII.]
+
 ## PROPOSITIO XVII.
 
 [Curated heading level=2 type=figures: Fig. 12]

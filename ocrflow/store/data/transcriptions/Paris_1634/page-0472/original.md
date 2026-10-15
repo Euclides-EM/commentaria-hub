@@ -19,6 +19,10 @@ Demonstr.
 hyp. | ▭.ac 2|2 □.b, u ▭.bd,
 2.concl. 19.7 | a π b 2|2 d u b π c.
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXI.]
+
 ## THEOR. XIX. PROPOS. XXI.
 
 Minimi numeri omnium eandem cum eis rationem habentium, metiuntur æquè numeros eandem cum eis rationem habentes, maior quidem maiorem, minor verò minorem.

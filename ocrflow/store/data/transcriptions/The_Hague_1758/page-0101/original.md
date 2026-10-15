@@ -3,6 +3,10 @@
 
 [Diagram: hatched square K H C B above line A B; square A B on base with diagonal from A to D; hatched rectangle A G F below; points G, F, E on bottom line]
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. PROBLEME I.]
+
+[Curated heading level=2 type=problems: PROBLEME I. PROPOSITION XI.]
+
 ## PROPOSITION XI. PROBLEME I.
 
 {dropcap:C|lines=2|style=plain}Ouper une ligne droite donnée (AB) de façon; que le rectangle de l'entiére (BA) & de l'une de ſes parties (AC) ſoit égal au quarré de l'autre partie (CB).

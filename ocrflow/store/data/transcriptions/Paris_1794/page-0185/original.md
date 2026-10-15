@@ -1,6 +1,10 @@
 <!-- Running title: LIVRE V. -->
 <!-- Page number: 157 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XXII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXII.]
+
 ## PROPOSITION XXII.
 
 ### THÉORÊME.

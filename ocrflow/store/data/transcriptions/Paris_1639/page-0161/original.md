@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. III. -->
 
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. XXV.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. XXV.]
+
 ## PROBL. III. PROPOS. XXV.
 
 Le segment d'vn cercle estant donné, descrire le cercle duquel il est segment.
@@ -27,6 +31,10 @@ arbitr. | a, b, c *ſnt* • *en* ∩,
 c.1.3 | *centre eſt en* df,
 c.1.3 | *centre eſt en* ef,
 concl. 14.a.b | *centre eſt en* f.
+
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXVI.]
 
 ## THEOR. XXIII. PROPOS. XXVI.
 

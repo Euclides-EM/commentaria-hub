@@ -1,5 +1,7 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=axioms: AXIOME 5. a. 1.]
+
 ### 5. a. 1.
 
 Et si de choses inégales on oste choses égales, les restes sont inégaux.
@@ -10,6 +12,8 @@ hyp. | eb 2|2 fd,
 
 [Figure]
 
+[Curated heading level=3 type=axioms: AXIOME 5. a. b.]
+
 ### 5. a. b.
 
 Et si de choses égales on oste choses inégales, les restes sont inégaux.
@@ -19,6 +23,8 @@ hyp. | ae 3|2 cf,
 5.a.b. | eb 2|3 fd.
 
 [Figure]
+
+[Curated heading level=3 type=axioms: AXIOME 5. a. c.]
 
 ### 5. a. c.
 
@@ -31,6 +37,8 @@ hyp. | cf 3|2 ae,
 [Figure]
 
 Or en toutes ces notions, excepté la premiere, par le mot de quantitez égales, faut entendre aussi vne mesme, commune à plusieurs.
+
+[Curated heading level=2 type=axioms: AXIOME 6. a. 1.]
 
 ### 6. a. 1.
 

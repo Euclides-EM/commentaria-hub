@@ -15,6 +15,8 @@ le complemento BN, erit & AO, ipſi BN, æquale; Addito ergo communi OQ, fiet AP
 
 [Curated heading level=2 type=campanus: 29]
 
+[Curated heading level=2 type=problems: PROBL. 10. PROPOS. 30.]
+
 ## PROBL. 10. PROPOS. 30.
 
 [Curated heading level=3 type=incipit: PROPOSITAM]

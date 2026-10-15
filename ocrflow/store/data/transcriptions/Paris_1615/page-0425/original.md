@@ -8,6 +8,10 @@ potheſe le rectangle de AE EB, eſt egal au quarré de BD, & qu’il eſt auſ
 
 Si AB eſt 6, & BC√12. BD ou DC ſera √3: & par conſequent AE ſera 3—√6, & EB;√6: & puis que le quarré de AF eſt egal aux auarrez de AE, EF: icele AF ſera √(18+√216): mais BF ſera √(18216). Donc icelles AF, FB ſont incommenſ.en puiſſance. & le composè de leurs quarrez, ſçauoir eſt 36 eſt rationel, mais le rectagle compris d’icelles, ſcauoir eſt √108, eſt medial.
 
+[Curated heading level=2 type=propositions: PROB. 11. PROP. XXXV.]
+
+[Curated heading level=2 type=problems: PROB. 11. PROP. XXXV.]
+
 ## PROB. 11. PROP. XXXV.
 
 Trouuer deux lignes droictes incommenſurables en puiſſance, qui facent le compoſé de leurs quarrez, medial: mais quelles comprenent vn rectangle rationel.

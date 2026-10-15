@@ -3,6 +3,10 @@
 
 ipſi E, et AG ipſi F. ut igitur AB ad CD, ita E ad F. ergo ſi quatuor rectae &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVII. THEOR.]
+
 ## PROP. XVII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I tres rectae lineae proportionales fuerint, rectangulum ab extremis contentum aequale eſt ei quod a media fit quadrato: et ſi rectangulum ab extremis contentum aequale fuerit ei quod à media fit quadrato, tres rectae lineae proportionales erunt.

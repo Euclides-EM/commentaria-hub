@@ -7,6 +7,10 @@ l.60.10 | ▭lf 2|2, 2▭acb,
 1cl60.10 | □.dl 3|2 □.lg..□.——, comm. dl,
 concl. 1d48.10 | dg, est binom. 1.
 
+[Curated heading level=2 type=propositions: THEOR. XLIV. PROPOS. LXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XLIV. PROPOS. LXII.]
+
 ## THEOR. XLIV. PROPOS. LXII.
 
 Quadratum eius, quæ ex binis mediis prima, ad rationalem applicatum, latitudinem facit ex binis nominibus secundam.

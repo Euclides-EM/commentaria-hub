@@ -8,6 +8,10 @@ s12.10 | 2▭.abc, incomm. / aggreg.□.ab + □.bc,
 4.2. & 17.10 | □.ac, incōm. aggreg.. / □.ab + □.bc,
 concl. 11.d.10 | ac, est irration.
 
+[Curated heading level=2 type=propositions: THEOR. XXIX. PROPOS. XLI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIX. PROPOS. XLI.]
+
 ## THEOR. XXIX. PROPOS. XLI.
 
 Si duæ rectæ lineæ potentia incommensurabiles componátur, quæ faciant compositum quidem ex ipsarum quadratis medium, quod autem sub ipsis continetur, rationale ; tota recta linea irrationalis erit: vocetur autem rationale ac medium potens.

@@ -7,6 +7,8 @@ Sint ſub eadem altitudine pyramides ABCE & GDI habentes baſes poligonas ABC & 
 
 [Diagram: two triangles with internal lines, labelled H, K and L, F]
 
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
+
 ## Propoſitio ſeptima.
 
 Omne Priſma diuiditur in tres Pyramides ſibi inuicem æquas, triangulares baſes habentes.
@@ -15,10 +17,10 @@ Proponatur priſma cuius baſes oppoſitæ ſint triangula ABG DZE: Dico ipſum 
 
 [Diagram: prism with triangular bases and internal diagonal lines, labelled E, D, B, A, G, Z]
 
-## Corollarium primum.
+### Corollarium primum.
 
 Priſma quotlibet triplum eſt Pyramidis eandem triangularem baſim habentis, & æquale faſtigium. Vt patuit hoc theoremate cùm diuidatur in tres æquas, quarum binæ ſunt in eadem baſi & altitudine. Si verò Priſma ſuper parallelogramma baſi conſtituatur, Pyramis verò in dimidia eius baſi & æqua altitudine. Rurſus tertia pars erit ipſius Priſmatis. Nam patuit (quadrageſima vndecimi) Priſma cuius parallelogramma baſis, dupla eſt triangulæ alterius Priſmatis, & æqua ſublimitas, eſſe reliquo priſmati æquale, vnde ſequetur illatio proxima.
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 Si plura Priſmata eiuſdem verticis trigonas baſes ſuper eodem plano in vnum poligonum

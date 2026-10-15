@@ -5,6 +5,10 @@ les. Nam ex huiuſmodi conſtructionibus Conſectaria colligi ſolent. Quod ex p
 
 Spatium illud circa Centrum F, æquale eſt quatuor rectis: qui in decem æquales diuiduntur, decem lineis in F conuenientibus. Quinque igitur anguli AFM, MFL, EFL, LFD, & DFK ſunt duobus rectis æquales. Quapropter AF & FK, per decimamquartam Primi, vnam lineam efficiunt. Eadem & de cæteris lineis erit probatio. Atque hoc in omnibus Figuris æquilateris imparium laterum eſt perpetuum.
 
+[Curated heading level=2 type=propositions: PROBLEMA 14, PROPOSITIO XIIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 14, PROPOSITIO XIIII.]
+
 ## PROBLEMA 14, PROPOSITIO XIIII.
 
 Circa datum Pentagonum æquilaterum & æquiangulum, Circulum deſcribere.
@@ -14,6 +18,10 @@ Sit circa datum Pentagonum æquilaterum & æquiangulum ABCDE, deſcribendus Circ
 Duos angulos A & E diuido in duo æqualia, ductis lineis AF & EF: quæ concurrent intra Pentagonum ad punctum F, vt anteà probauimus. Tum ab ipſo puncto F, ad reliquos angulos duco lineas FB, FC, & FD. Et quia duo latera AF & AB, Trianguli ABF, ſunt æqualia duobus lateribus AF & AE, Trianguli AEF, & angulus A vnius æqualis angulo A alterius: erit, per quartam Primi, FA æqualis FE: & angulus ABF æqualis angulo AEF. Quumq́; totus B, toti E ſit æqualis: erit B diuiſus in duo dimidia. Atque eadem ratione vterq́; angulorum C & D diuiſus in duo dimidia: ob id, quinque lineæ FA, FB, FC, FD, & FE æquales. Quare, per nonam Tertij, erit F Centrum Circuli, Pentagono ABCDE circunſcribendi, Quod faciendum fuit.
 
 [Figure: pentagon ABCDE with circumscribed circle and lines from interior point F to the vertices]
+
+[Curated heading level=2 type=propositions: PROBLEMA 15, PROPOSITIO XV.]
+
+[Curated heading level=2 type=problems: PROBLEMA 15, PROPOSITIO XV.]
 
 ## PROBLEMA 15, PROPOSITIO XV.
 

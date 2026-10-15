@@ -6,6 +6,10 @@
 
 En la meſme mainere ſera demonſtré, que s’il y a plus grande raiſon de la 1. à la ſeconde, que de la tierce à la quarte; mais la tierce a plus grande raiſon a la qaarte, que la 5. a la 6. pareillement lu 1. aura beaucoup plus grande raiſon a la ſeconde que la 5. a la 6. Oue ſi la 1. a moindre raiſon a la 2. que la ; a la quarte, & la tierce a moin dre raiſon &̀ la 4. que la 5. a la 6.Auſſi la 1.aura beaucoup moindre raiſon a la ſeconde, que la cinquieſme a la ſixieſme.
 
+[Curated heading level=2 type=propositions: THEOR. 14. PROP. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 14. PROP. XIV.]
+
 ## THEOR. 14. PROP. XIV.
 
 Si la premiere eſt à la ſeconde, comme la tierce à la quarte; & que la premiere ſoit plus grande que la tierce, auſſi la ſeconde ſera plus grande que la quarte: & ſi egale, egale: ſi plus petite, plus petite.

@@ -1,6 +1,10 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 204 -->
 
+[Curated heading level=2 type=propositions: PROP. XXIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXIII. THEOR.]
+
 ## PROP. XXIII. THEOR.
 
 {dropcap:A|lines=2|style=plain}EQUIANGULA parallelogramma inter ſe rationem habent ex laterum rationibus compoſitam.

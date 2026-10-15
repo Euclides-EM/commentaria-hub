@@ -5,6 +5,8 @@
 Fig. 93.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Définition IV.]
+
 [Curated heading level=3 type=numbered_item: 4.]
 
 IV. *La hauteur* d’un parallélogramme est la perpendiculaire EF menée entre les deux côtés ou *bases* opposées AB, CD.
@@ -13,6 +15,8 @@ IV. *La hauteur* d’un parallélogramme est la perpendiculaire EF menée entre 
 Fig. 94.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Définition V.]
+
 [Curated heading level=3 type=numbered_item: 5.]
 
 V. La *hauteur* d’un triangle est la perpendiculaire AD abaissée d’un angle A sur le côté opposé BC qu’on appelle la *base*.
@@ -20,6 +24,8 @@ V. La *hauteur* d’un triangle est la perpendiculaire AD abaissée d’un angle
 [Margin]
 Fig. 95.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Définition VI.]
 
 [Curated heading level=3 type=numbered_item: 6.]
 

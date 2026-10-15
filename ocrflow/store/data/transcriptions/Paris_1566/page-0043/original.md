@@ -2,7 +2,9 @@
 
 cedentem) quod ſimiliter poſito obuiaret. Non eſt igitur B A G angulus ipſi E D Z æqualis, nec minor ipſo: Ergo maior neceſſario erit. Si itaque duo triangula, &c.
 
-## Propoſitio vigeſimaſexta.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſexta.]
+
+### Propoſitio vigeſimaſexta.
 
 Si duo triangula duos angulos duobus angulis alterum alteri æquales habuerint, & vnum latus vni lateri æquale, aut quæ ſimul æquis adiacent angulis, aut quæ ſimul æquos ſubtendunt angulos, reliqua quoque latera reliquis lateribus alterum alteri, & reliquum angulum reliquo angulo æqualem habebunt.
 
@@ -10,11 +12,13 @@ Sint triangula A B G D E Z duos angulos duobus æquales habentia, ſcilicet A B 
 
 [Diagram: triangles ABG and DEZ, with points I and T and internal lines IG and AT]
 
-### MONITVM.
+#### MONITVM.
 
 Quoniam dicit triangula æqualia eſſe quæ duos angulos duobus æquales habent. Si modo vnum latus lateri æquale habeant, aut quod æquis adiacet angulis, aut quod ſub vno æqualium angulorum ſubtenditur. Quod quidem analogum eſt, nam ſi in altero triangulorum latus adiaceat, in reliquo verò ſubtendat vnum æqualium angulorum, falſum erit æqua eſſe triangula: quare diximus æqualia latera ſimul adiacere, aut ſimul opponi æqualibus angulis. Hæc enim animaduerſio 10. decimitertij demonſtrandæ proderit.
 
-## Propoſitio vigeſimaſeptima.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſeptima.]
+
+### Propoſitio vigeſimaſeptima.
 
 Si in binas rectas incidẽs recta linea in plano angulos alternatim æquos adinuicem fecerit, parallelæ erunt ſibiipſis rectæ lineæ.
 

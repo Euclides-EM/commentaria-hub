@@ -19,6 +19,8 @@ EX hac propoſitione quinta liquet, omne triangulum æquilaterum eſſe æquiang
 
 [Curated heading level=2 type=campanus: 6]
 
+[Curated heading level=2 type=theorems: THEOR. 3. PROPOS. 6.]
+
 ## THEOR. 3. PROPOS. 6.
 
 [Curated heading level=3 type=incipit: SI]

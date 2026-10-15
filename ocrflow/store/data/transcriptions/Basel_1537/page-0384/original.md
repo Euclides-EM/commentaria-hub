@@ -6,6 +6,8 @@ secundum rectitudinem, secent duo alterius earum protracta secūdum rectitudinem
 
 CAMPANVS Potes quoque cōuersas huius & præmissæ probare si libet, ducendo ad impossibile. Pones enim quælibet duo solida parallelogramma esse æqualia & constituta super eandem basin æquidistantia, & demonstrabis ea esse æque alta. Eruntq́̃ hæc & præmissa. tuæ demonstrationis medium. Impossibile autem ad quod duces, erit partem suo toti esse æqualem. Quod euidenter patebit, si de illo solido (quod altius esse mentitur aduersarius, cum tamen ambo posita sint æqualia & super eandem basin constituta) unum solidum parallelogrammum æque altum demissiori abscideris. Hoc aūt abscisum æquale esse demissiori cōuinces ex hac & præmissa, ideoq́̃ & toti illi a quo ipsum abscideris ex communi scientia.
 
+[Curated heading level=2 type=theorems: Theorema 25. Propositio 30.]
+
 ## Eucli. ex Zamb. Theorema 25. Propositio 30.
 
 [Curated heading level=3 type=zamberti_sequence: 30.]

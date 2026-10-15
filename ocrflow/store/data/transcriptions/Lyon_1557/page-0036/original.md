@@ -17,6 +17,10 @@ Vt ſi proponeretur Triangulum A B C, ſtatuerem tres lineas in continuum ad æq
 
 Quod autem de lineis propoſuit Euclides, id nos docuit vt dignoſceremus vtrum ex tribus datis lineis confici poſſit Triangulum an non : quod ex ipſis Circulis, ſi ſecuerint ſe inuicem, perſpiciemus.
 
+[Curated heading level=2 type=propositions: PROBLEMA 9, PROPOSITIO XXIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 9, PROPOSITIO XXIII.]
+
 ## PROBLEMA 9, PROPOSITIO XXII{printer-error-correction:XXIII}.
 
 Propoſita recta linea, ad datum in ea punctum dato angulo rectilineo angulum æqualem conſtituere.

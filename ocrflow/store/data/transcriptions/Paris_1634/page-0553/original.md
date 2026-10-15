@@ -16,6 +16,10 @@ suppos. | bd, est nr.pa.
 contr. hypoth.
 21.a.1 | bd, est nr. impa.
 
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXV.]
+
 ## THEOR. XXIII. PROPOS. XXV.
 
 Si à pari numero impar detrahatur, & reliquus impar erit.
@@ -43,6 +47,10 @@ hyp. | ab, est nr. pa.
 7.d.7 | ad, est nr. pa.
 24.9 | db, est nr.pa.
 concl. 7.d.7 | cd, est nr. impa.
+
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXVI.]
 
 ## THEOR. XXIV. PROPOS. XXVI.
 

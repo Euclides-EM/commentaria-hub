@@ -9,6 +9,8 @@ quantur, erit I F C c par I C F. Ergo I F C & multò maior eſt quam I C F, & æ
 
 Plures caſus, quos hoc theorema admittit, conſultò prætermiſi, ne tyrones fatigarem. Neque verò difficulter eorum demonſtratio ex demonſtratione iam poſita elicietur.
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO IX.]
+
 ## PROPOSITIO IX.
 
 [Curated heading level=2 type=figures: Fig. 29]

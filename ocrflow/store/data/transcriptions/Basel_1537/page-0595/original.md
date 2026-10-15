@@ -2,6 +2,8 @@
 
 <!-- Page number: 584 -->
 
+[Curated heading level=2 type=theorems: Theorema 94. Propositio 94.]
+
 ## Theorema 94. Propositio 94.
 
 SI in circulo magnitudine dato recta linea acta fuerit, assumens segmentum capiens angulum datum, & qui in segmento angulus bifariam sectus fuerit, utraque simul angulum datum comprehendens ad secantem angulum bifariam rationem habebit datam, & quod sub utraque simul angulum datum comprehendente recta linea, & infra assumpta ab ea quæ angulum bifariam ad circunferentiam dispescit datum erit.

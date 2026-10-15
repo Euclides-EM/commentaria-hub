@@ -6,6 +6,8 @@ hyp. | <a est ∟.
 hyp. | <b est ∟.
 12.a.1. | <a 2|2 <b.
 
+[Curated heading level=2 type=axioms: 12. a. b.]
+
 ### 12. a. b.
 
 Si vnus æqualium angulorum est rectus, vnusquisque reliquorum est quoque rectus. | Si vn des angles egaux est droict, vn chacun des autres est außi droict.
@@ -21,6 +23,8 @@ Explicat.. not;
 Anguli A, B, C sunt æquales inter se, per hyp. | Les angles A, B, C sont egaux entr'eux, par l'hyp.
 Angulus A est rectus, per hyp. | L'angle A est droict, par l'hyp.
 Igitur anguli B & C sunt recti, per 12. a. b. | Partant les angles B & C sont droicts, par le 12. a. b.
+
+[Curated heading level=2 type=axioms: 13. a. 1.]
 
 ### 13. a. 1.
 

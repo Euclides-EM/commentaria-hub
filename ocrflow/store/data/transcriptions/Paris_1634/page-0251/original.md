@@ -27,6 +27,10 @@ Eadem arte circa quamlibet figuram æquilateram, & æquiangulam circulus describ
 
 Par la mesme methode sera descrit le cercle à l'entour de quelconque figure equilaterale & equiangle.
 
+[Curated heading level=2 type=propositions: PROBL. XV. PROPOS. XV.]
+
+[Curated heading level=2 type=problems: PROBL. XV. PROPOS. XV.]
+
 ## PROBL. XV. PROPOS. XV.
 
 In dato circulo, hexagonum & æquilaterum & æquiangulum inscribere.

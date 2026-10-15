@@ -22,6 +22,8 @@ OMnis linea communicans lineæ cum rationali componenti mediale, est cum rationa
 
 CAMPANVS Hanc quoque duplici prædicto modo non est difficile probare, siue de communicantia in lōgitudine siue in cōmunicantia in potētia tantum intelligatur. Sed quantū ad primum modū, erunt duo quadrata duarū linearum f & d pariter accepta mediale per 21, quemadmodū sunt duo quadrata duarum linearum e & c pariter accepta ex 72, quibus ipsa cōmunicant, & superficies l erit rationalis, per diffinitionem, quemadmodum est superficies K ex 72 cui ipsa cōmunicat. Igitur ex 72 b est cum rationali cōponens mediale. Quantum ad secundum modum, erit d e residuum quintum ex 69, ideoq̃ & e g ex 98. quare b est cum rationali componens mediale per 90.
 
+[Curated heading level=2 type=theorems: Theorema 82 Propositio 106]
+
 ## Eucli.ex Zamb. Theorema 82 Propositio 106
 
 [Curated heading level=3 type=zamberti_sequence: 106.]
@@ -51,6 +53,8 @@ Figura eadē
 OMnis linea commensurabilis lineæ cum mediali constituēs mediale, est cum mediali constituens mediale.
 
 CAMPANVS Hic quoque pone lineam aliquam communicare cum ea quæ cum mediali componit mediale, indifferenter in longitudine uel potentia tantum prout uolueris, & duplici modo præmisso sine difficultate cōcludes eam quoque cum mediali componere mediale. Erit etiam quantum ad primum modum, superficies l medialis quemadmodum & k, & duo quoque quadrata duarum linearum f d pariter accepta mediale, sicut & duo quadrata duarum e & c. Et quia duo quoque duarum linearum e & c ad K sicut duo duarum f & d ad l, cum duo prima non communicent cum dupso{printer-error-correction:duplo} K ex 73, neque duo secunda communicabunt cum duplo l ex 10. Igitur ex 73 b est cum mediali cōponens mediale. Quantum autem ad secundum modum, erit d e residuum sextum ex 97, ideoq̃ & e g ex 98. Quare b est cum mediali cōponens mediale ex 91.
+
+[Curated heading level=2 type=theorems: Theorema 83 Propositio 107]
 
 ## Eucl.ex Zamb. Theorema 83 Propositio 107
 

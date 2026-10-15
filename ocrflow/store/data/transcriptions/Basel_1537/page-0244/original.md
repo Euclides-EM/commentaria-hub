@@ -18,6 +18,8 @@ CAMPANVS. Sint a & b contra se primi, dico impossibile esse, aliquem eis in cont
 
 [Diagram: solid line c; dotted lines b, a]
 
+[Curated heading level=2 type=theorems: Theorema 16 Propositio 16]
+
 ## Eucli. ex Zamb. Theorema 16 Propositio 16
 
 [Curated heading level=3 type=zamberti_sequence: 16.]
@@ -45,6 +47,8 @@ THEON ex Zamber. Bini enim numeri α,β, primi sint adinuicem. Dico quod non est
 CAMPANVS. Sint a, b, c, continue proportionales, sintq̃ a & c contra se primi: dico quod in eadem proportione non potest eis adiungi alius. Si enim potest, sit d. Quia igitur est a ad b sicut c ad d, erit permutatim a ad c, sicut b ad d, sunt autem a & c, in sua proportione minimi, per 23 septimi, itaq̃ per 21 eiusdem a numerat b, quare etiam numerat c, numerorū enim continue proportionaliū, si primus numerat secundum, ipse numerat omnes, & simpliciter quilibet præcedens quemlibet sequentem, at quia etiam numerat se, non erunt a & c contra se primi, quod est inconueniens.
 
 [Diagram: solid line d; dotted lines c, b, a]
+
+[Curated heading level=2 type=theorems: Theorema 17 Propositio 17]
 
 ## Eucli. ex Zamb. Theorema 17 Propositio 17
 

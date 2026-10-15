@@ -3,11 +3,11 @@
 
 *menſurabili, & G plus poteſt ipſa D, eò quòd à ſibi longitudine commenſurabili, per 16 huius. Cæterùm poſitum eſt A eſſe ad B vt G ad D erit itaque vicißim A ad G vt B ad D, per 16 quinti. Sed vt A ad G ſic G ad B fuit, vt igitur G ad B ſic erit B ad D. Quare trium G B D proportionalium quod à media B, æquum eſt ei quod ſub extremis G & D rectangulo, per 17 ſexti. Sed quòd à media B certum eſt, per octauam diffinitionem huius, cum B ſit certa. Quod igitur ſub G & D certum erit, Comperimus itaque binas medias G & D potentia tantum commenſurabiles, certum comprehendentes, quarum maior G plus poteſt minore D eò quòd fit à ſibi longitudine commenſurabili.*
 
-## Corollarium.
+### Corollarium.
 
 Eodem argumento patebit dari binas medias potentia tantùm commenſurabiles, certum continentes, & quarum maior plus poterit minore eo quod fit à ſibi longitudine incommenſurabili. *Si ponamus (per trigeſimam huius) certam A plus poſſe certa B quadrato ſibi longitudine incommenſurabilis. Nam id idem ſequentur G & D mediæ, vt oſtendimus.*
 
-## Lemma.
+### Lemma.
 
 Si tres rectæ in quauis ratione fuerint, erit ſicut prima ad tertiam, ſic quod ſub prima & ſecunda, ad id quod ſub ſecunda & tertia continetur.
 
@@ -15,9 +15,13 @@ Si tres rectæ in quauis ratione fuerint, erit ſicut prima ad tertiam, ſic quo
 
 [Diagram: a rectangle divided by two vertical lines, labelled Z and T above, A at the left, and B, G and D below]
 
-## MONITVM.
+### MONITVM.
 
 *Hoc lemma ab altero Græcorum exemplarium tulimus, quod licet demonſtrandis ſubſequentibus neceſſarium non ſit, tamen demonſtrationum compendio admodum vtile comperietur.*
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſecunda.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſimaſecunda. Problema 9.]
 
 ## Propoſitio trigeſimaſecunda. Problema 9.
 

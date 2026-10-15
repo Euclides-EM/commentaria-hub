@@ -1,6 +1,10 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 45 -->
 
+[Curated heading level=1 type=propositions: Das ander bůch Euclidis]
+
+[Curated heading level=2 type=propositions: I. Die erſt Propoſition]
+
 ## I Die erſt Propoſition.
 
 So zwo rechte linien ſeind / vnder welchen aine in etlich thail zertailt iſt / wirt die winckelrecht figur / ſo von diſen zwaien linien begriffen iſt / gleich ſein allen winckelrechten figuren ſambtlich / ſo von der gantzen vnd yedem ſtücklin der zertailten lini begriffen werden.

@@ -7,6 +7,8 @@
 
 *A fortiori ſi lõgitudine commenſurabiles ſupponantur A B G D lucidius oſtendetur, nam quæ longitudine commenſurabiles ſunt, & potentia omnino commenſurabiles erunt, per illationem nonæ decimi.*
 
+[Curated heading level=2 type=propositions: Propoſitio centeſimaquinta.]
+
 ## Propoſitio centeſimaquinta.
 
 Minori commenſurabilis, minor eſt.

@@ -6,6 +6,10 @@
 
 ## DEFINITIONES.
 
+[Curated heading level=1 type=definitions: Liber VI]
+
+[Curated heading level=2 type=definitions: Lib. VI, Def. 1]
+
 [Curated heading level=3 type=numbered_item: 1.]
 
 1. SImiles figuræ ſunt, quæ & ſingulos angulos ſingulis æquales habent, & latera, quæ æqualibus angulis cpponuntur{printer-error-correction:opponuntur}, vel quæ inter æquales angulos exiſtunt, vel quæ ſunt circa æquales angulos (Eodem omnia recidunt) proportionalia.

@@ -1,5 +1,9 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. XII.]
+
 ## THEOR. II. PROPOS. XII.
 
 Si acta à vertice trianguli ad basin, verticis angulum bifariam secet ; erit rectangulum sub cruribus, æquale ei, quod fit sub basis segmentis, vnà cum secantis quadrato.

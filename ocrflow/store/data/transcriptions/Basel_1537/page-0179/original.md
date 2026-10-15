@@ -10,7 +10,11 @@ CORRELARIVM Et manifestum est quod sicut sector ad sectorem,sic angulus ad angul
 
 SEXTI LIBRI FINIS.
 
+[Curated heading level=1 type=definitions: ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEPTIMVS.
+
+[Curated heading level=2 type=definitions: Ex Campano Diffinitiones.]
 
 Ex Campano triplex principiorum genus. Primum. Diffinitiones.
 

@@ -1,5 +1,9 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. XVIII.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. XVIII.]
+
 ## PROBL. VI. PROPOS. XVIII.
 
 Sur vne ligne droicte donnée, descrire vne figure rectiligne semblable, & semblablement posée à vne figure rectiligne donnée.

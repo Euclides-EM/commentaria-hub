@@ -1,8 +1,10 @@
 <!-- Running title: EVCL. ELEMENT. GEO. -->
 
-## MONITVM.
+### MONITVM.
 
 *Hæc demoſtrata ſunt vbi ſtantes ſunt baſibus perpendiculares, tum idem neceſſe accidit, licet in vtramuis partem inclinentur, per 29 & 30 huius: nam ea ſolida ſolidis rectangulis eiuſdem verticis ſemper ſunt æqualia. Si itaque ſuper propoſitorũ oxigoniorum vel ambligoniorum ſolidorum baſi, rectangulum ſub eadem altitudine conſtruatur ſolidum, quæ ſuper rectãgulo demonſtrata ſunt, reliquis ipſis æqualibus conuenire manifeſtum erit, cùm maximæ eædem maneant baſes ac iidem vertices, quorum tantum agimus negotium.*
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquinta.]
 
 ## Propoſitio trigeſimaquinta.
 

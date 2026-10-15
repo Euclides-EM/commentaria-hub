@@ -11,6 +11,8 @@ Si igitur adiiciantur 1. 3. 9. 27. 81. 243. 729. 2187. in unum, habebitur tota Å
 
 [Curated heading level=2 type=campanus: 39]
 
+[Curated heading level=2 type=theorems: THEOR. 34. PROPOS. 36.]
+
 ## THEOR. 34. PROPOS. 36.
 
 [Margin]

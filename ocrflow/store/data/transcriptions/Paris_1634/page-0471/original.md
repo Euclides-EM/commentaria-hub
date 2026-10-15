@@ -31,6 +31,10 @@ Demonstr.
 βγ.17.7 | a π b 2|2 g π f,
 2.concl. 11.5 | a π b 2|2 c π d.
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XX.]
+
 ## THEOR. XVIII. PROPOS. XX.
 
 Si tres numeri proportionales fuerint, qui sub extremis continetur, æqualis est ei, qui à medio efficitur: & si, qui sub extremis continetur, æqualis fuerit ei, qui à medio describitur ; ipsi tres numeri proportionales erunt.

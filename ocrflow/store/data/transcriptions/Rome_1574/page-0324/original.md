@@ -23,6 +23,8 @@ IN quadrilatero enim ABCD, ſint anguli oppoſiti A, & C; Item B, & D, duobus re
 
 [Curated heading level=2 type=campanus: 22]
 
+[Curated heading level=2 type=theorems: THEOR. 21. PROPOS. 23.]
+
 ## THEOR. 21. PROPOS. 23.
 
 [Margin]

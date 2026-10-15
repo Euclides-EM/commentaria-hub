@@ -3,6 +3,8 @@
 
 AD×AX=AB×AC ; donc le rectangle ADEX est équivalent au rectangle ABFC.
 
+[Curated heading level=2 type=problems: PROBLÊME VIII.]
+
 ### PROBLÊME VIII.
 
 [Margin]
@@ -23,6 +25,8 @@ Car, puisqu’on a B:C::D:X, il en résulte C×D=B×X ; donc A×B:C×D::A×B:B×
 A:C=C:X
 A²:C²=A:X
 [/Handwritten]
+
+[Curated heading level=2 type=problems: PROBLÊME IX.]
 
 ### PROBLÊME IX.
 

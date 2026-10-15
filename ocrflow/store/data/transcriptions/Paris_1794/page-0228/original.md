@@ -11,6 +11,10 @@ Donc enfin deux polyedres semblables ont les faces homologues semblables et les 
 
 On voit en même temps que deux diagonales homologues, par exemple, AN, *an*, sont entre elles comme deux côtés homologues AB, *ab*.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIII.]
+
 ## PROPOSITION XXIII.
 
 ### THÉORÊME.

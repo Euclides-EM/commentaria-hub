@@ -3,6 +3,10 @@
 
 [Figure: hemisphere and inscribed polyhedron construction within two concentric spheres, labelled V, O, R, T, Q, P, S, B, F, C, X, G, K, Y, I, E, N, L, H, M, D, A]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVII. PROBLEME II.]
+
+[Curated heading level=2 type=problems: PROBLEME II. PROPOSITION XVII.]
+
 ## PROPOSITION XVII. PROBLEME II.
 
 {dropcap:E|lines=2|style=plain}Tant donnés deux ſphères (KON & GFEH), ayant un même centre (I): inſcrire dans le plus grand (KON) un polyëdre (KCSPTQVRO &c.) dont les Plans ne touchent point la petite ſphère (GFEH).

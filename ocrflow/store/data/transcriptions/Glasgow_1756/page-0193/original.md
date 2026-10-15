@@ -1,6 +1,10 @@
 <!-- Page number: 180 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. A. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. A. THEOR.]
+
 ## PROP. A. THEOR.
 
 {dropcap:S|lines=2|style=plain}I trianguli, uno latere producto, angulus exterior bifariam ſecetur, ſecans autem angulum recta linea ſecet etiam baſim productam; baſis productae ſegmenta inter ſecantem et baſis terminos eandem rationem habebunt, quam reliqua trianguli latera. et ſi baſis productae ſegmenta eandem habeant rationem quam reliqua trianguli latera, quae a vertice ad ſectionem ducitur recta linea, trianguli angulum exteriorem bifariam ſecabit.

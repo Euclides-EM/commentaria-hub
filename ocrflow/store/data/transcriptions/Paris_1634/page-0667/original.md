@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. LII. PROPOS. LXX.]
+
+[Curated heading level=2 type=theorems: THEOR. LII. PROPOS. LXX.]
+
 ## THEOR. LII. PROPOS. LXX.
 
 Rationale ac medium potenti commensurabilis, & ipsa rationale ac medium potens est.
@@ -28,6 +32,10 @@ l.66.10 | aggreg..□.df + □.fe, comm. aggreg..□.ac + □.cb,
 l.66.10 | ▭.dfe, cōm. ▭.acb,
 s.12.10 | ▭dfe, est ration.
 concl. 41.10 | de, est ——, po. rat. & medi.
+
+[Curated heading level=2 type=propositions: THEOR. LIII. PROPOS. LXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. LIII. PROPOS. LXXI.]
 
 ## THEOR. LIII. PROPOS. LXXI.
 

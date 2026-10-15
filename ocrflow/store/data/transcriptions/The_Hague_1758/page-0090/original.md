@@ -3,6 +3,10 @@
 
 [Diagram: square ADIC with diagonal DC, horizontal line GEF and vertical line HEB crossing at E; corners labelled D, H, I above, G, E, F in the middle, A, B, C below]
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. THEOREME IV.]
+
+[Curated heading level=2 type=theorems: THEOREME IV. PROPOSITION IV.]
+
 ## PROPOSITION IV. THEOREME IV.
 
 {dropcap:S|lines=2|style=plain}I l'on coupe une droite (AC) en deux parties quelconques (AB, BC): le quarré de la droite entiere (AC) eſt égal aux quarrés des deux parties (AB, BC), & au double rectangle compris de ces deux parties (AB, BC).

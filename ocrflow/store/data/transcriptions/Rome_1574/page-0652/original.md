@@ -5,6 +5,8 @@ libus in datis rationibus, ſi ij multiplicentur per quemcunque numerum eundem, 
 
 [Curated heading level=2 type=campanus: 5]
 
+[Curated heading level=2 type=theorems: THEOR. 3. PROPOS. 5.]
+
 ## THEOR. 3. PROPOS. 5.
 
 [Margin]

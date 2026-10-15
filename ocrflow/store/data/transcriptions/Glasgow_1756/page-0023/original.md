@@ -1,6 +1,10 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 8 -->
 
+[Curated heading level=2 type=propositions: PROPOSITIO I. PROBLEMA.]
+
+[Curated heading level=2 type=problems: PROPOSITIO I. PROBLEMA.]
+
 ## PROPOSITIO I. PROBLEMA.
 
 [Subhead]
@@ -38,6 +42,10 @@ d. 1. Axioma.
 [/Margin]
 
 recta igitur CA ipſi CB eſt aequalis. tres igitur CA, AB, BC inter ſe ſunt aequales. aequilaterum propterea eſt triangulum ABC, et conſtitutum eſt ſuper datâ recta linea terminata AB. Quod erat faciendum.
+
+[Curated heading level=2 type=propositions: PROP. II. PROB.]
+
+[Curated heading level=2 type=problems: PROP. II. PROB.]
 
 ## PROP. II. PROB.
 

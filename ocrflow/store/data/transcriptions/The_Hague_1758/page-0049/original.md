@@ -4,6 +4,10 @@
 
 [Figure: two angles on a base line: at left, angle BAC on line A C M with a dotted line from B to C; at right, angle HDG on line D E G with a dotted line from F to E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIII. PROBLEME IX.]
+
+[Curated heading level=2 type=problems: PROBLEME IX. PROPOSITION XXIII.]
+
 ## PROPOSITION XXIII. PROBLE'ME IX.
 
 {dropcap:U|lines=2|style=plain}Ne droite indéterminée (AM) étant donnée, avec un de ſes points (A); décrire ſur cette droite & à ce point un angle rectiligne (BAC), égal à un autre angle rectiligne donné (HDG).

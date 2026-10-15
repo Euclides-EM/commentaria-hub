@@ -18,6 +18,8 @@ deſcribendum quadratum. Ducantur duæ diametri AC, BD, ſecantes ſe in E, cent
 
 [Curated heading level=2 type=campanus: 8]
 
+[Curated heading level=2 type=problems: PROBL. 8. PROPOS. 8.]
+
 ## PROBL. 8. PROPOS. 8.
 
 [Margin]

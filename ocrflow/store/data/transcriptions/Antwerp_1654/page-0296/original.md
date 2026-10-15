@@ -14,6 +14,8 @@ Fig.15.
 
 Sit deinde pyramis quæuis eandem habens baſim & altitudinem cum priſmate AEFH ductis lineis BC, BO, BE & NI, NG, NH, reſolue priſma in triangularia priſmata, & pyramidem in trigonas pyramides. Quo facto patet demonſtratio ex prima parte. Nam ſingulæ partes priſmatis triplæ erunt ſingularum partium pyramidis. Ac proinde totum priſma totius pyramidis triplum eſt. Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO VIII.]
+
 ## PROPOSITIO VIII.
 
 [Curated heading level=2 type=figures: Fig. 16]

@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. IV.]
+
 ## DEFINIT. IV.
 
 Altitudo cuiusque figuræ est linea perpendicularis à vertice ad basin deducta.
@@ -15,6 +17,8 @@ EXPL. NOT.
 
 α | AD est altitudo trianguli ABC.
 | AD est la hauteur du triangle ABC.
+
+[Curated heading level=2 type=definitions: DEFINIT. V.]
 
 ## DEFINIT. V.
 

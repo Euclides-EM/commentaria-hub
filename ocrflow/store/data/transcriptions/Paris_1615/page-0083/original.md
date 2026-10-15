@@ -10,6 +10,10 @@ Soit la ligne droicte AB, couppee en deux parties telles qu’on voudra au point
 
 Encore qu’en ce theoreme Euclide propoſe d’vne ligne diuiſee en deux parties ſeulement, ſi eſt-ce toutesfois qu’en la meſme maniere ſera demonſtré le meſme, ſi la ligne eſt diuiſee en tant de parties qu’on voudra. Sera auſſi demonſtré comme deſſusque ſi vne ligne droicte eſt couppee en tant de parties qu’on voudra; le quarré de la toute est egal aux rectaugles contenus ſoubs chaſques ſegmens &vn. chaſcun ſegment.
 
+[Curated heading level=2 type=propositions: THEOR. 3. PROP. III.]
+
+[Curated heading level=2 type=theorems: THEOR. 3. PROP. III.]
+
 ## THEOR. 3. PROP. III.
 
 Si vne ligne droite eſt coupee comme on voudra; le rectangle compris de la toute, & de l’vne des parties, eſt egal au rectangle compris des parties, & au quarré d’icelle partie premierement priſe.

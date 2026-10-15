@@ -1,5 +1,11 @@
 <!-- Running title: LIBER III. -->
 
+[Curated heading level=1 type=theorems: LIBER III.]
+
+[Curated heading level=2 type=propositions: Theorema 1, Propoſitio 2.]
+
+[Curated heading level=2 type=theorems: Theorema 1, Propoſitio 2.]
+
 ## Θεώρημα α, Πρόθεσις β.
 
 Ἐὰν κύκλου ἐπὶ τῆς περιφερείας ληφθῇ δύο τυχόντα σημεῖα,ἡ ἐπὶ τὰ αὐτὰ σημεῖα ἐπιζευγνυμένη εὐθεῖα ἐντὸς πεσεῖται τοῦ κύκλου.
@@ -15,6 +21,10 @@ Oſtenſio rurſum per impoſſibile.
 [/Margin]
 
 [Diagram: a d b c e f]
+
+[Curated heading level=2 type=propositions: Theorema 2, Propoſitio 3.]
+
+[Curated heading level=2 type=theorems: Theorema 2, Propoſitio 3.]
 
 ## Θεώρημα β, Πρόθεσις γ.
 

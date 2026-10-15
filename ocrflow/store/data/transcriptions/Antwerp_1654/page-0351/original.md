@@ -3,6 +3,8 @@
 
 los circulos diametrorum CG, DF interceptæ. Ergo circulus radio I deſcriptus, æquatur omnibus ſimul conicis ſuperficiebus ſphæræ inſcriptis. Quod erat dem.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XIX.]
+
 ## PROPOSITIO XIX.
 
 [Margin]
@@ -14,6 +16,8 @@ Fig.14.
 Dico omnibus ſuperficiebus conicis ſegmento ſphærico DAF inſcriptis æqualem eſſe circulum, cuius radius eſt medius proportionalis inter EB, & ſegmenti axem AO.
 
 Demonſtratio plane eadem, quæ præcedentis: ſed pro P.16, citetur P. 17.
+
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XX.]
 
 ## PROPOSITIO XX.
 

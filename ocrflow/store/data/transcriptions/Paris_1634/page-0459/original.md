@@ -13,6 +13,10 @@ hyp. | ag par.. c 2|2 dh par.. f,
 5.7 | gb + he par..c + f 2|2 gb par..c,
 concl. 2.a.7 | ab + de part.. c + f 2|2 ab part..c, u de part.. f.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. VII.]
+
 ## THEOR. V. PROPOS. VII.
 
 Si numerus numeri pars fuerit, qualis ablatus ablati : & reliquus reliqui eadem pars erit, qualis totus totius.

@@ -4,6 +4,8 @@
 
 cylindrus ipso η χ cylindro. Et si minor, minor (per 1 quinti. Quatuor iā existētibus magnitudinibus, axibus quidē, ε κ, κ ζ, cylindris aūt β η, η δ accepta (per diffinitionē 6 quinti) sunt æque multiplicia ipsius q̃dē ε κ axis & β η cylindri, ipse axis κ λ, & π η cylindrus. Ipsius autē κ ζ axis, & η δ cylindri, κ μ axis & η χ cylindrus. Et patuit quod si κ λ, axis excedit κ μ axē, & π η cylindrus ipsum excedit η χ cylindrū, & si æqualis, æqualis, & si minor, minor. Est igitur (per 6 diffinitionē quinti) sicut ε κ axis ad κ ζ axē, sic β η cylindrus ad η δ cylindrū. Quod ostendere oportuit.
 
+[Curated heading level=2 type=theorems: Theorema 14 Propositio 14]
+
 ## Eucli. ex Zamb. Theorema 14 Propositio 14
 
 [Curated heading level=3 type=zamberti_sequence: 14.]

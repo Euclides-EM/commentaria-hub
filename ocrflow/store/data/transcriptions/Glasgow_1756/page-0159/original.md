@@ -1,6 +1,10 @@
 <!-- Page number: 144 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. C. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. C. THEOR.]
+
 ## PROP. C. THEOR.
 
 {dropcap:S|lines=2|style=plain}I prima aeque multiplex fuerit, vel eadem pars, ſecundae, atque tertia quartae; erit prima ad ſecundam ut tertia ad quartam.

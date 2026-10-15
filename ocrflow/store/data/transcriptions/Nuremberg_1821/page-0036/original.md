@@ -1,10 +1,18 @@
 <!-- Page number: 31 -->
 
+[Curated heading level=2 type=propositions: N. 14 Funfzehnter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 14 Funfzehnter Satz. Lehrſatz.]
+
 ## N. 14 Funfzehnter Satz. Lehrſatz.
 
 Wenn zwei Nebenwinkel gleich ſind, ſo liegen ihre nicht gemeinſchäftlichen Schenkel in einer geraden Linie.
 
 Bew. S. die Uiberſ. v. L. od. B.
+
+[Curated heading level=2 type=propositions: N. 15 Sechzehnter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 15 Sechzehnter Satz. Lehrſatz.]
 
 ## N. 15 Sechzehnter Satz. Lehrſatz.
 
@@ -22,11 +30,19 @@ Bew. S. die Uiberſ. v. L. od. B.
 
 2) Die Summe aller Winkel, die von einer beliebigen Anzahl der in einerlei Ebene befindlichen, und von dem nemlichen Punkt ausgehenden geraden Linien gebildet werden, iſt auch vier rechten Winkeln gleich.
 
+[Curated heading level=2 type=propositions: N. 16 Siebzehnter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 16 Siebzehnter Satz. Lehrſatz.]
+
 ## N. 16 Siebzehnter Satz. Lehrſatz.
 
 Der äuſſere Winkel eines jeden Dreiecks iſt gröſſer als jeder der ihm gegenüberſtehenden innern Winkel.
 
 Bew. S. die Uiberſetz. v. L. od. B.
+
+[Curated heading level=2 type=propositions: N. 17 Achtzehnter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 17 Achtzehnter Satz. Lehrſatz.]
 
 ## N. 17 Achtzehnter Satz. Lehrſatz.
 

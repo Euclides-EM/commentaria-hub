@@ -1,6 +1,8 @@
 <!-- Page number: 238 -->
 <!-- Running title: APPENDICE. -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XII.]
+
 ## PROPOSITION XII.
 
 {dropcap:L|lines=2|style=plain}E Logarithme du Produit f F eſt égal à la ſomme des Logarithmes des Facteurs f & F.
@@ -42,6 +44,8 @@ Coroll. 6.
 [/Margin]
 
 C. Q. F. D.
+
+[Curated heading level=2 type=propositions: PROPOSITION XIII.]
 
 ## PROPOSITION XIII.
 

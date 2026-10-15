@@ -19,6 +19,8 @@ NAM ſi primi quotcunque propoſiti ſint A, B, C, inueniemus eodem modo alium p
 
 [Curated heading level=2 type=campanus: 22]
 
+[Curated heading level=2 type=theorems: THEOR. 19. PROPOS. 21.]
+
 ## THEOR. 19. PROPOS. 21.
 
 [Margin]

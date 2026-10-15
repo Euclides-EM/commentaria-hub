@@ -19,6 +19,10 @@ s.46.3 | ce u ac u cb est 13,
 α.2.a.1 | ad est 18,
 α.3.a.1 | db est 8.
 
+[Curated heading level=2 type=propositions: PROBL. X. PROPOS. XXX.]
+
+[Curated heading level=2 type=problems: PROBL. X. PROPOS. XXX.]
+
 ## PROBL. X. PROPOS. XXX.
 
 Propositam rectam lineam terminatam extrema, ac media ratione secare.
@@ -43,6 +47,10 @@ Demonstr.
 
 constr. | ▭.abg 2|2 □.ag,
 concl. 14.6 | ab π ag 2|2 ag π gb.
+
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXXI.]
 
 ## THEOR. XXI. PROPOS. XXXI.
 

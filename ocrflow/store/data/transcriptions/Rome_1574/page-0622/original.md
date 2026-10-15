@@ -3,6 +3,8 @@
 
 [Curated heading level=2 type=campanus: 25]
 
+[Curated heading level=2 type=theorems: THEOR. 24. PROPOS. 26.]
+
 ## THEOR. 24. PROPOS. 26.
 
 [Margin]
@@ -42,6 +44,8 @@ SIT uterque numerus A, B, ad C, primus, producaturque ex A, in B, uel ex B, in A
 [/Margin]
 
 [Curated heading level=2 type=campanus: 25]
+
+[Curated heading level=2 type=theorems: THEOR. 25. PROPOS. 27.]
 
 ## THEOR. 25. PROPOS. 27.
 

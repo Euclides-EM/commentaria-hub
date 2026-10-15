@@ -6,6 +6,10 @@
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: PROB. 5. PROP. V.]
+
+[Curated heading level=2 type=problems: PROB. 5. PROP. V.]
+
 ## PROB. 5. PROP. V.
 
 Dans vn icoſaedre donné, deſcrire vn dodecaedre.

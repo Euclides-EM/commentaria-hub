@@ -23,6 +23,10 @@ hyp. | ∪ ac 2|2 ∪ df,
 1.concl. 21.a.1 | <agc 2|2 <dhf, α
 2.concl. α.7.a.1 | <abc 2|2 <def.
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXVIII.]
+
 ## THEOR. XXV. PROPOS. XXVIII.
 
 In æqualibus circulis, æquales rectæ lineæ æquales peripherias auferunt, maiorem quidem maiori, minorem autem minori.

@@ -3,6 +3,10 @@
 
 culaire ; car tous les triangles ABP, ACP, ADP, etc. sont égaux entre eux.
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VI.]
+
 ## PROPOSITION VI.
 
 ### THÉORÊME.

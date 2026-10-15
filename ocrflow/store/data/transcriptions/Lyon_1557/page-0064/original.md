@@ -19,6 +19,10 @@ Scilicet A B linea excedat A C lineam, portione C B. Conſtabit Quadratum maiori
 
 In quo rerum imaginem iucundè contemplari ſubit. Nempè quod deeſt lineæ A C, ducetur in ipſam : hoc eſt, C B in A C : ſed & quod ſupereſt ipſi A B (id ipſum verò eſt C B) ducetur in ipſam A B : ſicq́; ex duabus vna fiet potentia.
 
+[Curated heading level=2 type=propositions: THEOREMA 5, PROPOSITIO V.]
+
+[Curated heading level=2 type=theorems: THEOREMA 5, PROPOSITIO V.]
+
 ## THEOREMA 5, PROPOSITIO V.
 
 Si recta linea ſecetur in duo æqualia duoq́; inæqualia: Rectangulum comprehenſum ſub inæqualibus ſegmentis totius vnà cum Quadrato quod à medio ſegmentorum, æquale eſt ei quod à dimidia fit Quadrato.

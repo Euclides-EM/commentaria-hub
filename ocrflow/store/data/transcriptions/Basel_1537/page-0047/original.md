@@ -6,6 +6,8 @@
 
 [Diagram: right triangle a b c with a at top and squares on the three sides: f, g on a b, h, k on a c, d, l, e on b c below; m on b c; lines a d, a e, b k, c f drawn]
 
+[Curated heading level=2 type=theorems: Theorema 33. Propositio 47.]
+
 ## Eucli. ex Zamb. Theorema 33. Propositio 47.
 
 [Curated heading level=3 type=zamberti_sequence: 47.]

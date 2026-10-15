@@ -1,5 +1,9 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XXIV.]
+
 ## PROBL{printer-error-correction:THEOR}. XIII. PROPOS. XXIV.
 
 Snelius in Apollonio Batauo.

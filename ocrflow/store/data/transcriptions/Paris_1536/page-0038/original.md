@@ -1,5 +1,9 @@
 <!-- Running title: GEOMET. ELEMENT. -->
 
+[Curated heading level=2 type=propositions: Theorema 11, Propositio 18.]
+
+[Curated heading level=2 type=theorems: Theorema 11, Propositio 18.]
+
 ## Θεώρημα ια, Πρόθεσις ιη.
 
 Παντὸς τριγώνου ἡ μείζων πλευρὰ, τὴν μείζονα γωνίαν ὑποτείνει.
@@ -12,6 +16,10 @@ ORONTIVS.¶Sit triangulum a/b/c:cuius latus a/b,maius sit a/c/latere.dico quòd 
 
 [Diagram: a d b c]
 
+[Curated heading level=2 type=propositions: Theorema 12, Propositio 19.]
+
+[Curated heading level=2 type=theorems: Theorema 12, Propositio 19.]
+
 ## Θεώρημα ιβ, Πρόθεσις ιθ.
 
 Παντὸς τριγώνου ὑπὸ τὴν μείζονα γωνίαν ἡ μείζων πλευρὰ ὑποτείνει.
@@ -23,6 +31,10 @@ OMnis trianguli maior angulus, sub maiori latere subtéditur.
 ORONTIVS. ¶Sit rursum a/b/c/ triangulum, habens angulum a/c/b, maioré angulo a/b/c.Aio versa vice,q̃ latus a/b, maius est ipso latere a/c.Si nanq; a/b/latus,non foret maius a/c:esset igitur vel eidé a/c/æquale,vel eo minus.Aequú porrò nó est a/b/ipsi a/c:quoniã anguli a/b/c/& a/c/b, per quintam propositionem, forét adinuicem æquales.sunt autem inæquales, per hypothesin.non est igitur a/b/latus,æquale ipsi a/c.Neque etiã minus est a/b, eodem a/c/latere: esset enim angulus a/c/b, minor angulo a/b/c, per antecedentem decimam octauam propositionem . hoc autem aduersatur hypothesi.Igitur a/b/latus,nó est minus ipso a/c/ latere.Osteñsum est auté,quòd nec eidem æquale. maius est igitur ipsum latus a/b,eodem a/c/ latere. Omnis ergo trianguli maior angulus,sub maiori latere subtenditur.Quod demonstrare fuerat operæpretium.
 
 [Diagram: a b c]
+
+[Curated heading level=2 type=propositions: Theorema 13, Propositio 20.]
+
+[Curated heading level=2 type=theorems: Theorema 13, Propositio 20.]
 
 ## Θεώρημα ιγ, Πρόθεσις κ.
 

@@ -15,6 +15,8 @@ Quoniam vero, vt ante, ex inuerſa ratione vt C, ad B, Ita E, ad D; erit quoque 
 
 [Curated heading level=2 type=campanus: 22]
 
+[Curated heading level=2 type=theorems: THEOR. 22. PROPOS. 22.]
+
 ## THEOR. 22. PROPOS. 22.
 
 [Curated heading level=3 type=incipit: SI]

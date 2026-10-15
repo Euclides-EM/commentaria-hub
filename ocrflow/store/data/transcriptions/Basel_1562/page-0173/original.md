@@ -1,6 +1,8 @@
 <!-- Running title: Des fünfften bůchs Euclidis -->
 <!-- Page number: 152 -->
 
+[Curated heading level=2 type=propositions: XXV. Die fünffvndzwainczigſt propoſition]
+
 ## XXV. Die fünffvndzwainczigſt propoſition.
 
 Vnder vier geproportionierten quantiteten / ſeind allweg die gröſte vnnd die klainſte ſambtlich gröſſer / weder die zwo vberigen.

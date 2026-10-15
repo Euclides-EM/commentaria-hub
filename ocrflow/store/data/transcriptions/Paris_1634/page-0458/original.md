@@ -12,6 +12,10 @@ s.4.d.7 | multd..part. bc 2|2 muld..part. gm,
 2.a.1 | multd..part..be + gh, ef + hl, fc + lm 2|2 multd..part..be,ef,fc,
 concl. s.4.d.7 | a + d, par..bc + gm 2|2 a, par..bc, u d, par..gm.
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. VI.]
+
 ## THEOR. IV. PROPOS. VI.
 
 Si numerus numeri partes fuerit, & alter alterius eædem partes : & simul vterque vtriusque simul eædem partes erit, quæ vnus vnius.

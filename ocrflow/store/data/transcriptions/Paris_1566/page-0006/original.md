@@ -2,11 +2,12 @@
 [illegible]
 [/Handwritten]
 
-# EVCLIDIS MEGARENSIS MATHEMATICI CLARISSIMI ELEMENTA GEOMETRICA, LIBRIS XV. AD GERMANAM GEOMETRIAE INTELLIGENTIAM è diuerſis lapſibus temporis iniuria contractis reſtituta, adimpletis præter maiorum ſpem, quæ hactenus deerant, ſolidorum regularium conferentiis ac inſcriptionibus.
-
+# EVCLIDIS MEGARENSIS MATHEMA-
 [Subhead]
-His acceſſit decimus ſextus liber, de ſolidorum regularium ſibi inuicem inſcriptorum collationibus, tum etiam cæptum opuſculum de Compoſitis regularibus ſolidis planè peragendum.
+TICI CLARISSIMI ELEMENTA GEOMETRICA, LIBRIS XV. AD GERMANAM GEOMETRIAE INTELLIGENTIAM è diuerſis lapſibus temporis iniuria contractis reſtituta, adimpletis præter maiorum ſpem, quæ hactenus deerant, ſolidorum regularium conferentiis ac inſcriptionibus.
 [/Subhead]
+
+His acceſſit decimus ſextus liber, de ſolidorum regularium ſibi inuicem inſcriptorum collationibus, tum etiam cæptum opuſculum de Compoſitis regularibus ſolidis planè peragendum.
 
 (AVTHORE Franciſco Fluſſate Candalla.)
 

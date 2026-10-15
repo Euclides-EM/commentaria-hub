@@ -19,6 +19,8 @@ SIMILI arte explorabimus, an plures numeri, quam tres ſint inter ſe primi, an 
 
 [Curated heading level=2 type=campanus: 3]
 
+[Curated heading level=2 type=problems: PROBL. 2. PROPOS. 3.]
+
 ## PROBL. 2. PROPOS. 3.
 
 [Margin]

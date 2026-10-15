@@ -7,6 +7,10 @@ vſque ad G punctum, per primam Petitionem : & ponam D G æqualem A B, per ſecu
 
 Hinc patent reliqua Theorematis capita : nempè reliquorum angulorũ inter ſe, & duorum Triangulorum æqualitas. Neq́; eſt quòd contendat quis, eandem eſſe vtrobique rationem applicationis Triangulorum. Aliud nanque eſt, Triangula tranſponere, quàm per ſimile & æquale demonſtrare. Probatio enim hæc vltima è Circuli pendet officio.
 
+[Curated heading level=2 type=propositions: THEOREMA 2, PROPOSITIO V.]
+
+[Curated heading level=2 type=theorems: THEOREMA 2, PROPOSITIO V.]
+
 ## THEOREMA 2, PROPOSITIO V.
 
 Iſoſcelium Triangulorum qui ad baſin ſunt anguli, inter ſe ſunt æquales : Et productis æqualibus lineis, qui ſub baſi ſunt anguli, inter ſe quoque ſunt æquales.

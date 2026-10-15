@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXXIII. PROPOS. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIII. PROPOS. XXXIII.]
+
 ## THEOR. XXXIII. PROPOS. XXXIII.
 
 Si fuerit maior proportio totius ad totum, quàm ablati ad ablatum : Erit & reliqui ad reliquum maior proportio, quàm totius ad totum.
@@ -22,6 +26,10 @@ hyp. | ab π cd 3|2 ae π cf,
 27.5 | ab π ae 3|2 cd π cf,
 30.5 | ab π eb 2|3 cd π fd,
 concl. 27.5 | ab π cd 2|3 eb π fd.
+
+[Curated heading level=2 type=propositions: THEOR. XXXIV. PROPOS. XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIV. PROPOS. XXXIV.]
 
 ## THEOR. XXXIV. PROPOS. XXXIV.
 

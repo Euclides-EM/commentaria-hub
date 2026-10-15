@@ -16,6 +16,8 @@ CAETERVM quo pacto triangulum conſtitui debeat habens tria latera æqualia trib
 
 [Curated heading level=2 type=campanus: 2]
 
+[Curated heading level=2 type=problems: PROBL. 2. PROPOS. 2.]
+
 ## PROBL. 2. PROPOS. 2.
 
 [Curated heading level=3 type=incipit: AD]

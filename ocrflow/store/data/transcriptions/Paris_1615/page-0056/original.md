@@ -2,6 +2,10 @@
 
 <!-- Page number: 33 -->
 
+[Curated heading level=2 type=propositions: THEO. 17. PROP. XXVI.]
+
+[Curated heading level=2 type=theorems: THEO. 17. PROP. XXVI.]
+
 ## THEO. 17. PROP. XXVI.
 
 Si deux triãgles ont deux angles egaux à deux angles, chaſcun au ſien, & vn coſté egal à vn coſté, ſçauoir eſt, ou celuy aux extremitez duquel ſont les angles egaux; ou bien celuy qui ſouſtiẽt l’vn d’iceux angles egaux ils auront auſſi les autres coſtez egaux aux autres coſtez, chacun au ſien; & l’autre angle egal à l’autre angle.

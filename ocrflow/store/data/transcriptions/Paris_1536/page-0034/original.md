@@ -1,5 +1,9 @@
 <!-- Running title: GEOMET. ELEMENT. -->
 
+[Curated heading level=2 type=propositions: Problema 6, Propositio 11.]
+
+[Curated heading level=2 type=problems: Problema 6, Propositio 11.]
+
 ## Πρόβλημα ς, Πρόθεσις ια.
 
 Τῇ δοθείσῃ εὐθείᾳ,ἀπὸ τοῦ πρὸς αὐτῇ δοθέντος σημείου, πρὸς ὀρθὰς γωνίας εὐθεῖαν γραμμὴν ἀγαγεῖν.
@@ -23,6 +27,10 @@ ORONTIVS.¶Esto recta linea data a/b,datúmq; in ea púctú c:à quo oporteat re
 [Margin]
 1 postul. Ab oi puncto ad oé punctum rectam lineam ducere.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Problema 7, Propositio 12.]
+
+[Curated heading level=2 type=problems: Problema 7, Propositio 12.]
 
 ## Πρόβλημα ζ, Πρόθεσις ιβ.
 

@@ -16,6 +16,8 @@ ferentia duo puncta vtcunque A, & B, e quibus deſcribantur duo arcus ad idẽ i
 
 [Curated heading level=2 type=campanus: 25]
 
+[Curated heading level=2 type=theorems: THEOR. 23. PROPOS. 26.]
+
 ## THEOR. 23. PROPOS. 26.
 
 [Margin]

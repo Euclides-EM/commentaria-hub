@@ -20,6 +20,8 @@ Ponam iterum quod c d sit perpēdicularis super a b, & ostendam quod ipsa diuidi
 
 [Diagram: circle with c near the centre, chord a b at the bottom divided at d, lines c a and c b drawn to the ends of the chord]
 
+[Curated heading level=2 type=theorems: Theorema 2 Propositio 3]
+
 ## Eucli. ex Zamb. Theorema 2 Propositio 3
 
 [Curated heading level=3 type=zamberti_sequence: 3.]

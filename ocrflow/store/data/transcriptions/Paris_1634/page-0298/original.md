@@ -36,6 +36,10 @@ suppos. | b 3|2 a,
 8.5 | c π a 3|2 c π b,
 | contr. hyp.
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XI.]
+
 ## THEOR. XI. PROPOS. XI.
 
 Quæ eidem sunt eædem rationes, & inter se sunt eædem.

@@ -7,6 +7,8 @@ IAM uero ſit CD, ipſius AB, & CF, ipſius AE, eadem partes. Dico e contrario A
 
 [Curated heading level=2 type=campanus: 13]
 
+[Curated heading level=2 type=theorems: THEOR. 10. PROPOS. 12.]
+
 ## THEOR. 10. PROPOS. 12.
 
 [Margin]

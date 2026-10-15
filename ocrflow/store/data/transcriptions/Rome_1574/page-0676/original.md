@@ -5,6 +5,8 @@ metiri cubum B. Eodem enim argumento erit, ut C, ad D, ita A, ad H, propterea qu
 
 [Curated heading level=2 type=campanus: 15]
 
+[Curated heading level=2 type=theorems: THEOR. 14. PROPOS. 16.]
+
 ## THEOR. 14. PROPOS. 16.
 
 [Margin]

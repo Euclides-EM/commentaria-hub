@@ -22,6 +22,8 @@ CAMPANVS. Sint duo numeri a & b, b, minor, dico quod b est pars uel partes a. Au
 
 [Diagram: numbers as dot-rows: a (8 dots), b (4 dots), b (6 dots), b (7 dots)]
 
+[Curated heading level=2 type=theorems: Theorema 2 Propositio 4]
+
 ## Eucli. ex Zamb. Theorema 2 Propositio 4
 
 [Curated heading level=3 type=zamberti_sequence: 4.]
@@ -49,6 +51,8 @@ THEON ex Zamberto. Sit bini numeri α, βγ, & sit minor βγ. Dico quod βγ ip
 CAMPANVS. Volens Euclides hos libros de numeris aliquo præcedentiū non indigere, sed per seipsos stare, partem eius quod proposuit per primam quinti de quantitatibus in genere, proponit per hanc quintam huius septimi de numeris. Sint igitur quatuor numeri a, b, c, d, sitq̃ b tota pars a, quota d, c: dico quod b & d pariter accepti sunt tota pars a & c pariter acceptorū, quota b est a: diuisis enim a & c secūdum quantitatem b & d, argumentare sicut in prima quinti: erit enim ut totidem sint partes a, quot c per positionem, & ut aggregatum ex prima parte a & prima c, sit æquale aggregato ex b & d: similiter quoq̃ & aggregatum ex secunda parte a & secunda c, & quia hæc aggregatio toties potest fieri quoties cōtinetur b in a, sequitur ut numerus æqualis aggregato ex b & d, toties contineatur in aggregato ex a & c, quoties b continetur in a, quare constat propositum.
 
 [Diagram: numbers as dot-rows: a (8 dots) with c (6 dots); b (4 dots) with d (3 dots)]
+
+[Curated heading level=2 type=theorems: Theorema 3 Propositio 5]
 
 ## Eucli. ex Zamb. Theorema 3 Propositio 5
 

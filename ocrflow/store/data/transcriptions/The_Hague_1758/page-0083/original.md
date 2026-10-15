@@ -5,6 +5,8 @@
 
 ## DEFINITIONS.
 
+[Curated heading level=2 type=definitions: DEFINITION I.]
+
 ### I.
 
 {dropcap:O|lines=2|style=plain}N dit de tout Parallélogramme rectangle (DF); qu'il eſt compris des deux côtés (AD, DE) qui environnent l'angle droit (ADE).

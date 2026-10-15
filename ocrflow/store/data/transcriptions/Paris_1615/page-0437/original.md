@@ -12,6 +12,10 @@ Soit la ligne droicte AB couppee inegalement en C: Ie dis que let quarrez de AC,
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 33. PROP. XLV.]
+
+[Curated heading level=2 type=theorems: THEOR. 33. PROP. XLV.]
+
 ## THEOR. 33. PROP. XLV.
 
 La bimediale ſeconde, eſt diuiſee en ſes noms en vn poinct ſeulement.

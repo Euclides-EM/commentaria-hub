@@ -3,6 +3,10 @@
 
 [Figure: pentagon ABDEF inscribed in a circle with centre C, dotted lines from C to points B, D and E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV. PROBLEME XIV.]
+
+[Curated heading level=2 type=problems: PROBLEME XIV. PROPOSITION XIV.]
+
 ## PROPOSITION XIV. PROBLEME XIV.
 
 {dropcap:C|lines=2|style=plain}Irconſcrire un cercle (ADF); à un pentagone (ABDEF) équiangle & équilatéral.

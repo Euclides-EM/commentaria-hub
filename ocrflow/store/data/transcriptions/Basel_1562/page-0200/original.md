@@ -5,6 +5,8 @@ Deßgleichen auch von den ſupplementen b f g h / vnd d e g k / zůuerſtehn. ma
 
 [Diagram: a rectangle divided into four smaller rectangles by one horizontal and one vertical line, with a diagonal from the upper-left corner to the lower-right corner; labelled a, b, c, d, e, f, g, h, and with numerical calculations]
 
+[Curated heading level=2 type=propositions: XXV. Die fünffvndzwainzigſt propoſition]
+
 ## XXV. Die fünffvndzwainzigſt propoſition. Lehrt /
 
 [Subhead]

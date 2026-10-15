@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. I. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXXIII. PROPOS. XLVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIII. PROPOS. XLVII.]
+
 ## THEOR. XXXIII. PROPOS. XLVII.
 
 Aux triangles rectangles, le quarré du costé qui soustient l'angle droict, est égal aux quarrez des costez qui contiennent le mesme angle droict.

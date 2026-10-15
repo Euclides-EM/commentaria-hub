@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, a square with corners B, D, A, E inscribed in a circle, with diagonals crossing at centre C]
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. PROBLEME IX.]
+
+[Curated heading level=2 type=problems: PROBLEME IX. PROPOSITION IX.]
+
 ## PROPOSITION IX. *PROBLEME IX.*
 
 {dropcap:C|lines=2|style=plain}Irconſcrire un cercle (ABDE); à un quarré donné (ABDE).

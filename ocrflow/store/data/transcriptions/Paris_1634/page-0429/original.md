@@ -16,6 +16,10 @@ Demonstr.
 19.1 | cb 3|2 cl u ci,
 concl. s.31.3 | <bfc 3|2 cei u cel.
 
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XL.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XL.]
+
 ## THEOR. XXVII. PROPOS. XL.
 
 Theon in tertium lib. Almagesti.

@@ -6,6 +6,8 @@ CAMPANVS. Sit a numerus par cuius dimidium b, sitq̃ c numerus impar qui numeret
 
 [Diagram: dotted lines labelled a, b, c at left and f, e, d at right]
 
+[Curated heading level=2 type=theorems: Theorema 30 Propositio 30]
+
 ## Eucli. ex Zamb. Theorema 30 Propositio 30
 
 [Curated heading level=3 type=zamberti_sequence: 30.]
@@ -33,6 +35,8 @@ THEON ex Zamb. Impar enim numerus α, parem numerum β metiatur. Dico quod & eiu
 CAMPANVS. Sit a numerus impar primus ad b, cuius duplum sit c. Dico quod a est primus ad c, sin autem, numeret eos d. Cumq̃ a sit impar, sequitur d esse imparem, quicunq̃ enim impar parem numerat, pari numero cum numerabit per 31, per præmissam itaq̃ a numerabit b, non sunt igitur a & b contra se primi, quod est contra hypothesin.
 
 [Diagram: dotted lines c, a, b; solid line d at right]
+
+[Curated heading level=2 type=theorems: Theorema 31 Propositio 31]
 
 ## Eucli. ex Zamb. Theorema 31 Propositio 31
 

@@ -1,10 +1,14 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=definitions: XXIX.]
+
 ### XXIX.
 
 Quadrilaterarum autem figurarum, quadratum quidem est, quod & æquilaterum & rectangulum est, vt ABCD. | Or des figures quadrilateres, le quarré est celuy qui est equilatere & rectangle, comme ABCD.
 
 [Figure: quarré ABCD, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite]
+
+[Curated heading level=2 type=definitions: XXX.]
 
 ### XXX.
 

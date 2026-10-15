@@ -1,6 +1,10 @@
 <!-- Running title: LIBER DUODECIMUS. -->
 <!-- Page number: 327 -->
 
+[Curated heading level=2 type=propositions: PROP. XVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVII. THEOR.]
+
 ## PROP. XVII. THEOR.
 
 {dropcap:D|lines=2|style=plain}Uabus ſphaeris circa idem centrum exiſtentibus, in majori ſolidum polyedrum deſcribere, cujus ſuperficies minorem ſphaeram non attingat.

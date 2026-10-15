@@ -1,6 +1,10 @@
 <!-- Running title: LIBER III. -->
 <!-- Page number: 85 -->
 
+[Curated heading level=2 type=propositions: THEOREMA 22, PROPOSITIO XXV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 22, PROPOSITIO XXV.]
+
 ## THEOREMA 22, PROPOSITIO XXV. Theoni 26.
 
 In Circulis æqualibus, qui ad Centrum quiq́; ad Peripheriam ſunt æquales anguli, ii ſuper æquos Arcus conſiſtunt.
@@ -14,6 +18,10 @@ Connectantur B C & E F. Et quoniam Circuli ſunt æquales : erunt G B & G C Semi
 C O M M O D I V S tamen probabimus ſeparatim, vt Campanus. Ponantur enim vt priùs, duo anguli ad Centra, æquales. Ac tum connexis B C & E F, erunt, propter æqualitatem Semidiametrorum, ipſæ B C & E F æquales, per quartam Primi. Ducantur itaque B A & C A ad Peripheriam:itemq́; E D & F D. Et erunt duo anguli A & D, per decimamnonam huius & animi Notionem, æquales. Igitur, per definitionem Similium Segmentorum, erunt duo Segmenta B A C & E D F ſimilia:ob idq́;, per vigeſimamtertiam huius, æqualia:quum ſint ſuper æquales lineas. Quare duo reliqui Arcus B C & E F æquales, Quod eſt prius.
 
 Iam verò ponantur A & D anguli ad Peripheriam, æquales. Et erunt, ex definitione, Segmenta æqualia. Ac tum ductis G B & G C : itemq́; H E & H F : erunt ipſi G & H anguli, per decimamnonam huius & animi Notionem, æquales. Et quia Semidiametri ſunt æquales:erunt, per quartam Primi, duæ B C & E F æquales. Erunt itaque, vt priùs, Segmenta B A C & E D F æqualia, per vigeſimamtertiam huius. Quare duo reliqui Arcus æquales, Quod erat demonſtrandum.
+
+[Curated heading level=2 type=propositions: THEOREMA 23, PROPOSITIO XXVI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 23, PROPOSITIO XXVI.]
 
 ## THEOREMA 23, PROPOSITIO XXVI. Theoni 27.
 

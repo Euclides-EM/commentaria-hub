@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
+
 ## Propoſitio decimaquinta.
 
 Si cubus numerus cubum numerum menſus fuerit, & latus latus metietur, & ſi latus latus menſum fuerit, & cubus cubum metietur.
@@ -7,6 +9,8 @@ Si cubus numerus cubum numerum menſus fuerit, & latus latus metietur, & ſi lat
 Metiatur A cubus numerus B cubum: Dico G latus ipſius A metiri D latus ipſius B, & è conuerſo, multiplicantes ſeſe G & D quadratos efficiãt E & I, per 19 diffinitionem ſeptimi, inter quos medius ſit Z, per 11 huius, ipſi verò G & D multiplicãtes Z duos faciant T & K, inter A & B cubos medios (per 12 huius) in ratione ipſorum G D: quoniam A metitur B extremum, metietur & T proximum, per ſeptimam huius, fuit autem A ad T vt G ad D, metietur itaque G ipſum D. Si verò ponamus G metiri ipſum D, eiſdem namque diſpoſitis, quoniam eſt A ad T vt G ad D, ſed G metietur D, metitur igitur A ipſum T, & T ipſum K, & K ipſum B: quare A (per primam communem ſententiam ſeptimi) metietur ipſum B. Si itaque cubus numerus cubum numerum menſus, &c.
 
 [Diagram: horizontal lines labelled G 2, D 4, E 4, Z 8, I 16, A 8, T 16, K 32, B 64]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
 
 ## Propoſitio decimaſexta.
 
@@ -16,6 +20,8 @@ Sint A & B numeri quadrati, latus ipſius A ſit G, reliqui verò B ſit D. Dico
 
 [Diagram: horizontal lines labelled A 9, B 16, G 3, D 4]
 
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
+
 ## Propoſitio decimaſeptima.
 
 Si cubus numerus cubum numerum nõ metiatur, neque latus latus metietur, & ſi latus latus non metiatur, neque cubus cubum metietur.
@@ -23,6 +29,8 @@ Si cubus numerus cubum numerum nõ metiatur, neque latus latus metietur, & ſi l
 Eadem demonſtrandi ratio hanc patefaciet quæ & præcedentem. Si enim A cubus, B cubum nõ metiatur, neque G latus D latus metietur. Nam ſi G metiatur D, & (per 15 huius) A metietur B, contra hypotheſim, Similiter ſi G latus D latus non metiatur, neque A cubum B metietur. Si enim A cubum B metiatur & G latus D metiretur, per ſecundam partem eiuſdem, quod obſtat hypotheſi, & proinde inconuenit. Si igitur cubus numerus cubum numerum non metiatur, neque latus latus metietur, &c.
 
 [Diagram: horizontal lines labelled A 8, B 27, G 2, D 3]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
 
 ## Propoſitio decimaoctaua.
 

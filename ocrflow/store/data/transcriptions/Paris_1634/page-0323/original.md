@@ -4,6 +4,10 @@ propositiones additæ sunt, propter frequentem earum vsum apud grauissimos scrip
 
 Icy Euclide finit le cinquiesme liure : les propositions suiuantes ont esté adioustees, à cause que les bons autheurs se seruent fort souuent d'icelles.
 
+[Curated heading level=2 type=propositions: THEOR. XXVI. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVI. PROPOS. XXVI.]
+
 ## THEOR. XXVI. PROPOS. XXVI.
 
 Si prima ad secundam habuerit maiorem proportionem quàm tertia ad quartam : habebit conuertendo secunda ad primam minorem proportionem, quàm quarta ad tertiam.
@@ -29,6 +33,10 @@ hyp. | c π d 2|3 a π b,
 α.c.4.5 | d π c 2|2 b π e,
 8.5 | b π e 3|2 b π a,
 concl. 13.5 | d π c 3|2 b π a.
+
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XXVII.]
 
 ## THEOR. XXVII. PROPOS. XXVII.
 

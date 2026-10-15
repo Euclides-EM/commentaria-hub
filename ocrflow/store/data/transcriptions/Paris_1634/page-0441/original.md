@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID.. LI. VII. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. XVIII.]
+
 ## DEFINIT. XVIII.
 
 Quadratus numerus est, qui æqualiter æqualis, vel qui sub duobus æqualibus numeris continetur.
@@ -21,6 +23,8 @@ Numerus A, est æqualis numero B.
 Numerus A, ductus in numerum B, facit numerum C : igitur C, est numerus quadratus.
 
 *A, estant multiplié par B, fait C : partant C, est nombre quarré.*
+
+[Curated heading level=2 type=definitions: DEFINIT. XIX.]
 
 ## DEFINIT. XIX.
 

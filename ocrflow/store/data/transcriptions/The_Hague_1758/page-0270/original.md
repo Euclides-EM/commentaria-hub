@@ -3,6 +3,10 @@
 
 [Figure: triangle with apex A; points B and C on the sides, dotted lines from B to C and from D to E; at right three horizontal lines labelled M, N and P]
 
+[Curated heading level=2 type=propositions: PROPOSITION XII. PROBLEME IV.]
+
+[Curated heading level=2 type=problems: PROBLEME IV. PROPOSITION XII.]
+
 ## PROPOSITION XII. *PROBLEME IV.*
 
 {dropcap:T|lines=2|style=plain}Rouver une quatriéme proportionelle (CE) à trois lignes droites données (M, N, P).

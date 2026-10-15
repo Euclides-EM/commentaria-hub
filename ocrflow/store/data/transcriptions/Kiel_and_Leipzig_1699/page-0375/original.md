@@ -31,6 +31,10 @@ Dw. △ abc ähnlich △ efg n. 1. Besch. VI.
 
 Sind derowegen diejenigen Vielecke / welche einem einigen Vieleck ähnlich sind/ auch unter einander selbst ähnlich. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 16. Beweiß-Stück. Der XXII. Vortrag.]
+
 ## Der XXII. Vortrag.
 
 ## Das 16. Beweiß-Stück.

@@ -3,6 +3,10 @@
 
 [Diagram: plane ZX containing points B, D and E; verticals AB and CD rising from the plane, with dotted lines joining A, D, E and B]
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THEOREME VIII.]
+
+[Curated heading level=2 type=theorems: THEOREME VIII. PROPOSITION VIII.]
+
 ## PROPOSITION VIII. THEOREME VIII.
 
 {dropcap:S|lines=2|style=plain}I deux lignes (AB & CD) ſont paralleles, & que l'une (comme AB) eſt perpendiculaire ſur un Plan (ZX); l'autre CD ſera auſſi perpendiculaire ſur le même Plan.

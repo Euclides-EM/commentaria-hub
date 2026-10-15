@@ -8,15 +8,21 @@ hyp. | a 2|2 ½c.
 
 Quæ in sexto & septimo axiomate dicta sunt de duplo & dimidio, possunt etiam sumi de triplo, quadruplo, quintuplo, &c. & de partibus tertiis, quartis, quintis, &c. | Aux sixiesme & septiesme axiomes, les choses qui ont esté dictes du double & de la moitié, se peuuent außi entendre du triple, quadruple, quintuple, &c. & des tierces, quartes, quintes, &c.
 
+[Curated heading level=2 type=axioms: 8. a. 1.]
+
 ### 8. a. 1.
 
 Et quæ sibi mutuò congruunt, ea inter se sunt æqualia. | Et les choses qui conuiennent entr'elles, sont egales entr'elles.
 
 Magnitudines congruæ sunt, quarum partes applicatæ partibus, æqualem vel eundem locum occupant. | Les grandeurs qui conuiennent sont celles dont les parties estans mises l'vne sur l'autre, occupent espace egal, ou vn mesme lieu.
 
+[Curated heading level=2 type=axioms: 9. a. 1.]
+
 ### 9. a. 1.
 
 Et totum sua parte maius est. | Et le tout est plus grand que sa partie.
+
+[Curated heading level=2 type=axioms: 9. a. b.]
 
 ### 9. a. b.
 

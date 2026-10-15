@@ -37,6 +37,10 @@ Q. E. F.
 e. 26. 6.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. XXIX. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXIX. PROB.]
+
 ## PROP. XXIX. PROB.
 
 {dropcap:A|lines=2|style=plain}D datam rectam lineam, dato rectilineo aequale parallelogrammum applicare, excedens figura parallelogramma, quae ſimilis ſit alteri datae.

@@ -2,23 +2,39 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: ELEMENT ONZIESME.]
+
+[Curated heading level=1 type=theorems: ELEMENT ONZIESME.]
+
+[Curated heading level=1 type=problems: ELEMENT ONZIESME.]
+
 # ELEMENT ONZIESME.
+
+[Curated heading level=1 type=definitions: ELEMENT ONZIESME. DEFINITIONS.]
 
 ## DEFINITIONS.
 
 {dropcap:S|lines=5|style=decorated}Olide, eſt ce qui a longueur,
 
+[Curated heading level=2 type=definitions: 1.]
+
 [Curated heading level=3 type=numbered_item: 1.]
 
 1. largeur & profondeur: Mais les termes d’vn ſolide, ſont ſuperficies.
+
+[Curated heading level=2 type=definitions: 2.]
 
 [Curated heading level=3 type=numbered_item: 2.]
 
 2. Vne ligne droicte eſt perpenL. diculairement eſleuee ſur vn plan, quand toutes les lignes ſur iceluy plan menees vers elle la rencontrent en angles droicts.
 
+[Curated heading level=2 type=definitions: 3.]
+
 [Curated heading level=3 type=numbered_item: 3.]
 
 3. Vn plan eſt eſſeué perpendiculairement ſur vn plan, quand les lignes menees ſur l’vn d’iceux perpendiculairemét à la ligne de commune ſection, ſont auſſi pérpendiculaires à l’autre plan.
+
+[Curated heading level=2 type=definitions: 4.]
 
 [Curated heading level=3 type=numbered_item: 4.]
 

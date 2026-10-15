@@ -21,6 +21,10 @@ constr. | ad 2|2 dc,
 4.1 | ab 2|2 bc,
 concl. 28.3 | ∩ab 2|2 ∩bc.
 
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XXXI.]
+
 ## THEOR. XXVII. PROPOS. XXXI.
 
 In circulo angulus, qui in semicirculo, rectus est: qui autem in maiore segmento, minor recto : qui vero in minore segmento, maior est recto. Et insuper angulus maioris segmenti, recto quidem maior est : minoris autem segmenti angulus, minor est recto.

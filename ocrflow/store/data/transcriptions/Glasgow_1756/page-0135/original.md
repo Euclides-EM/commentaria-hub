@@ -19,6 +19,10 @@ b. 6. 1.
 
 [Diagram: circle circumscribed around square ABCD, with diagonals AC and BD intersecting at E]
 
+[Curated heading level=2 type=propositions: PROP. X. PROB.]
+
+[Curated heading level=2 type=problems: PROP. X. PROB.]
+
 ## PROP. X. PROB.
 
 {dropcap:I|lines=2|style=plain}SOSCELES triangulum conſtituere habens utrumque angulorum qui ſunt ad baſim duplum reliqui.

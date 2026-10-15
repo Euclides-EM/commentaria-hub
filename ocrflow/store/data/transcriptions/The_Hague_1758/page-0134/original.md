@@ -14,6 +14,10 @@
 
 [Diagram: Fig. 3., circle with points A, B, C, D and E and angles m, n, o and p]
 
+[Curated heading level=2 type=propositions: PROPOSITION XX. THEOREME XVIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVIII. PROPOSITION XX.]
+
 ## PROPOSITION XX. *THEOREME XVIII.*
 
 {dropcap:D|lines=2|style=plain}Ans le cercle: l’angle au centre (BCD) eſt double de l’angle à la circonférence (BAD), quand ces angles s’appuyent ſur le même arc (BD).

@@ -19,6 +19,10 @@ binom.5 12.10 | fe, cōm. ration. expos.
 bino.6. suppos. | ac & cb, incomm. ration. expos.
 bino.6. 14.10 | df & fe, incomm. ration. expos.
 
+[Curated heading level=2 type=propositions: THEOR. L. PROPOS. LXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. L. PROPOS. LXVIII.]
+
 ## THEOR. L. PROPOS. LXVIII.
 
 Ei, quæ ex binis mediis, longitudine commensurabilis, & ipsa ex binis mediis est, atque ordine eadem.

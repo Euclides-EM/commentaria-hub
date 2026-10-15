@@ -18,6 +18,8 @@ CAMPANVS. Sint duæ lineæ a b & a c, se angulariter contingentes in puncto a, �
 
 [Diagram: the angle b a c at the top, a at the apex joined to b (left) and c (right) with the line b c between them; from a a line descends to d, whence the angle e d f opens to the bottom corners e and f; the sides b e and c f complete the prism-like figure]
 
+[Curated heading level=2 type=theorems: Theorema 10 Propositio 10]
+
 ## Eucli. ex Zamb. Theorema 10 Propositio 10
 
 [Curated heading level=3 type=zamberti_sequence: 10.]
@@ -51,6 +53,8 @@ PVncto in aère assignato, ab eo ad datam superficiẽ, perpendicularem ducere.
 CAMPANVS. Sit punctus a, sursum in aere, à quo uolumus ad superficiem subiacentem, perpendicularẽ ducere. Ducatur igitur in plano illo linea b c utcunq̃ cõtigerit, ad quam ab ipso puncto a ducatur perpẽdicularis a d, secundũ doctrinã 12 primi. Rursusq̃ à puncto d, in plano illo ad quod ducenda est perpendicularis à puncto a, extrahatur linea d e quæ sit perpẽdicularis ad lineam b c, ut docet 11 primi. Ad hãc quoq̃ lineam d e, ducatur alia linea perpẽdicularis à puncto a, quæ sit a f. Hanc dico esse eam quam intendimus. Sit enĩ linea f g æquidistans lineæ b c. Et quia uterq̃ duorũ angulorũ b d a & b d f est rectus, erit ex 4 huius, linea b d perpẽdicularis ad superficiem in qua est triangulus a d f, ideoq̃ etiam per 8 huius erit linea g f perpẽdicularis ad eandem superficiem. Igitur à diffinitione erit angulus g f a, rectus. Cumq̃ etiã angulus d f a, sit rectus, sequitur ex 4 huius, lineam a f esse perpendicularẽ ad superficiẽ in qua sunt duæ lineæ d f & f g. Quod est propositũ.
 
 [Diagram: the horizontal line b d c at the bottom; from the point a at the upper left, lines descend to d and to f; the line e f descends vertically from e at the top to f, whence the horizontal through g at the left; f marked at the crossing]
+
+[Curated heading level=2 type=problems: Problema 1 Propositio 11]
 
 ## Eucli. ex Zamb. Problema 1 Propositio 11
 

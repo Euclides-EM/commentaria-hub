@@ -25,6 +25,10 @@ e. 2. 3.
 
 ‘Et praeterea, unicam tantum rectam poſſe circulum in eodem puncto contingere.’
 
+[Curated heading level=2 type=propositions: PROP. XVII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XVII. PROB.]
+
 ## PROP. XVII. PROB.
 
 {dropcap:A|lines=2|style=plain} Dato puncto extra circulum, vel in ejus circumferentia, rectam lineam ducere quae datum circulum contingat.

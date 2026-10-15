@@ -38,6 +38,10 @@ ergo | □.ac *eſt* 25.
 concl. | √.25 *eſt* 5.
 ergo | ac *eſt* 5.
 
+[Curated heading level=2 type=propositions: THEOR. XXXIV. PROPOS. XLVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIV. PROPOS. XLVIII.]
+
 ## THEOR. XXXIV. PROPOS. XLVIII.
 
 Si le quarré de l'vn des costez d'vn triangle, est égal aux quarrez des deux autres costez ; le triangle sera rectangle.

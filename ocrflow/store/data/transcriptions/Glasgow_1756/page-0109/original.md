@@ -3,6 +3,10 @@
 
 linea, duo circulorum ſegmenta, ſimilia, et ſibi mutuo non congruentia, ex eadem parte conſtituentur. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXIV. THEOR.]
+
 ## PROP. XXIV. THEOR.
 
 {dropcap:S|lines=2|style=plain}UPER aequalibus rectis lineis ſimilia circulorum ſegmenta inter ſe aequalia ſunt.
@@ -20,6 +24,10 @@ a. 23. 3.
 [/Margin]
 
 congruet igitur et ipſi aequale erit. ſuper aequalibus igitur rectis lineis &c. Q. E. D.
+
+[Curated heading level=2 type=propositions: PROP. XXV. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXV. PROB.]
 
 ## PROP. XXV. PROB.
 

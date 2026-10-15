@@ -4,6 +4,10 @@
 
 E: & par meſme diſcours B ſera le produict de K par H; & par la 17.p.7.E multipliant I, & L, produict A & M, en la raiſon de I à L: & par meſme diſcours L multipliant E, &H, produict M & N en la raiſon de E a H, qui eſt la meſme que de I à L.auſſi H multipliant L & K, les produits N & B ſeront auſſi en la raiſon de L à K, qui eſt la meſme que de I à L. Et nartant les quatre nombres A, M, N, B, ſont continuellement proportionnaux en la raiſon de I à L, c’eſt a dire de C a F; & M, N ſeront deux moyens proportionnaux entre A&B. Pour la ſeconde partie elle eſt euidente, puis que les quatre nombres ont eſté prouuez continuellement proportionn aux en la raiſon de C à F (eſtant A a B en raiſon triplee de A a M par la 10.d.5) A eſtre a M, comme C a F.
 
+[Curated heading level=2 type=propositions: THEOR. 18. PROP. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. 18. PROP. XX.]
+
 ## THEOR. 18. PROP. XX.
 
 Si entre deux nombres, tombe vn moyen proportionneliceux ſeront nõbres plans ſemblables.

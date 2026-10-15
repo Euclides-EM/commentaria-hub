@@ -20,11 +20,15 @@
 
 [Diagram: links Striche m–n, f–e, a–b, c–d; rechts Striche a–b, c–d (kurz), e–f, m–n (lang)]
 
+[Curated heading level=2 type=axioms: Grund-Satz VIII.]
+
 [Curated heading level=3 type=numbered_item: VIII.]
 
 VIII. Wenn ( zwey ) Dinge ab und cd sich in allen Stücken zusammen schicken/ so sind sie einander gleich.
 
 [Diagram: zwei gleiche Striche a–b und c–d; zwei übereinander gelegte Quadrate, zwei übereinander gelegte Dreiecke und zwei übereinander gelegte Kreise]
+
+[Curated heading level=2 type=axioms: Grund-Satz IX.]
 
 [Curated heading level=3 type=numbered_item: IX.]
 

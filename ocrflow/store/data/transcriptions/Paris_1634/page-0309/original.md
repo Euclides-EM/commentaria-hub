@@ -22,6 +22,10 @@ c.4.5 | ab π ac 2|2 de π df,
 1.concl. 17.5 | cb π ac 2|2 fe π df,
 2.concl. c.4.5 | ac π cb 2|2 df π fe.
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XVIII.]
+
 ## THEOR. XVIII. PROPOS. XVIII.
 
 Si diuisæ magnitudines sint proportionales, hæ quoque compositæ proportionales erunt.

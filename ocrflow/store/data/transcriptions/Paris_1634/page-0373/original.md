@@ -32,6 +32,10 @@ Demonstr.
 9.a.1 | ◇ce 3|2 gnom. mbn,
 2.concl. 1.a.c | ◇ce u ◇ad 3|2 ◇ag.
 
+[Curated heading level=2 type=propositions: PROBL. VIII. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=problems: PROBL. VIII. PROPOS. XXVIII.]
+
 ## PROBL. VIII. PROPOS. XXVIII.
 
 Ad datam lineam rectam, dato rectilineo æquale

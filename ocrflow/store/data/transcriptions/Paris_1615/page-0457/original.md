@@ -6,6 +6,10 @@
 
 Le hinome AB ſoit √45—3, & la rationele DE 6. d’autant que le olus grand nom ACeſt √as ſon quarré eſt 45, lequel applique ſur DEA faict l’autre coſté DI de 7;: Et le moindre nom CB eſtant 2. ſon quarré eſt 9, qui appliqué ſur IH6, fait IL de 15, & partant la taute DL, eſt 9, Or le rectangle de ACB eſt √ 40s, & ſon double LF √1620. Donc la ligne FG ſera √45;& par conſequent la toute DO ſera 9—√45, qui eſt binome premier.
 
+[Curated heading level=2 type=propositions: THEOR. 44. PROP. LXII.]
+
+[Curated heading level=2 type=theorems: THEOR. 44. PROP. LXII.]
+
 ## THEOR. 44. PROP. LXII.
 
 Le quarré d’vne bimediale premiere, appliqué ſur vne ligne rationele, faict l’autre coſté binome ſecond.

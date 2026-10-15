@@ -11,6 +11,8 @@ vt poſtea demonſtrabimus propoſ. 34. Quod ſi punctum A, vicinum fuerit rect�
 
 [Curated heading level=2 type=campanus: 32]
 
+[Curated heading level=2 type=theorems: THEOR. 22. PROPOS. 32.]
+
 ## THEOR. 22. PROPOS. 32.
 
 [Curated heading level=3 type=incipit: CVIVSCVNQVE]

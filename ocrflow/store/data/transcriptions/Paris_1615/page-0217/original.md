@@ -4,6 +4,10 @@ le parallelogramme B G au parallelog. BN, comme la hauteur AI à la hauteur IL 
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 18. PROP. XXIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 18. PROP. XXIIII.]
+
 ## THEOR. 18. PROP. XXIIII.
 
 En tout parallelogramme; les parallelogrãmes qui ſont à l’entour du diametre, ayans vn angle commun au total, ſont ſemblables entr’eux, & au total.

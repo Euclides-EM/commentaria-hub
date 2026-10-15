@@ -7,6 +7,8 @@ metrum FN, ita reciprocè altitudo FH ad altitudinem RB : & è conuerſo.
 
 7. Denique ex eodem 1. corol. habetur cylindricæ ſuperficiei dimenſio, ſi nimirum altitudo ducatur in baſeos peripheriam, vt ſi altitudo ſit pedum 20, peripheria baſis pedum 6; multiplica 20 per 6, proueniunt 120 pedes quadrati pro cylindrica ſuperficie.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XII.]
+
 ## PROPOSITIO XII.
 
 {dropcap:C|lines=2|style=plain}Ylindri recti ſuperficies eſt ad baſim (ABN) vt cylindri latus (CB) ad (BO) quartam partem diametri baſeos

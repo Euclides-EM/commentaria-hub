@@ -12,6 +12,10 @@ Liquet etiam latus cubi æquale esse lineæ rectæ subtendenti angulum pentagoni
 
 *Il est manifeste außi que le costé du cube est egal à la ligne droicte subtendante l'angle du pentagone du dodecaedre inscrit en la mesme sphere.*
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. XVIII.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. XVIII.]
+
 ## PROBL. VI. PROPOS. XVIII.
 
 Latera quinque figurarum exponere, & inter se comparare.

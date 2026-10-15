@@ -8,6 +8,8 @@ THEON ex Zamberto. Esto triangulum rectangulum α β γ, rectum habens qui sub �
 
 [Diagram: right triangle β α γ with the right angle at α, perpendicular α δ let fall from α to the base β γ; about it the rectangle ε γ is completed with the parallelogram α ζ; labels ε and α at top, β at left, δ at the foot of the perpendicular, γ at right, ζ below]
 
+[Curated heading level=2 type=problems: Problema 10 Propositio 33]
+
 ## Eucli.ex Zamb. Problema 10 Propositio 33
 
 [Curated heading level=3 type=zamberti_sequence: 33.]

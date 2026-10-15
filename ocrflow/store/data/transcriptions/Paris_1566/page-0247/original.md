@@ -2,6 +2,10 @@
 
 *ex A Z, eò quòd ex Z B, per 47 primi, numerus verò G D excedit numerum G E ipſo E D, per hypotheſim. Eſt autem quod ex A B ad quod ex A Z ſicut G D ad G E. Erit igitur rationis conuerſione (per corollarium decimænonæ quinti, quod ex A B ad quadratum Z B exceſſum, ſicut G D ad exceſſum E D, quia verò quadrata rectarum A B A Z rationem non habent quam quadrati, ſcilicet ipſorum G D G E, ipſæ A B A Z longitudine ſunt incommenſurabiles: & ideo potentia tantum commenſurabiles, cùm A B ſit propoſita per nonam huius. Cùm autem quadratum A B ad quod ex Z B rationem habeat quam quadrati numeri G D E D, Ipſæ A B & Z B longitudine commenſurabiles exiſtunt, per eandem. Comperimus itaque binas rectas certas A B A Z potentia tantùm commenſurabiles, quarum maior A B plus poteſt minore A Z, eò quod ex Z B ſibi longitudine commenſurabili.*
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſima.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſima. Problema 7.]
+
 ## Propoſitio trigeſima. Problema 7.
 
 Comperire binas Certas potẽtia tantum commẽſurabiles, quarum maior plus poteſt minore eo quod fit ex ſibi longitudini incommenſurabili.
@@ -10,9 +14,13 @@ Comperire binas Certas potẽtia tantum commẽſurabiles, quarum maior plus pot
 
 [Diagram: semicircle on base A B with point Z on the arc, chords marked 36 and ℞ 16, the base marked ℞ 52, and below it a horizontal line with points G, E and D and the numbers 9 and 4]
 
-## MONITVM.
+### MONITVM.
 
 *Hæc eadem fuit prioris demonſtratio, tranſpoſita tantùm numerorum ratione, quæ eandem producat quadratorum ex lineis rationem, inſuper lemma à Græco exemplari hic appoſitum, ſat ſupérque lemmate vigeſimæprimæ huius, aperuimus, ſcilicet ſicut linea ad lineam, ſic quod ſub illis ad quadratum vltimæ.*
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaprima.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſimaprima. Problema 8.]
 
 ## Propoſitio trigeſimaprima. Problema 8.
 

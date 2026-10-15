@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. LXXVII. PROPOS. CI.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXVII. PROPOS. CI.]
+
 ## THEOR. LXXVII. PROPOS. CI.
 
 Quadratum minoris ad rationalem applicatum, latitudinem facit apotomen quartam.
@@ -35,6 +39,10 @@ s.12.10 | □.dl, comm. □.gl,
 α. hyp. | □.ac, incomm. □.bc,
 cl.97.10 | □.dl 3|2 □.gl..□. / ——, incomm. dl,
 concl. 4d85.10 | dg, est apotom. 4.
+
+[Curated heading level=2 type=propositions: THEOR. LXXVIII. PROPOS. CII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXVIII. PROPOS. CII.]
 
 ## THEOR. LXXVIII. PROPOS. CII.
 

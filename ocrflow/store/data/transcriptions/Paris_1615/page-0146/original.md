@@ -4,6 +4,10 @@
 
 AA ſerõt egaux, & par la 6.p.1. les deux coſtez AF & BF, ſerõt auſſi egaux, & par le meſme diſcours BF, & FC ſeront auſſi egales, ainſi des autres, & par la 1.commune ſentence il eſt ceuident qu’icelles cinq lignes ſeront egales entr’elles, & que partant le cercle deſcrit de l’interual de l’vne d’icelles paſſera par les extremitez des autres, qui ſont auſſi les cinq angles du pentagone donné.
 
+[Curated heading level=2 type=propositions: PROB. 15. PROP. XV.]
+
+[Curated heading level=2 type=problems: PROB. 15. PROP. XV.]
+
 ## PROB. 15. PROP. XV.
 
 Dans vn cercle donné, inſcrire vn hexagone equiangle, & equilateral.

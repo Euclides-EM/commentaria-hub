@@ -11,6 +11,10 @@ Cùm quodlibet prisma sit triplum pyramidis eiusdem cum ipso altitudinis, sequit
 
 *Veu que tout prisme est triple de la pyramide de mesme hauteur qu'iceluy, il s'ensuit que les prismes sont außi en raison triplee de leurs costez homologues.*
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. IX.]
+
 ## THEOR. IX. PROPOS. IX.
 
 Æqualium pyramidum, & triangulares bases habentium, reciprocantur bases & altitudines: Et quarum pyramidum triangulares bases habentium reciprocantur bases & altitudines, illæ sunt æquales.

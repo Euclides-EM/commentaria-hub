@@ -8,6 +8,10 @@ ment. Et d’autant que AB, & le plus petit nomEC, ſont commenſ en longitude, 
 
 La rationele AB ſoit 5, & AC√842. Denc le rectangle AD ſera √20010. Et d’autant que AE eſt√8. & EC 2; EF ſera1, au quarré de laquelle eſtant egal le rectangle de AGE, le coſlé AG ſera√ 241: & GE √2—I: & partant le rectangle AH ſera √50 L5, & la ligne OM√(√50—5); & MP√(√50—5), puis que GI eſt √50—5. Et pource que EI eſt 5.& EC2; le rectangle ED ſera 10; & par conſequent ſa moictié MT eſt 5 Donc la ſomme des quarrez LMMN, eſt √200, à laquelle adiouſtant les rectangles SMT10, tout le quarre LN ſera√20010; & par conſequent ſon coſté OP, eſt√(√50 2 √(√50f), ou bien√(√200 1O) qui eſt ligne pouuant vn rationel, E vn medial.
 
+[Curated heading level=2 type=propositions: THEOR. 42. PROP. LX.]
+
+[Curated heading level=2 type=theorems: THEOR. 42. PROP. LX.]
+
 ## THEOR. 42. PROP. LX.
 
 Si vn rectangle eſt compris d’vne ligne rationele, & d’vn binome ſixieſme; la ligne qui peut iceluy rectangle, eſt ligne pouuant deux mediaux.

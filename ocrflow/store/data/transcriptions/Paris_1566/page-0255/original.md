@@ -4,13 +4,17 @@
 
 *Tres autem ſequentes eodem ordine quo has priores inſerit, ſed potentiam quam priores à lineis potentia ſaltem commenſurabilibus depromunt. Subſequentes ſimilem potentiam à lineis penitus & longitudine & potentia incommenſurabilibus (& proinde à certarum natura remotiores) aſſequuntur.*
 
-## Lemma.
+[Curated heading level=1 type=lemma_target: Lemma ad X.42]
+
+### Lemma.
 
 Quod autem præfatæ incertæ ad vnum ſignum tantùm ſecari poſſint, in eas linearum denominationes ex quibus compoſitæ præfatas ſpecies generant, hoc præaſſumpto lemmate demonſtrabimus.
 
 *Secetur recta A B inæqualiter in D, ac eadem A B rurſus inæqualibus in G: Dico ex A G G B inæqualioribus quadrata, maiora eſſe quadratis reliquarũ A D D B æqualiorum, ſecetur A B bifariam in E: quoniam inæqualiores ſunt A G G B ipſis A D D B, maior erit A G ipſa D B, à quibus æquales tollantur ex A G ſcilicet A E & ab ipſa D B hæc E B, igitur reliqua E G maior erit ipſa E D. Quia verò recta A B ſecta eſt æqualiter in E & inæqualiter in G, quadrata ex A G G B dupla ſunt eorum quæ à dimidia E B & ab ea quæ inter ſectiones eſt E G, per nonam ſecundi. Similiter (per eandem) dupla erunt quadrata B D D A eorum quæ ab ipſis B E E D: atqui maiora ſunt quæ ex B E E G, his quæ ex B E E D, cùm maior ſit oſtenſa E G quàm E D. Quæ igitur ex A G G B inæqualioribus (dupla maiorum) his quæ ex A D D B (duplis minorum) maiora erunt.*
 
 [Diagram: a horizontal line with A at the left, D and G marked between, and B at the right]
+
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaſecunda.]
 
 ## Propoſitio quadrageſimaſecunda.
 
@@ -20,9 +24,11 @@ Quæ Ex binis nominibus ad vnum duntaxat ſignum diuiditur in nomina.
 
 [Diagram: a horizontal line with A at the left, D and G marked between, and B at the right]
 
-## Corollarium.
+### Corollarium.
 
 Binæ certæ potentia tantùm commenſurabiles compoſitæ, binis aliis certis potentia tantùm commenſurabilibus coniunctis, æquales eſſe non poſſunt. *Nam vtraque binomium componerent, & proinde binomium in pluribus ſignis ſecaretur in nomina, quod fieri non poſſe hac oſtenſum eſt. Similiter ſequetur in quinque proximis de binis ſingularum nominibus.*
+
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimatertia.]
 
 ## Propoſitio quadrageſimatertia.
 

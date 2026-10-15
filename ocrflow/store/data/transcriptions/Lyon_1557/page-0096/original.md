@@ -9,6 +9,10 @@ Secetur A C æqualiter in puncto D. A quo erigatur perpendicularis D B, ſecans 
 
 Connectantur B A & B C : quæ, per quartam Primi, erunt æquales : Quapropter, ex priori parte vigeſimæſeptimæ huius : erit Arcus A B æqualis Arcui B C, Quod fuit demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 26, PROPOSITIO XXX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 26, PROPOSITIO XXX.]
+
 ## THEOREMA 26, PROPOSITIO XXX. Theoni 31.
 
 Qui in Semicirculo eſt angulus, rectus eſt : Qui verò in maiori Segmento, minor recto : Et qui in minori, maior. Sed angulus maioris Segmenti Mixtus, recto maior : minoris autem, minor.

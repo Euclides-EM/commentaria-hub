@@ -12,6 +12,10 @@ Sequitur etiam numeros quorum exponentes sunt numeri primi esse potestates vnius
 
 *Il s'ensuit aussi que les nombres, desquels les exposans sont nombres premiers, sont puissances d'vn seul degré parodique, à sçauoir du premier degré A. Mais les nombres desquels les exposans sont nombres composez, sont puissances d'autant de degrez parodiques, qu'il y a d'exposans qui mesurent leur exposant : comme le nombre F, dont l'exposant est 6. est la puissance de trois degrez parodiques, à sçauoir du premier, second, & troisiesme, les exposans desquels mesurent l'exposant du nombre F, & partant la racine cube-cubique du nombre F, se peut extraire en trois façons : à sçauoir, ou par vne extraction cube-cubique, ou par deux extractiōs, la premiere cubique, & la seconde quarrée, ou la premiere quarrée, & la seconde cubique.*
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. X.]
+
 ## THEOR. X. PROPOS. X.
 
 Si ab vnitate quotcunque numeri deinceps

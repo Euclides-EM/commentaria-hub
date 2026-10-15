@@ -6,6 +6,8 @@ datur secundum quantitatem a, & e secundum quantitatem b, quod partes utrobique 
 
 [Diagram: horizontal line segments d, e, a, b, f, c in the right upper corner of the text]
 
+[Curated heading level=2 type=theorems: Theorema 7 Propositio 7]
+
 ## Eucli. ex Zamb. Theorema 7 Propositio 7
 
 [Curated heading level=3 type=zamberti_sequence: 7.]

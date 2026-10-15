@@ -33,6 +33,10 @@ Ex hac demonstratione sequitur, in quouis triangulo duorum laterum æqualium, si
 
 De cette demonstration s'ensuit qu'en tout triangle isoscele ou equilateral, que la ligne menée de l'angle du sommet au milieu de la base est perpendiculaire à la base: & au contraire la ligne perpendiculaire à la base, menée de l'angle opposé, la couppera en deux également.
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. IV.]
+
 ## THEOR. III. PROPOS. IV.
 
 Si in circulo duæ rectæ lineæ sese mutuo secent non per centrum extensæ; sese mutuo bifariam non secabunt.

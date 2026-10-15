@@ -4,6 +4,10 @@
 
 [Diagram: square ACDB constructed on line AB, with vertical line AK through C and horizontal line CO through D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XLVI. PROBLEME XIV.]
+
+[Curated heading level=2 type=problems: PROBLEME XIV. PROPOSITION XLVI.]
+
 ## PROPOSITION XLVI. *PROBLEME XIV.*
 
 {dropcap:S|lines=2|style=plain}Ur une ligne droite donnée (AB) conſtruire un quarré (AD).

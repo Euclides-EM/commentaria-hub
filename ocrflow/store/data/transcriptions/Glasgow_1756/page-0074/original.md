@@ -1,6 +1,10 @@
 <!-- Running title: LIBER SECUNDUS. -->
 <!-- Page number: 59 -->
 
+[Curated heading level=2 type=propositions: PROP. VII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VII. THEOR.]
+
 ## PROP. VII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea utcunque ſecta fuerit, quae ex tota, et una parte fiunt utraque quadrata aequalia ſunt et rectangulo quod bis a tota ac dicta parte continetur, et quod ex reliqua parte fit quadrato.

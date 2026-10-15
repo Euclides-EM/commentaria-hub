@@ -9,6 +9,10 @@ hyp. | ab comm. bc ꝗn □,
 hyp. | □.ab, est ration.
 concl. 10.d.10 | ac, est irration.
 
+[Curated heading level=2 type=propositions: THEOR. XXVI. PROPOS. XXXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVI. PROPOS. XXXVIII.]
+
 ## THEOR. XXVI. PROPOS. XXXVIII.
 
 Si duæ mediæ potentia tantùm commensurabiles componantur, quæ rationale contineant; tota irrationalis erit : vocetur autem ex binis mediis prima.

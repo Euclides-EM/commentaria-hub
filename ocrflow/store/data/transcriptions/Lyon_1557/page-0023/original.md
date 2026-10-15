@@ -7,6 +7,10 @@ tio verò A F, deſcribatur Circulus F G H: rurſusq́; centro B, ſpatio verò 
 
 Quum enim A B & A D lineæ ſint æquales, nempè vtraque à centro ad peripheriam: eademq́; ratione, B A & B F æquales: erunt duæ A D & B F inter ſe æquales, per primam animi Notionem. Quapropter, addita communi A B, erunt per ſecundam Notionem, A F & B D æquales. Sed A G ipſi A F æqualis, vtraque enim à centro ad peripheriam: quapropter & eadem A G ipſi B D æqualis. Atqui B G ipſi B D eſt æqualis, ex ipſa Centri & Circuli definitione. Duæ igitur A G & B G vni B D ſunt æquales: ob idq́; inter ſe æquales, per primam animi Notionem. Quare, quum vtraque maior ſit quàm A B (maior enim eſt B D quàm A B): erit Triangulum A B G Iſoſceles, Quod erat faciendum.
 
+[Curated heading level=2 type=propositions: PROBLEMA 2, PROPOSITIO II.]
+
+[Curated heading level=2 type=problems: PROBLEMA 2, PROPOSITIO II.]
+
 ## PROBLEMA 2, PROPOSITIO II.
 
 Ad datum punctum, datæ rectæ lineæ æquam rectam lineam ducere.
@@ -16,6 +20,10 @@ Sit datum punctum A, data verò linea recta B C. Volo ad A punctum, ipſi B C re
 [Diagram: two circles with triangle, labelled D, A, B, C, F and E]
 
 Duæ enim C B & C E ſunt æquales: quum ſit vtraque à centro ad peripheriam. Duæ item D E & D F, eadem ratione æquales. Sed D C & D A æquales, ex conſtructione: quum ſint latera Trianguli Æquilateri: aut Iſoſcelis ſi placet. Si itaque auferantur D C & D A æquales, ex D E & D F æqualibus: remanebunt, per tertiam animi Notionem, C E & A F æquales. At B C ipſi C E oſtenſa eſt æqualis. Duæ igitur B C & A F ipſi C E æquales: ob idq́; & inuicem æquales, per primam animi Notionem. Quare ad punctum A, ducta eſt F A ipſi B C æqualis, Quod erat faciendum.
+
+[Curated heading level=2 type=propositions: PROBLEMA 3, PROPOSITIO III.]
+
+[Curated heading level=2 type=problems: PROBLEMA 3, PROPOSITIO III.]
 
 ## PROBLEMA 3, PROPOSITIO III.
 

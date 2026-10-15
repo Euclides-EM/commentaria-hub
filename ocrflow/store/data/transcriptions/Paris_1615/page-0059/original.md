@@ -2,6 +2,10 @@
 
 <!-- Page number: 36 -->
 
+[Curated heading level=2 type=propositions: THEO. 18. PROP. XXVII.]
+
+[Curated heading level=2 type=theorems: THEO. 18. PROP. XXVII.]
+
 ## THEO. 18. PROP. XXVII.
 
 Si vne ligne droicte tombant ſur deux lignes droictes faict les angles oppoſez alternatiuement egaux, icelles lignes ſeront parallelles.
@@ -9,6 +13,10 @@ Si vne ligne droicte tombant ſur deux lignes droictes faict les angles oppoſez
 Soient deux lignés droictes AB & CD, ſur leſquelles tombant la ligne droicte EF faict les angles BEF, & EFC alternatiuement egaux. Ie dis que AB & CD ſont parallelles. Car ſi elles ne ſont parallelles, eſtans continuees, elles ſe rencontreront. Que ſi elles ſe rencontroient comme au poinct G, elles feroient vn triãgle auec le coſté EF, & l’angle exterieur CFE ſeroit plus grand que l’oppoſé interieur FEB par la 16. p.1.ce qui eſt contre l’hypotheſe. Donc les deux lignes AB, & CD ne ſe rencontreront iamais; & par la derniere def. icelles ſeront parallelles.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: THEO. 19. PROP. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEO. 19. PROP. XXVIII.]
 
 ## THEO. 19. PROP. XXVIII.
 

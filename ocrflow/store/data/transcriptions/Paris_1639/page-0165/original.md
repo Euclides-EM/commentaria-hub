@@ -22,6 +22,10 @@ conſtr. | af 2|2 fb, / fc *eſt commun.*
 4.1 | ac 2|2 cb,
 concl. 28.1 | ∩ac 2|2 ∩cb.
 
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XXXI.]
+
 ## THEOR. XXVII. PROPOS. XXXI.
 
 Au cercle, l'angle qui est au demy cercle est droict: mais celuy qui est au plus grand segment est plus petit qu'vn droict; & celuy qui est au plus petit segment, est plus grand qu'vn droict. Et dauantage, l'angle du plus grand segment, est plus grand qu'vn droict; mais l'angle du plus petit segment, est plus petit qu'vn droict.

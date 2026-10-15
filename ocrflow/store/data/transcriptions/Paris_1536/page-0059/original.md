@@ -8,6 +8,10 @@
 
 ΠΑν παραλληλόγραμμον ὀρθογώνιον περιέχεσθαι λέγεται ὑπὸ δύο τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν εὐθειῶν.
 
+[Curated heading level=1 type=definitions: LIBER II.]
+
+[Curated heading level=2 type=definitions: Parallelogrammum rectangulum]
+
 ## Parallelogrammum rectangulum.
 
 OMne parallelogrammum rectangulum, sub duabus rectum angulum comprehendentibus rectis lineis dicitur contineri.
@@ -39,6 +43,8 @@ Corrollarium. Que sub aqualib. rectis Lineis compre[illegible] quadratum rectum 
 Γνώμων τί.
 
 ΠΑντὸς δὲ παραλληλογράμμου χωρίον τῶν περὶ τὴν διάμετρον αὐτῶν ἓν παραλληλογράμμων ὁποιονοῦν σὺν τοῖς δυσὶ παραπληρώμασι, γνώμων καλείσθω.
+
+[Curated heading level=2 type=definitions: Quid gnomon]
 
 ## Quid gnomon.
 

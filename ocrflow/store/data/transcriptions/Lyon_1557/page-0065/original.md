@@ -5,6 +5,10 @@ Quadrata : L G quidem lineæ C D : & D M, lineæ D B. Et quia D H eſt æqualis 
 
 [Diagram: square with top corners E, G and F, side points K, L, H and M, bottom corners A, C, D and B, with diagonal lines]
 
+[Curated heading level=2 type=propositions: THEOREMA 6, PROPOSITIO VI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 6, PROPOSITIO VI.]
+
 ## THEOREMA 6, PROPOSITIO VI.
 
 Si recta linea in duo æqualia ſecetur, alia verò ei linea addatur in continuum : quod ex tota iam compoſita in eam quæ addita eſt, cum Quadrato quod fit à dimidia, æquum eſt ei quod à dimidia cum addita tanquàm ab vna, fit Quadrato.
@@ -16,6 +20,10 @@ Deſcribam ex C D, Quadratum C D E F, cuius ſit Diameter E D. Et ducam B C æqu
 [Diagram: square with top corners E, G and F, side points K, L, H and M, bottom corners A, C, B and D, with diagonal lines]
 
 Iam per Conſectarium quartæ huius, vtrunque Parallelogrammum L G & B M eſt Quadratum : hoc quidem ex B D, illud verò ex C B : & proptereà D M æqualis B D : totumq́; A M Parallelogrammum, eſt quod fit ex A D in B D. Quia ergo, per trigeſimamſextam Primi, A L eſt æquale C H : & per quadrageſimamtertiam eiuſdem, Supplementum C H æquale Supplemento H F : erit & A L eidem H F æquale. Quare Gnomon C D G H, toti A M Parallelogrammo æqualis. Sed Gnomon C D G H cum Quadrato L G, conſtituit Quadratum lineæ C D. Quare A M Parallelogrammum cum Quadrato L G, æquale eſt Quadrato lineæ C D, Quod fuit demonſtrandum.
+
+[Curated heading level=2 type=propositions: THEOREMA 7, PROPOSITIO VII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 7, PROPOSITIO VII.]
 
 ## THEOREMA 7, PROPOSITIO VII.
 

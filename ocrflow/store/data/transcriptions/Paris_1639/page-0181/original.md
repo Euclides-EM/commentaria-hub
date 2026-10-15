@@ -30,6 +30,10 @@ Il est manifeste de cette proposition, qùe si le triangle est oxygone, le centr
 
 Par la mesme methode on pourra descrire vn cercle, qui passe par trois poincts donnez A, B, C, qui ne soient en vne ligne droicte.
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. VI.]
+
 ## PROBL. VI. PROPOS. VI.
 
 Dans vn cercle donné, inscrire vn quarré.

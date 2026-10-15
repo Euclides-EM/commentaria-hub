@@ -1,6 +1,8 @@
 <!-- Running title: Liber Tertius. -->
 <!-- Page number: 95 -->
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XIX.]
+
 ## PROPOSITIO XIX.
 
 [Curated heading level=2 type=figures: Fig. 29]
@@ -16,6 +18,8 @@ Si negas, ſit centrum extra A I in Z, & ab eo ad contactum ducatur Z A: erit d 
 [Margin]
 d Per præc.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XX.]
 
 ## PROPOSITIO XX.
 

@@ -4,6 +4,10 @@
 
 S, le compoſé des trois G, H, I, ſera auſsi plus grand, egal, ou plus petit que le compoſé des trois K, L, M. Donc par la meſme 6.def.; comme A ſera à B, ainſi les trois A, C,E, enſemble ſeront aux trois B, D, Fenſemble: ce qui eſtoit à prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 13. PROP. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 13. PROP. XIII.]
+
 ## THEOR. 13. PROP. XIII.
 
 Si la premiere eſt à la ſeconde comme la tierce à la quarte; mais la tierce a pius grande raiſon à la quarte que la cinquieſme à la ſixieſme; auſſi la premiere aura plus grande raion à la ſeconde, que la cinquieſme à la ſixieſme.

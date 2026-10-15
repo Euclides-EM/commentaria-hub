@@ -4,6 +4,10 @@
 
 Il n’eſt rien dict icy des lignes, deſquelles les deux noms ſoient commenſurables en long.tude à la rationele propoſee: parce que telles lignes ne ſont binomes: car par la 37p10. tout binome eſt compoié de deux lignes rationeles commenſ. en puiſſance ſeulement.
 
+[Curated heading level=2 type=propositions: PROB. 13. PROP. XLIX. Six. 3.]
+
+[Curated heading level=2 type=problems: PROB. 13. PROP. XLIX. Six. 3.]
+
 ## PROB. 13. PROP. XLIX. Six. 3.
 
 Trouuer vn Binome premier.

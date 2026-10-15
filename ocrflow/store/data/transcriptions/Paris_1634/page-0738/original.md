@@ -14,6 +14,10 @@ suppos. | ●; a, b, c snt ꝗn plan. abc,
 14. a. 1 | db, est ꝗn plan. abc, β
 2 concl. αβ | △deb, est ꝗn plan. abc.
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. III.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. III.]
+
 ## THEOR. III. PROPOS. III.
 
 Si duo plana se mutuò secent, communis eorum sectio est linea recta.
@@ -37,6 +41,10 @@ arbitr. | e & f snt ●; ꝗn intersect.
 1. p. 1 | ef, est ——,
 14.a.1 | ef, est ꝗn plan; ab,cd,
 concl. 14.a.c. | ef, est intersect.
+
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. IV.]
 
 ## THEOR. IV. PROPOS. IV.
 

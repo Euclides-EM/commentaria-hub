@@ -1,6 +1,8 @@
 <!-- Page number: 298 -->
 <!-- Running title: Theoremata ſelecta -->
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO X.]
+
 ## PROPOSITIO X.
 
 {dropcap:S|lines=2|style=plain}Vperficies priſmatis ordinati cylindro recto circumſcripti deſinit a in cylindri ſuperficiem: & pyramidis cono recto circumſcriptæ ſuperficies in coni ſuperficiem deſinit.

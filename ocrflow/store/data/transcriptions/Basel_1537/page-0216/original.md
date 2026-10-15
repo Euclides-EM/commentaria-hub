@@ -16,6 +16,8 @@ CAMPANVS Sint a,b,c,d,e,cōtinue proportionales.dico quod si a nō numeret b,nul
 
 [Diagram: dotted number lines beside the text, labelled a, b, c, d, e (long rows of dots, increasing in length), f (4 dots), g (6 dots), h (9 dots)]
 
+[Curated heading level=2 type=theorems: Theorema 4 Propositio 6]
+
 ## Eucli.ex Zamb. Theorema 4 Propositio 6
 
 [Curated heading level=3 type=zamberti_sequence: 6.]
@@ -41,6 +43,8 @@ THEON ex Zamberto, *Sint numeri continue proportionales α,β,γ,δ,ε.Ipse aute
 CAMPANVS Sint qui prius,continue proportionales,dico si a numerat e:ipse nūerabit b. alioqui ex præmissa non numeraret e, quod est contrarium & impossibile.Non solum autem numerabit b: sed & omnes,& quisque eorum:quemlibet ipsum sequentem.
 
 [Diagram: dotted number lines beside the text, labelled a (2 dots), b (4 dots), c (8 dots), d (16 dots), e (long row)]
+
+[Curated heading level=2 type=theorems: Theorema 5 Propositio 7]
 
 ## Eucli.ex Zamb. Problema 3{printer-error-correction:Theorema 5} Propositio 7
 

@@ -4,6 +4,10 @@
 
 voincts A & C, puis que par la 10.p.3.vn cercle ne couppe pas vn cercle en plus de deux poincts; & partant la circonference d’vne ſection ſera toute dehors la circonference de l’autreSoit donc menee la ligne droicte CB couppant les circonferẽces en D & B, & tirées les deux lignes BA, & DA: par la definition des ſemblables ſectiõs, les deux angles ABC, & ADC ſeront egaux, ce qui eſt abſurde: car par la 16.p.1. l’angle exterieur ADC doit eſtre plus grand que l’oppoſé interieur B donc les deux ſections ABC, & ADC eſtans ſemblables, & inegales, ne ſe pouuoient mettre ſur la meſme ligne AC, & de meſme part.
 
+[Curated heading level=2 type=propositions: THEOR. 22. PROP. XXIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 22. PROP. XXIIII.]
+
 ## THEOR. 22. PROP. XXIIII.
 
 Semblables ſections de cercle eſtans conſtituees ſur lignes droictes egales, ſont egales entr’elles.
@@ -15,6 +19,10 @@ Soient deux ſections de cercles ſemblables ABC, & DEF conſtituees ſur lignes
 Autrement, ſi elles eſtoient inegales, il s’enſuiuroit que 2.
 
 ſections ſemblables &inegales pourroient eſtre poſees ſur lignes droictes egales contre la 23.p.3. donc les deux ſections ſeront egales.
+
+[Curated heading level=2 type=propositions: PROB. 3. PROP. XXV.]
+
+[Curated heading level=2 type=problems: PROB. 3. PROP. XXV.]
 
 ## PROB. 3. PROP. XXV.
 

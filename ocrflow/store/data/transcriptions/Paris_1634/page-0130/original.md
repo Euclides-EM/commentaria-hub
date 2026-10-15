@@ -23,6 +23,10 @@ Demonstr.
 34.1. | △efd 2|2 ½ ◊edhf,
 concl. 7.a.1. | △bca 2|2 △efd.
 
+[Curated heading level=2 type=propositions: THEOR. XXIX. PROPOS. XXXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIX. PROPOS. XXXIX.]
+
 ## THEOR. XXIX. PROPOS. XXXIX.
 
 Triägula æqualia super eadem basi, & ad easdem partes constituta; & in eisdem sunt parallelis.
@@ -48,6 +52,10 @@ hyp. | △bcd 2|2 △bca,
 1.a.1. | △bcf 2|2 bcd,
 | contr. 9.a.1.
 21.a.1. | bd == bc.
+
+[Curated heading level=2 type=propositions: THEOR. XXX. PROPOS. XL.]
+
+[Curated heading level=2 type=theorems: THEOR. XXX. PROPOS. XL.]
 
 ## THEOR. XXX. PROPOS. XL.
 

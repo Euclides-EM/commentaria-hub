@@ -2,6 +2,10 @@
 
 omne siquidem totum est sua parte maius, per nonam communem sententiã. Non cadit ergo parallela super a/d. patuit quòd nec infra. igitur ex a/in ipsum d. Triangula igitur æqualia: & quæ sequuntur reliqua. Quod oportuit ostendisse.
 
+[Curated heading level=2 type=propositions: Theorema 30, Propositio 40.]
+
+[Curated heading level=2 type=theorems: Theorema 30, Propositio 40.]
+
 ## Θεώρημα λ, Πρόθεσις μ.
 
 ΤΑ ἴσα τρίγωνα τὰ ὑπὸ τῶν ἴσων βάσεων ὄντα καὶ ὑπὸ τὰ αὐτὰ μέρη, καὶ ἐν ταῖς αὐταῖς παραλλήλοις ὅτι.
@@ -31,6 +35,10 @@ Concludendum ergo, triangula æqualia in æqualibus basibus existentia, & ad eas
 [Margin]
 Notandum.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Theorema 31, Propositio 41.]
+
+[Curated heading level=2 type=theorems: Theorema 31, Propositio 41.]
 
 ## Θεώρημα λα, Πρόθεσις μα.
 

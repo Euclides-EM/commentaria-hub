@@ -8,6 +8,10 @@
 
 Si la ration. Aeſt a, &le reſidu BC9— 45.CN√ 4s, & BD9:le rect. DF ſera 16, & auſſi CE 16: ainſi le coſté BF ſera 1l, & BEa√8 & par conſequent FE ſera √8—2√; & GE √85, F62?, BG 4: ainſi eſt euident que BE eſt binome en meſme ordre que le reſidu BC, & que les noms d’iceux ſont proporiionaux.
 
+[Curated heading level=2 type=propositions: THEOR. 91. PROP. CXV.]
+
+[Curated heading level=2 type=theorems: THEOR. 91. PROP. CXV.]
+
 ## THEOR. 91. PROP. CXV.
 
 Si vn rectangle eſt compris d’vn reſidu, & d’vn binome, deſquels les noms ſont proportionnaux & commenſurables; la ligne droicte pouuant icelluy rectangle eſt rationelle.

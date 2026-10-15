@@ -6,6 +6,10 @@
 
 On pourra ſemblablement prendre tant de lignes qu’on voudra ſur le meſme plan, qui feront les angles droicts rencontrant la perpendiculaire FE, par les meſmes raiſons que deſſus: & par la 2.d.11. FE ſera perpendiculaire au plan des lignes AB & CD: ce qu’il falloit demonſtrer.
 
+[Curated heading level=2 type=propositions: THEOR. 5. PROP. V.]
+
+[Curated heading level=2 type=theorems: THEOR. 5. PROP. V.]
+
 ## THEOR. 5. PROP. V.
 
 Si vne ligne droite rencontre en vn poinct perpendiculairement trois autres lignes droites; icelles trois lignes droites ſeront en vn meſme plan.

@@ -14,6 +14,8 @@ SI fuerit superficies linea rationali residuoq̃ quarto contenta, linea super ea
 
 CAMPANVS In hac quoq̃ nō aliter procedas quàm prius, facile erit ibi{printer-error-correction:tibi} propositum concludere, si præmissam non despicis. ex diffinitione residui quarti & secunda parte 14 & 9 & 19 & 15 & 71, & sic patebit propositum.
 
+[Curated heading level=2 type=theorems: Theorema 70 Propositio 94]
+
 ## Eucli.ex Zamb. Theorema 70 Propositio 94
 
 [Curated heading level=3 type=zamberti_sequence: 94.]
@@ -41,6 +43,8 @@ THEON ex Zãb. Areola nāque α β, comprehendatur sub rationali α γ, & quarta
 SI fuerit linea rationali residuoq̃ quinto superficies contēta, latus eius tetragonicū, erit cū rationali componens mediale.
 
 CAMPANVS Nitere præmissa argumentatiōe ex diffinitione residui quinti & secunda parte 14 & 9 & 19 & 15 & 72, quod propositū est concludere.
+
+[Curated heading level=2 type=theorems: Theorema 71 Propositio 95]
 
 ## Eucli.ex Zamb. Theorema 71 Propositio 95
 

@@ -7,6 +7,10 @@ Demonstr.
 2.concl. 4.6 | bc π ac 2|2 ac π dc,
 3.concl. 4.6 | cb π ab 2|2 ab π bd.
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. IX.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. IX.]
+
 ## PROBL. I. PROPOS. IX.
 
 A data recta linea imperatam partem auferre.
@@ -37,6 +41,10 @@ Demonstr.
 2.s.18.5 | ag π ab 2|2 ad π af,
 constr. | ad 2|2 ⅓af,
 concl. 4.d.5 | ag 2|2 ⅓ab.
+
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. X.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. X.]
 
 ## PROBL. II. PROPOS. X.
 

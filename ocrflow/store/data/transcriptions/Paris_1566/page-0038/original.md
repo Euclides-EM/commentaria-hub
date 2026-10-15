@@ -5,7 +5,11 @@ Supponatur data recta AB, in qua contingens ſignum G ſumatur, ab ipſo G verſ
 
 [Diagram: triangle CDE on line AB, with D, G and E on the base and line CG]
 
-## Propoſitio duodecima.
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
+
+[Curated heading level=2 type=problems: Propoſitio duodecima. Problema 7.]
+
+### Propoſitio duodecima.
 
 [Subhead]
 Problema 7.
@@ -17,7 +21,9 @@ Sit data recta linea infinita AB, ſignum verò extra eam ſit G, Sumatur item c
 
 [Diagram: circle arc EDI centered at G, intersecting line AB at I and E, with triangle GIE and line GT]
 
-## Propoſitio decimatertia.
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
+
+### Propoſitio decimatertia.
 
 Cùm recta linea ſuper rectam conſiſtens angulos fecerit, aut duos rectos, aut duobus rectis æquales efficiet.
 
@@ -25,7 +31,9 @@ Eſto recta AB ſuper rectam DG angulos efficiens. Dico eos rectos eſſe, aut d
 
 [Diagram: line DG with point B, perpendicular BE, oblique line BA and a right-angle mark]
 
-## Propoſitio decimaquarta.
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
+
+### Propoſitio decimaquarta.
 
 Si ad aliquam rectam lineam atque ad eius ſignum duæ rectæ lineæ vtrobique ductæ angulos duobus rectis æquales in plano & ad eaſdem partes fecerint, in rectum ſibiipſis rectæ lineæ erunt.
 

@@ -9,6 +9,10 @@ Proponantur tres rectæ lineæ proportionales A B D, ſcilicet A ad B, ſicut B 
 
 Hinc aſſequimur, quamlibet rectam eſſe mediam proportionalem, inter quaſuis duas rectas, æquale ſuiipſius quadrato rectangulum conſtituentes.
 
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaoctaua. Problema 6.]
+
 ## Propoſitio decimaoctaua.
 
 [Subhead]
@@ -20,6 +24,8 @@ Problema 6.
 Eſto data recta A B, à qua deſcribendum ſit rectilineum ſimile ſimiliterq́; poſitum, ipſi C D F E, ſubtendat angulum C recta D F: & ſic quotcunque angulos rectilinei ſubtendamus, ipſum in triangula reſoluentes, ſcilicet C D F, D F E: Ad ſignum A & datam rectam A B, æqualis conſtituatur angulus ipſi D C F, ſitque B A G, per 23 primi, & ipſi C D F æquus fiat A B G, reliquus A G B reliquo C F D (per corollarium 32 primi) æquus erit. Æquiangulum itaque eſt triangulum A B G triangulo C D F: ſimile igitur ſimilitérque erit poſitum, ſicútque F D ad G B, ſic erit C D ad A B, per 4 huius. Ad rectam autem B G ſimiliter deſcribatur triangulum B G I ipſi D F E, quia verò æquales ſunt bini anguli A B G G B I binis C D F F D E, totus C D E toti A B I æqualis erit, ſimiliter A G I ipſi C F E, necnon E ipſi I. Erit itaque F D ad G B, ſicut D E ad B I. Sed fuit F D ad G B ſicut C D ad A B, erit itaque C D ad A B, vt D E ad B I, circum æquales angulos, ſimiliter oſtendetur C F ad A G, vt C D ad A B, & F E ad G I. Totum itaque A B G I rectilineum toti C D, F E rectilineo ſimile ſimilitérque poſitum eſt, & circum æquales angulos latera proportionalia habet. A data itaque recta linea dato rectilineo, &c.
 
 [Diagram: corresponding rectilinear figures A B G I and C D F E]
+
+[Curated heading level=2 type=propositions: Propoſitio decimanona.]
 
 ## Propoſitio decimanona.
 

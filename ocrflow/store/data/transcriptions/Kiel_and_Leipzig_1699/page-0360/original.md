@@ -24,6 +24,10 @@ Wenn derowegen gleichmässige oder gleichgrosse Nebenstrichichte Vierecke / welc
 
 Und welche Vierecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ die sind gleichmässig oder gleichgroß. W.Z.B.
 
+[Curated heading level=2 type=propositions: Der XV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 10. Beweiß-Stück. Der XV. Vortrag.]
+
 ## Der XV. Vortrag.
 
 ## Das 10. Beweiß-Stück.

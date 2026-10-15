@@ -29,6 +29,10 @@ Eadem methodo describetur circulus, qui transeat per data tria puncta, non in vn
 
 Par la mesme methode on pourra descrire vn cercle, qui passe par trois poincts donnez, qui ne soient en vne ligne droicte.
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. VI.]
+
 ## PROBL. VI. PROPOS. VI.
 
 In dato circulo quadratum describere.

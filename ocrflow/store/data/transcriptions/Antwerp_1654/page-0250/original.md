@@ -3,6 +3,8 @@
 
 Huius ſectionis vis admirabilis eſt in corporum regularium inſcriptione & comparatione.
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXXI.]
+
 ## PROPOSITIO XXXI.
 
 [Curated heading level=2 type=figures: Fig. 47]

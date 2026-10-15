@@ -1,6 +1,8 @@
 <!-- Running title: LIBER TERTIVS. -->
 <!-- Page number: 23 -->
 
+[Curated heading level=2 type=propositions: Propoſitio decima.]
+
 ## Propoſitio decima.
 
 Circunferentia circunferentiam circuli in pluribus duobus ſignis non ſecat.
@@ -8,6 +10,8 @@ Circunferentia circunferentiam circuli in pluribus duobus ſignis non ſecat.
 Eſto circunferentia A B G: Dico nullam hanc aliam ſecare in pluribus ſignis duobus. Si enim fieri poſſit oppoſitum, ſeccet circunferentiam A B G, circunferentia E B M in B T Z I, coniunctis B T B I, quas bifariam & ad rectos ſeccet rectæ A G E M, per 10 & 11 primi, ſeſe autem ſeccent in O. In ipſis igitur A G E M erit centrum vtriuſque circuli, per corollarium primæ huius. Cùm T B & I B bifariam & ad rectos ſectæ, in vtroque ſint circulo. Igitur O centrum erit circuli, communis nãque earum A G & E M eſt concurſus. Binariũ itaque circunferentiarum ſeſe ſecantium idem erit centrum, contra 5 huius, quod fieri non poteſt. Non poteſt igitur circunferentia circunferentiam ſecare in pluribus duobus ſignis. Circunferentia igitur circunferentiam, &c.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
 
 ## Propoſitio vndecima.
 
@@ -17,6 +21,8 @@ Binæ circũferentiæ A B G & A D E in ſigno A ſeſe introrſum tãgant, ſupe
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
+
 ## Propoſitio duodecima.
 
 Si binæ circunferentiæ ſeſe exterius in plano tetigerint, centra earũ coniungens recta per contactum tranſit.
@@ -24,6 +30,8 @@ Si binæ circunferentiæ ſeſe exterius in plano tetigerint, centra earũ coniu
 Binæ circunferentiæ A D & A G, ſeſe exterius tangant in A ſuper plano: Dico rectam earum centra cõiungentem per A ſectionem tranſire: ſi autem non, tranſeat per G D, ſitque Z G D I recta, Z & I verò ſint centra, coniunctis Z A, I A, triangulum erit A Z I, habens duo latera A Z A I. reliquo Z I maiora, per 20 primi. Sed Z A ipſi Z G (quæ ex centro) eſt æqualis, I A verò ipſi I D. Binæ igitur A Z A I (binis Z G I D) æquales, recta Z I minores ſunt, reſiduo G D, & maiores oſtenſæ ſunt: quod eſt abſurdum. Non poteſt igitur recta coniungens centra circunferentiarum Z I, alibi quàm per contactum A tranſire. Si itaque binæ circunferentiæ, &c.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
 
 ## Propoſitio decimatertia.
 

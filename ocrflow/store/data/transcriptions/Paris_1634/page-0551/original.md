@@ -24,6 +24,10 @@ constr. | eb, est ½ ab,
 c.20.d7 | eb + fc + gd est ½.. ad,
 concl. 6.d.7 | aggreg. ad, est nr.pa.
 
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XXII.]
+
 ## THEOR. XX. PROPOS. XXII.
 
 Si impares numeri quotcunque componantur, multitudo autem ipsorum sit par : totus par erit.

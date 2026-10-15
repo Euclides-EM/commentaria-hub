@@ -4,6 +4,8 @@ Sint tres numeri A B G proportionales A ad B, vt B ad G: Dico ſub extremis A & 
 
 [Diagram: vertical lines labelled A, B, D and G]
 
+[Curated heading level=2 type=propositions: Propoſitio 21.]
+
 ## Propoſitio 21.
 
 Minimi numeri eandem rationem habentium eis, metiuntur eandem rationem habentes æqualiter, antecedens antecedentem, & conſequens conſequentem.
@@ -12,7 +14,7 @@ Sint minimi numeri G D & E Z in data numerorum A ad B ratione: Dico G D metiri n
 
 [Diagram: vertical lines labelled G, E, A and B, with points D, Z, I and T marked]
 
-## MONITVM.
+### MONITVM.
 
 Huius theorematis demonſtratio per numeros fieri non poteſt in ratione multiplici, quæ ſemper vnitatem in minimis partibus eius producit. Quare proſequitur Euclides quod diximus, ſuper 13 diffinitione huius, & monito poſt principia huius appoſito, ſcilicet numeros multiplicem habentes rationem, non poſſe in minimos huius rationis numeros cadere, licet aliàs quaſuis proportionalium leges generales ſubeant, non tamen minimi datæ rationis numeri, nec inter ſe primi aliquando dici poſſunt. Ait enim Euclides minimos ſemper metiri maiores eandem rationem habentes, tamen hoc exemplo videmus A & B minimos numeros eſſe triplicis rationis, qui tamen non metiuntur maiores ſcilicet G & D, ſed ſunt eorum partes, contra id quod demonſtratum eſt. Hoc argumentum ſoluitur per ea quæ iam diximus, hoc quidem exemplum in ratione multiplici propoſitum eſſe, cuius nuſquam minimæ partes numeri eſſe poſſunt, cùm non ſit pura numerorum ratio. Quare licet A & B ſint minimi huius rationis numeri, non tamen ſunt minimæ numerorum partes in his multiplicibus rationibus, velut in reliquis, quæ minimas numerorum partes in data ratione numeris depromunt. Multiplices verò vnitate & numero minimas ſuæ rationis partes exibent, non autem numeris, eò quòd ratio multiplex non ſit pura arithmeticorum numerorum ſiue diſcretarum tantùm quantitatum, ſed cadit inter continuam & diſcretam quantitates, ac eius conuerſa. Reliquæ verò tantùm inter diſcretas, per rationis denominationem, ſectas quantitates: non igitur in ratione multiplici minimos haberi numeros dicemus, ſed tantùm in rationibus numerorum. Cæterùm huius theorematis aliquas voces tranſtulimus, ſcilicet antecedentes & conſequentes. Nam vera quantitatum proportionalium relatio, non à magnitudine dependet, ſed à ſitu. Siquidem antecedens alium metitur antecedentem, non eò quòd ſit maior vel minor quantitas, ſed tantùm eò quòd ſimilem ſibi in proportione habeat ſitum. Idem de conſequentibus. Campanus verò id inſequi voluit cùm dixit, Quiſque ſuum correlarium (pro relatiuo) ſecundo exemplo.
 

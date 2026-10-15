@@ -16,6 +16,10 @@ Pour la ſeconde partie; puis que A multiplié par ſoy produict B, & B par A p
 
 Pour la troiſieſme partie. Il eſt euident par les deux precedentes parties que F a eſté prouué & quarré & cube; il en ſera ainſi de tous les autres.
 
+[Curated heading level=2 type=propositions: THEOR. 9. PRO. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. 9. PRO. IX.]
+
 ## THEOR. 9. PRO. IX.
 
 Si depuis l’vnité, il y a tant de nombres qu’õ voudra continuellement proportionnaux, & que celuy qui ſuit l’vnité ſoit quarré; auſſi tous les autres ſeront quarrez: que s’il eſtoit cube: auſſi les autres ſeront cubes.

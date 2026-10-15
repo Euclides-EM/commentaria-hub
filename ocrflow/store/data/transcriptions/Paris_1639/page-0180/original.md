@@ -32,6 +32,10 @@ c.15.d.1 | •; e,f,g *ſnt en la* ∩ *du* ⊙efg,
 1.concl. α c.16.3 | ab,bc,ac *touchent le* ⊙efg,
 2 concl. 5.d.4 | ⊙efg *eſt inſcrit au* △abc.
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. V.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. V.]
+
 ## PROBL. V. PROPOS. V.
 
 A l'entour d'vn triangle donné, descrire vn cercle.

@@ -3,6 +3,10 @@
 
 [Figure: two triangular pyramids ABCD and EFGH inscribed in dotted parallelepipeds with vertices labelled P, O, D, N, A, Q, B, C and L, K, H, I, E, M, F, G]
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. THEOREME IX.]
+
+[Curated heading level=2 type=theorems: THEOREME IX. PROPOSITION IX.]
+
 ## PROPOSITION IX. THEOREME IX.
 
 {dropcap:D|lines=2|style=plain}Ans les pyramides triangulaires égales (ABCD & EFGH): les bazes (ABC & EFG) & les hauteurs (BD & FH) ſont reciproquement proportionelles, (c. a. d. baze ABC : baze EFG = hauteur FH : hauteur BD, ). Et les pyramides triangulaires (ABCD & EFGH) dont les bazes (ABC & EFG) & les hauteurs (BD & FH) ſont reciproquement proportionelles: ſont égales.

@@ -2,6 +2,10 @@
 
 SIXIESME
 
+[Curated heading level=2 type=propositions: THEOR. 3. PROP. III.]
+
+[Curated heading level=2 type=theorems: THEOR. 3. PROP. III.]
+
 ## THEOR. 3. PROP. III.
 
 Si l’angle d’vn triangle eſt couppé en deux egalement par vne ligne droicte, laquelle coue auſſi la baſe; les ſegmens de la baſe ſeront lvn à l’autre comme les autres coſtez du triangle: Et ſi les ſegmens de la baſe ſont l’vn à l autre comme les autres coſtez; la ligne:droicte tiree du ſommet à la ſection de la baſe, couppel angle en deux egalement.

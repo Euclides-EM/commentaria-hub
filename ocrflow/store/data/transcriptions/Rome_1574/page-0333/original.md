@@ -15,6 +15,8 @@ norem peripheria DEF. Ductis enim rectis AG, GC, DH, HF, erunt latera AG, GC, tr
 
 [Curated heading level=2 type=campanus: 28]
 
+[Curated heading level=2 type=theorems: THEOR. 26. PROPOS. 29.]
+
 ## THEOR. 26. PROPOS. 29.
 
 [Curated heading level=3 type=incipit: IN]

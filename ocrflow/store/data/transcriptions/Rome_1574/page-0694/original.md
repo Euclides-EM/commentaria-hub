@@ -2,11 +2,17 @@
 
 <!-- Page number: 305 -->
 
+[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM IX.]
+
+[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM IX.]
+
 # EVCLIDIS ELEMENTVM IX.
 
 [Ornament: floral headpiece]
 
 [Curated heading level=2 type=campanus: 1]
+
+[Curated heading level=2 type=theorems: THEOR. 1. PROPOS. 1.]
 
 ## THEOR. 1. PROPOS. 1.
 
@@ -42,6 +48,8 @@ D,36.  E,108.  C,324.
 [/Margin]
 
 [Curated heading level=2 type=campanus: 2]
+
+[Curated heading level=2 type=theorems: THEOR. 2. PROPOS. 2.]
 
 ## THEOR. 2. PROPOS. 2.
 

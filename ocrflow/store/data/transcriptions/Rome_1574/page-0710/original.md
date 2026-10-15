@@ -10,6 +10,8 @@ cumque numerũ primũ, qui vltimum metitur, metiri etiam omnes alios ante ipſum
 
 [Curated heading level=2 type=campanus: 13]
 
+[Curated heading level=2 type=theorems: THEOR. 13. PROPOS. 13.]
+
 ## THEOR. 13. PROPOS. 13.
 
 [Margin]

@@ -6,6 +6,8 @@ cies a medialis, cui ponatur superficies b esse cōmunicans, dico superficiem b 
 
 [Diagram: two rectangles side by side labelled b and a; below them a larger rectangle with corners c (top left) and d (top right), divided by a horizontal line f–e, g at the bottom left]
 
+[Curated heading level=2 type=theorems: Theorema 20 Propositio 23]
+
 ## Eucli.ex Zamb. Theorema 20 Propositio 23
 
 [Curated heading level=3 type=zamberti_sequence: 23.]

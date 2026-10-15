@@ -4,6 +4,8 @@
 
 munibus h k & m n: erit per communem scientiam, ut si g h addit super k p, quod l m addit super n q: & si minuit, minuit: & si æquat, æquat: ergo per diffinitionem incontinuæ proportionalitatis, proportio a c ad c b, est sicut d f ad f e, quod est propositũ.
 
+[Curated heading level=2 type=theorems: Theorema 17. Propositio 17.]
+
 ## Eucli.ex Zamb. Theorema 17. Propositio 17.
 
 [Curated heading level=3 type=zamberti_sequence: 17.]

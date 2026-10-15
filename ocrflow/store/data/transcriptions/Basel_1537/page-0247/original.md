@@ -20,6 +20,8 @@ CAMPANVS. Sit quisq̃ numerorū a,b,c, par. Dico ex eis compositum, esse parem: 
 
 [Diagram: dotted line with points a, b, c]
 
+[Curated heading level=2 type=theorems: Theorema 21 Propositio 21]
+
 ## Eucli. ex Zamb. Theorema 21 Propositio 21
 
 [Curated heading level=3 type=zamberti_sequence: 21.]
@@ -47,6 +49,8 @@ THEON ex Zamberto. Componantur enim numeri quilibet pares ipsi α β, β γ, γ 
 CAMPANVS. Sit quilibet numerorum a,b,c,d, impar: dico ex eis compositum, esse parem, dempta enim a quolibet unitate, constat residuos esse pares, & quia ille unitates, demptæ componunt parem, cum sint numero pares, constat propositum per præmissam.
 
 [Diagram: dotted line with points a, b, c, d]
+
+[Curated heading level=2 type=theorems: Theorema 22 Propositio 22]
 
 ## Eucli. ex Zamb. Theorema 22 Propositio 22
 

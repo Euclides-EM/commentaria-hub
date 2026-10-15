@@ -4,6 +4,8 @@ Tres angulorum ſpecies diffinit, ſcilicet ſectionis, & in ſectione anguli, i
 
 [Diagram: circle with centre A and radii to points B, C, and D]
 
+[Curated heading level=2 type=definitions: Diffinitio 9.]
+
 ## Diffinitio 9.
 
 Sector autem circuli eſt, figura contenta ſub duabus in centro rectis angulum conſtituentibus, & circunferentia ab eis ſumpta.
@@ -11,6 +13,8 @@ Sector autem circuli eſt, figura contenta ſub duabus in centro rectis angulum 
 Huius & præcedentis veram demonſtrabit intelligentiam 33 ſexti. Nam ſector circuli nihil aliud eſt quam figura ſiue pars ea circuli, quam ſuſcipiunt rectæ in centro angulum conſtituentes, & ab eis circunferentia ſuſcepta, vt trigonis A B C vel A B D. Qui quidem ſector ſemper ſemicirculo minor exhibetur, alias ſi ſcilicet æqualis aut ipſo maior eſſet, nulla fieret ad eas partes linearum A B D inclinatio, nec proinde angulus vt A B E D C, comprehenſus ſub dimetiente A E & ſemicircunferentia A C D E, hic quoque ſector ſequetur circunferentiarum ſuſceptarum differentias, quemadmodum & angulus, vt exponet eadem 33 ſexti.
 
 [Diagram: circle with centre B, diameter A E, and radii B C and B D]
+
+[Curated heading level=2 type=definitions: Diffinitio 10.]
 
 ## Diffinitio 10.
 

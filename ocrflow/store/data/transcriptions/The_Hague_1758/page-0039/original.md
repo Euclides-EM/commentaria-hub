@@ -4,6 +4,10 @@
 
 [Figure: horizontal line AB with point C; a dotted vertical line CD rises from C, and a solid line CE ascends to the right, with small angles m, n and o marked at C]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. THEOREME VI.]
+
+[Curated heading level=2 type=theorems: THEOREME VI. PROPOSITION XIII.]
+
 ## PROPOSITION XIII. THEOREME VI.
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (EC) tombe ſur une autre ligne droite (AB): elle fait ou deux angles droits, ou deux angles égaux à deux droits.

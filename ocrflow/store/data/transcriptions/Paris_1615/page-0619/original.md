@@ -12,6 +12,10 @@ Il eſt manifeſte que le quarré du diametre de la ſphere, ou de oube, eſt e
 
 Est auſſi euident que tous les diametres du cube ſont egaux entr'eux, & qu’ils ſe diuiſent en deux egalement au centre de la ſphere: & pareillement que les lignes droictes qui conioignent les centres des quarrez oppoſez, ſe couppent en deux egalement au meſme cens tre de la ſphere.
 
+[Curated heading level=2 type=propositions: PROB. 4. PROP. XVI.]
+
+[Curated heading level=2 type=problems: PROB. 4. PROP. XVI.]
+
 ## PROB. 4. PROP. XVI.
 
 Dans la ſphere donnee, inſcrite vn icoſaedre: Et monſtrer que ſon coſté eſt ligne irrationele, appellee ligne mineure.

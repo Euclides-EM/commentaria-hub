@@ -4,6 +4,8 @@
 
 commuicet{printer-error-correction:communicet} b in longitudine, dico quod b erit residuum eiusdem speciei cum a. Adiūgatur enim linea c ad lineam a, & c illa sit per cuius abscisionē a fuit residuum. Et ad b adiungatur alia quæ sit d. ad quā sic se habeat b sicut a ad c, sitq̃ cōposita ex a & c e, cōposita uero ex b & d, sit f, eritq̃ ex permutata proportionalitate a ad b, sicut c ad d, & per 13 quinti erit e ad f, sicut a ad b, uel sicut c ad d. Cum itaque a cōmunicet cum b, erit per 20 c cōmunicans cum d & e communicans cum f. Et quia etiam est necessario ex permutata proportionalitate e ad c sicut f ad d, sequitur per 12 ut si fuerit e potentior c in quadrato lineæ sibi communicantis in longitudine uel si forte incommensurabilis, sit similiter f potētior d. At quoniam omnis linea cōmunicans in longitudine lineæ rationali est similiter illi rationalis (similiter dico, quia ambæ erūt rationales in longitudine, uel ambæ in potētia tantum) sequitur ex diffinitionibus residuorum ut b sit residuū eiusdē speciei cum a. Si autē b cōmunicat in potentia cum a, ipsa quoq̃ erit residuū. nō tamen eiusdem speciei necessario, sed quemadmodū dictum est, cuius demōstratio ex ijs quæ in 60 de binomijs dicta sunt, colligenda est.
 
+[Curated heading level=2 type=theorems: Theorema 79 Propositio 103]
+
 ## Eucli.ex Zamb. Theorema 79 Propositio 101{printer-error-correction:103}
 
 [Curated heading level=3 type=zamberti_sequence: 103.]

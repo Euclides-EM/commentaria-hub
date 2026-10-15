@@ -2,6 +2,10 @@
 
 Oſtenſum eſt dodecahedrum cùm ſibi inſcripto cubo eadem contineri pyramide corollar. primæ huius. Dodecahedrum autem eiuſdem cubi duplum fuiſſe, dempto tertio minoris ſegmenti, ac inſuper minori ſegmento minoris dimidij reliqui, ſiue huius exceſſus, corollar. 33 huius patuit. Atqui pyramis eiuſdem cubi ſibi inſcripti nocuplum complexa eſt, per trigeſimam huius. Dodecahedrum itaque pyramidi inſcriptum bis continens eundem cubum, dempto eodem tertio minoris ſegmẽti, ac inſuper minori ſegmento minoris dimidij reliqui, ſibi ſumet, ſiue bipartietur nonas ſolidi pyramidis (quarum ſingulæ præſcripto cubo ſunt æquales) dempto hoc eodem exceſſu. Dodecahedri igitur ſolidum pyramidis ſibi circunſcriptæ ſolidi, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſexta.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio trigeſimaſexta.]
+
 ## Propoſitio trigeſimaſexta.
 
 Octahedrum excedit ſibi inſcriptum icoſahedrum ſolido parallelpipedo quod ſuper potentia lateris Icoſahedri vertice autem ea quæ ſemidimetientis Octahedri eſt maius ſegmentum.

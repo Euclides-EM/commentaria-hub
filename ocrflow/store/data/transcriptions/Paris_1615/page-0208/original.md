@@ -4,6 +4,10 @@
 
 droicte eſt moyenne proportio nele entre deux autres lignes droictes, oui comprennent vn rectangle egaleu quarré d’icelle ign.. Crp.ur ee que le rectanglede AB, BC eſt egal au querré de EF, ila eſté demonſtré, ue comme AB a EF, ainſi EF a BC; & panant EF eſt moyenne props. entre AB& BC.
 
+[Curated heading level=2 type=propositions: PROBL. 6. PROP. XVIII.]
+
+[Curated heading level=2 type=problems: PROBL. 6. PROP. XVIII.]
+
 ## PROBL. 6. PROP. XVIII.
 
 Sur vne ligne droicte donnee, deſcrire vne fioure rectiligne ſemblable, & ſemblablement poſee à’vne figure rectiligne donnee.

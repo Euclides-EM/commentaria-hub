@@ -1,6 +1,10 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 86 -->
 
+[Curated heading level=2 type=propositions: PROP. XV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XV. THEOR.]
+
 ## PROP. XV. THEOR.
 
 {dropcap:I|lines=2|style=plain}N circulo maxima quidem eſt diameter; aliarum vero ſemper propinquior centro remotiore major eſt; et quae major eſt, propinquior erit centro minore.

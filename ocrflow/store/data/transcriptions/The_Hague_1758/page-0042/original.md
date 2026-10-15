@@ -6,6 +6,10 @@
 
 [Figure: two figures within a ruled frame: Fig. 1, triangle ACB with base AB prolonged to F, dotted lines from A through D to E and from B to E; Fig. 2, triangle ACB with base AB prolonged to F, point D on AB, dotted lines descending from C through D to E and from B to f]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVI. THEOREME IX.]
+
+[Curated heading level=2 type=theorems: THEOREME IX. PROPOSITION XVI.]
+
 ## PROPOSITION XVI. THEOREME IX.
 
 {dropcap:E|lines=2|style=plain}N tout triangle (ACB), dont un des côtés (comme AB) eſt prolongé, l'angle extérieur (CBF) eſt plus grand que chacun des intérieurs oppoſés (ACB, CAB).

@@ -1,6 +1,10 @@
 <!-- Page number: 304 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. VIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VIII. THEOR.]
+
 ## PROP. VIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}IMILES pyramides quae triangulares baſes habent, in triplicata ſunt ratione homologorum laterum.

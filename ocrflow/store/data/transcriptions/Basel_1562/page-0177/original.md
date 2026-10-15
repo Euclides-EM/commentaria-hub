@@ -7,6 +7,8 @@ Des gleichen im andern exempel / ſeind die baſes 8. 6. 12. Die höhin / 48. Be
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: II. Die ander propoſition]
+
 ## II. Die ander propoſition.
 
 {dropcap:W|lines=2|style=plain}ann in ainem triangel ain lini gezogen wirt / ſo gegen ainer ſeitten des triangels parallel iſt / dieſelb zertailt die andern zwo ſeitten proportzlich. Härgegen ſo im triangel ain lini alſo gezogen wirt das ſy die zwo ſeittenn proportzlich zertailt / ſo iſt ſy gegen der dritten parallel.

@@ -8,6 +8,10 @@ Ie demonſtrerons ainſi: Soit le triangle ABC ayant l’angle B obtus. & le co�
 
 ree de A, tombe hors le triangle ſur le coſté CB prolongé, comme eſt la ligne droicte AD. Car ſi elle tomboit dans le triangle, comme eſt la ligne AE, les deux angles ABE, AEB ſeroient plus grands que deux droicts, contre la 17. p.1. Mais ſi elle tomboit hors le triangle ſur le coſté BC prolongé de la part de C, comme eſt AF, derechef au triangle ABF, les deux angles ABF, AFB ſeroient plus grands que deux droicts: ce qui eſt abſurde.
 
+[Curated heading level=2 type=propositions: THEOR. 12. PROP. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 12. PROP. XIII.]
+
 ## THEOR. 12. PROP. XIII.
 
 Aux triangles Oxigones, le quarré du coſté qui ſouſtient l’angle aigu, eſt plus petit que les quarrez des deux autres coſtez, de deux fois le rectangle de l’vn des coſtez qui font l’angle aigu, ſçauoir celuy ſur lequel tombe la perpendiculaire, & de la ligne priſe au dedãs entre la perpẽdiculaire, & l’angle aigu.

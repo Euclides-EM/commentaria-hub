@@ -33,6 +33,10 @@ Perspicuum hinc fit, lineam rectam, quæ in circulo à quouis puncto diametri ip
 
 Par ceste demonstration il est manifeste que la ligne droicte menee de quelconque poinct du diametre du cercle à la circonference, perpendiculaire à iceluy diametre, est moyenne proportionelle entre les segmēs du diametre faits par la perpendiculaire.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. XIV.]
+
 ## THEOR. IX. PROPOS. XIV.
 
 Æqualium & vnum vni æqualem habentium angulum, parallelogrammorum, reciproca sunt latera, quæ circum æquales angulos : Et quorum parallelogrammorum vnum angulum vni angulo

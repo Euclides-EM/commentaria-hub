@@ -22,15 +22,21 @@
 
 *Euclide n'a pas énoncé ſéparément, ces axiomes particuliers ſubordonnés à l'axiome général, mais il n'en fait pas moins uſage; comme il eſt aiſé de s'en convaincre par l'analyſe de pluſieurs de ſes démonſtrations.*
 
+[Curated heading level=2 type=axioms: AXIOME X.]
+
 ### X.
 
 Tous les angles droits ſont égaux entr'eux.
+
+[Curated heading level=2 type=axioms: AXIOME XI.]
 
 ### XI.
 
 Si une ligne droite (AB) coupe deux autres lignes droites (CD, EF,) ſituées ſur un même plan, enſorte qu'elle faſſe les angles interieurs (DGH, FHG,) du même côté, moindres que deux droits; ces deux lignes (CD, EF) prolongées à l'infini ſe rencontreront du côté (K), où les deux angles ſont moindres que deux droits. *Fig.* 8.
 
 *Cette vérité n'eſt pas aſſez ſimple, pour pouvoir être reçue au nombre des axiomes. Elle eſt une ſuite de la XXVII propoſition du premier Livre; ce n'eſt que là où elle pourra être établie convenablement.*
+
+[Curated heading level=2 type=axioms: AXIOME XII.]
 
 ### XII.
 

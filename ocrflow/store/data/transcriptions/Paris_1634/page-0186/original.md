@@ -16,6 +16,8 @@ Explication des notes.
 
 ABC & DEF sont segments de cercle.
 
+[Curated heading level=2 type=definitions: DEFINIT. VI.]
+
 ## DEFINIT. VI.
 
 Segmenti autem angulus est, qui sub recta linea, & circuli peripheria comprehenditur.
@@ -31,6 +33,8 @@ CAB est angulus segmenti.
 Explication des notes.
 
 CAB est l'angle du segment.
+
+[Curated heading level=2 type=definitions: DEFINIT. VII.]
 
 ## DEFINIT. VII.
 

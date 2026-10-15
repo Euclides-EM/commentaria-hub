@@ -20,6 +20,8 @@ CAMPANVS Sint tres numeri continue proportionales a, b, c, sitque a quadratus. D
 
 [Diagram: dotted number lines a, b, c]
 
+[Curated heading level=2 type=theorems: Theorema 20 Propositio 22]
+
 ## Eucli. ex Zamb. Theorema 20 Propositio 22
 
 [Curated heading level=3 type=zamberti_sequence: 22.]
@@ -45,6 +47,8 @@ THEON ex Zamberto. Sint tres numeri continue proportionales α, β, γ, primus a
 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I quatuor numerorum continue proportionalium primus fuit cubus, quartum cubum esse necesse est.
 
 CAMPANVS Sint quatuor numeri continue proportionales a, b, c, d sitque a cubus, dico quod d est etiam cubus, constat enim per 19 quod a & d sunt solidi similes, & quia a est cubus per hypothesin, erit etiam d cubus.
+
+[Curated heading level=2 type=theorems: Theorema 21 Propositio 23]
 
 ## Eucli. ex Zamb. Theorema 22{printer-error-correction:21} Propositio 23
 

@@ -9,6 +9,8 @@ ma Examen ſic inſtituitur. Eius latus A E applica rectæ lineæ A F, & iuxta l
 Fig. 7.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 15]
+
 [Curated heading level=3 type=numbered_item: 15.]
 
 [Curated heading level=2 type=figures: Fig. 8]
@@ -19,9 +21,13 @@ Fig. 7.
 Fig. 8.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 16]
+
 [Curated heading level=3 type=numbered_item: 16.]
 
 16. Acutus angulus eſt (L A I) qui recto (F A I) minor eſt.
+
+[Curated heading level=2 type=definitions: Lib. I, Def. 17]
 
 [Curated heading level=3 type=numbered_item: 17.]
 
@@ -33,9 +39,13 @@ Fig. 8.
 Fig. 9.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 18]
+
 [Curated heading level=3 type=numbered_item: 18.]
 
 18. Circulus eſt plana ſuperficies, vnius lineæ circuitu comprehenſa, quæ circumferentia dicitur à qua ad aliquod punctum intra contentum (A) omnes, quæ duci poſſunt rectæ lineæ, ſunt æquales.
+
+[Curated heading level=2 type=definitions: Lib. I, Def. 19]
 
 [Curated heading level=3 type=numbered_item: 19.]
 
@@ -45,6 +55,8 @@ Fig. 9.
 Fig. 9.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 20]
+
 [Curated heading level=3 type=numbered_item: 20.]
 
 20. Diameter circuli eſt recta per centrum ducta, (B C,) ad circumferentiam vtrimque terminata, & circulum bifariam diuidens.
@@ -53,6 +65,8 @@ Fig. 9.
 Fig. 9.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 21]
+
 [Curated heading level=3 type=numbered_item: 21.]
 
 21. Semidiameter, ſiue radius eſt recta (A F,) ex centro ad circumferentiam ducta.
@@ -60,6 +74,8 @@ Fig. 9.
 [Margin]
 Fig. 9.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. I, Def. 22]
 
 [Curated heading level=3 type=numbered_item: 22.]
 

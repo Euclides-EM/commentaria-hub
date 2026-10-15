@@ -2,9 +2,13 @@
 
 D I ad I A, ſic erit G E ad E A, per ſecundam ſexti. Atqui D A ſecta eſt in I extrema & media ratione, per octauam decimitertij, G A igitur in E ſecta erit extrema & media ratione, per ſecundam decimiquarti. Omnis itaque quinquanguli, æquianguli, & æquilateri, quæ ab, &c.
 
-## Corollarium.
+### Corollarium.
 
 Quæ angulum pentagoni ſubtendit oppoſito lateri fit parallela. Vt patuit in B F & C D.
+
+[Curated heading level=2 type=propositions: Propoſitio quarta.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio quarta.]
 
 ## Propoſitio quarta.
 

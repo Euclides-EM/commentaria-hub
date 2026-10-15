@@ -4,9 +4,11 @@
 
 [Diagram: two parallelepipeds in perspective, labelled C, D, E, B, L, I, K, A, G and H]
 
-## Corollarium.
+### Corollarium.
 
 AEqualia parallelepipeda eiuſdem altitudinis æquales habent baſes. *Nam ſi inæquales haberent inæqualia eſſent, per hanc. Et æqualia æquas baſes habentia eandem habebunt altitudinem, Nam ſi maiorem haberent, excederent æqualia, quæ eandem habent: Si verò minorem, deficerent tanto ab eiſdem æqualibus.*
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimatertia.]
 
 ## Propoſitio trigeſimatertia.
 

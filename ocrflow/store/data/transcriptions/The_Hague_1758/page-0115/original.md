@@ -4,6 +4,10 @@
 
 [Figure: circle with points A, D, B, C on circumference; chords AC and DB crossing at E, dotted line from F at the center to E]
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. THEOREME III.]
+
+[Curated heading level=2 type=theorems: THEOREME III. PROPOSITION IV.]
+
 ## PROPOSITION IV. THEOREME III.
 
 {dropcap:S|lines=2|style=plain}I dans un cercle (ADCB) deux cordes (AC, DB) s'entrecoupent: elles s'entre-couperont en deux inégalement.

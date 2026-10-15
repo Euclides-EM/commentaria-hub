@@ -6,6 +6,10 @@
 
 [Figure: two triangles: at left, Fig. 1, triangle ACB on base A B; at right, Fig. 2, triangle DFE on base D E with point G on side DF and dotted line GE]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVI. THEOREME XVII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVII. PROPOSITION XXVI.]
+
 ## PROPOSITION XXVI. THEOREME XVII.
 
 {dropcap:S|lines=2|style=plain}I deux triangles (ACB, DFE), ont deux angles (A & B) égaux à deux angles (D & FED) chacun à chacun, & un côté égal à un côté; ſoit, que ce côté, (comme AB & DE) ſoit adjacent aux deux angles égaux; ſoit, qu'il ſe trouve oppoſé (comme AC & DF) à un de ces angles: ils auront auſſi les deux autres côtés (AC, BC ou AB, BC) égaux aux deux autres côtés (DF, EF ou DE, EF) chacun à chacun, & le troiſieme angle (C) égal au troiſieme angle (F).

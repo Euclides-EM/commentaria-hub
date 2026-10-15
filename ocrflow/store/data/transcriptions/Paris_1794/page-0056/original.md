@@ -5,6 +5,10 @@
 
 *Corollaire.* Donc deux paralleles AB, CD, comprises entre deux autres paralleles AD, BC, sont égales.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXXI.]
+
 ## PROPOSITION XXXI.
 
 ### THÉORÊME.
@@ -20,6 +24,10 @@ Car en tirant la diagonale BD, les deux triangles ABD, BDC, auront les trois cô
 [Margin]
 \*Pr. 23.
 [/Margin]
+
+[Curated heading level=2 type=propositions: PROPOSITION XXXII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXXII.]
 
 ## PROPOSITION XXXII.
 

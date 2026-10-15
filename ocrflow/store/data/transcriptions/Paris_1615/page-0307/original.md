@@ -4,6 +4,10 @@
 
 ſent. & partant D ſera la partie de B denommee par A: dõc auſſi E ſera la partie de C’denommee par le meſme A: & parunt A meſurera C, par la 47.p7.ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 29. PROP. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 29. PROP. XXXI.]
+
 ## THEOR. 29. PROP. XXXI.
 
 Si vn nombre impair eſt premier à quelque nombre, il ſera auſſi premier à ſon double.
@@ -11,6 +15,10 @@ Si vn nombre impair eſt premier à quelque nombre, il ſera auſſi premier a�
 [Diagram]
 
 Soit le nombre impair A. premier à quelque nombre B, duquel le double ſoit C.Ie dis que A eſt auſsi premier à C. Car ſi A & C ne ſont premiers entr’eux, quelque nombre meſurera iceux, & ſoit D, lequel ſera impair, comme nous auons demonſtré au ſcholie de la 29p.9. Et puis qu’il meſure le nombre pair C( car C eſt pair, puis qu’il a moitié B)il meſurera auſsi ſa moitié B par la prop. precedente. Mais il meſure auſsi A. Donc D meſure iceux A & B premiers entr ’eux: ce qui eſt abſurde. Il n’y aura donc point de nombre qui meſure A & C; & partant ils ſeront premiers entr’eux.
+
+[Curated heading level=2 type=propositions: THEOR. 30. PROP. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. 30. PROP. XXXII.]
 
 ## THEOR. 30. PROP. XXXII.
 

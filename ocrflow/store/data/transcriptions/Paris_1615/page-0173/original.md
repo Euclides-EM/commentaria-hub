@@ -4,6 +4,10 @@
 
 ſera egale, plus grande, ou plus petite que L multiplice de D. Item puis que comme C à D, ainſi E a F, ſi H multiplice de C eſt egale, plus grande, ou plus petite que L, multiplice de D. auſsi I multiplice de E ſera egale, olus grande, ou plus petite que M multiplice de F: Parquoy ſiG multiplice de A premiere eſt plus grande, egale, ou plus petite que K multiplice de B2, auſsi I multiplice de E;. ſera plus grande, egale, ou plus petite que Mmultiplice de F 4.&: par la 6.def. 5. comme A ſera à B, ainſi E ſera à F.
 
+[Curated heading level=2 type=propositions: THEOR. 12. PROP. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. 12. PROP. XII.]
+
 ## THEOR. 12. PROP. XII.
 
 Si tant de grandeurs qu’on voudra ſont proportionelles; comme lvne des antecedantes ſera à lvne des cõſequentes, ainſi toutes les antecedantes ſeront à toutes les conſequentes.

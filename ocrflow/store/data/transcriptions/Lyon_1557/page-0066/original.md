@@ -5,6 +5,10 @@ Quia igitur Quadratum A E cum Quadrato C H, eſt æquale Quadrato K F cum duobus
 
 Si quis manifeſtiùs perſpicere velit, faciat H M Parallelogrammum æquale H A Parallelogrammo, vt E M ſit Quadratum B C. Ac tum omnes apparebunt Propoſitionis particulæ.
 
+[Curated heading level=2 type=propositions: THEOREMA 8, PROPOSITIO VIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 8, PROPOSITIO VIII.]
+
 ## THEOREMA 8, PROPOSITIO VIII.
 
 Si recta linea ſecetur vtcunque : Rectangulum comprehenſum quater ſub tota & vno ſegmentorum cum eo quod ex altero ſegmento fit Quadrato, æquale eſt ei quod à tota cum priori ſegmento tanquam ab vna deſcribitur, Quadrato.

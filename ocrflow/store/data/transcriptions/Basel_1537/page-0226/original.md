@@ -6,6 +6,8 @@ quoniam est sicut γ, ad δ, sic est ζ, ad η, uicissim igitur (per 13 septimi,
 
 [Diagram: dotted number lines α, ν, ξ, β, γ, δ, ε, ζ, η, θ, κ, μ, λ]
 
+[Curated heading level=2 type=theorems: Theorema 18 Propositio 20]
+
 ## Eucli. ex Zamb. Theorema 18 Propositio 20
 
 [Curated heading level=3 type=zamberti_sequence: 20.]
@@ -23,6 +25,8 @@ THEON ex Zamberto. Duorum enim numerorum α, β, unus medius proportionalis esto
 [Margin]
 Hoc fiet, per 35 septimi, sumendo ipsorum aut α γ, aut γ β, maximam dimensionem per quam inuenientur duo in eadem ratione miuimi, hoc est δ, ε.
 [/Margin]
+
+[Curated heading level=2 type=theorems: Theorema 19 Propositio 21]
 
 ## Eucli. ex Zamb. Theorema 19 Propositio 21
 

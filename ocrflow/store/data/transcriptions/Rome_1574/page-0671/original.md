@@ -12,6 +12,8 @@ C,3. D,4.
 
 [Curated heading level=2 type=campanus: 12]
 
+[Curated heading level=2 type=theorems: THEOR. 11. PROPOS. 13.]
+
 ## THEOR. 11. PROPOS. 13.
 
 [Margin]

@@ -3,6 +3,10 @@
 
 [Diagram: two vertical parallelogram planes P and Z within a ruled border, joined by lines A B and C D, with dotted lines from A and C meeting at F above, and labels Y and X]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVI. THEOREME XIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XIV. PROPOSITION XVI.]
+
 ## PROPOSITION XVI. THEOREME XIV.
 
 {dropcap:S|lines=2|style=plain}I deux Plans paralleles (ZX & YP) ſont coupez par un autre Plan, (ABDC) les lignes de commune Section (CD & AB) ſeront paralleles.

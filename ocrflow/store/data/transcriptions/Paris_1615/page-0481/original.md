@@ -14,6 +14,10 @@ Ie dis d’auantage qu’il eſt reſidu premier: car EF eſtant plus grande que
 
 La rationele D ſoit 9. EF6: AB9, CBa, & par eonſequent AC et : faiſant donc que comme, eſt à s, ainſi le quarre de EF, c’eſt à dire;s, ſoit au quarré de FG, icelle FG ſera√ 2o: & partani le reſto EG ſera 6ep20. qui eſt reſidu premier.
 
+[Curated heading level=2 type=propositions: PROB. 20. PROP. LXXXVII.]
+
+[Curated heading level=2 type=problems: PROB. 20. PROP. LXXXVII.]
+
 ## PROB. 20. PROP. LXXXVII.
 
 Touuer vn reſidu deuxieſme.

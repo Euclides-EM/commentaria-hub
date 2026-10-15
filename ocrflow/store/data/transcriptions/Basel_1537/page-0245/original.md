@@ -16,6 +16,8 @@ CAMPANVS. Sint a & b duo numeri propositi, uolo inquirere, an eis possit tertius
 
 [Diagram: groups of number lines at right: dotted line c, short solid line d, dotted lines b, a; dotted line c, dotted lines d, b, a; a solid line with dotted lines b, a]
 
+[Curated heading level=2 type=theorems: Theorema 18 Propositio 18]
+
 ## Eucli. ex Zamb. Theorema 18 Propositio 18
 
 [Curated heading level=3 type=zamberti_sequence: 18.]

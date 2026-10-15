@@ -1,6 +1,8 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 50 -->
 
+[Curated heading level=2 type=problems: PROBLÊME IX.]
+
 ### PROBLÊME IX.
 
 [Margin]
@@ -10,6 +12,8 @@ Fig. 78.
 *Etant donnés un côté et deux angles d’un triangle, décrire le triangle.*
 
 Les deux angles donnés seront ou tous deux adjacents au côté donné, ou l’un adjacent, l’autre opposé. Dans ce dernier cas cherchez le troisième, vous aurez ainsi les deux angles adjacents. Cela posé, tirez la droite DE égale au côté donné, faites au point D l’angle EDF égal à l’un des angles adjacents, et au point E l’angle DEG égal à l’autre ; les deux lignes DF, EG, se couperont en H, et DEH sera le triangle requis.
+
+[Curated heading level=2 type=problems: PROBLÊME X.]
 
 ### PROBLÊME X.
 
@@ -24,6 +28,8 @@ Tirez DE égal au côté A ; du point E, comme centre, et d’un rayon égal au 
 [Curated heading level=4: Scholie.]
 
 *Scholie.* Si l’un des côtés étoit plus grand que la somme des deux autres, les arcs ne se couperoient pas, et le problême seroit impossible.
+
+[Curated heading level=2 type=problems: PROBLÊME XI.]
 
 ### PROBLÊME XI.
 

@@ -13,6 +13,10 @@ A L I T E R. Sit Triangulum A B C, cuius latus A B protrahatur ad punctum D. Dic
 
 Quoniam enim duæ lineæ A C & B C coëunt in puncto C, & in ipſas incidit recta A B : erunt, per conuerſum modum quintæ Petitionis, duo anguli interiores & ex eadem parte, ſcilicet A B C & C A B, duobus rectis minores. Sed anguli A B C & D B C, per decimamtertiam, duobus rectis ſunt æquales. Duo igitur ipſi A B C & D B C maiores ſunt duobus A B C & B A C. Quare dempto communi A B C, relinquetur angulus D B C maior angulo B A C. Eadem ratione, quum duæ lineæ B A & C A coëant in puncto A, & in eas recta incidat C B : erunt duo anguli interiores A B C & A C B duobus rectis minores. Sed A B C & D B C duobus rectis ſunt æquales. Sunt igitur duo anguli A B C & D B C duobus A B C & A C B maiores. Quare ablato communi A B C, ſupererit vt angulus D B C maior ſit angulo A C B, Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 10, PROPOSITIO XVII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 10, PROPOSITIO XVII.]
+
 ## THEOREMA 10, PROPOSITIO XVII.
 
 Bini anguli cuiuslibet Trianguli, quomodocunque ſumantur, duobus rectis ſunt minores.
@@ -28,6 +32,10 @@ Protracto enim latere D B ad punctum D, quum angulus B exterior, ſit per antece
 Sic igitur inſtituetur argumentatio. Angulus A interior cum angulo B exteriori eſt æqualis duobus rectis, per decimamtertiam : ſed angulus A (vt & angulus E) cum angulo B interiori, per antecedentem, minor eſt duobus angulis B interiori & exteriori. Eſt ergò angulus A (vt angulus C) cum angulo B interiori, minor duobus rectis, Quod erat demonſtrãdum.
 
 Sed & ſine antecedentis adminiculo, argumentari poſſumus per Conuerſam quintæ Petitionis, & per decimamtertiam Propoſitionem : ſicut in ſuperiore fecimus.
+
+[Curated heading level=2 type=propositions: THEOREMA 11, PROPOSITIO XVIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 11, PROPOSITIO XVIII.]
 
 ## THEOREMA 11, PROPOSITIO XVIII.
 

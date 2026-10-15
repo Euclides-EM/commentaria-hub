@@ -3,6 +3,10 @@
 
 multiplicia, circumferentia EN et EHN ſector; atque oſtenſum eſt ſi BL circumferentia ſuperat circumferentiam EN, et ſectorem BGL ſuperare ſectorem EHN; et ſi aequalis, aequalem eſſe; et ſi minor minorem. eſt igitur ut BC circumferentia ad circumferentiam EF, ita ſector BGC ad EHF ſectorem.
 
+[Curated heading level=2 type=propositions: PROP. B. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. B. THEOR.]
+
 ## PROP. B. THEOR.
 
 {dropcap:S|lines=2|style=plain}I trianguli angulus bifariam ſecetur, ſecans autem angulum recta linea ſecet etiam baſim; rectangulum a lateribus trianguli contentum, aequale erit rectangulo contento a ſegmentis baſis una cum quadrato rectae lineae quae angulum bifariam ſecat.

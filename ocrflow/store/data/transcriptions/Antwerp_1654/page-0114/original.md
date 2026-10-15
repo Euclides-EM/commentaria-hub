@@ -15,6 +15,8 @@ Fig 17.
 
 Cæterum hæc propoſitio liquet etiam ex notione ipſa linearum, quæ comparantur. Neque enim aut recta linea & curua circuli peripheria, aut peripheriarum inæqualium diuerſæ curuaturæ, aut duæ conuexæ, ſecundum vllam ſui partem poſſunt congruere. Congruerent autem ſi inuicem in tota parte aliquâ tangerent.
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XIV.]
+
 ## PROPOSITIO XIV.
 
 {dropcap:I|lines=2|style=plain}N circulo æquales rectæ (B C, L F) æqualiter à centro diſtant : & quæ diſtant à centro æqualiter, ſunt æquales.

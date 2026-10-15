@@ -5,6 +5,10 @@
 
 Hoc Problema Bouillus ideò difficile putauit, quòd ab Euclide eſſet prætermiſſum. Sed & cæteras Figuras quarum poſteriùs inſcriptio demonſtranda eſt, ſuper data linea facilè conſtruet, qui hanc noſtram perſpexerit Demonſtrationem.
 
+[Curated heading level=2 type=propositions: PROBLEMA 11, PROPOSITIO XI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 11, PROPOSITIO XI.]
+
 ## PROBLEMA 11, PROPOSITIO XI.
 
 In dato Circulo Pentagonum æquilaterum & æquiangulum deſcribere.

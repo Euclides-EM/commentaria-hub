@@ -6,6 +6,8 @@ portio trianguli b c d ad triangulū k m d, est sicut lineæ b d ad lineam k d d
 
 [Diagram: pyramid e f g h drawn as inverted triangle — h at upper left, n at top middle, f at upper right, g at bottom; conus e in the centre, q at left, p at right; lines n p and n q dividing the pyramid]
 
+[Curated heading level=2 type=theorems: Theorema 4 Propositio 4]
+
 ## Eucli. ex Zamb. Theorema 4 Propositio 4
 
 [Curated heading level=3 type=zamberti_sequence: 4.]

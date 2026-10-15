@@ -1,13 +1,15 @@
 # OCR Pipeline Queue
 
-> Strasbourg_1564 - Facs importing
-> Strasbourg_1566 - Facs importing
-> Pisa_1658 - Facs importing
-> Würzburg_1661 - Facs importing
-> Paris_1685 - Facs importing
-> Vienna_1694 - Facs importing
-> Oxford_1701 - Facs importing
-> Paris_1814 - Facs importing
+> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_4kk2ag - Seg running
+> Strasbourg_1566 - https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7 - Seg running
+> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_wcl1tc - Seg preparing
+> Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg preparing
+> Paris_1685 - https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr - Seg running
+> Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_qglalw - Seg running
+> Oxford_1701 - https://euclides.huma-num.fr/hub/?datasetId=ds_1p0woj - Seg running
+> Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - Seg running
+> Paris_1814 vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy - Seg running
+> Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - Seg running
 
 # Train to improve segmentation
 
@@ -225,6 +227,8 @@ Fable usage:
 
 **Next steps:** Ready for curation.
 
+# Completed
+
 ## Antwerp_1654
 
 Run the LLM Corrector on:
@@ -250,10 +254,6 @@ Fable:
 - **Reasoning tokens:** 0
 - **Total tokens:** 9,334,606
 - **Cost:** $73.72
-
-**Next steps:** Ready for curation.
-
-# Completed
 
 ## The_Hague_1758
 
@@ -414,7 +414,7 @@ Fable usage:
 
 ## Paris_1536
 
-Full Fable transcriptions exist, but they still require manual curation. Facsimile is public domain.
+Facsimile is public domain.
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ub81ja
 

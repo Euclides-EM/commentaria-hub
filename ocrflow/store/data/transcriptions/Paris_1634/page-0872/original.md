@@ -5,6 +5,10 @@
 16. 5 | □.bg π □.bk 2|2 □.bf π □.e,
 concl. 22. 6 | bg π bк 2|2 bf π e.
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. VII.]
+
 ## THEOR. VII. PROPOS. VII.
 
 Dodecaedrum ad icosaedrum, est vt cubi latus ad latus icosaedri; in vna eadémque sphæra inscripti.

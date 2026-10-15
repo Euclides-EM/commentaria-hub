@@ -4,6 +4,10 @@
 
 [Figure: triangle ABC with right angle at B, dotted lines from H to A and from H to B, labelled points A, B, C, H]
 
+[Curated heading level=2 type=propositions: PROPOSITION XLVIII. THEOREME XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXIV. PROPOSITION XLVIII.]
+
 ## PROPOSITION XLVIII. THEOREME XXXIV.
 
 {dropcap:S|lines=2|style=plain}I le quarré de l'un des côtés (CA) d'un triangle (CBA) eſt égal aux quarrés des deux autres côtés (AB, BC): l'angle (ABC) compris de ces deux côtés (AB, BC) eſt droit.

@@ -8,6 +8,10 @@ bus æquales deducantur anguli, ad eorum quidem centra k, l, anguli b/k/d, & f/l
 
 [Diagram: a k b d c — e l f h g]
 
+[Curated heading level=2 type=propositions: Theorema 24, Propositio 27.]
+
+[Curated heading level=2 type=theorems: Theorema 24, Propositio 27.]
+
 ## Θεώρημα κδ, Πρόθεσις κζ.
 
 Εν τοῖς ἴσοις κύκλοις, αἱ ἐπὶ ἴσωρ περιφερειῶρ βεβηκῦαι γωνίαι, ἴσαι ἀλλήλαις ἐσίρ, ἐάντε πρὸς τοῖς κέντροις, ἐάντε πρὸς ταῖς περιφερείαις ὦσι βεβηκῦαι.

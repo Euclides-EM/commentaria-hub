@@ -18,6 +18,10 @@ Dw. ADC + BDC ⋀ ⊥ nach 1. Gr-S.
 ### Beschluß.
 Müssen derowegen die Winckel von dem herunterfallenden Strich gemacht/ entweder zween ∟ ∟ seyn/ wie an ACD und BCD zu sehen; oder wie ADC + BDC zweyen ⊥ gleich seyn. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XIV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 7. Beweiß-Stück. Der XIV. Vortrag.]
+
 ## Der XIV. Vortrag.
 
 ## Das 7. Beweiß-Stück

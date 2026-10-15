@@ -30,6 +30,10 @@ Coroll.
 
 4.1. | △egd 2|2 △bca.
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XXVII.]
+
 ## THEOR. XVIII. PROPOS. XXVII.
 
 Si in duas rectas lineas recta incidens linea alternatim angulos æquales inter se fecerit : parallelæ erunt inter se illæ rectæ lineæ.

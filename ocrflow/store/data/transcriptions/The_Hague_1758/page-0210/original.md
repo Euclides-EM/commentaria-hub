@@ -3,6 +3,10 @@
 
 [Diagram: bars labelled aM (divided into aR and 1aN), M (divided into R and 1N), aN, N, and multiples of P labelled 4P, 3P, 2P and P]
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THEOREME VIII.]
+
+[Curated heading level=2 type=theorems: THEOREME VIII. PROPOSITION VIII.]
+
 ## PROPOSITION VIII. THEOREME VIII.
 
 {dropcap:S|lines=2|style=plain}I deux grandeurs (M & N) ſont inégales, la plus grande (M) aura une plus grande raiſon à une même grandeur (P), que la plus petite (N); & au contraire la même grandeur (P) aura une plus grande raiſon à la plus petite (N), qu’à la plus grande (M).

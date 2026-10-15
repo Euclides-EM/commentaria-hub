@@ -18,6 +18,8 @@ d Per 14.
 huius.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXVII.]
+
 ## PROPOSITIO XXXVII.
 
 {dropcap:S|lines=2|style=plain}Phæra ad quadratum rhombum conicum ſibi circumſcriptum, & ſoliditate & ſuperficie eam proportionem habet quam in quadrato latus ad diametrum.

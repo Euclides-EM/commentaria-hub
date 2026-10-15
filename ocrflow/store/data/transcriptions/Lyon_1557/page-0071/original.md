@@ -9,6 +9,10 @@ Hæc Demonſtratio, quam ab illa communi aliquantùm variauimus, directa eſt. �
 
 Simili argumentandi ratione, probabitur Quadratum lateris A C, tanto minus eſſe Quadratis duorum A B & B C, quantum eſt duplum eius quod fit ex C B in D B, Rectanguli.
 
+[Curated heading level=2 type=propositions: PROBLEMA 2, PROPOSITIO XIIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 2, PROPOSITIO XIIII.]
+
 ## PROBLEMA 2, PROPOSITIO XIIII.
 
 Dato Rectilineo æquale Quadratum deſcribere.

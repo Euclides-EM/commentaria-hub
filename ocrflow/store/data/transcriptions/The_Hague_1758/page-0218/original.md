@@ -3,6 +3,10 @@
 
 [Diagram: two shaded rectangles labelled A and B; below, mA divided into three parts P, Q, R under a brace, and mB divided into three parts p, q, r under a brace, all within a ruled frame]
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. THEOREME XV.]
+
+[Curated heading level=2 type=theorems: THEOREME XV. PROPOSITION XV.]
+
 ## PROPOSITION XV. THEOREME XV.
 
 {dropcap:L|lines=2|style=plain}Es parties ( A & B ) ſont en même raiſon que leurs équimultiples ( m A & m B ).

@@ -9,6 +9,8 @@ PRIMVS numerus A, non metiatur numerum B. Dico A, ad B, primum eſſe. Si enim A
 
 [Curated heading level=2 type=campanus: 33]
 
+[Curated heading level=2 type=theorems: THEOR. 30. PROPOS. 32.]
+
 ## THEOR. 30. PROPOS. 32.
 
 [Margin]

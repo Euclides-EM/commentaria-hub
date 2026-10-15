@@ -16,6 +16,10 @@ und ECG ⋀ D n. 3. Vorber.
 
 Ist also dem gegebenen △ ein gleichhaltendes □ , und zwar nach dem ∧ D verfertiget. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der XLIII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 32. Beweiß-Stück. Der XLIII. Vortrag.]
+
 ## Der XLIII. Vortrag.
 
 ## Das 32. Beweiß-Stück.

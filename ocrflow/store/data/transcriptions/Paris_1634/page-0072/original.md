@@ -10,6 +10,8 @@ hyp. | cf 3|2 ae.
 
 Porrò in his omnibus pronunciatis, primo excepto, nomine æqualium quantitatum intelligenda est etiam vna & eadem multis communis. | Or en toutes ces notions, excepté la premiere, par le mot de quantitez egales, faut entendre außi vne mesme, commune à plusieurs.
 
+[Curated heading level=2 type=axioms: 6. a. 1.]
+
 ### 6. a. 1.
 
 Et quæ eiusdem, vel æqualium sunt duplicia, inter se sunt æqualia. | Et les choses qui sont doubles d'vne mesme ou des egales, sont aussi doubles entr'elles.
@@ -19,6 +21,8 @@ Et quæ eiusdem, vel æqualium sunt duplicia, inter se sunt æqualia. | Et les c
 hyp. | a 2|2 2c.
 hyp. | b 2|2 2c.
 6.a.1 | a 2|2 b.
+
+[Curated heading level=2 type=axioms: 6. a. b.]
 
 ### 6. a. b.
 

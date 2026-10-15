@@ -5,6 +5,8 @@
 
 winckel bey der baſi / nemlich b a c vnd a c b / einander gleich auch ſo die zwo linien b a vnd b c / erſtreckt werden / als da ſeind b a d vnd b c e / ſeind die zwen winckell vnder der baſi abermals einander gleich / nemlich d a c vnd a c e / Iſt ſeer dienſtlich die nachuolgende ſtuckh zuͤuerſthen vnd zuͤbeweiſen / ⁊c.
 
+[Curated heading level=2 type=propositions: VI. Die ſechſt propoſition]
+
 ## VI. Die ſechſt propoſition.
 
 [Subhead]
@@ -16,6 +18,8 @@ So ein triangell zwen gleiche winckell hatt / werden auch die zwo ſeitten oder 
 [Figure: a triangle with apex a and base points b and c]
 
 Des fürgezaichneten Triangels a b c / zwen winckel / nemlich a b c vnd b c a / ſeind einander gleich / volgt das auch die zwo linien a c vnd a b einander gleich ſeind / welche vnder diſe winckel gezogen werden. Iſt eben vmblecht der erſt tail der funfften Propoſition. Dann daſelbſt wirt auß gleichait der linien / gleichaet der wincklen bewiſen. Hie haͤrgegen auß gleichait der winckeln / gleichait der liniē. Nun die lini in ainem triangel / wirt geſprochen ainem winckel vnnderzogen ſein / welche die zwo linien / ſo den winckel begreiffen / in ainen triangel zuͤſamen ſchleußt / als hie die lini b c / iſt vnder den winckel a gezogen / ⁊c.
+
+[Curated heading level=2 type=propositions: VII. Die ſibendt propoſition]
 
 ## VII. Die ſibendt propoſition.
 

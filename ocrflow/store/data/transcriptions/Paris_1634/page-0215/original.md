@@ -16,6 +16,10 @@ c.1.3 | centr. est in df,
 c.1.3 | centr. est in ef,
 concl. 14.a.b | centr. est in f.
 
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXVI.]
+
 ## THEOR. XXIII. PROPOS. XXVI.
 
 In æqualibus circulis, æquales anguli æqualibus peripheriis insistunt, siue ad centra, siue ad peripherias constituti insistant.

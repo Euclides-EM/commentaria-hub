@@ -23,6 +23,8 @@ ALITER. Si E C, non eſt perpendicularis ad A B, erit alter angulorũ Ad C, obtu
 
 [Curated heading level=2 type=campanus: 18]
 
+[Curated heading level=2 type=theorems: THEOR. 17. PROPOS. 19.]
+
 ## THEOR. 17. PROPOS. 19.
 
 [Curated heading level=3 type=incipit: SI]
@@ -42,6 +44,8 @@ TANGAT recta A B, circulum C D E, in C; & ex C, ducatur C E, perpendicularis ad 
 [/Margin]
 
 [Curated heading level=2 type=campanus: 19]
+
+[Curated heading level=2 type=theorems: THEOR. 18. PROPOS. 20.]
 
 ## THEOR. 18. PROPOS. 20.
 

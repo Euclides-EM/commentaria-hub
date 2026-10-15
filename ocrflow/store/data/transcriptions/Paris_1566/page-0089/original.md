@@ -3,9 +3,11 @@
 
 duobus rectis æquipolleant, &c. Trianguli igitur M N L reliquus qui ad L, reliquo qui ad D trianguli E D Z æquus erit, per coroll. 32 primi. Circa datum itaque circulum A B G dato triangulo D E Z æquiangulum L M N triangulum deſcripſimus, per 6 diffini. huius.
 
-## Propoſitio quarta.
+[Curated heading level=2 type=propositions: Propoſitio quarta.]
 
-## Problema 4.
+[Curated heading level=2 type=problems: Propoſitio quarta. Problema 4.]
+
+## Propoſitio quarta. Problema 4.
 
 In dato triangulo, circulum deſcribere.
 
@@ -13,9 +15,11 @@ Proponatur triangulum A B G, cuius duo B & G anguli bifariam ſeccentur per 9 pr
 
 [Diagram]
 
-## Propoſitio quinta.
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
 
-## Problema 5.
+[Curated heading level=2 type=problems: Propoſitio quinta. Problema 5.]
+
+## Propoſitio quinta. Problema 5.
 
 Circa datum triangulum, circulum deſcribere.
 
@@ -27,17 +31,19 @@ Sit datum cuiuſuis generis triãgulum A B G, rectangulum, oxigonium, vel ambli
 
 [Diagram]
 
-## Corollarium.
+### Corollarium.
 
 Hinc ſequitur centrum circuli triangulum rectangulum ambientis, in latus trianguli cadere, oxigonium vero ambientis intra triangulum cadit. Ambiligonium autem ambientis extra triangulum eſſe. Nam rectus angulus ſemicirculum poßidet, acutus verò plus ſemicirculo, obtuſus autem minus ſemicirculo complet (per 31 tertij.) Tres itaque ſunt ſectiones, quarum in ſemicirlo linea ſecans habet centrum, in maiori vero ſectione centrum eſt intus, in minori autem extra ſectionem, & igitur extra triangulum in ſectione conſtitutum.
 
-## MONITVM.
+### MONITVM.
 
 Triangulorum tria genera diuerſas inſcribendi leges exigentia, vnica methodo tribus ſimul figuris deſeruienti, circulo inſcribi demonſtrauimus paruula hac ſumpta hyppotheſi, qua bifariam ſecamus duo latera trianguli, quæ circa non minorem angulum, hoc enim aſſumptum reliqua neceſſario ſequuntur.
 
-## Propoſitio ſexta.
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
 
-## Problema 6.
+[Curated heading level=2 type=problems: Propoſitio ſexta. Problema 6.]
+
+## Propoſitio ſexta. Problema 6.
 
 In dato circulo, quadratum inſcribere.
 

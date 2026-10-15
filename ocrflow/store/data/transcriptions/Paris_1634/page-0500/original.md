@@ -7,6 +7,10 @@ i, msur: k,
 f, msur: n,
 d. δ | m,l,k,n snt nr. req.
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. V.]
+
 ## THEOR. III. PROPOS. V.
 
 Plani numeri rationem inter se habent ex lateribus compositam.
@@ -35,6 +39,10 @@ Demonstr.
 αγ.17.7 | a π g 2|2 c π e,
 βγ.17.7 | g π b 2|2 d π f,
 concl. 20.d.5 | raō. a π b 2|2 raō. c π e + raō. d π f.
+
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. VI.]
 
 ## THEOR. V{printer-error-correction:IV}. PROPOS. VI.
 

@@ -28,6 +28,10 @@ a *eſt* ∠ D.
 
 8.1 | ∠hdl 2|2 ∠a.
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XXIV.]
+
 ## THEOR. XV. PROPOS. XXIV.
 
 Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez plus grand que l'angle, ils auront aussi la base plus grande que la base.

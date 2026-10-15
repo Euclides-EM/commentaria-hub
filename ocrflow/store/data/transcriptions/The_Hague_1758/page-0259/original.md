@@ -3,6 +3,10 @@
 
 [Figure: triangle ABC with apex B, line DE parallel to base AC, and dotted lines AE and DC crossing inside the triangle]
 
+[Curated heading level=2 type=propositions: PROPOSITION II. THEOREME II.]
+
+[Curated heading level=2 type=theorems: THEOREME II. PROPOSITION II.]
+
 ## PROPOSITION II. THEOREME II.
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (DE) eſt tirée parallèlement à un côté (AC) d'un Triangle (ABC): elle coupera les deux autres côtés (AB, BC) proportionellement (c. à. d. que AD : DB ═ CE : EB); & réciproquement, ſi une ligne droite (DE) coupe proportionellement les deux côtés (AB, BC), elle ſera parallèle au troiſieme côté (AC).

@@ -4,6 +4,8 @@
 
 CAMPANVS. Nunc ultimo conuenit lineā d e esse illam, quæ iuncta cū mediali componit totū mediale cui adiuncta linea e f (quæ uidelicet sit illa per cuius abscisionē linea d e fuerat quæ proponitur) si quales lineas d f & f e esse oporteat ex 73 didiceris, priorēque argumentationē firma mente tenueris, sine obice quoquā lineā b c esse residuum sextū concludere poteris. Si autē fortassis in aliquo te hæsitare contigerit, quicquid illud fuerit de quadrato g h ad sibi æqualē superficiem a n conferendū erit, & sic patebit propositum nostrū.
 
+[Curated heading level=2 type=theorems: Theorema 78 Propositio 102]
+
 ## Eucli.ex Zamb. Theorema 78 Propositio 102
 
 [Curated heading level=3 type=zamberti_sequence: 102.]

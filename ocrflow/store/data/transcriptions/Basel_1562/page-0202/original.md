@@ -5,6 +5,8 @@
 
 {dropcap:M|lines=2|style=plain}agſtu / diß bůchs erſte / des erſten 43 propoſition vnnd gemainen verſtand angeſehen / wol demonſtrieren.
 
+[Curated heading level=2 type=propositions: XXVIII. Die achtvndzwainzigſt propoſition]
+
 ## XXVIII. Die achtvndzwainzigſt propoſition.
 
 [Subhead]

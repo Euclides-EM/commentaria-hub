@@ -10,6 +10,8 @@ OSTENDETVR hoc theorema, propos. 22. non ſolum in magnitudinibus æque multipli
 
 [Curated heading level=2 type=campanus: 4]
 
+[Curated heading level=2 type=theorems: THEOR. 4. PROPOS. 4.]
+
 ## THEOR. 4. PROPOS. 4.
 
 [Curated heading level=3 type=incipit: SI]

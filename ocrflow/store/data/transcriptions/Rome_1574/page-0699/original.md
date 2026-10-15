@@ -2,6 +2,8 @@
 
 [Curated heading level=2 type=campanus: 6]
 
+[Curated heading level=2 type=theorems: THEOR. 6. PROPOS. 6.]
+
 ## THEOR. 6. PROPOS. 6.
 
 [Margin]
@@ -47,6 +49,8 @@ A,8.  B,64.  C,512.
 [/Margin]
 
 [Curated heading level=2 type=campanus: 7]
+
+[Curated heading level=2 type=theorems: THEOR. 7. PROPOS. 7.]
 
 ## THEOR. 7. PROPOS. 7.
 

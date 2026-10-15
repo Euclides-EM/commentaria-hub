@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 109 -->
 
+[Curated heading level=2 type=propositions: XII. Die zwelfft Propoſition]
+
 ## XII. Die zwelfft Propoſition.
 
 [Subhead]
@@ -21,6 +23,8 @@ Erſtlich werde ain regular fünffeckh in den zirckel beſchriben / wie jetz ang
 
 Volgt auß der 8 propoſ. des erſten bůchs / das nitt allain die winckel innen beim centro ainander allegleich / ſonder auch alle winckel / ſo von den linien gemelts fünffeckhs / vnd den linien vom centro außgezogen / gemacht werden / all ainander gleich ſeind. Darauß angeſehen die gerechten winckel / vnd das gleichs von gleichem genommen / gleiches vberlaßt / volgt das auch die winckel von den berürerenden den zirckel linien / vnd den linien des innern fünffeckhs verursacht / alle ainander gleich ſein / alſ h b c / h c b / g f b / g b f / ⁊c. auß welchem vnd der 6 vnd 4 propoſ. des erſten bůchs / vnd dem gemainen verſtand gleichs zů gleichem / ⁊c. du ſelbs ermeſſen kannſt / das die linien des außwendigen fünffeckhs / vnd volgendts auch die winckel ainander gleich ſein / vnd das fünffeckhs demnach gleicheckhig / vnd gleichſeittig iſt / wie die propoſit. erfordert.
 
+[Curated heading level=2 type=propositions: XIII. Die dreyzehendt Propoſition]
+
 ## XIII. Die dreyzehendt Propoſition.
 
 [Subhead]
@@ -28,6 +32,8 @@ Lehrt /
 
 Inn ain fürgeben regular fünffeckh / ainen zirckel beſchreiben.
 [/Subhead]
+
+[Curated heading level=2 type=propositions: XIIII. Die vierzehendt Propoſition]
 
 ## XIIII. Die vierzehendt Propoſition.
 

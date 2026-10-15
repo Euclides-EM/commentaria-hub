@@ -20,6 +20,8 @@ HOC autem corollarium apud Campanum eſt propoſitio 35. huius libri ſeptimi; E
 
 [Curated heading level=2 type=campanus: 35]
 
+[Curated heading level=2 type=theorems: THEOR. 33. PROPOS. 37.]
+
 ## THEOR. 33. PROPOS. 37.
 
 [Margin]

@@ -4,6 +4,8 @@
 
 [Diagram: pyramid with triangular base, labelled A, E, T, B, K, D, I, L, Z, G, with internal lines dividing it into smaller pyramides and prisms]
 
+[Curated heading level=2 type=propositions: Propoſitio quarta.]
+
 ## Propoſitio quarta.
 
 Si fuerint binæ Pyramides triangulares baſes habentes ſub eadem altitudine: diuiſa verò fuerit vtraque ipſarum in binas Pyramides, adinuicem æquales, & ſimiles toti, & in bina Priſmata æqualia, & in vtraque factarum Pyramidum, is modus ſemper ſeruetur. Erit ſicut vnius Pyramidis baſis ad alterius Pyramidis baſim, ſic quæ in vna Pyramide Priſmata, ad ea quæ in altera Pyramide Priſmata omnia, ſimili ſectione producta.

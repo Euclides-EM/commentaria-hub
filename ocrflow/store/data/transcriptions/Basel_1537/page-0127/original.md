@@ -22,6 +22,8 @@ Si autē a g sit multiplex c, ponam ut e k sit æque multiplex f, eritque ut pri
 
 [Diagram: horizontal line segments a, g, b, d and b, e, k with divided segments below, in the text column]
 
+[Curated heading level=2 type=theorems: Theorema 6 Propositio 6]
+
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
 
 [Curated heading level=3 type=zamberti_sequence: 6.]

@@ -11,6 +11,10 @@
 
 [Figure]
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XIII.]
+
 ## THEOR. XII. PROPOS. XIII.
 
 Vn cercle ne touche point vn cercle à plus d'vn poinct: soit qu'il le touche au dedans, ou au dehors.

@@ -4,6 +4,10 @@
 
 [Figure: two parallel horizontal lines A B and C D crossed by transversal E F at points G and H, with angles n, m at G and p, o at H; dotted lines from B and D meeting at point M at right]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVII. THEOREME XVIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVIII. PROPOSITION XXVII.]
+
 ## PROPOSITION XXVII. THEOREME XVIII.
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (EF), tombant ſur deux autres lignes droites (AB, CD) ſituées dans un même plan, fait les angles alternes (*m* & *p* ou *n* & *o*) égaux entr'eux: ces deux lignes (AB, CD) ſont paralleles.

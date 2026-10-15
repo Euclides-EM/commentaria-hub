@@ -3,6 +3,10 @@
 
 [Diagram: square A P N D with diagonal D P; points P, O, R, N at top; F, K, M, H and E, I, L, G on horizontal lines through the square; A, C, B, D at bottom; small letters a, c, b near the diagonal with dotted curve]
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THEOREME VIII.]
+
+[Curated heading level=2 type=theorems: THEOREME VIII. PROPOSITION VIII.]
+
 ## PROPOSITION VIII. *THEOREME VIII.*
 
 {dropcap:S|lines=2|style=plain}I une droite (AB) eſt partagée en deux parties quelconques (AC, CB): le rectangle quadruple compris de la droite entiere (AB) & d'une des parties (BC), avec le quarré de l'autre partie (AC), ſont égaux au quarré de la droite (AD), compoſée de l'entiere (AB) & de l'ajoutée (BD) égale à la partie (BC).

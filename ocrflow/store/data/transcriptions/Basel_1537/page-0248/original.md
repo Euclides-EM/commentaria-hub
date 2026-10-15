@@ -2,6 +2,8 @@
 
 <!-- Page number: 237 -->
 
+[Curated heading level=2 type=theorems: Theorema 23 Propositio 23]
+
 ## Eucli. ex Zamb. Theorema 23 Propositio 23
 
 [Curated heading level=3 type=zamberti_sequence: 23.]
@@ -29,6 +31,8 @@ THEON ex Zamberto. Componantur enim quotcunq̃ impares numeri, quorum multitudo 
 CAMPANVS. Sit a totus par, à quo detrahatur b, qui quoq̃ sit par, & residuus sit c. Dico c esse parem, sit enim d medietas a, e quoq̃ sit medietas b, detractoq̃ e de d, sit reliquus f, erit per 11 septimi, c ad f, sicut a ad d, quare f est medietas, itaq̃ c est par, quod est propositum.
 
 [Diagram: dotted line a with points d, f; below, dotted lines b (with point e) and c]
+
+[Curated heading level=2 type=theorems: Theorema 24 Propositio 24]
 
 ## Eucli. ex Zamb. Theorema 24 Propositio 24
 
@@ -58,6 +62,8 @@ CAMPANVS. Sit a b par, à quo tollatur a c, qui sit impar. Dico c b residuum ess
 
 [Diagram: dotted line with points a, d, c, b]
 
+[Curated heading level=2 type=theorems: Theorema 25 Propositio 25]
+
 ## Eucli. ex Zamb. Theorema 25 Propositio 25
 
 [Curated heading level=3 type=zamberti_sequence: 25.]
@@ -85,6 +91,8 @@ THEON ex Zamberto. A pari nanq̃ numero α β, auferatur impar β γ. Dico quod 
 CAMPANVS. Sit a b numerus impar, à quo detrahatur b c, qui etiam sit impar: dico reliquum qui est a c, esse parem. Detrahatur enim ab utroq̃ duorum numerorum a b & b c, unitas quæ sit b d, erit uterque duorum residuorum quæ sunt a d & d c, par, per præmissam itaque constat a c esse parem, quod est propositum.
 
 [Diagram: dotted line with points a, c, d, b]
+
+[Curated heading level=2 type=theorems: Theorema 26 Propositio 26]
 
 ## Eucli. ex Zamb. Theorema 26 Propositio 26
 

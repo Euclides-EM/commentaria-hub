@@ -3,6 +3,10 @@
 
 [Figure: triangle L with vertices B, A, C and hatched angle at B; parallelogram M at left; parallelograms on line G, H, K with points I, D; triangle N with vertices E, D, F and hatched angles at E and D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXV. PROBLEME VII.]
+
+[Curated heading level=2 type=problems: PROBLEME VII. PROPOSITION XXV.]
+
 ## PROPOSITION XXV. PROBLEME VII.
 
 {dropcap:C|lines=2|style=plain}*Onſtruire un Rectiligne* (N), *ſemblable à un Rectiligne donné* (L), *& égal à un autre* (M).

@@ -7,6 +7,8 @@
 
 <!-- Running title: DEFINITIONS. -->
 
+[Curated heading level=2 type=definitions: DEFINITION II.]
+
 ### II.
 
 {dropcap:O|lines=2|style=plain}N appelle *Gnomon*, ou *Equerre*, la figure (ABCGDH) compoſée d'un parallélogramme (DB) alentour de la diagonale (BE) & de deux complémens (AD, DC).

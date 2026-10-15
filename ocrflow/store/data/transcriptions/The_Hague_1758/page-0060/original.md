@@ -4,6 +4,10 @@
 
 [Figure: triangle ABC on base line A C D, with angle m at A, angles r, o, p at C, angle n at B, and line CE drawn from C parallel to AB]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXII. THEOREME XXII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXII. PROPOSITION XXXII.]
+
 ## PROPOSITION XXXII. THEOREME XXII.
 
 {dropcap:E|lines=2|style=plain}N tout triangle (ABC), un des côtés (comme AC) étant prolongé: l'angle extérieur (*o* ＋ *p*) eſt égal à la ſomme des deux intérieurs oppoſés (*n* ＋ *m*); & les trois angles du triangle (*n* ＋ *m* ＋ *r*) ſont égaux à deux droits.

@@ -25,6 +25,10 @@ suppos. | a π b 2|2 d π e,
 contr. hyp.
 concl. 21.a.1 | d,n̄ est π e 2|2 a π b.
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. XVIII.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. XVIII.]
+
 ## PROBL. I. PROPOS. XVIII.
 
 Duobus numeris datis, considerare an possit ipsis tertius proportionalis inueniri.

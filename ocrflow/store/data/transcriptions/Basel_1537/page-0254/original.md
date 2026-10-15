@@ -1,10 +1,20 @@
 <!-- Page number: 243 -->
 
+[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER DECIMVS]
+
+[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER DECIMVS]
+
+[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER DECIMVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMET,ICORVM{printer-error-correction:GEOMETRICORVM} ELEMENTORVM LIBER DECIMVS.
+
+[Curated heading level=2 type=definitions: Ex Campano. Diffinitiones]
 
 Ex Campauo{printer-error-correction:Campano} — Diffinitiones
 
 {dropcap:Q|lines=?|style=decorated|decoration="enclosing a laureate philosopher between two onlookers"}Vantitates quibus fuerit una quantitas communis eas numerans, dicentur communicantes. 2 Quibus uero non fuerit una communis quātitas eas numerans, dicentur incommensurabiles. 3 Lineæ in potentia communicantes dicuntur, quarum superficies quadratas una communis superficies numerat. 4 Lineæ incommensurabiles in potentia dicūtur, quarum superficies quadratas non numerat una communis superficies. Quæ cum ita sint, manifestum est quia omni lineæ positæ, multæ aliæ sunt incōmensurabiles, quædam in longitudine tantum, quædam in longitudine & potentia. 5 Omnis autem linea cum qua ratiocinamur posita, uocetur rationalis. 6 Lineæq̃ ei communicantes, dicuntur rationes. 7 Eidem autem incommunicantes, dicuntur irrationales siue surdæ. 8 Omnis uero quadrata superficies de qua per hypothesin rationamur, dicitur rationalis. 9 Superficies uero ei communicantes, dicuntur rationales. 10 Eidem autem incommensurabiles superficies, dicuntur irrationales siue surdæ. 11 Latera uero quæ in illas quadratas possunt, dicuntur irrationalia.
+
+[Curated heading level=2 type=definitions: Eucli. ex Zamb. Diffinitiones]
 
 ## Eucli. ex Zamb. Diffinitiones
 

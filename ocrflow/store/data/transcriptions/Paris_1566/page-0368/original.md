@@ -3,9 +3,13 @@
 
 vnica perpendicularis erit, & in cẽtrum circuli baſim continentis cadet. Nã ſi alia (ab ipſa K F T per centrum ſphæræ in centrum circuli ducta) angulos rectos ad baſis planum efficeret, ab eodem ſigno duæ rectæ eidem plano ad rectos conſtituerentur, contra decimãtertiã vndecimi, quod fieri non poteſt. Siverò alia à vertice K ad baſis centrum T non per centrum F duci poſſe credatur, binæ rectæ ſuperficiem concludent, quod erit abſurdum, contra 12 communẽ ſententiam. Ea igitur quæ per centrum ſphæræ ducitur in centrum baſis, vnica perpendicularis erit. Quæ verò in centrum baſis ab angulo perpendicularis erit, per centrum ſphæræ tranſibit.
 
-## Corollarium tertium.
+### Corollarium tertium.
 
 Præterea perpendicularis à cẽtro Sphæræ in baſim Pyramidis, æqualis eſt ſextæ parti dimetientis Sphæræ. Vt patuit C G ſextam partem ipſius A B æquam fuiſſe ipſi F T, centra ſphæræ, & baſis coniungenti.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaquarta. Problema 2.]
 
 ## Propoſitio decimaquarta. Problema 2.
 

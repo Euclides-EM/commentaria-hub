@@ -5,6 +5,8 @@ DBE. Aequalium igitur, & unum uni æqualem habentium angulum, &c. Quod oſtenden
 
 [Curated heading level=2 type=campanus: 15]
 
+[Curated heading level=2 type=theorems: THEOR. 11. PROPOS. 16.]
+
 ## THEOR. 11. PROPOS. 16.
 
 [Margin]

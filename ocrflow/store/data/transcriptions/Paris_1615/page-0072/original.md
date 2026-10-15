@@ -10,6 +10,10 @@ Pelletier adiouſte icy la conuerſe de ceſte propoſition, qui eſt telle. Fai
 
 Et d’autant que nous auons enſeignéee probleme en nos memoires Mathematiques, prob. 14. nous n’en ferons icy repetition.
 
+[Curated heading level=2 type=propositions: THEOR. 32. PROP. XLIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 32. PROP. XLIII.]
+
 ## THEOR. 32. PROP. XLIII.
 
 En tout parallellograme, les ſupplements des parallellogrames qui ſont ſur le diametre, ſont egaux entr’eux.
@@ -19,6 +23,10 @@ Soit le parallellograme ABCD, ſon diametre AC, à l’entour duquel ſont les 
 [Diagram]
 
 Car d’autant que par la 34.p.1.les triãgles ABC, ADC ſont egaux entr’eux: Item les triangles CIH. CFI auſſi egaux, ſi on oſte ceuxecy de ceux-là, reſteront egaux les trapezes ABHI, ADFI. Mais par la 3a.p.1. ſont auſſi egauxles triagles AEI, AGI; partant ſi on les oſte des trapezes, demeureront egaux les ſupplemens EBHI, GIFD. Ce qui eſtoit à prouu r.
+
+[Curated heading level=2 type=propositions: PROB. 12. PROP. XLIIII.]
+
+[Curated heading level=2 type=problems: PROB. 12. PROP. XLIIII.]
 
 ## PROB. 12. PROP. XLIIII.
 

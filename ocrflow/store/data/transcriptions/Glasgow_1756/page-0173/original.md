@@ -1,6 +1,10 @@
 <!-- Page number: 158 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. XVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVIII. THEOR.]
+
 ## PROP. XVIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I diviſae magnitudines ſint proportionales, et compoſitae proportionales erunt.

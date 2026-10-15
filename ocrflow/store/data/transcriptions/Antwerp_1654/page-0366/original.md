@@ -16,6 +16,8 @@ Segmentum (M Q R N) quod inter duos circulos ſiue parallelos ſiue non parallel
 Fig. 18.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXX.]
+
 ## PROPOSITIO XXX.
 
 {dropcap:H|lines=2|style=plain}Emiſphærium (E O B D) coni (EBD) eandem ſecum baſim & altitudinem habentis, duplum eſt.

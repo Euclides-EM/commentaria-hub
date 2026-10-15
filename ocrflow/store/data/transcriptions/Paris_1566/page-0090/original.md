@@ -5,9 +5,11 @@ Circulus datus ſit A B G D, eius centrum E, diameter verò A G, cui ad angulos 
 
 [Diagram]
 
-## Propoſitio ſeptima.
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
 
-## Problema 7.
+[Curated heading level=2 type=problems: Propoſitio ſeptima. Problema 7.]
+
+## Propoſitio ſeptima. Problema 7.
 
 Circa datum circulum, quadratum deſcribere.
 
@@ -15,9 +17,11 @@ Sit circulus A B G D, cuius centrum ſit E (per 1 tertij) dimetiens vero A G, cu
 
 [Diagram]
 
-## Propoſitio octaua.
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
 
-## Problema 8.
+[Curated heading level=2 type=problems: Propoſitio octaua. Problema 8.]
+
+## Propoſitio octaua. Problema 8.
 
 In dato quadrato circulum inſcribere.
 
@@ -25,9 +29,11 @@ Eſto datum quadratum A B G D, cuius duo latera A B & A D bifariam ſeccẽtur i
 
 [Diagram]
 
-## Propoſitio nona.
+[Curated heading level=2 type=propositions: Propoſitio nona.]
 
-## Problema 9.
+[Curated heading level=2 type=problems: Propoſitio nona. Problema 9.]
+
+## Propoſitio nona. Problema 9.
 
 Circa datum quadratum circulum deſcribere.
 

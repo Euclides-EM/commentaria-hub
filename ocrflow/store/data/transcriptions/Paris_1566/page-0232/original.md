@@ -3,7 +3,7 @@
 
 conſtructionis. Erit igitur æqua ratione A ad B ſicut D numerus ad Z numerum, per 22 quinti. Commenſurabiles itaque ſunt (per ſextam huius) A & B adinuicem. Quæ igitur eidem magnitudini, &c.
 
-## Corollarium primum.
+### Corollarium primum.
 
 [Subhead]
 Si binarum magnitudinum altera commenſurabilis fuerit alicui, Altera vero eidem incommenſurabilis, ipſæ magnitudines incommenſurabiles erunt.
@@ -13,7 +13,7 @@ Sit A commenſurabilis ipſi G, & eidem G ſit B incommenſurabilis: Dico A ipſ
 
 [Diagram: three horizontal line segments labelled A, G and B]
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 [Subhead]
 Si duæ magnitudines commenſurabiles fuerint, alteraque earum magnitudini cuidam incommenſurabilis fuerit, & reliqua eidem incommenſurabilis erit.
@@ -23,7 +23,7 @@ Sint binæ magnitudines A & B commenſurabiles, Alteráque earum A ſit cuidam G
 
 [Diagram: three horizontal line segments labelled A, G and B]
 
-## Corollarium tertium.
+### Corollarium tertium.
 
 [Subhead]
 Si duæ magnitudines duabus incommenſurabilibus fuerint commenſurabiles, Et ipſæ inuicem incommenſurabiles erunt.
@@ -33,9 +33,11 @@ Sit A ſcilicet commenſurabilis ipſi B, & G ipſi D, ſint autem B & D incomme
 
 [Diagram: four horizontal line segments arranged in two pairs and labelled A, G, B and D]
 
-## MONITVM.
+### MONITVM.
 
 Hæc tria præfata corollaria hanc decimam neceſſariò ſequentia, varia ſcribentium ſententia relicta ſunt. Prius etenim lemma à Zamberto exiſtimatum fuit: Ab altero verò Græcorum exemplarium theorema, & à reliquo lemma. Secundum autem, efficit Zambertus propoſitionem decimamtertiam decimi, Campanus verò ſuæ octauæ additionem efficit. Theonis demum vnum exemplar, decimum quartum dicit theorema. Tertium corollarium futuris demonſtrandis vtile hoc loco proprium ordinem ſibi aſcitum fuiſſe iudicauimus. Namque hæc tria lemmata vnico hoc decimo demonſtrantur theoremate. Quare eiuſdem potius appendices quam theoremata dici debent.
+
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
 
 ## Propoſitio vndecima.
 

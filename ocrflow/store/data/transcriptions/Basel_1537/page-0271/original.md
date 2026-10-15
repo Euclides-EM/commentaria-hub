@@ -6,6 +6,8 @@
 
 Quoniam ostensum est quod quæ longitudine commēsurabiles omnino etiam potentia sunt commensurabiles,quæ autem potentia non omnino etiam longitudine,sed uidelicet,possunt & longitudine commensurabiles esse & incommensurabiles,manifestum quod si positæ rationali commensurabilis aliqua fuerit longitudine,rationalis appellatur,& ei commensurabilis non solum longitudine uerum & potentia, quæ enim lōgitudine commensurabiles,omnino & potentia.Si autem positæ rationali commensurabilis aliqua fuerit potentia, siquidem & longitudine dicitur,etiam rationalis & ei commensurabilis longitudine & potentia.Quæ uero expositæ rursus rationali commensurabilis existens potentia,longitudine fuerit ei incommensurabilis,dicitur sic rationalis,potentia tantum commensurabilis.Procli scholion.Rationales appellat,expositæ rationali longitudine & potentia commensurabiles,aut potentia tantum.Sunt autem aliæ quoque rectæ lineæ quæ longitudine incommensurabiles sunt expositæ rationali,potentia uero tantum commensurabiles,& id propterea rursus appellantur rationales,commensurabiles adinuicem quatenus rationales.Sed commensurabiles adinuicem uel non solum potentia ueruntamen & longitudine,uel potentia tantum,& si longitudine quidem,& ipsæ rationales longitudine commensurabiles,audito quod & potētia.Si uero potentia tantum adinuicem sunt commēsurabiles:appellantur & ipsæ rationales potentia tantum commensurabiles.Quod autem rationales commēsurabiles sunt,hinc certum est. Quoniam enim rationales sunt quæ expostæ{printer-error-correction:expositæ} rationali sunt commensurabiles,quæ uero eidem commensurabiles & adinuicem sunt commensurabiles(per 12 decimi,)quæ rationales igitur,sunt commensurabiles.
 
+[Curated heading level=2 type=theorems: Theorema 16 Propositio 19]
+
 ## Eucli.ex Zamb. Theorema 16 Propositio 19
 
 [Curated heading level=3 type=zamberti_sequence: 19.]
@@ -33,6 +35,8 @@ THEON ex Zāb. Sub ratiōalibus enim lōgitudine cōmensurabilibus rectis lineis
 CAMPANVS Hæc est quasi conuersa prioris. Vt si superficies a c adiuncta ad lineam ab rationalē in longitudine,fuerit ratiōalis, dico quod latus eius secundum quod est b c erit etiam rationale in longitudine,& communicans inter primo.Sit enim a d quadratum a b,eritq́ʒ rationale ex diffinitione.& propter hoc erit communicās cum superficie a c rationali.Quia igitur per primam sexti sicut a d ad a c ita est etiam d b ad b c, comunicat autem d a cum a c,erit per primam partem decimæ b d communicans cum b c.ergo cum b a sua æquali. Sed b a,rationalis est, quare per diffinitionem & b c.Constat itaque propositum.
 
 [Diagram: tall rectangle divided at its middle by a horizontal line; labels: d at the top right corner, a and b at the ends of the dividing line (a left, b right), c at the bottom right corner]
+
+[Curated heading level=2 type=theorems: Theorema 17 Propositio 20]
 
 ## Eucli.ex Zamb. Theorema 17 Propositio 20
 

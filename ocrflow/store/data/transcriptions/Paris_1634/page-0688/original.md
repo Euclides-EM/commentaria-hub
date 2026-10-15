@@ -4,6 +4,10 @@ erit apotome prima: similiter si ex secundo binomio, 10 + √.180 subducatur min
 
 *du binome second, 10 + √.180 on oste le moindre nom, le reste qui est √.180 ∼ 10 sera le second apotome, & ainsi des autres.*
 
+[Curated heading level=2 type=propositions: PROBL. XX. PROPOS. LXXXVII.]
+
+[Curated heading level=2 type=problems: PROBL. XX. PROPOS. LXXXVII.]
+
 ## PROBL. XX. PROPOS. LXXXVII.
 
 Inuenire secundam apotomen.
@@ -41,6 +45,10 @@ constr. | cb π| ab, / n̄, est nr.□ π| nr.□,
 constr. | ab π| ac, / nr.□ π| nr.□,
 4 concl. 9. 10 | ef, comm. h,
 2d85.10 | ef, est apotom. 2.
+
+[Curated heading level=2 type=propositions: PROBL. XXI. PROPOS. LXXXVIII.]
+
+[Curated heading level=2 type=problems: PROBL. XXI. PROPOS. LXXXVIII.]
 
 ## PROBL. XXI. PROPOS. LXXXVIII.
 

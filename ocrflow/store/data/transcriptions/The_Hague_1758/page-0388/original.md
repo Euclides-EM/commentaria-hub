@@ -3,6 +3,10 @@
 
 [Figure: two cones inscribed in cylinders with circles for bases and summits, labelled a, F, b, B, A, E, D, C, Q, P and c, O, d, T, G, H, L, N, M, I, S, R; beside them two rectangular parallelepipeds labelled X and Z]
 
+[Curated heading level=2 type=propositions: PROPOSITION XII. THEOREME XII.]
+
+[Curated heading level=2 type=theorems: THEOREME XII. PROPOSITION XII.]
+
 ## PROPOSITION XII. THEOREME XII.
 
 {dropcap:L|lines=2|style=plain}Es cones (BFE & LOM) de même que les cylindres (B*ab*E & L*cd*M) ſemblables: ſont entr'eux en raiſon triplée des diamêtres (CD & IH) de leurs bazes (B*y*DEP & LTHMR).

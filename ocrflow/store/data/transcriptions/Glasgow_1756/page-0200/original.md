@@ -15,6 +15,10 @@ h. 17. 1.
 
 et propterea triangulum ABC triangulo DEF aequiangulum eſt. ſi igitur duo triangula &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. VIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VIII. THEOR.]
+
 ## PROP. VIII. THEOR.
 
 [Subhead]

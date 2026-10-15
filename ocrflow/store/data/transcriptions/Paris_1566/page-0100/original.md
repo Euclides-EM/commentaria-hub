@@ -3,6 +3,8 @@
 
 mentum, aliud verò decrementum.
 
+[Curated heading level=2 type=definitions: Diffinitio 3.]
+
 ## Diffinitio 3.
 
 Ratio eſt duarum magnitudinum eiuſdem generis, quoad quantitatem facta adinuicem habitudo.

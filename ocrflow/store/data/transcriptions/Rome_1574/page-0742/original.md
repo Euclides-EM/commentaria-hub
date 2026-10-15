@@ -5,6 +5,8 @@ nenitur; Atque adeo ſi ordo numerorum a binario duplorum infinite augeatur, omn
 
 [Curated heading level=2 type=campanus: 36]
 
+[Curated heading level=2 type=theorems: THEOR. 31. PROPOS. 33.]
+
 ## THEOR. 31. PROPOS. 33.
 
 [Margin]

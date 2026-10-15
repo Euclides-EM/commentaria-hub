@@ -37,6 +37,10 @@ baſim enim eandem habet, et in eiſdem eſt parallelis. aequale igitur eſt FEC
 
 [Diagram: geometric construction labelled A, F, G above and B, E, C below, with angle D at right]
 
+[Curated heading level=2 type=propositions: PROP. XLIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XLIII. THEOR.]
+
 ## PROP. XLIII. THEOR.
 
 {dropcap:O|lines=2|style=plain}MNIS parallelogrammi ſpatii eorum, quae circa diametrum ſunt, parallelogrammorum complementa inter ſe ſunt aequalia.

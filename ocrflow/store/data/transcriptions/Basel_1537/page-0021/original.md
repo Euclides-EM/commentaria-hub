@@ -16,6 +16,8 @@ CAMPANVS. Sit linea a b: à cuius extremitatibus a & b, protrahantur duæ lineæ
 
 [Diagram: second case: points e and f at the upper left above d, with d above c; lines from a (lower left) and b (lower right) through c and d, the lines b c and b d produced beyond the base to e and f]
 
+[Curated heading level=2 type=theorems: Theorema 4. Propositio 7.]
+
 ## Eucli. Ex Zamb. Theorema 4. Propositio 7.
 
 [Curated heading level=3 type=zamberti_sequence: 7.]

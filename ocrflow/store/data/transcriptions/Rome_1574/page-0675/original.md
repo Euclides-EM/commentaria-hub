@@ -15,6 +15,8 @@ METIATVR iam C, latus latus D. Dico & quadratum A, quadratum B, metiri. Eodem en
 
 [Curated heading level=2 type=campanus: 14]
 
+[Curated heading level=2 type=theorems: THEOR. 13. PROPOS. 15.]
+
 ## THEOR. 13. PROPOS. 15.
 
 [Margin]

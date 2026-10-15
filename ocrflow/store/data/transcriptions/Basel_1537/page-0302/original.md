@@ -18,6 +18,8 @@ CAMPANVS. Binomium sextum sicut tertium scrutãdum est, & tamen erit hic numerus
 
 [Diagram: dotted number-lines: b (a row of dots), c 16, and one row divided into d and e; below, a semicircle on base f g with two chords drawn from f and g meeting at the apex on the arc, the letter b inside the triangle; beneath it a solid line labeled a 13]
 
+[Curated heading level=2 type=problems: Problema 18 Propositio 53]
+
 ## Eucl. ex Zamb. Problema 18 Propustio{printer-error-correction:Propositio} 53
 
 [Curated heading level=3 type=zamberti_sequence: 53.]

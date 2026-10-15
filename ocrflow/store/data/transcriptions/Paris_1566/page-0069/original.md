@@ -4,6 +4,8 @@ Sumatur extra circulum A B G ſignum D, à quo in circulum ducantur aliæq́ rec
 
 [Diagram: circle with external point D, centre M, diameter D M A, and several labelled secants]
 
+[Curated heading level=2 type=propositions: Propoſitio nona.]
+
 ## Propoſitio nona.
 
 Si in circulo ſuſcipiatur aliquod ſignum, & ab eo in circunferentiam cadant plures quàm duæ rectæ lineæ æquales, ſuſceptum ſignum centrum eſt circuli.
@@ -12,7 +14,7 @@ Eſto circulus A B G, in quo ſuſcipiatur ſignum aliquod D, à quo in circunfe
 
 [Diagram: circle labelled A, B, G, D, E and Z, with chords A B and B G and lines passing through D]
 
-## Monitum 7. 8. & 9. propoſitionis.
+### Monitum 7. 8. & 9. propoſitionis.
 
 Quoniam dixit Theon à ſigno in circulo exiſtente in circulum rectam duci, quod iuxta eius diffinitiones videtur ridiculum, cùm iam illud ſignum ſumptum ſit in circulo, loco etenim circunferentiæ circulum ſumpſerat. Diximus in circunferentiam rectas cadere. Communis verò fuit huius & duarum præcedentium defectus iſte, quo poſthac pluries abutetur, vt autem qui textus ſolos quandoque perlegent ambiguitatem facilius euitent, diximus poſtrema parte duarum præcedentium, binas lineas æquales, non autem duas, eò quòd plures duabus æquales binæ & binæ dari poſſint, ideo diximus binas, vt coniunctim duæ non diuiſim plures duabus exiſtimentur dari æquales.
 

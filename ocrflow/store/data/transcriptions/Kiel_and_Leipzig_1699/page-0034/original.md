@@ -6,6 +6,10 @@
 
 Also ist die Gestalt ABC ein gleichseitig Dreyeck/ nach 23. Beschreib. und auff den gegebenen Strich AB gesetzet. W. Z. M. q. e. f.
 
+[Curated heading level=2 type=propositions: Der II. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 2. Werck-Stück. Der II. Vortrag.]
+
 ## Der II. Vortrag.
 ## Das 2. Werck-Stück.
 

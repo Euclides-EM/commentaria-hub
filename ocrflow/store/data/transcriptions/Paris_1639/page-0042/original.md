@@ -6,6 +6,8 @@ hyp. | b 2|2 ½c,
 
 [Figure]
 
+[Curated heading level=3 type=axioms: AXIOME 7. a. b.]
+
 ### 7. a. b.
 
 La moitié du plus grand excede la moitié du plus petit.
@@ -17,6 +19,8 @@ hyp. | b 2|2 ½d,
 
 [Figure]
 
+[Curated heading level=3 type=axioms: AXIOME 7. a. c.]
+
 ### 7. a. c.
 
 Et ce qui est moitié de l'vn des égaux, est aussi moitié de l'autre des égaux.
@@ -26,6 +30,8 @@ hyp. | a 2|2 ½b,
 7.a.c. | a 2|2 ½c.
 
 [Figure]
+
+[Curated heading level=3 type=axioms: AXIOME 7. a. d.]
 
 ### 7. a. d.
 

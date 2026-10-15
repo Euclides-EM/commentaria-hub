@@ -25,6 +25,8 @@ FG couppe le ⊙ FED en D.
 EB est tangente ou touchante.
 FG est secante ou couppante.
 
+[Curated heading level=2 type=definitions: DEFINIT. III.]
+
 ## DEFINIT. III.
 
 Circuli se mutuo tangere dicuntur, qui se mutuo tangétes sese mutuo non secant.

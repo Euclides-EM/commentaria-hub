@@ -27,6 +27,8 @@ Vt autem CD, ad DG, ita eſt parallelogrammum CE, ad parallelogrammum DH, eiuſd
 
 [Curated heading level=2 type=campanus: 23]
 
+[Curated heading level=2 type=theorems: THEOR. 19. PROPOS. 26.]
+
 ## THEOR. 19. PROPOS. 26.
 
 [Curated heading level=3 type=incipit: SI]

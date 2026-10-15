@@ -28,6 +28,8 @@ QVOD ſi prima cum ſecunda ad ſecundam, minorem proportionem habuerit, quam te
 
 [Curated heading level=2 type=campanus: 30]
 
+[Curated heading level=2 type=theorems: THEOR. 30. PROPOS. 30.]
+
 ## THEOR. 30. PROPOS. 30.
 
 [Curated heading level=3 type=incipit: SI]

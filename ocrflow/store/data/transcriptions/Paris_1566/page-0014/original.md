@@ -13,7 +13,7 @@ Et quicquid rerum maximus orbis habet.
 Nobilitas vera eſt virtus, virtute paratur  
 Gloria, quæ nullo eſt interitura die.
 
-## Eiuſdem ad eundem.
+Eiuſdem ad eundem.
 
 Nobilis is vulgo eſt ad quem labentibus annis  
 De claro patrum ſtemmate manat honos.  

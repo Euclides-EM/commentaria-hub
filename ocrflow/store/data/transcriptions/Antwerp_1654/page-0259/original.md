@@ -3,6 +3,8 @@
 
 R A B rectus eſt. Ergo anguli, R A B & R A O æquales ſunt. Quod eſt abſurdum.
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO VI.]
+
 ## PROPOSITIO VI.
 
 [Curated heading level=2 type=figures: Fig. 14]

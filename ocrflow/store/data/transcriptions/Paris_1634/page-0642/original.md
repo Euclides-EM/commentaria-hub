@@ -32,6 +32,10 @@ constr. 6 concl. | ab π ac 2|2 nr.□. π nr.□
 9.19 | d comm. h
 3d48.10 | df, est binom.
 
+[Curated heading level=2 type=propositions: PROBL. XVI. PROPOS. LII.]
+
+[Curated heading level=2 type=problems: PROBL. XVI. PROPOS. LII.]
+
 ## PROBL. XVI. PROPOS. LII.
 
 Inuenire ex binis nominibus quartam.

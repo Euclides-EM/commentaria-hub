@@ -5,9 +5,13 @@ Sumatur cubus ABCDEFGH, cuius ſecentur ſingula latera bifariam, ductis rectis 
 
 [Figure: cube with inscribed octahedron, vertices labelled A, B, C, F, G, H and interior signs P, L, K, R, E, I, O, D, S, N, Q, M]
 
-## Corollarium.
+### Corollarium.
 
 Rectæ baſium oppoſitarum cubi centra coniungentes, bifariam & ad rectos in centro cubi (ſiue Sphæræ eum continentis) ſeſe ſecant. Cùm enim angulos octahedri cubo inſcripti rectæ LM IO centra coniungētes nectant, ſequetur (ex corollario tertio decimæquartæ decimitertii) ipſas in ſigno ſeſe bifariam ſecare, ſed & dimetientes cubi bifariam ſecant, per 39 vndecimi: illud igitur ſignum centrum erit ſphæræ cubum continentis. Nam centro ſigno, interuallo verò aliqua ex ſemidimetientibus, ſphæra ducetur per cubi angulos, interuallo autem dimidia LM ſphæra, haud ſecus per octahedri angulos ducetur.
+
+[Curated heading level=2 type=propositions: Propoſitio quarta.]
+
+[Curated heading level=2 type=problems: Propoſitio quarta. Problema 4.]
 
 ## Propoſitio quarta. Problema 4.
 

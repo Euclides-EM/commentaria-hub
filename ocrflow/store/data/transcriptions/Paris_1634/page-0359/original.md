@@ -13,6 +13,10 @@ Hinc manifestum est, si tres rectæ lineæ proportionales fuerint, vt est prima 
 
 Il est manifeste de ceste demonstration, que si trois lignes droictes sont proportionelles, comme la premiere sera à la troisiesme, ainsi le triangle descrit sur la premiere sera au triangle semblable, & semblablement descrit sur la seconde : ou bien ainsi sera le triangle descrit sur la seconde au triangle semblable, & semblablement descrit sur la troisiesme.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XX.]
+
 ## THEOR. XIV. PROPOS. XX.
 
 Similia polygona in similia triangula diuiduntur, & numero æqualia, & homologa totis : Et polygona duplicatā habent eam inter se rationem, quam latus homologum ad homologum latus.

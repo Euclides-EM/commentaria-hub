@@ -4,6 +4,10 @@
 
 [Figure: parallelogram A B D C with dotted diagonal from A to D, angles s and n at A, angles m and r at D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIV. THEOREME XXIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIV. PROPOSITION XXXIV.]
+
 ## PROPOSITION XXXIV. THEOREME XXIV.
 
 {dropcap:E|lines=2|style=plain}N tout parallélogramme (BC), les côtés oppoſés (AC, BD item CD, AB) & les angles oppoſés (B, C item *m* ＋ *r*, *n* ＋ *s*) ſont égaux entr'eux & la diagonale (AD) le coupe en deux également.

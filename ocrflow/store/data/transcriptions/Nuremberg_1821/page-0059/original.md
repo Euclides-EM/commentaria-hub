@@ -2,17 +2,29 @@
 
 Eben ſo: Da x=u, ſo iſt x+y=u+y (2 Grundſ.) aber u+y=2R, (14 Satz,) alſo auch x+y=2R.
 
+[Curated heading level=2 type=propositions: N. 30 Neun und dreißigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 30 Neun und dreißigſter Satz. Lehrſatz.]
+
 ## N. 30 Neun und dreißigſter Satz. Lehrſatz.
 
 Zwei gerade Linien die mit einer dritten geraden Linie parallel ſind, ſind auch miteinander parallel.
 
 Beweis. Siehe die Uiberſ. von Lor. und B.
 
+[Curated heading level=2 type=propositions: N. 31 Vierzigſter Satz. Aufgabe.]
+
+[Curated heading level=2 type=problems: N. 31 Vierzigſter Satz. Aufgabe.]
+
 ## N. 31 Vierzigſter Satz. Aufgabe.
 
 Durch einen gegebenen Punkt mit einer gegebenen geraden Linie eine Parallele zu ziehen.
 
 Aufl. und Bew. Siehe die Uiberſ. von L. od. B.
+
+[Curated heading level=2 type=propositions: N. 33 Ein und vierzigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 33 Ein und vierzigſter Satz. Lehrſatz.]
 
 ## N. 33 Ein und vierzigſter Satz. Lehrſatz.
 

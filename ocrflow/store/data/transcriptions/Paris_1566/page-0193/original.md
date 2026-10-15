@@ -2,9 +2,11 @@
 
 G metietur B, vicißim itaque D metietur A vt E ipſum G, ac inſuper D metietur G vt E ipſum B, per 15 ſeptimi. Quoties D E metiuntur A G, tot ſint vnitates in Z. Quoties verò ſimiliter metiuntur iidem D E ipſos G B, tot ſint vnitates in I. Quoniam ſub D & Z comprehenditur A, ſub E & I verò continetur B, ipſi A & B plani ſunt numeri, per 17 diffinitionem ſeptimi. Eorum verò latera D Z & E I. Quia verò ſub D & I extremis fit G & ſub mediis E & Z fit idem G, quatuor magnitudines D ad E vt Z ad I ſunt proportionales, per 16 ſexti, & 19 ſeptimi. Vicißim igitur, per quindecimam ſeptimi, erunt D ad Z, vt E ad I latera proportionalia. Ipſi igitur A & B ſimiles erunt plani, per 22 diffinitionem ſeptimi. Si duorum itaque numerorum vnus medius fuerit, &c.
 
-## MONITVM.
+### MONITVM.
 
 Aliquas ſeorſum demõſtrare voluimus propoſitiones, vt hac ſecũda parte ſegregantes rationis multiplicis naturam, ab aliarum rationũ natura, cùm ea minimos numeros in minimis eius partibus veluti reliquæ nõ ſuſcipiat, ſed loco minimorum ſemper vnitatem cum numero recepit. Quod itaque per minimos in alijs rationibus oſtenderunt Theon & Campanus, illud idem multiplici per vnitatem & numerum cõuenire rationi docuimus hoc loco, licet non ſemper quæ minimis numeris conueniunt, vnitati & numero conuenire recipiamus. Sed cùm rationes puras numerorum per primos & minimos oſtendemus aliquid efficere, ididem cùm opus erit facto, rationes multiplices per vnitatem & numerum efficere demonſtrabimus: nam illæ ſunt eius rationis minimæ partes.
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaprima.]
 
 ## Propoſitio vigeſimaprima.
 
@@ -14,7 +16,7 @@ Sint duorum A & B bini medij continuè proportionales G & D: Dico A & B ſimiles
 
 [Diagram: horizontal lines labelled T 3, K 3, L 4, M 4, N 3, E 9, Z 12, I 16, S 4, A 27, G 36, D 48, B 64]
 
-## MONITVM.
+### MONITVM.
 
 Hanc in multiplici ratione noluimus oſtendere, prolixitatem vitantes, ſufficit enim præcedentem ac alias quaſdam oſtendiſſe. Cùm enim his demonſtrandis exquiruntur minimi datæ rationis numeri, vt eos eandem rationem habentes alios metiri oſtendamus. Scimus perſpicuè eos quorum vnus eſt vnitas, verè propoſitæ rationis minimas numerorum partes obtinere, & proinde metiri reliquos neceſſario maiores (per 15 ſeptimi) cùm ſint multiplices, vt minimi reliquarum rationum, maiores metiuntur, per 21 ſeptimi. Quia verò his demonſtrationibus, numerorum generalem naturam docentibus, per minimorum numerorum methodum, facilis fit notitia an his conueniant rationes multiplices, minimos numeros non habentes, an non. Demonſtrationem rationum non multipli-
 

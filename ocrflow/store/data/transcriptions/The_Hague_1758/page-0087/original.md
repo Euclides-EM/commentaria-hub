@@ -3,6 +3,10 @@
 
 [Diagram: rectangle E, H, A, D divided by verticals at B (F) and C (G), with perpendicular K above E and a separate vertical line labelled N]
 
+[Curated heading level=2 type=propositions: PROPOSITION I. THEOREME I.]
+
+[Curated heading level=2 type=theorems: THEOREME I. PROPOSITION I.]
+
 ## PROPOSITION I. THEOREME I.
 
 {dropcap:S|lines=2|style=plain}I de deux lignes droites (AD & N), l'une (comme AD) eſt coupée en tant de parties (AB, BC, CD) que l'on voudra: le rectangle compris de ces deux droites (AD & N) eſt égal aux rectangles compris de la droite entiere (N), & de chaque partie (AB, BC, CD) de la coupée (AD).

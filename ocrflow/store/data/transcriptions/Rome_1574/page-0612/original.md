@@ -16,6 +16,8 @@
 
 [Curated heading level=2 type=campanus: 19]
 
+[Curated heading level=2 type=theorems: THEOR. 20. PROPOS. 22.]
+
 ## THEOR. 20. PROPOS. 22.
 
 [Margin]

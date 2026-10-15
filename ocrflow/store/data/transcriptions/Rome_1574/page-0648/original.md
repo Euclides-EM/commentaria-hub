@@ -5,6 +5,8 @@ ex ſcholio propos. 1. huius lib. liquet; Tamen non ſemper e cõtrario, numeri 
 
 [Curated heading level=2 type=campanus: 4]
 
+[Curated heading level=2 type=problems: PROBL. 2. PROPOS. 4.]
+
 ## PROBL. 2. PROPOS. 4.
 
 [Margin]

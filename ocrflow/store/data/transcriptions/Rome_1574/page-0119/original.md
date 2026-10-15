@@ -10,6 +10,8 @@ ad H; Cũ igitur angulus ABC ſit rectus, erit angulus ABH, illi deinceps æqual
 
 RECTE autem hoc loco monet Pappus, axioma iſtud nõ poſſe conuerti; non enim omnis angulus recto angulo æqualis, rectus eſt, cum & curuilineus recto æqualis eſſe queas, vt in 5. lib. dicemus, qui tamen non dicitur rectus, cum non ſit rectilineus. Solus igitur angulus rectilineus æqualis angulo recto, rectus nuncupabitur: Et omnes anguli recti inter ſe æquales erunt, ſine vlla exceptione.
 
+[Curated heading level=2 type=axioms: XI.]
+
 ### XI.
 
 [Curated heading level=4 type=incipit: ET]

@@ -6,6 +6,8 @@ d, non ergo portiones similes per diffinitionē. Quod si secundo modo, erit adhu
 
 [Diagram: three figures of two unequal similar segments upon the same base a b, the apexes marked c and d; in the third the line b d cuts a c and the smaller circumference in e]
 
+[Curated heading level=2 type=theorems: Theorema 21. Propositio 23.]
+
 ## Eucli.ex Zamb. Theorema 21. Propositio 23.
 
 [Curated heading level=3 type=zamberti_sequence: 23.]
@@ -33,6 +35,8 @@ SI circulorum similes portiones supra lineas æquas fuerint, ipsas portiones æq
 CAMPANVS. Sint duæ lineæ a b & c d æquales, super quas sunt duæ portiones circulorum a e b, c f d, quæ sunt similes. Dico quod ipsæ sunt æquales. Si enim non sunt æquales, altera earum superposita alteri, excedet maior minorem. sed linea a b, non excedet lineā c d, nec excedetur ab ea: cū sint æquales. Quare accidet contrarium præmissæ, quod est impossibile. Erit enim a b & c d linea una.
 
 [Diagram: two equal segments, the one with apex e upon the base a b, the other with apex f upon the base c d]
+
+[Curated heading level=2 type=theorems: Theorema 22. Propositio 24.]
 
 ## Eucli ex Zamb. Theorema 22. Propositio 24.
 

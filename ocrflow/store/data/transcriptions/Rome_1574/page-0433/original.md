@@ -24,6 +24,8 @@ erit & HN, ſic multiplex ſecundæ CB, ut LO, multiplex eſt quartæ FE. Itaque
 
 [Curated heading level=2 type=campanus: 18]
 
+[Curated heading level=2 type=theorems: THEOR. 18. PROPOS. 18.]
+
 ## THEOR. 18. PROPOS. 18.
 
 [Curated heading level=3 type=incipit: SI]

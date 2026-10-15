@@ -6,6 +6,8 @@ CAMPANVS. Sit triangulus a b c, habens angulum a, obtusum. A pūcto c, ducatur l
 
 [Diagram: obtuse-angled triangle with b at the left, c at the right, a and d at the top; the perpendicular from c meets the extension of b a at d]
 
+[Curated heading level=2 type=theorems: Theorema 11. Propositio 12.]
+
 ## Eucli. ex Zamb. Theorema 11. Propositio 12.
 
 [Curated heading level=3 type=zamberti_sequence: 12.]

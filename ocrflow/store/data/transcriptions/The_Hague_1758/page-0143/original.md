@@ -4,6 +4,10 @@
 
 [Diagram: two circles BADM and EFHN with centres C and G, chords BD and EH, and dotted radii CB, CD, GE and GH]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIX. THEOREME XXVI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXVI. PROPOSITION XXIX.]
+
 ## PROPOSITION XXIX. *THEOREME XXVI.*
 
 {dropcap:D|lines=2|style=plain}Ans les cercles égaux (BADM, EFHN): les arcs égaux (BMD, ENH) ſont ſoustendus par des cordes égales (BD, EH).

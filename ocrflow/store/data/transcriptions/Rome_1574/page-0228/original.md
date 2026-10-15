@@ -19,6 +19,8 @@ POSSENT hæc omnia multo breuius probari per ſuperpoſitionẽ quadrati vnius �
 
 [Curated heading level=2 type=campanus: 46]
 
+[Curated heading level=2 type=theorems: THEOR. 33. PROPOS. 47.]
+
 ## THEOR. 33. PROPOS. 47.
 
 [Margin]

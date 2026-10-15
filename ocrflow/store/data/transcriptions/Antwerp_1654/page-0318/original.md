@@ -1,6 +1,10 @@
 <!-- Running title: Ex Archimede. -->
 <!-- Page number: 283 -->
 
+[Curated heading level=1 type=propositions: Selecta ex Archimede]
+
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO PRIMA.]
+
 ## PROPOSITIO PRIMA.
 
 {dropcap:D|lines=2|style=plain}Atæ ſint figuræ quæcunque, ſeu planæ ſeu ſolidæ, A, B. Sint autem magnitudines aliæ ſemper atque aliæ, quæ figuras datas A ac B ſemper minùs ac minùs excedendo, in ipſas a deſinant, & tamen ſemper inter ſe æquales ſint.

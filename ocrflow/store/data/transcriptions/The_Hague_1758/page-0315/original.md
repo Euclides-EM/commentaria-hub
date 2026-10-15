@@ -3,6 +3,10 @@
 
 [Diagram: plane ZX containing points B, D and E, with perpendiculars AB and CD; dotted lines join A to D and E, and B to D and E]
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THEOREME VI.]
+
+[Curated heading level=2 type=theorems: THEOREME VI. PROPOSITION VI.]
+
 ## PROPOSITION VI. THEOREME VI.
 
 {dropcap:S|lines=2|style=plain}I deux lignes droites (AB & CD) ſont perpendiculaires ſur un Plan (ZX); Elles ſont Paralleles.

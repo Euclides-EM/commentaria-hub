@@ -3,6 +3,10 @@
 
 [Diagram: a parallelogram in perspective repreſenting a plane, labelled X and Z; a vertical line BA riſes from point A in the plane; a dotted vertical line deſcends from point D above the plane to point C in the plane, with a dotted line joining A to C]
 
+[Curated heading level=2 type=propositions: PROPOSITION XII. PROBLEME II.]
+
+[Curated heading level=2 type=problems: PROBLEME II. PROPOSITION XII.]
+
 ## PROPOSITION XII. PROBLEME II.
 
 {dropcap:D|lines=2|style=plain}'Un point donné (A) dans un Plan (XZ), élever une perpendiculaire BA.

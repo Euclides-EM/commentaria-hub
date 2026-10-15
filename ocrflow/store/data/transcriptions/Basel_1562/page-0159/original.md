@@ -11,6 +11,8 @@
 
 Diſe propoſition iſt leicht zůuerſtehn / vnd zaigt an / wie der erſt gemain verſtand / ſo zway ding ainen anderen gleich ſeind / vnd härgegen / ꝛc. auch in proportzen / welche nichts anders ſeind / dann ain gewiß vergleichung jren platz / vnd krafft habe. Gib ich dir ſelbſt ferner zůbetrachten.
 
+[Curated heading level=2 type=propositions: VIII. Die acht propoſition]
+
 ## VIII. Die acht propoſition.
 
 {dropcap:S|lines=2|style=plain}o zwo vngleiche quantiteten gegen ainer geſchetzt werden / wirt die proportion der gröſſern gegen der ſelben gröſſer ſein / dan der klainern. Härgegen aber / wirt die ſelb quantitet gegen der klainern ain gröſſere proportion machen dann gegen der gröſſern.

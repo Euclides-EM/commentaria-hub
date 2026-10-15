@@ -9,6 +9,10 @@ a. 4. Def. 11. b. 13. 11.
 
 ſimiliter oſtendemus et DF perpendicularem eſſe ad ſubjectum planum. quare ab eodem puncto D ſubjecto plano duae rectae lineae ad rectos angulos conſtitutae ſunt ex eadem parte, quod fieri non poteſtᵇ. non igitur ſubjecto plano a puncto D ad rectos angulos conſtituetur alia recta linea praeter ipſam DB communem planorum AB, BC ſectionem. Quare DB ſubjecto plano eſt perpendicularis. Ergo ſi duo plana &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XX. THEOR.]
+
 ## PROP. XX. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſolidus angulus tribus angulis planis contineatur, duo quilibet reliquo majores ſunt, quomodocunque ſumpti.

@@ -20,6 +20,10 @@ ABC ⋏ DEF
 BCA ⋏ EFD
 und ABC ⏉ DEF } alles nach 4. Vortr. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der IX. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 4. Werck-Stück. Der IX. Vortrag.]
+
 ## Der IX. Vortrag.
 
 ## Das 4. Werck-Stück.

@@ -10,6 +10,10 @@ Autrement ſi elles n’eſtoient paralles, eſtans cõtinuees, eiles ſe renco
 
 D Parallels, eſtans continuez ils ne ſe rencontrent iamais: il faudroit donc que les lignes HEI, FGI (leſquelles ſe rencontrent) fuſſent en partie ſur leurs plans, en partie dehors, ce qui eſt contre la 1.p.11. Donc HE & GF eſtant continuees ne ſe rencontrent point, & partant ſont paralleles: ce qui eſtoit a prouuer.
 
+[Curated heading level=2 type=propositions: THEO. 15. PROP. XVII.]
+
+[Curated heading level=2 type=theorems: THEO. 15. PROP. XVII.]
+
 ## THEO. 15. PROP. XVII.
 
 Si deux lignes droictes ſont couppees par pluſieurs plans parallels, elles ſeront couppees proportionnellement.

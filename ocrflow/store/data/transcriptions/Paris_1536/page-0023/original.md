@@ -8,6 +8,8 @@ Trilaterarũ figurarum ab angulis differentiæ.
 
 [Curated heading level=3 type=numbered_item: 27.]
 
+[Curated heading level=2 type=definitions: Diffinitio 27.]
+
 27 Amplius trilaterarum figurarum, rectangulum triangulum eſt, quod rectum angulum habet.
 
 Vt iſoſceles b, vel ſcalenum triangulum e, proxima diffinitione deſcriptum.
@@ -20,6 +22,8 @@ Amblygoniũ
 
 [Curated heading level=3 type=numbered_item: 28.]
 
+[Curated heading level=2 type=definitions: Diffinitio 28.]
+
 28 Amblygonium autem, quod obtuſum angulum habet.
 
 Veluti antecedens iſoſceles d, ſcalenúmve triangulum g.
@@ -31,6 +35,8 @@ Oxygoniũ
 [/Margin]
 
 [Curated heading level=3 type=numbered_item: 29.]
+
+[Curated heading level=2 type=definitions: Diffinitio 29.]
 
 29 Oxygonium verò, quod tres habet acutos angulos.
 
@@ -52,6 +58,8 @@ Quadratum eſt equilaterum et rectãgulũ
 
 [Curated heading level=3 type=numbered_item: 30.]
 
+[Curated heading level=2 type=definitions: Diffinitio 30.]
+
 30 Quadrilaterarum autem figurarum, quadratũ quidem eſt, quod & æquilaterum & rectangulum eſt.
 
 [Margin]
@@ -70,6 +78,8 @@ Quatuor ſequẽtia ſunt parallelogrammata
 
 [Curated heading level=3 type=numbered_item: 31.]
 
+[Curated heading level=2 type=definitions: Diffinitio 31.]
+
 31 Altera parte longius, eſt quod rectangulum quidem, at æquilaterum non eſt.
 
 Quemadmodũ ſupraſcripa figura k, quoad angulorum rectitudinem conueniẽs cum ipſo quadrato, diſſidens autem ex parte laterum.
@@ -81,6 +91,8 @@ Rhombus
 [/Margin]
 
 [Curated heading level=3 type=numbered_item: 32.]
+
+[Curated heading level=2 type=definitions: Diffinitio 32.]
 
 32 Rhombus, eſt quæ æquilatera, at rectangula non eſt.
 
@@ -95,6 +107,8 @@ Rhomboides
 [/Margin]
 
 [Curated heading level=3 type=numbered_item: 33.]
+
+[Curated heading level=2 type=definitions: Diffinitio 33.]
 
 33 Rhomboides verò, eſt quæ ex oppoſito latera & angulos habens æquales, neque æquilatera, neque rectangula eſt.
 
@@ -111,6 +125,8 @@ Trapezia
 [/Margin]
 
 [Curated heading level=3 type=numbered_item: 34.]
+
+[Curated heading level=2 type=definitions: Diffinitio 34.]
 
 34 Præter hæc autem reliqua quadrilatera, trapezia adpellantur.
 

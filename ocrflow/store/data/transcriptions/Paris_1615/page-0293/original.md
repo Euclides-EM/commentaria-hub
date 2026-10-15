@@ -8,6 +8,10 @@ bre d’apres l’vnité, qu’il y en aura qui meſureront le dernier.
 
 Soient depuis l’vnité A, tant de nombres qu’on voudra continuellement proportionnaux, B, C, D, E. Ie dis qu’autant de nombres premiers ſe trouueront meſurer le dernierE, qu’il y en a qui meſurent B, lequel ſuit l’vnité Car ſi F nombre premier meſurant E dernier, ne meſure pas auſſi B; B & F ſeront premiers par la 31.p.7. Et d’autant que B multiplié par ſoy produict C; C & F ſerõt premiers par la 27. p.7.Item B multipliant C produict D;D & F ſeront premiers par la 26.p.7. Pareillement B multipliant D produict E; partant E & F ſeroient auſſi premiers contre l’hypotheſe; Donc F meſuroit auſſi B.
 
+[Curated heading level=2 type=propositions: THEOR. 13. PROP. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 13. PROP. XIII.]
+
 ## THEOR. 13. PROP. XIII.
 
 Si depuis l’vnité, il y a tant de nõbres qu’on voudra continuellement proportionn aux, & que celuy qui ſuit l’vnité ſoit premier: Le plus grand ne ſera meſuré par aucun autre nõbre, ſinon par ceux qui ſont entre les proportionnaux.

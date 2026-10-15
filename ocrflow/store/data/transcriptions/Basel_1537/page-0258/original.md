@@ -22,6 +22,8 @@ CAMPANVS Sint duæ quantitates a & b, communicantes. Dico quod earum proportio e
 
 [Diagram: at the right of the proof, three horizontal ticked lines — the long line a with three square dots d at its right; the short line c with a single dot at its right; and the line b with square dots e at its right]
 
+[Curated heading level=2 type=theorems: Theorema 3 Propositio 5]
+
 ## Eucli. ex Zamb. Theorema 3 Propositio 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]

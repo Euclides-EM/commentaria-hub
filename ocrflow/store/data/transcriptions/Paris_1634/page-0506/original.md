@@ -5,6 +5,10 @@ Demonstr.
 1.concl. 2.8 | e, h, g, & a, i, k, b snt contin. proport.
 2.concl. 4.c.2.8 | multd.. contin. proport. a, i, k, b, a, e, d, c, & b, g, f, c. snt 2|2 ꝫe,
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. XI.]
+
 ## THEOR. IX. PROPOS. XI.
 
 Duorum quadratorum numerorum vnus medius proportionalis est numerus : Et quadratus ad quadratum duplicatam habet lateris ad latus rationem.

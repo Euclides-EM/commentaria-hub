@@ -5,6 +5,10 @@ Et quoniam duorum Triangulorũ AED & AGD, duo anguli qui ad A, ſunt æquales, d
 
 [Diagram: triangle with inscribed circle and lines from an interior point, labelled A, G, E, D, B, F and C]
 
+[Curated heading level=2 type=propositions: PROBLEMA 5, PROPOSITIO V.]
+
+[Curated heading level=2 type=problems: PROBLEMA 5, PROPOSITIO V.]
+
 ## PROBLEMA 5, PROPOSITIO V.
 
 Circa datum Triangulum, Circulum deſcribere.

@@ -4,6 +4,10 @@
 
 & icelles ſe rencontrant aux trois poincts I, K, L, feront le triangle IKL, lequel ie dis eſtre le triangle demandé. Car il appert deſia qu’il eſt circonſcrit au cercle, puis que tous les coſtez d’iceluy le touchét és poincts A, B, C. Et d’autant que toute figure de quatre coſtez a les quatre angles egaux à 4. angles droicts (comme nous auons demonſtré à la 32.p.1.) le trapeze ADBI aura les 4. angles egaux à quatre droicts. Mais les deux A & B eſtans droicts par la conſtructiõ, les deux autres D&I ſeront egaux à 2.droicts c’eſt à dire egaux aux deux GDE & FDE, qui ſont egaux à deux angles droicts par la 13.p.1. & par conſtruction ADB eſt egal à GDE: donc l’angle I ſera egal à l’angle EDF. Par meſme diſcours l’angle K ſe trouuera egal à l’angle DFE. Et par la 32.p.1. le troiſieſme L ſera egal au troiſieſmeE: ainſi les triangles circonſcrita & donnez ſeront equiangles.
 
+[Curated heading level=2 type=propositions: PROBL. 4. PROP. IIII.]
+
+[Curated heading level=2 type=problems: PROBL. 4. PROP. IIII.]
+
 ## PROBL. 4. PROP. IIII.
 
 Dans vn triangle donné deſcrire vn cercle.

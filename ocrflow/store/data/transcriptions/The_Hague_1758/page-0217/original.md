@@ -3,6 +3,10 @@
 
 [Diagram: four horizontal rectangles within a ruled frame, labelled A, C, B and D, marked with roman numerals I, III, II and IV]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV. THEOREME XIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XIV. PROPOSITION XIV.]
+
 ## PROPOSITION XIV. THEOREME XIV.
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs ( A, B, C, D ) ſont proportionelles : ſelon que la premiere ( A ) ſera plus grande, égale, ou moindre, que la troiſieme ( C ), la ſeconde ( B ) ſera auſſi plus grande, égale, ou moindre que la quatrieme ( D ).

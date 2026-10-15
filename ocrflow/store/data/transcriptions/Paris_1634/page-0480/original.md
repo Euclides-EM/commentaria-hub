@@ -44,6 +44,10 @@ Ex hoc sequitur, numerum, qui ex duobus compositus ad vnum illorum primus est, a
 
 *Il s'ensuit de cecy que le nombre, lequel estant composé de deux autres, est premier à l'vn d'iceux, il sera aussi premier à l'autre.*
 
+[Curated heading level=2 type=propositions: THEOR. XXIX. PROPOS. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIX. PROPOS. XXXI.]
+
 ## THEOR. XXIX. PROPOS. XXXI.
 
 Omnis primus numerus, ad omnem numerum quem non metitur, primus est.

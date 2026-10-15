@@ -6,6 +6,8 @@
 
 [Curated heading level=2 type=campanus: 14]
 
+[Curated heading level=2 type=theorems: THEOR. 14. PROPOS. 14.]
+
 ## THEOR. 14. PROPOS. 14.
 
 [Curated heading level=3 type=incipit: SI]

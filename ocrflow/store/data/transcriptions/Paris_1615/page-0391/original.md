@@ -4,6 +4,10 @@
 
 Soit Sris qu lconue nonbre quarré A, & vn A.16. B.29 autre B non quarr. Ie dis qu’iceux nombres A& B ſont plans diſſemblables. Car s’ils eſtoient, lans ſemblables, ils ſeroient comme nombre quaꝰré.: nombre quarré, par la 26.p.8 & partant A eſtant nomirre quarré a:ſſi B ſeroit quars é par la 2 4 p.8. contre l’hypotheſe. Donc A, B, ne ſont entr'eux comme noinbre quarré à nombre quarré.
 
+[Curated heading level=2 type=propositions: PROB. 3. PROP. XI.]
+
+[Curated heading level=2 type=problems: PROB. 3. PROP. XI.]
+
 ## PROB. 3. PROP. XI.
 
 Trouuer deux lignes droictes incommenſurables à vne ligne rationele propoſee, ſçauoir vne en longitude ſeulement, & l’autre en longitude & puiſſance.

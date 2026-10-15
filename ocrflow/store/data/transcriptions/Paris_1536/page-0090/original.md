@@ -10,6 +10,10 @@ ORONTIVS. ¶Esto circulus a/b/c: quem rursum tangat recta d/e, in puncto c. & à
 
 [Diagram: a b c d e f]
 
+[Curated heading level=2 type=propositions: Theorema 18, Propositio 20.]
+
+[Curated heading level=2 type=theorems: Theorema 18, Propositio 20.]
+
 ## Θεώρημα ιη, Πρόθεσις κ.
 
 Εν κύκλῳ ἡ πρὸς τῷ κέντρῳ γωνία, διπλασίων ἐστὶ τῆς πρὸς τῇ περιφερείᾳ, ὅταν τὴν αὐτὴν περιφέρειαν βάσιν ἔχωσιν αἱ γωνίαι.

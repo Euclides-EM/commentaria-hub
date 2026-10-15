@@ -9,6 +9,10 @@ angles pris ensemble valent quatre angles droits. Mais la somme des deux angles 
 
 Car dès que AC est parallele à BD, toute autre ligne AI ou AM menée d’un côté ou d’un autre de la ligne AC est telle que la somme des angles intérieurs est plus petite ou plus grande que deux angles droits ; donc elle doit rencontrer la ligne BD.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIII.]
+
 ## PROPOSITION XXIII.
 
 ### THÉORÊME.

@@ -1,38 +1,56 @@
 <!-- Page number: 20 -->
 
+[Curated heading level=2 type=definitions: Erkl. 27)]
+
 [Curated heading level=3 type=numbered_item: 27)]
 
 27) Ein Dreieck mit einem rechten Winkel, heißt: ein rechtwinkliches Dreieck.
+
+[Curated heading level=2 type=definitions: Erkl. 28)]
 
 [Curated heading level=3 type=numbered_item: 28)]
 
 28) Ein Dreieck mit einem ſtumpfen Winkel, heißt: ein ſtumpfwinkliches Dreieck.
 
+[Curated heading level=2 type=definitions: Erkl. 29)]
+
 [Curated heading level=3 type=numbered_item: 29)]
 
 29) Ein Dreieck mit drei ſpitzigen Winkeln, heißt: ein ſpitzwinkliches Dreieck.
+
+[Curated heading level=2 type=definitions: Erkl. 30)]
 
 [Curated heading level=3 type=numbered_item: 30)]
 
 30) Ein gleichſeitiges Viereck mit vier rechten Winkeln, heißt: ein Quadrat, oder ein gleichſeitiges Rechteck.
 
+[Curated heading level=2 type=definitions: Erkl. 31)]
+
 [Curated heading level=3 type=numbered_item: 31)]
 
 31) Ein nicht gleichſeitiges Viereck mit vier rechten Winkeln, heißt: ein (längliches) Rechteck.
+
+[Curated heading level=2 type=definitions: Erkl. 32)]
 
 [Curated heading level=3 type=numbered_item: 32)]
 
 32) Ein gleichſeitiges Viereck mit vier ſchiefen Winkel, heiß{printer-error-correction:heißt}: eine Raute.
 
+[Curated heading level=2 type=definitions: Erkl. 33)]
+
 [Curated heading level=3 type=numbered_item: 33)]
 
 33) Ein Viereck mit gegenüberliegenden gleichen Seiten und vier ſchiefen Winkeln, heißt: eine längliche Raute.
+
+[Curated heading level=2 type=definitions: Erkl. 34)]
 
 [Curated heading level=3 type=numbered_item: 34)]
 
 34) Jedes andere Viereck heißt: ein Trapezium.
 
 Bemerkung. Euklid macht nemlich keinen Unterſchied zwiſchen Trapezien und Trapezoiden. Man könnte ſtatt Trapezien auch halbordentliche Vierecke, und ſtatt Trapezoiden, unordentliche Vierecke ſagen.
+
+[Curated heading level=2 type=definitions: Erkl. 35)]
 
 [Curated heading level=3 type=numbered_item: 35)]
 

@@ -4,6 +4,8 @@
 
 *γ, estq̃ quod sub α β, β γ, id quod γ ε, & id quod ex α γ, ipsum γ θ, æquū igitur est γ ε, ipsi γ θ. sed quidem γ ε, æquū est θ ε, ipsi autem γ θ, æquum est δ θ: & δ θ, igitur ipsi θ ε est æquale. Commune adijciatur θ δ, totū igitur δ κ, toti α ε est æquale, estq̃ δ κ id quod sub β δ, δ α, æqualis enim est α δ, ipsi δ λ, & α ε, ei quod ex α β: quod igitur sub β δ, δ α, æquum est ei quod ex α β. Est igitur sicut δ β ad β α, sic β α ad α δ. Maior autem est δ β, ipsa β α, maior igitur & β α, ipsa α δ, ipsa igitur β δ, extrema & media ratione secatur in α, & maius segmētū est α β. Quod erat ostendendum.*
 
+[Curated heading level=2 type=definitions: Quid sit resolutio. Quid sit compositio.]
+
 ## Quid sit resolutio.
 
 RESOLVTIO, est aßumptio quæsiti tanquam concessi per ea quæ sequuntur in uerum aliquod cōcessum.

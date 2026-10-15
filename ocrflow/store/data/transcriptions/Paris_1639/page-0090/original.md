@@ -6,6 +6,10 @@
 1.concl. 28.1 | ab == fe, γ
 2.concl. d.γ | bc == gf.
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXXV.]
+
 ## THEOR. XXV. PROPOS. XXXV.
 
 Les parallelogrammes constituez sur vne mesme base, & entre mesme paralleles, sont égaux entr'eux.

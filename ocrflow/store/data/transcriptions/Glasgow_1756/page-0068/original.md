@@ -1,6 +1,10 @@
 <!-- Running title: LIBER SECUNDUS. -->
 <!-- Page number: 53 -->
 
+[Curated heading level=2 type=propositions: PROP. I. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. I. THEOR.]
+
 ## PROP. I. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint duae rectae lineae, altera autem ipſarum ſecta fuerit in quotcunque partes; rectangulum a duabus rectis lineis contentum aequale eſt rectangulis, quae a recta linea inſecta, et ſingulis partibus continentur.

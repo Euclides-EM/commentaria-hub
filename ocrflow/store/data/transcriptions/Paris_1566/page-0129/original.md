@@ -7,6 +7,8 @@
 
 Si binarum rectarum altera ſeccetur vtcunque, rectangula ſub integra & quolibet ſegmento ſectæ comprehenſa ad ſe inuicem ſunt vt ſegmenta. Nam rectangula ſub A G integra & ſegmentis B D ſecta, ſcilicet B G, G D ad ſe inuicem ſunt, vt B G ad G D ſegmenta, ſic B A ad A D rectangula quotcunque fuerint.
 
+[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
+
 ## Propoſitio ſecunda.
 
 Si triãguli ad vnum laterũ acta fuerit aliqua recta linea parallela, proportionaliter ſecat ipſius trianguli latera: etſi trianguli latera proportionaliter ſecta fuerint. Per ſectiones ducta linea recta, parallela erit ad reliquum trianguli latus.

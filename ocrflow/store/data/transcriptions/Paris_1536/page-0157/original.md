@@ -16,6 +16,10 @@ Notandum.
 
 Triangula itaque & parallelogramma, quæ sub eadem sunt altitudine:ad se inuicem sunt,vt bases.Quod erat ostendendum.
 
+[Curated heading level=2 type=propositions: Theorema 2, Propositio 2.]
+
+[Curated heading level=2 type=theorems: Theorema 2, Propositio 2.]
+
 ## Θεώρημα β, Πρόθεσις β.
 
 Ἐὰμ τριγώνα παρὰ μίαμ τῶμ πλευρῶμ ἀχθῇ τις εὐθεῖα παράλληλος,ἀνάλογομ τεμεῖ τὰς τοῦ τριγώνου πλευράς : καὶ ἐὰμ αἱ τοῦ τριγώνου πλευραὶ ἀνάλογομ τμηθῶσιμ, ἡ ἐπὶ τὰς τομὰς ἐπιζευγνυμένη εὐθεῖα,παρὰ τὴμ λοιπὴμ ἔσαι τοῦ τριγώνου πλευρὰμ παράλληλος.

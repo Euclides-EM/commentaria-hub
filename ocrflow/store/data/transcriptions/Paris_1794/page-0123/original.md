@@ -1,6 +1,8 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 95 -->
 
+[Curated heading level=2 type=problems: PROBLÊME II.]
+
 ### PROBLÊME II.
 
 *Trouver une quatrieme proportionnelle à trois lignes données A, B, C.*
@@ -14,6 +16,8 @@ Tirez les deux lignes indéfinies DE, DF, sous un angle quelconque. Sur DE prene
 [Curated heading level=4: Corollaire.]
 
 *Corollaire.* On trouvera de même une troisieme proportionnelle aux deux lignes données A, B, car elle sera la même que la quatrieme proportionnelle aux trois lignes A, B, B.
+
+[Curated heading level=2 type=problems: PROBLÊME III.]
 
 ### PROBLÊME III.
 

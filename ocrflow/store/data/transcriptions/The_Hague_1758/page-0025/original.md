@@ -4,6 +4,10 @@
 
 [Figure: two intersecting dotted circles with centres A and B, points D and E on their outer edges, and an equilateral triangle ABC drawn on the line AB, in a double-ruled frame]
 
+[Curated heading level=2 type=propositions: PROPOSITION I. PROBLEME I.]
+
+[Curated heading level=2 type=problems: PROBLEME I. PROPOSITION I.]
+
 ## PROPOSITION I. PROBLEME I.
 
 {dropcap:S|lines=2|style=plain}Ur une droite donnée & terminée (AB); conſtruire un triangle équilatéral (ABC).

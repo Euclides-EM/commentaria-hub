@@ -20,6 +20,10 @@ hyp. | ∠a *eſt* ┘;
 3.a.b | ∠b *eſt* ┘ β
 d.β | ∠d & ∠c *ſnt* ┘.
 
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXX.]
+
 ## THEOR. XXI. PROPOS. XXX.
 
 Les lignes droictes paralleles à vne mesme ligne droicte, sont aussi paralleles entr'elles.

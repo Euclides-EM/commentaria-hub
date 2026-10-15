@@ -3,6 +3,8 @@
 
 Quadratum igitur erit GK ex recta BZ, quadratum item TZ ex recta AG. Quia verò rectis GB & BK æquales ſunt AT & ZE, rectangula AI IE ſub rectis AG, GB (hoc eſt AG, GI & EK, KI) continere bis dicentur. Sed quadratum ex AB tota, hoc eſt ABED æquũ eſt, quadratis AG, GB, hoc eſt TZ & GK, & rectangulo bis ſub AG, GB hoc eſt AI & IE ſupplementis. Si itaque recta linea ſeccetur in ſigno, quadratum, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
+
 ## Propoſitio quinta.
 
 Si recta linea ſeccetur in ſigno bifariam, & alio ſigno per inæqualia, rectangulum comprehenſum ſub inæqualibus ſegmentis totius, vna cum quadrato eius, quæ inter ſectiones eſt, æquum eſt ei quod à dimidia fit quadrato.
@@ -11,9 +13,11 @@ Proponatur recta linea AB, ſecta bifariam in G, inæqualiter autem in D. Ex dim
 
 [Diagram: geometric figure labelled B, D, G, A across the top, M, T, L, K across the middle, and Z, I, E below, with diagonal BE]
 
-## MONITVM.
+### MONITVM.
 
 Mutare cogimur aliquas demonſtrãdi rationes, eò quòd Theon videatur ſupponere quæ ad 24 ſexti expectant, ſcilicet rectam DT æqualem eſſe rectæ DB ducta diametro, & per T parallela rectæ AB, vt probet AT æquum eſſe EI quod ſub AD DB. Quot quidem ſua conſtructio vix patitur, antequam libr. ſexto circa dimetientem exiſtentia ſimilia toti concludantur, niſi per verboſas illas angulorum cõparationes tandem exprimeret. Inſuper hanc rectã AB in ſigno, ac alio ſigno diximus ſecandã, in quoduis æquales aut inæquales partes indefinitæ, ne decidat demonſtratio.
+
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
 
 ## Propoſitio ſexta.
 

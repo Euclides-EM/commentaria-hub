@@ -4,6 +4,8 @@
 
 prædictæ lineæ sunt incōmensurabiles in potentia, erit superficies e l incōmensurabilis superficiei m l, ideoq̃ & linea f l, lineæ l n : potentior igitur est per primam partem 14 linea f n linea n g, in quadrato lineæ sibi incommensurabilis. Per diffinitionem itaq̃ binomij quinti, conclude propositum.
 
+[Curated heading level=2 type=theorems: Theorema 46 Propositio 64]
+
 ## Eucli.ex Zamb. Theorema 46 Propositio 64
 
 [Curated heading level=3 type=zamberti_sequence: 64.]
@@ -35,6 +37,8 @@ CAMPANVS. In hac 59 sit linea a b linea potens supra duo medialia, quæ autem pr
 [Diagram: horizontal line with points a (left), c (middle), b (right)]
 
 [Diagram: rectangle divided by three horizontal lines; labelled down the right side g, q, n, l (g at top right corner) with f at the bottom right corner; on the left side p opposite q, m opposite l, e at the bottom left corner]
+
+[Curated heading level=2 type=theorems: Theorema 47 Propositio 65]
 
 ## Eucli.ex Zamb. Theorema 47 Propositio 65
 

@@ -12,6 +12,10 @@ Or il eſt auſſi euident que toutes lignes rationeles, ſont comment.
 
 non ſeulement à vne expoſee raionele, mais auſſi entr elles. Car puie qu par la 6.d.10. les lignes rationeles ſont celles qui ſont comminſ. l’expoſee rationele, ſoit en longitude & puiſſance, ou en puiſſance ſeulement, & qus par la 12.p.10. les commenſ. avne meſme, ſont auſſi commenſ. entr elles; il eſt manifeſte que toutes lignes rationeles. ſont commenſ. entr’elles.
 
+[Curated heading level=2 type=propositions: THEOR. 17. PROP. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. 17. PROP. XX.]
+
 ## THEOR. 17. PROP. XX.
 
 Le rectangle compris de deux lignes rationeles commenſ. en longitude ſelon quelqu’vne des manieres cy deuant dites, eſt rationel.

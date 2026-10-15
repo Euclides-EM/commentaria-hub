@@ -3,6 +3,10 @@
 
 polyedre donné. Donc ils seroient égaux à ceux du polyedre symmétrique construit sur la premiere base. D’ailleurs les faces homologues seroient toujours égales. Donc les polyedres symmétriques construits sur une base ou sur une autre auroient les faces égales et les angles solides égaux ; donc ils coïncideroient par la superposition et ne seroient qu’un seul et même polyedre.
 
+[Curated heading level=2 type=propositions: PROPOSITION III. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION III.]
+
 ## PROPOSITION III.
 
 ### THÉORÊME.

@@ -25,6 +25,8 @@ d Per 21 l.1.
 
 Pars 5. patet ex quatuor præced.
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO IX.]
+
 ## PROPOSITIO IX.
 
 [Margin]
@@ -34,6 +36,8 @@ Fig. 11.
 {dropcap:S|lines=2|style=plain}I ab aliquo intra circulum puncto (A) plures quam duæ æquales ad ambitum duci poſſint; Id punctum centrum erit.
 
 Patet ex 4. parte prop. 7.
+
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO X.]
 
 ## PROPOSITIO X.
 

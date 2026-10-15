@@ -2,6 +2,10 @@
 
 <!-- Page number: 207 -->
 
+[Curated heading level=2 type=propositions: Der IV. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 4. Werck-Stück. Der IV. Vortrag.]
+
 ## Der IV. Vortrag.
 
 ## Das 4. Werck-Stück.

@@ -17,6 +17,10 @@ suppos. | bd & dc snt incōm. ration.
 6d48.10 | bc, est binom. 6.
 6d85.10 | ec, est apotom. 6.
 
+[Curated heading level=2 type=propositions: THEOR. XC. PROPOS. CXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XC. PROPOS. CXIV.]
+
 ## THEOR. XC. PROPOS. CXIV.
 
 Quadratum rationalis ad apotomen applicatum, latitudinem facit eam, quæ ex binis nominibus, cuius nomina commensurabilia sunt apotomæ nominibus, & in eadem proportione; & adhuc, quæ ex binis nominibus fit, eundem habet ordinem quem ipsa apotome.

@@ -1,6 +1,8 @@
 <!-- Running title: Ex Archimede. -->
 <!-- Page number: 307 -->
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XIV.]
+
 ## PROPOSITIO XIV.
 
 {dropcap:C|lines=2|style=plain}Oni recti ſuperficies eſt ad baſim, vt latus (B C) ad baſis radium (A C.)

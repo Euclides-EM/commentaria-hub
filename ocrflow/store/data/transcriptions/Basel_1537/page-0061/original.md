@@ -8,6 +8,8 @@ CAMPANI additio. Et nota quod per hoc iuuenitur latus tetragonicum cuiuslibet al
 
 [Diagram: right-angled triangle with vertices r, h, g and lines drawn to the hypotenuse; beside it three separate segments l k, h k and h g; at the right an irregular rectilinear figure with points b, d, c, e, a, f divided by diagonals into three triangles]
 
+[Curated heading level=2 type=problems: Problema 2. Propositio 14.]
+
 ## Eucli. ex Zamb. Problema 2. Propositio 14.
 
 [Curated heading level=3 type=zamberti_sequence: 14.]

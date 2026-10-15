@@ -29,6 +29,10 @@ s.46.1 | bc 2|2 ge,
 constr. | <abc est ⌐,
 2.concl. 1.c.13.1 | <abg est ⌐.
 
+[Curated heading level=2 type=propositions: PROBL. X. PROPOS. X.]
+
+[Curated heading level=2 type=problems: PROBL. X. PROPOS. X.]
+
 ## PROBL. X. PROPOS. X.
 
 Data hypothenusa trianguli rectanguli, & media proportionali inter basin & perpendiculum, inuenire ttiangulum.

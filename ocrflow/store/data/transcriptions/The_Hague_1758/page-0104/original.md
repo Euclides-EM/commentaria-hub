@@ -3,6 +3,10 @@
 
 [Diagram: within a double-ruled frame, a hatched quadrilateral labelled A, and to its right a dotted semicircle B G F on the line B E F with lines drawn to G from H and E, above a hatched rectangle B C D E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV. PROBLEME II.]
+
+[Curated heading level=2 type=problems: PROBLEME II. PROPOSITION XIV.]
+
 ## PROPOSITION XIV. PROBLEME II.
 
 {dropcap:C|lines=2|style=plain}Onſtruire un quarré ; égal à une figure rectiligne donnée (A).

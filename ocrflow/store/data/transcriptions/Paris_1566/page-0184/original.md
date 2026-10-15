@@ -2,6 +2,10 @@
 
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber octauus.
 
+[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber octauus.]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
+
 ## Propoſitio prima.
 
 {dropcap:S|lines=5|style=decorated|decoration="large foliate ornamental initial"}I fuerint quotcunque numeri continuè proportionales, extremi verò ipſorum primi adinuicẽ fuerint, omnes minimi ſunt eandem rationem habentium eis.
@@ -10,9 +14,13 @@ Sint quotcũque cõtinuè proportionales numeri A B G D, quorum extremi A & D ſ
 
 [Diagram: nine horizontal lines labelled A 8, B 12, G 18, D 27, E, Z, I, T]
 
-## Propoſitio ſecunda.
+[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber octauus.]
 
-## Problema 1.
+[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
+
+[Curated heading level=2 type=problems: Propoſitio ſecunda. Problema 1.]
+
+## Propoſitio ſecunda. Problema 1.
 
 Numeros quotlibet continuè proportionales in data ratione minimos inuenire.
 
@@ -20,7 +28,7 @@ Sit data ratio A ad B (per 35 ſeptimi) in minimis numeris, et multiplicans A ſ
 
 [Diagram: nine horizontal lines labelled A 3, B 4, G 9, D 12, E 16, Z 27, I 36, T 48, K 64]
 
-## Corollarium.
+### Corollarium.
 
 Si fuerint tres numeri continue proportionales minimi eiuſdem rationis, extremi quadrati erunt: Si autem fuerint quatuor, extremi cubi erunt. nã extremi trium fiunt ex ductu ipſorum
 

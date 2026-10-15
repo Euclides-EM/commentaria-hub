@@ -20,6 +20,10 @@ Demonstr.
 α.7.d.7 | cd, est nr.pa.
 24.7 | ac, est nr.pa.
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXVII.]
+
 ## THEOR. XXV. PROPOS. XXVII.
 
 Si ab impari numero par detrahatur : reliquus impar erit.
@@ -48,6 +52,10 @@ hyp. | ab, est nr. impa.
 hyp. | cb, est nr.pa.
 24.7 | dc, est nr. pa.
 concl. 7.d.7 | ac, est nr. impa.
+
+[Curated heading level=2 type=propositions: THEOR. XXVI. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVI. PROPOS. XXVIII.]
 
 ## THEOR. XXVI. PROPOS. XXVIII.
 

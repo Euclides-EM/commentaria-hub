@@ -24,6 +24,10 @@ Demonstr.
 constr. | bc π ef 2|2 fg π cd,
 2.concl. 14.6 | ▭bd 2|2 ▭eg.
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. V.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. V.]
+
 ## PROBL. V. PROPOS. V.
 
 Propositis quotcunque quadratis, inuenire quadratum omnibus illis æquale.

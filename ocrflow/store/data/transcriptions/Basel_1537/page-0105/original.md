@@ -10,6 +10,8 @@ CAMPANVS. Sit propositus circulus a b c, cuius centrum f. volo circa ipsum desig
 
 [Diagram: circle with centre f, circumscribed pentagon g m l k h touching the circle at a, d, b, c, e, with radial lines from f to the points of contact and to the corners of the pentagon; labels g, a, m, d, f, e, b, c, l, k, h]
 
+[Curated heading level=2 type=problems: Problema 12 Propositio 12]
+
 ## Eucli.ex Zamb. Problema 12 Propositio 12
 
 [Curated heading level=3 type=zamberti_sequence: 12.]

@@ -15,6 +15,10 @@ und CD | Bley-rechter Senck-strich/nach 10. Beschr.
 
 Und ist also der begehrte bley-rechte Senckstrich CD auff den gegebenen Strich AB, und zwar auff den gegebenen Düttel C gesetzet/W. Z. M.
 
+[Curated heading level=2 type=propositions: Der XII. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 7. Werck-Stück. Der XII. Vortrag.]
+
 ## Der XII. Vortrag.
 
 ## Das 7. Werck Stück:

@@ -30,6 +30,10 @@ suppos. | h π g 2|2 d π e,
 β.8.5 | h π c 2|3 a π c,
 concl. 13.5 | d π f 2|3 a π c.
 
+[Curated heading level=2 type=propositions: THEOR. XXXII. PROPOS. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXII. PROPOS. XXXII.]
+
 ## THEOR. XXXII. PROPOS. XXXII.
 
 Si sint tres magnitudines, & aliæ ipsis æquales

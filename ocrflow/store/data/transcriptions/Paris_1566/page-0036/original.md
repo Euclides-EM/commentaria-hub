@@ -1,11 +1,13 @@
 <!-- Running title: LIBER PRIMVS. -->
 <!-- Page number: 6 -->
 
-### MONITVM.
+#### MONITVM.
 
 Tranſtulimus Iſoſcelium triangulorum pluralem vocem in ſingularem, ne incumbant diſcentes ſuper comparatione angulorum plurium Iſoſcelium adinuicem, ſed tantùm comparationi angulorum cuiuſlibet Iſoſcelis & eiuſdem inter ſe.
 
-## Propoſitio 6.
+[Curated heading level=2 type=propositions: Propoſitio 6.]
+
+### Propoſitio 6.
 
 Si trianguli duo anguli æquales adiuicem fuerint, æquales quoque angulos ſubtendentia latera æqualia erunt.
 
@@ -13,7 +15,9 @@ Sit triangulum GBA æquos habens angulos GAB, BGA: Dico latera AG & AB (eos ſub
 
 [Diagram: triangle ABG with point D on AB and line DG]
 
-## Propoſitio 7.
+[Curated heading level=2 type=propositions: Propoſitio 7.]
+
+### Propoſitio 7.
 
 Si à limitibus alicuius rectæ lineæ duæ rectæ ad ſignum concurrant ab eiſdem limitibus in plano & ad eaſdem partes, duæ aliæ ad aliud ſignum, duabus primis altera alteri eundem finem poſſidenti, æquales non conſtituentur
 
@@ -23,6 +27,6 @@ A limitibus rectæ lineæ AB, ductæ rectæ lineæ AG, BG cõcurrũt in G: inſu
 
 [Diagram: triangle ABG with point D inside and lines extended towards E and F]
 
-### MONITVM.
+#### MONITVM.
 
 Eò quòd quodammodo confuſius hoc theorema tradiderit Theon, nos aliquas eius voces faciliori compendio mutauimus, ne binas alias binis prioribus lineis æquales in genere optari putemus, ſed binas tantùm ab eodem limite lineæ ſimul exorientes, inæquales probari ſibi inuicem, ac binas reliquas ſimiliter inæquales, haud ſecus oſtendemus binas in D concurrentes ac binas in G concurrentes ſimul æquales fieri non poſſe, per inæqualitatem angulorum ad A & B neceſſariò cõcurrente.

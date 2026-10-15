@@ -4,6 +4,10 @@
 
 [Diagram: two equal circles BAG and DEF; triangles ABG and EDF; central angles BCG and DHF; dotted line CK]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVII. THEOREME XXIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIV. PROPOSITION XXVII.]
+
 ## PROPOSITION XXVII. *THEOREME XXIV.*
 
 {dropcap:D|lines=2|style=plain}Ans les cercles égaux (BAG, DEF), les angles, tant ceux au centre (BCG, & H), que ceux à la circonference (A & E), qui s’appuyent ſur des arcs égaux (BG, DF), ſont égaux entr’eux.

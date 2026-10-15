@@ -6,6 +6,8 @@ CAMPANVS Propositionem hanc quam Euclides in principio primi annumerauit inter c
 
 [Diagram: three rows of horizontal line segments with division marks, labelled g, k, h above; a, e, c; b, f, d; l, n, m; set beside the paragraph]
 
+[Curated heading level=2 type=theorems: Theorema 11 Propositio 11]
+
 ## Eucli. ex Zamb. Theorema 11 Propositio 11
 
 [Curated heading level=3 type=zamberti_sequence: 11.]

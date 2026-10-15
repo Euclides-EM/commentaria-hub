@@ -4,6 +4,10 @@
 
 [Diagram: two circles ABDE and FHMN with centres C and G, chords AD and FM, and dotted radii CA, CD, GF and GM]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVIII. THEOREME XXV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXV. PROPOSITION XXVIII.]
+
 ## PROPOSITION XXVIII. *THEOREME XXV.*
 
 {dropcap:D|lines=2|style=plain}Ans les cercles égaux (ABDE, FHMN): les cordes égales (AD, FM) ſoutendent des arcs égaux (ABD, FHM ou AED, FNM).

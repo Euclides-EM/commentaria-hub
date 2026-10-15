@@ -32,6 +32,10 @@ df, est √√.18,
 de, est √√.8,
 ef, est √√.18 ∼ √√.8.
 
+[Curated heading level=2 type=propositions: THEOR. LIX. PROPOS. LXXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. LIX. PROPOS. LXXVII.]
+
 ## THEOR. LIX. PROPOS. LXXVII.
 
 Si à recta linea, recta auferatur potentia incommensurabilis existens toti, quæ cum tota faciat

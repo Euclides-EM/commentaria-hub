@@ -1,11 +1,11 @@
 ---
 name: edition-index-curation
-description: Report suggested fixes for the headers of an OCR transcription (ocrflow/store/data/transcriptions/<book>/page-NNNN/original.md) - numbering gaps in proposition/problem/theorem/chapter sequences, wrong header levels, OCR misreads, printer's errors, inconsistent case and stray spaces, and recommends curated index layers (marginal content, numbered items). Report only - never edits transcriptions. Use when asked to curate, check or review headers or header numbering, with or without a generated index.json.
+description: Report suggested fixes for the headers of an OCR transcription (ocrflow/store/data/transcriptions/<book>/page-NNNN/original.md) - numbering gaps in proposition/problem/theorem/chapter sequences, wrong header levels, OCR misreads, printer's errors, inconsistent case and stray spaces, and recommends curated index layers (proposition-kind layers such as propositions, theorems, problems, definitions, axioms, using only explicitly printed classification; marginal content). Report only - never edits transcriptions unless the user explicitly asks to apply approved layers. Use when asked to curate, check or review headers or header numbering, with or without a generated index.json.
 ---
 
 # Edition index curation (report only)
 
-This skill produces a report of suggested header fixes. It never changes a transcription: do not edit, write, or run any command that modifies files under `ocrflow/store/data/transcriptions/`, even for fixes that look certain. The user applies the suggestions they accept.
+This skill produces a report of suggested header fixes and curated index layers. It never changes a transcription: do not edit, write, or run any command that modifies files under `ocrflow/store/data/transcriptions/`, even for fixes that look certain. The user applies the suggestions they accept. The only exception is inserting index layers the user has explicitly asked to apply (see "Applying approved layers").
 
 Scope is headers only: markdown headers (`#`, `##`, `###` ...) and curated headings (`[Curated heading level=N ...: TEXT]`). To save tokens, do not open whole `original.md` files. Work from the script output. When a flag needs context, grep the header line with one or two lines around it (`grep -n -B1 -A2 'PROP. XXV' <dir>/page-0123/original.md`).
 
@@ -87,16 +87,53 @@ Page images for checking are at `ocrflow/store/data/<dataset_id>/imgs/page-NNNN.
 
 ## Step 5: Recommend curated indices
 
-Beyond fixing headers, look for structures worth their own parallel index layer (typed curated headings, `[Curated heading level=N type=TYPE: TEXT]`, see `docs/MARKDOWN_DIALECT.md` section 4.2). Candidates:
+Beyond fixing headers, recommend parallel index layers (typed curated headings, `[Curated heading level=N type=TYPE: TEXT]`, see `docs/MARKDOWN_DIALECT.md` section 4.2). First list the layers the book already has (`grep -rhoE 'type=[A-Za-z0-9_.-]+' <dir> | sort | uniq -c`) and never propose a duplicate of one.
 
-- Content tracked in the margins: `[Margin]` blocks that recur with a pattern, such as references to cited propositions (`per 4. primi`), running proposition numbers, dates, names, or topic keywords. Find them with `grep -n -A2 '\[Margin\]' <dir>/page-*/original.md | head -50` and sample rather than reading everything.
-- Numbered items that are not headers: definitions, postulates, axioms / common notions, numbered cases, examples, problems in a commentary, numbered paragraphs or articles.
-- Other recurring units a reader would want to navigate: commentaries or notes attached to propositions, figures or tables, additions by the editor (`ADDITIO`, `ANNOTATIO`), alternative demonstrations.
+### Proposition-kind layers
 
-For each recommended layer give a short `type` name (ASCII, no `default`), what it tracks, the pages where it appears with a few examples, the suggested levels, and one or two sample curated heading lines with the page they would go on. Recommend only layers with a clear, repeated pattern; do not list every one-off item. Do not insert them; the user decides which layers to create.
+The main layers track each kind of enunciated unit separately, so a reader can browse only the theorems, only the problems, only the definitions, and so on. Use one layer per kind, with these `type` names:
+
+- `propositions`: every proposition (or the book's equivalent unit: `Vortrag`, `Satz`, a numbered `Theorema` in a part that has no `PROPOSITIO`).
+- `theorems` and `problems`: only when the book prints the kind (see the explicit-only rule below).
+- `definitions`, `postulates`, `axioms` (common notions, `Grundsätze`, `COMMVNES SENTENCES`).
+- `lemmas`: only when the book numbers a lemma as a standalone unit (`PROPOSITION n.` followed by `LEMME.`, or a numbered `LEMME I.` not attached to a proposition).
+- `additions`, `added_propositions`: added theorems, problems or propositions the book presents as standalone units on a par with propositions (`Propoſitiones à Campano additæ`, an appendix that numbers its own propositions).
+
+Scope is proposition level or above. Do not recommend layers for sub-proposition units: corollaries (`COROLL.`, `Poriſma`, `Zuſatz`, `Zugabe`, `Conſectarium`), scholia, lemmas attached to a proposition, remarks and notes (`Anmerkung`, `NOTE`), appendices attached to a proposition (`Anhang`), additions inside a proposition's commentary (`EX PROCLO.`, `CAMPANI additio`), cases, and alternative demonstrations (`ALITER`, `Autrement`). List them under "Considered, not recommended" with their counts.
+
+**Explicit-only rule.** Layer membership and heading text must reflect only what the print states, or a `{printer-error-correction:...}` already in the transcription. Never infer:
+
+- **Kind.** Put an item in `theorems` or `problems` only when its own header (or the line printed with it) names the kind: `THEOR.`/`PROBL.`, `Theorema`/`Problema`, `THÉORÊME`/`PROBLÊME`, `Lehrſatz`/`Aufgabe`, `Θεώρημα`/`Πρόβλημα`. Do not classify by the content of the enunciation, by elimination (unmarked propositions are not "theorems"), by a translator's note about a marker word, or by another edition. If the book prints only `PROP.`, recommend `propositions` and say that `theorems`/`problems` are not applicable. Where only some sections print the kind, those layers cover only those sections.
+- **Numbers.** Use the number as printed (roman or arabic, as in the book). A definition or axiom with no printed number (the decorated initial takes its place, or the definitions are run together in a paragraph) gets its printed opening words as text (`Equales circuli`, `Vnité`), not a positional number. A run-in paragraph of several definitions gets only a group entry.
+- **Existence.** A unit whose header is not printed (only an untyped curated heading supplies it) gets no typed entry.
+- **Corrections.** Use the corrected reading only when the transcription already carries `{printer-error-correction:...}`. A suspected misprint without that markup keeps the printed reading in the curated text and goes into the findings list as a possible printer's error.
+
+**Levels.** Each layer is a self-contained hierarchy: level 1 is the book or section (its title as printed, e.g. `LIBER PRIMVS`, `Das erſt buͦch Euclidis`), level 2 is the item. Use level 3 only for a printed sub-grouping inside a book (e.g. lettered axioms under numbered ones), never for sub-proposition material.
+
+**Text.** Copy the printed label and number (`THEOR. 5. PROPOS. VII.`, `DEF. I.`, `Erkl. 1)`), with no markup and no `]`. Drop figure references and the enunciation. A short locator prefix is allowed when the item would be ambiguous on its own (`Lib. V, Pars II, Theorema 1.`); keep it factual and never let it imply a kind.
+
+**Placement.** Each item entry goes immediately before the printed header or numbered line it indexes, with one blank line before and after. A level-1 entry goes right before that layer's first item in the book. When several layers attach to the same line, order them: level-1 entries first, then `propositions`, `theorems`, `problems`, `lemmas`, `added_propositions`, `additions`, `definitions`, `postulates`, `axioms`, all before any existing curated heading for the same item.
+
+### Other layers
+
+Also look for other structures with a clear, repeated pattern, such as `[Margin]` blocks with recurring topics, terms or figure callouts (`grep -n -A2 '\[Margin\]' <dir>/page-*/original.md | head -50`, sample rather than read everything). Recommend only layers with a clear, repeated pattern; do not list every one-off item.
+
+### What to write
+
+For each recommended layer give the `type`, what it tracks, counts per book or section, the pages, the levels, and two to four sample lines with their page. Note numbering gaps or irregularities that affect a layer. Put layers that are not applicable or out of scope under "Considered, not recommended", with the reason and count. Do not insert anything; the user decides which layers to create.
 
 ## Step 6: Report
 
 Always write the report to a dedicated markdown file, `ocrflow/store/data/curation_reports/<book>.md` (one file per book, overwritten on a re-run), unless the user names another path. Never write it inside the transcription dir. In the reply, give the file path and a short summary of the counts per category; do not paste the full report into the conversation.
 
-The findings are one list per book, sorted by page in ascending order. Do not group or split them by section, category or finding type; the user applies fixes page by page. The one exception is a group of long headers (Step 2), which sits at the page of its first member. Each row: page, current line, suggested line, reason, and confidence (likely OCR / possible printer's error / formatting). For sequence flags, include what the sequence expects. Include only actionable items, whether or not they need a human check against the scan. Do not list flags you judged false positives. Put the curated index recommendations from Step 5 in their own section after the findings list.
+The findings are one list per book, sorted by page in ascending order. Do not group or split them by section, category or finding type; the user applies fixes page by page. The one exception is a group of long headers (Step 2), which sits at the page of its first member. Each row: page, current line, suggested line, reason, and confidence (likely OCR / possible printer's error / formatting). For sequence flags, include what the sequence expects. Include only actionable items, whether or not they need a human check against the scan. Do not list flags you judged false positives. Put the curated index recommendations from Step 5 in the same report, in a `## Curated index recommendations` section after the findings list (summary table of layers, one subsection per layer, then "Considered, not recommended"). Do not write them to a separate file. On a re-run, replace that section rather than appending a second one.
+
+## Applying approved layers
+
+Only when the user explicitly asks to apply recommended layers may transcriptions change, and then only by inserting curated-heading lines:
+
+- Insert lines only. Never change, reflow or delete existing text or whitespace; keep each file's line endings and trailing newline.
+- Use a script with a dry run that prints the planned insertions per layer; check the counts against the report before applying. Make it idempotent (refuse if a page already has `type=<layer>`).
+- Verify afterwards: `git diff --numstat` shows 0 deletions for the book; every added line matches `^\[Curated heading level=[1-9][0-9]* type=[A-Za-z0-9][A-Za-z0-9._-]*: [^\]]+\]$`; each layer's numbering runs as the report expects; and every `theorems`/`problems` entry sits before a printed line that names its kind (the explicit-only rule).
+- Record what was applied, with counts and any deviations, in an `## Applied` subsection of the report's curated index section.
+- When several books are applied in parallel, keep scripts in per-book folders so they do not overwrite each other.

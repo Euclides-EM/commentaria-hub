@@ -9,6 +9,10 @@ e. 32. 1.
 
 EDF. aequiangulum igitur eſt LMN triangulum triangulo DEF, et circumſcriptum eſt circa ABC circulum. Circa datum igitur circulum, dato triangulo aequiangulum triangulum circumſcriptum eſt. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. IV. PROB.]
+
+[Curated heading level=2 type=problems: PROP. IV. PROB.]
+
 ## PROP. IV. PROB.
 
 {dropcap:I|lines=2|style=plain}N dato triangulo circulum inſcribere.

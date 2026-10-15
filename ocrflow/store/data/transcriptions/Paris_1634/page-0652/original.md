@@ -33,6 +33,10 @@ hyp. | ac, est 4 + √.8,
 1.s.1.d.2 | ▭ad, est 20 + √.200,
 s.46.1 | op, est √..20 + √.200
 
+[Curated heading level=2 type=propositions: THEOR. XLI. PROPOS. LIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XLI. PROPOS. LIX.]
+
 ## THEOR. XLI. PROPOS. LIX.
 
 Si spatium contineatur sub rationali, & ex binis

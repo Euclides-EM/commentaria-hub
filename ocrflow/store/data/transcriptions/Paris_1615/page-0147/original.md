@@ -6,6 +6,10 @@
 
 Par euoeſ manſeſe quele eoſié de lheragone eſt aral au ders duamere du eerde: car le coſte de l berarone Dc ot egal auſon diametre DG par la def. du cercle.
 
+[Curated heading level=2 type=propositions: PROB. 16. PROP. XVI.]
+
+[Curated heading level=2 type=problems: PROB. 16. PROP. XVI.]
+
 ## PROB. 16. PROP. XVI.
 
 Dans vn cercle donné, deſcrire vn quindecagone equiangle & equilateral.

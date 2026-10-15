@@ -15,6 +15,8 @@ b Per axio. 3.huius.
 c Defin.6. L.12.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXI.]
+
 ## PROPOSITIO XXI.
 
 {dropcap:C|lines=2|style=plain}Onicæ ſuperficies ſegmento ſphærico DAF inſcriptæ in ipſam ſegmenti ſphæricam ſuperficiem deſinunt.

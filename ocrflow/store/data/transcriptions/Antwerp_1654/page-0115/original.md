@@ -13,6 +13,8 @@ E conuerſo ſi diſtantiæ O A, I A ponantur æquales, tunc ablatis quadratis r
 d Per 3. l.3.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XV.]
+
 ## PROPOSITIO XV.
 
 [Curated heading level=2 type=figures: Fig. 19]

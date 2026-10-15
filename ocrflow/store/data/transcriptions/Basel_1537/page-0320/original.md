@@ -20,6 +20,8 @@ CAMPANVS. Sit linea b c, abscisa ex linea a b, sintq̃ ambæ quales proponitur, 
 
 [Diagram: horizontal line with points a, c, b; below it a rectangle with g at the upper left and h at the left below it, divided by a horizontal line with f inside at the right; d at the bottom left and e at the bottom right, with tick marks along the base]
 
+[Curated heading level=2 type=theorems: Theorema 56 Propositio 74]
+
 ## Eucli.ex Zamb. Theorema 56 Propositio 74
 
 [Curated heading level=3 type=zamberti_sequence: 74.]

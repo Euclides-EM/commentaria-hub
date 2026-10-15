@@ -23,6 +23,8 @@ Zůfinden den innhalt / multiplicier 3 mitt 8. des products ½. als 12. zaigt de
 
 [Diagram: two triangles with a shared perpendicular labelled 8, a base divided into 5 and 3, and sloping sides labelled √128 and √73]
 
+[Curated heading level=2 type=propositions: XIII. Die dreyzehendt propoſition]
+
 ## XIII. Die dreyzehendt propoſition.
 
 Inn dem ſcharpff oder engeckhigen triangeln / iſt das quadratt von der linj / ſo dem Engen winckhel vnderzogen iſt / minder dann die quadratt der linien / ſo ſolchenn winckhel begreiffen / vmb das / ſo begreiffen wirt von der ainen linj derſelben auff welche ain perpendicular fellt / vnd dem taill derſelben linj von der perpendicular linj

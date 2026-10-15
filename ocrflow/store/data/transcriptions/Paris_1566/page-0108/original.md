@@ -3,6 +3,8 @@
 
 Ac ſi dicat Euclides, Multiplex autem tertij, iuxta quamuis multiplicationem non exceſſerit multiplex quarti, licet iuxta aliquam excedat, vt patuit exemplo. Tum prima ad ſecundam maiorem rationem habet quàm tertia ad quartam, vel ſi aliqua fieri poſſet multiplicatio æqua ſecundi & quarti. Qua multiplice primi excedente multiplex ſecundi, multiplex tertij non excedat multiplex quarti, licet iuxta quamuis multiplicationem is exceſſus non accidat. Tum erit maior ratio, &c.
 
+[Curated heading level=2 type=definitions: Diffinitio 9.]
+
 ## Diffinitio 9.
 
 Proportio in tribus quantitatibus ſaltem conſtituitur.
@@ -14,6 +16,8 @@ Cùm proportionem ſexta diffinitione dixerimus eſſe rationum ſimilitudinem, 
 ### MONITVM.
 
 Huic diffinitioni duarum dictionum (terminis & minima) improprias voces à Theone deſcriptas tranſtulimus. Terminos enim cuiuſlibet rationis ſiue argumenti antecedens, & conſequens vocamus, quare duæ rationes, ſaltem quatuor exigunt terminos. Proportio igitur binas complexa rationes, tribus terminis non poteſt conſtare tantùm, ſed quatuor. Quod ſi obiiciatur terminos dici magnitudines, & ideo tres magnitudines proportionem efficere: Dicemus magnitudines nomen antecedentis aut conſequentis, non pro quantitatis reſpectu, ſed pro ſitus adeptione recipere. Nam magnitudo B non ideo eſt antecedens, & conſequens quod quanta ſit, ſed ſitum ipſâ A poſtremum ipſâ verò C priorem ſortita, ex binorum adeptione ſituum antecedentis & conſequentis, binas meretur denominationes: eius etenim B quantitas ſine ſitu nulla antecedentis vel conſequentis denominatione poteſt nuncupari. Quia verò dixit Theon proportionem minimam eſſe, tranſtulimus dictionem (minima) in aduerbium ſaltem, ne ſint aliqui qui proportionem maiorem vel minorem aliquâ reliqua eſſe credant, cùm ſit enim rationum ſimilitudo, nulla poterit dici maior vel minor ſimilitudo reliqua. Quare autem Campanus & alij proportionem ſæpius maiorem, vel minorem dicant, dicemus illos proportionem pro ratione (ſatis tamen improprie) ſumere, quæ quidem ratio maius & minus recipit. Proportio itaque tres ſaltem magnitudines optat, quatuor terminis expreſſas, binis ſcilicet antecedentibus, & binis conſequentibus.
+
+[Curated heading level=2 type=definitions: Diffinitio decima.]
 
 ## Diffinitio decima.
 

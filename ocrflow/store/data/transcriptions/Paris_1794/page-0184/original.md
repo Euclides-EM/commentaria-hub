@@ -3,6 +3,10 @@
 
 BSD = BSC, on aura ASD + BSD, ou ASB < ASC + BSC.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXI.]
+
 ## PROPOSITION XXI.
 
 ### THÉORÊME.

@@ -6,6 +6,10 @@ Demonstr.
 constr. | d 2|2 ae,
 concl. 1.a.1 | ab 2|2 d.
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. II.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. II.]
+
 ## PROBL. II. PROPOS. II.
 
 In dato circulo triangulum describere dato triangulo æquiangulum.
@@ -43,6 +47,10 @@ constr. | <e 2|2 <hac,
 32.3 | <acb 2|2 <gab,
 constr. | <f 2|2 <gab,
 3.concl. 1.a.1 | <acb 2|2 <f.
+
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. III.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. III.]
 
 ## PROBL. III. PROPOS. III.
 

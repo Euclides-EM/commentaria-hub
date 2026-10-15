@@ -5,6 +5,8 @@ DH. Item ex A, & C, quouis alio interuallo, uel etiam, ſi placet, eodem, alij d
 
 [Curated heading level=2 type=campanus: 6]
 
+[Curated heading level=2 type=problems: PROBL. 6. PROPOS. 6.]
+
 ## PROBL. 6. PROPOS. 6.
 
 [Margin]
@@ -28,6 +30,8 @@ SIT in dato circulo ABCD, cuius centrum E, inſcribendum quadratum. Ducantur du�
 [/Margin]
 
 [Curated heading level=2 type=campanus: 7]
+
+[Curated heading level=2 type=problems: PROBL. 7. PROPOS. 7.]
 
 ## PROBL. 7. PROPOS. 7.
 

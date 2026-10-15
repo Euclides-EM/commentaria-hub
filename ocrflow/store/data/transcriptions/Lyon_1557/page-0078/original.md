@@ -11,6 +11,10 @@ VEL ſic. Connectatur E K. Et quoniam æqualis eſt E G ipſi E K, communis aute
 
 Hinc manifeſtum eſt, duas lineas ab aliquo puncto Diametri hinc inde exeuntes, ſi æquales angulos cum Diametro fecerint, æquales eſſe. Quales hoc loco ſunt duæ F G & F H lineæ.
 
+[Curated heading level=2 type=propositions: THEOREMA 7, PROPOSITIO VIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 7, PROPOSITIO VIII.]
+
 ## THEOREMA 7, PROPOSITIO VIII.
 
 Si à puncto extra Circulum ſignato lineæ exeuntes, Circulum ſecent: maxima eſt quæ per Centrum tranſit: Aliarum autem quæque, quanto huic propior, tanto maior. Partium verò ipſarum quæ extrinſecùs in peripheriam cadunt, minima eſt quæ in continuum eſt Diametri: aliarum autem quæque, quanto huic propior, tanto minor. Et duæ duntaxat rectę lineę æquales ab ipſo puncto in peripheriam cadunt.

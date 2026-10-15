@@ -2,6 +2,10 @@
 
 <!-- Page number: 31 -->
 
+[Curated heading level=2 type=propositions: THEOR. 15. PROPOS. XXIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 15. PROPOS. XXIIII.]
+
 ## THEOR. 15. PROPOS. XXIIII.
 
 Si deux triãgles ont deux coſtez egaux à deux coſtez, chaſcun au ſien, & l’angle contenu d’iceux coſtez plus grand que l’angle, ils auront la baſe plus grande que la baſe.

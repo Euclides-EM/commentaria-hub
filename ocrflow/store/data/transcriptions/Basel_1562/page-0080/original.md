@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/ oder Schlußreden. -->
 <!-- Page number: 59 -->
 
+[Curated heading level=2 type=propositions: VII. Die ſibendt propoſition]
+
 ## VII. Die ſibendt propoſition.
 
 So ain linj nach gefallen entzwaj getailt wirtt / ſeind die quadrat der gantzen linj vnd des ainen ſtucks ſambtlich / gleich dem ſo zwaj mal von der gantzen linj vnd bemeltem ſtuck begreiffen wirt / ſambt des andern ſtuckhs quadrat.
@@ -16,6 +18,8 @@ Demonſtriert die regel der ſubtraction der ſurdiſchen wurtzlin.
 [/Subhead]
 
 Hierauß haben die alten gefunden / wie die wurtzlen zwayer ſurdiſcher z. ſolten von einander genomen werden / daß mann ſehe waß vberblib. Als ſo ich wolt √80. von √245 ſubtrahiern / iſt √245. die gantz lini / daß ain ſtuckh bekhant √80. das ander / nemlich den reſt zůfinden / ſihe ich an diſe aigenſchafft / dann ſo ich addier die quadrat der gantz zal / vnd des ainen tails / als 80 vnnd 245. werden 325. diſer ſumm wirt gleich ſein das duplat des products des bekhanten tails in die gantze zal / ſambt des vnbekhanten tails quadrat. Volge ſo ich ſollichs duplat / namlich √80 mal √245 (das iſt 140) zů zwajmalen / das iſt 280. von 325 nimm / daß das quadrat des andern vnbekhanten tails / nemlich des reſts / überbleibt / das iſt 45. demnach der ander tail √45. Alſo magſtu auch von rechnung wegen ain zal von der andern ſubtrahiern / als 12 von 28. Quadrier 12 vnd 28. werden 144 vnd 784. ſumma 928. Multiplicier 12 mit 28. werden 336. das duplicier werden 672. die nimm von 928. reſt 256. das quadrat des reſts. Die geuierte wurtzel auß 256. iſt 16. ſouil bleibt wann man 12 von 28 ſubtrahiert / ꝛc.
+
+[Curated heading level=2 type=propositions: VIII. Die acht propoſition]
 
 ## VIII. Die acht propoſition.
 

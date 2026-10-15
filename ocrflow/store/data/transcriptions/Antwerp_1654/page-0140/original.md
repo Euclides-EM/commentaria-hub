@@ -5,6 +5,8 @@
 
 2. Quæ ex eodem puncto circulum tangunt, B F, B Q æquales ſunt. Earum quippe quadrata æquantur ſingula eidem rectangulo C B O.
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXXVII.]
+
 ## PROPOSITIO XXXVII.
 
 [Curated heading level=2 type=figures: Fig. 52]

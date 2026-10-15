@@ -10,6 +10,10 @@ Soit la ligne droicte AC, de laquelle eſt retranchee AB incommenſ. en puiſſa
 
 Si AC eſt √(v116 √√72.) & AB √(√216√72); le reſte Kc ſera √(√216+√72)—√(√216√72.
 
+[Curated heading level=2 type=propositions: THEOR. 61. PROP. LXXVIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 61. PROP. LXXVIIII.]
+
 ## THEOR. 61. PROP. LXXVIIII.
 
 Si d’vne ligne droicte, eſt retrãchee vne ligne droicte incommenſurable en puiſſance à la toute, comprenant auec icelle vn rectagle me-

@@ -11,6 +11,10 @@ quam E ad F. ſi igitur &c. Q. E. D.
 
 COR. Et ſi prima ad ſecundam majorem rationem habeat, quam tertia ad quartam; tertia autem ad quartam eandem rationem habeat, quam quinta ad ſextam; ſimiliter oſtendetur primam ad ſecundam majorem rationem habere, quam quintam ad ſextam.
 
+[Curated heading level=2 type=propositions: PROP. XIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIV. THEOR.]
+
 ## PROP. XIV. THEOR.
 
 {dropcap:S|lines=2|style=plain}I prima ad ſecundam eandem habeat rationem, quam tertia ad quartam; prima autem major ſit quam tertia; et ſecunda quam quarta major erit; et ſi aequalis, aequalis; et ſi minor, minor.

@@ -6,6 +6,10 @@ prop. Parquoy comme uous auons demonſtré n’agueres, les baſes & hauteurs d
 
 Derechef ſi les baſes & hauteurs des priſmes ſont reciproques: les baſes &hauteurs des piramides aians meſmes baſes & hauteurs que les priſmes, ſeront auſſi reciproques. Parquoi, commo il a esté demonſtré, les piramides ſont egales; & partant auſſi les priſmes, puis que d’icellel piramidis ils ſont triples, ou ſeſquialteres.Ce qui eſtoit prepoué.
 
+[Curated heading level=2 type=propositions: THEOR. 10. PROP. X.]
+
+[Curated heading level=2 type=theorems: THEOR. 10. PROP. X.]
+
 ## THEOR. 10. PROP. X.
 
 Tout cone eſt la troiſieſme partie du cylintre ayant baſe egale, & de meſme hauteur.

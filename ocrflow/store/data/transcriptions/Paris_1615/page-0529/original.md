@@ -14,6 +14,10 @@ Soit donné quelque plan comme ap.
 
 prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 12. PROP. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 12. PROP. XIV.]
+
 ## THEOR. 12. PROP. XIV.
 
 Si vneiigne droicte eſt perpendiculaire s

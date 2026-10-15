@@ -12,6 +12,8 @@ CAMPANI additio. Quod si duo numeri a b & c d sint contra se primi,non erit in h
 
 [Diagram: dotted number-lines at right: a . . . . . . . e . . . g . b; c . . . . f . . . d]
 
+[Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
+
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
 
 [Curated heading level=3 type=zamberti_sequence: 1.]

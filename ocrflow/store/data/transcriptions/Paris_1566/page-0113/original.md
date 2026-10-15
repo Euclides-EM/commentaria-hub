@@ -2,6 +2,10 @@
 
 clides, rationum aperire inter ſe differentias, habitudines ſiue reſpectus, illæ etenim cùm ſuas quantitates non ſimplicibus ſed multiplicibus exprimant numeris, per multiplicium quantitatum additionem, detractionem, & æquationem, ipſarum quantitates æquemultiplicibus inter ſe comparatis magnitudinibus edocebit, præcipuè ſex prioribus huius quinti theorematis. Quicquid enim de multiplicatione vnius in alteram dicet quantitatis, idem de ratione dictum poſtremo patebit. Cùm autem binæ quantitates binarum æquemultiplicat augmentum, hæc multiplicationis æqualitas, æquales inter eas denunciat rationes, maior maiores, minor verò multiplicatio, minores eſſe rationes edocet, quia verò augmenti verum eſt oppoſitum decrementum, conuerſo argumento dicemus, binas quantitates binarum decrementum multiplicantes æqua multiplicatione, æquales ad eas rationes habere, veluti in augmenti diximus multiplicatione, ſed cùm in augentibus maior multiplicatio maiorem rationis quantitatem aſſerat, perſpicuum erit in minuentibus maiore decrementi multiplicationem, plus rationis decreſcere denominationem, & proinde maius decrementi multiplex, minorem præ ſe ferre rationem exiſtimemus: maiori tamen expreſſam numero, vt idem quod de quantitatibus diximus rationibus conferri poſſit. Diximus enim quantitates per decrementi earum multiplicationem minui, maiori verò (quanto minores ſient) exprimi numero, vt percipiamus totius geometriæ legem in augmento, æquatione, vel quantitatum decremento conſiſtere. Cùm enim æquatio nulla egeat multiplicatione, eò quod vnitati aſſimiletur, reliquas geometriæ partes (quæ ab ea hinc inde recedunt) per numerorum auctam multiplicationem, plus ab ea æqualitate recedere fatemur, vt quæ plus in augmentum tendant maiori numero, maiores demonſtrentur, quæ verò in decrementum maiori numero, minores effecta noſcantur, quod idem rationum quantitatibus conuenire deduximus. Poſtmodum 7 huius incipit magnitudinum rationes in genere quidẽ, vt quæ maiores, minores, aut certè æquales dicantur, illico quædam particulariora ſubnectens. A, 16 verò proportionum variationem nouam vltimis diffinitionibus expoſitam demonſtrat, vt illæ arguendi ſpecies prius diffinitæ, geometrica demonſtratione firmentur.
 
+[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quintus.]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
+
 ## Propoſitio prima.
 
 Si fuerint quotcunque magnitudines totidem magnitudinum ſingulæ ſingularum æquemultiplices, quotuplex eſt Vna vnius magnitudo, totuplices erunt omnes omnium.
@@ -10,7 +14,7 @@ Sint quotcunque magnitudines A & B, totidem magnitudinum C & D æquemultiplices,
 
 [Diagram: four vertical line segments labelled A, B, C, D, with subdivisions E, F, G and M, L, I]
 
-## MONITVM.
+### MONITVM.
 
 Hanc priorem in æquemultiplicantibus decrementum oſtendere voluimus eadem abſolui opera, qua in augmentum multiplicantibus prius oſtendimus. Cùm enim decrementum multiplicantes numeri, æquè propoſitorum poſſint eſſe multiplices, vt hi qui augmentum multiplicant, ſufficiet (vt tædium vitemus) futuris demonſtrandis, alterum tantùm æquemultiplicium vel multiplicandi genus
 

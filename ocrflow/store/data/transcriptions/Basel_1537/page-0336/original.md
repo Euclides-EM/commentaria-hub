@@ -20,6 +20,8 @@ SI linea rationali residuoq̃ sexto superficies contineatur, latus tetragonicum 
 
 CAMPANVS Nunc quoque ultimo quod per hanc dicitur præmisso modo satage concludere ex diffinitione residui sexti, & secunda parte 14 & 9 & 19 & 73. In his autē omnibus processum tuum nihil offendere poterit. si primam earum & perfecte didiceris & memoriter tenueris. & quid quoq̃ supponet solerter attenderis. Quod si forsan de aliquo in quadrato l m te dubitare cōtigerit. ad suum æquale in superficie a d tibi recurrendū erit, & patebunt tuo ingenio.
 
+[Curated heading level=2 type=theorems: Theorema 72 Propositio 96]
+
 ## Eucl.ex Zamb. Theorema 62{printer-error-correction:72} Propositio 96
 
 [Curated heading level=3 type=zamberti_sequence: 96.]

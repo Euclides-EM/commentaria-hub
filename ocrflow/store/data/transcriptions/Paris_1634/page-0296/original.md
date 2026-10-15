@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. VIII.]
+
 ## THEOR. VIII. PROPOS. VIII.
 
 Inæqualium magnitudinum maior ad eandem, maiorem rationem habet, quàm minor : Et eadem ad minorem, maiorem rationem habet, quàm ad maiorem.

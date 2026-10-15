@@ -20,6 +20,8 @@ A, & C, cadat medius proportionalis; erunt A, & C, plani ſimiles. Quare exiſte
 
 [Curated heading level=2 type=campanus: 21]
 
+[Curated heading level=2 type=theorems: THEOR. 21. PROPOS. 23.]
+
 ## THEOR. 21. PROPOS. 23.
 
 [Curated heading level=3 type=incipit: SI]

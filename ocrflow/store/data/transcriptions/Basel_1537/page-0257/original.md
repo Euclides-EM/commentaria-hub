@@ -22,6 +22,8 @@ CAMPANVS. Huius demonstrationem. si 2 septimi non ignoras, non potes ignorare. S
 
 [Diagram: two horizontal lines at the right — a short line with b at its left and a at its right; a longer ticked line with d at its left and c at its right]
 
+[Curated heading level=2 type=problems: Problema 1 Propositio 3]
+
 ## Eucli. ex Zamb. Problema 1 Propositio 3
 
 [Curated heading level=3 type=zamberti_sequence: 3.]
@@ -49,6 +51,8 @@ CORRELARIVM. Ex hoc manifestum est, quod si magnitudo binas magnitudines mēsa f
 {dropcap:P|lines=?|style=decorated|decoration="foliate ornament"}Ropositis tribus quantitatibus communicātibus, maximam eas communiter numerantem inuenire.
 
 CAMPANVS Hæc ex tertia septimi, sic patet. sicut præmissa ex secūda. Simulq̃ correlarium ex hac deduces, ut illic ex secunda deductū est.
+
+[Curated heading level=2 type=problems: Problema 2 Propositio 4]
 
 ## Eucli. ex Zamb. Problema 2 Propositio 4
 

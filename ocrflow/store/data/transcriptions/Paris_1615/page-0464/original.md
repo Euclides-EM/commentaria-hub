@@ -4,6 +4,10 @@
 
 FF MIaiS AC, CB ſont commenſ en puiſſance ſeulement. nar la 38.p.10. Donc auſſi DF, FE ſeront commenſurables en puiſſance ſeulement, par la 10.p.10. mais elles ſont auſſi mediales: & part ant par la 38.ou 39 p.10. DE ſera bimediale. D’auantage ie dis qu’elle eſt en xieſme ordre que AB. Car d’autant que comme AC eſt à DF, ainſi BC à FE, par la 22.p.6. Le quarré de AC ſera au quarré de DF, comme le rectangle de AC, BC, eſt au rectangle de DF, FE, (eſtant iceux rectangles ſemblables, d’autant qu’ils ont les coſtez prop.) M ais le quatré de AC eſt commenſurable au quarré de DF, ainſi par la 10.p.10.les rectangles ſeront auſſi commenſ. que ſi l’vn eſt rationel, l’autre le ſera auſſi. Et partant AB, & DE ſeroient bimediales premieres, par la 38 p.10. Que ſi l’vn des rectangles eſt medial, I’autre ſera auſſi medial, & AB & DE ſeront bimediales ſecõdes, par la 319.p.10. Ainſi DE ſera bimediale, & en meſme ordre que AE.
 
+[Curated heading level=2 type=propositions: THEOR. 51. PROP. LXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. 51. PROP. LXIX.]
+
 ## THEOR. 51. PROP. LXIX.
 
 La ligne commenſ. a vne ligne maieur, eſt auſſi ligne maieur.

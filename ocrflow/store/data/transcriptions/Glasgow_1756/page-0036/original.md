@@ -7,6 +7,10 @@ COR. 1. Ex hoc manifeſte conſtat duas rectas lineas ſe invicem ſecantes, fac
 
 COR. 2. Et propterea, omnes anguli circa unum punctum conſtituti conficiunt angulos quatuor rectis aequales.
 
+[Curated heading level=2 type=propositions: PROP. XVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVI. THEOR.]
+
 ## PROP. XVI. THEOR.
 
 [Subhead]

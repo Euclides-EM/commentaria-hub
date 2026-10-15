@@ -6,6 +6,10 @@ CA ſon egale, ſera a ED par la 2.p.6. & en changeant BC ſera a AC, comme CE a
 
 Ven donc que AB eſt a BC, comme DC a CE, & BC a CA comme CE a ED, auſſi en raiſon egale AB ſera a AC, comme DC a ED. ce qu’il faloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 5. PROP. V.]
+
+[Curated heading level=2 type=theorems: THEOR. 5. PROP. V.]
+
 ## THEOR. 5. PROP. V.
 
 Si deux triangles ont les coſtez proportionnaux, ils ſeront equiangles, & auront les angles egaux, ſoubs leſquels les coſtez de meſme raiſon ſeront ſubtendus.

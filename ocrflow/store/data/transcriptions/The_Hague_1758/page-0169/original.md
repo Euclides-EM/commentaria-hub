@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, a triangle FGH with vertex G above base FH, and a circle through A, B, C, D, E containing an inscribed pentagram formed by lines between those points]
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. PROBLEME XI.]
+
+[Curated heading level=2 type=problems: PROBLEME XI. PROPOSITION XI.]
+
 ## PROPOSITION XI. *PROBLEME XI.*
 
 {dropcap:D|lines=2|style=plain}Ans un cercle donné (ACE); inſcrire un pentagone (ABCDE) équilatéral & équiangle.

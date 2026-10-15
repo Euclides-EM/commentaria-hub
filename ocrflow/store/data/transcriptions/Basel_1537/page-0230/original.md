@@ -16,6 +16,8 @@
 
 CAMPANVS. Sint a & b superficiales similes, ex quorum multiplicatione proueniat c, dico c esse quadratū : fiat enim d ex a in se, eritq̃ per 18 septimi, d ad c, sicut a ad b, & quia inter a & b cadit medius secūdum continuam proportionalitatē per 16 octaui, sequitur per 8 eiusdem, ut unus quoq̃ cadat inter d & c, itaq̃ cum d sit quadratus, erit per 20 eiusdem. c quoq̃ quadratus, quod est propositū.
 
+[Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
+
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
 
 [Curated heading level=3 type=zamberti_sequence: 1.]
@@ -49,6 +51,8 @@ CAMPANVS. Hæc est conuersa prioris. Vt si ex a in b fiat c, fueritq̃ c quadrat
 [Diagram: dotted number lines c, d, b, a with intermediate dotted lines]
 
 Prima pars correlarij patet per præmissam, sunt enim omnes tetragoni, superficiales similes. Secūda patet ex hac, cum sit solus tetragonus similis tetragono. Tertia pars patet, ex prima ipsius correlarij parte, à destructione consequētis. Quarta uero patet ex eiusdem parte secunda, à destructione consequentis.
+
+[Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 

@@ -1,6 +1,10 @@
 <!-- Page number: 22 -->
 <!-- Running title: ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: THEOREMA 6, PROPOSITIO XIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 6, PROPOSITIO XIII.]
+
 ## THEOREMA 6, PROPOSITIO XIII.
 
 Quum recta linea ſuper rectam ſteterit : duos angulos aut rectos, aut duobus rectis æquales efficiet.
@@ -15,6 +19,10 @@ patet propoſitio. Nam quum angulus A B C tanto maior ſit angulo C B E recto, q
 
 Scilicet, ſi ab angulo A B C obtuſo, auferatur angulus A B E : manebit C B E rectus. Tum ſi idem A B E addatur angulo D B A acuto : efficietur angulus D B E rectus. Quapropter hîc non opus eſt alia argumentationis forma. Eſt enim ex ijs quæ intellectum turbare potius quàm iuuare poſſit. Satis enim manifeſtum eſt duos angulos, nempè A B C obtuſum & A B D acutum, æquale, immò vnum & idem complecti ſpatium cum duobus angulis C B E & D B E rectis.
 
+[Curated heading level=2 type=propositions: THEOREMA 7, PROPOSITIO XIIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 7, PROPOSITIO XIIII.]
+
 ## THEOREMA 7, PROPOSITIO XIIII.
 
 Si ad aliquod rectæ lineæ punctum duæ rectę lineæ coïerint, duosq́; angulos cum ipſa aut rectos aut duobus rectis æquales fecerint : ambæ in continuum erunt & linea vna.
@@ -28,6 +36,10 @@ Si enim non ſit linea vna, tunc C B continuata, verbi gratia, ad punctum E, tra
 Quum itaque recta linea A B ſuper rectam C E cadat : erunt, per antecedentem, duo anguli A B C & A B E, duobus rectis æquales. Rurſus, quum duo anguli A B C & A B D ſint duobus rectis æquales, per hypotheſin : erunt, per primam Notionem, duo anguli A B C & A B E, æquales duobus angulis A B C & A B D. Communis auferatur A B C : relinquetur angulus A B E, per tertiam animi Notionem, angulo A B D æqualis, pars toti, Quod eſt abſurdum. Eadem ratione probabitur C B protracta non cadere infra B D. Erit igitur C D linea vna, Quod erat oſtendendum.
 
 Sed & primo ſtatim intuitu ſic ratiocinabimur. Duo anguli C B A & A B E, ſunt pars duorum C B A & A B D. At C B A & A B D ſunt æquales duobus rectis, per hypotheſin. Quare non erunt duo C B A & A B E æquales duobus rectis, ne ſit pars toti æqualis.
+
+[Curated heading level=2 type=propositions: THEOREMA 8, PROPOSITIO XV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 8, PROPOSITIO XV.]
 
 ## THEOREMA 8, PROPOSITIO XV.
 

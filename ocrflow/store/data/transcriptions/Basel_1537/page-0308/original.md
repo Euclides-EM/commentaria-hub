@@ -28,6 +28,8 @@ Sit recta linea α β, seceturq̃ in inæqualia in γ, sitq̃ maior α γ. Dico 
 
 [Diagram: horizontal line with points labelled α, δ, γ, β from left to right]
 
+[Curated heading level=2 type=theorems: Theorema 42 Propositio 60]
+
 ## Eucli. ex Zãb. Theorema 42 Propositio 60
 
 [Curated heading level=3 type=zamberti_sequence: 60.]

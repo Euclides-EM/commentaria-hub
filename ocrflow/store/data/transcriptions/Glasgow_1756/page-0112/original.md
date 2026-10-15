@@ -3,6 +3,10 @@
 
 BKC reliquo ELF eſt æquale; circumferentia igitur BKC circumferentiæ ELF æqualis erit. in æqualibus igitur circulis &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXVII. THEOR.]
+
 ## PROP. XXVII. THEOR.
 
 {dropcap:I|lines=2|style=plain}N æqualibus circulis anguli qui æqualibus inſiſtunt circumferentiis inter ſe æquales ſunt, ſive ad centra, ſive ad circumferentias inſiſtant.

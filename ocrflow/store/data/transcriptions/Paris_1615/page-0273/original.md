@@ -10,6 +10,10 @@ Soient deux nombres propoſez A & B, & qu’entre l’vniré C, & chacun d’ic
 
 Maintenant puis que D multiplié par ſoy-meſme, & par F, a produict E & H, par la 17.p.7. comme D à F, ainſi E a H. Pareillement Fmultiplié par D, & par ſoy-meſme, produict H & G; auſsi H ſera à G comme D à F: Parquoy les trois nombres E, H, G, ſeront en continuelle proportion. D’auantage D multipliant E, & H, produict A & I’; comme E ſera à H, ainſi A ſera à I: & puis que D, & F multiplient H, & produiſent I & K, I ſera à K, comme D à F. Par meſme diſcours K ſera à B à la meſme raiſon, eſtans les produicts de H, & G multipliez par F, le tout par la 17 & 18.p.7. Il eſt donc euidet que A,I, K, B, ſont coutinuellement proportionnaux, & que partant les deux nombres I & K ſont tombez en continuelle proportion entre A & B: ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 9. PROP. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. 9. PROP. XI.]
+
 ## THEOR. 9. PROP. XI.
 
 Entre deux nombres quarrez tombe vn moyen proportionnel; & le quarré eſt au quarré en raiſon doublee du coſté auco ſté.

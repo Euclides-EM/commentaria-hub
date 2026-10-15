@@ -21,6 +21,8 @@ MANIFESTVM autem e≈øt, lineam, ad quam parallelogrammum deficiens applicatur, e≈
 
 [Curated heading level=2 type=campanus: 27]
 
+[Curated heading level=2 type=problems: PROBL. 8. PROPOS. 28.]
+
 ## PROBL. 8. PROPOS. 28.
 
 [Curated heading level=3 type=incipit: AD]

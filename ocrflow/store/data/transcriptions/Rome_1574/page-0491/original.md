@@ -10,6 +10,8 @@ IDEM uerum eſt, etiam ſi parallelogramma AC, EG, non ſint rectangula, dummodo
 
 [Curated heading level=2 type=campanus: 16]
 
+[Curated heading level=2 type=theorems: THEOR. 12. PROPOS. 17.]
+
 ## THEOR. 12. PROPOS. 17.
 
 [Margin]

@@ -4,6 +4,8 @@
 
 ABC est semicirculus. | ABC est vn demy cercle.
 
+[Curated heading level=2 type=definitions: XIX.]
+
 ### XIX.
 
 Rectilineæ figuræ sunt, quæ sub rectis lineis continentur. | Figures rectilignes sont celles qui sont contenuës sous des lignes droictes.

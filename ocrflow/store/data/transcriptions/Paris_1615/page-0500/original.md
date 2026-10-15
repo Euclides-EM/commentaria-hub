@@ -6,6 +6,10 @@
 
 La ligne AB ſoit √√(216√72)—√√(216—√72), & BC √√ (216—√72); la toute AC ſera donc √ √(216+√72), le quarrè de laquelle ſoit appliqué ſur la rationele DE a, & l’autre coſtè DI ſera √137√4?: mais eſtant appliquè ſur la meſme rationele, le rectangle IK egal au quarrè de BC, qui eſt √216√72, l’autre coſte IL ſera √13,—√4,:& partant la toute DL ſera √54: Que ſi à la meſme rationele on applique le rect. GN ou MK, egal au rect. de ACB, qui eſt 12, l’autre coſte ML ſera 3, & ſon double GL 6: Parquoy DC ſera √54—6, qui eſt reſidu cinquieſme.
 
+[Curated heading level=2 type=propositions: THEOR. 79. PROP. CIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 79. PROP. CIII.]
+
 ## THEOR. 79. PROP. CIII.
 
 Le quarré d’vne ligne faiſant auec vne ſuperficie mediale vn tout medial, appliqué ſur vne ligne rationele, faict l’autre coſté reſidu ſixieſme. Soit la ligne AB, faiſant auec vne ſuperficie mediale vn tout medial, le quarré de laquelle AB ſoit appliqué ſur la rationele DE: Ie dis que l’autre coſté DG eſt reſidu ſixieſme.

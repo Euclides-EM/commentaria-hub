@@ -30,6 +30,10 @@ hyp. | a π b 2|2 d π e,
 14.7 | b π e 2|2 d π g,
 2.concl. 19.7 | ▭.b,g 2|2 ▭,ed.
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XII.]
+
 ## THEOR. XII. PROPOS. XII.
 
 Si ab vnitate quotcunque numeri deinceps proportionales fuerint, quicunque primorum numerorum vltimum metiuntur, iidem & eum qui vnitati proximus est, metientur.

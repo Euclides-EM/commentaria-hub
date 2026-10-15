@@ -3,6 +3,8 @@
 
 forent duæ C Q, C I ad eandem partem inter ſe æquales. Quod repugnat parti 3.
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO VIII.]
+
 ## PROPOSITIO VIII.
 
 [Curated heading level=2 type=figures: Fig. 9]

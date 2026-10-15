@@ -11,6 +11,10 @@ b. 6. 1.
 
 ſimiliter oſtendetur et unaquæque ipſarum FB, FA, FE æqualis utrique FC, FD. quinque igitur rectæ lineæ FA, FB, FC, FD, FE inter ſe æquales ſunt. centro igitur F, intervallo autem unius ipſarum FA, FB, FC, FD, FE circulus deſcriptus etiam per reliqua tranſibit puncta, atque circumſcriptus erit circa pentagonum æquilaterum et æquiangulum ABCDE. Circa datum igitur pentagonum æquilaterum et æquiangulum circulus eſt circumſcriptus. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XV. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XV. PROB.]
+
 ## PROP. XV. PROB.
 
 [Subhead]

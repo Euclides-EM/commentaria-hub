@@ -2,6 +2,8 @@
 
 <!-- Page number: 185 -->
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO II.]
+
 ## PROPOSITIO II.
 
 [Curated heading level=2 type=figures: Fig. 4]

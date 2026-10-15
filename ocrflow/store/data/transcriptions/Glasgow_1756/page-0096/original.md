@@ -11,6 +11,10 @@ a. 7. 3.
 
 [Diagram: circle labelled A, B, C, D, E, F and G, with diameter FG and straight lines DA, DB and DC]
 
+[Curated heading level=2 type=propositions: PROP. X. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. X. THEOR.]
+
 ## PROP. X. THEOR.
 
 {dropcap:C|lines=2|style=plain}IRCULUS circulum in pluribus quam duobus punctis non ſecat. ‘N. B. Hoc de ipſorum circumferentiis ‘intelligendum eſt.’

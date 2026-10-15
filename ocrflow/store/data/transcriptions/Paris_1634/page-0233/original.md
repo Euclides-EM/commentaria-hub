@@ -6,6 +6,10 @@ au cercle, quand les extremitez d'icelle sont en la circonference du cercle.
 
 [Figure: cercle A—B—C auec triangle inscrit ; triangle D—E—F auec cercle G—I—H inscrit ; cercle A—D—B auec cordes C—D et A—B, et E au dedans]
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. I.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. I.]
+
 ## PROBL. I. PROPOS. I.
 
 In dato circulo rectam lineam accommodare æqualem datæ rectæ lineæ, quæ circuli diametro non sit maior.

@@ -12,6 +12,10 @@ Scholie.
 
 Veu que les circonferences ACB, DEF conniennent entre elles, elles seront aussi égales.
 
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. XXV.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. XXV.]
+
 ## PROBL. III. PROPOS. XXV.
 
 Circuli segmento dato, describere circulum, cuius est segmentum.

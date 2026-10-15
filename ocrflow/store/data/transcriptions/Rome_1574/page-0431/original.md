@@ -14,6 +14,8 @@ B; Ideoque CG, GH, HD, ad EI, IK, KF, eandem habebunt proportionẽ. Quo circa u
 
 [Curated heading level=2 type=campanus: 16]
 
+[Curated heading level=2 type=theorems: THEOR. 16. PROPOS. 16.]
+
 ## THEOR. 16. PROPOS. 16.
 
 [Margin]

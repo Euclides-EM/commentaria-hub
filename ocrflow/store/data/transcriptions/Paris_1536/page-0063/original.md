@@ -6,6 +6,10 @@ ipsi c/k, per quadragesimamtertiam primi : & c/ k/ id quod sub a/ c/ & c/ b, nam
 
 ¶Parallelogramma igitur,quæ circa quadrati dimetientem cósistunt,fore itidem quadrata:relinquitur manifestum.
 
+[Curated heading level=2 type=propositions: Theorema 5, Propositio 5.]
+
+[Curated heading level=2 type=theorems: Theorema 5, Propositio 5.]
+
 ## Θεώρημα ε, Πρόθεσις ε.
 
 Εὰν εὐθεῖα γραμμὴ τμηθῇ εἰς ἴσα καὶ ἄνισα,τὸ ὑπὸ τῶν ἀνίσων τῆς ὅλης τμημάτων περιεχόμενον ὀρθογώνιον μετὰ τοῦ ἀπὸ τῆς μεταξὺ τῶν τομῶν τετραγώνου,ἴσον ἐστὶ τῷ ἀπὸ τῆς ἡμισείας τετραγώνῳ.

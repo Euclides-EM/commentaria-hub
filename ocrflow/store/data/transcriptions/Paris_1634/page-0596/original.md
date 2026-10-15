@@ -6,6 +6,10 @@ Hinc sequitur, si tota magnitudo ex duabus composita, commensurabilis sit alteri
 
 *D'icy il s'ensuit, que si vne grandeur composee de deux, est commensurable à vne d'icelles, qu'elle sera aussi commensurable à l'autre.*
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XVII.]
+
 ## THEOR. XIV. PROPOS. XVII.
 
 Si duæ magnitudines incommensurabiles componantur, & tota magnitudo vtrique ipsarum incommensurabilis erit : Quod si tota magnitudo vni ipsarum incommensurabilis fuerit, & quæ à principio magnitudines incōmensurabiles erunt.

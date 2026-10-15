@@ -4,6 +4,10 @@
 
 [Figure: two horizontal parallel lines A B and C D, with point E on A B and point F on C D, a dotted line joining E and F, angle n marked at E and angle m at F]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXI. PROBLEME X.]
+
+[Curated heading level=2 type=problems: PROBLEME X. PROPOSITION XXXI.]
+
 ## PROPOSITION XXXI. PROBLEME X.
 
 {dropcap:P|lines=2|style=plain}Ar un point donné (E), tirer une ligne droite (AB) parallele à une autre droite donnée (CD).

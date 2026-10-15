@@ -7,6 +7,8 @@ Die zwo linien ſeind verzaichnet a vnnd b / durch welche geht die lini c d. Die
 
 [Figure: two horizontal lines a and b crossed by an oblique line c d, with angle labels]
 
+[Curated heading level=2 type=propositions: XXVIII. Die achtvndzwaintzig propoſ.]
+
 ## XXVIII Die achtvndzwaintzig propoſ.
 
 So ein lini auff zwo linien fallende machett den außwendigen winckel glych dem innern / ſo auch auff der ſelben ſeitten dargegen vber ſtehtt. Oder machett die innwendigen winckel auff einer ſeitten zwayen gerechten winckel glych / ſo ſeind dieſelben zwo linien parallel.
@@ -17,11 +19,15 @@ In diſer figur fallet die lini c / durch die linien a vnd b. Nun iſt der außw
 
 [Figure: two horizontal lines a and b crossed by an oblique line c, with angle labels d, e, f, g, h]
 
+[Curated heading level=2 type=propositions: XXIX. Die neünvndzwaintzigſt propoſ.]
+
 ## XXIX Die neünvndzwaintzigſt propoſ.
 
 So ain lini durch zwo parallel lini fellt / werden die winckel ſo gegen eināder vber Enallax ſthen / einander glych ſein:auch der außwendig winckel glych ſein dem ynnwendigen / ſo auf der ſelben ſeitten dargegen vber ſteht. Zů dem die zwen innwendigen winckel auff einer ſeitten / zwayen gerechten winckeln gleich ſein.
 
 Die propoſ. iſt vmbkert / die zwo vorgehnden mag auß der ſelben figurn verſtanden vnd bewiſen werden.
+
+[Curated heading level=2 type=propositions: XXX. Die dreyſſigſt propoſicion]
 
 ## XXX Die dreyſſigſt propoſicion.
 
@@ -30,6 +36,8 @@ Alle linien ſo gegen ainer linien parallel ſeind / dieſelben ſeind auch gege
 Iſt leichtlich auß den vorgehnden zůerachten. Dergleichen wirtt vonn flechinen im 11 buͤch / propoſ. 16 meldung.
 
 [Figure: several horizontal parallel lines crossed by two oblique lines]
+
+[Curated heading level=2 type=propositions: XXXI. Die ainvnddreyſſig propoſ.]
 
 ## XXXI Die ainvnddreyſſig propoſ. Lehrt /
 

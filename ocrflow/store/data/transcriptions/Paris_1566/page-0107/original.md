@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEO. -->
 
+[Curated heading level=2 type=definitions: Diffinitio octaua.]
+
 ## Diffinitio octaua.
 
 Quando verò æquemultiplicium, multiplex primi exceſſerit, multiplex ſecũdi, multiplex autem tertij, iuxta quamuis multiplicationem non exceſſerit multiplex quarti, tũc primum ad ſecundum maiorem rationem habere dicetur, quàm tertium ad quartum.

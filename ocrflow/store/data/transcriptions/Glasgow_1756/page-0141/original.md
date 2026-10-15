@@ -17,6 +17,10 @@ e. 16. 3.
 
 circulum igitur contingit unaquæque ipſarum AB, BC, CD, DE, EA, atque erit circulus in pentagono ABCDE inſcriptus. In dato igitur pentagono æquilatero et æquiangulo circulus inſcriptus eſt. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XIV. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XIV. PROB.]
+
 ## PROP. XIV. PROB.
 
 [Subhead]

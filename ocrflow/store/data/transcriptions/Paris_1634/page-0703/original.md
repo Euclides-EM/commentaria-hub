@@ -8,6 +8,10 @@
 1cl97.10 | □.dl 3|2 □.gl..□. / ——, comm. dl,
 concl. 1d85. 10 | dg, est apotom. 1.
 
+[Curated heading level=2 type=propositions: THEOR. LXXV. PROPOS. XCIX.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXV. PROPOS. XCIX.]
+
 ## THEOR. LXXV. PROPOS. XCIX.
 
 Quadratum mediæ apotomæ primæ ad rationalem applicatum, latitudinem facit apotomen secundam.

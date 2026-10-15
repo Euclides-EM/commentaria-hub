@@ -28,6 +28,8 @@ CAMPANVS. Quicquid dicant alij, solidum æquidistantibus superficiebus contentum
 
 [Diagram: parallelepiped in perspective, with a at the lower front left corner and b at the upper back right corner]
 
+[Curated heading level=2 type=theorems: Theorema 21 Propositio 24]
+
 ## Eucli. ex Zamb. Theorema 21 Propositio 24
 
 [Curated heading level=3 type=zamberti_sequence: 24.]

@@ -9,6 +9,8 @@ OSTENSVM eſt enim, eſſe ut BD, ad DA, ita DA, ad DC; ac propterea DA, eſſe 
 
 [Curated heading level=2 type=campanus: 11]
 
+[Curated heading level=2 type=problems: PROBL. 1. PROPOS. 9.]
+
 ## PROBL. 1. PROPOS. 9.
 
 [Margin]

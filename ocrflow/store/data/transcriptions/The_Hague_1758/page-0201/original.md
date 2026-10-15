@@ -3,9 +3,13 @@
 
 ## DEMANDES.
 
+[Curated heading level=2 type=postulates: DEMANDE I.]
+
 ### I.
 
 {dropcap:O|lines=2|style=plain}N demande qu'on puiſſe doubler, tripler, quadrupler une grandeur donnée quelconque, ou en général qu'on puiſſe en prendre tel multiple qu'on voudra.
+
+[Curated heading level=2 type=postulates: DEMANDE II.]
 
 ### II.
 

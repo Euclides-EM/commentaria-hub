@@ -18,6 +18,8 @@ signum non diuiditur Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, 
 
 CAMPANVS Hæc quoque 40, manentibus prioribus figura & positionibus (excepto quod ipsa linea a b diuidatur in punctum c, in illas duas lineas ex quibus 32{printer-error-correction:34} dicit eam componi) probabitur, quemadmodũ 37. Si autem aliter fuerit quàm proponat, erit superficies k g rationalis & irrationalis, quod esse non potest.
 
+[Curated heading level=2 type=theorems: Theorema 34 Propositio 46]
+
 ## Eucli.ex Zamb. Theorema 34 Propositio 46
 
 [Curated heading level=3 type=zamberti_sequence: 46.]
@@ -43,6 +45,8 @@ THEON ex Zamb. Esto rationale mediũq̃ potẽs α β. diuisa in γ, ut ipsæ α
 {dropcap:L|lines=?|style=decorated|decoration="ornamental"}Inea potẽs in duo medialia nequit diuidi in alias duas sub termino earum ex quibus coniuncta est, sed in suas tantum duas ex quibus componitur est diuisibilis.
 
 CAMPANVS Hæc enim 41 diuisa linea a b ad punctum c in eas ex quibus 35 asserit eã componi, cæterisq̃ ut supra tam figura quàm positionibus manentibus. probatur sicut 38. nam dato opposito propositi, sequitur oppositum 36, qupd{printer-error-correction:quod} est impossibile.
+
+[Curated heading level=2 type=theorems: Theorema 35 Propositio 47]
 
 ## Eucli. ex Zamb. Theorema 35 Propositio 47
 

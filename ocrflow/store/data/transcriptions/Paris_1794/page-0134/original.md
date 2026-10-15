@@ -1,5 +1,7 @@
 [Ornament: double horizontal rule]
 
+[Curated heading level=1 type=propositions: Livre IV]
+
 # LIVRE IV.
 
 [Ornament: horizontal rule]
@@ -12,9 +14,19 @@ LES POLYGONES RÉGULIERS ET LA MESURE DU CERCLE.
 
 ## DÉFINITION.
 
+[Curated heading level=1 type=definitions: Livre IV]
+
+[Curated heading level=2 type=definitions: Définition.]
+
 {dropcap:U|lines=2|style=plain}N polygone qui est à la fois équiangle et équilatéral s’appelle *polygone régulier.*
 
 Le triangle équilatéral est le polygone régulier de trois côtés, et le quarré celui de quatre.
+
+[Curated heading level=1 type=theorems: Livre IV]
+
+[Curated heading level=2 type=propositions: PROPOSITION I. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION I.]
 
 ## PROPOSITION I.
 

@@ -5,6 +5,8 @@ Sint ab vnitate continuè proportionales quotcunque A B G D E Z numeri. Qui ver�
 
 [Diagram: horizontal lines labelled Vnitas, A 3, B 9, G 27, D 81, E 243 and Z 729]
 
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
+
 ## Propoſitio vndecima.
 
 Si ab vnitate quotcunque numeri continuè proportionales fuerint, minor metitur maiorem per aliquem præexiſtentem in proportionalibus numeris.
@@ -13,6 +15,8 @@ Sint ab vnitate quotlibet continuè proportionales A B G D numeri: Dico minorem 
 
 [Diagram: horizontal lines labelled Vnitas, A 2, B 4, G 8 and D 16]
 
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
+
 ## Propoſitio duodecima.
 
 Si ab vnitate quotlibet numeri continuè proportionales fuerint, Quot primi numeri vltimum metientur, tot & vnitati proximum metientur.
@@ -20,6 +24,8 @@ Si ab vnitate quotlibet numeri continuè proportionales fuerint, Quot primi nume
 Sint ab vnitate quotlibet continuè proportionales numeri, A B G D. Metiatur verò aliquis primus numerus qui ſit E vltimum D: Dico eundem E metiri A vnitati proximum. Quod ſi E non metiatur A, erunt adinuicem primi, per 31 ſeptimi. Quoniam A B G D ſunt ab vnitate proportionales, A ſeipſum multiplicans ipſum B facit. Itaque B ad E primus erit, per 27 ſeptimi. Quia verò A multiplicans B fecit G, & G ad eundem E, primus erit, per 26 eiuſdem. Similiter infinitè A ipſum G multiplicans efficit D. Quare & D ad E primus erit, per eandem, non igitur metitur E ipſum D, vt poſitum fuit, quod inconuenit. Metitur ergo E ipſum A vnitati proximum. Si igitur ab vnitate quotlibet numeri continuè proportionales, &c.
 
 [Diagram: two columns of horizontal lines labelled Vnitas, A 4, B 16, G 64, D 256, E 2 and 5, 9, 27, 81, 3]
+
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
 
 ## Propoſitio decimatertia.
 

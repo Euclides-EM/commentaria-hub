@@ -1,6 +1,8 @@
 <!-- Page number: 52 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=2 type=problems: PROBLÊME XIII.]
+
 ### PROBLÊME XIII.
 
 *Trouver le centre d’un cercle ou d’un arc donné.*
@@ -14,6 +16,8 @@ Prenez à volonté dans la circonférence ou dans l’arc trois points A, B, C, 
 [Curated heading level=4: Scholie.]
 
 *Scholie.* La même construction sert à faire passer une circonférence par les trois points donnés A, B, C, et aussi à faire en sorte que le triangle donné ABC soit inscrit dans un cercle.
+
+[Curated heading level=2 type=problems: PROBLÊME XIV.]
 
 ### PROBLÊME XIV.
 

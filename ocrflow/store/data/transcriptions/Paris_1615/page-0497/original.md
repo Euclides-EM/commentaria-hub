@@ -2,6 +2,10 @@
 
 <!-- Page number: 474 -->
 
+[Curated heading level=2 type=propositions: THEOR. 76. PROP. C.]
+
+[Curated heading level=2 type=theorems: THEOR. 76. PROP. C.]
+
 ## THEOR. 76. PROP. C.
 
 Le quarré d’vn reſidu medial ſecond, appliqué ſur vne ligne rationele, faict l’autre coſté reſidu troiſieſme.

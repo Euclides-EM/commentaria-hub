@@ -5,6 +5,10 @@
 3.concl. 8.a.1. | <b 2|2 <e,
 4.cöcl. 8.a.1. | <c 2|2 <f.
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. V.]
+
 ## THEOR. II. PROPOS. V.
 
 Isoscelium triangulorum qui ad basim sunt anguli, inter se sunt æquales : Et productis æqualibus rectis lineis, qui sub basi sunt anguli, inter se æquales erunt.

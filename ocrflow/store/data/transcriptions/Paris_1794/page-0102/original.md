@@ -3,6 +3,10 @@
 
 est le quarré de BD ; donc la somme des quarrés des côtés, etc.
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XV.]
+
 ## PROPOSITION XV.
 
 ### THÉORÊME.

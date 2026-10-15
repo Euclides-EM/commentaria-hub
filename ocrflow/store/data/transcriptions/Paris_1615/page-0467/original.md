@@ -8,6 +8,10 @@ menſ ou incommenſ.en long. Si commenſ. ( eſtant CF eommenſ.en longitude à
 
 Si la ſuperficie rationele A eſt 7, & la mediale B√ 48. la ligne pouuant icelles adiouſtees enſemble ſera 2—√3, qui eſt binome premier: fi A & B ſont 21& √ 432, la ligne pouuant icelles ſera √12 3, qui eſt binome ſecond: mau elle ſera √8r76, qui eſt binome troiſt ſme, ſi Aeſt 12. & B√192: mais ſi A eſt 6, & B732, elle ſera a√t, qui eſt binome quatrieſme: ſi A eſt 3& B√ 8, elle ſera√2LI qui eſt bin ims cinquieſme: &ſi A eſt 5,&B√24, la lig pouuãt la cõpo ſee d’icelles ſera √3—√2 qui eſt binome 6.mais ſiA eſt a, & BV18, la lig pouuã: la ſuperficie cõpoſee d’icelles ſera √√8+√√2, qui eſt mediale premiere: mais ſi A eſt 6. & B√ 12, la ligne pouuant la compaſce d’icelles ſera √(6t1) ou√ (3—√6)E√(3—√6): & finalement ſi A eſt 2, & B√ 8, la ligne pouuant icelles ſera √(√82), ou √(’21) —√(√2—1), qui eſt ligne pouuant vn rationel & vn medial.
 
+[Curated heading level=2 type=propositions: THEOR. 55. PROP. LXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 55. PROP. LXXIII.]
+
 ## THEOR. 55. PROP. LXXIII.
 
 Si deux ſuperficies mediales incommenſurables ſont iointes; la ligne qui peut tout le cõpoſé eſt bimediale ſeconde, ou ligne pouuant deux mediaux.

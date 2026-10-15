@@ -14,6 +14,10 @@ D’autant que comme A eſt a B, ainſi C a D, & en permutant comme A à C ain�
 
 Soit A√20, & B√12. donc la moyenne prop.C ſera√√2 20.& puis que cõme A à B, ainſiC à D; Dſera √√86S. Or les puiſſances de √√240.& √√ 86: ſont commenſcar elles ſont comme; à;: & le rectangle contenu d’icelles eſt √√20736, c’eſt à dire 12, egal au quarré de√ 1i, qui eſt außi 12 & partant iceluy rectangle de C & D commenſ.en puiſſance ſeulement eſt rationel.
 
+[Curated heading level=2 type=propositions: PROB. 5. PROP. XXIX.]
+
+[Curated heading level=2 type=problems: PROB. 5. PROP. XXIX.]
+
 ## PROB. 5. PROP. XXIX.
 
 Trouuer deux lignes mediales commenſurables en puiſſance ſeulement, comprenant vn rectangle medial.

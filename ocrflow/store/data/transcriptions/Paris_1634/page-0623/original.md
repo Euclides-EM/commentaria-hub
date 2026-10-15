@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: PROBL. XI. PROPOS. XXXV.]
+
+[Curated heading level=2 type=problems: PROBL. XI. PROPOS. XXXV.]
+
 ## PROBL. XI. PROPOS. XXXV.
 
 Inuenire duas rectas lineas potentia incommensurabiles, quæ faciant compositum quidem ex ipsarum quadratis medium; rectangulum verò sub ipsis contentum rationale.

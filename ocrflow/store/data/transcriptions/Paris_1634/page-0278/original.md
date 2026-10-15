@@ -18,6 +18,8 @@ Conuersa octauæ definitionis non concludit E, esse maiorem G, & F minorem H ; s
 
 La conuerse de la huictiesme definition ne conclud pas que E est plus grande que G, & F moindre que H ; mais elle concede seulement, qu'il est possible que E soit plus grande que G, & F moindre que H.
 
+[Curated heading level=2 type=definitions: DEFINIT. IX.]
+
 ## DEFINIT. IX.
 
 Proportio autem in tribus terminis paucissimis consistit.

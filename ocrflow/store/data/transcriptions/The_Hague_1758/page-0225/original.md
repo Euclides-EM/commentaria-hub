@@ -3,6 +3,10 @@
 
 [Diagram: ruled frame containing hatched rectangles labelled A, B and C beside rectangles labelled mA, nB and rC, and hatched rectangles labelled a, b and c beside rectangles labelled ma, nb and rc]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXII. THEOREME XXII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXII. PROPOSITION XXII.]
+
 ## PROPOSITION XXII. THEOREME XXII.
 
 {dropcap:S|lines=2|style=plain}'Il y a deux ſuites de grandeurs (A, B, C &c. a, b, c &c.) de même nombre de part & d'autre, telles que les raiſons de l'une ſoient égales aux raiſons de l'autre, chacune à chacune, priſes dans un ordre direct, les extrêmes ſeront proportionelles par égalité de raiſon ordonnée, ou ex æquo ordinatè.

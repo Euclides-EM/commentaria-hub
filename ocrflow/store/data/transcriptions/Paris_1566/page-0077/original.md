@@ -8,6 +8,8 @@ Hinc ſequitur, ſi baſis angulos ſubtendens dimidiam excedat circunferentiam,
 
 [Diagram: circle with points A, B, C, G and centre I, with radii and chords]
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaprima.]
+
 ## Propoſitio vigeſimaprima.
 
 In circulo qui in eadem ſectione ſunt anguli, ſibi inuicem ſunt æquales.
@@ -15,6 +17,8 @@ In circulo qui in eadem ſectione ſunt anguli, ſibi inuicem ſunt æquales.
 Eſto circulus A B G D, eius verò ſectio ſit B E A D, in qua ſint anguli B E D B A D: Dico eos eſſe æquales. Suſcipiatur (per 1 huius) centrum quod ſit Z, coniunctis Z B, Z D, quoniam anguli B E D & B A D eandem circunferentiam baſim habent (ſcilicet B G D) cum angulo B Z D, qui ad centrum, ipſi (per præcedentem) ſunt eiuſdem B Z D dimidij, & igitur (per 7 comm. ſententiam) æquales. In circulo igitur qui in eadem ſectione ſunt anguli.
 
 [Diagram: circle with points A, B, D, E, G and centre Z, with intersecting chords]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſecunda.]
 
 ## Propoſitio vigeſimaſecunda.
 
@@ -24,6 +28,8 @@ Sit in circulo A B G quoduis quadrilaterum A B G D: Dico angulos oppoſitos quad
 
 [Diagram: circle containing quadrilateral A B G D with both diagonals]
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimatertia.]
+
 ## Propoſitio vigeſimatertia.
 
 Super eadem recta linea, duæ ſectiones circulorum ſimiles & inæquales, non conſtituentur ad eaſdem partes.
@@ -31,6 +37,8 @@ Super eadem recta linea, duæ ſectiones circulorum ſimiles & inæquales, non c
 Eſto recta A B: Dico ſuper ea duas ſectiones circulorum ſimiles & inæquales conſtitui non poſſe ad eaſdem partes, quòd ſi poſſe credantur, ſint A G B & A D B ſuper A B recta ſectiones inæquales & ſimiles, & ad eaſdem partes. Producaturque recta A G in D, coniunctis B G, B D, cùm ſint ſimiles ſectiones, anguli, A G B & A D B erunt (per 10 diffinitionem huius) æquales, exterior quidem A G B interiore oppoſito G D B, quod opponeretur 16 primi, & igitur abſurdum eſſet. Non itaque erunt ſuper recta A B ſimiles & inæquales ſectiones. Super eadem itaque recta linea, duæ ſectiones, &c.
 
 [Diagram: two unequal circular sections on the same baseline A B, with points G and D]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquarta.]
 
 ## Propoſitio vigeſimaquarta.
 

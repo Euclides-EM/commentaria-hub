@@ -13,6 +13,8 @@ Volgt.
 
 [Curated heading level=3 type=numbered_item: 4.]
 
+[Curated heading level=2 type=definitions: Beſchreibung 4.]
+
 4. Diſe quantiteten haben ain Proportz gegenainander / deren die aine ettlich mal genommen oder gemehrt / die ander ybertreffen mag.
 
 #### Erklärung.

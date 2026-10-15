@@ -3,6 +3,8 @@
 
 duplum rectanguli G F C E ( hoc eſt ad F H quadratum circumſcriptum) vt C D E ad duplam diametrum C E, ſiue vt quadrans C D ad diametrum C E.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO VI.]
+
 ## PROPOSITIO VI.
 
 {dropcap:C|lines=2|style=plain}Irculi circumferentia diametrum continet minùs quam ter & vnam ſeptimam (ſeu ¹⁰⁄₇₀) plus verò quam ter & ¹⁰⁄₇₁.

@@ -3,6 +3,10 @@
 
 [Figure: two polygons M and N; polygon M with vertices A, B, C, D, E and diagonals AC, AD, with angles m and n at C; polygon N with vertices F, G, H, I, K and diagonals FH, FI, with angles a and e at H]
 
+[Curated heading level=2 type=propositions: PROPOSITION XX. THEOREME XIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XIV. PROPOSITION XX.]
+
 ## PROPOSITION XX. THEOREME XIV.
 
 {dropcap:L|lines=2|style=plain}Es Polygones ſemblables (M & N) peuvent être diviſés par des diagonales (AC, AD; FH, FI) tirées ſemblablement, en un même nombre de triangles (ABC, ACD, ADE, & FGH, FHI, FIK) ſemblables entr'eux & proportionels à leurs Touts; de plus les Polygones (M & N) ſont en raiſon doublée de leurs côtés homologues quelconques (AB, FG; ou BC, GH &c).

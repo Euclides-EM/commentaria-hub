@@ -16,6 +16,8 @@ CAMPANVS. Sint duæ lineæ a b & c, d, se inuicē secantes in puncto e: dico q̃
 
 [Diagram: two straight lines a b and c d crossing at point e; labels a and c above, d and b below]
 
+[Curated heading level=2 type=theorems: Theorema 8. Propositio 15.]
+
 ## Eucli. ex Zamb. Theorema 8. Propositio 15.
 
 [Curated heading level=3 type=zamberti_sequence: 15.]
@@ -43,6 +45,8 @@ SI quodlibet laterū trianguli directe protrahatur, faciet angulū extrinsecū u
 CAMPANVS. Sit ut triangulia b c, latus a b protrahatur usq̃ ad d, dico q̃ angulus d b c, maior est utroq̃ duorū angulorū intrinsecorū sibi oppositorum, qui sunt b a c & b c a. Diuidam enim per 10 propositionē, lineam c b per æqualia in puncto e, & protrahā a e usq̃ ad f, ita ut e f fiat æqualis a e, & protrahā lineam f b. Intelligo duos triangulos, c e a & b e f, & quia duo latera a e & e c triāguli a e c sunt æqualia duobus lateribus f e & e b trianguli f e b, & angulus e unius est æqualis angulo e alterius per præmissam quia anguli cōtra se positi, erit per 4 propositiōe angulus e c a, æqualis angulo e b f, & ideo angulus e b d, maior erit angulo b c a. Similiter quoq̃ probabitur q̃d est maior angulo c a b. Nam diuidam a b per æqualia in puncto g, per 10 propositionē & protrahā lineam g h, æqualē lineæ c g per 3 propositionē, postea protrahā h b k, eruntq̃ duorū triangulorū qui sunt a g c & b g h, duo latera a g & g c primi, æqualia duobus lateribus b g & g h secundi, & angulus g unius, & angulus g alterius per 15: ergo per 4 angulus g a c, est æqualis angulo g b h, quare per 15 & angulo k b d. Et quia angulus c b d est maior angulo k b d, erit maior angulo b a c, quod est propositum.
 
 [Diagram: triangle a b c with side a b produced to d; e midpoint of c b with line a e f drawn through, g midpoint of a b with line c g h drawn through, and h b produced to k, forming a star-like configuration; labels d, b, f, h, g, e, a, c]
+
+[Curated heading level=2 type=theorems: Theorema 9. Propositio 16.]
 
 ## Eucli. ex Zamb. Theorema 9. Propositio 16.
 

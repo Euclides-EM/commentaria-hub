@@ -3,6 +3,10 @@
 
 [Diagram: two unequal circular segments ADB and ACB on chord AB, with lines AC, BD and BC]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIII. THEOREME XXI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXI. PROPOSITION XXIII.]
+
 ## PROPOSITION XXIII. *THEOREME XXI.*
 
 {dropcap:S|lines=2|style=plain}Ur une même ligne droite (AB) & du même côté: on ne ſçauroit placer deux ſegmens de cercles (ADB, ACB) ſemblables & inégaux.

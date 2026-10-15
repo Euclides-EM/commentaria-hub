@@ -3,6 +3,8 @@
 
 *A G ipſum incertum potẽs, incerta erit, per vndecimam diffinitionem huius, vocatur autem ex binis nominibus eò quòd ex binis certis longitudine tamen incommẽſurabilibus componatur. Si itaque binæ certæ, &c.*
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſeptima.]
+
 ## Propoſitio trigeſimaſeptima.
 
 Si binæ Mediæ potentia tantum commenſurabiles Certum comprehendentes componantur, tota incerta eſt, vocatur autem Ex binis mediis prima.
@@ -10,6 +12,8 @@ Si binæ Mediæ potentia tantum commenſurabiles Certum comprehendentes componan
 *Sumantur binæ Mediæ potentia tantùm commenſurabiles A B B G certum comprehendentes: Dico totam A G compoſitam incertam eſſe. Eodem ferè quo præcedentis argumento. Quoniam incommenſurabiles ſunt A B B G, ſequetur (vt proxima oſtendimus) quadrata ex A B & B G incommenſurabilia eſſe, rectangulo bis ſub ipſis A B B G comprehenſo, per lemma vigeſimæ, & primum coroll. decimæ huius. Quia verò ea quadrata & rectangula compoſita totum quod ex A G faciunt, per quartam ſecundi, ſequetur (ex 12 huius) totum ex A G vtrique (compoſito ſcilicet ex quadratis A B B G & rectangulo ſub eis bis ſumpto) eſſe incommenſurabile. Sed bis ſub A B B G ſumptum certum eſt, ex hypotheſi, nempe A B B G certum comprehẽdunt. Totum igitur ex A G (ipſi bis ſumpto ſub A B B G certo incommenſurabile) incertum erit, ex decima diffinitione huius, & proinde tota A G illud potens incerta erit, per 11 diffinit. huius. Quæ quidem Ex binis mediis prima dicitur ea de cauſa, quod binarum ex binis mediis genitarum, hæc ex mediis certum continentibus, prior feratur ſecunda, quæ ex mediis medium continentibus componetur. Quare hæc ſecunda illa verò prima dicta fuit, cùm ſit certum incerto præſtantius. Si itaque binæ Mediæ potentia tantùm, &c.*
 
 [Diagram: a horizontal line with A at the left, B in the middle and G at the right]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaoctaua.]
 
 ## Propoſitio trigeſimaoctaua.
 

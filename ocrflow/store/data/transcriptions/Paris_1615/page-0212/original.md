@@ -6,6 +6,10 @@ blable auſſi à la meſme B: Ie dis que A, & C ſeront ſemblables entr’ell
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 16. PROP. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. 16. PROP. XXII.]
+
 ## THEOR. 16. PROP. XXII.
 
 Si quatre lignes ſont proportionneles les fgures rectilignes ſemblables, & ſemblablemét deſcrites ſur icelles, ſeront proportionneles: & fiicelles figures ainſi deſcrites ſont proportiõneles; icelles lignes ſeront auſſi proportionneles.

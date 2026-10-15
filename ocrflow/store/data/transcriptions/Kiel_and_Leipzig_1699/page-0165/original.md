@@ -24,6 +24,10 @@ Welches unmöglich n. 9. Gr. I.
 
 Muß also allezeit der durch beede Mittel-Düpffele cf oder ba, derer einander anrührenden Kreyse gezogene gerade Strich/wen̄ er verlängert wird/auff den Anrührungs-Düttel a oder c stossen. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 11. Beweiß-Stück. Der XII. Vortrag.]
+
 ## Der XII. Vortrag.
 
 ## Das 11. Beweiß-Stück.

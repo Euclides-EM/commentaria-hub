@@ -9,6 +9,10 @@ Connectatur E D: & ducatur per punctum C, parallelus ipſi E F, ſi C D parallel
 
 Hanc verò Euclides rectè prætermiſit ob facilitatem. Sed & nonnullas ſimilis notionis quas anteà expreſſit, poterat omittere.
 
+[Curated heading level=2 type=propositions: PROBLEMA 11, PROPOSITIO XLII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 11, PROPOSITIO XLII.]
+
 ## PROBLEMA 11, PROPOSITIO XLII.
 
 Dato Triangulo æquale Parallelogrammum conſtituere, habens angulum angulo dato æqualem.
@@ -32,6 +36,10 @@ Super punctum C, per vigeſimamtertiam, conſtituo angulum D C F, æqualem angul
 [Diagram: parallelogram with top line A B F E and base C D G, crossing diagonals]
 
 Quum enim, per trigeſimamoctauam, totum C F G Triangulum ſit duplum C D F Trianguli: & per quadrageſimamprimam, Parallelogrammum A B C D ſit eiuſdem C D F Trianguli duplum: erunt A B C D Parallelogrammum & C F G Triangulum inter ſe æqualia, Quod erat faciendum.
+
+[Curated heading level=2 type=propositions: THEOREMA 32, PROPOSITIO XLIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 32, PROPOSITIO XLIII.]
 
 ## THEOREMA 32, PROPOSITIO XLIII.
 

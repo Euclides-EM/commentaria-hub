@@ -10,6 +10,10 @@ Solten sie aber bey A zusammen kommen / so würde
 
 Können also diese Striche AB und CD weder auff der einen/ noch auff der andern Seite zusammen kommen / sondern müssen Neben-Striche seyn / n. 34 Beschreibung.   W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXIIX. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 19. Beweiß-Stück. Der XXIIX. Vortrag.]
+
 ## Der XXIIX. Vortrag.
 
 ## Das 19. Beweiß-Stück.

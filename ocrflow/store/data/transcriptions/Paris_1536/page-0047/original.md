@@ -4,6 +4,10 @@
 
 conſtituatur d a e: per vigeſimátertiam propoſitionem. Et quoniam in rectas a e atq; b c recta incidit a d, efficiens alternos angulos æquales, hoc eſt a d b ipſi d a e: parallela eſt igitur a e ipſi b c, per vigeſimamſeptimam propoſitionem. Per datum itaque punctum a, datæ rectæ lineæ b c, parallelam duximus a e. Quod expediebat facere.
 
+[Curated heading level=2 type=propositions: Theorema 22, Propoſitio 32.]
+
+[Curated heading level=2 type=theorems: Theorema 22, Propoſitio 32.]
+
 ## Θεώρημα κβ, Πρόθεσις λβ.
 
 ΠΑντὸς τριγώνου μιᾶς τῶν πλευρῶν προσεκβληθείσης, ἡ ἐκτὸς γωνία δυσὶ ταῖς ἐντὸς καὶ ἀπεναντίον ἴση ἐστί. καὶ αἱ ἐντὸς τοῦ τριγώνου τρεῖς γωνίαι, δυσὶ ὀρθαῖς ἴσαι ἐισί.
@@ -29,6 +33,10 @@ Secundæ partis vel illationis oſtenſio.
 ### Corollarium.
 
 ¶ Hinc fit manifeſtum, cuiuslibet trianguli tres angulos, æquales eſſe tribus angulis alterius cuiuſcunq; trianguli: nempe quòd eiſdem, vtpote binis rectis vtrobique ſint æquales.
+
+[Curated heading level=2 type=propositions: Theorema 23, Propoſitio 33.]
+
+[Curated heading level=2 type=theorems: Theorema 23, Propoſitio 33.]
 
 ## Θεώρημα κγ, Πρόθεσις λγ.
 

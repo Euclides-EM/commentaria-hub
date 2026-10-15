@@ -20,6 +20,8 @@ A, 6. B, 4. C, 12. D, 8.
 hyp. | a π b 2|2 c π d,
 3.s.18.5 | b π a+b 2|2 d π c+d.
 
+[Curated heading level=2 type=definitions: DEFINIT. XV.]
+
 ## DEFINIT. XV.
 
 Diuisio rationis, est sumptio excessus, quo consequentem superat anteeedēs ad ipsam consequentem.

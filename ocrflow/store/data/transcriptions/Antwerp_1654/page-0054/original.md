@@ -15,6 +15,8 @@ Fig. 30.
 
 Mechanice datum angulum in quotcunque ſecabis æquales angulos, ſi ex anguli vertice A tanquam centro intra anguli crura arcum deſcribas, eumq́; diuidas in quot placuerit æquas partes; rectæ enim ex A per diuiſionum puncta emiſſæ, angulum ſecabunt in partes totidem æquales.
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO X.]
+
 ## PROPOSITIO X.
 
 [Curated heading level=2 type=figures: Fig. 31]

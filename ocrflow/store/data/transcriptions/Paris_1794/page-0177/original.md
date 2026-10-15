@@ -7,6 +7,10 @@ EGHF qui rencontrera les plans parallèles suivant EF et GH. Les intersections E
 
 *Corollaire.* Il suit de là que *deux plans parallèles sont par-tout à égale distance*; car si EG et FH sont perpendiculaires aux deux plans MN, PQ, elles seront parallèles entre elles; donc elles seront égales.
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIII.]
+
 ## PROPOSITION XIII.
 
 ### THÉORÊME.

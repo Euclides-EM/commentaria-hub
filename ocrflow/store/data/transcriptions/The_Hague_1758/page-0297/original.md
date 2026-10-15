@@ -3,6 +3,10 @@
 
 [Figure: dans un encadrement, deux cercles égaux AIBC de centre M et EKFG de centre N, avec des cordes et rayons tracés, points m, o et n, G marqués sur les circonférences]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIII. THEOREME XXIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIII. PROPOSITION XXXIII.]
+
 ## PROPOSITION XXXIII. THEOREME XXIII.
 
 {dropcap:D|lines=2|style=plain}Ans les cercles égaux (AIBC, EKFG), les angles, ſoit aux centres ſoit aux circonférences (AMC, ENG ou AIC, EKG), de même que les ſecteurs (AMCm, ENGn), ſont en raiſon des arcs (AmC, EnG) ſur leſquels ils appuyent.

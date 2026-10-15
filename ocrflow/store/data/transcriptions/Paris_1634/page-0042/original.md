@@ -2,6 +2,8 @@
 
 quantitas plures habens dimensiones quam tres : omne siquidem terminatum superat terminum suum vna dimensione, vt perspicuum est ex adductis exemplis. | qui ait plus de trois dimensions : & toute chose terminée excede son terme d'vne dimension, comme il est manifesté par les exemples proposez.
 
+[Curated heading level=2 type=definitions: XIV.]
+
 ### XIV.
 
 Figura est, quæ sub aliquo, vel aliquibus terminis comprehenditur. | Figure est, ce qui est contenu sous vn ou plusieurs termes.

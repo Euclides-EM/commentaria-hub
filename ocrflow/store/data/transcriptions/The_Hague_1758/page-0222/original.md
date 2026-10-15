@@ -3,6 +3,10 @@
 
 [Diagram: ruled frame containing a rectangle divided into A and B beside a rectangle divided into C and D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIX. THEOREME XIX.]
+
+[Curated heading level=2 type=theorems: THEOREME XIX. PROPOSITION XIX.]
+
 ## PROPOSITION XIX. THEOREME XIX.
 
 {dropcap:S|lines=2|style=plain}I le Tout (A + B) eſt au Tout (C + D), comme le retranché (A) eſt au retranché (C), le reſte (B) ſera auſſi au reſte (D), comme le Tout (A + B) eſt au Tout (C + D).

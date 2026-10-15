@@ -9,6 +9,10 @@ a. 29. 11.
 
 ſolido CP cujus baſis eſt parallelogrammum ACBL, et ei oppoſitum ORQP; in eadem enim ſunt baſi, et ipſorum inſiſtentes rectae AF, AO, CD, CR; LM, LP, BH, BQ ſunt in eiſdem rectis lineis FR, MQ. ſed ſolidum CP eſt aequaleᵃ ſolido CN, etenim in eadem ſunt baſi ACBL, et eorum inſiſtentes rectae AO, AG, LP, LN; CR, CE, BQ, BK ſunt in eiſdem rectis lineis ON, RK. Ergo ſolidum CM, ſolido CN aequale erit. Solida igitur parallelepipeda &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXXI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXI. THEOR.]
+
 ## PROP. XXXI. THEOR.
 
 {dropcap:S|lines=2|style=plain}OLIDA parallelepipeda quae in aequalibus ſunt baſibus, et eadem altitudine, inter ſe ſunt aequalia.

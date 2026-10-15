@@ -26,6 +26,10 @@ hyp. | <a est ∟,
 3.a.b. | <b est ∟, β
 d. β | <d & <c snt ∟.
 
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXX.]
+
 ## THEOR. XXI. PROPOS. XXX.
 
 Quæ eidem rectæ lineæ parallelæ, & inter se sunt parallelæ.

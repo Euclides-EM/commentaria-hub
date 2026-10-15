@@ -20,6 +20,8 @@ CAMPANVS. Sit assignata linea a b, de cuius situ utrū in plano iaceat uel sursu
 
 [Diagram: two parallelepipeds: the larger on the left with visible labels a and k at top, b, m at the upper face, n at centre, h at the left, l and p at the bottom; the smaller on the right with labels c, g, f, e, d]
 
+[Curated heading level=2 type=problems: Problema 5. Propositio 27.]
+
 ## Eucli. ex Zamb. Problema 5. Propositio 27.
 
 [Curated heading level=3 type=zamberti_sequence: 27.]

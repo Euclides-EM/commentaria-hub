@@ -2,6 +2,10 @@
 
 <!-- Page number: 64 -->
 
+[Curated heading level=2 type=propositions: THEOR 6. PROP. VI.]
+
+[Curated heading level=2 type=theorems: THEOR 6. PROP. VI.]
+
 ## THEOR 6. PROP. VI.
 
 Si vne ligne droite eſt coupee en deux parties egalles, & on luy adiouſte directement quelque autre ligne droite: le rectãgle de la toute & de l’adiouſtee comme d’vne, & de l’adiouſtee auec le quarré de la moitié, eſt egal au quarré qui eſt faict de la moitié & de l’adiouſtee comme d’vne.

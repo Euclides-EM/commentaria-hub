@@ -14,6 +14,8 @@ VT, quam proportionem habet A, ad B, eandem habebit magnitudo propoſita C, ad a
 
 [Curated heading level=2 type=campanus: 1]
 
+[Curated heading level=2 type=theorems: THEOR. 1. PROPOS. 1.]
+
 ## THEOR. 1. PROPOS. 1.
 
 [Curated heading level=3 type=incipit: SI]

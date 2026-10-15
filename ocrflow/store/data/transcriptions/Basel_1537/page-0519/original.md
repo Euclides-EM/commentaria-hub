@@ -6,6 +6,8 @@ Sit longitudo e d, oculus autem b, speculum uero conuexum a c, aspectus porro re
 
 [Diagram: convex arc with point a at top and c below on the arc; d at upper right, e at left, b at lower right; rays from b touching the arc]
 
+[Curated heading level=2 type=theorems: Theorema undecimum.]
+
 ## Theorema undecimum.
 
 CElsitudines & crassitudines à cauis speculis quæcunq; sunt intra coincidentiam uisuum conuersa uidētur, quemadmodum in planis & conuexis speculis, quæcunque autem extra coincidentiam sicut sunt, sic & spectātur.
@@ -20,6 +22,8 @@ Rursus crassitudo quidem sit d e, & k h, cauū autem speculum sit a c, oculus ue
 
 [Diagram: concave arc at left with points a at top, K inside, e and b at right, d below, f and g at lower left; crossing lines between arc and the points]
 
+[Curated heading level=2 type=theorems: Theorema duodecimum.]
+
 ## Theorema duodecimum.
 
 OBliquæ longitudines à cauis speculis quæcunque intra coincidentiam uisuum iacent, ut sunt sic spectantur, quæcunque uero extra, conuersæ.
@@ -27,6 +31,8 @@ OBliquæ longitudines à cauis speculis quæcunque intra coincidentiam uisuum ia
 Sint inquam, longitudines obliquæ e d, h K, cauum uero speculum sit a c. oculus autem sit b, uisus refracti & concurrentes in g sint b a d, b c e, & ipsa quidem h K, obliqua longitudo sit intra. Igitur h K iuxta naturam apparet. sicut & in planis & conuexis speculis. Sed e d, conuersa, nam ipsum quidem d, super a apparet & e super c.
 
 [Diagram: crescent-shaped concave speculum at left with point e; b at upper right, K at centre, d at right, a and g at bottom; crossing rays forming a star-like pattern]
+
+[Curated heading level=2 type=theorems: Theorema decimumtertium.]
 
 ## Theorema decimumtertium.
 

@@ -31,6 +31,10 @@ d. 9. 5.
 
 Tertio, Sit A minor C; erit B minor D. Etenim erit C major A, et quoniam eſt C ad D, ut A ad B, erit D major B per Caſum primum. quare B minor erit D. ſi igitur prima &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XV. THEOR.]
+
 ## PROP. XV. THEOR.
 
 {dropcap:P|lines=2|style=plain}ARTES inter ſe comparatae eandem habent rationem, quam habent earum aeque multiplices.

@@ -10,6 +10,10 @@ b. 44. 1.
 
 parallelogrammum æquale triangulo primo ABD, in angulo dato angulo æquali.
 
+[Curated heading level=2 type=propositions: PROP. XLVI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XLVI. PROB.]
+
 ## PROP. XLVI. PROB.
 
 {dropcap:A|lines=2|style=plain} Data recta linea quadratum deſcribere.

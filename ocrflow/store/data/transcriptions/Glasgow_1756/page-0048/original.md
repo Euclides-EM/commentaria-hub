@@ -1,6 +1,10 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 33 -->
 
+[Curated heading level=2 type=propositions: PROP. XXIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXIX. THEOR.]
+
 ## PROP. XXIX. THEOR.
 
 {dropcap:I|lines=2|style=plain}N parallelas rectas lineas recta linea incidens, et alternos angulos inter ſe aequales; et exteriorem interiori et oppoſito et ad eaſdem partes aequalem; et interiores et ad eaſdem partes, duobus rectis aequales efficiet.

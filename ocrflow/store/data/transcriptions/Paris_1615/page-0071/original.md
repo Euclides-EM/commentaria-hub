@@ -4,6 +4,10 @@
 
 des Etir, aEDF ſe trouueroient egaux; donc du point A Se poutrcſtremenee autre ligne que AD parallehéa Br.
 
+[Curated heading level=2 type=propositions: THEOR. 31. PROP. XLI.]
+
+[Curated heading level=2 type=theorems: THEOR. 31. PROP. XLI.]
+
 ## THEOR. 31. PROP. XLI.
 
 Si vn parallellograme, & vn triangle ont vne meſme baſe, &ſont entre meſmes parallelles, le paralellograme ſera double du triangle.
@@ -11,6 +15,10 @@ Si vn parallellograme, & vn triangle ont vne meſme baſe, &ſont entre meſmes 
 [Diagram]
 
 Soit le pare llellograme ABCD ſur la meſme baſe BC, que le triangle BCE, & tous deux entre meſmes parallelles AE, e Bc. Ie dis que le parailellograme eſt double du triangle. Car ſi on meine la diagonalle AC, le triangle ABC fera la moitié du parallellogr.par la 34.p.1. lequel ſera egal au trianle BEC par la 37.p.1.partant le parallellograme qui eſt double de l’vn, ſera auſſi double de l’autre.
+
+[Curated heading level=2 type=propositions: PROBL. 11. PROP. XLII.]
+
+[Curated heading level=2 type=problems: PROBL. 11. PROP. XLII.]
 
 ## PROBL. 11. PROP. XLII.
 

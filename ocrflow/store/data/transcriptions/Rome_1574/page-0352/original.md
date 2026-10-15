@@ -35,6 +35,8 @@
 
 [Curated heading level=2 type=campanus: 2]
 
+[Curated heading level=2 type=problems: PROBL. 2. PROPOS. 2.]
+
 ## PROBL. 2. PROPOS. 2.
 
 [Margin]

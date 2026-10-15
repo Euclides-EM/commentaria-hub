@@ -12,6 +12,10 @@ Il eſt manifeſte par cecy que le rectangle compris d’vne ligne rationele & d
 
 Soit AB√√ 8, & BCV√8.La toute AC ſera√√18 +√√8. qui eſt irrationele appellee bimediale ſeconde.
 
+[Curated heading level=2 type=propositions: THEOR. 28. PROP. XL.]
+
+[Curated heading level=2 type=theorems: THEOR. 28. PROP. XL.]
+
 ## THEOR. 28. PROP. XL.
 
 Si deux lignes incommenſurables en P puiſſance, comprenant vn rectangle medial, mais le compoſé de leurs quarrez eſt rationel ſont aſſemblees, la toute ſera irrationele: & ſoit icelle appelee ligne maieure.

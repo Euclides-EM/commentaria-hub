@@ -20,6 +20,8 @@ CAMPANVS Sit quadratum assignatum a b c d. Volo intra ipsum: describere circulum
 
 [Diagram: square a b c d with side midpoints f (top), g (left), h (bottom), e (right); lines e g and f h meet at k, centre of the inscribed circle]
 
+[Curated heading level=2 type=problems: Problema 8. Propositio 8]
+
 ## Eucli.ex Zamb. Problema 8. Propositio 8
 
 [Curated heading level=3 type=zamberti_sequence: 8.]

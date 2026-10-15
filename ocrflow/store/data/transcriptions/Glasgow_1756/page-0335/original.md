@@ -3,6 +3,10 @@
 
 KL, ita eſt ABG conus ad conum CDK, et cylindrus EB ad FD cylindrum. Super aequalibus igitur &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XV. THEOR.]
+
 ## PROP. XV. THEOR.
 
 {dropcap:A|lines=2|style=plain}Eǫᴜᴀʟɪᴜᴍ conorum et cylindrorum baſes et altitudines reciproce ſunt proportionales; et quorum conorum et cylindrorum baſes et altitudines reciproce ſunt proportionales, illi inter ſe ſunt aequales.

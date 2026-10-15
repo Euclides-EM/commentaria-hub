@@ -3,6 +3,10 @@
 
 [Figure: three similar triangles labelled A, B and C]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXI. THEOREME XV.]
+
+[Curated heading level=2 type=theorems: THEOREME XV. PROPOSITION XXI.]
+
 ## PROPOSITION XXI. THEOREME XV.
 
 {dropcap:L|lines=2|style=plain}Es figures rectilignes A, C, ſemblables à une même (B), ſont ſemblables entr'elles.

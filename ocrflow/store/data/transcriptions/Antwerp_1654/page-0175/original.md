@@ -11,6 +11,8 @@ Et vniuerſim partes ſimiles (C,F) ſunt inter ſe vt tota (A,B.)
 
 Verè inſtar axiomatis haberi poteſt, ſi rectè intelligatur, quid ſint partes ſimiles. Vide defin.7.
 
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XVI.]
+
 ## PROPOSITIO XVI.
 
 [Margin]

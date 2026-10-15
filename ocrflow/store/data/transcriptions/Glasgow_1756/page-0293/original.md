@@ -17,6 +17,10 @@ d. 31. 11.
 
 Ergo ſolidum KO aequale eſt ſolido DH. atque eſt ſolidum quidem KO quod fit a tribus A, B, C; ſolidum vero DH quod fit ex B. ſi igitur tres rectae lineae &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXXVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXVII. THEOR.]
+
 ## PROP. XXXVII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I quatuor rectae lineae proportionales ſint; et quae ab ipſis fiunt ſolida parallelepipeda ſimilia et ſimiliter deſcripta proportionalia erunt. et ſi qui ab ipſis fiunt ſolida parallelepipeda ſimilia et ſimiliter deſcripta proportionalia ſint; et ipſae rectae lineae proportionales erunt.

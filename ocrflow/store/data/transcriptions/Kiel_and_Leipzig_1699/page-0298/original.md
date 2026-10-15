@@ -20,6 +20,10 @@
 
 Werden derowegen Sechs in verwirreter Ebenmaß stehende Grössen auch ein ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXIV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 24. Beweiß-Stück. Der XXIV. Vortrag.]
+
 ## Der XXIV. Vortrag.
 
 ## Das 24. Beweiß-Stück.

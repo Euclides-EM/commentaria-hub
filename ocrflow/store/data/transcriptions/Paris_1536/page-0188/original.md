@@ -10,6 +10,10 @@ Ostẽsio theorematis.
 
 [Diagram: a b c d e]
 
+[Curated heading level=2 type=propositions: Theorema 23, Propositio 33.]
+
+[Curated heading level=2 type=theorems: Theorema 23, Propositio 33.]
+
 ## Θεώρημα κγ, πρόθεσις λγ.
 
 Ἐν τοῖς ἴσοις κύκλοις, αἱ γωνίαι τὸν αὐτὸν λόγον ἔχουσι ταῖς περιφερείαις ἐφ' ὧν βεβήκασιν, ἐάν τε πρὸς τοῖς κέντροις, ἐάν τε πρὸς ταῖς περιφερείαις ὦσι βεβηκυῖαι. ἔτι δὲ καὶ οἱ τομεῖς, ἅτε πρὸς τοῖς κέντροις συνιστάμενοι.

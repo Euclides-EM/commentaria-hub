@@ -4,6 +4,10 @@
 
 [Figure: triangle T at left, dotted construction with points K, L, G, H, I, E, A, C, F, B, D at center, and angle M at right]
 
+[Curated heading level=2 type=propositions: PROPOSITION XLIV. PROBLEME XII.]
+
+[Curated heading level=2 type=problems: PROBLEME XII. PROPOSITION XLIV.]
+
 ## PROPOSITION XLIV. PROBLEME XII.
 
 {dropcap:S|lines=2|style=plain}Ur une ligne droite donnée (AB); conſtruire un parallélogramme (BC) égal à un triangle donné (T); & qui ait un angle (BAC) égal à un angle rectiligne donné (M).

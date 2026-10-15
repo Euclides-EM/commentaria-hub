@@ -32,6 +32,10 @@ d. Ax. 1.
 
 igitur et anguli CBE, EBD ipſis DBA, ABC ſunt aequales. ſed CBE, EBD ſunt duo recti; igitur DBA, ABC duobus rectis aequales ſunt. ergo cum recta linea &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIV. THEOR.]
+
 ## PROP. XIV. THEOR.
 
 [Subhead]

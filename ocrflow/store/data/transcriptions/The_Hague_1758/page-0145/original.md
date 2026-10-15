@@ -4,6 +4,10 @@
 
 [Diagram: circle ADEB with diameter AB through centre C, points D and E on the upper semicircle, lines AD, DB, EB and CD, and AD prolonged to N]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXI. THEOREME XXVII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXVII. PROPOSITION XXXI.]
+
 ## PROPOSITION XXXI. *THEOREME XXVII.*
 
 {dropcap:L|lines=2|style=plain}’angle (ADB) placé dans le demi cercle (ADEB), eſt un droit; mais l’angle (DAB), qui eſt placé dans un ſegment (DAB) plus grand que le demi cercle, eſt plus petit qu’un droit; & celui (DEB), qui eſt placé dans un ſegment (DEB) plus petit que le demi cercle, eſt plus grand qu’un droit. Outre cela, l’angle mixtiligne (BDA) du plus grand ſegment, eſt plus grand qu’un angle droit; & celui (BDE) du plus petit ſegment, eſt moindre qu’un angle droit.

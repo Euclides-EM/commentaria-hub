@@ -3,6 +3,10 @@
 
 [Figure: two quadrilaterals ABDC labelled M and EHGF labelled N, with dotted diagonals BD and FH and marked angles at the vertices]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVIII. PROBLEME VI.]
+
+[Curated heading level=2 type=problems: PROBLEME VI. PROPOSITION XVIII.]
+
 ## PROPOSITION XVIII. PROBLEME VI.
 
 {dropcap:D|lines=2|style=plain}'Une ligne droite donnée (AD), décrire une figure rectiligne (M) ſemblable à une autre figure rectiligne donnée (N) & ſemblablement poſée.

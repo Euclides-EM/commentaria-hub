@@ -8,6 +8,8 @@ dis-je, qui est contenu sous icelles lignes droictes menées.
 
 L'angle au segment est rectiligne, mais celuy du segment n'est pas rectiligne.
 
+[Curated heading level=2 type=definitions: DEF. VIII.]
+
 ### VIII.
 
 Mais quand les lignes droictes qui contiennent l'angle, embrassent quelque circonference, l'angle est dit s'appuyer sur icelle.
@@ -15,6 +17,8 @@ Mais quand les lignes droictes qui contiennent l'angle, embrassent quelque circo
 [Figure]
 
 L'angle ABC est au segment ABC par la definition precedente, & par cette huictiesme définition il s'appuye ou est opposé à la circonference ADG.
+
+[Curated heading level=2 type=definitions: DEF. IX.]
 
 ### IX.
 

@@ -1,6 +1,10 @@
 <!-- Running title: LIBER SEXTUS. -->
 <!-- Page number: 213 -->
 
+[Curated heading level=2 type=propositions: PROP. XXX. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXX. PROB.]
+
 ## PROP. XXX. PROB.
 
 {dropcap:D|lines=2|style=plain}ATAM rectam lineam terminatam ſecundum extremam ac mediam rationem ſecare.

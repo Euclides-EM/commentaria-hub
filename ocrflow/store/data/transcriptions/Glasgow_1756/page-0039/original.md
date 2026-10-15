@@ -27,6 +27,10 @@ erit latus DB latere BC majus. eſt autem DB aequale ipſis BA, AC; majora igitu
 
 [Diagram: triangle BCD with A on BD and line AC]
 
+[Curated heading level=2 type=propositions: PROP. XXI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXI. THEOR.]
+
 ## PROP. XXI. THEOR.
 
 [Subhead]

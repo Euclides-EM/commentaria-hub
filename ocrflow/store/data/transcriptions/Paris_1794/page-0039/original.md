@@ -7,6 +7,10 @@ en C. Puisque l’angle E est égal à l’angle B, le côté ED prendra la dire
 
 *Corollaire.* Donc, de ce que trois choses sont égales dans deux triangles, savoir BC=EF, B=E, C=F, on peut conclure que les trois autres le sont, savoir AB=DE, AC=DF, A=D.
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VIII.]
+
 ## PROPOSITION VIII.
 
 ### THÉORÊME.
@@ -14,6 +18,10 @@ en C. Puisque l’angle E est égal à l’angle B, le côté ED prendra la dire
 *Dans tout triangle un côté quelconque est plus petit que la somme des deux autres.*
 
 Car le côté BC, par exemple, est le plus court chemin de B en C ; donc BC est plus petit que BA+AC.
+
+[Curated heading level=2 type=propositions: PROPOSITION IX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IX.]
 
 ## PROPOSITION IX.
 

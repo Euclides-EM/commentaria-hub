@@ -4,6 +4,10 @@ tionalem non posse cadere inter duos numeros, quorum proportio in minimis numeri
 
 *Il appert aussi de ce theoreme, & du premier corollaire de la seconde proposition de ce liure, qu'il ne peut tomber vn moyen proportionel entre deux nombres, dont la proportion és moindres nombres n'est trouué en nombres quarrez.*
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. IX.]
+
 ## THEOR. VII. PROPOS. IX.
 
 Si duo numeri sint inter se primi, & inter eos medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri, totidem & inter vtrumque eorum, ac vnitatem medij continua proportione cadent.

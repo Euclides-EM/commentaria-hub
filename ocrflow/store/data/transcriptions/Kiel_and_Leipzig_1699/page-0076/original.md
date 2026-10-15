@@ -20,6 +20,10 @@ AGH + BGH ⋏ ⏥            n. 13. Vortr.
 
 Werden also die bey denen Neben-Strichen von dem einfallenden Strich gemachte (α) Wechsel-Winckel/ darnach (β) aus- und inwendige Winckel gleich groß/ und (γ) die zweene inwendige Winckel zweyen ⏥ gleich seyn. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXX. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 21. Beweiß-Stück. Der XXX. Vortrag.]
+
 ## Der XXX. Vortrag.
 
 ## Das 21. Werckstück{printer-error-correction:Beweißstück}.

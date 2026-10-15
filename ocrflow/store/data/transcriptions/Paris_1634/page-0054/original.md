@@ -8,6 +8,8 @@ Trapezium irregulare est, cuius nulla latera inter se sunt parallela, vt ABCD. |
 
 [Figure: quadrilatere irregulier ABCD, D au sommet, A en bas à gauche, B en bas au milieu, C en bas à droite]
 
+[Curated heading level=2 type=definitions: XXXVI.]
+
 ### XXXVI.
 
 Cùm verò in parallelogrammo diameter ducta fuerit, duæque lineæ lateribus parallelæ secantes diametrum in vno eodemque puncto, ita vt parallelogrammü | Mais quand en vn parallelogramme on meine vn diametre ou diagonale, & deux lignes droites paralleles aux costez, coupantes le diametre en vn mesme poinct, en sorte que le pa-

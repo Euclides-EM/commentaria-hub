@@ -3,6 +3,10 @@
 
 [Diagram: rectangles in three columns within a ruled frame, labelled mA, mC, mE across the top, A, C, E and B, D, F in the middle with roman numerals I to VI, and nB, nD, nF across the bottom]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. THEOREME XIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XIII. PROPOSITION XIII.]
+
 ## PROPOSITION XIII. THEOREME XIII.
 
 {dropcap:S|lines=2|style=plain}I la premiere grandeur ( A ) a même raiſon à la ſeconde ( B ), que la troiſieme ( C ) à la quatrieme ( D ); mais que la troiſieme ( C ) ait plus grande raiſon à la quatrieme ( D ), que la cinquieme ( E ) à la ſixieme ( F ) : la raiſon de la premiere ( A ) à la ſeconde ( B ) ſera auſſi plus grande, que la raiſon de la cinquieme ( E ) à la ſixieme ( F ).

@@ -1,5 +1,9 @@
 <!-- Running title: GEOMET. ELEMENT. -->
 
+[Curated heading level=2 type=propositions: Theorema 2, Propositio 2.]
+
+[Curated heading level=2 type=theorems: Theorema 2, Propositio 2.]
+
 ## Θεώρημα β, Πρόθεσις β.
 
 Ἐὰν πρῶτον δευτέρου ἰσάκις ᾖ πολλαπλάσιον, καὶ τρίτον τετάρτου, ᾖ δὲ ⁊ πέμπτον δευτέρου ἰσάκις πολλαπλάσιον, καὶ ἕκτον τετάρτου· καὶ συντεθὲν πρῶτον, καὶ πέμπτον, δευτέρου ἰσάκις ἔσαι πολλαπλάσιον, καὶ τρίτον, καὶ ἕκτον τετάρτου.
@@ -17,6 +21,10 @@ ac tertia d/e ipsius quartæ f: & quinta rursum b/g eiusdem secundæ c æquè mu
 [Margin]
 Demōstratio theorematis.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Theorema 3, Propositio 3.]
+
+[Curated heading level=2 type=theorems: Theorema 3, Propositio 3.]
 
 ## Θεώρημα γ, Πρόθεσις γ.
 

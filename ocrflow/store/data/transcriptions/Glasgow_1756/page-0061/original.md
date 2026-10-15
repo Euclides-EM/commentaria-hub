@@ -29,6 +29,10 @@ f. 15. 1.
 
 [Diagram: triangle labelled C beside angle D and a parallelogram labelled F, E, K above, G, B, M across the middle, and H, A, L below, with diagonal HK]
 
+[Curated heading level=2 type=propositions: PROP. XLV. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XLV. PROB.]
+
 ## PROP. XLV. PROB.
 
 {dropcap:R|lines=2|style=plain}ECTILINEO dato æquale parallelogrammum conſtituere in angulo rectilineo dato angulo æquali.

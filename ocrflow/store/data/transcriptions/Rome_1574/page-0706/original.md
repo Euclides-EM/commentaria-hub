@@ -17,6 +17,8 @@ enim primo non exiſtente quadrato, nullus alius quadratus ſit, præter tertium
 
 [Curated heading level=2 type=campanus: 12]
 
+[Curated heading level=2 type=theorems: THEOR. 11. PROPOS. 11.]
+
 ## THEOR. 11. PROPOS. 11.
 
 [Margin]

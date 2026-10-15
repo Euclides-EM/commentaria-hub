@@ -9,6 +9,8 @@ A,15. B,3. C,45.
 hyp. | ▭.a,b est c,
 16.d 7 | c, est nr. plan.
 
+[Curated heading level=2 type=definitions: DEFINIT. XVII.]
+
 ## DEFINIT. XVII.
 
 Cùm verò tres numeri mutuò se multiplicantes aliquem fecerint, qui procreatus erit, solidus appellabitur : qui autem numeri mutuò sese multiplicarint, latera illius dicentur.

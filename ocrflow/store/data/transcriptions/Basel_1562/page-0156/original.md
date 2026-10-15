@@ -13,6 +13,8 @@ alſo 12. gegen 108.
 
 Aber hie iſt es volkhommner / vnd in gmain fürgeſchreiben / wie dann alles / was hiär inn geſchreiben / in zalen ſich warhafftig befindet:aber nit härgegen. Derwegen diſes bůch / als allgemain vnd grund der volgenden kains wegs zů verachten / drumb das ettliche propoſ. in volgenden auch geſetzt ſein / ſonder deſto fleiſſiger zůſtudiern / dieweil die folgende darauß flieſſenn.
 
+[Curated heading level=2 type=propositions: II. Die ander propoſition]
+
 ## II. Die ander propoſition.
 
 Wan vier geproportionierte quantiteten fürfallen / vnd deren noch zwo andere angehenckt werden / alſo das ſich die fünfft halt gegen der anderen / wie die ſechſt gegen der vierdten:wirt ſich auch das collect der erſten vnd fünfften ſambtlich gegen der andern halten / wie das collect der dritten vnd ſechſten gegen der vierdten.

@@ -10,6 +10,10 @@ A rectement AD egale à AC grand ſegment: ie dis que DB eſt auſſi couppee e
 
 Car puis que comme AB eſt à AC, c’eſt à dire AD, ainſi AC eſt a CB; en changeant comme DA ſera à AB, ainſi BC à AC: & en compoſant comme DB ſera à AB, ainſi AB à AC, c’eſt à dire à AD. Donc par la 3.d.6. la ligne DB eſt couppee en la moyenne & extreme raiſon au poinct A, & le plus grand ſegment eſt la ligne AB propoſee au commencement. Ce qui eſtoit à prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 6. PROP. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. 6. PROP. VI.]
+
 ## THEOR. 6. PROP. VI.
 
 Si vne ligne rationele eſt couppee en la mõnoye & extreme raiſon: l’vn & l’autre ſegmẽt eſt ligne irrationele appellee reſidu.

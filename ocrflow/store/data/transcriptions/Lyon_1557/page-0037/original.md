@@ -9,6 +9,10 @@ Sunt enim duo H E D & K C L Triangula, per quartam, inter ſe æqualia & æquila
 
 Quòd ſi perpendicularis extra angulum datum ceciderit, nempè ſi acutus fuerit: eadem erit probandi ratio, niſi quòd pro ſecunda, tertiam inducemus Notionem.
 
+[Curated heading level=2 type=propositions: THEOREMA 15, PROPOSITIO XXIIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 15, PROPOSITIO XXIIII.]
+
 ## THEOREMA 15, PROPOSITIO XXIIII.
 
 Si duo Triangula duo latera duobus lateribus mutuò æqualia habuerint, angulorum verò ſub illis æquis lateribus contentorum alter fuerit altero maior : baſis quoque maiorem reſpiciens angulum altera baſi maior erit.

@@ -1,7 +1,9 @@
 <!-- Page number: 14 -->
 <!-- Running title: EVCL. ELEMENT. GEOMET. -->
 
-## Propoſitio quadrageſimatertia.
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimatertia.]
+
+### Propoſitio quadrageſimatertia.
 
 Omnis parallelogrammi loci eorum quæ circa dimetientem ſunt parallelogrammorum ſupplementa, ſibi inuicem ſunt æqualia.
 
@@ -9,11 +11,15 @@ Sit parallelogrammum A B G D, cuius dimetiens ſit A G. Circa dimetientem verò 
 
 [Diagram]
 
-### MONITVM.
+#### MONITVM.
 
 Idem ſequetur licet quæ circa dimetientem communem angulum non habeãt toti: nam ab æqualibus æqualia ablata ſemper æqualia relinquunt, quapropter communem angulum optari non diximus.
 
-## Propoſitio quadrageſimaquarta.
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaquarta.]
+
+[Curated heading level=2 type=problems: Propoſitio quadrageſimaquarta. Problema 12.]
+
+### Propoſitio quadrageſimaquarta.
 
 [Subhead]
 Problema 12.
@@ -25,7 +31,11 @@ Sit data recta linea A B, datum verò triangulum G. datus autem angulus D, oport
 
 [Diagram]
 
-## Propoſitio 45.
+[Curated heading level=2 type=propositions: Propoſitio 45.]
+
+[Curated heading level=2 type=problems: Propoſitio 45. Problema.13]
+
+### Propoſitio 45.
 
 [Subhead]
 Problema.13

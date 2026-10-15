@@ -26,6 +26,8 @@ CAMPANI additio Cōuersam quoq̃ huius possumus facile demonstrare per modū dem
 
 Sequentes duæ ex Zamberto propositiones,duabus præcedētibus ex Campano præpostero ordine respondent.
 
+[Curated heading level=2 type=theorems: Theorema 21 Propositio 31]
+
 ## Eucli.ex Zamb. Theorema 21 Propositio 31
 
 [Curated heading level=3 type=zamberti_sequence: 31.]

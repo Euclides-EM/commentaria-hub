@@ -30,6 +30,10 @@ Demonstr.
 d.γ | ac π cb 2|2 de π ei,
 6.concl. d.γ | ab π bc 2|2 di π ie.
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XXII.]
+
 ## THEOR. XVI. PROPOS. XXII.
 
 Si quatuor rectæ lineæ proportionales fuerint, & ab eis rectilinea similia similiterque descripta, proportionalia erunt : Et si à rectis lineis similia similiterque descripta rectilinea, proportionalia fuerint : ipsæ etiam rectæ lineæ proportionales erunt.

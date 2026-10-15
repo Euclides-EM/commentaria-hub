@@ -16,6 +16,8 @@ CAMPANVS. Quod secunda proposuit de multiplicibus, hæc proponit uniuersaliter d
 
 Sit igitur proportio a b ad c, sicut d e ad f: & item b g ad c, sicut e h ad f: dico quod proportio a g ad c, est sicut d h ad f. Erit enim per cōuersam proportionalitatem, c ad b g, sicut f ad e h: quare per 22. erit in æqua proportionalitate a b ad b g: sicut e d ad e h: ergo cōiunctim per 18, a g ad g b, sicut d h ad h e: itaq̃ per 22, erit in æqua proportionalita te a g ad c, sicut d h ad f, quod est propositum.
 
+[Curated heading level=2 type=theorems: Theorema 24. Propositio 24.]
+
 ## Eucli. ex Camp.{printer-error-correction:Zamb.} Theorema 24. Propositio 24.
 
 [Curated heading level=3 type=zamberti_sequence: 24.]

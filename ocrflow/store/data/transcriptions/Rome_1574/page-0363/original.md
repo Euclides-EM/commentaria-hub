@@ -14,6 +14,8 @@
 
 [Curated heading level=2 type=campanus: 14]
 
+[Curated heading level=2 type=problems: PROBL. 14. PROPOS. 14.]
+
 ## PROBL. 14. PROPOS. 14.
 
 [Margin]

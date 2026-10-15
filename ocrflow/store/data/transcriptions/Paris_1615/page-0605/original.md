@@ -6,6 +6,10 @@ d’autant que les quarrez de DC, DA ne ſont comme nombre quarté à nombre q
 
 Derechef AB eſtant couppee en la moyenne & extreme raiſon en C, le quarré de AC ſera egal aurectangle de AB, CB par la 17.p.6. Orle quarré du reſidu AC applicqué ſur la rationele AB, doit faire l’autre coſté CB reſidu premier, par la 98.p.10. Donc les ſegmens AC, CB, ſont lignes irrationeles appellees reſidus. Ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 7. PROP. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. 7. PROP. VII.]
+
 ## THEOR. 7. PROP. VII.
 
 Si en vn pentagone equilateral trois angles pris comme on voudra ſont egaux: il ſeraequiangle.

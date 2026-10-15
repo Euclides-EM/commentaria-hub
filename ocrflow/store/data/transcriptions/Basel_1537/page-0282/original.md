@@ -20,6 +20,8 @@ CAMPANVS. Positis duabus lineis a & b rationalibus potentia tantum cōmunicantib
 
 [Diagram: four horizontal lines in the right margin, labelled: a 36 — c — b R. 18 — d]
 
+[Curated heading level=2 type=problems: Problema 8 Propositio 31]
+
 ## Eucli.ex Zamb. Problema 8 Propositio 31
 
 [Curated heading level=3 type=zamberti_sequence: 31.]

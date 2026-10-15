@@ -2,6 +2,8 @@
 
 [Figure]
 
+[Curated heading level=2 type=definitions: DEF. XXXVI.]
+
 ### XXXVI.
 
 Mais quand en vn parallelogramme, on meine vn diametre ou diagonale, & deux lignes droictes paralleles aux costez, coupantes le diametre en vn mesme poinct, en sorte que le parallelogramme soit diuisé par icelles lignes paralleles, en quatre parallelogrammes; les deux par où le diametre ne passe, sont appellez complements : mais les deux autres, par lesquels le diametre passe, sont dits estre à l'entour du diametre.
@@ -10,9 +12,13 @@ Les parallelogrammes DG & GB sont complements, mais les parallelogrammes HE & FI
 
 [Figure]
 
+[Curated heading level=2 type=definitions: DEF. XXXVII.]
+
 ### XXXVII.
 
 La figure reguliere est, celle qui est equilatere & equiangle.
+
+[Curated heading level=2 type=definitions: DEF. XXXVIII.]
 
 ### XXXVIII.
 

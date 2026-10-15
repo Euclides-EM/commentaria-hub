@@ -21,6 +21,8 @@ NON differt huius problematis praxis ab illa, quam in præcedente problemate tra
 
 [Curated heading level=2 type=campanus: 24]
 
+[Curated heading level=2 type=theorems: THEOR. 15. PROPOS. 24.]
+
 ## THEOR. 15. PROPOS. 24.
 
 [Margin]

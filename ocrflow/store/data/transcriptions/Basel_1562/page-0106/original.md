@@ -3,6 +3,8 @@
 
 poſition deß erſten bůchs / beſchreibung gleichförmiger ſtuckh / vnd die 24 prop. bald bewiſen werden / das die bogen a d b vn̄ e h f / ainander gleich / demnach auch die vberigen / ꝛc̄.
 
+[Curated heading level=2 type=propositions: XXVII. Die ſybenvndzwäintzigſt Propoſition]
+
 ## XXVII Die ſybenvndzwäintzigſt Propoſition.
 
 [Subhead]
@@ -12,6 +14,8 @@ poſition deß erſten bůchs / beſchreibung gleichförmiger ſtuckh / vnd die 
 ### Erklärung.
 
 Iſt vmbkhert die vorgehnd. Alß ſo in gleichen zircklen A B / auff gleichen linien a b vnd e f / winckel ſtehn / alß e g f / a c b / item a d b / e h f / ſeind die ainander gleich.
+
+[Curated heading level=2 type=propositions: XXVIII. Die achtvndzwäintzigſt Propoſition]
 
 ## XXVIII Die achtvndzwäintzigſt Propoſition.
 
@@ -29,6 +33,8 @@ Alß hie ſeind zwen gleiche zirckel / vnd gleiche linien a b vnd f g. Demnach a
 
 So vonn puncten a b f g / zum centris e vnd l / linien gezogen / iſt ſollichs / auß der 8 des erſten / der 26 diß / vnd dem gmainen verſtand / gleichs von gleichem genommen / ꝛc̄. offenbar.
 
+[Curated heading level=2 type=propositions: XXIX. Die neünvndzwäintzigſt Propoſition]
+
 ## XXIX Die neünvndzwäintzigſt Propoſition.
 
 [Subhead]
@@ -38,6 +44,8 @@ So vonn puncten a b f g / zum centris e vnd l / linien gezogen / iſt ſollichs 
 ### Erklärung.
 
 Iſt vmbkhert die vorgehnd / alß die bogen a b c vnd f g h / oder a b d vnd f g k / ſeind gleich. Derhalben die linien a b vnnd f g gleich. Hatt ſein demonſtration auß der 4 des erſten / vnnd 27 diß bůchs / wie leichtlich zůerachten.
+
+[Curated heading level=2 type=propositions: XXX. Die dreyſſigſt Propoſition]
 
 ## XXX Die dreyſſigſt Propoſition.
 

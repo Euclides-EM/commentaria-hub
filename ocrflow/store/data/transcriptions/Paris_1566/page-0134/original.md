@@ -5,6 +5,10 @@ Exponantur tres rectæ ſcilicet A B G, oportet iam ipſis quartam inuenire prop
 
 [Diagram: line segments A, G, B and triangle D Z E with T on D Z, I on D E, and T I parallel to Z E]
 
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
+
+[Curated heading level=2 type=problems: Propoſitio decimatertia. Problema 5.]
+
 ## Propoſitio decimatertia.
 
 [Subhead]
@@ -22,6 +26,8 @@ Proponantur binæ datæ rectæ, A B B G in rectum, quibus mediam inquiramus prop
 Hinc aſſequimur data recta linea, aliam rectam (duplum eius excedentem) in binas extremas proportionales illi ſecare. Sit c data cuius duplum excedat A B, ad ſignum A perpendicularis fiat D A quæ æqualis ponatur datæ c: ſuper A B verò ſemicirculus deſcribatur A G B, ipſi verò A B parallela ſit D G quæ circulum ſecabit, cùm ſit minor ſemidiametro, per hypotheſim, perficiatur parallelogrammum D F coniunctis G A G B: Æqualis igitur erit G F ipſi A D, & quia perpendicularis eſt ad datam A B (per conſtructionem) ipſa G F, rectam A B datam ſecabit in extremas ſibi proportionales A F F B, per corol. 8 huius.
 
 [Diagram: semicircle A G B with F on A B, D above A, lines A D, D G, G F and A G, and a separate line c]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
 
 ## Propoſitio decimaquarta.
 

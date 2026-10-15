@@ -3,6 +3,8 @@
 
 duæ igitur rectæ E O F, E Q F claudent ſpacium. Quòd eſt abſurdum.
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO IV.]
+
 ## PROPOSITIO IV.
 
 [Curated heading level=2 type=figures: Fig. 12]

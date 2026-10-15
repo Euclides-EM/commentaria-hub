@@ -3,6 +3,10 @@
 
 [Diagram: two quadrilateral planes in perspective within a ruled border; the left labelled A, B, C and X, the right labelled D, E, F, G, H, L and Z, joined by dotted lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. THEOREME XIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XIII. PROPOSITION XV.]
+
 ## PROPOSITION XV. THEOREME XIII.
 
 {dropcap:S|lines=2|style=plain}I deux lignes (AB & AC) ſituées dans un Plan (AX) & s'entre touchant (en A) ſont paralleles, à deux autres lignes (DE & DF), s'entre touchant & ſituées dans un autre Plan (DZ); ces Plans (AX & DZ) ſeront paralleles.

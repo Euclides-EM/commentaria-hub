@@ -9,6 +9,8 @@ Item / ſo 1 ʒ + 10 ℞ gleich wer 56. vnd du procedierſt wie yetz gemellt / f
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: V. Die fünfft Propoſition]
+
 ## V. Die fünfft Propoſition.
 
 {dropcap:S|lines=2|style=plain}o ain lini in zwen gleich / vnd auch in zwen vngleich tail zertailt wirtt / iſt die winckelrecht figur / ſo von den vngleichen ſtuckhen begriffen wirt / ſambt dem quadrat deſſen ſo der ain tail gröſſer iſt dann die halb lini / gleich dem quadrat der halben lini.

@@ -3,6 +3,10 @@
 
 [Figure: two similar triangular pyramids ABCD and EFGH inscribed in dotted parallelepipeds with vertices labelled A, P, Q, O, D, C, B, R and E, N, M, L, G, H, F, I]
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THEOREME VIII.]
+
+[Curated heading level=2 type=theorems: THEOREME VIII. PROPOSITION VIII.]
+
 ## PROPOSITION VIII. THEOREME VIII.
 
 {dropcap:L|lines=2|style=plain}Es pyramides ſemblables (ABCD & EFGH) ayant des bazes triangulaires (BDC & FGH): ſont entr'elles en raiſon triplée de leurs cotés homologues:

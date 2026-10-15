@@ -18,6 +18,8 @@ CAMPANVS. Sit triāgulus a b c, dico q̃ duo latera a b & a c, sunt lōgiora lat
 
 [Diagram: triangle a b c with side b a produced to d and line c d drawn; labels d at top, a, c, b]
 
+[Curated heading level=2 type=theorems: Theorema 13. Propositio 20.]
+
 ## Eucli. ex Zamb. Theorema 13. Propositio 20.
 
 [Curated heading level=3 type=zamberti_sequence: 20.]
@@ -45,6 +47,8 @@ SI de duobus punctis terminalibus unius lateris trianguli duæ lineæ exeuntes, 
 CAMPANVS. Sit ut in triāgulo a b c, ab extremitatibus lateris b c concurrant duæ lineæ b d & c d, ad punctum d, intra triangulum a b c. Dico q̃ ipsæ lineæ b d & c d simul iunctæ, sunt breuiores duabus lineis a b & a c simul iunctis, & quod angulus d est maior angulo a. Protrahā enim b d, usquequo secet latus a c in puncto e, eruntq̃ per 20 propositiōem b a & a e simul iunctæ, maiores b e, ergo b a & a c, sunt maiores b e & e c. At uero d e & e c simul iunctæ, per eandem sunt maiores d c, quare b e & e c sunt maiores b d & d c, & quia b a & a c sunt maiores b e & e c, ut probatū est prius, erunt multo fortius b a & a c maiores b d & d c, quod est propositū. At quoniā angulus b d c est maior angulo d e c per 16 propositionē, & angulus d e c est maior angulo b a c per eandem, erit angulus b d c multo fortius maior angulo b a c, quod est propositū.
 
 [Diagram: triangle a b c with interior point d, lines b d and c d drawn, b d produced to e on side a c; labels a at top, e, d within, b, c at base]
+
+[Curated heading level=2 type=theorems: Theorema 14. Propositio 21.]
 
 ## Eucli. ex Zamb. Theorema 14. Propositio 21.
 

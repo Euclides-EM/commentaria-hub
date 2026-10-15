@@ -16,6 +16,8 @@ SI superficies aliqua linea rationali residuoq̃ secundo contineatur, linea in e
 
 CAMPANVS In hac quoque argue sicut in præmissa ex diffinitione residui secundi & secunda parte 15 & nona & decimanona & 15 & 69.
 
+[Curated heading level=2 type=theorems: Theorema 68 Propositio 92]
+
 ## Eucl.ex Zãb. Theorema 68 Propositio 92
 
 [Curated heading level=3 type=zamberti_sequence: 92.]

@@ -23,6 +23,10 @@ Dato igitur plano a puncto quod in ipſo eſt datum, ad rectos angulos recta lin
 
 [Diagram: plane containing points A and C, with perpendicular lines AD and CB]
 
+[Curated heading level=2 type=propositions: PROP. XIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIII. THEOR.]
+
 ## PROP. XIII. THEOR.
 
 {dropcap:D|lines=2|style=plain}ATO plano, a puncto quod in ipſo eſt, duae rectae lineae ad rectos angulos non conſtituentur ex eadem parte. et unica eſt perpendicularis a puncto in ſublimi ad ſubjectum planum.

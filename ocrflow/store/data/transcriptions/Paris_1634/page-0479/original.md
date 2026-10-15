@@ -34,6 +34,10 @@ hyp. | a & b snt pr. ꝫe, ε
 δ.26.7 | f & a snt pr. ꝫe,
 3.concl. 28.7 | g & h snt pr. ꝫe.
 
+[Curated heading level=2 type=propositions: THEOR. XXVIII. PROPOS. XXX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVIII. PROPOS. XXX.]
+
 ## THEOR. XXVIII. PROPOS. XXX.
 
 Si duo numeri primi inter se fuerint : etiam vterque simul ad quemlibet illorum primus erit : Et si vterque simul ad vnum aliquem illorum primus fuerit: etiam, qui in principio, numeri primi inter se erunt.

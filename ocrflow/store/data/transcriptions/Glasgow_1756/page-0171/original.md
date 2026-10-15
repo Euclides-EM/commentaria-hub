@@ -17,6 +17,10 @@ ut A ad C, ita B ad D. ſi igitur quatuor &c. Q. E. D.
 
 [Diagram: eight horizontal lines arranged in two columns and labelled E, A, B, F and G, C, D, H]
 
+[Curated heading level=2 type=propositions: PROP. XVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVII. THEOR.]
+
 ## PROP. XVII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I compoſitae magnitudines ſint proportionales, et diuiſae proportionales erunt.

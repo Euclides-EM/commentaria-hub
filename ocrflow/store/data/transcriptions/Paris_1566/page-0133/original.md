@@ -9,6 +9,10 @@ Proponatur AB recta, à qua imperemus aliquam partem abſcindi, ſcilicet ſex t
 
 Similiter ſi abſcindere à data AB ordinatam incertam velimus, ſecetur AG, per 11. ſecundi in D; Tum ſimilis fiet AZ pars rectæ AB, qualis fuerit AD rectæ AG, quæ tamẽ incertæ erunt, vt quandoque latius. Hac de cauſſa hæc incerta æque pars ordinata erit rectæ AB, vt alia quæuis diſcreta.
 
+[Curated heading level=2 type=propositions: Propoſitio decima.]
+
+[Curated heading level=2 type=problems: Propoſitio decima. Problema 2.]
+
 ## Propoſitio decima.
 
 [Subhead]
@@ -25,6 +29,10 @@ Eſto data recta AB non ſecta, data verò ſecta eſto CF, cuius primo ſegment
 
 Hinc fit datam rectam lineam in datarum rectarum ratione, ſecare. Nam coniungantur in rectam lineam angulum cum data recta efficientem, datæ rectæ rationes habentes, veluti AD DE EG, nam hoc theoremate data AB in earum rationes habentes AZ ZI IB rectas, ſecta eſt.
 
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
+
+[Curated heading level=2 type=problems: Propoſitio vndecima. Problema 3.]
+
 ## Propoſitio vndecima.
 
 [Subhead]
@@ -36,6 +44,10 @@ Duabus datis rectis lineis tertiam proportionalem inuenire.
 Sint binæ rectæ AB AG ad angulum A diſpoſitæ, quæ producantur in rectum ad E & D: Rectæ verò AG æqualis ponatur BD, & coniunctæ BG parallela fiat DE. Quoniam trianguli ADE ad vnum latus DE parallela exiſtit BG, erit (per 2 huius) AB ad BD ſicut AG ad GE. Sed AG & BD ſunt æquales: erit igitur ſicut AB ad AG, ſic eadem AG ad GE. Duabus igitur datis AB AG rectis, tertiam GE proportionalem reperimus.
 
 [Diagram: triangle A D E with B on A D, G on A E, and line G B]
+
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
+
+[Curated heading level=2 type=problems: Propoſitio duodecima. Problema 4.]
 
 ## Propoſitio duodecima.
 

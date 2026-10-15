@@ -6,6 +6,8 @@ quod erat ex principio demonstrandum. Hoc ergo modo sequitur, quod latus pentago
 
 [Diagram: two circles, each with an inscribed equilateral pentagon and a vertical diameter marked with ticks; the smaller circle has centre label a and base vertices f and b; the larger circle has centre label a and base vertices c and b]
 
+[Curated heading level=2 type=theorems: Theorema 8 Propositio 8]
+
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
 
 [Curated heading level=3 type=zamberti_sequence: 8.]
@@ -31,6 +33,8 @@ THEON ex Zamb. Quinquanguli enim æquilateri & æquianguli α β γ δ ε, binos
 [/Margin]
 
 [Diagram: circle with inscribed pentagon α β γ δ ε (β top left, α top right, γ left, ε right, δ at bottom); diagonals α γ and β ε intersect at θ near the top]
+
+[Curated heading level=2 type=theorems: Theorema 9 Propositio 9]
 
 ## Eucli. ex Zamb. Theorema 9 Propositio 9
 

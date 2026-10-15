@@ -15,6 +15,10 @@ Demonstr.
 s.46.1 | af 2|2 gb,
 2.concl. 6.a.1 | ad 2|2 bc.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XV.]
+
 ## THEOR. XIV. PROPOS. XV.
 
 In circulo maxima quidem linea est diameter; aliarum autem propinquior centro, remotiore semper maior est.

@@ -38,6 +38,10 @@ d, est √√.108,
 c π d 2|2, 1 π √.3,
 ▭.c,d, est 6.
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. XXIX.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. XXIX.]
+
 ## PROBL. V. PROPOS. XXIX.
 
 Medias inuenire potentia tantùm commensurabiles, quæ medium contineant.

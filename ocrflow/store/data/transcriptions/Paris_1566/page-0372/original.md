@@ -3,13 +3,17 @@
 
 N O, ſubtendunt enim rectos angulos ab ipſa C & & eis quæ ex centro comprehenſos: ſed quia ipſi C & æqualis eſt F &, ſimiliter recta ad reliquum planum E Z I T K, eadem Y & cum reliquis quæ ex ſigno & in angulos reliquos E Z I T K, ſubtendent angulos rectos ſub recta F & (ipſi & C æquali) & rectis F T F K F E, &c. quæ ex centro (reliquis C H C O æqualibus) comprehenſos. Aequales igitur erunt rectæ & T & K & E & Z & I rectis & H & L & M & N & O, quibus æqualis oſtẽſa eſt & X dimidia totius X Y, reliqua itaque & Y eiſdem æqualis erit: ſi igitur centro & interuallo autem altera quadam harum, ſphæræ ſuperficies extẽdatur, ipſa icoſahedri duodecim tanget angulos, E Z I T K H L M N O X Y, quæ deſcribetur ducto ſemicirculo, (ſuper dimetiente X Y facto) manente recta X Y quoad vnde cœpit redeat, per duodecimam diffinitionem vndecimi. Cæterum quia patuit rectam & X quintuplum poſſe rectæ & C, ſequetur totam X Y quintuplum poſſe totius F C, per decimamquintam quinti, ſunt enim duplæ, & ideo quintuplum rectæ F E, quæ ex centro ipſi F C æqualis, necnon ipſius D B eiſdem æqualis quintuplum poterit igitur ipſa X Y, cùm autem media ſit D B, quæ ad ſegmentum G B, inter A B & G B, per corollarium octauæ ſexti, erit ſicut A B ad B G, ſic quod à prima A B ad quod ex ſecunda D B, per corollarium vigeſimæ ſexti, quintupla autem fuit A B ipſius B G, ex hypotheſi, quintuplum igitur erit quod ex A B dimetiente ſphæræ, eius quod ex D B æquali lateri icoſahedri, ſed eiuſdem quintuplum fuit X Y ſphæræ dimetiens, ipſæ igitur A B & X Y ſphærarum dimetientes æquales erunt, in data igitur ſphæra, ex dimetiẽte A B icoſahedrum depinximus, quod autem icoſahedri præfati latus ſit minor, patet, cùm certa ſit A B dimetiens, quæ quidem quintuplum poteſt ipſius D B ſiue ipſius E F quæ ex centro circuli E Z I T K, certa erit E F, per ſextam diffinitionem decimi. Eius itaque E F dupla (dimetiens circuli E Z I T K) certa erit, per eandem. Pentagoni igitur latus eidem circulo inſcripti incerta erit, vocata verò minor, per vndecimam huius, eius autem pentagoni & icoſahedri idem oſtenſum fuit eſſe latus, icoſahedri itaque latus incerta erit appellata minor. Icoſahedrum igitur conſtruximus, & data ſphæra comprehendimus, &c.
 
-## Corollarium primum.
+### Corollarium primum.
 
 Hinc fit dimetientem ſphæræ Icoſahedrum continentis, quintuplum poſſe eius quæ ex centro circuli quinque Icoſahedri angulos tangentis. Inſuper eandem diametrum Y X componi ex latere exagoni F C & binis decagoni F Y C X eidem circulo inſcriptorum. Nam quintuplum potuit X Y dimetiens ipſius F C, ei quæ ex centro (ſcilicet F Z) æqualis.
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 Icoſahedri latera oppoſita ſunt parallela. Nam ſphæræ dimetientes in oppoſitos Icoſahedri cadunt angulos, vt patuit in recta Y X. Si itaque binæ dimetientes H T & O I ducantur, ipſæ in centro F concurrent. Quare rectæ H O T I eas iungentes in eodem ſunt plano, per ſecundam vndecimi. Quia verò ad dimetientes angulos æquales efficiunt, per octauam primi, ſcilicet triangula ex æquis ſemidimetientibus & latere Icoſahedri. Ipſa latera H O T I parallela erunt (per 28 primi.)
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaſeptima. Problema 5.]
 
 ## Propoſitio decimaſeptima. Problema 5.
 

@@ -2,7 +2,17 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: ELEMENT HVICTIESME.]
+
+[Curated heading level=1 type=theorems: ELEMENT HVICTIESME.]
+
+[Curated heading level=1 type=problems: ELEMENT HVICTIESME.]
+
 # ELEMENT HVICTIESME.
+
+[Curated heading level=2 type=propositions: THEO. 1. PROP. I.]
+
+[Curated heading level=2 type=theorems: THEO. 1. PROP. I.]
 
 ## THEO. 1. PROP. I.
 
@@ -13,6 +23,10 @@ Si tant de nombres qu’on voudra ſont cõ tinuellement proportionnaux, & les 
 {dropcap:S|lines=6|style=decorated}OIENT trois nõres continuellement proportionnaux A, B, C, & que les extremes A, & C, ſoient remiers entr’eux: Ie dis que A, B, C, ſont les plus petits qui ſoient en la meſme raiſon.
 
 Autrement ſoient D, E, F, plus petits en la meſme raiſon, s’il eſt poſſible En raiſon egaie, Dſera à F, comme A eſt à C par la 14.p.7. & par ce que A, & C ſont premiers entr’eux, ils ſeront les plus petits de leur raiſon, par la 23.p.7. & par la 21. p.7.ils meſurerõt D, & F: ce qui eſt impoſſible, pour eſtre plus petits qu’iceux. Donc A, B, C, eſtoient les plus petits en la meſme raiſon.
+
+[Curated heading level=2 type=propositions: PROB. 1. PROP. II.]
+
+[Curated heading level=2 type=problems: PROB. 1. PROP. II.]
 
 ## PROB. 1. PROP. II.
 

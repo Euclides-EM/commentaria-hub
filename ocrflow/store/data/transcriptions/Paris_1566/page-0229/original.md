@@ -12,7 +12,7 @@ Tertiæ verò & quartæ partium demonſtratio, fit per argumentum ab hypotheſis
 
 Ad quartam autem, ſi quadrata rectarum A & B ponantur non habere rationem quam quadrati numeri: Dico nec eorum latera, ſcilicet rectas A & B eſſe longitudine commenſurabiles. Nam ſi eſſent longitudine commenſurabiles, deſcripta ex ipſis quadrata, rationem haberent per primam partem huius quam quadrati numeri, quod obſtaret hypotheſi. Si igitur latera fuerint incommenſurabilia, eorum quadrata rationem quadratorum numerorum non habebunt. Et proinde ſi quadrata rationem non habeant, quam quadrati numeri, nec eorum latera, longitudine erunt commenſurabilia. A longitudine igitur commenſurabilibus rectis lineis, &c.
 
-## MONITVM.
+### MONITVM.
 
 Hanc demonſtrauit ſecundo Theon per primam ſexti, quam demonſtrationem ideo reliquimus, breuitati conſulentes: ac inſuper quia ſexti prima continuas, non autem diſcretas docuit quantitates, quare poſtponenda fuit hæc demonſtratio ei quæ per theoremata vtriſque (diſcretis ſcilicet & continuis) propria, propoſitum concludit. Animaduertendum tamen exiſtimauimus, ſoluentes aliquorum obiecta, ſcilicet cùm ſimiles plani numeri non quadrati rationem quam quadrati habeant, per 20 octaui. Quadrata verò rationem ſimilium planorum numerorum habentia habent ideo & quadratorum numerorum, & tamen illorum quadratorum latera numeris exprimi non poterunt, cùm plani non quadrati radicem quadratam non exprimant numeris: & proinde illorum latera numeris non expreſſa propoſitæ certæ incommenſurabilia eſſe, contra ſecundam huius partem.
 

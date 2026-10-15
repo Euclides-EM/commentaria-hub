@@ -4,6 +4,10 @@ acutos ad punctum C æquiualere vni recto, non opus esset alia demōstratione, a
 
 Si la demonstration de ce theoreme ne supposoit point que les trois angles du poinct C sont egaux à vn angle droict, il ne faudroit point d'autre demonstration, pour prouuer le premier & le second theoreme de de la section des angles de Monsieur Viete : car les conclusions de celuy-cy ne different point des conclusions de ceux-là. Les triangles du premier theoreme de Viete sont EFC le premier, ECB le second, FCD le troisiesme : les angles aigus sont EFC, ECB & FCD. Les triangles du second theoreme sont FEC le premier, AFE le second, & FCD le troisiesme : les angles aigus sont FCE, FEA, CFD.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. XX.]
+
 ## THEOR. IX. PROPOS. XX.
 
 Io. Baptista Benedictus in Epistolis.

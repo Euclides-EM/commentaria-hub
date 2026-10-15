@@ -17,6 +17,10 @@ dico a puncto F ad circumferentiam non cadere aliam ipſi FG aequalem. ſi enim 
 
 [Diagram: circle labelled A, B, C, D, E, F, G, H and K, with diameter AD and intersecting lines]
 
+[Curated heading level=2 type=propositions: PROP. VIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VIII. THEOR.]
+
 ## PROP. VIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I extra circulum aliquod punctum ſumatur, atque ab eo ad circumferentiam ducantur quaedam rectae lineae, quarum una per centrum tranſeat, reliquae vero utcunque; earum quidem quae in concavam circumferentiam cadunt, maxima eſt quae per centrum tranſit; aliarum autem propinquior ei quae per centrum, ſemper remotiore major eſt. at earum quae in convexam circumferentiam cadunt, minima eſt quae inter punctum et diametrum interjicitur; aliarum vero quae propinquior minimae, ſemper remotiore eſt minor. duae autem tantum aequales a puncto in circumferentiam cadunt ad utraſque partes minimae.

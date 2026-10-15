@@ -39,6 +39,10 @@ s.22.5 | d π e + f 2|2 a π b + c,
 constr. | d 2|2 e + f,
 2 concl. 14.5 | a 2|2 b + c.
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. XXX.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. XXX.]
+
 ## PROBL. VI. PROPOS. XXX.
 
 Inuenire duas rationales potentia tantùm commensurabiles, ita vt major, quàm minor, plus possit quadrato rectæ lineæ longitudine sibi commensurabilis.

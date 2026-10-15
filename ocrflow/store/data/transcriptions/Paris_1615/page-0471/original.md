@@ -8,6 +8,10 @@ quarrez de AB & AC, ſetont incomenſ. au double du rectagle de AB& AC, & par la
 
 famediale AC ſoit √√ 5a. & la retranchee AB√√22: dont le reſte BC ſera √√34—√√24.
 
+[Curated heading level=2 type=propositions: THEOR. 58. PROP. LXXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. 58. PROP. LXXVI.]
+
 ## THEOR. 58. PROP. LXXVI.
 
 Si d’vne ligne mediale eſt retranchee vne ligne mediale commenſ. en puiſſance ſeulemét à la toute, comprenant auec icelle vn rectangle medial, le reſte eſt irrationel: Soit appelé reſidu medial ſecond.

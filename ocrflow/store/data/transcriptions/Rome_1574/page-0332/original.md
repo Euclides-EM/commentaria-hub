@@ -10,6 +10,8 @@ les ſunt ſuper baſes GB, GC, ac propterea recti. Igitur & AGB, AGC illis dein
 
 [Curated heading level=2 type=campanus: 27]
 
+[Curated heading level=2 type=theorems: THEOR. 25. PROPOS. 28.]
+
 ## THEOR. 25. PROPOS. 28.
 
 [Margin]

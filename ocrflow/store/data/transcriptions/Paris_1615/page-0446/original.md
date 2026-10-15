@@ -8,6 +8,10 @@ Donc le quarré de EGne ſera au quarré de H, comme nombre quarré à nõb
 
 La rationele expoſee D ſoit 8, & EG6: faifant donc que comme A B9 eſt AC6, ainſi le quarré de EG. ſçauoit 36. ſoit au quarré de FG; icelle FG ſera trouuee de √2 4: & part ant la toute EF ſera 6+√2 4. qui eſt binome quatrieſme.
 
+[Curated heading level=2 type=propositions: PROB. 17. PROP. LIII.]
+
+[Curated heading level=2 type=problems: PROB. 17. PROP. LIII.]
+
 ## PROB. 17. PROP. LIII.
 
 Trouuer vn binome cinquieſme.
@@ -17,6 +21,10 @@ Eſtans trouuees les deux nonbres AC, CB comme en la precedente prop. & fait la 
 ### SCHOLIE.
 
 La rationele propoſee D ſoit 7, & FG 6: donc faiſant que comme AC 6 eſt à AB 9, ainſi le quarré de GF, ſçauoir eſt: 6, ſoit au quarré de EG: icelle EG ſera trouuee de √54: partant la toute EF ſera √54E6, qui eſt binome cinquieſme.
+
+[Curated heading level=2 type=propositions: PROBL. 18. PROP. LIV.]
+
+[Curated heading level=2 type=problems: PROBL. 18. PROP. LIV.]
 
 ## PROBL. 18. PROP. LIV.
 

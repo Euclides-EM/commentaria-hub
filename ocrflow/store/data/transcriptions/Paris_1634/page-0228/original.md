@@ -24,6 +24,10 @@ suppos. | ad tang: ⊙ bdc,
 hyp. | ab 2|2 ac,
 1.a.1 | ab, ad, ac snt 2|2 ⁊e, contr. 8. 3.
 
+[Curated heading level=2 type=propositions: THEOR. XXXI. PROPOS. XXXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXI. PROPOS. XXXVII.]
+
 ## THEOR. XXXI. PROPOS. XXXVII.
 
 Si extra circulum sumatur punctum aliquod, ab eoque in circulum cadant duæ rectæ lineæ, quarum altera circulum secet, altera in eum incidat ; sit autem, quod sub tota secante, & exterius inter punctum, & conuexam peripheriam assumpta, comprehenditur rectangulum, æquale ei, quod ab incidente describitur, quadrato ; incidens ipsa circulum tanget.

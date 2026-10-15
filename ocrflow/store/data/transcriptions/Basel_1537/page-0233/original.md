@@ -18,6 +18,8 @@ CAMPANVS. Sint continue proportionales, unitas, a,b,c,d,e,f,g,h,K,l,m,n. Dico b 
 
 [Diagram: dotted number lines from unitas doubling upward, labelled a (2), b (4), c (8), d (16), e (32), f (64), g (128), h (256), K (512), l (1024), m (2048), n (4096)]
 
+[Curated heading level=2 type=theorems: Theorema 8 Propositio 8]
+
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
 
 [Curated heading level=3 type=zamberti_sequence: 8.]

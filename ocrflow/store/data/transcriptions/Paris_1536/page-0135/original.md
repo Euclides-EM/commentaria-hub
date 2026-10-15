@@ -2,6 +2,10 @@
 
 e/b, ipsius f/d tam multiplex est, quàm multiplex est ipsa a/e eiusdem c/f. Atqui per hypothesin a/e totuplex est ipsius c/f, quotuplex est tota a/b totius c/d. Et reliqua igitur e/b, reliquæ f/d æquè multiplex est, atq; tota a/b totius c/d. Ergo si magnitudo magnitudinis æquè fuerit multiplex & ablata ablatæ, & reliqua reliquæ: &c. vt in theoremate. Quod ostendere fuerat operæpretium.
 
+[Curated heading level=2 type=propositions: Theorema 6, Propositio 6.]
+
+[Curated heading level=2 type=theorems: Theorema 6, Propositio 6.]
+
 ## Θεώρημα ϛ, Πρόθεσις ϛ.
 
 Ἐὰν δύο μεγέθη δύο μεγεθῶν ἰσάκις ᾖ πολλαπλάσια, καὶ ἀφαιρεθέντα τινὰ τῶν αὐτῶν ἰσάκις ᾖ πολλαπλάσια, καὶ τὰ λοιπὰ τοῖς αὐτοῖς ἤτοι ἴσα ἐσὶν, ἢ ἰσάκις αὐτῶν πολλαπλάσια.

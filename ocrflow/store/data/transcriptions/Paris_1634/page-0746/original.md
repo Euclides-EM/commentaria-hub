@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. XII.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. XII.]
+
 ## PROBL. II. PROPOS. XII.
 
 Dato plano à puncto, quod in illo datum est, ad rectos angulos rectam lineam excitare.
@@ -29,6 +33,10 @@ Demonstr.
 constr. | ed ⊥ plan. bc,
 constr. | af == ed,
 concl. 8. 11 | af ⊥ plan. bc.
+
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XIII.]
 
 ## THEOR. XI. PROPOS. XIII.
 

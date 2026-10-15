@@ -3,6 +3,10 @@
 
 [Diagram: ruled frame containing two rows of rectangles: on the left, m A beside a shaded bar m B followed by a dotted rectangle n B; on the right, m C beside a shaded bar m D followed by a dotted rectangle n D; below, on the left a rectangle A beside a shaded bar B, and on the right a rectangle C beside a shaded bar D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVII. THEOREME XVII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVII. PROPOSITION XVII.]
+
 ## PROPOSITION XVII. THEOREME XVII.
 
 {dropcap:S|lines=2|style=plain}I les grandeurs compoſées ( A + B & C + D comparées à leurs parties B & D ) ſont proportionelles : les grandeurs diviſées le ſeront auſſi.

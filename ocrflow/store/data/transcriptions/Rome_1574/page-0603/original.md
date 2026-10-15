@@ -12,6 +12,8 @@ HOC idem demonſtratum fuit ab Euclide lib. 5. de proportionibus magnitudinum, p
 
 [Curated heading level=2 type=campanus: 16]
 
+[Curated heading level=2 type=theorems: THEOR. 13. PROPOS. 15.]
+
 ## THEOR. 13. PROPOS. 15.
 
 [Curated heading level=3 type=incipit: SI]

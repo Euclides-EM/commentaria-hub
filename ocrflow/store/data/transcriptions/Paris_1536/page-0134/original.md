@@ -16,6 +16,10 @@ ex ipsarum magnitudinū habitudine proportionata, eorundem æquè multiplicium r
 Conuersa ratio.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 5, Propositio 5.]
+
+[Curated heading level=2 type=theorems: Theorema 5, Propositio 5.]
+
 ## Θεώρημα ε, Πρόθεσις ε.
 
 Ἐὰν μέγεθος μεγέθους ἰσάκις ᾖ πολλαπλάσιον, ὅπερ ἀφαιρεθὲν ἀφαιρεθέντος, καὶ τὸ λοιπὸν τοῦ λοιποῦ ἰσάκις ἔσαι πολλαπλάσιον, ὁσαπλάσιόν ἐσι τὸ ὅλον τοῦ ὅλου.

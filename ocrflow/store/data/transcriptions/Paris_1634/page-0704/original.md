@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID.. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. LXXVI. PROPOS. C.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXVI. PROPOS. C.]
+
 ## THEOR. LXXVI. PROPOS. C.
 
 Quadratum mediæ apotomæ secundæ ad rationalem applicatum, latitudinem facit apotomen tertiam.

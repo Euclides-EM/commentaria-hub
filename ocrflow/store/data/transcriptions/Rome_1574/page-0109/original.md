@@ -4,6 +4,8 @@ RELIQVAS omnes figuras quadrilateras, quæ a prædictis quatuor differunt, ita v
 
 [Figure: quadrilateral trapezium]
 
+[Curated heading level=2 type=definitions: XXXIIII.]
+
 ### XXXIIII.
 
 [Curated heading level=4 type=incipit: PARALLELAE]

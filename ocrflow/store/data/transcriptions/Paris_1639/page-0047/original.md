@@ -4,6 +4,8 @@ hyp. | 18 3|2 12 *l'excez des toutes eſt 6.*
 hyp. | 7 2|2 7 *les retranchées.*
 18.a.1 | 11 3|2 5 *l'excez des reſtantes eſt 6.*
 
+[Curated heading level=2 type=axioms: AXIOME 19. a. 1.]
+
 ### 19. a. 1.
 
 Le tout est égal à toutes ses parties prises ensemble.
@@ -12,6 +14,8 @@ hyp. | ac, cd, db, *ſont parties de* ab.
 19.a.1 | ab 2|2 ac + cd + db.
 
 [Figure]
+
+[Curated heading level=3 type=axioms: AXIOME 19. a. b.]
 
 ### 19. a. b.
 
@@ -22,6 +26,8 @@ Si les parties d'vn tout sont égales entr'elles, le tout sera autant multiple d
 hyp. | ab, bc, cd, de *ſont* 2|2 đe.
 19.a.b. | AE *eſt quadruple de* AB.
 19.a.b. | AB *eſt le quart de* AE.
+
+[Curated heading level=2 type=axioms: AXIOME 20. a. 1.]
 
 ### 20. a. 1.
 

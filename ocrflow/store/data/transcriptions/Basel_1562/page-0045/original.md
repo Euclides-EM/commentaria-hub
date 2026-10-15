@@ -29,6 +29,8 @@ Product 29 ¼ − 2 ¼ das iſt                     Product 56 ¼ − 29 ¼ das 
 
 Merckh den vortail das man binomia mit reſiduis multiplicier. Die zway product gleich / derhalben 27 die feldung od̓ inhalt des triangels / wie oben gemeldt.
 
+[Curated heading level=2 type=propositions: XXXVII. Die ſibenvnddreyſſigſt Propoſition]
+
 ## XXXVII Die ſibenvnddreyſſigſt Propoſition.
 
 Alle triangel ſo auff ainer baſi / zwiſchen zwayen parallel linien ſtehn / ſeind ainander gleich.

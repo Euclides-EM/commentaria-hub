@@ -3,6 +3,8 @@
 
 [Curated heading level=2 type=campanus: 4]
 
+[Curated heading level=2 type=problems: PROBL. 4. PROPOS. 4.]
+
 ## PROBL. 4. PROPOS. 4.
 
 [Margin]
@@ -22,6 +24,8 @@ SIT deſcribendus circulus in dato triangulo ABC. Diuiſis duobus angulis ABC, A
 [Figure: triangle A B C with inscribed circle, centre D, touching the sides at E, F, G]
 
 [Curated heading level=2 type=campanus: 5]
+
+[Curated heading level=2 type=problems: PROBL. 5. PROPOS. 5.]
 
 ## PROBL. 5. PROPOS. 5.
 

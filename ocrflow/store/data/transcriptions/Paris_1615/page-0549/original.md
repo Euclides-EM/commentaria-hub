@@ -8,6 +8,10 @@ mn prielograne au. pos on aeieue le ſoude iriE omeſtnt demeſmne mauteu que le
 
 a conuerſe, ſi lu ſoiides praieuppae ſont enes cus comm puts ba en ui ſeron in memepauteu.dar ſil vns oſt plos grard e lautr ſor aela plu grande couptes ve grdi alammdrse utues vn planpirail ala beſe; &ua leyi’. i comme la leſt ſsà la dat aſi paralimpeis ea a paraidiptue eone vn eiſi il aſet auſi au paraſt up,ioid. Den le couipeiſt aautoutpar la, ps.et quieſt aofurde.
 
+[Curated heading level=2 type=propositions: THEO. 28. PROP. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEO. 28. PROP. XXXIII.]
+
 ## THEO. 28. PROP. XXXIII.
 
 Iec ſembiables ſoides parallelioipedes, sot Fvn à l’autre en taiſon triplee de leurs coſtez

@@ -16,6 +16,8 @@ SIT tertio angulus datus H, obtuſus. Fiat rurſus angulo H, æqualis angulus IA
 
 [Curated heading level=2 type=campanus: 33]
 
+[Curated heading level=2 type=problems: PROBL. 6. PROPOS. 34.]
+
 ## PROBL. 6. PROPOS. 34.
 
 [Curated heading level=3 type=incipit: A DATO]

@@ -15,6 +15,8 @@ I,8. K,64. L,512. M,4096.
 
 [Curated heading level=2 type=campanus: 13]
 
+[Curated heading level=2 type=theorems: THEOR. 12. PROPOS. 14.]
+
 ## THEOR. 12. PROPOS. 14.
 
 [Margin]

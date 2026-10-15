@@ -6,6 +6,8 @@ hyp. | a 2|2 ½c.
 hyp. | b 2|2 ½c.
 7.a.1. | a 2|2 b.
 
+[Curated heading level=2 type=axioms: 7. a. b.]
+
 ### 7. a. b.
 
 Dimidium maioris maius est dimidio minoris. | La moitié du plus grand excede la moitié du plus petit.
@@ -17,6 +19,8 @@ hyp. | a 2|2 ½c.
 hyp. | b 2|2 ½d.
 7.a.b. | a 3|2 b.
 
+[Curated heading level=2 type=axioms: 7. a. c.]
+
 ### 7. a. c.
 
 Et quod vnius æqualium dimidium est, alterius quoque æqualiü est dimidium. | Et ce qui est moitié de l'vn des egaux, est außi moitié de l'autre des egaux.
@@ -26,6 +30,8 @@ Et quod vnius æqualium dimidium est, alterius quoque æqualiü est dimidium. | 
 hyp. | b 2|2 c.
 hyp. | a 2|2 ½b.
 7.a.c. | a 2|2 ½c.
+
+[Curated heading level=2 type=axioms: 7. a. d.]
 
 ### 7. a. d.
 

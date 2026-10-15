@@ -5,6 +5,10 @@
 β.cl.60.10 | □.dl 3|2 □.lg..□.——, comm. dl,
 concl. 2d48.10 | dg, est binom. 2.
 
+[Curated heading level=2 type=propositions: THEOR. XLV. PROPOS. LXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XLV. PROPOS. LXIII.]
+
 ## THEOR. XLV. PROPOS. LXIII.
 
 Quadratum eius, quæ ex binis mediis secunda, ad rationalem applicatum, latitudinem facit ex binis nominibus tertiam.

@@ -3,7 +3,7 @@
 
 *producentur vt c z & reliqua quotcunque ſimili argumẽto ſingulis præfatis, ac ſibiipſis erunt diuerſa. A media itaque infinitæ numero, fiunt incertæ, &c.*
 
-## MONITVM.
+### MONITVM.
 
 *Vnde autem orta ſit harum incertarum (quæ ſaltem ſenſibus deprehendi poteſt) intelligentia, monito vigeſimæprimæ huius, aliqua ceperamus exponere, quæ cùm huius theorematis plus adhæreant negocio: Dicemus incertarum magnitudinum agnitionem, à numeris deductam, eo quidẽ argumento quo contrariorum eadem ſit diſciplina. Cùm enim numeri ſint hi, quibus ſolis quãtitatum capacitas ſenſibus humanis eorum diſcretione adaperitur. Inter harum autem diſcretionum (quæ vnitates numerorum dicuntur) interualla, plures incidunt ipſius quantitatis ſectiones, numerorum illorum vnitatibus exprimi non valentes, cùm extra illarum vnitatum quæcunque interualla incidant. Quas tamen enunciare volentes arithmetici (ne quidquam eis intactum foret) per numerorum radices hypotheticas ſeu ſuppoſitas illas exprimere conati ſunt: ſuppoſitas quidem ideo diximus, quod hi numeri nullas earum radicum ſibi patiantur aſcribi, præterquam ex hypotheſi, qua hypotheſi eiuſdem nominis radices, quibuſuis dederunt numeris, cuius numeri verè eas radices habentes, ſuas denominarunt, quarum aliæ cenſicæ ſeu quadratæ, aliæ cubicæ, ſurdæ, ſolidæ, &c. quæ licet tantùm propriis quibuſdam adhæreant numeris, non autem quibuſlibet. Tamen arithmetici, quibuſuis & ſingulis eas aſcribentes, omnes ea radicalium numerorum (quos ſurdos nuncuparunt) denominatione, ſectiones illas quantitatum (quæ vnitatibus numerorum ipſis quantitatibus applicatorum exprimi non valebant) denunciauerunt.*
 

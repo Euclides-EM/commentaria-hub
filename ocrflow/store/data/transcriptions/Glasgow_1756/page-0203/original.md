@@ -9,6 +9,10 @@ b. 2. 6.
 
 ut AB ad BD, ita AC ad CE. aequalis autem eſt BD ipſi AC, ut igitur AB ad AC, ita eſt AC ad CE. quare datis duabus rectis lineis AB, AC tertia proportionalis inventa eſt CE. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XII. PROB.]
+
 ## PROP. XII. PROB.
 
 [Subhead]
@@ -32,6 +36,10 @@ b. 2. 6.
 [Diagram: triangle DEF with G on DE, H on DF, GH parallel to EF, and three horizontal lines labelled A, B and C]
 
 eſt autem DG ipſi A aequalis, GE vero aequalis B, et DH aequalis C; ut igitur A ad B, ita C ad HF. Quare tribus datis rectis lineis A, B, C quarta proportionalis inventa eſt HF. Q. E. F.
+
+[Curated heading level=2 type=propositions: PROP. XIII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XIII. PROB.]
 
 ## PROP. XIII. PROB.
 

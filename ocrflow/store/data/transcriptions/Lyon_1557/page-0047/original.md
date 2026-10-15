@@ -9,6 +9,8 @@ Mechanicè verò diuidetur Triangulũ in alias partes, diuiſo ſimiliter latere
 
 Subijciemus & hoc Problema,
 
+[Curated heading level=2 type=additions: Ad PROPOSITIO XXXVIII. A puncto in vno laterum Trianguli ſignato lineam ducere, quæ Triangulum bifariam diuidat.]
+
 ### A puncto in vno laterum Trianguli ſignato lineam ducere, quæ Triangulum bifariam diuidat.
 
 Sit punctum A ſignatum in latere B C Trianguli B C D. Volo à puncto A ducere lineam quæ diuidat Triangulum B C D in duas partes æquales.
@@ -18,6 +20,10 @@ Diuido latus B C bipartitò in puncto E. Tum à puncto A duco ad angulum D oppo�
 [Diagram: triangle B C with apex D, interior points F and G, base points A and E]
 
 Connecto E D, ſecantem A F in puncto G. Et conſtat ex trigeſimaoctaua, duo Triangula B E D & C E D eſſe æqualia, intellecta parallelo ipſi B C, ducta per punctum D: quum ſint ſuper æquales baſes E B & E C. Duo quoque Triangula D E F & A E F ſunt æqualia, per trigeſimamſeptimam: quum ſint ſuper eandem baſin E F, & inter duas parallelos A D & E F. Dempto itaque communi E F G, erit Triangulum A E G æquale Triangulo D F G: Vtrique igitur ipſorum addito Trapezio C F G E, erit A C F Triangulum æquale D E C Triangulo. Atqui D E C eſt dimidia pars totius Trianguli B C D: quapropter & A C F eſt dimidia pars eiuſdem. Reliqua itaque pars dimidia, erit A B F D Trapezium. Quare linea A F diuidit totum A C D Triangulum æqualiter, Quod facere oportuit.
+
+[Curated heading level=2 type=propositions: THEOREMA 29, PROPOSITIO XXXIX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 29, PROPOSITIO XXXIX.]
 
 ## THEOREMA 29, PROPOSITIO XXXIX.
 

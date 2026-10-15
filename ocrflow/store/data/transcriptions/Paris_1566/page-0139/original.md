@@ -1,10 +1,12 @@
 <!-- Running title: EVCL. ELEMENT. GEO. -->
 
-## MONITVM.
+### MONITVM.
 
 Subnectit Theon huic theoremati lemma ſecundæ parti huius obaudiens, cui obiicit oſtendendam eſſe æqualitatem laterum, cùm rectilinea ſint æqua & ſimilia quod ab huius theorematis ſententia ſecernitur, quæ tantùm ſimiles rationes non laterum exceſſus, æqualitates aut defectus exoptat, illæ vtique ſimiles ſub generali proportionalium demonſtratione ſatis ſupérque fouentur. Non enim æqua & ſimilia eſſe poſſunt abſque æqualium rectarum deſcriptione. Id equidem lemma non inconſulto prætermisimus, tanquam minimè neceſſarium. Sed potiori obiecto occurrentes, prælibatæ vigeſimæ monitum impendimus quo periculum ex æquis ſimilibus emergens erumpamus.
 
-## Propoſitio Vigeſimatertia.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimatertia.]
+
+## Propoſitio vigeſimatertia.
 
 Æquiangula parallelogramma, rationem adinuicem habent, compoſitam ex lateribus.
 
@@ -12,7 +14,9 @@ Quia demonſtrauimus decima diffinitione quinti, & quinta huius extremorum ratio
 
 [Diagram: adjoining parallelograms labelled A, B, D, E, G, I, T and Z]
 
-## Propoſitio Vigeſimaquarta.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquarta.]
+
+## Propoſitio vigeſimaquarta.
 
 Omnis parallelogrammi quæ circa dimetientem ſunt parallelogramma, communem ei angulum habentia, ſimilia ſunt toti, & adinuicem.
 
@@ -20,7 +24,7 @@ Sit parallelogrammum A B G D cuius dimetiens eſto A G, circa quam exiſtant par
 
 [Diagram: a rectangle divided at Z by horizontal and vertical lines and diagonal A Z G, labelled A, B, D, E, G, I, K, T and Z]
 
-## MONITVM.
+### MONITVM.
 
 Ampliori faſtu hanc per 2. huius, & per 16 & 18 quinti demonſtrare potuiſſemus, ſed facilitati conſulentes, compendium prolixitati prætulimus. Inſuper contulimus illud (communem ei angulum habentia) tanquam neceſſarium concluſioni generandæ: nam abſque communi angulo deperit eorum neceſſaria ſimilitudo, vt proxima 26 patebit.
 

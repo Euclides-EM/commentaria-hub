@@ -20,6 +20,14 @@ Cur tales aſſumpti gnomones.
 
 in demonſtrationibus parallelogrammorum expeditiorem expreſſionem, principaliter excogitata.
 
+[Curated heading level=1 type=propositions: LIBER II.]
+
+[Curated heading level=1 type=theorems: LIBER II.]
+
+[Curated heading level=2 type=propositions: Theorema 1, Propoſitio 1.]
+
+[Curated heading level=2 type=theorems: Theorema 1, Propoſitio 1.]
+
 ## Θεώρημα α, Πρόθεσις α.
 
 ΕΑν ὦσι δύο εὐθεῖαι, τμηθῇ δὲ ἡ ἑτέρα αὐτῶν, εἰς ὅσα δηποτοῦν τμήματα, τὸ περιεχόμενον ὀρθογώνιον ὑπὸ τῶν δύο εὐθειῶν ἴσον ἐστὶ τοῖς ὑπό τε τῆς ἀτμήτου καὶ ἑκάστου τῶν τμημάτων περιεχομένοις ὀρθογωνίοις.

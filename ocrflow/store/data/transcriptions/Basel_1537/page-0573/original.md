@@ -8,6 +8,8 @@ tus igitur est qui sub a b c,angulus est autem qui sub b a c, datus,& reliquus q
 
 Quoniam enim angulus qui ad a datus est.& qui ad a eis qui ad d c,angulis exterior binis interioribus est æqualis,& opposito per 32 pri elemen. & anguli d h,quare & anguli a c,dati sunt.
 
+[Curated heading level=2 type=theorems: Theorema 46 Propositio 46]
+
 ## Theorema 46 Propositio 46
 
 SI triangulum unum habuerit angulum datum, circum uero aliũ angulum latera utraque sicut unum ad reliquum rationem datam habuerint,datur triangulum specie.
@@ -22,6 +24,8 @@ Ponatur ipsi c a,æqualis d a,& connectatur d c. Qnoniã{printer-error-correctio
 
 [Diagram: triangle with d at top right, b at bottom left, c at bottom right; a on the side b d, joined to c]
 
+[Curated heading level=2 type=theorems: Theorema 47 Propositio 47]
+
 ## Theorema 47 Propositio 47
 
 DAta rectilinea specie,in data triangula specie diuiduntur.
@@ -29,6 +33,8 @@ DAta rectilinea specie,in data triangula specie diuiduntur.
 Esto datum rectilineum specie a b c d e. Dico quod ipsum a b c d e,rectilineum in data triangula specie diuiditur. Connectantur enim a e,e c. Quoniam rectilineũ a b c d e, specie datur. Igitur angulus q̃ sub b a e,datus est,& ratio data est. Quoniam igitur angulus b a e,datus est,& ratio ipsius b a ad e a,data est. Datur igitur triangulũ b a e specie. Datus igitur est qui sub a b e,angulus. Est autem & totus qui sub a b c,angulus datus. & reliquus igitur qui sub e b c datus est. Estq̃ ratio ipsius a b ad b e data,ipsius autem a b ad b c,ratio data est. & ipsius igitur e b ad b c,ratio data est,& datus est qui sub c b e angulus. Datur igitur b c e triangulum specie. Ac per hoc iam & c d e,triangulũ specie datur. Data igitur rectilinea specie in data triangula specie diuiduntur.
 
 [Diagram: pentagon with a at top, b at left, e at right, c at bottom left, d at bottom right; diagonals drawn from e to b and from e to c]
+
+[Curated heading level=2 type=theorems: Theorema 48 Propositio 48]
 
 ## Theorema 48 Propositio 48
 

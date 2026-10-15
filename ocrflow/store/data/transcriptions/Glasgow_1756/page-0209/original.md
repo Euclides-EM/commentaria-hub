@@ -9,6 +9,10 @@ b. 16. 6.
 
 eſt igitur ut A ad B, ita D ad C; aequalis autem eſt B ipſi D; ergo ut A ad B, ita B ad C. Si igitur tres rectae lineae &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XVIII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XVIII. PROB.]
+
 ## PROP. XVIII. PROB.
 
 {dropcap:A|lines=2|style=plain} Data recta linea dato rectilineo ſimile, et ſimiliter poſitum rectilineum deſcribere.

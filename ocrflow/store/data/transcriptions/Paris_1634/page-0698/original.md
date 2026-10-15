@@ -37,6 +37,10 @@ lo ▭.to, os, est medi.
 
 concl. 77. 10 | ts, est min.
 
+[Curated heading level=2 type=propositions: THEOR. LXXII. PROPOS. XCVI.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXII. PROPOS. XCVI.]
+
 ## THEOR. LXXII. PROPOS. XCVI.
 
 Si spatium contineatur sub rationali, & apotoma quinta, recta linea spatium potens, est quæ cum rationali medium totum efficit.

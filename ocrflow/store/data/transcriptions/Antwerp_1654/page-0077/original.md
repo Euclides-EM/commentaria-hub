@@ -25,6 +25,8 @@ Fig. 62.
 f Per ſchol. præced.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXXVII. & XXXVIII.]
+
 ## PROPOSITIO XXXVII. & XXXVIII.
 
 [Curated heading level=2 type=figures: Fig. 63]

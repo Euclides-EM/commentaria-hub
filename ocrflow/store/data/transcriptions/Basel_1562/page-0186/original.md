@@ -15,6 +15,8 @@ Diß darneben ingedenckh / das es hie gleich gilt / ob die proportion vnderſchn
 
 [Diagram: triangular proportional-line construction with lengths 3, 6, 7 and 14]
 
+[Curated heading level=2 type=propositions: XIII. Die dreyzehendt Propoſition]
+
 ## XIII. Die dreyzehendt Propoſition.
 
 [Subhead]

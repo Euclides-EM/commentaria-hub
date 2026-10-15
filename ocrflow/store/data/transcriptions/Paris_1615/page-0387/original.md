@@ -6,11 +6,19 @@ tre ligne droicte à laquelle ſoit A comme le nombre C eſt au nombre D: Car d
 
 De cecy appert derechef, par quelle maniere on peut (eſtans donnez deux nombres, & vne ligne droicte,) trouuer vne autre ligne droicte, le quarré de laquelle ſoit au quarré de la dõnee comme nombre à nombre. Car s’il faut trouucr vne ligne droicte, au quarré de laquelle ſoit le quarré de la ligne A, comme le nombre C eſt au nombre D; Il faudra trouuer ainſi qu d ſſus la ligne B, à laquelle ſoit A comme le nombre C eſt au nombre D; puis ſoit trouuee par la 1p.6. la moyenne prop. entre icelles A & B: & le quarré de A ſera au quarré d’i elle moyenne prop.comme le nombre C’au nombreD. Car le quarre de Aſcra (par le corol. de la 20.p.6.) au quarré de ladite moyenne prop. comme A à B; & partant comme le nombre C au nombre D.
 
+[Curated heading level=2 type=propositions: THEOR. 5. PROP. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. 5. PROP. VII.]
+
 ## THEOR. 5. PROP. VII.
 
 Grandeurs incommenſurables, ne ſont entre elles comme nombre à nombre.
 
 Ceſte demonſtration eſt aiſee. Car ſi les grandeurs donnees eſtoient entr’elles comme nombre à nombre, elles ſeroient commenſurables par la 6.p.10. ce qui eſt contre l’hypotheſe.
+
+[Curated heading level=2 type=propositions: THEOR. 6. PROP. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 6. PROP. VIII.]
 
 ## THEOR. 6. PROP. VIII.
 

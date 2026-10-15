@@ -8,6 +8,10 @@ Demóstratio ab impossibili
 
 [Diagram: a c b e d]
 
+[Curated heading level=2 type=propositions: Theorema 8, Propositio 15.]
+
+[Curated heading level=2 type=theorems: Theorema 8, Propositio 15.]
+
 ## Θεώρημα η, Πρόθεσις ιε.
 
 Ἐὰν δύο εὐθεῖαι τέμνωσιν ἀλλήλας, τὰς κατὰ κορυφὴν γωνίας ἴσας ἀλλήλαις ποιήσουσιν.
@@ -23,6 +27,10 @@ ORONTIVS.¶Secent se adinuicem binæ rectæ lineæ a/b,& c/d,in púcto quidem e:
 ### Corollarium.
 
 ¶Hinc manifestum est,quotlibet rectas lineas in eodem púcto sese adinuicem intersecantes,angulos efficere quatuor rectis æquales.
+
+[Curated heading level=2 type=propositions: Theorema 9, Propositio 16.]
+
+[Curated heading level=2 type=theorems: Theorema 9, Propositio 16.]
 
 ## Θεώρημα θ, Πρόθεσις ις.
 

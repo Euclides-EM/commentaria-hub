@@ -10,6 +10,10 @@ mais Clauius le propore ainſi.
 
 Si vne ligne droicte eſt couppee comme on voudra, le rectangle contenu ſous les parties, eſt moy en proportionel entre les quarrez d’icelles. Item le rectangle cont enu ſoubs la toute, & vne des parties, eſt moyen prop. entre le quarré de la toute, & le quarré de ladite partie. Ce qui eſt la meſme cboſe que deſſus.
 
+[Curated heading level=2 type=propositions: THEOR. 37. PROP. LV. Six. 4.]
+
+[Curated heading level=2 type=theorems: THEOR. 37. PROP. LV. Six. 4.]
+
 ## THEOR. 37. PROP. LV. Six. 4.
 
 Si vn rectangle eſt compris d’vne ligne rationele, & d’vn binome premier; la ligne pouuant iceluy rectangle eſt binome.

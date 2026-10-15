@@ -6,6 +6,10 @@ Soient deux nombres A & B qui ſe multiplians l’vn l’autre, produiſent C qu
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 3. PROP. III.]
+
+[Curated heading level=2 type=theorems: THEOR. 3. PROP. III.]
+
 ## THEOR. 3. PROP. III.
 
 Si vn nombre cube ſe multiplie ſoy-meſme;

@@ -1,6 +1,14 @@
 <!-- Page number: 40 -->
 
+[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS]
+
+[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS]
+
+[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS.
+
+[Curated heading level=2 type=definitions: Euclides ex Campano.]
 
 ## Euclides ex Campano.
 
@@ -14,9 +22,13 @@ CAMPANVS. Quæ parallelogrāma dicuntur consistere circa diametrū, & quæ sunt 
 
 [Diagram: square a b c d with a, g, b along the top, e, k, f across the middle, c, h, d along the bottom; diagonal a d drawn through k, the lines e f and g h crossing at k]
 
+[Curated heading level=2 type=definitions: Eucli. ex Zamb. Parallelogrammum rectangulum.]
+
 ## Eucli. ex Zamb. Parallelogrammum rectangulum.
 
 OMne parallelogrammū rectangulum, sub duabus rectum angulum comprehendentibus rectis lineis dicitur contineri.
+
+[Curated heading level=3 type=definitions: Quid gnomon.]
 
 ## Quid gnomon.
 

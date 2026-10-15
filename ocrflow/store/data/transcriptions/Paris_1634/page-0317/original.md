@@ -10,6 +10,10 @@
 11.cōcl. λθ.22.5 | a+b+c+d π a 2|2 e+f+g+h π e,
 12.concl. λκ.22.5 | a+b+c+d π b 2|2 e+f+g+h π f, &c.
 
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXIII.]
+
 ## THEOR. XXIII. PROPOS. XXIII.
 
 Si sint tres magnitudines, aliæque ipsis æquales numero, quæ binæ in eadem ratione sumantur, fuerit autem perturbata earum proportio : etiam ex æqualitate in eadem ratione erunt.

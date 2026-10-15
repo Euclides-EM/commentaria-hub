@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEO. -->
 
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
+
 ## Propoſitio quinta.
 
 Commenſurabiles magnitudines, adinuicem rationem habent quam numerus ad numerum.
@@ -7,6 +9,8 @@ Commenſurabiles magnitudines, adinuicem rationem habent quam numerus ad numerum
 Sint commenſurabiles magnitudines A & B: Dico eas habere rationem quam numerus ad numerum, metiatur ipſas A & B aliqua G: & quoties G metitur A tot ſint in D vnitates, quoties verò idem G metitur B tot ſint in E vnitates, quoniam vnitas toties repetitur in D & E, quoties G repetitur in A & B, ex hypotheſi, æquemultiplex erit A ipſius G, vt D vnitatis, ſimiliter B eiuſdem G vt E vnitatis. Erit igitur A ad G vt D ad vnitatem & B ad G, vt E ad vnitatem, & conuertẽdo (per corollarium quartæ quinti) erit G ad B vt vnitas ad E: æqua ratione igitur (per 22 quinti) erit A ad B ſicut D numerus ad E numerum. Ipſæ itaque A & B rationem habent numerorum, eò quod ſimiliter repetant communem eorum menſuram, vt numeri repetunt vnitatem, quæ eſt omnium communis menſura. Commenſurabiles igitur magnitudines, &c.
 
 [Diagram: six horizontal lines labelled A, G, B, D, Vnitas, and E, with the numerals 4 and 3]
+
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
 
 ## Propoſitio ſexta.
 

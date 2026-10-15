@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEO. -->
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſecunda.]
+
 ## Propoſitio vigeſimaſecunda.
 
 Si fuerint tres anguli plani quorum bini reliquo ſint maiores quomodocunque ſuſcepti, comprehendant autem ipſos æquales rectæ lineæ, Ex connectentibus rectas lineas æquales, triangulum conſtitui eſt poſbile.
@@ -12,9 +14,13 @@ Si fuerint tres anguli plani quorum bini reliquo ſint maiores quomodocunque ſu
 
 [Figure: circle with points L and I on the circumference, T within, and K at the bottom, lines joining L, T, I and K]
 
-## MONITVM.
+### MONITVM.
 
 *Theon huius tantùm primam partem demonſtrat, cùm ſcilicet bini anguli duobus rectis minores exiſtunt, illud quidem duplici demonſtratione, mancam relinquens huius theorematis intelligentiam, quo ad poſtremas triangulorum magnitudines. Non igitur genus huius docuit, ſed tantũ ſpeciem, quod minimè ſufficit.*
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimatertia.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimatertia. Problema 3.]
 
 ## Propoſitio vigeſimatertia.
 

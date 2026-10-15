@@ -13,6 +13,8 @@ b Patet ex. 1.l.6.
 
 2. Pars. Simili ferè ratiocinio concludetur.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO V.]
+
 ## PROPOSITIO V.
 
 [Curated heading level=2 type=figures: Fig. 2]

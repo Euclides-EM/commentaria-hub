@@ -12,6 +12,10 @@ hyp. | abe == hf u ik,
 2.d.1. | ◊fb + ◊bi + ◊ga u ehm est gnomon.
 2.d.1. | Item ◊fb + ◊bi + ◊em u gka est gnomon.
 
+[Curated heading level=2 type=propositions: THEOR. I. PROPOS. I.]
+
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. I.]
+
 ## THEOR. I. PROPOS. I.
 
 Si fuerint duæ rectæ lineæ, seceturque ipsarum altera in quotcunque segmenta : Rectangulum comprehensum sub illis duabus rectis lineis, æquale est eis, quæ sub insecta, & quolibet segmentorum comprehenduntur, rectangulis.

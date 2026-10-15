@@ -5,6 +5,10 @@ Prior pars ſic probatur. Si enim non ſunt æquales: erit altera ipſarum, vt A
 
 [Diagram: horizontal lines labelled A and B; C]
 
+[Curated heading level=2 type=propositions: THEOREMA 10, PROPOSITIO X.]
+
+[Curated heading level=2 type=theorems: THEOREMA 10, PROPOSITIO X.]
+
 ## THEOREMA 10, PROPOSITIO X.
 
 Quæ duarum Magnitudinum ad eandem maiorem rationem habet, hæc maior eſt. Ad quam autem duarũ, eadem maiorem rationem habet, hæc minor eſt.
@@ -14,6 +18,10 @@ Si fuerit ratio maior A ad C, quàm B ad D: dico A eſſe maiorem B. Si verò fu
 [Diagram: horizontal lines labelled A and B; C]
 
 Prior pars cõſtat ex priori parte ſeptimæ & priori octauæ. Nam per priorem ſeptimæ, non erit A æqualis B: Et per priorem octauæ, non erit minor. Secũda verò patet ex ſecundis partibus earundem.
+
+[Curated heading level=2 type=propositions: THEOREMA 11, PROPOSITIO XI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 11, PROPOSITIO XI.]
 
 ## THEOREMA 11, PROPOSITIO XI.
 
@@ -26,6 +34,10 @@ Sit ratio A ad B & ratio C ad D, vtraque æqualis rationi quæ eſt E ad F. Dico
 Sumantur G ad A, & H ad C, & K ad E æquemultiplices: itemq́; L ad B, & M ad D, & N ad F, aliæ vtcunque æquemultiplices. Et quia ponitur E ad F ſicut A ad, B & ſicut C ad D: erit, per conuerſam ſextæ Definitionis bis ſumptam, ſi K excedat N, vt G excedat L, & H excedat M: & ſi æquale, æquale: & ſi minus, minus. Si igitur G excedat N, excedet H ipſum M: & ſi æquale, æquale: & ſi minus, minus. Quare per ſextam Definitionem, erit vt A ad B, ita C ad D, Quod erat probandum.
 
 IN hac demonſtratur idem, vt dicitur, per idem. Tam enim confeſſa eſt ſimplicium comparatio, quàm exceſſus & æqualitas Æquemultiplicium: quanuis aliter probari poſſe non negem. Sed quorsùm? quum ſit animi ſenſum, ac ſub eo Principio audiatur, Quæ eidem ſunt æqualia, inter ſe ſunt æqualia? Quod certè ita generale eſt & vniuerſum: vt in omni arte, in omni ſpecie, in omni denique ingenij exercitatione, aſſenſionem & probationem præ ſe ferat. Sed tamen huiuſce rei defenſionem iam antè occupauimus in prima huius.
+
+[Curated heading level=2 type=propositions: THEOREMA 12, PROPOSITIO XII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 12, PROPOSITIO XII.]
 
 ## THEOREMA 12, PROPOSITIO XII.
 ### Campano 13.

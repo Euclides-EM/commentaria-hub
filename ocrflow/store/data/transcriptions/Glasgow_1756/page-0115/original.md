@@ -17,6 +17,10 @@ majorem quidem majori, minorem vero minori, et eſt utraque ipſarum AD, DB ſem
 
 [Diagram: semicircle ADB with diameter AB, midpoint C, and lines AD, CD and DB]
 
+[Curated heading level=2 type=propositions: PROP. XXXI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXI. THEOR.]
+
 ## PROP. XXXI. THEOR.
 
 {dropcap:I|lines=2|style=plain}N circulo angulus qui in ſemicirculo, rectus eſt; qui vero in majori ſegmento, minor eſt recto; et qui in minori, major recto.

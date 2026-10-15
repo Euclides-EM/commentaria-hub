@@ -3,21 +3,31 @@
 
 mide, le point S en est le *sommet*, et l’ensemble des triangles ASB, BSC, etc. forme la *surface convexe* de la pyramide.
 
+[Curated heading level=2 type=definitions: Définition XII.]
+
 [Curated heading level=3 type=numbered_item: 12.]
 
 XII. La *hauteur* de la pyramide est la perpendiculaire abaissée du sommet sur le plan de la base, prolongé s’il est nécessaire.
+
+[Curated heading level=2 type=definitions: Définition XIII.]
 
 [Curated heading level=3 type=numbered_item: 13.]
 
 XIII. La pyramide est *triangulaire, quadrangulaire*, etc., selon que la base est un triangle, un quadrilatere, etc.
 
+[Curated heading level=2 type=definitions: Définition XIV.]
+
 [Curated heading level=3 type=numbered_item: 14.]
 
 XIV. Une pyramide est *réguliere* lorsque la base est un polygone régulier, et qu’en même temps la perpendiculaire abaissée du sommet sur le plan de la base passe par le centre de cette base. Cette ligne s’appelle alors l’*axe* de la pyramide.
 
+[Curated heading level=2 type=definitions: Définition XV.]
+
 [Curated heading level=3 type=numbered_item: 15.]
 
 XV. *Diagonale* d’un polyedre est la ligne menée d’un angle à un autre.
+
+[Curated heading level=2 type=definitions: Définition XVI.]
 
 [Curated heading level=3 type=numbered_item: 16.]
 
@@ -28,6 +38,8 @@ F. 202.
 [/Margin]
 
 Par exemple, si la droite ST est perpendiculaire au plan ABC, et qu’au point O où elle rencontre ce plan elle soit divisée en deux parties égales, les deux pyramides SABC, TABC, qui ont la base commune ABC, seront deux polyedres symmétriques.
+
+[Curated heading level=2 type=definitions: Définition XVII.]
 
 [Curated heading level=3 type=numbered_item: 17.]
 

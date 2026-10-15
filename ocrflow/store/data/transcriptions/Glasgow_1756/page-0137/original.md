@@ -3,6 +3,10 @@
 
 eſt ABD, habens utrumque angulorum qui ſunt ad baſim BD duplum reliqui. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XI. PROB.]
+
 ## PROP. XI. PROB.
 
 {dropcap:I|lines=2|style=plain}N dato circulo pentagonum aequilaterum et aequiangulum inſcribere.

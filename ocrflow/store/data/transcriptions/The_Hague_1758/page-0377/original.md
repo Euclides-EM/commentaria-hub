@@ -3,6 +3,10 @@
 
 [Figure: triangular prism with vertices labelled C, D, B, E, A, F, with dotted diagonals]
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THEOREME VII.]
+
+[Curated heading level=2 type=theorems: THEOREME VII. PROPOSITION VII.]
+
 ## PROPOSITION VII. THEOREME VII.
 
 {dropcap:T|lines=2|style=plain}Out priſme triangulaire (ADE): peut être diviſé (par des Plans paſſant par les △ BCF & BDF) en trois pyramides égales (ACBF, BDEF & DCBF) ayant des bazes triangulaires.

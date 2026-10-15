@@ -10,6 +10,8 @@ I G, I H, æquales erunt, ac propterea circulus deſcriptus ex I, ad interuallum
 
 [Curated heading level=2 type=campanus: 9]
 
+[Curated heading level=2 type=problems: PROBL. 9. PROPOS. 9.]
+
 ## PROBL. 9. PROPOS. 9.
 
 [Margin]

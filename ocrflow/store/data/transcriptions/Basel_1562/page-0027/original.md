@@ -6,6 +6,10 @@ Euclidis Propoſition / Das iſt / Fürga
 ben / oder Schlußreden.
 [/Subhead]
 
+[Curated heading level=1 type=propositions: Das erſt buͦch Euclidis]
+
+[Curated heading level=2 type=propositions: I. Die erſt Propoſition]
+
 ## I. Die erſt Propoſition / Lehrt
 
 [Subhead]

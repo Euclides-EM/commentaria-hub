@@ -13,6 +13,8 @@ METIANTVR duo numeri A, & B, quemlibet numerum CD, ſitque alius numerus E, mini
 
 [Curated heading level=2 type=campanus: 36]
 
+[Curated heading level=2 type=problems: PROBL. 5. PROPOS. 38.]
+
 ## PROBL. 5. PROPOS. 38.
 
 [Margin]

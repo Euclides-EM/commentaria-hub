@@ -25,6 +25,10 @@ conſtr. | abedc 2|2 ▭al,
 1.concl. 14.5 | *rectili.* p 2|2 bm Ⅱ f,
 2 concl. conſtr. | *rectili.* p *ſml.* abedc.
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXVI.]
+
 ## THEOR. XIX. PROPOS. XXVI.
 
 Si d'vn parallelogramme on retranche vn parallelogramme semblable au tout, & semblablement posé, ayant vn angle commun auec le tout; le retranché est à l'entour d'vn mesme diametre auec le tout.

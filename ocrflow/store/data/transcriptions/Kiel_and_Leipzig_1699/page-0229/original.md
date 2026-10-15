@@ -15,6 +15,10 @@ und dem Kreyß dabc eingeschrieben/ n. 3. Besch. IV.
 
 Ist also dem Kreyß dabc ein gleichseitig Viereck eingeschrieben. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der VII. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 7. Werck-Stück. Der VII. Vortrag.]
+
 ## Der VII. Vortrag.
 
 ## Das 7. Werck-Stück.

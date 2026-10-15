@@ -12,6 +12,10 @@ Il reſulte de ces choſes que ſi vne grandeur compoſee de deux, eſt incommen
 
 Soit AB8, & BC √’28. leſquelles ſont incommenſurables. La compoſee AC ſera 8+√28. incommenſurable à chacune d’icelles AB8, BC√28.
 
+[Curated heading level=2 type=propositions: THEOR. 15 PROP. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 15 PROP. XVIII.]
+
 ## THEOR. 15 PROP. XVIII.
 
 S il y a deux lignes droictes inegales, & ſur la plus grande on aplique vn rectangle egal au quart du quarré de la plus petite, deffaillat d’vne figure quarrée, & que le rectãgle diuiſe icelle plus grande ligne en parties commenſ. en longitude; la plus grade ligne pourra plus que la plus petite du quarréd’vne ligne qui luy ſera commenſ. en longitude: Et ſi la plus grande peut plus que la plus petite du quarré d’vne ligne qui luy ſoit commenſ. en longitude, eſtãt apliqué vn rectangle ſur la plus grande ligne, egal au quart du quarré de la plus petite, &de-

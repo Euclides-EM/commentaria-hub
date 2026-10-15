@@ -33,6 +33,8 @@ ALITER hoc theorema, a familiaribus Heronis, & Porphyrij demonſtratur, nullo la
 
 [Curated heading level=2 type=campanus: 21]
 
+[Curated heading level=2 type=theorems: THEOR. 14. PROPOS. 21.]
+
 ## THEOR. 14. PROPOS. 21.
 
 [Margin]

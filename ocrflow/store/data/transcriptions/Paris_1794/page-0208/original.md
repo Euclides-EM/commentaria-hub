@@ -1,6 +1,12 @@
 <!-- Page number: 180 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=1 type=lemmas: Livre VI]
+
+[Curated heading level=2 type=propositions: PROPOSITION X. LEMME.]
+
+[Curated heading level=2 type=lemmas: LEMME. PROPOSITION X.]
+
 ## PROPOSITION X.
 
 ### LEMME.
@@ -12,6 +18,10 @@ F. 200.
 *Toute section NOPQR, faite dans un prisme parallèlement à la base ABCDE, est égale à cette base.*
 
 Car les paralleles AN, BO, CP, etc. comprises entre les plans paralleles ABC, NOP, sont égales ; et ainsi toutes les figures ABON, BCPO, etc. sont des parallélogrammes. De là il suit que le côté ON est égal à AB, OP à BC, QP à CD, etc. De plus les côtés égaux sont paralleles ; donc l’angle ABC = NOP, l’angle BCD = OPQ, etc. Donc les deux polygones ABCDE, NOPQR, ont les côtés égaux et les angles égaux, chacun à chacun ; donc ils sont égaux.
+
+[Curated heading level=2 type=propositions: PROPOSITION XI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XI.]
 
 ## PROPOSITION XI.
 

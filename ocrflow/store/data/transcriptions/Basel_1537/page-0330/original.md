@@ -18,6 +18,8 @@ CAMPANVS Hic (sicut in inuentione residui primi) sit linea b c, cōmunicans line
 
 [Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); a third line with label e below it; dotted number line with labels f and g]
 
+[Curated heading level=2 type=problems: Problema 22 Propositio 88]
+
 ## Eucl.ex Zãb. Problema 21{printer-error-correction:22} Propositio 88
 
 [Curated heading level=3 type=zamberti_sequence: 88.]
@@ -45,6 +47,8 @@ REsiduum quintum demonstrare.
 CAMPANVS Cum residuū quintū inuenire libuerit, erit linea c d communicans lineæ a rationali positæ in lōgitudine, sicut erat in inquisitione secūdi, & erit quadratus numerus e diuisus in f & e, quorum neuter quadratus sicut in præmissa, erit quadratū lineæ c d ad quadratū b c, sicut f ad e, ex quibus à diffinitione cōcludere licet (habita sufficiēti notitia binomij quinti) lineā d b esse residuū quintū.
 
 [Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); a third line with label e below it; dotted number line with labels f and e]
+
+[Curated heading level=2 type=problems: Problema 23 Propositio 89]
 
 ## Eucli.ex Zãb. Theorema 22{printer-error-correction:Problema 23} Propositio 89
 

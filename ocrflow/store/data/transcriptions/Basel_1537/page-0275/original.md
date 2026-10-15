@@ -10,6 +10,8 @@ Sint binæ rectæ lineæ, ζ ε, ε η. Dico quod est sicut ζ ε, ad ε η, sic
 
 [Diagram: rectangle divided by a vertical line into two; labels: ε above the divider, η at top right, ζ below the divider]
 
+[Curated heading level=2 type=theorems: Theorema 19 Propositio 22]
+
 ## Eucli. ex Zamb. Theorema 19 Propositio 22
 
 [Curated heading level=3 type=zamberti_sequence: 22.]

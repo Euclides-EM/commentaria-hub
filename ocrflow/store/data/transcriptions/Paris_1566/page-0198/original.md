@@ -1,6 +1,8 @@
 <!-- Running title: LIBER NONVS. -->
 <!-- Page number: 86 -->
 
+[Curated heading level=2 type=propositions: Propoſitio quarta.]
+
 ## Propoſitio quarta.
 
 Si cubus numerus cubum numerum multiplicans aliquem fecerit, factus cubus erit.
@@ -8,6 +10,8 @@ Si cubus numerus cubum numerum multiplicans aliquem fecerit, factus cubus erit.
 Cubus numerus A cubum B multiplicans aliquem G faciat, per ſeipſum verò idem A faciat D, Dico G cubum eſſe. Quoniam autẽ A duos A & B multiplicans aliquos D & G facit, erit (per 17 ſeptimi) D ad G vt A ad B, ſed quia duorum A & B cuborum duo ſunt medij, per 12 octaui. Inter eandem itaque rationem habentes D & G duo cadent medij, per 8 octaui. Sed D cubus eſt, per præcedẽtem: nam ex A cubo factus. Si igitur quatuor proportionalium primus D cubus fuerit, & quartus G cubus erit, per 23 octaui. Si itaque cubus numerus, &c.
 
 [Diagram: horizontal lines labelled A 8, D 64, 12, 96, 18, 144, B 27 and G 216]
+
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
 
 ## Propoſitio quinta.
 
@@ -17,9 +21,11 @@ Cubus numerus A aliquem B multiplicans cubum faciat G: Dico B cubum eſſe. Mult
 
 [Diagram: horizontal lines labelled A 8, D 64, B 27 and G 216]
 
-## Corollarium.
+### Corollarium.
 
 Hinc ſequitur, ſi cubus non cubum multiplicet, ipſe non cubum faciet. Nam ſi cubum faceret, & multiplicatus cubus eſſet, contra hypotheſim, quod incõueniret, per hanc: ſupponitur enim non cubus. Si verò cubus aliquem multiplicans non cubum fecerit, nec aliquis ille cubus erit. Nam ſi ille aliquis cubus eſſet, factus ſimiliter eſſet cubus, per quartam huius, contra hypotheſim, quod fieri non poteſt.
+
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
 
 ## Propoſitio ſexta.
 
@@ -28,6 +34,8 @@ Si numerus ſeipſum multiplicans cubum fecerit, & ipſe cubus erit.
 Numerus A ſeipſum multiplicans faciat cubum B: Dico & A cubũ eſſe, multiplicans A cubum B faciat G: cubus erit ipſe G, per 20 diffinitionem ſeptimi, ex tripla ipſius A multiplicatione factus. Quoniam autem A duos A & B multiplicans pſos B & G fecit, erit G ad B, vt B ad A, per 17 ſeptimi. Sed ſi bini B ad A rationem habeant quã cubus ad G cubum B, primus verò B cubus fuerit, & ſecundus A cubus erit, per 25 octaui. Si igitur numerus, &c.
 
 [Diagram: horizontal lines labelled A 8, B 64 and G 512]
+
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
 
 ## Propoſitio ſeptima.
 

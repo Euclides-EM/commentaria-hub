@@ -8,6 +8,10 @@ vigesimamprimam huius tertij:sunt enim in eodem segmẽto b/a/d/c. Angulo rursum
 
 [Diagram: b c a d]
 
+[Curated heading level=2 type=propositions: Theorema 21, Propositio 23.]
+
+[Curated heading level=2 type=theorems: Theorema 21, Propositio 23.]
+
 ## Θεώρημα κα, Πρόθεσις κγ.
 
 Επὶ τῆς ἀυτῆς ἐυθείασ' δύο τμήματα κύκλωρ ὅμοια καὶ ἄνισα, ὀυ συσαθήσονται ἐπὶ τὰ ἀυτὰ μέρη.
@@ -19,6 +23,10 @@ SVper eadem recta linea, duæ sectiones circulorum similes, & inæquales non con
 ORONTIVS. ¶Super eadem nanque recta linea a/c, binæ & inæquales circulorum sectiones, a/b/c/quidem maior, minor autem a/d/c, ad easdem partes b, d/constituantur. Dico q̃ ipsæ sectiones nó sunt similes, & simul inæquales. Si enim id fuerit possibile: extendatur recta quædam linea a/d/b, quæ secet vtranq; sectionem, maiorem quidem in b, & ipsam minorẽ in d:& connectantur b/c, & c/d/rectæ, per primum postulatũ. Triangulum erit igitur b/c/d: cuius vnum latus b/d, producitur in a. exterior igitur angulus a/d/c, interiore & ex opposito c/b/d/maior est, per decimamsextam primi. Quòd si segmentum a/d/c/, fuerit ipsi a/b/c/simile:æquus erit angulus a/d/c, eidem angulo c/b/d, per vltimam huius tertij diffinitionem. similes nanq; sectiones circuli sunt, quæ angulos æquos suscipiũt. Esset igitur angulus a/d/c, maior angulo c/b/d, atq; eidem æqualis:quod est impossibile. Super eadem itaq; recta linea, duæ sectiones circulorum similes, & inæquales non constituẽtur ad easdem partes. Quod ostendere fuerat operæpretium.
 
 [Diagram: a b d c]
+
+[Curated heading level=2 type=propositions: Theorema 22, Propositio 24.]
+
+[Curated heading level=2 type=theorems: Theorema 22, Propositio 24.]
 
 ## Θεώρημα κβ, Πρόθεσις κδ.
 

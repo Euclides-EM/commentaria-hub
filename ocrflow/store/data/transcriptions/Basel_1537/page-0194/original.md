@@ -20,6 +20,8 @@ CAMPANVS. Multiplicet a utrunq̃ duorum numerorū b & c, & proueniant d & e. Dic
 
 [Diagram: dot-rows in the right margin, d and e in one row; below, b and c; below, a (2 dots); below, a single dot above the word Vnitas]
 
+[Curated heading level=2 type=theorems: Theorema 15 Propositio 17]
+
 ## Eucli.ex Zamb. Theorema 15 Propositio 17
 
 [Curated heading level=3 type=zamberti_sequence: 17.]

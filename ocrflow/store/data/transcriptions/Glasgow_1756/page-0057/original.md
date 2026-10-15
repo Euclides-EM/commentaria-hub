@@ -1,6 +1,10 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 42 -->
 
+[Curated heading level=2 type=propositions: PROP. XXXIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXIX. THEOR.]
+
 ## PROP. XXXIX. THEOR.
 
 {dropcap:T|lines=2|style=plain}RIANGULA aequalia ſuper eadem baſi, et ad eaſdem partes conſtituta, in eiſdem ſunt parallelis.
@@ -24,6 +28,10 @@ b. 37. 1.
 [/Margin]
 
 ſuper eadem enim eſt baſi BC, et in eiſdem parallelis BC, AE. ſed ABC triangulum triangulo DBC eſt aequale; ergo et triangulum DBC aequale eſt EBC triangulo, majus minori, quod fieri non poteſt. Non igitur AE ipſi BC parallela eſt. ſimiliter oſtendemus neque aliam quampiam parallelam eſſe, praeter ipſam AD; ergo AD ipſi BC eſt parallela. Triangula igitur aequalia &c. Q. E. D.
+
+[Curated heading level=2 type=propositions: PROP. XL. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XL. THEOR.]
 
 ## PROP. XL. THEOR.
 

@@ -4,9 +4,15 @@ Proponatur octahedrum A B C D F E, Ipſi verò inſcriptus cubus eſto G H I K V
 
 [Figure: octahedron with inscribed cube, points labelled A, L, G, M, P, I, O, B, C, N, T, X, D, S, F, V, Q, R, E]
 
-## Corollarium.
+### Corollarium.
 
 Octahedrum & ſibi inſcriptus Cubus rationem quam latera potentia habent. Nam 14 huius latus octahedri quadruplum ſeſquialterum potuit lateris ſibi inſcripti cubi.
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimanona.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimanona. Problema 5.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio vigeſimanona.]
 
 ## Propoſitio vigeſimanona. Problema 5.
 

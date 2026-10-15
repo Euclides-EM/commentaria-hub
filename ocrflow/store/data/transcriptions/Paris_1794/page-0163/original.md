@@ -3,6 +3,10 @@
 
 scrit sera toujours le même, ainsi que la surface du polygone ; car quel que soit l’ordre des arcs AB, BC, etc., il suffit que leur somme fasse la demi-circonférence, et le polygone aura toujours la même surface, puisqu’il sera égal au demi-cercle moins les segments AB, BC, etc., dont la somme est toujours la même.
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VI.]
+
 ## PROPOSITION VI.
 
 ### THÉORÊME.

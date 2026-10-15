@@ -1,5 +1,7 @@
 <!-- Running title: D'EVCLIDE, LIV. III. -->
 
+[Curated heading level=2 type=definitions: DEF. X.]
+
 ### X.
 
 Semblables segments ou sections de cercles sont celles, qui reçoiuent angles égaux ; ou esquels les angles sont égaux entr'eux.
@@ -10,6 +12,10 @@ hyp. | ∠abc 2|2 ∠def,
 10.d.1 | *ſegm.* abc *ſml. ſegm* def.
 
 De cette definition s'ensuit, que les segments semblables sont pareilles parties de leur tout, cōme le segment qui est le quart d'vn petit cercle est sēblable au segmēt qui est le quart d'vn grād cercle.
+
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. I.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. I.]
 
 ## THEOR{printer-error-correction:PROBL}. I. PROPOS. I.
 

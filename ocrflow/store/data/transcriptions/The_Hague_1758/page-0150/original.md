@@ -5,6 +5,10 @@
 
 [Diagram: Fig. 1. circle with two diameters AB and DE crossing at centre F; Fig. 2. circle with diameter AB, chord DE crossing it at F, centre C joined to E by a dotted line]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXV. THEOREME XXIX.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIX. PROPOSITION XXXV.]
+
 ## PROPOSITION XXXV. THEOREME XXIX.
 
 {dropcap:S|lines=2|style=plain}I dans un cercle (DAEB) deux cordes (AB, DE) s’entrecoupent: le rectangle compris des deux parties (AF, FB) de l’une, eſt égal au rectangle compris ſous les deux parties (DF, FE) de l’autre.

@@ -8,6 +8,8 @@ CAMPANVS. Si hæc quoque fuerit linea a b linea maior diuisa secundum terminum s
 
 [Diagram: rectangle divided by three horizontal lines into four bands; labelled down the right side g, q, n, l, f (g top corner, f bottom corner); on the left side e at the bottom corner, m opposite n, and a small mark (l?) opposite q]
 
+[Curated heading level=2 type=theorems: Theorema 45 Propositio 63]
+
 ## Eucli.ex Zãb. Theorema 45 Propositio 63
 
 [Curated heading level=3 type=zamberti_sequence: 63.]

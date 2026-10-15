@@ -23,6 +23,10 @@ arbitr. | fg, est 10.
 β.12.6 | ef, est √.180.
 2.a.1 | eg, est 10 + √.180,
 
+[Curated heading level=2 type=propositions: PROBL. XV. PROPOS. LI.]
+
+[Curated heading level=2 type=problems: PROBL. XV. PROPOS. LI.]
+
 ## PROBL. XV. PROPOS. LI.
 
 Inuenire ex binis nominibus tertiam.

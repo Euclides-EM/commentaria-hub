@@ -3,6 +3,10 @@
 
 [Diagram: two parallel planes drawn in perspective; upper plane SF containing line AB with point H, lower plane RF containing line CD with point K; line EF between them, with dotted line from H through G to K]
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. THEOREME IX.]
+
+[Curated heading level=2 type=theorems: THEOREME IX. PROPOSITION IX.]
+
 ## PROPOSITION IX. THEOREME IX.
 
 {dropcap:L|lines=2|style=plain}Es lignes (AB & CD) qui ſont paralleles à une même ligne (EF) quoique ſituées dans les Plans differents (SF & RF); ſont paralleles entr'elles.

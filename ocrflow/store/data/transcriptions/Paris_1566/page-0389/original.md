@@ -6,9 +6,11 @@ Eſto octahedrum A B C D, pyramis verò E F G H, ſuper cuius baſi F G H erecti
 
 [Diagram: pyramid with internal lines, labelled E, F, G, H]
 
-## Corollarium.
+### Corollarium.
 
 Pyramidis & Octahedri, proportionalia ſunt latera verticibus. Nam latera ac vertices ſeſquitertia fuêre potentia, inſuper dimetiens ſphæræ ad pyramidis latus, vt octahedri latus ad cubi latus, nempe ſeſquialtera (ex 18 decimitertij) fuerunt potentia.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
 
 ## Propoſitio decimaquinta.
 

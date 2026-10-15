@@ -6,6 +6,8 @@ nullo modo ſecet. Nã propterea quod quadratũ rectæ B D, æquale eſt rectang
 
 [Curated heading level=2 type=campanus: 11]
 
+[Curated heading level=2 type=problems: PROBL. 11. PROPOS. 11.]
+
 ## PROBL. 11. PROPOS. 11.
 
 [Margin]

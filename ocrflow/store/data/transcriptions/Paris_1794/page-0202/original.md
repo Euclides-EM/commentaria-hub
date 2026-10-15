@@ -11,6 +11,10 @@ les mêmes angles solides\*. Donc deux prismes sont égaux, etc.
 
 *Scholie.* Un prisme est entièrement déterminé lorsqu’on connoît sa base ABCDE et que l’arête BG est donnée de grandeur et de position. Car si par le point G on mène GF égale et parallèle à AB, GH égale et parallèle à BC, et que dans le plan FGH parallèle à ABC on décrive le polygone FGHIK égal à ABCDE, il est clair que tous les angles du prisme seront déterminés. Donc deux prismes construits avec les mêmes données ne peuvent être inégaux ; ce qui confirme la proposition que nous venons de démontrer.
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IV.]
+
 ## PROPOSITION IV.
 
 ### THÉORÊME.

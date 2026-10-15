@@ -2,6 +2,10 @@
 
 *Il est manifeste aussi qu'vne grandeur qui mesure trois grandeurs, mesure aussi la plus grande commune mesure d'icelles.*
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. V.]
+
 ## THEOR. III. PROPOS. V.
 
 Commensurabiles magnitudines inter se rationem habent, quam numerus ad numerum.
@@ -35,6 +39,10 @@ Demonstr.
 c.4.5 | a π c 2|2 d π f,
 β.1c20.d7 | c π b 2|2 f π e,
 concl. 22.5 | a π b 2|2 f π e.
+
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. VI.]
 
 ## THEOR. IV. PROPOS. VI.
 

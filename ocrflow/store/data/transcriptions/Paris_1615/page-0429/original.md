@@ -8,6 +8,10 @@ Soit AB 2, & BC√3 :’la toute AC ſera 2—√3, & ſon quarre eſt 7√48.
 
 Or il appert de ce que deſſus, que de deux lignes rationeles comen puiſſance ſeulement, ſont procrees deux lignes irrationeles. Car la ligne moyenne prop. entre icelles rationeles est irrationele par la A. de ce liure, laquelle eſt appellee mediale. Et la compoſee d’icelles, par la 37.p.10. eſt vne irrationele, qui est dite binome.
 
+[Curated heading level=2 type=propositions: THEOR. 26. PROP. XXXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 26. PROP. XXXVIII.]
+
 ## THEOR. 26. PROP. XXXVIII.
 
 Si deux lignes mediales commenſurables en puiſſance ſeulement; comprenant vn rectãgle rationel ſont aſſemblees, la toute ſera irrationelle: ſoit icelle appellee bimedialle premiere.

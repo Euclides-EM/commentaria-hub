@@ -3,6 +3,10 @@
 
 [Figure: two parallelepipeds lettered E, F, G, H, I and D, K, L, M, N, with three horizontal lines labelled A, B and C above, all within a double-ruled frame]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXVI. THEOREME XXXI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXI. PROPOSITION XXXVI.]
+
 ## PROPOSITION XXXVI. THEOREME XXXI.
 
 {dropcap:S|lines=2|style=plain}I trois lignes droites (A, B & C) ſont en proportion: le paralelipipéde (DN) conſtruit de ces trois lignes, ſera égal au paralelipipéde équiangle (EI) conſtruit avec la moyenne (B).

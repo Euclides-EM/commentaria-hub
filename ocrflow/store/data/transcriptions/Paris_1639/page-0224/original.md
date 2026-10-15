@@ -22,6 +22,10 @@ Ceste proposition est de soy manifeste, neantmoins pour la demonstrer par la 6 d
 
 Si au lieu de l'equimultiple F on prend deux equimultiples, on demonstrera par la mesme methode que les grandeurs égales ont mesme raison à d'autres grandeurs égales.
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. VIII.]
+
 ## THEOR. VIII. PROPOS. VIII.
 
 Des grandeurs inégales, la plus grande a plus grande raison à vne mesme que la plus petite: Et vne mesme grandeur a plus grande raison à la plus petite grandeur qu'à la plus grande.

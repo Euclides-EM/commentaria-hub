@@ -5,6 +5,10 @@ Proponatur dodecahedrum A B G D F S O, cuius latus ſit A S vel S O, ſibi verò
 
 [Figure: pentagon of a dodecahedron with inscribed icosahedron lines, points labelled A, R, C, K, S, L, I, B, F, O, E, N, H, G, M, D]
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquarta.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio vigeſimaquarta.]
+
 ## Propoſitio vigeſimaquarta.
 
 Si lateris icoſahedri dimidia extrema & media ratione ſecta fuerit, minúſque ſegmentum eius à toto latere tollatur, Reliquæ verò tertia pars rurſus auferatur, quæ ſupereſt, æqualis erit lateri Dodecahedri ipſi Icoſahedro inſcripti.

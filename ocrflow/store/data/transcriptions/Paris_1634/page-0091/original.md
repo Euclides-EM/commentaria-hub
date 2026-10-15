@@ -32,6 +32,10 @@ Coroll.
 2.concl. 8.a.1. | <c 2|2 <f,
 3.concl. 8.a.1. | △abc 2|2 △def.
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. IX.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. IX.]
+
 ## PROBL. IV. PROPOS. IX.
 
 Datum angulum rectilineum bifariam secare. | Coupper en deux également vn angle rectiligne döné.

@@ -9,6 +9,10 @@ u. | db | 1/6 ab | n. Anh. 7. V.
 
 Ist also von dem Strich ab desselben Sechster Theil db abgeschnitten. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der X. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 2. Werck-Stück. Der X. Vortrag.]
+
 ## Der X. Vortrag.
 
 ## Das 2. Werck-Stück.

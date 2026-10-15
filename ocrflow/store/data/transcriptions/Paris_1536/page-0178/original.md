@@ -16,6 +16,10 @@ ipsius g/ ad h : veluti quinta huius sexti præmissum eſt diffinitione . Et pro
 
 [Diagram: a b c d e f g h]
 
+[Curated heading level=2 type=propositions: Theorema 18, Propositio 24.]
+
+[Curated heading level=2 type=theorems: Theorema 18, Propositio 24.]
+
 ## Θεώρημα ιη, Πρόθεσις κδ.
 
 Παντὸς παραλληλογράμμου, τὰ περὶ τὴν διάμετρον παραλληλόγραμμα,ὅμοια ἐστὶ τῷ τε ὅλῳ καὶ ἀλλήλοις.

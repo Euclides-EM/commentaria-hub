@@ -11,6 +11,10 @@ eſt ſolido BA, ſolidum vero DZ eſt aequale ſolidoᵍ DC, ſiquidem in iiſd
 
 Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXXV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXV. THEOR.]
+
 ## PROP. XXXV. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint duo anguli plani aequales, et in ipſorum verticibus ſublimes rectae lineae inſiſtant, quae cum rectis lineis a principio poſitis angulos contineant aequales, alterum alteri; in ſublimibus autem ſumantur quaevis puncta, atque ab ipſis ad plana in quibus ſunt anguli, perpendiculares ducantur; et a punctis quae a perpendicularibus fiunt in planis, ad primos angulos jungantur rectae lineae; hae cum ſublimibus aequales angulos continebunt.

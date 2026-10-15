@@ -6,6 +6,10 @@
 
 Si les mediales DC, CB commenſ. en longitude ſont√√2 &√√32: Ie nctangle d’icelles, ſçauoir DB, ſerat√64.c’eſt à dire √s, qui eſt medial.
 
+[Curated heading level=2 type=propositions: THEOR. 23. PROP. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. 23. PROP. XXVI.]
+
 ## THEOR. 23. PROP. XXVI.
 
 Le rectangle compris de deux lignes mediiiles commenſurables en puiſſance ſeulement, eſt rationel ou medial.

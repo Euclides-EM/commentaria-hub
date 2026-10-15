@@ -12,6 +12,8 @@ CAMPANVS. Sint duo quadrati a & b, & duo cubi c,& d, latera tam quadratorū quà
 
 [Diagram: numbers as horizontal rows of dots, labelled c; a; e and b; g; f and k; b; d]
 
+[Curated heading level=2 type=theorems: Theorema 9 Propositio 11]
+
 ## Eucli.ex Zamb. Theorema 9 Propositio 11
 
 [Curated heading level=3 type=zamberti_sequence: 11.]
@@ -25,6 +27,8 @@ Duorum numerorum quadratorum, unus medius proportionalis est numerus, Et quadrat
 THEON ex Zamberto. Sint quadrati numeri α,β,& ipsius quidem β, latus sit γ, ipsius uero β, sit latus δ. Dico quod ipsorum α,β, mnus medius proportionalis est numerus, & α, ad β, duplam habet rationem quàm γ, ad δ. Ipse enim γ, ipsum δ, multiplicans, ipsum efficiat ε. Et quoniā α, quadratus est, latus autem eius est γ, igitur γ, seipsum multiplicans ipsum effecit α, id propterea & δ, seipsum multiplicans ipsum β fecit, Quoniam igitur γ, utrunque ipsorum γ, δ, multiplicans utrunque ipsorum α,ε, effecit, est igitur (per 17 septimi,) sicut γ ad δ, sic est α, ad ε. Rursus quoniam γ, ipsum δ, multiplicans ipsum effecit ε, ut δ, seipsum multiplicans ipsum effecit β, duo iam numeri γ,δ, unum & eundem multiplicantes δ, ipsos ε,β, effecerunt. Est igitur (per 18 septimi,) sicut γ ad δ, sic est ε ad β. Sed sicut γ ad δ, sic est α ad ε,) & sicut igitur (per 11 quinti) α ad ε, sic est ε ad β. Ipsorum igitur α,β, unus medius proportionalis est numerus ε. Dico iam quod & α ad β, duplam rationem habet, quàm γ ad δ. Quoniam enim tres numeri proportionales sunt α,ε,β, igitur (per 10 diffinitionem quinti) α ad β, duplam rationem habet quàm α ad ε. Sicut autem α ad ε, sic γ ad δ, Igitur α ad β, duplam rationem habet, quàm γ latus ad δ lat us, quod oportuit demonstraße.
 
 [Diagram: numbers as horizontal rows of dots, labelled α; γ; ε; δ; β]
+
+[Curated heading level=2 type=theorems: Theorema 10 Propositio 12]
 
 ## Eucli.ex Zamb. Theorema 10 Propositio 12
 

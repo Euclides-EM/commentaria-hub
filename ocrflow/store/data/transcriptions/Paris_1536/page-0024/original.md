@@ -10,6 +10,8 @@ In quibus videlicet nulla oppoſitorum vel laterum, vel angulorũ ſimul obſeru
 
 [Curated heading level=3 type=numbered_item: 35.]
 
+[Curated heading level=2 type=definitions: Diffinitio 35. Parallelarum linearum diffinitio vltima]
+
 Parallelæ rectæ lineæ ſunt quæ in eodem exiſtentes plano, & ex vtraque parte in infinitum productæ, in nulla parte concurrunt. 35
 
 [Diagram: a e b / c f d]
@@ -30,6 +32,10 @@ SECVNDO LOCO, SESE OFFERVNT POSTVLATA: QVAE petitiones à nõnullis adpellãtur.
 
 [Curated heading level=3 type=numbered_item: 1.]
 
+[Curated heading level=1 type=postulates: LIBER I.]
+
+[Curated heading level=2 type=postulates: Poſtulatum 1.]
+
 Ab omni puncto in omne punctum, rectam lineam dúcere 1
 
 [Diagram]
@@ -39,6 +45,8 @@ Poteſt enim datum quodcunq̃ punctum, in aliud quodlibet punctum, etiam vbilibe
 Καὶ πεπερασμένην ευθεῖαν κατὰ τὸ συνεχὲς ἐπ' ευθείας ἐκβάλλειν.
 
 [Curated heading level=3 type=numbered_item: 2.]
+
+[Curated heading level=2 type=postulates: Poſtulatum 2.]
 
 Rectam lineam terminatã, in continuum rectúmq; producere. 2
 
@@ -50,6 +58,8 @@ Nam vtrunq̃ punctum ipſius datæ rectæ lineæ terminatiuum, per rectum eiuſd
 
 [Curated heading level=3 type=numbered_item: 3.]
 
+[Curated heading level=2 type=postulates: Poſtulatum 3.]
+
 Omni centro & interuallo circulum deſcribere. 3
 
 [Diagram]
@@ -59,5 +69,7 @@ Hoc eſt, licet vbicunque volueris centrum deſignare circuli, & circa idem cent
 Καὶ πάσαι αἱ ὀρθαὶ γωνίαι ἴσαι ἀλλήλαις ἐισί.
 
 [Curated heading level=3 type=numbered_item: 4.]
+
+[Curated heading level=2 type=postulates: Poſtulatum 4.]
 
 Omnes angulos rectos adinuicẽ æquales eſſe. 4

@@ -27,6 +27,10 @@ Cor. Ex hoc manifeſtum eſt, ſi trianguli unus angulus ſit aequalis duobus re
 c. Def. 10. 1.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. XXXII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXII. THEOR.]
+
 ## PROP. XXXII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I circulum contingat quaedam recta linea, a tactu autem ducatur recta linea circulum ſecans; anguli quos ad contingentem facit, aequales erunt iis qui ſunt in alternis circuli ſegmentis.

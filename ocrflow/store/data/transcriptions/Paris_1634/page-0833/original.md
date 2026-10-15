@@ -9,6 +9,10 @@ Demonstr.
 9. 13 | ae π be 2|2 be π bf,
 concl. 19. 5 | be π bf 2|2 bf π fe.
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. X.]
+
 ## THEOR. X. PROPOS. X.
 
 Si in circulo pentagonum æquilaterum describatur; pentagoni latus potest & latus hexagoni, & latus decagoni, in eodem circulo descriptorum.

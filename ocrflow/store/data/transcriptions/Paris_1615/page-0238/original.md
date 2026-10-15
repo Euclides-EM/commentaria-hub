@@ -8,6 +8,10 @@ Soit riree la plus grande commune meſure des deux A, & B. par la 2.p.7. ſçau
 
 Par cecy eſt manifeſte qu’vn nombre qui en meſure trois, meſurera auſſi la plus grande commune meſure d’iceux. En la meſme maniere, eſtans donnex plus de trois nombres non premiers entr'eux, ſera trouuee leur , lus grande commune meſure, & aura auſſi lieu le meſme corol.
 
+[Curated heading level=2 type=propositions: THEOR. 2. PROP. IIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 2. PROP. IIII.]
+
 ## THEOR. 2. PROP. IIII.
 
 Tout nombre moindre, eſt partie ou parties de tout nombre plus grand.

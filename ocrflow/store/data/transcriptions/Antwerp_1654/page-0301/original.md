@@ -1,6 +1,8 @@
 <!-- Page number: 268 -->
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO X.]
+
 ## PROPOSITIO X.
 
 {dropcap:O|lines=2|style=plain}Mnis conus tertia pars eſt cylindri eandem baſim & altitudinem habentis.
@@ -13,6 +15,8 @@ c per poriſ. vniu.poſt 2. l.12.
 [/Margin]
 
 Baſi C L intelligatur inſcribi polygonũ regulare quotcunque laterum, & ſuper illo tanquam baſi, cono quidem pyramis, cylindro autẽ priſma inſcribi. Erit pyramis a tertia pars priſmatis. Et ſi rurſum inſcribatur circulo polygonum laterum duplo plurium, ſuperq́ue eo inſcribatur cono pyramis & cylindro priſma; iterum erit pyramis tertia pars priſmatis; Atque hoc ſemper eueniet, Quare cum pyramides in conum, b priſmata in cylindrum deſinant, etiam c conus tertia pars cylindri erit. Quod erat demonſtr.
+
+[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO XI.]
 
 ## PROPOSITIO XI.
 

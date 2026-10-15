@@ -10,6 +10,10 @@ Car eſtans tirees les lignes droictes CE, CF; les deux coſtez EG & GC du trian
 
 Au lieu de prendre le poinct D, de l’autre coſté de la ligne AB. Daunot dit qu’on le prenne à l’aduonture dans icelle AB, & que deſcriuant vn cercle du centre C & interuale CD, il couppera la ligne AB: ce qui n’eſt pas vniuerſellement vray, car il eſt manifeſte que ſi le poinct D eſtoit pris d’auanture en G, le cercle ne coupperoit AB en deux endroits, commc il eſt neceſſaire, ains la toucheroit ſeulement: le poinct D ne doit donc eſtre pris à l’auanture dans la ligne AB, comme veut Dounot.
 
+[Curated heading level=2 type=propositions: THEOR. 6. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 6. PROPOS. XIII.]
+
 ## THEOR. 6. PROPOS. XIII.
 
 Quand vne ligne droite tombant ſur vne autre ligne droite fait deux angles, ou iceux ſeront droits, ou egatix à deux droits. Soit la ligne droite AB, laquelle tombant ſur vné autre ligne droite CD, faict les deux angles CBA, & DBA. Ie dis que iceux augles ſont droicts, ou egaux à deux droicts.

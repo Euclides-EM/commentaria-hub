@@ -4,6 +4,8 @@
 
 duobus rectis, quod est propositum. Ex quo patet totum spatium quod in qualibet superficie plana punctum quodlibet circumstat, quatuor rectis angulis esse æquale.
 
+[Curated heading level=2 type=theorems: Theorema 6. Propositio 13.]
+
 ## Eucli. ex Zamb. Theorema 6. Propositio 13.
 
 [Curated heading level=3 type=zamberti_sequence: 13.]
@@ -31,6 +33,8 @@ THEON ex Zamb. Recta enim linea quædam α β, super rectam lineam γ δ consist
 CAMPANVS. Sit ut à puncto b lineæ a b, exeant duæ lineæ in oppositas partes, quæ sint b c & b d, & faciant duos angulos qui sint c b a & d b a, æquales duobus rectis: tunc dico quod duæ lineæ c b & d b, sunt sibi inuicem directè cōiunctæ & linea una. Hæc est quasi conuersa prioris. Quod si non fuerint linea una, tūc protrahatur c b in continuū & directū, quæ quia non est linea una cum b d, transibit super eam ut b e, aut sub ea ut b f. Quia ergo super lineā rectam quæ est c b e, cadit linea a b, erūt anguli c b a & e b a æquales duobus rectis per præcedentē, anguli quoq̃ c b a & d b a sunt æquales duobus angulis rectis per hypothesin, erūt duo anguli c b a & e b a æquales duobus angulis c b a & d b a: ergo dempto cōmuni angulo c b a, erit angulus e b a æqualis āgulo d b a, pars toti, q̃d est impossibile. Similiter linea c b protracta, probabis angulū d b a esse æqualem angulo f b a, si forte diceret aduersarius lineam c b protractam cadere infra b d.
 
 [Diagram: from the point b the line b a rises vertically, the line b c goes horizontally to the right, and three lines b e, b d, b f descend to the left one below the other]
+
+[Curated heading level=2 type=theorems: Theorema 7. Propositio 14.]
 
 ## Eucli. ex Zamb. Theorema 7. Propositio 14.
 

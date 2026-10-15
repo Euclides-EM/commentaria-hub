@@ -2,6 +2,8 @@
 
 huiuſmodi problemate diſquirendo, quouis vſu mechanico poſtpoſito. Quoniam autem pauca propoſuit Euclides de ratione reciproca quam diffinientes Campanus & Theon longè à vero ſenſu traditam reliquerunt, nos diſcentium exercitio conſulentes, aliqua theoremata huius rationis enunciata ſelegimus.
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquinta.]
+
 ## Propoſitio trigeſimaquinta.
 
 Si binæ rectæ lineæ ſeſe ad obtuſum angulum ſecuerint, à ſecantium autem limitibus perpendiculares ſibi inuicem demittantur, quæ inter limites & perpendiculares, reciprocè proportionales ſectæ ſunt.
@@ -10,6 +12,8 @@ Sint binæ lineæ AB GD angulum obtuſum in ſectione E efficientes: ab ipſarum
 
 [Diagram: lines labelled A, B, D and G intersecting at E]
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſexta.]
+
 ## Propoſitio trigeſimaſexta.
 
 Si duæ rectæ lineæ angulum acutum componant, ab earum autem limitibus in ſeipſas perpendiculares ſecantes mittantur, ipſæ vt ſegmenta quæ circa angulum ſunt, reciprocè erunt proportionales.
@@ -17,6 +21,8 @@ Si duæ rectæ lineæ angulum acutum componant, ab earum autem limitibus in ſei
 Sint binæ rectæ AB GB, angulum acutum ABG componentes: à ſignis autem A & G perpendiculares ipſas ſecãtes, mittantur AC & GE: Dico ipſas AB ad GB vt ſegmenta CB ad EB, quæ circa angulum ſunt, reciprocè proportionales eſſe. Quoniam enim recti ACB, GEB anguli ſunt æquales, communis autem ABG, triangulorum ABC, GBE, reliqui BAC, EGB æquales erunt, per corollarium 32 primi. Æquiangula igitur ſunt ABC & GBE triangula: circum æquales igitur angulos latera proportionalia AB ad BC, ſicut GB ad BE, per 4 ſexti. Viciſſim igitur erit AB ad GB, ſicut CB ad EB, per 16 quinti. Si duæ itaque lineæ rectæ, &c.
 
 [Diagram: intersecting lines labelled A, B, C, E and G]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſeptima.]
 
 ## Propoſitio trigeſimaſeptima.
 

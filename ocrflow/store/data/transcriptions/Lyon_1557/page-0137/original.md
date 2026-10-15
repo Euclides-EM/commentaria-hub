@@ -17,6 +17,10 @@ Sint quatuor Quantitates, A prima, B ſecunda: C D tertia, & E quarta: ſintq́;
 
 Si enim fuerit æqualis: fiet vt G ſuperet K, per conuerſionem ſextæ Definitionis: quod eſt contra hypotheſin. Si autem minor: ponatur C L ad E ſicut A ad B. Eritq́; per huius decimam, C L minor C D. Et ſit minor in quantitate L D. Ponam igitur vt M N ſit ita multiplex C L, & N P ita multiplex L D, ſicut F eſt multiplex A. Eritq́;, per primam huius, M P ita multiplex C D vt F eſt multiplex A. Vtraq́; igitur duarum Quantitatū M P & G, eſt æquemultiplex Quantitatis C D: quapropter ipſæ inter ſe æquales, per ea quæ demonſtrata ſunt in ſeptima huius. Et quia G non eſt maior K, non erit M P maior eadem. Sed per conuerſionem ſextæ Definitionis, M N eſt maior K: quum F ſit maior H. Maior igitur M N, ipſa M P, Quod fieri non poteſt. Quare conſtat propoſitio. Hæc ille. Sed ne hæc quidem Demonſtratio quicquam habet egregium. Probat enim quod probatione non indiget, immò quod iam ſæpe in probationem aſſumpſimus ſuperiorum Theorematum. Prior tamen non contemnenda: quòd oſtendat rationem ſic conſtituendorum Æquemultiplicium, vt multiplex primæ ſuperet multiplex ſecundæ, ſed multiplex tertiæ non ſuperet multiplex quartæ.
 
+[Curated heading level=2 type=propositions: THEOREMA 14, PROPOSITIO XIIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 14, PROPOSITIO XIIII.]
+
 ## THEOREMA 14, PROPOSITIO XIIII.
 
 Si primæ ad ſecundam eadem fuerit ratio quæ tertiæ ad

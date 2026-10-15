@@ -19,6 +19,10 @@ suppos. | c, est ma.c.me.. ae & b, β
 γ.1.a.1 3.concl. | de est par.. b, δ
 δ | ae u a est part..b,
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. V.]
+
 ## THEOR. III. PROPOS. V.
 
 Si numerus numeri pars fuerit, & alter alterius eadem pars : & simul vterque vtriusque simul eadem pars erit, quæ vnus vnius.

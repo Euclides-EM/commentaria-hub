@@ -17,6 +17,10 @@ Hoc volui adijcere, vt Geometriæ candidati, Propoſitiones variè inuentas & en
 
 HANC NOSTRAM poteramus in locum ſequentis ſubſtituere, quum eſſet locupletior. Datur enim linea: præter id quòd ſequens ipſa vacare videtur, vt quæ ex antecedente ſatis patêret: niſi fortè quòd Rectilinea in Triangula reſoluere monet. Ob id, à nonnullis omiſſa eſt, vt à Campano. Eam tamen è loco non mouimus. Nihil enim in præſens de noſtro in ordinem redigere conſtituimus.
 
+[Curated heading level=2 type=propositions: PROBLEMA 13, PROPOSITIO XLV.]
+
+[Curated heading level=2 type=problems: PROBLEMA 13, PROPOSITIO XLV.]
+
 ## PROBLEMA 13, PROPOSITIO XLV.
 
 Dato Rectilineo æquale Parallelogrammum conſtituere, habens angulum angulo dato æqualem.

@@ -3,9 +3,13 @@
 
 tur oſtendemus reliquos vndecim icoſahedri ſolidos angulos, æquos & ſimiles ipſi z (per decimamſextam decimitertij) ſubtenſos eſſe ſimilibus & æquis pentagonis, & ſimiliter conſtitutis ipſi ITKML. Quorum cùm communia latera ſint rectæ centra baſium icoſahedri coniungentes, ſequetur duodecim illa pentagona ſolidum concludere, quod ideo dodecahedrum erit, per 23 diffinit. vndecimi. Icoſahedro cuius quinque latera pentagono ABGDE concipiuntur deſcriptum. In dato itaque icoſahedro dodecahedrum inſcripſimus.
 
-## MONITVM.
+### MONITVM.
 
 Hactenus quæ ab Euclide tradidit Ypſicles diximus, quinque ſcilicet problemata eouſque ſuccincta vt obſcuriora euaſerint, quorum ideo demonſtrationes variare cogimur, maximè huius quintæ præcipuam partem à Campano relictam, ab Ypſicle verò nõ plenè oſtenſam, ſcilicet conſtructum pentagonum in eodem degere plano, præcipuum inquam ſolidis conſtruendis probandum, eorum facies planas eſſe. Præterea quæ demonſtrat Ypſicles ea ſæpius arte tradit qua effectum proponens cauſam recludit, ac ſi ab quodam auditum receperit effectum qui cauſam ignoraret, non tamen ideo Ypſiclem magni nominis virum id ignoraſſe dicemus, ſed forſan quadam incuria aut temporum iniuria veluti ſi ignoraſſet ad vos perueniſſe. Quæ vt clarius reſonemus in prolixitatis quandam nos perduxerunt ſpeciem.
+
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
+
+[Curated heading level=2 type=problems: Propoſitio ſexta. Problema 6.]
 
 ## Propoſitio ſexta. Problema 6.
 
@@ -15,11 +19,11 @@ Eſto propoſitum octahedrum ABGDEI, cui inſcribenda ſit pyramis, ſumantur oc
 
 [Figure: octahedron inscribed in a square frame with internal lines, labelled A, H, F, G, E, L, N, I, K, C, B, D]
 
-## Corollarium.
+### Corollarium.
 
 Pyramidis octahedro inſcriptæ baſes, baſibus octahedri ſunt parallelæ. Cùm enim latera baſis pyramidis ſeſe tangentia, lateribus octahedri ſeſe tangentibus ſint parallela, vt fuit HL lateri GI, parallela ſunt per ipſis plana, per decimamquintam vndecimi.
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 Recta coniungens centra oppoſitarum octahedri baſium, ſeſquialtera eſt perpendicularis ab angulo inſcriptæ pyramidis in baſim. Cùm enim pyramis & eam continens cubus ad eadem ſigna terminent angulos, ex prima huius, vtraque eodem claudentur octahedro per quartam huius.
 

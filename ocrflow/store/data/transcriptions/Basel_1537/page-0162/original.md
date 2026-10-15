@@ -6,6 +6,8 @@ CAMPANVS. Sit proportio lineæ a ad lineam b, sicut lineæ b ad lineam c, dico q
 
 [Diagram: three horizontal line segments a, b, c of decreasing length; to the right a tall rectangle labelled a and a square labelled c meeting at a corner point labelled b]
 
+[Curated heading level=2 type=theorems: Theorema 12 Propositio 17]
+
 ## Eucli. ex Zamb. Theorema 12 Propositio 17
 
 [Curated heading level=3 type=zamberti_sequence: 17.]

@@ -23,6 +23,10 @@ constr. | <gfh 2|2 <gfe,
 α | gd 3|2 ge, β
 5.concl. β | gh, ge, gd ñ snt 2|2 ⁊e
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. VIII.]
+
 ## THEOR. VII. PROPOS. VIII.
 
 Si extra circulum sumatur punctum quodpiam, ab eoque puncto ad circulum deducantur rectæ quædam lineæ, quarum vna quidem per centrum protendatur, reliquæ verò vt libet: In cauam peripheriam cadentium rectarum linearum maxima quidem est illa, quæ per centrum ducitur; aliarum autem propinquior ei, quæ per centrum transit, remotiore semper maior est: In conuexam verò peripheriam cadentium rectarum linearum minima quidem est illa, quæ inter punctum, & diametrum

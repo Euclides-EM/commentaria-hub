@@ -16,6 +16,10 @@ Eſtans propoſez deux nombres compoſez entr’eux, ſi on ſouſtrait touſiou
 
 Ce qui eſt euident, car ſi on paruenoit à l’vnité, les nombres propoſez ſeroient premiees entr'eux, comme il a eſté demonſtre en la prop.cy deſſus: &t ils ſont poſez compoſez Or ieſ maniſeſte par ces choſes, qu’eſtans propoſez deux nombres, nous cognoiſtrons facilement s’ils ſont premiers entr'eux, ou non. Car eſtant faicte la ſouſtraction, comme dit eſt, ſi on paruiont iuſques à l’vnité, eſſits nombres propoſez ſeront premiers entr'eux: mais ſi on n’y paruient, ils ſeront compoſez.
 
+[Curated heading level=2 type=propositions: PROB. 1. PROP. II.]
+
+[Curated heading level=2 type=problems: PROB. 1. PROP. II.]
+
 ## PROB. 1. PROP. II.
 
 Trouuer la plus grande commune meſure

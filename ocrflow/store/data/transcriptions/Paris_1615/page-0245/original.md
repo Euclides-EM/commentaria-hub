@@ -10,6 +10,10 @@ Or que A eſtant à D, & C à F, en meſme raiſon que B à E, ile ſoient de
 
 Ce Lemme reſpond à la 11.p 5. Dounot ſe ſert d’icelle 11.p.5. & d’autres prop. du meſme liure pour appuyer les demonſtrations. des 7. 8. & 9. liures: mais il eſt euident qu’Euclide a voulu diſtinguer le nombre d’auec la grandeur, puis que pluſieurs propoſitions demonſtrees és grandeurs au 5.liure, ſont derechef demonſtrees en nombres és 7.8. & 9. liures: & partant ne ſe doiuent appuyer les demonſtrations des prop. de ceux cy ſur celles de celuy-là: Ce qu’a bien auſſi recogneu Dounot ſur la premiere prop. du 7.
 
+[Curated heading level=2 type=propositions: THEOR. 13. PROP. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. 13. PROP. XV.]
+
 ## THEOR. 13. PROP. XV.
 
 Si l’vnité meſure quelque nombre autant de fois qu’vn tiers meſure vn quart; auſſi en changeant le ſecond meſurera le quart autant de fois que l’vnité meſure le tiers.

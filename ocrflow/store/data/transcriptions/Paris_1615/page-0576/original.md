@@ -10,6 +10,10 @@ I goanſoſe ver te cnſe, qulu poſoe de eeſoboutar, & chuts pes eiſee teſpu
 
 31p.1I.
 
+[Curated heading level=2 type=propositions: THEOR. 8. PROP. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 8. PROP. VIII.]
+
 ## THEOR. 8. PROP. VIII.
 
 Pyramides ſemblables ayans baſes trianguIaires ſont en raiſon trplee de leurs coſtez ho

@@ -46,6 +46,8 @@ Quatuor præcedentes ex Campano Euclidis propositiones, quatuor sequentibus ex Z
 Campanus — 30 31 32 33 / 33 34 31 32 — Zambertus
 [/Margin]
 
+[Curated heading level=2 type=theorems: Theorema 29 Propositio 31]
+
 ## Eucli.ex Zamb. Theorema 29 Propositio 31
 
 [Curated heading level=3 type=zamberti_sequence: 31.]
@@ -60,6 +62,8 @@ THEON ex Zamb. Sit primus numerus α, & ipsum β non metiatur. Dico quod ipsi β
 
 [Diagram: dotted number lines beside the text: α······· β·········· / γ·····]
 
+[Curated heading level=2 type=theorems: Theorema 30 Propositio 32]
+
 ## Eucli. ex Zamb. Theorema 30 Propositio 23{printer-error-correction:32}
 
 [Curated heading level=3 type=zamberti_sequence: 32.]
@@ -73,6 +77,8 @@ Si bini numeri multiplicantes se adinuicem fecerint aliquem, factum autem ex eis
 THEON ex Zamb. Bini enim numeri α, β, multiplicantes se adinuicem, ipsum efficiant γ, ipsum autem γ, metiatur aliquis numerus primus δ. Dico quod δ, unum ipsorū α,β, metitur. Ipsum α non metiatur, estq̃ primus δ. Igitur α,δ, primi adinuicem sunt (per præcedentem) Et quoties δ ipsum γ metitur, tot unitates sint in ε. Quoniā igitur δ ipsum γ metitur per eas quæ in ε sunt unitates: igitur δ ipsum ε multiplicans, ipsum γ efficit. Atqui & α ipsum β multiplicās, ipsum efficit γ: æqualis igitur est qui ex δ,ε, ei qui ex α,β. Est igitur (per 19 septimi (sicut α ad δ, sic β ad ε. Ipsi autem δ,α, primi sunt. primi autem & minimi: minimi uero metiuntur eandem rationem habentes æqualiter, maior maiorem, & minor minorem (per 21 septimi) hoc est antecedens antecedentem, sequens sequentem. Igitur δ ipsum β metitur. Similiter quoq̃ ostendemus quod & si δ ipsum β non metiatur, metietur & α. Igitur δ, unum ipsorum α,β metitur. Quod erat demonstrandum.
 
 [Diagram: dotted number lines beside the text: ε····· / δ··· / γ············ / β······ / α··]
+
+[Curated heading level=2 type=theorems: Theorema 31 Propositio 33]
 
 ## Eucli.ex Zamb. Theorema 31 Propositio 33
 

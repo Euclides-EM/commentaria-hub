@@ -1,10 +1,14 @@
 <!-- Running title: D'EVCLIDE, LIV. I. -->
 
+[Curated heading level=2 type=definitions: DEF. XIV.]
+
 ### XIV.
 
 Figure est, ce qui est contenu sous vn ou plusieurs termes.
 
 Toute quantité terminée ne peut pas estre appellée figure, mais seulement les grandeurs qui sont enuironnées de leurs termes : partant la ligne qui est terminée par deux poincts, n'est pas vne figure, à cause que les poincts n'enuironnent pas la ligne : aussi les superficies infinies, ou les corps infinis, n'estant enclos d'aucun terme, ne doiuent aucunement estre appellez figures. Les figures contenuës d'vn seul terme sont le Cercle, l'Ellipse, la Sphere, la Spheroïde, & autres semblables : & les figures encloses de plusieurs termes, sont le Triangle, le Quarré, le Cube, la Pyramide, &c.
+
+[Curated heading level=2 type=definitions: DEF. XV.]
 
 ### XV.
 
@@ -13,6 +17,8 @@ Le Cercle est vne figure plane, contenuë sous vne seule ligne, appellée Circon
 ### COROLLAIRE.
 
 De ceste definition s'ensuit, que ce qui est esloigné du centre du cercle de la quantité du semidiametre est en la circonference; si moins, dans le cercle; si plus, hors du cercle, pourueu qu'ils soient en mesme plan que le cercle.
+
+[Curated heading level=2 type=definitions: DEF. XVI.]
 
 ### XVI.
 

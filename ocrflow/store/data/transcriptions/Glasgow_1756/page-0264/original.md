@@ -27,6 +27,10 @@ e. 7. Def. 11.
 
 et eadem ratione reliqua plana in quibus ſunt aequales anguli ad ſe invicem ſimiliter inclinata oſtendentur. Si igitur ſint duo anguli ſolidi &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. B. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. B. THEOR.]
+
 ## PROP. B. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint duo anguli ſolidi, quorum uterque continetur tribus planis angulis qui inter ſe ſunt aequales, ſinguli ſingulis, et ſimiliter poſiti; erunt anguli ſolidi inter ſe aequales.

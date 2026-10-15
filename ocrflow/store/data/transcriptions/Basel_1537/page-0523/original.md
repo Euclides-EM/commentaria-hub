@@ -4,6 +4,8 @@
 
 & b c d, extra cadit. igitur e d in maiori angulo spectatur à speculo plano comprehēso sub k b l, quæ à cōuexo. æquum autem patuit apparens in plano, manifestum igitur quod à conuexo speculo simulacrum minus apparet re uisa.
 
+[Curated heading level=2 type=theorems: Theorema uigesimumsecundum.]
+
 ## Theorema uigesimumsecundum.
 
 IN conuexis speculis, à minoribus speculis minora simulacra spectantur.
@@ -12,6 +14,8 @@ Sit sphera maior a c minor uero e l, circa idem centrū sit b & connectatur b a 
 
 [Diagram: two concentric circles; b at the top within the inner circle; points e, l, f, k about the centre; rays from b descending outside the circles and crossing, to b at the lower left and d at the lower right; a at the left]
 
+[Curated heading level=2 type=theorems: Theorema uigesimum tertium.]
+
 ## Theorema uigesimum tertium.
 
 IN curuis speculis simulacra conuexa spectantur.
@@ -19,6 +23,8 @@ IN curuis speculis simulacra conuexa spectantur.
 Sit curuum speculum a c, oculus autem sit e uisus uero refracti e a, e c, in d b at f e, sit in seipsum refractus, hoc est in e. Igitur uisus iam maiores sunt qui longiores : minimi uero qui circa medium hoc est f e spectatur igitur propius a speculo magis e, longius uero b, & d, quare totum curuum spectatur.
 
 [Diagram: circle resting on a rectangle; a and c at the circle's left and right, f within it; the rectangle's base carries d at the left, e at the centre, b at the right, with lines from e up to the circle]
+
+[Curated heading level=2 type=theorems: Theorema uigesimumquartum.]
 
 ## Theorema uigesimumquartum.
 

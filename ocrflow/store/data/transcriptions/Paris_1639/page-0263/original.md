@@ -16,6 +16,10 @@
 
 concl. 2.6 | de Ⅱ a π ef Ⅱ b 2|2 dg Ⅱ c π gh.
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. XIII.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. XIII.]
+
 ## PROBL. V. PROPOS. XIII.
 
 A deux lignes droictes données, trouuer la moyenne proportionelle.

@@ -34,6 +34,10 @@ d.β | ∠edc 2|2 2∠dac,
 d.β | ∠edb 2|2 2∠dab,
 concl. 20.a.1 | ∠bdc 2|2 2∠bac.
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXI.]
+
 ## THEOR. XIX. PROPOS. XXI.
 
 Au cercle, les angles qui sont en vn mesme segment, sont égaux entr'eux.

@@ -6,6 +6,10 @@
 
 Wenn nun auff eines Kreyses cgf Durchschlags fc Ende-Düttel c ein Senckstrich bc gesetzet ist/ so muß solcher Senckstrich bc ausser den Kreyß fallen ; und zwischen solchem Senckstrich bc und Kreyßzug gdc kan kein anderer gerader Strich stehen. : Es wird auch der gemischte Winckel acg grösser/ und der eussere Winckel gcb kleiner/als alle spitzige Winckel seyn. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XVII. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 2. Werck-Stück. Der XVII. Vortrag.]
+
 ## Der XVII. Vortrag.
 
 ## Das 2. Werckstück.

@@ -8,6 +8,8 @@ Quemadmodùm in a/b/c/d/circulo, cuius centrum e, exiſtētes lineæ rectæ a/b/
 
 Τμῆμα κύκλου,ἐστὶ τὸ περιεχόμενον σχῆμα, ὑπό τε εὐθείας καὶ κύκλου περιφερείας.
 
+[Curated heading level=2 type=definitions: Diffinitio 5.]
+
 5 Sectio circuli:eſt figura comprehēſa ſub recta linea, & circuli circunferentia.
 
 In exemplum habes a/b/c/& d/e/f/circulorum ſectiones:ſub rectis a/ c/ & d/ f, & a/ b/ c/ atque d/ e/ f/ circunferentijs comprehenſas. Quarum a/ b/ c/ centrum iucludens,maior eſt ipſa d/e/f/ extra centrum conſtituta.
@@ -20,6 +22,8 @@ Sectio, maior minor.
 
 Τμήματος δὲ γωνία ἐστὶν,ἡ περιεχομένη ὑπό τε εὐθείας,καὶ κύκλου περιφερείας.
 
+[Curated heading level=2 type=definitions: Diffinitio 6.]
+
 6 Sectionis angulus: eſt qui ſub recta linea,& circuli circunferentia comprehenditur.
 
 Cuiuſmodi eſt angulus b/a/c,antecedentis deſcriptionis:ſub a/c/recta,& a/b/ circunferentia comprehenſus.aut e/d/f/angulus,qui ſub recta d/f,& d/e/circunferētia continetur.Quos quidem angulos mixtos vocitare ſolemus:id eſt,ſub recta & curua linea comprehenſos.
@@ -30,6 +34,8 @@ Anguli mixti
 
 Ἐν τμήματι δὲ γωνία ἐστὶν,ὅταν ἐπὶ τῆς περιφερείας τοῦ τμήματος,ληφθῇ τι σημεῖον,καὶ ἀπ' αὐτοῦ ἐπὶ τὰ πέρατα τῆς εὐθείας,ἥτις ἐστὶ βάσις τοῦ τμήματος,ἐπιζευχθῶσιν εὐθεῖαι. ἡ περιεχομένη γωνία ὑπὸ τῶν ἐπιζευχθεισῶν εὐθειῶν.
 
+[Curated heading level=2 type=definitions: Diffinitio 7.]
+
 7 In ſectione autē angulus eſt:cùm in circunferentia ſectionis contingit aliquod punctum,& ab eo in rectæ lineæ fines,quæ baſis eſt ſectionis,rectæ lineæ coniunguntur. Contentus autē angulus,ſub coniunctis rectis lineis eſt.
 
 Quemadmodùm ex ſubiectę deſcriptionis angulis g/h/k,& l/m/n,deprehendere licet.A pūcto enim h,in fines ipſius rectę g,k(quæ baſis dicitur)rectę lineæ h/g/& h/k/coniunctæ:angulum ipſum g/h/k/in data ſectione,& ad punctum h/conſtituūt. Idem cenſeto de l/m/n/alterius ſectionis angulo.
@@ -37,6 +43,8 @@ Quemadmodùm ex ſubiectę deſcriptionis angulis g/h/k,& l/m/n,deprehendere lic
 [Diagram: h g k / m l n]
 
 Ὅταν δὲ αἱ περιέχουσαι τὴν γωνίαν εὐθεῖαι ἀπολαμβάνωσί τινα περιφέρειαν, ἐπ' ἐκείνης λέγεται βεβηκέναι ἡ γωνία.
+
+[Curated heading level=2 type=definitions: Diffinitio 8.]
 
 8 Cùm verò comprehendentes angulum rectę lineæ,aliquam ſuſcipiunt circunferentiam:in illa angulus eſſe dicitur.
 
@@ -49,5 +57,7 @@ Angulus in cētro.
 [Diagram: p o q / s r t]
 
 Τομεὺς δὲ κύκλου ἐστὶν,ὅταν πρὸς τῷ κέντρῳ αὐτοῦ τοῦ κύκλου σταθῇ ἡ γωνία τὸ περιεχόμενον σχῆμα ὑπό τε τὴν γωνίαν περιεχουσῶν εὐθειῶν,καὶ τῆς ἀπολαμβανομένης ὑπ' αὐτῶν περιφερείας.
+
+[Curated heading level=2 type=definitions: Diffinitio 9.]
 
 9 Sector autem circuli:eſt cùm ad centrum circuli ſteterit angulus,

@@ -23,6 +23,10 @@ hyp. | e 2|2 ▭.cb,
 1.a.1 | ▭.bc 2|2 e,
 concl. α.17.7 | a π b 2|2 d π e.
 
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XIX.]
+
 ## THEOR. XVII. PROPOS. XIX.
 
 Si quatuor numeri proportionales fuerint ; qui ex primo, & quarto fit, numerus, æqualis erit ei, qui ex secundo & quarto fit, numero : & si, qui ex primo & quarto fit numerus, æqualis fuerit ei, qui ex secundo, & tertio fit numero ; ipsi quatuor numeri proportionales erunt.

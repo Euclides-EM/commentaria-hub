@@ -1,16 +1,20 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 Cubi latus æquum eſt rectæ ſubtendenti angulum pentagoni dodecahedri eidem Sphæræ cum cubo comprehenſi. Nam angulos B C G A I D, vel G M D ſubtendunt cubi latera B G ad G D.
 
-## Corollarium tertium.
+### Corollarium tertium.
 
 Dodecahedri ſex ſunt latera bina inter ſe oppoſita & parallela, quorum bifarias ſectiones iungunt æquales tres rectæ, in cẽtro Sphæræ dodecahedrum continentis ſeſe ac illa bifariam ſecantes, & ad rectos. Quoniam ſuper ſex cubi baſibus ſex reperiũtur dodecahedri latera, vt oſtenſum eſt, quæ bifariam ſecantur à rectis centra baſium cubi coniungentibus, vt H E producta & ſimiles. Quæ quidem ſunt tres ſeſe ad rectos ſecantes, cùm ſint lateribus cubi parallelæ, & in centro Sphæræ cubum continentis (per oſtenſa 15 huius) ſeſe bifariam ſecantes. His verò cubis ſubtenſis externæ adduntur æquales, ſcilicet H O ſt P, & reliquæ ſimiles, dimidio dodecahedri lateri, ex hypotheſi æquales. Et proinde omnes ſunt æquales dimidia oppoſitorum dodecahedri laterum ſigna coniungentes, eáque latera bifariam & ad rectos ſecantes.
 
-## Corollarium quartum.
+### Corollarium quartum.
 
 Recta oppoſita dodecahedri latera bifariam diuidens, extrema & media ratione ſecta, efficit maius ſegmentum latus cubi, minus vero latus dodecahedri eadem Sphæra comprehenſi. Quoniã enim recta H & extrema & media ratione ſecta fuit oſtenſa in O, maiúſque eius ſegmentum fuiſſe dimidiũ cubi latus O &, minus verò H O dimidiũ ipſius V F. Sequetur igitur (per decimãquintã quinti) duplas earum eãdem habere rationem, ſcilicet duplam ipſius H E, quæ ſignum ipſi H oppoſitum coniungit, totam eſſe, maius verò ſegmentum duplam ipſius O &, quæ eſt cubi latus: minus verò duplam ipſius H O, æqualem lateri V F dodecahedri.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaoctaua. Problema 6.]
 
 ## Propoſitio decimaoctaua. Problema 6.
 

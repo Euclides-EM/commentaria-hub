@@ -2,6 +2,8 @@
 
 <!-- Page number: 46 -->
 
+[Curated heading level=2 type=theorems: Theorema 8. Propositio 8.]
+
 ## Eucli. ex Zamb. Theorema 8. Propositio 8.
 
 [Curated heading level=3 type=zamberti_sequence: 8.]

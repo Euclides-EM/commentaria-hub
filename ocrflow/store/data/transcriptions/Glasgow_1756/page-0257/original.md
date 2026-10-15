@@ -3,6 +3,10 @@
 
 quatuor rectis. Omnis igitur ſolidus angulus minoribus quam quatuor rectis angulis planis continetur. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXII. THEOR.]
+
 ## PROP. XXII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint tres anguli plani quorum duo reliquo ſunt majores, quomodocunque ſumpti, contineant autem ipſos rectae lineae aequales; fieri poteſt, ut ex iis quae rectas aequales conjungunt, triangulum conſtituatur.

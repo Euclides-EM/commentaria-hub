@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. XII.]
+
 ## THEOR. X. PROPOS. XII.
 
 Duorum cuborum numerorum duo medij proportionales sunt numeri : Et cubus ad cubum triplicatam habet lateris ad latus rationem.

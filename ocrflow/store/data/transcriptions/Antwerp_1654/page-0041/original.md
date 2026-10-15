@@ -9,6 +9,8 @@ tria latera habet æqualia.
 Fig.11.12.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 26]
+
 [Curated heading level=3 type=numbered_item: 26.]
 
 [Curated heading level=2 type=figures: Fig. 13]
@@ -18,6 +20,8 @@ Fig.11.12.
 [Margin]
 Fig.13.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. I, Def. 27]
 
 [Curated heading level=3 type=numbered_item: 27.]
 
@@ -29,6 +33,8 @@ Fig.13.
 Fig.15.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 28]
+
 [Curated heading level=3 type=numbered_item: 28.]
 
 28. Rectangulum triangulum eſt, quod vnum angulum habet rectum.
@@ -37,6 +43,8 @@ Fig.15.
 Fig.12.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 29]
+
 [Curated heading level=3 type=numbered_item: 29.]
 
 29. Obtuſangulum triangulum eſt, quod vnum angulum habet obtuſum.
@@ -44,6 +52,8 @@ Fig.12.
 [Margin]
 Fig.10.11.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. I, Def. 30]
 
 [Curated heading level=3 type=numbered_item: 30.]
 
@@ -55,6 +65,8 @@ Fig.10.11.
 Fig.14.15.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 31]
+
 [Curated heading level=3 type=numbered_item: 31.]
 
 31. Inter figuras quadrilateras, rectangulum eſt, quod quatuor angulos habet rectos, adeoque æquales: ſiue latera æqualia ſint, ſiue non.
@@ -62,6 +74,8 @@ Fig.14.15.
 [Margin]
 Fig.15.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. I, Def. 32]
 
 [Curated heading level=3 type=numbered_item: 32.]
 
@@ -75,6 +89,8 @@ Omne quadratum eſt rectangulum, ſed non contra.
 Fig 16.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 33]
+
 [Curated heading level=3 type=numbered_item: 33.]
 
 [Curated heading level=2 type=figures: Fig. 17]
@@ -85,6 +101,8 @@ Fig 16.
 Fig.17.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. I, Def. 34]
+
 [Curated heading level=3 type=numbered_item: 34.]
 
 34. Rhomboides, quæ aduerſa latera & angulos habens æqualia, neque æquilatera, neque æquiangula eſt.
@@ -92,6 +110,8 @@ Fig.17.
 [Margin]
 Fig.14.15. 16.17.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. I, Def. 35]
 
 [Curated heading level=3 type=numbered_item: 35.]
 

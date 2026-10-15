@@ -1,5 +1,7 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=definitions: XLI.]
+
 ### XLI.
 
 Theorema est, cùm proponitur aliquid ad demonstrandum. | Theoreme est, quand on propose quelque chose à demonstrer.

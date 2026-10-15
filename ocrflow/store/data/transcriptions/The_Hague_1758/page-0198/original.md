@@ -7,11 +7,15 @@
 
 *Ces idées ſeront mieux développées dans l'Appendice de ce Livre.*
 
+[Curated heading level=2 type=definitions: DEFINITION XII.]
+
 ### XII.
 
 On dit que les antécédens ſont *homologues* (ou *correſpondans*) aux antécédens, & les conſéquens aux conſéquens.
 
 *On a vû que les raiſons qui forment une proportion, ſont des ſujets ſemblables. Or les antécédens & les conſéquens ayant la même rélation dans les deux raiſons, ces termes doivent être conſidérés comme des parties ſemblables de deux Touts ſemblables. C'eſt pour cela qu'il faut toujours les comparer dans le même ordre, afin que cette ſimilitude ou correſpondance ne ſoit jamais troublée.*
+
+[Curated heading level=2 type=definitions: DEFINITION XIII.]
 
 ### XIII.
 
@@ -24,6 +28,8 @@ Si A : B = C : D |  on peut inférer  | A : C = B : D
 
 *Quand on diſpoſe la proportion de cette maniere, on dit communément qu'on le fait en* alternant, *ou* alternando.
 
+[Curated heading level=2 type=definitions: DEFINITION XIV.]
+
 ### XIV.
 
 Mais lorſqu'on change les conſéquens en antécédens & les antécédens en conſéquens dans le même ordre, on dit que la comparaiſon des termes ſe fait par *inverſion* de raiſon, ou *invertendo*.
@@ -33,6 +39,8 @@ A : B = C : D  |  Donc invertendo  |  B : A = D : C
 3 : 9 = 4 : 12 |                   |  9 : 3 = 12 : 4.
 [/Calculation]
 
+[Curated heading level=2 type=definitions: DEFINITION XV.]
+
 ### XV.
 
 Mais la comparaiſon ſe fait par compoſition, ou *componendo*, quand on compare la ſomme des conſéquens & antécédens à leurs conſéquens reſpectifs.
@@ -41,6 +49,8 @@ Mais la comparaiſon ſe fait par compoſition, ou *componendo*, quand on compar
 A : B = C : D.  |  Donc compo-  |  A + B : B = C + D : D.
 3 : 9 = 4 : 12. |     nendo     |  3 + 9 : 9 = 4 + 12 : 12.
 [/Calculation]
+
+[Curated heading level=2 type=definitions: DEFINITION XVI.]
 
 ### XVI.
 

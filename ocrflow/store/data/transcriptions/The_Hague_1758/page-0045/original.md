@@ -4,6 +4,10 @@
 
 [Figure: triangle BAC within a ruled frame, with apex A above and base BC below]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIX. THEOREME XII.]
+
+[Curated heading level=2 type=theorems: THEOREME XII. PROPOSITION XIX.]
+
 ## PROPOSITION XIX. THEOREME XII.
 
 {dropcap:E|lines=2|style=plain}N tout triangle (BAC), les plus grands angles ſont oppoſés aux plus grands côtés.

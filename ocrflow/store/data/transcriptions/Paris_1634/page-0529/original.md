@@ -4,6 +4,10 @@
 constr. | d, est nr. □,
 concl. 22.8 | c, est nr. □.
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. II.]
+
 ## THEOR. II. PROPOS. II.
 
 Si duo numeri se mutuò multiplicantes faciant quadratum; similes plani erunt.
@@ -32,6 +36,10 @@ Demonstr.
 11.8 | ꝗntr. d & c est vn. medi. proport.
 8.8 | ꝗntr. a & b est vn. medi. proport.
 concl. 20.8 | a & b snt plan; sml;
+
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. III.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. III.]
 
 ## THEOR. III. PROPOS. III.
 

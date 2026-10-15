@@ -4,6 +4,10 @@
 | contr. 9. a. 1.
 concl. 21.a.1. | cbd est —.
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. XV.]
+
 ## THEOR. VIII. PROPOS. XV.
 
 Si duæ rectæ lineæ se mutuo secuerint, angulos ad verticem æquales inter se efficient.

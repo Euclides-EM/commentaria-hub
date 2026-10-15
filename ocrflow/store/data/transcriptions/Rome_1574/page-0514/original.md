@@ -9,6 +9,8 @@ PERSPICVVM autem eſt ex demonſtratione huius theorematis facta ab Euclide, & e
 
 [Curated heading level=2 type=campanus: 25]
 
+[Curated heading level=2 type=problems: PROBL. 7. PROPOS. 25.]
+
 ## PROBL. 7. PROPOS. 25.
 
 [Margin]

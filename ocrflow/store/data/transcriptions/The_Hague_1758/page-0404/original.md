@@ -3,6 +3,10 @@
 
 [Figure: quatre cercles; les deux premiers en pointillé avec lettres B, F, H, A, E, G, C, K, I, L, D; les deux autres hachés avec lettres V, R, Z, X, T, Y]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVIII. THEOREME XVI.]
+
+[Curated heading level=2 type=theorems: THEOREME XVI. PROPOSITION XVIII.]
+
 ## PROPOSITION XVIII. THEOREME XVI.
 
 {dropcap:L|lines=2|style=plain}Es ſphères (ABCD & HILK): ſont entr'eux en raiſon triplée de leurs diamêtres (AC & KI).

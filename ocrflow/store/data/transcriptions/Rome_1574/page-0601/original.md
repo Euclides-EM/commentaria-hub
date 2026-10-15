@@ -10,6 +10,8 @@ tas in omni genere proportionis rationalis appareret. Theon enim, & nonnulli ali
 
 [Curated heading level=2 type=campanus: 15]
 
+[Curated heading level=2 type=theorems: THEOR. 12. PROPOS. 14.]
+
 ## THEOR. 12. PROPOS. 14.
 
 [Curated heading level=3 type=incipit: SI]

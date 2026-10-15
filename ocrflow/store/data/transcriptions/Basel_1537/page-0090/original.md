@@ -22,6 +22,8 @@ CAMPANVS. Sit a b datus circulus, & c datus angulus, uolo ergo à circulo a b, a
 
 [Diagram: circle with tangent line d a e touching at a (d above, e at right), chord a b drawn into the circle to b; below at right the given angle c]
 
+[Curated heading level=2 type=problems: Problema. 6. Propositio 34.]
+
 ## Eucli. ex Zamb. Problema. 6. Propositio 34.
 
 [Curated heading level=3 type=zamberti_sequence: 34.]

@@ -30,6 +30,12 @@ Dw. | △ abd ähnlich △ adc | n. 1. Beschr. VI.
 
 Sind derowegen die beyden durch den Senckstrich gemachte Dreyecke dem gantzen rechtwincklichten Dreyecke nicht allein/ sondern auch unter sich gleichähnlich. W. Z. B.
 
+[Curated heading level=1 type=problems: Das VI. Buch]
+
+[Curated heading level=2 type=propositions: Der IX. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 1. Werck-Stück. Der IX. Vortrag.]
+
 ## Der IX. Vortrag.
 
 ## Das 1. Werck-Stück.

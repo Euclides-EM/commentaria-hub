@@ -12,6 +12,8 @@ e Per hyp.
 f Per 22.l.5.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXV.]
+
 ## PROPOSITIO XXV.
 
 [Curated heading level=2 type=figures: Fig. 16]

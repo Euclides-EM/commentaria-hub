@@ -29,6 +29,8 @@ SIT minor proportio A B, ad B C, quam D E, ad E F. Dico & componendo minorem eſ
 
 [Curated heading level=2 type=campanus: 29]
 
+[Curated heading level=2 type=theorems: THEOR. 29. PROPOS. 29.]
+
 ## THEOR. 29. PROPOS. 29.
 
 [Margin]

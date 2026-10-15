@@ -10,9 +10,13 @@ Figura circularis, ob vniformem & regulatam circunferentiæ à cẽtro distantia
 
 ¶ Κύκλος δὲ ὁμοίως εἰς σχῆμα λέγεται ἐγγράφεσθαι, ὅταν ἡ τοῦ κύκλου περιφέρεια ἑκάστης πλευρᾶς, τοῦ εἰς ὃ ἐγγράφεται ἅπτηται.
 
+[Curated heading level=2 type=definitions: Circulus autem in figura rectilinea describi]
+
 Circulus autem in figura rectilinea describi dicitur: quãdo circuli circunferentia, vnumquodq; latus eius in qua describitur tãgit.
 
 ¶ Σχῆμα δὲ εὐθύγραμμον περὶ κύκλον περιγράφεσθαι λέγεται, ὅταν ἑκάστη πλευρὰ τῆς τοῦ κύκλου περιφερείας, τοῦ περιγραφομένου ἐφάπτηται.
+
+[Curated heading level=2 type=definitions: Figura verò rectilinea]
 
 Figura verò rectilinea, circa circulũ describi dicitur: quando vnũquodque latus circunscriptæ, circuli circunferentiam tangit.
 
@@ -22,11 +26,21 @@ In exemplum, habes circulum a/b/c/d, in quadrato e/f/g/h/ descriptum: atque idem
 
 ¶ Εὐθεῖα εἰς κύκλον ἐναρμόζεσθαι λέγεται, ὅταν τὰ πέρατα αὐτῆς, ᾖ ἐπὶ τῆς περιφερείας τοῦ κύκλου.
 
+[Curated heading level=2 type=definitions: Recta linea circulo congruere dicitur]
+
 Recta linea circulo congruere dicitur: quando eius extrema, in circuli circunferentiam cadunt.
 
 Quanquàm hæc vltima diffinitio, tam de circuli dimetientibus, quàm de cæteris rectis non per cẽtrum eductis (quas vocant chordas) sit intelligenda: ipsas tamen rectas circuli dimetiente minores potissimùm respicere videtur, quę sunt videlicet latera inscribendarum intra circulum rectilinearum figurarum. Cuiusmodi videtur esse recta b/c: cuius extrema, siue limites b/ & c, in dati circuli a/b/c/ circunferentiam cadunt.
 
 [Diagram: a b c, 7]
+
+[Curated heading level=1 type=propositions: LIBER IIII.]
+
+[Curated heading level=1 type=problems: LIBER IIII.]
+
+[Curated heading level=2 type=propositions: Problema 1, Propositio 1.]
+
+[Curated heading level=2 type=problems: Problema 1, Propositio 1.]
 
 ## Πρόβλημα α, Πρόθεσις α.
 

@@ -5,6 +5,10 @@ ainsi que dans les propositions XII, XIII, XIV et XVIII, où il s’agit de la c
 
 Il en seroit autrement si les triangles étoient tracés sur des spheres inégales ; alors les angles étant égaux, les triangles seroient semblables et les côtés homologues seroient entre eux comme les rayons des spheres.
 
+[Curated heading level=2 type=propositions: PROPOSITION XIX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIX.]
+
 ## PROPOSITION XIX.
 
 ### THÉORÊME.

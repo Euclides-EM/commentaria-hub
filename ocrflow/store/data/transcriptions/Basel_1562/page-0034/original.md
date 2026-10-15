@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 13 -->
 
+[Curated heading level=2 type=propositions: XIII. Die dryzehend propoſition]
+
 ## XIII. Die dryzehend propoſition.
 
 So ain rechte linj auff ainer rechten ſteht / werden die zwen winckel aintweders baide Gerecht / oder aber ſambtlich zwaien gerechten wincklē glich ſein.
@@ -13,6 +15,8 @@ Diſes iſt leichtlich zuͦerachten / dan ſo die linj perpendicular iſt / ſei
 
 [Figure: two oblique linien standing on horizontal linien]
 
+[Curated heading level=2 type=propositions: XIIII. Die vierzehend propoſition]
+
 ## XIIII. Die vierzehend propoſition.
 
 So von ainem puncten ainer linien zwo linien / yedoch nit auff ain ſeitten gezogen werden / vnnd als dann die zwen an aināder rüerende winckel gerecht oder ſambtlich zwayen gerechten gleich werden / ſo ſeind ſolche zwo linien geſtracks gegen ainander / das iſt / khommen in aine rechte linj zuͦſamen.
@@ -22,6 +26,8 @@ So von ainem puncten ainer linien zwo linien / yedoch nit auff ain ſeitten gezo
 Von dem puncten c der linj a b werden auß gezogen zwo linj c d vnnd c e / welche machen zwen winckel a c d vnnd a c e / welche baid gerecht / od̓ ſambtlich zwayen gerechten gleich ſeind (wie baides in der figur begreiffen) ſo ſprich ich das diſe zwo linien c d vnd c e / geſtrackhs gegen ainander ſeind / das iſt bayde ein rechte linj geben / wie augenſcheinlich / Iſt diſe propoſition gleich ettlicher maſſenn die vorgehnd vmbkhert / beſich vnden die 47 propoſ. ꝛc.
 
 [Figure: vertical linj with horizontal linien meeting it, labelled a, b, c, d and e]
+
+[Curated heading level=2 type=propositions: XV. Die fünffzehend propoſition]
 
 ## XV. Die fünffzehend propoſition.
 

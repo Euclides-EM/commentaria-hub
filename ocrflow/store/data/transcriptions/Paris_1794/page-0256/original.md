@@ -7,6 +7,10 @@ sure la somme de ses angles moins deux angles droits ; et il est clair que la so
 
 *Scholie.* Soit *s* la somme des angles d’un polygone sphérique, *n* le nombre de ses côtés ; l’angle droit étant supposé l’unité, la surface du polygone aura pour mesure *s* — 2 (*n* — 2) ou *s* — 2*n* + 4.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIV.]
+
 ## PROPOSITION XXIV.
 
 ### THÉORÊME.

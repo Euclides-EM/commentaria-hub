@@ -10,6 +10,8 @@ NAM quadrilaterum ABCD, diuidatur bifariam ab vtraq; diametro AC, BD. Dico ipſu
 
 [Curated heading level=2 type=campanus: 40]
 
+[Curated heading level=2 type=theorems: THEOR. 30. PROPOS. 40.]
+
 ## THEOR. 30. PROPOS. 40.
 
 [Margin]

@@ -2,11 +2,19 @@
 
 <!-- Page number: 234 -->
 
+[Curated heading level=2 type=propositions: THEOR. 29. PROP. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 29. PROP. XXXI.]
+
 ## THEOR. 29. PROP. XXXI.
 
 Tout nombre premier eſt premier à tout autre qu’il ne meſure pas.
 
 Ceſte propoſition eſt aiſee à demonſtrer: car s’ils n’eſtoient premiers, ils auroient vne commune meſure autre que l’vnité, ainſi pas vn des deux ne ſeroient premiers contre l’hypotheſe.
+
+[Curated heading level=2 type=propositions: THEO. 30. PROP. XXXII.]
+
+[Curated heading level=2 type=theorems: THEO. 30. PROP. XXXII.]
 
 ## THEO. 30. PROP. XXXII.
 
@@ -17,6 +25,10 @@ Soient deux nombres A, & B, de la multiplication deſquels ſoit produict C, & q
 [Diagram]
 
 Ie dis qu’il meſurera aufsi l’vn ou l’autre de A ou B. Autrement s’il ne meſure l’vn ny l’autre, qu’il meſure C par Ie nombre E: Si donc D ne meſure A, par la 31.p.7. il ſeta premier à iceluy, & par la 23.p.7.ils ſeront les plus petits de leur raiſon. Mais pour autant que D par E faict C, auſsi bien que A multiplié par B, par la 10.p.7. A ſera à D, comme E, à B, & par la 21.p.7. D meſurera B; ce qui eſtoit à prouuer.
+
+[Curated heading level=2 type=propositions: THEOR. 31. PROP. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 31. PROP. XXXIII.]
 
 ## THEOR. 31. PROP. XXXIII.
 

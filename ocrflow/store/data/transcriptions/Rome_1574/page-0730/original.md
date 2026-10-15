@@ -22,6 +22,8 @@ SED non metiatur A, ipſum C. Dico ipſis A, B, non poſſe reperiri tertium pro
 
 [Curated heading level=2 type=campanus: 20]
 
+[Curated heading level=2 type=problems: PROBL. 2. PROPOS. 19.]
+
 ## PROBL. 2. PROPOS. 19.
 
 [Curated heading level=3 type=incipit: TRIBVS]

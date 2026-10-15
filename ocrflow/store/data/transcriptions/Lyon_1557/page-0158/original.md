@@ -7,6 +7,10 @@ Perpendicularis à recto angulo Trianguli ad baſin deducta, inter duo baſis ſ
 
 Vt AD perpendicularis, media proportionalis eſt inter BD & DC ſegmenta. Et AB latus, inter BC baſin & BD ſegmentum: itidem AC latus, inter ipſam BC baſin & DC ſegmentum, proportionale eſt.
 
+[Curated heading level=2 type=propositions: PROBLEMA 1, PROPOSITIO IX.]
+
+[Curated heading level=2 type=problems: PROBLEMA 1, PROPOSITIO IX.]
+
 ## PROBLEMA 1, PROPOSITIO IX.
 ### Theoni 13.
 

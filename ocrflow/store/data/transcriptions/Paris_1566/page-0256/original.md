@@ -5,6 +5,8 @@
 
 [Diagram: a horizontal line with A at the left, D and G marked between, and B at the right]
 
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaquarta.]
+
 ## Propoſitio quadrageſimaquarta.
 
 Ex binis mediis ſecunda, ad vnum duntaxat ſignum diuiditur in nomina.
@@ -14,6 +16,8 @@ Ex binis mediis ſecunda, ad vnum duntaxat ſignum diuiditur in nomina.
 [Diagram: a rectangle divided by vertical lines, with letters marked along the top and L, I and K at the bottom]
 
 [Diagram: a horizontal line with A at the left, D and G marked between, and B at the right]
+
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaquinta.]
 
 ## Propoſitio quadrageſimaquinta.
 

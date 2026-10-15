@@ -6,6 +6,10 @@ p5 le reſte CB ſera au reſte FE, comme la toute AB à la toute DE. Et pource
 
 Car ſi AC peut plus que CB du quarré d’vne ligne qui luy ſoit commenſ.en longitude, auſsi par la 15.p.10. DF pour ra de meſme plus que FE, Et ſi AC eſt commenſ. en longitude à la rationele propoſee, auſsi ſera DF par la 12.p.10. Veu que l’vne & l’autre eſt commenſ. en longitude à la meſme AC: Et partant AB, & DE ſeront binome premier: Si BC eſt commenſ. en longitude à la rationele expoſee, auſsi ſera FE: ainſi AB & DE ſeront binome ſecond: ſi AC & BC ſont incommenſ en longitade à la rationele, auſsi ſeront DF & FE, & par les def. AB & DE ſeront binome troiſieſme. Que fi AC peut plus que CB du quarré d’vne ligne qui luy ſoit incomm. en longitude, auſsi par la 15.p.10. DF pourra de meſme plus que IE. Parquoy nous demonſtretons comme deſſus, que AB, DE, ſeront binome ou quatrieſme, ou 5.ou 6. Partant AB, DE, ſeront binon,es de meſme ordre.
 
+[Curated heading level=2 type=propositions: THEOR. 50. PROP. LXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 50. PROP. LXVIII.]
+
 ## THEOR. 50. PROP. LXVIII.
 
 La ligne commenſ. en longitude à vne bimediale, eſt auſſibimediale de meſme ordre.

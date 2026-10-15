@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXV.]
+
 ## THEOR. XXII. PROPOS. XXV.
 
 Si solidum parallelepipedum plano secetur aduersis planis parallelo; erit quemadmodum basis ad basim, ita solidum ad solidum.

@@ -28,6 +28,10 @@ Ex hac propositione sequitur, si primus gradus parodicus non sit quadratus, nequ
 
 *De cette proposition s'ensuit, que si le premier degré parodique n'est vn nombre quarré, qu'aucun autre degré parodique ne seroit nombre quarré, hormis ceux dont les exposans sont nombres pairs. Mais si le premier n'est vn nombre cube, il n'y aura point aussi aucun autre degré parodique cube, excepté ceux dont les exposans sont mesurez par trois.*
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XI.]
+
 ## THEOR. XI. PROPOS. XI.
 
 Si ab vnitate quotcunque numeri deinceps proportionales fuerint ; minor maiorem metitur per aliquem eorum qui in proportionalibus sunt numeris.

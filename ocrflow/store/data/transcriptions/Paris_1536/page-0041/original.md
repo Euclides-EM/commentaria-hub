@@ -2,6 +2,10 @@
 
 <!-- Page number: 25 -->
 
+[Curated heading level=2 type=propositions: Problema 9, Propositio 23.]
+
+[Curated heading level=2 type=problems: Problema 9, Propositio 23.]
+
 ## Πρόβλημα θ, Πρόθεσις κγ.
 
 Πρὸς τῇ δοθείσῃ εὐθείᾳ καὶ τῷ πρὸς αὐτῇ σημείῳ, τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ,ἴσην γωνίαν εὐθύγραμμον συστήσασθαι.
@@ -21,6 +25,10 @@ Figurę constitutio.
 [Margin]
 Cōclusio problematis.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Theorema 15, Propositio 24.]
+
+[Curated heading level=2 type=theorems: Theorema 15, Propositio 24.]
 
 ## Θεώρημα ιε, Πρόθεσις κδ.
 

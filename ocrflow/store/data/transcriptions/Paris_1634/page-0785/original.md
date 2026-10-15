@@ -6,6 +6,10 @@
 2.l.1.12 | △mne 3|2 azim + ixbn, &c.
 2 concl. 1. 10 | aggreg. azim + ixbn, &c. 2|2 r,
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. II.]
+
 ## THEOR. II. PROPOS. II.
 
 Circuli inter se sunt, quemadmodum à diametris quadrata.

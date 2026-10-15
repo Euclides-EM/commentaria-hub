@@ -13,6 +13,10 @@ c. 22. 5.
 
 ut baſis ABCDE ad baſim FGHKL, ita ABCDEM pyramis ad pyramidem FGHKLN. Pyramides igitur quae &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. VII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VII. THEOR.]
+
 ## PROP. VII. THEOR.
 
 {dropcap:O|lines=2|style=plain}MNE priſma triangularem habens baſim, dividitur in tres pyramides aequales inter ſe, quae triangulares baſes habent.

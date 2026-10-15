@@ -1,6 +1,8 @@
 <!-- Running title: LIBER SEXTVS. -->
 <!-- Page number: 61 -->
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaoctaua.]
+
 ## Propoſitio trigeſimaoctaua.
 
 Si à dato ſigno in circuli circunferentiam cauam binæ rectæ lineæ in plano ducãtur, ipſæ ſuis partibus extra circulum ſumptis reciprocè proportionales exiſtunt, & inſuper inter totam & exterius ſegmentum media proportionalis, à ſigno ducta, circulum tanget.

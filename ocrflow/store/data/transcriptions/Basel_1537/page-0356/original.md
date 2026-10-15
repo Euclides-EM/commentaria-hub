@@ -18,7 +18,15 @@ Inuentis iam longitudine incommensurabilibus rectis ut α,β,& plures aliæ magn
 
 DECIMI LIBRI FINIS.
 
+[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER VNDECIMVS]
+
+[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER VNDECIMVS]
+
+[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER VNDECIMVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER VNDECIMVS,
+
+[Curated heading level=2 type=definitions: Eucli.ex Campano Diffinitiones.]
 
 ## Eucli.ex Campano Diffinitiones.
 

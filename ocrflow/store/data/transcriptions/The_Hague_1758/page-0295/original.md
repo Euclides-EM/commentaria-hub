@@ -3,6 +3,10 @@
 
 [Figure: dans un encadrement, un triangle rectangle ABC avec trois quarrés décrits sur ses côtés: G sur AB, H sur BC, et E sur l'hypothénuse AC]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXI. THEOREME XXI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXI. PROPOSITION XXXI.]
+
 ## PROPOSITION XXXI. THEOREME XXI.
 
 {dropcap:D|lines=2|style=plain}Ans tout triangle rectangle (ABC), la figure (E) décrite de l'hypothenuſe (AC) eſt égale à la ſomme des figures ſemblables & ſemblablement poſées (G & H), décrites des deux côtés (AB, BC) alentour de l'angle droit.

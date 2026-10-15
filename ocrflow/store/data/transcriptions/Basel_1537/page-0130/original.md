@@ -14,6 +14,8 @@ CAMPANVS. Sit duarum quantitatum a & b, proportio una ad c, dico eas esse æqual
 
 [Diagram: horizontal line segments a and b above, with segment c below, in the right margin]
 
+[Curated heading level=2 type=theorems: Theorema 9 Propositio 9]
+
 ## Eucli. ex Zamb. Theorema 9 Propositio 9
 
 [Curated heading level=3 type=zamberti_sequence: 9.]
@@ -41,6 +43,8 @@ SI fuerit unius quantitatis ad quantitatem unam proportio maior, quantitatem mai
 CAMPANVS. Quod si fuerit maior proportio a ad c quàm b ad c, dico a esse maiorem b, & si fuerit maior c ad b quàm c ad a, adhuc dico a esse maiorem b. Hæc est conuersa 8. Primum patet per primam partem 7 & per primam 8, nam per primam partem septimæ, non erit a æqualis b, nec etiam minor, per primam octauæ. Secūdum uero patet ex secundis partibus earundem.
 
 [Diagram: horizontal line segments a and b above, with segment c below, in the right margin]
+
+[Curated heading level=2 type=theorems: Theorema 10 Propositio 10]
 
 ## Eucli. ex Zamb. Theorema 10 Propositio 10
 

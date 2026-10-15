@@ -8,6 +8,8 @@ CAMPANVS. Sint duæ lineæ a b & a c, se angulariter contingentes in puncto a, �
 
 [Diagram: three chevrons one above another joined by a vertical line: at the top the angle b a c with apex a; below it the angle h g k with apex g; at the bottom the angle e d f with apex d]
 
+[Curated heading level=2 type=theorems: Theorema 13 Propositio 15]
+
 ## Eucli. ex Zamb. Theorema 13 Propositio 15
 
 [Curated heading level=3 type=zamberti_sequence: 15.]

@@ -28,6 +28,8 @@ CAMPANVS. Sit linea b c, abscisa ex a b, sintq̃ ambæ rationales tantum potenti
 
 Incipiunt hexades per aphæresin, hoc est per abscisionem.
 
+[Curated heading level=2 type=theorems: Theorema 55 Propositio 73]
+
 ## Eucli.ex Zamb. Theorema 55 Propositio 75{printer-error-correction:73}
 
 [Curated heading level=3 type=zamberti_sequence: 73.]

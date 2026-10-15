@@ -2,6 +2,8 @@
 
 ter ſunt æquales. Sicut igitur A ad B baſes, ſic erunt reciprocè ipſarum B ad A pyramidum vertices, per vndecimam quinti. Idem ſequitur in priſmate & laterata columna, vt iam latius corollario quadrageſimæ vndecimi diximus. Sequuntur etenim illa (ſuper oppoſitis baſibus poligonis exiſtentia) pyramidum ſiue parallelepipedorum rationem, maximè cùm ſint æquemultiplicium partes, aut partium æquemultiplicia.
 
+[Curated heading level=2 type=propositions: Propoſitio decima.]
+
 ## Propoſitio decima.
 
 Omnis Conus Cylindri tertia pars eſt, eandem eidem baſim habentis, & æquale faſtigium.

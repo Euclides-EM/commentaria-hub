@@ -3,6 +3,10 @@
 
 [Diagram: rectangle A K at left; square C B F H at right with G at top middle, D at bottom middle; line K I through L and E; diagonal H B crossing D G at E; small letters a, c, b near E with dotted curve]
 
+[Curated heading level=2 type=propositions: PROPOSITION V. THEOREME V.]
+
+[Curated heading level=2 type=theorems: THEOREME V. PROPOSITION V.]
+
 ## PROPOSITION V. *THEOREME V.*
 
 {dropcap:U|lines=2|style=plain}Ne droite (AB) étant partagée en deux parties égales (AC, CB) & en deux inégales (AD, DB); le rectangle compris des deux parties inégales (AD, DB) & le quarré de la partie (CD), compriſe entre les points de ſection (C & D), ſont égaux au quarré de la moitié (AC ou CB) de la droite entiere (AB).

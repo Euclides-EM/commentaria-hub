@@ -1,5 +1,7 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=postulates: II.]
+
 ### II.
 
 Et rectam lineam terminatam in continuum recta producere. | Et de prolonger directement vne ligne droite donnee & terminee.
@@ -11,6 +13,8 @@ Et rectam lineam terminatam in continuum recta producere. | Et de prolonger dire
 Explicatio notarum. | Explication des notes.
 
 Recta AB est in continuum producta ad punctum C, per secundum postulatum. | La ligne droite AB a esté continuée directement au poinct C, par la seconde demande.
+
+[Curated heading level=2 type=postulates: III.]
 
 ### III.
 

@@ -1,6 +1,10 @@
 <!-- Page number: 66 -->
 <!-- Running title: ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: PROBLEMA PRIMVM, PROPOSITIO PRIMA.]
+
+[Curated heading level=2 type=problems: PROBLEMA PRIMVM, PROPOSITIO PRIMA.]
+
 ## PROBLEMA PRIMVM, PROPOSITIO PRIMA.
 
 {dropcap:D|lines=4|style=decorated|decoration="foliate ornament in square frame"}Ati Circuli Centrum inuenire.
@@ -18,6 +22,10 @@ VIDES ex Recto & Æquo, punctum omnium maximè momentaneum perueſtigari. In quo
 Si in Circulo recta linea rectam lineam æqualiter & ad angulos rectos diuidat: in diuidente eſt Centrum Circuli.
 
 Hoc verò ſatis patet ex Demonſtratione iam poſita. Si igitur duæ lineæ in Circulo æqualiter ſecent altera alteram: Centrum in puncto ſectionis ſitum erit. Quod tamen poſterius probabitur.
+
+[Curated heading level=2 type=propositions: THEOREMA 1, PROPOSITIO II.]
+
+[Curated heading level=2 type=theorems: THEOREMA 1, PROPOSITIO II.]
 
 ## THEOREMA 1, PROPOSITIO II.
 

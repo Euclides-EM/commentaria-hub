@@ -1,6 +1,10 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 13 -->
 
+[Curated heading level=2 type=propositions: PROBLEMA PRIMVM, PROPOSITIO PRIMA.]
+
+[Curated heading level=2 type=problems: PROBLEMA PRIMVM, PROPOSITIO PRIMA.]
+
 ## PROBLEMA PRIMVM,
 
 ## PROPOSITIO PRIMA.

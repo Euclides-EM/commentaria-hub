@@ -3,6 +3,10 @@
 
 [Figure: two parallelepipeds in a double-ruled frame; the left labelled G, N, L, C, M, H, I, and the right labelled E, F, D, A, B]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVII. PROBLEME V.]
+
+[Curated heading level=2 type=problems: PROBLEME V. PROPOSITION XXVII.]
+
 ## PROPOSITION XXVII. PROBLEME V.
 
 {dropcap:S|lines=2|style=plain}Ur une ligne droite donnée (AB) : décrire un paralelipipéde (AF), ſemblable & ſemblablement poſé, à un paralelipipéde donné. (HN).

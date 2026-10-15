@@ -3,6 +3,10 @@
 
 [Diagram: circle with center C, points A, D, B, H on it; secant AE through B and lines from exterior point E to D and H, with dotted radii CD, CH and dotted line CE]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXVII. THEOREME XXXI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXI. PROPOSITION XXXVII.]
+
 ## PROPOSITION XXXVII. THEOREME XXXI.
 
 {dropcap:S|lines=2|style=plain}I d'un point quelconque (E), pris hors d'un cercle (ADH), on tire à ce cercle deux lignes droites dont l'une (AE) coupe le cercle, & l'autre (ED), ſe termine à ſa circonférence convexe; & que le rectangle, compris de la ſecante entiere (AE) & de la partie extérieure (EB), ſoit égal au quarré de la droite (ED), qui ſe termine à la circonférence convexe: celle-ci touchera le cercle (en D).

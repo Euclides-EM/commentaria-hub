@@ -8,6 +8,10 @@ eſtre commenſ. en puiſſance ſeulemẽt, tout ainſi qu’en la pre cedente.
 
 La rationele AB ſoit 5, & AC√486: donc le rectangle AD ſera √12000+30. Et puis que AE eſt √48, & EC 6: EF ſera 2, & ſon quarre 9, auquel eſtant posé egal le rectangle de AG, GE, icelles ſeront √27, & √3: parquoy le rectangle AH ſira √675. & par cõſequent la ligne OM, qui peut iceluy ſera √√675: ainſi GI ſera√75. & MP√√75. Or EC eſt 6: partant ED double de MS√V50625. c’eſt à dire 15, eſt 30; & par conſequent MS, MT, ſeront auſſi 30. Parquoy tout le quarré LN composé des quarrez LM√675, MN √7S, & des deux rectangles MS, MT30, ſera √1200—30, & ſon caſté OP ou LT √√075 √√75, qui eſt bimediale premiere.
 
+[Curated heading level=2 type=propositions: THEOR. 39. PROP. LVII.]
+
+[Curated heading level=2 type=theorems: THEOR. 39. PROP. LVII.]
+
 ## THEOR. 39. PROP. LVII.
 
 Si vn rectangle eſt compris d’vne ligne rationele, & d’vn binome troiſieſme; la ligne qui peut iceluy rectangle eſt bimediale ſeconde.

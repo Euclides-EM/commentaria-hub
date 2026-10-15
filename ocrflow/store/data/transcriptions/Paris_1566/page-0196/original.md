@@ -11,11 +11,11 @@ Si A ad B rationẽ habeant, quam A ad D cubi G, idẽ oſtẽdetur de ſolidis,
 
 [Diagram: four horizontal lines labelled A 16, G 8, B 54 and D 27]
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 Si aliquis numerus quadratum multiplicans, quadratum non fecerit, ipſe quadratus nõ erit. Nam ſi quadratus eſſet, ipſi ſimiles eſſent plani qui medium haberent, per 18 huius, & ab ipſo medio productus æquus eſſet ei qui ſub extremis quadratis, per vigeſimam ſeptimi. Ipſe igitur ab extremis productus quadratus eſſet, æquus ei qui à medio, ſed quadratus non eſt is productus. Nec igitur propoſitus quadratum multiplicans quadratus erit.
 
-## MONITVM.
+### MONITVM.
 
 Hæc corollaria addidimus in obſequium decimi, ne circa hæc demonſtranda hæreamus, cùm de rationibus quadratorum numerorum agendum erit, vt latera eorum ſint longitudine commenſurabilia abſque demonſtrandi prolixitate.
 

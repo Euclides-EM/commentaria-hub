@@ -3,6 +3,10 @@
 
 [Diagram: rectangle A I at left; square B K N E at right with diagonal E K; line I H G F through the square; points K, L, N at top; A, B, C, E at bottom; small letters a, c, b near G with dotted curve]
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THEOREME VI.]
+
+[Curated heading level=2 type=theorems: THEOREME VI. PROPOSITION VI.]
+
 ## PROPOSITION VI. *THEOREME VI.*
 
 {dropcap:S|lines=2|style=plain}I une droite (AC) eſt partagée en deux parties égales (AB, BC), & qu'on y ajoute directement une partie quelconque (CE): le rectangle compris de la droite entiere (AE) & de l'ajoutée (EC) avec le quarré de la moitié (BC), eſt égal au quarré de la droite (BE) compoſée de la moitié (BC) de l'entiere (AC) & de l'ajoutée (CE).

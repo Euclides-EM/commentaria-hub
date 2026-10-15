@@ -2,6 +2,8 @@
 
 <!-- Page number: 11 -->
 
+[Curated heading level=2 type=theorems: Theorema 2. Propositio 5]
+
 ## Eucli. ex Zamb. Theorema 2. Propositio 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]
@@ -29,6 +31,8 @@ THEON ex Zamberto. Sit triangulū isosceles α β γ, æquum habens latus α β,
 CAMPANVS. Hæc est conuersa præmissæ: quantū ad primā partem ipsius. Sit enim triangulus a b c, cuius duo anguli b & c sunt æquales. Dico quod latus a b, est æquale lateri a c. Si enim non sunt æqualia, erit alterū maius: sitq̃ a b maius, q̃d resecetur ad æqualitatem a c per 3 propositionem, ut superfluū sit a d, ad partē a, & resecetur in puncto d, sitq̃ d b æqualis a c. Intelligo ergo duos triangulos a c b & d b c, quos probabo esse æquilateros & æquiangulos. Sunt enim duo latera d b & b c trianguli d b c, æqualia duobus lateribus a c & c b trianguli a c b, & angulus b æqualis angulo c totali per hypothesin: ergo basis d c est æqualis basi a b per 4 propositionem: & angulus d c b æqualis angulo a b c. Sed angulus a c b, est æqualis angulo a b c per hypothesin: ergo angulus d c b, est æqualis angulo a c b, pars uidelicet toti, quod est impossibile.
 
 [Diagram: triangle a b c with apex a above and base b c; the point d on the side a b, with the line d c drawn inside the triangle]
+
+[Curated heading level=2 type=theorems: Theorema 3. Propositio 6.]
 
 ## Eucli. ex Zamb. Theorema 3. Propositio 6.
 

@@ -1,5 +1,9 @@
 <!-- Page number: 25 -->
 
+[Curated heading level=2 type=propositions: N. 2 Dritter Satz. Aufgabe.]
+
+[Curated heading level=2 type=problems: N. 2 Dritter Satz. Aufgabe.]
+
 ## N. 2 Dritter Satz. Aufgabe.
 
 An einem gegebenen Punkt eine gerade Linie zu ziehen, die einer der Lage und Größe nach gegebenen geraden Linie gleich iſt.

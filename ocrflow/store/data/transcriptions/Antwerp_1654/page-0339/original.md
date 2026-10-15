@@ -5,6 +5,8 @@
 
 {dropcap:S|lines=2|style=plain}Vperficies cylindri habentis latus diametro baſis æquale, baſeos quadrupla eſt. Si verò latus fuerit quarta pars diametri baſeos, ſuperficies cylindri, baſi æqualis erit. Vtrumque ex propoſitione manifeſtum eſt.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XIII.]
+
 ## PROPOSITIO XIII.
 
 [Curated heading level=2 type=figures: Fig. 9]

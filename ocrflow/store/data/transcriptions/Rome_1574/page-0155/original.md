@@ -12,6 +12,8 @@ gulum E B C, eo reliquus angulus A B D, ſuperatur ab angulo recto E B D. Nam ſ
 
 [Curated heading level=2 type=campanus: 14]
 
+[Curated heading level=2 type=theorems: THEOR. 7. PROPOS. 14.]
+
 ## THEOR. 7. PROPOS. 14.
 
 [Curated heading level=3 type=incipit: SI]

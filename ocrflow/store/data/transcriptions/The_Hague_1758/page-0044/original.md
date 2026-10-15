@@ -4,6 +4,10 @@
 
 [Figure: triangle ACB within a ruled frame, with point D on base AB and a dotted line CD; angles n and p at C, angle m at D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVIII. THEOREME XI.]
+
+[Curated heading level=2 type=theorems: THEOREME XI. PROPOSITION XVIII.]
+
 ## PROPOSITION XVIII. THEOREME XI.
 
 {dropcap:D|lines=2|style=plain}Ans tout triangle (ACB); les plus grands côtés ſont oppoſés aux plus grands angles.

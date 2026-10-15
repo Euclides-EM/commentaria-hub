@@ -2,6 +2,8 @@
 
 <!-- Page number: 240 -->
 
+[Curated heading level=2 type=theorems: Theorema 32 Propositio 32]
+
 ## Eucli. ex Zamb. Theorema 32 Propositio 32
 
 [Curated heading level=3 type=zamberti_sequence: 32.]
@@ -30,6 +32,8 @@ CAMPANVS. Sit a numerus, cuius medietas quæ sit b, sit impar. Dico a, esse pari
 
 [Diagram: dotted lines labelled a, b, c; at right, shorter dotted lines labelled b and d]
 
+[Curated heading level=2 type=theorems: Theorema 33 Propositio 33]
+
 ## Eucli. ex Zamb. Theorema 33 Propositio 33
 
 [Curated heading level=3 type=zamberti_sequence: 33.]
@@ -57,6 +61,8 @@ THEON ex Zamberto. Numerus enim α, dimidium habeat imparem. Dico quod α parite
 CAMPANVS. Sit numerus a, non duplus a duobus, cuius medietas quæ sit b, ponatur par: dico ipsum esse pariter parem & impariter. Sit enim c binarius, de quo manifestum est quod ipse numerat a secūdum b: quia uero a non est duplus a duobus, necesse est si eius medietas quæ est b, in alias duas medietates diuidatur, medietatisq̃ medietas in alias duas, ut tandem occurrat numerus impediēs diuisionem, qui propter hoc quod diuisionem non recipit, erit impar, sitq̃ is in quo sistit diuisio, d. In numero quippe necesse est stare, quia si usq̃ ad unitatem perueniret diuisio, esset a de numeris duplis a binario, de quibus nō est. de d uero manifestum est quod & ipse numerat a per hanc cōmunem scientiā. Omnis numerus alium numerat omnem numeratū ab illo. Numeret ergo eum secundum e, eritq̃ e, par, alioquin cum d sit maior impar, sequeretur per 30 a esse imparem. Quia igitur b numerus par numerat a secundū c, qui quoq̃ est par (est enim binarius) at uero c numerus par numerat eundem secundum d qui est impar, constat ex diffinitione numerum a esse pariter parem & impariter, quod est propositum.
 
 [Diagram: dotted lines labelled a, b, c; at right, shorter dotted lines labelled d and e]
+
+[Curated heading level=2 type=theorems: Theorema 34 Propositio 34]
 
 ## Eucli. ex Zamb. Theorema 34 Propositio 34
 

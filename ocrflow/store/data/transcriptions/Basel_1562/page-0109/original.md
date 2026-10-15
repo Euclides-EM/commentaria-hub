@@ -1,6 +1,8 @@
 <!-- Page number: 88 -->
 <!-- Running title: Des dritten bůchs Euclidis -->
 
+[Curated heading level=2 type=propositions: XXXII. Die zweyvnnddreyſſigſt Propoſition]
+
 ## XXXII Die zweyvnnddreyſſigſt Propoſition.
 
 {dropcap:S|lines=2|style=plain}o ain rechte linj ainen zirckel berüert / vnd von dem puncten der berürung ain rechte linj durch den zirckel geht den zirckel inn zwai ſtuck zertailenden / werden die winckel welche diſe linj mit der berürenden macht / glych ſein den wincklen / welche auff der andern ſeitten inn des zirckels ſtuckhen ſtehn.

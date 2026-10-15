@@ -10,6 +10,10 @@ Zweiter Fall. Wenn dieſe Ebene nicht gegeben iſt, ſo ziehe man die gerade Lin
 
 Da die gerade Linie AC ſich in einer Ebene dreht, und in jeder Lage nicht nur ihr einer Endpunkt A unverrückt bleibt, ſondern auch ihre Größe ſich nicht ändert, ſo daß, wenn ſie in ihre erſte Lage zurückkehrt, ihr Endpunkt C wiederum im gegebenen Punkt C liegt, ſo beſchreibt ſie eine ebene Figur, und zwar eine ſolche, in der alle vom Punkt A zu beliebigen Punkten ihres Umfangs gezogenen geraden Linien der AC gleich, alſo auch einander gleich ſind. (1 Grundſ.) Folglich iſt dieſe Figur ein Kreis. (15 Erkl.)
 
+[Curated heading level=2 type=propositions: N. 1 Zweiter Satz. Aufgabe.]
+
+[Curated heading level=2 type=problems: N. 1 Zweiter Satz. Aufgabe.]
+
 ## N. 1 Zweiter Satz. Aufgabe. (Fig. 1.)
 
 Auf einer gegebenen geraden Linie AB in einer gegebenen Ebene ein gleichſeitiges Dreieck zu beſchreiben.

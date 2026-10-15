@@ -11,6 +11,10 @@ Demonstr.
 33. 1 | bc 2|2 & == ef,
 concl. α. 8.1 | <bac 2|2 <edf.
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. XI.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. XI.]
+
 ## PROBL. I. PROPOS. XI.
 
 A dato puncto in sublimi, ad subjectum planum perpendicularem rectam lineam ducere.

@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
+[Curated heading level=2 type=propositions: THEOR. I. PROPOS. I.]
+
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. I.]
+
 ## THEOR. I. PROPOS. I.
 
 Rectæ lineæ pars quædam non est in subiecto plano, quædam verò in sublimi.
@@ -24,6 +28,10 @@ suppos. | acb, est ——,
 hyp. | acf, est ——,
 contr. 10. a. 1.
 concl. 21.a.1 | cb, est ꝗn plan. de.
+
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. II.]
 
 ## THEOR. II. PROPOS. II.
 

@@ -8,6 +8,10 @@ Et angle de AB, BM ſera egal au quarré de BF. Derechef puis que les coſtez A
 
 Par cecy eſt manifeſte qu’vne ligne droicte tiree du centre, & laquelle diuiſe en deux egalement vn arc, diuiſe außi la ligne ſubtendente d iceluy arc en deux egalement, & a angles droicts. Eſt auſſi cuident que le diametre di cercle tire de l’angle du pentagone, diuiſé en deux egalement l’arc que le coſté oppoſe à iceluy angle ſubt. nd, comme außi iceluy coſté oppoſé, & a angles droicts. Car il a eſte demõſeré que le diametre AG tiré du poinct A, diuiſé en d’ux egalement l’are CD, lequel le coſté oppoſé CD ſubtend: Parquoy par ce que deſſus, il couppera außi en deux egalemẽt & a angles droic: iceluy coſté CD. La meſme demonſtration ſera en tout poiygone equilateral inſcrit au cercle, lenombre des coſtez eſtant impair.
 
+[Curated heading level=2 type=propositions: THEOR. 11. PROP. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. 11. PROP. XI.]
+
 ## THEOR. 11. PROP. XI.
 
 Si dans vn cercle ayant le diametre rationel. on inſerit vn pentagone equilateral; le coſté du pentagone eſt irrationel: appellé ligne mineure.

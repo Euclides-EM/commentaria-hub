@@ -6,6 +6,10 @@ ervenoiculoire Du, ſeou qe l erconferenee auc at ’oupee en deur egalenent en 
 
 ſerout egales.
 
+[Curated heading level=2 type=propositions: THEOR. 27. PROP. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 27. PROP. XXXI.]
+
 ## THEOR. 27. PROP. XXXI.
 
 An cercle, langle qui eſt au demy cercle eſt droit: & celuy qui eſt en la plus grande legvion eſt plus peut qu’vn droict. Mais ceſuy oui eſt en la plus petite eſt plus grand qu vn droict Et d’auantage l’angſe de la plus grande ſetvon eſt bien plus granc qu vn droictmais langle de la plus peute ſecton eſt plus peut

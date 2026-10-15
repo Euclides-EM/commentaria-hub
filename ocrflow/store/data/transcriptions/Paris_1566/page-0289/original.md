@@ -2,6 +2,8 @@
 
 *A D tota A I maius poterit congruente D I, eò quòd fit à ſibi commenſurabili longitudine, & inſuper ipſarū A I D I neutra propoſitæ A G longitudine cōmenſurabilis erit, per tertiam diffinitionem apotomarum. Media igitur erunt A K & D K, per 21 huius, ſibique inuicem incommenſurabilia, per primam ſexti, cùm A I & D I longitudine ſint incommenſurabiles, per conſtructionem, cùm autem (vt proximis oſtendimus) tota A I ſecta ſit in Z per commenſurabiles longitudine, A Z Z I, per applicationem æqualis ei quod à dimidia D E minoris D I, ſcilicet quod ſub A Z Z I, commenſurabilia erunt (per primam ſexti) A C Z K adinuicem, & toti A K per vndecimam huius, cum autem A K & D K fuerint incommenſurabilia, ipſi autem A K commenſurabile fuit Z K, ipſi verò D K commenſurabile fuit E K, eius dimidium, ipſa itaque Z K & E K incommenſurabilia erunt, per coroll. tertium decimæ huius, cæterùm cùm media ſint A C Z K, media erunt quadrata L M N X (eis æqualia conſtructa) & cōmenſurabilia ſicuti, & illa A C Z K. Binæ igitur L O O N (illa potentes) mediæ erunt (per 21 huius) & potentia commenſurabiles, & tantùm, nam rectangula L X N X æqualia ſunt (per conſtructionem) ipſis E K Z K incommenſurabilibus oſtenſis, & ideo (per primam ſexti) rectæ L O O N in ipſorum L X N X ratione, erunt longitudine incommenſurabiles. Binæ igitur mediæ L O O N potentia tantùm cōmenſurabiles, comprehendunt L X medium, cùm ſit æquum ipſi E K, medij D K dimidio, reliqua igitur L N erit apotome ſecunda, mediæ, per 75 huius, quæ quidem L N poteſt quadratum S H æquum conſtructum ipſi A B. Eadem itaque L N mediæ apotome ſecunda, poterit ipſum A B ſub certa A G & apotome tertia A D comprehenſum. Si igitur areola comprehendatur, &c.*
 
+[Curated heading level=2 type=propositions: Propoſitio nonageſimaquarta.]
+
 ## Propoſitio nonageſimaquarta.
 
 Si areola comprehendatur ſub Certa & Apotome quarta, quæ areolam poteſt, Minor eſt.
@@ -11,6 +13,8 @@ Si areola comprehendatur ſub Certa & Apotome quarta, quæ areolam poteſt, Mino
 [Diagram: rectangle with points D, E, I along the top, A at upper left, Z within, and G, B, T, C, K along the bottom]
 
 [Diagram: square with diagonal, labelled L and O at top, S and X at the sides, R, H and M at the bottom]
+
+[Curated heading level=2 type=propositions: Propoſitio nonageſimaquinta.]
 
 ## Propoſitio nonageſimaquinta.
 

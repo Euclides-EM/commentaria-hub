@@ -7,6 +7,10 @@ poſtmodùm, per nonam huius, lineam K L mediam proportionalem inter C D & D G l
 
 Sed erit promptius ex Permutata proportionalitate. Quum enim ſit A ad M vt C F ad F G: erit permutatim, A ad C F vt M ad F G. Quum igitur ſit A æquale C F, erit M æquale F G: Quare & æquale B, Quod erat conſtitutum.
 
+[Curated heading level=2 type=propositions: THEOREMA 20, PROPOSITIO XXVII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 20, PROPOSITIO XXVII.]
+
 ## THEOREMA 20, PROPOSITIO XXVII.
 ### Campano 26.
 
@@ -21,6 +25,10 @@ Eſt enim, per primam huius, A G æquale C B: & per quadrageſimamtertiam Primi,
 [Diagram: rectangle with diagonal, labelled F, G, E, D, A, C and B]
 
 Iam verò ſi A F altiùs erigatur, quàm C D, vt in ſecunda Figura: maius etiamnum erit C D ipſo A F. Eſt enim, per primam huiuſce, A G æquale G B. Ablatis ergo vtrinque duobus Supplementis Parallelogrammi E B inter ſe æqualibus: erit C D tanto maius A F, quantum eſt E F Parallelogrammum.
+
+[Curated heading level=2 type=propositions: PROBLEMA 8, PROPOSITIO XXVIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 8, PROPOSITIO XXVIII.]
 
 ## PROBLEMA 8, PROPOSITIO XXVIII.
 ### Campano 27.

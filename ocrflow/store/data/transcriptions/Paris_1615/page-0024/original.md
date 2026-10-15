@@ -2,13 +2,19 @@
 
 # ELEMENT PREMIER.
 
+[Curated heading level=1 type=definitions: ELEMENT PREMIER. DEFINITIONS.]
+
 ## DEFINITIONS.
+
+[Curated heading level=2 type=definitions: 1.]
 
 [Curated heading level=3 type=numbered_item: 1.]
 
 1. Le poinct, eſt ce qui n’a aucune partie.
 
 {dropcap:L|lines=6|style=decorated}Es Phiſiciens diſent que le poinct eſt le moindre obiect de la veuë: & iceluy peut eſtre deſcrit auec ancre ou autre choſe. Mais les Mathematiciens reietant ceſte definition, diſent que le poinct eſt vn obiect de l’intellect ſi ſubtil qu’il ne peut eſtre diuiſé en aucunes parties: Et iceluy ne ſe peut eſcrire: mais ſeulement entendre & imaginer: bien eſt vray que pour le repreſenter à nos ſens exterieurs, nous nous ſeruons du poinct Phiſique. Le poinct n’a donc aucunes des dimenſions geometriques; c’eſt à dire qu’il n’a ny llongueur, largeur ny eſpoiſſeur, mais bien eſt-il principe d’icelles.
+
+[Curated heading level=2 type=definitions: 2.]
 
 [Curated heading level=3 type=numbered_item: 2.]
 

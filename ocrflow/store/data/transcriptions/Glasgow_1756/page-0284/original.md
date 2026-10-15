@@ -9,6 +9,10 @@ d. A. Def. 5.
 
 ex rationibus a ad b, b ad c, et c ad d, quae eaedem ſunt, ſingulae ſingulis, rationibus laterum MA ad AP, NA ad AQ, et OA ad AR. latera autem AP, AQ, AR, aequalia ſunt lateribus DL, DK, DH, ſingula ſingulis. Ergo ſolidum AB habet ad ſolidum CD rationem eandem ei quae compoſita eſt ex rationibus laterum AM ad DL, AN ad DK, et AO ad DH. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXXIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXIV. THEOR.]
+
 ## PROP. XXXIV. THEOR.
 
 {dropcap:A|lines=2|style=plain}EQUALIUM ſolidorum parallelepipedorum baſes ſunt reciproce proportionales altitudinibus; et quorum ſolidorum parallelepipedorum baſes ſunt reciproce proportionales altitudinibus, ea inter ſe ſunt aequalia.

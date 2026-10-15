@@ -20,6 +20,10 @@ d. α | □.df 2|2, 5□.dh,
 22. 5 | ab π ag 2|2 de π dh,
 concl. 17.5 | ag π gb 2|2 dh π he.
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. III.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. III.]
+
 ## THEOR. III. PROPOS. III.
 
 Idem circulus comprehendit & dodecaedri pentagonum, & icosaedri triangulum, eidem sphæræ inscriptorum.

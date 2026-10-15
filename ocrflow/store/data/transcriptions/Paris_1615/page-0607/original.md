@@ -8,6 +8,10 @@ par la 2 p.s comme BD ſeua DC, e eſt a direa nr, ainſ en unr ſeraaED: & paru
 
 Dounot a teuduict eeſte protaſition ainſ. Si deux lignes droictes ſont tirees d’angle en angle en v pentgone eouongle, a coularerl. elles ſe coupoérontli nel autre en lamoyennes extreme raiſon, & leurs plus grads ſegmens ſeront egoux aus coſtez dun pentagone. Ccequeſant ainſ,. l prtoſiion ne ſeroit vniuoſellenent vroye car ileſf emident que ſi on uireduux ligaes droies de l’angle aaur antles Cc D,oudel angle B ’aux angles D& e, &c. Ieiſesi gnes droicles ne ſe coupperons point.
 
+[Curated heading level=2 type=propositions: THEOR. 9. PROP. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. 9. PROP. IX.]
+
 ## THEOR. 9. PROP. IX.
 
 La ligne droicte compoſee du coſté de l’he xagone, & du coſté du decagone, tous deux inſerits en vn meſme cercle; eſt couppee en la moyenne &extreme raiſon, de laquelle le plus grand ſegment eſt le coſté de l’hexagone.

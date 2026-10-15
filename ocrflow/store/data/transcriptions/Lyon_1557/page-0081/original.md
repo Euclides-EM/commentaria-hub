@@ -3,6 +3,10 @@
 
 Cæterùm ex his duabus Theonis, vnam fecimus : quòd tam ſint hæc duo capita coniuncta, quàm duo ſequentia.
 
+[Curated heading level=2 type=propositions: THEOREMA 11, PROPOSITIO XII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 11, PROPOSITIO XII.]
+
 ## THEOREMA 11, PROPOSITIO XII. Theoni 13.
 
 Circulus Circulum non tangit in pluribus punctis vno: & ſi introrsùm, & ſi extrinſecus tangat.
@@ -26,6 +30,10 @@ A L I T E R. Si ſeſe contingant in duobus punctis, vt in C & D : ducatur linea
 [Diagram: two externally tangent circles with points B, H, C, G, F, D and A marked, lines connecting the centres and contact points]
 
 Poteſt etiam duci linea recta à Centro ad Centrum: Quæ tranſibit, verbi gratia, per C, alterum contactuum : ex antecedente. Ac tum connexis G D & H D, fiet Triangulũ, cuius duo latera G D & H D non erunt maiora latere G C H, contra vigeſimam Primi.
+
+[Curated heading level=2 type=propositions: THEOREMA 12, PROPOSITIO XIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 12, PROPOSITIO XIII.]
 
 ## THEOREMA 12, PROPOSITIO XIII. Theoni 14.
 

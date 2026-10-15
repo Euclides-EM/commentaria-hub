@@ -1,5 +1,9 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XII.]
+
 ## THEOR. XII. PROPOS. XII.
 
 Si tant de grandeurs qu'on voudra sont proportionelles: comme l'vne des antecedentes sera à l'vne des consequentes, ainsi toutes les antecedentes seront à toutes les consequentes.

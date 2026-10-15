@@ -3,13 +3,19 @@
 
 tionem, tamen eam habent habitudinem ſiue reſpectum, qui ratio dicitur inter quantitates eiuſdem generis, tertia diffinitione quinti, vt latius proœmio diximus. Quare poſthac cùm omnem irrationalis aut rationalis, licet tritam denominationem, ab huius decimi libri theorematis (lineis ac planis immerito attributam) auferemus, eamque rationalis aut irrationalis vocem in certam aut incertam (propriam earum denominationem) conuertemus, Id nos feciſſe, vt veram harum quantitatum determinatarum aut indeterminatarum ſignificationem propria voce reſonemus. Quinetiam vt impropriarum dictionum (rationalis & irrationalis) alluſionem euitemus, eos qui hæc legerint, arbitrari precamur. Omnium igitur ſibiinuicem incommenſurabilium quamlibet certam dicere poterimus, cùm ea nobis propoſita ea de cauſa fuerit, vt illi reliquas conferentes certas aut incertas dicamus, hypotheſis etenim lineam proponens eam certam denominat, vt ait quinta diffinitio, quæ propoſitam certam dicit, eò quòd propoſita fuerit.
 
+[Curated heading level=2 type=definitions: Diffinitio octaua.]
+
 ## Diffinitio octaua.
 
 Et quod quidem à propoſita recta linea quadratum certum.
 
+[Curated heading level=2 type=definitions: Diffinitio nona.]
+
 ## Diffinitio nona.
 
 Et quæ huic commenſurabilia, certa.
+
+[Curated heading level=2 type=definitions: Diffinitio decima.]
 
 ## Diffinitio decima.
 

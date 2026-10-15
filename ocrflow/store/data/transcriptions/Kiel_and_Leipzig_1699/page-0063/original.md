@@ -8,6 +8,10 @@ AB | bc. a.
 AF | ac ß.
 und BF | ba γ. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der XXIII. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 9. Werck-Stück. Der XXIII. Vortrag.]
+
 ## Der XXIII. Vortrag.
 
 ## Das 9. Werck-Stück.

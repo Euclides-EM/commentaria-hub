@@ -4,17 +4,23 @@ Or les Mathematiciens, qui considerent les grandeurs separées de toute matiere,
 
 • A
 
+[Curated heading level=2 type=definitions: DEF. II.]
+
 ### II.
 
 La Ligne est vne longueur sans largeur.
 
 La ligne se definit aussi estre le flux ou coulement d'vn poinct, parce qu'elle n'a aucune grosseur.
 
+[Curated heading level=2 type=definitions: DEF. III.]
+
 ### III.
 
 Les extremitez de la ligne sont poincts.
 
 Toute ligne, & toute grandeur, est terminée actuellement, & le Mathematicien ne considere aucune quantité qu'elle ne soit terminée : & quand Euclide parle de la ligne infinie, il entend qu'elle n'est point terminée, & quelle a telle longueur qu'on voudra.
+
+[Curated heading level=2 type=definitions: DEF. IV.]
 
 ### IV.
 

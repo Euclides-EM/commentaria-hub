@@ -7,6 +7,10 @@ solidité du tronc de pyramide ou celle du tronc de cône, a pour mesure ⅓ OP 
 * 20. 6.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+
 ## PROPOSITION VII.
 
 ### THÉORÊME.

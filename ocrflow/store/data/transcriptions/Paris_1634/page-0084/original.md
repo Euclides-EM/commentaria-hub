@@ -22,6 +22,10 @@ Sed triangulum ABC tria habet æqualia latera. | Mais le triangle ABC a trois co
 
 Igitur triangulum ABC est æquilaterum. | Donc le triangle ABC est equilateral.
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. II.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. II.]
+
 ## PROBL. II. PROPOS. II.
 
 Ad datum punctum, datæ rectæ lineæ æqualem rectam lineam ponere.

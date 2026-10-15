@@ -21,6 +21,10 @@ hyp. | a *eſt* • D. *en* bc,
 
 *Demonſtr. eſt au ſchol. 15.4.*
 
+[Curated heading level=2 type=propositions: PROBL. VII. PROPOS. XII.]
+
+[Curated heading level=2 type=problems: PROBL. VII. PROPOS. XII.]
+
 ## PROBL. VII. PROPOS. XII.
 
 Sur vn ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle abaisser vne ligne perpendiculaire.

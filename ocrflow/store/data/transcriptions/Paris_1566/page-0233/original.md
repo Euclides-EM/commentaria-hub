@@ -2,9 +2,11 @@
 
 tionem huius, quoniam D metitur AB BG partes, totam AG componentes, ipſa D metitur totam AG. Quæ igitur AG vtrique partium AB & BG commenſurabilis eſt. Siquidem ponamus totam AG vni earum AB commenſurabilem eſſe: Dico AB BG eſſe commenſurabiles. Nam metiatur datas AB AG commenſurabiles, aliqua D magnitudo. Quia igitur D metitur totam AG & ablatam AB, Ipſa D metietur & reliquam BG, per ſecundam communem ſententiam ſeptimi: eadem igitur D metiens binas AB BG, efficit eas commenſurabiles. Si itaque binæ magnitudines, &c.
 
-## Corollarium.
+### Corollarium.
 
 Hinc aſſequimur, Si tota vni earum fuerit commenſurabilis, & reliqua commenſurabilis erit. Eadem etenim D omnes metitur, per ſecundam communem ſententiam ſeptimi.
+
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
 
 ## Propoſitio duodecima.
 
@@ -16,9 +18,11 @@ Sint binæ AB BG incommẽſurabiles: Dico totam AG incommenſurabilem eſſe vt
 
 [Diagram: a horizontal line divided at B with endpoints A and G, and a shorter line labelled D beneath]
 
-## Corollarium.
+### Corollarium.
 
 Et proinde, Si tota vni earum ſit incommenſurabilis, & reliquæ incommenſurabilis erit. Nam ſi alteri commenſurabilis eſſet, & reliqua commenſuraretur (per corollarium præcedentis) contra poſitum, &c.
+
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
 
 ## Propoſitio decimatertia.
 

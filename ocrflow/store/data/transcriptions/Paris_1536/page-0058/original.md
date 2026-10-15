@@ -12,6 +12,10 @@ Notandum.
 
 ¶In triangulis itaque rectangulis, duobus lateribus datis, ipsorum adminiculo, deuenire licebit in cognitionem reliqui : per quadratorum nempe tum additionem, tum subductionem adinuicem , & lateris seu radicis eorundem inuestigationem. Quemadmodùm in dimetiendis rerum passim offendes magnitudinibus.
 
+[Curated heading level=2 type=propositions: Theorema 34, Propositio 48.]
+
+[Curated heading level=2 type=theorems: Theorema 34, Propositio 48.]
+
 ## Θεώρημα λδ, Πρόθεσις μη.
 
 ΕΑν τριγώνου τὸ ἀπὸ μιᾶς τῶν πλευρῶν τετράγωνον, ἴσον ᾖ τοῖς ἀπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν τετραγώνοις, ἡ περιεχομένη γωνία ὑπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν ὀρθή ἐστι.

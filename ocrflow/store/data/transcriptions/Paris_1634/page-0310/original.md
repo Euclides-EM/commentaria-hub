@@ -39,6 +39,10 @@ c.4.5 | bc π ab 2|2 ef π de, α
 1.concl. c.4.5 | ab π ac 2|2 de π df,
 2.concl. α.2.s18.5 | bc π ac 2|2 ef π df.
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XIX.]
+
 ## THEOR. XIX. PROPOS. XIX.
 
 Si quemadmodum totum ad totum, ita ablatum se habuerit ad ablatum : & reliquum ad reliquum, vt totum ad totum, se habebit.

@@ -45,6 +45,10 @@ Tertio, Sit A minor C, erit et D minor F. quoniam enim A minor eſt C, erit C ma
 
 [Diagram: six vertical lines arranged in two groups, labelled A, B, C above D, E, F]
 
+[Curated heading level=2 type=propositions: PROP. XXI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXI. THEOR.]
+
 ## PROP. XXI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint tres magnitudines, et aliae ipſis numero aequales, quae binae ſumantur in eadem ratione; ſit autem perturbata earum proportio; prima autem major ſit quam tertia, et quarta quam ſexta major erit; et ſi aequalis, aequalis; et ſi minor, minor.

@@ -3,6 +3,10 @@
 
 [Figure: two parallelograms sharing point B: parallelogram A D B F above with dotted line D H and point E to the right, parallelogram B E C G below, with a dotted semicircle on line F E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV. THEOREME IX.]
+
+[Curated heading level=2 type=theorems: THEOREME IX. PROPOSITION XIV.]
+
 ## PROPOSITION XIV. *THEOREME IX.*
 
 {dropcap:D|lines=2|style=plain}Ans les Parallélogrammes égaux (AB, BC), qui ont un angle (FBD) égal à un angle (GBE), les côtés (FB, BD & GB, BE), alentour de ces angles egaux, ſont réciproquement proportionels (c. à. d. FB : BE ═ GB : BD). Et les Parallélogrammes, qui ont un angle (FBD) égal à un angle (GBE) & les côtés (FB, BD & GB, BE), alentour de ces angles égaux, réciproquement proportionels, ſont égaux.

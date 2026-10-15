@@ -14,6 +14,8 @@ IDEM aliter. Sicut præmissis ad lineam d e quæ sit rationalis in longitudine, 
 
 [Diagram: line a c divided at b, labelled a, b, c; below it, a rectangle on base e d, divided by the horizontal line f g into an upper compartment (b at upper right) and a lower compartment; f at middle left, g at middle right, e and d at the bottom corners]
 
+[Curated heading level=2 type=theorems: Theorema 27 Propositio 39]
+
 ## Eucli. ex Zamb. Theorema 27 Propositio 39
 
 [Curated heading level=3 type=zamberti_sequence: 39.]

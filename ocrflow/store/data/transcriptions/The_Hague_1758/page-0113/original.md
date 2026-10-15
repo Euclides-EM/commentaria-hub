@@ -4,6 +4,10 @@
 
 [Figure: circle with points E, C, A, D, B; chord AB with midpoint D, dotted lines from C to A, D and B]
 
+[Curated heading level=2 type=propositions: PROPOSITION II. THEOREME I.]
+
+[Curated heading level=2 type=theorems: THEOREME I. PROPOSITION II.]
+
 ## PROPOSITION II. THEOREME I.
 
 {dropcap:S|lines=2|style=plain}I on prend deux points quelconques (A & B) dans la circonférence d'un cercle (AEB): la droite (AB), qui joint ces deux points, tombera au dedans du cercle.

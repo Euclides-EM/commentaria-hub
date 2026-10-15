@@ -12,6 +12,8 @@ EODEM modo oſtendes, ita eſſe triangulum ſupra ſecundam ad triangulum ſupr
 
 [Curated heading level=2 type=campanus: 18]
 
+[Curated heading level=2 type=theorems: THEOR. 14. PROPOS. 20.]
+
 ## THEOR. 14. PROPOS. 20.
 
 [Margin]

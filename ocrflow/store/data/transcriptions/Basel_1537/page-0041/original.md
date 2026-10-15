@@ -6,6 +6,8 @@ b c & e f æquales, & inter lineas a g & b h æquidistantes, dico eos esse æqua
 
 [Diagram: triangles a b c and d e f on equal bases b c and e f between parallels a g and b h, with lines c k and f l drawn; letters a, k, d, l, g above and b, c, e, f, h below]
 
+[Curated heading level=2 type=theorems: Theorema 28. Propositio 38.]
+
 ## Eucli. ex Zamb. Theorema 28. Propositio 38.
 
 [Curated heading level=3 type=zamberti_sequence: 38.]

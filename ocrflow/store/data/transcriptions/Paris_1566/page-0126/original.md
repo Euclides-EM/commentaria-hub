@@ -5,6 +5,8 @@ Quod enim hic vocat figuræ altitudinem, vocauit 35 primi, & ſex eam ſequentib
 
 [Diagram: solid and plane figures labelled A, B, C and D]
 
+[Curated heading level=2 type=definitions: Diffinitio quinta.]
+
 ## Diffinitio quinta.
 
 Ratio ex rationibus conſtare dicitur, quando rationum quantitates inter ſe multiplicatæ, aliquam efficiunt rationem.

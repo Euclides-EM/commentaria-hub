@@ -4,11 +4,15 @@
 
 [Figure]
 
+[Curated heading level=2 type=definitions: DEF. XXXIII.]
+
 ### XXXIII.
 
 Mais outre ces figures, toutes les autres quadrilateres sont appellées trapezes, comme GNDH.
 
 [Figure]
+
+[Curated heading level=2 type=definitions: DEF. XXXIV.]
 
 ### XXXIV.
 
@@ -17,6 +21,8 @@ Paralleles sont lignes droictes, lesquelles estant en vn mesme plan, & prolongé
 [Figure]
 
 *Euclide a icy fini les definitions du premier liure, les deux suiuantes sont de Clauius, & celles qui suiuent nous les auons adioustées.*
+
+[Curated heading level=2 type=definitions: DEF. XXXV.]
 
 ### XXXV.
 

@@ -6,6 +6,8 @@ quentes conſequentem; ſi de proportionibus N, ad B, & C, ad F, vel D, ad G, ve
 
 [Curated heading level=2 type=campanus: 17]
 
+[Curated heading level=2 type=theorems: THEOR. 18. PROPOS. 20.]
+
 ## THEOR. 18. PROPOS. 20.
 
 [Margin]

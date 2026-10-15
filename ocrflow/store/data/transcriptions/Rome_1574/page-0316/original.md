@@ -7,6 +7,8 @@ cta D, E, F, donec circulum contingat in A; Hoc conceſſo, manifeſtum eſt, qu
 
 [Curated heading level=2 type=campanus: 16]
 
+[Curated heading level=2 type=problems: PROBL. 2. PROPOS. 17.]
+
 ## PROBL. 2. PROPOS. 17.
 
 [Curated heading level=3 type=incipit: A DATO]

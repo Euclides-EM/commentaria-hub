@@ -4,6 +4,10 @@
 
 Ist also bey jedwedem △, wan dessen eine Seite verlängert wird/ der auswendige Winckel viel grösser / als einer derer inwendig gegen überstehenden Winckel. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XVII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 10. Beweiß-Stück. Der XVII. Vortrag.]
+
 ## Der XVII. Vortrag.
 
 ## Das 10. Beweiß-Stück.

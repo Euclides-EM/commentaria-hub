@@ -8,6 +8,8 @@ HOC quoque oſtendemus uniuerſe propoſ. 24. in omni genere proportionis.
 
 [Curated heading level=2 type=campanus: 7]
 
+[Curated heading level=2 type=theorems: THEOR. 7. PROPOS. 7.]
+
 ## THEOR. 7. PROPOS. 7.
 
 [Margin]

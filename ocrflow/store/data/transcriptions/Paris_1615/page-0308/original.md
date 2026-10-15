@@ -4,6 +4,10 @@
 
 antres qui pourroient ſuiure en la meſme progreſsion. Mais pour autant que A prochain de l’vnité, eſt nombre premier, par la 13.p.9. aucun autre nombre ne meſurera aucun de tous ceux qui ſont en la progreſsion, ſinon ceux de la meſme progreſsion, leſquels eſtans tous pairs, iceux nombres ſeront pairement pairs ſeulement.
 
+[Curated heading level=2 type=propositions: THEOR. 31. PROP. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 31. PROP. XXXIII.]
+
 ## THEOR. 31. PROP. XXXIII.
 
 Si la moitié d’vn nombre eſt impair, iceluy nombre ſera ſeulement pairement impair.

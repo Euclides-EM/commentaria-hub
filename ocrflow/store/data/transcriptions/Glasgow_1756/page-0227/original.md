@@ -1,6 +1,10 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 214 -->
 
+[Curated heading level=2 type=propositions: PROP. XXXI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXI. THEOR.]
+
 ## PROP. XXXI. THEOR.
 
 {dropcap:I|lines=2|style=plain}N triangulis rectangulis figura rectilinea quae fit a latere rectum angulum ſubtendente, aequale eſt eis quae a lateribus rectum angulum continentibus fiunt, ſimilibus et ſimiliter deſcriptis.

@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. XXXVIII.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. XXXVIII.]
+
 ## PROBL. V. PROPOS. XXXVII{printer-error-correction:XXXVIII}.
 
 Tribus numeris datis reperire, quem illi minimum metiantur, numerum.

@@ -1,6 +1,10 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 107 -->
 
+[Curated heading level=2 type=propositions: PROP. XXXVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXVI. THEOR.]
+
 ## PROP. XXXVI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I extra circulum aliquod punctum ſumatur, et ab eo in circulum cadant duae rectae lineae, quarum altera quidem circulum ſecet, altera vero contingat; rectangulum quod a tota ſecante, et exterius aſſumpta inter punctum et convexam circumferentiam continetur, aequale erit quadrato ex contingente.

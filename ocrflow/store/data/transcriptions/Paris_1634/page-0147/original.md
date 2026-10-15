@@ -22,6 +22,10 @@ hyp. | gc est 2,
 1.s.1.d.2 | oh ▭.eb,gc est 4,
 2.a.1. | aggreg. ▭ah est 70.
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. II.]
+
 ## THEOR. II. PROPOS. II.
 
 Si recta linea secta sit vtcunque : Rectangula, quæ sub tota, & quolibet segmentorum comprehenduntur, æqualia sunt ei, quod à tota fit, quadrato.

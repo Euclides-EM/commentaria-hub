@@ -15,6 +15,10 @@ Demonstr.
 29. 11 | ◇piped. adcbimlк 2|2 ◇piped. adcbponq,
 concl. 1. a. 1 | ◇piped. adcbhefg 2|2 ◇piped. adcbimlк.
 
+[Curated heading level=2 type=propositions: THEOR. XXVI. PROPOS. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVI. PROPOS. XXXI.]
+
 ## THEOR. XXVI. PROPOS. XXXI.
 
 Solida parallelepipeda super æquales bases cōstituta, & in eadem altitudine, æqualia sunt inter se.

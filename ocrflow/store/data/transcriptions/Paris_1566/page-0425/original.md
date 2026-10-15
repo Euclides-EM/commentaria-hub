@@ -4,6 +4,10 @@ Sit propoſitum octahedrum A B C D, ſibi verò inſcriptũ icoſahedrũ eſto F
 
 [Figure: octahedron with inscribed icosahedron, points labelled A, F, G, R, L, B, I, E, D, H, S, K, M, C]
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſecunda.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio trigeſimaſecunda.]
+
 ## Propoſitio trigeſimaſecunda.
 
 Icoſahedri ſolidi ad ſibi inſcriptum dodecahedri ſolidum ratio conſtat, ex ratione lateris Icoſahedri ad latus cubi eadem Sphæra comprehẽſi, & ratione tripla dimetiẽtis, ad eam quæ coniungit oppoſitarum Icoſahedri baſium centra.

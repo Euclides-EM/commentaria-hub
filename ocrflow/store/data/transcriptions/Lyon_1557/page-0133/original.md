@@ -1,6 +1,10 @@
 <!-- Page number: 124 -->
 <!-- Running title: ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: THEOREMA 7, PROPOSITIO VII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 7, PROPOSITIO VII.]
+
 ## THEOREMA 7, PROPOSITIO VII.
 
 Aequales, ad eandem habent eandem rationem: & eadem ad æquales.
@@ -14,6 +18,10 @@ Dico etiam C ad vtranque ipſarum A & B, eandem habere rationem. Nam ijſdem po�
 [Diagram: horizontal lines labelled D, E, A, B, C and F]
 
 HOC poſterius poterit expeditiùs demonſtrari. Nam quum conſtiterit ſicut D ad C, ita E ad C: erit conuerſo modo, per Conſectarium quartæ huius, ſicut C ad A, ita C ad B. Et hoc Theorema ex ijs eſt, quæ inter animi ſenſa habenda eſſe videbantur.
+
+[Curated heading level=2 type=propositions: THEOREMA 8, PROPOSITIO VIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 8, PROPOSITIO VIII.]
 
 ## THEOREMA 8, PROPOSITIO VIII.
 

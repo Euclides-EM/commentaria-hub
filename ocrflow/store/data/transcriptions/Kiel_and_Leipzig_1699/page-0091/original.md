@@ -8,6 +8,10 @@ Gleiche Bewandniß hat es / wenn man den Nebenstrich durch G ziehen wolte.
 
 Müssen also alle gleichgrosse △ △ , so auff gleichlangen Grundstrichen gleichmäßig stehen/ auch zwischen einerley Nebenstrichen stehen. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XLI. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 31. Beweiß-Stück. Der XLI. Vortrag.]
+
 ## Der XLI. Vortrag.
 
 ## Das 31. Beweiß-Stück.

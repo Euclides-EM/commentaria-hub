@@ -22,6 +22,8 @@ CAMPANVS. Quod si superficies aliqua secet corpus serratile æquidistāter duobu
 
 [Diagram: elongated triangular prism (corpus serratile) divided by parallel transverse triangular sections; the letters a, g, d along the top; b, b, e within; c, k, f along the bottom]
 
+[Curated heading level=2 type=theorems: Theorema 22 Propositio 25]
+
 ## Eucli. ex Zamb. Theorema 22 Propositio 25
 
 [Curated heading level=3 type=zamberti_sequence: 25.]

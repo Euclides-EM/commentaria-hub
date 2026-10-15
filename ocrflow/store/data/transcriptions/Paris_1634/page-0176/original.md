@@ -28,6 +28,10 @@ hyp. | cb est 5,
 hyp. | cb est 5,
 concl. 1.s.1.d.2 | bd est 2⅗.
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XIII.]
+
 ## THEOR. XII. PROPOS. XIII.
 
 In oxygoniis triangulis, quadratum à latere angulum acutum subtendente minus est quadratis, quæ fiunt à lateribus acutum angulum comprehendentibus, rectangulo bis comprehenso, & ab vno

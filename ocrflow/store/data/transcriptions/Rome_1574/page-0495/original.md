@@ -18,6 +18,8 @@ I, recta IK, lateri CD, parallela, & ſic deinceps, donec omnia latera ſuas hab
 
 [Curated heading level=2 type=campanus: 17]
 
+[Curated heading level=2 type=theorems: THEOR. 13. PROPOS. 19.]
+
 ## THEOR. 13. PROPOS. 19.
 
 [Curated heading level=3 type=incipit: SIMILIA]

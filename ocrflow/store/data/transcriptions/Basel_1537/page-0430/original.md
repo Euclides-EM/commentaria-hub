@@ -8,6 +8,8 @@ corpus multarum baſium quod eſt c d, utraque enim, eſt ſicut diameter a b ad
 
 [Diagram: circle with inscribed hexagonal solid and inner circle, labels c (top), e (inner), f (inner), d (bottom)]
 
+[Curated heading level=2 type=theorems: Theorema 16 Propoſitio 18]
+
 ## Eucli. ex Zamb. Theorema 16 Propoſitio 18
 
 [Curated heading level=3 type=zamberti_sequence: 18.]

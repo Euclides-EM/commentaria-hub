@@ -9,6 +9,10 @@ d. 5. Def. 5.
 
 axis EK ad axem KF, ut BG cylindrus ad cylindrum GD. Quare ſi cylindrus plano ſecetur &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIV. THEOR.]
+
 ## PROP. XIV. THEOR.
 
 {dropcap:S|lines=2|style=plain}Uᴘᴇʀ aequalibus baſibus exiſtentes coni et cylindri, inter ſe ſunt ut altitudines.

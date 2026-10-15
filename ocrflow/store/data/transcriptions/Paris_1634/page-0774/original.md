@@ -6,6 +6,10 @@ Itaque si fuerint duo anguli plani æquales, quorum verticibus sublimes rectæ l
 
 *Partant s'il y a deux angles plans egaux, des sommets desquels lon ait mené en l'air des lignes droictes egales, contenant angles egaux auec les lignes premierement posees, chacun au sien: les perpendiculaires menees des extremes d'icelles lignes esleuees en l'air sur les plans des angles premierement posez, seront egales entr'elles.*
 
+[Curated heading level=2 type=propositions: THEOR. XXXI. PROPOS. XXXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXI. PROPOS. XXXVI.]
+
 ## THEOR. XXXI. PROPOS. XXXVI.
 
 Si tres rectæ lineæ proportionales fuerint; quod ex his tribus fit solidum parallelepipedum, æquale est descripto à media linea solido parallelepipedo, quod æquilaterum quidem sit, æquiangulum vero prædicto.

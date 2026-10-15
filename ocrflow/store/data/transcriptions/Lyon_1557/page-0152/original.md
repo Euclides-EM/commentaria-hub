@@ -1,6 +1,10 @@
 <!-- Running title: LIBER VI. -->
 <!-- Page number: 143 -->
 
+[Curated heading level=2 type=propositions: THEOREMA PRIMVM, PROPOSITIO PRIMA.]
+
+[Curated heading level=2 type=theorems: THEOREMA PRIMVM, PROPOSITIO PRIMA.]
+
 ## THEOREMA PRIMVM, PROPOSITIO PRIMA.
 
 [Ornament: small leaf ornament]

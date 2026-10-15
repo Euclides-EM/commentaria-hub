@@ -20,6 +20,8 @@ CAMPANVS Sint duæ quantitates inæquales a & b c, b c maior: dico quod toties p
 
 CAMPANI annotatio. Attendere autem oportet, quod huic propositioni uidetur decima quinta tertij contradicere, proponens angulum contingentiæ minorem fore quolibet angulo à duabus lincis{printer-error-correction:lineis} rectis contento. Posito enim angulo quolibet rectilineo, si ab ipso maius dimidio dematur, itemq̃ de residuo maius dimidio, necesse uidetur hoc toties posse fieri quousque angulus rectilineus minor angulo cōtingentiæ relinquatur. cuius oppositum 15 tertij syllogizat. Sed hi nō sunt uniuoce anguli, non enim eiusdem sunt generis simpliciter curuum & rectum. At uero nec angulum contingentiæ toties contingit sumi, ut qualencunque rectilineum excedat, quod necessarium est (ut ex præhabita demonstratione patet) ad hoc ut consequens ex antecedente sequatur . Planum ergo est etiam quemlibet angulum rectilineum, infinitis angulis contingentiæ esse maiorem.
 
+[Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
+
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
 
 [Curated heading level=3 type=zamberti_sequence: 1.]

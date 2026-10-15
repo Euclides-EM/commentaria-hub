@@ -4,6 +4,8 @@
 
 cium poſthac ſequemur tantùm. Quòd ſi aliquid occurrat obſcurius, monito appoſito exponemus illico.
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſecunda.]
+
 ## Propoſitio vigeſimaſecunda.
 
 Si tres numeri continuè proportionales fuerint, primúſque fuerit quadratus, & tertius quadratus erit.
@@ -11,6 +13,8 @@ Si tres numeri continuè proportionales fuerint, primúſque fuerit quadratus, &
 Sint tres continuè proportionales numeri A B G, quorum cùm extremorum vnus ſit medius, ipſi extremi ſimiles plani erunt, per 20 huius. Quare ſi primus fuerit quadratus, & tertius (ſibi ſimilis planus) quadratus erit. Si itaque tres numeri, &c.
 
 [Diagram: three horizontal lines labelled A 4, B 6 and G 9]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimatertia.]
 
 ## Propoſitio vigeſimatertia.
 
@@ -20,6 +24,8 @@ Haud ſecus hanc oſtendet 21 huius. Cùm autem inter A & D duo medij proportion
 
 [Diagram: four horizontal lines labelled A 8, B 12, G 18 and D 27]
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquarta.]
+
 ## Propoſitio vigeſimaquarta.
 
 Si duo numeri rationem habuerint, quam quadrarus{printer-error-correction:quadratus} numerus ad quadratum numerum, Primus autem quadratus fuerit, & ſecundus quadratus erit.
@@ -27,6 +33,8 @@ Si duo numeri rationem habuerint, quam quadrarus{printer-error-correction:quadra
 Duo A & B numeri rationem habeant, quam quadrati G & D. Sit autem A quadratus: Dico & B quadratum eſſe. Quoniam duorum G & D vnus eſt medius proportionalis numerus per 11 huius. Ipſorum A & B vnus erit medius, per octauam huius, eandem enim habent rationem. Trium igitur primus A eſt quadratus, & tertius B quadratus erit, per 22 huius. Si itaque duo numeri rationem, &c.
 
 [Diagram: six horizontal lines labelled A 4, 6, B 9, G 16, 24 and D 36]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquinta.]
 
 ## Propoſitio vigeſimaquinta.
 
@@ -36,7 +44,7 @@ Duo numeri A & B rationẽ habeant quam cubus G ad cubum D. Sit autem A cubus: D
 
 [Diagram: eight horizontal lines labelled A 8, 12, 18, B 27, G 64, 96, 144 and D 216]
 
-## Corollarium.
+### Corollarium.
 
 Inter quadratum & non quadratum, non cadit ratio quadratorum. Nam ſi primus quadratus ſit & ſecundus quadratus eſſet, contra hypotheſim. Similiter inter cubum & non cubum, non cadit ratio cuborum: ſi enim primus cubus eſſet & ſecundus (contra ſuppoſitum) cubus eſſet, quod fieri non poteſt.
 

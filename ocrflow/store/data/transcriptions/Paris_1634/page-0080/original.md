@@ -6,6 +6,8 @@ hyp. | ag 2|2 ab~cd.
 hyp. | be 2|2 df.
 16.a.1. | ag 2|2 ae~cf.
 
+[Curated heading level=2 type=axioms: 17. a. 1.]
+
 ### 17. a. 1.
 
 Si ab æqualibus inæqualia demantur, erit residuorum excessus excessui ablatorum æqualis. | Si de choses egales on retranche choses inegales, l'excez des restantes sera egal à l'excez des retranchees.
@@ -15,6 +17,8 @@ Si ab æqualibus inæqualia demantur, erit residuorum excessus excessui ablatoru
 hyp. | ab 2|2 cd.
 hyp. | fg 2|2 ae~cf.
 17.a.1. | fg 2|2 fd~eb.
+
+[Curated heading level=2 type=axioms: 18. a. 1.]
 
 ### 18. a. 1.
 

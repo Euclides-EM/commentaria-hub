@@ -38,6 +38,10 @@ s.12.10 | no□.so, est ration.
 ε.l.91.10 | to & so snt ration. comm. ꝗn □,
 concl. 74. 10 | ts, est apotom.
 
+[Curated heading level=2 type=propositions: THEOR. LXIX. PROPOS. XCIII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXIX. PROPOS. XCIII.]
+
 ## THEOR. LXIX. PROPOS. XCIII.
 
 Si spatium contineatur sub rationali, & apoto-

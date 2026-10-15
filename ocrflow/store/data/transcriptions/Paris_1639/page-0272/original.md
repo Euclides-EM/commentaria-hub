@@ -1,5 +1,9 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XXI.]
+
 ## THEOR. XV. PROPOS. XXI.
 
 Les rectilignes semblables à vne mesme figure rectiligne, sont aussi semblables entr'elles.
@@ -24,6 +28,10 @@ abc *ſml.* die.
 β.1.d.6 | di π de 2|2 hf π hg,
 2.concl. 11.5 | ab π ac 2|2 di π de, γ
 3.concl. 6.6 | △abc *ſml.* △die,
+
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XXII.]
 
 ## THEOR. XVI. PROPOS. XXII.
 

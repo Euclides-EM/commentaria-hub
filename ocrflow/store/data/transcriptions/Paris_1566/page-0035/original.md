@@ -6,11 +6,13 @@ Sint triangulorum ABG & DEZ, duo latera AB, AG, duobus DE, DZ æqualia, Inſuper
 
 [Diagram: two triangles labelled A, B, G and D, E, Z]
 
-### MONITVM.
+#### MONITVM.
 
 Alteram demonſtrationem huic quartæ exhibere cogimur, ne præbeatur aditus, quo vlla mechanicorum vſuum inſtrumenta in demonſtrationes incidant. Nam Campanus ac Theon hanc demonſtrantes, triangulum triangulo ſuperponunt, angulumq́ angulo, ſiue latus lateri, demonſtrationem potius inſtrumento palpantes, quam ratione firmantes: quod tanquam prorſus alienum à vero diſciplinarum cultu reijcientes, aliam demonſtrationem abſque figuræ, anguli ſeu lineæ tranſpoſitione, protulimus ratione elucidatam.
 
-## Propoſitio quinta.
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
+
+### Propoſitio quinta.
 
 Iſoſcelis trianguli qui ad baſim ſunt anguli, adinuicem ſunt æquales: & productis æqualibus rectis, qui ſub baſi ſunt anguli, adinuicem æquales erunt.
 

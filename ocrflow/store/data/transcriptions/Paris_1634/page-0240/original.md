@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
+[Curated heading level=2 type=propositions: PROBL. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=problems: PROBL. VII. PROPOS. VII.]
+
 ## PROBL. VII. PROPOS. VII.
 
 Circa datum circulum quadratum describere.
@@ -38,6 +42,10 @@ Demonstr.
 29.d.1 | fhig est □,
 c.16.3 | γ.□hg tang: ⊙abcd
 concl. 4.d.4 | □hg est circscri. ⊙abcd.
+
+[Curated heading level=2 type=propositions: PROBL. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=problems: PROBL. VIII. PROPOS. VIII.]
 
 ## PROBL. VIII. PROPOS. VIII.
 

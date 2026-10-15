@@ -3,6 +3,10 @@
 
 COR. Ex hoc manifeſtum eſt, ſi in circulo recta linea, rectam lineam bifariam et ad angulos rectos ſecet, in ſecante erit centrum circuli.
 
+[Curated heading level=2 type=propositions: PROP. II. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. II. THEOR.]
+
 ## PROP. II. THEOR.
 
 {dropcap:S|lines=2|style=plain}I in circumferentia circuli duo quaevis puncta ſumantur, quae ipſa conjungit recta linea intra circulum cadet.

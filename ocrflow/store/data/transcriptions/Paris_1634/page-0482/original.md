@@ -37,6 +37,10 @@ suppos. | d, est pr. π. a & b,
 contr. hyp.
 concl. 21.a.1 | d, est cōpos. π. a, u b.
 
+[Curated heading level=2 type=propositions: THEOR. XXXI. PROPOS. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXI. PROPOS. XXXIII.]
+
 ## THEOR. XXXI. PROPOS. XXXIII.
 
 Omnem compositum numerum, aliquis primus numerus metitur.

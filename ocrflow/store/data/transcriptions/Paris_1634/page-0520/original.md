@@ -37,6 +37,10 @@ Ex hac demonstratione constat vnitatem esse numerum planū : si enim vnitas excl
 
 *De ceste demonstration il s'ensuit que l'vnité est vn nombre plan; car si l'vnité n'estoit nombre plan, on ne prouueroit rien quand les nombres proposez sont en raison multiple : comme il appert aux nombres du second exemple.*
 
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XXII.]
+
 ## THEOR. XX. PROPOS. XXII.
 
 Si tres numeri deinceps sint proportionales,

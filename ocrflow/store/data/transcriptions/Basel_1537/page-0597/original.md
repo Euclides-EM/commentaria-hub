@@ -6,6 +6,8 @@ Sint a & b corpora duo, sint g d & e f, spatia duo, g d maius per quod a, e f, m
 
 [Diagram: two horizontal lines: g—r—d and e—f]
 
+[Curated heading level=2 type=theorems: Theorema secundum]
+
 ## Theorema secundum
 
 EOrundem genere corporũ si ipsa inter se erunt multiplicia, erunt æque ipsorum potentiæ multiplices.
@@ -14,6 +16,8 @@ Sit corpus a g, eodem genere corpori d, duplum. dico, etiam potentia duplum esse
 
 [Diagram: horizontal lines labelled a—b—g, e—r—h, d, c]
 
+[Curated heading level=2 type=theorems: Theorema tertium]
+
 ## Theorema tertium
 
 EOrundẽ genere corporũ, proportio & magnitudine, & potentia est eadem.
@@ -21,6 +25,8 @@ EOrundẽ genere corporũ, proportio & magnitudine, & potentia est eadem.
 Sit à corpus corporis eodem genere b duplum, dico ut a corpus ad b corpus est, sic corporis a potẽtia g ad corporis b potentiam d esse. Patet si ut corpora sic potentias æque utrinque multipliciter diuidamus.
 
 [Diagram: four horizontal lines: a—s, g—r (labelled "Corpus potentia corporis a"), b, d (labelled "Corpus potentia corporis b")]
+
+[Curated heading level=2 type=theorems: Theorema quartum]
 
 ## Theorema quartum
 

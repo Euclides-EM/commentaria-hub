@@ -1,10 +1,18 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
+
+[Curated heading level=2 type=problems: Propoſitio vndecima. Problema 11.]
+
 ## Propoſitio vndecima. Problema 11.
 
 In dato Icoſahedro, cubum deſignare.
 
 Patuit ſeptima huius dodecahedri angulos, baſium icoſahedri centra poßidere: atqui octaua huius oſtenſum eſt cubi angulos in dodecahedri angulis quieſcere. Iidem itaque cubi anguli in centris baſium icoſahedri neceſſariò collocãtur. Cubus itaque icoſahedro hac de cauſa inſcriptus erit, ex 26 diffinitione vndecimi. In dato igitur icoſahedro cubum deſignauimus.
+
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
+
+[Curated heading level=2 type=problems: Propoſitio duodecima. Problema 12.]
 
 ## Propoſitio duodecima. Problema 12.
 
@@ -15,6 +23,14 @@ Simili via qua proximè diximus. Nam proxima patuit cubum ſuiipſius angulos in
 ## HACTENVS QVÆ PARTIM A MAioribus ex decimoquinto Elementorum recepimus,
 
 Subſequuntur autem quæ relicta erant perficienda.
+
+[Curated heading level=1 type=added_propositions: HACTENVS QVÆ PARTIM A MAioribus ex decimoquinto Elementorum recepimus,]
+
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
+
+[Curated heading level=2 type=problems: Propoſitio decimatertia. Problema 13.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio decimatertia.]
 
 ## Propoſitio decimatertia. Problema 13.
 

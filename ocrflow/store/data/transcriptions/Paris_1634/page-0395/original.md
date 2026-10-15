@@ -38,6 +38,10 @@ s.22.6 | ▭.ef,ab 2|2 ▭.af,fb
 1.a.1 | □.g 2|2 ▭.af,fb,
 2.concl. 17.6 | af π g 2|2 g π fb.
 
+[Curated heading level=2 type=propositions: THEOR. I. PROPOS. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. XI.]
+
 ## THEOR. I. PROPOS. XI.
 
 Inter figuras ordinatas eidem circulo adscriptas, inscripta duplo laterum numero, media proportionalis est.

@@ -10,6 +10,10 @@ Pareillement DE eſtant commenſ. en longitude à la rationele AB, auſſi ſer
 
 La rationele AB ſoit 4, AD √45—5: DE eſt done 5, & ſa moitie DF2√, & par conſequent le quarré d’icelle DF ou FE eſt 6, auquel eſtant egal le rectangle de AG, GE, icelles ſeront √31? & √15: parquoy le rectangle HE, ou quarré NO fera √20: & partant ſon ceſté SO eſt V√ 20. Mais puis que la ligne AE eſt √45, & AG √31:: le rectangle BE ſera √720, & AH, ou le quarré LM√500: & par conſequent a ligne TO eſt √√500: de laquelle eſtant oſtee SO, reſtera TS√√500√√20, qui eſt reſidu medial premier, & ſon quarré TR eſt √720I√20. Mais le rectangle AC eſt autant: car multipliant AB 4 par AD√45—s, viendra auſſi √720√20. Donc Ts reſidu medial premier peut le rectangle AC.
 
+[Curated heading level=2 type=propositions: THEOR. 70. PROP. XCIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 70. PROP. XCIIII.]
+
 ## THEOR. 70. PROP. XCIIII.
 
 Si vn rectangle eſt compris d’vne ligne rationele, & dvn reſidu troiſieſme; la ligne pouuant iceluy rectangle, eſt reſidu medial ſecond.

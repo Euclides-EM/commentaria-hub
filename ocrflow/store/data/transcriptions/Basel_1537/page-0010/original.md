@@ -2,7 +2,15 @@
 
 <!-- Page number: 1 -->
 
+[Curated heading level=1 type=theorems: Geometricorum elementorum liber primus]
+
+[Curated heading level=1 type=problems: Geometricorum elementorum liber primus]
+
+[Curated heading level=1 type=definitions: Geometricorum elementorum liber primus]
+
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI, MATHEMATICORVM facile principis: primum ex Campano, deinde ex Theone græco commentatore, interprete Bartholomæo Zamberto Veneto, Geometricorum elementorum liber primus.
+
+[Curated heading level=2 type=definitions: Ex Campano: Diffinitiones.]
 
 ## Ex Campano: triplex principiorum genus. Primum Diffinitiones.
 

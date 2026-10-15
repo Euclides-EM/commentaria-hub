@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=definitions: Definitiones tertiæ. II.]
+
 II.
 
 Si verò congruens expositæ rationali longitudine commensurabilis, vocetur apotome secunda.
@@ -7,6 +9,8 @@ Si verò congruens expositæ rationali longitudine commensurabilis, vocetur apot
 *II.*
 
 *Mais si la conuenable est commensurable en longitude à la rationelle exposee, soit appellee apotome second.*
+
+[Curated heading level=2 type=definitions: Definitiones tertiæ. III.]
 
 III.
 
@@ -20,6 +24,8 @@ Rursus si tota plus possit, quàm congruens, quadrato rectæ lineæ sibi longitu
 
 *Derechef si la toute peut plus que la conuenable du quarré d'vne ligne droicte incommensurable en longitude à icelle.*
 
+[Curated heading level=2 type=definitions: Definitiones tertiæ. IV.]
+
 IV.
 
 Si quidem tota expositæ rationali sit longitudine commensurabilis, vocetur apotome quarta.
@@ -28,6 +34,8 @@ Si quidem tota expositæ rationali sit longitudine commensurabilis, vocetur apot
 
 *Si la toute est commensurable en longitude à la rationelle exposee, soit appellee apotome quatriesme.*
 
+[Curated heading level=2 type=definitions: Definitiones tertiæ. V.]
+
 V.
 
 Si verò congruens expositæ rationali sit longitudine commensurabilis, vocetur apotome quinta.
@@ -35,6 +43,8 @@ Si verò congruens expositæ rationali sit longitudine commensurabilis, vocetur 
 *V.*
 
 *Mais si la conuenable est commensurable en longitude à la rationelle proposee, soit appellee apotome cinquiesme.*
+
+[Curated heading level=2 type=definitions: Definitiones tertiæ. VI.]
 
 VI.
 

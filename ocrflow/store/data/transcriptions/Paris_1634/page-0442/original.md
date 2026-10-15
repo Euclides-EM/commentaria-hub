@@ -8,6 +8,8 @@ In hac definitione & trib. præcedentibus vnitas est numerus.
 
 *En ceste definition, & aux trois precedentes l'vnité est nombré.*
 
+[Curated heading level=2 type=definitions: DEFINIT. XX.]
+
 ## DEFINIT. XX.
 
 Numeri proportionales sunt, cùm primus secundi, & tertius quarti, æquè multiplex est, vel eadem pars, vel denique, cùm pars primi secundum, & eadem pars tertij æquè metitur quartum.

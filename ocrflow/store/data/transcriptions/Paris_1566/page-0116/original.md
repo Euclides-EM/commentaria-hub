@@ -5,6 +5,8 @@ Sint duæ magnitudines AB GD, duarum E & Z æquemultiplices, ſint inſuper abla
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
+
 ## Propoſitio ſeptima.
 
 Æquales ad eandem, eandem habent rationem, & eadem ad æquales.
@@ -13,9 +15,11 @@ Proponantur æquales magnitudines A & B, ipſis autem alia quædam exponatur C: 
 
 [Diagram]
 
-## MONITVM.
+### MONITVM.
 
 Hanc poteramus ampliori apparatu per 5 diffinitionem oſtendere. Sed non arbitrati ſumus eam quintam eſſe, vſque adeò huic intelligentiæ vicinam vt fuit tertia, Et inſuper breuius & familiare admodum fuit hoc argumentum. Nam Theon & Campanus per primam cõmunem ſententiam hanc & præcedentem nituntur demonſtrare: quod facilius per ſecundam abſoluetur. Omnis enim æqua multiplicatio æqualium quantitatum, fit per æquales æqualiter additas magnitudines, quas ſecunda ſententia docet æquales producere.
+
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
 
 ## Propoſitio octaua.
 

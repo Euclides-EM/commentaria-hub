@@ -3,6 +3,10 @@
 
 [Diagram: within a ruled border, a rectangular parallelepiped with vertices A, B, C, D, E, F, G and H, with dotted diagonal lines across its faces]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIV. THEOREME XXI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXI. PROPOSITION XXIV.]
+
 ## PROPOSITION XXIV. THEOREME XXI.
 
 {dropcap:D|lines=2|style=plain}Ans tout Paralelipipéde (AH): Les Plans oppoſés (BD & CF, Item BE & FG, Item AF & BH) ſont des paralelogrammes ſemblables & égaux, chacun à chacun; (c. a. d. le Pgr. AG eſt égal & ſemblable au Pgr. EH &c.).

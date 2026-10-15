@@ -27,6 +27,8 @@ D, 3. E, 4. F, 6. G, 8.
 
 [Curated heading level=2 type=campanus: 19]
 
+[Curated heading level=2 type=theorems: THEOR. 19. PROPOS. 21.]
+
 ## THEOR. 19. PROPOS. 21.
 
 [Curated heading level=3 type=incipit: SI]

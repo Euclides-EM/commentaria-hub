@@ -1,6 +1,10 @@
 <!-- Page number: 198 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. XIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIX. THEOR.]
+
 ## PROP. XIX. THEOR.
 
 {dropcap:S|lines=2|style=plain}IMILIA triangula inter ſe ſunt in duplicata ratione laterum homologorum.

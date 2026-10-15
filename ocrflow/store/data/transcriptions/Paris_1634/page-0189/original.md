@@ -13,6 +13,10 @@ Explication des notes.
 
 L'angle ABC est égal à l'angle DEF, le segment du cercle ABC est semblable au segment du cercle DEF.
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. I.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. I.]
+
 ## PROBL. I. PROPOS. I.
 
 Dati circuli centrum reperire.

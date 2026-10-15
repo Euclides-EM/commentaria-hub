@@ -32,6 +32,8 @@ Vltimo quoq̃ sit a minor b maiorq̃ c, eritq̃ ut tota pars aut partes sit c, d
 
 per 9 itaq̃ uel 10 erit tota uel totæ d, b, quota uel quotæ c, a, quare per secundā partem undecimæ, b ad d, sicut a ad c, sicq̃ constat propositū. Huic autem cedunt 9 uel 10, quia hæc sola quod ambæ illæ proponit.
 
+[Curated heading level=2 type=theorems: Theorema 11 Propositio 13]
+
 ## Eucli. ex Zamb. Theorema 11 Propositio 13
 
 [Curated heading level=3 type=zamberti_sequence: 13.]

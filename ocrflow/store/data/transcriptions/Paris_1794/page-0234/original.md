@@ -15,6 +15,10 @@ avoir séparé les deux hémispheres, on les applique sur la base commune en tou
 
 *Corollaire VI.* Par deux points donnés sur la surface d’une sphere, on peut faire passer un arc de grand cercle ; car les deux points donnés et le centre de la sphere sont trois points qui déterminent la position d’un plan. Si cependant les deux points donnés étoient aux extrémités d’un diametre, alors ces deux points et le centre seroient en ligne droite, et il y auroit une infinité de grands cercles qui pourroient passer par les deux points donnés.
 
+[Curated heading level=2 type=propositions: PROPOSITION II. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION II.]
+
 ## PROPOSITION II.
 
 ### THÉORÊME.

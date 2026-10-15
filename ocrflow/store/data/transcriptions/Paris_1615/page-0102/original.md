@@ -10,6 +10,10 @@ Car eſtans menees les deux lignes CE & AE, les deux triãgles AEF, CEF auront 
 
 Ie dis pareillement que ſi BD couppe AC en angles droicts au poinct F; qu’elle la couppera auſſi en deux egallemét. Car les deux angles au poinct Feſtans droicts, ils ſeront egaux, & l’angle A eſt egal à l’angle C par la 5.p.1. eſtant AECIſoſcele & le coſté EF cõmun aux deux triangles AEF, CEF, & par la 26.p.1.AF ſera egale à CF.
 
+[Curated heading level=2 type=propositions: THEOR. 3. PROP. IIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 3. PROP. IIII.]
+
 ## THEOR. 3. PROP. IIII.
 
 Si dans le cercle deux lignes droictes ne paſſans point par le centre, s’entrecoupent, elles ne ſe couperont point l’vne l’autre en deux egallement.

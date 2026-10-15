@@ -8,11 +8,15 @@
 
 <!-- Running title: AXIOMES. -->
 
+[Curated heading level=2 type=axioms: AXIOME VIII.]
+
 ### VIII.
 
 {dropcap:L|lines=2|style=plain}E Tout eſt plus grand que ſa partie.
 
 *Toute la ligne* AC *eſt plus grande que ſa partie* BC. *Fig.* 6.
+
+[Curated heading level=2 type=axioms: AXIOME IX.]
 
 ### IX.
 

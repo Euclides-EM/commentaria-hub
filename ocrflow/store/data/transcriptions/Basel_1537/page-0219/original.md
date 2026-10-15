@@ -6,6 +6,8 @@ præmissæ, appositum erat a & b esse contra se primos, quod non apponitur hic a
 
 [Diagram: numbers represented as vertical columns of dots, labelled a, h, k, b in the upper row, c, g, e below, then d, f, and at bottom the word "unitas"]
 
+[Curated heading level=2 type=theorems: Theorema 8 Propositio 10]
+
 ## Eucli.ex Zamb. Theorema 8 Propositio 10 Cōuersa præcedētis.
 
 [Curated heading level=3 type=zamberti_sequence: 10.]

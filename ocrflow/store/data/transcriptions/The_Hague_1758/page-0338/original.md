@@ -3,6 +3,10 @@
 
 [Diagram: two solid angles with vertices F and A; points G, L, H, I, B on the left figure and M, E, D, C on the right figure, joined by solid and dotted lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVI. PROBLEME IV.]
+
+[Curated heading level=2 type=problems: PROBLEME IV. PROPOSITION XXVI.]
+
 ## PROPOSITION XXVI. PROBLEME IV.
 
 {dropcap:D|lines=2|style=plain}'Un point (A) ſur une droite donnée (AB), faire un angle ſolide (AB): égal à un angle ſolide donné (F).

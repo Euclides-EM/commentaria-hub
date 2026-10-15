@@ -5,6 +5,10 @@
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: Propoſitio octuageſimanona.]
+
+[Curated heading level=2 type=problems: Propoſitio octuageſimanona. Problema 23.]
+
 ## Propoſitio octuageſimanona. Problema 23.
 
 Inuenire apotomen quintam.
@@ -12,6 +16,10 @@ Inuenire apotomen quintam.
 *Propoſita certa eſto A, cui commenſurabilis exiſtat GI longitudine, quæ ideo certa erit. Sit inſuper vt proxima priore diximus, numerus non quadratus conſtans duobus quadratis DZ ZE, hic DE, per ſecundum lemma vigeſimæoctauæ huius. Sit autem quadratum BI ad id quod ex IG ſicut DE ad EZ, per coroll. ſextæ huius. Ipſæ itaque BI & IG certæ potentia commenſurabiles erunt, per ſextam huius, rationem numerorum habentes, ſed potentia tantùm, cùm numerorum non quadrati ad quadratum rationem habeant, & latera igitur longitudine incommenſurabilia, per nonam huius. Reliqua proinde BG apotome erit, per ſeptuageſimamtertiam huius: Dico quod & quinta, poſſit recta BI maius ipſa IG eò quod ex T, cùm ſit quadratum BI ad quod ex IG, ſicut DE ad EZ. Erit igitur (per coroll. 19 quinti) quadratum BI ad quod ex T exceſſum, ſicut DE ad DZ exceſſum, qui quidem DE & DZ rationem non habent quadratorum. Nec igitur BI ad T potentia, rationem habebit quadratorum, nec ideo ipſæ BI & T latera, longitudine commenſurabilia erunt, per nonam huius. Tota igitur BI plus poteſt congruente IG eò quod ex T ſibi longitudine incommenſurabili. Congruens autem (ex hypotheſi) propoſitæ A longitudine fuit commenſurabilis. Reliqua itaque BG apotome, dicetur quinta, per quintam diffinitionem apotomarum. Inuenimus itaque apotomen quintam.*
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: Propoſitio nonageſima.]
+
+[Curated heading level=2 type=problems: Propoſitio nonageſima. Problema 24.]
 
 ## Propoſitio nonageſima. Problema 24.
 

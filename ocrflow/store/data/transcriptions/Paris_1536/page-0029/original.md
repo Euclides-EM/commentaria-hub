@@ -36,6 +36,10 @@ Pars secunda
 Tertia pars.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 2, Propositio 5.]
+
+[Curated heading level=2 type=theorems: Theorema 2, Propositio 5.]
+
 ## Θεώρημα β, Πρόθεσις ε.
 
 Τῶν ἰσοσκελῶν τριγώνων αἱ πρὸς τῇ βάσει γωνίαι ἴσαι ἀλλήλαις ἐισί.καὶ προσεκβληθεισῶν τῶν ἴσων εὐθειῶν,αἱ ὑπὸ τὴν βάσιν γωνίαι ἴσαι ἀλλήλαις ἔσονται.

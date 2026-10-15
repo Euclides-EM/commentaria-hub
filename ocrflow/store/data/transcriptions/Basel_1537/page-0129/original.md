@@ -4,6 +4,8 @@
 
 k f, non erit k f minor d, itaque k f & d non efficient minus quam l & d, quare non efficient minus quàm m, & quia f g, est maior d, erit k g maior quam m. Intelligo igitur quātitatem b c primam, d secundam, a tertiam, & quartam, & quia ad primam & tertiā sumpta sunt æque multiplicia uidelicet k g & h, similiter quoque ad secundam & quartam æque multiplicia immo idem in ratione duorū quod est m, addit k g, multiplex primæ super m multiplex secundæ, non addit autē h multiplex tertiæ super m multiplex quartæ, erit per diffinitionem maioris improportionalitatis, maior proportio b c primæ ad d secundam quam a tertiæ ad d quartam, quod est primum. Secundum probabis per eandem diffinitionem conuerso ordine, ut d sit prima & tertia, a secunda b c quarta, addit enim m multiplex primæ super h multiplicem secundæ, non addit aucem m multiplex tertiæ super k g, multiplicē quartæ, quare maior est proportio d ad a quàm d ad b c quod est secundum. Ex huius autem demonstrationis modo, patet sufficientia diffinitionis maioris improportionalitatis, quam posuit author in principio huius quinti. Nusquam enim est maior, proportio primæ quatuor quantitatū ad secundam quam tertiæ ad quartam: quin cōtingat aliqua æque multiplicia ad primā & tertiā reperiri, quæ cum relata fuerint ad aliqua æque multiplicia secundæ & quartæ, inuenietur multiplex primæ addere super multiplex secūdæ, non autē multiplex tertiæ super multiplex quartæ. Hæc autē multiplicia sic reperiemus, sicut demōstrabitur infra supra 8 huius.
 
+[Curated heading level=2 type=theorems: Theorema 8 Propositio 8]
+
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
 
 [Curated heading level=3 type=zamberti_sequence: 8.]

@@ -10,6 +10,10 @@ Pars ſecūda conuerſa præcedentis.
 
 [Diagram: a d b e c f]
 
+[Curated heading level=2 type=propositions: Theorema 3, Propoſitio 4.]
+
+[Curated heading level=2 type=theorems: Theorema 3, Propoſitio 4.]
+
 ## Θεώρημα γ, Πρόθεσις δ.
 
 Ἐὰν ἐν κύκλῳ δύο εὐθεῖαι τέμνωσιν ἀλλήλας,μὴ διὰ τοῦ κέντρου οὖσαι,οὐ τέμνουσιν ἀλλήλας δίχα.

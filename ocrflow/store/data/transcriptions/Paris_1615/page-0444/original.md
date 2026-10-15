@@ -2,6 +2,10 @@
 
 <!-- Page number: 421 -->
 
+[Curated heading level=2 type=propositions: PROB. 15. PROP. LI.]
+
+[Curated heading level=2 type=problems: PROB. 15. PROP. LI.]
+
 ## PROB. 15. PROP. LI.
 
 Trouuer vn binome troiſieſme.

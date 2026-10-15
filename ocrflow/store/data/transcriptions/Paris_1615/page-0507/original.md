@@ -8,6 +8,10 @@ Item puis que le rerranché A eſt rationel, auſſi ſera ſon egal CE, & par 
 
 Si la ſuperfice mediale AB eſt √8oo, & la rationele 412, len. ſte B ſera√80012, &la ligne pouuãt iceluy ſera√ (√200+√16) ((200√164), qui eſt ligue faiſant auec vne ſuperficie rasisnele vn tout medial.
 
+[Curated heading level=2 type=propositions: THEOR. 87. PROP. CXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 87. PROP. CXI.]
+
 ## THEOR. 87. PROP. CXI.
 
 Si d’vne ſuperficie mediale, eſt retranchee vne ſuperficie mediale incommẽſurable à la toute: la ligne qui peut le reſte eſt ou reſidu medial ſecõd, ou ligne faiſant auec vne ſuperficie mediale vn tout medial.

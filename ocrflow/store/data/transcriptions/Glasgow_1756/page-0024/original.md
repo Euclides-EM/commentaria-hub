@@ -43,6 +43,10 @@ f. Ax. 3.
 
 oſtenſa autem eſt BC aequalis ipſi BG. quare utraque ipſarum AL, BC eſt aequalis rectae BG. quae autem eidem aequalia, et inter ſe ſunt aequalia. ergo et recta AL aequalis eſt ipſi BC. Ad datum igitur punctum A datae rectae lineae BC aequalis poſita eſt AL. Quod facere oportebat.
 
+[Curated heading level=2 type=propositions: PROP. III. PROB.]
+
+[Curated heading level=2 type=problems: PROP. III. PROB.]
+
 ## PROP. III. PROB.
 
 [Subhead]

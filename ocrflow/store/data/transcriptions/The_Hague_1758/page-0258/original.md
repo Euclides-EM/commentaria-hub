@@ -3,6 +3,10 @@
 
 [Figure: triangles with apex B on line F B E, over base line H G A C D L I, with dotted lines from B to H, G, L and I]
 
+[Curated heading level=2 type=propositions: PROPOSITION I. THEOREME I.]
+
+[Curated heading level=2 type=theorems: THEOREME I. PROPOSITION I.]
+
 ## PROPOSITION I. THEOREME I.
 
 {dropcap:L|lines=2|style=plain}Es Triangles (ABC, CBD) & les Parallélogrammes (CF, CE), qui ont la même hauteur, ſont entr'eux en raiſon de leurs baſes (AC, CD).

@@ -4,6 +4,10 @@
 
 l’entour de laquelle elle eſt deſcripte.
 
+[Curated heading level=2 type=propositions: THEO. 1. PROP. I.]
+
+[Curated heading level=2 type=theorems: THEO. 1. PROP. I.]
+
 ## THEO. 1. PROP. I.
 
 Vne partie d’vne ligne droicte ne peut eſtre ſur vn plan, & l’autre partie en l’air.
@@ -11,6 +15,10 @@ Vne partie d’vne ligne droicte ne peut eſtre ſur vn plan, & l’autre partie
 La demonſtration de ceſte prop. eſt facile. Car ſi AC partie de la ligne ACB eſt fur le plan DE, & l’autre partie CB en l’air, il eſt euident que ACB ne ſera pas ligne droicte, comme il eſt requis.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: THEOR. 2. PROP. II.]
+
+[Curated heading level=2 type=theorems: THEOR. 2. PROP. II.]
 
 ## THEOR. 2. PROP. II.
 

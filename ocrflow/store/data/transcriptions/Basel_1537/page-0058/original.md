@@ -16,6 +16,8 @@ CAMPANVS. Sit linea data a b, quā uolumus sic diuidere: ut quod ex tota & una e
 
 [Diagram: square with c and a at the top, k and h at the sides, d, e, b, f along the bottom, g at the right; a diagonal line runs from a down to e]
 
+[Curated heading level=2 type=problems: Problema 1. Propositio 11.]
+
 ## Eucli. ex Zamb. Problema 1. Propositio 11.
 
 [Curated heading level=3 type=zamberti_sequence: 11.]

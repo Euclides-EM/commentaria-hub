@@ -3,6 +3,8 @@
 
 compoſition des grandeurs les poſitives augmentent la ſomme, que les négatives diminuent, & que celles qui ſont égales à Zéro n'altèrent point; de même dans la compoſition des raiſons, celles de plus grande inégalité augmentent la compoſée, celles de moindre inégalité la diminuent, & celles d'égalité n'y font aucun changement. Ce principe fait voir qu'on peut ſe ſervir utilement des ſignes +, —, o dans les deux eſpéces de compoſition, pourvû qu'on les explique conformément aux principes de chacune.
 
+[Curated heading level=2 type=propositions: PROPOSITION VI.]
+
 ## PROPOSITION VI.
 
 {dropcap:D|lines=2|style=plain}Ans toute Progreſſion Géométrique, les termes équidiſtans ſont proportionels; ou bien leurs raiſons ſont égales.
@@ -19,6 +21,8 @@ Donc    B : E = F : I         Prop. 22. L.5.
 [/Calculation]
 
 C. Q. F. D.
+
+[Curated heading level=2 type=propositions: PROPOSITION VII.]
 
 ## PROPOSITION VII.
 

@@ -9,6 +9,10 @@ Demonstr. 3. cas.
 β | dg 2|2 df,
 3.concl. 5.a.1. | eg u bc 3|2 ef.
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XXV.]
+
 ## THEOR. XVI. PROPOS. XXV.
 
 Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtrique, basim verò basi maiorem : & angulum sub æqualibus rectis lineis contentum angulo maiorem habebunt.
@@ -36,6 +40,10 @@ suppos. | <bac 2|3 <edf,
 α 24.1. | bc 2|3 ef.
 | contr. hypoth.
 concl. 21.a.1. | <bac 3|2 <edf.
+
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XXVI.]
 
 ## THEOR. XVII. PROPOS. XXVI.
 

@@ -22,6 +22,10 @@ hyp. | ae == bc,
 34.1 | ◊abcd 2|2 2△bca,
 concl. 6.a.c | ◊abcd 2|2 2△bce.
 
+[Curated heading level=2 type=propositions: PROBL. XI. PROPOS. XLII.]
+
+[Curated heading level=2 type=problems: PROBL. XI. PROPOS. XLII.]
+
 ## PROBL. XI. PROPOS. XLII.
 
 Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donné.

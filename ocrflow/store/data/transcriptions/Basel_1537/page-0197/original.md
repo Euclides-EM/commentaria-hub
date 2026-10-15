@@ -10,6 +10,8 @@ Vt si sint a,b,c, minimi in eadem proportione uel in diuersis, sintq̃ in eadem 
 
 [Diagram: dotted number lines beside the text: d········ e······ f···· / a···· b··· c·· / d········ e······· e···· the third label is printed e for f / a···· b··· c·· / g··· h·· k·]
 
+[Curated heading level=2 type=theorems: Theorema 19 Propositio 21]
+
 ## Eucli. ex Zamb. Theorema 19 Propositio 21
 
 [Curated heading level=3 type=zamberti_sequence: 21.]
@@ -25,6 +27,8 @@ THEON ex Zamberto. Sint enim minimi numeri eandem rationem habentium ipsis α,β
 [Diagram: dotted number lines beside the text: γ··η··δ / ε···θ·ζ / α········· / β·······]
 
 Huic ex Zamberto propositioni respondet id quod supra, ad 19 addidit Campanus.
+
+[Curated heading level=2 type=theorems: Theorema 20 Propositio 22]
 
 ## Eucli. ex Zamb. Theorema 20 Propositio 22
 

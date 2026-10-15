@@ -18,6 +18,8 @@ CAMPANVS. Sint duæ lineæ a b & c d, & sit a b minor: uolo ex c d abscindere un
 
 [Diagram: line a b above; circle with centre c, the line c e drawn to the circumference at e, and the line c d entering at d on the left and cut by the circle at f]
 
+[Curated heading level=2 type=problems: Problema 3. Propositio 3.]
+
 ## Eucli. Ex Zamb. Problema 3. Propositio 3.
 
 [Curated heading level=3 type=zamberti_sequence: 3.]

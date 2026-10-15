@@ -18,6 +18,10 @@ Totum est sua parte maius.
 
 Et proinde fit manifestum, triangulum æquiangulum, fore versa vice æquilaterum.anguli enim binatim sumpti,semper offenduntur æquales: & duo quoq latera omnifariam sumpta,respondenter æqualia.
 
+[Curated heading level=2 type=propositions: Theorema 4, Propositio 7.]
+
+[Curated heading level=2 type=theorems: Theorema 4, Propositio 7.]
+
 ## Θεώρημα δ, Πρόθεσις ζ.
 
 Ἐπὶ τῆς αὐτῆς εὐθείας δυσὶ ταῖς αὐταῖς εὐθείαις, ἄλλαι δύο εὐθεῖαι ἴσαι ἑκατέρα ἑκατέρᾳ οὐ συσταθήσονται,πρὸς ἄλλῳ καὶ ἄλλῳ σημείῳ ἐπὶ τὰ αὐτὰ μέρη τὰ αὐτὰ πέρατα ἔχουσαι ταῖς ἐξ ἀρχῆς εὐθείαις.

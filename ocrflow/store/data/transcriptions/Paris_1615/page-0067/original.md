@@ -4,6 +4,10 @@
 
 Soit le parallellograme ABCD, en la figure precedente. Ie dis que le coſté AB eſt egal à ſon oppoſe CD; AC à BD: Item l’angle A egal à ſon oppoſé D, & l’angle BBD egalà l’angle ACD: finalemét que iceluy parallellograme ABCD eſt coupé en deux egalement par la diagonalle BC. Car puis que ABCD eſt parallellograme, AB ſera parallelle à CD, & AC à BD, & par la 29.p.1. l’ãgle ABC ſera alternatiuement egal à l’angle BCD. Item l’angle ACB alternatiuement eſgal à l’angle BCD. Ainſi les deux triangles BAC, & DCB auront les angles ABC, & BCA egaux aux angles BCD & CBD chaſcun au ſien, & le coſté commun entre iceux angles BC. Et par la 26.p.1.les autres coſtez AB & AC ſeront egaux aux autres coſtez CD, & DB chacun au ſiẽ, & l’autre angle A egal à l’angle D.Et ſi il eſt euidét que les deux angles au poinct B enſemble ſerõt egaux aux deux enſemble au poinct C. Encores par la 4.p.1. les triangles ABC, & CDB ſeront egaux; & partat le parallellograme ABCD eſt couppé en deux egalement par la diagonalle BC: ce qui eſtoit à prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 25. PROP. XXXV.]
+
+[Curated heading level=2 type=theorems: THEOR. 25. PROP. XXXV.]
+
 ## THEOR. 25. PROP. XXXV.
 
 Les parallellogrames conſtituez ſur meſme baſe, & entre meſmes parallelles, ſont egaux entr’eux.

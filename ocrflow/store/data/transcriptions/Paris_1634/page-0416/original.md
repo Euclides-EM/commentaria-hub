@@ -5,6 +5,10 @@
 16.5 | ▭.gca π ▭.fea, concl. 7.5 | ▭.bcd π ▭.bed,
 16.5 | □.ac π □.ea, concl. 7.5 | □.ac π □.ea.
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XXIX.]
+
 ## THEOR. XVIII. PROPOS. XXIX.
 
 Pappus lib. 7. propos. 28.

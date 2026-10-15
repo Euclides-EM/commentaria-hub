@@ -4,6 +4,10 @@
 
 [Figure: two intersecting circles meeting at points A and E; the inner circle passes through B and D, with radius CA drawn from the center C to A and line BDC through the circles]
 
+[Curated heading level=2 type=propositions: PROPOSITION V. THEOREME IV.]
+
+[Curated heading level=2 type=theorems: THEOREME IV. PROPOSITION V.]
+
 ## PROPOSITION V. THEOREME IV.
 
 {dropcap:S|lines=2|style=plain}I deux cercles (ABE, ADE) s'entre-coupent mutuellement: ils n'ont pas un même centre (C).

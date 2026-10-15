@@ -16,6 +16,8 @@ demonstrandum proponit ea esse æqualia, Intelligantur itaq̃ super duas bases a
 
 CAMPANVS Fabricatis duobus corporibus, ut proponitur, uidelicet quæ sint æquidistantium terminorum & æque alta & super bases æquas perpendiculariter, nō autē super bases suas erecta sed ambo super eas inclinata, si autem à quatuor angulis supremarum superficierum ipsorum ad bases suas perpendiculares ducantur quæ ex sexta erunt singulæ æquidistantes & etiam ex hypothesi singulæ singulis æquales (ipsæ enim solidorum propositorum altitudinem diffiniunt) & si inter eas solida æquidistantium laterum perficiantur, constabit ex præmissa hæc duo solida ultimo cōstituta esse adinuicem æqualia. Cūq́̃ duorum priorū & duorū posteriorū sint eædē bases, uidelicet eorum superficies supremæ, cōstat ex 29 uel 30 & hac cōmuni scientia, quæcūq̃ æqualibus sunt æqualia sibi inuicem sunt æqualia, uerum esse quod propositum est. Ex his potes cōuersas huius & præmissæ eisdem mediantibus indirecte demonstrare si libet, eodem modo & ad idem inconueniens sicut in conuersis duarum istas antecedentiū deducendo. pones enim duo solida parallelogramma esse æqualia & super æquales bases, & conuinces ea esse æque alta, uel pones ea esse ea  æque alta & æqualia, & conuinces ea esse super bases æquales.
 
+[Curated heading level=2 type=theorems: Theorema 26. Propositio 31.]
+
 ## Eucli. ex Zāb. Theorema 26. Propositio 31.
 
 [Curated heading level=3 type=zamberti_sequence: 31.]

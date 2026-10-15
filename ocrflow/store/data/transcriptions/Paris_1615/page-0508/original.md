@@ -8,6 +8,10 @@ en puiſſance: Donc FK ſera reſidu par la 74.p.10. & FC ſa conuenable. Maint
 
 Si la ſuperficie mediale AB eſt √279, & A√40: la ſuperficie reſtante B ſera √279—√40: & la ligne pouuant icelle ſera√(√69? E√59√√√69—√59:, qui eſt appellee ligne faiſant auet vne ſuperficie mediale vn tout medial.
 
+[Curated heading level=2 type=propositions: THEO. 88. PROP. CXII.]
+
+[Curated heading level=2 type=theorems: THEO. 88. PROP. CXII.]
+
 ## THEO. 88. PROP. CXII.
 
 La ligne appelee reſidu, n’eſt pas la meſme que Binome.

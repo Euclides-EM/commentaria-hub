@@ -10,6 +10,8 @@ Cuiusmodi sunt anguli a/b/c/ & a/b/d, à recta a/b/ super rectam c/d/ ad perpend
 
 [Curated heading level=3 type=numbered_item: 11.]
 
+[Curated heading level=2 type=definitions: Diffinitio 11.]
+
 11 Obtusus angulus,maior est recto
 
 [Margin]
@@ -21,6 +23,8 @@ Vt angulus e/ f/ g,includens arcum e/ g, quadrante maiorem, descripti circa punc
 Ὀξεῖα δέ,ἡ ἐλάσσων ὀρθῆς.
 
 [Curated heading level=3 type=numbered_item: 12.]
+
+[Curated heading level=2 type=definitions: Diffinitio 12.]
 
 12 Acutus verò,minor est recto.
 
@@ -44,6 +48,8 @@ CVM AVTEM OMNIS MAGNITVDO FINITA SIT, ET terminata:diffinit cōsequēter Euclide
 
 [Curated heading level=3 type=numbered_item: 13.]
 
+[Curated heading level=2 type=definitions: Diffinitio 13.]
+
 13 Terminus est,quod cuiusque finis est.
 
 [Margin]
@@ -55,6 +61,8 @@ Vtpote,punctum ipsius lineæ,linea superficiei, superficies denique solidi:quema
 Σχῆμά ἐστι,τὸ ὑπό τινος ἢ τινῶν ὅρων περιεχόμενον.
 
 [Curated heading level=3 type=numbered_item: 14.]
+
+[Curated heading level=2 type=definitions: Diffinitio 14.]
 
 14 Figura sub aliquo,vel aliquibus terminis comprehenditur.
 
@@ -79,6 +87,8 @@ Planarū figurarū simplicissima circulus est
 Κύκλος ἐστὶ σχῆμα ἐπίπεδον, ὑπὸ μιᾶς γραμμῆς περιεχόμενον, ἣ καλεῖται περιφέρεια, πρὸς ἣν ἀφ᾽ ἑνὸς σημείου τῶν ἐντὸς τοῦ σχήματος κειμένου, πᾶσαι αἱ προσπίπτουσαι εὐθεῖαι, ἴσαι ἀλλήλαις εἰσί.
 
 [Curated heading level=3 type=numbered_item: 15.]
+
+[Curated heading level=2 type=definitions: Diffinitio 15.]
 
 15 Circulus, est figura plana, vna linea contenta , quæ circunferentia adpellatur:ad quam ab vno puncto introrsum medio existēte,
 

@@ -11,6 +11,10 @@ F. 176.
 
 *Scholie.* Cette proposition donne lieu à la question s’il y a plusieurs manieres de former un polygone avec des côtés donnés et un dernier inconnu qui sera le diametre de la demi-circonférence dans laquelle les autres côtés sont inscrits. Avant de décider cette question il faut observer que si une même corde AB sous-tend des arcs décrits de différens rayons AC, AD, l’angle au centre appuyé sur cette corde sera plus petit dans le cercle dont le rayon est plus grand : ainsi ACB < ADB, car l’angle ADO=ACD+CAD; donc ADB=ACB+CAD+CBD.
 
+[Curated heading level=2 type=propositions: PROPOSITION V. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION V.]
+
 ## PROPOSITION V.
 
 ### THÉORÊME.

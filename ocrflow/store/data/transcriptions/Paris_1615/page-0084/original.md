@@ -4,6 +4,10 @@
 
 par la 46.p.1.Item ſoit menee BF parallelle à CD par la 31.p. 1. rencontrant ED, prolongee en F. Il eſt donc euident que AD eſt le quarré de AC, & CF le rectangle de AC & CB (car CD eſt egal à AC, par la definition du quarré) & AF le rectagle de AB & AC, partie ſur laquelle a eſté faict le quarré. Or le quarré AD& le rectangle CF enſemble cõuiennent auec le rectangle AF; & par conſequent egaux a iceluy.
 
+[Curated heading level=2 type=propositions: THEOR. 4. PRO. IIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 4. PRO. IIII.]
+
 ## THEOR. 4. PRO. IIII.
 
 Si vne ligne droite eſt coupee comme on voudra; le quarre de la toute eſt egal aux deux quarrez des deux parties, & a deux fois le rectangle d’icelles parties.

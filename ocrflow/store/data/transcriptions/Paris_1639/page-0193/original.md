@@ -8,6 +8,10 @@ concl. 6.d.4 | ⊙abcd *eſt circonſcrit au* 5∠abcde.
 
 Par la mesme methode sera descrit le cercle à l'entour de quelconque figure equilaterale & equiangle.
 
+[Curated heading level=2 type=propositions: PROBL. XV. PROPOS. XV.]
+
+[Curated heading level=2 type=problems: PROBL. XV. PROPOS. XV.]
+
 ## PROBL. XV. PROPOS. XV.
 
 En vn cercle donné, inscrire vn hexagone equilateral & equiangle.

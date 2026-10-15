@@ -7,6 +7,8 @@ zwen vberigen winckel / auch den zwaien des vorerklärten triangels a b d / winc
 
 Solcher triangel wirt auch fürgeben durch die 9 propoſ. des 13 bůchs Euclidis / deren ich härnach an ſeinem ort wird meldung thůn.
 
+[Curated heading level=2 type=propositions: XI. Die ailfft Propoſition]
+
 ## XI Die ailfft Propoſition.
 
 [Subhead]

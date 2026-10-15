@@ -30,6 +30,10 @@ Demonstr.
 33. 11 | raō. c π d 2|2, ⅓raō. ◇piped. c π ◇piped. d,
 2 concl. α3ſ.23.5 | a π b 2|2 c π d.
 
+[Curated heading level=2 type=propositions: THEOR. XXXIII. PROPOS. XXXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIII. PROPOS. XXXVIII.]
+
 ## THEOR. XXXIII. PROPOS. XXXVIII.
 
 Si planum ad planum rectum fuerit; & ab aliquo

@@ -3,6 +3,10 @@
 
 ou la partie égale au tout, ce qui est impossible ; donc l’angle ACB=DCE.
 
+[Curated heading level=2 type=propositions: PROPOSITION XVI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVI.]
+
 ## PROPOSITION XVI.
 
 ### THÉORÊME.

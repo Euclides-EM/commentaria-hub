@@ -3,6 +3,10 @@
 
 [Diagram: parallelogram plane Z X containing lines C B and A B crossing at E, with dotted lines from A and F to G and D forming triangle E A D]
 
+[Curated heading level=2 type=propositions: PROPOSITION II. THEOREME II.]
+
+[Curated heading level=2 type=theorems: THEOREME II. PROPOSITION II.]
+
 ## PROPOSITION II. THEOREME II.
 
 {dropcap:S|lines=2|style=plain}I deux lignes ſe coupent en E; elles ſont dans le même Plan (ZX) & toutes les parties d'un triangle (EAD) ſont dans le même Plan (ZX).

@@ -6,6 +6,8 @@ quantitatem lineæ d f, describatur circulus f e g, secans datum circulum in pun
 
 [Diagram: the datum circle intersected by circle f e g, letters d, f, h, e along the horizontal diameter, the intersections at g and e; below, the given line a b]
 
+[Curated heading level=2 type=problems: Problema 1. Propositio 1]
+
 ## Eucli. ex Zamb. Problema 1. Propositio 1
 
 [Curated heading level=3 type=zamberti_sequence: 1.]
@@ -33,6 +35,8 @@ INtra assignatum circulum, triangulum triangulo assignato æquiangulum collocare
 CAMPANVS Sit assignatus triangulus a b c, assignatusq́; circulus d e f. Volo intra hunc circulum, collocare unum triangulum æquiangulum triāgulo a b c, æquilaterum enim non est necessariū esse, sed est possibile. Produco g d h, contingētem circulum in puncto d, super quem facio angulum h d f, æqualem angulo c, & angulum g d e, ducta linea d e, æqualē angulo b, & protraho lineam e f, eritq́ue per 31 tertij, angulus e, æqualis angulo c, quia uterque est æqualis angulo h d f. quidem, per positionem, e uero per 31 tertij. Eadem ratione erit angulus f, æqualis angulo b: quare per 32 primi, d tertius, erit æqualis a, tertio. quare habemus propositum.
 
 [Diagram: tangent line g d h touching at d a circle with inscribed triangle d e f; at the left, the assigned triangle a b c]
+
+[Curated heading level=2 type=problems: Problema 2 Propositio 2]
 
 ## Eucli. ex Zamb. Problema 2 Propositio 2
 

@@ -3,6 +3,10 @@
 
 [Figure: triangle with apex A and base BC; point D on side AC and points F, G on side AB; dotted lines FD, GE through K, BH and DH parallel to AB]
 
+[Curated heading level=2 type=propositions: PROPOSITION X. PROBLEME II.]
+
+[Curated heading level=2 type=problems: PROBLEME II. PROPOSITION X.]
+
 ## PROPOSITION X. *PROBLEME II.*
 
 {dropcap:C|lines=2|style=plain}Ouper une droite donnée entière (AB), ſemblablement à une droite donnée (AC) coupée en tant de points (D, E &c) que l'on voudra.

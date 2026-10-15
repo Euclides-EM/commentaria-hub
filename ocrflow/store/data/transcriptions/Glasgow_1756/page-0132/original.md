@@ -9,6 +9,10 @@ d. 31. 3.
 
 Quare ſi datum triangulum acutangulum fuerit, centrum circuli erit intra triangulum; ſi rectangulum fuerit, erit centrum in latere angulo recto oppoſito; et ſi fuerit obtuſangulum, cadet centrum extra triangulum, ad partes lateris obtuſo angulo oppoſiti.
 
+[Curated heading level=2 type=propositions: PROP. VI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. VI. PROB.]
+
 ## PROP. VI. PROB.
 
 {dropcap:I|lines=2|style=plain}N dato circulo quadratum inſcribere.

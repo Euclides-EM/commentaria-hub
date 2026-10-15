@@ -1,6 +1,10 @@
 <!-- Running title: ELEMENT. EVCLIDIS -->
 <!-- Page number: 96 -->
 
+[Curated heading level=2 type=propositions: PROBLEMA PRIMVM, PROPOSITIO PRIMA.]
+
+[Curated heading level=2 type=problems: PROBLEMA PRIMVM, PROPOSITIO PRIMA.]
+
 ## PROBLEMA PRIMVM, PROPOSITIO PRIMA.
 
 [Ornament: small fleuron]
@@ -15,6 +19,10 @@ Si D eſt ipſi BC æqualis, conſtat propoſitio. Sin minor : abſcindatur ex B
 
 ETIAM nulla Diametro poſita, aptabitur linea. Tantùm in puncto Peripheriæ fortuito ponatur Centrum : ac ſecundùm longitudinem lineæ datæ deſcribatur alter Circulus, datum Circulum ſecans.
 
+[Curated heading level=2 type=propositions: PROBLEMA 2, PROPOSITIO II.]
+
+[Curated heading level=2 type=problems: PROBLEMA 2, PROPOSITIO II.]
+
 ## PROBLEMA 2, PROPOSITIO II.
 
 In dato Circulo, Triangulum dato Triangulo æquiangulum deſcribere.
@@ -26,6 +34,10 @@ Sit datus Circulus ABC, datum verò Triangulum, DEF. Volo in Circulo ABC deſcri
 Per punctum A duco GH, quæ tangat Circulum in ipſo A, per decimamſextam Tertij. Et duco rectam AB in Circulum, quæ cum GA faciat angulum BAG, æqualem angulo F : itemq́; ducta AC, facio angulum CAH æqualem angulo E : Et connecto BC. Dico ABC Triangulum, eſſe Triangulo DEF æquiangulum.
 
 Eſt enim angulus B, per trigeſimamprimã Tertij, æqualis angulo CAH : ob id, & angulo E. Eadem ratione angulus C æqualis eſt angulo BAG : ob id, & angulo F. Reliquus igitur BAC, per trigeſimamſecundam Primi, reliquo D æqualis. Quare Triangulum BAC, ipſi DEF æquiangulum, Quod faciendum fuit.
+
+[Curated heading level=2 type=propositions: PROBLEMA 3, PROPOSITIO III.]
+
+[Curated heading level=2 type=problems: PROBLEMA 3, PROPOSITIO III.]
 
 ## PROBLEMA 3, PROPOSITIO III.
 

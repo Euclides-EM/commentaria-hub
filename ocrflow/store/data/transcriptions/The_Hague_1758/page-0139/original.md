@@ -5,6 +5,10 @@
 
 [Diagram: three circular figures labelled Fig. 1, Fig. 2 and Fig. 3, with points A, B, C, D and E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXV. PROBLEME III.]
+
+[Curated heading level=2 type=problems: PROBLEME III. PROPOSITION XXV.]
+
 ## PROPOSITION XXV. *PROBLEME III.*
 
 {dropcap:U|lines=2|style=plain}N ſegment de cercle (ADB) étant donné; décrire le cercle dont il eſt un ſegment.

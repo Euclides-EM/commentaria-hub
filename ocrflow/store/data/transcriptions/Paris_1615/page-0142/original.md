@@ -6,6 +6,10 @@
 
 Or par quelle maniere on doit conſtruire vn triangle Iſoſcele,, ayant vn chacun des angles de la baſe, non ſeulement double da l’autre, comme faict icy Euclide, mais auſſi ſelon quelconque raiſon donnee, nous l’auons enſeigné (apres Pappus & Clauius) en noſtre Geometrie practique Prob. 37. & Scholie du 126.
 
+[Curated heading level=2 type=propositions: PROBL. 11. PROP. XI.]
+
+[Curated heading level=2 type=problems: PROBL. 11. PROP. XI.]
+
 ## PROBL. 11. PROP. XI.
 
 Dans vn cercle donné, deſcrire vn pentagone equiangle & equilateral.

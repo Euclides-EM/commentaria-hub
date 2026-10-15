@@ -1,11 +1,17 @@
 <!-- Page number: 72 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=definitions: DEF. XI.]
+
 ### XI.
 
 Similia circulorum ſegmenta ſunt, quae angulos capiunt aequales, vel in quibus anguli ſunt inter ſe aequales.
 
 [Diagram: two circular segments, each containing an angle formed by two chords]
+
+[Curated heading level=2 type=propositions: PROP. I. PROB.]
+
+[Curated heading level=2 type=problems: PROP. I. PROB.]
 
 ## PROP. I. PROB.
 

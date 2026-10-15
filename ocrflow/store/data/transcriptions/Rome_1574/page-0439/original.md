@@ -16,6 +16,8 @@ QVOD ſi fuerint plures magnitudines tribus, ita vt ſit etiã C, ad N, vt F, ad
 
 [Curated heading level=2 type=campanus: 23]
 
+[Curated heading level=2 type=theorems: THEOR. 23. PROPOS. 23.]
+
 ## THEOR. 23. PROPOS. 23.
 
 [Curated heading level=3 type=incipit: SI]

@@ -21,9 +21,13 @@
 
 *où il n'y a d'autre différence, ſinon que dans ce dernier cas, on regarde la progreſſion comme née de la raiſon primordiale* 1 : 4. *On pourroit prendre pour raiſon primordiale de cette même progreſſion, telle autre raiſon qu'on voudroit; puiſqu'au moyen de la Compoſition & Décompoſition des raiſons, dont il ſera traité à la fin de ce Livre, on peut toujours, d'une raiſon primordiale quelconque, remonter ou deſcendre à toutes les autres raiſons poſſibles.*
 
+[Curated heading level=2 type=definitions: DEFINITION X.]
+
 ### X.
 
 Si trois grandeurs ſont proportionelles, on dit que la première eſt à la troiſième *en raiſon doublée de la première à la ſeconde.*
+
+[Curated heading level=2 type=definitions: DEFINITION XI.]
 
 ### XI.
 

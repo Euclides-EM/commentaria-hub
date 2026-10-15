@@ -1,6 +1,10 @@
 <!-- Running title: LIBER SEXTVS. -->
 <!-- Page number: 57 -->
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquinta.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimaquinta. Problema 7.]
+
 ## Propoſitio vigeſimaquinta.
 
 [Subhead]
@@ -13,6 +17,8 @@ Eſto datum rectilineum A B G, cui oporteat ſimile conſtituere, & ipſi D dato
 
 [Diagram: geometric construction labelled A, B, D, E, G, I, K, L, M, T and Z]
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſexta.]
+
 ## Propoſitio vigeſimaſexta.
 
 Si à parallelogrammo parallelogrammum auferatur ſimile toti, & ſimiliter poſitum, communem angulum habens ei, circum eundem demetientem eſt toti.
@@ -21,9 +27,11 @@ A parallelogrammo A B G D parallelogrammum auferatur A E Z K, ſimile & ſimilit
 
 [Diagram: parallelograms labelled A, B, C, D, E, F, G, K and Z]
 
-## MONITVM.
+### MONITVM.
 
 Demonſtrationem huius mutauimus, eò quòd plures ab impoſſibili eam demonſtrant negatiuam deſtruentes. Nos autem affirmatiuam probatam plus congruere rati, hanc breui admodum argumẽto concluſimus, vt inſuper ad parallelogramma externa ſimilia ſimiliter poſita, ac ad idem A ſignum angulos habentia, extẽdatur. Semper enim figurarum ſimilitudo, & ſimilis poſitio efficit angulos A Z E & A G B æquales, vt prima huius diffinitione diximus, & proinde ad rectam E Z cadentes rectas A Z Z G, per 14 primi vnicam efficere rectam.
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſeptima.]
 
 ## Propoſitio vigeſimaſeptima.
 

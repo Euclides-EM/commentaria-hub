@@ -22,6 +22,8 @@ CAMPANVS Si fuerit linea a b bimediale secũdum diuisa per terminũ suũ ad pũc
 
 [Diagram: tall rectangle divided by horizontal lines into bands; right side labels from top: g, q, n, l, f; left side labels: p, m, e (bottom-left)]
 
+[Curated heading level=2 type=theorems: Theorema 44 Propositio 62]
+
 ## Eucli. ex Zamb. Theorema 44 Propositio 62
 
 [Curated heading level=3 type=zamberti_sequence: 62.]

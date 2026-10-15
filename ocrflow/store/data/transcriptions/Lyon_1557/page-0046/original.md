@@ -1,6 +1,10 @@
 <!-- Running title: L I B E R  I. -->
 <!-- Page number: 37 -->
 
+[Curated heading level=2 type=propositions: THEOREMA 26, PROPOSITIO XXXVI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 26, PROPOSITIO XXXVI.]
+
 ## THEOREMA 26, PROPOSITIO XXXVI.
 
 Quæ ſuper æquales baſes Parallelogramma, & inter eaſdem parallelos conſiſtunt, inter ſe ſunt æqualia.
@@ -11,6 +15,10 @@ Ducam duas lineas C E & D F. Eritq́;, per trigeſimamtertiam, ſuperficies C D 
 
 [Diagram: two parallelograms between parallels with points A, B, E, F above and C, D, G, H below]
 
+[Curated heading level=2 type=propositions: THEOREMA 27, PROPOSITIO XXXVII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 27, PROPOSITIO XXXVII.]
+
 ## THEOREMA 27, PROPOSITIO XXXVII.
 
 Triangula ſuper eandem baſin & inter eaſdem parallelos, ſunt æqualia.
@@ -20,6 +28,10 @@ Sint duo Triangula A B C & D B C, ſuper eandem baſin B C, & inter duas paralle
 [Diagram: two triangles on base B C between parallels with points A, G, D, H, E above]
 
 Duco, per trigeſimamprimam, C G æquidiſtantem A B: & C H æquidiſtantem B D. Eruntq́; duo Parallelogrãma A B C G & D B C H æqualia: ob id, & eorum dimidia. Quare quum A B C Triangulum ſit dimidium Parallelogrammi A B C G, per trigeſimamquartã: & D B C Triangulum ſit dimidium Parallelogrammi D B C H, per eandem: ipſa Triangula inter ſe erunt æqualia, Quod fuit demonſtrandum.
+
+[Curated heading level=2 type=propositions: THEOREMA 28, PROPOSITIO XXXVIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 28, PROPOSITIO XXXVIII.]
 
 ## THEOREMA 28, PROPOSITIO XXXVIII.
 
@@ -32,6 +44,8 @@ Sint duo Triangula A B C & D E F, ſuper baſes B C & E F æquales & inter duas 
 Ducam C K æquidiſtantem A B: & F L æquidiſtantem E D. Eruntq́; per trigeſimamſextam, duo Parallelogramma A B C K & D E F L æqualia: ob idq́; A B C & D E F Triangula, eorum dimidia, per trigeſimamquartam, æqualia, Quod erat oſtendendum.
 
 Ex hac facillimè elicitur hoc Problema,
+
+[Curated heading level=2 type=additions: Ad PROPOSITIO XXXVIII. Datum Triangulum in duo Triangula æqualia partiri.]
 
 ### Datum Triangulum in duo Triangula æqualia partiri.
 

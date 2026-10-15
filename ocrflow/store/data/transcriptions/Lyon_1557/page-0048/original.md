@@ -7,6 +7,10 @@ Sit enim Triangulum A B C: & ſit linea D E quæ diuidat duo latera A B & A C pe
 
 In Quadrilatero A C E D ducantur duæ tranſuerſæ A E & C D. Intellectaq́; per punctum E, parallelo ipſi A B: erit, per trigeſimamoctauam, Triangulum B D E æquale Triangulo D A E: quum duæ ipſorum baſes A D & D B, poſitæ ſint æquales. Rurſus intellecta per punctum D, parallelo ipſi B C: erit idem Triangulum B D E æquale Triangulo C E D. Erunt itaque, per animi Notionem, duo Triangula E A D & E C D æqualia. Quæ quum ſuper eandem ſint baſin D E, & in eandem partem erecta: erunt, per hanc trigeſimamnonam, inter duas parallelos D E & A C, Quod fuit demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 30, PROPOSITIO XL.]
+
+[Curated heading level=2 type=theorems: THEOREMA 30, PROPOSITIO XL.]
+
 ## THEOREMA 30, PROPOSITIO XL.
 
 Triangula æqualia ſuper æquales baſes, & in eandem partem erecta, inter duas conſiſtunt parallelos.
@@ -18,6 +22,10 @@ Nam ſi A D non eſt ipſi B F parallelus: alia parallelus ducta tranſibit ſup
 [Diagram: two triangles on base B C E F, with A at upper left, G and D above, interior point H]
 
 Si verò infra A D tranſeat, ſit ipſa A H: & connectatur H F. Ac tum eadem argumentatione probabitur Triangulum H E F, Triangulo D E F eſſe æquale, pars toti. Quare quum neutra ratione fieri poſſit: erunt B F & A D paralleli, Quod erat oſtendendum.
+
+[Curated heading level=2 type=propositions: THEOREMA 31, PROPOSITIO XLI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 31, PROPOSITIO XLI.]
 
 ## THEOREMA 31, PROPOSITIO XLI.
 

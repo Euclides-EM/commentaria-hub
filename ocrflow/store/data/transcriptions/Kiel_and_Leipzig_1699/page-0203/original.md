@@ -14,6 +14,10 @@
 
 Müssen derowegen allezeit die im abgewandten Krayß-Stück stehende Winckel eda und efa, mit denen Winckeln / bae und eac, welche der aus dem Rühr-Düpffel a in den Kreyß gezogene Strich ae mit dem Rühr-Strich bc machet/ gleich groß seyn. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXXIII. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 5. Werck-Stück. Der XXXIII. Vortrag.]
+
 ## Der XXXIII. Vortrag.
 
 ## Das 5. Werck-Stück.

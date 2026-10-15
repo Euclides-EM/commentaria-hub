@@ -6,6 +6,10 @@ mes diametres PR à TX. Soit poſé que comme N eſt au cone BK, ainſi le con
 
 Ceſte preuue ſe doit auſſi entendre des cylindres ſemblables: car leurs cones eſtans en raiſon triplee des diametres, par la 15.p.5.Les cylindres qui ſont triples d’iceux cones, ſeront auſſi l’vn à l’autre en raiſon triplee de leurs diametres.
 
+[Curated heading level=2 type=propositions: THEOR. 13. PROP. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 13. PROP. XIII.]
+
 ## THEOR. 13. PROP. XIII.
 
 Si vn cylindre eſt couppé par vn plan parallel, aux plans oppoſez d’iceluy cylindre: les ſegmens du cylindre ſont l’vn à l’autre comme les ſegmens de l’axe.

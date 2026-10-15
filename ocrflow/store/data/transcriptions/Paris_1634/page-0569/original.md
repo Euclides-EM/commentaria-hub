@@ -4,6 +4,8 @@ cùm quadrata earum idem spatium metitur.
 
 *quand les quarrez d'icelles sont mesurez par vn mesme espace.*
 
+[Curated heading level=2 type=definitions: DEFINIT. IV.]
+
 ## DEFINIT. IV.
 
 Incommensurabiles vero potentia, cùm quadratis earum nullum spatium, quod sit communis eorum mensura, contingit reperiri.
@@ -27,6 +29,8 @@ Explication des notes.
 *A & B, sont commensurables en longitude.*
 *B, C, D, sont commensurables en puissance.*
 *E & F, sont incommensurables en puissance.*
+
+[Curated heading level=2 type=definitions: DEFINIT. V.]
 
 ## DEFINIT. V.
 

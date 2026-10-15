@@ -20,6 +20,8 @@ SIT namq; minor proportio A, ad B, quam C, ad D. Dico permutando, minorem quoque
 
 [Curated heading level=2 type=campanus: 28]
 
+[Curated heading level=2 type=theorems: THEOR. 28. PROPOS. 28.]
+
 ## THEOR. 28. PROPOS. 28.
 
 [Curated heading level=3 type=incipit: SI]

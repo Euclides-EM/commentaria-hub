@@ -12,6 +12,10 @@ Ex hoc manifesto constat, fieri posse, vt spatium rationale contineatur sub duab
 
 *De cecy est manifeste qu'vn espace rationel peut estre contenu sous deux lignes irrationelles.*
 
+[Curated heading level=2 type=propositions: THEOR. XCII. PROPOS. CXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XCII. PROPOS. CXVI.]
+
 ## THEOR. XCII. PROPOS. CXVI.
 
 A media infinitæ irrationales fiunt, & nulla alicui antecedentium est eadem.

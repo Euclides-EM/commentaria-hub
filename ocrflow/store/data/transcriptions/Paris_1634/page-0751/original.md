@@ -23,6 +23,10 @@ suppos. | ef n̄ est ⊥ fb, Ⅱ fd,
 α | fi, fk snt ⊥ plan. gh
 contr. 13. 11.
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XX.]
+
 ## THEOR. XVIII. PROPOS. XX.
 
 Si solidus angulus tribus angulis planis contineatur: ex his duo quilibet vtvt assumpti tertio sunt majores.

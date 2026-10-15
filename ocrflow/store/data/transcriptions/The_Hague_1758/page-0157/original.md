@@ -7,17 +7,25 @@
 
 ## DEFINITIONS
 
+[Curated heading level=2 type=definitions: DEFINITION I.]
+
 ### I.
 
 {dropcap:O|lines=2|style=plain}N dit qu'*une figure rectiligne* (ABCD) *eſt inſcrite dans une autre figure rectiligne* (EFGH), quand chacun des angles (A, B, C, D) de la figure inſcrite, touche chacun des côtés (EF, FG, GH, HE) de la figure dans laquelle elle eſt inſcrite (*Fig.* 1).
+
+[Curated heading level=2 type=definitions: DEFINITION II.]
 
 ### II.
 
 Pareillement on dit qu'*une figure rectiligne* (EFGH) eſt *circonſcrite à une autre figure rectiligne* (ABCD); quand chacun des côtés (EF, FG, GH, HE) de la figure circonſcrite touche chacun des angles (A, B, C, D) de la figure à laquelle elle eſt circonſcrite (*Fig.* 1).
 
+[Curated heading level=2 type=definitions: DEFINITION III.]
+
 ### III.
 
 *Une figure rectiligne* (ABCD) eſt *inſcrite dans un cercle*, quand chacun des angles (A, B, C, D) de la figure inſcrite touche la circonférence du cercle (ABCDE) dans lequel elle eſt inſcrite (*Fig.* 2).
+
+[Curated heading level=2 type=definitions: DEFINITION IV.]
 
 ### IV.
 

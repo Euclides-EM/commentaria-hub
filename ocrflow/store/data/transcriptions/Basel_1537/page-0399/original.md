@@ -1,3 +1,7 @@
+[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER DVODECIMVS]
+
+[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER DVODECIMVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER DVODECIMVS,
 
 <!-- Page number: 388 -->
@@ -17,6 +21,8 @@ CAMPANVS. Sint duo circuli a b c, d e f, quibus inscribantur duæ quælibet figu
 [Diagram: circle with inscribed pentagon a b g h k — a at top, b upper left, k upper right, g lower left, h lower right, c at bottom; diameter a c, with lines a g and c b crossing within the pentagon]
 
 [Diagram: smaller circle with inscribed pentagon d e l m n — d at top, e left, n right, l lower left, m lower right, f at bottom; diameter d f, with lines d l and f e crossing]
+
+[Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
 
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
 

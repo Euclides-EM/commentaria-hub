@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=propositions: THEOR. I. PROPOS. I.]
+
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. I.]
+
 ## THEOR. I. PROPOS. I.
 
 Si sint quotcunque magnitudines quotcunque magnitudinum æqualium numero, singulæ singularum, æque multiplices ; quam multiplex est vnius vna magnitudo, tam multiplices erunt & omnes omnium.

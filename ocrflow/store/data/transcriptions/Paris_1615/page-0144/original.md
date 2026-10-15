@@ -10,6 +10,10 @@ de la 16.p.3.les lignes GH, HI, IK, KL, LG touchent le cercle és poincts A, B,
 
 Qu’il ſoit auſsi equiangle, il eſt euident: car nous auons monſtré que les angles des triangles AGF, EGF ſont egaux: ſçauoir eſt les angles AGF, EGF: Item AGF, AHF: & qu’on en pouuoit dire autant des autres: donc les deux angles ſous le poinct G, ſeront egaux aux deux angles ſous le poinct H: ainſi des autres, par ainſi le pentagone ſera equiangle & equilateral.
 
+[Curated heading level=2 type=propositions: PROB. 13. PROP. XIII.]
+
+[Curated heading level=2 type=problems: PROB. 13. PROP. XIII.]
+
 ## PROB. 13. PROP. XIII.
 
 Dans vn pentagone equiangle & equilateral, deſcrire vn cercle.

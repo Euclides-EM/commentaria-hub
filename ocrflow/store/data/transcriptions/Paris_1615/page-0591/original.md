@@ -4,6 +4,10 @@
 
 parties des cylindres AH, CE; ils aurõt meſme raiſon qu’iceux cylindres, par la 15.p.5.Et partant le cone ABE ſera pareillement au cone CDF, comme la hauteur MEa la hauteur NF. Donc les cones & cylindres conſtituez ſur baſes egales, ſont entr'eux, comme leurs hauteurs. Ce qui eſtoit à demonſtrer.
 
+[Curated heading level=2 type=propositions: THEOR. 15. PROP. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. 15. PROP. XV.]
+
 ## THEOR. 15. PROP. XV.
 
 Aux cones, & cylindres egaux; les hauteurs ſont reciproques aux baſes: Et les cones & cylindres ſont egaux, deſquels les hauteurs ſont reciproques aux baſes.

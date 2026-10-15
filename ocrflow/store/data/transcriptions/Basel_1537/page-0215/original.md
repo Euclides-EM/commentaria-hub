@@ -22,6 +22,8 @@ CAMPANI annotatio. Nec est necessarium ut continuemus proportiones laterum (uide
 
 [Diagram: dotted number lines beside the text, labelled a (13 dots), g (26 dots), b (22 dots), c (2 dots), e (4 dots), d (6 dots), f (5 dots), h (13 dots), K (26 dots), l (22 dots)]
 
+[Curated heading level=2 type=theorems: Theorema 3 Propositio 5]
+
 ## Eucli.ex Zamb. Theorema 3 Propositio 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]

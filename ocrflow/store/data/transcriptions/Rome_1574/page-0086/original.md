@@ -1,10 +1,20 @@
 <!-- Page number: 1 -->
 
+[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM PRIMVM.]
+
+[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM PRIMVM.]
+
+[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTVM PRIMVM.]
+
+[Curated heading level=1 type=axioms: EVCLIDIS ELEMENTVM PRIMVM.]
+
 # EVCLIDIS ELEMENTVM PRIMVM.
 
 [Ornament: floral headpiece]
 
 ## DEFINITIONES.
+
+[Curated heading level=2 type=definitions: I.]
 
 ### I.
 

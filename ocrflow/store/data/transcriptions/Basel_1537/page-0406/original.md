@@ -8,6 +8,8 @@ telligamus tot seratilia detracta esse ex pyramide a, quot detraximus ex pyramid
 
 [Diagram: triangle labelled b beside a rounded shield-shaped solid labelled d]
 
+[Curated heading level=2 type=theorems: Theorema 5 Propositio 5]
+
 ## Eucli. ex Zamb. Theorema 5 Propositio 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]

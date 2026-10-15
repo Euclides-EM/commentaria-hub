@@ -4,6 +4,8 @@
 
 tione incontinuæ proportionalitatis quæ posita est in proœmio quinti libri arguēdū est propositum. Attendere aūt colūnā oportet, quod quæcūq̃ superficies secat æquidistanter basi ipsius, secat etiam eam æquidistāter superficiei basis eius oppositæ, nā quæcunque superficies uni superficiei sunt æquidistantes, ipsæ quoq̃ sunt æquidistātes adinuicē, ut ex ijs quæ dicta sunt ex 17 undecimi didicisti. Quare manifestū est, quod omnes rotundæ colūnæ quarum sunt bases æquales, altitudinibus suis sunt proportionales. Idem quoque de lateratis. Idem quoque de pyramidibus rotūdis & etiā de lateratis, quod de pyramidibus constabit, si prius de colūnis probetur. Est enim omnis columna tripla ad suam pyramidē, rotunda quidem, ex nona huius, laterata uero ex ijs quæ supra in octaua demonstrata sunt.
 
+[Curated heading level=2 type=theorems: Theorema 11 Propositio 11]
+
 ## Eucli. ex Zamb. Theorema 11 Propositio 11
 
 [Curated heading level=3 type=zamberti_sequence: 11.]

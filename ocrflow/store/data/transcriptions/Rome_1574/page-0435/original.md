@@ -6,6 +6,8 @@
 
 [Curated heading level=2 type=campanus: 19]
 
+[Curated heading level=2 type=theorems: THEOR. 19. PROPOS. 19.]
+
 ## THEOR. 19. PROPOS. 19.
 
 [Curated heading level=3 type=incipit: SI]
@@ -51,6 +53,8 @@ SIT enim AB, ad EB, ut CD, ad FD; Dico per conuerſionẽ rationis eſſe quoque
 [/Margin]
 
 [Curated heading level=2 type=campanus: 20]
+
+[Curated heading level=2 type=theorems: THEOR. 20. PROPOS. 20.]
 
 ## THEOR. 20. PROPOS. 20.
 

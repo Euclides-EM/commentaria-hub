@@ -5,6 +5,8 @@ igitur duorum triangulorum & baſes, & anguli, nec non triãgula ipſa æqualia 
 
 [Curated heading level=2 type=campanus: 5]
 
+[Curated heading level=2 type=theorems: THEOR. 2. PROPOS. 5.]
+
 ## THEOR. 2. PROPOS. 5.
 
 [Margin]

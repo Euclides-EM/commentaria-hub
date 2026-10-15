@@ -24,6 +24,8 @@ HABEAT primo A, ad C, maiorem proportionem, quam B, ad eandem C. Dico A, maiorem
 
 [Curated heading level=2 type=campanus: 11]
 
+[Curated heading level=2 type=theorems: THEOR. 11. PROPOS. 11.]
+
 ## THEOR. 11. PROPOS. 11.
 
 [Margin]

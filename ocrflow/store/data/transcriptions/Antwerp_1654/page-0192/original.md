@@ -3,6 +3,8 @@
 
 In hac demonſtratione, vti & in ſequentibus eæ ſolum propoſitiones ex quinto libro adhibentur, quæ per ſe æquè ſunt manifeſtæ, atque ipſa axiomata.
 
+[Curated heading level=2 type=propositions: Lib. V, Pars II, Theorema 3.]
+
 ## Theorema 3.
 
 [Curated heading level=2 type=figures: Fig. 24]

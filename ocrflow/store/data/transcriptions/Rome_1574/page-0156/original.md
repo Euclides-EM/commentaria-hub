@@ -25,6 +25,8 @@ RECTE Euclides addidit in propoſitione hac: & non ad eaſdem partes. Quoniam vt
 
 [Curated heading level=2 type=campanus: 15]
 
+[Curated heading level=2 type=theorems: THEOR. 8. PROPOS. 15.]
+
 ## THEOR. 8. PROPOS. 15.
 
 [Margin]

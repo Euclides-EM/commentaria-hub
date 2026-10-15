@@ -30,6 +30,10 @@ hyp. | c π n 2|2 f π o,
 
 [Figure]
 
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXIII.]
+
 ## THEOR. XXIII. PROPOS. XXIII.
 
 S'il y a trois grandeurs, & d'autres égales à icelles en nombre, en mesme raison, prises de deux en deux, & que leur proportion soit troublée: icelles en raison égale seront proportionelles.

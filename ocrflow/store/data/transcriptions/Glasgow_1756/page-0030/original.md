@@ -19,6 +19,10 @@ b. Ax. 8.
 
 Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. IX. PROB.]
+
+[Curated heading level=2 type=problems: PROP. IX. PROB.]
+
 ## PROP. IX. PROB.
 
 [Subhead]

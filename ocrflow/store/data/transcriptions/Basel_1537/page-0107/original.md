@@ -4,6 +4,8 @@
 
 Quia ergo duo anguli g & b trianguli g f b sunt æquales duobus angulis h & b trianguli h f b, & latus f b commune, erit per 26 primi, f h æqualis f g. Eodem modo probabis f k, æqualem f l: sumptis triangulis l f d, k f d. Quoniã igitur quinq̃ lineæ f g, f h, f k, f l, & f m sunt æquales: erit f, centrum circuli per 9 tertij. Quem circulum describemus secundum quantitatem unius earum: & tanget omnia latera pentagoni, propter æqualitatem linearum: & nullum eorum secabit: per primam partem 15 tertij: sicq̃ cõstat propositum.
 
+[Curated heading level=2 type=problems: Problema 13. Propositio 13.]
+
 ## Eucli.ex Zamb. Problema 13. Propositio 13.
 
 [Curated heading level=3 type=zamberti_sequence: 13.]

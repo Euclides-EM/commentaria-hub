@@ -18,6 +18,8 @@ Sunto rursus eadem, in superiori uero ipsius bifariæ sectionis ponantur oculi b
 
 [Diagram: b at the upper left, m at the top middle, p at the upper right; below, a semicircle with a at its left; within it the letters b, a, l, K, g, e about the centre; long lines from b and p converge to f at the bottom]
 
+[Curated heading level=2 type=theorems: Theorema uigesimum nonum.]
+
 ## Theorema uigesimum nonum.
 
 SI uero extra diametrum ponantur oculi, ea quæ dextra sunt dextra, & quæ sinistra spectantur, & simulacrum minus spectato, & in eo quod medium inter spectatum & speculum.

@@ -8,6 +8,8 @@ ALITER Sit compositus numerus α. Dico quod erm aliquis primus numerus metitur. 
 
 [Diagram: dotted number-lines in right margin — α (10 dots), β (3 dots), γ (2 dots)]
 
+[Curated heading level=2 type=theorems: Theorema 32 Propositio 34]
+
 ## Eucli.ex Zamb. Theorema 32 Propositio 34
 
 [Curated heading level=3 type=zamberti_sequence: 34.]
@@ -51,6 +53,8 @@ Vnde etiam manifestum est maximum numerum quotlibet communiter numerantem, secun
 Vt si sint a b c secundũ quorũ proportiones uolumus minimos inuenire: siue fuerint in eadẽ proportione siue in diuersis, si nullus numerus nũerat eos omnes, ipsi sunt quos quærimus, per 23, hoc enim ibi demonstratum est. Si autẽ unus numerat omnes, sumatur ut docet tertia maximas eos cõmuniter numerans qui sit d, numeretq̃ eos secundũ e f g, qui erunt in eadem proportione per 15. dico eos esse quos quærimus, alioqui sint h k l, qui per 21 numerabunt a b c, æqualiter, sit ut secundum m, eritque per secundam partẽ 20 d ad m, ut h ad e, uel k ad f, uel l ad g. Minor est igitur d quàm m. quare cum m numeret a b c, non fuit d maximus eos numerans, quare sequitur impossibile: fuit enim d, maximus numerans a b c.
 
 [Diagram: dotted number-lines in right margin — a (6 dots), b (8 dots), c (12 dots); d (2 dots); e (3 dots), f (4 dots), g (6 dots); h (2 dots), k (3 dots), l (5 dots)]
+
+[Curated heading level=2 type=problems: Problema 3 Propositio 35]
 
 ## Eucli.ex Zamb. Problema 5{printer-error-correction:3} Propositio 35
 

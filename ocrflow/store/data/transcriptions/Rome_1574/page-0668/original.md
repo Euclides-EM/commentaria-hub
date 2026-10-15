@@ -16,6 +16,8 @@ EX his etiam apparet, numeros, qui medij proportionales cadunt inter A, & B; nec
 
 [Curated heading level=2 type=campanus: 11]
 
+[Curated heading level=2 type=theorems: THEOR. 9. PROPOS. 11.]
+
 ## THEOR. 9. PROPOS. 11.
 
 [Margin]

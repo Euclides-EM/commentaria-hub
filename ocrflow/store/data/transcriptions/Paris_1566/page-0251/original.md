@@ -2,6 +2,10 @@
 
 *A B D B dimidium eſt eius quod ſub A B B G, per coroll. primæ ſexti, quod eſt certum, ex hypotheſi: & igitur eius dimidium ſcilicet quod ſub A B D B certum erit, & proinde ipſi æquale (quod ſub A Z Z B) certum erit. Binas itaque rectas A Z Z B potentia incommenſurabiles efficientes, &c. comperimus.*
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquinta.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſimaquinta. Problema 12.]
+
 ## Propoſitio trigeſimaquinta. Problema 12.
 
 Comperire binas rectas lineas potentia incommenſurabiles, efficientes compoſitum, ex earum quadratis Medium, & quod ſub ipſis Medium, incommenſurabile compoſito ex earum quadratis.
@@ -9,6 +13,8 @@ Comperire binas rectas lineas potentia incommenſurabiles, efficientes compoſit
 *Sint (per coroll. 32 huius) binæ mediæ A B maior & B G minor, potentia tantùm commenſurabiles, medium comprehendentes, quarum maior plus poßit minore, eò quòd à ſibi longitudine incommenſurabili: reliqua verò ad figuræ deſcriptionem fiant iuxta duarum præcedentium tradita. Cùm autem ad maiorem A B applicatũ ſit, quod ſub A E E B, æquum quartæ parti eius quod à minore G D, hoc eſt quadrato D B, deficiẽs ſpecie quadrata, & maior plus poßit minore eò quod à ſibi longitudine incommenſurabili, per conſtructionem, incommenſurabilis erit A E ipſi E B, per ſecundam partem 18 huius. Quia autem oſtendimus eſſe A E ad E B vt quod ex A Z ad quadratũ Z B, incommenſurabile erit quod ex A Z quadrato Z B, quare ipſæ A Z Z B potentia incommenſurabiles erunt, ac efficient compoſitum ex earum quadratis (æquum quidem quadrato ipſius A B Mediæ per 47 primi) Medium. Cùm autem in præfatis oſtenſum ſit ſub A Z Z B æquum eſſe ei quod ſub A B B D: quod autem ſub A B B D Medium eſt, cũ ſit dimidium eius quod ſub A B B G, per coroll. primæ ſexti, quod fuit Medium, ex hypotheſi. Quod igitur ſub A Z Z B (ipſi quod ſub A B B D æquũ) Medium erit. Præterea incommenſurabile erit cõpoſito ex ipſarum A Z Z B quadratis. Nam cùm D B ſit ipſius G B dimidia, incommenſurabilis autem ſit A B ipſi G B, ſequetur (per coroll. ſecundum decimæ huius) & D B eidem A B incommenſurabilem eſſe: ſed ſicut A B ad D B ſic quod ex A B ad id quod ſub A B D B, per lemma 21 huius. Incommenſurabile igitur erit quod ex A B ei quod ſub A B D B: ei autẽ quod ſub A B D B æquale oſtenſum eſt id quod ſub A Z Z B, ei verò quod ex A B æquum fuit compoſitum ex earum A Z Z B quadratis, per 47 primi. Quod igitur ſub A Z Z B incommẽſurabile erit compoſito ex earum A Z Z B quadratis. Comperimus itaque binas rectas A Z Z B potentia incommenſurabiles efficientes, &c.*
 
 [Diagram: a semicircle over the line G, D, B, E, A with Z at the top, joined by lines to A and B]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſexta.]
 
 ## Propoſitio trigeſimaſexta.
 

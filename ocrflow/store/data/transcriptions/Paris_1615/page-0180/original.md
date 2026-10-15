@@ -4,6 +4,10 @@
 
 par meſme maniere ſera demonſtré ce moyen là d’argumenter, lequel en la meſme 15. def. nous auons appellé contraire diuiſion de raiſon: c’eſt à dire que ſi AC eſt à AB, comme DF à DE: auſſi AC ſera à CB, ainſi que DF a FE. Car puis que AC eſt a AB cõme DF DE: en changeant comme AB ſera a AC, ainſi DE a DF: donc en diuiſant par la 17.p.5. commé CB a AC, ainſi FE a DF: & en changeant derechef, comme AC a CB, ainſi DF a FE: ce qui eſtoit a demonſtrer.
 
+[Curated heading level=2 type=propositions: THEO. 18. PROP. XVIII.]
+
+[Curated heading level=2 type=theorems: THEO. 18. PROP. XVIII.]
+
 ## THEO. 18. PROP. XVIII.
 
 Si les grandeurs diuiſees ſont proportionnelles, icelles compoſees ſeront auſſi proportionnelles.

@@ -4,11 +4,19 @@
 
 C à D: ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 18. PROP. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. 18. PROP. XX.]
+
 ## THEOR. 18. PROP. XX.
 
 Si trois nombres ſont proportionnaux, le produict des extremes eſt egal au produict du milieu: & ſi le produict des extremes eſt egal à celuy du milieu; iceux trois nombres ſeront proportionnaux.
 
 Ceſte propoſition eſt aiſee à demonſtrer: car en poſant le nombre du milieu deux fois, afin qu’il y ait 4. nombres proportionnaux, deſquels le ſecond & tiers ſoient egaux; par la preçedente le produict du premier &quart, ſera egal au produict du ſecond & tiers, c’eſt à dire au produict du ſecond par ſoy meſie &c.
+
+[Curated heading level=2 type=propositions: THEOR. 19. PROP. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 19. PROP. XXI.]
 
 ## THEOR. 19. PROP. XXI.
 

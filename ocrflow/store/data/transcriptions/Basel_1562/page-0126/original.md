@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/ oder Schlußreden. -->
 <!-- Page number: 105 -->
 
+[Curated heading level=2 type=propositions: VI. Die ſechſt propoſition]
+
 ## VI. Die ſechſt propoſition. Lehret /
 
 [Subhead]
@@ -15,6 +17,8 @@ Inn dem fürgebnen zirckel werde erſtlich ain diameter durch das centrum (welch
 Demonſtrations.
 [/Margin]
 
+[Curated heading level=2 type=propositions: VII. Die ſibendt Propoſition]
+
 ## VII. Die ſibendt Propoſition. Lehret /
 
 [Subhead]
@@ -28,6 +32,8 @@ Erſtlich werde der zirckel mit zwaien diametern zertailet / aller maſſen wie 
 Dann das diſe perpendicular linien all 4 den zirckel (welches die definition ainer vmbgeſchribnen figur erfordert) berüren / iſt khlar auß dem anhang der 16 propoſition des dritten bůchs. Das ſy aber ye zwo vnd zwo parallel gegen ainander ſeien / magſtu ſelbſt angeſehen die rechten winckel beim centro / vnd bei den puncten der berürung / auß der 28 vnd 30 propoſ. des erſten bůchs vermittels der diameter / beweiſen / deßgleichen auch das alle 4 winckel gerecht / vnd demnach es ain quadrat ſei / beweißt die 34 propoſ. deſſelben bůchs. Gib ich von khürtzen wegen dir zůgedencken.
 
 [Diagram: circle inscribed in a square with perpendicular diameters]
+
+[Curated heading level=2 type=propositions: VIII. Die achte Propoſition]
 
 ## VIII. Die achte Propoſition. Lehret /
 

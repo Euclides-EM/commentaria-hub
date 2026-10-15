@@ -10,6 +10,10 @@ hyp. | fc 2|2 cd,
 α.19.a.1 | ab 2|2 fd + 2af,
 concl. 19.a.1. | ac 2|2 fc u cd + af.
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. VII.]
+
 ## THEOR. VII. PROPOS. VII.
 
 Si recta linea secetur vtcunque : Quod à tota quodque ab vno segmentorum, vtraque simul quadrata, æqualia sunt & illi, quod bis sub tota, & dicto segmento comprehenditur, rectangulo, & illi, quod à reliquo segmento fit, quadrato.

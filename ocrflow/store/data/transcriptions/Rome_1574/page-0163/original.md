@@ -8,6 +8,8 @@ erit angulus C, angulo A, quandoquidem & latus A B, latere B C, maius ponitur. S
 
 [Curated heading level=2 type=campanus: 18]
 
+[Curated heading level=2 type=theorems: THEOR. 12. PROPOS. 19.]
+
 ## THEOR. 12. PROPOS. 19.
 
 [Curated heading level=3 type=incipit: OMNIS]

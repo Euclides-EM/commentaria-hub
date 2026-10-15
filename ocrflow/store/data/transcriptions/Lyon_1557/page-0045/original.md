@@ -11,6 +11,10 @@ Et quoniam A K in duas parallelos F G & K H incidit: erit angulus A K H æqualis
 
 Hoc Problema hîc apponere viſum eſt, aliquando mihi propoſitum ab artifice quodam Geometriæ non imperito: quod difficilem probationem videretur habere: Tria enim dantur vt Triangulum conſtituatur: duo anguli, & linea vna: præſertim quum vterque angulus datus, non ſit ſuper eadem linea conſtitutus: ſic enim facilis eſſet conſtructio. Vt ſi ſuper linea A K conſtituendum Triangulum proponeretur, habens duos angulos duobus angulis datis æquales. Hîc verò A K linea, arte conquiritur.
 
+[Curated heading level=2 type=propositions: THEOREMA 25, PROPOSITIO XXXV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 25, PROPOSITIO XXXV.]
+
 ## THEOREMA 25, PROPOSITIO XXXV.
 
 Quæ ſuper eandem baſin Parallelogramma & inter eaſdem parallelos conſiſtunt, inter ſe ſunt æqualia.

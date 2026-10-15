@@ -4,11 +4,19 @@
 
 Daher hat jedes gleichſeitige Dreieck drei gleiche Winkel.
 
+[Curated heading level=2 type=propositions: N. 6 Siebenter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 6 Siebenter Satz. Lehrſatz.]
+
 ## N. 6 Siebenter Satz. Lehrſatz.
 
 Ein Dreieck, in welchem zwei Winkel gleich ſind, iſt ein gleichſchenkliches Dreick.
 
 Beweis. Siehe die Uiberſ. von Lorenz oder Bärmann.
+
+[Curated heading level=2 type=propositions: N. 7 Achter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 7 Achter Satz. Lehrſatz.]
 
 ## N. 7 Achter Satz. Lehrſatz. (Fig. 2 und 3.)
 

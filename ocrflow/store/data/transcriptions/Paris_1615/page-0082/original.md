@@ -8,6 +8,10 @@ A AD.AE.ADrG.AD,GC: DE, AE.DE. EGDE, GCEB.AE.EE. EG.EB Gc. Car eſtant accomply 
 
 proposé.
 
+[Curated heading level=2 type=propositions: THEOR. 2. PROP. II.]
+
+[Curated heading level=2 type=theorems: THEOR. 2. PROP. II.]
+
 ## THEOR. 2. PROP. II.
 
 Si vne ligne droite eſt coupee comme on voudraſles rectangles compris de la toute & d’vne chaſcune partie, ſont egaux au quarré de la toute.

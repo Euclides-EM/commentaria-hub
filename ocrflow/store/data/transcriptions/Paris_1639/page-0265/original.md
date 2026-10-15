@@ -19,6 +19,10 @@ hyp. | ab π bg 2|2 eb π bc,
 11.5 | ac π bh 2|2 bf π bh,
 concl. 9.5 | ◊ac 2|2 ◊bf.
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. XV.]
+
 ## THEOR. X. PROPOS. XV.
 
 Des triangles égaux, & qui ont vn angle égal à vn angle, les costez qui sont autour des angles égaux sont reciproques: Et les triangles qui ont vn angle égal à vn angle, & les costez qui sont autour des angles égaux reciproques sont égaux.

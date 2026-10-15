@@ -15,6 +15,10 @@ Demonstr.
 constr. | z 2|2 dc,
 concl. 1.a.1 | ki 2|2 z.
 
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXXVI.]
+
 ## THEOR. XXIII. PROPOS. XXXVI.
 
 Si in circulo quadrilaterum describatur; erit rectangulum sub diametris comprehensum æquale aggregato duorum rectangulorum, quæ sub lateribus oppositis continentur.

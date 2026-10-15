@@ -6,11 +6,21 @@ Cuiuſmodi eſſe videtur figura r/s/t/antecedentis deſcriptionis,ſub rectis l
 
 Ὅμοια τμήματα κύκλου ἐστὶ, τὰ δεχόμενα γωνίας ἴσας, ἢ ἐν οἷς αἱ γωνίαι ἴσαι ἀλλήλαις ἐισίν.
 
+[Curated heading level=2 type=definitions: Similes ſectiones circuli]
+
 Similes ſectiones circuli : ſunt quæ angulos æquos ſuſcipiunt, vel in quibus anguli ſibi inuicem ſunt æquales.
 
 Vti ſubiectæ circuli ſectiones a/b/c/ & d/e/f:in quibus anguli qui ad b/& e,ſunt inuicem æquales.Quanuis itaq̄ circuli ſectiones fuerint inæquales, poſſunt nihilominus eſſe ſimiles.Nam ſimilitudo ſectionum reſpicit tātummodò ſuſceptorū angulorum æqualitatē:nō autem datarum ſectionum magnitudinem. quēadmodum angulorū magnitudo, non linearum angulos ipſos comprehendentium quātitatem: ſed earundem linearum ſolam reſpicit inclinationem.
 
 [Diagram: b a c / e d f]
+
+[Curated heading level=1 type=propositions: LIBER III.]
+
+[Curated heading level=1 type=problems: LIBER III.]
+
+[Curated heading level=2 type=propositions: Problema 1, Propoſitio 1.]
+
+[Curated heading level=2 type=problems: Problema 1, Propoſitio 1.]
 
 ## Πρόβλημα α, Πρόθεσις α.
 

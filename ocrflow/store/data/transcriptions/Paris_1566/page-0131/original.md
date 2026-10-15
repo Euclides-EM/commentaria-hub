@@ -5,6 +5,8 @@ Sint duo triangula A B G & D E Z, quorum latera ſint proportionalia A B ad A G 
 
 [Diagram: triangle A B G and triangle D E I, with Z on D I and line E Z]
 
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
+
 ## Propoſitio ſexta.
 
 Si bina triangula vnum angulum vni angulo æqualem habuerint, & circum æquales angulos latera proportionalia æquiangula erunt triangula, & æquales habebunt angulos ſub quibus eiuſdem rationis lateta ſubtenduntur.
@@ -12,6 +14,8 @@ Si bina triangula vnum angulum vni angulo æqualem habuerint, & circum æquales 
 Sint duo triangula A B G & D E Z, vnũ angulum A vni angulo D æqualem habẽtia, circum eos autem angulos, latera B A ad A G, ſicut E D ad D Z: Dico reliquos angulos (ſcilicet B ipſi E & G ipſi Z (eiuſdem rationis lateribus ſubſtenſos) æquos eſſe. Ad datam rectam D Z ſignumque eius Z ipſi G, æqualis angulus conſtituatur D Z I: ad ſignũ autem D ipſi A æqualis fiat Z D I, reliquus itaq; B reliquo I æquus erit per corollarium 32 primi. Aequiangula igitur erunt A B G & D I Z triangula, & proinde (per 4 huius) erit A B ad A G, ſicut D I ad D Z. Suſceptum eſt autem vt B A ad A G, ſic D E ad D Z: ſicut igitur (per 11 quinti) D E ad D Z, ſic D I ad D Z, æquales igitur ſunt (per 9 quinti) D E & D I. Sed trianguli E D Z duo latera E D D Z duobus I D D Z & angulus E D Z angulo I D Z ſunt æqualia. Aequiangula igitur, per 4 primi, erunt triangula E D Z I D Z, & æqualia, æquiangula proinde erunt, per primam communem ſententiam, A B G & D E Z: quia verò, per hypotheſim, æqualis fuit angulus B ipſi I, & eidem I æquus oſtenſus eſt E, & ideo E ipſi B æquus erit, ſimiliter Z ipſi G, reliqui quidem ſub quibus eiuſdem rationis latera ſubtenduntur. Si igitur bina triangula vnum angulum vni angulo æqualem &c.
 
 [Diagram: triangle A B G and triangle D E I, with Z on E I and lines A G and D Z]
+
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
 
 ## Propoſitio ſeptima.
 

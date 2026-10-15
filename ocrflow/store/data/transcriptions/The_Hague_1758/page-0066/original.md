@@ -4,6 +4,10 @@
 
 [Figure: triangles ADB and EGF on bases AB and EF between parallels AF and DG, with dotted lines to points C and H on the upper line]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXVIII. THEOREME XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXVIII. PROPOSITION XXXVIII.]
+
 ## PROPOSITION XXXVIII. THEOREME XXVIII.
 
 {dropcap:L|lines=2|style=plain}Es triangles (ADB, EGF), placés ſur des baſes égales (AB, EF) & entre les mêmes paralleles (AF, DG), ſont égaux entr'eux.

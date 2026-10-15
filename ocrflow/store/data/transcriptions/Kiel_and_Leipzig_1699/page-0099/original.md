@@ -36,6 +36,10 @@
 
 [Diagram: Quadrat BADC mit punktierten Kreisbögen; Punkte i, h oben, D, C, f, e in der Mitte, g links, B, A unten]
 
+[Curated heading level=2 type=propositions: Der XLVII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 33. Beweiß-Stück. Der XLVII. Vortrag.]
+
 ## Der XLVII. Vortrag.
 
 ## Das 33. Beweiß-Stück.

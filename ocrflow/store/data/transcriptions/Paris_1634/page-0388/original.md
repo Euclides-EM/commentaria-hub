@@ -18,6 +18,10 @@ Demonstr.
 s.5.2 | □.bm 2|2 ▭.ab,bl,
 concl. 1.a.1 | □.bm 2|2 Δabc.
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. IV.]
+
 ## PROBL. IV. PROPOS. IV.
 
 Ad datam rectam lineam, datum quadratum, vel rectangulum applicare.

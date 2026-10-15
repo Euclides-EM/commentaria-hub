@@ -21,6 +21,10 @@ s.4.d.7 | multd..part.. bc 2|2 multd..part.. ef,
 α.1.a.7 & 4.7 | a, par. u part.. d 2|2 bg par. u part.. eh, & gc par. u part.. hf,
 concl. 5 & 6.7 | bc par. u part.. ef 2|2 bg par. u part.. eh, u a, par. u part. d.
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. X.]
+
 ## THEOR. VIII. PROPOS. X.
 
 Si numerus numeri partes fuerit, & alter alterius eædem partes : & vicissim, quæ partes est primus tertij, aut pars eædem partes erit & secundus quarti, aut pars.

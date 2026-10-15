@@ -5,6 +5,10 @@
 
 [Diagram: ruled frame containing two figures: Fig.1. shows a rectangle divided into A and B beside a rectangle labelled R under braces C and D, with braces below marked C+R and M; Fig.2. shows a rectangle divided into A and B beside a rectangle containing R under braces C and D, with braces below marked C–R and M]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVIII. THEOREME XVIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVIII. PROPOSITION XVIII.]
+
 ## PROPOSITION XVIII. THEOREME XVIII.
 
 {dropcap:S|lines=2|style=plain}I des grandeurs diviſées ſont proportionelles ( A : B = C : D ), elles ſeront encore proportionelles en compoſant ( A + B : B = C + D : D ).

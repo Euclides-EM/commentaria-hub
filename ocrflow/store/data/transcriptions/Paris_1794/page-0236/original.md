@@ -1,6 +1,10 @@
 <!-- Page number: 208 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IV.]
+
 ## PROPOSITION IV.
 
 ### THÉORÊME.
@@ -12,6 +16,10 @@ F. 224.
 *La somme des trois côtés d’un triangle sphérique est moindre que la circonférence d’un grand cercle.*
 
 Soit ABC un triangle sphérique quelconque ; prolongez les côtés AB, AC, jusqu’à ce qu’ils se rencontrent de nouveau en D. Les arcs ABD, ACD, seront des demi-circonférences, puisque deux grands cercles se coupent toujours en deux parties égales ; mais dans le triangle BCD le côté BC<BD+CD ; ajoutant de part et d’autre AB+AC, on aura AB+AC+BC<ABD+ACD, c’est-à-dire plus petit qu’une circonférence.
+
+[Curated heading level=2 type=propositions: PROPOSITION V. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION V.]
 
 ## PROPOSITION V.
 

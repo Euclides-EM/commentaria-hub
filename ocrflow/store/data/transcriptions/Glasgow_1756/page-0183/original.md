@@ -13,6 +13,10 @@ a. 22. 5.
 
 ex aequali K ad M, ut N ad P. Si igitur rationes &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. H. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. H. THEOR.]
+
 ## PROP. H. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ratio ex quibuſdam rationibus compoſita eadem ſit rationi ex quibuſdam aliis rationibus compoſitae, fueritque una ratio ex prioribus, vel ratio ex quibuſdam ex prioribus compoſita, eadem uni rationi ex poſterioribus, vel rationi ex quibuſdam ex poſterioribus compoſitae; erit reliqua ratio ex prioribus, vel ratio ex reliquis prioribus compoſita, eadem rationi reliquae ex poſterioribus, vel rationi ex reliquis poſterioribus compoſitae.

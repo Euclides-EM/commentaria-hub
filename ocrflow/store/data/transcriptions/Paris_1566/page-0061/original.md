@@ -2,9 +2,11 @@
 
 perpendicularem DB à reliquo oppoſito angulo GBA ſibi demiſſam. In ambligoniis igitur triangulis quadratum quod fit à latere obtuſum angulum &c.
 
-## MONITVM.
+### MONITVM.
 
 Theorematis ordinem quodammodo variavimus, eò quòd Campanus & Theon obſcurius diſcentibus tradiderint.
+
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
 
 ## Propoſitio decimatertia.
 
@@ -14,9 +16,13 @@ Sit oxigonium triangulum ABG, cuius vnum acutorum angulorum ſubtendat AB, ſcil
 
 [Diagram: acute triangle ABG with perpendicular AD to BG]
 
-## MONITVM.
+### MONITVM.
 
 Quoniam Theonis compendium potiuſquam demonſtret confundit hanc, cogimur aliam tradere non multo prolixiorem demonſtrationem eodem argumento ſuffultam.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaquarta. Problema 2.]
 
 ## Propoſitio decimaquarta.
 

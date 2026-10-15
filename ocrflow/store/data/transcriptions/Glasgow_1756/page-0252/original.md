@@ -11,6 +11,10 @@ eadem ratione quoniam duo plana parallela GH, KL a plano AXFC ſecantur, commune
 
 [Diagram: three parallel planes GH, KL and MN cut by lines AB, CD and AD, with points E, F and X on the middle plane]
 
+[Curated heading level=2 type=propositions: PROP. XVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVIII. THEOR.]
+
 ## PROP. XVIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea plano alicui ſit ad rectos angulos, et omnia quae per ipſam tranſeunt plana eidem plano ad rectos angulos erunt.

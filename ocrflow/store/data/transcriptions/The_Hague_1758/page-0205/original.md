@@ -3,6 +3,10 @@
 
 [Diagram: two bracketed rows of cells labelled RaM (containing 1aM, a1M) and RaO (containing 1aO, a1O), with hatched blocks M (marked I), N (marked II), O (marked III) and P (marked IV) beside multi-cell hatched blocks aM, cN, aO and cP, and below two bracketed rows ScN (containing 1cN, c1N) and ScP (containing 1cP, c1P)]
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. THEOREME IV.]
+
+[Curated heading level=2 type=theorems: THEOREME IV. PROPOSITION IV.]
+
 ## PROPOSITION IV. THEOREME IV.
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs (M, N, O, P) ſont proportionelles: les équimultiples (aM, aO) de la premiere (M) & de la troiſieme (O), comparés, chacun à chacun, à des équimultiples (cN, cP) de la ſeconde (N) & de la quatrieme (P), ſeront en même raiſon, ſelon quelque multiplication que ce puiſſe être.

@@ -6,6 +6,8 @@ a b, & ducatur linea f g. Quia igitur impossibile est partẽ trianguli e f g es
 
 [Diagram: two straight lines a b and c d crossing at e; below the intersection a transversal f g joins the two lines, with d and b at the lower ends]
 
+[Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
+
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 
 [Curated heading level=3 type=zamberti_sequence: 2.]
@@ -33,6 +35,8 @@ OMnium duarum superficierũ seinuicem secantium, communis sectio est linea recta
 CAMPANVS. De planis superficiebus intellige, & uerum erit quod dicitur. Sint itaq̃ duæ superficies planæ a b & c d, seinuicẽ secantes. Dico quod earum cõmunis sectio, erit linea recta. Esto enim duo puncta c & f{printer-error-correction:e & f} termini cõmunis sectionis earum quæ continẽtur per lineam rectam quæ sit e f. Si igitur linea e f est in utraq̃ duarum superficierũ a b & c d, constat propositum. At uero si in neutra, aut si non in altera, cum ambo puncta e & f sint in utraq̃ superficierũ a b & c d, in ea superficie in qua ipsa non fuerit, protrahatur linea recta quæ sit e h f, erunt igitur duæ rectæ lineæ e f & e h f, habẽtes duos terminos cõmunes. Quod est impossibile. Sic enim duæ rectæ lineæ includerent superficiem, quod est contra petitionem ultimã primi libri.
 
 [Diagram: two plane surfaces a b and c d shown as overlapping parallelograms intersecting in the line e f, with two curved lines through points h above and below forming a lens between e and f]
+
+[Curated heading level=2 type=theorems: Theorema 3 Propositio 3]
 
 ## Eucli. ex Zamb. Theorema 3 Propositio 3
 

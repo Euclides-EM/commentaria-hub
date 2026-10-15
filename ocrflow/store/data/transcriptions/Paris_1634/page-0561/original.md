@@ -4,6 +4,10 @@ ponitur, quare A & pariter impar est : ostensum autem est & pariter esse parem, 
 
 *l'vnité qui repugne à l'hypothese ; partant A, est pairement impair : mais il a esté demonstré qu'il est pairement pair ; par consequent A, est pairement pair & pairement impair, ce qu'il falloit demonstrer.*
 
+[Curated heading level=2 type=propositions: THEOR. XXXIII. PROPOS. XXXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIII. PROPOS. XXXV.]
+
 ## THEOR. XXXIII. PROPOS. XXXV.
 
 Si sint quotcunque numeri deinceps proportionales, detrahantur autem à secundo, & vltimo æquales ipsi primo : erit vt secundi excessus ad primum, ita vltimi excessus ad omnes ipsum antecedentes.

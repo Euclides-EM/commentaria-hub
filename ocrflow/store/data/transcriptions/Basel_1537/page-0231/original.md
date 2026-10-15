@@ -18,6 +18,8 @@ THEON ex Zamb. Bini enim numeri α, β, inuicem sese multiplicantes, quadratū e
 
 CAMPANVS. Sit a cubus, ex quo in se ducto fiat b, dico b esse cubum : sit enim c latus cubicū a, ex c uero in se, fiat d, patet itaq̃ q̃ ex c in d, fit a: sunt igitur unitas, c, d, a, continue proportionales, quod ex 18 septimi, & præsentibus hypothesibus manifestū est, & quia a est a ad b, sicut unitas ad a. eo quod quoties unitas est in a toties a in b, erunt inter a & b, duo numeri medij secundum proportionalitatē continuam per 8 octaui, cum igitur ex hypothesi sit a cubus, erit per 21 eiusdem, b quoq̃ cubus, quod oportebat demonstrare.
 
+[Curated heading level=2 type=theorems: Theorema 3 Propositio 3]
+
 ## Eucli. ex Zamb. Theorema 3 Propositio 3
 
 [Curated heading level=3 type=zamberti_sequence: 3.]
@@ -43,6 +45,8 @@ THEON ex Zamb. Cubus enim numerus α, seipsum multiplicans, ipsum efficiat β. D
 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I cubus in alium cubū ducatur, qui inde producetur erit cubus.
 
 CAMPANVS. Sint a & b cubi, fiatq̃ c ex a in b : dico c esse cubum, fiat enim d ex a in se, eritq̃ per præmissam d cubus, & quia per 18 septimi, est a ad b, sicut d ad c, constat ex 23 octaui. c esse cubum, quod est propositum.
+
+[Curated heading level=2 type=theorems: Theorema 4 Propositio 4]
 
 ## Eucli. ex Zamb. Theorema 4 Propositio 4
 

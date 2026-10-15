@@ -36,6 +36,8 @@ Multiplicier die ſtuckh mitainander / khommen 14400/289. darauß radir quadrata
 
 Volgen ettliche propoſ. ſo den gebrauch der vorgehnden nutz erklären.
 
+[Curated heading level=2 type=propositions: IX. Die neündt propoſition]
+
 ## IX. Die neündt propoſition.
 
 [Subhead]

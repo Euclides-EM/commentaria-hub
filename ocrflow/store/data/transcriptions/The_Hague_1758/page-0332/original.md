@@ -3,6 +3,10 @@
 
 [Diagram: within a ruled border, three triangles: triangle D E F with apex E marked a; triangle G H I with apex H marked b; triangle A B C with apex B marked c, with dotted lines joining an exterior point L to B, A and C]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXII. THEOREME XX.]
+
+[Curated heading level=2 type=theorems: THEOREME XX. PROPOSITION XXII.]
+
 ## PROPOSITION XXII. THEOREME XX.
 
 {dropcap:S|lines=2|style=plain}'Il y a trois angles-plan, deux deſquels pris comme l'on voudra ſoyent plus grand que le troiſiéme, & que les cotés qui comprennent ces angles ſoyent des droites égales. Il ſera poſſible de conſtruire un triangle des trois lignes (DF, GI, & AC,) qui ſoutiennent ces angles.

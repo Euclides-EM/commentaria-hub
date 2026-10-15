@@ -5,11 +5,13 @@ Si enim fieri poſſit rectam parallelogrammum ſecantem bifariam, dimetientem b
 
 [Diagram]
 
-### MONITVM.
+#### MONITVM.
 
 Hoc ideo contulimus corollarium, vt quandoque nutu diuinæ clementiæ demonſtrandis ſolidis ferat compendium.
 
-## Propoſitio trigeſimaquinta.
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquinta.]
+
+### Propoſitio trigeſimaquinta.
 
 Parallelogramma in eadem baſi & in eiſdem parallelis exiſtentia, adinuicem ſunt æqualia.
 
@@ -17,11 +19,13 @@ Sint ſuper eadem baſi B G & in eiſdem parallelis A Z B G, parallelogramma A B
 
 [Diagram]
 
-### MONITVM.
+#### MONITVM.
 
 Cùm hac & deinceps optabit Euclides triangula & parallelogramma in eiſdem eſſe parallelis, non in eiſdem ipſo actu intelligemus: ſed in parallelis æquali à ſe ſpatio diuulſis, quas eaſdem iure dicere poſſumus, eò quòd Geometria quantitatem, non tantùm ſitum aſpectet. Nos etenim ſitum liberè diſponimus (quod licet) ad demonſtrandorum facilitatem.
 
-## Propoſitio trigeſimaſexta.
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſexta.]
+
+### Propoſitio trigeſimaſexta.
 
 Parallelogramma in æqualibus baſibus & in eiſdem parallelis exiſtentia adinuicem ſunt æqualia.
 
@@ -29,7 +33,9 @@ Sint in æqualibus baſibus B G, Z I, & eiſdem parallelis A T, B I, parallelogr
 
 [Diagram]
 
-## Propoſitio trigeſimaſeptima.
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſeptima.]
+
+### Propoſitio trigeſimaſeptima.
 
 Triangula in eadem baſi & in eiſdem parallelis conſtituta, adinuicem ſunt æqualia.
 

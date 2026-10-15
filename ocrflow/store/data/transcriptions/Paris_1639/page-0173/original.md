@@ -21,6 +21,10 @@ hyp. | ab 2|2 ac,
 3.a.1 | ab,ad,ac *ſnt* 2|2 đe.
 *contr. 8. 3.*
 
+[Curated heading level=2 type=propositions: THEOR. XXXI. PROPOS. XXXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXI. PROPOS. XXXVII.]
+
 ## THEOR. XXXI. PROPOS. XXXVII.
 
 Si hors le cercle on prend quelque poinct, & d'iceluy poinct, tombent au cercle deux lignes droictes, vne desquelles couppe le cercle, & l'autre l'atteint: Et que le rectangle contenu sous toute la couppante, & sa partie de dehors, prise entre le poinct & la circonference conuexe, soit égal au quarré de l'atteignante, icelle atteignante touchera le cercle.

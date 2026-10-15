@@ -10,6 +10,10 @@ Demonstr.
 2 concl. β s12.10 | c, est ration.
 3.concl β.cōstr. | b, comm. c, ꝗn. □.
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXII.]
+
 ## THEOR. XIX. PROPOS. XXII.
 
 Quod sub rationalibus potentia solum commensurabilibus rectis lineis continetur rectangulum, irrationale est : & recta linea ipsum potens, irrationalis ; vocetur autem media.

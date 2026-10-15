@@ -17,6 +17,10 @@ Demonstr.
 
 *ICY COMMENCENT LES sixaines des lignes irrationelles par la composition.*
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXXVII.]
+
 ## THEOR. XXV. PROPOS. XXXVII.
 
 Si duæ rationales potentia tantùm commensurabiles componantur, tota irrationalis erit; vocetur autem ex binis nominibus.

@@ -28,6 +28,8 @@ Quod si singulæ singulis sint æquales, patet propositum per hanc commuuem scie
 
 [Diagram: at right, three short horizontal lines labelled a, b, c; beneath them three equal short lines labelled d, e, f]
 
+[Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
+
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
 
 [Curated heading level=3 type=zamberti_sequence: 1.]

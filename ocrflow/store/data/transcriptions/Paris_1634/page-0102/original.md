@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. XVII.]
+
 ## THEOR. X. PROPOS. XVII.
 
 Cuiuscunque trianguli duo anguli, duobus rectis sunt minores, omnifariam sumpti.

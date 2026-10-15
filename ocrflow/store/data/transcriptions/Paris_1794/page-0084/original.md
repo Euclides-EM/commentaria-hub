@@ -1,6 +1,8 @@
 <!-- Page number: 56 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=2 type=problems: PROBLÊME XVIII.]
+
 ### PROBLÊME XVIII.
 
 [Margin]

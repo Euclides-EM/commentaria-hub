@@ -4,6 +4,8 @@
 
 ex hac 16 cōmunes sectiones duarum extremarū superficierū, æquidistātes sectionibus mediæ. Quare ex 30 primi ipsæ etiam sectiones duarum extremarū superficierū, erunt æquidistantes adinuicem. Et quia ipsæ contingunt se in cōmuni sectione duarū superficierū tres positas superficies secantium, ex præmissa euidenter constat quod diximus.
 
+[Curated heading level=2 type=theorems: Theorema 14. Propositio 16.]
+
 ## Eucli. ex Zamb. Theorema 14. Propositio 16.
 
 [Curated heading level=3 type=zamberti_sequence: 16.]
@@ -29,6 +31,8 @@ THEON ex Zamb. Bina, inquam, plana parallela α β, γ δ, à plano ε ζ η θ 
 {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I superficies tres uel plures æquidistantes duas rectas lineas se inuicem contingētes uel æquidistantes secent, illarum linearū portiones proportionales esse probantur.
 
 CAMPANVS. Intelligantur enim duæ rectæ lineæ penetrantes qualitercunq̃ contigerit tres superficies æquidistantes, aut etiam plures tribus: dico itaq̃ duas portiones illarum linearū inter quaslibet duas superficies interceptas, proportionales esse quibusq̃ duabus inter alias duas ex illis æquidistantibus superficiebus interceptis. Coniungantur enim duæ extremitates illarum duarum linearū, ducta inter eas linea una diagonaliter, eritq̃ hæc diagonalis, cum utraq̃ illarū duarum linearū penetrantiū superficies propositas, in superficie una illas æquidistantes superficies positas secante. Si ergo harum superficierum communes sectiones quæ per præmissam erunt æquidistantes, cogitatione protraxeris, ex prima parte secundæ sexti constabit propositum.
+
+[Curated heading level=2 type=theorems: Theorema 15. Propositio 17.]
 
 ## Eucli. ex Zamb. Theorema 15. Propositio 17.
 

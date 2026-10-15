@@ -1,6 +1,10 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 87 -->
 
+[Curated heading level=2 type=propositions: PROP. XVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVI. THEOR.]
+
 ## PROP. XVI. THEOR.
 
 {dropcap:Q|lines=2|style=plain}UAE diametro circuli ad rectos angulos ab extremitate ducta eſt, cadit extra circulum; et in locum inter rectam lineam et circumferentiam recta linea non cadet; ſive, quod idem eſt, circumferentia circuli tranſit inter rectam quae diametro eſt ad rectos angulos, et rectam quae cum diametro angulum acutum quantumvis magnum continet, vel quae angulum quantumvis parvum continet cum recta quae ad rectos angulos eſt diametro.

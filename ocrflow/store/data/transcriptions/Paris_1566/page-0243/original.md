@@ -2,6 +2,8 @@
 
 ſecunda ſexti: incommenſurabiles verò potentia, ſunt radices radicum non habentium rationem quam quadrati numeri. Nam eorum radices ſunt potentiæ mediarum, quæ ſunt incommenſurabiles, per nonam decimi. Mediæ verò potentia tantùm commenſurabiles, ſunt radices radicum numerorũ habentium rationem, quam ſimplices quadrati, non autem quadrati quadratorum. Nã radices (quæ ſunt potentiæ mediarum) ſunt commenſurabiles: ſed radices radicum incommenſurabiles exiſtunt, quæ mediarum denotant longitudinem. Quare infinitæ mediæ potentia incommẽſurabiles reperientur, per conferentiam infinitorum numerorum dißimilium planorum ad ſeinuicem factam, nam diſſimiles plani rationem quadratorum non habentes (ex corollario nonæ decimi) efficiunt eorum radices mediarum areas deſignantes incommenſurabiles, ex nona decimi. Et idcirco medias longitudine ſimul incommenſurabiles totidem, nam quæ potentia incommenſurabiles fuerunt, longitudine incommenſurabiles erunt, ex illatione nonæ decimi.
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquarta.]
+
 ## Propoſitio vigeſimaquarta.
 
 Sub mediis longitudine commenſurabilibus rectis lineis cõprehenſum rectangulum, medium eſt.
@@ -9,6 +11,8 @@ Sub mediis longitudine commenſurabilibus rectis lineis cõprehenſum rectangulu
 Sub mediis A B & B G longitudine commenſurabilibus rectis cõtineatur rectãgulum A G: Dico A G mediũ eſſe, fiat ex A B quadratũ A D, per 46 primi, quod medium eſt, nempe ex media A B: Quia verò D B, æqualis ipſi A B, eſt lõgitudine commenſurabilis ipſi B G. Eſt autem D A ad A G, vt D B ad B G, ex prima ſexti, cõmenſurabile erit A G (per decimamtertiam huius) ipſi D A medio: quare igitur & A G medium erit, per corollarium præfatum. Sub mediis itaque longitudine, &c.
 
 [Diagram: rectangle with A at top, divided into two compartments labelled ℞ 162 and ℞ 288; beneath, the base line D B G with segments labelled ℞ ℞ 162 and ℞ ℞ 512]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquinta.]
 
 ## Propoſitio vigeſimaquinta.
 

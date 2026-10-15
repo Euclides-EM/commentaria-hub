@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. LX. PROPOS. LXXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. LX. PROPOS. LXXVIII.]
+
 ## THEOR. LX. PROPOS. LXXVIII.
 
 Si à recta, recta auferatur potentia incommensubilis existens toti, quæ cum tota faciat compositum quidem ex ipsarum quadratis medium; quod autem sub ipsis continetur, rationale: reliqua irrationalis est: vocetur autem cum rationali medium totum efficiens.

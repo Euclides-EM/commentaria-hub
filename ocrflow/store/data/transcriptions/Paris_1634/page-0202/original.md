@@ -38,6 +38,10 @@ Demonstr.
 2.3 | fe est in ⊙ afe & in ⊙ feg,
 2.3.d.3 | ⊙afe secat: ⊙feg in f contr. hypoth.
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XIV.]
+
 ## THEOR. XIII. PROPOS. XIV.
 
 In circulo æquales rectæ lineæ æqualiter distant à centro. Et quæ æqualiter distant à centro, æquales sunt inter se.

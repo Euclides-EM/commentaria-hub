@@ -3,6 +3,10 @@
 
 primum ad ſecundum, ita tertium ad quartum: licet illud nominatim ab Euclide poſitum ſit Æquemultiplicium gratia, vt notum eſt ex Quinto. Atque hoc dictum volui, vt vbique admonerem, Æqualitatem eſſe omnium Proportionum originem & ducem.
 
+[Curated heading level=2 type=propositions: THEOREMA 2, PROPOSITIO II.]
+
+[Curated heading level=2 type=theorems: THEOREMA 2, PROPOSITIO II.]
+
 ## THEOREMA 2, PROPOSITIO II.
 
 Si Trianguli duo latera recta linea ſic ſecet, vt ipſa ad reliquum ſit parallelus: duo latera proportionaliter ſecabit: & ſi proportionaliter duo latera ſecet: erit ipſa ad reliquum parallelus.
@@ -22,6 +26,10 @@ HVIVS etiam Theorematis rationem ab Æquali ductam eſſe ſatis manifeſtum eſ
 Iam connectantur BE & CD. Et quoniam ponitur AD ad DB vt AE ad EC: erit per antecedentem & per vndecimam Quinti, Trianguli ADE ad vtrunque BDE & CED proportio vna. Vtrunque igitur æquale, per alteram partem nonæ Quinti. Quare, per trigeſimamnonam Primi, ipſa inter duas Parallelos conſiſtunt, Quod erat oſtendendum.
 
 Vides Parallelorum officio conſeruari ius Æqualitatis: vt in ſuperiori, immò vt in Demonſtrationibus Geometricis paſſim apparet.
+
+[Curated heading level=2 type=propositions: THEOREMA 3, PROPOSITIO III.]
+
+[Curated heading level=2 type=theorems: THEOREMA 3, PROPOSITIO III.]
 
 ## THEOREMA 3, PROPOSITIO III.
 

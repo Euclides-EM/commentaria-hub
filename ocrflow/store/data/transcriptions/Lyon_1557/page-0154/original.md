@@ -11,6 +11,10 @@ Sit iam, manente eadem conctructione, AB ad AC vt BD ad DC. Et quia, per anteced
 
 EST autem hæc conſtructio dimidia pars illius Figuræ Gnomonicæ quam in Quadrageſimatertia Primi ad omnes Demonſtrationes Geometricas locupletiſſimam eſſe diximus: quæq́; omnibus ſerè huius libri Sexti Propoſitionibus accommodatur, vt poſteriùs cognoſcent qui compoſitiones Figurarum diligenter attenderint.
 
+[Curated heading level=2 type=propositions: THEOREMA 4, PROPOSITIO IIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 4, PROPOSITIO IIII.]
+
 ## THEOREMA 4, PROPOSITIO IIII.
 
 Aequiangulorum Triangulorum, latera quæ circũ ęquales angulos, ſunt proportionalia.

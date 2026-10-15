@@ -2,9 +2,11 @@
 
 *ta, ipſam A E ſecabit per incommenſurabiles longitudine A I I E, per ſecũdam partem 18 huius, quare incommenſurabilia erunt (per primam ſexti) A T I K, æqualia quidem quadratis M O R X: & idcirco ipſa M O R X quadrata incommenſurabilia erunt. Rectæ itaque M N N X (eorum latera) potentia incommenſurabiles erunt, efficientes quidem conflatum ex earum quadratis M O R X medium, quod autem bis ſub ipſis rectangulum O X & M R medium, & incommenſurabile inſuper ipſi compoſito ex quadratis, vt oſtenſum eſt. Tota ideo M X recta bina media potens dicitur, per 41 huius, quæ cùm poſſit quadratum S P æquum rectangulo A G ea M X poterit idem rectangulum, A B G D ſub certa A B & ea quæ ex binis nominibus ſexta A D, comprehenſum. Si igitur areola comprehẽdatur ſub certa, & ex binis nominibus ſexta, &c.*
 
-## MONITVM.
+### MONITVM.
 
 *Reaſſumit hìc Theon lemma non ſuo loco, ſcilicet quadrata inæqualium ſectionum alicuius rectæ maiora eſſe rectangulo bis ſub eis comprehenſo. Nam eodem vſus eſt demonſtrans 39 huius, quo loco ſatis ſupérque monuimus huius demonſtrationem lemmatis, fruſtra igitur illud idem repeteremus, quod corollario ſeptimo ſecundi diximus.*
+
+[Curated heading level=2 type=propositions: Propoſitio ſexageſima.]
 
 ## Propoſitio ſexageſima.
 

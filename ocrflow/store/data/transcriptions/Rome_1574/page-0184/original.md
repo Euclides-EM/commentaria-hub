@@ -22,6 +22,8 @@ QVAMVIS autem optime a Proclo demonſtratum ſit vndecimum hoc pronunciatum, vt 
 
 [Curated heading level=2 type=campanus: 29]
 
+[Curated heading level=2 type=theorems: THEOR. 20. PROPOS. 29.]
+
 ## THEOR. 20. PROPOS. 29.
 
 [Margin]

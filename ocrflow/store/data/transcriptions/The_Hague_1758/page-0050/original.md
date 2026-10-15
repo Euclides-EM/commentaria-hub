@@ -4,6 +4,10 @@
 
 [Figure: two triangles: at left, triangle ABC on base A C; at right, triangle DEF on base D F, with dotted lines from E to G and from D to G, the point G lying to the right near F]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIV. THEOREME XV.]
+
+[Curated heading level=2 type=theorems: THEOREME XV. PROPOSITION XXIV.]
+
 ## PROPOSITION XXIV. THEOREME XV.
 
 {dropcap:S|lines=2|style=plain}I deux triangles (ABC, DEF), ont deux côtés (BA, BC) égaux à deux côtés (ED, EF) chacun à chacun; mais l'angle-compris (B) plus grand que l'angle compris (DEF): la baſe (AC) oppoſée au plus grand angle, ſera auſſi plus grande que la baſe (DF) oppoſée au plus petit angle.

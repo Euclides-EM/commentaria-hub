@@ -4,6 +4,8 @@ nuë la construction, comme en la precedente, ayant mené DN perpendiculaire à 
 
 Il faut operer de mesme pour descrire vn quadrant en la face occidentale du meridien.
 
+[Curated heading level=2 type=propositions: Propos. 6. pag. 759.]
+
 ### Propos. 6. pag. 759.
 
 *Descrire vn quadrant sur vn plan vertical, dont la declinaison Zephyr-Australe soit, par exemple, de 46 degrez.*

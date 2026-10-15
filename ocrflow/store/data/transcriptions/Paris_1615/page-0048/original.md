@@ -2,6 +2,10 @@
 
 ſera plus grand que l’oppoſe Bac. Que ſi le coſté Ac eſt nrolongé en G, & Be conppé en deux egalement en H, & on tire la ligne AHI, tellement que HI ſoit egale à AH, & ſoit menee CI. On demonſtrera par meſme raiſon que deſſus, que l’angle externe BCG eſt plus grand que l’interne & oppoſe ABC. Mais par la prop.precedente aiceluy ACG eſt egall’externe ACD: donc iceluy ACD eſt auſſi grand que l’interne & oppoſe ABC.
 
+[Curated heading level=2 type=propositions: THEOR. 10. PROP. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. 10. PROP. XVII.]
+
 ## THEOR. 10. PROP. XVII.
 
 Tout triangle a deux angles plus petits que deux droits, de quelle façon qu’ils ſoient pris.

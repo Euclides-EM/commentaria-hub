@@ -10,6 +10,10 @@ Car par hypothe ſe lc rectangle de AB & BC eſtant medial, deux fois le meſme 
 
 Soit AB, (18—√216,) & BC√ (18—√216): La toute AC ſera donc√(18√216) t√(18√216), qui eſt irrationele nommee ligne maieure.
 
+[Curated heading level=2 type=propositions: THEOR. 29. PROP. XLI.]
+
+[Curated heading level=2 type=theorems: THEOR. 29. PROP. XLI.]
+
 ## THEOR. 29. PROP. XLI.
 
 Si deux lignes incommenſurables en puiſſance, comprenant vn rectangle ractionel, & le compoſé de leurs quarrez medial, ſont aſſéblees; la toute ſera irrationele: ſoit icelle appelee ligne pouuant vn rationel & vn medial.

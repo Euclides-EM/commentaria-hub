@@ -4,11 +4,13 @@ Eſto triangulum A B C. Dico duo eius quælibet latera reliquo eſſe maiora. Ex
 
 [Diagram: triangle BCD with A on base BD and line AC]
 
-### MONITVM.
+#### MONITVM.
 
 Potuit breuius hanc demonſtrare Campanus per diffinitionem rectæ lineæ, cùm omnis linea recta à ſigno ad ſignum ſit breuiſſima, duo latera reliquo ſequitur eſſe maiora: ſed quia hæc deſcriptio potius quàm diffinitio fuerit, ab ea demonſtrando abſtinuimus, eo quod eius non meminerimus.
 
-## Propoſitio vigeſimaprima.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaprima.]
+
+### Propoſitio vigeſimaprima.
 
 Si trianguli à limitibus vnius lateris binæ rectæ introrſum conſtituantur ad ſignum, quæ coniunguntur, reliquis trianguli binis lateribus minores quidem erunt, maiorem verò angulum continebunt.
 
@@ -16,11 +18,15 @@ Trianguli A B G à limitibus B & G binæ lineæ B D G D ad ſignum D introrſum 
 
 [Diagram: triangle ABG containing joined lines BD and GD, with BD extended through D to E]
 
-### MONITVM.
+#### MONITVM.
 
 Diximus præter Theonem rectas introrſum conſtitutas, ad ſignum conſtitui: nam ſi vſque ad trianguli educerentur latera, verè maiorem angulum quoquomodo efficerent, ſed quandoque maiores eſſent, contra propoſitum, nos ideo non tantum introrſum, ſed & ad ſignum eas conſtitui petimus.
 
-## Propoſitio vigeſimaſecunda.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſecunda.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimaſecunda. Problema 8.]
+
+### Propoſitio vigeſimaſecunda.
 
 [Subhead]
 Problema 8.

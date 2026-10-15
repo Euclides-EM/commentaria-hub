@@ -13,6 +13,8 @@ Was in linien iſt / ain quadrat machen / das iſt inn zalen / in ſych ſelbſt
 
 Wan vier proportional zalen fürkhomen / ſo entſpringt auß multiplicierung der erſten inn die viert / eben ſouil / alß auß multiplicierung der andern inn die dritt. Item ſo ſychs alſo mit vier zalen zůtregt / ſo ſeind dieſelben proportional.
 
+[Curated heading level=3 type=propositions: XVII. Die ſibendzehendt propoſition]
+
 ## XVII. Die ſibendzehendt propoſition.
 
 [Subhead]

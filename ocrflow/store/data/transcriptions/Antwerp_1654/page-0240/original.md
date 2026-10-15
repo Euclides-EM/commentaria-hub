@@ -7,6 +7,8 @@
 b Per eand.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XVII.]
+
 ## PROPOSITIO XVII.
 
 [Curated heading level=2 type=figures: Fig. 34]

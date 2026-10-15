@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXV.]
+
 ## THEOR. XXII. PROPOS. XXV.
 
 Quod sub mediis longitudine cómensurabilibus rectis lineis continetur rectangulum, medium est.
@@ -29,6 +33,10 @@ hyp. | dc, u ca, comm. cb,
 10.10 | da, comm. db,
 hyp. | da, est medi.
 concl. s.24.10 | db, est medi.
+
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXVI.]
 
 ## THEOR. XXIII. PROPOS. XXVI.
 

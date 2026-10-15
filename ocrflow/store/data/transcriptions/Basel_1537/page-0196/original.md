@@ -2,6 +2,8 @@
 
 <!-- Page number: 185 -->
 
+[Curated heading level=2 type=theorems: Theorema 17 Propositio 19]
+
 ## Eucli.ex Zamb. Theorema 17 Propositio 19
 
 [Curated heading level=3 type=zamberti_sequence: 19.]
@@ -15,6 +17,8 @@ Si quatuor numeri proportionales fuerint, qui ex primo & quarto fit, æquus est 
 THEON ex Zamberto. Sint quatuor numeri proportionales α,β, γ,δ, sicut α ad β, sic γ ad δ : & α quidem ipsum δ multiplicans, efficiat ipsum ε, & β ipsum γ multiplicans, efficiat ipsum ζ. Dico quod æqualis est ε ipsi ζ . Ipse autem α ipsum γ multiplicans, efficiat ipsum η. Quoniam igitur α ipsum γ multiplicans , ipsum η fecit , multiplicans autem ipsum δ , ipsum ε fecit , numerus iam α duos numeros γ,δ, multiplicans, ipsos η,ε, fecit, & igitur (per 17 septimi) sicut γ ad δ, sic est η ad ε. Sicut autem γ ad δ, sic α ad β: & sicut igitur (per 11 quinti) α ad β , sic η ad ε . Rursus quoniam α ipsum γ multiplicans , ipsum η fecit , sed β ipsum γ multiplicans, ipsum ζ fecit , duo iam numeri α, β, numerum aliquem γ multiplicantes, ipsos fecerunt η,ζ : est igitur (per 18 septimi) sicut α ad β, sic η ad ζ, sed sicut α ad β, sic η ad ε, & sicut igitur (per 11 quinti) η ad ε, sic η ad ζ. Igitur η ad utrunq̃ ipsorum ε, ζ. eandem habet rationem : æqualis igitur est ε ipsi ζ (per 7 quinti.) Sit uero rursus æqualis ε ipsi ζ. Dico quod est sicut α ad β, sic est γ ad δ. Eisdem namq̃ dispositis, quoniam α ipsos γ, δ, multiplicans, ipsos η, ε, fecit, est igitur (per 17 septimi) sicut γ ad δ, sic η ad ε : æqualis autem est ε ipsi ζ: est igitur sicut η ad ε, sic η ad ζ (per secundam partem septimæquinti.) Sed sicut quidem η ad ε, sic γ ad δ : sicut igitur γ ad δ, sic η ad ζ : sicut autem η ad ad ζ, sic α ad β , (per 18 septimi) sicut igitur (per 11 quinti) α ad β, sic γ ad δ . Quod oportebat demonstrare.
 
 [Diagram: dot-columns in the right margin labelled at the foot η, ζ, ε, δ, γ, β, α]
+
+[Curated heading level=2 type=theorems: Theorema 18 Propositio 20]
 
 ## Eucli. ex Zamb. Theorema 18 Propositio 20
 

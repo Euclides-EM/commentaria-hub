@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, a circle with centre C containing an inscribed square ABDE, with diameters AD and BE crossing at C; faint show-through of figures from the reverse side on either side]
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. PROBLEME VI.]
+
+[Curated heading level=2 type=problems: PROBLEME VI. PROPOSITION VI.]
+
 ## PROPOSITION VI. *PROBLEME VI.*
 
 {dropcap:I|lines=2|style=plain}Nſcrire dans un cercle donné (ABDE); un quarré (ABDE).

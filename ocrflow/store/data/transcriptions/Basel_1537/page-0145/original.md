@@ -2,6 +2,8 @@
 
 <!-- Page number: 134 -->
 
+[Curated heading level=2 type=theorems: Theorema 25. Propositio 25]
+
 ## Eucli. ex Zamb. Theorema 25. Propositio 25
 
 [Curated heading level=3 type=zamberti_sequence: 25.]

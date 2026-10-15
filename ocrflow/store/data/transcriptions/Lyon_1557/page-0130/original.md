@@ -15,6 +15,10 @@ Si quatuor Magnitudines proportionales fuerint, conuerſo quoque modo proportion
 
 Hoc eſt, ſi fuerit ſicut A ad B, ita C ad D: erit & ſicut B ad A, ita D ad C. Hæc igitur Conuerſam rationem probat, quam in decimaquarta Definitione poſuerat Euclides.
 
+[Curated heading level=2 type=propositions: THEOREMA 5, PROPOSITIO V.]
+
+[Curated heading level=2 type=theorems: THEOREMA 5, PROPOSITIO V.]
+
 ## THEOREMA 5, PROPOSITIO V.
 
 Si Magnitudo Magnitudinis æquè fuerit multiplex vt ablata ablatæ: erit & reliqua reliquæ tam multiplex, quàm tota totius.

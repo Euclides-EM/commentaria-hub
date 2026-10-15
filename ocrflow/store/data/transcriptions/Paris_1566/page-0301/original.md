@@ -2,7 +2,9 @@
 
 *potentias, commenſurabili vel incommenſurabili: maioráque ſimul aut minora ſimul nomina, certæ propoſitæ commenſurabilia fient, aut neutra ſimul.*
 
-## Propoſitio centeſima duodecima.
+[Curated heading level=2 type=propositions: Propoſitio centeſimaduodecima.]
+
+## Propoſitio centeſimaduodecima.
 
 Quod ex Certa ad eam quę Ex binis nominibus comparatum, latitudinem efficit Apotomen, cuius nomina commenſurabilia ſunt nominibus eius quæ Ex binis nominibus, & in eadem ratione. Et inſuper quæ gignitur Apotome, eundem habebit ordinem ei quæ Ex binis nominibus.
 

@@ -9,6 +9,10 @@ concl. 10.d.1 | ea ⊥ ac.
 
 [Figure: deux constructions sur la ligne B—A—C, auec demicercles par D, E, G ; à droicte les cercles entiers s'entrecouppans en A, E, G, C]
 
+[Curated heading level=2 type=propositions: PROBL. XVI. PROPOS. XVI.]
+
+[Curated heading level=2 type=problems: PROBL. XVI. PROPOS. XVI.]
+
 ## PROBL. XVI. PROPOS. XVI.
 
 In dato circulo, quintidecagonum & æquilaterum & æquiangulum describere.

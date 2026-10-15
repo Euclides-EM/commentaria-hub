@@ -6,6 +6,8 @@ in eorum proportiōe prout docet 2 huius,qui sint g,h,k,deinde quatuor,qui sint 
 
 [Diagram: dotted number lines beside the text, labelled a (9 dots), l (9 dots), g (4 dots), c (13 dots), m (12 dots), e (2 dots), h (6 dots), n (long row), f (3 dots), d (long row), K (9 dots), p (long row), b (long row), with a single dot beside the short rows for the unit]
 
+[Curated heading level=2 type=theorems: Theorema 7 Propositio 9]
+
 ## Eucli.ex Zamb. Theorema 7 Propositio 9
 
 [Curated heading level=3 type=zamberti_sequence: 9.]

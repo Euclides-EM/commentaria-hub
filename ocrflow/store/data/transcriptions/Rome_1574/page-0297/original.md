@@ -14,6 +14,8 @@ tranſit, ſecet circunferentias in C, & E; ducanturque a centris F, G, ad B, co
 
 [Curated heading level=2 type=campanus: 12]
 
+[Curated heading level=2 type=theorems: THEOR. 12. PROPOS. 13.]
+
 ## THEOR. 12. PROPOS. 13.
 
 [Curated heading level=3 type=incipit: CIRCVLVS]

@@ -12,6 +12,8 @@ ITAQVE in uniuerſum, area cuiuſcunque trianguli producitur ex dimidio baſis i
 
 [Curated heading level=2 type=campanus: 14]
 
+[Curated heading level=2 type=problems: PROBL. 2. PROPOS. 14.]
+
 ## PROBL. 2. PROPOS. 14.
 
 [Curated heading level=3 type=incipit: DATO]

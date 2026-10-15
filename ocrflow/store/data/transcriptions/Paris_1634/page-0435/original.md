@@ -11,11 +11,15 @@ Quæ pars numeri A, metitur B, eadem pars numeri C, metitur D; igitur numerus A,
 
 *La partie de A, qui mesure B, est la mesme, que la partie de C, qui mesure D; partant le nombre A, est telles parties de B, que le nombre C, l'est du nombre D.*
 
+[Curated heading level=2 type=definitions: DEFINIT. V.]
+
 ## DEFINIT. V.
 
 Multiplex vero maior minoris, cùm maiorem metitur minor : vt 15, est multiplex 5.
 
 *Vn nombre est dit multiple d'vn autre plus petit, lors que le plus petit mesure le plus grand : comme 15, est multiple de 5.*
+
+[Curated heading level=2 type=definitions: DEFINIT. VI.]
 
 ## DEFINIT. VI.
 
@@ -26,6 +30,8 @@ Par numerus est, qui bifariam diuiditur : vt 6, 8, 10, sunt numeri pares.
 pa. id est par.
 
 *pa. signifie pair.*
+
+[Curated heading level=2 type=definitions: DEFINIT. VII.]
 
 ## DEFINIT. VII.
 

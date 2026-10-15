@@ -15,6 +15,10 @@ hyp. | a & d snt pr. ꝫe,
 contr. suppos.
 21.a.7 | a, b, c, d snt term.. raō.
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. II.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. II.]
+
 ## PROBL. I. PROPOS. II.
 
 Numeros reperire deinceps proportionales minimos, quotcunque iusserit quispiam, in data ratione.

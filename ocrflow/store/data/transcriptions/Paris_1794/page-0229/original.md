@@ -3,6 +3,10 @@
 
 semblable à la pyramide qui joint les quatre angles homologues de l’autre polyedre. Donc deux polyedres semblables , etc.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIV.]
+
 ## PROPOSITION XXIV.
 
 ### THÉORÊME.

@@ -32,6 +32,8 @@ PATET etiam ex his, proportionem cuiusuis numeri cubi ad quemlibet numerum non c
 
 [Curated heading level=2 type=campanus: 24]
 
+[Curated heading level=2 type=theorems: THEOR. 24. PROPOS. 26.]
+
 ## THEOR. 24. PROPOS. 26.
 
 [Margin]

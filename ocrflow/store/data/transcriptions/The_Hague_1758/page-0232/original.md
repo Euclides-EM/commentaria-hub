@@ -1,6 +1,8 @@
 <!-- Page number: 220 -->
 <!-- Running title: APPENDICE. -->
 
+[Curated heading level=2 type=definitions: DEFINITION II.]
+
 ## DEFINITION II.
 
 {dropcap:D|lines=2|style=plain}IVISER, dans un ſens général, une grandeur D par une autre d, c'eſt trouver une grandeur Q, qui ſe rapporte à l'unité, de la même manière que D ſe rapporte à une grandeur homogène d.
@@ -14,6 +16,8 @@ Le Diviſ. 2 eſt au Divid. 6, comme l'unité 1 eſt au quotient 3.
 La Définition avertit aſſez que le Dividende & le Diviſeur doivent être des grandeurs de même genre; & que l'unité & le Quotient doivent être dans le même cas. Car dans cette opération la raiſon de d à D eſt donnée, & on demande qu'on l'exprime par la raiſon de l'unité à Q; il faut donc que les termes apartenants à la même raiſon ſoient de même genre.
 
 La diviſion ſe réduit donc à trouver une quatrieme proportionelle au Diviſeur, au Dividende, & à l'unité.
+
+[Curated heading level=2 type=postulates: DEMANDE I.]
 
 ## DEMANDE I.
 

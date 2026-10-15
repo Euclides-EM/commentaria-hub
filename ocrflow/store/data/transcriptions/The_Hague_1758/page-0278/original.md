@@ -3,6 +3,10 @@
 
 [Figure: two triangles ABC and DEF, with a dotted line AG drawn to point G on side BC, and marked angles at B, C, E and F]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIX. THEOREME XIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XIII. PROPOSITION XIX.]
+
 ## PROPOSITION XIX. THEOREME XIII.
 
 {dropcap:L|lines=2|style=plain}Es triangles ſemblables (ABC, DEF) ſont entr'eux en raiſon doublée de leurs côtés homologues quelconques (CB, FE ou AC, DF &c).

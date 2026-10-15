@@ -3,6 +3,10 @@
 
 [Diagram: dotted triangle A E B on base line A C D B; perpendicular E C; point G on E B, point F on E C, with dotted lines F G, D G and A G]
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. THEOREME IX.]
+
+[Curated heading level=2 type=theorems: THEOREME IX. PROPOSITION IX.]
+
 ## PROPOSITION IX. THEOREME IX.
 
 {dropcap:S|lines=2|style=plain}I une droite (AB) eſt coupée en deux parties égales (AC, CB), & en deux inégales (AD, DB): les quarrés des deux parties inégales (AD, DB) ſont doubles du quarré de la moitié (AC) de l'entiere (AB) & du quarré de la partie (CD) compriſe entre les deux points de ſection (C & D).

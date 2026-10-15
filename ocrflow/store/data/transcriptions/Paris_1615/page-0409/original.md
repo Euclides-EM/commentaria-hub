@@ -8,6 +8,10 @@ Trouuer deux lignes mediales commenſurables en longitude: Item deux commenſura
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEO. 22. PROP. XXV.]
+
+[Curated heading level=2 type=theorems: THEO. 22. PROP. XXV.]
+
 ## THEO. 22. PROP. XXV.
 
 Le rectangle cõpris de deux lignes mediales commenſurables en longitude, eſt auſſi medial.

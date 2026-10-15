@@ -1,5 +1,9 @@
 <!-- Page number: 33 -->
 
+[Curated heading level=2 type=propositions: N. 22 Drei und zwanzigſter Satz. Aufgabe.]
+
+[Curated heading level=2 type=problems: N. 22 Drei und zwanzigſter Satz. Aufgabe.]
+
 ## N. 22 Drei und zwanzigſter Satz. Aufgabe.
 
 (Fig. 4.)

@@ -6,6 +6,8 @@ C’eſt à dire que ſi A eſt meſuree par B moindre grã A12.B4. deur qu’
 
 Or quand deux moindres grandeurs en meſurent egalement deux autres plus grandes, ceſt à dire qu’vne moindre eſt contenue autas de fois en vne plus grande, qu’vne autre moindre en vne autre plus grande, ces deux plus grandes-là ſont dictes equemultiplices d’icelles moindres. Et le meſme ſe doit entendre, ſi pluſieurs moindres meſurent egalemen: pluſieurs grandes.
 
+[Curated heading level=2 type=definitions: 3.]
+
 [Curated heading level=3 type=numbered_item: 3.]
 
 3. Raiſon, eſt vne habitude de deux grandeurs de meſme genre, comparees l’vne à l’autre ſelon la quantité.

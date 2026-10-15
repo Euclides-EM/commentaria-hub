@@ -6,6 +6,10 @@ rable à vne troiſiéme, mais l’autre incommenſicelles grandeurs ſeront i
 
 Soient deux grandeurs A & B, (en la precedente figure) deſquelles A ſoit commenſ. à C; & B incommenſ. à la meſme C. Ie dis que A & B ſont incommenſ. entr’elles. Car ſi B eſtoit cõmenſ. à A, lequel A eſt poſé auſſi commenſ. à C, par la i. p.10.B & C ſeroient commenſ. contre l’hypotheſe. Donc A & B ne ſont commenſ. ce qu’il falloit demonſtrer.
 
+[Curated heading level=2 type=propositions: THEOR. 11. PROP. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 11. PROP. XIV.]
+
 ## THEOR. 11. PROP. XIV.
 
 Si de deux grandeurs commenſ. l’vne eſt incommenſ. à vne tierce, auſſi ſera l’autre à la meſme.

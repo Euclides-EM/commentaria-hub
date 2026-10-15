@@ -2,6 +2,10 @@
 
 <!-- Page number: 79 -->
 
+[Curated heading level=2 type=propositions: Der XLV. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 13. Werck-Stück. Der XLV. Vortrag.]
+
 ## Der XLV. Vortrag.
 
 ## Das 13. Werckstück.

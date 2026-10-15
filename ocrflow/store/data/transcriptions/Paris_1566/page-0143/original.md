@@ -1,5 +1,9 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſima.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſima. Problema 10.]
+
 ## Propoſitio trigeſima.
 
 [Subhead]
@@ -16,6 +20,8 @@ Poterat hæc admiranda ſectio prolixius demonſtrari, applicato ad rectam AB ex
 
 [Diagram: adjoining squares and rectangle constructed on line ABC]
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaprima.]
+
 ## Propoſitio trigeſimaprima.
 
 In triangulis rectangulis quæ à rectum angulum ſubtendẽte latere ſpecies, æqualis eſt eis quæ à rectum angulum comprehendentibus lateribus ſpeciebus ſimilibus ſimiliteŕque deſcriptis.
@@ -27,6 +33,8 @@ Eſto triangulum rectangulum ABG, cuius angulus ſit rectus: Dico quæuis poligo
 ### Aliter.
 
 Vt autem noſcamus hanc originem à 47 primi duxiſſe, per eam hanc demonſtrabimus compẽdio. Cùm enim ex AB AG quadrata, ei quod ex BG quadrato, ſint æqualia, per 47 primi. Sed ab ipſis rectis ſimiles deſcriptæ ſpecies, quadratorum habent rationem, per 20 ſexti: nempe duplam ſimilis rationis laterum. Ergo ab ipſis AB AG ſimiles ſpecies ei, quæ ex BG ſimili æquales ſunt ſpeciei, per 11 quinti.
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſecunda.]
 
 ## Propoſitio trigeſimaſecunda.
 

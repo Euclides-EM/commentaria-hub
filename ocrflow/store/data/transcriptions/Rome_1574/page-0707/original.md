@@ -28,6 +28,8 @@ HINC rurſus efficitur, quemlibet numerum, qui ſe ipſum multiplicet, producere
 
 [Curated heading level=2 type=campanus: 11]
 
+[Curated heading level=2 type=theorems: THEOR. 12. PROPOS. 12.]
+
 ## THEOR. 12. PROPOS. 12.
 
 [Curated heading level=3 type=incipit: SI]

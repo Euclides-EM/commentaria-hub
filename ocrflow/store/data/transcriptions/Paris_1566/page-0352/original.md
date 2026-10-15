@@ -5,10 +5,10 @@ Sint æquales coni A G L E I N vel cylindri A X E O, ſuper baſibus A B G D E Z
 
 [Figure: two cones inscribed in cylinders, the left labelled L, X, D, A, K, G, B, the right labelled R, N, O, C, P, H, T, M, E, I, Z]
 
-## Corollarium.
+### Corollarium.
 
 Quoniam expoſuimus tantùm conos & cylindros, quorum vertices baſibus perpendiculares incidunt. Exponendi ſunt reliqui quorum vertices angulos ad baſes efficiunt obliquos eiſdem vti actionibus ac paſſionibus quibus præfatos vti hactenus diſcuſſimus.
 
-## Ex decima huius.
+#### Ex decima huius.
 
 Quoniam diximus decima huius conum cylindri tertiam eſſe partem, eandem ipſi baſim & æquale faſtigium habentis, Illúd que demonſtratum eſt propoſito cylindro cuius baſis ſecatur per quadratum inſcriptum, & ſuper quadrati lateribus deſcripta Iſoſcelia triangula poligonum componentia, rurſuſque ſub huius poligoni lateribus alia eadem arte infinitè deſcripta, plus dimidio baſis auferentia, vt frequentius patuit. Et ideo ſuper his baſibus ſolida quæ ſub cylindri inclinati altitudine eidem includuntur cylindro, manifeſtum eſt plus dimidio cylindri auferre, & reliqui plus dimidio, veluti in rectis cylindris oſtendimus. Nam hæc inclinata ſolida ſuper æquali altitudine, & æquis baſibus rectorum, rectis ſunt æqualia, per corollarium quadraſimæ vndecimi. Quare ſimiliter plus dimidio tollunt vt recta. Conferentes igitur inclinatum cylindrum, cono ſuper eadem baſi & vertice recto, ab impoßibili inſuper arguentes, per decimæ huius demonſtrationem, oſtendemus lateratum inclinanti cylindro incluſum, maius eſſe triplo, ſiue pyramidis & eidem æquum, quod fieri non poteſt. Illúdque erit primæ partis diſiunctiua, qua propoſuimus cylindrum aut triplo coni maiorem eſſe, aut minorem, ſi æqualis non ſuſcipiatur. Secunda verò parte concludemus ſolidum illud lateratum cylindro conceptum, ipſo cylindro maius eſſe quod rurſus abſurdius apparebit. Quare ſi nec triplo coni fuerit cylindrus maior, nec minor, neceſſe æqualis erit. Horum demonſtratio inclinatorum facilè rectorum ſequitur demonſtrationem, eò quòd iam oſtenſum eſt pyramides & laterata ſuper æquis baſibus & altitudine, ſiue recta, ſiue inclinata inuicem eſſe æqualia, nempe vt baſes, per ſextam huius. Cylindrus igitur inclinatus triplus erit cuiuſlibet coni (licet recti) ſuper eius baſi & altitudine conſtituti, ſed eius coni triplus fuit cylindrus rectus, per decimam huius. Cylindrus igitur inclinatus, re

@@ -4,9 +4,11 @@
 
 [Figure: two parallel planes G D and Z E joined by vertical lines A B, with points K and T between them]
 
-## Corollarium.
+### Corollarium.
 
 Si recta linea vni parallelorum planorum recta fuerit, & reliquo recta erit. *Nam ſi cum reliquo recta non eſſet, ipſa ad aliquam eius plani lineam angulum recto minorem efficeret, quæ quidem linea (per vndecimam communem ſententiam) tandem concurreret cum aliqua alterius plani linea, quare ipſa plana ſequeretur non eſſe parallela, contra hypotheſim, cum parallela ſupponãtur. Si itaque recta linea vni parallelorum planorum, &c.*
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
 
 ## Propoſitio decimaquinta.
 
@@ -16,11 +18,13 @@ Si binę rectæ lineæ ſe inuicem tangentes ad binas ſe inuicem tangentes fuer
 
 [Figure: lines from B descending to A and G, and from E to T and K, with I between them and D and Z below]
 
-## Corollarium.
+### Corollarium.
 
 Dato plano per datum extra illud ſignum, parallelum planum ducere. *Eſto planum A B C, ſignum verò E. Per ſignum verò E ipſis A B B C parallelæ fiant G E E I, per trigeſimamprimam primi. Ipſæ igitur G E E I ſunt in plano G E I parallelo ipſi A B C plano (per hanc) cum ſint tangentes.*
 
 [Figure: lines G E and E I above a triangle A B C]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
 
 ## Propoſitio decimaſexta.
 

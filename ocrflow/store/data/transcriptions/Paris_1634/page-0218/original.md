@@ -13,6 +13,10 @@ Demonstr.
 1.concl. 26.3 | ∪ aic 2|2 ∪ dkf,
 2.concl. 3.a.1 | ∩abc 2|2 ∩def.
 
+[Curated heading level=2 type=propositions: THEOR. XXVI. PROPOS. XXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVI. PROPOS. XXIX.]
+
 ## THEOR. XXVI. PROPOS. XXIX.
 
 In æqualibus circulis, æquales peripherias, æquales rectæ lineæ subtendunt.
@@ -42,6 +46,10 @@ concl. 4.1 | ac 2|2 df.
 Hæc propositio & tres proximè præcedentes intelligendæ etiam sunt in eodem circulo : eadem enim erit demonstratio.
 
 En ceste proposition, & aux trois precedentes, ce qui est dit des cercles égaux, doit aussi estre entendu d'vn mesme cercle : car ce sera la mesme demonstration.
+
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. XXX.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. XXX.]
 
 ## PROBL. IV. PROPOS. XXX.
 

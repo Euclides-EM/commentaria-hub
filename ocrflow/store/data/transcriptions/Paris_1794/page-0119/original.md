@@ -21,6 +21,10 @@ Fig. 87.
 
 Car les triangles AOB, BOC, AOC, qui ont leur sommet commun en O, ont pour hauteur commune le rayon du cercle inscrit ; donc la somme de ces triangles sera égale à la somme des bases AB, BC, AC, multipliée par la moitié du rayon OD ; donc le triangle ABC est égal à son périmetre multiplié par la moitié du rayon du cercle inscrit.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXXIII.]
+
 ## PROPOSITION XXXIII.
 
 ### THÉORÊME.

@@ -4,6 +4,10 @@
 
 [Figure: triangle ECF with vertex C, points A and B on its sides joined by line AB, and dotted lines from A and B to a point D below on the line CD]
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. PROBLEME IV.]
+
+[Curated heading level=2 type=problems: PROBLEME IV. PROPOSITION IX.]
+
 ## PROPOSITION IX. PROBLEME IV.
 
 {dropcap:U|lines=2|style=plain}N angle rectiligne (ECF) étant donné; le couper en deux parties égales (ECD, FCD).

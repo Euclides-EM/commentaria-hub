@@ -7,6 +7,8 @@ hyp. | b π c 2|2 f π g,
 hyp. | c π d 2|2 g π h,
 22.5 | a π d 2|2 e π h.
 
+[Curated heading level=2 type=definitions: DEFINIT. XIX.]
+
 ## DEFINIT. XIX.
 
 Perturbata autem proportio est, cum tribus positis magnitudinibus, & aliis quæ sint his multitudine pares, vt in primis quidē magnitudinib. se habet antecedēs ad cōsequentem, ita in secūdis magnitudinibus antecedens ad cōsequentem : vt autē in primis magnitudinib. consequēs ad aliud quidpiam, sic in secundis magnitudinibus aliud quidpiā ad antecedentē.

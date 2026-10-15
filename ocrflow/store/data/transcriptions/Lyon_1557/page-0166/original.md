@@ -9,6 +9,10 @@ Nam, per vndecimam Quinti, erit AB ad AC & DE ad DF vt BC ad EF: ob idq́;, per 
 
 Hoc Theorema per ſe fuit manifeſtum, velut animi Notio. Nam, vt anteà docuimus, Similitudo Superficierum eſt æqualitas quædam.
 
+[Curated heading level=2 type=propositions: THEOREMA 16, PROPOSITIO XXII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 16, PROPOSITIO XXII.]
+
 ## THEOREMA 16, PROPOSITIO XXII.
 ### Theoni 21.
 

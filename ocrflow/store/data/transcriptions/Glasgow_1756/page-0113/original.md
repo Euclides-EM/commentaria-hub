@@ -3,6 +3,10 @@
 
 angulus igitur qui ad A angulo qui ad D eſt æqualis. in æqualibus igitur circulis &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXVIII. THEOR.]
+
 ## PROP. XXVIII. THEOR.
 
 {dropcap:I|lines=2|style=plain}N æqualibus circulis æquales rectæ lineæ circumferentias æquales auferunt, majorem quidem majori, minorem vero minori.

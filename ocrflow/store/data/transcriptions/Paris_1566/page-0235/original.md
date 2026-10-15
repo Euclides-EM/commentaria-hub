@@ -1,8 +1,10 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
-## MONITVM.
+### MONITVM.
 
 Proximarum propoſitionum ſeptem præcedentium ordinem variare cogimur. Cùm enim ſitus earum varia ſcribentium ſententia ad nos fuerit delatus, non poſſumus eam Euclidis fuiſſe mentem coniicere, qui tot in varios ſtudiorum anfractus incidiſſet: quare diſciplinæ authoritatem docentium authoritati præferentes, theoremata hoc loco ita tranſponimus, vt quæ cepit quinta huius de commenſuratione loqui, ad duodecimam vſque perducamus. Poſtmodum decimatertiam proportionem commenſurationi copulantes, poſtremas 14, 15, & 16 potentiarum leges quinam arte longitudines ſequantur docere incipientes, conſequamur. Id equidem ſeruato theorematum numero eodem, quod ſi Campanus, Theon, ac duplex illud græcum exemplar, in eo diſſideant, quo ſcilicet quædam theoremata Euclidis, corollaria fuiſſe dixere vel lemmata. Nos hac arte ſingula demonſtrandis futuris neceſſariò collegimus, vt quæ immediatè ab aliquo dependent theoremate, eiuſdem corollaria dixerimus, vel lemmata antiquum Theonis ſequentes morem, quamuis quandoque ſatis impropriè lemmata, quæ corollaria dici debent & è conuerſo dicamus. Sed cùm id huic diſciplinæ nihil aut parum conferat dum tamen adſit demonſtratio, ac vera methodi ſequacitas, harum quæſtionum præteribimus moram. Quia verò Theon poſt 16 huius, ponit lemma admodum à propoſito diſtans, ac eiuſdem ſententiæ cum corollario à nobis poſt vigeſimamoctauam ſexti poſito. Nos itaque illud tanquam præhabitum, hac obliti ſumus data opera.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
 
 ## Propoſitio decimaſeptima.
 

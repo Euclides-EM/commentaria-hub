@@ -35,6 +35,10 @@ conſtr. | ∠c 2|2 ∠gfe,
 conſtr. | △b 2|2 ◊fd,
 3.concl. 1.a.1 | ◊fl 2|2 △b.
 
+[Curated heading level=2 type=propositions: PROBL. XIII. PROPOS. XLV.]
+
+[Curated heading level=2 type=problems: PROBL. XIII. PROPOS. XLV.]
+
 ## PROBL. XIII. PROPOS. XLV.
 
 A vne ligne droicte donnée appliquer vn parallelogramme égal à vne figure rectiligne donnée, en vn angle rectiligne donné.

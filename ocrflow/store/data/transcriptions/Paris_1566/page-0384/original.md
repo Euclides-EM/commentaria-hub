@@ -5,6 +5,8 @@ Sint in circulo A B E G latera A B A G pentagoni dodecahedri A B C I G, ſubten�
 
 [Figure: circle with point A at top, chord B G through points K, T and centre D, triangle A F H, and points C, I, E on the circumference]
 
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
+
 ## Propoſitio ſeptima.
 
 Recta linea ſecta extrema & media ratione, quam rationem habet potens totam & maius ſegmentum, ad potentem totam & minus ſegmentum, eam habet cubi latus ad Icoſahedri latus, eadem ſphæra contenti.

@@ -7,6 +7,10 @@ Si vero B et C ſimul minores ſint quam A, quoniam requiritur ut B, C, D ſimul
 
 Cor. Si praeterea requiratur ut A et B ſimul non minores ſint quam C et D ſimul, debet exceſſus ipſarum A et B ſimul ſupra C non minor eſſe quam D, hoc eſt debet D non major eſſe hoc exceſſu.
 
+[Curated heading level=2 type=propositions: PROP. II. PROBLEMA.]
+
+[Curated heading level=2 type=problems: PROP. II. PROBLEMA.]
+
 #### PROP. II. PROBLEMA.
 
 Datis quatuor magnitudinibus A, B, C, D quarum A et B ſimul non minores ſunt quam C et D ſimul, et quarum tres ſimul majores ſunt reliquâ quartâ, quomodocunque ſumptae; quintam E invenire, ita ut duae ex tribus A, B, E quomodocunque ſumptae majores ſint reliqua tertia, et etiam duae ex tribus C, D, E quomodocunque ſumptae majores ſint reliquâ. ſit autem A non minor B, et C non minor D.

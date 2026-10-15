@@ -3,6 +3,10 @@
 
 [Figure: pyramide ABCD dans un cadre, avec les points L, H, F, E, G, I marqués et des lignes ponctuées de diviſion]
 
+[Curated heading level=2 type=propositions: PROPOSITION III. THEOREME III.]
+
+[Curated heading level=2 type=theorems: THEOREME III. PROPOSITION III.]
+
 ## PROPOSITION III. THEOREME III.
 
 {dropcap:T|lines=2|style=plain}Oute pyramide (ABCD) ayant pour baze un triangle (ACD): peut être diviſée * en deux priſmes égaux & ſemblables, (IDEFLG & GLFHCE) & en deux pyramides (LGIA & LFHB) ſemblables & égales entr'elles, & ſemblables à la grande pyramide; de plus les deux priſmes pris enſemble ſeront plus grands que la moitié de toute la pyramide (ABCD).

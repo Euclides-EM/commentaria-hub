@@ -3,6 +3,10 @@
 
 donc les deux angles BAD, BCD, pris ensemble, ont pour mesure la moitié de la circonférence, ce qui équivaut à deux angles droits.
 
+[Curated heading level=2 type=propositions: PROPOSITION XIX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIX.]
+
 ## PROPOSITION XIX.
 
 ### THÉORÊME.
@@ -18,6 +22,10 @@ Au point de contact A menez le diametre AD ; l’angle BAD est droit, il a pour 
 On démontreroit de même que l’angle CAE a pour mesure la moitié de l’arc AC compris entre ses côtés.
 
 ## *Problêmes relatifs aux deux premiers Livres.*
+
+[Curated heading level=1 type=problems: Livre II, Problêmes relatifs aux deux premiers Livres]
+
+[Curated heading level=2 type=problems: PROBLÊME I.]
 
 ### PROBLÊME I.
 

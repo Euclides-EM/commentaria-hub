@@ -6,6 +6,10 @@ Hinc efficitur, in omni parallelepipedo diametros omnes se mutuò bifariam secar
 
 *Il s'ensuit de ceste demonstration qu'en tout parallelipipede, tous les diametres se couppent l'vn l'autre en deux egalement à vn poinct, sçauoir au poinct V.*
 
+[Curated heading level=2 type=propositions: THEOR. XXXV. PROPOS. XL.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXV. PROPOS. XL.]
+
 ## THEOR. XXXV. PROPOS. XL.
 
 Si fuerint duo prismata æqualis altitudinis, quorum hoc quidem habeat basin, parallelogrammum, illud vero, triangulum, duplum autem fuerit parallelogrammum trianguli; æqualia erunt ipsa prismata.

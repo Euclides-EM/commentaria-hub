@@ -6,9 +6,13 @@ Secetur A B recta bifariam in G, ad dimidiam autem G B aliquod applicetur parall
 
 [Diagram: parallelogram labelled A, B, C, D, E, G, I and N]
 
-## MONITVM.
+### MONITVM.
 
 Voces propoſitionis (græcum imitantes) variavimus, vt proiectum ad lineam applicatum intelligatur, ſumptum verò, quo in fine vtitur, id quo deficit proiectum, cenſendum eſt.
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaoctaua.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimaoctaua. Problema 8.]
 
 ## Propoſitio vigeſimaoctaua.
 

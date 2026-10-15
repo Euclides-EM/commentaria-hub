@@ -3,6 +3,10 @@
 
 [Diagram: ruled frame containing hatched rectangles labelled A, B and C beside rectangles labelled mA, mB and nC, and hatched rectangles labelled a, b and c beside rectangles labelled ma, nb and nc]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIII. THEOREME XXIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIII. PROPOSITION XXIII.]
+
 ## PROPOSITION XXIII. THEOREME XXIII.
 
 {dropcap:S|lines=2|style=plain}'il y a deux ſuites de grandeurs (A, B, C &c a, b, c &c) de même nombre de part & d'autre, telles que les raiſons de l'une ſoient égales aux raiſons de l'autre, chacune à chacune, dans un ordre renverſé ou troublé, les extrêmes ſeront proportionelles par égalité de raiſon troublée, ou ex æquo perturbatè.

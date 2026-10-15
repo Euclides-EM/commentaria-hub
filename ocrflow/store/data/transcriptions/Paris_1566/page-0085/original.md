@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEOMET. -->
 
+[Curated heading level=1 type=duplicate_pages: Page 85, duplicate of page 83]
+
 Secundo cum vna bifariam, altera verò per centrum extenſa, inæqualiter ſecatur, vt in circulo A C B D, cuius centrũ ſit E, recta A B dimetiens inæqualiter ſecta, bifariam ſecat rectam C D in I, cõiuncta E D, quoniam bifariam ſecat A B rectam C D, & ad rectos eam ſecat, per 3 huius. Per præaſſumptam itaque quintam ſecundi rectangulum ſub A I I B cum quadrato ex E I, æquum eſt ei, quod à dimidia E B, vel E D ſibi ex centro æquali, ſed eidem ex E D quadrato æquum eſt rectangulum ſub C I I D (hoc eſt, quadratum ex I D, eſt enim ſecta bifariam C D) cum quadrato E I, per 47 primi. Cõmuni igitur ex E I quadrato ablato, rectangulum ſub A I I B, æquum erit rectangulo ſub C I I D, hoc eſt quadrato ex C I vel I D æqualibus facto.
 
 [Diagram: circle with diameter A B, chord C D, centre E, intersection I, and line E D]

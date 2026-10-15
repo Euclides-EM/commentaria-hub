@@ -22,6 +22,8 @@ HABET admiranda hæc ſectio lineæ extrema ac media ratione inſignes utilitate
 
 [Curated heading level=2 type=campanus: 31]
 
+[Curated heading level=2 type=theorems: THEOR. 21. PROPOS. 31.]
+
 ## THEOR. 21. PROPOS. 31.
 
 [Margin]

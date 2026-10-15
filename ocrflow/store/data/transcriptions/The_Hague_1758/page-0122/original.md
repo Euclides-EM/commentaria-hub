@@ -4,6 +4,10 @@
 
 [Diagram: circle ABC with interior point D and three straight lines DA, DB and DC]
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. THEOREME VIII.]
+
+[Curated heading level=2 type=theorems: THEOREME VIII. PROPOSITION IX.]
+
 ## PROPOSITION IX. *THEOREME VIII.*
 
 {dropcap:S|lines=2|style=plain}I d’un point quelconque (D), pris au dedans d’un cercle (ABC), on peut tirer à ſa circonference plus de deux lignes droites (DA, DB, DC) égales entr’elles, ce point ſera le centre du cercle.

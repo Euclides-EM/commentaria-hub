@@ -3,6 +3,10 @@
 
 [Figure: two parallelepipeds, the first labelled A, B, C, D, K, the second labelled E, F, G, H, O, P, with dotted extension labelled I, L, M]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXII. THEOREME XXVII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXVII. PROPOSITION XXXII.]
+
 ## PROPOSITION XXXII. THEOREME XXVII.
 
 {dropcap:L|lines=2|style=plain}Es paralelipipédes (BD & EP) dont les hauteurs (BC & FO) ſont égales: ſont entr'eux comme leurs bazes (AK & EG).

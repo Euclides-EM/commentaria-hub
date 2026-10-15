@@ -11,6 +11,8 @@ SVNT autem proxime antecedentes quatuor propoſitiones 26. 27. 28. & 29. intelli
 
 [Curated heading level=2 type=campanus: 29]
 
+[Curated heading level=2 type=problems: PROBL. 4. PROPOS. 30.]
+
 ## PROBL. 4. PROPOS. 30.
 
 [Margin]
@@ -31,6 +33,8 @@ SIT peripheria ABC, ſecanda bifariam. Ducatur recta ſubtendens AC, qua diuiſa
 [/Margin]
 
 [Curated heading level=2 type=campanus: 30]
+
+[Curated heading level=2 type=theorems: THEOR. 27. PROPOS. 31.]
 
 ## THEOR. 27. PROPOS. 31.
 

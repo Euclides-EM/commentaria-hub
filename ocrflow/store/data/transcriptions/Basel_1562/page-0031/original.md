@@ -5,6 +5,8 @@
 
 linien c f vnd c e / gleich der linien b c. Aber wie du ſichſt / ſy machen khainen Triangell. Alſo auch in der figur die linien a d vnd c e / welche den andern zwaien gleich ſein. Aber auff die ander ſeitten mag es geſchechen / vnnd iſt nit wider diſe Propoſition / wie du in der andern figur ſichſt.
 
+[Curated heading level=2 type=propositions: VIII. Die acht propoſition]
+
 ## VIII. Die acht propoſition.
 
 [Subhead]
@@ -16,6 +18,8 @@ Zwen triangel / da yeder zwo ſeytten oder linien hatt des andern zwayen linien 
 [Figure: two triangles a b c and d e f side by side]
 
 Diſes iſt die viert propoſition vmbkhert. Die zwen triangel a b c vn̄ d e f / ſo nun die linien a b vnd b c / den linien d e vnd e f gleich ſeind / auch die zwo baſes a c vnd d f / einander gleich.ſo iſt auch der winckel b / dem winckell e gleich. Dann die linien darmit diſe winckell begriffen / ſein einander gleich. Alſo ſeind auß diſer vrſach auch die winckel a vnd d / item die winckel c vnd f / einander gleich. Beſich die leſt propoſ.diß buͤchs / da haſtu ein exempel.
+
+[Curated heading level=2 type=propositions: IX. Die neündt propoſition]
 
 ## IX. Die neündt propoſition.
 

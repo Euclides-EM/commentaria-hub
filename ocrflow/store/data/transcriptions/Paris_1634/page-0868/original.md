@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. IV.]
+
 ## THEOR. IV. PROPOS. IV.
 
 Si ex centro circuli triangulum icosaedri circumscribentis, perpendicularis ducatur ad vnum latus trianguli; erit quod sub dicto latere, & perpendiculari comprehenditur rectangulum trigesies sumptum, icosaedri superficiei æquale.

@@ -3,6 +3,8 @@
 
 ter par nuncupabitur, cum eum par numerus 4. metiatur per numerum parem 6. &c.
 
+[Curated heading level=2 type=definitions: IX.]
+
 ### IX.
 
 [Curated heading level=4 type=incipit: PARITER]

@@ -8,11 +8,19 @@ Soient deux lignes donnees AB, & AC, auſquelles il faut trouuer la troiſieſme
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: PROB. 4. PROP. XII.]
+
+[Curated heading level=2 type=problems: PROB. 4. PROP. XII.]
+
 ## PROB. 4. PROP. XII.
 
 A trois lignes droictes donnees, trouuer la quatrieſme proportionnele.
 
 Soient les trois lignes donnees (en la precedente figure) AB. BD, AC, auſquelles il faut trouuer la quatrieſme proportionnele. Soient diſpoſees les deux premieres AB, BD, ſelon vne ligne droicte AD; & la 3. AC face auec la premiere AB vn angle A: puis apres ſoit menee BC, & de D, la ligne DE paralIele à icelle BC, rencontrant AC prolongee en E. Ie dis que CE eſt la 4.proportiõnele requiſe. Car par la 2.p.6. comme AB eſt à BD, ainſi AC eſt à CE.
+
+[Curated heading level=2 type=propositions: PROB. 5. PROP. XIII.]
+
+[Curated heading level=2 type=problems: PROB. 5. PROP. XIII.]
 
 ## PROB. 5. PROP. XIII.
 

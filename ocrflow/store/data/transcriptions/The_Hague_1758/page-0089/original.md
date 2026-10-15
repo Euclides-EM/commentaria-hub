@@ -3,6 +3,10 @@
 
 [Diagram: rectangle DEF above and A, B, C below; square ADEB and rectangle BEFC divided by vertical line EB]
 
+[Curated heading level=2 type=propositions: PROPOSITION III. THEOREME III.]
+
+[Curated heading level=2 type=theorems: THEOREME III. PROPOSITION III.]
+
 ## PROPOSITION III. THEOREME III.
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (AC) eſt coupée comme l'on voudra (en B): le rectangle compris de la droite entiere (CA) & de l'une de ſes parties (AB) eſt égal au rectangle compris des deux parties (AB, BC), & au quarré de la partie (AB), priſe auparavant.

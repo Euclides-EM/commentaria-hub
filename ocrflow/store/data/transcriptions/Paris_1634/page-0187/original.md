@@ -16,6 +16,8 @@ Explication des notes.
 
 L'angle ABC est au segment ABC.
 
+[Curated heading level=2 type=definitions: DEFINIT. VIII.]
+
 ## DEFINIT. VIII.
 
 Cùm verò comprehendentes angulum rectæ lineæ aliquam assumunt peripheriam, illi angulus insistere dicitur.

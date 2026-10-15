@@ -1,8 +1,22 @@
+[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM LIBER PRIMVS.]
+
+[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTORVM LIBER PRIMVS.]
+
+[Curated heading level=1 type=problems: EVCLIDIS ELEMENTORVM LIBER PRIMVS.]
+
+[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTORVM LIBER PRIMVS.]
+
+[Curated heading level=1 type=postulates: EVCLIDIS ELEMENTORVM LIBER PRIMVS.]
+
+[Curated heading level=1 type=axioms: EVCLIDIS ELEMENTORVM LIBER PRIMVS.]
+
 # EVCLIDIS ELEMENTORVM LIBER PRIMVS.
 
 # PREMIER LIVRE DES ELEMENTS D'EVCLIDE.
 
 ## DEFINITIONES. / DEFINITIONS.
+
+[Curated heading level=2 type=definitions: I.]
 
 ### I.
 

@@ -34,6 +34,10 @@ s.12.10 | □.dl, comm. □.gl,
 c.l97.10 | □.dl 3|2 □.gl..□. / ——, incomm. dl,
 5d85. 10 | dg, est apotom. 5.
 
+[Curated heading level=2 type=propositions: THEOR. LXXIX. PROPOS. CIII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXIX. PROPOS. CIII.]
+
 ## THEOR. LXXIX. PROPOS. CIII.
 
 Quadratum eius, quæ cum medio medium totum efficit, ad rationalem applicatum, latitudinem facit apotomen sextam.

@@ -3,6 +3,10 @@
 
 [Diagram: rectangle A, B, C with verticals; square ADEB and rectangle BEFC, points D, E, F above and A, B, C below]
 
+[Curated heading level=2 type=propositions: PROPOSITION II. THEOREME II.]
+
+[Curated heading level=2 type=theorems: THEOREME II. PROPOSITION II.]
+
 ## PROPOSITION II. THEOREME II.
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (AC) eſt coupée en tant de parties (AB, BC), que l'on voudra: les rectangles compris de la droite entiere (CA) & de chacune de ſes parties (AB, BC), ſont égaux au quarré de la droite entiere (AC).

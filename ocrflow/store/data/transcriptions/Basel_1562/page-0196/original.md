@@ -17,6 +17,8 @@ In zalen mag man diß alſo außprechen. Wan drei zalen proportional ſein / wir
 Aigenſchafft dreier proportional zalen.
 [/Margin]
 
+[Curated heading level=2 type=propositions: XX. Die zwainzigſt propoſition]
+
 ## XX. Die zwainzigſt propoſition.
 
 [Subhead]

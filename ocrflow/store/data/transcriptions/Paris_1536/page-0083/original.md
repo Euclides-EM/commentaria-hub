@@ -12,6 +12,10 @@ Hoc theorema aliter ostẽdi potest: sed hæc est demõstratio potissima.
 
 [Diagram: k a g e d h b f c l]
 
+[Curated heading level=2 type=propositions: Theorema 9, Propositio 10.]
+
+[Curated heading level=2 type=theorems: Theorema 9, Propositio 10.]
+
 ## Θεώρημα θ, Πρόθεσις ι.
 
 ΚΥκλος οὐ τέμνει κύκλον κατὰ πλείονα σημεῖα ἢ δύο.
@@ -27,6 +31,10 @@ Hæc rursum aliter potuisset ostẽdi, sed hanc potiorẽ existimo demõstration
 [/Margin]
 
 [Diagram: a b f d g c e]
+
+[Curated heading level=2 type=propositions: Theorema 10, Propositio 11.]
+
+[Curated heading level=2 type=theorems: Theorema 10, Propositio 11.]
 
 ## Θεώρημα ι, Πρόθεσις ια.
 

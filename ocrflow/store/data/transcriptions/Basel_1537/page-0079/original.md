@@ -20,6 +20,8 @@ CAMPANVS Sit ut in circulo a b c, cuius cētrum d, fiat angulus a d c, supra cē
 
 Quod si altera duarum linearum a b & b c, fuerit linea una cum altera duarum quæ sunt a d & d c, ut in secunda figuratione apparet, per easdem per quas prius & simili modo liquet propositum. Quod si altera duarum linearum primarum secet alterā duarum postremarum, ut in tertia figuratione apparet ubi linea a b secat lineam d c, producatur linea b d e. Erit per easdem quas à principio assumpsimus & simili modo angulus e d a, duplus ad angulum d b a, & totus angulus e d c, duplus ad totū angulum d b c, quare angulus a d c, duplus est ad angulum a b c. Quod est propositum.
 
+[Curated heading level=2 type=theorems: Theorema 18. Propositio 20.]
+
 ## Eucli ex Zamb. Theorema 18. Propositio 20.
 
 [Curated heading level=3 type=zamberti_sequence: 20.]

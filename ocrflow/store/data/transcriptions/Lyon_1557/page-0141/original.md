@@ -9,6 +9,10 @@ HIC ſubijcit Campanus. Hanc Propoſitionem demonſtrauerunt quidam ex Permutata
 
 Sed ſic non rectè demonſtrant. Nam ſi à Permutata proportionalitate argumentationem, vt cœperunt, perficiant: ij tandem Æquam proportionalitatem concludent: ſcilicet A ad C ſicut E ad F: ergò permutatim A ad E ſicut C ad F, Quæ eſt Æqua proportionalitas. Quòd ſi Euclides ſic concludi poſſe vidiſſet: fruſtrà hoc præmiſiſſet Theorema: ſed Æquam proportionalitatem ſtatim aſtruxiſſet. Quum itaque hæc ratiocinatio non procedat, niſi vtriuſque ordinis Magnitudines ſint eiuſdem generis: minus conuenienter ad ſingulare contrahunt quod Euclides generatim propoſuit.
 
+[Curated heading level=2 type=propositions: THEOREMA 21, PROPOSITIO XXI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 21, PROPOSITIO XXI.]
+
 ## THEOREMA 21, PROPOSITIO XXI.
 
 Si fuerint tres Magnitudines vnius ordinis, totidemq́; Magnitudines alterius, fueritq́; earum Perturbata ratio, prima verò vnius ordinis, fuerit maior tertia: erit quoque prima alterius, maior tertia.
@@ -28,6 +32,10 @@ Quòd ſi A minor ſit quàm E: erit, gradatim argumentando, minor C ad D, quàm
 Si verò A ſit æqualis E, erit C ad D ſicut C ad F. Quare, per ſecundam partem nonæ, erit F æqualis D. Ac ſic conſtat Propoſitio.
 
 HÆC itaque cum antecedente, quia ad probationem Æquæ proportionalitatis ſpectat: Æquemultiplicium rationem vtraque præcipuè conſiderat. Atque hunc ſenſum habent, vt non poſſit prima vnius ordinis maior eſſe tertia, quin prima alterius ſit quoque maior tertia: & ſi æqualis, æqualis: & ſi minor, minor. Breuiter, hæc verba exceſſus & æqualitatis omninò ſic accipienda, vt in Definitione ſexta huius. Atq; hoc ad duarum ſequentium intelligentiã monere commodum fuit.
+
+[Curated heading level=2 type=propositions: THEOREMA 22, PROPOSITIO XXII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 22, PROPOSITIO XXII.]
 
 ## THEOREMA 22, PROPOSITIO XXII.
 

@@ -6,6 +6,10 @@
 
 Man mag nun einen Düttel des Kreyses ausser dem Senckstrich cd nehmen/ welchen man wolle/ so wird allezeit diese Unmügligkeit nach dem 9. Gr. I. erscheinen : Muß derohalben nothwendig der Mitteldüpffel in dem Senckstrich cd stecken. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XX. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 18. Beweiß-Stück. Der XX. Vortrag.]
+
 ## Der XX. Vortrag.
 
 ## Das 18. Beweiß-Stück.

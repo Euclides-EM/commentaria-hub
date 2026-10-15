@@ -4,6 +4,10 @@ num in illo descriptum ad polygonum simile in hoc descriptum.
 
 *D'icy s'ensuit que comme le cercle est au cercle, ainsi le polygone descrit en celuy-là est au polygone semblable descrit en cestuy-cy.*
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. III.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. III.]
+
 ## THEOR. III. PROPOS. III.
 
 Omnis pyramis triangularem habens basin, diuiditur in duas pyramides æquales, & similes inter se, triangulares habentes bases, & similes toti; & in duo prismata æqualia, quæ duo prismata majora sunt dimidio totius pyramidis.

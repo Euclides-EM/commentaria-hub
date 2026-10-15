@@ -1,6 +1,8 @@
 <!-- Page number: 318 -->
 <!-- Running title: Theoremata ſelecta -->
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXII.]
+
 ## PROPOSITIO XXII.
 
 [Margin]

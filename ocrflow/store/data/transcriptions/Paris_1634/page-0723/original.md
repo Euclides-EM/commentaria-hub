@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. XCI. PROPOS. CXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XCI. PROPOS. CXV.]
+
 ## THEOR. XCI. PROPOS. CXV.
 
 Si spatium contineatur sub apotoma, & ea, quæ ex binis nominibus, cuius nomina commensurabilia sunt nominibus apotomæ, & in eadem proportione;recta linea spatium potens,est rationalis.

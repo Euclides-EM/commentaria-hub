@@ -13,6 +13,8 @@ Diameter vn̄ ſeiten aines quadrats habē kein vßſprechliche proporz gegen a
 
 Wie aber ain quadrat mög dreyfach / vierfach / ꝛc. gemacht werden / welches auch ain ſchön vnnd nutzlich ſtückh diſer khunſt iſt / vnnd offtermals diß yetz gemellt ſtücklin erfordert / will ich (wils Gott) zů ſeiner zeytt neben andern khunſtſtückhen anzaigen vnd vnderweyſen. Es iſt auch ainem der die aigenſchafft der zalen erkennt / leichtlich hierauß zůverſtehn / das weder in gantzen noch gebrochnen zalen ain proportion des diameters ains quadrats gegen ainer ſeitten / deſſelben mag geben werden / wie das im zehenden bůch Euclidis groſſen nutz hatt / vnd vil darauß erwiſen wirt. Dan 9 vnd √162 / item 8 vnd √128 / ꝛc. haben kain geſchicklichait oder proportion gegen ainander / die mit zalen außgeſprochen / oder mit vernunfft mög gefaßt werden / vrſach das √162 vnd deßgleichen / mit zalen / ſonder bildnuß allain der zalen ſeind / dauon zůreden hie nit ſtatt hatt / ſoll an ſeinem ortt / vnnd zů ſeiner zeitt erklärt werden. Will alſo die propoſ. erklärt / demonſtriert / vnd dir ain exempel vnnd anfang des nutzs derſelben geben haben / wölleſt ſy mitt fleiß betrachten vnd üeben / ꝛc. Dann vil im andern bůch darauß fleüßt / auch redt Euclides in der 31. propoſition des 6 bůchs ferner von ſollcher aigenſchafft / daruon daſelbſt / ꝛc.
 
+[Curated heading level=2 type=propositions: XLVIII. Die achtvndviertzigſt propoſition]
+
 ## XLVIII. Die achtvndviertzigſt propoſition.
 
 [Subhead]

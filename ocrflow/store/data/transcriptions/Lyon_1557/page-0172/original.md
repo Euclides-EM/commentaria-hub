@@ -13,6 +13,10 @@ Et quia H K L maius eſt ipſo B E F G, & eidem ſimile : maiora quoque ſunt la
 
 Id verò conſtabit, protracta G B, donec ſecet M N in puncto Q. Eſt enim, per primam huius, A M æquale M B : & per quadrageſimamtertiam Primi, communemque Notionem, æquale ipſi G P. Si ergo vtrique addatur E N : erit & per animi Notionem, A N æquale Gnomoni E N G. Atqui Gnomo eſt æqualis ipſi C Rectilineo : quum totum F M N O Parallelogrammum, poſitum ſit æquale vtriſque C & E G. Quare A N eſt æquale ipſi C. Sed & ſimile ipſi E G, per vigeſimamtertiam huius : ac proindè ipſi D, per vigeſimam eiuſdem, Quod facere oportuit.
 
+[Curated heading level=2 type=propositions: PROBLEMA 10, PROPOSITIO XXX.]
+
+[Curated heading level=2 type=problems: PROBLEMA 10, PROPOSITIO XXX.]
+
 ## PROBLEMA 10, PROPOSITIO XXX.
 ### Campano 29.
 

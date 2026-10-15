@@ -4,6 +4,10 @@
 
 [Figure: rectangle ABDC with diagonals and dotted lines from C and B meeting at E, extended to a point O outside the rectangle]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIX. THEOREME XXIX.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIX. PROPOSITION XXXIX.]
+
 ## PROPOSITION XXXIX. THEOREME XXIX.
 
 {dropcap:L|lines=2|style=plain}Es triangles égaux (ACB, ADB), placés ſur une même baſe (AB) & du même côté, ſont entre les mêmes paralleles (AB, CD).

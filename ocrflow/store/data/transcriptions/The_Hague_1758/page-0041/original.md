@@ -4,6 +4,10 @@
 
 [Figure: two lines AB and DE crossing at point C, within a ruled frame]
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. THEOREME VIII.]
+
+[Curated heading level=2 type=theorems: THEOREME VIII. PROPOSITION XV.]
+
 ## PROPOSITION XV. THEOREME VIII.
 
 {dropcap:S|lines=2|style=plain}I deux lignes droites (AB, DE) s'entre-coupent (en C): les angles (ECA, DCB & ACD, BCE), oppoſés au ſommet (C), ſont égaux entr'eux.

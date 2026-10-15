@@ -7,6 +7,10 @@ eſt æqualis H G, & G F ipſi B G : erit A B ad B G vt B G ad G A, Quod erat co
 
 A L I T E R probatur ex ſecunda parte decimæſeptimæ huius. Conſtat enim D G eſſe id quod fit ex A B in A G: item B F eſſe Quadratum ex B G. Quare tres lineæ A B, B G & G A ſunt proportionales, Quod erat faciendum.
 
+[Curated heading level=2 type=propositions: THEOREMA 21, PROPOSITIO XXXI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 21, PROPOSITIO XXXI.]
+
 ## THEOREMA 21, PROPOSITIO XXXI.
 ### Campano 30, Theoni 32.
 
@@ -17,6 +21,10 @@ Sint duo Triangula A B C & C D E, ad angulum A C D ſic conſtituta, vt latus A 
 [Diagram: two triangles sharing a vertex on a base line, labelled A, D, B, C and E]
 
 Eſt enim propter æquidiſtantiam laterum, vterque angulorum A & D, angulo A C D æqualis : per priorem partem vigeſimænonæ Primi : ob id, inter ſe æquales. Quum igitur latera ipſos angulos continentia, ſint proportionalia : erunt Triangula, per ſextam huius, æquiangula : & angulus B, æqualis angulo D C E : angulusq́; A C B, æqualis angulo E. Itaque, per trigeſimamſecundam Primi, tres anguli qui ad C, duobus rectis ſunt æquales. Quare, per decimamquartam Primi, duę lineæ B C & C E ſunt in directum, & in lineam vnam, Quod erat demonſtrandum.
+
+[Curated heading level=2 type=propositions: THEOREMA 22, PROPOSITIO XXXII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 22, PROPOSITIO XXXII.]
 
 ## THEOREMA 22, PROPOSITIO XXXII.
 ### Campano 31.

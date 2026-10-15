@@ -12,6 +12,10 @@ Haud dissimiliter ostendemus triangulum a/b/c/ad triangulum a/d/c, atq; b/e/ rec
 Idem alia ratione demonstrare.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 22, Propositio 32.]
+
+[Curated heading level=2 type=theorems: Theorema 22, Propositio 32.]
+
 ## Θεώρημα κβ, πρόθεσις λβ.
 
 Ἐὰν δύο τρίγωνα συντεθῇ κατὰ μίαν γωνίαν, τὰς δύο πλευρὰς ταῖς δυσὶ πλευραῖς ἀνάλογον ἔχοντα, ὥστε τὰς ὁμολόγους αὐτῶν πλευρὰς καὶ παραλλήλους εἶναι: αἱ λοιπαὶ τῶν τριγώνων πλευραί, ἐπ' εὐθείας ἔσονται.

@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. XX.]
+
 ## DEFINIT. XX.
 
 Quotlibet magnitudinib. ordine positis, proportio primæ ad vltimam componitur ex proportionibus primæ ad secundam, & secundæ ad tertiam, & tertiæ ad quartam, & ita deinceps donec extiterit proportio.
@@ -11,6 +13,8 @@ A, 24. B, 12. C, 8. D, 6.
 hyp. | a, b, c, d snt magnitud. propos.
 20.d.5 | raō.. a π c 2|2 raō.. a π b + raō.. b π c,
 20.d.5 | raō.. a π d 2|2 raō.. a π b + raō.. b π c + raō.. c π d.
+
+[Curated heading level=2 type=axioms: AXIOM.]
 
 ## AXIOM.
 

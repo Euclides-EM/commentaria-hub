@@ -8,6 +8,10 @@ Car d’autant que par la conſtruction il eſt parallellogramer les coſtez, & 
 
 Nous auons enſeigné la practique de ceſte prop.en noſtre Geometrie practique Prob.12. Proclus demonſtre icy: Que les quarrez de lignes egales ſont egaux & que de quarrez egaux, les lignes ſont egales. Ce qui ſt aiſé à prouuer par la ſuperpoſition d’vn quarré ſur l’autre: Car les lignes eſtant egales, ſi l’vne eſt poſee deſſus l’autre, elles conuiendront entr'elles; & les angles eſtant auſſi egaux, c’eſt à ſçauoir droicts, ils conuiendront pareillement entr'eux: & partant tout le quarré conuiendra à tout le quarré. Que ſi les quarrez ſont egaux, ils conuiennent entr'eux, à cauſe de l’egalité des angles: Donc auſſi les lignes, autrement vn quarré ſeroit plus grand que l’autre. Nous auons laiſſé la demonſtration de Proclus qui eſt tres-longue, pour ſuiure celle-cy qui eſt brefue & facile.
 
+[Curated heading level=2 type=propositions: THEO. 33. PROP. XLVII.]
+
+[Curated heading level=2 type=theorems: THEO. 33. PROP. XLVII.]
+
 ## THEO. 33. PROP. XLVII.
 
 Au triangle rectangle, le quarré du coſté qui ſouſtient l’angle droict, eſt egal aux deux quarrez des deux autres coſtez.

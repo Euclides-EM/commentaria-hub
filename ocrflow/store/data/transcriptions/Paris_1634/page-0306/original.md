@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XV.]
+
 ## THEOR. XV. PROPOS. XV.
 
 Partes cum pariter multiplicibus in eadem sunt ratione, si provt sibi mutuò respondent, ita sumantur.
@@ -25,6 +29,10 @@ s.2.d.5 | multd.. par.. ab 2|2 multd.. par.. de,
 s.7.5 | ag π dh 2|2 c π f,
 s.7.5 | gb π he 2|2 c π f,
 concl. 12.5 | ab π de 2|2 c π f.
+
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XVI.]
 
 ## THEOR. XVI. PROPOS. XVI.
 

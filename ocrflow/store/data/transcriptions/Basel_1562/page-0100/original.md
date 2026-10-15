@@ -23,6 +23,8 @@ Darauß offenbar / das bemellte perpendicular gezogen von dem ortt des diametri 
 
 Sy wurde ſunſt durch den zirckel gehn / welchs die ander propoſitiones diß bůchs hat bewiſen.
 
+[Curated heading level=2 type=propositions: XVII. Die ſybenzehendt Propoſition]
+
 ## XVII. Die ſybenzehendt Propoſition. Lehrt /
 
 [Subhead]

@@ -7,6 +7,10 @@ Quod ſi plures tribus fuerint Magnitudines in vtroque ordine: verbi cauſa, qua
 
 AC quemadmodum ex Ternarij demonſtratione probatur Quaternarius, ſepoſito vno mediorum: ita ex Quaternario Quinarius, duobus ſepoſitis medijs: & ex Quinario Senarius, tribus ſemotis medijs. Ac ſic continenter. Quod & in ſuperiori ſpecie Æquæ proportionalitatis intelligendum Quamobrem, quum Ternarius totam probationem abſoluat, diſertè Euclides de tribus tantùm Magnitudinibus propoſuit.
 
+[Curated heading level=2 type=propositions: THEOREMA 24, PROPOSITIO XXIIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 24, PROPOSITIO XXIIII.]
+
 ## THEOREMA 24, PROPOSITIO XXIIII.
 
 Si fuerit primum ad ſecundum, vt tertium ad quartum: & item quintum ad ſecundum, vt ſextum ad quartum: erit & compoſitum ex primo & quinto ad ſecundum, vt compoſitũ ex tertio & ſexto ad quartum.
@@ -20,6 +24,10 @@ Erit enim, per Conuerſam proportionalitatem, C ad BG vt F ad EH: quapropter ex 
 [Diagram: two horizontal lines, the first labelled A, B, G, the second D, E, H; below them shorter lines labelled C and F]
 
 ſcilicet AB prima, C ſecunda, & BG tertia, vnius ordinis: atque DE prima, F ſecunda, & EH tertia, alterius. Igitur, per decimamoctauam, AG ad GB vt DH ad HE. Quare quum ſit poſita BG ad C vt EH ad F: ſumptis AG prima, BG ſecunda, & C tertia, vnius ordinis: atque DH prima, EH ſecunda, & F tertia, alterius: erit per vigeſimamſecundam, in Æqua ratione, AG ad C vt DH ad F, Quod erat oſtendendum.
+
+[Curated heading level=2 type=propositions: THEOREMA 25, PROPOSITIO XXV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 25, PROPOSITIO XXV.]
 
 ## THEOREMA 25, PROPOSITIO XXV.
 

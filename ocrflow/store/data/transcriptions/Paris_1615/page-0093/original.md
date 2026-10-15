@@ -16,6 +16,10 @@ Car la lione AD eſtant coupee en deux egallement en E, a onſuy adiouſte direc
 
 Nou auons enſeigné en nos memoires Machema:iques Prob.72 A coupper vne liene droicte, non ſeudcment cemme enſoignei Eucide, mai auſſi en ſorte que le rec angle de la teute, & de l’vnc des parties ſoit doubie ou trple ou quadruple &c. ou mo tié, ou tiers, ou quart ec. du quarré de l’autre partie breſ qu’iceluy rectangle ſoit au quarré, ſelon quelconque raiſon donnee.
 
+[Curated heading level=2 type=propositions: THEOR. 11. PROP. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. 11. PROP. XII.]
+
 ## THEOR. 11. PROP. XII.
 
 Aux triangles ambligones, le quarré du co-

@@ -4,6 +4,10 @@
 
 D & E, & du poinct d’attouchemét A ſoient menees les deux lignes AB, & AC, leſquelles par la 20. p.1. ſeront plus grandes que BC, & par la def. du cercle, il s’enſuit que BD, eſtant egalé à BA, & CE à CA, que les deux lignés BD & CE, ſeroient plus grandes que BC, la partie que le tout. La ligne droictemenee d’vn centre à l’autre, paſſera donc par l’attouchement A.
 
+[Curated heading level=2 type=propositions: THEOR. 12. PROP. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 12. PROP. XIII.]
+
 ## THEOR. 12. PROP. XIII.
 
 Vn cercle ne touche point vn autre cercle à plus d’vn poinct, tant dehors que dedans.

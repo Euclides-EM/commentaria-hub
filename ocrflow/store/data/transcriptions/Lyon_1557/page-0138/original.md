@@ -13,6 +13,10 @@ Si verò A ſit æqualis C: erit, per priorem partem ſeptimæ, A ad D ſicut C 
 
 Quòd ſi A ſit minor quàm C, erit per priorem partem octauæ, minor ratio A ad D, quàm C ad D: ob id, maior A ad B, quàm ad D. Quare, per ſecundam partem decimæ, erit B minor quàm D. Ac ſic patet Propoſitio.
 
+[Curated heading level=2 type=propositions: THEOREMA 15, PROPOSITIO XV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 15, PROPOSITIO XV.]
+
 ## THEOREMA 15, PROPOSITIO XV.
 
 Magnitudines inter ſe, eandem habent rationem quam earum Aequemultiplicia inter ſe.
@@ -23,6 +27,10 @@ Sint C ad A, & D ad B æquemultiplicia. Dico eandem eſſe rationem C ad D quæ 
 
 Diuidatur C ſecundùm quantitatem ipſius A: & D ſecundùm quantitatem ipſius B. Eruntq́; tot partes in C, æquales ipſi A: quot in D, ipſi B. Et quia quælibet pars ipſius C, ad quanlibet partem ipſius D, eſt ſicut A ad B: erit, per duodecimam huius, C ad D ſicut A ad B, Quod erat oſtendendum.
 
+[Curated heading level=2 type=propositions: THEOREMA 16, PROPOSITIO XVI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 16, PROPOSITIO XVI.]
+
 ## THEOREMA 16, PROPOSITIO XVI.
 
 Si quatuor Magnitudines proportionales fuerint, permutatim quoque proportionales erunt.
@@ -32,6 +40,10 @@ Sit proportio A ad B ſicut C ad D. Dico permutatim, eſſe A ad C ſicut B ad D
 [Diagram: horizontal lines labelled G, E, A, C, B, D, F, H]
 
 Ex hoc manifeſtum eſt, vt ex Continua proportionalitate fiat Permutata, oportere quatuor Magnitudines eſſe eiuſdem generis.
+
+[Curated heading level=2 type=propositions: THEOREMA 17, PROPOSITIO XVII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 17, PROPOSITIO XVII.]
 
 ## THEOREMA 17, PROPOSITIO XVII.
 

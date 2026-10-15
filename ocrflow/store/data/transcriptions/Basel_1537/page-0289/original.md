@@ -8,6 +8,8 @@ CAMPANVS Sint duæ lineæ a b & b c in continuū directūq́ⳓ coniunctæ ut pr
 
 [Diagram: line a c divided at b, labelled above: a Re. Re. 128 b Re. Re. 72 c; below it, a rectangle on base d e, divided by the horizontal line g f into an upper and a lower compartment; b at the top left, g at middle left, f at middle right, d and e at the bottom corners]
 
+[Curated heading level=2 type=theorems: Theorema 26 Propositio 38]
+
 ## Eucli. ex Zamb. Theorema 26 Propositio 38
 
 [Curated heading level=3 type=zamberti_sequence: 38.]

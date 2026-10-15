@@ -13,6 +13,8 @@ So aber (wie in der dritten figur) die ſeitten ainander nit zerſchnitten. Soll
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: XXI. Die ain vnd zwaintzigſt Propoſition]
+
 ## XXI Die ain vnd zwaintzigſt Propoſition.
 
 [Subhead]
@@ -24,6 +26,8 @@ In ainem zirckel ſeind die winckel ſo inn ainem ſtuck / oder auff ainer baſi
 Als die winckel c d e f / ſeind all ainander glych / dann ſy ſtehn ob ainem ſtuckh des zirckels a b. Iſt auß vorgehnder prop. leicht zů demonſtriern / wann man auff das ſelb ſtuck zum centro ein winckel ſetzt / dan derſelb (als a g b) iſt zwaimal als vil / als yeder der andern winckel / derhalben ſy all ainander gleich / auß dem 7 gmainen verſtand.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: XXII. Die zway vnd zwaintzigſt Propoſition]
 
 ## XXII Die zway vnd zwaintzigſt Propoſition.
 

@@ -1,6 +1,8 @@
 <!-- Running title: LIBER QVINTVS. -->
 <!-- Page number: 47 -->
 
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
+
 ## Propoſitio decimaſeptima.
 
 Si compoſitæ magnitudines proportionales fuerint, diuiſæ quoque proportionales erunt.
@@ -8,6 +10,8 @@ Si compoſitæ magnitudines proportionales fuerint, diuiſæ quoque proportional
 Sint compoſitæ magnitudines ſcilicet AB ex AE & EB, & DG ex GZ & ZD. Sitque ſicut compoſita AB ad EB, ſic compoſita GD ad DZ: Dico diuiſas eſſe AE ad EB vt GZ ad ZD. Sumantur æquemultiplices ipſarum AE EB, ſintque IT TK. Ipſarum verò GZ ZD, ſint LM MN, ſingulæ ſingularum. Per primam igitur erunt omnes IK & LN omnium AB & GD æquemultiplices, rurſus quæuis aliæ æquemultiplices ipſarum EB & ZD ſumantur KC & NP. Cùm enim TK prima ſit, ſecundæ EB æquemultiplex, vt tertia MN quartæ ZD, quinta verò KC ſit eiuſdem EB ſecundæ, vt ſexta NP, quartæ ZD: æquemultiplex erit tota TC eiuſdem EB, vt tota MP ipſius DZ, per 2. huius; eſt autem AB ad EB vt GD ad DZ. Si igitur IK multiplex primæ AB excedat, æquetur, vel deficiat TC multiplici ſecundæ EB, & LN tertiæ multiplex, excedet, &c. NP multiplicem quartæ DZ, per conuerſam 5. diffinit. huius. Quare ablatis communibus TK & MN, ſequetur IT multiplici ipſius AE excedente KC multiplicẽ EB, & LM multiplicẽ GZ excedere, æquari, vel deficere ipſi NP multiplici ipſius ZD. Erunt igitur ſimplices AE ad EB vt GZ ad ZD, per quintam diffinitionem huius. Si itaque compoſitæ magnitudines, &c.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
 
 ## Propoſitio decimaoctaua.
 
@@ -17,6 +21,8 @@ Sint diuiſæ magnitudines AE ad EB ſicut GZ ad ZD: Dico eas compoſitas AB ad 
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: Propoſitio decimanona.]
+
 ## Propoſitio decimanona.
 
 Si fuerit ſicut totum ad totum, ſic ablatum ad ablatum & reliquum ad reliquum, erit ſicut totum ad totum.
@@ -25,7 +31,7 @@ Sit tota AB ad totam GD vt ablata AE ad ablatam GZ, erit viciſſim (per 16 huiu
 
 [Diagram]
 
-## Corollarium.
+### Corollarium.
 
 Si quatuor magnitudines proportionales fuerint, & rationis cõuerſione, proportionales erunt. Cùm enim ſit vt AB ad GD, ſic BE ad DZ, erit viciſſim vt AB ad BE, ſic GD ad DZ: ſed cùm fuerit antecedens AB ad conſequens AE, ſicut antecedens GD ad conſequens GZ, & conuerſione rationis erit antecedens AB ad EB exceſſum quo excedit ſuum conſequens AE, ſicut antecedens GD ad exceſſum ZD quo excedit ſuum conſequens GZ, per 16. diffinitionem huius.
 

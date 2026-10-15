@@ -6,6 +6,10 @@ propositionem.& connectatur b/d/recta,per primū postulatum. Cùm igitur a/b, si
 
 [Diagram: triangle b c with points a d]
 
+[Curated heading level=2 type=propositions: Theorema 14, Propositio 21.]
+
+[Curated heading level=2 type=theorems: Theorema 14, Propositio 21.]
+
 ## Θεώρημα ιδ, Πρόθεσις κα.
 
 Ἐὰν τριγώνου ἐπὶ μιᾶς τῶν πλευρῶν ἀπὸ τῶν περάτων δύο εὐθεῖαι ἐντὸς συσταθῶσιν,αἱ συσταθεῖσαι,τῶν λοιπῶν τῶν τριγώνου δύο πλευρῶν,ἐλάττονες μὲν ἔσονται, μείζονα δὲ γωνίαν περιέξουσι.

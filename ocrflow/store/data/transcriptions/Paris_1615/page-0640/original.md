@@ -4,6 +4,10 @@
 
 vn meſme cerclé; & par conſequent le quarre de F coſté du cube eſt à E coſté de l’Icoſaedre, comme les deux quarrez de AB & AC, ſont aux deux quarrez de AB & CB. Ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 7. PROP. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. 7. PROP. VII.]
+
 ## THEOR. 7. PROP. VII.
 
 Comme le coſté du cube au coſté de l’icoſaedre, ainſi le dodecaedre à l’icoſaedre, inſcrits en vne meſme ſphere. 4

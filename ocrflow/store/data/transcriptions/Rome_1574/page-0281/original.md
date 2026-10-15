@@ -9,6 +9,8 @@ PRAETER tres dictos angulos cõſideratur etiam a Geometris angulus contingenti�
 
 [Diagram: two tangent circles with a smaller circle inside the right one, a straight line above touching at C, labels A, C, B, F above and D, F, H, I, G within]
 
+[Curated heading level=2 type=definitions: IX.]
+
 ### IX.
 
 [Curated heading level=4 type=incipit: SECTOR]

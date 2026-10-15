@@ -3,6 +3,10 @@
 
 [Figure: triangle ABC with dotted line from A to point G on side BC, angle label o at A and labels n, G, m near the dotted line; at right triangle DEF with apex E and base DF]
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THEOREME VII.]
+
+[Curated heading level=2 type=theorems: THEOREME VII. PROPOSITION VII.]
+
 ## PROPOSITION VII. THEOREME VII.
 
 {dropcap:S|lines=2|style=plain}I deux triangles (ABC, DEF) ont un angle (B) égal à un angle (E), & les côtés (BA, AC & ED, DF) qui comprennent deux autres angles (A & D), proportionels; les angles reſtans (C & F) étant l'un & l'autre, ou aigus, ou obtus, les triangles ſeront équiangles, & les angles (A & D) autour desquels les côtés ſont proportionels ſeront égaux entr'eux.

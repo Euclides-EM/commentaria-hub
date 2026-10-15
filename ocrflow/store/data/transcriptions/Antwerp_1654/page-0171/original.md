@@ -3,6 +3,8 @@
 
 B ad C; & B eſt ad C, vt C ad D, & ſic deinceps.
 
+[Curated heading level=2 type=definitions: Lib. V, Def. 9]
+
 [Curated heading level=3 type=numbered_item: 9.]
 
 9. Magnitudines diſcretim proportionales ſunt, cũ nullus terminus bis accipitur.
@@ -17,9 +19,13 @@ Diſcretas rationes ſic efferimus A eſt ad B, vt C ad F. Cum plures fuerint pr
 Fig. 6.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. V, Def. 10]
+
 [Curated heading level=3 type=numbered_item: 10.]
 
 10. Cum magnitudines (A B C D) fuerint continuè proportionales, prima (A) ad tertiam (C) habere dicitur rationem duplicatam eius rationis, quam eadem prima (A) habet ad ſecundam (B:) & prima (A) ad quartam (D) rationem habere dicitur triplicatam, eius, quam eadem prima habet ad ſecundam (B) & ſic deinceps.
+
+[Curated heading level=2 type=definitions: Lib. V, Def. 11]
 
 [Curated heading level=3 type=numbered_item: 11.]
 

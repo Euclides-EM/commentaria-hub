@@ -4,6 +4,10 @@
 
 Car par la 15. def.7. B multiplié par A eſt autant de fois dans ſon produict D, que l’vnité eſt en A; &C dans ſon produict E. comme la meſme vnité en A: par conſequent il y aura telle taiſon tant de B a D, que de C à F, comme de l’vnité à A. Parquoy par le Lemme de la 14. p.7.B ſera à D, comme C à E; & en changeant par la 13 p.7. comme B ſera à C, ainſi D ſera a E. Ce qu’il faloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 16. PROP. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 16. PROP. XVIII.]
+
 ## THEOR. 16. PROP. XVIII.
 
 Deux nombres multiplians vn autre,.les produicts ſeront entr’eux, en meſme raiſon que les mnltiplians.

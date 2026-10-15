@@ -4,6 +4,10 @@
 
 [Diagram: four horizontal line segments labelled A; E, Z, D with 7 and 16; I, G, B with 9; and T]
 
+[Curated heading level=2 type=propositions: Propoſitio octuageſimaſeptima.]
+
+[Curated heading level=2 type=problems: Propoſitio octuageſimaſeptima. Problema 21.]
+
 ## Propoſitio octuageſimaſeptima. Problema 21.
 
 Inuenire tertiam Apotomen.
@@ -11,6 +15,10 @@ Inuenire tertiam Apotomen.
 *Eſto certa propoſita A, ſint etiam bini numeri quadrati B G B D ſeſe non quadrato D G excedentes. Sit item non quadratus numerus ipſi D G vnitate vel binario proximus E, fiat autem ſicut E ad B G ſic quod ex A ad quod ex Z I. Sicut verò B G ad G D, ſic quod ex Z I ad quod ex I T. Poſſit autem Z I maius, recta I T quadrato K. Quoniam A certa ponitur ad Z I (potentia) ſicut numerus E non quadratus, ad B G quadratum, rationem quadratorum non habentes, per coroll. 25 octaui. Ipſæ A & Z I longitudine incommenſurabiles erunt, per nonam huius. Quia verò fuit ſicut E ad B G, ſic quod ex A ad quod ex Z I, ſicut verò B G ad G D ſic quod ex Z I ad quod ex I T. Erit æqua ratione ſicut E ad D G, ſic quod ex A ad quod ex I T, per 22 quinti. Sed E ad D G non habẽt rationẽ quam quadrati, cùm ſint in ratione ſuperparticulari aut ſuperbipartiente, per coroll. vigeſimæſextæ octaui. Quadrata igitur ex A & I T non habent rationẽ quadratorum. Ipſæ itaque A & I T rectæ, longitudine incommenſurabiles exiſtunt, per nonam huius. Neutra igitur ipſarum Z I I T propoſitæ A longitudine commenſurabilis erit. Potentia tamen commenſurabiles ipſi A erunt, cùm habeant ad ipſam A rationem numerorum. Quare certæ erunt Z I I T, & inter ſe longitudine incommenſurabiles, cùm earum quadrata ſint ſicut quadratus B G, ad non quadratum D G numerum, per nonam huius. Binæ itaque Z I I T certæ, potentia tantùm commenſurabiles, efficiunt reliquam Z T apotomen, per 73 huius: Dico & tertiam. Quoniam poſitum eſt eſſe ſicut B G ad G D, ſic quod ex Z I ad quod ex I T. Erit (ex coroll. 19. quinti) ſicut B G ad exceſſum B D, quo excedit ſuum conſequens G D, ſic quod ex Z I ad quod ex K exceſſum, quo excedit ſuum conſequens quod ex I T. Sed B G & B D habent quadratorũ rationem, cùm ſint quadrati. Igitur quod ex Z I & quod ex K rationem habebunt quadratorum. Longitudine igitur commenſurabiles erunt rectæ Z I & K. Binarum igitur certarum Z I & I T potentia tantùm commenſurabilium oſtenſarum, maior ſeu tota Z I, maius poteſt minore I T, eò quidem quod ex K ſibi longitudine commenſurabili. Neutra verò ipſarum Z I & I T longitudine ipſi A propoſitæ commenſurabilis, fuit. Reliqua itaque Z T erit apotome tertia, per tertiam diffinit. apotomarum, inuenimus igitur Z T apotomen tertiam.*
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: Propoſitio octuageſimaoctaua.]
+
+[Curated heading level=2 type=problems: Propoſitio octuageſimaoctaua. Problema 22.]
 
 ## Propoſitio octuageſimaoctaua. Problema 22.
 

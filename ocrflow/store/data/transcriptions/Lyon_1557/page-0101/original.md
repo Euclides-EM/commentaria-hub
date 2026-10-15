@@ -11,6 +11,10 @@ Ex hac etiam facilè habetur exceſſus Parallelogrammi maioris ſupra minus. Qu
 
 Neque miretur quiſquam, quòd priora cum poſterioribus retexam. Id enim ad Demonſtrationes eruendas tantùm facio. Nam aliud eſt, artem tenere : aliudq́;, artem docere. Multaq́; priora ſunt naturâ, quæ ars cogitur poſteriora tradere : atque econtrariò : nempè, aut compendij faciendi, aut lucis addendæ, aut denique methodi obſeruandæ gratia.
 
+[Curated heading level=2 type=propositions: THEOREMA 29, PROPOSITIO XXXV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 29, PROPOSITIO XXXV.]
+
 ## THEOREMA 30{printer-error-correction:29}, PROPOSITIO XXXV.
 
 ### Theoni 36.

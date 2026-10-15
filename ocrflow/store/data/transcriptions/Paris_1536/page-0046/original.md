@@ -12,6 +12,10 @@ quòd & g/h/d. Bini itaq; anguli e/g/b/& g/h/d, eidem a/g/h/sunt æquales: quapr
 
 ⁋ Quæ igitur in parallelas rectas lineas incidit, & in alteram perpendicularis existit: cum reliqua itidem cadit ad perpendiculum.
 
+[Curated heading level=2 type=propositions: Theorema 21, Propositio 30.]
+
+[Curated heading level=2 type=theorems: Theorema 21, Propositio 30.]
+
 ## Θεώρημα κα, Πρόθεσις λ.
 
 Αἱ τῇ αὐτῇ εὐθείᾳ παράλληλοι, καὶ ἀλλήλαις εἰσὶ παράλληλοι.
@@ -29,6 +33,10 @@ eiusdē vigesimænonæ propositionis. Duo itaq; anguli a/g/h/& h/k/d, hoc est, a
 ### Corollarium.
 
 ⁋ Quæ vni igitur parallelarum est parallela: alteri quoque parallela est.
+
+[Curated heading level=2 type=propositions: Problema 10, Propositio 31.]
+
+[Curated heading level=2 type=problems: Problema 10, Propositio 31.]
 
 ## Πρόβλημα ι, Πρόθεσις λα.
 

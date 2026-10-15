@@ -9,6 +9,10 @@ Et erit, per Conſectarium Primæ huius, punctum L Centrum vtriuſque Circuli, r
 
 A L I T E R. Secent ſe, vt prius, duo Circuli in punctis A, B, D, G. Et, per primam huius, ponatur H Centrum Circuli A B C. Et connectantur tres H A, H D, & H G: quæ ex definitione Centri & Circuli, erũt æquales. Et quia exeũt ad peripheriam vtriuſque Circuli, nempè ad ſectionem ipſorum: erit & H per antecedentem, Centrum Circuli D E F, contra quintam Propoſitionem eiuſdem.
 
+[Curated heading level=2 type=propositions: THEOREMA 10, PROPOSITIO XI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 10, PROPOSITIO XI.]
+
 ## THEOREMA 10, PROPOSITIO XI.
 
 Si Circulus Circulum, ſiue introrsùm, ſiue extrinſecùs tangat: per Centra vtriuſque ducta linea, in contactum ipſorum cadit.

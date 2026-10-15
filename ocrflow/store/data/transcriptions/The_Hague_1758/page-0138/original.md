@@ -3,6 +3,10 @@
 
 [Diagram: two ſemblable circular ſegments AEB and CFD on equal chords AB and CD]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIV. THEOREME XXII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXII. PROPOSITION XXIV.]
+
 ## PROPOSITION XXIV. *THEOREME XXII.*
 
 {dropcap:L|lines=2|style=plain}Es ſegmens de cercles ſemblables (AEB, CFD) ſouſtendus par des cordes égales (AB, CD) ſont égaux entr’eux.

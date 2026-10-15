@@ -3,6 +3,8 @@
 
 Die gantz figur / iſt das quadrat der linj 9. Macht in zalen 81. Souil thůnd auch die ſtück 15.27.36.
 
+[Curated heading level=2 type=propositions: III. Die dritt propoſition]
+
 ## III. Die dritt propoſition.
 
 {dropcap:S|lines=2|style=plain}o ain lini nach gefallen zertailt wirt / iſt die figur von ſollicher linj vnd dem ainen tail begriffen / gleich der figur ſo von den zwayen ſtuckhen begriffen wirt ſambt dem quadrat gemelltes ſtücks.
@@ -46,6 +48,8 @@ Tail 14 in   ⎪ 4 ⎪ mitt 3 werden   ⎪ 12  quadrat des tails.
                                        ――
                                        42
 [/Calculation]
+
+[Curated heading level=2 type=propositions: IIII. Die vierte propoſition]
 
 ## IIII. Die vierte propoſition.
 

@@ -4,6 +4,10 @@
 
 Finablement, ſiaux deux ſuſdus priſmes eganx, on adieaſte deux autres priſmes egaux & ſemblables à iceux, ſerõt conſtituez deus paiallelipipedes egaux de miſie hauteur que les prismes: Parquoy par la 34 p.11. puis que les baſes, & les hauteors des paralldipipedes. ſont teuiproques, & les baſes des priſoes ſont les meſines, ou les trianglus moictiez d’icelles, ayant meſme raiſon par la 157 5. Auſſi les baſes O bauteurs des priſines ſeront reciproques.
 
+[Curated heading level=2 type=propositions: THEOR. 30. PROP. XXXV.]
+
+[Curated heading level=2 type=theorems: THEOR. 30. PROP. XXXV.]
+
 ## THEOR. 30. PROP. XXXV.
 
 S’il y a deux angles plans egaux, aux ſommets deſquels ſoient leuees en l air deux lignes droictes faiſant angles egaux auec les coſtez des angles premieremẽt poſez, chacun au ſien: &d’vn poinct pris au haut de chacune des deux lignes ſont menees des lignes perpendiculaires ſur les plans eſquels ſont les angles premierement poſez; & dés poincts où tombent icelles perpendiculaires ſont tirees des lignes droites vers les ſommets des angles premierement poſez: Les angles que font icelles lignes, auec les leuees en l’air ſont egaux entr eux.

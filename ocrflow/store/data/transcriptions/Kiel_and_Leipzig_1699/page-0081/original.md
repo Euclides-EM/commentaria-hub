@@ -2,6 +2,10 @@
 
 <!-- Running title: Das I. Buch -->
 
+[Curated heading level=2 type=propositions: Der XXXIV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 24. Beweiß-Stück. Der XXXIV. Vortrag.]
+
 ## Der XXXIV. Vortrag.
 
 ## Das 25{printer-error-correction:24}. Beweiß Stück.

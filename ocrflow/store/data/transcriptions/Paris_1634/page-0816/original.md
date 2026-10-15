@@ -32,6 +32,10 @@ Coroll.
 
 кi, n̄ tang: Ⅱ ſecat: ⊙ def.
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. XVII.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. XVII.]
+
 ## PROBL. II. PROPOS. XVII.
 
 Duabus sphæris circa idem centrum existētibus, in majori sphæra solidum polyedrum inscribere, quod non tangat minoris sphæræ superficiem.

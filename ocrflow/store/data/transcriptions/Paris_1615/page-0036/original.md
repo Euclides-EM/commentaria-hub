@@ -8,6 +8,10 @@ contre la circonferenee en E, mais le coſté D A tant qu’on voudra en F. En 
 
 Car DG & DE ſont egalles, d’autant qu’elles procedé̃t de meſme centre vers vne meſme circonference, deſquelles ſi on oſte DA & DC qui ſont egalles, eſtant D AC triangle equilateral, les reſtes CE & AG ſeront egalles par la 3. com. ſent. Mais CB eſt egalle a CE, parce qu’elle procede de meſme centre vers meſme cir conference. Donc AG ſera egalle à CB, parce que les choſes egalles à vne ſont egalles entre elles. Nous auons donc dn poinct donné A mené la ligne AG egale à la ligne droicte donnee BC. Ce qu’il faloit faire.
 
+[Curated heading level=2 type=propositions: PROB. 3. PROP. III.]
+
+[Curated heading level=2 type=problems: PROB. 3. PROP. III.]
+
 ## PROB. 3. PROP. III.
 
 Deux lignes droictes inegalles eſtants donnees, oſter de la plus grande, vne ligne roicte egalle à la plus petite.

@@ -5,11 +5,11 @@
 
 [Figure: tall parallelepiped divided by parallel planes into stacked solids, with vertices labelled C, P, K, B, R, A, F, V, E, D, T, G, L, O, M, X, Q, N and S]
 
-## Corollarium primum.
+### Corollarium primum.
 
 Si Priſma plano ſecetur parallelo eis quæ ex oppoſito planis, erunt ad ſe Priſmatis ſectiones, vt baſis ſectiones ad ſe. *Nam baſium quæ parallelogrãmæ ſunt (per vndecimam diffinitionem huius) ſectiones, parallelogrammæ ſimiliter erunt, per decimamſextam huius, cùm planum ſecans oppoſitis ſit parallelum, & inſuper æquiangulæ. Quare ſi ipſis baſibus (productis rectis) ſimiles & æquales addantur baſes, vt diximus in parallelepipedo, fient ab ipſis ſectionibus ſimilia quotuis Priſmata, vt quamlibet Priſmatis ſectionem, quauis multiplicatione ductam, per multiplicium baſium & ſectionum communem exceſſum, æqualitatem, vel defectum, ad quamlibet aliam ſectionem eam ſeruare quam baſis ſectiones inter ſe ſeruant rationem, eadem arte doceatur, ex quinta diffinitione quinti.*
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 Solida quorum bina plana quæ ex oppoſito ſunt polipogona, ſimilia, æqualia, & parellela, reliqua quæ neceſſario erunt parallelogramma. Plano parallelo ipſis ex oppoſito planis ſecta, habebunt baſis ſectiones ad ſe, vt ſolidi ſectiones ad ſe. *Illud enim manifeſtum oſtenditur. Nam huiuſmodi ſolida in Priſmata ſecantur, quæ commune vnum habent latus, axem ſcilicet rectam lineam quæ per baſium oppoſitarum centra ducitur. Quare quot baſibus parallelogrammis concludentur oppoſita poligona, totidem Priſmatis componetur totum illud ſolidum. Nam ea poligona in totidem ſimilia diuiduntur triangula, per vigeſimam ſexti, quæ Priſmata deſcribunt. Quæ quidem Priſmata (per præcedens corollarium) ſectiones baſium ſectionibus proportionales efficiunt. Quare (per duodecimam quinti) ſicut vnius ſectiones ad ſe, ſic erunt totius ſectiones ad ſe. Horum ſolidorum infinitæ ſunt ſpecies, iuxta varietatem poligonorum oppoſitorum, & parallelorum, quæ poligona angulos circunſtantium parallelogrammorum pro ſitus diuerſitate mutant. Sed hæc propoſito nulla arte obeſſe poſſunt, quin idem ſemper ſequatur, quod oſtendimus. Cùm ſemper parallelogram-*
 

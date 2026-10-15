@@ -19,6 +19,10 @@ erit trianguli CDE exterior angulus BDC major ipſo CED. eadem ratione et triang
 
 [Diagram: triangle ABC with D and E on interior lines]
 
+[Curated heading level=2 type=propositions: PROP. XXII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXII. PROB.]
+
 ## PROP. XXII. PROB.
 
 [Subhead]

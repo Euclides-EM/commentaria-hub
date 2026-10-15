@@ -24,6 +24,10 @@ ach commun. add.
 3.concl. 2.a.1 | abch 2|2 Δlch, δ
 4.cōcl. δ.1.a.f | abcdef 2|2 Δlch.
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. II.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. II.]
+
 ## PROBL. II. PROPOS. II.
 
 Dato triangulo æquale rectangulum describere.

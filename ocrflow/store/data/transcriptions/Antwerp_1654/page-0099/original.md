@@ -11,6 +11,8 @@ Atqui A L eſt quadratum A C, cum A I, A C ex conſt. ſint æquales : & C S eſ
 
 {dropcap:P|lines=2|style=plain}Ropoſitiones 10 primæ huius libri veræ ſunt etiam in numeris. Hæc 11 numeris explicari non poteſt. Neque enim vllus numerus ita ſecari potest, vt productum ex toto in partem vnam, æquale ſit, quadrato partis reliquæ. Porro mira vis eſt huius ſectionis, de qua vide prop.30.l.6.
 
+[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO XII.]
+
 ## PROPOSITIO XII.
 
 [Curated heading level=2 type=figures: Fig. 12]

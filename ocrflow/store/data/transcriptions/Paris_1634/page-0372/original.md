@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXVI.]
+
 ## THEOR. XIX. PROPOS. XXVI.
 
 Si à parallelogrammo parallelogrammum ablatum sit, & simile toti, & similiter positum, communem cum eo habens angulum ; hoc circum eandem cum toto diametrum consistit.
@@ -32,6 +36,10 @@ hyp. | aefg, sml. abcd,
 contr. 9.a.1.
 
 concl. 21.a.1 | afc est —.
+
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XXVII.]
 
 ## THEOR. XX. PROPOS. XXVII.
 

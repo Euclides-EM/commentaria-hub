@@ -1,6 +1,8 @@
 <!-- Running title: LIBER SECVNDVS. -->
 <!-- Page number: 16 -->
 
+[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
+
 ## Propoſitio ſecunda.
 
 Si recta linea ſeccetur vtcunque quæ ſub tota & quolibet ſegmentorum comprehenduntur rectangula, æqualia ſunt ei quod ex tota fit quadrato.
@@ -8,6 +10,8 @@ Si recta linea ſeccetur vtcunque quæ ſub tota & quolibet ſegmentorum compreh
 Seccetur recta AB, vtcunque in G & D: Dico rectangula ſub tota AB & quolibet AG, GD, & DB ſegmentorum ſimul ſumpta, æqualia eſſe ei quod fit ex tota AB quadrato, ipſi AB perpendicularis & æqualis fiat AZ, perfecto ABKZ rectãgulo. Ipſis porrò AZ, BK parallelæ fiant per G & D ſigna (ex 31 primi) rectæ GE, DC. quadratum erit AK cùm ſint æquales AB & AZ. Rectangula verò erunt AE, GC, & DZ, quæ ſub tota AB (hoc eſt AZ) & quolibet ſegmentorũ AG, GD, DB, contenta ſcilicet AG, EZ, GD, CE, & DB, BK quadratũ AK. quod ſcilicet ex tota conſtituunt. Si itaque recta linea AB ſeccetur vtcunque in G & D, quæ ſub tota AB (vel AZ) & quolibet ſegmentorũ AG, GD, DB comprehenduntur rectangula, æqualia ſunt ei, quod ex tota AB fit quadrato, ſcilicet ipſi ABKZ. Huius breuior ex prima fiet demonſtratio: quia AB, AZ ſunt duæ rectæ, quarum altera AB vtcunque ſecatur. Et ideo rectangulum ſub binis AB, AZ (hoc eſt quadratum ex AB) æquum eſt eis, quæ à tota AZ inſecta, & quolibet ſegmentorum fiunt rectangulis AE, GC, & DZ.
 
 [Diagram: rectangle labelled A, G, D, B above and Z, E, C, K below, divided by vertical lines GE and DC]
+
+[Curated heading level=2 type=propositions: Propoſitio tertia.]
 
 ## Propoſitio tertia.
 
@@ -17,9 +21,11 @@ Proponatur recta linea AB ſecta in ſigno G: Dico rectangulum ſub AB AG compre
 
 [Diagram: rectangle ABZE divided by vertical line GD, with A, G, B above and E, D, Z below]
 
-## MONITVM.
+### MONITVM.
 
 Dixerat Theon rectam lineam ſecandam (vtcunque) quod tranſtulimus in has voces (in ſigno) ne rectam pluribus ſignis ſecare volentes, aliqui huic demonſtrandæ impingerẽt. Quod idem in ſequente obſeruabimus.
+
+[Curated heading level=2 type=propositions: Propoſitio quarta.]
 
 ## Propoſitio quarta.
 

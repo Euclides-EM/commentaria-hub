@@ -9,6 +9,10 @@ Demonstr.
 11.9 | nr; a,b,c,d,&c. msur: nr; a,b,c,d, &c. ꝑ nr; a,b,c,d,&c.
 concl. α.8.d.7 | nr; a,b,c,d, &c. snt pa.pa;
 
+[Curated heading level=2 type=propositions: THEOR. XXXI. PROPOS. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXI. PROPOS. XXXIII.]
+
 ## THEOR. XXXI. PROPOS. XXXIII.
 
 Si numerus dimidium habeat imparem : pariter impar est tantum.

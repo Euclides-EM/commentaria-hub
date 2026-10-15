@@ -6,6 +6,10 @@ moven proportiõnel; & que A eſt a B en raiſon doublee de C a E, coſtez de m
 
 Car puis que les plans A & B ſont ſemblables, C ſera a D comme E par F; & ſi A ſera le produict de C par D. Item B le produit de E par F, par la 17. d.7. Maintenant que D multipliant E produiſe G, par la 17.p.7. puis que D multipliant C & E produict A, & G; A ſera a G, comme C a E, ou D a F(car puis que comme C a D, ainſi E a F; en changeant comme C a E, ainſi D à F.) Item E multipliant D, & F; produict G& B, iceux ſeront l’vn à l’autre comme D à F: ainſi A, G, B ſeront continuellemnt proportionnaux, & G ſera vn moyen proportionnel en tre A & B.
 
+[Curated heading level=2 type=propositions: THEO. 17. PROP. XIX.]
+
+[Curated heading level=2 type=theorems: THEO. 17. PROP. XIX.]
+
 ## THEO. 17. PROP. XIX.
 
 Entre deux nombres ſolides ſemblables, tombent deux moyens proportionnaux: & le ſolide eſt au ſolide, en raiſon triplee des coſtez de ſemblable raiſon.

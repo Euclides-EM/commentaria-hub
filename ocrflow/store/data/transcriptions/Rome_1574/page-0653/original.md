@@ -8,6 +8,8 @@ portionibus A, ad G, & G, ad B; Eadem ex proportionibus C, ad F, & D, ad E, comp
 
 [Curated heading level=2 type=campanus: 6]
 
+[Curated heading level=2 type=theorems: THEOR. 4. PROPOS. 6.]
+
 ## THEOR. 4. PROPOS. 6.
 
 [Margin]

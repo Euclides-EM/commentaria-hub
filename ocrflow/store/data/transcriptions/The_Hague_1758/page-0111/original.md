@@ -4,6 +4,10 @@
 
 [Figure: circle with points C, H, G, F, A, D, B, E; the perpendicular CE through D, chord AB, and dotted lines from G to A, D and B]
 
+[Curated heading level=2 type=propositions: PROPOSITION I. PROBLEME I.]
+
+[Curated heading level=2 type=problems: PROBLEME I. PROPOSITION I.]
+
 ## PROPOSITION I. PROBLEME I.
 
 {dropcap:T|lines=2|style=plain}Rouver le centre (F) d'un cercle donné (ACBE).

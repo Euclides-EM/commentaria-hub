@@ -3,6 +3,8 @@
 
 miles, ac proinde eorum proportio d triplicata ſit proportionis diametrorum D F & S T, quæ eſt 2 ad 1; erit conus D O F ad conum S K T, vt 8 ad 1. Quod erat dem.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XLIV.]
+
 ## PROPOSITIO XLIV.
 
 {dropcap:S|lines=2|style=plain}Phæra ad circumſcriptum ſibi conum æquilaterum (D O F) & ſoliditate & ſuperficie, eam proportionem habet, quam 4 ad 9.

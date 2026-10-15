@@ -33,6 +33,10 @@ hyp. | ▭lq 2|2 ▭nk,
 contr. 9.a.1.
 21.a.1. | lm 2|2 ik.
 
+[Curated heading level=2 type=propositions: THEOR. XXXIII. PROPOS. XLVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIII. PROPOS. XLVII.]
+
 ## THEOR. XXXIII. PROPOS. XLVII.
 
 In rectangulis triangulis, quadratum, quod à latere rectum angulum subtendente describitur, æquale est eis, quæ à lateribus rectum angulum continentibus describuntur.

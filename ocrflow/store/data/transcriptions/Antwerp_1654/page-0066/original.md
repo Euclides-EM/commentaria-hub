@@ -19,6 +19,8 @@ c Per præc.
 
 {dropcap:E|lines=2|style=plain}X ſecunda parte patet omne rectangulum eſſe parallelogrammum.
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXX.]
+
 ## PROPOSITIO XXX.
 
 [Margin]

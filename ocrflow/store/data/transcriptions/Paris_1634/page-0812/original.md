@@ -8,6 +8,10 @@ concl. 21. a. 1 | raō. con. abcdк π con. efghm 2|2, 3; raō; tx π tr.
 
 Quoniam vero, quam proportionem habent coni, eandem quoque obtinent cylindri, eorum tripli, habebit quoque cylindrus ad cylindrum proportionem diametrorum in basibus triplicatam. | *Mais d'autant que les cylindres sont en mesme raison que les cones, desquels ils sont triples, le cylindre sera außi au cylindre raison triplee des diametres de leurs bases.*
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XIII.]
+
 ## THEOR. XIII. PROPOS. XIII.
 
 Si cylindrus plano secetur aduersus planis parallelo: Erit vt cylindrus ad cylindrum, ita axis ad axem.

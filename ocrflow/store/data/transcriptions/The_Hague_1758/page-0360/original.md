@@ -3,6 +3,10 @@
 
 [Figure: parallelepiped with vertices labelled F, I, E, L, M, N, G, K, D, T, H, O, C, Q, S, R, A, P, B, with diagonal FB crossing the figure, within a double-ruled frame]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIX. THEOREME XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXIV. PROPOSITION XXXIX.]
+
 ## PROPOSITION XXXIX. THEOREME XXXIV.
 
 {dropcap:S|lines=2|style=plain}I dans un paralelipipéde (AE) on diviſe en deux également les cotés (GD, AB; GF, AH; FE, HC; ED & BC) des Plans oppoſés, (FA & EB, Item FC & GB) & que par les points de ſection (K, P, O, I, & L, Q, R, N) l'on fait paſſer des Plans (IP & LR) : la ligne de commune ſection (MS) de ces Plans, & le diametre (FB) du paralelipipéde (AE) ſe diviſeront mutuellement en deux au point T.

@@ -7,6 +7,10 @@ Sit linea A B, tangens Circulum C E D, cuius Centrum F, in puncto E. Et à Centr
 
 Quæ ſi non fuerit: ſit F G ad A B perpendicularis, ſecans peripheriam in C. Quumq́; angulus E G F ſit rectus : erit in Triangulo E F G, latus E F maius latere F G, per Decimamnonam Primi : Quod eſt falſum, quum ſit F C ipſi F E æqualis. Probatur hæc à negatione, in modum Conuerſarum. Eſt enim Conuerſa Conſectarij Decimæquintæ huius.
 
+[Curated heading level=2 type=propositions: THEOREMA 16, PROPOSITIO XVIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 16, PROPOSITIO XVIII.]
+
 ## THEOREMA 16, PROPOSITIO XVIII. Theoni 19.
 
 Si Circulum recta linea tangat : à contactu perpendicularis deducta, per Centrum tranſit.
@@ -16,6 +20,10 @@ Si Circulum recta linea tangat : à contactu perpendicularis deducta, per Centru
 Sit linea A B tangens Circulum C D E A in puncto C : A quo demittatur C E perpendicularis ipſi A B, ad punctum E peripheriæ. Dico C E tranſire per Centrum.
 
 Sin aliter : ſit Centrum extra ipſam C E, vt in F puncto : A quo ad punctum C, ducatur F C : quæ, per antecedentem, erit perpendicularis ad A B : ob id, angulus A C F æqualis angulo A C E, pars toti, Quod eſt abſurdum.
+
+[Curated heading level=2 type=propositions: THEOREMA 17, PROPOSITIO XIX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 17, PROPOSITIO XIX.]
 
 ## THEOREMA 17, PROPOSITIO XIX. Theoni 20.
 

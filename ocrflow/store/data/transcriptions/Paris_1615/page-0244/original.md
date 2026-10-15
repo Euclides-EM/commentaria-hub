@@ -2,6 +2,10 @@
 
 <!-- Page number: 221 -->
 
+[Curated heading level=2 type=propositions: THEOR. 11. PROP. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 11. PROP. XIII.]
+
 ## THEOR. 11. PROP. XIII.
 
 Si quatre nombres ſont proportiõnaux:
@@ -11,6 +15,10 @@ auſſi en changeant ils ſeront proportionnaux.
 [Diagram]
 
 Soient 4. nombres proportionnaux A, B, C, D, ſçauoir qu’il y ait telle raiſon de A à B, que de C à D: Ie dis qu’en changeant, il y aura telle raiſon de A à C, que de B aD. Car puis que comme A eſt à B ainſi C à D par la 20. d.7.D plus petit ſera telle ou telles parties de C, que B eſt de A, & partant en changeant par la 9 ou 10.p.7. D. ſera telle ou telles parties de B, que C eſt de A, & par la 20. d.7. conuertie, il y aura meſme raiſon de A à C que de B à D. Ce qu’il faloit demonſtrer.
+
+[Curated heading level=2 type=propositions: THEOR. 12. PROP. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 12. PROP. XIV.]
 
 ## THEOR. 12. PROP. XIV.
 

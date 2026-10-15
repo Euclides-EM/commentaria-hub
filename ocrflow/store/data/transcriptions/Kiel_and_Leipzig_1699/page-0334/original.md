@@ -4,6 +4,10 @@
 
 Und wenn der aus der Spitze des Dreyeckes gezogene Strich den Grundstrich also schneidet/ daß dessen Stücke in ebenmässiger Verhältnüß mit den Seiten stehn/ so theilet derselbe Strich den Winckel des Dreyeckes in zweene gleiche Theile. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der IV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 4. Beweiß-Stück. Der IV. Vortrag.]
+
 ## Der IV. Vortrag.
 
 ## Das 4. Beweiß-Stück.

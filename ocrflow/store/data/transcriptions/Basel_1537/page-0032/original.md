@@ -8,6 +8,8 @@ CAMPANVS. Sint duo trianguli a b c, d e f: sitq̃ angulus b, æqualis angulo e, 
 
 [Diagram: two triangles side by side, triangle d e f with point g on base e f and lines d g, g f drawn, and triangle a b c; labels d, g, e, g, f and a, b, c]
 
+[Curated heading level=2 type=theorems: Theorema 17. Propositio 26.]
+
 ## Eucli. Ex Zamb. Theorema 17. Propositio 26.
 
 [Curated heading level=3 type=zamberti_sequence: 26.]

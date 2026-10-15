@@ -4,6 +4,8 @@
 
 d f. tertia erit per 14 e h secunda, maior e f, quarta, quod quia est impossibile, sequitur propositum.
 
+[Curated heading level=2 type=theorems: Theorema 18 Propositio 18]
+
 ## Eucli.ex Zamb. Theorema 18 Propositio 18 Cõuersa præcedentis.
 
 [Curated heading level=3 type=zamberti_sequence: 18.]
@@ -35,6 +37,8 @@ CAMPANVS Quod quinta proponit de multiplicibus: hæc proponit uniuersaliter de o
 CAMPANI additio. Ex hac autem decimanona, & permutata proportionalitate demonstratur modus arguendi, qui dicitur proportionalitas euersa. ut si sit a b ad b e, sicut c d ad d f, dico quod erit b a ad a e sicut d c ad c f, quia cum sit a b, ad b e, sicut c d ad d f, erit permutatim a b ad c d sicut b e ad d f, quare per hanc 19, b a ad d c, sicut a e ad c f, igitur permutatim b a ad a e, sicut c d ad c f, quod est propositum. Cõuersa quoque proportionalitas, quam ex diffinitione incontiuuæ proportionalitatis demonstrauimus in exponendis principijs huius quinti, potest hic quoque demonstrari indirecte ex permutata proportionalitate & 9 huius, ut si sit proportio a ad b sicut c ad d, dico quod erit b ad a sicut d ad c, sin autem sit d ad e, sicut b ad a, & quia a ad b est sicut c ad d, erit permutatim a ad c sicut b ad d, & quia iterum b ad a, sicut d ad e: erit quoque permutatim b ad d sicut a ad e, quare erit a ad e. sicut d ad c, si igitur e non sit æquale c, accidet impossibile & contrarium secundæ partis 9, si autem æqualis, erit b ad a sicut d ad c, quod est propositũ.
 
 [Diagram: five vertical bars of differing heights with tick marks, labeled below a, b, c, d, e]
+
+[Curated heading level=2 type=theorems: Theorema 19 Propositio 19]
 
 ## Eucli.ex Zamb. Theorema 19 Propositio 19
 

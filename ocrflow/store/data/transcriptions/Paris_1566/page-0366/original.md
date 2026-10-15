@@ -1,6 +1,8 @@
 <!-- Running title: LIBER DECIMVSTERTIVS. -->
 <!-- Page number: 169 -->
 
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
+
 ## Propoſitio duodecima.
 
 Si in circulo triangulum æquilaterum deſcriptum fuerit, ipſius trianguli latus potentia triplum eſt eius quæ ex centro circuli.
@@ -9,9 +11,15 @@ In circulo A B E G triangulum æquilaterum deſcriptum ſit A B G: Dico triangul
 
 [Figure: circle with inscribed equilateral triangle A B G, centre D, diameter A E, point I on the base]
 
-## Corollarium.
+### Corollarium.
 
 Hinc ſequitur, latus trianguli ſecare bifariã eam quæ à cẽtro ſibi perpendicularis ad circunferentiam ducitur. Cũ enim triangula B D G B E G ſint (ex octaua primi) æquiangula, anguli D B I E B I erunt æquales, & ideo (per quartam primi) D I I E baſes, æquales erunt. Præterea trianguli æquilateri latus, potentia ſeſquitertium eſt eius quæ ab vno angulorum in latus oppoſitum perpendicularis cadit, nam qualium A B eſt potentia 12 earum B I (dimidia) erit trium. Reliqua igitur A I earundem partium erit 9, cùm binæ A I B I (per 47 primi) ipſam A B poßint, quæ quidem potentia 12 eſt ipſius 9, ſeſquitertia, cæterũ trianguli latus media eſt proportionalis inter dimetiẽtem & perpendicularem, ſcilicet A E ad A B vt A B ad A I, ex coroll. 8 ſexti. Et inſuper quæ ab angulo perpendicularis, baſim bifariam ſecat, & per centrum tranſit: nam ſi alia duceretur ab A in I recta, quam ea quæ per D ducitur, binæ rectæ ſuperficiem concluderent, contra 12 comm. ſentent. quod fieri non poteſt. Quare ſequitur oppoſitum, quæ ſcilicet per centrum tranſit, perpendicularis eſt baſi, per tertiam tertij.
+
+[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimustertius.]
+
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
+
+[Curated heading level=2 type=problems: Propoſitio decimatertia. Problema I.]
 
 ## Propoſitio decimatertia.
 

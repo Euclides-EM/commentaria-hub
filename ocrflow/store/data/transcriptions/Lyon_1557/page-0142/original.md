@@ -9,6 +9,10 @@ Ponam G ad A, & H ad C æquemultiplicia: itemq́; K ad B, & L ad D, alia æquemu
 
 IAM verò ſi fuerint Magnitudines plures tribus in vtroque ordine: erit omninò prima ad vltimam vnius, vt prima ad vltimam alterius: ſcilicet in Æqua proportionalitate. Vt, ſi addantur P & Q: & ſit E ad P ſicut F ad Q: Dico eſſe A ad P ſicut C ad Q. Erit enim A ad E ſicut C ad F, vt modò demonſtrauimus. Sepoſitis igitur B & D, erunt tres Magnitudines A, E, P, vnius ordinis, tresq́; alterius C, F, Q, eiuſdem conditionis cum prioribus. Quare A ad P ſicut C ad Q, Quod erat oſtendendum.
 
+[Curated heading level=2 type=propositions: THEOREMA 23, PROPOSITIO XXIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 23, PROPOSITIO XXIII.]
+
 ## THEOREMA 23, PROPOSITIO XXIII.
 
 Si fuerint tres Magnitudines vnius ordinis, totidemq́; alterius, fueritq́; perturbata inter ipſas ratio: eæ & ex æquali proportionales erunt.

@@ -2,6 +2,10 @@
 
 <!-- Page number: 191 -->
 
+[Curated heading level=2 type=propositions: Der XXXV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 29. Beweiß-Stück. Der XXXV. Vortrag.]
+
 ## Der XXXV. Vortrag.
 
 ## Das 29. Beweiß-Stück.

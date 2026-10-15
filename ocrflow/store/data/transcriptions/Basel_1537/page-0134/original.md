@@ -18,6 +18,8 @@ CAMPANVS Sit proportio a ad b, sicut c ad d. Dico quod si a est maior c, b erit 
 
 [Diagram: horizontal line segments a, c above and b, d below, set beside the paragraph]
 
+[Curated heading level=2 type=theorems: Theorema 14 Propositio 14]
+
 ## Eucli.ex Zamb. Theorema 14 Prepositio{printer-error-correction:Propositio} 14
 
 [Curated heading level=3 type=zamberti_sequence: 14.]
@@ -45,6 +47,8 @@ SI fuerint aliquibus quantitatibus æque multiplices assignatæ, erit ipsarum mu
 CAMPANVS Sint c ad a, & d ad b, æque multiplices. Dico quod quæ est proportio a ad b, eadem est c ad d. Diuidatur c secundum quantitatem a, & d secūdum quantitatem b, sunt que tot partes e, quot d, & quia quælibet pars c ad quamlibet partem d se habet sicut a ad b, erit per 13 huius, c ad d, sicut a ad b. quod est propositum.
 
 [Diagram: horizontal line segments c and d with division marks above, segments a and b below, set beside the paragraph]
+
+[Curated heading level=2 type=theorems: Theorema 15 Propositio 15]
 
 ## Eucli. ex Zamb. Theorema 15 Propositio 15
 

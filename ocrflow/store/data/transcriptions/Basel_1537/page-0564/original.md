@@ -4,6 +4,8 @@
 
 ad f d,ratio data,& ipsius igitur c f.ad e b,ratio est data per 8 propositionẽ. Rursus quoniam ipsius a e,ad e b,ratio data demonstratur,ponitur autem & ipsius e b,ad f d,ratio data,& ipsius igitur e a,ad f d,ratio est data,per 8 propositionẽ,& quoniam a e,e b,adinuicem rationem habent datam, & totum a b, ad utrunq̃ ipsorum a e,e b, rationem habet datam. Quare & similiter & c,ad utranq̃ ipsarum e f,f d,rationem habet datam. Et quoniam a b,ad c d,rationem habet datam:habet autem & c d, ad utranq̃ ipsarum c f, f d, rationem datam & a b , igitur ad utranque ipsarum c f,c d, rationem habet datam. Quare omnia ad omnia rationes habẽt datas.
 
+[Curated heading level=2 type=theorems: Theorema 24. Propositio 24.]
+
 ## Theorema 24. Propositio 24.
 
 SI tres rectæ lineæ proportionales fuerint,prima uero ad tertiam rationẽ habuerit datam,& ad secundã rationẽ habebit datam.
@@ -26,6 +28,8 @@ Quoniam didicimus in diffinitiõibus,rectilineas figuras specie dari,quarum angu
 
 [Diagram: a rectangle with corners labelled d, a, c, b]
 
+[Curated heading level=2 type=theorems: Theorema 25 Propositio 25]
+
 ## Theorema 25 Propositio 25
 
 SI binæ rectæ lineæ positione datæ sese inuicem secuerint, signũ in quo sese inuicem dispescunt positione datur.
@@ -33,6 +37,8 @@ SI binæ rectæ lineæ positione datæ sese inuicem secuerint, signũ in quo ses
 Binæ, inquam. lineæ positione datæ a b, c d, sese inuicem secent in e,dico quod datum est e,signum. Si autem non intercidet e,signũ : intercidet igitur & unius ipsarũ a b,c d,positio,non intercidit autem. Datum igitur est signum e.
 
 [Diagram: two straight lines crossing at e; ends labelled c and a above, b and d below]
+
+[Curated heading level=2 type=theorems: Theorema 26 Propositio 26]
 
 ## Theorema 26 Propositio 26
 

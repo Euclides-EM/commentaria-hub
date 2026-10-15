@@ -2,6 +2,10 @@
 
 <!-- Page number: 177 -->
 
+[Curated heading level=2 type=propositions: THEOR. 8. PROP. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 8. PROP. VIII.]
+
 ## THEOR. 8. PROP. VIII.
 
 Si de l’angle droict d’vn triangle rectangle on tire vne perpendiculaire ſur la baſe, les triangles au long de la perpendiculaire ſont ſem blables au tout, & entr'eux.

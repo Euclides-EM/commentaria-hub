@@ -18,6 +18,8 @@ SI superficies æqualis quadrato residui medialis secundi applicata fuerit ad li
 
 CAMPANVS. Hic etiam erit d e residuū mediale secundum, & sequetur ut sit c b residuum tertium. Quod ut facile concludas, primæ demonstrationi insistas, & quales lineas conueniat esse d f & f e. ex 70, collige.
 
+[Curated heading level=2 type=theorems: Theorema 75 Propositio 99]
+
 ## Eucli.ex Zamb. Theorema 75 Propositio 99
 
 [Curated heading level=3 type=zamberti_sequence: 99.]

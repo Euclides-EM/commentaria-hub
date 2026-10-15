@@ -6,6 +6,10 @@ Recta ergo c/h/consistens super datã rectam lineã a/b,æquales vtrobiq; facit 
 Cum [illegible] recta linea super rectam consistens lineam [illegible]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 6, Propositio 13.]
+
+[Curated heading level=2 type=theorems: Theorema 6, Propositio 13.]
+
 ## Θεώρημα ς, Πρόθεσις ιγ.
 
 Ὡς ἂν εὐθεῖα ἐπ' εὐθεῖαν σταθεῖσα γωνίας ποιῇ, ἤτοι δύο ὀρθὰς,ἢ δυσὶν ὀρθαῖς ἴσας ποιήσει.
@@ -19,6 +23,10 @@ ORONTIVS. ¶Incidat inquàm a/b/recta,super rectam c/d,efficiens angulos a/b/c/&
 [Diagram: a e c b d]
 
 [Diagram: abc. / ebc. abc. abc. / ebd. ebd. abd.]
+
+[Curated heading level=2 type=propositions: Theorema 7, Propositio 14.]
+
+[Curated heading level=2 type=theorems: Theorema 7, Propositio 14.]
 
 ## Θεώρημα ζ, Πρόθεσις ιδ.
 

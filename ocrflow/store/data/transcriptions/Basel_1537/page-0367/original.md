@@ -24,6 +24,8 @@ SVperficie proposita, punctoq̃ in ea assignato, ab eo puncto ad datam superfici
 
 CAMPANVS. Cum à pũcto quolibet in superficie proposita assignato, perpendicularẽ educere libuerit, à quolibet puncto sursum in aere ad libitum posito, ad eandem superficiẽ perpendicularẽ (quemadmodũ præmissa docuit) demitte, quæ si assignatũ punctũ ceciderit, ipsa est quã quæris. Sin autẽ, ab ipsa assignato pũcto ad demissam perpendicularẽ, æquidistantẽ ducito, eamq̃ per 8 huius probabis esse quam quæris.
 
+[Curated heading level=2 type=problems: Problema 2 Propositio 12]
+
 ## Eucli. ex Zamb. Problema 2 Propositio 12
 
 [Curated heading level=3 type=zamberti_sequence: 12.]

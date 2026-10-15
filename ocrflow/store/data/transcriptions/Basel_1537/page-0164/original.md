@@ -8,6 +8,8 @@ los ductis lineis d f, & d g, & super pūctum a constituo angulum æqualē angul
 
 Tres ex Zamberto sequentes propositiones, tribus præcedentibus ex Cāpano, eonuerso ordine respondent prima ultimæ: media primæ & ultima mediæ.
 
+[Curated heading level=2 type=problems: Problema 6 Propositio 18]
+
 ## Eucli. ex Zumb.{printer-error-correction:Zamb.} Problema 6 Propositio 18
 
 [Curated heading level=3 type=zamberti_sequence: 18.]
@@ -21,6 +23,8 @@ A data recta linea, dato rectilineo simile similiterq́ȝ positū rectilineum de
 THEON ex Zamberto. Sit data quidem recta linea α β, datum uero rectilineum γ ε. oportet iam à data α β recta linea, ipsi γ ε, rectilineo simile similiterque positum rectilineum describere. Connectantur δ ζ, & constituatur (per 23 primi) ad α β, rectam lineam, ad signáque in ea α β, ei qui ad γ, est angulo æqualis angulus η α β, ei autem qui est sub γ δ ζ, æqualis angulus α β η, reliquus igitur qui sub γ δ ζ, ei qui sub α η β, est æqualis, æquiangulū igitur est ζ γ δ, triangulum, ipsi η α β, triangulo (per 4 sexti,) proportionaliter igitur est sicut ζ δ, ad η β, sic ζ γ, ad η α, & γ δ, ad α β. Rursus constituatur (per 23 primi) ad β η, rectam lineam ad signáq́ȝ in ea β η, ei qui sub δ ζ ε, est angulo æqualis angulus β η θ, ipsi autem ζ δ ε, qui est sub η β θ. Reliquus igitur qui ad ε, reliquo qui ad θ, est æqualis, æquiangulum igitur est triangulum ζ δ ε, triangulo η β θ, proportionaliter igitur est (per 4 sexti,) sicut ζ δ, ad η β, sic ζ ε, ad η θ, & ε δ, ad θ β, ostensum autem est quod sicut ζ δ, ad η β, sic ζ γ, ad η α, & γ δ, ad α β, & sicut igitur (per 11 quinti,) γ ζ, ad α η, sic γ δ, ad α β, & ζ ε, ad η θ, & insuper ε δ, ad θ β. Et quoniam æqualis est angulus γ ζ δ, angulo α η β, & angulus δ ζ ε, angulo β η θ, totus igitur qui sub γ ζ ε, toti qui sub α η θ, est æqualis. Id propterea, & qui sub γ δ ε: ei qui sub α β θ æqualis. Est aūt & qui ad γ, ei qui ad α, æqualis, & qui ad ζ, ei qui ad θ, æquiangulum igitur est α θ, ipsi γ ε, & ea quæ circum æquales angulos sunt latera, ei proportionalia habet. Simile igitur est (per primam diffinitionem sexti α θ, rectilineum, ipsi γ ε, rectilineo. A data igitur recta linea α β, dato rectilineo γ ε, simile, similiterq́ȝ positum rectilineū descriptum est α θ, quod facere oportebat.
 
 [Diagram: two quadrilaterals. Left: quadrilateral with vertices η (top left), θ (top right), β (bottom right), α (bottom left); diagonal drawn from η to β. Right: smaller quadrilateral with vertices ζ (upper left), ε (upper right), δ (bottom right), γ (bottom left); diagonal drawn from ζ to δ]
+
+[Curated heading level=2 type=theorems: Theorema 13 Propositio 19]
 
 ## Eucli. ex Zamb. Theorema 13 Propositio 19
 

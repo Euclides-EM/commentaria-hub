@@ -27,6 +27,10 @@ contingit igitur AB circulum.
 
 ‘Sit autem datum punctum in circumferentia circuli, ut punctum D, et ad centrum E ducatur DE, et a puncto D, ipſi DE ad rectos angulos ducaturᵇ DF; contingetᵈ haec circulum.’ A dato igitur puncto ducta eſt recta linea quae datum circulum contingit. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVIII. THEOR.]
+
 ## PROP. XVIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I circulum contingat quaedam recta linea, a centro autem ad tactum recta linea ducatur, ducta ad contingentem perpendicularis erit.

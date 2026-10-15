@@ -23,6 +23,8 @@ QVOD ſi fuerint plures magnitudines tribus, fueritq; earum proportio perturbata
 
 [Curated heading level=2 type=campanus: 24]
 
+[Curated heading level=2 type=theorems: THEOR. 24. PROPOS. 24.]
+
 ## THEOR. 24. PROPOS. 24.
 
 [Margin]

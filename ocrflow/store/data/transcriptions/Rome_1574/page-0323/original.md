@@ -15,6 +15,8 @@ ALITER. Ductis rectis DF, CF, ad pũctũ circũferẽtiæ quoduis F, includẽti
 
 [Curated heading level=2 type=campanus: 21]
 
+[Curated heading level=2 type=theorems: THEOR. 20. PROPOS. 22.]
+
 ## THEOR. 20. PROPOS. 22.
 
 [Margin]

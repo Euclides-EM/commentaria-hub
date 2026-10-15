@@ -6,6 +6,8 @@ in quam plurimis demonſtrationibus, quæ nam latera figurarum inter ſe compara
 
 ORONTIVS, & nonnulli alij interpretes, longe aliter definitionem hanc exponunt. Putant enim Euclidem docere, in magnitudinibus proportionalibus uarie inter ſe conferri poße & antecedentes magnitudines, & conſequentes; ceu in ſequentibus definitionibus patebit. Verum ſi verba definitionis diligentius ponderentur, & vſus eiuſdem in 6. lib. cõſideratur, noſtram expoſitionem huic anteferendam eße, nemo dubitabit.
 
+[Curated heading level=2 type=definitions: XII.]
+
 ### XII.
 
 [Curated heading level=4 type=incipit: ALTERNA]

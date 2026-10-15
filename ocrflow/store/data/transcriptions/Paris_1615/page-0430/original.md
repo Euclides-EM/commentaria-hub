@@ -2,6 +2,10 @@
 
 <!-- Page number: 407 -->
 
+[Curated heading level=2 type=propositions: THEOR. 27. PROP. XXXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. 27. PROP. XXXIX.]
+
 ## THEOR. 27. PROP. XXXIX.
 
 Si deux mediales commenſurables en puiſſance ſeulement, comprenant vn rectangle medial ſont aſſemblees, la toute ſera irrationelle: ſoit icelle appellee bimediale ſeconde.

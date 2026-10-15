@@ -2,13 +2,23 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=problems: LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=definitions: LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.]
+
 # LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
 ## DEFINITIONS.
 
+[Curated heading level=2 type=definitions: DEF. I.]
+
 ### I.
 
 VNE figure rectiligne est dite estre inscrite en vne figure rectiligne, quand chacun des angles de la figure inscrite, touche chacun costé de celle en laquelle elle est inscrite.
+
+[Curated heading level=2 type=definitions: DEF. II.]
 
 ### II.
 

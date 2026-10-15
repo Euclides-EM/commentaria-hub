@@ -33,6 +33,10 @@ In omni igitur triangulo &c. Q. E. D.
 
 [Diagram: right triangle ABC with AC perpendicular to BC]
 
+[Curated heading level=2 type=propositions: PROP. XIV. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XIV. PROB.]
+
 ## PROP. XIV. PROB.
 
 [Subhead]

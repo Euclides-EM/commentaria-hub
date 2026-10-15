@@ -13,6 +13,10 @@ Ainſi, dans le cas du triangle tri-rectangle, chacun des arcs P, Q, R, eſt ég
 
 La meſure des polygones ſphériques ſuit immédiatement de celle des triangles, et d’ailleurs elle eſt entierement déterminée par la prop. 23, liv. VII, puiſque l’unité de meſure, qui eſt le triangle tri-rectangle, vient d’être évaluée en ſurface plane.
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XI.]
+
 ## PROPOSITION XI.
 
 ### THÉORÊME.

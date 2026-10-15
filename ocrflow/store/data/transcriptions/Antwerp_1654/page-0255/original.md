@@ -3,13 +3,19 @@
 
 quando dicti inclinationum anguli ſunt æquales.
 
+[Curated heading level=2 type=definitions: Lib. XI, Def. 8]
+
 [Curated heading level=3 type=numbered_item: 8.]
 
 8. Parallela plana ſunt, quæ in omnem partem producta æqualibus ſemper interuallis diſtant.
 
+[Curated heading level=2 type=definitions: Lib. XI, Def. 9]
+
 [Curated heading level=3 type=numbered_item: 9.]
 
 9. Similes figuræ ſolidæ rectilineæ ſunt, quæ ſimilibus planis continentur, multitudine æqualibus.
+
+[Curated heading level=2 type=definitions: Lib. XI, Def. 10]
 
 [Curated heading level=3 type=numbered_item: 10.]
 
@@ -21,11 +27,15 @@ quando dicti inclinationum anguli ſunt æquales.
 Fig.5.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. XI, Def. 11]
+
 [Curated heading level=3 type=numbered_item: 11.]
 
 11. Æquales ſolidi anguli ſunt, qui intra inuicem poſiti congruunt.
 
 *Quemadmodum angulus planus eſt inclinatio linearum, ita ſolidus angulus eſt inclinatio ſuperficierum. De vtroque igitur eodem modo ratiocinandum erit. Conſule ſcholium poſt prop. 16.l.3.*
+
+[Curated heading level=2 type=definitions: Lib. XI, Def. 12]
 
 [Curated heading level=3 type=numbered_item: 12.]
 
@@ -37,6 +47,8 @@ Fig.5.
 Fig.6.7.8.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. XI, Def. 13]
+
 [Curated heading level=3 type=numbered_item: 13.]
 
 13. Parallelepipedum eſt ſolidum ſex quadrilateris, ex aduerſo parallelis comprehenſum.
@@ -44,6 +56,8 @@ Fig.6.7.8.
 [Margin]
 Fig.8.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. XI, Def. 14]
 
 [Curated heading level=3 type=numbered_item: 14.]
 

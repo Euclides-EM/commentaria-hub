@@ -10,6 +10,10 @@ me deſſus la baſe EG, ſera egale à la baſe BC par la 4p.1. & EG eſt plus
 
 En troiſieſme lieu, que EG tombe au deſſous de EF. Il eſt euident que les deux lignes interieures DF, EF ſont plus petites que DG,EG, par la 21.p.1. Mais par la conſtruction DG eſt egale à DF: donc EG eſt plus grande que EF par la .com. ſent. Mais comme deſſus par la 4.p.1. EG eſt egale à BC: donc auſſi icelle BC ſera plus grande que EF: ce qu’il faloit demonſtrer.
 
+[Curated heading level=2 type=propositions: THEOR. 16. PROP. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. 16. PROP. XXV.]
+
 ## THEOR. 16. PROP. XXV.
 
 Si deux triãgles ont deux coſtez egaux à deux coſtez, chaſcun au ſien, & la baſe plus grande que la baſe; ils auront auſſi l’angle contenu d’iceux coſtez egaux, plus grand que l’angle.

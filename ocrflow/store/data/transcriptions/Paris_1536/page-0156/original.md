@@ -12,6 +12,14 @@ Aliud exēplū
 
 [Diagram: 3 × 2 sesqualtera ratio. | 6 × 5 sesquiquinta. | 15——12 sesquiquarta.]
 
+[Curated heading level=1 type=propositions: LIBER VI.]
+
+[Curated heading level=1 type=theorems: LIBER VI.]
+
+[Curated heading level=2 type=propositions: Theorema 1, Propositio 1.]
+
+[Curated heading level=2 type=theorems: Theorema 1, Propositio 1.]
+
 ## Θεώρημα α, Πρόθεσις α.
 
 Τὰ τρίγωνα καὶ τὰ παραλληλόγραμμα, τὰ ὑπὸ τὸ αὐτὸ ὕψος ὄντα, πρὸς ἄλληλα ὁξὶμ ὡς αἱ βάσεις.

@@ -10,6 +10,10 @@ Resolutio demōstrationis.
 
 [Diagram: g a b l — h c d m — k e f n]
 
+[Curated heading level=2 type=propositions: Theorema 12, Propositio 12.]
+
+[Curated heading level=2 type=theorems: Theorema 12, Propositio 12.]
+
 ## Θεώρημα ιβ, Πρόθεσις ιβ.
 
 Εαν ᾖ ὁποσαοῦν μεγέθη ἀνάλογον, ἔσται ὡς ἓν τῶν ἡγουμένων πρὸς ἓν τῶν ἑπομένων, οὕτως ἅπαντα τὰ ἡγούμενα, πρὸς ἅπαντα τὰ ἑπόμενα.

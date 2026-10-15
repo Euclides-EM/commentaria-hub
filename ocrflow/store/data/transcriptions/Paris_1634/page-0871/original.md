@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VI.]
+
 ## THEOR. VI. PROPOS. VI.
 
 Si recta linea secetur extrema ac media ratiöne; erit vt recta potens id, quod à tota, & id quod à majori segmento, ad rectam potentem id, quod à tota, & id quod à minori segmento, ita latus cubi ad latus icosaedri eidē sphæræ cum cubo inscripti.

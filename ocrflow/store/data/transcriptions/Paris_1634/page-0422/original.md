@@ -1,5 +1,9 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
+[Curated heading level=2 type=propositions: PROBL. XII. PROPOS. XXXIV.]
+
+[Curated heading level=2 type=problems: PROBL. XII. PROPOS. XXXIV.]
+
 ## PROBL. XII. PROPOS. XXXIV.
 
 Dato circulo, & tribus punctis in eius circumferentia, inuenire diametrum, in quam cum demittentur è datis punctis normales, segmenta diametri à normalibus intercepta datam teneant rationem.

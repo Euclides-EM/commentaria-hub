@@ -7,6 +7,10 @@
 2 concl. 4.6 | bc π ac 2|2 ac π dc,
 3.concl. 4.6 | cb π ab 2|2 ab π bd.
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. IX.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. IX.]
+
 ## PROBL. I. PROPOS. IX.
 
 D'vne ligne droicte donnée en oster vne partie demandée.
@@ -35,6 +39,10 @@ ag 2|2 ⅓ab.
 2.ſ.18.5 | ag π ab 2|2 ad π af,
 conſtr. | ad 2|2 ⅓af,
 concl. 4.d.5 | ag 2|2 ⅓ab.
+
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. X.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. X.]
 
 ## PROBL. II. PROPOS. X.
 

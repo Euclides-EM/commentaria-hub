@@ -5,6 +5,10 @@
 
 R V R S V S ex vigeſimaprima. Duo latera D G & E G ſunt maiora duobus D F & E F. Quare quum D G poſita ſit æqualis D F : ſupererit F G maior E F. Sed vt hîc admonet Campanus, præſtat prior demonſtrandi ratio : vt ex vtraque parte quintæ Propoſitionis ducatur argumentatio. Iucunda tamen illa varietas ingenium acuit, & memoriam exercet.
 
+[Curated heading level=2 type=propositions: THEOREMA 16, PROPOSITIO XXV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 16, PROPOSITIO XXV.]
+
 ## THEOREMA 16, PROPOSITIO XXV.
 
 Si duo Triangula, duo latera duobus lateribus mutuò æqualia habuerint, baſis verò vnius baſi alterius fuerit maior : angulus quoque maiori baſi oppoſitus, maior erit angulo minori baſi oppoſito.
@@ -16,6 +20,10 @@ Sint duo Triangula A B C & D E F : ſintq́; duo latera A B & A C, duobus lateri
 Primùm itaq́; æquales non erunt : Eſſet enim baſis B C per quartam, baſi E F æqualis, contra hypotheſin. Neq́; erit angulus A minor angulo D : Eſſet enim, per antecedentem, baſis E F maior baſi B C, contra hypotheſin. Supereſt igitur vt A ſit maior D, Quod fuit probandum.
 
 Manifeſtum quoque fuit hoc Theorema ex quarta, immò ex ſe ipſo. Sed quia ex antecedentibus probationem recipit : cum cæteris in ordinem redactum eſt.
+
+[Curated heading level=2 type=propositions: THEOREMA 17, PROPOSITIO XXVI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 17, PROPOSITIO XXVI.]
 
 ## THEOREMA 17, PROPOSITIO XXVI.
 

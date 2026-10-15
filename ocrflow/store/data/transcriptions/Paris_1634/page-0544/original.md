@@ -32,6 +32,10 @@ c.11.9 | b 2|2 □.a,
 contr. 11.d.7.
 concl. 21.a.1 | e, n̄, msur: d.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XIV.]
+
 ## THEOR. XIV. PROPOS. XIV.
 
 Si minimum numerum primi numeri metiantur : nullus alius numerus primus illum metietur, præter eos, qui à principio metiebantur.

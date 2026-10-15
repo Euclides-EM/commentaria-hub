@@ -8,6 +8,10 @@ Soit le poinct Aesleué en haut, duquel B faut tirer vne perpendiculaire au pla
 
 Car au plan BC eſtant tiree par I, la ligne KIL parallele à DEE par la 51.p.t. puis que DF eſt perpendiculaire aus deux lienes FA, FH par la conſtruction: & partant auſsi perpend. au plan tiré par FA, FH par la a p.i pareillement KI ſera pernend. au meſme plan par la 8.p.il. Et d’autant que par la 2.p. AI eſten vn meſme plan que FA, FH, & touche la ligne KI en I. l’angle KIA ſera droict par la 2.d.11. & AI ſera perpendicnlaire aux deux KI, IF. Donc par la 2. p1.AI ſera perpendicul. au plan où ſont les lignes KI, IF, ſçauoir au plan ECc.
 
+[Curated heading level=2 type=propositions: PROB. 2. PROP. XII.]
+
+[Curated heading level=2 type=problems: PROB. 2. PROP. XII.]
+
 ## PROB. 2. PROP. XII.
 
 A vn plan donné, & d’vn poinct donné en iceluy, eſleuer vne ligne perpendiculaire.
@@ -15,6 +19,10 @@ A vn plan donné, & d’vn poinct donné en iceluy, eſleuer vne ligne perpend
 Soit le plan donné BC, & le poinct donné eniceluy ſoit A: Il faut d’iceluy poinct A esleuer vne ligne perpendiculaire au plan donné BC. Soit pris en l’ait comme on voudra le poinct D, & d’iceluy ſoit menee ſur le plan BC, la perpendiculaire DE, rencontrant le plan au poinct E nar la 11.p.11. Et du poinct A ſoit menee AF parallele à ED, par la 31.p.1. il eſt euident que par la 8.p.11. AF ſera auſsi perpendiculairement esleuee ſur le plan BG, ainſi qu’il eſtoit requis.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: THEOR. 11. PROP. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 11. PROP. XIII.]
 
 ## THEOR. 11. PROP. XIII.
 

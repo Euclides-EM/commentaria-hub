@@ -9,6 +9,10 @@ u. △ abc : △ def ⊐ bc : ef n. 11. V.
 
 Haben derowegen ähnliche Dreyecke zu einander zwiefach grössere Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XX. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 14. Beweiß-Stück. Der XX. Vortrag.]
+
 ## Der XX. Vortrag.
 
 ## Das 14. Beweiß-Stück.

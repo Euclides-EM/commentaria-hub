@@ -6,11 +6,15 @@ ceste definition, ils representët le poinct Mathematique par le poinct Physique
 
 • A
 
+[Curated heading level=2 type=definitions: II.]
+
 ### II.
 
 Linea verò, longitudo latitudinis expers. | La ligne est vne longueur sans largeur.
 
 Definitur quoque linea fluxus puncti, quia nullam habet crassitudinem. | La ligne se definit aussi estre le flus ou coulement d'vn poinct, parce qu'elle n'a aucune grosseur.
+
+[Curated heading level=2 type=definitions: III.]
 
 ### III.
 

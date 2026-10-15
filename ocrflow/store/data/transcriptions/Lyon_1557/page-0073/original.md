@@ -1,10 +1,20 @@
 [Ornament: floral headpiece]
 
+[Curated heading level=1 type=propositions: LIBER TERTIVS]
+
+[Curated heading level=1 type=theorems: LIBER TERTIVS]
+
+[Curated heading level=1 type=problems: LIBER TERTIVS]
+
+[Curated heading level=1 type=definitions: LIBER TERTIVS]
+
 # IACOBI PELETARII CENOMANI IN EVCLIDIS ELEMENTA GEOMETRICA DEMONSTRATIONVM LIBER TERTIVS.
 
 [Ornament]
 
 ## DEFINITIONES.
+
+[Curated heading level=2 type=definitions: Aequales Circuli]
 
 ### {dropcap:A|lines=4|style=decorated|decoration="foliate block with a face"}Equales Circuli, ſunt quorum Diametri ſunt æquales : vel quorum quæ ex Centro lineæ, ſunt æquales.
 
@@ -16,17 +26,23 @@ Hæc verò Definitio ex ſe clara eſt. Nam quum Diametri per Circulorum Centra 
 
 Vt, Æquales quidem ſunt A & B Circuli, ob æqualitatem Diametrorum : maiores autem C Circulo: quum minor ſit huius Dimetiens. Sed & æquè ſignificans eſt & manifeſta altera pars Definitionis, vel ex ea, quam in Principiis Libri Primi poſuimus, Circuli Definitione.
 
+[Curated heading level=2 type=definitions: DEFINITIO 2.]
+
 ### 2 Contingere Circulum recta linea dicitur, quæ Circulo incumbens in vtranq́; partem eiecta, Circulum non ſecat.
 
 [Diagram: two circles labelled A and B; a line B D C touches the first, a line C E F D cuts the second]
 
 Circulum A, linea B C contingit in D puncto. Sed Circulum B, linea C D ſecat in E & F punctis.
 
+[Curated heading level=2 type=definitions: DEFINITIO 3.]
+
 ### 3 Circuli ſeſe contingere dicuntur, quorum Peripheriæ ſeſe tangentes, inter ſe non ſecant.
 
 [Diagram: two circles A and B touching at C; two circles E and F cutting each other at G and H]
 
 Duo Circuli A & B ſeſe contingunt in C. Duo verò E & F, ſecant alter alterum in G & H punctis.
+
+[Curated heading level=2 type=definitions: DEFINITIO 4.]
 
 ### 4 Aequaliter diſtare à Centro, lineæ dicuntur, quum à Centro ad ipſas ductæ perpendiculares ſunt æquales. Remotior autem à Centro linea, in quam maior perpendicularis cadit.
 

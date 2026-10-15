@@ -6,6 +6,10 @@ Soient deux cercles ABC & ADE ſe touchans interieurement au poinct A; & F,ſoit
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 11. PROP. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. 11. PROP. XII.]
+
 ## THEOR. 11. PROP. XII.
 
 Si deux cercles ſe touchent l’vn l’autre au dehors, la ligne droicte menee d’vn centre à l’autre, paſſera par l’attouchement.

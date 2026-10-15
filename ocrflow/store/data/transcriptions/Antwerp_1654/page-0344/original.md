@@ -10,6 +10,8 @@ b Per 1.l.2.
 c Per 43. l.1.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XV.]
+
 ## PROPOSITIO XV.
 
 [Curated heading level=2 type=figures: Fig. 11 & 12]

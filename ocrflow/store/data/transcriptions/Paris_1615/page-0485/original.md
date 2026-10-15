@@ -8,6 +8,10 @@ SCHOLIE.
 
 La rationele D ſoit 9, EG 6. fasſant que commeAAC 6, eſt à A897 ainſi le quarré de GF ſoit au quarrè de EE, iceluy ſera ;a & par dſeyuent la ligue tF √50 & le reſte EG√14—S, qui eſt reſidu ee. quieſme.
 
+[Curated heading level=2 type=propositions: PROB. 24. PROP. XCI.]
+
+[Curated heading level=2 type=problems: PROB. 24. PROP. XCI.]
+
 ## PROB. 24. PROP. XCI.
 
 Trouuer vn reſidu ſixieſme.

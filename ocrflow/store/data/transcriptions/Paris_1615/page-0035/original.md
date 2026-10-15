@@ -6,6 +6,10 @@ interuale AD, ſoit deſcrit le cercle DEF: Item du centre B, & interuale nC, le
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: PROB. 2. PROP. II.]
+
+[Curated heading level=2 type=problems: PROB. 2. PROP. II.]
+
 ## PROB. 2. PROP. II.
 
 D vn poinct donné, mener vneligne droite egalle à vne ligne droite donnee.

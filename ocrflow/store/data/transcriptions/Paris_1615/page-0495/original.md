@@ -6,6 +6,10 @@
 
 Le reſidu AB ſoit , 60—√12, & BC √12: donc la toute AC est V60: mais la rationele DE ſoit 8, ſur laquelle eſtant appliqué le quarré de AB, qui eſt 72—√2880, l’autre coſté DG ſera 9√af auſſi DI ſera 7,, ILI,, DL 9&GL V45, & GM√II): Ainſi le rect. DK ſera 72, DH60, IKII, GN √710, GK √2880, & DF 71√2880.
 
+[Curated heading level=2 type=propositions: THEOR. 75. PROP. XCIX.]
+
+[Curated heading level=2 type=theorems: THEOR. 75. PROP. XCIX.]
+
 ## THEOR. 75. PROP. XCIX.
 
 Le quarré d’vn reſidu medial premier, appliqué ſur vne ligne rationele, faict l’autre coſté reſidu ſecond.

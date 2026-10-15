@@ -18,6 +18,8 @@ CAMPANVS Ad habendum residuum secundum, sit a linea rationalis posita, eique com
 
 [Diagram: line a; line with points c, d, b (c at left, d toward the right, b at the right end); a shorter line e; dotted number line with labels f and g]
 
+[Curated heading level=2 type=problems: Problema 20 Propositio 86]
+
 ## Eucli.ex Zãb. Problema 19{printer-error-correction:20} Propositio 86
 
 [Curated heading level=3 type=zamberti_sequence: 86.]
@@ -45,6 +47,8 @@ REsiduum tertium perscrutari.
 CAMPANVS Residuum tertium sic habetur. Posita ut prius a rationali numeróque e quadrato diuiso in f non quadratum & g quadratū, assumptoq̃ h numero primo, sit quadratum lineæ a ad quadratum lineæ b c, sicut h ad e, sitq̃ quadratum lineæ b c ad quadratū lineæ c d, sicut e ad f. eritq̃ ex diffinitione (de quo si hæsitas consule binomium tertium) linea d b, residuum tertium.
 
 [Diagram: dotted number line e divided into parts f and g; dotted number line h; line a; line with points b, d, c (b at the left end, d in the middle, c at the right end)]
+
+[Curated heading level=2 type=problems: Problema 21 Propositio 87]
 
 ## Eucli.ex Zamb. Problema 20{printer-error-correction:21} Propositio 87
 

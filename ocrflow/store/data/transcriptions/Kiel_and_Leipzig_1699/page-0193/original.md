@@ -19,6 +19,10 @@ oder cfd ⋀̸ hei.
 ### Beschluß.
 Müssen derowegen allezeit in gleichgrossen Kreyssen diejenigen Winckel/ welche auff gleichgrossen Bogen stehen/ auch gleichgroß seyn. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXIIX. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 25. Beweiß-Stück. Der XXIIX. Vortrag.]
+
 ## Der XXIIX. Vortrag.
 
 ## Das 25. Beweiß-Stück.

@@ -10,6 +10,10 @@ Nous demonſtrerons ſemblablement que ſi vn triangle equilateral, comme HIK, e
 
 De cecy reſulte, par la 1s p.s,que comme vn ſeul rectangle de ro & CD, eſt à vnſeul rectangle de LM & HK, ainſi la ſuperficie du dodecaedre à la ſuperficie de l’icoſaedre.
 
+[Curated heading level=2 type=propositions: THEOR. 5. PROP. V.]
+
+[Curated heading level=2 type=theorems: THEOR. 5. PROP. V.]
+
 ## THEOR. 5. PROP. V.
 
 Comme la ſuperficie du dodecaedre, eſt à la ſuperficie de l’icoſaedre; ainſi le coſté du cube au coſté de l’icoſaedre, inſcrits en vne meſme ſphere.

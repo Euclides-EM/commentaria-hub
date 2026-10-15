@@ -29,6 +29,10 @@ So ist auch A + C : a | B + D : b, n. 6. Beschr. V.
 
 Wenn derohalben die 1. Grösse der 2. gleichvielfältig/ auch die 3. der 4. gleichvielfältig ist. Darnach auch die 5 Grösse zu der 2. so vielfältig ist/als die 6. Grösse zu der 4. So müssen auch die 1. und 5 zusammen genommen/ zu der 2. eben so vielfältig seyn/als die 3. und 6. Grössen zusammen genommen zu der 4. Grösse sind/ W. Z. B.
 
+[Curated heading level=2 type=propositions: Der III. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 3. Beweiß-Stück. Der III. Vortrag.]
+
 ## Der III. Vortrag.
 
 ## Das 3. Beweiß-Stück.

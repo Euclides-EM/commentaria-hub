@@ -6,6 +6,8 @@ Dico quod eorum sunt diuersa centra. Si enim habuerint idẽ centrum: erit per d
 
 [Diagram: two circles touching internally at a; centre d with lines d a and d b c drawn; labels d, b, c]
 
+[Curated heading level=2 type=theorems: Theorema 5. Propositio 6.]
+
 ## Eucli. ex Zamb. Theorema 5. Propositio 6.
 
 [Curated heading level=3 type=zamberti_sequence: 6.]

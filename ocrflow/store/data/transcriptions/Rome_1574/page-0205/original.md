@@ -12,6 +12,8 @@ QVAMVIS autem omnis figura æquiangula parium laterum habeat latera oppoſita pa
 
 [Curated heading level=2 type=campanus: 35]
 
+[Curated heading level=2 type=theorems: THEOR. 25. PROPOS. 35.]
+
 ## THEOR. 25. PROPOS. 35.
 
 [Curated heading level=3 type=incipit: PARALLELOGRAMMA]

@@ -19,6 +19,8 @@
 
 [Curated heading level=2 type=campanus: 30]
 
+[Curated heading level=2 type=theorems: THEOR. 22. PROPOS. 32.]
+
 ## THEOR. 22. PROPOS. 32.
 
 [Curated heading level=3 type=incipit: SI]

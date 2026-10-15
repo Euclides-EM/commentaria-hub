@@ -9,6 +9,10 @@
 
 [Diagram: Fig. 2., circle with points A, B, C, D, E and G and angles m, n, o, p, q and r]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXI. THEOREME XIX.]
+
+[Curated heading level=2 type=theorems: THEOREME XIX. PROPOSITION XXI.]
+
 ## PROPOSITION XXI. *THEOREME XIX.*
 
 {dropcap:D|lines=2|style=plain}Ans le cercle, les angles (m & n), placés dans un même ſegment de cercle (BAED), ſont égaux entr’eux.

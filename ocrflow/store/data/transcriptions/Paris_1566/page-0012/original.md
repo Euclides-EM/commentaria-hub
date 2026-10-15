@@ -7,7 +7,7 @@ Te duce, deſcribit Gallica nobilitas.
 Aſpice, perpetuæ ſurgunt præconia famæ,  
 Ingenio partum eſt iam ſine morte decus.
 
-## Ad eundem.
+Ad eundem.
 
 Te domus imperio & ſceptris Candallea ſacra,  
 Nobilium primis inſerit ordinibus.  
@@ -16,16 +16,14 @@ Doctorum primis inſerit ordinibus.
 Quid mirum, princeps literis, atauiſque colende,  
 Si doctum & vere nobile promis opus?
 
-## Φραγκίσκῳ τῷ Φλύξιῳ Κανδαλλέῳ
+Φραγκίσκῳ τῷ Φλύξιῳ Κανδαλλέῳ
 
-[Subhead]
 Ἀντίστροφον.
-[/Subhead]
 
 Εὐγενέων φάος ὢν, Εὐκλείδιον κοσμέει ἔργα  
 Φλύξιος, εὐγλώττου ὡς φίλος οὐρανίης.
 
-## Τῷ αὐτῷ.
+Τῷ αὐτῷ.
 
 εὐκλείδῃ ζωὴν ἢ φῶς πολυκαλλὲς ὀπάξεις;  
 Εὐκλείδης δώσει σοι κλέος ἀθάνατον.

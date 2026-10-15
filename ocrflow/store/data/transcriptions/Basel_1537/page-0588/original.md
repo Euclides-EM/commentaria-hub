@@ -8,6 +8,8 @@ Bina siquidem parallelogramma a b, e g, adinuicẽ rationẽ habeant datã, aut 
 
 [Diagram: at right of the text, a parallelogram-figure with top labels l, d, m and a at left; side label c, interior label b; lower labels K, b; a tall rectangle at right; a slanted parallelogram below with labels g, f, and g, f at its foot]
 
+[Curated heading level=2 type=theorems: Theorema 75. Propositio 75.]
+
 ## Theorema 75. Propositio 75.
 
 SI bina triangula adinuicem rationem habuerint datam, aut in æqualibus angulis autẽ in inæqualibus, datis tam, erit sicut primi latus ad secundi latus, sic alterum secundi latus ad quod reliquum primi rationem habet datam.
@@ -16,6 +18,8 @@ Sint bina triangula a b c, d e f, adinuicem rationem datã habentia, sintque ang
 
 [Diagram: two rhombi side by side; the left with vertices d (top), f (left), e (right), b (bottom); the right with vertices a (top), e (left), b (right), g (bottom); each with a horizontal diagonal drawn]
 
+[Curated heading level=2 type=theorems: Theorema 76. Propositio 76.]
+
 ## Theorema 76. Propositio 76.
 
 SI à uertice triãguli specie dati in basim perpẽdicularis acta fuerit, acta ad basim rationẽ habet datã.
@@ -23,6 +27,8 @@ SI à uertice triãguli specie dati in basim perpẽdicularis acta fuerit, acta 
 Sit specie datũ triãgulum a b c, exciteturq̃ ab ipso a in b c, perpendicularis a d. Dico quod ratio ipsius a d ad b c, data est. Quoniam enim triangulum a b c datum est specie, datus igitur est & qui sub a b d, angulus est autem & qui sub b d a, datus: & reliquus igitur qui sub b a d, datus est: datur ergo triangulum a b d specie. Ratio igitur ipsius a b ad b c data est. & ipsius igitur a d ad c b ratio est data.
 
 [Diagram: a triangle with apex a, base corners c and b, with perpendicular a d drawn to the base point d]
+
+[Curated heading level=2 type=theorems: Theorema 77. Propositio 77.]
 
 ## Propositio 77. Propositio 77.{printer-error-correction:Theorema 77. Propositio 77.}
 

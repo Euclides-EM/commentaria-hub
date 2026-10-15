@@ -4,11 +4,13 @@ Ad aliquam rectam AB & eius ſignum B, binæ rectæ lineæ BG & BD vtrobique duc
 
 [Diagram]
 
-### MONITVM.
+#### MONITVM.
 
 Huius propoſitionis aliquas mutauimus particulas, ſcilicet ad eaſdem partes, vt percipiamus angulos qui duobus rectis æquari debent, fieri ex binis ductis ad eaſdem partes datæ AB, non autem ex duabus ad totam AB productam. Quare duas adinuicem cum data diximus, in eodem autem plano, ob ſolidorum à planis futuras differentias, &c.
 
-## Propoſitio decimaquinta.
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
+
+### Propoſitio decimaquinta.
 
 Si duæ rectæ lineæ ſeſe ſecuerint, angulos qui circa verticem ſunt oppoſiti, æquos adinuicem efficient.
 
@@ -16,15 +18,17 @@ Sint duæ rectæ AB DG ſeſe ſecantes in E, Dico angulos qui ad E ſunt ex opp
 
 [Diagram]
 
-### MONITVM.
+#### MONITVM.
 
 Huic addidimus particulam (oppoſiti) vt exprimamus qui ad verticem æquales reperirentur anguli, quod non expreſſit Theon.
 
-### Corollarium.
+#### Corollarium.
 
 Hinc ſequitur binas rectas ſeſe ſecãtes angulos quatuor rectis æquos ad verticem efficere. Cum ſit ad vtraſque partes recta ſuper rectam conſiſtens per 13 huius, & proinde quaſlibet rectas in plano ad ſignum idem concurrentes, quatuor rectis æquos efficere. Nam binæ earum productæ ad verticem, reliquarum quodlibet inclinationem concludent.
 
-## Propoſitio decimaſexta.
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
+
+### Propoſitio decimaſexta.
 
 Omnis trianguli vno latere producto exterior angulus vtroque interiore & oppoſito maior eſt.
 

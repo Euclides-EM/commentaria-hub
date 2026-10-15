@@ -27,6 +27,10 @@ c. Def. 15.
 
 ſed FD eſt aequalis rectae lineae A; eſt igitur FK aequalis ipſi A. rurſus quoniam punctum G centrum eſt circuli LKH, erit GH aequalis GKᶜ; ſed GH eſt aequalis ipſi C; igitur et GK ipſi C aequalis erit. eſt autem et FG aequalis B; tres igitur rectae lineae KF, FG, GK tribus A, B, C aequales ſunt. & ex tribus igitur rectis lineis KF, FG, GK, quae ſunt aequales tribus datis rectis lineis A, B, C, triangulum conſtitutum eſt KFG. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XXIII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXIII. PROB.]
+
 ## PROP. XXIII. PROB.
 
 [Subhead]

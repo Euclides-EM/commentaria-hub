@@ -2,6 +2,8 @@
 
 A & B in ſe. Extremi verò ipſorum quatuor, fiunt ex ductu radicum A & B in quadratos G & E, vt fiant cubi Z & K.
 
+[Curated heading level=2 type=propositions: Propoſitio tertia.]
+
 ## Propoſitio tertia.
 
 Si fuerint quotcunque numeri continuè proportionales, minimi eandem rationem habentium eis, eorum extremi primi adinuicem erunt.
@@ -10,9 +12,11 @@ Sint quotcunque numeri continuè proportionales minimi ſuæ rationis A B G D: D
 
 [Diagram: horizontal lines labelled E 2, C 4, K 8, F 3, H 6, L 12, I 9, M 18, N 27, with the letters A B G D]
 
-## Propoſitio quarta.
+[Curated heading level=2 type=propositions: Propoſitio quarta.]
 
-## Problema 2.
+[Curated heading level=2 type=problems: Propoſitio quarta. Problema 2.]
+
+## Propoſitio quarta. Problema 2.
 
 Rationibus quibuſcumque datis in minimis numeris, numeros inuenire continuè proportionales minimos in totidem, & datis rationibus.
 

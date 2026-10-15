@@ -2,6 +2,10 @@
 
 <!-- Page number: 96 -->
 
+[Curated heading level=2 type=propositions: Der IV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 4. Beweiß-Stück. Der IV. Vortrag.]
+
 ## Der IV. Vortrag.
 
 ## Das 4. Beweiß-Stück.

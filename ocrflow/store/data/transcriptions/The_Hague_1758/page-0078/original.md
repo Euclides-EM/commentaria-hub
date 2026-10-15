@@ -6,6 +6,10 @@
 
 [Figure: Fig. 1. right triangle ABC with squares constructed on its three sides, labelled points A, B, C, D, E, F, G, H, K, M, N, with dotted lines BF and CN]
 
+[Curated heading level=2 type=propositions: PROPOSITION XLVII. THEOREME XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXIII. PROPOSITION XLVII.]
+
 ## PROPOSITION XLVII. THEOREME XXXIII.
 
 {dropcap:D|lines=2|style=plain}Ans tout triangle rectangle (ABC): le quarré de l'hypothenuſe (AC) eſt égal aux quarrés des deux autres côtés (AB, BC), qui renferment l'angle droit (ABC).

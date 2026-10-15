@@ -4,6 +4,8 @@
 
 conceptionem mensurabit a, igitur a & b communicantes: mensurabat enim & b, quod est propositum.
 
+[Curated heading level=2 type=theorems: Theorema 4 Propositio 6]
+
 ## Eucli. ex Zamb Theorema 4 Propositio 6
 
 [Curated heading level=3 type=zamberti_sequence: 6.]

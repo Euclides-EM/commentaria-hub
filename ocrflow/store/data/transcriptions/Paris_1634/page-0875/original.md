@@ -1,6 +1,14 @@
+[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM LIBER DECIMVSQVINTVS.]
+
+[Curated heading level=1 type=problems: EVCLIDIS ELEMENTORVM LIBER DECIMVSQVINTVS.]
+
 # EVCLIDIS ELEMENTORVM LIBER DECIMVSQVINTVS.
 
 # LE QVINZIESME LIVRE DES ELEMENTS D'EVCLIDE.
+
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. I.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. I.]
 
 ## PROBL. I. PROPOS. I.
 

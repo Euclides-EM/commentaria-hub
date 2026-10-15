@@ -11,6 +11,10 @@ Demonstr.
 hyp. | a π b 2|2 c π d,
 concl. 11.5 | l π m 2|2 n π p.
 
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XX.]
+
 ## THEOR. XX. PROPOS. XX.
 
 Si sint tres magnitudines, & aliæ ipsis æquales numero, quæ binæ, & in eadem ratione sumantur ; ex æquo autem prima, quam tertia maior fuerit, erit, & quarta, quam sexta, maior. Quod si prima tertiæ fuerit æqualis, erit & quarta æqualis sextæ : sin illa minor, hæc quoque minor erit.

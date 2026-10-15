@@ -13,6 +13,10 @@ Eſt enim, per primam huius, vt C G baſis ad M N baſin, ſic C H Parallelogram
 
 Sed nos priorem demonſtrationem aſtruximus, ad illuſtrandam vbique Figuram noſtram Gnomonicam.
 
+[Curated heading level=2 type=propositions: THEOREMA 18, PROPOSITIO XXIIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 18, PROPOSITIO XXIIII.]
+
 ## THEOREMA 28{printer-error-correction:18}, PROPOSITIO XXIIII.
 
 ### Campano 23, Theoni 26.

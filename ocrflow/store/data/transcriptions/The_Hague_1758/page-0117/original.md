@@ -6,6 +6,10 @@
 
 [Figure: Fig. 6. two circles touching internally at C; the smaller circle CED lies within the larger circle CBA, with dotted radii from the center F to C and through E to B]
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THEOREME V.]
+
+[Curated heading level=2 type=theorems: THEOREME V. PROPOSITION VI.]
+
 ## PROPOSITION VI. THEOREME V.
 
 {dropcap:S|lines=2|style=plain}I deux cercles (BCA, ECD) ſe touchent intérieurement en (C): ils n'ont pas un même centre (F).

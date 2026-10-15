@@ -1,6 +1,10 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 49 -->
 
+[Curated heading level=2 type=propositions: PROP. XLVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XLVII. THEOR.]
+
 ## PROP. XLVII. THEOR.
 
 {dropcap:I|lines=2|style=plain}N rectangulis triangulis, quod a latere rectum angulum ſubtendente deſcribitur, quadratum aequale eſt quadratis quae a lateribus rectum angulum continentibus deſcribuntur.

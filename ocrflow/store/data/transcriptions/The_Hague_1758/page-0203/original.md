@@ -3,6 +3,10 @@
 
 [Diagram: two bracketed rows of cells labelled aM, cM (marked I, V) and aN, cN (marked III, VI), with single cells M (II) and N (IV) below]
 
+[Curated heading level=2 type=propositions: PROPOSITION II. THEOREME II.]
+
+[Curated heading level=2 type=theorems: THEOREME II. PROPOSITION II.]
+
 ## PROPOSITION II. THEOREME II.
 
 {dropcap:S|lines=2|style=plain}I la premiere grandeur (a M) eſt multiple de la ſeconde (M), autant que la troiſieme (a N) l'eſt de la quatrieme (N); & que la cinquieme (c M) ſoit encore multiple de la ſeconde (M), autant que la ſixieme (c N) l'eſt de la quatrieme (N): la grandeur (a M + c M) compoſée de la premiere & cinquieme, eſt multiple de la ſeconde (M), autant que la grandeur (a N + c N) compoſée de la troiſieme & ſixieme l'eſt de la quatrieme (N).

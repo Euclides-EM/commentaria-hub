@@ -1,6 +1,10 @@
 <!-- Running title: LIBER II. -->
 <!-- Page number: 61 -->
 
+[Curated heading level=2 type=propositions: THEOREMA 11, PROPOSITIO XII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 11, PROPOSITIO XII.]
+
 ## THEOREMA 11, PROPOSITIO XII.
 
 In Amblygoniis Triangulis, quod à latere obtuſum angulum ſubtendente fit Quadratum, tanto maius eſt duorum reliquorum Quadratis quantum eſt id quod continetur bis ſub vno horum, & eo quod ipſi adiungitur in quod perpendicularis cadit, augmento.
@@ -10,6 +14,10 @@ Sit Triangulum A B C, cuius angulus A obtuſus. Et protracto latere B A intermin
 [Diagram: triangle with base B C, apex A, and line extended from B through A to point D, with D connected to C]
 
 Eſt enim, per quartam huius, Quadratum B D æquale Quadratis duorum B A & A D & ei quod bis ſub ipſis B A & A D continetur, Rectangulo. Et quia Quadratum B C, per quadrageſimamſeptimam Primi, eſt æquale duobus B D & C D : erit idem B C Quadratum æquale tribus Quadratis B A, A D, & D C & ei quod bis ſub B A & A D continetur Rectangulo. At, per eandem, Quadratum A C, æquale eſt Quadratis A D & D C. Eſt igitur Quadratum B C æquale Quadratis B A & A C & ei quod bis ſub B A & A D comprehenditur, Rectangulo, Quod fuit demonſtrandum.
+
+[Curated heading level=2 type=propositions: THEOREMA 12, PROPOSITIO XIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 12, PROPOSITIO XIII.]
 
 ## THEOREMA 12, PROPOSITIO XIII.
 

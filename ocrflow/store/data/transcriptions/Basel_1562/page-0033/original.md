@@ -19,6 +19,8 @@ Zeüch ainen zirckel der die fürgeben linj an zwaien orten durchſchneid / neml
 
 Hie ſind zwo linien a b vnd a c / auch zwo perpendicular linj / aine auff den puncten d / die aine auff den puncten e gezogen nach vorbemeltem bericht / wie der fleiſſig Leſer ſechen mag.
 
+[Curated heading level=2 type=propositions: XII. Die zwelffte propoſition]
+
 ## XII Die zwelffte propoſition. Lehrt /
 
 [Subhead]

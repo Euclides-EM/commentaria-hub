@@ -15,6 +15,10 @@ Intelligantur vt priùs, BC prima, D ſecunda, A tertia, & rurſus D quarta. Ear
 
 Altera autem modò probata eſt: ſcilicet ex eadem Definitione, conuerſo ordine Magnitudinum & Multiplicium.
 
+[Curated heading level=2 type=propositions: THEOREMA 9, PROPOSITIO IX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 9, PROPOSITIO IX.]
+
 ## THEOREMA 9, PROPOSITIO IX.
 
 Quæ ad eandem habent eandem rationem, Magnitudines, inter ſe ſunt æquales: Et ad quas eadem habet eandem rationem, eæ quoque ſunt æquales.

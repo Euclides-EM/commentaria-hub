@@ -4,6 +4,10 @@ L'addition des semblables plans se fait par la cinquiesme de l'appendix.
 
 La soustraction des semblables plans se fait par la sixiesme de l'appendix.
 
+[Curated heading level=2 type=propositions: PROBL. IX. PROPOS. IX.]
+
+[Curated heading level=2 type=problems: PROBL. IX. PROPOS. IX.]
+
 ## PROBL. IX. PROPOS. IX.
 
 Data base trianguli rectanguli, & media proportionali inter hypothenusam & perpendiculum, inuenire triangulum.

@@ -23,6 +23,10 @@ symp. | ae ⊥ bc.
 
 Demonstr. est ⟨n schol. 15.. 4.
 
+[Curated heading level=2 type=propositions: PROBL. VII. PROPOS. XII.]
+
+[Curated heading level=2 type=problems: PROBL. VII. PROPOS. XII.]
+
 ## PROBL. VII. PROPOS. XII.
 
 Super datam rectam lineam infinitam, à dato puncto, quod in ea non est, perpendicularem rectam deducere.

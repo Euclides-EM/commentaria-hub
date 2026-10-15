@@ -8,6 +8,8 @@ tionalis, ſexta, ſeptima, octaua, &c.
 
 [Curated heading level=2 type=campanus: 10]
 
+[Curated heading level=2 type=problems: PROBL. 4. PROPOS. 12.]
+
 ## PROBL. 4. PROPOS. 12.
 
 [Curated heading level=3 type=incipit: TRIBVS]

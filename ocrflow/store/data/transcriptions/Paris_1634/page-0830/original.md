@@ -31,6 +31,10 @@ Demonstr.
 2concl. 2. a. 1 | <abc 2|2 <bcd, β
 3. concl. αβ.1.a.1 | <a, <bcd / <cde, <aed / <abc ſnt 2|2 ꝗe.
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. VIII.]
+
 ## THEOR. VIII. PROPOS. VIII.
 
 Si pentagoni æquilateri, & æquianguli duos angulos, qui deinceps sint, subtendant rectæ lineæ: hæ extrema ac media ratione se mutuo secant, & majora ipsarum segmenta æqualia sunt pentagoni lateri.

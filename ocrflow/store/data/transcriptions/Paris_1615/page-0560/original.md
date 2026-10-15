@@ -4,6 +4,10 @@
 
 S’entrecouppent en deux egalement en vn ſeul poinct, ſçauoir eſt, au poind V, ouquel ils diuiſont en deux egalement la ligne sT Eſt auſſi manifeſte que tout plan qui couppe le parallelipipede en deux egaliment paſſi par le contre Aiceluy, ſſauoir par i.
 
+[Curated heading level=2 type=propositions: THEOR. 35. PROP. XL]
+
+[Curated heading level=2 type=theorems: THEOR. 35. PROP. XL]
+
 ## THEOR. 35. PROP. XL
 
 Deux priſmes de meſme hauteur ſont egaux, ſi la baſe de l’vn triangulaire, n’eſt que la moitié de la baſe de l’autré, eſtant vn parallelogramme

@@ -8,6 +8,8 @@ cubus ſit, ex conſtructione, cubus quoque erit D.
 
 [Curated heading level=2 type=campanus: 22]
 
+[Curated heading level=2 type=theorems: THEOR. 22. PROPOS. 24.]
+
 ## THEOR. 22. PROPOS. 24.
 
 [Curated heading level=3 type=incipit: SI]
@@ -50,6 +52,8 @@ LIQVET ex his, proportionem cuiusuis numeri quadrati ad quemlibet numerum non qu
 [/Margin]
 
 [Curated heading level=2 type=campanus: 23]
+
+[Curated heading level=2 type=theorems: THEOR. 23. PROPOS. 25.]
 
 ## THEOR. 23. PROPOS. 25.
 

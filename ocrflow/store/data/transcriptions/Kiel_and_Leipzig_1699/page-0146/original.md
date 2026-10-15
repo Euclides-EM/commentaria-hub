@@ -8,6 +8,12 @@ Also werden auch gleichgestalte Bogen (arcus similes genennet/ auff welchen glei
 
 [Diagram: Kreis mit einbeschriebenem Winckel und kleinerem Kreise darinnen]
 
+[Curated heading level=1 type=problems: Das III. Buch]
+
+[Curated heading level=2 type=propositions: Der I. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 1. Werck-Stück. Der I. Vortrag.]
+
 ## Der I. Vortrag.
 
 ## Das 1. Werck-Stück:

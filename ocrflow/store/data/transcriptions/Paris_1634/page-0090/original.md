@@ -46,6 +46,10 @@ hyp. | bd 2|2 bc,
 | contr. concl. β.
 21.a.1. | • d est ⟨n c.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. VIII.]
+
 ## THEOR. V. PROPOS. VIII.
 
 Si duo triangula duo latera habuerint duobus lateribus, vtrumque vtrique æqualia, habuerint verò & basim basi æqualem : Angulum quoque

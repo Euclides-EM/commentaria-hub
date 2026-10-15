@@ -17,6 +17,8 @@ d Per 2. huius.
 
 Hoc alterum eſt ex Archimedis inuentis nobilioribus, quod perinde ac præcedens, viâ multò, quam ipſe, breuiori ac clariori iam demonſtrauimus.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXVI.]
+
 ## PROPOSITIO XXVI.
 
 [Curated heading level=2 type=figures: Fig. 18]

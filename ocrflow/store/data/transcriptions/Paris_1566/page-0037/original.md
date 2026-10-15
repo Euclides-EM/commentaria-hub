@@ -1,6 +1,8 @@
 <!-- Running title: EVCL. ELEMENT. GEOMET. -->
 
-## Propoſitio octaua.
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
+
+### Propoſitio octaua.
 
 Si duo triangula, duo latera duobus lateribus alterum alteri æqualia habuerint, & baſim baſi æqualem: angulum quoque ſub æqualibus rectis cõtentum æqualem habebunt.
 
@@ -8,11 +10,15 @@ Sint duo triangula ABG & DEC duo latera duobus lateribus æqualia habentia, ſci
 
 [Diagram: triangle ABG and intersecting triangles DCE and DZE]
 
-### MONITVM.
+#### MONITVM.
 
 Huius alteram demonſtrationis partem reſecauimus eò quòd trianguli tranſpoſitione vteretur, quod quidem mechanicum ſpectat negotium à vera matheſi alienum, poſita anguli qui ad Z hipotheſi ex quarta huius ſumpta.
 
-## Propoſitio nona.
+[Curated heading level=2 type=propositions: Propoſitio nona.]
+
+[Curated heading level=2 type=problems: Propoſitio nona. Problema 4.]
+
+### Propoſitio nona.
 
 [Subhead]
 Problema 4.
@@ -24,7 +30,11 @@ Sit angulus datus BAG, ex rectis autè AB AG, æquales adinuicem ſeccentur (per
 
 [Diagram: angle BAG with points D and E on its sides, joined to form triangles ADE, DCE, and ACE]
 
-## Propoſitio decima.
+[Curated heading level=2 type=propositions: Propoſitio decima.]
+
+[Curated heading level=2 type=problems: Propoſitio decima. Problema 5.]
+
+### Propoſitio decima.
 
 [Subhead]
 Problema 5.
@@ -36,7 +46,11 @@ Eſto data recta DB, ſuper ipſa verò DB (per primam huius) triangulum æquila
 
 [Diagram: triangle DCB with point G on base DB and line CG]
 
-## Propoſitio vndecima.
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
+
+[Curated heading level=2 type=problems: Propoſitio vndecima. Problema 6.]
+
+### Propoſitio vndecima.
 
 [Subhead]
 Problema 6.

@@ -4,6 +4,10 @@ les & æquialteri, nempe æquis lateribus conſtructi, & quadrata concludentes, 
 
 [Diagram: cube with inscribed exoctahedron, vertices lettered C, L, Q, K, M, D, T, O, V, H, R, P, F, with diameter line A B below]
 
+[Curated heading level=2 type=propositions: Problema ſecundum.]
+
+[Curated heading level=2 type=problems: Problema ſecundum.]
+
 ## Problema ſecundum.
 
 Icoſidodecahedron æquilaterum & æquiangulum conſtruere, & data Sphæra comprehendere, oſtenderéque dimetientem extrema & media ratione ſectam, efficere maius ſegmentum duplum lateris Icoſidodecahedri.

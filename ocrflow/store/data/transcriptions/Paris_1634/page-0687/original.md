@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: PROBL. XIX. PROPOS. LXXXVI.]
+
+[Curated heading level=2 type=problems: PROBL. XIX. PROPOS. LXXXVI.]
+
 ## PROBL. XIX. PROPOS. LXXXVI.
 
 Inuenire primam apotomen.

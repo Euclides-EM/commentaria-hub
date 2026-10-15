@@ -18,6 +18,8 @@ NAM ſi detractio huiuſmodi ad vnitatem uſque perueniret, eſſent propoſiti 
 
 EX his facile dignoſcemus, an duo quicunque numeri propoſiti ſint inter ſe primi, nec ne. Nam detracto ſemper minore de maiore, alterna quadam detractione; ſi nũquã reliquus præcedentem metiatur, quoad aſſumpta ſit vnitas; ipſi erunt inter ſe primi, ut Euclides demonſtrauit: Si uero reliquus aliquis numerus præcedentem metiatur, ipſi erunt inter ſe compoſiti, cum ille idem reliquus numerus utrunque numerum propoſitum metiatur, ut perſpicuum eſt ex demonſtratione ſuperiori. Ex eo enim, quod reliquus numerus GB, metiri dicebatur præcedentem numerum FD, oſtenſum fuit, eundem reliquũ GB, vtrunque AB, & CD, metiri.
 
+[Curated heading level=2 type=problems: PROBL. 1. PROPOS. 2.]
+
 ## PROBL. 1. PROPOS. 2.
 
 [Curated heading level=3 type=incipit: DVOBVS]

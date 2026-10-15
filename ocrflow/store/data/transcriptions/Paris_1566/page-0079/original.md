@@ -4,6 +4,8 @@ Sint æquales circuli A B G & D E Z, & in eorum circunferentiis B G & E Z ſint 
 
 [Diagram: two equal circles A B G and D E Z, with central angles B I G and E T Z and angles B A G and E D Z at the circumferences]
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaſeptima.]
+
 ## Propoſitio vigeſimaſeptima.
 
 In æqualibus circulis ſuper æqualibus circunferentiis conſiſtentes anguli, ſunt æquales adinuicem, etſi ad centra, etſi ad circunferentias conſiſtant.
@@ -11,6 +13,8 @@ In æqualibus circulis ſuper æqualibus circunferentiis conſiſtentes anguli, 
 In æqualibus circulis A B G, D E Z, ſuper æqualibus circunferentiis G B & Z E, conſiſtant anguli G A B, Z D E ad circunferentias, ad centra verò G I B Z T E: Dico G A B & Z D E angulos æquales eſſe, ac G I B & Z T E ſimiliter æquos. Si enim non credantur, Sit alter Z T E minor ipſo G I B. Ad rectam autem B I ſignumque I, dato E T Z angulo æqualis conſtituatur B I K, per 23 primi. Erit igitur æqualis B K circunferentia ipſi E Z, per præcedentem. Sed ipſi E Z æqualis eſt ſimiliter (per hyppotheſim) B G circunferentia, ipſa igitur B K minor, ipſi B G maiori æqualis erit, quo nihil abſurdius. Non igitur eſt aliquis angulorum Z T E & G I B altero minor, æquales igitur ſunt. Et proinde G A B & Z D E ad circunferentias æqualium dimidij, per 20 huius, æquales erunt adinuicem, per 7 commun. ſententiam. In æqualibus igitur circulis ſuper æqualibus circunferentiis conſiſtentes anguli, &c.
 
 [Diagram: two equal circles A G B and D Z E, with central angles G I B and Z T E and an additional radius I K in the first circle]
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaoctaua.]
 
 ## Propoſitio vigeſimaoctaua.
 

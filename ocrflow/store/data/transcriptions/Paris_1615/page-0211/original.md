@@ -12,6 +12,10 @@ Ie dis tiercement, que le polygone eſt au polygone, en raifon doublee des coſt
 
 Par cecy eſt manifeſte qu’eſtans trois lignes droictes proportionneles, comme la premiere ſera la tierce, ainſi ſera le polygone deſcrit ſur la premiere au polygone ſemblable & ſemblablement deſcrit ſur la ſeconde; puis qu’il a eſté demonſtré que les polygones ſont entr'eux en raiſon doublee de leurs coſtez de meſme raiſon, c’eſt à dire comme le coſté du premier a vne troiſieſme proportionnele auſdits coſtez de meſme raiſon.
 
+[Curated heading level=2 type=propositions: THEOR. 15. PROP. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 15. PROP. XXI.]
+
 ## THEOR. 15. PROP. XXI.
 
 Les figures rectilignes ſemblables à vne, ſont auſſi ſemblables entr’elles.

@@ -13,6 +13,10 @@ magnitudo, hoc est g/ipsius a, totuplices sunt & omnes g/h/k, omniū a/c/e, per 
 Sūmaria theorematis ostēsio.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 13, Propositio 13.]
+
+[Curated heading level=2 type=theorems: Theorema 13, Propositio 13.]
+
 ## Θεώρημα ιγ, Πρόθεσις ιγ.
 
 Εαν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, καὶ τρίτον πρὸς τέταρτον, τρίτον δὲ πρὸς τέταρτον μείζονα λόγον ἔχῃ, ἤπερ πέμπτον πρὸς ἕκτον: καὶ πρῶτον πρὸς δεύτερον μείζονα λόγον ἕξει, ἤπερ πέμπτον πρὸς ἕκτον.

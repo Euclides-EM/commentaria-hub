@@ -10,6 +10,8 @@
 
 Patet etiam quod omnis pentagonus cuius unūquodq̃ latus duo secat ex reliquis habet quinq̃ angulos duobus rectis æquales. Sit qualis proponitur pentagonus a b c d e, & secet latus a c, latus b e in puncto g, & latus a d idem latus b e in puncto f, erit angulus a f g æqualis duobus angulis b & d, cum sit extrinsecus ad ipsos in tranigulo f d b. Itemq̃ angulus f g a erit æqualis duobus angulis c & e, cum sit extrinsecus ad ipsos in triangulo g c e, sed duo anguli a f g & f g a cum angulo a, sunt æquales duobus rectis: ergo quatuor anguli b d & c e, sunt cum angulo a æquales duobus rectis, quod est propositum.
 
+[Curated heading level=2 type=theorems: Theorema 22. Propositio 32.]
+
 ## Eucli. ex Zamb. Theorema 22. Propositio 32.
 
 [Curated heading level=3 type=zamberti_sequence: 32.]

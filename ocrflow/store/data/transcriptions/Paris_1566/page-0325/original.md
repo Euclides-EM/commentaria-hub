@@ -4,9 +4,11 @@
 
 [Figure: parallelepiped with vertices labelled B, T, A, I, G, Z, D and E, with diagonals drawn across its faces]
 
-## MONITVM.
+### MONITVM.
 
 *Hanc demonſtraturus Campanus idem præfert demonſtrationi, quod ſolent incertarum profeſſionum interpretes diſtrahentis propoſiti ſententiis ſeipſas non tollerantibus, ab illarum etenim natura hoc theorema depromptum eſſe arbitramur. Nam cùm id quod fieri non poteſt ab exemplari ſibi propoſitum viderit, ſcilicet ſolidum ſub parallelis planis comprehenſum, producere parallela eius oppoſita plana, neceſſariò parallelogramma, percipit huiuſmodi falſam intelligentiam ad veriorem eſſe reducendam, quapropter ab hac orditur voce, quicquid dicant alij, quæ patulè teſtatur eum non eius fuiſſe ſententiæ, quæ ab Euclide ad nos (non incorrupta) delata eſt, attamen ſolidum parallelogrammum impropriè denominans verum parallelepipedum eſſe hac demonſtratione concludere conatur. Theon verò (vt ſæpius) particulari vtitur demonſtrandi formæ, vt tantùm parallelogramma oſtendiſſe arbitretur, ſi ex parallelis oppoſitis planis, contentum fuerit ſolidum, vnde illud abſurdum ſequetur exagonas, octogonas, & quaſlibet parium numero laterum poligonas ſpecies, parallelogramma dici poſſe. Et idcirco ſolidum iſtud (quod tandem parallelepipedum dici reperietur) plana oppoſita, exagona, octogona, & alia plura minimè parallelogramma recipere, quæ ſequentibus theorematis immenſa producerent dißidia. Quare veritatem geometricam tantùm aſpectantes, arbitramur hoc nuſquam vſum fuiſſe Euclidem, vt per ea quæ ſubſequentur, perſpicuè noſcemus. Quæ prænoſcentes primi diffinitionibus parallelogrammi diffinitionem non antea diffinitam coniunximus, à qua parallelepipedi in ſolidis orta eſt forma, cuius rurſus diffinitionem (iuxta veriorem Euclidis ſententiam) huius vndecimi diffinitionibus copulauimus. Quod quidem hoc theoremate componendum ſub hypotheſi parallelorum quadrangulorum, ſolidum aliquod claudentium propoſuimus, vt inde neceſſariò oriantur oppoſita eius latera parallelogramma æqualia, cui inſuper contulimus ſimilia eſſe ipſa parallelogramma, vt amplior euadat geometriæ facultas, futuris demonſtrandis. Si verò Theonis & Campani hypotheſim recepiſſemus Octahedrum Icoſahedrum, & Dodecahedrum (quàm [unclear: abſurdè]) facilè huius concluſioni ac quamplura alia adaptare licuiſſet, quod vitandmm{printer-error-correction:vitandum} monemus.*
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquinta.]
 
 ## Propoſitio vigeſimaquinta.
 

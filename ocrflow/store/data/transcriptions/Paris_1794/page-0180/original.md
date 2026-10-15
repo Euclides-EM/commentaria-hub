@@ -1,6 +1,10 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 152 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XVI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVI.]
+
 ## PROPOSITION XVI.
 
 ### THÉORÊME.

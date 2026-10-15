@@ -4,6 +4,10 @@
 
 me partie de la demy circonference ACE: Et partant l’ate AC ſera quadruple de CE, & par la 33.p.6. l’angle CD A ſeu quadruple de CDE au centre, & double de DEC à la cireonference par la 20.p.3. lequel par ce moyen ſera double à CDE: mais par la 4.p.1. la baſe CE eſt egale à la baſe CG: & par la .p.1 les deux angles ſur la baſe BG ſeront egaux: & FGC ſera double de GDC: & iceluy FGC eſtant par la 32.p.1. tal à tous les deux oppoſez interieurement, les deux angles ſur la baſe DC ſeront egaux entr’eux: & par la 6.p.1.GC & GD ſetont egales; & EC à chacune d’icelles. Parquoy les deux OF & FE eſtans egales, la ſeule FD, ſera egale aux deux FE, EC enſemble: & partant les trois enſemble DF, FE, EC, c’eſt à dire les deux enſemble DE, EC, ſeront egales au double de la ſeule DF: & par conſequent icelle DF perpendiculairement tiree du centre ſur le coſté du pẽtagone, ſera moitié des deux enſemble DE, EC, coſtez de l’hexagone, & du decagone. Ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 2. PROP. II.]
+
+[Curated heading level=2 type=theorems: THEOR. 2. PROP. II.]
+
 ## THEOR. 2. PROP. II.
 
 S’il y a deux lignes droictes couppees en la moyenne & extreme raiſon; elles ſeront ſem, blablement couppees.

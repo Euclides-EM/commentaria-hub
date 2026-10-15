@@ -17,6 +17,10 @@ quare non inaequalis eſt BC ipſi EF; aequalis igitur; eſt autem et AB aequali
 
 [Diagram: triangle ABC with point H on BC and line AH, beside triangle DEF]
 
+[Curated heading level=2 type=propositions: PROP. XXVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXVII. THEOR.]
+
 ## PROP. XXVII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I in duas rectas lineas recta linea incidens alternos angulos inter ſe aequales fecerit, parallelae erunt rectae lineae.

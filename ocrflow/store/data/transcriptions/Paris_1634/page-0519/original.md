@@ -27,6 +27,10 @@ Demonstr.
 19.7 | d π e 2|2 f π g,
 concl. 21.d.7 | a & b snt nr; plan; sml;
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXI.]
+
 ## THEOR. XIX. PROPOS. XXI.
 
 Si inter duos numeros duo medij proportionales cadant numeri, similes solidi sunt illi numeri.

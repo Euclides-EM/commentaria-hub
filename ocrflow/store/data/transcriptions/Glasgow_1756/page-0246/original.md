@@ -29,6 +29,10 @@ Si igitur duae rectae lineae &c. Q. E. D.
 
 [Diagram: figure labelled A, B, C, D, E and F]
 
+[Curated heading level=2 type=propositions: PROP. XI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XI. PROB.]
+
 ## PROP. XI. PROB.
 
 {dropcap:A|lines=2|style=plain} Dato puncto in ſublimi, ad ſubjectum planum, perpendicularem rectam lineam ducere.

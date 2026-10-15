@@ -10,6 +10,8 @@
 
 CORRELARIVM. Ex hoc,inquā,manifestū est,q̃ si quatuor rectæ lineæ proportiōales fueriut{printer-error-correction:fuerint},erit sicut prima ad quartā,sic quod ex prima solidū parallelepipedū ad id quod ex secūda simile similiterq̃ descriptū,quādoquidem prima ad quartā triplicem rationē habet,quàm ad secundam.
 
+[Curated heading level=2 type=theorems: Theorema 29 Propositio 34]
+
 ## Eucl.ex Zamb. Theorema 29 Propositio 34
 
 [Curated heading level=3 type=zamberti_sequence: 34.]

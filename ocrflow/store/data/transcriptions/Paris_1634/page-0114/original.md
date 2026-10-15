@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXVIII.]
+
 ## THEOR. XIX. PROPOS. XXVIII.
 
 Si in duas rectas lineas recta incidens linea externum angulum interno, & opposito, & ad easdem partes, æqualem fecerit; aut internos, & ad easdem partes duobus rectis æquales : parallelæ erunt inter se ipsæ rectæ lineæ.

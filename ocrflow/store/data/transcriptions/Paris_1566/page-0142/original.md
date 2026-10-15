@@ -9,9 +9,13 @@ Colligemus, ſi ad rectam applicetur parallelogrammum deficiens ſpecie quadrata
 
 [Diagram: rectangle labelled A, D, B and G, divided vertically at D G]
 
-## MONITVM.
+### MONITVM.
 
 Diximus parallelogrammum applicandum non maius optari, eò quòd ad dimidiam ſic applicatur, vt id cui expedit ſimile deficere, vt Campani & Theonis dicta clarius reſonemus, atque ad dimidiam applicatum E Z, ſimiliter applicandum fuiſſe, vt id D cui expedit ſimile deficere ſcilicet S R, ſimiliter ipſi D poſitum intelligentes, ne poſsit defectus S R tranſponi, manente F maiore applicato E Z, ipſum verò F eodem E Z non maius, nam ſi tantùm ſimile non autem ſimiliter poſitum proponeremus. Quandoque ob ſituum differentiam, non ſupereſſet locus inter A & dimetientem T B ad applicandum ipſi F æquum, ſpecie deficiens ſimili ipſi D dato, quod minime intelligentes quidam dixerunt hanc in errorem poſſe inducere, etiam bene exercitatos, licet nihil admirandæ difficultatis extet geometriæ rudimenta intelligentibus. Inſuper, liberiora ſunt problemata theorematis, neceſſariam hypotheſim ſequentibus.
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimanona.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimanona. Problema 9.]
 
 ## Propoſitio vigeſimanona.
 

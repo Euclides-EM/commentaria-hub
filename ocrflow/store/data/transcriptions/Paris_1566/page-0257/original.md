@@ -2,6 +2,8 @@
 
 *diſtare à quadratis A D D B, quanto rectangula quæ bis ſub A G G B diſtant, à rectangulis bis ſub A D D B, eò quòd ablatum à quadratis confertur rectangulis, ſic diuidatur, per 4 ſecundi, quadratum totius A B. Quadrata ideo ex A G & G B diſtant à quadratis ex A D & D B certo, cùm ſint ex hypotheſi certa. Rectangula igitur ſub A G G B à rectangulis ſub A D D B (bis ſumpta) diſtabunt certo. Sed rectangula illa ſunt (ex hypotheſi) media. Medium igitur excedet medium certo, contra 26 huius, quod eſſet abſurdum. Non igitur in alia nomina ſecari poteſt A B maior, quàm per ſignum G in A G G B. Maior itaque ad vnum ſignum duntaxat, &c.*
 
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaſexta.]
+
 ## Propoſitio quadrageſimaſexta.
 
 Certum mediúmque potens, ad vnum duntaxat ſignum diſcinditur in nomina.
@@ -9,6 +11,8 @@ Certum mediúmque potens, ad vnum duntaxat ſignum diſcinditur in nomina.
 *Eſto recta A B certum mediúmque potẽs, quæ ſecetur in G per ſua nomina, quæ ſint (per 40 huius) binæ rectæ A G G B potentia incommenſurabiles, efficientes compoſitum ex earum quadratis medium, quod verò ſub ipſis certum: Dico A B in alia quàm A G G B ſua nomina, ſecari non poſſe. Si verò aliæ eius naturæ lineæ produci poſſe putentur, ſint A D D B, ſecta A B in D. Sumpto etenim proximæ argumento. Cùm quadrata ex A G G B eodem excedant quadrata A D D B, quo rectangula bis ſub A D D B excedunt rectangula bis ſub A G G B. Sed rectangula ſeſe excedunt certo, cùm ſint ex hypotheſi Certa. Quadrata itaque ſeſe excedẽt certo, quæ quidem (ex eadem hypotheſi) ſunt Media, quod obſtat 26 huius, & proinde abſurdum. Non igitur per aliud ſignum quàm G poteſt recta A B ſecari in ſua nomina, nec ideo alia quàm A G G B ſuſcipere nomina. Certum itaque mediúmque potens ad vnum duntaxat ſignum, &c.*
 
 [Diagram: a horizontal line with A at the left, D and G marked between, and B at the right]
+
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaſeptima.]
 
 ## Propoſitio quadrageſimaſeptima.
 
@@ -21,6 +25,8 @@ Bina media potens, ad vnum duntaxat ſignum diuiditur in nomina.
 [Diagram: a rectangle divided by vertical lines, with letters marked along the top and I and K at the bottom]
 
 [Diagram: a horizontal line with A at the left, D and G marked between, and B at the right]
+
+[Curated heading level=2 type=definitions: Rectarum quæ ex binis nominibus diffinitiones,]
 
 ## Rectarum quæ ex binis nominibus diffinitiones,
 

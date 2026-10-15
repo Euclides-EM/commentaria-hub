@@ -4,6 +4,8 @@
 
 sic b ad quam a rationem habet datam. Nam quoniã est sicut a ad b, sic c ad e. Quod igitur sub a e, ei est æquum quod sub b c, per 16 sexti ele. Et quoniã ratio ipsius e ad d, data est. Ratio igitur ipsius quod sub a d ad id quod sub a e data est. Quod autem sub a e, ei est æquum quod sub b c. Ratio igitur eius quod sub a d ad id quod sub b c data est, igitur sicut d ad c sic b ad quam a rationem habet datam.
 
+[Curated heading level=2 type=theorems: Theorema 84. Propositio 84.]
+
 ## Theorema 84. Propositio 84.
 
 SI binæ rectæ lineę datam areolam comprehẽderint in dato angulo, & altera altera data maior fuerit, & ipsarum utraque data erit.
@@ -12,6 +14,8 @@ Binæ, inquam, rectæ lineæ a b, b c areolam comprehendant a c in angulo sub a 
 
 [Diagram: a rectangle with corner label c at upper right and base labels a, d, b]
 
+[Curated heading level=2 type=theorems: Theorema 85. Propositio 85.]
+
 ## Theorema 85. Propositio 85.
 
 SI binæ rectæ lineæ datam areolam comprehenderint in dato angulo, fuerit aũt & utraque simul data, & ipsarũ utraque data erit.
@@ -19,6 +23,8 @@ SI binæ rectæ lineæ datam areolam comprehenderint in dato angulo, fuerit aũt
 Binæ, inquam, rectæ lineæ a b, b c, datã areolam comprehendant a c in dato angulo a b c data. Dico quod & utraq̃ ipsarũ a b, b c, data erit. Extendatur c b in d ponaturq̃ per 2 primi ele. ipsi a b æqualis b d, & per 31 primi ele. per d ipsi b a parallelus excitetur d e. Compleaturq̃ a d, & quoniam æqualis est d b ipsi b a. Et angulus a b c datus est, q̃m & qui ex utraque parte datus est, datur igitur e b. specie. Et q̃m a b c, simul data est, æqualis autẽ est & a b ipsi d b. Data igitur est d c. Quoniã igitur a c data est, ad datam d c comparatur deficiẽs specie dato e b, igitur per 58 datorum dantur latitudines defectus. Datæ igitur sunt ipsæ a b, b d. Sed & utraq̃ simul a b c, data est. Data igitur est utraq̃ ipsarũ a b, b c.
 
 [Diagram: a rectangle with top labels e, a; left label c; base labels b, d; divided by a vertical line]
+
+[Curated heading level=2 type=theorems: Theorema 86. Propositio 86.]
 
 ## Theorema 86. Propositio 86.
 

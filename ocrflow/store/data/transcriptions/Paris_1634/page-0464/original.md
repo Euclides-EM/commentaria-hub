@@ -19,6 +19,10 @@ suppos. | ab multipl. cd, α
 β.3.d.7 | ab multipl. cd, eb multipl. fd,
 2.concl. 20.d 7 | ab π cd 2|2 eb π fd.
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. XII.]
+
 ## THEOR. X. PROPOS. XII.
 
 Si sint quotcunque numeri proportionales, erit quemadmodum vnus antecedentium ad vnum consequentium, ita omnes antecedentes ad omnes consequentes.

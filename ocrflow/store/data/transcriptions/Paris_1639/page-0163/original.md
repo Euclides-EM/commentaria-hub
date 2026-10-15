@@ -34,6 +34,10 @@ ab *eſt* == dc.
 α.27.3 | ∠acd 2|2 ∠cab,
 concl. 27.1 | ab *eſt* == dc.
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXVIII.]
+
 ## THEOR. XXV. PROPOS. XXVIII.
 
 Aux cercles égaux, les lignes droictes égales ostent circonferences égales, sçauoir la plus grande à la plus grande, & la plus petite à la plus petite.

@@ -2,13 +2,19 @@
 
 <!-- Page number: 317 -->
 
+[Curated heading level=2 type=definitions: Ex Zamberto. Apotomarum Diffinitiones.]
+
 ## Ex Zamberto. Apotomarum Diffinitiones.
 
 1 Siquidem tota expositæ rationali longitudine cōmensurabilis fuerit, appellatur apotome prima. 2 Si uero congruens commensurabilis fuerit, longitudine expositæ rationali, secunda appellatur apotome. 3 Si autem neutra commensurabilis fuerit expositæ rationali longitudine, tertia appellatur apotome. 4 Si quidem tota commensurabilis fuerit expositæ rationali longitudine, appellatur apotome quarta. 5 Si uero congruens, quinta. 6 Si autem neutra, sexta.
 
+[Curated heading level=3 type=definitions: Commune initium triū priorum diffinitionū.]
+
 ### Commune initium triū priorum diffinitionū.
 
 Supposita rationali & apotomæ, siquidem tota, congruente maius potuerit eo quod fit ex sibi lōgitudine cōmēsurabili
+
+[Curated heading level=3 type=definitions: Commune trium initium posteriorum diffinitionum.]
 
 ### Commune trium initium posteriorum diffinitionum.
 
@@ -27,6 +33,8 @@ REsiduum primum inuestigare.
 CAMPANVS Ab inuentione omniū specierum residui, facile nos absoluat inuentio per ordinem omnium specierum binomij. Nam in qualibet specie binomiorū si minor portio abscindatur de maiori, linea reliqua erit residuum similis speciei ut patet ex diffinitionibus tam binomiorum quàm residuorum. Proprijs tamen inuentionibus residuorum insistentes: sic inquiramus primum. Sit linea a rationalis posita, cui commensurabilis in longitudine sumatur b c, sitq̃ e numerus quadratus diuisus in f non quadratum & in quadradratum{printer-error-correction:quadratum} g. sitque proportio quadrati lineæ b c ad quatum{printer-error-correction:quadratum} lineæ c d, sicut e ad f, eritq̃ per ultimam partem septimæ, c d rationalis in potentia tantum. Cum itaque sit c b potentior c d in quadrato lineæ sibi communicantis id{printer-error-correction:in} longitudine quod patet in explanatione binomij primi, cōstat ex diffinitione lineam b d esse residuum primum.
 
 [Diagram: four horizontal lines: line a; line b c with intermediate point d near b; shorter line e; dotted number lines f and g]
+
+[Curated heading level=2 type=problems: Problema 19 Propositio 85]
 
 ## Eucli.ex Zamb. Problema 19 Propositio 85
 

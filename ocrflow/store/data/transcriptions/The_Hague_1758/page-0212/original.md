@@ -3,6 +3,10 @@
 
 [Diagram: rectangles labelled M, N and 1M within a ruled frame, with fainter subdivided rectangles around them]
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. THEOREME IX.]
+
+[Curated heading level=2 type=theorems: THEOREME IX. PROPOSITION IX.]
+
 ## PROPOSITION IX. THEOREME IX.
 
 {dropcap:L|lines=2|style=plain}Es grandeurs ( M & 1 M ) qui ſont en même raiſon à une même grandeur ( N ): ſont égales entr’elles. Et celles ( M & 1 M ) auxquelles une même grandeur ( N ) a même raiſon : ſont auſſi égales entr’elles.

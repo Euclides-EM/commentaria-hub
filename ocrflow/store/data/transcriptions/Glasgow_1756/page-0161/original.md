@@ -19,6 +19,10 @@ b. 5. Def. 5.
 
 Dico inſuper C ad utramque ipſarum A, B eandem habere rationem. iiſdem enim conſtructis ſimiliter oſtendemus D ipſi E aequalem eſſe. ſi igitur F ſuperat D, ipſum quoque E ſuperabit; et ſi aequalis, aequalis; et ſi minor, minor. atque eſt F quidem ipſius C utcunque multiplex; D, E vero aliae utcunque aeque multiplices ipſarum A, B. Ergoᵇ ut C ad A, ita erit C ad B. Aequales igitur &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. VIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VIII. THEOR.]
+
 ## PROP. VIII. THEOR.
 
 {dropcap:I|lines=2|style=plain}NAEQUALIUM magnitudinum major ad eandem, majorem habet rationem quam minor. et eadem ad minorem, majorem habet rationem quam ad majorem.

@@ -3,6 +3,10 @@
 
 [Diagram: two bracketed bars, aM divided into cells eM and cM, and aN divided into cells eN and cN with a dotted cell 1N adjoined; below, two shaded cells M and N]
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THEOREME VI.]
+
+[Curated heading level=2 type=theorems: THEOREME VI. PROPOSITION VI.]
+
 ## PROPOSITION VI. THEOREME VI.
 
 {dropcap:S|lines=2|style=plain}I deux grandeurs (aM, aN) ſont équimultiples de deux autres grandeurs (M & N), chacune de chacune, & les retranchées (cM & cN) équimultiples des mêmes grandeurs, les reſtes (eM & eN) ſeront reſpectivement ou égaux à ces grandeurs (M & N), ou ils en ſeront des équimultiples.

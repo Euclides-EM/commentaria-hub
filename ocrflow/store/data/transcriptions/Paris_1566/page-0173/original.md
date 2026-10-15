@@ -4,9 +4,11 @@ Metiatur vnitas A aliquem numerum B G, pariter autem alter numerus D metiatur al
 
 [Diagram: four horizontal lines labelled A, B, D and E; the second is divided by the points G, T and I, the fourth by the points Z, L and K]
 
-## MONITVM.
+### MONITVM.
 
 Idem hoc theoremate concludit Euclides in numeris paßiuis, quod 9 & 13 huius præmiſit in actiuis, ſeu arithmeticis numeris, vt oſtendat quoſuis numeros, ſiue actiuos diſcretos, ſiue paßiuos continuos, aut qui ſemper ad vnitatem reducuntur proportionales, proportionis vicißitudinem producere: quia verò idem eſſe exiſtimat Euclides, pariter metiri, vel eandem eſſe partem, æquè multiplicem eſſe, & eandem rationem habere, tria theoremata idem ex his tribus aſſumptis referentia propoſuit, ſcilicet 5 huius primam quinti, & 12 huius, quæ quidem binas illas decrementi vel augmenti æquas multiplicationes, rationum ſimilitudinem irrefragabili methodo generare cogunt.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
 
 ## Propoſitio decimaſexta.
 
@@ -16,6 +18,8 @@ Exponantur duo numeri A & B ſe inuicem multiplicantes, ſcilicet A multiplicans
 
 [Diagram: five horizontal lines labelled E, G, B, A and D, marked with the numbers 12, 3, 4 and 12]
 
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
+
 ## Propoſitio decimaſeptima.
 
 Si numerus duos numeros multiplicãs fecerit aliquos, geniti ex eis eandem rationem habebunt, quam multiplicati.
@@ -24,7 +28,7 @@ Multiplicet numerus A duos numeros B & G, & producat duos D & E: Dico D ad E ſi
 
 [Diagram: six horizontal lines labelled Z, A, B, G, D and E, marked with the numbers 3, 4, 5, 12 and 15]
 
-## Corollarium.
+### Corollarium.
 
 Si duo numeri duos eandem eis habentes rationem, conuerſim multiplicantes fecerint aliquos, geniti ex eis æquales adinuicem erunt.
 

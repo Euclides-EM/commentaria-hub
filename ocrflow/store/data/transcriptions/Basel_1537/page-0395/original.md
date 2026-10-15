@@ -22,6 +22,8 @@ CAMPANVS Simile proponit uigesima prima sexti de superficiebus. Sint itaq̃ quat
 
 [Diagram: a parallelepiped labelled K]
 
+[Curated heading level=2 type=theorems: Theorema 32 Propositio 37]
+
 ## Eucli. ex Zamb. Theorema 32 Propositio 37
 
 [Curated heading level=3 type=zamberti_sequence: 37.]

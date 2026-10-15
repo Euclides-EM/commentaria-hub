@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. II.]
+
 ## THEOR. II. PROPOS. II.
 
 Si duabus magnitudinibus inæqualibus propositis, detrahatur semper minor de majore, alterna quadam detractione, & reliqua minimè præcedentem metiatur : incommensurabiles erunt ipsæ magnitudines.
@@ -29,6 +33,10 @@ suppos. | e, msur: ab & cd, α
 α.3.a.10 | e, msur: gb,
 ♪ | contr. 9.a.b.
 concl. 21.a.1 | ab, cd snt incomm;
+
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. III.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. III.]
 
 ## PROBL. I. PROPOS. III.
 

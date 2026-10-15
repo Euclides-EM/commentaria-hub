@@ -1,6 +1,10 @@
 <!-- Running title: LIBER DUODECIMUS. -->
 <!-- Page number: 301 -->
 
+[Curated heading level=2 type=propositions: PROP. VI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VI. THEOR.]
+
 ## PROP. VI. THEOR.
 
 {dropcap:P|lines=2|style=plain}YRAMIDES quae eadem ſunt altitudine et polygonas baſes habent, inter ſe ſunt ut baſes.

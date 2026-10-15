@@ -43,6 +43,10 @@ quorum DBF oſtenſus eſt aequalis ipſi BAD; reliquus igitur DBE ei qui eſt i
 
 [Diagram: circle ABCD tangent to horizontal line EF at B, with lines AB, BD, BC and AD]
 
+[Curated heading level=2 type=propositions: PROP. XXXIII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXXIII. PROB.]
+
 ## PROP. XXXIII. PROB.
 
 {dropcap:S|lines=2|style=plain}UPER datam rectam lineam deſcribere ſegmentum circuli, quod capiat angulum dato angulo rectilineo aequalem.

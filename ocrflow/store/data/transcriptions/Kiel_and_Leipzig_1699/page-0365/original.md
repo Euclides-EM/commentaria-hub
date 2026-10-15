@@ -2,6 +2,10 @@
 
 <!-- Running title: Das VI. Buch -->
 
+[Curated heading level=2 type=propositions: Der XVII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 12. Beweiß-Stück. Der XVII. Vortrag.]
+
 ## Der XVII. Vortrag.
 
 ## Das 12. Beweiß-Stück.

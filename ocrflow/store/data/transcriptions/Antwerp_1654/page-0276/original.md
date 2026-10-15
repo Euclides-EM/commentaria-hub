@@ -3,6 +3,8 @@
 
 EGS, AOS latera ad baſes EG & AO obliqua. Fiant ſuper EG. AO parallelepipeda, quorum latera ſint ad baſes recta in altitudine S, hæc æqualia erunt obliquis per 29. aut 30. Quare cum parallelepipeda recta per primam partem ſint paria inter ſe, erunt & obliqua æqualia. Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXXII.]
+
 ## PROPOSITIO XXXII.
 
 [Curated heading level=2 type=figures: Fig. 34]

@@ -5,6 +5,10 @@
 23.6 | raō..▭.bce π ▭.bde 2|2 raō..bc π bd + raō..ce π ed,
 concl. 11.5 | ▭.bce π ▭.bde 2|2 □.ac π □.ad.
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXX.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXX.]
+
 ## THEOR. XIX. PROPOS. XXX.
 
 Pappus lib. 6. propos. 12.

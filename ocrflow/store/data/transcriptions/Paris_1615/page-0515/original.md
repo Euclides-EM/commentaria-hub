@@ -14,6 +14,10 @@ Car ſi ſur l’extremité de la mediale on meine la perpendiculaire AC qui ſ
 
 Si lameaidle an et √√, & la rationele ac a; le naangle A ſerau√ js la ligne & BE qui peut ietluy ſeravo ſu: ainſi lerecſandle Deſerat e puc laligue Er qi peut ieayſoa tvvmuie ainſi a l’infiny.
 
+[Curated heading level=2 type=propositions: THEOR. 93. PROP. CXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. 93. PROP. CXVII.]
+
 ## THEOR. 93. PROP. CXVII.
 
 Au quarré, la diagonale eſt incommenſurable en longitude au coſté.

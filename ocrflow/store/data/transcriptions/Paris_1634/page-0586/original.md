@@ -43,6 +43,10 @@ a5, | qc,
 a6, | cc,
 a7, | qqc.
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. X.]
+
 ## THEOR. VIII. PROPOS. X.
 
 Si quatuor magnitudines proportionales fuerint, prima vero secundæ fuerit commensurabilis ; & tertia quartæ commensurabilis erit. Et si prima secundæ fuerit incommensurabilis, & tertia quartæ incommensurabilis erit.

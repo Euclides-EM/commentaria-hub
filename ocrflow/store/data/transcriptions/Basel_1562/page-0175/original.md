@@ -1,6 +1,8 @@
 <!-- Running title: Des ſechßten bůchs Euclidis -->
 <!-- Page number: 154 -->
 
+[Curated heading level=2 type=definitions: Beſchreibung 4.]
+
 ### 4.
 
 Die höhe ainer jeden figur wirt angezaigt durch ain perpendicular lini / ſo von jrem ſpitz oder höchſten tail auff jrem grund oder boden gezogen iſt.
@@ -13,6 +15,8 @@ In winckelrechten figurn zaigt ſych die höhe ſelbſt / in andern / gibt ſy d
 [Diagram]
 [Diagram]
 [Diagram]
+
+[Curated heading level=2 type=definitions: Beſchreibung 5.]
 
 ### 5.
 

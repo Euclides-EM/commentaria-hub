@@ -4,6 +4,10 @@
 
 [Figure: triangle ACB within a ruled frame, with base AB below, apex C above, point D inside the triangle joined to A and B, and a dotted line from D to E on side CB]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXI. THEOREME XIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XIV. PROPOSITION XXI.]
+
 ## PROPOSITION XXI. THEOREME XIV.
 
 {dropcap:S|lines=2|style=plain}I des extrêmités (A & B) d'un côté (AB) de quelque triangle (ACB), on tire à un point quelconque (D), pris au dedans de ce triangle, deux lignes droites (DA, DB): ces deux droites ſeront plus petites que les deux côtés (CA, CB) de ce triangle; mais elles comprendront un plus grand angle (ADB).

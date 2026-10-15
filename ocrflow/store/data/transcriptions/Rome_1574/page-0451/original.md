@@ -10,6 +10,8 @@
 
 [Curated heading level=2 type=campanus: 33]
 
+[Curated heading level=2 type=theorems: THEOR. 33. PROPOS. 33.]
+
 ## THEOR. 33. PROPOS. 33.
 
 [Curated heading level=3 type=incipit: SI]
@@ -33,6 +35,8 @@ SIT maior proportio totius A B, ad totam C D, quã ablatæ A E, ad ablatam C F. 
 [/Margin]
 
 [Curated heading level=2 type=campanus: 34]
+
+[Curated heading level=2 type=theorems: THEOR. 34. PROPOS. 34.]
 
 ## THEOR. 34. PROPOS. 34.
 

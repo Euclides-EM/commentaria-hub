@@ -7,6 +7,10 @@ mais la proportion des côtés est différente : de même, sans changer les quat
 
 *Scholie II.* Les deux propositions précédentes, qui n’en font proprement qu’une, jointes à celle du quarré de l’hypoténuse, sont les propositions les plus importantes et les plus fécondes de la géométrie ; elles suffisent presque seules à toutes les applications et à la résolution de tous les problèmes : la raison en est que toutes les figures peuvent se partager en triangles, et un triangle quelconque en deux triangles rectangles. Ainsi les propriétés générales des triangles renferment implicitement celles de toutes les figures.
 
+[Curated heading level=2 type=propositions: PROPOSITION XX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XX.]
+
 ## PROPOSITION XX.
 
 ### THÉORÊME.

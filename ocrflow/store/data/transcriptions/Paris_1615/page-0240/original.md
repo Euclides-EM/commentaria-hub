@@ -8,6 +8,10 @@ premier du ſecond.
 
 Soient quatre nombres AB, C, DE, & F deſquels le premier AB contient autant de parties du ſecond C, que le 3.DE eſt du 4.F. Ie dis que AB, & DE enſemble, contiennent autant de parties de C & F enſemble, que AB de. Car pour autant que AB contient telles parties de C, que DE en contient de F; eſtans AB & DE diuiſez aux parties de C & F, il y aura autant departies de C en AB, comme de F en DE, & par la 5.p.7. AG, & DH enséble, ſeront telle partie de C & F enſemble, comme AG eſt de C. Item GB & HE enſemble, ſeront telle partie de C & F enſemble, comme GB ſeul eſt de C ſeul; ainſi Ar. & DE ſeront enſemble deux fois telle partie de C, & F enſemble, comme AB eſtoit de C: ce qu’il falloit demonſtrer.
 
+[Curated heading level=2 type=propositions: THEO. 5. PROP. VII.]
+
+[Curated heading level=2 type=theorems: THEO. 5. PROP. VII.]
+
 ## THEO. 5. PROP. VII.
 
 Si vn nombre eſt telle partie d’vn autrenombre, que le retranché du retranché; le reſte ſera auſſi telle partie du reſte, comme le tout eſt du tout.

@@ -9,6 +9,10 @@
 
 2 concl. 21.a.1 | fe ⊥ ab.
 
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XIX.]
+
 ## THEOR. XVII. PROPOS. XIX.
 
 Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene vne ligne droicte à angles droicts à la touchante, en icelle menée sera le centre du cercle.
@@ -37,6 +41,10 @@ hyp. | ∠ecb *eſt* ┘,
 *contr. 9. a. 1.*
 
 concl. 21.a.1 | *centre du* ⊙ *eſt en* ec.
+
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XX.]
 
 ## THEOR. XVIII. PROPOS. XX.
 

@@ -2,6 +2,10 @@
 
 *rum incertarum ſubiiceret, & eodem ordine apothomes diffiniret. Quare potius vt methodi conſeruaret ſeriem hoc ordine binomia diſpoſuiſſe Euclidem cenſendum erit, quàm vt tantùm præſtantius indigniori præficeret: is nanque geometriam, non autem politicam edocet.*
 
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaoctaua.]
+
+[Curated heading level=2 type=problems: Propoſitio quadrageſimaoctaua. Problema 13.]
+
 ## Propoſitio quadrageſimaoctaua. Problema 13.
 
 Inuenire Ex binis nominibus primam.
@@ -9,6 +13,10 @@ Inuenire Ex binis nominibus primam.
 [Diagram: horizontal lines with labels D, I, E, T, A, G, B and numerals 12, 16, 4]
 
 *Sumatur (ex corollario primi lemmatis 28 huius) numerus quadratus A B, excedens quadratum G B non quadrato A G. Sit item propoſita Certa D, cui longitudine commenſurabilis eſto E Z, fiat autem (per corollarium ſextæ huius) ſicut A B ad A G numeri, ſic quod ex E Z ad quod ex Z I. Cùm autem A B ſit quadratus, A G verò non, quod ex E Z ad quadratum ex Z I rationem ipſorum A B ad A G habentes, non habent rationem quam quadrati numeri, per corollarium vigeſimæquintæ octaui. Incõmenſurabiles itaque longitudine erunt, ipſæ E Z Z I, per nonam huius, potentia verò commenſurabiles, per ſextam huius, Certa autem eſt E Z, ipſi nanque propoſitæ D ex hypotheſi commenſurabilis. Certa igitur erit & Z I, binæ igitur E Z Z I Certæ ſint potentia tantùm inter ſe commenſurabiles. Tota itaque E I Ex binis eſt nominibus, per 36 huius. Rurſus quia maior eſt E Z ipſa Z I per 14 quinti, cùm earum potentiæ habeant rationem totius A B ad ablatum A G, inueniatur per 15 huius, quo plus poteſt maior minore, ſitq́ quod ex T. Cùm autem quod ex E Z excedat quadratum Z I quadrato ipſius T. Eſt autem A B ad A G vt quod ex E Z ad quadratum Z I: erit conuerſione rationis ſicut A B ad B G exceſſum, ſic quod ex E Z ad quod ex T exceſſum quo antecedens ex E Z excedit ſuum conſequens ex Z I, per corollarium decimænonæ quinti, ſed A B ad B G (ex hypotheſi) rationem habet quadratorum numerorum. Igitur E Z ad T exceſſum rationem habebit quadratorum numerorum, & ideo ipſæ E Z ad T erũt longitudine commenſurabiles, per nonam huius. Atqui quadratum E Z excedit quod ex Z I minore, eò quòd ex T. Maius igitur nomen E Z, plus poteſt minore Z I, eò quòd ex T ſibi longitudine commenſurab:li: éstque maius nomen E Z propoſitæ D longitudine commenſurabile. Inuenimus igitur Ex binis nominibus primam, per primam diffinitionem binomiorum.*
+
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimanona.]
+
+[Curated heading level=2 type=problems: Propoſitio quadrageſimanona. Problema 14.]
 
 ## Propoſitio quadrageſimanona. Problema 14.
 

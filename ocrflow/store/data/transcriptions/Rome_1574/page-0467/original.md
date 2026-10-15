@@ -17,6 +17,8 @@ IN omnibus autem his non uariabitur demonſtratio, etiam ſi triangula, & parall
 
 [Curated heading level=2 type=campanus: 2]
 
+[Curated heading level=2 type=theorems: THEOR. 2. PROPOS. 2.]
+
 ## THEOR. 2. PROPOS. 2.
 
 [Margin]

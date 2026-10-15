@@ -44,6 +44,10 @@ suppos. | hl 3|2 ad,
 1.a. c | <a + <b + <c 3|2, 4 ⊥,
 contr. hypoth.
 
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXIV.]
+
 ## THEOR. XXI. PROPOS. XXIV.
 
 Si solidum parallelis planis contineatur; aduersa

@@ -5,6 +5,10 @@ GH & HK: Et anguli quos cum ipſis FK, FL, & FM faciunt, æquales inter ſe. Iam
 
 Atque hæc Demonſtratio quanuis amplior videatur, tamen ipſo intuitu ſeſe explicat.
 
+[Curated heading level=2 type=propositions: PROBLEMA 13, PROPOSITIO XIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 13, PROPOSITIO XIII.]
+
 ## PROBLEMA 13, PROPOSITIO XIII.
 
 In dato Pentagono æquilatero & æquiangulo Circulum inſcribere.

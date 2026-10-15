@@ -7,6 +7,8 @@ NAM primi ordinis numeri omnes ſemper unum intermittunt poſt tertium ab unitat
 
 [Curated heading level=2 type=campanus: 9]
 
+[Curated heading level=2 type=theorems: THEOR. 9. PROPOS. 9.]
+
 ## THEOR. 9. PROPOS. 9.
 
 [Margin]

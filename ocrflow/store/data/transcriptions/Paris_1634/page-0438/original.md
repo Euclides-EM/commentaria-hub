@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. XII.]
+
 ## DEFINIT. XII.
 
 Primi inter se numeri sunt, quos sola vnitas, communis mensura metitur : vt 8, & 15, sunt numeri primi inter se.
@@ -10,6 +12,8 @@ pr.ꝫe, id est primi inter se.
 
 *pr.ꝫe, signifie premiers entr'eux.*
 
+[Curated heading level=2 type=definitions: DEFINIT. XIII.]
+
 ## DEFINIT. XIII.
 
 Compositus numerus est, quem numerus quispiam metitur : vt 4, 6, 8, sunt numeri compositi.
@@ -19,6 +23,8 @@ Compositus numerus est, quem numerus quispiam metitur : vt 4, 6, 8, sunt numeri 
 compos. id est compositus.
 
 *compos. signifie composé.*
+
+[Curated heading level=2 type=definitions: DEFINIT. XIV.]
 
 ## DEFINIT. XIV.
 

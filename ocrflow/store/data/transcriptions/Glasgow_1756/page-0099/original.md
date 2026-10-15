@@ -19,6 +19,10 @@ eſt autem circulus AKC extra circulum ABC; quare recta AC eſt extra ABC circul
 
 [Diagram: two circles intersecting at A and C, the upper labelled K and the lower labelled B, with line AC]
 
+[Curated heading level=2 type=propositions: PROP. XIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIV. THEOR.]
+
 ## PROP. XIV. THEOR.
 
 {dropcap:I|lines=2|style=plain}N circulo aequales rectae lineae aequaliter a centro diſtant; et quae aequaliter a centro diſtant ſunt inter ſe aequales.

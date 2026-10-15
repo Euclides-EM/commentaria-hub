@@ -1,5 +1,9 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. IX.]
+
 ## THEOR. IX. PROPOS. IX.
 
 Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales: les quarrez des segments inégaux de la toute, sont doubles du quarré de la moitié, & du quarré de la section du milieu.

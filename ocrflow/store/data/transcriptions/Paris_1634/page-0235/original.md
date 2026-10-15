@@ -39,6 +39,10 @@ constr. | <bic 2|2 <dfh,
 3.concl. β.1.c.32.1 | <n 2|2 <d,
 4.cōcl. 4.d.4 | △lmn est circscri. π. ⊙abc.
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. IV.]
+
 ## PROBL. IV. PROPOS. IV.
 
 In dato triangulo, circulum inscribere

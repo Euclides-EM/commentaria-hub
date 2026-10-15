@@ -4,6 +4,8 @@
 
 ut numeret g, h ergo per secūdam partem 20 numerabit a. Si itaq̃ h non est æqualis a, non erit a primus. Quod est contra hypothesin. Si autē æqualis, erit unusquisq̃ numerorū g,f,e, aliquis ex a,b,c,d, per præmissam quoties oportet assumptā. Non est igitur e diuersus ab eis, quod est etiā contra hypothesin. Itaq̃ constat uerum esse quod proponitur,
 
+[Curated heading level=2 type=theorems: Theorema 13 Propositio 13]
+
 ## Eucli. ex Zamb. Theorema 13 Propositio 13
 
 [Curated heading level=3 type=zamberti_sequence: 13.]

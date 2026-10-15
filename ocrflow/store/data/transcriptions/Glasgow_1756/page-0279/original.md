@@ -3,6 +3,10 @@
 
 quidem in eadem ſunt baſi, et eadem altitudine. Ergo et ſolidum AE ſolido CF aequale erit. Solida igitur parallelepipeda &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXXII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXII. THEOR.]
+
 ## PROP. XXXII. THEOR.
 
 {dropcap:S|lines=2|style=plain}OLIDA parallelepipeda quae eandem habent altitudinem, inter ſe ſunt ut baſes.

@@ -12,6 +12,10 @@ Hinc facilè colligitur,huiuſcemodi perpendicularem,in rectāgulis triangulis,n
 Notandum.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Problema 2, Propoſitio 14.]
+
+[Curated heading level=2 type=problems: Problema 2, Propoſitio 14.]
+
 ## Πρόβλημα β, Πρόθεσις ιδ.
 
 Τῷ δοθέντι εὐθυγράμμῳ ἴσον τετράγωνον συστήσασθαι.

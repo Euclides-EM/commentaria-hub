@@ -11,13 +11,17 @@ Quotuplex itaque eſt totus BKL angulus, ipſius BKG anguli, totuplex erit totus
 
 Quæ æqualibus additæ triangulis, efficient ſectores, ICB BCG GCK KCL ex ipſis compoſitos æquales, per 2 commun. ſentent. Similiter & adinuicem æquales erunt reliqui ETZ ZTM MTN ſectores. Quotuplex igitur erit arcus LGI ipſius IB arcus, totuplex ſector ICL ſectoris ICB erit. Similiter quotuplex EZN arcus ipſius EZ arcus, totuplex erit ETN ſector ipſius ETZ ſectoris. Quatuor itaque magnitudinum IB EZ arcuum, & ICB ETZ ſectorum ſumuntur æquemultiplicia primæ & tertiæ, ſcilicet LGI arcus & ICL ſector. Secundæ item & quartæ æquemultiplicia, EZN arcus & ETN ſector. Si igitur multiplex primæ excedat multiplex ſecundæ, multiplex tertiæ excedet multiplex quartæ, ſi deficiat, deficiet, ſi æquetur, æquabitur. Earum itaque ſimplices magnitudines IB arcus ad EZ arcum erunt vt ICB ſector ad ETZ ſectorem, per quintam diffinitionem quinti. In æqualibus itaque circulis, &c.
 
-## MONITVM.
+### MONITVM.
 
 Hoc theorema planè demonſtrat quod diximus nos exhibituros duodecima diffinitione primi, & octaua diffinitione tertij, magnitudinem ſcilicet anguli (quæ ſola eſt linearum inclinationis varietas) vnicum habere menſorem, arcum illi ſubtenſum, æqualibus quidem rectis contentum. Videmus namque angulorum & eos ſubtendentium arcuum, eaſdem eſſe rationes, quæ quantitatum ſunt maximæ affinitates.
 
 Cæterùm, primi libri quadrageſimam ſeptimam & quadrageſimam octauam exponentes, à quibus originem duxit 31 huius, multa earum obſequia data opera reliquimus, eò quòd illuc vſque nihil de rationibus ſeu proportionibus diſcuſſum erat, ne id quod eadem facilitas compendio poteſt edocere, faſtuoſa potius quam vtili theorematum numeroſitate tradamus, eorum, quæ ab eadem 47 primi nata ſunt, pauca exponentes.
 
-## Propoſitio trigeſimaquarta. Problema II.
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquarta.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſimaquarta. Problema 11.]
+
+## Propoſitio trigeſimaquarta. Problema 11.
 
 Dato rectilineo bina æqualia rectilinea ſimilia ſimiliterque deſcripta, datam rationem habentia, exhibere.
 

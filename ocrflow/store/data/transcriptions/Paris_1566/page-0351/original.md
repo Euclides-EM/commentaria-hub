@@ -4,6 +4,8 @@ Eſto Cylindrus A B G D, cuius axis ſit K X, baſes verò oppoſitæ ſint circ
 
 [Figure: cylinder divided by parallel circular sections, labelled P, N, A, B, I, T, G, D, C, F, Q with section letters K, Z, X, M, O]
 
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
+
 ## Propoſitio decimaquarta.
 
 In æqualibus baſibus exiſtentes Coni & Cylindri, adinuicem ſeſe habẽt ſicut faſtigia.
@@ -11,6 +13,8 @@ In æqualibus baſibus exiſtentes Coni & Cylindri, adinuicem ſeſe habẽt ſi
 Sint ſuper æquis baſibus A B E Z cylindri A G E C aut coni A I B E K Z: Dico eſſe A G ac E C cylindros, aut A I B ad E K Z conos, ſicut T I ad L K faſtigia. Producatur cylindrus E C in N, extenſa in rectum K L recta, centro autem N circulus ipſi E L Z parallelus & æqualis fiat N M, rectæ verò I T æqualis ſit L N, & perficiatur cylindrus E M: cylindri itaque A G & E M æquales erunt, per vndecimam huius, ſunt enim ſub æqua altitudine I T ipſi L N, & æquis baſibus, ex hypotheſi, quoniam autem totus C E M cylindrus ſecatur plano E L Z parallelo exiſtente ipſis K C & M N oppoſitis. Erit ſicut N L ad L K axes, ſic cylindrus M E ad E C cylindrum, per præfatam. Sed ſicut N L ad L K, ſic I T ad eandem L K, per ſeptimam quinti, & ſicut M E ad E C cylindri, ſic A G ad eundem E C, ex eadem. Sicut igitur (per vndecimam quinti) I T ad L K faſtigia, ſic erunt A G ad E C cylindri. Quia verò A B I, & E K Z coni eorum cylindrorum ſunt tertiæ partes, per decimam huius, ipſi (per 15 quinti) in earum cylindrorum ratione erunt, & proinde ſicut I T ad K L faſtigia. In æqualibus igitur baſibus exiſtentes coni, &c.
 
 [Figure: a cone inscribed in a cylinder labelled I, G, A, T, B beside a taller cylinder with cone labelled K, C, E, L, Z, N, M]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
 
 ## Propoſitio decimaquinta.
 

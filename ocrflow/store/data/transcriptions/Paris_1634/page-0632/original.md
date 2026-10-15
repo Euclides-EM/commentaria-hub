@@ -14,6 +14,10 @@
 l.38.10 | ▭.af, est irration.
 concl. γ.11d.10 | gк, est irration.
 
+[Curated heading level=2 type=propositions: THEOR. XXXI. PROPOS. XLIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXI. PROPOS. XLIII.]
+
 ## THEOR. XXXI. PROPOS. XLIII.
 
 Quæ ex binis nominibus, ad vnum duntaxat punctum diuiditur in nomina.

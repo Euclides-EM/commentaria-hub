@@ -23,6 +23,8 @@ SECVNDO ſint latera A B, A C, æqualia, & recta A D, ſecans baſin B C, in D, 
 
 [Curated heading level=2 type=campanus: 20]
 
+[Curated heading level=2 type=theorems: THEOR. 13. PROPOS. 20.]
+
 ## THEOR. 13. PROPOS. 20.
 
 [Margin]

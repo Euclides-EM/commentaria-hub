@@ -14,6 +14,8 @@ angulo dato G æqualem, æquale eſſe parallelogrammo ABCD. Ducta enim recta CE
 
 [Curated heading level=2 type=campanus: 43]
 
+[Curated heading level=2 type=theorems: THEOR. 32. PROPOS. 43.]
+
 ## THEOR. 32. PROPOS. 43.
 
 [Curated heading level=3 type=incipit: IN]

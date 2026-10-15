@@ -5,9 +5,13 @@
 
 <!-- Running title: DEFINITIONS. -->
 
+[Curated heading level=2 type=definitions: DEFINITION IX.]
+
 ### IX.
 
 {dropcap:U|lines=2|style=plain}N *Parallélogramme excédant* (AF) eſt celui dont la baſe (AB) eſt plus grande que la ligne propoſée (CD), à laquelle il eſt dit être appliqué.
+
+[Curated heading level=2 type=definitions: DEFINITION X.]
 
 ### X.
 

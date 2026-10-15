@@ -3,6 +3,8 @@
 
 Quoniam dimetiens ſphæræ ſeſquialter eſt potentia lateris pyramidis, per decimamtertiam decimitertij, octahedri vero lateris dupla eſt eadem dimetiens potentia, per 14 eiuſdem. Qualia igitur dimetiens poteſt ſex, eorum pyramidis latus poterit 4, octahedri verò latus eorundẽ 3 poterit. Pyramidis igitur ad octahedri latus rationem quam potẽtia 4 ad 3 ſeruabit, quæquidem ſeſquitertia nominatur. Eandem item habebunt rationem ex ipſis lateribus ſimilia triangula (ſolidorũ baſes) quã habuerunt ex ipſis quadrata. Nam ſingulæ duplæ ſunt rationis laterum, per vigeſimã ſexti, & proinde qualium baſis pyramidis fuit 4, eorum quatuor eius baſes erunt 16. ſimiliter qualiũ baſis octahedri fuit eorundem 3, octo eius baſes erũt 24. Octahedri igitur baſes ad pyramidis baſes rationem habent quam 24 ad 16, quæquidem eſt ſeſquialtera. Si itaque pyramis trilatera, æquilatera, & octahedrum eidem ſphæræ inſcribantur, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
+
 ## Propoſitio vndecima.
 
 Pyramis trilatera ęquilatera ad Octahedrum eidem Sphęrę inſcriptum ſe habet, ſicut rectangulum ſub linea potente vigintiſeptem ſexageſimas quartas lateris Pyramidis, & ſub linea octopartiente nonas eiuſdem lateris comprehenſum ad quadratum diametri Sphęrę.

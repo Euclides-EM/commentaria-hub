@@ -8,6 +8,10 @@ l.91.10 | ▭lo 2|2 ▭dk,
 s.12.10 | lo ▭.to, os, est ration.
 concl. 75. 10 | ts, est apotom. 1. medi.
 
+[Curated heading level=2 type=propositions: THEOR. LXX. PROPOS. XCIV.]
+
+[Curated heading level=2 type=theorems: THEOR. LXX. PROPOS. XCIV.]
+
 ## THEOR. LXX. PROPOS. XCIV.
 
 Si spatium contineatur sub rationali, & apotoma tertia; recta linea spatium potens, mediæ est apotome secunda.
@@ -38,6 +42,10 @@ Demonstr.
 l 91.10 | ▭lo 2|2 ▭dk,
 24. 10 | lo ▭.to, os, est medi.
 concl. 76. 10 | ts, est apotom. 2. medi.
+
+[Curated heading level=2 type=propositions: THEOR. LXXI. PROPOS. XCV.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXI. PROPOS. XCV.]
 
 ## THEOR. LXXI. PROPOS. XCV.
 

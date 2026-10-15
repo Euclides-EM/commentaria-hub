@@ -26,6 +26,8 @@ BREVIVS tota propoſitio demonſtrabitur hoc modo. Cõueniant duo puncta A, & C,
 
 [Curated heading level=2 type=campanus: 10]
 
+[Curated heading level=2 type=problems: PROBL. 3. PROPOS. 11.]
+
 ## PROBL. 3. PROPOS. 11.
 
 [Curated heading level=3 type=incipit: DVABVS]

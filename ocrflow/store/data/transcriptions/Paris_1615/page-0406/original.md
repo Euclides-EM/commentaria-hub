@@ -8,6 +8,10 @@ Et faut noter que le quarré d’icelle ligne mediale, ou le rectangle irration
 
 La ligne DC ſoit 2, & BC√8. Le rectangle BD ſera √32. qui eſt irrationel; & ſera dict medial, mais la ligne pouuãt iceluy eſt√√32. laquelle on appele mediale.
 
+[Curated heading level=2 type=propositions: THEOR. 20. PROP. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 20. PROP. XXIII.]
+
 ## THEOR. 20. PROP. XXIII.
 
 Le quarré d’vne ligne mediale appliqué ſur vne ligne rationele, faict l’autre coſté rationel commenſ. en puiſſance ſeulement à la ligne à laquelle ſe faict l’application.

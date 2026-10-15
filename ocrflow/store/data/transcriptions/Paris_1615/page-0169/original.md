@@ -10,6 +10,10 @@ B auſſi equemultipl ces des meſmes E, F. Ie lis que les reſtes GS, HD ſeron
 
 G 1 Car d’autan: que AB & CD, ſent equemultilices de E& F, en AB il y aura autant de gradeurs egales a E, comme en CD de grandeurs egales à FPareillement d’autant que la retranchée AG eſt autant multiplice de E, que la retranchée (H I’eſt de F; AG contiédra autant de grandeurs egales à E, que CH de grandeurs egales a F, par la 1. &. 2. def. 5. Si donc d’egales multitudes de E F& grandeurs AB, & CD, on oſte egales multitudes de grandeurs AG, CH, les multitudes demeurantes GB, HD ſeront egales; c’eſt a dire que GB contiendra autant de fois E, comme HD contiendra F, ou bien ſi GB eſt egale à E, auſſi HD ſera eoale a F, & ſi BG eſt multiplice de E, auſſe HD ſera autant multiplice de F.
 
+[Curated heading level=2 type=propositions: THEOR. 7. PROP. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. 7. PROP. VII.]
+
 ## THEOR. 7. PROP. VII.
 
 Les grandeurs egales ont meſme raiſona vne meſme; & ceſte-cy aura meſme raiſon aux grandeurs egales.

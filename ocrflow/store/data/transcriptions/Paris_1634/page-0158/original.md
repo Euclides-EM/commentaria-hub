@@ -32,6 +32,10 @@ hyp. | <edc est ∟,
 | ▭.cd commun. subtr.
 concl. 3.a.1. | ▭.adb 2|2 ▭.ed.
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VI.]
+
 ## PROBL{printer-error-correction:THEOR}. VI. PROPOS. VI.
 
 Si recta linea bifariam secetur, & illi recta quæ-

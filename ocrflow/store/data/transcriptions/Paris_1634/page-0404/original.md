@@ -12,6 +12,10 @@ Demonstr.
 1.2 | ▭.ad,bc 2|2 ▭.bc,cd + ▭.bc,ac,
 concl. 1.a.f | ▭.ac,bd 2|2 ▭.ab,cd + ▭.ad,bc.
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. XIX.]
+
 ## THEOR. VIII. PROPOS. XIX.
 
 Vaulezard sur la 2. du 4. liure des Zetetiques de Viette.

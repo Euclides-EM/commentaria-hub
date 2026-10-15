@@ -7,6 +7,8 @@ Car AE étant parallele à CD, on a BE:EC::BA:AD;
 
 Or BE=EC, donc BA=AD.
 
+[Curated heading level=2 type=problems: PROBLÊME VI.]
+
 ### PROBLÊME VI.
 
 *Faire un quarré équivalent à un parallélogramme ou à un triangle donné.*
@@ -30,6 +32,8 @@ F. 144.
 2°. Soit ABC le triangle donné, BC sa base, AD sa hauteur. Prenez une moyenne proportionnelle entre BC et la moitié de AD, et soit XY cette moyenne ; je dis que le quarré fait sur XY sera équivalent au triangle ABC.
 
 Car, puisqu’on a BC:XY::XY:½AD, il en résulte XY²=BC×½AD ; donc le quarré fait sur XY est équivalent au triangle ABC.
+
+[Curated heading level=2 type=problems: PROBLÊME VII.]
 
 ### PROBLÊME VII.
 

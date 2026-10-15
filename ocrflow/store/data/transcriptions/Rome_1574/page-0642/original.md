@@ -11,6 +11,8 @@ PERSPICVVM autem eſt ex demonſtratione, numeros A, B, C, D, eſſe minimos in 
 
 [Curated heading level=2 type=campanus: 2]
 
+[Curated heading level=2 type=problems: PROBL. 1. PROPOS. 2.]
+
 ## PROBL. 1. PROPOS. 2.
 
 [Margin]

@@ -8,6 +8,10 @@
 
 La rationele AB ſoit 2 & AC√3: Donc le reſte BC ſera 2—√3. Or en ceſte prop. et és 5 ſuiuan:es, ou Euclide mon tre l’origine des Apotemes ou reſidus, il ne veat dire autre choſe, ſinon que ſi aux lignes dont il s’agit és prop.37.38.39. 40 41. & 42, on retranche le plus peuit nom du plus grand, ce qui reſtera eſt irrationel appeiéreſidu, &c.
 
+[Curated heading level=2 type=propositions: THEOR. 57. PROP. LXXV.]
+
+[Curated heading level=2 type=theorems: THEOR. 57. PROP. LXXV.]
+
 ## THEOR. 57. PROP. LXXV.
 
 Si d’vne ligne medi ale, eſt retranchee vne mediale commenſ. en puiſſance ſeulement à la toute, comprenant auec la toute vn rectãgle rationel; le reſte eſt irrationel: Soit appelé reſidu medial premier.

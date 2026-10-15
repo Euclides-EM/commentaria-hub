@@ -6,6 +6,8 @@ to maior sit quàm in rõne. Dico ꝙ ipsa a b,ad e f,aut rationem habet datam,u
 
 [Diagram: three horizontal lines; the first with points b, a, h; the second with points d, g, k, c; the third with points f, e, l]
 
+[Curated heading level=2 type=theorems: Theorema 19 Propositio 19]
+
 ## Theorema 19 Propositio 19
 
 SI fuerint tres magnitudines,& prima secunda dato maior fuerit quàm in ratione, fuerit autem & secunda tertia dato maior quam in ratione,& prima tertia dato maior igitur erit quã in ratione.
@@ -19,6 +21,8 @@ Si tres magnitudines a b,c d,e.& a b ipsa c d,dato maior esto quàm in ratione,&
 Sint tres magnitudines a b,c,d,& a b ipsa c dato maior sit quàm in ratione. & c ipsa d.dato maior sit quã in ratione. Dico quod & a b ipsa d, dato maior est quã in ratione. Quoniã a b ipsa c dato maior est quã in ratione, auferatur data magnitudo a e. Reliquæ igitur e b ad c ratio est data per 4 ꝓpositionẽ. At c ipsa d,dato maior est q̃ in ratiõe,& e b igitur ipsa d,dato maior est quàm in ratione. Auferatur igitur data magnitudo e f. Reliquæ igitur f b ad d,ratio est data per eandem,At a f,data est,& a b igitur ipsa d,dato maior est quàm in ratione.
 
 [Diagram: three vertical line segments in the right margin; the longest with points a, e, f, b, the others labelled c and d]
+
+[Curated heading level=2 type=theorems: Theorema 20 Propositio 20]
 
 ## Theorema 20 Propositio 20
 

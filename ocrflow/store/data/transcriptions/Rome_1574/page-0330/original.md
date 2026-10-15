@@ -6,6 +6,8 @@ les; Ac propterea AC, maior, quam DF.
 
 [Curated heading level=2 type=campanus: 26]
 
+[Curated heading level=2 type=theorems: THEOR. 24. PROPOS. 27.]
+
 ## THEOR. 24. PROPOS. 27.
 
 [Margin]

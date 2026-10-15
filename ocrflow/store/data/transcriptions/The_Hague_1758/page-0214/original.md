@@ -3,6 +3,10 @@
 
 [Diagram: nine rectangles in three columns within a ruled frame, labelled aA, aC, aE across the top, A, C, E and B, D, F in the middle, and cB, cD, cF across the bottom]
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. THEOREME XI.]
+
+[Curated heading level=2 type=theorems: THEOREME XI. PROPOSITION XI.]
+
 ## PROPOSITION XI. THEOREME XI.
 
 {dropcap:L|lines=2|style=plain}Es raiſons ( A : B & E : F ) qui ſont égales à une même troiſiemé raiſon ( C : D ), ſont égales entr’elles.

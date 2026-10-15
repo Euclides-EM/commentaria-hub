@@ -6,6 +6,10 @@
 6.1.& 1.a.1 | ea,ed,eb,ec snt 2|2 ⁊e,
 concl. 6.d.4 | ⊙abcd est circscri. π. □abcd.
 
+[Curated heading level=2 type=propositions: PROBL. X. PROPOS. X.]
+
+[Curated heading level=2 type=problems: PROBL. X. PROPOS. X.]
+
 ## PROBL. X. PROPOS. X.
 
 Isosceles triangulum constituere, quod habeat vtrumque eorum, qui ad basim sunt angulorum, duplum reliqui.

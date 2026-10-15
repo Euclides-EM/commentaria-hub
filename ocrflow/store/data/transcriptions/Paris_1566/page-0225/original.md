@@ -3,6 +3,8 @@
 
 tates angulorum æquales vel inæquales oſtendat. Quare ſequitur omnes angulos planos idem habere quantitatis genus ſcilicet inclinationem, veluti omnes lineas idem quantitatis genus, longitudinem habere diximus, ſuperficies vero idem aliud genus longitudinem, ſcilicet cum latitudine, ſolida vero aliud genus tres quidem dimenſiones, vt quandoque dicemus. Et igitur omnes angulos planos rationem adinuicem habere, quæ eſt habitudo magnitudinum idem quantitatis genus habentium tertia diffinitione quinti: & licet angulus contingentiæ per multiplicationem rectilineum non poſſit excedere, tamen eius quantitas quæ in ſola linearum inclinatione conſiſtit, multiplicata rectilinei quantitatem excedet: quinetiam rectilineus multiplicatus contingentiæ angulum excedet, ac ideo inter eos ratio, erit per 4 diffinitionem quinti, alter enim multiplicatus alterum excedet. Non itaque Campani ſolutionem recipiemus eos equidem non eſſe vniuoce angulos aut eiusdem generis, cùm hæc ſufficere non videãtur. Sed dicemus hoc theoremate Euclidem generalem ſuo more quantitatibus geometricis legem præſcripſiſſe, quæ quidem in ſe habent omnes numerorum affinitates, ac inſuper alias quas nec patiuntur numeri inter ſe. Huius itaque rei gratia binas protulimus huius theorematis demonſtrationes, priorem qua maius dimidio abſtrahitur indeterminate ac confuſè, cùm illud nec determinet Euclides: poſteriorem vero qua dimidium præciſè ſubtrahi præcipientes, idem ſequi oſtendimus. Quæ poſterior cùm ad numeros tantùm attineat, obiectum illud 16 tertij ſoluere non poterit, eo quod anguli illi numerorum rationem non patiantur. Sed quia prior demonſtratio in vtraſque ſcilicet numerorum, ac quantitatum incertarum affinitates, geometrico more dominatur, ea ſatis ſuperque propoſitum illud ſoluet problema, ablato quidem anguli rectilinei pluſquam dimidio, ſcilicet ablato angulo mixto ex curua rectaque compoſito, vt liberam ab Euclide vltra dimidium quanuis permiſſam ſumamus quantitatem, tunc tandem minor relinquetur angulus, angulo contingentiæ propoſito, iuxta huius theorematis præſcriptam legem, quiquidem erit alius contingentiæ angulus, vt latius docuimus ſuper eadem decimaſexta tertij.
 
+[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
+
 ## Propoſitio ſecunda.
 
 Si duabus magnitudinibus inæqualibus expoſitis ſublata ſemper minore à maiori, reliqua non metiatur precedentem, incommenſurabiles erunt ipſæ magnitudines.
@@ -11,9 +13,13 @@ Exponantur duæ magnitunines inæquales AB & GD: Tollatur autem à maiori GD ip�
 
 [Diagram: three horizontal lines, the upper labelled B, I, A, the middle D, Z, G, and the lower E]
 
-## Propoſitio tertia.
+[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIONum reſtitutarum Liber decimus.]
 
-## Problema 1.
+[Curated heading level=2 type=propositions: Propoſitio tertia.]
+
+[Curated heading level=2 type=problems: Propoſitio tertia. Problema 1.]
+
+## Propoſitio tertia. Problema 1.
 
 Duabus magnitudinibus commenſurabilibus datis, maximam earum communem inuenire menſuram.
 

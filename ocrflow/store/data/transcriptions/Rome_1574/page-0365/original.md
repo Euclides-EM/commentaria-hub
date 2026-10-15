@@ -14,6 +14,8 @@ CAETERVM per ea, quæ dicta ſunt de pentagono, propos. 12. 13. & 14. deſcribem
 
 [Curated heading level=2 type=campanus: 16]
 
+[Curated heading level=2 type=problems: PROBL. 16. PROPOS. 16.]
+
 ## PROBL. 16. PROPOS. 16.
 
 [Curated heading level=3 type=incipit: IN]

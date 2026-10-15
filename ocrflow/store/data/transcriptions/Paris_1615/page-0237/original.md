@@ -12,6 +12,10 @@ Que ſi D plus grande commune meſure de A& B, ne meſure C; C & D ſeront premi
 
 En la meſme maniere ſera cogneu ſi d’auantage de nombres que trois ſout premiers entr’eux, ou non. Car s’il y a 4.nombres donnez, il en faudra eſprouuer premierement trois; ſi cinq, quatre. &c. & acheuer comme nous auns dict, de trois nombres propoſez.
 
+[Curated heading level=2 type=propositions: PROB. 2. PROP. III.]
+
+[Curated heading level=2 type=problems: PROB. 2. PROP. III.]
+
 ## PROB. 2. PROP. III.
 
 Trouuer la plus grande commune meſure de trois nombres propoſez, non premiers entr’eux.

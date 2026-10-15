@@ -8,6 +8,10 @@ Que ſi la ſeconde eſt plus grande, ou egale, ou moindre que la quar te; auſ�
 
 Or Euclide n a pas demonſtré que ſi la premiere eſt plus grande, egale, ou plus petite que la ſeconde; auſſi la tierce ſera plus grande egale, ou moindre que la quarte, pource que cela eſt euident a cauſe de la ſimilitude des raiſons. Ce que nous pourrions neantmoins demonſtrer apres Commandin; mais d’autant que ſa demonſtration ne compete qu’aux grandeurs de meſme genre, nous nous tiendrons À ce que la na ture des proportions nous monſtre, encore que les grandeurs ſoient de diuers genres.-
 
+[Curated heading level=2 type=propositions: THEOR. 15. PROP. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. 15. PROP. XV.]
+
 ## THEOR. 15. PROP. XV.
 
 Les grandeurs ſont entr’elles, comme ſont leurs equemultiplices entr’elles.

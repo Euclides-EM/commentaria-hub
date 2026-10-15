@@ -2,6 +2,8 @@
 
 <!-- Page number: 76 -->
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaoctaua.]
+
 ## Propoſitio vigeſimaoctaua.
 
 Si duo numeri ad duos numeros ambo ad vtrumque primi adinuicem fuerint, qui ex prioribus ad eum qui ex poſterioribus fiet, primus erit.
@@ -10,9 +12,11 @@ Sint bini numeri A & B ad binos numeros G & D, vterque ad vtrumque, ſcilicet A 
 
 [Diagram: horizontal lines labelled A, B, E, G, D and Z, with numbers 3, 5, 15, 2, 4 and 8]
 
-## MONITVM.
+### MONITVM.
 
 Mutauimus propoſitionis quædam dicta, eò quòd confusè ſatis præbuerit Theon, cùm ait (quæ ex eis fient) abſque vlla diſtributione, Ideo Campani ſententiam ſaniorem hoc loco ſequemur. Duo etenim tantùm conſurgunt, vnus quidem ex prioribus, alter verò ex poſterioribus.
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimanona.]
 
 ## Propoſitio vigeſimanona.
 
@@ -21,6 +25,8 @@ Si bini numeri primi adinuicem fuerint, & multiplicans vterque ſeipſum fecerin
 Sint bini A & B primi numeri qui ſeipſos multiplicantes faciant, G & D factos autem rurſus multiplicantes efficiant, E & Z: Dico G ad D primos eſſe, necnon E ad Z. Quoniam G fit, ex A vno primorũ A & B, is erit ad reliquum B primus, per 27 huius. Haud ſecus quia D fit ex B, ipſe erit primus ad A. Cum autem B ſit primus ad G, qui ex B fit, ſcilicet D ad eundẽ G primus erit per eandem. Erunt igitur bini A G ad binos B & D vterque ad vtrumque primi. Qui igitur fit ex A G prioribus ſcilicet E, ad ipſum Z factum ex poſterioribus, primus erit, per præcedentem. Et ſemper ſi A & B multiplicantes ipſos E & Z aliquos fecerint, facti eiuſdem præcedentis argumento primi oſtendentur. Si itaque bini numeri adinuicem, &c.
 
 [Diagram: horizontal lines labelled A, G, E, B, D and Z, with numbers 3, 9, 27, 4, 16 and 64]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſima.]
 
 ## Propoſitio trigeſima.
 

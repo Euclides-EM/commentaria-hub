@@ -9,6 +9,8 @@ hyp. | hl 2|2 ⅓gl.
 
 [Figure: trois lignes horizontales, ACB en haut, DFE au milieu, GHL au dessous]
 
+[Curated heading level=2 type=axioms: 4. a. 1.]
+
 ### 4. a. 1.
 
 Et si inæqualibus æqualia adiecta sint, tota sunt inæqualia. | Et si à choses inegales on adiouste choses egales, les tous sont inegaux.
@@ -19,6 +21,8 @@ hyp. | ab 3|2 cd.
 hyp. | be 2|2 df.
 4.a.1 | ab 3|2 cf.
 
+[Curated heading level=2 type=axioms: 4. a. b.]
+
 ### 4. a. b.
 
 Et si æqualibus inæqualia adiecta sint, tota sunt inæqualia. | Et si à choses egales on adjouste choses inegales, les tous sont inegaux.
@@ -28,6 +32,8 @@ Et si æqualibus inæqualia adiecta sint, tota sunt inæqualia. | Et si à chose
 hyp. | ab 2|2 cd.
 hyp. | be 3|2 df.
 4.a.b. | ae 3|2 cf.
+
+[Curated heading level=2 type=axioms: 4. a. c.]
 
 ### 4. a. c.
 

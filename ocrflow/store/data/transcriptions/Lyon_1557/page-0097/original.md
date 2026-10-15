@@ -29,6 +29,10 @@ Sit enim in Circulo A B C D, Triangulum A B C Rectangulum, cuius angulus B rectu
 
 Sin aliter : erit Centrum extra A C, vt in puncto E. Et connectatur A E : quæ educatur ad punctum D Peripheriæ, oppoſitum : ſitq́; A E D Diameter : & connectatur B D. Tum angulus A B D, per hanc trigeſimam, erit rectus : ſicq́; æqualis angulo A B C, pars toti, Quod eſt abſurdum. Sed nec alibi erit Centrum, quàm in A C. Eſt igitur A C Diameter, Quod erat probandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 27, PROPOSITIO XXXI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 27, PROPOSITIO XXXI.]
+
 ## THEOREMA 27, PROPOSITIO XXXI. Theoni 32.
 
 Si Circulum tetigerit recta linea, à contactu autẽ exiens altera linea, Circulum ſecuerit : anguli quos cum tangente efficit, æquales ſunt alternatim duobus qui in Circuli Segmentis ſunt angulis.

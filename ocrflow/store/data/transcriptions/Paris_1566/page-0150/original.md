@@ -4,6 +4,10 @@
 
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſeptimus.
 
+[Curated heading level=1 type=definitions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſeptimus.]
+
+[Curated heading level=2 type=definitions: Diffinitio prima.]
+
 ## Diffinitio prima.
 
 {dropcap:V|lines=4|style=decorated}Nitas eſt qua vnumquodque eorum quæ ſunt, vnum dicitur.

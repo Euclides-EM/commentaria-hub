@@ -6,6 +6,10 @@
 3.a.1. | <chg 2|2 <bgh,
 2.concl. 27.1. | ab == cd.
 
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XXIX.]
+
 ## THEOR. XX. PROPOS. XXIX.
 
 In parallelas rectas lineas recta incidens linea ; & alternatim angulos inter se æquales efficit; & externum interno, & opposito, & ad easdem partes æqualem; & internos, & easdem partes duobus rectis æquales facit.

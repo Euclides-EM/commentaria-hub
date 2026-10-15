@@ -9,6 +9,8 @@ Darbey ich dich hie im anfang warnen will / das in proportion das ybertretten od
 
 [Curated heading level=3 type=numbered_item: 9.]
 
+[Curated heading level=2 type=definitions: Beſchreibung 9.]
+
 9 Wan ſich aber die product nit dermaſſen hielten / ſo werden die zalen nitt geproportioniert / auch die proportion nitt gleichförmig:ſonder diſe proportion die gröſſer ſein / deren zalen product inn gröſſerer proportion ybertreffen / oder weniger manglen / weder die anderen.
 
 #### Erklärung.

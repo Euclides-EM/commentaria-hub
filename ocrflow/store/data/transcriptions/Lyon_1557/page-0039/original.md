@@ -5,6 +5,10 @@
 
 Si enim B C & E F latera non fuerint æqualia, ſit E F maius : & ponatur E H æquale B C : & connectatur D H. Eritq́;, per quartam, angulus D H E æqualis angulo A C B : ob idq́; & angulo E F D, exterior interiori oppoſito, contra decimamſextam. Eſt igitur E F latus æquale B C lateri. Quapropter & D F, per quartam, æquale A C : & angulus E D F, angulo A. Sicq́; patet propoſitio.
 
+[Curated heading level=2 type=propositions: THEOREMA 18, PROPOSITIO XXVII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 18, PROPOSITIO XXVII.]
+
 ## THEOREMA 18, PROPOSITIO XXVII.
 
 Si duas rectas lineas recta linea ſecuerit, duosq́; interiores alternos angulos æquales fecerit : illæ duæ lineæ erunt paralleli.
@@ -14,6 +18,10 @@ Sit linea A B, ſecans duas lineas, C D quidem in puncto G, & E F in puncto H : 
 [Diagram: two lines C D and E F crossed by line A B at points G and H, meeting at point K]
 
 Sin minus, concurrant protractæ ad punctum K, ſi fieri poſſit : vt ſit Triangulum G K H. Cuius angulus K G H interior, erit ex poſitu, æqualis angulo E H G exteriori oppoſito, Quod in Triangulis fieri nequit, per decimamſextam. Non igitur concurrunt C D & E F lineæ. Quare, per Definitionem Parallelorum, ipſæ æquidiſtant altera alteri, Quod erat demonſtrandum.
+
+[Curated heading level=2 type=propositions: THEOREMA 19, PROPOSITIO XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 19, PROPOSITIO XXVIII.]
 
 ## THEOREMA 19, PROPOSITIO XXVIII.
 

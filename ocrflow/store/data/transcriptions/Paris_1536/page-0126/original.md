@@ -20,6 +20,8 @@ Notandum.
 
 [Curated heading level=3 type=numbered_item: 6.]
 
+[Curated heading level=2 type=definitions: Diffinitio 6.]
+
 6 In eadē ratione magnitudines dicūtur esse, prima ad secundā & tertia ad quartā: quādo primę & tertię ęquè multiplicia, secūdę & quartę æquè multiplicia, iuxta quáuis multiplicationē vtráq; vtráq; vel vnà excedūt, vel vnà æquales sunt, vel vnà deficiūt sūptæ adinuicē.
 
 Ostenso qualiter magnitudines rationē habere adinuicē iudicentur: diffinit respondenter Euclides, quonam modo magnitudines ipsę similem videātur obtinere rationē, habitudinísve nanciscantur identitatem. Quæ diffinitio non potuit per alicuius præcedentium quinq̄ rationalium specierum ipsius rationis vel habitudinis, vtpote aut multiplicis, aut superparticularis, aut superpartientis, vel multiplicis superparticularis, vel deniq̄ multiplicis superpartientis describi similitudinem: propter surdas (vt vocāt) irrationaliū magnitudinum habitudines, quarum denominationes exprimi non possūt.

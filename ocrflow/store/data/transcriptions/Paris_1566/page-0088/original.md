@@ -3,9 +3,15 @@
 
 datas quidẽ ſua conſtantes & propoſita lõgitudine, ſiue ea certa fuerit, ſiue incerta. Quas verò hac diffinitione explicamus, eas intelligamus eſſe quaſcunque nobis propoſitas diametrum circuli non excedentes: Dato circulo coaptatas; ille etenim ei circulo verè congruere dicuntur, eo quod earum propoſita quantitas, dato circulo quadam demonſtrandi facultate, non autem caſu coaptetur, inter duo eius circunferentiæ ſigna producta, vt proxima & huius prima patefaciet propoſitio.
 
-## Propoſitio prima.
+[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quartus.]
 
-## Problema 1.
+[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quartus.]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
+
+[Curated heading level=2 type=problems: Propoſitio prima. Problema 1.]
+
+## Propoſitio prima. Problema 1.
 
 Intra datum circulum, datæ rectę lineæ diametro non maiori æquam rectam lineam coaptare.
 
@@ -13,9 +19,11 @@ Sit datus circulus A B C D, cuius dimetiẽs ſit A C, data verò recta eſto F,
 
 [Diagram]
 
-## Propoſitio ſecunda.
+[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
 
-## Problema 2.
+[Curated heading level=2 type=problems: Propoſitio ſecunda. Problema 2.]
+
+## Propoſitio ſecunda. Problema 2.
 
 In dato circulo, dato triangulo æquiangulum triangulum inſcribere.
 
@@ -23,9 +31,11 @@ Eſto datus circulus A B G, datum verò triangulum ſit D E Z, Dato A B G circul
 
 [Diagram]
 
-## Propoſitio tertia.
+[Curated heading level=2 type=propositions: Propoſitio tertia.]
 
-## Problema 3.
+[Curated heading level=2 type=problems: Propoſitio tertia. Problema 3.]
+
+## Propoſitio tertia. Problema 3.
 
 Circa datum circulum, dato triangulo, æquiangulum triangulum deſcribere.
 

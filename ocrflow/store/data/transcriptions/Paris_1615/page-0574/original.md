@@ -16,6 +16,10 @@ Il abpert aufſi que les pyramides de meſme hauteur, conſtituees ſur baſes e
 
 Derechef eſt euident que les pyramides multilateres egales, & coſtruites ſur baſes egales, ou ſur vne meſme, ont meſme hauteur. Et que les pyramides multangulaires egales, & ayans meſme hauteur. ont auſſi les baſes egales, ſi elles ne ſont vne meſme. Ce qui ſe peus demonſtrer comme nous auons dict au corol.de la 5.p.de ce liure.
 
+[Curated heading level=2 type=propositions: THEOR. 7. PROP. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. 7. PROP. VII.]
+
 ## THEOR. 7. PROP. VII.
 
 Tout priſme peut eſtre diuiſé en trois pyramides egales, ayans baſes triangulaires.

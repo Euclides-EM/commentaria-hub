@@ -3,6 +3,10 @@
 36.3 | ▭.ebd 2|2 ▭.abf,
 concl. 11.5 | □.ac π □.ab 2|2 ▭.dce π ▭.ebd.
 
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XXXI.]
+
 ## THEOR. XX. PROPOS. XXXI.
 
 Pappus lib. 7. propos. 119.
@@ -28,6 +32,10 @@ c.4.6 | ab π ac, bd π ad, ad π cd snt raō. 2|2 ʒe,
 α.10.d.5 | raō..bd π cd 2|2, 2 raō..bd π ad,
 20.6 | raō..□.ab π □.ac 2|2, 2 raō..ab π ac,
 concl. 11.5 | bd π cd 2|2 □.ab π □.ac.
+
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXXII.]
 
 ## THEOR. XXI. PROPOS. XXXII.
 

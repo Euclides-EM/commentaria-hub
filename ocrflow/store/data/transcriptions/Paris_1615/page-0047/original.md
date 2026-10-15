@@ -8,6 +8,10 @@ deux droicts par la 13.p.1. Item pour la meſme raiſon CEB & DEB ſeront egaux 
 
 Il s’enſuit de ceſte d monſtration, que deux lignes droictes s’entre-couppant, font au poinct de leur ſection quatre angles egaux à auatre angles droicts. Eſt auſſi manifeſte qu’eſtans conſtituez tant A’angles qu’on voudra .lentoitr d’vn ſeul & meſme poinct, qu’ile ſeront ſeulement egaaux à quatre angles droicts: car ſi de E on meine tant d’autres lignes qu’on voudra, elles diuiſeront ſeuiement les quatre angles conſtitués a: poinct E, en pluſieurs parties: toutes leſquelles prinſes enſemble ſeront egales aux quaire angles d’iceluy poinct, c’eſt à dire à quatre droicts.
 
+[Curated heading level=2 type=propositions: THEOR. 9. PROP. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. 9. PROP. XVI.]
+
 ## THEOR. 9. PROP. XVI.
 
 Vn coſté d’vn triangle eſtant prolongé, l’angle exterieur, eſt plus grand que lvn ou l’autre des oppoſez interieurement.

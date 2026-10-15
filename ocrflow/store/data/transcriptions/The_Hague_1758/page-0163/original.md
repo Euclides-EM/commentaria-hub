@@ -5,6 +5,10 @@
 
 [Diagram: within a rectangular border, three figures labelled Fig. 1, Fig. 2 and Fig. 3, each showing a triangle ABD inscribed in a circle ABDH with centre C, points E and F on the sides and point H on the circle below]
 
+[Curated heading level=2 type=propositions: PROPOSITION V. PROBLEME V.]
+
+[Curated heading level=2 type=problems: PROBLEME V. PROPOSITION V.]
+
 ## PROPOSITION V. *PROBLEME V.*
 
 {dropcap:C|lines=2|style=plain}Irconſcrire un cercle (ABDH) à un triangle donné (ABD).

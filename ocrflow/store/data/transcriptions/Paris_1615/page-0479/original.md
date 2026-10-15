@@ -2,6 +2,10 @@
 
 <!-- Page number: 456 -->
 
+[Curated heading level=2 type=propositions: THEOR. 67. PROP. LXXXV.]
+
+[Curated heading level=2 type=theorems: THEOR. 67. PROP. LXXXV.]
+
 ## THEOR. 67. PROP. LXXXV.
 
 A la ligne faiſant auec vne ſuperbcie me.

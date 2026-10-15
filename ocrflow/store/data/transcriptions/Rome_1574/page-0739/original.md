@@ -40,6 +40,8 @@ METIATVR impar A, imparem B, per C. Dico C, imparem eſſe. Si enim ſit par; er
 
 [Curated heading level=2 type=campanus: 33]
 
+[Curated heading level=2 type=theorems: THEOR. 28. PROPOS. 30.]
+
 ## THEOR. 28. PROPOS. 30.
 
 [Curated heading level=3 type=incipit: SI]

@@ -5,6 +5,8 @@
 
 Darbei auff zůſehen in einbringung der figur h k l m / das nach lenge / vnnd geſchickhlichait der linien / die lenge in e b / oder b f / genommen werde / zaigt die vebung.
 
+[Curated heading level=2 type=propositions: XXIX. Die neünvndzwainzigſt propoſition]
+
 ## XXIX. Die neünvndzwainzigſt propoſition.
 
 [Subhead]
@@ -22,6 +24,8 @@ Sei die lini a b / die fürgeben rechtliniſche figur c / das parallelogram d. t
 ### Demonſtration.
 
 Diß zůbeweiſen / erſtreckh die lini g h / biß ins r / nun iſt vermög der erſten propoſition die figur a b e n / gleich der figure n b r / auch vermög der 43. des erſten bůchs vnnd gemainen verſtand gleich dem b g p q / thů zůbaiden tailen / das parallelogramm e n q o / ſo gibt der gemain verſtand das a b q o / gleich ſei dem gnomoni n o g. Derſelb aber iſt gleich der figur c / angeſehen das f n o p / gleich iſt den figuren c / vnnd e f g b / derhalben a b q o / auch dem c / gleich auch gleichförmig dem e f g b / vnd dem d / vbertrifft die lini a b / mit dem gleichförmigen parallelogram b q r o.
+
+[Curated heading level=2 type=propositions: XXX. Die dreiſſigſt propoſition]
 
 ## XXX. Die dreiſſigſt propoſition.
 

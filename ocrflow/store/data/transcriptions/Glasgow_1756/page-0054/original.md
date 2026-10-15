@@ -53,6 +53,10 @@ Ergo parallelogramma ſuper eadem baſi &c.
 
 Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXXVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXVI. THEOR.]
+
 ## PROP. XXXVI. THEOR.
 
 {dropcap:P|lines=2|style=plain}ARALLELOGRAMMA ſuper aequalibus baſibus, et in eiſdem parallelis conſtituta, inter ſe aequalia ſunt.

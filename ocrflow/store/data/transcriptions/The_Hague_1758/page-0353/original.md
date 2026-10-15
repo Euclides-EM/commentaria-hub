@@ -3,6 +3,10 @@
 
 [Figure: two geometrical diagrams in a rectangular frame; at left, lines from point A through B, F, D, with G and E below and C beneath; at right, lines from point H through I and K, with M at right and L below]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXV. THEOREME XXX.]
+
+[Curated heading level=2 type=theorems: THEOREME XXX. PROPOSITION XXXV.]
+
 ## PROPOSITION XXXV. THEOREME XXX.
 
 {dropcap:S|lines=2|style=plain}I deux angles plan (BAC & IHL) ſont égaux, & que de leurs ſommets (A & H) on ait élevé hors de leurs Plans des lignes (AD & HK) qui faſſent avec leurs cotés reſpectifs (ſavoir AD avec AB & AC; HK avec IH & HL) des angles égaux (∀ BAD = ∀ IHK & ∀ DAC = ∀ KHL), que de deux points (D & K) pris à volonté dans ces lignes élevées (AD & HK) on abaiſſe des perpendiculaires (DE & KM) ſur les Plans des angles donnés (BAC & IHL), & enfin que des points (E & M) ou les perpendiculaires touchent ces Plans, on tire des droites (AE & HM) aux ſommets (A & H) de ces angles donnés: ces droites (AE & HM) feront avec les lignes élevées (AD & HK) des angles (DAE & KHM) qui ſeront égaux.

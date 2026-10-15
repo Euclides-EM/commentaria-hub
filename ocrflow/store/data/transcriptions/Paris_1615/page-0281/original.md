@@ -6,11 +6,19 @@ portionnaux, & que le premier ſoit quarré, le troiſieſme ſera auſſi quar
 
 Ceſte demonſtration eſt aiſee: car par la 20.p.8 les extremes ſeront plans ſemblables, & l’vn d’iceux quarré, partant auſſi l’autre.
 
+[Curated heading level=2 type=propositions: THEOR. 21. PROP. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 21. PROP. XXIII.]
+
 ## THEOR. 21. PROP. XXIII.
 
 Si quatre nombres ſont continuellement proportionnaux, & que le premier ſoit cube; auſſi le quart ſera cube.
 
 Ceſte demonſtration eſt auſſi aiſee:car par la 21.p.8. les extremes ſeront ſolides ſemblables: mais l’vn eſt cube, & partant auffi ſera l’autre.
+
+[Curated heading level=2 type=propositions: THEOR. 22. PROP. XXIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 22. PROP. XXIIII.]
 
 ## THEOR. 22. PROP. XXIIII.
 

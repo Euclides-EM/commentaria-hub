@@ -1,5 +1,9 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. XIV.]
+
 ## THEOR. III. PROPOS. XIV.
 
 In omni triangulo, tres perpendiculares, ab angulis ad opposita latera ductæ, in eodem puncto se mutuò intersecant.

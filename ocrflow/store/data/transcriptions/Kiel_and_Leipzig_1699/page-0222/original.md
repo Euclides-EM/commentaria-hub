@@ -2,6 +2,10 @@
 
 <!-- Page number: 205 -->
 
+[Curated heading level=2 type=propositions: Der III. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 3. Werck-Stück. Der III. Vortrag.]
+
 ## Der III. Vortrag.
 
 ## Das 3. Werck-Stück.

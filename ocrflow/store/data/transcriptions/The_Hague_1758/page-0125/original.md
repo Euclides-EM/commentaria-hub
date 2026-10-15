@@ -3,6 +3,10 @@
 
 [Diagram: two externally tangent circles labelled A, B, C, D, G, M and N, with dotted lines BA, AC and BC]
 
+[Curated heading level=2 type=propositions: PROPOSITION XII. THEOREME XI.]
+
+[Curated heading level=2 type=theorems: THEOREME XI. PROPOSITION XII.]
+
 ## PROPOSITION XII. *THEOREME XI.*
 
 {dropcap:S|lines=2|style=plain}I deux cercles (DAM, GAN) ſe touchent extérieurement : la droite (BC), qui joint leurs centres, paſſera par le point d’attouchement (A).

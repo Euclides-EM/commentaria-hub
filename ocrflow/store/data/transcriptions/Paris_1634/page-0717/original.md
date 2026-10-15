@@ -9,6 +9,10 @@ suppos. | □.ck 3|2 □.fк..□. ——, comm. ck,
 6d85. 10 | cf, est apotom. 6.
 2 concl. 97. 10 | h, est ——, fa. 2; medi;
 
+[Curated heading level=2 type=propositions: THEOR. LXXXVIII. PROPOS. CXII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXXVIII. PROPOS. CXII.]
+
 ## THEOR. LXXXVIII. PROPOS. CXII.
 
 Apotome non est eadem, quæ ex binis nominibus.

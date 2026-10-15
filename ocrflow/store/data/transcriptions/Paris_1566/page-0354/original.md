@@ -5,15 +5,17 @@ Sint bini orbes ABGD & ZIT, circa idem centrum C conſtituti. Sit autem maiori q
 
 [Figure: two concentric circles with diameter BD, points A, L, T, C, I, O, N, G marked, and chords DL, DN inscribed in the larger circle]
 
-## Corollarium.
+### Corollarium.
 
 Hinc fit, perpendicularis diametro inter maiorem circulum & rectam tangentem minorem conſtituta, nullum circulorum tangit.
 
-## MONITVM.
+### MONITVM.
 
 Cogimur demonſtrationem fuſius proſequi Theone, qui primam decimi ſat impropriè aſſumit. Ea nanque vltra dimidium exceſſus tollendos præcipit, quod huic minimè conuenire poteſt, quæ pares laterum numeros exoptat. Inſuper licet in reliquis verum proferat, illud tamen improbatum ex prius demonſtratis relinquit, vt breuitati conſulat, confusè tamen.
 
-## Lemma.
+[Curated heading level=1 type=lemma_target: Lemma ad XII.17]
+
+### Lemma.
 
 Si Sphæra plana quadam ſuperficie ſecetur, communis ſuperficierum ſectio circũferentia erit circuli.
 

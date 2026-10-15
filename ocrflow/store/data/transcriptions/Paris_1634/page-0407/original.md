@@ -1,5 +1,9 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. XXI.]
+
 ## THEOR. X. PROPOS. XXI.
 
 Pappus lib. 7. propos. 118.

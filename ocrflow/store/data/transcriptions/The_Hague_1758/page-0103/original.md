@@ -3,6 +3,10 @@
 
 [Diagram: acute triangle C B A with dotted perpendicular B D from the apex B to the base C A]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. THEOREME XII.]
+
+[Curated heading level=2 type=theorems: THEOREME XII. PROPOSITION XIII.]
+
 ## PROPOSITION XIII. THEOREME XII.
 
 {dropcap:E|lines=2|style=plain}N tout triangle oxygone (CBA): le quarré d'un des côtés (BA) oppoſé à un des angles aigus (C) eſt plus petit que les quarrés des deux autres côtés (CB, CA), du double rectangle compris d'un des côtés (AC) alentour de l'angle aigû, ſur lequel tombe la perpendiculaire (BD), abaiſſée de l'angle oppoſé (B), & de la partie (CD) compriſe entre cette perpendiculaire & le ſommet de l'angle aigû (C).

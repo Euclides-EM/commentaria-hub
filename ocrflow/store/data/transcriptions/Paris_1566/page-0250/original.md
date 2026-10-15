@@ -6,9 +6,13 @@
 
 [Diagram: a semicircle over the line G, D, B, E, A with Z at the top, joined by lines to A and B]
 
-## MONITVM.
+### MONITVM.
 
 *Ponitur hic lemma ab altero Græcorum exemplarium, quod ſub corollario primæ ſexti comprehendimus quare ſubticendum illud eſſe rati ſumus.*
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquarta.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſimaquarta. Problema 11.]
 
 ## Propoſitio trigeſimaquarta. Problema 11.
 

@@ -5,6 +5,10 @@ Demonstr.
 35.9 | b~a π a 2|2 d~a π a + b + c,
 concl. 18.5 | b π a 2|2 b + c + d π a + b + c.
 
+[Curated heading level=2 type=propositions: THEOR. XXXIV. PROPOS. XXXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIV. PROPOS. XXXVI.]
+
 ## THEOR. XXXIV. PROPOS. XXXVI.
 
 Si ab vnitate quotcunque numeri deinceps exponantur in dupla proportione, quoad totus compositus fiat primus, & totus hic in vltimum multiplicatus faciat aliquem; factus erit perfectus.

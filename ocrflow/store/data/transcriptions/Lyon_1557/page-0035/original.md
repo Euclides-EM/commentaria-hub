@@ -9,6 +9,10 @@ H O C  N O B I S Theorema ratio magnitudinum præſcribit. Nam quum ſuper duos 
 
 [Diagram: two circles centered at A and B, meeting at point G on line A B]
 
+[Curated heading level=2 type=propositions: THEOREMA 14, PROPOSITIO XXI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 14, PROPOSITIO XXI.]
+
 ## THEOREMA 14, PROPOSITIO XXI.
 
 Si à duobus terminis vnius laterum Trianguli duæ lineæ exeuntes, intra Triangulum coïerint : hæ reliquis duobus Trianguli lateribus minores erunt, & maiorem angulum continebunt.
@@ -24,6 +28,10 @@ Altera pars ſic probatur. Angulus B E C Trianguli B E C, maior eſt, per decima
 Prior pars facile patebat, deſcriptis duobus Circulis ſecundùm ſpatium duarum B D & C D, poſitisq́; centris in B & C. Omninò enim duo Circuli ſecabunt hinc inde duo latera A B & A C. Ac tum erit æqualitas inter duo ſegmenta duasq́; B D & C D : Sicq́;, per nonam Notionem, erunt A B & A C maiores ipſis D B & D C. Neque enim tranſibunt Circuli per punctum A, repugnante ſeptima Propoſitione.
 
 [Diagram: triangle A B C with two circle arcs intersecting its sides]
+
+[Curated heading level=2 type=propositions: PROBLEMA 8, PROPOSITIO XXII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 8, PROPOSITIO XXII.]
 
 ## PROBLEMA 8, PROPOSITIO XXII.
 

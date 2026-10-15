@@ -2,6 +2,10 @@
 
 <!-- Page number: 179 -->
 
+[Curated heading level=2 type=propositions: Der XXX. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 4. Werck-Stück. Der XXX. Vortrag.]
+
 ## Der XXX. Vortrag.
 
 ## Das 4. Werckstück.

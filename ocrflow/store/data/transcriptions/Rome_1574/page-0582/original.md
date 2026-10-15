@@ -8,6 +8,8 @@ PARI ratione, pluribus numeris datis, quam tribus, non primis inter ſe, maxima 
 
 [Curated heading level=2 type=campanus: 4]
 
+[Curated heading level=2 type=theorems: THEOR. 2. PROPOS. 4.]
+
 ## THEOR. 2. PROPOS. 4.
 
 [Margin]
@@ -31,6 +33,8 @@ SED iam A, non metiatur ipſum B; inuenta autem maxima eorum menſura communis �
 [Diagram: three horizontal dotted lines, the first labelled A, D, E and F, the others B and C]
 
 [Curated heading level=2 type=campanus: 5]
+
+[Curated heading level=2 type=theorems: THEOR. 3. PROPOS. 5.]
 
 ## THEOR. 3. PROPOS. 5.
 

@@ -34,6 +34,10 @@ s.12.10 | ▭lf, est ration.
 l.60.10 | □.dl 3|2 □.lg..□.——, incomm. dl,
 concl. 5d48.10 | dg, est binom. 5.
 
+[Curated heading level=2 type=propositions: THEOR. XLVIII. PROPOS. LXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XLVIII. PROPOS. LXVI.]
+
 ## THEOR. XLVIII. PROPOS. LXVI.
 
 Quadratum eius, quæ bina media potest, ad rationalem applicatum, latitudinem facit ex binis nominibus sextam.

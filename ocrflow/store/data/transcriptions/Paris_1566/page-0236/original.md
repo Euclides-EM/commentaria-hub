@@ -3,6 +3,8 @@
 
 per æqualia in E & inæqualia in D ſecta BG plus poterit minore A quadrato ZD, vt patuit. Commenſurabilis autem fuit tota BG (ex hypotheſi) ipſi ZD exceſſui longitudine: ſed cùm tota BG vni earum ZD ſit commenſurabilis, quæ in principio ZD & binæ BZ DG commenſurabiles erunt, per vndecimam huius: quia rurſus BZ binis BZ DG commenſurabilis eſt, nam dimidia, & eiſdem BZ DG commenſurabilis eſt ZD, duæ igitur BZ ZD commenſurabiles erunt, per eandem: ſed binæ BZ ZD commenſurabiles componuntur. Tota igitur BD vtriſque BZ ZD commenſurabilis erit, atqui ipſi BZ fuit æqualis DG: ipſa igitur BD reliquæ ſectioni DG commenſuratur, ſecta eſt ideò tota maior BG per commenſurabilia longitudine in D. Si itaque fuerint, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
+
 ## Propoſitio decimaoctaua.
 
 [Subhead]
@@ -15,7 +17,7 @@ Sint binæ rectæ lineæ inæquales A & BG, ſecetur BG maior bifariam in E. App
 
 Ad ſecundum autem, ſupponamus rectam BG plus poſſe minore A quadrato ZD, toti BG longitudine incommenſurabili: Dico BG diuiſam eſſe in D, per incommenſurabilia longitudine. Cum tota BG ipſi ZD ſit incommenſurabilis & reliqua ſcilicet binis BZ DG incommenſurabilis erit, per corol. 12 huius: quia verò binarum alia ſcilicet BG binis BZ DG incommenſurabilis eſt. Alia verò DG eiſdem binis BZ DG eſt commenſurabilis. Duæ igitur BG & DG ſunt incommenſurabiles, ex coroll. 12 huius. Et ſi tota BG vni earum DG fuerit incommenſurabilis, quæ in principio BD & DG ſunt longitudine incommenſurabiles, per duodecimam huius. Secta eſt igitur BG in D per incommenſurabiles longitudine. Si itaque fuerint binæ rectæ lineæ, inæquales quarta autem, &c.
 
-## Lemma.
+### Lemma.
 
 Oſtenſum eſt in commenſuratione potentiam neceſſario ſequi longitudinem, non autem longitudinem ſequi ſemper potentiam. In incommenſurabilibus autem, longitudinem ſemper ſequi potentiam, potentiam verò ſæpius longitudinem non ſequi. Quare dicemus propoſitam certam quam ῥητὴν dixit Euclides, lineam eſſe ſuppoſitam ex libera potius hypotheſi, quam neceſſitate aliqua depromptam, ad quam reliquas comparantes, eiuſdem reſpectu ſiue relatione certas aut incertas dicemus, quas improprio nomine rationales aut irrationales dixerunt plures. Hac equidem methodo, vt quæ expoſitæ certæ longitudine commenſurabiles erunt, ſimpliciter certæ dicantur, eò quòd longitudinem neceſſariò ſequatur potentia. Quæ verò eidem propoſitæ certæ aliqua potentia fuerint commenſurabiles, non ideò ſimplicem certarum denominationem illæ ſibi ſumunt, cùm
 

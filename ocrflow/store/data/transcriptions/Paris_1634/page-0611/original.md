@@ -47,6 +47,10 @@ s.12.10 | ad, comm. cf,
 16.1 | af, comm. cf,
 concl. s.12.10 | af, est ration.
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. XXVIII.]
+
 ## PROBL. IV. PROPOS. XXVIII.
 
 Medias inuenire potentia tantum commensurabiles, quæ rationale comprehendant.

@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
+
 ## Propoſitio quinta.
 
 Si recta linea extrema & media ratione ſecetur, apponatúrque eidem æqualis maiori ſegmẽto, tota recta linea extrema & media ratione ſecatur, & maius ſegmentum eſt ea quæ in principio recta linea.
@@ -8,9 +10,11 @@ Recta A B extrema & media ratione ſecetur, cuius maius ſegmentum eſto A G. Ip
 
 [Figure: rectangle divided by horizontal and vertical lines with a diagonal, labelled D, A, G, B, T, K, L, E]
 
-## MONITVM.
+### MONITVM.
 
 Proponit Theon poſt hanc quintam quaſdam diffinitiones, quibus quid ſit reſolutio priori, quid autem ſit compoſitio poſteriori enunciat, vt demum quinque præfatarum demonſtrationum ita peruertat ordinem, quo ſuppoſita propoſitionis concluſione argumentum quo concluſa fuit probet priori argumento quod reſolutionem vocat, ſubſequenti autem argumentum ſupponit, vt propoſitum concludat: quæ cùm nihil ad Euclidis elementa conferre percipiamus, eò quòd maximè nihil vltra propoſitum oſtendant, data opera ob componendum omiſimus, & modici aut nullius momẽti ea fuiſſe arbitrati ſumus.
+
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
 
 ## Propoſitio ſexta.
 

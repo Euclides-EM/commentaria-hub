@@ -2,17 +2,29 @@
 
 poſſe lateris cubi: quare & hoc illius dimidium neceſſariò poterit. Latus itaque cubi dimidium poteſt, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio ſeptima.]
+
 ## Propoſitio ſeptima.
 
 Latus Pyramidis duplum eſt lateris ſibi inſcripti Octahedri.
 
 Quoniam (ex ſecunda decimiquinti) oſtendimus octahedri latus pyramidi inſcripti, bifarias laterum pyramidis coniungere ſectiones, Pyramidis igitur & octahedri latera parallela ſunt, ex corol. 39 primi, & ideo (ex coroll. ſecundæ ſexti) ſimilia ſubtendunt triangula. Quare (per quartam ſexti) duplum erit pyramidis latus lateris octahedri, nempe in ratione reliquorum laterum. Latus itaque pyramidis, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio octaua.]
+
 ## Propoſitio octaua.
 
 Cubi latus duplum poteſt lateris ſibi inſcripti Octahedri.
 
 Oſtenſum eſt (tertia decimiquinti) dimetientem octahedri cubo inſcripti binarum oppoſitarum cubi baſium centra coniungere, & ideo iam dimetientem lateri ipſius cubi æqualem eſſe. Sed eadem eſt dimetiens quadrati ex lateribus octahedri facti, ſcilicet ſphæræ ipſum continentis, per 14 decimitertij. Dimetiens igitur illa lateri cubi æqualis, duplum poterit lateris huius quadrati, ſiue lateris octahedri ſibi inſcripti, per 47 primi. Cubi igitur latus duplum poteſt lateris, &c.
+
+[Curated heading level=2 type=propositions: Propoſitio nona.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio nona.]
 
 ## Propoſitio nona.
 
@@ -21,6 +33,10 @@ Dodecahedri latus, maius ſegmentum eſt, eius quæ dimidium poteſt lateris ſi
 Dodecahedri A B G D latus eſto A B, dodecahedro verò inſcripti cubi baſis ſit E C F H, per octauam decimiquinti. Cubo verò inſcriptæ pyramidis latus eſto C H, per primam decimiquinti. Eadem igitur pyramis ipſi dodecahedro inſcripta erit, per decimam decimiquinti: Dico latus dodecahedri A B eſſe maius ſegmentum eius quæ dimidium poteſt lateris C H ſibi inſcriptæ pyramidis. Quoniam E C latus cubi ſectum extrema & media ratione efficit maius ſegmentum, rectam A B latus dodecahedri, per primum coroll. 17 decimitertij. Nam eadem ſphæra capiuntur, ex prima huius, lateris verò C H dimidium poteſt E C latus cubi, per ſextam huius. Latus igitur dodecahedri A B erit maius ſegmentum rectæ E C, quæ dimidium poteſt lateris C H ſibi inſcriptæ pyramidis. Dodecahedri itaque latus maius ſegmentum, &c.
 
 [Figure: dodecahedron face with inscribed cube base and pyramid lines, points labelled A, B, E, C, H, F, G, D]
+
+[Curated heading level=2 type=propositions: Propoſitio decima.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio decima.]
 
 ## Propoſitio decima.
 

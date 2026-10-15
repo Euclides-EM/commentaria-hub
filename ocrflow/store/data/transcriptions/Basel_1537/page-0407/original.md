@@ -2,6 +2,8 @@
 
 <!-- Page number: 396 -->
 
+[Curated heading level=2 type=theorems: Theorema 6 Propositio 6]
+
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
 
 [Curated heading level=3 type=zamberti_sequence: 6.]

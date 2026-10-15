@@ -3,6 +3,10 @@
 
 [Diagram: ruled frame containing rectangles: I, a rectangle A joined to a hatched rectangle E, marked V; III, a rectangle C joined to a hatched rectangle F, marked VI; II, a small square B beside an empty rectangle; IV, a small square D beside an empty rectangle]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIV. THEOREME XXIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIV. PROPOSITION XXIV.]
+
 ## PROPOSITION XXIV. THEOREME XXIV.
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs (A, B, C, D) ſont proportionelles, & qu'une cinquieme (E) ſoit à la ſeconde (B), comme une ſixieme (F) eſt à la quatrieme (D), la compoſée (A+E) de la premiere & de la cinquieme ſera à la ſeconde (B), comme la compoſée (C+F) de la troiſieme & de la ſixieme ſera à la quatrieme (D).

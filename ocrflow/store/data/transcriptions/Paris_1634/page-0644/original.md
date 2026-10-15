@@ -36,6 +36,10 @@ arbitr. | ef, est 6,
 β.12.6 | de, est √.54,
 2.a.1 | df, est 6 + √.54.
 
+[Curated heading level=2 type=propositions: PROBL. XVIII. PROPOS. LIV.]
+
+[Curated heading level=2 type=problems: PROBL. XVIII. PROPOS. LIV.]
+
 ## PROBL. XVIII. PROPOS. LIV.
 
 Inuenire ex binis nominibus sextam.

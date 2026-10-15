@@ -27,6 +27,10 @@ c.4.6 | bg π df 2|2 ab π ad,
 11.5 | cb π ed 2|2 bg π df,
 concl. 16.5 | cb π bg 2|2 ed π df.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. V.]
+
 ## THEOR. V. PROPOS. V.
 
 Si duo triangula latera proportionalia habeant, æquiangula erunt triangula, & æquales habebunt eos angulos, sub quibus homologa latera subtenduntur.

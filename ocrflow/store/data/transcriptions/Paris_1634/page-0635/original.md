@@ -11,6 +11,10 @@ hyp. | ▭.acb, est medi.
 d. θ | fк & кg snt nom.. / fg, κ
 θκ | contr. 43.10.
 
+[Curated heading level=2 type=propositions: THEOR. XXXIV. PROPOS. XLVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIV. PROPOS. XLVI.]
+
 ## THEOR. XXXIV. PROPOS. XLVI.
 
 Major ad vnum duntaxat punctum diuiditur in nomina.

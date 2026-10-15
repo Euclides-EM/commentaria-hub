@@ -4,6 +4,10 @@
 
 leurs coſtez T0, S0, √√ (216—+72), &√√(216√72), & par coſequont TS eſt √√(216+√72) —√√(216—√72), & ſon quarrt TR ſera √86424.
 
+[Curated heading level=2 type=propositions: THEOR. 73. PROP. XCVII.]
+
+[Curated heading level=2 type=theorems: THEOR. 73. PROP. XCVII.]
+
 ## THEOR. 73. PROP. XCVII.
 
 Si vn rectangle eſt compris d’vne ligne rationele, & d’vn reſidu ſixieſme; la ligne qui peut iceluy, eſt ligne faiſant auec vne ſuperficie mediale vn tout medial.

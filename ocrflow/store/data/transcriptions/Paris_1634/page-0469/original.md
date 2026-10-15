@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XVII.]
+
 ## THEOR. XV. PROPOS. XVII.
 
 Si numerus duos numeros multiplicans fecerit aliquos, geniti ex ipsis eandem rationem habebunt, quam multiplicati.
@@ -28,6 +32,10 @@ c.15.d.7 | f, msur: a, c, msur: e,
 2.a.7 | b, msur: d, c, msur: e,
 1c20.d7 | b π d 2|2 c π e,
 concl. 13.7 | b π c 2|2 d π e.
+
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XVIII.]
 
 ## THEOR. XVI. PROPOS. XVIII.
 

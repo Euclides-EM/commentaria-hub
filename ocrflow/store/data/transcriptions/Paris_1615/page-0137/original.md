@@ -4,6 +4,10 @@
 
 coſtez du triangle par le corol. de la 16.p.3. pource qu’à iceux coſtez ſont perpediculaires les demy diametres DE, DF, DG. Donc par la 5.d. aile cercle EFG ſerainſcrit au triangle donné: ce qu’il faloit faire.
 
+[Curated heading level=2 type=propositions: PROB. 5. PROP. V.]
+
+[Curated heading level=2 type=problems: PROB. 5. PROP. V.]
+
 ## PROB. 5. PROP. V.
 
 A l’entour d’vn triangle donné, deſcrire vn

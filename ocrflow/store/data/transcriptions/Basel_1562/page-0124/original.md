@@ -3,6 +3,8 @@
 
 als hie iſt / d h / ſolche wirt den puncten der berürerung treffen / auch die ſeitten a b / darauff ſy fellt / gleich tailen (welches dann auß des dritten bůchs / 18 vnd erſten propoſ. gewiß iſt) Nun beſich den triangel d h b / iſt (auß khrafft der 47 des erſten bůchs) das quadrat von d b / gleich den quadraten baider linien d h / vnd b h / ſambtlich / dieweil dann auch das quadrat von d b / 4 mall ſo groß als das quadrat / von dem halben diameter d e / oder b e / durch die 4 propoſit. des andern bůchs / Volgt ſo ich baider tailen / ain quadrat des halben diameters hinnim / das als dann / der halben ſeitten des triangels / das iſt / der linien h b / quadrat / thütt 3 mal ſouil als des gantzen diameters e g / quadrat. Dann yedes 4 mal ſouil iſt / als das quadrat ſeins halbtails durch die 4 des andern bůchs / das alſo die proportz on zerütt bleibt / wie auß der 18 des 7 bůchs mag auch verſtanden werden.
 
+[Curated heading level=2 type=propositions: IIII. Die viert Propoſition]
+
 ## IIII. Die viert Propoſition. Lehrt /
 
 [Subhead]

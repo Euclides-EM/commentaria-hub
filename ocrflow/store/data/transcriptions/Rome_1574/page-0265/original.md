@@ -18,6 +18,8 @@ HOC theorema nulla ratione accommodari poteſt numeris. Non enim numerus vllus i
 
 [Curated heading level=2 type=campanus: 12]
 
+[Curated heading level=2 type=theorems: THEOR. 11. PROPOS. 12.]
+
 ## THEOR. 11. PROPOS. 12.
 
 [Margin]

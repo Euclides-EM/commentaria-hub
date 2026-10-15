@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XVIII.]
+
 ## THEOR. XVI. PROPOS. XVIII.
 
 Si recta linea plano cuipiam ad rectos sit angulos; & omnia quæ per ipsam plana, eidem plano ad rectos angulos erunt.
@@ -29,6 +33,10 @@ hyp. | ab ⊥ plan. cd,
 constr. | ih == ab,
 8. 11 | ih ⊥ plan. cd,
 concl. 4. d. 11 | plan. ef ⊥ plan. cd.
+
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XIX.]
 
 ## THEOR. XVII. PROPOS. XIX.
 

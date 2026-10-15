@@ -10,6 +10,8 @@
 
 bari poteſt, ad hunc modum. Si enim duæ quantitates æquales fuerint alicui tertiæ; & vtriq; tertia illa addatur erunt compoſita duplices illius tertiæ; ſed & inter ſe æquales, ob idem additamentum. Quod ſi rurſum compoſitis eadem tertia adijciatur, erunt conflata triplices eiuſdem tertiæ; Cum igitur & æquales inter ſe, propter idem additamentum. exiſtant; eademq́; ſit ratio in cæteris multiplicibus perſpicuum erit Axioma propoſitum.
 
+[Curated heading level=2 type=axioms: VII.]
+
 ### VII.
 
 [Curated heading level=4 type=incipit: ET]
@@ -19,6 +21,8 @@ ET quæ eiuſdem ſunt dimidia, inter ſe æqualia ſunt.
 PARI ratione, quæ eiuſdem ſunt partes tertiæ, vel quartæ, vel quintæ, &c. inter ſe æqualia ſunt.
 
 IN his duobus pronunciatis per eandem quantitatem, intelligi debent quantitates etiam æquales. Nam quæ æqualium duplicia ſunt, vel triplicia. &c. inter ſe æqualia quoque ſunt: Item, quæ æqualium ſunt dimidia, vel tertia, vel quarta, &c. & inter ſe æqualia neceſſario exiſtunt.
+
+[Curated heading level=2 type=axioms: VIII.]
 
 ### VIII.
 

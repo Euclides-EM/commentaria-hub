@@ -43,6 +43,10 @@ concl. 1.a.d | bc 3|2 ef.
 β | dg 2|2 df,
 concl. 5.a.1 | eg Ⅱ bc 3|2 ef.
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XXV.]
+
 ## THEOR. XVI. PROPOS. XXV.
 
 Si deux triangles ont deux costez égaux à deux

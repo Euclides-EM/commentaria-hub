@@ -23,6 +23,10 @@ duabus igitur datis rectis lineis AB, BC media inter ipſas proportionalis inven
 
 [Diagram: ſemicircle ADC with chords AD and DC, and perpendicular DB]
 
+[Curated heading level=2 type=propositions: PROP. XIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIV. THEOR.]
+
 ## PROP. XIV. THEOR.
 
 [Subhead]

@@ -13,6 +13,10 @@ commun, AB=AC par hypothese, et BD=DC par construction ; donc, en vertu du théo
 
 Dans un triangle non isoscele on prend indifféremment pour base un côté quelconque, et alors le *sommet* est l’angle opposé. Dans le triangle isoscele on prend particulièrement pour base le côté qui n’est point égal aux autres.
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIII.]
+
 ## PROPOSITION XIII.
 
 ### THÉORÊME.

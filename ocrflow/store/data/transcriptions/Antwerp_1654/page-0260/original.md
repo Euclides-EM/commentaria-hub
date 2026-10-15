@@ -1,6 +1,8 @@
 <!-- Running title: Liber Vndecimus. -->
 <!-- Page number: 227 -->
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO VII.]
+
 ## PROPOSITIO VII.
 
 [Curated heading level=2 type=figures: Fig. 15]
@@ -26,6 +28,8 @@ a Per 3. l.11.
 [Margin]
 b Per defin. 36.l.1.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO VIII.]
 
 ## PROPOSITIO VIII.
 

@@ -1,10 +1,14 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. V.]
+
 ## DEFINIT. V.
 
 Rationem habere inter se magnitudines dicuntur, quæ possunt multiplicatæ sese mutuò superare.
 
 Les grandeurs sont dites auoir raison l'vne à l'autre, lesquelles estans multipliées, se peuuent exceder l'vne l'autre.
+
+[Curated heading level=2 type=definitions: DEFINIT. VI.]
 
 ## DEFINIT. VI.
 

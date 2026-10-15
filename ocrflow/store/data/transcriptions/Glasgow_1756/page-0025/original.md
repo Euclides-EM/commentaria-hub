@@ -9,6 +9,10 @@ c. Ax. 1.
 
 Duabus igitur datis rectis lineis inaequalibus AB et C, a majore AB minori C aequalis abſciſſa eſt. Quod erat faciendum.
 
+[Curated heading level=2 type=propositions: PROP. IV. THEOREMA.]
+
+[Curated heading level=2 type=theorems: PROP. IV. THEOREMA.]
+
 ## PROP. IV. THEOREMA.
 
 [Subhead]

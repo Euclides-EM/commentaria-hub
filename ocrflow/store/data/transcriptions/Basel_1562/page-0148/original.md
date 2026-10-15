@@ -23,9 +23,13 @@ Vortail.
 
 [Curated heading level=3 type=numbered_item: 10.]
 
+[Curated heading level=2 type=definitions: Beſchreibung 10.]
+
 10. So drey quantiteten in ſtetiger proportion gegen ainander volgen: alßdann iſt die proportion der erſten / gegen der dritten / zwaymal ſo groß als der erſten gegen der andern.
 
 [Curated heading level=3 type=numbered_item: 11.]
+
+[Curated heading level=2 type=definitions: Beſchreibung 11.]
 
 11. Wann vier quantiteten geproportioniert ſein inn annainander hangender proportion / ſo iſt die proporz der erſten gegen der vierdten dreymal ſo groß / als der erſten gegen der ander / vnnd alſo forthin: nemlich wan ir fünffen der geſtalt proportioniert weren / iſt der erſten proporz gegen der letſten viermal ſo groß / als gegen der andern / ꝛc.
 

@@ -4,9 +4,11 @@ Sit in circulo A G E dodecahedri quinquangulum A B G D E, & Icoſahedri triangul
 
 [Figure: circle with inscribed pentagon A B G D E and triangle A F H, centre C, with points I and L on the bases]
 
-## Corollarium.
+### Corollarium.
 
 Dodecahedri & Icoſahedri ſuperficies in eadem ſphæra deſcriptorũ ad ſe ſunt, ſicut quod ſub latere eius & perpendiculari à centro baſis ſuæ acta, ad id quod ſub reliqui latere & perpendiculari in ipſum à centro ſuæ baſis acta. Nam ſicut trigeſies ad trigeſies ſic (per 15 quinti) ſemel ad ſemel ſe habent.
+
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
 
 ## Propoſitio ſexta.
 
@@ -16,7 +18,7 @@ Eſto circulus A B G, cui (per 4 huius) inſcribantur latera dodecahedri A G, & 
 
 [Figure: circle with centre E and points C, D, Z, I, G, B and A, with lines drawn from E and C to G]
 
-## Lemma.
+### Lemma.
 
 Pentagonum dodecahedri ęquum eſt ei quod ſub perpendiculari in baſim trianguli Icoſahedri, & quinque ſextis lateris cubi eidem ſphæræ deſcriptorum continetur.
 

@@ -8,6 +8,10 @@ Eodem modo, si prima ad secundam, maiorem habuerit rationem quàm tertia ad quar
 
 En la mesme maniere, si la premiere a plus grande raison à la seconde que la troisiesme à la quatriesme ; & que la troisiesme ait plus grande raison à la quatriesme, que la cinquiesme à la sixiesme : pareillement la premiere aura beaucoup plus grande raison à la seconde, que la cinquiesme à la sixiesme. Mais si la premiere a moindre raison à la seconde, que la troisiesme à la quatriesme ; & que la troisiesme ait moindre raison à la quatriesme, que la cinquiesme à la sixiesme : pareillement la premiere aura beaucoup moindre raison à la seconde, que la cinquiesme à la sixiesme.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XIV.]
+
 ## THEOR. XIV. PROPOS. XIV.
 
 Si prima ad secundam eandem habuerit rationem, quam tertia ad quartam ; prima verò quàm tertia maior fuerit, erit & secunda maior quàm quarta. Quod si prima fuerit æqualis tertiæ, erit &

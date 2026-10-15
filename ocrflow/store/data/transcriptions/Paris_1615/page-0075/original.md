@@ -12,6 +12,10 @@ E S’il y euſt eu d’auantage de triãgles en la figure dõnee, il eust fa�
 
 Il eſt manifeſte par les choſes dictes cy deſſus, comment on deſcrira ſur vne ligne droicte donnee vn parallellogramme egal à vne figure rectiligne donnee, & qui ait vn angle egal à vn angle rectiligne donné. Car pour exemple, ſi la ligne dreicte FG euſt eſté donnee, nous euſſions par la precedente prop. deſcrit ſur icelle le parallellogramme FGHI; puis ſur la meſme ligne FG, ou pluſtoſt ſur vne egale à icelle HI, le parallellog. HIKL; & ainſi conſecutiuement s’il y auoit d’auantage de triangles en la figure rectiligne donnee.
 
+[Curated heading level=2 type=propositions: PROBL. 14. PROP. XLVI.]
+
+[Curated heading level=2 type=problems: PROBL. 14. PROP. XLVI.]
+
 ## PROBL. 14. PROP. XLVI.
 
 Sur vne ligne droite dõnée, deſcrire vn quarré Soit la ligne droicte dõnee AB, ſur laquelle il faut deſcrire vn quarré. Du poinct A, ſoit menee AC ligne perpẽdiculaire à AB par la 11.p.1. laquelle ſoit faite egale à AB; & apres auoir mené CD parallelle à AB, & BD parallelle à AC par la 31.p.1. ie dis que le quadrllatere AD eſt quarré.

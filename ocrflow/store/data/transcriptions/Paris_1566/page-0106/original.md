@@ -5,6 +5,8 @@ bentium differentiæ, multo maiores ſunt, & ideo plus intelligibiles. Perſpexi
 
 Concludemus itaque, ſi hic præfatus exceſſus, æqualitas, aut defectus, iuxta quamuis multiplicationem accidat, ſimplices eandem habere rationem. Si autem econuerſo ſimplices eandem habuerint rationem, id iuxta quamuis multiplicationẽ accidet, contrà verò ſi exceſſus ille iuxta quamuis multiplicationem productus, non ſemper accidat, nec ſimplices eandem habebunt rationem. E conuerſo ſi non habeant ſimplices eandem rationem, illud non accidet, iuxta quãuis multiplicationem, iuxta eas ſaltem quæ fiunt per numeros habentes conuerſam rationem propoſitorum ſimplicium (vt diximus proxima methodo) licet iuxta quamplures alias accidat.
 
+[Curated heading level=2 type=definitions: Sexta diffinitio.]
+
 ## Sexta diffinitio.
 
 [Subhead]
@@ -35,6 +37,8 @@ A   B   C   D
 [/Calculation]
 
 non autem quam B ad C, quæ cùm continuum videatur diſſoluere, diſcontinua dicitur proportio: hæc autem cadere poteſt inter duo vel plura quantitatum genera. Poſſumus namq; conferre pondus ponderi, in ea ratione qua lineam lineæ conferemus, quaſi tempus tempori, planum plano: erunt igitur octo, quatuor generum magnitudines proportione diſcontinua coniunctæ. Prior verò quæ continua dicta eſt, vnicum recipit magnitudinum genus quantitatis, cùm prima ſecundæ, eadem verò ſecunda tertiæ, tertia verò quartæ (& ſic quantumuis) eadem ratione copulentur, quæquidem ratio eadem duas tantùm eiuſdem generis cogitur connectere. Sunt alij plures qui rationem vocant proportionem, proportionem verò proportionalitatem, licet Euclides rationem dixerit λόγον, proportionẽ verò ἀναλογίαν, quæ ſimilitudinem ſonat rationum. Et proportionem dicunt proinde maiorem vel minorem, ac ſi maior vel minor daretur rationum ſimilitudo, quod diſſonum admodum cenſentes, potius eligemus Euclidis verba ſectari, diſciplinæ nuncia. Proportionem igitur non eam magnitudinum affinitatem, quæ ratio dicitur, ſed rationum ſimilitudinem eſſe dicemus, vt perfectè ſonat proxima diffinitio ſequens.
+
+[Curated heading level=2 type=definitions: Diffinitio ſeptima.]
 
 ## Diffinitio ſeptima.
 

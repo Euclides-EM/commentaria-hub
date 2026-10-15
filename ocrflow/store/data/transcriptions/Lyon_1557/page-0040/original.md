@@ -1,6 +1,10 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 31 -->
 
+[Curated heading level=2 type=propositions: THEOREMA 20, PROPOSITIO XXIX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 20, PROPOSITIO XXIX.]
+
 ## THEOREMA 20, PROPOSITIO XXIX.
 
 Si duas Parallelos recta ſecet linea : erunt duo anguli alterni æquales : & angulus exterior interiori ſibi oppoſito ex eadem parte æqualis : itemq́; duo anguli interiores ex alterutra parte conſtituti, æquales duobus rectis.

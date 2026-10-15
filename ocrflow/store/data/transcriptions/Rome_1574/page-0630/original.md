@@ -26,6 +26,8 @@ apparet. Manifeſtum eſt autem, inuentos E, F, G, eſſe mininimos{printer-erro
 
 [Curated heading level=2 type=campanus: 36]
 
+[Curated heading level=2 type=problems: PROBL. 4. PROPOS. 36.]
+
 ## PROBL. 4. PROPOS. 36.
 
 [Margin]

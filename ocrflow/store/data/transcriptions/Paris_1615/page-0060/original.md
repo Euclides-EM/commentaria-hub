@@ -6,6 +6,10 @@ egal à l’angle EGA, auquel eſt auſſi egal l’angle BGH par la 15.p.1.les
 
 Pour la ſeconde partie. Ie dis que ſi les deux angles interieurs de meſme coſté AGH, & CHG ſont egaux à deux droits, que auſſi AB & CD ſeront parallelles. Car par la 13.p. 1. les deux angles GHC & GHD ſont egaux à deux droits; partãt auſſi egaux aux deux AGH & GHC. Que ſi d’iceux angles egaux on oſte le commun GHC, les demeurans AGH& GHD ſe trouueront alternatiuement egaux, & par la 27.p.1. AB & CD ſeront parallelles.
 
+[Curated heading level=2 type=propositions: THEO. 20. PROP. XXIX.]
+
+[Curated heading level=2 type=theorems: THEO. 20. PROP. XXIX.]
+
 ## THEO. 20. PROP. XXIX.
 
 Si vne ligne droicte tombe ſur deux lignes droictes parallelles, elle fera les angles oppoſez alternatiuement egaux; & l’exterieur egal à ſon oppoſé interieur du meſme coſté: & les deux interieurs de meſme coſté egaux à deux droicts.

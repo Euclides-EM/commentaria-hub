@@ -36,6 +36,8 @@ quippe cum quilibet dimidium habeat imparem. Quòd autem illi ſoli ſint parite
 
 [Curated heading level=2 type=campanus: 37]
 
+[Curated heading level=2 type=theorems: THEOR. 32. PROPOS. 34.]
+
 ## THEOR. 32. PROPOS. 34.
 
 [Margin]

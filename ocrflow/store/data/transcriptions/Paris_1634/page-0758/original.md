@@ -18,6 +18,10 @@ Ex his infertur, si prisma quodcunque secetur plano oppositis planis æquidistan
 
 *De ces choses s'ensuit, que si quelconque prisme est couppé par vn plan equidistant aux plans opposez, que la section est vne figure egale & semblable aux plans opposez.*
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. XXVI.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. XXVI.]
+
 ## PROBL. IV. PROPOS. XXVI.
 
 Ad datam rectam lineam, eiusque punctum an-

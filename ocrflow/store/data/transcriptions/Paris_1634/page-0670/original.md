@@ -4,6 +4,10 @@ suppos. | fк 3|2 cf..□..——, incomm. fк,
 5d48.10 | ck, est binom. 5.
 4 concl. 59.10 | h, est rat. & med. po.
 
+[Curated heading level=2 type=propositions: THEOR. LV. PROPOS. LXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. LV. PROPOS. LXXIII.]
+
 ## THEOR. LV. PROPOS. LXXIII.
 
 Si duo media inter se incommensurabilia componantur, duæ reliquæ irrationales fiunt, vel ex binis mediis secunda, vel bina media potens.

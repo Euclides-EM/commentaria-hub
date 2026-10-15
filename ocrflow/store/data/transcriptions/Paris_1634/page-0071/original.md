@@ -8,6 +8,8 @@ hyp. | ab 3|2 cd.
 hyp. | be 3|2 df.
 4.a.c. | ab 3|2 cf.
 
+[Curated heading level=2 type=axioms: 5. a. 1.]
+
 ### 5. a. 1.
 
 Et si ab inæqualibus æqualia ablata sint, reliqua sunt inæqualia. | Et si de choses inegales on oste choses egales, les restes sont inegaux.
@@ -18,6 +20,8 @@ hyp. | ab 3|2 cd.
 hyp. | eb 2|2 fd.
 5.a.1 | ae 3|2 cf.
 
+[Curated heading level=2 type=axioms: 5. a. b.]
+
 ### 5. a. b.
 
 Et si ab æqualibus inæqualia ablata sint, reliqua sunt inæqualia. | Et si de choses egales on oste choses inegales, les restes sont inegaux.
@@ -27,6 +31,8 @@ Et si ab æqualibus inæqualia ablata sint, reliqua sunt inæqualia. | Et si de 
 hyp. | ab 2|2 cd.
 hyp. | ae 3|2 cf.
 5.a.b. | eb 2|3 fd.
+
+[Curated heading level=2 type=axioms: 5. a. c.]
 
 ### 5. a. c.
 

@@ -16,6 +16,8 @@
 
 [Curated heading level=2 type=campanus: 28]
 
+[Curated heading level=2 type=problems: PROBL. 9. PROPOS. 29.]
+
 ## PROBL. 9. PROPOS. 29.
 
 [Curated heading level=3 type=incipit: AD]

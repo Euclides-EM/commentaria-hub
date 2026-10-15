@@ -30,6 +30,10 @@ Dw. DBC ⩓ ABC n. 7. Gr:S. n.
 
 Müssen also allezeit diejenigen △ △ , welche auff einem einigen/ Grundstrich und zwischen einerley Nebenstrichen stehen/ einander gleich seyn. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXXVIII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 28. Beweiß-Stück. Der XXXVIII. Vortrag.]
+
 ## Der XXXVIII. Vortrag.
 
 ## Das 28. Beweiß-Stück.

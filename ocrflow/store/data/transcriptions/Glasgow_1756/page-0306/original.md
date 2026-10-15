@@ -1,6 +1,10 @@
 <!-- Running title: LIBER DUODECIMUS. -->
 <!-- Page number: 293 -->
 
+[Curated heading level=2 type=propositions: PROP. III. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. III. THEOR.]
+
 ## PROP. III. THEOR.
 
 {dropcap:O|lines=2|style=plain}MNIS pyramis triangularem habens baſim dividitur in duas pyramides aequales et ſimiles inter ſe, quae triangulares baſes habent, ſimileſque toti; et in duo priſmata aequalia, quae quidem priſmata dimidio totius pyramidis ſunt majora.

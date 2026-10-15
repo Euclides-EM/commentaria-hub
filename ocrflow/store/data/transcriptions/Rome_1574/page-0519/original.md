@@ -18,6 +18,8 @@ IDEM quoque hic perſpicitur in rectangulis, quorum unũ eſt extra alterum, ſe
 
 [Curated heading level=2 type=campanus: 26]
 
+[Curated heading level=2 type=theorems: THEOR. 20. PROPOS. 27.]
+
 ## THEOR. 20. PROPOS. 27.
 
 [Curated heading level=3 type=incipit: OMNIVM]

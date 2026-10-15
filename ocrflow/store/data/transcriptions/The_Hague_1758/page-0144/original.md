@@ -4,6 +4,10 @@
 
 [Diagram: arc ABD above chord AD, with chords AB and BD and line CB]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXX. PROBLEME IV.]
+
+[Curated heading level=2 type=problems: PROBLEME IV. PROPOSITION XXX.]
+
 ## PROPOSITION XXX. *PROBLEME IV.*
 
 {dropcap:C|lines=2|style=plain}Ouper un arc (ABD) en deux parties égales (AB, BD).

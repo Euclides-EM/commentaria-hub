@@ -18,6 +18,10 @@ Quòd g,h,parallelogrãmũ eidẽ a,b,c,d, sit simile.
 Quòd e,f, & g,h , similia sint adinuicẽ.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Problema 7, Propositio 25.]
+
+[Curated heading level=2 type=problems: Problema 7, Propositio 25.]
+
 ## Πρόβλημα ζ, Πρόθεσις κε.
 
 Τῷ δοθέντι εὐθυγράμμῳ ὅμοιον,καὶ ἄλλῳ τῷ δοθέντι ἴσον,τὸ αὐτὸ συστήσασθαι.

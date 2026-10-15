@@ -23,6 +23,10 @@ Non enim, ſed ſi fieri poteſt, habeant duae rectae lineae ABC, ABD ſegmentum
 
 [Diagram: lines ABC and ABD sharing segment AB, with BE perpendicular at B]
 
+[Curated heading level=2 type=propositions: PROP. XII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XII. PROB.]
+
 ## PROP. XII. PROB.
 
 [Subhead]

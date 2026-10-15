@@ -1,6 +1,10 @@
 <!-- Running title: LIVRE IV. -->
 <!-- Page number: 137 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IX.]
+
 ## PROPOSITION IX.
 
 [Diagram]

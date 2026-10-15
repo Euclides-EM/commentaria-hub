@@ -20,6 +20,8 @@ CVm cōiunctæ fuerint duæ superficies mediales incōmensurabiles linea potēs 
 
 [Diagram: rectangle with g at the top right corner, divided by a horizontal line with f at its left end; e inside at the right of the lower band; c at the bottom left and d at the bottom right, with tick marks along the base]
 
+[Curated heading level=2 type=theorems: Theorema 54 Propositio 72]
+
 ## Eucli.ex Zamb. Theorema 54 Propositio 72
 
 [Curated heading level=3 type=zamberti_sequence: 72.]

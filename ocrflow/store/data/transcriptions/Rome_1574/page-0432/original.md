@@ -22,6 +22,8 @@ SIT enim ut A, prima ad B, ſecundam, ita C, tertia ad D, quartam. Dico, ſi A, 
 
 [Curated heading level=2 type=campanus: 17]
 
+[Curated heading level=2 type=theorems: THEOR. 17. PROPOS. 17.]
+
 ## THEOR. 17. PROPOS. 17.
 
 [Margin]

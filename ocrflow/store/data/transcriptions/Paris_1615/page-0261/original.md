@@ -6,6 +6,10 @@
 
 Soient deux nombres A, & B qui meſurent vn autre CD, & que le plus petit nombre qu’ils meſurent ſoit E. Ie dis que E meſurera auſsi CD. Autrement, ſi E ne meſure CD; apres auoir meſuré CF, qu’il laiſſe FD plus petit que ſoy: A & B meſurans E, ils meſurerõt auſsi CFpar la 11.com. ſen. Mais ils meſuré̃t le tout CD par la 12. com. ſen.ils meſurerõt dõc auſsi le reſteF Dplus petit que C; ce qui eſt impoſsible, eſtant le plus petit qu’ils meſurent. Parquoy E meſurera CD: ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: PROB. 5. PROP. XXXVIII.]
+
+[Curated heading level=2 type=problems: PROB. 5. PROP. XXXVIII.]
+
 ## PROB. 5. PROP. XXXVIII.
 
 Trouuer le plus petit nombre que peuuent meſurer trois nombres donnez..

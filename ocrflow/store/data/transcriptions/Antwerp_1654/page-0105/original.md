@@ -10,6 +10,8 @@ partes, in quas circulum diuidit recta (C E) circulum ſecans.
 Fig. 33.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. III, Def. 6]
+
 [Curated heading level=3 type=numbered_item: 6.]
 
 6. Angulus in ſegmento eſt (B Q C) qui continetur ſub rectis lineis, quæ ad vnum circumferentiæ punctum (Q) ex ſegmenti terminis (C, B) ducuntur.
@@ -17,6 +19,8 @@ Fig. 33.
 [Margin]
 Fig. 33.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. III, Def. 7]
 
 [Curated heading level=3 type=numbered_item: 7.]
 
@@ -28,9 +32,15 @@ Fig. 33.
 Fig. 11.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. III, Def. 8]
+
 [Curated heading level=3 type=numbered_item: 8.]
 
 8. Sector eſt pars circuli à duobus ſemidiametris (A B, A F) & arcu (B F vel B C F) quē ſemidiametri intercipiunt, cõprehenſa.
+
+[Curated heading level=1 type=propositions: Liber III]
+
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO PRIMA.]
 
 ## PROPOSITIO PRIMA.
 

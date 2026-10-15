@@ -3,6 +3,10 @@
 
 [Figure: two triangles ABC and CDE placed with bases AC, CE meeting directly on one line, with dotted lines AB and DE prolonged to meet at F above; angle labels m at A, p at B, r and n at C, o at D, s at E]
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. THEOREME IV.]
+
+[Curated heading level=2 type=theorems: THEOREME IV. PROPOSITION IV.]
+
 ## PROPOSITION IV. THEOREME IV.
 
 {dropcap:L|lines=2|style=plain}Es triangles équiangles (ABC, CDE) ont les côtés (AC, AB & CE, CD &c), qui comprennent des angles égaux (m & n &c), proportionels; & les côtés (AB, CD &c) oppoſés aux angles égaux (r & s &c), ſont homologues.

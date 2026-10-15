@@ -3,6 +3,10 @@
 
 [Figure: semicircle on base line A B C, with vertical line from B to point D at the top; dotted lines from A to D and from D to C]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. PROBLEME V.]
+
+[Curated heading level=2 type=problems: PROBLEME V. PROPOSITION XIII.]
+
 ## PROPOSITION XIII. *PROBLEME V.*
 
 {dropcap:T|lines=2|style=plain}Rouver une moyenne proportionelle (BD); entre deux lignes droites données (AB, BC).

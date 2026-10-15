@@ -24,6 +24,8 @@ CAMPANVS Sint duo circuli æquales a b c cuius centrum d, & e f g, cuius centrum
 
 [Diagram: circle with f at the top, centre h, e at lower left and g at lower right; inscribed triangle e f g with lines from e and g to h]
 
+[Curated heading level=2 type=theorems: Theorema 23. Propositio 26.]
+
 ## Eucli. ex Zamb. Theorema 25{printer-error-correction:23}. Propositio 26.
 
 [Curated heading level=3 type=zamberti_sequence: 26.]

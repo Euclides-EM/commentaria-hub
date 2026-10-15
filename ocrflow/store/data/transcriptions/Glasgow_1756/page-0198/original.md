@@ -1,6 +1,10 @@
 <!-- Running title: LIBER SEXTUS. -->
 <!-- Page number: 185 -->
 
+[Curated heading level=2 type=propositions: PROP. VII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VII. THEOR.]
+
 ## PROP. VII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duo triangula unum angulum uni angulo aequalem habeant, circa alios autem angulos latera proportionalia, et reliquorum utrumque ſimul minorem, vel non minorem recto; vel ſi eorum alter rectus fuerit: aequiangula erunt triangula, et aequales habebunt angulos circa quos latera ſunt proportionalia.

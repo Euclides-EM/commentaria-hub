@@ -13,6 +13,10 @@ Demonstr.
 19.d.7 | c, est nr. cub.
 concl. 5.9 | a, est nr. cub.
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. VII.]
+
 ## THEOR. VII. PROPOS. VII.
 
 Si compositus numerus numerum aliquem multiplicans, quempiam faciat: factus solidus erit.
@@ -38,6 +42,10 @@ hyp. | a, est nr. compos.
 9.a.7 | a 2|2 ▭.e,d,
 hyp. | c 2|2 ▭,a,b,
 concl. 17.d.7 | c, est nr. solid.
+
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. VIII.]
 
 ## THEOR. VIII. PROPOS. VIII.
 

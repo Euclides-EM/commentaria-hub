@@ -4,6 +4,10 @@
 
 I’angle ABE ſera egal a l’angle DCE par la 8.p.1. Parquoy le total C ſera egal a l’angle total B, & par la 1. commune ſentence ils ſeront tous egaux entr’eux. Pattant le pentagone ſer a equiangle. Ce qui eſtoit a demonſtrer.
 
+[Curated heading level=2 type=propositions: THEOR. 8. PROP. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 8. PROP. VIII.]
+
 ## THEOR. 8. PROP. VIII.
 
 Si deux lignes droictes ſubtendent deux angles d’vn pentagone equiangle & equilateral, leſquels ſoient d’ordre: icelles ſubtendantes ſe couperont l’vne l’autre en la moyenne & extreme raiſon, & leurs plus grands ſegmens ſeront egaux à vn coité du pentagone.

@@ -5,6 +5,8 @@ erit ipſius A, ab eodem B, denominata. Si numerum ergo quiſpiam numerus metiat
 
 [Curated heading level=2 type=campanus: 38]
 
+[Curated heading level=2 type=theorems: THEOR. 35. PROPOS. 40.]
+
 ## THEOR. 35. PROPOS. 40.
 
 [Margin]
@@ -24,6 +26,8 @@ HABEAT numerus A, partem B. a qua numerus C, denominatur. Dico C, metiri ipſum 
 [/Margin]
 
 [Curated heading level=2 type=campanus: 39]
+
+[Curated heading level=2 type=problems: PROBL. 6. PROPOS. 41.]
 
 ## PROBL. 6. PROPOS. 41.
 

@@ -9,6 +9,10 @@ d. 28. 11.
 
 ſunt inter ſe ut baſis AE ad CF baſim, hoc eſt ut triangulum AEM ad triangulum CFG.
 
+[Curated heading level=2 type=propositions: PROP. XXXIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXIII. THEOR.]
+
 ## PROP. XXXIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}IMILIA ſolida parallelepipeda inter ſe ſunt in triplicata ratione homologorum laterum.

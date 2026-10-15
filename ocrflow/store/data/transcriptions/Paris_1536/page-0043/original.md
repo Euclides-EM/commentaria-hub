@@ -2,6 +2,10 @@
 
 propositionem. Atqui data est maior: non est igitur angulus b/a/c, ipso e/d/f/angulo minor. Patuit autē q̄ nec eidem æqualis: ergo maior. Si bina igitur triangula duo latera: & reliqua, vt in theoremate. Quod erat demonstrandum.
 
+[Curated heading level=2 type=propositions: Theorema 17, Propositio 26.]
+
+[Curated heading level=2 type=theorems: Theorema 17, Propositio 26.]
+
 ## Θεώρημα ιζ, Πρόθεσις κς.
 
 Εὰν δύο τρίγωνα τὰς δύο γωνίας ταῖς δυσὶ γωνίαις ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, καὶ μίαν πλευρὰν μιᾷ πλευρᾷ ἴσην, ἤτοι τὴν πρὸς ταῖς ἴσαις γωνίαις, ἢ τὴν ὑποτείνουσαν ὑπὸ μίαν τῶν ἴσων γωνιῶν, καὶ τὰς λοιπὰς πλευρὰς ταῖς λοιπαῖς πλευραῖς ἴσας ἕξει ἑκατέραν ἑκατέραν, καὶ τὴν λοιπὴν γωνίαν τῇ λοιπῇ γωνίᾳ.

@@ -39,6 +39,10 @@ hyp. | ac est 7,
 6.a.1 | 2▭.cd snt 18,
 2.cōcl. 2.a.1 | 2▭.ac + 2▭.cd snt 116.
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. XI.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. XI.]
+
 ## PROBL. I. PROPOS. XI.
 
 Datam rectam lineam secare, vt comprehensum

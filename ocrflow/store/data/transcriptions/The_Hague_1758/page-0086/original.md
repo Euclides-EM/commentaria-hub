@@ -7,11 +7,15 @@
 
 ## AXIOMES.
 
+[Curated heading level=2 type=axioms: AXIOME I.]
+
 ### I.
 
 {dropcap:L|lines=2|style=plain}E tout eſt égal à toutes ſes parties priſes enſemble.
 
 *Le* Pgr *entier* PQ, (Fig. 2) *eſt égal à toutes ſes parties, les* Pgrs PR, TS, VQ *pris enſemble.*
+
+[Curated heading level=2 type=axioms: AXIOME II.]
 
 ### II.
 

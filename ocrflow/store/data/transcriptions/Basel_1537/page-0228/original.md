@@ -14,6 +14,8 @@
 
 CAMPANVS. Sint duo numeri a & b, in proportione duorum quadratorum qui sunt c & d, sitq̃ a uel b quadratus : dico reliquum esse quadratum. Cum enim c & d sint quadrati, sequitur eos esse superficiales. Ideoq̃ per 16 cadet unus medius inter eos in continua proportione: quare per 8 inter a & b, per 26 igitur constat propositum.
 
+[Curated heading level=2 type=theorems: Theorema 22 Propositio 24]
+
 ## Eucli. ex Zamb. Theorema 22 Propositio 24
 
 [Curated heading level=3 type=zamberti_sequence: 24.]
@@ -43,6 +45,8 @@ Camp. 22 Zamb. 24
 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I duorum numerorū quorum proportio unius ad alterū sit sicut cubi ad cubum, alteruter fuerit cubus, & alterum cubum esse.
 
 CAMPANVS. Sint duo numeri a & b in proportione duorum cuborum qui sunt c & d, sitq̃ a uel b cubus : dico reliquū esse cubum. Necesse est enim quod c & d sint solidi similes, quippe omnes cubi sunt similes & solidi, itaq̃ per 18 inter ipsos cadent duo medij in continua proportione: totidem igitur per 8 cadent inter a & b, itaque per 21 manifestum est quod dicitur.
+
+[Curated heading level=2 type=theorems: Theorema 23 Propositio 25]
 
 ## Eucli. ex Zamb. Theorema 23 Propositio 25
 

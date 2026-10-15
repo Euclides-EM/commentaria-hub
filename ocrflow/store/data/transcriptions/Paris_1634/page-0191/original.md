@@ -17,6 +17,10 @@ Hinc est manifestum, lineam rectam, quæ circulum tangit, ita vt eum non secet, 
 
 De la demonstration de cette proposition il est manifeste, que la ligne droicte qui touche le cercle, en sorte qu'elle ne le couppe point, qu'elle le touche seulement à vn poinct.
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. III.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. III.]
+
 ## THEOR. II. PROPOS. III.
 
 Si in circulo recta quædam linea per centrum extensa quandam non per centrum extensam bifariam secet; & ad angulos rectos ipsam secabit. Et si ad angulos rectos eam secet, bifariam quoque eam secabit.

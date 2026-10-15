@@ -37,6 +37,10 @@ f. 11. Def. 11.
 
 erit. A data igitur recta linea AB dato ſolido parallelepipedo CD, ſolidum parallelepipedum AL ſimile, et ſimiliter poſitum deſcriptum eſt. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XXVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXVIII. THEOR.]
+
 ## PROP. XXVIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſolidum parallelepipedum plano ſecetur per diagonales oppoſitorum planorum, ab ipſo plano bifariam ſecabitur.

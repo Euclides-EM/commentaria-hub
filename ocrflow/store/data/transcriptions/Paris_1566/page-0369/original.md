@@ -2,17 +2,21 @@
 
 plum poterunt. Octahedrum itaque conſtruximus, eadémque ſphæra qua pyramidem comprehendimus, & oſtendimus, &c.
 
-## Corollarium primum.
+### Corollarium primum.
 
 Pyramidis latus potentia ſeſquitertium eſt lateris Octahedri eidem Sphæræ inſcripti. Cùm enim dimetiens duplum poſsit lateris octahedri, qualium dimetiens poteſt 6 earum poteſt latus octahedri 3, ſed qualium dimetiens fuit 6, earū fuit latus pyramidis 4 potentia, per 13 huius. Qualium igitur pyramidis latus potuit 4, earum latus octahedri potuit 3.
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 Octahedrum in binas Pyramides æquas & ſimiles diuiditur. Harum communes baſes ſunt ſuper quolibet quadrato à lateribus octahedri comprehenſo, ad quod conueniunt octahedri octo triangula, quæ igitur pyramides (per octauam diffinitionem vndecimi) æquales erunt & ſimiles. Præfatum verò commune quadratum, dimidium eſt potentiæ dimetientis ſphæræ, cùm ſit quadratum lateris octahedri.
 
-## Corollarium tertium.
+### Corollarium tertium.
 
 Præterea inferemus tres Octahedri dimetientes ad rectos ſe bifariam in centro Sphæræ id continentis ſecare. Vt patuit in ſigno K ac eiuſdem ſphæræ eſſe dimetientes.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaquinta. Problema 3.]
 
 ## Propoſitio decimaquinta. Problema 3.
 

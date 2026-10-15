@@ -20,6 +20,8 @@ CAMPANVS. Sint qui prius continue proportionales ab unitate, sitq̃ a quadratus,
 
 [Diagram: dotted number lines from unitas labelled a, b, c, d, e, f, g, h, k, l, m, n]
 
+[Curated heading level=2 type=theorems: Theorema 9 Propositio 9]
+
 ## Eucli. ex Zamb. Theorema 9 Propositio 9
 
 [Curated heading level=3 type=zamberti_sequence: 9.]

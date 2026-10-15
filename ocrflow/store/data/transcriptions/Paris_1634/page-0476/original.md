@@ -1,5 +1,9 @@
 <!-- Running title: ELEM. EVCLID. LI. VII. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXV.]
+
 ## THEOR. XXIII. PROPOS. XXV.
 
 Si duo numeri primi inter se fuerint ; qui vnum eorum metitur numerus, ad reliquum primus erit.
@@ -30,6 +34,10 @@ hyp. | c, msur: a,
 12.d.7 | a & b n̄ snt pr. ꝫe,
 contr. hyp.
 concl. 21.a.1 | c, est pr. π. b.
+
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXVI.]
 
 ## THEOR. XXIV. PROPOS. XXVI.
 

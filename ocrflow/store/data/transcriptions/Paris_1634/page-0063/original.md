@@ -4,6 +4,8 @@
 
 ## PETITIONS OV DEMANDES.
 
+[Curated heading level=2 type=postulates: I.]
+
 ### I.
 
 Postuletur, vt à quouis puncto in quoduis punctum, rectam lineam ducere, concedatur. | Soit demandé, de tout poinct donné, à tout autre poinct donné, mener vne ligne droicte, soit concedé.

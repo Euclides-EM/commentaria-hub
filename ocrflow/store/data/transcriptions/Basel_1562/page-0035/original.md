@@ -5,6 +5,8 @@ Die letſt figur beweißt den Griechiſchen text. Wirt alles leichtlich durch di
 
 [Figure: many linien crossing each other in a single puncten]
 
+[Curated heading level=2 type=propositions: XVI. Die ſechzehend propoſition]
+
 ## XVI Die ſechzehend propoſition.
 
 So ain lini ains triangels ſtracks fürauß gezogen wirt / iſt der außwendig winckell groͤſſer / dan yeder baider innwendigen winckeln / ſo dargegen yber ſtehnd.
@@ -24,6 +26,8 @@ Das zuͦbeweiſen (dann diſe propoſition iſt ſeer gebreuchlich / derhalben n
 ### Anhang.
 
 Hierauß auch augenſcheinlich demonſtriert iſt / das der außwendig winckel baiden gemelten innern gleich / wie das vnden durch die 32 propoſ. anderſt demonſtriert / hab ich woͤllen anzaigen / ꝛc.
+
+[Curated heading level=2 type=propositions: XVII. Die ſibenzehend propoſition]
 
 ## XVII Die ſibenzehend propoſition.
 

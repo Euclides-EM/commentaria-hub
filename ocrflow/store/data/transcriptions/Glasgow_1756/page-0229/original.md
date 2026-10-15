@@ -9,6 +9,10 @@ d. 14. 1.
 
 Si igitur duo triangula &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXXIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXIII. THEOR.]
+
 ## PROP. XXXIII. THEOR.
 
 {dropcap:I|lines=2|style=plain}N circulis aequalibus anguli eandem habent rationem quam circumferentiae quibus inſiſtunt, ſive ſint ad centra, ſive ad circumferentias. adhuc etiam et ſectores.

@@ -3,6 +3,8 @@
 
 ſphæram C G, vt 9 ad 32. Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XLIII.]
+
 ## PROPOSITIO XLIII.
 
 {dropcap:C|lines=2|style=plain}Onus æquilaterus ſphæræ circumſcriptus coni æquilateri eidem ſphæræ inſcripti octuplus eſt.

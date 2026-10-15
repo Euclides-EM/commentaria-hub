@@ -1,5 +1,7 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=3 type=axioms: AXIOME 20. a. b.]
+
 ### 20. a. b.
 
 Si chaque partie de la premiere grandeur est double de chaque partie de la seconde grandeur, la premiere grandeur sera double de la seconde.
@@ -11,6 +13,8 @@ hyp: | eb 2|2 2fd,
 [Figure]
 
 I'ay adjousté l'axiome suiuant, à cause qu'il est necessaire aux demonstrations, qui conduisent à l'impossible.
+
+[Curated heading level=2 type=axioms: AXIOME 21. a. 1.]
 
 ### 21. a. 1.
 

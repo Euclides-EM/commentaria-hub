@@ -48,6 +48,8 @@ Quæ uero sub sinisterioribus radijs spectantur: sinisteriora uidentur.
 
 Quæ sub pluribus angulis spectantur: expeditius uidentur.
 
+[Curated heading level=2 type=theorems: Theorema primum.]
+
 ## Theorema primum.
 
 {dropcap:E|lines=?|style=decorated|decoration="woodcut"}Orum quæ sub aspectum cadunt quicquā simul totum aspici minime potest.
@@ -55,6 +57,8 @@ Quæ sub pluribus angulis spectantur: expeditius uidentur.
 Sit nāq́ uisile{printer-error-correction:uisibile} quoduis a d, oculus uero sit b, à quo procidant uisus b a, b c, b κ, b d. igitur quoniam in interuallo feruntur uisus procidentes uisus non prociderent continui ad a d, quare fient quoque & ad a d, interualla, ad quæ uisus non ueniunt ea non spectantur per 3 suppositionem: totū igitur a d, simul minime spectabitur uidetur autem simul spectari uisibus celerrime delatis.
 
 [Diagram: horizontal line with points a, e, κ, d; rays from each point converging downward to the eye b]
+
+[Curated heading level=2 type=theorems: Theorema secundum.]
 
 ## Theorema secundum.
 

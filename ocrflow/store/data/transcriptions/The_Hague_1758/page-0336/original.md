@@ -3,6 +3,10 @@
 
 [Diagram: within a ruled border, a rectangular parallelepiped with vertices A, B, C, D, E, F, G, H, I, K, L and M, extended by dotted lines to points N, O, P, Q, R, S, T, U, V, W, X and Y]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXV. THEOREME XXII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXII. PROPOSITION XXV.]
+
 ## PROPOSITION XXV. THEOREME XXII.
 
 {dropcap:S|lines=2|style=plain}I un paralelipipède (BEDC) eſt coupé par un Plan (KIML) parallele aux Plans oppoſés (AEFB & CGDH): Les deux paralelipipédes provenants (ſavoir les ⏥ˢ. BEMK & KMDC) ſeront entr'eux comme leurs bazes (BFLK & KLHC).

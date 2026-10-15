@@ -23,6 +23,10 @@ Dw. ac ⊣ ag. — n. 24. I.
 
 Ist also allezeit der / aus dem erwehlten Düttel a, durch den Mittel-Düpffel e gezogene Strich ab, der längste/und das übrige ac der kürtzeste; die andern aber / je näher sie dem Mittel-Düpffel stehen/auch länger/als die/so weiter davon entfernet seyn: Diejenigen aber/welche gleichweit davon abstehen (als ah und [unclear: ab]) gleichlang. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der IIX. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 7. Beweiß-Stück. Der IIX. Vortrag.]
+
 ## Der IIX. Vortrag.
 
 ## Das 7. Beweiß-Stück.

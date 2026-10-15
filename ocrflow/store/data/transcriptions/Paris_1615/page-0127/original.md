@@ -6,6 +6,10 @@ QOu’il ne ſoit ainſi, apres auoir mené par le centre le diametre CD, ſoie
 
 Que ſi la ligne couppant le cercle eſtoit le diametre d’iceluy, tous les ang’es tat en l’vn qu’en l’autre demy cercle, ſeroient droicts par la 31.p.3.
 
+[Curated heading level=2 type=propositions: PROBL. 5. PROP. XXXIII.]
+
+[Curated heading level=2 type=problems: PROBL. 5. PROP. XXXIII.]
+
 ## PROBL. 5. PROP. XXXIII.
 
 Deſſus vne ligne droicte donnee, deſcrire la ſection d’vn cercle capable d’vn angle egal à vn angle rectiligne donné.

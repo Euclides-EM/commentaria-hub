@@ -11,6 +11,10 @@ suppos. | eb par.. gc 2|2 ab par.. cd u ae par.. cf,
 3.a.1 | gc 2|2 fd,
 concl. 2.a.7 | eb par.. fd 2|2 ab par.. cd u ae par.. cf.
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VIII.]
+
 ## THEOR. VI. PROPOS. VIII.
 
 Si numerus numeri partes fuerit, quales ablatus ablati : & reliquus reliqui eædem partes erit, quales totus totius.

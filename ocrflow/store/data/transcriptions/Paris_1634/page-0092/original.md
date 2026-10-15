@@ -26,6 +26,10 @@ Demonstr.
 
 [Figure: angle en A, D et E sur les costez, B et C en bas, ligne pointillée AF, arcs s'entrecoupans en F]
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. X.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. X.]
+
 ## PROBL. V. PROPOS. X.
 
 Datam rectam lineam bifariam secare.

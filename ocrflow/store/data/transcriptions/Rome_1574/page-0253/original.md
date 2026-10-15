@@ -21,6 +21,8 @@ IDEM in numeris eſt manifeſtum: Diuidatur enim numerus 10 æqualiter in 5. & 5
 
 [Curated heading level=2 type=campanus: 6]
 
+[Curated heading level=2 type=theorems: THEOR. 6. PROPOS. 6.]
+
 ## THEOR. 6. PROPOS. 6.
 
 [Margin]

@@ -17,6 +17,10 @@ Q. E. D.
 
 [Diagram: two solid angles labelled A, C, E, D and B, F, H, G]
 
+[Curated heading level=2 type=propositions: PROP. C. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. C. THEOR.]
+
 ## PROP. C. THEOR.
 
 {dropcap:S|lines=2|style=plain}OLIDAE figurae quae continentur planis ſimilibus, multitudine et magnitudine aequalibus, et ſimiliter poſitis, quarumque nullus angulus ſolidus pluribus quam tribus planis angulis continetur, ſunt inter ſe aequales et ſimiles.

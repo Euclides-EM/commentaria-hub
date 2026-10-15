@@ -13,6 +13,10 @@ OB : OC :: OD : OA.
 
 *Scholie.* On peut remarquer que cette proposition a beaucoup d’analogie avec la précédente, et qu’elles ne different qu’en ce que les deux cordes AB, CD, au lieu de se couper dans le cercle, se coupent au dehors. La proposition suivante peut encore être regardée comme un cas particulier de celle-ci.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXX.]
+
 ## PROPOSITION XXX.
 
 ### THÉORÊME.

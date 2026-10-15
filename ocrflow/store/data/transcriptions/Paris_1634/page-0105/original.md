@@ -24,6 +24,10 @@ hyp. | <adb est ∟,
 19.1. | ad 2|3 ab, α
 d. α | ad 2|3 ac.
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XX.]
+
 ## THEOR. XIII. PROPOS. XX.
 
 Omnis trianguli duo latera reliquo sunt maiora, quomodocunque assumpta.

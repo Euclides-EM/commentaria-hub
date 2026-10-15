@@ -15,6 +15,8 @@ Sollichs wirt auch behender zůwegen bracht / ſo erſtlich ain diameter gezogen
 
 Wie ich im erſten bůch nit alle / ſonder nur ettliche fürneme propoſ. welche aintweders ettwas lehren machen / oder ſunſt fürnem ſeind / demonſtriert / alſo wird ich mich auch in diſem bůch hallten. Vnnd mich befleiſſen / dem leſer mehr nutz dann verdrießlich zůſein.
 
+[Curated heading level=2 type=propositions: II. Die ander propoſition]
+
 ## II. Die ander propoſition.
 
 [Subhead]
@@ -22,6 +24,8 @@ So inn ains zirckels vmbkhraiß zwen puncten genomen werden / vnd von aim zum an
 [/Subhead]
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: III. Die dritt propoſition]
 
 ## III. Die dritt propoſition.
 
@@ -34,6 +38,8 @@ So inn aim zirckel ain geſtracke lini durch das centrum gezogen / ain andere ſ
 Diſe propoſ. iſt vmbkhert der anhang der erſten / vnnd ſo von dem centro zů den ortten der lini / ſo dermaſſen tailtt wirt (als hie iſt a b) zwo geſtrackh linien zogen werden / leichtlich durch die 8 des erſten ir erſter tail / wie auch der ander durch deſſelben bůchs 5 vnnd 26 propoſition bewiſen werden.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: IIII. Die viert propoſition]
 
 ## IIII. Die viert propoſition.
 

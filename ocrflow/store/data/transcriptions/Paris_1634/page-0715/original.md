@@ -26,6 +26,10 @@ suppos. | □.ck 3|2 □.fк..□. ——, incomm. ck,
 5d85.10 | cf, est apotom. 5.
 2 concl. 96. 10 | h, est ——, fa. rat. & med.
 
+[Curated heading level=2 type=propositions: THEOR. LXXXVII. PROPOS. CXI.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXXVII. PROPOS. CXI.]
+
 ## THEOR. LXXXVII. PROPOS. CXI.
 
 Medio à medio detracto, quod sit incommensurabile toti; reliquæ duæ irrationales fiunt, vel mediæ apotome secunda, vel cum medio medium totum efficiens.

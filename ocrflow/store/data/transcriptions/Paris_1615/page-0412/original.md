@@ -12,6 +12,10 @@ Maintenant ſi on dit que HI eſt rationel; eſtant appliqué ſur la rationele
 
 Soit le rectangle medial AB√ 50. & le rectangle AD√18: le rectangle reſtant DB ſera √8. qul eſt medial. Derechef AB eſtant √32. & AD√ io; le reſtant DB ſera √32—√20. qui n’eſt pas rationel.
 
+[Curated heading level=2 type=propositions: PROBL. 4. PROP. XXVIII.]
+
+[Curated heading level=2 type=problems: PROBL. 4. PROP. XXVIII.]
+
 ## PROBL. 4. PROP. XXVIII.
 
 Trouuer deux mediales commenſurables en puiſſance ſeulement, comprenant vn rectãgle rationel.

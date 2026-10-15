@@ -16,6 +16,8 @@ d Per eand.
 
 Erit rurſum AF ad AB, vt AB ad AC.
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO IX.]
+
 ## PROPOSITIO IX.
 
 [Curated heading level=2 type=figures: Fig. 12]
@@ -29,6 +31,8 @@ Fig.12.
 Ducatur infinita AZ. Ex qua ſume AQ, QR æquales FI, IL. Ex R duc RB. Huic ex Q duc QC parallelam. Dico factum.
 
 Patet ex p.2.l.6.
+
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO X.]
 
 ## PROPOSITIO X.
 

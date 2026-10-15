@@ -25,6 +25,10 @@ hyp. | db *eſt* 2, β
 β | □db *eſt* 4,
 2 concl. 19.4.1 | □.ad + □.db *ſnt* 29.
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. VIII.]
+
 ## THEOR. VIII. PROPOS. VIII.
 
 Si vne ligne droicte est couppée comme on voudra: quatre fois le rectangle, contenu sous la toute & l'vn des segments auec le quarré de l'autre segment, est égal au quarré descrit de la toute & dudit segment, comme d'vne.

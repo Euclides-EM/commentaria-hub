@@ -27,6 +27,10 @@ hyp. | bac *eſt* ∠D.
 
 [Figure]
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. X.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. X.]
+
 ## PROBL. V. PROPOS. X.
 
 Couper vne ligne droicte donnée & terminée en deux parties égales.

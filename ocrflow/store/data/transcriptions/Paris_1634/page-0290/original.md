@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. III.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. III.]
+
 ## THEOR. III. PROPOS. III.
 
 Sit prima secundæ æquè multiplex, atque tertia quartæ ; sumantur autem æque multiplices primæ & tertiæ : erit & ex æquo, sumptarum vtraque vtriusque æquè multiplex, altera quidem secundæ, altera autem quartæ.

@@ -10,6 +10,10 @@ Idem qui priꝰ ostendẽdi modus ab impossibili.
 
 [Diagram: a d b f c e g]
 
+[Curated heading level=2 type=propositions: Theorema 12, Propositio 13.]
+
+[Curated heading level=2 type=theorems: Theorema 12, Propositio 13.]
+
 ## Θεώρημα ιβ, Πρόθεσις ιγ.
 
 ΚΥκλος κύκλου οὐκ ἐφάπτεται κατὰ πλείονα σημεῖα ἢ καθ' ἕν, ἐάν τε ἐντός, ἐάν τε ἐκτὸς ἐφάπτηται.
@@ -31,6 +35,10 @@ De circulis q̃ se tangũt extra.
 [/Margin]
 
 [Diagram: a b d c]
+
+[Curated heading level=2 type=propositions: Theorema 13, Propositio 14.]
+
+[Curated heading level=2 type=theorems: Theorema 13, Propositio 14.]
 
 ## Θεώρημα ιγ, Πρόθεσις ιδ.
 

@@ -6,6 +6,10 @@
 1.a.1 | <dfe 2|2 <dcb,
 concl. 29.1 | bc == ef.
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. XVII.]
+
 ## THEOR. VI. PROPOS. XVII.
 
 Pappus lib. 7. propos. 57.

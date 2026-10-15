@@ -6,6 +6,10 @@ inſcrit en vne figure rectiligne, quand la circonference du cercle touche vn ch
 
 Vne ligne droicte ſe dit eſtre accõmodee dans le cercle, quand les extremitez d’icelle ſont en la circonference du cercle.
 
+[Curated heading level=2 type=propositions: PROBL. 1. PROP. I.]
+
+[Curated heading level=2 type=problems: PROBL. 1. PROP. I.]
+
 ## PROBL. 1. PROP. I.
 
 Au cercle donné, accommoder vne ligne droicte egale à vne ligne droicte donnee, laquelle ne ſoit pas plus grande que le diametre du cercle.

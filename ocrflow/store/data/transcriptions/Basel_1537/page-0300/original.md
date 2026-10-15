@@ -16,6 +16,8 @@ CAMPANVS Binomium quoque tertium sic reperitur.Posita ut prius linea a rationali
 
 [Diagram: at the right, semicircle on diameter f g with apex b on the arc and chords drawn to f and g; below, a solid line a, a dotted line b, and a dotted line c divided into parts d and e]
 
+[Curated heading level=2 type=problems: Problema 15 Propositio 50]
+
 ## Eucli.ex Zamb. Theorema{printer-error-correction:Problema} 15 Propositio 50
 
 [Curated heading level=3 type=zamberti_sequence: 50.]

@@ -27,6 +27,10 @@ Hinc manifestum est, rectam à diametri circuli extremitate ad angulos rectos du
 
 Il est d'icy manifeste que la ligne droicte tirée de l'extremité du diametre, à angles droicts touche le cercle. Car il a esté demonstré qu'elle tombe dehors le cercle. Partant elle atteint le cercle à ce poinct extreme du diametre seulement.
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. XVII.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. XVII.]
+
 ## PROBL. II. PROPOS. XVII.
 
 A dato puncto rectam lineam ducere, quæ datum tangat circulum.

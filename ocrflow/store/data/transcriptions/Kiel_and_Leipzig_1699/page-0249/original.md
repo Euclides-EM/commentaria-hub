@@ -2,15 +2,21 @@
 
 <!-- Page number: 232 -->
 
+[Curated heading level=2 type=definitions: Beschreibung VII.]
+
 [Curated heading level=3 type=numbered_item: VII.]
 
 VII. Diejenigen Grössen/ welche in gleicher Verhältniß gegen einander stehen/ werden Ebenmässige (proportionales) genennet.
+
+[Curated heading level=2 type=definitions: Beschreibung IIX.]
 
 [Curated heading level=3 type=numbered_item: IIX.]
 
 IIX. Wenn aber unter etlichen vervielfältigten Grössen der Ersten Grösse ihre Vervielfältigung die Vervielfältigung der andern Grösse übertrifft: die Vervielfältigung aber der Dritten Grösse die Vervielfältigung der Vierdten Grösse nicht übertrifft: alsdenn wird die Erste zu der Andern eine grössere Verhältniß haben/ als die Dritte zu der Vierten.
 
 6a : 4a ⊣ 3a : 6a
+
+[Curated heading level=2 type=definitions: Beschreibung IX.]
 
 [Curated heading level=3 type=numbered_item: IX.]
 
@@ -19,6 +25,8 @@ IX. Ebenmässigkeit (proportio) erfodert wenigstens drey Grössen.
 8a : 4a : 2a
 
 8a : 4a | 4a : 2a
+
+[Curated heading level=2 type=definitions: Beschreibung X.]
 
 [Curated heading level=3 type=numbered_item: X.]
 

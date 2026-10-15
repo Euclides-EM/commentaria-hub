@@ -12,6 +12,10 @@ Eadem prorsus methodo in qualibet figura æquilatera, & æquiangula circulus des
 
 Par la mesme methode en toute figure equilaterale & equiangle se descrira le cercle.
 
+[Curated heading level=2 type=propositions: PROBL. XIV. PROPOS. XIV.]
+
+[Curated heading level=2 type=problems: PROBL. XIV. PROPOS. XIV.]
+
 ## PROPOS{printer-error-correction:PROBL}. XIV. PROPOS. XIV.
 
 Circa datum pentagonum æquilaterum, & æquiangulum circulum describere.

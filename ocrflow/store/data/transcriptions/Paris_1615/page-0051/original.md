@@ -8,6 +8,10 @@ Soit le triangle ABC. Ie dis que deux coſtez d’iceluy, leſquels on voudra, �
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 14. PROP. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 14. PROP. XXI.]
+
 ## THEOR. 14. PROP. XXI.
 
 Si des extremitez d’vn coſté dequelque triangle, on meine deux lignes droites ſe rencontrans au dedans d’ iceluy; icelles ſeront plus petites que les deux autres coſtez du triangle, mais elles feront vn plus grand angle.

@@ -4,6 +4,10 @@
 
 me A en BC, & chacune partie de EF ſera egale a D, comme chacune de BC a l’vnité, donc l’vnité BG eſt à la partie EI. comme GH à IK, & HC à KF: & partant par la 12. p7. tous les antecedents BC ſeront à tous les conſequents EF, cõme BG à EI, ou leur egaux A à D: ce qui eſtoit à prouuer.
 
+[Curated heading level=2 type=propositions: THEO. 14. PROP. XVI.]
+
+[Curated heading level=2 type=theorems: THEO. 14. PROP. XVI.]
+
 ## THEO. 14. PROP. XVI.
 
 Si deux nombres ſe multiplient l’vn l’autre; leurs produicts ſeront egaux entr’eux.
@@ -15,6 +19,10 @@ Vnité.
 C, que l’vnité eſt en A, par la 15. d.7. & par la 15.p.7. en changeant A ſera autant de fois dans C, que l’vnité eſt en B. Item B multipliant A, & produiſant D; A ſera autant de fois dedans D, qu’il y a d’vnitez en B par la meſme 15.d.7. & nous auons prouué que A eſtoit autant en C, que l’vnité en B; donc A eſt aut ant en C qu’en D; & partant par la 4. com. ſent. C & D ſeront egaux entr'eux: ce qu’il falloit demonſtrer.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: THEOR 15. PROP. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR 15. PROP. XVII.]
 
 ## THEOR 15. PROP. XVII.
 

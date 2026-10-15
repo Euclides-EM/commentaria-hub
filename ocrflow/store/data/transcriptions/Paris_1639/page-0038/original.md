@@ -1,5 +1,7 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=3 type=axioms: AXIOME 1. a. g.]
+
 ### 1. a. g.
 
 L'interpretation ne change point l'égalité.
@@ -13,6 +15,8 @@ hyp. | cg *eſt* □.cd.
 
 C'est à dire, que si le quarré AF est égal au quarré CG, & que AF soit le quarré de AB, & CG le quarré de CD : la consequence sera, que le quarré de AB est égal au quarré de CD.
 
+[Curated heading level=2 type=axioms: AXIOME 2. a. 1.]
+
 ### 2. a. 1.
 
 Et si à choses égales on adjouste choses égales, les tous sont égaux.
@@ -23,6 +27,8 @@ hyp. | bf 2|2 dg,
 
 [Figure]
 
+[Curated heading level=2 type=axioms: AXIOME 3. a. 1.]
+
 ### 3. a. 1.
 
 Et si des choses égales on retranche choses égales, les restes sont égaux.
@@ -32,6 +38,8 @@ hyp. | ae 2|2 cf,
 3.a.1. | eb 2|2 fd.
 
 [Figure]
+
+[Curated heading level=3 type=axioms: AXIOME 3. a. b.]
 
 ### 3. a. b.
 

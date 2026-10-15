@@ -2,6 +2,10 @@
 
 <!-- Page number: 23 -->
 
+[Curated heading level=2 type=propositions: THEOR. 7. PROPOS. XIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 7. PROPOS. XIIII.]
+
 ## THEOR. 7. PROPOS. XIIII.
 
 Si à l’extremité d’vne ligne droite ſe rencontrent deux autres lignes droites de part & d’autre d’icelle faiſant deux angles egaux à deux droits, icelles lignes ſe rencontreront . directement.
@@ -9,6 +13,10 @@ Si à l’extremité d’vne ligne droite ſe rencontrent deux autres lignes d
 [Diagram]
 
 Soit la ligne AB, à l’extremité de laquelle B ſe rencontrét deux autres lignes droites CB, & DB, faiſant les deux angles ABC & ABD egaux à deux droicts. Ie dis que CB, & DB ſe rencontrent directement, c’eſt à dire que CBD eſt vne ligne droicte. Autrement ſi CBD n’eſt ligne droite, ſoit continuee CB diréctement, tant qu’il ſera de beſoin: ce qui ſera adiouſté à CB directement, ou bien tombera au deſſous de BD, ou au deſſus: ſoit au deſſus, & ſoit CBE, ligne droite; les deux angles ABC, & ABE, ſeront donc egaux à deux droits par la 13.p.1. & les deux ABC & ABD ſont auſſi egaux à deux droits, & par la 1. com. ſent. ils ſeront egaux aux deux ABC, & ABE, c’eſt à ſçauoir que ABD & ABE ſeront egaux, le tout à la partie, ce qui eſt impoſſible: donc CB, & DB ſe rencontroient directement.
+
+[Curated heading level=2 type=propositions: THEOR. 8. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. 8. PROPOS. XV.]
 
 ## THEOR. 8. PROPOS. XV.
 

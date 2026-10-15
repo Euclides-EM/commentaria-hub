@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. II.]
+
 ## THEOR. II. PROPOS. II.
 
 Si prima secundæ æquè fuerit multiplex, atque tertia quartæ ; fuerit autem & quinta secundæ æquè multiplex, atque sexta quartæ ; erit & composita prima cum quinta, secundæ æquè multiplex, atque tertia cum sexta quartæ.

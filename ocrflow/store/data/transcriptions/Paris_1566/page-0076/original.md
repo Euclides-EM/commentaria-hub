@@ -5,6 +5,8 @@ A dato ſigno A, circulo D B G in eodem plano, tangentem rectam ducamus. A centr
 
 [Diagram: two concentric circles with tangent A B and labels A, B, D, E, G, I, Z]
 
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
+
 ## Propoſitio decimaoctaua.
 
 Si circulum tetigerit aliqua recta linea, à centro autem in contactum ducta fuerit recta linea, ipſa ducta perpendicularis erit tangenti.
@@ -12,6 +14,8 @@ Si circulum tetigerit aliqua recta linea, à centro autem in contactum ducta fue
 Tangat recta D E circulum A B G, cuius centrum ſit Z, per I huius, & à centro Z, in contactum G aliqua Z G ducatur: Dico Z G perpendicularem eſſe ipſi D G E tangenti, ſin minus, ſit alia quædam Z I ipſi D E perpendicularis, ab ipſa Z G cadente in contactum: quoniam rectus (ſi id eſſet) fieret angulus Z I G trianguli G Z I, & ideo maior. Latus G Z illum ſubtendens, maius eſſet reliquo Z I, per 18 primi, & minus, cùm ſit æquale ipſi Z B, quæ ex centro, quod eſſet abſurdum. Non erit igitur rectæ D E tangenti, alia à centro perpendicularis, quàm Z G in contactum cadens. Si igitur circulum tetigerit aliqua recta linea, &c.
 
 [Diagram: circle A B G tangent to line D G E, with centre Z and lines Z G and Z I]
+
+[Curated heading level=2 type=propositions: Propoſitio decimanona.]
 
 ## Propoſitio decimanona.
 
@@ -24,6 +28,8 @@ Tangat circulum A B G, aliqua recta D E in G. A contactu autem G aliqua ad recto
 ### MONITVM.
 
 Addidimus huic theoremati has voces (circulum ſecans) vt citra contentionem fiat theorema. Nam à contactu poſſet ad rectos tangenti perpendicularis excitari, non capiens circuli centrum, ſi extra circulum excitaretur.
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſima.]
 
 ## Propoſitio vigeſima.
 

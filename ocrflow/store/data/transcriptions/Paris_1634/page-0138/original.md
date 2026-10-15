@@ -28,6 +28,10 @@ d. α | △ace 2|2 △icb,
 d. β | ◊clme 2|2 ▭ch,
 concl. 2.a.1. | ▭be 2|2 ▭af + ▭ai.
 
+[Curated heading level=2 type=propositions: THEOR. XXXIV. PROPOS. XLVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIV. PROPOS. XLVIII.]
+
 ## THEOR. XXXIV. PROPOS. XLVIII.
 
 Si quadratum, quod ab vno laterum trianguli describitur, æquale sit eis, quæ à reliquis trianguli lateribus describuntur, quadratis : Angulus comprehensus sub reliquis duobus trianguli lateribus, rectus est.

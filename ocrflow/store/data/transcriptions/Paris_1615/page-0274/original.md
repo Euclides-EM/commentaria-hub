@@ -16,6 +16,10 @@ Car puis que Ceſt le coſté de A; C multiplié par ſoymeſme produira A: pa
 
 Pour la ſeconde partie: il eſt euident que le quarré A, eſt au quarré B en raiſon doublee du coſté C au coſté D. Car A, E, B eſtans continuellement proportionnaux, Aeſt a B en raiſon doublee de A a E par la 10.d.3. qui eſt la meſme raiſon de C aD.
 
+[Curated heading level=2 type=propositions: THEOR. 10. PROP. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. 10. PROP. XII.]
+
 ## THEOR. 10. PROP. XII.
 
 Entre deux nombres cubes tombent deux moyés proportionnaux: & le cube eſt au cube en raiſon triplee du coſté au coſté.

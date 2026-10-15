@@ -2,11 +2,19 @@
 
 <!-- Page number: 282 -->
 
+[Curated heading level=2 type=propositions: THEOR. 25. PRO. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. 25. PRO. XXVII.]
+
 ## THEOR. 25. PRO. XXVII.
 
 Si d’vn nombre impair on oſte vn nombre impair, le reſte ſera impair.
 
 Cecy eſt auſſi ayſé à demonſtrer: Car ſi le reſte eſtoit pair; le reſte & le retranché feroient vn nombre pair, par la 21.p.9. contre l’hypothele.
+
+[Curated heading level=2 type=propositions: THEOR. 26. PROP. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 26. PROP. XXVIII.]
 
 ## THEOR. 26. PROP. XXVIII.
 
@@ -17,6 +25,10 @@ La demonſtration de ceſte prop. eſt auſſi euidente: Car par les def. de 7. 
 ### SCHOLIE.
 
 On demonſtrera en la meſme maniere, que ſi vn nombre pair multiplie vn nombre fair; le produit ſera außi pair.
+
+[Curated heading level=2 type=propositions: THEOR. 27 PROP. XXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. 27 PROP. XXIX.]
 
 ## THEOR. 27 PROP. XXIX.
 

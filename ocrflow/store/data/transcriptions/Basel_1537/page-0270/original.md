@@ -6,6 +6,8 @@ CAMPANVS Hæc 14 ex cōtrario antecedentis præmissæ infert contrarium conseque
 
 [Diagram: rectangle divided by a vertical line near its left end, labeled e at top; below it, a horizontal line with points a, d, f, b marked; beneath, a second line labeled c]
 
+[Curated heading level=2 type=theorems: Theorema 15 Propositio 18]
+
 ## Eucli.ex Zamb. Theorema 15 Propositio 18 Præcedentis conuersa.
 
 [Curated heading level=3 type=zamberti_sequence: 18.]

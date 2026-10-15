@@ -6,11 +6,15 @@ impa. impar. *impair.*
 
 *differe du nombre pair, de l'vnité : comme 5, 7, 15, sont nombres impairs.*
 
+[Curated heading level=2 type=definitions: DEFINIT. VIII.]
+
 ## DEFINIT. VIII.
 
 Pariter par numerus est, quem par numerus metitur per numerum parem.
 
 *Nombre pairement pair, est celuy qu'vn nombre pair mesure par vn nombre pair.*
+
+[Curated heading level=2 type=definitions: DEFINIT. IX.]
 
 ## DEFINIT. IX.
 

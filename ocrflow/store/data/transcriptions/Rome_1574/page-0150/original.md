@@ -18,6 +18,8 @@ PERSPICVVM eſt, eodem modo diuidi poſſe eandem lineã rectã A B, in 4. parte
 
 [Curated heading level=2 type=campanus: 11]
 
+[Curated heading level=2 type=problems: PROBL. 6. PROPOS. 11.]
+
 ## PROBL. 6. PROPOS. 11.
 
 [Curated heading level=3 type=incipit: DATA]

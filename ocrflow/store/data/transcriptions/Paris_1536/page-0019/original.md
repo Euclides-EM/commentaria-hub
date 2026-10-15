@@ -10,6 +10,8 @@ in b,circum idem punctum a,completè reuoluatur: describens planum circulare b/c
 
 [Curated heading level=3 type=numbered_item: 8.]
 
+[Curated heading level=2 type=definitions: Diffinitio 8.]
+
 8 Planus angulus,est duarum linearum in plano sese tangentium, & non in directo iacentium,ad alterutram inclinatio.
 
 [Margin]
@@ -21,6 +23,8 @@ Hæc autem inclinatio de rectis lineis potissimùm venit intelligenda: tales eni
 Ὅταν δὲ αἱ περιέχουσαι τὴν γωνίαν γραμμαὶ εὐθεῖαι ὦσιν,εὐθύγραμμος καλεῖται ἡ γωνία.
 
 [Curated heading level=3 type=numbered_item: 9.]
+
+[Curated heading level=2 type=definitions: Diffinitio 9.]
 
 9 Quando autem quæ angulum continent rectæ lineæ fuerint,rectilineus angulus nuncupatur.
 
@@ -50,6 +54,8 @@ Angulus, Rectus, Acutus, Obtusus.
 Ὅταν δὲ εὐθεῖα ἐπ᾽ εὐθεῖαν σταθεῖσα τὰς ἐφεξῆς γωνίας ἴσας ἀλλήλαις ποιῇ, ὀρθή ἐστιν ἑκατέρα τῶν ἴσων γωνιῶν.καὶ ἡ ἐφεστηκυῖα εὐθεῖα,κάθετος καλεῖται ἐφ᾽ ἣν ἐφέστηκεν.
 
 [Curated heading level=3 type=numbered_item: 10.]
+
+[Curated heading level=2 type=definitions: Diffinitio 10.]
 
 10 Cùm verò recta linea super rectam consistens lineam, vtrobique angulos adinuicem æquales fecerit:rectus est vterque æqualium angulorum.Et quæ superstat recta linea,perpendicularis vocitatur,super quam steterit.
 

@@ -33,6 +33,10 @@ d. 8. 1.
 
 et ſunt deinceps. quando autem recta linea ſuper recta linea inſiſtens, eos qui deinceps ſunt angulos, aequales inter ſe fecerit, rectus eſt uterque aequalium angulorum; et quae inſiſtit recta linea perpendicularis appellatur ad eam cui inſiſtit. ſuper datam igitur rectam lineam infinitam AB a dato puncto C, quod in ea non eſt, perpendicularis ducta eſt CH. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIII. THEOR.]
+
 ## PROP. XIII. THEOR.
 
 [Subhead]

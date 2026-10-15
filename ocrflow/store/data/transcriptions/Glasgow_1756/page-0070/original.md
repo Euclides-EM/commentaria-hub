@@ -11,6 +11,10 @@ aequale igitur eſt AE ipſis AD, CE; et eſt AE quidem rectangulum contentum ab
 
 [Diagram: rectangle divided by a vertical line, with A, C, B along the top and F, D, E along the bottom]
 
+[Curated heading level=2 type=propositions: PROP. IV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IV. THEOR.]
+
 ## PROP. IV. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea ſecta fuerit utcunque, quadratum ex tota aequale eſt, et quadratis ex partibus, et rectangulo bis a partibus contento.

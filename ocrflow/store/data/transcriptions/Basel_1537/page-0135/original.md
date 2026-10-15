@@ -18,6 +18,8 @@ CAMPANVS. Sit proportio a ad b, sicut c ad d. Dico quod erit a ad c sicut b ad d
 
 [Diagram: six horizontal line segments with tick marks, labeled g, e, a with c, b with d, f with h]
 
+[Curated heading level=2 type=theorems: Theorema 16 Propositio 16]
+
 ## Eucli ex Zamb. Theorema 16 Propositio 16
 
 [Curated heading level=3 type=zamberti_sequence: 16.]

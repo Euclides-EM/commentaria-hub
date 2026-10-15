@@ -18,6 +18,10 @@ welches aber unmüglich n. 9. Gr-S.
 ### Beschluß.
 Müssen derowegen die beeden Striche EC und DC gerade auff einander stossen / und von der gegend DC weder auff- noch unterwerts sich lencken. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 8. Beweiß-Stück. Der XV. Vortrag.]
+
 ## Der XV. Vortrag.
 
 ## Das 8. Beweiß-Stück.

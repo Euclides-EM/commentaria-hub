@@ -15,6 +15,10 @@ Hinc manifestum est, si in circulo recta aliqua linea aliquam rectam lineam bifa
 
 De cette proposition il est euident, que si au cercle, vne ligne droicte est couppée en deux également & à angles droicts, par vne autre ligne droicte, le centre du cercle sera en icelle couppāte.
 
+[Curated heading level=2 type=propositions: THEOR. I. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. II.]
+
 ## THEOR. I. PROPOS. II.
 
 Si in circuli peripheria duo quælibet puncta accepta fuerint; recta linea, quæ ad ipsa puncta adiungitur, intra circulum cadet.

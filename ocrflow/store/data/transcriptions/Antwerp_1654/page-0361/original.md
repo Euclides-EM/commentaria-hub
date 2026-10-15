@@ -3,6 +3,8 @@
 
 IO, CO, ac proinde per 4.l.11. recta plano QN. Quod erat dem.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXVIII.]
+
 ## PROPOSITIO XXVIII.
 
 [Curated heading level=2 type=figures: Fig. 20, 22 & 21]

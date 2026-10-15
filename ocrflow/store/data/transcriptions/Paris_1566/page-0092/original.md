@@ -5,9 +5,11 @@ Sit datus circulus A B G D in quo (per præcedentem) ſumantur quinque ſigna, a
 
 [Diagram]
 
-## Propoſitio decimatertia.
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
 
-## Problema 13.
+[Curated heading level=2 type=problems: Propoſitio decimatertia. Problema 13.]
+
+## Propoſitio decimatertia. Problema 13.
 
 In dato pentagono æquilatero, & æquiangulo circulum inſcribere.
 
@@ -15,9 +17,11 @@ Sit datum pẽtagonum æquilaterũ, ac æquiangulũ A B G D E, cuius B G D, G D 
 
 [Diagram]
 
-## Propoſitio decimaquarta.
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
 
-## Problema 14.
+[Curated heading level=2 type=problems: Propoſitio decimaquarta. Problema 14.]
+
+## Propoſitio decimaquarta. Problema 14.
 
 Circa datum pentagonum æquilaterum, & æquiangulum circulum deſcribere.
 

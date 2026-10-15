@@ -1,6 +1,10 @@
 <!-- Page number: 82 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. XI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XI. THEOR.]
+
 ## PROP. XI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duo circuli ſeſe intus contingant, et ſumantur centra ipſorum; recta linea ipſorum centra conjungens producta in circulorum contactum cadet.
@@ -16,6 +20,10 @@ a. 20. 1.
 [/Margin]
 
 hoc eſt quam FH, (eſt enim FA aequalis ipſi FH, nam ab eodem ſunt centro) communis auferatur FG, reliqua igitur AG major eſt quam reliqua GH. ſed AG eſt aequalis GD, ergo GD ipſâ GH eſt major, minor majore, quod fieri non poteſt. non igitur puncta F, G conjungens recta linea extra contactum A cadet. cadet igitur in ipſum. ſi igitur duo circuli &c. Q. E. D.
+
+[Curated heading level=2 type=propositions: PROP. XII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XII. THEOR.]
 
 ## PROP. XII. THEOR.
 

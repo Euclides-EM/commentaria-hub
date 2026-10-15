@@ -13,6 +13,8 @@ Tertio autem cùm ea quæ per centrum extenſa, inæqualiter reliquam per centru
 
 Triplicem intulimus huic demonſtrationem, eo quòd lineæ variis ſecandi modis in circulo coaptentur, quorum tantùm Theon vnum, ſcilicet cùm nulla earum per centrum deſcribitur, expoſuit, reliquos omittens, duo ſcilicet quibus lineæ ſeſe ſecantes, vel earum altera centrum occupat, propriis figuris demonſtrandos, quibus quartus facilis exhibetur, & ſine figura, nulla ambiguitate propalatus.
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſexta.]
+
 ## Propoſitio trigeſimaſexta.
 
 Si extra circulum ſumatur ſignum, ab eóque duæ rectæ lineæ cadant, & earum altera circulum ſeccet, altera verò tangat, quod ſub tota ſecante & eius parte extrinſecus ſumpta comprehenditur rectangulum, æquum eſt ei quod fit ex tangente quadrato.

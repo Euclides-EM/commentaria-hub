@@ -10,6 +10,8 @@ Quod ut clarius pateat: ſit in circulo a b c cuius centrũ d, linea a b cui non
 
 [Diagram: circle with centre d and diameter a d c; line a b drawn from a through the circumference at b and produced beyond; a further line from a to e beyond c]
 
+[Curated heading level=2 type=theorems: Theorema 27. Propoſitio 31.]
+
 ## Eucli.ex Zamb. Theorema 27. Propoſitio 31.
 
 [Curated heading level=3 type=zamberti_sequence: 31.]

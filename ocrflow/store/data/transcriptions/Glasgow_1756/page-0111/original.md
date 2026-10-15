@@ -3,6 +3,10 @@
 
 minor fuerit ipſo BAD, centrum E cadet intra ſegmentum ABC, quod propterea majus erit ſemicirculo. Circuli igitur ſegmento dato, deſcriptus eſt circulus cujus eſt ſegmentum. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XXVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXVI. THEOR.]
+
 ## PROP. XXVI. THEOR.
 
 {dropcap:I|lines=2|style=plain}N æqualibus circulis æquales anguli æqualibus inſiſtunt circumferentiis, ſive ad centra, ſive ad circumferentias inſiſtunt.

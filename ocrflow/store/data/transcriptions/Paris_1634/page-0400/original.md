@@ -27,6 +27,10 @@ aib est Δ amblygon.
 
 Commandinus ad 62. propos. lib. 7. Pappi adfert demonstrationem ostensiuam huius theorematis : sed eius demonstratio nihil probat ; quoniam non demonstrauit circulos se mutuo tangere.
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. XV.]
+
 ## THEOR. IV. PROPOS. XV.
 
 [Figure: quatre figures numerotees 1, 2, 3, 4 : cercles auec les poincts A, B, C, D & les lignes E, F, G au bas]

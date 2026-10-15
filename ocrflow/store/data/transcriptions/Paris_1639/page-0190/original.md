@@ -37,6 +37,10 @@ concl. 2.a.1 | ∠hab 2|2 ∠hag. α
 d. α | ∠eab 2|2 ∠eah,
 d. α | ∠aed 2|2 ∠aef.
 
+[Curated heading level=2 type=propositions: PROBL. XIII. PROPOS. XIII.]
+
+[Curated heading level=2 type=problems: PROBL. XIII. PROPOS. XIII.]
+
 ## PROBL. XIII. PROPOS. XIII.
 
 En vn pentagone donné, equilateral & equiangle, inscrire vn cercle.

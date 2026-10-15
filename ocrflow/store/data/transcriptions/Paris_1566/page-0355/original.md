@@ -1,8 +1,12 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
-## Corollarium.
+### Corollarium.
 
 Inferemus, Si à centro ſphæræ æquales perpendiculares agantur in circulos ſphæram ſecantes, ipſos circulos æquales eſſe, ac demiſſas perpendiculares in eorum centra cadere ſequetur. Nam ea quæ ex centro ſphæræ, ſemper poteſt perpendicularem, & eam quæ ex contactu in circunferentiam protenditur. Communi igitur ablata perpendiculari, ſequetur reliquas quotcunque, inuicem æquas eſſe. Quare circulos æquales deſcribent per primam diffinit. tertij, & in eorum centra cadunt perpendiculares, per decimamſeptimam diffinit. vndecimi, ſunt enim conorum axes. In quos verò circulos maiores cadunt perpendiculares, minores erunt circuli. Nam ab eadem potentia quæ ex centro ſphæræ, maior perpendicularis ablata potentia, minorem relinquit eius quæ ex circuli centro potentiam, & ideo minorem efficit circulum. Si igitur æquales fuerint circuli illi, in eos demiſſæ perpendiculares æquales erunt. Nam ſi maiores vel minores eſſent, circuli inæquales eſſent, vt patuit, quod obſtaret hypotheſi. Et proinde perpendiculares in baſes, omnium dictarum à centro ſphæræ minimè exiſtunt. Nam ſingulæ aliæ eas poſſunt, & eam quæ à centro circuli ſecantis ſphæram eas iungit.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaſeptima. Problema 2.]
 
 ## Propoſitio decimaſeptima. Problema 2.
 

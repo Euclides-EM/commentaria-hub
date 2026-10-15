@@ -3,6 +3,10 @@
 
 CF ita multiplex AE vt tota CD totius AB, Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 6, PROPOSITIO VI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 6, PROPOSITIO VI.]
+
 ## THEOREMA 6, PROPOSITIO VI.
 
 Si duæ Magnitudines duarum Magnitudinum æquemultiplices fuerint, auferanturq́; aliquæ earundem æquemultiplices: erunt & reliquæ vel eiſdem æquales, vel ipſarum æquemultiplices.

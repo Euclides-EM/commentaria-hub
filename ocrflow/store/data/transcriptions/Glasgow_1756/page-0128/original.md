@@ -11,6 +11,10 @@ et centro quidem C, intervallo autem CE circulus deſcribatur AEF, et CA jungatu
 
 Quoniam igitur punctum C centrum eſt AEF circuli, erit CA ipſi CE aequalis; ſed D eſt aequalis CE, ergo et D ipſi CA aequalis erit. In dato igitur circulo ABC datae rectae lineae D, non majori circuli diametro, aequalis aptata eſt AC. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. II. PROB.]
+
+[Curated heading level=2 type=problems: PROP. II. PROB.]
+
 ## PROP. II. PROB.
 
 {dropcap:I|lines=2|style=plain}N dato circulo, triangulo dato aequiangulum triangulum inſcribere.

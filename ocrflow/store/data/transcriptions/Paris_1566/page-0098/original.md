@@ -4,6 +4,10 @@
 
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quintus.
 
+[Curated heading level=1 type=definitions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quintus.]
+
+[Curated heading level=2 type=definitions: Diffinitio 1.]
+
 ## Diffinitio 1.
 
 {dropcap:P|lines=7|style=decorated}ARS, eſt magnitudo minor, quæ à maiore ſumitur.
@@ -13,6 +17,8 @@ Receptum eſt omne analogum prius diſtinguẽdum quàm eſſe diffiniendum: di�
 ### MONITVM.
 
 Huius diffinitionis voces aliquas tranſtulimus, cùm dixiſſet Theon partem eam eſſe quæ totum metitur, non exiſtimantes huic ſententiæ Euclidem ſubiacere. Quippe qui futuro decimo incertam magnitudinem à certa propoſita detrahere (vt incertam eam propalet) ſibi futurum eſſe præuidet. Et proinde incertam veluti totius certæ abſtractum, eiuſdem certæ partem fore concludit, ſuo toti penitus incommenſurabilem: nihilominus partem diffiniſſet eam, quæ maiorem vel totam metitur magnitudinem (licet toti certè incommenſurabilem futuram eſſe ab illa detractam, apotomen ſe oſtenſurum expectaret, 73 decimi, ac ſectæ 11 ſecundi rectæ ſectiones, partes eſſe videret) non credimus, obſtante horum elementorum ac totius geometriæ immaculata methodo, cuius facultas ad commenſurabiles & incommenſurabiles defertur quantitates. Non igitur Euclidem eius arithmeticæ partis diffinitionem geometriæ deſtinaſſe credemus. Quam ideo ſcripſit Theon partis diffinitionem, arithmeticis relinquemus. Is nãque vtriuſque diſciplinæ diffinitiones commiſcuit, immemor quãto abinuicem diſtent. Nos itaque diſciplinarum dignitatem obſeruantes, quæq; cuiuis competant, ſeorſum explicanda eſſe conſulimus, ne cùm ad decimum peruenerimus (vtriuſque certæ ſcilicet ac incertæ quantitatis præcepta docentem) fœdata extet huius matheſis immaculata methodus, exceptionibus, limitationibus, reſtrinctionibus, ampliationibus, & huiusce cautelis incertarum profeſſionum cultioribus ornamentis. Sed ſibi perpetuo conſtans certis valletur principiis. Et tandem commune illud 9 eloquium (totum ſcilicet ſua quauis parte maius haberi) veneremur.
+
+[Curated heading level=2 type=definitions: Diffinitio 2.]
 
 ## Diffinitio 2.
 

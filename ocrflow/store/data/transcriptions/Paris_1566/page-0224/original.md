@@ -3,6 +3,10 @@
 
 la comprehendent, ſub binis lateribus commenſurabilibus comprehenſa, quæ quidem vnitates rectangulum totum numerantes, erunt. Quia verò cuiuſlibet vnitatis longitudo & latitudo certæ ſunt lineæ, cùm ſint certæ commenſurabiles. Ipſæ rectangulum certum producent, cuius quidem longitudo & latitudo eſt determinata, ſiue iuxta. Quod ſi illi propoſitæ certæ alia comparetur certa, ipſi potentia tantùm commenſurabilis, longitudine verò nequaquam. Vulgatum eſt earum linearum vnitates incommenſurabiles eſſe, ex hypotheſi. Quare rectangulum ſub vnitate certæ lineæ, & vnitate reliquæ priori incommenſurabili comprehenſum, incertum ac indeterminatum eſſe. Nam alteram eius certam dimenſionem, reliqua incerta indeterminat. Idcirco ex his vnitatibus indeterminatis conſtans rectangulum, incertum ac indeterminatum erit, hoc eſt, à natura eius quod fit ex propoſita alienum. Si verò eidem propoſitæ binæ potentia tantùm commenſurabiles offerantur (adinuicem verò longitudine commenſurabiles exiſtant) quæ rectangulum comprehendant, Perſpicuum eſt eius rectanguli vnitates ſub lineis ipſæ certæ incommenſurabilibus contineri, æque ſecundum longitudinem ac latitudinem. Et nihilominus certas eſſe: nam ſub lineis longitudine ſibi, & potentia ſibi, ac propoſitæ commenſurabilibus continentur. Sed quia earum potentia certæ propoſitæ commenſurabilis fuit ſequetur ſub ipſis comprehenſum rectangulum, & ab his vnitatibus compoſitum, ipſius certæ quadrato commenſurabile (& ideo certum) eſſe. Nempe rectangulum ex iiſdem quadratorum vnitatibus conſtans, eidem potentiæ cui quadrata commenſurabilia extiterunt, commenſurabile fiet.
 
+[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIONum reſtitutarum Liber decimus.]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
+
 ## Propoſitio prima.
 
 Duabus magnitudinibus inæqualibus expoſitis, ſi à maiore auferatur maius quàm dimidium, & eius quod relictum eſt maius quàm dimidium, idque ſæpe fiat, Relinquetur tandem magnitudo minor, minore magnitudine expoſita.
@@ -15,6 +19,6 @@ Addantur ipſi AK tot æquales, quouſque aliam DG excedant, per 4 diff. quinti,
 
 [Diagram: two horizontal lines, the upper labelled A, K, T, B and the lower G, I, Z, D]
 
-## MONITVM.
+### MONITVM.
 
 Non defuerunt qui huius theorematis immenſam in quantitates poteſtatem reſtringere voluerint, oppoſito argumento ex decimaſexta tertij, inter quos potior fuit Campanus, cùm dicit angulum contingentiæ ſemper minore relinqui quolibet rectilineo angulo. A quo ſæpius plus quàm dimidium ablatum fuerit, & ideo videri hoc theorema nugatoria exceptione fœdandum eſſe. Soluit autem hoc argumentum, dicens hos angulos non vniuoce dici angulos, ac curuum & rectum diuerſa eſſe genera, quod nos omnino fateri non poſſumus. Nam anguli rectilinei, & anguli contingentiæ idem eſt genus, quoad quantitatem, licet quoad commenſurationem ſint diuerſa, angulorum etenim quantitas in ſola inclinatione linearum continetur, vt quæ fuerit maior minor, vel æqualis inclinatio, quanti

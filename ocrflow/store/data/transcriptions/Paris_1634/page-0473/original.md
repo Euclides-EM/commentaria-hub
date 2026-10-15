@@ -14,6 +14,10 @@ s.4.d.7 | ag msur: e 2|2 ch msur: f,
 13.7 | ag π ch 2|2 e π f,
 9.a.1 | ab & cd n̄ snt term.. raō. contr. hypoth.
 
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XXII.]
+
 ## THEOR. XX. PROPOS. XXII.
 
 Si fuerint tres numeri, & alij ipsis multitudine æquales, qui bini sumantur, & in eadem ratione, fuerit autem perturbata eorum proportio ; etiam ex æqualitate in eadem ratione erunt.

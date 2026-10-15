@@ -4,6 +4,8 @@
 
 magnitudine datur igitur d f e triangulum specie. Et quoniam bina triangula a b c,d e f unum angulum uni angulo æquum habent eum scilicet qui sub b a c,ei qui sub d f e,ea uero quæ circum eos qui sub b a c,d f e,angulos latera proportionalia,simile igitur est & æquale per primam diffinitionem & 6 propositionem sexti elementorum triangulũ a b c ipsi d e f triangulo. Datur autem d f e,specie,datur igitur & a b c triangulum specie
 
+[Curated heading level=2 type=theorems: Theorema 42 Propositio 42]
+
 ## Theorema 42 Propositio 42
 
 SI trianguli latera adinuicem rationem habuerint datam,datur triangulum specie.
@@ -11,6 +13,8 @@ SI trianguli latera adinuicem rationem habuerint datam,datur triangulum specie.
 Triãguli enim a b c,latera adinuicem rationem habeant datam. Dico quod ipsum a b c,triangulũ datur specie:exponatur enim data magnitudine recta linea d,& quoniã ratio ipsius a b,ad b c data est. Eadem eidem fiat ipsius d ad e. Data autem d. Data igitur & e. Rursus quoniã ratio ipsiꝰ b c,ad a b data est,eadem eidem fiat ipsius e ad f. Data autẽ e data igitur & f,& ex tribus rectis lineis quæ æquales sunt tribus datis d e f,quarum binæ reliqua quomodocunque assumptæ sunt maiores,per 22 primi elementorum triangulum constituatur g h k. Quoniam æqualis est d ipsi g h,& e ipsi h k & f ipsi g k, Data autem unaqueq̃ ipsarum d e f. Data igitur & unaqueque ipsarum g h,h k,k g magnitudine. Datur igitur triangulũ g h k, specie,& quoniam est sicut a b ad b c,sic est d ad e. Aequalis autẽ est d ipsi g h,& e ipsi h k:est igitur sicut a b ad b c, sic g h ad h k. Rursus quoniam est sicut b c ad c a sic e ad f. Aequalis autem est e ipsi h k:& f ipsi g k. Est igitur sicut b c ad c a sic h k ad k g. Ostensum autem est sicut a b ad b c,sic g h ad h k,ex æquali igitur per 22 quinti elemẽtorum,sicut b a ad a c,sic g h ad g k. Simile igitur est per primam diffinitionem 6 elementorum a b c triangulum ipsi g h k triangulo. Datur autem g h k triangulum specie. Datur igitur & a b c triangulum specie.
 
 [Diagram: triangle with apex a and base corners c, b; below it a second triangle with apex g and base corners k, b (for h); below these, three horizontal lines labelled d, e, f]
+
+[Curated heading level=2 type=theorems: Theorema 43 Propositio 43]
 
 ## Theorema 43 Propositio 43
 

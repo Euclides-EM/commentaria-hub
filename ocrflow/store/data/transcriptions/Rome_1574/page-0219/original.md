@@ -28,6 +28,8 @@ SIT trapezium ABCD, cuius duo latera oppoſita A B, D C, ſint parallela, & ſup
 
 [Curated heading level=2 type=campanus: 42]
 
+[Curated heading level=2 type=problems: PROBL. 11. PROPOS. 42.]
+
 ## PROBL. 11. PROPOS. 42.
 
 [Margin]

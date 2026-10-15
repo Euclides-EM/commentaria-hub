@@ -4,9 +4,11 @@ Eſto datum pẽtagonũ æquilaterũ & æquiangulũ A B G D E, cuius duo anguli 
 
 [Diagram]
 
-## Propoſitio decimaquinta.
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
 
-## Problema 15.
+[Curated heading level=2 type=problems: Propoſitio decimaquinta. Problema 15.]
+
+## Propoſitio decimaquinta. Problema 15.
 
 In dato circulo exagonum, æquilaterum & æquiangulum, inſcribere.
 
@@ -18,9 +20,11 @@ Datus circulus ſit A E G, cuius centrum I dimetiens verò A I D, centro D inter
 
 Hinc aſſequimur latus exagoni æquum eſſe ei quæ ex centro circuli id ambientis. Quòd ſi exagoni reliquas circulo inſcriptiones & circunſcriptiones inquiramus, pentagoni methodum ſectemur, 12.13.14. præcedentibus expoſitam, per rectas ſcilicet perpendiculares à centro in baſes, circulum illi inſcribemus, circulo verò exagonum circumſcribemus per tangentes, &c.
 
-## Propoſitio decimaſexta.
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
 
-## Problema 16.
+[Curated heading level=2 type=problems: Propoſitio decimaſexta. Problema 16.]
+
+## Propoſitio decimaſexta. Problema 16.
 
 In dato circulo quindecagonum æquilaterum, & æquiangulum inſcribere.
 

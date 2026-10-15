@@ -1,17 +1,23 @@
 <!-- Running title: APPENDICE. -->
 <!-- Page number: 229 -->
 
+[Curated heading level=2 type=definitions: DEFINITION IX.]
+
 ## DEFINITION. IX.
 
 {dropcap:U|lines=2|style=plain}Ne grandeur R eſt conſidérée comme la Racine d'une autre grandeur E, lorſqu'un de ſes produits ſucceſſifs R², R³, ou R⁴, &c, devient égal à la grandeur propoſée E. En particulier on nomme R la racine quarrée de E, lorſque R R ou R² = E: & la racine cubique, quand R R R ou R³ = E; & ainſi de ſuite.
 
 On marque la racine par le ſigne √; & l'ordre des racines par les chiffres 2, 3, 4, &c. nommés Exposans radicaux. Ainſi ²√E, ³√E, ⁴√E, dénotent ſucceſſivement la racine quarrée, cubique, quarré-quarrée de E; & ainſi de ſuite à l'infini.
 
+[Curated heading level=2 type=postulates: DEMANDE II.]
+
 ## DEMANDE II.
 
 {dropcap:Q|lines=2|style=plain}U'on puiſſe trouver les racines quarrées, cubiques, & toutes les autres racines des grandeurs déterminées.
 
 L'Arithmétique détermine ces racines ou exactement, ou à peu près, par ſes opérations. L'Algébre abrége ces opérations au moyen de ſes formules générales. Et la Géométrie aſſigne un certain nombre de ces racines, par des conſtructions linéaires. On ſuppoſe donc que l'extraction effective des racines eſt poſſible, afin de pouvoir établir les vérités Théorétiques qui en dépendent.
+
+[Curated heading level=2 type=propositions: PROPOSITION VIII.]
 
 ## PROPOSITION VIII.
 

@@ -6,9 +6,15 @@
 
 ## DEFINITIONES.
 
+[Curated heading level=1 type=definitions: Liber III]
+
+[Curated heading level=2 type=definitions: Lib. III, Def. 1]
+
 [Curated heading level=3 type=numbered_item: 1.]
 
 1. {dropcap:C|lines=2|style=plain}Irculi æquales ſunt, quorum diametri ſeu ſemidiametri ſunt æquales.
+
+[Curated heading level=2 type=definitions: Lib. III, Def. 2]
 
 [Curated heading level=3 type=numbered_item: 2.]
 
@@ -22,6 +28,8 @@
 Fig. 10. li. 3.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. III, Def. 3]
+
 [Curated heading level=3 type=numbered_item: 3.]
 
 [Curated heading level=2 type=figures: Fig. 13 & 14]
@@ -32,6 +40,8 @@ Fig. 10. li. 3.
 Fig. 13. & 14.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Lib. III, Def. 4]
+
 [Curated heading level=3 type=numbered_item: 4.]
 
 [Curated heading level=2 type=figures: Fig. 18]
@@ -41,6 +51,8 @@ Fig. 13. & 14.
 [Margin]
 Fig. 18.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. III, Def. 5]
 
 [Curated heading level=3 type=numbered_item: 5.]
 

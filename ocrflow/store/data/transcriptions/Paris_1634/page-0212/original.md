@@ -20,6 +20,10 @@ Demonstr.
 | <cad commun. subtr.
 concl. 3.a.1 | <cae 2|2 <dbc.
 
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXIII.]
+
 ## THEOR. XXI. PROPOS XXIII.
 
 Super eadem recta linea, duo segmenta circulorum similia, & inæqualia non constituentur ad easdem partes.

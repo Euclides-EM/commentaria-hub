@@ -21,6 +21,10 @@ Demonstr.
 1.concl. 14.1. | ced est —,
 1.f.15.1. | aeb est —.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. XVI.]
+
 ## THEOR. IX. PROPOS. XVI.
 
 Cuiuscunque trianguli vno latere producto, externus angulus vtrolibet interno, & opposito maior est.

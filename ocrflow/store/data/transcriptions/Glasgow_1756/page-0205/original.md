@@ -27,6 +27,10 @@ e. 9. 5.
 
 eſt AB parallelogrammum parallelogrammo BC. Ergo parallelogrammorum &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XV. THEOR.]
+
 ## PROP. XV. THEOR.
 
 [Subhead]

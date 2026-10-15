@@ -8,6 +8,8 @@ CAMPANVS. Hæc tertia est conuersa primæ.Sint enim a, b, c,d, cōtinue proporti
 
 [Diagram: dotted number lines beside the text, labelled a (long), e (2 dots), f (3 dots), g (4 dots), h (6 dots), K (9 dots), l (8 dots), m (12 dots), n (18 dots), p (27 dots)]
 
+[Curated heading level=2 type=theorems: Theorema 2 Propositio 3]
+
 ## Eucli.ex Zamb. Theorema 2 Propositio 3 *Conuersa primæ.*
 
 [Curated heading level=3 type=zamberti_sequence: 3.]

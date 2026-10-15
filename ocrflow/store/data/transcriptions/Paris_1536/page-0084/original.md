@@ -20,6 +20,10 @@ Alia figurę dispositio.
 
 [Diagram: b a d g e f c]
 
+[Curated heading level=2 type=propositions: Theorema 11, Propositio 12.]
+
+[Curated heading level=2 type=theorems: Theorema 11, Propositio 12.]
+
 ## Θεώρημα ια, Πρόθεσις ιβ.
 
 ΕΑν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐκτός, ἡ ἐπὶ τὰ κέντρα αὐτῶν ἐπιζευγνυμένη, διὰ τῆς ἐπαφῆς ἐλεύσεται.

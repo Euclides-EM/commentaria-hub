@@ -1,5 +1,7 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=axioms: AXIOME 12. a. 1.]
+
 ### 12. a. 1.
 
 Tous les angles droicts sont égaux entr'eux.
@@ -9,6 +11,8 @@ hyp. | ∠b *eſt* ┘,
 12.a.1 | ∠a 2|2 ∠b.
 
 [Figure]
+
+[Curated heading level=3 type=axioms: AXIOME 12. a. b.]
 
 ### 12. a. b.
 
@@ -27,6 +31,8 @@ A,B,C sont angles égaux entr'eux.
 L'angle A est droict, par l'hypothese.
 
 Partant les angles B & C sont droicts, par le 12. a. b.
+
+[Curated heading level=2 type=axioms: AXIOME 13. a. 1.]
 
 ### 13. a. 1.
 

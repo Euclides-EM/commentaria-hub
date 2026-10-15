@@ -1,10 +1,18 @@
 <!-- Running title: FRANC. FLVSSAT. CANDAL. ELEM. GEOM. -->
 
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio decimaquinta.]
+
 ## Propoſitio decimaquinta.
 
 Octahedri latus quadruplum ſeſquialterum poteſt rectæ, cuius Dodecahedri ipſi Octahedro inſcripti latus erit maius ſegmentum.
 
 Quoniam ex decimaquarta huius patuit latus octahedri, lateris ſibi inſcripti cubi quadruplum ſeſquialterum fuiſſe potentia: atqui latus cubi ſectum, efficit maius ſegmentum ſibi circunſcripti dodecahedri latus, per corollarium tertium decimætertiæ decimiquinti: ſequetur ideo octahedri latus quadruplum ſeſquialterum eſſe, eius rectæ (ſcilicet lateris cubi) cuius maius ſegmentum eſt latus dodecahedri ipſi cubo inſcripti: Dodecahedrum autem & cubus ſibi inuicem inſcripta eidem octahedro inſident, per corollarium primæ huius. Octahedri igitur latus quadruplum ſeſquialterum poteſt.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio decimaſexta.]
 
 ## Propoſitio decimaſexta.
 
@@ -14,11 +22,19 @@ Sit icoſahedrum A B G D F H E C, cuius latus eſto B G vel E C, ſibi verò in�
 
 [Figure: icosahedron with inscribed square, points labelled A, B, H, K, E, I, C, L, G, F, D]
 
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio decimaſeptima.]
+
 ## Propoſitio decimaſeptima.
 
 Cubi latus ad ſibi inſcripti Dodecahedri latus, rationem habet extremę & mediæ rationis duplam.
 
 Quoniam patuit ſecundo corollario decimætertiæ decimiquinti, cubi latus extrema & media ratione ſectum, efficere minus ſegmentum dodecahedri ſibi inſcripti latus, ſed tota ad minus ſegmentum duplam rationem habet quàm ad maius, per decimam diffinitionem quinti, quum tota maius & minus ſegmenta ſint continuæ proportionales rectæ, per tertiã diffinitionẽ ſexti. Tota igitur (ſcilicet cubi latus) ad ſibi inſcripti dodecahedri latus, ſcilicet minus eius ſegmentum, rationem habet duplam extremæ & mediæ rationis, ſcilicet eius quam habet tota ad maius ſegmentum, quæ ſemper eſt eadem, ex ſecunda decimiquarti.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio decimaoctaua.]
 
 ## Propoſitio decimaoctaua.
 

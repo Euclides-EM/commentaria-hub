@@ -6,6 +6,10 @@
 
 Comme le parallelogramme AF applique ſelon la ligne AB, eſt dit defaillir du parallelogramme CE, lequel eſt appellé defaut: Mais le parallelogramme AB appliqué ſelon la ligne AC, eſt dict exceder du parallelogramme CE, lequel eſt dict l'excez.
 
+[Curated heading level=2 type=propositions: THEOR. 1. PROP.I.]
+
+[Curated heading level=2 type=theorems: THEOR. 1. PROP.I.]
+
 ## THEOR. 1. PROP.I.
 
 Les triangles, &les parallelogrãmes de meſme hauteur, ſont l vn à l autre comme leurs baſes.

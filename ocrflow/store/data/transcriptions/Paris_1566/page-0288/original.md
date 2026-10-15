@@ -3,6 +3,8 @@
 
 *corollarium 10 huius, & ipſius D K dimidio E K, incōmenſurabile proinde erit idem Z K, per præfatū corollariū. Incommenſurabilia igitur adinuicem erunt L X & N X ipſis E K & Z K æqualia: & ideo rectæ L O O N longitudine (per primam ſexti) incommenſurabiles erunt: ſed illæ certæ oſtenſæ ſunt. Potentia tantùm itaque commenſurabiles erunt, certæ L O O N. reliqua igitur L N apotome erit, per 73 huius, quæ quidem poteſt quadratum S H ipſi A B æquum oſtenſum. Si itaque areola A B ſub certa A G, & apotome prima A D comprehendatur, quæ areolā poteſt, ſcilicet L N apotome erit. Huius fuſiorem diſcuſsimus demonſtrationem, vt eius conſtructio quinque ſequentibus ſubſidietur.*
 
+[Curated heading level=2 type=propositions: Propoſitio nonageſimaſecunda.]
+
 ## Propoſitio nonageſimaſecunda.
 
 Si areola comprehendatur ſub Certa & Apotome ſecunda, quę areolam poteſt, Mediæ eſt apotome prima.
@@ -12,6 +14,8 @@ Si areola comprehendatur ſub Certa & Apotome ſecunda, quę areolam poteſt, Me
 [Diagram]
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: Propoſitio nonageſimatertia.]
 
 ## Propoſitio nonageſimatertia.
 

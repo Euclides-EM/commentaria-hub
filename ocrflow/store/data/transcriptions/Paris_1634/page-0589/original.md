@@ -22,6 +22,10 @@ km π | hr,
 constr. | b π c 2|2 km π hr,
 concl. 11.5 | □.km π □.d 2|2 b π c.
 
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. XI.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. XI.]
+
 ## PROBL. III. PROPOS. XI.
 
 Propositæ rectæ lineæ inuenire duas rectas lineas incommensurabiles, alteram quidem longitudine tantùm, alteram vero etiam potentia.

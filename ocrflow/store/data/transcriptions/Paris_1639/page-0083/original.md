@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. I. -->
 
+[Curated heading level=2 type=propositions: PROBL. X. PROPOS. XXXI.]
+
+[Curated heading level=2 type=problems: PROBL. X. PROPOS. XXXI.]
+
 ## PROBL. X. PROPOS. XXXI.
 
 D'vn poinct donné, mener vne ligne droicte parallele à vne ligne droicte donnée.

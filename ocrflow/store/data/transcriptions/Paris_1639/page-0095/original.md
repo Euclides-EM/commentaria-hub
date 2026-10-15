@@ -6,6 +6,10 @@ conſtr. | be 2|2 ec,
 1.concl. 6.a.1 | ◊eg 2|2 △abc,
 2.concl. conſtr. | ∠ecg 2|2 ∠d.
 
+[Curated heading level=2 type=propositions: THEOR. XXXII. PROPOS. XLIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXII. PROPOS. XLIII.]
+
 ## THEOR. XXXII. PROPOS. XLIII.
 
 En tout parallelogramme, les complements des parallelogrammes qui sont à l'entour du diametre, sont égaux entr'eux.
@@ -34,6 +38,10 @@ concl. 3.a.1 | ◊dg 2|2 ◊gb. α
 
 α.2.a.1 | ◊dcih 2|2 ◊febc,
 α.2.a.1 | ◊dfea 2|2 ◊hiba.
+
+[Curated heading level=2 type=propositions: PROBL. XII. PROPOS. XLIV.]
+
+[Curated heading level=2 type=problems: PROBL. XII. PROPOS. XLIV.]
 
 ## PROBL. XII. PROPOS. XLIV.
 

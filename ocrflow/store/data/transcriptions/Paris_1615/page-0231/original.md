@@ -2,9 +2,13 @@
 
 <!-- Page number: 208 -->
 
+[Curated heading level=2 type=definitions: 19.]
+
 [Curated heading level=3 type=numbered_item: 19.]
 
 19. Nombre cube, eſt celuy qui eſt egalement egal: ou bien c’eſt le produit de trois nõbres egaux.
+
+[Curated heading level=2 type=definitions: 20.]
 
 [Curated heading level=3 type=numbered_item: 20.]
 

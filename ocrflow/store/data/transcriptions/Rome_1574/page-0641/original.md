@@ -1,5 +1,9 @@
 <!-- Running title: EVCLID. GEOM. -->
 
+[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM VIII.]
+
+[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM VIII.]
+
 # EVCLIDIS ELEMENTVM VIII.
 
 [Ornament: floral headpiece]
@@ -9,6 +13,8 @@
 [/Margin]
 
 [Curated heading level=2 type=campanus: 1]
+
+[Curated heading level=2 type=theorems: THEOR. 1. PROPOS. 1.]
 
 ## THEOR. 1. PROPOS. 1.
 

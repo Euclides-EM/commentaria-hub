@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, a circle with points E, C, D, A, B; a triangle ACB with vertex C at centre and base AB below, and a dotted circle through C, D, B]
 
+[Curated heading level=2 type=propositions: PROPOSITION X. PROBLEME X.]
+
+[Curated heading level=2 type=problems: PROBLEME X. PROPOSITION X.]
+
 ## PROPOSITION X. *PROBLEME X.*
 
 {dropcap:C|lines=2|style=plain}Onſtruire un triangle iſoſcéle (ACB); qui ait chacun des angles (CAB, CBA) ſur la baſe (AB) double de l'angle au ſommet (ACB).

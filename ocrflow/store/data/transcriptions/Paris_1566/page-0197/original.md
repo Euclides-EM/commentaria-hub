@@ -1,5 +1,9 @@
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber nonus.
 
+[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber nonus.]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
+
 ## Propoſitio prima.
 
 {dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I duo numeri ſimiles plani, ſe inuicem multiplicantes, aliquem fecerint, factus ex eis quadratus erit.
@@ -7,6 +11,8 @@
 Sint duo numeri ſimiles plani A & B & multiplicans A planum B faciat G, Dico G quadratum eſſe. Multiplicans A ſeipſum faciat D quadratum, per 19 diffinitionem ſeptimi, & quoniam A duos A & B multiplicãs, binos fecit D G, erit (per 17 ſeptimi) D ad G vt A ad B. Quia verò duorum A B ſimilium planorum vnus eſt medius proportionalis, per 18 octaui, & inter D & G eandem rationem habentes, vnus erit medius, per octauam octaui, qui ſit E: ſed trium D E G proportionalium primus D quadratus eſt, & tertius G quadratus erit, per 22 octaui. Si itaque duo numeri ſimiles plani, &c.
 
 [Diagram: horizontal lines labelled A 6, D 36, E, B 24 and G 144]
+
+[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
 
 ## Propoſitio ſecunda.
 
@@ -16,9 +22,11 @@ Bini numeri A & B ſeſe multiplicantes faciant G quadratum: Dico ipſos A & B �
 
 [Diagram: four horizontal lines labelled A 2, D 4, B 8 and G 16]
 
-## Corollarium.
+### Corollarium.
 
 Hinc fit, duos quadratos ſemper quadratum producere. Sunt enim ſimiles plani (per primã huius. Quadratum vero cum non quadrato, non quadratum facere. Si enim facerent ſimiles eſſent plani, per hanc, ſed non ſunt. Non quadratum igitur faciunt. Si vero quadratus cum aliquo quadratum fecerit, aliquis ille quadratus erit. Nam cum quadrato ipſum multiplicante ſimilis planus eſt, per hanc, ille aliquis. Si autem quadratus cum aliquo quadratum non fecerit, nec aliquis ille quadratus erit. Si enim quadratus eſſet, cum quadrato quadratum efficeret, per primam partem huius corollarij.
+
+[Curated heading level=2 type=propositions: Propoſitio tertia.]
 
 ## Propoſitio tertia.
 

@@ -31,6 +31,10 @@ l.21.10 | b, est √.28,
 d π e 2|2, 2 π √.3,
 16.6 | ▭.de, est √.1344.
 
+[Curated heading level=2 type=propositions: PROBL. X. PROPOS. XXXIV.]
+
+[Curated heading level=2 type=problems: PROBL. X. PROPOS. XXXIV.]
+
 ## PROBL. X. PROPOS. XXXIV.
 
 Inuenire duas rectas lineas potentia incommensurabiles, quæ faciant compositum quidem ex ipsarum quadratis, rationale; rectangulum verò sub ipsis contentum, medium.

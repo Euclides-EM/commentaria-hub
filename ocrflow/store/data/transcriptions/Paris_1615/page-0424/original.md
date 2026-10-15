@@ -2,6 +2,10 @@
 
 <!-- Page number: 401 -->
 
+[Curated heading level=2 type=propositions: PROB. 10. PROP. XXXIV.]
+
+[Curated heading level=2 type=problems: PROB. 10. PROP. XXXIV.]
+
 ## PROB. 10. PROP. XXXIV.
 
 Trouuer deux lignes droictes incommenIurables en puiſſance, qui facent le compoſé de leurs quarrez rationeſ mais le rectangle contenu d’icelles, medial.

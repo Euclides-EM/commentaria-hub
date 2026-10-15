@@ -8,6 +8,10 @@ conſtr. | ad 2|2 ab,
 1.a.d | ∠abd 3|2 ∠acb,
 concl. 1.a.e | ∠abc 3|2 ∠acb.
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XIX.]
+
 ## THEOR. XII. PROPOS. XIX.
 
 De tout triangle, le plus grand angle est soustenu du plus grand costé.

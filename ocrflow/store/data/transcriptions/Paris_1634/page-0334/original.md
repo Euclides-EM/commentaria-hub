@@ -8,6 +8,8 @@ EXPL. NOT.
 α | Triangulum ABC est simile triangulo DCE.
 α | Le triangle ABC est semblable au triangle DCE.
 
+[Curated heading level=2 type=definitions: DEFINIT. II.]
+
 ## DEFINIT. II.
 
 Reciprocæ autem figuræ sunt cùm in vtraque figura antecedentes & consequentes rationum termini fuerint.
@@ -19,6 +21,8 @@ Les figures sont reciproques, quand les termes antecedens & consequens des raiso
 hyp. | abcd & ebgf snt ◇,
 hyp. | ab π bg 2|2 eb π bc,
 2.d.6 | abcd & ebgf snt figur. recipro.
+
+[Curated heading level=2 type=definitions: DEFINIT. III.]
 
 ## DEFINIT. III.
 

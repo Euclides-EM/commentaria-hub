@@ -9,6 +9,10 @@ b. Ax. 4. 5.
 
 B minor quam A. ad eandem igitur &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XI. THEOR.]
+
 ## PROP. XI. THEOR.
 
 {dropcap:Q|lines=2|style=plain}UAE eidem eaedem ſunt rationes, et inter ſe eaedem ſunt.

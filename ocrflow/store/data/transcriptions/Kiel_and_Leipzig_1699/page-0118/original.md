@@ -10,6 +10,10 @@ dc + de + ee + bd | bb + bd + de — n. 2. Gr. I.
 de + bd | bd + de
 dc + ee | bb — n. 3. Gr. I. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der VI. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 6. Beweiß-Stück. Der VI. Vortrag.]
+
 ## Der VI. Vortrag.
 
 ## Das 6. Werckstück{printer-error-correction:Beweißstück}.

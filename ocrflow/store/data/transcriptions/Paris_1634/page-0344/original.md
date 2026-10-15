@@ -29,6 +29,10 @@ hyp. | de π ef 2|2 ab π bc,
 1.concl. | <d 2|2 <gu<a,
 β.4.1 2.concl. 32.1 | <efd 2|2 <c.
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. VII.]
+
 ## THEOR. VII. PROPOS. VII.
 
 Si duo triangula vnum angulum vni angulo æqualem, circum autem alios angulos latera proportionalia habeāt, reliquorum verò simul vtrumque aut minorem, aut non minorem recto : æquiangula erunt triangula, & æquales habebunt eos angulos, circum quos proportionalia sunt latera.

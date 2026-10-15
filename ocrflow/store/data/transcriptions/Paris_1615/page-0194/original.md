@@ -2,6 +2,10 @@
 
 <!-- Page number: 171 -->
 
+[Curated heading level=2 type=propositions: THEOR. 2. PROP. II.]
+
+[Curated heading level=2 type=theorems: THEOR. 2. PROP. II.]
+
 ## THEOR. 2. PROP. II.
 
 Si l’on meine vne ligne parallele à l’vn des coſtez d’vn triangle; icelle couppera les autres coſtez diceluy triangle proportionelement: & ſi les coſtez ſont couppez proportionneſement, la ligne couppante ſera paraliele à l autre coſté.

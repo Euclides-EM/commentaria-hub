@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, a triangle ABD with an inscribed circle of centre C touching the sides at E, F and G, with lines drawn from the vertices through C; faint traces of figures show through from the other side of the leaf]
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. PROBLEME IV.]
+
+[Curated heading level=2 type=problems: PROBLEME IV. PROPOSITION IV.]
+
 ## PROPOSITION IV. *PROBLEME IV.*
 
 {dropcap:I|lines=2|style=plain}Nſcrire dans un triangle donné (ABD) un cercle (EFG).

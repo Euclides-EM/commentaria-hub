@@ -1,6 +1,8 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 19 -->
 
+[Curated heading level=2 type=axioms: XIIII.]
+
 ### XIIII.
 
 [Curated heading level=4 type=incipit: SI]
@@ -15,6 +17,8 @@ HOC, & ſequens pronunciatum deſumpſit Proclus ex Pappo. ÆQualibus itaq́; qu
 2. pron.
 [/Margin]
 
+[Curated heading level=2 type=axioms: XV.]
+
 ### XV.
 
 [Curated heading level=4 type=incipit: SI]
@@ -26,6 +30,8 @@ IN eadem figura, inæqualibus quantitatibus BE, DF, addantur æquales AB, CD. Et
 [Margin]
 2. pron.
 [/Margin]
+
+[Curated heading level=2 type=axioms: XVI.]
 
 ### XVI.
 

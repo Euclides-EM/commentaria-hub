@@ -10,6 +10,8 @@ Non sint primi ipsi α,β, adinuicem, & sumantur (per 35 septimi. minimi numeri 
 
 [Diagram: dotted number lines beside the text: ζ·· α···· / ε··· β······ / γ············ / δ········· / θ·· / η···]
 
+[Curated heading level=2 type=theorems: Theorema 33 Propositio 37]
+
 ## Eucli. ex Zamb. Theorema 33 Propositio 37
 
 [Curated heading level=3 type=zamberti_sequence: 37.]
@@ -23,6 +25,8 @@ Si bini numeri numerum aliquem mēsi fuerint, & minimus qui sub eorum dimensione
 THEON ex Zamberto, Bini enim numeri α,β, numerum aliquem γ δ metiantur, minimus uero sit ε. Dico quod ε quoque ipsum γ δ, metitur. Si autem ε, ipsum γ δ, non metitur, ipsum δ ζ, metiens ipse ε, relinquat seipso minorem hoc est γ ζ, & quoniam ipsi α β, ipsum ε metiuntur, at ε, ipsum δ ζ, & ipsi α,β, igitur ipsum δ ζ, metientur, metiuntur autē & totum δ, & reliquū igitur γ ζ, metientur minorem existentem ipso γ: quod est impossibile. Haud igitur non metitur ε, ipsum γ δ, metitur ergo quod erat demonstrandum.
 
 [Diagram: dotted number lines beside the text: α·· / β··· / ε······· / β·····ζ·········· (a single dotted line divided at the point ζ; the first label apparently printed β)]
+
+[Curated heading level=2 type=problems: Problema 5 Propositio 38]
 
 ## Eucli. ex Zamb. Problema 5 Propositio 38
 

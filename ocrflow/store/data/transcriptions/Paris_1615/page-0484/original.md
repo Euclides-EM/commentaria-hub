@@ -4,6 +4,10 @@
 
 An9. eſt àAac5.auſi le quarre d Er joit au quarré de ro. ielle. poſer (jo. o par eonſiyain to ſera (iae√jomqui eſt reſiau troiſieſme.
 
+[Curated heading level=2 type=propositions: PROBL. 22. PROP. LXXXIX.]
+
+[Curated heading level=2 type=problems: PROBL. 22. PROP. LXXXIX.]
+
 ## PROBL. 22. PROP. LXXXIX.
 
 Trouuer vn reſidu quatrieſme.
@@ -15,6 +19,10 @@ Eſtans trouuez (comme nous auons enſeigné au 3.ſcholie de la 29. prop.10) d
 ### SCHOLIE.
 
 La rationele D ſoit 9. EF 6: faiſant donc que comme ABy eſt à AC , ainſi 36 quarre de EF ſoit au quarré de FG, icelle ſera √24, & par conſequent le reſte EG ſera 6—√24, qui eſt reſidu quatrieſme.
+
+[Curated heading level=2 type=propositions: PROB. 23. PROP. XC.]
+
+[Curated heading level=2 type=problems: PROB. 23. PROP. XC.]
 
 ## PROB. 23. PROP. XC.
 

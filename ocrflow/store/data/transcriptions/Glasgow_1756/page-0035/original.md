@@ -17,6 +17,10 @@ minor majori, quod fieri non poteſt. non igitur BE eſt in directum ipſi BC. �
 
 [Diagram: horizontal line CBD through B, with lines BA and BE extending from B]
 
+[Curated heading level=2 type=propositions: PROP. XV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XV. THEOR.]
+
 ## PROP. XV. THEOR.
 
 [Subhead]

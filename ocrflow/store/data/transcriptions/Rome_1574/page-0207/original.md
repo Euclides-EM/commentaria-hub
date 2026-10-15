@@ -16,6 +16,8 @@ CADAT ſecundo AB, producta ſupra EF. Cadet igitur FE, protracta infra AB: Quar
 
 [Curated heading level=2 type=campanus: 36]
 
+[Curated heading level=2 type=theorems: THEOR. 26. PROPOS. 36.]
+
 ## THEOR. 26. PROPOS. 36.
 
 [Curated heading level=3 type=incipit: PARALLELOGRAMMA]

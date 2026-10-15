@@ -19,6 +19,10 @@ triangulo ACB, minus majori; quod eſt abſurdum. non igitur inaequalis eſt AB 
 
 Cor. Hinc omne triangulum aequiangulum eſt quoque aequilaterum.
 
+[Curated heading level=2 type=propositions: PROP. VII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VII. THEOR.]
+
 ## PROP. VII. THEOR.
 
 [Subhead]

@@ -5,6 +5,10 @@ monſtratio eadem eſt cum ea Propoſitionis dummodo vice componendo utatur divi
 
 COR. 2. Ipſa autem Propoſitio vera eſt de quotcunque magnitudinibus, quarum priores ad communem ſecundam eaſdem habent rationes quas habent reliquae ad communem quartam, ſingulae ſc. priorum ad ſecundam, eandem quam ſingulae reliquarum ad quartam; ut patet.
 
+[Curated heading level=2 type=propositions: PROP. XXV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXV. THEOR.]
+
 ## PROP. XXV{printer-error-correction:XXIV}. THEOR.
 
 {dropcap:S|lines=2|style=plain}I quatuor magnitudines fuerint proportionales, maxima ipſarum et minima duabus reliquis majores erunt.

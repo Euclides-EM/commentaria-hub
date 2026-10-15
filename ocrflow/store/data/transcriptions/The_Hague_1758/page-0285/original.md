@@ -3,6 +3,10 @@
 
 [Figure: parallelogram ABCD with diagonal AC; interior points E, F, G, H, I marking two smaller parallelograms alentour de la diagonale, with hatched angles at C and E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIV. THEOREME XVIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVIII. PROPOSITION XXIV.]
+
 ## PROPOSITION XXIV. THEOREME XVIII.
 
 {dropcap:E|lines=2|style=plain}*N tout Parallélogramme* (BD), *les Parallélogrammes* (FH, IG) *alentour de la diagonale* (AC) *ſont ſemblables & au Tout & entr'eux.*

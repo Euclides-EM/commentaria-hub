@@ -1,6 +1,10 @@
 <!-- Running title: LIBER DECIMVS. -->
 <!-- Page number: 103 -->
 
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaquarta. Problema 3.]
+
 ## Propoſitio decimaquarta.
 
 [Subhead]
@@ -12,6 +16,10 @@ Propoſitæ rectæ lineæ binas rectas incommenſurabiles inuenire. Alteram quid
 Eſto propoſita recta (hoc eſt cuius quantitas ſit certa ſeu determinata, per quintam diffinitionem huius) linea A, cui inueſtigandæ ſint duæ incommenſurabiles, altera quidem longitudine tantùm, altera autem longitudine ac potentia. Ponantur duo numeri diſſimiles plani, per lemma nonæ huius, qui (per corollarium eiuſdem) rationem, quam quadrati numeri nõ habent, ſintque B & G. Fiat autem (per corollarium ſextæ huius) ſicut B ad G, ſic quod ex A, ad id quod ex D. Rectis autem A & D inueniatur media proportionalis (per decimamtertiam ſexti) quæ ſit E: quoniam poſitum eſt quod ex A ad id quod ex D ſicut B ad G, rationem quadratorum numerorũ nõ habentes, quadrata rectarum A & D, habebunt latera A & D longitudine incommẽſurabilia, per vltimam partem nonæ huius, potentias verò commenſurabiles per 6 huius. Data eſt igitur rectæ A propoſitæ recta D longitudine tantùm incommenſurabilis. Cùm autem A E D ſint continuè proportionales, erit ſicut A ad D, ſic quod ex A ad id quod fit ex E ſecunda, per corollarium 20 ſexti; ſed A rectæ D incommenſurabilis oſtenſa eſt. Quod ex A igitur ei quod ex E incommenſurabile erit, per ſecundam partem 13 huius. Recta itaque E eidem A propoſitæ, potentia datur incommenſurabilis: igitur & longitudine, per illationem nonæ huius. Propoſitæ itaque rectæ binas rectas incommenſurabiles, &c.
 
 [Diagram: five horizontal line segments labelled A, E, D, B, and G]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaquinta. Problema 4.]
 
 ## Propoſitio decimaquinta.
 
@@ -25,9 +33,11 @@ Sint binæ rectæ inæquales AB & G, ſuper maiori verò AB conſtituatur ſemic
 
 [Diagram: a semicircle on line AB, with point D on the arc joined to A and B, and a separate line G]
 
-## Corollarium.
+### Corollarium.
 
 Haud diſſimili via, potentem duas datas rectas dabimus. Si quidem rectæ datæ ad angulum rectum componantur, hunc ſubtendens angulum, per 47 primi, binas datas poterit recta linea.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
 
 ## Propoſitio decimaſexta.
 

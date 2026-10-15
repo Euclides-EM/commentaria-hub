@@ -3,7 +3,7 @@
 
 ABGDL, ad magnitudinem aliquam reliquo cono EZITN minorem. Patuit autem quod & nullus hanc rationem habeat, quod inconuenit, non ea de cauſa habet aliquis conorum ad aliquam magnitudinem reliquo ſimili quouis cono maiorem vel minorem, rationem triplam dimetientium quæ in conorum baſibus exiſtunt, eam itaque rationem habet quiſuis conus ad magnitudinem reliquo ſimili quouis cono æqualem: ac proinde ad reliquum conum. Cùm autem cylindri quæ ſuper baſi & conorum vertice morantur, ſint conorum æquemultiplices (nempe tripli ex decima huius) ipſi (ex decimaquinta quinti) eadem conorum ratione ſibi adhærebunt, ac ideo triplam habebunt quam communium baſium dimetientes ZT & BD. Similes igitur coni & cylindri ad ſe inuicem, in tripla ſunt, &c.
 
-## MONITVM.
+### MONITVM.
 
 Aliqui circa ſecundæ, quintæ, vndecimæ, duodecimæ, & decimæoctauæ huius, demonſtrationes impegerunt, cùm in his antecedens aliquod particulare particulari conſequenti conferri arbitrarentur, veluti hoc theoremate. Si conum AKL cono EMN tanquam antecedens conſequenti ſociantes inferrẽt, quod ſcilicet antecedens AKL non habens ad magnitudinem X conſequente EMN minorem, rationem triplam quam habent BD ad ZT dimetientes. Concludit conſequens EMN non habere ad magnitudinem antecedente minorem, rationem cõuerſam eorundem, ſcilicet ZT ad BD, quod ex neceſſitate non ſequitur: ſed tanti fit conum AKL cono EMN conferre quanti è conuerſo conũ EMN eodem argumento cono AKL comparare, vt ſequenti typo diſcutiemus.
 
@@ -24,6 +24,8 @@ BD ZT
 [/Margin]
 
 Demonſtrationes igitur hæ ab hoc abſurdo educuntur, non quod antecedens aliqua ſumpta hypotheſi hanc haberet rationem ad conſequens, alia verò poſtmodum ſumpta non haberet: id nanque abſurdum non pareret, ob hypotheſis diſcrepantiam eidem ſoli antecedenti adaptatam, quæ facilè oppoſita parit. Sed quoſuis circulos ad quoſlibet, ſiue quoſuis conos ad quoſlibet (hoc eſt æquè conſequens ad antecedens vt antecedens ad conſequens) rationem baſium, aut dimetientiũ, iuxta hypotheſis votum habere, & nõ habere, hæc cùm ſint in eodem ſubiecto, hoc eſt in quibuſuis circulis aut conis, oppoſita ad ſe inuicem (ſcilicet cuiuſuis ad quemuis circulorũ vel conorum) facile parient abſurdum, ac perinde ab hoc per inconueniens demonſtratum.
+
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
 
 ## Propoſitio decimatertia.
 

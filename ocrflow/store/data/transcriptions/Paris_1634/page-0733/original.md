@@ -4,17 +4,23 @@ pta figura. Atque si quiescens recta linea æqualis sit reliquæ, quæ circa rec
 
 *il a commencé de mouuoir. Et si ledit costé immobile est egal à l'autre costé comprenant l'angle droict, le cone sera rectangle : si plus petit, il sera amblygone : si plus grand, il sera oxygone.*
 
+[Curated heading level=2 type=definitions: DEFINIT. XIX.]
+
 ## DEFINIT. XIX.
 
 Axis autem coni, est quiescens illa linea,circa quam triangulum vertitur.
 
 *L'axe du cone est la ligne droicte immobile, à l'entour de laquelle le triangle tourne.*
 
+[Curated heading level=2 type=definitions: DEFINIT. XX.]
+
 ## DEFINIT. XX.
 
 Basis verò coni est circulus qui à circumducta linea recta describitur.
 
 *Mais la base du cone est le cercle descrit par l'autre costé mené à l'entour.*
+
+[Curated heading level=2 type=definitions: DEFINIT. XXI.]
 
 ## DEFINIT. XXI.
 

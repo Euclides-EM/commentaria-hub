@@ -4,6 +4,10 @@
 
 [Figure: transversal E F crossing two horizontal parallel lines A B and C D, with angles m, p, o marked at the upper interſection and n at the lower]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVIII. THEOREME XIX.]
+
+[Curated heading level=2 type=theorems: THEOREME XIX. PROPOSITION XXVIII.]
+
 ## PROPOSITION XXVIII. THEOREME XIX.
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (EF), tombant ſur deux autres lignes droites (AB, CD) ſituées dans un même plan, fait l'angle extérieur (*m*) égal à ſon intérieur (*n*) oppoſé du même côté; ou bien les deux intérieurs (*o*＋*n*) du même côté égaux à deux droits: ces deux lignes (AB, CD) ſont paralleles entr'elles.

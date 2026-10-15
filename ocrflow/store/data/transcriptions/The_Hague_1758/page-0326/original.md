@@ -3,6 +3,10 @@
 
 [Diagram: three parallel parallelogram planes labelled Z X, P Y and Q M within a ruled border, crossed by two horizontal lines A E G C and B F H D, with dotted lines from A, E, G and H, and point I on the middle plane]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVII. THEOREME XV.]
+
+[Curated heading level=2 type=theorems: THEOREME XV. PROPOSITION XVII.]
+
 ## PROPOSITION XVII. THEOREME XV.
 
 {dropcap:S|lines=2|style=plain}I deux lignes droites (AC & BD) ſont coupées par des Plans paralleles (XZ, PY & QM): Elles ſeront coupées proportionellement. (c. a. d., que AE: EF = BF: FH &c.).

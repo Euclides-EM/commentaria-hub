@@ -23,6 +23,8 @@ rectam, quod quidem continget, ſi duo anguli C, & F, recti extiterint; aut non.
 
 [Curated heading level=2 type=campanus: 9]
 
+[Curated heading level=2 type=problems: PROBL. 4. PROPOS. 9.]
+
 ## PROBL. 4. PROPOS. 9.
 
 [Margin]

@@ -8,6 +8,10 @@ hyp. | aggreg.. □.ac + □.bc, incomm. ▭.acb,
 βγ14.10 | aggreg.. □.df + □.fe, incomm. ▭.dfe,
 concl. 79. 10 | de, est ——, fa. 2; medi.
 
+[Curated heading level=2 type=propositions: THEOR. LXXXV. PROPOS. CIX.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXXV. PROPOS. CIX.]
+
 ## THEOR. LXXXV. PROPOS. CIX.
 
 Medio à rationali detracto; recta linea, quæ reliquum spatium potest, vna ex duabus irrationalibus fit, vel apotome, vel minor.

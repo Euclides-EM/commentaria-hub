@@ -9,6 +9,10 @@ d. 8. 1.
 
 angulo ABC. eadem ratione et angulus quidem MRN angulo DEF, angulus autem NRL angulo GHK eſt aequalis. Ex tribus igitur angulis planis LRM, MRN, NRL, qui aequales ſunt tribus datis ABC, DEF, GHK ſolidus angulus conſtitutus eſt ad R. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. A. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. A. THEOR.]
+
 ## PROP. A. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint duo anguli ſolidi, quorum uterque continetur tribus angulis planis qui inter ſe aequales ſunt, ſinguli ſingulis; plana in quibus ſunt aequales anguli erunt ad ſe invicem ſimiliter inclinata.

@@ -20,6 +20,8 @@ CAMPANVS. Sit a primus tota pars b secundi, quota c tertius d quarti: sintq̃ a 
 
 [Diagram: dot-rows: b (6 dots) with d (8 dots); a (3 dots) with c (4 dots)]
 
+[Curated heading level=2 type=theorems: Theorema 7 Propositio 9]
+
 ## Eucli. ex Zamb. Theorema 7 Propositio 9
 
 [Curated heading level=3 type=zamberti_sequence: 9.]
@@ -47,6 +49,8 @@ THEON ex Zamberto. Numerus enim α numeri βγ esto pars, & alter δ alterius ε
 CAMPANVS. Sint quatuor numeri ut prius, quorū similiter minores sint a & b, sitq̃ a totæ partes b, quotæ c est d: dico quod quota pars aut partes est a, c, tota uel totæ est b, d. Diuidantur enim minores in partes illas qui sunt a & c: eruntq̃ per præsentem hypothesin tot partes a, quot c, & q̃a unaquæq̃ ex partibus a est tota pars b, quota quælibet ex partibus c est d (hoc enim habemus ex nostra hypothesi) erit permutatim per præmissam ut quota pars aut partes est b, d, tota uel totæ sit unaquæq̃ ex partibus a suæ cōparis ex partibus c: per quintam igitur uel 6 sub disiunctione quoties oportuerit repetitas, erit tota pars aut partes b, d, quota uel quotæ est a, c, quod est propositum.
 
 [Diagram: dot-rows: a (4 dots) with b (6 dots); c (8 dots) with d (12 dots)]
+
+[Curated heading level=2 type=theorems: Theorema 8 Propositio 10]
 
 ## Eucli. ex Zamb. Theorema 8 Propositio 10
 

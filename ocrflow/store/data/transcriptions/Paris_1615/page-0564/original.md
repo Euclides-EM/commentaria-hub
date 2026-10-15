@@ -8,6 +8,10 @@ trement s’il eſt poſſible; puis que comme le quarré de AC au quarré de 
 
 Par ces choſes eſt euident que le cercle eſt au cercle comme le polygone deſcrit en celuy-là eſt au polygone ſemblable deſcrit en ceſtuy-cPuis que par la 2.p.12.tant le cerele eſt au cercle, que par la 1.p.12.le polygone eſt au polygone, comme le quarré du diametre eſt au quarré du diametre, ainſi qu’il a eſté demonſtré.
 
+[Curated heading level=2 type=propositions: THEOR. 3. PROP. III.]
+
+[Curated heading level=2 type=theorems: THEOR. 3. PROP. III.]
+
 ## THEOR. 3. PROP. III.
 
 T’oute pyramide ayant baſe triangulaire, peut eſtre diuiſee en deux pyramides egales, ſemblables entr’elles, & à la totale; & en deux priſmes egaux, & plus grands que la moitié de la pyramide totale.

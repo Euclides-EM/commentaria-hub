@@ -20,6 +20,8 @@ a Per 29. l.3.
 b Per 28. l.1.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XVI.]
+
 ## PROPOSITIO XVI.
 
 {dropcap:I|lines=2|style=plain}Nſcribatur circulo figura regularis, parilatera & æquilatera; Ducaturq́ E B ab extremitate diametri ad, B, terminum lateris diametro proximi, angulos vero æqualiter diſtantes ab A, iungant rectæ B H, C G, D F.

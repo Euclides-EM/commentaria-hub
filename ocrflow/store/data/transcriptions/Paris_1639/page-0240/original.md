@@ -53,6 +53,10 @@ d 2|3 f.
 α.13.5 | e π d 3|2 a π b, Ⅱ e π f,
 3.concl. 10.5 | d 2|3 f.
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXII.]
+
 ## THEOR. XXII. PROPOS. XXII.
 
 S'il y a tant de grandeurs qu'on voudra, & d'autres égales à icelles en nombre, lesquelles soient prises de deux en deux, & en mesme raison: icelles

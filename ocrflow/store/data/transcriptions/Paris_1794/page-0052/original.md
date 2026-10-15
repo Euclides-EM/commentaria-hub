@@ -1,6 +1,10 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 24 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XXV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXV.]
+
 ## PROPOSITION XXV.
 
 ### THÉORÊME.
@@ -28,6 +32,10 @@ Cela posé je dis que le quadrilatere AEFB peut être placé exactement sur le q
 [Handwritten]
 *
 [/Handwritten]
+
+[Curated heading level=2 type=propositions: PROPOSITION XXVI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXVI.]
 
 ## PROPOSITION XXVI.
 

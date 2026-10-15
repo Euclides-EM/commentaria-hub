@@ -8,6 +8,10 @@
 27.3 | <gba 2|2 <gkh,
 concl. 10.5 | <bdg 3|2 <adg.
 
+[Curated heading level=2 type=propositions: THEOR. XXVIII. PROPOS. XLI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVIII. PROPOS. XLI.]
+
 ## THEOR. XXVIII. PROPOS. XLI.
 
 Theon in tertium lib. Almagesti.

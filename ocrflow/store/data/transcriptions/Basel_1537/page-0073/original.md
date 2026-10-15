@@ -18,6 +18,8 @@ In circulo uero contingẽte exterius in punctis c d, si ducamus lineam rectam a
 
 [Diagram: three small figures in a row: a circle with crossing diameters and centre e; two circles touching internally at the top with a, b above and e, c, d within; two circles touching externally with c, e, d at the contact and f in the right-hand circle]
 
+[Curated heading level=2 type=theorems: Theorema 12. Propositio 13]
+
 ## Eucli. ex Zamb. Theorema 12. Propositio 13
 
 [Curated heading level=3 type=zamberti_sequence: 13.]

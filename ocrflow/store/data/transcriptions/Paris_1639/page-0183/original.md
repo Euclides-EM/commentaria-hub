@@ -26,6 +26,10 @@
 3.concl. c.16.3 | fh, hi, ig, fg *touchent le* ⊙abcd,
 4 concl. 4.d.4 | □hg *eſt circonſcrite au* ⊙abcd.
 
+[Curated heading level=2 type=propositions: PROBL. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=problems: PROBL. VIII. PROPOS. VIII.]
+
 ## PROBL. VIII. PROPOS. VIII.
 
 Dans vn quarré donné, inscrire vn cercle.

@@ -16,6 +16,8 @@ CAMPANVS. Sint duo triāguli a b c, d e f: sitq̃ a c æqualis d f et b c æqual
 
 [Diagram: three tall triangles side by side: triangle with apex c on base a b; triangle with apex f on base d e; and a third with the bases superposed, apexes c, g and f close together at the top with crossing lines]
 
+[Curated heading level=2 type=theorems: Theorema 5. Propositio 8]
+
 ## Eucli. ex Zam. Theorema 5. Propositio 8
 
 [Curated heading level=3 type=zamberti_sequence: 8.]

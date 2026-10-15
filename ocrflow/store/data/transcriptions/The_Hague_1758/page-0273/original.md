@@ -3,6 +3,10 @@
 
 [Figure: two triangles ACB and ECD meeting at point C, with angles m and n at C and a dotted line from B to D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. THEOREME X.]
+
+[Curated heading level=2 type=theorems: THEOREME X. PROPOSITION XV.]
+
 ## PROPOSITION XV. *THEOREME X.*
 
 {dropcap:S|lines=2|style=plain}I deux triangles égaux (ACB, ECD) ont un angle (*m*) égal à un angle (*n*): les côtés (AC, CB, & EC, CD), alentour de ces angles égaux, ſont réciproquement proportionels. Et ſi deux triangles (ACB, ECD) ont un angle (*m*) égal à un angle (*n*), & les côtés (AC, CB, & EC, CD), alentour de ces angles égaux, réciproquement proportionels, ces triangles ſont égaux.

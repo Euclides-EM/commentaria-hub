@@ -3,6 +3,10 @@
 
 inscrit ABCDEFG plus grand que le non-inscriptible *abcdefg*.
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+
 ## PROPOSITION VII.
 
 ### THÉORÊME.
@@ -10,6 +14,12 @@ inscrit ABCDEFG plus grand que le non-inscriptible *abcdefg*.
 *Le polygone régulier est un maximum entre tous les polygones isopérimetres et d’un même nombre de côtés.*
 
 Car, suivant le théorême II, le polygone *maximum* a tous ses côtés égaux ; et, suivant le théorême précédent, il est inscriptible dans le cercle ; donc il est régulier.
+
+[Curated heading level=1 type=lemmas: Appendice au Livre IV]
+
+[Curated heading level=2 type=propositions: PROPOSITION VIII. LEMME.]
+
+[Curated heading level=2 type=lemmas: LEMME. PROPOSITION VIII.]
 
 ## PROPOSITION VIII.
 

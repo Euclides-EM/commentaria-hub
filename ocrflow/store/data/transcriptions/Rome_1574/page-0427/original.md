@@ -18,6 +18,8 @@ ipſius A; & omnes K, L, M, ſimul omnium B, D, F, ſimul ita multiplices, ut un
 
 [Curated heading level=2 type=campanus: 13]
 
+[Curated heading level=2 type=theorems: THEOR. 13. PROPOS. 13.]
+
 ## THEOR. 13. PROPOS. 13.
 
 [Curated heading level=3 type=incipit: SI]

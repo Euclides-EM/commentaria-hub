@@ -1,6 +1,8 @@
 <!-- Page number: 21 -->
 <!-- Running title: EVCL. ELEMENT. GEO. -->
 
+[Curated heading level=2 type=definitions: Diffinitio 2.]
+
 ## Diffinitio 2.
 
 Omnis parallelogrammi loci, eorum quæ circa dimentientem angulum communem efficiunt parallelográmorum, vnumquodque cum binis ſupplementis gnomon vocetur.
@@ -9,11 +11,15 @@ Gnomonem diffinit Euclides reliquum cuiuſuis parallelogrammi ablato parallelogr
 
 [Diagram: parallelogram EADG with diagonal GA and internal lines meeting at I]
 
-## MONITVM.
+### MONITVM.
 
 Deerat huic diffinitioni, prout eam Campanus & Theon meminerunt, parallelogrammum quod circa demetientem eſt, angulum communem cum toto efficere, vt neceſſariò hac lege gnomonẽ feciſſe dicatur, quod videbimus Dei beneficio, 26 propoſ. libri ſexti. Similiter vt circa demetientẽ circa eſſe dicatur, optari illum angulum cum toto habere communem, vt hoc exẽplo parallelogrammũ, ſcilicet GB, circa dimetientem CB totius AD, parallelogrammi ſimile ſimiliterque poſitum eſſe videmus, & tamen quia communem angulum toti nõ habet, reliquũ non efficit gnomonem. Vt itaque ſanior ſit huius ſentẽtia, diximus præter Theonem & Campanum, auferendum parallelogrammum vt gnomonem relinquat, communem angulum cum toto efficere. Quia verò hæc parallelogrammi circa dimetientem ad angulum communẽ conſtitutio, pluribus ſexti & ſequentiũ demonſtrationibus inſeruiet, vtile fuit hoc prælibare, vt cùm poſtmodum de conſtitutione parallelogrāmi circa dimetientẽ loquemur, angulũ cum toto communem efficere neceſſariò, tum ſimiliter eſſe poſitum intelligemus.
 
 [Diagram: parallelogram labelled A, B, and C, with a diagonal and internal parallelogram labelled G and E]
+
+[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſecundus.]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
 
 ## Propoſitio prima.
 

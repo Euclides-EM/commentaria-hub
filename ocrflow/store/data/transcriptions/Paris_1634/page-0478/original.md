@@ -29,6 +29,10 @@ hyp. | a & b snt pr. π. d,
 γ | c & d snt pr. π. e,
 concl. β.26.7 | f & e snt pr. π. ꝫe.
 
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XXIX.]
+
 ## THEOR. XXVII. PROPOS. XXIX.
 
 Si duo numeri primi inter se fuerint, & multiplicans vterque se ipsum fecerit aliquem ; & geniti ex ipsis primi inter se erunt : Et si, qui in principio, genitos ipsos multiplicantes fecerint aliquos ; & hi quoque primi inter se erunt: & semper circa extremos hoc eueniet.

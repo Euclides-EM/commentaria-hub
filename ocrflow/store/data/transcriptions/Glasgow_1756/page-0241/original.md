@@ -1,6 +1,10 @@
 <!-- Page number: 228 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. V. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. V. THEOR.]
+
 ## PROP. V. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea tribus rectis lineis ſeſe tangentibus, in communi ſectione, ad rectos angulos inſiſtat, tres illae rectae lineae in uno plano erunt.
@@ -28,6 +32,10 @@ c. 3. Def. 11.
 faciet angulos; ſed ipſam tangit BF in ſubjecto exiſtens plano. Ergo angulus ABF rectus eſt. ponitur autem et ABC angulus rectus; aequalis igitur eſt angulus ABF angulo ABC, et in eodem ſunt plano, quod fieri non poteſt. recta igitur linea BC non eſt in ſublimi; quare tres rectae lineae BC, BD, BE in uno ſunt plano. Si igitur recta linea &c. Q. E. D.
 
 [Diagram: five straight lines meeting at B, labelled A, B, C, F, D and E]
+
+[Curated heading level=2 type=propositions: PROP. VI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VI. THEOR.]
 
 ## PROP. VI. THEOR.
 

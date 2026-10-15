@@ -20,6 +20,8 @@ CAMPANVS. Sit linea a b, cōtingens circulum c e, cuius centrum sit d, in puncto
 
 [Diagram: circle with centre d; above it the horizontal tangent line a c f b, touching at c, with e upon the circle beneath f; the lines d c and d f are drawn]
 
+[Curated heading level=2 type=theorems: Theorema 16. Propositio 18.]
+
 ## Eucli. ex Zamb. Theorema 16. Propositio 18.
 
 [Curated heading level=3 type=zamberti_sequence: 18.]
@@ -47,6 +49,8 @@ SI circulum linea recta contingat, & à contactu in circulum linea quædam ortho
 CAMPANVS. Sit ut prius linea a b contingēns circulum c e in pūcto c, & contactui ducatur linea intra circulum, c e, perpendicularis ad lineam a b. Dico quod centrum circuli est in linea c e. Hæc est cōuersa prioris. Si enim non fuerit centrum in linea c e, sit alibi ubicunque contingat, sitq̃ d, & producatur d c, eritq̃ d c, per præmissam perpendicularis ad lineam a b, quod est impossibile, cum c e, posita sit perpēdicularis ad ipsam.
 
 [Diagram: horizontal tangent line a c b above a circle touching at c; the line c e descends through the circle, d lying within it beside the line]
+
+[Curated heading level=2 type=theorems: Theorema 17. Propositio 19.]
 
 ## Eucli.ex Zamb. Theorema 17. Propositio 19.
 

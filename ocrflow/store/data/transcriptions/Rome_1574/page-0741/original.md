@@ -6,6 +6,8 @@
 
 [Curated heading level=2 type=campanus: 35]
 
+[Curated heading level=2 type=theorems: THEOR. 30. PROPOS. 32.]
+
 ## THEOR. 30. PROPOS. 32.
 
 [Subhead]

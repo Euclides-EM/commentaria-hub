@@ -6,6 +6,10 @@
 
 Soit BC 2. CD 4. doc le rectangle BD ſera 12. Deretheſ ſoit BC√2. & CD√ 12. Le rectangle BD ſera√ 36.c’eſt à dire 6. Et derechef ſi BC eſt √8 & CD√18. Le rectangle BD ſera√144. c’eſt à dire 12. Ainſi iceluy rectangle eſt tationel.
 
+[Curated heading level=2 type=propositions: THEOR. 18. PROP. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 18. PROP. XXI.]
+
 ## THEOR. 18. PROP. XXI.
 
 Si vn rectangle rationel a l’vn des coſtez rationel, il aura auſſi l autre coſté rationel: & iceux ſeront entr’eux commenſ. en longitude.

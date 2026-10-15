@@ -27,6 +27,8 @@ C,180.
 
 [Curated heading level=2 type=campanus: 3]
 
+[Curated heading level=2 type=theorems: THEOR. 3. PROPOS. 3.]
+
 ## THEOR. 3. PROPOS. 3.
 
 [Margin]

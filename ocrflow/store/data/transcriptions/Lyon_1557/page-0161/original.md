@@ -11,6 +11,10 @@ EX HAC habetur facilis ratio diuidendæ lineæ in quaſcunque partes nominatas. 
 
 Idem de cuiuſcunque generis partibus erit iudicium.
 
+[Curated heading level=2 type=propositions: THEOREMA 9, PROPOSITIO XIIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 9, PROPOSITIO XIIII.]
+
 ## THEOREMA 8{printer-error-correction:9}, PROPOSITIO XIIII.
 ### Campano 13.
 
@@ -23,6 +27,10 @@ Ponam duo latera BC & CG in directum, vt ſit BG linea vna. Eritq́; ED itidem l
 [Diagram: two parallelograms with A, D and H on the top, B, C and G in the middle, E and F at the bottom]
 
 Eſto iam BC ad CG vt EC ad CD. Et erit, per primam huius, BC baſis ad CG baſin, vt AC Parallelogrammum ad CH Parallelogrammum: Et EC baſis ad CD baſin, vt CF Parallelogrammum ad idem CH Parallelogrammum. Itaque, per vndecimam Quinti, AC ad CH vt CF ad idem CH. Quare, per priorem partem nonæ eiuſdem, Parallelogrammum AC, Parallelogrammo CF eſt æquale, Quod fuit demonſtrandum.
+
+[Curated heading level=2 type=propositions: THEOREMA 10, PROPOSITIO XV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 10, PROPOSITIO XV.]
 
 ## THEOREMA 10, PROPOSITIO XV.
 ### Campano 14.

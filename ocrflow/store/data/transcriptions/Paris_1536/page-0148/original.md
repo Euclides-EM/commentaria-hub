@@ -12,6 +12,10 @@ Vbi plures tribus in vtroq̄; magnitudinū extiterint ordine.
 
 [Diagram: a, b, c, d. e, f, g, h.]
 
+[Curated heading level=2 type=propositions: Theorema 23, Propositio 23.]
+
+[Curated heading level=2 type=theorems: Theorema 23, Propositio 23.]
+
 ## Θεώρημα κγ, Πρόθεσις κγ.
 
 EΑν ᾖ τρία μεγέθη, ὃ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα ἐν τῷ αὐτῷ λόγῳ, ᾖ δὲ τεταραγμένη αὐτῶν ἡ ἀναλογία, καὶ δι' ἴσου ἐν τῷ αὐτῷ λόγῳ ἔσαι.

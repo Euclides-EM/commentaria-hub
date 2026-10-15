@@ -31,6 +31,10 @@ Dw. □ ac : □ df | ad, dc : gd, de n. Bw. γ. 11. V.
 
 Haben derowegen gleichwincklichte Nebenstrichichte Vierecke eine solche Verhältnüß zusammen / als diejenige / welche aus ihren Seiten zusammen gesetzet ist. W Z B.
 
+[Curated heading level=2 type=propositions: Der XXIV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 18. Beweiß-Stück. Der XXIV. Vortrag.]
+
 ## Der XXIV. Vortrag.
 
 ## Das 18. Beweiß-Stück.

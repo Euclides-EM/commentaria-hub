@@ -10,6 +10,10 @@ hyp. | b, msur: a,
 contr. hyp. α
 concl. 21.a.1 | b, est nr. pr.
 
+[Curated heading level=2 type=propositions: THEOR. XXXII. PROPOS. XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXII. PROPOS. XXXIV.]
+
 ## THEOR. XXXI{printer-error-correction:XXXII}. PROPOS. XXXIV.
 
 Omnis numerus aut primus est, aut eum aliquis primus metitur.
@@ -29,6 +33,10 @@ u nr. pr. msur: a,
 
 suppos. | a, est nr. compos.
 concl. 33.7 | nr. pr. msur: a.
+
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. XXXV.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. XXXV.]
 
 ## PROBL. III. PROPOS. XXXV.
 

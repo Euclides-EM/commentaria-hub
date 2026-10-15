@@ -31,6 +31,10 @@ BG parallelogrammum; ipſius vero DCF trianguli duplum parallelogrammum CE; erit
 
 [Diagram: parallelepiped labelled A, B, C, D, E, F, G, H]
 
+[Curated heading level=2 type=propositions: PROP. XXV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXV. THEOR.]
+
 ## PROP. XXV. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſolidum parallelepipedum plano ſecetur oppoſitis planis parallelo, erit ut baſis ad baſim, ita ſolidum ad ſolidum.

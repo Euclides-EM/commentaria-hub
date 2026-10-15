@@ -18,6 +18,8 @@ PRIMVM vero membrum perſpicue & aperte oſtendunt. Nam ſi tres numeri deinceps
 
 [Curated heading level=2 type=campanus: 21]
 
+[Curated heading level=2 type=theorems: THEOR. 18. PROPOS. 20.]
+
 ## THEOR. 18. PROPOS. 20.
 
 [Curated heading level=3 type=incipit: PRIMI]

@@ -7,6 +7,8 @@ totæ H E I, F G I ſint ᵃ in planis A B, C D, productis, etiam hæc conuenien
 a Per 1.l.11.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XVII.]
+
 ## PROPOSITIO XVII.
 
 [Curated heading level=2 type=figures: Fig. 24]
@@ -25,6 +27,8 @@ b Per 2.l.6.
 c Per præc.
 d Per 2. l.6.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XVIII.]
 
 ## PROPOSITIO XVIII.
 

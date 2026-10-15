@@ -8,6 +8,10 @@
 
 Dounot a tradult ceste propoſition ainſi. Si deux lignes droictes mences des extremitez d’vne autre ligne droite ſe rencontrent en vn poinct, & des meſmes extremitez on en meine deux autres egales aux deux premieres, elles ſe rencontreront au meſme poinct, pourueu que chacune ſoit du coſté de ſon ggale. Ce qui eſt fort eſloigné de l’intention d’Euclide: caril ne dit pas que les deux lienes ſe rencontreront (choſe qui eſt eublemment fau ſe, veu qu’infin:cs lignes peuuent eſtre mences, cõme dit eſt, leſqueiles nc ſe recontrerent pas) Mais bien que ſi elles ſe rencontrent, ce ſera au meſme toinci que les preuieres.
 
+[Curated heading level=2 type=propositions: THEOR. 5. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 5. PROPOS. VIII.]
+
 ## THEOR. 5. PROPOS. VIII.
 
 Si deux triangles ont deux coſtez egaux à deux coſtez, chaſcun au ſien, & la baſe egalle à la baſe, ils auront auſſi l’angle egal, compris d’iceux coſtez egaux.

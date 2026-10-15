@@ -10,6 +10,8 @@ ILLVD idem, quod Euclides demonſtrauit de numeris, propos. 13. oſtendit hoc in
 
 [Curated heading level=2 type=campanus: 17]
 
+[Curated heading level=2 type=theorems: THEOR. 14. PROPOS. 16.]
+
 ## THEOR. 14. PROPOS. 16.
 
 [Margin]

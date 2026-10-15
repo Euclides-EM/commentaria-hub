@@ -10,6 +10,8 @@ QVOD eodem modo demonſtrabimus. Si enim primus non dicatur metiri ſecundum, ve
 
 [Curated heading level=2 type=campanus: 8]
 
+[Curated heading level=2 type=theorems: THEOR. 6. PROPOS. 8.]
+
 ## THEOR. 6. PROPOS. 8.
 
 [Curated heading level=3 type=incipit: SI]

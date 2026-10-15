@@ -7,6 +7,8 @@ POTEST autem vnus, idemque numerus planus plura habere latera, cum ex pluribus m
 
 QVIA vero omnem numerum planum metiuntur duo numeri multiplicantes ſe mutuo, quod quilibet eorum toties ſumptus, quot ſunt in altero vnitates, ipſum procreet, liquido conſtat, omnem planum numerum eſſe compoſitum; Quod etiam de numero ſolido, qui iamiam definietur, dici poteſt. Verum eſt, vnitatem aliquando dici poſſe numerum planum, quamuis improprie; quia eius latera ſunt duæ vnitates, quæ multiplicatæ mutuo ipſam vnitatem producunt.
 
+[Curated heading level=2 type=definitions: XVII.]
+
 ### XVII.
 
 [Curated heading level=4 type=incipit: CVM]

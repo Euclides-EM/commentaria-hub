@@ -25,6 +25,10 @@ hyp. | <bad, est ⊥,
 29. 1 | <cda, est ⊥,
 concl. β. 4.11 | cd ⊥ plan. ef.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. IX.]
+
 ## THEOR. IX. PROPOS. IX.
 
 Quæ eidem rectæ lineæ sunt parallelæ, sed non in eodem cum illa plano; hæ quoque sunt inter se parallelæ.

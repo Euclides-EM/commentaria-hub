@@ -4,6 +4,10 @@
 
 milieu de la hgne BD, laquelle couppe la ligne AC en deux egalement, & à angles droicts en E.
 
+[Curated heading level=2 type=propositions: THEOR. 1. PROP. II.]
+
+[Curated heading level=2 type=theorems: THEOR. 1. PROP. II.]
+
 ## THEOR. 1. PROP. II.
 
 Si en la circonference d’vn cercle, on prend deux poincts à l’aduenture; la ligne droicte menee de poinct à autre, tombera dans le cercle.
@@ -17,6 +21,10 @@ Car ſoit prins en icelle ligne droicte AB quelconque poinct comme D, entre ſes
 ### COROLLAIRE.
 
 De cecy eſt manifeſte, qu’vne ligne droicte touchant vn cercle, le touche ſeulement à vn poinct: car ſi elle le touchoit à deux poincts, la partie de la ligne d’entre iceux poincts tomberoit dans le cercle par ceſte prop. parquoy elle coupperoit le cercle, contre l’hypotheſe.
+
+[Curated heading level=2 type=propositions: THEO. 2. PROP. III.]
+
+[Curated heading level=2 type=theorems: THEO. 2. PROP. III.]
 
 ## THEO. 2. PROP. III.
 

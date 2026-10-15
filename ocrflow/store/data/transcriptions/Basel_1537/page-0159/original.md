@@ -18,6 +18,8 @@ CAMPANVS. Sint duæ superficies b c d & c e f g, æquidistantium laterum & æqua
 
 [Diagram: two parallelograms joined at a common angle: a horizontal parallelogram with a at top left, d and h at top right, b at bottom left, and a vertical parallelogram descending from the joint down to c and f at the bottom; e marks the common corner and g the right end of the middle line, so that b, e, g lie on one line and d, e, c on another]
 
+[Curated heading level=2 type=theorems: Theorema 9 Propositio 14]
+
 ## Eucli.ex Zamb. Theorema 8{printer-error-correction:9} Propositio 13{printer-error-correction:14}
 
 [Curated heading level=3 type=zamberti_sequence: 14.]

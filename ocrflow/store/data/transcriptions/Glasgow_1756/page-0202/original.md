@@ -27,6 +27,10 @@ c. 2. 6.
 
 ut CE ad ED, ita KH ad HD. aequalis autem eſt KH ipſi BG, HD vero ipſi GF; eſt igitur ut CE ad ED, ita BG ad GF. rurſus, quoniam uni laterum trianguli AGE, nimirum ipſi EG, parallela ducta eſt FD, ut ED ad DA, ita erit GF ad FA. ſed oſtenſum eſt ut CE ad ED, ita eſſe BG ad GF; ut igitur CE ad ED, ita eſt BG ad GF, et ut ED ad DA, ita GF ad FA. ergo data recta linea inſecta AB, datae rectae lineae ſectae AC ſimiliter ſecta eſt. Quod facere oportebat.
 
+[Curated heading level=2 type=propositions: PROP. XI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XI. PROB.]
+
 ## PROP. XI. PROB.
 
 [Subhead]

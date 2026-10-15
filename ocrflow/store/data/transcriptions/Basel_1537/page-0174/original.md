@@ -10,6 +10,8 @@ CAMPANVS, Sit ut prius data linea a b, & datus triãgulus c, datũq́; parallelo
 
 CAMPANI additio Possumus aut ad lineam datam adiũgere parallelogrammum æquale nõ solũ trilateræ superficiei positæ, sed & cuiuslibet rectilineæ figuræ propositæ quæcũq̃ ispa fuerit: cui desit ad cõplendã lineã datã superficiei æquidistãtiũ laterũ propositæ sicut docet præmissa, obseruata cõditione eius ne laboretur ad impossibile per ante præmissam, uel qd' addat super cõpletionẽ lineæ superficiẽ æquidistantiũ laterũ similẽ superficiei propositæ sicut proponit cõclusio præsens Propositã enim superficiem cui æquale parallelogrãmum debet ad lineã datã adiũgi quod addat aut diminuat ad cõpletionẽ lineæ parallelogrammũ simile parallelogrãmo dato: resoluemus in triãgulos, & ipsis mediãtibus describemus superficiẽ æquidistãtiũ laterum, totali superficiei propositæ æqualẽ, hoc autẽ qualiter fiat & si scire uolueris: require 25 huius. Dehinc super duplũ basis eius æqualis altitudinis triãgulũ cõstituemus, quẽ (si 41 primi diligẽter inspexeris) parallelogrammo prius designato inuenies esse æqualẽ, quare & superficiei propositæ, huic ergo triãgulo si æquale parallelogrãmũ ad lineam datã adiũxeris quod addat ad cõplementum lineæ aut minuat parallelogrammũ simile parallelogrãmo dato secundũ qd' docet hæc & præmissa: quod propositũ erat te perfecisse non dubites.
 
+[Curated heading level=2 type=problems: Problema 9 Propositio 29]
+
 ## Eucli.ex Zamb. Problema 9 Propositio 29
 
 [Curated heading level=3 type=zamberti_sequence: 29.]

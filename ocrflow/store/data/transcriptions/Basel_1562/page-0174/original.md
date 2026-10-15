@@ -13,6 +13,10 @@ vom anfang vnnd grund der Geometri.
 oder außlegungen ettlicher wörtlin.
 [/Subhead]
 
+[Curated heading level=1 type=definitions: Das ſechßt bůch Euclidis]
+
+[Curated heading level=2 type=definitions: Beſchreibung 1.]
+
 ### 1.
 
 {dropcap:G|lines=3|style=decorated}leichförmig oder entliche rechtliniſche figurn ſeind / deren der ainen winckel / den wincklen der anderen gleich:vnnd die linien / ſo gleiche winckel begriffen / geproportioniert ſeind.
@@ -27,6 +31,8 @@ Es ſeind zwen gleichſeittig triangel: hallten ſych alle linien in ainer propo
 
 [Diagram: two triangles labelled 6 and 9]
 
+[Curated heading level=2 type=definitions: Beſchreibung 2.]
+
 ### 2.
 
 Widerſinns geproportionierte figuren ſeind / in welchen die winckel der ainen / gegen den wincklen der andern gleicher proportz ſeind: deßgleichen auch die linien / mit welchen ſolche geproportionierte winckel aingeſchloſſen.
@@ -40,6 +46,8 @@ Widerſinns geproportionierte figuren ſeind / in welchen die winckel der ainen 
 #### Erclärung.
 
 Beſihe die 14. vnnd 15 propoſition / da wirſtu exempel vnd beſchaid finden.
+
+[Curated heading level=2 type=definitions: Beſchreibung 3.]
 
 ### 3.
 

@@ -28,6 +28,10 @@ hyp. | <efg, est ⊥, β
 3. d. 11 | <fge, est ⊥,
 β | contr. 17. 1.
 
+[Curated heading level=2 type=propositions: THEOR. XXXIV. PROPOS. XXXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIV. PROPOS. XXXIX.]
+
 ## THEOR. XXXIV. PROPOS. XXXIX.
 
 Si solidi parallelepipedi eorum, quæ ex aduerso, planorum latera bifariam secta sint; per sectiones autem plana sint extensa: communis sectio planorum, & solidi parallelepipedi diameter, bifariam se mutuò secabunt.

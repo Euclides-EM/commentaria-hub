@@ -3,6 +3,10 @@
 
 militer et unaquaeque pyramis earum quae ſunt in ſphaera majori ad unamquamque pyramidum ejuſdem ordinis quae ſunt in altera ſphaera, triplicatam rationem habet ejus quam habet AB ad eam quae eſt ex centro alterius ſphaerae. et ut unum antecedentium ad unum conſequentium, ita antecedentia omnia ad omnia conſequentia. Quare totum ſolidum polyedrum, quod eſt in ſphaera majori, ad totum ſolidum polyedrum quod in altera ſphaera, triplicatam rationem habet ejus quam habet AB ad eam quae eſt ex centro alterius ſphaerae, hoc eſt quam habet BD diameter ad alterius ſphaerae diametrum.
 
+[Curated heading level=2 type=propositions: PROP. XVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVIII. THEOR.]
+
 ## PROP. XVIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}Phaerae inter ſe in triplicata ſunt ratione ſuarum diametrorum.

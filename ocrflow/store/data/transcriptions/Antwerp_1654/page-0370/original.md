@@ -9,6 +9,8 @@
 s Vide ſchol. poſt 6. huius.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXII.]
+
 ## PROPOSITIO XXXII.
 
 {dropcap:C|lines=2|style=plain}Ylindrus rectus (G K) ſphæræ, cui circumſcribitur, & ſoliditate & ſuperficie totâ ſeſquialter eſt.

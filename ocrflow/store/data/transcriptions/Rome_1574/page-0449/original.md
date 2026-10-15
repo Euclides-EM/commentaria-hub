@@ -32,6 +32,8 @@ QVOD ſi plures fuerint magnitudines tribus, oſtendemus maiorem vel minorem quo
 
 [Curated heading level=2 type=campanus: 32]
 
+[Curated heading level=2 type=theorems: THEOR. 32. PROPOS. 32.]
+
 ## THEOR. 32. PROPOS. 32.
 
 [Curated heading level=3 type=incipit: SI]

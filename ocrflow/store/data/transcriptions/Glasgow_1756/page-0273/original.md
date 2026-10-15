@@ -31,6 +31,10 @@ etenim planis ſimilibus, multitudine et magnitudine aequalibus, et ſimiliter p
 
 [Diagram: parallelepiped labelled A, B, C, D, E, F, G and H, divided by diagonal planes]
 
+[Curated heading level=2 type=propositions: PROP. XXIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXIX. THEOR.]
+
 ## PROP. XXIX. THEOR.
 
 {dropcap:S|lines=2|style=plain}OLIDA parallelepipeda quae in eadem ſunt baſi, et eadem altitudine, quorum inſiſtentes rectae ſunt in eiſdem rectis lineis, inter ſe ſunt aequales.

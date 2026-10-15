@@ -6,6 +6,8 @@ perpendicularem super lineam b c, quam pono æqualem a b, & produco lineam d c, 
 
 [Diagram: triangle with apex c and base a d; b on the base between a and d; lines c a, c b, c d drawn]
 
+[Curated heading level=2 type=theorems: Theorema 34. Propositio 48.]
+
 ## Eucli. ex Zamb. Theorema 34. Propositio 48.
 
 [Curated heading level=3 type=zamberti_sequence: 48.]

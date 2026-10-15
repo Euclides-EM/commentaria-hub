@@ -5,6 +5,8 @@ NON eſt diſſimilis hæc definitio illi, qua Euclides lib. 5. partem quantitat
 
 OMNIS autem pars ab eo numero nomen ſibi ſumit, per quem ipſa numerum, cuius pars eſt, metitur; ut 6. pars huius numeri 42. nomen trahit a 7. cum 6. metiatur 42. per 7. Itaque 6. erit ſeptima pars numeri 42. & in reliquis eodẽ modo.
 
+[Curated heading level=2 type=definitions: IIII.]
+
 ### IIII.
 
 [Curated heading level=4 type=incipit: PARTES]

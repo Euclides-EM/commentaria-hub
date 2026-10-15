@@ -19,6 +19,10 @@ et igitur ut ABCD circulus ad circulum EFGH, ita ſunt ſuper ipſis cylindri ae
 
 [Figure: two rectangular solids labelled I, X and Z]
 
+[Curated heading level=2 type=propositions: PROP. XII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XII. THEOR.]
+
 ## PROP. XII. THEOR.
 
 {dropcap:S|lines=2|style=plain}IMILES coni et cylindri inter ſe ſunt in triplicata ratione diametrorum baſium.

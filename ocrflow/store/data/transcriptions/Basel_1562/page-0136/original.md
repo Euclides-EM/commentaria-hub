@@ -4,6 +4,8 @@
 
 Auch wiſſen die ſo mit der Coß vmbgehn / wie fein ſollichs durch dieſelbig gefunden werden mag / vnd ſchöne vbung ſonderlich der Surdiſchen vnd Binomiſchen zalen allerlai gattung mitt ſych bringt. Daruon (wills Gott) ich dem Teütſchen leſer mit der zeitt grundtlich / kurtzen vnd ordenlichen bericht geben will / dan on dieſelben mehrs tail man in diſen künſten beſteckht.
 
+[Curated heading level=2 type=propositions: XV. Die fünffzehendt Propoſition]
+
 ## XV. Die fünffzehendt Propoſition.
 
 [Subhead]

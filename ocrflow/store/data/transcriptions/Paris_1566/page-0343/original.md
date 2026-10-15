@@ -6,6 +6,8 @@ Supponantur binæ pyramides ABGI & DEZT triangulares baſes ABG & DEZ habentes, 
 
 [Diagram: rectangular solid labelled Q]
 
+[Curated heading level=2 type=propositions: Propoſitio ſexta.]
+
 ## Propoſitio ſexta.
 
 Sub eadem altitudine Pyramides exiſtentes, multanguláſque baſes habentes, adinuicem ſeſe habent ſicuti baſes.

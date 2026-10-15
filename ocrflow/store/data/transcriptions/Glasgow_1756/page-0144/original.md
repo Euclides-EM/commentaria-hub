@@ -7,6 +7,10 @@ COR. Ex hoc manifeſtum eſt hexagoni latus, ei quæ eſt ex centro circuli æqu
 
 Et ſi per puncta A, B, C, D, E, F contingentes circulum ducamus, circa circulum hexagonum æquilaterum et æquiangulum circumſcribetur, conſequenter iis quæ in pentagono dicta ſunt; et præterea ſimiliter in dato hexagono æquilatero et æquiangulo circulum inſcribemus, et circa illud circumſcribemus.
 
+[Curated heading level=2 type=propositions: PROP. XVI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XVI. PROB.]
+
 ## PROP. XVI. PROB.
 
 {dropcap:I|lines=2|style=plain}N dato circulo quindecagonum æquilaterum et æquiangulum inſcribere.

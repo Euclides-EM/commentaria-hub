@@ -2,6 +2,10 @@
 
 CINQ. ELEMENT.
 
+[Curated heading level=2 type=propositions: THEOR. 25. PROP. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. 25. PROP. XXV.]
+
 ## THEOR.{printer-error-correction:THEOR. 25.} PROP. XXV.
 
 Si quatre grandeurs ſont proportionneles;

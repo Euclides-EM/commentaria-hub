@@ -6,6 +6,8 @@ perſpicuum erat, reliquum EB, alicuius numeri eandem eſſe partem, quæ eſt A
 
 [Curated heading level=2 type=campanus: 9]
 
+[Curated heading level=2 type=theorems: THEOR. 7. PROPOS. 9.]
+
 ## THEOR. 7. PROPOS. 9.
 
 [Curated heading level=3 type=incipit: SI]

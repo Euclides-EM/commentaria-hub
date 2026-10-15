@@ -26,6 +26,10 @@ hyp. | af 2|2 fb,
 12.a.1 | <efd 2|2 <efb, contr. 9.a.1.
 concl. 21.a.1 | cf ñ est 2|2 fd.
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. V.]
+
 ## THEOR. IV. PROPOS. V.
 
 Si duo circuli sese mutuò secent; non erit illorum idem centrum.

@@ -19,6 +19,10 @@ Noch leichter geschicht diese Theilung nach dem XI. Vortrag des II. Buchs.
 
 Dw. ist ab im c nach der äusersten und mittelsten Verhältnüß getheilet. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der XXXI. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 21. Beweiß-Stück. Der XXXI. Vortrag.]
+
 ## Der XXXI. Vortrag.
 
 ## Das 21. Beweiß-Stück.

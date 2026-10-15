@@ -31,6 +31,10 @@ constr. | <dbe est ∟,
 12.a.b | <dca est ∟,
 concl. c.16.3 | ac tang: ⊙dbc.
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XVIII.]
+
 ## THEOR. XVI. PROPOS. XVIII.
 
 Si circulum tangat recta quæpiam linea, à centro autem ad contactum adiungatur recta quædam linea: quæ adiuncta fuerit, ad ipsam contingentem perpendicularis erit.

@@ -3,6 +3,10 @@
 
 [Diagram: within a ruled border, a triangle B C D with apex C; interior point A joined by lines to B, C and D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXI. THEOREME XIX.]
+
+[Curated heading level=2 type=theorems: THEOREME XIX. PROPOSITION XXI.]
+
 ## PROPOSITION XXI. THEOREME XIX.
 
 {dropcap:T|lines=2|style=plain}Ous les angles-plan (BAC, CAD & DAB) qui forment un angle ſolide (A): ſont moindre qne quatres angles droits.

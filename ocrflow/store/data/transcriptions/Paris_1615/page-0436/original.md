@@ -8,6 +8,10 @@ fois le rectangle de AC & CB, eſt egal au compoſé des quarrez de AD & DB, au
 
 Il eſt à noter qu’és cinq ſortes de lignes irrationeles qui ſuyuent, iamais les deux noms d’icelles ne peuuent eſtre egaux: car comme il a eſté dict cy deſſus, ils ſeroient commenſen longit. & ils ont eſte demonſtrez incommenſ. en long. faut auſſi remarquer que quand on dict qu’icelles lignes ne peuuent eſtre diuiſees en leurs noms qu’au poinct propoſé, faut entendre que re contrediſant apportant vne autre diuiſion, les parties d’icelle doiuent eſtre inegales aux parties de la propoſee.
 
+[Curated heading level=2 type=propositions: THEOR. 32. PROP. XLIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 32. PROP. XLIIII.]
+
 ## THEOR. 32. PROP. XLIIII.
 
 La bimediale premiere eſt diuiſee en ſes noms en vn poinct ſeulement.

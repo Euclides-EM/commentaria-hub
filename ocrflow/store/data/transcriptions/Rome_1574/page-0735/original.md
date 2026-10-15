@@ -17,6 +17,8 @@ Quoniam igitur eſt ut AB ad E, ita BC, ad F; & CD, ad G; (quod ſemper ſit pro
 
 [Curated heading level=2 type=campanus: 23]
 
+[Curated heading level=2 type=theorems: THEOR. 20. PROPOS. 22.]
+
 ## THEOR. 20. PROPOS. 22.
 
 [Curated heading level=3 type=incipit: SI]
@@ -44,6 +46,8 @@ Eſt autem & multitudo unitatum detractarum par: Igitur & totus AE, compoſitus 
 [/Margin]
 
 [Curated heading level=2 type=campanus: 24]
+
+[Curated heading level=2 type=theorems: THEOR. 21. PROPOS. 23.]
 
 ## THEOR. 21. PROPOS. 23.
 

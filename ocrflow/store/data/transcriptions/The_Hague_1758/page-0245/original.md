@@ -11,6 +11,8 @@ C. Q. F. D.
 
 De plus, les raiſons R² : 1, R³ : 1 &c. étant les réciproques des directes multipliées 1 : R², 1 : R³; &c. de même que les raiſons R^¼ : 1 & R^¾ : 1 &c. ſont les réciproques des directes ſousmultipliées 1 : R^¼, 1 : R^¾ &c; On voit que la réſolution & compoſition de la raiſon 1 : R, donne les derivées de ſa réciproque R : 1, en renverſant les termes.
 
+[Curated heading level=2 type=propositions: PROPOSITION X.]
+
 ## PROPOSITION X.
 
 {dropcap:L|lines=2|style=plain}A moyenne proportionelle R, entre deux termes M & N, eſt plus grande que le moindre terme M, & plus petite que le plus grand N.

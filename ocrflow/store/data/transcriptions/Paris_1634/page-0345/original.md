@@ -31,6 +31,10 @@ hyp. | ab π bc 2|2 de π ef,
 
 contr. hyp.
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. VIII.]
+
 ## THEOR. VIII. PROPOS. VIII.
 
 Si in triangulo rectangulo, ab angulo recto in basin perpendicularis ducta sit : quæ ad perpendicularem triangula, tum toti triangulo, tum ipsa inter se similia sunt.

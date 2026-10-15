@@ -3,6 +3,10 @@
 
 [Diagram: circle ABED with chords AB and DE, centre C, perpendiculars CF and CG, and radii CB and CE]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV. THEOREME XIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XIII. PROPOSITION XIV.]
+
 ## PROPOSITION XIV. *THEOREME XIII.*
 
 {dropcap:D|lines=2|style=plain}Ans un cercle (ABED) les cordes égales (AB, DE) ſont également éloignées du centre (C) : & les cordes (AB, DE) également éloignées du centre (C) ſont égales.

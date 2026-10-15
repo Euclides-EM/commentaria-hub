@@ -4,6 +4,10 @@
 
 [Figure: circle with points C, E, A, F, B, D; diameter CD crossing chord AB at F, dotted lines from E to A and B, angles m & n at F]
 
+[Curated heading level=2 type=propositions: PROPOSITION III. THEOREME II.]
+
+[Curated heading level=2 type=theorems: THEOREME II. PROPOSITION III.]
+
 ## PROPOSITION III. THEOREME II.
 
 {dropcap:S|lines=2|style=plain}I un diametre (CD) coupe une corde (AB) en deux également (en F): il la coupe à angles droits. Et *reciproquement*; ſi un diametre (CD) coupe une corde (AB) à angles droits: il la coupe auſſi en deux également.

@@ -19,6 +19,10 @@ suppos. | a & b snt comm.
 concl. 5.10 | a π b 2|2 nr. π. nr.
 contr. hypoth.
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. IX.]
+
 ## THEOR. VII. PROPOS. IX.
 
 Quæ à rectis lineis longitudine commensurabilibus fiunt quadrata, inter se proportionem habent, quam quadratus numerus ad quadratum numerum : & quadrata inter se proportionem habentia, quam quadratus numerus ad quadratum numerum ; & latera habebunt longitudine commensurabilia. Quæ vero à rectis lineis longitudine incommensurabilibus fiunt quadrata, inter se proportionem non habent, quam quadratus numerus ad quadratum numerum : & quadrata inter se proportionem non habentia, quam quadratus numerus ad quadratum numerum, neque latera habebunt longitudine commensurabilia.

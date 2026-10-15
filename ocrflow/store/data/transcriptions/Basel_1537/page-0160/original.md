@@ -18,6 +18,8 @@ CAMPANVS Sint duo trianguli a b c, c d e, æquales, sitque angulus c. unius, æq
 
 [Diagram: two triangles joined at the common point c: a at top left, d at top right, b at bottom left, e at bottom right; the lines a c e and d c b cross at c, and the line b e is drawn]
 
+[Curated heading level=2 type=theorems: Theorema 10 Propositio 15]
+
 ## Eucli.ex Zamb. Theorema 10 Propositio 15
 
 [Curated heading level=3 type=zamberti_sequence: 15.]

@@ -3,6 +3,8 @@
 
 (per 47 primi) æquale quadratis DZ ZE, ſed quadratis DZ, ZE æqualia ſunt quadrata DB, BE, cùm ſint vtraque æqualia ei quod ex DE, per 47 primi, quod igitur ſub AD, DG cum quadrato GE (hoc eſt BE ex centro ſibi æquali) æquum erit quadratis DB, BE, commune autem tollatur ex BE quadratũ. Sequetur rectangulum ſub tota AD ſecante & parte DG extrinſecus ſumpta contentum, æquum eſſe ei quod fit ex DB tangente quadrato. Si itaque extra circulum ſumatur ſignum ab eo, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſeptima.]
+
 ## Propoſitio trigeſimaſeptima.
 
 Si extra circulum ſumatur aliquod in plano ſignũ, & ab eo in circulum duæ incidant rectæ, quarum altera circulũ ſeccet, altera verò incidat. Sit autẽ quod fit ſub tota ſecante & extrinſecus ſumpta eius parte, æquale ei quod fit ex incidente, incidens circulum tanget.

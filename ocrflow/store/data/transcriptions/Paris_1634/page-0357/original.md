@@ -6,6 +6,10 @@ Ex posteriori huius demonstrationis parte efficitur, quamlibet rectam lineam ess
 
 De la derniere partie de ce theoreme, il s'ensuit que toute ligne droicte est moyenne proportionelle entre deux autres quelconques lignes droictes, qui contiennent vn rectangle egal au quarré d'icelle.
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. XVIII.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. XVIII.]
+
 ## PROBL. VI. PROPOS. XVIII.
 
 A data recta linea dato rectilineo simile, similiterque positum rectilineum describere.

@@ -1,6 +1,10 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 33 -->
 
+[Curated heading level=2 type=propositions: THEOREMA 22, PROPOSITIO XXXII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 22, PROPOSITIO XXXII.]
+
 ## THEOREMA 22, PROPOSITIO XXXII.
 
 Angulus exterior Trianguli, duobus interioribus ſibi oppoſitis eſt æqualis: Et cuiuslibet Trianguli tres anguli duobus rectis ſunt æquales.

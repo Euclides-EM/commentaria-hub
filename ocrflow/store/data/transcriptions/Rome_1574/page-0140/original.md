@@ -33,6 +33,8 @@ Tiiãguli enim A B C, productis lateribus AB, AC, ad D, & E, fiant anguli D B C,
 
 [Curated heading level=2 type=campanus: 7]
 
+[Curated heading level=2 type=theorems: THEOR. 4. PROPOS. 7.]
+
 ## THEOR. 4. PROPOS. 7.
 
 [Margin]

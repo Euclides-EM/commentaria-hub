@@ -1,6 +1,12 @@
 <!-- Running title: LIVRE IV. -->
 <!-- Page number: 115 -->
 
+[Curated heading level=1 type=lemmas: Livre IV]
+
+[Curated heading level=2 type=propositions: PROPOSITION IX. LEMME.]
+
+[Curated heading level=2 type=lemmas: LEMME. PROPOSITION IX.]
+
 ## PROPOSITION IX.
 
 ### LEMME.

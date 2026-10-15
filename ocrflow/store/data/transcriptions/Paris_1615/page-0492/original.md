@@ -2,6 +2,10 @@
 
 <!-- Page number: 469 -->
 
+[Curated heading level=2 type=propositions: THEO. 72. PROP. XCVI.]
+
+[Curated heading level=2 type=theorems: THEO. 72. PROP. XCVI.]
+
 ## THEO. 72. PROP. XCVI.
 
 Si vn rectangle eſt compris d’vne ligne rationele, & d’vn reſidu cinquieſme; la ligne qui peut iceluy, eſt ligne faiſant auec vne ſuperficie rationele vn tout medial.

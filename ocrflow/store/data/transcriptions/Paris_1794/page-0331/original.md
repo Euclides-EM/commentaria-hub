@@ -1,6 +1,10 @@
 <!-- Running title: NOTE VI. -->
 <!-- Page number: 303 -->
 
+[Curated heading level=1 type=theorems: Notes]
+
+[Curated heading level=2 type=theorems: THÉORÊME. (NOTE VI.)]
+
 ### THÉORÊME.
 
 [Subhead]

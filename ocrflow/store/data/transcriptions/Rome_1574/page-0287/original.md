@@ -7,6 +7,8 @@
 
 [Curated heading level=2 type=campanus: 4]
 
+[Curated heading level=2 type=theorems: THEOR. 3. PROPOS. 4.]
+
 ## THEOR. 3. PROPOS. 4.
 
 [Curated heading level=3 type=incipit: SI]
@@ -27,6 +29,8 @@ DVAE rectæ AB, CD, ſe mutuo in E, ſecent in circulo ACBD, non per centrum ext
 [/Margin]
 
 [Curated heading level=2 type=campanus: 5]
+
+[Curated heading level=2 type=theorems: THEOR. 4. PROPOS. 5.]
 
 ## THEOR. 4. PROPOS. 5.
 

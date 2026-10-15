@@ -2,11 +2,17 @@
 
 touche chacun angle de la figure à l'entour de laquelle il est descrit.
 
+[Curated heading level=2 type=definitions: DEF. VII.]
+
 ### VII.
 
 Vne ligne droicte est dite estre accommodée ou adaptée au cercle, quand les extremitez d'icelle sont en la circonference du cercle.
 
 [Figure]
+
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. I.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. I.]
 
 ## PROBL. I. PROPOS. I.
 

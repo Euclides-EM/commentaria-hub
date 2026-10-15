@@ -4,6 +4,10 @@
 
 [Figure: triangle ABC in a double-ruled frame, with point D on side AB and a dotted line DC drawn to the base; angles a at B and b, c at C]
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THEOREME III.]
+
+[Curated heading level=2 type=theorems: THEOREME III. PROPOSITION VI.]
+
 ## PROPOSITION VI. THEOREME III.
 
 {dropcap:S|lines=2|style=plain}I un triangle (ABC) a deux angles (*a* & *b* + *c*) égaux entr'eux: les côtés oppoſés à ces angles égaux, ſeront auſſi égaux entr'eux.

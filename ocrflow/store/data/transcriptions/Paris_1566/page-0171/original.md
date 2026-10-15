@@ -2,11 +2,13 @@
 
 partes fuerit, & alter D E alterius Z eædem partes, & vicißim quæ partes eſt primus A B tertij D E vel pars, eædem partes erit ſecundus G quarti Z vel eadem pars.
 
-## MONITVM.
+### MONITVM.
 
 Hæc cum præfata æquè de partibus totum ſuperantibus vt de parte & partibus toto minoribus intelligitur, vt exemplo, ſi numerus A numeri B fuerit pars vel partes, quæ numerus C numeri D, Erit vicißim primus A eadem pars vel partes tertij C, quæ ſecundus B quarti D ſcilicet quatuor tertiæ, tanta namque adhiberi poteſt partium copia, quæ totum excedet, nempe quatuor quartæ tres quartas excedunt.
 
 [Diagram: four horizontal lines labelled A, B, C and D]
+
+[Curated heading level=2 type=propositions: Propoſitio 11.]
 
 ## Propoſitio 11.
 
@@ -16,6 +18,8 @@ Eſto totus numerus A B ad totum G D ſic ablatus A E ad ablatum G Z: Dico eſſ
 
 [Diagram: two horizontal divided lines, the upper labelled D, Z and G, the lower labelled B and E]
 
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
+
 ## Propoſitio duodecima.
 
 Si fuerint quotcũque numeri proportionales, erit ſicut vnus antecedentium ad vnum conſequentium, ſic omnes antecedentes ad omnes conſequentes.
@@ -24,7 +28,7 @@ Sit numerus A ad numerum B, ſic G ad D: Dico ſicut vnã antecedentium A ad vnu
 
 [Diagram: four horizontal lines labelled A, B, G and D, marked with the numbers 9, 6, 3 and 2]
 
-## MONITVM.
+### MONITVM.
 
 Huius theorematis figura quam ab antiquis exemplaribus ſumpſit Theon, perſpicuè ſequitur multiplicium legem à nobis expoſitam, ſcilicet augmenti ac decrementi: cùm autem exiſtimet Theon partem aut partes muytiplicis eſſe relatiuas, ſimiliter & Campanus, ſatis tamẽ improprie, cùm ad totum ſolùm referãtur. Nihilomiuus A maiorem B minoris, partem vel partes in demonſtrando theoremate dixit, ſimiliter vt G maiorem ipſius D minoris: quare fateri cogetur eorum relatiuos, ſcilicet B & D, quæquidem ad ipſos A & G eandem habẽt rationem, eorum multiplices dici, licet minores. Multiplicatione igitur decrementi, dicemus B & D numerorum A & G eſſe æquè multiplices, ſcilicet ⅔ duorum tertiorum denominatione multiplicationis expreſſos, hæc & 3 præcedentes ſequuũtur 21 diffinitionẽ huius, quoſlibet ſcilicet æquemultiplices ad ſimplices (ſiue pars, ſiue partes fuerint illi multiplices) eandẽ habere rationem, & ideo proportionales vocari: & proinde duarũ magnitudinũ diſcretarum rationem, ſola multiplicationis (qua antecedens eſt conſequentis multiplex) quantitate exprimi poſſe, vt diximus ſæpiuſcule. Idem ſequeretur in continuis, ſi illæ multiplicationẽ reciperent, quare rationum lex quippe eadem inter eas erit, ſed non expreſſa, cùm abſque diſcretione, rationis denominatio fieri non poßit, apud continuas ac confuſas geometriæ magnitudines: Veluti fit circa eas quæ
 

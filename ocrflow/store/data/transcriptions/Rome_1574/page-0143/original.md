@@ -14,6 +14,8 @@ Eadem ratione poſſunt ex A, & B, infra A B, baſim trianguli A B C, hoc eſt a
 
 [Curated heading level=2 type=campanus: 8]
 
+[Curated heading level=2 type=theorems: THEOR. 5. PROPOS. 8.]
+
 ## THEOR. 5. PROPOS. 8.
 
 [Curated heading level=3 type=incipit: SI]

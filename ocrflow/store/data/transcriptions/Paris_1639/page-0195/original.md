@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. IV. -->
 
+[Curated heading level=2 type=propositions: PROBL. XVI. PROPOS. XVI.]
+
+[Curated heading level=2 type=problems: PROBL. XVI. PROPOS. XVI.]
+
 ## PROBL. XVI. PROPOS. XVI.
 
 En vn cercle donné, inscrire vn quintidecagone equilateral & equiangle.

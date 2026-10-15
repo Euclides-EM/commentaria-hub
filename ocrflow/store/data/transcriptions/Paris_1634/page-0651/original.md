@@ -21,6 +21,10 @@ hyp. | ac, est √.32 + √.24,
 op, est √√.450 + √√.50,
 op, est bimed. 2.
 
+[Curated heading level=2 type=propositions: THEOR. XL. PROPOS. LVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XL. PROPOS. LVIII.]
+
 ## THEOR. XL. PROPOS. LVIII.
 
 Si spatium contineatur sub rationali, & ex binis nominibus quarta; recta linea spatium potens irrationalis est, quæ vocatur major.

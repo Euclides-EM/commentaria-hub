@@ -3,6 +3,10 @@
 
 [Figure: deux pyramides triangulaires ABCD & EFGH et un parallélépipède X, dans un cadre]
 
+[Curated heading level=2 type=propositions: PROPOSITION V. THEOREME V.]
+
+[Curated heading level=2 type=theorems: THEOREME V. PROPOSITION V.]
+
 ## PROPOSITION V. THEOREME V.
 
 {dropcap:L|lines=2|style=plain}Es pyramides (ABCD & EFGH) dont les bazes (ABC & EFG) ſont des triangles, & qui ont la même hauteur: ſont entr’eux comme leurs bazes (ABC & EFG).

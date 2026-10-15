@@ -22,6 +22,8 @@ Diſe iſt leichtlich auß der ailfften propoſition zůuerſtehn.
           3        12   5/3       gröſſer
 [/Calculation]
 
+[Curated heading level=2 type=propositions: XIIII. Die vierzehend Propoſition]
+
 ## XIIII. Die vierzehend Propoſition.
 
 {dropcap:W|lines=2|style=plain}an vier proportionierte quantiteten ſeind / iſt die erſt gröſſer dan die dritt / ſo iſt auch die ander gröſſer / weder die vierdt / Iſt ſy klainer / auch klainer: iſt ſy gleich / auch gleich.
@@ -44,6 +46,8 @@ Diſe iſt leichtlich auß der ailfften propoſition zůuerſtehn.
          └───────────────┘
     gleich             gleich.
 [/Calculation]
+
+[Curated heading level=2 type=propositions: XV. Die fünffzehende Propoſition]
 
 ## XV. Die fünffzehende Propoſition.
 

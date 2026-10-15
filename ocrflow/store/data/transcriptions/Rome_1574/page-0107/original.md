@@ -2,6 +2,8 @@
 
 monere volui, ne putares aliqd latere myſterij in baſe triãguli, intelligereſq́; quodlibet latus, omni diſcrimine remoto, baſis nomine poſſe nuncupari.
 
+[Curated heading level=2 type=definitions: XXIX.]
+
 ### XXIX.
 
 [Curated heading level=4 type=incipit: QVADRILATERARVM]
@@ -11,6 +13,8 @@ QVADRILATERARVM auté figurarum, Quadratum quidem eſt, quod & æquilaterum, & r
 [Figure: square]
 
 POST figurarum trilaterarum ſpecies, exponit iam ſingulatim quadrilateras figuras, recenſendo quinq́; tantummodo earum genera, quorum quatuor priora regularia ſunt, poſterius autem, & quintum irregulare. Prima figura quadrilatera dicitur Quadratum, cuius quidem omnia quatuor latera inter ſe æqualia exiſtunt, omneſq́; anguli recti. Itaq́; quadrangulum æquilaterum, & non rectangulum; vel contra, rectangulum, & non æquilaterum, nequaquam Quadratum appellabitur. Docebit autem Euclides propos. 46. huius lib. quonam modo conſtruendum ſit quadratum ſuper recta linea propoſita finita.
+
+[Curated heading level=2 type=definitions: XXX.]
 
 ### XXX.
 

@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXXIII.]
+
 ## THEOR. XXIII. PROPOS. XXXIII.
 
 In æqualibus circulis, anguli eandem habēt rationem cum peripheriis, quibus insistunt, siue ad centra, siue ad peripherias constituti insistant: insuper vero & sectores, quippe qui ad centra consistunt.

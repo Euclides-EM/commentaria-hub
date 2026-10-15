@@ -15,6 +15,10 @@ F. 208.
 
 AC:DF::AS:DT::SB:TE::SC:TF, ce qui renferme cinq conditions, les triangles ABS, ABC, seront semblables aux triangles DET, DEF, et semblablement placés. On aura aussi le triangle SBC semblable à TEF ; donc les trois angles plans qui forment l’angle solide B seront égaux aux angles plans qui forment l’angle solide E, chacun à chacun ; d’où il suit que l’inclinaison des plans SAB, ABC, est égale à celle de leurs homologues TDE, DEF, et qu’ainsi les deux pyramides sont semblables.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXII.]
+
 ## PROPOSITION XXII.
 
 ### THÉORÊME.

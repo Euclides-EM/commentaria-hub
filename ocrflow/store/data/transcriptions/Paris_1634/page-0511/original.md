@@ -24,6 +24,10 @@ hyp. | c, msur: d,
 2c20.d7 | e, msur: b,
 11.a.7 | a, msur: b.
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XV.]
+
 ## THEOR. XIII. PROPOS. XV.
 
 Si cubus numerus cubum numerum metiatur; & latus vnius metietur latus alterius. Et si latus vnius cubi latus alterius metiatur ; & cubus cubum metietur.

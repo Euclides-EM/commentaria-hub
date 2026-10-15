@@ -30,6 +30,8 @@ De rationum cōparatione.
 
 [Curated heading level=3 type=numbered_item: 4.]
 
+[Curated heading level=2 type=definitions: Diffinitio 4.]
+
 4 Proportio verò, est rationum identitas.
 
 Hoc est, duarū pluriúmve geometricarū rationū similitudo. vt si duplam duplæ, sesqualteram sesqualteræ, plurésve duplas, aut sesqualteras, & alias quascunque similes rationes inuicem comparaueris. Nam de arithmetica ratione, quam vocant æqualium differentiarum inter datos numeros obseruatam progressionem: nihil ad præsentem doctrinam. Neque de ratione musica, quæ potius harmonia quædā esse videtur: vtpote, quæ fit cùm oblatis tribus numeris, quam rationem maximus obtinet ad minimum, eam quoq̄ seruat differentia maximi supra medium ad differentiam medij supra minimum, in suprà scripta rationum similitudine minimè consistens. Sicuti enim arithmetica progressio, à musica differre perhibetur harmonia: sic & geometrica proportio (quæ sola peculiari nomine proportionis venit adpellanda) ab vtraque distinguitur.
@@ -59,6 +61,8 @@ Genere diuersa discōtinuā proportionē obseruant. Corollarium.
 ¶Λόγον ἔχειν πρὸς ἄλληλα μεγέθη λέγεται, ἃ δύναται πολλαπλασιαζόμενα ἀλλήλων ὑπερέχειν.
 
 [Curated heading level=3 type=numbered_item: 5.]
+
+[Curated heading level=2 type=definitions: Diffinitio 5.]
 
 5 Rationem habere adinuicē magnitudines dicuntur, quæ possunt multiplicatæ inuicem excedere.
 

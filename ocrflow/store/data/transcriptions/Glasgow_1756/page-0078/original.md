@@ -3,6 +3,10 @@
 
 gulus qui ad D; ergo ex AD, DF quadrata dupla ſunt quadratorum ex AC, CD. eſt autem DF ipſi DB aequalis; quadrata igitur ex AD, DB quadratorum ex AC, CD dupla erunt. ſi igitur recta linea ſecetur &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. X. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. X. THEOR.]
+
 ## PROP. X. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea ſecetur bifariam, et ipſi in directum quaevis recta linea adjiciatur, quae ex tota cum adjecta, et adjecta fiunt utraque quadrata, dupla ſunt et quadrati ex dimidia, et quadrati quod ex ea quae compoſita eſt ex dimidia et adjecta, tanquam ab una recta linea deſcribitur.

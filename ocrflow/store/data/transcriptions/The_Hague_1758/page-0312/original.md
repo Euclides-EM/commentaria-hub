@@ -3,6 +3,10 @@
 
 [Diagram: plane P L within a double-ruled border, containing intersecting lines A B and C D meeting at E, line G H through E, and perpendicular E F with dotted lines from F to A, G, C, D, H and B]
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. THEOREME IV.]
+
+[Curated heading level=2 type=theorems: THEOREME IV. PROPOSITION IV.]
+
 ## PROPOSITION IV. THEOREME IV.
 
 {dropcap:S|lines=2|style=plain}I deux lignes droites (AB & CD) s'entre-coupent, & qu'au point (E) de leur Section on eleve une perpendiculaire (EF) ſur ces lignes (AB & CD): Elle ſera auſſi perpendiculaire ſur le Plan (PL) paſſant par ces lignes (AB & CD).

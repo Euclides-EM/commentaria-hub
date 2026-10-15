@@ -2,9 +2,19 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: LE SIXIESME LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=theorems: LE SIXIESME LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=problems: LE SIXIESME LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=definitions: LE SIXIESME LIVRE DES ELEMENTS D'EVCLIDE.]
+
 # LE SIXIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
 ## DEFINITIONS.
+
+[Curated heading level=2 type=definitions: DEF. I.]
 
 ### I.
 

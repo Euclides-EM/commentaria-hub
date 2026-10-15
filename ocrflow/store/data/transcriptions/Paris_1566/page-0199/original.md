@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
+
 ## Propoſitio octaua.
 
 Si ab vnitate quotcunque numeri continuè proportionales fuerint, Tertius ab vnitate quadratus erit, & vnum relinquentes omnes. Quartus autem cubus & binis relictis omnes. Septimus verò cubus ſimul & quadratus, & quinque relictis omnes.
@@ -8,6 +10,8 @@ Sint ab vnitate continuè proportionales A B G D E Z: Dico tertium ab vnitate, �
 
 [Diagram: horizontal lines labelled Vnitas, A 3, B 9, G 27, D 81, E 243 and Z 729]
 
+[Curated heading level=2 type=propositions: Propoſitio nona.]
+
 ## Propoſitio nona.
 
 Si ab vnitate quotcunque numeri continuè proportionales fuerint, qui verò poſt vnitatem quadratus fuerit, & reliqui omnes quadrati erunt, & ſi qui poſt vnitatem cubus fuerit, & reliqui omnes cubi erunt.
@@ -15,6 +19,8 @@ Si ab vnitate quotcunque numeri continuè proportionales fuerint, qui verò poſ
 Sint ab vnitate quotcunque numeri continuè proportionales A B G D E Z. ad primum, ſit qui poſt vnitatem quadratus, ſcilicet A: Dico reliquos omnes quadratos eſſe. Ad ſecundum autem, ſi ipſe A fuerit cubus, dico omnes cubos eſſe: primò cùm vnitas multiplicet A per ſui ipſius vnitates, & A per eaſdem multiplicet B, quadratus erit B, per 19 diffinitionem ſeptimi, & A quadratus ex hypotheſi: ſed ſicut A ad B, ſic B ad G, & G ad D, &c. Si duo igitur B & G rationem habuerint quadratorum A ad B, primus verò B ſit quadratus, & ſecundus G quadratus erit, per vigeſimamquartam octaui, & ſic G & D, &c. omnes quadrati oſtendentur: ſi verò A poſt vnitatem cubus fuerit: quoniam ſimiliter vnitas metitur A & A ipſum B & B ſequentem G, & ſinguli ſuccedẽtes per vnitates ipſius A, ſed A cubus (ex hypotheſi) ſeipſum multiplicans B facit: igitur B (per tertiam huius) cubus erit. Sicut autẽ vnitas ad A, ſic A ad B, ſic B ad G, &c. quotcũque ſint in ratione A ad B cuborum, Si primus B cubus fuerit, & ſecundus G cubus erit, per 25 octaui: ſi verò G ſit, erit & D & reliqui omnes. Si itaque ab vnitate quotcunque numeri continuè, &c.
 
 [Diagram: horizontal lines labelled Vnitas, A, B, G, D, E and Z]
+
+[Curated heading level=2 type=propositions: Propoſitio decima.]
 
 ## Propoſitio decima.
 

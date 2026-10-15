@@ -2,6 +2,10 @@
 
 <!-- Page number: 65 -->
 
+[Curated heading level=2 type=propositions: THEOR.7. PROP. VII.]
+
+[Curated heading level=2 type=theorems: THEOR.7. PROP. VII.]
+
 ## THEOR.7. PROP. VII.
 
 Si vne ligne droite eſt coupee comme on voudralle quarré de la toute & le quarré de lvne des parties, ſont egaux au quarré de l’autre partie, & deux fois le rectangle compris de la totalle, & de la partie premierement

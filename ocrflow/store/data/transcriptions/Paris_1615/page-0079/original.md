@@ -2,9 +2,19 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: ELEMENT SECOND.]
+
+[Curated heading level=1 type=theorems: ELEMENT SECOND.]
+
+[Curated heading level=1 type=problems: ELEMENT SECOND.]
+
 # ELEMENT SECOND.
 
+[Curated heading level=1 type=definitions: ELEMENT SECOND. DEFINITIONS.]
+
 ## DEFINITIONS.
+
+[Curated heading level=2 type=definitions: 1.]
 
 [Curated heading level=3 type=numbered_item: 1.]
 

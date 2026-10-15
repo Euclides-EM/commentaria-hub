@@ -45,6 +45,10 @@ Demonstr.
 8. 1 | <lai 2|2 <fce, ν
 concl. γμν | <ahil 2|2 <cdef.
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. XXVII.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. XXVII.]
+
 ## PROBL. V. PROPOS. XXVII.
 
 A data recta linea, dato solido parallelepipedo

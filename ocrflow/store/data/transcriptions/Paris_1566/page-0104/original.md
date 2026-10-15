@@ -3,9 +3,11 @@
 
 ac proinde nullam ad rectilineum conſequi rationem. Dicemus illius anguli contingentiam non eſſe quantitatis denominationem, ſed naturæ, ſeu potius qualitatis. Quare quantitatis anguli denominationem (quæ fuit linearum inclinatio) multiplicantes, hoc eſt, eaſdem lineas immoto contactu à ſeipſis remouentes, angulum producemus aliquo rectilineo maiorem, ac ideo inter eos angulos ratio quidem erit, ſed incerta ſiue incognita. Concludemus itaque magnitudines idem genus habentes quantitatis (quam ſolam intuetur geometria) ſeſe per multiplicationem excedere poſſe: ideóque inter eas tantum rationem haberi. Nec facilius iuxta quantitatis proprium, quid maius dici poteſt altero, quàm per multiplicationis exceſſum, nec quid minus, quàm per multiplicationis decrementum. Quæ igitur magnitudines multiplicatæ ſeſe excedunt, rationem adinuicem habent.
 
-### MoNITVM.
+### MONITVM.
 
 In hac diffinitione dictionem (poſſunt) tranſtulimus, ne ſint qui huic verbo hærentes, magnitudines ſe adinuicem multiplicandas exiſtimẽt, quod longè abeſt, cùm ſint geometricæ magnitudines, ideóque continuæ ac vnitate denominatæ, omni multiplicãdi vi priuãtur. Non itaque dicemus, quæ poſſunt multiplicatæ inuicem, excedere, ſed multiplicatæ (ſcilicet quouis numero cuius eſt proprium multiplicare) ſeſe poſſunt excedere.
+
+[Curated heading level=2 type=definitions: Diffinitio 5.]
 
 ## Diffinitio 5.
 

@@ -28,6 +28,10 @@ c.15.d.7 | g π a 2|2 a π b,
 hyp. | a, est nr. cub.
 concl. 23.8 | b, est nr. cub.
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. IV.]
+
 ## THEOR. IV. PROPOS. IV.
 
 Si cubus numerus cubum numerum multiplicans faciat aliquem; factus cubus erit.

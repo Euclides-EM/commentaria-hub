@@ -4,6 +4,8 @@
 
 f est æqualis angulo f k e: erit per decimamtertiam primi angulus l k h æqualis angulo e k h: & duo latera l k & k h, trianguli l k h, sunt æqualia duobus lateribus e k & k h, trianguli e k h, ergo per 4 primi, basis h l, est æqualis basi h e: & quia h m est æqualis h e, erit h m æqualis h l, quod est impossibile. Sũt ergo duæ lineæ k g & k e, æquales, quod est nostrum propositum quartum.
 
+[Curated heading level=2 type=theorems: Theorema 6. Propositio 7.]
+
 ## Eucli. ex Zamb. Theorema 6. Propositio 7.
 
 [Curated heading level=3 type=zamberti_sequence: 7.]

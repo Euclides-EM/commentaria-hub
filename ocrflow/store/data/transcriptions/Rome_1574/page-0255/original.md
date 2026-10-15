@@ -14,6 +14,8 @@ EX hoc porro theoremate colligitur proprietas inſignis Arithmeticæ proportiona
 
 [Curated heading level=2 type=campanus: 7]
 
+[Curated heading level=2 type=theorems: THEOR. 7. PROPOS. 7.]
+
 ## THEOR. 7. PROPOS. 7.
 
 [Curated heading level=3 type=incipit: SI]

@@ -8,6 +8,10 @@ Possit autem ipsum recta linea BE: ergo BE irrationalis est, & nulli priorum ead
 
 *Soit BE pouuant iceluy espace AD, BE sera irrationelle : par consequent BE,est irrationelle, & n'est aucune de 13.precedentes: Car il n'y a point aucun quarré des precedentes qui face la mediale estant appliqué à la rationelle. Derechef soit accomply le rectangle DE, lequel sera irrationel, & aussi la ligne qui la peut; car soit FE, pouuant iceluy, qui sera irrationelle, & ne sera aucune des precedentes; car il n'y a aucun des quarrez des precedens qui face icelle BE, estant appliqué à vne ligne rationelle; partant de la mediale se font infinies irrationelles, & aucune n'est la mesme que quelqu'vne des antecedentes.*
 
+[Curated heading level=2 type=propositions: THEOR. XCIII. PROPOS. CXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XCIII. PROPOS. CXVII.]
+
 ## THEOR. XCIII. PROPOS. CXVII.
 
 Propositum sit nobis ostendere, in quadratis figuris diametrum lateri incommensurabilem esse longitudine.

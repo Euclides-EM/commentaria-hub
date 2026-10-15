@@ -13,6 +13,8 @@ anhang auß diſer prop. eruolgend / von Euclide geſetzt.
 
 Derhalben abermals auch durchauß offenbar / das / ſo drei linien proportional ſeind / wie ſych halltet die erſt gegen der dritten / alſo wirt ſych auch hallten ain rechtliniſche figur auff die erſt beſchriben / gegen ainer Gleichförmigen rechtliniſchen figur / ſo auff die ander geſtellt iſt.
 
+[Curated heading level=2 type=propositions: XXI. Die ainvndzwaintzigſt Propoſition]
+
 ## XXI. Die ainvndzwaintzigſt Propoſition.
 
 Rechtliniſche figurn / ſo ainer rechtliniſchen figur gleichförmig / ſeind auch ainander gleichförmig.
@@ -20,6 +22,8 @@ Rechtliniſche figurn / ſo ainer rechtliniſchen figur gleichförmig / ſeind a
 ### Erklärung.
 
 Diß bringet mit ſych die gleichait vnnd gmain verſtand. In der achten prop. haſtu ain exempel. Der triangel a d c / vnd der triangel a d b / ſeind gleichförmig dem triangel a b c. Derhalben auch ainander gleichförmig.
+
+[Curated heading level=2 type=propositions: XXII. Die zwaivndzwaintzigſt Propoſition]
 
 ## XXII. Die zwaivndzwaintzigſt Propoſition.
 

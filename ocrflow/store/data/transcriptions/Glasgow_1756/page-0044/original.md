@@ -17,6 +17,10 @@ atqui non eſt; non igitur angulus BAC angulo EDF eſt minor. oſtenſum autem e
 
 [Diagram: triangles ABC and DEF]
 
+[Curated heading level=2 type=propositions: PROP. XXVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXVI. THEOR.]
+
 ## PROP. XXVI. THEOR.
 
 [Subhead]

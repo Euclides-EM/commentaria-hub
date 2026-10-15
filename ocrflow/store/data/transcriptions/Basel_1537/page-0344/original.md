@@ -6,6 +6,8 @@ IDEM aliter Si linea b communicat cum linea a (quæ est utrūlibet residuum medi
 
 [Diagram: two short horizontal segments labelled a and b, one above the other; below them a rectangle on base c d (c bottom-left, d bottom-right), divided by a horizontal line f–e (f on the left side, e on the right side), with g at the top right]
 
+[Curated heading level=2 type=theorems: Theorema 80 Propositio 104]
+
 ## Eucli.ex Zamb. Theorema 80 Propositio 104
 
 [Curated heading level=3 type=zamberti_sequence: 104.]
@@ -35,6 +37,8 @@ CAMPANVS Facile est hanc probare duplici modo sicut præmissam, siue cōmunicet 
 [Diagram: composite diagram as in the preceding proposition: a tall rectangle divided into an upper part K and a lower part g, with c, e, a beneath its base; beside it a rectangle divided into an upper part l and a lower part h, standing on a baseline with d, f, b beneath]
 
 [Diagram: two horizontal segments labelled a and b, one above the other; below them a large rectangle on base c d (c bottom-left, d bottom-right), divided by a horizontal line f–e (f on the left side, e on the right side), with g at the top right]
+
+[Curated heading level=2 type=theorems: Theorema 81 Propositio 105]
 
 ## Eucl.ex Zāb. Theorema 81 Propositio 105
 

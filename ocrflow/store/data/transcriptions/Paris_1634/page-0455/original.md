@@ -27,6 +27,10 @@ Ex hoc manifestum est, numerum metientem duos numeros, metiri quoque maximam eor
 
 *De ceste demonstration il est manifeste que le nombre qui en mesure deux autres, mesure aussi la plus grande commune mesure d'iceux.*
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. III.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. III.]
+
 ## PROBL. II. PROPOS. III.
 
 Tribus numeris datis non primis inter se, maximam eorum communem mensuram reperire.

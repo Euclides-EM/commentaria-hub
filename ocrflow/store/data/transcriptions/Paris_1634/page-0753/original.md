@@ -4,6 +4,10 @@
 4 a. c | <abc + <abd + <acb + <acd + <adc + <adb 3|2, 2 ⊥;
 concl. 5. a. b | <bac + <cad + <bad 2|3, 4
 
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XXII.]
+
 ## THEOR. XX. PROPOS. XXII.
 
 Si fuerint tres anguli plani, quorum duo vt libet assumpti reliquo sint majores; comprehendant autem ipsos rectæ lineæ æquales, fieri potest, vt ex lineis æquales illas rectas connectentibus triangulum constituatur.

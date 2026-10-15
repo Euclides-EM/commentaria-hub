@@ -1,5 +1,13 @@
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimusquintus.
 
+[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimusquintus.]
+
+[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimusquintus.]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
+
+[Curated heading level=2 type=problems: Propoſitio prima. Problema primum.]
+
 ## Propoſitio prima. Problema primum.
 
 {dropcap:I|lines=9|style=decorated|decoration="foliate initial with putti"}N dato cubo, trilateram æquilateram Pyramidem deſcribere.
@@ -7,6 +15,10 @@
 Exponatur cubus ABGDZITE, & ducantur ab vno eius angulo baſium dimetientes EA EG EI coniunctis AG AI GI, Perſpicuum eſt quatuor triangula AEG AEI AGI & GEI æquilatera eſſe, cùm ex æqualium quadratorum dimetientibus fiant. Ab vno igitur triangulo AGI à tribus cubi angulis ducto, tria cõſtituũtur triangula AEG AEI, & GEI ad vnũ ſignũ E (angulũ ſcilicet cubi) æquilatera. Pyramis itaq̈; trilatera & æquilatera erit AGIE ſolidum, per decimam diffinitionem vndecimi, cubo ABGDZITE inſcripta, per vigeſimamſextam diffinitionem eiuſdem. In dato igitur cubo, &c.
 
 [Figure: cube ABGDZITE with diagonals forming inscribed pyramid, vertices labelled E, T, I, D, G, A, B]
+
+[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
+
+[Curated heading level=2 type=problems: Propoſitio ſecunda. Problema 2.]
 
 ## Propoſitio ſecunda. Problema 2.
 
@@ -16,9 +28,13 @@ Eſto pyramis trilatera æquilatera ABGD, cuius latera ſecentur bifariam in EZI
 
 [Figure: triangular pyramid ABGD with inscribed octahedron, vertices labelled A, T, E, I, D, K, L, B, Z, G]
 
-## Corollarium.
+### Corollarium.
 
 Hinc ſubeſt Pyramidem ſecari bifariam, tribus quadratis æqualibus Octahedrum bifariam ſecantibus, & ſeſe ad rectos diſpeſcentibus. Nam tres eorum dimetientes, in centro bifariam ſeſe ad rectos ſecant, per tertium corollarium decimæquartæ decimitertii. Quæ quidem quadrata vt EKLI diſcernunt pyramides & priſmata, ſcilicet KLTD pyramidem & KLTEIA priſma, ab EKZB pyramide, & EKZILG priſmate, quæ ſibi ſunt æqualia, per tertiam duodecimi, haud ſecus efficiũt reliqua KZIT ac ZLTE quadrata, octahedrum bifariã ſecantia, ex corollario ſecundo decimæquartæ decimitertii.
+
+[Curated heading level=2 type=propositions: Propoſitio tertia.]
+
+[Curated heading level=2 type=problems: Propoſitio tertia. Problema 3.]
 
 ## Propoſitio tertia. Problema 3.
 

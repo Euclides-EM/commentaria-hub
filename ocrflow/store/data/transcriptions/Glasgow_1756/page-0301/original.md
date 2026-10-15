@@ -5,6 +5,10 @@ Etenim C multiplicata fiet aliquando major magnitudine AB. multiplicetur, et ſi
 
 [Diagram: three vertical line segments labelled AB, C, and DE; points K and H on AB, and F and G on DE]
 
+[Curated heading level=2 type=propositions: PROP. I. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. I. THEOR.]
+
 ## PROP. I. THEOR.
 
 {dropcap:S|lines=2|style=plain}IMILIA. polygona circulis inſcripta inter ſe ſunt ut quadrata ex diametris.

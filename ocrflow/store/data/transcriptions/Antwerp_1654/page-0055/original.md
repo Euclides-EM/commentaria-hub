@@ -5,6 +5,8 @@ quantur. Biſecta eſt ergo data A B. Quod erat faciendum.
 
 Pro praxi ſatis erit centris A & B duos æquales circulos deſcribere, ſe ſecantes in G & L, ac ducere rectam G L.
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XI.]
+
 ## PROPOSITIO XI.
 
 [Curated heading level=2 type=figures: Fig. 32]
@@ -32,6 +34,8 @@ b Per defin. 14.
 Ducantur enim C B, F B. Triangula X, & Z, ſibi mutuo æquilatera ſunt. Ergo anguli C A B, F A B a æquales. Ergo B A b perpendicularis eſt. Ex dato igitur puncto &c. Quod erat faciendum.
 
 Praxis tam huius quam ſequentis expeditur facillimè præſidio normæ.
+
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XII.]
 
 ## PROPOSITIO XII.
 

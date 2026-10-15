@@ -4,6 +4,8 @@ Sit pentagonum æquilaterum & æquiangulum A B G D E, ſubtendant autem binos ei
 
 [Figure: pentagon A B G D E inscribed in a circle, with diagonals A G and B E intersecting at T]
 
+[Curated heading level=2 type=propositions: Propoſitio nona.]
+
 ## Propoſitio nona.
 
 Si exagoni, & decagoni latus in eodem circulo deſcriptorum componantur, tota recta extrema & media ratione ſecatur, & maius ſegmentum eſt ipſius exagoni latus.

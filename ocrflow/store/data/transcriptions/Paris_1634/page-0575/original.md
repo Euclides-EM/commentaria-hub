@@ -1,10 +1,14 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=axioms: II.]
+
 II.
 
 Magnitudo quancunque magnitudinem metiens, metitur quoque omnem magnitudinem, quam illa metitur.
 
 *Vne grandeur qui mesure quelconque grandeur, mesure aussi toute grandeur que celle-la mesure.*
+
+[Curated heading level=2 type=axioms: III.]
 
 III.
 
@@ -15,6 +19,10 @@ Magnitudo metiens totam magnitudinem, & ablatam metitur & reliquam.
 Hæc axiomata, vt ad numeros pertinent, iam explicata sunt in vltimis tribus pronuntiatis libri septimi.
 
 *Ces communes sentences, en tant qu'elles appartiennent aux nombres, ont desia esté expliquees aux trois derniers axiomes du 7. liure.*
+
+[Curated heading level=2 type=propositions: THEOR. I. PROPOS. I.]
+
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. I.]
 
 ## THEOR. I. PROPOS. I.
 

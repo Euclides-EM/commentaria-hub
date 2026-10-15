@@ -5,6 +5,10 @@ Eſto data recta AB, datus verò angulus G, ad datam AB & ſignum eius A, dato a
 
 [Diagram: circle ABE with lines AE, AB, IB, IH, AH and HB, and exterior lines AD and BG; points I, Z and H marked]
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquarta.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſimaquarta. Problema 6.]
+
 ## Propoſitio trigeſimaquarta.
 
 [Subhead]
@@ -16,6 +20,8 @@ A dato circulo ſectionem abſcindere, capientem angulum dato angulo rectilineo 
 Eſto datus circulus ABG, datus verò angulus ſit E, circulum verò ABG tangat recta CD (per 17 huius) in A. Ad rectam autem CD & ſignum eius A, dato angulo E æqualis conſtituatur CAG ad tangentem, per 23 primi, ipſe CAG æquus erit ei qui in ſegmento AG angulo, per 32 huius. Haud ſecus oſtendetur, ſi datus angulus æqualis ponatur angulo DAG, eum æqualem eſſe ei qui in alterno ſegmento ABG. A dato igitur circulo ABG ſectionem abſcidimus AG, vel GBA, capientem angulum dato angulo E rectilineo æqualem.
 
 [Diagram: circle ABG tangent to line CAD at A, with chord AG and an exterior angle marked E]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquinta.]
 
 ## Propoſitio trigeſimaquinta.
 

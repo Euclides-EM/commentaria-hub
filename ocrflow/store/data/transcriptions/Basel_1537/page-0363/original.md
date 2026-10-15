@@ -6,6 +6,8 @@ puncto e, protractæ enĩ se secabũt. Dico ꝙ tres lineæ b c, b d, b e sunt i
 
 [Diagram: from the point b at lower left, the vertical line b a and the rays b c, b d, b e, and the horizontal b f]
 
+[Curated heading level=2 type=theorems: Theorema 5 Propositio 5]
+
 ## Eucli. ex Zamb. Theorema 5 Propositio 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]
@@ -33,6 +35,8 @@ SI fuerint duæ lineæ super unam superficiẽ perpendiculares, eas æquedistant
 CAMPANVS. Sint duæ lineæ a b & c d, perpendiculares ad unã superficiẽ. Dico eas esse æquidistantes. Protrahatur enĩ linea b d, eruntq̃ ex diffinitione, duo anguli a b d & c d b, recti. Si igitur duæ lineæ a b & c d sint in supficie una, ipsæ sunt æquidistantes per secũdam partẽ 28 primi. Ipsas aũt esse in superficie una, sic collige. A puncto b, super lineã b d, in plano cui perpẽdiculariter insistũt a b & c d, protrahe orthogonaliter lineã b f, & ex linea c d, sume d e æqualẽ b f, & protrahe lineas e b & e f. Erunt igitur duo latera e d & d b, triãguli e d b, æqualia duobus lateribus f b & d b, trianguli f b d, & angulus e d b æqualis angulo f b d, cũ uterq̃ sit rectus, itaq̃ per 4 primi linea b e, est æqualis lineæ d f. Itemq̃ cũ duo latera e b & b f triãguli e b f sint æqualia duobus lateribus f d & d e triãguli f d e, & basis e f cõmunis, erit (per 8 primi) angulus e b f æqualis angulo f d e. Quia igitur angulus f d e est rectus ex diffinitione, erit etiã angulus e b f rectus, itaq̃ linea f b, perpẽdiculariter est erecta super cõmunem terminũ trium linearũ b a, b d, b e, se contingentiũ angulariter in pũcto b, quare per præmissam ipsæ sunt in superficie una. Cum igitur ex secũda parte secundæ huius linea c d sit in eadem superficie cum utraq̃ linearũ e b & b d, sequitur a b & c d esse in supficie una. Constat ergo propositũ.
 
 [Diagram: two vertical parallels c d and a b; e on the line c d below c; from e the lines e b and e f drawn, f below the line d b; lines d f and b f complete the figure]
+
+[Curated heading level=2 type=theorems: Theorema 6 Propositio 6]
 
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
 

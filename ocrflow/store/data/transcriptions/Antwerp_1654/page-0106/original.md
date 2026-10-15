@@ -12,6 +12,8 @@ Facillime per normam inuenitur centrum; vertice Q ad circumferentiam applicato. 
 Fig. 1.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO II.]
+
 ## PROPOSITIO II.
 
 {dropcap:S|lines=2|style=plain}I in circuli ambitu duo puncta ſumantur (B, C;) recta, quæ per illa ducitur, intra circulum cadit.

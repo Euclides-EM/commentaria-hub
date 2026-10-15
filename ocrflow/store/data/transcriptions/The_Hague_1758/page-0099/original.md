@@ -3,6 +3,10 @@
 
 [Diagram: dotted triangle A E F on base line A C B D; perpendicular E C; rectangle E G D with G at upper right; dotted lines E G, D G prolonged to F below D; small angle marks o, m, n at E, p near B, q and r near F]
 
+[Curated heading level=2 type=propositions: PROPOSITION X. THEOREME X.]
+
+[Curated heading level=2 type=theorems: THEOREME X. PROPOSITION X.]
+
 ## PROPOSITION X. THEOREME X.
 
 {dropcap:S|lines=2|style=plain}I on partage une droite (AB) en deux également (en C), & qu'on y ajoute directement une autre droite (BD): le quarré de la droite (AD) compoſée de l'entiere (AB) & de l'ajoutée (BD), avec le quarré de l'ajoutée (BD) ſont doubles du quarré de la moitié (AC) de l'entiere (AB), & du quarré de la droite (CD), compoſée de la moitie (CB) de l'entiere (AB) & de l'ajoutée (BD),

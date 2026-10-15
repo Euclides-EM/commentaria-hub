@@ -6,6 +6,10 @@ l.66.10 | ▭.dfe, cōm. ▭.acb,
 24.10 | ▭.dfe, est medi.
 concl. 77. 10 | de, est min.
 
+[Curated heading level=2 type=propositions: THEOR. LXXXIII. PROPOS. CVII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXXIII. PROPOS. CVII.]
+
 ## THEOR. LXXXIII. PROPOS. CVII.
 
 Recta linea commensurabilis ei, quæ cum rationali medium totum efficit; & ipsa cum rationali medium totum efficiens est.

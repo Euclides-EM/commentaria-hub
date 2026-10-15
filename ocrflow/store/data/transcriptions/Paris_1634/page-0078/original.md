@@ -12,6 +12,8 @@ Explicat.. not;
 Angulus BAD, plus angulo ABC, sunt minores duobus rectis, per hyp. | L'angle BAD, plus l'angle ABC, sont plus petits que deux droicts, par l'hyp.
 Igitur rectæ AD & BC non sunt inter se parallelæ, sed conueniët productæ versus D, per 13.ax. 1. | Partant les lignes AD & BC ne sont point paralleles entr'elles, ains estät continuées vers D, se rencontreront l'vne l'autre, par le 13.ax.du 1.
 
+[Curated heading level=2 type=axioms: 14. a. 1.]
+
 ### 14. a. 1.
 
 Duæ rectæ lineæ spatiü non comprehëdunt. | Deux lignes droictes ne contiennent pas vn espace.

@@ -24,6 +24,8 @@ CAMPANVS. Sit linea a b recta. Dico q̃ non est possibile, ut pars eius sit in p
 
 [Diagram: parallelogram-shaped plane with line a c d lying in it and line c b rising above the plane at c]
 
+[Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
+
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
 
 [Curated heading level=3 type=zamberti_sequence: 1.]

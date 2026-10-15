@@ -25,6 +25,10 @@ c. 35. 1.
 
 baſim enim eandem habet BC, et in eiſdem parallelis BC, AD conſtituitur. ſimili ratione et EFGH parallelogrammum eidem EBCH eſt aequale. Ergo et parallelogrammum ABCD eſt aequale ipſi EFGH. Parallelogramma igitur ſuper aequalibus baſibus &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXXVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXVII. THEOR.]
+
 ## PROP. XXXVII. THEOR.
 
 {dropcap:T|lines=2|style=plain}RIANGULA ſuper eâdem baſi, et in eiſdem parallelis conſtituta, inter ſe aequalia ſunt.

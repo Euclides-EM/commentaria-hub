@@ -15,6 +15,8 @@ Darbey wiß / daß die vilſeittigen figuren zwayerlai ſeind / ettlich Regular 
 Zwaierlay rechtliniſch vilſeittig figuren.
 [/Margin]
 
+[Curated heading level=2 type=propositions: XXXIII. Die dreyvnddreyſſigſt Prop.]
+
 ## XXXIII Die dreyvnddreyſſigſt Prop.
 
 Linien welche zwo parallel linien ſo einand̓ an der lenge glich ſein / jede auff einer ſeiten zeſamē knüpffen od̓ binden ſeind auch einander glich vnd parallel.
@@ -30,6 +32,8 @@ Die zwo parallel a vnnd b ſo gleicher lenge diſe werden zůſamen gezogen mitt
 [Margin]
 Diameter.
 [/Margin]
+
+[Curated heading level=2 type=propositions: XXXIIII. Die viervnddryſſigſten Prop.]
 
 ## XXXIIII Die viervnddryſſigſten Prop.
 

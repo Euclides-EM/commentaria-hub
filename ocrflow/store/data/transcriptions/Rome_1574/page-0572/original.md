@@ -6,6 +6,8 @@ tates, quæ in ipſo ſunt, hoc eſt, per ipſummet numerum metitur.
 
 NAM unitas ſumpta toties, quot ſunt in numero propoſito unitates, ipſum conſtituit. Quamobrem ipſum metitur per unitates, quæ in ipſo ſunt, hoc eſt, per ipſummet numerum ex ſuis unitatibus conſtitutum.
 
+[Curated heading level=2 type=axioms: VI.]
+
 ### VI.
 
 [Curated heading level=4 type=incipit: OMNIS]
@@ -13,6 +15,8 @@ NAM unitas ſumpta toties, quot ſunt in numero propoſito unitates, ipſum con�
 OMNIS numerus ſe ipſum metitur per unitatem.
 
 CVM quilibet numerus ſemel ſumptus ſibi ipſi ſit æqualis, manifeſtum eſt, omnem numerum ſeipſum metiri per unitatẽ.
+
+[Curated heading level=2 type=axioms: VII.]
 
 ### VII.
 
@@ -23,6 +27,8 @@ SI numerus numerum multiplicans, aliquẽ produxerit, metietur multiplicans prod
 NVMERVS enim A, numerum B, multiplicans producat numerum C. Dico A, metiri ipſum C, per B; & B, eundem C, per A Cum enim ex defin. 15. numerus B, toties compoſitus conſtituat ipſum C, quot ſunt in A, unitates; perſpicuum eſt B, metiri ipſum C, per A, & eadem ratione A, ipſum eundem C, metiri per B, cum etiam B, ipſum A, multiplicans procreet numerum C, vt demonſtrabitur propos. 16. huius lib.
 
 [Diagram: three horizontal dotted lines labelled A, B and C]
+
+[Curated heading level=2 type=axioms: VIII.]
 
 ### VIII.
 

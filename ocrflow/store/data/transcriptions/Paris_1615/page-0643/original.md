@@ -6,6 +6,10 @@ que poinct de la ſection des coſtez de leurs quarrez, telles que ſont NINK, N
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: PROB. 4. PROP. IIII.]
+
+[Curated heading level=2 type=problems: PROB. 4. PROP. IIII.]
+
 ## PROB. 4. PROP. IIII.
 
 Dans vn octaedre donné, inſcrire vn cube.

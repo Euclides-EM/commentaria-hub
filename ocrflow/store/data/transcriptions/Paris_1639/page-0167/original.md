@@ -26,6 +26,10 @@ conſtr. | ∠dcb *eſt* ┘,
 13.1 | ∠eca + ∠ecb 2|2 2┘,
 2 concl. α.3.a.1 | ∠eca 2|2 ∠efc.
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. XXXIII.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. XXXIII.]
+
 ## PROBL. V. PROPOS. XXXIII
 
 Sur vne ligne droicte donnée, descrire vn segment de cercle, lequel reçoiue vn angle égal à vn angle rectiligne donné.

@@ -27,6 +27,10 @@ Hinc perspicuum est, numerum metientem tres numeros, metiri quoque maximam eorum
 
 *Il est manifeste de ceste demonstration, qu'vn nombre qui mesure trois nombres, mesure aussi leur plus grande commune mesure.*
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. IV.]
+
 ## THEOR. II. PROPOS. IV.
 
 Omnis numerus, omnis numeri, minor maioris, aut pars est, aut partes.

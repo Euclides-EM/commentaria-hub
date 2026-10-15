@@ -5,9 +5,13 @@ Le point S s’appelle *le sommet du cône*, SA *l’axe* ou *la hauteur*, et SB
 
 Toute section HKFI, faite perpendiculairement à l’axe, est un cercle; toute section SDE, faite suivant l’axe, est un triangle isoscèle double du triangle générateur SAB.
 
+[Curated heading level=2 type=definitions: Définition III.]
+
 [Curated heading level=3 type=numbered_item: 3.]
 
 III. Si du cône SCDB on retranche, par une section parallèle à la base, le cône SFKH, le solide restant CBHF s’appelle *cône tronqué* ou *tronc de cône*. On peut supposer qu’il est décrit par la révolution du trapèze ABHG, dont les angles A et G sont droits,, autour du côté AG. *La ligne immobile AG* s’appelle *l’axe* ou *la hauteur du tronc*, les cercles BDC, HKF, en sont les *bases*, et BH en est le *côté*.
+
+[Curated heading level=2 type=definitions: Définition IV.]
 
 [Curated heading level=3 type=numbered_item: 4.]
 
@@ -16,6 +20,8 @@ IV. Deux cylindres ou deux cônes sont *semblables* lorsque leurs axes sont entr
 [Margin]
 F. 252.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Définition V.]
 
 [Curated heading level=3 type=numbered_item: 5.]
 
@@ -26,6 +32,8 @@ Il est clair que les arêtes AF, BG, CH, etc. du prisme, étant perpendiculaires
 [Margin]
 F. 253.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Définition VI.]
 
 [Curated heading level=3 type=numbered_item: 6.]
 

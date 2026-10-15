@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, a circle circumscribed by a pentagon ADFHK with vertices A, D, F, H, K; the circle touches the pentagon at points B, E, G, I, L, with rayons and dotted lines drawn from the centre C to the various points]
 
+[Curated heading level=2 type=propositions: PROPOSITION XII. PROBLEME XII.]
+
+[Curated heading level=2 type=problems: PROBLEME XII. PROPOSITION XII.]
+
 ## PROPOSITION XII. *PROBLEME XII.*
 
 {dropcap:C|lines=2|style=plain}Irconſcrire à un cercle donné (LEG) un pentagone (ADFHK) équilatéral & équiangle.

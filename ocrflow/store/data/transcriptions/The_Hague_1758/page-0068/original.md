@@ -4,6 +4,10 @@
 
 [Figure: triangles BAC and EDF on baseline BCEF, with dotted lines from A through G to a point O outside]
 
+[Curated heading level=2 type=propositions: PROPOSITION XL. THEOREME XXX.]
+
+[Curated heading level=2 type=theorems: THEOREME XXX. PROPOSITION XL.]
+
 ## PROPOSITION XL. THEOREME XXX.
 
 {dropcap:L|lines=2|style=plain}Es triangles égaux (BAC, EDF), placés ſur des baſes égales (BC, EF) & du même côté, ſont entre les mêmes paralleles (BF, AD).

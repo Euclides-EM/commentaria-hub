@@ -1,6 +1,8 @@
 <!-- Page number: 26 -->
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XIX.]
+
 ## PROPOSITIO XIX.
 
 [Margin]
@@ -11,11 +13,15 @@ Fig.38.
 
 Eſt conuerſa prioris. B O non eſt minus quam A O, alias per 18. angulus A eſſet minor angulo B contra hyp. Neque etiam B O æquale eſt A O, alias per 5. anguli A, B, æquarentur, rurſus contra hyp. Ergo B O maius eſt quã A O. Quod erat demonſtrandũ.
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XX.]
+
 ## PROPOSITIO XX.
 
 {dropcap:O|lines=2|style=plain}Mnis trianguli duo quælibet latera reliquo ſunt maiora.
 
 Eſt Archimedi inſtar axiomatis; immediate ſiquidem patet ex definitione Archimedeâ lineæ rectæ, quam vide ſupra in definitionibus.
+
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXI.]
 
 ## PROPOSITIO XXI.
 

@@ -4,11 +4,15 @@ ctas omnes lineas, à quibus illa tangitur, quæque in proposito sunt plano, rec
 
 *vn plan, quand elle faict angles droicts auec toutes les lignes droictes qui la touchent, au mesme plan proposé.*
 
+[Curated heading level=2 type=definitions: DEFINIT. IV.]
+
 ## DEFINIT. IV.
 
 Planum ad planum rectum est, cùm rectæ lineæ, quæ communi planorum sectioni ad rectos angulos in vno plano ducuntur, alteri plano ad rectos sunt angulos.
 
 *Vn plan est esleué perpendiculairement sur vn plan, quand toutes les lignes menees sur l'vn d'iceux plans à angles droicts à la ligne de commune section, sont à angles droicts à l'autre plan.*
+
+[Curated heading level=2 type=definitions: DEFINIT. V.]
 
 ## DEFINIT. V.
 

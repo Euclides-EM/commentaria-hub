@@ -4,6 +4,8 @@ finitiones, postula, communesque animi notiones.
 
 *tions, demandes, & axiomes qui suiuent.*
 
+[Curated heading level=2 type=definitions: DEFINIT. XXIII.]
+
 ## DEFINIT. XXIII.
 
 Numerus numerū metiri dicitur, per illum numerum, quem multiplicans, vel à quo multiplicatus, illum producit.
@@ -21,6 +23,8 @@ A,3. B,15. D,1. C,5.
 hyp. | a, msur: b ꝑ c,
 c.23.d.7 | d π c 2|2 a π b.
 
+[Curated heading level=2 type=definitions: DEFINIT. XXIV.]
+
 ## DEFINIT. XXIV.
 
 Termini siue radices proportionis dicuntur duo numeri, quibus in eadem proportione minores sumi nequeunt.
@@ -30,6 +34,8 @@ Termini siue radices proportionis dicuntur duo numeri, quibus in eadem proportio
 ## POSTVLATA, SIVE PETITIONES.
 
 ## PETITIONS, OV DEMANDES.
+
+[Curated heading level=2 type=postulates: I.]
 
 ### I.
 

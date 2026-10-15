@@ -1,6 +1,8 @@
 <!-- Running title: Des fünfften buchs Euclidis -->
 <!-- Page number: 150 -->
 
+[Curated heading level=2 type=propositions: XX. Die zwainczigſt Propoſition]
+
 ## XX. Die zwainczigſt Propoſition.
 
 Wan ſechs quantiteten alſo geſchaffen ſeind / das wie ſich die erſt gegen der andern helt / alſo auch die vierdt gegen der fünfften. Item wie ſich die ander halt gegen der dritten / alſo auch die fünfft gegen der ſechſten: wie die erſt gröſſer / oder klainer ſein wirt weder die dritt / oder ir gleich: alſo wirt auch die vierdt gröſſer oder klainer ſein als die ſechſt / oder aber iren gleich.
@@ -16,6 +18,8 @@ Diſe propoſition geht auff die ordenliche gleichhait der proportion / laut der
 27 gröſſer dan 6.       ander   12 }               { 18    fünfft
                         dritt    4 } 3           3 {  6    ſechſt.
 [/Calculation]
+
+[Curated heading level=2 type=propositions: XXI. Die ainvndzwainczigſt Propoſition]
 
 ## XXI. Die ainvndzwainczigſt Propoſition.
 
@@ -39,6 +43,8 @@ dritt   15 } 7/15            2 { 15    ſechſt.
 [/Calculation]
 
 Darbey zümercken / das ſich ſolche zwo propoſition nitt nur auff zwo ordnungen ſtreckhen / da in inder nur drey quantiteten ſeyen / ſonder ſo du ſolche zwo ordnungen vermög der gemelten beſchreibungen in vier / fünff / ja ſouil du wilt zalen / oder quantiteten erſtreckheſt / haben ſy iren beſtand. Oben bey den beſchreibungen hab ich von 6. zalen exempel geſetzt. Magſtu mehr machen / vn̄ ferner erſtrechen. Das verſteh auch von den zwo volgenden.
+
+[Curated heading level=2 type=propositions: XXII. Die zwayvndzwainczigſt prop.]
 
 ## XXII. Die zwayvndzwainczigſt prop.
 

@@ -1,6 +1,8 @@
 <!-- Running title: Elementorum Geometriæ -->
 <!-- Page number: 234 -->
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XX.]
+
 ## PROPOSITIO XX.
 
 [Curated heading level=2 type=figures: Fig. 27]

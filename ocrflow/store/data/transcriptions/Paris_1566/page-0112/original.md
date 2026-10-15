@@ -10,6 +10,8 @@ C   D   F
 4   2   8
 [/Calculation]
 
+[Curated heading level=2 type=definitions: Diffinitio 19.]
+
 ## Diffinitio 19.
 
 Perturbata proportio eſt quando tribus exiſtentibus magnitudinibus, & aliis eis æqualibus multitudine fit, ſicut in primis magnitudinibus antecedens ad conſequens. Sic in ſecundis magnitudinibus antecedens ad conſequens, Sicut autem in primis conſequens ad rem aliam, ſic in ſecundis res alia ad antecedens.
@@ -23,7 +25,7 @@ F    C   D
 12   8   4
 [/Calculation]
 
-## MONITVM.
+### MONITVM.
 
 Binas inſuper apponit præter has diffinitiones Zambertus, quas eaſdem cum binis præcedentibus vltimis reperientes, data opera omiſimus. Non enim eas Euclidem ſcripſiſſe fuit veriſimile, nec forſan omnes ab Euclide ſcriptas, ad nos perueniſſe credibile. Diſſentiunt etenim Theon & Campanus, non tantum ordine, & theorematum numero, ſed quandoque & ſenſu, vnde verum fuiſſe arbitramur Zamberti ſcriptum in liminari ad perſpectiuam, eum ſcilicet quandoque reperiiſſe Euclidem, apud Socraticum, in vetuſtiſſimis & tineis, ac carie contritis græcis codicibus. Non igitur difficile videbitur multa ad nos temporis iniuriam heteroclita detuliſſe. Cùm itaque coniiciamus Euclidem multas alias proportionum varietates, quàm ab his receperimus, reliquiſſe, tamen has demonſtrandis futuris elementorum theorematibus ſufficere rati, ſtudioſis ſi quas præter has diſquirere cupiant, relinquimus exequendum. His igitur nouem ab vndecima quid conueniat exponere volentes, dicemus has geometricas proportiones omnibus quantitatum generibus inſeruire, diuerſis quidem reſpectibus. Nam licet vndecima ſimiles antecedentium ad conſequentia proferens rationes, omni quantitatum generi copuletur, cùm in diuerſis genere ſimiles poſſint dari rationes, attamen duodecima permutata, rationes eaſdem extra idem quantitatis genus eſſe non ſinit. Nam primæ rationis antecedens ad ſecundæ rationis antecedens comparatũ, priores binas rationes inter eiuſdem generis quantitates cecidiſſe cogit, conuerſa verò binas rationes in bina quantitatum genera cadere patitur, nihil enim priorum cum poſterioribus miſcet, quod idem operatur & compoſita ratio, necnon diuiſio rationis: eas inſuper inſequitur conuerſio rationis, illæ etenim, quatuor magnitudinum numero quæque clauduntur. AEqua verò ratio ſex aut plures poſtulans magnitudines binis ordinibus diſpoſitas, diuerſa quantitatũ genera cuilibet ordini ſcilicet proprium genus ineſſe patitur. Ordinata autẽ duo quantitatũ genera ſimiliter defert, cui fit conſors perturbata, cùm earũ ſingulæ binos quãtitati ordines præ ſe ferant, ſi libeat duobus quantitatum generibus obnoxios. Cùm enim rationẽ dixerimus eſſe reſpectũ ſiue habitudinẽ, qua prior duarum oblatarum magnitudinum, poſteriorem ſua quantitate multiplicat, multiplicationiſq; huius quãtitatem rationis itidẽ quantitate denominare, illud præmonendum duximus: quod ſcilicet cum rationis alicuius expreſſio, nil aliud ſit quàm antecedentis ad conſequens multiplicatio, per multiplicationum comparationes ordietur hoc quinta Eu-
 

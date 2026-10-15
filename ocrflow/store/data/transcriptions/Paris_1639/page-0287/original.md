@@ -22,6 +22,10 @@ hyp. | ab π ac 2|2 dc π de,
 1.a.1 | ∠ace + ∠acb 2|2 2┘,
 concl. 14.1 | bce *eſt* ——.
 
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXXIII.]
+
 ## THEOR. XXIII. PROPOS. XXXIII.
 
 Aux cercles égaux, les angles ont mesme raison entr'eux, que les circonferences sur lesquelles ils sont appuyez, soit qu'ils soient appuyez estant constituez aux centres ou aux circonferences : les secteurs sont aussi de mesme entr'eux, d'autant qu'ils sont constituez au centre.

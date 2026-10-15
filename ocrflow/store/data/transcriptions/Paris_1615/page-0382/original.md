@@ -2,7 +2,13 @@
 
 <!-- Page number: 359 -->
 
+[Curated heading level=2 type=axioms: 2.]
+
 2. Vne grandeur meſurant quelconque gran deur, meſure pareillemét toute grandeur que celle-la meſure. 3. Vne grandeur qui meſure toute vne grandeur, & vne oſtee, meſure auſſi le reſte.
+
+[Curated heading level=2 type=propositions: THEOR. 1. PROP. I.]
+
+[Curated heading level=2 type=theorems: THEOR. 1. PROP. I.]
 
 ## THEOR. 1. PROP. I.
 

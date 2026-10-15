@@ -11,6 +11,10 @@ dico autem a puncto D aliam ipſi DK aequalem in circumferentiam non cadere. ſi
 
 [Diagram: circle labelled A, B, C, E, F, G, H, K, L, M and N, with exterior point D and intersecting straight lines]
 
+[Curated heading level=2 type=propositions: PROP. IX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IX. THEOR.]
+
 ## PROP. IX. THEOR.
 
 {dropcap:S|lines=2|style=plain}I intra circulum ſumatur aliquod punctum, atque ab eo ad circumferentiam cadant plures quam duae rectae lineae aequales; punctum quod ſumitur circuli centrum erit.

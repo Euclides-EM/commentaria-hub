@@ -11,6 +11,8 @@ CONVERSVM quoque huius propoſ. & præcedentis, facile demonſtrabitur. Nimirum,
 
 [Curated heading level=2 type=campanus: 24]
 
+[Curated heading level=2 type=problems: PROBL. 3. PROPOS. 25.]
+
 ## PROBL. 3. PROPOS. 25.
 
 [Margin]

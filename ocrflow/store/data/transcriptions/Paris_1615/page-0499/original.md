@@ -6,6 +6,10 @@
 
 La ligne mineure AB ſoit √(17+√243)—√(27—√243) & BC √(27—245): la toute AC ſera donc √(27√243),. le quarré de laquelle appliquè ſur la rationele DE 6, l’autre coſtè DI.ſera 4. √6,: mais eſtant appliqué ſur la meſme DE, le rect angle IK, egl au quarré de BC, qui eſt 27√243, l’autre coſté IL ſera 4,76. & partant la toute DL ſera 9. Que ſi à la meſme DE on applique le rect. GN egal au rectang. de ACB, qui eſt √486, l’autre costé GM ſera √13..& ſon double GL √54: & partant DG eſt 954, qui eſt reſidu quatrieſme.
 
+[Curated heading level=2 type=propositions: THEOR. 78. PROP. CII.]
+
+[Curated heading level=2 type=theorems: THEOR. 78. PROP. CII.]
+
 ## THEOR. 78. PROP. CII.
 
 Le quarré d’vne ligne faiſant auec vne ſuperficie rationele, vn tout medial, apliqué ſur vne ligne rationele, faict l’autre coſté reſidu cinquieſme.

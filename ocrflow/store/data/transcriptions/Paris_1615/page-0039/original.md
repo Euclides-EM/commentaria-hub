@@ -4,6 +4,10 @@
 
 Iautre coſte CB, eſt pareillement egal à iceux, comme al aduient au triangle equilateraliou bien inegal, comme il arriue au triangleIſoſcelles Ils enſuit neceſſairemens, que les angles de deſſus la baſe Bc, ſont egaux entr eux, & ceux de deſſous la meſme oaſe auſi epaux onireux, comme il apert par la demonſtration cy deſſu.
 
+[Curated heading level=2 type=propositions: THEO. 3. PROP. VI.]
+
+[Curated heading level=2 type=theorems: THEO. 3. PROP. VI.]
+
 ## THEO. 3. PROP. VI.
 
 Si vn triangle a deux angles egaux entr eux; les coſtez ſouſtendans iceux angles ſeront auſſi egaux entr'eux.
@@ -13,6 +17,10 @@ Soit le triangle ABC, duquel les deux angles ABC, & ACe ſur la baſe BC ſont e
 [Diagram]
 
 Autrement ſoit AB plus grand que AC, s’il eſt poſſible: on en pourra donc retrancher vné partie egalle à AC par la 3.p.1. ſoit icelle BD egalle a AC, & ſoit menée la ligne DC: ainſi les triangles DEc, & ACn, ont les deux coſte BD, enc egaux au deux coſtez AC, &CB, & l’angle Begal àlangle ACn, & par la a. pa.ils ſeront egaux, ce qui eſt impoſnble: car l’vn eſt partie de l’autre. Donc les coſtei AB, adCn eſtoient pas inegaux: ce qu’il faloit demonſtrer.
+
+[Curated heading level=2 type=propositions: THEOR. 4. PROP. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. 4. PROP. VII.]
 
 ## THEOR. 4. PROP. VII.
 

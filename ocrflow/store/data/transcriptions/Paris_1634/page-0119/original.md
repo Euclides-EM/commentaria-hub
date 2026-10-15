@@ -27,6 +27,10 @@ constr. | ae == bc,
 constr. | <g 2|2 <ead,
 concl. 1.a.1. | <adc 2|2 <g.
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXXII.]
+
 ## THEOR. XXII. PROPOS. XXXII.
 
 Cuiuscunque trianguli vno latere producto: Externus angulus duobus internis, & oppositis, est æqualis. Et trianguli tres interni anguli duobus sunt rectis æquales.

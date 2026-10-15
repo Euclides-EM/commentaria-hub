@@ -3,6 +3,8 @@
 
 ſentlich / das ſo man vngleichen dingen (als hie den winckeln 4 vnd 1)glyche ding zuͦſetzt (als hie den winckell 3 / woͤllen wir zuͦ baiden gemellten wincklen ſetzen) auch das gantz zuͦſamen geſetzt einander vngleich. Volgt das die zwen winckell 1 vnd 3 vngleich ſeind den wincklen 4 vnd 3. Ja auch klainer (dan 4 iſt auß der 16 propoſ. groͤſſer als 1) dieweil dan die winckel 4 vnd 3 / zwaien Gerechten wincklen gleich ſeind / lautt der 13 propoſ. Volgt das die zwen winckel 1 vnd 3 klainer ſeind dann zwen gerecht winckell. Deßgleich beweiß auch von den andern.
 
+[Curated heading level=2 type=propositions: XVIII. Die achtzehendt propoſition]
+
 ## XVIII Die achtzehendt propoſition.
 
 In ainem yeden triangel wirt die lenger ſeitten oder linj vnder den groͤſſern winckell gezogen.
@@ -11,11 +13,15 @@ Das iſt welche ſeitten lenger iſt / gegen der ſelben yber ſteht auch der gr
 
 [Figure: triangel with ſeitten numbered and wincklen labelled]
 
+[Curated heading level=2 type=propositions: XIX. Die neünzehendt Propoſition]
+
 ## XIX Die neünzehendt Propoſition.
 
 Ains yeden triangels groͤſſerer winckel wirdt von der lengern linj vnderzogen.
 
 Als b / iſt der groͤſt winckel / derhalben 1 die lengſt lini / ꝛc. Iſt gerad die vorgehnd verkertt.
+
+[Curated heading level=2 type=propositions: XX. Die zwaintzigſt Propoſition]
 
 ## XX Die zwaintziſt{printer-error-correction:zwaintzigſt} Propoſition.
 
@@ -26,6 +32,8 @@ Die zwo ſeytten aines yeden triangells ſeind ſambtlich lenger als die dritt.
 Iſt leichtlich zuͦbeweiſen. Als zuͦ probiern das die linien a b vnd a c / des triangels a b c / lenger ſeien ſambtlich / dann die lini b c. Erſtreckh die lini a b / biß zum d / nemlich in der lenge der lini a c / alſo das a d vnd a c / ander glych ſeien zeüch ain lini vom̄ d zum c / iſt demnach der triangel a d c / gleichfuͤſſig / vnnd (auß der 5 propoſ.) deſſen winckell c vnd d einander gleich. wirt der winckel d von der lini b c vnderzogen. Dieweil aber das gantz allweg groͤſſer dann ſein tail / iſt b c d der winckel groͤſſer dann a c d (welcher winckel dem d gleich iſt) Volgt das die lini b d (in welcher baide linien a b vnd a c begriffen) lautt der achtzehend propoſ. lenger iſt dann die lini b c / gleicherweiß thuͦ mitt den andern / Dern gebrauch iſt bei der 7 des 3 buͦchs vnd anderßwa.
 
 [Figure: triangel with erlengerter lini, labelled a, b, c and d]
+
+[Curated heading level=2 type=propositions: XXI. Die ainvndzwaintzigſt Propoſ.]
 
 ## XXI Die ainvndzwaintzigſt Propoſ.
 

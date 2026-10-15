@@ -1,6 +1,10 @@
 <!-- Page number: 54 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. II. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. II. THEOR.]
+
 ## PROP. II. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea ſecta fuerit utcunque, rectangula quae a tota et ſingulis partibus continentur, aequalia ſunt quadrato ex tota.
@@ -22,6 +26,10 @@ b. 31. 1.
 [Diagram: rectangle ADEB divided by CF, with A, C, B along the top and D, F, E along the bottom]
 
 aequale igitur eſt AE rectangulis AF, CE; atque eſt AE quidem quadratum ex AB; AF vero rectangulum a BA, AC contentum, etenim a DA, AC continetur, quarum AD ipſi AB eſt aequalis; et CE continetur ab ipſis AB, BC, aequalis enim eſt BE ipſi AB. rectangulum igitur ab AB, AC, una cum rectangulo ab ipſis AB, BC contento, aequale eſt quadrato ex AB. ſi igitur recta linea ſecta fuerit &c. Q. E. D.
+
+[Curated heading level=2 type=propositions: PROP. III. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. III. THEOR.]
 
 ## PROP. III. THEOR.
 

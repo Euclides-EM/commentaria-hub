@@ -19,6 +19,10 @@ ATQVE hic etiam ſi diligenter animaduerteris, comperies ex Triangulorum probati
 
 Quarta erat Triangulorum Æquiangulorũ poſitio circa eandem Dimetientem: qualia ſunt ABC & ABF: item BEG & BED. Quæ quia ſunt æqualia, demonſtrationem non requirunt, ſed ad aliorum probationem accommodantur.
 
+[Curated heading level=2 type=propositions: THEOREMA 5, PROPOSITIO V.]
+
+[Curated heading level=2 type=theorems: THEOREMA 5, PROPOSITIO V.]
+
 ## THEOREMA 5, PROPOSITIO V.
 
 Triangula proportionalium laterum, æquales habent angulos ſub quibus latera proportionalia ſubtenduntur.

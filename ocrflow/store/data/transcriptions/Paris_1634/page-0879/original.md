@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. XV. -->
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. V.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. V.]
+
 ## PROBL. V. PROPOS. V.
 
 In dato icosaedro, dodecaedrum inscribere.

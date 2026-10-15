@@ -8,6 +8,8 @@ cōstituatur angulus solidus æqualis angulo solido a,secundū quod docet 26 lin
 
 [Diagram: two parallelepipeds side by side; the left with point labels d, c, a, b; the right with point labels c, d, b, c]
 
+[Curated heading level=2 type=theorems: Theorema 31 Propositio 36]
+
 ## Eucli.ex Zamb. Theorema 31 Propositio 36
 
 [Curated heading level=3 type=zamberti_sequence: 36.]

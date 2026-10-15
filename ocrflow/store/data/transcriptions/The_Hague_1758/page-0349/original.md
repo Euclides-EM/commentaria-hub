@@ -3,6 +3,10 @@
 
 [Figure: two parallelepipeds, the first labelled E, D, F, G, H, C, A, B, the second labelled T, V, R, S, Q, N, P, O, M, L, I, K, with dotted lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIV. THEOREME XXIX.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIX. PROPOSITION XXXIV.]
+
 ## PROPOSITION XXXIV. THEOREME XXIX.
 
 {dropcap:L|lines=2|style=plain}Es parallelipipédes égaux (AD & IV) ont leurs bazes (Pgr. AC & Pgr, IL) & leurs hauteurs (GB & IR) reciproquement proportionelles. Et les paralelipipédes (AD & IV) dont les bazes (Pgr. AC & Pgr. IL) & les hauteurs. (GB & IR) ſont reciproquement proportionelles: ſont égaux.

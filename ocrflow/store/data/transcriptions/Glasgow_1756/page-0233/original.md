@@ -1,6 +1,10 @@
 <!-- Page number: 220 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. C. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. C. THEOR.]
+
 ## PROP. C. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ab angulo trianguli ducatur perpendicularis ad baſim, erit rectangulum lateribus trianguli contentum aequale rectangulo contento a perpendiculari et diametro circuli circa triangulum deſcripti.

@@ -2,6 +2,10 @@
 
 ſubtendentes, æquales erunt. Cæterùm quia iſoſcelis TIM trianguli, qui ad baſim MTI MIT ſunt æquales anguli, per quintam primi, rectus autem fuit qui ad M dimidium recti igitur efficient ſinguli MIT vel MTI, per coroll. 32 tertij. Haud ſecus æquales erunt OIK OKI. Et igitur reliquus TIK rectus erit, per 13 primi. Rectæ enim TI & KI ſuper ipſam MO conſiſtunt, eodem argumento recti oſtendentur IKL KLT LTI reliqui anguli, & in eodem ipſius MN XO plano conſtituti, per ſeptimam vndecimi. Planorum igitur triangulorum angulum ſolidum qui ad A conſtituentium centra coniungentes rectæ, quadratum ITKL efficiunt. Similiter oſtenditur reliquorum quinque octahedri ſolidorum angulorum qui ad B G Z D & E plana triangula, in ſuarum baſium centris quadrata ſuſcipere, quæ quidem numero ſex erunt, cùm ſint ſex ſolidi octahedri anguli, & æqualia: nam eorum latera æquales inclinationum angulos æquis lateribus comprehenſos, nempe eis quæ à centro in latus triangulorum æqualium comprehendunt, per coroll. ſecundum decimæoctauæ decimitertij. Erit ITKL RPVS itaque cubus, per vigeſimamprimam diffinitionem vndecimi, angulos in octo baſium octahedri centris habens, ideóque in eo deſcriptus. In dato itaque octahedro cubum deſcripſimus, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
+
+[Curated heading level=2 type=problems: Propoſitio quinta. Problema 5.]
+
 ## Propoſitio quinta. Problema 5.
 
 In dato Icoſahedro, Dodecahedrum inſcribere.

@@ -5,6 +5,10 @@ arbitr. | b est • in ∩ abc,
 α.10.d.3 | <adc 2|2 <abc, contr. 16.1.
 concl. 21.a.1 | ac ñ est bas. commun.
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXIV.]
+
 ## THEOR. XXII. PROPOS. XXIV.
 
 Super æqualibus rectis lineis, similia circulorum segmenta sunt inter se æqualia.

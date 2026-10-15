@@ -16,6 +16,8 @@ imp.pa. id est pariter par & pariter impar.
 
 *impa. pa. signifie pairement pair, & pairement impair.*
 
+[Curated heading level=2 type=definitions: DEFINIT. X.]
+
 ## DEFINIT. X.
 
 Impariter verò impar numerus est, quem impar numerus metitur per numerum imparem : vt 15, 21, sunt impariter impares.
@@ -25,6 +27,8 @@ Impariter verò impar numerus est, quem impar numerus metitur per numerum impare
 impa.impa. id est impariter impar.
 
 *impa. impa. signifie impairement impair.*
+
+[Curated heading level=2 type=definitions: DEFINIT. XI.]
 
 ## DEFINIT. XI.
 

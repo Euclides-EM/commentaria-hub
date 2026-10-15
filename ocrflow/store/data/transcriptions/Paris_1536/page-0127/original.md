@@ -16,6 +16,8 @@ Vt datis in exemplum a, b, c, numeris: quorum æquè multiplices sint d, e, f, v
 
 [Curated heading level=3 type=numbered_item: 7.]
 
+[Curated heading level=2 type=definitions: Diffinitio 7.]
+
 7 Eandem autem habentes rationem magnitudines, proportionales vocentur.
 
 Cùm enim proportio rationum sit idētitas: fit vt magnitudines, quæ in eadem offenduntur esse ratione, vel inter quas rationum offendetur similitudo (siue continua, siue discontinua eiusdem rationis obseruetur identitas) proportionales adpellentur.
@@ -27,6 +29,8 @@ Diffinitio pportionaliū.
 ¶Ὅταν δὲ τῶν ἰσάκις πολλαπλασίων τὸ μὲν τοῦ πρώτου πολλαπλάσιον ὑπερέχῃ τοῦ τοῦ δευτέρου πολλαπλασίου, τὸ δὲ τοῦ τρίτου πολλαπλάσιον, μὴ ὑπερέχῃ τοῦ τοῦ τετάρτου πολλαπλασίου, τότε τὸ πρῶτον πρὸς τὸ δεύτερον μείζονα λόγον ἔχειν λέγεται, ἤπερ τὸ τρίτον πρὸς τὸ τέταρτον.
 
 [Curated heading level=3 type=numbered_item: 8.]
+
+[Curated heading level=2 type=definitions: Diffinitio 8.]
 
 8 Quando verò æquè multipliciū multiplex primi excesserit multiplex secundi, multiplex autem tertij non excesserit multiplex quarti: tunc primum ad secundum maiorem rationem habere dicetur, quàm tertium ad quartum.
 
@@ -45,6 +49,8 @@ Disproportio Diffinitionis interpretatio
 ¶Ἀναλογία δὲ ἐν τρισὶν ὅροις ἐλαχίστοις ἐστίν.
 
 [Curated heading level=3 type=numbered_item: 9.]
+
+[Curated heading level=2 type=definitions: Diffinitio 9.]
 
 9 Proportio autem in tribus terminis ad minus est.
 

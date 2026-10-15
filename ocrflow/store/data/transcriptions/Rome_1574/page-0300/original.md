@@ -16,6 +16,8 @@ RVRSVS diſtent rectæ AB, CD, æqualiter a centro E; Dico eas inter ſe eſſe 
 
 [Curated heading level=2 type=campanus: 14]
 
+[Curated heading level=2 type=theorems: THEOR. 14. PROPOS. 15.]
+
 ## THEOR. 14. PROPOS. 15.
 
 [Margin]

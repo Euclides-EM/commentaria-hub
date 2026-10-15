@@ -13,6 +13,8 @@ addita unitate AD, fiet AC, impar. Si ergo ab impari numero par detrahatur, &c. 
 
 [Curated heading level=2 type=campanus: 29]
 
+[Curated heading level=2 type=theorems: THEOR. 26. PROPOS. 28.]
+
 ## THEOR. 26. PROPOS. 28.
 
 [Margin]
@@ -44,6 +46,8 @@ EADEM demonſtratione oſtendemus & hoc.
 [Diagram: two dotted horizontal lines, the upper labelled A and B and the lower labelled C]
 
 [Curated heading level=2 type=campanus: 30]
+
+[Curated heading level=2 type=theorems: THEOR. 27. PROPOS. 29.]
 
 ## THEOR. 27. PROPOS. 29.
 

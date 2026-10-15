@@ -4,6 +4,10 @@
 6.a.7 | d, est par.. nr. b, denom. ꝑ b,
 concl. 20.d.7 | c, est par.. nr. a, denom. ꝑ b.
 
+[Curated heading level=2 type=propositions: THEOR. XXXV. PROPOS. XL.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXV. PROPOS. XL.]
+
 ## THEOR. XXXV. PROPOS. XL.
 
 Si numerus partem habuerit quamlibet; metietur illum numerus à quo ipsa pars denominatur.

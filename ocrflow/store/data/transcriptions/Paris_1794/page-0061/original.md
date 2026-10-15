@@ -7,6 +7,10 @@ Réciproquement, en supposant toujours le rayon AC=EO, si la corde AD=EG, je dis
 
 Car en tirant les rayons CD, OG, les deux triangles ACD, EOG, auront les trois côtés égaux chacun à chacun, savoir AC=EO, CD=OG, et AD=EG ; donc ces triangles sont égaux, et l’angle ACD=EOG. Mais en posant le demi-cercle ADB sur son égal EGF, puisque l’angle ACD=EOG, il est clair que le rayon CD tombera sur le rayon OG, et le point D sur le point G ; donc l’arc AMD est égal à l’arc ENG.
 
+[Curated heading level=2 type=propositions: PROPOSITION V. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION V.]
+
 ## PROPOSITION V.
 
 ### THÉORÊME.

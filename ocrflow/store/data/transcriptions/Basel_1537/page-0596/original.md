@@ -6,6 +6,8 @@ liqui anguli. reliquis angulis æquales erũt, quos æqualia latera subtendunt I
 
 [Diagram: a circle with a at top, c at left, b at right, d at bottom, interior point e; inscribed quadrilateral with diagonals, and external lines to the point f at lower left outside the circle]
 
+[Curated heading level=2 type=theorems: Theorema 95. Propositio 95.]
+
 ## Theorema 95. Propositio 95.
 
 SI in circuli positione dati diametro datũ signum assumptũ fuerit, ab ipso aũt signo ad ipsum circulũ proiecta fuerit aliqua recta linea, & à sectione ad rectos angulos acta fuerit ipsi excitatæ, à signo aũt in quod cõcurrit quæ ad rectos angulos ipsi circuli circunferẽtia parallelus acta fuerit excitatæ. Datũ est signũ q̃ concurrit parallelus diametro, & quod sub parallelis comprehẽsum rectãgulũ datũ erit.
@@ -16,13 +18,21 @@ In circuli enim a b c, positione dati diametro b c assumptum sit datũ signũ d 
 
 Finis Datorum.
 
+[Curated heading level=1 type=theorems: DE LEVI ET PONDEROSO FRAGMENTVM]
+
+[Curated heading level=1 type=definitions: DE LEVI ET PONDEROSO FRAGMENTVM]
+
 # EVCLIDIS DE LEVI ET PONDEROSO FRAGMENTVM.
+
+[Curated heading level=2 type=definitions: Diffinitiones.]
 
 [Margin]
 Diffinitiones.
 [/Margin]
 
 1 Æqua magnitudine corpora sunt, quæ loca replent æqua, 2 Diuersa magnitudine corpora sunt, quæ loca replent non æqua. 3 Grãdiora magnitudine dicũtur corpora, quæ loco sunt ampliore. 4 Æqua potentia corpora sunt, quotũ & tempore & aëre aquáue media æqualibus & per æqualia interualla æquales sunt motus.{printer-error-correction:quorũ} 5 Diuersa potentia corpora sunt, quorum tẽpore diuerso motus sunt æquales. 6 Diuersorũ potẽtia corporum, maius id potentia dicitur, quod mouendo temporis insumpsit minus: minus autem potẽtia, quod temporis amplius. 7 Generis eiusdem corpora sunt, quæ cum æqua magnitudine sint, etiam sunt potentia. 8 Diuersa genere corpora sunt, quæ cum æqua magnitudine sint, potentia non sunt, per idem licet medium moueãtur. 9 Diuersorum genere corporum, potentius id dicitur, quod est solidius.
+
+[Curated heading level=2 type=theorems: Theorema primum]
 
 ## Theorema primum
 

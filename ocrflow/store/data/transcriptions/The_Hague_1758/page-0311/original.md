@@ -3,6 +3,10 @@
 
 [Diagram: two intersecting planes R S and P L within a double-ruled border, meeting along line A B, with dotted curves through x and y]
 
+[Curated heading level=2 type=propositions: PROPOSITION III. THEOREME III.]
+
+[Curated heading level=2 type=theorems: THEOREME III. PROPOSITION III.]
+
 ## PROPOSITION III. THEOREME III.
 
 {dropcap:S|lines=2|style=plain}I deux Plans (RS & PL) s'entre-coupent; leur commune Section ſera une ligne droite (AB).

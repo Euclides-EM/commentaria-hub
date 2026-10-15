@@ -11,6 +11,10 @@ Cor. Hinc ſequitur ſi fuerint quotcunque magnitudines AB, BG, GH multiplices i
 
 [Diagram: vertical lines labelled A, B, G, H, C, D, E, K, L, and F]
 
+[Curated heading level=2 type=propositions: PROP. III. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. III. THEOR.]
+
 ## PROP. III. THEOR.
 
 {dropcap:S|lines=2|style=plain}I prima ſecundae aeque multiplex fuerit ac tertia quartae; ſumantur autem aeque multiplices primae et tertiae; erit et ex aequali, ſumptarum utraque utriuſque aeque multiplex, altera quidem ſecundae, altera vero quartae.

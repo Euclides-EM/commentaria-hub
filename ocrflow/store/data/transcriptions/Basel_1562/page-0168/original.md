@@ -1,9 +1,13 @@
 <!-- Running title: Propoſition/oder Schlußreden: -->
 <!-- Page number: 147 -->
 
+[Curated heading level=2 type=propositions: XVII. Die ſibendzehend propoſ.]
+
 ## XVII Die ſibendzehend propoſ.
 
 Wann vier quantiteten geproportioniert ſein nach ſamblung der proportion / werden ſy auch nach zertailung der proportion geproportioniert ſein.
+
+[Curated heading level=2 type=propositions: XVIII. Die achtzehend Propoſition]
 
 ## XVIII Die achtzehend Propoſition.
 
@@ -32,6 +36,8 @@ Alſo auch in zertailung der proporz.
 [/Calculation]
 
 vnd alſo härgegen.
+
+[Curated heading level=2 type=propositions: XIX. Die neüntzehendt Propoſition]
 
 ## XIX Die neüntzehendt Propoſition.
 

@@ -31,6 +31,10 @@ Demonstr.
 
 8.1. | <hdl 2|2 <a.
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XXIV.]
+
 ## THEOR. XV. PROPOS. XXIV.
 
 Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtrique, angulum vero angulo maiorem sub æqualibus rectis lineis contentum: & basim basi maiorem habebunt.

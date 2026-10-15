@@ -18,6 +18,10 @@ Ex hoc perspicuum est, si fuerint quatuor lineæ rectæ continuè proportionales
 
 *De cecy est manifeste, que si quatre lignes droictes sont continuellement proportionelles, comme la premiere est à la quatriesme, ainsi le parallelipipede descrit sur la premiere sera au parallelipipede semblable, & semblablement descrit sur la seconde.*
 
+[Curated heading level=2 type=propositions: THEOR. XXIX. PROPOS. XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIX. PROPOS. XXXIV.]
+
 ## THEOR. XXIX. PROPOS. XXXIV.
 
 Æqualium solidorum parallelepipedorum bases,

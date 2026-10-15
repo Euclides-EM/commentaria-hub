@@ -4,6 +4,8 @@
 
 tem angulus a b d est æqualis angulo c b d, quod oportebat efficere.
 
+[Curated heading level=2 type=problems: Problema 4. Propositio 9.]
+
 ## Eucli. ex Zamb. Problema 4. Propositio 9.
 
 [Curated heading level=3 type=zamberti_sequence: 9.]
@@ -32,6 +34,8 @@ CAMPANVS. Sit proposita linea quā oportet diuidere per æqualia: linea a b, sup
 
 [Diagram: equilateral triangle with apex c above the base a b; the line c d drawn from the apex to the midpoint d of the base]
 
+[Curated heading level=2 type=problems: Problema 5. Propositio 10.]
+
 ## Euclides ex Zamb. Problema 5. Propositio 10.
 
 [Curated heading level=3 type=zamberti_sequence: 10.]
@@ -59,6 +63,8 @@ THEON. ex Zamberto. Sit data linea terminata α β. oportet lineā α β bifaria
 CAMPANVS. Sit data linea a b: in qua sit datus punctus c, à quo oportet perpendicularem extrahere. Faciam ergo per 3 propositionem: lineam b c æqualem lineæ a c. & super totam a b constituo triangulum æquilaterum a b d. & protraho lineam c d. de qua dico quod ipsa est perpendicularis super lineam a b. Intelligo duos triangulos a c d & b c d. & quia duo latera a c & c d, trianguli a c d sunt æqualia duobus lateribus c b & c d, trianguli c b d, & basis a d basi b d: erit per 8 propositionē angulus a c d æqualis angulo b c d. quare uterque eorum erit rectus, per diffinitionem anguli recti: & linea c b perpendicularis super lineam a b, per diffinitionem lineæ perpendicularis. Quod est propositum.
 
 [Diagram: triangle with apex d above; base line a b with the point c between a and b, and the perpendicular line d c drawn from the apex to c]
+
+[Curated heading level=2 type=problems: Problema 6. Propositio 11.]
 
 ## Eucli. ex Zamb. Problema 6. Propositio 11.
 

@@ -8,15 +8,21 @@ THEON ex Zãb. Esto cū medio mediū totū efficiens α β, congruēs autem illi
 
 [Diagram: horizontal line with points α, β, γ, δ marked above it; below, a rectangle divided by vertical lines into compartments, with points ε, θ, μ, η along the top side and ζ, λ, ν, ι along the bottom side]
 
+[Curated heading level=2 type=definitions: Ex Campano. Residuorum diffinitiones]
+
 ## Ex Campano. Residuorum diffinitones.{printer-error-correction:diffinitiones}
 
 1 Si fuerit idem totū positæ rationali lineæ in lōgitudine commensurabile, quod positum erat, dicetur residuum primum.
 
 2 Si uero linea adiuncta, positæ rationali communicet in longitudine, dicetur residuum secundū. 3 Quod si fuerit utraq̃ rationali positæ in longitudine incommensurabilis, uocabitur residuum tertium. 4 Si eadem tota positæ rationali cōmunicet in longitudine, nūcupabitur residuum quartum. 5 Si uero linea adiuncta, positæ rationali, communicet in longitudine, uocabitur residuum quintum.
 
+[Curated heading level=3 type=definitions: Commune initium trium priorum diffinitionum.]
+
 ### Commune initium trium priorum diffinitionum.
 
 Positis duabus lineis altera rationali altera residuo, adiectaq̃ ipsi residuo secundū eius terminum, si fuerit totum compositū potentins{printer-error-correction:potentius} linea adiecta, in quadrato lineæ ipsi toti cōmunicantis in longitudine.
+
+[Curated heading level=3 type=definitions: Commune initium trium posteriorum diffinitionum.]
 
 ### Commune initium trium posteriorum diffinitionum.
 

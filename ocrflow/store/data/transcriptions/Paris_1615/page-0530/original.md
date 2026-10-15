@@ -2,6 +2,10 @@
 
 <!-- Page number: 507 -->
 
+[Curated heading level=2 type=propositions: THEOR. 13. PROP. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. 13. PROP. XV.]
+
 ## THEOR. 13. PROP. XV.
 
 Si deux lignes droictes s’entretouchant ſont paralleles àdeux autres lignes droictes s’entretouchans, n’eſtans toutesfois en vn meſme plan: les plans paſſans par icelles, ſeront auſſi parallels.
@@ -11,6 +15,10 @@ Soient les deux lignes AB & BC, ſe touchans au poinct A, paralleles à deux au
 [Diagram]
 
 Car par la 31.p.11. de A ſoit tiree ſur le plan EF la perpendiculaire AG, rencontrant le plan EF en G: puis par la 31.p.1.au plan EF, ſoient tirees de G, les lignes GH, GI paralleles a DE, DF, Maintenant d’autant que AB, GH ſont paralleles a DE, icelles AB, GH ſeront paralleles entr’elles, par la 9.p.11. & partant par la 29.p.1. les angles BAG, AGH ſont egaux a deux droicts. Mais AGH eſt droict, par la 3.d.11. Donc BAG ſera auſſi droict. Par meſme raiſon on prouuera l’angle CAG eſtre droict. Parquoy veu que la ligne GA eſt perpend. aux deuz AB, AC; par la 4.p.11. elle ſera auſsi perpend. a leur plan BC:. Mais par la conſtruction elle l’eſt auſsi au plan EF, Donc par la.14.p.11. les plans BC, ſeront parallels: ce qu’il faloit demonſtrer.
+
+[Curated heading level=2 type=propositions: THEOR. 14. PROP. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. 14. PROP. XVI.]
 
 ## THEOR. 14. PROP. XVI.
 

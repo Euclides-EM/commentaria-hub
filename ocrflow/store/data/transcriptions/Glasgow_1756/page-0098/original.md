@@ -13,6 +13,10 @@ a. 20. 1.
 
 quod fieri non poteſt. non igitur puncta F, G conjungens recta linea per contactum non tranſibit. per ipſum igitur tranſit. ſi igitur duo circuli &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIII. THEOR.]
+
 ## PROP. XIII. THEOR.
 
 {dropcap:C|lines=2|style=plain}IRCULUS circulum non contingit in pluribus punctis quam uno, ſive intus ſive extra contingat.

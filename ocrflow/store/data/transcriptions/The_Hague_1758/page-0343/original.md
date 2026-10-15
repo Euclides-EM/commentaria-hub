@@ -3,6 +3,10 @@
 
 [Figure: two parallelepipeds on the same base in a double-ruled frame, labelled P, K, O, L, G, H, Q, I, N, M, F, E, B, C, A and D, with dotted construction lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXX. THEOREME XXV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXV. PROPOSITION XXX.]
+
 ## PROPOSITION XXX. THEOREME XXV.
 
 {dropcap:L|lines=2|style=plain}Es paralelipipédes (FGHEDCBA & IMLKBCA) placés ſur la même baze (ABCD), ayant même hauteur, & deſquels les lignes inſiſtantes (FA, AI &c.) ne ſont point dans la même direction : ſont égaux.

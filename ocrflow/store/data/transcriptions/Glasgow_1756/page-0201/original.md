@@ -9,6 +9,10 @@ b. 4. 6.
 
 in triangulis aequiangulis BDA, ADC; et BC ad BA, ut BA ad BDᵇ, in triangulis aequiangulis ABC, DBA; et BC ad CA, ut CA ad CD, in triangulis aequiangulis ABC, DAC.
 
+[Curated heading level=2 type=propositions: PROP. IX. PROB.]
+
+[Curated heading level=2 type=problems: PROP. IX. PROB.]
+
 ## PROP. IX. PROB.
 
 [Subhead]
@@ -40,6 +44,10 @@ c. D. 5.
 [/Margin]
 
 quare quaecunque pars AD eſt ipſius AC, eadem pars erit AE ipſius AB; eſt igitur AE pars a recta AB abſcindenda. a data igitur recta linea AB imperata pars abſciſſa eſt. Quod facere oportebat.
+
+[Curated heading level=2 type=propositions: PROP. X. PROB.]
+
+[Curated heading level=2 type=problems: PROP. X. PROB.]
 
 ## PROP. X. PROB.
 

@@ -1,6 +1,10 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 99 -->
 
+[Curated heading level=2 type=propositions: PROP. XXIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXIX. THEOR.]
+
 ## PROP. XXIX. THEOR.
 
 {dropcap:I|lines=2|style=plain}N æqualibus circulis æquales circumferentias æquales rectæ lineæ ſubtendunt.
@@ -30,6 +34,10 @@ c. 4. 1.
 [/Margin]
 
 in æqualibus igitur circulis &c. Q. E. D.
+
+[Curated heading level=2 type=propositions: PROP. XXX. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXX. PROB.]
 
 ## PROP. XXX. PROB.
 

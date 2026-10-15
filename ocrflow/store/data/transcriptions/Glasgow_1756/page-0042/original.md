@@ -17,6 +17,10 @@ Ad datam igitur rectam lineam AB, et ad datum in ea punctum A, dato angulo recti
 
 [Diagram: triangle CDE and triangle AFG, with AF extended to B]
 
+[Curated heading level=2 type=propositions: PROP. XXIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXIV. THEOR.]
+
 ## PROP. XXIV. THEOR.
 
 [Subhead]

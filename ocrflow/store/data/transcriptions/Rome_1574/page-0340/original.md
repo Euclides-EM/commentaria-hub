@@ -25,6 +25,8 @@ EODEM modo, ſi angulus BCE, æqualis fuerit angulo CDE, in alterno ſegmento mi
 
 [Curated heading level=2 type=campanus: 32]
 
+[Curated heading level=2 type=problems: PROBL. 5. PROPOS. 33.]
+
 ## PROBL. 5. PROPOS. 33.
 
 [Curated heading level=3 type=incipit: SVPER]

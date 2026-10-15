@@ -3,6 +3,8 @@
 
 Et il en eſt de même des autres exemples. On va expliquer le fondement de cette ſignification du ſigne — .
 
+[Curated heading level=2 type=propositions: PROPOSITION V.]
+
 ## PROPOSITION V.
 
 {dropcap:S|lines=2|style=plain}'Il y a une ſuite d'autant de grandeurs A, B, C, D &c. qu'on voudra: la raiſon de la première A à la dernière D, eſt compoſée de toutes les raiſons intermédiaires A : B, B : C, C : D.

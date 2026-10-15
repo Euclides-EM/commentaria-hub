@@ -1,17 +1,25 @@
 <!-- Page number: 2 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=2 type=definitions: Définition V.]
+
 [Curated heading level=3 type=numbered_item: 5.]
 
 V. *Surface* est ce qui a longueur et largeur sans hauteur ou épaisseur.
+
+[Curated heading level=2 type=definitions: Définition VI.]
 
 [Curated heading level=3 type=numbered_item: 6.]
 
 VI. Le *plan* est une surface, dans laquelle prenant deux points à volonté, et joignant ces deux points par une ligne droite, cette ligne est tout entière dans la surface.
 
+[Curated heading level=2 type=definitions: Définition VII.]
+
 [Curated heading level=3 type=numbered_item: 7.]
 
 VII. Toute surface qui n’est ni plane ni composée de surfaces planes est une *surface courbe*.
+
+[Curated heading level=2 type=definitions: Définition VIII.]
 
 [Curated heading level=3 type=numbered_item: 8.]
 
@@ -20,6 +28,8 @@ VIII. *Solide* ou *corps* est ce qui réunit les trois dimensions de l’étendu
 [Margin]
 Fig. 2.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Définition IX.]
 
 [Curated heading level=3 type=numbered_item: 9.]
 
@@ -31,6 +41,8 @@ L’angle se désigne quelquefois par la lettre du sommet A seulement, d’autre
 Fig. 3.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Définition X.]
+
 [Curated heading level=3 type=numbered_item: 10.]
 
 X. Lorsque la ligne droite AB rencontre une autre ligne CD, de telle sorte que les angles adjacents BAC, BAD, soient égaux entre eux, chacun de ces angles s’appelle un *angle droit*, et la ligne AB est dite *perpendiculaire* sur CD.
@@ -38,6 +50,8 @@ X. Lorsque la ligne droite AB rencontre une autre ligne CD, de telle sorte que l
 [Margin]
 Fig. 4.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Définition XI.]
 
 [Curated heading level=3 type=numbered_item: 11.]
 
@@ -47,9 +61,13 @@ XI. Tout angle BAC plus petit qu’un angle droit est un *angle aigu* ; tout ang
 Fig. 5.
 [/Margin]
 
+[Curated heading level=2 type=definitions: Définition XII.]
+
 [Curated heading level=3 type=numbered_item: 12.]
 
 XII. Deux lignes sont dites *parallèles*, lorsqu’étant situées dans le même plan, elles ne peuvent se rencontrer à quelque distance qu’on les prolonge l’une et l’autre.
+
+[Curated heading level=2 type=definitions: Définition XIII.]
 
 [Curated heading level=3 type=numbered_item: 13.]
 

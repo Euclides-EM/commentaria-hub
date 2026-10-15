@@ -19,6 +19,10 @@ Demonſtr.
 33. 1 | rx == lp,
 ſ.27.3 concl. 9. 11 | hi == lp, / rx == hi.
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. XVII.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. XVII.]
+
 ## PROBL. V. PROPOS. XVII.
 
 Dodecaedrum constituere, & sphæra complecti, qua & prædictas figuras; & demonstrare, quod dodecaedri latus irrationalis est linea, quæ vocatur apotome.

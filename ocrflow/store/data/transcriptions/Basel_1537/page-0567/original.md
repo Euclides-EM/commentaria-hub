@@ -4,6 +4,8 @@
 
 datus igitur est & qui sub h g d. Quoniam igitur additiōe data recta linea c d, & ad in eā datum signum g recta linea excitatur g h datum efficiens angulū h g f. Igitur per 29 propositionem ipsa g h positione datur, positione autem & a b. Datum igitur est h signum, est autem & g. Data igitur est g h, magnitudine per 26 propositionem, & ipsi e f est æqualis. Data igitur est & e f magnitudine.
 
+[Curated heading level=2 type=theorems: Theorema 33 Propositio 33]
+
 ## Theorema 33 Propositio 33
 
 SI in parallelos positione datas rectas lineas recta linea acta fuerit magnitudine data, angulos efficiet datos.
@@ -17,6 +19,8 @@ Si in parallelos enim positione datas rectas lineas a b, c d, recta linea excite
 Assumatur in c d datum signum g ponaturq̃ per 2 primi elemen. ipsi f e æqualis g d, & centro quidem g spacio uero g d, per 3 postulatum circulus describatur d b, positiōe igitur est ipse b d circulus. Datur siquidem eius cētrū positione & quæ ex centro magnitudine, positione autem & a b. Datum igitur est b signum, est autem & g datum positione, igitur est ipsa b g, per 26 propositionem, positione autem & c d. Datus igitur est qui sub b g d angulus. Et siquidem parallelus est e f ipsi b g erit, & qui sub e f g, angulus datus: quare & reliquus qui sub f e b angulus datus est. Si autem non concurrunt ipsæ e f, b g in h. Quoniam æqualis est e f ipsi d g hoc est ipsi g b & parallelus est e b ipsi f g, æqualis igitur est h f ipsi h g. Quare & angulus qui sub h g f, ei qui sub h f g, est æqualis. Datus aūt qui sub h g f. Datus. igitur & qui sub g f h, quare & consequens qui sub h f e, datus est, & reliquus qui sub f e b, datus est.
 
 [Diagram: circle centred g with vertical parallels either side; e at upper left, f within upper part, h at top, b at right on the circle, g below centre, b lower left, d lower right]
+
+[Curated heading level=2 type=theorems: Theorema 34 Propositio 34]
 
 ## Theorema 34 Propositio 34
 

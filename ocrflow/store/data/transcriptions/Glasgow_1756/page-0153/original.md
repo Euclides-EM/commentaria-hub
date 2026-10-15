@@ -11,6 +11,10 @@ Quoniam enim EF aeque multiplex eſt ipſius A, ac GH ipſius C; quot magnitudin
 2. 2. 5.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. IV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IV. THEOR.]
+
 ## PROP. IV. THEOR.
 
 {dropcap:S|lines=2|style=plain}I prima ad ſecundam eandem habet rationem quam tertia ad quartam; et aeque multiplices primae et tertiae ad aeque multiplices ſecundae et quartae, juxta quamvis multiplicationem, eandem rationem habebunt, inter ſe comparatae.

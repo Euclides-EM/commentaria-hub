@@ -5,6 +5,8 @@
 
 vnnd damit ain fleiſſiger diſer khunſt liebhaber / hab darinn er ſich ſelbſt v̈be. Magſt dich offtermals feiner vorthail / ſo auß aigenſchafft der parallel linien vnd vorgëhendē prop flieſſen / gebrauchē. Solliche alle anzeigung / wehre nit allain müheſam / ſonder auch vberflüſſig / vnnd ain fleiſſigen leſer mehr verdrüßlich dan nutz. Laß ich yeden für ſich ſelbs bedencken / vnd kehr mich zů der 46 prop.
 
+[Curated heading level=2 type=propositions: XLVI. Die ſechßundviertzigſt propoſ.]
+
 ## XLVI Die ſechßundviertzigſt propoſ.
 
 [Subhead]

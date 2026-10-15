@@ -13,6 +13,10 @@ les angles alternativement, on formera le triangle équilatéral ACE.
 
 donc* la somme des quarrés des diagonales AC² + BO² est égale à la somme des quarrés des côtés, laquelle est 4AB² ou 4BO² ; retranchant de part et d’autre BO², il restera AC² = 3BO² ; donc AC² : BO² :: 3 : 1, ou AC : BO :: √3 : 1 ; donc *le côté du triangle équilatéral inscrit est au rayon comme la racine de 3 est à l’unité.*
 
+[Curated heading level=2 type=propositions: PROPOSITION V. PROBLÊME.]
+
+[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION V.]
+
 ## PROPOSITION V.
 
 ### PROBLÊME.

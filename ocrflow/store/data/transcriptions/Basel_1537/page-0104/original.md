@@ -18,6 +18,8 @@ CAMPANVS Sit datus circulus a b c. Volo intra ipsum describere pentagonum unum Ã
 
 [Diagram: small triangle marked z; beside it a circle with inscribed pentagon a d b c e and its diagonals forming a five-pointed star]
 
+[Curated heading level=2 type=problems: Problema 11 Propositio 11]
+
 ## Eucli.ex Zamb. Problema 11 Propositio 11
 
 [Curated heading level=3 type=zamberti_sequence: 11.]

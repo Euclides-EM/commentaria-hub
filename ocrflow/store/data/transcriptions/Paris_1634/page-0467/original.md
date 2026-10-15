@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XIV.]
+
 ## THEOR. XII. PROPOS. XIV.
 
 Si sint quotcunque numeri, & alij ipsis æquales multitudine, qui bini sumantur, & in eadem ratione; etiam ex æqualitate in eadem ratione erunt.
@@ -26,6 +30,10 @@ hyp. | b π c 2|2 e π f,
 13.7 | b π e 2|2 c π f,
 α.11.5 | a π d 2|2 c π f,
 concl. 13.7 | a π c 2|2 d π f.
+
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XV.]
 
 ## THEOR. XIII. PROPOS. XV.
 

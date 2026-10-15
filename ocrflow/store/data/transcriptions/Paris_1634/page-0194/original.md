@@ -7,6 +7,10 @@
 1.a.1 | ed 2|2 ea, contr. 9.a.1.
 concl. 21.a.1 | e ñ est centr.. ⊙ bac &.. ⊙bdc.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. VI.]
+
 ## THEOR. V. PROPOS. VI.
 
 Si duo circuli sese mutuò interius tangant; eorum non erit idem centrum.
@@ -31,6 +35,10 @@ suppos. | f, est centr.. ⊙bac &.. ⊙bde,
 15.d.1 | fa 2|2 fb,
 1.a.1. | fd 2|2 fa, contr. 9.a.1.
 concl. 21.a.1 | f, ñ est centr.. ⊙bac &..⊙bde.
+
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VII.]
 
 ## THEOR. VI. PROPOS. VII.
 

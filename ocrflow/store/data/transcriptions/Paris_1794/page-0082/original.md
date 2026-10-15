@@ -13,6 +13,8 @@ Car l’angle EBD est égal à son opposé ABF ; et puisque BF est perpendiculai
 
 *Scholie.* Si l’angle donné étoit droit, le segment cherché seroit le demi-cercle décrit sur le diamètre AB.
 
+[Curated heading level=2 type=problems: PROBLÊME XVII.]
+
 ### PROBLÊME XVII.
 
 *Trouver le rapport numérique de deux lignes droites données AB, CD, si toutefois ces deux lignes ont entre elles une mesure commune.*

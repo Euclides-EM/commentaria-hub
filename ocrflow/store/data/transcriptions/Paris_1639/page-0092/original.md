@@ -9,6 +9,10 @@
 34.1 | △bcd 2|2 ½◊bdfc,
 concl. 7.a.1 | △bca 2|2 △bcd.
 
+[Curated heading level=2 type=propositions: THEOR. XXVIII. PROPOS. XXXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVIII. PROPOS. XXXVIII.]
+
 ## THEOR. XXVIII. PROPOS. XXXVIII.
 
 Les triangles constituez sur bases égales, & entre mesmes paralleles, sont égaux entr'eux..
@@ -35,6 +39,10 @@ gh == bf. α
 34.1 | △bca 2|2 ½◊bcag,
 34.1 | △efd 2|2 ½◊edhf,
 concl. 7.a.1 | △bca 2|2 △efd.
+
+[Curated heading level=2 type=propositions: THEOR. XXIX. PROPOS. XXXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIX. PROPOS. XXXIX.]
 
 ## THEOR. XXIX. PROPOS. XXXIX.
 

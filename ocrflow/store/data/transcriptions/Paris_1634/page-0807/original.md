@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XI.]
+
 ## THEOR. XI. PROPOS. XI.
 
 Sub eadem altitudine existentes coni & cylindri, inter se sunt vt bases.

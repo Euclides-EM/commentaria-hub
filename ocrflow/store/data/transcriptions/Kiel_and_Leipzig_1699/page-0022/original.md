@@ -2,15 +2,21 @@
 
 <!-- Page number: 5 -->
 
+[Curated heading level=2 type=definitions: Beschreibung XIIX.]
+
 [Curated heading level=2 type=numbered_item: XIIX.]
 
 XIIX. Ein Halb-kreyß ( Semicirculus ) aber ist eine Gestalt/ welche von dem Durchschlag/ und demjenigen Stück des Umbkreyses/so dieser gerade Strich oder Durchschlag abschneidet / eingeschlossen wird.
 
 [Diagram: ein Halbkreis sowie ein Kreis mit waagerechtem Durchmesser, dessen untere Hälfte punktiert ist]
 
+[Curated heading level=2 type=definitions: Beschreibung XIX.]
+
 [Curated heading level=2 type=numbered_item: XIX.]
 
 XIX. Gerad-seitige Gestalte (Rectilineæ figuræ) sind/welche mit geraden Strichen eingefasset werden.
+
+[Curated heading level=2 type=definitions: Beschreibung XX.]
 
 [Curated heading level=2 type=numbered_item: XX.]
 
@@ -18,13 +24,19 @@ XX. Dreyeckichte (Trilateræ) Gestalte werden von drey geraden Strichen eingesch
 
 [Diagram: drei Dreiecke verschiedener Gestalt]
 
+[Curated heading level=2 type=definitions: Beschreibung XXI.]
+
 [Curated heading level=2 type=numbered_item: XXI.]
 
 XXI. Viereckete (Quadrilateræ) Gestalte aber werden von vier geraden Strichen eingeschrencket.
 
+[Curated heading level=2 type=definitions: Beschreibung XXII.]
+
 [Curated heading level=2 type=numbered_item: XXII.]
 
 XXII. Viel-Eckichte Gestalte haben mehr/ als vier gerade Gräntz-Striche.
+
+[Curated heading level=2 type=definitions: Beschreibung XXIII.]
 
 [Curated heading level=2 type=numbered_item: XXIII.]
 

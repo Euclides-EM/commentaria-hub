@@ -12,6 +12,10 @@ Notandum.
 
 [Diagram: a e f h b d c g k l m]
 
+[Curated heading level=2 type=propositions: Problema 14, Propositio 46.]
+
+[Curated heading level=2 type=problems: Problema 14, Propositio 46.]
+
 ## Πρόβλημα ιδ, Πρόθεσις μς.
 
 ΑΠὸ τῆς δοθείσης εὐθείας τετράγωνον ἀναγράψαι.

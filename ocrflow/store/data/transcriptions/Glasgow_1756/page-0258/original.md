@@ -27,6 +27,10 @@ f. 22. 1.
 
 ut ex aequalibus ipſis AC, DF, GK triangulum conſtituatur. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXIII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXIII. PROB.]
+
 ## PROP. XXIII. PROB.
 
 {dropcap:E|lines=2|style=plain}X tribus datis angulis planis, quorum duo reliquo ſunt majores, quomodocunque ſumpti, ſolidum angulum conſtituere. oportet autem tres angulos quatuor rectis eſſe minores.

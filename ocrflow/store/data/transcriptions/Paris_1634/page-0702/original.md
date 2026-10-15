@@ -18,6 +18,10 @@ Demonstr.
 10. 10 | di, incomm. il,
 concl. θ. 19.10 | □.dl 3|2 □.gl..□. / ——, incomm. dl.
 
+[Curated heading level=2 type=propositions: THEOR. LXXIV. PROPOS. XCVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXIV. PROPOS. XCVIII.]
+
 ## THEOR. LXXIV. PROPOS. XCVIII.
 
 Quadratum apotomæ ad rationalem applicatum, latitudinem facit apotomen primam.

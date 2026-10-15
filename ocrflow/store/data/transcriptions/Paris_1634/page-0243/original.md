@@ -17,6 +17,10 @@ Cùm tres anguli trianguli sint æquales duobus rectis, perspicuum est angulum B
 
 Veu que les trois angles d'vn triangle sont égaux à deux droicts, il est manifeste que l'angle BAD est la cinquiéme partie de deux droicts.
 
+[Curated heading level=2 type=propositions: PROBL. XI. PROPOS. XI.]
+
+[Curated heading level=2 type=problems: PROBL. XI. PROPOS. XI.]
+
 ## PROBL. XI. PROPOS. XI.
 
 In dato circulo, pentagonum æquilaterum & æquiangulum inscribere.

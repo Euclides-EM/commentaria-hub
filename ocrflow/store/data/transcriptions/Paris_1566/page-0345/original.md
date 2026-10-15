@@ -2,17 +2,19 @@
 
 componant Pyramidem ſuper ea baſi & altitudine tertiam eſſe eius ſolidi partem, ſub cunctis ſimul ſumptis Priſmatis comprehenſi. Nam ſingula priſmata ſingularum ſuper ſua baſi & altitudine pyramidum tripla, concludunt omnia omnium tripla, per 12 quinti, eſſe: quare parallelepipeda tripla ſunt pyramidum eiuſdem baſis & verticis, eò quòd bina continent priſmata.
 
-## Corollarium tertium.
+### Corollarium tertium.
 
 Si bina Priſmata ſub eadem altitudine baſes habeant ſimul trigonas, aut ſimul tetragonas, ipſa Priſmata ad ſeinuicem ſunt vt baſes. Cùm enim ea priſmata ſint æquemultiplicia pyramidum ſuper eiſdem baſibus, & altitudine, quæquidem ſunt vt baſes, & ipſa ſequetur eſſe vt baſes. Sũt enim tripla pyramidum ſuper baſi trigona, per præcedens corollarium.
 
-## Corollarium quartum.
+### Corollarium quartum.
 
 Pyramidum ſuper eadem baſi tetragona, & eodem vertice Priſmata ſunt ſeſquialtera. Nam pyramis illa binas pyramides ſuper baſi trigona eiuſdem priſmatis conſtitutas continet, cùm dixerimus iam illud priſma triplum eſſe pyramidis ſuper dimidia eius tetragona baſi conſtitutæ, cuius eſt dupla reliqua ſuper tota baſi poſita, per ſextam huius.
 
-## Corollarium quintum.
+### Corollarium quintum.
 
 Quare ſimiliter concludemus ſolida præcedenti corollariò memorata (quæ lateratas vocat Campanus columnas) ad ſe eſſe vt baſes poligonæ, cùm ſub eodem continentur vertice. Nam ſunt in ratione pyramidum ſiue priſmatũ, quæ ſuper eiſdem baſibus & vertice, hoc eſt, in ratione baſium. Quare ad ea, ſimiliter priſmata eiuſdẽ verticis erunt vt baſes, eò quòd ea laterata in priſmata eiuſdem verticis reducantur, cùm ſecantur baſes oppoſitæ in triangula, per vigeſimam ſexti. Super quibus triangulis priſmata, ad ſe ſunt vt baſes.
+
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
 
 ## Propoſitio octaua.
 
@@ -24,7 +26,7 @@ Proponantur ſimiles Pyramides triangulares baſes habentes ABGI & DZET, quarum 
 
 [Diagram: parallelepiped with internal diagonal lines, labelled T, N, L, M, E, O, D, Z]
 
-## Corollarium.
+### Corollarium.
 
 Pyramides ſimiles, poligonas baſes habentes, triplam habent rationem ſimilis rationis la-
 

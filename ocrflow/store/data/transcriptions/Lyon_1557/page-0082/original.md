@@ -9,6 +9,10 @@ A L I T E R. Quadratum ipſius A E eſt æquale Quadratis duarum A F & E F, per 
 
 Iam conſequitur, ſi A B & C D æqualiter diſtant à Centro, ipſas eſſe æquales. Nam quum Quadrata duarum E F & F G ſint æqualia : ipſis ablatis, ſupererunt Quadrata duarum A F & C G æqualia : ob id, & ipſæ æquales. Erunt igitur A B & C D æquales, quum earum dimidia ſint æqualia, Quod fuit demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 13, PROPOSITIO XIIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 13, PROPOSITIO XIIII.]
+
 ## THEOREMA 13, PROPOSITIO XIIII. Theoni 15.
 
 In Circulo, maxima linearum eſt Diameter : Aliarum verò vnaquæque quanto propior Centro, tanto maior.
@@ -18,6 +22,10 @@ In Circulo A B C D, cuius Centrum E, ſint plures lineæ A B, A C, A D, F G, & H
 Cum Centro connectantur extremitates omnium, ductis E B, E C, E G, E K, E H, & E F. Eruntq́;, per vigeſimam Primi, duo latera E F & E G, Trianguli E F G, maiora tertio F G : Quæ quum ſint æqualia ipſi A D : erit A D maior F G. Eademq́; ratione, maior quàm vnaquæque reliquarum, ſi ipſæ ponantur baſes Triangulorum : quum bina quæque latera è Centro exeuntia, ſint ipſi A D æqualia, Quod eſt prius. Porrò quum duo latera E F & E G, Trianguli E F G, ſint æqualia duobus E H & E K, Trianguli E H K : & angulus F E G maior angulo H E K : erit, per vigeſimamquartam Primi, baſis F G maior baſi H K. Haud diſſimili ratione erit A C maior quàm A B. Sicq́; patet tota Propoſitio.
 
 [Diagram: circle with points H, K, F, G, E, A, D, C and B marked, several chords and radii drawn]
+
+[Curated heading level=2 type=propositions: THEOREMA 14, PROPOSITIO XV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 14, PROPOSITIO XV.]
 
 ## THEOREMA 14, PROPOSITIO XV. Theoni 16.
 

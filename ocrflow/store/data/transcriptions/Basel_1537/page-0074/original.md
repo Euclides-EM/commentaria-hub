@@ -4,6 +4,8 @@
 
 distare à centro. Aliter idem. Quadratum enim e d, per penultimã primi, ualet quadrata duarum linearum e f & f d, & quadratum e c, quadrata duarum linearum quæ sunt e g, & c g, & quia quadratum e d est æquale quadrato e c, & quadratum d f, quadrato g c, erit quadratum e f, æquale quadrato e g, quare e f est æquale e g, & sicq̃ patet idem. Sit ergo e f, æqualis e g, quod est eas, a d, scilicet & b c, æqualiter distare à centro. Dico tunc quod a d, est æqualis b c. Quadratis enim duarũ linearum e d, & e c, æqualibus, demptisque quadratis duarũ linearum e f, & e g, æqualibus, remanẽt per penultimam primi, quadrata duarum linearum f d, & g c, quæ per tertiam communem sententiam necesse est esse æqualia, quare f d, est æqualis g c, ergo dupla f d, quod est a d, est æquale duplo g c, quod est b c. Et hæc est secunda pars propositi.
 
+[Curated heading level=2 type=theorems: Theorema 13. Propositio 14.]
+
 ## Eucli. ex Zamb. Theorema 13. Propositio 14.
 
 [Curated heading level=3 type=zamberti_sequence: 14.]

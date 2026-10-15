@@ -11,6 +11,10 @@ Angulus enim ſolidus ad G qui continetur quatuor angulis planis AGB, AGD, FGB, 
 
 Innumeros autem angulos ſolidos inter ſe inaequales poſſe contineri iiſdem angulis planis, eodem ordine poſitis, ope trium Propoſitionum ſequentium, manifeſtum erit.
 
+[Curated heading level=2 type=propositions: PROP. I. PROBLEMA.]
+
+[Curated heading level=2 type=problems: PROP. I. PROBLEMA.]
+
 #### PROP. I. PROBLEMA.
 
 Datis tribus magnitudinibus A, B, C quartam invenire ita ut tres ſimul majores ſint reliquâ, quomodocunque ſumptae.

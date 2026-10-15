@@ -4,9 +4,11 @@ Circulus ducatur circa quadrangulum planum K B O S, cùm autem tres rectæ S K K
 
 [Figure: circle circumscribing quadrangle S O B K with diagonals meeting at centre I]
 
-## Corollarium.
+### Corollarium.
 
 Polyhedrum in Sphæra conſtitutum, ad ſimile ſimitérque alij Sphæræ inſcriptum, triplam habet rationem quam ſphærarum dimetientes. Nam à centris ſphærarum ad ſimiles baſes ductæ rectæ, ſimiles concludunt pyramides ſingulas ſingulis, quæ cùm ſingulæ ſingulis ſimilibus alterius ſphæræ, triplam habeant rationem ſimilium laterum, quæ ſunt ſphærarum rectæ, quæ ex centris, per corollarium octauæ huius, Patulum erit (ex duodecima quinti) omnes pyramides vnius ſphæræ, ad omnes alterius pyramides ſimiles, eãdem (rectarum ſcilicet quæ ex centris ſphærarũ triplam) habere rationem: quia verò earum quæ ex centris rationem habent dimetientes ſphærarum, per 15 quinti, ſequetur polyhedra triplam dimetientium ſuarum ſphærarum conſequi rationem. Et ideo triplam laterum rationem ac veluti pyramides in eis ſimiles habuerunt.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
 
 ## Propoſitio decimaoctaua.
 

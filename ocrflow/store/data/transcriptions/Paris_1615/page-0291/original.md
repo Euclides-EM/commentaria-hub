@@ -8,6 +8,10 @@ Pour la premiere partie: il eſt euident comme en la precedente, que puis que le
 
 Pour la ſeconde partie: Si A eſt cube, auſſi tous les autres ſeront cubes: Car il eſt euident que A meſurera B par ſoymeſme comme en la premiere partie: C’eſt à dire que A multiplié par ſoy produira B, lequel eſtant cube, B ſera auſsi cube par la 3.p.9. Mais tous les ſuiuans ſont en la raiſon de A a B. & par la 25.p 8.Ils ſeront tous cubes.
 
+[Curated heading level=2 type=propositions: THEOR. 10. PROP. X.]
+
+[Curated heading level=2 type=theorems: THEOR. 10. PROP. X.]
+
 ## THEOR. 10. PROP. X.
 
 Si depuis l’vnité, il y a tant de nombres qu’on voudra continuellement proportionnaux, & que celuy qui ſuit l’vnité, ne ſoit nõbre quarré: auſſi pas vn autre ne ſera quarré, ſinon le troiſieſme depuis i’vnité, & tous les autres qui en l’ordre en laiſſent vn. Que ſi celuy qui ſuit l’vnité n’eſt nombre cube: auſſi pas vn autre ne ſera cube, ſinon le quatrieſme depuis Tvnité, & tous les autres qui en l ordre en laiſſent deu x.

@@ -1,9 +1,13 @@
 <!-- Running title: LIBER SEPTIMVS. -->
 <!-- Page number: 71 -->
 
-## Corollarium.
+### Corollarium.
 
 Si numerus duos numeros metiatur, & maximam communem eorum menſurã metietur. Nam ſi metiatur totum & ablatum, ſemper metietur & reliquum, qui tandem eſt maxima menſura duorum.
+
+[Curated heading level=2 type=propositions: Propoſitio tertia.]
+
+[Curated heading level=2 type=problems: Propoſitio tertia. Problema 2.]
 
 ## Propoſitio tertia.
 
@@ -19,9 +23,11 @@ Tres ſint dati numeri A B G non adinuicem primi, quorum inueſtiganda ſit comm
 
 [Diagram]
 
-## Corollarium.
+### Corollarium.
 
 Si numerus quotuis metiatur numeros, & maximam eorum communem metietur menſuram. Metitur enim maximam duorum, & tandem maximam maximæ & tertij, ſcilicet ipſorum G & D quæ eſt E maxima quidem trium, & inſuper ſimili argumento plurium numerorum communis reperietur menſura, inuenta enim menſura trium, reperietur menſura quarti, & maximæ menſuræ trium, &c.
+
+[Curated heading level=2 type=propositions: Propoſitio 4.]
 
 ## Propoſitio 4.
 
@@ -31,7 +37,7 @@ Sint duo numeri A & B, quorum minor ſit B: Dico B partem eſſe maioris A aut p
 
 [Diagram]
 
-## MONITVM.
+### MONITVM.
 
 Idem ait Euclides ac ſi dixiſſet, Omnis minor numerus ad maiorem, habet aut rationem quantitatis continuæ ad diſcretam, aut diſcretæ ad diſcretam quantitatem: omnis enim partis ad numerum ratio, in rationem vnitatis ad numerum cadit. Reliqua verò ratio partium ad numerum, cadit ſemper in rationes numeri ad numerum, non autem vnitatis ad numerũ. Præſentiendum eſt tamen inter quoſuis numeros non cadere veram & ſimplicem numerorum (hoc eſt, diſcretarum quantita-
 

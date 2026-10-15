@@ -13,6 +13,10 @@ IV. Dans un triangle rectangle la somme des deux angles aigus est égale à un a
 
 V. Dans un triangle équilatéral chaque angle est le tiers de deux angles droits ou les deux tiers d’un.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIX.]
+
 ## PROPOSITION XXIX.
 
 ### THÉORÊME.

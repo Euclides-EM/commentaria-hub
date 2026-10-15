@@ -2,25 +2,35 @@
 
 ou esleué en vn endroit qu'en vn autre, mais elle est la plus courte de celles qui ont mesmes extremitez.
 
+[Curated heading level=2 type=definitions: DEF. V.]
+
 ### V.
 
 La Superficie est, ce qui a tant seulement longueur & largeur, comme ABCD.
 
 [Figure]
 
+[Curated heading level=2 type=definitions: DEF. VI.]
+
 ### VI.
 
 Mais les extremitez de la superficie sont lignes.
 
+[Curated heading level=2 type=definitions: DEF. VII.]
+
 ### VII.
 
 Superficie plane, est celle qui est également estenduë entre ses lignes.
+
+[Curated heading level=2 type=definitions: DEF. VIII.]
 
 ### VIII.
 
 Angle plan est l'inclination de deux lignes, lesquelles se touchent l'vne l'autre en vn plan, & ne se rencontrent directement.
 
 La quantité de tout angle consiste en la seule inclination, & non en la longueur des lignes, car le prolongement des lignes n'augmente point leur inclination, ny par consequent la quantité de l'angle.
+
+[Curated heading level=2 type=definitions: DEF. IX.]
 
 ### IX.
 

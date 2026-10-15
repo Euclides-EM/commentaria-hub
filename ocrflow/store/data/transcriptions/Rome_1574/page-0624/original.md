@@ -39,6 +39,8 @@ RVRSVS, quia A, & B, ſunt inter ſe primi, erit & C, factus ex A, in ſe, ad B,
 
 [Curated heading level=2 type=campanus: 29]
 
+[Curated heading level=2 type=theorems: THEOR. 28. PROPOS. 30.]
+
 ## THEOR. 28. PROPOS. 30.
 
 [Margin]

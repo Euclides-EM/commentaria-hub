@@ -2,9 +2,19 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: LE SECOND LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=theorems: LE SECOND LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=problems: LE SECOND LIVRE DES ELEMENTS D'EVCLIDE.]
+
+[Curated heading level=1 type=definitions: LE SECOND LIVRE DES ELEMENTS D'EVCLIDE.]
+
 # LE SECOND LIVRE DES ELEMENTS D'EVCLIDE.
 
 ## DEFINITIONS.
+
+[Curated heading level=2 type=definitions: DEF. I.]
 
 ### I.
 

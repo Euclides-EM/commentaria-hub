@@ -11,6 +11,8 @@ Diſe propoſition / ſambt der vorgehnden / haben ſeer groſſer nutz in aller
 
 [Diagram: triangular construction with a parallel interior line and a divided right side]
 
+[Curated heading level=2 type=propositions: XI. Die ailfft propoſition]
+
 ## XI. Die ailfft propoſition.
 
 [Subhead]
@@ -28,6 +30,8 @@ Seyen die zwo linien a b vnnd a c / ſoll noch aine diſen der proportion nach e
 ### Demonſtration.
 
 Jſt / ſo man gleiche linien für ainander nimpt / auß diß bůchs 2 prop. offenbar.
+
+[Curated heading level=2 type=propositions: XII. Die zwelfft propoſ.]
 
 ## XII. Die zwelfft propoſ.
 

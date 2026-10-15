@@ -9,6 +9,8 @@ duo anguli æquales ſunt FAB, FBA; erunt rectæ FA, FB, æquales. Eademq́; rat
 
 [Curated heading level=2 type=campanus: 15]
 
+[Curated heading level=2 type=problems: PROBL. 15. PROPOS. 15.]
+
 ## PROBL. 15. PROPOS. 15.
 
 [Margin]

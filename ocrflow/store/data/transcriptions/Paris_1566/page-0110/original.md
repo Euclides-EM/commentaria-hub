@@ -3,6 +3,8 @@
 
 Quoniam diximus eſſe rationem habitudinem vnius magnitudinis ad reliquam, exponemus magnitudines dici ſimilis rationis, eas quarum ſingula antecedentia ad ſingula conſequentia eãdem habent habitudinem, ideo dicit antecedentia antecedentibus ſimilẽ, ad conſequentia habere reſpectum, & è conuerſo conſequentia conſequentibus ſimiles, pati antecedentium reſpectus. Ratio etenim ſemper ea dicitur, quæ reſpectum antecedentis ad conſequens indicat. Non autẽ conſequentis ad antecedens, nec antecedentis ad aliud antecedens, ſiue conſequentis ad aliud conſequens, vel omnimodæ aliæ eorũ mixtiones, nempe cũ proponitur duarũ rationũ quatuor quantitates copulãtium inueſtiganda ſimilitudo. Eo ordine diſponendæ erunt magnitudines, quo ſemper ea quæ in aliam multiplicando agit, ſit antecedens. Reliqua verò quæ patitur ſit conſequens, nec minus in alterius rationis reliquis duobus terminis fiet. vnde ſequetur: Si binæ rationes quatuor quantitates (ſcilicet duo antecedentia & duo conſequentia) copulantes ſimiles fuerint, cũ quantites illæ eo ordine diſponuntur, ſimiles eſſe etiam alio ordine diſpoſitis eiſdem quantitatibus, hoc eſt, mutatis antecedentibus in conſequentia vel aliquibus eorum varie pro natura proportionis, vt ſequentibus diffinitionibus extabit. Quanuis tamẽ variatione propoſita, ſemper ea quæ in aliam multiplicando agit, antecedentis nomen ſibi vendicat, reliqua verò conſequentis.
 
+[Curated heading level=2 type=definitions: Diffinitio duodecima.]
+
 ## Diffinitio duodecima.
 
 Permutata ratio eſt, acceptio antecedentis ad antecedens, & conſequentis ad conſequens.
@@ -14,6 +16,8 @@ A B C D
 A C B D
 [/Calculation]
 
+[Curated heading level=2 type=definitions: Diffinitio decimatertia.]
+
 ## Diffinitio decimatertia.
 
 Conuerſa ratio eſt, acceptio conſequentis, tanquam antecedentis ad antecedens tanquam conſequens.
@@ -24,6 +28,8 @@ Conuerſam rationem ſuppoſitæ ſimilis rationis relatiuam, vt permutatam dixi
 A B C D
 B A D C
 [/Calculation]
+
+[Curated heading level=2 type=definitions: Diffinitio decimaquarta.]
 
 ## Diffinitio decimaquarta.
 

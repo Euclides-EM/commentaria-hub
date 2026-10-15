@@ -4,6 +4,8 @@ Interduos numeros A & B, & vnitatem G, cadant totidem proportionales numeri, A E
 
 [Diagram: horizontal lines labelled G, D 3, E 9, T 12, Z 16, A 27, K 36, L 48, B 64]
 
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
+
 ## Propoſitio vndecima.
 
 Duorum quadratorum numerorum, vnus eſt medius proportionalis numerus, & quadratus ad quadratum, duplam habet rationem quam latus ad latus.
@@ -11,6 +13,8 @@ Duorum quadratorum numerorum, vnus eſt medius proportionalis numerus, & quadrat
 Sint duo quadrati numeri A & B, quorum latus A ſit G, ipſius B verò ſit D: Dico inter A & B medium cadere proportionalem numerum, ac inſuper ipſius A ad B duplam eſſe rationem laterum G ad D: quoniam G eſt quadrati A latus. Idem G ſeipſum multiplicans facit A, per 19 diffinitionem ſeptimi. Similiter & D latus ipſum B faciet, ponatur G multiplicans D ipſum E facere, quoniam G duos G & D multiplicans facit A & E, erit (per 17 ſeptimi) A ad E, vt G ad D: ſimiliter D binos G D multiplicans efficit duos E & B, erit (per eandem) E ad B, vt G ad D, fuit autem A ad E vt G ad D. Erit igitur (per 11 quinti) A ad E ac E ad B, vt G ad D. Inter A & B igitur medius cadit proportionalis E numerus: quia verò eſt A ad E, vt G ad D, dupla autem eſt primi A ad B ratio, rationis A ad E, per 10 diffinitionem quinti. Dupla igitur erit A quadrati ad B quadratum ratio, rationis G lateris ad D latus. Duorum itaque quadratorum numerorum, &c.
 
 [Diagram: horizontal lines labelled G 3, D 4, A 9, E 12, B 16]
+
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
 
 ## Propoſitio duodecima.
 

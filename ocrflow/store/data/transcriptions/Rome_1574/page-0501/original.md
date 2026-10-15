@@ -6,6 +6,8 @@
 
 [Curated heading level=2 type=campanus: 20]
 
+[Curated heading level=2 type=theorems: THEOR. 15. PROPOS. 21.]
+
 ## THEOR. 15. PROPOS. 21.
 
 [Curated heading level=3 type=incipit: QVAE]
@@ -25,6 +27,8 @@ SINT rectilinea ABC, DEF, rectilineo GHI, ſimilia. Dico & ipſa inter ſe eſſ
 [/Margin]
 
 [Curated heading level=2 type=campanus: 21]
+
+[Curated heading level=2 type=theorems: THEOR. 16. PROPOS. 22.]
 
 ## THEOR. 16. PROPOS. 22.
 

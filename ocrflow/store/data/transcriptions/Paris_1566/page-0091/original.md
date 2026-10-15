@@ -2,9 +2,11 @@
 
 les oſtendentur E B E G E D. Cẽtro igitur E interuallo E A, circulus per A B G D ducatur, ſingulos quadrati A B G D angulos tangens. Sequetur, circa datum quadratum A B G D circulum A B G D deſcriptum eſſe, per 4 diffinitionem quarti.
 
-## Propoſitio decima.
+[Curated heading level=2 type=propositions: Propoſitio decima.]
 
-## Problema 10.
+[Curated heading level=2 type=problems: Propoſitio decima. Problema 10.]
+
+## Propoſitio decima. Problema 10.
 
 Iſoſceles, triangulum conſtituere, habens vnumquemque eorum qui ad baſim ſunt angulorum, duplum reliqui.
 
@@ -12,9 +14,11 @@ Proponatur recta A B, quæ (per 11 ſecũdi) ita ſeccetur in G, vt quod ſub to
 
 [Diagram]
 
-## Propoſitio vndecima.
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
 
-## Problema 11.
+[Curated heading level=2 type=problems: Propoſitio vndecima. Problema 11.]
+
+## Propoſitio vndecima. Problema 11.
 
 In dato circulo pentagonum æquilaterum & æquiangulum inſcribere.
 
@@ -22,9 +26,11 @@ Proponatur circulus A B G D E, ſumaturque triangulum iſoſceles (iuxta præced
 
 [Diagram]
 
-## Propoſitio duodecima.
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
 
-## Problema 12.
+[Curated heading level=2 type=problems: Propoſitio duodecima. Problema 12.]
+
+## Propoſitio duodecima. Problema 12.
 
 Circa datum circulum pentagonum æquilaterum & æquiangulum deſcribere.
 

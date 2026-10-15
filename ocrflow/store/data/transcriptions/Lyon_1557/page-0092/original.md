@@ -5,6 +5,10 @@ S E D quia hanc Figurarum ſuperpoſitionem iandudum à Geometricis Demonſtrati
 
 Quoniam duæ A C B & C E D portiones, ſunt ſimiles, ſed non æquales : ſit maior C E D. Et diuidantur duæ A B & C D lineæ bifariam : A B quidem in F, & C D in G puncto : Et erigantur duæ perpendiculares F C & G E. Et quia C E D portio, maior eſt : erit quoque G E perpendicularis maior : vt ad finem antecedentis aſtruximus. Secetur itaque G E in H, vt ſit G H æqualis F C. Et quoniam duo latera A F & F C, Trianguli A C F, ſunt æqualia duobus C G & G H, Trianguli C H G : & anguli F & G æquales : erit quoque baſis A C, baſi C H æqualis : & angulus A C F angulo C H G, per quartam Primi. Similiter erit angulus B C F, angulo D H G æqualis. Quapropter totus angulus A C B, toti angulo C H D æqualis. Sed C H D angulus, maior eſt C E D angulo, per vigeſimamprimam Primi. Igitur & A C D angulus maior C E D angulo. Quare Sectiones non ſunt ſimiles, Quod eſt contra poſitionem.
 
+[Curated heading level=2 type=propositions: PROBLEMA 3, PROPOSITIO XXIIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 3, PROPOSITIO XXIIII.]
+
 ## PROBLEMA 3, PROPOSITIO XXIIII. Theoni 25.
 
 Circuli ſectione data, Circulum perficere cuius eſt ſectio.

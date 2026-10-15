@@ -27,6 +27,10 @@ conſtr. | df ⊥ bc,
 conſtr. | gf 2|2 fe,
 concl. 2.a.1 | df 2|2 ce + fe.
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. II.]
+
 ## THEOR. II. PROPOS. II.
 
 Si binæ rectæ lineæ extrema ac media ratione secentur, ipsæ similiter secabuntur, in easdem scilicet proportiones.

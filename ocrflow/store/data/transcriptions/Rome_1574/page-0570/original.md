@@ -1,6 +1,8 @@
 <!-- Running title: LIBER. VII. -->
 <!-- Page number: 243 -->
 
+[Curated heading level=2 type=definitions: XXVII.]
+
 ### XXVII.
 
 [Curated heading level=4 type=incipit: QVOTLIBET]

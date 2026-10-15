@@ -4,6 +4,8 @@
 
 [Diagram: horizontal lines labelled Z, A, E, B, G, D, I and T, with numbers 2, 4, 3, 6 and 12]
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſeptima.]
+
 ## Propoſitio trigeſimaſeptima.
 
 Si duo numeri numerum aliquem mẽſi fuerint, & minimus qui ſub eorum dimenſionem cadit eundem metietur,
@@ -11,6 +13,10 @@ Si duo numeri numerum aliquem mẽſi fuerint, & minimus qui ſub eorum dimenſi
 Duo numeri A & B aliquem numerum G D metiantur. Et inſuper metiantur minimum E ab ipſis mẽſum: Dico E metiri etiam G D, quòd ſi E non metiatur G D ſiue ſit eius pars, ſaltem erit eius partes, per 4 huius, metiatur E ex ipſo G D maximum numerum Z D, relinquens ſeipſo minorem G Z numerum. Quoniam autem bini A & B metiuntur E, metiuntur & Z D, quem E metitur, per primam communem ſentẽtiam. metiuntur autem & totum G D, per hypotheſim, metientur itaque & reliquum G Z, per ſecundam communem ſententiam, minorem quidem ipſo E minimo poſito, quod fieri non poteſt. Metitur itaque E numerum G D. Si igitur duo numeri numerum aliquem, &c.
 
 [Diagram: horizontal lines labelled G D, E, A and B, with numbers 12, 6, 2 and 3]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaoctaua.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſimaoctaua. Problema 5.]
 
 ## Propoſitio trigeſimaoctaua. Problema 5.
 

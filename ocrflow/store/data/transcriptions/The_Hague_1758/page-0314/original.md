@@ -3,6 +3,10 @@
 
 [Diagram: plane ZX containing lines BC, BD and BE, with a vertical plane TP containing perpendicular AB]
 
+[Curated heading level=2 type=propositions: PROPOSITION V. THEOREME V.]
+
+[Curated heading level=2 type=theorems: THEOREME V. PROPOSITION V.]
+
 ## PROPOSITION V. THEOREME V.
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (AB) eſt perpendiculaire ſur trois lignes (BC, BD & BE) qui ſe rencontrent en un point (B); ces trois lignes (BC, BD, & BE) ſeront dans le mème Plan (ZX).

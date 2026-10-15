@@ -20,6 +20,10 @@ Demonstr.
 8.8 | ꝗntr. a & b est vn. medi. proport.
 20.8 | a & b snt sml; plan;
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXVII.]
+
 ## THEOR. XXV. PROPOS. XXVII.
 
 Similes solidi numeri rationem habent inter se, quam cubus numerus ad cubum numerum.

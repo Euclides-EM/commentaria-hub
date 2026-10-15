@@ -4,6 +4,10 @@
 
 [Figure: transversal E F crossing two horizontal parallel lines A B and C D, with angles r, n, p marked at the upper interſection and o, m at the lower]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIX. THEOREME XX.]
+
+[Curated heading level=2 type=theorems: THEOREME XX. PROPOSITION XXIX.]
+
 ## PROPOSITION XXIX. THEOREME XX.
 
 {dropcap:U|lines=2|style=plain}Ne ligne droite (EF), tombant ſur deux autres droites paralleles (AB, CD), fait les angles alternes (*n* & *m*) égaux; de plus l'angle extérieur (*r*) égal à ſon intérieur oppoſé du même côté (*m*); & enfin les deux intérieurs oppoſés du même côté (*p* ＋ *m*) égaux à deux droits.

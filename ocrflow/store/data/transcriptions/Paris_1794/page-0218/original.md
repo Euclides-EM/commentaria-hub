@@ -9,6 +9,10 @@ Supposons en second lieu K < XYZ, alors on auroit la proportion : SXYZ est à SA
 
 *Corollaire.* Deux pyramides triangulaires de même hauteur et de bases égales en surface sont équivalentes.
 
+[Curated heading level=2 type=propositions: PROPOSITION XVIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVIII.]
+
 ## PROPOSITION XVIII.
 
 ### THÉORÊME.

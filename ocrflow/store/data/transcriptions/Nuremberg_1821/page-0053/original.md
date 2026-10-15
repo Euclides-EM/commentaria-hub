@@ -6,6 +6,10 @@ Summe m+n=R. (33 Satz.) Alſo iſt y+z+m+n=2R, (2 Grundſ.) da nun z+m=ACB, und 
 
 Alſo iſt in jedem Dreieck die Summe der Winkel zweien rechten gleich, d. i. A+B+C=2R. Da aber C+r auch 2R, (14 S.) ſo iſt A+B+C=r+C. Alſo A+B=r, (1 und 3 Grundſ.) nemlich: der äuſſere W. BCE iſt der Summe der beiden gegenüberſtehenden innern W. des Dreiecks gleich.
 
+[Curated heading level=2 type=propositions: Fünf und dreißigſter Satz. Aufgabe.]
+
+[Curated heading level=2 type=problems: Fünf und dreißigſter Satz. Aufgabe.]
+
 ## Fünf und dreißigſter Satz. Aufgabe.
 
 Wenn zwei gleichartige Größen A und C, (z. B. zwei gerade Linien, oder zwei geradlinige Winkel,) gegeben ſind, von denen aber C kleiner als A iſt, ein ſolches Vielfaches der Größe C zu finden, welches größer als die gegebene Größe A iſt.

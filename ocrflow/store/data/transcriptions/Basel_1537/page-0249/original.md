@@ -16,6 +16,8 @@ CAMPANVS. Sit a b impar, à quo detrahatur a c qui sit par. Dico b c residuū es
 
 [Diagram: dotted line with points a, c, d, b]
 
+[Curated heading level=2 type=theorems: Theorema 27 Propositio 27]
+
 ## Eucli. ex Zamb. Theorema 27 Propositio 27
 
 [Curated heading level=3 type=zamberti_sequence: 27.]
@@ -41,6 +43,8 @@ THEON ex Zamberto. Ab impari nanq̃ α β, par auferatur β γ. Dico quod reliqu
 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numerus impar in numerum parem ducatur, qui inde producetur erit par.
 
 CAMPANVS. Ex 23 manifestum est quod dicitur.
+
+[Curated heading level=2 type=theorems: Theorema 28 Propositio 28]
 
 ## Eucli. ex Zamb. Theorema 28 Propositio 28
 
@@ -93,6 +97,8 @@ CAMPANVS. Si enim numero impari eum numeraret, ex impari in imparem fieret par, 
 Si impar imparem numeret, impariter eum numerat.
 
 CAMPANVS. Si enim pariter eum numeraret, ex numero impari in numerū parem fieret impar, quod est inconueniens per 29.
+
+[Curated heading level=2 type=theorems: Theorema 29 Propositio 29]
 
 ## Eucli. ex Zamb. Theorema 29 Propositio 29
 

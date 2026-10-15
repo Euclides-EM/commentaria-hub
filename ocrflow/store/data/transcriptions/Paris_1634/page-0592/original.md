@@ -41,6 +41,10 @@ d.β | c, est ration.
 contr. hypoth.
 21.a.1 | b & c snt incom. ꝗe.
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. XIII.]
+
 ## THEOR. X. PROPOS. XIII.
 
 Si sint duæ magnitudines, & altera quidem eidem sit commensurabilis, altera vero incommensurabilis ; incommensurabiles erunt magnitudines.

@@ -6,6 +6,10 @@
 
 Nous auons enſeigné la praticque de ce Prob. en nos memoire Mathemat. Prob.15 & le conuerſe d’iceluy au Prob.16. C’eſt pourquoy nous n’en ferons icy repetition.
 
+[Curated heading level=2 type=propositions: PROBL. 13. PROP. XLV.]
+
+[Curated heading level=2 type=problems: PROBL. 13. PROP. XLV.]
+
 ## PROBL. 13. PROP. XLV.
 
 Faire vn parallellograme egal à vne figure rectiligne donnee, ayant vn angle egal à vn angle rectiligne donné.

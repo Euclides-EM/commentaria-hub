@@ -6,6 +6,8 @@
 
 [Curated heading level=2 type=campanus: 32]
 
+[Curated heading level=2 type=theorems: THEOR. 23. PROPOS. 33.]
+
 ## THEOR. 23. PROPOS. 33.
 
 [Curated heading level=3 type=incipit: IN]

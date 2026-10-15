@@ -3,6 +3,10 @@
 | ▭.dg commun. subtr.
 concl. 3.a.1 | ah ▭.ag 2|2 gc ▭.abg.
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XII.]
+
 ## THEOR. XI. PROPOS. XII.
 
 In amblygoniis triangulis, quadratum quod fit à latere angulum obtusum subtendente, maius est quadratis, quæ fiunt à lateribus obtusum angulum comprehendentibus, rectangulo bis comprehenso, & ab vno laterum, quæ sunt circa obtusum angulum, in quod cùm protractum fuerit, cadit perpendicularis, & ab assumpta exterius linea sub perpendiculari prope angulum obtusum.

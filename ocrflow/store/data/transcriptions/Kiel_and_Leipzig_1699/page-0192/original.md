@@ -17,6 +17,10 @@ und bic ⊻ dke   n. 1. Beweiß.
 ### Beschluß.
 Müssen also allezeit in gleichgrossen Kreyssen bgci | dhek diejenigen Bogen bic ⊻ dke, auff welchen gleichgrosse Winckel bac ⋀ dfe oder bgc ⋀ dhe stehen/ auch gleich groß seyn. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXVII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 24. Beweiß-Stück. Der XXVII. Vortrag.]
+
 ## Der XXVII. Vortrag.
 
 ## Das 24 Beweiß-Stück.

@@ -5,6 +5,8 @@ F; dicetur talis modus argumentandi ex æqualitate, ordinata proportio, quod in 
 
 [Figure: six vertical lines labelled A, B, C, D, E and F, with the numbers 12, 6, 4 above A, B and C, and 6, 3, 2 above D, E and F]
 
+[Curated heading level=2 type=definitions: XIX.]
+
 ### XIX.
 
 [Curated heading level=4 type=incipit: PERTVRBATA]

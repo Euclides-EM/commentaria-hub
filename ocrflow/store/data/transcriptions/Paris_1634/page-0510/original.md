@@ -14,6 +14,10 @@ hyp. | a π b 2|2 b π c,
 2.8 | h,r,s,t snt contin. proport. ꝗn raō.. b π c, u a π b,
 2.concl. 14.7 | g π h 2|2 h π t.
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XIV.]
+
 ## THEOR. XII. PROPOS. XIV.
 
 Si quadratus numerus quadratum numerum metiatur, & latus vnius metietur latus alterius : Et si vnius quadrati latus metiatur latus alterius, & quadratus quadratum metietur.

@@ -7,6 +7,8 @@ Demonſtratio eadem eſt quæ prior. Non eſt autem neceſſe, vt interuallum B 
 
 [Curated heading level=2 type=campanus: 13]
 
+[Curated heading level=2 type=theorems: THEOR. 6. PROPOS. 13.]
+
 ## THEOR. 6. PROPOS. 13.
 
 [Margin]

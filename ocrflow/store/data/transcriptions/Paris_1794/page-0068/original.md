@@ -11,6 +11,10 @@ rayon AC joint à la distance des centres CD, ce qui n’a pas lieu.
 
 *Scholie.* Tous les cercles qui ont leur centre sur la droite CD, et qui passent par le point A, sont tangents les uns aux autres ; ils n’ont entre eux que le seul point A de commun. Et si par le point A on mène AE perpendiculaire à CD, la droite AE sera une tangente commune à tous ces cercles.
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XV.]
+
 ## PROPOSITION XV.
 
 ### THÉORÊME.

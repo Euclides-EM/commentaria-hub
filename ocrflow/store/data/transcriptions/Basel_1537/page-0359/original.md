@@ -14,6 +14,8 @@ Propositis enim duabus pyramidibus rotundis aut duabus columnis rotundis. si fue
 
 ## Ex Translatione Zamberti.
 
+[Curated heading level=2 type=definitions: Ex Translatione Zamberti. Diffinitiones]
+
 Diffinitiones
 
 {dropcap:S|lines=?|style=decorated|decoration="figures"}Olidum, est quod lógitudinem, latitudinem, & crassitudinem habet. Solidi uero terminus, superficies est. 2 Recta linea ad planum recta est, quando ad omnes contingẽtes ipsam rectas lineas & in subiecto plano existentes, rectos efficit angulos. 3 Planum ad planum rectũ est, quando communi segmento ipsorũ planorum ad angulos rectos ductæ rectæ lineæ in uno ipsorũ planorũ, reliquo plano ad angulos rectos fuerint. Rectæ lineę ad planũ inclinatio est, quãdo à termino sublimi rectæ lineæ in planũ ducta perpẽdiculari, à signo facto & à termino lineæ in plano, recta cóiũcta fuerit, angulus acutus qui sub ducta linea & stante cótinetur. 4 Plani ad planũ inclinatio, est angulus acutus comprehensus sub ijs quæ ad angulos rectos cómuni segmento ducuntur ad idẽ signum in utroque ipsorum planorũ. 5 Planum ad planum similiter inclinari dicitur & alterum ad alterum, quãdo prædicti inclinationum anguli sibi inuicem æquales fuerint. 6 Paralella plana, sunt quæ contactum non admittũt. 7 Similes solidæ figuræ, sunt quæ sub similibus planis, æqualibus multitudine comprehẽdũtur.

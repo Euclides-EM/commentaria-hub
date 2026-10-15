@@ -27,6 +27,10 @@ Si fuerit Triangulum Orthogonium : cadit Centrum Circuli in medium latus recto a
 
 Quod manifeſtum eſt, ex ijs, quæ iam demonſtrata ſunt.
 
+[Curated heading level=2 type=propositions: PROBLEMA 6, PROPOSITIO VI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 6, PROPOSITIO VI.]
+
 ## PROBLEMA 6, PROPOSITIO VI.
 
 In dato Circulo Quadratum deſcribere.

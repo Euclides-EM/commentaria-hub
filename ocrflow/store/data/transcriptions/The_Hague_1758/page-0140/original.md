@@ -4,6 +4,10 @@
 
 [Diagram: two equal circles BADM and EFGN, with triangles ABD and FEG and central angles BCD and EHG]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVI. THEOREME XXIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIII. PROPOSITION XXVI.]
+
 ## PROPOSITION XXVI. *THEOREME XXIII.*
 
 {dropcap:D|lines=2|style=plain}Ans les cercles égaux (BADM, EFGN): les angles égaux; tant ceux au centre (C & H), que ceux à la circonference (A & F), s’appuyent ſur des arcs égaux (BMD, ENG).

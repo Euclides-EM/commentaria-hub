@@ -40,6 +40,10 @@ und hg ⊢ bc — n. 1. Gr. d. I.
 
 Jst also der Durchschlag ml der längste Strich: die Striche so näher bey dem Mittel a, sind länger/ als die/so weiter davon entfernet ; und die/ so weiter vom Mittel a stehen/ sind kürtzer/ als die/ welche dem Mittel a näher stehen. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XVI. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 15. Beweiß-Stück. Der XVI. Vortrag.]
+
 ## Der XVI. Vortrag.
 
 ## Das 15. Beweiß-Stück.

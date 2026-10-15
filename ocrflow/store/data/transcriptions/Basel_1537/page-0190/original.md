@@ -10,6 +10,8 @@ CAMPANI annotatio. Cedunt autem huic, 7 & 8, hæc enim sola quod ambæ illæ, co
 
 Hæc sequens undecima Euclidis ex Zamberto propositio, duodecimæ præcedenti ex Campano respondet.
 
+[Curated heading level=2 type=theorems: Theorema 9 Propositio 11]
+
 ## Eucli. ex Zamb. Theorema 9 Propositio 11
 
 [Curated heading level=3 type=zamberti_sequence: 11.]
@@ -37,6 +39,8 @@ THEON ex Zamb. Esto sicut totus αβ ad totum γδ, sic ablatus αε ad ablatum 
 CAMPANVS. Quod proponit Euclides per 13 quinti de quantitatibus in genere, proponit per hanc de numeris. Vt si sint a, b, & c, d, & e, f proportionales, dico ꝙ quæ est proportio a ad b ea est quæ a, c, e. pariter acceptorū ad b, d, f pariter acceptos. Si enim a, c, e sint minores b, d, f, erit per conuersionē diffinitionis quota pars aut partes a b, tota uel totæ c, d, & e, f: per 5 ergo uel per 6 quoties oportuerit repetitas, erit quota pars uel partes a, b, tota uel totæ a, c, e pariter accepti b, d, f pariter acceptorū, quare per diffinitionē, proportio una. Si autem a, c, e, sunt maiores b, d, f, erit per per primam partem 11, quota pars uel partes b, a, tota uel totæ d, c & f, e, per 5 ergo uel 6 quoties oportuerit repetitas, erit quota pars uel partes b, a, tota uel totæ b, d, f, pariter accepti a, c, e pariter acceptorū: itaq̃ per secūdam partē 11, proportio a ad b sicut a, c, e pariter acceptorū, ad b, d, f pariter acceptos, quod est propositū.
 
 [Diagram: two dot-diagram groups: (1) a (4 dots), c (3 dots), e (2 dots) over b (8 dots), b (6 dots), f (4 dots); (2) a (8 dots), c (6 dots), d (4 dots) over b (4 dots), d (3 dots), f (3 dots)]
+
+[Curated heading level=2 type=theorems: Theorema 10 Propositio 12]
 
 ## Eucli. ex Zamb. Theorema 10 Propositio 12
 

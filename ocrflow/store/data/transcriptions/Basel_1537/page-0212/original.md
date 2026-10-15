@@ -10,6 +10,8 @@ CAMPANVS Sint datæ proportionis minimi, a & b ducaturq̃ a in se,& fiat c, & in
 
 [Diagram: dotted number lines beside the text, labelled a (2 dots), b (3 dots), c (4 dots), d (6 dots), e (9 dots), f (8 dots), g (12 dots), h (18 dots), K (27 dots)]
 
+[Curated heading level=2 type=problems: Problema 1 Propositio 2]
+
 ## Eucli.ex Zamb. Problema 1 Propositio 2
 
 [Curated heading level=3 type=zamberti_sequence: 2.]

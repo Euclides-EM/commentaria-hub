@@ -5,6 +5,8 @@ ita vt maior pars ſuperet minorem numero 2. Vides igitur numeros 16. 36. quadra
 
 [Curated heading level=2 type=campanus: 8]
 
+[Curated heading level=2 type=theorems: THEOR. 8. PROPOS. 8.]
+
 ## THEOR. 8. PROPOS. 8.
 
 [Margin]

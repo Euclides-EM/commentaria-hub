@@ -1,6 +1,10 @@
 <!-- Page number: 232 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. IX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IX. THEOR.]
+
 ## PROP. IX. THEOR.
 
 {dropcap:Q|lines=2|style=plain}UAE eidem rectae lineae ſunt parallelae, non exiſtentes in eodem in quo ipſa plano, etiam inter ſe parallelae erunt.
@@ -28,6 +32,10 @@ c. 6. 11.
 Ergo AB ipſi CD parallela eſt. Q. E. D.
 
 [Diagram: three horizontal lines AB, EF, and CD, with segments HG and KG]
+
+[Curated heading level=2 type=propositions: PROP. X. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. X. THEOR.]
 
 ## PROP. X. THEOR.
 

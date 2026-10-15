@@ -9,6 +9,10 @@ b. Def. 7. 5.
 
 Praeterea D ad BC majorem habebit rationem quam ad AB. iiſdem enim conſtructis, ſimiliter oſtendetur L ſuperare FG, ipſam vero EG non ſuperare. atque eſt L multiplex ipſius D, FG vero et EG ſunt aliae quaedam ipſarum CB, AB aeque multiplices. Ergo D ad CB majorem habet rationem quam D ad ABᵇ. Inaequalium igitur &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. IX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IX. THEOR.]
+
 ## PROP. IX. THEOR.
 
 {dropcap:Q|lines=2|style=plain}UAE ad eandem, eandem rationem habent, inter ſe ſunt aequales; et ad quas eadem eandem rationem habet, ipſae ſunt inter ſe aequales.

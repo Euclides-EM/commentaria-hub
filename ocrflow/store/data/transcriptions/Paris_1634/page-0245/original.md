@@ -19,6 +19,10 @@ c.46.1 | eduef est √.5,
 47.1 | □.fd est 10~√.20,
 c.46.1 | fd est √.. 10~√.20.
 
+[Curated heading level=2 type=propositions: PROBL. XII. PROPOS. XII.]
+
+[Curated heading level=2 type=problems: PROBL. XII. PROPOS. XII.]
+
 ## PROBL. XII. PROPOS. XII.
 
 Circa datum circulum, pentagonum æquilaterum & æquiangulum describere.

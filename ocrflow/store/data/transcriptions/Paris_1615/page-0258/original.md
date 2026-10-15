@@ -10,11 +10,19 @@ Soit le nombre compoſé A. Ie dis qu’il ſera meſuré par quelque nombre p
 
 Car puis qu’il eſt compoſé, il ſera meſuré de quelque nombre par la 13.p.7. & ſoit de B, lequel ſera compoſé ou non: S’il eſt premier, la prop. eſt manifeſte: mais s’il eſt compoſé, il ſera meſuré par vn autre nombre, & ſoit C, lequel ſera premier ou non: s’il eſt premier, puis qu’il meſure B, & B meſure A, auſsi C meſurera A par la 11 comſent. Mais ſi C eſt compoſé, il ſera meſuré par quelque autre nombre: Et pource qu’vn nombre ne ſe diminué infiniemét, nous viendrons finablement à quelque nombre que nul autre ne meſurera; & partant à vn nombre premier, lequel meſurãt tous les precedents, meſurera auſsi le compoſé A.Ce qu’il faloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 32. PROP. XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 32. PROP. XXXIV.]
+
 ## THEOR. 32. PROP. XXXIV.
 
 Tout nombre eſt premier, ou bien meſuré par quelque nombre premier.
 
 Ceſte demõſtration eſt euidente: car ſi vn nombre n’eſt premier, il eſt compoſé, & par la precedente tout nombre compoſe, eſt meſuré par quelque nombre premier.
+
+[Curated heading level=2 type=propositions: PROB. 3. PROP. XXXV.]
+
+[Curated heading level=2 type=problems: PROB. 3. PROP. XXXV.]
 
 ## PROB. 3. PROP. XXXV.
 

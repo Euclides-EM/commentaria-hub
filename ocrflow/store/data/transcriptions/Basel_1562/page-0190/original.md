@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/ oder Schlußreden. -->
 <!-- Page number: 169 -->
 
+[Curated heading level=2 type=propositions: XV. Die fünffzehendt Propoſition]
+
 ## XV. Die fünffzehendt Propoſition.
 
 Triangel ſo gleicher gröſſe ſeind / vnnd ainen gleichen winckel haben / dern ſeitten / welche die gleiche winckel beſchlieſſen / ſeind widerſinns geproportioniert gegen ainander. Auch triangel / ſo ainen gleichen winckel / vnd die ſeitten daruon die gleiche winckel beſchloſſen / widerſins geproportioniert haben / ſeind ainander gleich.
@@ -13,9 +15,13 @@ Was die vorgehnd von parallelogramen geſagt / das zeucht diſe auch auff die tr
 
 Sprich / wie ſich halt 5 gegen 6.alſo 10 gegen 12.nemlich / wie des erſten höhe gegen des anderen höhe / alſo des anderen braitte gegen des erſten braittes. Item wie 6 gegen √45.alſo √80 gegē 10. Item wie 5 gegen √45.alſo √80 gegen 12. Dan die triangel all drei ſeind gleich vnd winckelrecht derwegen was das ainen höhe gröſſer iſt / das erſtattet des andern lenge / ꝛc̄.
 
+[Curated heading level=2 type=propositions: XVI. Die ſechzehendt Propoſition]
+
 ## XVI. Die ſechzehendt Propoſition.
 
 So vier linien gegen ainander proportional ſeind: iſt das winckelrecht parallelogram / ſo von den zwo auſſeren beſchloſſen wirt / gleich dem winckelrechten parallelogram / welches von den zwaien mittlern beſchloſſen wirt vnd härgegen ſo vier linien fürkemen / alſo geſchickt / daß das winckelrecht parallelogram von den auſſerſten begriffen / gleich wurde dem winckelrechten parallelogram ſo von den mittlern begriffen / werden ſolche linien proportional ſein.
+
+[Curated heading level=2 type=propositions: XVII. Die ſibenzehendt propoſ.]
 
 ## XVII. Die ſibenzehendt propoſ.
 

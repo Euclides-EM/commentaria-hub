@@ -1,5 +1,9 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. XIV.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. XIV.]
+
 ## PROBL. II. PROPOS. XIV.
 
 Descrire vn quarré égal à vn rectiligne donné.

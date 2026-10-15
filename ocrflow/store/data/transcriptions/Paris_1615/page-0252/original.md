@@ -10,6 +10,10 @@ Si les nombres compoſez ſont proportionnaux; ils le ſeront auſſi par conuer
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 21. PROP. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 21. PROP. XXIII.]
+
 ## THEOR. 21. PROP. XXIII.
 
 Les nombres premiers entr’eux, ſont les plus petits de tous ceux qui ont la meſme raiſon auec iceux.
@@ -17,6 +21,10 @@ Les nombres premiers entr’eux, ſont les plus petits de tous ceux qui ont la m
 [Diagram]
 
 Soient deux nombres premiers entr’eux A & B.Ie dis qu’ils ſont les plus petits de tous ceux qui ont la meſme raiſon Car s’il n’eſt ainſi, ſoient C & D plus petits en la meſme raiſo s’il eſt poſſible, par la 21.p.7.ils meſureront A & B, l’vn comme l’autre: qu’ils les meſurent donc par le nombre E. DoncE ſera commune meſure entre A & B:ainſi ils ne ſeroiẽt point premiers entr’eux, mais compoſez contre l’hypotheſe. A & B ſont donc les plus petits de tous ceux qui ſont en meſme raiſon qu’eux.
+
+[Curated heading level=2 type=propositions: THEOR. 22. PROP. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 22. PROP. XXIV.]
 
 ## THEOR. 22. PROP. XXIV.
 

@@ -9,6 +9,10 @@ A L I T E R compendioſiùs. Parallelogrammum E M ſimile eſt toti A C, per ant
 
 H V I V S Propoſitionis ſententiam ideò ampliaui, vt etiam de Parallelogrammis cõnexis intelligeretur: qualia in conſtructione apparent A C & P Q. Dimetiens enim infinitè produci poteſt, & Parallelogramma ſimilia circunſcribi. Breuiter, vt hæc omni ex parte Conuerſa eſſet antecedentis.
 
+[Curated heading level=2 type=propositions: THEOREMA 19, PROPOSITIO XXV.]
+
+[Curated heading level=2 type=theorems: THEOREMA 19, PROPOSITIO XXV.]
+
 ## THEOREMA 19, PROPOSITIO XXV.
 ### Theoni 23, Campano 24.
 
@@ -21,6 +25,10 @@ Sint duo Parallelogramma, A B C D & C E F G æquiangula, & ſit angulus C vnius,
 Ponam ambo Parallelogramma ex aduerſo, vt B G ſit linea vna, & D E itidem vna : & perficiam Parallelogrammum A B G H. Ponam inſuper vt ſit linea K ad lineam L, vt B C ad C G : & eadem L ad M lineam, vt D C ad C E, ex præcepto duodecimæ huius.
 
 Eritq́;, per primam huiuſce & vndecimam Quinti, B D Parallelogrammum ad C H Parallelogrammum, vt K ad L : & D G Parallelogrammum ad C F Parallelogrammum, vt L ad M. Ex æquali igitur erit B D ad C F vt K ad M. Atqui ratio K ad M, producitur ex K ad L & ex L ad M : vt patet ex quinta Definitione huius. Communi igitur iudicio, producetur ratio B D ad C F, ex ratione B C ad C G & D C ad C E, Quod erat demonſtrandum.
+
+[Curated heading level=2 type=propositions: PROBLEMA 7, PROPOSITIO XXVI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 7, PROPOSITIO XXVI.]
 
 ## PROBLEMA 7, PROPOSITIO XXVI.
 ### Theoni & Campano 25.

@@ -10,6 +10,8 @@ Sit horizon circulus a b c d, æstiuus autem tropicus sit a d, hybernus uero b c
 
 [Diagram: circle a b c d with intersecting oblique arcs; points labeled a, b, c, d, f, g, h, k, l, m, n]
 
+[Curated heading level=2 type=theorems: Theorema 7 Apparens 7]
+
 ## Theorema 7 Apparens 7
 
 [Curated heading level=3 type=zamberti_sequence: 7.]

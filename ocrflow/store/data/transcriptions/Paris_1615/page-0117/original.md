@@ -8,6 +8,10 @@ Soit la ligue droicte AB touchant le cercle CDE au poinct E, & d’iceluy poinct
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEO. 17. PROP. XIX.]
+
+[Curated heading level=2 type=theorems: THEO. 17. PROP. XIX.]
+
 ## THEO. 17. PROP. XIX.
 
 Si vne ligne droicte touche vn cercle, & au poinct de l’attouchement eſt leuee vne pernendiculaire; en icelle ſera le centre du cercle.

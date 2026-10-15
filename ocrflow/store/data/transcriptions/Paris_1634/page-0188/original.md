@@ -4,6 +4,8 @@ per hanct octauam definitionem insistit siue opponitur peripheriæ ADC.
 
 definition il s'appuye où est opposé à la circonference ADC.
 
+[Curated heading level=2 type=definitions: DEFINIT. IX.]
+
 ## DEFINIT. IX.
 
 Sector autem circuli est, cum ad ipsius circuli centrum constitutus fuerit angulus, comprehensa nimirum figura & à rectis lineis angulum continentibus, & à peripheria ab illis assumpta.
@@ -22,6 +24,8 @@ D, est cétrum circuli, ADB est sector ctirculi.
 Explication des notes.
 
 D, est centre du cercle, ADB est secteur du cercle.
+
+[Curated heading level=2 type=definitions: DEFINIT. X.]
 
 ## DEFINIT. X.
 

@@ -4,6 +4,8 @@ ipſius A, multiplex. Diuiſo ergo tam BC, quàm BD, in partes ipſi A, æquales
 
 [Diagram: three horizontal dotted lines, the first labelled A, the second labelled B, D and C, the third labelled B, D and C]
 
+[Curated heading level=2 type=theorems: THEOR. 1. PROPOS. 1.]
+
 ## THEOR. 1. PROPOS. 1.
 
 [Curated heading level=3 type=incipit: SI]

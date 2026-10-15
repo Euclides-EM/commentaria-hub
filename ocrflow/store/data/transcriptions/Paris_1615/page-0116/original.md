@@ -4,6 +4,10 @@
 
 Iairemint de I’extremité du diametre, touche le cercle en vn ſeul poinct. Car il a eſté demonſtré qu’elle tombe hors le cercle: parquoy elle le touche ſeulement au poinct extreme du diametre. Parquoy s it eſtoit requis tirer vne ligne droicte par le poinct A donné en la circõference du cercle, laquelle touche le cercle en A, nous tirerions de a au centre D la ligne droicte AD. & ſur icelle ſeroit éleuee la perpendieulaire AE, laquelle toucbera le cercle en A, comme il a eſté demonſtré.
 
+[Curated heading level=2 type=propositions: PROBL. 2. PROP. XVII.]
+
+[Curated heading level=2 type=problems: PROBL. 2. PROP. XVII.]
+
 ## PROBL. 2. PROP. XVII.
 
 D’vn poinct donné, mener vne ligne droicte
@@ -21,6 +25,10 @@ Soit menee la ligne AD couppant le cercle BC en B: puis du centre D, & interual 
 Nous auons enſeigné en noſtre Geometrie practique Prob.20.
 
 vne autre maniere beaucoup plus facile que celle cy deſſus.
+
+[Curated heading level=2 type=propositions: THEOR. 16. PROP. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 16. PROP. XVIII.]
 
 ## THEOR. 16. PROP. XVIII.
 

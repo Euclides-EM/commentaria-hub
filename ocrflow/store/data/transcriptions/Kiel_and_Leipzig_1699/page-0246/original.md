@@ -8,6 +8,10 @@
 | | fd | bd | n. 29. III. |
 | und | fdb | Gleichseitiges △ | n. 23. Besch. I. W. Z. M. |
 
+[Curated heading level=2 type=propositions: Der XVI. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 16. Werck-Stück. Der XVI. Vortrag.]
+
 ## Der XVI. Vortrag.
 
 ## Das 16. Werckstück.

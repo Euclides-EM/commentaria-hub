@@ -7,6 +7,10 @@ Mais dans le triangle isoscele B′SI, la ligne SC étant perpendiculaire à la 
 
 Il résulte de là que le problême sera possible toutes les fois que le troisieme angle CSB″ sera plus petit que la somme des deux autres ASC, ASB′, et plus grand que leur différence. Condition qui s’accorde avec le théorême XX ; car en vertu de ce théorême il faut qu’on ait CSB″ < ASC + ASB′ ; il faut aussi qu’on ait ASC < CSB″ + ASB′, ou CSB″ > ASC − ASB′.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIV. PROBLÊME.]
+
+[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION XXIV.]
+
 ## PROPOSITION XXIV.
 
 ### PROBLÊME.

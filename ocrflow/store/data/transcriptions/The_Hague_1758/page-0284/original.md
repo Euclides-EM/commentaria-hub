@@ -3,6 +3,10 @@
 
 [Figure: two hatched parallelograms M and N meeting at point C, with a dotted parallelogram P between them; points labelled A, C, D, E, G]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIII. THEOREME XVII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVII. PROPOSITION XXIII.]
+
 ## PROPOSITION XXIII. THEOREME XVII.
 
 {dropcap:L|lines=2|style=plain}*Es Parallélogrammes équiangles* (M & N) *ſont entr'eux en raiſon compoſée des raiſons de leurs côtés* (AC, CD & EC, CG) *alentour des angles égaux.*

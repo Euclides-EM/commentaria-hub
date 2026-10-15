@@ -35,6 +35,10 @@ hyp. | a, n̄, msur: b,
 1.concl. 1c20.d7 | a, n̄, msur: c, β
 d. β | a, n̄, msur: d, u e.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. VII.]
+
 ## THEOR. V. PROPOS. VII.
 
 Si sint quotcunque numeri deinceps proportionales, primus autem extremum metiatur, is etiam metitur secundum.

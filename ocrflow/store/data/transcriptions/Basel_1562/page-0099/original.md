@@ -5,6 +5,8 @@
 
 Diß vnd die vorgehnd propoſition hatt Campanus für aine.
 
+[Curated heading level=2 type=propositions: XIII. Die dreyzehende propoſition]
+
 ## XIII. Die dreyzehende propoſition.
 
 [Subhead]
@@ -12,6 +14,8 @@ xij. Campani.
 [/Subhead]
 
 Ain zirckel berüert ainem andern zirckel nitt mehr dan in ainem puncten oder ortt / er berüer nie innen oder auſſen.
+
+[Curated heading level=2 type=propositions: XIIII. Die vierzehend propoſition]
 
 ## XIIII. Die vierzehend propoſition.
 
@@ -29,6 +33,8 @@ Welche linien gleichweitt vom centro ſtehn / iſt in der 4 beſchreibung erkler
 
 [Diagram: two circles with chords and connecting lines]
 
+[Curated heading level=2 type=propositions: XV. Die fünffzehende propoſition]
+
 ## XV. Die fünffzehende propoſition.
 
 [Curated heading level=3 type=numbered_item: 1.]
@@ -44,6 +50,8 @@ Welche linien gleichweitt vom centro ſtehn / iſt in der 4 beſchreibung erkler
 Verſtehe / ſo die linien all auff ainer ſeitten ſtehn. ſunſt mag man nit wiſſen / welche dem diametro nehner oder ferrer / man bring ſy dann hinumb. Alß die linj a / ſo ich ain perpendicular auff ſy ſtell vom centro / vn̄ auff die ander ſeitten (da die andere linien ſtehn) glycher leng vom centro ain linj zeuch / auff welcher end ich ain perpendicular / baider ſeit den vmbkraiſß berüerend ſtell / ſolche (als in der figur iſt b) iſt auß der beſchreibung vnd vorgehnden prop der erſten gleich / ꝛc̄. Nun diſe propoſition zů demonſtriern / zeuch von ſolcher linien orttern zum centro linien / welche alle gleich lang werden ſein. Nun hab acht ſolcher triangel / je zwo linien welche der halb tail ſeind des diametri / ſeind lenger weder die dritt / durch die 20 des erſten bůchs. Derhalben auch der gantz diameter lenger dan ſollche dritte linj. Des andern tails grund iſt die 24 des gemelten bůchs.
 
 [Diagram: circle with chords and radiating lines, labelled a and b]
+
+[Curated heading level=2 type=propositions: XVI. Die ſechszehende propoſition]
 
 ## XVI. Die ſechszehende propoſition.
 

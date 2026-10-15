@@ -7,6 +7,10 @@
 15.5 | ◇agbc π ◇defh 2|2 Δabc π Δdef,
 2.concl. 11.5 | ◇agbc π ◇defh 2|2 ai π dk.
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. II.]
+
 ## THEOR. II. PROPOS. II.
 
 Si ad vnum trianguli latus parallela ducta fuerit recta quædam linea, hæc proportionaliter secabit ipsius trianguli latera. Et si trianguli latera proportionaliter secta fuerint, quæ ad sectiones adiuncta fuerit recta linea, erit ad reliquum ipsius trianguli latus parallela.

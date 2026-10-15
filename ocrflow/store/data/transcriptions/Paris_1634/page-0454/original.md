@@ -26,6 +26,10 @@ hyp. | hd msur: fg,
 contr. 9.a.b.
 21.a.1 | ab & cd snt pr. ꝫe.
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. II.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. II.]
+
 ## PROBL. I. PROPOS. II.
 
 Duobus numeris datis non primis inter se, maximam eorum communem mensuram reperire.

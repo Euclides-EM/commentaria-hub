@@ -13,6 +13,8 @@ Multiplicier / ꝛc̄. facit 125. die vierdt zal / magſtu probiern. Hab ich dar
 
 So aber vier proportional linien fürkhommen vnd du gern ain fünffte wolteſt haben / oder zur fünfften ain ſechßte / als dann angeſehen ob die proportionalitet vnderſchnitten oder ſtetig ſei / magſtu leichtlich ſy mit hilff der ailfften oder zwelfften erſtreckhen / ſo lang vnd offt du wil / gib ich deinem verſtand vnd vbung zůermeſſen. Auch in zalen eben alſo mit hilff der regel De tri fortfaren. Zum exempel / ich hab vier zalen oder linien in ſtetiger proportionalitet / 16.24.36.54. wolt noch aine darzů haben. In linien / nim die linien 24.36.54. denen ſůch ain vierdte mit hilff der 12. propoſition / ꝛc̄. Oder 36. vnnd 54. vnnd ſůch die dritt durch die 11 propoſition / in zalen / ſprich 24 geben 36. was 54? facit 81. ꝛc̄. wer die vergleichung vnderſchnitten / als 4 gegen 6. wie 10. gegen 15. wolt ain zal oder lini haben die ſych auch alſo gegen 27 hielt / ſprich 15 gibt 10. was 27? facit 18. in linien / nim 15.10. vnnd 27. gebrauch dich der 12. propoſition / vnd das magſtu erholen / ſo offt von nötten / angeſehen das die vergleichung der proportion / allweg in vier quantiteten verricht wirt.
 
+[Curated heading level=2 type=propositions: XVIII. Die achzehendt propoſition]
+
 ## XVIII. Die achzehendt propoſition.
 
 [Subhead]

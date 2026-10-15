@@ -2,6 +2,8 @@
 
 <!-- Page number: 99 -->
 
+[Curated heading level=2 type=problems: Problema 14. Propositio 14.]
+
 ## Eucli.ex Zamb. Problema 14. Propositio 14.
 
 [Curated heading level=3 type=zamberti_sequence: 14.]

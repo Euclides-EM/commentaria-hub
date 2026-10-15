@@ -5,6 +5,8 @@
 
 *Scholie.* On peut par la même construction diviser chacune des moitiés AE, EB, en deux parties égales ; ainsi par des sous-divisions successives on divisera un angle ou un arc donné en quatre parties égales, en huit, en seize, etc.
 
+[Curated heading level=2 type=problems: PROBLÊME VI.]
+
 ### PROBLÊME VI.
 
 [Margin]
@@ -21,6 +23,8 @@ Car en joignant AE, on voit que les angles alternes AEF, EAD, sont égaux ; donc
 * 23. 1.
 [/Margin]
 
+[Curated heading level=2 type=problems: PROBLÊME VII.]
+
 ### PROBLÊME VII.
 
 [Margin]
@@ -30,6 +34,8 @@ Fig. 76.
 *Deux angles A et B d’un triangle étant donnés, trouver le troisième.*
 
 Tirez la ligne indéfinie DEF, faites au point E l’angle DEG = A, et l’angle GEH = B : l’angle restant HEF sera le troisième angle requis ; car ces trois angles pris ensemble valent deux angles droits.
+
+[Curated heading level=2 type=problems: PROBLÊME VIII.]
 
 ### PROBLÊME VIII.
 

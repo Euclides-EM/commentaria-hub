@@ -5,6 +5,10 @@ queſtum, videmus etenim omne totum ſuis partibus æquum eſſe, omnes igitur n
 
 ## Communes ſententiæ.
 
+[Curated heading level=1 type=axioms: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſeptimus.]
+
+[Curated heading level=2 type=axioms: Communes ſententiæ, Prima.]
+
 ### Prima.
 
 Si numerus metiatur partem, metietur & totum.
@@ -12,6 +16,8 @@ Si numerus metiatur partem, metietur & totum.
 Cùm pars ſit ea quæ totum ſuiipſius præciſa repetitione conſtituit, perſpicuum eſt, ſi aliquis numerus præciſa ſua repetitione partem conſtituat, & eundem ampliori repetitione totum conſtituere, vt A ſua repetitione generans B partem ipſius C, perſpicuum eſt A ampliore facta repetitione, qua quidem producit ſingulas ipſius C partes æquales ipſi B tandem totum C metiri.
 
 [Diagram: three horizontal lines labelled A, B, C and 2, 4, 8]
+
+[Curated heading level=2 type=axioms: Communes ſententiæ, Secunda.]
 
 ### Secunda.
 

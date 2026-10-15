@@ -4,6 +4,10 @@
 c. 4. 5 | ad π ab 2|2 cb π ac,
 concl. 18. 5 | db π ab 2|2 ab π ac, Ⅱ ad.
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VI.]
+
 ## THEOR. VI. PROPOS. VI.
 
 Si recta linea rationalis extrema ac media ratione secetur; vtrumque segmentorum irrationalis linea est, quæ vocatur apotome.
@@ -38,6 +42,10 @@ hyp. | ab π ac 2|2 ac π cb,
 17. 6 | □.ac 2|2 ▭.abc,
 13. 6 | ab, mſur: □.ac ꝑ bc,
 2concl. 98.10 | bc, eſt apotom. pr.
+
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. VII.]
 
 ## THEOR. VII. PROPOS. VII.
 

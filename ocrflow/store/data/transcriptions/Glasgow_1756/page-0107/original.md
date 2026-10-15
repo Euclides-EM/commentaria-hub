@@ -17,6 +17,10 @@ Sit vero ſegmentum BAED non majus ſemicirculo, et in ipſo ſint anguli BAD, B
 
 [Diagram: circle labelled A, B, C, D, E and F, with intersecting chords]
 
+[Curated heading level=2 type=propositions: PROP. XXII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXII. THEOR.]
+
 ## PROP. XXII. THEOR.
 
 {dropcap:Q|lines=2|style=plain}UADRILATERORUM quae in circulis ſunt, anguli oppoſiti ſunt duobus rectis aequales.

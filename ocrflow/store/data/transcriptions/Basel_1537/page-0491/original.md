@@ -6,6 +6,8 @@
 
 [Diagram: the octahedron drawn as a wide lozenge with the inscribed cube shown as an inner square; points labeled α, β, γ, δ, ε, ζ, η, θ, κ, λ, μ, ν]
 
+[Curated heading level=2 type=problems: Problema 5. Propositio 5]
+
 ## Eucli. ex Zamb. Theorema{printer-error-correction:Problema} 5. Propositio 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]

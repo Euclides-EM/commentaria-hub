@@ -23,6 +23,10 @@ hyp. | ad est 7,
 6.a.1 | 2▭.cd snt 8,
 2.cōcl. 2.a.1 | 2▭.ce + 2▭.cd snt 58
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. X.]
+
 ## THEOR. X. PROPOS. X.
 
 Si recta linea secetur bifariam, adiiciatur autem ei in rectum quæpiam recta linea : Quod à tota cum adiuncta, & quod ab adiuncta, vtraque simul quadrata duplicia sunt & eius, quod à dimidia, & eius

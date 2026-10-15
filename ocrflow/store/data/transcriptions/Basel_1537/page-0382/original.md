@@ -20,6 +20,8 @@ CAMPANVS. Sit corpus a b solidum parallelogrammū, de quo sit positum ꝗ superf
 
 [Diagram: parallelepiped with the cutting plane drawn through two face diagonals; labels b at top, c at the upper left face, f at the right, d at the centre, a at the lower left]
 
+[Curated heading level=2 type=theorems: Theorema 23 Propositio 28.]
+
 ## Eucli. ex Zamb. Problema 23{printer-error-correction:Theorema 23} Propositio 28.
 
 [Curated heading level=3 type=zamberti_sequence: 28.]

@@ -6,6 +6,10 @@ Soit trouué par la 11.p.10. quelque ligne droicte incommenſurable ex longitud
 
 Que ſi à la ligne trouuee, on en trouue encore vne autre, moindre ou plus grande que ls propoſee rationele, il eſt manifeſte par la 12.p. 10. que toutes les trois ſeront commenſ. entr’elles en puiſſance ſeulement, & partant rationeles.
 
+[Curated heading level=2 type=propositions: THEOR. 19. PROP. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. 19. PROP. XXII.]
+
 ## THEOR. 19. PROP. XXII.
 
 Le rectangle cõpris de deux lignes droites rationeles commenſ. en puiſſance ſeulement, eſt irrationel: & la ligne droite qui peut iceluy eſt irrationele. Soit icelle appelee Mediale.

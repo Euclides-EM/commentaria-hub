@@ -8,6 +8,8 @@ Apollonio conscriptum, qui recte complectebatur eius quod obijciebatur demonstra
 προσφωνῆσαι dedicare
 [/Margin]
 
+[Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
+
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
 
 [Curated heading level=3 type=zamberti_sequence: 1.]
@@ -21,6 +23,8 @@ Quæ ex centro alicuius circuli in pentagoni latus in eodem circulo descripti pe
 HYPSICLES ex Zamber. Sit circulus α β γ, & in ipso α β γ circulo latus pentagoni æquilateri sit β γ, assumaturq̃ (per 1 tertij) centrum ipsius circuli, sitq̃ δ, & ab ipso δ (per 12 primi) perpendicularis excitetur δ ε, extendaturq̃ in rectas lineas ipsi δ ε recta linea ε ζ. Dico quod ipsa δ ε dimidia est & hexagoni & decagoni laterum in eodem circulo descriptorū. Connectatur enim δ γ, ζ γ, & ponatur ipsi ε ζ æqualis ε κ, & ab ipso κ in γ connectatur κ γ. Quoniam quincupla est totius circuli circūferentia ipsius β ζ γ circūferentiæ, & totius quidem circunferentiæ circuli dimidia est circunferentia α ζ γ, ipsius autem β ζ γ dimidia est ζ γ circūferentia, α ζ γ ipsius ζ γ circūferentiæ quincupla est. Quadrupla igitur est α ζ ipsius ζ γ. Sicut autē α ζ ad ζ γ, sic qui sub α δ ζ angulus ad eum qui sub ζ δ γ, angulum: quadruplus igitur qui sub α δ ζ, eius qui sub ζ δ γ. Duplus autē qui sub α δ ζ, eius qui sub δ ζ γ: duplus igitur est qui sub δ ζ γ, eius qui sub ζ δ γ. Est autem qui sub ζ δ γ, ei æquus qui sub κ γ ζ: duplus est igitur is qui sub γ κ ζ, eius qui sub κ δ γ: æqualis igitur qui sub δ γ κ, ei qui sub κ δ γ: æqualis igitur δ κ, ipsi κ γ. Sed κ γ ipsi γ ζ æqualis: æqualis igitur & ipsi γ ζ. Est autem κ ε ipsi ε ζ æqualis: æqualis igitur & ipsi δ κ ipsa γ ζ, quæ decagoni. Cōmunis autem apponatur ipsa δ ε. Utraq̃ simul δ ζ, δ κ, dupla est ipsius δ ε. Est autē δ ζ æqualis quidem ipsius hexagoni lateri. At δ κ æqualis ei quod decagoni. Igitur δ ε dimidia est & eius quod hexagoni & eius quod decagoni laterum in eodem circulo descriptorū. Manifestum nempe est ex ijs quæ in tertiodecimo libro theorematibus, quod ex centro circuli in latus triāguli æquilateri perpēdicularis acta, dimidia est eius quæ ex centro circuli.
 
 [Diagram: circle α β γ with pentagon side β γ; centre δ; perpendicular δ ε on β γ produced to ζ on the circumference; κ on the line with ε κ equal to ε ζ; lines δ γ, ζ γ, κ γ drawn]
+
+[Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 

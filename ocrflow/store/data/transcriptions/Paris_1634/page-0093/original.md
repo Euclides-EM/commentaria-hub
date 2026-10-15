@@ -24,6 +24,10 @@ concl. 4.1. | ae 2|2 eb.
 
 [Figure: ligne A—E—B horizontale, arcs s'entrecoupans en C au dessus et en D au dessous, ligne pointillée CD passant par E]
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. XI.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. XI.]
+
 ## PROBL. VI. PROPOS. XI.
 
 Data recta linea, à puncto in ea dato, rectam lineam ad angulos rectos excitare.

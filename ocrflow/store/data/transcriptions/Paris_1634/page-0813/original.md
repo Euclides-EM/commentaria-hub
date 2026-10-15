@@ -10,6 +10,10 @@ c. 11. 12 | iк, 2, 3, 4 / 3, im,
 cylindr. em 2, 3, 4 / 3, cylindr. fp,
 concl. 6. d. 5 | cylindr. aefd π cylindr. ebcf 2|2 gi π ih.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XIV.]
+
 ## THEOR. XIV. PROPOS. XIV.
 
 Super æqualibus basibus existentes coni, & cylindri, inter se sunt vt altitudines.

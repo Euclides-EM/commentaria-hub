@@ -9,6 +9,8 @@ Nim für dich die triangel a b e / vnnd b c d / ſeind (auß beſchreibung des z
 
 [Diagram: two concentric circles with lines labelled a, b, c, d and e]
 
+[Curated heading level=2 type=propositions: XVIII. Die achtzehendt propoſition]
+
 ## XVIII. Die achtzehendt propoſition.
 
 [Subhead]
@@ -21,6 +23,8 @@ Dann wahin ſunſt ain andere perpend. vom centro auff die berürend gezogen wur
 
 [Diagram: circle beneath a tangent line, with a solid perpendicular and a dotted oblique line drawn from the centre]
 
+[Curated heading level=2 type=propositions: XIX. Die neüntzehendt Propoſition]
+
 ## XIX. Die neüntzehendt Propoſition.
 
 [Subhead]
@@ -30,6 +34,8 @@ So ain rechte linj ainen zirckel berüert vnd von dem puncten der berüerung ain
 ### Demonſtration.
 
 Iſt vmbkherte die vorgehnd. Sey das centrum anderſtwo / ſo dann von dem ſelben zum contact oder berürung ain linj gezogen / vnd die ſelb auß krafft der vorgehnden / perpendicular ſein můß: derhalben auch baider ſeitt ainem gerechten winckel macht / vnnd dann alle gerechte winckel ainander gleich / můſſt volgen / das ain tail ſeinem gantzen gleich / ꝛc̄.
+
+[Curated heading level=2 type=propositions: XX. Die zwainzigſt Propoſition]
 
 ## XX. Die zwainzigſt Propoſition.
 

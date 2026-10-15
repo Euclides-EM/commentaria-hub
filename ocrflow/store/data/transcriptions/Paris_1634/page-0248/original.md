@@ -33,6 +33,10 @@ Demonstr.. 2. cas.
 d.α. | <eab 2|2 <eah,
 | <aed 2|2 <aef.
 
+[Curated heading level=2 type=propositions: PROBL. XIII. PROPOS. XIII.]
+
+[Curated heading level=2 type=problems: PROBL. XIII. PROPOS. XIII.]
+
 ## PROBL. XIII. PROPOS. XIII.
 
 In dato pentagone æquilatero & æquiangulo circulum describere.

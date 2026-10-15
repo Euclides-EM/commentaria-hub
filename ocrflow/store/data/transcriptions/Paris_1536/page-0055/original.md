@@ -8,6 +8,10 @@ Demõstrationis resolutio.
 
 [Diagram: d h a l f b m c g e k]
 
+[Curated heading level=2 type=propositions: Problema 13, Propositio 45.]
+
+[Curated heading level=2 type=problems: Problema 13, Propositio 45.]
+
 ## Πρόβλημα ιγ, Πρόθεσις με.
 
 ΤΩ δοθέντι εὐθυγράμμῳ , ἴσον παραλληλόγραμμον συστήσασθαι ἐν τῇ δοθείσῃ εὐθυγράμμῳ γωνίᾳ.

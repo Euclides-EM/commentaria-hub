@@ -1,6 +1,10 @@
 <!-- Page number: 324 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. XVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVI. THEOR.]
+
 ## PROP. XVI. THEOR.
 
 {dropcap:D|lines=2|style=plain}Uabus circulis circa idem centrum exiſtentibus, in majori polygonum aequalium laterum, quorumque numerus par ſit, deſcribere, quod minorem circulum non attingat.

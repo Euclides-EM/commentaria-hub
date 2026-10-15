@@ -3,6 +3,10 @@
 hyp. | aggreg.. fb + gc + hd + le, est nr.pa.
 concl. 21.7 | aggreg. ae, est nr.pa.
 
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXIII.]
+
 ## THEOR. XXI. PROPOS. XXIII.
 
 Si impares numeri quotcunque componantur, multitudo autem ipsorum sit impar : & totus impar erit.
@@ -30,6 +34,10 @@ Demonstr.
 7.d.7 | ce, est nr.pa.
 21.9 | ae, est nr. pa.
 concl. 7.d.7 | ad, est nr. impa.
+
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXIV.]
 
 ## THEOR. XXII. PROPOS. XXIV.
 

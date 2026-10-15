@@ -18,6 +18,8 @@ inter ſe æquales. Si enim fieri poteſt, ducantur ex A, ad lineam B C, tres li
 
 [Curated heading level=2 type=campanus: 17]
 
+[Curated heading level=2 type=theorems: THEOR. 10. PROPOS. 17.]
+
 ## THEOR. 10. PROPOS. 17.
 
 [Curated heading level=3 type=incipit: CVIVSCVNQVE]

@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. XIII.]
+
 ## THEOR. VI. PROPOS. XIII.
 
 Cum recta linea super rectam consistens lineam angulos facit, aut duos rectos, aut duobus rectis æquales efficiet.

@@ -5,6 +5,8 @@
 
 Idem huic deficiebat quod & præcedenti octauæ, ſcilicet excluſiua (tantùm) vt eam efficeret, cum diffinito conuerti. Non omnis enim numerus quem par metiens per imparem metitur, erit pariter impar, aut impariter par, quod idem ac vnum eſt: nec conuerteretur, ſi hæ ſint voces (cum ſuo diffinito) ſed in ſequentem diffinitionem caderent binæ præcedentes. Quare neceſſariò apponendæ fuerunt hæ voces, in imparem tantùm, per parem eum metientem.
 
+[Curated heading level=2 type=definitions: Diffinitio decima.]
+
 ## Diffinitio decima.
 
 Pariter par & impar eſt quem par per parẽ & imparẽ numerum quandoque metitur.
@@ -15,17 +17,23 @@ Numerum pariter parem & imparem dicit eum, quem aliquis par per parem, alius ver
 
 Huic diffinitioni hæſit Theon, quam oblitus ſuo Græco exemplari, & eam addere volẽs Zambertus, à vero eius ſenſu decidit, & in alterã præcedentis partem incidit. Quod autem eam exquirat vera methodus, oſtendetur 35 propoſitione noni, quæ huius verũ intellectum plane demonſtrat, quam ideo huic ſuo loco apponendam eſſe cenſuimus.
 
+[Curated heading level=2 type=definitions: Diffinitio vndecima.]
+
 ## Diffinitio vndecima.
 
 Impariter verò impar numerus eſt, quem impar tantùm metitur numerus.
 
 Hæc ſimiliter octauæ diffinitioni opponi videtur, ſicut & opponuntur diffinita: nam ſicut pariter par à ſolo pari menſus eſſe patuit, ſic impariter impar is erit, quẽ ſolus impar metietur, vt 15, quem 3 per 5 metietur, & 21 25, & reliqui huiusmodi, à nullo pari menſi.
 
+[Curated heading level=2 type=definitions: Diffinitio duodecima.]
+
 ## Diffinitio duodecima.
 
 Primus numerus eſt, quem ſola vnitas metitur.
 
 Primum poſt modum diffinit numerum eum eſſe, qui nulli quatuor præcedentium diffinitionum ſubiicitur: omnes enim in alios diuiduntur numeros, hic autẽ primus in ſolas ſecatur vnitates, nullas alias ab vnitatibus habens partes, vt 2, 5, 7, 11, 13. &c.
+
+[Curated heading level=2 type=definitions: Diffinitio decimatertia.]
 
 ## Diffinitio decimatertia.
 

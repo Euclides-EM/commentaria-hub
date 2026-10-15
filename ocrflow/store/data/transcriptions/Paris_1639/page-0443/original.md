@@ -1,4 +1,8 @@
+[Curated heading level=1 type=propositions: DE LA GNOMONIQVE, OV HOROLOGEOGRAPHIE.]
+
 # DE LA GNOMONIQVE, OV HOROLOGEOGRAPHIE.
+
+[Curated heading level=2 type=propositions: Propos. 1. pag. 750. du 5.]
 
 ### Propos. 1. pag. 750. du 5.
 

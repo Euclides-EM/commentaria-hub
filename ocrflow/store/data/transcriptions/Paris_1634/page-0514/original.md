@@ -9,6 +9,10 @@ contr. hypoth.
 
 2.concl. 21.a.1 | a, n̄, msur: b.
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XVIII.]
+
 ## THEOR. XVI. PROPOS. XVIII.
 
 Duorum similium planorum numerorum vnus medius proportionalis est numerus : Et planus ad planum duplicatam habet lateris ad latus homologum rationem.

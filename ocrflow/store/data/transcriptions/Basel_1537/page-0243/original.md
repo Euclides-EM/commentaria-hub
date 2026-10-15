@@ -14,6 +14,8 @@ Quod 11 secundi proponit faciendum in lineis, demonstrat hoc impossibile esse in
 
 [Diagram: dotted line with points a, c, e, d, b]
 
+[Curated heading level=2 type=theorems: Theorema 15 Propositio 15]
+
 ## Eucli. ex Zamb. Theorema 15 Propositio 15
 
 [Curated heading level=3 type=zamberti_sequence: 15.]

@@ -1,6 +1,10 @@
 <!-- Running title: LIVRE VII. -->
 <!-- Page number: 219 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XVII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVII.]
+
 ## PROPOSITION XVII.
 
 ### THÉORÊME.
@@ -12,6 +16,10 @@ F. 233.
 *Si les deux côtés AB, AC, du triangle sphérique ABC sont égaux aux deux côtés DE, DF, du triangle DEF tracé sur une sphère égale, si en même temps l’angle A est plus grand que l’angle D, je dis que le troisième côté BC du premier triangle sera plus grand que le troisième EF du second.*
 
 La démonstration est absolument semblable à celle de la prop. X, liv. I.
+
+[Curated heading level=2 type=propositions: PROPOSITION XVIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVIII.]
 
 ## PROPOSITION XVIII.
 

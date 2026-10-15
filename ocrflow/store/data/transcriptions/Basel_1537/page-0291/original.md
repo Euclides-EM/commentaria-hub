@@ -8,6 +8,8 @@ IDEM aliter. Sit ut in præmissis linea d e rationalis in longitudine, superfici
 
 [Diagram: line a c divided at b, labelled a, b, c; below it, a rectangle on base d e divided by a horizontal line into an upper compartment (h at upper left) and a lower compartment; g at middle left, f at middle right, d and e at the bottom corners]
 
+[Curated heading level=2 type=theorems: Theorema 28 Propositio 40]
+
 ## Eucli. ex Zamb. Theorema 28 Propositio 40
 
 [Curated heading level=3 type=zamberti_sequence: 40.]

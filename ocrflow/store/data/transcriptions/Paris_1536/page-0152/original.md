@@ -10,6 +10,8 @@ Exempli gratia, trianguli a/ b/ c/ altitudo erit a/ d/ recta linea, ab a/ vertic
 
 [Curated heading level=3 type=numbered_item: 5.]
 
+[Curated heading level=2 type=definitions: Ratio ex duabus rationibus]
+
 Ratio ex duabus rationibus, aut ex pluribus cōstare dicitur: quādo rationū quātitates multiplicatæ, aliquam efficiunt quātitatem.
 
 [Margin]

@@ -14,6 +14,8 @@ Poßit enim α, irrationalem aream, hoc est id quod ex α, quadratum æquale irr
 
 [Diagram: horizontal line segment labeled α]
 
+[Curated heading level=2 type=theorems: Theorema 18 Propositio 21]
+
 ## Eucli. ex Zamb. Theorema 81{printer-error-correction:18} Propositio 21
 
 [Curated heading level=3 type=zamberti_sequence: 21.]

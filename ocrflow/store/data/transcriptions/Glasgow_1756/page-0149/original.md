@@ -1,25 +1,37 @@
 <!-- Page number: 134 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=definitions: DEF. XV.]
+
 ### XV.
 
 Συνθέντι, Componendo; quando quatuor ſunt proportionales, et concluditur ut prima una cum ſecunda ad ſecundam, ita tertia una cum quarta ad quartam. Prop. 18. Lib. 5.
+
+[Curated heading level=2 type=definitions: DEF. XVI.]
 
 ### XVI.
 
 Διελόντι, Dividendo; quando quatuor ſunt proportionales, et concluditur ut exceſſus quo prima ſuperat ſecundam ad ſecundam, ita exceſſus quo tertia ſuperat quartam ad quartam. Prop. 17. Lib. 5.
 
+[Curated heading level=2 type=definitions: DEF. XVII.]
+
 ### XVII.
 
 Ἀναστρέψαντι, Convertendo; quando quatuor ſunt proportionales, et concluditur ut prima ad exceſſum quo ſuperat ſecundam, ita tertia ad exceſſum quo ſuperat quartam. Prop. E. Lib. 5.
+
+[Curated heading level=2 type=definitions: DEF. XVIII.]
 
 ### XVIII.
 
 Δι’ ἴσου, Ex aequo, ſive ex aequali, ſc. intervallo; quando pluribus exiſtentibus magnitudinibus, et aliis ipſis numero aequalibus, quae binae ſumptae ſunt in eadem ratione; et concluditur ut prima ad ultimam in primis magnitudinibus, ita, in ſecundis magnitudinibus, prima ad ultimam. ‘Hujus duae ſunt ſpecies ſequentes.’
 
+[Curated heading level=2 type=definitions: DEF. XIX.]
+
 ### XIX.
 
 Δι’ ἴσου, Sive ex aequali ſimpliciter; quando fuerit prima ad ſecundam in primis magnitudinibus, ut in ſecundis prima ad ſecundam; ut autem, in primis, ſecunda ad tertiam, ita in ſecundis, ſecunda ad tertiam; et ita deinceps. et concluditur ut in praecedente dictum fuit. Prop. 22. Lib. 5.
+
+[Curated heading level=2 type=definitions: DEF. XX.]
 
 ### XX.
 

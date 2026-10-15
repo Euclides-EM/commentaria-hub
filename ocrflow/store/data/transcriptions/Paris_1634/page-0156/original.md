@@ -7,6 +7,10 @@ gnom. | fb, 1. fob, 3. gpc, 5. hqd, 7. progress. impar.
 19.a.1. | fb + fob + gpc snt ap ▭.ah. 9,
 19.a.1. | fb + fob + gpc + hqd snt aq ▭.al 16.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. V.]
+
 ## THEOR. V. PROPOS. V.
 
 Si recta linea secetur in æqualia, & non æqualia : Rectangulum sub inæqualibus segmentis totius comprehensum, vnà cum quadrato, quod ab intermedia sectionum, æquale est ei, quod à dimidia describitur, quadrato.

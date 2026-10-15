@@ -10,6 +10,8 @@ d Per corol. 1 p.14. huius.
 e Per 24. huius.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XLI.]
+
 ## PROPOSITIO XLI.
 
 {dropcap:Æ|lines=2|style=plain}Quilateri coni ſphæræ circumſcripti tota ſuperficies quadrupla eſt ſuperficiei totius coni inſcripti eidem ſphæræ.

@@ -23,6 +23,10 @@ suppos. | a,b,c snt proport;
 contr. hypoth.
 2.concl. 21.a.1 | a,b,c n̄ snt proport;
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. XIX.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. XIX.]
+
 ## PROBL. II. PROPOS. XIX.
 
 Tribus numeris datis, considerare an possit ipsis quartus proportionalis inueniri.

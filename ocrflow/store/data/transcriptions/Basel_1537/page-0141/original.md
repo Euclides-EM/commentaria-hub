@@ -20,6 +20,8 @@ CAMPANVS. Secundum antecedens, sint tres quãtitates a b e, sumãturq̃ aliæ tr
 
 [Diagram: three groups of paired horizontal segments with tick marks, labeled a and f, b and c, e and d in each group]
 
+[Curated heading level=2 type=theorems: Theorema 21 Propositio 21]
+
 ## Eucli.ex amb.{printer-error-correction:Zamb.} Theorema 21 Propositio 21
 
 [Curated heading level=3 type=zamberti_sequence: 21.]

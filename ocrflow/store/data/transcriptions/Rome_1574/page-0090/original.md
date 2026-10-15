@@ -7,6 +7,8 @@ nor diceretur, quam A C B. Campanus deſcribens rectam lineam, vocat eam breuiſ
 lib.1.tex.5.
 [/Margin]
 
+[Curated heading level=2 type=definitions: V.]
+
 ### V.
 
 [Curated heading level=4 type=incipit: SVPERFICIES]

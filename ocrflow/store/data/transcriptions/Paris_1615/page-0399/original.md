@@ -10,6 +10,10 @@ Soit AB 30, & C24. donc les ſegmens AD, & DB, ſeront 24, & 6, deſquel, le pro
 
 La propoſition ſuiuante ſera auſſi facilement entenduë, ſi. on poſa AB12, & C √96: car les ſegmens AD, DB, ſeront 6+√12. & 6—√12; & FD √48, qui eſt à 12 incommenſ. en longit. &c.
 
+[Curated heading level=2 type=propositions: THEOR. 16. PROP. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. 16. PROP. XIX.]
+
 ## THEOR. 16. PROP. XIX.
 
 S il y a deux lignes droictes inegales, & ſur la plus grande on applique vn rectangle egal au quart du quarré de la plus petite, & defailIant d’vne figure quarree, & que le rectangle diuiſe icelle plus grande ligne en parties incõmenſ. en longitude; la plus grãde ligne pour-

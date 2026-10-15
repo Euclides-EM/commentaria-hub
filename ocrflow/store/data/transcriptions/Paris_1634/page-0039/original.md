@@ -2,6 +2,8 @@
 
 igitur neque anguli magnitudinem. | quent la quantité de l'angle.
 
+[Curated heading level=2 type=definitions: IX.]
+
 ### IX.
 
 Cùm autem, quæ angulum continent lineæ, rectæ fuerint, rectilineus ille angulus appellatur. | Or quand les lignes, qui comprennent l'angle, sont droictes, l'angle s'appelle rectiligne.
@@ -13,6 +15,8 @@ Omnis angulus planus conficitur aut ex duabus lineis rectis, qui rectilineus est
 Angulus A est rectilineus, | L'angle A est droict.
 B curuilineus, | B curuiligne.
 C mixtus. | C mixtiligne.
+
+[Curated heading level=2 type=definitions: X.]
 
 ### X.
 

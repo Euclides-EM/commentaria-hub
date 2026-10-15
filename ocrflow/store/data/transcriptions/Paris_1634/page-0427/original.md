@@ -15,6 +15,10 @@ Coroll.
 hyp. | df n̄ est 3|2 de,
 β | <fde π <edc 3|2 fe π ec.
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXXVIII.]
+
 ## THEOR. XXV. PROPOS. XXXVIII.
 
 Si basis trianguli ita secetur, vt segmentum alterum sit non minus latere sibi contermino ; ratio anguli qui reliquo segmento adiacet, ad eum qui huic, minor est, quam huius segmenti ad illud.

@@ -1,6 +1,8 @@
 <!-- Page number: 178 -->
 <!-- Running title: Deß fünfften bůchs Euclidis -->
 
+[Curated heading level=2 type=propositions: XXIII. Die drey vnd zwaintzigſt Propoſition]
+
 ## XXIII. Die drey vnd zwaintzigſt Propoſition.
 
 Parallelogram ſo gleiche winckel haben / halten ſych inn der proportion / welche entſpringt auß den proportz der ſeitten.
@@ -18,6 +20,8 @@ Nun die ſach mit ainem exempel zůerklären / haſtu hie zwai winckelrechte par
 [Diagram: two rectangles; the first labelled 9, 6, and 54, the second labelled 12, 3, and 36]
 
 halten ſych gegen ainander wie 3 vnnd 2. eben ſolche proportz entſpringt / ſo du addierſt die proportion zwiſchen 9 vnd 12 / zur proportion zwiſchen 6 vnd 3. der gröſſern lenge / gegen der klainern lenge / vnd alſo auch braitte gegen braitte geſetzt / ſteht ⁹⁄₁₂—⁶⁄₃ / wirt ⁵⁴⁄₃₆. thůt ³⁄₂. hiehar magſtu ziehen das erſt exempel der 41. propoſit. des erſten bůchs. Item andre auß dem ſelben vnd andern bůch / auch diſes bůch 14 propoſi. ſo gleichait mitt ſych bringt. Gib ich deinem fleiß zůgeben.
+
+[Curated heading level=2 type=propositions: XXIIII. Die vier vndzwaintzigſt Propoſition]
 
 ## XXIIII. Die vier vndzwaintzigſt Propoſition.
 

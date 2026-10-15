@@ -20,6 +20,8 @@ CAMPANVS. Sit ut linea a b cadat super duas lineas c d, e f, & secet lineam c d 
 
 [Diagram: transversal line a b crossing two lines c d and e f at points g and h, with the lines produced to meeting points k on the left and l on the right; labels a, c, g, d, k, l, e, h, f, b]
 
+[Curated heading level=2 type=theorems: Theorema 18. Propositio 27.]
+
 ## Eucli. ex Zamb. Theorema 18. Propositio 27.
 
 [Curated heading level=3 type=zamberti_sequence: 27.]

@@ -10,6 +10,10 @@
 16.1. | <bec 3|2 <a,
 2.concl. 1.a.c. | <bdc 3|2 <a.
 
+[Curated heading level=2 type=propositions: PROBL. VIII. PROPOS. XXII.]
+
+[Curated heading level=2 type=problems: PROBL. VIII. PROPOS. XXII.]
+
 ## PROBL. VIII. PROPOS. XXII.
 
 Ex tribus rectis lineis quæ sint tribus datis rectis lineis æquales triangulum constituere. Oportet autem duas reliqua esse maiores omnifariam sumptas : quoniam vniuscuiusque trianguli duo latera omnifariam sumpta reliquo sunt maiora.

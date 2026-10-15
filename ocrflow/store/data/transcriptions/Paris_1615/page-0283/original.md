@@ -18,6 +18,10 @@ Car par la 18.p.8.il tombera entre A & B vn moyen prop.
 
 Car les nombres A& B eſtans entr’eux, comme les quarrez D & F: par la 11.p.8. Il tombera vn moyen prop. entre iceux quarrez; & auſſi vn entre A & B, par la 8.p8. & partant A& B ſont plans ſemblables. Et par cecy eſt manifeſte que les nombres plans qui ne sõt ſemblables, ne ſont entr'eux, comme nombre quarré à nombre quarré.
 
+[Curated heading level=2 type=propositions: THEOR. 25. PROP. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. 25. PROP. XXVII.]
+
 ## THEOR. 25. PROP. XXVII.
 
 Nombres ſolides ſemblables, ſont l’vn à l’autre comme nombre cube à nombre cube.

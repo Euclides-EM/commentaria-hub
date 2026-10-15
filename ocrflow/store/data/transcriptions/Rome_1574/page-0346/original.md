@@ -36,6 +36,8 @@ ALITER. Erunt duæ tangentes AB, AD, æquales, ut oſtenſum eſt; quod eſt ab�
 
 [Curated heading level=2 type=campanus: 36]
 
+[Curated heading level=2 type=theorems: THEOR. 31. PROPOS. 37.]
+
 ## THEOR. 31. PROPOS. 37.
 
 [Margin]

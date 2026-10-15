@@ -9,6 +9,10 @@ und ia ⊢ ag — n. 18. I.
 
 Muß also der Düttel i, wie auch alle andere Düttele des Striches hg, und einfolglich der gantze Strich hg, inwendig in den Kreyß fallen. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der III. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 2. Beweiß-Stück. Der III. Vortrag.]
+
 ## Der III. Vortrag.
 
 ## Das 2. BeweißStück.

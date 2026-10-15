@@ -1,6 +1,8 @@
 <!-- Running title: LIBER NONVS. -->
 <!-- Page number: 92 -->
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſeptima.]
+
 ## Propoſitio trigeſimaſeptima.
 
 Si ab vnitate quotcũque numeri continuè dupli exponantur, quoad totus compoſitus ſit primus, & totus in vltimum multiplicatus aliquem fecerit, qui gignitur perfectus erit.
@@ -9,7 +11,7 @@ Apponantur vnitati quotcunque numeri A B G D continuè dupli, quoad aggregatus e
 
 [Diagram: horizontal lines labelled A, B, G, D, E, T N K, L, M, Z C I, O and P, headed Vnitas., with the numbers 2, 4, 8, 16, 31, 31, 31, 124, 248, 31, 465 and 496]
 
-## MONITVM.
+### MONITVM.
 
 Præmiſimus nuper Euclidem numerorum auxilia tantùm ad geometricas quantitates diſcernendas & ideò elucidandas imploraſſe. Qua autem de cauſa ſingula documenta quæ numeris conuenirent, huic negotio conferentia non poſuerit Euclides mirari deſinemus. Cùm enim Geometriæ traditiones ampliores ac vberiores arithmeticis exiſtant, quæ in geometricis tradidit Euclides quantitatum continuarum nomine, ea numeris adaptari cupit, maximè cùm continuarum illarum magnitudinum reſpectus, more ac numerorum habitudine ſeſe reſpiciunt, vt exemplo ex prima ſecundi dicemus in numeris. Si duorum numerorum alter ſecetur, quomodolibet productus ex multiplicatione ſecti & inſecti, æquus erit productis ex multiplicatione inſecti per ſingula ſecti ſegmenta. Haud diſſimili via in reliquis ſecundi ſequetur, dempta vndecima, ea etenim inter eas vnica, ſectionem incertam ac extra numerorum rationem ſupponit: quare hæc numeris applicari non debet. Reliquæ verò vtraſque ſuſcipiunt rationes numerorum ſcilicet (quæ certæ ſunt) ac incertas geometricam vbertatem ac amplitudinem ducentes. Similiterque dicemus in reliquis aliorum librorum
 

@@ -30,6 +30,8 @@ f Per 27.l.1.
 o Per 5.l.1.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO IV.]
+
 ## PROPOSITIO IV.
 
 {dropcap:T|lines=2|style=plain}*Riangula ſibi mutuo æquiangula, ſunt ſimilia; hoc eſt,* o *etiam latera æqualibus angulis oppoſita, habent proportionalia.*

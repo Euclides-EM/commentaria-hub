@@ -29,6 +29,10 @@ Sind derowegen nunmehro
 
 W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXXV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 35. Beweiß-Stück. Der XXXV. Vortrag.]
+
 ## Der XXXV. Vortrag.
 ## Das 35. Beweiß-Stück.
 

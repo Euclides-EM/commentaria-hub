@@ -3,6 +3,8 @@
 
 pour déterminer chaque polyedre en particulier. En vertu des données nécessaires il semble déja que les polyedres doivent être égaux, car la multiplicité des solutions ne peut guere avoir lieu dans les polyedres convexes ; en vertu des données superflues il faut encore qu’un certain nombre d’élémens soient égaux dans les deux polyedres ; on peut donc regarder leur égalité absolue comme extrêmement probable. Mais voici quelques lemmes qui serviront à démontrer rigoureusement cette égalité, au moins dans des cas particuliers.
 
+[Curated heading level=2 type=lemmas: LEMME I. (NOTE XII.)]
+
 ### LEMME I.
 
 [Subhead]

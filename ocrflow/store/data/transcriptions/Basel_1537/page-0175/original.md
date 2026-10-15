@@ -18,6 +18,8 @@ CAMPANVS Sit proposita linea a b: quam uolo diuidere secundũ proportionem haben
 
 [Diagram: rectangle with c at top left and a at top right, divided by a vertical line toward the right and a horizontal line below; e on the left side, f and d at the right of the vertical divider, b at bottom right]
 
+[Curated heading level=2 type=problems: Problema 10 Propositio 30]
+
 ## Eucli.ex Zamb. Problema 10 Propositio 30
 
 [Curated heading level=3 type=zamberti_sequence: 30.]

@@ -11,6 +11,8 @@ i Per 8. l.6.
 k Per 16. l.6.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XVII.]
+
 ## PROPOSITIO XVII.
 
 [Curated heading level=2 type=figures: Fig. 14]

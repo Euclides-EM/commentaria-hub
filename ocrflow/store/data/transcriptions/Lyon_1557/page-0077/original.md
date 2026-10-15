@@ -3,6 +3,10 @@
 
 Et quia AC diuidit ipſam BD æqualiter: ipſa per Centrum tranſibit, ex Conſectario primæ huius, Quod eſt contra poſitionem. Quare AB & CD non ſe per æqualia ſecant, Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 4, PROPOSITIO V.]
+
+[Curated heading level=2 type=theorems: THEOREMA 4, PROPOSITIO V.]
+
 ## THEOREMA 4, PROPOSITIO V.
 
 Circulorum ſe mutuò ſecantium non eſt idem Centrum.
@@ -12,6 +16,10 @@ Circulorum ſe mutuò ſecantium non eſt idem Centrum.
 Sint duo Circuli ABC & ADB, ſecantes ſe in punctis A & B. Dico eorum non eſſe vnum Centrum.
 
 Nam ſi vnum poſſit eſſe, ſit ipſum E punctum: Et ducatur linea EA: ac mox linea EC: quæ ſecet ACB peripheriam in puncto C: & ADB alteram peripheriam in F. Eruntq́;, per Centri Definitionem, EA & EF æquales: ſed & EA & EC æquales. Quare quum ambæ EF & EC ſint æquales ipſi EA, erunt & ipſæ inter ſe æquales, Quod eſſe non poteſt. Non igitur E, ſed nec vllum aliud punctum, erit vtriuſque Centrum, Quod erat probandum.
+
+[Curated heading level=2 type=propositions: THEOREMA 5, PROPOSITIO VI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 5, PROPOSITIO VI.]
 
 ## THEOREMA 5, PROPOSITIO VI.
 
@@ -24,6 +32,10 @@ Sint duo Circuli ABA & ACA, ſe contingentes in puncto A. Dico eorum non eſſe 
 Si enim idem poſſit eſſe, ſit ipſum D: Et ducantur DA & DBC lineæ. Eritq́;, per definitionem Centri & Circuli, vtraq; linearum DB & DC æquales ipſi DA. Quapropter DB æqualis DC, Quod eſſe non poteſt.
 
 Circulorum verò ſeſe extrinſecùs tangentium ſatis conſtat diuerſa eſſe Centra: quum Centrum ſit in medio ſui Circuli.
+
+[Curated heading level=2 type=propositions: THEOREMA 6, PROPOSITIO VII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 6, PROPOSITIO VII.]
 
 ## THEOREMA 6, PROPOSITIO VII.
 

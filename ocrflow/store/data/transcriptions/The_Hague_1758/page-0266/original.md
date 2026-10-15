@@ -3,6 +3,10 @@
 
 [Figure: triangle ABC with vertex B at top, perpendicular BD drawn to the base AC; small angles marked o, p at B and m, n at D]
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THEOREME VIII.]
+
+[Curated heading level=2 type=theorems: THEOREME VIII. PROPOSITION VIII.]
+
 ## PROPOSITION VIII. *THEOREME VIII.*
 
 {dropcap:S|lines=2|style=plain}I de l'angle droit (ABC) d'un triangle rectangle (ABC) on abaiſſe ſur l'hypothenuſe (AC) une perpendiculaire (BD): elle partagera ce triangle en deux autres (ADB, BDC) ſemblables entr'eux, & ſemblables au triangle total (ABC).

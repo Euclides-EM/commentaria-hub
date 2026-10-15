@@ -12,6 +12,10 @@
 1.2 | ▭.be,ca + ▭.ed,ca 2|2 ▭.ac,bd,
 concl. 1.a.1 | ▭.ac,bd 2|2 ▭.ba,cd + ▭.da,bc.
 
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXXVII.]
+
 ## THEOR. XXIV. PROPOS. XXXVII.
 
 In circulo sumptis duobus arcubus inæqualibus quorum maior subtendatur à maiori linea quam minor; maior est proportio arcus maioris ad minorem, quam subtensæ maioris arcus ad subtensam minoris arcus.

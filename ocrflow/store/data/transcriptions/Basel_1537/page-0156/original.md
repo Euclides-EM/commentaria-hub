@@ -10,6 +10,8 @@ CAMPANVS. Sit trigonus a b c, orthogonus, eiusque angulus a, rectus, à quo duca
 
 [Diagram: right triangle with apex a, base from b to c, perpendicular a d drawn from a to foot d on the base between b and c]
 
+[Curated heading level=2 type=theorems: Theorema 8 Propositio 8]
+
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
 
 [Curated heading level=3 type=zamberti_sequence: 8.]

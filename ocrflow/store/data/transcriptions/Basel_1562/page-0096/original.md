@@ -7,6 +7,8 @@ Das iſt / ob ſchon die ain gleich zertailt / als die ander figur hatt / wirt d
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: V. Die fünfft propoſition]
+
 ## V. Die fünfft propoſition.
 
 [Subhead]
@@ -19,6 +21,8 @@ Dann ſeittenmal das centrum auſſerhalb ſeins zirckels nit ſtehn mag / müſ
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: VI. Die ſechſt propoſition]
+
 ## VI. Die ſechſt propoſition.
 
 [Subhead]
@@ -30,6 +34,8 @@ Zwen zirckel ſo innwendig ainander anrüeren / haben nit ain centrum.
 Dann wa von ſolchem gmainen centro zum puncten der berüerung ain lini (als baider halber diameter) vnd dann aine zum vmbkhraiß baider zirckel gezogen / wirt eben demonſtriert / wie im vorgehnder.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: VII. Die ſibendt propoſition]
 
 ## VII. Die ſibendt propoſition.
 

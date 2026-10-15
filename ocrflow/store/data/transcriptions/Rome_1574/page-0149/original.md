@@ -8,6 +8,8 @@ tiones, ſed ſolum, ut probetur recte eſſe per ipſas effectum, quod imperaba
 
 [Curated heading level=2 type=campanus: 10]
 
+[Curated heading level=2 type=problems: PROBL. 5. PROPOS. 10.]
+
 ## PROBL. 5. PROPOS. 10.
 
 [Curated heading level=3 type=incipit: DATAM]

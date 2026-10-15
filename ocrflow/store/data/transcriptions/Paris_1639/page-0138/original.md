@@ -25,6 +25,10 @@ ef *eſt commun.*
 
 De cette demonstration s'ensuit, qu'en tout triangle isoscele ou equilateral, la ligne menée de l'angle du sommet au milieu de la base est perpendiculaire à la base : & au contraire la ligne perpendiculaire à la base, menée de l'angle opposé, la couppera en deux également.
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. IV.]
+
 ## THEOR. III. PROPOS. IV.
 
 Si au cercle deux lignes se couppent l'vne l'autre, n'estant point menées par le centre, elles ne se coupperont point l'vne l'autre en deux égalemēt.

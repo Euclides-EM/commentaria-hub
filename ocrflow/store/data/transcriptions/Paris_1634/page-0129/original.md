@@ -16,6 +16,10 @@ hyp. | bc == ef,
 35.1. | ◊eghf 2|2 ◊bcfe,
 concl. 1.a.1. | ◊bcda 2|2 ◊eghf.
 
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XXXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XXXVII.]
+
 ## THEOR. XXVII. PROPOS. XXXVII.
 
 Triangula super eadem basi constituta, & in eisdem parallelis, inter se sunt æqualia.
@@ -43,6 +47,10 @@ Demonstr.
 34.1. | △bca 2|2 ½ ◊bcae,
 34.1. | △bcd 2|2 ½ ◊bdfc,
 concl. 7.a.1. | △bca 2|2 △bcd.
+
+[Curated heading level=2 type=propositions: THEOR. XXVIII. PROPOS. XXXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVIII. PROPOS. XXXVIII.]
 
 ## THEOR. XXVIII. PROPOS. XXXVIII.
 

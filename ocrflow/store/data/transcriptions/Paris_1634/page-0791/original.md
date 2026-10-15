@@ -3,6 +3,10 @@
 16. 5 | △abc π △efg / △lкc π △rqg / β | prism. кlcnmo π prism. qrgtsu / 7. 5 | prism. ibklmn π prism. pfqrst / 12. 5 | кlcnmo + ibklmn π qrgtsu + pfqrst, snt raō; 2|2 ꝗe,
 concl. 11. 5 | △abc π △efg, / кlcnmo + ibкlmn π qrgtsu + pfqrst.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. V.]
+
 ## THEOR. V. PROPOS. V.
 
 Sub eadem altitudine existentes pyramides, & triangulares habentes bases; inter se sunt vt bases.

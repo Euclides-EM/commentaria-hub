@@ -10,6 +10,10 @@ La bimediale AB ſoit √√180 +V√12, & la rationele DE 4.D’au.
 
 tant que le plus grand nom AC eſt √√IO8, ſon quarré eſt √10B, lequel eſtant appliqué ſur la rationele DE a, le coſte DI ſera √6): Ainſi Dſsi le moindre nom eſtant √√12, ſon quarré eſt√12; &t par conſequent IL, eſt √Z, & la toute DI √12. Or le rectaingle de ACB eſt 6: & partant le rectangle KG double d’iceluy eſt i2, & le coſté LG 3. Donc la toute DG ſera√1243, qui eſt binome ſecond.
 
+[Curated heading level=2 type=propositions: THEOR. 45 PROP. LXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 45 PROP. LXIII.]
+
 ## THEOR. 45 PROP. LXIII.
 
 Le quarré d’vne bimediale ſeconde, appliqué ſur vne ligne rationele, faict l’autre coſté bi nome troiſieſme.

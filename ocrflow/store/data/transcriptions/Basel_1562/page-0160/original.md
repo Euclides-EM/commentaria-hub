@@ -31,6 +31,8 @@ Gemain                       630                      nenner.
 
 Sichſtu alhie vor augen / wie ains tails die proportion ab / des andern tails auffſteiget / ꝛcͣ.
 
+[Curated heading level=2 type=propositions: IX. Die neündt propoſition]
+
 ## IX. Die neündt propoſition.
 
 Welche quantiteten gegen ainer andern ainerlay proportion haben / die ſeind gleich / här gegen ſo ain quantitet gegen ettlichen quantiteten ainerlay proportz hatt / ſo ſeind dieſelben ainander gleich.
@@ -39,6 +41,8 @@ Welche quantiteten gegen ainer andern ainerlay proportion haben / die ſeind gle
 
 Diß iſt die ſibent propoſition vmbgekert / abermals die entlichait der gleichhait der proportion anzaigend.
 
+[Curated heading level=2 type=propositions: X. Die zehend propoſition]
+
 ## X. Die zehend propoſition.
 
 So zwo quantiteten gegen ainer geſchetzt werden / iſt die ihenig die gröſſer / ſo ain gröſſer proportion macht / die aber iſt die klainer / gegen deren die quantitet / ain gröſſer proportion machet.
@@ -46,6 +50,8 @@ So zwo quantiteten gegen ainer geſchetzt werden / iſt die ihenig die gröſſe
 ### Erklärung.
 
 Diß iſt die achte propoſition vmbgewendt / darff weder ferner exempel noch bericht.
+
+[Curated heading level=2 type=propositions: XI. Die ailfft propoſition]
 
 ## XI. Die ailfft propoſition.
 

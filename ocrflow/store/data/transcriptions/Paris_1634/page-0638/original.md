@@ -8,17 +8,23 @@ Ex posita rationali, & quæ ex binis nominibus, diuisa in nomina, cuius majus no
 
 *Vne ligne rationelle estant exposee, & le binome diuisé en ses noms : duquel le plus grand nom puisse plus que le moindre, du quarré d'vne ligne droicte qui luy est commensurable en longitude.*
 
+[Curated heading level=2 type=definitions: Definitiones secundæ. I.]
+
 ### I.
 
 Si quidem maius nomen expositæ Rationali commensurabile sit longitudine, vocetur tota ex binis nominibus prima.
 
 *Si le plus grand nom est commensurable en longitude à la Rationelle exposée, la toute soit appellée binome premier.*
 
+[Curated heading level=2 type=definitions: Definitiones secundæ. II.]
+
 ### II.
 
 Si vero maius nomen expositæ Rationali longitudine sit commensurabile; vocetur ex binis nominibus secunda.
 
 *Mais si le moindre nom est commensurable en longitude à la Rationelle exposée, soit appellee binome second.*
+
+[Curated heading level=2 type=definitions: Definitiones secundæ. III.]
 
 ### III.
 
@@ -29,6 +35,8 @@ Quod si neutrum ipsorum nominum sit longitudine commensurabile expositæ Rationa
 Rursus si maius nomen plus possit quam minus, quadrato rectæ lineæ, sibi longitudine incommensurabilis.
 
 *Derechef si le grand nom peut plus que le moindre, du quarré d'vne ligne droicte, qui luy soit incommensurable en longitude.*
+
+[Curated heading level=2 type=definitions: Definitiones secundæ. IV.]
 
 ### IV.
 

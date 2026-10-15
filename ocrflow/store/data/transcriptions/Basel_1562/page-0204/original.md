@@ -11,6 +11,8 @@ Auß der vorgehnden prop. iſt gwiß / das b r l o / ain quadrat iſt / derwegen
 
 Nim baidertails hinweck / das ſtück b c p r / bleiben b r l o vnnd a d p r / ainander gleich / haben auch gleiche / nemlich gerechte winckel / ſeind demnach ire ſeitten widerſinns geproportioniert / vnd haltet ſych p r / gegen r l / wie b r / gegen r a. Nim gleich linien für gleich / als a b / für p r vnnd b r / für r l. So findt ſych die fürgenomen tailung. Dan a b haltet ſych gegen b r / wie b r gegen r a. Bei der 11 prop. des andern bůchs iſt ain andre demonſtration / hiehar zůerholen vnnötig. Magſt es auch in zalen probiern.
 
+[Curated heading level=2 type=propositions: XXXI. Die ainvnddreyſſigſt propoſ.]
+
 ## XXXI. Die ainvnddreyſſigſt propoſ.
 
 {dropcap:S|lines=2|style=plain}o auff die drei ſeitten aines winckelrechten triangels drei rechtliniſche figuren geſetzt werden / ſo alle ainander gleichförmig / alß dan wirt die figur ſo auff deren ſteht welche dem rechtenwinckel iſt vnderzogen / ſo groß ſein alß die andere baide ſambtlich.

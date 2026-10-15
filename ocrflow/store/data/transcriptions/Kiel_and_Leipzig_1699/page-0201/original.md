@@ -34,6 +34,10 @@ Müssen also 1. Im Halb-Kreyß stehende Winckel alle Rechte /
 5. Kleinerer Kreyßstücke Winckele aber sind kleiner/ als
 rechte Winckel. W.Z.B.
 
+[Curated heading level=2 type=propositions: Der XXXII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 28. Beweiß-Stück. Der XXXII. Vortrag.]
+
 ## Der XXXII. Vortrag.
 
 ## Das 18{printer-error-correction:28}. Beweiß-Stück.

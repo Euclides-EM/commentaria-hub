@@ -3,6 +3,12 @@
 
 primi. Nam angulus Z oppoſitus ipſi EGB rectus eſt, per 34 primi: Similiter quod ex AE quadratũ duplum eſt (per 47 primi) quadrati ex AG. Cùm autem angulus AEG ſit recti dimidius, ſimiliter & BEG, per ſecundam partem 32 primi, totus AEI rectus erit. Quia verò in parallelas GDEZ cadit IZ, angulus ADI interiori & oppoſito EZD recto æquus erit, per 29 primi, & itaque rectus erit ADI. Quadratis igitur ex AE & EI æquum erit quadratum ex AI, per 47 primi. Sed cùm dupla ſint ex AE & EI quadratorum ex AG & GD oſtenſa, duplum erit quod ex AI eorum quæ ex AG & GD quadratorum. Quadrato autem ex AI æqualia ſunt quæ ex AD & DI (hoc eſt DB ſibi æquali) quadrata, per eandem 47 primi. Quæ itaque ex AD tota cum appoſita & DB appoſita, ſimul ſumpta quadrata dupla ſunt eius quod ex AG dimidia, & ex GD dimidia & appoſita tanquam vna deſcriptorum quadratorum. Si igitur recta linea ſeccetur bifariam, apponatur autem ei quæpiam recta in rectum, &c.
 
+[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſecundus.]
+
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
+
+[Curated heading level=2 type=problems: Propoſitio vndecima. Problema 1.]
+
 ## Propoſitio vndecima.
 
 [Subhead]
@@ -14,6 +20,8 @@ Datam rectam lineam terminatam ita ſecare, vt quod ſub tota & altero ſegmento
 Sit data AB recta, ex qua (per 46 primi) fiat quadratum ABDG, cuius vnum latus AG bifariam ſeccetur in E, coniuncta EB, extendatur EA in Z, & ponatur æqualis ipſi EB recta EZ: ex AZ verò deſcribatur quadratum AZIT & producatur IT in K: Dico AB rectam ita ſectam eſſe vt propoſitum fuit. Cùm enim AG bifariam ſeccetur in E, ipſi autem AG quæpiã AZ in rectum apponitur, rectangulum ſub GZ, ZA comprehenſum vna cũ quadrato ex AE, æquum erit quadrato ex EZ, per 6 huius, hoc eſt quadrato ex EB ſibi æquali. Sed quadratum ex EB eis quæ ex AB AE (per 47 primi) æquum eſt. Quod itaque ſub GZ, ZA vnà cum quadrato ex AE, æquũ eſt quadrato ex AB & quadrato ex AE. Commune autem tollatur ex AE quadratum ſequetur rectangulum ZK quadrato AD æquum eſſe. A quibus rurſus commune auferatur rectangulum AK. Reliqua ſcilicet rectangulum BK ſub BD tota & TB altero ſegmento, & quadratum AZIT, quod fit ex AT reliquo ſegmento, æqualia erunt. Nam BD æqualis eſt ipſi AB toti. Datam itaque rectam ita ſecamus vt fuit poſtulatum.
 
 [Diagram: square ABDG extended downward to Z, with points E, K, T, and I and diagonal BE]
+
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
 
 ## Propoſitio duodecima.
 

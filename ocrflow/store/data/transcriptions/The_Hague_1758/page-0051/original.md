@@ -4,6 +4,10 @@
 
 [Figure: two triangles: at left, triangle ABC on base B C; at right, triangle DEF on base E F]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXV. THEOREME XVI.]
+
+[Curated heading level=2 type=theorems: THEOREME XVI. PROPOSITION XXV.]
+
 ## PROPOSITION XXV. THEOREME XVI.
 
 {dropcap:S|lines=2|style=plain}I deux triangles (BAC, EDF), ont deux côtés égaux à deux côtés chacun à chacun, mais la baſe (BC) plus grande que la baſe (EF): l'angle (BAC) oppoſé à la plus grande baſe (BC), ſera auſſi plus grand que l'angle (D) oppoſé à la plus petite baſe (EF).

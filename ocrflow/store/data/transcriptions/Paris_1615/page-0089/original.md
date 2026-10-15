@@ -6,6 +6,10 @@ ftois ſous icelles parties, & au quarré de la ligne, dont la plus grande part
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 8. PROP. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 8. PROP. VIII.]
+
 ## THEOR. 8. PROP. VIII.
 
 Si vne ligne droite eſt coupée comme on voudra; quatre fois le rectangle compris de la toute & de l’vne des parties, auec le quarré de l’autre partie, eſt egal au quarré de la toute, & d’icelle partie premierement priſe comme d’vne ſeule ligne.

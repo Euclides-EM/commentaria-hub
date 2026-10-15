@@ -3,6 +3,10 @@
 
 atque erit circulus inſcriptus in triangulo ABC. In dato igitur triangulo ABC circulus EFG inſcriptus eſt. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. V. PROB.]
+
+[Curated heading level=2 type=problems: PROP. V. PROB.]
+
 ## PROP. V. PROB.
 
 {dropcap:C|lines=2|style=plain}IRCA datum triangulum circulum circumſcribere.

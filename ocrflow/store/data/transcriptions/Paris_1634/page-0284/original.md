@@ -27,6 +27,8 @@ A, 4. B, 6. C, 8. D, 12.
 hyp. | a π b 2|2 c π d,
 3.s.17.d.5 | b~a π a 2|2 d~c π c.
 
+[Curated heading level=2 type=definitions: DEFINIT. XVI.]
+
 ## DEFINIT. XVI.
 
 Conuersio ratione, est sumptio antecedentis ad excessum, quo superat antecedeus ipsam consequentem.

@@ -30,6 +30,10 @@ Quota seu multiplicatiua pars.
 
 [Curated heading level=3 type=numbered_item: 1.]
 
+[Curated heading level=1 type=definitions: LIBER V.]
+
+[Curated heading level=2 type=definitions: Diffinitio 1.]
+
 1 Pars est magnitudo magnitudinis minor maioris, quando minor metitur maiorem.
 
 Vtpote, binis magnitudinibus datis, quarum altera bipedalis, altera verò sextupedalis existat, quoniam bipedalis ter sumpta, seu per tria multiplicata, sextupedalem metitur magnitudinē: idcirco bipedalis magnitudo, pars est ipsius sextupedalis magnitudinis, & tertia pars eiusdem sextupedalis peculiari discretione vocatur.
@@ -47,6 +51,8 @@ Multiplex.
 ¶Πολλαπλάσιον δὲ τὸ μεῖζον τοῦ ἐλάσσονος, ὅταν καταμετρῆται ὑπὸ τοῦ ἐλάσσονος.
 
 [Curated heading level=3 type=numbered_item: 2.]
+
+[Curated heading level=2 type=definitions: Diffinitio 2.]
 
 2 Multiplex autem, maior minore, quando eam metitur minor.
 

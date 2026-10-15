@@ -1,6 +1,10 @@
 <!-- Running title: LIBER QUINTUS. -->
 <!-- Page number: 169 -->
 
+[Curated heading level=2 type=propositions: PROP. F. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. F. THEOR.]
+
 ## PROP. F. THEOR.
 
 {dropcap:R|lines=2|style=plain}ATIONES ex rationibus inter ſe iiſdem compoſitae, ſunt inter ſe eaedem.
@@ -26,6 +30,10 @@ b. 23. 5.
 A ad C, ut D ad F, hoc eſt ratio A ad C, quae ſc. compoſita eſt ex rationibus A ad B, et B ad C, eadem eſt rationi D ad F, quae compoſita eſt ex rationibus D ad E, et E ad F. et ſimiliter ſi fuerint plures rationes in utroque caſu. Rationes igitur &c. Q. E. D.
 
 [Diagram: two rows labelled A, B, C and D, E, F]
+
+[Curated heading level=2 type=propositions: PROP. G. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. G. THEOR.]
 
 ## PROP. G. THEOR.
 

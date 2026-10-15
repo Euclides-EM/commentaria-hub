@@ -22,6 +22,8 @@ CAMPANVS. Sint duo triāguli a b c, d e f: sintq̃ duo latera a b & a c primi, �
 
 [Diagram: two triangles side by side, triangle a b c and triangle d e f]
 
+[Curated heading level=2 type=theorems: Theorema 16. Propositio 25.]
+
 ## Eucli. ex Zamb. Theorema 16. Propositio 25.
 
 [Curated heading level=3 type=zamberti_sequence: 25.]

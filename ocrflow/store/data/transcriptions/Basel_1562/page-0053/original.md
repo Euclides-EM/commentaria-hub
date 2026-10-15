@@ -3,6 +3,8 @@
 
 winckel ain gleichen winckel / darnach erſtreckh die ain linj ſo auff die baſim felt vnnd ſolchen winckel mit ir beſchleüßt / biß zů der oberſten parallel linj (die du nach notturfft magſt erſtreckhen) zeuch auch am andern ortt die baſim fort / biß ſy noch ſo lang wirtt / ſo haſtu zwo linien des triangels / die zeüch mitt der dritten zeſamen inn ainem triangel / der wirt dem geben parallelogram gleich ſein. Magſtu eben mit der vorgehnden demonſtration vnd exempeln beweyſen. Volgen andre exempla. Iſt im erſten fürgeben winckel / halb ſo groß als ain rechter im zweitten gleich dem / ſo von der linj 1 200 vnd der fürauß lauffenden baſi gemacht / mit o gemerckt im dritten gerecht.
 
+[Curated heading level=2 type=propositions: XLIII. Die dreyvndviertzigſt propoſ.]
+
 ## XLIII Die dreyvndviertzigſt propoſ.
 
 In yedem parallelogram / ſeind die erfüllungen (ſupplementa) ſo neben dem diametro ſtehn / ainander gleich.
@@ -14,6 +16,8 @@ So in aim parallelogram ain linj der lenge parallel gezogen wirt / vnd durch den
 [Diagram]
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: XLIIII. Die viervndviertzigſt propoſ.]
 
 ## XLIIII Die viervndviertzigſt propoſ. Lehrt /
 

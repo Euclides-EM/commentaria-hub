@@ -13,6 +13,8 @@ e Per 10. ac 7.l.12.
 
 Sunt enim e cylindrorum ac priſmatum partes tertiæ.
 
+[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO XVI. XVII.]
+
 ## PROPOSITIO XVI. XVII.
 
 {dropcap:H|lines=2|style=plain}Ae propoſitiones omnium prolixiſſimæ non alium vſum habent, quam vt demonſtretur P.18, quam nos aliâ faciliori viâ demonſtrabimus.

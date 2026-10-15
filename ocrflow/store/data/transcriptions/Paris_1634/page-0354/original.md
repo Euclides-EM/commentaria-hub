@@ -54,6 +54,10 @@ hyp. | ab π be 2|2 db π bc
 | Δdbe π Δcbe,
 2.concl. 9.5 | Δabc 2|2 Δdbe.
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XVI.]
+
 ## THEOR. XI. PROPOS. XVI.
 
 Si quatuor rectæ lineæ proportionales fuerint, quod sub extremis comprehenditur rectangulum,

@@ -3,6 +3,10 @@
 
 [Figure: triangle ABC with angle marks at A and B, dotted triangle superimposed; at right triangle DEF with base DF, angle labels m and p at D, n and q at F, and dotted lines meeting below at G]
 
+[Curated heading level=2 type=propositions: PROPOSITION V. THEOREME V.]
+
+[Curated heading level=2 type=theorems: THEOREME V. PROPOSITION V.]
+
 ## PROPOSITION V. THEOREME V.
 
 {dropcap:S|lines=2|style=plain}I deux triangles (ABC, DEF) ont les côtés proportionels, ces triangles ſeront équiangles; & les angles (A & *m*, C & *n* &c) oppoſés aux côtés homologues, (BC, EF & AB, DE &c) ſeront égaux entr'eux.

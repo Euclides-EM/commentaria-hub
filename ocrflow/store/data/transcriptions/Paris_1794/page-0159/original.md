@@ -8,11 +8,17 @@
 o
 [/Handwritten]
 
+[Curated heading level=1 type=propositions: Appendice au Livre IV]
+
 # APPENDICE AU LIVRE IV.
 
 [Ornament: tapered horizontal flourish]
 
 ## DÉFINITIONS.
+
+[Curated heading level=1 type=definitions: Appendice au Livre IV]
+
+[Curated heading level=2 type=definitions: Définition I.]
 
 [Curated heading level=3 type=numbered_item: 1.]
 
@@ -20,9 +26,17 @@ I. {dropcap:O|lines=1|style=plain}N appelle maximum la quantité la plus grande 
 
 Ainsi le diametre du cercle est un maximum entre toutes les lignes qui joignent deux points de la circonférence ; et la perpendiculaire est un minimum entre toutes les lignes menées d’un point donné à une ligne donnée.
 
+[Curated heading level=2 type=definitions: Définition II.]
+
 [Curated heading level=3 type=numbered_item: 2.]
 
 II. On appelle figures isopérimetres celles qui ont des périmetres égaux.
+
+[Curated heading level=1 type=theorems: Appendice au Livre IV]
+
+[Curated heading level=2 type=propositions: PROPOSITION I. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION I.]
 
 ## PROPOSITION I.
 

@@ -2,6 +2,10 @@
 
 <!-- Page number: 154 -->
 
+[Curated heading level=2 type=propositions: THEOR. 16. PROP. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. 16. PROP. XVI.]
+
 ## THEOR. 16. PROP. XVI.
 
 Si quatre grandeurs ſont proportiõnelles, elles le ſeront auſſi eſtans permutees.

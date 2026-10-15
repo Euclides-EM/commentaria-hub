@@ -3,6 +3,10 @@
 
 rallelogrammum CF rationem habet ex laterum rationibus compoſitam. Æquiangula igitur parallelogramma &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXIV. THEOR.]
+
 ## PROP. XXIV. THEOR.
 
 {dropcap:O|lines=2|style=plain}MNIS parallelogrammi, quæ circa diametrum ſunt parallelogramma, et toti, et inter ſe ſunt ſimilia.

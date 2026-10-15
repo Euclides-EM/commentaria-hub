@@ -1,6 +1,8 @@
 <!-- Page number: 296 -->
 <!-- Running title: Theoremata ſelecta -->
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO VIII.]
+
 ## PROPOSITIO VIII.
 
 {dropcap:S|lines=2|style=plain}Vperficies priſmatis cylindro tam circumſcripti, quam inſcripti æquatur rectangulo, cuius altitudo eſt latus cylindri, baſis vero æqualis perimetro baſis priſmaticæ.
@@ -17,6 +19,8 @@ f Patet ex.1. l.6.
 [/Margin]
 
 Eadem eſt ratio ſecundæ partis, nam latus cylindri, communis rurſum eſt altitudo rectangulorum B D I K, K I O P &c. quæ conſtituunt ſuperficiem priſmatis inſcripti.
+
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO IX.]
 
 ## PROPOSITIO IX.
 

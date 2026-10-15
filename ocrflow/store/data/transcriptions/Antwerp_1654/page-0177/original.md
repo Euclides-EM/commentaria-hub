@@ -1,6 +1,8 @@
 <!-- Page number: 144 -->
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XVIII.]
+
 ## PROPOSITIO XVIII.
 
 [Margin]

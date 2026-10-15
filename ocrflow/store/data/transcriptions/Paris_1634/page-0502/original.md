@@ -17,6 +17,10 @@ suppos. | a, n̄, msur: b,
 6.7 | a, n̄, msur: e,
 contr. hypoth.
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VIII.]
+
 ## THEOR. VI. PROPOS. VIII.
 
 Si inter duos numeros medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri: tot & inter alios eandem cum illis habentes rationem medij continua proportione cadent.

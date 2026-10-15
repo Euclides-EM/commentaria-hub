@@ -27,9 +27,13 @@ Fig.37.
 
 {dropcap:Q|lines=2|style=plain}Vod hic propoſ.34 oſtenſum eſt de parallelepipedis,demonſtrabitur in libro 12 de pyramidibus p.9. de priſmatis quibuſcunque coroll. 3. poſt.p.9.de conis & cylindris.p.15.
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXXV.]
+
 ## PROPOSITIO XXXV.
 
 {dropcap:V|lines=2|style=plain}Aldè prolixa,ſeruit ſequenti , quam ſine illa demonſtrabimus.
+
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXXVI.]
 
 ## PROPOSITIO XXXVI.
 

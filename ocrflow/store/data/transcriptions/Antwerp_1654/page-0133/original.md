@@ -3,6 +3,8 @@
 
 & S horum dimidij ſunt, erunt etiam ipſi æquales.
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXX.]
+
 ## PROPOSITIO XXX.
 
 [Curated heading level=2 type=figures: Fig. 39]
@@ -24,6 +26,8 @@ Fig. 39.
 [/Margin]
 
 Praxis. Centris A & C deſcribe pari interuallo arcus ſe ſecantes in punctis F, & I, per quæ ducta recta arcum A B C biſecabit.
+
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXXI.]
 
 ## PROPOSITIO XXXI.
 

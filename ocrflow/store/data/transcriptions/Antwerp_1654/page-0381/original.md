@@ -3,6 +3,8 @@
 
 cies eſt ad totam ſuperficiem æquilateri inſcripti, vt 16 ad 4, ſiue vt 4 ad 1. Quod erat demonſt.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XLII.]
+
 ## PROPOSITIO XLII.
 
 [Curated heading level=2 type=figures: Fig. 29]

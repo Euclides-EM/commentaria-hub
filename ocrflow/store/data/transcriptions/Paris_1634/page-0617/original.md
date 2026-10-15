@@ -41,6 +41,10 @@ ab π | af,
 √.36 π | √.20,
 ab π bf 2|2, 3 π 2.
 
+[Curated heading level=2 type=propositions: PROBL. VII. PROPOS. XXXI.]
+
+[Curated heading level=2 type=problems: PROBL. VII. PROPOS. XXXI.]
+
 ## PROBL. VII. PROPOS. XXXI.
 
 Inuenire duas rationales potentia tantùm commensurabiles, ita vt major, quàm minor, plus possit

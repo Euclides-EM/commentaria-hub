@@ -24,6 +24,8 @@ EADEM ratione, neq; ad diuerſas partes ſuper eadē recta linea duo ſegmēta c
 
 [Curated heading level=2 type=campanus: 23]
 
+[Curated heading level=2 type=theorems: THEOR. 22. PROPOS. 24.]
+
 ## THEOR. 22. PROPOS. 24.
 
 [Curated heading level=3 type=incipit: SVPER]

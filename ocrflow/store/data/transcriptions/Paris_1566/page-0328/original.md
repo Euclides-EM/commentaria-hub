@@ -5,6 +5,8 @@
 
 [Figure: two parallelepipeds, the left labelled L, T, K, B and A, the right labelled D, I, E and G]
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaoctaua.]
+
 ## Propoſitio vigeſimaoctaua.
 
 Si ſolidum parallelepipedũ plano ſecetur per diagonios eorum quæ ex oppoſito planorum, ſolidum ſecabitur ab eo plano bifariam.
@@ -12,6 +14,8 @@ Si ſolidum parallelepipedũ plano ſecetur per diagonios eorum quæ ex oppoſit
 [Figure: parallelepiped labelled G, B, E, D, T, A, Z and I, cut by a diagonal plane]
 
 *Secetur ſolidum parallelepipedum A B per planum G D I Z, conſtitutum in dimetientibus G Z & D I planorum B E & T A oppoſitorum: Dico ſolidum A B per planum G D I Z bifariam ſecari. Cùm enim parallelogramma ſint B E T A quæ ex oppoſito (per 24 huius) ſimilia & æqualia. Dimetientes G Z & D I bifariam ipſa ſecant, per 34 primi: & proinde totum A B ſolidum in bina ſecatur Priſmata, ſcilicet G B Z I T D & G E Z I A D, per vndecimã diffinitionem huius. Quæ Priſmata ſimilibus parallelogrammis & æqualibus conſtant, per 24 huius, cùm bina ſint binis oppoſita, reliquum verò commune ſecans, trianguliſque ſimilibus & æquis, nempe dimidiis ſimilium & æquarum baſium oppoſitarum, per 20 ſexti. Ipſa itaque bina Priſmata ſunt (per 8 diffinitionẽ huius) ſimilia & æqualia. Et proinde totum A B ſolidum per planum G D I Z (bina illa diſcernens Priſmata) bifariam ſectum eſt. Si itaque ſolidum parallelepipedum plano ſecetur per diagonios, &c.*
+
+[Curated heading level=2 type=propositions: Propoſitio vigeſimanona.]
 
 ## Propoſitio vigeſimanona.
 

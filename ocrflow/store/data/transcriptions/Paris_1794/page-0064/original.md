@@ -15,6 +15,10 @@ Car s’il y avoit une seconde circonférence qui passât par les trois points d
 
 *Corollaire.* Deux circonférences ne peuvent se rencontrer en plus de deux points ; car si elles avoient trois points communs, elles auroient le même centre et ne feroient qu’une seule et même circonférence.
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VIII.]
+
 ## PROPOSITION VIII.
 
 ### THÉORÊME.

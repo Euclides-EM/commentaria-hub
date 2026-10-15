@@ -3,6 +3,10 @@
 
 FH reliquo HD eſt aequale. et eſt HD quidem rectangulum ab AB, BH, eſt enim AB aequalis ipſi BD; FH vero eſt quadratum ex AH. rectangulum igitur contentum ab AB, BH quadrato ex AH aequale erit. quare data recta linea AB ſecta eſt in H, ita ut contentum ab AB, BH rectangulum quadrato ex AH ſit aequale. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XII. THEOR.]
+
 ## PROP. XII. THEOR.
 
 [Subhead]

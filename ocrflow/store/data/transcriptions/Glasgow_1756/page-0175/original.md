@@ -11,6 +11,10 @@ ut AB ad BE, ita eſt CD ad DF. Quare ſi diviſae &c. Q. E. D.
 
 [Diagram: four vertical lines labelled O, H, K, G; B, E, A; D, F, C; and P, M, N, L]
 
+[Curated heading level=2 type=propositions: PROP. XIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIX. THEOR.]
+
 ## PROP. XIX. THEOR.
 
 {dropcap:S|lines=2|style=plain}I fuerit ut tota ad totam, ita ablata ad ablatam; et reliqua ad reliquam erit ut tota ad totam.

@@ -8,7 +8,11 @@
 
 QVARTI LIBRI FINIS.
 
+[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER QVINTVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
+
+[Curated heading level=2 type=definitions: Euclides ex Campano. Diffinitiones.]
 
 ## Euclides ex Campano. Diffinitiones.
 

@@ -24,6 +24,10 @@ Dw. EG ⌻ AC n. 1. Gr:S.
 
 Worauß nun erhellet/ daß alle auff gleichgrossen Grundstrichen/und zwischen einerley Nebenstrichen stehende □ □ gleichgroß seyen. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXXVII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 27. Beweiß-Stück. Der XXXVII. Vortrag.]
+
 ## Der XXXVII. Vortrag.
 
 ## Das 27 Beweiß-Stück.

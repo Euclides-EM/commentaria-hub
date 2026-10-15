@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, a triangle DFE at left and a circle with points B, H, C, A inscribed with triangle ABC; a horizontal line through D, E, M, A, N]
 
+[Curated heading level=2 type=propositions: PROPOSITION II. PROBLEME II.]
+
+[Curated heading level=2 type=problems: PROBLEME II. PROPOSITION II.]
+
 ## PROPOSITION II. *PROBLEME II.*
 
 {dropcap:I|lines=2|style=plain}Nſcrire dans un cercle donné (ABHC); un triangle (ABC) équiangle à un triangle donné (DFE).

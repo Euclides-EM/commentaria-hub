@@ -1,6 +1,10 @@
 <!-- Page number: 32 -->
 <!-- Running title: ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: THEOREMA 21, PROPOSITIO XXX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 21, PROPOSITIO XXX.]
+
 ## THEOREMA 21, PROPOSITIO XXX.
 
 Quæ eidem ſunt æquidiſtantes, eæ quoque inter ſe ſunt æquidiſtantes.
@@ -16,6 +20,10 @@ P O T E R A T euidentiſſimè demonſtrari ex Recto. Scilicet in A B rectam dim
 [Diagram: three horizontal lines A B, E F and C D crossed by a vertical line G L at points H, K and L]
 
 Iam quum G L ſit linea vna, comparatis viciſſim duobus A B & C D cum E F, adductaq́; in probationem vigeſimaſeptima, ſeu vigeſimaoctaua: ſatis conſtat, per definitionem perpendicularis & per decimamquintam Propoſitionem, omnes angulos qui ad H, K, L, eſſe rectos: ac proptereà æquales. Quare per antecedentem, duæ A B & C D paralleli, Quod erat demonſtrandum.
+
+[Curated heading level=2 type=propositions: PROBLEMA 10, PROPOSITIO XXXI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 10, PROPOSITIO XXXI.]
 
 ## PROBLEMA 10, PROPOSITIO XXXI.
 

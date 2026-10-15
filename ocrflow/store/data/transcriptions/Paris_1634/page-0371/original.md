@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
+[Curated heading level=2 type=propositions: PROBL. VII. PROPOS. XXV.]
+
+[Curated heading level=2 type=problems: PROBL. VII. PROPOS. XXV.]
+
 ## PROBL. VII. PROPOS. XXV.
 
 Dato rectilineo simile similiterque positum, & alteri dato æquale idem constituere.

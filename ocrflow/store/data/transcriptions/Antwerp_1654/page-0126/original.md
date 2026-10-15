@@ -7,6 +7,8 @@ non propriè, ſed analogicè accipiantur, iam nihil continent, quod à communi 
 Fig. 22.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XVII.]
+
 ## PROPOSITIO XVII.
 
 [Curated heading level=2 type=figures: Fig. 26]

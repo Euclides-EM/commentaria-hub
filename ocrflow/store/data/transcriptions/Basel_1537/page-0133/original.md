@@ -8,6 +8,8 @@ portio, non autem econuerso. Sit igitur a ad b, & c ad d, & e ad f, una proporti
 
 Hæ sequentes duæ propositiones 12 scilicet & 13 ex Zamberto, duabus præcedentibus ex Campano. præpostero ordine respondent 12 unius 13 alterius.
 
+[Curated heading level=2 type=theorems: Theorema 12 Propositio 12]
+
 ## Eucli. ex Zamb. Theorema 12 Propositio 12
 
 [Curated heading level=3 type=zamberti_sequence: 12.]
@@ -21,6 +23,8 @@ Si fuerint quælibet magnitudines proportionem habentes, erit sicut una antecede
 THEON ex Zamb. Sint quotcunque magnitudines proportionem habentes α β γ δ ε ζ, sicut α, ad β, sic γ, ad δ, & ε, ad ζ. Dico quod est sicut α, ad β, sic est α γ ε, ad β δ ζ. Sumantur enim æque multiplices ipsarum α γ ε, & ipsarum β δ ζ, aliæ quæuis æque multiplicas, sintq̃ λ μ ν. Et quoniam est sicut α, ad β, sic γ, ad δ, & ε, ad ζ, sumptæ sunt, ipsarum α γ ε, æque multiplices η θ κ, ipsarū β δ ζ, aliæ quæuis æque multiplices hoc est λ μ ν, si igitur excedit η, ipsum λ, excedit & θ, ipsum μ, & κ, ipsum ν, & si æqua le, æquale: & si minus, minus: (per cōuersionē 6 diffinitionis quinti.) Quare & si excedit η, ipsum λ, excedunt & η θ κ, ipsas λ μ ν, & si æqualia, æquales: & si minor, minores, (per eādem. Et est η, quidem, & η θ κ, ipsius α, & ipsarum α γ ε, æque multiplices. Quoniam (per primam quinti,) si fuerint quælibet magnitudines quarumlibet magnitudinum æqualium numero, singulæ singularū æque multiplices, quàm multiplex est una magnitudinum, tam multiplices erunt, & omnes omnium. Ac per hoc, etiam λ, & λ μ ν, ipsius β, & ipsarum β δ ζ, æque sunt multiplices. est igitur sicut α, ad β, sic α γ ε, ad β δ ζ, (per 6 diffinitionem quinti.) Si fuerint igitur quotcunque magnitudines proportionem habētes, erit sicut una antecedentium ad unam consequentium, sic omnes antecedentes ad omnes consequentes, quod demonstrandum fuerat.
 
 [Diagram: group of tall vertical line segments of graduated heights with division marks, letters η θ α γ ε λ β δ ζ μ ν beneath, in the right margin]
+
+[Curated heading level=2 type=theorems: Theorema 13 Propositio 13]
 
 ## Eucli. ex Zamb. Theorema 13 Propositio 13
 

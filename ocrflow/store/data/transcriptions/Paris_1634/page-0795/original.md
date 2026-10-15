@@ -18,6 +18,10 @@ Rursus contrà fit, pyramides multangulas æquales, & super æquales bases, vel 
 
 *Derechef il s'ensuit au contraire que les pyramides multilateres egales, & constituees sur bases egales, ou vne mesme, ont mesme hauteur: Et que les pyramides multilateres egales ayant mesme hauteur, ont les bases egales, si elles n'ont la mesme.*
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. VII.]
+
 ## THEOR. VII. PROPOS. VII.
 
 Omne prisma triangularem habens basim, di-

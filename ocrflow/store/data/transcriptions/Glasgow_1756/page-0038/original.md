@@ -15,6 +15,10 @@ c. 5. 1.
 
 major igitur eſt ABD angulus angulo ACB; quare ABC ipſo ACB multo major erit. Omnis igitur trianguli &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIX. THEOR.]
+
 ## PROP. XIX. THEOR.
 
 [Subhead]
@@ -38,6 +42,10 @@ b. 18. 1.
 [/Margin]
 
 atqui non eſt; non igitur AC latus minus eſt ipſo AB. oſtenſum autem eſt neque aequale eſſe; eſt igitur AC ipſo AB majus. Omnis igitur trianguli &c. Q. E. D.
+
+[Curated heading level=2 type=propositions: PROP. XX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XX. THEOR.]
 
 ## PROP. XX. THEOR.
 

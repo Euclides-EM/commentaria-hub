@@ -2,7 +2,7 @@
 
 gulum ſolido conficiendo indecẽtem eſſe patet. Cùm enim ſex eius anguli octo rectis (per corollarium trigeſimæſecundæ primi) æquipolleant, ſequetur tres quatuor rectis æquales eſſe, & proinde tres exagoni angulos, ſolidum non componere per 21 vndecimi, duo verò nullum, quatuor autem aut plures, cùm ſint obtuſi, quatuor rectis maiores erunt, & ideo ſolidum angulum non component, nec proinde Eptagoni vel aliorum poligonorum aliqui anguli, ſolidum angulum component. Duo etenim eorum ſolidi componendi ſunt incapaces, tres verò quatuor rectos excedunt, cùm tres eorum exagoni excedant tres angulos quatuor rectis æquales. Nullius itaque poligoni æquilateri & æquiãguli anguli, ſolidum angulum præter harum quinque figurarum angulso{printer-error-correction:angulos}, quemquam conſtituent. Nec proinde figuram ſolidam (quæ abſque angulis planis ſolidos angulos componentibus conſtitui non poteſt) aliam præter has quinque præfatas, ſub planis æqualibus, æquilateris, & æquiangulis comprehendere licebit.
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 Vt autem ea quinque regularia ſolida, ſimiles ſingulas ſuarum baſium inclinationes habere doceamus, Pyramidem priorem ſumemus, cuius vnum latus bifariam ſecetur, & à binis ipſi lateri oppoſitis angulis perpendiculares mittantur, ipſæ in ſectionem cadent, per corollarium duodecimæ decimitertij, ipſæ itaque angulum inclinationis planorum comprehendent, per quartam diffinitionẽ vndecimi, ſubtenſum à pyramidis oppoſito latere, cùm igitur reliqui pyramidis anguli inclinationis planorum, ſub binis triangulorum perpendicularibus comprehendantur, & pyramidis latere ſubtendantur, ipſi ex octaua primi erunt æquales. Pyramidis igitur plana ad ſe ſimiliter inclinari dicẽtur, per quintam diffinitionem vndecimi.
 
@@ -14,7 +14,7 @@ Icoſahedri verò ab angulis duarum baſium, in commune earum latus perpendicula
 
 Dodecahedri demum à binis proximorum pẽtagonorum oppoſitis angulis, in commune latus perpendiculares, per centra demittantur, ipſæ in bifariam lateris ſectionem cadent, per tertiam tertij, nam circulo continentur dodecahedri baſes, & earum baſium inclinationem denotabit ab ipſis perpendicularibus comprehenſus angulus, per quartam diffinitionem vndecimi, oppoſitos autem præfatos angulos copulat recta æqualis rectæ oppoſitas dodecahedri bifarias ſectiones laterum coniungenti, per trigeſimamtertiam primi. Nam ipſæ coniungunt dimidia dodecahedri latera, parallela & æqualia per corollarium tertium decimæſeptimæ decimitertij, quæquidem coniungentes ſunt æquales, per idem corollarium, anguli igitur æquis perpendicularibus comprehenſi, & æquis coniungentibus ſubtenſi (per octauam primi) æquales erunt, fuerúntque inclinationũ anguli. Dodecahedri itaque baſes ad ſe inuicem ſimiliter inclinari dicentur, per quintam diffinitionem vndecimi.
 
-## MONITVM.
+### MONITVM.
 
 Cogimur quinque regularium ſolidorum 13 & quatuor eam ſequentibus deſcriptorum demonſtrationes variare. Diffiniens enim Theon libro vndecimo ſphærã, deſcriptionẽ potius quàm ſphæræ
 

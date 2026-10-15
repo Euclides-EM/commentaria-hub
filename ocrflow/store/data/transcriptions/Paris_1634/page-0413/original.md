@@ -4,6 +4,10 @@
 17. & 18.5 | ch π hf 2|2 gb π be,
 concl. 16.5 | ch π gb 2|2 hf π be,
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XXVI.]
+
 ## THEOR. XV. PROPOS. XXVI.
 
 Snelius in Cyclometria.

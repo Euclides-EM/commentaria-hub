@@ -10,6 +10,8 @@ gnitudinibus datis h/l/ & k/m, æquales auferantur l/ & m, quæ relinquentur h/ 
 
 [Curated heading level=3 type=numbered_item: 6.]
 
+[Curated heading level=2 type=axioms: Communis ſententia 6.]
+
 Quæ eiuſdem duplicia ſunt, adinuicem ſunt æqualia. 6
 
 [Margin]
@@ -25,6 +27,8 @@ Hoc eſt, quę eiuſdem ſunt æquè multiplicia, vel æquè ſuperparticularia,
 Καὶ τὰ τῦ αὐτῦ ἥμισυ, ἴσα ἀλλήλοις ἐστί.
 
 [Curated heading level=3 type=numbered_item: 7.]
+
+[Curated heading level=2 type=axioms: Communis ſententia 7.]
 
 Et quæ eiuſdem ſunt dimidium, æqualia ſunt adinuicem. 7
 
@@ -42,6 +46,8 @@ quæcũq̃ eiuſdẽ ſunt ęquè ſubmultiplicia, aut ſubſuperparticularia, v
 
 [Curated heading level=3 type=numbered_item: 8.]
 
+[Curated heading level=2 type=axioms: Communis ſententia 8.]
+
 Et quæ ſibimet ipſis conueniunt, æqualia ſunt adinuicem. 8
 
 Vtpote, ſi duę rectę lineę in limitib⁹, duæve ſuperficies in terminis, ſeu laterib⁹ & angulis, & quę ſunt ſimilia ſimilibus ex õni parte cõueniãt: ea oportet adinuicẽ ęquari, & ecõtrario.
@@ -50,6 +56,8 @@ Vtpote, ſi duę rectę lineę in limitib⁹, duæve ſuperficies in terminis, �
 
 [Curated heading level=3 type=numbered_item: 9.]
 
+[Curated heading level=2 type=axioms: Communis ſententia 9.]
+
 Totum eſt ſua parte maius. 9
 
 Adde quòd & æquale ſuis partibus integralibus, id eſt quæ ſimul ſumptæ ipſum totum videntur integrare.
@@ -57,6 +65,8 @@ Adde quòd & æquale ſuis partibus integralibus, id eſt quæ ſimul ſumptæ i
 Καὶ δύο ευθεῖαι χωρίον ὀυ περιέχουσι.
 
 [Curated heading level=3 type=numbered_item: 10.]
+
+[Curated heading level=2 type=axioms: Communis ſententia 10.]
 
 Duæ rectæ lineæ ſuperficiem non concludunt. 10
 

@@ -16,6 +16,8 @@ SI linea rationali residuoq̃ tertio superficies contineatur, erit linea super e
 
 CAMPANVS Priori demonstrationi insiste. & facile concludes propositū ex diffinitione residui tertij & secunda parte 15 & 9 & 19 & 70.
 
+[Curated heading level=2 type=theorems: Theorema 69 Propositio 93]
+
 ## Eucli.ex Zamb. Theorema 69 Propositio 93
 
 [Curated heading level=3 type=zamberti_sequence: 93.]

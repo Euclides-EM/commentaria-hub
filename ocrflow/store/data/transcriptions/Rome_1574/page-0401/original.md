@@ -1,5 +1,7 @@
 <!-- Running title: EVCLID. GEOM. -->
 
+[Curated heading level=2 type=definitions: X.]
+
 ### X.
 
 [Curated heading level=4 type=incipit: CVM]

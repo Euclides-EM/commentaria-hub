@@ -14,6 +14,10 @@ La rationele AB ſoit 6: AF ſera √20: & partant BF ſera 4.
 
 commenſ. en longitude à AB. La conſtruction & demonſtration tant de ceſte prop. que de plufieurs autres de ce liure, ſont tellement deffectueuſes en l’edition de Dounot, que ceux qui la verront pourront eux-meſmes (ayans bien entendu ce que nous auons dict iuſques icy) recognoiſtre facilement les deffauts d’icelle: c’eſt pourquoy nous ne nous arreſterons à les remarquer.
 
+[Curated heading level=2 type=propositions: PROBL. 7. PROP. XXXI.]
+
+[Curated heading level=2 type=problems: PROBL. 7. PROP. XXXI.]
+
 ## PROBL. 7. PROP. XXXI.
 
 Trouuer deux lignes rationeles commen-

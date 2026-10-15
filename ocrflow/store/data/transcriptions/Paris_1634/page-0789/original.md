@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. IV.]
+
 ## THEOR. IV. PROPOS. IV.
 
 Si fuerint duæ pyramides eiusdem altitudinis, triangulares habentes bases; sit autem illarum vtraque diuisa & in duas pyramides æquales inter se, & similes toti, & in duo prismata æqualia; ac eodem modo diuisa sit vtraque pyramidum, quæ ex superiore diuisione natæ sunt, idque semper fiat; erit vt vnius pyramidis basis ad alterius pyramidis basin, ita & omnia, quæ in vna pyramide, prismata ad omnia quæ in altera pyramide, prismata multitudine æqualia.

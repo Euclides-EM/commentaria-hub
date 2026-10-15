@@ -3,6 +3,8 @@
 
 amplius innoteſcet, tredecim ſequentibus propoſitionibus comprehenſa, ſubiungam.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXIII.]
+
 ## PROPOSITIO XXXIII.
 
 [Curated heading level=2 type=figures: Fig. 26]
@@ -22,6 +24,8 @@ c Per 24. huius.
 d Per hyp.
 e Per corol. p.12. huius.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXIV.]
 
 ## PROPOSITIO XXXIV.
 

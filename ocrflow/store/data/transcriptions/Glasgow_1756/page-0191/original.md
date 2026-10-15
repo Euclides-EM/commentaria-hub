@@ -27,6 +27,10 @@ f. 39. 1.
 
 ergo DE ipſi BC parallela eſt. Si igitur uni &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. III. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. III. THEOR.]
+
 ## PROP. III. THEOR.
 
 {dropcap:S|lines=2|style=plain}I trianguli angulus bifariam ſecetur, ſecans autem angulum recta linea ſecet etiam baſim; baſis ſegmenta eandem rationem habebunt, quam reliqua trianguli latera. et ſi baſis ſegmenta eandem rationem habeant, quam reliqua trianguli latera; quae a vertice ad ſectionem ducitur recta linea, trianguli angulum bifariam ſecabit.

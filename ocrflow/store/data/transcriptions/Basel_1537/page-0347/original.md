@@ -8,6 +8,8 @@ CAMPANVS Hæc quoq́; sicut præmissa probatur. Erit enim tota a b medialis, b a
 
 [Diagram: rectangle with g at top right corner, divided horizontally; f at the left and e at the right of the lower band; corners c (bottom left) and d (bottom right)]
 
+[Curated heading level=2 type=theorems: Theorema 85 Propositio 109]
+
 ## Eucli.ex Zamb. Theorema 85 Propositio 109
 
 [Curated heading level=3 type=zamberti_sequence: 109.]
@@ -37,6 +39,8 @@ CAMPANVS. Si a duarum præmissarum demonstratione non deuias, cōcludes sine dif
 [Diagram: rectangle divided horizontally into two cells, labelled b (upper) and a (lower)]
 
 [Diagram: rectangle with g at top right corner, divided horizontally; f at the left and e at the right of the lower band; corners c (bottom left) and d (bottom right)]
+
+[Curated heading level=2 type=theorems: Theorema 86 Propositio 110]
 
 ## Eucli.ex Zamb. Theorema 86 Propositio 110
 

@@ -15,6 +15,10 @@ hyp. | ac, est √.48 + 6,
 lt, est √√.675 + √√.75
 6.d.48.10 | lt, u op, est binom. 6.
 
+[Curated heading level=2 type=propositions: THEOR. XXXIX. PROPOS. LVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIX. PROPOS. LVII.]
+
 ## THEOR. XXXIX. PROPOS. LVII.
 
 Si spatium contineatur sub rationali, & ex binis nominibus tertia; recta linea spatium potens irrationalis est, quæ ex binis mediis secunda dicitur.

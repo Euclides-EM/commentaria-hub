@@ -8,6 +8,10 @@ les, comme DB eſt à BC, ainſi AB à BE. Mais comme DB à BC, ainſi AD à
 
 Scient les madiales AB & BC, √√8, & √√2: (deſquelles les poiſſances ſont commenſurables, car elles ſont en raiſon double.) Le rectangle d’icelles AC (era √√16, c’eſt A dire 2, qui eſt rationel. Mais ſi AE eſt √√12,& BC√√3, (diſouelles les poiſſances ſont comm. eſtaut en raiſon double.) Le rectangle AC ſera√√36, c’eſt à dire √6, qui eſt or medial.
 
+[Curated heading level=2 type=propositions: THEOR. 24. PROP. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. 24. PROP. XXVII.]
+
 ## THEOR. 24. PROP. XXVII.
 
 Vne figure mediale, n’eſt pas plus grande qu’vne figure mediale, d’vne figure rationele.

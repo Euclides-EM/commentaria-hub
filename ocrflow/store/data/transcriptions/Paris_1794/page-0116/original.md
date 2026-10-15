@@ -3,6 +3,10 @@
 
 trois figures sont proportionnelles aux quarrés de leurs côtés homologues ; or le quarré de l’hypoténuse est égal à la somme des quarrés des deux autres côtés ; donc, etc.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXVIII.]
+
 ## PROPOSITION XXVIII.
 
 ### THÉORÊME.
@@ -26,6 +30,10 @@ AO : DO :: CO : OB.
 [Curated heading level=4: Corollaire.]
 
 *Corollaire.* Donc AO×OB=DO×CO ; donc le rectangle des deux parties de l’une des cordes est égal au rectangle des deux parties de l’autre.
+
+[Curated heading level=2 type=propositions: PROPOSITION XXIX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIX.]
 
 ## PROPOSITION XXIX.
 

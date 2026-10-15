@@ -2,6 +2,10 @@
 
 beiden Dreiecke ABD und ACD congruent, (9 Satz,) daher iſt der W. y= dem W. x, alſo y+z=x+z, (2 Grundſ.) Nun iſt x+z=BDC= einem rechten Winkel, daher iſt auch y+z einem rechten Winkel gleich, (1 Grundſ.) und da ABD auch ein rechter Winkel iſt, (nach der Bedingung,) ſo iſt ABD+y+z=2R, (2 Grundſ.) das heißt: die Summe der drei Winkel des bei B rechtwinklichen Dreiecks DBA iſt zweien rechten Winkeln gleich.
 
+[Curated heading level=2 type=propositions: Vier und dreißigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: Vier und dreißigſter Satz. Lehrſatz.]
+
 ## Vier und dreißigſter Satz. Lehrſatz.
 
 (Fig. 15.)

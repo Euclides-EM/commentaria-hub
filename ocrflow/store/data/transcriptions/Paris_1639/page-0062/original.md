@@ -46,6 +46,10 @@ c *eſt* • D.
 
 [Figure]
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. XIII.]
+
 ## THEOR. VI. PROPOS. XIII.
 
 Quand vne ligne droicte tombant sur vne li-

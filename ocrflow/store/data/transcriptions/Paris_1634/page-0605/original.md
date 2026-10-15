@@ -26,6 +26,10 @@ s.12.10 | □.bc, comm. □.ef,
 cd π | bc,
 2 concl. 10.10 | cd, incomm. bc.
 
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXIV.]
+
 ## THEOR. XXI. PROPOS. XXIV.
 
 Mediæ commensurabilis, media est.

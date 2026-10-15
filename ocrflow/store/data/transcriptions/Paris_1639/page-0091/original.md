@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. I. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXVI. PROPOS. XXXVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVI. PROPOS. XXXVI.]
+
 ## THEOR. XXVI. PROPOS. XXXVI.
 
 Les parallelogrammes constituez sur bases égales, & entre mesmes paralleles, sont égaux entr'eux.
@@ -30,6 +34,10 @@ hyp. | bc == ef,
 35.1 | ◊bcda 2|2 ◊bcfe,
 35.1 | ◊eghf 2|2 ◊bcfe,
 concl. 1.a.1 | ◊bcda 2|2 ◊eghf.
+
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XXXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XXXVII.]
 
 ## THEOR. XXVII. PROPOS. XXXVII.
 

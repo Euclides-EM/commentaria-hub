@@ -5,21 +5,33 @@ tem, in primis, ſecunda ad tertiam, ita, in ſecundis antepenultima ad penultim
 
 ## AXIOMATA.
 
+[Curated heading level=2 type=axioms: AXIOMA I.]
+
 ### I.
 
 {dropcap:E|lines=2|style=plain}JUSDEM ſive aequalium aeque multiplices, inter ſe aequales ſunt.
+
+[Curated heading level=2 type=axioms: AXIOMA II.]
 
 ### II.
 
 Quarum eadem aeque multiplex eſt, vel quarum aequales ſunt aeque multiplices, et ipſae inter ſe ſunt aequales.
 
+[Curated heading level=2 type=axioms: AXIOMA III.]
+
 ### III.
 
 Multiplex majoris major eſt aeque multiplici minoris.
 
+[Curated heading level=2 type=axioms: AXIOMA IV.]
+
 ### IV.
 
 Magnitudo cujus multiplex major eſt aeque multiplici alterius, major eſt altera illa magnitudine.
+
+[Curated heading level=2 type=propositions: PROP. I. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. I. THEOR.]
 
 ## PROP. I. THEOR.
 

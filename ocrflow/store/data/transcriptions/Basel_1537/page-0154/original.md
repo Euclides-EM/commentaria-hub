@@ -16,6 +16,8 @@ CAMPANVS. Maneat prior dispositio, & sit solū angulus b, æqualis angulo d e f,
 
 [Diagram: triangle a b c with apex a and base b c; beside it triangle d e f with apex d, and point g below so that triangles d e f and g e f share side e f, forming a rhombus-like figure]
 
+[Curated heading level=2 type=theorems: Theorema 6. Propositio 6.]
+
 ## Eucli. ex Zamb. Theorema 6. Propositio 6.
 
 [Curated heading level=3 type=zamberti_sequence: 6.]

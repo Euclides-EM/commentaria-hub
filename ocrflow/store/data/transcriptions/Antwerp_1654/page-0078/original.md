@@ -17,6 +17,8 @@ c Per axio. 6.
 
 Hæc propoſitio fiet vniuerſalis p.1.l.6. Idem hic tyrones notent in triangulis, quod eos notare iuſſimus prop.præced.de parallelogrammis.
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXXIX. & XL.]
+
 ## PROPOSITIO XXXIX. & XL.
 
 [Curated heading level=2 type=figures: Fig. 64]
@@ -32,6 +34,8 @@ Si negas, ſit CL parallela ad AB, & ducatur BL. Igitur ALB æquatur a ACB. Sed 
 [Margin]
 a Per præc.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XLI.]
 
 ## PROPOSITIO XLI.
 

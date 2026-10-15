@@ -4,6 +4,10 @@
 
 Donc A eſt meſure partie de C, que B de D: & partant A meſure C, autant de fois que B meſure D: ce qu’il falloit demonſtrer.
 
+[Curated heading level=2 type=propositions: THEO. 20. PROP. XXII.]
+
+[Curated heading level=2 type=theorems: THEO. 20. PROP. XXII.]
+
 ## THEO. 20. PROP. XXII.
 
 S il y a trois nombres d’vn coſté, & autant d’vn autre, leſquels pris de deux en deux ſoiẽt en meſme raiſon, la proportion eſtant troublee; en raiſon egale; ils ſeront proportionaux.

@@ -7,6 +7,8 @@
 
 Demonſtratio patet ex primo corol. p.5. huius; rectangulum enim ſub diametro ſphæræ, & maximi circuli circumferentiâ, per dictum corol. eſt quadruplum maximi circuli.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXV.]
+
 ## PROPOSITIO XXV.
 
 [Margin]

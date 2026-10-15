@@ -10,6 +10,10 @@ Il s’enſuit de ce que deſſus que le quarré du diametre d’vn cerdli eſt
 
 Et pource que le corol. de la 8.p.6. comme AE eſt à AB, ainſi AB à AF perpendiculaire tombant d’an angle ſur vn coſté; pareillement Ie quarré de AB, ſera au quarrè de AF, comme 4.à 3.On peut auße ſacilement colliger que le ſemi diametre DE eſt couppe en deux esalement en F par le coſté du triangle BC. Car puis que le qu irré de A B eſt triple du quarrè de BE; ſi on poſe iceluy quarre de AB eſtre 12. le quarré de BE ſera 4, & le quarré de BF3; & par conſequent le quarre de EF ſera 1. par la 47.p.1. Partant le quarré de BE, c’eſt a dire de DE ſon egale, ſera quadruple du quarré de FE. Parquey par le ſcholie de la 2 p.2. la ligne DE ſera double de FE; & par cõſequent DE eſt couppee en deux egalement en F.
 
+[Curated heading level=2 type=propositions: PROB. 1. PROP. XIII.]
+
+[Curated heading level=2 type=problems: PROB. 1. PROP. XIII.]
+
 ## PROB. 1. PROP. XIII.
 
 Dans vne ſphere donnee, inſcrire vne pyramide equilaterale: & monſtrer que le quarré du diametre d icelle ſphere, eſt en raiſon ſeſquialtere au quarré du coſté d’icelle pyramide.

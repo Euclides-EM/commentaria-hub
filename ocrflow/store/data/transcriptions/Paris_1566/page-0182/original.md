@@ -3,6 +3,8 @@
 
 fieri non poteſt. Minimus igitur ipſos A B G metiens erit E. Simili progreſſu in quotcunque propoſitis numeris fiet demonſtratio. Nam ſi tribus A B & G quartus aliquis poneretur, ſiquidem is quartus datum E metiatur, is erit minimus quem ipſi quatuor propoſiti metientur. Si verò non metiatur E, inueniendus eſt, ex 37 huius, minimus quem E & quartus metiuntur. Is denique erit optatus, haud ſecus ſi quinque ſex, vel quotlibet propoſiti fuerint. Pluribus itaque numeris datis, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimanona.]
+
 ## Propoſitio trigeſimanona.
 
 Si numerum aliquis numerus metiatur, menſus cognominatam partem habebit à metiente.
@@ -11,6 +13,8 @@ Metiatur numerum A aliquis numerus B: Dico A habere partem denominatam ab ipſo 
 
 [Diagram: horizontal lines labelled A, B, G and D, with numbers 12, 4, 3 and 1]
 
+[Curated heading level=2 type=propositions: Propoſitio quadrageſima.]
+
 ## Propoſitio quadrageſima.
 
 Si numerus partem habuerit quamlibet, numerus cognominans partem eum metietur.
@@ -18,6 +22,10 @@ Si numerus partem habuerit quamlibet, numerus cognominans partem eum metietur.
 Sit pars numeri A numerus B, eam verò partem cognominans, ſit numerus G: Dico G metiri A. Eſto D vnitas: Quoniam G denominat ipſius A partem B. Idem B metitur A per vnitates numeri G, per 23 diffinitionem. Sed per eaſdem vnitas reſtituit eundem G, vicißim igitur, per 15 huius, ſicut vnitas metitur B tertium, ſic G metitur A quartum. Quia verò vnitas ipſum B metitur, & G ipſum A metietur. Si itaque numerus partem habuerit, &c.
 
 [Diagram: horizontal lines labelled A, B, G and D, with numbers 12, 4, 3 and 1]
+
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaprima.]
+
+[Curated heading level=2 type=problems: Propoſitio quadrageſimaprima. Problema 6.]
 
 ## Propoſitio quadrageſimaprima. Problema 6.
 

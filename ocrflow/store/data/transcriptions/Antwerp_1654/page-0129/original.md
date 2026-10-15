@@ -3,6 +3,8 @@
 
 B A C, B F C ſunt extra inuicem. Ducatur F A L per caſum 1. totus L A C duplus eſt totius L F C, & ablatus L A B duplus eſt ablati L F B. Ergo & reliquus B A C duplus eſt reliqui B F C. Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXI.]
+
 ## PROPOSITIO XXI.
 
 [Margin]

@@ -32,6 +32,10 @@ ac | ac
 aa — ac | dc — ac | n. 3. Gr. I.
 oder ae | cc | W. Z M.
 
+[Curated heading level=2 type=propositions: Der XII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 11. Beweiß-Stück. Der XII. Vortrag.]
+
 ## Der XII. Vortrag.
 
 ## Das 11. Beweiß-Stück.

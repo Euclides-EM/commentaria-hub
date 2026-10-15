@@ -16,6 +16,8 @@ CAMP. Sit em̃ a c residuū mediale scd̕m, quæ fuit residua, ascisa b c ex a b
 
 [Diagram: line a c d b above; at right a tall rectangle with h at top right, a division marked k on the right side, a lower division marked l on the left and g on the right, corners e (bottom left) and f (bottom right)]
 
+[Curated heading level=2 type=theorems: Theorema 63 Propositio 81]
+
 ## Eucli. ex Zamb. Theorema 62{printer-error-correction:63} Propositio 81
 
 [Curated heading level=3 type=zamberti_sequence: 81.]

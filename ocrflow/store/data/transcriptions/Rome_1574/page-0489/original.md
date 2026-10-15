@@ -6,6 +6,8 @@
 
 [Curated heading level=2 type=campanus: 14]
 
+[Curated heading level=2 type=theorems: THEOR. 10. PROPOS. 15.]
+
 ## THEOR. 10. PROPOS. 15.
 
 [Curated heading level=3 type=incipit: AEQVALIVM]

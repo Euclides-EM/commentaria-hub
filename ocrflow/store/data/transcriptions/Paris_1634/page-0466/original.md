@@ -5,6 +5,10 @@ a + c + e, multipl.. b + d + f,
 u a, multipl.. b,
 2.concl. 20.d.7 | a + c + e π b + d + f 2|2 a π b.
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XIII.]
+
 ## THEOR. XI. PROPOS. XIII.
 
 Si quatuor numeri proportionales sint: & vicissim proportionales erunt.

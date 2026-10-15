@@ -14,6 +14,8 @@ SINT inter ſe primi A, & B, gignaturque C, ex A, in ſe ipſum. Dico C, ad reli
 
 [Curated heading level=2 type=campanus: 27]
 
+[Curated heading level=2 type=theorems: THEOR. 26. PROPOS. 28.]
+
 ## THEOR. 26. PROPOS. 28.
 
 [Curated heading level=3 type=incipit: SI]
@@ -37,6 +39,8 @@ SIT uterque A, & B, ad utrunque C, & D, primus, gignaturque E, ex A, in B; & F, 
 [/Margin]
 
 [Curated heading level=2 type=campanus: 28]
+
+[Curated heading level=2 type=theorems: THEOR. 27. PROPOS. 29.]
 
 ## THEOR. 27. PROPOS. 29.
 

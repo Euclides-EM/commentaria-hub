@@ -1,6 +1,8 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 141 -->
 
+[Curated heading level=2 type=definitions: Définition VI.]
+
 [Curated heading level=3 type=numbered_item: 6.]
 
 VI. *L’angle solide* est formé par la réunion de plusieurs angles situés dans différens plans.
@@ -13,6 +15,12 @@ F. 199.
 
 Il faut au moins trois angles plans pour former un angle solide.
 
+[Curated heading level=1 type=theorems: Livre V]
+
+[Curated heading level=2 type=propositions: PROPOSITION I. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION I.]
+
 ## PROPOSITION I.
 
 ### THÉORÊME.
@@ -24,6 +32,10 @@ Car, suivant la définition du plan, dès qu’une ligne droite a deux points co
 [Curated heading level=4: Corollaire.]
 
 *Corollaire.* Donc pour reconnoître si une surface est plane, il faut appliquer une ligne droite en différens sens sur cette surface, et voir si elle touche la surface dans toute son étendue.
+
+[Curated heading level=2 type=propositions: PROPOSITION II. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION II.]
 
 ## PROPOSITION II.
 

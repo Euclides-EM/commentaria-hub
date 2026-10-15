@@ -11,6 +11,10 @@ eſt autem AB ſubjecto plano ad rectos angulos; et FG igitur eidem plano ad rec
 
 [Diagram: two intersecting planes with labels D, G, A, H, K, C, F, B and E]
 
+[Curated heading level=2 type=propositions: PROP. XIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIX. THEOR.]
+
 ## PROP. XIX. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duo plana ſe invicem ſecantia plano alicui ſint ad rectos angulos; et communis ipſorum ſectio eidem plano ad rectos angulos erit.

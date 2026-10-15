@@ -42,6 +42,10 @@ Demonstr.
 α.13.5 | f π e 3|2 a π bud π e
 3.concl. 10.5 | d 2|3 f.
 
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXI.]
+
 ## THEOR. XXI. PROPOS. XXI.
 
 Si sint tres magnitudines, & aliæ ipsis æquales numero, quæ binæ, & in eadem ratione sumantur, fueritque perturbata earum proportio ; ex æquo autem prima quam tertia maior fuerit : erit & quarta, quam sexta, maior. Quod si prima tertiæ fuerit æqualis, erit & quarta æqualis sextæ ; sin illa minor, hæc quoque minor erit.

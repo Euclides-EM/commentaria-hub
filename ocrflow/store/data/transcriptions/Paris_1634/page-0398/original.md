@@ -4,6 +4,10 @@
 35.3 | ▭.bec 2|2 ▭.dea,
 concl. 1.a.f | ▭.ab,ac 2|2 ▭ bec + □.ae.
 
+[Curated heading level=2 type=propositions: PROBL. XI. PROPOS. XIII.]
+
+[Curated heading level=2 type=problems: PROBL. XI. PROPOS. XIII.]
+
 ## PROBL. XI. PROPOS. XIII.
 
 Data base trianguli, angulo verticis, & ratione crurum, inuenient triangulum.

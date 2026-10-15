@@ -1,6 +1,10 @@
 <!-- Page number: 230 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XXV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXV.]
+
 ## PROPOSITION XXV.
 
 ### THÉORÊME.

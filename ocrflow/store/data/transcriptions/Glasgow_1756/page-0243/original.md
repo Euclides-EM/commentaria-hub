@@ -1,6 +1,10 @@
 <!-- Page number: 230 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. VII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VII. THEOR.]
+
 ## PROP. VII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duae rectae lineae parallelae ſint, ſumantur autem in utraque ipſarum quaelibet puncta; quae dicta puncta conjungit recta in eodem erit plano in quo et parallelae.
@@ -16,6 +20,10 @@ a. 10. Ax. 1.
 non igitur quae a puncto E ad F ducitur recta linea in ſublimi eſt, quare erit in plano quod per AB, CD parallelas tranſit. Si igitur duae rectae &c. Q. E. D.
 
 [Diagram: parallel horizontal lines AB and CD, with points E and F joined by curved lines EGF and EHF]
+
+[Curated heading level=2 type=propositions: PROP. VIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VIII. THEOR.]
 
 ## PROP. VIII. THEOR.
 

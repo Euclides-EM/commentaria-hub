@@ -5,6 +5,10 @@ ad triangulum DEF, duplicatam habebit rationem ejus quam habet BC ad EF. Quare �
 
 COR. Ex hoc manifeſtum eſt, ſi tres rectae lineae proportionales fuerint, ut prima ad tertiam, ita eſſe triangulum quod fit à prima ad triangulum quod à ſecunda ſimile, et ſimiliter deſcriptum. Quoniam oſtenſum eſt ut CB ad BG, ita ABC triangulum ad triangulum DEF.
 
+[Curated heading level=2 type=propositions: PROP. XX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XX. THEOR.]
+
 ## PROP. XX. THEOR.
 
 {dropcap:S|lines=2|style=plain}IMILIA polygona in ſimilia triangula dividuntur, et numero aequalia, et homologa totis; et polygonum ad polygonum duplicatam rationem habet ejus quam latus homologum habet ad homologum latus.

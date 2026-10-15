@@ -12,6 +12,8 @@ CAMPANI annotatio. Quemadmodū autem necesse est conuerti negationes oppositas a
 
 Hæ sequentes ex Zamberto duæ propositiones præcedenti ex Campano cum annotatione eiusdem respondent.
 
+[Curated heading level=2 type=theorems: Theorema 14 Propositio 16]
+
 ## Eucli. ex Zamb. Theorema 14 Propositio 16 Conuersa 14
 
 [Curated heading level=3 type=zamberti_sequence: 16.]
@@ -25,6 +27,8 @@ Si quadratus numerus quadratum numerum mensus non fuerit, neq̃ latus latus meti
 THEON ex Zamberto. Sint quadrati numeri α, β: eorum autem latera sint γ, δ. At α, ipsum β non metiatur. Dico quod neque γ, ipsum δ, metietur. Si autem γ ipsum δ, metitur, metitur (per 14 octaui,) & α ipsum β: non metitur autem (per hypothesin) β, ipsum β, neque igitur γ, ipsum δ metietur. Non metiatur autem rursus γ, ipsum δ. Dico quod neque α, ipsum β, metietur. Si autem α, ipsum β metitur, & γ, (per 14 octaui) ipsum δ. Nō metitur autē γ, ipsum δ, (per hypothesin,) neque α igitur, ipsum β metietur, quod erat demonstrandum.
 
 [Diagram: dotted number lines α, β, γ, δ]
+
+[Curated heading level=2 type=theorems: Theorema 15 Propositio 17]
 
 ## Eucli. ex Zamb. Theorema 15 Propositio 17 Conuersa 15
 

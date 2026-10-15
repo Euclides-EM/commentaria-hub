@@ -24,6 +24,8 @@ CAMPANVS. Sit a, punctus signatus extra lineā b c, à quo ad ipsam oportet dedu
 
 [Diagram: circle with centre a; the horizontal line cuts the circle at b and c below, with d between them; the lines a b, a c and the perpendicular a d drawn]
 
+[Curated heading level=2 type=problems: Problema 7. Propositio 12.]
+
 ## Eucli. ex Zamb. Problema 7. Propositio 12.
 
 [Curated heading level=3 type=zamberti_sequence: 12.]

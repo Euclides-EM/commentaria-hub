@@ -6,6 +6,8 @@ tium laterum. Sint duæ superficies a b c d & e f g h, æquidistantium laterum, 
 
 [Diagram: parallelograms a b c d and e f g h between parallels a f and c h, on equal bases c d and g h, with lines c e and d f drawn; letters a, b, e, f above and c, δ, g, h below]
 
+[Curated heading level=2 type=theorems: Theorema 26. Propositio 36.]
+
 ## Eucli. ex Zamb. Theorema 26. Propositio 36.
 
 [Curated heading level=3 type=zamberti_sequence: 36.]
@@ -33,6 +35,8 @@ THEON ex Zamb. Sint parallelogramma α β γ δ & ε ζ η θ, in æqualibus bas
 CAMPANVS. Sint duo trianguli a b c & d b c, constituti super basin b c, inter duas lineas a e & b f, quæ sint æquidistantes, dico eos esse æquales. Protraham enim c g æquidistantem a b, & c h æquidistantem d b per 31, eruntq̃ duæ superficies a b c g & d b c h, æquales per 35. Et quia dicti trianguli sunt earum dimidia per correlarium 34 propositionis, ipsi erunt æquales per cōmunem scientiam quæ est, quorum tota sunt æqualia, & dimidia, sicq̃ patet propositum.
 
 [Diagram: triangles a b c and d b c on base b c between parallels a e and b f, with points a, g, d, h, e on the upper parallel and b, c, f on the lower]
+
+[Curated heading level=2 type=theorems: Theorema 27. Propositio 37.]
 
 ## Eucli. ex Zamb. Theorema 27. Propositio 37.
 

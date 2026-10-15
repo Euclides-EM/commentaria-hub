@@ -3,6 +3,10 @@
 
 [Diagram: plane PL containing parallels CD and EF with points A and B; a vertical plane through B rising to G, with point X on line AB and dotted lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THEOREME VII.]
+
+[Curated heading level=2 type=theorems: THEOREME VII. PROPOSITION VII.]
+
 ## PROPOSITION VII. THEOREME VII.
 
 {dropcap:S|lines=2|style=plain}I l'on joint deux points (A & B) ſitués dans deux Paralleles (DC & FE) par une droite (AB); Elle ſera dans le même Plan (PL) que les Paralleles.

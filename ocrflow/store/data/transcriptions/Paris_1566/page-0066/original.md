@@ -3,6 +3,14 @@
 
 re non poſſet, ſed anguli magnitudinem ea neceſſariò & ſola. Eius namque augmentum vel decrementum, ſemper cum augmento anguli vel eiuſdem decremento, idem eſſe reperitur, vt docebimus 33 ſexti, fauente ſupremo artium moderatore. Quæ autem præter hæc mutauimus pauca ſunt ob faciliorem circulorum intelligentiam.
 
+[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber tertius.]
+
+[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber tertius.]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
+
+[Curated heading level=2 type=problems: Propoſitio prima. Problema 1.]
+
 ## Propoſitio prima.
 
 [Subhead]
@@ -19,6 +27,8 @@ In dato circulo A G B E, producatur cõtingens aliqua recta A B, quæ ſeccetur 
 
 Si in circulo, recta aliquam rectam bifariam & ad angulos rectos ſecuerit, in ſecãte erit centrum circuli. Cùm oſtẽſum ſit non poſſe eſſe alibi quàm in recta G E, bifariam & ad rectos ſecante ipſam A B.
 
+[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
+
 ## Propoſitio ſecunda.
 
 Si in circuli circunferentia duo ſigna vtcunque ſumantur, ea coniungens recta intra circulum cadit.
@@ -26,6 +36,8 @@ Si in circuli circunferentia duo ſigna vtcunque ſumantur, ea coniungens recta 
 In circunferentia circuli A B G, duo vtcũque ſigna A B ſuſcipiantur quæ coniungat recta A B: Dico eam rectam intra circulum cadere. Circuli A B G (per præfatam) centrum ſit D, coniunctis D A, D B, angulus verò A D B bifariam ſeccetur ducta D E, per 9 primi: quoniam enim binæ D A, D E, binis D B, D E, & angulus A D E angulo B D E, ſunt æquales, triangulorum D A E & D B E anguli D E B, D E A (æquis lateribus ſubtenſi) æquales erunt, per 4 primi. Recti igitur erunt, per 10 diffinitionem primi, maior ideo erit D E B angulus angulo D B E, per 17 primi. Maius itaque erit latus D B latere D E, per 19 primi. Sed D B eſt ex centro, recta igitur D E minor ea quæ ex centro, intra circulum cadit. Nam ſi extra caderet, eſſet maior. Si verò in circunferentia æqualis, per 15 diffinit. primi, & proinde recta A E B intus cadit. Si igitur in circuli circunferentia duo ſigna, &c.
 
 [Diagram: circle labelled G, with chord A E B and interior point D joined to A, E, and B]
+
+[Curated heading level=2 type=propositions: Propoſitio tertia.]
 
 ## Propoſitio tertia.
 

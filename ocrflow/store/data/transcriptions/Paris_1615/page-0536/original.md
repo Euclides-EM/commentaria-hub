@@ -2,6 +2,10 @@
 
 <!-- Page number: 513 -->
 
+[Curated heading level=2 type=propositions: PROB. 3. PROP. XXIII.]
+
+[Curated heading level=2 type=problems: PROB. 3. PROP. XXIII.]
+
 ## PROB. 3. PROP. XXIII.
 
 Faire vn angle ſolide de trois angles plans, deſquels deux pris comme on voudra ſoient plus grands que le tiers. Mais il faut qu iceux troisangles ſoiẽt moindres que quatre droicts.

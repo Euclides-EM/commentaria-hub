@@ -2,6 +2,10 @@
 
 <!-- Page number: 252 -->
 
+[Curated heading level=2 type=propositions: THEOR. 11. PROP. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 11. PROP. XIII.]
+
 ## THEOR. 11. PROP. XIII.
 
 Si tant de nombres qu’on voudra ſont continuellement proportionnaux; iceux eſtans multipliez chaſcun par ſoy, leurs produicts ſeront auſſi continuellement proportionnaux: & ſi chaſcun multiplie encores ſon produit; les derniers produicts ſeront auſſi continuellement proportionnaux: & cela aduiendra touſiours enuiron les extremes.

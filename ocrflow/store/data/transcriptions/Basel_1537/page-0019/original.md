@@ -2,6 +2,8 @@
 
 <!-- Page number: 10 -->
 
+[Curated heading level=2 type=theorems: Theorema primum. Propositio 4.]
+
 ## Eucli ex Zamb. Theorema primum. Propositio 4.
 
 [Curated heading level=3 type=zamberti_sequence: 4.]

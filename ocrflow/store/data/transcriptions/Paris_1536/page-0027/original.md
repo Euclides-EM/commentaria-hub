@@ -1,5 +1,13 @@
 # ΕΥΚΛΕΙΔΟΥ ΒΙΒΛΙΟΥ ΠΡΩΤΟΥ
 
+[Curated heading level=1 type=propositions: LIBER I.]
+
+[Curated heading level=1 type=problems: LIBER I.]
+
+[Curated heading level=2 type=propositions: Problema 1, Propoſitio 1.]
+
+[Curated heading level=2 type=problems: Problema 1, Propoſitio 1.]
+
 ## Πρόβλημα α, Πρόθεσις α.
 
 Επὶ τῆς δοθείσης ευθείας πεπερασμένης, τρίγωνον ἰσόπλευρον σήσασθαι.
@@ -41,6 +49,10 @@ Circulus eſt figura plana vna linea contenta que circũferentia appellatur ad q
 [Margin]
 Que eidem equalia et ad inuicem ſunt equalia.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Problema 2, Propoſitio 2.]
+
+[Curated heading level=2 type=problems: Problema 2, Propoſitio 2.]
 
 ## Πρόβλημα β, Πρόθεσις β.
 

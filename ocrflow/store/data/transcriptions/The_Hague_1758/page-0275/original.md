@@ -3,6 +3,10 @@
 
 [Figure: two rectangles ABGE and CDHF drawn in dotted lines on bases AB and CD, with separate line segments N and M above]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVI. THEOREME XI.]
+
+[Curated heading level=2 type=theorems: THEOREME XI. PROPOSITION XVI.]
+
 ## PROPOSITION XVI. THEOREME XI.
 
 {dropcap:S|lines=2|style=plain}I quatre lignes droites (AB, CD, M, N) ſont proportionelles, le rectangle des extrêmes (AB. N) eſt égal à celui des moyennes (CD. M). Et ſi le rectangle des extrêmes (AB. N) eſt égal au rectangle des moyennes (CD. M), les quatre droites (AB, CD, M, N,) ſont proportionelles.

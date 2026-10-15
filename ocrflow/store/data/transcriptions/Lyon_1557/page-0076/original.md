@@ -7,6 +7,10 @@
 
 HÆC Propoſitio tacitè conſequebatur ad Definitionem Sectionis Circuli: quæ omni arcui rectam ſubtenſam tribuit: Subtenſa autem intra Circulum exiſtente, nulla alia extra Circulũ recta, in eadẽ puncta terminabitur, ne duæ rectæ ſuperficiẽ cõcludant. Item & ex linea cõtingente Circulum. Nam ſiqua recta linea eſt quæ cõtingat Circulũ: ipſa erit FG: quæ vtrinq; educta attinget lineã ADB, vt in pũctis F & G: Sicq́; rurſus duæ lineæ rectæ cõcludent ſuperficiem, cõtra Principiũ. Et tamẽ fuit proponẽdum & demonſtrandũ, ne in ſequentibus cogeremur cõtradictiones ſæpiùs excipere.
 
+[Curated heading level=2 type=propositions: THEOREMA 2, PROPOSITIO III.]
+
+[Curated heading level=2 type=theorems: THEOREMA 2, PROPOSITIO III.]
+
 ## THEOREMA 2, PROPOSITIO III.
 
 In Circulo, ſi recta linea per Centrum ducta rectam lineam extra Centrũ ductam bifariam ſecuerit: ipſam quoque ad angulos rectos diuidet: Et ſi ad angulos rectos diuiſerit, ipſam etiam ad angulos rectos ſecabit.
@@ -18,6 +22,10 @@ Sit Circulus ABC: in quo linea DE per Centrum ducta, lineam AB extra Centrum duc
 Connectam EA & EB. Eruntq́; duo latera EA & EF, Trianguli EAF æqualia duobus EB & EF, Trianguli EBF: baſis verò AF baſi FB, ex poſitione, æqualis. Quare, per octauam Primi, angulus F vnius, æqualis angulo F alterius: & proptereà recti, Quod eſt prius.
 
 Iam vterq́; angulus qui ad F, ponatur rectus. Et conſtat, ex quinta Primi, duos angulos A & B eſſe æquales: quum ſint duo latera EA & EB æqualia. Quare in duobus Triangulis EAF & EBF, erunt, per vigeſimamſextam Primi, duo latera AF & FB æqualia, Quod erat demonſtrandum.
+
+[Curated heading level=2 type=propositions: THEOREMA 3, PROPOSITIO IIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 3, PROPOSITIO IIII.]
 
 ## THEOREMA 3, PROPOSITIO IIII.
 

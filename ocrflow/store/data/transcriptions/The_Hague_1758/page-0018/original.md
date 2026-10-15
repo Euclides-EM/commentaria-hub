@@ -32,9 +32,13 @@
 
 <!-- Running title: DEFINITIONS -->
 
+[Curated heading level=2 type=definitions: DEFINITION XXVI.]
+
 ### XXVI.
 
 {dropcap:E|lines=2|style=plain}*T* lorſque les trois côtés ſont inégaux entr'eux, le *Triangle* eſt *Scalene*. *Fig.* 18.
+
+[Curated heading level=2 type=definitions: DEFINITION XXVII.]
 
 ### XXVII.
 
@@ -42,13 +46,19 @@ Pareillement; parmi ces mêmes figures trilatéres:
 
 On nomme *Triangle Rectangle*, un Triangle qui a un angle droit. *Fig.* 19.
 
+[Curated heading level=2 type=definitions: DEFINITION XXVIII.]
+
 ### XXVIII.
 
 Et *Triangle Amblygone*, ou *Obtus-angle*, un Triangle qui a un angle obtus (A). *Fig.* 20.
 
+[Curated heading level=2 type=definitions: DEFINITION XXIX.]
+
 ### XXIX.
 
 Enfin, on appelle *Triangle Oxygone*, ou *Acutangle*, un Triangle qui a les trois angles aigus (A, B, C,). *Fig.* 21.
+
+[Curated heading level=2 type=definitions: DEFINITION XXX.]
 
 ### XXX.
 
@@ -56,9 +66,13 @@ De la même maniere dans l'eſpece des figures quadrilatéres:
 
 On nomme *Quarré*, celle qui eſt quadrilatére, équilatérale & rectangulaire. *Fig.* 22.
 
+[Curated heading level=2 type=definitions: DEFINITION XXXI.]
+
 ### XXXI.
 
 Et on entend par *Rectangle*, une figure quadrilatére, rectangulaire, non-équilatérale. *Fig.* 23.
+
+[Curated heading level=2 type=definitions: DEFINITION XXXII.]
 
 ### XXXII.
 

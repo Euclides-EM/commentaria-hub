@@ -22,6 +22,8 @@ HAC arte cuicunque triangulo propoſito alterum prorſus æquale & quoad latera,
 
 [Curated heading level=2 type=campanus: 23]
 
+[Curated heading level=2 type=problems: PROBL. 9. PROPOS. 23.]
+
 ## PROBL. 9. PROPOS. 23.
 
 [Curated heading level=3 type=incipit: AD]

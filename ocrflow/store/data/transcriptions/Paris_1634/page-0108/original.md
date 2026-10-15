@@ -16,6 +16,10 @@ constr. | a 2|2 fd,
 constr. | c 2|2 gh,
 3.concl. 1.a.1. | gk 2|2 c.
 
+[Curated heading level=2 type=propositions: PROBL. IX. PROPOS. XXIII.]
+
+[Curated heading level=2 type=problems: PROBL. IX. PROPOS. XXIII.]
+
 ## PROBL. IX. PROPOS. XXIII.
 
 Ad datam rectam lineam, datúmque in ea punctum, dato angulo rectilineo æqualem angulum rectilineum constituere.

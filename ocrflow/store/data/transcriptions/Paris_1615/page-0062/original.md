@@ -12,6 +12,10 @@ Soit menee la ligne AD faiſant auec BC l’angle ADC & ſuricelle AD, & au poin
 
 Ien manſene par eete conſtruction, que le poin donne doit eſtre tellement ſeitue hors la ligne donnee, quiceſe eſtant continuee me conuienne aueciceluy Quant à la praticque de ceſte prop nous Tauons enſeigné en nos memoires Mathemat. vrob ae laGtometrie praticque.
 
+[Curated heading level=2 type=propositions: THEOR 22. PROP. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR 22. PROP. XXXII.]
+
 ## THEOR 22. PROP. XXXII.
 
 En tout triangle l’vn des coſtez eſtant prolongé, l’angle exterieur eſt egal aux deux oppoſez interieurs: & de chacun triangle les trois angles interieurs ſont egaux à deux droits.

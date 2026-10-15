@@ -3,6 +3,10 @@
 
 A, E utcunque aeque multiplices; L, N vero ipſarum B, F aliae utcunque aeque multiplices. Ergo ut A ad B, ita erit E ad F. Quae igitur eidem &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XII. THEOR.]
+
 ## PROP. XII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I quotcunque magnitudines proportionales fuerint; ut una antecedentium ad unam conſequentium, ita erunt antecedentes omnes ſimul ad omnes conſequentes ſimul.

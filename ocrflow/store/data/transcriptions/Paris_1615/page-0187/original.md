@@ -6,6 +6,10 @@ multiblice de A, queH l’eſt de C, comme F eſt a A, ainſi H a C, & par l’h
 
 Maintenant pource que B eſt a A, comme D a C par raiſon inuerſe: & comme A a F, ainſi C a H: en raiſon egale, comme B ſera a F. ainſi D a H. Derechef puis que A eſt a B, comme C a D: & comme B eſt a G, ainſi D a I; en raiſon egale, comme A ſera a G, ainſi C a I. par la 22.p5.ce qui eſtoit propoié. Par cecy eſt manifeſte vn moyen d’argumenter, dont les Geometres s’aident ſouuent, principalement Archimedes, Apolonius Pergeus. &. autres: ſcauoir eſt comme A a B, ainſi C eſt a D: donc comme F double, ou triple, ou quadruple &c.de A, eſt a B, ainſi auſſi H double, ou tvinle. ou quadruple &c. de C, eſt a D: Item comme A eſt a B, ainſiC a D: donc comme A eſt au double, triple, ou quadruple &c, deB. ſçauoir eſt a G, ainſi auſſi C ſera au double, triple, ou au quadruple &c. de D, ſçauoir eſt a I.
 
+[Curated heading level=2 type=propositions: THEOR. 23. PROP. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 23. PROP. XXIII.]
+
 ## THEOR. 23. PROP. XXIII.
 
 Si trois grandeurs, & autant d’autres, priſes de deux en deux ſont en meſme raiſon, & en proportion troublee: icelles en raiſon egale ſeront proportionneles.

@@ -24,6 +24,8 @@ Si autē angulus a supremus in assumpta pyramide pluribus angulis supficialibus 
 
 [Diagram: pentagonal pyramid with apex a at top, interior vertex b, base corners c (left), f (right), d and e (below)]
 
+[Curated heading level=2 type=theorems: Theorema 19 Propositio 21]
+
 ## Eucli. ex Zamb. Theorema 19 Propositio 21
 
 [Curated heading level=3 type=zamberti_sequence: 21.]

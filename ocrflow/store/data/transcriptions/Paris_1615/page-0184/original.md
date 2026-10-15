@@ -2,6 +2,10 @@
 
 <!-- Page number: 161 -->
 
+[Curated heading level=2 type=propositions: THEOR. 22. PROP. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. 22. PROP. XXII.]
+
 ## THEOR. 22. PROP. XXII.
 
 S’il y a tant de grandeurs qu’on voudra, & autant d’autres, leſquelles eſtant priſes de deux en deux ſoient en meſme raiſon; icelles en raiſon egale ſeront proportionneles.

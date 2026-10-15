@@ -16,6 +16,8 @@ QVOD ſi loco unius numerorum D, E, F, aſſumatur vnitas, uel etiam loco pluriu
 
 [Curated heading level=2 type=campanus: 6]
 
+[Curated heading level=2 type=theorems: THEOR. 4. PROPOS. 6.]
+
 ## THEOR. 4. PROPOS. 6.
 
 [Curated heading level=3 type=incipit: SI]

@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
+[Curated heading level=2 type=axioms: VII.]
+
 ### VII.
 
 Si numerus numerum multiplicans, aliquem produxerit, metietur multiplicās productum per multiplicatum, multiplicatus autem eūdem per multiplicantem.
@@ -15,6 +17,8 @@ hyp. | ▭.a,b est c, A,5. B,3. C,15.
 Ex hoc manifestum est, nullum numerum primum, esse planum, solidum, quadratum, aut cubum.
 
 *De cecy il est manifeste, qu'il n'y a aucun nombre premier qui soit plan, solide, quarré, ou cube.*
+
+[Curated heading level=2 type=axioms: VIII.]
 
 ### VIII.
 

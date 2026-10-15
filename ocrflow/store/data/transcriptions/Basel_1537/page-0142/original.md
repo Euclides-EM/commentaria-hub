@@ -14,6 +14,8 @@ CAMPANVS Demonstratis antecedētibus ad æquam proportionalitatem, hic demonstra
 
 [Diagram: ten horizontal lines with tick marks: six long lines labelled g, h, K, l, m, n; below them shorter paired lines labelled a and c, b and d, e and f, p and q]
 
+[Curated heading level=2 type=theorems: Theorema 22. Propositio 22]
+
 ## Eucli. ex Zamb. Theorema 22. Propositio 22
 
 [Curated heading level=3 type=zamberti_sequence: 22.]

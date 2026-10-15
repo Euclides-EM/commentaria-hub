@@ -7,6 +7,10 @@ Si enim fieri poteſt, ſit centrum E; jungaturque EC, et EFG utcunque ducatur. 
 
 [Diagram: two intersecting circles labelled A, B, C, D, E, F and G, with lines EC and EFG]
 
+[Curated heading level=2 type=propositions: PROP. VI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VI. THEOR.]
+
 ## PROP. VI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duo circuli ſeſe intra contingant, ipſorum idem centrum non erit.

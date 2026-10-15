@@ -16,6 +16,8 @@ MVLTIPLICET enim A, ipſum B, faciatque C. Dico eundem C, gigni, ſi B, ipſum A
 
 [Curated heading level=2 type=campanus: 18]
 
+[Curated heading level=2 type=theorems: THEOR. 15. PROPOS. 17.]
+
 ## THEOR. 15. PROPOS. 17.
 
 [Margin]

@@ -17,6 +17,10 @@ cylindr. eк π cylindr. eq, α / 14. 12 | alt. dm π alt. om, Ⅱ al / hyp. | b
 
 Demonstratio conorum fiet eodem modo constructis conis EFO & PQD sub altitudinibus MO vel AL & OD. | *La demonstration des cones se fera par la mesme methode en construisant les cones EFO & PQD sous les hauteurs MO ou AL & OD.*
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. XVI.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. XVI.]
+
 ## PROBL. I. PROPOS. XVI.
 
 Duobus circulis circa idem centrum existentibus in majori circulo polygonum æquilaterum, & parium laterum inscribere, quod non tangat minorem circulum.

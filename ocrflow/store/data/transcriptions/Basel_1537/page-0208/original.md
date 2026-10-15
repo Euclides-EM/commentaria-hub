@@ -6,6 +6,8 @@ CANPANVS Huius sensus est, quod omnis numerus numeratus a ternario: habet tertia
 
 [Diagram: dotted number lines beside the text: unitas · / c··· c·· / a······]
 
+[Curated heading level=2 type=theorems: Theorema 34 Propositio 39]
+
 ## Eucli. ex Zamb. Theorema 34 Propositio 39
 
 [Curated heading level=3 type=zamberti_sequence: 39.]
@@ -33,6 +35,8 @@ THEON ex Zamb. Nuuerum{printer-error-correction:Numerum} enim α, numerus aliqui
 CAMPANVS Hæc est cōuersa præmissæ: cuius est intētio, quod omnis numerus habens tertiam, numeratur a ternario, & habens quintam, à quinario, sicque de cæteris, ut si b sit pars a denominata a c, sequitur ut c nūeret a, quia enim b est pars a denominata a c, sed & unitas est pars c denominata ab ipso c per conceptionem, sequitur ut quoties unitas numerat c, toties b numeret a, itaque per 16 quoties unitas b, toties c, numerat a, quare constat propositum. Aliter idem. Cum sit b pars a, sit tota unitas c, eritque per hanc communem scientiam, unitatem esse partem omnis numeri ab ipso denominatam c, denominans b in a: & quia est b in a quoties unitas in c, euidenter sequitur propositum per 16,
 
 [Diagram: dotted number lines beside the text: unitas · / b·· c··· / a······]
+
+[Curated heading level=2 type=theorems: Theorema 35 Propositio 40]
 
 ## Eucli. ex Zamb. Theorema 35 Propositio 40
 

@@ -6,6 +6,8 @@ Esto circulus cuius centrum sit a, oculus uero sit b, à quo in circulum perpēd
 
 [Diagram: circle containing a crossed rectangle with corners c and b at top; along the horizontal diameter the points e, f, a, d]
 
+[Curated heading level=2 type=theorems: Theorema trigesimumoctauum.]
+
 ## Theorema trigesimumoctauum.
 
 SEd q̃ f b ipsi d e ad angulos rectos existat sic ostendemus.
@@ -13,6 +15,8 @@ SEd q̃ f b ipsi d e ad angulos rectos existat sic ostendemus.
 Quoniā b, ipsi circuli plano ad angulos est rectos, & omnia igitur per b, plana producta ipsi circuli plano per 18 diffinitionem 11 element. ad angulos rectos existunt. Vnum autem eorum quæ per b, extendūtur planorū est ipsum b e f, triangulum. Igitur triāgulum b e f, ipsi circuli plano ad angulos rectos existit. Quoniā igitur bina plana, hoc est id quod ipsius e d, & id quod ipsius b e f, triāguli adinuicem sese dispescunt, & ipsi e f, quæ ipsorum cōmunis est sectio ad angulos rectos est ipsa f d, in ipsius circuli plano: perpēdicularis nanq̃ igitur c f, in e d, & f d igitur ipsius b e f, trianguli plano ad angulos rectos est. Quare per 2 diffinitionē 11 elementorū, ad omnes ipsum tangentes rectas lineas, & in ipso trianguli e f b, plano existentes ad angulos rectos subsistit. Igitur q̃ ipsi b f, ad angulos rectos est.
 
 [Diagram: rectangle with crossed diagonals, corners c and b above; below it the horizontal line with points e, f, a, d]
+
+[Curated heading level=2 type=theorems: Theorema trigesimumnonum.]
 
 ## Theorema trigesimumnonum.
 

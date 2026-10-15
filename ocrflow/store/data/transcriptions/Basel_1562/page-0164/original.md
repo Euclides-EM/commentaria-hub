@@ -3,6 +3,8 @@
 
 gröſſen / iſt niemand ſo kindiſch / der das nitt merckh. Nun auß diſer propoſition waiß ich / das der bruch 72/576 eben alſo ſteht ⅛ (zeler vnnd nenner mitt 72 auffgehaben) vn̄ der klain bruch eben ſouil thůtt / als der groß. Deßgleichen verſteh von allen vortailen / ſo bey der bruch reducirung / multiplicierung / vnd tailung / auch in der regel Detri / fortailiger fürung gebraucht werden / vnd hiehär zůziehen onnot. Eben auß diſem grund fleüſſe auch das auffheben der andern oder dritten zal in der regel Detri / gegen der erſten / daruon inn volgender propoſition mehr geredt wirt. Alſo werden auch inn der Coß nitt allain die zalen / da ſich dz der gmainen reglen nach gebüret / gegen ainander auffgehaben / ſonder auch die namen vnnd zaichen der quantiteten. Alß ſo ich ſprich [unclear: 36 ʒe] gleichen 108. hab auff mitt 36 wirt [unclear: 1 ʒe] gleich 3. Item [unclear: 968] iſt gleich [unclear: 6 ʒce] / heb auff die zalen / werden [unclear: 168] gleich [unclear: 1 ʒce] / heb auch auff die quantiteten (wie das geſcheche / kan ich dir hie nit ſagen / lehrt man in der Coß) ſteht [unclear: 16] gleich [unclear: 1 ʒʒ]. thůt die radir [illegible]. Daruon (wels Gott) an ſeinem ort.
 
+[Curated heading level=2 type=propositions: XVI. Die ſechzehend propoſition]
+
 ## XVI. Die ſechzehend propoſition.
 
 {dropcap:W|lines=2|style=plain}ann vier quantiteten geproportioniert ſeind / ſo werden ſy auch verwechslung der proportion leiden mögen. Das iſt / verwechſleter weiß gleich wol die proportionalitet erhalten.

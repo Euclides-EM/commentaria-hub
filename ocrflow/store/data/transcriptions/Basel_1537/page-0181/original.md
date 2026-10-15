@@ -1,6 +1,12 @@
 <!-- Page number: 170 -->
 
+[Curated heading level=1 type=theorems: ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS]
+
+[Curated heading level=1 type=problems: ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS.
+
+[Curated heading level=2 type=definitions: Euclidis ex Zamberto. Diffinitiones.]
 
 ## Euclidis ex Zamberto. Diffinitiones.
 

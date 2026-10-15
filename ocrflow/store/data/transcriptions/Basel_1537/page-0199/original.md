@@ -22,6 +22,8 @@ CAMPANVS. Hæc est conuersa præmissæ, ut si duo numeri sint a & b contra se pr
 
 [Diagram: dotted number lines beside the text: a······ b····· / e·· / c···· d···]
 
+[Curated heading level=2 type=theorems: Theorema 22 Propositio 24]
+
 ## Eucli. ex Zamb. Theorema 22 Propositio 24 Conuersa præcedentis.
 
 [Curated heading level=3 type=zamberti_sequence: 24.]
@@ -49,6 +51,8 @@ THEON ex Zamberto. Sint minimi numeri eandem rationem habentium eis α, β. Dico
 CAMPANVS. Sint a & b contra se primi, c uero numeret a. Dico quod c primus est ad b, alioquin, numeret eos d, quæ per penultimam cōceptionem numerabit etiam a, non sunt ergo a & b, contra se primi, d enim nnmerat{printer-error-correction:numerat} ambos.
 
 [Diagram: dotted number lines beside the text: a···· b····· / c·· d···]
+
+[Curated heading level=2 type=theorems: Theorema 23 Propositio 25]
 
 ## Eucli. ex Zamb. Theorema 23 Propositio 25
 

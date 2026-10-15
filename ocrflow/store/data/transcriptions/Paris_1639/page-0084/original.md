@@ -1,5 +1,9 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXXII.]
+
 ## THEOR. XXII. PROPOS. XXXII.
 
 De tout triangle, l'vn des costez estant prolongé, l'angle externe est égal aux deux internes & opposez: & les trois angles internes de tout triangle, sont égaux à deux droicts.

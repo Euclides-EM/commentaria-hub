@@ -43,6 +43,8 @@ conſtr. | ∠a *eſt* ┘,
 conſtr. | ab 2|2 e,
 concl. 1.d.2 | ac *eſt* ▭.ad, ab Ⅱ e.
 
+[Curated heading level=2 type=definitions: DEF. II.]
+
 ### II.
 
 De tout espace parallelogramme, lequel on voudra des parallelogrammes à l'entour du diametre, auec les deux complements, soit appellé Gnomon.

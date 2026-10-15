@@ -4,6 +4,8 @@
 
 ut quadratum lineæ q c sit æquale ei quod fit ex a b in a c. Igitur ex secunda parte 16 sexti & diffinitione, constat propositum.
 
+[Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
+
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 
 [Curated heading level=3 type=zamberti_sequence: 2.]

@@ -1,6 +1,10 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 80 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XXI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXI.]
+
 ## PROPOSITION XXI.
 
 ### THÉORÊME.

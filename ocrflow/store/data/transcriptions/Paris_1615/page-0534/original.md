@@ -4,6 +4,10 @@
 
 tenant puis que les deux coſtez AB & AD ſont egaux aux 2. coſtez AB & AE, & leurs angles egaux: la baſe DB ſera egale à la baſe BE, par la 4.p.1.Item puis que l’on poſe l’angle BAC plus grand que les deux autres, & que le retranché BAE eſt egal à l’vn d’iceux BAD, le reſte CAE ſera plus grand que l’autre CAD: mais les deux coſtez EA & AC ſont egaux aux deux coſtez AD & AC, & l’angle CAE eſt plus grãd que l’angle DAC: & partant par la 24.p.1. la baſe EC ſera plus grande que la baſe DC: & BD eſtant egale à BE, il eſt euident que au triangle ABC le coſté BC eſt plus grand que les deux autres: ce qui eſt contre la 20. prop. 1. Donc l’angle BAC n’eſt point plus grand que les deux autres BAD, CAD. Que ſi on dit qu’il eſt egal il s’enſuyura par le meſme diſcours que BC eſt egale à BD & CD: ce qui contreuient touſiours à la 20p. 1. Il eſt donc plus petit que les deux autres: ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 19. PROP. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 19. PROP. XXI.]
+
 ## THEOR. 19. PROP. XXI.
 
 Tous les angles plans d’vn angle ſolide, ſont plus petits que quatre angles droicts.

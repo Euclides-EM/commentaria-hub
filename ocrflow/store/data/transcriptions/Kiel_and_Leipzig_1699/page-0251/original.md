@@ -2,6 +2,8 @@
 
 <!-- Page number: 234 -->
 
+[Curated heading level=2 type=definitions: Beschreibung XVI.]
+
 [Curated heading level=3 type=numbered_item: XVI.]
 
 XVI. Verwendete Verhältniß ist/ wenn man die Vorgehenden gegen den Uberschuß/womit die Vorgehenden die Nachgehenden übertroffen / hält.
@@ -11,6 +13,8 @@ XVI. Verwendete Verhältniß ist/ wenn man die Vorgehenden gegen den Uberschuß/
 6a : 6a — 4a | 3a : 3a — 2a
 
 oder 6a : 2a | 3a : a.
+
+[Curated heading level=2 type=definitions: Beschreibung XVII.]
 
 [Curated heading level=3 type=numbered_item: XVII.]
 
@@ -33,6 +37,8 @@ Oder
 24b : 12b : 6b : 3b
 
 16a : 2a | 24b : 3b
+
+[Curated heading level=2 type=definitions: Beschreibung XIIX.]
 
 [Curated heading level=3 type=numbered_item: XIIX.]
 

@@ -31,6 +31,10 @@ Demonstr.
 1.concl. 4. 6 | bd π dc, Ⅱ bf, / cd, Ⅱ bf π fd, α
 2 concl. d. α | ec π ef 2|2 ef π fc.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. IX.]
+
 ## THEOR. IX. PROPOS. IX.
 
 Si hexagoni latus, & decagoni, in eodem circulo descriptorum, componantur: tota recta linea extrema ac media ratione secatur, & majus eius segmentum est hexagoni latus.

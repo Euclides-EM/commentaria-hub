@@ -7,6 +7,8 @@ quodpiam punctum, & ab illo in terminos rectæ eius lineæ, quæ ſegmenti baſi
 
 SIT ſegmentum circuli quodcunq; ABC, cuius baſis recta AC: Ex ſuſcepto quolibet puncto B, in circunferentia, ducantur ad puncta A, & C, extrema baſis, rectæ lineæ BA, BC. Angulus igitur rectilineus ABC, dicitur exiſtere in ſegmento ABC.
 
+[Curated heading level=2 type=definitions: VIII.]
+
 ### VIII.
 
 [Curated heading level=4 type=incipit: CVM]

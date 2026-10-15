@@ -18,6 +18,10 @@ constr. | <fge est ∟,
 1.a.d | fd 3|2 fg, contr. 9.a.1.
 concl. 21.a.1 | fe ⊥ ab.
 
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XIX.]
+
 ## THEOR. XVII. PROPOS. XIX.
 
 Si circulum tetigerit recta quæpiam linea, à contactu autem recta linea ad angulos rectos ipsi tangenti excitetur : in excitata erit centrum circuli.

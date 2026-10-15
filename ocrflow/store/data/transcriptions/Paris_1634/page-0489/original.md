@@ -12,6 +12,10 @@ Sequitur ex his, si tres numeri numerum quempiam metiantur; etiam minimum, quem 
 
 *D'icy il s'ensuit, que si trois nombres mesurent quelque nombre, que le moindre nombre, qu'ils mesurent, mesure aussi ce mesme nombre.*
 
+[Curated heading level=2 type=propositions: THEOR. XXXIV. PROPOS. XXXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIV. PROPOS. XXXIX.]
+
 ## THEOR. XXXIV. PROPOS. XXXIX.
 
 Si numerum quispiam numerus metiatur; ille, quem metitur, partem habebit à metiente denominatam.

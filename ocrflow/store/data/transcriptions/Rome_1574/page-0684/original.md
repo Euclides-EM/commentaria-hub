@@ -26,6 +26,8 @@ DVO exempla appoſuimus, in quorum priori liquido conſtat, vnitatem E, eſſe p
 
 [Curated heading level=2 type=campanus: 20]
 
+[Curated heading level=2 type=theorems: THEOR. 20. PROPOS. 22.]
+
 ## THEOR. 21{printer-error-correction:20}. PROPOS. 22.
 
 [Curated heading level=3 type=incipit: SI]

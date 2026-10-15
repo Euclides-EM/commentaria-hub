@@ -2,6 +2,8 @@
 
 <!-- Page number: 191 -->
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO VIII.]
+
 ## PROPOSITIO VIII.
 
 {dropcap:I|lines=2|style=plain}N triangulo rectangulo perpendicularis (B C) ab angulo recto in baſim ducta ſecat triangulum in partes toti, & inter ſe ſimiles.

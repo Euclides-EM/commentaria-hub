@@ -3,6 +3,10 @@
 
 [Figure: an equilateral triangle labelled N, and a circle with an inscribed triangle ABD and pentagon EGBHI, with vertices B, G, H, F, A, D, E, I]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVI. PROBLEME XVI.]
+
+[Curated heading level=2 type=problems: PROBLEME XVI. PROPOSITION XVI.]
+
 ## PROPOSITION XVI. PROBLEME XVI.
 
 {dropcap:I|lines=2|style=plain}Nſcrire un quindécagone (EAFG &c.) équilatéral & équiangle, dans un cercle donné (EBI).

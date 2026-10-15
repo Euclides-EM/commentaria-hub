@@ -11,6 +11,10 @@ ac π cb, γ
 15.5 | db π fb, γ
 3.concl. γ.16.6 | ▭.bc,db 2|2 ▭.ac,fb.
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XXVII.]
+
 ## THEOR. XVI. PROPOS. XXVII.
 
 Pappus lib. 7. propos. 175.

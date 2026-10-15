@@ -13,6 +13,10 @@ Demonstr.
 7. 2 | □bd + □eg 2|2, 2▭af + □hf, Ⅱ 3□;hf,
 concl. 1. a. g | □.ad + □.ag 2|2, 3□;.gd.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. V.]
+
 ## THEOR. V. PROPOS. V.
 
 Si recta linea secundum extremam & mediam rationem secetur, apponatúrque ei æqualis majori segmento: tota recta linea secundum extremam & mediam rationem secatur, & majus segmentum est, quæ à principio recta linea.

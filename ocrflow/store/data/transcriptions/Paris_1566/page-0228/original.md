@@ -1,6 +1,8 @@
 <!-- Running title: LIBER DECIMVS. -->
 <!-- Page number: 100 -->
 
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
+
 ## Propoſitio ſeptima.
 
 Incommenſurabiles magnitudines, adinuicem rationem non habent quam numerus ad numerum.
@@ -9,6 +11,8 @@ Sint A & B magnitudines incommenſurabiles: Dico eas non habere rationem numeror
 
 [Diagram: two horizontal lines labelled A and B]
 
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
+
 ## Propoſitio octaua.
 
 Si binæ magnitudines adinuicem rationem non habuerint quam numerus ad numerum, incommenſurabiles erunt ipſæ magnitudines.
@@ -16,6 +20,8 @@ Si binæ magnitudines adinuicem rationem non habuerint quam numerus ad numerum, 
 Sint binæ magnitudines A ad B rationem non habentes quam numeri inter ſe: Dico eas eſſe incommenſurabiles. Nam ſi commẽſurabiles eſſent, Ipſæ rationem numerorum haberent (per quintam huius) quod obſtaret hypotheſi, quæ proponit eas rationem non habere numerorum. Si igitur binæ magnitudines adinuicem rationem non habuerint quam numerus ad numerum, incommenſurabiles erunt ipſæ magnitudines.
 
 [Diagram: two horizontal lines labelled A and B]
+
+[Curated heading level=2 type=propositions: Propoſitio nona.]
 
 ## Propoſitio nona.
 

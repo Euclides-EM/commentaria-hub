@@ -9,6 +9,10 @@ GBD + GAE valent deux angles droits par hypothese, et GBD + GBF en valent deux a
 * Pr. 19.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXII.]
+
 ## PROPOSITION XXII.
 
 ### THÉORÊME.

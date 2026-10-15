@@ -10,6 +10,10 @@ suppos apot.5. | bc, comm. ration. expos.
 suppos apot. 6. | ac & bc, incomm. ration. expos.
 l.4 10 | df & ef, incomm, ration. expos.
 
+[Curated heading level=2 type=propositions: THEOR. LXXXI. PROPOS. CV.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXXI. PROPOS. CV.]
+
 ## THEOR. LXXXI. PROPOS. CV.
 
 Recta linea mediæ apotomæ commensurabilis, & ipsa mediæ apotomæ est, atque ordine eadem.

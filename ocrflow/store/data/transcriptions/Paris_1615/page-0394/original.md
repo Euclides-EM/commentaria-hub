@@ -12,6 +12,10 @@ S’oient donnees les deux lignes droictes inegales AB & C, deſquelles AB eſt 
 
 Semblablement eſtans donnees deux lignes droictes en trouuer vne autre pouuant icelles. S’oient donnees les deux lignes droictes AD, BD: & il faut trouuer vne ligne droicte qui puiſſe icelles. Soient poſees icelles AD, BD à angle droict D, & tiré AB. Il eſt euident qu’icelle AB peut AD &9 BD, puis que par la 47.p.1. le quarré dicelle AB, eſt ega. aux qua rrez de AD, BD.
 
+[Curated heading level=2 type=propositions: THEOR. 12. PROP. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. 12. PROP. XV.]
+
 ## THEOR. 12. PROP. XV.
 
 Si quatre lignes ſont proportionnelles, & la premiere peut plus que la ſeconde du quarré dvne ligne qui luy eſt cõmenſurable en longitude: auſſi la troiſieſme poura plus que la quatrieſme du quarré d’vne ligne qui luy ſera commenſurable en longitude. Que ſi la premiere peut plus que la ſeconde du quarré dvne ligne qui luy ſoit incommenſurable en longitude: auſſi la troiſieſme pourra plus que la quatrieſme du quarré d’vne ligne qui luy ſera incommenſurable en longitude.

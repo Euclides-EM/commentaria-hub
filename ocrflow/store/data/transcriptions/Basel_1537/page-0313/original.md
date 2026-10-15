@@ -18,6 +18,8 @@ CAMPANVS. Sit linea a binomium cuiusuis speciei, sitq̃ linea b ei cōmunicans i
 
 [Diagram: long horizontal line with c at left end and d at right end, labelled a above; below it a shorter horizontal line with e at left end and f at right end, labelled b above]
 
+[Curated heading level=2 type=theorems: Theorema 48 Propositio 66]
+
 ## Eucli.ex Zamb. Theorema 6 Propositio 29{printer-error-correction:Theorema 48 Propositio 66}
 
 [Curated heading level=3 type=zamberti_sequence: 66.]

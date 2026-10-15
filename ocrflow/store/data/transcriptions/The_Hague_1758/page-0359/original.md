@@ -3,6 +3,10 @@
 
 [Figure: two planes AZ and AX meeting at line AB, with dotted lines from point C to points E and D, within a double-ruled frame]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXVIII. THEOREME XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXIII. PROPOSITION XXXVIII.]
+
 ## PROPOSITION XXXVIII. THEOREME XXXIII.
 
 {dropcap:S|lines=2|style=plain}I deux Plans (AZ & AX) ſont perpendiculaires l'un à l'autre : toute ligne perpendicu'aire (CD) tirée d'un point (C) quelconque de l'un de ces Plans (AZ) à l'autre (AX) paſſera par leur commune ſection (AB).

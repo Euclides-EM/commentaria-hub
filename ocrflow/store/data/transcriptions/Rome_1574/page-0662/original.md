@@ -9,6 +9,8 @@ CONSTAT quoque ex demonſtratione hac, ſi numerus ſe ipſum multiplicans aliqu
 
 [Curated heading level=2 type=campanus: 10]
 
+[Curated heading level=2 type=theorems: THEOR. 8. PROPOS. 10.]
+
 ## THEOR. 8. PROPOS. 10.
 
 [Margin]

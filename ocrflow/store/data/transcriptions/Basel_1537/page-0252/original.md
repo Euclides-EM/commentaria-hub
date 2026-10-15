@@ -18,6 +18,8 @@ CAMPANVS Sint continue proportionales a b, c d, e f, g h, dematurq̃ de c d, æq
 
 [Diagram: dotted lines: g with points l, n, m, h; e with point f; c with points k, d; a with point b]
 
+[Curated heading level=2 type=theorems: Theorema 35 Propositio 35]
+
 ## Eucli. ex Zamb. Theorema 35 Propositio 35
 
 [Curated heading level=3 type=zamberti_sequence: 35.]

@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, a circle with centre C inscribed in a square with corners G, H, F, I; the tangent points labelled D, B, E, A, with lines AD and BE crossing at C]
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. PROBLEME VIII.]
+
+[Curated heading level=2 type=problems: PROBLEME VIII. PROPOSITION VIII.]
+
 ## PROPOSITION VIII. *PROBLEME VIII.*
 
 {dropcap:I|lines=2|style=plain}Nſcrire un cercle (ABDE) dans un quarré donné (FGHI).

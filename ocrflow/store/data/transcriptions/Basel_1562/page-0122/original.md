@@ -3,6 +3,8 @@
 
 des zirckels diameter gefunden werd / vnnd härgegen. Auch bewiſen / das die perpendicular d e / eben der halb tail des halben diameter / das iſt ¼ des gantzen diametri ſei. Derhalben bald ains ſolchen triangels innhallt durch yetzt beſchribne regel zůhaben. Alß da die ſeitten iſt √108. iſt der diameter 12. demnach die perpendicular 3. ſo ich dann √243 (verſteh das dreymal √108. als die ſumma aller ſeitten thůtt √972. deſſen halbtail iſt √243) mit 3 multiplicier / khombt der innhallt des triangels √2187. Magſtu inn ander weg probiern. Item ſo die ſeitten des triangels iſt 6. wirt der diameter ſein √48. die perpendicular √3. Derhalben multiplicier √3 mit 9 (alß dem halbentail der ſumm aller ſeitten) entſpringen √243 des triangels innhallt / ꝛc.
 
+[Curated heading level=2 type=propositions: III. Die dritte Propoſition]
+
 ## III. Die dritte Propoſition.
 
 [Subhead]

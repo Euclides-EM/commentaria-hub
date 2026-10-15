@@ -8,6 +8,10 @@ le centre; le cercle deſcrit d’iccluy poinct comme centre, par le poinct extr
 
 Que ſi au ſemi-diamet re non produit, on prend vn poinct outre le centre, le cercle deſcrit d’iceluy poinct comme centre,, par le poinct extreme du ſemi-diametre touchera pareillement le premier, cercle, au ſuſdit poinct extreme du demy diametre, & tombera tout dedans le meſme cercle. Comme ſi au ſemi-diametre AE, du cercle AF, on prend le poinct D, duquel & interualle DA on deſcrit le cercle ABC, iceluy tombera tout dehors AF, & le touchera au ſeul poinct A. Car puis qu’il a eſté demonſtré cy deſſus que le cercle AF tombe tout debors le cercle ABC, pareillement tout ceſtuy-cy tombera dedans celuy là, tellement qu’ils s’entre touchent au ſeul poinct A.
 
+[Curated heading level=2 type=propositions: THEO. 13. PROP. XIIII.]
+
+[Curated heading level=2 type=theorems: THEO. 13. PROP. XIIII.]
+
 ## THEO. 13. PROP. XIIII.
 
 Dans vn cercle les lignes droictes egales ſont

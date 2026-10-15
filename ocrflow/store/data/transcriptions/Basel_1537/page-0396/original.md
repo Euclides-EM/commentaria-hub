@@ -8,6 +8,8 @@ THEON ex Zamb. Sint quatuor rectæ lineæ proportionales α β, γ δ, ε ζ, η
 
 [Diagram: four parallelepipeds in two rows: the upper pair labelled α, β and γ, δ beneath them, the lower pair labelled μ and ν beside them]
 
+[Curated heading level=2 type=theorems: Theorema 33 Propositio 38]
+
 ## Eucli. ex Zamb. Theorema 33 Propositio 38
 
 [Curated heading level=3 type=zamberti_sequence: 38.]

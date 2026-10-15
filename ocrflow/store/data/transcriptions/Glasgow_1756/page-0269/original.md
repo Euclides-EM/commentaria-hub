@@ -13,6 +13,10 @@ et ſi baſis LF ſuperat NF baſim, et ſolidum LV ſolidum NV ſuperabit; et �
 
 ſumpta ſunt alia utcunque æque multiplicia, nempe baſis FN et ſolidum NV. et demonſtratum eſt ſi baſis LF ſuperat baſim FN et LV ſolidum ſolidum NV ſuperare; et ſi æqualis, æquale; et ſi minor, minus. eſt igitur ut AF baſis ad baſim FH, ita AV ſolidum ad ſolidum ED. Quare ſi ſolidum &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXVI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXVI. PROB.]
+
 ## PROP. XXVI. PROB.
 
 {dropcap:A|lines=2|style=plain}D datam rectam lineam, et ad datum in ipſa punctum dato angulo ſolido tribus planis angulis contento, æqualem angulum ſolidum conſtituere.

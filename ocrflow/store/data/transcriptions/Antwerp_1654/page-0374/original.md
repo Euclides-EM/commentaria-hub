@@ -17,6 +17,8 @@ d Per 14.
 huius.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXVI.]
+
 ## PROPOSITIO XXXVI.
 
 {dropcap:H|lines=2|style=plain}Emiſphærij ſuperficies ( E O B D ) ad coni maximi ſiue recti inſcripti ſuperficiem ( E B D ) eam rationem habet, quam in quadrato diameter ad latus: ad ſuperficiem vero coni ſimilis circumſcripti, vt latus in quadrato ad diametrum.

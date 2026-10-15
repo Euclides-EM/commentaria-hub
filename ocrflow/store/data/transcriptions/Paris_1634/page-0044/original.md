@@ -1,5 +1,7 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=definitions: XVII.]
+
 ### XVII.
 
 Diameter autem circuli, est recta quædam linea per centrum ducta, & ex vtraque parte in circuli peripheriam terminata, quæ circulum bifariam secat. | Le diametre du cercle est vne ligne droicte menee par le centre, & terminé de part & d'autre à la circonference du cercle, laquelle diuise le cercle en deux egalement.
@@ -9,6 +11,8 @@ Diameter autem circuli, est recta quædam linea per centrum ducta, & ex vtraque 
 ABCD est circulus. | ABCD est vn cercle.
 E centrum circuli. | E est le centre du cercle.
 AC diameter circuli. | AC est le diametre du cercle.
+
+[Curated heading level=2 type=definitions: XVIII.]
 
 ### XVIII.
 

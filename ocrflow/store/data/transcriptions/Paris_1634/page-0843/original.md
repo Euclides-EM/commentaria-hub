@@ -15,6 +15,10 @@ Demonstr.
 29. d.1 | ed == fg, ek == lg, dk == fl,
 concl. 15. 11 | △fgl == △edк, &c.
 
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. XV.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. XV.]
+
 ## PROBL. III. PROPOS. XV.
 
 Cubum constituere, & sphæra complecti qua & priores figuras; & demonstrare quod sphæræ diameter potentia sit tripla lateris ipsius cubi.

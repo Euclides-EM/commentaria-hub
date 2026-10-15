@@ -6,6 +6,10 @@ Rectæ lineæ eidem rectæ parallelæ, si in directum continuatæ inter se coean
 
 Les lignes droictes paralleles à vne mesme ligne droicte estäs continuées directement, si elles se rencontrent: elles seront parties d'vne mesme ligne droicte, comme AG & GB sont parties de la droicte AB.
 
+[Curated heading level=2 type=propositions: PROBL. X. PROPOS. XXXI.]
+
+[Curated heading level=2 type=problems: PROBL. X. PROPOS. XXXI.]
+
 ## PROBL. X. PROPOS. XXXI.
 
 A dato puncto, datæ rectæ lineæ parallelam rectam lineam ducere.

@@ -1,6 +1,10 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 74 -->
 
+[Curated heading level=2 type=propositions: PROP. III. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. III. THEOR.]
+
 ## PROP. III. THEOR.
 
 {dropcap:S|lines=2|style=plain}I in circulo recta linea per centrum ducta, rectam lineam quandam non ductam per centrum bifariam ſecet; et ad angulos rectos ipſam ſecabit. quod ſi ad angulos rectos ipſam ſecet, et bifariam ſecabit.

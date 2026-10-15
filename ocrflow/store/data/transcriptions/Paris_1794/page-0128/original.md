@@ -1,6 +1,8 @@
 <!-- Page number: 100 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=2 type=problems: PROBLÊME XI.]
+
 ### PROBLÊME XI.
 
 *Faire un quarré qui soit égal à la somme ou à la différence de deux quarrés donnés.*
@@ -26,6 +28,8 @@ Car le triangle GEH est rectangle, l’hypoténuse GH=A, et le côté GE=B ; don
 [Curated heading level=4: Scholie.]
 
 *Scholie.* On peut trouver ainsi un quarré égal à la différence de tant de quarrés qu’on voudra ; car dès qu’on en réduit deux à un seul, on en réduira trois à deux, et ces deux-ci à un, et ainsi des autres.
+
+[Curated heading level=2 type=problems: PROBLÊME XII.]
 
 ### PROBLÊME XII.
 

@@ -3,6 +3,10 @@
 c.1.13 | • o, est centr.. ⊙ iak &.. ⊙ iek. contr. 5.3.
 21.a.1 | i, k, l, ñ snt intersect.
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. XI.]
+
 ## THEOR. X. PROPOS. XI.
 
 Si duo circuli sese intus contingant, atque accepta fuerint eorum centra; ad eorum centra adiuncta recta linea, & producta, in contactum circulorum cadet.
@@ -27,6 +31,10 @@ suppos | cfgb est —,
 7.3. | ga 3|2 gb,
 1.a.d | gd 3|2 gb, contr. 9.a.1.
 21.a.1 | cfga est —.
+
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XII.]
 
 ## THEOR. XI. PROPOS. XII.
 

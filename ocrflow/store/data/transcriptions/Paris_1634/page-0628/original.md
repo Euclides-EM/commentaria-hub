@@ -16,6 +16,10 @@ hyp. | ab, est ration.
 21.10 | bc, est ration.
 contr. hypoth.
 
+[Curated heading level=2 type=propositions: THEOR. XXVII. PROPOS. XXXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVII. PROPOS. XXXIX.]
+
 ## THEOR. XXVII. PROPOS. XXXIX.
 
 Si duæ mediæ potentia tantùm commensurabiles componantur, quæ medium contineant ; tota irrationalis erit : vocetur autem ex binis mediis secunda.

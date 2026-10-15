@@ -1,6 +1,10 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 118 -->
 
+[Curated heading level=2 type=propositions: PROP. VII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. VII. PROB.]
+
 ## PROP. VII. PROB.
 
 {dropcap:C|lines=2|style=plain}IRCA datum circulum quadratum circumſcribere.

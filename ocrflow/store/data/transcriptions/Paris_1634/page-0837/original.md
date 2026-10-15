@@ -6,6 +6,10 @@ bк, eſt apotom. 4,
 c. 8. 6 | □.ab 2|2 ▭.hbк,
 concl. 95.10 | ab, eſt min.
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XII.]
+
 ## THEOR. XII. PROPOS. XII.
 
 Si in circulo triangulum æquilaterum describatur; trianguli latus potentia triplum est eius lineæ, quæ ex centro circuli ducitur.

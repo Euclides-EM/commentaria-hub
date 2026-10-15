@@ -3,6 +3,10 @@
 
 [Figure: parallelogram T with corners *p*, *q*; quadrilateral V; parallelogram A, C, D, B with points H, K, F, N, E, M, G, I marked and hatched regions; parallelogram X with corners R, S, P, Q]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVIII. PROBLEME VIII.]
+
+[Curated heading level=2 type=problems: PROBLEME VIII. PROPOSITION XXVIII.]
+
 ## PROPOSITION XXVIII. *PROBLEME VIII.*
 
 {dropcap:S|lines=2|style=plain}Elon une droite donnée (AB), appliquer un Parallélogramme (AG) égal à un Rectiligne donné (V), & défaillant d'un Parallélogramme (MI), ſemblable à un Parallélogramme donné (T); mais il faut que le Rectiligne donné (V), ne ſoit pas plus grand, qu'un Parallélogramme (AF) appliqué à la moitié de la droite donnée, ayant ſon défaut (ED) ſemblable au Parallélogramme donné (T).

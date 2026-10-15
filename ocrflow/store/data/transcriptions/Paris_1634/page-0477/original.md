@@ -21,6 +21,10 @@ hyp. | a & c snt pr. ꝫe, δ
 contr. hyp.
 concl. 21.a.1 | c, est pr. π. d.
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXVII.]
+
 ## THEOR. XXV. PROPOS. XXVII.
 
 Si duo numeri primi inter se fuerint ; etiam ex vno eorum genitus ad reliquum primus erit.
@@ -45,6 +49,10 @@ hyp. | a & d snt pr. π. b,
 26.7 | ▭.ad est pr. π. b,
 α | ▭.ad 2|2 □.a, u c,
 concl. 1.a.7 | c, est pr. π. b.
+
+[Curated heading level=2 type=propositions: THEOR. XXVI. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVI. PROPOS. XXVIII.]
 
 ## THEOR. XXVI. PROPOS. XXVIII.
 

@@ -20,6 +20,8 @@ CAMPANVS. Sit linea a b diuisa in duas partes in puncto c, dico quod quadratū t
 
 [Diagram: square a b d e (b bottom left, a bottom right, e top left, d top right); c on bottom side, f on top side; diagonal b d; vertical c f cutting the diagonal at g; horizontal h g k through g (h on side b e, k on side a d)]
 
+[Curated heading level=2 type=theorems: Theorema 7. Propositio 7.]
+
 ## Eucli. ex Zamb. Theorema 7. Propositio 7.
 
 [Curated heading level=3 type=zamberti_sequence: 7.]

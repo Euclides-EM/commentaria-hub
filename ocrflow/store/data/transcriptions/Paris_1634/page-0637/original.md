@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXXVI. PROPOS. XLVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXVI. PROPOS. XLVIII.]
+
 ## THEOR. XXXVI. PROPOS. XLVIII.
 
 Bina media potens, ad vnum duntaxat punctum diuiditur in nomina.

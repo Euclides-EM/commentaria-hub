@@ -5,6 +5,12 @@ Propoſitum octahedrum eſto A B cui inſcribatur cubus F C E D, per quartã dec
 
 [Figure: octahedron with inscribed cube and pyramid, points labelled A, F, G, E, D, C, B]
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſima.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſima. Problema 6.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio trigeſima.]
+
 ## Propoſitio trigeſima. Problema 6.
 
 Trilateram æquilateram Pyramidem, ſibi inſcripti cubi nocuplam eſſe demonſtrare.
@@ -12,6 +18,10 @@ Trilateram æquilateram Pyramidem, ſibi inſcripti cubi nocuplam eſſe demonſ
 Eſto pyramis A B C D, cuius duæ baſes ſint A B C D B C, earum verò centra ſint G & I, ab angulo A in baſim B C perpendicularis agatur A E, ab angulo autem D in baſim eandem B C fiat perpendicularis D E, ipſæ conuenient in E ſectionem, per tertiam tertij, & in eis erunt centra G & I, per corollarium primæ tertij: cùm autem A D ſit pyramidis latus, ipſa A D erit dimetiens baſis cubi pyramidem obeuntis, per primam decimiquinti. Iungantur ideo G I. Quia recta G I cẽtra coniungit baſium pyramidis, ipſa G I erit dimetiens baſis cubi ipſi pyramidi inſcripti, per decimãoctauam decimiquinti, cùm autem A G ſit ipſius G E dupla, ex corollario duodecimo decimitertii, tota A E tripla erit rectæ G E, necnon D E rectæ I E, quare parallelæ ſunt A D G I, per ſecũdam ſexti: & ideo ſimilia A E D G E I triangula, per corollarium eiuſdem. Quia verò ſimilia ſunt triangula A E D G E I, tripla erit A D ipſius G I, per quartam ſexti, ſed A D fuit dimetiẽs baſis cubi pyramidi A B C D circunſcripti, G I verò fuit dimetiens baſis cubi eidem pyramidi A B C D inſcripti, baſium verò dimetientes, laterum ſunt æquemultiplices (nempe potentia dupli) cubi igitur circunſcripti ipſi A B C D pyramidi latus, triplum erit lateris cubi eidem pyramidi inſcripti, per decimamquintam quinti: ſimiles autem cubi triplam habent laterum rationem, per trigeſimamtertiam vndecimi, latera verò triplam inter ſe habent. Tripla itaque ter ſumpta vigeſimamſeptuplam producet, quæ eſt 27 ad 1: nam quatuor terminis 27, 9, 3, 1, in tripla ratione conſtitutis, erit (per decimam diffinitionem quinti) tripla ratio primi 27 ad quartum 1, ſuæ rationis primi 27 ad ſecundum 9, quæ quidem eſt tripla laterum ratio, ſimilibus conueniens ſolidis, qualium itaque circũſcriptus cubus erit 27, eorum inſcriptus erit vnius: ſed qualium circũſcriptus cubus fuit 27 eorum ſibi inſcripta pyramis fuit 9, per vigeſimamquintam huius: qualium igitur pyramis A B C D erit 9, eorum pyramidi inſcriptus cubus erit vnius. Trilateram igitur æquilaterã pyramidem, ſibi inſcripti cubi nocuplam eſſe demonſtrauimus.
 
 [Figure: triangular pyramid with inscribed construction, points labelled A, D, G, I, B, E, C]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaprima.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio trigeſimaprima.]
 
 ## Propoſitio trigeſimaprima.
 

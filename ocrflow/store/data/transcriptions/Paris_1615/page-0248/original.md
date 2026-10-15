@@ -4,6 +4,10 @@
 
 tomme les nombres multipliez ou multiplians B,C, D; c’eſt à dire qui comme B eſt à C, ainſi E à F; & cimme C à D, ainſi F à G Car puis queE, F ſont produicts de A maltipliant E, C, ou de B, C, mul: ipliez par A, comme E ſera à C. uiuſi L ſeraiF par la 17.ou 8p.7 Semblabloment pource que F, G, ſont p oduicts de A en C, D, ou de C, D par A, auſſi comme C ſer a à D, ainſi F à G, & ainſi des autres.
 
+[Curated heading level=2 type=propositions: THEOR. 17. PROP. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. 17. PROP. XIX.]
+
 ## THEOR. 17. PROP. XIX.
 
 Si quatre nombres ſont proportionnaux; le produict du premier & quart, ſera egal au produict du ſecond & tiers. Et ſi le pro duict du premier & quart, eſt egal au produict du ſecõd & tiers; iceux quatre nombres ſont proportionnaux.

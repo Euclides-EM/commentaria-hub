@@ -19,6 +19,8 @@ SINT quarto & ultimo A, C, E, ipſis B, D, F, æquales Quoniam igitur, ſi æqua
 
 [Curated heading level=2 type=campanus: 14]
 
+[Curated heading level=2 type=theorems: THEOR. 11. PROPOS. 13.]
+
 ## THEOR. 11. PROPOS. 13.
 
 [Margin]

@@ -20,6 +20,8 @@ CAMPANVS. Sit quoq̃ hic linea a b, bimediale primũ, diuisa in duas lineas medi
 
 [Diagram: horizontal line with points a, d, c, b; below, a tall rectangle on the line e f, divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]
 
+[Curated heading level=2 type=theorems: Theorema 31 Propositio 43]
+
 ## Eucli. ex Zamb. Theorema 31 Propositio 43
 
 [Curated heading level=3 type=zamberti_sequence: 43.]

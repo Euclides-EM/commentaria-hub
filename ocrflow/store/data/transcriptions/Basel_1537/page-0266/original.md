@@ -14,6 +14,8 @@ Sint enim binæ magnitudines α,β,& alia quædam γ,& α ipsi quidem γ esto co
 
 [Diagram: three horizontal lines labelled α, γ, β]
 
+[Curated heading level=2 type=theorems: Theorema 10 Propositio 13]
+
 ## Eucli.ex Zamb. Theorema 10 Propositio 13
 
 [Curated heading level=3 type=zamberti_sequence: 13.]
@@ -35,6 +37,8 @@ Duabus datis rectis lineis inæqualibus,inuenire quo maius potest maior minore.
 THEON ex Zamb. Sint binæ datæ inæquales rectæ lineæ α β,γ,quarum maior sit α β,oportet iā inuenire quo maius potest α β,quàm ipsa γ.Describatur super α β,semicirculus α δ β,& in ipsum(per 1 quarti,) coaptetur ipsi γ æqualis α δ,cōnectaturq̃ δ β,manifestum est iam quod angulus α δ β,rectus est,& quod α β,ipsa α δ,hoc est quàm ipsa γ maius potest ipsa δ β. Similiter autem & duabus datis rectis lineis,potens ipsas sic inuenietur.Sint datæ binæ rectæ lineæ α δ,δ β,oporteatq̃ inuenire potentem ipsas.Ponantur enim,ut α δ,δ β comprehendāt rectum angulū qui sub α δ β, connectaturq̃ α β.Manifestum rursus est(per 47 primi,quod ipsas α δ,δ β,potens,est ipsa α β.
 
 [Diagram: semicircle on diameter α β with point δ on the arc, chords α δ and δ β drawn; below, a separate line γ]
+
+[Curated heading level=2 type=theorems: Theorema 11 Propositio 14]
 
 ## Eucli.ex Zamb. Theorema 11 Propositio 14
 

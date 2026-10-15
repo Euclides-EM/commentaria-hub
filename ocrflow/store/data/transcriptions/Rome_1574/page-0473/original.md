@@ -24,6 +24,8 @@ ALITER. Quoniã triangula ABF, ADG, ſimilia ſunt, nec non triangula AFC, AGE, 
 
 [Curated heading level=2 type=campanus: 5]
 
+[Curated heading level=2 type=theorems: THEOR. 5. PROPOS. 5.]
+
 ## THEOR. 5. PROPOS. 5.
 
 [Curated heading level=3 type=incipit: SI]

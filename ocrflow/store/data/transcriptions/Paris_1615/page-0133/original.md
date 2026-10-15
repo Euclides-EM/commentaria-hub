@@ -2,7 +2,13 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: ELEMENT QVATRIESME.]
+
+[Curated heading level=1 type=problems: ELEMENT QVATRIESME.]
+
 # ELEMENT QVATRIESME.
+
+[Curated heading level=1 type=definitions: ELEMENT QVATRIESME. DEFINITIONS.]
 
 ## DEFINITIONS.
 

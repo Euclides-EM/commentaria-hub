@@ -13,6 +13,10 @@ Quadratum Diametri, duplum eſt Quadrati cuius ipſa eſt Diameter.
 
 Quod nulla indiget probatione.
 
+[Curated heading level=2 type=propositions: THEOREMA 34, PROPOSITIO XLVIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 34, PROPOSITIO XLVIII.]
+
 ## THEOREMA 34, PROPOSITIO XLVIII.
 
 Si quod ab vno laterum Trianguli fit Quadratum, æquale fuerit duorum reliquorum Quadratis: angulus ab illo latere ſubtenſus, rectus erit.

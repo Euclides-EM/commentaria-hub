@@ -16,6 +16,10 @@ De cecy eſt manifeſté qu’vn rectangle rationtl, peut eſtre compris de lig
 
 Si le reſidu AC eſt 4—√8, tellement que les noms d’iceluy CE, & AE ſoient a, & 8S, mais le binome BC ſoit 3 —√45. le rectangle AB ſera 16, qui eſt rationel: & partant la ligne F qu peut iceluy eſt 4, & par conſequent rationele. Or la rationele G eſtant 8 le rectã gle CH ſera 6a, & le coſté BH 16—√1425, HI16, &BI√1428.
 
+[Curated heading level=2 type=propositions: THEO. 92. PROP. CXVI.]
+
+[Curated heading level=2 type=theorems: THEO. 92. PROP. CXVI.]
+
 ## THEO. 92. PROP. CXVI.
 
 De la ligne mediale naiſſent infinies lignes

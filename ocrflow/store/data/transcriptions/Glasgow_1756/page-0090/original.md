@@ -9,6 +9,10 @@ e. 26. 1.
 
 aequalis igitur eſt AF ipſi FB. ſi igitur in circulo recta linea &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. IV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IV. THEOR.]
+
 ## PROP. IV. THEOR.
 
 {dropcap:S|lines=2|style=plain}I in circulo duae rectae lineae non ductae per centrum ſe invicem ſecent, ſeſe bifariam non ſecabunt.
@@ -30,6 +34,10 @@ b. 3. 3.
 quare rectus eſt FEA angulus. rurſus quoniam recta linea FE rectam lineam BD non ductam per centrum bifariam ſecat, et ad angulos rectos ipſam ſecabitᵇ; rectus igitur angulus eſt FEB. oſtenſus autem eſt rectus et FEA; ergo FEA angulus ipſi FEB aequalis erit, minor majori, quod fieri non poteſt. non igitur AC, BD ſeſe bifariam ſecant. ſi igitur in circulo &c. Q. E. D.
 
 [Diagram: circle labelled A, B, C and D on the circumference, with centre F, intersection E, chords AC and BD, and line FE]
+
+[Curated heading level=2 type=propositions: PROP. V. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. V. THEOR.]
 
 ## PROP. V. THEOR.
 

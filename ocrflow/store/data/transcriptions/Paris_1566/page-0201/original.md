@@ -4,6 +4,8 @@ Sint ab vnitate quotcunque numeri continuè proportionales A B G D, ſit autem q
 
 [Diagram: two columns of horizontal lines labelled Vnitas, A 3, B 9, G 27, D 81 and T, I, Z, E]
 
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
+
 ## Propoſitio decimaquarta.
 
 Si minimum numerum primi numeri menſi fuerint, nullus alius primus numerus ipſum metietur, præter eos qui in principio metiuntur.
@@ -11,6 +13,8 @@ Si minimum numerum primi numeri menſi fuerint, nullus alius primus numerus ipſ
 Eſto minimus A quem metiantur quotlibet primi numeri B G D: Dico nullum alium primum metiri numerum A præter ipſos B G D. Quòd ſi alius primus eum metiri credatur, ſit ille E, qui numerum A per Z metiatur. Quoniam duo numeri E & Z faciunt A, quem metiuntur aliqui primi B G D ſequetur (ex 32 ſeptimi) ipſos B G D vnum ipſorum E vel Z metiri. Atqui ipſum E non metiuntur, cùm ſit primus, ex hypotheſi. Ipſi itaque B G D ipſum Z metientur, minorem quidem numero A quem Z per E menſus eſt. Prior igitur A poſitus non erit minimus ab ipſis B G D menſus (contra hypotheſim) quod eſſet inconueniens. Nullus igitur alius præter ipſos B G D numerum A metietur, ſi itaque minimum numerum, &c.
 
 [Diagram: two columns of horizontal lines labelled B 2, G 3, D 5 and A 30, E, Z]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
 
 ## Propoſitio decimaquinta.
 

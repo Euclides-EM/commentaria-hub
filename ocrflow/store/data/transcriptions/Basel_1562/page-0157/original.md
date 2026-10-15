@@ -1,6 +1,8 @@
 <!-- Running title: Des fünfft bůchs Euclidis -->
 <!-- Page number: 136 -->
 
+[Curated heading level=2 type=propositions: III. Die dryt propoſition]
+
 ## III Die dryt propoſition.
 
 {dropcap:W|lines=2|style=plain}ann zů vier geproportionierten quantiteten / noch zwo andre kommen / alſo das ſich die fünffte halte gegen der erſten / wie die ſechſt gegen der dritten:ſo wirt ſich die fünffte auch halten gegen der andern / wie die ſechſt gegen der dritten.
@@ -8,6 +10,8 @@
 ### Erklärung.
 
 Nun eben die obgeſeßten exempel. 24 iſt zway mal 12. item 16 iſt 2 mal 8. halt ſich auch 24 gegen 3. wie 16 gegen 2. ꝛc.
+
+[Curated heading level=2 type=propositions: IIII. Die vierdte propoſition]
 
 ## IIII Die vierdte propoſition.
 

@@ -30,6 +30,8 @@ CAMPANVS. Sit circulus datus a b cuius centrum c, punctusque datus d, uolo ergo 
 
 [Diagram: two concentric circles with centre c; d at the left upon the outer circle, e at the top upon the outer circle, a and b upon the inner circle; the lines d c, a e, e c and d b are drawn]
 
+[Curated heading level=2 type=problems: Problema 2 Propositio 17]
+
 ## Eucli.ex Zamb. Problema 2 Propositio 17
 
 [Curated heading level=3 type=zamberti_sequence: 17.]

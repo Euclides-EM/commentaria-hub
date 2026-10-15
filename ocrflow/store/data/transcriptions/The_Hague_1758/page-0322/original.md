@@ -3,6 +3,10 @@
 
 [Diagram: a vertical rectangle labelled P and O ſtanding on a parallelogram in perspective labelled X and Z; a vertical line AB deſcends from A to point B on the plane, with a dotted line BC riſing to C and ſmall angle labels a and b at B]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. THEOREME XI.]
+
+[Curated heading level=2 type=theorems: THEOREME XI. PROPOSITION XIII.]
+
 ## PROPOSITION XIII. THEOREME XI.
 
 {dropcap:D|lines=2|style=plain}'Un point (B) dans un Plan (ZX) on ne peut tirer du même coté qu'une ſeule perpendiculaire (AB).

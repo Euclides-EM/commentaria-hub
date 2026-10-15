@@ -24,6 +24,10 @@ hyp. | △efd 2|2 △bca,
 contr. 9.a.1.
 21.a.1. | ad == bf.
 
+[Curated heading level=2 type=propositions: THEOR. XXXI. PROPOS. XLI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXI. PROPOS. XLI.]
+
 ## THEOR. XXXI. PROPOS. XLI.
 
 Si parallelogrammum cum triangulo eandem basin habuerit, in eisdemque fuerit parallelis, duplum erit parallelogrammum ipsius trianguli.

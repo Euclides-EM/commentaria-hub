@@ -1,6 +1,8 @@
 <!-- Running title: Proposition/oder Schlußreden. -->
 <!-- Page number: 27 -->
 
+[Curated heading level=2 type=propositions: XLI. Die ainvndviertzigſt propoſition]
+
 ## XLI Die ainvndviertzigſt propoſition.
 
 [Subhead]

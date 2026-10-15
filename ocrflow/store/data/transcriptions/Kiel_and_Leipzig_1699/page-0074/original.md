@@ -36,6 +36,10 @@ Wann aber die beeden Striche BA und DC in dem Düttel H zusammen kommen / so wer
 
 Wenn derwegen bey den beeden Strichen der einfallende Strich auff einer Seiten zween Winckel/ so kleiner als ⏥, machet so müssen solche Striche auff selbiger Seite/wo die kleinere Winckel stehen/ zusammen kommen. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXIX. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 20. Beweiß-Stück. Der XXIX. Vortrag.]
+
 ## Der XXIX. Vortrag.
 
 ## Das 20. Beweiß Stück.

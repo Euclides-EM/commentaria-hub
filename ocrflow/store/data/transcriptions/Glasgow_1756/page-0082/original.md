@@ -3,6 +3,10 @@
 
 quadratis ex BC, CA et contento bis a BC, CD rectangulo; itaque quadratum ex BA majus eſt quam quadrata ex BC, CA, rectangulo bis ab ipſis BC, CD contento. In obtuſangulis igitur triangulis &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIII. THEOR.]
+
 ## PROP. XIII. THEOR.
 
 [Subhead]

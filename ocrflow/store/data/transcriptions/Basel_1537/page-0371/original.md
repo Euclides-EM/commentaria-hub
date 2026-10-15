@@ -6,6 +6,8 @@ ciem assignatã, erit earũ cõmunis sectio linea recta ex 3 huius, sitq̃ b d. 
 
 [Diagram: two parallel vertical lines a b and c d standing on a horizontal line through b and d; a and c at top, b and d at bottom]
 
+[Curated heading level=2 type=theorems: Theorema 16 Propositio 18]
+
 ## Eucli. ex Zamb. Theorema 16 Propositio 18
 
 [Curated heading level=3 type=zamberti_sequence: 18.]

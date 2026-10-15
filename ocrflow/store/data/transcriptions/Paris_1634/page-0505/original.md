@@ -4,6 +4,10 @@ Demonstr.
 
 concl. 4.c.2.8 | multd.. contin. proport. a, c, d, b, u, e, g, a, & u, f, i, b. snt 2|2 ꝫe,
 
+[Curated heading level=2 type=propositions: THEOR. VIII. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. VIII. PROPOS. X.]
+
 ## THEOR. VIII. PROPOS. X.
 
 Si inter duos numeros, & vnitatem continuè proportionales ceciderint numeri ; quot inter vtrumque ipsorum, & vnitatem deinceps medij continua proportione cadunt numeri, totidem & inter ipsos medij continua proportione cadent.

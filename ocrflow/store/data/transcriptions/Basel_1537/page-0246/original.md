@@ -4,6 +4,8 @@
 
 erit, quotlibet enim posito, per primam partem eiusdem secundum ipsum positum numerabit primus productum, quod positum erat non numerare.
 
+[Curated heading level=2 type=theorems: Theorema 19 Propositio 19]
+
 ## Eucli. ex Zamb. Theorema 19 Propositio 19
 
 [Curated heading level=3 type=zamberti_sequence: 19.]
@@ -35,6 +37,8 @@ THEON ex Zamber. Sint dati tres numeri, α β, γ, sitq̃ * opportunū coniectar
 CAMPANVS. Nihil aliud intenditur, nisi q̃ numeri primi sint infiniti, demonstrare. Sint enim a,b,c, numeri primi, dico esse aliquem primum diuersum ab eis, sit quidem d f minimus quem numerant, cui addita unitate fiat d g, qui est primus aut cōpositus, si primus, constat propositum, si compositus, numerat eum aliquis primus, qui sit h, quem non est possibile esse aliquem ex primis propositis. Si enim esset aliquis eorū, cum quilibet ipsorum numeret d f, ipse quoq̃ numeraret eundem, at quia numerat d g, oporteret ipsum numerare f g qui est unitas, quod est impossibile. Idem sequitur posito d f quotlibet numero quem numerant a,b,c, quare constat propositum.
 
 [Diagram: dotted line with points a, b, c; solid line d–f with the number 105 above, followed by point g; solid line b with the number 53 above]
+
+[Curated heading level=2 type=theorems: Theorema 20 Propositio 20]
 
 ## Eucli. ex Zamb. Theorema 20 Propositio 20
 

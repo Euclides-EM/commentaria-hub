@@ -22,6 +22,10 @@ Welches aber beedes wider das Gegebene.
 
 Müssen also diejenigen Grössen / welche zu einer einigen Grösse gleiche Verhältnüß haben / gleich groß seyn: Und diejenigen Grössen/ zu welchen eine einige Grösse gleiche Verhältnüß hat/ müssen auch gleich groß seyn. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der X. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 10. Beweiß-Stück. Der X. Vortrag.]
+
 ## Der X. Vortrag.
 
 ## Das 10. Beweiß-Stück.

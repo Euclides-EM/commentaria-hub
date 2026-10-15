@@ -29,6 +29,10 @@ hyp. | db est 2,
 1.s.1.d.2 | dg ▭.abd est 14,
 2.a.1. | ▭af + ▭dg snt 49.
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. III.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. III.]
+
 ## THEOR. III. PROPOS. III.
 
 Si recta linea secta sit vtcunque : Rectangulum sub tota & vno segmentorum comprehensum, æquale est illi, quod sub segmentis comprehenditur, rectangulo, & illi, quod à prædicto segmento describitur, quadrato.

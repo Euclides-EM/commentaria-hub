@@ -4,6 +4,10 @@
 □.cf commun. subtr.
 concl. 2.a.1 | □.ab ~ □.cf 2|2 □.ad.
 
+[Curated heading level=2 type=propositions: PROBL. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=problems: PROBL. VII. PROPOS. VII.]
+
 ## PROBL. VII. PROPOS. VII.
 
 Inuenire rectam lineam, ad quam data recta, sit in ratione similium datorum rectilineorum.
@@ -33,6 +37,10 @@ Demonstr.
 constr. | m π n 2|2 cd π l,
 α.c.20.6 | cda π hif 2|2 cd π l,
 concl. 11.5 | cda π hif 2|2 m π n.
+
+[Curated heading level=2 type=propositions: PROBL. VIII. PROPOS. VIII.]
+
+[Curated heading level=2 type=problems: PROBL. VIII. PROPOS. VIII.]
 
 ## PROBL. VIII. PROPOS. VIII.
 

@@ -9,6 +9,10 @@ per antecedentem, diuido in duo æqualia, ducta linea C D. Dico lineam A B bipar
 
 HVIVS quoq́; Problematis compendium è Circulo pendet. Poſitis enim centris in A & B punctis, liberisq́; interuallis, ſed æqualibus : quæ vtrinque ad oppoſitas interſectiones ducetur linea, ſecabit A B per æqualia : Qualis eſt hoc loco linea C D quæ in puncto E, lineam A B æqualiter diuidit. Intelliguntur enim duci A C & B C : vt fiant A E C & B E C Triangula inter ſe æquilatera.
 
+[Curated heading level=2 type=propositions: PROBLEMA 6, PROPOSITIO XI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 6, PROPOSITIO XI.]
+
 ## PROBLEMA 6, PROPOSITIO XI.
 
 Data recta linea, à puncto in ea dato lineam ad perpendiculum erigere.
@@ -20,6 +24,10 @@ Sit data recta linea A B, & in ea datum punctum C : à quo linea perpendicularis
 Quoniam enim duo Triangula A C D & B C D, ex ipſa conſtructione, ſunt inter ſe æquilatera, & per octauam, æquiangula : erunt duo anguli qui ad C æquales, ac proptereà recti, per decimam Definitionem. Quare, per eandem, linea C D perpendicularis, Quod erat faciendum.
 
 Hîc etiam ſatis agnoſcitur Circuli vſus, eadem omninò deſcriptione obſeruata quam in ſuperiore exhibuimus. Illîc enim anguli qui ad E, fuerunt æquales : ac proptereà recti.
+
+[Curated heading level=2 type=propositions: PROBLEMA 7, PROPOSITIO XII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 7, PROPOSITIO XII.]
 
 ## PROBLEMA 7, PROPOSITIO XII.
 

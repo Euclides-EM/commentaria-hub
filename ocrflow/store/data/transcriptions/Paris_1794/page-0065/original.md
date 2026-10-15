@@ -9,6 +9,10 @@
 * Pr. 5.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IX.]
+
 ## PROPOSITION IX.
 
 ### THÉORÊME.
@@ -24,6 +28,10 @@ Car toute oblique CE est plus longue que la perpendiculaire CA ; donc le point E
 [Curated heading level=4: Scholie.]
 
 *Scholie.* On ne peut mener par un point donné A qu’une seule tangente AD à la circonférence ; car si on en pouvoit mener une autre, celle-ci ne seroit plus perpendiculaire au rayon CA ; donc, par rapport à cette nouvelle tangente, le rayon CA seroit une oblique, et la perpendiculaire abaissée du centre sur cette tangente seroit plus courte que CA ; donc cette prétendue tangente entreroit dans le cercle et seroit une sécante.
+
+[Curated heading level=2 type=propositions: PROPOSITION X. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION X.]
 
 ## PROPOSITION X.
 

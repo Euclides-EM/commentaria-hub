@@ -8,6 +8,8 @@ EF, ad BC, & ex proportione P, ad O, hoc eſt, DK, ad AI; componetur etiam propo
 
 [Curated heading level=2 type=campanus: 22]
 
+[Curated heading level=2 type=theorems: THEOR. 18. PROPOS. 24.]
+
 ## THEOR. 18. PROPOS. 24.
 
 [Curated heading level=3 type=incipit: IN]

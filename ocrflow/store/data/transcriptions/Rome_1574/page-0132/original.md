@@ -48,6 +48,8 @@ HVIVS problematis varij eſſe poſſunt caſus, vt ait Proclus. Aut.n.datũ pun
 
 [Curated heading level=2 type=campanus: 3]
 
+[Curated heading level=2 type=problems: PROBL. 3. PROPOS. 3.]
+
 ## PROBL. 3. PROPOS. 3.
 
 [Margin]

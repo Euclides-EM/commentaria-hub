@@ -4,6 +4,10 @@
 
 [Figure: two dotted circles, the larger with points N, M, L, E, G, F and the smaller passing through C and G, with lines AB, BC and the point D above, in a double-ruled frame]
 
+[Curated heading level=2 type=propositions: PROPOSITION II. PROBLEME II.]
+
+[Curated heading level=2 type=problems: PROBLEME II. PROPOSITION II.]
+
 ## PROPOSITION II. PROBLEME II.
 
 {dropcap:D|lines=2|style=plain}'Un point donné (A); mener une droite (AL), égale à une autre droite donnée (BC).

@@ -22,6 +22,8 @@ CAMPANVS Sit enim tota superficies cōstās ex a & b, rationalis. a qua detrahat
 
 [Diagram: a larger rectangle on base c d (c bottom-left, d bottom-right), divided by a horizontal line f–e (f on the left side, e on the right side), with g at the top right]
 
+[Curated heading level=2 type=theorems: Theorema 84 Propositio 108]
+
 ## Eucli.ex Zamb. Theorema 84 Propositio 108
 
 [Curated heading level=3 type=zamberti_sequence: 108.]

@@ -2,6 +2,8 @@
 
 <!-- Page number: 147 -->
 
+[Curated heading level=2 type=problems: Problema 1 Propositio 9]
+
 ## Eucli.ex Zamb. Problema 1 Propositio 9
 
 [Curated heading level=3 type=zamberti_sequence: 9.]
@@ -15,6 +17,8 @@ Data recta linea,imperatam partem abscindere.
 THEON ex Zamberto. Sit data recta linea α β, oportet iam ex ipsa α β, imperatam partem abscindere. Imperetur tertia, & ducatur ab α recta linea α γ, faciens angulum cum α δ, & sumatur contingens signum super α γ, sitque illud δ. & ponatur ipsi α δ, (per 2 primi,) æqualis δ ε, & ε γ, & connectatur β γ, & per δ, ipsi β γ, (per 31 primi,) parallelus excitetur δ ζ. Quoniam igitur trianguli α β γ, ad unum latus β γ, acta est ζ δ, parallelus, proportionaliter igitur est (per 2 sexti,) sicut γ δ, ad δ α, sic β ζ, ad ζ α, dupla autem est γ δ, ipsius δ α, dupla est igitur & β ζ, ipsius ζ α. Tripla igitur est β α, ipsius α ζ. Data igitur recta linea α β, imperata tertia pars ablata est α ζ, quod demonstrasse oportuit.
 
 [Diagram: right triangle with apex α at top, β at bottom left, γ at bottom right; ζ on side αβ joined by a horizontal line to δ on side αγ; ε lower on side αγ]
+
+[Curated heading level=2 type=problems: Problema 2 Propositio 10]
 
 ## Eucli.ex Zamb. Problema 2 Propositio 10
 
@@ -30,6 +34,8 @@ THEON ex Zamberto Sit quidem data recta linea non secta α β, secta uero sit α
 
 [Diagram: right triangle with apex α at top, β at bottom left, γ at bottom right; ζ and η on side αβ; δ and ε on side αγ; horizontal lines ζδ and ηθε parallel to βγ; vertical line δθκ parallel to αβ meeting βγ at κ]
 
+[Curated heading level=2 type=problems: Problema 3 Propositio 11]
+
 ## Eucli.ex Zamb. Problema 3 Propositio 11
 
 [Curated heading level=3 type=zamberti_sequence: 11.]
@@ -44,6 +50,8 @@ THEON ex Zamberto. Sint duæ datæ rectæ lineæ, β α. & α γ, & sitæ sint a
 
 [Diagram: triangle with apex α at top, sides produced to δ at bottom left and ε at bottom right; β on side αδ joined by a horizontal line to γ on side αε, parallel to δε]
 
+[Curated heading level=2 type=problems: Problema 4 Propositio 12]
+
 ## Eucli.ex Zamb. Problema 4 Propositio 12
 
 [Curated heading level=3 type=zamberti_sequence: 12.]
@@ -57,6 +65,8 @@ Tribus datis rectis lineis,quartam proportionalem in uenire.
 THEON ex Zamberto. Sint datæ tres rectæ lineæ α β γ, oportet ipsis α β γ, quartam proportionalē inuenire. Ponantur duæ rectæ lineæ δ ε, & δ ζ: angulū contingentem comprehendentes eum qui est sub ε δ ζ, & ponatur (per 2 primi) ipsi quidem α, æqualis δ η, ipsi autem β, æqualis η ε, & insuper ipsi γ, æqualis δ θ, & coniuncta η θ, parallelus ei excitetur (per 31 primi) per ε, sitq́; ε ζ. Quoniam igitur trianguli δ ε ζ, ad unum latus ε ζ, acta est parallelus η θ, igitur (per 2 sexti,) est sicut δ η, ad η ε, sic δ θ, ad θ ζ, æqualis autem est δ η, ipsi α, & η ε, ipsi β, & δ θ, ipsi γ: est igitur sicut α ad β. sic γ, ad δ ζ. Tribus igitur datis rectis lineis α β γ, quarta proportionalis inuenta est θ ζ, quod oportebat facere.
 
 [Diagram: three horizontal line segments labelled α, γ, β at upper right; below, triangle with apex δ at top left, ε at bottom of the left side, ζ at bottom right; η on side δε, θ on side δζ, with ηθ parallel to εζ]
+
+[Curated heading level=2 type=problems: Problema 5. Propositio 13.]
 
 ## Eucli.ex Zamb. Problema 5. Propositio 13.
 

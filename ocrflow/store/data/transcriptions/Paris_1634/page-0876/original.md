@@ -4,6 +4,10 @@ conſtr. | ge, eſt diamet. □.hgfe, / ea, eſt diamet.. □.ahed,
 47. 1 | ca, cg, ce, ag, ge, ea ſnt 2|2 ꝗe,
 concl. 31. 11 | pyram. agec, eſt inſcri. ꝗn cub. abhdcfe.
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. II.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. II.]
+
 ## PROBL. II. PROPOS. II.
 
 In data pyramide octaedrum describere.
@@ -28,6 +32,10 @@ Demonſtr.
 9. 11 | eg == iк, & ei == gк,
 29. d. 1 | egki, eſt □,
 concl. 31. 11 | egkifh, eſt octaedr. inſcri. ꝗn pyram. abdc.
+
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. III.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. III.]
 
 ## PROBL. III. PROPOS. III.
 

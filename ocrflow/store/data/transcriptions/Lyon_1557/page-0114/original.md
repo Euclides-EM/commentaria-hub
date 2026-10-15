@@ -13,6 +13,10 @@ ALITER rurſus poterimus variare Pentagoni inſcriptionem. Sit Circulus quem mod
 
 SED & conſtituto ad Peripheriam angulo B, triplo anguli D, ductis lineis AH & BH, erit vtraque ipſarum AH & BH latus Pentagoni: ſicut intelligent ij qui ex comparatione angulorum ratiocinari volent. Nam in priori ſpecie, duo anguli B & C Pentagoni, ad Peripheriam, in tres angulos æquales diuiduntur: quorum ſinguli ſunt æquales angulo D. Huiuſmodi autem Demonſtrationes articulatim non exponimus, quò breuitati conſulamus: ac ſatis nobis eſt, ſi eas vtcunque informatas ex aliarum argumento, ſtudioſis examinandas relinquamus. In hac enim Figurarum inſcriptione tam latè patet ſpeculandi campus, vt ſingula aſſequi meditando nemo vnquàm poſſit. Quanquam nos initio cum Campano rem non admodùm vtilem eſſe putabamus. Quum verò attentiùs exploraremus quò ſpectaret hæc tam ordinata tamq́; artificioſa conſtitutio: ſanè comperimus non fruſtrà creditum eſſe, Figuras quantò propius ad Circuli compoſitionem accedunt, tantò perfectiores eſſe. Res igitur hæc tanta eſt, quanta fortaſsè in toto opere Geometrico nulla: ſicut nos aliquando oſtendemus propria commentatione, ſi noſtris inuentis quæ in Geometria quotidie molimur, ſummus ille Geometer annuerit. Ex hac enim materia, nouum velut opificium & hactenus non excogitatum exurgit.
 
+[Curated heading level=2 type=propositions: PROBLEMA 12, PROPOSITIO XII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 12, PROPOSITIO XII.]
+
 ## PROBLEMA 12, PROPOSITIO XII.
 
 Circa datum Circulum, Pentagonum æquilaterum & æquiangulum deſcribere.

@@ -22,6 +22,10 @@ suppos. | adb est —,
 1.a.c | ad + be 3|2 ad + db, contr. 9.a.1.
 21.a.1 | acb est —.
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XIII.]
+
 ## THEOR. XII. PROPOS. XIII.
 
 Circulus circulum non tangit in pluribus punctis, quàm vno, siue intus, siue extra tangat.

@@ -5,6 +5,8 @@ SIC etiam, Si ab æqualibus inæqualia ablata ſint, reliqua erunt inæqualia: q
 
 PORRO in his omnibus pronunciatis, primo exceptò, nomine æqualium quantitatum intelligenda eſt etiam vna & eadem multis communis. Si enim æqualibus idem commune adijciatur, tota fient æqualia: Et ſi ab æqualibus idem commune detrahatur; reſidua æqualia erunt: Et ſi inæqualibus idem commune adijciatur; vel eidem communi addantur inæqualia, tota fient inæqualia: & ſi ab inæqualibus idem commune detrahatur; vel ab eodem communi inæqualia auferantur, reſidua exiſtent inæqualia.
 
+[Curated heading level=2 type=axioms: VI.]
+
 ### VI.
 
 [Curated heading level=4 type=incipit: ET]

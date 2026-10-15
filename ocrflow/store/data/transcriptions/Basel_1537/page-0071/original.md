@@ -24,6 +24,8 @@ CAMPANVS Sint si possibile est, duo circuli, secãtes se in pluribus quàm in du
 
 [Diagram: two circles overlapping in a lens shape; a at the upper left, b at the upper right, d and e within, f below them, c at the lower left]
 
+[Curated heading level=2 type=theorems: Theorema 9. Propositio 10.]
+
 ## Eucli. ex Zamb. Theorema 9. Propositio 10.
 
 [Curated heading level=3 type=zamberti_sequence: 10.]

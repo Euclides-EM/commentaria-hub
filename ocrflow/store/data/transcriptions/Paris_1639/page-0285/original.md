@@ -7,6 +7,10 @@
 β.2.a.1 | ad *eſt* 18,
 β.3.a.1 | db *eſt* 8.
 
+[Curated heading level=2 type=propositions: PROBL. X. PROPOS. XXX.]
+
+[Curated heading level=2 type=problems: PROBL. X. PROPOS. XXX.]
+
 ## PROBL. X. PROPOS. XXX.
 
 Coupper vne ligne droicte proposée & terminée, selon la moyenne & extréme raison.
@@ -29,6 +33,10 @@ ba π ag 2|2 ag π gb.
 
 conſtr. | ▭.abg 2|2 □.ag,
 concl. 14.6 | ab π ag 2|2 ag π bg.
+
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXXI.]
 
 ## THEOR. XXI. PROPOS. XXXI.
 

@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
+[Curated heading level=2 type=axioms: XII.]
+
 ### XII.
 
 Numerus metiens totum & ablatum, metitur & reliquum.
@@ -12,6 +14,10 @@ hyp. | a 2|2 b + c,
 hyp. | d, msur: a,
 hyp. | d, msur: b,
 12.a.7 | d, msur: c.
+
+[Curated heading level=2 type=propositions: THEOR. I. PROPOS. I.]
+
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. I.]
 
 ## THEOR. I. PROPOS. I.
 

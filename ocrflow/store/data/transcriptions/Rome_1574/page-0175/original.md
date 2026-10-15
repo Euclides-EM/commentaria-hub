@@ -30,6 +30,8 @@ nor eſt ſemper angulo D E F; cum angulus D E G, (qui æqualis eſt, per 4. pro
 
 [Curated heading level=2 type=campanus: 25]
 
+[Curated heading level=2 type=theorems: THEOR. 16. PROPOS. 25.]
+
 ## THEOR. 16. PROPOS. 25.
 
 [Curated heading level=3 type=incipit: SI]

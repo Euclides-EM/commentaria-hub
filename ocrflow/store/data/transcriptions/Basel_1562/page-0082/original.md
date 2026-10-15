@@ -24,6 +24,8 @@ Volgt auß der 32 propoſ. deſſelben das yeder ſolcher winckel der halbtail a
 
 Dann der linj √50 quadrat / iſt zwaymal ſo groß / als das quadrat der halben fürgenomen linj / auß krafft der 47 propoſ. des erſten bůchs. Auß dem ſelben grund iſt auch das quadrat von der linj mit √8 bezaichnet / zwaymal ſo groß / als das quadrat des vnderſchaids oder der linj 2 (gleichs für gleichs on irrthumb genomen.) Nun iſt auß bemelter 47 propoſ. das quadrat der letſt gezognen linj / ſo mit √58 gemerckt / ſo groß als die quadrat von 7 vnd 3 / als vngleichen tailen der fürgebnen lini. Dieweil aber eben das ſelb quadrat ſo groß iſt als die quadrat von √50 vnd √8 auß offtgemelter vrſach / vnd aber die ſelben zwaymal ſo groß als die quadrat von der halben lini vnnd dem exceß / oder vnderſcheid 2. iſt die warhait diſer propoſ. erwiſen. Hab diſe propoſ. wie auch die volgend / dieweil ſy ain ſchöne vebung iſt / oder 47 vnd auch anderer propoſ. des erſten bůchs / vnnd feine exempel der Coß gibt / wöllen demonſtriern.
 
+[Curated heading level=2 type=propositions: X. Die zehendt propoſition]
+
 ## X. Die zehendt propoſition.
 
 {dropcap:S|lines=2|style=decorated}o ain lini in gleiche tailen / zwai geſchnitten / vnd ainandere ſtracks an ſy gehenckht wirtt / ſeind die quadrat von der gantz lini vnd dem zůſatz (als ainer lini) vnd von dem zůſatz / ſambtlich zwaymal ſo groß / als die quadrat der halben lini / vnd der lini / ſo auß der halben vnd dem zůſatz zůſamen geſetzt wirdt / ſambtlich.

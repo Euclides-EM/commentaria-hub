@@ -3,6 +3,10 @@
 
 [Diagram: within a ruled border, a horizontal parallelogram plane labelled Z X, on which stand two intersecting vertical planes E A B and C D B F, meeting in the line A B]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIX. THEOREME XVII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVII. PROPOSITION XIX.]
+
 ## PROPOSITION XIX. THEOREME XVII.
 
 {dropcap:S|lines=2|style=plain}I deux Plans (CD & EF) qui inſiſtent perpendiculairement ſur un Plan (ZX) s'entre-coupent; la ligne de commune Section (AB) ſera auſſi perpendiculaire ſur le même Plan (ZX).

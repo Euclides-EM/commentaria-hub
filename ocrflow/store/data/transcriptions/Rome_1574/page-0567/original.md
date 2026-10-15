@@ -4,6 +4,8 @@ ritur, ut quæuis tria unius latera proportionalia ſint tribus quibuslibet late
 
 ITAQVE poſſunt duo numeri plani, uel ſolidi, eſſe ſimiles, licet lateribus aliquibus unius acceptis nullo modo reperiri queant latera alterius proportionalia. Sunt enim hi numeri plani 24. 6. ſimiles, ut dictũ eſt; & tamen ſi latera prioris ſumantur 3. & 8 nulla reperientur in poſteriori illis proportionalia. Sic etiam ſolidi ſimiles ſunt 192. 24. cum tamen lateribus prioris aſſumptis 3. 4. 16. nulla reperiantur proportionalia in poſteriori.
 
+[Curated heading level=2 type=definitions: XXII.]
+
 ### XXII.
 
 [Curated heading level=4 type=incipit: PERFECTVS]

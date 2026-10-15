@@ -8,6 +8,8 @@
 d Per 8. l.1.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO VI.]
+
 ## PROPOSITIO VI.
 
 {dropcap:S|lines=2|style=plain}I duo triangula (P, S) habeant vnum angulum (A) æqualem vni (O) & latera (AB, AC; RF, RQ) quæ æquales angulos continent, proportionalia; triangula erunt ſimilia.
@@ -29,6 +31,8 @@ o Per 4.l.1.
 [Margin]
 d Per 4.l.6.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO VII.]
 
 ## PROPOSITIO VII.
 

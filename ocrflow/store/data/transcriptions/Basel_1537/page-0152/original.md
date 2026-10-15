@@ -22,6 +22,8 @@ CAMPANVS. Sint duo trianguli a b c,d e f æquianguli: sitqꝫ angulus a æqualis
 
 [Diagram: two triangles: one with apex a and base b c; the other with apex g, point a on its left side, point d on the right, and base e f c, with inner lines drawn]
 
+[Curated heading level=2 type=theorems: Theorema 4. Propositio 4.]
+
 ## Eucli.ex Zamb. Theorema 3{printer-error-correction:4}. Propositio 4.
 
 [Curated heading level=3 type=zamberti_sequence: 4.]

@@ -11,6 +11,10 @@ eſt KH ipſi CD. communis auferatur CH; ergo reliqua KC reliquae HD eſt aequal
 
 [Diagram: four vertical lines labelled A, G, B; K, C, H, D; E; and F]
 
+[Curated heading level=2 type=propositions: PROP. A. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. A. THEOR.]
+
 ## PROP. A. THEOR.
 
 {dropcap:S|lines=2|style=plain}I prima ad ſecundam eandem habet rationem quam tertia ad quartam, fueritque prima major ſecunda; erit tertia major quarta; et ſi aequalis, aequalis; et ſi minor, minor.

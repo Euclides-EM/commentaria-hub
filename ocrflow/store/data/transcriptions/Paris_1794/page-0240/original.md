@@ -1,6 +1,10 @@
 <!-- Page number: 212 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VIII.]
+
 ## PROPOSITION VIII.
 
 ### THÉORÊME.

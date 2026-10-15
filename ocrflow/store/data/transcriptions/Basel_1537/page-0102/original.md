@@ -4,6 +4,8 @@
 
 quoq̃ modo probabitur quēlibet partialiū angulorū à prædictis diametris & lateribus quadrati propositi contentorū, esse medietatē recti. Quia igitur angulus e a d, est æqualis angulo e d a, erit per 6 primi, linea e a, æqualis lineæ e d. Eadem ratione erit e a æqualis e b, & e c, æqualis e d, quare quia quatuor lineæ a, e b, c, e d, sunt æquales, erit per 9 tertij, e centrum circuli quæsiti, quod est propositum.
 
+[Curated heading level=2 type=problems: Problema 9 Propositio 9]
+
 ## Eucli.ex Zamb. Problema 9 Propositio 9
 
 [Curated heading level=3 type=zamberti_sequence: 9.]

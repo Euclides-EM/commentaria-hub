@@ -32,6 +32,10 @@ Demonstr.
 3.c.12.13 | ad, Ⅱ de 2|2, 2df,
 concl. 2. a. 1 | af 2|2, 3df.
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. XIII.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. XIII.]
+
 ## PROBL. I. PROPOS. XIII.
 
 Pyramidem constituere, & data sphæra complecti; & demonstrare, quòd sphæræ diameter potentia sit sesquialtera lateris ipsius pyramidis.

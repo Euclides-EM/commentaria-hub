@@ -17,6 +17,8 @@ PAPPVS cõſtruit figurã aliter. Nam ſumit rectas AC, AE; et AB, AG, in direct
 
 [Curated heading level=2 type=campanus: 47]
 
+[Curated heading level=2 type=theorems: THEOR. 34. PROPOS. 48.]
+
 ## THEOR. 34. PROPOS. 48.
 
 [Margin]

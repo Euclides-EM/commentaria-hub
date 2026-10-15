@@ -5,6 +5,10 @@ s.12.10 | ▭.ab,de, est ration.
 s.22.10 | ▭.ae,eb 2|2 ▭.ab,de,
 3.concl. 12.10 | ▭.ae,eb, est ration.
 
+[Curated heading level=2 type=propositions: PROBL. XII. PROPOS. XXXVI.]
+
+[Curated heading level=2 type=problems: PROBL. XII. PROPOS. XXXVI.]
+
 ## PROBL. XII. PROPOS. XXXVI.
 
 Inuenire duas rectas lineas potentia incommensurabiles quæ faciant & compositum ex ipsarum quadratis medium, & rectangulum sub ipsis contentum medium, incommensurabiléque composito ex ipsarum quadratis.

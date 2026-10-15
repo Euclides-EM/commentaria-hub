@@ -5,6 +5,10 @@ micirculum, ſecundùm ſpatium B A : cuius centrum B : & alterum A G E, ſecund
 
 H I C etiam obiter monebimus hanc Propoſitionẽ in communi iudicio poſitam eſſe, vt ſuperiorem. Nam ſi duo Triangula pro vno intelligamus : ſcilicet Triangulum A B C, cuius baſis A C : & Triangulum A C D, cuius baſis A D : quum duo latera A B & B C vnius, ſint æqualia duobus A C & C B alterius, baſisq́; A C æqualis baſi A B : erit, ex definitione æqualium angulorum, ſeu per antecedentem, A B C angulus, æqualis A C B angulo, Quod eſt prius. Tum, ex poſteriori noſtra conſtructione, de duobus angulis B C E & C B D idem erit iudicium : quum probatæ fuerint baſes B E & C D æquales.
 
+[Curated heading level=2 type=propositions: THEOREMA 3, PROPOSITIO VI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 3, PROPOSITIO VI.]
+
 ## THEOREMA 3, PROPOSITIO VI.
 
 Cuiuſcunque Trianguli duo anguli æquales fuerint : duo quoq; latera illos angulos ſubtendentia, æqualia erunt.
@@ -16,6 +20,10 @@ Hæc eſt Conuerſa prioris partis antecedentis Propoſitionis. Sit Triangulũ A
 Nam ſi æqualia non ſint : maius ſit A B, ſi fieripoſſit : à quo reſcindatur D B æquale ipſi A C, per tertiam Propoſitionem : vt ſint duo Triangula A C B & D B C. Et quoniam duo latera D B & B C, Trianguli D B C, ſunt æqualia duobus lateribus A C & C B, Trianguli A C B : & angulus B æqualis angulo C toti, ex hypotheſi : erit per quartam, baſis B C, baſi A B æqualis : & angulus D C B angulo A B C æqualis. Quare quum angulus A C B, angulo A B C ſit poſitus æqualis : erit, per primam animi Notionem, angulus D C B, angulo A C B æqualis, pars toti : quod eſſe non poteſt.
 
 A N I M A D V E R T E N D V M, Conuerſas Propoſitionũ in vniuerſum eſſe veras, ſicut & Principiorum. Quum enim dicimus, Quæ ſunt vni æqualia, inter ſe ſunt æqualia : ſimul cognoſcimus, ſi vnum quippiam fuerit duobus æquale, hæc duo inter ſe æqualia eſſe : Et, Si duo reliqua æqualia fuerint, & partes ab vtraque ablatæ æquales : tota quoque conſtat fuiſſe æqualia. Horum itaque Conuerſas reticuit Euclides vt notiſſimas : Propoſitionum verò expreſſit, quòd minus ſimplices eſſent, neque magis per ſe notæ quàm Directæ ipſæ : Deinde, quòd non ſtatim ad ſuas Directas conſequerentur, vt ad Principia ſuæ : & nonnunquam externis probationibus egerent, vt in ſequentibus paſſim occurret.
+
+[Curated heading level=2 type=propositions: THEOREMA 4, PROPOSITIO VII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 4, PROPOSITIO VII.]
 
 ## THEOREMA 4, PROPOSITIO VII.
 

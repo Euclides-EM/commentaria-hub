@@ -1,21 +1,31 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 223 -->
 
+[Curated heading level=2 type=definitions: DEF. XIV.]
+
 ### XIV.
 
 Sphaera eſt figura deſcripta, quando ſemicirculi manente diametro, circumductus ſemicirculus revolvitur, donec in eundem locum a quo moveri coeperat reſtituatur.
+
+[Curated heading level=2 type=definitions: DEF. XV.]
 
 ### XV.
 
 Axis autem ſphaerae eſt quieſcens illa recta linea circum quam ſemicirculus convertitur.
 
+[Curated heading level=2 type=definitions: DEF. XVI.]
+
 ### XVI.
 
 Centrum ſphaerae eſt idem quod et ſemicirculi.
 
+[Curated heading level=2 type=definitions: DEF. XVII.]
+
 ### XVII.
 
 Diameter autem ſphaerae eſt recta quaedam linea per centrum ducta, et utrinque a ſphaerae ſuperficie terminata.
+
+[Curated heading level=2 type=definitions: DEF. XVIII.]
 
 ### XVIII.
 
@@ -23,13 +33,19 @@ Conus eſt figura deſcripta, quando rectanguli trianguli manente uno latere eor
 
 Et ſi quidem quieſcens recta linea aequalis ſit reliquae circa rectum angulum, quae ſc. convertitur, orthogonius erit conus; ſi vero minor, amblygonius; ſi vero major, oxygonius.
 
+[Curated heading level=2 type=definitions: DEF. XIX.]
+
 ### XIX.
 
 Axis autem Coni eſt quieſcens illa recta, circa quam triangulum convertitur.
 
+[Curated heading level=2 type=definitions: DEF. XX.]
+
 ### XX.
 
 Baſis vero Coni eſt circulus qui a circumducta recta linea deſcribitur.
+
+[Curated heading level=2 type=definitions: DEF. XXI.]
 
 ### XXI.
 

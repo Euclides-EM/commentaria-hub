@@ -4,11 +4,15 @@ voudra continuellement proportionnelles, la raison de la premiere à la quatries
 
 Pareillement la raison de la premiere à la cinquiesme est sesquitierce de la raison de la premiere à la quatriesme, &c.
 
+[Curated heading level=2 type=definitions: DEF. XI.]
+
 ### XI.
 
 Les grandeurs sont dites homologues, ou de semblable raison, les antecedentes aux antecedentes, & les consequentes aux consequentes.
 
 C'est à dire, que si plusieurs antecedens ont mesme raison à leurs consequens, tous les antecedens seront homologues entr'eux, & aussi les consequens entr'eux: mais vn antecedent & vn consequẽt ne sont pas homologues entr'eux.
+
+[Curated heading level=2 type=definitions: DEF. XII.]
 
 ### XII.
 

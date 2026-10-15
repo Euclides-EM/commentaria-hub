@@ -11,6 +11,8 @@ SINT tres rectæ AB, BC, CD; oporteatq́ue inuenire quartam, quæ ad CD, tertiam
 
 [Curated heading level=2 type=campanus: 9]
 
+[Curated heading level=2 type=problems: PROBL. 5. PROPOS. 13.]
+
 ## PROBL. 5. PROPOS. 13.
 
 [Margin]

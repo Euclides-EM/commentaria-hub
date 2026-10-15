@@ -3,6 +3,10 @@
 
 [Diagram: square K B E N with diagonal E K; line H G F through the square; vertical line L C through G; points K, L, N at top; B, C, E at bottom; small letters a, c, b near G with dotted curve]
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THEOREME VII.]
+
+[Curated heading level=2 type=theorems: THEOREME VII. PROPOSITION VII.]
+
 ## PROPOSITION VII. *THEOREME VII.*
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (BE) eſt coupée en deux parties quelconques (BC, CE): le quarré de la droite entiere (BE) & le quarré de l'une des parties (comme CE), ſont égaux au double rectangle compris de la droite entiere (BE) & de la même partie (EC) priſe auparavant, avec le quarré de l'autre partie (BC).

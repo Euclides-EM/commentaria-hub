@@ -1,9 +1,11 @@
 <!-- Running title: LIBER TERTIVSDECIMVS. -->
 <!-- Page number: 168 -->
 
-## Corollarium.
+### Corollarium.
 
 Hinc ſequitur lateris exagoni extrema & media ratione ſecti, maius ſegmentum eſſe latus decagoni, eidem circulo inſcriptorum. Si enim à recta D G ſecetur æqualis ipſi G B, dicemus eſſe ſicut tota D B ad totam D G, ablatam D G ad ablatam G B, erit igitur (ex decimanona quinti) reliqua ad reliquam, ſicut tota ad totam. Quare ſimiliter ſecta erit D G ipſi D B, media & extrema ratione, per tertiam diffinitionem ſexti, &c.
+
+[Curated heading level=2 type=propositions: Propoſitio decima.]
 
 ## Propoſitio decima.
 
@@ -13,9 +15,11 @@ Deſcribatur in circulo A G D quinquãgulum A B G D E æquilaterum, cuius vnum l
 
 [Figure: circle with centre Z and inscribed pentagon A B G D E, with points K, M, T, N and L marked and lines drawn from the vertices through the centre]
 
-## Corollarium.
+### Corollarium.
 
 Perpendicularis in baſim pentagoni per centrum trãſit. Nam recta A L per cẽtrum Z ducta bifariam ſecat arcum G D, vt patuit. Anguli igitur G Z L & D Z L æquales erunt, per 26 tertij, & æquis lateribus comprehenſi, baſes ideo æquales erunt, per quartam primi. Secta eſt igitur G D bifariã. & ideo ad rectos (per tertiam tertij) à recta A Z L perpendiculari.
+
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
 
 ## Propoſitio vndecima.
 

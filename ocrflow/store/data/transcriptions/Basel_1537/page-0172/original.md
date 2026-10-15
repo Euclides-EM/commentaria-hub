@@ -6,6 +6,8 @@
 
 [Diagram: rectangle with f and g on the top edge, d at the right side, e inside at the middle right, a (bottom left), c (bottom middle), b (bottom right); a vertical line below f, a horizontal mid line, and a diagonal running down to b]
 
+[Curated heading level=2 type=theorems: Theorema 20 Propositio 27]
+
 ## Eucli. ex Zamb. Theorema 20 Propositio 27
 
 [Curated heading level=3 type=zamberti_sequence: 27.]

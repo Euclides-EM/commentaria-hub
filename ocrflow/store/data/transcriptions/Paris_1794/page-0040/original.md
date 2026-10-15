@@ -5,6 +5,10 @@ On a pareillement BD < BA+AD ; ajoutant de part et d’autre DC, on aura BD+DC <
 
 [Diagram: two faint hand-drawn triangles with letter labels]
 
+[Curated heading level=2 type=propositions: PROPOSITION X. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION X.]
+
 ## PROPOSITION X.
 
 ### THÉORÊME.

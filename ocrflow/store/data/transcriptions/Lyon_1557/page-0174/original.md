@@ -21,6 +21,10 @@ Ponam angulum C A D rectum : Et connectam D C. Eritq́;, per hanc trigeſimamſe
 
 Poterit & ab impoſſibili demonſtrari, quomodo vltimã Primi probauimus. Quod ſatis intelliget, qui noſtram Demonſtrandi rationem illîc perceperit.
 
+[Curated heading level=2 type=propositions: THEOREMA 23, PROPOSITIO XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 23, PROPOSITIO XXXIII.]
+
 ## THEOREMA 23, PROPOSITIO XXXIII.
 
 In Circulis æqualibus, anguli & qui ad Centra, & qui ad Peripherias conſiſtunt, inter ſe ſic habent, vt Arcus illos angulos ſuſcipientes. Sed & ſic Sectores inter ſe.

@@ -55,6 +55,10 @@ Demonstr.
 α.13.5 | e π d 3|2 a π bue π f,
 3.concl. 10.5 | d 2|3 f.
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXII.]
+
 ## THEOR. XXII. PROPOS. XXII.
 
 Si sint quotcunque magnitudines, & aliæ ipsis

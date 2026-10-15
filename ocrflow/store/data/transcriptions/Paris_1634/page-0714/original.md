@@ -13,6 +13,10 @@ suppos. | □.ck 3|2 □.fк..□. ——, incomm. cк,
 4d.85 10 | cf, est apotom. 4.
 2 concl. 95.10 | ▭ce, Ⅱ □.h, est min.
 
+[Curated heading level=2 type=propositions: THEOR. LXXXVI. PROPOS. CX.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXXVI. PROPOS. CX.]
+
 ## THEOR. LXXXVI. PROPOS. CX.
 
 Rationali à medio detracto; aliæ duæ irrationales fiunt, vel mediæ apotome prima, vel cum rationali medium totum efficiens.

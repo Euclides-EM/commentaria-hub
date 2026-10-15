@@ -4,6 +4,10 @@
 
 contr. 27.10.
 
+[Curated heading level=2 type=propositions: THEOR. LXVI. PROPOS. LXXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. LXVI. PROPOS. LXXXIV.]
+
 ## THEOR. LXVI. PROPOS. LXXXIV.
 
 Ei, quæ cum rationali mèdium totum facit, vna tantùm congruit recta linea potentia incommensurabilis existens toti, & cum tota faciens compositum quidem ex ipsarum quadratis medium; quod autem sub ipsis continetur rationale.

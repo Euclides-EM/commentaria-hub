@@ -8,6 +8,8 @@
 
 [Curated heading level=2 type=campanus: 44]
 
+[Curated heading level=2 type=problems: PROBL. 12. PROPOS. 44.]
+
 ## PROBL. 12. PROPOS. 44.
 
 [Margin]

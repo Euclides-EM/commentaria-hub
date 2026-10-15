@@ -7,6 +7,10 @@ Coroll.
 γ.14.10 | ▭.acb, & 2▭acb snt incom. □.ab, □.bc,
 & aggreg..□.ab + □bc.
 
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXVII.]
+
 ## THEOR. XXIV. PROPOS. XXVII.
 
 Medium non superat medium rationali.

@@ -34,6 +34,10 @@ constr. | am 2|2 mb,
 41.1 | ▭.ab,ao 2|2, 2 Δabc
 concl. 7.a.1 | ▭.ap 2|2 Δabc.
 
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. III.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. III.]
+
 ## PROBL. III. PROPOS. III.
 
 Dato triangulo æquale quadratum describere.

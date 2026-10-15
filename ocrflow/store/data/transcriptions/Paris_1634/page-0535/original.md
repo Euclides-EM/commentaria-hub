@@ -18,6 +18,10 @@ Item omnes numeros, quorum exponentes numerus senarius metitur, esse cubos simul
 
 *Et aussi que les nombres, les exposans desquels peuuent estre mesurez par six, sont cubes & quarrez : comme F,&c.*
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. IX.]
+
 ## THEOR. IX. PROPOS. IX.
 
 Si ab vnitate quotcunque numeri deinceps proportionales fuerint ; qui verò post vnitatem sit quadratus, & reliqui omnes quadrati erunt. At si qui post vnitatem sit cubus, & reliqui omnes cubi erunt.

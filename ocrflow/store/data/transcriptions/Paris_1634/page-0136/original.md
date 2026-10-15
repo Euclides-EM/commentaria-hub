@@ -8,6 +8,10 @@ constr. | ◊df 2|2 a,
 constr. | ◊dh 2|2 b,
 3.a.1. | ◊gf 2|2 a~b.
 
+[Curated heading level=2 type=propositions: PROBL. XIV. PROPOS. XLVI.]
+
+[Curated heading level=2 type=problems: PROBL. XIV. PROPOS. XLVI.]
+
 ## PROBL. XIV. PROPOS. XLVI.
 
 A data recta linea quadratum describere.

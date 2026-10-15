@@ -1,6 +1,10 @@
 <!-- Running title: LIBER UNDECIMUS. -->
 <!-- Page number: 279 -->
 
+[Curated heading level=2 type=propositions: PROP. XXXVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXVI. THEOR.]
+
 ## PROP. XXXVI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I tres rectae lineae proportionales ſint, ſolidum parallelepipedum quod a tribus fit, aequale eſt ſolido parallelepipedo quod fit a media, aequilatero quidem, cujuſque unus angulus ſolidus continetur tribus angulis planis, aequalibus planis angulis quibus unus ſolidus angulus antedicti ſolidi continetur, ſinguli ſingulis.

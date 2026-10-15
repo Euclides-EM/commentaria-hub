@@ -8,6 +8,8 @@ Ex qua demonſtratione etiã manifeſtum relinquitur, priorum duorum numerorum A
 
 [Curated heading level=2 type=campanus: 18]
 
+[Curated heading level=2 type=theorems: THEOR. 17. PROPOS. 19.]
+
 ## THEOR. 17. PROPOS. 19.
 
 [Margin]

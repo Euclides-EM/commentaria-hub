@@ -17,6 +17,10 @@ c. 22. 5.
 
 ex aequali, erit D ad F, ut K ad M. ſi igitur &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. K. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. K. THEOR.]
+
 ## PROP. K. THEOR.
 
 {dropcap:S|lines=2|style=plain}I fuerint quotcunque rationes, quae dicantur priores, fuerintque aliae quotcunque rationes, quae dicantur poſteriores; ſitque ratio quae compoſita eſt ex rationibus quae eaedem ſunt rationibus prioribus, ſingulae ſingulis, eadem rationi quae compoſita eſt ex rationibus quae, ſingulae ſingulis, eaedem ſunt rationibus poſterioribus: una vero ratio ex prioribus, vel ratio quae compoſita eſt ex rationibus quae, ſingulae ſingulis, eaedem ſunt totidem ex prioribus, eadem ſit uni rationi ex poſterioribus, vel rationi quae compoſita eſt ex rationibus quae, ſingulae ſingulis, eaedem ſunt totidem ex poſterioribus: erit reliqua ratio ex prioribus, vel, ſi plures fuerint, erit ratio quae compoſita eſt ex rationibus quae eaedem ſunt reliquis ex prioribus, ſingulae ſingulis, eadem rationi reliquae ex poſterioribus, vel, ſi plures fuerint, rationi quae compoſita eſt ex rationibus quae, ſingulae ſingulis, eaedem ſunt reliquis ex poſterioribus.

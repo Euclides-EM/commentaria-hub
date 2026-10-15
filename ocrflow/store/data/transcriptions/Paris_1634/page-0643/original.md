@@ -38,6 +38,10 @@ arbitr. | de, est 6,
 β.12.6 | ef, est √.24,
 2.a.1 | df est 6 + √.24.
 
+[Curated heading level=2 type=propositions: PROBL. XVII. PROPOS. LIII.]
+
+[Curated heading level=2 type=problems: PROBL. XVII. PROPOS. LIII.]
+
 ## PROBL. XVIII{printer-error-correction:XVII}. PROPOS. LIII.
 
 Inuenire ex binis nominibus quintam.

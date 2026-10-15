@@ -8,6 +8,10 @@ l.79.10 | □.ac + □.bc .∼: □.ad + □.bd 2|2, 2▭.acb .∼: / 2▭.adb,
 α | □.ac + □ bc .∼: □.ad + □.bd, est ration.
 β | contr. s. 27.10.
 
+[Curated heading level=2 type=propositions: THEOR. LXVII. PROPOS. LXXXV.]
+
+[Curated heading level=2 type=theorems: THEOR. LXVII. PROPOS. LXXXV.]
+
 ## THEOR. LXVII. PROPOS. LXXXV.
 
 Ei, quæ cum medio medium totum facit, vna tantùm congruit recta linea potentia incommensurabilis existens toti, & cum tota faciens & compositum ex ipsarum quadratis medium, & quod sub ipsis continetur medium, incommensurabiléque composito ex ipsarum quadratis.

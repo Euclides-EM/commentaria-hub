@@ -5,13 +5,15 @@ Triãgulorum ABG & DGE bina latera AG GD angulum AGD componant, Sintque ea later
 
 [Diagram: two triangles labelled ABG and DGE]
 
-## MONITVM.
+### MONITVM.
 
 Hoc theorema reperimus velut confuſum, cuius licet ponantur à Theone ſumptæ hypotheſes, non ſemper ſequetur haberi neceſſariam concluſionem, ſupponit quidem triangula componi ad vnum angulum, cùm debeat tantùm duo triangulorum latera, inter quæ nullum aliud cadit latus angulum componentia proferre. Bina etenim triangula ABG & DBE (ſiquidem Theonem inſequamur) ad vnum angulum abſque angulorum communitate componi non poſſunt: ſi verò ad ſignum concurrere intelligat, nec id ſubſiſtet.
 
 [Diagram: two triangles labelled ABG and DBE]
 
 Duo nanque triangula ABG DBE cõponuntur ad vnũ angulum B, duo latera AG GB duobus BD DE proportionalia habentia, vtq; eiuſdẽ rationis latera ſint parallela, ſcilicet AG ad BD & GB ad DE. Huc vſque ſeruata hypotheſi incorrupta, nihilominus abeſt concluſio, ſcilicet reliqua latera AB BE eſſe in rectum poſita. Cãpanus autem nulla ſupponit in hypotheſi triangula, & tamen poſtmodum triangula concludit, ſuper eandem rectam conſtitui, quæ confuſiones eos hanc quodammodo intellexiſſe fatetur, poſteris autem tradidiſſe minimè. Qua de re, quod Geometriæ plus conducere arbitrati ſumus Euclidem ſenſiſſe diximus. Duo quippe triangula duobus ſingulorum lateribus vnicum angulum componere, & inſuper ea angulum componentia latera ſingula, ſingulis aliis parallela eſſe, eaque eadem ad ſibi parallela latera rationes habere reciprocas. Nam id cogit triangula tandem æquiangula fieri: ſi etenim angulum conſtituentia, ad parallelas ſimiles haberent rationes, reliquæ in rectam non caderent lineam. Ea quippe de cauſa videmus Theonem ſua demonſtratione tacuiſſe angulum, ex hypotheſi memoratum, ſcilicet AGD, cùm eius anguli latera ſimilem non habeãt ad parallelas, ſed reciprocam rationem. Aſſumitur autem hoc theorema demonſtrandis poſt vndecimum librum propoſitis maximè decimoſeptimo decimi tertij ac aliis pleriſque.
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimatertia.]
 
 ## Propoſitio trigeſimatertia.
 

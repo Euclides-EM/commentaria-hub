@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 137 -->
 
+[Curated heading level=2 type=propositions: V. Die fünffte propoſition]
+
 ## V. Die fünffte propoſition.
 
 {dropcap:W|lines=2|style=plain}ann von zwayen quantiteten / von jeder ain ſtuck hin genommen wirt / der geſtalt / das ſich die ſtuck gegen ainander halten wie die gantzen / ſo werden auch die zway vberblibne ſtuck ſolche proportion gegen aināder behalten.
@@ -8,6 +10,8 @@
 ### Erklärung.
 
 Euclides hat mit andern worten / doch in gleichem verſtand / diß in der 7 propoſ. des 7 bůchs widerholett. Beſiche du hieunden die 19 propoſ. da hab ich die ſach mit exempeln erkläret.
+
+[Curated heading level=2 type=propositions: VI. Die ſechſt propoſition]
 
 ## VI. Die ſechſt propoſition.
 
@@ -36,6 +40,8 @@ Ab=   6   │ ½   │          zug        9   │ ½   │
      ──   │     │                    ──   │     │
 Vber 10───└─⅚───┘          bliben    15───└─⅚───┘
 [/Calculation]
+
+[Curated heading level=2 type=propositions: VII. Die ſibent propoſition]
 
 ## VII. Die ſibent propoſition.
 

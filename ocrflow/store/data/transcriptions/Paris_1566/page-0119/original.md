@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
+
 ## Propoſitio decimaquarta.
 
 Si prima ad ſecundam eandem habuerit rationem, & tertia ad quartam, prima verò tertia maior fuerit, & ſecunda quarta maior erit, etſi æqualis æqualis, etſi minor, minor.
@@ -7,6 +9,8 @@ Si prima ad ſecundam eandem habuerit rationem, & tertia ad quartam, prima verò
 Prima A ad ſecundam B eam habeat quam G ad D rationem, ſitq́ maior ipſa G: Dico B eſſe maiorem ipſa D, & ſi æqualis æquale, & ſi minor minorem. Quoniam A eſt maior tertia G, ipſa ad B maiorem rationem habet quam G (per 8 huius) ſed eſt vt A ad B ſic G ad D: igitur G ad D maiorem habet quam G ad B. Maior eſt igitur B ipſa D, per ſecundam partem decimæ huius. haud ſecus patebit ſi ſupponatur A æqualis ipſi G, ſecundam B æquari quartæ D, per ſeptimam, & ſecundam partem nonæ huius, ſi verò A ſupponatur minor G, & B ipſa D minor oſtendetur, per octauam, & ſecundam partem decimæ, vt prima parte. Si itaque prima ad ſecundam, &c.
 
 [Diagram: four vertical magnitudes labelled A, B, G, D]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
 
 ## Propoſitio decimaquinta.
 
@@ -16,9 +20,11 @@ Sint G B & E Z partes magnitudinum A B & D E ſuarum æquemultiplicium: Dico eſ
 
 [Diagram: two horizontal magnitudes labelled A, G, B and D, Z, E]
 
-## MONITVM.
+### MONITVM.
 
 Hoc theoremate oſtendit Euclides amplam, quam expoſuimus multiplicãdi legem, cùm dicit partes æquemultiplicium: nam ſi tantùm eas partes quæ totum præciſe metiuntur intelligeret, per primam diffinitionem, ab hac geometriæ lege, potiſſimam rationum multitudinem abſtraheret, nempe quatuor maioris inæqualitatis ſpecies, ſcilicet ſuperparticularem, ſuperpartientem, multiplicem ſuperparticularem, & multiplicem ſuperpartientem. Nos igitur æquemultiplices quælibet rationis ſpecie copulatas, huic adſcribemus theoremati, vt earum ſimplices eandem eis habeant rationem, non autem multiplices tantùm quas ſimplices metiuntur ſua repetitione præciſe, vt plures voluerunt.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
 
 ## Propoſitio decimaſexta.
 

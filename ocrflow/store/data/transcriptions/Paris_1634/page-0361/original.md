@@ -16,6 +16,10 @@ Perspicuum quoque est, similia rectilinea super æqualibus rectis lineis descrip
 
 Il est außi manifeste, que les rectilignes semblables descrits sur lignes droictes egales, sont egaux entr'eux : & au contraire, les costez de mesme raison des rectilignes egaux & semblables, sont egaux entr'eux.
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XXI.]
+
 ## THEOR. XV. PROPOS. XXI.
 
 Quæ eidem rectilineo sunt similia, & inter se sunt similia.

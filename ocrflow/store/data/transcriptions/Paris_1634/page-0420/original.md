@@ -14,6 +14,10 @@ s.5.2 | ▭.fgl 2|2 □.gn,
 37.3 | dn est tangen.
 2.concl. α | fd π dl 2|2 fg π gl.
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXXIII.]
+
 ## THEOR. XXII. PROPOS. XXXIII.
 
 Pappus lib. 7. propos. 154.

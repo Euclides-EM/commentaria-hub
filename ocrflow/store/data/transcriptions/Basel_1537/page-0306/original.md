@@ -8,6 +8,8 @@ CAMP. Cũctis ut in præmissis manētibus. erit ex hypothesi & diffinitione bino
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
+[Curated heading level=2 type=theorems: Theorema 39 Propositio 57]
+
 ## Eucl. ex Zãb. Theorema 39 Propositio 57
 
 [Curated heading level=3 type=zamberti_sequence: 57.]
@@ -39,6 +41,8 @@ CAMP. Nec in hac quoq̃ est aliquid ex priorũ dispositiõe & positiõibus mæt�
 [Diagram: rectangle divided by three horizontal lines into four bands; left side labels from top: a, K, b, g, c; right side labels: b, f, d, e]
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
+
+[Curated heading level=2 type=theorems: Theorema 40 Propositio 58]
 
 ## Eucl. ex Zãb. Theorema 40 Propositio 58
 

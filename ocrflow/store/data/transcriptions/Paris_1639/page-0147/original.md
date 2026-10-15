@@ -30,6 +30,10 @@ e *n'eſt* • *d'attouch.*
 
 concl. δ21.a.1 | f *n'eſt* • *d'attouch.*
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XIV.]
+
 ## THEOR. XIII. PROPOS. XIV.
 
 Au cercle les lignes droictes égales sont également distantes du centre: & celles qui sont également distantes du centre, sont égales entr'elles.

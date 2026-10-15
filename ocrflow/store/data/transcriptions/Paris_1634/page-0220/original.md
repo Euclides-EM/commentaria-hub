@@ -26,6 +26,10 @@ Schol.
 hypoth. | af 3|2 ab,
 9.a.1 | <acf 3|2 <acb.
 
+[Curated heading level=2 type=propositions: THEOR. XXVIII. PROPOS. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVIII. PROPOS. XXXII.]
+
 ## THEOR. XXVIII. PROPOS. XXXII.
 
 Si circulum tetigerit aliqua recta linea, à contactu autem producatur quædā recta linea circulum secans: anguli, quos ad contingentem facit, æquales sunt iis, qui in alternis circuli segmentis consistunt, angulis.

@@ -1,11 +1,15 @@
 <!-- Running title: APPENDICE. -->
 <!-- Page number: 222 -->
 
+[Curated heading level=2 type=definitions: DEFINITION III.]
+
 ## DEFINITION III.
 
 {dropcap:L|lines=2|style=plain}Es produits, comme mA, mB, qui réſultent de la multiplication de deux grandeurs A & B, par un même Facteur m, ſeront nommés des Equiproduits.
 
 Il ne faut pas confondre les Equimultiples avec les Equiproduits. Lorſque le Facteur m eſt un nombre entier & rationel quelconque (par exemp. 7), les quantités mA, mB (c. à. d. 7A, 7B) ſont des Equimultiples de A & de B; mais lorſque la grandeur m répreſenté une grandeur non-rationelle quelconque comme une racine numérique ſourde, où une circonférence de cercles, ou toute autre grandeur de l'eſpéce de celles qu'on nomme tranſcendante, les quantités mA & mB ne ſont plus des Equimultiples, mais des Equiproduits des grandeurs A & B.
+
+[Curated heading level=2 type=propositions: PROPOSITION I.]
 
 ## PROPOSITION I.
 
@@ -35,6 +39,8 @@ Prop. 16. L. 5.
 
 C. Q. F. D.
 
+[Curated heading level=2 type=propositions: PROPOSITION II.]
+
 ## PROPOSITION II.
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs A, B, C, D, ſont en proportion, les Equiproduits mA & mC des antécédens, comparés à d'autres Equiproduits nB, nD des conſéquens, chacun à chacun, ſont encore en proportion.
@@ -60,6 +66,8 @@ Prop. 16. L. 5.
 [/Margin]
 
 C. Q. F. D.
+
+[Curated heading level=2 type=propositions: PROPOSITION III.]
 
 ## PROPOSITION III.
 

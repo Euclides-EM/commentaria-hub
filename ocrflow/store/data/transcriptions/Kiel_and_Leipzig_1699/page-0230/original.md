@@ -24,6 +24,10 @@ u. dem Kreyß dahf umbschrieben/ n. 4. Besch. IV.
 
 Ist also umb den O dahf ein □ bcge beschrieben. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der VIII. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 8. Werck-Stück. Der VIII. Vortrag.]
+
 ## Der VIII. Vortrag.
 
 ## Das 8. Werckstück.

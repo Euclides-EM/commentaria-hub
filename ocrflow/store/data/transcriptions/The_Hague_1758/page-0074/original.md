@@ -4,6 +4,10 @@
 
 [Diagram: framed plate containing a quadrilateral GIK K with diagonal GK, and several parallelograms on the line A C P with points D, E, F, N]
 
+[Curated heading level=2 type=propositions: PROPOSITION XLV. PROBLEME XIII.]
+
+[Curated heading level=2 type=problems: PROBLEME XIII. PROPOSITION XLV.]
+
 ## PROPOSITION LXV{printer-error-correction:XLV}. PROBLEME XIII.
 
 {dropcap:C|lines=2|style=plain}Onſtruire un parallélogramme (AF); égal à une figure rectiligne donnée (IH); & qui ait un angle (*n*) égal à un angle rectiligne donné (N).

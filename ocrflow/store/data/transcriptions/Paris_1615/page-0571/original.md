@@ -8,6 +8,10 @@ baſe, ſoient tirees des lignes droictes: & comme la baſe ſera 2 la baſ anſ
 
 Diecyreſdlt que les pyramides de meſmes bauieur eanſoues fur meſnes, ou egales baſes triangulaires, ſont egales entr'elles: puũ queles ſont enmeſme raiſon qus leurs baſes, leſquelles ſont poſuegales, ou vne ſeule & meſme. tani oſait au contraireque ler prramides triangulaies anſtituees ſur vne meſme ou egales baes, ſont de meſme hauteur. E que les pyramides egales, & ayans meſme hauteur, ont les baſes egales. ſielles ne ſont vne meſmé leſquelles deux ehoſis nous demonſtrerons par la premiere partis du corol. par le meſme argument don nous auons vsé en demonſt an la conuerſe des 3o & 31.p.11. ſi tant ſur la bauteir, que ſur la baſe couppes eſt conſtitues vne autrepormide &e.
 
+[Curated heading level=2 type=propositions: THEOR. 6. PROP. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. 6. PROP. VI.]
+
 ## THEOR. 6. PROP. VI.
 
 Les pyramides de meſme hauteur ayans baſes poligones, ſont l’vne à l’autre comme leurs baſes. 2

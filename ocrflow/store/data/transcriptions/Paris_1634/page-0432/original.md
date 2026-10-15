@@ -4,6 +4,8 @@ mero vnitatum constant, sunt inter se æquales.
 
 *posez de mesmes nombres d'vnitez sont egaux.*
 
+[Curated heading level=2 type=definitions: DEFINIT. III.]
+
 ## DEFINIT. III.
 
 Pars est numerus, numeri, minor maioris, cum minor metitur maiorem.
@@ -13,6 +15,8 @@ Pars est numerus, numeri, minor maioris, cum minor metitur maiorem.
 Omnis pars ab eo numero nomen sibi sumit, per quem ipsa numerum, cuius est pars, metitur vt 4. dicitur tertia pars numeri 12. quòd metiatur 12. per 3.
 
 *Toute partie prend son nom du nombre, par lequel elle mesure le nombre duquel elle est partie, comme 4 est le tiers de 12. à cause que 4. mesure 12. par trois.*
+
+[Curated heading level=2 type=definitions: DEFINIT. IV.]
 
 ## DEFINIT. IV.
 

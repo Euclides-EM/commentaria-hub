@@ -12,6 +12,10 @@ De cecy il s’enſuit que l’angle du pentagone equilateral & eauiangle compre
 
 Clauius enſeigne en ce lieu cy deux manieres pour deſcrire vn pentagone equilateral & equiangle ſur vne ligne droicte donnee & terminee; la plus facile deſquelles nous auons enſeignee en noſtre Geometrie praticque Prob.38. c’eſt pourquoy nous n’en ferons icy repetition.
 
+[Curated heading level=2 type=propositions: PROB. 12. PROP. XII.]
+
+[Curated heading level=2 type=problems: PROB. 12. PROP. XII.]
+
 ## PROB. 12. PROP. XII.
 
 Al’entour d’vn cer cle donné, deſcrire vn pentagone equiangle & equilateral.

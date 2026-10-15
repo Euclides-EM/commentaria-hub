@@ -7,6 +7,8 @@ hyp. | a 2|2 2c.
 hyp. | b 2|2 2d.
 6.a.b | a 3|2 b.
 
+[Curated heading level=2 type=axioms: 6. a. c.]
+
 ### 6. a. c.
 
 Et quod vnius æqualium duplum est, duplum est & alterius æqualium. | Et ce qui est double de l'vn des egaux, est außi double de l'autre des egaux.
@@ -17,6 +19,8 @@ hyp. | b 2|2 c.
 hyp. | a 2|2 2b.
 6.a.c. | a 2|2 2c.
 
+[Curated heading level=2 type=axioms: 6. a. d.]
+
 ### 6. a. d.
 
 Et si vnum æqualium duplum est cuiuspiam magnitudinis, alterum quoque æqualium duplum est eiusdem magnitudinis. | Et si l'vn des egaux est double de quelque grandeur, l'autre des egaux sera außi double de la mesme grandeur.
@@ -26,6 +30,8 @@ Et si vnum æqualium duplum est cuiuspiam magnitudinis, alterum quoque æqualium
 hyp. | a 2|2 b.
 hyp. | a 2|2 2c.
 6.a.d. | b 2|2 2c.
+
+[Curated heading level=2 type=axioms: 7. a. 1.]
 
 ### 7. a. 1.
 

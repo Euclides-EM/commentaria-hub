@@ -5,9 +5,11 @@ Proponantur binæ pyramides eiuſdẽ altitudinis ABGI & DEZC, quarum vtraque iu
 
 [Diagram: two divided pyramids with internal lines marking subdivisions into smaller pyramides and prisms, labelled E, P, D, A, T, S, C, O, F, R, K, L, H, I, M, B, X, G, Z]
 
-## MONITVM.
+### MONITVM.
 
 Abſtulimus circa huius theorematis finem has voces (æquemultiplicia) à Theone extra ſenſum relatas, nam à Græco (æquemulta) diceremus: nos autem vtrique ſatisfacere cupientes, diximus (ſimili ſectione producta) eò quòd ſimilis ſecandi forma æquam præ ſe ferat multitudinem partium, & inſuper ſimiles ſectionum eſſe cogat figuras, ne æquemulta non ſimilia poſtulari credamus, ſed æquemulta, & ſibi inuicem ſimilia, ſingula ſingulis, ſiue (ex duodecima quinti) omnia omnibus proportionalia baſibus eſſe fateamur.
+
+[Curated heading level=2 type=propositions: Propoſitio quinta.]
 
 ## Propoſitio quinta.
 

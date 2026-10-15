@@ -1,6 +1,8 @@
 <!-- Page number: 104 -->
 <!-- Running title: Des vierdt bůchs Euclidis -->
 
+[Curated heading level=2 type=propositions: V. Die fünfft Propoſition]
+
 ## V. Die fünfft Propoſition. Lehrt /
 
 [Subhead]

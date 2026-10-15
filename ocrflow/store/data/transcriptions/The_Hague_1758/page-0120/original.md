@@ -4,6 +4,10 @@
 
 [Figure: circle BGCA with center M; from external point D, lines drawn through B, H, K, L, G on the convex circumference to A, E, F, C on the concave circumference, with dotted lines from M]
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THEOREME VII.]
+
+[Curated heading level=2 type=theorems: THEOREME VII. PROPOSITION VIII.]
+
 ## PROPOSITION VIII. THEOREME VII.
 
 {dropcap:S|lines=2|style=plain}I d'un point quelconque (D), pris hors d'un cercle (BGCA), on tire à ſa circonférence concave, tant des lignes droites (DA, DE, DF, DC) qu'on voudra, celle (DA) qui paſſe par le centre (M): eſt la plus grande de toutes. Quant aux autres; la plus proche (DE ou DF) de celle (DA) qui paſſe par le centre, eſt plus grande grande{printer-error-correction:grande} qu'une autre (DF ou DC) qui en eſt plus éloignée: mais au contraire de celles (DH, DK, DL, DG), qui ſe terminent à la circonférence convexe; celle (DH) dont le prolongement paſſe par le centre, eſt la plus petite de toutes. Quant aux autres; la plus proche (DK ou DL), de celle (DH), dont le prolongement paſſe par le centre, eſt plus petite qu'une autre (DL ou DG), qui eſt plus éloignée. Enfin de part & d'autre la plus petite (DH), on ne peut tirer du point (D) que deux lignes droites (DK, DB) égales entr'elles.

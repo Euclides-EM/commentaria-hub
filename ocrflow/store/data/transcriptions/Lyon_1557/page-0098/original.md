@@ -11,6 +11,10 @@ Quumq́; D & F ſint duobus rectis æquales, per vigeſimamprimam huius : erit a
 
 V E L ſic, angulus A C E cum angulo H ſunt duobus rectis æquales, vt oſtendimus : & B C E cum H itidem duobus rectis æquales, per vigeſimamprimam huius : quorum B C E eſt ipſi H æqualis. Angulus igitur E ipſi A C E eſt æqualis, Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: PROBLEMA 5, PROPOSITIO XXXII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 5, PROPOSITIO XXXII.]
+
 ## PROBLEMA 5, PROPOSITIO XXXII. Theoni 33.
 
 Super data linea Sectionem Circuli deſcribere, quæ capiat angulum angulo dato æqualem.

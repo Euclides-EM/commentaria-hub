@@ -10,6 +10,8 @@
 δ | *AK & AP, sont rationelles de la troisiesme sorte.*
 ε | *FD, est vne ligne irrationelle.*
 
+[Curated heading level=2 type=postulates: POSTVLATVM, SIVE PETITIO.]
+
 ## POSTVLATVM, SIVE PETITIO.
 
 Postuletur, quamlibet magnitudinem toties posse multiplicari, donec quamlibet magnitudinem eiusdem generis excedat.
@@ -21,6 +23,8 @@ Postuletur, quamlibet magnitudinem toties posse multiplicari, donec quamlibet ma
 ## AXIOMATA, SIVE PRONVNTIATA.
 
 ## AXIOMES, OV communes sentences.
+
+[Curated heading level=2 type=axioms: I.]
 
 I.
 

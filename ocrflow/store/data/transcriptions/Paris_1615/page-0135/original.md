@@ -2,6 +2,10 @@
 
 <!-- Page number: 112 -->
 
+[Curated heading level=2 type=propositions: PROB. 2. PROP. II.]
+
+[Curated heading level=2 type=problems: PROB. 2. PROP. II.]
+
 ## PROB. 2. PROP. II.
 
 Dans vn cercle donné inſcrire vn triangle equiangle à vn triangle donné.
@@ -9,6 +13,10 @@ Dans vn cercle donné inſcrire vn triangle equiangle à vn triangle donné.
 [Diagram]
 
 Soit le cercle donné ABC, dans lequel il faut inſcrire vn triangle equiangle au donné DSF. Soit menee la ligne GH, qui touche le cercle au poinct A, auquel poinct ſoient faits les deux angles GAB egal à l’angle D, & HAC egal à l’angle F par la 23.p. 1. Puis ſoit mené BC. Ie dis que le triangle inſcrit ABC eſt equiangle au donné DSF. Car puis que la ligne AB couppe le cercle en deux ſections, l’angle C en la grande ſection ſera egal a l’angle de l’attouchement GAB; & par conſequent à l’angle D par la 32.p.3. & par la meſme raiſon, la ligne AC coupaut le cercle, l’angle B ſe trouuera auſſi egal à l’angle F, & par la 32.p.1. le troiſieſme A ſera auſſi egal a l’angle S; & par conſequent les triangles ſeront equiangles.
+
+[Curated heading level=2 type=propositions: PROB. 3. PROP. III.]
+
+[Curated heading level=2 type=problems: PROB. 3. PROP. III.]
 
 ## PROB. 3. PROP. III.
 

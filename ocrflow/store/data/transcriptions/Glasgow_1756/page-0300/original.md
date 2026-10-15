@@ -1,6 +1,10 @@
 <!-- Running title: LIBER DUODECIMUS. -->
 <!-- Page number: 287 -->
 
+[Curated heading level=1 type=propositions: LIBER DUODECIMUS.]
+
+[Curated heading level=1 type=theorems: LIBER DUODECIMUS.]
+
 # EUCLIDIS ELEMENTORUM LIBER DUODECIMUS.
 
 ## LEMMA I.

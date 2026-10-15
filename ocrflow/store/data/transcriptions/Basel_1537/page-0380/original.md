@@ -20,6 +20,8 @@ CAMPANVS. Solidus angulus propositus sit a, qui contineatur tribus lineis a b, a
 
 [Diagram: two solid angles side by side: on the left, apex a with edges descending to b, d, c and auxiliary points l, k, h; on the right, apex e with edges descending to f, g and auxiliary points p, m, n]
 
+[Curated heading level=2 type=problems: Problema 4. Propositio 26.]
+
 ## Eucli. ex Zamb. Problema 4. Propositio 26.
 
 [Curated heading level=3 type=zamberti_sequence: 26.]

@@ -10,6 +10,10 @@ quod ex a/f/ describitur quadrato: æquũ est, per sextam ipsius secundi, quadra
 
 ¶ Quotlibet igitur rectangula, sub rectis singulis ex eodem pũcto extra circulum sumpto deductis, atque circulum ipsum dispescentibus, & extrinsecus sumptis inter punctum & curuam circunferentiam comprehensa: sunt inuicem æqualia. Nam eidem æqualia quadrato, quod ex ipsa tangente describitur.
 
+[Curated heading level=2 type=propositions: Theorema 31, Propositio 37.]
+
+[Curated heading level=2 type=theorems: Theorema 31, Propositio 37.]
+
 ## Θεώρημα λα, Πρόθεσις λζ.
 
 Ἐὰν κύκλου ληφθῇ τι σημεῖον ἐκτὸς, ἀπὸ δὲ τοῦ σημείου πρὸς τὸν κύκλον προσπίπτωσιν δύο εὐθεῖαι, καὶ ἡ μὲν αὐτῶν τέμνῃ τὸν κύκλον, ἡ δὲ προσπίπτῃ: ᾖ δὲ τὸ ὑπὸ τῆς ὅλης τεμνούσης, καὶ τῆς ἐκτὸς ἀπολαμβανομένης μεταξὺ τοῦ τε σημείου καὶ τῆς κυρτῆς περιφερείας, ἴσον τῷ ἀπὸ τῆς προσπιπτούσης, ἡ προσπίπτουσα ἐφάψεται τοῦ κύκλου.

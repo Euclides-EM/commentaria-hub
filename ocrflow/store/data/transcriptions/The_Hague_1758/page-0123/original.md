@@ -3,6 +3,10 @@
 
 [Diagram: two intersecting circles labelled A, B, C, E, F and G, with interior point D and straight lines AC and DB]
 
+[Curated heading level=2 type=propositions: PROPOSITION X. THEOREME IX.]
+
+[Curated heading level=2 type=theorems: THEOREME IX. PROPOSITION X.]
+
 ## PROPOSITION X. *THEOREME IX.*
 
 {dropcap:S|lines=2|style=plain}I deux cercles (ABCEG, ABFCG) s’entrecoupent: ils ne s’entrecouperont pas en plus de deux points (A & B).

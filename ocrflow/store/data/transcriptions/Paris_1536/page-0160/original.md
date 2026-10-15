@@ -16,6 +16,10 @@ Demōstratio theorematis.
 
 [Diagram: a/b,b/c,c/a. d/c,c/e,e/d.]
 
+[Curated heading level=2 type=propositions: Theorema 5, Propositio 5.]
+
+[Curated heading level=2 type=theorems: Theorema 5, Propositio 5.]
+
 ## Θεώρημα ε, Πρόθεσις ε.
 
 Ἐὰμ δύο τρίγωνα τὰς πλευρὰς ἀνάλογομ ἔχῃ,ἰσογώνια ἔσαι τὰ τρίγωνα,καὶ ἴσας ἕξει τὰς γωνίας ὑφ᾽ ἃς αἱ ὁμόλογοι πλευραὶ ὑποτείνουσιμ.

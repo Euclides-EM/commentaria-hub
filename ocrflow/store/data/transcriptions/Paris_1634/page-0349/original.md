@@ -13,6 +13,10 @@ constr. | ar 2|2 rs,
 4.d.5 | am 2|2 mo, β
 concl. d.β | am, mo, op, pq, qb snt 2|2 ⁊e.
 
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. XI.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. XI.]
+
 ## PROBL. III. PROPOS. XI.
 
 Duabus datis rectis lineis tertiam proportionalem adinuenire.

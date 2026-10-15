@@ -6,6 +6,8 @@ THEON ex Zamberto. Sit circulus α β γ, & in ipso circulo α β γ, descriptar
 
 [Diagram: circle α β γ with centre ε; β on the left of the circle, γ on its lower arc; the hexagon side γ δ prolongs the decagon side β γ in a straight line, δ lying below the circle; lines ε β, ε γ, ε δ drawn]
 
+[Curated heading level=2 type=theorems: Theorema 10 Propositio 10]
+
 ## Eucli. ex Zamb. Theorema 10 Propositio 10
 
 [Curated heading level=3 type=zamberti_sequence: 10.]

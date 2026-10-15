@@ -14,6 +14,10 @@ Pars secunda theorematis, conuersa primæ.
 
 [Diagram: b/a.a/c. | b/d.d/c. | e/a.a/c.]
 
+[Curated heading level=2 type=propositions: Theorema 4, Propositio 4.]
+
+[Curated heading level=2 type=theorems: Theorema 4, Propositio 4.]
+
 ## Θεώρημα δ, Πρόθεσις δ.
 
 Τῶμ ἰσογωνίωμ τριγώνωμ,ἀνάλογομ ἐσὶμ αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας: καὶ ὁμόλογοι αἱ ὑπὸ τὰς ἴσας γωνίας ὑποτείνουσαι πλευραί.

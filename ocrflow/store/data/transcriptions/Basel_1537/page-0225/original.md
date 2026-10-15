@@ -6,6 +6,8 @@ primi, ideoque per 21 septimi, in sua proportione minimi, & quia per æquam prop
 
 Quatuor præcedentes ex Campano Euclidis propositiones scilicet 16, 17, 18, 19, quatuor sequentibus ex Zamberto propositionibus puta 18, 19, 20. 21, hoc ordine respondent, prima primæ, secunda tertiæ, tertia secundæ, quarta quartæ.
 
+[Curated heading level=2 type=theorems: Theorema 16 Propositio 18]
+
 ## Eucli. ex Zamb. Theorema 16 Propositio 18
 
 [Curated heading level=3 type=zamberti_sequence: 18.]
@@ -19,6 +21,8 @@ Duorum similium planorum numerorum, unus medius proportionalis est numerus. Et p
 THEON ex Zamberto. Sint bini plani similes numeri α, β. & ipsius α, latera sint γ, δ, ipsius autem β sint, ε, ζ. Et quoniam similes plani sunt, qui proportionalia habent latera, (per 32 diffinitionē septimi,) est igitur sicut γ ad δ, sic est ε, ad ζ. Dico igitur quod ipsorū α, β, unus medius proportionalis est numerus & α ad β, duplam rationem habet, quàm γ, ad ε, uel δ, ad ζ, hoc est quàm similis rationis latus, ad similis rationis latus. Et quoniā est sicut γ, ad δ, sic est ε, ad ζ, uicissim igitur est (per 13 septimi,) sicut γ, ad ε, sic est δ ad ζ. Et quoniā α planus est, ipsius aūt latera sunt γ, δ, igitur δ, ipsum γ, multiplicās, ipsum α fecit. Id propterea etiā ε, ipsum ζ, multiplicās, ipsum effecit β. At δ, ipsum ε multiplicās, ipsum efficiat η, & quoniā δ, ipsum quidē γ, multiplicās ipsū effecit α, ipsum aūt ε multiplicās ipsum fecit η, est igitur (per 17 septimi,) sicut γ, ad ε, sic est α ad η. Sed sicut γ, ad ε. sic est δ ad ζ, & sicut igitur (per 11 quinti,) δ ad ζ: sic α. ad η. Rursus quoniam ε, ipsum quidem δ multiplicans ipsum effecit η, ipsum aūt ζ, multiplicans ipsum β, fecit: est igitur, (per 17 septimi,) sicut δ ad ζ, sic est η ad β, ostensum autem est quod & sicut δ, ad ζ, sic est a ad η, & sicut igitur (per 11 quinti,) α, ad η, sic est η, ad β. Igitur ipsi α, η, β, cōtinue sunt proportionales. Ipsorum igitur α, β, unus medius proportionalis est numerus. Dico iam quod & α, ad β, duplam rationē habet, quàm similis rationis latus ad similis rationis latus, hoc est quàm γ, ad ε, uel quàm δ, ad ζ. Quoniam enim ipsi α, η, β, continue proportionales sunt, igitur (per 10 diffinitionem quinti,) α, ad β, duplam habet rationem quàm ad η, & est sicut α, ad η, sic est γ, ad ε, & δ, ad ζ, & α, igitur ad β, duplam rationem habet quàm γ, ad ε, uel δ, ad ζ, quod erat demonstrandum.
 
 [Diagram: dotted number lines α, η, β, γ, δ, ε, ζ]
+
+[Curated heading level=2 type=theorems: Theorema 17 Propositio 19]
 
 ## Eucli. ex Zamb. Theorema 17 Propositio 19
 

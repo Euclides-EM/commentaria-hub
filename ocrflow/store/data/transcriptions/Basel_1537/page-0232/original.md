@@ -18,6 +18,8 @@ Vnde & manifestum est, quia ex ductu cubi in non cubum, producitur non cubus. Du
 
 CAMPANVS. Sit enim ex a cubo in b numerū, productus c cubus, dico b esse cubum: fiat enim d ex a in se, qui per antepræmissam erit cubus, quia igitur est per 18 sept. a ad b sicut d ad c, estq̃ a cubus, sed & d & c cubi, erit per 23 octaui, b cubus, quod est propositū. Prima pars correlarij, patet ex hac quinta, à destructione consequentis, secunda, per præmissam, similiter à destructione consequentis.
 
+[Curated heading level=2 type=theorems: Theorema 5 Propositio 5]
+
 ## Eucli. ex Zamb. Theorema 5 Propositio 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]
@@ -50,6 +52,8 @@ CAMPANVS. Sit ut ex a in se fiat b, sitq̃ b cubus: dico ergo a esse cubū. Fiat
 
 [Diagram: table of ruled lines with 512 c, 64 b, 8 a]
 
+[Curated heading level=2 type=theorems: Theorema 6 Propositio 6]
+
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
 
 [Curated heading level=3 type=zamberti_sequence: 6.]
@@ -77,6 +81,8 @@ THEON ex Zamb. Numerus enim α seipsum multiplicans, cubum efficiat β. Dico quo
 CAMPANVS. Sit a numerus cōpositus, qui ducātur in b, & proueniat c. dico c esse numerum solidum. Cum enim a sit cōpositus, numeratur ab aliquo numero, qui sit d, numeretq̃ eum secūdum e. Quia igitur ex e in d fit a, & ex a in b, c, erit ex diffinitione solidorū c solidus, eiusq̃ latera e, d, b, quod est propositū.
 
 [Diagram: dotted number lines e, d, c, b, a]
+
+[Curated heading level=2 type=theorems: Theorema 7 Propositio 7]
 
 ## Eucli. ex Zamb. Theorema 7 Propositio 7
 

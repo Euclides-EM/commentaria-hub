@@ -3,6 +3,10 @@
 
 [Diagram: two bracketed rows of cells labelled e a M (containing 1 a M, a 1 M) and e a N (containing 1 a N, a 1 N), with hatched blocks a M (marked I) and a N (marked III), and single hatched cells M (II) and N (IV) below]
 
+[Curated heading level=2 type=propositions: PROPOSITION III. THEOREME III.]
+
+[Curated heading level=2 type=theorems: THEOREME III. PROPOSITION III.]
+
 ## PROPOSITION III. THEOREME III.
 
 {dropcap:S|lines=2|style=plain}I la premiere grandeur (a M) eſt multiple de la ſeconde M, autant que la troiſieme (a N) l'eſt de la quatrieme (N), & qu'on prenne des équimultiples (e a M, e a N) de la premiere (a M) & de la troiſieme (a N): ces deux dernieres grandeurs (e a M, e a N) ſeront également multiples de la ſeconde (M) & de la quatrieme (N).

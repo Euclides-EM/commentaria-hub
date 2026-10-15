@@ -25,6 +25,8 @@ C. Q. F. D.
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs A, B, C, D ſont en proportion, leurs Quarrés, leurs Cubes, & leurs Puiſſances quelconques de même dénomination, ſont encore en proportion.
 
+[Curated heading level=2 type=propositions: PROPOSITION IV.]
+
 ## PROPOSITION IV.
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs A, B, C, D ſont en proportion, le produit AD des extrêmes, eſt toujours égal au produit BC des moyens.
@@ -47,6 +49,8 @@ Rem.
 [/Margin]
 
 C. Q. F. D.
+
+[Curated heading level=2 type=definitions: DEFINITION IV.]
 
 ## DEFINITION IV.
 

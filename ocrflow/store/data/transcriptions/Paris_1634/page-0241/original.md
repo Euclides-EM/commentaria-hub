@@ -19,6 +19,10 @@ Demonstr.
 34.1.& 1.a.1 | ie,ih,ig,if snt 2|2 ⁊e,
 concl. 5.d.4 | ⊙efg est inscri. in □bd.
 
+[Curated heading level=2 type=propositions: PROBL. IX. PROPOS. IX.]
+
+[Curated heading level=2 type=problems: PROBL. IX. PROPOS. IX.]
+
 ## PROBL. IX. PROPOS. IX.
 
 Circa datum quadratum circulum describere.

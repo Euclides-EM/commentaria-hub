@@ -8,6 +8,8 @@ Cum igitur duo anguli B, & C, trianguli ABC, æquales ſint duobus angulis E, & 
 
 [Curated heading level=2 type=campanus: 3]
 
+[Curated heading level=2 type=problems: PROBL. 3. PROPOS. 3.]
+
 ## PROBL. 3. PROPOS. 3.
 
 [Margin]

@@ -27,6 +27,10 @@ hyp. | db est 3,
 1.s.1.d.2 | ▭.fd est 16,
 2.concl. 2.a.1 | 4▭.adb + ▭.fd 100.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. IX.]
+
 ## THEOR. IX. PROPOS. IX.
 
 Si recta linea secetur in æqualia, & non æqualia : Quadrata quæ ab inæqualibus totius segmentis fiunt, simul duplicia sunt, & eius, quod à dimidia, & eius, quod ab intermedia sectionum fit, quadrati.

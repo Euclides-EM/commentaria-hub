@@ -23,6 +23,8 @@ c Per 47. l.1.
 
 Quad. A B. Æ. quad. A C quad. C B rect. B C F bis
 
+[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO XIII.]
+
 ## PROPOSITIO XIII.
 
 [Curated heading level=2 type=figures: Fig. 13 & 14]

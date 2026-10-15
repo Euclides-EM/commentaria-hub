@@ -12,6 +12,10 @@ Demonstr.
 1.a.1 | ▭.af 2|2 ▭.cd,
 concl. 19.7 | a π c 2|2 d π f.
 
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXIII.]
+
 ## THEOR. XXI. PROPOS. XXIII.
 
 Primi inter se numeri, minimi sunt omnium eandem cum eis rationem habentium.

@@ -1,6 +1,8 @@
 <!-- Running title: LIBER. I. -->
 <!-- Page number: 8 -->
 
+[Curated heading level=2 type=definitions: XVI.]
+
 ### XVI.
 
 [Curated heading level=4 type=incipit: HOC]
@@ -8,6 +10,8 @@
 HOC vero punctum, centrum circuli appellatur.
 
 DOCET, punctum illud intra circulum, a quo omnes lineæ rectæ ad circunferentiam ductæ, ſunt æquales, appellari centrum circuli; quale eſt præcedentis figuræ punctum D. Vnde perſpicuum eſt, polum alicuius circuli in ſphæra, a quo omnes rectæ ad peripheriam circuli cadentes ſunt æquales, vt ait Theodoſius in ſphæricis elementis non dici debere centrum circuli, cum punctum illud, quod polus dicitur, exiſtat in ſuperficie ſphæræ, non autem in ſuperficie circuli; quæ tamen eſt neceſſario requiſita conditio, vt punctum aliquod centrum vocetur. Cæterum, vt punctum aliquod circuli dicatur centrum, ſatis eſt, vt ab eo tres duntaxat lineæ cadentes in peripheriam ſint æquales inter ſe, vt demonſtrat Euclides propoſitione 9. lib. 3. Hac enim ratione fiet, vt omnes aliæ ab eodem puncto emiſſæ inter ſe ſint æquales.
+
+[Curated heading level=2 type=definitions: XVII.]
 
 ### XVII.
 

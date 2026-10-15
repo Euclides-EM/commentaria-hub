@@ -4,6 +4,10 @@
 
 ſes egales, ſçauoir CI, &F, les toutes AG, CIenſemble, ſeront egales aux toutes E & F enſemble. Par meſme raiſon G H & IK enſemble, ſeront egales à icelles E & F enſemble: nareillement HB & KD, aux meſmes E & F. Autant donc. qu’il y a de grandeurs en AB, egales à E; & en CD egales à F; autant y en a-il en AB& CD priſes enſemble, qui ſont egales à E, & F priſes enſemble: Parquoy les deux AB & CD enſemble, ſeront triples des deux enſemble E & F, comme la ſeule AB eſt triple de la ſeule E, ou la ſeule CD de la ſeule F, ce qu’il faloit demonſtrer.
 
+[Curated heading level=2 type=propositions: THEOR. 2. PROP. II.]
+
+[Curated heading level=2 type=theorems: THEOR. 2. PROP. II.]
+
 ## THEOR. 2. PROP. II.
 
 Si la premiere eſt autant multiplice de la ſeconde, que la troiſieſme de la quarte; & la cinquieſme autant multiplice de la ſeconde, que la ſixieſme, de la quarte; la compoſee de la premiere & cinquieſme ſera autant multiplice de la ſeconde, comme la compoſee de la troiſieſme & ſixieſme, de la quarte.

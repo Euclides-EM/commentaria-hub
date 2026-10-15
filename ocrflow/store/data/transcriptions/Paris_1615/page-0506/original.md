@@ -8,6 +8,10 @@ eſtant medial, Cr ſera rationele cormenſ. en puiſſance ſeu lement a CD, & 
 
 Sil. redtanele rationel AB eſt 32, le medial A√no, & la ligne rationele CD s, ſus laquelle eſt deſerit le rect. CE egal à A& Fi egal à B: les coſtez Cr, CFx, ſerons √85 & √—√39 & partant la toute Cx ſera 5,: & le rectangle CI 52, duqguel oſtant Ct, qu eſt √320, le reſterectangle FI ſera;1√110: & (a ligne pouuant ieuluy ſera √√6t√176—√(6—√176). qui eſt ligne mineurc.
 
+[Curated heading level=2 type=propositions: THEOR. 86. PROP. CX.]
+
+[Curated heading level=2 type=theorems: THEOR. 86. PROP. CX.]
+
 ## THEOR. 86. PROP. CX.
 
 Si d’vne ſuperſicie mediale, eſt retranchee vne ſuperficie rationele; la ligne qui peut le reſte, eſt reſidu medial premier, ou ligne faiſant auec vne ſuperficie rationele vn tout medial.

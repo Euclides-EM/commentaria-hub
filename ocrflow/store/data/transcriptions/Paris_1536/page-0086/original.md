@@ -16,6 +16,10 @@ Pars prima theorematis.
 Secunda pars cõuersa præcedentis.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 14, Propositio 15.]
+
+[Curated heading level=2 type=theorems: Theorema 14, Propositio 15.]
+
 ## Θεώρημα ιδ, Πρόθεσις ιε.
 
 ΕΝ κύκλῳ μεγίστη μὲν ὅτιν ἡ διάμετρος: τῶν δὲ ἄλλων ἀεὶ ἡ ἔγγιον τοῦ κέντρου, τῆς ἀπώτερον μείζων ὅτιν.

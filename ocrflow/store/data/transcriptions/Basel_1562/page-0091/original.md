@@ -11,6 +11,8 @@ Von ainem rhomboide.
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: XV. Die fünfftzehend propoſition]
+
 ## XV. Die fünfftzehend propoſition. Lehrt /
 
 [Subhead]

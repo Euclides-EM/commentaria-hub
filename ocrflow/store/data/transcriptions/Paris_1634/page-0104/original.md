@@ -26,6 +26,10 @@ constr. | ad 2|2 ab,
 1.a.d. | <abd 3|2 <acb,
 concl. 1.a.c. | <abc 3|2 <acb.
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XIX.]
+
 ## THEOR. XII. PROPOS. XIX.
 
 Omnis trianguli maior angulus maiori lateri subtenditur.

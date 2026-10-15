@@ -9,6 +9,8 @@ Sey der diameter a b / das centrum c / der punct d / die linien d a / d b / d e 
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: VIII. Die achte propoſition]
+
 ## VIII. Die achte propoſition.
 
 [Curated heading level=3 type=numbered_item: 1.]

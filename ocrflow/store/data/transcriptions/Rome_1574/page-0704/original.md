@@ -5,6 +5,8 @@ reliqui omnes quadrati erunt, vt demonſtratum eſt. Omnes igitur erunt cubi ſi
 
 [Curated heading level=2 type=campanus: 10]
 
+[Curated heading level=2 type=theorems: THEOR. 10. PROPOS. 10.]
+
 ## THEOR. 10. PROPOS. 10.
 
 [Margin]

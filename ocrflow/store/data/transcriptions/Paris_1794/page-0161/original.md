@@ -3,6 +3,10 @@
 
 [Diagram: hand-drawn quadrilateral with intersecting lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION III. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION III.]
+
 ## PROPOSITION III.
 
 ### THÉORÊME.
@@ -16,6 +20,10 @@ F. 174.
 Soient les deux triangles BAC, BAD, qui ont le côté AB commun, et le côté AC=AD : si l’angle BAC est droit, je dis que le triangle BAC sera plus grand que le triangle BAD.
 
 Car la base AB étant la même, les deux triangles BAC, BAD, sont comme les hauteurs AC, DE : mais la perpendiculaire DE est plus courte que AD ou son égale AC ; donc le triangle BAD est plus petit que BAC.
+
+[Curated heading level=2 type=propositions: PROPOSITION IV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IV.]
 
 ## PROPOSITION IV.
 

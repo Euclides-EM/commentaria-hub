@@ -2,6 +2,8 @@
 
 <!-- Page number: 228 -->
 
+[Curated heading level=2 type=theorems: Theorema 14 Propositio 14]
+
 ## Eucli.ex Zamb. Theorema 14 Propositio 14
 
 [Curated heading level=3 type=zamberti_sequence: 14.]

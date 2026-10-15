@@ -2,6 +2,10 @@
 
 laire à AD par la 11.p.1. & ſoit poſee icelle DG egale à AB, ſoient menees les lignes BD, BG, AG. D’autant que les 2. triangles ABD & AGB ont les deux coſtez AB, DG egaur, AD commun, & l’angle BAD droict egal a r’angle GDa auſſi droict, par la ap.i. la baſe BD ſera ẽgalea la baſe 4G. Item les deux triangies AGB & GDB ayans les deux coſter AB, & DG egaux, & les deux autres AG d BD auſſi egaux, & la baſe BG commune a tous deux, par la 8.p.1 les deux angles BAG. BDG ſeront egaux. Mais l’angle BAG eſt droict par la 3d.u.donc BDG ſera auſſi droictril eſt douc euident que GD touche perpeudiculairement en vn poinct D, les trois lignes DA.DE, DC: e partant par la; pais icelles trois ligues ſerot en vn meſme plan, c’eſt à dire que CD ſera au plan mené par les lignes AD, DB. Mais par la 2.p.11.les trois lignes AB, BD, AD ſont auſi ſur vn meſme plan: partant AB & CD ſeront en vn meſme plan.
 
+[Curated heading level=2 type=propositions: THEOR. 7. PROP. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. 7. PROP. VII.]
+
 ## THEOR. 7. PROP. VII.
 
 Si deux lignes droites ſont paralleles, & de l’vne à l’autre on meine vne ligne droicte, elle ſera au meſme plan des lignes paralleles.

@@ -3,6 +3,10 @@
 
 [Diagram: circle AIK with diameter AB, chords HI and FK, centre C, perpendiculars CG and CN, and construction lines CD, CE, CF and CK; points D, A, H, F, N, M, G, C, K, E, B and I labelled]
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. THEOREME XIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XIV. PROPOSITION XV.]
+
 ## PROPOSITION XV. *THEOREME XIV.*
 
 {dropcap:L|lines=2|style=plain}E diametre (AB) d’un cercle (AIK) eſt plus grand que chacune de ſes cordes (HI, FK) ; & une corde (HI) plus proche du diametre eſt plus grande que toute autre (FK), qui en eſt plus éloignée.

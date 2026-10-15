@@ -12,6 +12,10 @@ Zweiter Fall. Die Spitze D liege auſſerhalb des Dreiecks ACB. Man verbinde die
 
 Dritter Fall. Die Spitze D liege innerhalb des Dreiecks ACB. Man verlängere AC nach E und AD nach F. Da AD=AC, ſo iſt ECD=FDC. (6 Satz.) Es iſt aber ECD größer als BCD, folglich auch FDC größer als BCD, daher um ſo mehr BDC größer als BCD. Nun iſt aber BD=BC, (nach der Annahme,) alſo BDC=BCD, (6 Satz,) welches dem Vorigen widerſpricht.
 
+[Curated heading level=2 type=propositions: N. 8 Neunter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 8 Neunter Satz. Lehrſatz.]
+
 ## N. 8 Neunter Satz. Lehrſatz.
 
 Zwei Dreiecke, in welchen die einzelnen Seiten des einen, den einzelnen Seiten des andern Dreiecks gleich ſind, ſind congruent.

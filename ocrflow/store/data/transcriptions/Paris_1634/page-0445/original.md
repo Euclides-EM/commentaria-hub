@@ -4,6 +4,8 @@ Vt planus numerus plano numero sit similis, non necesse est, quælibet duo later
 
 *Afin qu'vn nombre plan soit semblable à vn nombre plan, il n'est pas necessaire que deux costez de l'vn tels qu'on voudra soient proportionaux à deux costez de l'autre tels qu'on voudra ; mais suffit que l'vn ait deux costez quels qu'ils soient proportionaux à deux quelconques costez de l'autre, comme les nombres plans 24, & 6, sont semblables, d'autant que les costez de celuy-là, 6, & 4, sont proportionaux aux costez de cestuy-cy, 3, & 2, combien que les autres costez de ce premier 8, & 3, ou 12, & 2, ne sont proportionaux à ceux-cy. Il faut entendre de mesme la definition des solides.*
 
+[Curated heading level=2 type=definitions: DEFINIT. XXII.]
+
 ## DEFINIT. XXII.
 
 Perfectus numerus est qui suis ipsius partibus est æqualis : vt 6. & 28.

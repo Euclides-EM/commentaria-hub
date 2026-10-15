@@ -4,6 +4,10 @@
 
 [Figure: triangle DFE with apex F drawn in dotted lines, a solid vertical line FC, on the horizontal line AB with points D, C and E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. PROBLEME VI.]
+
+[Curated heading level=2 type=problems: PROBLEME VI. PROPOSITION XI.]
+
 ## PROPOSITION XI. PROBLEME VI.
 
 {dropcap:D|lines=2|style=plain}'un point quelconque (C), dans une droite indéfinie (AB), élever une perpendiculaire (CF) ſur cette droite.

@@ -9,6 +9,8 @@ Communis noticie zůſamen lauffen / nemlich die winckel d vnd f / als ains tria
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: XLV. Die fünffvndviertzigſt prop.]
+
 ## XLV Die fünffvndviertzigſt prop. Lehrt /
 
 [Subhead]

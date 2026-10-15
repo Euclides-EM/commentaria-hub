@@ -12,6 +12,10 @@ decimamsextā huius quinti. Fit igitur vt sicut a/b/ad a/e, sic c/d/ad e/f: atq�
 Conuersio rationis.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 20, Propositio 20.]
+
+[Curated heading level=2 type=theorems: Theorema 20, Propositio 20.]
+
 ## Θεώρημα κ, Πρόθεσις κ.
 
 EΑν ᾖ τρία μεγέθη, καὶ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα, καὶ ἐν τῷ αὐτῷ λόγῳ, δι' ἴσου δὲ τὸ πρῶτον τοῦ τρίτου μεῖζον ᾖ, καὶ τὸ τέταρτον τοῦ ἕκτου μεῖζον ἔσαι, κἂν ἴσον, ἴσον, κἂν ἔλασσον, ἔλασσον.
@@ -39,6 +43,10 @@ Secūda differentia.
 [Margin]
 Tertia differentia.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Theorema 21, Propositio 21.]
+
+[Curated heading level=2 type=theorems: Theorema 21, Propositio 21.]
 
 ## Θεώρημα κα, Πρόθεσις κα.
 

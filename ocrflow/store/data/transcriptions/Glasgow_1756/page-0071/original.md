@@ -19,6 +19,10 @@ atque eſt AG quod ab AC, CB continetur, eſt enim GC ipſi CB aequalis; erit et
 
 Cor. Ex his manifeſtum eſt, in quadratis ſpatiis parallelogramma quae ſunt circa diametrum quadrata eſſe.
 
+[Curated heading level=2 type=propositions: PROP. V. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. V. THEOR.]
+
 ## PROP. V. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea ſecta fuerit in partes aequales, et in partes inaequales; rectangulum ab inaequalibus totius partibus contentum, una cum quadrato rectae lineae quae inter ſectiones interjicitur, aequale eſt quadrato ex dimidia.

@@ -9,6 +9,10 @@ f. 27. 3.
 
 eadem ratione et unuſquiſque angulorum ABC, BCD, CDE utrique ipſorum BAE, AED eſt aequalis. aequiangulum igitur eſt ABCDE pentagonum; oſtenſum autem eſt et aequilaterum eſſe. In dato igitur circulo pentagonum aequilaterum et aequiangulum inſcriptum eſt. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XII. PROB.]
+
 ## PROP. XII. PROB.
 
 {dropcap:C|lines=2|style=plain}IRCA datum circulum pentagonum aequilaterum et aequiangulum circumſcribere.

@@ -1,6 +1,8 @@
 <!-- Running title: LIBER VNDECIMVS. -->
 <!-- Page number: 154 -->
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimanona.]
+
 ## Propoſitio trigeſimanona.
 
 Si ſolidi parallelepipedi eorum quę ex oppoſito planorum latera oppoſita bifariam ſecta fuerint, extenſáque per ſectiones plana, communis planorum ſectio & ſolidi dimetiens ſeſe bifariam diſpeſcent.
@@ -9,6 +11,6 @@ Si ſolidi parallelepipedi eorum quę ex oppoſito planorum latera oppoſita bif
 
 [Diagram: parallelepiped in perspective with internal sections and diagonals, labelled with the letters D, L, Z, X, N, O, G, K, E, B, F, C, T, P, S, R, A, M and I]
 
-## Corollarium.
+### Corollarium.
 
 Omne planum per centrum parellelepipedi extenſum, ſecat illud ſolidum bifariam, non autem aliud per centrum non extenſum. *Quoniam omne planum per centrum extenſum, ſecat dimetientem parallelepipedi in centro bifariam. Oſtenſum eſt enim plana ſolidum bifariam ſecantia, dimetientem ſecare bifariam in centro. Quare omnes lineæ per centrum in eo plano ductæ angulos cum dimetiente efficient. Quia verò dimetiens cadit in parallelas ſolidi rectas, oppoſita latera deſcribentes, ſiue in parallela ſolidi plana, quæ ſcilicet angulos ad extrema diametri efficiunt. Triangula à dimetiente & recta in eo plano per centrum extenſa, & ea quæ per plana oppoſita ſolidi præfatas coniungit rectas, ſemper æqualia & æquiangula erunt, per 26 primi. Nam quæ per plana ſolidi oppoſitæ rectæ, æquales angulos ad dimetientem efficiunt, cùm ſint parallelæ, per decimamſextam huius. Sed & anguli qui ad centrum æquales ſunt, nempe ad verticem, per decimamquintam primi, vnúmque latus vni lateri, ſcilicet media dimetiens. Triangula igitur à quauis recta (in plano quod per centrum parallelepipedi per idem centrum extenſa) & eius dimetiente, ad ſolidi extrema terminata, æqualia & æquilatera, ac æquiangula erunt, per vigeſimamſextam primi, vnde ſequitur planum illud ſecans, æquales (ad partes oppoſitas) baſium ſolidi partes efficere, ac æquiagulas, & proinde ſimiles & numero æquales ac magnitudine. Quare ſolidi illius binæ ſectiones ſolidæ, æquales erũt, & ſimiles, per octauam diffinitionem huius. Quod autem aliud planum ab eo quod per centrum extenditur bifariam ſolidum non ſecet. Patet, ſi plano per centrum non extenſo parallelum per centrum extendatur, per corollariũ decimæquintæ huius. Cùm enim id quod per centrum deſcribitur bifariam ſecet, manifeſtum eſt in altera æqualium ſolidi partium, reliquum deſcribi planum parallelum*

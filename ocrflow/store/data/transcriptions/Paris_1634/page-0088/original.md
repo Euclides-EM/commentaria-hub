@@ -29,6 +29,10 @@ hyp. 2.concl. | bc 2|2 ba,
 1.concl. α. 1.a.1. | <a 2|2 <b,
 f. 8.d.1. | △abc est æquiang.
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. VI.]
+
 ## THEOR. III. PROPOS. VI.
 
 Si trianguli duo anguli æquales inter se fuerint, & sub æqualibus angulis subtensa latera, æqualia inter se erunt.

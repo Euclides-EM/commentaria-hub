@@ -1,6 +1,10 @@
 <!-- Running title: LIBER QUARTUS. -->
 <!-- Page number: 119 -->
 
+[Curated heading level=2 type=propositions: PROP. VIII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. VIII. PROB.]
+
 ## PROP. VIII. PROB.
 
 {dropcap:I|lines=2|style=plain}N dato quadrato circulum inſcribere.
@@ -40,6 +44,10 @@ e. 16. 3.
 circulum igitur contingit unaquaeque ipſarum AB, BC, CD, DA, atque erit circulus in quadrato ABCD inſcriptus. In dato igitur quadrato circulus inſcriptus eſt. Q. E. F.
 
 [Diagram: circle inscribed in square ABCD, touching its sides at E, F, H, K, with lines EH and FK intersecting at G]
+
+[Curated heading level=2 type=propositions: PROP. IX. PROB.]
+
+[Curated heading level=2 type=problems: PROP. IX. PROB.]
 
 ## PROP. IX. PROB.
 

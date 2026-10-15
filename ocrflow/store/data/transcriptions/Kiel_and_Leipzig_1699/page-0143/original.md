@@ -14,15 +14,23 @@ W. Z. M.
 
 [Diagram: links ein Quadrat (schwach), rechts ein schiefes Viereck]
 
+[Curated heading level=1 type=propositions: Das III. Buch]
+
 # Das III. Buch Euclidis.
 
 ## Beschreibungen.
+
+[Curated heading level=1 type=definitions: Das III. Buch]
+
+[Curated heading level=2 type=definitions: Beschreibung I.]
 
 [Curated heading level=3 type=numbered_item: I.]
 
 I. Gleichgrosse Kreyse sind / deren Durchschläge gleichlang sind.
 
 [Diagram: zwei gleichgrosse Kreise, der linke mit waagerechtem, der rechte mit schrägem Durchmesser]
+
+[Curated heading level=2 type=definitions: Beschreibung II.]
 
 [Curated heading level=3 type=numbered_item: II.]
 

@@ -6,6 +6,8 @@ surabilis est quoque γ ipsi ζ,sed si α,ipsi ε,incommensurabilis est,incommen
 
 [Diagram: six vertical lines of differing heights labelled at foot α, β, ε, γ, δ, ζ]
 
+[Curated heading level=2 type=theorems: Theorema 12 Propositio 15]
+
 ## Eucli.ex Zamb. Theorema 12 Propositio 15
 
 [Curated heading level=3 type=zamberti_sequence: 15.]
@@ -19,6 +21,8 @@ Si binæ magnitudines commensurabiles,compositæ fuerint,& tota utrique ipsarum 
 THEON ex Zamb. Cōponantur binæ magnitudines cōmensurabiles α β,β γ.Dico quod tota α γ,utriq̃ ipsarū α β,β γ,commensurabilis est.Quoniā enim cōmensurabiles sunt ipsæ α β,β γ,ipsas aliqua magnitudo metietur (per primam diffinitionem decimi,)metiatur,& sit δ. Quoniā igitur δ ipsas α β,β γ,metitur,& totā α γ metietur, metitur autem & ipsas α β,β γ,igitur δ,ipsas α β,β γ, & α γ,metietur.Commensurabilis igttur{printer-error-correction:igitur} est (per 12 decimi,) α γ,utriq̃ ipsarū α β,β γ. Sed iā α γ,uni ipsarum α β,β γ,sit commensurabtlis{printer-error-correction:commensurabilis},sitque ipsi α β.Dico quod α β,β γ,commensurabiles sunt.Quoniā enim cōmensurabiles sunt α β,& α γ,metietur eas (per primam diffinitionem decimi.)aliqua magnitudo,metiatur,& esto δ. Quoniā igitur δ ipsas α β,β γ{printer-error-correction:α β,α γ},metitur ,& reliquā igitur metietur β γ,metitur aūt & α β,igitur δ,ipsas α β,β γ,metietur. Cōmensurabiles igitur sunt,α β,& β γ.Si binæ igitur magniudines{printer-error-correction:magnitudines},& reliqua quæ sequuntur,quod oportebat demōstrare.
 
 [Diagram: horizontal line marked α, β, γ; beneath it a shorter line labelled δ]
+
+[Curated heading level=2 type=theorems: Theorema 13 Propositio 16]
 
 ## Eucli.ex Zamb. Theorema 13 Propositio 16 Præcedentis conuersa.
 

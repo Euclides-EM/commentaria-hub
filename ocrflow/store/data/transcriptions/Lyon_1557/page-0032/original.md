@@ -21,6 +21,10 @@ Sint quatuor lineæ A B, A C, A D & A E, exeuntes à puncto A, conſtituentes qu
 
 Sin aliter : ponatur, ſi fieri poſſit, E F linea vna : & C G itidem vna. Quum itaq́; recta E A incidat in C G rectam : erunt duo anguli E A C & E A G, per decimamtertiam, duobus rectis æquales. Quumq́; recta G A ſuper rectam E F incidat : erunt, per eandem, duo anguli E A G & F A G, duobus rectis æquales. Communi igitur ablato E A G : erit per communem ſentẽtiam, angulus E A C, æqualis angulo F A G. Sed & ipſe E A C poſitus fuit æqualis angulo B A D. Erit ergo B A D ipſi F A G æqualis, pars toti, Quod eſſe non poteſt. Idem omninò proueniet abſurdum, in quancunque partem protrahantur lineæ. Quare B E vna eſt linea, & C D vna, Quod fuit demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 9, PROPOSITIO XVI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 9, PROPOSITIO XVI.]
+
 ## THEOREMA 9, PROPOSITIO XVI.
 
 Omnis Trianguli vno latere producto, exterior angulus vtrolibet interiori oppoſito maior eſt.

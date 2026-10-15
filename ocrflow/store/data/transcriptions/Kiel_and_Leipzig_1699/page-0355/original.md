@@ -2,6 +2,10 @@
 
 <!-- Running title: Das VI. Buch -->
 
+[Curated heading level=2 type=propositions: Der XII. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 4. Werck-Stück. Der XII. Vortrag.]
+
 ## Der XII. Vortrag.
 
 ## Das 4. Werck-Stück.

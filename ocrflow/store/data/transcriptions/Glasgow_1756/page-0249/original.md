@@ -9,6 +9,10 @@ b. 6. 11.
 
 quod eſt abſurdum. Una igitur tantum duci poteſt. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIV. THEOR.]
+
 ## PROP. XIV. THEOR.
 
 {dropcap:A|lines=2|style=plain}D quae plana eadem recta linea eſt perpendicularis, ea parallela ſunt.
@@ -36,6 +40,10 @@ c. 8. Def. 11.
 Ad quae igitur plana &c. Q. E. D.
 
 [Diagram: two planes CD and EF, with lines AB, GH and AKB, labelled A, B, C, D, E, F, G, H and K]
+
+[Curated heading level=2 type=propositions: PROP. XV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XV. THEOR.]
 
 ## PROP. XV. THEOR.
 

@@ -9,6 +9,10 @@ Erunt enim, per quartam Primi, quatuor latera æqualia : quum ſint baſes quatu
 
 QVI à Centro originem Quadrati ducunt, duas lineas ad angulos rectos ſe ſcindentes, hinc inde ad Peripheriam continuant, & quatuor baſes connectunt. Ac tum per ſemirectos ratiocinantur. Quod in idem recidit.
 
+[Curated heading level=2 type=propositions: PROBLEMA 7, PROPOSITIO VII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 7, PROPOSITIO VII.]
+
 ## PROBLEMA 7, PROPOSITIO VII.
 
 Circa datum Circulum, Quadratum deſcribere.
@@ -21,6 +25,10 @@ Duco duas Diametros AC & BD, ſe ſcindentes in Centro E ad angulos rectos. Tum 
 
 per vigeſimamoctauam Primi, FG & HK inter ſe, & ipſi AC æquidiſtantes : quum in ipſas cadat BD vtrinque ad angulos rectos. Itidem FK & GH, inter ſe & ipſi BD æquidiſtantes : Quapropter, ex trigeſimaquarta eiuſdem bis ſumpta, erunt quatuor anguli F, G, H, K recti, quia rectis oppoſiti. Quumq́; duæ FG & HK ſint Diametro AC æquales, per eandem : quia Quadrilatera FC & AH, ſunt æquidiſtantium laterum : ſimiliter & duæ FK & GH, Diametro BD æquales : erunt omnes inter ſe æquales, propter æqualitatem Diametrorum. Quare FGHK Quadratum, Circulo circunſcriptum, Quod erat faciendum.
 
+[Curated heading level=2 type=propositions: PROBLEMA 8, PROPOSITIO VIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 8, PROPOSITIO VIII.]
+
 ## PROBLEMA 8, PROPOSITIO VIII.
 
 In dato Quadrato, Circulum deſcribere.
@@ -32,6 +40,10 @@ Sit datum Quadratum ABCD, intra quod deſcribendus ſit Circulus.
 Diuido quatuor ipſius latera æqualiter in punctis E, F, G, H : ducta GE parallelo & æquali ipſis AD & BC : itemq́; FH parallelo & æqualis ipſi AB & CD : quæ ſecet GE in puncto K : Quod dico eſſe Centrum Circuli.
 
 Sunt enim quatuor dimidia KE, KF, KG, & KH, per trigeſimamquartam Primi, æqualia quatuor dimidijs lateribus ipſius Quadrati : ob id, & inter ſe æqualia. Quare, per nonam Tertij, K eſt Centrum Circuli inſcribendi, Quod erat conſtitutum.
+
+[Curated heading level=2 type=propositions: PROBLEMA 9, PROPOSITIO IX.]
+
+[Curated heading level=2 type=problems: PROBLEMA 9, PROPOSITIO IX.]
 
 ## PROBLEMA 9, PROPOSITIO IX.
 

@@ -15,6 +15,10 @@ constr. | ac 2|2 ad,
 2.a.1. | ba + ac 2|2 bd,
 α.1.a.d. | ba + ac 3|2 bc.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XXI.]
+
 ## THEOR. XIV. PROPOS. XXI.
 
 Si super trianguli vno latere, ab extremitatibus duæ rectæ lineæ interius constitutæ fuerint ; hæ constitutæ reliquis trianguli duobus lateribus minores quidem erunt, maiorem vero angulum continebunt.

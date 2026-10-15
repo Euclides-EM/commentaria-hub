@@ -5,6 +5,8 @@ eadem proportio rationalis, quæ ſuperficierum, exiſtat. Quemadmodum enim ille
 
 Hinc vero illam ipſam proportionem, nempè ſeſquialteram, quam exiſtere ſphæram inter ac cylindrum Archimedes tradidit, ab æquilatero cono circumſcripto & ſoliditate etiam ac ſuperficie continuari nullo negotio iam demonſtrabimus, atque ita huic pariter opuſculo finem imponemus.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XLV.]
+
 ## PROPOSITIO XLV.
 
 {dropcap:C|lines=2|style=plain}Onus æquilaterus ſphæræ circumſcriptus, & cylindrus rectus ſphæræ ſimiliter circumſcriptus, & ipſa ſphæra, eandem proportionem continuant, nimirum ſeſquialteram, tam quoad ſoliditatem, quàm quoad ſuperficiem totã.

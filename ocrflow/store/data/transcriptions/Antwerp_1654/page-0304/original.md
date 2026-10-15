@@ -3,6 +3,8 @@
 
 rol.1.p.9.l.12.& 25.l.11.eiuſque coroll. De pyramidibus ex hoc, & ex.7.l.12.
 
+[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO XV.]
+
 ## PROPOSITIO XV.
 
 [Curated heading level=2 type=figures: Fig. 25]

@@ -3,6 +3,10 @@
 
 que la demi-circonférence, c’est qu’alors le triangle augmente de plus en plus à mesure que l’angle compris par les côtés donnés est plus grand. Enfin, lorsque cet angle sera égal à deux droits, les trois côtés seront dans un même plan et formeront une circonférence entiere ; le triangle sphérique deviendra donc égal à la demi-sphere, mais il cessera alors d’être triangle.
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVI. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXVI.]
+
 ## PROPOSITION XXVI.
 
 ### THÉORÊME.

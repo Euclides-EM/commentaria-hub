@@ -25,6 +25,8 @@ B H, æquales erunt: Quoniam ergo latera A F, F H, trianguli A F H, æqualia ſu
 
 [Curated heading level=2 type=campanus: 13]
 
+[Curated heading level=2 type=problems: PROBL. 13. PROPOS. 13.]
+
 ## PROBL. 13. PROPOS. 13.
 
 [Margin]

@@ -6,6 +6,8 @@ THEON ex Zamb. Ad aliquā rectā lineam α β. cōparetur parallelogrāmū α δ
 
 [Diagram: rectangle on base α β, divided by a vertical line at γ; δ marked at the top above the division; the labels α, γ, β stand below the base]
 
+[Curated heading level=2 type=theorems: Theorema 14 Propositio 17]
+
 ## Eucli.ex Zamb. Theorema 14 Propositio 17
 
 [Curated heading level=3 type=zamberti_sequence: 17.]

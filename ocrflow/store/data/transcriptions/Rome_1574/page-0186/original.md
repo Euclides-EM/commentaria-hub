@@ -9,6 +9,8 @@ CONVERTIT autem hoc præſens theorema duo præcedentia theoremata, vt perſpicu
 
 [Curated heading level=2 type=campanus: 30]
 
+[Curated heading level=2 type=theorems: THEOR. 21. PROPOS. 30.]
+
 ## THEOR. 21. PROPOS. 30.
 
 [Margin]

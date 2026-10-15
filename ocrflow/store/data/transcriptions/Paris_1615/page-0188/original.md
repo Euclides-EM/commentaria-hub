@@ -6,6 +6,10 @@ eſt a C, ainſi D a E, par la 4.p.5.comme H multiplice de la premiere B, ſera 
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOREME 24. PROP. XXIIII.]
+
+[Curated heading level=2 type=theorems: THEOREME 24. PROP. XXIIII.]
+
 ## THEOREME 24. PROP. XXIIII.
 
 Si la premiere eſt à la ſeconde, comme latroiſieſme à la quatrieſme, & la cinquieſme à la ſeconde, comme la ſixieſme à la quatrieſme: la compoſee de la premiere &cinquieſme, ſeraà la ſeconde, comme la compoſee de la troiſieſme & ſixieſme, ſera à la quatrieſme. Soit la premiere AB a la 2. C, comme la 3.DE eſt a la 4 F; & la 5.BG a la 2. C, comme la 6. EH a la 4 F. Ie dis que la toute AG, ſera aC, comme la toute DH a F.

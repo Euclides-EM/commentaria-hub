@@ -13,6 +13,8 @@ Nim für dich das quadrat a c e f / vnd das parallelogram c e f h. Der quadrats 
 
 ¶ Merckh. Darbei merckh / daß waß in diſer vnd volgender prop. von figurn ſo zwiſchen parallel linien ſtehn / geredt iſt von allen figurn ſo ainerlay höchin haben oder gleich hoch ſein / verſtanden mag werden. Dann es iſt ain ding / vnd gleiche höche bringt diſe parallellinien mit ſych / wie auch die parallel linien gleiche höche außweiſen. wollt ich dich manen.
 
+[Curated heading level=2 type=propositions: XXXVI. Die ſechßvnddreyſſigſt Propoſition]
+
 ## XXXVI Die ſechßvnddreyſſigſt Propoſition.
 
 Alle paralleliſch figurn ſo zwiſchen zwayen parallel linien vnd auff gleichen baſibus oder boden ſtehn / ſeind einander gleich.

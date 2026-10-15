@@ -10,6 +10,8 @@ Nam b centrum eſt & in recta I X, & in recta L Z. Ergo in communi ipſis pũcto
 
 Praxis. Centro B ſumpto in arcu, deſcribe circulum, eodemq́; interuallo, alijs in arcu centris, deſcribe duos alios circulos quorum ſinguli priorem bis ſecent. Per interſectiones ductæ rectæ ſibi mutuo occurrentes in O dabunt centrum.
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXVI. & XXVII.]
+
 ## PROPOSITIO XXVI. & XXVII.
 
 [Margin]

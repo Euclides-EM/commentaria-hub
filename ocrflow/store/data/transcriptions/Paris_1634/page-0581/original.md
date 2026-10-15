@@ -26,6 +26,10 @@ hyp. | a π b 2|2 c π d,
 α.cōstr. | e, msur: a,
 concl. 1.d.10 | a & b snt comm.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. VII.]
+
 ## THEOR. V. PROPOS. VII.
 
 Incōmensurabiles magnitudines inter se proportionem non habent quam numerus ad numerum.
@@ -48,6 +52,10 @@ Demonstr.
 suppos. | a π b 2|2 nr. π. nr.
 concl. 6.10 | a & b snt comm.
 contr. hypoth.
+
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VIII.]
 
 ## THEOR. VI. PROPOS. VIII.
 

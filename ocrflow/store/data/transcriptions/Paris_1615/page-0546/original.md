@@ -6,6 +6,10 @@
 
 Sn conuertira tant eeſte prroſiion que la preudente en eeſe maniere. Les ſoudes parallelipipedes egaur ayans meſme baſe, ſoir au’ils ſoient eolloquer entremeſmes lignes droictes, ou non. ſont en meſme hauteur. Car ſi l’on dit qusl’vn eſt plus baut, ſi d’ieluy en coupte vn perancſiuipsde de meſme bauteur que l’autre, le counpe & f’autre ſerue egaur, par la 29,ou jop..o puu qu à eſ aufre iſt poe igdl e reut, leroipté ſera aal a iout, ce quieſt aiſora.
 
+[Curated heading level=2 type=propositions: THEOR. 26. PROP. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. 26. PROP. XXXI.]
+
 ## THEOR. 26. PROP. XXXI.
 
 Les ſoiides parallelipipedes eſtans ſur baſes

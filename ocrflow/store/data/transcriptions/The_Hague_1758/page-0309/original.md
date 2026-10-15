@@ -3,6 +3,10 @@
 
 [Diagram: parallelogram plane Z X containing line A B, with dotted perpendicular G B and dotted extension B C, and line B D rising out of the plane toward D]
 
+[Curated heading level=2 type=propositions: PROPOSITION I. THEOREME I.]
+
+[Curated heading level=2 type=theorems: THEOREME I. PROPOSITION I.]
+
 ## PROPOSITION I. THEOREME I.
 
 {dropcap:S|lines=2|style=plain}I une partie (AB) d'une ligne droite eſt dans un Plan (ZX); l'autre partie ſera dans le même Plan.

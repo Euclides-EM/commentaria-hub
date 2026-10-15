@@ -3,6 +3,8 @@
 
 6 FI. Quia vero 4 AC æqualia erant 6 FO, erunt 4 AC minora 6 FI. Sed vt AC ad FI, ita ponebatur ſupra L eſſe ad R. Ergo per lem.1. etiam 4 L minora ſunt quam 6 R. Acceptæ ſunt igitur antecedentium AB, & L æquè multiplices, nempe quadruplæ, item æquè multiplices conſequentium FI & R, nempe ſecuplæ, & tamen oſtenſum eſt multiplam antecedentis AB (nempe 4 AB) ſuperare multiplicem cõſequentis FI (nempe 6 FI:) multiplicem vero antecedentis L (nempe 4 L) non excedere multiplicem conſequentis R (nempe 6 R.) Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: Lib. V, Pars II, Theorema 2.]
+
 ## Theorema 2.
 
 [Margin]

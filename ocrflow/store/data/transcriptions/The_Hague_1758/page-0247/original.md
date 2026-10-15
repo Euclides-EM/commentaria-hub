@@ -1,6 +1,8 @@
 <!-- Running title: APPENDICE. -->
 <!-- Page number: 235 -->
 
+[Curated heading level=2 type=definitions: DEFINITION X.]
+
 ## DEFINITION X.
 
 {dropcap:L|lines=2|style=plain}A ſuite de toutes les raiſons poſſibles, tant directes, que réciproques, conſidérées comme ayant été dérivées d'une même raiſon Primordiale, peut être nommée un Systême de raisons.
@@ -12,6 +14,8 @@
 ### REMARQUE.
 
 {dropcap:L|lines=2|style=plain}A Primordiale eſt arbitraire, mais auſſitôt qu'on la détermine, tout le Syſtéme de raiſons qui en dépend eſt déterminé. Comme chaque raiſon peut être priſe pour Primordiale, il eſt clair qu'on peut imaginer une infinité de ces Syſtêmes.
+
+[Curated heading level=2 type=definitions: DEFINITION XI.]
 
 ## DEFINITION XI.
 

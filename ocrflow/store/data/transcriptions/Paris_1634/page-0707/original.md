@@ -34,6 +34,10 @@ l.97.10 | ▭gк 2|2, 2▭acb,
 c.l97.10 | □.dl 3|2 □.gl..□. / ——, incomm. dl,
 concl. 6d85.10 | dg, est apotom. 6.
 
+[Curated heading level=2 type=propositions: THEOR. LXXX. PROPOS. CIV.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXX. PROPOS. CIV.]
+
 ## THEOR. LXXX. PROPOS. CIV.
 
 Recta linea apotomæ longitudine commensurabilis; & ipsa apotome est, atque ordine eadem.

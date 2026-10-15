@@ -1,6 +1,10 @@
 <!-- Running title: Liber Quartus. -->
 <!-- Page number: 109 -->
 
+[Curated heading level=1 type=propositions: Liber IV]
+
+[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO PRIMA.]
+
 ## PROPOSITIO PRIMA.
 
 [Curated heading level=1 type=figures: Liber IV]
@@ -14,6 +18,8 @@ Fig.1 l.4.
 [/Margin]
 
 Accipe in peripheria quoduis punctum B. Centro B interuallo datæ A deſcribe arcum circulo occurrentem in C. Duc rectam B C. Dico factum.
+
+[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO II.]
 
 ## PROPOSITIO II.
 
@@ -35,6 +41,8 @@ c Per 32.l.3.
 d Per conſtr.
 f Per corol. 9.p.32.l.1.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO III.]
 
 ## PROPOSITIO III.
 

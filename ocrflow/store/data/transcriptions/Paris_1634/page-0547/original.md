@@ -8,6 +8,10 @@
 30.7 | a + c + b, est pr.π.b
 3.concl. 30.7 | a + c, est pr. π. b.
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XVI.]
+
 ## THEOR. XVI. PROPOS. XVI.
 
 Si duo numeri primi inter se fuerint : Non erit vt primus ad secundum, ita secundus ad alium quempiam.
@@ -33,6 +37,10 @@ suppos. | a π b 2|2 b π c,
 12.d.7 | a & b n̄ snt pr; ꝫe.
 contr. hypoth.
 21.a.1 | b,n̄,est π c 2|2 a π b.
+
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XVII.]
 
 ## THEOR. XVII. PROPOS. XVII.
 

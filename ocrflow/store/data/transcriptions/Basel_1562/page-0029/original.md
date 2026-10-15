@@ -1,6 +1,8 @@
 <!-- Page number: 8 -->
 <!-- Running title: Das erſt buͤch Euclidis -->
 
+[Curated heading level=2 type=propositions: IIII. Die vierdt propoſition]
+
 ## IIII. Die vierdt propoſition.
 
 [Subhead]
@@ -18,6 +20,8 @@ Merckh.
 [Figure: a triangle and a square, each with its bottom line labelled Baſis]
 
 [Figure: two triangles labelled a and b; the left triangle has base points a and c with apex b, the right triangle has base points d and f with apex e]
+
+[Curated heading level=2 type=propositions: V. Die fünfft propoſition]
 
 ## V. Die fünfft propoſition.
 

@@ -18,6 +18,8 @@ conſtituemus pẽtagonum æquilaterum, & æquiangulum, hoc modo. Fiat triangulu
 
 [Curated heading level=2 type=campanus: 12]
 
+[Curated heading level=2 type=problems: PROBL. 12. PROPOS. 12.]
+
 ## PROBL. 12. PROPOS. 12.
 
 [Margin]

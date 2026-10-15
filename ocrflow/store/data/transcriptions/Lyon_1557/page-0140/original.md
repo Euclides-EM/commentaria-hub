@@ -19,6 +19,10 @@ Vt ſi ſit proportio A ad B ſicut C ad D. Dico eſſe B ad A ſicut D ad C.
 
 Sin minus: Sit D ad E ſicut B ad A. Et quia A ad B eſt ſicut C ad D: erit permutatim A ad C ſicut B ad D. Et quia iterum B ad A ſicut D ad E: erit quoque permutatim, B ad D ſicut A ad E. Quare A ad E ſicut A ad C. Si igitur E non ſit æquale C: fiet contrà ſecundam partem nonæ. Si autem æqualis: erit B ad A ſicut D ad C, Quod fuit oſtendendum. Hæc Campanus. Hoc autem poſtremùm probatum fuerat ſuprà ad quartam huius.
 
+[Curated heading level=2 type=propositions: THEOREMA 20, PROPOSITIO XX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 20, PROPOSITIO XX.]
+
 ## THEOREMA 20, PROPOSITIO XX.
 
 Si fuerint tres Magnitudines vnius ordinis, & aliæ totidem alterius, fuerintq́; duæ vnius in eadem ratione cum duabus alterius eodem ſitu poſitis, prima autem vnius fuerit maior tertia: erit & prima alterius maior tertia: & ſi æqualis, æqualis: & ſi minor, minor.

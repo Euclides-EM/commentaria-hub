@@ -1,6 +1,8 @@
 <!-- Page number: 208 -->
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XVIII.]
+
 ## PROPOSITIO XVIII.
 
 [Curated heading level=2 type=figures: Fig. 35]
@@ -29,6 +31,8 @@ g Per 4.l.6.
 h Per eand.
 i Per 22.l.5.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XIX.]
 
 ## PROPOSITIO XIX.
 

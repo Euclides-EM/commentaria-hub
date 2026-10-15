@@ -17,6 +17,10 @@ und     AB ╪ CD     n. 28. Vortr.
 
 Werden also diejenigen Striche / so neben den dritten in gleicher Weite hinlauffen/ auch Neben-Striche seyn.  W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXXI. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 10. Werck-Stück. Der XXXI. Vortrag.]
+
 ## Der XXXI. Vortrag.
 
 ## Das 22{printer-error-correction:10}. Werck-Stück.

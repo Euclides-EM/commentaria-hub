@@ -5,7 +5,7 @@ Eſto datum circulus A C D, cui per 11 huius inſcribatur pentagonum A B G D E, 
 
 [Diagram: circle with inscribed polygons and lines labelled A, B, C, G, D and E]
 
-## Additio ad inuentionem infinitorum poligonorum.
+### Additio ad inuentionem infinitorum poligonorum.
 
 Si in circulo duorum poligonorum latera coaptentur, ab vno ſigno, exceſſus arcus maioris ſupra minorem, comprehendet arcum tot futuri poligoni latera continentem, quot vnitatibus denominatio poligoni minoris lateris, denominationem maioris excedet: futuri autem poligoni laterum numerus, ex multiplicatione denominationum prædictorum poligonorum conſurget.
 

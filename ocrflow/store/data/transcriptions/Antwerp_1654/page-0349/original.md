@@ -5,6 +5,8 @@ Dico ſegmento ſphærico inſcriptum iri corpus conicis ſuperficiebus contentu
 
 Probatur vt lemma præced.
 
+[Curated heading level=2 type=propositions: Archim., PROPOSITIO XVIII.]
+
 ## PROPOSITIO XVIII.
 
 [Margin]

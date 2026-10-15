@@ -15,6 +15,10 @@ Demonstr.
 12.10 | ab, comm. db,
 2 concl. 16.10 | ad, comm. db.
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XIX.]
+
 ## THEOR. XVI. PROPOS. XIX.
 
 Si fuerint duæ rectæ lineæ inæquales, quartæ autem parti quadrati, quod fit à minore, æquale parallelogrammum ad majorem applicetur deficiens figura quadrata, & in partes incommensurabiles longitudine ipsam diuidat ; major tantò plus poterit, quàm minor, quantum est quadratum rectæ lineæ sibi longitudine incommensurabilis. Quod si major tantò plus possit, quàm minor, quantum est quadratum rectæ lineæ sibi longitudine incommensurabilis, quartæ autem parti quadrati, quod fit à minore, æquale parallelogrammum ad majorem applicetur deficiens figura quadrata, in partes longitudines incommensurabiles ipsam diuidet.

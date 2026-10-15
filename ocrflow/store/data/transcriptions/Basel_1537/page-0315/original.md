@@ -24,6 +24,8 @@ CAMPANVS. Et hæc quoq̃ ueritatē habet, si utrolibet modo cōmunicans fuerit a
 
 [Diagram: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]
 
+[Curated heading level=2 type=theorems: Theorema 50 Propositio 68]
+
 ## Eucli.ex Zamb. Theorema 50 Propositio 68
 
 [Curated heading level=3 type=zamberti_sequence: 68.]

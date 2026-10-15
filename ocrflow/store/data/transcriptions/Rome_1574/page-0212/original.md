@@ -7,6 +7,8 @@ Ex his perſpicuum eſt, cur Euclides in propos. 24. ſolum collegerit inæquali
 
 [Curated heading level=2 type=campanus: 38]
 
+[Curated heading level=2 type=theorems: THEOR. 28. PROPOS. 38.]
+
 ## THEOR. 28. PROPOS. 38.
 
 [Margin]

@@ -16,6 +16,8 @@ QVONIAM vero, circulis inæqualibus exiſtẽtibus, initiũ cõſtructionis ſum
 
 [Curated heading level=2 type=campanus: 17]
 
+[Curated heading level=2 type=theorems: THEOR. 16. PROPOS. 18.]
+
 ## THEOR. 16. PROPOS. 18.
 
 [Curated heading level=3 type=incipit: SI]

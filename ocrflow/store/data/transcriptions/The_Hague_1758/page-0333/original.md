@@ -3,6 +3,10 @@
 
 [Diagram: within a ruled border, three triangles A B C, D E F and G H I, and a dotted circle L M N with centre O and apex P joined by dotted lines to L, M, N and O]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIII. PROBLEME III.]
+
+[Curated heading level=2 type=problems: PROBLEME III. PROPOSITION XXIII.]
+
 ## PROPOSITION XXIII. PROBLEME III.
 
 {dropcap:E|lines=2|style=plain}Tant donnés trois angles-plan (ABC, DEF & GHI) deux deſquels pris comme l'on voudra ſoyent toujours plus grand que le troiſieme, & dont la ſomme (∀ ABC, + ∀ DEF + ∀ GHI) eſt moindre que quatre angles droits: en faire un angle ſolide (P).

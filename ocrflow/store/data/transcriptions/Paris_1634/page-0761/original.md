@@ -23,6 +23,10 @@ Demonstr.
 ◇fgcd, est commun.
 concl. 9. d.11 | fgcdah 2|2 fgcdeb.
 
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXIX.]
+
 ## THEOR. XXIV. PROPOS. XXIX.
 
 Solida parallelepipeda super eandem basin constituta, & in eadem altitudine, quorum insistentes lineæ in iisdem collocantur rectis lineis, sunt inter se æqualia.

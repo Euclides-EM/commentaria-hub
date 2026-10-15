@@ -6,6 +6,8 @@ secet utrunq̃ latus a b & c d, sitq̃ tota g k h. Erit totum parallelogrammū a
 
 [Diagram: parallelogram with a, g, b along the top, e, k, f in the middle, c, h, δ along the bottom; diameter b c drawn, with lines e f and g h through k dividing it into four parallelograms]
 
+[Curated heading level=2 type=theorems: Theorema 32. Propositio 43.]
+
 ## Eucli. ex Zamb. Theorema 32. Propositio 43.
 
 [Curated heading level=3 type=zamberti_sequence: 43.]

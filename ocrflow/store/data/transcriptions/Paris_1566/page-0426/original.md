@@ -9,6 +9,10 @@ D E, & tripla rationis A C ad B G: quoniã icoſahedri A B G C & dodecahedri H I
 
 [Diagram: circle containing a figure with points labelled E, F and D]
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimatertia.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio trigeſimatertia.]
+
 ## Propoſitio trigeſimatertia.
 
 Dodecahedri ſolidum excedit cubi ſibi inſcripti ſolidum, parallelepipedo ſolido, cuius baſis à baſi cubi deficit tertio minoris ſegmenti, vertex autem à cubi vertice minori ſegmento minoris, dimidij lateris.

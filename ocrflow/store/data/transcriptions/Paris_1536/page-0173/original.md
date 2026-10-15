@@ -22,6 +22,10 @@ tres itaque rectæ lineæ sunt proportionales. Prima igitur ad tertiam, duplicem
 
 [Diagram: a d / b c e f b g]
 
+[Curated heading level=2 type=propositions: Theorema 14, Propositio 20.]
+
+[Curated heading level=2 type=theorems: Theorema 14, Propositio 20.]
+
 ## Θεώρημα ιδ, Πρόθεσις κ.
 ΤΑ ὅμοια πολύγωνα, εἴς τε ὅμοια τρίγωνα διαιρεῖται, καὶ εἰς ἴσα τὸ πλῆθος, καὶ ὁμόλογα τοῖς ὅλοις. καὶ τὸ πολύγωνον διπλασίονα λόγον ἔχει, ἤπερ ἡ ὁμόλογος πλευρὰ πρὸς τὴν ὁμόλογον πλευράν.
 

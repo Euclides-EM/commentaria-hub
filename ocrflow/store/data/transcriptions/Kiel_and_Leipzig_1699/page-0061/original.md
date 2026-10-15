@@ -18,6 +18,10 @@ BD + DC ⊢ BA + AC n. Beweiß ß.
 Aber einen grössern Winckel begreiffen / nemlich
 BDC ⲗ BAC n. Bew. a. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXII. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 8. Werck-Stück. Der XXII. Vortrag.]
+
 ## Der XXII. Vortrag.
 
 ## Das 8. Werck-Stück.

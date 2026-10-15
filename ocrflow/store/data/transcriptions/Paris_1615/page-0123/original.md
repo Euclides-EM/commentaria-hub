@@ -12,6 +12,10 @@ Autrement l’vn d’iceux ſera plus grand ou plus petit. Soit donc AGC plus gr
 
 L’egalité des angles du centre eſtant prouuee, les angles de la circonference ſont entẽdus egaux, puis qu’ils ſont moitiez d’iceux par la 20.p.3.
 
+[Curated heading level=2 type=propositions: THEOR. 25. PROP. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 25. PROP. XXVIII.]
+
 ## THEOR. 25. PROP. XXVIII.
 
 Aux cercles egaux les lignes droictes egales prennent circonferences egales, ſçauoir la plus grande à la plus grande, & la plus petité à la plus petite.

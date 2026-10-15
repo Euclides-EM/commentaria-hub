@@ -27,6 +27,8 @@ Explication des notes.
 
 B & D mesurent également A & C, par consequent la multitude des parties de A est égale à la multitude des parties de C : & vne partie de la grandeur A est égale à la grandeur B.
 
+[Curated heading level=2 type=definitions: DEFINIT. III.]
+
 ## DEFINIT. III.
 
 Ratio est duarum magnitudinum eiusdem generis mutua quædam, secundum quantitatem habitudo.

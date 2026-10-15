@@ -26,6 +26,10 @@ Alia & vniuersalior eiusdẽ problematis ostensio.
 
 [Diagram: b d e f a c]
 
+[Curated heading level=2 type=propositions: Theorema 23, Propositio 26.]
+
+[Curated heading level=2 type=theorems: Theorema 23, Propositio 26.]
+
 ## Θεώρημα κγ, Πρόθεσις κς.
 
 Εν τοῖς ἴσοις κύκλοις αἱ ἴσαι γωνίαι ἐπὶ ἴσωρ περιφερειῶρ βεβήκασι, ἐάντε πρὸς τοῖς κέντροις, ἐάντε πρὸς ταῖς περιφερείαις ὦσι βεβηκῦαι.

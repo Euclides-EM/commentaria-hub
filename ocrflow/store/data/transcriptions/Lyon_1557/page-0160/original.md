@@ -11,6 +11,10 @@ Quum enim ex decimaquinta & vigeſimanona Primi, duo Triangula ABC & DBE ſint �
 
 Hanc Campanus antecedenti Propoſitioni annexuit, vt Appendicem.
 
+[Curated heading level=2 type=propositions: PROBLEMA 4, PROPOSITIO XII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 4, PROPOSITIO XII.]
+
 ## PROBLEMA 4, PROPOSITIO XII.
 ### Theoni Problema 1, Propoſitio 9.
 
@@ -31,6 +35,10 @@ Sit linea AB, à qua reſecanda ſit pars ſubſupertripartiens quintas.
 Quum Octonarius ad Quinarium ſit ſupertripartiens quintas: ex octo lineolis æqualibus, faciam lineam vnam: cuiuſmodi hoc loco eſt linea AC: quam coniungam ad angulum fortuitum cum ipſa AB diuidenda. Et connexa BC, per punctum quintæ ſectionis, quod ſit D, ducam DE parallelum ipſi BC. Eritq́; AE ipſa pars quam quærimus lineæ AB, ſcilicet ſubſupertripartiens quintas. Quod delineatio ipſa ſatis oſtendit. Nam quum AD ſit ad AC ſubſupertripartiens quintas: ſitq́; ex poſtrema probatione, vt AD ad AC, ſic AE ad AB: erit & AE ad AB ſubſupertripartiens quintas, Quod fuit oſtendendum.
 
 [Diagram: triangle with C at the top, D on the divided left side, A, E and B on the base]
+
+[Curated heading level=2 type=propositions: PROBLEMA 5, PROPOSITIO XIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 5, PROPOSITIO XIII.]
 
 ## PROBLEMA 5, PROPOSITIO XIII.
 ### Theoni Problema 2, Propoſitio 10.

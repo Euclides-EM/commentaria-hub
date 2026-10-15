@@ -9,6 +9,8 @@ b Per 30.l.5.
 c Patet ex 27.l.5.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXXIV.]
+
 ## PROPOSITIO XXXIV.
 
 [Curated heading level=2 type=figures: Fig. 20]
@@ -25,6 +27,8 @@ Quia ratio A ad C duplicata eſt rationis A ad B, erit a vt A ad B, ſic B ad C.
 a Per defin. 10.l.5.
 b Per 22. l.5.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXXV.]
 
 ## PROPOSITIO XXXV.
 

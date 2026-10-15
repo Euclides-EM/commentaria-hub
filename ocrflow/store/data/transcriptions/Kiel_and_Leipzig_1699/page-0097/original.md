@@ -23,6 +23,10 @@ und D ∠ fgn | n. 2. Wirck.
 
 Ist also der gegebenen Gestalt ypzq, nach dem gegebenen ∠ D, ein gleichhaltendes □ mngo verfertiget. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der XLVI. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 14. Werck-Stück. Der XLVI. Vortrag.]
+
 ## Der XLVI. Vortrag.
 
 ## Das 14. Werckstück.

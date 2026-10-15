@@ -8,13 +8,19 @@
 
 ## DEMANDES
 
+[Curated heading level=2 type=postulates: DEMANDE I.]
+
 ### I.
 
 {dropcap:O|lines=2|style=plain}N demande que d'un point à un autre point on puiſſe mener une ligne droite.
 
+[Curated heading level=2 type=postulates: DEMANDE II.]
+
 ### II.
 
 Qu'on puiſſe prolonger une ligne droite quelconque à l'infini.
+
+[Curated heading level=2 type=postulates: DEMANDE III.]
 
 ### III.
 
@@ -22,11 +28,15 @@ Que d'un centre quelconque & d'un rayon quelconque, on puiſſe décrire un cerc
 
 ## AXIOMES OU NOTIONS COMMUNES.
 
+[Curated heading level=2 type=axioms: AXIOME I.]
+
 ### I.
 
 Deux grandeurs égales à une même troiſieme ſont égales entr'elles.
 
 *Si la ligne* A *eſt égale à la ligne* B, *& la ligne* C *égale à la même ligne* B; *la ligne* A *ſera égale à la ligne* C. *Fig.* 1.
+
+[Curated heading level=2 type=axioms: AXIOME II.]
 
 ### II.
 

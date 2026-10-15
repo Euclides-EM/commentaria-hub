@@ -4,6 +4,10 @@
 
 ſicut igitur a/d/ad d/e,ſic a/f/ad f/g:ſicútq; d/e/ad e/c,ſic f/g/ad g/b. Data ergo recta linea inſecta a/b,datæ rectæ lineæ vtcunq; ſectæ a/c,ſimiliter ſecatur.Quod faciendum receperamus.
 
+[Curated heading level=2 type=propositions: Problema 3, Propoſitio 11.]
+
+[Curated heading level=2 type=problems: Problema 3, Propoſitio 11.]
+
 ## Πρόβλημα γ, Πρόθεσις ια.
 
 ΔΥο δοθεισῶν εὐθειῶν,τρίτην ἀνάλογον προσευρεῖν.
@@ -23,6 +27,10 @@ Conſtructio figuræ.
 [Margin]
 Demōſtratio problematis.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Problema 4, Propoſitio 12.]
+
+[Curated heading level=2 type=problems: Problema 4, Propoſitio 12.]
 
 ## Πρόβλημα δ, Πρόθεσις ιβ.
 

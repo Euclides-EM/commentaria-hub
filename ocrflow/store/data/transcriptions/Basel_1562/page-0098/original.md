@@ -9,6 +9,8 @@ Darbei zůmercken / das ob wol nur ain vmbkraiſß des zirckels iſt / wirt glei
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: IX. Die neündt propoſition]
+
 ## IX. Die neündt propoſition.
 
 So in ainem zirckel von ainem fürgenomen puncten mehr dan zwo gleich linien / zur circumferentz gezogen werden: iſt derſelb punct des zirckels centrum.
@@ -19,6 +21,8 @@ Dann wa ſunſt dz centrum hingeſeßt wurde / vn̄ dan ein lini durch daſſelb
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: X. Die zehendt propoſition]
+
 ## X. Die zehendt propoſition.
 
 Ain zirckel geht durch ain andern zirckel oder zerſchneidt denſelben nit mehr dann in zwen puncten / oder an zwai ortten.
@@ -27,9 +31,13 @@ Ain zirckel geht durch ain andern zirckel oder zerſchneidt denſelben nit mehr 
 
 Siheſt du im exempel der 5 propoſition.
 
+[Curated heading level=2 type=propositions: XI. Die ailffte propoſition]
+
 ## XI. Die ailffte propoſition.
 
 So zwen zirckel inwendig ainander berüern / wirt die lini ſo durch ire baide centra geht / erſtreckt / in die berürung der zirckel fallen.
+
+[Curated heading level=2 type=propositions: XII. Die zwelffte propoſition]
 
 ## XII. Die zwelffte propoſition.
 

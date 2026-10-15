@@ -16,6 +16,8 @@ FIANT enim E, F, G, ex A, in B, C, D, uel ex B, C, D, in A. Dico eaſdem ratione
 
 [Curated heading level=2 type=campanus: 20]
 
+[Curated heading level=2 type=theorems: THEOR. 17. PROPOS. 19.]
+
 ## THEOR. 17. PROPOS. 19.
 
 [Margin]

@@ -15,6 +15,10 @@ b. 38. 1.
 
 ſunt enim ſuper aequalibus baſibus BC, EF, et in eiſdem parallelis BF, AG. ſed triangulum ABC aequale eſt triangulo DEF; ergo et triangulum DEF triangulo GEF aequale erit, majus minori, quod fieri non poteſt. non igitur AG ipſi BF eſt parallela. ſimiliter oſtendemus neque aliam quampiam parallelam eſſe, praeter AD. Ergo AD ipſi BF parallela eſt. Aequalia igitur triangula &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XLI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XLI. THEOR.]
+
 ## PROP. XLI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I parallelogrammum et triangulum eandem baſim habeant, in eiſdemque ſint parallelis; parallelogrammum ipſius trianguli duplum erit.
@@ -36,6 +40,10 @@ b. 34. 1.
 diameter enim AC ipſum bifariam ſecat; quare et ABCD ipſius trianguli EBC duplum erit. ſi igitur parallelogrammum &c. Q. E. D.
 
 [Diagram: geometric construction labelled A, D, E above and B, C below, with crossing diagonals]
+
+[Curated heading level=2 type=propositions: PROP. XLII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XLII. PROB.]
 
 ## PROP. XLII. PROB.
 

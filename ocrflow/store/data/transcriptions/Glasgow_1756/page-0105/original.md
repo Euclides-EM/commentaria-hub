@@ -23,6 +23,10 @@ major igitur eſt FC quam FG; aequalis autem FC ipſi FB; major igitur eſt FB i
 
 [Diagram: circle labelled A, B, C and F, tangent line DE through C and G, with lines FC and FB]
 
+[Curated heading level=2 type=propositions: PROP. XIX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIX. THEOR.]
+
 ## PROP. XIX. THEOR.
 
 {dropcap:S|lines=2|style=plain}I circulum contingat quaedam recta linea, a tactu autem ad rectos angulos contingenti recta linea ducatur; in ducta erit centrum circuli.

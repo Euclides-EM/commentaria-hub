@@ -4,6 +4,10 @@ speciem nobis exhibent qua theorematis demonstratio in memoriam reuocetur.
 
 *cune figure qui nous les facent retenir.*
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XV.]
+
 ## THEOR. XV. PROPOS. XV.
 
 Si tres numeri deinceps proportionales, fuerint minimi omnium eandem cum ipsis rationem habentium ; duo quilibet compositi, ad reliquum primi erunt.

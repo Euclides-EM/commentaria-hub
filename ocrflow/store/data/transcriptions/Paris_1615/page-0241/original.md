@@ -2,6 +2,10 @@
 
 <!-- Page number: 218 -->
 
+[Curated heading level=2 type=propositions: THEOR. 6. PROP. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 6. PROP. VIII.]
+
 ## THEOR. 6. PROP. VIII.
 
 Si vn nombre contient telles parties d’vn autre nombre, que le retranché du retranché, auſſi le reſte contiendra telles parties du reſte, que le tout du tout.
@@ -11,6 +15,10 @@ Si vn nombre contient telles parties d’vn autre nombre, que le retranché du 
 Si le nombre total AB contient telles parties du total CD, que le retranché AE du retranché CF: Ie dis que le reſte EB contiendra telles parties du reſte FD, que le total AB, du total CD.
 
 {dropcap:C|lines=2|style=plain}Car ſi on poſe GA contenir telles parties de FD, que AE de F, ou AB de CD, par la 6.p.7. les deux nombres GA, AE enſemble ſeront telles parties des deux CF, FD enſemble (c’eſt à dire le tout GE du tont CD) que GA de FD, ou AB de CD: & partant puis que GE & AB contiennent telles p arties de C D, l’vn que l’autre, ils ſeront egaux; parquoy en oſtant le nõbre commun AE, reſteront GA & EB egaux. Mais GA contient telles parties de FD, que AB de CD: Donc auſsi EB contiendra telles parties d’iceluy FD, que AB de CD, ce qu’il falloit prouuer.
+
+[Curated heading level=2 type=propositions: THEOR. 7. PROP. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. 7. PROP. IX.]
 
 ## THEOR. 7. PROP. IX.
 

@@ -3,6 +3,8 @@
 
 [Diagram: two quadrilateral figures divided into triangles, labelled 6, 8, 10, 12, 14 and 9, 12, 15, 18, 21]
 
+[Curated heading level=2 type=propositions: XIX. Die neünzehendt propoſition]
+
 ## XIX. Die neünzehendt propoſition.
 
 [Subhead]

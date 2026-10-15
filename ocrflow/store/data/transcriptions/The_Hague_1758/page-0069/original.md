@@ -4,6 +4,10 @@
 
 [Figure: parallelogram ABCD with point E on line AD extended, diagonal AC dotted, lines from B and C to E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XLI. THEOREME XXXI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXI. PROPOSITION XLI.]
+
 ## PROPOSITION XLI. THEOREME XXXI.
 
 {dropcap:S|lines=2|style=plain}I un parallélogramme (BD) & un triangle (BEC) ſont placés ſur une même baſe (BC), & entre les mêmes paralleles (BC, AE): le parallélogramme ſera double du triangle.

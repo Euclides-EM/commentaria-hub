@@ -9,7 +9,7 @@ Partientem verò rationem eam dicemus, cuius antecedens plures ſumit antecedent
 
 Hac breui rationum diuisione cunctas inæqualitatis rationes complectimur, multiplici ſcilicet ac eius conuerſa particulari continui ad diſcretum quaſlibet, ſuperpartiente autem & partiente reliquas quæ inter diſcreta quæque cadunt, concludentes. Quæ videntur omnes rationes inæqualitatis quas certas dicere auſi ſumus referre. Nam ſi continui ad continuum rationes relinquere diceremur, has in priorem rationum ſectionem, ſiue diuisionem decidiſſe, qua certas ab incertis diuiſimus rationes, memores eſſe conueniret. Continui namque ad continuum reſpectus incertas æquè vt certas complecti poteſt rationes. Ratio namque geometricorum continuorum æquè rationes numerorum arithmeticorum ſiue certas continet, ac incommenſurabilium quantitatum, ſiue incertas vnica continuorum habitudine, quæ ſemper actione qua antecedentis quantitas in conſequentis quantitatem operatur, exprimenda venit. In diſcretis quidem per numerorum multiplicationem in continuis verò inexpreſſa, numeris obſiſtit.
 
-## Ratio certa diuiditur in rationes.
+### Ratio certa diuiditur in rationes.
 
 [Calculation]
 Æqualitatis vt inter 4 & 4.
@@ -32,7 +32,7 @@ Inæqualitatis {
 }
 [/Calculation]
 
-## Breuior rationum inæqualitatis diuiſio.
+### Breuior rationum inæqualitatis diuiſio.
 
 [Calculation]
 Inæqualitatis {

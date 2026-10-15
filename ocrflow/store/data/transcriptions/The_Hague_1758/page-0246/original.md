@@ -13,6 +13,8 @@
 
 {dropcap:P|lines=2|style=plain}Ar conſéquent toute grandeur quelconque K > M & < N, ſera égale à quelqu'une des moyennes proportionelles a, b, c, d, &c. priſes entre M & N.
 
+[Curated heading level=2 type=propositions: PROPOSITION XI.]
+
 ## PROPOSITION XI.
 
 {dropcap:T|lines=2|style=plain}Oute raiſon 1 : K peut être conſidérée comme une dérivée de quelque primordiale 1 : B (ſuppoſant K & B > 1.)

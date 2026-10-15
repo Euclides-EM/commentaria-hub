@@ -10,6 +10,10 @@ Pour la ſeconde partie, ſi AB eſt à BG, comme EB à BC, & que les angles A
 
 Car demeurant la meſme conſtruction, on prouuera par la 1.p 6. &11.p.5. qu’il y ameſme raiſon du parallelogramme AC, au parallelogrãme BH, que de la baſe AB à BG: pareillement qu’il y a meſme raiſon du parallelogrãme EG, au parallelograme BH, que de EB à BC: mais les raiſons des baſes. ſont poſees ſemblables: donc auſſi les raiſons des parallelogrames AC & EG, au troiſieſme BH ſeront ſemblables par la I1.p.5.& partant par la 9.p.5.ils ſeront egaux.
 
+[Curated heading level=2 type=propositions: THEO. 10. PROP. XV.]
+
+[Curated heading level=2 type=theorems: THEO. 10. PROP. XV.]
+
 ## THEO. 10. PROP. XV.
 
 Les triangles egaux ayans vn angle egal à vn angle; ont les coſtez au long des angles egaux reciproques: & les triangles qui ont vn angle egal à vn angle, & les coſtés au long des angles egaux reciproques, ſont auſſi egaux.

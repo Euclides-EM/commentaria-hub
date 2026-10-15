@@ -13,6 +13,8 @@ uero recto maior. Cum enim CG, CB, latera æqualia ſint, & ideo anguli CBG, CGB
 
 [Curated heading level=2 type=campanus: 8]
 
+[Curated heading level=2 type=theorems: THEOR. 8. PROPOS. 8.]
+
 ## THEOR. 8. PROPOS. 8.
 
 [Curated heading level=3 type=incipit: SI]

@@ -1,6 +1,8 @@
 <!-- Running title: Liber Quintus. Pars II. -->
 <!-- Page number: 163 -->
 
+[Curated heading level=2 type=propositions: Lib. V, Pars II, Theorema 6.]
+
 ## Theorema 6.
 
 {dropcap:S|lines=2|style=plain}I aut conſequentes (C F, N Q) aut conſequentium aliquæ ſimiles aliquotæ (ex: gr. decimæ) inæquali numero in antecedentibus (A B, G M) contineantur, rationes (A B ad C F; & G M ad N Q) inæquales erunt, & erit illa maior, cuius conſequentis aliquota ſæpius continetur.

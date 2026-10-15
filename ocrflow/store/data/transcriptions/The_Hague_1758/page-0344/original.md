@@ -3,6 +3,10 @@
 
 [Figure: two parallelepipeds in a double-ruled frame, labelled G, I, M, Z, O, D, C, T, L, A, B, H, N, F, q, Y, Q, K, E, V, R, X and S, with dotted construction lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXI. THEOREME XXVI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXVI. PROPOSITION XXXI.]
+
 ## PROPOSITION XXXI. THEOREME XXVI.
 
 {dropcap:L|lines=2|style=plain}Es paralelipipédes (KI & NZ) dont les bazes (KH & Nq) ſont égales & qui ont la même hauteur : ſont égaux.

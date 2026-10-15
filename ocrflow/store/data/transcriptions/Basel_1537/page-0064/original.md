@@ -6,6 +6,8 @@ cto, g, erit linea e f, maior linea e g, pars uidelicet toto, quod est impossibi
 
 [Diagram: circle with b at the top, points g and f on the vertical line, a, d, c on a horizontal chord at the bottom, and lines drawn to a point h within]
 
+[Curated heading level=2 type=problems: Problema 1. Propositio 1]
+
 ## Eucl. ex Zamb. Problema 1. Propositio 1
 
 [Curated heading level=3 type=zamberti_sequence: 1.]
@@ -35,6 +37,8 @@ SVper circuli circunferentiam duobus punctis signatis, lineam rectam ductam ab a
 CAMPANVS Sit ut in circūferētia circuli a b, cuius centrū sit c. signata sunt duo puncta, quæ sunt a & b, Dico quod linea recta cōiungēs unū cū altero, secabit circulū. Alioqui cadet extra circulū. Sitq̃ ea b, linea recta: si possibile est. Producā lineas c a & c b, eruntq̃ per 5 primi, angulus c a b & c b a æquales: & quia protrahā itē lineā c e, quæ secet circūferētiā in puncto d, eritq̃ per 16 primi, angulus a e c maior angulo c b e, quare maior angulo c a e, quare per 19 eiusdē, latus a c, maius latere c e, & quia c d est æqualis c a, erit c d, maior c e, pars toto, quod est impossibile. Quia ergo linea coniungēs duo puncta a b, non transibit extra circulum: secabit ipsum quod est p̄positum.
 
 [Diagram: circle with d on the upper circumference, a horizontal line a b through the circle, and lines from a and b meeting at e below the centre]
+
+[Curated heading level=2 type=theorems: Theorema 1. Propositio 2]
 
 ## Eucli. ex Zamb. Theorema 1. Propositio 2
 

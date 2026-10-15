@@ -3,6 +3,8 @@
 
 obberürten grunden beweisen. Sprich ich der punct der zerſchneidung ſei des zirckels centrum / von welchem mehr dann zwo / nemlich 4 gleiche linien zum vmbkraiß des zirckels ſeind gezogen / durch die 9 propoſition des dritten bůchs / iſt je der halbtail ainer perpendicular des zirckels ſemidiameter / vnd ſo der ſelbig inn der lenge des ainen gezogen / wirt er die auſſerſten puncten der andern aller berüren / alſo vnſerm begern gnůg gethon / verſteht ſich auß vorgehnder propoſit. figur.
 
+[Curated heading level=2 type=propositions: IX. Die neünde Propoſition]
+
 ## IX. Die neünde Propoſition. Lehrt /
 
 [Subhead]
@@ -16,6 +18,8 @@ Zeuch zwen diameter in dem quadrat welche einander creutzweiß zerſchneiden wer
 ### Anhang diſer vier propoſition.
 
 Welcher maſſen auch ſo der diameter des zirckels bekhannt / die ſeitten aines ain oder vmbgeſchreibnen quadrats zů erkennen / vnd härgegen / mag ein jeder ſo zum tail der 47 propoſition des erſten bůchs ingedenck iſt / zum tail auch auff die gleiche linien ſicht / ſonder mühe erlernen / hab derhalben allain die exempel mit ziffern erklert / Dann es mehr verdrießlich dann nutzlich iſt / alle ding wöllen ſo gefliſſen einführen / vnd dem fleiſſigen leſer nichts nach zůdencken laſſen / ſonderlich wa derſelb jm ſelbſt (als hierinn) leichtlich helffen mag.
+
+[Curated heading level=2 type=propositions: X. Die zehendt Propoſition]
 
 ## X. Die zehendt Propoſition. Lehrt /
 

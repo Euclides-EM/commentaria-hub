@@ -6,6 +6,8 @@ hyp. | ab 2|2 2cd.
 hyp. | ae 2|2 2cf.
 20.a.1. | eb 2|2 2fd.
 
+[Curated heading level=2 type=axioms: 20. a. b.]
+
 ### 20. a. b.
 
 Si singulæ partes primæ magnitudinis sint duplæ singularum partium secundæ magnitudinis, prima magnitudo erit dupla secundæ magnitudinis. | Si chaque partie de la premiere grandeur est double de chaque partie de la seconde grandeur, la premiere grandeur sera double de la seconde.
@@ -15,6 +17,8 @@ Si singulæ partes primæ magnitudinis sint duplæ singularum partium secundæ m
 hyp. | ae 2|2 2cf.
 hyp. | eb 2|2 2fd.
 20.a.b. | ab 2|2 2cd.
+
+[Curated heading level=2 type=axioms: 21. a. 1.]
 
 ### 21. a. 1.
 

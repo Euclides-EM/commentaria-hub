@@ -4,6 +4,8 @@ munis menſura, illum metiatur per 6. hunc uero per 10. Idem iudicium habeto & i
 
 QVOD ſi roges, cur Euclides hoc in loco non ſolum eum numerum minorem definiat, qui maioris pars eſt, verum etiam illum, qui partes: non autem idipſum quinto lib. in magnitudinibus præſtiterit; Neque enim magnitudinem illam minorem, quæ maiorem non metitur, partes appellauit; ſed tantum eam, quæ maiorem metitur, partem. Reſpondemus, huius rei cauſam eſſe, quod omnis numerus minor cuiuslibet maioris aut pars eſt, aut partes, ceu propoſ. 4. huius lib. oſtendetur; pars quidem, cum ipſum metitur, partes uero, cum non metitur. At in magnitudinibus longe aliter ſe res habet. Non enim, propoſitis duabus magnitudinibus inæqualibus, neceſſario minor aut pars, aut partes eſt maioris, cum eæ perſæpe ſint incommenſurabiles, ut aperte liber decimus demonſtrabit, atque adeo minor nullo modo contineat plures partes maioris. Nam ſolum in magnitudinibus commenſurabilibus, minor maioris partes plures comprehendit, ſi illum non metiatur. Recte igitur Euclides in quinto lib. partem duntaxat in magnitudinibus, hic autem in numeris & partem, & partes explicauit.
 
+[Curated heading level=2 type=definitions: V.]
+
 ### V.
 
 [Curated heading level=4 type=incipit: MVLTIPLEX]

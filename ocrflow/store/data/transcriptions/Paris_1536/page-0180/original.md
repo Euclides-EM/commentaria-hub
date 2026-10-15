@@ -12,6 +12,10 @@ Demonſtratiua problematis resolutio.
 
 [Diagram: |a/b/c. n/l/m|b/c.c/g| b/f. c/h.|]
 
+[Curated heading level=2 type=propositions: Theorema 19, Propositio 26.]
+
+[Curated heading level=2 type=theorems: Theorema 19, Propositio 26.]
+
 ## Θεώρημα ιθ, Πρόθεσις κς.
 
 Εὰν ἀπὸ παραλληλογράμμου παραλληλόγραμμον ἀφαιρεθῇ ὅμοιόν τε τῷ ὅλῳ καὶ ὁμοίως κείμενον,κοινὴν γωνίαν ἔχον αὐτῷ,περὶ τὴν αὐτὴν διάμετρόν ἐστι τῷ ὅλῳ.

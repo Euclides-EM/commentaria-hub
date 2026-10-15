@@ -4,9 +4,11 @@
 
 [Diagram: four parallelepipeds in perspective, labelled with the letters L, K, G, D, M, A, B, E, Z, N, I and T]
 
-## MONITVM.
+### MONITVM.
 
 *Poteramus demonſtratione Campani prolixius vti additis binis A B & G D duabus continuè proportionalibus, ſimiliter & ipſis E Z  I T aliis, tum erit ſicut A B ad quartum, ſic ſolidum ex A B ad quod ex ſecunda G D, per corollariũ 33 huius, ſimiliter E Z ad quartam erit vt quod ex E Z prima, ad quod ex I T ſecunda, primæ autem ad quartas, æqua ratione proportionales ſunt, per 22 quinti. Præterea animaduertendum eſt ea quatuor ſolida non ſibiipſis aut eidem neceſſario ſimilia optari. Sed ea tantum quæ eadem ratione copulantur, aut ſimul bina antecedentia ſunt, aut equidem bina cõſequentia inter ſe ſimilia eſſe ſufficiunt. Nã ſi eadẽ copulata ratione ſimilia tantùm fuerint, & alia rurſus ſimilia, ea in antecedentia & conſequentia facilè rationum vicißitudine (ex 16 quinti) ſumpta commutabuntur, quod putauimus apponendum, vt huius theorematis fœcundemus vires.*
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaoctaua.]
 
 ## Propoſitio trigeſimaoctaua.
 
@@ -16,7 +18,7 @@ Si planum ad planum rectum fuerit, à ſigno autem in aliquo planorum exiſtente
 
 [Diagram: two intersecting planes drawn as quadrilaterals, labelled G, I, C, A, E, D, Z and B]
 
-## MONITVM.
+### MONITVM.
 
 *Alia vſi ſumus demonſtratione ob Theonis breuem ac confuſam & penè indemonſtratam traditionem. Et inſuper nec eam meminit Campanus, eò quòd modici feratur momenti, ad compendia tantùm futurarum demonſtrationum vtilis exiſtens.*
 

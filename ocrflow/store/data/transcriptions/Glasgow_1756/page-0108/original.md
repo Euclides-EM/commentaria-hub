@@ -11,6 +11,10 @@ autem eſt angulus CAB angulo CDB, in eodem enim ſunt ſegmento BADC; angulus v
 
 [Diagram: circle labelled A, B, C and D, with intersecting chords]
 
+[Curated heading level=2 type=propositions: PROP. XXIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXIII. THEOR.]
+
 ## PROP. XXIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}UPER eadem recta linea duo circulorum ſegmenta ſimilia, et non ſibi mutuo congruentia, ex eadem parte non conſtituentur.

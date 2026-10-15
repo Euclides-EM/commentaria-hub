@@ -20,6 +20,10 @@ Demonstr.
 5.a.7 | a, msur: d,
 concl. 2c20d7 | a, msur: d, b, msur: e.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XVI.]
+
 ## THEOR. XIV. PROPOS. XVI.
 
 Si duo numeri mutuò sese multiplicantes fecerint aliquos; geniti ex ipsis æquales inter se erunt:

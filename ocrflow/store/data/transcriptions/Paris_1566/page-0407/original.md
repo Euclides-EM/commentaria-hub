@@ -4,9 +4,15 @@ Eſto ppoſitũ octahedrũ A B G D E C cuius ſecẽtur duodecim latera extrema 
 
 [Figure: octahedron with inscribed dodecahedron, vertices labelled A, B, G, D, and internal points I, K, N, H, O, E, F, R, T, P, M, L, Q, X, Y, V]
 
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
+
+[Curated heading level=2 type=problems: Propoſitio decimaoctaua. Problema 18]
+
+[Curated heading level=2 type=added_propositions: Propoſitio decimaoctaua.]
+
 ## Propoſitio decimaoctaua. Problema 18
 
-## In data trilatera & æquilatera Pyramide, cubum conſtruere.
+In data trilatera & æquilatera Pyramide, cubum conſtruere.
 
 Eſto trilatera æquilatera pyramis, cuius baſis ſit A B C, vertex autem D, Ipſa ſphæra comprehendetur, ex decimatertia decimitertij. Sit eius ſphæræ centrum E, Ab angulis autem ſolidis A B C D, per centrum E ſingulæ rectæ in baſes oppoſitas miſſæ, baſibus perpendiculares erunt, & in centra circulorum baſes continentium cadent, per coroll. 13 decimitertij. Sint itaque ea cẽtra trianguli quidem A B C ſignum G, trianguli A D C ſit H, ipſius verò A D B ſit N, Reliqui autem D B C eſto F, Rectæ demiſſæ ſint D E G B E H C E N & A E F: Per ea verò G H N F centra, ab angulis ducantur in latera oppoſita rectæ A G L D H K B N M & D P L, quæ perpendiculares erunt
 

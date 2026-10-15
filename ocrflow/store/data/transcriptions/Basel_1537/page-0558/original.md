@@ -2,6 +2,8 @@
 
 <!-- Page number: 547 -->
 
+[Curated heading level=2 type=theorems: Theorema 8 Propositio 8]
+
 ## Theorema 8 Propositio 8
 
 EAndem ad idem rationem datam habentia, & adinuicem rationem datam habebunt.
@@ -14,6 +16,8 @@ Habeat siquidē utraq̃ ipsarū a, c ad b rationē datā. Dico quod & a ad c, ra
 
 Aequa est ratio sicut in 17 diffinitiōe & 11 propositiōe 5 ele. patet.
 
+[Curated heading level=2 type=theorems: Theorema 9 Propositio 9]
+
 ## Theorema 9 Propositio 9
 
 SI binæ aut plures maguitudines{printer-error-correction:magnitudines} inuicē rationē habuerint datam, habuerint autē eædē magnitudines inuicē ad alias quasdam magnitudines rationes datas, neque easdem, & ipsæ magnitudines inuicem rationem datam habebunt.
@@ -25,6 +29,8 @@ Binæ, inquā, siue plures magnitudines a, b, c adinuicem rationē habeāt datā
 ### Scholium
 
 Si enim de substantia se habet ostensio quando hoc fuit eadē, uel ratio propositarum ad aliquas contingentes magnitudines eadem, uel quod contingentes rationē habebūt datā, in hoc exercetur problema.
+
+[Curated heading level=2 type=theorems: Theorema 10 Propositio 10]
 
 ## Theorema 10 Propositio 10
 

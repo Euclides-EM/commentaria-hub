@@ -9,6 +9,10 @@ Quod ex iam aſcripta deductione manifeſtum euadit.
 
 HVIC etiam Theoremati quidam aliud ſubijciunt Conſectarium de Parallelogrammis Similibus, quòd in dupla ſint ratione, quàm ipſorum latera ſimiliter ſumpta: Sed hoc patet vel ex Triangulorum ſimilitudine. Triangula enim, vt iam non ſemel monuimus, dimidia ſunt Quadrilaterorum. Immò & Theorema ſi de Rectilineis pronuntiaſſet, vniuerſam peræquè habuiſſet probationem, atque de Polygonis.
 
+[Curated heading level=2 type=propositions: PROBLEMA 6, PROPOSITIO XX.]
+
+[Curated heading level=2 type=problems: PROBLEMA 6, PROPOSITIO XX.]
+
 ## PROBLEMA 6, PROPOSITIO XX.
 ### Theoni 19{printer-error-correction:18}, Campano 18{printer-error-correction:19}.
 
@@ -23,6 +27,10 @@ Et erit, per trigeſimamſecundam Primi, angulus AHB æqualis angulo CDG: ob id,
 [Diagram: two pentagons side by side, the left labelled K, L, H, E, B and A, the right labelled F, G, D and C]
 
 VT autem hoc loco obiter explicemus quid ſimiliter poſitum dicatur in Superficiebus: id eſt, ſi occurrat Superficies, cuiuſmodi eſt hoc loco, Pentagonum CDEFG, cui ſuper linea AB ſit conſtituenda Superficies ſimilis & ſimiliter deſcripta, vt attendamus an ipſa AB comparetur lateri DC an lateri DE, an breuiter cuipiam laterum Figuræ oblatæ: eamque lineam comparationi accommodemus. Poſſet enim fieri angulus BAH æqualis angulo CDE, atque eo inſtituto perfici Figura: quæ vt ſimilis euaderet, non tamen ſimiliter eſſet deſcripta. Quod ſatis manifeſtum eſt, quum Figura quæ proponitur, non eſt æqualium laterum.
+
+[Curated heading level=2 type=propositions: THEOREMA 15, PROPOSITIO XXI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 15, PROPOSITIO XXI.]
 
 ## THEOREMA 15, PROPOSITIO XXI.
 ### Campano 20.

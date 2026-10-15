@@ -1,5 +1,9 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XXIII.]
+
 ## THEOR. XII. PROPOS. XXIII.
 
 Snelius in Apollonio Batauo

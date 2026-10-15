@@ -42,6 +42,8 @@ Zamb. 6
 
 Si altera earum fuerit super basin trigonam, ex præmissa interposita constat quod dicitur. Si autem basis utriusque fuerit polygonia, utralibet ipsarum basium resoluta in triangulos, & ipsa pyramide in pyramides triāgulas, erit ex præmissa interposita proportio uniuscuiusq̃ harum triangularū pyramidū, in quas altera propositarū diuiditur, ad reliquā, sicut suæ basis ad basin alterius. Itaq̃ per 24 quinti quotiens oportet assumptam, constat uerum esse quod diximus.
 
+[Curated heading level=2 type=theorems: Theorema 7 Propositio 7]
+
 ## Eucli. ex Zamb. Theorema 7 Propositio 7
 
 [Curated heading level=3 type=zamberti_sequence: 7.]

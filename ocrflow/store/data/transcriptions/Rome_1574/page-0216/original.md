@@ -14,6 +14,8 @@ SINT triangula æqualia, ABC, DEF, inter parallelas AD, BF, & ſuper baſes BC, 
 
 [Curated heading level=2 type=campanus: 41]
 
+[Curated heading level=2 type=theorems: THEOR. 31. PROPOS. 41.]
+
 ## THEOR. 31. PROPOS. 41.
 
 [Margin]

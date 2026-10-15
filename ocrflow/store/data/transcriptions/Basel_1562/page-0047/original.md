@@ -1,6 +1,8 @@
 <!-- Running title: Des erſt bůchs Euclidis -->
 <!-- Page number: 26 -->
 
+[Curated heading level=2 type=propositions: XXXVIII. Die achtvnddreyſſigſt propoſition]
+
 ## XXXVIII Die achtvnddreyſſigſt propoſition.
 
 [Subhead]
@@ -29,6 +31,8 @@ Die linj a c getailt in puncten d / die linj b d / macht zwai gleiche tail des g
 
 [Diagram: triangle abc divided into two triangles by line bd, with a parallel line through b]
 
+[Curated heading level=2 type=propositions: XXXIX. Die neünvnddreyſſigſt prop.]
+
 ## XXXIX Die neünvnddreyſſigſt prop.
 
 [Subhead]
@@ -36,6 +40,8 @@ Gleiche triangel / ſo auff ainer ſeitten auff ainer baſi ſtehn / ſtehnd zwi
 [/Subhead]
 
 Diß iſt die 37 propoſ. vmbkehrt.
+
+[Curated heading level=2 type=propositions: XL. Die viertzigſt propoſition]
 
 ## XL Die viertzigſt propoſition.
 

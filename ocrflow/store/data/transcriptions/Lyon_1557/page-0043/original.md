@@ -19,6 +19,10 @@ E X  H O C etiam Theoremate intueri licet, Trianguli conſtructionem ex duabus l
 
 [Diagram: lines A B and C D erected at right angles on line B D, inclined to meet at point E forming a triangle]
 
+[Curated heading level=2 type=propositions: THEOREMA 23, PROPOSITIO XXXIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 23, PROPOSITIO XXXIII.]
+
 ## THEOREMA 23, PROPOSITIO XXXIII.
 
 Si duæ rectæ lineæ duas æquales & æquidiſtantes lineas

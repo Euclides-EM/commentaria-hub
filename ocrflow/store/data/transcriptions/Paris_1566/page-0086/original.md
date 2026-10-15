@@ -1,6 +1,8 @@
 <!-- Running title: LIBER TERTIVS. -->
 <!-- Page number: 30 -->
 
+[Curated heading level=1 type=duplicate_pages: Page 86, duplicate of page 84]
+
 per 47 primi) æquale quadratis D Z, Z E, ſed quadratis D Z, Z E æqualia ſunt quadrata D B, B E, cùm ſint vtraque æqualia ei quod ex D E, per 47 primi, quod igitur ſub A D, D G cum quadrato G E (hoc eſt B E ex centro ſibi æquali) æquum erit quadratis D B, B E, commune autem tollatur ex B E quadratum. Sequetur rectangulum ſub tota A D ſecante & parte D G extrinſecus ſumpta contentum, æquum eſſe ei quod fit ex D B tangente quadrato. Si itaque extra circulum ſumatur ſignum ab eo, &c.
 
 ## Propoſitio trigeſimaſeptima.

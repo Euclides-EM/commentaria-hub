@@ -15,6 +15,10 @@ Sed ſit alterutrius trianguli vertex, puta D, intra reliquum triangulum ACB; qu
 
 Non igitur ſuper eadem baſi, et ad eaſdem ejus partes conſtituentur duo triangula, quae habent et latera quae ad alterum baſis terminum, et ea quae ad reliquum terminum ducta ſunt, inter ſe aequalia. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. VIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VIII. THEOR.]
+
 ## PROP. VIII. THEOR.
 
 [Subhead]

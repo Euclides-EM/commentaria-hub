@@ -25,6 +25,8 @@ SECETVR iam numerus 10. vtcunq; in 6. & 4. Numerus igitur 240. qui quater fit ex
 
 [Curated heading level=2 type=campanus: 9]
 
+[Curated heading level=2 type=theorems: THEOR. 9. PROPOS. 9.]
+
 ## THEOR. 9. PROPOS. 9.
 
 [Curated heading level=3 type=incipit: SI]

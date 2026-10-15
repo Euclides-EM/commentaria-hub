@@ -6,6 +6,10 @@ hyp. | bc, est √.8,
 hyp. | cd, est √.18,
 1 s1.d.2 | ▭bd, est 12.
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XXI.]
+
 ## THEOR. XVIII. PROPOS. XXI.
 
 Si rationale ad rationalem applicetur, latitudinem efficit rationalem, & ei ad quam applicatum est, longitudine commensurabilem.

@@ -5,6 +5,10 @@
 
 On expliquera dans les problêmes suivants deux des méthodes les plus simples pour obtenir ces approximations.
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. PROBLÊME.]
+
+[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION XIII.]
+
 ## PROPOSITION XIII.
 
 ### PROBLÊME.

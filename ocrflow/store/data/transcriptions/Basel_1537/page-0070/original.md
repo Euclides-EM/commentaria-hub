@@ -20,6 +20,8 @@ CAMPANVS. Sit ut à puncto a, signato intra circulum b c d, ductæ sint tres lin
 
 [Diagram: circle with interior point a; lines from a to the circumference through d, f, b, c, e, crossing as diagonals and perpendiculars]
 
+[Curated heading level=2 type=theorems: Theorema 8. Propositio 9.]
+
 ## Eucli. ex Zamb. Theorema 8. Propositio 9.
 
 [Curated heading level=3 type=zamberti_sequence: 9.]

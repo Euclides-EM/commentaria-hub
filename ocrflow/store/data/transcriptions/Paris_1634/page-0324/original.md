@@ -24,6 +24,10 @@ hyp. | c π d 2|3 a π b,
 β.8.5 | e π c 2|3 a π c,
 concl. 13.5 | b π d 2|3 a π c.
 
+[Curated heading level=2 type=propositions: THEOR. XXVIII. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVIII. PROPOS. XXVIII.]
+
 ## THEOR. XXVIII. PROPOS. XXVIII.
 
 Si prima ad secundam habuerit maiorem proportionem quàm tertia ad quartam ; habebit quoque composita prima cum secunda ad secundam maiorem proportionem, quàm composita tertia cum quarta ad quartam.

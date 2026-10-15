@@ -5,6 +5,8 @@ In circulo A B G D ſit dimetiens A D, centrum verò E, cui propinquior ſit rec
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
+
 ## Propoſitio decimaſexta.
 
 Quæ à diametri circuli extremitate ad angulos rectos in plano ducitur extra ipſum circulum cadit, & in locum inter rectam lineam & circunferentiam, altera recta linea non cadet, Et ſemicirculi angulus omni angulo acuto rectilineo maior eſt, reliquus autem minor.

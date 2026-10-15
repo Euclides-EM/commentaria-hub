@@ -3,6 +3,10 @@
 
 [Diagram: nine rectangles in three columns within a ruled frame, labelled mA, mC, mE across the top, A, C, E and B, D, F in the middle, and nB, nD, nF across the bottom]
 
+[Curated heading level=2 type=propositions: PROPOSITION XII. THEOREME XII.]
+
+[Curated heading level=2 type=theorems: THEOREME XII. PROPOSITION XII.]
+
 ## PROPOSITION XII. THEOREME XII.
 
 {dropcap:S|lines=2|style=plain}I pluſieurs grandeurs ( A, B, C, D, E, F, &c. ) ſont en proportion ( ou bien ſi pluſieurs raiſons ſont égales ) : la ſomme de tous les antécédens ( A + C + E &c. ) eſt à la ſomme de tous les conſéquens ( B + D + F &c. ), comme un antécédent eſt à ſon conſéquent.

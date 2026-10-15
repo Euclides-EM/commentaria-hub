@@ -8,6 +8,10 @@ igitur rursum æquales circuli a/b/c/d/& e/f/g/h, quorum cẽtra k, l: sint'q; i
 
 [Diagram: a k b d c — e l f h g]
 
+[Curated heading level=2 type=propositions: Problema 4, Propositio 30.]
+
+[Curated heading level=2 type=problems: Problema 4, Propositio 30.]
+
 ## Πρόβλημα δ, Πρόθεσις λ.
 
 Τὴν δοθεῖσαν περιφέρειαν δίχα τέμνειν.
@@ -19,6 +23,10 @@ DAtam circunferentiam bifariam discindere.
 ORONTIVS. ¶Esto data circũferentia a/b/c:quam oporteat bifariam discindere. Connectatur ergo recta linea a/c, per primũ postulatum : quæ bifariam secetur in puncto d, per decimam primi. Et per vndecimam eiusdem primi, à dato puncto d, datæ rectæ lineæ a/c, ad angulos rectos excitetur d/b:connectanturq́; a/b/& b/c/lineæ rectæ, per primum postulatum. Cùm igitur a/d/ipsi d/c/sit æqualis, & d/b/vtriq; communis:bina itaq; latera a/d/& d/b/trianguli a/d/b, duobus lateribus b/d/& d/c/trianguli b/d/c/sunt æqualia alterum alteri:& æquos inuicem comprehendunt angulos, nempe rectos. Basis igitur/a/b, basi b/c, per quartam primi est æqualis. Aequales porrò lineæ in eodẽ circulo, æquales circunferentias auferunt, maiorem maiori, minorem autem minori, per vigesimamoctauã huius tertij. Aequalis est ergo a/b/ circunferentia, ipsi b/c. Data itaq; circunferentia a/b/c, bifariam discinditur in puncto b. Quod facere oportebat.
 
 [Diagram: b a d c]
+
+[Curated heading level=2 type=propositions: Theorema 27, Propositio 31.]
+
+[Curated heading level=2 type=theorems: Theorema 27, Propositio 31.]
 
 ## Θεώρημα κζ, Πρόθεσις λα.
 

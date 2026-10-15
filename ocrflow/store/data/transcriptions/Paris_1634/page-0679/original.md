@@ -7,6 +7,10 @@ s 27.10 | □.ac + □.bc .∼: □.ad + □.bd, est ration. γ
 βγ | 2▭.acb.∼: 2▭.adb, est ration.
 α | contr. 27.10.
 
+[Curated heading level=2 type=propositions: THEOR. LXIII. PROPOS. LXXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. LXIII. PROPOS. LXXXI.]
+
 ## THEOR. LXIII. PROPOS. LXXXI.
 
 Mediæ apotomæ primæ vna tantùm congruit recta linea media, potentia solùm commensurabilis existens toti, & cum tota rationale continens.

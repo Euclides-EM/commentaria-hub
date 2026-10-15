@@ -1,6 +1,10 @@
 <!-- Running title: ELEMENT. EVCLIDIS -->
 <!-- Page number: 58 -->
 
+[Curated heading level=2 type=propositions: THEOREMA 9, PROPOSITIO IX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 9, PROPOSITIO IX.]
+
 ## THEOREMA 9, PROPOSITIO IX.
 
 Si recta linea in duo æqualia duoq́; inæqualia diuidatur: quæ ab inæqualibus totius ſegmentis fiunt Quadrata, dupla ſunt eius quod à dimidia cum eo quod à medio ſegmentorum fit Quadrato.
@@ -12,6 +16,10 @@ Super punctum C erigo perpendicularem C E, æqualem vtrique A C & C B: Et connec
 [Diagram: triangle with apex E, base A B divided at points C and D, interior points G and F, with lines from E and F to the base]
 
 IN HAC contueri licet quantam vim habeant Rectum & Æquale. Quatuor enim Triangulis Iſoſcelibus Rectangulis, id eſt, ex quatuor Semiquadratis, tota nititur probatio.
+
+[Curated heading level=2 type=propositions: THEOREMA 10, PROPOSITIO X.]
+
+[Curated heading level=2 type=theorems: THEOREMA 10, PROPOSITIO X.]
 
 ## THEOREMA 10, PROPOSITIO X.
 

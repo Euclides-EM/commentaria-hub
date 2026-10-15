@@ -14,6 +14,8 @@ ut G, toties metiatur ipſum A, quoties unitas eſt in D; & ipſum B, toties, qu
 
 [Curated heading level=2 type=campanus: 24]
 
+[Curated heading level=2 type=theorems: THEOR. 23. PROPOS. 25.]
+
 ## THEOR. 23. PROPOS. 25.
 
 [Curated heading level=3 type=incipit: SI]

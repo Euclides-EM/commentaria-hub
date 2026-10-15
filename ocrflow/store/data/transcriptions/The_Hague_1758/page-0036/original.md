@@ -4,6 +4,10 @@
 
 [Figure: triangle ADB with apex D drawn in dotted lines, base AB with point C at its midpoint, and a dotted line from D to C]
 
+[Curated heading level=2 type=propositions: PROPOSITION X. PROBLEME V.]
+
+[Curated heading level=2 type=problems: PROBLEME V. PROPOSITION X.]
+
 ## PROPOSITION X. PROBLEME V.
 
 {dropcap:C|lines=2|style=plain}Ouper en deux parties égales, (AC, CB) une ligne donnée & terminée (AB).

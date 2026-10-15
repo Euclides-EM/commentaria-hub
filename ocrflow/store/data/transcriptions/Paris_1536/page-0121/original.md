@@ -26,5 +26,9 @@ cū illius dimetiētibus ad rectos cóuenientes angulos: hexagonum æquilaterum 
 De circuli in dato hexagono inscriptione ac circunscriptione.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Problema 16, Propositio 16.]
+
+[Curated heading level=2 type=problems: Problema 16, Propositio 16.]
+
 ## Πρόβλημα ις, Πρόθεσις ις.
 Εἰς τὸν δοθέντα κύκλον πεντεκαιδεκάγωνον, ἰσόπλευρόν τε καὶ ἰσογώνιον ἐγγράψαι.

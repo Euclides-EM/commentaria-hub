@@ -10,6 +10,10 @@ Si AB eſt √√ 431, & BC√√48: BD ou EF ſera √√3, & AE
 
 √(√108√72), mais BF eſt√√√108√72): & partant iœelles AF. BF ſont icommen ſ en puiſſance, & le composè de leurs quarrez, ſçauoir eſt √432, eſt medial: mais le rectangle compris d’icelles, ſçauoir eſt √36, c’eſt à dire 6, est rationel.
 
+[Curated heading level=2 type=propositions: PROB. 12. PROP. XXXVI.]
+
+[Curated heading level=2 type=problems: PROB. 12. PROP. XXXVI.]
+
 ## PROB. 12. PROP. XXXVI.
 
 Trouuer deux lignes droictes incommenſurables en puiſſance, qui facent le compoſé de leurs quarrez medial, &auſſi le rectangle d’icelles, medial, & incommenſurable au compoſé de leurs quarrez.

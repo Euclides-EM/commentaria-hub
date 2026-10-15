@@ -5,6 +5,8 @@ Diſtantiam ſiue latitudinem metitur Euclides per longitudinem rectæ lineæ re
 
 [Diagram: circle with chords A B and D C, diameter E I, centre G, and perpendiculars G O, G P, and G H]
 
+[Curated heading level=2 type=definitions: Diffinitio 5.]
+
 ## Diffinitio 5.
 
 Sectio circuli eſt, figura ſub recta linea & circuli circunferentiæ parte comprehenſa.
@@ -12,6 +14,8 @@ Sectio circuli eſt, figura ſub recta linea & circuli circunferentiæ parte com
 Reſumit hoc tertio Euclides ſectionis circuli diffinitionem, 10 primi diffinitione expoſitam, vt facilius ſubſequantur proximæ diffinitiones. Quid ſcilicet ſit ſectionis & in ſectione angulus. Quia verò 19 primi eam expoſuimus, nulla (præter hæc) prolixitate vtemur.
 
 [Diagram: circle with chord A C and point B on the opposite circumference]
+
+[Curated heading level=2 type=definitions: Diffinitio 6.]
 
 ## Diffinitio 6.
 
@@ -21,6 +25,8 @@ Sectionis angulus dicitur, is quem efficit ſectio ſola, ſcilicet eſt ea incl
 
 [Diagram: circle with chord A B, point C above, and point D below]
 
+[Curated heading level=2 type=definitions: Diffinitio 7.]
+
 ## Diffinitio 7.
 
 In ſectione angulus eſt, qui continetur ſub duabus rectis à finibus rectæ ſecantis ad aliquod circunferentiæ ſignum concurrentibus.
@@ -28,6 +34,8 @@ In ſectione angulus eſt, qui continetur ſub duabus rectis à finibus rectæ �
 Differentiam ponit inter angulum ſectionis præfatum & hunc, quem in ſectione eſſe dicimus, eo quòd hunc ſectio ſuſcipiat, à limitibus rectæ A C ſecantis, in quoduis circunferentiæ A B C ſignum, à concurrentibus rectis A B & C B comprehenſum. Similiter in maiori ſectione reliquus A D C dicetur angulus, hi equidem anguli iuxta ſectionum varietatem reciprocè variantur, vt maior ſectio minorem, minor verò maiorem concipiat angulum.
 
 [Diagram: circle with chord A C and inscribed angles A B C and A D C]
+
+[Curated heading level=2 type=definitions: Diffinitio octaua.]
 
 ## Diffinitio octaua.
 

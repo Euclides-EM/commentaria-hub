@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. V. -->
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XIX.]
+
 ## THEOR. XIX. PROPOS. XIX.
 
 Si le tout est au tout, comme le retranché au retranché; le reste sera aussi au reste, comme le tout est au tout.

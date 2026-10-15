@@ -9,6 +9,8 @@ hyp. | hl 2|2 ⅓gl,
 
 [Figure]
 
+[Curated heading level=2 type=axioms: AXIOME 4. a. 1.]
+
 ### 4. a. 1.
 
 Et si à choses inégales on adiouste choses égales, les tous sont inégaux.
@@ -19,6 +21,8 @@ hyp. | be 2|2 df,
 
 [Figure]
 
+[Curated heading level=3 type=axioms: AXIOME 4. a. b.]
+
 ### 4. a. b.
 
 Et si à choses égales on adjouste choses inégales, les tous sont inégaux.
@@ -28,6 +32,8 @@ hyp. | be 3|2 df,
 4. a. b. | ae 3|2 ef.
 
 [Figure]
+
+[Curated heading level=3 type=axioms: AXIOME 4. a. c.]
 
 ### 4. a. c.
 

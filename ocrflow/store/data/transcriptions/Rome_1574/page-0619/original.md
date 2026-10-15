@@ -8,6 +8,8 @@ merus E, utrunque A, & B, metiatur, erit numerus E, eorum communis menſura. Qua
 
 [Curated heading level=2 type=campanus: 22]
 
+[Curated heading level=2 type=theorems: THEOR. 22. PROPOS. 24.]
+
 ## THEOR. 22. PROPOS. 24.
 
 [Curated heading level=3 type=incipit: MINIMI]

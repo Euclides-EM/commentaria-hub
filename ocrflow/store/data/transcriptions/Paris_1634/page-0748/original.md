@@ -32,6 +32,10 @@ Demonstr.
 4. 11 | ga ⊥ plan. bac,
 concl. 14. 11 | plan. bc == plan. ef.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XVI.]
+
 ## THEOR. XIV. PROPOS. XVI.
 
 Si duo plana parallela plano quopiam secentur; communes illorum sectiones sunt parallelæ.

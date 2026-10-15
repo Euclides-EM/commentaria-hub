@@ -6,6 +6,10 @@ gnes CD, CE, par la 11.p.11. & ſoient menees les lignes DF, FE, EG, GD, CG: en 
 
 Car eſtans menees les lignes HK, KI, IL, LH: veu que les coſtez AH, AK du triangle AHK, ſont egaux aux coſtez CD, CG du triangle CDG, & les angles HAK, DCG egaux par la conſtruction: les baſes HK, DG ſeront egales par la 4.p.1. Et d’autant que des anles egaux HAI, OCE, eſtans oſtez les angles egaux HAK, DCG, demeurent egaux les angles KAI, GCE: leſquels par la conſtruction ſont compris de lignes egales; par la 2.p.1.les baſes KI, GE, ſeront auſſi egales. Les coſtez KH, KL ſont auſſi egaux aux coſtez GD, GF, & les angles HKL, DGL droicts: donc par la meſme 4p.1. les baſes HL, DF, ſeront egales. Parquoy puis que les coſtez AH, AL du triangle AHL, ſont auſſi egaux aux coſtez CD, CF du triãgle CDF: (car les coſtez AK, KL, ſont egaux aux coſtez CG, GF, par la conſtruction, & comprennent angles droicts: partãt les baſes AL, CF ſont egales par la 4 p.1) les angles HAL DCF ſeront pareillemẽt egaux par la 8.p.1. Finalement pour ce que les coſtez KI, KL ſont egaux aux coſtez GE, GF: &. les angles IKL, EGF droicts; par la a p1.les baſes ILEF ſont egales: partant puis que les coſtez AI, AL du triangle AIL ſont egaux aux coſtez CE, CF du triangle CEF, par la conſtruction, les angles IAL, ECF ſeront auſſi egaux par la 8.p.1. donc les trois angles plans HAI, HAL, LAI, compoſant l angle ſolide A, ſont egaux aux trois angles plans DCE. DCF, FCE, compoſant l angle ſolide C; & partant l’angle ſolide A eſt egal à l’angle ſolide C: ce qui eſtoit requis.
 
+[Curated heading level=2 type=propositions: PROB. 5. PROP. XXVII.]
+
+[Curated heading level=2 type=problems: PROB. 5. PROP. XXVII.]
+
 ## PROB. 5. PROP. XXVII.
 
 Sur vne ligne droite donnee, deſcrire vn ſolide parallelipipede ſemblable, & ſemblablement poſé à vn ſolide parallelipipede donné.

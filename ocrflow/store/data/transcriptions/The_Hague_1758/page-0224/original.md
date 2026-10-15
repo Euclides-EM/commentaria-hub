@@ -3,6 +3,10 @@
 
 [Diagram: ruled frame containing three hatched rectangles labelled A, B and C beside three hatched rectangles labelled a, b and c]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXI. THEOREME XXI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXI. PROPOSITION XXI.]
+
 ## PROPOSITION XXI. THEOREME XXI.
 
 {dropcap:S|lines=2|style=plain}'Il y a une ſuite de trois grandeurs (A, B, C) d'un côté, & une ſuite de trois autres grandeurs (a, b, c) de l'autre, telles que les raiſons de la premiere ſuite ſoient égales à celles de la ſeconde ſuite, chacune à chacune, dans un ordre troublé, il ſera vrai, par égalité de raiſon, que ſelon que la premiere grandeur (A) eſt plus grande, égale, ou moindre que la troiſieme (C) dans une des ſuites, de même dans l'autre la premiere grandeur (a) ſera auſſi plus grande, égale, ou moindre que la troiſieme (c).

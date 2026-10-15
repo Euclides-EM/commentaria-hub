@@ -1,6 +1,10 @@
 <!-- Running title: LIBER SEXTUS. -->
 <!-- Page number: 215 -->
 
+[Curated heading level=2 type=propositions: PROP. XXXII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXII. THEOR.]
+
 ## PROP. XXXII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duo triangula, quae duo latera duobus lateribus proportionalia habent, componantur ad unum angulum, ita ut homologa latera ipſorum ſint parallela; reliqua triangulorum latera in directum ſibi invicem erunt.

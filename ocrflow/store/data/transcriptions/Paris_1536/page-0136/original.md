@@ -14,6 +14,10 @@ Exemplum in numeris.
 
 Si duæ itaque magnitudines: & quæ sequūtur reliqua. Quod fuerat ostendendum.
 
+[Curated heading level=2 type=propositions: Theorema 7, Propositio 7.]
+
+[Curated heading level=2 type=theorems: Theorema 7, Propositio 7.]
+
 ## Θεώρημα ζ, Πρόθεσις ζ.
 
 Τὰ ἴσα πρὸς τὸ αὐτὸ τὸν αὐτὸν ἔχει λόγον, καὶ τὸ αὐτὸ πρὸς τὰ ἴσα.
@@ -41,6 +45,10 @@ Pars secunda theorematis.
 [Margin]
 Idem aliter.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Theorema 8, Propositio 8.]
+
+[Curated heading level=2 type=theorems: Theorema 8, Propositio 8.]
 
 ## Θεώρημα η, Πρόθεσις η.
 

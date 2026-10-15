@@ -4,7 +4,11 @@
 
 nor a b, quorum primum demonstrat 8 huius, & secundum 10. Nam cum uult sumere quantitatem quæ se habeat ad e in proportione g ad d, dabo tibi maiorem aut minorem aut æqualem a b indifferenter sicut uoluero, quare aut non demonstrat aut accidit sibi circulus. & principia esse ignotiora conclusionibus. Supponenda sunt igitur cum Euclide principia tanquam nota, & non ipsa ex conclusionibus, sed cōclusiones ex ipsis demonstrandæ sunt.
 
+[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER QVINTVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
+
+[Curated heading level=2 type=definitions: Euclides ex Zamberto. Diffinitiones.]
 
 ## Euclides ex Zamberto. Diffinitiones.
 

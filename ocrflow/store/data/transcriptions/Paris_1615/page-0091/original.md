@@ -10,6 +10,10 @@ Premierement, les triangles ACE, & ECB ſeront Iſo ſceles, & feront les angles
 
 Maintenant par la 47. p.1. au triangle rectangle ACE, Ie quarré de AE, coſté qui ſouſtient l’angle droict, eſt double du quarré de AC, eſtant egal à tous les deux de AC, & CE. Par le meſme diſcours EF eſt double du quarré de GF, ou CD ſon egale par la 34.p.1.partant les deux quarrez de AE &EF, ſerõt doubles des deux de AC, & CD. Pareillement le quarré de AF eſtant egal aux deux de AE, & EF par la 47.p.1.iceluy ſera double des deux de AC, & CD Mais par la meſme 47. p.1. le quarré de AF eſt egal aux deux de AD, & DF, ouDB ſon egal: donc les deux quarrez de AD & DB ſeront doubles des deux de AC, & CD; ce qui eſtoit à demonſtrer.
 
+[Curated heading level=2 type=propositions: THEOR. 10. PROP. X.]
+
+[Curated heading level=2 type=theorems: THEOR. 10. PROP. X.]
+
 ## THEOR. 10. PROP. X.
 
 Si vne ligne droite eſt coupee en deux parties egalles, & on luy adiouſte directement quelque autre ligne droite; le quarré de la toute auec l’adiouſtee comme d’vne, & le quarré de l’adiouſtee, ſont doubles aux

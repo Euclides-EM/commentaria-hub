@@ -5,6 +5,10 @@
 
 [Diagram: Fig. 1. circle with centre C, secant AE passing through the centre and cutting the circle at A and B, dotted line CD to the point of tangency D, tangent DE; Fig. 2. circle with centre C, secant AE cutting the circle at A and B, dotted lines CF, CD and CE, tangent DE]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXVI. THEOREME XXX.]
+
+[Curated heading level=2 type=theorems: THEOREME XXX. PROPOSITION XXXVI.]
+
 ## PROPOSITION XXXVI. THEOREME XXX.
 
 {dropcap:S|lines=2|style=plain}I d’un point quelconque (E) pris hors d’un cercle (ABD), on tire à ce cercle deux lignes droites, dont l’une (DE) le touche, & l’autre (EA) le coupe: le rectangle compris de la ſecante entiere (AE) & de ſa partie extérieure (EB) eſt égal au quarré de la tangente (ED).

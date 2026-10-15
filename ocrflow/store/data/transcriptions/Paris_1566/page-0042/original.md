@@ -1,11 +1,15 @@
 <!-- Running title: LIBER PRIMVS. -->
 <!-- Page number: 9 -->
 
-### MONITVM.
+#### MONITVM.
 
 Quoniam propoſitum abſolutè problema poſtremo reſtringit, profeſſiones incertas imitans, non autem diſciplinas. Nos perficiendo problemati conditionem prætulimus anteponendam, qua ſtatuta, proponatur problema, vt ex tribus rectis quarum duæ quæuis reliqua ſint maiores triangulum conſtituere. Non autem vbi ex tribus rectis triangulum conſtituendum eſſe diximus abſolutè, poſthac exceptionem ſiue reſtrictionem apponamus, prorſus indignum matheſi.
 
-## Propoſitio vigeſimatertia.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimatertia.]
+
+[Curated heading level=2 type=problems: Propoſitio vigeſimatertia. Problema 9.]
+
+### Propoſitio vigeſimatertia.
 
 [Subhead]
 Problema 9.
@@ -17,7 +21,9 @@ Sit data recta linea A B, angulus verò datus cui æqualis dandus eſt, ſit E G
 
 [Diagram: triangles GED and AZI, with AI extended to B]
 
-## Propoſitio vigeſimaquarta.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquarta.]
+
+### Propoſitio vigeſimaquarta.
 
 Si duo triangula duo latera duobus lateribus alterum alteri æqualia habuerint, angulum verò angulo maiorem ſub æqualibus rectis comprehenſum, & baſim baſi maiorem habebunt.
 
@@ -25,7 +31,9 @@ Sint duo triãgula A B G, D E Z duo latera duobus lateribus æqualia habentia, �
 
 [Diagram: triangle ABG and triangle DEZ, with point I on the base and joined lines EI and IZ]
 
-## Propoſitio vigeſimaquinta.
+[Curated heading level=2 type=propositions: Propoſitio vigeſimaquinta.]
+
+### Propoſitio vigeſimaquinta.
 
 Si duo triangula duo latera duobus lateribus alterum alteri æqualia habuerint, baſim verò baſi maiorem, angulum quoque ſub æqualibus rectis lineis contentum, angulo maiorem habebunt.
 

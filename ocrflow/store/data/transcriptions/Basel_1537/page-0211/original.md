@@ -1,6 +1,14 @@
 <!-- Page number: 200 -->
 
+[Curated heading level=1 type=theorems: ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS]
+
+[Curated heading level=1 type=problems: ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS]
+
+[Curated heading level=1 type=definitions: ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS.
+
+[Curated heading level=2 type=definitions: Ex Campano. Diffinitiones]
 
 Ex Campano. — *Diffinitiones*
 
@@ -19,6 +27,8 @@ Ex Campano. — *Diffinitiones*
 CAMPANVS. Sint continue proportionales a,b,c,duoque extremi qui sunt a,c,sint contra se primi,dico quod in eadem proportione,non reperientur totidem minores. Si autem contingit:sint d,e,f,eritque per 15 septimi,a ad c, sicut d ad f,& quia a & c sunt minimi in sua proportione per 25 eiusdem,sequitur per 21 ut a numeret d,& c,f,maiores scilicet minores, quod esse non potest.
 
 [Diagram: dotted number lines beside the text: a (4 dots), b (6 dots), c (9 dots); below: d (3 dots), e (5 dots), f (8 dots)]
+
+[Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
 
 ## Eucli.ex Zamb. Theorema 1 Propositio 1
 

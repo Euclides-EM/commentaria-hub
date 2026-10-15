@@ -11,6 +11,10 @@ Ex hoc manifeſtum eſt, ſi quatuor rectae lineae proportionales fuerint, ut pr
 e. 11. Def. 5.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. D. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. D. THEOR.]
+
 ## PROP. D. THEOR.
 
 {dropcap:S|lines=2|style=plain}OLIDA parallelepipeda quae continentur parallelogrammis quae inter ſe ſunt aequiangula, ſingula ſingulis, hoc eſt quorum anguli ſolidi ſunt inter ſe aequales; habent rationem inter ſe eandem ei quae compoſita eſt ex laterum rationibus.

@@ -7,6 +7,10 @@ Ad punctum C duco E C ipſi A B æqualem, per ſecundam Propoſitionem. Ac centr
 
 Eſt enim ipſa æqualis lineæ C E. Sed & A B eidem C E æqualis. Quare, per primam Notionem, C F æqualis A B, Quod erat faciendum.
 
+[Curated heading level=2 type=propositions: THEOREMA 1, PROPOSITIO IIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 1, PROPOSITIO IIII.]
+
 ## THEOREMA 1, PROPOSITIO IIII.
 
 Si duo Triangula duo latera duobus lateribus æqualia habuerint alterum alteri, & angulos binis æquis lateribus contentos æquales : baſis quoque baſi æqualis erit, ac reliqui anguli ęquis lateribus contenti mutuò æquales : totum denique Triangulum toti Triangulo æquale.

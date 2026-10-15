@@ -9,6 +9,10 @@ d. Cor. 4. 2.
 
 erit rectangulum quod quater ab AB, BC continetur una cum quadrato ex AC aequale ipſi AOH gnomoni, et quadrato XH. ſed AOH gnomon et XH totum ſunt AEFD quadratum, quod eſt ex AD. rectangulum igitur quater ab AB, BC contentum una cum quadrato ex AC aequale eſt ei quod ex AD, hoc eſt ex AB, BC tanquam ex una recta linea, deſcribitur quadrato. ſi igitur recta linea utcunque &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. IX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IX. THEOR.]
+
 ## PROP. IX. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea in partes aequales, et in partes inaequales ſecta fuerit; quadrata ex inaequalibus totius partibus, dupla ſunt et quadrati ex dimidia, et quadrati ex eâ quae inter ſectiones interjicitur.

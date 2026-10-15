@@ -21,6 +21,8 @@ QVOD ſi punctum D, fuerit in altera medietate EC, eodem modo problema conficiem
 
 [Curated heading level=2 type=campanus: 39]
 
+[Curated heading level=2 type=theorems: THEOR. 29. PROPOS. 39.]
+
 ## THEOR. 29. PROPOS. 39.
 
 [Margin]

@@ -10,6 +10,10 @@ Ie d’s d’auantage qu’il eſt binome quatrieſme. Car puis que.les lignes A
 
 La ligne maieur AB ſoit √(10—√375) √(10√37I, &la rationele DE ſoit 5. Donc le rect angle DH ſera 10+√27,, IK 10—√37,. LN ou MF √62;, qui appliquez ſur DE, le coſt. DI ſera 2√1, IL 2—√1, & LM ou MS √2, ParquoyDL ſera 2, & LG√10; & par conſequent la toute DG eſt 4 —√10, qui eſt binome quatrieſme.
 
+[Curated heading level=2 type=propositions: THEOR. 47. PROP. LXV.]
+
+[Curated heading level=2 type=theorems: THEOR. 47. PROP. LXV.]
+
 ## THEOR. 47. PROP. LXV.
 
 Le quarré d’vne ligne pouuant vn rationel & vn medial, appliqué ſur vne ligne rationcle, faict l’autre coſté binome cinquieſme.

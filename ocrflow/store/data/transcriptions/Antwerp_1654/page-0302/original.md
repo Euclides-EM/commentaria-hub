@@ -7,6 +7,8 @@
 
 {dropcap:E|lines=2|style=plain}Odem modo demonſtrabitur etiam priſmata & cylindros æquè alta eſſe inter ſe vt baſes, imò quælibet corpora cylindriformia æquè alta hoc eſt quæ producuntur ex quibuſcunque planis in eandem altitudinem ductis, eſſe inter ſe vt baſes. Eodem modo de pyramidibus & cono æquè altis, & conicis quibuſcunque ratiocinare.
 
+[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO XII.]
+
 ## PROPOSITIO XII.
 
 {dropcap:C|lines=2|style=plain}Onorum ſimilium B A F & Q Z R) proportio eſt triplicata proportionis diametrorum ( B F & Q R ) quæ ſunt in baſibus. Idem cylindris ſimilibus accidit.

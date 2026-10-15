@@ -3,6 +3,10 @@
 
 [Figure: two pyramids; the left with apex M and base labelled L, I, F, H, G; the right with apex E and base labelled C, D, B, A]
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THEOREME VI.]
+
+[Curated heading level=2 type=theorems: THEOREME VI. PROPOSITION VI.]
+
 ## PROPOSITION VI. THEOREME VI.
 
 {dropcap:L|lines=2|style=plain}Es pyramides (FGLIM & ABCDE) dont les bazes (FGHLI & ABCD) ſont des polygones & qui ont même hauteur: ſont entr’eux comme leurs bazes.

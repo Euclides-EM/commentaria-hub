@@ -1,16 +1,22 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. IX.]
+
 ## DEFINIT. IX.
 
 Similes solidæ figuræ sunt, quæ similibus planis continentur multitudine æqualibus.
 
 *Semblables figures solides sont celles-là lesquelles sont contenues sous semblables plans, egaux en nombre.*
 
+[Curated heading level=2 type=definitions: DEFINIT. X.]
+
 ## DEFINIT. X.
 
 Æquales, & similes solidæ figuræ sunt,quæ similibus planis, multitudine, & magnitudine æqualibus continentur.
 
 *Egales & semblables figures solides sont celles qui sont contenuës de plans semblables,egaux en multitude & grandeur.*
+
+[Curated heading level=2 type=definitions: DEFINIT. XI.]
 
 ## DEFINIT. XI.
 

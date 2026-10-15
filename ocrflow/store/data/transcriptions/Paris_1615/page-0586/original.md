@@ -8,6 +8,10 @@ Ce que nous auons prouué des cones de meſme hauteur ſe doit auſſi entendre
 
 De cecy reſulte que les cones & cylindres de meſme hauteur, conſtituez ſur meſme baſe ou ſur baſes egales, ſont auſſi egaux.
 
+[Curated heading level=2 type=propositions: THEOR. 12. PROP. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. 12. PROP. XII.]
+
 ## THEOR. 12. PROP. XII.
 
 Les cones & cylindres ſemblables, ſont l’vn à l’autre en raisõ triplee des diametres de leurs baſes.

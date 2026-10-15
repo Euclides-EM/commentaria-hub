@@ -7,6 +7,10 @@ Sit autem exceſſus ipſarum A, B major exceſſu ipſarum C, D; et quoniam, ex
 
 Et quoniam in utroque caſu E major eſt exceſſu ipſarum C, D, erit E una cum D major quam C; et, ex hypotheſi, C non minor eſt D, ergo E una cum C major erit quam D; eſt autem ex conſtructione C una cum D, major quam E. igitur ipſarum C, D, E duae quomodocunque ſumptae majores ſunt reliquâ. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. III. THEOREMA.]
+
+[Curated heading level=2 type=theorems: PROP. III. THEOREMA.]
+
 #### PROP. III. THEOREMA.
 
 Fieri poteſt ut ex iiſdem quatuor angulis planis conſtituantur innumeri anguli ſolidi inter ſe inaequales.

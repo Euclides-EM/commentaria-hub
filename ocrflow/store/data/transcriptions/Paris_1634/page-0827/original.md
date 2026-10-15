@@ -23,6 +23,10 @@ hyp. | ab π ac 2|2 ac π cb,
 1. a. f | gnom. pbq 2|2, 4□pq
 concl. 2. a. 1 | do □.db 2|2, 5□.dc.
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. IV.]
+
 ## THEOR. IV. PROPOS. IV.
 
 Si recta linea secundum extremam & mediam rationem secetur; quod à tota, quodque à minore segmento, simul vtraque quadrata, tripla sunt eius, quod à majore segmento describitur, quadrati.

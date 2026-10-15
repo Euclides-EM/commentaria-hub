@@ -6,6 +6,8 @@
 
 [Curated heading level=2 type=campanus: 1]
 
+[Curated heading level=2 type=problems: PROBLEMA 1. PROPOSITIO. 1.]
+
 ## PROBLEMA 1. PROPOSITIO. 1.
 
 [Curated heading level=3 type=incipit: SVPER]

@@ -5,13 +5,15 @@
 
 [Diagram: two parallelograms on a common base line, labelled B, F, H, G, I, C, D, E and A]
 
-## Corollarium.
+### Corollarium.
 
 Super æquis baſibus ſolida parallelepipeda exiſtentia, ad ſe ſunt vt vertices. *Nam ſi ea ſecetur plano parallelo baſibus, erunt ad ſe ſectiones vt baſium ſectarum ſectiones, per vigeſimamquintam huius. Quæ ſectiones baſium ad ſe ſunt vt latera ſeu ſolidorum vertices, per primam ſexti. Solida igitur ad ſe erunt vt vertices. Si verò baſes ſint dißimiles, idem continget, ex corollario vigeſimæquintæ huius, quod in ſimilibus ex vigeſimaquinta oſtenſum eſt.*
 
-## MONITVM.
+### MONITVM.
 
 *Quia Campanus hanc ſat parcè, Theon verò prolixè admodum demonſtrarunt, demonſtratione alia hoc idem oſtendimus, qua ſolidorum tantùm baſes pro figura obtulimus, eò quòd iam ſuper eadem baſi quoquò ſe vertant ſtantes, parallelepipeda æqualia eſſe diximus, ſub eodem faſtigio, proximè præfatis. Quare per baſium comparationes idem oſtendiſſe facilius apparuit eadem ſuppoſita altitudine.*
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſecunda.]
 
 ## Propoſitio trigeſimaſecunda.
 

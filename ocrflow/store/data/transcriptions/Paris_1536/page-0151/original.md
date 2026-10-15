@@ -16,6 +16,10 @@
 1
 [/Margin]
 
+[Curated heading level=1 type=definitions: LIBER VI.]
+
+[Curated heading level=2 type=definitions: Diffinitio 1.]
+
 SImiles figuræ sunt, quæ & angulos æquales habēt ad vnum, & quæ circa angulos æquales sunt latera proportionalia.
 
 Vtpote, si fuerint bina triangula a/b/c, & d/e/f/inuicem æquiangula: fuerítque angulus qui ad a/æqualis angulo qui ad d, & qui ad b/est angulus ei qui ad e, atque is qui ad c/angulo qui ad f/respōdenter æqualis. sítque insu per vt a/b/latus ad b/c, sic d/e/ad e/f: vtq̃; b/c/ad c/a, sic e/f/ad f/d: atque demum sicut c/a/ad a/b, sic f/d/ad d/e. Huiuscemodi nanque triangula, similia nuncupamus: etiam si fuerint inæqualia.
@@ -27,6 +31,8 @@ Vtpote, si fuerint bina triangula a/b/c, & d/e/f/inuicem æquiangula: fuerítque
 [Margin]
 2
 [/Margin]
+
+[Curated heading level=2 type=definitions: Reciprocæ autem figuræ]
 
 Reciprocæ autem figuræ sunt, quando in vtraq; figura antecedētes & consequentes termini rationales fuerint.
 
@@ -40,6 +46,8 @@ De rectilineis videtur intelligere figuris. quemadmodùm si duorum rectilineorum
 3
 [/Margin]
 
+[Curated heading level=2 type=definitions: Per extremam & mediam rationē]
+
 Per extremam & mediam rationē, recta linea diuidi dicitur: quādo fuerit sicut tota ad maius segmentum, sic maius ad minus.
 
 Vtpote, si data recta linea a/b/diuidatur in puncto c: fuerítque vt tota a/b/ad segmentum maius b/c, sic idem segmen tum b/c, ad reliquum c/a.
@@ -51,6 +59,8 @@ Vtpote, si data recta linea a/b/diuidatur in puncto c: fuerítque vt tota a/b/ad
 [Margin]
 4
 [/Margin]
+
+[Curated heading level=2 type=definitions: Altitudo]
 
 Altitudo est, vniuscuiusque figuræ à vertice ad basin perpendicularis deducta.
 

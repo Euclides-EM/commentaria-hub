@@ -6,6 +6,10 @@ Da nun BDC weder ſpitzig noch ſtumpf iſt, ſo iſt er kein ſchiefer Winkel, 
 
 Anmerkung. Einen andern Beweis dieſes Satzes, vermittelſt der Exhauſtions-Methode, indirect geführt, findet man in der ausführlichen evidenten Theorie der Parallellinien, Nürnberg, bei Lechner, 1819, Seite 72, und direct geführt, in der auserleſenen mathematiſchen Bibliotheck, Nürnberg, bei Lechner, 1820, in der Vorrede.
 
+[Curated heading level=2 type=propositions: Drei und dreißigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: Drei und dreißigſter Satz. Lehrſatz.]
+
 ## Drei und dreißigſter Satz. Lehrſatz.
 
 (Fig. 14.)

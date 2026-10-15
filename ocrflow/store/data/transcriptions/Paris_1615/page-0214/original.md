@@ -4,6 +4,10 @@
 
 ls, ler rctilignes ſemblables, & ſemblablement deſcrites ſur icelles. ſeront pareillement proport. &c. Car la ligne moyenne & ſon rectiligne eſtant priſe deux fois, on aura quatre lignes proportionneles. dont auſſi quatre rectilignes proportionnaux, comme il a eſté cy deſſu demonſtré. Veu donc que le rectiligne qui ſera deſcrit ſur la ſecode ligne, ſera egal à celay deſcrit ſur la 3. eſt manifeſte: ce qui eſtoit propoſé.
 
+[Curated heading level=2 type=propositions: THEOR. 17. PROP. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 17. PROP. XXIII.]
+
 ## THEOR. 17. PROP. XXIII.
 
 Les parallelogrammes equiangles ſont l’vn à l’autre en raiſon compoſee de leurs coſtez.

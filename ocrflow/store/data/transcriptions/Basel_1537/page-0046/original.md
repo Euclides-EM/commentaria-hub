@@ -28,6 +28,8 @@ CAMPANVS. Sit data linea a b, ex qua uolo quadratum describere. A punctis a & b 
 
 Idem aliter ostendere. Sit a c perpendicularis super lineam a b per 11, & sit ei æqualis ut prius, & à puncto c per 31 ducatur c d æquidistans a b, & ponatur æqualis ei, & ducatur linea b d, quæ per 33 erit æqualis & æquidistās a c, & omnes anguli recti, per ultimam partem 29, quare per diffinitionē quadrati habemus propositū.
 
+[Curated heading level=2 type=problems: Problema 14. Propositio 46.]
+
 ## Eucli. ex Zamb. Problema 14. Propositio 46.
 
 [Curated heading level=3 type=zamberti_sequence: 46.]

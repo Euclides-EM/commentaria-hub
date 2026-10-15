@@ -5,6 +5,8 @@ Diapaſon prima ſui diuiſione in Diapente, & Diateſſaron, quorum interuallor
 
 RVRSVM ex his demonſtrari poteſt, proportionem diametri cuiusuis quadrati ad latus eiuſdem, numeris non poſſe exprimi, ſed eſſe irrationalem. Cum enim per ea, quæ ad propos. 47. lib. 1 demonſtrauimus, quadratum diametri duplũ ſit quadrati ex latere deſcripti; quadratorum uero proportio ſit duplicata proportionis laterum; fit, vt proportio quadrati ex diametro deſcripti ad quadratum lateris duplicata ſit proportionis diametri ad latus. Cum ergo illa proportio, cuius duplicata eſt proportio dupla, numeris exprimi nequeat, quod inter numeros duplæ proportionis medius proportionalis non cadat, qui illam bifariam ſecet, ut oſtendimus; manifeſtum eſt, nec proportionem diametri ad latus numeris exprimi poſſe, ſed eſſe irrationalem, ſeu, quod idem eſt, diametrum eſſe lateri incõmenſurabilem. qua de re plura ſcribemus in 9. & ultima propos. lib. 10.
 
+[Curated heading level=2 type=theorems: THEOR. 7. PROPOS. 9.]
+
 ## THEOR. 7. PROPOS. 9.
 
 [Curated heading level=3 type=incipit: SI]

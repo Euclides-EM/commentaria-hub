@@ -19,6 +19,10 @@ Porro demonstratio huius propositionis locum solùm habet quando quatuor magnitu
 
 Or ceste demonstration a lieu seulement quand les quatre grandeurs sont de mesme genre ; car la raison ne se trouue point aux grandeurs heterogenes.
 
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XVII.]
+
 ## THEOR. XVII. PROPOS. XVII.
 
 Si compositæ magnitudines proportionales fuerint, hæ quoque diuisæ proportionales erunt.

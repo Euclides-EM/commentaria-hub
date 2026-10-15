@@ -1,6 +1,10 @@
 <!-- Running title: LIBER QUINTUS. -->
 <!-- Page number: 143 -->
 
+[Curated heading level=2 type=propositions: PROP. B. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. B. THEOR.]
+
 ## PROP. B. THEOR.
 
 {dropcap:S|lines=2|style=plain}I quatuor magnitudines proportionales fuerint, et inverſe proportionales erunt.

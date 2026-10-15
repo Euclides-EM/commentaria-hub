@@ -12,6 +12,8 @@ IN numeris idem eſt manifeſtum. Si enim numerus 10. diuidatur in 2. 3. 5. erit
 
 [Curated heading level=2 type=campanus: 3]
 
+[Curated heading level=2 type=theorems: THEOR. 3. PROPOS. 3.]
+
 ## THEOR. 3. PROPOS. 3.
 
 [Curated heading level=3 type=incipit: SI]

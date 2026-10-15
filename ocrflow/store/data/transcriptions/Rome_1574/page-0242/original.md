@@ -5,6 +5,8 @@ bus complementis BG, GD, Gnomon appellabitur.
 
 [Curated heading level=2 type=campanus: 1]
 
+[Curated heading level=2 type=theorems: THEOR. 1. PROPOS. 1.]
+
 ## THEOR. 1. PROPOS. 1.
 
 [Margin]

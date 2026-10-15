@@ -3,6 +3,10 @@
 
 [Figure: two cylinders, each containing an inscribed cone; the left labelled B, C, D, A, F, E; the right labelled H, O, I, P, N, M, G, L, K]
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. THEOREME XV.]
+
+[Curated heading level=2 type=theorems: THEOREME XV. PROPOSITION XV.]
+
 ## PROPOSITION XV. THEOREME XV.
 
 {dropcap:L|lines=2|style=plain}Es bazes (AE & GK) & les hauteurs (CF & OL) des cylindres (ABDE & GHIK) & des cones (ACE & GOK) égaux : ſont reciproquement proportionels (c. a. d. que le baze AE : baze GK = haut. LO : haut. CF.). Et les cylindres & cones dont les bazes & les hauteurs ſont reciproquement proportionels : ſont égaux.

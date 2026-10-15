@@ -24,6 +24,10 @@ Coroll.
 
 15. 5 | ▭.cd, fg π ▭.hk, lm, / ſuperfic.. dodecaedr. π ſuperfic.. icoſaedr.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. V.]
+
 ## THEOR. V. PROPOS. V.
 
 Superficies dodecaedri ad superficiem icosaedri in eadem sphæra descripti, eandem proportionem habet, quam latus cubi ad latus icosaedri.

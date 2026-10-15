@@ -1,6 +1,8 @@
 <!-- Running title: Elementorum Geometriæ -->
 <!-- Page number: 60 -->
 
+[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO V.]
+
 ## PROPOSITIO V.
 
 [Curated heading level=2 type=figures: Fig. 5]
@@ -54,6 +56,8 @@ e Per 4.l.2.
                   rect.R S X }   ſeu Q R
                   quad. R S  }
 [/Calculation]
+
+[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO VI.]
 
 ## PROPOSITIO VI.
 

@@ -4,6 +4,8 @@
 
 per 36 primi:æqualis a c:quare sicut linea g c est multiplex lineæ b c:ita superficies c κ,superficiei a c.Si similiterquoqꝫ ad lineā e f sumā ex linea g m,lineā f m multiplicē secundū quencūqꝫ numerū uoluero ad e f,& cōplebo,superficiē æquidistātiū laterū ducta linea m n æquidistāter lineæ d e, eritqꝫ supficies n f ita multiplex supficiei d f,sicut linea m f lineæ e f. Et q̄a per 36 primi si linea g c est maior linea f m,supficies κ c est maior superficie f,& si minor,minor.& si æqualis,æqualis,erit per diffinitionē incōtinuæ ꝓportiōalitatis,eadē proportio basis b c ad basin e f,quæ est superficiei a c ad superficiē d f,quod est propositū. De triangulis unius altitudinis idē probabis & eodem modo per 38 primi:ductis lineis ab extremitatibus earū quas ad bases sumes multiplices, ad uertices triangulorum.
 
+[Curated heading level=2 type=theorems: Theorema 1. Propositio 1.]
+
 ## Eucli.ex Zamb. Theorema 1. Propositio 1.
 
 [Curated heading level=3 type=zamberti_sequence: 1.]

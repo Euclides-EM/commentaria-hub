@@ -1,10 +1,18 @@
 <!-- Page number: 32 -->
 
+[Curated heading level=2 type=propositions: N. 18 Neunzehnter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 18 Neunzehnter Satz. Lehrſatz.]
+
 ## N. 18 Neunzehnter Satz. Lehrſatz.
 
 In jedem Dreieck ſteht der gröſſere Winkel der größern Seite gegenüber.
 
 Bew. S. die Uiberſ. v. L. od. B.
+
+[Curated heading level=2 type=propositions: N. 19 Zwanzigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 19 Zwanzigſter Satz. Lehrſatz.]
 
 ## N. 19 Zwanzigſter Satz. Lehrſatz.
 
@@ -12,11 +20,19 @@ In jedem Dreieck ſteht die größere Seite dem größern Winkel gegenüber.
 
 Bew. S. die Uiberſ. v. L. od. B.
 
+[Curated heading level=2 type=propositions: N. 20 Ein und zwanzigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 20 Ein und zwanzigſter Satz. Lehrſatz.]
+
 ## N. 20 Ein und zwanzigſter Satz. Lehrſatz.
 
 In jedem Dreieck iſt die Summe von jedem Paar Seiten größer als die dritte Seite.
 
 Bew. S. die Uiberſ. v. L. od. B.
+
+[Curated heading level=2 type=propositions: N. 21 Zwei und zwanzigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 21 Zwei und zwanzigſter Satz. Lehrſatz.]
 
 ## N. 21 Zwei und zwanzigſter Satz. Lehrſatz.
 

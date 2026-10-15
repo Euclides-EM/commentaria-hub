@@ -8,6 +8,10 @@
 β.1.6 | ▭.lfa u ▭.dfh π □.fa 2|2 lf π fa,
 concl. 11.5 | □.ag π ▭.bgc 2|2 ▭.dfh π fa.
 
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XXVIII.]
+
 ## THEOR. XVII. PROPOS. XXVIII.
 
 Pappus lib. 7. propos. 28.

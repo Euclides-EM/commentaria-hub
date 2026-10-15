@@ -28,6 +28,10 @@ hyp. | <bcd 2|2 <ecg,
 34.1 | <b 2|2 <adc,
 3.concl. 34.1 | <e 2|2 <cgf u <b.
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. XV.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. XV.]
+
 ## THEOR. X. PROPOS. XV.
 
 Æqualium, & vnum vni æqualem habentium angulum, triangulorum, reciproca sunt latera, quę circum æquales angulos. Et quorum triangulorum vnum angulum vni æqualem habentium reciproca sunt latera, quæ circum æquales angulos, illa sunt æqualia.

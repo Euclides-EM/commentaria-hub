@@ -12,6 +12,10 @@ Et auſſi qu’iceluy diametre de la ſphere eſt cõpoſé du coſtè de l�
 
 Et encore que le coſtè de l’icoſaedre eſt ega! au coſte du pentagone, par le moyen duquel eſt conſtruit iceluy icoſaedre.
 
+[Curated heading level=2 type=propositions: PROBL. 5. PROP. XVII.]
+
+[Curated heading level=2 type=problems: PROBL. 5. PROP. XVII.]
+
 ## PROBL. 5. PROP. XVII.
 
 Dans vne ſphere donnee, inſcrire vn dodecaedre: Et monſtrer que ſon coſté eſt ligne rrationele appellee reſidu.

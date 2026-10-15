@@ -4,6 +4,10 @@
 
 rectangle CE ſera 16√142,, qui eſt reſidu: & puis que comme DC eſt à CB, ainſi CE à CF, icelle CF ſera √91√;; & LF√460?—16. Mais EG eſtant egale à CE, eſt 16√142,; GF√11.52, —32: & d’autant que comme FG eſt à GE, ainſi EC à CH; icelle ſera√14 2T. &EH16: Ainſi eſt monifeſte que CE eſt reſidu de meſme ordre que le binome BC, & que les noms EH, CH, ſont proportionaux aux noms BD, CD.
 
+[Curated heading level=2 type=propositions: THEOR. 90. PROP. CXIIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 90. PROP. CXIIII.]
+
 ## THEOR. 90. PROP. CXIIII.
 
 Le quarré d’vne ligne rationele, eſtant appliqué ſur vn’reſidu, faict l’autre coſté binome, les noms duquel ſont proportionaux, & commenſ. aux noms du reſidu: En outre le binome eſt de meſme ordre que le reſidu.

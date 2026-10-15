@@ -3,6 +3,10 @@
 
 [Diagram: two prisms in a ruled frame; the left with vertices E, D, A, B, C and interior point O, the right with vertices N, M, L, F, G, I]
 
+[Curated heading level=2 type=propositions: PROPOSITION XL. THEOREME XXXV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXV. PROPOSITION XL.]
+
 ## PROPOSITION XL. THEOREME XXXV.
 
 {dropcap:S|lines=2|style=plain}I deux priſmes (FL & EC) ont la même hauteur (LI & AE), mais que la baze de l'un (comme de FL) eſt un paralelogramme (FI), qui eſt le double de la baze triangulaire (ABC) de l'autre (EC): le premier priſme (LF) ſera égal au ſecond (EC).

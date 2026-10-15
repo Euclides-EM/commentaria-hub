@@ -3,9 +3,19 @@
 
 # EUCLIDIS ELEMENTORUM
 
+[Curated heading level=1 type=propositions: LIBER SEXTUS.]
+
+[Curated heading level=1 type=theorems: LIBER SEXTUS.]
+
+[Curated heading level=1 type=problems: LIBER SEXTUS.]
+
+[Curated heading level=1 type=definitions: LIBER SEXTUS.]
+
 # LIBER SEXTUS.
 
 ## DEFINITIONES.
+
+[Curated heading level=2 type=definitions: DEF. I.]
 
 ### I.
 
@@ -13,9 +23,13 @@
 
 [Diagram: two triangles of different sizes]
 
+[Curated heading level=2 type=definitions: DEF. II.]
+
 ### II.
 
 “Reciprocae figurae, triangula ſc. et parallelogramma, ſunt quando circa duos angulos latera ita ſunt proportionalia, ut latus primae ſit ad latus ſecundae, ut reliquum ſecundae latus ad latus reliquum primae.”
+
+[Curated heading level=2 type=definitions: DEF. III.]
 
 ### III.
 

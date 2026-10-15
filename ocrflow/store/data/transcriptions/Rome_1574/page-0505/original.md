@@ -8,6 +8,8 @@
 
 [Curated heading level=2 type=campanus: 24]
 
+[Curated heading level=2 type=theorems: THEOR. 17. PROPOS. 23.]
+
 ## THEOR. 17. PROPOS. 23.
 
 [Curated heading level=3 type=incipit: AEQVIANGVLA]

@@ -3,6 +3,10 @@
 
 et ſint quae ſuper circuli ſegmentis AE, EB, BF, FC, CG, GD, DH, HA. reliqua igitur pyramis cujus baſis AEBFCGDH, et vertex idem qui coni, major eſt quam tertia cylindri pars. ſed pyramis cujus baſis polygonum AEBFCGDH, vertex autem idem qui coni, tertia pars eſt priſmatis cujus baſis polygonum AEBFCGDH, altitudo autem eadem quae cylindri. priſma igitur cujus baſis AEBFCGDH polygonum, et altitudo eadem quae cylindri, majus eſt cylindro cujus baſis eſt circulus ABCD. ſed et minus, ab ipſo enim comprehenditur; quod fieri non poteſt. non igitur cylindrus minor eſt quam triplus coni. oſtenſum autem eſt neque majorem eſſe quam triplum. ergo cylindrus coni triplus eſt; ac propterea conus tertia pars cylindri. Omnis igitur conus tertia pars eſt &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XI. THEOR.]
+
 ## PROP. XI. THEOR.
 
 {dropcap:C|lines=2|style=plain}ONI et cylindri qui eandem habent altitudinem, inter ſe ſunt ut baſes.

@@ -7,6 +7,10 @@ hyp. | <bae, est ⊥,
 12.a.1 | <bae 2|2 <bag,
 contr. 9. a. 1.
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VI.]
+
 ## THEOR. VI. PROPOS. VI.
 
 Si duæ rectæ lineæ eidem plano ad rectos sint angulos; parallelæ erunt illæ rectæ lineæ.
@@ -42,6 +46,10 @@ constr. | <adg, est ⊥,
 5. 11. & 2. 11 | da, db, dc, ba snt ꝗn vn. plan.
 hyp. | <bad, <cda snt ⊥;
 concl. 28. 1 | ab == dc.
+
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. VII.]
 
 ## THEOR. VII. PROPOS. VII.
 

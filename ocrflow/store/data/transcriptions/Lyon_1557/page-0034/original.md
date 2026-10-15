@@ -9,6 +9,10 @@ Intellectis igitur duobus Triangulis A B D & B C D, erunt duo anguli A B D & A D
 
 Quòd ſi latus A B ponatur maius latere B C : ijſdem argumentis probabitur angulus C maior angulo A : reſecto A B ad æqualitatem B C. Ac in ſumma, binorum quoruncunque laterum comparatio ijſdem rationibus nitetur, reſciſſo ſemper maiore ad æqualitatem minoris.
 
+[Curated heading level=2 type=propositions: THEOREMA 12, PROPOSITIO XIX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 12, PROPOSITIO XIX.]
+
 ## THEOREMA 12, PROPOSITIO XIX.
 
 Maior angulus cuiuslibet Trianguli, maiori etiam lateri opponitur.
@@ -18,6 +22,10 @@ Maior angulus cuiuslibet Trianguli, maiori etiam lateri opponitur.
 Sit Triangulum A B C , cuius angulus B maior ſit angulo C. Dico latus A C maius eſſe latere A B.
 
 Primùm enim æquale eſſe non poteſt latus A C lateri A B : Eſſet enim , per quintam, angulus B æqualis angulo C , contra hypotheſin. Minus etiam non erit : Minor enim eſſet angulus B angulo C , per antecedentem, contra hypotheſin. Hoc Theorema annecti poterat ſuperiori.
+
+[Curated heading level=2 type=propositions: THEOREMA 13, PROPOSITIO XX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 13, PROPOSITIO XX.]
 
 ## THEOREMA 13, PROPOSITIO XX.
 

@@ -16,6 +16,8 @@ IAM vero, ſi proportio A, ad B, minor fuerit, quam C, ad D; & C, ad D, minor, q
 
 [Curated heading level=2 type=campanus: 14]
 
+[Curated heading level=2 type=theorems: THEOR. 14. PROPOS. 14.]
+
 ## THEOR. 14. PROPOS. 14.
 
 [Curated heading level=3 type=incipit: SI]

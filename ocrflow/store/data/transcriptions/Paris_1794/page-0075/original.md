@@ -3,6 +3,8 @@
 
 tous deux dans la perpendiculaire élevée sur le milieu de AB. Mais par deux points donnés il ne peut passer qu’une seule ligne droite ; donc la ligne DE sera cette perpendiculaire elle-même qui coupe la ligne AB en deux parties égales au point C.
 
+[Curated heading level=2 type=problems: PROBLÊME II.]
+
 ### PROBLÊME II.
 
 [Margin]
@@ -18,6 +20,8 @@ Car le point D, étant également éloigné de B et C, appartient à la perpendi
 [Curated heading level=4: Scholie.]
 
 *Scholie.* La même construction sert à faire un angle droit BAD en un point donné A sur une ligne donnée BC.
+
+[Curated heading level=2 type=problems: PROBLÊME III.]
 
 ### PROBLÊME III.
 

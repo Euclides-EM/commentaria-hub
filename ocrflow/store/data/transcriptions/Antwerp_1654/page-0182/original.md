@@ -3,6 +3,8 @@
 
 Quæ ſequuntur non ſunt propoſitiones Euclidis, ſed ex Pappo Alexandrino, alijſq́ꝫ deſumptæ ob frequentem earum vſum Euclidæis ſubiungi ſolent.
 
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXVI.]
+
 ## PROPOSITIO XXVI.
 
 [Curated heading level=2 type=figures: Fig. 17]
@@ -20,6 +22,8 @@ o Per axio. ante.1.l.5.
 a Per 10.l.5.
 b Per 8.l.5.
 [/Margin]
+
+[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXVII.]
 
 ## PROPOSITIO XXVII.
 

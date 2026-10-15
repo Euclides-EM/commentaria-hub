@@ -16,6 +16,10 @@ hyp. | gb par.. cd 2|2 he u gl par.. cf,
 7.7 | gb par.. cd 2|2 lb par.. fd, γ
 concl. βγ | eb part.. fd 2|2 ab par.. cd u ae par.. cf.
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. IX.]
+
 ## THEOR. VII. PROPOS. IX.
 
 Si numerus numeri pars fuerit, & alter alterius eadem pars : & vicissim, quæ pars est, aut partes primus tertij, eadem pars erit, vel eædem partes & secundus quarti.

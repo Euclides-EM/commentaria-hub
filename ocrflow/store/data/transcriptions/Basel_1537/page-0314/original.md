@@ -24,6 +24,8 @@ CAMPANVS. Veritatem habet quod dicitur, siue in longitudine, siue etiam in poten
 
 [Diagram: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]
 
+[Curated heading level=2 type=theorems: Theorema 49 Propositio 67]
+
 ## Eucli. ex Zamb. Theorema 49 Propositio 67
 
 [Curated heading level=3 type=zamberti_sequence: 67.]

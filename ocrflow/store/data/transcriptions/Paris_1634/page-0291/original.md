@@ -3,6 +3,10 @@
 hypoth. | hiua, multipl.. b, 2|2, lm, uc, multipl.. d,
 concl. β.2.5 | ei, multipl.. b, 2|2, fm, multipl.. d.
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. IV.]
+
 ## THEOR. IV. PROPOS. IV.
 
 Si prima ad secūdam eandem habuerit rationem, & tertia ad quartam : etiam æquè multiplices primæ & tertiæ, ad æquè multiplices secundæ & quartæ, iuxta quamuis multiplicationem, eandem habebunt rationem, si prout inter se respondent, ita sumptæ fuerint.

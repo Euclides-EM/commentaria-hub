@@ -20,6 +20,10 @@ hyp. | ab Ⅱ al 2|2, 2ah,
 1. ſ. 4. 2 | □.am 2|2, 4□.ad,
 concl. 2. a. 1 | ec □.dc 2|2, 5□.ad.
 
+[Curated heading level=2 type=propositions: THEOR. II. PROPOS. II.]
+
+[Curated heading level=2 type=theorems: THEOR. II. PROPOS. II.]
+
 ## THEOR. II. PROPOS. II.
 
 Si recta linea sui ipsius segmenti quintuplum possit; duplæ prædicti segmenti extrema ac media ratione sectæ, maius segmentum reliqua pars est eius, quæ à principio rectæ.

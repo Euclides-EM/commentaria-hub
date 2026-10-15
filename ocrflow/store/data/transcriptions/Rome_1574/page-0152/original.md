@@ -16,6 +16,8 @@ BREVIVS lineam perpendicularem erigemus ex puncto dato, ſiue extremum illud ſi
 
 [Curated heading level=2 type=campanus: 12]
 
+[Curated heading level=2 type=problems: PROBL. 7. PROPOS. 12.]
+
 ## PROBL. 7. PROPOS. 12.
 
 [Margin]

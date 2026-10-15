@@ -6,6 +6,10 @@ quoy les figures CDEE, AHGB ſeront ſemblables, & ſemblablement deſcrites.
 
 Que ſi la figure donnee auoit plus de a coſtez, il la faudra diuiſer en p luſieurs triangles, & operer ſur chacun triangle, comme il a eſté dit cy deſſus.
 
+[Curated heading level=2 type=propositions: THEOR. 13. PROP. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. 13. PROP. XIX.]
+
 ## THEOR. 13. PROP. XIX.
 
 Les triangles ſemblables, ſont l’vn à l’autre en raiſon doublee de leurs coſtez de meſme raiſon. Soient deux triangles ſemblables ABC &DEF. Ie dis qu’ils ſerõt l’vn à l’autre en raiſon doublee de leurs coſtez de meſme raiſon BC & EF: c’eſt à dire que ſi à BC & EF on trouue la troiſieſme proportionnele BG; le triangle ABC ſera au triangle DEF, comme la ligne BC eſt à la troiſieſme proportionele BG: car telle eſt la raiſon doublee par la 10. def. 5.

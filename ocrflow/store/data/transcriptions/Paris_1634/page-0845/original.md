@@ -22,6 +22,10 @@ hyp. | ab, eſt diamet. ſphær.
 15. 13 | ac, eſt γ. cub.
 47. 1 | □.ab 2|2 □.bc / + □.ac.
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. XVI.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. XVI.]
+
 ## PROBL. IV. PROPOS. XVI.
 
 Icosaedrum constituere, & sphæra complecti, qua & antedictas figuras; & demonstrare, quod icosaedri latus irrationalis est linea, quæ vocatur minor.

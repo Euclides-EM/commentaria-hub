@@ -7,6 +7,10 @@ Si enim non eſt parallela, productae EF, GH inter ſe convenient, vel ad partes
 
 [Diagram: two parallel planes AB and CD cut by plane EFHG, with lines EF and GH extended toward K]
 
+[Curated heading level=2 type=propositions: PROP. XVII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVII. THEOR.]
+
 ## PROP. XVII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duae rectae lineae a parallelis ſecentur planis, in eadem ratione ſecabuntur.

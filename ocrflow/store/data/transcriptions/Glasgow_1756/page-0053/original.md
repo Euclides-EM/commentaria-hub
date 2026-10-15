@@ -23,6 +23,10 @@ Ergo diameter BC parallelogrammum ACDB bifariam ſecat. Q. E. D.
 
 [Diagram: parallelogram ABCD with diagonal CB]
 
+[Curated heading level=2 type=propositions: PROP. XXXV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXV. THEOR.]
+
 ## PROP. XXXV. THEOR.
 
 {dropcap:P|lines=2|style=plain}ARALLELOGRAMMA ſuper eâdem baſi, et in eiſdem parallelis conſtituta, inter ſe aequalia ſunt.

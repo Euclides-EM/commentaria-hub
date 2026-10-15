@@ -19,6 +19,10 @@ und CF | ein bley-rechter Senckstrich n. 10. Beschr.
 
 Ist also der begehrte Senckstrich CF aus dem gegebenen Düttel C auff den gegebenen Strich AB gezogen. W.Z.M.
 
+[Curated heading level=2 type=propositions: Der XIII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 6. Beweiß-Stück. Der XIII. Vortrag.]
+
 ## Der XIII. Vortrag.
 
 ## Das 6. Beweiß Stück.

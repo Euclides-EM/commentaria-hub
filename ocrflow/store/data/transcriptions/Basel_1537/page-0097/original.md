@@ -14,6 +14,8 @@ CAMPANVS. Sint ut prius: assignatus triangulus a b c: assignatusq́; circulus d 
 
 [Diagram: circle with centre g inscribed in triangle h k l, radii g d, g e, g f drawn to the points of tangency d, e, f; at the lower left the assigned triangle a b c with base b c produced on both sides]
 
+[Curated heading level=2 type=problems: Problema 3. Propositio 3]
+
 ## Eucli ex Zamb. Problema 3. Propositio 3
 
 [Curated heading level=3 type=zamberti_sequence: 3.]

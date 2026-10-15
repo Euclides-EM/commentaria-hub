@@ -49,6 +49,10 @@ g. 20. 6.
 
 rationis vero BA ad GF duplicata eſt ratio polygoni ABCDE ad polygonum FGHKLᵍ; et igitur ut quadratum ex BM ad quadratum ex GN, ita polygonum ABCDE ad polygonum FGHKL. Quare ſimilia polygona &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. II. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. II. THEOR.]
+
 ## PROP. II. THEOR.
 
 {dropcap:C|lines=2|style=plain}IRCULI inter ſe ſunt ut quadrata ex diametris.

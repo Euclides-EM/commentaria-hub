@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. I. -->
 
+[Curated heading level=2 type=propositions: PROBLEME I. PROPOSITION I.]
+
+[Curated heading level=2 type=problems: PROBLEME I. PROPOSITION I.]
+
 ## PROBLEME I. PROPOSITION I.
 
 SVr vne ligne droicte donnée & terminée, descrire vn triangle equilateral.

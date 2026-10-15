@@ -6,6 +6,10 @@
 
 Werden also jedwedes Nebenstrichiches Viereckes entgegen stehende Seiten α. β. und gegen einander übergesetzte Winckel γ. ε. wie auch die durch den Zwerg-strich gemachte Dreyecke gleich groß seyn. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXXV. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 25. Beweiß-Stück. Der XXXV. Vortrag.]
+
 ## Der XXXV. Vortrag.
 
 ## Das 25. Werck-Stück{printer-error-correction:Beweiß-Stück}:

@@ -4,6 +4,10 @@
 
 [Figure: point C above the horizontal line AB with points D, F and E; dotted lines from C to D and E, a solid vertical line CF, and a dotted arc through D, G and E below the line]
 
+[Curated heading level=2 type=propositions: PROPOSITION XII. PROBLEME VII.]
+
+[Curated heading level=2 type=problems: PROBLEME VII. PROPOSITION XII.]
+
 ## PROPOSITION XII. PROBLEME VII.
 
 {dropcap:D|lines=2|style=plain}'un point donné (C), hors d'une ligne droite indéfinie (AB); abaiſſer ſur cette droite une ligne perpendiculaire (CF).

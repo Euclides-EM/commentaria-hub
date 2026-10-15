@@ -1,6 +1,20 @@
+[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.]
+
+[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.]
+
+[Curated heading level=1 type=problems: EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.]
+
+[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.]
+
+[Curated heading level=1 type=postulates: EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.]
+
+[Curated heading level=1 type=axioms: EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.]
+
 # EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.
 
 # LE SEPTIESME LIVRE DES ELEMENTS D'EVCLIDE.
+
+[Curated heading level=2 type=definitions: DEFINIT. I.]
 
 ## DEFINIT. I.
 
@@ -15,6 +29,8 @@ vnits. id est vnitates.
 *vnit. ou 1. signifie l'vnité.*
 
 *vnits. signifie vnitez.*
+
+[Curated heading level=2 type=definitions: DEFINIT. II.]
 
 ## DEFINIT. II.
 

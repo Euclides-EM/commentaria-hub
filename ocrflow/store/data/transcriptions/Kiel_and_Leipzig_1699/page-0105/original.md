@@ -8,6 +8,10 @@ Demnach werden aus der Löse-Kunst vor diesesmahl entlehnet nachfolgende
 
 ## Grund-Sätze:
 
+[Curated heading level=1 type=axioms: Das II. Buch]
+
+[Curated heading level=2 type=axioms: Grund-Satz I.]
+
 [Curated heading level=3 type=numbered_item: I.]
 
 I. Wenn zwo gleiche Grössen/ in zwo andere gleiche Grössen gezogen werden / so werden auch gleichgrosse Dinge daraus.
@@ -15,6 +19,8 @@ I. Wenn zwo gleiche Grössen/ in zwo andere gleiche Grössen gezogen werden / so
 [Curated heading level=4 type=numbered_item: (t)]
 
 (t) Wenn die Seiten oder Striche gleichlang/so sind auch die Vierecke ( und Würffel ) solcher gleichgrossen Seiten gleichgroß.
+
+[Curated heading level=2 type=axioms: Grund-Satz II.]
 
 [Curated heading level=3 type=numbered_item: II.]
 

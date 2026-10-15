@@ -2,6 +2,8 @@
 
 <!-- Page number: 218 -->
 
+[Curated heading level=2 type=theorems: Theorema 24 Propositio 26]
+
 ## Eucli. ex Zamb. Theorema 24 Propositio 26
 
 [Curated heading level=3 type=zamberti_sequence: 26.]
@@ -28,6 +30,8 @@ THEON ex Zamber. Sint similes plani numeri α β. Dico quod α ad β rationem ha
 
 CAMPANVS: Sint a & b solidi similes, dico quod proportio unius eorum ad alterum, est sicut alicuius cubi ad aliquem alium cubum. Sunt quidem per 18 inter eos duo numeri medij secundum continuam proportionē, qui sint c & d, & in eorū proportione sint minimi quatuor e, f, g, h, quorū e & h erunt cubi per correlarium secūdæ: quia igitur per æquam proportionalitatē est a ad b, sicut e ad h, liquet propositū.
 
+[Curated heading level=2 type=theorems: Theorema 25 Propositio 27]
+
 ## Eucli. ex Zamb. Theorema 25 Propositio 27
 
 [Curated heading level=3 type=zamberti_sequence: 27.]
@@ -42,7 +46,13 @@ THEON ex Zamberto. Sint similes solidi numeri α, β. Dico quod α ad β ratione
 
 [Diagram: dotted number lines α, γ, δ, β, ε, ζ, η, θ]
 
+[Curated heading level=1 type=theorems: ARITHMETICORVM ELEMENTORVM LIBER NONVS]
+
+[Curated heading level=1 type=definitions: ARITHMETICORVM ELEMENTORVM LIBER NONVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER NONVS.
+
+[Curated heading level=2 type=definitions: Ex Campano. Diffinitiones.]
 
 Ex Campano. Diffinitiones.
 

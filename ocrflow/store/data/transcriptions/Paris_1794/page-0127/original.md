@@ -3,6 +3,8 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 99 -->
 
+[Curated heading level=2 type=problems: PROBLÊME X.]
+
 ### PROBLÊME X.
 
 *Changer un polygone donné en un triangle équivalent.*

@@ -1,6 +1,10 @@
 <!-- Running title: LIBER QUINTUS. -->
 <!-- Page number: 145 -->
 
+[Curated heading level=2 type=propositions: PROP. D. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. D. THEOR.]
+
 ## PROP. D. THEOR.
 
 {dropcap:S|lines=2|style=plain}I fuerit prima ad ſecundam, ut tertia ad quartam; fueritque prima multiplex, vel pars ſecundae; erit tertia eadem multiplex, vel eadem pars quartae.
@@ -32,6 +36,10 @@ c. B. 5.
 [/Margin]
 
 erit B ad A, ut D ad C. eſt autem A pars ipſius B, hoc eſt B multiplex eſt ipſius A, quare, per caſum praecedentem, D eadem eſt multiplex ipſius C, hoc eſt C eadem pars eſt ipſius D, atque A ipſius B. ſi igitur fuerit prima &c. Q. E. D.
+
+[Curated heading level=2 type=propositions: PROP. VII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VII. THEOR.]
 
 ## PROP. VII. THEOR.
 

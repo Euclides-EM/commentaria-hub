@@ -16,6 +16,10 @@ I1 12. Ligne faiſant auec vne ſuperficie rationele vn tout medial.
 
 3. Ligne faiſant auec vne ſuperficie mediale vn tout medial.
 
+[Curated heading level=2 type=propositions: THEOR. 89. PROP. CXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 89. PROP. CXIII.]
+
 ## THEOR. 89. PROP. CXIII.
 
 Le quarré d’vne ligne rationele eſtant appliqué ſur vn binome, faict l’autre coſté reſidu, les noms duquel ſont proportionaux, & commenſurables aux noms du binome: en outre le reſidu eſt de meſme ordre que le binome.

@@ -13,11 +13,15 @@ Diß zůbeweiſen / zertail die vierecke mit zwayen diametern / ſo werden es ac
 
 Darauß volgt / das kain rhombus / noch rhomboides mag inn ainem zirckel beſchriben werden. Dan derſelben zwen winckel über eckhs gröſſer ſeind / weder zwen gerecht / ꝛc̄.
 
+[Curated heading level=2 type=propositions: XXIII. Die drey vnd zwaintzigſt Propoſition]
+
 ## XXIII Die drey vnd zwaintzigſt Propoſition.
 
 [Subhead]
 Es mögen khains wegs auff aine rechte linj zwai ſtuckh ains zirckels geſetzt werden / welche gleichförmig (das iſt / gleicher winckel) ſeien / vnnd doch vngleichere gröſſe.
 [/Subhead]
+
+[Curated heading level=2 type=propositions: XXIIII. Die vier vnd zwaintzigſt propoſition]
 
 ## XXIIII Die vier vnd zwaintzigſt propoſition.
 
@@ -30,6 +34,8 @@ Gleichförmige ſtuckh der zirckel ſo auff gleichen linien ſtehn / ſeind aina
 Was gleichförmige ſtuckh ſeien / iſt in dem beſchreibungen angezaigt / nemlich die gleiche winckel haben / als hie / ſeind die winckel a d / item c f / ainander gleich / auch die linien b e. Iſt diſe propoſition vmbkhert die vorgehnd / welche leichtlich mag demonſtriert werden. So man von der linj örtern zů baiden ſtuckhen triangell machet / angeſechen den anderen tail der beſchreibung der gleich förmigen ſtuckh / vnnd die 21 propoſition des erſten bůchs welche alſo wurden ainander zů wider ſein.
 
 [Diagram]
+
+[Curated heading level=2 type=propositions: XXV. Die fünffvndzwaintzigſt propoſition]
 
 ## XXV Die fünffvndzwaintzigſt propoſition.
 

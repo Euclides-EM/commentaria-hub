@@ -1,6 +1,10 @@
 <!-- Running title: LIVRE VIII. -->
 <!-- Page number: 267 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XII.]
+
 ## PROPOSITION XII.
 
 ### THÉORÊME.

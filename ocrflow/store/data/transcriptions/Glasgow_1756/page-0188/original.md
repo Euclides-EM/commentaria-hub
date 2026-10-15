@@ -1,11 +1,17 @@
 <!-- Running title: LIBER SEXTUS. -->
 <!-- Page number: 175 -->
 
+[Curated heading level=2 type=definitions: DEF. IV.]
+
 ### IV.
 
 Altitudo cujuſque figurae eſt recta linea a vertice ad baſim perpendicularis ducta.
 
 [Diagram: triangle divided by a line from the apex to the base]
+
+[Curated heading level=2 type=propositions: PROP. I. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. I. THEOR.]
 
 ## PROP. I. THEOR.
 

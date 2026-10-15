@@ -6,6 +6,8 @@ a d maior est a c. Sic quoque est maior h k, & maior etiã quàm a b. Quod autem
 
 [Diagram: circle with centre e; points h and k on the upper circumference joined by chord h k, f and a on the left, g and d on the right, c at lower right, b at bottom; lines drawn from a and e to the several points]
 
+[Curated heading level=2 type=theorems: Theorema 14. Propositio 15]
+
 ## Eucli. ex Zamb. Theorema 14. Propositio 15
 
 [Curated heading level=3 type=zamberti_sequence: 15.]

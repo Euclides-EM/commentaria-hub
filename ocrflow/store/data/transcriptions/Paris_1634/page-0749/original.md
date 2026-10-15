@@ -14,6 +14,10 @@ contr. hypoth.
 
 [Figure: labels arranged I / A E C G / H B F D]
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XVII.]
+
 ## THEOR. XV. PROPOS. XVII.
 
 Si duæ rectæ lineæ parallelis planis secentur; in easdem rationes secabuntur.

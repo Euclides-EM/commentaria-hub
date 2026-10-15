@@ -4,6 +4,10 @@
 
 [Figure: parallelogram A B D C with dotted diagonal from C to B, angle n at B and angle m at C]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIII. THEOREME XXIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIII. PROPOSITION XXXIII.]
+
 ## PROPOSITION XXXIII. THEOREME XXIII.
 
 {dropcap:L|lines=2|style=plain}Es droites (AC, BD), qui joignent de même part les extrêmités (A, C & B, D) de deux autres droites (AB, CD) égales & paralleles : ſont auſſi égales & paralleles entr'elles.

@@ -29,6 +29,10 @@ hyp. | <bac 2|2 <bca,
 α. 1.a.1. | ac 2|2 bc,
 23.d.1. | △abc est æquilat.
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. VII.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. VII.]
+
 ## THEOR. IV. PROPOS. VII.
 
 Super eadem recta linea, duabus eisdem rectis lineis aliæ duæ rectæ lineæ æquales, vtraque vtrique, non constituentur, ad aliud atque aliud punctum, ad easdem partes, eosdémque terminos cum duabus initio ductis rectis lineis habentes.

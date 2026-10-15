@@ -6,6 +6,8 @@ Vt si sit a ad b, sicut d ad f, & b ad e, sicut c ad d, erit a ad e, sicut c ad 
 
 [Diagram: dot-rows in the right margin labelled g (12 dots); h (8 dots); a and c; b and d; c and f; k]
 
+[Curated heading level=2 type=theorems: Theorema 16 Propositio 18]
+
 ## Eucli.ex Zamb. Theorema 16 Propositio 18
 
 [Curated heading level=3 type=zamberti_sequence: 18.]

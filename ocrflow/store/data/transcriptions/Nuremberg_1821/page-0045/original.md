@@ -1,5 +1,9 @@
 <!-- Page number: 40 -->
 
+[Curated heading level=2 type=propositions: Dreißigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: Dreißigſter Satz. Lehrſatz.]
+
 ## Dreißigſter Satz. Lehrſatz. (Fig. 14{printer-error-correction:11}.)
 
 Wenn auf einer geraden Linie AB, in einerlei Ebene, und an dernemlichen Seite der AB, zwei gleiche gerade Linien AC und BD ſenkrecht ſtehen, deren Endpunkte C und D mit der geraden Linie CD verbunden ſind, ſo ſind die beiden Winkel ACD und BDC auch gleich.

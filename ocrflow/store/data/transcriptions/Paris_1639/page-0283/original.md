@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. VI. -->
 
+[Curated heading level=2 type=propositions: PROBL. IX. PROPOS. XXIX.]
+
+[Curated heading level=2 type=problems: PROBL. IX. PROPOS. XXIX.]
+
 ## PROBL. IX. PROPOS. XXIX.
 
 A vne ligne droicte donnée appliquer vn parallelogramme égal a vne figure rectiligne donnée, excedant icelle d'vn parallelogramme semblable à vn autre donné.

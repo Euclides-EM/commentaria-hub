@@ -3,6 +3,8 @@
 
 minor erit cylindrus triplo ſui coni, neque maior, vt patuit. Erit itaque ipſi triplo æqualis. Omnis igitur conus cylindri tertia pars eſt eandem eidem, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
+
 ## Propoſitio vndecima.
 
 Sub eodem faſtigio exiſtentes Coni & Cylindri, adinuicem ſeſe habent ſicut baſes.
@@ -14,6 +16,8 @@ Proponantur ſub eodem faſtigio coni vel cylindri, ſcilicet ſuper baſibus AB
 [Diagram: circle with inscribed square and polygon, labelled T, O, S, E, M, I, P, R, K, N, with line MN extending to vertex N]
 
 [Diagram: small cone labelled H and parallelepiped labelled X]
+
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
 
 ## Propoſitio duodecima.
 

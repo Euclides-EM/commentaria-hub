@@ -10,6 +10,8 @@ Ergo
 { quad. I O         quad. L O }
 [/Calculation]
 
+[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO XI.]
+
 ## PROPOSITIO XI.
 
 [Curated heading level=2 type=figures: Fig. 11]

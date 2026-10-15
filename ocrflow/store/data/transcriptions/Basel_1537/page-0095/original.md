@@ -1,12 +1,20 @@
 <!-- Page number: 86 -->
 
+[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER QVARTVS]
+
+[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER QVARTVS]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVARTVS
+
+[Curated heading level=2 type=definitions: Ex Campano. Diffinitiones]
 
 ## Ex Campano. Diffinitiones
 
 FIgura intra figuram dicitur inscribi, quando ea quæ inscribitur eius in qua inscribitur latera unoquoque suorum angulorum ab inreriore parte contingit. 2 Circunscribi uero figura figuræ perhibetur, quoties ea quidem figura eius cui circunscribitur omnibus omnes angulos contingit.
 
 [Diagram: triangle with a smaller triangle inscribed within it, the two marked 1 and 2]
+
+[Curated heading level=2 type=definitions: Ex Zamberto. Diffinitiones.]
 
 ## Ex Zamberto. Diffinitiones.
 

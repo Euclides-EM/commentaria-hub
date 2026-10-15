@@ -4,6 +4,10 @@ lels ſe touchans en diuers plans) partant auſſi ſemblables au triangle GAE, 
 
 Que les deux priſines EHGFIB, & HIKFDG ſoient enſemble plus de la moitié d’icelle pyramide totale ABCD, il appert ainſi: iceux deux priſmes eſtans egaux, l’vn d’iceux EHGFIB, ayant baſe quadrangulaire BEGP double du triãgle FGD, baſe de la pyramide AGHE, & de meſme hauteur qu’icelle, on en peut retrancher vne pyramide egale à icelle pyramide EAGH: partant iceluy priſme eſt plus grand que la pyramide, le tout que la partie: Et par conſequent les deux priſmes enſemble, ſerõt plus grands que les deux pyramides AEHG, HICK enſemble Mais iceux priſmes, & pyramides font enſemble la pyramide totale ABCD: donc iceux priſmes eſtans plus grands qu’icelles deux pyramides; ſeront auſſi plus grands que la moitié d’icelle pyramide totale ABCD: ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEO. 4. PROP. IIII.]
+
+[Curated heading level=2 type=theorems: THEO. 4. PROP. IIII.]
+
 ## THEO. 4. PROP. IIII.
 
 S’il y a deux pyramides de meſme hauteur ayans baſe triangulaire, & chacune d’icelles eſt diuiſee en deux autres pyramides ſemblables entr’elles, & à la toute; & en deux priſmes egaux; & les pyramides de la diuiſiõ ſont touſiours ſubdiuiſees de meſme façon: comme la baſe de l’vne des pyramides ſera à la baſe de l’autre, ainſi auſſi tous les priſmes enſemble tant de la diuiſion que ſubdiuiſion d’icelle pyramide, ſeront à tous les priſmes enſemble del’autre pyramide.

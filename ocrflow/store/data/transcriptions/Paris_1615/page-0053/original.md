@@ -10,6 +10,10 @@ Car D, rx eſtans egales par la diff. du cercle: item Gx & GH. Il eſt euident q
 
 La pratique tant de ce prob. que du ſuiuant eſt enſeignee en noſtra Geometrie practique Prob. 11.& 4.
 
+[Curated heading level=2 type=propositions: PROBL. 9. PROPOS. XXIII.]
+
+[Curated heading level=2 type=problems: PROBL. 9. PROPOS. XXIII.]
+
 ## PROBL. 9. PROPOS. XXIII.
 
 Sur vne ligne droite donnee, & ſur vn poinct donné en icelle, faire vn angle rectiligne egal à vn angle rectiligne donné.

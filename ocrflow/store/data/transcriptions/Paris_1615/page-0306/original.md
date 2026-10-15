@@ -18,6 +18,10 @@ Soit le nobre imp uir A, qui meſure le nombre impair B parC. Ie dis queC eſt i
 
 B.....SC...3 Soit le nombre imoair A, lequel B meſure par C. Ie dis que B eſt impair. Car C eſtant multiplié par B produira A par la 9 com. ſent. & ſi B n’eſt impair, mais pair, le produict A ſera pair par la 28. p.9. ce qui eſt abſurde, puis qu’il a eſt. poſé imp air. Donc B qui meſure A impair, n'eſt pas nombre) air, mais impair.
 
+[Curated heading level=2 type=propositions: THEOR. 28. PROP. XXX.]
+
+[Curated heading level=2 type=theorems: THEOR. 28. PROP. XXX.]
+
 ## THEOR. 28. PROP. XXX.
 
 Si vn nombre impair meſure vn nombre pair, il meſurera auſſi ſa moitié.

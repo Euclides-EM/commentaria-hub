@@ -3,6 +3,10 @@
 
 [Figure: triangle with base AB, point D on AB; line AC drawn from A through points E and F to C, with dotted lines CB and ED]
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. PROBLEME I.]
+
+[Curated heading level=2 type=problems: PROBLEME I. PROPOSITION IX.]
+
 ## PROPOSITION IX. *PROBLEME I.*
 
 {dropcap:R|lines=2|style=plain}Etrancher d'une ligne droite donnée (AB), une partie démandée quelconque. (*par ex. la troiſième partie*).

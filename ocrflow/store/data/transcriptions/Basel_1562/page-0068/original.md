@@ -39,6 +39,8 @@ Die bůchſtaben a vnd b zaigen an die anfeng der multiplication der ſtücklin 
 
 Auff diſem grund ſteht auch die art zů multipliciern inn der Coß / da auch ie ain ſtücklin nach dem andern inn die andern alle gemultipliciert wirt / als daſelbſt wirt angezaigt.
 
+[Curated heading level=2 type=propositions: II. Die ander propoſition]
+
 ## II. Die ander propoſition.
 
 So ain lini wie man will oder nach gefallen inn ettlich ſtückh zertailt wirtt / ſeind die winckelrechten figurn / ſo von yedem ſtückh in ſonderhait vnnd der gantzen lini begriffen werden / ſambtlich gleich dem quadrat der gantzen linj.

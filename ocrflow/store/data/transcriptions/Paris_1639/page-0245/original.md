@@ -9,6 +9,10 @@ hyp. | ag π c 2|2 dh π f,
 hyp. | ab π c 2|2 de π f,
 concl. 22.5 | bg π c 2|2 eh π f.
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXV.]
+
 ## THEOR. XXV. PROPOS. XXV.
 
 Si quatre grandeurs sont proportionelles, la plus grande & la plus petite sont plus grandes que les deux autres.

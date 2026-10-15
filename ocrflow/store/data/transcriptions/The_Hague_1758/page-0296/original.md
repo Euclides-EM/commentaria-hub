@@ -3,6 +3,10 @@
 
 [Figure: dans un encadrement, deux triangles ABC et CDE se touchant en C, les angles B et D marqués, sur une même base AE]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXII. THEOREME XXII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXII. PROPOSITION XXXII.]
+
 ## PROPOSITION XXXII. THEOREME XXII.
 
 {dropcap:S|lines=2|style=plain}I deux triangles (ABC, CDE), qui ont deux côtés (AB, BC) proportionels à deux côtés (CD, DE), s'entretouchent (en C), de manière que leurs côtés homologues (AB, CD, BC, DE) ſoient Parallèles, les deux autres côtés (AC, CE) ſe rencontreront directement.

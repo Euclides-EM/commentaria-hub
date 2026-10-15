@@ -7,6 +7,8 @@
 
 [Diagram: square with diagonal, labelled L and O at top, S and X at the sides, R, H and M at the bottom]
 
+[Curated heading level=2 type=propositions: Propoſitio nonageſimaſexta.]
+
 ## Propoſitio nonageſimaſexta.
 
 Si areola comprehendatur ſub Certa & Apotome ſexta, quæ areolam poteſt, eſt quæ Cum medio medium totum efficit.

@@ -1,11 +1,19 @@
 <!-- Running title: LIBER DECIMVSSEXTVS. -->
 <!-- Page number: 194 -->
 
+[Curated heading level=2 type=propositions: Propoſitio vndecima.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio vndecima.]
+
 ## Propoſitio vndecima.
 
 Latus Pyramidis octodecuplum poteſt lateris ſibi inſcripti cubi.
 
 Quoniam (per ea quæ oſtenſa ſunt decimaoctaua decimiquinti) latus pyramidis triplum eſt, & ideo nocuplum potuit diametri baſis ſibi inſcripti cubi, diameter autem, lateris cubi duplum (ex 47 primi) poteſt. Nocupli igitur duplum octodecuplum efficiet. Latus itaque pyramidis octodecuplum poteſt lateris ſibi inſcripti cubi.
+
+[Curated heading level=2 type=propositions: Propoſitio duodecima.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio duodecima.]
 
 ## Propoſitio duodecima.
 
@@ -13,11 +21,19 @@ Latus Pyramidis octodecuplũ poteſt eius rectę cuius Dodecahedri latus Pyramid
 
 Cùm dodecahedrum & ſibi inſcriptus cubus eidem inſideant pyramidi, per corollarium primæ huius, cubi verò inſcripti lateris octodecuplum potuit latus circunſcriptæ pyramidis ex proxima: at eiuſdem lateris cubi maius ſegmentum eſt dodecahedri, cubum cõtinentis latus, per corollarium decimæſeptimæ decimitertij. Latus igitur pyramidis octodecuplum poteſt, eius rectæ, ſcilicet lateris cubi, cuius dodecahedri latus pyramidi inſcripti fit maius ſegmentum.
 
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio decimatertia.]
+
 ## Propoſitio decimatertia.
 
 Minoris ſegmenti lateris Octahedri, duplum poteſt latus ſibi inſcripti Icoſahedri.
 
 Quoniam oſtenſum fuit (decimaſeptima decimiquinti) latus icoſahedri octahedro inſcripti, binas laterum octahedri angulum rectum efficientium coniungere ſectiones extrema & media ratione genitas, hunc autem rectum angulum minoribus ipſorum octahedri laterum ſegmentis contineri, à latere verò icoſahedri inſcripti ſubtenſum: ſequetur itaque icoſahedri latus ſubtendens, binis comprehendentibus æquale potentia, per quadrageſimamſeptimam primi, duplum poſſe ſingulorum comprehendentium angulum minorum lateris octahedri ſegmentorum. Minoris itaque ſegmenti lateris octahedri, &c.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio decimaquarta.]
 
 ## Propoſitio decimaquarta.
 

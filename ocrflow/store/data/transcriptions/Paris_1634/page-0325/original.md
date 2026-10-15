@@ -14,6 +14,10 @@ hyp. | de π ef 2|3 ad π bc,
 β.8.5 | gc π bc 2|3 ac π bc,
 concl. 13.5 | df π ef 2|3 ac π bc.
 
+[Curated heading level=2 type=propositions: THEOR. XXIX. PROPOS. XXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIX. PROPOS. XXIX.]
+
 ## THEOR. XXIX. PROPOS. XXIX.
 
 Si composita prima cum secunda ad secundam maiorem habuerit proportionem, quàm composita tertia cum quarta ad quartam ; habebit quoque diuidendo prima ad secundam maiorem proportionem, quàm tertia ad quartam.

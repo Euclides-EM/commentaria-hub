@@ -1,6 +1,10 @@
 <!-- Running title: LIBER SECUNDUS. -->
 <!-- Page number: 65 -->
 
+[Curated heading level=2 type=propositions: PROP. XI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XI. PROB.]
+
 ## PROP. XI. PROB.
 
 [Subhead]

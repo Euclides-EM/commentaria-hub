@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. XLI.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. XLI.]
+
 ## PROBL. VI. PROPOS. XLI.
 
 Numerum reperire, qui minimus cum sit, habeat datas partes.

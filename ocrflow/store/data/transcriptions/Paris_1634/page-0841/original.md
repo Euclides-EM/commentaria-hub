@@ -8,6 +8,10 @@
 
 2.ſ.7.5 | □.ab π □.hi 2|2, 36 π 16, Ⅱ 9 π 4.
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. XIV.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. XIV.]
+
 ## PROBL. II. PROPOS. XIV.
 
 Octaedrum constituere, & sphæra complecti, qua & pyramidem; & demonstrare, quod sphæræ diameter potentia sit dupla lateris ipsius octaedri.

@@ -4,6 +4,12 @@
 
 proportionalis inter ipſius baſis ſegmenta:& vnumquodq; præterea laterū rectum continentium angulum , medium itidem proportionale eſt inter baſin & ſegmentum,quod cum ipſo congreditur latere.
 
+[Curated heading level=1 type=problems: LIBER VI.]
+
+[Curated heading level=2 type=propositions: Problema 1, Propoſitio 9.]
+
+[Curated heading level=2 type=problems: Problema 1, Propoſitio 9.]
+
 ## Πρόβλημα α, Πρόθεσις θ.
 
 ΤΗς δοθείσης εὐθείας,τὸ προσαχθὲν μέρος ἀφελεῖν.
@@ -23,6 +29,10 @@ Exequutio p̷blematis.
 [/Margin]
 
 [Diagram: a f b c d e]
+
+[Curated heading level=2 type=propositions: Problema 2, Propoſitio 10.]
+
+[Curated heading level=2 type=problems: Problema 2, Propoſitio 10.]
 
 ## Πρόβλημα β, Πρόθεσις ι.
 

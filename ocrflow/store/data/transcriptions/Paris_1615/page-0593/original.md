@@ -8,6 +8,10 @@ droicte ſubtendante IC. Ie dis qu’icelle ligne droicte IC eſt vn coſté du
 
 De cecy eſt manifeſte, que ſi a l’extremité du coſté du poligone mſerit, lequel conuient auec le diametre, on tire vne ligne perpendie. a iceluy diametre, qu’elle ne peut toucher le moindre cercle, mais que elle tombera toute dehors. Car telle eſt la ligne Ik, laquelle du poinct I extreme du coſte IC conuenant auec le diametre AC, eſt t iree parpendiculairement ſur iceluy diametre AC. & a eſte demonſtré quelle ne touche pas le cercle DEF.
 
+[Curated heading level=2 type=propositions: PROB. 2. PROP. XVII.]
+
+[Curated heading level=2 type=problems: PROB. 2. PROP. XVII.]
+
 ## PROB. 2. PROP. XVII.
 
 Deux ſpheres inegales eſtans ſur vn meſme centre; inſcrire en la plus grande vn polyedre, duquel les plans ne touchent point la ſuperficie de la petite ſphere.

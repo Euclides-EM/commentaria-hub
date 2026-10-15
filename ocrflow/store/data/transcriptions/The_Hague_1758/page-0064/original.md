@@ -4,6 +4,10 @@
 
 [Figure: parallelograms A B C, G D E and dotted lines between parallels AH and BE, with points A, G, H on the upper line and B, C, D, E on the lower line]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXVI. THEOREME XXVI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXVI. PROPOSITION XXXVI.]
+
 ## PROPOSITION XXXVI. THEOREME XXVI.
 
 {dropcap:L|lines=2|style=plain}Es parallélogrammes (AC, GE), placés ſur des baſes égales (BC, DE) & entre les mêmes paralleles (AH, BE), ſont égaux entr'eux.

@@ -13,6 +13,8 @@ ABC. Æ. CAB.
 
 *Eodem modo oſtendes primum tertiò, & tertium ſecundo eſſe æqualia,*
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXXVII.]
+
 ## PROPOSITIO XXXVII.
 
 {dropcap:P|lines=2|style=plain}*Arallelepipeda ſimilia, ſimiliterq́; à lineis proportionalibus deſcripta, etiam ipſa ſunt proportionalia: & è conuerſo.*

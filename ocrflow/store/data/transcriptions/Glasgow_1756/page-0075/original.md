@@ -1,6 +1,10 @@
 <!-- Page number: 60 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. VIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VIII. THEOR.]
+
 ## PROP. VIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I recta linea utcunque ſecta fuerit, quod quater a tota et una parte continetur rectangulum una cum quadrato ex reliqua parte, aequale eſt quadrato quod ex tota et dicta parte, tanquam ex una recta, deſcribitur.

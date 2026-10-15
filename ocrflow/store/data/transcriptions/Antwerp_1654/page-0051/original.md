@@ -1,6 +1,8 @@
 <!-- Page number: 18 -->
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO V.]
+
 ## PROPOSITIO V.
 
 [Curated heading level=2 type=figures: Fig. 26]
@@ -20,6 +22,8 @@ b Per 4. l.1.
 ### Corollarium.
 
 {dropcap:Æ|lines=2|style=plain}Quilaterum ergò triangulum, etiam æquiangulum eſt.
+
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO VI.]
 
 ## PROPOSITIO VI.
 

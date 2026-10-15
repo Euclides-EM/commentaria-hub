@@ -3,6 +3,10 @@
 
 [Diagram: two vertical planes in perspective, the left labelled Z and X, the right labelled T and Y, joined by a horizontal line AB; dotted lines riſe from A and B to points D, E and C above]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV. THEOREME XII.]
+
+[Curated heading level=2 type=theorems: THEOREME XII. PROPOSITION XIV.]
+
 ## PROPOSITION XIV. THEOREME XII.
 
 {dropcap:L|lines=2|style=plain}Es Plans (XZ & TY) ſur leſquels une même ligne (AB) eſt perpendiculaire; ſont paralleles.

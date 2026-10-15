@@ -2,11 +2,15 @@
 
 <!-- Page number: 11 -->
 
+[Curated heading level=2 type=axioms: Grund-Satz III.]
+
 [Curated heading level=3 type=numbered_item: III.]
 
 III. Wenn man von (zwey) gleichen Dingen ab und cd (zwey) gleiche Stücke eb und id abnimmt / so bleiben (zwey) gleiche Stücke ae und ci übrig.
 
 [Diagram: zwei Striche a–e–b und c–i–d]
+
+[Curated heading level=2 type=axioms: Grund-Satz IV.]
 
 [Curated heading level=3 type=numbered_item: IV.]
 
@@ -19,6 +23,8 @@ IV. Wenn man (zwey) ungleichen Dingen ab und cd (zwey) gleiche Stücke be und cf
 (g) Wenn man ( zwey ) ungleiche Dinge ac und ef zu ( zwey ) ungleichen Dingen ab und ed setzet/und zwar das Grosse ac dem Grossen ab/ das Kleiner ef aber dem Kleinern de beyfüget / so werden die beeden Gantzen auch ungleich / und zwar jenes bc Grösser / dieses df aber Kleiner.
 
 [Diagram: zwei Striche b–a–c und d–e–f]
+
+[Curated heading level=2 type=axioms: Grund-Satz V.]
 
 [Curated heading level=3 type=numbered_item: V.]
 

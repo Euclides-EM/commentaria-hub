@@ -10,6 +10,8 @@
 
 [Curated heading level=2 type=campanus: 1]
 
+[Curated heading level=2 type=problems: PROBL. 1. PROPOS. 1.]
+
 ## PROBL. 1. PROPOS. 1.
 
 [Curated heading level=3 type=incipit: IN]

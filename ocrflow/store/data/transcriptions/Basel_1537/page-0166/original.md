@@ -32,6 +32,8 @@ CAMPANVS. Sit uterq̃ pentagonorum a b c.d e f, similis pentagono g h k: dico eo
 
 [Diagram: three similar pentagonal figures: the left with apex a, side b, interior label c; the middle, smaller, with apex g, side b(h), interior label k; the right with apex d, interior label e, side f]
 
+[Curated heading level=2 type=theorems: Theorema 15 Propositio 21.]
+
 ## Eucli.ex Zamb. Theorema 15 Propositio 21.
 
 [Curated heading level=3 type=zamberti_sequence: 21.]

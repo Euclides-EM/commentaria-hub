@@ -25,6 +25,10 @@ oſtenſa autem eſt et eidem aequalis. Quae igitur aequales et parallelas &c. Q
 
 [Diagram: parallelogram ABCD with diagonal CB]
 
+[Curated heading level=2 type=propositions: PROP. XXXIV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXIV. THEOR.]
+
 ## PROP. XXXIV. THEOR.
 
 {dropcap:P|lines=2|style=plain}ARALLELOGRAMMORUM ſpatiorum latera quae ex oppoſito, et anguli, inter ſe aequalia ſunt; et diameter ea bifariam ſecat.

@@ -10,6 +10,10 @@ Car puis que AB eſt ligne pouuantvn rationel, &vn medial, AC, CB, par la 41.p.1
 
 Ia ligne AB ſoit √(√1255) —√(√125—5), & la rationele DE 5.Donc le retangle DH ſera √125+5, IK√125—5, & LN, ou MF 10, qui apliquez ſur DE, le coſté DI ſera √51, IL√ 51, & LM, ou MG2. P.rquoy DL ſera √20.& LG 4, & par con ſequent la toste DG eſt √20—4, qui eſt binome cinquieſme.
 
+[Curated heading level=2 type=propositions: PROP. LXVI. THEOR. 48.]
+
+[Curated heading level=2 type=theorems: PROP. LXVI. THEOR. 48.]
+
 ## PROP. LXVI. THEOR. 48.
 
 Le quarré d’vne ligne pouuant deux medianx apliqué ſur vne ligne rationelle, faict lautre coſté binome ſixieſme.

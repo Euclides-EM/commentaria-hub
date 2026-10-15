@@ -18,6 +18,8 @@ CAMPANVS. Sit superficies a b d æquidistantiū laterum dupla trilateræ superfi
 
 [Diagram: parallelepiped with top face l s, points e and r, left point m, interior point n, lower front corners f and g; diagonals divide it into two prisms]
 
+[Curated heading level=2 type=theorems: Theorema 35 Propositio 40]
+
 ## Eucli. ex Zamb. Theorema 35 Propositio 40
 
 [Curated heading level=3 type=zamberti_sequence: 40.]

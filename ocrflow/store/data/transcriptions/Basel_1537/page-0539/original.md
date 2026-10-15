@@ -4,6 +4,8 @@
 
 teri æquales, est autem & angulus r angulo f æqualis, æqualis igitur est per 4 primi elemētorū basis b f, basi b c. Idq̃ propterea iam & b d ipsi b a est æqualis, binæ iam d k, b f, binis c b a, sunt æquales, est autē & angulus f ipsi c a, æqualis: angulus igitur qui sub d b f, angulo qui sub c b a, est æqualis. Sed ea quæ sub æqualibus spectantur angulis æqualia apparent: æqualis igitur per suppositionem 6 ca, ipsi d f apparet.
 
+[Curated heading level=2 type=theorems: Theorema trigesimumquintum]
+
 ## Theorema trigesimumquintum
 
 ETsi quæ ex centro excitatur non fuerit ad angulos rectos ipsi plāno, æqualis autem fuerit ei quæ ex centro, dimetientes ipsi æquales apparent.
@@ -14,6 +16,8 @@ Sit circulus cuius centrum k, & ab ipso k, excitetur non ad angulos rectos ipsi 
 
 [Diagram: eye at f (upper left) with rays to a circle; d at top, e at right, a within near the centre, c at left, b below]
 
+[Curated heading level=2 type=theorems: Theorema trigesimumsextum.]
+
 ## Theorema trigesimumsextum.
 
 SI uero quæ ab oculo ad centrum procidēs circuli, neque ad angulos fuerit rectos ipsius circulo plano, neque etiā eiq̃ ex centro fuerit æqualis, necq̃ æquos cum hijs quæ ex centro comprehendet angulos, sed aut maior aut minor ea quæ ex centro fuerit, diametri ipsę inæquales apparebunt.
@@ -21,6 +25,8 @@ SI uero quæ ab oculo ad centrum procidēs circuli, neque ad angulos fuerit rect
 Sit enim circulus cuius cētrum sit a, & ab ipso b oculo in cētrum circuli excitetur recta linea b a, sit autem neque ad angulos rectos ipsi plano, neque ei quæ ex circuli cētro æqualis, neque etiam cum hisquæ ex centro æquos comprehendat angulos. Dico quod ipsæ diametri circuli inæquales apparebunt, excitetur, inquam, c f, dimetiens ad angulos subsistens rectos ipsi a b. Et d k inæquales efficiens angulos ipsi a b, & per primum postulatum connectantur b c, b d, b f & b k. Igitur, prius b a ipsa a k maior: igitur maior est angulus comprehensus sub c b f, eo qui comprehēsus est sub k b d, sicut in theorematibus ostensum est. Quæ uero sub maiori angulo spectātur maiora apparēt. Igitur c f ipsa d k maior apparet.
 
 [Diagram: eye at b (upper left) with rays to a circle; k at upper right, c at right, a within at the centre, f at left, d below]
+
+[Curated heading level=2 type=theorems: Theorema trigesimumseptimum.]
 
 ## Theorema trigesimumseptimum.
 

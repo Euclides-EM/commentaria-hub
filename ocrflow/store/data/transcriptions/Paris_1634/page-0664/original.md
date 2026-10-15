@@ -12,6 +12,10 @@ Coroll. 2.
 hyp. | □.ac, incomm. □.cb,
 ε.10.10 | □.df, incomm. □.fe.
 
+[Curated heading level=2 type=propositions: THEOR. XLIX. PROPOS. LXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XLIX. PROPOS. LXVII.]
+
 ## THEOR. XLIX. PROPOS. LXVII.
 
 Ei, quæ ex binis nominibus, longitudine commensurabilis, & ipsa ex binis nominibus est, atque ordine eadem.

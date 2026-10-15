@@ -16,6 +16,8 @@ d Per 15.l.6.
 e Per 1.l.6.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XX.]
+
 ## PROPOSITIO XX.
 
 [Curated heading level=2 type=figures: Fig. 38]

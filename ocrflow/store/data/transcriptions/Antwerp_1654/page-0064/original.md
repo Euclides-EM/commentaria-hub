@@ -3,6 +3,8 @@
 
 Ergo per primam partem omnia reliqua ſunt æqualia.
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXVII.]
+
 ## PROPOSITIO XXVII.
 
 [Curated heading level=2 type=figures: Fig. 45]

@@ -3,6 +3,10 @@
 
 [Diagram: three bracketed rows of cells labelled aM, aN and aO, containing cells A, B, C and X, Y, Z, with single cells M, N and O below]
 
+[Curated heading level=2 type=propositions: PROPOSITION I. THEOREME I.]
+
+[Curated heading level=2 type=theorems: THEOREME I. PROPOSITION I.]
+
 ## PROPOSITION I. THEOREME I.
 
 {dropcap:S|lines=2|style=plain}I pluſieurs grandeurs (a M, a N, a O) ſont équimultiples d'un pareil nombre d'autres grandeurs (M, N, O &c), chacune de chacune, la ſomme (a M + a N + a O &c) des premieres ſera autant multiple de la ſomme (M + N + O &c) des ſecondes, qu'une des premieres (a M) eſt multiple de ſa correſpondante (M).

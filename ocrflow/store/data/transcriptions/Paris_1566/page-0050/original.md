@@ -5,7 +5,9 @@
 
 [Diagram]
 
-## Propoſitio quadrageſima.
+[Curated heading level=2 type=propositions: Propoſitio quadrageſima.]
+
+### Propoſitio quadrageſima.
 
 Triangula æqualia in æqualibus baſibus ad eaſdem partes conſtituta, in eiſdem ſunt parallelis.
 
@@ -13,7 +15,9 @@ Proponantur ſuper æqualibus baſibus B G G E, triangula A B G & D G E æqualia
 
 [Diagram]
 
-## Propoſitio quadrageſimaprima.
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaprima.]
+
+### Propoſitio quadrageſimaprima.
 
 Si parallelogrammum & triangulum eandem baſim habuërint, & in eiſdem fuerint parallelis, trianguli parallelogrammum duplum erit.
 
@@ -21,7 +25,11 @@ Parallelogrammum A B D G & triangulum A E B eandem habeant baſim A B, & in eiſ
 
 [Diagram]
 
-## Propoſitio quadrageſimaſecunda.
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaſecunda.]
+
+[Curated heading level=2 type=problems: Propoſitio quadrageſimaſecunda. Problema 11.]
+
+### Propoſitio quadrageſimaſecunda.
 
 [Subhead]
 Problema 11.

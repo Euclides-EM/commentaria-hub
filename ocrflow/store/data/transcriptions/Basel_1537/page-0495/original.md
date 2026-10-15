@@ -1,3 +1,5 @@
+[Curated heading level=1 type=theorems: Phænomena]
+
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI PLATONICI MATHEMATICIq́̃ præstātissimi Phænomena, ex traditione Theonis Bartholomæo Zamberto Veneto interprete.
 
 <!-- Page number: 484 -->

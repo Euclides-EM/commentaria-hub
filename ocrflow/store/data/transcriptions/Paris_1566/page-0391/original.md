@@ -2,6 +2,8 @@
 
 inſcripti, per decimamquartam decimitertij. Dupla itaque erunt quæ ex E F E D eorum quæ ex C & H. Ac ideo vna E D vnius H potentia, per duodecimam quinti. Duplum igitur poteſt E D latus icoſahedri rectæ H minoris. Si ideo lateris octahedri potentia per binas rectas extrema & media ratione coniunctas exprimatur, latus, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
+
 ## Propoſitio decimaſeptima.
 
 Si latus Dodecahedri & recta cuius, id eſt, minus ſegmentum, ad angulum rectum conſtituantur, ea quę dimidium poteſt rectę ſubtendentis angulum, eſt latus octahedri eadem ſphæra comprehenſi.
@@ -10,9 +12,11 @@ Eſto latus dodecahedri A B. Recta verò cuius id latus eſt minus ſegmentum ſ
 
 [Diagram: right triangle with vertical side, labelled A, B, D, C, G]
 
-## Corollarium.
+### Corollarium.
 
 Cuius rectæ latus octahedri ſeſquialterum poteſt, eiuſdem latus dodecahedri eidem ſphæræ inſcripti eſt maius ſegmentum. Nam latus dodecahedri eſt maius ſegmentum ſegmenti C G, cuius D latus octahedri potuit ſeſquialterum, hoc eſt, dimidium potentiæ B G, quæ fuit ipſius G C tripla.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
 
 ## Propoſitio decimaoctaua.
 

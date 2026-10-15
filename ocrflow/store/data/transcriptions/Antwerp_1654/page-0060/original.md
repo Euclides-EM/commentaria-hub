@@ -10,6 +10,8 @@ b Per eand.
 
 2. Pars demonſtrabitur in Coroll.2.partis primæ prop.32. Eâ interim non vtemur.
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXII.]
+
 ## PROPOSITIO XXII.
 
 [Curated heading level=2 type=figures: Fig. 40]
@@ -25,6 +27,8 @@ Aſſumatur datarum vna B L, atque vnâ eius extremitate B acceptâ pro centro, 
 Deinde acceptâ pro centro extremitate alrerâ L, interuallo tertiæ L O deſcribatur arcus priorem ſecans in O : ducanturque rectæ B O, L O. Dico factum.
 
 Demonſtratio patet ex conſtructione.
+
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXIII.]
 
 ## PROPOSITIO XXIII.
 

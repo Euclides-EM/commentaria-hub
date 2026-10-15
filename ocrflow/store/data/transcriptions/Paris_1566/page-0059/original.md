@@ -2,6 +2,8 @@
 
 ſint æquales, ea æqualia erunt æquis lateribus comprehenſa, per 36 primi, ſed FB ſub AB AG hoc eſt FA continetur, & PR ſub eadem laterum quantitate: Similiter RP & PB eiſdem FB FR oſtendentur æqualia. Cùm autem æquales ſint AB FK, & GBIK æquales erunt, ſimiliter & reliquæ IN NO OK eidem BG æquales erunt. Angulus autem EIR rectus eſt, Reliquus itaque RIK rectus erit, per 13 primi, ſimiliter & reliqui quadranguli INOK, quod igitur quadratum erit, & ex reliquo ſegmento GB productum. Quod itaque quater ſub AB AG comprehenſum, hoc eſt AK BP PR RF, cum quadrato reliqui ſegmenti GB, hoc eſt INOZ, æquum eſt ei quod fit ex tota AB, & priori ſegmento AG vel BE, ſcilicet ex tota AE quadrato AD. Si igitur recta linea ſeccetur in ſigno, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio nona.]
+
 ## Propoſitio nona.
 
 Si recta linea ſeccetur bifariam, & per inæqualia, quæ ab inæqualibus ſegmentis totius fiunt quadrata, Dupla ſunt eius quod à dimidia, & eius quod ab ea quæ inter ſectiones eſt quadratorum.
@@ -9,6 +11,8 @@ Si recta linea ſeccetur bifariam, & per inæqualia, quæ ab inæqualibus ſegme
 Seccetur bifariam recta AB in G, & inæqualiter in D: Dico quadrata inæqualium AD DB dupla eſſe quadratorum dimidiæ AG, & eius quæ inter ſectiones eſt, ſcilicet GD, ipſi AB, ad ſignum G perpendicularis excitetur GE, quæ quidem æqualis ponatur alteri rectarum AG GB. Coniunctis autem AE, BE, per ſignum D ipſi GB parallela fiat DZ, per Z verò rectæ BG parallela ſit, IZ, per 31 primi, ducta AZ. Quoniam æquales ſunt GA GE GB rectæ, qui ad baſes anguli ſunt æquales, per 5 primi, ſcilicet GAE GEA GEB, Cùm autem AGE rectus ſit, reliqui GEA, GAE dimidij recti huius erunt, per ſecundam partem 32. primi: rectus igitur erit AEB angulus. Cùm enim in parallelas EG ZD cadat BE, anguli DZB & IEZ (per 29. primi) æquales erunt. Similiter & EZI ipſi ZBD, cùm in parallelas GB, IZ cadat BE. Sed eidem ZBD æquus fuit IEZ: itaque bini IZE & IEZ æquales erunt, ſimiliter & reliqui DZB, DBZ. Duo igitur latera trianguli EIZ, ſcilicet IE, IZ æqualia erunt: ſimiliter DZ, DB trianguli ZBD, per 6 primi, æquales verò ſunt IZ & GD, per 34 primi, cùm parallelogrammum ſit ID, per 36 diffinit. primi. Quoniam igitur æquales ſunt AG, GE, quadratum rectæ AE duplum erit quadrati rectæ AG, per 47 primi: ſimiliter quadratum EZ, duplum quadrati IZ ſiue rectæ GD, per eandem: ſed quadratis AE & EZ æquum eſt (per eandem) quadratum rectæ AZ, cùm ſit rectus AEZ oſtenſus. Quadratum itaque AZ duplum eſt quadratorum AG & GD: quadrato autem AZ æqualia ſunt quæ ex AD & DZ, vel DB ſibi æquali, quadrata, per 47. primi, cùm æquus ſit ZDB exterior interiori recto EGB. Ipſa igitur ex AD, DB inæqualibus ſegmentis, dupla ſunt quadratorum ex AG dimidia & GD quæ inter ſectiones eſt. Si itaque recta linea ſeccetur bifariam, & per inæqualia, &c.
 
 [Diagram: triangle AEB with base points G and D, perpendicular EG, point Z on EB, horizontal IZ, vertical ZD, and diagonal AZ]
+
+[Curated heading level=2 type=propositions: Propoſitio decima.]
 
 ## Propoſitio decima.
 

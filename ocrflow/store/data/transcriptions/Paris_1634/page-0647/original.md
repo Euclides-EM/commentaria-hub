@@ -25,6 +25,10 @@ constr. | □lm 2|2 ▭ah,
 constr. | □mn 2|2 ▭gi,
 2 concl. 10.10 | □.om, incōm. □.mp.
 
+[Curated heading level=2 type=propositions: THEOR. XXXVII. PROPOS. LV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXVII. PROPOS. LV.]
+
 ## THEOR. XXVII{printer-error-correction:XXXVII}. PROPOS. LV.
 
 Si spatium contineatur sub rationali, & ex binis nominibus prima; recta linea spatium potens irrationalis est, quæ ex binis nominibus appellatur.

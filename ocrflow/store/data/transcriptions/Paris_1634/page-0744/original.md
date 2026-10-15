@@ -25,6 +25,10 @@ hyp. | ci == eg,
 α. 8.11 | ci ⊥ plan. hgi,
 concl. β. 6.11 | ab == cd.
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. X.]
+
 ## THEOR. X. PROPOS. X.
 
 Si duæ rectæ lineæ se mutuò tangentes, ad duas rectas se mutuò tangentes sint parallelæ, non autem in eodem plano; illæ angulos æquales comprehendent.

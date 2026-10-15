@@ -18,6 +18,8 @@ CAMPANVS. Hæc est conuersa prioris. Nec fecit ex ea & præmissa unam conclusion
 
 [Diagram: two figures: a triangle with apex a and base b c; and two triangles sharing a horizontal side e f, with d at the top and g at the bottom]
 
+[Curated heading level=2 type=theorems: Theorema 5. Propositio 5.]
+
 ## Eucli.ex Zamb. Theorema 5. Propositio 5.
 
 [Curated heading level=3 type=zamberti_sequence: 5.]

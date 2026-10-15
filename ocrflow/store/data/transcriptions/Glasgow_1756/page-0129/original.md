@@ -3,6 +3,10 @@
 
 eſt in circulo ABC. In dato igitur circulo dato triangulo aequiangulum triangulum inſcriptum eſt. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. III. PROB.]
+
+[Curated heading level=2 type=problems: PROP. III. PROB.]
+
 ## PROP. III. PROB.
 
 {dropcap:C|lines=2|style=plain}IRCA datum circulum triangulo dato aequiangulum triangulum circumſcribere.

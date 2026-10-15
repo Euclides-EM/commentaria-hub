@@ -32,6 +32,8 @@ Illa igitur rationalium vel irrationalium, seu cōmensurabilium & incōmensurabi
 
 [Curated heading level=3 type=numbered_item: 3.]
 
+[Curated heading level=2 type=definitions: Diffinitio 3.]
+
 3 Ratio est duarum magnitudinum eiusdem generis aliquatenus adinuicem quædam habitudo.
 
 Sola enim vniuoca veniunt inter sese comparanda, vtpote, numerus numero, linea lineæ, superficies superficiei, solidum solido, sonus sono, tēpus tempori, velocitas velocitati, & quę sunt huiuscemodi. Inter ea enim quę diuersorum sunt generum, nulla videtur accidere comparatio.

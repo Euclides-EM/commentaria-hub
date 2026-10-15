@@ -5,6 +5,8 @@
 
 <!-- Running title: DEFINITIONS. -->
 
+[Curated heading level=2 type=definitions: DEFINITION IV.]
+
 ### IV.
 
 Deux grandeurs ſont dites *avoir une raiſon l'une à l'autre*; lorſqu'il eſt poſſible, qu'un multiple de la plus petite, égale ou ſurpaſſe la plus grande.
@@ -18,6 +20,8 @@ Deux grandeurs ſont dites *avoir une raiſon l'une à l'autre*; lorſqu'il eſt
 [Curated heading level=4 type=numbered_item: §. 2.]
 
 *§. 2. En vertu de cette définition, il n'y a point de raiſon entre une grandeur finie & une infinie, encore qu'on les ſuppoſe de même genre. Car une grandeur conçue infinie, eſt conçue ſans limites; par conſéquent une grandeur finie répétée tant de fois que l'on voudra, (pourvû que le nombre des répétitions ſoit déterminé) ne peut jamais parvenir, ni à égaler, ni à ſurpaſſer une telle grandeur infinie.*
+
+[Curated heading level=2 type=definitions: DEFINITION V.]
 
 ### V.
 

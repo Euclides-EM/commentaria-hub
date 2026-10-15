@@ -11,6 +11,10 @@ chercher par le problême cité l’angle que deux de ces plans font entre eux, 
 
 *Dans l’icosaèdre.* Formez un angle solide avec deux angles de triangles équilatéraux et un angle de pentagone régulier, l’inclinaison des deux plans où sont les angles des triangles sera celle de deux faces adjacentes de l’icosaèdre.
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. PROBLÊME.]
+
+[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION IV.]
+
 ## PROPOSITION IV.
 
 ### PROBLÊME.

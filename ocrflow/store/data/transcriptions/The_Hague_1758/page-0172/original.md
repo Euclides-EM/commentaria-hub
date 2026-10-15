@@ -3,6 +3,10 @@
 
 [Figure: pentagon ABDEF with inscribed circle, centre C, points of contact G, H, I, K, L, with dotted lines from C to the angles and perpendiculars to the sides]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. PROBLEME XIII.]
+
+[Curated heading level=2 type=problems: PROBLEME XIII. PROPOSITION XIII.]
+
 ## PROPOSITION XIII. PROBLEME XIII.
 
 {dropcap:I|lines=2|style=plain}Nſcrire dans un pentagone équilatéral & équiangle (ABDEF); un cercle (GHIKL).

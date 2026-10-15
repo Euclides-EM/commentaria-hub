@@ -22,6 +22,8 @@ CONVERSVM quoque huius theorematis ita oſtendemus. In triangulo ABC, quadratum 
 
 [Curated heading level=2 type=campanus: 13]
 
+[Curated heading level=2 type=theorems: THEOR. 12. PROPOS. 13.]
+
 ## THEOR. 12. PROPOS. 13.
 
 [Curated heading level=3 type=incipit: IN]

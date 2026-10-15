@@ -1,5 +1,9 @@
 <!-- Running title: GEOMET. ELEMENT. -->
 
+[Curated heading level=2 type=propositions: Theorema 32, Propositio 43.]
+
+[Curated heading level=2 type=theorems: Theorema 32, Propositio 43.]
+
 ## Θεώρημα λβ, Πρόθεσις μγ.
 
 ΠΑντὸς παραλληλογράμμου τῶν περὶ τὴν διάμετρον παραλληλογράμμων τὰ παραπληρώματα, ἴσα ἀλλήλοις ὅτι.
@@ -15,6 +19,10 @@ Parallelogrãma circa dimetientem. Supplemẽta.
 [/Margin]
 
 [Diagram: a g b e k f c h d]
+
+[Curated heading level=2 type=propositions: Problema 12, Propositio 44.]
+
+[Curated heading level=2 type=problems: Problema 12, Propositio 44.]
 
 ## Πρόβλημα ιβ, Πρόθεσις μδ.
 

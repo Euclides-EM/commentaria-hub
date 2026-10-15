@@ -3,6 +3,10 @@
 
 [Figure: triangle with apex A; points C and E on side AC, dotted lines from B and D through C and E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. PROBLEME III.]
+
+[Curated heading level=2 type=problems: PROBLEME III. PROPOSITION XI.]
+
 ## PROPOSITION XI. *PROBLEME III.*
 
 {dropcap:T|lines=2|style=plain}Rouver une troiſième proportionelle (CE) à deux lignes droites données (AB, AC).

@@ -3,6 +3,8 @@
 
 numeris ac arithmeticis diſcretionibus elucidantur. Idcirco videmus partes æquè ſumi totum excedentes, vt à toto deficiëtes, hoc veluti Theonis exemplo, partem verò ſemper toto minorem, haud ſecus quàm ſimplex actio multiplice minor exiſtit.
 
+[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
+
 ## Propoſitio decimatertia.
 
 Si quatuor numeri proportionales fuerint, & viciſsim proportionales erunt.
@@ -10,6 +12,8 @@ Si quatuor numeri proportionales fuerint, & viciſsim proportionales erunt.
 Sint quatuor numeri A ad B, vt G ad D proportionales: Dico eos vicißim A ad G, vt B ad D proportionales eſſe, quoniam proportionales ſunt A ad B, vt G ad D, æquemultiplex erit A minoris B, vt G ipſius D, ſiue eadem pars vel partes fuerint, per 21 diffinitionē huius. Si autem A ipſius B pars fuerit, & alter G, alterius D eadem pars vel partes, & vicißim (per 9 & 10 huius) qualis pars vel partes eſt A primus G tertij, eadem pars vel partes erit ſecūdus B quarti D. Et proinde (per 21 diffinitionem huius) proportionales erunt A ad G, vt B ad D. Si itaque quatuor numeri proportionales fuerint, & vicißim proportionales erunt, &c.
 
 [Diagram: four horizontal lines labelled B, A, D and G, marked with the numbers 4, 12, 3 and 9]
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
 
 ## Propoſitio decimaquarta.
 
@@ -19,9 +23,11 @@ Sint quotcunque numeri A B G, & alij D E Z ipſis æquales numero, quiquidem ſi
 
 [Diagram: six horizontal lines labelled D, E, Z, A, B and G, marked with the numbers 8, 6, 4, 12, 9 and 6]
 
-## MONITVM.
+### MONITVM.
 
 Iam antea ſæpius diximus quaſcunque diſcretarum magnitudinum rationes, inter cōtinuas cadere poſſe, non autem è conuerſo, quaſuis ſcilicet continuarum rationes, inter diſcretas cadere. Quare Euclides his prioribus theorematis eas rationes quas inter diſcretas quantitates oriri depromit, à multiplicatione, qua antecedēs ſumit conſequens, deduci iubet. Nam 21 diffinitione, numeros proportionales æquemultiplices eſſe dixit. Quarto verò theoremate & ſex illud ſequentibus, idem inter ſimiles partes quod & inter ſimiles rationes accidere profert. Vndecimo autem & tribus ſequen tibus, numerorum inter ſe rationū, à partium ſimilitudine (per 21 diffinitionem) naſci exponit: quæ quidem partes ſimiles ab æqua multiplicationis denominatione productæ, numerorū proportionem producunt, licet per augmentum multiplicatæ maius multiplex, vel per decrementum minus multiplex (quod partes vocant) educant: quare affinitas illa quæ ratio inter magnitudines dicitur, nihil aliud erit, quàm ea multiplicationis denominatio, qua antecedens multoties ſumit conſequentis augmentum vel decrementum. Id equidem voluit numeris exponere Euclides, cùm per continuas diſcernere non potuerit quātitates, eò quòd continuæ vel geometricæ multiplicationem, velut diſcretæ & arithmeticæ non ſuſcipiunt.
+
+[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
 
 ## Propoſitio decimaquinta.
 

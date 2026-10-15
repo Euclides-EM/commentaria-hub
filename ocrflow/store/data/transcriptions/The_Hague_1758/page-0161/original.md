@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, at left a triangle KHL on a horizontal line through M, H, L, N; at right a circle with centre C and points E, F, G, circumscribed by triangle ABD with a dotted line from F to E]
 
+[Curated heading level=2 type=propositions: PROPOSITION III. PROBLEME III.]
+
+[Curated heading level=2 type=problems: PROBLEME III. PROPOSITION III.]
+
 ## PROPOSITION III. *PROBLEME III.*
 
 {dropcap:C|lines=2|style=plain}Irconſcrire à un cercle donné (EFG) un triangle (ABD), qui ſoit équiangle à un triangle donné (HKL).

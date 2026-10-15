@@ -4,6 +4,8 @@
 
 rus c diuidatur in duos non quadratos qui sunt d &c{printer-error-correction:d & e} Cætera omnia negotianda sunt hic ex diffinitione binomij quarti,sicut ibi ex diffinitione binomij primi.
 
+[Curated heading level=2 type=problems: Problema 16 Propositio 51]
+
 ## Eucli.ex Zāb. Problema 16 Propositio 51
 
 [Curated heading level=3 type=zamberti_sequence: 51.]
@@ -31,6 +33,8 @@ THEON ex Zamb. Exponātur bini numeri α γ,γ β,ut α β,ad utrūq̃ ipsorum r
 CAMPANVS Huius inuentio sic est sicut binomij secundi exeepto{printer-error-correction:excepto} quod numerus c non quadratus diuidetur in d non quadratū & e quadratū , ita tamē quod proportio c ad d,nō sit sicut numeri quadrati ad numerū quadratū. Cætera omnia sunt hic perquirenda ex diffinitione binomij quinti,sicut ibi quæsita sunt ex diffinitione binomij secundi. Vel pone quod linea g h sit communicans lineæ à rationali positæ in longitudine,& pone numerum c quadratum diuisum in duos non quadratos qui sunt d & e. Pone itaq̃ proportionem quadrati lineæ g h ad quadratum f g,sicut numeri e ad numerum c,deinde astrue propositum ex ultima parte 7,& præsentibus hypothesibus & cōuersa & euersa proportionibus 7.& iterū ex ultima parte 7.& diffinitione binomij quinti.
 
 [Diagram: at the right — a dotted line b; the label c 24 over a dotted line divided into parts d and e; a semicircle f b g on diameter f g with b on the arc and chords f b and b g; a solid line a; a second semicircle f b g with chords; a short solid line a with the figures 10 10 beneath it, and below them the row: 2 & med. 1]
+
+[Curated heading level=2 type=problems: Problema 17 Propositio 52]
 
 ## Eucli.ex Zamb. Problema 17 Problema 52{printer-error-correction:Propositio 52}
 

@@ -4,6 +4,10 @@
 
 BC√√ (972√405): donc la toute AC ſera √√ (972+√ aoi. au quarré de laquelle ſoit egal le rectangle DH, appliqué ſur la rationele DE 6: l’autre coſtè DI ſera donc √27+√11Z: mais eſtant appliquè ſur la meſme rationele, le rect. IK egal au quarré de BC, qui eſt √972—√40s, l’autre coſté IL ſera √27—V11Z: & partant la toute DL ſera √10B: Si derechef on applique ſur la meſme rationele le rectangle MK, ouGN, egal au rectangle de ACB, qui eſt √567 l’autre coſte GM ſera √16e, & ſon double √63: parquoy DG ſera v108—√63. qui eſt reſidu ſixieſme.
 
+[Curated heading level=2 type=propositions: THEOR. 80. PROP. CIIII. Six. 6.]
+
+[Curated heading level=2 type=theorems: THEOR. 80. PROP. CIIII. Six. 6.]
+
 ## THEOR. 80. PROP. CIIII. Six. 6.
 
 La ligne commenſurable en longitude à vn reſidu, eſt auſſi reſidu, & de meſme ordre.

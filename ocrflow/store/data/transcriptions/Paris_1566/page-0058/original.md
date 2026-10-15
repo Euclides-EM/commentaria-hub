@@ -3,6 +3,8 @@
 
 quadratumque ſit GZ, reliqua BG reliquæ MZ æqualis erit, & proinde oppoſitæ EL eiſdem ac TL æquales (per 34 primi) erunt. Quadrata igitur erunt BM LI per eandem, cùm angulos D & E rectos habeant ex hypotheſi, Atque rectangula TZ TG ſub eorundem quadratorum lateribus comprehenſa, æqualia erunt adinuicem. Sed ipſi GT æquale eſt (per 36 primi) AL, igitur reliquo TZ æquabitur idem AL. Commune addatur GM, tum erit æquale rectangulum AM gnomoni GM MI. Vtriſque, porrò addatur commune quadratum ex GB, hoc eſt LI ex LT, ipſi GB æquali, factum, Rectangulum AM ſub tota AB cum appoſita BD, & appoſita BD, hoc eſt DM comprehenſum, vnà cum quadrato LI, ex GB, æquum erit quadrato GZ, quod fit à dimidia GB & BD appoſita, tanquam ex vna deſcripto. Si itaque recta linea bifariam ſeccetur, adiiciaturque ex alia recta, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
+
 ## Propoſitio ſeptima.
 
 Si recta linea ſeccetur in ſigno, quæ ex tota & quouis ſegmentorum coniuncta ſunt quadrata, æqualia ſunt rectangulo bis comprehenſo ſub tota & dicto ſegmento, & ei quod à reliquo ſegmento fit quadrato.
@@ -11,11 +13,13 @@ Seccetur recta AB in ſigno G: Dico quòd ex tota AB & quouis ſegmentorum BG ſ
 
 [Diagram: square labelled B, G, A across the top, Z and I on the middle horizontal, E, C, D across the bottom, and F on the right side, with diagonal BD]
 
-## Corollarium.
+### Corollarium.
 
 Duarum inæqualium linearum quadrata, excedunt rectangula bis ſub ipſis contenta, quadrato exceſſus quo maior excedit minorem.
 
 Nam ſi AB ſit maior, BG verò minor, patet quadrata ex AB BG æqualia eſſe rectangulo bis ſub AB BG contento, & inſuper quadrato ipſius AG exceſſus quo AB excedit minorem BG.
+
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
 
 ## Propoſitio octaua.
 

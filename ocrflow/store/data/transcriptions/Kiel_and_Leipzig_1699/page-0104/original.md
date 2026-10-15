@@ -2,6 +2,8 @@
 
 <!-- Page number: 87 -->
 
+[Curated heading level=1 type=propositions: Das II. Buch]
+
 # Das II. Buch Euclidis.
 
 ## Vorbericht.

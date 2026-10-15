@@ -3,6 +3,10 @@
 
 conservant la base commune AB, il faudra que la ligne courbe AEB tombe exactement sur la ligne courbe ADB, sans quoi il y auroit dans l’une ou l’autre des points inégalement éloignés du centre, ce qui est contre la définition du cercle.
 
+[Curated heading level=2 type=propositions: PROPOSITION II. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION II.]
+
 ## PROPOSITION II.
 
 ### THÉORÊME.
@@ -14,6 +18,10 @@ Car si aux extrémités de la corde AD on mene les rayons AC, CD, on aura AD < A
 [Curated heading level=4: Corollaire.]
 
 *Corollaire.* Donc la plus grande ligne droite qu’on puisse inscrire dans un cercle est égale à son diametre.
+
+[Curated heading level=2 type=propositions: PROPOSITION III. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION III.]
 
 ## PROPOSITION III.
 
@@ -27,6 +35,10 @@ Car si elle la rencontroit en trois, ces trois points seroient également distan
 *Pr. 16,
 Liv. 1.
 [/Margin]
+
+[Curated heading level=2 type=propositions: PROPOSITION IV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IV.]
 
 ## PROPOSITION IV.
 

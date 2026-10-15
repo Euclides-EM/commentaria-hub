@@ -30,6 +30,8 @@ CAMPANVS. Sint duæ lineæ a b & c d æquidistantes, inter quas fiat a c f e sup
 
 [Diagram: third case — parallelograms on base c e with c g meeting a b between f and b, intersection point k on line f e; letters a, f, g, h, b above, c, e, d below]
 
+[Curated heading level=2 type=theorems: Theorema 25. Propositio 35.]
+
 ## Eucli. ex Zamb. Theorema 25. Propositio 35.
 
 [Curated heading level=3 type=zamberti_sequence: 35.]

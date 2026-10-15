@@ -35,6 +35,8 @@ RVRSVS ſit triangulum ſcalenum A B C, cuius latus maximũ B C, minimum A B. Ex
 
 [Curated heading level=2 type=campanus: 22]
 
+[Curated heading level=2 type=problems: PROBL. 8. PROPOS. 22.]
+
 ## PROBL. 8. PROPOS. 22.
 
 [Margin]

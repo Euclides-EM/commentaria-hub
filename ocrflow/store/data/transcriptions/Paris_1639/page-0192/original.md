@@ -6,6 +6,10 @@ equiangle sont diuisez chacun en deux parties égales, & du poinct où se rencon
 
 Par la mesme methode en toute figure equilaterale & equiangle se descrira le cercle.
 
+[Curated heading level=2 type=propositions: PROBL. XIV. PROPOS. XIV.]
+
+[Curated heading level=2 type=problems: PROBL. XIV. PROPOS. XIV.]
+
 ## PROBL. XIV. PROPOS. XIV.
 
 A l'entour d'vn pentagone donné, equilateral & equiangle, descrire vn cercle.

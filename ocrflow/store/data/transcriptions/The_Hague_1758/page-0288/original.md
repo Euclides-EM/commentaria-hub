@@ -3,6 +3,10 @@
 
 [Figure: parallelogram A, B, D, C with points E, M on the top side, F, N on the bottom side, dotted line HI crossing at K and G, and dotted diagonal from E through G to B]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVII. THEOREME XX.]
+
+[Curated heading level=2 type=theorems: THEOREME XX. PROPOSITION XXVII.]
+
 ## PROPOSITION XXVII. THEOREME XX.
 
 {dropcap:D|lines=2|style=plain}E tous les Parallélogrammes (AG) appliqués ſelon une même ligne droite (AB), & défaillans de Parallélogrammes (NI) ſemblables & ſemblablement poſés, à un autre Parallélogramme (FD) décrit de la moitié (FB) de la ligne entière (AB); Le plus grand eſt le Parallélogramme (AE) appliqué à l'autre moitié (AF), & ſemblable à ſon défaut (FD).

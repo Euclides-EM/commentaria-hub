@@ -15,6 +15,10 @@ d. Ax. 7.
 
 ergo triangulum ABC triangulo DBC eſt aequale. Triangula igitur ſuper eadem baſi &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXXVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXVIII. THEOR.]
+
 ## PROP. XXXVIII. THEOR.
 
 {dropcap:T|lines=2|style=plain}RIANGULA ſuper baſibus aequalibus, et in eiſdem parallelis conſtituta, inter ſe ſunt aequalia.

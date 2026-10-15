@@ -1,6 +1,10 @@
 <!-- Page number: 164 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. XXII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXII. THEOR.]
+
 ## PROP. XXII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint quotcunque magnitudines, et aliae ipſis numero aequales, quae binae ſumantur in eadem ratione; et ex aequali in eadem ratione erunt.

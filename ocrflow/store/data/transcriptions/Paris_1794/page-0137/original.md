@@ -1,6 +1,12 @@
 <!-- Running title: LIVRE IV. -->
 <!-- Page number: 109 -->
 
+[Curated heading level=1 type=problems: Livre IV]
+
+[Curated heading level=2 type=propositions: PROPOSITION III. PROBLÊME.]
+
+[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION III.]
+
 ## PROPOSITION III.
 
 ### PROBLÊME.
@@ -20,6 +26,10 @@ Tirez deux diametres AC, BD, qui se coupent à angles droits ; joignez les extr�
 [Margin]
 * 11. 3.
 [/Margin]
+
+[Curated heading level=2 type=propositions: PROPOSITION IV. PROBLÊME.]
+
+[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION IV.]
 
 ## PROPOSITION IV.
 

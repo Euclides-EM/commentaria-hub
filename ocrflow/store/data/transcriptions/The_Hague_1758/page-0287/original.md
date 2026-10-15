@@ -3,6 +3,10 @@
 
 [Figure: parallelogram A, B, C, D with diagonal BD, inner parallelogram with points F, G, E, and dotted line from I to H on the diagonal]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVI. THEOREME XIX.]
+
+[Curated heading level=2 type=theorems: THEOREME XIX. PROPOSITION XXVI.]
+
 ## PROPOSITION XXVI. THEOREME XIX.
 
 {dropcap:S|lines=2|style=plain}I d'un Parallélogramme (AC) on retranche un Parallélogramme (FG), ſemblable & ſemblablement poſé au Parallélogramme entier (AC), ayant un angle (FBG) commun avec lui: le Parallélogramme (FG) eſt placé alentour de la diagonale (BD) du Parallélogramme entier (AC).

@@ -4,6 +4,8 @@
 
 f & b f, eritq̃ per præmissam angulus f consistens supra centrum, ad unumquēq̃ eorū duplus. Quare ipsi sunt æquales, quod est propositum.
 
+[Curated heading level=2 type=theorems: Theorema 19. Propositio 21.]
+
 ## Eucli.ex Zamb. Theorema 19. Propositio 21.
 
 [Curated heading level=3 type=zamberti_sequence: 21.]
@@ -31,6 +33,8 @@ SI intra circulū quadrilaterum describatur, quoslibet eius duos angulos ex adue
 CAMPANVS. Sit quadrilaterū a b c d, inscriptum circulo a b c d. Dico quosq̃ duos angulos oppositos, esse æquales duobus rectis. Protrahantur in quadrilatero, diametri a c, b d, eritque per præmissam, angulus c b d æqualis angulo c a d, & angulus a b d æqualis angulo a c d, quare totus a b c, æqualis erit duobus angulis qui sunt a c d, & c a d. Et quia ipsi cum angulo a d c sunt æquales duobus rectis per 32 primi, erunt & anguli b totalis & d, totalis, æquales duobus rectis, quod est propositum. Similiter quoque probabo angulos a & c totales, æquales duobus rectis.
 
 [Diagram: quadrilateral a b c d inscribed in a circle, with d and c at the top and a and b below; both diagonals are drawn]
+
+[Curated heading level=2 type=theorems: Theorema 20 Propositio 22.]
 
 ## Eucli.ex Zamb. Theorema 20 Propositio 22.
 

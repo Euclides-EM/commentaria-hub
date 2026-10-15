@@ -18,6 +18,10 @@ Tertia pars.
 
 [Diagram: c h / a b f g m n]
 
+[Curated heading level=2 type=propositions: Theorema 15, Propositio 21.]
+
+[Curated heading level=2 type=theorems: Theorema 15, Propositio 21.]
+
 ## Θεώρημα ιε, Πρόθεσις κα.
 ΤΑ τῷ αὐτῷ εὐθυγράμμῳ ὅμοια καὶ ἀλλήλοις ἐστὶν ὅμοια.
 

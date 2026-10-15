@@ -6,11 +6,11 @@ inſuper T ad rectos excitetur plano E Z I T, recta T K, per duodecimã vndecimi
 
 [Figure: circle with inscribed triangle and pyramid E Z I K, centre T, with points K, E, F, L and lines drawn between the vertices]
 
-## Corollarium primum.
+### Corollarium primum.
 
 Dimetiens Sphæræ quadruplum ſeſquialterum poteſt eius quæ ex centro circuli baſim Pyramidis continentis. Cùm oſtenſum ſit dimetientem K L ſeſquialterum poſſe lateris E Z & oſtenſum ſit inſuper latus E Z triplum poſſe eius T E (quæ ex centro circuli) triangulũ E Z I ambientis, ex 12 huius, relinquetur oſtenſum (per quintam diffinitionẽ ſexti) rationem K L & T E extremarũ, ex quantitatibus rationum mediarũ ſcilicet 1½ per 3 inter ſe multiplicatarum 4½ componere, quæ eſt ipſius A B ad T E ratio quadrupla ſeſquialtera potentia.
 
-## Corollarium ſecundum.
+### Corollarium ſecundum.
 
 Et inſuper ab angulo Pyramidis per centrum Sphæræ in baſim oppoſitam demiſſa, ipſi baſi
 

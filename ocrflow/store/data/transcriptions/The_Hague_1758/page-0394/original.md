@@ -3,6 +3,10 @@
 
 [Figure: two cylinders, each containing an inscribed cone; the larger labelled N, E, O, L, P, M, B, C, A; the smaller labelled I, F, K, G, D, H]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV. THEOREME XIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XIV. PROPOSITION XIV.]
+
 ## PROPOSITION XIV. THEOREME XIV.
 
 {dropcap:L|lines=2|style=plain}Es cylindres (NOAB & IKHG), & les cones (BEA & GFH) qui ont des bazes égales (BA & GH): ſont entr'eux comme leurs hauteurs (CE & DF).

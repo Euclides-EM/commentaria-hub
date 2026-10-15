@@ -45,6 +45,10 @@ s.46.3 | cd est 5,
 1.concl. 2.a.1 | ad est 18,
 2.concl. 3.a.1 | db est 8.
 
+[Curated heading level=2 type=propositions: PROBL. IX. PROPOS. XXIX.]
+
+[Curated heading level=2 type=problems: PROBL. IX. PROPOS. XXIX.]
+
 ## PROBL. IX. PROPOS. XXIX.
 
 Ad datam rectam lineam, dato rectilineo æquale parallelogrammum applicare, excedens figura pa-

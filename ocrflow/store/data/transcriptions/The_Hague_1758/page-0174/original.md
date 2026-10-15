@@ -3,6 +3,10 @@
 
 [Figure: hexagon ABDEFG inscribed in a circle with centre C, with diameter AE and lines drawn between the vertices]
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. PROBLEME XV.]
+
+[Curated heading level=2 type=problems: PROBLEME XV. PROPOSITION XV.]
+
 ## PROPOSITION XV. PROBLEME XV.
 
 {dropcap:I|lines=2|style=plain}Nſcrire un Hexagone (ABDEFG) équilatéral & équiangle ; dans un cercle donné (BEG).

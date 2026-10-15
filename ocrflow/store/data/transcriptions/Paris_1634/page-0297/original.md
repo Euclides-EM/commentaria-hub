@@ -3,6 +3,10 @@
 β.cōstr | ik 3|2 hg & ik 2|3 hf,
 2.concl. 8.d.5 | raō. d π c 3|2 raō. d π ab.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. IX.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. IX.]
+
 ## THEOR. IX. PROPOS. IX.
 
 Quæ ad eandem, eandem habent rationem, æquales sunt inter se : Et ad quas eadem eandem habet rationem, eæ quoque sunt inter se æquales.
@@ -38,6 +42,10 @@ Demonstr.
 suppos. | a 3|2 b,
 8.5 | c π b 3|2 c π a,
 | contr. hyp.
+
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. X.]
 
 ## THEOR. X. PROPOS. X.
 

@@ -8,6 +8,10 @@ Hinc sequitur, conos & cylindros eiusdem altitudinis super eandem vel æquales b
 
 *D'où il s'ensuit que les cones & cylindres constituez sur mesme base, ou bases egales, & de mesme hauteur sont egaux: & au contraire les cones & cylindres egaux constituez sur mesme base, ou sur egales, sont de mesme hauteur: Et les cones & cylindres egaux de mesme hauteur sont außi sur bases egales ou vne mesme.*
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XII.]
+
 ## THEOR. XII. PROPOS. XII.
 
 Similes coni & cylindri, in triplicata ratione sunt diametrorum quæ in basibus.

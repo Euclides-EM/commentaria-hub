@@ -8,6 +8,10 @@ Ie dis d’auantage qu’iceluy octaedre eſt inſcriptible en la ſphere donnee
 
 Finablement il eſt euident par la 47. p.1. que le quarré du diametre de la ſphere AH ou LK, eſt egal aux deux quarrez de LD, DK, leſquels ſont egaux; & partant iceluy quarré de LK diametre de la ſphere, ſera double du quarré de l’vn d’iceux coſtez de l’octaedre. Ce qu’il falloit demonſtrer.
 
+[Curated heading level=2 type=propositions: PROB. 3. PROP. XV.]
+
+[Curated heading level=2 type=problems: PROB. 3. PROP. XV.]
+
 ## PROB. 3. PROP. XV.
 
 Dans la ſphere donnee, inſcrire vn cube: & monſtrer que le quarré du diametre de la ſphere, eſt triple au quarré du coſté d’iceluy cube.

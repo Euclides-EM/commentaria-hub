@@ -4,6 +4,10 @@
 
 Autrement du poinct A on en pourra mener vne autre qui ſera parallelle à BC (ſi ADne l’eſt) par la 31.p.1.Laquelle tombera, ou bien au deſſus de AD, ou au deſſous; qu’elle tombe premierement au deſſus, & ſoit icelle AE, s’il eſt poſſible: & apres auoir continué BD iuſques en E, &mené EC. Les deux triãgles BAC, & BEC par la 37.p.1. eſtans ſur meſme baſe, & entre meſmes parallelles ſeront egaux. Mais par l’hypotheſe BAC, & BDC ſont auſſi egaux; partant BEC, & BDC ſeroiet auſſi egaux, la partie au tout; donc AE parallele ne pouuoit tomber par deſſus AD. Le meſme inconuenient s’enſuiura ſi on poſe la parallelle AFau deſſous de AD: car ayant mené CF; il fenſuiura que les triangles BFC, & BDC ſont egaux, ce qui ne peut eſtre: Donc du point A on ne menera point d’autre ligne que AD parallelle à BC.
 
+[Curated heading level=2 type=propositions: THEOR. 30. PROP. XL.]
+
+[Curated heading level=2 type=theorems: THEOR. 30. PROP. XL.]
+
 ## THEOR. 30. PROP. XL.
 
 Les triãgles egaux conſtituez ſurbaſes egalles, & de meſme part, ſont auſſi entre meſmes paratlelles.

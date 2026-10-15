@@ -32,6 +32,10 @@ lo ▭.to, os, est ratio.
 
 concl. 78.10 | ts, est ——, fa. rat. & med.
 
+[Curated heading level=2 type=propositions: THEOR. LXXIII. PROPOS. XCVII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXXIII. PROPOS. XCVII.]
+
 ## THEOR. LXXIII. PROPOS. XCVII.
 
 Si spatium contineatur sub rationali, & apotoma sexta; recta linea spatium potens, est quæ cum medio medium totum efficit.

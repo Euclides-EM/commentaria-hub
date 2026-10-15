@@ -9,6 +9,8 @@ culi EBD, erit recta EC, rectæ BC, æqualis. Rurſus quia C, centrum quoque pon
 
 [Curated heading level=2 type=campanus: 6]
 
+[Curated heading level=2 type=theorems: THEOR. 5. PROPOS. 6.]
+
 ## THEOR. 5. PROPOS. 6.
 
 [Curated heading level=3 type=incipit: SI]
@@ -28,6 +30,8 @@ EVCLIDES propoſuit theorema hoc de circulis ſeſe interius tangentibus duntaxa
 [/Margin]
 
 [Curated heading level=2 type=campanus: 7]
+
+[Curated heading level=2 type=theorems: THEOR. 6. PROPOS. 7.]
 
 ## THEOR. 6. PROPOS. 7.
 

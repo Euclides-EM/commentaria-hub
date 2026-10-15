@@ -6,6 +6,8 @@
 
 [Diagram: dotted number-lines at right: a . . . . . . . . . e . . . . . b; c . . . . . f . . . d; g . . . .]
 
+[Curated heading level=2 type=problems: Problema 1 Propositio 2]
+
 ## Eucli.ex Zamb. Problema 1 Propositio 2
 
 [Curated heading level=3 type=zamberti_sequence: 2.]

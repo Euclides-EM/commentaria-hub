@@ -8,6 +8,8 @@ dam lineam a b parallelogrammū simile d: & sit ita conditionatum quod triangulu
 small marks in the right margin beside the middle of the paragraph and in the left margin further down
 [/Handwritten]
 
+[Curated heading level=2 type=problems: Problema 8 Propositio 28]
+
 ## Eucli. ex Zamb. Problema 8 Propositio 28
 
 [Curated heading level=3 type=zamberti_sequence: 28.]

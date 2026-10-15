@@ -19,6 +19,10 @@ oſtenſa eſt autem FC aequalis GB; duae igitur BF, FC duabus CG, GB aequales �
 
 COR. Hinc omne triangulum aequilaterum eſt quoque aequiangulum.
 
+[Curated heading level=2 type=propositions: PROP. VI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VI. THEOR.]
+
 ## PROP. VI. THEOR.
 
 [Subhead]

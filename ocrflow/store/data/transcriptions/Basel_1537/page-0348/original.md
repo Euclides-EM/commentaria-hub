@@ -20,6 +20,8 @@ CAMPANVS Vult autem per hanc 106, quod residuum, & aliæ quinque lineæ irration
 
 [Diagram: a short vertical segment labelled a; to its right a square with bottom corners b (left) and c (right), whose right side is extended upward through the top right corner d to the point g]
 
+[Curated heading level=2 type=theorems: Theorema 87 Propositio 111]
+
 ## Eucli.ex Zamb. Theorema 87 Propositio 111
 
 [Curated heading level=3 type=zamberti_sequence: 111.]

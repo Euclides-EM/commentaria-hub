@@ -18,6 +18,8 @@ CAMPANVS. Sit pyramis a b c d super basin triangulam b c d, eiusq̃ uertex solid
 
 [Diagram: pyramid a b c d drawn as inverted triangle — b at upper left, e at top middle, d at upper right, c at bottom; apex a in the centre with inner points h, l (upper), f, g (sides), k (lower); hypotenusae and dividing lines showing the two pyramids and two seratilia]
 
+[Curated heading level=2 type=theorems: Theorema 3 Propositio 3]
+
 ## Eucli. ex Zamb. Theorema 3 Propositio 3
 
 [Curated heading level=3 type=zamberti_sequence: 3.]

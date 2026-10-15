@@ -20,6 +20,8 @@ CAMPANVS. Sint duæ lineæ a b & d c æquidistantes, de quibus constat per diffi
 
 [Diagram: two horizontal parallels b a (with e upon it) and d c (with f upon it); between e and f a straight line and a curved line forming a lens]
 
+[Curated heading level=2 type=theorems: Theorema 7 Propositio 7]
+
 ## Eucli. ex Zamb. Theorema 7 Propositio 7
 
 [Curated heading level=3 type=zamberti_sequence: 7.]

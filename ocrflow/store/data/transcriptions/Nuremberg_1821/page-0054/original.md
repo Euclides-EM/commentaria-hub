@@ -2,6 +2,10 @@
 
 Zahl m, d. h. m mal entweder ganz genau enthalten, (d. h. A iſt ein Vielfaches von C, nemlich A=mC,) oder C iſt mehrere mal und noch ein Theil n von C in A enthalten, d. h. es iſt A=mC+nC. Nun iſt offenbar mC+C größer als mC oder als A. Da aber das ganze C größer iſt als ein Theil deſſelben, (9 Grdſ.) ſo iſt das m fache von C nebſt C, d. h. mC+C auch größer als mC+nC, und wenn alſo mC+nC=A, ſo iſt wiederum mC+C oder (m+1)C größer als A.
 
+[Curated heading level=2 type=propositions: Sechs und dreißigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: Sechs und dreißigſter Satz. Lehrſatz.]
+
 ## Sechs und dreißigſter Satz. Lehrſatz.
 
 (Fig. 16.)

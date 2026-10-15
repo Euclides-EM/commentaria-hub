@@ -4,6 +4,8 @@
 
 [Curated heading level=2 type=campanus: 9]
 
+[Curated heading level=2 type=theorems: THEOR. 8. PROPOS. 9.]
+
 ## THEOR. 8. PROPOS. 9.
 
 [Margin]

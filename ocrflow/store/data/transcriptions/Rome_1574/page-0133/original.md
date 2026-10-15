@@ -30,6 +30,8 @@ VARIOS etiam poſſe caſus eſſe in hoc problemate, nemõ ignorat, cum duæ li
 
 [Curated heading level=2 type=campanus: 4]
 
+[Curated heading level=2 type=theorems: THEOREMA 1. PROPOS. 4.]
+
 ## THEOREMA 1. PROPOS. 4.
 
 [Margin]

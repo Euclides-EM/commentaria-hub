@@ -2,6 +2,10 @@
 
 <!-- Page number: 123 -->
 
+[Curated heading level=2 type=propositions: Theorema 10, Propositio 10.]
+
+[Curated heading level=2 type=theorems: Theorema 10, Propositio 10.]
+
 ## Θεώρημα ι, Πρόθεσις ι.
 
 Των πρὸς τὸ αὐτὸ λόγον ἐχόντων, τὸ τὸν μείζονα λόγον ἔχον, ἐκεῖνο μεῖζόν ἐστι: πρὸς ὃ δὲ τὸ αὐτὸ μείζονα λόγον ἔχῃ, ἐκεῖνο ἔλαττόν ἐστιν.
@@ -25,6 +29,10 @@ Partis secundæ demōstratio.
 [/Margin]
 
 [Diagram: b a / c]
+
+[Curated heading level=2 type=propositions: Theorema 11, Propositio 11.]
+
+[Curated heading level=2 type=theorems: Theorema 11, Propositio 11.]
 
 ## Θεώρημα ια, Πρόθεσις ια.
 

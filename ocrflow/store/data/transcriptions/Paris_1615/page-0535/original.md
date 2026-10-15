@@ -4,6 +4,10 @@
 
 les trois qui font l’angle ſolide A, vallent ſix droicts, par la 32.p.1. (Car ce ſont les angles de trois triangles plans ABC, ACD, ABD, & qu’iceux ſix angles ſont plus grands que de deux droicts); il eſt maniteſte que les trois qui font l’angle ſolide A, ſont plus petits que quàtre droicts: ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 20. PROP. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. 20. PROP. XXII.]
+
 ## THEOR. 20. PROP. XXII.
 
 S il y a trois angles plans, deſquels deux pris comme on voudra ſoientplus grands que l autre, & les lignes droictes compremnt iceux egales; Il ſe peut faire que des lignes qui conioignent icelles egales, ſoit conſtitué vn triangle.

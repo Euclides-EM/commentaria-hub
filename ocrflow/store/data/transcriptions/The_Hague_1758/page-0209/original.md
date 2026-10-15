@@ -3,6 +3,10 @@
 
 [Diagram: three bars labelled aM, em and a1M above three smaller cells labelled M, m and 1M]
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THEOREME VII.]
+
+[Curated heading level=2 type=theorems: THEOREME VII. PROPOSITION VII.]
+
 ## PROPOSITION VII. THEOREME VII.
 
 {dropcap:L|lines=2|style=plain}Es grandeurs égales (M & 1M), ont même raiſon à une même grandeur (m); & une même grandeur (m) a même raiſon à des grandeurs égales (M & 1M).

@@ -21,6 +21,10 @@ c.15. 4 | cb, Ⅱ cd, eſt γ. 6<,
 9. 13 | cf, eſt γ. 10<,
 47. 1 concl. 10. 13 | □.df 2|2 □.cd + □.cf / df, eſt γ. 5<.
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XI.]
+
 ## THEOR. XI. PROPOS. XI.
 
 Si in circulo rationalem habente diametrum, pentagonum æquilaterum describatur; pentagoni latus irrationalis est linea, quæ vocatur minor.

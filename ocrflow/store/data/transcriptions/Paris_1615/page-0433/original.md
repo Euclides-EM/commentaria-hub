@@ -8,6 +8,10 @@ poſe des deux quarrez, &des deux rectangles, ſçauoir le quarre de AC par la 
 
 Sait AB√(√108—√72), & BC √(√108 —√72:) La toute AC ſera donc √(√108√72) √(√108—√72)
 
+[Curated heading level=2 type=propositions: THEOR. 30. PROP. XLII.]
+
+[Curated heading level=2 type=theorems: THEOR. 30. PROP. XLII.]
+
 ## THEOR. 30. PROP. XLII.
 
 Si deux lignes incommenſurables en puiſſance, comprenant vn rectãgle medial, incommenſurable au compoſé de leurs quarrez auſſi medial, ſont aſſemblees, la toute ſera irrationelle: Soit icelle appelee ligne pouuant deux mediaux.

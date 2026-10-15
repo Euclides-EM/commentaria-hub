@@ -13,6 +13,8 @@ CONSTAT etiam ex his, In omni triangulo, cuius vnus angulus fuerit rectus, vel o
 
 [Curated heading level=2 type=campanus: 18]
 
+[Curated heading level=2 type=theorems: THEOR. 11. PROPOS. 18.]
+
 ## THEOR. 11. PROPOS. 18.
 
 [Curated heading level=3 type=incipit: OMNIS]

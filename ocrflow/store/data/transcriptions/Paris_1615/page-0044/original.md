@@ -14,6 +14,10 @@ Car les triangles DFC & CFE ayans deux coſtez, egaux à deux eoſtez, chaſcun
 
 La pratique, tant de ceste propo. que de la ſuiuante eſt enſeignee en noſtre Geometrie pratique, Prob. 2.& 3.ou l’apprenty trouuera ſoulagement à quelque doubte qui luy peuuen arriuer en la pratique de ceſte propo.
 
+[Curated heading level=2 type=propositions: PROBL. 7. PROP. XII.]
+
+[Curated heading level=2 type=problems: PROBL. 7. PROP. XII.]
+
 ## PROBL. 7. PROP. XII.
 
 Abaiſſer vne ligne droicte perpendiculaire ſur vne ligne droite infinie, & d’vn poinct hors icelle.

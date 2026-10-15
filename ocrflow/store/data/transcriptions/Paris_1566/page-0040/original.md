@@ -3,7 +3,9 @@
 
 Z G D. Similiter patebit extenſo latere A G I, ſecto B G in O, ductâq́ A O P & P G, reliquum angulum G B A minorem eſſe angulo A G D, hoc eſt B G I oppoſito, Haud ſecus fiet producto quouis trianguli latere. Omnis itaque triãguli vno latere producto &c.
 
-## Propoſitio decimaſeptima.
+[Curated heading level=2 type=propositions: Propoſitio decimaſeptima.]
+
+### Propoſitio decimaſeptima.
 
 Omnis trianguli duo anguli, duobus rectis ſunt minores omnifariam ſumpti.
 
@@ -11,7 +13,9 @@ Exponatur triangulum A B G cuius latus vnum B G producatur in D, ſitq́ B G D: 
 
 [Diagram]
 
-## Propoſitio decimaoctaua.
+[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
+
+### Propoſitio decimaoctaua.
 
 Omnis trianguli maius latus maiorem angulum ſubtendit.
 
@@ -19,7 +23,9 @@ Trianguli A B G maius latus ſit A G: Dico angulum quem ſubtendit A G eſſe ma
 
 [Diagram]
 
-## Propoſitio decimanona.
+[Curated heading level=2 type=propositions: Propoſitio decimanona.]
+
+### Propoſitio decimanona.
 
 Omnis trianguli ſub maiori angulo maius latus ſubtenditur.
 
@@ -27,7 +33,9 @@ Trianguli A B G maior angulus ſit qui ad B: Dico maius latus eſſe A G ſubten
 
 [Diagram]
 
-## Propoſitio vigeſima.
+[Curated heading level=2 type=propositions: Propoſitio vigeſima.]
+
+### Propoſitio vigeſima.
 
 Omnis trianguli duo latera reliquo ſunt maiora, quomodocumque ſumpta.
 

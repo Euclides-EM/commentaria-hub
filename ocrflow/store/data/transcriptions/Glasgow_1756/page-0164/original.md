@@ -15,6 +15,10 @@ a. 5. Def. 5.
 
 F multiplex tertiae C major D multiplici quartae A. eſt autem et F non major D. Quod fieri non poteſt. Ergo eſt A aequalis ipſi B. Quae igitur ad eandem &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. X. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. X. THEOR.]
+
 ## PROP. X. THEOR.
 
 {dropcap:A|lines=2|style=plain}D eandem magnitudinem rationem habentium, quae majorem rationem habet, illa major eſt; ad quam vero eadem majorem habet rationem, illa minor eſt.

@@ -3,9 +3,11 @@
 
 *I K, per primam ſexti, ſicut verò I E ad E L, ſic I K ad K L, ſicútque T E ad E M ſic T K ad K M: erunt igitur (per vndecimam quinti) A I ad I K vt I K ad K L, vtque T K ad K M plana: ſed ſicut A I ad I K baſes, ſic A B ad E C ſolida (per proximam) fuerunt, ſicut verò ſimiliter I K ad K L, ſic idem E C ad L P, ſicútque T K ad K M, ſic idem L P ad E F: continua igitur ratione proportionalia erunt A B  E C  L P & E F ſolida, per ſeptimam diffinitionem quinti. Primum itaque A B ad quartum E F triplam habet rationem quam idem primum A B ad ſecundum E C, per decimam diffinitionem quinti, ſicut autẽ fuit primum A B ad ſecundum E C, ſic fuit primi latus A E ad quarti latus E K. Solidum igitur A B ad ſolidum E F triplam habet rationem quam latus A E ad latus E K ſimilis rationis: & igitur eandem habet A B ad G D triplam, quam A E latus ad G Z latus, cùm fuerint (ex hypotheſi) æqualia & ſimilia E F & G D. Similia itaque ſolida parallelepipeda, &c.*
 
-## Corollarium.
+### Corollarium.
 
 Si quatuor rectæ continuæ proportionales fuerint, erit prima ad quartam ſicut quod à prima parallelepipedum ad id quod à ſecunda, ſimile ſimilitérque deſcriptum. *Nã prima ad quartam triplam habet quam ad ſecundam, & quod à prima ſimiliter ad id quod à ſecunda, oſtenſum eſt habere triplam quam latera rationem. Si quatuor igitur rectæ, &c.*
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquarta.]
 
 ## Propoſitio trigeſimaquarta.
 

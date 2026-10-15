@@ -1,5 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
+[Curated heading level=2 type=definitions: DEFINIT. XV.]
+
 ## DEFINIT. XV.
 
 Numerus numerū multiplicare dicitur, cum toties compositus fuerit is, qui multiplicatur, quot sunt in ipso multiplicāte vnitates, & procreatus fuerit aliquis.
@@ -30,6 +32,8 @@ D,1. A,15. B,3. C,45.
 
 hyp. | ▭.a,b 2|2 c,
 c.15.d.7 | d π b 2|2 a π c.
+
+[Curated heading level=2 type=definitions: DEFINIT. XVI.]
 
 ## DEFINIT. XVI.
 

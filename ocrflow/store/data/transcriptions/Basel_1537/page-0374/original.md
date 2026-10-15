@@ -24,6 +24,8 @@ CAMPANVS. Sint tres superficiales anguli b a c, e d f, h g k, ut proponitur, tal
 
 [Diagram: third row: point l above left of a small triangle with apex a and base b c, joined by lines to it; triangle with apex d and base e f; triangle with apex g and base b k ]
 
+[Curated heading level=2 type=theorems: Theorema 20 Propositio 22]
+
 ## Eucli. ex Zamb. Theorema 20 Propositio 22
 
 [Curated heading level=3 type=zamberti_sequence: 22.]

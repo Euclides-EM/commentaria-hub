@@ -23,6 +23,10 @@ Sequitur hinc, numerum imparem, qui ad aliquem numerum progressionis duplæ prim
 
 *Il s'ensuit de ceste proposition, qu'vn nombre impair, qui est premier à quelque nombre d'vne progression double, qu'il est aussi premier à tous les nombres de ceste progression.*
 
+[Curated heading level=2 type=propositions: THEOR. XXX. PROPOS. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXX. PROPOS. XXXII.]
+
 ## THEOR. XXX. PROPOS. XXXII.
 
 Numerorum à binario duplorum vnusquisque pariter par est tantum.

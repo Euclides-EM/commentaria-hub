@@ -13,6 +13,10 @@ Si verò neutra ſecuerit Triangulum : connectam D C : & producam B C & E D ad E
 
 Et quoniam duo latera A C & A D Trianguli A C D, ſunt æqualia : erunt anguli A C D & A D C, per quintam Propoſitionem, æquales. Rurſus quia duo latera B C & B D Trianguli B C D, ſunt æqualia : erunt duo anguli E C D & F D C ſub baſi, æquales, per alteram partem eiuſdem. Quia ergo angulus E C D minor eſt angulo A C D : erit angulus F D C minor angulo A D C, totum parte. In idem abſurdum intrudetur, ſiquis A D & B D dixerit conuenire intra Triangulum.
 
+[Curated heading level=2 type=propositions: THEOREMA 5, PROPOSITIO VIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 5, PROPOSITIO VIII.]
+
 ## THEOREMA 5, PROPOSITIO VIII.
 
 Si duo Triangula duo latera duobus lateribus mutuò æqualia habuerint, & baſin baſi æqualem : angulos quoq́; illis æquis lateribus cõtentos æquales habebunt.
@@ -24,6 +28,10 @@ Sint duo Triangula A B C & D E F : ſitq́; latus A C æquale lateri D F, & B C 
 Superpoſita enim baſi A B ipſi D E baſi, neutra excedet alteram : quum ſint æquales. Tum ſi angulus C conuenit cum angulo F : erit totum Triangulum toti Triangulo æquale, & reliqui anguli reliquis angulis æquales, per quartam Propoſitionem : quum ſint duo latera A C & B C, duobus D F & E F æqualia. Si verò punctum C non cadat ſuper F punctum, ſed cadat extra : tunc à duobus punctis D & E, duæ lineæ exeuntes A C & B C, concurrent : ſimulq́; D F & E F ad eandem partem, binæ ſuis conterminis erunt æquales, Quod per antecedentem fieri non poteſt.
 
 Hanc demonſtrandi rationem in quarta huius abundè refutauimus. Quare hæc Propoſitio tanquam per ſe nota habenda eſt. Quis enim negauerit duas Superficies eſſe æquales, quarum latera & quantitate & numero ſunt æqualia ? Vel ea demonſtrabimus ratione quam illic tradidimus.
+
+[Curated heading level=2 type=propositions: PROBLEMA 4, PROPOSITIO IX.]
+
+[Curated heading level=2 type=problems: PROBLEMA 4, PROPOSITIO IX.]
 
 ## THEOREMA{printer-error-correction:PROBLEMA} 6{printer-error-correction:4}, PROPOSITIO IX.
 

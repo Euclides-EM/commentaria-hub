@@ -1,6 +1,10 @@
 <!-- Page number: 306 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. IX. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IX. THEOR.]
+
 ## PROP. IX. THEOR.
 
 {dropcap:A|lines=2|style=plain}EQUALIUM pyramidum, et triangulares baſes habentium, baſes et altitudines reciproce ſunt proportionales. et quarum pyramidum triangulares baſes habentium baſes et altitudines reciproce ſunt proportionales, illae ſunt aequales.

@@ -20,6 +20,8 @@ tur, & diuisa ratione, ac conuersione rationis, quanquàm nihil sumatur extrinse
 
 [Curated heading level=3 type=numbered_item: 17.]
 
+[Curated heading level=2 type=definitions: Diffinitio 17.]
+
 16{printer-error-correction:17} Aequa ratio, est pluribus existentibus magnitudinibus, & alijs eis æqualibus multitudine, cum duabus sumptis & in eadem ratione: quando fuerit sicut in primis magnitudinibus primum ad vltimum, sic in secundis magnitudinibus primū ad vltimum. Vel aliter. acceptio extremorum, per subtractionem mediorum.
 
 Exempli gratia, sint primi ordinis quantitates a, b, c, secundi verò d, e, f: sitq̄ a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f: vel a/ad b/sicut e/ad f, & b/ad c/veluti d/ad e: & concludendo sub-
@@ -35,6 +37,8 @@ inferamus. Igitur sicut a/ad c, ita d/ad f. Hunc modum arguēdi, ex æquali, aut
 ¶Τεταγμένη ἀναλογία ἐστὶν, ὅταν ᾖ ὡς ἡγούμενον πρὸς ἑπόμενον, οὕτως ἡγούμενον πρὸς τὸ ἑπόμενον: ἢ δὲ καὶ ὡς ἑπόμενον πρὸς ἄλλο τι, οὕτως ἑπόμενον πρὸς ἄλλο τι.
 
 [Curated heading level=3 type=numbered_item: 18.]
+
+[Curated heading level=2 type=definitions: Diffinitio 18.]
 
 17{printer-error-correction:18} Ordinata proportio, est cùm fuerit antecedens ad consequens, sicut antecedens ad consequēs: & consequēs ad rem aliam, sicut consequens ad rem aliam.
 
@@ -54,5 +58,7 @@ a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f. Hāc rationū identitatem, ordinata
 ¶Τεταραγμένη δὲ ἀναλογία ἐστὶν, ὅταν τριῶν ὄντων μεγεθῶν, καὶ ἄλλων ἴσων αὐτοῖς τὸ πλῆθος γίνεται: ὡς μὲν ἐν τοῖς πρώτοις μεγέθεσιν ἡγούμενον, πρὸς τὸ ἑπόμενον, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς τὸ ἑπόμενον: ὡς δὲ ἐν τοῖς πρώτοις μεγέθεσιν ἑπόμενον πρὸς ἄλλο τι, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς ἄλλο τι.
 
 [Curated heading level=3 type=numbered_item: 19.]
+
+[Curated heading level=2 type=definitions: Diffinitio 19.]
 
 18{printer-error-correction:19} Perturbata autē proportio, est quando tribus existentibus magnitudinibus, & alijs eis æqualibus multitudine: fit sicut quidē in primis magnitudinibus antecedens ad cōsequens, sic in secundis magnitudinibus antecedens ad consequens: sicut autē in primis magnitudinibus consequens ad rem aliam, sic in secundis res alia ad antecedens.

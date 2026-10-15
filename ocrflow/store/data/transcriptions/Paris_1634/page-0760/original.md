@@ -37,6 +37,10 @@ Demonstr.
 24. 11 | ◇ed 2|2, & sml. ◇fg,
 concl. 9.d.11 | ◇piped. aк sml. ◇piped. cd.
 
+[Curated heading level=2 type=propositions: THEOR. XXIII. PROPOS. XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIII. PROPOS. XXVIII.]
+
 ## THEOR. XXIII. PROPOS. XXVIII.
 
 Si solidum parallelepipedum plano secetur per diagonios aduersorum planorum: bifariam secabitur solidum ab ipso plano.

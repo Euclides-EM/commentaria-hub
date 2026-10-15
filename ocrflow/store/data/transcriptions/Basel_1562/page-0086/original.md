@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 65 -->
 
+[Curated heading level=2 type=propositions: XII. Die zwelfft propoſition]
+
 ## XII. Die zwelfft propoſition.
 
 In dem weitteckhigen triangeln / iſt das quadratt der ſeitten ſo vnder den weitten winckel gezogen wirt / gröſſer dan die quadrat der andern ſeitten / ſo ſolchen winckel beſchlieſſen ſambtlich / vmb das ſo zwaymal begriffen wirt von der ainen ſeitten (in welche / ſo ſy erſtreckht wirt / ain perpendicular fellt von der lengſten linj) vnd dem zůſatz / ſo an die ſelb geſetzt wirt.

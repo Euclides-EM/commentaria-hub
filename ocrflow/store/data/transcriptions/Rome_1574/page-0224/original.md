@@ -17,6 +17,8 @@ SIT data recta AB; datũ parallelogrãmũ CDEF, & datus angulus L. Producaĩ CD,
 
 [Figure: triangle with angle L, and figures with points H, B, F, E, K, I, A, C, D, G showing parallelogram ABHI with triangle ABK, and parallelogram CDEF with triangle CEG]
 
+[Curated heading level=2 type=problems: PROBL. 13. PROPOS. 45.]
+
 ## PROBL. 13. PROPOS. 45.
 
 [Margin]

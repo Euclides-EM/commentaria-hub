@@ -4,6 +4,10 @@
 
 il eſt auſſi egal à AP, comme il a eſté prouué à la precedente: donc anſſi AP ſera egal à C, & dcfaudra à la ligne donnee AB du parallelog. SR ſemblable au donné D.
 
+[Curated heading level=2 type=propositions: PROB. 9. PROP. XXIX.]
+
+[Curated heading level=2 type=problems: PROB. 9. PROP. XXIX.]
+
 ## PROB. 9. PROP. XXIX.
 
 Sur vne ligne droicte donnée, appliquer vn parallelogramme egal à vne figure rectiligne donnée, excedant d’vn parallelogramme ſem blable à vn autre donné.

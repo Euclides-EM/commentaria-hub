@@ -35,6 +35,10 @@ b π a 2|2 d π c.
 | h, 2, 3, 4 | 3, f,
 concl. 6.d.5 | b π a 2|2 d π c.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. V.]
+
 ## THEOR. V. PROPOS. V.
 
 Si vne grandeur est autant multiple d'vne grandeur, que la retranchée l'est de la retranchée; aussi

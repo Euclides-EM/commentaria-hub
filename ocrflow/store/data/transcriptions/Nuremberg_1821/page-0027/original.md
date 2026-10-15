@@ -1,16 +1,24 @@
 <!-- Page number: 22 -->
 
+[Curated heading level=2 type=axioms: Grundſ. 10)]
+
 [Curated heading level=3 type=numbered_item: 10)]
 
 10) Alle rechten Winkel ſind gleich.
+
+[Curated heading level=2 type=axioms: Grundſ. 11)]
 
 [Curated heading level=3 type=numbered_item: 11)]
 
 11) Zwei gerade Linien ſchlieſen keinen Raum ein.
 
+[Curated heading level=2 type=axioms: Grundſ. 12)]
+
 [Curated heading level=3 type=numbered_item: 12)]
 
 12) Wenn zwei gerade Linien etwas Gemeinſchäftliches haben, ſo iſt dieſes ein Punkt, woferne ſie nicht in einer einzigen geraden Linie liegen ſollen.
+
+[Curated heading level=2 type=axioms: Grundſ. 13)]
 
 [Curated heading level=3 type=numbered_item: 13)]
 
@@ -19,6 +27,14 @@
 Bemerkung. Dieſen letzten Satz führt Euklid als eine Erklärung auf, er iſt aber eigentlich ein Grundſatz, denn er folgt erſt aus den Erklärungen der Grenze und des Punktes, wie folgender Schluß zeigt: Wäre die Grenze der Linie kein Punkt, ſo wäre ſie theilbar, (2 Erkl.) folglich ein Theil der Linie, alſo keine Grenze der Linie, (13 Erkl.) welches ſich widerſpricht.
 
 Eben ſo: wäre die Grenze der Fläche keine Linie, ſo wäre ſie der Breite nach theilbar, folglich ein Theil der Fläche, alſo keine Grenze der Fläche, (13 Erkl.) welches ſich widerſpricht.
+
+[Curated heading level=1 type=propositions: Erſtes Buch der Elemente]
+
+[Curated heading level=1 type=problems: Erſtes Buch der Elemente]
+
+[Curated heading level=2 type=propositions: Erſter Satz. Aufgabe.]
+
+[Curated heading level=2 type=problems: Erſter Satz. Aufgabe.]
 
 ## Erſter Satz. Aufgabe. (Fig. 1.)
 

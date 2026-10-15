@@ -4,6 +4,8 @@
 
 ¶ εὐθεῖα γραμμή, ἐστιν ἥτις ἐξίσου τοῖς ἐφ᾽ ἑαυτῆς σημείοις κεῖται.
 
+[Curated heading level=2 type=definitions: Diffinitio 4.]
+
 **4** Recta linea est, quæ ex æquali sua interiacet puncta.
 
 Vtpote, quæ à puncto in pũctum breuissimè ducitur, ipsa terminatiua puncta intermedijs æquali positione cõnectens: vti subscripta a/b/c/linea repręsentat. Cùm igitur à dato pũcto, in datum quodcũque punctum vnica sit breuissima via: fit, vt nulla recta linea rectior detur altera, sed quotquot ab eodem puncto ad idem punctum producentur lineæ rectæ, in vnam eandémq; lineam rectam coincidant. Secus est de obliqua: quæ per contrariam ipsius rectæ diffinitionẽ facilè describitur. nam ab eodem puncto ad idem punctum, infinitè producitur obliquæ lineæ, quæ circunferentiarum portiones adpellantur: dantúrque obliquis obliquiores. Veluti, quæ ab eodem pũcto a/ad punctum c/ per ipsum d/ protrahuntur, ostendunt. ¶ Ex lineæ autem imaginario fluxu, ac si succedentium adinuicem linearum vestigium relinqueret, latitudo dimensionum altera respondenter acquiritur, describitúrq; superficies.
@@ -12,17 +14,23 @@ Vtpote, quæ à puncto in pũctum breuissimè ducitur, ipsa terminatiua puncta i
 
 ¶ ἐπιφάνεια δ᾽ ἐστὶ, ὃ μῆκος καὶ πλάτος μόνον ἔχει.
 
+[Curated heading level=2 type=definitions: Diffinitio 5.]
+
 **5** Superficies est, quæ longitudinem, latitudinémq; tantùm habet.
 
 Quæ cùm exordiatur à linea, & ipsius lineæ terminatiua puncta, ad motum eiusdem, rectam vel obliquam lineam describant, in eadémque linea mota quiescat ipsa superficies: relinquitur euidens quòd
 
 ¶ ἐπιφανείας πέρατα γραμμαί.
 
+[Curated heading level=2 type=definitions: Diffinitio 6.]
+
 **6** Superficiei extrema sunt lineæ.
 
 Porrò cùm linea, ad descriptionem mota superficiei, recta fuerit, atq; in longum lineæ rectæ vniformiter, breuissiméque traducta: fit superficies, quæ plana dicitur, & in hunc diffinitur modum,
 
 ¶ ἐπίπεδος ἐπιφάνεια, ἐστιν ἥτις ἐξίσου ταῖς ἐφ᾽ ἑαυτῆς εὐθείας ἔχει.
+
+[Curated heading level=2 type=definitions: Diffinitio 7.]
 
 **7** Plana superficies est, quæ ex æquali suas interiacet lineas.
 

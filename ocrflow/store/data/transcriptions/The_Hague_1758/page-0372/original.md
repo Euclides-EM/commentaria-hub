@@ -3,6 +3,10 @@
 
 [Diagram: deux pyramides triangulaires; la premiere avec les points D, M, L, K, C, A, I, O, N, B; la ſeconde avec les points H, R, S, Q, E, T, G, P, V, F]
 
+[Curated heading level=2 type=propositions: PROPOSITION IV. THEOREME IV.]
+
+[Curated heading level=2 type=theorems: THEOREME IV. PROPOSITION IV.]
+
 ## PROPOSITION IV. THEOREME IV.
 
 {dropcap:S|lines=2|style=plain}'Il y a deux pyramides (ABCD & EFGH) de même hauteur ayant des bazes (ABC & EFG) triangulaires; & que chacune d'elles ſoit diviſée en deux pyramides égales & ſemblables entr'elles, & ſemblables à leur tout, (ſavoir les pyramides DLKM & ANIL, pour la pyramide ABCD; & HRQP, & REPT pour la pyramide EFGH), & en deux priſmes égaux (ſavoir LB & LC pour ABCD; & RF & RG pour EFGH) & que ſemblablement les quatres pyramides (LDKM, LINA, RQSH, & RTPE) provenues de cette premiere diviſion ſoyent de rechef diviſées; & qu'on continue cette diviſion ainſi de ſuite: la baze (ABC) de l'une des pyramides données (ABCD) ſera à la baze (EFG) de l'autre pyramide (EFGH) comme la ſomme de tous les priſmes qui ſont contenus dans la premiere pyramide (ABCD) eſt à la ſomme de tous les priſmes qui ſont contenus dans la ſeconde (EFGH) étant égaux en multitude.

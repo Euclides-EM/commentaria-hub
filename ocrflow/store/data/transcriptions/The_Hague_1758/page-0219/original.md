@@ -3,6 +3,10 @@
 
 [Diagram: ruled frame containing six horizontal rectangles: mA above a shaded bar A marked I and a shaded bar B marked II above mB on the left; nC above a shaded bar C marked III and a shaded bar D marked IV above nD on the right]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVI. THEOREME XVI.]
+
+[Curated heading level=2 type=theorems: THEOREME XVI. PROPOSITION XVI.]
+
 ## PROPOSITION XVI. THEOREME XVI.
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs ( A, B, C, D ) ſont en proportion, elles le ſeront encore en raiſon alterne.

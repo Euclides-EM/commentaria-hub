@@ -8,6 +8,10 @@ Nous demonſtrerons icy ces deux moyens là d’argumenter és proportions, le
 
 Quant a l’autre moyen que nous auons appellé contraire compoſition de raiſon: ſoit derechef comme AB a BC, ainſi DE a EF: Ie dis que par le contraire de comtoſition de raiſon, comme AB a AC. ainſi DE a DF. Car puis que comme AB eſt a BC, ainſi DE a EE. en changeant comme BC ſere a AB, ainſi EF a DE: donc auſſi en compoſant par la 18.p.5. comme AC ſera a AB, ainſi DF a DE: & partant en changeant derechef comme AB ſera a AC, ainſi DR ſera a DF: ce qui eſtoit proposé a prouuer.
 
+[Curated heading level=2 type=propositions: THEO. 19. PROP. XIX.]
+
+[Curated heading level=2 type=theorems: THEO. 19. PROP. XIX.]
+
 ## THEO. 19. PROP. XIX.
 
 Si le tout eſt au tout, comme le retranché au retranché, le reſte ſera auſſi au reſte, comme le tout eſt au tout.

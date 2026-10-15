@@ -11,10 +11,10 @@ Et fundos fundis continuare nouis.
 Tu cælum ſtellaſque petens, tanto facis illis  
 Nobilius, quanto nobiliora petis.
 
-## AD FRANCISCVM CANDALLAM
+## AD FRANCISCVM CANDALLAM EX Il-
 
 [Subhead]
-EX Illuſtriſſima Fluſſatum familia oriundum, de Euclide eius opera reſtituto, & libro de Stereometria locupletato, Carmen.
+luſtriſſima Fluſſatum familia oriundum, de Euclide eius opera reſtituto, & libro de Stereometria locupletato, Carmen.
 [/Subhead]
 
 Si quid nobilitas & forti in pectore virtus,  

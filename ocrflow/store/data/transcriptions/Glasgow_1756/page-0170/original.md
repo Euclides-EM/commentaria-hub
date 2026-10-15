@@ -15,6 +15,10 @@ b. 12. 5.
 
 eſt igitur ut AG ad DK, ita AB ad DE. ſed AG ipſi C eſt aequalis, et DK ipſi F. Ergo ut C ad F, ita erit AB ad DE. Partes igitur &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVI. THEOR.]
+
 ## PROP. XVI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I quatuor magnitudines quae omnes ejuſdem ſunt generis proportionales fuerint, et permutatae proportionales erunt.

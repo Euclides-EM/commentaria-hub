@@ -6,6 +6,8 @@ trinsecus superficiei l m, sit æqualis angulo intrinseco superficiei l h: & ext
 
 Quatuor ex Zamberto sequentes propositiones, præcedentibus quatuor ex Campano ordine peruerso respondent, prima tertiæ, secunda primæ, tertia quartæ, quarta secundæ.
 
+[Curated heading level=2 type=theorems: Theorema 17 Propositio 23]
+
 ## Eucli.ex Zamb. Theorema 17 Propositio 23
 
 [Curated heading level=3 type=zamberti_sequence: 23.]
@@ -19,6 +21,8 @@ Quatuor ex Zamberto sequentes propositiones, præcedentibus quatuor ex Campano o
 THEON ex Zamberto. Sint æquiangula parallelogramma α γ, & γ ζ, æqualem habentia angulum β γ δ, angulo ε γ η. Dico quod parallelogrammū α γ, ad parallelogrammū γ ζ, ratione habet compositā ex lateribus, hoc est ex ea, quàm habet β γ, ad γ η, & ex ea, q̃; habet δ γ, ad γ ε, Ponatur enim, (per 14 primi,) ut sit in rectas lineas β γ, ipsi γ η, in rectas lineas igitur est (per eādē) δ γ, ipsi γ ε. Cōpleaturq́; parallelogrāmū, δ η, & ponatur quædā recta linea, κ, & fiat (per 12 sexti,) sicut quidē β γ, ad γ η, sic κ, ad λ, sicutq́; δ γ, ad γ ε, sic λ ad μ, proportiōes igitur ipsius κ, ad λ, & ipsius λ, ad μ, eædē sunt ipsis ratiōibus laterum β γ, ad γ η, & ipsius δ γ, ad γ ε. Sed ipsius κ, ad μ, ratio, componitur ex ratione ipsius κ, ad λ, & ipsius λ, ad μ. Quare & κ ad μ. rationē habet compositā ex lateribus. Et quoniā est sicut β γ. ad γ η, sic α γ, parallelogrāmum ad γ θ (per primam sexti,) sed sicut β γ, ad γ η. sic κ, ad λ, & sicut igitur (per 11 quinti,) κ, ad λ, sic α γ, ad γ θ. Rursus quoniā est sicut δ γ, ad γ ε, sic γ θ, parallelogrammū ad γ ζ, parallelogrammum, sed sicut δ γ, ad γ ε, sic λ, ad μ. & sicut igitur (per eandē) λ ad μ, sic γ θ, parallelogrammum ad γ ζ, parallelogrammū. Quoniā igitur ostensum est quod sicut quidē κ ad λ, sic α γ, parallelogrammū ad γ θ, parallelogrammū, sicut aūt λ ad μ, sic γ θ, parallelogrāmū, ad γ ζ, parallelogrāmū: ex æquo igitur (per 22 quinti) sicut κ ad μ, sic α γ parallelogrammū ad γ ζ, parallelogrāmū. At κ ad μ, rationem habet compositam ex lateribus, & α γ, parallelogrammum igitur ad γ ζ rationem habet confectam ex lateribus. Aequiangula igitur parallelogramma: adinuicem rationem habent compositam ex lateribus, quod demonstrare oportebat.
 
 [Diagram: two equiangular parallelograms about the common point γ: parallelogram α γ (corners α, β, γ, δ) at upper left, the completed parallelogram δ η with fourth corner θ to its right, and parallelogram γ ζ (corners γ, η, ζ, ε) below right, β γ in a straight line with γ η, and δ γ in a straight line with γ ε; three vertical lines κ, λ, μ at lower left]
+
+[Curated heading level=2 type=theorems: Theorema 18 Propositio 24]
 
 ## Eucli.ex Zamb. Theorema 18 Propositio 24
 

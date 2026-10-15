@@ -1,6 +1,8 @@
 <!-- Running title: Liber Vndecimus. -->
 <!-- Page number: 239 -->
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXV.]
+
 ## PROPOSITIO XXV.
 
 [Curated heading level=2 type=figures: Fig. 30]
@@ -17,9 +19,13 @@ Demonſtrabitur eodem modo, quo 1.6.
 
 Priſma ſectum plano aduerſis planis parallelo, ſectionem habet ſimilem & æqualem planis aduerſis.
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSIT. XXVI. XXVII.]
+
 ## PROPOSIT. XXVI. XXVII.
 
 {dropcap:N|lines=2|style=plain}On ſunt neceſſariæ.
+
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXVIII.]
 
 ## PROPOSITIO XXVIII.
 

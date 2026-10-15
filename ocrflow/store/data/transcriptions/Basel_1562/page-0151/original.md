@@ -15,6 +15,8 @@ Antecedēs dux, conſequens, comes.
 
 [Curated heading level=3 type=numbered_item: 12.]
 
+[Curated heading level=2 type=definitions: Beſchreibung 12.]
+
 12 {dropcap:I|lines=2|style=plain}n vergleichung zwayer proportion / wirt baydertails die zal ſo gegen ainer andern geſchezt / die vorgehnd genennt: die aber / gegen deren die vergleichung geſchicht / nennt man die volgend.
 
 #### Erklärung.
@@ -28,6 +30,8 @@ Wie ſich halten 6 gegen 8 / alſo auch 9 gegen 12 / ſie nennen wir 6 vnd 9 die
 [/Margin]
 
 [Curated heading level=3 type=numbered_item: 13.]
+
+[Curated heading level=2 type=definitions: Beſchreibung 13.]
 
 13 {dropcap:V|lines=2|style=plain}erwechſlung der proportion haiſt / wan man die vorgehnd gegen der vorgehnden / die folgende gegen der volgenden ſchetzett. Als /
 

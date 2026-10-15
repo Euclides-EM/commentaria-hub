@@ -38,6 +38,10 @@ conſtr. | ∠gfh 2|2 ∠gfe,
 α | gd 3|2 ge. β
 5.concl. β | gh, ge, gd n̄ *ſnt* 2|2 đe.
 
+[Curated heading level=2 type=propositions: THEOR. VII. PROPOS. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. VII. PROPOS. VIII.]
+
 ## THEOR. VII. PROPOS. VIII.
 
 Si hors le cercle on prend quelque poinct, & d'iceluy poinct on mene quelques lignes droictes au cercle, l'vne desquelles passe par le centre, & les autres où l'on voudra : de toutes les lignes droictes

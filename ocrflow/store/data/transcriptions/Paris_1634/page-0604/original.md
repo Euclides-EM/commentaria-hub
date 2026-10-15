@@ -13,6 +13,10 @@ Omne rectangulum, quod potest contineri sub duabus rectis rationalibus potentia 
 
 *Tout rectangle qui peut estre contenu sous deux lignes droictes rationelles commensurables en puissance seulement, est medial, encore qu'il soit contenu sous deux lignes irrationelles ; & tout medial peut estre contenu sous deux lignes droictes rationelles, commensurables en puissance seulement.*
 
+[Curated heading level=2 type=propositions: THEOR. XX. PROPOS. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XX. PROPOS. XXIII.]
+
 ## THEOR. XX. PROPOS. XXIII.
 
 Quod à media fit, ad rationalem applicatum, latitudinem efficit rationalem, & ei, ad quam applicatum est, longitudine incommensurabilem.

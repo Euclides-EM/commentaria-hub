@@ -13,9 +13,15 @@ von dem anfang vnd grund der Geometry.
 
 [Curated heading level=3 type=numbered_item: 1.]
 
+[Curated heading level=1 type=definitions: Das vierdt bůch Euclidis]
+
+[Curated heading level=2 type=definitions: Beſchreibung 1.]
+
 1 Ain rechtliniſche figur wirt inn ain rechtliniſche figur beſchreiben / wann yeder winckel der innern / yede ſeitten der auſſern berüert.
 
 [Curated heading level=3 type=numbered_item: 2.]
+
+[Curated heading level=2 type=definitions: Beſchreibung 2.]
 
 2 Ain rechtliniſche figur wirt vmb ain rechtliniſche figur beſchriben / wan yede ſeitten der auſſern / yeden winckel der innern berüert.
 
@@ -27,15 +33,21 @@ Wiewol auch inn ain quadrat ain triangel / vnd härgegen / item in ain fünffeck
 
 [Curated heading level=3 type=numbered_item: 3.]
 
+[Curated heading level=2 type=definitions: Beſchreibung 3.]
+
 3 Ain rechtliniſche figur wirt inn ainem zirckel beſchreiben / wann ain yeder winckell derſelben den vmbkraiß des zirckels anrüert.
 
 [Curated heading level=3 type=numbered_item: 4.]
+
+[Curated heading level=2 type=definitions: Beſchreibung 4.]
 
 4 Ain rechtliniſche figur / wirt vmb ainen zirckel beſchriben / ſo ain yede ſeitten derſelben / den vmbkraiß des zirckels berüert.
 
 [Diagram: circle with superimposed rectilinear figures]
 
 [Curated heading level=3 type=numbered_item: 5.]
+
+[Curated heading level=2 type=definitions: Beſchreibung 5.]
 
 5 Ain zirckell wirt inn ain rechtliniſche figur einge-
 

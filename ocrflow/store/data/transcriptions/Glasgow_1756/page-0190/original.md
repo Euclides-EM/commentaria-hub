@@ -1,6 +1,10 @@
 <!-- Running title: LIBER SEXTUS. -->
 <!-- Page number: 177 -->
 
+[Curated heading level=2 type=propositions: PROP. II. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. II. THEOR.]
+
 ## PROP. II. THEOR.
 
 {dropcap:S|lines=2|style=plain}I uni laterum trianguli parallela quaedam recta linea ducta fuerit, proportionaliter ſecabit reliqua trianguli latera, vel latera producta. et ſi latera trianguli, vel latera producta proportionaliter ſecta fuerint, quae ſectiones conjungit recta linea, reliquo trianguli lateri parallela erit.

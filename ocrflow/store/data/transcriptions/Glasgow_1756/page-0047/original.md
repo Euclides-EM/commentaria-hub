@@ -9,6 +9,10 @@ b. Def. 35.
 
 parallela igitur eſt AB ipſi CD. quare ſi in duas rectas lineas &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXVIII. THEOR.]
+
 ## PROP. XXVIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I in duas rectas lineas recta linea incidens exteriorem angulum interiori, et oppoſito, et ad eaſdem partes aequalem fecerit, vel interiores et ad eaſdem partes duobus rectis aequales: parallelae erunt inter ſe rectae lineae.

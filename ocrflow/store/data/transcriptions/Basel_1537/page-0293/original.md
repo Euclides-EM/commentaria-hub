@@ -30,6 +30,8 @@ Exponatur recta linea α β, seceturq̃ tota in inæqualia in utrunque signorũ 
 
 [Diagram: horizontal line with points α, δ, ε, γ, β]
 
+[Curated heading level=2 type=theorems: Theorema 30 Propositio 42]
+
 ## Eucli. ex Zãb. Theorema 30 Propositio 42
 
 [Curated heading level=3 type=zamberti_sequence: 42.]

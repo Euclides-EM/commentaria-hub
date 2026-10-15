@@ -8,6 +8,10 @@
 
 Soit le quarré de AB √40, mais BC ſoit 2. Si donc à BC on app’ique √40, l’autre coſte CD ſera √10. qui eſt incommenſ. en longitude à BC, mais commenſen puiſſance. Que ſi BC eſt√5: CD ſera √8, auſſi commenſ. en puiſſance ſeulement. Mais ſi la mediale A eſtoit √√,5, & BC√5: le quarré de A ſeroit √35: & CD√7. comme: (en puiſſance ſeulemeut à BC.
 
+[Curated heading level=2 type=propositions: THEOR. 21. PROP. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 21. PROP. XXIV.]
+
 ## THEOR. 21. PROP. XXIV.
 
 Vne ligne droicte commẽſurable à vne ligne mediale, eſt auſſi mediale.

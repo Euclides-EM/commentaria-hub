@@ -2,6 +2,8 @@
 
 <!-- Page number: 113 -->
 
+[Curated heading level=2 type=propositions: Propoſitio quadrageſimaprima.]
+
 ## Propoſitio quadrageſimaprima.
 
 Si binæ rectæ lineę potentia incommenſurabiles compoſitę fuerint, efficiétes compoſitum ex earum quadratis Medium quod verò ſub ipſis Medium, & inſuper incommenſurabile compoſito ex earum quadratis, tota recta linea incerta eſt, vocatur autem Bina media potens.
@@ -10,7 +12,7 @@ Si binæ rectæ lineę potentia incommenſurabiles compoſitę fuerint, efficié
 
 [Diagram: a horizontal line with A at the left, B in the middle and G at the right, above a rectangle with corners D, K, E and T, divided by a vertical line from I to Z]
 
-## MONITVM.
+### MONITVM.
 
 *Cùm harum ſex incertarum (his proximis theorematis expoſitarum) denominationes vnde ortæ ſint nõ ſatis lucidè Theonem explicaſſe quidã arbitrati ſint, aliquas earum præter eas quas diximus differentias adferre non importunũ erit. Quia igitur Euclides certarum prius traditionem cœpit, vt earum adminiculo ad incertas properet, ab incertis autem ad incertiores, hoc eſt, à certarum natura remotiores eo ordine ſeruato vergat, harum itaque ſex incertarum quatuor Certum mediúmque potẽtes cõponit, ſcilicet eam quæ Ex binis nominibus, Ex binis mediis primã, Maiorem, Certum mediúmque potentem. Quæ licet potentias earum ex certa & media area ſingulæ componant, tamen in eo differunt, quod prior huiuſmodi potentiam à lineis certis, potentia commenſurabilibus educat. Secunda verò à lineis mediis potentia commenſurabilibus, quæ iam à certis recedunt. Tertia à lineis longitudine & potentia omnino incommenſurabilibus ſuam educit potentiam: quæ tamen maiorem portionem certam habet, ea de cauſa Maior dicitur. Quarta autẽ ab eiſdem lineis longitudine & potentia incommenſurabilibus, quæ tamen maiorem potẽtiæ partem, ipſi Certum mediúmque potenti incertam tribuũt, nempe Mediam. Duas verò reliquas ſcilicet Ex binis mediis ſecundam, & Bina media potẽtem, ſeruato eodẽ ordine cõponit. Nam licet binas incertas areas, hoc eſt Medias incõmenſurabiles, vtraque earum poßit, tamen prior ſcilicet Ex binis mediis ſecunda (quæ ex lineis potentia ſaltem commenſurabilibus conſtat) reliquis anteponenda fuit (quæ ex lineis penitus incommenſurabilibus componuntur) his nempe Maior, & Certũ mediúmque potens, plus à certarum natura remotis. Harum autem duarum poſtremam omnium ſex nouißimam, ac à certa remotiorem meritò poſuit Euclides, eam ſcilicet quæ potentiam ex incertis ac incommenſurabilibus ſibi inuicem aſſumit, longitudinem verò à lineis & longitudine & potentia penitus incommenſurabilibus exigit, quam ideo tanquam ab incerta natura remotiſſimam, nouiſſimam ordine locauit Euclides.*
 

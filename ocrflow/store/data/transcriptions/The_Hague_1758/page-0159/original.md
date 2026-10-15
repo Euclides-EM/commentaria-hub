@@ -3,6 +3,10 @@
 
 [Diagram: vertical line labelled N at left; two intersecting circles with points B, F, A, E, D]
 
+[Curated heading level=2 type=propositions: PROPOSITION I. PROBLEME I.]
+
+[Curated heading level=2 type=problems: PROBLEME I. PROPOSITION I.]
+
 ## PROPOSITION I. *PROBLEME I.*
 
 {dropcap:A|lines=2|style=plain}ppliquer dans un cercle donné (ABD), une ligne droite (AB) égale à une ligne droite donnée (N), laquelle ne ſoit pas plus grande que le diamêtre du cercle (ABD).

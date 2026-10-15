@@ -9,6 +9,8 @@ c Patet ex lem. 2. Schol.poſt. 11.l.6.
 o Per defin. 6.l.12.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO II.]
+
 ## PROPOSITIO II.
 
 {dropcap:C|lines=2|style=plain}Irculorum proportio eſt duplicata proportionis diametrorum.

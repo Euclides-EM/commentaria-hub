@@ -3,6 +3,10 @@
 
 [Figure: parallelepiped in a double-ruled frame, labelled B, C, F, G, H, D, E, A, with diagonals drawn on opposite faces]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXVIII. THEOREME XXIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIII. PROPOSITION XXVIII.]
+
 ## PROPOSITION XXVIII. THEOREME XXIII.
 
 {dropcap:U|lines=2|style=plain}N paralelipipéde (AB) coupé par un Plan (FCDE) paſſant par les diagonales (FC & ED) des Plans oppoſés (BG & AH): eſt coupé en deux également.

@@ -3,6 +3,10 @@
 
 [Diagram: six circles in a row along a horizontal axis, some dotted, labelled S, B, H, D, Y, Q above; N, E, K, F, X, M on the axis; R, A, G, C, T, V below]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. THEOREME XIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XIII. PROPOSITION XIII.]
+
 ## PROPOSITION XIII. THEOREME XIII.
 
 {dropcap:S|lines=2|style=plain}I un cylindre (ABDC) eſt coupé par un Plan (HG) parallele aux Plans oppoſés (BA & DC): les cylindres provenants (ABHG & GHDC) ſeront entr'eux comme leurs axés (EK & KF). (c. a. d. que le cylindre ABHG : cylindre GHDC = axe EK : axe KF.)

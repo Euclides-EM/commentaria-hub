@@ -19,6 +19,10 @@ ALITER facilius. Maneat C D E F Parallelogrammum æquale ipſi A Rectilineo. Et 
 
 Quum enim H D ſit æquale B Rectilineo, ſintq́; H D & D N Supplementa, per quadrageſimamtertiam, æqualia: erit quoque D N ipſi B Rectilineo æquale. Quo ablato à C F Parallelogrammo (quod poſitum fuit ipſi A æquale) remanebit N F exceſſus A ſupra B, Quod erat faciendum.
 
+[Curated heading level=2 type=propositions: PROBLEMA 14, PROPOSITIO XLVI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 14, PROPOSITIO XLVI.]
+
 ## PROBLEMA 14, PROPOSITIO XLVI.
 
 Ex data recta linea Quadratum deſcribere.

@@ -3,6 +3,10 @@
 
 [Figure: triangle ABC with apex B, line BD from apex to base at D, dotted line CE parallel to DB meeting the prolongation of AB at E, with small angle labels o, n at B, m at C and p at E]
 
+[Curated heading level=2 type=propositions: PROPOSITION III. THEOREME III.]
+
+[Curated heading level=2 type=theorems: THEOREME III. PROPOSITION III.]
+
 ## PROPOSITION III. THEOREME III.
 
 {dropcap:S|lines=2|style=plain}I l'angle (B) d'un triangle (ABC) eſt partagé en deux également par une ligne droite (BD) qui coupe la baſe du triangle en (D), les ſegmens de la baſe (AD, DC) ſeront proportionels aux deux côtés (AB, BC) du triangle. Et réciproquement, ſi les ſegmens de la baſe (AD, DC) ſont proportionels aux deux côtés (AB, BC) du triangle (ABC), la ligne droite (BD) tirée du ſommet (B) du triangle au point de ſection (D), coupera auſſi l'angle au ſommet (ABC) en deux également.

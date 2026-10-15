@@ -8,6 +8,10 @@ hyp. | ∠adb *eſt* ┘,
 1.concl. 19.1 | ad 2|3 ab, α
 2.concl. d.α | ad 2|3 ac.
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XX.]
+
 ## THEOR. XIII. PROPOS. XX.
 
 De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient prins.
@@ -39,6 +43,10 @@ conſtr. | ac 2|2 ad,
 ba *commun. add.*
 2.a.1 | ba + ac 2|2 bd,
 α.1.a.d | ba + ac 3|2 bc.
+
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XXI.]
 
 ## THEOR. XIV. PROPOS. XXI.
 

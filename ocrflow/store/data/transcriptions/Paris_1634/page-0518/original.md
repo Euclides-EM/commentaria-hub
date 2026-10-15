@@ -37,6 +37,10 @@ Demonstr.
 2.concl. 17.7 | k 2|2 h,
 3.concl. 1.a.1 | g,h,k snt 2|2 ꝫe.
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XX.]
+
 ## THEOR. XVIII. PROPOS. XX.
 
 Si inter duos numeros vnus medius proportionalis cadat numerus, similes plani erunt illi numeri.

@@ -2,6 +2,8 @@
 
 quales, inæquales eſſe; atque adeo illum, cuius diameter, vel ſemidiameter maior, maiorem, &c.
 
+[Curated heading level=2 type=definitions: II.]
+
 ### II.
 
 [Curated heading level=4 type=incipit: RECTA]
@@ -11,6 +13,8 @@ RECTA linea circulum tangere dicitur, quæ cum circulum tangat, ſi producatur, 
 VT recta AB, quia ita circulum BFD, tangit in B, vt producta ad C, nulla ratione circulum ſecet, ſed tota iaceat extra ipſum, dicitur tangere circulum. At vero recta EF, quia ita eundem circulum tangit in F, vt producta ad G, ſecet circulum, cadatque intra ipſum, non dicetur circulum tangere, ſed ſecare.
 
 [Diagram: circle BFD with tangent line ABC touching at B, and line EFG through E cutting the circle at F and G, ending near D]
+
+[Curated heading level=2 type=definitions: III.]
 
 ### III.
 

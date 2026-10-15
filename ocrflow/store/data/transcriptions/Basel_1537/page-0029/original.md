@@ -18,6 +18,8 @@ CAMPANVS. Sint tres lineæ rectæ propositæ, a, b, c, & sint quælibet duæ sim
 
 [Diagram: two intersecting circles about centres f and g on a straight line e b f d, meeting at k above, with triangle k f g drawn and point g below; three given line segments a, b, c shown at left]
 
+[Curated heading level=2 type=problems: Problema 8. Propositio 22.]
+
 ## Eucli. ex Zamb. Problema 8. Propositio 22.
 
 [Curated heading level=3 type=zamberti_sequence: 22.]

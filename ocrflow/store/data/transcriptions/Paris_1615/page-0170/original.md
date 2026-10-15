@@ -4,6 +4,10 @@
 
 des par la 6. com. ſent. Si donc D eſt plus grande, egale, ou plus petite que F, auſſi E ſera plus grande, egale, ou plus petite que la meſme F, &par la 6.def. 5.il y aura telle raiſon de Aà C. comme de B à la meſme C. Quant à l’autre partie, elle ſe prouue tout de meſme par la 6. def. 5. en prenant les meſmes equemultiplices, & monſtrant l’excez, &c. ou bien plus facilement par la raiſon inuerſe. Car puis qu’il a eſté demonſtré que A eſt à C, comme B à C, en changeant C ſera à A, comme C à B par le corol.de la 4p.5.
 
+[Curated heading level=2 type=propositions: THEOR. 8. PROP. VIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 8. PROP. VIII.]
+
 ## THEOR. 8. PROP. VIII.
 
 Des grandeurs inegales, la plus grande a plus grande raiſon à vne meſme, que la plus petite; &vne meſme a plus grande raiſon à la plus petite, qu’à la plus grande.

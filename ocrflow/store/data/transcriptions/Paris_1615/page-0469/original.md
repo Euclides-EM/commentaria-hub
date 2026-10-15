@@ -16,6 +16,10 @@ ICY COMMENCENT LES
 
 ſixaines des lignes irrationelles par le retranchement.
 
+[Curated heading level=2 type=propositions: THEOR. 56. PROP. LXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. 56. PROP. LXXIV.]
+
 ## THEOR. 56. PROP. LXXIV.
 
 Si d’vne ligne rationele, eſt retranchee vne ligne rationele commenſ. en puiſſance ſeulemét à la toute; le reſte eſt irratjonel: Soit appelé R eſidu.

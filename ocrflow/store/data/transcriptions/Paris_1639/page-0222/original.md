@@ -25,6 +25,10 @@ concl 6.a.d | eb *multipl..* fd 2|2 ga *multipl..* fd, Ⅱ ab *multipl..* cd
 
 En ceste demonstration GE & AB sont égales entr'elles, à cause que chacune d'icelles contient CD, autant de fois que AE contient CF.
 
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VI.]
+
 ## THEOR. VI. PROPOS. VI.
 
 Si deux grandeurs sont equimultiples de deux autres grandeurs, & quelques retranchées d'icelles soient equimultiples des mesmes grandeurs, ou les restes seront égaux aux mesmes, ou equimultiples d'icelles.

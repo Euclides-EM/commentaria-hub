@@ -4,6 +4,10 @@ Egit hactenus Euclides de magnitudinibus commensurabilibus, & incommensurabilibu
 
 *Iusques icy Euclide a traicté des grandeurs rationelles & irrationelles, il traictera des rationelles & mediales cy-apres.*
 
+[Curated heading level=2 type=propositions: THEOR. XVII. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVII. PROPOS. XX.]
+
 ## THEOR. XVII. PROPOS. XX.
 
 Quod sub rationibus longitudine commensurabilibus rectis lineis, secundum aliquem prædictorum modorum α, continetur rectangulum, rationale est.

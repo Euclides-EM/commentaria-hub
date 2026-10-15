@@ -4,6 +4,8 @@
 
 [Figure: a quadrilateral with corners A, B, G and D, with lines drawn from C at the top to points L and I on a horizontal line within the figure]
 
+[Curated heading level=2 type=definitions: Diffinitio quarta.]
+
 ## Diffinitio quarta.
 
 Plani ad planum inclinatio eſt, angulus obliquus comprehenſus ſub his quę ad angulos rectos communi ſegmento ad idem ſignum ducuntur, in vtroque ipſorum planorum.
@@ -12,19 +14,27 @@ Plani ad planum inclinatio eſt, angulus obliquus comprehenſus ſub his quę ad
 
 [Figure: a quadrilateral with points A, B and C, containing lines meeting at the point E on the horizontal line A B, with points D and G above]
 
+[Curated heading level=2 type=definitions: Diffinitio quinta.]
+
 ## Diffinitio quinta.
 
 Planum ad planum ſimiliter inclinari dicitur, & alterum ad alterum, quando prædicti inclinationum anguli ſibi inuicem ęquales fuerint.
 
-## Propoſitio ſexta.
+[Curated heading level=2 type=definitions: Diffinitio ſexta.]
+
+## Propoſitio{printer-error-correction:Diffinitio} ſexta.
 
 Parallela plana ſunt, quę vndique producta contactum non admittunt.
 
 *Hæc nulla eget expoſitione, ſed additione hac (quæ vndique producta) egebat, nam ſi parallela dixiſſemus tantùm, quæ contactum non admittunt, falſam ederemus hanc diffinitionem. Si itaque vndique producta contactum non admittant verè parallela erunt.*
 
+[Curated heading level=2 type=definitions: Diffinitio ſeptima.]
+
 ## Diffinitio ſeptima.
 
 Similes ſolidæ figuræ ſunt, quę ſub ſimilibus planis, & multitudine ęqualibus continentur.
+
+[Curated heading level=2 type=definitions: Diffinitio octaua.]
 
 ## Diffinitio octaua.
 

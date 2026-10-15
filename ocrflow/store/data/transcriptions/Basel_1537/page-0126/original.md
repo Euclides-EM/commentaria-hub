@@ -34,6 +34,8 @@ CAMPANVS Sit quantitas a b tota pars quantitatis c d, quota este b ipsius a b, m
 
 [Diagram: horizontal line segments with points c, f, d and a, e, b in the text column]
 
+[Curated heading level=2 type=theorems: Theorema 5 Propositio 5]
+
 ## Eucli. ex Zamb. Theorema 5 Propositio 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]

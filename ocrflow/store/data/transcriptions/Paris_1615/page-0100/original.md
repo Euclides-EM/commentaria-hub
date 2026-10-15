@@ -2,6 +2,10 @@
 
 <!-- Page number: 77 -->
 
+[Curated heading level=2 type=propositions: PROBL. 1. PROP. I.]
+
+[Curated heading level=2 type=problems: PROBL. 1. PROP. I.]
+
 ## PROBL. 1. PROP. I.
 
 Trouuer le centre d’vn cercle donné.

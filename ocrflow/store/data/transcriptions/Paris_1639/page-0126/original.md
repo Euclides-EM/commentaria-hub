@@ -1,5 +1,9 @@
 <!-- Running title: LES ELEMENTS -->
 
+[Curated heading level=2 type=propositions: PROBL. I. PROPOS. XI.]
+
+[Curated heading level=2 type=problems: PROBL. I. PROPOS. XI.]
+
 ## PROBL. I. PROPOS. XI.
 
 Coupper vne ligne droicte donnée de telle sorte, que le rectangle contenu sous la toute & l'vn des segments, soit égal au quarré de l'autre segment.
@@ -37,6 +41,10 @@ conſtr. | de 2|2 ea.
 3.a.1 | dh ▭.dfa 2|2 ac □.ab,
 ▭.dg *commun. ſubtr.*
 concl. 3.a.1 | ah □.ag 2|2 gc ▭.abg.
+
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XII.]
 
 ## THEOR. XI. PROPOS. XII.
 

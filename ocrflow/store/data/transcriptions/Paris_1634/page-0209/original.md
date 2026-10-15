@@ -3,6 +3,10 @@
 12.a.1 | <fcb 2|2 <ecb, contr. 9.a.1.
 concl. 21.a.1 | centr.. ⊙ est in ec.
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XX.]
+
 ## THEOR. XVIII. PROPOS. XX.
 
 In circulo, angulus ad centrum duplex est anguli ad periferiam, cùm fuerit eadem peripheria basis angulorum.
@@ -30,6 +34,10 @@ Demonstr.
 19.a.b | <bde 2|2, 2<dab, α
 d.α. | <edc 2|2, 2<dac,
 concl. α.20.a.1 | <bdc 2|2, 2<bac.
+
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXI.]
 
 ## THEOR. XIX. PROPOS. XXI.
 

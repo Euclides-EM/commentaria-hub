@@ -26,6 +26,10 @@ Demonſtr.
 29. 1 | npqſ, eſt □,
 concl. 31. 11 | npqſor, eſt octaedr. inſcri. ꝗn cub. chgbdefa.
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. IV.]
+
 ## PROBL. IV. PROPOS. IV.
 
 In dato octaedro cubum inscribere.

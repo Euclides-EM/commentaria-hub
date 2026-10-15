@@ -3,6 +3,10 @@
 
 [Diagram: a parallelogram in perspective repreſenting a plane, labelled Z and X at its corners; point A above the plane joined by a vertical line to H; points B, C, D, E, F, G and H within the plane, with dotted lines joining A to D, D to C, B to D, F to E through H, and D to G]
 
+[Curated heading level=2 type=propositions: PROPOSITION XI. PROBLEME I.]
+
+[Curated heading level=2 type=problems: PROBLEME I. PROPOSITION XI.]
+
 ## PROPOSITION XI. PROBLEME I.
 
 {dropcap:D|lines=2|style=plain}'Un point donné (A) hors d'un Plan (ZX), abaiſſer une perpendiculaire (AH) à ce Plan.

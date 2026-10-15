@@ -9,6 +9,8 @@ Sit enim G ad C vt D ad E. Et erit, per priorem partem decimæ huius, G minor B 
 
 [Diagram: horizontal lines labelled A, B, C, H, G, C and D, E, F]
 
+[Curated heading level=2 type=additions: Campani Additarum VIII.]
+
 ### VIII.
 
 Si fuerit proportio totius ad totum, maior quàm ablati ad ablatum : erit & reliqui ad reliquum, maior proportio, quàm totius ad totum.
@@ -18,6 +20,8 @@ Sint duæ Quantitates, AB & CD : à quibus abſcindantur AE & CF, ſintq́; reli
 Erit enim, per ſecundam additarum, permutatim, maior proportio AB ad AE, quàm CD ad CF. Ob idq́;, ex quinta earundem, erit euerſim, minor proportio AB ad EB, quàm CD ad CF. Quare rurſus permutatim, minor proportio AB ad CD, quàm EB ad FD, Quod erat demonſtrandum.
 
 [Diagram: two horizontal lines, one labelled A, E, B, the other C, G, F, D]
+
+[Curated heading level=2 type=additions: Campani Additarum IX.]
 
 ### IX.
 

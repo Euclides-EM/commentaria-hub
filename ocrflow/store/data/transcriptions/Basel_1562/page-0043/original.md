@@ -3,6 +3,8 @@
 
 Das diſe figurn durch den diameter in 2 gleiche tail zertailt ſein / magſtu leichtlich demonſtriern / ſo du der 4 prop. ingedenckh biſt.
 
+[Curated heading level=2 type=propositions: XXXV. Die fünffvnddreyſſigſt Propoſition]
+
 ## XXXV Die fünffvnddreyſſigſt Propoſition.
 
 Alle parallelogram oder paralleliſche figurn / ſo zwiſchen zwayen parallel linien ſtehn vnd auff einer baſi / ſeind einander gleich.

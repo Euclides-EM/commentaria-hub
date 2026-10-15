@@ -15,6 +15,8 @@ c Per præc.
 d Per 24. l.1.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XVI.]
+
 ## PROPOSITIO XVI.
 
 [Curated heading level=2 type=figures: Fig. 20]

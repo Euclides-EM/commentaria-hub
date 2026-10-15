@@ -5,13 +5,21 @@
 
 [Curated heading level=3 type=numbered_item: 6.]
 
+[Curated heading level=2 type=definitions: Beſchreibung 6.]
+
 6 Ain zirckel wirt vmb ain rechtliniſche figur beſchriben / wan ſein vmbkhraiß alle winckell der rechtliniſchen figur berüert.
 
 [Curated heading level=3 type=numbered_item: 7.]
 
+[Curated heading level=2 type=definitions: Beſchreibung 7.]
+
 7 Ain rechte linj wirt inn ainem zirckel geſtellt oder gefüegt / wann ire baide ortt / in dem vmbkraiß des zirckels ſeind.
 
 [Diagram: a triangle and square circumscribed about a circle, with labels 4 and 5]
+
+[Curated heading level=1 type=propositions: Das vierdt bůch Euclidis]
+
+[Curated heading level=2 type=propositions: I. Die erſt propoſition]
 
 ## I. Die erſt propoſition.
 
@@ -30,6 +38,8 @@ Solche linj iſt aintweders gleich des zirckels diametro / oder khlainer / dan l
 Darbei zůverſtehn / das gnůg iſt / ſo du mitt ainem zirckel der gebnen linj lenge begreiffeſt / vnnd alſo inn des gebnen zirckels circumferenz / zwen puncten verzaichnet / mit ainer rechten linj zůſamen zeuchſt. Das vberig iſt vonn der demonſtration wegen.
 
 [Diagram: a circle crossed by a horizontal line and intersected by a second circle, with labels a, b and e]
+
+[Curated heading level=2 type=propositions: II. Die ander propoſition]
 
 ## II. Die ander propoſition.
 

@@ -6,6 +6,8 @@ OBITER quoque monendus mihi lector uidetur, Euclidem in hoc ſecundo libro, & in
 
 [Diagram: a rectangle with corners labelled A, B, D and C]
 
+[Curated heading level=2 type=definitions: II.]
+
 ### II.
 
 [Curated heading level=4 type=incipit: IN]

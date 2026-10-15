@@ -3,6 +3,8 @@
 
 nes numeros primos, præter binarium, eſſe impares, quandoquidem ex paribus, ſolus binarius primus eſt, vt diximus.
 
+[Curated heading level=2 type=definitions: XIIII.]
+
 ### XIIII.
 
 [Curated heading level=4 type=incipit: COMPOSITI]
@@ -10,6 +12,8 @@ nes numeros primos, præter binarium, eſſe impares, quandoquidem ex paribus, �
 COMPOSITI autem inter ſe numeri ſunt, quos numerus aliquis, communis menſura, metitur.
 
 DVo numeri, vel plures, quos præter vnitatem, aliquis alius numerus, tanquam menſura communis, metitur, dicuntur inter ſe compoſiti, licet non quilibet ſit compoſitus numerus; quemadmodum & numerus ille, quem præter vnitatem, numerus quiſpiam metitur, compoſitus nominatur. Vt hi numeri 15. 24. compoſiti inter ſe ſunt, quia eos hic numerus 3. tanquam communis menſura, metitur. Ita etiam inter ſe compoſiti erunt hi numeri 7. 21. 35. Nam primus eorũ & ſe ipſum, & reliquos duos metitur, licet per ſe ſumptus, Primus uocetur.
+
+[Curated heading level=2 type=definitions: XV.]
 
 ### XV.
 

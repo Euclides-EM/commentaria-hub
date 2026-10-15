@@ -31,6 +31,10 @@ und cd | dem Kreyß eingefüget n. 7. Beschr. IV.
 
 Ist also der Strich cd | ab dem Kreyß cdf eingefüget. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der II. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 2. Werck-Stück. Der II. Vortrag.]
+
 ## Der II. Vortrag.
 
 ## Das 2. Werckstück.

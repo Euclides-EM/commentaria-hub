@@ -8,25 +8,37 @@
 
 <!-- Running title: DEFINITIONS. -->
 
+[Curated heading level=2 type=definitions: DEFINITION XXVII.]
+
 ### XXVII.
 
 {dropcap:L|lines=2|style=plain}*'Octaëdre* (*Fig.* 1.) eſt un ſolide terminé par huit triangles équilateraux & égaux.
+
+[Curated heading level=2 type=definitions: DEFINITION XXVIII.]
 
 ### XXVIII.
 
 *Le Dodecaëdre* (*Fig.* 2.) eſt un ſolide terminé par douze Pentagones équilateraux & égaux.
 
+[Curated heading level=2 type=definitions: DEFINITION XXIX.]
+
 ### XXIX.
 
 *L'Icoſaëdre* (*Fig.* 3.) eſt un ſolide terminé par vingt triangles équilateraux & égaux.
+
+[Curated heading level=2 type=definitions: DEFINITION XXX.]
 
 ### XXX.
 
 *Le Parallelipipède* eſt un ſolide terminé par ſix Plans quadrilatères, deſquels les oppoſez ſont paralleles.
 
+[Curated heading level=2 type=definitions: DEFINITION XXXI.]
+
 ### XXXI.
 
 *Un Solide eſt nommé Inſcript dans un Solide*, lorſque tous les angles du ſolide inſcript touchent les angles, les cotés, ou les Plans du ſolide dans lequel il eſt inſcript.
+
+[Curated heading level=2 type=definitions: DEFINITION XXXII.]
 
 ### XXXII.
 

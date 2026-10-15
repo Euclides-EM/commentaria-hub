@@ -2,11 +2,19 @@
 
 ecks FKG den drei gegebenen geraden Linien A, B und C einzeln genommen, gleich.
 
+[Curated heading level=2 type=propositions: N. 23 Vier und zwanzigſter Satz. Aufgabe.]
+
+[Curated heading level=2 type=problems: N. 23 Vier und zwanzigſter Satz. Aufgabe.]
+
 ## N. 23 Vier und zwanzigſter Satz. Aufgabe.
 
 An einen gegebenen Punkt einer der Lage nach gegebenen geraden Linie einen geradlinigen Winkel zu ſetzen, der einem gegebenen gleich iſt.
 
 Aufl. u. Bew. Siehe die Uiberſ. von L. und B.
+
+[Curated heading level=2 type=propositions: N. 24 Fünf und zwanzigſter Satz. Lehrſatz.]
+
+[Curated heading level=2 type=theorems: N. 24 Fünf und zwanzigſter Satz. Lehrſatz.]
 
 ## N. 24 Fünf und zwanzigſter Satz. Lehrſatz. (Fig. 5 und 6.)
 

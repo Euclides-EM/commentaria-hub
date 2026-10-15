@@ -10,6 +10,8 @@ Apotome & quæ post eā irrationales,neque mediæ,neque adinuicē sunt eædē. Q
 
 1 Media. 2 Ex binis nominibus 3 Ex binis prima,medijs. 4 Ex binis secūda medijs. 5 Maior. 6 Rationale mediūq̃ potens. 7 Bina potens media. 8 Apotome. 9 Mediæ prima apotome. 10 Mediæ secūda apotome. 11 Minor. 12 Cū rōnali mediū totū efficiēs. 13 Cū medio mediū totū efficiēs.
 
+[Curated heading level=2 type=theorems: Theorema 88 Propositio 112]
+
 ## Eucli.ex Zamb. Theorema 88 Propositio 112
 
 [Curated heading level=3 type=zamberti_sequence: 112.]

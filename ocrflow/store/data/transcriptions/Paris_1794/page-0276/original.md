@@ -25,6 +25,12 @@ F. 257.
 
 Car parmi celles-ci il ne peut y en avoir aucune qui soit un *minimum*, puisque dans toutes les hypotheses on pourroit toujours mener le plan CD tangent à la surface convexe, lequel plan seroit plus petit que la surface CMD; et ainsi la surface CND seroit plus petite que MN, ce qui est contraire à l’hypothese que MN est un *minimum*. Donc il n’y a point de *minimum* hors de la surface convexe; donc cette surface elle-même est un *minimum* par rapport à toutes celles qui l’enveloppent.
 
+[Curated heading level=1 type=theorems: Livre VIII]
+
+[Curated heading level=2 type=propositions: PROPOSITION I. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION I.]
+
 ## PROPOSITION I.
 
 ### THÉORÊME.

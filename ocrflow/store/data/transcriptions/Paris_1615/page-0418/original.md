@@ -8,6 +8,10 @@ partant ID eſt diuisé en deux egalement en G. Parquoy par le 6. theor. demon�
 
 Par cecy nous trouuerons facilement deux nombres, tels que le composé d’i ceux ne ſoit à l’vn ny à l’autre comme nombre quarre à nombre quarre. Car ſi par le Lemme precedent on trouue deux quarrez, tels que le compoſe d’iceux ne ſoit quarre, ce compoſé non quarre ne ſera a l’vn ny a l’autre d’iceux, comme nombre quarrè à nombre quarrè. Nous obtiendrons le meſme, diuiſant quelque nombre quarre en deux non quarrez: Car ainſi le quarrè total ne ſera à l’vn ny à l’autre d’iceux nombres eſquels il eſt diuiſe, en raiſon de nombre quarré à nombre quarré,
 
+[Curated heading level=2 type=propositions: PROB. 6 PROP. XXX.]
+
+[Curated heading level=2 type=problems: PROB. 6 PROP. XXX.]
+
 ## PROB. 6 PROP. XXX.
 
 Trouuer deux lignes rationeles commenſurables en puiſſance ſeulement, & que la plus grande puiſſe plus que la plus petite du quarré d’vne ligne qui luy ſoit commenſurable en longitude.

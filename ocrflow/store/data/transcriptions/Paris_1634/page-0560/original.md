@@ -5,6 +5,10 @@
 contr. 3.s.29.9.
 2.concl. 21.a.1 | d & e n̄ snt nr;pa.pa.
 
+[Curated heading level=2 type=propositions: THEOR. XXXII. PROPOS. XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXII. PROPOS. XXXIV.]
+
 ## THEOR. XXXII. PROPOS. XXXIV.
 
 Si par numerus neque à binario duplus sit, neque dimidium habeat imparem ; pariter par est, & pariter impar.

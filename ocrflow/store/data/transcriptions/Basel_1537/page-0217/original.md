@@ -8,6 +8,8 @@ CAMPANVS Sint a & b,inter quos cadunt c & d in cōtinuā proportione habētes se
 
 CAMPANI annotatio. Ex hoc constat nullam superparticularem posse per æqualia diuidi,si enim hoc esset,oporteret inter duos numeros sola unitate distātes numerū cadere medium.quod esse non potest ideoq̃ tonus in musica quem sesquioctaua continet proportio,in duo uera semitonia diuidi non potest, sed necessario diuiditur in minus semitonium & maius.
 
+[Curated heading level=2 type=theorems: Theorema 6 Propositio 8]
+
 ## Eucli.ex Zamb. Theorema 6 Propositio 8
 
 [Curated heading level=3 type=zamberti_sequence: 8.]

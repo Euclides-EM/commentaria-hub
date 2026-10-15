@@ -18,6 +18,8 @@ wie bedf/gegen abcd.
 
 Volgt auß verwechſlung der proportionalitet / das bgh / gegen bedf / wie abcd / gegen abcd / vnd alſo jme auch gleich ſein můß. Dieweil dann bedf / dem A gleich war gemacht / wirt jme auch bgh / gleich ſein.
 
+[Curated heading level=2 type=propositions: XXVI. Die ſechßvndzwainzigſt propoſition]
+
 ## XXVI. Die ſechßvndzwainzigſt propoſition.
 
 So von ainem parallelogramm ain anders dem ſelben gleichförmig vnd gleicher weiß geſtellt / hingenommen wirt / das mit dem gantzen ainen gemainen winckel habt / wirt es auch am diameter des gantzen ſtehn.
@@ -25,6 +27,8 @@ So von ainem parallelogramm ain anders dem ſelben gleichförmig vnd gleicher we
 ### Erklärung.
 
 Iſt die 24 prop. vmbgewendt / ſei das parallelogram abcd / daruon im das gleichförmig vn̄ gleicherweiß geſtellet aegh / hingenommen / der winckel a jnen baiden gemain / ſagt diſe prop. das es auch mitten entzwai getailt můß werden von des gantzen diametro / der da iſt ac / als in gedachter prop. figur vor augen.
+
+[Curated heading level=2 type=propositions: XXVII. Die ſibenvndzwainzigſt propoſition]
 
 ## XXVII. Die ſibenvndzwainzigſt propoſition.
 

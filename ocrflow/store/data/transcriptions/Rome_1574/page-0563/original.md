@@ -1,5 +1,7 @@
 <!-- Running title: EVCLID.GEOM. -->
 
+[Curated heading level=2 type=definitions: XIX.]
+
 ### XIX.
 
 [Curated heading level=4 type=incipit: CVBVS]
@@ -11,6 +13,8 @@ SOLIDVM quoque illum numerum vocat cubum, qui eſt æqualiter æqualis æqualite
 [Figure: cube of twenty-seven unit points, three points along each edge]
 
 QVILIBET vero trium numerorum æqualium, ſub quibus cubus continetur, vel ex quorum mutua multiplicatione procreatur, Geometris latus cubi, pleriſque autem Arithmeticis radix dicitur.
+
+[Curated heading level=2 type=definitions: XX.]
 
 ### XX.
 

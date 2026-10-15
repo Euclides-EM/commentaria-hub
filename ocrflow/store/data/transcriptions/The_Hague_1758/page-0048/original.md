@@ -4,6 +4,10 @@
 
 [Figure: three horizontal lines labelled A, B and C at left; a base line M G F E D with dotted circular arcs intersecting at H, and lines drawn from H to F and E]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXII. PROBLEME VIII.]
+
+[Curated heading level=2 type=problems: PROBLEME VIII. PROPOSITION XXII.]
+
 ## PROPOSITION XXII. PROBLEME VIII.
 
 {dropcap:D|lines=2|style=plain}E trois lignes droites, égales à trois autres droites données (A, B, C), conſtruire un triangle (FHE); en ſuppoſant que deux quelconques de ces droites données ſoient plus grandes que la troiſieme.

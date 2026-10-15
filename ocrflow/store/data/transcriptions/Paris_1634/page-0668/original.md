@@ -31,6 +31,10 @@ hyp. | aggreg..□.ac + □.cb incomm. ▭.acb,
 βγ 14.10 | aggreg..□.df + □.fe incomm. ▭.dfe,
 concl. 42.10 | de, est ——, po. 2; medi.
 
+[Curated heading level=2 type=propositions: THEOR. LIV. PROPOS. LXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. LIV. PROPOS. LXXII.]
+
 ## THEOR. LIV. PROPOS. LXXII.
 
 Si rationale & medium componantur, quatuor irrationales fiunt; vel ea, quæ ex binis nominibus, vel quæ ex binis mediis prima, vel maior, vel rationale ac medium potens.

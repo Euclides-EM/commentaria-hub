@@ -6,6 +6,10 @@ vuarrez ſeront entr’eux comme nombre à nombre, mais non pas comme nombre qu
 
 Finalement pource que par le corol. de la 8.p.6. AB eſt moyenne proportionele entre BH, BK (car le triangle BAH, à l’angle droict, duquel eſt tiree AK perpend. à la baſe BH) le quarre de AB ſera egal au rectangle de BH, BK. Parquoy puis que la ligne droicte AB peut la ſuperficie contenue de la rationele BH, & du reſidu 4.BK: par la 95 p.10.icelle AB ſera ligne mineure. Ce qu’il falloit prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 12. PROP. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. 12. PROP. XII.]
+
 ## THEOR. 12. PROP. XII.
 
 Le quarré du coſté du triangle equilateral inſcrit dans vn cercle, eſt triple du quarré du demy diametre d’iceluy cercle.

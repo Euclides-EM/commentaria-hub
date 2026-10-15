@@ -13,6 +13,8 @@ HINC manifeſtum eſt, ſi in circulo recta aliqua linea aliquam rectam lineam b
 
 [Curated heading level=2 type=campanus: 2]
 
+[Curated heading level=2 type=theorems: THEOR. 1. PROPOS. 2.]
+
 ## THEOR. 1. PROPOS. 2.
 
 [Margin]

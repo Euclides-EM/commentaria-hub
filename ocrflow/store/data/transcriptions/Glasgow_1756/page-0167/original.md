@@ -15,6 +15,10 @@ a. Def. 5. 5.
 
 ut A ad B, ita A, C, E ad B, D, F. Quare ſi &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XIII. THEOR.]
+
 ## PROP. XIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I prima ad ſecundam eandem habeat rationem quam tertia ad quartam, tertia autem ad quartam majorem rationem habeat quam quinta ad ſextam; et prima ad ſecundam majorem habebit rationem quam quinta ad ſextam.

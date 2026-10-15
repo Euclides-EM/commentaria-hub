@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
+[Curated heading level=2 type=propositions: THEOR. XXVIII. PROPOS. XXX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVIII. PROPOS. XXX.]
+
 ## THEOR. XXVIII. PROPOS. XXX.
 
 Si impar numerus parem numerum metiatur, & illius dimidium metietur.
@@ -31,6 +35,10 @@ hyp. | a, msur: b ꝑ c,
 1.a.1 | 2d 2|2, 2▭.a,e,
 7.a.1 | d 2|2 ▭.a,e,
 concl. 7.a.7 | a, msur: ▭.ae, u d.
+
+[Curated heading level=2 type=propositions: THEOR. XXIX. PROPOS. XXXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIX. PROPOS. XXXI.]
 
 ## THEOR. XXIX. PROPOS. XXXI.
 

@@ -41,6 +41,8 @@ SIT tertio A, minor quam C, eritque ob hoc maior proportio C, maioris ad B, quam
 
 [Curated heading level=2 type=campanus: 15]
 
+[Curated heading level=2 type=theorems: THEOR. 15. PROPOS. 15.]
+
 ## THEOR. 15. PROPOS. 15.
 
 [Margin]

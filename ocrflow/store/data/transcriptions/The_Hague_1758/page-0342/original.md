@@ -3,6 +3,10 @@
 
 [Figure: two parallelepipeds on the same base in a double-ruled frame, labelled K, H, M, G, E, I, L, F, D, C, A and B, with diagonals drawn]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXIX. THEOREME XXIV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXIV. PROPOSITION XXIX.]
+
 ## PROPOSITION XXIX. THEOREME XXIV.
 
 {dropcap:L|lines=2|style=plain}Es paralelipipédes (HB & KB) placés ſur la même baze BD, ayant même hauteur (AE) & deſquels les lignes inſiſtantes (AE, AI, &c.) ſont dans la même direction (IF, GK) : ſont égaux.

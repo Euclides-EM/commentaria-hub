@@ -2,15 +2,19 @@
 
 G B & minus ſegmentum B D, ſic eſt B E cubi latus, ad B I icoſahedri latus, per vigeſimamſecundam ſexti. Recta itaque linea ſecta extrema & media ratione, quam, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
+
 ## Propoſitio octaua.
 
 Dodecahedri ſolidum ad Icoſahedri ſolidum eſt, ſicut cubi latus ad Icoſahedri latus, eidem ſphæræ deſcriptorum.
 
 Quoniam oſtenſum eſt quarta huius eundem circulum comprehendere & icoſahedri triangulum, & dodecahedri quinquangulum eadem ſphæra conceptorum, Sequetur, cùm æquales ſint circuli eas baſes capientes, in ipſos perpendiculares à centro æquales duci, per corollar. lemmatis decimæſextæ duodecimi, & proinde pyramides ſuper eorum ſolidorum baſibus eiuſdem eſſe verticis: Nam earum pyramidum vertices in centro concurrunt. Quare ad ſe erunt vt baſes, per quintam & ſextam duodecimi. Et hac de re pyramides dodecahedrum componẽtes, ad pyramides icoſahedrum componentes, ad ſe erunt vt baſes, quæ quidem ſunt eorum ſolidorum ſuperficies. Eorum itaque ſolida ad ſe erunt vt ſuperficies. Sed ſuperficies dodecahedri ad ſuperficiem icoſahedri fuit vt cubi latus, ad icoſahedri latus, per ſextam huius. Sicut itaque dodecahedri ſolidum ad icoſahedri ſolidum, ſic cubi latus ad icoſahedri latus, eidem ſphæræ inſcriptorum, per vndecimam quinti. Dodecahedri igitur ſolidum ad icoſahedri ſolidum eſt ſicut, &c.
 
-## Corollarium.
+### Corollarium.
 
 Dodecahedri ſolidũ ad Icoſahedri ſolidũ, ad ſe ſunt vt ſuæ ſuperficies in eadẽ Sphæra deſcriptæ ſcilicet vt cubi latus ad Icoſahedri latus. vt patuit, nã reſoluũtur in pyramides eiuſdẽ verticis.
+
+[Curated heading level=2 type=propositions: Propoſitio nona.]
 
 ## Propoſitio nona.
 
@@ -20,9 +24,11 @@ Sit triangulum æquilaterum A B G, à ſigno A in latus B G perpendicularis agat
 
 [Figure: triangle with apex A, base B G, point D on the base, and perpendicular A D]
 
-## Corollarium.
+### Corollarium.
 
 Si Octahedrum & trilatera æquilatera Pyramis, ſphæræ cuius dimetiens certa eſt inſcribantur, eorum ſuperficies mediæ erunt. Nam ſuperficies illæ conſtant triangulis æquilateris, quorum latera dimetienti certæ ſunt commẽſurabilia, per decimamtertiam & decimamquartam decimitertij, & ideo certæ ſunt, ſed potentia tantum ad perpendicularem commenſurabiles, & igitur medium comprehendunt triangulum, vt patuit.
+
+[Curated heading level=2 type=propositions: Propoſitio decima.]
 
 ## Propoſitio decima.
 

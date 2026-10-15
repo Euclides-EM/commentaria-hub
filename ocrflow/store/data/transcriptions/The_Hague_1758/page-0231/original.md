@@ -1,8 +1,16 @@
+[Curated heading level=1 type=propositions: APPENDICE]
+
+[Curated heading level=1 type=definitions: APPENDICE]
+
+[Curated heading level=1 type=postulates: APPENDICE]
+
 # APPENDICE.
 
 [Subhead]
 De la Compoſition & Décompoſition des Raiſons & des Logarithmes.
 [/Subhead]
+
+[Curated heading level=2 type=definitions: DEFINITION I.]
 
 ## DEFINITION I.
 

@@ -16,6 +16,8 @@ CAMPANVS. Sit datus arcus a b c cui ſubtendatur chorda a c, quæ diuidatur per 
 
 [Diagram: semicircular arc with b at the summit; a, d, c on the base chord; lines b a, b d, b c drawn]
 
+[Curated heading level=2 type=problems: Problema 4. Propoſitio 30.]
+
 ## Eucli.ex Zamb. Problema 4. Propoſitio 30.
 
 [Curated heading level=3 type=zamberti_sequence: 30.]

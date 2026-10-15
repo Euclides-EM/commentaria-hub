@@ -1,6 +1,10 @@
 <!-- Page number: 68 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IX.]
+
 ## PROPOSITION IX.
 
 ### THÉORÊME.
@@ -18,6 +22,10 @@ Les deux rectangles CBIG, GLKD, ont chacun pour mesure AB × BC : si on les retr
 [Curated heading level=4: Scholie.]
 
 *Scholie.* Cette proposition revient à la formule d’algèbre (a — b)² = a² + b² — 2ab.
+
+[Curated heading level=2 type=propositions: PROPOSITION X. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION X.]
 
 ## PROPOSITION X.
 

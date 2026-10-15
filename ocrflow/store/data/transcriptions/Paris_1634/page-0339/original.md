@@ -26,6 +26,10 @@ hyp. | ad π db 2|2 ae π ec,
 1.6 | ae π ec 2|2 Δade π Δecd,
 2.concl. s.11.6 | Δade π Δdbe 2|2 Δade π Δecd.
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. III.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. III.]
+
 ## THEOR. III. PROPOS. III.
 
 Si trianguli angulus bifariam sectus sit, secans autem angulum recta linea secuerit & basin : basis segmenta eandem habebunt rationem, quam reliqua ipsius trianguli latera. Et si basis segmenta eandem habeant rationem, quam reliqua ipsius trianguli latera ; recta linea, quæ à vertice ad sectionem ducitur, bifariam secat trianguli ipsius angulum.

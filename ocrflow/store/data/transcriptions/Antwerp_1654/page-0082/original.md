@@ -1,6 +1,8 @@
 <!-- Running title: Liber Primus. -->
 <!-- Page number: 49 -->
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XLV.]
+
 ## PROPOSITIO XLV.
 
 [Curated heading level=2 type=figures: Fig. 69]

@@ -3,6 +3,10 @@
 
 [Diagram: circle with inscribed quadrilateral DABC, diagonals AC and BD, and angles labelled m, n, p, q, r and u]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXII. THEOREME XX.]
+
+[Curated heading level=2 type=theorems: THEOREME XX. PROPOSITION XXII.]
+
 ## PROPOSITION XXII. *THEOREME XX.*
 
 {dropcap:L|lines=2|style=plain}Es figures quadrilatères (DABC) inſcrites dans un cercle : ont les angles oppoſés (BAD, BCD ou ABC, ADC) égaux à deux droits.

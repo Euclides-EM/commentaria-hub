@@ -17,6 +17,10 @@ aequale igitur eſt parallelogrammum BL ipſi GB quadrato. ſimiliter junctis AE
 
 [Diagram: geometrical construction with right triangle ABC, squares BDEC, BAGF, and ACHK, and line AL]
 
+[Curated heading level=2 type=propositions: PROP. XLVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XLVIII. THEOR.]
+
 ## PROP. XLVIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I quadratum ab uno laterum trianguli, aequale ſit quadratis a reliquis trianguli lateribus deſcriptis; angulus reliquis duobus trianguli lateribus contentus rectus erit.

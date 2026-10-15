@@ -9,6 +9,10 @@ g. 26. 1.
 
 quare DT quidem eſt aequalis TG, YT vero ipſi TS. Si igitur in ſolido &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XL. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XL. THEOR.]
+
 ## PROP. XL. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint duo priſmata triangularia aeque alta, quorum unum quidem baſim habeat parallelogrammum, alterum vero triangulum, et parallelogrammum duplum ſit trianguli; aequalia erunt ipſa priſmata.

@@ -9,6 +9,8 @@ trahatur, &c. Quod erat oſtendendum.
 
 [Curated heading level=2 type=campanus: 26]
 
+[Curated heading level=2 type=theorems: THEOR. 23. PROPOS. 25.]
+
 ## THEOR. 23. PROPOS. 25.
 
 [Curated heading level=3 type=incipit: SI]
@@ -31,6 +33,8 @@ Quia igitur & totus AB, ponitur par; erit & reliquus AD, par. Detracta ergo unit
 
 [Curated heading level=2 type=campanus: 27]
 
+[Curated heading level=2 type=theorems: THEOR. 24. PROPOS. 26.]
+
 ## THEOR. 24. PROPOS. 26.
 
 [Curated heading level=3 type=incipit: SI]
@@ -52,6 +56,8 @@ Quia ergo ex pari AD, par aufertur CD; erit & reliquus AC, par. Quare ſi ab imp
 [/Margin]
 
 [Curated heading level=2 type=campanus: 28]
+
+[Curated heading level=2 type=theorems: THEOR. 25. PROPOS. 27.]
 
 ## THEOR. 25. PROPOS. 27.
 

@@ -3,6 +3,10 @@
 
 [Diagram: obtuse triangle C A B with dotted perpendicular from B to point D on the dotted prolongation of C A]
 
+[Curated heading level=2 type=propositions: PROPOSITION XII. THEOREME XI.]
+
+[Curated heading level=2 type=theorems: THEOREME XI. PROPOSITION XII.]
+
 ## PROPOSITION XII. THEOREME XI.
 
 {dropcap:E|lines=2|style=plain}N tout triangle amblygone (CBA) le quarré du côté (BC): qui eſt oppoſé à l'angle obtus (A) eſt plus grand que les quarrés des deux autres côtés (AB, CA), du double rectangle compris d'un des côtés (CA) alentour de l'angle obtus, ſur le prolongement duquel tombe la perpendiculaire abaiſſée de l'angle oppoſé (B), & de la partie (AD) compriſe entre cette perpendiculaire & le ſommet de l'angle obtus (A).

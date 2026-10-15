@@ -3,6 +3,10 @@
 
 ſed EF parallelogrammum aequale eſt rectilineo D. ergo et rectilineum KGH ipſi D eſt aequale; eſt autem KGH ſimile rectilineo ABC. Dato igitur rectilineo ABC ſimile, et alteri dato D aequale idem conſtitutum eſt KGH. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XXVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXVI. THEOR.]
+
 ## PROP. XXVI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I a parallelogrammo parallelogrammum auferatur ſimile toti, et ſimiliter poſitum, communem ipſi angulum habens; circa eandem diametrum eſt cum toto.

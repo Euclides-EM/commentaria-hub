@@ -8,6 +8,8 @@ At uero si e non numerat k,sit m minimus numeratus ab eis scilicet e & k,quē m 
 
 [Diagram: dotted number lines beside the text, labelled a (3 dots), b (2 dots), c (4 dots), d (3 dots), e (5 dots), f (4 dots), g (12 dots), h (9 dots), K (6 dots), then n, p, m, q, r, s, t, x (long rows of dots)]
 
+[Curated heading level=2 type=problems: Problema 2 Propositio 4]
+
 ## Eucli.ex Zamb. Problema 2 Propositio 4
 
 [Curated heading level=3 type=zamberti_sequence: 4.]

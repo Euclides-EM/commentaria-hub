@@ -5,6 +5,10 @@
 
 Hoc autem ſatis manifeſtum eſt ex ipſa trigeſima Tertij & Conſectario antecedentis. Nam quum FE ſit ęqualis AD, per trigeſimamquartam Primi: ob idq́;, ipſi AB: ductis lineis BE & CE, fiet Triangulum BEC Rectangulum. Ob id, ex ipſo Conſectario, erit BF ad FE (ob idq́;, ad ipſam AB) vt FE ad FC, Quod fuit faciendum.
 
+[Curated heading level=2 type=propositions: PROBLEMA 2, PROPOSITIO X.]
+
+[Curated heading level=2 type=problems: PROBLEMA 2, PROPOSITIO X.]
+
 ## PROBLEMA 2, PROPOSITIO X.
 ### Theoni 11.
 
@@ -27,6 +31,10 @@ Quum enim, per decimamquintam Primi, angulus B, Trianguli ABD, ſit æqualis ang
 [Diagram: triangle with C at the top, D, B and A on the base, and a perpendicular from C to B]
 
 ALITER rursùs. Conſtituo ipſas AB & BC ad angulum rectum ABC. Et connexa AC, duco à puncto C, perpendicularem CD: quam produco donec concurrat cum AB protracta, ad punctum D. Dico BD eſſe tertiam proportionalem ad AB & BC. Id verò ſatis conſtat ex Conſectario octauæ huius.
+
+[Curated heading level=2 type=propositions: PROBLEMA 3, PROPOSITIO XI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 3, PROPOSITIO XI.]
 
 ## PROBLEMA 3, PROPOSITIO XI.
 ### Theoni Problema 4, Propoſitio 12.

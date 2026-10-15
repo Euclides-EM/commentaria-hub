@@ -22,6 +22,8 @@ CAMPANVS Simile huic proposuit prima septimi in numeris. Sint duæ quantitates i
 
 [Diagram: at the right of the Campanus proof, three horizontal lines — a long line with a at its left and d at its right; a short line c with e at its right; and a line b above a longer ticked line]
 
+[Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
+
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 
 [Curated heading level=3 type=zamberti_sequence: 2.]

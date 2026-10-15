@@ -11,6 +11,10 @@ quare datus angulus rectilineus BAC a recta linea AF bifariam ſectus eſt.
 
 Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. X. PROB.]
+
+[Curated heading level=2 type=problems: PROP. X. PROB.]
+
 ## PROP. X. PROB.
 
 [Subhead]
@@ -42,6 +46,10 @@ c. 4. 1.
 [/Margin]
 
 recta igitur linea terminata AB bifariam ſecta eſt in puncto D. Q. E. F.
+
+[Curated heading level=2 type=propositions: PROP. XI. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XI. PROB.]
 
 ## PROP. XI. PROB.
 

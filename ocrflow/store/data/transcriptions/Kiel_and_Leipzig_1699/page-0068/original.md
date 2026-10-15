@@ -25,6 +25,10 @@ Dw. muß BAC ⊼ bac
 
 Ist also jederzeit in dem △, dessen Grund-Seite grösser / als des andern / auch der Winckel grösser/als in dem andern △. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXVI. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 17. Beweiß-Stück. Der XXVI. Vortrag.]
+
 ## Der XXVI. Vortrag.
 
 ## Das 17. Beweiß-Stück.

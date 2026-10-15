@@ -8,6 +8,10 @@ AC & DF ſeront reſidus premiers: Que ſi BC eſt commenſen longitude à la r
 
 Le reſidu AC ſoit √6C—√12, & DB√15—√3. leſquelles ſont commenſ. en longitude, l’vne eſtant double de l’autre, & la conuenable CB ſoit √i2: Donc la toute AB eſt √60: & puis que comme A C eſt à DF, ainſi CBV12 eſt à FE; icelle FE ſera √3: & la toute DE V15commen. ſeulement en puiſſance à DF.
 
+[Curated heading level=2 type=propositions: THEOR. 81. PROP. CV.]
+
+[Curated heading level=2 type=theorems: THEOR. 81. PROP. CV.]
+
 ## THEOR. 81. PROP. CV.
 
 La ligne commenſurable à vn reſidu medial, eſt auſſi reſidu medial de meſme ordre.

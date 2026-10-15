@@ -8,6 +8,10 @@
 
 ¶Sequitur etiam ex huiusce propositionis demonstratione, quòd in triangulis angulus qui reliquis duobus æquatur, rectus est. ¶ Et quando vtrobique cósistentes anguli, eisdem angulis fuerint æquales:vterq; æqualium angulorum rectus erit.
 
+[Curated heading level=2 type=propositions: Theorema 28, Propositio 32.]
+
+[Curated heading level=2 type=theorems: Theorema 28, Propositio 32.]
+
 ## Θεώρημα κη, Πρόθεσις λβ.
 
 Εὰν κύκλου ἐφάπτηταί τις ἐυθεῖα, ἀπὸ δὲ τῆς ἁφῆς ἐπὶ τὸν κύκλον διαχθῇ τις ἐυθεῖα τέμνουσα τὸν κύκλον, ἃς ποιεῖ γωνίασ' πρὸς τῇ ἐφαπτομένῃ, ἴσαι ἔσονται ταῖς ἐν τοῖς ἐναλλὰξ τῶ κύκλου τμήμασι γωνίαις.

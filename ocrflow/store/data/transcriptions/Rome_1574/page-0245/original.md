@@ -10,6 +10,8 @@ RVRSVS, ſi ijdem numeri ſecentur vtcunque, prior quidem in 3. 7. poſterior au
 
 [Curated heading level=2 type=campanus: 2]
 
+[Curated heading level=2 type=theorems: THEOR. 2. PROPOS. 2.]
+
 ## THEOR. 2. PROPOS. 2.
 
 [Curated heading level=3 type=incipit: SI]

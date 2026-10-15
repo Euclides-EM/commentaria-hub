@@ -1,6 +1,10 @@
 <!-- Running title: LIVRE IV. -->
 <!-- Page number: 127 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION XV. LEMME.]
+
+[Curated heading level=2 type=lemmas: LEMME. PROPOSITION XV.]
+
 ## PROPOSITION XV.
 
 ### LEMME.

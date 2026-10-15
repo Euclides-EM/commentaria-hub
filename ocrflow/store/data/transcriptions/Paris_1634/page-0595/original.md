@@ -5,6 +5,10 @@ suppos. | a, comm. e,
 suppos. | a, incomm. e,
 2 concl. 10.10 | c, incomm. f.
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XVI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XVI.]
+
 ## THEOR. XIII. PROPOS. XVI.
 
 Si duæ magnitudines commensurabiles componantur, & tota magnitudo vtrique ipsarum commensurabilis erit : Quod si tota magnitudo vni ipsarum commensurabilis fuerit, & quæ à principio magnitudines commensurabiles erunt.

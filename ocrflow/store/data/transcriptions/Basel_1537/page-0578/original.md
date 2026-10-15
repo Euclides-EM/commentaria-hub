@@ -6,6 +6,8 @@ Datū siquidē a b ad datā a c proiectū sit excedens specie data c b, dico quo
 
 [Diagram: at right, a square with m at top left, g inside near the top, l at top right, and a diagonal from m to the bottom right corner; a horizontal strip extends left with d and f above it, b at its right end, c inside; bottom line with points a, k, c, b]
 
+[Curated heading level=2 type=theorems: Theorema 60 Propositio 60]
+
 ## Theorema 60 Propositio 60
 
 SI parallelogrammum specie & magnitudine datū dato gnomone auctum aut imminutū fuerit. Dātur latitudines gnomonis.
@@ -13,6 +15,8 @@ SI parallelogrammum specie & magnitudine datū dato gnomone auctum aut imminutū
 Parallelogrammum enim a b datum specie & magnitudine augeatur prius dato, gnomone e c b d f g. Dico quod datæ sunt utræq; ipsarum c e, d f. Nam quoniam a b datū est, est autem d f g gnomon datus, & totū igitur a g datū est. Sed & specie, simile enim est ipsi a b. Igitur ipsius a g latera data sunt. Data igitur est utraque ipsarum a e, a f, est autem utraque ipsarum c a, a d data, reliqua igitur utraque ipsarum c e, d f data est. Rursus iam parallelogrāmū a g, datū specie & magnitudine minuatur dato gnomone e c b d f g. Dico quod utraque ipsarum c e, d f, data est. Quoniā igitur datū est a g cuius gnomō e c b d f g, datus est. Reliquum igitur a b datū est. Sed & specie. Ipsius igitur a b latera data sunt. Data igitur est utraque ipsarum c a, a d, est autē & utraque ipsarum e a, a f, data. Et reliqua utraque igitur ipsārum e c, d f data est.
 
 [Diagram: a large rectangle with e at top left and g at top right; a smaller rectangle in its lower left corner with c at its upper left and b at its upper right; bottom line with points a, d, f]
+
+[Curated heading level=2 type=theorems: Theorema 61 Propositio 61]
 
 ## Theorema 61 Propositio 61
 

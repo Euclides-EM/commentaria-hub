@@ -33,6 +33,10 @@ Pari ratione fit ex hac propositione manifestum omnes angulos trianguli æquilat
 
 Semblablement il est manifeste de cette proposition, que tous les angles d'vn triangle equilateral & deux angles sur la base d'vn triangle isoscele sont aigus.
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XVIII.]
+
 ## THEOR. XI. PROPOS. XVIII.
 
 Omnis trianguli maius latus maiorem angulum subtendit.

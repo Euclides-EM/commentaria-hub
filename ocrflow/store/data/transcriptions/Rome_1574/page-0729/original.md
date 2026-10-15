@@ -20,6 +20,8 @@ ut A, ad B, ita D, ad alium, uidelicet ad E. Erit igitur permutando ut A, ad D, 
 
 [Curated heading level=2 type=campanus: 19]
 
+[Curated heading level=2 type=problems: PROBL. 1. PROPOS. 18.]
+
 ## PROBL. 1. PROPOS. 18.
 
 [Curated heading level=3 type=incipit: DVOBVS]

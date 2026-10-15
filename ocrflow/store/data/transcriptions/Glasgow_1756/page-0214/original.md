@@ -31,6 +31,10 @@ i. Cor. 19. 6.
 
 Univerſè igitur manifeſtum eſt, ſi tres rectæ lineæ proportionales fuerint, ut prima ad tertiam, ita eſſe figuram rectilineam quæ ſit a prima ad eam quæ a ſecunda, ſimilem et ſimiliter deſcriptam.
 
+[Curated heading level=2 type=propositions: PROP. XXI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXI. THEOR.]
+
 ## PROP. XXI. THEOR.
 
 {dropcap:Q|lines=2|style=plain}UÆ eidem rectilineo ſunt ſimilia, et inter ſe ſimilia ſunt.

@@ -20,6 +20,8 @@ CAMPA. Sit eadē figura eædēq̃ hypotheses quæ in præmissa, eritq̃ ex diffi
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
+[Curated heading level=2 type=theorems: Theorema 37 Propositio 55]
+
 ## Eucli. ex Zamb. Theorema 37 Propositio 55
 
 [Curated heading level=3 type=zamberti_sequence: 55.]

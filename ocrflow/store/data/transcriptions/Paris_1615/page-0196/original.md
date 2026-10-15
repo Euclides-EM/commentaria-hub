@@ -4,6 +4,10 @@
 
 lvn aDAB, & l’autre a DAC, leſquels par ce moyen ſeront auſſi egaux;ce qui eſtoit à prouuer.
 
+[Curated heading level=2 type=propositions: THEOR. 4. PROP. IIII.]
+
+[Curated heading level=2 type=theorems: THEOR. 4. PROP. IIII.]
+
 ## THEOR. 4. PROP. IIII.
 
 Des triangles equiangles, les coſtez qui ſont au long des agles egaux, ſont proportionnaux; & les cõſtez qui ſouſtiennent les angles egaux, ſont de meſme raiſon.

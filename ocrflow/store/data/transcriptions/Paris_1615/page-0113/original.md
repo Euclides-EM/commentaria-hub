@@ -12,6 +12,10 @@ Qu’ainſi ne ſoit; par la 12.p.1.du cé̃tre E ſoient menees les deux ligne
 
 Quant à la ſeconde partie. Ie dis que ſi AD, BC ſont equidiſtantes du centre E, qu’elles ſeront egales; car ayant conſtruit comme deſſus, les perpendiculaires EF & EG ſeront egales par la 4.def. de ce liure, & coupperont AD, BC en deux egalement par la 3..p.3. & par deduction de la 47.p.1. comme cy deſſus, AF ſe trouuera egale à BG; & par conſequent auſſi leurs doubles AD, & BC ſeront egales; ce qui eſtoit à demõſtrer.
 
+[Curated heading level=2 type=propositions: THEO. 14. PROP. XV.]
+
+[Curated heading level=2 type=theorems: THEO. 14. PROP. XV.]
+
 ## THEO. 14. PROP. XV.
 
 Dans le cercle la plus grande ligne eſt le diametre: quant aux autres, touſiours la plus proche du centre, eſt plus grande que la plus eſloignee.

@@ -5,6 +5,10 @@ conſtr. | ar 2|2 rs,
 14.5 | am 2|2 mo, γ
 concl. d.γ | am, mo, op, pq, qb *ſnt* 2|2 đe.
 
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. XI.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. XI.]
+
 ## PROBL. III. PROPOS. XI.
 
 A deux lignes droictes données, trouuer la troisiesme proportionelle.
@@ -32,6 +36,10 @@ ab π bc 2|2 bc Ⅱ ad π de.
 
 concl. α.4.6 | ab π bc,
 | ad Ⅱ bc π de.
+
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. XII.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. XII.]
 
 ## PROBL. IV. PROPOS. XII.
 

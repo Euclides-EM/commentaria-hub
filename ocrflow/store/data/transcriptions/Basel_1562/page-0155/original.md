@@ -5,6 +5,10 @@
 Volgen nun die propoſition oder fürgäben diß fünfften bůchs.
 [/Subhead]
 
+[Curated heading level=1 type=propositions: Das fünffte bůch Euclidis]
+
+[Curated heading level=2 type=propositions: I. Die erſt Propoſition]
+
 ## I. Die erſt Propoſition.
 
 So zwo ordnung von quantiteten fürgeben werden / alſo / das der wieuilſte tail die erſt / inn der erſten ordnung iſt gegen der erſten in der anderen ordnung / ſolcher tail auch die ander der erſten ordnung iſt inn der zwayten der anderen ordnung / vnd alſo fortan. So ſprich ich / das die quantiteten der erſten ordnung alle ſambtlich oder zůhauff / auch eben der ſelbe tail auß dem Collect / ſo die quantitet der andern ordnung alle zůhauff genommen / bringen.

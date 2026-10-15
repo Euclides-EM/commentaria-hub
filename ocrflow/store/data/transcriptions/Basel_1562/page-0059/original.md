@@ -1,6 +1,8 @@
 <!-- Page number: 38 -->
 <!-- Running title: Des erſt büchs Euclidis -->
 
+[Curated heading level=2 type=propositions: XLVII. Die ſibenvndviertzigſt Propoſition]
+
 ## XLVII. Die ſibenvndviertzigſt Propoſition.
 
 [Subhead]

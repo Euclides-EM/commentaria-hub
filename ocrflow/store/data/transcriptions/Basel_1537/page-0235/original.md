@@ -18,6 +18,8 @@ bus est, & binos relinquētes omnes, (ex præcedenti) patet. Dico iam quod & rel
 
 CAMPANVS. Hæc ex opposito subiecti præmissæ, infert partē oppositi passionis. Dico autem partem, quoniam ex 8 constat omnes in locis imparibus constitutos esse quadratos, omnesq̃ quorū locus super ternarium uel quemlibet ipsius multiplicem addit unitatē, esse cubos. Sint itaq̃ qui prius ab unitate continue proportionales, non sit autem a quadratus, sed nec cubus, dico nullum ex omnibus esse quadratū aut cubicum, nisi quos octaua proponit. Si enim quis alius ponatur quadratus, sequitur per 22 octaui, a esse quadratū. Quod si cubus, sequitur per 25 eiusdem, a esse cubum, quorum utrunq̃, contrarium est hypothesi Constat ergo propositum.
 
+[Curated heading level=2 type=theorems: Theorema 10 Propositio 10]
+
 ## Eucli. ex Zamb. Theorema 10 Propositio 10
 
 [Curated heading level=3 type=zamberti_sequence: 10.]

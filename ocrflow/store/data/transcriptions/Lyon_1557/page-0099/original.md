@@ -1,6 +1,10 @@
 <!-- Page number: 90 -->
 <!-- Running title: ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: PROBLEMA 6, PROPOSITIO XXXIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 6, PROPOSITIO XXXIII.]
+
 ## PROBLEMA 6, PROPOSITIO XXXIII. Theoni 34.
 
 A dato Circulo ſegmentum abſcindere, capiens angulum dato angulo rectilineo æqualem.
@@ -10,6 +14,10 @@ A dato Circulo ſegmentum abſcindere, capiens angulum dato angulo rectilineo æ
 Sit Circulus datus A B C, datus verò angulus D. Volo à Circulo A B C abſcindere ſegmentum, capiens angulum æqualem angulo D.
 
 Duco lineam E F, quæ, per decimamſeptimam huius, tangat Circulum in A puncto : A quo intra Circulum duco lineam A B, quæ cum A E faciat angulum E A B æqualem angulo D, per vigeſimamtertiam Primi. Ac tum ductis lineis A C & B C, erit angulus C in ſegmento A C B, æqualis angulo E A B, per trigeſimamprimam huius : Quare & angulo D dato, Quod fuit faciendum.
+
+[Curated heading level=2 type=propositions: THEOREMA 28, PROPOSITIO XXXIIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 28, PROPOSITIO XXXIIII.]
 
 ## THEOREMA 29{printer-error-correction:28}, PROPOSITIO XXXIIII. Theoni 35.
 

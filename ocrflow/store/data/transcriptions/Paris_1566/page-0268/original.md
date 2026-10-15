@@ -1,9 +1,13 @@
 <!-- Running title: LIBER DECIMVS. -->
 <!-- Page number: 121 -->
 
+[Curated heading level=1 type=page_order: Leaf 121 (pages 268–269), read after page 271]
+
 *Eſto certum mediúmque potens A B recta, cuius maius nomen ſit A G. Quod autem ex A B applicetur (per 45 primi) ad expoſitam certam, quæ ſit D E, latitudinem efficiens D I. Reliqua item vt prioribus conſtruximus: Dico rectam D I eſſe ex binis nominibus quintam. Cùm A B ſit certum mediúmque potens compoſitum ex quadratis A G G B medium erit, & proinde D L medium. Quod verò ſub ipſis A B B G certum erit (per 40 huius) & proinde M Z duplum, eius quod ſub ipſis certum erit. Quare latitudo M I recta certa longitudine ipſi propoſitæ D E commẽſurabitur, per 20 huius. Recta verò D M certa longitudine eidem D E propoſitæ certæ incõmenſurabilis erit, per 22 huius. Sed duarum D E M I commenſurabilium, altera D E alicui D M incommenſurabilis eſt, & reliqua M I eidem D M (per ſecundum coroll. 10 huius) longitudine incommenſurabilis erit. Potentia itaque tantùm commenſurabiles certæ erunt D M M I, Tota igitur D I ex binis erit nominibus: Dico quod & quinta. Nam minus nomen M I oſtenſum eſt propoſitæ D E longitudine commenſurabile. Cùm autem A G G B ſint potentia incommenſurabiles, per 40 huius, D T K L (ipſis potentiis æqualia) incommenſurabilia erunt. Et proinde (per primam ſexti) D K K M incommenſurabiles erunt longitudine. Quare comparatum ſub D K K M, æquum quartæ parti eius quod à minore M I, deficiens ſpecie quadrata, ac per incommenſurabiles ipſam D M ſecans in K, efficit (ex 18 huius) maiorem D M plus poſſe minore M I eò quòd à ſibi longitudine incommenſurabile. Recta igitur D I erit ex binis nominibus quinta, per quintam diffinitionem binomiorum. Quod itaque ex certum mediúmque potente, ad certam, &c.*
 
 [Diagram: rectangle with D at upper left and E at lower left, points K, M, N, I along the top edge, T, L, C, Z along the bottom edge; below it a horizontal line A G B]
+
+[Curated heading level=2 type=propositions: Propoſitio ſexageſimaquinta.]
 
 ## Propoſitio ſexageſimaquinta.
 

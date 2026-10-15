@@ -11,6 +11,8 @@ IAM vero rurſus numerus, 10. diuidatur æqualiter in 5. & 5. Item inæqualiter 
 
 [Curated heading level=2 type=campanus: 10]
 
+[Curated heading level=2 type=theorems: THEOR. 10. PROPOS. 10.]
+
 ## THEOR. 10. PROPOS. 10.
 
 [Margin]

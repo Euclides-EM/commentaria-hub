@@ -18,6 +18,10 @@ n. 18. III.
 Ist also dem gegebenen gleichseitigen und gleichwincklichten
 Fünffeck ein Kreyß umbschrieben. W. Z. M.
 
+[Curated heading level=2 type=propositions: Der XIV. Vortrag. Werck-Stück]
+
+[Curated heading level=2 type=problems: Das 14. Werck-Stück. Der XIV. Vortrag.]
+
 ## Der XIV. Vortrag.
 
 ## Das 14. Werckstück.

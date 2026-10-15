@@ -1,6 +1,10 @@
 <!-- Page number: 60 -->
 <!-- Running title: ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: PROBLEMA 1, PROPOSITIO XI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 1, PROPOSITIO XI.]
+
 ## PROBLEMA 1, PROPOSITIO XI.
 
 Datam rectam lineam ſic ſecare, vt quod ex tota & altero ſegmentorum fit Rectangulum, æquale ſit ei quod ex altero ſegmento fit Quadrato.

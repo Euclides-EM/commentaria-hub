@@ -3,6 +3,10 @@
 
 Ergo rectae lineae AB, CD in uno ſunt plano. Igitur ſi duae rectae lineae &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. III. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. III. THEOR.]
+
 ## PROP. III. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duo plana ſe invicem ſecent, communis ipſorum ſectio recta linea erit.
@@ -16,6 +20,10 @@ a. 10. Ax. 1.
 igitur planorum AB, BC, communis ſectio BD non poteſt non eſſe recta linea; recta igitur eſt. Si igitur duo plana &c. Q.E.D.
 
 [Diagram: two intersecting planes AB and BC with common line B–D and lines D–E–B and D–F–B]
+
+[Curated heading level=2 type=propositions: PROP. IV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IV. THEOR.]
 
 ## PROP. IV. THEOR.
 

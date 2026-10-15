@@ -35,6 +35,10 @@ ex aequali, ut BA ad AC, ita CD ad DE aequiangulorum igitur &c. Q. E. D.
 
 [Diagram: geometric figure labelled F, A and B on the left, and D, C and E on the right]
 
+[Curated heading level=2 type=propositions: PROP. V. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. V. THEOR.]
+
 ## PROP. V. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duo triangula latera proportionalia habeant, aequiangula erunt triangula, et aequales habebunt angulos quibus homologa latera ſubtenduntur.

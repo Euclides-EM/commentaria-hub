@@ -16,6 +16,8 @@ HIC autem defectus DB, uel exceſſus, in rectangulis quidem eſſe poteſt uel 
 
 [Curated heading level=2 type=campanus: 1]
 
+[Curated heading level=2 type=theorems: THEOR. 1. PROPOS. 1.]
+
 ## THEOR. 1. PROPOS. 1.
 
 [Curated heading level=3 type=incipit: TRIANGVLA]

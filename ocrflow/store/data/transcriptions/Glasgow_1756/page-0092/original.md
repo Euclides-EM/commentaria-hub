@@ -1,6 +1,10 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 77 -->
 
+[Curated heading level=2 type=propositions: PROP. VII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VII. THEOR.]
+
 ## PROP. VII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I in circuli diametro aliquod punctum ſumatur quod non ſit centrum circuli, et ab eo in circumferentiam cadant quaevis rectae lineae; maxima quidem erit in qua centrum, minima vero reliqua; aliarum autem propinquior ei quae per centrum tranſit ſemper remotiore major eſt. at duae tantum aequales ab eodem puncto in circumferentiam cadent ad utraſque partes minimae.

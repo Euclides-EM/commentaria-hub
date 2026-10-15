@@ -20,6 +20,8 @@ CAMPANVS Si fuerit d e linea minor, asserit hæc 95 ꝙ b c erit residuū quart�
 
 [Diagram: tall rectangle with bottom corners a and b; n at top right; three horizontal lines across it near the top, h–m, p–q and r–c, the labels h, p, r on the left side and m, q, c on the right side]
 
+[Curated heading level=2 type=theorems: Theorema 76 Propositio 100]
+
 ## Eucli.ex Zamb. Theorema 76 Propositio 100
 
 [Curated heading level=3 type=zamberti_sequence: 100.]

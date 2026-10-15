@@ -4,6 +4,10 @@
 
 [Figure: triangle ABC within a ruled frame, with base AC below, apex B above, and dotted lines extending AB to D and joining D to C; angles m and n marked at C]
 
+[Curated heading level=2 type=propositions: PROPOSITION XX. THEOREME XIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XIII. PROPOSITION XX.]
+
 ## PROPOSITION XX. THEOREME XIII.
 
 {dropcap:E|lines=2|style=plain}N tout triangle (ABC): deux côtés quelconques (AB, BC) ſont plus grands que le troiſieme (AC).

@@ -18,6 +18,8 @@ argumento fere demonſtrari poſſit. Quare vt omni ex parte confirmatum relinqu
 
 [Curated heading level=2 type=campanus: 13]
 
+[Curated heading level=2 type=theorems: THEOR. 13. PROPOS. 14.]
+
 ## THEOR. 13. PROPOS. 14.
 
 [Curated heading level=3 type=incipit: IN]

@@ -31,6 +31,10 @@ e. 9. 5.
 
 eſt triangulum ABC triangulo ADE. Aequalium igitur &c. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XVI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XVI. THEOR.]
+
 ## PROP. XVI. THEOR.
 
 [Subhead]

@@ -8,6 +8,10 @@ c.23.d.7 | g, msur: e 2|2 d, msur: b,
 αβ | e, msur: a & b,
 contr. hypoth.
 
+[Curated heading level=2 type=propositions: THEOR. XXII. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXII. PROPOS. XXIV.]
+
 ## THEOR. XXII. PROPOS. XXIV.
 
 Minimi numeri omnium eandem cum eis rationem habentium, primi inter se sunt.

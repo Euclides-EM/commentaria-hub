@@ -3,17 +3,25 @@
 
 [Curated heading level=3 type=numbered_item: 3.]
 
+[Curated heading level=2 type=axioms: Communis noticia 3.]
+
 3. Auch ſo von gleichen dingen / gleiche hingenommen werden / bleibet alles das einander gleich / ſo nach ſolchem abnemen vberig iſt.
 
 [Curated heading level=3 type=numbered_item: 4.]
+
+[Curated heading level=2 type=axioms: Communis noticia 4.]
 
 4. So vngleichen dingen / gleiche zuͦgethan werden / wirdt das / ſo auß ſollichem zuͦſatz entſpringt / einander vngleich ſein.
 
 [Curated heading level=3 type=numbered_item: 5.]
 
+[Curated heading level=2 type=axioms: Communis noticia 5.]
+
 5. So von vngleichen dingen gleiche werden abgezogen / iſt das / ſo vberbleibt / einander vngleich.
 
 [Curated heading level=3 type=numbered_item: 6.]
+
+[Curated heading level=2 type=axioms: Communis noticia 6.]
 
 6. So zwai ding baide zwaimal ſo groß od̓ vil ſeind als ein anders / dieſelben zwai ſeind einander gleich.
 
@@ -21,23 +29,33 @@ Alſo auch ſo ſy drej / vier / ⁊c. mal / oder ½. ¼ ⁊c. ſeind / Als im f
 
 [Curated heading level=3 type=numbered_item: 7.]
 
+[Curated heading level=2 type=axioms: Communis noticia 7.]
+
 7. Auch ſo zwai ding baide der halb thail ains anderen ſeind / ſeind ſy einander gleich.
 
 Des iſt die 21 propoſ. deß dritten buͤchs ein fein exempel.
 
 [Curated heading level=3 type=numbered_item: 8.]
 
+[Curated heading level=2 type=axioms: Communis noticia 8.]
+
 8. Wan zwai ding ſich auffeinander reymen vnd ſchicken / dz iſt / ſo ſy auff einander gelegt werden / kains das ander vbertrifft / die ſelben zwai ding ſein eināder gleich.
 
 [Curated heading level=3 type=numbered_item: 9.]
+
+[Curated heading level=2 type=axioms: Communis noticia 9.]
 
 9. Das gantz iſt inn alweg gröſſer dan ſein tail.
 
 [Curated heading level=3 type=numbered_item: 10.]
 
+[Curated heading level=2 type=axioms: Communis noticia 10.]
+
 10. Alle gerechte winckel oder winckelmeſſige eckh / ſeind einander gleich.
 
 [Curated heading level=3 type=numbered_item: 11.]
+
+[Curated heading level=2 type=axioms: Communis noticia 11.]
 
 11. So ein gerade linj durch zwo grad linien gezogen wirt / vnnd die inwendige eckh auf einer ſeitten klainer ſeind dan zwen gerecht winckel So iſt von nötten / ſo man gemelte zwo linien weitter immerzuͦ erſtreckt / das ſy endtlich zeſamen kommen / vnd einander berürend auff diſer ſeitten da die zwen winckel / wie gemelt erfunden worden.
 
@@ -46,6 +64,8 @@ Des iſt die 21 propoſ. deß dritten buͤchs ein fein exempel.
 Beſich vnden die 44. propoſ. ⁊c.
 
 [Curated heading level=3 type=numbered_item: 12.]
+
+[Curated heading level=2 type=axioms: Communis noticia 12.]
 
 12 Zwo gerad linien vmbſchlieſſen nichts.
 

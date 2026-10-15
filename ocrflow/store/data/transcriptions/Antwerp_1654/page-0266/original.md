@@ -10,6 +10,8 @@ b Per 8.l.11.
 c Per defin. 4.l.11.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XIX.]
+
 ## PROPOSITIO XIX.
 
 [Curated heading level=2 type=figures: Fig. 26]

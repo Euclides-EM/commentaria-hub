@@ -22,6 +22,8 @@ Pour la mesme raison s'il y a tant de grandeurs qu'on voudra continuellement pro
 
 Pareillement la raison de la premiere à la cinquiesme est sesquitierce de la raison de la premiere à la quatriesme, &c.
 
+[Curated heading level=2 type=definitions: DEFINIT. XI.]
+
 ## DEFINIT. XI.
 
 Homologæ seu similes ratione magnitudines

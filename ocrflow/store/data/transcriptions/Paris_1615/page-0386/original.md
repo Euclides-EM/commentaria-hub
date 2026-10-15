@@ -6,6 +6,10 @@ Soient deux grandeurs commenſurables A& B.Ie dis qu’elles ſout entr’elles 
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEO. 4. PROP. VI.]
+
+[Curated heading level=2 type=theorems: THEO. 4. PROP. VI.]
+
 ## THEO. 4. PROP. VI.
 
 Si deux grandeurs ſont l’vne à l’autre comme nombre à nombre, elles ſeront commenſurables.

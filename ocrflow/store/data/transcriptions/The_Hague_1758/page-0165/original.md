@@ -3,6 +3,10 @@
 
 [Diagram: within a rectangular border, a circle with centre G inscribed in a square ABCD, with diameters EI and FH crossing at G; the square's corners labelled B, C, A, D and the tangent points E, F, I, H]
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. PROBLEME VII.]
+
+[Curated heading level=2 type=problems: PROBLEME VII. PROPOSITION VII.]
+
 ## PROPOSITION VII. *PROBLEME VII.*
 
 {dropcap:C|lines=2|style=plain}Irconſcrire un quarré (ABCD) à un cercle donné (HEFI).

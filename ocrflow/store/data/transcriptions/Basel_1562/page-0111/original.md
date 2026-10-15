@@ -3,6 +3,8 @@
 
 den zirckel berüert / vnd von dem puncten der berürung die linj a b / durch den zirckel geht / ⁊c̄.
 
+[Curated heading level=2 type=propositions: XXXIIII. Die viervnddreyſſigſt Propoſition]
+
 ## XXXIIII Die viervnddreyſſigſt Propoſition.
 
 [Subhead]
@@ -13,6 +15,8 @@ Von ainem fürgebnen zirckel ain ſtuckh ſchneiden / in welchem ain winckel ſt
 {dropcap:I|lines=2|style=plain}ſt der winckel gerecht / ſo werde in im ain diameter gezogen / der thůt dem begern gnůg / vermög der 31 diß bůchs / wa nit / es werde ain linj gezogen welche den zirckel berüert (wie das oben bei der 17 propoſit. angezaigt) vnnd auff dieſelb vnnd den punct der berürung nach außweiſung der 23 prop. des erſten bůchs ain winckel geſetzt dem fürgebnen gleich durch hilff ainer linj / welche den zirckel zerſchneid / alß dann ſo ain winckel auff die ſelb / auch auff die ſeitten / welche bemelltem winckel entgegen zur circumferentz geſetzt wirt / derſelb iſt gleich dem fürgebnen / auß der vorgehnden 32 propoſit. vnnd gmainem verſtand / iſt inn der figur a b c / das begert ſtuck.
 
 [Diagram: circle with an inscribed triangle labelled a, b and c, a tangent through a, and an exterior angle at c]
+
+[Curated heading level=2 type=propositions: XXXV. Die fünffvnnddreyſſigſt Propoſition]
 
 ## XXXV Die fünffvnnddreyſſigſt Propoſition.
 

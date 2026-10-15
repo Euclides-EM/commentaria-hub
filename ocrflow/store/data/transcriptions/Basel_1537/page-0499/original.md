@@ -2,6 +2,8 @@
 
 <!-- Page number: 488 -->
 
+[Curated heading level=2 type=theorems: Theorema 5 Apparens 5]
+
 ## Theorema 5 Apparens 5
 
 [Curated heading level=3 type=zamberti_sequence: 5.]
@@ -11,6 +13,8 @@
 Esto in mūdo horizon a b c, maximus autē semper apparētiū sit a d e, alius autē maximus circulus esto c f b, ipsum a d e, circulum dispescens. Assumanturque in ipsius c f b, orbis ambitu bina contingentia signa. sitq̃ f signum ad septētrionem. Dico quod f, signum ipso g prius quidem oritur, posterius autem occidit. Sint orientales quidē partes c, occiduæ uero sint b sintque circuli paralleli per quos f g, signa inuehūtur h k, l m, describaturq̃ per f signum maximus circulus n f e, ipsum a d e, circulum tangens, ut non tangat eū qui ex a, semicirculū ad partes f g, ei qui ex a semicirculo, sicut ad a c k partes. Similis ergo est f k, circunferentia ipsi n m circunferentiæ. Reliqua igitur h f, circunferentia & continua ei sub terram usque ad k signum similis erit ipsi n l, circunferētiæ & ei cōtinuæ sub terrā usq̃ ad m signū. In æquali igitur tēpore f n, signa ipsas h f, l n, circunferentias, & eis continuas usq̃ ad k m, signa percurrēt. Igitur f n, signa simul oriūtur. Ipsum autē n ipso f prius oritur, & f ipso g igitur prius oritur. Dico quod & posterius occidit. describatur per x signum maximus circulus x f d, ipsum a d e, circulum tangens, ut non tangat eum qui ex d, semicirculum sicut ad partes d f, ei qui ex a semicirculo, sicut ad a h partes. Similis igitur est f h, ambitus ipsi x l, ambitui. In æquali igitur tempore f h, ambitum ipsū x l, perficit. Ipso igitur f in h signo existente, & x in l stabit. ipsa igitur x f, signa simul occidunt. Ipsum autem g prius ipso x occidit, quare & x ipso g posterius occidit, patuit autem quod & prius oritur. Igitur ipsum f ipso g prius oritur, posterius autem occidit.
 
 [Diagram: large circle a b c with inner tangent circle and intersecting arcs; points labeled a, b, c, d, e, f, g, h, k, l, m, n, x]
+
+[Curated heading level=2 type=theorems: Theorema 6 Apparens 6]
 
 ## Theorema 6 Apparens 6
 

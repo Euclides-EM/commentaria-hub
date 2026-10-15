@@ -3,6 +3,10 @@
 
 [Diagram: ruled frame containing rectangles: a rectangle marked A with a brace, divided into 1C and M; a rectangle marked B with a brace, divided into 1D and N; below, a rectangle C and a rectangle D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXV. THEOREME XXV.]
+
+[Curated heading level=2 type=theorems: THEOREME XXV. PROPOSITION XXV.]
+
 ## PROPOSITION XXV. THEOREME XXV.
 
 {dropcap:S|lines=2|style=plain}I quatre grandeurs (A, B, C, D) ſont proportionelles, la ſomme de la plus grande (A) & de la plus petite (D) excède la ſomme des deux autres (B & C).

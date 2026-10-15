@@ -4,7 +4,9 @@ Sufficit rectam lineam per circuli centrum actam eſſe in vtraſque circunferen
 
 [Diagram: circle with horizontal diameter labelled A, E, and B]
 
-## Diffinitio 18.
+[Curated heading level=2 type=definitions: Diffinitio 18.]
+
+### Diffinitio 18.
 
 Semicirculus, eſt comprehenſa figura ſub dimetiente & ſumpta à circuli circunferentia.
 
@@ -12,7 +14,9 @@ Cùm dixerimus figuram ſub terminis contineri, eam quæ ſub dimetiente & circu
 
 [Diagram: semicircle with diameter AC and circumference passing through B]
 
-## Diffinitio 19.
+[Curated heading level=2 type=definitions: Diffinitio 19.]
+
+### Diffinitio 19.
 
 Sectio circuli, eſt comprehenſa figura ſub recta linea & circunferentiæ parte.
 
@@ -20,31 +24,43 @@ Hanc diffinitionem repetit Euclides tertio libro, quinta diffinitione, cuiquidem
 
 [Diagram: three circular sections labelled A, B, and C]
 
-## Diffinitio 20.
+[Curated heading level=2 type=definitions: Diffinitio 20.]
+
+### Diffinitio 20.
 
 Rectilineæ planæ figuræ ſunt, quæ ſub rectis lineis continentur.
 
 In genere diffinit rectilineas quaſlibet à rectis lineis comprehenſas, vt particularius aliquas earum poſtmodum edoceat.
 
-## Diffinitio 21.
+[Curated heading level=2 type=definitions: Diffinitio 21.]
+
+### Diffinitio 21.
 
 Trilateræ figuræ ſunt, quæ ſub tribus rectis lineis continentur.
 
-## Diffinitio 22.
+[Curated heading level=2 type=definitions: Diffinitio 22.]
+
+### Diffinitio 22.
 
 Quadrilateræ figuræ ſunt, quæ ſub quatuor rectis lineis, cõprehẽdũtur.
 
-## Diffinitio 23.
+[Curated heading level=2 type=definitions: Diffinitio 23.]
+
+### Diffinitio 23.
 
 Multilateræ verò figuræ ſunt, quæ ſub pluribus quàm quatuor rectis lineis, comprehenduntur.
 
 Quæ his quatuor diffinitionibus in genere expoſuit de rectilineis figuris, diſtribuet in eas potiſſimum figuras, quarum vtilitas Geometriæ plus conducere videbitur: reliquas ſub multilaterarum generali relinquens denominatione.
 
-## Diffinitio 24.
+[Curated heading level=2 type=definitions: Diffinitio 24.]
+
+### Diffinitio 24.
 
 Trilaterarum porro figurarum æquilaterum eſt triangulum ſub tribus æquis lateribus contentum.
 
-## Diffinitio 25.
+[Curated heading level=2 type=definitions: Diffinitio 25.]
+
+### Diffinitio 25.
 
 Iſoſceles autem eſt, quod duo tantum æqualia habet latera.
 

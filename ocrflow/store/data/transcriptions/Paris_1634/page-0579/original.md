@@ -2,6 +2,10 @@
 
 *laquelle mesure deux grandeurs, mesure aussi leur plus grande commune mesure.*
 
+[Curated heading level=2 type=propositions: PROBL. II. PROPOS. IV.]
+
+[Curated heading level=2 type=problems: PROBL. II. PROPOS. IV.]
+
 ## PROBL. II. PROPOS. IV.
 
 Tribus magnitudinibus commensurabilibus datis, maximam earum mensuram communem inuenire.

@@ -4,6 +4,8 @@
 
 etiã est perpendicularis ad superficiẽ sectam. Ergo ab uno puncto protractæ sunt duæ lineæ perpẽdiculares ad eandem superficiẽ, quod est impossibile, relinquitur itaq̃ propositũ nostrum.
 
+[Curated heading level=2 type=theorems: Theorema 11 Propositio 13]
+
 ## Eucli. ex Zamb. Theorema 11 Propositio 13
 
 [Curated heading level=3 type=zamberti_sequence: 13.]
@@ -39,6 +41,8 @@ CAMPANVS. Posita enim una linea duabus supficiebus orthogonaliter insistere, si 
 Si super duas superficies æquidistãtes linea recta ceciderit quæ ad alterã earum perpendicularis sit, ipsa quoq̃ perpendicularis erit ad reliquam.
 
 Positis enim duabus superficiebus æquidistãtibus, intelligatur linea recta ambas penetrãs quæ alteri earũ perpẽdiculariter superstat. Dico ꝙ eadem linea reliquæ superficiei perpẽdiculariter superstat. Sit enim superficies una secans positas supficies æquidistantes, super lineã eas penetrantẽ, eritq̃ cõmunis sectio huius superficiei & alterius sectarũ uidelicet illius cui linea penetrãs ponitur perpẽdiculariter insistere, continẽs angulũ rectũ cum ipsa linea penetrãte ex diffinitione lineæ perpẽdicularis ad superficiẽ. Si igitur alia cõmunis sectio ipsius supficiei secantis & reliquæ duarũ sectarũ cum eadẽ linea penetrãte non contineat angulũ rectũ, erit ex ultima petitione primi, ut illæ duæ cõmunes sectiones in alterutrã partem protractæ necessario concurrãt, quare & supficies quæ positæ sunt æquidistantes, necessario concurrẽt. Et q̃a hoc est impossibile, erit ille angulus rectus. Eodemq̃ modo erit de qualibet alia superficie easdẽ supficies æquidistantes secante super eandẽ lineã, igitur ex quarta huius & ex ista 14, constat uerũ esse quod diximus.
+
+[Curated heading level=2 type=theorems: Theorema 12 Propositio 14]
 
 ## Eucli. ex Zamb. Theorema 12 Propositio 14
 

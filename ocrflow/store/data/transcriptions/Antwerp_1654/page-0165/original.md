@@ -5,6 +5,8 @@ Sunt igitur in omni proportione duo termini, quorum ille Antecedens dicitur, qui
 
 Cum antecedens & conſequens ſunt æquales, proportio æqualitatis dicitur, cum inæquales, dicitur eſſe proportio inæqualitatis.
 
+[Curated heading level=2 type=definitions: Lib. V, Def. 4]
+
 [Curated heading level=3 type=numbered_item: 4.]
 
 4. Ratio ſeu proportio rationalis eſt, quæ exiſtit inter magnitudines commenſurabiles, & numeris exprimi poteſt. Proportio irrationalis eſt, quæ exiſtit inter magnitudines incommenſurabiles, & nullis numeris explicari poteſt.
@@ -14,6 +16,8 @@ Porro commenſurabiles quantitates ſunt, quas aliqua communis menſura metitur;
 [Margin]
 Fig.1.l.3. tabulâ 3.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. V, Def. 5]
 
 [Curated heading level=3 type=numbered_item: 5.]
 
@@ -34,6 +38,8 @@ Vel quando vnius antecedens (A) eodem modo continetur in ſuo conſequente (B,) 
 [Margin]
 Fig.3.
 [/Margin]
+
+[Curated heading level=2 type=definitions: Lib. V, Def. 6]
 
 [Curated heading level=3 type=numbered_item: 6.]
 

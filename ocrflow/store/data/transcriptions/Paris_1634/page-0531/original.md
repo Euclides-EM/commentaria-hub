@@ -4,6 +4,10 @@
 3.9 | d, est nr. cub.
 concl. 23.8 | c, est nr. cub.
 
+[Curated heading level=2 type=propositions: THEOR. V. PROPOS. V.]
+
+[Curated heading level=2 type=theorems: THEOR. V. PROPOS. V.]
+
 ## THEOR. V. PROPOS. V.
 
 Si cubus numerus numerum quendam multiplicans faciat cubum; & multiplicatus cubus erit.
@@ -34,6 +38,10 @@ Demonstr.
 8.8 | ꝗntr. a & b snt 2; medi; proport;
 hyp. | a, est nr. cub.
 concl. 23.8 | b, est nr. cub.
+
+[Curated heading level=2 type=propositions: THEOR. VI. PROPOS. VI.]
+
+[Curated heading level=2 type=theorems: THEOR. VI. PROPOS. VI.]
 
 ## THEOR. VI. PROPOS. VI.
 

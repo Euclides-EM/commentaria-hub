@@ -19,6 +19,10 @@ EX Campano. Non propoſuit Euclides, Circa datum Circulum, Hexagonum æquilateru
 
 Hic etiam animaduertemus, quod & ſuprà in quadrageſimaſexta Primi monuimus, in Figuris parium laterum lineas ab angulis per Centrum ad angulos duci: ſed in Figuris imparium laterum, ab angulis per Centrum ad latera.
 
+[Curated heading level=2 type=propositions: PROBLEMA 16, PROPOSITIO XVI.]
+
+[Curated heading level=2 type=problems: PROBLEMA 16, PROPOSITIO XVI.]
+
 ## PROBLEMA 16, PROPOSITIO XVI.
 
 In dato Circulo, Superficiem quindecim laterum æquilateram & æquiangulam inſcribere.

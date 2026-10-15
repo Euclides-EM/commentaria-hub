@@ -22,6 +22,8 @@ Vt sit{printer-error-correction:si} sint a,b,c, quilibet numeri quos omnes nullu
 
 [Diagram: dotted number lines beside the text: a········ b······· c······ / d····· e···· f··· / g··]
 
+[Curated heading level=2 type=theorems: Theorema 21 Propositio 23]
+
 ## Eucli. ex Zamb. Theorema 21 Propositio 23
 
 [Curated heading level=3 type=zamberti_sequence: 23.]

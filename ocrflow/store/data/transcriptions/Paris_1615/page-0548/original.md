@@ -10,6 +10,10 @@ Oon conuertira ceſte ;1.prop.en ceſte maniere. Les ſoudes paralleſipipedes e
 
 Car ſi on croit ’vn plus haut qus l’autre: ſi on couppe du plu baut vn parallelipip. de meſme hauteur que l’autre: par la 31 paii. le couppé ſera egal à l’autre, auqueleſt auſſi poié ggal le tout: parquoy le couppé ſera auſſi egal au tout: ce qui eſt aoſurde. Que ſiles parallelip. etans de meſme bauteur, on eroit que la baſe de l’vn ſoit plus grande que la baſe de l’autre, ſi on couppe d’icelle baſe vne egaIe à l’autre, & ſur icelle couppee on entend eſtre vn parallelmpiyede de meſme hauteur, nous demonſtrerons en la meſme maniere, la parti eſtre egale au tout: ce qui eſi abſurde.
 
+[Curated heading level=2 type=propositions: THEOR. 27. PROP. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. 27. PROP. XXXII.]
+
 ## THEOR. 27. PROP. XXXII.
 
 Les ſoildes parallelipipedes de meſme hauteur; ſont l’vn à l’autre comme leurs baſes.

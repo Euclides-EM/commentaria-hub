@@ -1,6 +1,16 @@
+[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM LIBER TERTIVS.]
+
+[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTORVM LIBER TERTIVS.]
+
+[Curated heading level=1 type=problems: EVCLIDIS ELEMENTORVM LIBER TERTIVS.]
+
+[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTORVM LIBER TERTIVS.]
+
 # EVCLIDIS ELEMENTORVM LIBER TERTIVS.
 
 # LE TROISIESME LIVRE DES ELEMENTS D'EVCLIDE.
+
+[Curated heading level=2 type=definitions: DEFINIT. I.]
 
 ## DEFINIT. I.
 
@@ -12,6 +22,8 @@ hyp. | semidiamet. ga 2|2 semidiamet. hd,
 1.d.3 | ⊙gabc 2|2 ⊙hdef.
 
 [Figure: deux cercles égaux, le premier A—B—C avec centre G et I en bas, le second D—E—F avec centre H et K en bas, triangles G—A—C et H—D—F]
+
+[Curated heading level=2 type=definitions: DEFINIT. II.]
 
 ## DEFINIT. II.
 

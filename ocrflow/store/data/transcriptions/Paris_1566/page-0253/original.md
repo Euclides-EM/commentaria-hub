@@ -2,6 +2,8 @@
 
 *que potens A G incerta erit, per vndecimam diffinitionem huius. Quæ quidem ex binis mediis ſecunda ideo dicitur, quod ex mediis medium continentibus fiat. Poſtponenda verò ei primæ quæ ex mediis certum continentibus orta eſt, vt proxima diximus. Si itaque binæ Mediæ componantur, &c.*
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimanona.]
+
 ## Propoſitio trigeſimanona.
 
 Si binę rectę lineę potentia incommenſurabiles compoſitę fuerint, efficientes compoſitum ex quadratis quæ ab ipſis Ceitum{printer-error-correction:Certum}, quod autem ſub ipſis Medium, Tota recta linea incerta eſt, vocatur autem Maior.
@@ -10,9 +12,11 @@ Si binę rectę lineę potentia incommenſurabiles compoſitę fuerint, efficien
 
 [Diagram: a horizontal line with A at the left, B in the middle and G at the right]
 
-## MONITVM.
+### MONITVM.
 
 *Reliquimus demonſtrationem, qua Theon oſtendere conatur, quadrata ex A B B G maiora eſſe rectangulo bis ſub A B B G contento, prolixè admodum. Nos enim illud ſatis ſupérque demonſtrauimus corollario ſeptimæ ſecundi, & ipſius A G quadrati (vtraque potentis) plus dimidio ſumere quadrata ex A B B G.*
+
+[Curated heading level=2 type=propositions: Propoſitio quadrageſima.]
 
 ## Propoſitio quadrageſima.
 

@@ -34,6 +34,8 @@ Exposita rationali & apotoma; si tota plus possit, quàm congruens, quadrato rec
 
 *Vne ligne rationelle estant exposee, & vn apotome ou residu; quand la toute peut plus que la conuenable du quarré d'vne ligne qui luy est commensurable en longitude.*
 
+[Curated heading level=2 type=definitions: Definitiones tertiæ. I.]
+
 I.
 
 Si quidem tota expositæ rationali sit longitudine commensurabilis; vocetur apotome prima.

@@ -8,6 +8,10 @@ Soit la ligne DF commenſ. à la ligne AC, faiſant auec vne ſuperficie medial
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 85. PROP. CIX.]
+
+[Curated heading level=2 type=theorems: THEOR. 85. PROP. CIX.]
+
 ## THEOR. 85. PROP. CIX.
 
 Si d’vne ſuperficie rationele, eſt retranchee vne ſuperſicie mediale: la ligne qui peut le reſte eſt reſidu, ou ligne mineure.

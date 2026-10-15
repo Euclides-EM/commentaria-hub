@@ -2,7 +2,15 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: ELEMENT QVINZIESME.]
+
+[Curated heading level=1 type=problems: ELEMENT QVINZIESME.]
+
 # ELEMENT QVINZIESME.
+
+[Curated heading level=2 type=propositions: PROB. 1. PROP. I.]
+
+[Curated heading level=2 type=problems: PROB. 1. PROP. I.]
 
 ## PROB. 1. PROP. I.
 

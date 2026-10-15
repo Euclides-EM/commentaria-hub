@@ -3,6 +3,10 @@
 
 [Figure: dans un encadrement, un quarré ADFC surmonté d'un petit quarré sur le côté supérieur, avec les points A, D, E, B, C, F; à droite, une droite horizontale marquée A E B]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXX. PROBLEME X.]
+
+[Curated heading level=2 type=problems: PROBLEME X. PROPOSITION XXX.]
+
 ## PROPOSITION XXX. PROBLEME X.
 
 {dropcap:C|lines=2|style=plain}Ouper une droite donnée (AB) en extrême & moyenne raiſon (en E).

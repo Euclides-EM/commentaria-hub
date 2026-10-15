@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEO. -->
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaquinta.]
+
 ## Propoſitio trigeſimaquinta.
 
 Si numerus neque à binario duplus fuerit, neque dimidium eius impar habuerit, Pariter par eſt, & pariter impar.
@@ -7,6 +9,8 @@ Si numerus neque à binario duplus fuerit, neque dimidium eius impar habuerit, P
 Sit aliquis numerus A qui à binario duplus non ſit, dimidium verò habeat B parem: Dico ipſum A eſſe numerum pariter parem & imparem. Quoniã A nō eſt à binario duplus, continuè bifariam ſectus numerum imparem efficiet, nam ſi binarium vel vnitatem efficeret, is eſſet à binario duplus, faciat itaque imparem G. Manifeſtum eſt imparem G metiri A per parem numerum: nam ſi per imparem metiretur ipſum A imparem efficeret, per 24 huius, igitur G impar metitur A per parem. Et quoniam A dimidium habet parem, binarius (par) per dimidium (parem) eum metitur. Sequetur itaque ipſum A numerum (quem par aliquis per parem & quandoque alius par per imparem numerum metitur) eſſe pariter parem & imparem, per decimam diffinitionem ſeptimi. Et ſi rursus dimidium parem habuerit, alius adhuc par per parem eum metietur numerum, ſicq́; infinitè quoad offendatur impar. Si igitur numerus neque à binario duplus, neque dimidium imparem, &c.
 
 [Diagram: three horizontal lines labelled A, B and G, numbered 24, 12 and 3]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſexta.]
 
 ## Propoſitio trigeſimaſexta.
 
@@ -16,7 +20,7 @@ Sint quotcunque numeri continuè proportionales A G B D E F & I H. Auferatur aut
 
 [Diagram: four horizontal proportional lines labelled A G, B C D, E F and I N K L H, with the numbers 8, 4, 18, 8, 4, 6 and 9]
 
-## MONITVM.
+### MONITVM.
 
 Quoniam Theon ac Campanus hanc ſuccinctè demonſtrarunt, prolixiores paululum eſſe cogimur, vt eam per numeros oſtendamus. Præterea animaduertendum eſt, in hac & ſimilibus, non neceſſario exprimendum eſſe quod hypotheſis ex ſe poſtulat, vt ſi diximus hanc intelligi in rationibus minoris inæqualitatis tantùm, quod certum eſt. Sed cum hypotheſis poſtulet à ſecundo auferri æqualem primo, illud ſatis manifeſtum aperit, priores ſiue antecedentes numeros, minores eſſe conſequentibus. Quare nec demonſtrando neceſſe erit dicere, incipientes à minimo, vt ait Theon, dummodo exprimatur hypotheſis, optans conſequentes maiores antecedentibus eſſe.
 

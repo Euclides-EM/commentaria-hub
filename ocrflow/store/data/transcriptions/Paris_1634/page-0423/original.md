@@ -4,6 +4,10 @@
 19.5 | ce π kh 2|2 eb π hi.
 concl. 16.5 | ce π eb 2|2 kh π hi.
 
+[Curated heading level=2 type=propositions: PROBL. XIII. PROPOS. XXXV.]
+
+[Curated heading level=2 type=problems: PROBL. XIII. PROPOS. XXXV.]
+
 ## PROBL. XIII. PROPOS. XXXV.
 
 Dato circulo, & duobus punctis in eius circumferentia signatis, inuenire diametrum, in quam, cum demittentur à datis punctis normales, segmentum diametri ab iis normalibus interceptum erit dato æquale.

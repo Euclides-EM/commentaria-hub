@@ -22,6 +22,10 @@ hyp. | ꝗntr. a & c est medi. proport. b,
 hyp. | a, est nr. □,
 21.d.7 | c, est nr. □.
 
+[Curated heading level=2 type=propositions: THEOR. XXI. PROPOS. XXIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXI. PROPOS. XXIII.]
+
 ## THEOR. XXI. PROPOS. XXIII.
 
 Si quatuor numeri deinceps sint proportionales, primus autem sit cubus, & quartus cubus erit.

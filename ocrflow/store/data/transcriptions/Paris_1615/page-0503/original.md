@@ -8,6 +8,10 @@ menſ au quarré de DE, eſtant AB & DE commenſ. & par la prop. 10.les deux re
 
 Ie reſidu medial AC ſoit √√ coo—√√20, &DF √√1’—√21I. BC ſera √√20. & la touteAB√ √5oo; mais FE ſera√t √1!. & la toute DE√√3I.
 
+[Curated heading level=2 type=propositions: THEOR. 82. PROP. CVI.]
+
+[Curated heading level=2 type=theorems: THEOR. 82. PROP. CVI.]
+
 ## THEOR. 82. PROP. CVI.
 
 La ligne commenſurable à vne ligne. mineure; eſt auſſi ligne mineure.

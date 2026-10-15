@@ -44,6 +44,10 @@ constr. | ▭age 2|2 □.e,
 10.10 | ▭ah, incomm. ▭gi,
 2.concl. βγ10.10 | lm□.to, incomm. no□.so.
 
+[Curated heading level=2 type=propositions: THEOR. LXVIII. PROPOS. XCII.]
+
+[Curated heading level=2 type=theorems: THEOR. LXVIII. PROPOS. XCII.]
+
 ## THEOR. LXVIII. PROPOS. XCII.
 
 Si spatium contineatur sub rationali, & apoto-

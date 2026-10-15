@@ -1,6 +1,10 @@
 <!-- Page number: 296 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. IV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. IV. THEOR.]
+
 ## PROP. IV. THEOR.
 
 {dropcap:S|lines=2|style=plain}I ſint duae pyramides aeque altae, quae triangulares baſes habent, dividatur autem utraque ipſarum, et in duas pyramides aequales inter ſe, ſimileſque toti, et in duo priſmata aequalia; et factarum pyramidum utraque eodem modo dividatur, atque hoc ſemper fiat. erit ut unius pyramidis baſis ad baſim alterius, ita et in una pyramide priſmata omnia ad priſmata omnia in altera pyramide multitudine aequalia.

@@ -7,9 +7,13 @@ to igitur communi F A B, remanent d æquales L A B, C A F. Eodem modo oſtendam 
 d Per axio. 3.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XVI. XVII.]
+
 ## PROPOSITIO XVI. XVII.
 
 {dropcap:C|lines=2|style=plain}Ontinentur in prop.32. Neque ante illam adhibentur.
+
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XVIII.]
 
 ## PROPOSITIO XVIII.
 

@@ -11,6 +11,10 @@ CDE, par le tiers de la hauteur SO; donc la somme des pyramides triangulaires ou
 
 *Scholie.* On peut évaluer la solidité de tout corps polyedre en le décomposant en pyramides, et cette décomposition peut se faire de plusieurs manieres. Une des plus simples est de faire partir les plans de division d’un même angle solide; alors on aura autant de pyramides partielles qu’il y a de faces dans le polyedre, excepté celles qui forment l’angle solide d’où partent les plans de division.
 
+[Curated heading level=2 type=propositions: PROPOSITION XX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XX.]
+
 ## PROPOSITION XX.
 
 ### THÉORÊME.

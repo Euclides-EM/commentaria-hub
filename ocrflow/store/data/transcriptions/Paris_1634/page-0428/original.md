@@ -26,6 +26,10 @@ c.37.ap. | <cae u <acb π <eaf u <b 3|2 ce u da π ef,
 13.5 | <acb π <b 3|2 bd π dc,
 concl. 26.5 | <b π <acb 2|3 dc π bd.
 
+[Curated heading level=2 type=propositions: THEOR. XXVI. PROPOS. XXXIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXVI. PROPOS. XXXIX.]
+
 ## THEOR. XXVI. PROPOS. XXXIX.
 
 Ptolomeus lib. 3. Almagesti.

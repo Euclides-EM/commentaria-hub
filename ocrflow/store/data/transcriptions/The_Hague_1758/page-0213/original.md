@@ -3,6 +3,10 @@
 
 [Diagram: three rectangles labelled M, N and P within a ruled frame, with fainter subdivided rectangles around them]
 
+[Curated heading level=2 type=propositions: PROPOSITION X. THEOREME X.]
+
+[Curated heading level=2 type=theorems: THEOREME X. PROPOSITION X.]
+
 ## PROPOSITION X. THEOREME X.
 
 {dropcap:D|lines=2|style=plain}E deux grandeurs ( M & P ), celle ( M ) qui a plus grande raiſon à une méme ( N ), eſt la plus grande. Au contraire, celle ( P ) à laquelle une même grandeur ( N ) a plus grande raiſon, eſt la plus petite.

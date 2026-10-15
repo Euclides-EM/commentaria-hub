@@ -46,6 +46,10 @@ hyp. | g π h 2|2 e π f,
 hyp. | c π d 2|2 g π h,
 concl. 11.5 | a π b 2|2 c π d.
 
+[Curated heading level=2 type=propositions: THEOR. XII. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. XII. PROPOS. XII.]
+
 ## THEOR. XII. PROPOS. XII.
 
 Si sint magnitudines quotcunque proportiona-

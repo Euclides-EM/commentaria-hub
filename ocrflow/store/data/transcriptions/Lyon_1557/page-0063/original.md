@@ -9,6 +9,10 @@ Deſcribatur ex A C, Quadratum A C D F : Et producta D F ad E punctum, connexaq�
 
 ALITER, ex prima huius. Sumatur G æqualis A C. Et quoniã totum B D Parallelogrammum fit ex G in A B, quum ſint A D & G æquales : & C D Quadratum ex eadem G in A C ſegmenta (lineæ enim æquales ſunt) & deniq́; F B Parallelogrammum, ex eadem G in C B ſegmentum : atque his æquale eſt quod fit ex G in A B, per primam huius : erit quod fit ex A C in A B æquale ei quod fit ex A C in B C, & in ſeipſum, Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 4, PROPOSITIO IIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 4, PROPOSITIO IIII.]
+
 ## THEOREMA 4, PROPOSITIO IIII.
 
 Si recta linea ſecetur vtcunque : Quadrata quæ fiunt ex ſegmentis cum eo quod bis ſub ipſis ſegmentis comprehenditur Rectangulo, æqualia ſunt ei quod à tota fit Quadrato.

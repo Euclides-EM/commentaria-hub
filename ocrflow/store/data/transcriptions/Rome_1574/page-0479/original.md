@@ -10,6 +10,8 @@ partes æquales uſque ad D, punctum, ex quo ad B, recta ducatur DB; & huic para
 
 [Curated heading level=2 type=campanus: 12]
 
+[Curated heading level=2 type=problems: PROBL. 2. PROPOS. 10.]
+
 ## PROBL. 2. PROPOS. 10.
 
 [Margin]

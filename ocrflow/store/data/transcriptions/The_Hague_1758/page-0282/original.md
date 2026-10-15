@@ -3,6 +3,10 @@
 
 [Figure: framed diagram with two lines Z and X above, triangles M and N, quadrilaterals P, Q and R on base points A, B, C, D, E, F, G, H, K, L]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXII. THEOREME XVI.]
+
+[Curated heading level=2 type=theorems: THEOREME XVI. PROPOSITION XXII.]
+
 ## PROPOSITION XXII. THEOREME XVI.
 
 {dropcap:S|lines=2|style=plain}I quatre lignes droites (AB, CD, EF, GH) ſont proportionelles, les figures rectilignes ſemblables & ſemblablement poſées (M, N, item P, Q), décrites de ces lignes, ſeront proportionelles. Et ſi les figures rectilignes ſemblables & ſemblablement poſées (M, N, P, Q), décrites de ces lignes, ſont proportionelles, ces droites (AB, CD, EF, GH) ſeront elles mêmes proportionelles.

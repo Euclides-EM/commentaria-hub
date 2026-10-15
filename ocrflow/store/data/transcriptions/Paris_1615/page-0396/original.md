@@ -12,6 +12,10 @@ De cecy reſulte que ſi vne grandeur compoſee de deux, eſt commenſnrable à
 
 Soit AB√18. & BC √8, leſquelles ſont commenf. La compoſee AC ſera √50. laquelle eſt commenſ.tant à √1B. que à √8. Car √60 eſt à √18. comme ; à 3, & à √8, comme; à 2.
 
+[Curated heading level=2 type=propositions: THEOR. 14. PROP. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. 14. PROP. XVII.]
+
 ## THEOR. 14. PROP. XVII.
 
 Si on conioinct deux grandeurs incommẽſurables, la compoſee ſera incommenſ. à chacune de ſes parties: Et ſi la compoſee eſt incõmenſ. à l’vne de ſes parties, Icelles parties ſerõt incommenſ. entr’elles.

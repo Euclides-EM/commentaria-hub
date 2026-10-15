@@ -24,6 +24,10 @@ Dw. müssen auch A : a | B : b — n. 6. Besch. V.
 
 Wenn derowegen etliche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind/ so sind solche Verhältnüsse auch unter sich selbst gleichhaltig. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XII. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 12. Beweiß-Stück. Der XII. Vortrag.]
+
 ## Der XII. Vortrag.
 
 ## Das 12. Beweiß-Stück.

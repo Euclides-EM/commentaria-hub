@@ -3,6 +3,10 @@
 
 AMB est plus courte que toute ligne qui l’envelopperoit de toutes parts, soit que la ligne enveloppante FHG touche AMB en un ou plusieurs points, soit qu’elle l’environne sans la toucher.
 
+[Curated heading level=2 type=propositions: PROPOSITION X. LEMME.]
+
+[Curated heading level=2 type=lemmas: LEMME. PROPOSITION X.]
+
 ## PROPOSITION X.
 
 ### LEMME.

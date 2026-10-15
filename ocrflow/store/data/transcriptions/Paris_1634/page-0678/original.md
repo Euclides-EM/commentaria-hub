@@ -10,6 +10,10 @@ Ex hoc lemmate constat, quatuor magnitudines Arithmeticam proportionem habentes,
 
 *Il appert de ce lemme, que quatre grandeurs ayans proportion Arithmetique, qu'en permutant elles auront außi proportion Arithmetique.*
 
+[Curated heading level=2 type=propositions: THEOR. LXII. PROPOS. LXXX.]
+
+[Curated heading level=2 type=theorems: THEOR. LXII. PROPOS. LXXX.]
+
 ## THEOR. LXII. PROPOS. LXXX.
 
 Apotomæ vna tantum congruit recta linea rationalis potentia solùm commensurabilis existens toti.

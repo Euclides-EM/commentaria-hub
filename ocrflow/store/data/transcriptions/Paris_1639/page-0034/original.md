@@ -2,6 +2,8 @@
 
 parément, pour rendre la demonstration du requis plus briefue.
 
+[Curated heading level=2 type=definitions: DEF. XLIV.]
+
 ### XLIV.
 
 Arbitraire est ce qui est pris ou faict à la volonté.

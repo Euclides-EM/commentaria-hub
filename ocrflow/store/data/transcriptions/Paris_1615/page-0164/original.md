@@ -8,6 +8,10 @@ Comme ſi Aeſt à B, ainſi que E eſt à F; & camme Beſt à C, ainſi D aE
 
 [Diagram]
 
+[Curated heading level=2 type=propositions: THEOR. 1. PROP. I.]
+
+[Curated heading level=2 type=theorems: THEOR. 1. PROP. I.]
+
 ## THEOR. 1. PROP. I.
 
 S’il y a tãt de grandeurs qu’on voudra eque multiplices d’autant d’autres graudeurs, chacune à la ſienne, comme l’vne ſera multiplice de l’vne, ainſi les toutes ſeront multiplices des toutes.

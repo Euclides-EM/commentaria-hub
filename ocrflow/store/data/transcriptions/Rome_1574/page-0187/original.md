@@ -20,6 +20,8 @@ inter ſe ſunt parallelæ; Vel certe vnam, & eandem lineam conſtituunt, quando
 
 [Curated heading level=2 type=campanus: 31]
 
+[Curated heading level=2 type=problems: PROBL. 10. PROPOS. 31.]
+
 ## PROBL. 10. PROPOS. 31.
 
 [Curated heading level=3 type=incipit: A DATO]

@@ -5,6 +5,10 @@
 2 concl. ♪.9 10 | df, incomm. h,
 3.concl. 4d85.10 | df, est apotom. 4.
 
+[Curated heading level=2 type=propositions: PROBL. XXIII. PROPOS. XC.]
+
+[Curated heading level=2 type=problems: PROBL. XXIII. PROPOS. XC.]
+
 ## PROBL. XXIII. PROPOS. XC.
 
 Inuenire quintam apotomen.
@@ -36,6 +40,10 @@ Demonstr.
 α.cōstr. | ab π ac, n̄ est 2|2 nr. □ π nr. □,
 γ. 9.10 | df, incomm. h,
 concl. 5d85.10 | de, est apotom. 5.
+
+[Curated heading level=2 type=propositions: PROBL. XXIV. PROPOS. XCI.]
+
+[Curated heading level=2 type=problems: PROBL. XXIV. PROPOS. XCI.]
 
 ## PROBL. XXIV. PROPOS. XCI.
 

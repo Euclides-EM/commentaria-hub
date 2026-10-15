@@ -8,6 +8,10 @@ me nombre quarré à nombre quarré; donc les quarrez de D, FG ne ſeront au�
 
 Ea rationele propoſee D ſoit 6: faiſant donc que comme 16. eſt à AB9. ainſi; 6. quarré de D ſot au quarré de EF; icelle EF ſera √5a4; & faiſant que comme AB 9 eſt à ACs, ainſi ; a quarré de EF ſoit au quarré de FG; icelle FG ſera √ 30: & partant la toute EG ſera√54—√30, qui eſt binome troiſieſme.
 
+[Curated heading level=2 type=propositions: PROB. 16. PROP. LII.]
+
+[Curated heading level=2 type=problems: PROB. 16. PROP. LII.]
+
 ## PROB. 16. PROP. LII.
 
 Trouuer vn binome quatrieſme.

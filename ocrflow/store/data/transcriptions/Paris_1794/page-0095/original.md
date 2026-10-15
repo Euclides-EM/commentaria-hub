@@ -3,6 +3,10 @@
 
 multipliée par la ligne qui joint les milieux des côtés non parallèles.
 
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VIII.]
+
 ## PROPOSITION VIII.
 
 ### THÉORÊME.

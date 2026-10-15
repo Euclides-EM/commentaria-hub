@@ -6,6 +6,8 @@ lineæ a b, itaq́ⳓ & quadratis duarum linearum a e & e b pariter acceptis. Qu
 
 [Diagram: semicircle on diameter a b with apex e; perpendicular e g to a b at g; chords from e to a and to b; below, a short line b and a divided line c f d]
 
+[Curated heading level=2 type=problems: Problema 12 Propositio 35]
+
 ## Eucli. ex Zamb. Problema 12 Propositio 35
 
 [Curated heading level=3 type=zamberti_sequence: 35.]
@@ -33,6 +35,8 @@ SI duæ lineæ potentialiter tantum rationales communicantes, in longum directum
 CAMPANVS. Sint duæ lineæ a b & b c in continuum directumq́ⳓ cōiunctæ rationales in potentia tantum communicantes, quas per 17 & 18 reperies, dico totam lineam a c ex eis compositam esse irrationalem, & ipsa uocatur binomium. Est enim per quartam secundi quadratum a c æquale quadratis duarum linearum a b & b c & duplo superficiei unius earum in alteram, quadrata autem ambarum faciunt superficiem rationalem ex hypothesi, duplum uero superficiei unius earum in alteram facit superficiem medialem ex decimanona, itaq́ⳓ quadrata ambarum pariter acceptarum faciunt superficiem incommensurabilem duplo superficiei unius earum in alteram, erit igitur ex 9 quadratum a c incōmensurabile duobus quadratis duarum linearum a b & b c pariter acceptis, quare irrationale per diffinitionem, cum duo illa quadrata faciāt superficiem rationalem, ideoq́ⳓ suum latus tetragonicū quod est a c, irrationale quoq́ⳓ per diffinitionem, constat ergo propositum.
 
 [Diagram: line a c divided at b, labelled above "a Re.12" and "b Re.4 c", below "a c Re. Re. 256"]
+
+[Curated heading level=2 type=theorems: Theorema 24 Propositio 36]
 
 ## Eucli. ex Zamb. Theorema 24 Propositio 36
 

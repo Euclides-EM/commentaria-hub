@@ -16,6 +16,8 @@ SI ad lineā rōnalē quadrato lineæ cū rōnali cōstituētis mediale æqualis
 
 CAMPANVS Pone similiter hic lineā d e esse illā quæ iūcta cū rōnali cōponat totū mediale, & attēde ex 72 quales lineas oporteat esse d f & f e, & cōcludes sine offendiculo, si prius habitæ demōstrationi oportune institeris, lineā b c esse residuum quintum.
 
+[Curated heading level=2 type=theorems: Theorema 77 Propositio 101]
+
 ## Eucli.ex Zamb. Theorema 77 Propositio 101
 
 [Curated heading level=3 type=zamberti_sequence: 101.]

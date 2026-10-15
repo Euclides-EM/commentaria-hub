@@ -2,6 +2,10 @@
 
 tion des raisons, & aussi de ces trois nombres proportionaux 9, 6, 4 ; dont la raison entremoyenne 9 à 6, ou 3 à 2 est repetée deux fois.
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XX.]
+
 ## THEOR. XIV. PROPOS. XX.
 
 Les polygones semblables se diuisent en nombre égal de triangles semblables, & proportionaux à leurs touts : Et les polygones sont l'vn à l'autte en raison doublée de leurs costez de mesme raison.

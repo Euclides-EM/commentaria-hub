@@ -1,17 +1,25 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 7 -->
 
+[Curated heading level=2 type=axioms: AXIOMA IX.]
+
 ### IX.
 
 Totum eſt ſua parte majus.
+
+[Curated heading level=2 type=axioms: AXIOMA X.]
 
 ### X.
 
 Duae rectae lineae ſpatium non comprehendunt.
 
+[Curated heading level=2 type=axioms: AXIOMA XI.]
+
 ### XI.
 
 Omnes anguli recti inter ſe aequales ſunt.
+
+[Curated heading level=2 type=axioms: AXIOMA XII.]
 
 ### XII.
 

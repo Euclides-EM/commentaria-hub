@@ -21,6 +21,10 @@ Punctum verò concurſùs, hoc eſt, punctum F, in interſectione duorum Circulo
 
 Hîc etiam animaduertes, Trianguli Iſoſcelis vſum in Demonſtrationibus firmiorem eſſe quàm Æquilateri.
 
+[Curated heading level=2 type=propositions: PROBLEMA 5, PROPOSITIO X.]
+
+[Curated heading level=2 type=problems: PROBLEMA 5, PROPOSITIO X.]
+
 ## PROBLEMA 5, PROPOSITIO X.
 
 Datam rectam lineam in duo æqualia ſecare.

@@ -1,6 +1,10 @@
 <!-- Page number: 158 -->
 <!-- Running title: ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: THEOREMA 17, PROPOSITIO XXIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 17, PROPOSITIO XXIII.]
+
 ## THEOREMA 17, PROPOSITIO XXIII.
 ### Campano 22, Theoni 24.
 

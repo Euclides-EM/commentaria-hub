@@ -2,6 +2,10 @@
 
 <!-- Page number: 546 -->
 
+[Curated heading level=2 type=propositions: THEOR. 5. PROP. V.]
+
+[Curated heading level=2 type=theorems: THEOR. 5. PROP. V.]
+
 ## THEOR. 5. PROP. V.
 
 Les pyramides de meſme hauteur ayans baſes triangulaires, ſontl vne à l’autre comme leurs baſes.

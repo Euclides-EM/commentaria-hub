@@ -26,6 +26,8 @@ Qui censent in demonstrationibus numerorum, propositiones quinti libri non esse 
 
 *Ceux qui estiment qu'aux demonstrations des nombres, on ne se doit point seruir des propositions du cinquiesme liure, citent ceste 20. definition au lieu du 7, 8, 9, 10, 11, 14, du cinquiesme. Mais nous nous seruirons aux demonstrations des nombres des propositions du cinquiesme liure ; à cause que les demonstrations du cinquiesme liure sont de toutes sortes de grandeurs, & qu'elles ne sont point moins manifestes aux nombres, qu'en la quantité continue ; ioint aussi que quelquefois, comme on verra au dixiesme liure, la mesme citation doit seruir aux raisons, tant des grandeurs que des nōbres.*
 
+[Curated heading level=2 type=definitions: DEFINIT. XXI.]
+
 ## DEFINIT. XXI.
 
 Similes plani, & solidi numeri sunt, qui proportionalia habent latera.

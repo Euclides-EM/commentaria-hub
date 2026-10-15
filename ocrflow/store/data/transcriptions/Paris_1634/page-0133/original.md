@@ -21,6 +21,10 @@ Demonstr.
 34.1. | △gcf 2|2 △gci,
 concl. 3.a.1. | ◊dg 2|2 ◊gb.
 
+[Curated heading level=2 type=propositions: PROBL. XII. PROPOS. XLIV.]
+
+[Curated heading level=2 type=problems: PROBL. XII. PROPOS. XLIV.]
+
 ## PROBL. XII. PROPOS. XLIV.
 
 Ad datam rectam lineam, dato triangulo æquale parallelogrammum applicare in dato angulo rectilineo.

@@ -8,9 +8,13 @@ a Per 24. l.6.
 b Per defin. 1.l.6.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. VI, PROPOS. XXVII. XXVIII. XXIX.]
+
 ## PROPOS. XXVII. XXVIII. XXIX.
 
 {dropcap:T|lines=2|style=plain}Yronibus faceſſunt negotium, & nullius fere ſunt vſus.
+
+[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXX.]
 
 ## PROPOSITIO XXX.
 

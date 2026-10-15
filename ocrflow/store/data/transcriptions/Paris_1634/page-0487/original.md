@@ -10,6 +10,10 @@ Hinc sequitur, si duo numeri multiplicent minimos eandem rationem habentes, maio
 
 *D'icy il s'ensuit que si deux nombres multiplient les plus petits ayans la mesme raison, le plus grand le plus petit & le plus petit le plus grand, le produit sera le plus petit nombre qu'iceux mesurent.*
 
+[Curated heading level=2 type=propositions: THEOR. XXXIII. PROPOS. XXXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXIII. PROPOS. XXXVII.]
+
 ## THEOR. XXXIII. PROPOS. XXXVII.
 
 Si duo numeri numerū quempiā metiantur: etiam minimus, quem illi metiuntur, eundem metietur.

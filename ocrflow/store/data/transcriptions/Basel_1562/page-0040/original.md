@@ -7,6 +7,8 @@ Zů mehrerm verſtand verzaichne ich die lini mit a b / dem puncten mit c. Als d
 
 Iſt gar leicht / auß der 27 propoſition zůdemonſtriern. Was ſunſt für ander weg ſeyen parallel linien zůmachen / gib ich dem leſer ſelbs zůuerſtehn / ſonderlich auß des dritten buͤch 18 prop. ⁊c. Dann es wer dem fleiſſigen leſer mehr verdrüßlich / weder nuß alle vortail wölle anzaigen / welches die fleiſſig übung ſelbſt mitbringt.
 
+[Curated heading level=2 type=propositions: XXXII. Die zwayvnddreyſſigſt propoſ.]
+
 ## XXXII Die zwayvnddreyſſigſt propoſ.
 
 {dropcap:I|lines=2|style=plain}n ainem yeden triangel / ſo die ain ſeitten füraußgezogen oder erſtreckht wirt / iſt der außwendig winckell gleich ſo groß / als baide innwendige winckel ſo gegen im vber ſtehn / ſambtlich ſeind. Auch alle drei innwendige winckel eines triangels / ſeind ſo groß oder thůnd eben ſouil als zwen gerechte winckell.

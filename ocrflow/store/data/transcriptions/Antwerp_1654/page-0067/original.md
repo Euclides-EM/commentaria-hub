@@ -1,6 +1,8 @@
 <!-- Page number: 34 -->
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXXI.]
+
 ## PROPOSITIO XXXI.
 
 [Curated heading level=2 type=figures: Fig. 48]

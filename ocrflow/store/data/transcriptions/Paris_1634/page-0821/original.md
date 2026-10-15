@@ -4,6 +4,10 @@ altera sphæra habeant proportionem triplicatam laterum homologorum, hoc est, se
 
 trorum, atque adeo diametrorum sphærarum, cum semidiametri atque diametri eandem habeant proportionem.
 
+[Curated heading level=2 type=propositions: THEOR. XVI. PROPOS. XVIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XVI. PROPOS. XVIII.]
+
 ## THEOR. XVI. PROPOS. XVIII.
 
 Sphæræ inter se sunt in triplicata ratione suarum diametrorum.

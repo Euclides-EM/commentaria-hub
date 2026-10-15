@@ -15,6 +15,10 @@ constr. | <hcк 2|2 <b,
 2 concl. d. ε | hi + de 3|2 fg,
 3.concl. d. ε | de + fg 3|2 hi.
 
+[Curated heading level=2 type=propositions: PROBL. III. PROPOS. XXIII.]
+
+[Curated heading level=2 type=problems: PROBL. III. PROPOS. XXIII.]
+
 ## PROBL. III. PROPOS. XXIII.
 
 Ex tribus angulis planis, quorum duo quomodocunque assumpti reliquo sunt majores, solidum angulum constituere: oportet autem illos tres angulos quatuor rectis minores esse.

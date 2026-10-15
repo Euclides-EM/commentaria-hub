@@ -2,7 +2,17 @@
 
 [Ornament]
 
+[Curated heading level=1 type=propositions: ELEMENT DOVZIESME.]
+
+[Curated heading level=1 type=theorems: ELEMENT DOVZIESME.]
+
+[Curated heading level=1 type=problems: ELEMENT DOVZIESME.]
+
 # ELEMENT DOVZIESME.
+
+[Curated heading level=2 type=propositions: THEOR. 1. PROP. I.]
+
+[Curated heading level=2 type=theorems: THEOR. 1. PROP. I.]
 
 ## THEOR. 1. PROP. I.
 

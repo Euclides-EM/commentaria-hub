@@ -27,6 +27,10 @@ Sit Circuli portio A B C (ſeu Sectio, nihil facio diſcriminis) conſtituta ſu
 
 Et quoniam maior eſt A D C portio quàm A B C : maior quoque erit perpendicularis E D quàm E B, vt præmonſtrauimus ad calcem Definitionum huius Tertij. Reſecetur ergo E D ad æqualitatem E B : & ſit E F æqualis E B. Eritq́; Triangulum A E B æquale Triangulo A E F, per quartam Primi : Et angulus E B A æqualis angulo E F A. Ac ſimili ratione, per eandem, erit angulus E B C æqualis angulo E F C. Totus igitur A B C toti A F C æqualis. Sed ipſe A F C, per vigeſimamprimam Primi: maior eſt ipſo A D C. Igitur & A B C maior quàm A D C. Quare, à Definitione, ipſæ A B C & A D C portiones, non ſunt ſimiles, Quod eſt contra poſitionem. Non ſunt igitur ſimiles & inæquales, Quod erat probandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 21, PROPOSITIO XXIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 21, PROPOSITIO XXIII.]
+
 ## THEOREMA 21, PROPOSITIO XXIII. Theoni 24.
 
 Super æqualibus rectis lineis, ſimiles Circulorum Sectiones conſtitutæ, inter ſe ſunt æquales.

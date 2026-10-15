@@ -13,6 +13,8 @@ de ſa multiplicité. Ainſi lorſqu'on compoſe les raiſons directes R² : 1 &
 
 Il eſt clair que la compoſée fF : 1 = R^m⁄n : 1 + R^p⁄q : 1. ſera exprimée par la raiſon R^(m⁄n + p⁄q) : 1: où l'Expoſant de R eſt la ſomme des Expoſans des compoſantes R^m⁄n : 1. & R^p⁄q : 1.
 
+[Curated heading level=2 type=propositions: PROPOSITION IX.]
+
 ## PROPOSITION IX.
 
 {dropcap:U|lines=2|style=plain}Ne raiſon primordiale 1 : R peut être décompoſée à l'infini par la voye de l'interpoſition, & compoſée à l'infini par la voye de la continuation.

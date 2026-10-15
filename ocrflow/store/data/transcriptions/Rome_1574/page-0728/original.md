@@ -7,6 +7,8 @@ NON aliter oſtendemus & A, C, D, compoſitos, eſſe ad B, primos; nec non, & B
 
 [Curated heading level=2 type=campanus: 17]
 
+[Curated heading level=2 type=theorems: THEOR. 16. PROPOS. 16.]
+
 ## THEOR. 16. PROPOS. 16.
 
 [Margin]
@@ -27,6 +29,8 @@ SINT primi inter ſe A, & B. Dico non eſſe ut A, ad B, ita B, ad alium numerum
 [/Margin]
 
 [Curated heading level=2 type=campanus: 18]
+
+[Curated heading level=2 type=theorems: THEOR. 17. PROPOS. 17.]
 
 ## THEOR. 17. PROPOS. 17.
 

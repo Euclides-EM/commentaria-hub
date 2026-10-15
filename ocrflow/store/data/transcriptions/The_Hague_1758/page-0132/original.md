@@ -3,6 +3,10 @@
 
 [Diagram: circle AFB centred at C and tangent to line DE at B, with radius CB and line CG intersecting the circle at F]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVIII. THEOREME XVI.]
+
+[Curated heading level=2 type=theorems: THEOREME XVI. PROPOSITION XVIII.]
+
 ## PROPOSITION XVIII. *THEOREME XVI.*
 
 {dropcap:S|lines=2|style=plain}I une droite (DE) touche un cercle (AFB) en un point (B) : le rayon (CB) tiré du centre au point d’attouchement (B), eſt perpendiculaire ſur la tangente (DE).

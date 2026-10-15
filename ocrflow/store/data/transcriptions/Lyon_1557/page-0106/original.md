@@ -15,6 +15,10 @@ In ipſo ABC Circulo, inſcribo Triangulum GHK, ipſi DEF æquiangulum, per ante
 
 HÆC conſtructio ex ijs eſt, quæ licet tædioſæ videantur : tamen ob concinnitatem faciles ſunt. Vnica etiam Propoſitione, nempè vigeſimanona Tertij, probatur.
 
+[Curated heading level=2 type=propositions: PROBLEMA 4, PROPOSITIO IIII.]
+
+[Curated heading level=2 type=problems: PROBLEMA 4, PROPOSITIO IIII.]
+
 ## PROBLEMA 4, PROPOSITIO IIII.
 
 In dato Triangulo Circulum deſcribere.

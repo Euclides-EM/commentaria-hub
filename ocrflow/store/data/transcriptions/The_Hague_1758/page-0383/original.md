@@ -3,6 +3,10 @@
 
 [Figure: a cone BRC inscribed in a cylinder with points labelled G, R, F, H, M, E, P, D, L, O, B, C, K, S, T, Q, A and I, with inscribed and circumscribed squares in the circular bazes; at right a rectangular parallelepiped labelled Z]
 
+[Curated heading level=2 type=propositions: PROPOSITION X. THEOREME X.]
+
+[Curated heading level=2 type=theorems: THEOREME X. PROPOSITION X.]
+
 ## PROPOSITION X. THEOREME X.
 
 {dropcap:L|lines=2|style=plain}E Cone (BRC) eſt le tiers du Cylindre (HGFEABDC) qui a la même baze (BDCA) & la même hauteur (BH).

@@ -6,6 +6,10 @@ qui n’eſt pas. Parquoy ſi on prend AB pouuant le compoſe des lignes AF, FB;
 
 ICT COMMENCENT LE S ſixaines des lignes irrationelles par la compoſition.
 
+[Curated heading level=2 type=propositions: THEOR. 25. PROP. XXXVII. Six. 1.]
+
+[Curated heading level=2 type=theorems: THEOR. 25. PROP. XXXVII. Six. 1.]
+
 ## THEOR. 25. PROP. XXXVII. Six. 1.
 
 Si deux lignes rationelles commenſurables en puiſſance ſeulement ſont aſſemblees, la toute ſera irrationelle: ſoit icelle appellee Binome.

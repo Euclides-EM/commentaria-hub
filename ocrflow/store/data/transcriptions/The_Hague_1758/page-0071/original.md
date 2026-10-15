@@ -4,6 +4,10 @@
 
 [Figure: parallelogram A, E, B above and C, G, D below, with diagonal BC, points H, F, I along a horizontal line, and dotted construction lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION XLIII. THEOREME XXXII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXII. PROPOSITION XLIII.]
+
 ## PROPOSITION XLIII. THEOREME XXXII.
 
 {dropcap:E|lines=2|style=plain}N tout parallélogramme (AD): les complémens (AF, FD) des parallélogrammes (HG, EI) alentour de la diagonale (BC) ſont égaux entr'eux.

@@ -3,6 +3,10 @@
 
 [Diagram: circle BDE tangent to line ABC at B, with chords BD, DE and EB, and angle N]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIV. PROBLEME VI.]
+
+[Curated heading level=2 type=problems: PROBLEME VI. PROPOSITION XXXIV.]
+
 ## PROPOSITION XXXIV. PROBLEME VI.
 
 {dropcap:R|lines=2|style=plain}Etrancher d’un cercle donné (BDE) un ſegment (BED), qui contienne un angle (DEB) égal à un angle rectiligne donné (N).

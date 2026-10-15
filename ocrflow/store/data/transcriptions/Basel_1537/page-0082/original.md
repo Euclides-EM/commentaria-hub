@@ -24,6 +24,8 @@ CAMPANVS. Intentio per hanc conclusionem, est ex omni arcu dato siue ex omni cir
 
 [Diagram: portion less than a semicircle: pointed oval a d b with e below the base and a line descending to f]
 
+[Curated heading level=2 type=problems: Problema 3. Propositio 25.]
+
 ## Eucli. ex Zamb. Problema 3. Propositio 25.
 
 [Curated heading level=3 type=zamberti_sequence: 25.]

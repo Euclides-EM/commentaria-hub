@@ -3,6 +3,10 @@
 
 [Diagram: circle AGB tangent to line DE at B, with vertical line AB passing through C and dotted line BF]
 
+[Curated heading level=2 type=propositions: PROPOSITION XIX. THEOREME XVII.]
+
+[Curated heading level=2 type=theorems: THEOREME XVII. PROPOSITION XIX.]
+
 ## PROPOSITION XIX. *THEOREME XVII.*
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (DE) touche un cercle (AGB en B) : la perpendiculaire (BA) élevée du point d’attouchement (B) ſur cette tangente, paſſera par le centre (C) du cercle.

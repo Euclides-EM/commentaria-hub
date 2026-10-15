@@ -5,6 +5,10 @@
 
 [Diagram: three geometrical figures labelled Fig. 1., Fig. 2. and Fig. 3., showing circles and construction lines labelled A, B, C, D, E, F, G and N]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXIII. PROBLEME V.]
+
+[Curated heading level=2 type=problems: PROBLEME V. PROPOSITION XXXIII.]
+
 ## PROPOSITION XXXIII. PROBLEME V.
 
 {dropcap:S|lines=2|style=plain}Ur une droite donnée (AB); décrire un ſegment de cercle (ADB), qui contienne un angle égal à un angle donné (N).

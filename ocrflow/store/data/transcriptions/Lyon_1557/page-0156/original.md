@@ -13,6 +13,10 @@ Ponam latus AB vnius, in directum lateris BD alterius: vt ſint ABC & BDE Triang
 
 [Diagram: gnomonic figure with A at top, F and C on the sides, B at the crossing, D and E at the bottom]
 
+[Curated heading level=2 type=propositions: THEOREMA 6, PROPOSITIO VI.]
+
+[Curated heading level=2 type=theorems: THEOREMA 6, PROPOSITIO VI.]
+
 ## THEOREMA 6, PROPOSITIO VI.
 
 Duo Triangula, vnum angulum vni angulo æqualem habentia, & quæ circum æquales angulos latera proportionalia: inter ſe ſunt æquiangula.

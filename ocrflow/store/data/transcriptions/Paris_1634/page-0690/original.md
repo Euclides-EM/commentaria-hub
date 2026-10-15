@@ -8,6 +8,10 @@ constr. | ab π ac 2|2 nr.□ π nr.□,
 5 concl. 9. 10 | df, comm. h,
 3d85. 10 | de, est apotom. 3.
 
+[Curated heading level=2 type=propositions: PROBL. XXII. PROPOS. LXXXIX.]
+
+[Curated heading level=2 type=problems: PROBL. XXII. PROPOS. LXXXIX.]
+
 ## PROBL. XXII. PROPOS. LXXXIX.
 
 Inuenire quartam apotomen.

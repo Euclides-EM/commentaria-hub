@@ -3,6 +3,8 @@
 
 gulum D E Z, duplam habet rationem quam latus B G ad latus E Z, & proinde quam ſimilis rationis reliqua latera. Eadem eſt enim ratio (per 1 diffinitionem huius) laterum. Similia itaque triangula, adinuicem in dupla ſunt ratione, &c.
 
+[Curated heading level=2 type=propositions: Propoſitio vigeſima.]
+
 ## Propoſitio vigeſima.
 
 Similia poligona in ſimilia triangula diuiduntur, æqualia numero, & proportionalia totis: Poligonum autem ad poligonum, duplam habet rationem, quam ſimilis rationis latus, ad ſimilis rationis latus.

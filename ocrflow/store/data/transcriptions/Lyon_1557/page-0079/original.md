@@ -9,6 +9,10 @@ V E L ſic. Quoniam angulus A N P, maior eſt angulo A N H (eſt enim A N O ipſ
 
 N E M O autem offendatur, quòd hîc lineas quæ extrinſecùs aduenientes Circulum penetrant, ſecare Circulum dixerimus. Nam tametſi propriè ſola K B Circulum ſecet: tamen A B ſic ſecare Circulum dicitur, vt quæuis linea lineam alteram. Atque vt linea N B peripheriam ſecat vnico ſui puncto, nempè puncto B: ita A B Circulum ſecat, ea ſui parte quæ eſt K B. Faceſſat igitur calumnia. Nos enim Geometriam exquiſitè quidem, ſed non nimis anxiè tractamus. Sed quę abundant, quantùm poſſumus, reſecamus: atque ad breuitatem veritati amicam contrahimus,
 
+[Curated heading level=2 type=propositions: THEOREMA 8, PROPOSITIO IX.]
+
+[Curated heading level=2 type=theorems: THEOREMA 8, PROPOSITIO IX.]
+
 ## THEOREMA 8, PROPOSITIO IX.
 
 Si à puncto intra Circulum ſignato, plures quàm duæ æquales rectæ lineæ ad peripheriam ductæ fuerint: punctum illud erit Circuli Centrum.
@@ -24,6 +28,10 @@ Eritq́; Triangulorum A B E & A C E, vterque angulus qui ad E, æqualis: ob id, 
 [Diagram: circle with points D, F, A, E, G, C and B; lines drawn through A crossing the circle]
 
 A L I T E R ab impoſſibili. Sit E, ſi poſſit, Centrum Circuli: ex quo per punctum A, vtrinque extendatur linea ad puncta F & G peripheriæ: vt ſit F G Dimetiens Circuli. Eritq́;, per ſeptimã huius, A G maxima: & maior A B quàm A C, quũ ſit propior Centro E, Quod eſt cõtra hypotheſin.
+
+[Curated heading level=2 type=propositions: THEOREMA 9, PROPOSITIO X.]
+
+[Curated heading level=2 type=theorems: THEOREMA 9, PROPOSITIO X.]
 
 ## THEOREMA 9, PROPOSITIO X.
 

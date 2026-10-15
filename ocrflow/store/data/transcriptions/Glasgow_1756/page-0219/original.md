@@ -1,6 +1,10 @@
 <!-- Page number: 206 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM. -->
 
+[Curated heading level=2 type=propositions: PROP. XXV. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXV. PROB.]
+
 ## PROP. XXV. PROB.
 
 {dropcap:D|lines=2|style=plain}ATO rectilineo, ſimile, et alteri dato aequale idem conſtituere.

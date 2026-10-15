@@ -1,6 +1,10 @@
 <!-- Page number: 210 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=2 type=propositions: PROP. XXVIII. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XXVIII. PROB.]
+
 ## PROP. XXVIII. PROB.
 
 {dropcap:A|lines=2|style=plain}D datam rectam lineam dato rectilineo aequale parallelogrammum applicare, deficiens figura parallelogramma quae ſimilis ſit alteri datae. oportet autem datum rectilineum cui aequale applicandum eſt, non majus eſſe eo quod ad dimidiam applicatur, ſimilibus exiſtentibus defectibus, et ejus quod ad dimidiam, et ejus parallelogrammi cui oportet ſimile deficere.

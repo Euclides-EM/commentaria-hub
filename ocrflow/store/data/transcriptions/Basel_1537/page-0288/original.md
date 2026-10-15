@@ -24,6 +24,8 @@ IDEM aliter. Sit linea d e, rationalis in longitudine, cui adiūgatur superficie
 
 [Diagram: rectangle on base c d, divided by the horizontal line f g into an upper compartment (b at top right) and a lower compartment; f at middle left, g at middle right, c and d at the bottom corners]
 
+[Curated heading level=2 type=theorems: Theorema 25 Propositio 37]
+
 ## Eucli. ex Zamb. Theorema 25 Propositio 37
 
 [Curated heading level=3 type=zamberti_sequence: 37.]

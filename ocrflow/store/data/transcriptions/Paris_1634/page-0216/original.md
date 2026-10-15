@@ -40,6 +40,10 @@ Demonstr.
 α.26.3 | <acb 2|2 <cad,
 concl. 27.1 | ad == bc.
 
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXVII.]
+
 ## THEOR. XXIV. PROPOS. XXVII.
 
 In æqualibus circulis, anguli, qui æqualibus peripheriis insistunt, sunt inter se æquales, siue ad centra, siue ad peripherias constituti insistant.

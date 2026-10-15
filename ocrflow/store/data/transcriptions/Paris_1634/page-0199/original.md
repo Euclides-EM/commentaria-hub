@@ -19,6 +19,10 @@ suppos. | a, ñ est centr.. ⊙,
 7.3 | ab, ac, ak, ñ snt 2|2 ⁊e contr. hypoth.
 concl. 21.a.1 | a, est centr.. ⊙.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. X.]
+
 ## THEOR. IX. PROPOS. X.
 
 Circulus circulum in pluribus, quàm duobus punctis non secat.

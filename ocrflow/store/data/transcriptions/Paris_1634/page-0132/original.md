@@ -1,5 +1,9 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
+[Curated heading level=2 type=propositions: PROBL. XI. PROPOS. XLII.]
+
+[Curated heading level=2 type=problems: PROBL. XI. PROPOS. XLII.]
+
 ## PROBL. XI. PROPOS. XLII.
 
 Dato triangulo æquale parallelogrammum constituere in dato angulo rectilineo.
@@ -38,6 +42,10 @@ constr. | be 2|2 ec,
 41.1. | ◊eg 2|2 2△aec,
 1.concl. 6.a.1. | ◊eg 2|2 △abc,
 2.concl. constr. | <ecg 2|2 <d.
+
+[Curated heading level=2 type=propositions: THEOR. XXXII. PROPOS. XLIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXXII. PROPOS. XLIII.]
 
 ## THEOR. XXXII. PROPOS. XLIII.
 

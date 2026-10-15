@@ -6,6 +6,8 @@ demonstrandum, ipsa omnia esse æqualia adinuicem. Sunt autem eorū alia quæ no
 
 [Diagram: two parallelepipeds on the same base drawn as one slanted solid; labels b and c at the top, d inside at the left, e and f on the front face, a at the lower left, with diagonal lines through the base]
 
+[Curated heading level=2 type=theorems: Theorema 24. Propositio 29.]
+
 ## Eucli. ex Zamb. Theorema 24. Propositio 29.
 
 [Curated heading level=3 type=zamberti_sequence: 29.]

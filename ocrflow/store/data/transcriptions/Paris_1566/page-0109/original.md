@@ -16,6 +16,8 @@ Vnde patet multiplex quãdoque minorem quãtitatem magnitudinis præ ſe ferre, 
 
 Proponatur inquirenda ratio magnitudinum A ad B, inter ipſa A & B aliqua ponatur quantitas C, ſit autem ipſius A ad C ratio ſeſquialtera, reliquæ verò C ad B dupla, ducantur autem earum rationum denominatores adinuicem, ſcilicet 1 1/2 per 2, fiet 3 denominator multiplicatæ rationis, ipſius quidem A ad B, quæ conſtitit ex ratione A ad C & C ad B, hæc autem ratio A ad B non dicetur dupla ipſius A ad C rationis, cùm non conſtet ex duabus æqualibus, rationi A ad C, ſed maior dupla æquè poteſt eſſe ſicut & minor quãdoque, vt latius dicemus quinta ſexti diffinitione, tantùm ſuperſit Euclidem dixiſſe in continuè proportionalibus, rationem primæ ad tertiam, duplam eſſe rationis primæ ad ſecundam: primæ verò ad quartam triplam eiuſdem primæ ad ſecundam rationis, ſiue ea multiplex ratio primæ ad tertiam aut quartam, maior fuerit multiplicata, ratione primæ ad ſecundam, ſiue eadem fuerit minor. Et proinde multiplex quandoque maiorem, quandoque verò minorem ſuo multiplicato concipere quantitatem, licet ipſum multiplex maius ſemper (hoc eſt, maiori multiplicante numero) denominatum ſubſiſtat.
 
+[Curated heading level=2 type=definitions: Diffinitio vndecima.]
+
 ## Diffinitio vndecima.
 
 Similis rationis dicuntur magnitudines, antecedentia antecedentibus, & conſequentia conſequentibus.

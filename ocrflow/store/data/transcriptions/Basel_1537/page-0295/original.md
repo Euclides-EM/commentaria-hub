@@ -4,6 +4,8 @@
 
 torum linearũ a c & c b sit incõmensurabile superficiei unius in alteram. Cumq̃ dicta quadrata cõmunicent ex hypothesi, sequitur ut ambo quadrata pariter accepta sint incõmensurabile superficiei unius in alteram, ideoq̃ & eius duplo. Quare superficies e g incõmensurabilis est superficiei g h. & linea g f, lineæ g l per primam sexti & secũdam partem 10 huius. Itaq̃ per 30 linea f l est binomium, diuisa secundum suum terminũ in puncto g. Eodemq̃ modo probabitur ipsam binomium esse, mediantibus superficiebus e m & m h, diuisam secundum suum terminum in puncto m, quod est impossibile per 36. Non enim potest dici, q̃ linea f l diuisa sit ad puncta g & m in partes consimiles, sic enim esset linea f m æqualis g l, sed ipsa est maior linea m l, ut patet ex primo præmissorum antecedentiũ huius & prima sexti, cum e m superficies sit maior h m superficie. Huius autem demõstrationis modus potest esse cõmunis 37 cæterisq̃ eam sequẽtibus.
 
+[Curated heading level=2 type=theorems: Theorema 32 Propositio 44]
+
 ## Eucli. ex Zamb. Theorema 32 Propositio 44
 
 [Curated heading level=3 type=zamberti_sequence: 44.]
@@ -31,6 +33,8 @@ THEON ex Zamberto. Sit ex binis medijs secunda α β, diuisa in γ, ut α γ, γ
 CAMPANVS. Sit quoq̃ hæc linea maior a b diuisa ad punctũ c, in duas lineas potentialiter incõmensurabiles snperficiemq̃{printer-error-correction:superficiemq̃} medialem continentes, quarum ambo quadrata pariter accepta sint rationale, ex talibus enim cõponitur, ut affirmat 33. Dico q̃ impossibile est ad alium punctum in alias duas lineas sub hac diffinitione ipsam diuidi. Quod si potest, sit hic ad d, maneantq̃ sub his eadem figura eædemq̃ hypotheses quæ prius, & argue quemadmodum in 36 superficiem g k esse rationalem & irrationalem, quod est impossibile.
 
 [Diagram: horizontal line with points a, d, c, b]
+
+[Curated heading level=2 type=theorems: Theorema 33 Propositio 45]
 
 ## Eucli. ex Zamb. Theorema 33 Propositio 45
 

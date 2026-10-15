@@ -21,6 +21,8 @@ Rect.A B C.  Æ.  rect.A C B, }
                  quad. C B, }
 [/Calculation]
 
+[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO IV.]
+
 ## PROPOSITIO IV.
 
 [Curated heading level=2 type=figures: Fig. 4]

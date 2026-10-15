@@ -23,6 +23,10 @@ u. ⬠ cad : ⬠ hfi | △ eab : △ kfg n. 11. V.
 
 Können derowegen ähnliche Vielecke in ähnliche und gleichviele/ auch mit dem gantzen Vieleck Verhältnüß-ähnliche oder ebenmässige Dreyecke abgetheilet werden. Es stehen auch die ähnliche Vielecke gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
 
+[Curated heading level=2 type=propositions: Der XXI. Vortrag. Beweiß-Stück]
+
+[Curated heading level=2 type=theorems: Das 15. Beweiß-Stück. Der XXI. Vortrag.]
+
 ## Der XXI. Vortrag.
 
 ## Das 15. Beweiß-Stück.

@@ -17,6 +17,10 @@ hyp. | ef == bc, & gih == ab,
 22.5 | ae π ag 2|2 ab π ad, &c.
 concl. 1.d.6 | ◊eg, ◊bd, ◊hf *ſnt ſml.* đe.
 
+[Curated heading level=2 type=propositions: PROBL. VII. PROPOS. XXV.]
+
+[Curated heading level=2 type=problems: PROBL. VII. PROPOS. XXV.]
+
 ## PROBL. VII. PROPOS. XXV.
 
 Descrire vne figure rectiligne, semblable à vne figure rectiligne donnée, laquelle soit égale à vne autre proposée.

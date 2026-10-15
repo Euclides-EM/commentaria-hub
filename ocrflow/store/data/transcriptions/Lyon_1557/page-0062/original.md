@@ -1,6 +1,10 @@
 <!-- Running title: LIBER II. -->
 <!-- Page number: 53 -->
 
+[Curated heading level=2 type=propositions: THEOREMA PRIMVM, PROPOSITIO PRIMA.]
+
+[Curated heading level=2 type=theorems: THEOREMA PRIMVM, PROPOSITIO PRIMA.]
+
 ## THEOREMA PRIMVM, PROPOSITIO PRIMA.
 
 [Ornament: fleuron]
@@ -13,6 +17,10 @@ Super puncta A & B, erigam lineas perpendiculares A F & B G, per vndecimam Primi
 
 [Diagram: rectangle with top corners F and G, bottom corners A and B, points H and K on the top side, points D and E on the bottom side, with vertical lines at D and E; a separate short line labelled C at the left]
 
+[Curated heading level=2 type=propositions: THEOREMA 2, PROPOSITIO II.]
+
+[Curated heading level=2 type=theorems: THEOREMA 2, PROPOSITIO II.]
+
 ## THEOREMA 2, PROPOSITIO II.
 
 Si recta linea vtcunque ſecta fuerit : quæ ſub tota & quolibet ſegmentorum Rectangula continentur, æqualia ſunt ei quod ex tota fit Quadrato.
@@ -24,6 +32,10 @@ Quod manifeſtum erit, deſcripto Quadrato A B E F, ductisq́; lineis C G & D H,
 ALITER. Sumatur K æqualis A B. Eritq́;, per antecedentem, quod fit ex K in totam A B, æquale ijs quæ fiunt ex eadem K in quælibet ſegmenta ipſius A B. Et quia quod ex K in A B, æquale eſt ei quod ex A B in ſeipſam : & quæ ex K in quælibet ſegmenta ipſius A B fiunt, æqualia ijs quæ ex A B in ſuas partes, proptereà quòd K & A B ſunt æquales : conſtat Propoſitio.
 
 [Diagram: square with top corners E and F, bottom corners A and B, points G and H on the top side, points C and D on the bottom side, with vertical lines at C and D; a separate short vertical line labelled K at the right]
+
+[Curated heading level=2 type=propositions: THEOREMA 3, PROPOSITIO III.]
+
+[Curated heading level=2 type=theorems: THEOREMA 3, PROPOSITIO III.]
 
 ## THEOREMA 3, PROPOSITIO III.
 

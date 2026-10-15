@@ -14,6 +14,10 @@ Par ſemblable maniere, eſtans donnees plus de trois grandeurs.
 
 commenſurables, nous trouuerons leurplus grandi commune meſure, & ce meſme corollaire aura lieu.
 
+[Curated heading level=2 type=propositions: THEOR. 3. PROP. V.]
+
+[Curated heading level=2 type=theorems: THEOR. 3. PROP. V.]
+
 ## THEOR. 3. PROP. V.
 
 Grandeurs commenſurables, ſont entr’elles comme nombre à nombre.

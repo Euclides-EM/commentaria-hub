@@ -4,6 +4,10 @@
 
 3.la plus petite ſection AIBeuſt compris vn angle egal à l’ane G. Que ſi l’angle donné euſt eſté droict, ne falloit que deſcrire vn demy cercle ſur la ligne donnee.
 
+[Curated heading level=2 type=propositions: PROBL. 6. PROP. XXXIV.]
+
+[Curated heading level=2 type=problems: PROBL. 6. PROP. XXXIV.]
+
 ## PROBL. 6. PROP. XXXIV.
 
 D’vn cercle donné, oſter vne ſection capable d’vn angle egal à vn angle rectiligne donné.
@@ -13,6 +17,10 @@ D’vn cercle donné, oſter vne ſection capable d’vn angle egal à vn angl
 Soit le cercle donné ABC, duquel il faut oſter vne ſection capable d’vn angle rectiligne egal à l’angle donnéD.
 
 Soit menee la ligne droicte EF touchant le cercle en A: puis par la 23.p.1. ſoit fait ſur icelle ligne, & au poinct A l’angle rectiligneF AC egal au donné D: faiſant que la ligne droicte AC couppe le cercle en deux ſections. Ie dis que tout angle qui ſera faict en la ſection ABC, ſera egal au donné D. Car il ſera egal à l’angle FAC par la 32.p.3.lequel eſt egal à D par la conſtruction.
+
+[Curated heading level=2 type=propositions: THEO. 29. PROP. XXXV.]
+
+[Curated heading level=2 type=theorems: THEO. 29. PROP. XXXV.]
 
 ## THEO. 29. PROP. XXXV.
 

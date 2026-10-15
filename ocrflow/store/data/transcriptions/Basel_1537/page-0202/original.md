@@ -18,6 +18,8 @@ CAMPANVS. Sint a & b, contra se primi, dico q̃ ex eis compositus a b, ad utrunq
 
 CAMPANI annotatio. Eodem quoq̃ modo si coaceruatus ex duobus, primus fuerit ad alterū, primus quoq̃ erit ad reliquum: ideoq̃ & coaceruati inter se. Sit enim compositus ex a, b, primus ad a, dico quod erit etiam primus ad b, alioqui, numeret eos d, qui per conceptionē numerabit & a, cum numeret totum & detractum: hoc autem inconueniens, erat enim compositus ex a & b, primus ad a.
 
+[Curated heading level=2 type=theorems: Theorema 28 Propositio 30]
+
 ## Eucli. ex Zamb. Theorema 28 Propositio 30
 
 [Curated heading level=3 type=zamberti_sequence: 30.]

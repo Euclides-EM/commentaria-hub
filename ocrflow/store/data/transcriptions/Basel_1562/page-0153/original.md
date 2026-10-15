@@ -19,6 +19,8 @@ Verwendung  }          { 27 }       {  9 }       { 15 }       {  5
 
 [Curated heading level=3 type=numbered_item: 18.]
 
+[Curated heading level=2 type=definitions: Beſchreibung 18.]
+
 18 Gleichhaitt der proportionalitet iſt / wann etliche quantiteten in allerlay oder vilerlay proportion nach ain ander volgen: vnnd eben inn ſolcher proportion gleich / ſouil andere quantiteten ainander volgen. Dann als dann / hindangeſetzt die mittlen / ſagt man das wie ſich inn der ainen ordnung die erſt halt gegen der letſten / alſo auch inn der anderen.
 
 [Curated heading level=4 type=margin_terms: τεταγμένως]
@@ -28,6 +30,8 @@ Verwendung  }          { 27 }       {  9 }       { 15 }       {  5
 [/Margin]
 
 [Curated heading level=3 type=numbered_item: 19.]
+
+[Curated heading level=2 type=definitions: Beſchreibung 19.]
 
 19 Solches geſchicht ettwa ordenlich / namlich wie ſich in der ainen ordnung die / erſt gegen der andern / die ander gegen der dritten / vnd alſo forthin halten:alſo halt ſich auch in der andern ordnung die erſt gegen der andern / die ander gegen die dritte / ꝛc.
 
@@ -40,6 +44,8 @@ Diſe zwo hatt Campanus / auch andere mehr / außgelaſſen.
 [/Margin]
 
 [Curated heading level=3 type=numbered_item: 20.]
+
+[Curated heading level=2 type=definitions: Beſchreibung 20.]
 
 20 Etwa geſchicht es mit verruckter ordnung / das namlich nit eben in ainer ordnung die erſt gegen der anderen / vnd alſo durch auß / ſich haltet wie inn der anderen. Iedoch welche proportion inn der ainen ordnung ſich befinden / die ſelben alle / vnd gleich ſo offt finden ſich inn der andern.
 

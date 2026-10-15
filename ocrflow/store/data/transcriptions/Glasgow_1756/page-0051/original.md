@@ -29,6 +29,10 @@ eſt duobus rectis; ergo omnes interiores ſimul cum exterioribus aequales ſunt
 
 [Diagram: rectilinear figure with exterior angles, labelled A, B, C and D]
 
+[Curated heading level=2 type=propositions: PROP. XXXIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXIII. THEOR.]
+
 ## PROP. XXXIII. THEOR.
 
 {dropcap:Q|lines=2|style=plain}UAE aequales et parallelas ad eaſdem partes conjungunt rectae lineae, et ipſae aequales et parallelae ſunt.

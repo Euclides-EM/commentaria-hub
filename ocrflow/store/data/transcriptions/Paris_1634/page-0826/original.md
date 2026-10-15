@@ -17,6 +17,10 @@ hyp. | □ec 2|2, 5□ai,
 β. 3. a. 1 | ▭.cm 2|2 gк□.ac,
 concl. 17. 6 | ab π ac 2|2 ac π cb.
 
+[Curated heading level=2 type=propositions: THEOR. III. PROPOS. III.]
+
+[Curated heading level=2 type=theorems: THEOR. III. PROPOS. III.]
+
 ## THEOR. III. PROPOS. III.
 
 Si recta linea secundum extremam ac mediam rationem secetur; minus segmentum assumens dimidiam majoris segmenti, quintuplum potest eius, quod à dimidia majoris segmenti describitur quadrati.

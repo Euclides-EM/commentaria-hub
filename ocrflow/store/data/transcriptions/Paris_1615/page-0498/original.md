@@ -4,6 +4,10 @@
 
 ra √37?; mais appliquant ſur la meſme DE le rect IK egal au quarré de BC, l’autre coſté IL ſera √13: & partant la toute DL ſera √54: & ſi derechef on applique ſur la meſme DE le rect. GN egal au rectangle de ACB, qui eſt√120, l’autre coſté GM ſera √73, & ſon double GL √30: parquoy DG eſt√54—√30, qui eſt reſidu troiſieſme.
 
+[Curated heading level=2 type=propositions: THEOR. 77. PROP. CI.]
+
+[Curated heading level=2 type=theorems: THEOR. 77. PROP. CI.]
+
 ## THEOR. 77. PROP. CI.
 
 Le quarré d’vne ligne mineure, appliqué ſur vne ligne rationele, faict l’autre coſté reſidu quatrieſme.

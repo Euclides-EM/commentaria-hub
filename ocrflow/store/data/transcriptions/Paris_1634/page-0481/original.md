@@ -24,6 +24,10 @@ hyp. | a, n̄. msur: b,
 contr. hyp.
 21.a.1 | a & b snt pr. ꝫe.
 
+[Curated heading level=2 type=propositions: THEOR. XXX. PROPOS. XXXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XXX. PROPOS. XXXII.]
+
 ## THEOR. XXX. PROPOS. XXXII.
 
 Si duo numeri sese mutuò multiplicantes fecerint aliquem : genitum autem ex ipsis metiatur aliquis primus numerus ; is etiam vnum eorum, qui à principio, metietur.

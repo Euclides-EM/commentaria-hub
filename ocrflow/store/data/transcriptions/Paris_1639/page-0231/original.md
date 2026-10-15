@@ -1,5 +1,9 @@
 <!-- Running title: D'EVCLIDE, LIV. V. -->
 
+[Curated heading level=2 type=propositions: THEOR. XIV. PROPOS. XIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XIV. PROPOS. XIV.]
+
 ## THEOR. XIV. PROPOS. XIV.
 
 Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme; & que la premiere soit plus grande que la troisiesme, la seconde sera aussi plus grande que la quatriesme. Et si la premiere est égale à la troisiesme, aussi la seconde sera égale à la quatriesme; & si plus petite, plus petite.

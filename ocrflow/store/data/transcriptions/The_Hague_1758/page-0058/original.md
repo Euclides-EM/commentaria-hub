@@ -4,6 +4,10 @@
 
 [Figure: transversal G H crossing three horizontal parallel lines A B, C D and E F, with angle m marked at the upper interſection, angles n and o at the middle, and p at the lower]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXX. THEOREME XXI.]
+
+[Curated heading level=2 type=theorems: THEOREME XXI. PROPOSITION XXX.]
+
 ## PROPOSITION XXX. THEOREME XXI.
 
 {dropcap:L|lines=2|style=plain}Es lignes droites (AB, EF), paralleles à une même droite (CD), ſont paralleles entr'elles.

@@ -6,6 +6,10 @@
 11.5 | mh π mg 2|2 mb π ma,
 3.concl. δ.16.6 | ▭.bmg 2|2 ▭amh.
 
+[Curated heading level=2 type=propositions: THEOR. XI. PROPOS. XXII.]
+
+[Curated heading level=2 type=theorems: THEOR. XI. PROPOS. XXII.]
+
 ## THEOR. XI. PROPOS. XXII.
 
 Pappus lib. 7. propos. 75. & 76.

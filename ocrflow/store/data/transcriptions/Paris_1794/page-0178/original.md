@@ -5,6 +5,10 @@
 
 *Corollaire.* Si deux plans parallèles MN, PQ, sont rencontrés par deux autres plans CABD, EABF, les angles CAE, DBF, formés par les intersections des plans parallèles, seront égaux; car l’intersection AC est parallèle à BD, AE à BF; donc l’angle CAE=DBF.
 
+[Curated heading level=2 type=propositions: PROPOSITION XIV. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIV.]
+
 ## PROPOSITION XIV.
 
 ### THÉORÊME.

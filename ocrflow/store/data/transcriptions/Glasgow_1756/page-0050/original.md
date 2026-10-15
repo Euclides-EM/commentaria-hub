@@ -9,6 +9,10 @@ b. 27. 1.
 
 Per datum igitur punctum A datae rectae lineae BC parallela ducta eſt recta linea EAF. Q. E. F.
 
+[Curated heading level=2 type=propositions: PROP. XXXII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXII. THEOR.]
+
 ## PROP. XXXII. THEOR.
 
 {dropcap:O|lines=2|style=plain}MNIS trianguli, uno latere producto, exterior angulus duobus interioribus et oppoſitis eſt aequalis; et trianguli tres interiores anguli duobus rectis aequales ſunt.

@@ -8,6 +8,8 @@ CAMPANVS, Sint quatuor lineæ a b c d, proportionales, sitque proportio a ad b, 
 
 [Diagram: at the right, a tall narrow rectangle labelled a with d at its lower left corner; beside it four vertical line segments of decreasing length labelled a, b, c, d; below, a wide rectangle labelled b with c at its right side]
 
+[Curated heading level=2 type=theorems: Theorema 11 Propositio 16]
+
 ## Eucli.ex Zamb. Theorema 11 Propositio 16
 
 [Curated heading level=3 type=zamberti_sequence: 16.]

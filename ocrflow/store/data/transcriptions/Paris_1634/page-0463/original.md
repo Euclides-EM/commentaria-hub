@@ -21,6 +21,10 @@ s.4.d.7 | multd.. part.. ab 2|2 multd.. part.. de,
 9.7 | c, par. u part.. f 2|2 ag, par. u part.. dh, u gb, par. u part.. he,
 concl. 5 & 6.7 | ab par. u part.. de 2|2 c, par. u part.. f.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. XI.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. XI.]
+
 ## THEOR. IX. PROPOS. XI.
 
 Si fuerit vt totus ad totū, ita ablatus ad ablatum : & reliquus ad reliquum erit, vt totus ad totum.

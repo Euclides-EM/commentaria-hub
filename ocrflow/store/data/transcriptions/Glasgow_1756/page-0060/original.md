@@ -11,6 +11,10 @@ rurſus quoniam EKHA parallelogrammum eſt, cujus diameter AK, triangulum AEK tr
 
 [Diagram: parallelogram labelled A, H, D above, E, K, F across the middle, and B, G, C below, with diagonals AC and HG]
 
+[Curated heading level=2 type=propositions: PROP. XLIV. PROB.]
+
+[Curated heading level=2 type=problems: PROP. XLIV. PROB.]
+
 ## PROP. XLIV. PROB.
 
 {dropcap:A|lines=2|style=plain}D datam rectam lineam, dato triangulo æquale parallelogrammum applicare, in angulo rectilineo dato angulo æquali.

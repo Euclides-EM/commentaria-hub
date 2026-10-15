@@ -2,6 +2,10 @@
 
 <!-- Page number: 63 -->
 
+[Curated heading level=2 type=propositions: THEOR. 5. PROP. V.]
+
+[Curated heading level=2 type=theorems: THEOR. 5. PROP. V.]
+
 ## THEOR. 5. PROP. V.
 
 Si vne ligne droite eſt coupee en deux parties egalles, & en deux inegalles; le rectangle des deux parties inegalles, auec le quarré de la ſection du milieu, ſont egaux au quarré de la moitié de la toute.

@@ -3,6 +3,10 @@
 
 [Diagram: a horizontal parallelogram plane labelled Z X within a ruled border, with a vertical rectangular plane Q E standing on it along the line E B D F, a vertical line A B, and a dotted vertical line C D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVIII. THEOREME XVI.]
+
+[Curated heading level=2 type=theorems: THEOREME XVI. PROPOSITION XVIII.]
+
 ## PROPOSITION XVIII. THEOREME XVI.
 
 {dropcap:S|lines=2|style=plain}I une droite (AB) eſt perpendiculaire à un Plan (ZX): Tous les Plans (comme QE) qui paſſent par cette ligne (AB) ſeront perpendiculaire ſur le même Plan (ZX).

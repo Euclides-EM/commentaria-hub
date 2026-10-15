@@ -4,6 +4,8 @@
 
 des, quia leuiter patet ex hac præcedente correlariū & 38, diuiso parallelogrammo per diametrū in duo triangulos, uel super basin parallelogrāmi inter easdem lineas æque distantes triangulo constituto, ad quem duplum erit parallelogrammū per hanc præcedentem, & ipse æqualis alteri dato triangulo per 38.
 
+[Curated heading level=2 type=theorems: Theorema 31. Propositio 41.]
+
 ## Eucli. ex Zamb. Theorema 31. Propositio 41.
 
 [Curated heading level=3 type=zamberti_sequence: 41.]
@@ -31,6 +33,8 @@ THEON ex Zamb. Parallelogrammū enim α β γ δ, & triangulum ε β γ, eandem 
 CAMPANVS. Sit assignatus angulus a, & assignatus triangulus b c d, uolo describere superficiem æquidistantiū laterum æqualem triangulo b c d, cuius uterq̃ duorum angulorū ex aduerso positorū sit æqualis a. Diuido basin c d per dimidium in puncto e, & protraho lineam b e, & à puncto b duco b f æquidistantē c d, eritq̃ per 38 triangulus b e d æqualis b e c, quare triangulus b e d est dimidiū totalis trianguli b c d. Igitur super punctum e & lineā e d, constituo per 23 angulū d e g æqualem angulo a, & perficio parallelogrammū g e d f, quod cum per præcedentē sit duplum triangulū b e d, erit etiam æquale triangulo b c d, per hanc cōmunem scientiam, quorū dimidia sunt æqualia, ipsa quoq̃ sunt æqualia: est enim triangulus b e d, utriusq̃ dimidium. Quare descripsimus parallelogrammū g e d f æquale triangulo b c d, cuius uterq̃ duorū angulorū g e d & d f g ex aduerso positorum est æqualis angulo a, quod fuit propositum.
 
 [Diagram: triangle b c d with midpoint e of base c d, line b e, line b f parallel to c d, and parallelogram g e d f; the given angle a shown separately to the right]
+
+[Curated heading level=2 type=problems: Problema 11. Propositio 42.]
 
 ## Euclidis ex Zamb. Problema 11. Propositio 42.
 

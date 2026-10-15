@@ -1,5 +1,7 @@
 <!-- Running title: EVCL. ELEMENT. GEOM. -->
 
+[Curated heading level=2 type=propositions: Propoſitio ſexageſimaſexta.]
+
 ## Propoſitio ſexageſimaſexta.
 
 Ei quæ Ex binis nominibus longitudine commenſurabilis, ipſa quoque Ex binis nominibus eſt, ac in ordine eadem.
@@ -7,6 +9,8 @@ Ei quæ Ex binis nominibus longitudine commenſurabilis, ipſa quoque Ex binis n
 *Sit ex binis nominibus cuiuſuis ordinis A B, maiúſque eius nomen ſit A G. Eidem porrò A B commenſurabilis eſto E D: Dico E D ex binis nominibus eſſe, & inſuper eiuſdem ordinis cum ipſa A B. Secetur E D (per decimam ſexti) in Z ſimiliter ipſi A B. Erit igitur A G ad G B vt E Z ad Z D, & componendo ſicut A B ad G B ſic E D ad Z D, per 18 quinti, viciſſim itaque (per 16 quinti) erit A B ad E D ſicut G B ad Z D, & ideo (per 19 quinti) reliquum A G ad reliquum E Z, ſicut A B ad E D, Cõmenſurabiles autem ſunt A B E D, ex hypotheſi, commenſurabiles igitur erunt G B ipſi Z D, & A G ipſi E Z, per 13 huius. Certæ item ſunt A G G B, per 36 huius, certæ igitur erunt E Z Z D, per ſextam diffinitionem huius. Quia verò A G ipſi G B longitudine eſt incommenſurabilis, & E Z ipſi Z D longitudine incommenſurabilis erit, per ſecundam partem 13 huius. Potentia igitur tantùm erunt commenſurabiles certæ E Z Z D. Tota igitur E D ex binis eſt nominibus. Oſtendamus quod eiuſdem ſit ordinis E D cum ipſa A B. Si enim A G plus poſſit minore G B à ſibi longitudine commenſurabili, & E Z ipſa Z D ſimile maius poterit, per 16 huius. Si quidem maius nomen A G propoſitæ fuerit commenſurabile longitudine, & E Z ipſi propoſitæ commenſurabile longitudine erit, per decimam huius. Nam propoſita & E Z eidem A G ſunt commenſurabiles, & ſic erit vtraque prima. Si minus G B, & minus Z D, per eandem, ſicq́; vtraque ſecunda. Si verò neutrum propoſitæ commenſuretur ipſorum A G G B nominum, & neutrum ipſorum E Z Z D eidem propoſitæ commenſurabitur, per coroll. ſecundum decimæ huius. Nam binæ A G E Z ſunt commenſurabiles oſtenſæ, ſimiliter & G B Z D inter ſe, & ſic vtraque erit tertia. Si quidem maior A G plus poſſit minore G B à ſibi longitudine incommẽſurabili, & G Z ipſa Z D eodem plus poterit, per ſecundam partem 10 huius. Hoc quidem tranſpoſito, ſi maius propoſitæ commenſuretur, & maius ipſius E D eidem propoſitæ commenſurabitur (vt patuit) & ſic quarta. Si minus, & minus, & ſic quinta. Si verò neutrum, & neutrum, ſicq́; ſexta. Ei itaque quæ ex binis nominibus longitudine commenſurabilis, &c.*
 
 [Diagram: two horizontal lines, the upper marked A G B, the lower marked E Z D]
+
+[Curated heading level=2 type=propositions: Propoſitio ſexageſimaſeptima.]
 
 ## Propoſitio ſexageſimaſeptima.
 

@@ -40,6 +40,10 @@ hyp. | cb est 5,
 1.s.1.d.2 | ad ▭.ac est 4,
 2.a.1. | cf + ad snt 14,
 
+[Curated heading level=2 type=propositions: THEOR. IV. PROPOS. IV.]
+
+[Curated heading level=2 type=theorems: THEOR. IV. PROPOS. IV.]
+
 ## THEOR. IV. PROPOS. IV.
 
 Si recta linea secta sit vtcüque : Quadratum, quod à tota describitur, æquale est & illis, quæ à segmen-

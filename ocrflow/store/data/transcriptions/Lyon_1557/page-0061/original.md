@@ -2,15 +2,27 @@
 
 [Ornament: floral headpiece]
 
+[Curated heading level=1 type=propositions: LIBER SECVNDVS]
+
+[Curated heading level=1 type=theorems: LIBER SECVNDVS]
+
+[Curated heading level=1 type=problems: LIBER SECVNDVS]
+
+[Curated heading level=1 type=definitions: LIBER SECVNDVS]
+
 # IACOBI PELETARII CENOMANI IN EVCLIDIS ELEMENTA GEOMETRICA DEMONSTRATIONVM. LIBER SECVNDVS.
 
 [Ornament: fleuron]
+
+[Curated heading level=2 type=definitions: Parallelogrammum Rectangulum.]
 
 ## Parallelogrammum Rectangulum.
 
 {dropcap:O|lines=5|style=decorated|decoration="woodcut initial with floral figure"}Mne Parallelogrammum Rectangulum, ſub duabus rectum angulum conſtituentibus rectis lineis dicitur contineri.
 
 Parallelogrammum Rectangulum fit ex ductu lineæ rectæ in lineam rectam, idq́; inſtar Numerorum : facilitatis, vt diximus, gratia. Vbi etiam meminiſſe oportet. Ducere maiorem lineam in minorem, idem eſſe ac ſi minorem in maiorem ducamus : ſicut 3 in 4, & 4 in 3, idem efficiunt.
+
+[Curated heading level=2 type=definitions: Gnomon.]
 
 ## Gnomon.
 

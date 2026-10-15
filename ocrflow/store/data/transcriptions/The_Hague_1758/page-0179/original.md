@@ -7,6 +7,8 @@
 
 ## DEFINITIONS.
 
+[Curated heading level=2 type=definitions: DEFINITION I.]
+
 ### I.
 
 {dropcap:O|lines=2|style=plain}N appelle *partie*, une moindre grandeur qui en meſure une plus grande.

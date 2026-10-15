@@ -12,6 +12,10 @@ Eadem methodo inuenientur tres numeri, quorum bini quique faciant tres numeros p
 
 Par la mesme methode on trouuera trois nombres, lesquels les prenant deux à deux feront trois nombres proposez ; car les segments des costez du triangle circonscrit seront les trois nombres requis.
 
+[Curated heading level=2 type=propositions: PROBL. V. PROPOS. V.]
+
+[Curated heading level=2 type=problems: PROBL. V. PROPOS. V.]
+
 ## PROBL. V. PROPOS. V.
 
 Circa datum triangulum, circulum describere.

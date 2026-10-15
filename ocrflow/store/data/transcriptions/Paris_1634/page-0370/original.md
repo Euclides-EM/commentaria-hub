@@ -2,6 +2,10 @@
 
 2.concl. α.15.5 | raō.. ◇bg π ◇hf 2|2 raō.. ai π dk + raō.. bc π ef.
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XXIV.]
+
 ## THEOR. XVIII. PROPOS. XXIV.
 
 In omni parallelogrammo, quæ circa diametrum sunt parallelogrāma & toti, & inter se sunt similia.

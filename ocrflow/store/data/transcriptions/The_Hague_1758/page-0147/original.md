@@ -4,6 +4,10 @@
 
 [Diagram: circle EDCF tangent to horizontal line AB at F, with diameter EF, chord FD, and lines ED, DC and CF]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXII. THEOREME XXVIII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXVIII. PROPOSITION XXXII.]
+
 ## PROPOSITION XXXII. THEOREME XXVIII.
 
 {dropcap:S|lines=2|style=plain}I une ligne droite (AB) touche un cercle (ECF), & que du point d’attouchement (F) on tire une corde quelconque (FD); les angles (DFB, DFA) formés par la corde & la tangente, ſont égaux à ceux (FED, FCD,) qui ſont placés dans les ſegmens alternes (FED, FCD).

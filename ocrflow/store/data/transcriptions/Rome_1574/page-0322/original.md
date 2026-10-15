@@ -5,6 +5,8 @@ trũ, erit tã angulus BDE, ad cẽtrũ duplus anguli BAE, ad circunferentiã, q
 
 [Curated heading level=2 type=campanus: 20]
 
+[Curated heading level=2 type=theorems: THEOR. 19. PROPOS. 21.]
+
 ## THEOR. 19. PROPOS. 21.
 
 [Margin]

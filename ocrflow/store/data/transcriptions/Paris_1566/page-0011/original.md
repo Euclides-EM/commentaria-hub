@@ -1,8 +1,6 @@
-## CAROLO NONO GALLORVM REGI INVICTISSIMO SEMPERQVE AVGVSTO, GVLIELmi Caluimontani in ſupremo Pariſien. Senatu patroni,
-
+## CAROLO NONO GALLORVM REGI INVI-
 [Subhead]
-Carmen.
-[/Subhead]
+CTISSIMO SEMPERQVE AVGVSTO, GVLIELmi Caluimontani in ſupremo Pariſien. Senatu patroni, Carmen.
 
 EVCLIDES nouus hic, quàm ſit mutatus ab illo,  
 Vulgus quem nuper credidit eſſe, viden?  
@@ -19,10 +17,10 @@ Euclides ſtygiis huc reuocatus aquis.
 Namque tibi acceptum referent hoc CARLE nepotes:  
 Autoris tua vel gloria maior erit.
 
-## AD AMPLISSIMVM ILLVSTRISSImúmque principem D. Franciſcum Fluſſatem Candallam,
-
+## AD AMPLISSIMVM ILLVSTRISSI-
 [Subhead]
-Steph. Manialdus Cleracius.
+múmque principem D. Franciſcum Fluſſatem Candallam, Steph. Manialdus Cleracius.
+
 [/Subhead]
 
 FRANCISCE, antiquo veniens de ſanguine Regum,  

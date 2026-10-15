@@ -26,6 +26,8 @@ Atqui b C B F bis cum quad. F C æquantur quadrata B C, B F, ſeu A B, B F: quar
                     quad. B F }
 [/Calculation]
 
+[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO X.]
+
 ## PROPOSITIO X.
 
 [Curated heading level=2 type=figures: Fig. 10]

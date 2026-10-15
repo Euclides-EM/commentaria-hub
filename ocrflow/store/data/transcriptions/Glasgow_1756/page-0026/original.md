@@ -9,6 +9,10 @@ a. Ax. 10.
 
 Congruet igitur BC baſis baſi EF, et ipſi aequalis erit. Quare et totum ABC triangulum congruet toti triangulo DEF, et ipſi erit aequale; et reliqui anguli reliquis angulis congruent, et ipſis aequales erunt. Videlicet angulus ABC angulo DEF, et angulus ACB angulo DFE. ſi igitur duo triangula duo latera duobus lateribus aequalia habeant, alterum alteri; habeant autem et angulum angulo aequalem, qui aequalibus rectis lineis continetur: et baſim baſi aequalem habebunt; et triangulum triangulo aequale erit; et reliqui anguli reliquis angulis aequales, alter alteri, quibus aequalia latera ſubtenduntur. Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: PROP. V. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. V. THEOR.]
+
 ## PROP. V. THEOR.
 
 [Subhead]

@@ -2,6 +2,8 @@
 
 DA, descriptus est circulus ABC, per tertium postulatum. | DA, a esté descrit le cercle ABC, par la troisiesme demande.
 
+[Curated heading level=2 type=postulates: IV.]
+
 ### IV.
 
 Item quacunque magnitudine data sumi posse aliam magnitudinem, vel æqualem, vel maiorem vel minorem. | Semblablement quelconque grandeur estant donnee, pouuoir prendre vne autre plus grande ou plus petite.
@@ -9,6 +11,8 @@ Item quacunque magnitudine data sumi posse aliam magnitudinem, vel æqualem, vel
 ## COMMVNES NOTIONES SIVE axiomata, quæ & pronunciata dici solent, vel dignitates.
 
 ## COMMVNES NOTIONS OV sentences, qui s'appellent außi maximes.
+
+[Curated heading level=2 type=axioms: 1. a. 1.]
 
 ### 1. a. 1.
 

@@ -3,6 +3,10 @@
 
 [Diagram: circle AHD with diameter AD, centre C, perpendicular AB at A, and dotted construction lines]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVI. THEOREME XV.]
+
+[Curated heading level=2 type=theorems: THEOREME XV. PROPOSITION XVI.]
+
 ## PROPOSITION XVI. *THEOREME XV.*
 
 {dropcap:T|lines=2|style=plain}Oute droite (AB) perpendiculaire au diametre d’un cercle (AHD), à ſon extrémité (A), tombe hors de ce cercle ; & on ne peut tirer aucune ligne droite entre cette perpendiculaire (AB) & la circonférence ; de plus l’angle mixtiligne (HAD), formé par une partie de la circonférence (HEA), & le diametre (AD) : eſt plus grand que tout angle rectiligne aigu quelconque ; & l’angle (HAB) formé par la perpendiculaire (AB), & la même partie de la circonférence (HEA) : eſt plus petit que tout autre angle rectiligne aigu quelconque.

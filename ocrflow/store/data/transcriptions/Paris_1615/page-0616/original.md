@@ -8,6 +8,10 @@ Ssemblablement la bauteur de la prremide n ſera deux t'erees paries du diametee
 
 Auſide s tles partus que ſera le quarre d’iceluy diam. le quarre de la pouteur ae la prrimideen ſeraz. Ca la raiſon de, às,ipi raiſon doublee de; à 2
 
+[Curated heading level=2 type=propositions: PROB. 2. PROP. XIIII.]
+
+[Curated heading level=2 type=problems: PROB. 2. PROP. XIIII.]
+
 ## PROB. 2. PROP. XIIII.
 
 Dans vne ſohere donnee, inſcrire vn octaeddre: Et monſtrer que le quarré du diametre de la ſphere, eſt double du quarré du coſté de I’octaedre.

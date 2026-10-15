@@ -27,6 +27,8 @@ PORRO ex proximis tribus theorematibus aperte intelliguntur ea, quæ in definiti
 
 [Curated heading level=2 type=campanus: 38]
 
+[Curated heading level=2 type=theorems: THEOR. 33. PROPOS. 35.]
+
 ## THEOR. 33. PROPOS. 35.
 
 [Margin]

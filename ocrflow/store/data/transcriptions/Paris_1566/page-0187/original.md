@@ -1,12 +1,14 @@
 <!-- Running title: EVCL. ELEMENT. GEO. -->
 
-## Corollarium.
+### Corollarium.
 
 Si quotcunque numeri continuè proportionales fuerint in ratione non multiplici, inter extremos quoſque eorum nuſquam cadet ratio multiplex. Nam ſi minimus proximum non metiatur, erit ratio non multiplex, & ſi proinde nullus alius alium metiatur, nec inter eos erit ratio multiplex.
 
-## MONITVM.
+### MONITVM.
 
 Cùm dixerint Theon & Campanus (primus autem non metiatur ſecundum) videntur ab hoc Euclidis theoremate, omnes terminos habentes rationes maioris inæqualitatis deiicere (cùm in eis nuſquam primus ſecundum metiatur, maior ſcilicet minorem) quod non fuiſſe Euclidis mentem rati, diximus, ſi minimus proximum non metiatur, vt demonſtrationis hypotheſim à minimo ſemper ſumendam eſſe, vt recta oriatur concluſio, doceamus. Quod autem dicit Theon in demonſtratione 2 non eſſe vnitatem, fruſtra id probare nititur: nam id ſufficienter exprimit hypotheſis theorematis, dicens minimus proximum non metiatur, vt excludat omnes rationes multiplices, quæ (cùm non ſint puræ numerorum rationes) ſolæ in minimis numeris vnitatem adeſſe patiuntur, ac earum conuerſæ, & quarum ſemper vnus alterum terminorum metitur, ſcilicet minor maiorem. In reliquis verò rationibus, vnus nunquam alterum metitur, &c.
+
+[Curated heading level=2 type=propositions: Propoſitio ſeptima.]
 
 ## Propoſitio ſeptima.
 
@@ -15,6 +17,8 @@ Si fuerint quotcunque numeri continuè proportionales, minimus autem metiatur ex
 Sint quotlibet numeri continuè proportionales A B G D. Quorum minimus A metiatur maximum D, vel extremum quod idem eſt: Dico quod & proximum B metietur idem A. Si autem non metiretur A proximũ B, nõ metiretur & extremum (per præcedentem nullũ enim metiretur) quod eſſet contra poſitum. Si itaque fuerint quotcunque numeri, &c.
 
 [Diagram: horizontal lines labelled A 3, B 6, G 12, D 24]
+
+[Curated heading level=2 type=propositions: Propoſitio octaua.]
 
 ## Propoſitio octaua.
 

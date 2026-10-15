@@ -12,6 +12,10 @@ Demonstr.
 β. 25.1 | <cad 3|2 <cae,
 concl. α. 4.a.1 | <bad + <dac 3|2 <bac.
 
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXI.]
+
 ## THEOR. XIX. PROPOS. XXI.
 
 Omnis solidus angulus sub minoribus, quam quatuor rectis angulis planis continetur.

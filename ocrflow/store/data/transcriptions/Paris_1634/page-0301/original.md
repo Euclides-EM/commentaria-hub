@@ -38,6 +38,10 @@ Demonstr.
 hyp. | a π b 2|2 c π d,
 concl. s.11.5 | l π m 2|2 n π p.
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XIII.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XIII.]
+
 ## THEOR. XIII. PROPOS. XIII.
 
 Si prima ad secundam eandem habuerit rationem, quàm tertia ad quartam ; tertia verò ad quartam maiorem rationem habuerit, quàm quinta ad

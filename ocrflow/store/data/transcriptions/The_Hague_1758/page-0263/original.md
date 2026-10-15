@@ -3,6 +3,10 @@
 
 [Figure: triangle ABC with dotted angle mark at B and hatched angle at A; at right triangle DEF with base DF, angle labels m and p at D, n and q at F, and dotted lines meeting below at G]
 
+[Curated heading level=2 type=propositions: PROPOSITION VI. THEOREME VI.]
+
+[Curated heading level=2 type=theorems: THEOREME VI. PROPOSITION VI.]
+
 ## PROPOSITION VI. THEOREME VI.
 
 {dropcap:S|lines=2|style=plain}I deux triangles (ABC, DEF) ont un angle (A) égal à un angle (*m*), & les côtés (BA, AC & ED, DF), qui comprennent ces angles, proportionels: les triangles ſont équiangles; & les angles (C & *n* item B & E) oppoſés aux côtés homologues, (BA, ED item AC, DF) ſont égaux entr'eux.

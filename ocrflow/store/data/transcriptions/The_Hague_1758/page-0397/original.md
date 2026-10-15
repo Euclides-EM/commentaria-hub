@@ -3,6 +3,10 @@
 
 [Figure: two concentric circles centred at G, the larger labelled B, A, C, I with an inscribed polygon in dotted lines, the smaller labelled D, E, F; other labels H, K, M, L]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVI. PROBLEME I.]
+
+[Curated heading level=2 type=problems: PROBLEME I. PROPOSITION XVI.]
+
 ## PROPOSITION XVI. *PROBLEME I.*
 
 {dropcap:D|lines=2|style=plain}Eux cercles inégaux (ABCI & DEF) étant donnés ayant un même centre (G): inſcrire au plus grand (ABCI) un polygone regulier dont les cotés ſoyent un nombre pair, & ne touchent point le plus petit cercle (DEF).

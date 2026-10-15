@@ -10,6 +10,8 @@ ex C, in alio plano, ad C D, ducatur alia perpendicularis C E, ita ut punctum E,
 
 [Curated heading level=2 type=campanus: 28]
 
+[Curated heading level=2 type=theorems: THEOR. 19. PROPOS. 28.]
+
 ## THEOR. 19. PROPOS. 28.
 
 [Curated heading level=3 type=incipit: SI]

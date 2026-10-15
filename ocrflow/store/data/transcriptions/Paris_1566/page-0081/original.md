@@ -8,6 +8,8 @@ In circulo A D B G cuius centrum ſit E, angulus in ſemicirculo ſit G A B, duc
 
 Hinc patet. Si trianguli angulus vnus, duobus reliquis fuerit æqualis, ipſe rectus erit. Si verò contra rectus ſit, & binis æquus erit. Trium enim trianguli angulorum dimidium vni recto æquipollere fatetur 32 primi.
 
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſecunda.]
+
 ## Propoſitio trigeſimaſecunda.
 
 Si circulum tetigerit aliqua recta linea, à contactu autem ducta fuerit quædam recta linea circulum ſecans, Anguli quos efficit ad tangentem, æquales ſunt eis qui in alternis circuli ſectionibus conſiſtunt angulis.
@@ -15,6 +17,10 @@ Si circulum tetigerit aliqua recta linea, à contactu autem ducta fuerit quædam
 Circulum A D G B tangat recta E Z in B. A contactu autem B ducatur B D circulum ſecans: Dico angulos quos D B efficit ad E Z tangentem, ſcilicet D B Z, æquari ei qui in alterna ſectione D A B reperietur, D B E verò ei qui in alterna ſectione D G B conſiſtit. Eſto ipſi Z E ad ſignum B perpendicularis A B, coniunctis A D, D G, G B. In recta A B erit centrum circuli, per 19 huius. Angulus igitur A D B (in ſemicirculo) rectus erit, per præcedentem, & proinde reliquis D A B, D B A æqualis, per coroll. præced. Bini igitur D A B, D B A vni A B Z recto ſunt æquales, communis auferatur D B A, reliquus D B Z (ad tangentem) reliquo D A B (in ſectione alterna) æquus erit. Cæterum quia quadrilaterum eſt in circulo A D G B, anguli D A B, D G B oppoſiti, duobus rectis ſunt æquales, per 22 huius, ſed duobus item rectis æquales ſunt D B Z, D B E, per 13 primi. Bini itaque D A B, D G B binis D B Z, D B E ſunt æquales, atqui D A B alterno D B Z æqualis oſtenſus eſt. Reliqui igitur ſcilicet D B E (ad tangentem) & D G B (in ſectione alterna) erunt æquales, per 3 commu. ſenten. Si itaque circulum tetigerit aliqua recta linea, &c.
 
 [Diagram: circle A D G B with diameter A B, chords A D, D G and G B, secant B D, and tangent Z B E]
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimatertia.]
+
+[Curated heading level=2 type=problems: Propoſitio trigeſimatertia. Problema 5.]
 
 ## Propoſitio trigeſimatertia.
 

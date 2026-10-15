@@ -26,6 +26,10 @@ contr. hypoth.
 
 2.concl. 21.a.1 | a, n̄, msur: b.
 
+[Curated heading level=2 type=propositions: THEOR. XV. PROPOS. XVII.]
+
+[Curated heading level=2 type=theorems: THEOR. XV. PROPOS. XVII.]
+
 ## THEOR. XV. PROPOS. XVII.
 
 Si cubus numerus cubum numerum non metiatur, neque latus vnius latus alterius metietur. Et si latus cubi vnius latus alterius non metiatur, neque cubus cubum metietur.

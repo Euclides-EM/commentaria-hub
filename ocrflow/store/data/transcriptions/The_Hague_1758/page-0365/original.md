@@ -3,6 +3,10 @@
 
 [Figure: two pentagons ABCDE and FGHIK inscribed in circles, with diagonals drawn as dotted lines and diameters EL and GM]
 
+[Curated heading level=2 type=propositions: PROPOSITION I. THEOREME I.]
+
+[Curated heading level=2 type=theorems: THEOREME I. PROPOSITION I.]
+
 ## PROPOSITION I. THEOREME I.
 
 {dropcap:L|lines=2|style=plain}Es polygones ſemblables (ABCDE & FGHIK) inſcrits dans des cercles: ſont entr'eux comme les quarrez décrits ſur les diamêtres (EL & GM) de ces mêmes cercles.

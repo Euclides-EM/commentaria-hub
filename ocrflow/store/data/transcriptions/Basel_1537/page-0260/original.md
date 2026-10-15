@@ -14,6 +14,8 @@ CAMPANI annotatio. Ex tertia parte huius, nota diametrum esse incommensurabilem 
 
 Sequentia duo ex Zamberto Theoremata. in Campano nihil respondens habent,
 
+[Curated heading level=2 type=theorems: Theorema 5 Propositio 7]
+
 ## Eucli. ex Zamb. Theorema 5 Propositio 7 Conuersa quintæ
 
 [Curated heading level=3 type=zamberti_sequence: 7.]
@@ -28,6 +30,8 @@ THEON ex Zamberto. Sint incommensurabiles magnitudines, α,β. Dico quod α, ad 
 
 [Diagram: two horizontal lines marked Re. 16 and Re. 32, labelled α and β at their right ends]
 
+[Curated heading level=2 type=theorems: Theorema 6 Propositio 8]
+
 ## Eucli. ex Zamb. Theorema t 6{printer-error-correction:Theorema 6} Propositio 8 Conuersa sextæ
 
 [Curated heading level=3 type=zamberti_sequence: 8.]
@@ -41,6 +45,8 @@ Si binæ magnitudines adinuicem rationem non habuerint quam numerus ad numerum i
 THEON ex Zamb. Binæ enim magnitudines α,β, adinuicem non eam habeant rationem, quam numerus ad numerum. Dico quod ipsæ α,β, magnitudines sunt incommensurabiles. Si enim commensurabilis est α ipsi β, rationem habebit quam numerus ad numerum (per quintam decimi) non habet autē. Incōmonsurabiles{printer-error-correction:Incōmensurabiles} igitur sunt ipsæ α,β, magnitudines. Si binæ igitur magnitudines, & quæ sequuntur reliqua, quod erat ostendendum.
 
 [Diagram: two horizontal lines, the longer labelled α and the shorter labelled β]
+
+[Curated heading level=2 type=theorems: Theorema 7 Propositio 9]
 
 ## Eucli. ex Zamb. Theorema 7 Propositio 9
 

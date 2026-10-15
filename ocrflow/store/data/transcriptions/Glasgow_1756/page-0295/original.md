@@ -1,6 +1,10 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 282 -->
 
+[Curated heading level=2 type=propositions: PROP. XXXVIII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXXVIII. THEOR.]
+
 ## PROP. XXXVIII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I planum ad planum rectum ſit, et ab aliquo puncto eorum quae ſunt in uno plano, ad alterum planum perpendicularis ducatur; ea in planorum communem ſectionem cadet.

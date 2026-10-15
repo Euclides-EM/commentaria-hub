@@ -25,6 +25,10 @@ c. 11. 5.
 
 ac propterea A ipſi B eſt ſimileᵃ. Q. E. D.
 
+[Curated heading level=2 type=propositions: PROP. XXII. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXII. THEOR.]
+
 ## PROP. XXII. THEOR.
 
 {dropcap:S|lines=2|style=plain}I quatuor rectæ lineæ proportionales fuerint, et rectilinea quæ ab ipſis fiunt ſimilia, et ſimiliter deſcripta, proportionalia erunt. et ſi rectilinea quæ ab ipſis fiunt ſimilia, et ſimiliter deſcripta, proportionalia fuerint, et ipſæ rectæ lineæ proportionales erunt.

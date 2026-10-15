@@ -9,6 +9,8 @@ A, 6. B, 4. C, 12. D, 8.
 hyp. | a π b 2|2 c π d,
 c.4.5 | b π a 2|2 d π c.
 
+[Curated heading level=2 type=definitions: DEFINIT. XIV.]
+
 ## DEFINIT. XIV.
 
 Compositio rationis, est sumptio antecedentis cum consequente, ceu vnius ad ipsam consequentem.

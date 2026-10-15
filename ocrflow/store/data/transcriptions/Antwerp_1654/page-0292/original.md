@@ -3,6 +3,8 @@
 
 X. Ergo ratio A ad B æqualis eſt rationi, X ad Z. Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: Lib. XII, PROPOSIT. III. & IV.]
+
 ## PROPOSIT. III. & IV.
 
 {dropcap:S|lines=2|style=plain}Vnt Prolixæ & difficiles tyronibus, nec alium habent vſum, quàm vt per eas demonſtretur quinta, quam nos ſine illis multò facilius demonſtrabimus.

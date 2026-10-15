@@ -8,6 +8,10 @@ SSoit le cercle donne rOs, al’entour duquel il faut deſcrire vn quarré. Soi
 
 Car en premier lieu il’ eſt euident par la conſtruction qual eſt narallelograme, & parla 54.p.1.les quatre coſtez ſerout eraux eſtans egaux à ſ’vn ou lautre des deux diametres FS, Ct ou ſont egoux entr eux. Pareillement par la meſme 3a. i.les angles d. B,C,D, ſont egaux aux quatrs qui ſontau noinct E chacun a’ſon or poſe, d’autant que ce ſont-paralleloorames. Mais iceux eſtans droicts, auſſ les quatre A, B.C, D, ſeront chaſcun droicts; & par conſequent le parallelograme ARCD, aura les a coſtez egaux, & les quatre angles droicts; ſers quarre, les coſtez duqueſ toucheut le cercle es ponct F,O,S,I, par le corol.de la 16.p.3.
 
+[Curated heading level=2 type=propositions: PROBL. 8. PROP. VIII.]
+
+[Curated heading level=2 type=problems: PROBL. 8. PROP. VIII.]
+
 ## PROBL. 8. PROP. VIII.
 
 Dans vn quarré donné, deſcrire vn cercle.

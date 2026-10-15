@@ -3,6 +3,10 @@
 
 marquer sur la ligne BC deux points B et C également distants d’un point quelconque A pris sur l’autre ligne AP, ensuite marquer sur celle-ci les deux points A et E également distants de B ; le milieu de BC et le milieu de AE seront les points D et P dont la distance est la plus petite.
 
+[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+
 ## PROPOSITION VII.
 
 ### THÉORÊME.

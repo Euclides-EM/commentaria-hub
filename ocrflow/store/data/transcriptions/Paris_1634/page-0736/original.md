@@ -4,11 +4,15 @@ quadrilateris, quarum, quæ ex aduerso, parallelæ sunt contenta.
 
 *six figures quadrilateres, desquelles les opposees sont paralleles.*
 
+[Curated heading level=2 type=definitions: DEFINIT. XXXI.]
+
 ## DEFINIT. XXXI.
 
 Solida figura in solida figura dicitur inscribi, quando omnes anguli figuræ inscriptæ constituuntur, vel in angulis, vel in lateribus, vel denique in planis figuræ, cui inscribitur.
 
 *Vne figure solide est dite estre inscrite en vne figure solide,quand tous les angles de la figure inscrite sont constituez, ou aux angles, ou aux costez, ou finalemét aux plans de la figure en laquelle elle est inscrite.*
+
+[Curated heading level=2 type=definitions: DEFINIT. XXXII.]
 
 ## DEFINIT. XXXII.
 

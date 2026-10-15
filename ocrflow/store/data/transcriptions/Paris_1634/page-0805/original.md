@@ -4,6 +4,10 @@
 
 Rursus, si prismatum bases, & altitudines reciprocentur, reciprocabuntur quoque bases, & altitudines pyramidum easdem bases & altitudines cum prismatis habentium. Quare vt demonstratum est, pyramides æquales sunt; ac propterea prismata, cum earum sint tripla: quod est propositum. | *Derechef, si les bases & les hauteurs des prismes sont reciproques, les bases & hauteurs des pyramides ayant mesme bases & hauteurs que les prismes seront außi reciproques: Donc comme a esté demonstré les pyramides sont egales: & partant außi les prismes estant triples d'icelles pyramides. Ce qui est proposé.*
 
+[Curated heading level=2 type=propositions: THEOR. X. PROPOS. X.]
+
+[Curated heading level=2 type=theorems: THEOR. X. PROPOS. X.]
+
 ## THEOR. X. PROPOS. X.
 
 Omnis conus tertia pars est cylindri eandem cum ipso basin habentis, & altitudinem æqualem.

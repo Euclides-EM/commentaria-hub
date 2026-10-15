@@ -11,6 +11,10 @@ Connectam enim A D. Et quia A C & B D ſunt æquales & æquidiſtantes: erit ang
 
 Erunt & per eandem, duo anguli A D C & B A D inter ſe æquales. Quare quum ſint alterni, æquidiſtabit, per vigeſimamſeptimam, A B ipſi C D, Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 24, PROPOSITIO XXXIIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 24, PROPOSITIO XXXIIII.]
+
 ## THEOREMA 24, PROPOSITIO XXXIIII.
 
 In omni Parallelogrammo, latera ex aduerſo poſita, ſunt æqualia, & anguli oppoſiti æquales: Et Dimetiens medium Parallelogrammum diuidit.

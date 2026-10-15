@@ -2,6 +2,8 @@
 
 <!-- Page number: 72 -->
 
+[Curated heading level=2 type=propositions: Propoſitio 8.]
+
 ## Propoſitio 8.
 
 Si numerus numeri partes fuerit, quæ ablatus ablati, & reliquus reliqui eædem partes erit, quæ totus totius.
@@ -10,6 +12,8 @@ Eſto numerus A B numeri G D partes quæ ablatus A E ablati G Z: Dico reliquum E
 
 [Diagram: two horizontal divided lines, the upper labelled B, E and A, the lower labelled D, G, Z and I]
 
+[Curated heading level=2 type=propositions: Propoſitio 9.]
+
 ## Propoſitio 9.
 
 Si numerus numeri pars fuerit, & alter alterius eadem pars, & viciſſim qualis pars vel partes erit primus tertij, eadem pars erit, vel partes, ſecundus quarti.
@@ -17,6 +21,8 @@ Si numerus numeri pars fuerit, & alter alterius eadem pars, & viciſſim qualis 
 Sit numerus A numeri B G ea pars quæ D ipſius E Z: Dico vicißim eam partem vel partes eſſe A primum numeri D tertij, quam B G ſecundum ipſius E Z quarti. Secetur B G in numeros æquales ipſi A qui ſint B I I G. Similiter numerus E Z in numeros æquales ipſi D (cùm ſint eorum partes) qui ſint E T T Z. Quoniam ea pars eſt A numeri B G quæ D ipſius E Z, æqua erit multitudo A in B G quæ D in E Z, ſcilicet B I I G & E T T Z. Cæterùm cum B I I G ſint æquales ac E T T Z æquales, ſinguli B I & I G ſingulorum E T vel T Z eædem pars vel partes erunt. Si autem numerus B I numeri E T & alter I G alterius T Z eadem pars vel partes fuerit, & vterque (totus ſcilicet B G) vtriuſque (totius E Z) eadem pars erit, quæ vnus B I vnius E T, per quintam & ſextam huius. Atqui numerus B I ipſius E T eadem pars, vel partes eſt, quæ A numeri D, cùm A & D ſint ipſis B I E T æquales. Qualis itaque pars vel partes eſt A tertij D, ea pars vel partes erit B G ſecundus numeri E Z quarti. Si igitur numerus numeri pars fuerit, & alter, &c.
 
 [Diagram: four horizontal divided lines, the first labelled A, the second labelled G, I and B, the third labelled D, the fourth labelled Z, T and E]
+
+[Curated heading level=2 type=propositions: Propoſitio 10.]
 
 ## Propoſitio 10.
 

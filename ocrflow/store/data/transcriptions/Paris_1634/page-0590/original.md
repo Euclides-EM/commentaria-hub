@@ -19,6 +19,10 @@ c.20.6 | □.a π □.e 2|2 a π d,
 β | a. incomm. d,
 3.concl 10.10 | □.a, incomm. □.e.
 
+[Curated heading level=2 type=propositions: THEOR. IX. PROPOS. XII.]
+
+[Curated heading level=2 type=theorems: THEOR. IX. PROPOS. XII.]
+
 ## THEOR. IX. PROPOS. XII.
 
 Quæ eidem magnitudini sunt commensurabiles, & inter se sunt commensurabiles.

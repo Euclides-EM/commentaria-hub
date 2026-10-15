@@ -5,6 +5,10 @@
 contr. hypoth.
 2.concl. 21.a.1 | a,b,c,d n̄ snt proport;
 
+[Curated heading level=2 type=propositions: THEOR. XVIII. PROPOS. XX.]
+
+[Curated heading level=2 type=theorems: THEOR. XVIII. PROPOS. XX.]
+
 ## THEOR. XVIII. PROPOS. XX.
 
 Primi numeri plures sunt omni proposita multitudine primorum numerorum.
@@ -39,6 +43,10 @@ suppos | g, est a, u b, u c, γ
 α.12.a.7 | g, msur: f,
 contr. 9.a.b.
 2.concl. 21.a.1 | g, n̄ est a, u b, u c.
+
+[Curated heading level=2 type=propositions: THEOR. XIX. PROPOS. XXI.]
+
+[Curated heading level=2 type=theorems: THEOR. XIX. PROPOS. XXI.]
 
 ## THEOR. XIX. PROPOS. XXI.
 

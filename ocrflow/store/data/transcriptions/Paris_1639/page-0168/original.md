@@ -11,6 +11,10 @@ concl. 1.a.1 | ∠aib 2|2 ∠c.
 
 [Figure]
 
+[Curated heading level=2 type=propositions: PROBL. VI. PROPOS. XXXIV.]
+
+[Curated heading level=2 type=problems: PROBL. VI. PROPOS. XXXIV.]
+
 ## PROBL. VI. PROPOS. XXXIV.
 
 D'vn cercle donné, retrancher vn segment, qui reçoiue vn angle égal à vn angle rectiligne donné.
@@ -39,6 +43,10 @@ arbitr. | • b *eſt en la* ∩abc,
 α.32.1 | ∠abc 2|2 ∠caf,
 conſtr. | ∠d 2|2 ∠caf,
 concl. 1.a.1 | ∠abc 2|2 ∠d,
+
+[Curated heading level=2 type=propositions: THEOR. XXIX. PROPOS. XXXV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIX. PROPOS. XXXV.]
 
 ## THEOR. XXIX. PROPOS. XXXV.
 

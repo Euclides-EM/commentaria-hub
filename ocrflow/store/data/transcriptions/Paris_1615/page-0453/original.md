@@ -8,6 +8,10 @@ des rationeles AB, AE, eſt rationel par la 20.p.10. (qui eſt egal aux quarrez 
 
 La raiionele AB ſoit 5, & AC 44√8: Donc le rectangle AD ſera 20√200. Et puis que AE eſt 4, & EC√8, EF ſera √3, au quarre de laquelle, ſçauoir 2, ayant eſte poſe egal le rectangle de AG, GE; la ligne AG ſera 14√2, & GE2—√2: partant le rectangle AH ſera 10√50, & GI10—√50; & par conſequent OM est√ (i0 E√50.) eMP√10—√50). Or ED eſtoit √8; donc ED double du rectangle MT√ 50; ſera √200. La ſomme des quarrez LM, MN, ſera donc o, à laquelle ſi on adlouſte les plans TMS√200, on aurapour tout le quarré LN 20√200; & partant ſon coſté OP ſera √ (.0 √(√50—(10√50) ou√ (20—√2co) qui eſt ligne maieure.
 
+[Curated heading level=2 type=propositions: THEOR. 41. PROP. LIX.]
+
+[Curated heading level=2 type=theorems: THEOR. 41. PROP. LIX.]
+
 ## THEOR. 41. PROP. LIX.
 
 Si vn rectangle eſt compris d’vne ligne rationele, & d’vn binome cinquieſme; la ligne qui peut iceluy rectangle, eſt ligne irrationele pouuant vn rationel & vn medial.

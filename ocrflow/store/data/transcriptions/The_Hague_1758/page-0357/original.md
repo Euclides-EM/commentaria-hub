@@ -3,6 +3,10 @@
 
 [Figure: four cubes of decreasing size labelled A, B, C and D, within a double-ruled frame]
 
+[Curated heading level=2 type=propositions: PROPOSITION XXXVII. THEOREME XXXII.]
+
+[Curated heading level=2 type=theorems: THEOREME XXXII. PROPOSITION XXXVII.]
+
 ## PROPOSITION XXXVII. THEOREME XXXII.
 
 {dropcap:S|lines=2|style=plain}I quatres lignes droites (A, B, C & D) ſont proportionelles (c. a. d. que A : B = C : D) : Les paralelipipédes ſemblables & ſemblablement conſtruits ſur les deux premieres (A & B), ſeront proportionels aux paralelipipédes ſemblables & ſemblablement conſtruits ſur les deux dernières (C & D). Et ſi deux paralelipipédes ſemblables & ſemblablement poſés ſur deux lignes (A & B); ſont proportionels à deux autres paralelipipédes, auſſi ſemblables & ſemblablement poſés ſur deux autres droites (C & D) : les cotés homologues (A & B) des premiers, ſeront proportionels aux cotés homologues (C & D) des derniers.

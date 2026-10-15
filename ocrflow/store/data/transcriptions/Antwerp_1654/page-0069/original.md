@@ -15,6 +15,8 @@ Fig. 50.
 b Per 27. l.1.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXXII.]
+
 ## PROPOSITIO XXXII.
 
 ### Pars I.

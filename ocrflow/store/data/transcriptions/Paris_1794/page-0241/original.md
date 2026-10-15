@@ -1,6 +1,10 @@
 <!-- Running title: LIVRE VII. -->
 <!-- Page number: 213 -->
 
+[Curated heading level=2 type=propositions: PROPOSITION IX. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IX.]
+
 ## PROPOSITION IX.
 
 ### THÉORÊME.
@@ -18,6 +22,10 @@ Car le point A étant le pole de l’arc EF, la distance AE est un *quadrans* ; 
 [Curated heading level=4: Corollaire.]
 
 *Corollaire.* Donc le triangle ABC peut être décrit par le moyen de DEF, comme DEF par le moyen de ABC.
+
+[Curated heading level=2 type=propositions: PROPOSITION X. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION X.]
 
 ## PROPOSITION X.
 

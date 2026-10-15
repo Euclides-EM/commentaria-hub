@@ -18,6 +18,8 @@ CAMPANVS. Sit uterque duorum numerorum a & b, primus ad e, & ex a in b sit d. Di
 
 [Diagram: dotted number lines beside the text: a··· b···· / c····· / d············ / e·· f······]
 
+[Curated heading level=2 type=theorems: Theorema 24 Propositio 26]
+
 ## Eucli. ex Zamb. Theorema 29{printer-error-correction:24} Propositio 26
 
 [Curated heading level=3 type=zamberti_sequence: 26.]
@@ -45,6 +47,8 @@ THEON ex Zamberto. Bini enim numeri α,β, ad aliquem numerū γ, primi sint, & 
 CAMPANVS. Sint contra se primi a & b, & ex a in se fiat c. Dico quod c primus est ad b: sit enim d, æqualis a, eritq̃ d primus ad b, & ex a in d, fiet c, per præmissam igitur patet c primum esse ad b, quod proposuimus.
 
 [Diagram: dotted number lines beside the text: a··· b···· / c········· / d···]
+
+[Curated heading level=2 type=theorems: Theorema 25 Propositio 27]
 
 ## Eucli. ex Zamb. Theorema 25 Propositio 27
 

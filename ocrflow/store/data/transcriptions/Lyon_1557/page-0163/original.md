@@ -7,6 +7,10 @@ ad BE. Quapropter, in quocunque ſint ſitu Rectangula, quum ſint anguli vndiqu
 
 Secundum patet ex priori parte eiuſdem. Si enim ſint Parallelogramma æqualia: quum omnes anguli ſint æquales, latera erunt reciproca. Quare in hoc ſitu AD lineæ vnius, erit AB ad BD vt BC ad BE: hoc eſt, permutatim, AB ad BC vt BD ad BE, Quod erat demonſtrandum.
 
+[Curated heading level=2 type=propositions: THEOREMA 12, PROPOSITIO XVII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 12, PROPOSITIO XVII.]
+
 ## THEOREMA 12, PROPOSITIO XVII.
 ### Campano 16.
 
@@ -17,6 +21,10 @@ Si tres lineæ proportionales fuerint: quod ſub extremis continetur Rectangulum
 Sit linea AB ad lineam BC, vt eadem BC ad tertiam BD. Dico Rectangulum comprehenſum ſub AB & BD eſſe æquale Quadrato quod ex BC. Et ſi Rectangulum comprehenſum ſub AB & BD ſit æquale Quadrato BC: eſſe AB ad BC vt BC ad BD.
 
 Hoc autem ſatis manifeſtum eſt ex antecedente. Nam linea BC, hoc loco eſt pro ſecunda & tertia: BD autem quarta. Hoc igitur Theorema ſuperiori connecti poterat, vt Conſectarium.
+
+[Curated heading level=2 type=propositions: THEOREMA 13, PROPOSITIO XVIII.]
+
+[Curated heading level=2 type=theorems: THEOREMA 13, PROPOSITIO XVIII.]
 
 ## THEOREMA 13, PROPOSITIO XVIII.
 ### Theoni 19.

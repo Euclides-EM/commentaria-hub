@@ -15,6 +15,8 @@ PARI ratione liquet, numerum medium proportionalem E, & utrumlibet quadratorum A
 
 [Curated heading level=2 type=campanus: 11]
 
+[Curated heading level=2 type=theorems: THEOR. 10. PROPOS. 12.]
+
 ## THEOR. 10. PROPOS. 12.
 
 [Margin]

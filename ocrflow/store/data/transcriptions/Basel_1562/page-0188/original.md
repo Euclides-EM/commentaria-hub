@@ -5,6 +5,8 @@
 
 Iſt leichtlich zůbeweiſen / in anſehung / das die linj e f / der linj c gleich iſt (alß auß der rechten winckel vnnd parallel linien art wol zůuerſtehn) auß der Demonſtration diſer 13 propoſition. Das aber geſagt wirt / das proportional mittel ſoll nitt gröſſer ſein / weder der zertailten linj halbtail / geſchicht darum / das / wan es gröſſer were / vnd du es zwaimal inn vergleichung der proportion ſetzen wurdeſt / alſo das vier proportional quantiteten weren:wurde des fünfften bůchs letſte propoſition nit mögen ſtatt haben. Was ſunſt ferners vom proportional mittel zůſagen iſt / wirt vnden die 16 vnnd 17 propoſition mittbringen.
 
+[Curated heading level=2 type=propositions: XIIII. Die vierzehendt propoſition]
+
 ## XIIII. Die vierzehendt propoſition.
 
 {dropcap:P|lines=2|style=plain}arallelogramm ſo gleicher gröſſe ſeind / vnnd ainen gleichen winckel haben / derſelben ſeitten / die gleiche winckel begreiffen / ſeind widerſinns gegen ainander geproportioniert. härgegen ſo parallelogramm ainen gleichen winckel / vnnd dermaſſen gegen ainander geproportionierte ſeitten haben / die ſeind ainander gleich.

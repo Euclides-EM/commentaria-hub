@@ -2,9 +2,13 @@
 
 <!-- Page number: 101 -->
 
-## Corollarium.
+### Corollarium.
 
 Pyramis excedit ſibi inſcripti icoſahedri duplum, ſolido quod ſuper lateris icoſahedri ſibi inſcripti potentia, vertice autem ea tota cuius, id eſt, maius ſegmentum. Nam patuit 19 decimiquinti, octahedrum & ſibi inſcriptum icoſahedrum eidem inſidere pyramidi. Oſtendimus inſuper 26 huius, pyramidẽ octahedri comprehẽſi duplam fuiſſe. In binis itaque octahedris bini icoſahedrorum duplicantur in vnum exceſſus, qui quidem ſuper eadem baſi latere icoſahedri comprehenſa conſtituitur, vertice autem dupla rectæ K O perpendicularis, cuius dupla ſcilicet iungens oppoſita latera H K X M, efficit maius ſegmentum idem icoſahedri latus ex primo & ſecundo coroll. decimæquartæ decimiquinti. Quare ſuper eadem baſi & duplo vertice ſolidum, ſolidi duplum erit, ex coroll. trigeſimæprimæ vndecimi.
+
+[Curated heading level=2 type=propositions: Propoſitio trigeſimaſeptima.]
+
+[Curated heading level=2 type=added_propositions: Propoſitio trigeſimaſeptima.]
 
 ## Propoſitio trigeſimaſeptima.
 

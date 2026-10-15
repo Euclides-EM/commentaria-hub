@@ -4,6 +4,10 @@
 
 [Figure: triangle BAC within a ruled frame, with base BC prolonged to D]
 
+[Curated heading level=2 type=propositions: PROPOSITION XVII. THEOREME X.]
+
+[Curated heading level=2 type=theorems: THEOREME X. PROPOSITION XVII.]
+
 ## PROPOSITION XVII. THEOREME X.
 
 {dropcap:E|lines=2|style=plain}N tout triangle (BAC), deux angles quelconques (comme ABC, ACB) ſont moindres que deux droits.

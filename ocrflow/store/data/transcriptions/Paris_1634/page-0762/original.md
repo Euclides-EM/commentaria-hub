@@ -11,6 +11,10 @@ prism. nbmpci, commun. subtr.
 prism. agnehp, commun. add.
 concl. 2. a. 1 | ◇piped. aghefbcd 2|2 ◇piped. aghemlкi.
 
+[Curated heading level=2 type=propositions: THEOR. XXV. PROPOS. XXX.]
+
+[Curated heading level=2 type=theorems: THEOR. XXV. PROPOS. XXX.]
+
 ## THEOR. XXV. PROPOS. XXX.
 
 Solida parallelepipeda super eandem basin constituta, & in eadem altitudine, quorum insistentes lineæ non in iisdem collocantur rectis lineis, inter se sunt æqualia.

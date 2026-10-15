@@ -1,6 +1,8 @@
 <!-- Page number: 224 -->
 <!-- Running title: APPENDICE. -->
 
+[Curated heading level=2 type=definitions: DEFINITION V.]
+
 ## DEFINITION V.
 
 {dropcap:Q|lines=2|style=plain}Uand on renverſe les termes d'une raiſon, tellement que l'antécédent devienne conſéquent, & le conſéquent antécédent, cette ſeconde raiſon eſt appellée la RECIPROQUE de la premiere qu'on nomme DIRECTE.
@@ -10,6 +12,8 @@ Par ex. La raiſon directe 3 : 1 a pour réciproque la raiſon 1 : 3. De même p
 ### COROLLAIRE.
 
 {dropcap:S|lines=2|style=plain}I la directe, par ex. 3 : 2, eſt une raiſon de plus grande inégalité, ſa réciproque 2 : 3 ſera néceſſairement une raiſon de moindre inégalité.
+
+[Curated heading level=2 type=definitions: DEFINITION VI.]
 
 ## DEFINITION VI.
 

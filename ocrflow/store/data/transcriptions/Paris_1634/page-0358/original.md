@@ -15,6 +15,10 @@ d.β 1.concl. | gh π hb 2|2 ef π fd,
 1.d.6 2.concl. | abhg, sml. cdfe,
 α | ab est homolog. cf.
 
+[Curated heading level=2 type=propositions: THEOR. XIII. PROPOS. XIX.]
+
+[Curated heading level=2 type=theorems: THEOR. XIII. PROPOS. XIX.]
+
 ## THEOR. XIII. PROPOS. XIX.
 
 Similia triangula inter se sunt in duplicata ratione laterum homologorum.

@@ -13,6 +13,8 @@ ALITER. Quoniam numerus A B, in C, ita diuiſus eſt, vt is qui fit ex A B, in C
 
 [Curated heading level=2 type=campanus: 16]
 
+[Curated heading level=2 type=theorems: THEOR. 15. PROPOS. 15.]
+
 ## THEOR. 15. PROPOS. 15.
 
 [Margin]

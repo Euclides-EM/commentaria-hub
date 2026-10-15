@@ -7,13 +7,19 @@
 
 <!-- Running title: DEFINITIONS -->
 
+[Curated heading level=2 type=definitions: DEFINITION V.]
+
 ### V.
 
 {dropcap:U|lines=2|style=plain}N *cercle* (ABCD) *eſt inſcrit dans une figure rectiligne* (EFGH), quand ſa circonférence touche chacun des côtés (EF, FG, GH, HE) de la figure à laquelle il eſt inſcrit (*Fig.* 1).
 
+[Curated heading level=2 type=definitions: DEFINITION VI.]
+
 ### VI.
 
 Mais *un cercle* (ABCD) *eſt circonſcrit à une figure rectiligne* (ABC), quand la circonférence du cercle touche chacun des angles (A, B, C) de la figure à laquelle il eſt circonſcrit (*Fig.* 2).
+
+[Curated heading level=2 type=definitions: DEFINITION VII.]
 
 ### VII.
 

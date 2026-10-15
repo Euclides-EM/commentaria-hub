@@ -5,6 +5,8 @@
 
 lich zůuerſtehn / das in ainem gleichſeittigen oder gleichſeitſſigen triangel vom ſpiß zur baſi ain lini gezohen die den winckel in gleiche tailt / auch die baſin gleich tailt / vnd härgegen. Deſſen du vil exempel gehabt. Volgen hiehär aigentlich gehörende exempel. Der dritte triangel iſt winckelrecht / vn̄ ſeind alle winckel gleich getailt / derwegen auch yede lini nach proportz der vberigen zertailt iſt / magſt ye vbung halben ſelbſt nachrechnen / wie lang jr yede ſei / vnderlaß ich von kürtze wegen.
 
+[Curated heading level=2 type=propositions: IIII. Die vierdt propoſition]
+
 ## IIII. Die vierdt propoſition.
 
 Triangel / welcher ainſen winckel dem winckeln des andern gleich ſein / haben auch die ſeitten gegenainander geproportioniert / nemlich diſe / ſo die gleiche winckel begriffen / auch die linien ſo den gleichen wincklen vnderzogen ſeind / halten ſych gegen ainander in ainerlai proportion.

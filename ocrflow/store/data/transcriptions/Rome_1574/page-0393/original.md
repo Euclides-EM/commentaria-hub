@@ -4,6 +4,8 @@ propoſitæ quantitates habeant. Itaque ut inquit, uult Euclides, ſi magnitudo 
 
 [Figure: four vertical lines of differing heights labelled A, B, C and D, marked with the numbers 8, 6, 16 and 12]
 
+[Curated heading level=2 type=definitions: VI.]
+
 ### VI.
 
 [Curated heading level=4 type=incipit: IN]

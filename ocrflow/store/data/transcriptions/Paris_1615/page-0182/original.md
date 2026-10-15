@@ -6,6 +6,10 @@
 
 Mou demonſtrerons icy ce moyen la d’argumenter és proportions, qui eſt pris par la conuerſion de raiſon. Car ſoit comme AB a CB, ainſi DE a FE. Ie dis par conuerſion de raiſon AB eſtre auſſi a AC comme DE a DF. Car puiſque comme AB a CB, ainſi DE a FE, en diuiſant par la 17. p.5. comme AC a CB, ainſi DF a FE: done auſſi en changeant comme CB a AC, ainſi EF a DF: & partant en compoſant par la 18 p.5. comme. AB a AC, ainſi DE a DF, ce qui eſtoit proposé.
 
+[Curated heading level=2 type=propositions: THEO. 20. PROP. XX.]
+
+[Curated heading level=2 type=theorems: THEO. 20. PROP. XX.]
+
 ## THEO. 20. PROP. XX.
 
 Si trois grandeurs d’vn coſté, & trois d’vn autre, eſtans priſes de deux en deux, ſont en meſme raiſon, & qu’en raiſon egale la premiere ſoit plus grande que la troiſieſme, auſſi la quatrieſme ſera plus grande que la ſixieſme; & ſi egale, egale; ſi plus petite, plus petite.

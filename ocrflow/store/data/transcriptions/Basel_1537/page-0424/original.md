@@ -2,6 +2,8 @@
 
 <!-- Page number: 413 -->
 
+[Curated heading level=2 type=theorems: Theorema 15 Propositio 15]
+
 ## Eucl. ex Zamb. Theorema 15 Propositio 15
 
 [Curated heading level=3 type=zamberti_sequence: 15.]

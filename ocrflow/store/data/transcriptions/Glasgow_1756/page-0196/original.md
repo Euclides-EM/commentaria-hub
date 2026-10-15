@@ -41,6 +41,10 @@ quibus aequalia latera ſubtenduntur. ergo angulus quidem DFE eſt aequalis angu
 
 [Diagram: two geometric figures labelled A, B, C and D, E, F, G]
 
+[Curated heading level=2 type=propositions: PROP. VI. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. VI. THEOR.]
+
 ## PROP. VI. THEOR.
 
 {dropcap:S|lines=2|style=plain}I duo triangula unum angulum uni angulo aequalem habeant, circa aequales autem angulos latera proportionalia; aequiangula erunt triangula, et aequales habebunt angulos quibus homologa latera ſubtenduntur.

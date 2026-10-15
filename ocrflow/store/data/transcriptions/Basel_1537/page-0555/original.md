@@ -2,49 +2,73 @@
 
 <!-- Page number: 544 -->
 
+[Curated heading level=2 type=definitions: Diffinitio quarta.]
+
 ## Diffinitio quarta.
 
 Positione dari dicuntur signa, lineæ, & anguli, quæ eundē semper locum obtinent.
+
+[Curated heading level=2 type=definitions: Diffinitio quinta.]
 
 ## Diffinitio quinta.
 
 Circulus magnitudine dari dicitur, cuius quæ ex centro magnitudine datur.
 
+[Curated heading level=2 type=definitions: Diffinitio sexta.]
+
 ## Diffinitio sexta.
 
 Positione magnitudineq̃ circulus dari dicitur, cuius centrū positiōe datur, ea quæq̃ ex centro magnitudine.
+
+[Curated heading level=2 type=definitions: Diffinitio septima.]
 
 ## Diffinitio septima.
 
 Segmenta circuli magnitudine dari dicūtur, in quibus anguli dati sunt, & segmentorum bases magnitudine.
 
+[Curated heading level=2 type=definitions: Diffinitio octaua.]
+
 ## Diffinitio octaua.
 
 Positione & magnitudine segmenta dari dicuntur, in quibus & anguli dati sunt magnitudine, & bases segmentorum positione & magnitudine.
+
+[Curated heading level=2 type=definitions: Diffinitio nona.]
 
 ## Diffinitio nona.
 
 Magnitudo magnitudine dato maior est, quando sublato dato, reliquū eidē æquū fuerit.
 
+[Curated heading level=2 type=definitions: Diffinitio decima]
+
 ## Diffinitio decima
 
 Magnitudo magnitudine dato minor est, quando adiecto dato, totū eidem æquum fuerit.
+
+[Curated heading level=2 type=definitions: Diffinitio undecima.]
 
 ## Diffinitio undecima.
 
 Magnitudo magnitudine dato maior est quā in ratione, quādo ablato dato reliquū ad idem rationem datam habuerit.
 
+[Curated heading level=2 type=definitions: Diffinitio duodecima.]
+
 ## Diffinitio duodecima.
 
 Magnitudo magnitudine dato minor est quàm in ratione, quādo apposito dato reliquum ad idem rationem habuerit datam.
+
+[Curated heading level=2 type=definitions: Diffinitio decimatertia.]
 
 ## Diffinitio decimatertia.
 
 Producta est quæ à dato signo in positione rectam lineam acta recta linea in datum angulum, uel in datum signum.
 
+[Curated heading level=2 type=definitions: Diffinitio decimaquarta.]
+
 ## Diffinitio decimaquarta.
 
 Reducta quæ à dato signo ad positionē rectam lineā, recta linea in angulo dato acta est.
+
+[Curated heading level=2 type=definitions: Diffinitio decimaquinta.]
 
 ## Diffinitio decimaquinta.
 

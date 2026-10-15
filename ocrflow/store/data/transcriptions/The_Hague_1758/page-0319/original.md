@@ -3,6 +3,10 @@
 
 [Diagram: two triangular figures in perspective within a ruled frame; left triangle with apex B over points A and C, with points G and I on its sides; right triangle with apex E over points D and F, with points H and K on its sides; dotted lines join B to E, G to H, and I to K]
 
+[Curated heading level=2 type=propositions: PROPOSITION X. THEOREME X.]
+
+[Curated heading level=2 type=theorems: THEOREME X. PROPOSITION X.]
+
 ## PROPOSITION X. THEOREME X.
 
 {dropcap:S|lines=2|style=plain}I deux lignes droites (AB & BC) qui ſe touchent (en B), ſont paralleles à deux autres lignes (DE & EF) ſituées dans un autre Plan, & qui ſe touchent en E; Elles formeront des angles égaux. (ABC & DEF.).

@@ -16,6 +16,8 @@ HIC finem Euclides imponit quinto libro; Verum quia Campanus, & nonnulli alij ad
 
 [Curated heading level=2 type=campanus: 26]
 
+[Curated heading level=2 type=theorems: THEOR. 26. PROPOS. 26.]
+
 ## THEOR. 26. PROPOS. 26.
 
 [Curated heading level=3 type=incipit: SI]

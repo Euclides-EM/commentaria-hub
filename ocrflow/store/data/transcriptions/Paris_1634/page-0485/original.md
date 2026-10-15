@@ -25,6 +25,10 @@ suppos. | h, msur: a ꝑ f,
 suppos. | h, msur: b ꝑ g,
 35.7 | f & g snt nr. req.
 
+[Curated heading level=2 type=propositions: PROBL. IV. PROPOS. XXXVI.]
+
+[Curated heading level=2 type=problems: PROBL. IV. PROPOS. XXXVI.]
+
 ## PROBL. IV. PROPOS. XXXVI.
 
 Duobus numeris datis, reperire quem illi minimum metiantur, numerum.

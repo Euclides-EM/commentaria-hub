@@ -5,6 +5,10 @@ bc *commun.*
 4.1 | ∠acb 2|2 ∠cbd,
 2.concl. 27.1 | ac == bd.
 
+[Curated heading level=2 type=propositions: THEOR. XXIV. PROPOS. XXXIV.]
+
+[Curated heading level=2 type=theorems: THEOR. XXIV. PROPOS. XXXIV.]
+
 ## THEOR. XXIII{printer-error-correction:XXIV}. PROPOS. XXXIV.
 
 Les costez & les angles opposez des figures ou espaces parallelogrammes, sont égaux entr'eux : & le diametre couppe iceux parallelogrammes en deux également.

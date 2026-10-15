@@ -11,6 +11,10 @@ par conséquent* BD² = BC² + CD² − 2 BC × CD. Ajoutant de part et d’autr
 
 2°. Si la perpendiculaire AD tombe hors du triangle ABC, on aura BD = CD − BC, et par conséquent BD² = CD² + BC² − 2 CD × BC. Ajoutant de part et d’autre AD², on en conclura de même AB² = BC² + AC² − 2 BC × CD.
 
+[Curated heading level=2 type=propositions: PROPOSITION XIII. THÉORÊME.]
+
+[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIII.]
+
 ## PROPOSITION XIII.
 
 ### THÉORÊME.

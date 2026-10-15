@@ -10,6 +10,10 @@ Car puis que les quarrez de GF, EF, ayans la raiſon des nombres AC, AB, ſont c
 
 La vationele D ſeit 9, FG 5.AB3. CB 4. & par conſequent AC : faiſant donc que comme AC; eſt AB 9, ainſi le quarré de GF ſoit au quarré de EF: icelle EF ſera √45: & partant 2G ſera √45 s, qui eſt reſidu ſecond..
 
+[Curated heading level=2 type=propositions: PROB. 21. PROP. LXXXVIII.]
+
+[Curated heading level=2 type=problems: PROB. 21. PROP. LXXXVIII.]
+
 ## PROB. 21. PROP. LXXXVIII.
 
 Trouuer vn reſidu troiſieſme,

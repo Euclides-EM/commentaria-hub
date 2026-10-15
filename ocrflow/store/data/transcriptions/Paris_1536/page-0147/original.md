@@ -24,6 +24,10 @@ Vbi prima æquatur tertiȩ.
 Quando prima minor est tertia.
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 22, Propositio 22.]
+
+[Curated heading level=2 type=theorems: Theorema 22, Propositio 22.]
+
 ## Θεώρημα κβ, Πρόθεσις κβ.
 
 EΑν ᾖ ὁποσαοῦν μεγέθη καὶ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα ἐν τῷ αὐτῷ λόγῳ, καὶ δι' ἴσου ἐν τῷ αὐτῷ λόγῳ ἔσαι.
