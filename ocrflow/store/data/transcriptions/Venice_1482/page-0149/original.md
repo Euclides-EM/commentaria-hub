@@ -4,7 +4,9 @@ Sumo itaqʒ duos numeros nequaq̃ʒ ſe habentes in ꝓpoꝛtione aliquoꝝ nume
 
 [Diagram: a vertical line labelled e perpendicular to a horizontal line labelled a with f beneath it, and horizontal segments labelled b and c with handwritten numerals 4 and 3, and a segment labelled d]
 
-## Pꝛopoſitio .12.
+[Curated heading level=2 type=propositions: Propoſitio .12.]
+
+## Propoſitio .12.
 
 {dropcap:O|lines=5|style=decorated|decoration="foliate woodcut initial"}Mniũ quatuoꝛ lineaꝝ ꝓpoꝛtionaliũ ſi pꝛima tanto amplius poſſit ſcd̃a quãtũ ẽ quadratũ alicuius linee cõicãtis ſibi in longitudine.neceſſe ẽ tertiã quoqʒ tanto amplius poſſe quarta quãtũ eſt quadratũ alicuius linee cõicantis ſibi in longitudine: ꝙ ſi fuerit pꝛima potentioꝛ ſcd̃a q̃drato alicuius linee incõmenſurabilis ſibi in longitudine.erit quoqʒ tertia potentioꝛ q̃rta q̃drato alicuiꝰ linee ſibi icõmẽſurabilis i lõgitudine
 
@@ -12,6 +14,8 @@ Sumo itaqʒ duos numeros nequaq̃ʒ ſe habentes in ꝓpoꝛtione aliquoꝝ nume
 
 [Diagram: six handwritten horizontal segments labelled a, c, b, d, e and f with handwritten numerals 10 and 100, 20 and 400, 8 and 64, 16 and 256, 6 and 36, 12 and 144, beneath a faint sketched semicircle]
 
-## Pꝛopoſitio .13.
+[Curated heading level=2 type=propositions: Propoſitio .13.]
+
+## Propoſitio .13.
 
 {dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I fuerint due linee inequales quoꝛum longioꝛem in duo communicantia diuidat ſuperficies ſibi adiuncta equalis quarte parti quadrati bꝛeuioꝛis linee cui adiũcte ſuperficiei deſit ad complendam totam lineam ſuperficies

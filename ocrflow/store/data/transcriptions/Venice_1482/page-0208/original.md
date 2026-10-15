@@ -1,8 +1,12 @@
 <!-- Running title: LIBER -->
 
+[Curated heading level=2 type=propositions: Propoſitio .32.]
+
 ## Propoſitio .32.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I ſolida equidiſtantiũ ſuperficieꝝ in equis baſibus conſtituta eque alta fuerint linee autẽ angulares ſupra baſes orthogonaliter nõ ſteterint:ipſa eẽ equalia neceſſe eſt.¶Fabricatis duobꝰ corporibus vt proponitur videlicet q̃ ſint equidiſtantiũ terminoꝝ ⁊ eque alta ⁊ ſup baſes equas perpendiculariter nõ aũt ſuper baſes ſuas erecta ſed ambo ſuper eas inclinata. Si autem a quatuor angulis ſuppremaꝝ ſuperficieꝝ ipſoꝝ ad baſes ſuas perpẽdiculares ducantur q̃ ex.6.erũt ſingulares equidiſtantes ⁊ etiã ex ypotheſi ſingule ſingulis equales ipſe eni ſolidoꝝ ꝓpoſitoꝝ altitudinẽ diffiniunt:⁊ ſi inter eas ſolida equidiſtantiũ laterum pficianť conſtabit ex premiſſa hec duo ſolida vltimo conſtituta eſſe adinuicẽ equalia.Cunqʒ duoꝝ prioꝝ ⁊ duoꝝ poſterioꝝ ſint eedem baſes videlicet eoꝝ ſuperficies ſuppreme: conſtat ex.29.vel.30.et hac cõmuni ſciẽtia: quecũqʒ equalibus ſũt equalia ſibi inuicẽ ſunt equalia veꝝ eſſe qꝺ ꝓpoſitũ eſt.Ex his potes cõuerſas huius ⁊ premiſſe eiſdẽ mediantibꝰ indirecte demõſtrare ſi libet eodẽ mõ ⁊ ad idẽ icõueniẽs ſicut in cõuerſis duaꝝ iſtas antecedentiũ deducẽdo:pones eni duo ſolida paralellograma eẽ equalia ⁊ ſup equales baſes ⁊ cõuinces ea eſſe eque alta vel pones ea eẽ eque alta ⁊ eq̃lia ⁊ cõuinces ea eẽ ſup baſes eq̃les.
+
+[Curated heading level=2 type=propositions: Propoſitio .33.]
 
 ## Propoſitio .33.
 
@@ -11,6 +15,8 @@
 [Figure: parallelogram labelled c and d]
 
 [Figure: rectangle labelled a, f, b and e with a horizontal line from f to b]
+
+[Curated heading level=2 type=propositions: Propoſitio .34.]
 
 ## Propoſitio .34.
 

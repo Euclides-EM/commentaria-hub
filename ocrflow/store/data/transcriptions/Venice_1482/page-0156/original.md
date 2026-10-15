@@ -6,6 +6,8 @@ a.e.a.c.⁊.d.c.quare per pꝛimã ſexti erunt etiam tres linee.g.h.h.m.⁊.m.l
 
 [Diagram: a rectangle divided by horizontal lines, labelled k at left, l, m and h at right, f and g at the base]
 
+[Curated heading level=2 type=propositions: Propoſitio .24.]
+
 ## Propoſitio .24.
 
 {dropcap:D|lines=4|style=decorated|decoration="floriated initial on black ground"}Uas lineas mediales potentia tantum cõmunicantes ſupficiemqʒ rationalem continentes quarum longioꝛ ſit potentioꝛ breuiore:augmento quadrati linee cõmunicantis eidem longioꝛi in longitudine inuenire.

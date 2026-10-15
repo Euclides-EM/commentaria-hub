@@ -10,6 +10,8 @@
 [Diagram: right triangle with vertices b at left, a at top right and c at bottom right]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio 20.]
+
 ## Propoſitio 20.
 
 {dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis trianguli duo quelibet latera ſimul iuncta reliquo ſunt longioꝛa.
@@ -19,6 +21,8 @@
 [Margin]
 [Diagram: triangle with base b.c and apex a, side b.a extended to d, line d.c drawn]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .21.]
 
 ## Propoſitio .21.
 
@@ -30,6 +34,8 @@
 [Diagram: triangle with apex a and base b.c, interior point d joined to b and c, line b.d extended to point e on side a.c]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .22.]
+
 ## Propoſitio .22.
 
 {dropcap:P|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ropoſitis tribus lineis rectis quarũ due quelibet ſimul iuncte relique ſint longioꝛes de tribus alijs lineis ſibi equalibus triangulum conſtituere.
@@ -39,5 +45,7 @@
 [Margin]
 [Diagram: three horizontal line segments labelled a, b and c; below, two intersecting circles with centres f and g on a horizontal line through d, f, g, h and c, intersecting at point k, with lines drawn from f and g to k]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .23.]
 
 ## Propoſitio .23.

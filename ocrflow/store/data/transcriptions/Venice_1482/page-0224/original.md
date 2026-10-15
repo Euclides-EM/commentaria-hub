@@ -10,7 +10,9 @@ et ex omnibus piramidibus pariter acceptis piramis columne perficiantur conſtat
 
 ¶Si columne fuerint ſimiles erunt ex diffinitione ſimiliũ corporum baſes earum cetereqʒ ſuperficies eas ambientes ſiľes Diuidanť itaqʒ baſes earum in triangľos ſimiles ⁊ numero equales quemadmodum.18.ſexti proponit eſſe poſſibile:⁊ ipſe columne diuidanť in ſeratilia ſuper hos triangulos exiſtentia.ſtude igitur probare ſeratilia vnius ſuis relatiuis ſeratilibus alterius eẽ ſimilia:qꝺ facile probabis ex ypotheſi ⁊ ſexta ⁊ quarta ⁊ quinta ſexti:et diffinitione ſimilium ſuperficieꝝ ⁊ diffinitione ſimilium corporum hoc autẽ probato erit ex.36.vndecimi proportio vniuſcuiuſqʒ ſeratilis vnius ad ſuum relatiuum ſeratile alterius ſicut ſui lateris ad latus illius ꝓportio triplicata:Et quia omnium laterum eſt proportio vna cum cuncta ſeratilia vnius ſint ſimilia ſuis relatiuis ſeratilibus alterius.ſequitur ex vndecima quinti vt cunctorum ſeratilium vnius ad ſua relatiua ſeratilia alterius ſit proportio vna:quare per.13.quinti que eſt proportio vnius ſeratilis ad ſuum ſeratile relatiuum alterius eadem eſt omnium pariter acceptorum ad omnia pariter accepta ⁊ quia vtrobiqʒ omnia ſeratilia pariter accepta componunt columnas ⁊ relatiua latera ſeratilium ſunt relatiua latera columnarum:neceſſe eſt ex vndecima quinti vt proportio columnarum ſit ſicut ſuorum relatiuorum laterum proportio triplicata quod eſt propoſitum.
 
-## Propoſitio.9.
+[Curated heading level=2 type=propositions: Propoſitio .9.]
+
+## Propoſitio .9.
 
 {dropcap:O|lines=5|style=decorated|decoration="white foliate scrollwork on black square ground"}Mnis columna rotunda piramidi ſue triplex eſſe cõprobatur.
 

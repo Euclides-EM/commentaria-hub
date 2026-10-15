@@ -8,6 +8,8 @@
 [Diagram: circle with centre a, point d on the upper left circumference and points c, e and b below, point f inside, with chords and lines through a meeting the circumference]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .10.]
+
 ## Propoſitio .10.
 
 {dropcap:S|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I circulus circulum ſecet.in duobus tantum locis ſecare neceſſe eſt.
@@ -17,6 +19,8 @@
 [Margin]
 [Diagram: circle overlapped by a pointed oval formed of two arcs, labelled a and b above, c below, with d, e and f on internal lines]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .11.]
 
 ## Propoſitio .11.
 
@@ -29,6 +33,8 @@
 
 [Diagram: two externally tangent circles touching at point e, with points a and b at the tops of the circles joined by lines through d and c]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .12.]
 
 ## Propoſitio .12.
 

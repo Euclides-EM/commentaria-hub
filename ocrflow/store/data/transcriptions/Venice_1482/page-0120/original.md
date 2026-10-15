@@ -8,6 +8,8 @@ d.⁊.e.erũtqʒ in eadẽ ꝓportione ꝑ.18.quos dico ẽe q̃les q̃rim⁹. S
 
 [Diagram: segments labelled a, b and c, above a segment labelled d, above segments labelled e, f and g, above segments labelled h, k and l, above a segment labelled m]
 
+[Curated heading level=2 type=propositions: Propoſitio .35.]
+
 ## Propoſitio .35.
 
 {dropcap:Q|lines=5|style=decorated|decoration="foliate woodcut initial"}Vilibet duo numeri minimos numeros ſue ꝓportionis maior minorẽ ⁊ minor maiorẽ multiplicantes minimum ab ipſis numeratum producũt. Vnde manifeſtum ẽ minimũ quẽ duo numerãt quẽlibʒ ab eis numeratũ numerare
@@ -15,6 +17,8 @@ d.⁊.e.erũtqʒ in eadẽ ꝓportione ꝑ.18.quos dico ẽe q̃les q̃rim⁹. S
 ¶Sint duo numeri.a.⁊.b.minimiqʒ in eoꝝ ꝓportiõe.c.⁊.d.eritqʒ per primã ptẽ.20.vt ex.a.in.d.⁊.b.in.c.fiat idem numerus.qui ſit.e.quẽ dico eſſe minimũ numeratũ ab.a.⁊.b.aliter eni ſit.f.quẽ numeret.a.⁊.b.ſm̃.g.⁊.h.eritqʒ ꝑ ſcꝺam partẽ.20.h.ad.g.ſicut.a.ad.b.⁊ ſicut.c.ad.d.⁊ per.18.erit.c.ad.h.ſicut.e.ad.f.cũ itaqʒ ꝑ.21.c.nũeret.h.e.nũerabit.f.maior minorẽ:qꝛ ergo hoc ẽ ipoſſibile cõſtat veꝝ eẽ qꝺ dicit̃.
 
 [Diagram: segments labelled a and b, above segments labelled c and d, above a segment labelled e, above a segment labelled f, above segments labelled g and h]
+
+[Curated heading level=2 type=propositions: Propoſitio .36.]
 
 ## Propoſitio .36.
 

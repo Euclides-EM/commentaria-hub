@@ -1,6 +1,6 @@
 # OCR Pipeline Queue
 
-> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_4kk2ag - LineDetect running
+> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_4kk2ag - LineDetect done
 > Strasbourg_1566 - https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7 - LineDetect running
 > Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_wcl1tc - Seg running
 > Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg running [LARGE FILE]
@@ -75,28 +75,6 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
 # Manual Curation
 
-## Venice_1482
-
-Two facsimiles are available:
-
-* **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
-* **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_6vegrr&annotationId=ann_3pg8ot
-
-Claude Code — Fable
-
-- **Requests:** 284
-- **Input tokens:** 1,422
-- **Cached tokens:** 8,850,210
-- **Cache creation tokens:** 5,399,806
-- **Output tokens:** 3,882,069
-- **Reasoning tokens:** 0
-- **Total tokens:** 18,133,507
-- **Cost:** $312.29
-
-**Next steps:** Ready for curation.
-
 ## London_1570
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
@@ -130,8 +108,6 @@ Codex — GPT-5.6 Sol
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1&annotationId=ann_uomk97
 
-### Dataset Usage Summary
-
 Claude Code — Fable
 
 - **Requests:** 248
@@ -155,6 +131,28 @@ Codex — GPT-5.6 Sol
 
 **Next steps:** Ready for curation.
 
+# Completed
+
+## Venice_1482
+
+Two facsimiles are available:
+
+* **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
+* **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_6vegrr&annotationId=ann_3pg8ot
+
+Claude Code — Fable
+
+- **Requests:** 284
+- **Input tokens:** 1,422
+- **Cached tokens:** 8,850,210
+- **Cache creation tokens:** 5,399,806
+- **Output tokens:** 3,882,069
+- **Reasoning tokens:** 0
+- **Total tokens:** 18,133,507
+- **Cost:** $312.29
+
 ## Lyon_1603
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_69jfii&annotationId=ann_d0ffde
@@ -168,10 +166,6 @@ Run with Codex:
 - **Output tokens:** 411,740
 - **Reasoning tokens:** 0
 - **Total tokens:** 9,422,917
-
-**Next steps:** Ready for curation.
-
-# Completed
 
 ## Seville_1576
 

@@ -2,6 +2,8 @@
 
 guli trianguloꝝ piramidẽ circũdãtiũ qui ſup latera baſis ipſiꝰ piramidis cõſiſtunt pariter accepti ſint maiores omnibus angulis baſis piter acceptis vt euidẽter conſtat ex premiſſa totiẽs quot angulos baſis habuerit repetita. adhuc neceſſario ſequitur ex cõi ſcia ſupficiales angulos ſolidũ angulũ.a. continentes piter acceptos eſſe minores quatuor rectis:eo inquã minores quo oẽs anguli trigonoꝝ piramidem circũdantium qui ſup latera baſis ſtatute piramidis conſiſtant excedunt oẽs angulos baſis pariter acceptos.
 
+[Curated heading level=2 type=propositions: Propoſitio .22.]
+
 ## Propoſitio .22.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I tres anguli ſuperficiales quoꝝ quiqʒ duo pariter accepti tertio ſint maiores cunctis ſibi inuicem equis lineis contineantur de tribus baſibus angulos illos ab ipſaꝝ lineaꝝ equalium terminis ſubtendẽtibus triangulum ſubſtitui vel conſtitui poſſibile eſt:
@@ -11,6 +13,8 @@ guli trianguloꝝ piramidẽ circũdãtiũ qui ſup latera baſis ipſiꝰ piram
 [Figure: three triangles with apexes a, d and g over bases b.c, e.f and h.k, the first with an additional point l joined to b and c]
 
 [Figure: triangle with horizontal side l.a.c and lines drawn to a point b below; beneath it a second configuration with points c, a, l joined to a point b]
+
+[Curated heading level=2 type=propositions: Propoſitio .23.]
 
 ## Propoſitio .23.
 

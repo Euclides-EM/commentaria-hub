@@ -7,6 +7,8 @@
 
 inuiceʒ equales.Quia igitur duo anguli.a.⁊.f.trianguli.g.a.f.ſunt equales duobus angulis.a.⁊.f.trianguli.m.a.f.⁊ latus.a.f.cõmune erit per.26.primi angul⁹ g.vnius equalis angulo.m.alterius ⁊ latus.g.a.equale lateri.a.m.eadem ratiõe erit angulus.g.in triangulo.g.f.d.equalis angulo.b.in triangulo.d.f.b.⁊ latus.g.d.equale lateri.d.b.quare quia.g.a.eſt dimidiũ.g.m.⁊.g.d.dimidiũ.g.b.⁊.g.a.⁊ g.d.ſunt equalia:erunt per cõem ſcientiã.g.m.⁊.g.b.eoꝝ dupla equalia.Similiter quoqʒ ꝓbabim⁹.g.m.eſſe equale.m.l.⁊.m.l.l.k.⁊.l.k.k.b.quare pẽthagon⁹.g.b.k.l.m.eſt equilaterus.ſed ⁊ equiangulus:cuʒ enĩ duo anguli qui ſunt ad.g.ſunt adinuicem equales.⁊ duo qui ſunt ad.m.ſiliter adinuicem equales.⁊.g.partialis.ſit equalis.m.ptiali.vtrũqʒ enĩ probatũ eſt prius.erit per eandẽ cõem ſcientiã.g.totalis equalis.m.totali.⁊ eadem rõne ꝓbabis equalitatem in ceteris angulis:quare eſt equiangulus.ſicqʒ conſtat propoſitum.
 
+[Curated heading level=2 type=propositions: Propoſitio .13.]
+
 ## Propoſitio .13.
 
 {dropcap:I|lines=5|style=decorated|decoration="foliate initial on dark ground"}Ntra equilateruʒ atqʒ equiangulum penthagonum aſſignatum.circuluʒ deſcribere.

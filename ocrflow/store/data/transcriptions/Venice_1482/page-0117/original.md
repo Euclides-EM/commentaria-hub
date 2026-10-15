@@ -16,6 +16,8 @@
 
 [Diagram: segments labelled a, b and c, above segments labelled d, e and f, above a segment labelled g]
 
+[Curated heading level=2 type=propositions: Propoſitio .23.]
+
 ## Propoſitio .23.
 
 {dropcap:Q|lines=5|style=decorated|decoration="foliate woodcut initial"}Vilibet numeri ꝯtra ſe primi ſũt ſm̃ ſuã ꝓportiõem mimi:
@@ -24,6 +26,8 @@
 
 [Diagram: segments labelled a and b, above segments labelled c and d, above a segment labelled e]
 
+[Curated heading level=2 type=propositions: Propoſitio .24.]
+
 ## Propoſitio .24.
 
 {dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I fuerint duo numeri cõtra ſe primi.ſi quis vnũ eoꝝ numeret ad alterũ eẽ primus neceſſario comprobatur.
@@ -31,6 +35,8 @@
 ¶Sit.a.⁊.b.ꝯ̃ ſe ꝑmi.c.vero numeret.a.dico ꝙ.c.ꝑmꝰ ẽ ad.b.alioqui nũeret eos.d.q̃ ꝑ penulʼ.ꝑcept.nũerabit etiã.a.nõ ſũt ḡ.a.⁊.b.ꝯ̃ ſe ꝑmi.d.eni numerat ãbos.
 
 [Diagram: segments labelled a and b, above segments labelled c and d]
+
+[Curated heading level=2 type=propositions: Propoſitio .25.]
 
 ## Propoſitio .25.
 

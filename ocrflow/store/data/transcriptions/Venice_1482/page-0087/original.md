@@ -13,6 +13,8 @@ ecõuerſo.a.ad.b.vt.c.ad.d.ſʒ nõ ẽ imo maior:At vero ſi ẽ.b.ad.a.maior 
 [unclear: e.d.a.e a.b.]
 [/Handwritten]
 
+[Curated heading level=2 type=propositions: Propoſitio .27.]
+
 ## Propoſitio .27.
 
 {dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerit quatuor quantitatum maior proportio prime ad ſecundam.q̃ʒ tertie ad quartam.erit permutatim maior proportio prime ad tertiam.quam ſecunde ad quartam.
@@ -29,6 +31,8 @@ ecõuerſo.a.ad.b.vt.c.ad.d.ſʒ nõ ẽ imo maior:At vero ſi ẽ.b.ad.a.maior 
 [/Handwritten]
 
 ¶Sit hic quoqʒ proportio.a.ad.b.maior q̃ʒ.c.ad.d.dico ꝙ erit permutatim maior proportio.a.ad.c.q̃ʒ.b.ad.d.eadem enim non erit quia tunc quoqʒ eſſet permutatim.a.ad.b.ſicut.c.ad.d.neqʒ minor. Nam ſi hoc ponatur:ſit itaqʒ.e.ad.c.vt.b.ad.d.eritqʒ ex.12.maior ꝓportio.e.ad.c.q̃ʒ.a.ad c.quare ex prima parte.10.e.eſt maior.a.Jtaqʒ per primam partem.8.proportio e.ad.b.eſt maior q̃ʒ.a.ad.b.⁊ quia poſitum eſt vt ſit.e.ad.c.ſicut.b.ad.d.erit ꝑmutatim.e.ad.b.ſicut.c.ad.d.ex.12.igitur maior erit proportio.c.ad.d.q̃ʒ.a.ad b.ſed poſitum erat oppoſitum:verum eſt ergo propoſitũ:¶Oſtẽſiue quoqʒ idem quẽadmodum in premiſſa:ſumpta enim eſt.e.ad.b.vt.c.ad.d.erit ex prima parte 10.e.minor.a.quare ex prima parte.8.maior erit.a.ad.c.q̃ʒ.e.ad.c.ſed ex permutata proportionalitate eſt.e.ad.c.vt.b.ad.d.igitur ex.12.a.ad.c.eſt maior q̃ʒ.b. ad.d.quod eſt propoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .28.]
 
 ## Propoſitio .28.
 

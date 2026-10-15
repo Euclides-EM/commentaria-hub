@@ -6,6 +6,8 @@
 
 [Figure: two horizontal lines, the upper marked with points a, c, b and g, the lower marked with points d, f, e and h]
 
+[Curated heading level=2 type=propositions: Propoſitio .3.]
+
 ## Propoſitio .3.
 
 {dropcap:D|lines=5|style=decorated|decoration="foliate initial on dark ground"}Juiſo latere exagoni ſm proportionẽ habentẽ medium duoqʒ extrema maior eius portio erit latus decagoni circumſcripti a circulo ipſum exagonum circumſcribente.

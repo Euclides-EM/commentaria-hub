@@ -6,7 +6,9 @@ irrõnales eam ſequentes differunt ſpecie ⁊ dione abinuicẽ ⁊ nulla linea
 
 [Figure: tall rectangle divided by horizontal lines, labelled g, d, e, b and c]
 
-## Pꝛopoſitio .107.
+[Curated heading level=2 type=propositions: Propoſitio .107.]
+
+## Propoſitio .107.
 
 {dropcap:L|lines=5|style=decorated|decoration="foliate initial on black ground"}Inea que reſiduũ diciť vllaue irrationaliũ que poſt eam ſunt nequit eſſe ſub termino binomij aut ſub termino ⁊ oꝛdine vllius ceteraꝝ lineaꝝ irrõnalium que binomiũ ſubſequũtur:cum aũt poſſibile ſit lineaꝝ irrõnaliũ ſeriẽ in infinitum produci non eſt poſſibile vllã earum cum ea que preceſſerit in termino ⁊ oꝛdine conuenire.
 

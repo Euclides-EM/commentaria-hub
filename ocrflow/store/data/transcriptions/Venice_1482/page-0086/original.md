@@ -2,6 +2,8 @@
 
 d.ad.q.⁊.b.ad.e.ſicut.c.ad.d.⁊.e.ad.p.ſicut.f.ad.c.erit iterum.a.ad.p.ſicut.f.ad.q.erit enim per predemonſtrata.a.ad.e.ſicut.c.ad.q. Sublatis igitur.b.⁊.d.erunt tres quãtitates.a.e.p.⁊ alie tres.f.c.q.vt proponitur:quare.a.ad.p.ſicut.f.ad.q.Sic igitur demonſtratur de.4.per tres ſublato vno medio. Eodẽ modo demonſtrabis de.5.per quatuor ſublatis duobus medijs.⁊ de.6.per.5.ſublatis tribus:⁊ ſic in ceteris.
 
+[Curated heading level=2 type=propositions: Propoſitio .24.]
+
 ## Propoſitio .24.
 
 {dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerit proportio primi ad ſecunduʒ tanq̃ʒ tertii ad quartum.proportio vero quinti ad ſecunduʒ. tanq̃ʒ ſexti ad q̃rtum:erit proportio primi ⁊ quinti pariter acceptorum ad ſecundum tanq̃ʒ ſexti ⁊ tertii pariter acceptorum ad quartum.
@@ -9,6 +11,8 @@ d.ad.q.⁊.b.ad.e.ſicut.c.ad.d.⁊.e.ad.p.ſicut.f.ad.c.erit iterum.a.ad.p.ſic
 [Diagram: horizontal lines labelled a 9 b 6 g and d 6 e 4 h, with lines c 3 and f 2 below]
 
 ¶Qd̃ ſcd̃a propoſuit de multiplicibus hec proponit vniuerſaliter de omnibꝰ proportionibus.vnde eſt illa tanto cõmunior quãto multiplicitate proportio ⁊ ſe habet ad illam:quemadmodum.13.ad primam. Sit igitur proportio.a.b.ad.c.ſicut d.e.ad.f.⁊ itẽ.b.g.ad.c.ſicut.e.h.ad.f.dico ꝙ proportio.a.g.ad.c.eſt ſicut.d.h.ad.f.erit enim per conuerſam proportionalitatem.c.ad.b.g.ſicut.f.ad.e.h.quare per.22.erit in equa proportionalitate.a.b.ad.b.g.ſicut.e.d.ad.e.h.ergo coniunctim per.18.a.g.ad.g.b.ſicut.d.h.ad.h.e.itaqʒ per.22.erit in equa proportionalitate.a.g.ad.c.ſicut.d.h:ad.f.quod eſt propoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .25.]
 
 ## Propoſitio .25.
 
@@ -21,6 +25,8 @@ d.ad.q.⁊.b.ad.e.ſicut.c.ad.d.⁊.e.ad.p.ſicut.f.ad.c.erit iterum.a.ad.p.ſic
 [Handwritten]
 [unclear: Si ſegmentibꝰ equalia addant̃] [illegible: 1 word]
 [/Handwritten]
+
+[Curated heading level=2 type=propositions: Propoſitio .26.]
 
 ## Propoſitio .26.
 

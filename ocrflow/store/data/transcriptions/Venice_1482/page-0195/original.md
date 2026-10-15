@@ -4,11 +4,15 @@ c.d.⁊.e.f.ſecãtiũ ſe in puncto.b.de quibus ꝯſtat ꝑ antepremiſſã �
 
 [Figure: lines descending from apex a to points c, e, h and g, crossing at b, with points f and d below]
 
+[Curated heading level=2 type=propositions: Propoſitio .5.]
+
 ## Propoſitio .5.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I ſuper tres lineas cõterminales cõi eaꝝ termino erecta linea quedã orthogonaliter inſiſtat eedẽ tres linee i vna ſuperficie ſite erunt.¶Sit linea.a.b orthogonaliter erecta ſuper cõem terminũ triũ lineaꝝ.b.c.b.d.b.e.angulariter ſe cõtingentiũ in puncto.b.quaꝝ nulla alij directe applicetur qꝺ idem ẽ ac ſeinuicem ſecent in puncto.b. protracte eni ſe ſecabunt dico ꝙ tres linee.b.c.b.d.b.e.ſunt in vna ſuperficie ſite.Conſtat autẽ de quibuſqʒ eaꝝ duab⁹ ꝙ ipſe ſunt in vna ſuperficie ſite per ſcꝺam hui⁹ vel ꝑ primã ptẽ.2.hui⁹.ſi igiť linea.b.d.nõ fuerit in ſupficie duaꝝ lineaꝝ.b.c.⁊ b.e.ſed ille due i plano:hoc autẽ in ſublimi:erit vt hec ſuperficies in qua ſite ſunt due linee.a.b.⁊.b.d.ſi protrahatur ⁊ ꝑ illud qꝺ notũ eſt ſup quartã ſecet illã in qua ſite ſunt.b.c.⁊.b.e.eritqʒ per.3.huius cõis eaꝝ ſectio linea recta ⁊ ipſa ſit.b.f.qꝛ igitur ex premiſſa linea.a.b.ẽ ppendicularis ad ſuperficiẽ duaꝝ lineaꝝ.b.c.⁊.b.e.ſequiť ex diffinitione vt ipſa ſit perpẽdicularis ad lineã b.f.quare angulus.a.b.f.eſt rectus cumqʒ etiã angulus.a.b.d.ſit rectus ex ypotheſi.ſequitur ipoſſibile videlicet ptẽ ſuo toti eẽ equalẽ.
 
 [Figure: vertical line from a to b with lines from b extending to e, d and c, and a horizontal line from b to f]
+
+[Curated heading level=2 type=propositions: Propoſitio .6.]
 
 ## Propoſitio .6.
 

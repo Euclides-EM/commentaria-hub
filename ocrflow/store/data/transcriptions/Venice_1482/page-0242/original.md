@@ -2,6 +2,8 @@
 
 duobus circulis.a.b.c.⁊.f.ſint equalia ſequitur ut diametri eorum ſint equales.ideoqʒ et ſemidiametri etiam equales.ſunt autẽ ſemidiametri ⁊ latus exagoni equalia ex correlario.decima ⁊ quinta ſexti.erit ergo linea.e.b.latus exagoni circuli.a.b.c.inſcripti ſicut ipſa eſt latus exagoni circuli.f.ſibi equalis:hoc autem ẽ qđ demonſtrare voluimus.Ex hac aũt nona huiꝰ.13.libri noueris exortã eẽ decimam quarti libri que duũ equaliũ lateꝝ ꝓponit trigonũ deſcribendũ cuius vterqʒ duorũ anguloꝝ quos baſis obtinet ad tertiũ duplus exiſtat:talis eni ẽ vterqʒ trianguloꝝ.e.d.c.⁊.d.c.b.⁊ ſimpliciter oĩs cuius duo latera ſunt equalia maiori portioni alicuius linee diuiſe ꞗm proportionẽ habentẽ mediũ duoqʒ extrema ⁊ tertiũ quod eſt baſis eſt equale minori portioni linee eiuſdẽ vel cuius duo latera ſũt equalia lateri exagoni equilateri alicui circulo inſcripti:baſis vero ẽ equalis lateri decagoni equilateri eidẽ circulo inſcripti qđ ẽ ꝓpoſitũ
 
+[Curated heading level=2 type=propositions: Propoſitio .10.]
+
 ## Propoſitio .10.
 
 {dropcap:O|lines=4|style=decorated|decoration="white foliate scrollwork on black ground"}Mne latus pentagoni equilateri tanto potentius ẽ latere exagoni equilateri quantũ poteſt latus decagoni equilateri ſi ſint in eodẽ circulo ambo inſcripti.

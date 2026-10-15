@@ -2,7 +2,9 @@
 
 portionũ binomij eſt rõnalis in longitudine.hec aũt ſpecies ſũt:pꝛima ⁊ ſcꝺa quarta ⁊ quinta. At vero qꝛ per.12.due linee.c.⁊.e.ſimul potentiores ſunt duabus lineis.d.⁊.f.in quadratis duaꝝ lineaꝝ ſibi in longitudine cõmunicantiũ aut incõicantium:neceſſe eſt vt ambo binomia.a.⁊.b.ſimul cadant ſub pꝛimis tribus ſpeciebus binomioꝝ aut ſimul ſub tribus poſtremis ex diffinitione ipſarum ſpecieꝝ: Lineã aũt.b.quid dubitas eſſe binomiũ cũ ſint enĩ.c.⁊.e.cõicantes ĩ potentia tm̃ ſilꝛ quoqʒ.d.⁊.f.ſint aũt.c.⁊.d.rõnales in potentia:cõuincitur.e.⁊.f.eſſe rõnales in potentia tm̃:que qꝛ nõ cõicant in longitudine ſicut nec eis ꝓportionales.c.⁊.d.ipſe cõponunt indubitanter binomiũ per.30.huius.
 
-## Pꝛopoſitio .61.
+[Curated heading level=2 type=propositions: Propoſitio .61.]
+
+## Propoſitio .61.
 
 {dropcap:O|lines=5|style=decorated|decoration="foliate initial on black ground"}Mnis linea alterutri bimedialiũ cõmenſurabilis:ſub eadem ſpecie bimedialis eſſe ex neceſſitate conuincitur.
 
@@ -14,6 +16,8 @@ portionũ binomij eſt rõnalis in longitudine.hec aũt ſpecies ſũt:pꝛima �
 
 [Figure: tall rectangle divided by a horizontal line into two parts, with g at the top right corner, f and e at the ends of the dividing line, and c and d at the bottom corners]
 
-## Pꝛopoſitio .62.
+[Curated heading level=2 type=propositions: Propoſitio .62.]
+
+## Propoſitio .62.
 
 <!-- Signature: l 2 -->

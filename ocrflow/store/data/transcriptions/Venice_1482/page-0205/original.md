@@ -6,11 +6,15 @@ equalẽ angulum ſolidũ cõſtituere qualiſcũqʒ ſit ſitus linee.e.f.a pun
 
 [Figure: three lines descending from apex e to g and f, with a small triangle labelled n, p and m]
 
+[Curated heading level=2 type=propositions: Propoſitio .27.]
+
 ## Propoſitio .27.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Uper aſſignatã lineam dato ſolido equidiſtantium ſupficierum ſimile ſolidum conſtituere.¶Sit aſſignata linea.a.b.de cuius ſitu vtrũ in plano iaceat vel ſurſum exurgat nihil cureť:ſitqʒ aſſignatũ palellogramũ ſolidũ corpus.c.d.cui ſup lineã.a.b.iubemur ſimile ſolidũ fabricare.Sint igiť tres linee ꝯtinentes ſuperficiales angulos ex quibus poniť ſolidus angulus.c.inſcripte litteris.c.e.c.f.c.g.At ſcꝺm p̃cepta premiſſe ſuper punctũ.a.linee.a.b.cõſtituať angulus ſolidus equalis.c.quẽ cõtineãt tres linee.a.b.a.h.a.k.⁊ auxilio.10.ſexti ſit ꝓportio.c.e.ad.a.b.⁊.e.f.ad a.h.⁊.g.c.ad.a.k.ꝓportio vna:dehinc a tribꝰ punctis.b.h.k.ꝓtrahanť ſex linee b.l.equidiſtans linee.a.h.⁊.b.m.equidiſtans linee.a.k.iteꝝ.h.l.equidiſtãs linee a.b.⁊.h.n.equidiſtans linee.a.k.rurſus quoqʒ.k.n.equidiſtans.a.b.⁊.k.m.equidiſtans.a.h.amplius aũt ꝓtrahanť.m.p.equidiſtans.b.l.⁊.p.l.equidiſtans.h.m ꝓtrahať quoqʒ ⁊ linea.p.n.eritqʒ cõpletũ ſolidũ palellogramũ.a.p.quod dico eẽ ſimile ſolido.c.d.hoc aũt ex dĩone ſiłium ſupficieꝝ ⁊ dĩone ſiłium corpoꝝ ſi earum memineris facile cõcludes.
 
 [Figure: parallelepiped labelled a, k, h, m, b, n, l and p]
+
+[Curated heading level=2 type=propositions: Propoſitio .28.]
 
 ## Propoſitio .28.
 

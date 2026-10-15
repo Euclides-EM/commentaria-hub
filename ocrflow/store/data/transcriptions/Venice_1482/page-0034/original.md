@@ -6,6 +6,8 @@ acutis interiacet. Sit ergo vt trianguli.a.b.c.angulus.b.etiã ſit acutus ducã
 [Diagram: triangle with apex a and base from b at left to c at right, with a perpendicular from a to the point d on the base]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .14.]
+
 ## Propoſitio .14.
 
 {dropcap:D|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ato trigono equum quadratum deſcribere.

@@ -1,16 +1,22 @@
 <!-- Running title: III -->
 
+[Curated heading level=2 type=propositions: Propoſitio .5.]
+
 ## Propoſitio .5.
 
 {dropcap:C|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Irculorum ſe inuicem ſecantium centra diuerſa eſſe.
 
 ¶Sint duo circuli.a.c.b.a.d.b.ſecantes ſe ſuper duo puncta.a.⁊.b. Dico ꝙ eorum ſunt diuerſa centra. ¶Si enim haberẽt idem cẽtrum ipſũ erit per diffinitionẽ in portione vtriqʒ circulo cõmuni:ſitqʒ illud e.⁊ ducantur linee.e.a.⁊.e.f.c.eruntqʒ ꝑ diffinitionẽ due linee.e.a.⁊ e.f.equales. ¶Itemqʒ per diffinitionem due linee.e.a.⁊.e.c.equales:quare e.f. eſt equalis.e.c.cum vtraqʒ earum ſit equalis.e.a.pars videlicet toti qꝙ eſt impoſſibile.
 
+[Curated heading level=2 type=propositions: Propoſitio .6.]
+
 ## Propoſitio .6.
 
 {dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Irculorum ſe ſe contingentium nõ idem centrum eſſe neceſſe eſt.
 
 ¶Sint duo circuli.a.b.⁊.a.c.contingentes ſe in puncto.a. Dico ꝙ eorum ſunt diuerſa centra. Si enim habuerint idem centrum erit ꝑ diffinitionem inter minorem eoꝝ cum minor poſitus fuerit itra maiorem:ſitqʒ ipſum.d.⁊ ducantur linee.d.a.⁊.d.b.c.eritqʒ per diffinionem vtraqʒ duarum linearum.d.b.⁊.d.c.equalis.a.d.qꝙ eſt impoſſibile. ¶De circulis autem ſe contingentibus extra quorum ſcʒ vnus eſt extra alterũ:manifeſtum eſt per diffinitionem centri qꝙ ipſi non habent idem centrum.
+
+[Curated heading level=2 type=propositions: Propoſitio .7.]
 
 ## Propoſitio .7.
 

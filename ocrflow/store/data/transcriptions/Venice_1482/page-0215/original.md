@@ -2,6 +2,8 @@
 
 ⁊ ſuper ipſã inclinatũ. Vnde ampliať in hac.40.figuratio cubi ad oẽs figuras paralellogramas ſolidas.
 
+[Curated heading level=2 type=propositions: Propoſitio .41.]
+
 ## Propoſitio .41.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I duo corpora ſeratilia quoꝝ alteꝝ baſim triangulã alterũ vero baſim habeat equidiſtantiũ laterũ ipſi baſi triangule duplã eque alta fuerint illa duo corpora neceſſe ẽ eẽ equalia.
@@ -15,6 +17,12 @@
 [Handwritten]
 hic finit [unclear: libre ellemẽtoꝝ] euclidis
 [/Handwritten]
+
+[Curated heading level=1 type=propositions: LIBER XII]
+
+[Curated heading level=2 type=propositions: Propoſitio .1.]
+
+[Curated heading level=1: LIBER XII]
 
 ## Propoſitio .1.
 

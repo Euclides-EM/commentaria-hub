@@ -8,6 +8,8 @@ drata duarum linearum.a.b.⁊.c.a.ſint quincuplum ad quadratum.d.e.quod eſt pr
 
 [Figure: pentagon inscribed in a circle, faintly impressed]
 
+[Curated heading level=2 type=propositions: Propoſitio .5.]
+
 ## Propoſitio .5.
 
 {dropcap:P|lines=4|style=decorated|decoration="foliate initial on dark ground"}Entagonus figure duodecim baſium triangulus qʒ figure viginti baſium quos eadẽ ſpera circumſcribit vno eodemqʒ circulo circumſcribuntur.

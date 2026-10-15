@@ -4,6 +4,8 @@ d.e.⁊.d.c.a.b..⁊ ſit proportio.a.c.ad.d.e.ſicut.a.b.ad.d.c.dico ꝙ due ba
 
 [Diagram: two triangles with apexes a and d on a common base line through points e, c and b]
 
+[Curated heading level=2 type=propositions: Propoſitio .31.]
+
 ## Propoſitio .31.
 
 {dropcap:I|lines=5|style=decorated|decoration="white foliate scrollwork on black ground"}N omni triangulo rectangulo ſuperficies lateris ꝙ ſubtenditur angulo recto equalis eſt ſuperficiebus duorũ laterum angulum rectum continentium pariter acceptis.cũ fuerint ſimiles ei in lineatione ⁊ creatione:
@@ -13,6 +15,8 @@ d.e.⁊.d.c.a.b..⁊ ſit proportio.a.c.ad.d.e.ſicut.a.b.ad.d.c.dico ꝙ due ba
 [Diagram: triangle with apex a, base from c to b, and perpendicular a d to the base]
 
 [Diagram: triangle with apex c, base points d, a and b, and a line from c to a]
+
+[Curated heading level=2 type=propositions: Propoſitio .32.]
 
 ## Propoſitio .32.
 

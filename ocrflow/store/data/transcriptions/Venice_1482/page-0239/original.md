@@ -6,6 +6,8 @@ diuidať adhuc neceſſe eſt vt vtraqʒ portio eius ſit reſiduũ.ſit eni.a.b
 
 [Diagram: horizontal line with points d, f and e]
 
+[Curated heading level=2 type=propositions: Propoſitio .7.]
+
 ## Propoſitio .7.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on dark ground within a square frame"}J quis pentagonus tres equos angulos habens fuerit equilaterus equiangulus quoqʒ idẽ pentagon⁹ eẽ ꝓbať.

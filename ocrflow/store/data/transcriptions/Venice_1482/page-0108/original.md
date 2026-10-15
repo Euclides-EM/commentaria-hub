@@ -4,6 +4,8 @@ etiam.d.ꝑ correl'.precedentis.ſicqʒ eſſent.d.⁊.c.cõpoſiti qꝺ eſt co
 
 [Diagram: two columns of three horizontal segments labelled a, b and c on the left and d, e and f on the right]
 
+[Curated heading level=2 type=propositions: Propoſitio .4.]
+
 ## Propoſitio .4.
 
 {dropcap:O|lines=3|style=decorated|decoration="white foliate ornament on black ground"}Mnium duorum numerorũ inequalium minor maioris aut pars eſt:aut partes.
@@ -11,6 +13,8 @@ etiam.d.ꝑ correl'.precedentis.ſicqʒ eſſent.d.⁊.c.cõpoſiti qꝺ eſt co
 ¶Sint duo numeri.a.⁊.b.b.minor.dico ꝙ.b.eſt pars vel ptes.a. Aut eni.b.numerat.a.aut nõ.ſi numerat pars eius ẽ ꝑ diffinitionẽ Si nõ numerat ipſum.aut ergo ſunt adinuicem primi aut nõ:ſi non ſunt adinuicem primi:habebunt per diffinitionem partem cõmuneʒ:que quotiẽs fuerit in.b.tot partes.a.dicetur eſſe.b.per diffinitionem.ſi autem ſint adinuicem primi:quia tamen omnis numeri pars eſt vnitas ab ipſo denominata.patet ideʒ per vnitates.
 
 [Diagram: two horizontal lines labelled a and b]
+
+[Curated heading level=2 type=propositions: Propoſitio 5.]
 
 ## Propoſitio 5.
 

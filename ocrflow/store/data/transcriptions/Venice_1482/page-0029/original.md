@@ -1,5 +1,7 @@
 <!-- Page number: II -->
 
+[Curated heading level=2 type=propositions: Propoſitio .2.]
+
 ## Propoſitio .2.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I fuerit linea i ptes diuiſa.illud ꝙ ex ductu toti⁹ linee in ſeipſã fit:equũ erit his q̃ ex ductu eiuſdẽ i oẽs ſuas ptes.¶Sit linea.a.b.diuiſa in.a.c.⁊.c.d.⁊.d.b.dico ꝙ illud ꝙ fit ex ductu totius.a.b.in ſe ꝙ ſit.a.e.b.f.equũ eſt his que fiunt ex ipſa tota in vnamquãqʒ dictarum partium ꝙ palam patebit.ductis.c.g.⁊.d.h.equidiſtanter.a.e.⁊.b.f.¶Aliter ſumatur.k.eq̃lis.a.b.eritqʒ ꝑ premiſſam ꝙ fit ex ductu.k.in totam.a.b.equũ ei ꝙ fit ex ductu.k.in omnes ptes.a.b.⁊ qꝛ ex.k.i.a.b.tantũ fit quantũ ex.a.b.in ſe.⁊ ex.k.in omnes ptes.a.b.quãtũ ex.a.b.in omnes ptes eiuſdẽ.ppter id qꝛ.k.⁊.a.b.ſũt equales patet veꝝ eſſe propoſitum.
@@ -8,6 +10,8 @@
 [Diagram: rectangle with top corners e and f, divided by two vertical lines c–g and d–h into three parts, with bottom corners a and b, and a separate vertical line labelled k at the left]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .3.]
+
 ## Propoſitio .3.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I fuerit linea in duas ptes diuiſa illud ꝙ fiet ex ductu totius in alterutrã partẽ equũ erit his q̃ ex ductu eiuſdẽ partis in ſeipſam ⁊ alterius in alteram.¶Sit linea.a.b.diuiſa in.a.c.⁊.b.c.dico ꝙ illud quod fit ex tota.a.b.in eius partem.a.c.equũ eſt quadrato eiuſdem.a.c.partis.⁊ ei quod fit ex eadẽ parte.a.c.in.b.c.fiat quadratum linee.a.c.ꝙ ſit.a.c.d.f.⁊ pficiatur ſuperficies.a.b.d.e.patebitqʒ propoſitũ.¶Aliter ſumat̃.g.eq̃lis.a.c.⁊ qꝛ.b.a.in.a.c.tantũ eſt quantũ.a.c.in.a.b.ecõuerſo.⁊.a.c.in.a.b.⁊ in.c.b.⁊ in ſeipſaʒ quãtũ.g.i eaſdẽ.At.g.in totã.a.b.quãtũ in.a.c.⁊ in.c.b.ꝑ primam huius patet ꝓpoſitũ ſcʒ ꝙ tm̃ erit.a.c.i.a.b.quãtũ in ſe ⁊ in.c.b.q̃re ecõuerſo.a.b.i.a.c.quãtũ.a.c.in ſe ⁊ in.c.b.ꝙ volum⁹ demõſtrare.
@@ -15,6 +19,8 @@
 [Margin]
 [Diagram: rectangle with top corners d and e and bottom corners a and b, divided by a vertical line f–c, with a separate short horizontal line labelled g above]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .4.]
 
 ## Propoſitio .4.
 

@@ -1,5 +1,7 @@
 <!-- Running title: LIBER -->
 
+[Curated heading level=2 type=propositions: Propoſitio .16.]
+
 ## Propoſitio .16.
 
 {dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I fuerit quatuor quantitates proportionales. ꝑmutatim quoqʒ proportionales erunt.
@@ -9,6 +11,8 @@
 [Diagram: four pairs of horizontal lines labelled a, b, c, d, e, f, g and h with numbers]
 
 ¶Sit proportio.a.ad.b.ſicut.c.ad.d.dico ꝙ erit.a.ad.c.ſicut.b.ad d.⁊ iſte eſt modus arguẽdi qui dicit̃ ꝓportionalitas permutata. cuius demonſtratio ſic patʒ. Sumã.e.ad.a.⁊.f.ad.b.eque multiplices itemqʒ.g.ad.c.⁊.h.ad.d.eque multiplices: eritqʒ per premiſſam.e.ad.f.ſicut.g.ad h.quare ꝑ.14.ſi.e.addit ſupra.g.⁊.f.addit ſuper.h.⁊ ſi minuit minuit: ⁊ ſi equat equat:per diffinitionẽ igitur incontinue proportionalitatis erit.a.ad.c.ſicut.b.ad d.quod eſt propoſitũ. Neceſſe eſt aũt vt in ꝑmutata proportionalitate ſint omnes quatuor quantitates eiuſdem generis.
+
+[Curated heading level=2 type=propositions: Propoſitio .17.]
 
 ## Propoſitio .17.
 
@@ -21,6 +25,8 @@
 [Handwritten]
 k p n q h k m n c.b. f.e.
 [/Handwritten]
+
+[Curated heading level=2 type=propositions: Propoſitio .18.]
 
 ## Propoſitio .18.
 

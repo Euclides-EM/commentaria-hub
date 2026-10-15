@@ -4,6 +4,8 @@
 
 ¶Sint ĩ ſpera cuius centꝝ.a.ſignati duo circuli.b.⁊.c.equales ad quoꝝ ſupficies ꝓtrahanť a centro ſpere videlicet a puncto.a.perpendiculares ſm̃ ꝙ docet.11.vndecimi:ad hunc quidẽ.a.b.ad illũ autẽ.a.c.dico ꝙ due linee.a.b.⁊.a.c.ſũt equales:ꝓtrahanť enĩ a punctis.b.⁊.c.ſingule linee recte ad circũferentias illoꝝ circuloꝝ ꝓut libuerit:in hoc quidem.b.d.in illo aũt.c.e.⁊ iungať.a.cũ.d.⁊ cum.e.eritqʒ ex diffinitione linee ſupra ſuperficiẽ ꝑpendiculariter ſtantis vtriqʒ duoꝝ anguloꝝ.a.b.d.a.c.e.rectus.At vero ex ſcđa pte p̃miſſi correlarij.Manifeſtũ ẽ ꝙ duo puncta.b.⁊.c.ſunt centra circuloꝝ.b.c.ideoqʒ due linee.b.d.⁊.c.e.ſunt ſemidiametri eoꝝ:qui circuli cũ ponanť equales ſequiť ex diffinitione equaliũ circuloꝝ has ſemidiametros eſſe equales:⁊ quia due linee.a.d.⁊.a.e.ſunt equales qꝛ ſunt ducte a centro ſpere ad eius ſupficiẽ:erunt ex penul'.primi due ꝑpendiculares.a.b.⁊.a.c.equales qđ oportebat demonſtrare.Nunc igitur ad propoſitum redeamus.
 
+[Curated heading level=2 type=propositions: Propoſitio .10.]
+
 ## Propoſitio .10.
 
 {dropcap:P|lines=5|style=decorated|decoration="foliate ornament on black ground"}Roportio corporis duodecedri ad corpꝰ ycocedri q̃ ambo vna eadẽqʒ ſpera icludit:eſt ſicut omniũ ſuperficierũ eius piter acceptaꝝ ad oẽs ſupficies illius piter acceptas

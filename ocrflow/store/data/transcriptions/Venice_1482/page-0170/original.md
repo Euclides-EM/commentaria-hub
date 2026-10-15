@@ -1,12 +1,16 @@
 <!-- Running title: LIBER -->
 
-## Pꝛopoſitio .53.
+[Curated heading level=2 type=propositions: Propoſitio .53.]
+
+## Propoſitio .53.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I binomio ſexto lineaqʒ rõnali ſuperficies contineatur linea que in eam poteſt:in duo in medialia potens eſſe pꝛobatur. ¶Hec.53.adhuc te ſuſtinet ociari a pingendo figuras:contenta eni eſt pꝛemiſſis diſpoſitione ⁊ poſitionibus.Quibꝰ ſtantibus neceſſe ẽ ex ipſis poſitis ⁊ diſpoſitione.i.diffinitione binomij poſtremi ⁊.19.quãlibet ex ſuperficiebus.a.d.⁊.d.g.⁊.g.c.pꝛopter quod ⁊ ambo quadrata.l.m.⁊.m.n.pariter accepta ⁊.p.m.⁊.m.q.eſſe mediales.Cumqʒ.b.f.⁊.f.d.pꝛopter qꝺ.a.f.⁊.f.b.ideoqʒ.l.m.⁊.m.n.ſint incõmenſurabiles erunt due linee.b.c.⁊.r.p.incõmenſurabiles in potentia.at quia ipſe continent ſuperficiem medialem.p.m.earumqʒ ambo quadrata pariter accepta ſunt mediale qꝺ eſt duplo ſuperficiei vnius in alterã incõmenſurabile:qꝺ ex eo pꝛobatur ꝙ ſuperficies.b.b.ẽ incõmenſurabilis ſuperficiei.b.c.pꝛopter hoc ꝙ linea.d.b.eſt incõmenſurabilis linee.d.c.ſequitur ex.35.lineam.l.p.eſſe que poteſt in duo medialia.
 
 [Figure: square with corners d and k at the top and a and b at the base, c on the base between them, a diagonal from d, internal point h, regions labelled a, d, e and b]
 
-## Pꝛopoſitio .54.
+[Curated heading level=2 type=propositions: Propoſitio .54.]
+
+## Propoſitio .54.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linee rationali equum quadrato binomij rectangulum adiungat̃:latus eius ſcꝺm binomiũ pꝛimũ eſſe cõueniet. ¶Hec ſex ſequentes conuerſe ſunt ſex pꝛecedentium per oꝛdinẽ huiꝰ autem eſt hec intentio.Sit linea.a.b.binomiũ diuiſa ad punctũ.c.in duas lineas.a.c.⁊.c.b.ſm̃ ſuam diffinitionẽ aut termini eiuſqʒ.a.b.quadratum ſit.b.d.ſitqʒ linea.e.f.rõnalis in longitudine cui adiungatur ſuperficies.e.g.equalis quadrato.b.d.dico ꝙ latus ſcꝺm:huius ſuperficiei quod ẽ linea.f.g.eſt binomiũ pꝛimũ.Diuidatur eni quadratũ.b.d.in duo quadrata.h.b.⁊.h.d.que ſint quadrata duarum poꝛtionuʒ binomij:⁊ in duo ſupplementa.a.h.⁊.h.k.quoꝛum vtrũqʒ continetur ſub duabus poꝛtionibus binomij:eritqʒ ex diffinitione binomij que habetur per.30.vtrũqʒ iſtoꝝ quadratoꝝ rõnale.⁊ per.19.vtrunqʒ ſupplementũ mediale.Ex ſuperficie igitur.e.g.abſcindatur ſuperficies.e.l.equalis quadrato.d.h.⁊.l.m.equalis quadrato.h.b.⁊.n.p.equalis vni duoꝛuʒ ſupplementorum.a.h.vel.h.k.eritqʒ.p.g.reſidua equalis reliquo ſupplemento:quare per pꝛimam ſexti linea.n.q.eſt equalis linee.q.g.ex pꝛemiſſis aũt manifeſtũ eſt ꝙ vtraqʒ duaꝝ ſuperficierum.e.l.⁊.l.m.⁊ iõ tota ſuperficies.e.n.eſt rõnalis Et vtraqʒ duarum equalium.n.p.⁊.p.g.⁊ ideo tota.m.g.medialis:quare per.16.vtraqʒ duarum linearuʒ.f.l.⁊.l.n.⁊ tota linea.f.n.rõnalis in longitudine:⁊ linee.e.f.rationali poſite cõmenſurabilis:⁊ per.20.vtraqʒ duaruʒ.n.q.⁊.q.g.⁊ tota.n.g.rationalis in potentia tantum incõmenſurabilis linee.m.n.⁊ ideo linee.e.f.ſibi cõli ⁊ per conſequẽs ⁊ linee.f.n.in longitudine:Si igit̃ linea.f.a.que eſt maioꝛ linea n.g.vt ex pꝛimo duoꝝ antecedẽtiũ.35.demonſtrationi ſubiunctorũ ⁊ pꝛima ſexti apparet:fuerit potentioꝛ linea.n.g.minoꝛi in quadrato linee ſecum cõmunicantis in longitudine.tunc ex diffinitione binomij pꝛimi manifeſtum eſt lineam.f.g.eẽ binomium pꝛimum.Hoc autem ita eſſe ſic habeto.Cum inter duo quadrata.d.h.⁊.h.b.ſit per pꝛimã ſexti ſuperficies.a.h.medio loco pꝛopoꝛtionalis:conuincitur ex pꝛioꝛibus ypotheſibus ſuperficiem.m.q.eſſe inter ſuperficies.e.l.⁊.l.m.medio loco pꝛopoꝛtionalis:quare per pꝛimã ſexti linea.n.q.que eſt medietas linee.n.g.eſt in medio loco pꝛopoꝛtionalis inter duas lineas.f.l.⁊.l.n.qꝺ igitur fit ex.f.l.in
 

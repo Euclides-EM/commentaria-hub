@@ -4,6 +4,8 @@ partes eſt.b.a.tota vel tote eſt.d.c.⁊ ecõuerſo:erit eni ꝑ conuerſion�
 
 [Diagram: two horizontal segments headed by numerals 12 and 15; the first with letters a and e above and numerals 4, 4, 2 with letter b and numeral 4 below; the second with letters c and f above and numerals 6, 6, 3 with letter d and numeral 6 below]
 
+[Curated heading level=2 type=propositions: Propoſitio .12.]
+
 ## Propoſitio .12.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I a duobus numeris ſm ſuas proportiones duo numeri detrahantur:erit proportio reliqui ad reliquum tanqʒ proportio totius ad totum.

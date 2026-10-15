@@ -4,6 +4,8 @@ tres ppoſitos angulos ambientia equalia ex ypotheſi neceſſe eſt vt eaꝝ qu
 
 [Figure: circle with centre g enclosing triangle d.e.f, with lines from g to d, e and f, and lines from an external point h to d, e and f]
 
+[Curated heading level=2 type=propositions: Propoſitio .24.]
+
 ## Propoſitio .24.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I ſuperficiebus equidiſtantibus ſolidum cõtineatur eius oppoſite ſupficies ſibi inuicẽ equales ſunt ⁊ equidiſtantiũ laterum.

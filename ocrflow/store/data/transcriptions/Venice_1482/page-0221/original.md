@@ -1,5 +1,7 @@
 <!-- Running title: XII -->
 
+[Curated heading level=2 type=propositions: Propoſitio .7.]
+
 ## Propoſitio .7.
 
 {dropcap:S|lines=4|style=decorated|decoration="foliate ornament on hatched ground"}I due piramides triangularum baſium fuerint equales earum baſes earundem altitudinibus mutue erunt. Si vero baſes ⁊ altitudines fuerit mutue eaſdem piramides ſibi inuicem eſſe equales neceſſe eſt.

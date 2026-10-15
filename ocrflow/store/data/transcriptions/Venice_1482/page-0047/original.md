@@ -8,17 +8,23 @@
 [Diagram: circle with b at the top, e at the right, d at the centre, and a and c at the bottom, with lines joining a, b, c and e]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .28.]
+
 ## Propoſitio .28.
 
 {dropcap:C|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Irculorum equalium equos arcus.equas cordas habere neceſſe eſt.
 
 ¶Sint duo circuli equales.a.b.c.cuius centrum.d.⁊.e.f.g.cui⁹ centrum.h.ſitqʒ arcus.a.b.c.equalis arcui.e.f.g.dico ꝙ corda.a.c.eſt equalis corde.e.g.⁊ eſt hec conuerſa prime partis premiſſe.¶Ducãtur linee.d.a.d.c.h.e.h.g.eruntqʒ per.26.huius anguli.d.⁊.h.equales:quare ꝑ quartam primi:erit.a.c.equalis.e.g.quod eſt propoſitum. Quecunqʒ autem probate ſunt paſſiones de diuerſis circulis equalibus intellige multo fortius veras eſſe de eodem.
 
+[Curated heading level=2 type=propositions: Propoſitio .29.]
+
 ## Propoſitio .29.
 
 {dropcap:D|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Atum arcum per equalia diuidere.
 
 ¶Sit datus arcus.a.b.c.cui ſubtendatur corda.a.c.que diuidaꝛ per equalia in puncto.d.a quo ducatur perpendicularis ad ipſaʒ que ſit d.b.ſecans circũferentiam dati arcus in puncto.b.quẽ dico diuidere datum arcum per equalia.ducantur enim linee.b.a.b.c.que erũt eq̃les per.4.primi quare ꝑ primã partem.27.hui⁹ arcus.a.b.erit equalis arcui.b.c.quod eſt propoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .30.]
 
 ## Propoſitio .30.
 

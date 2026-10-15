@@ -14,6 +14,8 @@ ex.a.b.in.b.c.bis:itaqʒ quadratum.a.d.tantũ ẽ quãtũ qd̃ ex.a.b.in.b.d.bis
 
 ¶Qd̃.11.ſecundi proponit faciendum in lineis.demonſtrat hoc impoſſibile eſſe in numeris.Sit enim quilibet numerus.a.b.dico impoſſibile eſſe ipſũ ſic diuidi ut proponitur:ſic eni diuideret̃ ſm̃ proportionẽ habentem medium ⁊ duo extrema:ut patet ex diffinitiõe ⁊.20.ſeptimi.Si autem poteſt diuidatur in.c.ſitqʒ.a.b.ad.b.c.ſicut.b.c.ad.c.a.erit itaqʒ.a.c.minor.c.b.detrahatur igitur ab eo equalis ſibi qui ſit.c.d qꝛ igitur eſt proportio totius.a.b.ad totum.b.c.ſicut.b.c detracti ab.a.b.ad.c.d.detractum ab.b.c.erit eadem.a.c.reſidui.a.b.ad.b.d.reſiduum.b.c.quare.b.c.ad.c.d.ſicut.c.d.ad.d.b.erit igitur.c.d.maior.d.b.detracto itaqʒ.d.e.de.c.d.ut ſit.d.e.eq̃lis.d.b.erit etiã ꝓportio.b.c.ad.c.d.ſic.c.d.ad.d.e.q̃re ſic.d.b.reſidui.c.b.ad.e.c.reſiduũ.c.d.põt igit̃.e.c.detrahi ab.e.d.nõ erit itaqʒ finis iſtiꝰ detractiõis qd̃ ẽ ipoſſibile.Nũc ad ꝓpoſitũ reuertamur. ¶Ꝓpoſitio .17.
 
+[Curated heading level=2: Propoſitio .17.]
+
 {dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint duo numeri ꝯtra ſe pꝛimi quãtus ẽ pꝛimus eoꝝ ad ſcõm:tantũ eſſe ſcõm ad tertium quẽqʒ impoſſibile eſt.
 
 ¶Sint.a.⁊.b.contra ſe pꝛimi:dico impoſſibile eſſe aliquẽ eis in continua ꝓportionalitate adiungi.Si eniʒ põt ſit.c.qꝛ igit̃.a.ad.b.ſicut

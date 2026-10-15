@@ -6,7 +6,13 @@
 
 [Figure: circle lettered e above and f below]
 
-# Explicit liber Duodecimus Jncipit liber Terciuſdecimus.
+[Curated heading level=1: LIBER XIII]
+
+Explicit liber Duodecimus Jncipit liber Terciuſdecimus.
+
+[Curated heading level=1 type=propositions: LIBER XIII]
+
+[Curated heading level=2 type=propositions: Propoſitio .1.]
 
 ## Propoſitio .1.
 

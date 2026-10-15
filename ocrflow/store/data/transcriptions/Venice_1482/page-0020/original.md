@@ -1,5 +1,7 @@
 rectis:dico ꝙ due linee.c.d.⁊.e.f.ſunt equidiſtantes. Sit ergo p̃mo angul⁹.d.g.a equalis angulo.f.h.g.eritqʒ per.15.angulus.c.g.h.equalis eidem angulo.f.h.g. q̃re ꝑ p̃miſſam.c.d.⁊.e.f.ſunt equidiſtantes. Sint rurſus duo anguli.d.g.h.⁊.f.h.g.equales duobus rectis:⁊ qꝛ p.13.duo anguli.d.g.h.⁊.c.g.h.ſũt ſil'r eq̃les duobus rectis erit angulus.c.g.h.eq̃lis angulo.f.h.g.q̃re ꝑ p̃miſſã.c.d.⁊.e.f.erũt eq̃diſtantes:quod eſt ꝓpoſitũ.
 
+[Curated heading level=2 type=propositions: Propoſitio 29.]
+
 ## Propoſitio 29.
 
 {dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I duabus lineis equidiſtantib⁹ linea ſupuenerit duo anguli coalterni equales erũt:anguluſqʒ extriſecus angulo intrinſeco ſibi oppoſito eq̃lis. Itẽqʒ duo anguli intrinſeci ex alterutra pte conſtituti duob⁹ rectis angul'equales.
@@ -10,6 +12,8 @@ rectis:dico ꝙ due linee.c.d.⁊.e.f.ſunt equidiſtantes. Sit ergo p̃mo angul
 [Diagram: transversal line from e at top to f at bottom crossing two horizontal lines b.a at point g and d.c at point h, the two lines extended leftward converging to point k]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .30.]
+
 ## Propoſitio .30.
 
 {dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I fuerint due linee vni equidiſtantes eedem ſibiinuicẽ equidiſtantes erunt.
@@ -19,6 +23,8 @@ rectis:dico ꝙ due linee.c.d.⁊.e.f.ſunt equidiſtantes. Sit ergo p̃mo angul
 [Margin]
 [Diagram: transversal line from g at top to h at bottom crossing three horizontal lines a.b at point k, e.f at point l and c.d at point m]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .31.]
 
 ## Propoſitio .31.
 

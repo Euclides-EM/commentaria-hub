@@ -2,6 +2,8 @@
 
 duo anguli.g.⁊.b.trianguli.g.f.b.ſunt equales duobus angulis.h.⁊.b.trianguli h.f.b.⁊ latus.f.b.cõe erit per.26.primi.f.h.equalis.f.g.¶Eodem modo ꝓbabis f.k.equalem.f.l.ſumptis triangulis.l.f.d.k.f.d.qm̃ igitur.5.linee.f.g.f.h.f.k.f.l. ⁊.f.m.ſunt equales.erit.f.centruʒ circuli.per.9.tertij.quẽ deſcribemus ſm̃ quãtitatem vnius earum.⁊ tanget omnia latera penthagoni.ꝓpter equalitatem linearũ. ⁊ nullum eoꝝ ſecabit per primam ptem.15.tertij.ſicqʒ cõſtat ꝓpoſitum.
 
+[Curated heading level=2 type=propositions: Propoſitio .14.]
+
 ## Propoſitio .14.
 
 [Margin]
@@ -11,6 +13,8 @@ duo anguli.g.⁊.b.trianguli.g.f.b.ſunt equales duobus angulis.h.⁊.b.triangul
 {dropcap:C|lines=5|style=decorated|decoration="foliate initial on dark ground"}Irca datum penthagonum ꝙ ſit equilaterum. atqʒ equiangulum circulum deſcribere.
 
 ¶Sit vt prius datus penthagonus equilaterus atqʒ equiangulus. quia de alijs non eſt neceſſariũ hoc eſſe poſſibile.a.b.c.d.e.volo circa ipſum deſcribere circuluʒ.hec eſt quaſi conuerſa.12.Duos eius ꝓpinquos angulos qui ſunt.a.⁊.e.diuido ꝑ equalia ductis lineis.a.f.⁊.f.e.quouſqʒ concurrant intra ipſum penthagonũ in puncto.f.cõcurrent enĩ ⁊ intra pẽthagonum vt ꝓbatum eſt in premiſſa.⁊ a puncto cõcurſus duco ad reliquos angulos lineas que ſint.f.b.f.c.f.d.⁊ qꝛ duo latera.a.f.⁊.a.b.trianguli.a.f.b.ſunt equalia duobus lateribus.a.f.⁊.a.e.trianguli.a.f.e.⁊ angulus.a.vnius angulo.a.alteri⁹ erit ꝑ.4.primi.f.a.equalis.f.e.⁊ angulus.b.ptialis angulo.e.ptiali.⁊ quia.b.totalis eſt equalis.a.totali.⁊.e.totalis diuiſus eſt ꝑ equalia.erit ſimiliter.b.totalis diuiſus ꝑ equalia.hoc quoqʒ modo ꝓbabis vtrũqʒ anguloꝝ.c.⁊.d.diuiſum eſſe per equalia.⁊.5.lineas.f.a.f.b.f.c.f.d.f.e.eſſe equales.quare ꝑ.9.tertij.f.erit centruʒ circuli.ſicqʒ patet ꝓpoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .15.]
 
 ## Propoſitio .15.
 

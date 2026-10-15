@@ -10,6 +10,8 @@
 
 ¶Sint quantitates.a.b.ad.c.⁊.d.e.ad.f.eque multiplices:ſubtrahanturqʒ.c.ex a.b.⁊.f.ex.d.e.⁊ ſint reſidua:ex a.b.quidẽ.a.g.ex.d.e.d.h.eritqʒ.g.b.equalis.c. ⁊.h.e.equalis.f.dico ꝙ duo reſidua.a.g.⁊.d.h.erunt equalia duabus quantitatibus.c.⁊.f.aut eis eque multiplicia.Sit ergo primo.a.g.equalis.c.dico ꝙ.d.h.eſt equalis.f.Sumam enim quantitatem.e.k.equalem.f.eritqʒ per premiſſas ypotheſes vt tociens.f.ſit in.h.k.quotiens.c.in.a.b. quare ſicut.a.b.eſt multiplex.c.ita h.k.eſt multiplex.f.ſed ſic erat etiam.d.e.erat multiplex eiuſdem.f.erit igitur per cõem ſcientiam.h.k.equalis.d.e.dempta igitur cõmuni earum quantitate.h.e. erit.d.h.equalis.e.k.quare equalis.f.quod eſt propoſitũ.¶Si autem.a.g.ſit multiplex.c.ponam vt.e.k.ſit eque multiplex.f.eritqʒ vt prius vt tociens.f.ſit in.h.k quotiens.c.in.a.b.Sed tociens erat etiam in.d.e.erit igitur vt prius.d.e.equalis h.k.⁊.d.h.e.k.quare ſicut.a.g.eſt multiplex.c.ita.d.h.eſt multiplex.f.ꝙ eſt propoſitum. Aliter idem cum ſm eundem numerum contineat quantitas.a.b.quantitatem.c.ſm ꝙ quantitas.d.e.quantitatẽ.f.demptaqʒ ab eo vnitate remaneat vnitas vel numerus ſecundum ꝙ.a.g.continet.c.⁊ ſm ꝙ.d.h.continet.f.patet quantitates.a.g.⁊.d.h.eſſe equales aut eque multiplices quantitatibus.c.⁊.f.
 
+[Curated heading level=2 type=propositions: Propoſitio .7.]
+
 ## Propoſitio .7.
 
 [Diagram: horizontal lines labelled d 12 and e 12, a 6 and b 6, with shorter lines c 3 and f 6 beneath]

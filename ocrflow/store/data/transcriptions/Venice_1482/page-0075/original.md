@@ -13,6 +13,8 @@ d.2. e.3. f.4
 [illegible: 6 words]
 [/Handwritten]
 
+[Curated heading level=2 type=propositions: Propoſitio .2.]
+
 ## Propoſitio .2.
 
 [Diagram: six handwritten horizontal lines in two columns, labelled a 8, b 4, c 2 and e 12, d 6, f 3]
@@ -20,6 +22,8 @@ d.2. e.3. f.4
 {dropcap:S|lines=4|style=decorated|decoration="foliate initial on dark ground"}I fuerint ſex quantitates.quaꝝ prima ad ſcd̃am atqʒ tertia ad quartã eque multiplices.quinta vero ad ſecundam atqʒ ſexta ad quartã eque multiplices:totum prime ⁊ quinte ad ſcd̃am.totumqʒ tertie ⁊ ſexte ad quartam eque multiplicia eſſe conueniet.
 
 ¶Sint ſex quantitates.a.prima.b.ſecunda.c.tertia.d.quarta.e.quinta.f.ſexta. Sitqʒ.a.⁊.c.eque multiplices ad.b.⁊.d.itẽqʒ.e.⁊.f.ſint eque ml'tiplices ad eaſdẽ dico ꝙ ſicut totũ aggregatũ ex.a.⁊.e.ẽ multiplex ad quãtitatẽ.b.ita totũ aggregatũ ex.c.⁊.f.eſt multiplex ad quantitatẽ.d.Nam qꝛ numerus ſm̃ quẽ.b.continet̃ in.a.eſt equalis numero.ſm̃ quẽ.d.continetur in.c.Similiter quoqʒ numerus ſm̃ quẽ.b.continet̃ in.e.eſt equalis numero ſm̃ quẽ.d.continet̃ in.f.erit per cõmuneʒ ſciaʒ que eſt:ſi equalibus equalia addant̃ ⁊ cetera.numerus ſm̃ quẽ.b.continetur in aggregato ex.a.⁊.e.equalis numero ſm̃ quẽ.d.continet̃ in aggregato ex.c.⁊.f.quare ſicut aggregatũ ex.a.⁊.e.eſt multiplex ad.b.ita aggregatũ ex.c.⁊.f.ẽ multiplex ad.d.quod eſt propoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .3.]
 
 ## Propoſitio .3.
 

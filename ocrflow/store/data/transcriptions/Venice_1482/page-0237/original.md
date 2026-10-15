@@ -4,6 +4,8 @@ diametri.b.f.⁊ linee.g.c.⁊.h.d.itemqʒ.k.l.⁊.m.n.equidiſtanter lateribus 
 
 [Diagram: square with corners f, e, a and b, crossed by diagonal f.b, divided by vertical lines g.c and h.d and horizontal lines k.l and m.n meeting the diagonal at p and q, with points r and ſ and arcs drawn at p and q]
 
+[Curated heading level=2 type=propositions: Propoſitio .4.]
+
 ## Propoſitio .4.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on dark ground within a square frame"}J ſcõm proportionẽ habentẽ mediũ ⁊ duo extrema quelibet linea fuerit diuiſa eiqʒ i longũ directe tanqʒ maior ſectio adijciať:erit totã lineã inde cõpoſitã ꞗm pportionem habentẽ mediũ ⁊ duo extrema diuiſaʒ eſſe ⁊ erit eius maior portio linea prima.

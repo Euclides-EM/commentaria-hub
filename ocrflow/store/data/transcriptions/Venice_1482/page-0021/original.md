@@ -1,5 +1,7 @@
 linee.a.d.conſtituo angulũ.e.a.d.ꝑ doctrinã.23.equalem angulo.b.d.a.ſibi coalterno:eritqʒ.a.e.equidiſtãs.b.c.ꝑ.27.quod eſt ꝓpoſitum.
 
+[Curated heading level=2 type=propositions: Propoſitio .32.]
+
 ## Propoſitio .32.
 
 {dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis trianguli angulus extrinſecus duobus intrinſecis ſibi oppoſitis eſt equalis: Omnes autẽ tres angulos eius duobus rectis angulis equos eſſe neceſſe eſt.

@@ -6,6 +6,8 @@
 [Diagram: small triangle with vertices c, a and b; below, two intersecting circles with centres f and g on a horizontal line through e, h, g, f and d, intersecting at point k, with lines drawn from k to f and g]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio 24.]
+
 ## Propoſitio 24.
 
 {dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mniũ duoꝝ trianguloꝝ quoꝝ duo latera vni⁹duob⁹lateribꝰalteri⁹fuerint eq̃lia:ſi fuerit anguloꝝ ſub illis eq̃s laterib⁹ꝓtẽtoꝝ alter altero maioꝛ baſis quoqʒ eiuſdẽ baſi alterius maioꝛ erit.
@@ -15,6 +17,8 @@
 [Margin]
 [Diagram: two triangles, one with apex d and base e.g, with interior lines through f and lines extended below the base to points k and h, the other with apex a and base b.c]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio 25.]
 
 ## Propoſitio 25.
 
@@ -26,4 +30,6 @@
 [Diagram: two triangles, one with apex a and base b.c, the other with apex d and base e.f]
 [/Margin]
 
-## Propõ .26.
+[Curated heading level=2 type=propositions: Propó .26.]
+
+## Propó .26.

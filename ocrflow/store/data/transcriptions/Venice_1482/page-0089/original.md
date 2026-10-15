@@ -6,6 +6,8 @@ portio.a.ad.c.maior eſt q̃ʒ proportio.h.ad.c. At vero proportio.h.ad.c. eſt 
 [unclear: d.f.h.c.a.c.]
 [/Handwritten]
 
+[Curated heading level=2 type=propositions: Propoſitio .32.]
+
 ## Propoſitio .32.
 
 [Diagram: horizontal lines labelled a 18, b 6, c 2, g 4 and h 8, and beside them lines labelled d 12, e 6 and f 3]
@@ -18,6 +20,8 @@ portio.a.ad.c.maior eſt q̃ʒ proportio.h.ad.c. At vero proportio.h.ad.c. eſt 
 [unclear: d.f.h.c.a.c]
 [/Handwritten]
 
+[Curated heading level=2 type=propositions: Propoſitio .33.]
+
 ## Propoſitio .33.
 
 [Diagram: two horizontal lines, the upper with segments labelled e, a and c, the lower with segments labelled f, b and d]
@@ -29,6 +33,8 @@ portio.a.ad.c.maior eſt q̃ʒ proportio.h.ad.c. At vero proportio.h.ad.c. eſt 
 [Handwritten]
 [unclear: a.b.c.d. e.f.a.b a.e.b.f]
 [/Handwritten]
+
+[Curated heading level=2 type=propositions: Propoſitio .34.]
 
 ## Propoſitio .34.
 

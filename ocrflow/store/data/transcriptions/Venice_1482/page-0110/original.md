@@ -2,6 +2,8 @@
 
 e.tota pars.f.quota eſt.a.b.tota enim erat.e.g.quod eſt propoſitum.
 
+[Curated heading level=2 type=propositions: Propoſitio 8]
+
 ## Propoſitio 8
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I a duobus numeris quorum alter alterius partes propoſitis partes ille ſubtrahãtur:erit reliquus reliqui eedẽ partes qui eſt totus totius.
@@ -9,6 +11,8 @@ e.tota pars.f.quota eſt.a.b.tota enim erat.e.g.quod eſt propoſitum.
 ¶Hec eſt quaſi cõuerſa ſexte:vt ſi ſit quot ⁊ quote ptes eſt totus.a.totius.b.tot ⁊ tote.c.detractus ab.a.d.detracti.a.b.erit.e.reſiduꝰ.a.tot ⁊ tote ptes.f.reſidui.b.quot ⁊ quote ẽ.a.b.Sit eni.g.vna ptiũ.a.⁊.h.vna partium.c.eritqʒ ꝓpter ypoth.g.tota ps.a.quota.h.c.⁊ tota.b.quota.h.d.detrahat̃ igitur.h.de.g.⁊ remaneat.k.eritqʒ.k.ꝑ p̃miſſã tota pars.e.quota.g.a.⁊ tota.f.ꝑ eandẽ quota.g.b.quia igitur.e.⁊.f.habent partẽ cõmunẽ que ẽ.k.erit per.16.diffinitionẽ.e.ptes.f.tot quidẽ quota pars eſt.k.e.⁊ tote quota eſt.k.f.⁊ quia tot et tote erat.a.b.patet propoſitum.
 
 [Diagram: horizontal segments with numerals 18, 6, 12 and 4 and letters b, f, a, g, d, e, c, k and h]
+
+[Curated heading level=2 type=propositions: Propoſitio 9]
 
 ## Propoſitio 9
 
@@ -18,6 +22,8 @@ e.tota pars.f.quota eſt.a.b.tota enim erat.e.g.quod eſt propoſitum.
 
 [Diagram: two horizontal segments labelled b and d with shorter segments labelled a and c beneath]
 
+[Curated heading level=2 type=propositions: Propoſitio 10]
+
 ## Propoſitio 10
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quatuor numeri quoꝝ primus tote ptes ſecũde quote tertius quarti:erit ꝑmutatim primus tota pars aut partes tertij quota vel quote ſecundus quarti.
@@ -25,6 +31,8 @@ e.tota pars.f.quota eſt.a.b.tota enim erat.e.g.quod eſt propoſitum.
 ¶Sint quatuor numeri ut prius quoꝝ ſimiliter minores ſint.a.et.b.ſitqʒ.a.tote ptes.b.quote.c.eſt.d.dico ꝙ quota pars aut ptes eſt.a.c.tota vel tote eſt.b.d.diuidantur enim minores in partes illas qui ſunt.a.⁊.c.eruntqʒ per preſentẽ ypoth.tot partes.a.quot.c.⁊ quia vnaq̃qʒ ex partibus.a.eſt tota pars.b.quota quelibet ex ptibus.c.eſt.d.hoc eni habemus ex nr̃a ypothe.erit permutatim per premiſſam:ut quota pars aut ptes ẽ.b.d.tota vel tote ſit vnaq̃qʒ ex partibus.a.ſue cõparis ex partibus.c.ꝑ quintã igitur vel.6.ſub diſiunctiõe quotiens oportuerit repetitas:erit tota pars aut ptes.b.d.quota vel quote ẽ.a.c.quod eſt propoſitum
 
 [Diagram: two horizontal segments labelled b and d with shorter segments labelled a and c beneath and numerals 5, 6 and 7]
+
+[Curated heading level=2 type=propositions: Propoſitio .11.]
 
 ## Propoſitio .11.
 

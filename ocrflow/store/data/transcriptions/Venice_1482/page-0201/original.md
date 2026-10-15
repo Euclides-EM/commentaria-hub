@@ -4,6 +4,8 @@ perficitur angulus in puncto.a.dico quoſlibet duos ex ipſis ſuperficialibꝰ 
 
 [Figure: pyramid with apex a, interior points g, k, h, f, b, and base points c, e, d]
 
+[Curated heading level=2 type=propositions: Propoſitio .21.]
+
 ## Propoſitio .21.
 
 {dropcap:O|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Mnis angulus ſolidus quatuor rectis ãgulis minor eſſe probatur.

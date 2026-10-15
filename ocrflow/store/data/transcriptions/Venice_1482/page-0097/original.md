@@ -1,5 +1,7 @@
 <!-- Running title: VI -->
 
+[Curated heading level=2 type=propositions: Propoſitio .17.]
+
 ## Propoſitio .17.
 
 {dropcap:S|lines=6|style=decorated|decoration="white floral vine on black ground"}I fuerint duo triãguli ſimiles proportio alterius ad alterũ eſt tanq̃ʒ ꝓportio cuiuſlibet ſui lateris ad ſuũ relatiuũ latꝰ alteriꝰ duplicata. Manifeſtũ etiã ex hoc qꝛ omnium triũ lineaꝝ cõtinue ꝓportionaliũ quãta ẽ prima ad tertiã tanta erit ſupficies cõſtituta ſup primã ad ſupficiẽ cõſtitutã ſup ſcõam.cũ fuerit ei ſimilis in lineatione ⁊ creatione.
@@ -7,6 +9,8 @@
 ¶Sint duo trianguli.a.b.c.⁊.d.e.f.ſimiles erũtqʒ ꝑ diffinitionẽ equianguli ⁊ laterum ꝓportionalium. Sit ergo angulus.a.equalis angulo.d.⁊ angulus.b. angulo e.⁊ angulus.c.angulo.f.eritqʒ proportio.a.b.ad.d.e.⁊.a.c.ad.d.f.ſicut.b.c.ad.e f.dico ꝙ proportio trianguli.a.b.c.ad triangulum.d.e.f.ẽ ſicut ꝓportio.b.c.ad.e f.duplicata.Subiũgaꝫ enim ſm doctrinã.10.huius duabus lineis.b.c.⁊.e.f.tertia in continua proportionalitate que ſit.c.g.ꝓtracta aut reſecata.c.b.ſi.c.g.fuerit ea maior aut minor ⁊ producatur linea.g.a.eritqʒ per ſcõam partem.14.huius triangulus.a.g.c.equalis triangulo.d.e.f.propter id qd' ꝓportio.a.c.ad.d.f.eſt ſicut.e f.ad.c.g.⁊ angulus.c.equalis angulo.f.quare per ſcõam partem.7.quinti trianguli.a.b.c.ad vtrũqʒ illorum erit vna ꝓportio:ſed per primã huius ꝓportio trianguli.a.b.c.ad triangulum.a.g.c.eſt ſicut b.c.ad.g.c.At vero ꝓportio.b.c.ad.c.g ſicut.b.c.ad.e.f.duplicata per.10.deſcriptionem quinti:g̃ ꝓportio trianguli.a.b.c.ad triangulum.d.e.f.ẽ ſicut proportio.b.c.ad.d.f.duplicata qd' eſt ꝓpoſitum. Si autẽ.c.g.ſit equalis.b.c.erit per ſcõam ptem.14.huius triangulus.a.b.c.equalis triangulo.d.e.f.equalis autẽ ꝓportio cõponitur ex equali duplicata vel triplicata vel quotienſcũqʒ ſumpta. Iſtam eandẽ paſſionẽ poſſemus eodẽ modo ⁊ per eadem media demonſtrare de ſuperficiebus equidiſtantium laterũ ſimilibus ſumpta ſolũ.13.preſentis loco.14.Non demonſtrat autẽ eam.qꝛ per ſequentem demõſtratur vniuerſaliter de omnibus ſupficiebus ſimilibꝰ.Quare ꝑ correl'.ꝙ vniuerſaliter ꝓponitur de omnibus ſupficiebus ſimilibus nõdũ patet niſi de triangulis.ſʒ demonſtrata ſequente patens erit de omnibus. Poſuit autem ipſum hic ⁊ non in ſequente quia eſt correl'.huius.non autem ſequentis:ex modo enim demonſtrationis huius ſua veritas manifeſtata eſt.non ex modo illius.
 
 [Diagram: triangle with apex d and base e f, beside a larger triangle with apex a and base points g, b, g and c, with lines drawn from a to the points on the base]
+
+[Curated heading level=2 type=propositions: Propoſitio .18.]
 
 ## Propoſitio .18.
 

@@ -4,6 +4,8 @@
 [Diagram: a triangle with apex a and base vertices b and c, with a point d on the left side and lines drawn from d and from the apex crossing to the base vertices]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .6.]
+
 ## Propoſitio .6.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I duo anguli alicuius trianguli equales fuerint duoqʒ latera angulos illos reſpicientia equalia erunt.
@@ -13,6 +15,8 @@
 [Margin]
 [Diagram: a triangle on base a.b with two nearly coincident apex points c and d from which lines descend to the base vertices]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .7.]
 
 ## Propoſitio .7.
 

@@ -6,11 +6,15 @@ due baſes ſuis altitudinibꝰ mutue ipſa ſolida ſibi inuicẽ equalia eſſ
 
 [Figure: parallelepiped labelled c, k, h, f, l, g, m and d divided by a vertical plane]
 
+[Curated heading level=2 type=propositions: Propoſitio .35.]
+
 ## Propoſitio .35.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I duo ſolida equidiſtantiũ terminoꝝ fuerint equalia eoꝝ baſes eorũdẽ altitudinibus erũt mutue Si vero baſes ſue altitudinibus ſuis mutue fuerint quelibet duo corꝑa equidiſtantium ſuperficierum probãtur eſſe equalia.
 
 ¶Qꝺ premiſſa ꝓpoſuit de ſolidis palellogramis quoꝝ linee altitudinũ ſuper baſes ſuas orthogonaliter exurgunt.hec.35.ꝓponit indiſtincte de omnibus:demõſtrare aũt cõuenit hãc ex premiſſa quẽadmodũ demonſtrauimꝰ.32.⁊ 33.Fabricatis eni duobus ſolidis equidiſtantiũ laterũ quibuſcũqʒ ſi linee altitudinũ ſuis baſibus orthogonaliter inſiſtunt:cõſtat veꝝ eſſe qꝺ dicit ex p̃miſſa.Sin autẽ a quatuor angularibꝰ punctis ſuppremaꝝ ſupficieꝝ in vtroqʒ ſolido quaterne linee demittanť perpendiculariter ad baſes vel a punctis angularibus infimarum ſupficieꝝ quaterne eriganť:iter quas duo ſolida palellograma pficianť eque alta ſolidis prioribus.eruntqʒ ex.29.⁊.30.hec duo ſolida duobus prioribus ſolidis equalia.cum igitur horum ⁊ eoꝝ ſint eedẽ baſes ⁊ eedẽ altitudines:ſit aũt ex premiſſa de poſterioribus verum eſt quod hec.35.proponit verum erit idẽ etiã de prioribus
+
+[Curated heading level=2 type=propositions: Propoſitio .36.]
 
 ## Propoſitio .36.
 

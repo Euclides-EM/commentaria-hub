@@ -30,6 +30,10 @@
 
 {dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ciendũ eſt aũt ꝙ preter has aĩmi cõceptiões: ſiue cões ſcias multas alias que numero ſunt incõprehenſibiles pretermiſit Euclides: quarũ hec eſt vna. ¶ Si due quantitates equales ad quãlibet tertiã eiuſdem generis cõparentur ſimul erunt ambe illa tertia aut eque maiores: aut eque minores: aut ſimul equales. ¶ Jtẽ alia Quanta eſt aliqua quantitas ad quãlibet aliam eiuſdẽ generis tantã eſſe quãlibet tertiã ad aliquam quartã eiuſdem generis in quantitatibꝰ continuis: hoc vniuerſaliter verum eſt ſiue antecedentes maiores fuerint conſequentibus ſiue minores. magnitudo enim decreſcit in infinitũ. in numeris aũt non ſic: ſed ſi fuerit primus ſubmultiplex ſecundi: erit quilibet tertius eque ſubmultiplex alicuiꝰ quarti: quoniã numerus creſcit in infinitũ: ſicut magnitudo in in finitum minuitur.
 
+[Curated heading level=1 type=propositions: LIBER I]
+
+[Curated heading level=2 type=propositions: Propoſitio prima.]
+
 ## Propoſitio prima.
 
 {dropcap:T|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Riangulum equilaterum ſupra datam lineam rectam collocare. ¶ Eſto data linea recta. a.b. volo ſuper ipſam triangulũ equilaterũ cõſtituere ſuper alterã eius extremitatẽ. ſ. in puncto a. ponam pedẽ circini immobilem: ⁊ alterũ pedem mobilem extendam vſqʒ ad. b. ⁊ deſcribã ſm̃ quantitatem ipſius linee date per ſecũdam petitionẽ circulũ. c.b.d.f.

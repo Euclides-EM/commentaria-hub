@@ -4,6 +4,8 @@
 
 [Diagram: segments labelled g, n, p, h, q, r and k beside segments labelled d, l, e, m and f and segments labelled a, b and c]
 
+[Curated heading level=2 type=propositions: Propoſitio .13.]
+
 ## Propoſitio .13.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I quis quadratus numerus alium quadratum numeret latus quoqʒ ſuũ latus illiꝰ numerare ꝓbatur. Si vero latus ſuum latus illius numeret quadratus numerat quadratuʒ
@@ -12,6 +14,8 @@
 
 [Diagram: segments labelled a, e and b beside segments labelled c and d]
 
+[Curated heading level=2 type=propositions: Propoſitio .14.]
+
 ## Propoſitio .14.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I cubus alium cubum numeret:latus quoqʒ ſuũ latus alterius numerabit. Si vero latus ſuum latus alterius numeret:cubum numerabit cubum.
@@ -19,6 +23,8 @@
 ¶Sit duo numeri.a.⁊.b.cubi lateraqʒ eoꝝ.c.⁊.d.dico ꝙ ſi.a.numerat.b.c.quoqʒ numerabit.d.⁊ ecõuerſo:ducatur enī.c.in ſe.⁊ fiat.e.d.quoqʒ in ſe.⁊ fiat.f.ꝯſtat igit̃ ꝙ ex.c.in.e.fit.a.⁊ ex.d.in.f.b.fiat itaqʒ.g.ex.c.in.d.eruntqʒ per.12.⁊.19.ſeptimi.e.g.f.ꝯtinue proportionales in proportione.c ad.d.ſed ⁊.h.⁊.k.ꝓueniant ex.c.in.g.⁊.f.per eaſdem igitur erunt.a.h.k.b.cõtinue quoqʒ proportionales in eadem proportione.itaqʒ ſi.a.numerat.b.idem ꝑ 7.huius numerabit.h.quare ⁊.c.d.eſt enim.c.ad.d.ſicut.a.ad.h.cõſtat igit̃ prima pars.Cõuerſa patet:ſicut conuerſa prioris.Nam ſi.c.numerat.d.a.quoqʒ numerabit.h.quẽ ſi numerat neceſſe eſt vt numeret.b.
 
 [Diagram: segments labelled a, h, k and b beside segments labelled e, g and f and segments labelled c and d]
+
+[Curated heading level=2 type=propositions: Propoſitio .15.]
 
 ## Propoſitio .15.
 

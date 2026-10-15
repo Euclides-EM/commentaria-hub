@@ -6,6 +6,8 @@
 
 [Diagram: horizontal segments of decreasing length labelled f, e, d, c, b, a and 1]
 
+[Curated heading level=2 type=propositions: Propoſitio 13]
+
 ## Propoſitio 13
 
 {dropcap:Q|lines=5|style=decorated|decoration="white foliate initial on black ground"}Votlibet numeris ab vnitate cõtinue ꝓportionalibus ſi qui vnitatem ſequitur fuerit numerus pꝛimus maximum eorum niſi de numeris in illa proportionalitate diſpoſitis nullus numerabit.

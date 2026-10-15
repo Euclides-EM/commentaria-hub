@@ -4,6 +4,8 @@
 
 d.g.e.⁊.e.g.c.eſt rect⁹ quare p̱.14.p̃mi ⁊.c.g.d.⁊.f.g.e.ẽ linea vna:igiť ex ſcđa.11 quinqʒ puncta.c.f.d.e.g.ſunt in ſupficie vna. Manifeſtũ ẽ aũt ex quinta p̃mi:⁊ 32.eiuſdẽ ꝙ quilibet quatuor anguloꝝ.c.e.d.f.ẽ rectus:igiť ex diffinitione quadrati ſupficies.c.e.d.f.ẽ quadrata.⁊ qꝛ latus eius ẽ latus p̃poſiti corporis.conſtat ex correlario.15.tredecimi iſtud quadratũ eſſe ſubduplũ q̃drato diametri ſpere. cõſili quoqʒ rõcinatiõe ꝯſtat vtrãqʒ duaꝝ lineaꝝ.a.g.⁊.g.b.cũ q̃libet q̃tuor lineaꝝ c.g.f.g.d.g.e.g.continere angulũ rectũ:iõqʒ ex.4.vndecimi vtrãqʒ eaꝝ eẽ perpendicularẽ ad ſuperficiẽ.c.e.d.f.⁊ ambas ſcʒ.a.g.⁊.g.b.p̱.14.p̃mi componere lineaʒ vnã:diuiſum ẽ igiť p̃poſitũ corpus in piramidẽ.a.c.f.d.e.cuius baſis quadratũ.c e.d.f.quod eſt ſubduplũ quadrato diametri ſpere ⁊ etiã altitudo linee.a.g.que eſt ſemidiameter ſpere ⁊ in piramidẽ.b.c.f.d.e.cuius baſis eſt predictũ quadratum ⁊ eius altitudo linea.g.b.quod eſt ſemidiameter ſpere:⁊ hoc ẽ qđ oportebat oñdere
 
+[Curated heading level=2 type=propositions: Propoſitio .17.]
+
 ## Propoſitio .17.
 
 {dropcap:P|lines=5|style=decorated|decoration="foliate ornament on black ground"}Iramidẽ quatuor baſium triangulariũ atqʒ equilateraꝝ ſpera aliqua circũſcribente erit proportio tetragoni qui ſub linea potentialiter ſub ſexquitertia ad dodrantẽ lateris ipſius piramidis ⁊ ſub linea ſuper quinqʒꝑtiente viceſimasſeptimas eiuſdẽ dodrantis cõtinetur ad quadratum diametri ſpere ſicut corporis ipſius piramidis ad corpus octo baſiũ triangulariũ atqʒ equilateraꝝ que ambo eadem ſpera circũducantur

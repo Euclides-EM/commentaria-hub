@@ -16,6 +16,8 @@
 
 [Diagram: segments labelled a and d, above segments labelled b and e, above segments labelled c and f]
 
+[Curated heading level=2 type=propositions: Propoſitio .37.]
+
 ## Propoſitio .37.
 
 {dropcap:S|lines=6|style=decorated|decoration="foliate woodcut initial"}I numerus aliquis aliũ numerum numeret:erit in numerato pars a numerante denominata.
@@ -23,6 +25,8 @@
 ¶Huius ſenſus eſt ꝙ ois numer⁹ numerat⁹ a ternario habet tertiaʒ ⁊ numerat⁹ a quinario hʒ quintã.ſicqʒ de ceteris:vt ſi.b.numeret.a. erit in.a.ps denominata a.b.numeret eniʒ ipſũ quotiens vnitas in c.eritqʒ per.16.vt.c.quoqʒ totiens numeret.a.quotiens vnitas i.b.quare tota{printer-error-correction:quota} ps eſt.c.a.quotta vnitas.b.⁊ qꝛ vnitas eſt pars omnis numeri ab ipſo denominata per cõmunem ſciam:erit.c.pars.a.denominata a.b.quod eſt propoſitum.
 
 [Diagram: a segment labelled a, above segments labelled c and b, above a short unlabelled segment]
+
+[Curated heading level=2 type=propositions: Propoſitio .38.]
 
 ## Propoſitio .38.
 

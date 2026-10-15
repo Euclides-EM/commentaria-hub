@@ -2,6 +2,8 @@
 
 ea per que ꝓceſſit in quinto ipſa demonſtrare intendit:principia enim quinti propter maliciam quãtitatum incõicantium difficilia ſunt:principia vero numeroꝝ magis vltro ſe intellectui applicãt:faciliuſqʒ qʒ illa.Egent eni illa intellectu magis diſpoſito.
 
+[Curated heading level=2 type=propositions: Propoſitio .13.]
+
 ## Propoſitio .13.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quotlibet numeri ꝓportionales quantus erit vnus añs ad ſuũ ꝯſequẽtẽ:tanti erũt oẽs antecedẽtes pariter accepti ad oẽs cõſequẽtes pariter acceptos.
@@ -9,6 +11,8 @@ ea per que ꝓceſſit in quinto ipſa demonſtrare intendit:principia enim quin
 ¶Qꝺ ꝓponit euclides p.13.quinti de quantitatib⁹ i genere ꝓponit ꝑ hanc de numeris:vt ſi ſint.a.b.⁊.c.d.⁊.e.f.ꝓportionales dico ꝙ q̃ ẽ ꝓportio.a.ad.b.ea eſt q̃.a.c.e.pariter acceptoꝝ ad.b.d.f.pariter acceptos.Si enim.a.c.e.ſint minores.b.d.f.erit per cõuerſionẽ diffinitionis quota ps aut partes.a.b.tota vel tote.c.d.⁊.e.f.per.5.ergo vel per.6.quotiens oportuerit repetitas:erit quota pars vel partes.a.b.tota vel tote.a.c.e.pariter accepti.b.d.f.pariter acceptoꝝ:quare per diffinitionẽ ꝓportio vna.Si autem.a.c.e.ſint maiores b.d.f.erit per primam partem.11.quota pars vel partes.b.a.tota vel tote.d.c.⁊.f e.per.5.ergo vel.6.quotiens oportuerit repetitas:erit quota pars vel partes.b.a. tota vel tote.b.d.f.pariter accepti.a.c.e.pariter acceptorum.itaqʒ per ſcꝺam partem.11.proportio.a.ad.b.ſicut.a.c.e.pariter acceptorum ad.b.d.f.pariter acceptos:quod eſt propoſitum.
 
 [Diagram: three pairs of horizontal segments, labelled a over b, c over d and e over f]
+
+[Curated heading level=2 type=propositions: Propoſitio .14.]
 
 ## Propoſitio .14.
 
@@ -21,6 +25,8 @@ ea per que ꝓceſſit in quinto ipſa demonſtrare intendit:principia enim quin
 [Diagram: two pairs of horizontal segments, labelled a over b and c over d]
 
 [Diagram: two pairs of horizontal segments, labelled a over b and c over d]
+
+[Curated heading level=2 type=propositions: Propoſitio .15.]
 
 ## Propoſitio .15.
 

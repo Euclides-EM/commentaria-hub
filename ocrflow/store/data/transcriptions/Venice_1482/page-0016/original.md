@@ -1,5 +1,7 @@
 d.b.a.ꝑs toti:quod ẽ ipoſſibile:ſiłr lineã.c.b.ꝓtractã ꝓbabis angulũ d.b.a.eſſe eq̃lem angulo.f.b.a.ſi forte diceret aduerſari⁹lineã.c.b.ꝓtractã cadere ifra.b.d.
 
+[Curated heading level=2 type=propositions: Propoſitio. 15.]
+
 ## Propoſitio. 15.
 
 {dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnium duarũ linearum ſe inuicẽ ſecãtiũ:oẽs anguli cõtra ſe poſiti ſũt eq̃les:vnde manifeſtũ eſt ꝙ cũ due linee recte ſe iuicẽ ſecãt q̃tuoꝛ q̃ fiũt ãgulos q̃tuoꝛ rectis eẽ eq̃les
@@ -9,6 +11,8 @@ d.b.a.ꝑs toti:quod ẽ ipoſſibile:ſiłr lineã.c.b.ꝓtractã ꝓbabis angu
 [Margin]
 [Diagram: two lines a.b and c.d crossing at point e]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio 16]
 
 ## Propoſitio 16
 
@@ -24,6 +28,8 @@ d.b.a.ꝑs toti:quod ẽ ipoſſibile:ſiłr lineã.c.b.ꝓtractã ꝓbabis angu
 [unclear: g a c]
 [/Handwritten]
 
+[Curated heading level=2 type=propositions: Propoſitio .17.]
+
 ## Propoſitio .17.
 
 {dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis triãguli duo q̃libet ãguli duob⁹rectis ſũt mioꝛes.
@@ -34,6 +40,8 @@ d.b.a.ꝑs toti:quod ẽ ipoſſibile:ſiłr lineã.c.b.ꝓtractã ꝓbabis angu
 [Diagram: triangle with base d.c.b and apex a, side b.a extended to e]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .18.]
+
 ## Propoſitio .18.
 
 {dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis trianguli lõgius lat⁹maioꝛi angulo oppoſitũ eſt.
@@ -43,6 +51,8 @@ d.b.a.ꝑs toti:quod ẽ ipoſſibile:ſiłr lineã.c.b.ꝓtractã ꝓbabis angu
 [Margin]
 [Diagram: triangle b.c.a with apex c and a line from c to point d on the base]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio 19.]
 
 ## Propoſitio 19.
 

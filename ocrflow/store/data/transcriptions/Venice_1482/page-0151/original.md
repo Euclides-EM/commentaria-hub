@@ -6,7 +6,9 @@
 
 [Diagram: a rectilinear figure with e at the top left, points d, f and b along a horizontal line with a below at the left, and a separate horizontal segment labelled c and e beneath]
 
-## Pꝛopoſitio. .15.
+[Curated heading level=2 type=propositions: Propoſitio. .15.]
+
+## Propoſitio. .15.
 
 {dropcap:O|lines=4|style=decorated|decoration="white floral pattern on black ground"}Mnis ſuperficies rectãgula quã continent due linee ĩ lõgitudine rationales rõnalis eſſe pꝛobatur.
 
@@ -14,7 +16,9 @@
 
 [Diagram: a rectangle with a at the left and b and d along the base line, and a smaller rectangle below at the right labelled c]
 
-## Pꝛopoſitio. .16.
+[Curated heading level=2 type=propositions: Propoſitio. .16.]
+
+## Propoſitio. .16.
 
 {dropcap:C|lines=5|style=decorated|decoration="white floral pattern on black ground"}Vm adiuncta fuerit linee in longitudine vel cõicata rõnali ſupficies rõnalis rectãgula latus eius ſcd̃m erit in longitudine rõnale lateriqʒ pꝛimo ĩ longitudine cõmẽſurabile
 
@@ -22,7 +26,9 @@
 
 [Diagram: a square with d at the top right corner and a and b at the base, with a shallow rectangle below labelled c]
 
-## Pꝛopoſitio .17.
+[Curated heading level=2 type=propositions: Propoſitio .17.]
+
+## Propoſitio .17.
 
 {dropcap:D|lines=5|style=decorated|decoration="white floral pattern on black ground"}Vas lineas inuenire potentia tantum rõnales cõmenſurabiles quarum lõgioꝛ plus poſſit bꝛeuioꝛi quadrato linee ſibi cõmenſurabilis in longitudine.
 

@@ -4,11 +4,15 @@
 
 [Figure: parallelepiped with diagonals, labelled a, d, c and b]
 
+[Curated heading level=2 type=propositions: Propoſitio .29.]
+
 ## Propoſitio .29.
 
 {dropcap:C|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Uncta ſolida equidiſtantium ſuperficieꝝ eque alta atqʒ i eadẽ baſi ſup vnã lineã conſtituta probantur eſſe equalia.¶Veꝝ ẽ ꝙ ſolida equidiſtantiũ lateꝝ eque alta ſiue iter ſupficies eq̃diſtantes ſuper vnã ⁊ eãdẽ baſim cõſtituta ſunt adinuicẽ equalia ſicut de ſuperficiebus equidiſtantiũ lateꝝ ſuper vnã baſim ⁊ inter lineas equidiſtantes ꝯſtitutis ut in.35.primi demonſtratũ eſt.ſed talium ſolidoꝝ quedã dicunť conſtitui ſuper lineã vnã ⁊ ſunt illa quoꝝ ſuppremaꝝ ſupficieꝝ duo oppoſita latera ſunt ſm rectitudinẽ ꝓtracta linea vna:⁊ de talibus hec.29.proponit demonſtrandũ ipſa oĩa eſſe equalia adinuicem.ſunt aũt eoꝝ alia que nõ dicuntur cõſtituta ſuper lineã vnã ⁊ ſunt illa quoꝝ ſuppremaꝝ ſuperficieꝝ duo latera oppoſita quecũqʒ ſumanť ſm rectitudinẽ ꝓtracta nõ ſunt linea vna ⁊ de talibꝰ ſequens demonſtrandũ ꝓponet ipſa quoqʒ oĩa eẽ adinuicẽ equalia. Sint itaqʒ duo ſolida palellograma eque alta ſiue inter ſupficies equidiſtantes.a.b.⁊.a.c.cõſtituta ſup vnã baſim que ſit.a.d.quoꝝ ſuppreme ſupficies ſint.e.b.⁊.f.c.Sintqʒ haꝝ ſuppmaꝝ ſupficieꝝ duo latera oppoſita cũ ſcꝺm rectitudinẽ ꝓtrahanť linea vna ⁊ ipſa ſunt.e.f.⁊.b.c.dico itaqʒ ꝙ ſolida.a.b.⁊.a.c.ſunt equalia:hoc aũt ſi figurã eiꝰ ſm ꝙ oportet actu vel cogitatione fabricaueris ⁊ quẽadmodũ in.35.primi proceſſeris idem faciens hic de ſeratilibus qd ibi de triangulis facile cõcludere poteris occurruntqʒ tibi hic eedem diuerſitates in ſolidis que ibi in ſupficiebꝰ occurriſſe nouiſti
 
 [Figure: solid with square base and triangular top, labelled a, e, f, d, b and c]
+
+[Curated heading level=2 type=propositions: Propoſitio .30.]
 
 ## Propoſitio .30.
 

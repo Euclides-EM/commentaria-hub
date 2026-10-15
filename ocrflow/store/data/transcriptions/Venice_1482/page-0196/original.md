@@ -4,17 +4,23 @@
 
 [Figure: vertical lines from a to b and from c to d, joined by an arc between points e and f]
 
+[Curated heading level=2 type=propositions: Propoſitio .7.]
+
 ## Propoſitio .7.
 
 {dropcap:S|lines=4|style=decorated|decoration="white foliate ornament on black ground"}I in duabus lineis equidiſtantibus duob⁹ punctis ſignatis ab altero ad alterũ recta linea ducať:in qua ſuperficie ille due linee ſite ſunt eam quoqʒ in eandem ſitam eẽ neceſſario comprobatur.
 
 ¶Sint due linee.a.b.⁊.c.d.equidiſtantes de quibus conſtat per diffinitionem ꝙ ipſe ſunt in ſuperficie vna:in eis autem ſignentur duo puncta e.⁊.f.⁊ producatur linea recta.e.f.dico itaqʒ lineam.e.f.eſſe ſitam in ſuperficie linearum.a.b.⁊.c.d.Sin autem ſit.e.f.in alia ſuperficie vt in ſublimi dependens q̃ ſuperficies ſi protrahatur ſecabit neceſſario ſuperficiẽ in qua ſite ſunt due linee.a.b.⁊.c.d.eritqʒ per.3.huius cõmunis ſectio earum linea recta eiſdem punctis terminata quod eſt impoſſibile.ſic eni due recte linee cõcluderent ſuperficiem.
 
+[Curated heading level=2 type=propositions: Propoſitio .8.]
+
 ## Propoſitio .8.
 
 {dropcap:S|lines=4|style=decorated|decoration="white foliate ornament on black ground"}I in idem planũ due recte linee equidiſtanter erigantur altera vero earum orthogonaliter ſiſtat reliquam quoqʒ ad idem planum perpendicularem eſſe conueniet.
 
 ¶hec eſt quaſi conuerſa ſexte. Sint enim due linee.a.b.⁊.c.d.equidiſtantes et ſit earum altera vt.c.d. erecta perpendiculariter ſuper ſuperficiẽ quãlibet:dico reliquã earum que eſt.a.b.eſſe perpendicularem ad eandẽ ſuperficiem. Fiat enim prorſus eadem diſpoſitio que in ſexta:eritqʒ ut ibi vterqʒ duoꝝ anguloꝝ.f.d.b.⁊.f.b.e.rectus: primus quidem per poſitionem.ſecũdus autẽ per.8.primi:quare ꝑ.4.hui⁹ linea.f.b.ẽ ppendiculariter erecta ſuper ſupficiem i qua ſunt due linee.b.d.⁊.b.e.cũqʒ per premiſſã due linee.a.b.⁊.c.d.ſint in eadem ſuperficie cum duabus lineis.b.d.⁊.b.e.ſequitur lineã.f.b.eſſe ppẽdiculariter erectã ſupra ſuperficiẽ in qua eſt linea.b.a.a diffinitione igitur erit angulus.f.b.a.rectus ⁊ qꝛ etiam angulus.d.b.a.eſt rectus per vltimã partẽ.29.primi:ſequitur per quartam huius lineam.a.b.eſſe perpendicularem ad ſuperficiem in qua ſite ſunt due linee.b.d.⁊.b.f.quare conſtat propoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .9.]
 
 ## Propoſitio .9.
 

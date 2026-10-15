@@ -2,6 +2,8 @@
 
 erit ex ſecunda parte noni quinti ſolidum.k.equale ſolido.d.cumqʒ eſſet ſibi expreſſe ſimile ſequitur lineam.k.eſſe equalem linee.d.Equalitas enim non producitur ex aliqua proportione triplicata vel quotienſlibet ſumpta niſi ex equali:igiť ex ſcꝺa pte.7.quinti conſtat etiã h⁹mõi ps ſcꝺa.decipis aũt ſi arbitraris oportere vnũqꝺqʒ quatuor ſolidoꝝ.a.b.c.d.eẽ ſiľe cuilibet alioꝝ:neceſſe ẽ eni duo ſolida.a.⁊.b.ſibi adinuicem.itẽqʒ duo.c.⁊.d.ſibi adinuicẽ eẽ ſimilia:ſolida aũt.c.⁊.d.ſolidis.a.⁊.b.eſſe ſimilia contingens eſt:neceſſariũ autẽ nõ. Idẽ ex hac.39.de ſeratilib⁹ facile poteris concludere.
 
+[Curated heading level=2 type=propositions: Propoſitio .40.]
+
 ## Propoſitio .40.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I inſciſa fuerint latera duaꝝ oppoſitaꝝ ſupficierum cubi vnũquodqʒ in duo media:exierintqʒ a punctis ſectionum due ſupficies ſe viciſſim ſecantes ⁊ cubum cõem eaꝝ ſectionẽ diametrum cubi per equalia ſecare ⁊ ab ipſa diametro verſauice per equalia ſecare neceſſe eſt.

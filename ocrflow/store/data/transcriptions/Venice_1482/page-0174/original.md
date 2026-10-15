@@ -10,13 +10,17 @@
 
 [Figure: tall rectangle divided by a horizontal line, with g at the top right and f and e at the ends of the dividing line]
 
-## Pꝛopoſitio 63.
+[Curated heading level=2 type=propositions: Propoſitio 63.]
+
+## Propoſitio 63.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I qua linea linee potenti in rationale ⁊ mediale ꝯmunicet ipſa in rationale ⁊ mediale potens eſſe compꝛobatur.
 
 ¶Verũ quoqʒ eſt ꝙ qualitercũqʒ linea aliqua ſit cõicans potenti in rationale ⁊ mediale ſiue in longitudine ſiue in potentia tantum ipſa etiã eſt potens in rõnale ⁊ mediale:qꝺ ſicut pꝛius duplici modo pꝛobatur:neceſſe eſt autẽ quantũ ad pꝛimũ modũ vt ſicut due linee.c.⁊.d.ſint ĩ potentia incõmẽſurabiles.ita ſint etiã.e.⁊.f.ꝑ.10.Et quẽadmodũ.g.eſt ſuperficies rõnalis:nã tale ꝯtinent poꝛtiones linee potentis in rõnale ⁊ mediale.ita etiã per diffinitionẽ ſit.k.rõnalis ⁊ quẽadmodũ duo quadrata.m.⁊.h.pariter accepta ſũt mediale:ſicut etiã per.21.duo quadrata.n.⁊.l.ꝑiter accepta erunt mediale:igit̃ ex 34.b.ẽ potẽs ĩ rõnale ⁊ mediale.quãtũ aũt ad ſcꝺm modũ neceſſe ẽ ex.58.ut linea d.e.ſit binomiũ quintũ.iõ ⁊ ꝑ.60.linea.e.g.ẽ binomiũ quintũ:quare ꝑ.52.lat⁹ tetragonicũ ſupficiei.f.g.qꝺ eſt.b.erit linea potens in rõnale ⁊ mediale:quod ẽ ꝓpoſitum.
 
-## Pꝛopoſitio .64.
+[Curated heading level=2 type=propositions: Propoſitio .64.]
+
+## Propoſitio .64.
 
 {dropcap:O|lines=5|style=decorated|decoration="foliate initial on black ground"}Mnis linea cõmunicans potenti ĩ duo medialia:ipſa quoqʒ potens eſt in duo medialia.
 

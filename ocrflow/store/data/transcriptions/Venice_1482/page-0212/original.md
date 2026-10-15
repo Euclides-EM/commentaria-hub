@@ -4,6 +4,8 @@ quoqʒ a puncto.n.ducanť due alie perpendiculares vna ad lineã.d.e.q̃ ſit.n.
 
 [Figure: pyramidal construction with apex d and lines descending to points e, k, n and h, with interior points labelled r, l and x]
 
+[Curated heading level=2 type=propositions: Propoſitio .38.]
+
 ## Propoſitio .38.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Olidũ tribus lineis ꝓportionalibus cõtentum equũ erit ſolido qꝺ a medie linee equis lateribus contineť.ſi anguli ſui amborum ſibi inuicem equales fuerint.

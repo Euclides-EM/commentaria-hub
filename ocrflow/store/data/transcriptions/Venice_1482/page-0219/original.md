@@ -10,6 +10,8 @@ detrahantur ab eo duo ſeratilia que ex premiſſa ſunt maius medietate piramid
 
 [Figure: rounded solid with curved base labelled d]
 
+[Curated heading level=2 type=propositions: Propoſitio .6.]
+
 ## Propoſitio .6.
 
 {dropcap:O|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Mne corpus ſeratile in tres piramides equales baſeſqʒ triangulas habentes eſt diuiſibile. ¶Sit ſeratile.a.b.c.d.e.f.ipſũ dico eſſe diuiſibile in tres piramides triangulas equales ꝓtrahať eni in vnaquaqʒ ſuaꝝ triuʒ ſuperficierũ palellogramaꝝ linea diagonalis ita ꝙ vna eaꝝ diagonaliũ ſit cõterminalis reliquis duabus ut ſi ꝓtrahas lineas.b.d.b.f.⁊.f.a.quas ꝓpter cõfuſionẽ protrahere cõtempſi:eritqʒ totum ſeratile in tres triangulas piramides diuiſũ quas ex premiſſa bis aſſumpta facile cõſtat eẽ equales. Qm̃ aũt euclides nihil demonſtrandum proponit de piramidibus lateratis exceptis ſolidis his quaꝝ ſunt baſes triangule vt omniũ cognitionẽ ex elemẽtis q̃ ponit:ſufficienter elicere poſſimus:quedã arbitramur nõ inutile demõſtrationibus hic poſitis adiungere:ſolis eni elemẽtis contentus euclides multa p̃termiſit que quãuis ex eis conſequanť non tamen ſine difficultate patent ſtudentibus:hoꝝ primum eſt hec.

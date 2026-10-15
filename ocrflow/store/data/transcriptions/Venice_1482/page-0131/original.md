@@ -6,6 +6,8 @@
 
 [Diagram: segments labelled a and c above segments labelled b and d]
 
+[Curated heading level=2 type=propositions: Propoſitio .24.]
+
 ## Propoſitio .24.
 
 {dropcap:N|lines=5|style=decorated|decoration="white foliate initial on black ground"}Umerorum ſuperficialium ſimilium eſt proportio vnius ad alterum ſicut proportio quadrati ad quadratum.
@@ -13,6 +15,8 @@
 ¶Sint.a.⁊.b.ſuperficiales ſimiles.dico ꝙ vnus ad alterũ eſt ꝓportio ſicut quadrati ad quadratũ:erit enī per.16.inter eos vnus numerus medius in continua proportione qui ſit.c.ſumptis itaqʒ tribus minimis in ꝓportione eorũ:qui ſunt.d.e.f.erunt per correl'.2.d.⁊.f.quadrati:et qꝛ ꝑ equã proportionalitatẽ eſt.a.ad.b.ſicut.d.ad.f.cõſtat veꝝ eſſe qd̃ ꝓponitur.
 
 [Diagram: segments labelled a and d, c and e, and b and f]
+
+[Curated heading level=2 type=propositions: Propoſitio .25.]
 
 ## Propoſitio .25.
 
@@ -24,7 +28,17 @@
 
 Explicit liber Octauus Incipit liber Nonus.
 
+[Curated heading level=1 type=definitions: LIBER IX]
+
+[Curated heading level=2 type=definitions: Par numerus eſt qui poteſt in duo equalia diuidi]
+
+[Curated heading level=1: LIBER IX]
+
 {dropcap:P|lines=9|style=decorated|decoration="large white foliate initial on black ground"}Ar numerus eſt qui poteſt in duo equalia diuidi.¶Impar numerus ẽ qui ĩ duo equalia diuidi nõ põt:additqʒ ſupra parẽ vnitatẽ ¶Pariter par ẽ quẽ cũcti pares eũ numerantes paribus vicibus numerant:¶Pariter ĩpar eſt quẽ cuncti pares eũ numerãtes ĩparibꝰ vicibꝰ numerãt.¶Pariter par ⁊ ĩpariter ẽ quẽ pares eũ numerãtes quidã paribꝰ quidã im paribꝰ vicibꝰ numerãt.¶Impariter ĩpar quẽ cũcti ĩpares eũ numerantes imparibus vicibus numerãt.¶Perfectus numerus appellat̃ qui oĩbus ꝑtibꝰ ſuis quibꝰ numerat̃ ẽ equalis.¶Habundans dicitur qui oĩbus ſuis ꝑtibus minoꝛ eſt.¶Diminutus vero qui maioꝛ.
+
+[Curated heading level=1 type=propositions: LIBER IX]
+
+[Curated heading level=2 type=propositions: Propoſitio. .1.]
 
 ## Propoſitio. .1.
 

@@ -12,7 +12,9 @@
 
 [Diagram: horizontal line with points labelled a, c, d, e and b]
 
-## Pꝛopoſitio .36.
+[Curated heading level=2 type=propositions: Propoſitio .36.]
+
+## Propoſitio .36.
 
 {dropcap:I|lines=5|style=decorated|decoration="foliate initial on black ground"}N alias duas lineas ſub earum termino ex quibus cõiunctum ⁊ nominatum eſt binomium diuidi impoſſibile eſt.
 

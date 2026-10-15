@@ -1,5 +1,7 @@
 <!-- Running title: XI -->
 
+[Curated heading level=2 type=propositions: Propoſitio .10.]
+
 ## Propoſitio .10.
 
 {dropcap:S|lines=4|style=decorated|decoration="white foliate ornament on black ground"}I due linee ſe angulariter contingentes duabus alijs ſe cõtingentibus eis oppoſitis equidiſtantes fuerint:nõ aũt in ſuperficie vna qui ab eis fiunt duo anguli eque ſibi inuicem eſſe comprobantur.
@@ -7,6 +9,8 @@
 ¶Sint due linee.a.b.⁊.a.c.ſe angulariter contingentes in puncto.a equidiſtantes alijs duabus que ſunt.d.e.⁊.d.f.ſe quoqʒ angulariter contingentibus in puncto.d.nec ſint cum eis i ſuperficie vna:dico angulũ.a.eſſe equalẽ angulo.d.Eſto eni linea.d.e.equalis linee.a.b.cui ipſa poſita eſt eſſe equidiſtans.⁊.d.f.equalis.a.c.cui etiã ipſa equidiſtare poniť ⁊ ducanť linee.d.a.⁊.e.b.⁊.f.c.eritqʒ ex.33.primi bis aſſumpta vtraqʒ duaꝝ lineaꝝ.b.e.⁊.c.f.equalis ⁊ equidiſtans linee.a.d.per conceptionẽ igitur ⁊ premiſſam eedẽ ſunt equales ⁊ equidiſtantes ſibi inuicem.⁊ itaqʒ per.33.primi denuo repetitã due linee.b.c.⁊.e.f.ſunt etiã equales ⁊ equidiſtãtes:igiť per.8.primi cõſtat ꝓpoſitũ.
 
 [Figure: triangle with apex a above points c, d and b, with lines descending from c, d and b to points f and e below]
+
+[Curated heading level=2 type=propositions: Propoſitio .11.]
 
 ## Propoſitio .11.
 
@@ -16,9 +20,13 @@
 
 [Figure: horizontal line b d c at bottom, vertical line from d to e, horizontal line g f, and oblique lines from a to f and from a to d]
 
+[Curated heading level=2 type=propositions: Propoſitio .12.]
+
 ## Propoſitio .12.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Uperficie ꝓpoſita punctoqʒ in ea aſſignato ab eo puncto ad datam ſupficiẽ lineã orthogonaliter erigere.¶Cũ a puncto quolibet in ſuperficie ꝓpoſita aſſignato ppendicularem educere libuerit a quolibet puncto ſurſum in aere ad libitum poſito ad eandẽ ſupficiẽ ppẽdicl'arẽ quẽadmodũ p̃miſſa docuit demittere que ſi i aſſignatũ punctũ ceciderit ipſa ẽ quã queris. Sin aũt ab ipſa aſſignato pũcto ad demiſſã perpendicularẽ equidiſtantem ducito:eã qʒ per.8.huius probabis eẽ quam queris.
+
+[Curated heading level=2 type=propositions: Propoſitio .13.]
 
 ## Propoſitio .13.
 

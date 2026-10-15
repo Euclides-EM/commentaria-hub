@@ -1,18 +1,24 @@
 <!-- Running title: LIBER -->
 
-## Pꝛopoſitio .77.
+[Curated heading level=2 type=propositions: Propoſitio .77.]
+
+## Propoſitio .77.
 
 {dropcap:N|lines=5|style=decorated|decoration="foliate initial on black ground"}Ulla linea minoꝛi cõiungibilis eſt vt ſub termino ſuo fiãt niſi tãtũ que ante ſibi abſciſionẽ coniungebatur.
 
 ¶Intellige quid ſit linea minoꝛ:qꝙ ſi oblitus es cõſule.21.⁊ ſine obiectione ꝯcludes ꝓpoſitũ.Si quẽadmodũ ĩ.74.ꝓceſſeris:poteriſqʒ ſi libuerit quẽadmodũ ĩ.76.ꝓcedere.
 
-## Pꝛopoſitio .78.
+[Curated heading level=2 type=propositions: Propoſitio .78.]
+
+## Propoſitio .78.
 
 {dropcap:L|lines=5|style=decorated|decoration="foliate initial on black ground"}Inea que coniuncta cum rationali facit totum mediale niſi vni tantũ componi nõ poteſt vt ſub eaꝝ termino fiant.
 
 ¶Quid ſit linea que pꝛoponitur ex.72.didiciſti.cum ergo de ea volueris quod per hanc.78.dicitur demonſtrare a ꝓceſſu.75.in quoqʒ nõ deuias.ſed ſicut ĩ.76.ſi te delectauerit ĩgeĩo duce poteris ꝓcedere
 
-## Pꝛopoſitio .79.
+[Curated heading level=2 type=propositions: Propoſitio .79.]
+
+## Propoſitio .79.
 
 {dropcap:L|lines=5|style=decorated|decoration="foliate initial on black ground"}Inee que iuncta cũ mediali facit totum mediale niſi vna linea tantum iungi nequit vt ſub earum termino fiant que erant ante ſeparationem.¶Huius linee que iuncta cuʒ mediali cõponit totũ mediale mgr̃a ẽ.73.de q̃ qꝙ hec.79.enũciat ſic ꝯcludere cogeris ſicut de reſiduo mediali ſcꝺo qꝙ ꝑ.76.enunciatũ eſt ꝯcluſiſti.
 
@@ -22,12 +28,16 @@
 
 [Figure: horizontal line segments labelled a and e, a divided line with points f and g and the numerals 5, 9 and 4, and a line segment with points c, d and b]
 
-## Pꝛopoſitio .80.
+[Curated heading level=2 type=propositions: Propoſitio .80.]
+
+## Propoſitio .80.
 
 {dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduũ pꝛimũ inueſtigare.¶Ab inuentione omniuʒ ſpecierũ reſidui facile nos abſoluat inuentio ꝑ ordinẽ omniũ ſpecieꝝ binomij Nam ĩ qualibet ſpecie bĩomioꝝ ſi minoꝛ portio abſcindat̃ de maioꝛi linea reliqua erit reſiduũ ſilis ſpẽi vt pʒ ex diffinitionib⁹ tam binomiorũ q̃ʒ reſiduoꝝ:ꝓprijs tñ inuentionibus reſiduoꝝ ĩſiſtentes ſic inquiram⁹ pꝛimũ.Sit linea.a.rõnalis poſita cui cõmeſurabilis ĩ lõgitudie.ſumat̃.b.c.ſitqʒ.e.numer⁹ quadratus diuiſus in.f.non quadratum.⁊ in quadratum.g.ſitqʒ ꝓportio q̃drati linee.b.c.ad q̃dratũ linee.c.d.ſicut.e.ad.f.eritqʒ ꝑ vltimã partẽ.c.d.rõnalis ĩ potẽtia tm̃.cũ itaqʒ ſit.c.b.potẽtioꝛ.c.d.ĩ q̃drato linee ſibi cõicãtis ĩ lõgitudine qꝙ pʒ ſicut ĩ explanatiõe binomij p̃mi ꝯſtat ex diffĩtiõe lineã.b.d.eẽ reſiduũ pꝛimũ.
 
 [Figure: horizontal line segment labelled a, a divided line with points f, e and g and the numeral 9, and a line with the letter h and the numerals 5, 4 and 7]
 
-## Pꝛopoſitio .81.
+[Curated heading level=2 type=propositions: Propoſitio .81.]
+
+## Propoſitio .81.
 
 {dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduũ ſcꝺm patefacere.¶Ad hñdũ reſiduũ ſcꝺm ſit.a.lĩea rõnalis poſita:eiqʒ cõicãs in lõgitudie.c.d.⁊ ſit q̃dratũ.c.d ad q̃dratũ b.c.ſicut.f.ad.e.eritqʒ.b.d.reſiduũ ſcꝺm ex dĩone:ſi dubitas aut poſitas nõ ſeruas ypotheſes aut binomij ſecũdi repetitione indiges.

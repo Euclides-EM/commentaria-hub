@@ -2,6 +2,8 @@
 
 totiens poteſt fieri quotiens continetur.b.in.a.ſequitur ut numerus equalis aggregato ex.b.⁊.d.totiens cõtineat̃ in aggregato ex.a.⁊.c.quotiens.b.continetur in.a.quare conſtat propoſitũ.
 
+[Curated heading level=2 type=propositions: Propoſitio .6.]
+
 ## Propoſitio .6.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quatuor numeri quorum primus tote ptes ſcꝺi quote tertius quarti:erunt primus ⁊ tertius pariter accepti tote partes ſecundi ⁊ quarti pariter acceptorum. quote primus ſecundi.
@@ -11,6 +13,8 @@ totiens poteſt fieri quotiens continetur.b.in.a.ſequitur ut numerus equalis ag
 [Diagram: paired horizontal segments labelled a and c, b and d, and e and f, with a segment labelled g and a longer segment labelled h, f, e and k beneath]
 
 ¶Potes autẽ ⁊ per hanc ⁊ premiſſã qꝺ ꝓponit de quatuor numeris ad quotlibet numeros ampliare:ꝙ ſi quotlibet numeri minores ad totidem maiores cõparent̃ fueritqʒ ſingule ſinguloꝝ tota pars aut partes:quota vel quote primus ſcꝺi:erunt quoqʒ omnes pariter accepti tota pars aut ptes omnium pariter acceptoꝝ quota vel quote primus ſcꝺi.qꝺ facile probatur ꝑ hanc ⁊ premiſſam:quotiens oportuerit repetitas. Et ſi crederemus eſſe intentionẽ euclidis aſſumere ex prius demonſtratis aliqua ad demonſtrationẽ eoꝝ:que hic proponit ex.13.quinti:facile demõſtraſſemꝰ hanc ſextam. Nunc autem qꝛ videt̃ oppoſitũ aliter eni ſuperuacue propoſuiſſet multa de numeris que demonſtrata ſunt in quinto de quantitatibus in genere. Neceſſe habuimus proprijs vti demonſtrationibus tanquã ex prioribus nihil ſumentes:ſolis huius ſeptimi contenti principijs:propter qꝺ ⁊ petitiones ⁊ cões animi cõceptiones ꝓpoſiti proprias nõ incõuenienter huius ſeptimi principio appoſuimus.
+
+[Curated heading level=2 type=propositions: Propoſitio .7.]
 
 ## Propoſitio .7.
 

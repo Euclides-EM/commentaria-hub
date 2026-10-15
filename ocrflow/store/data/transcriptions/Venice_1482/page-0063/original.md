@@ -2,6 +2,12 @@
 
 cordas ſubtractas ſingulis arcubus ⁊ habebo intentum. ¶ Explicit liber quartus incipit liber quintus.
 
+[Curated heading level=1 type=definitions: LIBER V]
+
+[Curated heading level=2 type=definitions: Diffinitio .1.]
+
+[Curated heading level=1: LIBER V]
+
 ## Diffinitio .1.
 
 {dropcap:P|lines=9|style=decorated|decoration="foliate white-on-black woodcut initial"}Ars eſt quantitas quantitatis minor maioris cum minor maiorem numeret.
@@ -13,11 +19,15 @@ pars multiplicatiua
 pars aggregatiua
 [/Handwritten]
 
+[Curated heading level=2 type=definitions: Diffinitio .2.]
+
 ## Diffinitio .2.
 
 {dropcap:M|lines=5|style=decorated|decoration="foliate white-on-black woodcut initial"}Vltiplex eſt maior minoris quando eaʒ minor metitur.
 
 ¶Pars relatiue dicitur ad totuʒ:⁊ in iſtis duobus extremis conſiſtit eoruʒ adinuicẽ relatio:⁊ ideo diffinito minori extremo diffinit hic maius:vocat auteʒ ipſum multiplex propter hoc ꝙ minus ipſũ aliquotiens ſumptuʒ conſtituat:erunt igitur relatiue dicta adinuicẽ:pars ⁊ multiplex. Nã omnis pars ſubmultiplex:vt patet per eius diffinitionẽ.
+
+[Curated heading level=2 type=definitions: Diffinitio .3.]
 
 ## Diffinitio .3.
 

@@ -8,6 +8,8 @@ b.⁊ pono per.9.huius lineam.ſ.t.proportionalẽ inter lineam.h.k.⁊ lineã.k
 
 [Diagram: hexagon divided into triangles e, h, f and g, labelled B]
 
+[Curated heading level=2 type=propositions: Propoſitio .26.]
+
 ## Propoſitio .26.
 
 {dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}Uper dimidiũ date linee palellogramũ deſignatum maius ẽ eo palellogramo cui date linee applicato deeſt ad cõpletionẽ linee ſile ⁊ ſup diametruʒ conſiſtens ſuper dimidium collocati.
@@ -17,6 +19,8 @@ b.⁊ pono per.9.huius lineam.ſ.t.proportionalẽ inter lineam.h.k.⁊ lineã.k
 [Diagram: rectangle on base a.c.b with e and d above, g and f within, and a diagonal from b through f to e]
 
 [Diagram: rectangle on base a.c.b with f and g at the top, e within, d at the right, and a diagonal drawn from f to the lower right corner]
+
+[Curated heading level=2 type=propositions: Propoſitio .27.]
 
 ## Propoſitio .27.
 

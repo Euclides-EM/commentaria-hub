@@ -6,6 +6,8 @@ piramidũ piter accepta ad cũcta ſeratilia q̃ ĩ altera piramide fuerit in ea
 
 [Figure: inverted triangular pyramid with top vertices f, n and h, center point e, midpoints p and q, and bottom vertex g]
 
+[Curated heading level=2 type=propositions: Propoſitio .5.]
+
 ## Propoſitio .5.
 
 {dropcap:O|lines=3|style=decorated|decoration="white foliate ornament on black ground"}Mnes due piramides eque alte quarum baſes triangule ſuis baſibus ſint proportionales. ¶Qꝺ.33.vndecimi ꝓpoſuit de ſolidis palellogramis ⁊ ĩ fine.36.vndecimi veꝝ eſſe demonſtrauimus:de ſeratilibus.hec quinta.12.ꝓponit de piramidibus triangulis. Intelligãtur eni due piramides eque alte quaꝝ baſes ſunt duo trigoni.a.⁊.b.dico ꝙ ꝓportio piramidis.a.ad piramidem.b.eſt ſicut baſis.a.ad baſim.b.qꝺ eedem demõſtrationis vel argumẽtatiõis genere demõſtrandũ ẽ quo ſcꝺam hui⁹ demõſtrauimus.ſit eni ut baſis.a.ad baſim.b.ita piramis.a.ad corpus.c.de quo dico ꝙ ipſũ nõ erit minus neqʒ maius piramide.b.nã ſi poſſibile ẽ vt ſit min⁹ eſto min⁹ ĩ ſolido.d.vt piramis.b.ſit eq̃lis duobus corporibus.c.⁊.d.pariter acceptis diuiſa itaqʒ piramide.b.vt ꝓponit.3.

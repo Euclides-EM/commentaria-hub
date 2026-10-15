@@ -1,10 +1,16 @@
 <!-- Running title: LIBER -->
 
+[Curated heading level=2 type=propositions: Propoſitio .72.]
+
+## Propoſitio .72.
+
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linea de linea demat̃ fuerintqʒ ambe potentialiter icõmenſurabiles ſupficiemqʒ rõnalẽ cõtinentes quadrataqʒ earum ambo pariter accepta mediale:linea reliqua erit irratiõalis diceturqʒ iũcta cũ rõnali cõponẽs totũ mediale
 
 ¶Et hoc quoqʒ neſcire nõ põt qui pꝛioꝛa nouerit niſi a memoꝛia exciderint:qm̃ poſitis lineis.a.b.⁊.b.c.de qualibet ꝓponit̃ que ⁊ p.28.reperiunt̃ lineã potẽtẽ in rõnale ⁊ mediale cõponunt:ſit.a.c.reliqua irrõnalis ipſa dicit̃ que iuncta cũ rõnali cõponit totũ mediale.
 
-## Pꝛopoſitio. 73.
+[Curated heading level=2 type=propositions: Propoſitio. 73.]
+
+## Propoſitio. 73.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linea a linea detrahat̃ fuerintqʒ ambe potentialiter incõmenſurabiles ſupficiẽqʒ medialẽ continentes quadrataqʒ eaꝝ ambo piter accepta mediale duplo ſuperficiei alterius in alteram incõmenſurabile:reliqua linea erit irrationalis diceturqʒ iuncta cũ mediali faciẽs totũ mediale:
 
@@ -16,7 +22,9 @@
 
 ¶Si fuerint quatuoꝛ quantitates differẽtia pꝛime quaꝝ ad ſcꝺam ſit ſicut tertie ad quartam:erit permutatim differentia pꝛime ad tertiam ſicut ſecunde.ad quartã.¶Intelligendũ eſt hoc de quantitatibus eodẽ modo relatis vt cũ pꝛima maioꝛ fuerit ſecunda ſic quoqʒ tertia maioꝛ quarta cũ vero minoꝛ ⁊ minoꝛ.Exẽpli grã ſit dꝛia.a.ad.b.ſicut.c.ad.d.dico ꝙ erit.a.ad.c.ſic.b.ad.d.ẽ enĩ ꝑ hãc cõem aĩ ꝯceptionẽ dꝛia extremoꝝ cõpoſita ex differentijs ipſoꝝ ad media dꝛia.a.ad.c.ꝯpoſita ẽ ex ea que ẽ.a.ad.b.⁊ ea que eſt.b.ad.c. at ea que eſt b.ad.d.ꝑ eandẽ ꝯceptionẽ ꝯponit̃ ex ea que ẽ.b.ad.c.⁊ ea que ẽ.c.ad.d.⁊ quia ex ypotheſi ẽ dꝛia.a.ad.b.ſicut.c.ad.d.ea vero que eſt.b.ad.c.eſt cõis ſequit̃ ꝑ cõem ſciam vt ſit.a.ad.c.ſicut.b.ad.d.qꝺ ẽ ꝓpoſitũ.
 
-## Pꝛopoſitio .74.
+[Curated heading level=2 type=propositions: Propoſitio .74.]
+
+## Propoſitio .74.
 
 {dropcap:N|lines=4|style=decorated|decoration="foliate initial on black ground"}Ulla linea niſi vna tantũ reſiduo coniungi poteſt vt ſint ambe ſub termino earum que erunt ante ſeparationem
 

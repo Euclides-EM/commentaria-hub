@@ -8,6 +8,8 @@ e.a.b.eſt equalis angulo ſemicirculi predicto:angulus aũt ſemicirculi ẽ am
 
 {dropcap:P|lines=2|style=plain}Oſſet probari quod angulus contingentie eſt diuiſibilis ſcõm lineã rectã vt cõſtat per figurationẽ hic a latere poſitam. Certum ẽ ꝙ angulus qui cauſaꝛ ex cõtactu duoꝝ circuloꝝ vel ſpaꝝ ẽ angulus contingentie ⁊ talis diuidaꝛ per lineã.e.g: qꝛ hic habeꝛ triangulus.b.g.k.cuius baſis.b.k.diuidatur per equalia in puncto.e.⁊ protrahaꝛ verſus.g.contactum ⁊ arguitur per.4.primi.deinde ꝑ.26.huius ⁊ patet ꝓpoſitum.
 
+[Curated heading level=2 type=propositions: Propoſitio .16.]
+
 ## Propoſitio .16.
 
 [Margin]
@@ -15,6 +17,8 @@ e.a.b.eſt equalis angulo ſemicirculi predicto:angulus aũt ſemicirculi ẽ am
 [/Margin]
 
 {dropcap:A|lines=5|style=decorated|decoration="white foliate ornament on black ground"} Dato puncto ad datum circulũ lineã cõtingentẽ ducere:¶Sit circulus datus.a.b.cui⁹centꝝ.c.punctuſqʒ datur.d.volo ergo a puncto.d.ducere lineã ꝯtingentẽ circulũ.a.b.ꝓduco lineã.d.c.ſecanteʒ circũferentiã circuli.a.b.in puncto.a.ſup quã deſcribo circulum.d.e.ſecũdũ quãtitatẽ linee.d.c.concẽtricũ circulo.a.b.⁊ a pũcto a.produco lineam.a.e.ꝑpendiculareʒ ad lineã.d.c.que ſecet circũferentiã circuli.d e.in puncto.e.⁊ ꝓduco lineã.e.c.ſecantẽ circũferẽtiã circuli.a.b.in puncto.b.deinde produco lineã.d.b.que erit cõtingens circulum.a.b.qꝛ eni duo latera.a.c. et c.e.trianguli.a.c.e.ſunt equalia duobus laterib⁹.b.c.⁊.c.d.trianguli.b.c.d.⁊ angulus.c.ẽ cõis vtriqʒ erit ꝑ.4.primi angulus.e.a.c.equalis angulo.d.b.c. angulus autem.e.a.c.eſt rectus quare angulus.d.b.c.eſt rectus:ꝑ correlarium ergo precedentis erit linea.d.b.contingens circulum.a.b.quod eſt propoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .17.]
 
 ## Propoſitio .17.
 

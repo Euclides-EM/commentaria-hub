@@ -2,6 +2,8 @@
 
 c.f.equidiſtans.b.e.ſecans diametrum in puncto.g.⁊ ducatur.k.g.h.equidiſtãs a.b.⁊ quia quadratum.a.e.cum quadrato.c.[unclear: k].tm̃ ſunt quãtum quadratum [unclear: h].f. cum duabus ſuperficiebus.a.[unclear: k].et.c.e.patet propoſitum
 
+[Curated heading level=2 type=propositions: Propoſitio .8.]
+
 ## Propoſitio .8.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I linea in duas partes diuidatur:eiqʒ in longum equalis vni diuidentium adiungatur:ꝙ ex ductu totius iam cõpoſite in ſeipſaʒ fiet.equum erit his que ex ductu prioris linee in eam adiectam quater.⁊ ei ꝙ ex ductu alterius diuidentis in ſeipſam.
@@ -11,6 +13,8 @@ c.f.equidiſtans.b.e.ſecans diametrum in puncto.g.⁊ ducatur.k.g.h.equidiſtã
 [Margin]
 [Diagram: square with top corners e and f, points g and h on the top side, a diagonal from e to the bottom corner d, vertical lines from g and h, horizontal lines r–p and o–m crossing them at points k, q, n and l, and bottom points a, c, b and d]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .9.]
 
 ## Propoſitio .9.
 

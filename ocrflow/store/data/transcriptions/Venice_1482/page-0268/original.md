@@ -2,11 +2,15 @@
 
 laris.a.d.ab angulo.a.ad baſim:eritqʒ ex premiſſa et ex.6.decimi ⁊ dĩone ſuperficiei rõnalis quadratũ linee.a.d.rõnale ⁊ linea.a.d.rõnalis in potentia:ipſa autẽ ex vltima parte..decimi mediante premiſſa erit incõmenſurabilis linee.a.b.ideoqʒ ⁊ linea.b.d.que eſt tanqʒ eius dimidiũ.ſunt itaqʒ due linee.a.d.⁊.b.d.rõnales potentialiter tantũ cõicantes.igiť ex.19.decimi ſupficies vnius eaꝝ in alteram eſt medialis.cunqʒ ſuperficies vnius earum in alterã ſit equalis trigono.a.b.c. ꝯſtat verũ eſſe quod diximus.
 
+[Curated heading level=2 type=propositions: Propoſitio .13.]
+
 ## Propoſitio .13.
 
 {dropcap:C|lines=5|style=decorated|decoration="foliate ornament on black ground"}Uncte ſupficies vtriuſlibet duoꝝ ſolidoꝝ quoꝛuʒ alterũ eſt piramis quatuor baſium triangularium ⁊ equilateraꝝ reliquum vero eſt corpus octo baſium triangularium et equilateraꝝ pariter accepte:ſi diameter ſpere ea circumſcribentis rõnalis fuerit componũt ſuperficiẽ medialem.
 
 ¶Nam ſi diameter ſpere alteꝝ duoꝝ propoſitoꝝ corporum circũſcribentis fuerit rõnalis ſiue in longitudine ſiue in potentia tm̃:erit ex correlario.13.tredecimi libri latus piramidis rõnale in potentia ⁊ ex correlario.15.eiuſdem latus quoqʒ corporis octo baſium rõnale in potentia.quare per premiſſam trianguli qui ſunt baſes vtriuſlibʒ corpis erũt ſupficies mediales.⁊ qꝛ trianguli vtriuſlibʒ coꝝ ſibi adinuicẽ ſunt equales:erunt ex.21.decimi omnes ſupficies vtriuſlibʒ coꝝ pariter accepte cõponentes ſuperficiẽ medialem queadmodũ ꝓponitur.⁊c.
+
+[Curated heading level=2 type=propositions: Propoſitio .14.]
 
 ## Propoſitio .14.
 

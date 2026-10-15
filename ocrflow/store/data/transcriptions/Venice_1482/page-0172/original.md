@@ -2,15 +2,21 @@
 
 linee ſibi incõmenſurabilis:ex diffinitione igitur ẽ linea.f.g.binomium quartum: quod erat pꝛopoſitum.
 
-## Pꝛopoſitio 58.
+[Curated heading level=2 type=propositions: Propoſitio 58.]
 
-{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linee rõnali quadrato linee potentis ſupꝛa rõnale erit mediale equalis:parte altera longioꝛ foꝛma adiungatur alterum latus eius binomium quintum eſſe neceſſe eſt. ¶Pꝛopoſita linea.a.b.ea que põt ſupꝛa mediale ⁊ rõnale diuiſa ſm eius diffinitionẽ ad punctũ.c.nihil imutet de reliquis.ſequit̃qʒ lineã f.g.eſſe binomium quintũ Cũ enim ptes huiꝰ linee.a.b.contineãt rõnalẽ ſuperficiẽ neceſſe eſt vt ſuperficies.g.m.ideoqʒ ꝑ.16.linea.n.g. ſit rationalis. Cumqʒ ambo quadrata partium huius linee piter accepta ſint mediale erit ſuperficies.e.n.medialis ⁊ per.20.linea.f.n.rõnalis in potentia tm̃.at qꝛ poꝛtiones predicte linee ſũt incõmenſurabiles in potentia:erit ſuperficies.e.l.incõmenſurabilis ſuperficiei.m.l.ideoqʒ ⁊ linea.f.l.linee.l.n.potentioꝛ igit̃ ẽ per pꝛimã ptẽ.14.linea.f.n.linea.n.g in quadrato linee ſibi incõmenſurabilis:per diffinitionẽ itaqʒ binomij quinti conclude pꝛopoſitum.
+## Propoſitio 58.
 
-## Pꝛopoſitio .59.
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linee rõnali quadrato linee potentis ſupꝛa rõnale erit mediale equalis:parte altera longioꝛ foꝛma adiungatur alterum latus eius binomium quintum eſſe neceſſe eſt. ¶Propoſita linea.a.b.ea que põt ſupꝛa mediale ⁊ rõnale diuiſa ſm eius diffinitionẽ ad punctũ.c.nihil imutet de reliquis.ſequit̃qʒ lineã f.g.eſſe binomium quintũ Cũ enim ptes huiꝰ linee.a.b.contineãt rõnalẽ ſuperficiẽ neceſſe eſt vt ſuperficies.g.m.ideoqʒ ꝑ.16.linea.n.g. ſit rationalis. Cumqʒ ambo quadrata partium huius linee piter accepta ſint mediale erit ſuperficies.e.n.medialis ⁊ per.20.linea.f.n.rõnalis in potentia tm̃.at qꝛ poꝛtiones predicte linee ſũt incõmenſurabiles in potentia:erit ſuperficies.e.l.incõmenſurabilis ſuperficiei.m.l.ideoqʒ ⁊ linea.f.l.linee.l.n.potentioꝛ igit̃ ẽ per pꝛimã ptẽ.14.linea.f.n.linea.n.g in quadrato linee ſibi incõmenſurabilis:per diffinitionẽ itaqʒ binomij quinti conclude pꝛopoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .59.]
+
+## Propoſitio .59.
 
 {dropcap:Q|lines=5|style=decorated|decoration="foliate initial on black ground"}Votiens adiuncta fuerit linee rõnali ſupficies rectangula equalis quadrato linee potentis in duo medialia eiuſdem ſuperficiei latus ſcꝺm binomiũ ſextum eſſe conuicitur. ¶In hac.59.ſit linea.a.b.linea potens ſupꝛa duo medialia:que aũt pꝛeter hec ſunt ſicut ſupꝛa maneant ⁊ erit tunc linea.f.g.binomium ſextũ qꝺ ignoꝛare nõ poteris ſi pꝛemiſſoꝝ eiuſqʒ qꝺ.35.ꝓponit imemoꝛ nõ fueris: ⁊ ſic pʒ in hac noſtra intentio.
 
-## Pꝛopoſitio .60.
+[Curated heading level=2 type=propositions: Propoſitio .60.]
+
+## Propoſitio .60.
 
 {dropcap:O|lines=5|style=decorated|decoration="foliate initial on black ground"}Mnis linea cuiuſlibet binomioꝛum cõmunicans ſub eadem ſpecie binomium eſſe pꝛobatur.
 

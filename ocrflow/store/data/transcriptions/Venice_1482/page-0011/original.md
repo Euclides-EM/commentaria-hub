@@ -4,6 +4,8 @@ rurſus alterã eius extremitatem.ſ.punctũ b.faciam centrũ: ⁊ per eandem pe
 [Diagram: two pairs of intersecting circles with points f, a, h and b on a horizontal line, g and k above, l between them, and c and e below, with lines drawn from a and b to g, k and l]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio. 2]
+
 ## Propoſitio. 2
 
 {dropcap:A|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Dato puncto cuilibet linee recte ꝓpoſite equam rectam lineam ducere. ¶ Sit.a.punctus datus ⁊.b.c.linea data volo a puncto.a.ducere lineã vnã equalem linee.b.c.in quãcũqʒ ptem contingat: cõiungam ergo punctũ.a.cum altera extremitate linee.b.c.cum qua voluero.⁊ coniũgã ipſũ.a.cũ extremitate.c.per lineã.a.c.ſuper quã conſtituã triangulũ eq̃laterũ ſm̃ doctrinã p̃cedentis qui ſit.a.c.d.⁊ in illa extremitate linee date cum qua coniunxi punctũ datũ.ſ.in extremitate.c.ponã pedẽ circini imobilẽ ⁊ deſcribã ſuper ipſum circulũ ſm̃ quantitatẽ ipſius date linee q̃ ſit circul⁹.e.b.⁊ latus triãguli

@@ -2,6 +2,8 @@
 
 ſed ⁊ vnitas eſt pars.c.denominata ab ipſo ꝑ cõcep.ſequitur ut quotiens vnitas numerat.c.totiens.b.numerat.a.itaqʒ per.16.quotiens vnitas.b.totiens.c.numerat.a.q̃re cõſtat ꝓpoſitũ.¶Aliter idẽ:cũ ſit.b.pars.a.ſi tota vnitas.c.eritqʒ per hanc cõmunem ſciam vnitatem eſſe partem omnis numeri ab ipſo denominatam.c.denoians.b.in.a.⁊ quia eſt.b.in.a.quotiens vnitas in.c.euidẽter ſequitur propoſitum ꝑ.16.
 
+[Curated heading level=2 type=propositions: Propoſitio .39.]
+
 ## Propoſitio .39.
 
 {dropcap:N|lines=5|style=decorated|decoration="foliate woodcut initial"}Vmerum minimum propoſitarum denominationum habentem partes inuenire Exquo manifeſtum ẽ ꝙ minim⁹ numerus numeratus a quotlibet ẽ minimus habens partes denominatas ab ipſis.

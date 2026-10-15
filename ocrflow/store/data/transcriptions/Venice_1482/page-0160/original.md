@@ -2,7 +2,9 @@
 
 a.e.⁊.e.b.pariter acceptis ⁊ hoc erat mõſtrandũ.¶Due linee quas hec.29.docet inuenire cõponũt lineã potentẽ in duo medialia ⁊ minori eaꝝ abſciſa de maiori q̃ reliqua eſt dicitur linea que iuncta cum mediali facit totum mediale.
 
-## Pꝛopoſitio .30.
+[Curated heading level=2 type=propositions: Propoſitio .30.]
+
+## Propoſitio .30.
 
 {dropcap:S|lines=5|style=decorated|decoration="floriated initial on black ground"}I due linee potentialiter tantũ rõnales cõmunicantes in longum directumqʒ coniungantur:tota linea ex his compoſita erit irrationalis:diceturqʒ binomium.
 
@@ -10,7 +12,9 @@ a.e.⁊.e.b.pariter acceptis ⁊ hoc erat mõſtrandũ.¶Due linee quas hec.29.d
 
 [Diagram: horizontal line with points labelled a, b and c]
 
-## Pꝛopoſitio .31.
+[Curated heading level=2 type=propositions: Propoſitio .31.]
+
+## Propoſitio .31.
 
 {dropcap:S|lines=5|style=decorated|decoration="floriated initial on black ground"}I due linee mediales potentia tantũ cõicantes ſuperficiemqʒ rationalẽ continentes directe coniungant̃:tota linea ex his cõpoſita erit irrõalis dicet̃qʒ bimediale p̃mũ.
 
@@ -20,7 +24,9 @@ a.e.⁊.e.b.pariter acceptis ⁊ hoc erat mõſtrandũ.¶Due linee quas hec.29.d
 
 [Diagram: rectangle with corners d and e at the base and h at the top left, divided by a horizontal line labelled g and f]
 
-## Pꝛopoſitio .32.
+[Curated heading level=2 type=propositions: Propoſitio .32.]
+
+## Propoſitio .32.
 
 {dropcap:S|lines=4|style=decorated|decoration="floriated initial on black ground"}I due linee mediales potentialiter tantum cõmunicantes ſuperficiemqʒ medialẽ continentes directe coniungantur tota linea erit irrõnalis diceturqʒ bimediale ſecundum.
 

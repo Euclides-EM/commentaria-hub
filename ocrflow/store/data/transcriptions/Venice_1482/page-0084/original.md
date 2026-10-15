@@ -6,6 +6,8 @@ autẽ neceſſe ut demõſtrrem⁹ ea niſi ſolũ ĩ trib⁹ hoc eni oĩo ſuf
 
 [Diagram: handwritten horizontal lines labelled a 3 and e 4, b 6 and d 8, c 12 and f 16]
 
+[Curated heading level=2 type=propositions: Propoſitio. 21.]
+
 ## Propoſitio. 21.
 
 {dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerint quotlibet quantitates alieqʒ ſecundum earum numerum quarum queqʒ due ex prioribus quibuſqʒ duabus ex poſterioribus peruerſim comparate ſecũdũ proportionem earum fuerint.neceſſe quoqʒ ẽ vt ſi fuerint improportionalitate equalitatis priorum prima vltima maior.⁊ poſteriorum prima vltima eſſe maiorem.ſi autem minor ⁊ minorem. Si vero equalis ⁊ equalem.

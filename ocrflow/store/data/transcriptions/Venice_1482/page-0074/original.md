@@ -6,6 +6,10 @@ prime ad ſecũdã ſicut tertie ad quartã.qd̃ autẽ dicit in.8.diffinitione 
 [unclear: nixi]
 [/Handwritten]
 
+[Curated heading level=1 type=propositions: LIBER V]
+
+[Curated heading level=2 type=propositions: Propoſitio .1.]
+
 ## Propoſitio .1.
 
 [Diagram: six horizontal line segments in two rows, labelled a, b and c above with numbers 2, 3 and 4, and d, e and f below with numbers 2, 3 and 4]

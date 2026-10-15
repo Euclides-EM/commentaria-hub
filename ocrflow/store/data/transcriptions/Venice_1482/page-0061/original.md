@@ -2,6 +2,8 @@
 
 latera eiuſdem trianguli equilateri.vt.e.c.⁊.c.b.⁊.c.d.¶Et nota ꝙ non proponitur circa propoſitum circulum exagonum equilaterum atqʒ equiangulum deſignare.Nec intra talem exagonum aut circa talem circulum deſcribere.quẽadmodum fecit de triangulo quadrato ⁊ penthagono.non qꝛ non ſit neceſſariũ hoc eẽ poſſibile.ſed quia hec tria per eadem precepta fiunt in penthagono equilatero et equiangulo.⁊ in omni figura equilatera.atqʒ equiangula quecunqʒ fuerit.Vnde quamcũqʒ figurã equilaterã ⁊ equiangulã ſcimus circulo inſcribere:eandẽ circulo extra.⁊ circulũ ſibi intra ⁊ extra:hiſdem medijs per que hec in penthagono fecim⁹ deſcribemus.¶Nota etiam ꝙ omnis figura equilatera circulo inſcripta.aut circũſcripta eſt etiã neceſſario equiangula.de inſcripta patet per.27.⁊.26.tertij ſumptis arcubus circuli.quibus latera iſcripte figure corde ſũt binis ⁊ binis.In hos eni arcus ipſius figure anguli cadunt.De circũſcripta autẽ ductis a circuli centro lineis ad omnes eius angulos.⁊ ad loca cõtactus facile probabis.ſi plene intellecte demonſtrationi.13.huius diligẽs intellectus acceſſerit.erit eni vt omnes ipſi⁹ figure angulos linee a centro venientes ꝑ equalia diuidãt.ſumptis itaqʒ quibuſlibet duobus eius ꝓximis lateribus cũ linea ad angulũ ab eis contentum.⁊ cũ duobus ad eoꝝ extremitates a centro venientibus duos triangulos ab eis cõtentos equiangulos adinuicẽ.ꝑ.4.primi eſſe ꝓbabis.Sicqʒ faciendo de omnibus patebit eos eſſe equiangulos ꝑ hanc cõmunẽ ſciam quoꝝ dimidia ſũt equalia.tota quoqʒ eſſe equalia.
 
+[Curated heading level=2 type=propositions: Propoſitio.16.]
+
 ## Propoſitio.16.
 
 [Margin]

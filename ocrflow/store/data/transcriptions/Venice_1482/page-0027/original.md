@@ -2,11 +2,15 @@
 
 triangulũ que ſunt.b.k.⁊.c.f.⁊ qꝛ vterqʒ duoꝝ angulorum.b.a.c.⁊.b.a.g.eſt rect⁹ per.14.erit.g.c.linea vna:eadẽ rõne erit.k.b.linea vna.qꝛ vterqʒ duoꝝ anguloꝝʒ c.a.b.⁊.c.a.k.eſt rectus:quia ergo ſup baſim.b.f.⁊ inter duas lineas equidiſtantes q̃ ſunt.c.g.⁊.b.f.cõſtituta ſũt palellogramũ.b.f.g.a.⁊ triãgul⁹.b.f.c.erit p.41: palellogramũ.b.f.g.a.duplũ triãgulo.b.f.c.ſʒ triãgul⁹.b.f.c.ẽ eq̃lis triãgulo.b.a d.p.4.quia.f.b.⁊.b.c.latera primi ſunt equalia.a.b.⁊.b.d.lateribus poſtremi.et angulus.b.primi ẽ equalis ãgulo.b.poſtremi.eo ꝙ vterqʒ cõſtat ex angulo recto ⁊ angulo.a.b.c.comuni.ergo palellogramũ.b.f.g.a.eſt duplum ad triãguluʒ.a.b.d ſed pallellogramũ.b.d.l.m.eſt duplũ ad eundẽ triangulũ.p.41.qꝛ cõſtituti ſũt ſup eandem baſim ſcʒ.b.d.⁊ inter lineas equidiſtantes que ſunt.b.d.⁊.a.l.ergo per cõmunẽ ſciam quadratũ.a.b.f.g.⁊ palellogramũ.b.d.l.m.ſunt equalia.qꝛ eorum dimidia videlicet predicti trianguli ſunt equalia Eodẽ mõ ⁊ per eaſdẽ ꝓpoſitiões mediantib⁹ triangulis.k.b.c.⁊.a.e.c.ꝓbabim⁹ q̃dratũ.a.c.h.k.eẽ equale palellogramo.c.e.l.m.q̃re pʒ ꝓpoſitũ.
 
+[Curated heading level=2 type=propositions: Propoſitio .47.]
+
 ## Propoſitio .47.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I ꝙ ab vno trianguli latere in ſeipſũ ducto ꝓducit̃:equũ fuerit duobus quadratis q̃ a duobus reliquis laterib⁹ deſcribuntur.rectus eſt angulus cui latus illud opponitur.
 
 ¶Lineã in ſe ipſam ducere eſt eius quadratũ deſcribere.¶Sit triangulus.a.b.c.ſitqʒ quadratum lateris.a.c.equale quadratis duorum laterũ.a.b.⁊.b.c.ſimul iunctis.dico angulũ.b.cui latus.a.c.opponit̃ eſſe rectũ:⁊ hec eſt cõuerſa prioris.¶A puncto.b.extraho lineã.b.d.ꝑ.11.ꝑpendicularẽ ſuper lineam.b.c.quã pono equalem.a.b.⁊ produco lineam.d.c.eritqʒ per precedentẽ quadratum.d.c.equale duobus quadratis duarum linearum.d.b.⁊.b.c.⁊ qꝛ.b.d poſita eſt equalis.b.a.erunt per cõmunẽ ſcientiã que eſt linearũ equaliũ equalia eſſe quadrata:quadrata duarũ lineaꝝ.a.b.⁊.b.d.equalia:quapropter erit quadratum.d.c.equale quadrato.a.c.ergo per aliam cõmunem ſciam que ẽ conuerſa prioris ſcʒ lineas quaꝝ quadrata ſunt equalia eſſe equales:erit.d.c.equalis.a.c.quare p.8.angulus.b.triãguli.a.b.c.ẽ rectus ꝙ ẽ ꝓpoſitũ.
+
+[Curated heading level=2 type=propositions: Propoſitio .48.]
 
 ## Propoſitio .48.
 

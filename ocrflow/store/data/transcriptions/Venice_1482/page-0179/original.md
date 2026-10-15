@@ -2,13 +2,17 @@
 
 nõ differt a mediali niſi ĩ rõnali ſuperficie per.22. hoc aũt fit manifeſtius in figura ſic Sit enĩ ſupficies.e.f.adiuncta ad lineã.e.g.equalis ambob⁹ quadratis duaꝝ lineaꝝ.a.b.⁊.b.c.pariter acceptis.At.g.h.ſit equalis duplo ſuperficiei vni⁹ in alterã eritqʒ.f.h.equalis quadrato linee.a.c.ex.7.ſcꝺi:ſilꝛ quoqʒ ſit.k.l.adiuncta ad lineã.k.m.equalis duobus quadratis duaꝝ lineaꝝ.a.d.⁊.d.c.piter acceptis ⁊.m.n.ſit equalis duplo ſupficiei vnius in alterã:eritqʒ ex.7.ſcꝺi.n.l.equalis quadrato linee.a.c.ideoqʒ etiam equalis.h.f.eſt itaqʒ differentia.e.f.ad.g.h.ſicut.k.l.ad.m.n.quare ꝑ añs pꝛemiſſũ erit ꝑmutatim differẽtia.e.f.ad.k.l.⁊ ipſa ſit.p ſicut.g.h.ad.m.n.⁊ qꝛ vtraqʒ duaꝝ lineaꝝ.e.f.⁊.k.l.eſt rõnalis vtraqʒ vero duaꝝ lineaꝝ g.h.⁊.m.n.medialis:ſequit̃ impoſſibile videlicet ſuperficiem.p.eſſe rationalem ⁊ irrationalem.
 
-## Pꝛopoſitio .75.
+[Curated heading level=2 type=propositions: Propoſitio .75.]
+
+## Propoſitio .75.
 
 {dropcap:N|lines=5|style=decorated|decoration="foliate initial on black ground"}Ulla linea niſi vna tm̃ reſiduo mediali pꝛimo cõiungi põt vt ſint ambo ſub termino eaꝝ que erãt ante ſeparationem
 
 ¶Hec quoqʒ ꝓbabit̃ ſimili mõ.Sint enĩ ĩ vtraqʒ ſectione ambo quadrata pariter accepta mediale:duplũ vero ſupficiei vnius in alteram rõnale ⁊ qꝛ vt pꝛius eadẽ ẽ differentia quadratoꝝ vnius ſectionis ad quadrata alterius que ẽ dupli ſuperficiei vnius ad duplũ ſupficiei alterius erit vna ⁊ eadem ſuperficies differentia duarum medialiũ ⁊ duarum rationalium quod eſt impoſſibile.
 
-## Pꝛopoſitio .76.
+[Curated heading level=2 type=propositions: Propoſitio .76.]
+
+## Propoſitio .76.
 
 {dropcap:N|lines=5|style=decorated|decoration="foliate initial on black ground"}Ulla linea reſiduo mediali ſecũdo coniũgibilis eſt vt ſub termino eaꝝ fiant niſi tm̃ que ab ea ante ſeparata erat.
 

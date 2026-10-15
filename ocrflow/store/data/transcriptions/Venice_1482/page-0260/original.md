@@ -6,6 +6,8 @@
 
 [Figure: circle with inscribed pentagon, containing triangle a.b.c with perpendicular a.d drawn from apex a to base b.c, overlapping a fainter impressed diagram]
 
+[Curated heading level=2 type=propositions: Propoſitio .6.]
+
 ## Propoſitio .6.
 
 {dropcap:Q|lines=5|style=decorated|decoration="foliate initial on dark ground"}Uadratũ quoqʒ qđ eſt triangulũ al' trigincuplũ tetragoni qui ſub perpendiculari ducta a centro circuli circũſcribentis pentagonũ figure duodecim baſium ad latus pentagoni atqʒ ſub latere ipſiꝰ pentagoni cõtinetur omnibꝰ ſuperficiebꝰ corporis duodecim baſiuʒ pariter acceptis eſſe equale ex neceſſitate conuincitur.
@@ -13,6 +15,8 @@
 ¶Sit pentagonus.a.vna ex.12.baſibus figure duodecedri ⁊ vnũ ex eius lateribꝰ ſit.b.c.ſibiqʒ ex.14.quarti circũſcribať circulus ſupra centꝝ.a.⁊ ptrahanť linee.a.b.⁊.a.c.⁊.a.d.ppendicularis ad.b.c.dico ergo ꝙ trigincuplũ eius qđ fit ex.a.d.in b.c.eſt equale omnibus ſupficiebus duodecedri piter acceptis.conſtat eni pentagonũ.a.eẽ diuiſibilẽ in quinqʒ triangulos equales triangulo.a.b.c.ex.8.pͥmi.itaqʒ omnes.12.pentagoni duodecedri cum oẽs ſint equales ⁊ ſil'es pentagono.a.diuiſibiles ſunt in.60.triangulos quoꝝ quiſqʒ ꝑ.8.primi ẽ equalis triangulo.a.b.c.Qđ aute fit ex.a.d.in.b.c.eſt duplum ꝑ.41.pͥmi:ad triangulũ.a.b.c.ergo trigincuplum eius qđ fit ex.a.d.in.b.c.ẽ ſexagincuplum ad triangulũ.a.b.c.nã vt ſimplũ ad ſimplum ſic duplum ad duplum.Cum itaqʒ omnes duodecedri ſuperficies pariter accepte ſint etiã ſexagincuplũ ad triangulũ.a.b.c.ſequiť vt trigincuplũ eiꝰ qđ fit ex.a.d.in.b.c.ſit equale omnibus ſuperficiebus duodecedri piter acceptis:qđ ẽ propoſitum.
 
 [Figure: circle with inscribed triangle f.g, with lines e.f and e.g drawn from centre e and perpendicular e.h to base f.g]
+
+[Curated heading level=2 type=propositions: Propoſitio .7.]
 
 ## Propoſitio .7.
 

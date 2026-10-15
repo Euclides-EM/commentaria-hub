@@ -6,6 +6,8 @@ eſſe comprobantur.
 
 [Diagram: two triangles joined at their common vertex c, with a at top left, d at top right, b at bottom left and e at bottom right, the sides crossing at c]
 
+[Curated heading level=2 type=propositions: Propoſitio .15.]
+
 ## Propoſitio .15.
 
 {dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerint quatuor linee proportionales quod ſub prima ⁊ vltima rectangulum continetur:equũ erit ei qd' ſub duabus reliquis. Si vero qd' ſub prima ⁊ vltima continetur equuʒ fuerit ei qd' ſub duabus reliquis continetur rectãgulum:quatuor lineas proportionales eſſe conuenit.
@@ -15,6 +17,8 @@ eſſe comprobantur.
 [Diagram: four horizontal lines of decreasing length labelled a, b, c and d, with the values 16, 8, 4 and 2 at their right ends]
 
 [Diagram: two rectangles overlapping to form a cross shape, with points d and a on the upper rectangle and b and c on the lower]
+
+[Curated heading level=2 type=propositions: Propoſitio .16.]
 
 ## Propoſitio .16.
 

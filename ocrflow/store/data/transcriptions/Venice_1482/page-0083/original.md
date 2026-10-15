@@ -14,6 +14,8 @@ dg df ge e
 [unclear: db df be fe]
 [/Handwritten]
 
+[Curated heading level=2 type=propositions: Propoſitio .19.]
+
 ## Propoſitio .19.
 
 {dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I a duobus totis due portiones abſcindantur.fueritqʒ totum ad totũ quantum abſciſum ad abſciſum:erit reliquum ad reliquum quantum totum ad totum.
@@ -30,6 +32,8 @@ ab be cd df
 a.b.c.d. [unclear: ba de p̃m]
 b.a a.c b d pmutat̃
 [/Handwritten]
+
+[Curated heading level=2 type=propositions: Propoſitio .20.]
 
 ## Propoſitio .20.
 

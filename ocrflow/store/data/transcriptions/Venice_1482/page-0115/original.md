@@ -10,6 +10,8 @@
 
 [Diagram: segments labelled a, c and g, above segments labelled b, d and h, above segments labelled e, f and k]
 
+[Curated heading level=2 type=propositions: Propoſitio .20.]
+
 ## Propoſitio .20.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint quatuor numeri proportiõales qꝺ ex ductu primi in vltimũ ꝓducetur equũ erit ei qꝺ ex ductu ſecundi in tertiũ.Si vero qꝺ ex primo ī vltimũ ꝓducet̃ equũ ẽ ei qꝺ ex ſecundo in tertiũ:illi quatuor numeri ſũt ꝓportiõales.

@@ -4,7 +4,9 @@
 Diffinitio
 [/Handwritten]
 
-## Propoſitio. 13.
+[Curated heading level=2 type=definitions: Diffinitio. 13.]
+
+## Propoſitio{printer-error-correction:Diffinitio}. 13.
 
 [Diagram: horizontal line labelled a, 8, b and 4 above a shorter line labelled c, 6, d and 3]
 
@@ -16,7 +18,9 @@ Diffinitio
 Diffinitio
 [/Handwritten]
 
-## Propoſitio. 14.
+[Curated heading level=2 type=definitions: Diffinitio. 14.]
+
+## Propoſitio{printer-error-correction:Diffinitio}. 14.
 
 [Diagram: horizontal line labelled a, 8, b and 4 above a shorter line labelled c, 6, d and 3]
 
@@ -28,7 +32,9 @@ Diffinitio
 Diffinitio
 [/Handwritten]
 
-## Propoſitio .15.
+[Curated heading level=2 type=definitions: Diffinitio .15.]
+
+## Propoſitio{printer-error-correction:Diffinitio} .15.
 
 [Diagram: horizontal line labelled a, 8, b and 4 above a shorter line labelled c, 6, d and 3]
 
@@ -40,7 +46,9 @@ Diffinitio
 Diffinitio
 [/Handwritten]
 
-## Propoſitio. 16.
+[Curated heading level=2 type=definitions: Diffinitio. 16.]
+
+## Propoſitio{printer-error-correction:Diffinitio}. 16.
 
 [Diagram: six horizontal lines in two columns labelled a 8, d 12, b 4, e 6, c 2 and f 3]
 

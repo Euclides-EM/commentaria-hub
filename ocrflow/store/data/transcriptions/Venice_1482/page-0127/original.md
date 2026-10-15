@@ -4,6 +4,8 @@ proportione,ꝓut docet ſcd̃a huius qui ſint.g.h.k.deinde q̃tuoꝛ qui ſint
 
 [Diagram: segments labelled a, c, d and b beside segments labelled l, m, n and p, with segments labelled g, h and k, segments labelled e and f, and a unity stroke]
 
+[Curated heading level=2 type=propositions: Propoſitio 10.]
+
 ## Propoſitio 10.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I inter vtrũqʒ eoꝝ ⁊ vnitatem quotlibet numeri cõtinua proportionalitate ceciderint ambobus numeris totidem continua proportionalitate inter eſſe neceſſe eſt.
@@ -12,6 +14,8 @@ proportione,ꝓut docet ſcd̃a huius qui ſint.g.h.k.deinde q̃tuoꝛ qui ſint
 
 [Diagram: segments labelled a, h, k and b above segments labelled c, g and e, segments labelled d and f, and a unity stroke]
 
+[Curated heading level=2 type=propositions: Propoſitio 11.]
+
 ## Propoſitio 11.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I fuerint ambo quadrati erit ꝓportio vnius ad alterũ tãquã ſui lateris ad latus illius proportio duplicata. Si vero ambo fuerint cubi:erit proportio alterius ad alterum tãquã ſui lateris ad latus alterius proportio triplicata.
@@ -19,6 +23,8 @@ proportione,ꝓut docet ſcd̃a huius qui ſint.g.h.k.deinde q̃tuoꝛ qui ſint
 ¶Sint duo quadrati.a.⁊.b.⁊ duo cubi.c.⁊.d.latera tã quadratoꝝ q̃ʒ cuboꝝ ſint.e.quidẽ.a.⁊.c.f.vero b.⁊.d.dico ꝙ proportio.a.ad.b.erit ſicut.e.ad.f.duplicata.c.vero ad.d.ſicut eadẽ triplicata.Manifeſtũ enī eſt ꝙ ex.e.in ſe fit.a.⁊ ex ipſo.e.i.a.c.ſic quoqʒ ex.f.in ſe fit.b.⁊ ex ipō in.b.d.ducat̃ igit̃.e.in.f.⁊ ꝓuenit.g.⁊ in.g.⁊.b.⁊ ꝓueniant.h.⁊.k.eritqʒ ꝑ.18.ſeptimi.a.ad.g.ſicut.e.ad.f ⁊ per.19.g.ad.b.ſicut.e.ad.f.igitur ex diffinitione.a.ad.b.ſicut.e.ad.f.duplicata qd̃ eſt primũ.Scd̃m eodeʒ modo cõſtat.ſunt enī ꝑ.18.iteꝝ.c.ad.h.ſicut.a.ad.g.⁊ h.ad.k.ſicut.g.ad.b.⁊ per.19.k.ad.d.ſicut.e.ad.f.quare.c.h.k.d.ſunt etiã continue proportionales in ꝓportione.e.ad.f.ꝑ diffinitionẽ igitur erit.c.ad.d.ſicut e.ad.f.triplicata:quod eſt ſecũdũ.
 
 [Diagram: segments labelled c, h, k and d above segments labelled a, g and b and segments labelled e and f]
+
+[Curated heading level=2 type=propositions: Propoſitio 12]
 
 ## Propoſitio 12
 

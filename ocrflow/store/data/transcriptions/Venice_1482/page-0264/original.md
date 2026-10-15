@@ -2,6 +2,8 @@
 
 dextãtes coequãt.x.aſſes hoc eſt.x.tota:vigincuplũ vero.m.f.ẽ tanqʒ decuplũ.f.g nam.f.g.eſt dupla ad.m.f.igiť duo decupli iſtius pentagoni ad vigincuplũ iſtius trigoni eſt ſicut decupli.b.e.ad decuplũ.f.g.⁊ qꝛ duodecuplũ illiꝰ pentagoni ẽ oẽs ſuperficies duodecedri:vigincuplũ autẽ huius trigoni eſt omnes ſupficies ycocedri ⁊ quia per.15.quinti decupli.b.e.ad decuplũ.f.g.ſicut.b.e.ſimple ad.f.g.ſimplam erit per.11.quinti ꝓportio omniũ ſuperficieꝝ duodecedri pariter acceptaꝝ ad oẽs ſuperficies ycocedri pariter acceptas ſicut.b.e.ad.f.g.Et hoc ẽ quod oportuit nos demonſtrare.
 
+[Curated heading level=2 type=propositions: Propoſitio .9.]
+
 ## Propoſitio .9.
 
 {dropcap:D|lines=4|style=decorated|decoration="foliate woodcut initial"}Iuiſa q̃libet linea ſcđm ꝓportionẽ habẽtẽ mediũ duoqʒ extrema erit ꝓportio linee potẽtis ſupra totã lineã eiꝰqʒ maiorẽ portionẽ ad lineã potẽtẽ ſupra totã eiuſdẽqʒ minorẽ portionẽ tãqʒ ꝓportio lateris cubi ad latꝰ triãguli corpis viginti baſiũ vna cũ cubo ipſo ī eadẽ ſpera ꝯtenti.

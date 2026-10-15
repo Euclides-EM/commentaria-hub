@@ -2,6 +2,8 @@
 
 linee.e.f.incõmenſurabilis in longitudine:quare per.19.ſuperficies.e.g.erit medialis:cum linea.e.f.ſit rõnalis i longitudine ſicut.c.d.ſibi equalis:cũ ſit ergo.b.eq̃lis.e.g.erit quoqʒ.b.medialis qd̃ ẽ ꝓpoſitũ.¶Et nota ꝙ omnes ſuperficies mediales cõicantes cõponunt ſuperficiem medialẽ. Vnde tota.d.g.ẽ medialis:qꝛ cũ due linee.c.f.⁊.f.g.ſint rõnales in potẽtia tm̃ ⁊ nõ cõmunicantes in longitudine ſequitur ut tota.c.g.ſit rõnalis in potẽtia tm̃ ⁊ nõ cõicãs.c.d.i longitudine.itaqʒ ꝑ.19.d.g.ẽ medialis Eodẽqʒ mõ ſi ſint pl'es.
 
+[Curated heading level=2 type=propositions: Propoſitio .22.]
+
 ## Propoſitio .22.
 
 {dropcap:O|lines=4|style=decorated|decoration="floriated initial on black ground"}Mnis differentia qua habundat mediale a mediali:irrationalis eſſe pꝛobatur.
@@ -11,6 +13,8 @@ linee.e.f.incõmenſurabilis in longitudine:quare per.19.ſuperficies.e.g.erit m
 [Diagram: an upright rectangle divided by a horizontal line into two parts labelled b above and a below]
 
 [Diagram: a rectangle with f at top, divided by a horizontal line with e at its left end and g at its right end, and c and d at the base]
+
+[Curated heading level=2 type=propositions: Propoſitio .23.]
 
 ## Propoſitio .23.
 

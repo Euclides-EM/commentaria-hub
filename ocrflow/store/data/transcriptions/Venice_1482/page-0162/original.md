@@ -8,7 +8,9 @@
 
 [Diagram: rectangle divided by a horizontal line, with labels at the ends of the dividing line and at the lower right corner]
 
-## Pꝛopoſitio .35.
+[Curated heading level=2 type=propositions: Propoſitio .35.]
+
+## Propoſitio .35.
 
 {dropcap:C|lines=5|style=decorated|decoration="foliate initial"}Vm coniuncte fuerint due linee potentialiter incõmenſurabiles ſuperficiemqʒ medialẽ cõtinentes quaꝝ quadrata ambo piter accepta ſit mediale duplo ſupficiei vniꝰ ĩ alteram incommenſurabilem tota linea erit irrõnalis diceturqʒ potens in duo medialia.
 

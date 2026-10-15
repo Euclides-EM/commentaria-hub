@@ -6,6 +6,8 @@ erit quoqʒ ex ſeptima quinti baſis.a.ad baſim.c.vt altitudo piramidis.c.ad a
 
 [Figure: triangle labelled c]
 
+[Curated heading level=2 type=propositions: Propoſitio .8.]
+
 ## Propoſitio .8.
 
 {dropcap:O|lines=4|style=decorated|decoration="foliate ornament on hatched ground"}Mnium duarum piramidum ſimilium quarum baſes triangule ẽ proportio alterius ad alteram tanqʒ lateris ad latus eius relatiuum proportio triplicata.

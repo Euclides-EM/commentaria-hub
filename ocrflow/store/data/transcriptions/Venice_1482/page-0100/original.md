@@ -2,6 +2,8 @@
 
 paralellograma ſunt equiangula conſtat per diffinitionẽ ſimilium ſuperficieꝝ.g.h.eſſe ſile.b.d.Sili quoqʒ modo ꝓbaꝫ.f.k.eẽ ſile eidẽ.ꝓpꝫ hoc ꝙ.b.a.ad.a.k.⁊.d.a ad.a.f.ẽ ſicut.c.a.ad.a.e.ꝑ ſcõaʒ huiꝰ ⁊ cõiũctã ꝓportionalitatẽ:q̃re ꝑ.20.huiꝰ.f.k ẽ etiã ſile.g.h.ſicqʒ pʒ totũ.
 
+[Curated heading level=2 type=propositions: Propoſitio .23.]
+
 ## Propoſitio .23.
 
 {dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I in ſuo ſpacio palellogramũ partiale diſtinctum toti paralellogramo ſimile.atqʒ ſcõm ſuũ illius eſſe fuerit:circa eiuſdem diametrum conſiſtit.
@@ -10,6 +12,8 @@ paralellograma ſunt equiangula conſtat per diffinitionẽ ſimilium ſuperfici
 
 [Diagram: rectangle with vertices a, b, d and c, with points h, k and g on the right part, f on the bottom side and e within, and diagonal lines drawn from a to c]
 
+[Curated heading level=2 type=propositions: Propoſitio .24.]
+
 ## Propoſitio .24.
 
 {dropcap:O|lines=4|style=decorated|decoration="white floral rosette on black ground"}Mnium duarum ſuperficierum equidiſtantium laterum quarum vnus angulus vnius vni angulo alterius equalis ꝓportio alterius ad alteram ẽ que ꝓducitur ex duabꝰ proportionibus ſuoꝝ lateꝝ duos equos angulos ꝯtinentium
@@ -17,6 +21,8 @@ paralellograma ſunt equiangula conſtat per diffinitionẽ ſimilium ſuperfici
 ¶Sint due ſupficies equidiſtantiũ laterũ.a.c.⁊.e.d.ſitqʒ angulꝰ.b.vnius equalis angulo.b.alterius.dico ꝙ ꝓportio vnius ad alterã ꝓducta eſt ex proportione.a.b.ad.b.d.⁊.c.b.ad.b.e.diſponã enim has duas ſupficies penitus ſicut diſpoſui eas in..13.huius.adiuncto ad vtrãqʒ palellogramo.c.d.⁊ ponam ut ꝓportio linee.f.ad lineã.g.ſit ſicut.a.b.ad.b.d.⁊.g.ad.h.ſicut.c.b.ad.b.e.qualiter eni hoc fiat.dictum eſt ſupra.10.huius:eritqʒ per primã huius.⁊.11.quinti.a.c.ad.c.d.ſicut.f.ad.g.⁊.c.d.ad.d.e.ſicut.g.ad.h.quare ꝑ.22.quinti erit in equa ꝓportionalitate.a.c.ad.d.e.ſicut.f.ad.h.⁊ quia.f.ad.h.producitur ex.f.ad.g.⁊.g.ad.h.vt dictũ ẽ in fine expoſitionis.11.diffinitõis q̃nti.erit ut.a.c.ad.d.e.ꝓducaꝫ ex eiſdẽ:q̃re cõſtat ꝓpoſitũ.
 
 [Diagram: two rectangles meeting at a common vertex b, with labels c, g and h on the upper rectangle, d and a at its sides and e at the foot of the lower rectangle, beside three horizontal line segments labelled f, g and h]
+
+[Curated heading level=2 type=propositions: Propoſitio .25.]
 
 ## Propoſitio .25.
 

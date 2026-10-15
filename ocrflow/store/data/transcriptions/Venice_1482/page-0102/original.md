@@ -10,6 +10,8 @@
 
 [Diagram: small rectangle labelled h]
 
+[Curated heading level=2 type=propositions: Propoſitio .28.]
+
 ## Propoſitio .28.
 
 {dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}Uper datam lineam date ſuperficiei trilatere equum paralellogramum conſtituere.qd' addat ſuper cõpletionem date linee ſuperficiem equidiſtantium lateruʒ date ſuperficiei equidiſtantium laterum ſimilem.

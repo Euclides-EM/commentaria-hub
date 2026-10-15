@@ -1,3 +1,5 @@
+[Curated heading level=2: Propoſitio .11.]
+
 {dropcap:D|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ata linea recta a pũcto in ea ſignato ꝑpẽdicularẽ extrahere duob⁹q̃dem angul' eq̃lib⁹ac rectis vtrinqʒ ſubnixam.
 
 ¶Sit data linea.a.b.in q̃ ſit datus pũctus.c.a quo oʒ ꝑpẽdicularẽ extrahere:faciã g̃ ꝑ tertiã lineã.b.c.eq̃lẽ linee.a.c.⁊ ſup totã.a.b.cõſtituo triangulũ eq̃laterũ.a.b.d.⁊ ꝓtraho lineã.c.d.de q̃ dico ꝙ ipſa ẽ ꝑpẽdicularis ſup lineã.a.b.Intelligo duos triangulos.a.c.d.⁊.b.c.d.⁊ qꝛ duo latera.a.c.⁊.c.d.trianguli.a.c.d.ſũt eq̃lia duob⁹laterib⁹.c.b.⁊.c.d.trianguli.c.b.d.⁊ baſis.a.d.baſi.b.d.erit ꝑ.8.angul⁹.a.c.d.eq̃lis angulo.b.c.d.q̃re vt̃qʒ eoꝝ erit rect⁹ꝑ diffinitõem anguli recti:⁊ linea.c.b.ꝑpẽdicularis ſup lineã.a.b.ꝑ diffinitõem linee ꝑpẽdicularis:qð ẽ ꝓpoſitũ.
@@ -5,6 +7,8 @@
 [Margin]
 [Diagram: a triangle with apex d and base vertices a and b, with a vertical line from d to point c on the base]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio 12.]
 
 ## Propoſitio 12.
 
@@ -16,6 +20,8 @@
 [Diagram: a circle with chord b.c, point a above the chord joined to b, c and to d on the chord, and a line reaching point e at upper right outside the circle]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .13.]
+
 ## Propoſitio .13.
 
 {dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnis recte linee ſup rectã lineã ſtantis duo vtrobiqʒ anguli aut ſunt recti aut duobus rectis equales.
@@ -26,7 +32,9 @@
 [Diagram: a horizontal line c.b.d with a vertical line b.e and an oblique line b.a rising from point b]
 [/Margin]
 
-## Propoꝰ .14.
+[Curated heading level=2 type=propositions: Propo .14.]
+
+## Propo .14.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I due linee a pũcto vni⁹linee i diuerſas ptes exierint duoſqʒ circa ſe angulos rectos aut duob⁹rectis equales fecerint:ille due linee ſibi directe coniũcte ſũt ⁊ linea vna.
 

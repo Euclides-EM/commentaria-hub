@@ -2,6 +2,8 @@
 
 a.d.⁊.d.b.dupla quadratis duarum linearum que ſunt.a.c.⁊.c.d.ꝙ ẽ ꝓpoſitum
 
+[Curated heading level=2 type=propositions: Propoſitio .10.]
+
 ## Propoſitio .10.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I linea in duo equalia diuidatur:eiqʒ ĩ longum alia addatur:quadratum ꝙ deſcribitur a tota cum addita ⁊ quadratum ꝙ ab ea que addita eſt.vtraqʒ quadrata pariter accepta.ei quadrato ꝙ a dimidia.eiqʒ ꝙ ab ea producitur q̃ ex dimidia adiectaqʒ conſiſtit vtriſqʒ quadratis pariter acceptis dupla eſſe neceſſe eſt.
@@ -21,6 +23,8 @@ a.d.⁊.d.b.dupla quadratis duarum linearum que ſunt.a.c.⁊.c.d.ꝙ ẽ ꝓpo�
 [/Calculation]
 [/Handwritten]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .11.]
 
 ## Propoſitio .11.
 

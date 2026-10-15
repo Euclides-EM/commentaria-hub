@@ -1,5 +1,7 @@
 <!-- Running title: LIBER -->
 
+[Curated heading level=2 type=propositions: Propoſitio .4.]
+
 ## Propoſitio .4.
 
 {dropcap:O|lines=4|style=decorated|decoration="white floral vine on black ground"}Mnium duorum triangulorum quoꝝ anguli vnius angulis alterius ſunt equales:latera equos angulos reſpicientia ſunt proportionalia.
@@ -8,6 +10,8 @@
 
 [Diagram: small triangle with apex a and base corners b and c, beside a larger triangle with apex g above points d and a, on a base line with points e, f and c]
 
+[Curated heading level=2 type=propositions: Propoſitio .5.]
+
 ## Propoſitio .5.
 
 {dropcap:O|lines=4|style=decorated|decoration="white floral vine on black ground"}Mnium duorum triangulorũ quorũ cunctorũ laterũ ſe ſe reſpicientiũ ẽ proportio vna anguli lateribus ꝓportionalibus contenti equi ſibi inuiceʒ eſſe probantur.
@@ -15,6 +19,8 @@
 ¶Hec eſt conuerſa prioris nec fecit ex ea ⁊ premiſſa vnã cõcluſionem ſicut fecit in ſecunda ⁊ tertia huius:qꝛ nec eadẽ figuratione nec eiſdẽ medijs demonſtratur quibus p̃cedens. Sint itaqʒ duo trianguli.a.b.c.d.e.f.ſitqʒ proportio.a.b.ad.d.e.⁊.a.c.ad.d.f.ſicut.b.c.ad.e.f.dico ꝙ angulus.a. ẽ equalis angulo.d.⁊ angulus.b.angulo.e.⁊ angulus.c.angulo.f.conſtituã ſuper lineam.e.f.in oppoſita pte trianguli.d.e.f.angulũ.f.e.g.equalem angulo.b.⁊ angulũ.e.f.g equalem angulo.c.eritqʒ per.32.primi:angulus.g.equalis angulo.a. ergo per premiſſam proportio.a.b.ad.e.g.⁊.a.c.ad.f.g.ſicut.b.c.ad.e.f.quare.a.b. ad.d.e: ſicut ad.e.g.⁊.a.c.ad.d.f.ſicut ad.f.g. igitur per ſecundam partem none quinti d.e.eſt equalis.e.g.⁊ per eandem.d.f.equalis.f.g.quare per.8.primi: duo trianguli.d.e.f.⁊.g.e.f.ſunt equianguli:quare ergo triangulus.g.e.f.eſt etiam equiangulus triangulo.a.b.c.conſtat propoſitum.
 
 [Diagram: triangle with apex a and base corners b and c, beside a triangle with apex d and base corners e and f, with an inverted triangle below the base e–f meeting at point g]
+
+[Curated heading level=2 type=propositions: Propoſitio .6.]
 
 ## Propoſitio .6.
 

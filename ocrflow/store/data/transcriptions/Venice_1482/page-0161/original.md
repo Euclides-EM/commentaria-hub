@@ -6,7 +6,9 @@ quas per.26.contingit reperiri:dico totã.a.c.ex eis cõpoſitã eſſe irrõnal
 
 [Diagram: rectangle with h at the top left, divided by a horizontal line labelled g and f]
 
-## Pꝛopoſitio .33.
+[Curated heading level=2 type=propositions: Propoſitio .33.]
+
+## Propoſitio .33.
 
 {dropcap:C|lines=4|style=decorated|decoration="floriated initial on black ground"}Vm coniuncte fuerint due linee potentialiter incõmenſurabiles ſupficiẽqʒ medialẽ continẽtes quaꝝ ambo q̃drata piter accepta ſũt rõnale:tota linea erit irrõnalis diceturqʒ linea maioꝛ.
 
@@ -16,6 +18,8 @@ quas per.26.contingit reperiri:dico totã.a.c.ex eis cõpoſitã eſſe irrõnal
 
 [Diagram: rectangle with corners d and e at the base and h at the top left, divided by a horizontal line labelled g and f]
 
-## Pꝛopoſitio .34.
+[Curated heading level=2 type=propositions: Propoſitio .34.]
+
+## Propoſitio .34.
 
 <!-- Signature: k 4 -->

@@ -1,5 +1,7 @@
 <!-- Running title: LIBER -->
 
+[Curated heading level=2 type=propositions: Propoſitio .13.]
+
 ## Propoſitio .13.
 
 {dropcap:R|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ecte linee in circulo ſi fuerint equales eas a centro equidiſtare.⁊ ſi a centro equidiſtiterint equales eſſe neceſſe eſt.
@@ -10,6 +12,8 @@
 [Diagram: circle with centre e, points a, f and b on the upper circumference and b, g and c below, with chords a.b and b.c and lines through e crossing at the centre]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .14.]
+
 ## Propoſitio .14.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I intra circulum plurime recte linee ceciderint diametrũ eius omnium longiſſimam. eiqʒ propinquiores remotioribus longiores eſſe neceſſe eſt.
@@ -19,6 +23,8 @@
 [Margin]
 [Diagram: circle with centre e, points h and k above, f and g at the sides, a on the left and c and b below, with the diameter and many lines drawn from the circumference through e]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .15.]
 
 ## Propoſitio .15.
 

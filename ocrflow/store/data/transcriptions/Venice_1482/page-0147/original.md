@@ -8,7 +8,9 @@ nõ ſit ſicut numeroꝝ q̃dratoꝝ:ſeq̃t̃ diametꝝ eẽ incõmenſurabil�
 
 [Diagram: square labelled b, c and d with diagonals, and horizontal segments labelled a, e, f, g, h, k and m]
 
-## Pꝛopoſitio .8.
+[Curated heading level=2 type=propositions: Propoſitio .8.]
+
+## Propoſitio .8.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint due quantitates vni quantitati cõicantes:ipſas quoqʒ inuicem cõmenſurabiles eſſe neceſſe eſt.
 
@@ -18,7 +20,9 @@ nõ ſit ſicut numeroꝝ q̃dratoꝝ:ſeq̃t̃ diametꝝ eẽ incõmenſurabil�
 
 [Diagram: horizontal segments labelled a, b, c, d, e, f, g, h, k and l]
 
-## Pꝛopoſitio .9.
+[Curated heading level=2 type=propositions: Propoſitio .9.]
+
+## Propoſitio .9.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint due quantitates cõicantes:totum quoqʒ ex eis confectum vtriqʒ eaꝝ:erit cõmunicans. Si vero fuerit totum vtriqʒ cõmenſurabile erũt ambe cõmenſurabiles.
 

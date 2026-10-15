@@ -2,6 +2,8 @@
 
 baſium quod octocedron diximus.At vero ſi quinqʒ triangulorum equilaterorum anguli ſolidum angulum cõtineant fiet corpus ycocedron viginti baſiũ triangulariũ ⁊ equilateraꝝ.Quare ergo tot ⁊ talia ſunt ſolida regularia ⁊ quare plura his non ſint dictum eſt.
 
+[Curated heading level=2 type=propositions: Propoſitio .18.]
+
 ## Propoſitio .18.
 
 {dropcap:L|lines=4|style=decorated|decoration="foliate woodcut initial"}Atera quinqʒ corporum premiſſorum ab eadeʒ ſpera circumſcriptibilium cuius ſpere ſola diametros nobis ꝓpoſita fuerit per ipſam propoſitam diametrum inuenire.

@@ -4,6 +4,8 @@ linea.b.c.rationalis in longitudine cui adiungatur ſuperficies.b.d.equalis quad
 
 [Diagram: two upright rectangles, the left with d at top and b and c at its base, the right with g at top and e and f at its base; below, a horizontal segment labelled a]
 
+[Curated heading level=2 type=propositions: Propoſitio .21.]
+
 ## Propoſitio .21.
 
 {dropcap:O|lines=4|style=decorated|decoration="floriated initial on black ground"}Mnis linea communicans mediali eſt medialis.

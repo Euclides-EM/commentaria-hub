@@ -2,6 +2,8 @@
 
 primi:quadratis duaꝝ linearum.e.b.⁊.b.a.ergo dempto ab vtriſqʒ quadrato linee.e.b.erit qꝙ fit ex.d.f.in.b.f.⁊ ipſũ eſt ſuperficies.d.g.equale quadrato linee a.b.ergo dempto ab vtriſqʒ paralelogramo.b.d.erit quadratũ.b.f.equale palellogramo.b.c.⁊ quia quadratum.b.f.eſt quadratum linee.h.b.⁊ palellogramũ.b.c. producitur ex.c.a.que eſt equalis.a.b.in.a.h.patet factum eſſe propoſitũ. ¶Ad hoc autẽ faciendum in numeris non labores:quia impoſſibile eſt numerum ſic diuidi:vt hic vndecima proponit ſicut ſcies ſexti.29.te docente.
 
+[Curated heading level=2 type=propositions: Propoſitio .12.]
+
 ## Propoſitio .12.
 
 {dropcap:I|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}N his triangulis qui obtuſum habent angulum: tanto ea que obtuſum ſubtendit angulum:ambobus reliquis lateribus que obtuſum continent angulum amplius poteſt.quãtũ eſt qꝙ cõtinetꝛ bis ſub vno eoꝝ:atqʒ ea que ſibi directe iũcta ad obtuſum angulũ a ꝑpẽdiculari extra dephenditꝛ.
@@ -11,6 +13,8 @@ primi:quadratis duaꝝ linearum.e.b.⁊.b.a.ergo dempto ab vtriſqʒ quadrato li
 [Margin]
 [Diagram: obtuse-angled triangle with base b at left and c at right, the side from b extended beyond the obtuse vertex a to a point d above, with lines joining c to a and c to d]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .13.]
 
 ## Propoſitio .13.
 

@@ -4,9 +4,13 @@ equilateri qð opponit᷑ pũcto dato.ſ.latus.d.c.ꝓtraham ꝑ centrũ circuli
 [Diagram: a short horizontal line segment with endpoints a and b above a large circle containing smaller circles, with centre c, points e and f on the inner circumferences, d to the right, and lines drawn from c to e and from c through f to d]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .3.]
+
 ## Propoſitio .3.
 
 {dropcap:P|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ropoſitis duabus lineis inequalibus de longiori earum breuiori equalem abſcindere. ¶ Sint due linee.a.b.⁊.c.d.⁊ ſit.a.b.minor volo ex.c.d.abſcindere vnã que ſit eq̃lis.a.b.duco p̃mo a pũcto.c.vnã lineã equalẽ.a.b.ſʒ qð docuit p̃cedens: que ſit.c.e.poſito ergo centro in pũcto.c.deſcribam circulũ ſm̃ quantitatẽ.c.e.q̃ ſecabit lineã.c.d.Sit ergo vt ſecet eã ĩ pũcto.f. eritqʒ linea.c.f.equalis linee.c.e.quia ambo exeũt a centro eiuſdem circuli ad circumferẽtiã: ⁊ qꝛ vtraqʒ duarũ linearũ.a.b.⁊.f.c.eſt equalis.c.e.ipſe ſũt int̃ ſe equales:quod eſt ꝓpoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .4.]
 
 ## Propoſitio .4.
 
@@ -21,6 +25,8 @@ equilateri qð opponit᷑ pũcto dato.ſ.latus.d.c.ꝓtraham ꝑ centrũ circuli
 [Margin]
 [Diagram: a triangle with apex a and base vertices b and c, whose sides are produced beyond the base and joined by crossing lines to points d and e below]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .5.]
 
 ## Propoſitio .5.
 

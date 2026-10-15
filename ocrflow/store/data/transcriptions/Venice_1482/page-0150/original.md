@@ -8,4 +8,6 @@ quadrata neceſſe ẽ ipſã lineã longioꝛẽ linea bꝛeuioꝛi tãto ãpli
 
 [Diagram: a semicircle on a horizontal line with endpoints a and b, points d and g on the line, lines drawn from a and b to a point f on the arc with e at the right, and a separate horizontal segment labelled c below]
 
-## Pꝛopoſitio .14.
+[Curated heading level=2 type=propositions: Propoſitio .14.]
+
+## Propoſitio .14.

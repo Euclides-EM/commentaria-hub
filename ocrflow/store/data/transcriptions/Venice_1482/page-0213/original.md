@@ -4,6 +4,8 @@ quadrilatere oẽs anguli ſunt equales quatuor rectis ex.32.primi:neceſſe ẽ
 
 [Figure: oblique parallelepiped with corners labelled b, c, b and c]
 
+[Curated heading level=2 type=propositions: Propoſitio .39.]
+
 ## Propoſitio .39.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quotlibet linee ꝓportionales ſolida quoqʒ ſua equidiſtantium atqʒ ſimilium vniuſcuiuſqʒ creationis ſuperficieꝝ erũt ꝓportionalia.ſi vero ſolida equidiſtantiũ atqʒ ſiľium vniuſcuiuſqʒ creatiõis ſupficieꝝ fuerint ꝓportionalia linee quoqʒ a quibus ipſa ſolida continenť erunt ꝓportionales. Siľe ꝓponit vigeſima prima ſexti de ſuperfciebus{printer-error-correction:ſuperficiebus}.

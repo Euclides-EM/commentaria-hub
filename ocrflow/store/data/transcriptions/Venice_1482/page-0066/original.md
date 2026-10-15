@@ -6,6 +6,8 @@
 
 [Diagram: horizontal lines labelled f 12, c 6, d 3 and h 9 beside lines labelled e 8, a 4, b 2 and g 6]
 
+[Curated heading level=2 type=definitions: Diffinitio .7.]
+
 ## Diffinitio .7.
 
 {dropcap:Q|lines=4|style=decorated|decoration="floriated initial on criblé ground"}uantitates quarũ ꝓportio ẽ vna ꝓportiõales noīantur.
@@ -13,5 +15,7 @@
 ¶Poſtquã diffiniuit quantitates continue proportionales ⁊ incontinue diffiniuit quantitates ꝓportionales ſimpꝉr: et pʒ diffinitio.
 
 [Diagram: horizontal lines labelled c 2 and d 1 beside lines labelled a 8 and b 4]
+
+[Curated heading level=2 type=definitions: Diffinitio .8.]
 
 ## Diffinitio .8.

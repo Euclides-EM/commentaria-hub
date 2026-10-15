@@ -4,6 +4,12 @@ q̃ʒ eoꝝ qui ſuper circũferentias:eſt ſicut arcus.b.c.ad arcum.f.g.cõtin
 
 [Diagram: circle with point e at top, h near the centre, and points m, l, f and g on the circumference joined by lines from e and h]
 
+[Curated heading level=1 type=definitions: LIBER VII]
+
+[Curated heading level=2 type=definitions: Vnitas eſt qua vna queqʒ res vna dicitur]
+
+[Curated heading level=1: LIBER VII]
+
 {dropcap:V|lines=10|style=decorated|decoration="white foliate scrollwork on black ground"}Nitas eſt qua vna queqʒ res vna dicitur.¶Numerus eſt multitudo ex vnitatibus cõpoſita ¶Naturalis ſeries numerorum dicitur in qua ſecundũ vnitatis additionem fit ipſorum computatio.¶Differentia numerorum appellatur numerus quo maior habũdat a minore.¶Numerus primus dicitᷣ qui ſola vnitate metitur.¶Numerus compoſitus dicitur quẽ alius numerus metitur.¶Numeri contra ſe primi dicuntᷣ.qui nullo numero excepta ſola vnitate numerantur.¶Numeri adinuicem compoſiti ſiue cõmunicantes dicuntur.quos alius numerus q̃ʒ vnitas metitur.nulluſqʒ eorum eſt ad aliũ primus.¶Numerus per alium multiplicari dicitur.qui totiens ſibi coaceruatur.quotiens in multiplicante eſt vnitas.¶Productus vero dicitur qui ex eorum multiplicatione creſcit.¶Numerus alium numerare dicitur qui ſecundũ aliquẽ multiplicatus illũ ꝓducit.¶Pars ẽ numerus numeri minor maioris cum minor maiorem numerat.Et qui numeratur numerantis multiplex appellatur.¶Denominãs eſt numerus ſecũdũ quẽ pars ſumitᷣ in ſuo toto.¶Similes dicuntur partes que ab eodem numero denominantur.¶Prima.ſimpla numeri pars eſt vnitas.¶Quando duo numeri partem habuerint cõmunem tot partes maioris dicetur eſſe minor.quotiens eadem pars fuerit in minore.tote vero quotiens ipſa fuerit in maiore.¶Numeri ad numerum dicitur proportio minoris quidem ad maiorem in eo quod ẽ maioris pars vel partes.Maioris vero ad minorem ſecundũ ꝙ eũ continet ⁊ eius partem vel partes.¶Cum fuerint quotlibet numeri cõtinue ꝓportionales dicetᷣ ꝓportio primi ad tertiũ ſicut primi ſcõm duplicata ad q̃rtũ vero triplicata.¶Cũ cõtinuate fuerit eedẽ vel diuerſe ꝓportiones dicetᷣ ꝓportio primi ad vltimũ ex omnibꝰ cõpoſita.
 
 [Handwritten]

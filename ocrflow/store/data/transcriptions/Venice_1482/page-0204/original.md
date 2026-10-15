@@ -2,6 +2,8 @@
 
 ſcie in primo libro poſite neceſſe eſt quaſqʒ duas ſuperficies in ſolido.a.b.oppoſitas eſſe ſibi inuicẽ equales qd eſt propoſitũ.
 
+[Curated heading level=2 type=propositions: Propoſitio .25.]
+
 ## Propoſitio .25.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I ſuperficies quedã ſecet ſolidũ paralellogramũ eq̃diſtãter duabus ipſius ſolidi ſupficiebus oppoſitis duo partialia corpora que ad illam ſecantem ſuperficiẽ velut ad cõmunẽ terminũ copulanť ſuis baſibus ſunt proportionalia
@@ -13,6 +15,8 @@
 [Figure: elongated triangular prism divided into sections, labelled a, g and d above, b, h and e within, and c, k and f below]
 
 ¶Sit eni.a.f.corpus ſeratile cuius ſint due trigone ſupficies.a.b.c.d.e.f.Cõſtat igiť ex dĩone ſecratilis vnãquãqʒ trium ſupficieꝝ que ſunt.a.b.d.e.b.c.e.f.a.c.d.f.eẽ paralellogramũ:ſecet igiť ſupficies.g.h.k.iſtud ſeratile equidiſtanter duabus eius oppoſitis ſupficiebus q̃ ſunt a.b.c.d.e.f.dico ꝙ ꝓportio ſeratilis.a.k.ad ſeratile.g.f.ẽ ſicut baſis.a.k.ad baſim.g.f.qd ſicut de ſolidis palellogramis pbať ptractis eni in vtrãqʒ ptẽ lineis.a.d.b.e.c.f.factiſqʒ inter eas ex pte puncti.e.ſeratilibus equalibus ſeratili.g.f.⁊ ex pte puncti.b.alijs equalibus ſeratile.a.k vtrinqʒ quouis numero ex dĩone incontinue ꝓportionalitatis.ſi cuncta vigili mente pluſtres nõ erit tibi difficile cõcludere quod diximus.
+
+[Curated heading level=2 type=propositions: Propoſitio .26.]
 
 ## Propoſitio .26.
 

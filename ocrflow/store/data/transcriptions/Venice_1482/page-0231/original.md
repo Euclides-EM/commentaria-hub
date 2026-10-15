@@ -1,5 +1,7 @@
 <!-- Running title: XII -->
 
+[Curated heading level=2 type=propositions: Propoſitio .12.]
+
 ## Propoſitio .12.
 
 {dropcap:S|lines=5|style=decorated|decoration="white interlaced foliage on black ground"}I due piramides rotunde ſiue columne fuerint eq̃les ſue baſes ⁊ altitudines erũt mutue. Si vero ſue baſes ⁊ altitudines mutue fuerint ipſas piramides ſiue colũnas eq̃les eẽ neceſſe ẽ.
@@ -9,6 +11,8 @@
 [Figure: cylinder with inscribed cone, labelled b at the top, e at a section through the middle and a at the base]
 
 [Figure: cylinder with inscribed cone, labelled d at the top and c at the base]
+
+[Curated heading level=2 type=propositions: Propoſitio .13.]
 
 ## Propoſitio .13.
 

@@ -2,6 +2,8 @@
 
 tiens opoꝛtet aſſumptam.Non eſt igit̃.e.diuerſus ab eis:qd̃ eſt etiã cõtra ypothe. itaqʒ cõſtat veꝝ eſſe qd̃ pꝛoponit̃.
 
+[Curated heading level=2 type=propositions: Propoſitio .14.]
+
 ## Propoſitio .14.
 
 {dropcap:S|lines=4|style=decorated|decoration="white foliate initial on black ground"}I ꝓpoſitus fuerit numerꝰ mīmus quẽ numerãt pꝛimi aſſignati nõ numerabit eũ aliquis numerus pꝛimus pꝛeter illos aſſignatos.
@@ -10,6 +12,8 @@ tiens opoꝛtet aſſumptam.Non eſt igit̃.e.diuerſus ab eis:qd̃ eſt etiã c
 
 [Diagram: horizontal segments in three rows labelled a; b, c and d; e and f]
 
+[Curated heading level=2 type=propositions: Propoſitio .15.]
+
 ## Propoſitio .15.
 
 {dropcap:S|lines=4|style=decorated|decoration="white foliate initial on black ground"}I quotlibet numeri continue propoꝛtionales ſm̃ ſuã pꝛopoꝛtionẽ fuerint minimi:quicũqʒ aliquẽ illoꝝ numerat alteri terminoꝝ illius ꝓpoꝛtionis erit cõmenſurabilis
@@ -17,6 +21,8 @@ tiens opoꝛtet aſſumptam.Non eſt igit̃.e.diuerſus ab eis:qd̃ eſt etiã c
 ¶Sint.a.b.c.d.e.cõtinue ꝓpoꝛtionales ⁊ minimi ſm̃ ꝓpoꝛtioneʒ f.ad.g.qui ſint in ſua ꝓpoꝛtione minimi:⁊ ponatur.h.numerare.c. dico ꝙ.h.eſt cõmenſurabilis.f.vel.g.ſumant̃ enī in eadẽ ꝓpoꝛtione quatuoꝛ minimi qui ſunt.k.l.m.n.cõſtat aũt ex ſcõa octaui ꝙ ex.f.in.m.fit.c.alioquin cõtingeret eſſe minus minimo qd̃ eſſe nõ poteſt.itaqʒ per coꝛrel'.33.ſeptimi erit.h.cõmenſurabilis.f.vel.m.ꝙ ſi.f.cõſtat ꝓpoſitum:ſi aũt.m.ſumant̃ in eadẽ ꝓpoꝛtione tres minimi qui ſint.p.q.r.eritqʒ ex ſcõa octaui vt.m.fiat ex.f.in.r.ne minus mīmo aliqd̃ eẽ cogamur cõcedere:q̃re per pꝛedictũ coꝛrel'.h.ẽ cõmenſurabilis.f.vl' r.ſed nõ erat.f.ſic enī cõſtabat propoſitũ:cõmenſurabilis igitur ẽ.r.qui cum ex ſecũda octaui fiat ex.g.in ſe ſequitur ex dicto coꝛrel'.ut.h.ſit cõmenſurabilis.g.qd̃ eſt propoſitum.
 
 [Diagram: five rows of horizontal segments with numerals, labelled a, b, c, d and e; k, l, m and n; p, q and r; f and g; and h]
+
+[Curated heading level=2 type=propositions: Propoſitio .16.]
 
 ## Propoſitio .16.
 

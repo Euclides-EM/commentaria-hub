@@ -4,6 +4,8 @@ quare per.16.huius vnus numerus cadet inter eos medius ſm̃ ꝓportionẽ.c.ad.
 
 [Diagram: segments labelled a, n, p and b with numbers 12, 24, 48 and 96, segments k, m and l with numbers 6, 12 and 24, and segments c, d, e, f, g and h with numbers 2, 3, 2, 4, 6 and 4]
 
+[Curated heading level=2 type=propositions: Propoſitio .19.]
+
 ## Propoſitio .19.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I eis ſcd̃m cõtinuã ꝓportionalitatẽ duo numeri interiacent quilibet duo numeri ſolidi ſunt atqʒ ſimiles.
@@ -11,6 +13,8 @@ quare per.16.huius vnus numerus cadet inter eos medius ſm̃ ꝓportionẽ.c.ad.
 ¶Hec eſt ꝯuerſa p̃miſſe vt ſi inter.a.⁊.b.ſint duo numeri.c.⁊.d.medij in cõtinua ꝓportione:erũt.a.⁊.b.ſolidi ⁊ ſimiles:Sumant̃ enim tres minimi in eadẽ proportione ꝯtinue ꝓportionales qui ſunt.e.f.g.erũtqʒ per.17.e.⁊.g.ſuperficiales ⁊ ſimiles.ſint ergo.h.⁊.k.latera.e.at.l.⁊.m.latera.g.eritqʒ per correl'.16.huius.e.ad.f.ſicut.h.ad.l.aut ſicut.k.ad.m.manifeſtũ autẽ eſt ex tertia ꝙ.e.⁊.g.ſunt ꝯtra ſe primi:ideoqʒ per.23.ſeptimi in ſua ꝓportione minimi.⁊ qꝛ ꝑ equã ꝓportionalitatẽ ſunt.a.ad.d.⁊.c.ad.b.ſicut.e.ad.g ſequit̃ per.21.ſeptimi:ut ipſi numerent.a.⁊.d.equaliter qd̃ ſit ſm̃.n.⁊ item.c.⁊.b.eq̃lit̃ qd̃ ſit ſm̃.p.Quia igit̃ ex.h.in.k.fit.e.⁊ ex.e.in.n.fit.a.ſequit̃ ꝑ diffinitionẽ vt.a.ſit ſolidus eiuſqʒ latera.h.k.n.ſil'r qꝛ ex.l.in.m.fit.g.⁊ ex.g.in.p.b.ſequitur etiam ut.b.ſit ſolidus ⁊ eius latera.l.m.p.ipſos aũt eſſe ſil'es ſic conſtabit cũ ex.g.in.n.fiat.d.⁊ ex eodẽ in.p.b.erit ꝑ.18.ſeptimi.n.ad.p.ſicut.d.ad.b.⁊ qꝛ ſic erant h.ad.l.⁊.k.ad.m.ꝑ diffinitionẽ manifeſtũ eſt.a.⁊.b.eſſe ſimiles:qd̃ eſt propoſitũ.
 
 [Diagram: segments labelled a, c, d and b with numbers 8, 12, 18 and 27, segments e, f and g with numbers 4, 6 and 9, and segments h, l, k, m, n and p with numbers 2 and 3]
+
+[Curated heading level=2 type=propositions: Propoſitio .20.]
 
 ## Propoſitio .20.
 
@@ -20,6 +24,8 @@ quare per.16.huius vnus numerus cadet inter eos medius ſm̃ ꝓportionẽ.c.ad.
 
 [Diagram: segments labelled a, b and c]
 
+[Curated heading level=2 type=propositions: Propoſitio .21.]
+
 ## Propoſitio .21.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I quatuor numerorum continue proportionalium.primus fuit cubus:quartum cubum eſſe neceſſe eſt.
@@ -28,6 +34,8 @@ quare per.16.huius vnus numerus cadet inter eos medius ſm̃ ꝓportionẽ.c.ad.
 
 [Diagram: segments labelled a, b, c and d]
 
+[Curated heading level=2 type=propositions: Propoſitio .22.]
+
 ## Propoſitio .22.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I duoꝝ numeroꝝ quoꝝ proportio ſicut quadrati ad quadratũ fuerit vnꝰ quadratꝰ:alterũ quoqʒ quadratum eſſe.
@@ -35,5 +43,7 @@ quare per.16.huius vnus numerus cadet inter eos medius ſm̃ ꝓportionẽ.c.ad.
 ¶Sint duo numeri.a.⁊.b.in proportione duoꝝ quadratoꝝ qui ſũt.c.⁊.d.ſitqʒ.a.vel.b.quadratus:dico reliquũ eſſe quadratũ:cũ enim c.⁊.d.ſint quadrati:ſequitur eos eſſe ſuperficiales ſimiles.ideoqʒ per 16.cadet vnus medius inter eos in continua proportione:quare per.8.⁊ inter.a.⁊ b.per.20.igitur cõſtat propoſitum.
 
 [Diagram: segments labelled a and c above segments labelled b and d]
+
+[Curated heading level=2 type=propositions: Propoſitio .23.]
 
 ## Propoſitio .23.

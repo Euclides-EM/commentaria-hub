@@ -2,11 +2,15 @@
 
 linee.a.b.ſm rectitudinem:quã pono equalem linee.e.f.baſi trianguli dati ſuper quã cõſtituo triangulũ vnũ ei eq̃lẽ ⁊ equilaterũ.ꝙ hoc modo facio.Cõſtituo ãgulum.a.g.k.equalem angulo.e.⁊ angulum.g.a.k.equalem angulo.f.per.23.⁊ quia g.a.poſita fuerat equalis.e.f.erit per.26.triangulus.g.a.k.equalis ⁊ equilaterus triangulo.e.f.d.diuidã ergo.g.a.per equalia in puncto.h.⁊ ꝓtrahã.k.h.⁊ producam a puncto.k.lineã.m.k.n.equidiſtantẽ linee.g.b.eritqʒ per.38.triangul⁹.a.h.k.equalis triangulo.g.h.k.tunc ſuper punctũ.a.linee.g.a.faciã angulum.g.a.l.ꝑ 23.equalem angulo.c.dato:⁊ conplebo ſup baſim.a.h.⁊ inter lineas.g.b.⁊.m.n. equidiſtantes ſuperficiem equidiſtantiuʒ laterum.m.l.h.a.que ꝑ.41.dupla erit ad triangulũ.k.h.a quare equalis totali triangulo.k.g.a.quare ⁊ triangulo.d.e.f.ꝓpoſito:protraham ergo.b.n.equidiſtantẽ.a.l.⁊ producã diametrum.n.a.quã ꝓtrahã quouſqʒ cõcurrat cũ.m.h.in puncto.o.⁊ cõplebo ſuperficiem equidiſtãtium laterum.m.o.n.q.⁊ protraham.l.a.vſqʒ ad.p.eritqʒ per precedentẽ ſupplementũ a.b.p.q. equale ſupplemento.m.l.h.a.quare ⁊ triangulo.d.e.f.⁊ qꝛ per.15.angulus.l.a.h.ẽ equalis angulo.b.a.p.⁊ ideo angulus.b.a.p.eſt equalis angulo.c.pʒ ſuper datam lineã.a.b.deſcriptã eſſe ſuperficiem equidiſtantiũ laterum.a.b.p.q. equalem dato triangulo.d.e.f.cuius vterqʒ duorum angulorum contra ſe poſitorum qui ſunt.a.⁊.q.ẽ equalis dato angulo.c.quod fuit propoſitum.
 
+[Curated heading level=2 type=propositions: Propoſitio .45.]
+
 ## Propoſitio .45.
 
 {dropcap:E|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}X data linea quadratum deſcribere.
 
 ¶Sit data linea.a.b.ex qua volo q̃dratum deſcribere:a punctis.a.⁊.b.linee.a.b.educo ꝑ.11.lineas.a.c.⁊.b.d.perpendiculares ad lineam.a.b.que erũt equidiſtantes per vltimã ꝑtem.28.⁊ pono vtrãqʒ eaꝝ eidem.a.b.per ſcõam equalem ⁊ protraho lineam.c.d.eritqʒ ipſa equalis et equidiſtans linee.a.b.per.33.⁊ quia vterqʒ duorum anguloꝝ.a.⁊.b.eſt rectus.erit vterqʒ duoꝝ.c.⁊.d.rectus per vltimã ꝑtem.29.ergo per diffinitionem.a.b.c.d.ẽ quadratum quod eſt propoſitũ.Jdem aliter ſit.a.c.perpendicularis ſuper lineam.ab per.11.⁊ ſit ei equalis vt prius ⁊ a puncto.c.per.31.ducatur c.d.equidiſtans.a.b.⁊ ponatur equalis ei ⁊ ducatur linea.d.b.que per.33.erit eq̃lis ⁊ equidiſtans.a.c.⁊ omnes anguli recti per vltimã ꝑtem.29.quare per diffinitionem habemus propoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .46.]
 
 ## Propoſitio .46.
 

@@ -4,7 +4,9 @@ comittibus verum eſſe proponunt:quibus qui vſqʒ ad ſolitum habitum inſtite
 
 [Figure: three horizontal lines, the first labelled e, the second labelled c and f, the third divided and labelled d and b]
 
-## Pꝛopoſitio .99.
+[Curated heading level=2 type=propositions: Propoſitio .99.]
+
+## Propoſitio .99.
 
 {dropcap:O|lines=5|style=decorated|decoration="foliate initial on black ground"}Mnis linea vtrilibʒ reſiduo mediali cõmunicans:eſt ſub ipſius termio ⁊ oꝛdine reſiduũ mediale.
 

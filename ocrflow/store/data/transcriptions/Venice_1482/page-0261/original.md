@@ -6,6 +6,8 @@ per octauã p̃mi ẽ equalis trigono.e.f.g.itaqʒ oẽs.20.trigoni ycocedri pit
 
 [Figure: faint circle with inscribed hexagon, offset impression in the right margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .8.]
+
 ## Propoſitio .8.
 
 {dropcap:P|lines=5|style=decorated|decoration="foliate initial on dark ground"}Roportio cunctarũ ſuperficieꝝ corporis duodecim baſium piter acceptaꝝ ad cũctas ſupficies coꝛpis viginti baſium piter acceptas que ab vna ſpera ãbo circũſcribunť eſt tanqʒ ꝓportio lateris cubi quẽ circũſcribit eadẽ ſpera ad latus trianguli ipſius corporis viginti baſium.

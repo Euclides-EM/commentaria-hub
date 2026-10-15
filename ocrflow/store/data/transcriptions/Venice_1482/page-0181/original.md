@@ -1,12 +1,16 @@
 <!-- Running title: X -->
 
-## Pꝛopoſitio .82.
+[Curated heading level=2 type=propositions: Propoſitio .82.]
+
+## Propoſitio .82.
 
 {dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduum tertium perſcrutari.
 
 ¶Reſiduum tertium ſic habetur:poſita vt pꝛius.a.rõnali numeroqʒ e.quadrato diuiſo in.f.non quadratum.⁊.g.quadratum:aſſumptoqʒ.b.numero pꝛimo ac quadratum linee.a.ad quadratũ linee.b.c.ſicut.h.ad.e.ſit quadratũ linee.b.c.ad quadratũ linee.c.d.ſicut.e.ad f.eritqʒ ex diffinitione: de quo ſi heſitas cõſule binomiũ tertiũ: linea.d.b.reſiduũ tertium.
 
-## Pꝛopoſitio .83.
+[Curated heading level=2 type=propositions: Propoſitio .83.]
+
+## Propoſitio .83.
 
 {dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduum quartum inuenire.
 
@@ -14,13 +18,17 @@
 
 [Figure: horizontal line segments, one with points e, d and b, one labelled a, a divided line with the letter e and the numerals 3 and 6, and lines with the letters f, h and g and the numeral 7]
 
-## Pꝛopoſitio .84.
+[Curated heading level=2 type=propositions: Propoſitio .84.]
+
+## Propoſitio .84.
 
 {dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduum quintum demonſtrare.
 
 ¶Cum reſiduum quintum inuenire libuerit erit linea.c.d.cõmunicans linee.a.rationali poſite in longitudine ſicut erat in inquiſitione ſecundi:⁊ erit quadratus numerus.e.diuiſus in.f.⁊.e.quoꝛuʒ neuter quadratus ſicut in pꝛemiſſa:⁊ erit quadratum linee.c.d.ad quadratum.b.c.ſicut.f.ad.e.ex quibus a diffinitione cõcludere licet:habita ſufficienti noticia binomij quinti:lineam.d.b.eſſe reſiduum quintum.
 
-## Pꝛopoſitio .85.
+[Curated heading level=2 type=propositions: Propoſitio .85.]
+
+## Propoſitio .85.
 
 {dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduũ ſextum demum pꝛeſto ſit reperire.
 
@@ -28,7 +36,9 @@
 
 [Figure: tall rectangle on base a b divided by horizontal lines with points g, f, h, e, k and c, with d at the top right]
 
-## Pꝛopoſitio .86.
+[Curated heading level=2 type=propositions: Propoſitio .86.]
+
+## Propoſitio .86.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I fuerit ſupficies linea rõnali atqʒ reſiduo pꝛimo cõtenta latus eius tetragonicũ neceſſe eſt eſſe reſiduum.
 

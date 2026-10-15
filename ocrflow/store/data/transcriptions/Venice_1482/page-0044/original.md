@@ -6,6 +6,8 @@
 
 angulo.c.a.d.⁊ angulus.a.b.d.angulo.a.c.d.quare totus.a.b.d.erit eq̃lis duobus angulis qui ſunt.a.c.d.⁊.c.a.d.⁊ quia ipſi cum angulo.a.d.c.ſunt eq̃les duobus rectis.per.32.primi:erunt duo anguli.b.totalis.⁊.d.totalis equales duob⁹ rectis quod eſt propoſitum.Similiter quoqʒ probabitur angulos.a.⁊.c.totales eſſe equales duobus rectis.
 
+[Curated heading level=2 type=propositions: Propoſitio .22.]
+
 ## Propoſitio .22.
 
 [Margin]
@@ -18,6 +20,8 @@ angulo.c.a.d.⁊ angulus.a.b.d.angulo.a.c.d.quare totus.a.b.d.erit eq̃lis duobu
 
 ¶Sit linea recta aſſignata.a.b.ſup quã fiat portio circuli.a.c.b.dico ꝙ ſup eandem lineã ex parte eadem non fiet alia portio que ſit ſimilis huic.⁊ ea maior aut minor.¶Ꝙ ſi fuerit hoc poſſibile fiat ergo portio.a.d.b.maior ea que tamen ſit ſimilis ei.fiat ergo angulus.a.c.b.ĩ portione minori.⁊ angulus.a.d.b.in maiori.erit ergo vt linee.a.d.⁊.d.b.includant lineas.a.c.⁊.c.b.vt pʒ ĩ figuratiõe prima.Aut vt altera primarum fiat eadem cum altera poſtremaꝝ.vt in ſcd̃a.aut vt altera ſecet alteram vt in tertia.¶Ꝙ ſi fuerit primo mõ erit per.21.primi:ãgulus.c.maior angulo.d.nõ ergo ſũt portiones ſimiles per diffinitionẽ.Ꝙ ſi ſcd̃o modo erit ad huc angulus.c.maior angulo.d.per.16.eiuſdem.nec ſic igiꝛ erũt portiones ſimiles.Si aũt tertio modo ſit ut linea a.d.ſecet lineam.c.b.⁊ ſecet circũferentiam portionis minoris in puncto.e.⁊ ducaꝛ linea.e.b.eritqʒ ꝑ eãdẽ.16.primi:angulus.a.e.b.ꝯſiſtẽs ĩ portiõe.a.c.b.maior ãgulo.d.ſʒ e.ẽ eq̃lis.c.ꝑ.20.h⁹ q̃re.c.ẽ maior.d.q̃re nullo mõ ſiles.¶Sili quoqʒ mõ ꝓbabis ꝙ ſup lineã.a.b.nõ fiet portio ſilis portioni.a.c.b.mĩor ea.poſito.c in loco.d.⁊.d.in loco.c.in figurationibus predictis.erit eni per premiſſas ſcʒ per 21.⁊.16.primi:⁊ premiſſo modo angulus.d.omniũ figurationũ maior angulo.c.quare portiones nõ erũt ſimiles.¶Et nota ꝙ licet proponatur ſuper lineam vnaʒ nõ poſſe fieri portiones ſimiles inequales ex eadem parte.verum eſt tamẽ ꝙ nec ex diuerſis qd̃ licet probare minori que eſt ex vna parte ſuppoſita maiori que ẽ ex alia.neceſſe eni erit per cõmunem ſciam ipſam a maiori excedi.non ergo ſunt ſimiles per hanc.22.
 
+[Curated heading level=2 type=propositions: Propoſitio .23.]
+
 ## Propoſitio .23.
 
 [Margin]
@@ -27,6 +31,8 @@ angulo.c.a.d.⁊ angulus.a.b.d.angulo.a.c.d.quare totus.a.b.d.erit eq̃lis duobu
 {dropcap:S|lines=4|style=decorated|decoration="white foliate ornament on black ground"}I circulorum ſimiles portiones ſuper lineas equas fuerint.ipſas portiones equales eſſe neceſſe eſt.
 
 ¶Sint due linee.a.b.⁊.c.d.equales ſuper quas ſint due portiones circulorum.a.e.b.c.f.d.que ſunt ſimiles.dico ꝙ ipſe ſunt equales.ſi enim non ſunt equales altera earum ſuppoſita alteri excedet maior minorem.ſed linea.a.b.non excedet lineam.c.d.nec excedetur ab ea:cum ſint equales.quare accidit contrariuʒ p̃miſſe qd̃ ẽ impoſſibile.erũt eni.a.b.⁊.c.d.linea vna.
+
+[Curated heading level=2 type=propositions: Propoſitio .24.]
 
 ## Propoſitio .24.
 

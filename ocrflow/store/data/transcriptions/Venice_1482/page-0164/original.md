@@ -6,7 +6,9 @@
 
 [Diagram: horizontal line with points labelled a, d, c and b]
 
-## Pꝛopoſitio .37.
+[Curated heading level=2 type=propositions: Propoſitio .37.]
+
+## Propoſitio .37.
 
 {dropcap:B|lines=5|style=decorated|decoration="foliate initial on black ground"}Imediali pꝛimo ſm̃ terminũ ſuum in duas lineas mediales diuiſo:ſub earum termino in alias duas lineas mediales idem diuidi eſt impoſſibile.
 
@@ -14,7 +16,9 @@
 
 [Diagram: tall rectangle with corners labelled h and l, divided by horizontal lines at g and k]
 
-## Pꝛopoſitio .38.
+[Curated heading level=2 type=propositions: Propoſitio .38.]
+
+## Propoſitio .38.
 
 {dropcap:B|lines=5|style=decorated|decoration="foliate initial on black ground"}Imediale ſecũdũ niſi in duas lineas tantum ſub termino ſuo diuidi non poteſt.
 

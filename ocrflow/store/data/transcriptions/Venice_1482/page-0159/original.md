@@ -2,7 +2,9 @@
 
 equales.At quia per quartã ſexti ꝓportio.a.e.ad.e.b.ẽ ſicut.a.g.ad.g.e.ſunt aũt a.g.⁊.g.e.⁊.g.b.ꝯtinue ꝓportionales erit.a.e.ad.e.b.duplicata ſicut.a.g.ad.g.b.quare p.18.ſexti erit quadratũ linee.a.e.ad quadratũ linee.e.b.ſicut.a.g.ad.g.b cum ſit igitur.a.g.incõicans.g.b.erit per ſcõam ptem.10.quadratũ.a.e.incõicans quadrato.e.b.quare due linee.a.e.⁊.e.b.ſunt incõmẽſurabiles in potentia.Et qꝛ p penultimã primi quadratũ.a.b.ẽ eq̃le q̃dratis duaꝝ lineaꝝ.a.e.⁊.e.b.piter acceptis q̃dratũ aũt.a.b.ẽ rõale:cũ.a.b.ſit rõnalis ĩ potẽtia ꝑ ypothe.erũt quoqʒ q̃drata duaꝝ lineaꝝ.a.e.⁊.e.b.piter accepta rõnale.Si vero hee due linee cõtinent ſuperficiem medialem habitũ ẽ ꝓpoſitũ.erat aũt.c.d.rõnalis in potẽtia ⁊ in ea tm̃ cõicans linee.a.b.quare ⁊.c.f.⁊ iõ etiã.g.e.ſibi equalis erit potentia rõnalis ⁊ tm̃ in eadẽ cõicans cũ.a.b.itaqʒ p.19.ſupficies.a.b.in.g.e.eſt medialis:qꝛ igit̃ p quartã ſexti ⁊ per primã ptẽ.15.eiuſdẽ ſupficies.a.e.⁊.e.b.ẽ ſibi.ſ.ſupficiei.a.b.in.g.e.equalis cõſtat duas lineas.a.e.⁊.e.b.eſſe quales volumus.¶Et nota ꝙ due linee quas docet hec.27.inuenire cõponunt lineã maiorẽ ⁊ minori eaꝝ abſciſa que reliqua eſt dicitur linea minor.
 
-## Pꝛopoſitio .28.
+[Curated heading level=2 type=propositions: Propoſitio .28.]
+
+## Propoſitio .28.
 
 {dropcap:D|lines=5|style=decorated|decoration="floriated initial on black ground"}Uas lineas potentialiter incõmenſurabiles ſuperficiẽqʒ rationalem continentes quaꝝ ambo quadrata pariter accepta ſint mediale inuenire.
 
@@ -10,7 +12,9 @@ equales.At quia per quartã ſexti ꝓportio.a.e.ad.e.b.ẽ ſicut.a.g.ad.g.e.ſ
 
 [Diagram: semicircle on base a b with apex e, chords a e and e b, perpendicular from g to e, a square below the base with corner h, and a horizontal line below labelled c, f and d]
 
-## Pꝛopoſitio.29.
+[Curated heading level=2 type=propositions: Propoſitio .29.]
+
+## Propoſitio .29.
 
 {dropcap:D|lines=4|style=decorated|decoration="floriated initial on black ground"}Uas lineas potentialiter incõmenſurabiles ſuperficiẽqʒ medialẽ continentes quaꝝ quadrata ambo pariter accepta ſint mediale duplo ſuperficiei vnius in alterã incõmẽſurabile inuenire.
 

@@ -1,5 +1,7 @@
 <!-- Running title: IX -->
 
+[Curated heading level=2 type=propositions: Propoſitio .6.]
+
 ## Propoſitio .6.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I ex ductu cuiuſdã numeri in ſe ipſum cubus producat̃ eũ eſſe cubuʒ neceſſario comprobatur.
@@ -8,6 +10,8 @@
 
 [Diagram: horizontal segments labelled c, b and a]
 
+[Curated heading level=2 type=propositions: Propoſitio .7.]
+
 ## Propoſitio .7.
 
 {dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I numerus cõpoſitus in numerum quẽlibet ducatur:qui inde producetur erit ſolidus.
@@ -15,6 +19,8 @@
 ¶Sit.a.numerus cõpoſitus:qui ducatur in.b.et ꝓueniat.c.dico.c.eſſe numerũ ſolidũ:cũ enī.a.ſit cõpoſitus numeratur ab aliquo numero qui ſit.d.numeretqʒ eum ſcõm.e.quia igitur ex.e.in.d.fit.a.⁊ ex.a.in.b.c.erit ex diffinitiõe ſolidoꝝ.c.ſolidus eiuſqʒ latera.e.d.b.qd̃ ē ꝓpoſitũ.
 
 [Diagram: segments labelled c, a, b, d and e]
+
+[Curated heading level=2 type=propositions: Propoſitio .8.]
 
 ## Propoſitio .8.
 

@@ -4,6 +4,8 @@
 
 [Diagram: horizontal line with points a, d, c and b]
 
+[Curated heading level=2 type=propositions: Propoſitio .5.]
+
 ## Propoſitio .5.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on dark ground within a square frame"}J ſecũdũ proportionẽ habentẽ medium ⁊ duo extrema quelibet linea fuerit diuiſa qd̃ ex tota linea quodqʒ ex minori portione produciť ambo q̃drata piter accepta triplũ ſunt eius qd̃ ex maiore portione quadratũ deſcribiť.
@@ -11,6 +13,8 @@
 ¶Sit linea.a.b.diuiſa per ſepe dictã portionẽ in puncto.c.ſitqʒ maior portio eius linea.c.b.dico ꝙ quadrata duarum linearum.a.b.⁊.c.a.pariter accepta triplum ſunt ad quadratum linee.c.b.hec enim duo quadrata pariter accepta ſunt ex ſeptima ſecundi quantum quadratum.c.b.⁊ duplum eius quod fit ex a.b.in.a.c.itemqʒ quia quod fit ex.a.b.in.a.c.eſt equale quadrato.c.b.ex diffinitione ⁊ prima parte.16.ſexti:manifeſtum eſt propoſitum.
 
 [Diagram: horizontal line with points a, c and b]
+
+[Curated heading level=2 type=propositions: Propoſitio .6.]
 
 ## Propoſitio .6.
 

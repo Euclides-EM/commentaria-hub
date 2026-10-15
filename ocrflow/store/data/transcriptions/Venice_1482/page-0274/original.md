@@ -4,6 +4,8 @@
 
 [Figure: triangular pyramid with apex e above a circle, base vertices a, b and c on the circle, centre d, and points f, g, h, k and l marking midpoints]
 
+[Curated heading level=2 type=propositions: Propoſitio .3.]
+
 ## Propoſitio .3.
 
 {dropcap:I|lines=5|style=decorated|decoration="foliate woodcut initial"}ntra cubum aſſignatum figuram octo baſium triangularium equalium laterum conſtituere cubo intendimus inſcribere octocedron.¶Qualiter aũt cubũ cõponere oporteat ī prima hui⁹ ſufficienter dictũ eſt.igitur fabricato cubo piramis quatuor baſiũ triangularium ⁊ equalium lateꝝ in eo ex prima huius deſignet̃.ac intra ipſam piramidem ex premiſſa octocedron diſtignatur.quo facto ſimul etiã factũ erit quod voluimus.Conſtat enim ex ratiocinatione prime latera cuncta ipſius inſcripte piramidis eſſe diagonos baſium cubi ⁊ ex rõcinatione premiſſe liquet cunctos angulos octocedri in hac piramide diſtincti eſſe in lateribus ipſi⁹ piramidis:quare manifeſtũ ē omnia angularia puncta hui⁹ octocedri eſſe ī baſib⁹ aſſignati cubi.igit̃ ex dīone habem⁹ ꝓpoſitum.Aliter idem centris cunctaruʒ baſiũ cubi quēadmodũ ī nona quarti ſit reꝑtis a cẽtro ſupreme ſupficiei ei⁹ ad cẽtra quatuor lateraliũ ſuperficieꝝ quatuor ypothemiſas demitte ⁊ a cẽtro infime ⁊ ad earũdem lateraliũ ſuperficierum cẽtra quatuor alias ypothemiſas eleua centra quoqʒ quatuor lateraliũ quatuor rectis lineis cõtinua ita videlicet ꝙ centra earum tantũ que ſeinuicem ſecant continuos

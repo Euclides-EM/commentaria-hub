@@ -6,6 +6,8 @@ coꝛauſtoꝝ extremitatib⁹ ad ſuperficiẽ circuli iacẽtis demiſeris.de 
 
 [Figure: circle inscribed in a hexagon with a vertical diameter, lettered b, h, g and a]
 
+[Curated heading level=2 type=propositions: Propoſitio .15.]
+
 ## Propoſitio .15.
 
 {dropcap:O|lines=5|style=decorated|decoration="foliate initial on dark ground within a square frame"}Mnium duarum ſperarum eſt proportio alterius ad alteram tanquã ſue diametri ad diametꝝ alterius proportio triplicata.

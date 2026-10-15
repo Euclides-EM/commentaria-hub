@@ -11,7 +11,9 @@
 
 b.ſint incõicantes:dico ꝙ.c.vtriqʒ earum erit incõmunicans ⁊ ecõuerſo:ac ſi.c.alteri earum ſit incõmunicans:erit quoqʒ incõmunicans ⁊ alteri:⁊ ipſe etiã inter ſe. Sint itaqʒ pꝛimum.a.⁊.b.cõmu icantes:ſitqʒ earum cõmunis menſura.d.qui cũ vtrãqʒ eaꝝ numeret per cõceptionẽ ſimilẽ antepenultime numerabit.⁊.c.quare ꝑ diffinitionẽ.c.cõicabit vtriqʒ eaꝝ.ſcʒ.a.⁊.b.Ecõuerſo quoqʒ ſi.c.cõmunicet vtriqʒ earum.ſit oĩm cõis menſura.d.cõſtat itaqʒ per diffinitionẽ.a.⁊.b.cõmunicantes eſſe ſed cõmunicet.c.cũ altera earum que ſit.a.dico ꝙ cõmunicabit cũ.b.⁊.a.etiã ⁊.b.communicabunt adinuicem.ſit enim.d.communiter menſurans.c.⁊.a.quia igitur.d.menſurat totum ⁊ detractum per conceptionem ipſa menſurabit reſiduum videlicet.b.per diffinitionem ergo ⁊.c.communicat cum.b.⁊.a.communicat quoqʒ cum.b.Si autẽ.a.⁊.b.ſint incommunicantes erit.c.incommunicans vtriqʒ earum:ſi enim cum vtraqʒ ſeu etiam cum altera earum communicaret ⁊ ipſe cõmunicarẽt adinuicem:quod eſt contra ypotheſiʒ Similiter quoqʒ econuerſo ſi.c.ẽ incommunicans vtriqʒ earum ſeu etiam alteri earum:erit quoqʒ incommunicans relique:⁊ ipſe inter ſe:qd̃ palam eſt ex predemonſtratis a deſtructiõe conſequẽtis.
 
-## Pꝛopoſitio .10.
+[Curated heading level=2 type=propositions: Propoſitio .10.]
+
+## Propoſitio .10.
 
 {dropcap:O|lines=4|style=decorated|decoration="foliate woodcut initial"}Mnium quatuoꝛ quantitatum pꝛopoꝛtionalium ſi fuerit pꝛima communicãs ſecunde:tertia quoqʒ erit communicans quarte. Si vero pꝛima incõmenſurabilis fuerit ſecũde:tertia quoqʒ incõmenſurabilis erit quarte.
 
@@ -19,7 +21,9 @@ b.ſint incõicantes:dico ꝙ.c.vtriqʒ earum erit incõmunicans ⁊ ecõuerſo:
 
 [Diagram: six horizontal segments labelled a, b, c, d, e and f]
 
-## Pꝛopoſitio .11.
+[Curated heading level=2 type=propositions: Propoſitio .11.]
+
+## Propoſitio .11.
 
 {dropcap:P|lines=4|style=decorated|decoration="foliate woodcut initial"}Ropoſita qualibet recta linea duas ei incõmenſurabiles alteram in longitudine tantum alteram in longitudine et potentia rectas lineas inuenire.
 

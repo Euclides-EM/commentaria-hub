@@ -4,6 +4,8 @@ Similiter equales per eandem:⁊ quia angulus.b.d.c.eſt maior angulo.a.d.c.ſeq
 [Diagram: two triangles side by side, the left with apex c and base vertices a and b, the right with apex f and base vertices d and e]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .8.]
+
 ## Propoſitio .8.
 
 {dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mnium duoꝝ trianguloꝝ quorum duo latera vni⁹ duobus lateribus alterius fuerint equalia:baſiſqʒ vnius baſi alterius equalis:duos angulos equis lateribus contentos:equales eſſe neceſſe eſt.
@@ -14,6 +16,8 @@ Similiter equales per eandem:⁊ quia angulus.b.d.c.eſt maior angulo.a.d.c.ſeq
 [Diagram: two overlapping triangles on a common base d.e with apices f and g and crossing lines between them]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .9.]
+
 ## Propoſitio .9.
 
 {dropcap:D|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Atum angulum per equalia ſecare.
@@ -23,6 +27,8 @@ Similiter equales per eandem:⁊ quia angulus.b.d.c.eſt maior angulo.a.d.c.ſeq
 [Margin]
 [Diagram: a quadrilateral with vertices b at top, a at left, c at right and d at bottom, with internal lines crossing at the centre]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .10.]
 
 ## Propoſitio .10.
 

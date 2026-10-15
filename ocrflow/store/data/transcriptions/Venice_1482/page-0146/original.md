@@ -6,7 +6,9 @@
 
 [Diagram: horizontal segments labelled a, c, b, d and e with handwritten numerals]
 
-## Pꝛopoſitio .6.
+[Curated heading level=2 type=propositions: Propoſitio .6.]
+
+## Propoſitio .6.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint due quantitates quaꝝ ſit proportio vnius ad alterã tanqʒ numeri ad numeꝝ:eas duas cõmunicantes eſſe neceſſe eſt.
 
@@ -14,7 +16,9 @@
 
 [Diagram: horizontal segments labelled f, a, e, b, c and d]
 
-## Pꝛopoſitio .7.
+[Curated heading level=2 type=propositions: Propoſitio .7.]
+
+## Propoſitio .7.
 
 {dropcap:O|lines=5|style=decorated|decoration="foliate woodcut initial"}Mnium duarum ſuperficierũ quadrataꝝ quaꝝ latera in longitudine cõmunicant eſt propoꝛtio vnius ad alteram tanquã numeri quadrati ad numerũ quadratum.Si vero fuerit propoꝛtio ſuꝑficiei quadrate ad ſuperficiem quadratam:tanquã propoꝛtio numeri quadrati ad numerũ quadratũ:erunt latera earũ in longitudine communicantia.Qd̃ ſi fuerit ꝓpoꝛtio ſuperficiei quadrate ad ſuperficiem quadratã:non velut numeri quadrati ad numerum quadratum:latera earum erunt in longitudine incõmenſurabilia.
 

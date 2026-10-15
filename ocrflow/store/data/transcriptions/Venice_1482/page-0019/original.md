@@ -6,6 +6,8 @@
 [Diagram: two triangles; the left with apex d and base through e, g and f, with interior lines drawn from d to g and f; the right with apex a and base from b to c]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .27.]
+
 ## Propoſitio .27.
 
 {dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I recta linea ſup duas lineas rectas ceciderit duoſqʒ angulos coalternos ſibiĩuicẽ equales fecerit ille due linee erũt equidiſtantes.
@@ -15,6 +17,8 @@
 [Margin]
 [Diagram: line from a to b crossing two lines which converge to point k on the left and point l on the right, passing through points c, g and d above and e, h and f below]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .28.]
 
 ## Propoſitio .28.
 

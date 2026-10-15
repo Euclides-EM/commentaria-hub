@@ -8,6 +8,8 @@ eſt rõnalis in longitudine:ergo per vltimã ptẽ.7.decimi linea.m.k.eſt rõn
 
 [Diagram: circle with inscribed pentagon, with labels e, d and f]
 
+[Curated heading level=2 type=propositions: Propoſitio .13.]
+
 ## Propoſitio .13.
 
 {dropcap:P|lines=4|style=decorated|decoration="foliate woodcut initial on black ground"}Iramidẽ q̃tuor baſiũ triãgulariũ ⁊ eq̃lateraꝝ ab aſſignata ſpera circũſcriptibilẽ fabricare hꝰ ergo ſpere diametros ad latꝰ ipſiꝰ piramidis ſexq̃alterã ꝓportionẽ potentialiter habere ꝓbať.¶ Sit linea.a.b.diameter aſſignate ſpere que diuidatur in puncto.c.ita ꝙ.a.c.ſit dupla ad.b.c.⁊ lineeť ſuper eam ſemicirculus.a.d.b.⁊ producatur linea.c.d.orthogonaliter ſup lineã.a.b.⁊ ꝓducať linea

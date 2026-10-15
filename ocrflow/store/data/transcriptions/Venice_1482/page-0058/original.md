@@ -7,11 +7,15 @@
 
 equales duobus angulis.d.⁊.b.trianguli.a.d.b.ergo per.32.primi:reliquus angulus.a.vnius eſt equalis reliquo angulo.a.alterius:ergo per.25.tertii arcus.c.d maioris eſt equalis arcui.d.b.⁊ per eandẽ arcus.e.d.minoris eſt equalis arcui.d.c.⁊ hoc eſt quod propoſuimus.
 
+[Curated heading level=2 type=propositions: Propoſitio .11.]
+
 ## Propoſitio .11.
 
 {dropcap:I|lines=5|style=decorated|decoration="foliate initial on dark ground"}Ntra datum circuluʒ equilaterum.atqʒ equiangulũ penthagonum deſcribere.
 
 ¶Sit datus circulus.a.b.c.volo intra ipſum deſcribere penthagonum vnũ equilateꝝ atqʒ equiangulũ.deſigno triangulũ vnũ qualeʒ premiſſa proponit.qui ſit.2.cui aliuʒ equiangulum intra datũ circulum deſcribo.ſicut docet ſecũda huius:qui ſit.a.b.c.ſitqʒ vterqʒ angulorum .a.b.c ⁊.a.c.b.duplus ad angulum.c.a.b.vtrũqʒ eorum diuido per equalia ductis lineis b.e.⁊.c.d.eruntqʒ per.25.tertii.5.arcus in quos.5.puncta.a.d.b.c.e. diuidũt circulum adinuicẽ equales.propter id ꝙ quinqʒ anguli qui in dictos arcus cadunt ſunt adinuicem eq̃les.continuatis igitur illis quinqʒ pũctis per lineas rectas que ſunt.a.d.d.b.b.c.c.e.⁊.e.a.erit penthagonus.a.d.b.c.e.inſcriptus dato circulo qualis proponitur:eſt enim equilaterus per.28.tertii cũ.5.arc⁹:quoꝝ eius quinqʒ latera ſunt corde:ſint ad inuicem equales:⁊ etiam equiangulus per.26.eiuſdem eo ꝙ quinqʒ arcus.d.a.e.a.e.c.e.c.b.c.b.d.⁊.b.d.a.in quos anguli ipſius penthagoni cadunt ſunt adinuicem equales:ſicqʒ conſtat propoſitum.
+
+[Curated heading level=2 type=propositions: Propoſitio .12.]
 
 ## Propoſitio .12.
 

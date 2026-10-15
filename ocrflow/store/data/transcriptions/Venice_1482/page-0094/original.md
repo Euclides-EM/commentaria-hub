@@ -4,6 +4,8 @@ perpendicularis ad baſim.dico ꝙ vterqʒ duorum triangulorum partialium qui ſ
 
 [Diagram: triangle with apex a and base corners b and c, with perpendicular from a to point d on the base]
 
+[Curated heading level=2 type=propositions: Propoſitio .9.]
+
 ## Propoſitio .9.
 
 {dropcap:D|lines=5|style=decorated|decoration="white floral vine on black ground"}Uabus lineis propoſitis tertiam inter eas ſub proportionalitate continua collocare.
@@ -12,6 +14,8 @@ perpendicularis ad baſim.dico ꝙ vterqʒ duorum triangulorum partialium qui ſ
 
 [Diagram: semicircle on diameter a d with apex e, perpendicular e b to the diameter and lines from e to a and d; segment c marked below the base; scale bar beneath]
 
+[Curated heading level=2 type=propositions: Propoſitio .10.]
+
 ## Propoſitio .10.
 
 {dropcap:D|lines=5|style=decorated|decoration="white floral vine on black ground"}Uabus lineis datis tertiam eis in continua proportionalitate ſubiungere.
@@ -19,6 +23,8 @@ perpendicularis ad baſim.dico ꝙ vterqʒ duorum triangulorum partialium qui ſ
 ¶Sint due linee propoſite.a.b.⁊.c.quibus volo tertiam in cõtinua proportionalitate ſubiungere:coniũgo lineam.c.angulariter vt cõtingit cuʒ linea.a.b.ſitqʒ.a.d.ſibi equalis.⁊ produco lineã.a.b.vſqʒ ad.e.donec fiat.b.e.equalis.a.d.⁊ protracta linea.b.d.a puncto.e.duco lineã ſibi equidiſtantemqʒ ⁊ lineam.a.d.produco quouſqʒ concurrant in puncto.f.dico igitur lineam.d.f.eſſe quã querimus.eſt enim per ſecundã huius proportio.a.b.ad.b.e.ſicut.a.d.ad.d.f.ſed.a.b.ad.b.e.eſt ſicut.a.b.ad.a.d.per.2.ptẽ.7.quinti:quare.a.b.ad.a.d.ſicut.a.d.ad.d.f.qd' eſt propoſitum.Qd' ſi propoſitis tribus lineis velimus inuenire quartam.ad quam ſit proportio tertie ſicut prime ad ſecũdaʒ:ex prima ⁊ ſecũda fiat linea vna ⁊ toti cõpoſite tertia:angulariter adiungaꝰ ⁊ a cõmuni termĩo prime ⁊ ſecunde:ducatur linea ad extremitatẽ tertie:⁊ ab altero termino ſecũde ducaꝰ huic linee equidiſtans:quouſqʒ concurrat cum tertia in cõtinuuʒ rectumqʒ protracta:eritqʒ per ſecundam huius linea quã hec equidiſtãs abſcindet que queritur:quẽadmodum ſi in hac figura fuerit prima.a.b.ſecunda.b.e. tertia.a.d.erit quarta.d.f.
 
 [Diagram: right triangle with vertex f at top left, base from e to a, and vertical line through points d and b meeting the base at c; scale bar beneath]
+
+[Curated heading level=2 type=propositions: Propoſitio .11.]
 
 ## Propoſitio .11.
 

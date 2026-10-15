@@ -2,6 +2,8 @@
 
 eritqʒ ꝑ.2.huius quod fit ex tota.a.b.in ſe:equũ ei ꝙ fit ex ipſa in.a.c.⁊.c.b.ſed ex ipſa in.a.c.tm̃ fit quãtũ ex.a.c.in ſe.⁊ ex.a.c.in.b.c.ꝑ.3.hui⁹.Itẽqʒ ex ipſa a.b.tota in.b.c.tm̃ fit quãtum ex.c.b.in ſe.⁊ ex.c.b.in.a.c.per eandem.ergo ꝙ fit ex tota.a.b.in ſe equũ ẽ ei ꝙ fit ex.a.c.in ſe ⁊ in.c.b.⁊ ex.c.b.in ſe.⁊ in.a.c.ꝙ eſt propoſitum.Sed hac via non patet correlariũ.ſicut via precedenti patet.vnde prima eſt auctori magis conſona.
 
+[Curated heading level=2 type=propositions: Propoſitio .5.]
+
 ## Propoſitio .5.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I linea recta per duo equalia duoqʒ inequalia ſecetur.ꝙ ſub inequalibus totius ſectionis rectangulũ continet̃ cũ eo quadrato ꝙ ab ea que inter vtraſqʒ ẽ ſectiones deſcribitur equum eſt ei quadrato ꝙ a dimidio totius linee ĩ ſe ducto deſcribitur.
@@ -15,6 +17,8 @@ eritqʒ ꝑ.2.huius quod fit ex tota.a.b.in ſe:equũ ei ꝙ fit ex ipſa in.a.c
 [Diagram: square with top corners e and f divided by a vertical line g and a diagonal crossing at h, a horizontal line from k through l to m, and a rectangle below with bottom points a and c]
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propoſitio .6.]
+
 ## Propoſitio .6.
 
 {dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I recta linea in duo equalia diuidat̃.alia vero ei linea in longũ addat̃.ꝙ ex ductu toti⁹ iã cõpoſite i eã q̃ iã adiecta ẽ cũ eo ꝙ ex ductu dimidie in ſeipſaʒ:equũ ẽ ei q̃drato ꝙ ab ea q̃ cõſtat ex adiecta ⁊ dimidia ĩ ſeipſã ducta deſcribit̃
@@ -27,6 +31,8 @@ eritqʒ ꝑ.2.huius quod fit ex tota.a.b.in ſe:equũ ei ꝙ fit ex ipſa in.a.c
 [/Handwritten]
 [Diagram: square with top corners e and f divided by a vertical line g and a diagonal from e to b crossing at h, a horizontal line from k through l to m, and a base line with points a, c, d and b]
 [/Margin]
+
+[Curated heading level=2 type=propositions: Propoſitio .7.]
 
 ## Propoſitio .7.
 

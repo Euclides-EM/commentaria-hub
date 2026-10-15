@@ -6,7 +6,9 @@ corpꝰ dematur de colũna.a.erit reſidũ eiꝰ triplũ ad piramidẽ.a. Jnſcr
 
 [Figure: rounded oblong labelled b]
 
-## Propoſitio.10.
+[Curated heading level=2 type=propositions: Propoſitio .10.]
+
+## Propoſitio .10.
 
 {dropcap:O|lines=4|style=decorated|decoration="white foliate scrollwork on black square ground"}Mnium duarum rotundaꝝ piramidum ſimiliũ columnarumve rotundarum ſimilium ẽ proportio alterius ad alteram tanqʒ diametri ſue baſis ad diametrũ baſis alteriꝰ proportio triplicata.
 

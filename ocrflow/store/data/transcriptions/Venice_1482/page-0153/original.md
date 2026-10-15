@@ -2,6 +2,8 @@
 
 7.due linee.b.c.b.k.ſunt incõmenſurabiles in longitudine. Eadem rõne quelibet due ex illis quatuoꝛ ſint incõmenſurabiles i longitudine:liquet ergo ꝙ volumus.
 
+[Curated heading level=2 type=propositions: Propoſitio .18.]
+
 ## Propoſitio .18.
 
 {dropcap:D|lines=5|style=decorated|decoration="floriated initial on black ground"}Uas lineas in potentia tantum rõnales cõicantes quoꝛũ longioꝛ plus poſſit bꝛeuioꝛi quantum eſt quadratũ linee ſibi incõmenſurabilis in longitudine inuenire.
@@ -18,6 +20,8 @@ a
 binomiũ et quid reſiduũ
 [/Handwritten]
 
+[Curated heading level=2 type=propositions: Propoſitio .19.]
+
 ## Propoſitio .19.
 
 {dropcap:O|lines=5|style=decorated|decoration="floriated initial on black ground"}Mnis ſuperficies quã cõtinẽt due linee potẽtialiter tãtũ rõnales cõicantes ẽ irrõnalis dicit̃qʒ ſupficies medialis eiuſqʒ latus tetragonicum ſcʒ qd̃ i eam poteſt eſt irrõnale diciturqʒ linea medialis.
@@ -33,6 +37,8 @@ binomiũ et quid reſiduũ
 [Handwritten]
 ſupficies medialis quid ſit
 [/Handwritten]
+
+[Curated heading level=2 type=propositions: Propoſitio .20.]
 
 ## Propoſitio .20.
 

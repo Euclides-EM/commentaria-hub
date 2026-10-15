@@ -2,7 +2,9 @@
 
 in his autem oĩbus proceſſum tuum nihil offendere poterit ſi pꝛimã earum ⁊ ꝑfecte didiceris ⁊ memoꝛiter tenueris:⁊ quid quodqʒ ſupponat ſolerter attenderis. Qꝺ ſi forſan de aliquo in quadrato.l.m.te dubitare contigerit ad ſuum equale in ſuperficie.a.d.tibi recurrendum erit:et patebunt tuo ingenio.
 
-## Pꝛopoſitio .92.
+[Curated heading level=2 type=propositions: Propoſitio .92.]
+
+## Propoſitio .92.
 
 {dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I ad lineam rationalem ſuperficies equalis quadrato reſidui applicet:alterũ lat⁹ reſiduũ pꝛimũ eſſe neceſſe eſt.
 
@@ -12,7 +14,9 @@ in his autem oĩbus proceſſum tuum nihil offendere poterit ſi pꝛimã earum 
 
 [Figure: tall rectangle a b n s divided by horizontal lines at p m, r q and c]
 
-## Pꝛopoſitio .93.
+[Curated heading level=2 type=propositions: Propoſitio .93.]
+
+## Propoſitio .93.
 
 {dropcap:C|lines=4|style=decorated|decoration="foliate initial on black ground"}Um adiuncta fuerit ſuperficies equalis quadrato reſidui medialis pꝛimi ad lineam rationalem: alterum latus eius erit reſiduum ſecundum.
 

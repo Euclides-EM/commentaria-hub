@@ -6,6 +6,8 @@ extremis interpoſitis. Et nota ꝙ etiam in proportionalitate continua extremor
 
 [Diagram: four numbers 2, 4, 12 and 48 on a horizontal line with arcs above labelled 2, 3 and 4, larger arcs labelled 6 and 6, and an arc below labelled 24]
 
+[Curated heading level=2 type=definitions: Diffinitio .12.]
+
 ## Diffinitio .12.
 
 [Diagram: four horizontal line segments labelled c 6, a 4, d 3 and b 2]

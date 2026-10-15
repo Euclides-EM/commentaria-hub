@@ -4,6 +4,8 @@ deuentũ cuiuſmodi eſt arcus hic.a.m.ſumatur arcus.a.n.equalis arcui.a.m.duca
 
 [Figure: circle with points n, p and m on the upper circumference and k and b at the sides, lines drawn from centre g to each of these points, chord k b crossed at q by the line from p to g]
 
+[Curated heading level=2 type=propositions: Propoſitio .14.]
+
 ## Propoſitio .14.
 
 {dropcap:D|lines=4|style=decorated|decoration="white foliage on black ground"}Vabus ſperis vnum centrum habentibus propoſitis intra maiorem earum ſolidum multarum baſium ſuperficiem minoris ſpere minime tangentiũ figuraliter cõſtituere Quo conſtituto ſi in minori ſpera ſiue in qualibet alia ſpera ſimile corpus intelligibiliter conſtituatur erit proportio corporis multarum baſium intra maiorẽ ſperam conſtituti ad corpus multarum baſium intra minorem ſperam vel aliam conſtitutam ſicut diametri maioris ſpere ad diametrum minoris vel alterius ſpere proportio triplicata.

@@ -6,6 +6,8 @@ tionũ eo ꝙ nõ ſit ꝓportio inter quantitates generum diuerſoꝝ:⁊ hec e
 
 [Diagram: horizontal lines labelled d 12, e 6 and f 3 beside lines labelled a 4, b 2 and c 1]
 
+[Curated heading level=2 type=definitions: Diffinitio .6.]
+
 ## Diffinitio .6.
 
 <!-- Signature: d 4 -->

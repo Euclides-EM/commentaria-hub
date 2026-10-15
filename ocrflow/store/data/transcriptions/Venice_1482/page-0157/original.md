@@ -4,7 +4,9 @@
 
 [Diagram: three horizontal lines labelled c, b and d]
 
-## Pꝛopoſitio .25.
+[Curated heading level=2 type=propositions: Propoſitio .25.]
+
+## Propoſitio .25.
 
 {dropcap:D|lines=4|style=decorated|decoration="floriated initial on black ground"}Uas lineas mediales potentia tantũ cõmunicãtes ſuperficiemqʒ rõnalem cõtinentes:quaꝝ longioꝛ ſit potentioꝛ bꝛeuioꝛi quadrato linee eidem longioꝛi in longitudine incõmenſurabilis inuenire.
 
@@ -12,7 +14,9 @@
 
 [Diagram: four horizontal lines labelled a, c, b and d]
 
-## Pꝛopoſitio .26.
+[Curated heading level=2 type=propositions: Propoſitio .26.]
+
+## Propoſitio .26.
 
 {dropcap:D|lines=4|style=decorated|decoration="floriated initial on black ground"}Uas lineas mediales potentia tantũ cõmunicantes ſuperficiemqʒ medialem continentes quarum longioꝛ bꝛeuioꝛe tanto amplius poſſit quantũ eſt quadratum alicuius linee incõmenſurabilis ipſi longioꝛi ĩ lõgitudine inuenire.
 
