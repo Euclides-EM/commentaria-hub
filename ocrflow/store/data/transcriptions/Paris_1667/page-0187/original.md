@@ -3,7 +3,10 @@
 
 ſeront equilateres entr'eux & iſocordes; & par conſequent égaux par le 1er Theoreme.
 
-## DE LA TROISIEME MESURE DE L'ANGLE, QUI EST LE SINUS.
+### DE LA TROISIEME MESURE DE L'ANGLE,
+[Subhead]
+QUI EST LE SINUS.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XXXIV.]
 

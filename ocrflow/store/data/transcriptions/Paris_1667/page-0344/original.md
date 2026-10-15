@@ -9,7 +9,10 @@ Cela pourroit ſuffire pour ceux qui cherchent plûtoſt à s'aſſurer de la ve
 
 Neanmoins pour plus grande certitude on peut employer deux voies pour prouver cette propoſition : l'une nouvelle appellée la *Geometrie des indiviſibles* : & l'autre ancienne & plus commune. Nous expliquerons l'une & l'autre.
 
-## NOUVELLE METHODE APPELLE'E LA GEOMETRIE DES INDIVISIBLES.
+### NOUVELLE METHODE APPELLE'E
+[Subhead]
+LA GEOMETRIE DES INDIVISIBLES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: III.]
 

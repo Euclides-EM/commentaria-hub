@@ -27,7 +27,14 @@ VIII.
 
 CETTE partie proportionelle de la circonference qui meſure la grandeur de l'angle s'appelle *l'arc que comprend l'angle*.
 
-## PROPOSITION FONDAMENTALE DE LA MESURE DES ANGLES.
+[Curated heading level=1 type=propositions: LIVRE HUITIEME.]
+
+[Curated heading level=2 type=propositions: IX. PROPOSITION FONDAMENTALE]
+
+## PROPOSITION FONDAMENTALE
+[Subhead]
+DE LA MESURE DES ANGLES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: IX.]
 
@@ -43,7 +50,10 @@ Pour montrer donc que les arcs de ces circonferences determinent tous la meſme 
 
 Or c'eſt ce qui a déja eſté prouvé, Livre VII. 20.
 
-## DE LA PREMIERE MESURE DE L'ANGLE QUI EST L'ARC COMPRIS ENTRE SES COSTEZ.
+## DE LA PREMIERE MESURE DE L'ANGLE
+[Subhead]
+QUI EST L'ARC COMPRIS ENTRE SES COSTEZ.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: X.]
 

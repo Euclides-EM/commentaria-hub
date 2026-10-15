@@ -5,7 +5,7 @@ toujours compoſée de la raiſon de la hauteur à la hauteur, & de la baſe à 
 
 Car les parallelogrammes ſont toujours entr'eux comme les rectangles de leur hauteur & de leur baſe.
 
-## QUATRIEME COROLLAIRE GENERAL.
+#### QUATRIEME COROLLAIRE GENERAL.
 
 [Curated heading level=4 type=paragraph_order: XV.]
 
@@ -17,7 +17,11 @@ Tout ce qui a eſté dit de la raiſon des rectangles par la comparaiſon de leu
 
 ## DES PARALLELOGRAMMES EQUIANGLES.
 
-## THEOREME GENERAL.
+[Curated heading level=2 type=propositions: XVI. THEOREME GENERAL.]
+
+[Curated heading level=2 type=theorems: XVI. THEOREME GENERAL.]
+
+### THEOREME GENERAL.
 
 [Curated heading level=4 type=paragraph_order: XVI.]
 
@@ -47,7 +51,7 @@ Or *f*. *p* :: *b*. *m*. par X. 11.
 
 Donc *b c*. *m n* :: *c. n* + *b. m*. Ce qu'il falloit demonſtrer.
 
-## COROLLAIRE GENERAL.
+### COROLLAIRE GENERAL.
 
 [Curated heading level=4 type=paragraph_order: XVII.]
 

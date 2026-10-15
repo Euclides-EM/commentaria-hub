@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE I. -->
 <!-- Page number: 21 -->
 
-## SECOND EXEMPLE.
+#### SECOND EXEMPLE.
 
 [Curated heading level=4 type=paragraph_order: LXXI.]
 
@@ -27,7 +27,7 @@ A = 7.
 
 Donc il y avoit 7 pauvres. Et j'avois 34 ſols.
 
-## TROISIEME EXEMPLE.
+#### TROISIEME EXEMPLE.
 
 [Curated heading level=4 type=paragraph_order: LXXII.]
 

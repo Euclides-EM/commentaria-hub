@@ -11,7 +11,9 @@ XXXVIII.
 
 Tout cela ſuppoſé, ſoient conſiderez les Lemmes ſuivans.
 
-## PREMIER LEMME.
+[Curated heading level=2 type=lemmas: XXXIX. PREMIER LEMME.]
+
+#### PREMIER LEMME.
 
 [Curated heading level=4 type=paragraph_order: XXXIX.]
 
@@ -21,7 +23,9 @@ XXXIX.
 
 QUAND on dit que deux angles qu'on veut meſurer par les ſinus ont le rayon égal, c'eſt de même que ſi l'on diſoit qu'ils ſont meſurez par des arcs de cercles égaux; & s'ils ont le rayon inégal, par des arcs de cercles inégaux.
 
-## SECOND LEMME.
+[Curated heading level=2 type=lemmas: XL. SECOND LEMME.]
+
+#### SECOND LEMME.
 
 [Curated heading level=4 type=paragraph_order: XL.]
 
@@ -31,7 +35,9 @@ XL.
 
 DANS les cercles égaux les arcs égaux ont des ſinus égaux, & les ſinus égaux donnent des arcs égaux. VII. 15.
 
-## TROISIEME LEMME.
+[Curated heading level=2 type=lemmas: XLI. TROISIEME LEMME.]
+
+#### TROISIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: XLI.]
 
@@ -41,7 +47,9 @@ XLI.
 
 DANS les cercles égaux les plus grands arcs ont les plus grands ſinus, & les plus grands ſinus donnent les plus grands arcs. VII. 15.
 
-## QUATRIEME LEMME.
+[Curated heading level=2 type=lemmas: XLII. QUATRIEME LEMME.]
+
+#### QUATRIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: XLII.]
 
@@ -51,7 +59,9 @@ XLII.
 
 DANS des cercles inégaux les arcs eſtant égaux, ceux des plus grands cercles ont les plus grands ſinus. VII. 18.
 
-## CINQUIEME LEMME.
+[Curated heading level=2 type=lemmas: XLIII. CINQUIEME LEMME.]
+
+#### CINQUIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: XLIII.]
 
@@ -61,7 +71,11 @@ XLIII.
 
 DANS des cercles inégaux les ſinus eſtant égaux, ceux des plus grands cercles donnent des arcs proportionellement plus petits, c'eſtadire de moins de degrez. C'eſt une ſuitte claire du precedent.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XLIV. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XLIV. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLIV.]
 

@@ -12,7 +12,7 @@ Dividendo         b — c. c : :  f — g. g.
 
 *Il ne faudroit point chercher d'autres preuves ſi toutes les raiſons eſtoient de nombre à nombre ; mais à cauſe des raiſons ſourdes, il en faut chercher qui les comprennent.*
 
-## PREUVE DE LA PERMUTATION.
+##### PREUVE DE LA PERMUTATION.
 
 [Curated heading level=4 type=paragraph_order: XLVI.]
 
@@ -22,7 +22,7 @@ XLVI.
 
 *Il n'en faut point d'autre que le 6ᵉ Axiome. s̃. 37.*
 
-## PREUVE DE L'ALTERNE.
+##### PREUVE DE L'ALTERNE.
 
 [Curated heading level=4 type=paragraph_order: XLVII.]
 

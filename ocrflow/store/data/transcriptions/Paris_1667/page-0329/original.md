@@ -7,7 +7,7 @@ Donc les aliquotes pareilles de b c & de c ſont également contenües, celles d
 
 Donc par la definition de l'égalité des raiſons b c & b d ſont en même raiſon que c & d; puiſque les aliquotes pareilles des antecedens b c & c ſont également contenus dans les conſequens b d & d. Donc b c. b d :: c. d.
 
-## PREMIER COROLLAIRE.
+### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XV.]
 
@@ -21,7 +21,7 @@ Les rectangles ſont en raiſon compoſée de la longueur à la longueur, & de l
 b c.  m n :: b.  m + c.  n.
 [/Calculation]
 
-## SECOND COROLLAIRE.
+### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XVI.]
 
@@ -39,7 +39,7 @@ Donc la raiſon de ces deux rectangles eſt compoſée de deux raiſons égales,
 
 Donc cette raiſon eſt doublée de chacune, par la definition de la raiſon doublée.
 
-## TROISIEME COROLLAIRE.
+### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XVII.]
 
@@ -51,7 +51,7 @@ LEs quarrez ſont en raiſon doublée de leurs racines. C'eſt la même choſe q
 
 Et ainſy ſi b eſt double de d, bb eſt quadruple de dd.
 
-## QUATRIEME COROLLAIRE.
+### QUATRIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XVIII.]
 

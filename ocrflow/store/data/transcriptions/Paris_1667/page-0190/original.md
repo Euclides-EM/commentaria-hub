@@ -15,7 +15,7 @@ Comme auſſy entre differentes paralleles, pourveu que les deux paralleles d'un
 
 On peut tirer de là diverſes propoſitions importantes qui ne ſeront que des Corollaires du 1er ou du 2e Theoreme.
 
-## PREMIER COROLLAIRE.
+##### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LII.]
 
@@ -29,7 +29,7 @@ TOUTE oblique entre deux paralleles fait les angles alternes ſur ces paralleles
 
 Car ces angles alternes ont pour rayon cette même ligne oblique b c, & pour ſinus l'un la perpendiculaire de b, ſur la parallele x, & l'autre la perpendiculaire de c, ſur la parallele z. Or ces deux perpendiculaires ſont égales. Donc par 45. s̃.
 
-## SECOND COROLLAIRE.
+##### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LIII.]
 
@@ -39,7 +39,7 @@ LIII.
 
 LES obliques égales entre les mêmes paralleles font les angles égaux : par la même raiſon.
 
-## TROISIEME COROLLAIRE.
+##### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LIV.]
 

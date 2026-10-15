@@ -11,7 +11,7 @@ Or l'angle vers *d* a pour meſure la moitié de l'arc *f g* ſur lequel il eſt
 
 Donc l'angle *f k g* qui leur eſt égal, a pour ſa meſure les moitiez de ces deux mêmes arcs : ce qu'il falloit demonſtrer.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XLIII.]
 
@@ -27,7 +27,9 @@ Je ne prouve point ce qui eſt ſuppoſé dans ce Corollaire, parce que c'eſt u
 
 ## III.
 
-## DES ANGLES DONT LE SOMMET EST HORS LE CERCLE QUE LEURS COSTEZ COUPENT OU TOUCHENT.
+[Subhead]
+DES ANGLES DONT LE SOMMET EST HORS LE CERCLE QUE LEURS COSTEZ COUPENT OU TOUCHENT.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XLIV.]
 

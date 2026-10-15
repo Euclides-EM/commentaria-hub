@@ -3,11 +3,18 @@
 
 La parallele à cette ligne qui paſſera par le point donné & coupera la ligne donnée, ſatisfera au Probleme.
 
-# DE LA QUATRIEME MESURE DE L'ANGLE QUI EST GENERALEMENT LA BASE.
+### DE LA QUATRIEME MESURE DE L'ANGLE
+[Subhead]
+QUI EST GENERALEMENT LA BASE.
+[/Subhead]
 
 CETTE meſure eſt la plus imparfaite, & ne peut ſervir à meſurer les angles qu'en cas que les coſtez de deux angles non iſoſceles ſoient égaux chacun à chacun, ce qui fera deux Theoremes.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: LXIII. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: LXIII. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LXIII.]
 
@@ -27,7 +34,11 @@ Or ces perpendiculaires ſont les ſinus de ces angles qui ont auſſy le rayon 
 
 2. CAS. Si on ne le peut (comme ſi ces angles eſtoient *c x k* des mêmes figures) alors la perpendiculaire *x p* menée du ſommet même de chacun des angles, feroit voir que les deux angles que les coſtez de chacun de ces angles obtus font ſur leur baſe, ſont égaux chacun à chacun (c'eſtadire l'angle *k* égal à l'angle *k*, & l'angle *c*, à l'angle *c*.) Donc les angles obtus *k c x* ſeront égaux, par 62. s̃.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: LXIV. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: LXIV. SECOND THEOREME.]
+
+#### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LXIV.]
 

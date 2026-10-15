@@ -21,6 +21,10 @@ III.
 
 *L'autre, que ces coupantes ſoient enfermées entre les coupées, & c'eſt auſſy ce que j'entens dans tout ce Livre quand je parle des lignes entre-paralleles.*
 
+[Curated heading level=1 type=lemmas: LIVRE SIXIEME.]
+
+[Curated heading level=2 type=lemmas: IV. PREMIER LEMME.]
+
 ## PREMIER LEMME.
 
 [Curated heading level=4 type=paragraph_order: IV.]

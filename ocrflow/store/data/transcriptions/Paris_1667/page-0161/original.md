@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE VII. -->
 <!-- Page number: 123 -->
 
-## TROISIEME COROLLAIRE.
+### TROISIEME COROLLAIRE.
 
 DEUX cercles ne ſe peuvent couper en plus de deux points. Car s'ils ſe coupoient en trois, leurs circonferences auroient 3 points communs, & par conſequent les auroient tous, & ainſy ne ſe couperoient point.
 
@@ -11,7 +11,11 @@ DEUX cercles ne ſe peuvent couper en plus de deux points. Car s'ils ſe coupoie
 V.
 [/Margin]
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: VI. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: VI. SECOND THEOREME.]
+
+### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: VI.]
 
@@ -25,7 +29,7 @@ Soit la corde m n coupée par f h perpendiculairement & par la moitié ; je dis 
 
 [Figure: circle with horizontal chord m n, vertical line f h through points g and c, dotted chords f m, f n, h m, h n]
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: VII.]
 

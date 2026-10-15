@@ -1,7 +1,11 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XI. -->
 <!-- Page number: 231 -->
 
-## HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.
+[Curated heading level=2 type=propositions: LVII. HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.]
+
+[Curated heading level=2 type=theorems: LVII. HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.]
+
+### HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.
 
 [Curated heading level=4 type=paragraph_order: LVII.]
 
@@ -13,7 +17,7 @@ Si une des lignes eſt coupée par la moitié, une de ces moitiez eſt moyenne p
 
 C'eſt le Corollaire même de la 2ᵉ Propoſition fondamentale.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LVIII.]
 
@@ -25,7 +29,11 @@ Si d'un point quelconque d'un diametre on éleve une perpendiculaire juſques à
 
 Car il eſt clair que cette perpendiculaire eſt la moitié de la corde qui couperoit le diametre perpendiculairement par ce point. Donc par le Theoreme precedent elle doit eſtre moyenne proportionelle entre les parties du diametre.
 
-## NEUVIEME THEOREME.
+[Curated heading level=2 type=propositions: LIX. NEUVIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: LIX. NEUVIEME THEOREME.]
+
+### NEUVIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LIX.]
 

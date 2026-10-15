@@ -13,6 +13,10 @@ Or pour cela il ne faut que tranſporter les termes en commençant par *n*, & le
 
 *x*. p :: *m*. *n*. Ce qu'il falloit demonſtrer.
 
+[Curated heading level=2 type=propositions: XXXVIII. TROISIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXVIII. TROISIEME PROBLEME.]
+
 ## TROISIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXVIII.]

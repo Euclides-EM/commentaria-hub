@@ -3,7 +3,11 @@
 
 x f pour rayon, auront m f pour tangente par le 1er theorême, & ne rencontreront, ny la circonference qui a c pour centre, ny les unes les autres, qu'en f ( par 27. ſ̃. ) Donc toutes ces circonferences paſſeront ſans ſe rencontrer entre la tangente & le premier cercle.
 
-## PREMIER PROBLEME.
+[Curated heading level=2 type=propositions: XXXIII. PREMIER PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXIII. PREMIER PROBLEME.]
+
+### PREMIER PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXIII.]
 
@@ -15,7 +19,11 @@ DESCRIRE la tangente qui touche la circonference à un point donné.
 
 Tirer un rayon de ce point donné, la perpendiculaire à l'extrémité de ce rayon ſera la tangente que l'on cherche.
 
-## SECOND PROBLEME.
+[Curated heading level=2 type=propositions: XXXIV. SECOND PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXIV. SECOND PROBLEME.]
+
+### SECOND PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXIV.]
 

@@ -3,7 +3,7 @@
 
 + d d. Et on peut conduire cela juſqu'à l'infini.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XLII.]
 
@@ -13,7 +13,11 @@ XLII.
 
 TROUVER le quarré égal à pluſieurs rectangles donnez , il ne faut que trouver les quarrez égaux à chacun de ces rectangles. Et puis on trouvera le quarré égal à tous ces quarrez.
 
-## QUATRIEME PROBLEME.
+[Curated heading level=2 type=propositions: XLIII. QUATRIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: XLIII. QUATRIEME PROBLEME.]
+
+### QUATRIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XLIII.]
 
@@ -39,7 +43,11 @@ Or b. d : : m. n.
 
 Donc b b. c c : : m. n.
 
-## CINQUIEME PROBLEME.
+[Curated heading level=2 type=propositions: XLIV. CINQUIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: XLIV. CINQUIEME PROBLEME.]
+
+### CINQUIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XLIV.]
 
@@ -51,7 +59,11 @@ DIVISER une ligne , en ſorte que le quarré de la plus grande portion ſoit ég
 
 Ce Probleme a eſté reſolu (XI. 68.) quand on a appris à couper une ligne en moyenne & extrême raiſon : c'eſtadire , en ſorte que la toute ſoit à la plus grande portion , comme la plus grande portion à la plus petite.
 
-## SIXIEME PROBLEME.
+[Curated heading level=2 type=propositions: XLV. SIXIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: XLV. SIXIEME PROBLEME.]
+
+### SIXIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XLV.]
 

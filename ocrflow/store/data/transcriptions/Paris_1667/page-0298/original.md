@@ -3,7 +3,10 @@
 
 peut eſtre que d'une ſorte, quoiqu'il ne ſoit pas toûjours facile de la décrire; parceque ſouvent il n'eſt pas aiſé ou de trouver le coſté d'une figure reguliere en ayant le raion, ce qui eſt la même choſe que de l'inſcrire en un cercle donné : ou d'en trouver le raion en ayant le coſté; ce qui eſt la même choſe que trouver le cercle dans lequel une figure dont le coſté eſt donné puiſſe eſtre inſcritte. C'eſt de quoy nous allons traitter.
 
-## DE L'INSCRIPTION OU CIRCONSCRIPTION D'UNE FIGURE REGULIERE DE TELLE ESPECE DANS UN CERCLE DONNE'.
+## DE L'INSCRIPTION OU CIRCONSCRIPTION
+[Subhead]
+D'UNE FIGURE REGULIERE DE TELLE ESPECE DANS UN CERCLE DONNE'.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XXXI.]
 
@@ -15,7 +18,7 @@ IL eſt bien facile par ce qui a eſté dit, une figure reguliere eſtant décri
 
 Ainſy je penſe que tout ce que l'on peut faire de mieux ſe reduit à ces deux regles generales, & à quelques Problemes particuliers.
 
-## PREMIERE REGLE GENERALE.
+### PREMIERE REGLE GENERALE.
 
 [Curated heading level=4 type=paragraph_order: XXXII.]
 

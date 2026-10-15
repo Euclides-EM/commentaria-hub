@@ -7,7 +7,11 @@ b. c : : f b. f c.
 
 10 x. 9 x + r : : 10 f x. 9 f x + f r.
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: XLIII. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XLIII. TROISIEME THEOREME.]
+
+#### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLIII.]
 
@@ -36,7 +40,11 @@ m.    n.   }     5 x.  3 x.
 
 Et ce ſera la même choſe dans les raiſons ſourdes, en ajoûtant ſeulement aux trois conſequens, *plus le reſidu*.
 
-## QUATRIEME THEOREME.
+[Curated heading level=2 type=propositions: XLIV. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XLIV. QUATRIEME THEOREME.]
+
+#### QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLIV.]
 

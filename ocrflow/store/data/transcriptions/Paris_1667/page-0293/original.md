@@ -11,7 +11,7 @@ Or ces perpendiculaires en ſont les raions droits.
 
 Donc ſi on décrit un autre cercle de l'intervale d'un raion droit; c'eſtadire d'une perpendiculaire à un coſté, cette figure ſera circonſcritte à ce cercle; puiſque tous ces raions droits eſtant égaux, il n'y aura aucun coſté qui ne touche le cercle.
 
-## COROLLAIRE.
+##### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XX.]
 
@@ -27,7 +27,13 @@ La ſeconde, de combien de degrez eſt l'angle de la figure; c'eſtadire l'angle
 
 La troiſiême, quel eſt auſſy l'angle que fait un raion ſur un coſté: c'eſt ce qui ſe verra par ces trois Problemes.
 
-## PREMIER PROBLEME.
+[Curated heading level=1 type=problems: LIVRE DOVZIEME.]
+
+[Curated heading level=2 type=propositions: XXI. PREMIER PROBLEME.]
+
+[Curated heading level=2 type=problems: XXI. PREMIER PROBLEME.]
+
+##### PREMIER PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXI.]
 
@@ -43,7 +49,11 @@ Ainſy l'arc d'une figure de 15 coſtez eſt de 24 degrez, parceque 15 diviſant
 
 L'arc d'une figure de 3600 coſtez eſt de 6 minutes, parceque 21600 minutes eſtant diviſé par 3600, le quotient eſt 6.
 
-## SECOND PROBLEME.
+[Curated heading level=2 type=propositions: XXII. SECOND PROBLEME.]
+
+[Curated heading level=2 type=problems: XXII. SECOND PROBLEME.]
+
+##### SECOND PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 

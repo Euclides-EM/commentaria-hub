@@ -3,7 +3,7 @@
 
 eux comme les termes de la même progreſſion, entre leſquels il y a deux fois autant d'intervale qu'entre les termes dont on compare les quarrez. Cela eſt clair par 13.
 
-### Onzieme Corollaire.
+### ONZIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXVIII.]
 
@@ -25,7 +25,7 @@ Or   bbb.  bbf  ::  b.  f.
 Donc bbb.  ccc  ::  b. f.
 [/Calculation]
 
-### Douzieme Corollaire.
+### DOUZIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXIX.]
 
@@ -39,7 +39,7 @@ Car ayant un cube donné comme bbb, il faut prendre f double de b, & ſi on peut
 
 Le cube de c. premiere de ces moyennes proportionelles ſera double du cube de b.
 
-### Treizieme Corollaire.
+### TREIZIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXX.]
 
@@ -49,7 +49,13 @@ XXX.
 
 On peut dire generalement que les cubes de deux termes d'une progreſſion Geometrique ſont entr'eux, comme les termes de la même progreſſion, entre leſquels il y a trois fois autant d'intervales, qu'entre les termes dont on compare les cubes.
 
-### IX. Theoreme. Definition.
+[Curated heading level=2 type=propositions: XXXI. IX. THEOREME. DEFINITION.]
+
+[Curated heading level=2 type=theorems: XXXI. IX. THEOREME. DEFINITION.]
+
+[Curated heading level=2 type=definitions: XXXI. IX. THEOREME. DEFINITION.]
+
+### IX. THEOREME. DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: XXXI.]
 

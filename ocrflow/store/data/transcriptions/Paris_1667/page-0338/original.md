@@ -5,7 +5,11 @@ Donc a n n + b b. ( puiſque b b = c c. + b c )
 
 Donc a n n + 4. n n. Donc a 5. n n. Ce qu'il falloit demonſtrer.
 
-## TREIZIEME THEOREME.
+[Curated heading level=2 type=propositions: XXXIX. TREIZIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIX. TREIZIEME THEOREME.]
+
+### TREIZIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIX.]
 
@@ -25,7 +29,13 @@ Or 2. c c + 2. c b = 2. b b. puiſque c c + c b = b b.
 
 Donc d d + c c. = 3. b b. Ce qu'il falloit demonſtrer.
 
-## PREMIER PROBLEME.
+[Curated heading level=1 type=problems: LIVRE QUATORZIEME.]
+
+[Curated heading level=2 type=propositions: XL. PREMIER PROBLEME.]
+
+[Curated heading level=2 type=problems: XL. PREMIER PROBLEME.]
+
+### PREMIER PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XL.]
 
@@ -41,7 +51,11 @@ Il ne faut que trouver la moyenne proportionelle entre les coſtez du rectangle 
 
 Ou entre les deux lignes qui font l'aire donnée ; comme ſi l'aire eſt ſuppoſée de 20 toiſes , ou pieds , ou pouces , entre un & 20 , ou 2 & 10 , ou 4 & 5.
 
-## SECOND PROBLEME.
+[Curated heading level=2 type=propositions: XLI. SECOND PROBLEME.]
+
+[Curated heading level=2 type=problems: XLI. SECOND PROBLEME.]
+
+### SECOND PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XLI.]
 
@@ -51,7 +65,11 @@ XLI.
 
 AYANT le coſté d'un rectangle , trouver quel doit eſtre l'autre , afin qu'il ſoit égal à un rectangle donné. Prendre le coſté donné pour premier terme de la proportion , les deux coſtez du rectangle donné pour 2 & 3 , le coſté que l'on cherche ſe trouvera en trouvant une 4ᵉ proportionelle.
 
-## TROISIEME PROBLEME.
+[Curated heading level=2 type=propositions: TROISIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: TROISIEME PROBLEME.]
+
+### TROISIEME PROBLEME.
 
 TROUVER un quarré égal à deux ou pluſieurs quarrez donnez.
 

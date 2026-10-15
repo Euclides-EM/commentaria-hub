@@ -15,7 +15,7 @@ XIII.
 
 LE plus grand myſtere de la ſolution de ce Probleme conſiſte à marquer par lettres quelques uns des petits chiffres de chaque bande.
 
-### Quarrez impairs.
+### QUARREZ IMPAIRS.
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 
@@ -49,7 +49,7 @@ Et la cellule à gauche au deſſous d'*e* par *ω*.
 
 Et au coſté droit celle qui eſt au deſſus de la cellule qui eſt vis à vis le centre par *β*.
 
-### Dans les Quarrez pairs.
+### DANS LES QUARREZ PAIRS.
 
 [Curated heading level=4 type=paragraph_order: XVI.]
 

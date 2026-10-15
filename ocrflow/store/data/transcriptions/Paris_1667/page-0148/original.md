@@ -9,6 +9,8 @@ Que ſi au contraire *b c* eſt oblique ſur *z*, toutes les perpendiculaires de
 
 Mais remarquez que je ne dis pas qu'un point d'*x* ne puiſſe eſtre auſſy diſtant de *z* qu'un point de *z* eſt diſtant d'*x*, mais ſeulement que tous les points d'*x* ſont inégalement diſtans de *z*, & tous les points de *z* inégalement diſtans d'*x*.
 
+[Curated heading level=2 type=lemmas: XII. HUITIEME LEMME.]
+
 ## HUITIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: XII.]
@@ -23,6 +25,9 @@ Si deux lignes menées d'un même point ſont inclinées l'une ſur l'autre, tou
 
 Car on ne peut tirer d'un point de *z* une perpendiculaire ſur *x*, qu'elle ne ſoit oblique ſur *z*, par V. 37. Dont tout le reſte ſuit par le ſecond Lemme.
 
-## TROIS PROPOSITIONS FONDAMENTALES DES PARALLELES.
+## TROIS PROPOSITIONS FONDAMENTALES
+[Subhead]
+DES PARALLELES.
+[/Subhead]
 
 *Ces Lemmes donnent trois marques certaines pour reconnoiſtre ſi deux lignes ſont paralleles ſelon la notion poſitive, c'eſtadire ſi tous les points de chacune ſont également diſtans de l'autre ; ce qui fera les trois Propoſitions ſuivantes.*

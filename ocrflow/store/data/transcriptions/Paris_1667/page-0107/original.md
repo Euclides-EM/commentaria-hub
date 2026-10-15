@@ -1,6 +1,10 @@
 <!-- Running title: DE GEOMETRIE. LIVRE IV. -->
 <!-- Page number: 69 -->
 
+[Curated heading level=2 type=propositions: XV. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XV. QUATRIEME THEOREME.]
+
 ## QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XV.]
@@ -48,7 +52,7 @@ Donc oſtant de part & d'autre bcd , reſte  { iii.
                                            { xxx.
 [/Calculation]
 
-#### SECONDE MANIERE, qui eſt meſlée de la Troiſiéme.
+#### SECONDE MANIERE, QUI EST MESLÉE DE LA TROISIÉME.
 
 [Calculation]
 b.   c  ::  bx.   cx  ::  by.   cy.
@@ -69,9 +73,12 @@ Donc oſtant de part & d'autre ixy , reſte  { bbb.
 
 C'eſt la même choſe de la 3e maniere.
 
-## PROPOSITION FONDAMENTALE
+[Curated heading level=2 type=propositions: XVI. PROPOSITION FONDAMENTALE]
 
-## DES GRANDEVRS INCOMMENSVRABLES.
+## PROPOSITION FONDAMENTALE
+[Subhead]
+DES GRANDEVRS INCOMMENSVRABLES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XVI.]
 

@@ -1,9 +1,15 @@
 <!-- Page number: 264 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## TROISIEME LEMME.
+[Curated heading level=2 type=lemmas: TROISIEME LEMME.]
 
-## DEFINITION.
+### TROISIEME LEMME.
+
+[Curated heading level=1 type=definitions: LIVRE TREIZIEME.]
+
+[Curated heading level=2 type=definitions: III. DEFINITION.]
+
+### DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: III.]
 
@@ -13,9 +19,17 @@ III.
 
 Le coſté quelconque d'un triangle en peut eſtre appellé *la baſe*, & les deux autres ſes coſtez : & alors l'angle ſoûtenu par la baſe eſt appellé *l'angle du ſommet*, & la diſtance de ce ſommet à la baſe eſt appellée *la hauteur du triangle*.
 
-## TRIANGLES CONSIDEREZ A PART.
+### TRIANGLES CONSIDEREZ A PART.
 
-## PREMIER THEOREME.
+[Curated heading level=1 type=propositions: LIVRE TREIZIEME.]
+
+[Curated heading level=1 type=theorems: LIVRE TREIZIEME.]
+
+[Curated heading level=2 type=propositions: IV. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: IV. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: IV.]
 
@@ -25,7 +39,7 @@ IV.
 
 Tout triangle a ſes trois angles égaux à deux droits. VIII. 59.
 
-## PREMIER COROLLAIRE.
+#### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: V.]
 
@@ -35,7 +49,7 @@ V.
 
 Tous les trois angles d'un triangle peuvent eſtre aigus; mais il n'y en peut avoir qu'un droit ou obtus.
 
-## SECOND COROLLAIRE.
+#### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: VI.]
 
@@ -45,7 +59,7 @@ VI.
 
 Si l'un des angles du triangle eſt droit, les deux autres valent un droit.
 
-## TROISIEME COROLLAIRE.
+#### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: VII.]
 
@@ -57,7 +71,11 @@ Qui connoiſt la grandeur des deux angles d'un triangle, connoiſt la grandeur d
 
 Qui connoiſt de combien de degrez ſont les deux, ſçait de combien de degrez eſt le 3ᵉ. Car oſtant le nombre des degrez que valent les deux de 180, ce qui reſte eſt le nombre des degrez que vaut le 3ᵉ. Si les deux valent 108 degrez, le 3ᵉ en vaut 72.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: VIII. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: VIII. SECOND THEOREME.]
+
+#### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: VIII.]
 

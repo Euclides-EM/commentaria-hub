@@ -3,7 +3,11 @@
 
 & paralleles, les deux autres ſont auſſy égaux & paralleles. VI. 28.
 
-## QUATRIEME THEOREME.
+[Curated heading level=2 type=propositions: XLI. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XLI. QUATRIEME THEOREME.]
+
+#### QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLI.]
 
@@ -23,7 +27,7 @@ Donc les deux autres vers *b* & vers *c* ſont auſſy égaux à deux droits, pu
 
 Oſtant donc de part & d'autre les deux aigus *c* & *f* qui ſont égaux, les obtus oppoſez *b* & *d* ſeront égaux.
 
-## PREMIER COROLLAIRE.
+#### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XLII.]
 
@@ -35,7 +39,7 @@ S'IL y a un angle droit dans un parallelogramme, tous les autres le ſont auſſ
 
 Car l'oppoſé eſt droit, puiſqu'il eſt égal à celuy là; & les proches ne peuvent valoir deux droits, que l'un eſtant droit, l'autre ne le ſoit auſſy.
 
-## SECOND COROLLAIRE.
+#### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XLIII.]
 
@@ -45,7 +49,7 @@ XLIII.
 
 QUI connoiſt un angle d'un parallelogramme, les connoiſt tous. Car ce qui manque de la demycirconference à l'arc qui meſure l'angle donné, eſt la meſure de l'angle proche de celuy là, & les deux autres ſont égaux chacun à l'un de ces deux là.
 
-## TROISIEME COROLLAIRE.
+#### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XLIV.]
 
@@ -55,7 +59,7 @@ XLIV.
 
 DEUX parallelogrammes qui ont un angle égal, ſont equiangles.
 
-## QUATRIEME COROLLAIRE.
+#### QUATRIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XLV.]
 

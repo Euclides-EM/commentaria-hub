@@ -31,6 +31,9 @@ Donc *b f* = *n p*. I. 18.
 
 Donc *c b* = *m n*. V. 48. Ce qu'il falloit demonſtrer.
 
-# OBSERVATION TOUCHANT LA COMPARAISON DE LA PREMIERE MESURE DES ANGLES AVEC CES TROIS DERNIERES.
+## OBSERVATION TOUCHANT LA COMPARAISON
+[Subhead]
+DE LA PREMIERE MESURE DES ANGLES AVEC CES TROIS DERNIERES.
+[/Subhead]
 
 *Nous avons déja dit qu'il n'y avoit que l'arc qui fuſt la meſure parfaite & naturelle de l'angle. Mais pour le mieux voir, il faut remarquer que les trois autres meſures montrent bien ſi un angle eſt égal à un angle, ou entre des angles inégaux quel eſt le plus grand ou quel eſt le plus petit. Mais il n'y a que l'arc qui donne la veritable proportion entre les angles inégaux. Car il eſt certain que ſi l'arc eſt triple ou quadruple, ou quintuple de l'arc, l'angle ſera auſſy triple, quadruple ou quintuple de l'angle. Mais cela ne ſe peut*

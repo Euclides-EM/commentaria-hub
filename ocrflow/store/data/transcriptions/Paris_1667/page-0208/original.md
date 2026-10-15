@@ -3,7 +3,7 @@
 
 tiere, c'eſtadire de 360. degrez, les deux arcs que ſoutiennent les coſtez de l'angle inſcrit, la moitié de ce qui reſtera ſera la meſure de l'angle inſcrit, comme ſi l'un de ces arcs eſt de 100 degrez, & l'autre de 44, oſtant 144 de 360, reſtera 216, dont la moitié eſt 108 pour la meſure de l'angle inſcrit.
 
-## SECOND COROLLAIRE.
+### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XX.]
 
@@ -19,7 +19,7 @@ Et cette meſure eſt ſouvent plus commode que l'autre, comme ſi l'on ſçait 
 
 Et cela eſt encore plus facile, quand l'angle inſcrit eſt Iſoſcele, comme ſi l'un & l'autre de ſes coſtez ſoutient un arc de 36 degrez: car oſtant 36 de 180, ce qui reſte, qui eſt 144, eſt la meſure de cet angle inſcrit.
 
-## TROISIEME COROLLAIRE.
+### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXI.]
 

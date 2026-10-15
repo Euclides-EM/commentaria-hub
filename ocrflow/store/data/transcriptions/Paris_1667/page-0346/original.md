@@ -5,7 +5,15 @@
 
 Il faut donc bien prendre garde que les lignes ( par le rapport deſquelles on dit qu'une ſomme de ces lignes paralleles qui rempliſſent un eſpace, eſt égale à une autre ſomme ) les coupent perpendiculairement. Et c'eſt où il y a plus de danger de ſe tromper. Sur ces fondemens voicy les Theoremes que l'on établit.
 
-## PREMIER THEOREME.
+[Curated heading level=1 type=propositions: LIVRE QVINZIEME.]
+
+[Curated heading level=1 type=theorems: LIVRE QVINZIEME.]
+
+[Curated heading level=2 type=propositions: IV. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: IV. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: IV.]
 

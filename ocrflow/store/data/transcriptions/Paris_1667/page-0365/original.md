@@ -32,7 +32,7 @@ II.
 
 J'appelle quarrez naturels ceux où les chiffres ſont diſpoſez en progreſſion arithmetique en commençant par les plus petits.
 
-### Sur les Quarrez impairs.
+### SUR LES QUARREZ IMPAIRS.
 
 [Curated heading level=4 type=paragraph_order: III.]
 

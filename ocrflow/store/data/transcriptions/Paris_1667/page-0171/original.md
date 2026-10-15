@@ -7,7 +7,11 @@ Donc tous les points de cette ligne ſont également diſtans d'x & x. Donc le p
 
 C'eſt la même choſe de deux points également diſtans de g.
 
-## QUATRIEME THEOREME.
+[Curated heading level=2 type=propositions: XXVII. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXVII. QUATRIEME THEOREME.]
+
+### QUATRIEME THEOREME.
 
 Si du centre k, intervale kf, ou kg, on décrit un nouveau cercle, il touchera le premier cercle en un ſeul point, c'eſt à dire en f, ou en g, ſans le couper.
 
@@ -23,7 +27,11 @@ Car ſi kf eſt rayon du 2e cercle, comme cette ligne eſt la plus courte de tou
 
 Et au contraire ſi kg eſt le rayon du 2e cercle, cette ligne eſtant la plus longue de toutes celles qui peuvent eſtre menées de k à la circonference du 1er cercle, toute autre ligne menée de k à la circonference du 1er cercle ne pourra pas aller juſqu'à la circonference du 2e.
 
-## CINQUIEME THEOREME.
+[Curated heading level=2 type=propositions: XXVIII. CINQUIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXVIII. CINQUIEME THEOREME.]
+
+### CINQUIEME THEOREME.
 
 Si du centre k, intervale plus grand que kf, & plus petit que kg, comme pourroit eſtre kx, on décrit un cercle, il coupera la circonference du premier au point x & x. C'eſt à dire à deux points également diſtans de f, (ou également diſtans de g, ſi on avoit pris un point pour determiner cet intervale plus proche de g,) & la partie de la circonference du 1er cercle entre x & x, dont le milieu eſt f, ſe-
 

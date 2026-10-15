@@ -1,7 +1,7 @@
 <!-- Page number: 292 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## MESMES COROLLAIRES AUTREMENT PROPOSEZ.
+### MESMES COROLLAIRES AUTREMENT PROPOSEZ.
 
 [Curated heading level=4 type=paragraph_order: XIX.]
 
@@ -35,7 +35,7 @@ Si ÷ b. c. d.  cc = b d.  II. 27.
 b b.  cc :: b. d.  par III. 26.
 [/Calculation]
 
-## CINQUIEME COROLLAIRE.
+### CINQUIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XX.]
 

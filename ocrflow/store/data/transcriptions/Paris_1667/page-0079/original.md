@@ -15,7 +15,7 @@ Car puiſque par l'hypotheſe bg eſt égal à cf ils doivent avoir même raiſo
 
 Or la raiſon de bf à bg eſt celle de f.g, & la raiſon du même bf à cf (égale à b.g) eſt celle de b.c, donc la raiſon de bc eſt la même que celle de f.g.
 
-### COROLLAIRE PREMIER.
+##### COROLLAIRE PREMIER.
 
 [Curated heading level=4 type=paragraph_order: LVI.]
 

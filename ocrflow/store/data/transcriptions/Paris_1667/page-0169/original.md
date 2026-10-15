@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE VII. -->
 <!-- Page number: 131 -->
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 
@@ -13,7 +13,9 @@ DE là il s'enſuit que plus les arcs ſont grands, plus la difference eſt gran
 
 ## SECONDE SECTION.
 
-### DES SECANTES INTERIEURES ET EXTERIEURES.
+[Subhead]
+DES SECANTES INTERIEURES ET EXTERIEURES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XXIII.]
 

@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE IX. -->
 <!-- Page number: 187 -->
 
-## SIXIEME COROLLAIRE.
+### SIXIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LVIII.]
 
@@ -34,7 +34,7 @@ LE ſommet de l'angle eſt
 | | L'un le touchant & l'autre le coupant. | | 8. |
 | | Et parmy ces angles, l'un des coſtez coupant le cercle & eſtant terminé à l'extremité du diametre auquel l'autre coſté eſt perpendiculaire. | | 9. |
 
-## ONT POUR MESURE
+### ONT POUR MESURE
 
 1\. L'arc ſur lequel il eſt appuyé. VIII. 10.
 

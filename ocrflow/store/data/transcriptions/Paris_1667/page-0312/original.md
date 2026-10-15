@@ -15,9 +15,13 @@ port. du coſté. perpend :: port. de la perp. port. du coſté.
 
 *mc. md :: mp. mb.*
 
-## DES TRIANGLES RECTANGLES.
+### DES TRIANGLES RECTANGLES.
 
-## Premier Theoreme.
+[Curated heading level=2 type=propositions: XXXI. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXI. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXI.]
 

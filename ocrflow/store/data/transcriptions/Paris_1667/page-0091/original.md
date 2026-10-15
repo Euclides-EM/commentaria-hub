@@ -9,7 +9,7 @@ Si  b.    c   ::  f.    g.
 
 Car les quarrez eſtant en raiſon doublée de leurs racines, & les cubes en raiſon triplée, les raiſons doublées & triplées de raiſons égales doivent eſtre égales par le 1er Theoreme.
 
-### Huitieme Corollaire.
+### HUITIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
 
@@ -29,7 +29,7 @@ Et  bc.  cc  ::  b.   c.
 
 C'eſt la même choſe de dire que le produit de la toute & d'une partie eſt moyen proportionnel entre le quarré de la toute & le quarré de cette partie. Car il eſt viſible que ſi la toute eſt t. & m. une partie tt. tm :: tm. mm.
 
-### Neuvieme Corollaire.
+### NEUVIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]
 
@@ -56,7 +56,7 @@ Or   bb.  bd  ::  b.  d.
 Donc bb.  cc  ::  b.  d.
 [/Calculation]
 
-### Dixieme Corollaire.
+### DIXIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXVII.]
 

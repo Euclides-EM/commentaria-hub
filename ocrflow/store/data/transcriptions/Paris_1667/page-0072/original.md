@@ -17,7 +17,11 @@ Donc par la 2ᵉ definition, b + m. c + n : : b. c. *Ce qu'il faloit démontrer.
 
 Que ſi on oſte *m* & *n* de *b* & *c*; on montrera par la même voye que b — m contient 5 fois une aliquote égale à x — y : & que c — n contient 3 fois une portion égale à x — y, avec un reſidu égal à r — r.
 
-## CINQUIEME THEOREME.
+[Curated heading level=2 type=propositions: XLV. CINQUIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XLV. CINQUIEME THEOREME.]
+
+#### CINQUIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLV.]
 

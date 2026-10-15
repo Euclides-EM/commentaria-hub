@@ -3,11 +3,19 @@
 
 la ligne qui touche le cercle ſans entrer dedans, quoy que prolongée.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: PREMIER THEOREME.]
+
+### PREMIER THEOREME.
 
 Toute ligne perpendiculaire à l'extrémité d'un rayon touche le cercle, & ne le touche qu'en un ſeul point; c'eſtadire qu'il n'y a qu'un ſeul point qui ſoit commun à la circonference & à cette ligne; & ce point s'appelle le point de l'atouchement. Car puiſque le rayon eſt perpendiculaire à cette ligne, c'eſt la plus courte de toutes les lignes qui puiſſent eſtre menées du centre à cette ligne. Donc toute autre menée du centre ſera plus longue. Donc elle ſe terminera en un point hors de la circonference. Donc nul autre point que celuy où ce rayon coupe perpendiculairement cette ligne ne pourra eſtre commun à cette circonference & à cette ligne. Ce qu'il falloit demonſtrer.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XXXII. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXII. SECOND THEOREME.]
+
+### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXII.]
 

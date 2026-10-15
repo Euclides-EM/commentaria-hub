@@ -7,6 +7,10 @@ Car ſi les paralleles *b c* & *f g*, enfermées entre *x* & *z*, eſtoient iné
 
 [Diagram: two lines z and x cut by lines b c and f g, with point K between them]
 
+[Curated heading level=2 type=propositions: XXXI. ONZIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXI. ONZIEME THEOREME.]
+
 ## ONZIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXI.]

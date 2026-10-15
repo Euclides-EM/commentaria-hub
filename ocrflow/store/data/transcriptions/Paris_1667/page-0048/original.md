@@ -14,7 +14,7 @@ XLVII.
 
 LA ſomme eſtant trouvée, ſi le même terme s'y trouve pluſieurs fois, on peut pratiquer ce qui a eſté dit dans le principe 5 & 6. Ce qui ſoit dit une ſeule fois pour toutes les autres operations.
 
-## SOVSTRACTION DES GRANDEURS COMPLEXES.
+### SOVSTRACTION DES GRANDEURS COMPLEXES.
 
 [Curated heading level=4 type=paragraph_order: XLVIII.]
 

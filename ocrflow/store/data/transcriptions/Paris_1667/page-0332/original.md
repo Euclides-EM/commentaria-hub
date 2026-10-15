@@ -1,7 +1,11 @@
 <!-- Page number: 294 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## CINQUIEME THEOREME.
+[Curated heading level=2 type=propositions: XXVI. CINQUIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXVI. CINQUIEME THEOREME.]
+
+### CINQUIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]
 
@@ -25,7 +29,7 @@ Les 3 premiers points ſont clairs, par XI. 58.
 
 Et le 4ᵉ par le 5ᵉ Corollaire s̄.
 
-### PREMIER COROLLAIRE.
+#### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXVII.]
 
@@ -35,7 +39,7 @@ XXVII.
 
 La diagonale d'un rectangle peut autant que les quarrez des deux coſtez.
 
-### SECOND COROLLAIRE.
+#### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXVIII.]
 
@@ -45,7 +49,7 @@ XXVIII.
 
 La diagonale d'un quarré peut 2 fois le quarré du coſté.
 
-### TROISIEME COROLLAIRE.
+#### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXIX.]
 
@@ -55,7 +59,7 @@ XXIX.
 
 La diagonale du quarré eſt incommenſurable en longueur au coſté, & commenſurable en puiſſance. XI. 76.
 
-### QUATRIEME COROLLAIRE.
+#### QUATRIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXX.]
 

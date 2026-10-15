@@ -5,7 +5,11 @@ Ceux qui ne comprennent point le même angle, coſtez oppoſez.
 
 Les angles de même ſont proches ou oppoſez.
 
-## THEOREME.
+[Curated heading level=2 type=propositions: XXXVI. THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXVI. THEOREME.]
+
+### THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXVI.]
 
@@ -23,7 +27,9 @@ Soit trouvé le cercle dont la circonference paſſe par les 3 points *fbc*. par
 
 Car tout angle qui a *fc* pour baſe, & qui eſt inſcrit dans ce cercle du coſté de *d*, comme *fgc*, plus l'angle *b*, vaut deux droits. IX. 26. Or l'angle *fgc* eſt égal à l'angle *d*, qui plus l'angle *b* vaut auſſy deux droits. Donc l'angle *d* eſt auſſy inſcrit dans ce cercle par IX. 30.
 
-## DIVISION ET DEFINITIONS.
+[Curated heading level=2 type=definitions: XXXVII. DIVISION ET DEFINITIONS.]
+
+### DIVISION ET DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: XXXVII.]
 
@@ -33,9 +39,13 @@ XXXVII.
 
 LORSQUE les coſtez oppoſez d'un quadrilatere ſont paralleles, le 1ᵉʳ au 3ᵉ, & le 2ᵉ au 4ᵉ, on l'appelle *Parallelogramme*, ſinon on l'appelle *Trapeze*, quand même deux des coſtez oppoſez, comme le 1ᵉʳ & le 3ᵉ ſeroient paralleles, ſi le 2ᵉ & le 4ᵉ ne le ſont pas.
 
-## DES PARALLELOGRAMMES.
+### DES PARALLELOGRAMMES.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XXXVIII. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXVIII. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXVIII.]
 
@@ -45,7 +55,11 @@ XXXVIII.
 
 SI les coſtez oppoſez d'un quadrilatere ſont égaux, ils ſont paralleles; & s'ils ſont paralleles, ils ſont égaux. VI. 26. & 27.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XXXIX. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIX. SECOND THEOREME.]
+
+#### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIX.]
 
@@ -55,7 +69,11 @@ XXXIX.
 
 SI tous les 4 angles d'un quadrilatere ſont droits, il eſt parallelogramme. VI. 23.
 
-## TOISIEME{printer-error-correction:TROISIEME} THEOREME.
+[Curated heading level=2 type=propositions: XL. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XL. TROISIEME THEOREME.]
+
+#### TOISIEME{printer-error-correction:TROISIEME} THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XL.]
 

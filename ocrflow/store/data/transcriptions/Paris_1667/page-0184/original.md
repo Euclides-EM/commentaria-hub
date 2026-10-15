@@ -3,7 +3,11 @@
 
 l'arc *b g* de commun, qui eſt l'arc d'un des angles obtus: & par conſequent oſtant cet arc, l'arc de l'aigu qui reſte d'une part ſera égal à l'arc de l'aigu qui reſte de l'autre. On prouvera la même choſe des deux angles obtus.
 
-## QUATRIEME THEOREME.
+[Curated heading level=2 type=propositions: XVIII. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XVIII. QUATRIEME THEOREME.]
+
+### QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XVIII.]
 
@@ -27,7 +31,10 @@ XIX.
 
 On les peut rapporter à trois qui ſont toutes priſes de la baſe conſiderée diverſement: ou comme *corde*: ou comme *ſinus*: ou ſimplement comme *baſe*.
 
-## DE LA SECONDE MESURE DE L'ANGLE QUI EST LA CORDE.
+### DE LA SECONDE MESURE DE L'ANGLE
+[Subhead]
+QUI EST LA CORDE.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XX.]
 

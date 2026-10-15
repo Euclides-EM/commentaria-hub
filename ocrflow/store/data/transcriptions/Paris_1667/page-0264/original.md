@@ -8,7 +8,7 @@ K f. K E : : K E. K c.
 T.  m : :  m.  p.
 [/Calculation]
 
-## SECONDE COMPARAISON.
+###### SECONDE COMPARAISON.
 
 [Curated heading level=4 type=paragraph_order: XLVI.]
 
@@ -27,7 +27,7 @@ K f. K E : : K E. K c.
 T.  m : :  m.  p.
 [/Calculation]
 
-## SECOND CAS.
+#### SECOND CAS.
 
 [Curated heading level=4 type=paragraph_order: XLVII.]
 
@@ -37,7 +37,11 @@ XLVII.
 
 Le 2ᵉ Cas de la propoſition principale ( §. 39. ) eſt quand la ligne *y* touche le cercle en un point diametralement oppoſé à *k* : ce qui comprend auſſy deux Theoremes.
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: XLVIII. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XLVIII. TROISIEME THEOREME.]
+
+##### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLVIII.]
 

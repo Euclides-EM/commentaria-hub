@@ -3,7 +3,13 @@
 
 l'autre ( & par conſequent une figure eſt à l'autre ) comme un des triangles d'une figure à un ſemblable de l'autre. Or par le Theoreme precedent ces deux triangles ſemblables ſont entr'eux en raiſon doublée des diametres. Donc les figures ſemblables inſcrittes dans les cercles ſont entr'elles en raiſon doublée des diametres. Donc auſſy comme les cercles. Donc auſſy comme les quarrez des diametres.
 
-## PREMIER PROBLEME.
+[Curated heading level=1 type=problems: LIVRE QVINZIEME.]
+
+[Curated heading level=2 type=propositions: XL. PREMIER PROBLEME.]
+
+[Curated heading level=2 type=problems: XL. PREMIER PROBLEME.]
+
+### PREMIER PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XL.]
 
@@ -25,7 +31,11 @@ Soit prolongée qg juſques en k, en ſorte que qk ſoit égale à br, joignant 
 
 Le parallelogramme dhkg ſera égal & equiangle au donné bcdf.
 
-## SECOND PROBLEME.
+[Curated heading level=2 type=propositions: XLI. SECOND PROBLEME.]
+
+[Curated heading level=2 type=problems: XLI. SECOND PROBLEME.]
+
+### SECOND PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XLI.]
 

@@ -5,14 +5,18 @@ ces lignes qui ſont viſiblement étrangeres à ces demonſtrations.
 
 Quoy qu'il en ſoit ne me voulant broüiller avec perſonne, chacun prendra ce que je m'en vais dire des proprietez des proportions conſiderées ſelon la multiplication des termes d'une raiſon par ceux de l'autre, ſelon l'opinion qu'il aura que les termes de certaines raiſons ſont ou ne ſont pas multipliables les uns par les autres. Car ce n'eſt que dans cette ſuppoſition que tout ce que je m'en vais dire ſe doit entendre.
 
-## LA PRINCIPALE PROPRIETE' DE LA PROPORTION GEOMETRIQVE.
+### LA PRINCIPALE PROPRIETE' DE LA PROPORTION GEOMETRIQVE.
 
-### HUITIEME THEOREME.
+[Curated heading level=2 type=propositions: LIII. HUITIEME THEOREME.]
 
-[Curated heading level=4 type=paragraph_order: LV.]
+[Curated heading level=2 type=theorems: LIII. HUITIEME THEOREME.]
+
+#### HUITIEME THEOREME.
+
+[Curated heading level=4 type=paragraph_order: LIII.]
 
 [Margin]
-LV.
+LV{printer-error-correction:LIII}.
 [/Margin]
 
 LORS que 4 grandeurs ſont en proportion Geometrique, ſi les termes de l'une des raiſons ſont multipliables par ceux de l'autre ou réellement ou par fiction d'eſprit, le produit des extrémes eſt égal au produit des moyens. Cela ſe peut prouver en deux manieres. La 1re eſt par les aliquotes pareilles des antecedens également contenuës dans les conſequens. Car ſuppoſons comme nous avons déja fait que ces aliquotes ſoient telles.

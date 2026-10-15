@@ -48,7 +48,7 @@ Secondement dans la bande à gauche les plus hauts juſques à celuy qui eſt vi
 
 Troiſiêmement dans la bande à droit les plus hauts juſques à celuy qui eſt vis à vis le centre *excluſive*.
 
-### Sur les Quarrez pairs.
+### SUR LES QUARREZ PAIRS.
 
 [Curated heading level=4 type=paragraph_order: VIII.]
 

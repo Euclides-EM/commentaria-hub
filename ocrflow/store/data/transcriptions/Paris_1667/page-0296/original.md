@@ -17,7 +17,7 @@ Or puiſque ces angles ſont ſemblables par X. 17. les coſtez ſont proportion
 
 Le raion eſt au raion, comme le raion droit à un raion droit, & la moitié du coſté à la moitié du coſté. Et par conſequent comme le coſté au coſté, & le circuit au circuit.
 
-## PREMIER COROLLAIRE.
+##### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXVII.]
 
@@ -29,7 +29,7 @@ LEs coſtez & les circuits de deux figures regulieres de même eſpece ſont en 
 
 Car ces diametres ſont le double des raions de ces figures. Donc &c.
 
-## SECOND COROLLAIRE.
+##### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXVIII.]
 

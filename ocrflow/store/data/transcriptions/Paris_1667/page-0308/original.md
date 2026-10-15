@@ -5,13 +5,17 @@ Donc les deux triangles qui avoient déja deux coſtez égaux par l'hypotheſe �
 
 Mais ſi le coſté que ſoûtient b c eſtoit diverſement incliné dans ces deux triangles, parceque ce ſeroit c d dans l'un & c f dans l'autre, ces triangles n'auroient garde d'eſtre tout-égaux, puiſque c d ſeroit dans l'un un angle aigu, & c f dans l'autre un angle obtus.
 
-## Corollaire.
+#### COROLLAIRE.
 
 Dans l'hypotheſe du precedent Theoreme, lorſque des deux coſtez ſuppoſez égaux dans les deux triangles celuy qui ſoûtient l'angle ſuppoſé égal eſt plus grand que celuy qui le comprend, les deux triangles ſont certainement tout-égaux.
 
 Car alors dans l'un & dans l'autre angle c d b eſt neceſſairement aigu, par 8. s̄.
 
-## Cinquieme Theoreme.
+[Curated heading level=2 type=propositions: XX. CINQUIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XX. CINQUIEME THEOREME.]
+
+#### CINQUIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XX.]
 
@@ -21,7 +25,9 @@ XX.
 
 Deux triangles équiangles entr'eux ſont ſemblables. C'eſtadire que les coſtez de l'un ſont proportionnels aux coſtez de l'autre. C'eſt ce qui a eſté prouvé en diverſes manieres dans les deux livres des Proportionnelles. Voyez X. 18.
 
-## Avertissement et Definition.
+[Curated heading level=2 type=definitions: XXI. AVERTISSEMENT ET DEFINITION.]
+
+#### AVERTISSEMENT ET DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: XXI.]
 
@@ -41,7 +47,7 @@ b. b :: d. d :: h. h.
 
 Et ces coſtez que l'on doit comparer enſemble s'appellent homologues.
 
-## Premier Corollaire.
+#### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 

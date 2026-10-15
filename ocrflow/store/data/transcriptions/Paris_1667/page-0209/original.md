@@ -3,7 +3,7 @@
 
 ment, ſi c'eſt dans des cercles inégaux. Ce qu'il faut auſſy ſuppoſer dans la 1re partie de ce Corollaire. Car les arcs proportionellement égaux font autant pour l'égalité des angles, que s'ils l'eſtoient.
 
-## QUATRIEME COROLLAIRE.
+### QUATRIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 
@@ -15,7 +15,7 @@ Si deux angles inſcrits en divers cercles ſont égaux, & qu'ils ſoient ſoute
 
 Car les angles inſcrits en divers cercles ne ſçauroient eſtre égaux, qu'ils ne ſoient appuyez ſur des arcs proportionellement égaux, & des arcs de divers cercles proportionellement égaux ne ſçauroient eſtre ſoutenus par des cordes égales que les cercles ne ſoient égaux. Donc, &c.
 
-## CINQUIEME COROLLAIRE.
+### CINQUIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXIII.]
 
@@ -27,7 +27,7 @@ Lorsque deux cercles dont l'un eſt au dedans de l'autre ſe touchent, ſi du po
 
 [Diagram: two circles tangent internally, with two lines drawn from the point of tangency across both circumferences]
 
-## SIXIEME COROLLAIRE.
+### SIXIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXIV.]
 
@@ -39,7 +39,7 @@ Si un cercle a pour centre un point de la circonference d'un autre cercle, & que
 
 [Diagram: two intersecting circles, one centred on a point of the other's circumference, with two lines drawn from that point cutting both circumferences]
 
-## SEPTIEME COROLLAIRE.
+### SEPTIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
 

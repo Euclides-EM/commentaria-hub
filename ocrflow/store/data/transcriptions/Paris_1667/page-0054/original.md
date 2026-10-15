@@ -13,7 +13,18 @@ en gardant les regles precedentes pour ce qui eſt des *plus* & des *moins*.
 4 p + 3 q } 12 bp + 8 pd + 9 bq + 6 dq.
 [/Calculation]
 
-## THEOREME POUR EXEMPLE DE LA MULTIPLICATION DES GRANDEURS COMPLEXES.
+[Curated heading level=1 type=propositions: LIVRE PREMIER.]
+
+[Curated heading level=1 type=theorems: LIVRE PREMIER.]
+
+[Curated heading level=2 type=propositions: THEOREME]
+
+[Curated heading level=2 type=theorems: THEOREME]
+
+#### THEOREME
+[Subhead]
+POUR EXEMPLE DE LA MULTIPLICATION DES GRANDEURS COMPLEXES.
+[/Subhead]
 
 De 4 grandeurs deux eſtant égales & les deux autres inégales , le produit d'une égale plus une inégale par l'autre égale plus l'autre inégale , eſt égal au produit d'une égale par les trois autres, plus le produit des deux inégales.
 
@@ -36,11 +47,11 @@ Plus le troiſiéme    b }
                   en c } ce qui fait bc.
 [/Calculation]
 
-### I. COROLLAIRE.
+##### 1. COROLLAIRE.
 
 Trois grandeurs eſtant données comme *b. x. c.* le produit de la 1 plus la 2 par la 2 plus la 3 , eſt égal au produit des 3 par la 2 plus le produit de la 1 par la derniere. C'eſt la meſme choſe.
 
-### 2. COROLLAIRE.
+##### 2. COROLLAIRE.
 
 Ce Theoreme fait voir ſur quoy eſt fondée cette regle d'Arithmetique pour la multiplication des nombres digites. On regarde de combien chacun eſt different de 10. On oſte du 1 la difference du 2 , & ce qui reſte eſt pris pour dizaines ; puis ayant multiplié les deux differences , le tout fait le produit de ces deux nombres digites.
 

@@ -5,13 +5,17 @@ Donc ſi on joint la 1re toute à la 2e , il s'en fait une 3e qui a la 2e pour �
 
 Et joignant la 2e à la 3e , il s'en fait une 4e qui a la 3e pour ſa mediane , & ainſy à l'infini.
 
-## PREUVE DES PLUS PETITES.
+#### PREUVE DES PLUS PETITES.
 
 SI on prend la mediane de la 1re toute , il s'en fait une 2e toute plus petite , qui a pour ſa mediane ( par le 2e Corollaire ) la petite partie de la 1re toute.
 
 Et cette mediane de la 2e toute eſt une 3e toute qui a pour ſa mediane la petite partie de la 2e toute , & cette mediane de la 3e toute eſt une 4e toute qui a pour ſa mediane la petite partie de la 3e toute , & ainſy à l'infini. Ce qui peut eſtre conſideré comme une nouvelle & tres belle preuve de la diviſibilité d'une ligne à l'infini.
 
-## SIXIEME PROBLEME.
+[Curated heading level=2 type=propositions: LXXIV. SIXIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: LXXIV. SIXIEME PROBLEME.]
+
+### SIXIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: LXXIV.]
 
@@ -35,7 +39,7 @@ La 1re. Que l'angle *K* eſt égal à l'angle *bdc*.
 
 La 2e. Que l'angle *bdc* eſt la moitié de l'angle *bdK*.
 
-## PREUVE DE LA PREMIERE.
+#### PREUVE DE LA PREMIERE.
 
 L'angle *b* a deux baſes , *cd* & *Kd* , & ſes coſtez ſelon une baſe ſont proportionels à ſes coſtez ſelon l'autre baſe , puiſque
 

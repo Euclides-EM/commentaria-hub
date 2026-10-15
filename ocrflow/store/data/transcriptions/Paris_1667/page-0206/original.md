@@ -11,7 +11,7 @@ Or par le 1er Theoreme n K G a pour meſure la moitié de l'arc K G, & m K D a p
 
 Donc l'angle F K G, qui eſt égal à tous les deux, a pour meſure l'une & l'autre moitié de ces deux arcs. C'eſtadire la moitié de ces deux arcs, par le 3e Lemme.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XVII.]
 
@@ -33,7 +33,11 @@ Je dis que les angles K c g & k d f ſont égaux.
 
 Car par le precedent Theoreme l'un & l'autre a pour meſure la moitié des arcs f c, c d, d g.
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: XVIII. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XVIII. TROISIEME THEOREME.]
+
+### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XVIII.]
 

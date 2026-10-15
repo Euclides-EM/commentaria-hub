@@ -3,7 +3,10 @@
 
 partage par la moitié eſt neceſſairement un diametre. Et de plus les deux points E *E* eſtant alors également diſtans de k auſſy bien que de K, cela revient à ce qui ſera demonſtré plus bas par une autre voie.
 
-## SECONDE MANIERE DE LA MESME VOIE GENERALE.
+### SECONDE MANIERE DE LA MESME
+[Subhead]
+VOIE GENERALE.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XXXVII.]
 
@@ -17,7 +20,9 @@ Il faut donc qu'il y ait une ligne droitte outre la circonference, afin que les 
 
 *Voicy donc la propoſition generale ſur ce ſujet, qui eſt peuteſtre la plus belle & la plus generale qu'on puiſſe trouver ſur les proportions des lignes par la geometrie ordinaire.*
 
-## PROPOSITION GENERALE.
+[Curated heading level=2 type=propositions: XXXVIII. PROPOSITION GENERALE.]
+
+#### PROPOSITION GENERALE.
 
 [Curated heading level=4 type=paragraph_order: XXXVIII.]
 

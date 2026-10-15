@@ -27,7 +27,7 @@ Or l'angle b k g a pour ſa meſure la moitié des deux arcs k f & k g, par le 2
 
 Reſte donc pour la meſure de l'angle inſcrit la moitié du troiſiême arc, qui eſt f g.
 
-## PREMIER COROLLAIRE.
+### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XIX.]
 

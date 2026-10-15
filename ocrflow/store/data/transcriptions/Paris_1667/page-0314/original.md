@@ -3,9 +3,13 @@
 
 ayant la premiere & la ſeconde, qui eſt la moyenne, on a la 3ᵉ par le Probleme, X. 34. Et par conſequent le 4ᵉ & 5ᵉ Cas ſe rapportent au 2ᵉ, & le 6ᵉ au 1ᵉʳ.
 
-## DES TRIANGLES ISOSCELES.
+### DES TRIANGLES ISOSCELES.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XXXIII. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIII. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIII.]
 
@@ -15,7 +19,11 @@ XXXIII.
 
 LORSQUE l'angle du ſommet d'un triangle Iſoſcele eſt de 36 degrez, chacun des angles ſur la baſe eſt de 72, & la baſe eſt la moyenne proportionelle entre le coſté entier, & le coſté moins cette baſe ( c'eſtadire que la baſe diviſe le coſté en moyenne & extrême raiſon ) & la baſe eſtant ajoûtée au coſté, il s'en fait une ligne diviſée en moyenne & extrême raiſon. Voyez XI. 68. 69. 73.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XXXIV. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIV. SECOND THEOREME.]
+
+#### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIV.]
 
@@ -35,9 +43,13 @@ Donc ∴ *bc*. *cd*. *fc*. Ce qu'il falloit demonſtrer.
 
 ## SECONDE SECTION.
 
-## DES QUADRILATERES.
+[Subhead]
+DES QUADRILATERES.
+[/Subhead]
 
-## DEFINITIONS.
+[Curated heading level=2 type=definitions: XXXV. DEFINITIONS.]
+
+### DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: XXXV.]
 

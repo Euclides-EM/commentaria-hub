@@ -3,6 +3,10 @@
 
 de ce coſté là, ſe rencontreront à la fin. V 11.
 
+[Curated heading level=2 type=propositions: XXXIV. DOUZIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIV. DOUZIEME THEOREME.]
+
 ## DOUZIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIV.]
@@ -18,6 +22,10 @@ Soient les deux lignes *k z* & *k x*, dont *k z* ſoit coupée en *g*, perpendic
 [Diagram: two lines z and x meeting at point K, cut perpendicularly at g and c by lines f g and b c, with dotted lines meeting at point y]
 
 Donc elles ſe rencontreront eſtant prolongées de ce coſté là par 33. *ſup*.
+
+[Curated heading level=2 type=propositions: XXXV. TREIZIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXV. TREIZIEME THEOREME.]
 
 ## TREIZIEME THEOREME.
 

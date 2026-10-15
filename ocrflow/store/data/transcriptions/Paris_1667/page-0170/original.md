@@ -1,7 +1,11 @@
 <!-- Page number: 132 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XXIV. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXIV. PREMIER THEOREME.]
+
+### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXIV.]
 
@@ -19,7 +23,11 @@ Car ſi on la veut comparer avec *k φ*, ſoit tiré le rayon *c φ*, qui eſt �
 
 Donc *k g*, eſt plus grande que *k φ*.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XXV. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXV. SECOND THEOREME.]
+
+### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
 
@@ -53,7 +61,11 @@ Or *f c* eſt égale à *y c*.
 
 Donc *k f* eſt plus courte que *k y*.
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: XXVI. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXVI. TROISIEME THEOREME.]
+
+### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]
 

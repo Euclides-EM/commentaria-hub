@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE VIII. -->
 <!-- Page number: 151 -->
 
-## PREMIER CAS.
+##### PREMIER CAS.
 
 [Curated heading level=4 type=paragraph_order: XLV.]
 
@@ -11,7 +11,7 @@ XLV.
 
 LES angles qui ont le rayon égal & le ſinus égal ſont égaux. 1er & 2e Lemme.
 
-## SECOND CAS.
+##### SECOND CAS.
 
 [Curated heading level=4 type=paragraph_order: XLVI.]
 
@@ -21,7 +21,7 @@ XLVI.
 
 LES angles égaux qui ont le rayon égal ont le ſinus égal. 1er & 2e Lemme.
 
-## TROISIEME CAS.
+##### TROISIEME CAS.
 
 [Curated heading level=4 type=paragraph_order: XLVII.]
 
@@ -31,7 +31,11 @@ XLVII.
 
 LES angles qui ſont égaux & qui ont le ſinus égal, ont le rayon égal. Car s'ils avoient le rayon inégal, ils ſeroient meſurez par des arcs de cercles inégaux : & par conſequent (ſelon le 5e Lemme) les ſinus égaux donneroient des arcs proportionellement inégaux, & ainſy les angles ne pourroient pas eſtre égaux.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XLVIII. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XLVIII. SECOND THEOREME.]
+
+#### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLVIII.]
 
@@ -41,11 +45,11 @@ XLVIII.
 
 N'Y ayant égalité que dans l'une de ces trois choſes, voicy ce qui arrivera.
 
-## PREMIER CAS.
+##### PREMIER CAS.
 
 N'Y ayant égalité que dans le rayon, les plus grands ſinus donnent les plus grands angles, & les plus grands angles ont les plus grands ſinus. 3e Lemme.
 
-## SECOND CAS.
+##### SECOND CAS.
 
 [Curated heading level=4 type=paragraph_order: XLIX.]
 
@@ -55,7 +59,7 @@ XLIX.
 
 N'Y ayant égalité que dans les ſinus, le plus grand rayon donne le plus petit angle, & le plus petit angle a le plus grand rayon. 5e Lemme.
 
-## TROISIEME CAS.
+##### TROISIEME CAS.
 
 [Curated heading level=4 type=paragraph_order: L.]
 
@@ -65,7 +69,10 @@ L.
 
 N'Y ayant égalité que dans les angles, le plus grand rayon donne le plus grand ſinus, & le plus grand ſinus donne le plus grand rayon.
 
-## DES ANGLES FAITS PAR LES LIGNES ENTRE PARALLELES.
+#### DES ANGLES FAITS PAR LES LIGNES
+[Subhead]
+ENTRE PARALLELES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: LI.]
 

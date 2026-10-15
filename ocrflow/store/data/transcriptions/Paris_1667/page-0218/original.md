@@ -17,7 +17,11 @@ Et quand l'un touche & l'autre coupe le cercle, le concave eſt compris entre le
 
 *Il eſtoit neceſſaire de bien expliquer ces deux ſortes d'arcs, parceque de là depend la meſure de ces angles ſelon ce Theoreme.*
 
-## CINQUIEME THEOREME.
+[Curated heading level=2 type=propositions: XLV. CINQUIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XLV. CINQUIEME THEOREME.]
+
+### CINQUIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLV.]
 
@@ -27,7 +31,7 @@ XLV.
 
 LORS que le ſommet d'un angle eſt hors le cercle, ſoit que ces deux coſtez coupent le cercle, ou que tous deux le touchent, ou que l'un le coupe & l'autre le touche ; il a pour meſure la moitié de l'arc concave, moins la moitié de l'arc convexe.
 
-## PREUVE DANS LE PREMIER CAS.
+#### PREUVE DANS LE PREMIER CAS.
 
 Soit l'angle *f k g*, dont le coſté *k f* coupe le cercle en *c*, & *k g* en *d* ; l'arc concave eſt *f g*, & le convexe *c d*. Il faut donc prouver que cet angle a pour meſure la moitié de l'arc *f g* moins la moitié de l'arc *c d*, & on le prouve ainſy.
 

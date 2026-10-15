@@ -15,7 +15,11 @@ DE LA LIGNE DROITE ET CIRCVLAIRE.
 DES DROITES PERPENDICVLAIRES, ET OBLIQVES.
 [/Subhead]
 
-### DEFINITIONS.
+[Curated heading level=1 type=definitions: LIVRE CINQVIEME.]
+
+[Curated heading level=2 type=definitions: I. DEFINITIONS.]
+
+## DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: I.]
 

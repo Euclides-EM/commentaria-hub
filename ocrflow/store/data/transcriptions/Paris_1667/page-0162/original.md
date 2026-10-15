@@ -1,7 +1,11 @@
 <!-- Page number: 124 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: VIII. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: VIII. TROISIEME THEOREME.]
+
+### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: VIII.]
 
@@ -11,7 +15,11 @@ VIII.
 
 LA ligne qui paſſant par le centre coupe un arc par la moitié, coupe auſſy par la moitié & perpendiculairement la corde qui ſoûtient cet arc. Car il y a alors deux points dans la ligne qui coupe l'arc par la moitié, le centre & le point de ſection de l'arc dont chacun eſt également diſtant des deux extrémitez de la corde.
 
-## QUATRIEME THEOREME.
+[Curated heading level=2 type=propositions: IX. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: IX. QUATRIEME THEOREME.]
+
+### QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: IX.]
 

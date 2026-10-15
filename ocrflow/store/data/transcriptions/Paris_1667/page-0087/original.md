@@ -3,7 +3,11 @@
 
 raiſons égales chacune à chacune de part & d'autre par l'hypotheſe : Donc ces deux raiſons compoſées ſont égales par le premier Theoreme.
 
-### Quatrieme Theoreme.
+[Curated heading level=2 type=propositions: X. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: X. QUATRIEME THEOREME.]
+
+### QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: X.]
 
@@ -32,7 +36,9 @@ Or par le 1er Theoreme.
 
 Donc *b. d :: m. o.* *Ce qu'il falloit démonſtrer.*
 
-### Quatrieme Definition.
+[Curated heading level=2 type=definitions: XI. QUATRIEME DEFINITION.]
+
+### QUATRIEME DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: XI.]
 
@@ -42,7 +48,9 @@ XI.
 
 VNE raiſon compoſée de deux raiſons égales, s'appelle *raiſon doublée* de chacune de ces raiſons.
 
-### Cinquieme Definition.
+[Curated heading level=2 type=definitions: XII. CINQUIEME DEFINITION.]
+
+### CINQUIEME DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: XII.]
 
@@ -52,7 +60,7 @@ XII.
 
 VNE raiſon compoſée de trois raiſons égales, s'appelle *raiſon triplée* de chacune de ces raiſons.
 
-### Avertissement.
+### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XIII.]
 
@@ -62,7 +70,11 @@ XIII.
 
 IL *ne faut pas confondre une raiſon double ou triple, avec une raiſon doublée ou triplée ; ce qui eſt tout different. Car la raiſon non ecuple n'eſt pas une raiſon double, quoy qu'elle ſoit doublée de la raiſon triple, parce que l'addition de deux raiſons triples fait la raiſon non ecuple.*
 
-### Cinquieme Theoreme.
+[Curated heading level=2 type=propositions: XIV. CINQUIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XIV. CINQUIEME THEOREME.]
+
+### CINQUIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 

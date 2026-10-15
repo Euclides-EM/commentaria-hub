@@ -7,7 +7,7 @@ par le precedent Corollaire, on peut mener par le point *b* la ligne *m n*, para
 
 Donc les deux de la baſe plus l'angle donné ſont égaux à deux droits.
 
-## Dixieme Corollaire.
+##### DIXIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LXI.]
 
@@ -19,7 +19,7 @@ SI on prolonge un coſté d'un angle vers le ſommet de l'angle, comme ſi on pr
 
 Ce ſera la même choſe ſi on prolonge la baſe. Car l'angle exterieur que fera la baſe prolongée ſur un coſté, ſera égal aux deux interieurs oppoſez; c'eſtadire à l'angle que fait l'autre coſté ſur la baſe plus l'angle du ſommet.
 
-## Onzieme Corollaire.
+##### ONZIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LXII.]
 
@@ -29,7 +29,11 @@ LXII.
 
 DEUX angles ſont égaux, quand les angles que les coſtez de l'un font ſur ſa baſe, ſont égaux à ceux que les coſtez de l'autre font ſur la ſienne.
 
-## Douzieme Corollaire, Troisieme Probleme.
+[Curated heading level=2 type=propositions: LXIII. DOUZIEME COROLLAIRE, TROISIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: LXIII. DOUZIEME COROLLAIRE, TROISIEME PROBLEME.]
+
+##### DOUZIEME COROLLAIRE, TROISIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: LXIII.]
 

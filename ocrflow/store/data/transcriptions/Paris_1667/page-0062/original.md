@@ -51,7 +51,9 @@ LA raiſon non multiple eſt quand il n'y a que quelque aliquote de la grandeur,
 
 ## DES PROPORTIONS.
 
-### DEFINITIONS ET DIVISIONS.
+[Subhead]
+DEFINITIONS ET DIVISIONS.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XIX.]
 

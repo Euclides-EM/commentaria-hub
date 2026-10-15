@@ -3,7 +3,11 @@
 
 On laiſſe à trouver beaucoup d'autres manieres dont on le peut demonſtrer.
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: XI. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XI. TROISIEME THEOREME.]
+
+#### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XI.]
 
@@ -35,7 +39,7 @@ Donc d b. b q :: d r. q r.
 
 Donc (par X. 31.) la ligne b r diviſe l'angle b par la moitié. Ce qu'il falloit demonſtrer.
 
-## COROLLAIRE.
+#### COROLLAIRE.
 
 [Handwritten]
 6.
@@ -54,7 +58,13 @@ Pour l'angle d. d r. r q { d b. b q.
                           d c. c q.
 [/Calculation]
 
-## PREMIER PROBLEME.
+[Curated heading level=1 type=problems: LIVRE TREIZIEME.]
+
+[Curated heading level=2 type=propositions: XII. PREMIER PROBLEME.]
+
+[Curated heading level=2 type=problems: XII. PREMIER PROBLEME.]
+
+#### PREMIER PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XII.]
 

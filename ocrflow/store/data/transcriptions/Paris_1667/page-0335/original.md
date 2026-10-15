@@ -17,7 +17,7 @@ Or c c = p p. + y y.
 
 Donc b b = c c + d d + 2. d y. Ce qu'il falloit demonſtrer.
 
-### AVERTISSEMENT.
+#### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XXXIII.]
 
@@ -27,7 +27,11 @@ XXXIII.
 
 On peut faire icy un Corollaire ſemblable à celuy du Theoreme precedent. Ie le laiſſe à chercher, & à prouver ſi l'on veut par les principes du livre des lignes proportionelles.
 
-## HUITIEME THEOREME.
+[Curated heading level=2 type=propositions: XXXIV. HUITIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIV. HUITIEME THEOREME.]
+
+### HUITIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIV.]
 
@@ -47,7 +51,11 @@ b b = c c. + d d + 2. d y.
 
 Donc b b = c c + d d + d c. égal à 2 d y.
 
-## NEUVIEME THEOREME.
+[Curated heading level=2 type=propositions: XXXV. NEUVIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXV. NEUVIEME THEOREME.]
+
+### NEUVIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXV.]
 

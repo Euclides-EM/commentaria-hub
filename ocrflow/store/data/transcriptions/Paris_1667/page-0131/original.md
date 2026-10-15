@@ -5,6 +5,10 @@ Soit la ligne *b c* coupée par l'oblique *k g* inclinée vers *b*, ſi du point
 
 [Diagram: horizontal line from b to c, with an oblique line descending from k to g and a dotted perpendicular rising from g]
 
+[Curated heading level=2 type=propositions: XLII. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XLII. TROISIEME THEOREME.]
+
 ### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLII.]
@@ -21,9 +25,14 @@ Soient les points *m* & *n* joints par la ligne *m n*, & la perpendiculaire inde
 
 ## QVATRIEME SECTION.
 
-## DES LIGNES DROITTES OBLIQVES.
+[Subhead]
+DES LIGNES DROITTES OBLIQVES.
+[/Subhead]
 
-### EXPLICATION DE LA MANIERE DONT ON DOIT CONSIDERER LES LIGNES OBLIQUES POUR LES MIEUX COMPRENDRE.
+### EXPLICATION DE LA MANIERE
+[Subhead]
+DONT ON DOIT CONSIDERER LES LIGNES OBLIQUES POUR LES MIEUX COMPRENDRE.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XLIII.]
 

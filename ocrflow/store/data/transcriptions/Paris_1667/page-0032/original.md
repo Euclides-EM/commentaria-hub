@@ -1,4 +1,4 @@
-## DEFINITIONS DE QUELQUES MOTS 
+## DEFINITIONS DE QUELQUES MOTS
 
 [Subhead]
 dont on s'eſt ſervi dans ces Elemens ſans les definir, parcequ'ils ſont plûtoſt de Logique que de Geometrie.

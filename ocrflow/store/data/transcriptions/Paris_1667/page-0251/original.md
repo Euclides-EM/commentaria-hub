@@ -39,7 +39,9 @@ Que dans la 3e, qui eſt quand elles ſe joignent en un ſeul point d'un coſté
 
 [Figure: triangle with two bases joined at one point, labelled p, *M*, T, *b* and B]
 
-## Septieme Lemme.
+[Curated heading level=2 type=lemmas: XIV. SEPTIEME LEMME.]
+
+## SEPTIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 

@@ -17,7 +17,7 @@ Car *b* + *d*. } *b* — *d*. } *b b*. ( + *b d*. — *b d*. ) — *d d*.
 
 OR par le 5ᵉ principe + *b d* — *b d* ne valent rien , & par conſequent les oſtant comme ne faiſant rien , il reſte *b b* — *d d*.
 
-## TROISIEME REGLE.
+#### TROISIEME REGLE.
 
 [Curated heading level=4 type=paragraph_order: LX.]
 

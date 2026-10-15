@@ -3,7 +3,11 @@
 
 parcequ'elles peuvent toutes y eſtre inſcrites, ſelon ce Theoreme.
 
-## QUATRIEME THEOREME.
+[Curated heading level=2 type=propositions: XIX. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XIX. QUATRIEME THEOREME.]
+
+##### QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XIX.]
 

@@ -3,7 +3,9 @@
 
 ſe que la moitié du tout moins la petite entiere. Car ſi le tout a pour portions b & c, la moitié du tout eſt égale à la moitié de b plus la moitié de c. Il faut donc oſter deux fois la moitié de c de la moitié du tout, pour rendre la moitié du tout égale à la moitié de b, dont on auroit oſté la moitié de c.
 
-## Quatrieme Lemme.
+[Curated heading level=2 type=lemmas: VI. QUATRIEME LEMME.]
+
+## QUATRIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: VI.]
 
@@ -21,9 +23,12 @@ Enfin il ſe faut ſouvenir,
 
 3. Que ſi on prolonge un coſté de l'angle vers le ſommet, le nouvel angle que fait ce coſté prolongé ſur l'autre coſté eſt égal aux deux angles qui ſont ſur la baſe du premier angle. Ainſy l'angle f k b eſt égal aux angles vers b & vers c.
 
-# LA PREMIERE SORTE D'ANGLES DONT LE SOMMET EST EN LA CIRCONFERENCE D'UN CERCLE DONNE'.
+## LA PREMIERE SORTE D'ANGLES
+[Subhead]
+DONT LE SOMMET EST EN LA CIRCONFERENCE D'UN CERCLE DONNE'.
+[/Subhead]
 
-## Division.
+### DIVISION.
 
 [Curated heading level=4 type=paragraph_order: VII.]
 

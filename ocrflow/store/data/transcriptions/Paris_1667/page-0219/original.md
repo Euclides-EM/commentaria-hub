@@ -9,7 +9,7 @@ Or la meſure de l'angle *f d g* eſt la moitié de l'arc concave *f g*, ſur le
 
 Donc l'angle *k* a pour meſure la moitié de l'arc concave *f g*, moins la moitié de l'arc convexe *d c*.
 
-## PREUVE DU SECOND CAS.
+#### PREUVE DU SECOND CAS.
 
 Soit l'angle *k*, dont les coſtez *k f* & *k g* touchent le cercle, & ſoit *k g* prolongée juſques en *h*.
 
@@ -21,11 +21,15 @@ Or l'angle *f g h* a pour meſure la moitié de l'arc du grand ſegment *f g*, &
 
 La preuve du troiſiême Cas eſt ſemblable à ces deux là, tenant quelque choſe de l'un & de l'autre. Il vaut mieux la laiſſer trouver.
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
 
 *Outre cette meſure qui eſt generale à toutes ces ſortes d'angles, il y en a qui ſont particulieres à quelques uns qu'il eſt bon de marquer par des Theoremes particuliers.*
 
-## SIXIEME THEOREME.
+[Curated heading level=2 type=propositions: XLVI. SIXIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XLVI. SIXIEME THEOREME.]
+
+### SIXIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLVI.]
 

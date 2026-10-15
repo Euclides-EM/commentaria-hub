@@ -10,7 +10,7 @@ LV.
 
 VOILA ce qu'il faut obſerver generalement dans toute multiplication des grandeurs complexes. Mais il y a une difficulté particuliere pour ſçavoir quand il faut mettre les ſignes de *plus* ou de *moins* avant les produits des multiplications partiales. C'eſt ce qu'on apprendra par ces trois Regles.
 
-## PREMIERE REGLE.
+#### PREMIERE REGLE.
 
 [Curated heading level=4 type=paragraph_order: LVI.]
 
@@ -20,7 +20,7 @@ LVI.
 
 PLUS en *plus* fait *plus* ; c'eſt à dire que la multiplication de deux termes qui ont chacun un *plus* exprimé ou ſous-entendu, donne un produit qui doit avoir le ſigne de *plus*. Cela eſt ſans difficulté , & les exemples qu'on a propoſez le font aſſez voir.
 
-## SECONDE REGLE.
+#### SECONDE REGLE.
 
 [Curated heading level=4 type=paragraph_order: LVII.]
 

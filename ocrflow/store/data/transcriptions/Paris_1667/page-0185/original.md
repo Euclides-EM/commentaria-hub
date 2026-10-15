@@ -3,7 +3,11 @@
 
 ſure de l'angle, il ne faut que faire attention à ces Lemmes tirez des Livres V. & VII.
 
-## PREMIER LEMME.
+[Curated heading level=1 type=lemmas: LIVRE HUITIEME.]
+
+[Curated heading level=2 type=lemmas: XXI. PREMIER LEMME.]
+
+#### PREMIER LEMME.
 
 [Curated heading level=4 type=paragraph_order: XXI.]
 
@@ -13,7 +17,9 @@ XXI.
 
 DANS les cercles égaux les cordes égales ſoûtiennent des arcs tout égaux. Et les arcs égaux ſont ſoûtenus par cordes égales.
 
-## SECOND LEMME.
+[Curated heading level=2 type=lemmas: XXII. SECOND LEMME.]
+
+#### SECOND LEMME.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 
@@ -23,7 +29,9 @@ XXII.
 
 DANS les cercles égaux les plus grandes cordes ſoûtiennent de plus grands arcs. Et les plus grands arcs ſont ſoûtenus par les plus grandes cordes. VII. 10.
 
-## TROISIEME LEMME.
+[Curated heading level=2 type=lemmas: XXIII. TROISIEME LEMME.]
+
+#### TROISIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: XXIII.]
 
@@ -33,7 +41,9 @@ XXIII.
 
 LES cercles eſtant inégaux les cordes égales ſoûtiennent des arcs de plus de degrez dans les plus petits cercles. VII. 20.
 
-## QUATRIEME LEMME.
+[Curated heading level=2 type=lemmas: XXIV. QUATRIEME LEMME.]
+
+#### QUATRIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: XXIV.]
 
@@ -43,7 +53,11 @@ XXIV.
 
 LES arcs d'un même nombre de degrez ſont ſoûtenus par de plus grandes cordes dans les plus grands cercles. VII. 20.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XXV. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXV. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
 
@@ -61,7 +75,7 @@ TROIS ſortes d'égalitez peuvent eſtre conſiderées dans deux angles iſoſce
 
 Or deux de ces égalitez eſtant données, donnent la troiſiême.
 
-## PREMIER CAS.
+##### PREMIER CAS.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]
 
@@ -71,7 +85,7 @@ XXVI.
 
 LES angles equilateres entr'eux & iſocordes ſont égaux. Car ils ont pour meſure des arcs tout-égaux, puiſqu'eſtant equilateres ils ſont meſurez par des arcs de cercles égaux, & que par le 1er Lemme les cordes égales de cercles égaux ſoûtiennent des arcs tout-égaux.
 
-## SECOND CAS.
+##### SECOND CAS.
 
 [Curated heading level=4 type=paragraph_order: XXVII.]
 

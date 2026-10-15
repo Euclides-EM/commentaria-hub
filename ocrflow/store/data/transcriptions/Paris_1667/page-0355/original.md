@@ -24,7 +24,11 @@ Or b c. m n
 
 Donc tous les coſtez ayant la même raiſon, chacun à chacun, & avec les perpendiculaires, la raiſon de ces triangles b c d & m n o ne peut eſtre compoſée de la raiſon de la baſe c d & n o, & de celle des hauteurs b f, m p, qu'ils ne ſoient en raiſon doublée de l'une de ces raiſons, puiſqu'elles ſont égales; & par conſequent auſſy de la raiſon des autres coſtez homologues, qui eſt la même.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XXVIII. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXVIII. SECOND THEOREME.]
+
+### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXVIII.]
 
@@ -36,7 +40,11 @@ SI les coſtez homologues de deux triangles ſemblables ſont en même raiſon q
 
 ## DES FIGURES SEMBLABLES.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XXIX. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXIX. PREMIER THEOREME.]
+
+### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXIX.]
 

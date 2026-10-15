@@ -3,7 +3,7 @@
 
 gle inſcrit. Donc la moitié de cette corde eſt ſon ſinus; s'il eſt aigu : ou s'il eſt obtus, le ſinus de ſon complement, c'eſtadire de l'angle aigu qui eſtant inſcrit dans le ſegment oppoſé a auſſy cette corde pour ſa baſe.
 
-## QUATORZIEME COROLLAIRE.
+### QUATORZIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXXII.]
 

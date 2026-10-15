@@ -15,19 +15,21 @@ LXXVI.
 
 CE que nous avons dit dans le IV. Livre des grandeurs incommenſurables donne une ſi grande facilité d'expliquer les lignes incommenſurables , qu'il ne faut pour cela qu'ajoûter à ce Livre trois ou quatre propoſitions.
 
-## PROPOSITION GENERALE.
+[Curated heading level=2 type=propositions: PROPOSITION GENERALE.]
+
+### PROPOSITION GENERALE.
 
 Lorſque 3 lignes ſont continuellement proportionelles, la raiſon de la 1ʳᵉ à la 3ᵉ peut eſtre de 3 ſortes : ce qui ſe fait en 3 cas.
 
-## PREMIER CAS.
+#### PREMIER CAS.
 
 Si la raiſon de la premiere à la troiſiéme eſt une raiſon de nombre à nombre qui ait pour ſes expoſans des nombres quarrez , la moyenne eſt à chacune des deux autres , comme le produit des racines de ces nombres quarrez , eſt à chacun de ces nombres quarrez , & par conſequent la moyenne eſt commenſurable aux deux autres.
 
-## SECOND CAS.
+#### SECOND CAS.
 
 Si la raiſon de la 1ʳᵉ à la 3ᵉ eſt une raiſon de nombre à nombre, qui n'ait pas pour ſes expoſans des nombres quarrez , la moyenne eſt incommenſurable en longueur & commenſurable en puiſſance à la 1ʳᵉ & à la 3ᵉ.
 
-## TROISIEME CAS.
+#### TROISIEME CAS.
 
 Si la raiſon de la 1ʳᵉ à la 3ᵉ eſt une raiſon ſourde , & non de nombre à nombre , la moyenne eſt incommenſurable aux deux autres , tant en longueur qu'en puiſſance.
 

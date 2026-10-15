@@ -19,7 +19,7 @@ Le 3ᵉ. Quand elle eſt tout à fait hors le cercle.
 
 C'eſt ce que nous traitterons par divers Theoremes.
 
-## PREMIER CAS.
+#### PREMIER CAS.
 
 [Curated heading level=4 type=paragraph_order: XL.]
 
@@ -29,7 +29,11 @@ XL.
 
 LE 1ᵉʳ Cas eſt quand *y* coupe le cercle. Et alors il n'eſt point neceſſaire de dire que cette ligne doit eſtre perpendiculaire à celle qui eſtant tirée du point K paſſe par le centre : car il ſuffit de dire (ce qui eſt la même choſe) qu'elle doit couper le cercle en deux points, que j'appelleray E & *E*, qui ſoient également diſtans de K. Cela eſtant vray, voicy le 1ᵉʳ Theoreme.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XLI. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XLI. PREMIER THEOREME.]
+
+##### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLI.]
 
@@ -47,7 +51,7 @@ La 2ᵉ. De deux lignes qui ſont toutes deux coupées par la circonference, & t
 
 La 3ᵉ. De deux lignes, dont l'une eſt coupée par *y*, & terminée par la circonference; & l'autre coupée par la circonference, & terminée par *y*.
 
-## PREMIERE COMPARAISON.
+###### PREMIERE COMPARAISON.
 
 [Curated heading level=4 type=paragraph_order: XLII.]
 

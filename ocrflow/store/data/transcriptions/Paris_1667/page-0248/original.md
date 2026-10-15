@@ -5,6 +5,8 @@ baſes de cet angle ſont paralleles, comme l'on a veu X. 13.
 
 La ſeconde maniere eſt quand l'angle qu'une baſe fait ſur un coſté eſt égal à l'angle que l'autre baſe fait ſur l'autre coſté. Et alors on peut appeller ces baſes *antiparalleles*, pour marquer leur effet oppoſé à celuy des baſes paralleles. Ce ſont ces ſortes de baſes qui feront preſque toutes les preuves dans tout ce Livre.
 
+[Curated heading level=2 type=lemmas: IV. QUATRIEME LEMME.]
+
 ## QUATRIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: IV.]

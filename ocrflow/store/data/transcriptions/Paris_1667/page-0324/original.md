@@ -5,7 +5,9 @@ tant la longueur que la largeur, eſt égale à celle qui meſure dans l'autre t
 
 C'eſtpourquoy auſſy par tout où une ligne d'une certaine longueur ſe trouve, comme de la longueur de b, elle peut eſtre marquée par le même caractere & appellée b. Car il ne peut y avoir de difference que de ſituation, ce qui n'y fait rien. Et ainſy il ne faut pas s'étonner ſi bb eſt par tout égal à bb.
 
-## SECOND AXIOME.
+[Curated heading level=2 type=axioms: III. SECOND AXIOME.]
+
+### SECOND AXIOME.
 
 [Curated heading level=4 type=paragraph_order: III.]
 
@@ -19,7 +21,7 @@ C'eſt la même choſe que le precedent. Car les coſtez angulaires d'un rectang
 
 On peut encore dire que les coſtez angulaires d'un rectangle pouvant eſtre marquez par les mêmes caracteres par tout où ils ſe rencontrent égaux, comme par b & par c, par tout où l'un eſt égal à b & l'autre à c, dire qu'ils ſont égaux ; c'eſt dire que b c eſt égal à b c.
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: IV.]
 
@@ -31,7 +33,11 @@ Ces deux axiomes nous font voir que tout ce que nous avons dit dans le premier l
 
 C'eſt ce que nous verrons en peu de mots en commençant par la puiſſance des lignes.
 
-## DEFINITION.
+[Curated heading level=1 type=definitions: LIVRE QUATORZIEME.]
+
+[Curated heading level=2 type=definitions: V. DEFINITION.]
+
+### DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: V.]
 

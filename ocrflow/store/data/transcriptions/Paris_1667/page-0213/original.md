@@ -3,9 +3,15 @@
 
 n c B & c n m ſont égaux, parce qu'ils ſont appuyez ſur des arcs égaux. Donc les deux lignes o n & o c ſont égales, parce qu'eſtant menées d'un même point elles font des angles égaux ſur la même baſe. Et on prouvera de même en tirant la ligne B m que o m & o B ſont égales. Donc chaque partie de l'une de ces cordes eſt égale à chaque partie de l'autre.
 
-## PROBLEMES.
+### PROBLEMES.
 
-## I.
+[Curated heading level=1 type=problems: LIVRE NEVVIEME.]
+
+[Curated heading level=2 type=propositions: XXXVI. I.]
+
+[Curated heading level=2 type=problems: XXXVI. I.]
+
+#### I.
 
 [Curated heading level=4 type=paragraph_order: XXXVI.]
 
@@ -23,7 +29,11 @@ Car la diſtance eſtant donnée de ce ſommet à l'hypothenuſe, il ne ſe peut
 
 [Figure: a semicircle on a horizontal diameter, with a horizontal line parallel to the diameter cutting the semicircle]
 
-## SECOND PROBLEME.
+[Curated heading level=2 type=propositions: XXXVII. SECOND PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXVII. SECOND PROBLEME.]
+
+#### SECOND PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXVII.]
 

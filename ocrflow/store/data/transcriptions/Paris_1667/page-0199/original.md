@@ -5,6 +5,8 @@ Et de là il s'enſuit, que quand on dit que deux angles, ou trois angles ſont 
 
 Et quand on dit que deux angles ſont égaux à un droit, cela veut dire que ces deux angles pris enſemble ont pour meſure la moitié de la demycirconference, c'eſtadire 90. degrez.
 
+[Curated heading level=2 type=lemmas: V. TROISIEME LEMME.]
+
 ## TROISIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: V.]

@@ -7,6 +7,8 @@ Et *M* & p ſont également inclinées, *M* dans l'eſpace *A* & p dans l'eſpac
 
 Donc ( par 15. s̄. ) T. *M* :: *M*. p.
 
+[Curated heading level=2 type=propositions: XXI. II. PROPOSITION FONDAMENTALE DES RECIPROQUES.]
+
 ## II. PROPOSITION FONDAMENTALE DES RECIPROQUES.
 
 [Curated heading level=4 type=paragraph_order: XXI.]
@@ -31,7 +33,7 @@ Or p & q ſont les parties de la même ligne : & *p* & *q* ſont les parties de 
 
 Donc les parties d'une ligne ſont reciproques aux parties de l'autre.
 
-## COROLLAIRE
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 
@@ -43,7 +45,10 @@ SI une de ces lignes qui en ſe coupant font des angles oppoſez au ſommet, qui
 
 Cela eſt clair, puiſque c'eſt la même choſe de donner pour les moyens de cette proportion les deux moitiez de la même ligne, ou une ſeule moitié priſe deux fois.
 
-## PLAN GENERAL DE CE QUE L'ON PRETEND MONTRER DANS LA SUITTE DE CE LIVRE.
+## PLAN GENERAL DE CE QUE L'ON PRETEND
+[Subhead]
+MONTRER DANS LA SUITTE DE CE LIVRE.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XXIII.]
 

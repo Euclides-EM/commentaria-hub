@@ -9,7 +9,9 @@ On dit qu'une ligne eſt parallele à un eſpace quand elle l'eſt aux lignes qu
 
 [Diagram: two parallel horizontal lines labelled A with a parallel line b between them]
 
-### QUATRIEME LEMME.
+[Curated heading level=2 type=lemmas: V. QUATRIEME LEMME.]
+
+## QUATRIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: V.]
 
@@ -23,7 +25,9 @@ D'où il s'enſuit que deux lignes ſont également inclinées dans le même eſ
 
 Et que la moins inclinée eſt celle qui fait ſon angle aigu moins aigu & plus approchant du droit.
 
-### CINQUIEME LEMME IMPORTANT.
+[Curated heading level=2 type=lemmas: VI. CINQUIEME LEMME IMPORTANT.]
+
+## CINQUIEME LEMME IMPORTANT.
 
 [Curated heading level=4 type=paragraph_order: VI.]
 
@@ -37,7 +41,9 @@ LORSQUE deux ou pluſieurs lignes ſont menées d'un même point ſur la même l
 vn
 [/Handwritten]
 
-### SIXIEME LEMME.
+[Curated heading level=2 type=lemmas: VII. SIXIEME LEMME.]
+
+## SIXIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: VII.]
 
@@ -51,7 +57,9 @@ Et on eſt aſſeuré que cela eſt; 1. quand on ſçait qu'ils ſont égaux, & 
 
 2. Lors qu'eſtant égaux ils ſont de plus Iſoſceles. VIII.59.
 
-### SEPTIEME LEMME.
+[Curated heading level=2 type=lemmas: VIII. SEPTIEME LEMME.]
+
+## SEPTIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: VIII.]
 

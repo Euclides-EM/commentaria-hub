@@ -17,9 +17,11 @@ Et ainſy il ne reſtera qu'à donner la meſure des trois premiers; ce que nous
 
 Mais pour cela il eſt neceſſaire de marquer la maniere dont on exprime les angles du 1er & du 3e genre dans la geometrie ordinaire. Car pour celuy du 2e, perſonne ne les a encore conſiderez.
 
-## PREMIER AVERTISSEMENT.
+### PREMIER AVERTISSEMENT.
 
-## DEFINITIONS.
+[Curated heading level=2 type=definitions: VIII. DEFINITIONS.]
+
+### DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: VIII.]
 

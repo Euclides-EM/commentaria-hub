@@ -3,7 +3,7 @@
 
 [Ornament: decorative headpiece band of fleurons]
 
-# NOVVEAVX ELEMENS DE GEOMETRIE. 
+# NOVVEAVX ELEMENS DE GEOMETRIE.
 
 # LIVRE QVATRIEME.
 
@@ -18,6 +18,10 @@ I.
 [/Margin]
 
 {dropcap:N|lines=7|style=decorated|decoration="woodcut initial with a standing figure amid foliage"}Ous *avons dit generalement qu'il y a deux ſortes de raiſons; la raiſon de nombre à nombre, & la raiſon ſourde; & comme c'eſt par là que les grandeurs ſont commenſurables & incommenſurables, la ſuite naturelle nous oblige de parler de ces ſortes de grandeurs; à quoy nous ajoûterons quelque choſe de la proportion entre les diverſes aliquotes d'une même grandeur.*
+
+[Curated heading level=1 type=lemmas: LIVRE QVATRIEME.]
+
+[Curated heading level=2 type=lemmas: II. PREMIER LEMME.]
 
 ## PREMIER LEMME.
 

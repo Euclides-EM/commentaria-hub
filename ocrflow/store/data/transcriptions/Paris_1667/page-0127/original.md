@@ -3,6 +3,14 @@
 
 *de demonſtrer les Problemes ſuivans ſans ſe ſervir des triangles comme fait Euclide.*
 
+[Curated heading level=1 type=propositions: LIVRE CINQVIEME.]
+
+[Curated heading level=1 type=problems: LIVRE CINQVIEME.]
+
+[Curated heading level=2 type=propositions: XXXIII. PREMIER PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXIII. PREMIER PROBLEME.]
+
 ### PREMIER PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXIII.]
@@ -18,6 +26,10 @@ D'un point donné hors une ligne donnée tirer une perpendiculaire ſur cette li
 Soit le point *k* & la ligne *z*, de *k* pris pour centre, décrire un cercle qui coupe *z*, & par conſequent y marque deux points comme *m* & *n*, également diſtans de *k*, puiſque *mk*, & *nk* ſeront rayons du même cercle. Cela fait, décrivant deux cercles égaux d'*m* & d'*n* qui s'entrecoupent par tout ailleurs qu'en *k*, comme en *b*, la ligne qui joindra *b* & *k* ſera perpendiculaire à la ligne *z*, ce qu'il falloit faire. Car *k* & *b* ſont chacun égalelement{printer-error-correction:également} diſtans des deux points de *z*, *m* & *n*, & par conſequent tous les autres en ſeront auſſi également diſtans par la precedente, & ainſy la ligne ſera perpendiculaire par la definition.
 
 [Diagram: two dotted circles intersecting, with points K, m, n and B and a horizontal line through m and n]
+
+[Curated heading level=2 type=propositions: XXXIV. SECOND PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXIV. SECOND PROBLEME.]
 
 ### SECOND PROBLEME.
 

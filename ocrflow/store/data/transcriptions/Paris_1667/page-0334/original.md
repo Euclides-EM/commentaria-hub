@@ -9,7 +9,7 @@ Donc 2. x x + 2 x y = 2. d x.
 
 Donc b b. = c c. + d d. — 2. d x. Ce qu'il falloit demonſtrer.
 
-### SECOND CAS.
+#### SECOND CAS.
 
 Si d fait un angle obtus ſur b, alors p ne tombe ſur d qu'eſtant prolongé, & y eſt une ligne ajoûtée à d. & x. eſt égale à d. + y. Ce qui fait qu'on prouve ainſy que b b = c c + d d — 2. d x.
 
@@ -31,7 +31,11 @@ Donc b b = c c + d d — 2. d x. Ce qu'il falloit demonſtrer.
 
 De tout cecy il eſt aiſé de conclure que ſi des deux extremitez de la baſe d'un angle aigu, on tire des perpendiculaires à chaque coſté, le rectangle d'un coſté & de la ligne compriſe entre le ſommet de l'angle aigu; & la perpendiculaire qui tombe ſur ce coſté ſera toujours égale au rectangle de l'autre coſté & de la ligne compriſe entre le ſommet de l'angle aigu & la perpendiculaire qui tombe ſur cet autre coſté.
 
-## SEPTIEME THEOREME.
+[Curated heading level=2 type=propositions: XXXII. SEPTIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXII. SEPTIEME THEOREME.]
+
+### SEPTIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXII.]
 

@@ -1,9 +1,11 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XII. -->
 <!-- Page number: 249 -->
 
-## FIGURES CONSIDEREE'S A PART.
+### FIGURES CONSIDEREE'S A PART.
 
-### DEFINITIONS.
+[Curated heading level=2 type=definitions: X. DEFINITIONS.]
+
+#### DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: X.]
 
@@ -23,9 +25,11 @@ Et on met auſſy le cercle entre les regulieres, à cauſe de ſa parfaite unif
 
 Mais il faut remarquer que cela ne peut eſtre que quand le nombre des angles ou des coſtez eſt pair. Car s'il eſtoit impair, le dernier & le premier ſe trouveroient égaux; & par conſequent le penultiéme & le premier ſeroient inégaux: & par conſequent ils ne ſeroient pas tous alternativement égaux.
 
-## FIGURES COMPARE'ES.
+### FIGURES COMPARE'ES.
 
-### DEFINITIONS.
+[Curated heading level=2 type=definitions: XI. DEFINITIONS.]
+
+#### DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: XI.]
 

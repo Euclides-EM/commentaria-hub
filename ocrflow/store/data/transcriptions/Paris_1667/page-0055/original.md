@@ -19,7 +19,7 @@ Et quand je multiplie les deux differences, c'eſt multiplier les deux inégaux.
 
 Donc ces deux produits doivent eſtre égaux au produit des deux premiers par les deux derniers, qui eſt la même choſe que le produit des deux d'enhaut, qui eſt ce que l'on cherchoit.
 
-## DIVISION DES GRANDEURS COMPLEXES.
+### DIVISION DES GRANDEURS COMPLEXES.
 
 [Curated heading level=4 type=paragraph_order: LXV.]
 

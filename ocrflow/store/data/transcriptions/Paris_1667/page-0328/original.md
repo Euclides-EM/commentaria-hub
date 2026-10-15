@@ -9,9 +9,11 @@ gne eſt coupée en deux. C'eſtpourquoy il faut bien retenir ces trois propoſi
 
 3. Le quarré de la toute eſt égal aux 2 quarrez de chaque partie plus deux fois le rectangle des deux parties.
 
-# DE LA PROPORTION ENTRE LES RECTANGLES.
+## DE LA PROPORTION ENTRE LES RECTANGLES.
 
-## PROPOSITION FONDAMENTALE.
+[Curated heading level=2 type=propositions: XIV. PROPOSITION FONDAMENTALE.]
+
+### PROPOSITION FONDAMENTALE.
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 

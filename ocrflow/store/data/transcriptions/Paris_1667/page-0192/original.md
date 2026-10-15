@@ -5,7 +5,7 @@ l'angle aigu vers *d*, au deſſus d'*y*, parcequ'ils ſont alternes, & ce derni
 
 [Diagram: three horizontal parallel lines labelled x, y and z, crossed by an oblique line B, with intersection points c, D and f]
 
-## Septieme Corollaire.
+##### SEPTIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LVIII.]
 
@@ -21,7 +21,7 @@ Car tous les angles aigus que fait cette ligne ſur ces paralleles ſont égaux.
 
 Donc les rayons de ces angles qui ſont les portions de cette ligne compriſes entre chaques deux paralleles ſont égales.
 
-## Huitieme Corollaire.
+##### HUITIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LIX.]
 
@@ -33,7 +33,7 @@ LORS que deux lignes ſont menées d'un même point ſur une autre ligne, c'eſt
 
 Car on peut par ce point tirer une parallele à la ligne que ces deux lignes coupent.
 
-## Neuvieme Corollaire.
+##### NEUVIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LX.]
 

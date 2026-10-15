@@ -13,7 +13,7 @@ rence: & alors chacun des angles du triangle eſt aigu. (IX. 25.) Et il eſt cla
 
 [Figure: obtuse triangle inscribed in a circle]
 
-## PREMIER COROLLAIRE.
+#### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: IX.]
 
@@ -27,7 +27,7 @@ Car eſtant inſcrit dans un cercle, les coſtez égaux ſoûtiennent des arcs �
 
 Que ſi au contraire on ſuppoſoit les trois angles égaux, on prouveroit de la même maniere que les coſtez ſont égaux. Car les angles égaux ſeront appuyez ſur des arcs égaux. IX. 21. Or les arcs égaux ſont ſoûtenus par des coſtez égaux.
 
-## SECOND COROLLAIRE.
+#### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: X.]
 

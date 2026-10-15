@@ -21,7 +21,10 @@ I.
 
 {dropcap:A|lines=8|style=decorated|decoration="foliate woodcut initial"}Pres *avoir parlé des lignes droittes qui ſe rencontrent, ſoit perpendiculairement, ſoit obliquement, on peut conſiderer dans les lignes une autre proprieté toute oppoſée, qui eſt de ne ſe rencontrer jamais, & d'eſtre toûjours également diſtantes l'une de l'autre, & c'eſt ce qu'on appelle des lignes paralleles.*
 
-## DEUX NOTIONS DES LIGNES PARALLELES, L'UNE NEGATIVE ET L'AUTRE POSITIVE.
+## DEUX NOTIONS DES LIGNES PARALLELES,
+[Subhead]
+L'UNE NEGATIVE ET L'AUTRE POSITIVE.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: II.]
 

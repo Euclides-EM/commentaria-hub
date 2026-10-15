@@ -5,7 +5,7 @@ Or il eſt impoſſible que *x x*—11 ſoit un nombre quarré. Car (11) ne fait
 
 Donc par le Theoreme 2ᵉ *h* & *d* ſont incommenſurables en longueur, & commenſurables ſeulement en puiſſance.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LXXXI.]
 
@@ -25,7 +25,11 @@ Donc il eſt une aliquote de l'hypotenuſe.
 
 Donc par le Theoreme precedent l'autre coſté, qui eſt la perpendiculaire, eſt incommenſurable en longueur, & commenſurable ſeulement en puiſſance avec l'hypotenuſe de cet angle droit, laquelle eſt le coſté de l'angle dont la baſe eſt ſuppoſée égale à chaque coſté.
 
-## QUATRIEME THEOREME.
+[Curated heading level=2 type=propositions: LXXXII. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: LXXXII. QUATRIEME THEOREME.]
+
+### QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LXXXII.]
 
@@ -37,6 +41,6 @@ AYANT deux lignes incommenſurables en longueur (ou par les Theoremes precedens,
 
 Cela eſt clair par le 3ᵉ Cas de la Propoſition principale.
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
 
 *Il n'y a rien à dire de quatre lignes continuellement proportionelles que ce qui a eſté dit dans le IV. Livre de quatre grandeurs continuellement proportionelles.*

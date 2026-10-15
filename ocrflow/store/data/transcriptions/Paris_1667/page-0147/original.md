@@ -15,6 +15,8 @@ Donc on ne ſçauroit rien retrancher de *b f*, ny y rien ajoûter, que *b f* & 
 
 Donc elles ſont égales.
 
+[Curated heading level=2 type=lemmas: X. SIXIEME LEMME.]
+
 ## SIXIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: X.]
@@ -28,6 +30,8 @@ Si une ligne eſt perpendiculaire à deux lignes, toutes les lignes perpendicula
 Car s'il y en avoit une ſeule qui fuſt perpendiculaire ſur l'une & oblique ſur l'autre, il s'enſuivroit par le premier Lemme que toutes les autres lignes perpendiculaires à l'une de ces deux lignes ſeroient obliques ſur l'autre.
 
 Donc s'il y en a une ſeule qui ſoit perpendiculaire à toutes les deux, il faudra neceſſairement que toutes celles qui ſont perpendiculaires à l'une des deux enfermantes, le ſoient à toutes les deux, & par conſequent qu'elles ſoient toutes égales par le precedent Lemme.
+
+[Curated heading level=2 type=lemmas: XI. SEPTIEME LEMME.]
 
 ## SEPTIEME LEMME.
 

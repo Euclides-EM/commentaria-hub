@@ -3,7 +3,7 @@
 
 droit, & de la moitié du perimetre. Or le raion droit eſt au raion droit comme le perimetre au perimetre, par XII. 26. Donc ces rectangles ( auſquels ces figures regulieres ſont égales ) eſtant ſemblables ſont entr'eux en raiſon doublée de celle du raion droit, qui eſt l'un de leurs coſtez.
 
-## PREMIER COROLLAIRE.
+### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXXVI.]
 
@@ -13,7 +13,7 @@ XXXVI.
 
 LEs cercles ſont entr'eux en raiſon doublée de celle de leurs raions, ou de leurs diametres, ce qui eſt la même choſe.
 
-## SECOND COROLLAIRE.
+### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXXVII.]
 
@@ -23,7 +23,11 @@ XXXVII.
 
 LEs cercles ſont entr'eux comme les quarrez de leurs diametres. Car les uns & les autres ſont en raiſon doublée de celle de leurs diametres.
 
-## QUATRIEME THEOREME.
+[Curated heading level=2 type=propositions: XXXVIII. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXVIII. QUATRIEME THEOREME.]
+
+### QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXVIII.]
 
@@ -43,7 +47,11 @@ Donc ils ſont auſſy en raiſon doublée de ces diametres.
 
 Donc ils ſont auſſy entr'eux comme les cercles & comme les quarrez des diametres.
 
-## CINQUIEME THEOREME.
+[Curated heading level=2 type=propositions: XXXIX. CINQUIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIX. CINQUIEME THEOREME.]
+
+### CINQUIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIX.]
 

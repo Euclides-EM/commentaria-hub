@@ -13,7 +13,7 @@ meſurent f m le plus grand, & g n le plus petit éloignement de ces deux circon
 
 *Tout cela eſt ſi aiſé à prouver par ce qui a eſté dit dans la 2e Section, & par les trois Lemmes de celle-cy, que j'aime mieux le laiſſer à trouver pour exercer l'eſprit, que de perdre du temps à le demonſtrer.*
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XLIII.]
 

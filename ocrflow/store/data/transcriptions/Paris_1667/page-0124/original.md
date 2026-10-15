@@ -3,6 +3,8 @@
 
 la même raiſon les degrez d'une petite circonference ſont plus petits que les degrez d'une plus grande.
 
+[Curated heading level=2 type=axioms: XXVI. CINQUIEME AXIOME.]
+
 ### CINQUIEME AXIOME.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]
@@ -15,6 +17,8 @@ Dans un même cercle les cordes qui ſoûtiennent des arcs égaux ſont égales,
 
 Il en eſt de même dans deux cercles égaux que dans le même cercle.
 
+[Curated heading level=2 type=axioms: XXVII. SIXIEME AXIOME.]
+
 ### SIXIEME AXIOME.
 
 [Curated heading level=4 type=paragraph_order: XXVII.]
@@ -24,6 +28,8 @@ XXVII.
 [/Margin]
 
 Toutes les lignes tirées du centre qui ſont plus petites que les rayons du cercle, ont leur extremité au dedans du cercle : que ſi elles ſont plus longues, elles l'ont au dehors ; ſi égales, dans la circonference même.
+
+[Curated heading level=2 type=axioms: XXVIII. SEPTIEME AXIOME.]
 
 ### SEPTIEME AXIOME.
 
@@ -37,7 +43,11 @@ Lors qu'on a d'une ligne, l'une des extremitez donnée de poſition, & ſa longu
 
 ## TROISIEME SECTION.
 
-## DES LIGNES DROITES PERPENDICVLAIRES.
+[Subhead]
+DES LIGNES DROITES PERPENDICVLAIRES.
+[/Subhead]
+
+[Curated heading level=2 type=definitions: XXIX. DEFINITIONS.]
 
 ### DEFINITIONS.
 

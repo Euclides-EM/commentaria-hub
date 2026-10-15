@@ -3,7 +3,7 @@
 
 ſoûtient le plus grand angle ; le moyen coſté le moyen angle ; le plus petit coſté le plus petit angle. Cela ſe prouve encore par le X. livre 18.
 
-## Second Corollaire.
+#### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXIII.]
 
@@ -13,7 +13,11 @@ XXIII.
 
 Deux triangles ſont équiangles, ſi deux angles de l'un ſont égaux aux deux angles de l'autre, chacun à chacun. Car il s'enſuit de là que le 3ᵉ eſt auſſy égal au 3ᵉ.
 
-## Sixieme Theoreme.
+[Curated heading level=2 type=propositions: XXIV. SIXIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXIV. SIXIEME THEOREME.]
+
+#### SIXIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXIV.]
 
@@ -23,7 +27,11 @@ XXIV.
 
 Lorsque deux triangles ont un angle égal, & les coſtez qui ſoûtiennent ces angles proportionnels, ils ſont ſemblables. Car alors la baſe eſt auſſy proportionnelle à la baſe, & les deux angles ſur cette baſe égaux, par XI. 63.
 
-## Septieme Theoreme.
+[Curated heading level=2 type=propositions: XXV. SEPTIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXV. SEPTIEME THEOREME.]
+
+#### SEPTIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
 
@@ -35,7 +43,11 @@ Si deux triangles ſont de même hauteur, les paralleles à la baſe également 
 
 Cela eſt demonſtré X 20.
 
-## Huitieme Theoreme.
+[Curated heading level=2 type=propositions: XXVI. HUITIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXVI. HUITIEME THEOREME.]
+
+#### HUITIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]
 

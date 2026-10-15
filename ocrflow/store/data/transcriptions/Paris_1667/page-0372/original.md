@@ -1,7 +1,7 @@
 <!-- Page number: 334 -->
 <!-- Running title: EXPLICATION -->
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 [Curated heading level=4 type=paragraph_order: XLIV.]
 

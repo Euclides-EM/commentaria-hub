@@ -1,6 +1,8 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XI. -->
 <!-- Page number: 219 -->
 
+[Curated heading level=2 type=lemmas: XXXI. TREIZIEME LEMME.]
+
 ## TREIZIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: XXXI.]
@@ -12,6 +14,8 @@ XXXI.
 TOUT angle qui ſe fait par la ſection de deux cordes qui ſe coupent au dedans du cercle, a pour meſure la moitié de l'arc ſur lequel il eſt appuyé, plus la moitié de l'arc oppoſé. Ainſy l'angle *c k d* a pour meſure la moitié des arcs oppoſez *d c* & *g f*. IX. 42.
 
 [Diagram: circle with two chords crossing at K, labels g, f, d and c on the circumference]
+
+[Curated heading level=2 type=lemmas: XXXII. QUATORZIEME LEMME.]
 
 ## QUATORZIEME LEMME.
 

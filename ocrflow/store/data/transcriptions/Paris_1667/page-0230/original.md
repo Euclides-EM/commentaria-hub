@@ -19,6 +19,12 @@ Donc *Cc :: Bb*.
 
 Donc *Pp :: Cc :: Bb*. Ce qu'il falloit demonſtrer.
 
+[Curated heading level=1 type=theorems: LIVRE DIXIEME.]
+
+[Curated heading level=2 type=propositions: XIII. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XIII. PREMIER THEOREME.]
+
 ## PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XIII.]

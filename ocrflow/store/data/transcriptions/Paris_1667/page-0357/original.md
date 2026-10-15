@@ -17,7 +17,7 @@ Or *bb* ⊹ *cc.* = *hh.* par XIV. 26.
 
 Donc *A* ⊹ *E.* = *I.* Ce qu'il falloit demonſtrer.
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XXXII.]
 
@@ -29,7 +29,11 @@ XXXII.
 
 ## DES FIGURES REGULIERES.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XXXIII. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIII. PREMIER THEOREME.]
+
+### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIII.]
 

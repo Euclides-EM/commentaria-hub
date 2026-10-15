@@ -3,7 +3,11 @@
 
 *Et ainſi tous ces changemens ſe peuvent reduire à 4, que nous avons déja prouvez generalement pour toutes ſortes de proportions, ſoit que les termes d'une raiſon ſoient multipliables par ceux de l'autre, ſoit qu'ils ne le ſoient pas. Mais nous le prouvons icy de nouveau quand ils ſont multipliables.*
 
-## DIXIEME THEOREME.
+[Curated heading level=2 type=propositions: LVIII. DIXIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: LVIII. DIXIEME THEOREME.]
+
+#### DIXIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LVIII.]
 
@@ -20,7 +24,11 @@ permutando  c.  b  ::  g.  f.
 
 Car les deux extrémes n'aiant fait que devenir tous deux moyens, le produit des moyens ſera toûjours égal au produit des deux extrémes. Ce qui eſt une marque infaillible de proportion par 56.
 
-## ONZIEME THEOREME.
+[Curated heading level=2 type=propositions: LIX. ONZIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: LIX. ONZIEME THEOREME.]
+
+#### ONZIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LIX.]
 
@@ -37,7 +45,11 @@ alternando  b.  f  ::  c.  g.
 
 C'eſt par la même raiſon que la precedente.
 
-## DOUZIEME THEOREME.
+[Curated heading level=2 type=propositions: LX. DOUZIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: LX. DOUZIEME THEOREME.]
+
+#### DOUZIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LX.]
 

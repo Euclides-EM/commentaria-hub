@@ -2,7 +2,7 @@
 
 [Ornament: engraved headpiece with acanthus scrollwork flanking an oval medallion of a standing figure, inscribed ARDET AMANS and SPE NIXA FIDES]
 
-# NOVVEAVX ELEMENS DE GEOMETRIE. 
+# NOVVEAVX ELEMENS DE GEOMETRIE.
 
 # LIVRE PREMIER.
 
@@ -10,7 +10,7 @@
 DES GRANDEVRS EN GENERAL, ET DES QUATRE OPERATIONS, Ajoûter, Souſtraire, Multiplier, Diviſer, entant qu'elles ſe peuvent appliquer à toutes ſortes de grandeurs.
 [/Subhead]
 
-### SUPPOSITIONS GENERALES.
+## SUPPOSITIONS GENERALES.
 
 [Curated heading level=4 type=paragraph_order: I.]
 

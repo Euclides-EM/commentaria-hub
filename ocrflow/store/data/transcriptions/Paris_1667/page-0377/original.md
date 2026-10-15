@@ -3,7 +3,7 @@
 
 tans, & qu'on a pratiquez dans les deux exemples qu'on a donnez de quarrez magiques.
 
-## PREMIER MOYEN.
+### PREMIER MOYEN.
 
 [Curated heading level=4 type=paragraph_order: LX.]
 
@@ -13,7 +13,7 @@ LX.
 
 Nous avons ſuppoſé qu'on tranſporteroit les chiffres de la premiere enceinte du quarré naturel dans la 1ʳᵉ enceinte du quarré magique; & ceux de la 2ᵉ dans la 2ᵉ; & de la 3ᵉ dans la 3ᵉ &c. Mais cela n'eſt pas neceſſaire. Car pour les chiffres marquez de lettres, il ſuffit de ne les tranſporter que d'une enceinte impaire à une autre quelconque qui ſoit impaire, comme de la 5ᵉ à la 1ʳᵉ; & d'une enceinte paire à une paire, comme de la 6ᵉ à la 4ᵉ.
 
-## SECOND MOYEN.
+### SECOND MOYEN.
 
 [Curated heading level=4 type=paragraph_order: LXI.]
 

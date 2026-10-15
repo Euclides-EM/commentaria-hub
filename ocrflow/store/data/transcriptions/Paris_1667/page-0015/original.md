@@ -3,6 +3,9 @@ ce livre appartient a mr. Delavallée ingenieur
 [/Handwritten]
 
 # NOVVEAVX ELEMENS DE GEOMETRIE;
+[Subhead]
+CONTENANT,
+[/Subhead]
 
 [Handwritten]
 C'eſt
@@ -11,8 +14,6 @@ Ex libris Recollectorum
 
 conventûs Pariſienſis
 [/Handwritten]
-
-## CONTENANT,
 
 Outre un ordre tout noûveau, & de nouvelles demonſtrations des propoſitions les plus communes,
 

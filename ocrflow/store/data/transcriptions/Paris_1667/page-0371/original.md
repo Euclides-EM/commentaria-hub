@@ -59,7 +59,7 @@ Or *m. c. M* ═ 3 *c*. par 20.
 
 Donc *a. o. M* ═ 3 *c*.
 
-### POUR LES ENCEINTES IMPAIRES.
+### POUR LES ENCEINTES IMPAIRES{printer-error-correction:PAIRES}.
 
 [Curated heading level=4 type=paragraph_order: XLIII.]
 

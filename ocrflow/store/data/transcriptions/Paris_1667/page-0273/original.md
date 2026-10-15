@@ -3,6 +3,12 @@
 
 ## PROBLEMES.
 
+[Curated heading level=1 type=problems: LIVRE ONZIEME.]
+
+[Curated heading level=2 type=propositions: LXV. I.]
+
+[Curated heading level=2 type=problems: LXV. I.]
+
 ### I.
 
 [Curated heading level=4 type=paragraph_order: LXV.]
@@ -17,6 +23,10 @@ TROUVER la moyenne proportionelle entre deux lignes données. Joindre les lignes
 
 On peut employer pour trouver la même choſe les Theoremes 2. ( 46. s̄. ) & 6. 54. s̄. ) J'en laiſſe la recherche pour exercer l'eſprit.
 
+[Curated heading level=2 type=propositions: LXVI. SECOND PROBLEME.]
+
+[Curated heading level=2 type=problems: LXVI. SECOND PROBLEME.]
+
 ### SECOND PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: LXVI.]
@@ -28,6 +38,10 @@ LXVI.
 TROUVER toutes les reciproques poſſibles à deux lignes données. Mettre la plus petite dans la plus grande, comme *k c* dans *k f*. Faire un cercle qui ait la plus grande pour diametre. Et du point *c*, où la plus petite ſe termine , tirer ſur ce diametre une perpendiculaire indefinie comme *y*. Cette perpendiculaire ſatisfera au Probleme , comme on le peut juger en conſiderant le 1er Theoreme ( 42. 43. 45. s̄. ) ſans qu'il ſoit beſoin que je m'amuſe à l'expliquer davantage.
 
 [Figure: circle with vertical diameter K f, point c on the diameter, and a horizontal line through c extended to y]
+
+[Curated heading level=2 type=propositions: LXVII. TROISIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: LXVII. TROISIEME PROBLEME.]
 
 ### TROISIEME PROBLEME.
 

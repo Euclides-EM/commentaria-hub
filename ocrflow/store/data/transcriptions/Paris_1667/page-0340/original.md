@@ -35,7 +35,11 @@ d c d — x c d.
 
 Donc x x. d d — x d : : m. n. c. d.
 
-## SEPTIEME PROBLEME.
+[Curated heading level=2 type=propositions: XLVI. SEPTIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: XLVI. SEPTIEME PROBLEME.]
+
+### SEPTIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XLVI.]
 

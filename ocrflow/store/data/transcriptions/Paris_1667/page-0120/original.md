@@ -4,8 +4,9 @@
 *lors que l'on compare pluſieurs lignes enſemble, on les ſuppoſe toûjours dans ces premiers elemens comme eſtant poſées, ou décrites ſur un même plan, c'eſt à dire ſur une même ſuperficie plate; ce qu'il ſuffit d'avoir dit une fois pour toutes.*
 
 ## PREMIERE SECTION.
-
-## DE LA LIGNE DROITE.
+[Subhead]
+DE LA LIGNE DROITE.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: V.]
 
@@ -18,6 +19,10 @@ Nous n'avons point defini la ligne droite, parce que l'idée en eſt tres claire
 La ligne droite eſt la plus courte eſtenduë entre deux points.
 
 Et celle qui approche plus de la droite, eſt auſſi la plus courte: ce qui a donné occaſion à Archimede d'établir ce principe ou Axiome.
+
+[Curated heading level=1 type=axioms: LIVRE CINQVIEME.]
+
+[Curated heading level=2 type=axioms: VI. PREMIER AXIOME.]
 
 ### PREMIER AXIOME.
 

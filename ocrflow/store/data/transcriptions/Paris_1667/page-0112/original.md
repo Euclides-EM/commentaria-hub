@@ -5,6 +5,12 @@ Et de même ſi deux grandeurs cubiques ou ne ſont pas comme nombre à nombre, 
 
 Car les quarrez ſont en raiſon doublée de leurs racines, & les cubes en raiſon triplée, d'où le reſte ſuit par la propoſition fondamentale.
 
+[Curated heading level=1 type=problems: LIVRE QVATRIEME.]
+
+[Curated heading level=2 type=propositions: XXVI. PROBLEME.]
+
+[Curated heading level=2 type=problems: XXVI. PROBLEME.]
+
 ## PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]

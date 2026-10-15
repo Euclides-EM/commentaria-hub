@@ -3,7 +3,10 @@
 
 gne, comme bb eſt la puiſſance de b, ou bien le rectangle de deux lignes quand il s'agit de deux lignes, comme la puiſſance de b par c eſt le rectangle b c.
 
-## DE LA PUISSANCE D'UNE LIGNE COMPAREE AVEC LA PUISSANCE DE SES PARTIES.
+## DE LA PUISSANCE D'UNE LIGNE
+[Subhead]
+COMPAREE AVEC LA PUISSANCE DE SES PARTIES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: VI.]
 
@@ -13,7 +16,9 @@ VI.
 
 Tout ce qu'on enſeigne de la puiſſance d'une ligne comparée avec la puiſſance de ſes parties, n'eſt que la même choſe que ce que nous avons dit dans le premier livre de la multiplication des grandeurs complexes; & ſe peut reduire à cet Axiome.
 
-## TROISIEME AXIOME.
+[Curated heading level=2 type=axioms: VII. TROISIEME AXIOME.]
+
+### TROISIEME AXIOME.
 
 [Curated heading level=4 type=paragraph_order: VII.]
 
@@ -23,7 +28,7 @@ VII.
 
 C'est la même choſe de multiplier le tout par le tout, & de multiplier le tout par chacune de ſes parties, ou de multiplier chaque partie par toutes les parties, en faiſant autant de multiplications partiales qu'eſt le produit des deux nombres des parties qu'on multiplie les unes par les autres.
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: VIII.]
 

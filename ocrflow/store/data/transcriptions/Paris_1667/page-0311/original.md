@@ -7,9 +7,13 @@ Le ſcalene L'iſoſcele peuvent eſtre Oxygone. Amblygone. Rectangle.
 
 L'equilateral ne ſçauroit eſtre qu'oxygone.
 
-## DES TRIANGLES OXYGONES.
+### DES TRIANGLES OXYGONES.
 
-## Theoreme.
+[Curated heading level=2 type=propositions: XXIX. THEOREME.]
+
+[Curated heading level=2 type=theorems: XXIX. THEOREME.]
+
+#### THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXIX.]
 
@@ -39,7 +43,7 @@ Or l'angle *pmb* eſt droit par la conſtruction.
 
 Donc l'angle *opd* eſt droit auſſy. Ce qu'il falloit demonſtrer.
 
-## Corollaire.
+#### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXX.]
 

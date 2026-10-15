@@ -5,7 +5,7 @@ cas cet angle a pour ſa meſure la moitié de l'arc que ſoûtient la partie de
 
 *Il ne ſera pas inutile de donner ce Theoreme pour exemple des diverſes voyes que les principes qu'on a établis peuvent fournir pour demonſtrer une même choſe.*
 
-## PREMIERE DEMONSTRATION.
+#### PREMIERE DEMONSTRATION.
 
 [Figure: a circle with diameter k g prolonged to h, a line from k cutting the circle at c and extended through points l, m, n, with perpendiculars l f, m g, n h dropped to the diameter]
 

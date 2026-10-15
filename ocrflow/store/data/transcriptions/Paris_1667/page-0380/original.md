@@ -1,6 +1,6 @@
 <!-- Page number: 342 -->
 
-# QVARRÉ NATVREL DE XI.
+## QVARRÉ NATVREL DE XI.
 
 | 1 e | 2 | 3 | 4 | 5 | 6 m | 7 | 8 | 9 | 10 | 11 o |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

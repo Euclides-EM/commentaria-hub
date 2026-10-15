@@ -1,7 +1,13 @@
 <!-- Page number: 84 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## SECONDE SECTION. DE LA LIGNE CIRCVLAIRE.
+## SECONDE SECTION.
+
+[Subhead]
+DE LA LIGNE CIRCVLAIRE.
+[/Subhead]
+
+[Curated heading level=2 type=definitions: XII. DEFINITIONS.]
 
 ### DEFINITIONS.
 

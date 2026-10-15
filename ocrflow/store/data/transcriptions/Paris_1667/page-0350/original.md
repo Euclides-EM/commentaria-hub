@@ -1,7 +1,12 @@
 <!-- Page number: 312 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## PROPOSITION FONDAMENTALE DE LA MESURE DES PARALLELOGRAMMES, ET DES TRIANGLES.
+[Curated heading level=2 type=propositions: XI. PROPOSITION FONDAMENTALE]
+
+#### PROPOSITION FONDAMENTALE
+[Subhead]
+DE LA MESURE DES PARALLELOGRAMMES, ET DES TRIANGLES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XI.]
 
@@ -19,7 +24,7 @@ Car *b c* eſtant égale tant à *d f* qu'à *m n*, *d f* eſt égale à *m n*. 
 
 [Figure: parallelogram with vertices labelled b, c and base line d, m, f, n with dotted perpendiculars]
 
-## PREMIER COROLLAIRE.
+#### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XII.]
 
@@ -31,7 +36,7 @@ Les parallelogrammes de même hauteur & de baſe égale ſont égaux.
 
 Car ils ont tous pour leur meſure commune le même rectangle de cette hauteur & de cette baſe.
 
-## SECOND COROLLAIRE.
+#### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XIII.]
 
@@ -45,7 +50,7 @@ Car chacun eſt égal au rectangle de ſa baſe & de ſa hauteur. Or les rectang
 
 On peut auſſy prouver ce 2e Corollaire par le premier de la même façon qu'on a déja fait en demonſtrant le 2e Theoreme de la premiere methode.
 
-## TROISIEME COROLLAIRE.
+#### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 

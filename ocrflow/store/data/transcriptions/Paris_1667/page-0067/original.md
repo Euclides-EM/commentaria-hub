@@ -5,7 +5,9 @@ qui doit arriver quand deux raiſons de plus grande inégalité ſont égales ) 
 
 Et ainſi tout ce qui arrivera quand on tranſpoſera les termes de chacune de ces raiſons ce qui eſt les rendre inverſes, ſera que les nouveaux antecedens ſeront également contenus dans les conſequens : ce qui montre que ces raiſons inverſes ſont encore égales.
 
-## SECONDE DEFINITION DE L'EGALITE' DES RAISONS.
+[Curated heading level=2 type=definitions: XXXVIII. SECONDE DEFINITION DE L'EGALITE' DES RAISONS.]
+
+### SECONDE DEFINITION DE L'EGALITE' DES RAISONS.
 
 [Curated heading level=4 type=paragraph_order: XXXVIII.]
 

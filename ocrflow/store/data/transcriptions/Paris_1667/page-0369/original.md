@@ -1,9 +1,9 @@
 <!-- Running title: DES QUARREZ MAGIQUES. -->
 <!-- Page number: 331 -->
 
-### EXEMPLES.
+#### EXEMPLES.
 
-### DANS LES QUARREZ IMPAIRS.
+##### DANS LES QUARREZ IMPAIRS.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]
 
@@ -29,7 +29,7 @@ XXVIII.
 
 ω. *m* : : *c*. β. Donc ω. β. = *m*. *c*.
 
-### DANS LES PAIRS.
+##### DANS LES PAIRS.
 
 [Curated heading level=4 type=paragraph_order: XXIX.]
 

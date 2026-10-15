@@ -3,6 +3,8 @@
 
 ordinaire uſage des lettres eſt de ſignifier des nombres quelconques avec cette obſervation , que dans le même nombre , ou dans des nombres que l'on compare enſemble , les mêmes lettres ſignifient mêmes nombres quels qu'ils ſoient , & differentes lettres differens nombres. C'eſt pourquoy deux mêmes lettres comme *b b* , ou *c c* , ſignifient un nombre quarré , & 3 mêmes lettres comme *b b b* ou *c c c* des nombres cubiques.
 
+[Curated heading level=2 type=lemmas: VIII. SEPTIEME LEMME.]
+
 ## SEPTIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: VIII.]

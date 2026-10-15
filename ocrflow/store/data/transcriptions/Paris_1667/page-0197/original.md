@@ -7,7 +7,9 @@
 
 # LIVRE NEVVIEME.
 
-### DES ANGLES QVI ONT LEVR SOMMET HORS LE CENTRE DU CERCLE, DONT LES ARCS NE LAISSENT PAS DE LES MESURER.
+[Subhead]
+DES ANGLES QVI ONT LEVR SOMMET HORS LE CENTRE DU CERCLE, DONT LES ARCS NE LAISSENT PAS DE LES MESURER.
+[/Subhead]
 
 {dropcap:I|lines=4|style=decorated|decoration="foliate woodcut initial"}L eſt bien aiſé de reconnoiſtre que les angles ne peuvent avoir pour veritable meſure que les arcs d'un cercle, & que toutes les autres meſures, comme les cordes, les ſinus, & les baſes, ne peuvent eſtre que ſubſidiaires de celle là, & que même elles ne les meſurent qu'imparfaitement.
 

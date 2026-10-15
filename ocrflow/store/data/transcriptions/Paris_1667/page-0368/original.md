@@ -39,7 +39,7 @@ QUatre chiffres dans la même bande, dont le premier eſt autant diſtant du 2, 
 
 Et par conſequent la ſomme des extrêmes eſt égale à la ſomme de ceux du milieu.
 
-### EXEMPLES.
+#### EXEMPLES.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 
@@ -59,7 +59,7 @@ XXIII.
 
 *e*. *m* : : *m*. *o*. Donc *e*. *o* = *m*. *m*.
 
-### DANS LES QUARREZ PAIRS.
+##### DANS LES QUARREZ PAIRS.
 
 [Curated heading level=4 type=paragraph_order: XXIV.]
 

@@ -20,7 +20,7 @@
        g.        c.    ::    f.       b.
 [/Calculation]
 
-### AVERTISSEMENT.
+##### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: LVII.]
 

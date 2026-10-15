@@ -16,9 +16,15 @@ K f. K g : : K d. K c.
 T.  T  : :  p.  p.
 [/Calculation]
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XLV. SECOND THEOREME.]
 
-### COROLLAIRE DU PREMIER.
+[Curated heading level=2 type=theorems: XLV. SECOND THEOREME.]
+
+##### SECOND THEOREME.
+
+[Subhead]
+COROLLAIRE DU PREMIER.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XLV.]
 
@@ -28,7 +34,7 @@ XLV.
 
 LA ligne tirée de *k* au point commun à la circonference & à *y* (c'eſtadire *k* E ou *k* ε) eſt moyenne proportionelle entre chaque toute & ſa partie, ſoit qu'elle ſoit coupée par *y* & terminée par la circonference, ſoit qu'elle ſoit coupée par la circonference & terminée par *y*.
 
-## PREMIERE COMPARAISON.
+###### PREMIERE COMPARAISON.
 
 Soit tirée *kf* qui coupe *y* en *c*, & *k* E, il ne faut que prouver que les baſes *f*. E & *c*. ε ſont antiparalleles. Ce qui eſt facile.
 

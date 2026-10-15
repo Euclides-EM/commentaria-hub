@@ -1,9 +1,13 @@
 <!-- Page number: 126 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-# D'VNE AVTRE MESVRE DES ARCS, QVI SONT LES SINVS.
+### D'VNE AVTRE MESVRE DES ARCS, QVI SONT LES SINVS.
 
-## DEFINITIONS.
+[Curated heading level=1 type=definitions: LIVRE SEPTIEME.]
+
+[Curated heading level=2 type=definitions: XI. DEFINITIONS.]
+
+### DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: XI.]
 
@@ -17,7 +21,11 @@ QUAND un arc eſt moindre que la moitié de la demy-circonference, ou le quart d
 
 Soit une circonference, dont le centre eſt c, & un arc moindre que la moitié de la demy circonference f d, ſoit tiré le rayon c d, & la perpendiculaire d'f ſur ce rayon f g; cette perpendiculaire f g eſt le ſinus de l'arc f d; & g d en eſt le ſinus verſe.
 
-## PREMIER LEMME.
+[Curated heading level=1 type=lemmas: LIVRE SEPTIEME.]
+
+[Curated heading level=2 type=lemmas: XII. PREMIER LEMME.]
+
+### PREMIER LEMME.
 
 [Curated heading level=4 type=paragraph_order: XII.]
 
@@ -27,7 +35,9 @@ XII.
 
 QUE ſi on continuë f g juſqu'à h, autre point de la circonference, il eſt clair par le 1er Theoreme que f h eſt partagée par la moitié par c d, & qu'ainſy le ſinus f g eſt la moitié de la corde f h.
 
-## SECOND LEMME.
+[Curated heading level=2 type=lemmas: XIII. SECOND LEMME.]
+
+### SECOND LEMME.
 
 [Curated heading level=4 type=paragraph_order: XIII.]
 
@@ -39,7 +49,9 @@ ET il eſt clair auſſy par le 2e Theoreme que l'arc f d h, ſoûtenu par la co
 
 D'où il s'enſuit qu'on peut encore definir le *ſinus*.
 
-## AUTRE DEFINITION DES SINUS.
+[Curated heading level=2 type=definitions: XIV. AUTRE DEFINITION DES SINUS.]
+
+### AUTRE DEFINITION DES SINUS.
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 
@@ -51,7 +63,11 @@ LA moitié de la corde du double de l'arc.
 
 Car f g eſt la moitié de la corde f h, laquelle corde f g h ſoûtient l'arc f d h, lequel eſt double de l'arc f d. Tout cela eſtant ſuppoſé ſoit.
 
-## SIXIEME THEOREME.
+[Curated heading level=2 type=propositions: XV. SIXIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XV. SIXIEME THEOREME.]
+
+### SIXIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XV.]
 

@@ -7,7 +7,7 @@ Donc l'angle *K* eſt égal à l'angle *b d c*. Ce qui eſt la premiere choſe q
 
 [Figure: arc of a circle with triangle, points K, c, b, d]
 
-## PREUVE DE LA SECONDE.
+#### PREUVE DE LA SECONDE.
 
 Les deux parties de *b K* , baſe de l'angle *b d K* , ſont en même raiſon que les deux coſtez de cet angle , puiſque *d K* eſtant égale à *b K* , & *c K* à *b d* ,
 
@@ -17,7 +17,7 @@ Donc l'angle *b d K* eſt diviſé par la moitié.
 
 Donc l'angle *K* eſtant égal à l'angle *b d c* , qui eſt la moitié de l'angle *b d K* , eſt auſſy la moitié de l'angle *b d K*. Ce qu'il falloit demonſtrer.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LXXV.]
 
@@ -27,7 +27,11 @@ LXXV.
 
 TOUT angle Iſoſcele dont la baſe eſt moyenne proportionelle entre le coſté entier & le coſté moins , cette baſe eſt de 36 degrez , & chacun des angles ſur la baſe de 72. Car 36. plus deux fois 72. qui eſt la double de 36 , vaut 180 , qui eſt ce que valent les 3 angles pris enſemble.
 
-## SEPTIEME PROBLEME.
+[Curated heading level=2 type=propositions: SEPTIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: SEPTIEME PROBLEME.]
+
+### SEPTIEME PROBLEME.
 
 AYANT la baſe d'un angle Iſoſcele de 36 degrez , en trouver le coſté.
 

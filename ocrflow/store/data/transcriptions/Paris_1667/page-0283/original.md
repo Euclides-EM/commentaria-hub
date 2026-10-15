@@ -7,7 +7,9 @@
 
 # LIVRE DOVZIEME.
 
-## DES FIGURES EN GENERAL CONSIDERE'ES SELON LEURS ANGLES ET LEURS COSTEZ.
+[Subhead]
+DES FIGURES EN GENERAL CONSIDERE'ES SELON LEURS ANGLES ET LEURS COSTEZ.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: I.]
 
@@ -36,6 +38,10 @@ Ou rectiligne.
 Ou curviligne.
 
 Ou mixte.
+
+[Curated heading level=1 type=definitions: LIVRE DOVZIEME.]
+
+[Curated heading level=2 type=definitions: III. PREMIERE DEFINITION.]
 
 ## PREMIERE DEFINITION.
 

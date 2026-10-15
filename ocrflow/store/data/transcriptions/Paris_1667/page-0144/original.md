@@ -17,6 +17,8 @@ Ainſy en l'une ou l'autre de ces trois manieres, on prouvera que *p q* eſt obl
 
 Elle eſt compriſe dans la preuve des deux premieres, eſtant clair que toutes les lignes qui ont eſté perpendiculaires ſur *z*, ont eſté obliques ſur *x*, & inclinées vers *k*.
 
+[Curated heading level=2 type=lemmas: V. SECOND LEMME.]
+
 ## SECOND LEMME.
 
 [Curated heading level=4 type=paragraph_order: V.]

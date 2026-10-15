@@ -29,7 +29,7 @@ XXIV.
 
 QUE ſi cela ſe continuë plus loin que ces 3 premiers termes, cela s'appelle *progreſſion*, ∺ b. c. d. f. g, &c.
 
-## PROPORTION ARITHMETIQVE.
+### PROPORTION ARITHMETIQVE.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
 
@@ -41,7 +41,15 @@ DANS la proportion arithmetique la difference du premier antecedent à ſon con�
 
 3. à 7 : : 8. à 12.
 
-### THEOREME.
+[Curated heading level=1 type=propositions: LIVRE SECOND.]
+
+[Curated heading level=1 type=theorems: LIVRE SECOND.]
+
+[Curated heading level=2 type=propositions: XXVI. THEOREME.]
+
+[Curated heading level=2 type=theorems: XXVI. THEOREME.]
+
+#### THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]
 

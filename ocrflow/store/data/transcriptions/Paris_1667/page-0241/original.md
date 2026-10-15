@@ -7,10 +7,10 @@ Donc par le 4ᵉ Lemme *D* & *d* ſont également inclinées chacune dans ſon e
 
 ## AUTRE DEMONSTRATION.
 
-[Curated heading level=4 type=paragraph_order: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
-XXXI.
+XXXI{printer-error-correction:XXIX}.
 [/Margin]
 
 Si on tire une ligne du ſommet ſur la baſe *B* prolongée égale à *D*, l'angle aigu que fera cette ligne que j'appelleray *P* ſur *B* prolongée ſera égal au complement de l'obtus que fait *D* ſur *B*, & par conſequent à l'aigu que fait *d* ſur *c*.
@@ -27,10 +27,10 @@ Or par la conſtruction *P* eſt égale à *D*. Donc
 
 ## AVERTISSEMENT.
 
-[Curated heading level=4 type=paragraph_order: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
-XXXII.
+XXXII{printer-error-correction:XXX}.
 [/Margin]
 
 *Cette derniere demonſtration, quoyque moins bonne que la premiere, a cela d'utile qu'elle fait voir plus clairement la difference qu'il y a entre ce 3ᵉ Theoreme & le 2ᵉ, qui eſt que dans le 2ᵉ non ſeulement les coſtez d'un triangle ſont proportionels à ceux de l'autre, mais auſſy la baſe; au lieu que dans celuy-cy il n'y a que les coſtez de proportionels, eſtant bien clair que la baſe* B, *ſur laquelle eſt l'angle obtus, doit eſtre plus petite à proportion que la baſe* b.
@@ -43,10 +43,10 @@ XXXII.
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4 type=paragraph_order: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
-XXXIII.
+XXXIII{printer-error-correction:XXXI}.
 [/Margin]
 
 Une ligne que j'appelleray la coupante eſtant inclinée ſur une autre que j'appelleray la coupée, ſi de l'extremité

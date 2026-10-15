@@ -1,6 +1,12 @@
 <!-- Running title: DE GEOMETRIE. LIVRE VI. -->
 <!-- Page number: 113 -->
 
+[Curated heading level=1 type=theorems: LIVRE SIXIEME.]
+
+[Curated heading level=2 type=propositions: XIX. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XIX. PREMIER THEOREME.]
+
 ## PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XIX.]
@@ -26,6 +32,10 @@ XX.
 [/Margin]
 
 On ne ſçauroit faire paſſer par le méme point deux differentes lignes qui ſoient paralleles à une même. Car il faudroit par le Theoreme precedent qu'elles fuſſent paralleles entr'elles, ce qui eſt abſurde, puis qu'elles auroient un point commun, & qu'il eſt de l'eſſence des paralleles de ne ſe rencontrer jamais.
+
+[Curated heading level=2 type=propositions: XXI. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXI. SECOND THEOREME.]
 
 ## SECOND THEOREME.
 

@@ -15,15 +15,24 @@
 
 *3. Ou au dedans du cercle.*
 
-## PREMIERE VOIE GENERALE DE TROUVER DES RECIPROQUES QUAND LE POINT COMMUN EST DANS LA CIRCONFERENCE.
+## PREMIERE VOIE GENERALE
+[Subhead]
+DE TROUVER DES RECIPROQUES QUAND LE POINT COMMUN EST DANS LA CIRCONFERENCE.
+[/Subhead]
 
 ON en trouve par cette voie en deux manieres. L'une par deux angles proches l'un de l'autre, & compris dans un angle total; ce qui eſt une eſpece ſinguliere, & hors l'analogie des autres Theoremes de ce Livre, ce qui fait que nous l'appellerons, *le Theoreme anomal.*
 
 L'autre par un angle qui a deux baſes antiparalleles.
 
-## PREMIERE MANIERE.
+### PREMIERE MANIERE.
 
-### Theoreme Anomal.
+[Curated heading level=1 type=theorems: LIVRE ONZIEME.]
+
+[Curated heading level=2 type=propositions: XXXV. THEOREME ANOMAL.]
+
+[Curated heading level=2 type=theorems: XXXV. THEOREME ANOMAL.]
+
+#### THEOREME ANOMAL.
 
 [Curated heading level=4 type=paragraph_order: XXXV.]
 

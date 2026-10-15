@@ -11,7 +11,7 @@ Or par l'hypoteſe *CD. cd :: DF. df.*
 
 Donc les baſes des deux premiers triangles ſont proportionelles aux baſes des deux ſeconds. Et ainſy des autres.
 
-## Avertissement.
+#### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XXVII.]
 
@@ -21,7 +21,7 @@ XXVII.
 
 *On omet diverſes choſes qui pourroient eſtre dittes des triangles ſemblables, parcequ'il n'y a rien en tout cela qui ne ſe trouve facilement par ce qui a eſté dit des angles conſiderez avec leurs baſes dans les deux livres des Proportionnelles.*
 
-## DIVISION DU TRIANGLE EN SES ESPECES.
+### DIVISION DU TRIANGLE EN SES ESPECES.
 
 [Curated heading level=4 type=paragraph_order: XXVIII.]
 

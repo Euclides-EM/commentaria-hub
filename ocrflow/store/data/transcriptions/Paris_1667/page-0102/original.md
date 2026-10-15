@@ -1,6 +1,8 @@
 <!-- Page number: 64 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
+[Curated heading level=2 type=lemmas: X. HUITIEME LEMME.]
+
 ## HUITIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: X.]
@@ -20,6 +22,14 @@ Et neanmoins *b* i ſera le même nombre que *b* , parce que l'unité multiplian
 Et quand on le multiplieroit 2 , 3 & 4 fois par l'unité , ce ſeroit toûjours de même : comme il ſe voit en ce que l'unité priſe une fois ( ce qui peut eſtre marqué par un ſeul i. ) eſt un nombre lineaire & multiplié par ſoy même , ce qui peut eſtre marqué par deux ( ii ) eſt un nombre quarré , quoy que ce ſoit toûjours un : Et marqué par trois (iii) un nombre cubique : Et par quatre (iiii) un nombre quarré de quarré : Et ainſi à l'infini. D'où il s'enſuit que comme un ſeul ( i ) n'apporte aucun changement au nombre auquel il eſt ajoûté , deux , trois , quatre i , n'en apportent point auſſy.
 
 Cette obſervation ſera de grand uſage dans les Theoremes ſuivans.
+
+[Curated heading level=1 type=propositions: LIVRE QVATRIEME.]
+
+[Curated heading level=1 type=theorems: LIVRE QVATRIEME.]
+
+[Curated heading level=2 type=propositions: XI. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XI. PREMIER THEOREME.]
 
 ## PREMIER THEOREME.
 

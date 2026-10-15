@@ -7,7 +7,7 @@ Les Geometres ſe ſont reſtraints à conſiderer les dernieres, parcequ'on y p
 
 [Figure: pentagon]
 
-## ESPECES DES FIGURES RECTILIGNES.
+### ESPECES DES FIGURES RECTILIGNES.
 
 [Curated heading level=4 type=paragraph_order: VII.]
 
@@ -35,7 +35,15 @@ Et Polygone, de pluſieurs angles indeterminément.
 
 Ces noms ſont ſi communs, qu'il eſt bon de ne les pas ignorer; mais on peut ſe paſſer d'en ſçavoir d'autres qui ſont moins communs: & appeller les figures du nombre de leurs coſtez ou de leurs angles. Une figure de quinze coſtez, de trente, de cent, de mille &c.
 
-## PREMIER THEOREME.
+[Curated heading level=1 type=propositions: LIVRE DOVZIEME.]
+
+[Curated heading level=1 type=theorems: LIVRE DOVZIEME.]
+
+[Curated heading level=2 type=propositions: VIII. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: VIII. PREMIER THEOREME.]
+
+### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: VIII.]
 

@@ -3,7 +3,7 @@
 
 Or le premier ne peut eſtre, que les baſes ne ſoient paralleles. Et le ſecond , qu'elles ne ſoient antiparalleles. Et en l'un & en l'autre les deux angles ſur une baſe ſont égaux aux deux angles ſur l'autre baſe.
 
-### PREUVE DU PREMIER.
+#### PREUVE DU PREMIER.
 
 [Curated heading level=4 type=paragraph_order: LXII.]
 
@@ -37,7 +37,7 @@ Or *cx* eſt parallele à *fg*. Donc *cd* luy eſt auſſy parallele.
 
 Donc les angles ſur la baſe *cd* ſont égaux aux angles ſur la baſe *fg*. Ce qu'il falloit demonſtrer.
 
-### PREUVE DU SECOND.
+#### PREUVE DU SECOND.
 
 [Curated heading level=4 type=paragraph_order: LXIII.]
 

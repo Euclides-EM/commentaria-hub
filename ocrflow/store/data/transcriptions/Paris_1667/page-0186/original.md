@@ -1,7 +1,7 @@
 <!-- Page number: 148 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## TROISIEME CAS.
+##### TROISIEME CAS.
 
 [Curated heading level=4 type=paragraph_order: XXVIII.]
 
@@ -11,7 +11,11 @@ XXVIII.
 
 LES angles iſocordes & égaux ſont équilateres entr'eux. Car il eſt aiſé de voir par le 3e Lemme que les cordes égales ne peuvent ſoûtenir des arcs égaux, que dans les mêmes cercles, ou en des cercles égaux.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XXIX. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXIX. SECOND THEOREME.]
+
+#### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXIX.]
 
@@ -21,11 +25,11 @@ XXIX.
 
 QUAND il n'y a égalité que dans l'une de ces trois choſes, voicy ce qui arrive.
 
-## PREMIER CAS.
+##### PREMIER CAS.
 
 N'Y ayant égalité que dans les coſtez, les plus grandes cordes donnent les plus grands angles, & les plus grands angles ont les plus grandes cordes. C'eſt le 2e Lemme.
 
-## SECOND CAS.
+##### SECOND CAS.
 
 [Curated heading level=4 type=paragraph_order: XXX.]
 
@@ -35,7 +39,7 @@ XXX.
 
 N'Y ayant égalité que dans les cordes, les plus grands coſtez donnent les plus petits angles, & les plus petits angles ont les plus grands coſtez. C'eſt le 3e Lemme.
 
-## TROISIEME CAS.
+##### TROISIEME CAS.
 
 [Curated heading level=4 type=paragraph_order: XXXI.]
 
@@ -45,7 +49,13 @@ XXXI.
 
 N'Y ayant égalité que dans la grandeur des angles, les plus grandes cordes donnent les plus grands coſtez, & les plus grands coſtez ont les plus grandes cordes. C'eſt le 4e Lemme.
 
-## PREMIER PROBLEME.
+[Curated heading level=1 type=problems: LIVRE HUITIEME.]
+
+[Curated heading level=2 type=propositions: XXXII. PREMIER PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXII. PREMIER PROBLEME.]
+
+#### PREMIER PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXII.]
 
@@ -55,7 +65,11 @@ XXXII.
 
 COUPER en deux un angle donné. L'ayant pris iſoſcele, il ne faut qu'en couper la corde perpendiculairement & par la moitié, ce qui ſe fait de la même ſorte. Car alors l'arc ſera partagé par la moitié, par VII. 6.
 
-## SECOND PROBLEME.
+[Curated heading level=2 type=propositions: XXXIII. SECOND PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXIII. SECOND PROBLEME.]
+
+#### SECOND PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXIII.]
 

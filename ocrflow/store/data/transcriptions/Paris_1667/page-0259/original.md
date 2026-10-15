@@ -23,7 +23,7 @@ k E. k *K* :: k c. k *E*.
 
 Ce qu'il falloit demonſtrer, puiſque k E & k *E* ſont les deux coſtez de l'angle partagé par la moitié, & que k *K* eſt la ligne entiere qui le partage, & k c ſa partie.
 
-### COROLLAIRE.
+#### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXXVI.]
 

@@ -3,7 +3,7 @@
 
 abſolüe, mais proportionelle, puiſque, comme nous avons déja dit, il ſignifie la trois cent ſoixantiême partie de quelque circonference que ce ſoit, dont chacune en ſoy eſt plus grande ou plus petite ſelon que la circonference eſt plus grande ou plus petite: & il en eſt de meſme des minutes, des ſecondes, & des troiſiêmes. C'eſtpourquoy on peut appeller arcs égaux, ſelon qu'il a eſté dit VII. 19. ceux qui ſont d'autant de degrez, quoyqu'ils puiſſent eſtre inegaux ſelon leur grandeur abſolüe. Et égaux en toute maniere, ou *tout-égaux*, ceux qui ſont d'autant de degrez & qui ſont auſſy égaux ſelon leur grandeur abſolüe, tels que ſont les arcs d'autant de degrez dans les cercles égaux.
 
-## DE L'ANGLE DROIT.
+### DE L'ANGLE DROIT.
 
 [Curated heading level=4 type=paragraph_order: XI.]
 
@@ -21,7 +21,7 @@ On appelle angle droit celuy qui a pour meſure la moitié de la demycirconferen
 
 3. Que toute ligne perpendiculaire ſur une ligne fait ſur cette ligne deux angles droits, l'un d'un coſté & l'autre de l'autre. Car elle partage en deux la demycirconference qui a pour centre le point de leur ſection, par VII. 17.
 
-## DE L'ANGLE AIGU.
+### DE L'ANGLE AIGU.
 
 [Curated heading level=4 type=paragraph_order: XII.]
 
@@ -33,7 +33,7 @@ ON appelle angle *aigu* celuy qui eſt moindre qu'un droit, c'eſtadire qui a po
 
 Que tout angle moindre que de 90. degrez eſt aigu.
 
-## DE L'ANGLE OBTUS.
+### DE L'ANGLE OBTUS.
 
 [Curated heading level=4 type=paragraph_order: XIII.]
 

@@ -34,6 +34,10 @@ II.   { b.   c   ::  bx.  cx. }
 III.  { bx.  cx  ::  by.  cy. }  ::  b.  c.
 [/Calculation]
 
+[Curated heading level=2 type=propositions: XIV. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XIV. TROISIEME THEOREME.]
+
 ## TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XIV.]

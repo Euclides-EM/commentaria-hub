@@ -13,7 +13,10 @@ kf. kE :: kE. kc.
 
 T. m :: m. p.
 
-## TROISIEME VOIE POUR TROUVER DES RECIPROQUES QUAND LE POINT EST AU DEDANS DU CERCLE.
+## TROISIEME VOIE
+[Subhead]
+POUR TROUVER DES RECIPROQUES QUAND LE POINT EST AU DEDANS DU CERCLE.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: LV.]
 
@@ -29,7 +32,11 @@ Cette voie eſt pour trouver que les parties d'une ligne ſont reciproques aux p
 LVI.
 [/Margin]
 
-## SEPTIEME THEOREME.
+[Curated heading level=2 type=propositions: SEPTIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: SEPTIEME THEOREME.]
+
+### SEPTIEME THEOREME.
 
 Si deux cordes ſe coupent dans le cercle, les parties de l'une ſont reciproques aux parties de l'autre.
 

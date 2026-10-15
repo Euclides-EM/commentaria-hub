@@ -9,7 +9,7 @@ Et elles le touchent au point où elles ſont coupées par les rayons du grand c
 
 Donc ſi le point où le rayon m c coupe la corde k b eſt h, h ſera auſſy l'extrémité du rayon du 1er cercle, qui eſt perpendiculaire à la corde k b, puis qu'autrement il faudroit que de c on puſt tirer ſur k b deux perpendiculaires differentes, ce qui ne ſe peut.
 
-## PREMIER COROLLAIRE.
+### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXXV.]
 
@@ -21,7 +21,7 @@ D'UN point hors le cercle on peut tirer deux tangentes au cercle, & non plus.
 
 Cela eſt clair par ce qui vient d'eſtre demonſtré.
 
-## SECOND COROLLAIRE.
+### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXXVI.]
 
@@ -37,9 +37,13 @@ Car il eſt viſible par la ſolution du 2e Probleme, que dans tous ces cas, ces
 
 ## QVATRIEME SECTION.
 
-## DES CIRCONFERENCES PARALLELES.
+[Subhead]
+DES CIRCONFERENCES PARALLELES.
+[/Subhead]
 
-## PREMIER LEMME.
+[Curated heading level=2 type=lemmas: XXXVII. PREMIER LEMME.]
+
+### PREMIER LEMME.
 
 [Curated heading level=4 type=paragraph_order: XXXVII.]
 
@@ -49,7 +53,9 @@ XXXVII.
 
 VNE ligne droite eſt perpendiculaire à une circonference, autant que la nature de l'une & de l'autre le peut ſouffrir, lorſqu'elle eſt perpendiculaire à la tangente au point de la ſection.
 
-## SECOND LEMME.
+[Curated heading level=2 type=lemmas: XXXVIII. SECOND LEMME.]
+
+### SECOND LEMME.
 
 [Curated heading level=4 type=paragraph_order: XXXVIII.]
 

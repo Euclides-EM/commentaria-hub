@@ -24,12 +24,16 @@ Donc bg == cf par 43 ſup.
 
 Car par l'hypotheſe la raiſon de f.g (qui eſt la même que celle de bf. bg) eſt égale à la raiſon de b. c (qui eſt la même que celle de bf. cf) & par conſequent bg & cf ont une même raiſon avec vne même grandeur, ſçavoir bf. Et par conſequent bg, eſt égal à cf. par 43, ce qu'il falloit demonſtrer.
 
-### NEUVIEME THEOREME.
+[Curated heading level=2 type=propositions: LIV. NEUVIEME THEOREME.]
 
-[Curated heading level=4 type=paragraph_order: LIII.]
+[Curated heading level=2 type=theorems: LIV. NEUVIEME THEOREME.]
+
+#### NEUVIEME THEOREME.
+
+[Curated heading level=4 type=paragraph_order: LIV.]
 
 [Margin]
-LIII.
+LIII{printer-error-correction:LIV}.
 [/Margin]
 
 LORS que quatres grandeurs ſont tellement diſpoſées que le produit des deux extrémes eſt égal au produit des deux moyens ; ces quatre grandeurs ſont proportionelles. C'eſt à dire que la premiere eſt à la ſeconde, comme

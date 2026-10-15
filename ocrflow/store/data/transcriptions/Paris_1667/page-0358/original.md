@@ -3,7 +3,11 @@
 
 cette perpendiculaire, & pour baſe tout le perimetre, puiſqu'il eſt égal à ce rectiligne. Outre qu'il eſt aiſé de prouver qu'il eſt égal à tous les triangles que contient le polygone, eſtant de même hauteur que chacun, & ſa baſe eſtant égale à toutes les baſes des autres priſes enſemble.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XXXIV. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIV. SECOND THEOREME.]
+
+### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIV.]
 
@@ -21,7 +25,11 @@ Donc le rectangle du raion du cercle & de la moitié de la circonference eſt pl
 
 Et il eſt plus petit que tout polygone circonſcrit, parceque le polygone circonſcrit eſt égal au rectangle du raion du cercle ( qui eſt alors la même choſe que la perpendiculaire au coſté ) & de la moitié de ſon perimetre, lequel perimetre eſt plus grand que la circonference du cercle, puiſqu'il la comprend, ſelon la même maxime d'Archimede. Donc &c.
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: XXXV. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXV. TROISIEME THEOREME.]
+
+### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXV.]
 

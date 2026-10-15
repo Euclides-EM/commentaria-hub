@@ -11,7 +11,7 @@ Or de quelque grand nombre de coſtez que ſoient ces polygones, leurs circuits 
 
 Donc on doit conclure par une analogie tres certaine, que les circonferences ſont auſſy en même raiſon que les diametres.
 
-## TROISIEME COROLLAIRE.
+##### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXIX.]
 
@@ -23,7 +23,7 @@ SI deux figures regulieres de même eſpece ont de l'égalité en l'une de ces q
 
 C'eſt une ſuite évidente du ſixiême Theoreme.
 
-## QUATRIEME COROLLAIRE.
+##### QUATRIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXX.]
 

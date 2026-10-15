@@ -7,6 +7,8 @@ Il eſt clair auſſy par là que les lignes droittes ne peuvent terminer un eſ
 
 Et ainſy l'on peut conſiderer trois choſes dans l'extremité d'une figure rectiligne. 1. Les angles. 2. Les coſtez. 3. Le circuit, qu'on appelle auſſy *perimetre*, qui n'eſt autre choſe que la ſomme des coſtez; c'eſtadire tous les coſtez pris enſemble.
 
+[Curated heading level=2 type=definitions: IV. SECONDE DEFINITION.]
+
 ## SECONDE DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: IV.]
@@ -18,6 +20,8 @@ IV.
 ON appelle curviligne celle qui eſt terminée par une ou pluſieurs lignes courbes. Et une ſeule ligne courbe pouvant rentrer en ſoy même, peut terminer un eſpace.
 
 Mais on ne conſidere icy des figures curvilignes que le ſeul cercle; parceque de toutes les lignes courbes on ne conſidere que la circulaire.
+
+[Curated heading level=2 type=definitions: V. TROISIEME DEFINITION.]
 
 ## TROISIEME DEFINITION.
 

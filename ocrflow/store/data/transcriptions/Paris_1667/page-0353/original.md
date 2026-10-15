@@ -12,7 +12,9 @@ Car { A. E
 
 ## DES TRIANGLES.
 
-## LEMME.
+[Curated heading level=2 type=lemmas: XXI. LEMME.]
+
+### LEMME.
 
 [Curated heading level=4 type=paragraph_order: XXI.]
 
@@ -32,7 +34,11 @@ Or il eſt viſible que ce triangle & ce parallelogramme ſont de même hauteur,
 
 Donc tout triangle eſt la moitié d'un parallelogramme de même baſe & de même hauteur.
 
-## THEOREME GENERAL.
+[Curated heading level=2 type=propositions: XXII. THEOREME GENERAL.]
+
+[Curated heading level=2 type=theorems: XXII. THEOREME GENERAL.]
+
+### THEOREME GENERAL.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 

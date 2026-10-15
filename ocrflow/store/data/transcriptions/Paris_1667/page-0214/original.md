@@ -11,7 +11,11 @@ Or il n'y a que les points *f* & *g* qui ſoient communs aux deux cercles. Donc 
 
 Et il eſt clair qu'elles ſont égales, puiſque chacune ſoûtient des arcs égaux dans la circonference du nouveau cercle.
 
-## TROISIEME PROBLEME.
+[Curated heading level=2 type=propositions: XXXVIII. TROISIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXVIII. TROISIEME PROBLEME.]
+
+#### TROISIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXVIII.]
 
@@ -25,7 +29,11 @@ Ayant tiré une tangente au cercle, la corde qui fera avec cette tangente au poi
 
 [Figure: a circle with a tangent line at a point, and a chord drawn from the point of tangency]
 
-## QUATRIEME PROBLEME.
+[Curated heading level=2 type=propositions: XXXIX. QUATRIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXIX. QUATRIEME PROBLEME.]
+
+#### QUATRIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXIX.]
 

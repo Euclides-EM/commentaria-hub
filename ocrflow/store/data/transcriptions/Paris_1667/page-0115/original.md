@@ -5,6 +5,10 @@ de fois dans le tout, eſt égale au tout. Ce qui arrive toûjours quand le nume
 
 Ainſi ²⁄₂ ³⁄₃ ⁴⁄₄ &c. font chacun le tout.
 
+[Curated heading level=2 type=propositions: XXXIV. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXIV. PREMIER THEOREME.]
+
 ### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIV.]
@@ -32,6 +36,10 @@ Donc x/⅓. y/¼ } :: 4. 3.
 [/Calculation]
 
 Ce qu'il falloit demouſtrer{printer-error-correction:demonſtrer}.
+
+[Curated heading level=2 type=propositions: XXXV. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXV. SECOND THEOREME.]
 
 ### SECOND THEOREME.
 

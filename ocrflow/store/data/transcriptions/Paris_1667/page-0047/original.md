@@ -28,7 +28,7 @@ XLIV.
 
 6. MAIS ſi la même grandeur ou terme eſt avec des ſignes divers, on peut alors ſelon le principe 4, oſter ce terme de la grandeur complexe autant de fois qu'il eſt avec un plus & avec un moins. Ainſi *b* + *c* + *c* — *c* — *c*, ne vaut que *b*, parce que *c* eſt autant de fois oſté que mis, & ainſi il ne reſte rien. Que s'il y avoit un *plus* davantage, comme *b* + *c* + *c* — *c*, alors il le faudroit laiſſer une fois avec *plus b* + *c*, & de même s'il y avoit un moins davantage.
 
-## ADDITION DES GRANDEURS COMPLEXES.
+### ADDITION DES GRANDEURS COMPLEXES.
 
 [Curated heading level=4 type=paragraph_order: XLV.]
 

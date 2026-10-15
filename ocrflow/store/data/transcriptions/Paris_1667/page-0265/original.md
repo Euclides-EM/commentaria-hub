@@ -22,7 +22,11 @@ k f. k d : : k g. k c.
 T.  p : :  T.  p.
 [/Calculation]
 
-## QUATRIEME THEOREME, COROLLAIRE DU SECOND.
+[Curated heading level=2 type=propositions: XLIX. QUATRIEME THEOREME, COROLLAIRE DU SECOND.]
+
+[Curated heading level=2 type=theorems: XLIX. QUATRIEME THEOREME, COROLLAIRE DU SECOND.]
+
+##### QUATRIEME THEOREME, COROLLAIRE DU SECOND.
 
 [Curated heading level=4 type=paragraph_order: XLIX.]
 
@@ -49,7 +53,7 @@ k f. k E : : k E. k c.
 T.  m : :  m.  p.
 [/Calculation]
 
-## TROISIEME CAS.
+#### TROISIEME CAS.
 
 [Curated heading level=4 type=paragraph_order: L.]
 

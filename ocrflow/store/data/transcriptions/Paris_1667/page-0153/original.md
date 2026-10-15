@@ -15,6 +15,10 @@ b k = k b. C'eſt à dire à ſoy même.
 
 Donc par V. 57. les perpendiculaires de *k* ſur *b d* & de *b* ſur *c k* ſont égales. Donc les lignes *b d* & *c k* ſont paralleles par 15. s̃.
 
+[Curated heading level=2 type=propositions: XXV. SIXIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXV. SIXIEME THEOREME.]
+
 ## SIXIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
@@ -32,6 +36,10 @@ Les inégales entre paralleles quoy qu'inclinées du même coſté ne peuvent e�
 2. On prouvera de la même ſorte que *b d* & *c q* eſtant égales, mais inclinées de divers coſtez, ne ſçauroient eſtre paralleles, parce que *c k* égale auſſy à, *b d*, mais inclinée du même coſté luy eſt parallele.
 
 [Diagram: two horizontal parallel lines with points b and c on the upper line joined by oblique and dotted lines to points d, k and q on the lower line]
+
+[Curated heading level=2 type=propositions: XXVI. SEPTIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXVI. SEPTIEME THEOREME.]
 
 ## SEPTIEME THEOREME.
 

@@ -5,7 +5,11 @@ Donc les deux autres angles eſtant égaux chacun à chacun ſeront appuyez ſur
 
 Donc les 3 coſtez de ces deux triangles ſont égaux chacun à chacun auſſy bien que les angles. Donc ils ſont tout-égaux.
 
-## Quatrieme Theoreme.
+[Curated heading level=2 type=propositions: XIX. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XIX. QUATRIEME THEOREME.]
+
+#### QUATRIEME THEOREME.
 
 [Figure: two triangles b c d, each with a dotted line c f from the apex c to a point f on the base between b and d, beneath a dotted horizontal line through the two points c]
 

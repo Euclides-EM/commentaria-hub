@@ -19,7 +19,7 @@ Mais l'angle FkG eſt l'angle dans le petit ſegment.
 
 Et l'angle FKG, l'angle dans le grand ſegment.
 
-## SECOND AVERTISSEMENT.
+### SECOND AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: IX.]
 
@@ -31,7 +31,7 @@ ON peut encore remarquer qu'au regard de l'angle du ſegment, il faut que la cor
 
 [Figure: circle with triangle inscribed, vertex K at top, points F and G on the circumference, letters x, y and z around the circle]
 
-## TROISIEME AVERTISSEMENT.
+### TROISIEME AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: X.]
 

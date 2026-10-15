@@ -9,7 +9,7 @@ Mais dans les raiſons d'inégalité cela eſt different. Car dans celles de plu
 
 Mais dans celles de plus petite inégalité, les antecedens ſont contenus dans les conſequens, parce que l'on compare le plus petit terme au plus grand.
 
-### AVERTISSEMENT.
+#### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XXX.]
 
@@ -19,9 +19,13 @@ XXX.
 
 CETTE *notion de l'égalité des raiſons ſuffiroit, s'il eſtoit toujours aisé de juger ſi les antecedens ſont également contenus dans les conſequens. Mais parce que cela eſt ſouvent difficile, voicy des proportions naturellement connües qui ſerviront d'Axiomes pour le faire juger par le moyen d'une ſeconde definition qui ne ſera qu'une explication de la premiere.*
 
-## PROPORTIONS NATVRELLEMENT CONNVES.
+### PROPORTIONS NATVRELLEMENT CONNVES.
 
-### PREMIER AXIOME.
+[Curated heading level=1 type=axioms: LIVRE SECOND.]
+
+[Curated heading level=2 type=axioms: XXXI. PREMIER AXIOME.]
+
+#### PREMIER AXIOME.
 
 [Curated heading level=4 type=paragraph_order: XXXI.]
 
@@ -35,7 +39,9 @@ LE multiple d'une grandeur eſt à cette grandeur, comme le multiple pareil d'un
 
 B. 3 B : : C. 3 C.
 
-### SECOND AXIOME.
+[Curated heading level=2 type=axioms: XXXII. SECOND AXIOME.]
+
+#### SECOND AXIOME.
 
 [Curated heading level=4 type=paragraph_order: XXXII.]
 
@@ -49,7 +55,9 @@ LES multiples pareils de deux grandeurs ſont entr'eux comme ces grandeurs: & au
 
 B. C : : 3 B. 3 C.
 
-### TROISIEME AXIOME.
+[Curated heading level=2 type=axioms: XXXIII. TROISIEME AXIOME.]
+
+#### TROISIEME AXIOME.
 
 [Curated heading level=4 type=paragraph_order: XXXIII.]
 

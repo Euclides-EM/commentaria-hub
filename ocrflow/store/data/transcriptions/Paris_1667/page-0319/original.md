@@ -1,9 +1,13 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XIII. -->
 <!-- Page number: 281 -->
 
-## DU PENTAGONE.
+### DU PENTAGONE.
 
-## THEOREME.
+[Curated heading level=2 type=propositions: LIV. THEOREME.]
+
+[Curated heading level=2 type=theorems: LIV. THEOREME.]
+
+#### THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LIV.]
 
@@ -29,7 +33,7 @@ Donc l'angle *cbg* eſt tel par XI. 73. & 69. que la baſe eſtant jointe au co�
 
 [Figure: pentagon inscribed in a dotted circle, vertices labelled c, b, d, f, with diagonals meeting at g]
 
-## COROLLAIRE.
+#### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LV.]
 

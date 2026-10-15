@@ -7,9 +7,16 @@ Auſſy il eſt vray que l'angle du raion ſur la circonference d'un cercle eſt
 
 Et on peut dire auſſy que tout point de la circonference eſt comme le ſommet d'un angle de 180 degrez, puiſqu'eſtant partagé par le raion en deux angles égaux, chacun de ſes angles de part & d'autre eſt droit en ſa maniere; & qu'ainſy chacun eſt de 90 degrez.
 
-## DES FIGURES REGULIERES COMPARE'ES ENSEMBLE.
+#### DES FIGURES REGULIERES
+[Subhead]
+COMPARE'ES ENSEMBLE.
+[/Subhead]
 
-## CINQUIEME THEOREME.
+[Curated heading level=2 type=propositions: XXV. CINQUIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXV. CINQUIEME THEOREME.]
+
+##### CINQUIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
 
@@ -29,12 +36,16 @@ Et il eſt clair auſſy que b eſt à c, comme 10 b à 10 c, ou 100 b à 100 c,
 
 Donc les circuits ne ſçauroient manquer d'eſtre en même raiſon que les coſtez.
 
-## SIXIEME THEOREME.
+[Curated heading level=2 type=propositions: XXVI. SIXIEME THEOREME.]
 
-[Curated heading level=4 type=paragraph_order: XXXV.]
+[Curated heading level=2 type=theorems: XXVI. SIXIEME THEOREME.]
+
+##### SIXIEME THEOREME.
+
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
-XXXV.
+XXXV{printer-error-correction:XXVI}.
 [/Margin]
 
 DEux figures regulieres eſtant de même eſpece, ces 4 choſes de l'une, *raion*, *raion droit*, *coſté*, *circuit*, ſont en même raiſon avec ces 4 autres mêmes choſes de l'autre:

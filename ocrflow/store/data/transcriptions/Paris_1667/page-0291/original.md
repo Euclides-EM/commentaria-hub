@@ -1,7 +1,11 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XII. -->
 <!-- Page number: 253 -->
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: XVII. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XVII. TROISIEME THEOREME.]
+
+##### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XVII.]
 
@@ -23,7 +27,7 @@ Car alors chaque coſté ſera compoſé d'une petite & d'une grande tangente (p
 
 Donc une figure circonſcritte au cercle ne peut eſtre équilaterale, ſi elle n'eſt equiangle, ou abſolument ou alternativement, & en ce dernier cas il faut que le nombre des angles ſoit pair. Ce qu'il falloit demonſtrer.
 
-## DES FIGURES REGULIERES.
+##### DES FIGURES REGULIERES.
 
 [Curated heading level=4 type=paragraph_order: XVIII.]
 

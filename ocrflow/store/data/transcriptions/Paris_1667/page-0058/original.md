@@ -11,7 +11,10 @@ Et pour le retrancher du membre où il n'eſtoit point du tout, il faut l'y mett
 
 Et par conſequent ce tranſport d'un terme d'un membre à un autre en changeant le *plus* en *moins*, ne fait qu'oſter choſes égales de choſes égales, ce qui ne trouble point l'égalité.
 
-## EXEMPLES. DE LA SOLUTION D'UN PROBLEME PAR EQUATIONS.
+### EXEMPLES.
+[Subhead]
+DE LA SOLUTION D'UN PROBLEME PAR EQUATIONS.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: LXX.]
 

@@ -1,7 +1,7 @@
 <!-- Running title: DES QUARREZ MAGIQUES. -->
 <!-- Page number: 335 -->
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 [Curated heading level=4 type=paragraph_order: XLVIII.]
 
@@ -49,7 +49,7 @@ LA diſpoſition en eſt tres facile, & ſe figure ainſy.
 
 [Diagram: two crossing diagonal lines with labels e and o at the top, α and ß at the sides, and è, ò at the bottom]
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 [Curated heading level=4 type=paragraph_order: LI.]
 

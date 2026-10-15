@@ -1,7 +1,11 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XIV. -->
 <!-- Page number: 295 -->
 
-## SIXIEME THEOREME.
+[Curated heading level=2 type=propositions: XXXI. SIXIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXI. SIXIEME THEOREME.]
+
+### SIXIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXI.]
 
@@ -37,7 +41,7 @@ Selon que d fait ſur la baſe, ou un angle aigu, ou un droit, ou un obtus.
 
 Mais quand d fait un angle droit ſur b, il eſt plus court de dire que b b baſe de l'angle aigu, eſt égal à c c. moins d d. comme il eſt clair par le precedent Theoreme. Et ainſy reſte ſeulement les deux autres cas.
 
-### PREMIER CAS.
+#### PREMIER CAS.
 
 Quand d fait ſur la baſe un angle aigu, la perpendiculaire coupe d en deux parties.
 

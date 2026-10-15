@@ -58,12 +58,10 @@ SOUSTRAIRE ou *Souſtraction* s'exprime ainſi *b*, moins *c*, & ſe marque ain�
 
 ### MULTIPLICATION.
 
-[Curated heading level=4 type=paragraph_order: XXVI.]
-
-[Curated heading level=4 type=paragraph_order: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
-XXVI.
+XXVI{printer-error-correction:XXVII}.
 [/Margin]
 
 MULTIPLIER ou *Multiplication* s'exprime ainſi *b* en *c*, & ſe marque ainſi *b* ⨯ *c*, ou plus brévement *b c*. Nous ne nous ſervirons que de ce dernier *b c*.

@@ -5,9 +5,11 @@
 
 # NOUVEAUX ELEMENS DE GEOMETRIE.
 
-## LIVRE HUITIEME.
+# LIVRE HUITIEME.
 
-## DES ANGLES RECTILIGNES.
+[Subhead]
+DES ANGLES RECTILIGNES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: I.]
 
@@ -17,7 +19,11 @@ I.
 
 {dropcap:A|lines=4|style=decorated|decoration="foliate woodcut initial"}PRES avoir parlé des lignes, c'eſt ſuivre l'ordre de la nature que de paſſer aux angles qui ſont plus compoſez que les lignes tenant quelque choſe des ſurfaces, comme nous allons voir.
 
-### DEFINITION DE L'ANGLE RECTILIGNE.
+[Curated heading level=1 type=definitions: LIVRE HUITIEME.]
+
+[Curated heading level=2 type=definitions: II. DEFINITION DE L'ANGLE RECTILIGNE.]
+
+## DEFINITION DE L'ANGLE RECTILIGNE.
 
 [Curated heading level=4 type=paragraph_order: II.]
 
@@ -27,7 +33,9 @@ II.
 
 L'angle rectiligne eſt une ſurface compriſe entre deux lignes droites qui ſe joignent en un point du coſté où elles s'approchent le plus, indefinie & indeterminée ſelon l'une de ſes dimenſions, qui eſt celle qui répond à la longueur des lignes qui la comprennent, & determinée ſelon l'autre par la partie proportionnelle d'une circonference dont le centre eſt au point où ces lignes ſe joignent.
 
-### AUTRES DEFINITIONS.
+[Curated heading level=2 type=definitions: III. AUTRES DEFINITIONS.]
+
+## AUTRES DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: III.]
 

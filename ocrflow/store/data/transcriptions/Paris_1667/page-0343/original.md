@@ -7,9 +7,15 @@
 
 # LIVRE QVINZIEME.
 
-## DE LA MESURE DE L'AIRE DES PARALLELOGRAMMES, DES TRIANGLES, ET AUTRES POLYGONES.
+[Subhead]
+DE LA MESURE DE L'AIRE DES PARALLELOGRAMMES, DES TRIANGLES, ET AUTRES POLYGONES.
+[/Subhead]
 
-### DEFINITIONS.
+[Curated heading level=1 type=definitions: LIVRE QVINZIEME.]
+
+[Curated heading level=2 type=definitions: I. DEFINITIONS.]
+
+## DEFINITIONS.
 
 {dropcap:Q|lines=3|style=decorated|decoration="foliate ornament on dark ground"}Uand on parle des coſtez d'un parallelogramme, on entend les coſtez angulaires, amoins qu'on ne marque autre choſe.
 

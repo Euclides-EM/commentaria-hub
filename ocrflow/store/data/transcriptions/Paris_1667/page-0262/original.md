@@ -14,7 +14,7 @@ K f. K d : : K g. K c.
 T. p     : :    T. p.
 [/Calculation]
 
-## SECONDE COMPARAISON.
+###### SECONDE COMPARAISON.
 
 [Curated heading level=4 type=paragraph_order: XLIII.]
 
@@ -39,7 +39,7 @@ K f. K d : : K g. K c.
 T. p    : :    T. p.
 [/Calculation]
 
-## TROISIEME COMPARAISON.
+###### TROISIEME COMPARAISON.
 
 [Curated heading level=4 type=paragraph_order: XLIV.]
 

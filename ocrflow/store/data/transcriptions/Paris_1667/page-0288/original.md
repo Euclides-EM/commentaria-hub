@@ -7,7 +7,11 @@ Ce qui fait voir que les *tout-egales* ſont toûjours *ſemblables*, puiſqu'il
 
 Les coſtez des figures ſemblables, entre leſquels il y a même raiſon, s'appellent les coſtez *Homologues*, qui ſont toûjours le plus grand coſté de l'une & de l'autre : & toûjours ainſy. Et c'eſt ce qui produit ce Theoreme.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XII. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XII. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XII.]
 
@@ -27,7 +31,9 @@ Puiſque *B* eſt à *b*, comme *C* à *c*, & *D* à *d*.
 
 Les trois d'une part (qui font le circuit de la premiere figure) ſont aux trois de l'autre part (qui font le circuit de la ſeconde) en même raiſon que chacune d'une part à chacune de l'autre. C'eſt ce qui a eſté demonſtré, II. 52.
 
-## AUTRES DEFINITIONS.
+[Curated heading level=2 type=definitions: XIII. AUTRES DEFINITIONS.]
+
+#### AUTRES DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: XIII.]
 

@@ -11,7 +11,12 @@ XXX.
 
 *Quoy que deux lignes qui ſe coupent, ſe coupent & ſoient coupées mutuellement, neanmoins afin qu'on ne les confonde pas, nous appellerons l'une coupée & l'autre coupante.*
 
-### DEFINITION PLVS EXACTE DE LA PERPENDICULAIRE.
+[Curated heading level=2 type=definitions: XXXI. DEFINITION PLVS EXACTE]
+
+### DEFINITION PLVS EXACTE
+[Subhead]
+DE LA PERPENDICULAIRE.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: XXXI.]
 
@@ -24,6 +29,8 @@ Pour former une notion plus diſtincte de deux lignes perpendiculaires, on les p
 Lors que deux points de la ligne coupée eſtans pris également diſtans de l'un des points de la ligne coupante, tout autre point de la ligne coupante ſe trouvera auſſy eſtre également diſtant de ces deux points de la ligne coupée, la ligne coupante eſt perpendiculaire à la coupée, eſtant bien clair qu'elle ne peut alors incliner plus d'un coſté que d'autre.
 
 [Figure: vertical line marked with points E, D and C, cutting perpendicularly a horizontal line A B]
+
+[Curated heading level=2 type=axioms: XXXII. AXIOME.]
 
 ### AXIOME.
 

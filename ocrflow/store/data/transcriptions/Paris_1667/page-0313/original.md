@@ -13,7 +13,11 @@ Or *bc = cf*, les deux triangles *dbc* & *dcf* eſtant tout-égaux, par 18. ſup
 
 Donc *bc* eſt la moitié de *db*. Ce qu'il falloit demonſtrer.
 
-## PROBLEME.
+[Curated heading level=2 type=propositions: XXXII. PROBLEME.]
+
+[Curated heading level=2 type=problems: XXXII. PROBLEME.]
+
+#### PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXII.]
 
@@ -35,19 +39,19 @@ TROUVER le triangle rectangle dont on a
 
 6. Ou l'un des coſtez, & la moyenne proportionelle entre ce coſté donné & l'autre coſté.
 
-## PREMIER CAS.
+##### PREMIER CAS.
 
 Mettant à l'angle droit les deux coſtez donnez, la ligne qui en joint les extrêmitez eſt l'hypotenuſe.
 
-## SECOND CAS.
+##### SECOND CAS.
 
 Décrivant la demycirconference dont l'hypotenuſe donnée eſt le diametre, le point de cette circonference où ſe terminera le coſté donné ſera le point du ſommet de l'angle droit; ce qui determinera l'autre coſté non donné.
 
-## TROISIEME CAS.
+##### TROISIEME CAS.
 
 Voyez IX. 34.
 
-## QUATRE, CINQ ET SIXIEME CAS.
+##### QUATRE, CINQ ET SIXIEME CAS.
 
 Trois lignes eſtant continuellement proportionelles,
 

@@ -11,9 +11,12 @@ Et *alternando b + c + d. m + n + p* : : *d. p.*
 
 Donc les 3 antecedens aux 3 conſequens comme un antecedent à un conſequent. Ce qu'il faloit demonſtrer.
 
-## PROPRIETEZ DE LA PROPORTION GEOMETRIQVE, QUAND LES TERMES D'UNE RAISON SONT MULTIPLIABLES PAR CEUX DE L'AUTRE.
+### PROPRIETEZ DE LA PROPORTION GEOMETRIQVE,
+[Subhead]
+QUAND LES TERMES D'UNE RAISON SONT MULTIPLIABLES PAR CEUX DE L'AUTRE.
+[/Subhead]
 
-### AVERTISSEMENT.
+#### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: LII.]
 

@@ -5,7 +5,7 @@ C'eſtadire par exemple, que s'ils ſont ſemblables, le grand coſté du premie
 
 Si leurs coſtez ſont reciproques (c'eſtadire, ſi le grand coſté du premier eſt au grand coſté du ſecond, comme le petit coſté du ſecond eſt au petit coſté du premier) ils ſont egaux. Et ainſy de tout le reſte.
 
-## COROLLAIRE PARTICULIER.
+### COROLLAIRE PARTICULIER.
 
 [Curated heading level=4 type=paragraph_order: XVIII.]
 
@@ -25,7 +25,11 @@ Je ſçay bien que cela ſe prouve ordinairement d'une autre maniere plus palpab
 
 ## DES PARALLELOGRAMMES SEMBLABLES.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XIX. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XIX. PREMIER THEOREME.]
+
+### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XIX.]
 
@@ -35,7 +39,11 @@ XIX.
 
 Deux parallelogrammes ſemblables (c'eſtadire qui eſtant equiangles ont leurs coſtez proportionels) ſont en raiſon doublée de leurs coſtez homologues, comme il vient d'eſtre dit §. 17.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XX. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XX. SECOND THEOREME.]
+
+### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XX.]
 

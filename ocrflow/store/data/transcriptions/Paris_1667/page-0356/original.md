@@ -19,7 +19,7 @@ Or ces triangles ſemblables ſont entr'eux en raiſon doublée de leurs baſes,
 
 Donc ces figures ſemblables ſont en raiſon doublée de leurs coſtez homologues.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXX.]
 
@@ -33,7 +33,11 @@ Car par le Theoreme precedent les figures ſemblables ſont entr'elles en raiſo
 
 Or les quarrez de ces coſtez homologues ſont auſſy entr'eux en raiſon doublée de ces coſtez qui ſont leurs racines.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XXXI. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXXI. SECOND THEOREME.]
+
+### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXI.]
 

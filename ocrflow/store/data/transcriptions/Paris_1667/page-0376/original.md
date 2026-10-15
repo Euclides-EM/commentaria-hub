@@ -21,7 +21,7 @@ Voicy un exemple de la 6ᵉ diſpoſition, & un autre de la 16ᵉ. On laiſſe �
 | 12 | 6 | 7 | 9 |
 | 1 | 15 | 14 | 4 |
 
-## DEMONSTRATION.
+### DEMONSTRATION.
 
 [Curated heading level=4 type=paragraph_order: LIX.]
 

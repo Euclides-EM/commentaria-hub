@@ -7,15 +7,23 @@
 
 # LIVRE TREIZIEME.
 
-## DES TRIANGLES ET QUADRILATERES CONSIDEREZ SELON LEURS COSTEZ ET LEURS ANGLES.
+[Subhead]
+DES TRIANGLES ET QUADRILATERES CONSIDEREZ SELON LEURS COSTEZ ET LEURS ANGLES.
+[/Subhead]
 
 {dropcap:A|lines=3|style=decorated|decoration="foliate woodcut initial"}PRES ce qui a eſté dit des figures en general, il ne reſte plus que d'expliquer ce qui eſt particulier aux triangles, & aux quadrilateres.
 
 ## PREMIERE SECTION.
 
-## DES TRIANGLES.
+[Subhead]
+DES TRIANGLES.
+[/Subhead]
 
-## PREMIER LEMME.
+[Curated heading level=1 type=lemmas: LIVRE TREIZIEME.]
+
+[Curated heading level=2 type=lemmas: I. PREMIER LEMME.]
+
+### PREMIER LEMME.
 
 [Curated heading level=4 type=paragraph_order: I.]
 
@@ -25,7 +33,9 @@ I.
 
 Un angle avec ſa baſe, eſt la même choſe qu'un triangle. Et ainſy tout ce qui a eſté dit dans les livres des angles, des proportionelles, & des reciproques des angles conſiderez avec leur baſe, ſe peut ſans peine appliquer aux triangles.
 
-## SECOND LEMME.
+[Curated heading level=2 type=lemmas: II. SECOND LEMME.]
+
+### SECOND LEMME.
 
 [Curated heading level=4 type=paragraph_order: II.]
 

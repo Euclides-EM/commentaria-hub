@@ -5,7 +5,7 @@ raiſon à une même grandeur s̃ 43.
 
 Il faudroit donc que 7 x fût égal à 7 x + r, c'eſt à dire la partie au tout, ce qui eſt abſurde.
 
-## PREUVE DE LA COMPOSITION.
+##### PREUVE DE LA COMPOSITION.
 
 [Curated heading level=4 type=paragraph_order: XLVIII.]
 
@@ -26,7 +26,7 @@ Il y en doit avoir ſelon le 5ᵉ entre
 5 x + 3 x + r. 3 x + r : : 5 y + 3 y + r.   3 y + r.
 [/Calculation]
 
-## AUTRE PREUVE PAR LE IV. THEOREME.
+##### AUTRE PREUVE PAR LE IV. THEOREME.
 
 PAR l'hypotheſe b. c : : f. g.
 
@@ -40,7 +40,7 @@ Donc par le 3ᵉ b + c. f + g : : c. g.
 
 Donc *alternando* b + c. c : : f + g. g. *Ce qu'il falloit demonſtrer.*
 
-## PREUVE DE LA DIVISION.
+##### PREUVE DE LA DIVISION.
 
 [Curated heading level=4 type=paragraph_order: XLIX.]
 
@@ -54,6 +54,6 @@ C'EST le meſme 5ᵉ Axiome, & c'eſt la meſme choſe dans les raiſons ſourde
 
 Car ce retranchement fait ſeulement que chaque antecedent ceſſe de contenir une fois ſon conſequent, puiſque le conſequent qu'on oſte de l'antecedent contenoit de part & d'autre une fois le conſequent.
 
-## AUTRE PREUVE PAR LE IV. THEOREME.
+##### AUTRE PREUVE PAR LE IV. THEOREME.
 
 IL ne faut faire que ce qu'on a fait pour la *Compoſition*, en mettant par tout *moins* au lieu de *plus*.

@@ -1,7 +1,11 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XI. -->
 <!-- Page number: 237 -->
 
-## CINQUIEME PROBLEME.
+[Curated heading level=2 type=propositions: LXIX. CINQUIEME PROBLEME.]
+
+[Curated heading level=2 type=problems: LXIX. CINQUIEME PROBLEME.]
+
+### CINQUIEME PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: LXIX.]
 

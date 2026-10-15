@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XI. -->
 <!-- Page number: 215 -->
 
-## PREMIERE PREUVE DANS LA PREMIERE DISPOSITION DES ANTIPARALLELES.
+### PREMIERE PREUVE DANS LA PREMIERE DISPOSITION DES ANTIPARALLELES.
 
 [Curated heading level=4 type=paragraph_order: XVIII.]
 
@@ -21,7 +21,7 @@ Or T & ſa partie p ſont les extremes de la proportion, dont *T* & *p* ſa part
 
 Donc une toute & ſa partie ſont reciproques à l'autre toute & à ſa partie.
 
-## SECONDE PREUVE DANS LA SECONDE DISPOSITION DES ANTIPARALLELES.
+### SECONDE PREUVE DANS LA SECONDE DISPOSITION DES ANTIPARALLELES.
 
 [Curated heading level=4 type=paragraph_order: XIX.]
 
@@ -39,7 +39,7 @@ Donc (par 15. s̄.) T. *T* :: *p*. p.
 
 Je reſerve la 3e diſpoſition pour un Corollaire à part.
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XX.]
 

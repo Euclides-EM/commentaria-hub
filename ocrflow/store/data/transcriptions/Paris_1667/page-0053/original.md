@@ -28,7 +28,7 @@ Ce qui fait 7 fois 8 + 8 fois 3 + 2 fois 7 + 2 fois 3.
 
 Et ainſi 10 fois 10 n'eſt plus grand que 7 fois 8 ( qui eſt ce que l'on cherche ) que des trois dernieres multiplications , 8 fois 3 , 2 fois 7 , 2 fois 3. Et ainſi cette derniere n'en doit eſtre oſtée qu'une fois , & ſi on l'a oſtée deux fois , il la faut remettre une fois : comme on fait auſſi en mettant *plus* à la multiplication de moins 3 par moins deux.
 
-## QUATRIEME REGLE.
+#### QUATRIEME REGLE.
 
 [Curated heading level=4 type=paragraph_order: LXIV.]
 

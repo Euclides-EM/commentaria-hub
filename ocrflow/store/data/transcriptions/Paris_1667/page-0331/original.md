@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XIV. -->
 <!-- Page number: 293 -->
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XXI.]
 
@@ -11,9 +11,16 @@ XXI.
 
 On peut rapporter icy tout ce qui a eſté demonſtré dans le 2 & 3ᵉ livre des grandeurs planes en general. Car le rectangle eſt la grandeur plane en matiere d'eſtendüe ou eſpace.
 
-# APPLICATION DE CETTE DOCTRINE GENERALE A QUELQUES LIGNES PARTICULIERES QU'ON A FAIT VOIR CY DEVANT ESTRE PROPORTIONELLES.
+## APPLICATION
+[Subhead]
+DE CETTE DOCTRINE GENERALE A QUELQUES LIGNES PARTICULIERES QU'ON A FAIT VOIR CY DEVANT ESTRE PROPORTIONELLES.
+[/Subhead]
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XXII. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXII. PREMIER THEOREME.]
+
+### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 
@@ -23,7 +30,11 @@ XXII.
 
 Si deux lignes ſe coupent dans un cercle, le rectangle des portions de l'une eſt égal au rectangle des portions de l'autre. Voyez XI. 55.
 
-## SECOND THEOREME.
+[Curated heading level=2 type=propositions: XXIII. SECOND THEOREME.]
+
+[Curated heading level=2 type=theorems: XXIII. SECOND THEOREME.]
+
+### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXIII.]
 
@@ -33,7 +44,11 @@ XXIII.
 
 Le quarré de la perpendiculaire d'un point de la circonference au diametre, eſt égal au rectangle des portions du diametre. Voyez XI. 57.
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: XXIV. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXIV. TROISIEME THEOREME.]
+
+### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXIV.]
 
@@ -43,7 +58,11 @@ XXIV.
 
 Si d'un point hors le cercle deux lignes ſont menées juſqu'à la concavité du cercle, le rectangle d'une toute & de ſa portion qui eſt hors le cercle, eſt égal au rectangle de l'autre toute & de ſa portion, qui eſt auſſy hors le cercle. Voyez XI. 52.
 
-## QUATRIEME THEOREME.
+[Curated heading level=2 type=propositions: XXV. QUATRIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XXV. QUATRIEME THEOREME.]
+
+### QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
 

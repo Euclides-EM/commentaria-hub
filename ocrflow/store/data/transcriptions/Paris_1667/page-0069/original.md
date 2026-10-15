@@ -9,7 +9,7 @@ Donc les aliquotes pareilles d'x & d'y ſont également contenües dans r & r.
 
 Donc x. r : : y. r. *Ce qu'il faloit démonſtrer.*
 
-### SECOND COROLLAIRE.
+#### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XL.]
 
@@ -19,7 +19,10 @@ XL.
 
 On peut voir par là que la difference qu'il y a entre l'égalité des raiſons de nombre à nombre, & celle des raiſons ſourdes, eſt que la premiere ſe montre poſitivement, & la ſeconde negativement, en ce qu'on n'y peut jamais trouver d'inégalité.
 
-## FONDEMENT DE CETTE SECONDE DEFINITION DE L'EGALITE' DES RAISONS.
+### FONDEMENT DE CETTE SECONDE
+[Subhead]
+DEFINITION DE L'EGALITE' DES RAISONS.
+[/Subhead]
 
 Cette ſeconde definition a pour fondement la premiere & les axiomes des proportions naturellement connuës, n'eſtant en effet qu'un moyen qui fait voir que les antecedens contiennent également les conſequens, ou qu'ils en ſont également contenus, en reduiſant la proportion à quelqu'une de celles qui ſont naturellement connües.
 
@@ -27,7 +30,11 @@ C'eſt ce que l'on fait en prenant les aliquotes pareilles des antecedens, & con
 
 C'eſt ce qu'on a déja veu dans le premier Corollaire, & on y a reconnu auſſi que cela n'eſt pas ſeulement vray dans les raiſons de nombre à nombre, mais auſſi dans les raiſons ſourdes, autant que cela le peut eſtre, ſelon ce qui a eſté dit dans le ſecond Corollaire.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XLI. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XLI. PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLI.]
 

@@ -3,6 +3,8 @@
 
 ſa racine eſt ce qu'on appelle *un nombre cube*.
 
+[Curated heading level=2 type=lemmas: VI. CINQUIEME LEMME.]
+
 ## CINQUIEME LEMME.
 
 [Curated heading level=4 type=paragraph_order: VI.]
@@ -30,6 +32,8 @@ De 7 quand par 7.
 De 8 quand par 8, &c.
 
 Obſervant toûjours que les nombres marquez par ces lettres ſe multiplient les uns les autres en la maniere qui a eſté expliquée en parlant de ceux qui ont 3 ou 4 dimenſions.
+
+[Curated heading level=2 type=lemmas: VII. SIXIEME LEMME.]
 
 ## SIXIEME LEMME.
 

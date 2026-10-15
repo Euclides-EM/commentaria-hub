@@ -3,7 +3,7 @@
 
 ou la moitié de la hauteur & toute la baſe, on a un rectangle qui vaut la moitié du rectangle de toute la baſe & de toute la hauteur. Donc on a un rectangle égal au triangle.
 
-## PREMIER COROLLAIRE.
+### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXIII.]
 
@@ -15,7 +15,7 @@ LEs triangles de même hauteur & de baſe égale, ſont égaux.
 
 Car ils ſont tous égaux au même rectangle, qui eſt celuy de la moitié de leur baſe & de toute leur hauteur.
 
-## SECOND COROLLAIRE.
+### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXIV.]
 
@@ -29,7 +29,7 @@ Car ils ſont tous égaux à des rectangles, qui eſtant de même hauteur ſont 
 
 On peut auſſy prouver ce ſecond Corollaire par le premier, de la même façon qu'on a demonſtré le 4e Theoreme de la premiere methode.
 
-## TROISIEME COROLLAIRE.
+### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXV.]
 
@@ -39,7 +39,7 @@ XXV.
 
 LA raiſon de deux triangles quelconques eſt toujours compoſée de la raiſon de la hauteur à la hauteur, & de la baſe à la baſe. Car ces triangles ſont toujours entr'eux comme les rectangles de la moitié de leur baſe & de toute leur hauteur, qui ont entr'eux cette raiſon compoſée.
 
-## QUATRIEME COROLLAIRE GENERAL.
+### QUATRIEME COROLLAIRE GENERAL.
 
 [Curated heading level=4 type=paragraph_order: XXVI.]
 
@@ -51,7 +51,11 @@ TOUT ce qui a eſté dit de la raiſon des rectangles par la comparaiſon de leu
 
 ## DES TRIANGLES EQUIANGLES OU SEMBLABLES.
 
-## PREMIER THEOREME.
+[Curated heading level=2 type=propositions: XXVII. PREMIER THEOREME.]
+
+[Curated heading level=2 type=theorems: XXVII. PREMIER THEOREME.]
+
+### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXVII.]
 

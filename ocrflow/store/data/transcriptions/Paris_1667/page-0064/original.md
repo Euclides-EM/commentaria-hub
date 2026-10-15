@@ -3,7 +3,7 @@
 
 Et l'addition de ceux du milieu donne auſſi c + n + z. Ce qui eſt la même choſe.
 
-### AVERTISSEMENT.
+#### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XXVII.]
 
@@ -13,9 +13,11 @@ XXVII.
 
 IE *ne diray rien davantage de la proportion arithmetique, parce qu'elle n'eſt pas de grand uſage, & que quand on parle abſolument de proportion on entend la Geometrique ; outre que tout ce qui ſe dit de la proportion Geometrique ſe peut appliquer à l'arithmetique, pourveu que l'on prenne garde que l'Addition & la Souſtraction ſont dans la proportion arithmetique, ce que la Multiplication & la Diviſion font dans la Geometrique.*
 
-## DE LA PROPORTION GEOMETRIQVE.
+### DE LA PROPORTION GEOMETRIQVE.
 
-### DEFINITION.
+[Curated heading level=2 type=definitions: XXVIII. DEFINITION.]
+
+#### DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: XXVIII.]
 
@@ -49,7 +51,9 @@ Ou bien ainſi,
 
 ∺ b. c. d.
 
-### I. DEFINITION DE L'EGALITE' DES RAISONS.
+[Curated heading level=2 type=definitions: XXIX. I. DEFINITION DE L'EGALITE' DES RAISONS.]
+
+#### I. DEFINITION DE L'EGALITE' DES RAISONS.
 
 [Curated heading level=4 type=paragraph_order: XXIX.]
 

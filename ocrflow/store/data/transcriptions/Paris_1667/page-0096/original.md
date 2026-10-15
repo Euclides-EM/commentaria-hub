@@ -7,7 +7,7 @@ Et ainſi il ſera bon de donner pour exemple dans les nombres celuy dont nous v
 
 ### EXEMPLE.
 
-### Dans les Nombres.
+### DANS LES NOMBRES.
 
 [Curated heading level=4 type=paragraph_order: XLII.]
 

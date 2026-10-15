@@ -1,12 +1,12 @@
 # OCR Pipeline Queue
 
-> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_4kk2ag - Seg running
+> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_4kk2ag - Seg done, need to review
 > Strasbourg_1566 - https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7 - Seg running
-> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_wcl1tc - Seg preparing
-> Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg preparing
+> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_wcl1tc - Seg running
+> Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg running [LARGE FILE]
 > Paris_1685 - https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr - Seg running
-> Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_qglalw - Seg running
-> Oxford_1701 - https://euclides.huma-num.fr/hub/?datasetId=ds_1p0woj - Seg running
+> Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r - Seg preparing
+> Oxford_1701 - https://euclides.huma-num.fr/hub/?datasetId=ds_73fy51 - Seg preparing
 > Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - Seg running
 > Paris_1814 vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy - Seg running
 > Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - Seg running
@@ -198,6 +198,8 @@ cost_usd=$46.742450
 
 **Next steps:** manual curation (Mia currently in p. 149 in my manual curation). Liri ready for curation.
 
+# Completed
+
 ## Paris_1566
 
 Facsimile is public domain, I run the full OCR pipeline.
@@ -224,10 +226,6 @@ Fable usage:
 - **Reasoning tokens:** 0
 - **Total tokens:** 8,650,888
 - **Cost:** $107.55
-
-**Next steps:** Ready for curation.
-
-# Completed
 
 ## Antwerp_1654
 

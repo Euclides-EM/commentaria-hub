@@ -13,7 +13,11 @@ Donc ſi *xx. — zz.* eſt un nombre quarré par le 1ᵉʳ Cas de la Propoſiti
 
 Que ſi au contraire *x x — z z* n'eſt pas un nombre quarré ( par le 2ᵉ Cas ) *h* n'eſt point commenſurable à *d* en longueur, mais ſeulement en puiſſance.
 
-## PROBLEME.
+[Curated heading level=2 type=propositions: LXXIX. PROBLEME.]
+
+[Curated heading level=2 type=problems: LXXIX. PROBLEME.]
+
+### PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: LXXIX.]
 
@@ -41,7 +45,11 @@ CC = H + B.
 
 Or pour trouver toutes ſortes de 3 nombres qui ſoient tels que cy deſſus, il ne faut que voir ce qui en a eſté dit dans le Livre IV. n. 30.
 
-## TROISIEME THEOREME.
+[Curated heading level=2 type=propositions: LXXX. TROISIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: LXXX. TROISIEME THEOREME.]
+
+### TROISIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LXXX.]
 

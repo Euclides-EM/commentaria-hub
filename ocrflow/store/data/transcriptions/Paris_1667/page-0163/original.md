@@ -7,7 +7,11 @@ ques, il faut qu'il y ait auſſy égalité entre les perpendiculaires du centre
 
 3. Les plus proches du centre ſont les plus longues, car ſi la corde m n eſt plus proche du centre que la corde p q, elle doit eſtre plus grande que la corde p q, parce que la perpendiculaire c l eſtant plus courte que la perpendiculaire c r, & les obliques c n & c q eſtant égales; l'éloignement du perpendicule l n doit eſtre plus grand que l'éloignement du perpendicule r q. ( V. 54. ) C'eſt à dire que la moitié d'm n eſt plus grande que la moitié de p q.
 
-## CINQUIEME THEOREME.
+[Curated heading level=2 type=propositions: X. CINQUIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: X. CINQUIEME THEOREME.]
+
+### CINQUIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: X.]
 

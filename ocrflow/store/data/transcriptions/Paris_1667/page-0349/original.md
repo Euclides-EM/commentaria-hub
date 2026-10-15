@@ -20,7 +20,7 @@ Or par l'hypotheſe la circonference *b*, qui eſt celle du cercle, eſt égale 
 
 Donc la circonference paſſant par le point *f*, eſt égale à *f g*, parallele à *b c*.
 
-## AVERTISSEMENT.
+#### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: IX.]
 
@@ -30,9 +30,17 @@ IX.
 
 *Ie n'en diray pas davantage de cette nouvelle methode. Il eſt aiſé de juger que ces 5 Theoremes ſont de ſuffiſans fondemens pour meſurer ſans peine toutes les figures rectilignes, & en trouver les égalitez & les rapports, ſur tout en y joignant les principes qui ont eſté établis dans les 3 premiers livres.*
 
-## METHODE COMMUNE.
+### METHODE COMMUNE.
 
-## LEMME OU AXIOME.
+[Curated heading level=1 type=lemmas: LIVRE QVINZIEME.]
+
+[Curated heading level=1 type=axioms: LIVRE QVINZIEME.]
+
+[Curated heading level=2 type=lemmas: X. LEMME OU AXIOME.]
+
+[Curated heading level=2 type=axioms: X. LEMME OU AXIOME.]
+
+#### LEMME OU AXIOME.
 
 [Curated heading level=4 type=paragraph_order: X.]
 

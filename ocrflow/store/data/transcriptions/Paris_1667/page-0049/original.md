@@ -2,7 +2,7 @@
 
 <!-- Page number: 11 -->
 
-## MVLTIPLICATION DES GRANDEURS COMPLEXES.
+### MVLTIPLICATION DES GRANDEURS COMPLEXES.
 
 [Curated heading level=4 type=paragraph_order: L.]
 

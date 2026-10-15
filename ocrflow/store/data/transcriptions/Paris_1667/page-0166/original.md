@@ -1,7 +1,11 @@
 <!-- Page number: 128 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## HUITIEME THEOREME.
+[Curated heading level=2 type=propositions: XVIII. HUITIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: XVIII. HUITIEME THEOREME.]
+
+### HUITIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XVIII.]
 

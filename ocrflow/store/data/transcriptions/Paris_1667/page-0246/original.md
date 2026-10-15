@@ -5,13 +5,19 @@
 
 # NOUVEAUX ELEMENS DE GEOMETRIE.
 
-## LIVRE ONZIEME.
+# LIVRE ONZIEME.
 
-## DES LIGNES RECIPROQUES.
+[Subhead]
+DES LIGNES RECIPROQUES.
+[/Subhead]
 
 {dropcap:C|lines=4|style=decorated|decoration="foliate woodcut initial"}E livre cy ſera encore de la proportion des lignes, & contiendra pluſieurs choſes nouvelles que l'on jugera peuteſtre plus belles & plus generales, que tout ce qu'on a trouvé juſques icy ſur cette matiere des proportions, en ne ſe ſervant que des lignes droittes & des cercles.
 
 Pour les mieux faire entendre nous propoſerons quelques Lemmes qui feront voir auſſy en quoy eſt different ce que l'on traitte dans ce livre de ce qui vient d'eſtre traitté dans le livre precedent.
+
+[Curated heading level=1 type=lemmas: LIVRE ONZIEME.]
+
+[Curated heading level=2 type=lemmas: I. PREMIER LEMME.]
 
 ## PREMIER LEMME.
 

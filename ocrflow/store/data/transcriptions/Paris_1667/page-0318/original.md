@@ -3,7 +3,11 @@
 
 de cette diagonale on tire deux paralleles aux deux coſtez angulaires du parallelogramme, qui ſe terminant chacune à l'un de ces coſtez faſſent un nouveau parallelogramme, dont une partie de cette diagonale eſt encore diagonale.
 
-## SEPTIEME THEOREME.
+[Curated heading level=2 type=propositions: LII. SEPTIEME THEOREME.]
+
+[Curated heading level=2 type=theorems: LII. SEPTIEME THEOREME.]
+
+#### SEPTIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LII.]
 
@@ -23,7 +27,10 @@ Donc *fd. fo :: dc. on.*
 
 Donc ces parallelogrammes ſont equiangles, & ont les coſtez angulaires proportionels. Donc ils ſont ſemblables par le 5ᵉ Theoreme.
 
-## DIVISION DU PARALLELOGRAMME EN SES ESPECES.
+#### DIVISION DU PARALLELOGRAMME
+[Subhead]
+EN SES ESPECES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: LIII.]
 
@@ -42,7 +49,7 @@ LIII.
 | | | non droits | Rhombe | coſtez non tous égaux. |
 | | | | Rhomboïde | |
 
-## AUTREMENT.
+#### AUTREMENT.
 
 | Parallel. | | | |
 | --- | --- | --- | --- |

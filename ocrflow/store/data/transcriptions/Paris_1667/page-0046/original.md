@@ -42,7 +42,7 @@ Ou par des chiffres 3 *b*.
 
 Or comme il y a quelque difficulté un peu plus grande pour faire les operations dont nous venons de parler ſur les grandeurs complexes, nous en donnerons les principes & les regles.
 
-## PRINCIPES POUR FAIRE LES QUATRE OPERATIONS SUR LES GRANDEURS COMPLEXES.
+### PRINCIPES POUR FAIRE LES QUATRE OPERATIONS SUR LES GRANDEURS COMPLEXES.
 
 [Curated heading level=4 type=paragraph_order: XXXIX.]
 
