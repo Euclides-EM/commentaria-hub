@@ -1,14 +1,14 @@
 # OCR Pipeline Queue
 
-> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_4kk2ag - Seg done, need to review
-> Strasbourg_1566 - https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7 - Seg done, need to review
+> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_4kk2ag - LineDetect running
+> Strasbourg_1566 - https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7 - LineDetect running
 > Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_wcl1tc - Seg running
 > Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg running [LARGE FILE]
-> Paris_1685 - https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr - Seg done, need to review
-> Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r - Seg preparing
-> Oxford_1701 - https://euclides.huma-num.fr/hub/?datasetId=ds_73fy51 - Seg running
+> Paris_1685 - https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr - LineDetect running
+> Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r  Seg done, need to review
+> Oxford_1701 - https://euclides.huma-num.fr/hub/?datasetId=ds_73fy51 - Seg done, need to review
 > Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - Seg running
-> Paris_1814 vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy - Seg running
+> Paris_1814 vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy - LineDetect preparing
 > Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - Seg running
 
 # Train to improve segmentation
@@ -171,6 +171,8 @@ Run with Codex:
 
 **Next steps:** Ready for curation.
 
+# Completed
+
 ## Seville_1576
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_uwclpr&annotationId=ann_mz29ot
@@ -185,10 +187,6 @@ Done with Fable.
 - **Reasoning tokens:** 0
 - **Total tokens:** 8,419,791
 - **Cost:** $83.87
-
-**Next steps:** Ready for curation.
-
-# Completed
 
 ## Paris_1667
 
