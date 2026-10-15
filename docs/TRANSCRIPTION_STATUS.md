@@ -41,7 +41,7 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 OCR for Greek:
 https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
-**Status:** LLM in progress. 264/719
+**Status:** LLM in progress. 396/719
 
 ## Venice_1482
 
@@ -54,7 +54,7 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_6vegrr&annotationId=ann_3pg8ot
 
 OCR was run but performed very poorly, need to re-run with proper page-by-page.
 
-**Status:** LLM in progress. 136/284
+**Status:** LLM in progress. 263/284
 
 # Manual Curation
 
