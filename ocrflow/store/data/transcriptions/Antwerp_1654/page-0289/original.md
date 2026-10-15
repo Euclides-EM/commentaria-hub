@@ -14,7 +14,7 @@ c æquales. Anguli vero F B A, C L I in ſemicirculis ſunt d recti, ac proinde 
 i Per 20.l.6.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 [Margin]
 Fig. 6. & 7.
@@ -24,7 +24,11 @@ Fig. 6. & 7.
 
 Cum oſtenſum iam ſit A B eſſe ad L I, vt A F ad I C, etiam O B, erit ad R L, vt A F ad I C, & ſic de cæteris lateribus. Ergo per 12.5. omnia ſimul latera, ad ſimul omnia, hoc eſt ambitus ad ambitum ſunt vt A F ad I C.
 
+[Curated heading level=1 type=lemma_target: Lemma ad XII.2]
+
 ## Lemma.
+
+[Curated heading level=2 type=figures: Fig. 8]
 
 [Margin]
 Fig. 8.

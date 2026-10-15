@@ -17,7 +17,9 @@ f Per 16.l.5.
 g Per conſtr.
 [/Margin]
 
-## Problema.
+### Problema.
+
+[Curated heading level=2 type=figures: Fig. 19]
 
 [Margin]
 Fig.19.

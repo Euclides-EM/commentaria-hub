@@ -33,7 +33,9 @@ Quad. B C. Æ. rect. B C F bis quad. A C quad. A B
 
 Hoc eſt, B C, A C quadrata, excedunt quad. A B rectangulo B C F bis.
 
-## Corollarium.
+### Corollarium.
+
+[Curated heading level=2 type=figures: Fig. 15]
 
 [Margin]
 Fig.15.
@@ -41,7 +43,7 @@ Fig.15.
 
 {dropcap:V|lines=2|style=plain}Era eſt propoſitio licet perpendicularis cadat extra triangulum. Demonſtratio ferè eadem eſt.
 
-## Scholium.
+### Scholium.
 
 {dropcap:E|lines=2|style=plain}X hac & 47. lib.1. habetur dimenſio cuiuſcunque trianguli, cuius tria latera ſint nota,
 

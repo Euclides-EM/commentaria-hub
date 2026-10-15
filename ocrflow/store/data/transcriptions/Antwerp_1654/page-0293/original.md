@@ -9,7 +9,9 @@ i Per 35.l.5.
 
 enim BC ad SE, vt e CF ad EF; hoc eſt per hyp. vt QL ad ZL; hoc f eſt vt VQ ad XZ.) Ergo ratio ABC, ad OSE eadem eſt i cum ratione IVQ ad RXZ. Quod erat propoſitum.
 
-## II.
+### II.
+
+[Curated heading level=2 type=figures: Fig. 10]
 
 [Margin]
 Fig.10.

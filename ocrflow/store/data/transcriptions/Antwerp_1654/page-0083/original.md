@@ -1,7 +1,9 @@
 <!-- Page number: 50 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-## Scholium.
+### Scholium.
+
+[Curated heading level=2 type=figures: Fig. 70]
 
 {dropcap:A|lines=2|style=plain}*Diungo problema vtile futurum ad praxim propoſitionis 14.l.2.*
 
@@ -15,6 +17,8 @@ tabulâ 2.
 *Reſolue in triangula per rectam A C. Ex oppoſitis angulis demitte perpendiculares B O, F I. biſeca A C in S. Ex S erige perpendicularem S L parem duabus B O, F I. Rectangulum ſub L S, & S A æquatur dato B F. Demonſtratio patet ex 41.*
 
 ## PROPOSITIO XLVI.
+
+[Curated heading level=2 type=figures: Fig. 71]
 
 {dropcap:A|lines=2|style=plain}*Datâ rectâ (A B) quadratum deſcribere.*
 

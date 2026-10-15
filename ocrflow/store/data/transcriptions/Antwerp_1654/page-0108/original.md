@@ -4,6 +4,8 @@
 
 ## PROPOSITIO IV.
 
+[Curated heading level=2 type=figures: Fig. 4 & 5]
+
 [Margin]
 Fig. 4. & 5.
 [/Margin]
@@ -28,6 +30,8 @@ a Per præc.
 
 ## PROPOSITIO V. & VI.
 
+[Curated heading level=2 type=figures: Fig. 6 & 7]
+
 [Margin]
 Fig. 6. & 7.
 [/Margin]
@@ -37,6 +41,8 @@ Fig. 6. & 7.
 Alias enim ductis ex communi centro A rectis A B, A C F, eſſent A C, A F, (pars & totum) æquales, quia ambæ ſunt æquales eidem A B.
 
 ## PROPOSITIO VII.
+
+[Curated heading level=2 type=figures: Fig. 8]
 
 [Margin]
 Fig. 8.

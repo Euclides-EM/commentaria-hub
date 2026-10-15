@@ -5,7 +5,7 @@ ad C componitur ex rationibus A ad B, & B ad C.
 
 Eodem modo demonſtrabitur ratio A ad D componi ex rationibus A ad C, & C ad D. Ergo ratio A ad D componitur ex rationibus A ad B, & B ad C, & C ad D. Et ſic deinceps in infinitum. Quod erat demonſtrandum.
 
-## Demonſtratur in numeris.
+#### Demonſtratur in numeris.
 
 {dropcap:E|lines=2|style=plain}Andem prorſus demonſtrationem valere in numeris iam oſtendam, vnde etiam veritas illius, ac ſoliditas magis ſtabilietur.
 

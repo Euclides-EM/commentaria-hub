@@ -6,6 +6,8 @@ Ex ipſa etiam notione lineæ rectæ, & circularis, propoſitio eſt manifeſta.
 
 ## PROPOSITIO III.
 
+[Curated heading level=2 type=figures: Fig. 3]
+
 [Margin]
 Fig. 3.
 [/Margin]

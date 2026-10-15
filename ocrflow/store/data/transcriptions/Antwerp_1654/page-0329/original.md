@@ -3,7 +3,7 @@
 
 non ſolum diametro datâ milliariorum Belgicorum 2750, qualis eſt terræ; verum etiam licet diameter ponatur centum milliarium eorundem milliariorum, qualis fortaſſe eſt diameter firmamenti: hâc enim poſitâ proueniet circumferentia minori quantitate à verâ differens, quàm vna centimillioneſimâ particula pedis Rhynlandici. Quod ſi ad inueſtigandam circumferentiam orbis terræ vtamur proportione Archimedis, interuallum circumferentiarum verâ maioris ac minoris excedet 5 milliaria Belgica. Non eſt igitur adhibenda Archimedæa proportio, niſi in quantitate paruâ: imò ſemper expediet Metianâ vti, quæ & modicis conſtat terminis, & pluſquam millies exactior eſt.
 
-## Circuli dimenſio.
+### Circuli dimenſio.
 
 {dropcap:S|lines=2|style=plain}Emidiameter multiplicata per dimidiam circumferentiam producit aream circuli: quemadmodum patet ex coroll.1.p.5.huius.
 

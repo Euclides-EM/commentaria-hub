@@ -3,6 +3,8 @@
 
 ## PROPOSITIO V.
 
+[Curated heading level=2 type=figures: Fig. 5]
+
 [Margin]
 Fig.5.
 [/Margin]
@@ -54,6 +56,8 @@ e Per 4.l.2.
 [/Calculation]
 
 ## PROPOSITIO VI.
+
+[Curated heading level=2 type=figures: Fig. 6]
 
 [Margin]
 Fig.6.

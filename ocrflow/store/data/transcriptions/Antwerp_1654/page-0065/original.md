@@ -17,6 +17,8 @@ f Per 13. l.1.
 
 ## PROPOSITIO XXVIII.
 
+[Curated heading level=2 type=figures: Fig. 47]
+
 [Margin]
 Fig.47.
 [/Margin]

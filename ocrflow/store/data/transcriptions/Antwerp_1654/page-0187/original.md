@@ -11,7 +11,7 @@ e Per 9.l.5.
 
 Ex contradictorio aſſertionis directè illata eſt aſſertio.
 
-# PARS SECVNDA.
+## PARS SECVNDA.
 
 [Subhead]
 Euclidæa per multiplices definitio æqualium rationum, demonſtratur, exhibeturq́ ac demonſtratur aliud magis immediatum, & facilius indicium æqualitatis rationum.

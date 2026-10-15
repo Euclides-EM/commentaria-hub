@@ -43,7 +43,7 @@ Id eſt d rectil. Q X Z.
 d Per conſtr.
 [/Margin]
 
-## Scholium.
+### Scholium.
 
 {dropcap:C|lines=2|style=plain}Onſtructio Euclidæa requirit, vt per 45.l.1. rectilineum reducatur ad rectangulum. Quæ reductio cum ſatis operoſa ſit, ſortaſſe expeditius problema abſoluetur hunc in modum.
 

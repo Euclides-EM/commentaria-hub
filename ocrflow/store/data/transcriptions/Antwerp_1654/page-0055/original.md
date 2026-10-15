@@ -7,6 +7,8 @@ Pro praxi ſatis erit centris A & B duos æquales circulos deſcribere, ſe ſec
 
 ## PROPOSITIO XI.
 
+[Curated heading level=2 type=figures: Fig. 32]
+
 [Margin]
 Fig. 32.
 [/Margin]
@@ -32,6 +34,8 @@ Ducantur enim C B, F B. Triangula X, & Z, ſibi mutuo æquilatera ſunt. Ergo an
 Praxis tam huius quam ſequentis expeditur facillimè præſidio normæ.
 
 ## PROPOSITIO XII.
+
+[Curated heading level=2 type=figures: Fig. 33]
 
 [Margin]
 Fig. 33.

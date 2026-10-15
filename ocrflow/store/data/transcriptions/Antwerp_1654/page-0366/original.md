@@ -1,7 +1,7 @@
 <!-- Running title: Ex Archimede. -->
 <!-- Page number: 331 -->
 
-## Scholium.
+### Scholium.
 
 {dropcap:E|lines=2|style=plain}X his habetur dimenſio & ſectorum, & ſegmentorum ſphæræ; ſectorum quidem, ſi multiplicetur p tertia pars radij per ſphæricam ſectorum ſuperficiem, iam notam ex ſcholio prop. 27. ſiue per circulum radij C G, vel B G: ſegmentorum verò, ſi menſuretur conus E A G, & à ſectore, ſi minor eſt hemiſphærio, auferatur; ſi maior, eidem adijciatur.
 

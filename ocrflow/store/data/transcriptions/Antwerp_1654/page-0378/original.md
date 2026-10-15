@@ -14,7 +14,7 @@ n Per 24. huius.
 o Per corol. 1 p.14 huius.
 [/Margin]
 
-## Aliter.
+### Aliter.
 
 {dropcap:Q|lines=2|style=plain}Voniam æquilateri trianguli latus B D, abſcindit p quartam axis partem A O, erit quoque ſphærica ſuperficies B O D q quarta pars, àc proinde ſuperficies B G K D, tres quartæ ſuperficiei totius
 

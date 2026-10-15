@@ -3,7 +3,7 @@
 
 duplicata eſt proportionis diametrorum. Quod erat demonſtrandum.
 
-## Poriſma vniuerſale.
+### Poriſma vniuerſale.
 
 {dropcap:S|lines=2|style=plain}I ea quæ duabus figuris (A, B) inſcribuntur, in ipſas deſinant, quam proportionem inter ſe ſemper habent inſcripta, eandem habent & figuræ.
 

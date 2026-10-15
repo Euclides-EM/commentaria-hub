@@ -11,7 +11,7 @@ c Per eand.
 d Per 22.l.5.
 [/Margin]
 
-## Corollaria.
+### Corollaria.
 
 [Margin]
 Fig.42.

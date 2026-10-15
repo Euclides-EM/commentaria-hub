@@ -6,7 +6,13 @@
 
 ## DEFINITIONES.
 
+[Curated heading level=3 type=numbered_item: 1.]
+
 1. SImiles figuræ ſunt, quæ & ſingulos angulos ſingulis æquales habent, & latera, quæ æqualibus angulis cpponuntur{printer-error-correction:opponuntur}, vel quæ inter æquales angulos exiſtunt, vel quæ ſunt circa æquales angulos (Eodem omnia recidunt) proportionalia.
+
+[Curated heading level=1 type=figures: Liber VI]
+
+[Curated heading level=2 type=figures: Fig. 7]
 
 Vt triangula X, Z dicentur ſimilia, ſi angulus A ſit æqualis angulo F, & angulus B, angulo L, & angulus C angulo I: atque inſuper ſi AB ſit ad FL, vt BC ad LI; & BC ad LI, vt CA ad IF; & CA ad IF, vt AB ad FL; Comparando ſemper la-
 

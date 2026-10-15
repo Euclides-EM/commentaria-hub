@@ -15,6 +15,8 @@ Quod ſi neutra rectarum C L, F B per centrum tranſeat, per communem earum ſec
 
 ## PROPOSITIO XXXVI.
 
+[Curated heading level=2 type=figures: Fig. 49, 50 & 51]
+
 [Margin]
 Fig. 49. 50. 51.
 [/Margin]

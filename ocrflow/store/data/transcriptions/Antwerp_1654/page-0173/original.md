@@ -23,6 +23,8 @@ Et ſi Z ad F maiorem rationem habeat, quàm eadem Z ad C, erit F minor quam C.
 
 ## PROPOSITIO XI.
 
+[Curated heading level=2 type=figures: Fig. 9]
+
 [Margin]
 Fig. 9.
 [/Margin]

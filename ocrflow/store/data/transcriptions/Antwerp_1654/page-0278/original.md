@@ -35,11 +35,13 @@ q Per 25. l.11.
 r Per 1.l.6.
 [/Margin]
 
-## Scholium.
+### Scholium.
 
 {dropcap:Q|lines=2|style=plain}Vod hic de parallelepipedis oſtenſum eſt, in libro 12 demonſtrabitur de pyramidibus propoſ.8. de quibuſlibet priſmatibus, coroll.2. poſt p.9, de conis & cylindris p.12. de ſphæris p.18.
 
 ## PROPOSITIO XXXIV.
+
+[Curated heading level=2 type=figures: Fig. 36]
 
 [Margin]
 Fig.36,

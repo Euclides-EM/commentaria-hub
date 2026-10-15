@@ -3,7 +3,7 @@
 
 inde latus A B æquabitur lateri c b; quòd erat demonſtrandum, cædem enim ſunt lineæ C B & c b.
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:Æ|lines=2|style=plain}Quiangulum ergo triangulum, etiam æquilaterum eſt.
 
@@ -13,11 +13,15 @@ inde latus A B æquabitur lateri c b; quòd erat demonſtrandum, cædem enim ſu
 
 ## PROPOSITIO VIII.
 
+[Curated heading level=2 type=figures: Fig. 27]
+
 [Margin]
 Fig. 27.
 [/Margin]
 
 {dropcap:S|lines=2|style=plain}I duo triangula habuerint omnia latera ſibi mutuo æqualia (A C ipſi E F; C B ipſi F I; A B ipſi E I;) etiam angulos omnes æqualibus lateribus oppoſitos habebunt æquales (C ipſi F; A ipſi E; B ipſi I.)
+
+[Curated heading level=2 type=figures: Fig. 28]
 
 Ponatur enim latus A B ſupra ſibi æquale E I. Tum verò punctũ C vel incidet in punctum F vel non. Si incidat in F, tota triangula congruent, ac proinde omnes anguli a æquales erunt.
 

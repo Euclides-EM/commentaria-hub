@@ -1,7 +1,7 @@
 <!-- Running title: Liber Quintus. Pars III. -->
 <!-- Page number: 175 -->
 
-## XII.
+### XII.
 
 Si fuerint quæcunque & quotcunq́; quantitates, ſeu magnitudines, ſeu numeri; ratio primæ ad vltimam componitur ex rationibus mediarum.
 
@@ -9,7 +9,9 @@ Si fuerint quæcunque & quotcunq́; quantitates, ſeu magnitudines, ſeu numeri;
 
 Vniuerſalem igitur huius rei demonſtrationem dare conabimur hunc in modum.
 
-## Demonſtratur in magnitudinibus.
+#### Demonſtratur in magnitudinibus.
+
+[Curated heading level=2 type=figures: Fig. 35]
 
 {dropcap:D|lines=2|style=plain}Atæ ſint magnitudines quæcunque & quotcunque A,B, C,D. Oſtendendum eſt rationem A ad D componi ex rationibus A ad B; B ad C; C ad D.
 

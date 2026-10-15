@@ -1,13 +1,19 @@
 <!-- Page number: 24 -->
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=figures: Fig. 36]
+
 [Margin]
 Fig.36.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Omnes anguli circa vnum punctum conſtituti, conficiunt quatuor rectos. Patet ex Corol.2. ſunt enim quatuor recti in plures partes ſecti.
 
 ## PROPOSITIO XIV.
+
+[Curated heading level=2 type=figures: Fig. 35]
 
 [Margin]
 Fig.35.

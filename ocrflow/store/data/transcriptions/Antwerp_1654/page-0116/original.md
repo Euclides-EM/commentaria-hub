@@ -17,6 +17,8 @@ d Per 24. l.1.
 
 ## PROPOSITIO XVI.
 
+[Curated heading level=2 type=figures: Fig. 20]
+
 [Margin]
 Fig.20.
 [/Margin]

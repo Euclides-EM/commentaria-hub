@@ -1,9 +1,11 @@
 <!-- Running title: Liber Primus. -->
 <!-- Page number: 21 -->
 
-## Scholium.
+### Scholium.
 
 {dropcap:M|lines=2|style=plain}Ethodum ſecandi angulos in æquales quotcunque, circino & regulâ hactenus nemo docuit.
+
+[Curated heading level=2 type=figures: Fig. 30]
 
 Ex Pappo tamen & Archimede habemus curuas quaſdam lineas, quadratricem videlicet & ſpiralem, quarum adminiculo id obtinetur. Anguli triſectio perficitur à Pappo l.4. prop.31. præſidio hyperboles, quod etiam obtineri poteſt ope parabolæ, vel conchoidis.
 
@@ -14,6 +16,8 @@ Fig. 30.
 Mechanice datum angulum in quotcunque ſecabis æquales angulos, ſi ex anguli vertice A tanquam centro intra anguli crura arcum deſcribas, eumq́; diuidas in quot placuerit æquas partes; rectæ enim ex A per diuiſionum puncta emiſſæ, angulum ſecabunt in partes totidem æquales.
 
 ## PROPOSITIO X.
+
+[Curated heading level=2 type=figures: Fig. 31]
 
 [Margin]
 Fig. 31.

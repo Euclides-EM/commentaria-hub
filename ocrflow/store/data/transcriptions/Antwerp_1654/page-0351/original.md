@@ -17,6 +17,8 @@ Demonſtratio plane eadem, quæ præcedentis: ſed pro P.16, citetur P. 17.
 
 ## PROPOSITIO XX.
 
+[Curated heading level=2 type=figures: Fig. 15]
+
 [Margin]
 Fig.15.
 [/Margin]

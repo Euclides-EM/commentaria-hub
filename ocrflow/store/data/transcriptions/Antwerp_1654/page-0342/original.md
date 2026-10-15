@@ -19,6 +19,10 @@ g Per 2. l.12.
 
 ### Corollaria.
 
+[Curated heading level=4 type=numbered_item: 1.]
+
+[Curated heading level=2 type=figures: Fig. 27]
+
 1. {dropcap:S|lines=2|style=plain}Vperficies coni recti à triangulo æquilatero circa perpendicularem K A, circumacto geniti, baſeos Q T dupla eſt.
 
 [Margin]
@@ -26,6 +30,10 @@ Fig.27.
 [/Margin]
 
 Eſt enim K B latus æquale B D, adeoque duplum ſemiſſeos A B, quæ baſeos radius eſt.
+
+[Curated heading level=4 type=numbered_item: 2.]
+
+[Curated heading level=2 type=figures: Fig. 24]
 
 2. Superficies coni à rectangulo triangulo æquicruri E B D producta eſt ad baſim, vt in quadrato diameter ad latus.
 

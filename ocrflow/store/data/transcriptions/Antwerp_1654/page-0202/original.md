@@ -3,11 +3,13 @@
 
 nem 15 ad 6, vt denominator 4 eſt ad denominatorem 2½.
 
-## V.
+### V.
 
-## Rationum rationalium Additio & Subtractio.
+#### Rationum rationalium Additio & Subtractio.
 
 {dropcap:A|lines=2|style=plain}Dditio perficitur, ſi rationum denominatores addantur. Ratio enim quam habet denominatorum ſumma ad vnitatem, eſt rationum datarum ſumma quæſita.
+
+[Curated heading level=2 type=figures: Fig. 30]
 
 Dentur ratio 12 ad 3 & 15 ad 6, earum denominatores 4 & 2½ additi ſibi mutuo faciunt 6½. Ratio 6½ ad 1 eſt par rationi 12 ad 3 & rationi 15 ad 6. Patet ex ax.1.& 3.
 

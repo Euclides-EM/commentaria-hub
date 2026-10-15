@@ -1,19 +1,27 @@
 <!-- Running title: Liber Primus. -->
 <!-- Page number: 29 -->
 
+[Curated heading level=2 type=figures: Fig. 43]
+
 Centro B puncto dato, deſcribe eodem interuallo arcum L Z: ex quo aufer L O parem C F. Per B & O duc rectam : erit L B O par dato A.
 
 [Margin]
 Fig.43.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 2.]
+
 2. Dati anguli O P Q gradus examinare. Fit hoc facillimè per ſemicirculum corneum tranſparentem, in 180 gradus diuiſum. Centrum ſemicirculi pone ſupra P verticem anguli, & ſemicirculi radium P L ſupra anguli latus P Q. Arcus L O inter anguli crura interceptus oſtendet, quot graduum ſit datus angulus.
+
+[Curated heading level=4 type=numbered_item: 3.]
 
 3. Angulum conſtruere datos continentem gradus, vt 42. Duc rectam X Q, in qua ſigna punctum P. Super P pone ſemicirculi centrum eiuſque ſemidiametrum P L ſupra P Q. Ab L numera gradus 42, vſque in O. per O ex P ducta recta dabit angulum O P L graduum 42.
 
 Horum omnium demonſtratio pendet ex vltima prop.lib.6.
 
 ## PROPOSITIO XXIV. & XXV.
+
+[Curated heading level=2 type=figures: Fig. 44]
 
 [Margin]
 Fig.44.

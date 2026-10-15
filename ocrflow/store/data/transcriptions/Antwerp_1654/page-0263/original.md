@@ -7,11 +7,13 @@ A quouis extra planum E F puncto D, fac D B ad planum ᵃ E F rectam, Iunctaque 
 a Per præc.
 [/Margin]
 
-## Scholium.
+### Scholium.
 
 {dropcap:P|lines=2|style=plain}Racticè per datum punctum perpendicularis ducitur dato plano, ſi norma O K N ad datum punctum applicetur.
 
 ## PROPOSITIO XIII.
+
+[Curated heading level=2 type=figures: Fig. 20]
 
 {dropcap:L|lines=2|style=plain}Ineæ ex eodem puncto ductæ (D C, E C) nequeunt ambæ ad idem planum (A B) eße rectæ.
 
@@ -22,6 +24,8 @@ Fig.20.
 Alias enim per 6 forent parallelæ, Quod fieri non poteſt.
 
 ## PROPOSITIO XIV.
+
+[Curated heading level=2 type=figures: Fig. 21]
 
 {dropcap:S|lines=2|style=plain}I eadem recta (A B) ad duo plana (F G, L Q) perpendicularis eſt, plana erunt parallela.
 

@@ -19,6 +19,8 @@ Eſt Archimedi inſtar axiomatis; immediate ſiquidem patet ex definitione Archi
 
 ## PROPOSITIO XXI.
 
+[Curated heading level=2 type=figures: Fig. 39]
+
 [Margin]
 Fig.39.
 [/Margin]

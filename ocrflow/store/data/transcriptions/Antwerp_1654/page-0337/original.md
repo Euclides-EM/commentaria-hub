@@ -10,6 +10,8 @@ f Per 7. huius.
 Fig. 23. & 24. l.12. tab. 6.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 3.]
+
 3. Cylindricæ ſuperficies (CI, AR) quæ baſes habent æquales, ſunt inter ſe vt altitudines (TI, BR.)
 
 Rectangula enim ſub æqualibus per hyp. peripherijs GH, MQ, & lateribus TI, BR contenta, quibus ſuperficies g cylindricæ ſunt æquales, ſunt inter i ſe vt TI, BR.
@@ -19,6 +21,8 @@ g Per corol. 1.
 i Per 1. l.6.
 Fig. 20. & 21. l.12. tab. 5.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 4.]
 
 4. Similes cylindricæ ſuperficies (BM, RI) rationem habent duplicatam eius, quã habent baſium diametri (BF, QR.)
 
@@ -30,11 +34,15 @@ k Per 7. huius.
 l Per 20. l.6.
 [/Margin]
 
+[Curated heading level=4 type=numbered_item: 5.]
+
 5. Cylindricæ ſuperficies (BM, RI) rationem inter ſe habent compoſitam ex rationibus laterum (FM, IQ) & diametrorum (BF, QR) quæ ſunt in baſibus.
 
 [Margin]
 Fig. eadem.
 [/Margin]
+
+[Curated heading level=4 type=numbered_item: 6.]
 
 6. Si æquales ſunt cylindricæ ſuperficies (AR, FD) erit vt diameter AB, ad dia-
 

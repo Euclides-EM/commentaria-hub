@@ -3,6 +3,8 @@
 
 ## PROPOSITIO XXXI.
 
+[Curated heading level=2 type=figures: Fig. 33]
+
 {dropcap:P|lines=2|style=plain}Arallelepipeda ſuper æqualibus baſibus (AO & EG) & in eadem altitudine (S) ſunt æqualia.
 
 [Margin]

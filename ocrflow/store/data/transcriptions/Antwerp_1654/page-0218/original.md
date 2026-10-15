@@ -4,6 +4,8 @@
 
 ## PROPOSITIO II.
 
+[Curated heading level=2 type=figures: Fig. 4]
+
 {dropcap:S|lines=2|style=plain}I ad vnum trianguli latus (BC) ducta fuerit (FL) parallela, hæc ſecabit proportionaliter latera, (hoc eſt AF erit ad FB, vt AL ad LC.)
 
 [Margin]

@@ -19,6 +19,8 @@ Hoc alterum eſt ex Archimedis inuentis nobilioribus, quod perinde ac præcedens
 
 ## PROPOSITIO XXVI.
 
+[Curated heading level=2 type=figures: Fig. 18]
+
 [Margin]
 Fig. 18.
 [/Margin]

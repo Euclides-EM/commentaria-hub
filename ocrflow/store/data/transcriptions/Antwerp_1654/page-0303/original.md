@@ -5,6 +5,8 @@ De cylindris patet theorema cum ſint tripli conorum.
 
 ## PROPOSITIO XIII.
 
+[Curated heading level=2 type=figures: Fig. 22]
+
 [Margin]
 Fig 22.
 [/Margin]
@@ -16,6 +18,8 @@ Demonſtratur vt prima ſexti.
 Theorema eodem modo verum eſt de ſuperficie.
 
 ## PROPOSITIO XIV.
+
+[Curated heading level=2 type=figures: Fig. 23 & 24]
 
 [Margin]
 Fig 23. & 24.
@@ -31,7 +35,7 @@ b Per præc.
 c Per conſtr.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:T|lines=2|style=plain}Heorema etiam verum eſt de priſmatis, itemque de pyramidibus, & demõſtratio planè ſimilis. Sed de priſmatis ex co
 

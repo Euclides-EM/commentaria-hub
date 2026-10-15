@@ -1,11 +1,13 @@
 <!-- Page number: 304 -->
 <!-- Running title: Theoremata ſelecta -->
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:S|lines=2|style=plain}Vperficies cylindri habentis latus diametro baſis æquale, baſeos quadrupla eſt. Si verò latus fuerit quarta pars diametri baſeos, ſuperficies cylindri, baſi æqualis erit. Vtrumque ex propoſitione manifeſtum eſt.
 
 ## PROPOSITIO XIII.
+
+[Curated heading level=2 type=figures: Fig. 9]
 
 {dropcap:C|lines=3|style=plain}Irculus, cuius radius (O L) eſt medius proportionalis inter coni recti latus (B C) & baſis radium (A C,) æqualis eſt ſuperficiei conicæ.
 

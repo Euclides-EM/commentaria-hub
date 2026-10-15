@@ -16,7 +16,7 @@ d Per 38.l.1.
 e Per præc.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 [Margin]
 Fig.66.
@@ -25,6 +25,8 @@ Fig.66.
 {dropcap:D|lines=2|style=plain}Ato triangulo ACB habetur æquale rectangulum, ſi per C ducatur parallela lateri AB, & biſecta AB in F, ex B erigatur perpendicularis BQ. Erit enim rectangulum ſub FB, & QB par triangulo ACB.
 
 ## PROPOSITIO XLIII.
+
+[Curated heading level=2 type=figures: Fig. 67]
 
 [Margin]
 Fig.67.

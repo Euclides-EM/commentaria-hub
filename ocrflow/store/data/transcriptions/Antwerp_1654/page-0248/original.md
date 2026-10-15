@@ -23,6 +23,8 @@ i Per 1.l.6.
 
 {dropcap:P|lines=2|style=plain}Arallelogramma ſimilia (B D, F N) habentia angulum communem (A) circa eandem diametrum exiſtunt.
 
+[Curated heading level=2 type=figures: Fig. 44]
+
 Duc rectas A E, C E, ſi negas A E C eſſe diametrum communem parallelogrammorum
 
 [Margin]

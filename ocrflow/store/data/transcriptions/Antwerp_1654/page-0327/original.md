@@ -11,11 +11,11 @@ Differentia vtriuſque circumferentiæ, inter quam vera exiſtit, eſt diametri 
 
 Fruſtra igitur ſit vlterius progredi. Progrediere nihilominus vltra in infinitum, ſi ratiocinium Geometricum, cuius methodum expeditam tradit Snellius, placuerit continuare.
 
-## Scholium.
+### Scholium.
 
 {dropcap:P|lines=2|style=plain}Roportionis iam traditæ fructus eximij, ſunt hi qui ſequuntur.
 
-## Inuentio Diametri ex circumferentiâ.
+### Inuentio Diametri ex circumferentiâ.
 
 {dropcap:M|lines=2|style=plain}Aiorem terminum vnius è proportionibus iam traditis ſtatue primo loco, minorem ſecundo, circumferentiam tertio, his tribus numeris quæratur per regulam auream quartus proportionalis. Is erit quæſita diameter.
 

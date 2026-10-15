@@ -5,6 +5,8 @@ comprehenſum, æquari rectangulo ſub latere vno figuræ inſcriptæ, & omnibus
 
 Demonſtratio eadem quæ præcedentis.
 
+[Curated heading level=1 type=lemma_target: Lemma 1 ad Archim. XVIII]
+
 ## Lemma 1. ad ſequent.
 
 {dropcap:I|lines=2|style=plain}Nſcripta ſit ſphæræ maximo circulo figura regularis, cuius latera quaternarius metiatur, circa axem AE conſiſtens: Quo manente, circulus cum figura circumagatur.
@@ -20,6 +22,8 @@ Quod BA, HA, item DE, FE deſcribant integras conorum rectorum ſuperficies mani
 [Margin]
 o Vide defin.2.l.12.
 [/Margin]
+
+[Curated heading level=1 type=lemma_target: Lemma 2 ad Archim. XIX]
 
 ## Lemma 2.
 

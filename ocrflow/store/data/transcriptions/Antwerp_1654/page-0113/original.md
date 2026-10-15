@@ -3,11 +3,15 @@
 
 ## PROPOSITIO XIII.
 
+[Curated heading level=2 type=figures: Fig. 15]
+
 {dropcap:C|lines=2|style=plain}Irculi & ſeſe mutuo, & lineam rectam punctualiter tangunt.
 
 [Margin]
 Fig. 15.
 [/Margin]
+
+[Curated heading level=2 type=figures: Fig. 16]
 
 Tangant enim ſe intra (ſi fieri poteſt) duo circuli in parte circumferentiæ C L. Per centra A, & B ducta recta b tranſibit per contactum puta in C. Ducantur inſuper A L, B L. Quoniam igitur c B L, B C æquantur (ſunt enim ex centro B ad peripheriam O L C,) addita communi A B, erunt A B, B L æquales A C. Sed A C eſt par A L, (ſunt enim ex centro A ad peripheriam Q L C.) Ergo etiam A B, B L ſunt æquales A L, contra 20.l.1.
 

@@ -3,6 +3,8 @@
 
 ## PROPOSITIO XXIV.
 
+[Curated heading level=2 type=figures: Fig. 43]
+
 [Margin]
 Fig.43.
 [/Margin]
@@ -23,6 +25,8 @@ n Per 21.l.6.
 [/Margin]
 
 ## PROPOSITIO XXV.
+
+[Curated heading level=2 type=figures: Fig. 46]
 
 [Margin]
 Fig. 46.

@@ -13,7 +13,7 @@ b Per defin. 11.l.11.
 c Per 31.l.11.
 [/Margin]
 
-## Scholium.
+### Scholium.
 
 {dropcap:H|lines=2|style=plain}Ic porro obſeruabimus, id quod magnum habet vſum, ex tribus lineis quomodocunque inter ſe ductis, eiuſdem magnitudinis ſolidum gigni.
 

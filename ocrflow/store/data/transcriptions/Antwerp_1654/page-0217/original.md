@@ -10,7 +10,9 @@ Quoniam vero parallelogramma AP, DR ſunt dupla c triangulorum ABC, DEF, etiam i
 c Per 41.l.1.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
+
+[Curated heading level=2 type=figures: Fig. 3]
 
 [Margin]
 Fig.3.

@@ -17,6 +17,8 @@ c Per 16.l.5.
 
 ## PROPOSITIO XXII.
 
+[Curated heading level=2 type=figures: Fig. 13]
+
 [Margin]
 Fig.13.
 [/Margin]

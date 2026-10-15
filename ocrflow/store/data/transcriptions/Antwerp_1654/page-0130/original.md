@@ -3,6 +3,8 @@
 
 ## PROPOSITIO XXII.
 
+[Curated heading level=2 type=figures: Fig. 35]
+
 [Margin]
 Fig. 35.
 [/Margin]
@@ -22,6 +24,8 @@ c Per eand.
 {dropcap:N|lines=2|style=plain}On ſunt neceſſariæ: & agitur de ſegmentis ſimilibus, quæ non poſſunt ſine proportionibus rectè definiri.
 
 ## PROPOSITIO XXV.
+
+[Curated heading level=2 type=figures: Fig. 36]
 
 {dropcap:D|lines=2|style=plain}Atum arcum ( A B C ) perficere.
 

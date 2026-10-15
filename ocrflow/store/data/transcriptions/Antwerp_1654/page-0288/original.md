@@ -1,6 +1,8 @@
 <!-- Running title: Liber Duodecimus. -->
 <!-- Page number: 255 -->
 
+[Curated heading level=2 type=figures: Fig. 6]
+
 trum ducta ad ſuperficiem vtrimque pertingens.
 
 [Margin]
@@ -9,11 +11,15 @@ Fig. 6.
 
 Generatur ſphæra ſi ſemicirculus circa diametrum (A F) immotam conuertatur.
 
+[Curated heading level=3 type=numbered_item: 6.]
+
 6. Magnitudines figuræ alicui inſcriptæ, aut circumſcriptæ, ſiue figurâ minores vel maiores, in figuram deſinere dicuntur, cum ab ea tandem differre poſſunt quantitate minori quâcunque datâ, ſeu quantumuis paruâ.
 
 *Itaque ſi ea, quæ figuræ alicui inſcribuntur, ab eâ tandem deficiant defectu minori quocunque dato, inſcripta dicentur in figuram deſinere: Et ſi ea quæ alicui figuræ circumſcribuntur, excedant eam tandem exceßu minori quocunque dato, dicentur rurſum circumſcripta deſinere in figuram.*
 
 ## PROPOSITIO PRIMA.
+
+[Curated heading level=2 type=figures: Fig. 7]
 
 [Margin]
 Fig. 6. & 7.

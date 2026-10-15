@@ -14,7 +14,7 @@ d Per præc.
 e Patet ex 11.l.12.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:C|lines=2|style=plain}Vm ſuperficies E C G ſit æqualis o circulo radij C G, & ſuperficies E B G æqualis circulo radij B G, erunt ſectores A E C G, & A E B G æquales conis, quorum altitudo eſt radius ſphæræ, baſes vero circuli radiorum C G, & B G.
 

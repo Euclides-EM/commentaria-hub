@@ -14,6 +14,8 @@ f Per 22.l.5.
 
 ## PROPOSITIO XXV.
 
+[Curated heading level=2 type=figures: Fig. 16]
+
 [Margin]
 Fig.16.
 [/Margin]

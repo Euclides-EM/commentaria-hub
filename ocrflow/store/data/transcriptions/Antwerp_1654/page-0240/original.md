@@ -9,6 +9,8 @@ b Per eand.
 
 ## PROPOSITIO XVII.
 
+[Curated heading level=2 type=figures: Fig. 34]
+
 {dropcap:S|lines=2|style=plain}I tres rectæ (AB, FL, BC) fuerint proportionales, rectangulum ſub extremis (AB,BC) æquale erit quadrato mediæ (FL.)
 
 [Margin]
@@ -25,7 +27,7 @@ o Per præc.
 
 2.Pars. Demonſtratur ſimiliter ex ſecundâ parte præcedentis.
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:E|lines=2|style=plain}X hac & ex 13. patet, ſi in circulo ſit FC perpendicularis diametro, rectangulum ACB æquale eſſe quadrato FC.
 

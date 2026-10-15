@@ -13,11 +13,17 @@ Proportionum elementa faciliori methodo proponuntur.
 
 ## DEFINITIONES.
 
+[Curated heading level=3 type=numbered_item: 1.]
+
 1. {dropcap:P|lines=2|style=plain}Ars aliquota magnitudinis eſt, quæ aliquoties repetita magnitudinem metitur, ſiue adæquat. Pars aliquanta, quæ non metitur.
 
 Longitudo vnius pedis eſt pars aliquota longitudinis 10.pedum, quia illam decies repetita metitur. Longitudo vero 4.pedum, eſt pars aliquanta lineæ 10.pedum, quia aliquoties repetita, nempe bis, illam non adæquat, repetita vero ter, excedit.
 
+[Curated heading level=3 type=numbered_item: 2.]
+
 2. Magnitudo magnitudinis multiplex eſt, cum minor metitur maiorem, ac proinde eius pars aliquota eſt; ſiue cum maior minorem aliquoties continet præciſè.
+
+[Curated heading level=3 type=numbered_item: 3.]
 
 3. Ratio ſiue proportio eſt duarum eiuſdem generis magnitudinum mutua quædam ſecundùm quantitatem habitudo.
 

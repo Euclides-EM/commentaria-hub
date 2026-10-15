@@ -15,6 +15,8 @@ Signum æqualitatis in hoc libro eſt. Æ.
 
 ## PROPOSITIO PRIMA.
 
+[Curated heading level=2 type=figures: Fig. 1]
+
 [Margin]
 Fig.1.lib.2.
 [/Margin]

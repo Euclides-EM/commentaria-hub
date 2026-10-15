@@ -3,7 +3,7 @@
 
 laterum ſupra datam C B. Centro A per B, & C deſcribe circulum. Is capiet hexagonum ſuper datâ rectâ C B. Patet ex propoſ. & corol.1.
 
-## Theorema.
+### Theorema.
 
 {dropcap:Q|lines=2|style=plain}Vadratum ex latere trianguli æquilateri, triplum eſt quadrati ex ſemidiametro circuli, cui inſcriptum eſt, adeoq́, ad quadratum diametri eſt vt 3 ad 4.
 
@@ -25,6 +25,8 @@ x Per 4.l.2.
 Hinc ſequitur latus æquilateri trianguli eſſe ad diametrum, vt radix quadrata ternarij eſt ad 2, radicem nempe quadratam quaternarij, ac proinde eſſe lineas incommenſurabiles.
 
 ## PROPOSITIO XVI.
+
+[Curated heading level=2 type=figures: Fig. 15]
 
 {dropcap:I|lines=2|style=plain}N circulo quindecagonum ordinatum deſcribere.
 

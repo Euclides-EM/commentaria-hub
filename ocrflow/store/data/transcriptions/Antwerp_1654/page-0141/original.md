@@ -6,9 +6,15 @@
 
 ## DEFINITIONES.
 
+[Curated heading level=3 type=numbered_item: 1.]
+
 1. FIgura rectilinea circulo inſcripta eſt, vel circulus figuræ circumſcriptus, cum ſingulorum angulorum vertices in circumferentia exiſtunt.
 
+[Curated heading level=3 type=numbered_item: 2.]
+
 2. Figura rectilinea circulo circumſcripta eſt, vel circulus figuræ inſcriptus eſt, cum ſingula latera circulum tangunt.
+
+[Curated heading level=3 type=numbered_item: 3.]
 
 3. Figura ordinata ſeu regularis eſt, quæ æquilatera & æquiangula eſt.
 

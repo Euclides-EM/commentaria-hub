@@ -7,6 +7,8 @@ Si plures fuerint vtrimque quantitates quam tres, eodem ratiocinio procedatur ad
 
 ## PROPOSITIO XXIII.
 
+[Curated heading level=2 type=figures: Fig. 14]
+
 [Margin]
 Fig.14.
 [/Margin]
@@ -30,6 +32,8 @@ d Per 11. l.5.
 Vocatur à Geometris hæc ratio perturbata.
 
 ## PROPOSITIO XXIV.
+
+[Curated heading level=2 type=figures: Fig. 15]
 
 [Margin]
 Fig.15.

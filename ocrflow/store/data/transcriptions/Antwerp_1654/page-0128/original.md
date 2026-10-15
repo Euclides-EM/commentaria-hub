@@ -3,6 +3,8 @@
 
 ## PROPOSITIO XIX.
 
+[Curated heading level=2 type=figures: Fig. 29]
+
 [Margin]
 Fig. 29.
 [/Margin]
@@ -16,6 +18,8 @@ d Per præc.
 [/Margin]
 
 ## PROPOSITIO XX.
+
+[Curated heading level=2 type=figures: Fig. 30, 31 & 32]
 
 [Margin]
 Fig. 30. 31. 32.

@@ -20,6 +20,8 @@ b Per 4. l.2.
 
 ## PROPOSITIO IX.
 
+[Curated heading level=2 type=figures: Fig. 9]
+
 [Margin]
 Fig.9.
 [/Margin]

@@ -19,6 +19,8 @@ Hæc propoſitio fiet vniuerſalis p.1.l.6. Idem hic tyrones notent in trianguli
 
 ## PROPOSITIO XXXIX. & XL.
 
+[Curated heading level=2 type=figures: Fig. 64]
+
 {dropcap:T|lines=2|style=plain}Riangula æqualia (ACB, AFB) ſuper eadem baſi (AB) vel æquali, ad eaſdem partes conſtituta, ſunt inter eaſdem parallelas (AB, CF.)
 
 [Margin]
@@ -32,6 +34,8 @@ a Per præc.
 [/Margin]
 
 ## PROPOSITIO XLI.
+
+[Curated heading level=2 type=figures: Fig. 65]
 
 {dropcap:S|lines=2|style=plain}I triangulum (AFB) ſit in iiſdem parallelis cum parallelogrammo (AL) & baſim eandem habeat (AB) vel æqualem, ipſius dimidium erit.
 

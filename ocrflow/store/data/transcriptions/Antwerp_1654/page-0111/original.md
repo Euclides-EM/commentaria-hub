@@ -37,6 +37,8 @@ Patet ex 4. parte prop. 7.
 
 ## PROPOSITIO X.
 
+[Curated heading level=2 type=figures: Fig. 12]
+
 [Margin]
 Fig. 12.
 [/Margin]

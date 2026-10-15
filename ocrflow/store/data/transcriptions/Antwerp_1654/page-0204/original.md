@@ -1,6 +1,8 @@
 <!-- Running title: Liber Quintus. Pars III. -->
 <!-- Page number: 171 -->
 
+[Curated heading level=2 type=figures: Fig. 32]
+
 ex ax. 1 & 3. Nam multiplicatio rationum, eſt vnius ad alteram additio ſæpius repetita. Hanc autem perfici repetitâ ſæpius antecedentium additione (hoc eſt multiplicatione) patet ex iam citatis axio.1.& 3.
 
 [Margin]
@@ -11,9 +13,11 @@ Sint datæ rationes 9 ad 3 & 20 ad 4, denominatores 3 & 5 multiplicati faciunt 1
 
 Diuiſio rationum perficitur, ſi denominator maioris diuidatur per denominatorem minoris. Nã ratio quotientis ad vnitatem, eſt ea quæ habetur ex diuiſione rationis datæ maioris per rationem minorem. Patet ex 1 & 3 axiomate. Cum rationis per rationem diuiſio, ſit ſubtractio vnius ab alterâ ſæpius repetita.
 
-## VIII.
+### VIII.
 
-## Multiplicatio rationum irrationalium.
+#### Multiplicatio rationum irrationalium.
+
+[Curated heading level=2 type=figures: Fig. 33]
 
 [Margin]
 Fig 33.

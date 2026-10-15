@@ -7,11 +7,13 @@ conſt. D A. Ergo anguli A & D C A k æquantur. Quare angulus A B C, qui duobus 
 k Per 5.l.1.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:A|lines=2|style=plain}Nguli ad baſim ſinguli B & C in triangulo iſoſcelio iam conſtructo ſunt duæ quintæ duorum rectorum, ſeu quatuor quintæ vnius recti, & reliquus A eſt vna quinta duorum rectorum ſeu duæ quintæ vnius. Patet ex propoſitione hac & ex 32. lib.1.
 
 ## PROPOSITIO XI.
+
+[Curated heading level=2 type=figures: Fig. 8]
 
 {dropcap:C|lines=2|style=plain}Irculo pentagonum ordinatum inſcribere.
 

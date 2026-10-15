@@ -5,6 +5,8 @@ Huius ſectionis vis admirabilis eſt in corporum regularium inſcriptione & com
 
 ## PROPOSITIO XXXI.
 
+[Curated heading level=2 type=figures: Fig. 47]
+
 {dropcap:S|lines=2|style=plain}I à lateribus trianguli rectanguli (A C B) figuræ ſimiles quæcunque deſcribantur, erit ea quæ opponitur recto angulo duabus ſimul reliquis (L,R,) æqualis.
 
 [Margin]
@@ -23,7 +25,7 @@ d Per 20. l.2. & defin. 10.l.6.
 e Per 24. l.5
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:E|lines=2|style=plain}X hac propoſitione facilè dabitur quotcunque figuris ſimilibus rectilineis qui-
 

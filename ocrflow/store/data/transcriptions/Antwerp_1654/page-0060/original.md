@@ -12,6 +12,8 @@ b Per eand.
 
 ## PROPOSITIO XXII.
 
+[Curated heading level=2 type=figures: Fig. 40]
+
 [Margin]
 Fig.40.
 [/Margin]

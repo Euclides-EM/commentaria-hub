@@ -1,7 +1,11 @@
 <!-- Running title: Ex Archimede, -->
 <!-- Page number: 311 -->
 
+[Curated heading level=1 type=lemma_target: Lemma ad Archim. XVI]
+
 ## Lemma ad ſequen.
+
+[Curated heading level=2 type=figures: Fig. 13]
 
 {dropcap:R|lines=2|style=plain}Ecta (B H, C G) quæ in circulo æquales arcus (B C, H G) intercipiunt, ſunt parallelæ.
 

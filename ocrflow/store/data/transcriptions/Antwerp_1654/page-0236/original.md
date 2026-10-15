@@ -5,7 +5,9 @@ B A ad A F, vt G D ad D F, hoc eſt vt G C ad C B; erit quoque A F ad G C, vt G 
 
 Hi duo modi quamuis ſint ingenioſi & faciles; tamen, quia debita normæ, & regulæ applicatio, non niſi tentando fit, Geometrici non ſunt.
 
-## Modus Carteſii.
+### Modus Carteſii.
+
+[Curated heading level=2 type=figures: Fig. 28]
 
 [Margin]
 Fig.28.

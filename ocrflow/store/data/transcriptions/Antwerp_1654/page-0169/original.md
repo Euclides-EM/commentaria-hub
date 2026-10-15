@@ -7,6 +7,8 @@ difficilis eſt: vel denique per rationum æqualitatem nihil aliud intelligit, q
 
 {dropcap:Q|lines=2|style=plain}Vod ſi rationum æqualium deſideretur indicium infallibile, & facile, & primum; nos tale aſſignabimus, demonſtrabimuſq́ꝫ theor. 5. & 6. partis 2. eſtq́ꝫ eiuſmodi;
 
+[Curated heading level=2 type=figures: Fig. 26]
+
 Rationes o æquales ſunt (AB ad CF; GM ad NQ) quando & conſequentes ipſæ, & conſequentium ſimiles partes aliquotæ quæcunque, in antecedentibus æquali ſemper numero continentur.
 
 [Margin]

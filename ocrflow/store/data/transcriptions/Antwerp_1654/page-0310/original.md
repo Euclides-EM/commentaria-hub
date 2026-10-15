@@ -15,7 +15,7 @@ k Per lem. præced.
 n Per poriſ. vniuerſ.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 {dropcap:N|lines=2|style=plain}Otâ igitur proportione diametrorum, etiam ſphærarum proportio innoteſcit, vt ſi minoris diameter ſit vnius pedis,maioris 10,cõtinuetur ratio 1 ad 10 per quatuor terminos,1,10,100,1000 vt 1 ad 1000 quartum terminũ , ita ſphæra minor ad maioré.
 

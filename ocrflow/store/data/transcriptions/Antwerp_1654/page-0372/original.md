@@ -5,6 +5,8 @@ amplius innoteſcet, tredecim ſequentibus propoſitionibus comprehenſa, ſubiu
 
 ## PROPOSITIO XXXIII.
 
+[Curated heading level=2 type=figures: Fig. 26]
+
 {dropcap:S|lines=2|style=plain}Vperficies ſphæræ dupla eſt ſuperficiei cylindri quadrati ſphæræ inſcripti.
 
 [Margin]

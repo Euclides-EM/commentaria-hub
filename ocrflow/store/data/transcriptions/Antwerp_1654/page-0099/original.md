@@ -7,11 +7,13 @@ Etit A L. Æ. C S
 
 Atqui A L eſt quadratum A C, cum A I, A C ex conſt. ſint æquales : & C S eſt rect. A B C, cum B S ſit par A B. Ergo rectang. A B C æquatur quadrato A C. Datam igitur rectã ſecuimus, vt petebatur.
 
-## Scholium.
+### Scholium.
 
 {dropcap:P|lines=2|style=plain}Ropoſitiones 10 primæ huius libri veræ ſunt etiam in numeris. Hæc 11 numeris explicari non poteſt. Neque enim vllus numerus ita ſecari potest, vt productum ex toto in partem vnam, æquale ſit, quadrato partis reliquæ. Porro mira vis eſt huius ſectionis, de qua vide prop.30.l.6.
 
 ## PROPOSITIO XII.
+
+[Curated heading level=2 type=figures: Fig. 12]
 
 [Margin]
 Fig.12.

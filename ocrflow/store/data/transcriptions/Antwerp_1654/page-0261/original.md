@@ -3,6 +3,8 @@
 
 ## PROPOSITIO IX.
 
+[Curated heading level=2 type=figures: Fig. 16]
+
 [Margin]
 Fig.16.
 [/Margin]
@@ -20,6 +22,8 @@ c Per 6.l.11.
 [/Margin]
 
 ## PROPOSITIO X.
+
+[Curated heading level=2 type=figures: Fig. 17]
 
 [Margin]
 Fig.17.

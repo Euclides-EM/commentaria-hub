@@ -3,7 +3,9 @@
 
 anguli, quot rectos conficiant, præclarè innoteſcet tribus ſequentibus theorematibus.
 
-## Theorema 1.
+### Theorema 1.
+
+[Curated heading level=2 type=figures: Fig. 56]
 
 [Margin]
 Fig.56.
@@ -17,7 +19,9 @@ Nam ſi per oppoſitos angulos ducas rectam B F, hæc quadrangulum in duo triang
 a Per 32.l.1.
 [/Margin]
 
-## Theorema 2.
+### Theorema 2.
+
+[Curated heading level=2 type=figures: Fig. 57]
 
 {dropcap:O|lines=2|style=plain}Mnes ſimul anguli cuiuſcunque figuræ rectilineæ conficiunt bis tot rectos demptis quatuor, quot ſunt latera figuræ.
 

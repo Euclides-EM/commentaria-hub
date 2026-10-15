@@ -12,6 +12,8 @@ c Per 43. l.1.
 
 ## PROPOSITIO XV.
 
+[Curated heading level=2 type=figures: Fig. 11 & 12]
+
 {dropcap:S|lines=2|style=plain}I conus rectus ſectus ſit plano Q S R & baſi N Z O parallelo; Dico circulum G H M, cuius radius G H eſt medius inter partem lateris N Q & circulorum Q S R, N Z O, radios Q D, N V ſimul ſumptos, æqualem eſſe ſuperficiei conicæ inter parallelos circulos Q S R, N Z O interceptæ.
 
 [Margin]

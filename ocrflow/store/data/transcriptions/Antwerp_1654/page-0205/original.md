@@ -3,9 +3,9 @@
 
 Hunc igitur in modum demonſtrabitur. Ratio C ad E producitur ex multiplicatione rationum C ad D, & D ad E, vt patebit ex demonſtratione numeri 12, ab his independente. Sed rationes C ad D, & D ad E per conſt. ſunt rationes C ad D, & A ad B. Ergo ratio C ad E eſt ea quæ fit ex multiplicatione rationum A ad B, & C ad D. Quod erat demonſtrandum.
 
-## IX.
+### IX.
 
-## Diuiſio rationum irrationalium.
+#### Diuiſio rationum irrationalium.
 
 [Margin]
 Fig.33.
@@ -15,9 +15,9 @@ Fig.33.
 
 Nam ratio C ad D (hoc eſt per conſt. ratio A ad B) multiplicata per rationem D ad E producit rationem C ad E, vt patebit ex demonſtratione num.12, ab his independente. Ergo ratio D ad E eſt quotiens, cum multiplicata in diuiſorem, qui eſt ratio A ad B, reſtituat rationem C ad E, quæ proponebatur diuidenda.
 
-## X.
+### X.
 
-## De Compoſitione rationum, eius Definitio.
+#### De Compoſitione rationum, eius Definitio.
 
 {dropcap:R|lines=2|style=plain}Atio ex rationibus componi dicitur, cum rationum quantitates (hoc eſt denominatores)
 

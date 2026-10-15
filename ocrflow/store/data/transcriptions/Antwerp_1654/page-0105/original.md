@@ -2,11 +2,15 @@
 
 <!-- Running title: Elementorum Geometriæ -->
 
+[Curated heading level=2 type=figures: Fig. 33]
+
 partes, in quas circulum diuidit recta (C E) circulum ſecans.
 
 [Margin]
 Fig. 33.
 [/Margin]
+
+[Curated heading level=3 type=numbered_item: 6.]
 
 6. Angulus in ſegmento eſt (B Q C) qui continetur ſub rectis lineis, quæ ad vnum circumferentiæ punctum (Q) ex ſegmenti terminis (C, B) ducuntur.
 
@@ -14,15 +18,23 @@ Fig. 33.
 Fig. 33.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 7.]
+
+[Curated heading level=2 type=figures: Fig. 11]
+
 7. Angulus (C Q B) inſiſtere dicitur peripheriæ (B Q C) quæ illi opponitur.
 
 [Margin]
 Fig. 11.
 [/Margin]
 
+[Curated heading level=3 type=numbered_item: 8.]
+
 8. Sector eſt pars circuli à duobus ſemidiametris (A B, A F) & arcu (B F vel B C F) quē ſemidiametri intercipiunt, cõprehenſa.
 
 ## PROPOSITIO PRIMA.
+
+[Curated heading level=2 type=figures: Fig. 1]
 
 {dropcap:D|lines=2|style=plain}Ati circuli centrum inuenire.
 

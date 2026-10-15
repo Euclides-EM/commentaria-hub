@@ -9,6 +9,8 @@ Fig. 22.
 
 ## PROPOSITIO XVII.
 
+[Curated heading level=2 type=figures: Fig. 26]
+
 {dropcap:A|lines=2|style=plain}Puncto dato (B) rectam ducere, quæ datum circulum (O Q) tangat.
 
 [Margin]
