@@ -9,6 +9,8 @@
 
 per 2 multiplicetur, tota recta FE 1 4142/10000 habebitur: Sic & FA invenietur. Nam 45 Grad. ſi à ſemiambitu 180 Grad. auferantur, relinquuntur 135 Grad. quorum dimidium ſunt 67. Grad. 30. Min. huius ſinus in tabulis reperitur 92387/100000 ſemirecta FA; tota itaque erit 1 84774/100000 cui AE æqualis. Hac via latera quoque CE [quod æquale FA] CF 76536/100000 inveniuntur. Notis itaque triangulorum datorum lateribus, invenientur anguli, & quidem FAE 45 Grad. ut & FCE. Sed FBE arcus 90 Grad. menſura eſt FIE ad Centrum anguli. Duplus ergo eſt A & C angulorum, ut hi ſubdupli illius.
 
+[Curated heading level=2 type=propositions: PROP. XXII.]
+
 ## PROP. XXII.
 
 [Diagram: circle with quadrilateral BCED and intersecting diagonals BE and DC]

@@ -41,6 +41,6 @@ Sed cum 8 talia triangula totam octangularem conſtituant, octies ſumpto hoc tr
                                                      √8192
 [/Calculation]
 
-## FINIS SECVNDI.
+FINIS SECVNDI.
 
 <!-- Catchword: EVCLI- -->

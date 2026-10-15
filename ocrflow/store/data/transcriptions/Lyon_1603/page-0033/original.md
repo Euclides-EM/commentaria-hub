@@ -33,6 +33,8 @@ V 321 ⁹⁄₁₆ Hoc eſt V. V 321 ⁹⁄₁₆ − 8 ³⁄₄ dati ſurdi qu�
 
 Algebraicæ æquationes per huius libri theoremata reſoluuntur; ſed cum id huius loci proprie non ſit, earum omittendam analyſin duximus. Scripſit doctiſſime de hoc clariſſimus F. Vieta, vir ad miraculum doctus; Prodibunt etiam brevi Ludolphi noſtri doctiſſima de Algebra opera, qui ſe Herculem verum in hoc argumento oſtendit. Doctis his libenter cedo: quæ tamen de ſurdis addidimus, jure quodam hunc locum exigere videbantur; non ergo inviti hæc poſuimus, cum eorum tam frequens hoc opere noſtro uſus occurrat.
 
+[Curated heading level=2 type=propositions: PROP. V.]
+
 ## PROP. V.
 
 [Diagram: adjoining rectangles with a diagonal, labelled G, M, F, K, H, N, I, B, E, D and C]

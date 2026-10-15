@@ -33,11 +33,15 @@ V. 2170 − V 4630500
 Extrahitur radix binomia.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. VIII.]
+
 ## PROP. VIII.
 
 [Diagram: a square divided into four parts, labelled G, F, K, I, P, M, N, R, S, B, D, C and E]
 
 Numero quocunque, ut 10 utcunque ſecto, ut in 6 & 4, manifeſtum eſt quod numerus 240, qui quater ex toto 10 in partem 6 fit, cum 16 quadrato partis alterius 4, id eſt 256 numerus, æqualis ſit numero quadrato huius numeri, qui ex dato numero 10 & parte dicta componitur. Eodem modo numerus 160, qui fit quater ex 10 toto in partem 4, cum 36 quadrato alterius partis 6, hoc eſt numerus 196, æqualis eſt quadrato, huius numeri 14, qui componitur ex 10 & 4, ut liquet.
+
+[Curated heading level=2 type=propositions: PROP. IX.]
 
 ## PROP. IX.
 

@@ -1,6 +1,8 @@
 <!-- Running title: LIBER V. -->
 <!-- Page number: 53 -->
 
+[Curated heading level=2 type=propositions: PROP. XI.]
+
 ## PROP. XI.
 
 [Calculation]
@@ -26,11 +28,15 @@ Quinti.
 
 Etiam I multiplex tertij maior erit multiplice M quarti, vel æqualis vel minor. Sed ſi I maior eſt quam M, vel æqualis, vel minor. Eſt quoque H maior quam L, vel æqualis, vel minor. Quia ponitur E primus ad F ſecundum ut C tertius, ad D quartum. Quare ſi G multiplex primi A, excedit K multiplicem ſecundi B; excedet quoque H multiplex tertij C, multiplicem L, quarti D. Et ſi G æqualis vel minor quam K ſit, ita H quam L minor vel æqualis erit. Idemque eueniet in alijs quibuscunque æquemultiplicibus. Erit ergo A primus ad B ſecundum, ut C tertius ad D quartum.
 
+[Curated heading level=2 type=propositions: PROP. XII.]
+
 ## PROP. XII.
 
 [Subhead]
 Quod Euclides propoſitione prima de proportione multiplici demonſtrauit, hic de omni genere proportionis oſtendit, etiam irrationalis.
 [/Subhead]
+
+[Curated heading level=2 type=propositions: PROP. XIII.]
 
 ## PROP. XIII.
 

@@ -1,6 +1,8 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 5 -->
 
+[Curated heading level=2 type=propositions: PROP. XXXVII.]
+
 ## PROP. XXXVII.
 
 [Diagram: two horizontal lines labelled B, F, G, E above and C, D below, with vertical and diagonal connecting lines]
@@ -21,7 +23,7 @@ Retentis iiſdem numeris, excepta FG pro qua ponatur √6. Ergo
 
 BD √170 erit, CG. √.176 + √1176, & DG √127. Singula triangula BCD, GCD aream recipient 38½. Ergo æqualia.
 
-## Calculus trianguli BCD.
+### Calculus trianguli BCD.
 
 [Calculation]
 18 + √170                         √42½ + 2
@@ -35,7 +37,7 @@ BD √170 erit, CG. √.176 + √1176, & DG √127. Singula triangula BCD, GCD a
     38½
 [/Calculation]
 
-## Calculus trianguli GCD.
+### Calculus trianguli GCD.
 
 [Calculation]
 √.176 + √1176 + √127 + 7

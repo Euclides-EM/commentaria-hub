@@ -28,6 +28,8 @@ Sive poteſtate eius ſurda,                        3 ⁷⁷⁄₈₁
 
 4 ⁴⁄₉ − V15 ⁶⁵⁄₈₁. ergo rectangula DIE & BIC inter ſe æqualia ſunt.
 
+[Curated heading level=2 type=propositions: PROP. XXXVI.]
+
 ## PROP. XXXVI.
 
 [Diagram: circle with secant AD through centre C, tangent AE, and points B, D, E, F, G, H]

@@ -21,6 +21,8 @@ Vel una æquales ſint: vel deficiant.
 
 Erit A primus ad C ſecundum, ut D tertius ad F quartum.
 
+[Curated heading level=2 type=propositions: PROP. XXIII.]
+
 ## PROP. XXIII.
 
 | G. 18 | H. 8 | K. 6 |
@@ -73,9 +75,13 @@ una vel excedant, vel æquentur vel deficiant, erit ut A.1us, ad B.2. ita
 
 D.3. ad F.4. quod eſt propoſitum.
 
+[Curated heading level=2 type=propositions: PROP. XXIV.]
+
 ## PROP. XXIV.
 
 Quod de ſola proportione multiplici propoſitione ſecunda oſtendit idipſum nunc demonſtrat de omni proportione, etiam irrationali.
+
+[Curated heading level=2 type=propositions: PROP. XXV.]
 
 ## PROP. XXV.
 
@@ -86,7 +92,7 @@ Quod de ſola proportione multiplici propoſitione ſecunda oſtendit idipſum n
 
 Sit A ad B ut C ad D, A vero maior D minor. Quod A & D additi maiores ſint B & C additis, facile oſtendi poteſt, ſi numeri hi, demonſtrationi noſtræ in lineis adhibeantur, ad quam propoſitionis quoque in numeris veritas examinetur.
 
-# FINIS QVINTI.
+FINIS QVINTI.
 
 <!-- Signature: H -->
 <!-- Catchword: EVCLI- -->

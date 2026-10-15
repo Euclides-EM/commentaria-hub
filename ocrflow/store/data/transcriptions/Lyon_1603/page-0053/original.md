@@ -17,6 +17,8 @@ Erit AH 24 ⊙. Huius quadrato à quadrato de AB ablato, relinquitur quadratum d
 
 Quia AKG, GEI triangula ſimilia ſunt, erit ut AK ad AG, ita GE ad GI √65 ſive 8 ⊙062 ③. Vel ut AK ad AG ita AH ad AI √585 ſive, 24 ⊙186 ③ Quadrato de GE à quadrato de GI ablato, erit IE 1 ⊙.
 
+[Curated heading level=2 type=propositions: PROP. V.]
+
 ## PROP. V.
 
 [Diagram: circle through A, B, C and N containing triangle ABC, diameter AN, and construction lines labelled E, F, G, K, M and O]

@@ -1,6 +1,8 @@
 <!-- Running title: LIBER IV. -->
 <!-- Page number: 43 -->
 
+[Curated heading level=2 type=propositions: PROP. XII.]
+
 ## PROP. XII.
 
 [Diagram: pentagon F–G–H–K–L surrounding a circle, with points A–B–C–D–E, centre I, and intersecting radial lines]

@@ -11,7 +11,7 @@
 √.92 ⁹⁹²¹⁶⁄₁₆₅₈₈₈ + √8545 ⁶⁵⁄₂₈₈ area trianguli CFE ſive quod idem eſt 7 + √43 ⁶²⁰¹⁄₁₀₃₆₈. Triangula igitur CDF, & CFE compoſita, triangulum CDE conſtituunt, 14 + √174 ¹¹³⁄₂₈₈.
 [/Calculation]
 
-## Calculus trianguli GFE.
+### Calculus trianguli GFE.
 
 [Calculation]
 √.24²⁄₃ + √541 ³⁸¹²⁄₁₀₃₆₈ + √.16²⁄₃ + √247 ¹⁶⁰⁴⁄₁₀₃₆₈ + √.12 + √128¹⁄₈

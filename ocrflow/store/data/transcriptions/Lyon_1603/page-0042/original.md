@@ -1,7 +1,11 @@
 <!-- Running title: LIBER III. -->
 <!-- Page number: 25 -->
 
+[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM TERTIVS.]
+
 # EVCLIDIS ELEMENTORVM TERTIVS.
+
+[Curated heading level=2 type=propositions: PROP. III.]
 
 ## PROP. III.
 
@@ -17,6 +21,8 @@ Sit BC, 1 90211/100000 huius dimidium 95105/100000 in Tabulis Sinuum invenietur 
 32. Primi.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. IV.]
+
 ## PROP. IV.
 
 [Diagram: circle with chords BC and DE intersecting at F, and perpendicular GF]
@@ -27,6 +33,8 @@ Sit BC √2 æquibiſecta in F, ergo FG erit √½. Sit DE √3. Ergo ex G punct
 47. Primi.
 & 3. Tertii.
 [/Margin]
+
+[Curated heading level=2 type=propositions: PROP. VII.]
 
 ## PROP. VII.
 

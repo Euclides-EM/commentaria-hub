@@ -1,11 +1,15 @@
 <!-- Running title: LIBER II. -->
 <!-- Page number: 19 -->
 
+[Curated heading level=2 type=propositions: PROP. X.]
+
 ## PROP. X.
 
 [Diagram: triangle BFH with upper line FG, vertical lines FD and GH, and points C and E]
 
 Numerus 10 æquibiſecetur in 5 & 5, cui quicunque apponatur numerus 3, ut compoſitus totus 13 ſit. Quadrati igitur numeri 169 & 9, horum numerorum 13 & 3, dupli ſunt quadratorum numerorum, 25, 64, qui ex his numeris 5 & 8 gignuntur, ut evidens eſt.
+
+[Curated heading level=2 type=propositions: PROP. XI.]
 
 ## PROP. XI.
 

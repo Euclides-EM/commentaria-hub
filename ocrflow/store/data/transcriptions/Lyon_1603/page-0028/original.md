@@ -1,7 +1,7 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 11 -->
 
-## Calculus trianguli FKD.
+### Calculus trianguli FKD.
 
 [Calculation]
 √48 − 2
@@ -31,6 +31,8 @@
                             26 − √192
                             area trianguli FKD.
 [/Calculation]
+
+[Curated heading level=2 type=propositions: PROP. XLVII.]
 
 ## PROP. XLVII.
 

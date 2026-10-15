@@ -25,11 +25,15 @@ Quia itaque triangula AMB, NMC, ſimilia ſunt, [ Nam NMC angulus, ad verticem a
 
 MNC antea MBA oſtenſus eſt æqualis, MCN ergo, MAB æqualis eſt ] ut CN ad MN ita AB ad quæſitam BM 5 ⊙ 95238 ⑤ erit: hæc à BC ablata, reliqua MC 8 ⊙ 04762 ⑤ quæſita altera erit, quam inueſtigauimus.
 
+[Curated heading level=2 type=propositions: PROP. VI.]
+
 ## PROP. VI.
 
 [Diagram: circle with inscribed square, labelled A at the centre, B above, C below, D at left and E at right]
 
 Dati circuli diameter 2 ⊙ ſit, quem ſemper in ſequentibus huius libri propoſitionibus, retinebimus, erit BE latus quadrati, √2 ſiue 1 ⊙, 414213 ⑥, quadratis de BA, AE compoſitis, & radice extracta.
+
+[Curated heading level=2 type=propositions: PROP. VII.]
 
 ## PROP. VII.
 

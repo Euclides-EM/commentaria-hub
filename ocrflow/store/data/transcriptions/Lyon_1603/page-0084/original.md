@@ -3,7 +3,7 @@
 
 Quæratur iam area pentagoni FGHKL.
 
-## Calculus trianguli FGH.
+### Calculus trianguli FGH.
 
 [Calculation]
 FH. √.90 + √1620                         √.22 ¹⁄₂ + √101 ¹⁄₄
@@ -30,7 +30,7 @@ FKL. √.1012 ¹⁄₂ − √205031 ¹⁄₄
 Summa eſt. √.4050 − √3280500
 [/Calculation]
 
-## Calculus trianguli F H K.
+### Calculus trianguli FHK.
 
 [Calculation]
 HK. √.90 − √1620                         √.22 ¹⁄₂ − √101 ¹⁄₄

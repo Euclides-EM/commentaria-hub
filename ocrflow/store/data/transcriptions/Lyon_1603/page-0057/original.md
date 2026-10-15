@@ -3,6 +3,8 @@
 
 Sed AB ſecta eſt in D ex ſententia 11 prop. ſecundi libri: ergo BD, 6 − √20 ſive in abſolutis numeris 1 52787/100000 eſt, DA vero √20 − 2. Eſt & DA, æqualis DC, & BC eidem æqualis. BC ergo trianguli ABC baſis √20 − 2 vel in abſolutis numeris 2 47213/100000 erit.
 
+[Curated heading level=2 type=propositions: PROP. XI.]
+
 ## PROP. XI.
 
 [Margin]

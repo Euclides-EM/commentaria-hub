@@ -1,6 +1,8 @@
 <!-- Running title: LIBER VI -->
 <!-- Page number: 69 -->
 
+[Curated heading level=2 type=propositions: PROP. XXII.]
+
 ## PROP. XXII.
 
 [Diagram: two triangles and two rectangles labelled A–R]
@@ -35,6 +37,8 @@ BK √549               √351 ⁹⁄₂₅              ───────�
 135 area trian-         86 ²⁄₅ area trian-
     guli ABK.               guli CDL.
 [/Calculation]
+
+[Curated heading level=2 type=propositions: PROP. XXIII.]
 
 ## PROP. XXIII.
 

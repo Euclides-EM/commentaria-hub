@@ -21,6 +21,8 @@
   144   DB.
 [/Calculation]
 
+[Curated heading level=2 type=propositions: PROP. XII.]
+
 ## PROP. XII.
 
 [Diagram: geometrical construction labelled B, C, D, E, F, G, H, K, L and M]

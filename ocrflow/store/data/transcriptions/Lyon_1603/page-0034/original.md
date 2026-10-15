@@ -1,11 +1,15 @@
 <!-- Running title: LIBER II. -->
 <!-- Page number: 17 -->
 
+[Curated heading level=2 type=propositions: PROP. VI.]
+
 ## PROP. VI.
 
 [Diagram: adjoining rectangles with a diagonal, labelled G, H, F, I, K, N, M, E, B, D and C]
 
 Æquibiſecto 10 numero in 5 & 5 addatur quicunque numerus ut 2. Evidens eſt 24, qui naſcitur ex toto numero compoſito 12 in appoſitum 2 vna cum 25 quadrato dimidij, æqualem eſſe 49 huius numeri 7 qui ex dimidio 5 & adiecto conſlatur.
+
+[Curated heading level=2 type=propositions: PROP. VII.]
 
 ## PROP. VII.
 

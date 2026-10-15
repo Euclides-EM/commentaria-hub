@@ -1,6 +1,8 @@
 <!-- Running title: EVCLIDIS -->
 <!-- Page number: 10 -->
 
+[Curated heading level=2 type=propositions: PROP. XLIII.]
+
 ## PROP. XLIII.
 
 [Margin]
@@ -13,7 +15,7 @@ Sit BC 6 ⓪ 9 ① 2 ② 8 ③ 2 ④, æqualis BE, BG vero, 2 ⓪. Ergo BD 9 ⓪
 
 Ponatur pro BC √48, pro BG 2, ergo GC √48 − 2 erit, & BD √96, FD, √.104 − √3072 ſive √96 − √8 erit, Triangulis FKD, FLD, 52 − √768 ſimul à triangulis, BCD, BED 48 ablatis, relinquentur trapezia BK, BL, √768 − 4, ab his denuo triangulis BGF, BHF 4 ſubductis, complementa reſtabunt, √768 − 8 quodlibet, FC, FF √192 − 4.
 
-## Calcul. triang. BGF.
+### Calcul. triang. BGF.
 
 [Calculation]
     2
@@ -30,7 +32,7 @@ Ponatur pro BC √48, pro BG 2, ergo GC √48 − 2 erit, & BD √96, FD, √.10
  2 area.
 [/Calculation]
 
-## Calculus trianguli BCD.
+### Calculus trianguli BCD.
 
 [Calculation]
    √48                    √24

@@ -3,6 +3,8 @@
 
 Pro FI in ſurdis numeris inuenimus √78⅔ pro IK √40: Ergo AM 14 − √78⅔, AO 10 + √40 erit. Si in ſe ducantur hæ rectæ, exacte 84 prodibunt pro area rectanguli AK.
 
+[Curated heading level=2 type=propositions: PROP. XXIX.]
+
 ## PROP. XXIX.
 
 [Diagram: subdivided rectangles labelled A, B, C, D, E, G, H, I, K, L and M, with diagonal GI]
@@ -18,6 +20,8 @@ Data recta AI 30 ⓪ ſit, C longius latus 15 ⓪ breuius 10 ⓪, D longius 8 �
 [/Margin]
 
 Pro GH in ſurdis inuenimus √600 pro HL √337⅓. Ergo EH, æqualis BL, √600 − 20 AD √337⅓ + 15 erit. Si in ſe ducantur hæ rectæ, exacte 150 prodibunt, pro area rectanguli AL.
+
+[Curated heading level=2 type=propositions: PROP. XXXI.]
 
 ## PROP. XXXI.
 
@@ -35,4 +39,4 @@ Rectanguli AGB latus longius 14 ⓪ ſit, breuius 5 ⓪ & BFC rectanguli longius
 
 Inuenietur pro AEC rectanguli latere longiore, in ſurdis numeris, √596 breuiore √76⅔ quæ ſi in ſe ducantur, producti poteſtate reſoluta, prodibit area 212⅔ exacte. Tantum quoque AGB, BFC rectangula compoſita efficiunt.
 
-# FINIS GEOMETRIÆ EVCLIDIS.
+FINIS GEOMETRIÆ EVCLIDIS.

@@ -1,7 +1,7 @@
 <!-- Running title: EVCLIDIS -->
 <!-- Page number: 4 -->
 
-## Calculus trianguli BFG.
+### Calculus trianguli BFG.
 
 [Calculation]
                  √500 + √244 + 8
@@ -17,6 +17,8 @@
                                  4│ 0│ area triang. BFG
                                 ───────
 [/Calculation]
+
+[Curated heading level=2 type=propositions: PROP. XXXVI.]
 
 ## PROP. XXXVI.
 
@@ -38,7 +40,7 @@ Sit DE √8 BD √25⅓. Ergo DF. √57⅓ FE √33⅓. Rectangulum DC erit √2
 47. prim.
 [/Margin]
 
-## Calculus trianguli FDE
+### Calculus trianguli FDE
 
 [Calculation]
                  √57⅓ + √33⅓ + √8

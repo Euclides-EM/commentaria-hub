@@ -25,6 +25,8 @@ Eſt igitur A primus, ad C ſecundum, ut B tertius ad D quartum: quod eſt propo
 6. Defin. Quinti.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. XVII.]
+
 ## PROP. XVII.
 
 [Calculation]
@@ -35,17 +37,23 @@ B.  8 │ E.  6 │ F. 2
 
 A numerus ex C, D, compoſitus, & B ex E, F, dentur; & ſit ut A ad ſui partem D, ita totus B ad ſui partem F. Cum itaque hi compoſiti proportionales ſint, diviſi etiam proportionales erunt: nempe C ad D ut E ad F. Qui cupit demonſtrationem, petat ex 1 & 2 prop. huius, & 6 defin. quam ob prolixitatem intermiſimus.
 
+[Curated heading level=2 type=propositions: PROP. XVIII.]
+
 ## PROP. XVIII.
 
 [Subhead]
 Hæc conuertit præcedentem propoſitionem.
 [/Subhead]
 
+[Curated heading level=2 type=propositions: PROP. XIX.]
+
 ## PROP. XIX.
 
 [Subhead]
 Hæc de omni proportione etiam irrationali idipſum demonſtrat, quod ſuperius in quinta propoſitione de multiplici proportione oſtendit.
 [/Subhead]
+
+[Curated heading level=2 type=propositions: PROP. XX.]
 
 ## PROP. XX.
 

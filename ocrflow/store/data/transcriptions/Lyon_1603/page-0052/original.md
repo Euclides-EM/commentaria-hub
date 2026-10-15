@@ -9,6 +9,8 @@ Dati trianguli ABC, lateribus AB 15 ⊙. BC. 14 ⊙ CA 13 ⊙ cognitis, datique 
 
 Et ut AB ad BC, ita DH ad HG, 17 ⊙ 231168 ⑥. Et ut BC ad CA, ita HG ad GD 16 ⊙ 000370 ⑥.
 
+[Curated heading level=2 type=propositions: PROP. III.]
+
 ## PROP. III.
 
 [Diagram: two adjacent triangles ABC and DEF; triangle DEF contains circle GHK with center L and radii LG, LH and LK]
@@ -16,6 +18,8 @@ Et ut AB ad BC, ita DH ad HG, 17 ⊙ 231168 ⑥. Et ut BC ad CA, ita HG ad GD 16
 Cum eadem ABC trianguli latera ponuntur, eadem Angulorum erit quantitas, & ob id etiam angulorum DEF trianguli.
 
 Sint trianguli ABC latera ut in præcedenti, diameter vero circuli GKH, 16 ⊙. Triangulo ABC inſcripti circuli diameter, 8 ⊙ erit, per 4 huius ubi inuentionem eius tradidimus. Vt ergo radius 4 ⊙ ad BC, ita LK radius ad EF, 28 ⊙. Et ut BC ad BA, ita EF, ad FD 26 ⊙. Et ut CB ad CA ita FE ad ED 30 ⊙.
+
+[Curated heading level=2 type=propositions: PROP. IV.]
 
 ## PROP. IV.
 

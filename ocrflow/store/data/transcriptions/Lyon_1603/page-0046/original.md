@@ -11,11 +11,15 @@ guli.              53     2          22    32      rum recte-
                                     180.    0
 [/Calculation]
 
+[Curated heading level=2 type=propositions: PROP. XXXI.]
+
 ## PROP. XXXI.
 
 [Diagram]
 
 Arcus DC quadrans arcui DEB æqualis, & DE 38 Grad. dantur. Quadrantis itaque complementum ſunt 42 Grad. Inveniuntur ergo latera ut ſuperius in ſinuum tabulis, BD 1 414210/1000000 æqualis DC, ED 65112/100000 BE 71672/100000: Et lateribus cognitis reperiuntur & anguli BDC 90 Grad. BED 137 Grad. EBD 11 Grad. 6 Min. EDB 29 Grad. 54 Min. & quidem BDC in ſemicirculo angulus rectus eſt, & DCB 45 Grad. in maiori ſegmento, & in minori ſegmento BED maior recto. Sic quoque EDC 119 Grad. 54 Min. maior recto eſt, EBC 56 Gr. 6 Min. minor recto eſt.
+
+[Curated heading level=2 type=propositions: PROP. XXXV.]
 
 ## PROP. XXXV.
 

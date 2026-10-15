@@ -34,6 +34,8 @@ GA   √264 ¹⁄₄₉
 √2048 area AEG.
 [/Calculation]
 
+[Curated heading level=2 type=propositions: PROP. XX.]
+
 ## PROP. XX.
 
 [Diagram: two pentagons FGHKL and ABCDE, with internal diagonals]

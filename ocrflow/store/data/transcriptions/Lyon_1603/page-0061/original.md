@@ -25,6 +25,8 @@ Ex Ludolpho xl goni eſt √18 + √10 + √.20 + √80 − √20 + 2
                        2 + √.20 + √320.
 [/Calculation]
 
+[Curated heading level=2 type=propositions: PROP. XV.]
+
 ## PROP. XV.
 
 [Diagram: circle with inscribed hexagon labelled A, B, C, D, E, F and intersecting lines through centre I]

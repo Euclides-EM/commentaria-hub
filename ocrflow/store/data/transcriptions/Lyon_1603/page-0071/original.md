@@ -3,6 +3,8 @@
 
 rationem A ad B maiorem eſſe E ad F. Nam denominator rationis C ad D eſt 1 ½: & idem A ad B. denominator vero E ad F eſt 1 ⅓. Eſt vero 1 ⅓ minor quam 1 ½.
 
+[Curated heading level=2 type=propositions: PROP. XIV.]
+
 ## PROP. XIV.
 
 [Margin]
@@ -49,6 +51,8 @@ Sit A 2. quam C 8. minor. Eritque ob hoc maior ratio C maioris ad B quam A, mino
 19. Quin.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. XV.]
+
 ## PROP. XV.
 
 [Calculation]
@@ -62,6 +66,8 @@ C. 25 │ D. 35
 [/Margin]
 
 Sit A pars de C & B pars de D: recipiat C toties A, quoties D recipit B. Quia ergo ut una antecedentium A ad unam conſequentium B, ita omnes antecedentes C ad omnes conſequentes D. Ergo cum C ad D ſit ratio ſubſuperbipartiens quintas, eadem erit & A ad B.
+
+[Curated heading level=2 type=propositions: PROP. XVI.]
 
 ## PROP. XVI.
 

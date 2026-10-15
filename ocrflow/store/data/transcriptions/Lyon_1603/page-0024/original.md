@@ -1,6 +1,8 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 7 -->
 
+[Curated heading level=2 type=propositions: PROP. XLII.]
+
 ## PROP. XLII.
 
 [Diagram: geometric diagram labelled B, C, D, E, F, G, H]
@@ -13,7 +15,7 @@ Sit DE 9 ⓪ 6 ① 3 ② 7 ③ 9 ④ DC vero 5 ⓪ 6 ① 3 ② 3 ③ 7 ④ æqua
 
 Sit DE √.48 + √2050, DC vero √.16¹⁄₃ + √237 ³⁸⁰⁹⁄₁₀₃₆₈ æqualis CG. Ergo DF erit √.12 + √128¹⁄₈, CF √.28¹⁄₃ + √714 ²⁸⁷³⁄₁₀₃₆₈ & CE √.64¹⁄₃ + √3682 ⁵²⁴⁹⁄₁₀₃₆₈. Invenietur quoque pro FG, [ſi operatio ex ſuperius præſcripta norma inſtituatur] √.16²⁄₃ + √247 ⁴⁰¹⁄₂₅₉₂ & GE √.24¹⁄₃ + √541 ⁵⁹³⁄₂₅₉₂. Eadem veritas in his numeris conſpicietur, qua in priorib. & certior quam in illis.
 
-## Calculus trianguli CDE ex primo lemmate.
+### Calculus trianguli CDE ex primo lemmate.
 
 [Calculation]
 16¹⁄₃ + √237 ³⁸⁰⁹⁄₁₀₃₆₈                         49    √ ¹⁰²⁵⁄₁₀₃₆₈

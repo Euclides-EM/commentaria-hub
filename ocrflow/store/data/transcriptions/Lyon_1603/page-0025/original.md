@@ -1,7 +1,7 @@
 <!-- Page number: 8 -->
 <!-- Running title: EVCLIDIS -->
 
-## Calculus trianguli CDF ex ſecundi lemmatis ſententia.
+### Calculus trianguli CDF ex ſecundi lemmatis ſententia.
 
 [Calculation]
 √.28¹⁄₃ + √714 ²⁸⁷³⁄₁₀₃₆₈ + √.16¹⁄₃ + √237 ³⁸⁰⁹⁄₁₀₃₆₈ + √.12 + √128¹⁄₈
@@ -27,7 +27,7 @@
 extracta, vera area erit, 7 + √43 ⁶²⁰¹⁄₁₀₃₆₈.
 [/Calculation]
 
-## Calculus trianguli CFE.
+### Calculus trianguli CFE.
 
 [Calculation]
 √.64¹⁄₃ + √3682 ⁵²⁴⁹⁄₁₀₃₆₈ + √.28¹⁄₃ + √714 ²⁸⁷³⁄₁₀₃₆₈ + √.12 + √128¹⁄₈

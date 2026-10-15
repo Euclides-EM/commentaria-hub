@@ -1,7 +1,11 @@
 <!-- Page number: 58 -->
 <!-- Running title: EVCLIDIS -->
 
+[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM SEXTVS.]
+
 # EVCLIDIS ELEMENTORVM SEXTVS.
+
+[Curated heading level=2 type=propositions: PROP. I.]
 
 ## PROP. I.
 

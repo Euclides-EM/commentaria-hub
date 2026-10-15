@@ -1,7 +1,7 @@
 <!-- Running title: EVCLIDIS -->
 <!-- Page number: 66 -->
 
-## Calculus trianguli ACD.
+### Calculus trianguli ACD.
 
 [Calculation]
 CD. √.2 ¹⁄₂ − √1 ¹⁄₄

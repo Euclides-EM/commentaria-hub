@@ -1,6 +1,8 @@
 <!-- Running title: EVCLIDIS -->
 <!-- Page number: 6 -->
 
+[Curated heading level=2 type=propositions: PROP. XLI.]
+
 ## PROP. XLI.
 
 [Diagram: quadrilateral BDEF with C on BF, vertical lines BD and CE, and diagonals BE, DF, and EF]
@@ -17,7 +19,7 @@ Ponatur quod DE, æqualis BC ſit, 6 ⓪ & DB æqualis EC 8 ⓪, totum ergo rect
 
 Retentis ijſdem numeris, excepta CF, pro qua ponatur √8 + 2. Ergo DF erit √.136 + √2048 & EF √.76 + √128. Calculus inſtituatur, exacte 24 reperientur pro DEF triangulo.
 
-## Calculus trianguli DEF.
+### Calculus trianguli DEF.
 
 [Calculation]
 √.136 + √2048 + √.76 + √128 + 6

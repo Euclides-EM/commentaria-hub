@@ -35,6 +35,8 @@ areæ ADF
 æqualis.
 [/Calculation]
 
+[Curated heading level=2 type=propositions: PROP. II.]
+
 ## PROP. II.
 
 [Diagram: triangle ABC, with D on AB and E on AC, horizontal DE, and intersecting lines BE and DC]

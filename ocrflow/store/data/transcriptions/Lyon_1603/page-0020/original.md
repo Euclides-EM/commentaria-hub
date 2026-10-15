@@ -1,11 +1,15 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 3 -->
 
+[Curated heading level=2 type=propositions: PROP. XXXII.]
+
 ## PROP. XXXII.
 
 [Diagram: triangle BCD on baseline BCE, with line CF]
 
 Sit BCD triangulum æquilaterum, quilibet ergo angulus 60. Grad. erit, ergo DCE externus 120. Gr. erit æqualis B & D ſimul ſumptis, ſibique oppoſitis.
+
+[Curated heading level=2 type=propositions: PROP. XXXIV.]
 
 ## PROP. XXXIV.
 
@@ -16,6 +20,8 @@ Sit BC 20 ⓪ æqualis DE, ſit vero BD 15 ⓪ æqualis CE. diameter BE 25 ⓪. 
 [Margin]
 1. lem.
 [/Margin]
+
+[Curated heading level=2 type=propositions: PROP. XXXV.]
 
 ## PROP. XXXV.
 

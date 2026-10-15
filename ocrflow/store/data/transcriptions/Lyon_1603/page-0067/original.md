@@ -3,6 +3,8 @@
 
 tam ſunt multiplices numerorum ABC ſimul ſumptorum, quam eſt multiplex D ipſius A, vel E ipſius B, vel F ipſius C. Recipit enim 36 novenarium quater, quoties & 8 binarium.
 
+[Curated heading level=2 type=propositions: PROP. II.]
+
 ## PROP. II.
 
 [Calculation]
@@ -13,6 +15,8 @@ tam ſunt multiplices numerorum ABC ſimul ſumptorum, quam eſt multiplex D ip�
 
 Sit primus numerus A tam multiplex ſecundi B, quam eſt C tertius, multiplex quarti D, hoc eſt utrumque uterque bis contineat. Sit etiam quintus E tam multiplex ſecundi B, quam eſt F ſextus ipſius quinti D, id eſt uterque utrumque quinquies recipiat. Primus & quintus compoſiti, toties ſecundum continebunt, quoties ſextus & tertius additi, quartum. 14 namque in ſe 2 recipit ſepties, toties & 21 tria.
 
+[Curated heading level=2 type=propositions: PROP. III.]
+
 ## PROP. III.
 
 [Calculation]
@@ -22,6 +26,8 @@ Sit primus numerus A tam multiplex ſecundi B, quam eſt C tertius, multiplex qu
 [/Calculation]
 
 Primus numerus A tam ſit multiplex ſecundi B, quam tertius C quarti D, uterque utrumque ter contineat. Primo & tertio æquemultiplicibus E, F, ſumptis, tam eſt E ipſius B multiplex, quam F ipſius D. uterque namque utrumque 12. ies continet.
+
+[Curated heading level=2 type=propositions: PROP. IV.]
 
 ## PROP. IV.
 

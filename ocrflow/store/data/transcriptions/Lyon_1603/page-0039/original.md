@@ -1,6 +1,8 @@
 <!-- Page number: 22 -->
 <!-- Running title: EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: PROP. XIV.]
+
 ## PROP. XIV.
 
 [Subhead]

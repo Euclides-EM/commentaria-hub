@@ -8,7 +8,7 @@
 prioribus ſex Elementorum libris comprehenſam
 [/Subhead]
 
-## Demonſtratio Numeralis.
+**Demonſtratio Numeralis.**
 
 [Subhead]
 AD CHRISTIANVM FRIIS Cancellarium Regium.
@@ -16,7 +16,7 @@ AD CHRISTIANVM FRIIS Cancellarium Regium.
 
 [Illustration: printer’s device depicting a domed building within a wreath, surrounded by the motto “Mathematica non à mole ſed quantitate operis, non à multitudine ſed facilitate demonſtrationum commendari ſolent.”]
 
-## LVGDVNI BATAVORVM,
+**LVGDVNI BATAVORVM,**
 
 Ex Typographêio Chriſtophori Guyotij.
 

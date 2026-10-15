@@ -1,11 +1,15 @@
 <!-- Page number: 14 -->
 <!-- Running title: EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: PROP. III.]
+
 ## PROP. III.
 
 [Diagram: rectangle divided by a vertical line, labelled G, E, F above and C, D, B below]
 
 Diviſus ſit quicunque numerus, ut 10 in partes quaſcunque duas, ut 8 & 2: dico numerum 80 ex 10 in 8 productum, æqualem eſſe 16, qui ex 8 in 2 producitur, una cum 64 quadrato prioris partis 8, ut perſpicuum eſt. Pari ratione erit numerus 20, natus ex 10 in 2 æqualis numero 16 ex 2 in 8 procreato, ſimul cum, 4 quadrato prædicti numeri 2: quod res ipſa indicat.
+
+[Curated heading level=2 type=propositions: PROP. IV.]
 
 ## PROP. IV.
 

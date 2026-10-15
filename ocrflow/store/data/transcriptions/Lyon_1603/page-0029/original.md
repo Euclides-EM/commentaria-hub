@@ -5,7 +5,7 @@
 
 Suppoſitis ijſdem numeris, pro BCD trianguli lateribus. Compoſita FC, CD, tota FD erit 52, cuius quadratum cum quadrato de FE compoſitum radice extracta habebitur DE √3897 quæ æqualis oſtenſa eſt CK; eadem ratione BH √2826 erit, æqualis CL ut oſtendimus. Calculo facto, erit BED triangulum BKC 648 triangulo æquale, quodlibet ſubduplum ſui quadrati, ſui parallelogrammi. Quadratum ergo CE 1296 parallelogrammo NK æquale erit. Idem fit in triangulis BDH, CDL.
 
-## Calculus trianguli BDE.
+### Calculus trianguli BDE.
 
 [Calculation]
 BD  39                         √974 ¼ + 1½
@@ -22,7 +22,7 @@ ED  √3897                      ───────────
  432                           6 | 4 | 8 |  area BDE
 [/Calculation]
 
-## Calculus trianguli BDH.
+### Calculus trianguli BDH.
 
 [Calculation]
 BD  39                         √706½ + 12

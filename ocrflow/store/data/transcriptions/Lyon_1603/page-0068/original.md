@@ -29,6 +29,8 @@ Quoniam ergo tam multiplex eſt E primus ipſius A ſecundi, quam F tertius ipſ
 
 Et quia ponitur ratio A ad B, quæ C ad D: oſtenſique I, K, æquemultiplices A, C, item L, M, æquemultiplices B, D. Fit, ut ſi I multiplex primi excedit L multiplicem ſecundi, etiam K multiplex tertij neceſſario excedat M multiplicem quarti. Et ſi I æqualis ſit L, etiam K ipſi M. Et ſi I deficiat ab L, etiam K ab M. Idemque oſtendetur in quibuscunque æquemultiplicibus numerorum E & F; necnon numerorum G & H. Erit ergo ut E primus ad G ſecundum, ita F tertius ad H quartum. Si primus igitur.
 
+[Curated heading level=2 type=propositions: PROP. V.]
+
 ## PROP. V.
 
 [Calculation]
@@ -38,6 +40,8 @@ F.2 │ B.6  │ D.4
 [/Calculation]
 
 Sit ita multiplex totus A totius B ut eſt multiplex C ablatus, ablati D: etiam reliquus E ita eſt multiplex reliqui F, ut totus A totius B. Cum enim 12 in ſe 6 bis recipiat, & 8 à 12 ablatus in ſe 4 à 6 ablatum toties comprehendat: etiam 4 reliquus ex ablatione 8 à 12, reliquum 2 ex ſubductione 4 à 6 bis in ſe continebit, ut manifeſte apparet.
+
+[Curated heading level=2 type=propositions: PROP. VI.]
 
 ## PROP. VI.
 

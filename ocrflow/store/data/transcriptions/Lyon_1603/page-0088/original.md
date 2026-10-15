@@ -43,6 +43,8 @@ Sit ut antea BC 28, EC 14. Ergo AF √588 erit, & FG √147. HM itaque √261⅓
 2. Lemma.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. XXVIII.]
+
 ## PROP. XXVIII.
 
 [Diagram: subdivided rectangle labelled A, B, E, F, G, H, I, K, L, M, N and O, with diagonal FB; triangle C with sides 13 and 15 and base 14, adjoining rectangle D with sides 5 and 7]

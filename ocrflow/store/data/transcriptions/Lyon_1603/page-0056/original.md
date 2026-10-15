@@ -19,6 +19,8 @@ thodus κατ’ ἐπιστημονικὸν λόγον inveſtigandi proportio
 In libro de circulo belgice edito, Cap. XI.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. X.]
+
 ## PROP. X.
 
 [Diagram: two intersecting circles with points A, B, C, D and E]

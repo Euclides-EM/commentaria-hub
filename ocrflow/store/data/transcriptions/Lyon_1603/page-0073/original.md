@@ -21,6 +21,8 @@ Et ut C ad B ita F ad E. Maior igitur ratio D ad E quam F ad E.
 
 Quare D quam F maior erit. Et ſi A æqualis C fuerit, etiam D æqualis F erit. Quod ſi A minor C fuerit, etiam D minor F erit.
 
+[Curated heading level=2 type=propositions: PROP. XXI.]
+
 ## PROP. XXI.
 
 | A. | B. | C. | D. | E. | F. |
@@ -48,6 +50,8 @@ Quia vero ut B ad C, ita D ad E; erit conuertendo, ut C ad B, ita E ad D. Quare 
 [/Margin]
 
 ideoque maior D quam F. Et ſi A æqualis C fuerit, etiam D æqualis F erit. Quod ſi A minor fuerit, etiam D minor F erit.
+
+[Curated heading level=2 type=propositions: PROP. XXII.]
 
 ## PROP. XXII.
 

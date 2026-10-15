@@ -1,6 +1,8 @@
 <!-- Running title: LIBER VI. -->
 <!-- Page number: 61 -->
 
+[Curated heading level=2 type=propositions: PROP. VIII.]
+
 ## PROP. VIII.
 
 [Diagram: triangle ACB with D on CB, joined by AD]
@@ -21,11 +23,15 @@ Vel ut CA ad AB, ita CD ad DA. Et ut CB ad BA ita CA ad AD.
 
 Erit itaque C 53. Grad. 8. Min. æqualis DAB angulo, & B 36. Grad. 52. Min. æqualis CAD angulo.
 
+[Curated heading level=2 type=propositions: PROP. IX.]
+
 ## PROP. IX.
 
 [Diagram: triangle ACB with D and E on AC, F on AB, joined by DF]
 
 Sit CA 18 ⊙ AB 15 ⊙ AD 6 ⊙. Vt ergo AC ad DA ita BA ad FA 5 ⊙.
+
+[Curated heading level=2 type=propositions: PROP. X.]
 
 ## PROP. X.
 
@@ -33,11 +39,15 @@ Sit CA 18 ⊙ AB 15 ⊙ AD 6 ⊙. Vt ergo AC ad DA ita BA ad FA 5 ⊙.
 
 Eadem via partes inſectæ per ſectam invenivntur, ut in præcedenti.
 
+[Curated heading level=2 type=propositions: PROP. XI.]
+
 ## PROP. XI.
 
 [Diagram: triangle AED with C on AE and B on AD, joined by CB]
 
 AB 8 ⊙ ſit, AC 6 ⊙. æqualis BD. ut AB ad BD ita AC ad CE 4 ⊙ 5 ①.
+
+[Curated heading level=2 type=propositions: PROP. XII.]
 
 ## PROP. XII.
 

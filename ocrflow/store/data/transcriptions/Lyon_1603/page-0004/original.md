@@ -1,8 +1,4 @@
-[Subhead]
-Ampliſſimo, Nobiliſſimo Clariſſimoque viro
-[/Subhead]
-
-# CHRISTIANO FRIIS
+# Ampliſſimo, Nobiliſſimo Clariſſimoque viro CHRISTIANO FRIIS
 
 [Subhead]
 Sereniſſimi CHRISTIANI QVARTI Daniæ, Norvegiæ, &c. REGIS Cancelario Magnifico, BORREBYS TOPARCHÆ: Almæ Hafnienſis Academiæ, Conſervatori ſummo, Domino ſuo reverenter colendo.

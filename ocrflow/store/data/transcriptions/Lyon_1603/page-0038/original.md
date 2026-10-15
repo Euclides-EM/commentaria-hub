@@ -3,6 +3,8 @@
 
 ficilis erit perpendicularis inventio, ablato enim quadrato de CE à 47. primi. quadrato de CD, perpendicularis DE erit √924.
 
+[Curated heading level=2 type=propositions: PROP. XIII.]
+
 ## PROP. XIII.
 
 [Diagram: geometrical construction labelled B, C, D, E, F, G, H, K, L and M]

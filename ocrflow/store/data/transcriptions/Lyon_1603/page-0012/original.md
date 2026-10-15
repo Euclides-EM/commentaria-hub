@@ -2,7 +2,10 @@ ctore eijcere tentavimus, ſed Negligentiam quæ torpor quidam eſt animi, deler
 
 M. T. Ad CHRISTOPHORVS DIBVADIVS, *Doctor Medicus & Mathematicus.*
 
-## IN CL. V. CHRISTOPHORI DIBVADII *Zelando-Dani* Demonſtrationem EVCLIDIS Numeralem.
+# IN CL. V. CHRISTOPHORI DIBVADII
+[Subhead]
+*Zelando-Dani* Demonſtrationem EVCLIDIS Numeralem.
+[/Subhead]
 
 {dropcap:S|lines=2|style=plain}CIENTIARVM *nulla in orbe eſt certior, Quàm quæ profeſſa nomen eſt Matheſeos. Huiuſce certitudinem ſi quis volet Et Veritatem Scepticus convellere; A lineis numeriſque demonſtratio eſt*
 

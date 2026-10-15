@@ -16,11 +16,15 @@ ita ut ſit 77 ad 35 ſicut 11 ad 5, & 35 ad 55 & 7 ad 11. Et quia 77 ad 55 comp
 23. Sexti.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. XXIV.]
+
 ## PROP. XXIV.
 
 [Diagram: rectangle subdivided by a vertical and a horizontal line, with diagonal CI, labelled A, B, C, D, E, F, G, H and I]
 
 Sit CA 12, AB 10, CE 9. Vt CA ad AB ita CE ad EI 7 ¹⁄₂. Et ut AB ad BD ita EI ad IG. Et ut BH ad HI ita IE ad EC; & ut BF ad FI, ita IG ad GC.
+
+[Curated heading level=2 type=propositions: PROP. XXV.]
 
 ## PROP. XXV.
 

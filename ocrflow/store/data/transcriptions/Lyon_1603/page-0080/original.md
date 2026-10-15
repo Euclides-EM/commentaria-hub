@@ -1,11 +1,15 @@
 <!-- Running title: LIBER VI. -->
 <!-- Page number: 63 -->
 
+[Curated heading level=2 type=propositions: PROP. XVII.]
+
 ## PROP. XVII.
 
 [Diagram: adjoining rectangles labelled A, B, C and D]
 
 Sit A 32 ⊙ B 8 ⊙ æqualis C ergo D 2 ⊙. Quadratum CB 64 ⊙ æquale eſt rectangulo AD.
+
+[Curated heading level=2 type=propositions: PROP. XVIII.]
 
 ## PROP. XVIII.
 
@@ -16,6 +20,8 @@ Sit A 32 ⊙ B 8 ⊙ æqualis C ergo D 2 ⊙. Quadratum CB 64 ⊙ æquale eſt r
 [/Margin]
 
 Sit CD 5 ⊙ DF 7 ⊙ EF 8 ⊙ ergo cum CDE, DFE anguli recti ſint, erit ED 10 ⊙ 6301 ⊕ ſive √113. EC 7 ⊙ 2801 ⊕ ſive √53. Sit & AB 7 ⊙. Vt ergo CD ad AB ita DF ad BH 9 ⊙ 5 ①. Et ut DF ad FE ita BH ad HG 10 ⊙ 8571 ⊕ & ut CD ad CE ita AB ad AG 10 ⊙ 192 ③.
+
+[Curated heading level=2 type=propositions: PROP. XIX.]
 
 ## PROP. XIX.
 

@@ -15,6 +15,8 @@ Ex Ludolpho XLVIII goni √.64 + √3072 + √.3456 + √3200 − 2
                        √24 + √8 − 4 + √12.
 [/Calculation]
 
+[Curated heading level=2 type=propositions: PROP. XVI.]
+
 ## PROP. XVI.
 
 [Diagram: circle with vertical diameter PQ, horizontal chord BC, and lines and perpendiculars labelled A, D, E, F, G, H and I]

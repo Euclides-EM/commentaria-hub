@@ -1,10 +1,11 @@
 <!-- Page number: I -->
 
 # EVCLIDIS ELEMENTORVM
+# PRIMVS.
 
-[Subhead]
-PRIMVS.
-[/Subhead]
+[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM PRIMVS.]
+
+[Curated heading level=2 type=propositions: PROP. V.]
 
 ## PROP. V.
 
@@ -20,6 +21,8 @@ per 3. Trigon. Pitiſ.
 15. prim.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. VI.]
+
 ## PROP. VI.
 
 [Diagram: triangle labelled B, C, D and E]
@@ -30,11 +33,15 @@ Ad C ſive D angulus 70. Grad. 32. Min. CD 8. dantur. Crus quodlibet 12. erit.
 3. Trigon. Pitiſci.
 [/Margin]
 
+[Curated heading level=2 type=propositions: PROP. XVI.]
+
 ## PROP. XVI.
 
 [Diagram: intersecting lines with points labelled B, C, D, G, H and K]
 
 Datur triangulum BCD æquilaterum, & latus 8. Ergo & anguli, quilibet 60. Grad. BDG itaque 120. utrolibet interno maior eſt.
+
+[Curated heading level=2 type=propositions: PROP. XVII.]
 
 ## PROP. XVII.
 
