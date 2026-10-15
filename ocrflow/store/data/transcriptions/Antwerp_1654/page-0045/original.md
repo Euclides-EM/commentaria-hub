@@ -15,8 +15,6 @@ Eius loco alia duo ſequentia ſubſtituo, quorum veritas ex definitione paralle
 
 [Curated heading level=2 type=axioms: Lib. I, Ax. 11]
 
-[Curated heading level=3 type=numbered_item: 11.]
-
 11. Parallelæ lineæ communi perpendiculo vtuntur.
 
 [Curated heading level=2 type=figures: Fig. 21]
@@ -29,21 +27,15 @@ Fig.21.
 
 [Curated heading level=2 type=axioms: Lib. I, Ax. 12]
 
-[Curated heading level=3 type=numbered_item: 12.]
-
 12. Perpendicula bina (L O, Q I) ex parallelis æquales vtrimque intercipiunt partes (L I, O Q.)
 
 [Curated heading level=2 type=axioms: Lib. I, Ax. 13]
-
-[Curated heading level=3 type=numbered_item: 13.]
 
 13. Duæ rectæ lineæ ſpatium non comprehendunt.
 
 Ad hoc ſiquidem opus eſt ad minimum tribus.
 
 [Curated heading level=2 type=axioms: Lib. I, Ax. 14]
-
-[Curated heading level=3 type=numbered_item: 14.]
 
 [Curated heading level=2 type=figures: Fig. 22]
 

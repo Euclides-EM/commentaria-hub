@@ -1,21 +1,15 @@
 <!-- Page number: 2 -->
 <!-- Running title: Das erſt buͦch Euclidis -->
 
-[Curated heading level=3 type=numbered_item: 7.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 7.]
 
 7. Vnd ſo diſes eckh oder winckel von zwo rechten oder geſtrackhē linien wirtt eingeſchloſſen / nennt mans ein Rechtliniſchen winckel.
 
 [Diagram: two angle figures labelled 7 7 and .7.6, a right angle labelled 9, and lines with angles labelled 8 8 10 11]
 
-[Curated heading level=3 type=numbered_item: 8.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 8.]
 
 8. Wann ein rechte linj auff einer anderen rechten linien ſteht / vnd die eckh oder winckel nach einander zuͦ baiden ſeitten gleich macht / ſo werden diſe eckh oder winckel Baide gerecht oder Winckelmeſſig genent.
-
-[Curated heading level=3 type=numbered_item: 9.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 9.]
 
@@ -27,8 +21,6 @@
 Obtuſus.
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 10.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 10.]
 
 10. Ain winckel / ſo groͤſſer iſt dann ein gerechter / den haͤißt man Weyt.
@@ -38,8 +30,6 @@ Obtuſus.
 [Margin]
 Acutus.
 [/Margin]
-
-[Curated heading level=3 type=numbered_item: 11.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 11.]
 
@@ -51,21 +41,15 @@ Acutus.
 Terminus.
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 12.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 12.]
 
 12. Das wirt ein End gehaiſſen / darmit ſich etwas endet / oder darmit etwas beſchloſſen wirt.
 
 Alß die auſſerſten puncten an den linien / vnnd die linien darmit die flechin beſchloſſen werden.
 
-[Curated heading level=3 type=numbered_item: 13.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 13.]
 
 13. Ain figur iſt / welche mit ainem oder mehr Enden eingeſchloſſen wirdt.
-
-[Curated heading level=3 type=numbered_item: 14.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 14.]
 
@@ -73,15 +57,11 @@ Alß die auſſerſten puncten an den linien / vnnd die linien darmit die flechi
 
 [Diagram: a triangle and a circle with radii, labelled 14 and 15]
 
-[Curated heading level=3 type=numbered_item: 15.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 15.]
 
 15. Der ſelbig punct haißt des zirckels Centrum / das iſt / Mitte.
 
 [Diagram: a square labelled 15]
-
-[Curated heading level=3 type=numbered_item: 16.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 16.]
 
@@ -89,15 +69,11 @@ Alß die auſſerſten puncten an den linien / vnnd die linien darmit die flechi
 
 [Diagram: a circle with a diameter, labelled 16 and 17]
 
-[Curated heading level=3 type=numbered_item: 17.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 17.]
 
 17. Ain halber zirckel / iſt die figur / welche begriffen wirt von dem diametro des zirckels / vnd dem halben thail der circumferentz / ſo durch den diametrum abgeſchnitten.
 
 [Diagram: a half circle and an angular figure, labelled 17]
-
-[Curated heading level=3 type=numbered_item: 18.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 18.]
 

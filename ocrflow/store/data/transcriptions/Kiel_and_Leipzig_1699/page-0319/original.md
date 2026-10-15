@@ -27,19 +27,13 @@ Wenn man derowegen zu zwo ungleichen Grössen zwey gleiche Stücke thut / so wer
 
 [Curated heading level=2 type=definitions: Beschreibung I.]
 
-[Curated heading level=3 type=numbered_item: I.]
-
 I. Gleichähnliche geradstrichichte ( Similes rectilineæ ) Gestalte sind / welche gleichmässige Winckel und ebenmässige Seiten haben.
 
 [Curated heading level=2 type=definitions: Beschreibung II.]
 
-[Curated heading level=3 type=numbered_item: II.]
-
 II. Wechselmässige (Reciprocæ) Gestalte sind / in welchen beyderseits vor- und nachgehende ebenmässige Striche sich befinden.
 
 [Curated heading level=2 type=definitions: Beschreibung III.]
-
-[Curated heading level=3 type=numbered_item: III.]
 
 III. Ein nach der äusersten und mittelsten Verhältnüß (secundùm mediam & extremam rationem) getheilter Strich wird genennet / welcher sich zu seinem grösseren Stück also / wie solch grössestes Stück zu dem kleinern / verhält.
 

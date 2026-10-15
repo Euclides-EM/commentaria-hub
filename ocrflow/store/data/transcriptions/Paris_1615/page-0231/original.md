@@ -4,13 +4,9 @@
 
 [Curated heading level=2 type=definitions: 19.]
 
-[Curated heading level=3 type=numbered_item: 19.]
-
 19. Nombre cube, eſt celuy qui eſt egalement egal: ou bien c’eſt le produit de trois nõbres egaux.
 
 [Curated heading level=2 type=definitions: 20.]
-
-[Curated heading level=3 type=numbered_item: 20.]
 
 20. Les nombres ſont proportionnaux, lors que le premier eſt autant multiplice, ou meſme partie, ou meſmes parties du ſecond, com me le troiſieſme du quatrieſme.
 

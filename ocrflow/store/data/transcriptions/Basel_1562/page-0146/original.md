@@ -1,8 +1,6 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 125 -->
 
-[Curated heading level=3 type=numbered_item: 7.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 7.]
 
 7 Welche zalen gleichförmige / das iſt aines namens proportion haben / nennen wir proportionierte zalen:das iſt / inn denen ain proportionalitet oder vergleichung der proportz ſich befindet.
@@ -10,8 +8,6 @@
 #### Erklärung.
 
 Ich hab hie / vnd härnach mit fleiß auff die zalen (als die maß aller proportz) gezogen von beſſers verſtand wegen / was Euclides in gmain von quantiteten ſagt / daruon nun offt vrſach angezeigt. Proportioniert zalen / ſeind inn oberen exempeln gnüg geſetzt / folgt wie man ſolche gleichförmigkait finden oder erkennen ſoll.
-
-[Curated heading level=3 type=numbered_item: 8.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 8.]
 

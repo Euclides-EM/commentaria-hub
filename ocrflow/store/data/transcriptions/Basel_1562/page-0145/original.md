@@ -1,13 +1,9 @@
 <!-- Running title: Des fünfft bůchs Euclidis -->
 <!-- Page number: 124 -->
 
-[Curated heading level=3 type=numbered_item: 5.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 5.]
 
 5 Vergleichung der proportion / wirt proportionalitet genant.
-
-[Curated heading level=3 type=numbered_item: 6.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 6.]
 

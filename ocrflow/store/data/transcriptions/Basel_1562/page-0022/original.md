@@ -22,8 +22,6 @@ Erklaͤrung ettlicher woͤrttlin / ſo in diſem buͦch begegnen.
 Definitiones.
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 [Curated heading level=1 type=definitions: Das erſt buͦch Euclidis]
 
 [Curated heading level=2 type=definitions: Beſchreibung 1.]
@@ -32,15 +30,11 @@ Definitiones.
 
 Der punct iſt ein anfang aller groͤſſen oder quantitet / yedoch er ſelbſt iſt khain groͤſſe. Darum mag er auch nit gethailt werden. Alſo iſt 1.(wie im vij.Euclidis volgt) khain zall / dan 1. multipliciert / vnd diuidiert nit / ⁊c. aber iſt ein vrſprung aller zalen.
 
-[Curated heading level=3 type=numbered_item: 2.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 2.]
 
 2. Ain linj iſt ain lenge / on alle breitte / welche ſich an einem puncten anfacht / vn̄ an einem puncten endet.
 
 [Diagram: a straight horizontal line and a curved line]
-
-[Curated heading level=3 type=numbered_item: 3.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 3.]
 
@@ -56,13 +50,9 @@ Dann die khrum̄en oder gebognē linien / ſchwingen ſich überſich oder vnder
 Superficies
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 4.]
 
 4. Ain fleche wirt genent / waß allain ain lenge vnnd braitte hatt / vnd wirt mit linien eingeſchloſſen.
-
-[Curated heading level=3 type=numbered_item: 5.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 5.]
 
@@ -71,8 +61,6 @@ Superficies
 [Diagram: a circle labelled 4.5., a triangle labelled 4.5. and a square labelled 4.5.]
 
 Hiemit werdē außgeſchloſſen die khrum̄e vn̄ gebogne flechinen / als die ſeind an kuglen / ſeulen / ⁊c.
-
-[Curated heading level=3 type=numbered_item: 6.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 6.]
 

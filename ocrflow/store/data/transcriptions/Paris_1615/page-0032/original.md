@@ -4,20 +4,14 @@ l’autre, celle qui eſt poſee deſſus s’adjuſte à toute l’autre, tell
 
 [Curated heading level=2 type=axioms: 9.]
 
-[Curated heading level=3 type=numbered_item: 9.]
-
 9. Le tout eſt plus grand que ſa partie.
 
 [Curated heading level=2 type=axioms: 10.]
-
-[Curated heading level=3 type=numbered_item: 10.]
 
 10. Tous les angles droicts ſont egaux entreeux.
 
 De ce principe, nous pouuons conuertir & prendre pour maxime, que tout angle rectiligne egal à vn angle droict, eſt auſſi droict.
 
 [Curated heading level=2 type=axioms: 11.]
-
-[Curated heading level=3 type=numbered_item: 11.]
 
 11. Si vne ligne droicte tombant ſur deux

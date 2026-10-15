@@ -6,19 +6,13 @@ Tout ainſi que ceſte ligne là, laquelle eſt co gnuë & determinee de certa
 
 [Curated heading level=2 type=definitions: 9.]
 
-[Curated heading level=3 type=numbered_item: 9.]
-
 9. Les figures commenſurables au quarré rationel, ſont auſſi rationeles.
 
 [Curated heading level=2 type=definitions: 10.]
 
-[Curated heading level=3 type=numbered_item: 10.]
-
 10 Et celles qui ſont incommenſurables au quarré rationel, ſont irrationeles & ſourdes.
 
 [Curated heading level=2 type=definitions: 11.]
-
-[Curated heading level=3 type=numbered_item: 11.]
 
 11. Et les lignes qui peuuent icelles figures irrationeles, ſont irrationeles & ſourdes.
 

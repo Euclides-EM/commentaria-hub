@@ -1,8 +1,6 @@
 <!-- Running title: Proposition/oder Schlußreden. -->
 <!-- Page number: 131 -->
 
-[Curated heading level=3 type=numbered_item: 14.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 14.]
 
 14 Umbkerung der proportion haiſſet / ſo mann die volgenden / an ſtatt der vorgenden vmb härgegen nim̃ett.
@@ -16,8 +14,6 @@
 #### Als im vorigen exempel.
 
 [Diagram: At left, “6 gegen 8. / wie / 9 gegen 12.” above “vorg” and “volgendt”; a vertical line separates “Derhalben auch” from “8 gegen 6 / wie / 12 gegen 9” at right.]
-
-[Curated heading level=3 type=numbered_item: 15.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 15.]
 
@@ -36,8 +32,6 @@ Demnach auch
 14 gegen 8/wie 21 gegen 12.
 [/Calculation]
 
-[Curated heading level=3 type=numbered_item: 16.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 16.]
 
 16 Zertailung der proportion iſt / ſo man den yberſchuß der vorgenden yber die folgend (oder härgegen) gegen der volgenden bayder tails ſchetzett. Als /
@@ -49,8 +43,6 @@ Demnach auch
 [/Margin]
 
 [Diagram: “6 gegen 8/wie 9 gegen 12.” with lower brackets under the paired numbers, labelled “2” and “3”; below, “Derhalben haltet ſich auch / 2 gegen 8/wie 3 gegen 12.”]
-
-[Curated heading level=3 type=numbered_item: 17.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 17.]
 

@@ -7,8 +7,6 @@ Cum antecedens & conſequens ſunt æquales, proportio æqualitatis dicitur, cum
 
 [Curated heading level=2 type=definitions: Lib. V, Def. 4]
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 4. Ratio ſeu proportio rationalis eſt, quæ exiſtit inter magnitudines commenſurabiles, & numeris exprimi poteſt. Proportio irrationalis eſt, quæ exiſtit inter magnitudines incommenſurabiles, & nullis numeris explicari poteſt.
 
 Porro commenſurabiles quantitates ſunt, quas aliqua communis menſura metitur; incommenſurabiles quas nulla metitur menſura communis.
@@ -18,8 +16,6 @@ Fig.1.l.3. tabulâ 3.
 [/Margin]
 
 [Curated heading level=2 type=definitions: Lib. V, Def. 5]
-
-[Curated heading level=3 type=numbered_item: 5.]
 
 [Curated heading level=1 type=figures: Liber V]
 
@@ -40,8 +36,6 @@ Fig.3.
 [/Margin]
 
 [Curated heading level=2 type=definitions: Lib. V, Def. 6]
-
-[Curated heading level=3 type=numbered_item: 6.]
 
 [Curated heading level=2 type=figures: Fig. 4]
 

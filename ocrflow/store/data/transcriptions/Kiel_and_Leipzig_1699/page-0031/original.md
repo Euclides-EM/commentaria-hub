@@ -8,13 +8,9 @@
 
 [Curated heading level=2 type=axioms: Grund-Satz X.]
 
-[Curated heading level=3 type=numbered_item: X.]
-
 X. Alle rechte Winckel sind einander gleich/ oder sind gleich groß.
 
 [Curated heading level=2 type=axioms: Grund-Satz XI.]
-
-[Curated heading level=3 type=numbered_item: XI.]
 
 XI. Wenn durch zween gerade bey einander stehende Striche ein anderer Strich durchgehet/ und zween inwendige auff einer Seite stehende Winckel kleiner machet/ als zweene rechte Winckel / so werden die beeden Striche / wenn sie zu beeden Seiten verlängert werden / auff der Seite / wo die kleinere Winckel sind / endlich zusammen lauffen.
 
@@ -23,8 +19,6 @@ XI. Wenn durch zween gerade bey einander stehende Striche ein anderer Strich dur
 (r) Hier ist zu mercken/ daß dieses kein rechter Grundsatz sey / weil er / wie hernach bey dem XXIX. Vortrag wird geschehen / kan bewiesen werden.
 
 [Curated heading level=2 type=axioms: Grund-Satz XII.]
-
-[Curated heading level=3 type=numbered_item: XII.]
 
 XII. Zweene gerade Züge oder Striche können keine Gestalt einschliessen/ oder geschlossene Gestalt vorstellen.
 

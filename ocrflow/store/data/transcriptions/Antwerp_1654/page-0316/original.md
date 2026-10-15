@@ -21,25 +21,17 @@ Fig. 23. tab. 6. ex Archim.
 
 [Curated heading level=2 type=definitions: Archim., Def. 1]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 1. Sector ſphæræ eſt, qui à ſectore circulari A E C G ſeu A E B G, circa diametrum B C in orbem acto, producitur.
 
 [Curated heading level=2 type=definitions: Archim., Def. 2]
-
-[Curated heading level=3 type=numbered_item: 2.]
 
 2. Segmentum ſeu portio ſphæræ, eſt quę à circulari ſegmento E C G, ſeu E B G, circa eandem diametrum B C in orbem acto, deſcribitur.
 
 [Curated heading level=2 type=definitions: Archim., Def. 3]
 
-[Curated heading level=3 type=numbered_item: 3.]
-
 3. Portionis ſphæricę (E B G) vertex eſt diametri immobilis extremitas B: Baſis eſt circulus à rectâ E G deſcriptus: Axis eſt diametri pars B D inter verticem B, & D centrum baſeos intercepta.
 
 [Curated heading level=2 type=definitions: Archim., Def. 4]
-
-[Curated heading level=3 type=numbered_item: 4.]
 
 4. Cum ſphæricæ portionis aut corporis ei inſcripti, aut coni ſuperficiem nomino, ſemper intelligo abſque baſi; & dum cylindri ſuperficiem dico intelligo ſimiliter abſque baſibus; niſi adiungatur (tota) tunc enim accipiuntur & baſes.
 

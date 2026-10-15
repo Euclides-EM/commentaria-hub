@@ -3,13 +3,9 @@
 
 ſchriben / wann des zirckels vmbkraiß alle ſeitten der rechtliniſchen figur berüert.
 
-[Curated heading level=3 type=numbered_item: 6.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 6.]
 
 6 Ain zirckel wirt vmb ain rechtliniſche figur beſchriben / wan ſein vmbkhraiß alle winckell der rechtliniſchen figur berüert.
-
-[Curated heading level=3 type=numbered_item: 7.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 7.]
 

@@ -18,8 +18,6 @@ Notandum.
 
 ¶Ἐν τῷ αὐτῷ λόγῳ μεγέθη λέγεται εἶναι, πρῶτον πρὸς δεύτερον, καὶ τρίτον πρὸς τέταρτον, ὅταν τὰ τοῦ πρώτου καὶ τρίτου ἰσάκις πολλαπλάσια, τῶν τοῦ δευτέρου καὶ τετάρτου ἰσάκις πολλαπλασίων, καθ᾽ ὁποιονοῦν πολλαπλασιασμὸν ἑκάτερον ἑκατέρου, ἢ ἅμα ἐλλείπῃ, ἢ ἅμα ἴσα ᾖ, ἢ ἅμα ὑπερέχῃ ληφθέντα κατάλληλα.
 
-[Curated heading level=3 type=numbered_item: 6.]
-
 [Curated heading level=2 type=definitions: Diffinitio 6.]
 
 6 In eadē ratione magnitudines dicūtur esse, prima ad secundā & tertia ad quartā: quādo primę & tertię ęquè multiplicia, secūdę & quartę æquè multiplicia, iuxta quáuis multiplicationē vtráq; vtráq; vel vnà excedūt, vel vnà æquales sunt, vel vnà deficiūt sūptæ adinuicē.

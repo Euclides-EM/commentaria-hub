@@ -15,8 +15,6 @@ Fig 1 & 16.
 
 [Curated heading level=2 type=axioms: Archim., Ax. 1]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 1. {dropcap:P|lines=2|style=plain}Olygoni circulo inſcripti ambitus minor eſt circuli peripheriâ.
 
 [Margin]
@@ -25,8 +23,6 @@ Fig. 1.
 
 [Curated heading level=2 type=axioms: Archim., Ax. 2]
 
-[Curated heading level=3 type=numbered_item: 2.]
-
 2. Polygoni circulo circumſcripti ambitus circuli peripheriâ maior eſt.
 
 [Margin]
@@ -34,8 +30,6 @@ Fig. 16.
 [/Margin]
 
 [Curated heading level=2 type=axioms: Archim., Ax. 3]
-
-[Curated heading level=3 type=numbered_item: 3.]
 
 [Curated heading level=2 type=figures: Fig. 17]
 
@@ -47,8 +41,6 @@ Fig. 17.
 
 [Curated heading level=2 type=axioms: Archim., Ax. 4]
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 [Curated heading level=2 type=figures: Fig. 3 & 6]
 
 4. Similiter ambitus polygoni inſcripti ſegmento circulari (D A F) minor eſt peripheriâ ſegmenti (D A F.) Et ſi polygonum ſegmento inſcriptum vna cum ſegmento, circa ſegmenti axem (A O) circumagatur, erit corporis à polygono geniti ſuperficies minor ſuperficie portionis ſphęricę (D AF.)
@@ -59,8 +51,6 @@ Fig 3. & 6.
 
 [Curated heading level=2 type=axioms: Archim., Ax. 5]
 
-[Curated heading level=3 type=numbered_item: 5.]
-
 [Curated heading level=2 type=figures: Fig. 4 & 8]
 
 5. Superficies priſmatis cylindro inſcripti minor eſt cylindri ſuperficie; circumſcripti verò maior.
@@ -70,8 +60,6 @@ Fig. 4. & 8.
 [/Margin]
 
 [Curated heading level=2 type=axioms: Archim., Ax. 6]
-
-[Curated heading level=3 type=numbered_item: 6.]
 
 6. Et ſuperficies pyramidis cono inſcriptę minor eſt coni ſuperficie; circumſcriptæ autem maior.
 

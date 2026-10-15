@@ -4,15 +4,11 @@
 
 [Curated heading level=2 type=definitions: Beschreibung III.]
 
-[Curated heading level=3 type=numbered_item: III.]
-
 III. Anrührende Kreyse sind / welche zwar an einander stossen / aber sich nicht durchschneiden.
 
 [Diagram: ein kleiner Kreis berührt von aussen einen grossen Kreis, in welchem ein weiterer Kreis von innen anrühret]
 
 [Curated heading level=2 type=definitions: Beschreibung IV.]
-
-[Curated heading level=3 type=numbered_item: IV.]
 
 IV. In einem Kreyß von dem Mitteldüpffel gleichabstehende Striche werden genennet / auff welche auß dem Mitteldüpffel gleichlange Senckstriche können gezogen werden: derjenige Strich aber / auff welchen ein längerer Senckstrich fället / ist am weitesten entfernet.
 
@@ -20,15 +16,11 @@ IV. In einem Kreyß von dem Mitteldüpffel gleichabstehende Striche werden genen
 
 [Curated heading level=2 type=definitions: Beschreibung V.]
 
-[Curated heading level=3 type=numbered_item: V.]
-
 V. Ein Kreyß-Stück (Segmentum) ist eine Gestalt / so von einem Bogen und geraden Strich eingeschlossen wird.
 
 [Diagram: ein Kreyß-Stück (Halbkreisförmige Gestalt)]
 
 [Curated heading level=2 type=definitions: Beschreibung VI.]
-
-[Curated heading level=3 type=numbered_item: VI.]
 
 VI. Ein Kreyßstücks-Winckel (segmenti angulus) wird von einem Bogen und von einem geraden Strich begriffen.
 

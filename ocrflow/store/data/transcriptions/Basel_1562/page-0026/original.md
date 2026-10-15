@@ -1,25 +1,17 @@
 <!-- Running title: Von dem anfang der Geometrj. -->
 <!-- Page number: 5 -->
 
-[Curated heading level=3 type=numbered_item: 3.]
-
 [Curated heading level=2 type=axioms: Communis noticia 3.]
 
 3. Auch ſo von gleichen dingen / gleiche hingenommen werden / bleibet alles das einander gleich / ſo nach ſolchem abnemen vberig iſt.
-
-[Curated heading level=3 type=numbered_item: 4.]
 
 [Curated heading level=2 type=axioms: Communis noticia 4.]
 
 4. So vngleichen dingen / gleiche zuͦgethan werden / wirdt das / ſo auß ſollichem zuͦſatz entſpringt / einander vngleich ſein.
 
-[Curated heading level=3 type=numbered_item: 5.]
-
 [Curated heading level=2 type=axioms: Communis noticia 5.]
 
 5. So von vngleichen dingen gleiche werden abgezogen / iſt das / ſo vberbleibt / einander vngleich.
-
-[Curated heading level=3 type=numbered_item: 6.]
 
 [Curated heading level=2 type=axioms: Communis noticia 6.]
 
@@ -27,33 +19,23 @@
 
 Alſo auch ſo ſy drej / vier / ⁊c. mal / oder ½. ¼ ⁊c. ſeind / Als im fünfften buͤch Euclidis woll zuͦ vernemmen.
 
-[Curated heading level=3 type=numbered_item: 7.]
-
 [Curated heading level=2 type=axioms: Communis noticia 7.]
 
 7. Auch ſo zwai ding baide der halb thail ains anderen ſeind / ſeind ſy einander gleich.
 
 Des iſt die 21 propoſ. deß dritten buͤchs ein fein exempel.
 
-[Curated heading level=3 type=numbered_item: 8.]
-
 [Curated heading level=2 type=axioms: Communis noticia 8.]
 
 8. Wan zwai ding ſich auffeinander reymen vnd ſchicken / dz iſt / ſo ſy auff einander gelegt werden / kains das ander vbertrifft / die ſelben zwai ding ſein eināder gleich.
-
-[Curated heading level=3 type=numbered_item: 9.]
 
 [Curated heading level=2 type=axioms: Communis noticia 9.]
 
 9. Das gantz iſt inn alweg gröſſer dan ſein tail.
 
-[Curated heading level=3 type=numbered_item: 10.]
-
 [Curated heading level=2 type=axioms: Communis noticia 10.]
 
 10. Alle gerechte winckel oder winckelmeſſige eckh / ſeind einander gleich.
-
-[Curated heading level=3 type=numbered_item: 11.]
 
 [Curated heading level=2 type=axioms: Communis noticia 11.]
 
@@ -62,8 +44,6 @@ Des iſt die 21 propoſ. deß dritten buͤchs ein fein exempel.
 [Diagram: two crossing straight lines labelled 11, a second pair of crossing lines labelled 11, and three small figures labelled 12: a lens-shaped figure, a half-lens figure and a triangle with a dotted base]
 
 Beſich vnden die 44. propoſ. ⁊c.
-
-[Curated heading level=3 type=numbered_item: 12.]
 
 [Curated heading level=2 type=axioms: Communis noticia 12.]
 

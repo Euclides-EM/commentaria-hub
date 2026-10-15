@@ -12,8 +12,6 @@ Que ſi au contraire d’icelle def: la multiplice de la premiere gradeur ne ſu
 
 [Curated heading level=2 type=definitions: 9.]
 
-[Curated heading level=3 type=numbered_item: 9.]
-
 9. Proportion ne peut eſtre conſtituee ſur moins de trois termes.
 
 Puis qu’il a eſté dit en la 3.def que raiſon eſt l’habitude de dei quantitez, & que proportion par la 4. def. eſt vne ſimilitude de deux ou pluſieurs raiſons: il s’enſuit qu’il n’y peut auoir moins de trois qantilez ou termes en one proportion ſi elle eſt praportion continués

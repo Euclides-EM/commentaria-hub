@@ -3,23 +3,17 @@
 
 der ſo von zwayen linien begriffen wirt / welche yede von ainem ortt der geſtrackhen linj außgezogen in ainen puncten der Circunferentz zůſamen fallen.
 
-[Curated heading level=3 type=numbered_item: 8.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 8.]
 
 8 So aber ſolche linien ain ſtuckh des vmbkraiß begreiffen / ſo ſteht auff ſolchem ſtuck des vmbkraiß der bemellte winckel.
 
 [Diagram]
 
-[Curated heading level=3 type=numbered_item: 9.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 9.]
 
 9 So ain winckel ſteht bei des zirckels centro / haißt die figur welche von den linien ſo diſen winckel beſchlieſſen / vnd dem ſtuckh der circunferentz darauff ſy ſtehn / ain tailer des zirckels.
 
 [Diagram]
-
-[Curated heading level=3 type=numbered_item: 10.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 10.]
 

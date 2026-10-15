@@ -8,8 +8,6 @@ in b,circum idem punctum a,completè reuoluatur: describens planum circulare b/c
 
 Ἐπίπεδος δὲ γωνία,ἐστὶν ἡ ἐν ἐπιπέδῳ δύο γραμμῶν ἁπτομένων ἀλλήλων, καὶ μὴ ἐπ᾽ εὐθείας κειμένων πρὸς ἀλλήλας τῶν γραμμῶν κλίσις.
 
-[Curated heading level=3 type=numbered_item: 8.]
-
 [Curated heading level=2 type=definitions: Diffinitio 8.]
 
 8 Planus angulus,est duarum linearum in plano sese tangentium, & non in directo iacentium,ad alterutram inclinatio.
@@ -21,8 +19,6 @@ Planus angulus
 Hæc autem inclinatio de rectis lineis potissimùm venit intelligenda: tales enim anguli in his primis sex libris geometricorū elementorū præcipuè considerātur.Hinc dicit Euclides,
 
 Ὅταν δὲ αἱ περιέχουσαι τὴν γωνίαν γραμμαὶ εὐθεῖαι ὦσιν,εὐθύγραμμος καλεῖται ἡ γωνία.
-
-[Curated heading level=3 type=numbered_item: 9.]
 
 [Curated heading level=2 type=definitions: Diffinitio 9.]
 
@@ -52,8 +48,6 @@ Angulus, Rectus, Acutus, Obtusus.
 [/Margin]
 
 Ὅταν δὲ εὐθεῖα ἐπ᾽ εὐθεῖαν σταθεῖσα τὰς ἐφεξῆς γωνίας ἴσας ἀλλήλαις ποιῇ, ὀρθή ἐστιν ἑκατέρα τῶν ἴσων γωνιῶν.καὶ ἡ ἐφεστηκυῖα εὐθεῖα,κάθετος καλεῖται ἐφ᾽ ἣν ἐφέστηκεν.
-
-[Curated heading level=3 type=numbered_item: 10.]
 
 [Curated heading level=2 type=definitions: Diffinitio 10.]
 

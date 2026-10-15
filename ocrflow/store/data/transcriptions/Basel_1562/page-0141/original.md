@@ -14,15 +14,11 @@ Beſchreybungen / oder außlegung etlicher wörtlin.
 a Pars.
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 [Curated heading level=1 type=definitions: Das fünffte bůch Euclidis]
 
 [Curated heading level=2 type=definitions: Beſchreibung 1.]
 
 1 {dropcap:E|lines=3|style=decorated}ß wirt ain tailᵃ genant / das klainer / ſo inn ainem gröſſeren gerad ettlich mall begreiffen wirt.
-
-[Curated heading level=3 type=numbered_item: 2.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 2.]
 
@@ -33,8 +29,6 @@ a Pars.
 [Margin]
 b Multiplex.
 [/Margin]
-
-[Curated heading level=3 type=numbered_item: 3.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 3.]
 

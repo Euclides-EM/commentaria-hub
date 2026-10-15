@@ -15,15 +15,11 @@ Ex hoc indicio rationum irrationalium æqualitas & inæqualitas continuò eluce�
 
 [Curated heading level=2 type=definitions: Lib. V, Def. 7]
 
-[Curated heading level=3 type=numbered_item: 7.]
-
 7. Similes partes ſunt, quæ in ſuis totis æquè, ſeu eodem modo continentur, vt qualis pars ſui totius eſt vna, talis pars ſui totius ſit altera. Quod ſanè nihil aliud eſt, quàm partes ad ſua tota eandem habere rationem.
 
 Similes vero partes aliquotæ ſunt, quæ ſua tota æqualiter metiuntur; vt ſi vtraque ſit ſui totius vna tertia, vna decima &c.
 
 [Curated heading level=2 type=definitions: Lib. V, Def. 8]
-
-[Curated heading level=3 type=numbered_item: 8.]
 
 [Curated heading level=2 type=figures: Fig. 6]
 

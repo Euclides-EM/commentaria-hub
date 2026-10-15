@@ -4,8 +4,6 @@ Cùm enim dati cuiuſlibet anguli recti magnitudo quadrans exiſtat circuli, eiu
 
 Καὶ ἐὰν εἰς δύο ευθείας, ευθεῖα ἐμπίπτουσα, τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας, δύο ὀρθῶν ἐλάσσονας ποιῇ, ἐκβαλλόμεναι αἱ δύο αὗται ευθεῖαι ἐπ' ἄπειρον, συμπεσοῦνται ἀλλήλαις, ἐφ' ἃ μέρη ἐισὶν αἱ τῶν δύο ὀρθῶν ἐλάσσονες γωνίαι.
 
-[Curated heading level=3 type=numbered_item: 5.]
-
 [Curated heading level=2 type=postulates: Poſtulatum 5.]
 
 5 Si in duas rectas lineas recta linea incidens, interiores & in eadem parte angulos duobus rectis minores fecerit: rectas lineas in infinitum productas concurrere neceſſe eſt, ad eas partes in quibus anguli duobus rectis minores exiſtunt.
@@ -36,8 +34,6 @@ RELIQVVM EST TANDEM, COMMVNES ELVCIDARE ſententias: quas græci axiomata, latin
 
 Τὰ τῷ αὐτῷ ἴσα, καὶ ἀλλήλοις ἐστὶν ἴσα.
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 [Curated heading level=1 type=axioms: LIBER I.]
 
 [Curated heading level=2 type=axioms: Communis ſententia 1.]
@@ -50,15 +46,11 @@ Vtpote, ſi a/ magnitudo ſit æqualis b/ magnitudini, eidem quoque b/ ſit æqu
 
 Καὶ ἐὰν ἴσα ἴσοις προστεθῇ, τὰ ὅλα ἐστὶν ἴσα.
 
-[Curated heading level=3 type=numbered_item: 2.]
-
 [Curated heading level=2 type=axioms: Communis ſententia 2.]
 
 2 Et ſi æqualibus æqualia adijciantur, omnia erunt æqualia.
 
 Καὶ ἐὰν ἀπὸ ἴσων ἴσα ἀφαιρεθῇ, τὰ καταλειπόμενα ἐστὶν ἴσα.
-
-[Curated heading level=3 type=numbered_item: 3.]
 
 [Curated heading level=2 type=axioms: Communis ſententia 3.]
 
@@ -72,15 +64,11 @@ Vt ſi d/ & e/ magnitudinibus inuicẽ æqualibus, æquales addantur magnitudine
 
 Καὶ ἐὰν ἀνίσοις ἴσα προστεθῇ, τὰ ὅλα ἐστὶν ἄνισα.
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 [Curated heading level=2 type=axioms: Communis ſententia 4.]
 
 4 Et ſi inæqualibus æqualia adiungantur, omnia inæqualia erunt.
 
 Καὶ ἐὰν ἀπὸ ἀνίσων ἴσα ἀφαιρεθῇ, τὰ λοιπὰ ἐστὶν ἄνισα.
-
-[Curated heading level=3 type=numbered_item: 5.]
 
 [Curated heading level=2 type=axioms: Communis ſententia 5.]
 

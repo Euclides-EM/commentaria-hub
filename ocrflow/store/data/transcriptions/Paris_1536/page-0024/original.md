@@ -8,8 +8,6 @@ In quibus videlicet nulla oppoſitorum vel laterum, vel angulorũ ſimul obſeru
 
 Παράλληλοί εἰσιν ευθεῖαι αἵ τινες ἐν τῷ αὐτῷ ἐπιπέδῳ ὄυσαι, καὶ ἐκβαλλόμεναι ἐπ' ἄπειρον ἐφ' ἑκάτερα τὰ μέρη ἐπὶ μηδέτερα συμπίπτωσι ἀλλήλαις.
 
-[Curated heading level=3 type=numbered_item: 35.]
-
 [Curated heading level=2 type=definitions: Diffinitio 35. Parallelarum linearum diffinitio vltima]
 
 Parallelæ rectæ lineæ ſunt quæ in eodem exiſtentes plano, & ex vtraque parte in infinitum productæ, in nulla parte concurrunt. 35
@@ -30,8 +28,6 @@ SECVNDO LOCO, SESE OFFERVNT POSTVLATA: QVAE petitiones à nõnullis adpellãtur.
 
 Ητήσθω, ἀπὸ παντὸς σημείου ἐπὶ πᾶν σημεῖον ευθεῖαν γραμμὴν ἀγαγεῖν.
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 [Curated heading level=1 type=postulates: LIBER I.]
 
 [Curated heading level=2 type=postulates: Poſtulatum 1.]
@@ -44,8 +40,6 @@ Poteſt enim datum quodcunq̃ punctum, in aliud quodlibet punctum, etiam vbilibe
 
 Καὶ πεπερασμένην ευθεῖαν κατὰ τὸ συνεχὲς ἐπ' ευθείας ἐκβάλλειν.
 
-[Curated heading level=3 type=numbered_item: 2.]
-
 [Curated heading level=2 type=postulates: Poſtulatum 2.]
 
 Rectam lineam terminatã, in continuum rectúmq; producere. 2
@@ -56,8 +50,6 @@ Nam vtrunq̃ punctum ipſius datæ rectæ lineæ terminatiuum, per rectum eiuſd
 
 Καὶ παντὶ κέντρῳ καὶ διαστήματι κύκλον γράφεσθαι.
 
-[Curated heading level=3 type=numbered_item: 3.]
-
 [Curated heading level=2 type=postulates: Poſtulatum 3.]
 
 Omni centro & interuallo circulum deſcribere. 3
@@ -67,8 +59,6 @@ Omni centro & interuallo circulum deſcribere. 3
 Hoc eſt, licet vbicunque volueris centrum deſignare circuli, & circa idem centrum, ad liberam ſemidiametri quantitatem, ipſum figurare circulum. Aut (ſi velis) ex data quacunque linea recta terminata, altero eiuſdem lineæ termino vbiuis collocato, per completam ipſius lineæ circunductionem, circulum deſcribere. Admittendi igitur ſunt, liberæ quantitatis circuli, pro data ſemidiametri vel interualli magnitudine.
 
 Καὶ πάσαι αἱ ὀρθαὶ γωνίαι ἴσαι ἀλλήλαις ἐισί.
-
-[Curated heading level=3 type=numbered_item: 4.]
 
 [Curated heading level=2 type=postulates: Poſtulatum 4.]
 

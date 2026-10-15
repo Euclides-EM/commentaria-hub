@@ -10,8 +10,6 @@ De varia rationum similitudine.
 
 ¶Ἐναλλὰξ λόγος ἐστὶ, λῆψις τοῦ ἡγουμένου πρὸς τὸ ἡγούμενον, καὶ τοῦ ἑπομένου πρὸς τὸ ἑπόμενον.
 
-[Curated heading level=3 type=numbered_item: 12.]
-
 [Curated heading level=2 type=definitions: Diffinitio 12.]
 
 12 Permutata ratio, est acceptio antecedentis ad antecedens, & consequentis ad consequens.
@@ -28,8 +26,6 @@ Cur hęc rationis illatio permutata dicatur.
 
 ¶Ἀνάπαλιν λόγος ἐστὶ, λῆψις τοῦ ἑπομένου ὡς ἡγουμένου, πρὸς τὸ ἡγούμενον ὡς ἑπόμενον.
 
-[Curated heading level=3 type=numbered_item: 13.]
-
 [Curated heading level=2 type=definitions: Diffinitio 13.]
 
 13 Conuersa ratio, est acceptio consequētis tanquàm antecedentis, ad antecedens tanquàm ad consequens.
@@ -41,8 +37,6 @@ Notandum.
 [/Margin]
 
 ¶Σύνθεσις λόγου ἐστὶ, λῆψις τοῦ ἡγουμένου μετὰ τοῦ ἑπομένου, ὡς ἑνὸς πρὸς αὐτὸ τὸ ἑπόμενον.
-
-[Curated heading level=3 type=numbered_item: 14.]
 
 [Curated heading level=2 type=definitions: Diffinitio 14.]
 
@@ -66,8 +60,6 @@ ria est diuisa, seu disiuncta ratio: quæ ita diffinitur,
 
 ¶Διαίρεσις λόγου ἐστὶ, λῆψις τῆς ὑπεροχῆς, ᾗ ὑπερέχει τὸ ἡγούμενον τοῦ ἑπομένου πρὸς αὐτὸ τὸ ἑπόμενον.
 
-[Curated heading level=3 type=numbered_item: 15.]
-
 [Curated heading level=2 type=definitions: Diffinitio 15.]
 
 15 Diuisa ratio, est acceptio excessus, quo excedit antecedens ipsum consequens, ad ipsum consequens.
@@ -79,8 +71,6 @@ Illatio rationis à cōiūctis ad diuisa.
 [/Margin]
 
 ¶Ἀναστροφὴ λόγου ἐστὶ, λῆψις τοῦ ἡγουμένου πρὸς τὴν ὑπεροχὴν, ᾗ ὑπερέχει τὸ ἡγούμενον τοῦ ἑπομένου.
-
-[Curated heading level=3 type=numbered_item: 16.]
 
 [Curated heading level=2 type=definitions: Diffinitio 16.]
 

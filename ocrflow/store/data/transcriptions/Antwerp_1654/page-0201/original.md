@@ -9,8 +9,6 @@ modo vna ratio ſeſe habeat ad alteram, ſicuti enim F eſt ad G, ita ratio F H
 
 [Curated heading level=2 type=axioms: Lib. V, Pars III, Ax.1.]
 
-[Curated heading level=5 type=numbered_item: Ax.1.]
-
 [Curated heading level=2 type=figures: Fig. 28]
 
 {dropcap:A|lines=2|style=plain}X.1. Rationes (F ad H, & G ad H) commune habentes conſequens (H) eam inter ſe proportionem habent, quam antecedentia (F, G.) eſt prop.2.P. Gregorij à S.Vinc.l.8.quadr.
@@ -23,8 +21,6 @@ Hoc eſt ratio G, ad H, tanto maior eſt ratione F ad H, quanto G maior eſt qua
 
 [Curated heading level=2 type=axioms: Lib. V, Pars III, Ax.2.]
 
-[Curated heading level=5 type=numbered_item: Ax.2.]
-
 [Curated heading level=2 type=figures: Fig. 29]
 
 Ax.2. Rationes (I ad L & I ad M) commune habentes antecedens, reciprocam inter ſe habent conſequentium proportionem. eſt propoſ.7.P. Gregorij à S.Vinc.lib.8.quadr.
@@ -36,8 +32,6 @@ Fig 29.
 Hoc eſt ratio I ad L eſt ad rationem I ad M, vt reciprocè eſt M conſequens, ad conſequens L: ſiue ratio I ad L tantò maior eſt ratione eiuſdem I ad M, quanto L fuerit minor, quam M, ac proinde quanto M fuerit maior quam L.
 
 [Curated heading level=2 type=axioms: Lib. V, Pars III, Ax.3.]
-
-[Curated heading level=5 type=numbered_item: Ax.3.]
 
 Ax.3. Rationes rationales eam inter ſe rationem habent, quã denominatores. Patet ex axiom.1.
 

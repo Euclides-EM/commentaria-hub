@@ -5,7 +5,7 @@ description: Report suggested fixes for the headers of an OCR transcription (ocr
 
 # Edition index curation (report only)
 
-This skill produces a report of suggested header fixes and curated index layers. It never changes a transcription: do not edit, write, or run any command that modifies files under `ocrflow/store/data/transcriptions/`, even for fixes that look certain. The user applies the suggestions they accept. The only exception is inserting index layers the user has explicitly asked to apply (see "Applying approved layers").
+This skill produces a report of suggested header fixes and curated index layers. It never changes a transcription: do not edit, write, or run any command that modifies files under `ocrflow/store/data/transcriptions/`, even for fixes that look certain. The user applies the suggestions they accept. The only exceptions are inserting index layers, and removing duplicate `numbered_item` entries, when the user has explicitly asked to apply them (see "Applying approved layers").
 
 Scope is headers only: markdown headers (`#`, `##`, `###` ...) and curated headings (`[Curated heading level=N ...: TEXT]`). To save tokens, do not open whole `original.md` files. Work from the script output. When a flag needs context, grep the header line with one or two lines around it (`grep -n -B1 -A2 'PROP. XXV' <dir>/page-0123/original.md`).
 
@@ -118,6 +118,14 @@ Scope is proposition level or above. Do not recommend layers for sub-proposition
 
 Also look for other structures with a clear, repeated pattern, such as `[Margin]` blocks with recurring topics, terms or figure callouts (`grep -n -A2 '\[Margin\]' <dir>/page-*/original.md | head -50`, sample rather than read everything). Recommend only layers with a clear, repeated pattern; do not list every one-off item.
 
+### Numbered items
+
+The `numbered_item` layer indexes printed numbered lines (`1.`, `II.`, `3)`) that no proposition-kind layer covers: sub-items inside a proposition, corollary or demonstration, numbered lists in prefaces, symbol tables, or a section with no typed layer (for example, postulates in a book with no `postulates` layer). An item that a proposition-kind layer (`definitions`, `postulates`, `axioms`, `propositions`, `theorems`, `problems`, `lemmas`, `additions`, `added_propositions`) already indexes must not also get a `numbered_item` entry. The more important sequence covers it.
+
+- When recommending a `numbered_item` layer, leave out every line that already carries, or that you recommend for, a proposition-kind entry, and say how many you left out.
+- When the book already has `numbered_item` entries, flag each one that duplicates a proposition-kind entry, and suggest removing it. A duplicate sits next to that entry, with only other curated headings in between, and has the same number (roman and arabic count as equal). It also counts as a duplicate when the proposition-kind entry has no printed number (`Partie`, `Ratio ex duabus rationibus`). `figures` and untyped curated headings never cover a numbered item. A `numbered_item` entry whose number differs from the adjacent entry is a sub-item. Keep it.
+- When you recommend a new proposition-kind layer for lines that already have `numbered_item` entries, include removing those entries in the recommendation.
+
 ### What to write
 
 For each recommended layer give the `type`, what it tracks, counts per book or section, the pages, the levels, and two to four sample lines with their page. Note numbering gaps or irregularities that affect a layer. Put layers that are not applicable or out of scope under "Considered, not recommended", with the reason and count. Do not insert anything; the user decides which layers to create.
@@ -133,7 +141,8 @@ The findings are one list per book, sorted by page in ascending order. Do not gr
 Only when the user explicitly asks to apply recommended layers may transcriptions change, and then only by inserting curated-heading lines:
 
 - Insert lines only. Never change, reflow or delete existing text or whitespace; keep each file's line endings and trailing newline.
+- The one exception: approved duplicate `numbered_item` removals (see "Numbered items"). Delete only the `numbered_item` line and one adjacent blank line. For those books, the deletions in `git diff --numstat` must equal twice the number of removals, and every deleted non-blank line must contain `type=numbered_item`.
 - Use a script with a dry run that prints the planned insertions per layer; check the counts against the report before applying. Make it idempotent (refuse if a page already has `type=<layer>`).
-- Verify afterwards: `git diff --numstat` shows 0 deletions for the book; every added line matches `^\[Curated heading level=[1-9][0-9]* type=[A-Za-z0-9][A-Za-z0-9._-]*: [^\]]+\]$`; each layer's numbering runs as the report expects; and every `theorems`/`problems` entry sits before a printed line that names its kind (the explicit-only rule).
+- Verify afterwards: `git diff --numstat` shows 0 deletions for the book (apart from approved `numbered_item` removals); every added line matches `^\[Curated heading level=[1-9][0-9]* type=[A-Za-z0-9][A-Za-z0-9._-]*: [^\]]+\]$`; each layer's numbering runs as the report expects; and every `theorems`/`problems` entry sits before a printed line that names its kind (the explicit-only rule).
 - Record what was applied, with counts and any deviations, in an `## Applied` subsection of the report's curated index section.
 - When several books are applied in parallel, keep scripts in per-book folders so they do not overwrite each other.

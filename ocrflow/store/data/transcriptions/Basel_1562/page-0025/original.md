@@ -3,13 +3,9 @@
 
 [Diagram: two irregular four-sided figures, each labelled 33]
 
-[Curated heading level=3 type=numbered_item: 33.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 33.]
 
 33. Was ferner vierſeittig figuren ſeind / werdenn Tiſchlin / oder vngleiche vierungen gehaiſſen.
-
-[Curated heading level=3 type=numbered_item: 34.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 34.]
 
@@ -27,21 +23,15 @@ Ettliche ſtücklin / ſo zuͦ diſer kunſt erfordert / vnnd gleich wol nit bew
 
 [Diagram: two straight lines drawn from a point labelled punct]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 [Curated heading level=1 type=postulates: Das erſt buͦch Euclidis]
 
 [Curated heading level=2 type=postulates: Petitio 1.]
 
 1. Von einem jetlichen Puncten zuͦ einem anderen / mag ein geſtracke lini gefürt werden.
 
-[Curated heading level=3 type=numbered_item: 2.]
-
 [Curated heading level=2 type=postulates: Petitio 2.]
 
 2. Auch mag einn jede gerade lini ſtrackh forttgezogen / vnnd nach gefallen erlengert werden.
-
-[Curated heading level=3 type=numbered_item: 3.]
 
 [Curated heading level=2 type=postulates: Petitio 3.]
 
@@ -55,8 +45,6 @@ Ettliche ſtücklin / ſo zuͦ diſer kunſt erfordert / vnnd gleich wol nit bew
 Gemain erkantnuſſen oder verſtand / Das iſt / Ettliche Puncten ſo zuͦ diſer khunſt dienen / vnnd durch den gemainen verſtand yederman eingegeben vnd bekhant werden.
 [/Subhead]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 [Curated heading level=1 type=axioms: Das erſt buͦch Euclidis]
 
 [Curated heading level=2 type=axioms: Communis noticia 1.]
@@ -64,8 +52,6 @@ Gemain erkantnuſſen oder verſtand / Das iſt / Ettliche Puncten ſo zuͦ diſ
 1. So ettliche ding einanderen gleich ſind / die ſelbige ſeind auch einander gleich.
 
 Diß ſtücklin / ſambt den volgenden zwayen / wie ſchlecht ſy ja anzeſechen / hatt nit allain groſſen nutz derhalben / das in der Geometrj vil ding dardurch demonſtriert werden / ſonder auch die Rechenkunſt hatt ſy in groſſen brauch / Ja die aller kunſtreicheſte Regell Algebre / ſunſt die Coß genannt / behilfft ſych jr dermaſſen / Das vil exempel on deren hilff khains wegs außgemacht mögen werden. Hab ich wöllen anzaigen / das du ſecheſt / wie in diſen herrlichen khunſten nichts ſo ſchlecht / daß nit ſein gröſten nutz habe / wirſt du forthin offt. Auch bey der 7 vnd 11 des fünfften buͦchs vernemmen.
-
-[Curated heading level=3 type=numbered_item: 2.]
 
 [Curated heading level=2 type=axioms: Communis noticia 2.]
 

@@ -2,25 +2,17 @@
 
 [Curated heading level=2 type=axioms: Grundſ. 10)]
 
-[Curated heading level=3 type=numbered_item: 10)]
-
 10) Alle rechten Winkel ſind gleich.
 
 [Curated heading level=2 type=axioms: Grundſ. 11)]
-
-[Curated heading level=3 type=numbered_item: 11)]
 
 11) Zwei gerade Linien ſchlieſen keinen Raum ein.
 
 [Curated heading level=2 type=axioms: Grundſ. 12)]
 
-[Curated heading level=3 type=numbered_item: 12)]
-
 12) Wenn zwei gerade Linien etwas Gemeinſchäftliches haben, ſo iſt dieſes ein Punkt, woferne ſie nicht in einer einzigen geraden Linie liegen ſollen.
 
 [Curated heading level=2 type=axioms: Grundſ. 13)]
-
-[Curated heading level=3 type=numbered_item: 13)]
 
 13) Die Grenzen der Linien ſind Punkte, und die Grenzen der Flächen ſind Linien.
 

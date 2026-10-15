@@ -4,13 +4,9 @@
 
 [Curated heading level=2 type=definitions: 4.]
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 4. Lignes droictes incommenſurables en puiſſance, ſont celles deſquelles les quarrez n’ont aucune commune ſuperficie qui les puiſſe meſurer.
 
 [Curated heading level=2 type=definitions: 5.]
-
-[Curated heading level=3 type=numbered_item: 5.]
 
 5. Cela eſtant ainſi, il eſt euident que à toute ligne droicte propoſee, on trouuera infinies lignes droictes commenſurables, & infinies incommenſurables: les vnes en longitude & puiſſance, les autres en puiſſance ſeulement. Or vne ligne droicte propoſee, eſt appellee rationele.
 
@@ -20,18 +16,12 @@ Dounot a eſtimé que ceſte defin.tion ne debuoit auoir licu; & partant l’a 
 
 [Curated heading level=2 type=definitions: 6.]
 
-[Curated heading level=3 type=numbered_item: 6.]
-
 6 Les lignes commenſurables à vne ligne rationele, ſoit en longitude & puifſance, ſoit en puiſſance ſeulement, ſont appellees rationeles.
 
 [Curated heading level=2 type=definitions: 7.]
 
-[Curated heading level=3 type=numbered_item: 7.]
-
 7 Et les lignes incommenſurables à vne ligne rationele, ſont irrationeles. Si cõparant quelque ligne droicte, à la ligne prinſe pour rationele, & ſur laquelle nous ratiocinons. elle eſt trouuee commenſurable à icelle rationele, ſoit en longueur & puiſſance, ſoit en puiſſance ſeulement, te lle ligne eſt auſſi dicte rationdle; mais ſi elle eſt incommenſurable à icelle ligne rationele propoſee, tant en longitu ſe qu’en puiſſanc, ceſte dicte ligne eſt appellee irrationele.
 
 [Curated heading level=2 type=definitions: 8.]
-
-[Curated heading level=3 type=numbered_item: 8.]
 
 8. Le quarré deſcrit ſur vne ligne rationele, eſt appellé rationel.

@@ -8,8 +8,6 @@ gnitudinibus datis h/l/ & k/m, æquales auferantur l/ & m, quæ relinquentur h/ 
 
 Καὶ τὰ τῦ αὐτῦ διπλάσια, ἴσα ἀλλήλοις ἐστίν.
 
-[Curated heading level=3 type=numbered_item: 6.]
-
 [Curated heading level=2 type=axioms: Communis ſententia 6.]
 
 Quæ eiuſdem duplicia ſunt, adinuicem ſunt æqualia. 6
@@ -25,8 +23,6 @@ Hoc eſt, quę eiuſdem ſunt æquè multiplicia, vel æquè ſuperparticularia,
 ſi n/ & o/ magnitudines, eiuſdẽ magnitudinis p/ ſint ęquè maiores, vtpote duplæ: neceſſum eſt eaſdẽ magnitudines n/ & o/ fore adinuicem æquales. Nam æqualibus magnitudinibus ipſi p/ in eiſdem n/ & o/ comprehenſis, æquales adduntur exceſſus. Idem cenſeto de numeris, & quibuſcunq̃ inuicem comparabilibus rebus, eandem ad tertiã maioris inæqualitatis rationem obtinentibus.
 
 Καὶ τὰ τῦ αὐτῦ ἥμισυ, ἴσα ἀλλήλοις ἐστί.
-
-[Curated heading level=3 type=numbered_item: 7.]
 
 [Curated heading level=2 type=axioms: Communis ſententia 7.]
 
@@ -44,8 +40,6 @@ quæcũq̃ eiuſdẽ ſunt ęquè ſubmultiplicia, aut ſubſuperparticularia, v
 
 Καὶ τὰ ἐφαρμόζοντα ἐπ' ἄλληλα, ἴσα ἀλλήλοις ἐστίν.
 
-[Curated heading level=3 type=numbered_item: 8.]
-
 [Curated heading level=2 type=axioms: Communis ſententia 8.]
 
 Et quæ ſibimet ipſis conueniunt, æqualia ſunt adinuicem. 8
@@ -54,8 +48,6 @@ Vtpote, ſi duę rectę lineę in limitib⁹, duæve ſuperficies in terminis, �
 
 Καὶ τὸ ὅλον μεῖζον τῦ μέρους ἐστί.
 
-[Curated heading level=3 type=numbered_item: 9.]
-
 [Curated heading level=2 type=axioms: Communis ſententia 9.]
 
 Totum eſt ſua parte maius. 9
@@ -63,8 +55,6 @@ Totum eſt ſua parte maius. 9
 Adde quòd & æquale ſuis partibus integralibus, id eſt quæ ſimul ſumptæ ipſum totum videntur integrare.
 
 Καὶ δύο ευθεῖαι χωρίον ὀυ περιέχουσι.
-
-[Curated heading level=3 type=numbered_item: 10.]
 
 [Curated heading level=2 type=axioms: Communis ſententia 10.]
 

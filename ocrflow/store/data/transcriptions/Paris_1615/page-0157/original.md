@@ -8,13 +8,9 @@ Par la conuerſe de cestedef s’il y a telle raiſon de la premiere à la ſec
 
 [Curated heading level=2 type=definitions: 7.]
 
-[Curated heading level=3 type=numbered_item: 7.]
-
 7. Les grandeurs qui ſont en meſme raiſon, ſont appellees proportionnelles. Comme ſi des grandeurs A, B, C, D, il y a meſme raiſon de A à B, que de C à D, icelles grandeurs ſont dites proportionnelles. Et les grandeurs E, F, G, leſquelles ſont en proportion cõtinuë, ſont auſſi dites continuellement proportionnelles.
 
 [Curated heading level=2 type=definitions: 8.]
-
-[Curated heading level=3 type=numbered_item: 8.]
 
 8. Quand des equemultiplices, celuy de la premiere grãdeur excede celuy de la ſecõde, & le multiplice de la troiſieſme n’excede celuy de la quatrieſme, lors il y aura plus grande raiſon de la premiere grandeur à la ſeconde, que de la troiſieſme à la quatrieſme.
 

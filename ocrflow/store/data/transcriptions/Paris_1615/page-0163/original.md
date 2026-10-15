@@ -10,14 +10,10 @@ Comme s’il y a ſ’vn coſté quatre quantitez, A.B, C, D; et autant d’vn 
 
 [Curated heading level=2 type=definitions: 18.]
 
-[Curated heading level=3 type=numbered_item: 18.]
-
 18. Proportion ordonnee eſt quand l’antecedent eſt au conſequent comme l’antecedãt eſt au conſequent de l’autre: & ainſi que l’vn des conſequens eſt à quelque autre, l’autre conſequent ſoit auſſi à quelque autre.
 
 Cecy eſt aisé à entendre par l’exemple de la def.precedente, où nods auõs poſé A eſtre à B cõme E à F, & B à C, ome F à G; & C à D, comme G à H. Car ainſi les termes des a-premieres quanutez ſont pris d’vn meſme ordre, que ceux des quatre dernieres; & pariant ceſte peoporiion eſt dicte ordonnee. Or que le moyen d’argumenter par raiſon d’egalité, la proportion d’ordre ſtint obſeruee, ſois bon, il ſera demon Stré en la 22.p.de ce liure.
 
 [Curated heading level=2 type=definitions: 19.]
-
-[Curated heading level=3 type=numbered_item: 19.]
 
 19. Proportion troublce eſt quand trois

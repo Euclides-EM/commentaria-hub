@@ -12,8 +12,6 @@ Demnach werden aus der Löse-Kunst vor diesesmahl entlehnet nachfolgende
 
 [Curated heading level=2 type=axioms: Grund-Satz I.]
 
-[Curated heading level=3 type=numbered_item: I.]
-
 I. Wenn zwo gleiche Grössen/ in zwo andere gleiche Grössen gezogen werden / so werden auch gleichgrosse Dinge daraus.
 
 [Curated heading level=4 type=numbered_item: (t)]
@@ -21,8 +19,6 @@ I. Wenn zwo gleiche Grössen/ in zwo andere gleiche Grössen gezogen werden / so
 (t) Wenn die Seiten oder Striche gleichlang/so sind auch die Vierecke ( und Würffel ) solcher gleichgrossen Seiten gleichgroß.
 
 [Curated heading level=2 type=axioms: Grund-Satz II.]
-
-[Curated heading level=3 type=numbered_item: II.]
 
 II. Wenn zwo ( oder mehr ) gleiche Grössen an gleiche Grössen angeschlagen werden/ so entspringen darauß auch gleichgrosse Dinge.
 

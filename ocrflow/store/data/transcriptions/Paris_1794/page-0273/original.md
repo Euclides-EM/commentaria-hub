@@ -7,13 +7,9 @@ Toute section HKFI, faite perpendiculairement à l’axe, est un cercle; toute s
 
 [Curated heading level=2 type=definitions: Définition III.]
 
-[Curated heading level=3 type=numbered_item: 3.]
-
 III. Si du cône SCDB on retranche, par une section parallèle à la base, le cône SFKH, le solide restant CBHF s’appelle *cône tronqué* ou *tronc de cône*. On peut supposer qu’il est décrit par la révolution du trapèze ABHG, dont les angles A et G sont droits,, autour du côté AG. *La ligne immobile AG* s’appelle *l’axe* ou *la hauteur du tronc*, les cercles BDC, HKF, en sont les *bases*, et BH en est le *côté*.
 
 [Curated heading level=2 type=definitions: Définition IV.]
-
-[Curated heading level=3 type=numbered_item: 4.]
 
 IV. Deux cylindres ou deux cônes sont *semblables* lorsque leurs axes sont entre eux comme les diamètres de leurs bases.
 
@@ -22,8 +18,6 @@ F. 252.
 [/Margin]
 
 [Curated heading level=2 type=definitions: Définition V.]
-
-[Curated heading level=3 type=numbered_item: 5.]
 
 V. Si dans le cercle ACD qui sert de base à un cylindre on inscrit un polygone ABCDE, et que sur la base ABCDE on élève un prisme droit égal en hauteur au cylindre, le prisme est dit *inscrit dans le cylindre*, ou le cylindre *circonscrit au prisme*.
 
@@ -34,8 +28,6 @@ F. 253.
 [/Margin]
 
 [Curated heading level=2 type=definitions: Définition VI.]
-
-[Curated heading level=3 type=numbered_item: 6.]
 
 VI. Pareillement si ABCD est un polygone circonscrit à la base d’un cylindre, et que sur la base ABCD on construise un prisme droit égal en hauteur au cylindre, le prisme est dit *circonscrit au cylindre*, ou le cylindre *inscrit dans le prisme*.
 

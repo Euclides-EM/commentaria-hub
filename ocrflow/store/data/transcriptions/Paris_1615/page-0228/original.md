@@ -22,14 +22,10 @@ Euclide ayant traicté és 6. liures precedents de la premiere partie de Geome
 
 [Curated heading level=2 type=definitions: 2.]
 
-[Curated heading level=3 type=numbered_item: 2.]
-
 2. Nombre, eſt vne multitude d’vnitez aſſemblees.
 
 Ceſt à dire qu’eſtans aſſemblees pluſieurs vnitez enſemble, leur aggregé s’appelle nombre.
 
 [Curated heading level=2 type=definitions: 3.]
-
-[Curated heading level=3 type=numbered_item: 3.]
 
 3. Partie eſt vn petit nombre tiré d’vn plus

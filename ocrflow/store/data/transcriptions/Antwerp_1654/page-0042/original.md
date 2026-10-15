@@ -9,8 +9,6 @@ Fig.18.
 
 [Curated heading level=2 type=definitions: Lib. I, Def. 36]
 
-[Curated heading level=3 type=numbered_item: 36.]
-
 36. Rectæ lineæ parallelæ ſeu æquidiſtantes ſunt, quæ in eodem plano exiſtentes, vtrimque in infinitum protractæ, æqualibus ſemper interuallis inter ſe diſtant.
 
 Æqualia interualla deſumuntur penes perpendiculares. Quare ſi omnes ad vnam ex duabus, parallelam A B, perpendiculares Q L æquales fuerint, dicentur rectæ A B, C F parallelæ.
@@ -24,8 +22,6 @@ Fig.17.
 [/Margin]
 
 [Curated heading level=2 type=definitions: Lib. I, Def. 37]
-
-[Curated heading level=3 type=numbered_item: 37.]
 
 37. Parallelogrammi & cuiuſuis quadrilateri diameter eſt recta (A F) per angu
 

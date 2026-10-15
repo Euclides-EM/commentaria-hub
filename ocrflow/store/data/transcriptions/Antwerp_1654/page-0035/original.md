@@ -11,23 +11,17 @@ Principiorum genera ex quibus Geometria omnis deriuatur, ſunt tria; Definitione
 
 [Curated heading level=2 type=definitions: Lib. I, Def. 1]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 1. {dropcap:P|lines=2|style=plain}unctum eſt ſignum in magnitudine indiuiduum.
 
 Hoc eſt, quod diuidi ne cogitatione quidem poſſit. Punctum omnis magnitudinis quaſi principium eſt, ſicut vnitas numeri.
 
 [Curated heading level=2 type=definitions: Lib. I, Def. 2]
 
-[Curated heading level=3 type=numbered_item: 2.]
-
 2. Linea eſt magnitudo tantum longa.
 
 Nimirum carens omni latitudine. Intelligitur generari ex fluxu puncti.
 
 [Curated heading level=2 type=definitions: Lib. I, Def. 3]
-
-[Curated heading level=3 type=numbered_item: 3.]
 
 [Curated heading level=1 type=figures: Liber I]
 
@@ -40,8 +34,6 @@ Fig. 1. Tabula 1.
 [/Margin]
 
 [Curated heading level=2 type=definitions: Lib. I, Def. 4]
-
-[Curated heading level=3 type=numbered_item: 4.]
 
 4. Recta linea eſt, quæ ex æquo ſuis terminis interiicitur.
 

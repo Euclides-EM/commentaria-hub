@@ -28,8 +28,6 @@ De rationum cōparatione.
 
 ¶Ἀναλογία δὲ ἐστιν, ἡ τῶν λόγων ὁμοιότης.
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 [Curated heading level=2 type=definitions: Diffinitio 4.]
 
 4 Proportio verò, est rationum identitas.
@@ -59,8 +57,6 @@ Genere diuersa discōtinuā proportionē obseruant. Corollarium.
 [/Margin]
 
 ¶Λόγον ἔχειν πρὸς ἄλληλα μεγέθη λέγεται, ἃ δύναται πολλαπλασιαζόμενα ἀλλήλων ὑπερέχειν.
-
-[Curated heading level=3 type=numbered_item: 5.]
 
 [Curated heading level=2 type=definitions: Diffinitio 5.]
 

@@ -18,8 +18,6 @@ tur, & diuisa ratione, ac conuersione rationis, quanquàm nihil sumatur extrinse
 
 ¶Δι᾽ ἴσου λόγος ἐστὶ, πλειόνων ὄντων μεγεθῶν, καὶ ἄλλων αὐτοῖς ἴσων τὸ πλῆθος, σὺν δύο λαμβανομένων, καὶ ἐν τῷ αὐτῷ λόγῳ: ὅταν ᾖ ὡς ἐν τοῖς πρώτοις μεγέθεσι, τὸ πρῶτον πρὸς τὸ ἔσχατον, οὕτως ἐν τοῖς δευτέροις μεγέθεσι, τὸ πρῶτον πρὸς τὸ ἔσχατον: ἢ ἄλλως, λῆψις τῶν ἄκρων, καθ᾽ ὑπεξαίρεσιν τῶν μέσων.
 
-[Curated heading level=3 type=numbered_item: 17.]
-
 [Curated heading level=2 type=definitions: Diffinitio 17.]
 
 16{printer-error-correction:17} Aequa ratio, est pluribus existentibus magnitudinibus, & alijs eis æqualibus multitudine, cum duabus sumptis & in eadem ratione: quando fuerit sicut in primis magnitudinibus primum ad vltimum, sic in secundis magnitudinibus primū ad vltimum. Vel aliter. acceptio extremorum, per subtractionem mediorum.
@@ -35,8 +33,6 @@ Inferendi modus ex æqua ratione.
 inferamus. Igitur sicut a/ad c, ita d/ad f. Hunc modum arguēdi, ex æquali, aut ex æqua ratione vocitamus. Vt si a ad b/& d/ad e/sesqualteram, b/autem ad c/& e/ ad f/duplam obtinuerit rationem: vel a/ad b/& e/ad f/dupla, b/ autem ad c/atque d/ ad e/sesqualtera ratione proportionetur: necessum est a/ ad c, atque d/ad f, triplam obseruare rationem. vt ex ipsa numerorum potes elicere formula.
 
 ¶Τεταγμένη ἀναλογία ἐστὶν, ὅταν ᾖ ὡς ἡγούμενον πρὸς ἑπόμενον, οὕτως ἡγούμενον πρὸς τὸ ἑπόμενον: ἢ δὲ καὶ ὡς ἑπόμενον πρὸς ἄλλο τι, οὕτως ἑπόμενον πρὸς ἄλλο τι.
-
-[Curated heading level=3 type=numbered_item: 18.]
 
 [Curated heading level=2 type=definitions: Diffinitio 18.]
 
@@ -56,8 +52,6 @@ a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f. Hāc rationū identitatem, ordinata
 | 9 6 3 — 12 8 4 |
 
 ¶Τεταραγμένη δὲ ἀναλογία ἐστὶν, ὅταν τριῶν ὄντων μεγεθῶν, καὶ ἄλλων ἴσων αὐτοῖς τὸ πλῆθος γίνεται: ὡς μὲν ἐν τοῖς πρώτοις μεγέθεσιν ἡγούμενον, πρὸς τὸ ἑπόμενον, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς τὸ ἑπόμενον: ὡς δὲ ἐν τοῖς πρώτοις μεγέθεσιν ἑπόμενον πρὸς ἄλλο τι, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς ἄλλο τι.
-
-[Curated heading level=3 type=numbered_item: 19.]
 
 [Curated heading level=2 type=definitions: Diffinitio 19.]
 

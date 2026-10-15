@@ -5,13 +5,9 @@ L’un de ces plans peut être tangent à la sphere, et alors le segment sphéri
 
 [Curated heading level=2 type=definitions: Définition XIV.]
 
-[Curated heading level=3 type=numbered_item: 14.]
-
 XIV. *L’axe ou hauteur* d’une zone et d’un segment est la distance des deux plans paralleles qui sont les bases de la zone ou du segment.
 
 [Curated heading level=2 type=definitions: Définition XV.]
-
-[Curated heading level=3 type=numbered_item: 15.]
 
 XV. Tandis que le demi-cercle DAE tournant autour du diametre DE décrit la sphere, tout secteur circulaire comme DCF ou FGH décrit un solide qu’on appelle *secteur sphérique.*
 

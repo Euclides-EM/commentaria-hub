@@ -5,8 +5,6 @@ l’inclinaison des plans ABS, ABC, est égale à celle de leurs homologues DTE,
 
 [Curated heading level=2 type=definitions: Définition XVIII.]
 
-[Curated heading level=3 type=numbered_item: 18.]
-
 XVIII. Ayant formé un triangle avec trois angles pris sur une même face ou base d’un polyedre, on peut imaginer que les différents angles solides du polyedre, hors du plan de cette base, soient les sommets d’autant de pyramides triangulaires qui ont pour base commune le triangle désigné, et chacune de ces pyramides déterminera la position de chaque angle solide du polyedre par rapport à la base. Cela posé :
 
 Deux *polyedres* sont *semblables* lorsqu’ayant des bases semblables les angles solides homologues, hors de ces bases, sont déterminés par des pyramides triangulaires semblables chacune à chacune.

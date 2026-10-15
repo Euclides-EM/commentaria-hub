@@ -8,13 +8,9 @@
 
 [Curated heading level=2 type=definitions: Beschreibung I.]
 
-[Curated heading level=2 type=numbered_item: I.]
-
 I. Ein Düpffelein (Punctum) oder Düttel ist ein sichtbares Zeichen eines untheilbaren Anfangs aller Grössen.
 
 [Curated heading level=2 type=definitions: Beschreibung II.]
-
-[Curated heading level=2 type=numbered_item: II.]
 
 II. Ein Strich (Linea) ist ein Zeichen einer Länge/ die keine Breite hat.
 
@@ -22,13 +18,9 @@ II. Ein Strich (Linea) ist ein Zeichen einer Länge/ die keine Breite hat.
 
 [Curated heading level=2 type=definitions: Beschreibung III.]
 
-[Curated heading level=2 type=numbered_item: III.]
-
 III. Das Eusserste oder die Endungen (Termini) eines endlichen Striches sind Düpffele oder Düttele.
 
 [Curated heading level=2 type=definitions: Beschreibung IV.]
-
-[Curated heading level=2 type=numbered_item: IV.]
 
 IV. Ein gerader Strich (oder Zug) ist/ welcher ohne Außweichung und am kürtzesten zwischen seinen End-Düpffeln außgestrecket ist: die andern / so nicht gleich außgestrecket sind/ werden krumme Züge genennet.
 
@@ -36,21 +28,15 @@ IV. Ein gerader Strich (oder Zug) ist/ welcher ohne Außweichung und am kürtzes
 
 [Curated heading level=2 type=definitions: Beschreibung V.]
 
-[Curated heading level=2 type=numbered_item: V.]
-
 V. Eine Fläche (Superficies) ist/ welche nur auß einer Länge und Breite bestehet/ (aber keine Dicke hat.)
 
 [Diagram: Rechteck]
 
 [Curated heading level=2 type=definitions: Beschreibung VI.]
 
-[Curated heading level=2 type=numbered_item: VI.]
-
 VI. Die endliche Fläche wird von Strichen eingeschrencket.
 
 [Curated heading level=2 type=definitions: Beschreibung VII.]
-
-[Curated heading level=2 type=numbered_item: VII.]
 
 VII. Eine ebene Fläche ist/ welche gerade/ ohne Auffblehung oder Niedersinckung/ zwischen ihren Endstrichen lieget / oder stehet.
 

@@ -34,8 +34,6 @@
 
 [Curated heading level=2 type=axioms: Grund-Satz II.]
 
-[Curated heading level=3 type=numbered_item: II.]
-
 II. Wenn man zu ( zwey ) gleichen Dingen ab und bc ( zwey ) gleiche Stücke de und ef thut/werden die ( beeden ) Gantzen ae und bf auch gleich.
 
 [Diagram: zwei Striche a–d und b–c, an welche punktierte Stücke d–e und c–f angesetzt sind]

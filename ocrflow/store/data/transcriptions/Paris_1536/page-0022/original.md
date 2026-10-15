@@ -8,8 +8,6 @@ limite, ſuccedunt rectilineæ, hoc eſt, rectis lineis terminatæ figuræ, vari
 Rectilineæ figuræ
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 20.]
-
 [Curated heading level=2 type=definitions: Diffinitio 20.]
 
 Rectilineæ figuræ, ſunt quæ ſub rectis lineis continentur. 20
@@ -26,8 +24,6 @@ Porrò inter rectilineas figuras, primum locum ſibi vendicant trilateræ, ſub 
 Trilateræ figuræ
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 21.]
-
 [Curated heading level=2 type=definitions: Diffinitio 21.]
 
 Trilateræ figuræ, ſunt quæ ſub tribus rectis continentur lineis. 21
@@ -39,8 +35,6 @@ His ſuccedunt quadrilateræ, à quaternario laterum numero denominatæ.
 [Margin]
 Quadrilateræ
 [/Margin]
-
-[Curated heading level=3 type=numbered_item: 22.]
 
 [Curated heading level=2 type=definitions: Diffinitio 22.]
 
@@ -54,8 +48,6 @@ Et quoniam rectilinearum figurarum ſupra quadrilateras per cõtinuam laterum ad
 Multilateræ
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 23.]
-
 [Curated heading level=2 type=definitions: Diffinitio 23.]
 
 Multilateræ figuræ, ſunt quæ ſub pluribus quàm quatuor rectis lineis comprehenduntur. 23
@@ -67,8 +59,6 @@ Trilaterarũ figurarũ à lateribus diſcrimina.
 [/Margin]
 
 Τῶν δὲ τριπλεύρων σχημάτων, ἰσόπλευρον μὲν τρίγωνόν ἐστι, ὃ τρεῖς ἴσας ἔχον πλευράς.
-
-[Curated heading level=3 type=numbered_item: 24.]
 
 [Curated heading level=2 type=definitions: Diffinitio 24.]
 
@@ -82,8 +72,6 @@ Veluti ſubſcripta in exemplum trianguli figura a/ & quæ illi ſimiles.
 Iſosceles
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 25.]
-
 [Curated heading level=2 type=definitions: Diffinitio 25.]
 
 Iſoſceles autẽ, eſt quod ſub binis tantũ ęqualibus lateribus cõtinet. 25
@@ -95,8 +83,6 @@ Cuiuſmodi ſunt triangula b,c,d, ad clariorem ſingulorum euidentiam depicta.
 [Margin]
 Scalenum
 [/Margin]
-
-[Curated heading level=3 type=numbered_item: 26.]
 
 [Curated heading level=2 type=definitions: Diffinitio 26.]
 

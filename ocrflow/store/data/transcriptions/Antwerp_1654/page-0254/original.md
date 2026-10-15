@@ -7,19 +7,13 @@
 
 [Curated heading level=2 type=definitions: Lib. XI, Def. 1]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 1. {dropcap:S|lines=2|style=plain}Olidum ſiue corpus eſt, quod longitudinem, latitudinem & profunditatem habet.
 
 [Curated heading level=2 type=definitions: Lib. XI, Def. 2]
 
-[Curated heading level=3 type=numbered_item: 2.]
-
 2. Solidi extremum eſt ſuperficies.
 
 [Curated heading level=2 type=definitions: Lib. XI, Def. 3]
-
-[Curated heading level=3 type=numbered_item: 3.]
 
 [Curated heading level=1 type=figures: Liber XI]
 
@@ -33,8 +27,6 @@ Fig. 1.l.11. tabulâ 5.
 
 [Curated heading level=2 type=definitions: Lib. XI, Def. 4]
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 [Curated heading level=2 type=figures: Fig. 2]
 
 4. Planum ad planum rectum ſiue perpendiculare eſt, cum omnes rectæ lineæ (LQ,) quæ communi planorum ſectioni (XR) perpendiculares ducuntur in planorum vno, rectę ſunt alteri plano (ABCO.)
@@ -44,8 +36,6 @@ Fig. 2.
 [/Margin]
 
 [Curated heading level=2 type=definitions: Lib. XI, Def. 5]
-
-[Curated heading level=3 type=numbered_item: 5.]
 
 [Curated heading level=2 type=figures: Fig. 3]
 
@@ -57,8 +47,6 @@ Fig. 3.
 
 [Curated heading level=2 type=definitions: Lib. XI, Def. 6]
 
-[Curated heading level=3 type=numbered_item: 6.]
-
 [Curated heading level=2 type=figures: Fig. 4]
 
 6. Si planum (RE) plano (LQ) non inſiſtat perpendiculariter, alterius ad alterum inclinatio eſt acutus angulus (ABC,) qui continetur à rectis lineis, (AB & BC) quæ in vtroque plano ad communem ſectionem (OE) ducuntur perpendiculares.
@@ -68,8 +56,6 @@ Fig. 4.
 [/Margin]
 
 [Curated heading level=2 type=definitions: Lib. XI, Def. 7]
-
-[Curated heading level=3 type=numbered_item: 7.]
 
 7. Planum ad planum ſimiliter inclinatum dicitur, atque alterum ad alterum,
 

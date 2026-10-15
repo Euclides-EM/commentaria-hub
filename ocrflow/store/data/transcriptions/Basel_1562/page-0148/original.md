@@ -21,13 +21,9 @@ Darbay zůmercken / das inn zalen durch das diuidiern leictlich entſchaiden wir
 Vortail.
 [/Margin]
 
-[Curated heading level=3 type=numbered_item: 10.]
-
 [Curated heading level=2 type=definitions: Beſchreibung 10.]
 
 10. So drey quantiteten in ſtetiger proportion gegen ainander volgen: alßdann iſt die proportion der erſten / gegen der dritten / zwaymal ſo groß als der erſten gegen der andern.
-
-[Curated heading level=3 type=numbered_item: 11.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 11.]
 

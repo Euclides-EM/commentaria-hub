@@ -3,8 +3,6 @@
 
 [Curated heading level=2 type=definitions: Définition VI.]
 
-[Curated heading level=3 type=numbered_item: 6.]
-
 VI. *L’angle solide* est formé par la réunion de plusieurs angles situés dans différens plans.
 
 Ainsi l’angle solide S est formé par la réunion des angles plans ASB, BSC, CSD, DSA.

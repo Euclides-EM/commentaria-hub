@@ -4,27 +4,19 @@
 
 [Curated heading level=2 type=definitions: Beschreibung XII.]
 
-[Curated heading level=2 type=numbered_item: XII.]
-
 XII. Ein spitziger Winckel aber ist kleiner/ als ein rechter Winckel.
 
 [Diagram: zwei Winkel mit punktierten Viertelkreis-Bögen, spitzige Winkel darstellend]
 
 [Curated heading level=2 type=definitions: Beschreibung XIII.]
 
-[Curated heading level=2 type=numbered_item: XIII.]
-
 XIII. Endung (Terminus) ist das eusserste einer Grösse.
 
 [Curated heading level=2 type=definitions: Beschreibung XIV.]
 
-[Curated heading level=2 type=numbered_item: XIV.]
-
 XIV. Gestalt ( Figura ) ist/ welche in eine oder mehr Endungen eingeschlossen/oder eingefasset ist.
 
 [Curated heading level=2 type=definitions: Beschreibung XV.]
-
-[Curated heading level=2 type=numbered_item: XV.]
 
 XV. Ein Kreyß ( Circulus ) ist eine flache Gestalt/ von einem einigen Strich (oder Zug) eingeschlossen/welchen man den Umbkreyß ( auch Kreyß-zug ) nennet / zu welchem alle/von einem derer inwendigen Düttele/gezogene Striche (Radii) gleich lang sind.
 
@@ -32,13 +24,9 @@ XV. Ein Kreyß ( Circulus ) ist eine flache Gestalt/ von einem einigen Strich (o
 
 [Curated heading level=2 type=definitions: Beschreibung XVI.]
 
-[Curated heading level=2 type=numbered_item: XVI.]
-
 XVI. Dieser Düttel aber wird der Mittel-Düpffel (Centrum) des Kreyses genennet.
 
 [Curated heading level=2 type=definitions: Beschreibung XVII.]
-
-[Curated heading level=2 type=numbered_item: XVII.]
 
 XVII. Der Durchschlag (Diameter) des Kreyses ist ein gerader durch den Mittel-Düpffel gezogener Strich/ welcher auff beiden Seiten an den Umbkreyß stösset/ und denselbigen in zween gleiche Theile schneidet.
 

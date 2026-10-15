@@ -16,8 +16,6 @@
 
 [Curated heading level=2 type=definitions: 1.]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 1. Tout parallellograme rectangle eſt dict eſtre compris des deux lignes droictes qui font l angle droict.
 
 {dropcap:I|lines=2|style=plain}L a eſté dit en la 36. def.1.que c’eſt que parallellograme, & qu’il x en a de quatre ſortes: mais maintenant il faut entendre qu’vn parallellograme eſt dit rectangle, lors qu’il a tous les angles droicts. & par conſequent il y a ſeulement le quarré, comme ABCD. & l quarré lons commcar On, qui ſoient rectangles: car il ny a que ces

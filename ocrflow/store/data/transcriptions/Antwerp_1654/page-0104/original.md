@@ -10,13 +10,9 @@
 
 [Curated heading level=2 type=definitions: Lib. III, Def. 1]
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 1. {dropcap:C|lines=2|style=plain}Irculi æquales ſunt, quorum diametri ſeu ſemidiametri ſunt æquales.
 
 [Curated heading level=2 type=definitions: Lib. III, Def. 2]
-
-[Curated heading level=3 type=numbered_item: 2.]
 
 [Curated heading level=1 type=figures: Liber III]
 
@@ -30,8 +26,6 @@ Fig. 10. li. 3.
 
 [Curated heading level=2 type=definitions: Lib. III, Def. 3]
 
-[Curated heading level=3 type=numbered_item: 3.]
-
 [Curated heading level=2 type=figures: Fig. 13 & 14]
 
 3. Circuli tangere ſe dicuntur, cum ſibi ſic occurrunt, vt tamen non ſecent.
@@ -42,8 +36,6 @@ Fig. 13. & 14.
 
 [Curated heading level=2 type=definitions: Lib. III, Def. 4]
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 [Curated heading level=2 type=figures: Fig. 18]
 
 4. In circulo æqualiter à centro (A) diſtare dicuntur rectæ (B C, F L) cum perpendiculares (A I, A O) quæ ex centro in ipſas ducuntur, ſunt æquales.
@@ -53,8 +45,6 @@ Fig. 18.
 [/Margin]
 
 [Curated heading level=2 type=definitions: Lib. III, Def. 5]
-
-[Curated heading level=3 type=numbered_item: 5.]
 
 [Curated heading level=2 type=figures: Fig. 37]
 

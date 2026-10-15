@@ -4,13 +4,9 @@
 
 [Curated heading level=2 type=definitions: 21.]
 
-[Curated heading level=3 type=numbered_item: 21.]
-
 21. Les nombres ſemblables plans ou ſolides, ſont ceux qui ont les coſtez proportionnaux.
 
 [Curated heading level=2 type=definitions: 22.]
-
-[Curated heading level=3 type=numbered_item: 22.]
 
 Comme 22. &t 6 ſont nombres plãs ſemblables, pource que 6. & 2, coſtez de ceſtuy là ſont proportionnaux à 3. & 2. coſtez de celuy-cy: ainſi außi 192. & 2 4. ſont nombres ſolides ſemblables, pource que 8. 6.4. coſtez-e ceſtuy-là ſont prop. à 4.3.2. coſtez de celuy cy. 22. Nombre parfaict, eſt celuy qui eſt egal à toutes ſes parties aliquotes.
 

@@ -8,8 +8,6 @@ Cuiusmodi sunt anguli a/b/c/ & a/b/d, à recta a/b/ super rectam c/d/ ad perpend
 
 Ἀμβλεῖα γωνία ἐστίν,ἡ μείζων ὀρθῆς.
 
-[Curated heading level=3 type=numbered_item: 11.]
-
 [Curated heading level=2 type=definitions: Diffinitio 11.]
 
 11 Obtusus angulus,maior est recto
@@ -21,8 +19,6 @@ Obtusus angulus
 Vt angulus e/ f/ g,includens arcum e/ g, quadrante maiorem, descripti circa punctum f/ circuli. Dicitur autem idem angulus e/f/g/obtusus: quoniam e/f/ & f/g/lineæ rectæ,obtusam extrinsecus faciunt inclinationem.
 
 Ὀξεῖα δέ,ἡ ἐλάσσων ὀρθῆς.
-
-[Curated heading level=3 type=numbered_item: 12.]
 
 [Curated heading level=2 type=definitions: Diffinitio 12.]
 
@@ -46,8 +42,6 @@ CVM AVTEM OMNIS MAGNITVDO FINITA SIT, ET terminata:diffinit cōsequēter Euclide
 
 Ὅρος ἐστίν,ὅ τινός ἐστι πέρας.
 
-[Curated heading level=3 type=numbered_item: 13.]
-
 [Curated heading level=2 type=definitions: Diffinitio 13.]
 
 13 Terminus est,quod cuiusque finis est.
@@ -59,8 +53,6 @@ Terminus
 Vtpote,punctum ipsius lineæ,linea superficiei, superficies denique solidi:quemadmodùm ex eorundem abstractiua descriptione facilè colligitur. Itaque
 
 Σχῆμά ἐστι,τὸ ὑπό τινος ἢ τινῶν ὅρων περιεχόμενον.
-
-[Curated heading level=3 type=numbered_item: 14.]
 
 [Curated heading level=2 type=definitions: Diffinitio 14.]
 
@@ -85,8 +77,6 @@ Planarū figurarū simplicissima circulus est
 [/Handwritten]
 
 Κύκλος ἐστὶ σχῆμα ἐπίπεδον, ὑπὸ μιᾶς γραμμῆς περιεχόμενον, ἣ καλεῖται περιφέρεια, πρὸς ἣν ἀφ᾽ ἑνὸς σημείου τῶν ἐντὸς τοῦ σχήματος κειμένου, πᾶσαι αἱ προσπίπτουσαι εὐθεῖαι, ἴσαι ἀλλήλαις εἰσί.
-
-[Curated heading level=3 type=numbered_item: 15.]
 
 [Curated heading level=2 type=definitions: Diffinitio 15.]
 

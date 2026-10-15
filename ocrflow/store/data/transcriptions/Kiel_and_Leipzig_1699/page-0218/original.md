@@ -25,19 +25,13 @@ Wird also allezeit der auff den Kreyß khdg stossende/und aus a gezogene Strich 
 
 [Curated heading level=2 type=definitions: Beschreibung I.]
 
-[Curated heading level=3 type=numbered_item: I.]
-
 I. Diejenige geradstrichichte Gestalt wird einer andern geradstrichichten Gestalt eingeschrieben genennet / welche mit ihren Ecken aller derselben Gestalt/ welcher sie einverleibet ist/ Seiten berühret.
 
 [Curated heading level=2 type=definitions: Beschreibung II.]
 
-[Curated heading level=3 type=numbered_item: II.]
-
 II. Gleicherweise wird eine einer andern Gestalt umbschriebene Gestalt genennet / welche mit ihren Seiten alle derselben Gestalt/ so sie ümbgiebt/ Ecken berühret.
 
 [Curated heading level=2 type=definitions: Beschreibung III.]
-
-[Curated heading level=3 type=numbered_item: III.]
 
 III. Eine geradstrichichte Gestalt wird einem Kreyß eingeschrieben genennet / wenn sie mit ihren Ecken den Umbkreyß oder Umbfang berühret.
 

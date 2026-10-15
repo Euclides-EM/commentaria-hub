@@ -6,8 +6,6 @@ de la bartie aliquele, & iceluy eſtant multiplié par le denominatear de la ra
 
 [Curated heading level=2 type=definitions: 4.]
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 4. Proportion, eſt vne ſimilitude de raiſons.
 
 Tout ainſi que la comparaiſon de deux quantitez entr'elles eſt dicte caiſon, ainſi la comparaiſon de deux ou pluſieurs raiſons entr’elles, eſt dicte proportion: comme ſi la raiſon de A à B, eſt ſemblable à la raiſon de Cà D, l’habitude d’entre ces raiſons ſera dicte A. B C. D. proportion Or ceſte proportion eſt cõtinue ou diſ 8. 12.18. 27. crete: la continuë eſt celie de laquelle les grandeurs entre-moyennes ſont priſes denx fou, tellement qu’il ne ſe faict nulle interrupts on de raiſons, ains chaque quantité entre-moyenne eſt antecedant & conſequẽt, ſçauoir antecedant de la quantité ſubſequente, mau conſequent à la quantiié antecodante: comme ſi on dict, que telle qu’eſt la raiſos de A à B, telle est celle de B à C, où la quantité B eſt antecedant de la quantité C, mau conſequent de la quantite A Mais proportion diſcretie ou non cõtinuë, eſt celle en laquelle chaſque quãtiié ent remoyene eſt prinſe ſeuleme.t vne fois, tellemen qu’il ſe faict interrupt ion de raiſons, & aucune quantité n’eſt antecedant et conſequent, mais ſeulement antecedant ou conſequent: comme ſi on dict que la raiſon de A à B, eſt mme celle de CaD.

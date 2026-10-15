@@ -8,15 +8,11 @@ Von dem anfang vnd grund der Geometri.
 
 ## Beſchreibungen.
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 [Curated heading level=1 type=definitions: Das ander bůch Euclidis]
 
 [Curated heading level=2 type=definitions: Beſchreibung 1.]
 
 1. {dropcap:A|lines=4|style=decorated|decoration="ornamental flourishes"}in yedes winckelrechts parallelogram wirt begriffen oder beſchloſſen von den zwayen linien welche den rechten winckel machen.
-
-[Curated heading level=3 type=numbered_item: 2.]
 
 [Curated heading level=2 type=definitions: Beſchreibung 2.]
 
