@@ -1,37 +1,31 @@
-[Diagram]
+<!-- Running title: LIBER -->
 
-<!-- Running title: [illegible] -->
+## Propoſitio .16.
 
-## [illegible]
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I fuerit quatuor quantitates proportionales. ꝑmutatim quoqʒ proportionales erunt.
 
-<!-- Running title: Propoſitio .16. -->
+[Diagram: handwritten rows of lines labelled a, b, c, d, e, f, g and h with numbers, repeating the printed figure]
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerit quatuor quantitates proportionales. pmnutatim quoqz proportionales erunt.
+[Diagram: four pairs of horizontal lines labelled a, b, c, d, e, f, g and h with numbers]
 
-¶ Sit proportio. a.ad.b. ſicut.c.ad. d.oico g crit. a.ad. c.ſicut.b.ad
+¶Sit proportio.a.ad.b.ſicut.c.ad.d.dico ꝙ erit.a.ad.c.ſicut.b.ad d.⁊ iſte eſt modus arguẽdi qui dicit̃ ꝓportionalitas permutata. cuius demonſtratio ſic patʒ. Sumã.e.ad.a.⁊.f.ad.b.eque multiplices itemqʒ.g.ad.c.⁊.h.ad.d.eque multiplices: eritqʒ per premiſſam.e.ad.f.ſicut.g.ad h.quare ꝑ.14.ſi.e.addit ſupra.g.⁊.f.addit ſuper.h.⁊ ſi minuit minuit: ⁊ ſi equat equat:per diffinitionẽ igitur incontinue proportionalitatis erit.a.ad.c.ſicut.b.ad d.quod eſt propoſitũ. Neceſſe eſt aũt vt in ꝑmutata proportionalitate ſint omnes quatuor quantitates eiuſdem generis.
 
-[Diagram]
+## Propoſitio .17.
 
-d.z iſte eſt modus arguẽdi qui picit pportionalitas permutata. cuꝰ ins pemnonſtratio ſic paty. Sumã.e.ad.a.2 f.ad.b.cque multiplices itemqz. g ad.c. z. h. ad. d.cque multiplices: eritoy per premilſam.e. ad. f.ficut. g. ad b, quare p'ia ſi, c. addir ſupra.s.e. f.addit ſupcr.b. zfi minuit minuit: efi cquar cquat: per oiffinitione igitur incontinue proportionaliratis erit.a.ad.c. ſicut.b.ad d, quod eſt propoluũ. Ieceſſe eſt aũt vt in pmutara proportionaltrare ſint omnes quatnor quantirates cinſdem generis. 2
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I fuerint quantitates coniunctim proportionales: eaſdẽ diſiunctim quoqʒ proportionales eſſe.
 
-## PPropoſitio.i.
+[Diagram: horizontal lines, g 16 h 8 k 12 p above a 8 c 4 b and d 6 f 3 e, with l 12 m 6 n 9 q below]
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint quantitates coniunctim proportionales: eaſdẽ oiſiunctim quoz proportionales eſſe.
+¶Demonſtrato modo arguendi qui dicitur proportionalitas ꝑmutata:demonſtrat illũ qui dicit̃ proportionalitas diſiuncta. Sit itaqʒ ꝓportio.a.b.ad.b.c.ſicut.d.e.ad.e.f.dico ꝙ erit.a.c.ad.c.b.ſicut d.f.ad.f.e. Sumã enim.g.h.ad.a.c.⁊.h.k.ad.c.b.itemqʒ.l.m.ad.d.f.⁊.m.n.ad f.e.eque multiplices: eritqʒ per primam huius.g.k.ita multiplex.a.b.ſicut.g.h.eſt multiplex.a.c.⁊.l.n.ita multiplex.d.e.ſicut.l.m.eſt multiplex.d.f.⁊ ideo per premiſſas ypotheſes.g.k.ẽ ita ml̃tiplex.a.b.ſicut eſt.l.n.d.e.ponã iterũ.k.p.ad.c.b.⁊.n.q.ad.f.e.eque multiplices: eruntqʒ per ſecundã.h.p.ad.c.b.⁊.m.q.ad.f.e.eq̃ multiplices per conuerſione igitur diffinitionis incontinue proportionalitatis. ſi g.k.addit ſuper.h.p.l.n.addit ſup.m.q.⁊ ſi minuit minuit:⁊ ſi equat equat. demptis itaqʒ cõmunibus.h.k.⁊.m.n.erit per cõmunem ſcientiam: vt ſi.g.h.addit ſuper.k.p.ꝙ.l.m.addit ſuper.n.q.⁊ ſi minuit minuit:⁊ ſi equat equat. ergo ꝑ diffinitionem incontinue proportionalitatis proportio.a.c.ad.c.b.eſt ſicut.d.f.ad.f.e.quod eſt propoſitum.
 
-[Diagram]
+[Handwritten]
+k p n q h k m n c.b. f.e.
+[/Handwritten]
 
-¶Demonſtrato modo arguendi qui oicitur proportionalitas pmu! tata: demonſtrat illũ qui oicit proportionalitas oifiuncta. Sit irady I pportio.a.b.ad. b.c.ſicut. d.e.ad.e. f. oico q erit. a.c.ad.c. b. ſicur d t.ad.f.e. Oumã enim. g.b.ad.a.c.2.h.E.ad.c.b.itemgy Lm.ad. d.1. 2 m.n.ad fe.cque multiplices: eritoy per primam buins. g.l. ita multipler. a. b. ſicut. s.b.eſt multipley. a.c.t.l.n.ita multipler. d.e. ſicut. l.m. eſt multipler. d.f. T ideo per pre? milas potbeſes.5.l. õita mltipley. a.b. ſicut eſt. l.n.d.e ponã iterui.l. p.ad.c.b.
+## Propoſitio .18.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I fuerint quantitates diſiunctim proportionales.coniunctim quoqʒ proportionales erunt.
 
-en.q ad. f,e, que mnltiplices: cruntoy per ſecundã.h. p.ad.c.b.2.m.q.ad. f.e. cq̃ multipliccs per conuerſione igitur piffinitionis incontinue proportionalitaris. ſi SE.addit ſuper. b .p.l.n. addit ſup.m.q. T ſi minuit minuit:z ſi equat cquat. oem prie ire comunibus. b.l.Cm.n. erit per cõmunem ſcientiam: vrſi.s.b. addit ſu per. &.p. .l.m.addit ſuper. n.q. ⁊ ſi minnit minuit:z ſi equat lequat, ergo p oiffi nitionem incontinue proportionaliraris proportio.a. c.ad.c.b.eſt ſicut. d.f. ad.f. e. quod eſt propoſitum.
+[Diagram: horizontal lines, g 16 h 8 k 12 p above a 8 c 4 b and d 6 f 3 e, with l 12 m 6 n 9 q below]
 
-## PPropoſirio .1s.
-
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint quantfates oiſiunctim proportionales.coniun ctim quooz proportionales erunt.
-
-¶ Demonſtrat modũ argnendi qui oicit proportionalitas coniun, cta z eſt modus conuerſus prioris. Ad cuius oemonſtrationem reſu matur oiſpoſitio premiſle.z mancãt omnes cius poibeſes: eycepto
-
-[Diagram]
-
-Vponatur eſſe proportio.a.c.ad.c.b. ſicut. d.f. ad.f.e. bico ꝙ erit proportio.a.b. ad.b.c.ficut.d.e.ad.f.e. ſequit eni ey bac potbeſi e alijs porbeſibus premiſſe ve mnriplicib' cqualiter ſuptis per couerſione oiffinitois incotinne pportiõalitatis¬ ſi.g.b. addit ſuper.E.p.ꝙ.l.m.addat ſup.n.q. e ſi minuit minuat: ⁊ ſi equat equat ergo poſitis cõmunibus.b.E..m.n.ſequii per cõem ſciam ſi.g. l. addit ſup. b. p ꝙ.len.addat ſup. m.q. ⁊ſi minuit minuat: z ſi cquat cquar: quare per oiffinitione incõrinue proportionalitatis erit pportio.a. b.ad. b.c.ſicut.d.e.ad.e.f. qbẽ ppo ſitũ. Auter ide incirecte lic. Lũ fit pportio.a.c.ad.c.b.ficut. d.f.ad.f.e. noẽ. d.b. ad.b.c.ſicut. d.e. ad.e.f.ſit ergo pportio.d.e. ad aliquã aliã quantitaté ſicut. a.b. ad.b.c que aut crir maior.e.f.aut minor. ſi eni eſet el conalis cõſtarer propolitũ.
+¶Demonſtrat modũ arguendi qui dicit̃ proportionalitas coniuncta ⁊ eſt modus conuerſus prioris. Ad cuius demonſtrationem reſumatur diſpoſitio premiſſe.⁊ maneãt omnes eius ypotheſes: excepto ꝙ ponatur eſſe proportio.a.c.ad.c.b.ſicut.d.f.ad.f.e.dico ꝙ erit proportio.a.b.ad.b.c.ſicut.d.e.ad.f.e.ſequit̃ eni ex hac ypotheſi ⁊ alijs ypotheſibus premiſſe de multiplicib⁹ equaliter ſũptis per cõuerſione diffinitiõis incõtinue ꝓportiõalitatis ſi.g.h.addit ſuper.k.p.ꝙ.l.m.addat ſup.n.q.⁊ ſi minuit minuat:⁊ ſi equat equat ergo poſitis cõmunibus.h.k.⁊.m.n.ſequit̃ per cõem ſciam ſi.g.k.addit ſup.h.p.ꝙ.l.n.addat ſup.m.q.⁊ ſi minuit minuat:⁊ ſi equat equat:quare per diffinitione incõtinue proportionalitatis erit ꝓportio.a.b.ad.b.c.ſicut.d.e.ad.e.f.qd̃ ẽ ppoſitũ. Aliter idẽ indirecte ſic. Cũ ſit ꝓportio.a.c.ad.c.b.ſicut.d.f.ad.f.e.nõ ẽ.a.b.ad.b.c.ſicut.d.e.ad.e.f.ſit ergo ꝓportio.d.e.ad aliquã aliã quantitatẽ ſicut.a.b.ad.b.c.que aut erit maior.e.f.aut minor.ſi eni eſſet ei equalis cõſtaret propoſitũ.

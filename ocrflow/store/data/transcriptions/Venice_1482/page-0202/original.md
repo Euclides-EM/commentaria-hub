@@ -1,31 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-[Diagram]
+guli trianguloꝝ piramidẽ circũdãtiũ qui ſup latera baſis ipſiꝰ piramidis cõſiſtunt pariter accepti ſint maiores omnibus angulis baſis piter acceptis vt euidẽter conſtat ex premiſſa totiẽs quot angulos baſis habuerit repetita. adhuc neceſſario ſequitur ex cõi ſcia ſupficiales angulos ſolidũ angulũ.a. continentes piter acceptos eſſe minores quatuor rectis:eo inquã minores quo oẽs anguli trigonoꝝ piramidem circũdantium qui ſup latera baſis ſtatute piramidis conſiſtant excedunt oẽs angulos baſis pariter acceptos.
 
-[Diagram]
+## Propoſitio .22.
 
-culi trianguloy piramidé circũdãtiũ qui ſup latera baſis ipliꝰ piramidis cõiſtunt nanter accepti ſint maiorcs onnibus angulis baſis pitcr acccpis vt cuideter con? stat er premiſſa totico quot angulos baſis babncrit repctira. adbuc neccſlaro ſe! uitur er cõi ſcia ſupficiales angulos ſolidi angului.a. continentcs piter acceptos e minorcs quatuor rectis:co inquã minorcs quo oẽs anguli trgonoy pirami? den circũdantum qui ſup latcra baſis ſtature piramidis coniiſtant crccdunt oës anguloo balis pariter acceptos.,PPropoſitio .a2.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I tres anguli ſuperficiales quoꝝ quiqʒ duo pariter accepti tertio ſint maiores cunctis ſibi inuicem equis lineis contineantur de tribus baſibus angulos illos ab ipſaꝝ lineaꝝ equalium terminis ſubtendẽtibus triangulum ſubſtitui vel conſtitui poſſibile eſt:
 
-## [illegible]
+¶Sint tres ſupficiales anguli.b.a.c.e.d.f.h.g.k.vt pponiť:tales videlicet vt quiqʒ duo eoꝝ tertio ſint maiores.ſintqʒ ſex latera eos continentia equalia que ſint a.b.a.c.d.e.d.f.g.h.g.k.⁊ ſubtẽdanť eis tres baſes que ſint.b.c.e.f.h.k. Ex his ergo tribus baſibus triangulũ aio conſtitui poſſe.Eſto eni angulus.b.a.l.equalis angulo.d.⁊ linea.a.l.linee.d.e.⁊ protrahantur.l.b.l.c.eritqʒ ex.4.primi linea l.b.equalis linee.e.f.ex ypotheſi vero ꝯſtat totalem angulũ.a.eſſe maiorem angulo.g.erant eni quiqʒ duo ex tribus angulis.b.a.c.d.⁊.g.tertio maiores igiť ex.24 primi linea.l.c.linea.h.k.ẽ maior.cunqʒ ſint ex.20.primi due linee.l.b.⁊.b.c.maiores linea.l.c.ſequitur duas lineas.l.b.⁊.b.c.eſſe multo fortius maiores linea.h.k. quia igitur.l.b.eſt equalis.e.f.erunt due linee.b.c.⁊.e.f.maiores linee.h.k. Conſtat itaqʒ hoc modo quaſqʒ duas lineas ex tribus lineis.b.c.e.f.h.k.eſſe longiores tertia:igiť ex.22.primi conſtat verum eſſe qd dicitur:hoc dũtaxat addito ꝙ ſi duo anguli.b.a.c.⁊.d.pariter accepti ſint equales duobus rectis erunt due linee l.a.⁊.a.c.ex.14.primi linea vna:que cum ſit equalis ex ypotheſi duabus lineis.g b.⁊.g.k.que ex.20.primi longiores ſunt linea.h.k.cunqʒ ex eadẽ linee due.l.b.⁊.b c.ſint longiores linea.l.c.ſequitur vt prius.b.c.⁊.e.f.piter acceptas eẽ longiores h.k. At vero ſi duo predicti anguli ſunt maiores duobus rectis:erunt ex.21.primi due linee.a.l.⁊.a.c.ideoqʒ ⁊ due.g.h.⁊.g.k.breuiores duabꝰq̃ ſũt.l.b.⁊.b.c.quare vt prius.b.c.⁊.e.f.pariter accepte ſunt longiores linea.h.k.
 
-tres anguli ſuperficiales quoy quindy ouo pariter aci {dropcap:[illegible]|lines=5|style=decorated}cepti tertio ſint maiores cunctis iibi inuicem cquis lincis
+[Figure: three triangles with apexes a, d and g over bases b.c, e.f and h.k, the first with an additional point l joined to b and c]
 
-[Diagram]
-
-conrineantur de tribus baſibus angulos illos ab iplay li neay equalium terminis ſubtendẽnbus triangulum lubfli stui vel conſtitui poſſibile eſt: doint ires ſupfioales anguli. b a c.e deſ.h.g.h.t ppont:ralco videicetut qui qy ono couuy tcrtio ſint maiorcs, ſintaz ſey latera cos continenta cqualia que ſit a h.a.c.d.e. d.f.6.b.5.h. z ſubtẽdant cis tres baſes que ſint. b.c.e.f.b.h. Er bis ergo mnous baſibus trianguli aio conſtitui poſle. Eſto cni angulus.b.a l. cqua, lis angulo. d. z linca.a.l.lince. d.e. ⁊ prorrabantur.l. b.l.c.eritoy cy.4. primi linea Lh, cqualis lince.e.f. cr pporbeſi vero oſtat to ralem angului. a. eſſe maiorcin angu Io, ⁊. crant eni quioz ouo ey tribus angulis.b.a.c.d.4.S. Iertio maiores igir ey. 24
-
-[Diagram]
-
-primi linca.l.c. linca. b. E.e maior.cunqy ſint ey. 2o primi ouc lince.l.b. 2. b.c maio res linea.l.c. ſequitur ouas lincas.l.b. 2.b.c.eſſe multo fortius maiores linca.b.R. quia igitur. l.b. eſt cqualis.c.f.crunt oue lince. b.c. 2.c.fmaiorcs lince.h.E. Tonj ſtat iraqz boc modo quaſay ouas lineas cy tribus lincis. b.c.e.f.h. h. eſſe longi) ores tertia:igir er. 22 primi conſtat veruni eſſc qb oicitur: boc oũtarat addiro ꝙ ſi nuo anguli.b.a. c.2. d. pariter acccpti ſint equales ouobus rectis crunt oue lince La.3.a.c. cr. ia primi linca vna: que cum ſit equalis cy yporbeſi ouabus lincis. ⁊ b.2.S.E, que cy. 2o primi longiores ſunt linea. h.l. cunqy cy eade lince pue.l.b.2.b c. ſint longiores linea.l.c. ſequitur vt prius.b.c. 2.e.f.piter acccpras ce longiores b.l. At vero ſi ouo predicti anguli ſunt maiores puobns rectis: crunt ez. 2i primi oue lince.a.l.z. a.c.ideou z due.5.h.2.5 l. bxcuiorcs puabꝰq̃ ſũt.l.b.2.b.c. qua re vt prins. b.c. 4.c.f. pariter accepte ſunt longio:es linca.b.k.
+[Figure: triangle with horizontal side l.a.c and lines drawn to a point b below; beneath it a second configuration with points c, a, l joined to a point b]
 
 ## Propoſitio .23.
 
-{dropcap:[illegible]|lines=5|style=decorated}Ribus angulis ſupficialious propoiitis quoy quiqz ouo piter accepti tertio ſunt maiores omnes aut trel iimul qua tuoz rectis angulis minoz es: ex tribus illis equalibꝰ qua
+{dropcap:T|lines=4|style=decorated|decoration="white foliate ornament on black ground"}Ribus angulis ſupficialibus propoſitis quoꝝ quiqʒ duo piter accepti tertio ſunt maiores omnes aut tres ſimul quatuor rectis angulis minores:ex tribus illis equalibꝰ qualeſcunqʒ ſint ſolidum angulum conſtituere.
 
-[Diagram]
+¶Sint ppoſiti tres anguli ſupficiales qui ſunt.a.b.c.de tribus illis equalibus volumus vnũ ſolidũ angulũ conſtituere oportet:igiť ex.21.hꝰ vt quiqʒ duo eoꝝ pariter accepti tertio ſint maiores ⁊ ex.21.huius vt omnes piter accepti quatuor rectis angulis ſint minores ex ipſis itaqʒ ſint hec poſita:latera vero eos continẽtia cuncta adinuicem ſint equalia eisqʒ ſubtendantur tres baſes ⁊ ipſe ſint d.e.e.f.⁊.f.d.eritqʒ ex premiſſa poſſibile de tribus lineis his baſibus equalibꝰ triãgulum conſtitui.Sit igiť ex eis cõſtitutꝰ ſm doctrinã.22.primi triangulus.d.e.f. conſtitutus:cui ſicut docuit quinta quarti circũſcribať circulus.d.e.f.ſupra centrum.g.⁊ ptrahãť:g.d.g.e.g.f.que cũ ſint adiuicẽ eq̃les ex dione circuli lateraqʒ
 
-leſcunqz ſint ſoridum angulum conſtituere.
-
-¶Oint ppoſiti tres anguli ſupficiales qui ſunt. a.b.c. ce tribus illis coualibus volumus vnu ſolidũ angulũ conſtitnere oportet: igit ex. 21.hꝰ vt quids ouo coy pariter acccpri tertio ſint maiores z ex.21.buius vr omnes piter accepti quatuor rectis angulis ſint minores ex iplis iras ſint bec polira: latera vero cos continẽtia cuncta adinuicem ſint equalia cis ſubtendantur tres baſes z ipſe ſint d.c.e.f.2.f.d.eritoz ey premiſſa poſſibile de tribus lincis bis baſibus equalibꝰ tri ãgnlum conſtitui. Sir igit ex cis cõſtitutꝰ bm boctrinã.22. primi triangu'us. d.e.f. conſtitutus: cui flicut pocuit quinta quarti circũſcribai circulus. d.e.I.ſupra cent trum.8.z ptrabãt:g.d.S.e.S-I, que cui ſint adiuicé cq̃les cy oione circuli lateraos
-
-pnrmnipiinr ſimriimr uiumiurrmunrrrrriſurmiuruſurymitiiſrri,riyrui 29 16 22 21 19 19 17 18 20 12 17 14 3 19
+[Figure: three triangles with apexes a, b and c over base points d, e, f and d]

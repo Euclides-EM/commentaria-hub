@@ -1,41 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: XIII -->
 
-[Diagram]
+eſt rõnalis in longitudine:ergo per vltimã ptẽ.7.decimi linea.m.k.eſt rõnalis in potentia tm̃ ⁊ qꝛ linea.b.m.ẽ potentior linea.m.k.in quadrato linee ſibi incõmenſurabilis in longitudine vt in cõtinuo ꝓbabiť erit linea.b.k.reſiduũ quartũ ex diffinitione reſidui quarti.Qđ aũt probandũ aſſumpſimus ſic patet.ſit numerus.r.quintuplus ad numeꝝ.ſ.ſintqʒ.t.⁊.ſ.quantũ.r.ac ſi eſſet.r.quinqʒ.ſ.vnũ.t.quatuor:⁊ ſit linea.b.m.potentior linea.m.k.in quadrato linee.x.cũ igiť ſit quadratum linee.b.m.ad quadratũ linee.m.k.ſicut numerꝰ.r.ad numeꝝ.ſ.erit ꝑ euerſã ꝓportionalitatẽ quadratũ linee.b.m.ad quadratũ linee.x.ſicut numerꝰ.r.ad numeꝝ.t.quare per vltimã ptẽ.7.decimi linea.x.ẽ incõmenſurabilis linee.b.m.in longitudine.nõ eſt ergo dubiũ quin.b.k.ſit reſiduũ quartũ.Manifeſtũ vero ẽ ex.34.tertij:ꝙ illud qđ fit ex.b.k.in.k.g.ẽ equale ei qđ fit.a.k.in.k.c.ideoqʒ etiã ipſũ idem eſt equale quadrato.k.c.eo ꝙ.a.k.ẽ equalis.k.c.ergo quadrato.b.k.addito vtriqʒ erit ex penultima primi qđ fit ex.b.k.in ſe ⁊ in.k.g.equale quadrato.b.c.et qꝛ ex prima ſecundi quod fit ex.b.k.in ſe ⁊ i.k.g.eſt equale ei qđ fit ex.b.k.in.g.b.erit linea.b.c.latus tetragonicũ ſupficiei contenti a duabus lineis.g.b.⁊.k.b.⁊ quia linea.g.b.ẽ rõnalis:linea vero.b.k.ẽ reſiduũ quartũ.⁊ qꝛ linea potens in ſuperficiẽ linea rõnali reſiduoqʒ quarto cõtenta eſt linea minor vt conſtat ex.89.decimi libri neceſſe eſt lineã.b.c.que eſt latus pentagoni equilateri ꝓpoſito circulo inſcripti eẽ lineã minorem qđ erat ex principio demonſtrandũ.hoc ergo mõ ſequiť ꝙ latꝰ pentagoni equilateri circulo inſcripti ſit linea minor ſi diameter circuli cui inſcribatur fuerit rõnalis in longitudine.At vero ſi diameter circuli fuerit rõnalis in potentia tm̃.adhuc neceſſe eſt vt latus pentagoni equilateri ſibi inſcripti ſit linea mioꝛ.eſto eni linea.a.rõnalis in potentia tm̃ ſupra quã deſcribatur circulus eiqʒ deſcripto iſcribať pentagonus equilaterus cuius vnũ latus ſit.b.c.dicanťqʒ pentagonus et circulus.a.dico ꝙ linea.b.c.ẽ linea minor.Sumatur eni aliqua linea rõnalis i longitudine que ſit.d.⁊ ſuper eã lineetur circulus cui inſcribať pentagonus equilaterꝰ ⁊ ſit vnũ latus ipſius linea.e.f.dicanťqʒ pentagonus ⁊ circulus.d.conſtat igitur ex hac.12.ꝙ.e.f.ẽ linea minor cũ diameter.d.ſit rõnalis in longitudine.Qm̃ vero ꝓportio pentagoni.a.ad pentagonũ.d.ẽ ſicut quadrati linee.b.c.ad quadratum linee.e.f.vtraqʒ eni ẽ ex ſcđa pte.18.ſexti:ſicut linee.b.c.ad lineã.e.f.duplicata pentagoni aũt.a.ad pentagonũ.d.ẽ ſicut q̃drati.b.c.ad quadratũ linee.e.f.diametri a.ad quadratũ diametri.d.ex prima.12.erit ex.11.quinti quadratum linee.c.b.ad quadratũ linee.e.f.ſicut quadrati diametri.a.ad quadratũ diametri.d.cũqʒ quadrata duaꝝ diametroꝝ.a.⁊.d.ſint cõicantia:qꝛ ambo ſũt rõnalia ex ypotheſi erũt quoqʒ ex prima pte.10.decimi quadrata duaꝝ lineaꝝ.b.c.⁊.e.f.cõicantia:ergo linea.b.c.cõicat i potẽtia cũ linea.e.f.⁊ qꝛ linea.e.f.ẽ minor:ſequiť ex.100.decimi:ꝙ etiã.b.c.ſit linea minor qđ ẽ ꝓpoſitũ.ſiue ergo diameter alicuius circuli ſit rationalis in longitudine ſiue i potẽtia tm̃ neceſſe ẽ vt latus pentagoni equilateri ſibi inſcripti ſit linea minor.
 
-[Diagram]
+[Diagram: circle with inscribed pentagon with vertices a, b, e, c and d, with interior chords and points k, f, m, q, n, p, g, l and h]
 
-[Diagram]
+[Diagram: circle with inscribed pentagon, with labels b, a and c]
 
-[Diagram]
+[Diagram: circle with inscribed pentagon, with labels e, d and f]
 
-[Diagram]
+## Propoſitio .13.
 
-[Diagram]
+{dropcap:P|lines=4|style=decorated|decoration="foliate woodcut initial on black ground"}Iramidẽ q̃tuor baſiũ triãgulariũ ⁊ eq̃lateraꝝ ab aſſignata ſpera circũſcriptibilẽ fabricare hꝰ ergo ſpere diametros ad latꝰ ipſiꝰ piramidis ſexq̃alterã ꝓportionẽ potentialiter habere ꝓbať.¶ Sit linea.a.b.diameter aſſignate ſpere que diuidatur in puncto.c.ita ꝙ.a.c.ſit dupla ad.b.c.⁊ lineeť ſuper eam ſemicirculus.a.d.b.⁊ producatur linea.c.d.orthogonaliter ſup lineã.a.b.⁊ ꝓducať linea
 
-[Diagram]
+[Other type="stamp"]
+BIBLIOTHEQUE SAINTE GENEVIEVE
+[/Other]
 
-[Diagram]
-
-[Diagram]
-
-eſt rõnalis in longirudine: crgo per vlrimã pte.7. vccimi linca.m.t. eſt rõnalis in potentia tiii ? qu linca. b. m.é porcntior linea.m.l. in quadrato lince ſibi incõmen ſurabilis in longitudine vt in cõtinuo pbabit erit linca. b.E. reſiduũ quartũ cr oif finirione reſidui quarti. Oo aũt probandũ aſſumplimus ſic patet. ſit numcrus.r: auintuplus ad numey.f.ſuitoy.t.t. f.quantũ.r. ac ſieſſet.r. quindz.ſ.vnũ.t. quatu or: c ſit linea. b.m.potentior linca.m.E. in quadrato lince.y. cũ igit ſit quadratium lince.b.m.ad quadratũ lince.m.l. ficut numerꝰ r.ad nuniey.f.erit peucrſã ppor tionaliraté quadratu lince.b.m.ad quadratũ linec.y. ſicut numerꝰ r.ad numen.t. quare per vltimã ptẽ.7. oecim linea.x.é incõmenſurabilis linec.b. m.in longitudi nc. nõ eſt ergo oubiũ quin.b.l. ſit reſiduũ quartu. DHanifeſtũ vero ẽ cy.3 a tertij: q ilnd qo fit er.b.lt.in. le.g-ẽ́ cquale ci qo fit.a l.in. R.c.ideogy ctã ipli idem eſt qquale quadrato.l.c.eo q. a. le. é equalis. R.c. ergo quadrato. b.lt. addito vtriqz erit er penulrima primi qo fit cr.b.l in ſe c in. E.g-cquale quadrato b.c. et qucr puna ſecundi quop fir er. b.R.in ſe ci.h.g-eſt eqale ci qo fit er.b.R.in..4.b.crit luca.b.c. latus terragonicũ ſupficici contenti a ouabus lincis. g.b.t.E.b. z quia li nea.g. b.ẽ rõnalis:linca vero. b. R.ẽ reſiduũ quartũ. zq lnea porens in ſuperficiẽ linca rõnali reſiduoqz quarto cõtenta eſt lincea minor vr conſtat ey. 9y vecimi libri neceſſe eſt lineã. b.c. que eſt latus pentagont equilaten ppoſito circulo inſcripti cẽ lincã minorem qo crat cr principio pemonſtrandũ. hoc ergo mõ ſequit ꝙ latꝰ pen ra gont cquilateri circulo inſcripti ſir linea minor ſi oiameter circuli cui inſcribatur fuerit rõnalis in longirudine. At vero ſi oiamcter circuli fuerit rõnalis in porcntia tiui.adbuc neceſſe eſt vr latus pentagoni cquilaten ſibi inſcrpri ſir linca mion. eſto cni lines. a ronalis in potentia tini ſupra quã oeſcribaiur circulus ciay deſcripto iꝰ ſcnbat pentagonus cquilatcrus cuius vnu latus ſit. b.c. bicanros pentagonus et circulus.a. olco q linea. b.c élinca minoi. Sumnatur cni aliqua linca ronalis i lon gitudine que ſit.d.z ſuper cã linectnr circulrs cui inſcribar pentagonns cquilater? zlit vnũ latus ipſius linca. e.f oicauiay pentagonus ⁊ circulus.d.conſtat igitur er
-
-[Diagram]
-
-[Diagram]
-
-hac. i2. ꝙ.e.f.e linea minor cui oiamerer.d.ſit rona’is in loncitudine. Om vero pꝰ porro pentagoni.a ad pentagonũ.d.é ficut quadrati lince. b.c.ad quadratum ii, nee. c.f. vtraqz eni é cy ſcoa pte.1s. ſcyti: ſicut lince. b.c.ad lincã.c. f. ouplicata pen tagoni aũt.a. ad pentagonui .d.c ſicut q̃drati. b.c.ad quadratui lince.e. f.oiametri a.ad quadratii biametri. d.er prima. n2.erit er.Ii, quinti quadratum lince. c.b.ad quadratũ lince.c.f.ſicut quadrari diainetri.a. ad quadratui oiamctri. d. cũgy qua drata ouay biamctroy. a.z. d. ſint cõicantia: q ambo ſut ronalia cr pporbeſi eruit quoqz cr prima ptc.io.dccinii quadrata ouay lincay. b.c. 2.c.f. coicantia :crgo li, nca.b.c.coicat i potetia cũ linca. e. f.z qu linea.e.f. e minor: ſequit er. ioo. occimi: v cilã.b.c ſit linca minos qbé ppoſii, ſiue ergo biametcr alicuſus circuli ſit ra tonalis in longitudine ſiei poretia tin neceſſee vt larus pentagoni equilateri ſi Propoſitio .i3.
-
-## [illegible]
-
-{dropcap:[illegible]|lines=5|style=decorated}bi inſcripti ſit linca minor
-
-[Diagram]
-
-[Diagram]
-
-Jramidẽ q̃tuor baſiũ triãgulariũ ⁊ eqlatcrax ab aſſigna ta ſpera circũſcriptibilé fabricare bꝰ ergo ſpere diome. tros ad latꝰ ipliꝰ piramidis ſerqalterã pportionẽ potel tialiter babere pbai.
-
-¶ Sit linea.a.b. biameter aſſignate ſper que oiuidatur in puncto.c.ita ꝙ.a. c. ſit oupla ad.b.c.⁊ lincer ſuper eam ſemicir. culus. a d.b.e producatur linca.c. d outbogonaliter ſup linci.a.b.e pucat linca
-
-<!-- Signature: [illegible] -->
+<!-- Signature: [unclear: z] -->

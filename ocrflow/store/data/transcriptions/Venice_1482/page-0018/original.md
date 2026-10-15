@@ -1,37 +1,29 @@
-{dropcap:[illegible]|lines=5|style=decorated}Mta recta linea ſup terminũ eins cuilibet angulo ppoſito
+{dropcap:D|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ata recta linea ſup terminũ eius cuilibet angulo ꝓpoſito equum angulum deſignare.
 
-[Diagram]
+¶Sit data linea.f.e.que ẽ in ſuperioꝛi figura:⁊ ſint linee.b.a.ꝯtinentes ãgulũ datũ cui ſubtendã baſim.c.ſup pũctũ.f.linee.e.f.iubere facere eq̃lẽ angulũ angulo dato ad lineã.e.f.adiũgo.f.d.eq̃lem linee.a ⁊ ex f.e.ſũmo.f.g.eq̃lẽ.b.⁊ ex.g.e.ſũmo.g.h.eq̃lẽ.c.⁊ ſup puncta.f.⁊.g.deſcribo duos circulos.d.k.⁊.k.h.ſm̃ quantitatẽ duarũ linearũ.f.d.⁊.g.h.⁊ int̃ſecãtes ſe in pũcto.k.ſicut docuit p̃cedẽs:ductiſqʒ lineis.k.f.⁊.k.g.erũt eq̃lia duo latera.k.f.⁊.f.g.trianguli.k.f.g.duobus laterib⁹.a.⁊.b.trianguli.a.b.c.⁊ baſis.g.k.eq̃lis baſi.c.ergo ꝑ.8.angulꝰ.k.f.g.eq̃lˀ erit angulo ꝯtẽto.ab.a.⁊.a.b.qð ẽ ꝓpoſitum.
 
-[Diagram]
+[Margin]
+[Diagram: small triangle with vertices c, a and b; below, two intersecting circles with centres f and g on a horizontal line through e, h, g, f and d, intersecting at point k, with lines drawn from k to f and g]
+[/Margin]
 
-[Diagram]
+## Propoſitio 24.
 
-equum angulum oeſignare. it oata linea.f.e, que ein ſuperioni figura: z fint lince. b.a. orinen tes ãgulũ oatũ cui ſubtenda baſim. c ſup pũctu.f.linec. c. f.iubere fa lccre eqlé anguli angulo oato ad lincã. c. f.adiũgo. f. d. cqlem lince. a zex f.e. ſũmo. f.g-eq̃le. b.tex.g.c. ſũmo.g.b.eq̃lẽ.c.z ſup puncta.f.2. g. deſcrbo
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mniũ duoꝝ trianguloꝝ quoꝝ duo latera vni⁹duob⁹lateribꝰalteri⁹fuerint eq̃lia:ſi fuerit anguloꝝ ſub illis eq̃s laterib⁹ꝓtẽtoꝝ alter altero maioꝛ baſis quoqʒ eiuſdẽ baſi alterius maioꝛ erit.
 
-[Diagram]
+¶Sint duo triãguli.a.b.c.⁊.d.e.f.ſintqʒ duo latera.a.b.⁊.a.c. eq̃lia duob⁹laterib⁹.d.e.⁊.d.f.⁊ vnũquodqʒ ſuo correlatio dextrũ.ſ.dextro:ſiniſtrũqʒ ſiniſtro:ſitqʒ angulus.a.maioꝛ angulo.d.dato:dico ꝙ baſis.b.c.maioꝛ erit baſi.e.f.faciã.n.iuxta doctrinã p̃cedentis.e.d.g.eq̃lẽ angulo.a.eritqʒ ãgulus.e.d.f.ps ei⁹⁊ ponã.d.g.eq̃lẽ.a.c.⁊ ꝓtrahã.e.g.q̃ aut trãſibit ſup.e.f.vt ſecet lineã.d.f.aut ſup.e.f.vt ſit ſecũ linea vna:aut infra. Tranſeat ergo p̃mo ſup̃:⁊ qꝛ.a.b.⁊.a.c latera triãguli.a.b.c.ſt̃ eq̃lia.e.d.⁊.d.g.laterib⁹trianguli.e.d.g.⁊ angul⁹.a.angulo.d.totali:erit ꝑ.8.baſis.b.c.eq̃lis baſi.e.g.At v̂o qꝛ.d.g.⁊.d.f.ſũt eq̃les:nam vtraqʒ ẽ eq̃lis.a.c.erit ꝑ.5.angul⁹.d.f.g.eq̃lis angulo.d.g.f.q̃re d.f.g.maioꝛ erit f.g.e.⁊.e.f.g.młto foꝛti⁹maioꝛ ẽ eodẽ.f.g.e.g̃ ꝑ.18.lat⁹.e.g.mai⁹ẽ latere.e.f.q̃re ⁊.b.c.maioꝛ ẽ.e.f.qð ẽ ꝓpoſitũ.Si v̂o.e.g.trãſeat ſup.e.f.⁊ ſit ſecũ linea vna tũc e.f.erit ps.e.g.ꝑ vltimã g̃ ꝯceptõem pʒ ꝓpoſitũ.Si v̂o.e.g.trãſeat ifra.e.f.ꝓtrahanᷣ due linee.d.f.⁊.d.g.q̃ ſũt eq̃les vt ꝓbatũ ẽ vſqʒ ad.k.⁊ ad.h.fientqʒ ꝑ ſcðaʒ ptẽ.q̃nte ſub baſi.f.g.anguli.k.f.g.⁊.f.g.h.eq̃les:q̃re angul⁹.e.f.g.maioꝛ erit angulo.f.g.e.ergo ꝑ.18.lat⁹.e.g.mai⁹ẽ latere.e.f.q̃re.b.c.maioꝛ ẽ.e.f.qð ẽ ꝓpoſitũ. Iſtud vltimũ mẽbrũ poſſʒ ẽt ꝓbari ꝑ.21.ꝑ ipſaʒ.n.erũt ĩ diſpoſitõe iſta due linee.d.g.⁊.e.g.maiores duabus lineis.d.f.⁊.f.e.⁊ qꝛ.d.g.ẽ eq̃lis.d.f.ꝓpt̃ hoc ꝙ ambe ſũt eq̃les.a.c.erit.g.e.maioꝛ.e.f.q̃re ⁊.b.c.maioꝛ:qð ẽ ꝓpoſitũ:meli⁹tñ eſt demonſtrare prioꝛi mõ vt in omni diſpoſitõe arguaᷣ per quintam.
 
-[Diagram]
+[Margin]
+[Diagram: two triangles, one with apex d and base e.g, with interior lines through f and lines extended below the base to points k and h, the other with apex a and base b.c]
+[/Margin]
 
-[Diagram]
+## Propoſitio 25.
 
-ouos circulos. d.l.2.l. h. bm quantitaté ouaru lincar.f.d.c.5.h.⁊ in tlecãtes ſe in pũcto.E. fcut oocuit pcedẽs: ouctiſay lincis. l. f.z. I. s-crũt cqlia ouo latera. l. f.2.f.g. trianguli. R. f.g. ouobus lateribꝰ. a.. b. trionguli.a. b.c.z baſis. S.l cq̃lis baſi, cergo pe.s.angul E f.g. cq̃l erit angnlo ptéto, ab.a. a. b.qbẽ ppoiitum.
+{dropcap:O|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mniũ duoꝝ trianguloꝝ quoꝝ duo latera vni⁹duob⁹lateribꝰalteri⁹fuerint eq̃lia:baſis v̂o vni⁹baſi alteri⁹fuerit maioꝛ:erit quoqʒ angul⁹trianguli maioꝛis illis eq̃s laterib⁹ contentus angulo alterius ſe reſpiciente maioꝛ.
 
-## Propoſitio 24
+¶Sint duo triãguli.a.b.c. d.e.f.ſintqʒ duo lat̃a.a.b.⁊.a.c.p̃mi eq̃lia duob⁹laterib⁹.d.e.⁊.d.f.ſcði vnũquodqʒ ſuo correlatio:ſitqʒ baſis.b.c.maioꝛ baſi.e.f.dico ꝙ ãgul⁹.a.maioꝛ erit angło.d.hec ẽ ꝯuerſa p̃cedẽtis:Eq̃lis q̃dẽ non erit:ſic.n.eſſet ꝑ.4.baſis.b.c.eq̃lis baſi.e.f.qð ẽ ꝯ ypotheſym:ſed nec minoꝛ quia ſic eſſet.d.maioꝛ:⁊ ita ꝑ p̃cedẽtẽ baſis.e.f.erit maioꝛ baſi.b.c.qð ẽ ꝯꝛiũ ꝓpoſitiõi q̃re maioꝛ erit ſicqʒ ꝓpoſitũ aſtruiᷣ.
 
-{dropcap:[illegible]|lines=5|style=decorated}Aniũ ouox trianguloy quoy ouo latera oniꝰouobꝰ laꝰ teribꝰ alteriꝰ fuerint eqlia: ſi fucrit angulox ſub illis eqo lateribꝰ ytetoy alter altero maior balis quoqs eiulde baſi alterius maion erit.
+[Margin]
+[Diagram: two triangles, one with apex a and base b.c, the other with apex d and base e.f]
+[/Margin]
 
-[Diagram]
-
-¶Oint ouo triãguli, a.b. c.z. d.e.f.ſintoz ouo latera. a b.t. a.c. cq̃¬ lia ouob’lateribꝰ, d.e. z. d.f.z vnuiquodoay ſuo correlatio oeytrũ.ſ.ocytro: ſiniſtrũ y ſiniſtro: ſitay angulus. a. maior angulo d.bato: oico ꝙ baſis. b. c. maior crit ba fi.e.f. faciã.n.iurta doctrinã pcedentis.e. d.g cq̃le angulo. a. eritoy ãgulus. e.d.f. ps ciꝰz ponã. d.g-cqlẽ. a.c.z ptrabã.e.s- q̃ aut traſibit ſup.e. f.vt ſecer lincã. d.f. out ſup.e. f. vt ſit ſccũ linca pna: aut infra. Tranſeat ergo pmo ſup̃: cqu.a.b.2.a c larera triãguli. a. b.c.ſt cq̃lla. e. d.t.d.s latcribꝰtrianguli.e. d.s.z. angul' a.angu lo d. toraiiserit p.s. baſis. b.c. cõlis baſi, e g.at vo ou. d gt d.f'ſut coleo: nam vrraoy é cq̃lis.a. c.ent ps angul' df.g cq̃is anqulo. d.s f. qre def.g maior erit f.g-e.ge.f.s-mlto foitl maionc code.f.g-e. 6̃p.is. lat'. e.g maiꝰẽ latere.e. f.q̃re b.Cmaior e. c.f.qoé xpoſitui. Ou vo.c.S traſcar ſup e f.c ſit ſcci linca vna mc e.f.erit ps.e.sp vlrima g occptõem pz ppoſitũ. Si vo.c.g. traſcat ifra. e.f. pira bant ouc hinee as, e. dg q̃ ſut cqles vt pain é vicad. E tad. b. fictoy plcony ptẽ. qnte ſub baſi.f.g-anguii. l.f.s.2.f.s.b.cq̃les. qre angulꝰ. e.f.g-maior erit an gnlo.f.g.c. crgo p.is.lat'.e.g-maiꝰ e larcre.e. f.q̃re. b.c maioné. c.f.qbẽ ppoſi, tu. Sſtud vltimi mcbrũ poſſz ẽt pbari p. ai. P-ipla.n.ernt i oiſpoſitoe tria oue iince, d.g z.e,g maiorcs onabns licis. d.ſ. ef.e. sor d.p- é colis d f. ppt poc gambe ſũt cq̃les. a.c.crit. ge. maion. e.f.q̃re e.b.c.maior:obe ppoſitu: mell’tĩ
-
-[Diagram]
-
-eſt oemonſtrare priori mõ vt in omni oiſpoſitõe arguai per quintam.
-
-## Propoſitio a5.
-
-{dropcap:[illegible]|lines=5|style=decorated}Priniui ouoy trianguloy quoy ouo latera vniꝰ onob'late ribꝰalteriꝰfuerint eqlia:baſis po vniꝰbali alteriꝰfucrit ma ior: erit quoqs angulꝰtrian guli maioris illis eqs laterib?̃ contentus angulo alterius ſe reſpiciente maioz. Ii cmt ouo miagni, a bc. de. fſinty cuolato a b. 1.ac pnicq̃ la ouob'lateris? d.c s. d.ficoii vnuquodo ſuo corrclatio: ſitoy balis. bec maioi baſi, e.f.vico v agui. a. maion grit anglo, d'hecé oucrſa pcedeno r'qlis qde non ent:ſic. n,eſſer p-a baſi b.. cõlis baſi.e f.ob èy moibeſmeſca nes minor quia fie elſes d maior a ua ppeedeté baſis, ef erit maionbaſi bc.ap é onu ppolioi q̃re maion cnt ſicas rpoiutu aſtruit.
-
-<!-- Signature: [illegible] -->
-
-## [illegible]
+## Propõ .26.

@@ -1,41 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VII -->
 
-totiens poteſt ficri quoriens continetur. b.in.a.ſequitur vi numerus equalis ag. gregato cr.b.2. d. totiens cõtincat in aggregato ey. a.2.c.quotiens. b.continctur ĩn a onare conſtat propoſitũ. Propoſitio &
+totiens poteſt fieri quotiens continetur.b.in.a.ſequitur ut numerus equalis aggregato ex.b.⁊.d.totiens cõtineat̃ in aggregato ex.a.⁊.c.quotiens.b.continetur in.a.quare conſtat propoſitũ.
 
-## [illegible]
+## Propoſitio .6.
 
-J fuerint quatuoz numeri quorum primus tote ptes ſcoi {dropcap:[illegible]|lines=5|style=decorated}quote tertius quarti: erunt primus ⁊ tertins pariter acce,
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quatuor numeri quorum primus tote ptes ſcꝺi quote tertius quarti:erunt primus ⁊ tertius pariter accepti tote partes ſecundi ⁊ quarti pariter acceptorum. quote primus ſecundi.
 
-[Diagram]
+¶Qꝺ ꝓpoſuit premiſſa de parte:ꝓponit iſta de partibꝰ. Sint itaqʒ vt prius quatuor numeri.a.b.c.d.ſitqʒ ut.b.ſit tot ⁊ tote ptes.a.quot ⁊ quote.d.ẽ.c.dico ꝙ.b.⁊.d.pariter accepti erunt tot ⁊ tote ptes.a.⁊.c.pariter acceptorum:quot ⁊ quote.b.eſt.a.dico aũt tot ⁊ totas:qꝛ ptiũ pluralitas duobus numeris diffinitur:quoꝝ alter numerator dicit̃ alter denominator:ut cũ dicimꝰ tres quinte:ternarius numerat:quinarius denominat. Quia igit̃.b.eſt ptes.a.ſit vt ſint ptes eiꝰ numerate ab.h.⁊ denominate a.k.eritqʒ ſimiliter ꝑ poſitionẽ.d.partes.c.numerate ab.h.⁊ denoĩate a.k. Vna itaqʒ ptiũ.b.ſit.e.⁊ vna ptium.d.ſit.f.eritqʒ per ypothe.e.pars.b.denominata ab.h.⁊ pars.a.denominata a.k. Similiter quoqʒ ⁊.f.erit pars.d.ſcꝺm.h.⁊ ps.c.ſcꝺm.k. Cõpoſitus igitur ex.e.⁊.f.ſit.g.eritqʒ per premiſſam.g.ps.b.⁊.d.pariter acceptoꝝ ſcꝺm.h.itẽqʒ per eandẽ erit pars.a.⁊.c.pariter acceptoꝝ ſcꝺm.k.quare per.16.diffinitionẽ erunt.b.⁊.d.pariter accepti ptes.a.⁊.c.pariter acceptorũ numerate ab.h.⁊ denoĩate a.k.eo ꝙ eorum cõmunis pars eſt.g.minoris ſm.h.⁊ maioris ſm.k.⁊ quia ſic erat.b.a.conſtat ꝓpoſitum.
 
-pti tote partes ſecundi z quarti pariter acceptorum. quo re primus ſecundi.
+[Diagram: paired horizontal segments labelled a and c, b and d, and e and f, with a segment labelled g and a longer segment labelled h, f, e and k beneath]
 
-¶ Do ppoſuit premilla de parte: xponit ilta de partibꝰ. Sint itaz rt pyins quatuor numeri. a.b.c. d.ſitoyut. b.ſit tot z tote ptes. a, quot zquote d.
+¶Potes autẽ ⁊ per hanc ⁊ premiſſã qꝺ ꝓponit de quatuor numeris ad quotlibet numeros ampliare:ꝙ ſi quotlibet numeri minores ad totidem maiores cõparent̃ fueritqʒ ſingule ſinguloꝝ tota pars aut partes:quota vel quote primus ſcꝺi:erunt quoqʒ omnes pariter accepti tota pars aut ptes omnium pariter acceptoꝝ quota vel quote primus ſcꝺi.qꝺ facile probatur ꝑ hanc ⁊ premiſſam:quotiens oportuerit repetitas. Et ſi crederemus eſſe intentionẽ euclidis aſſumere ex prius demonſtratis aliqua ad demonſtrationẽ eoꝝ:que hic proponit ex.13.quinti:facile demõſtraſſemꝰ hanc ſextam. Nunc autem qꝛ videt̃ oppoſitũ aliter eni ſuperuacue propoſuiſſet multa de numeris que demonſtrata ſunt in quinto de quantitatibus in genere. Neceſſe habuimus proprijs vti demonſtrationibus tanquã ex prioribus nihil ſumentes:ſolis huius ſeptimi contenti principijs:propter qꝺ ⁊ petitiones ⁊ cões animi cõceptiones ꝓpoſiti proprias nõ incõuenienter huius ſeptimi principio appoſuimus.
 
-[Diagram]
+## Propoſitio .7.
 
-2̃C.pico ꝙ.b.2.d. pariter accepti erunt tot ztote ptes. a.1.c. pariter acccptorm: anot zonote.b.eſt.a.oico aũt tot e toras: qr priũſpluraliras ouobus numeris pif finitur: quoy alter numerator dicit alter benominator:ut cũ oicim tres quinte:ter narius numerat: quinarius denominat. Ouia igit. b.eſt pres. a. ſit vt ſint pres eiꝰ numerate ab. h.z benominate a.E. eritaz ſimiliter p poſitionẽ. d.partes. c. nume rate ab. h, ⁊ benoiate a.l. Ina itagz ptiu. b. fit.e.⁊ vna ptium. d. ſit. f. critaz ner motbe. c.pars.b. denominata ab. b. ⁊ pars. a. denominata a.h. Similiter quoq; ferit pars. d.ſcom. b. 1ps.c.ſcom. R. Cõpoſitus igitur cy.e. 2.f. fit.g- erity per pemiſſam. g. po.b. t.d. pariter acceptoy ſcom. h. itez per candẽ crit pars. a.2.c
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint duo numeri quorum vnus alterius pars detrahaturqʒ ab ambobꝰ ipſa ps:erit reliquus tota ps reliqui quota totus totius.
 
-[Diagram]
+¶Qꝺ proponit hic euclides de numeris propoſuit ſuperius in quinta quinti.de quantitatibus in genere. Sit itaqʒ ut quota pars eſt totus.a.totius.b.totꝰ ſit.c.detractus ab.a.d.detracti.a.b.dico ꝙ tota erit.e.reſiduus.a.f.reſidui.b.quota eſt totus.a.totius.b.⁊ hec eſt quaſi cõuerſa quinte. Sit enim ꝑ petitionẽ.e.tota ps.g.quota.c.eſt.d.eritqʒ ꝑ.5.tota ps.a.cõpoſiti ex.g.⁊.d.quota eſt.c.d.quare ⁊ quota ẽ.a.b.igit̃ per ſcꝺam cõceptionẽ cõpoſitus.ex.g.⁊.d.eſt equalis.b.dempto itaqʒ ab vtroqʒ numero.d.erit.g.equalis.f.quare erit
 
-pariter acccptoy ſcoim. l. quare per.is. oiffinitioné erunt. b.. d pariter accepnp tes a. 2.c pariter acceptoru numerate ab. b. z oenoiate a. E. eo ꝙ corum cõmunis pars eſt.⁊.minoris bu.h. ⁊ maioris fmn. l.z quia ſic erat. b.a. conſtat ppofitum.
+[Diagram: a horizontal line labelled f, b and d with a diagonal segment labelled g descending to b, and a shorter segment labelled a with e and c beneath]
 
-¶ Potes aute z per banc c premiſſã oo pponir de quatuor numeris ad quorlibct numeros ampliare: ꝙ li quotibet numeri minores ad totidem maiores cõparent fueritoz ſingule ſinguloy tora pars aut partes: quora vel quote primus ſcoi:erunt ouoot omncs pariter accepti tora pars aut ptes omnium pariter acceptoy quora vel quote primus ſcoi.qu facilc probatur p banc z premiſſam: quotiens oportue, rit repetitas. Et ſi crederemus eſſe intentione euclidis aſſumere ex prius demon? stratis aliqua ad demonſtrationẽ eoy: que bic proponit er.1y quinti: facile pemõ
-
-[Diagram]
-
-ſtraſſem' banc ſeram.Ilunc autem qu videt oppolitũ aliter eni ſuperuacue pro poinilſet multa be numeris que bemonſtrata ſunt in quinto de quantiratibus in gencre. Ieceſſe babuimus proprils vti oemonſtrationibus tanquã ex prioribus nibil ſnmentes: ſolis buius ſeptimi contenti principijs: propter qo z petirionce z cões animi cõceptiones ꝓpoliti proprias nõ incõuenienter buins ſeptimi princis pio appoſuimus.
-
-## Propoſitio.2.
-
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint duo uumeri quozum vnus alterins pars detra, baturqz ab ambobꝰ ipla po: erit reliquus toia ps reliqui
-
-[Diagram]
-
-quota totus torius.
-
-¶ Do proponit bic eudides oe numeris propoſuit ſuperius in quin ta quinti.be quantitatibus in genere. Sit itaaz ut quora pars eſt to tus. a.totins. b.totꝰ lit.c.oetractus ab.a.d. oetracti.a.b. oico ꝙ tota crit. c. reſi, duns. a.f.reſidui.b, quota eſt totus. a.totius. b. hec eſt quaſi cõuerſa quinte. Sit eim p peitionẽ.e. tora ps.g-quora.c.eſt. d.eritqy p.s.tota ps.a.cõpoliti cy. g z.d. quota eſt.c.d quare z quota ẽ. a.b.igit per ſcoam cõceptionẽ cõpolitus. er S 2.d. eſt cqualis. b. bempto ira ab vtroas numero.d-erit.q-cqualis. f. quare erit
-
-<!-- Signature: [illegible] -->
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: g 2 -->

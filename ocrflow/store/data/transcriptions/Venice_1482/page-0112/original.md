@@ -1,31 +1,29 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-ea per que pceſfit in quinto ipſa pemonſtrare intendit: paincipia enim quinti prs nter maliciam quãtitatum incõicantium oifficilia ſunt :princpia vero numerou maais vltro ſe intellectui applicãt: faciluſoz qz illa. Egeut eni illa intellectu magia
+ea per que ꝓceſſit in quinto ipſa demonſtrare intendit:principia enim quinti propter maliciam quãtitatum incõicantium difficilia ſunt:principia vero numeroꝝ magis vltro ſe intellectui applicãt:faciliuſqʒ qʒ illa.Egent eni illa intellectu magis diſpoſito.
 
-## PPropolitio .13.
+## Propoſitio .13.
 
-oiſpoſito. {dropcap:[illegible]|lines=5|style=decorated}J fuerint quorlibet numeri pportionales quantus erit onus aũs ad ſuũ olequẽtẽ:tanti erũt oẽs antecedẽtes paꝰ riter accepti ad oẽs cõſequẽtes pariter acceptos.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quotlibet numeri ꝓportionales quantus erit vnus añs ad ſuũ ꝯſequẽtẽ:tanti erũt oẽs antecedẽtes pariter accepti ad oẽs cõſequẽtes pariter acceptos.
 
-¶De pponit euclides peiz quinti ce quantitatib? i genere pponit Ipbanc be numerio: vr ſi ſint. a. b. 2.c.d.z.e. ſ. ppontionales oico q Aẽ pportio. a.ad.b.ca eſt q̃.a. c.c. pariter acceptoy ad.b. d.f, pariter acccptos. Si
+¶Qꝺ ꝓponit euclides p.13.quinti de quantitatib⁹ i genere ꝓponit ꝑ hanc de numeris:vt ſi ſint.a.b.⁊.c.d.⁊.e.f.ꝓportionales dico ꝙ q̃ ẽ ꝓportio.a.ad.b.ea eſt q̃.a.c.e.pariter acceptoꝝ ad.b.d.f.pariter acceptos.Si enim.a.c.e.ſint minores.b.d.f.erit per cõuerſionẽ diffinitionis quota ps aut partes.a.b.tota vel tote.c.d.⁊.e.f.per.5.ergo vel per.6.quotiens oportuerit repetitas:erit quota pars vel partes.a.b.tota vel tote.a.c.e.pariter accepti.b.d.f.pariter acceptoꝝ:quare per diffinitionẽ ꝓportio vna.Si autem.a.c.e.ſint maiores b.d.f.erit per primam partem.11.quota pars vel partes.b.a.tota vel tote.d.c.⁊.f e.per.5.ergo vel.6.quotiens oportuerit repetitas:erit quota pars vel partes.b.a. tota vel tote.b.d.f.pariter accepti.a.c.e.pariter acceptorum.itaqʒ per ſcꝺam partem.11.proportio.a.ad.b.ſicut.a.c.e.pariter acceptorum ad.b.d.f.pariter acceptos:quod eſt propoſitum.
 
-[Diagram]
+[Diagram: three pairs of horizontal segments, labelled a over b, c over d and e over f]
 
-enim.a.c e ſint minoies.b d.f. crit per couerſioné oiffinitions quora pe aut par tco a.bltota vel tote c.d.z.e f. pers crgo va per.s quonens oponuerit repeus tao:enit quora pars vel partes. a.b. tora vel rore. a.c.e pariter accepti. b. d.f. par riter acceptoy quare per oiffintione ppoulo vna. St aurcm.a. c.e, ſimt maiores b.d. f,erit per pnimam partem. ii quoia par vel partco. b.a tora vdl rore. d.c.25 e ner, s, crgo vel.s quoriens oportuerit reperitas: erit quora pars vd partes.b.a.
+## Propoſitio .14.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quatuor numeri proportionales:permutatim quoqʒ proportionales erunt.
 
-tora vel tote. b.d.f.pariter accepti.a.c.e pariter acceptonum. iray per ſcoam par tem.ii. propoutio. a.ad.b.ſicut.a. c.e paritcr acceptorum ad.b .d.l. panter accez ptos: quod eſt propoſitum.
+¶Modũ arguẽdi qui dicitur proportionalitas permutata quã demonſtrauit euclides per.16.quinti in quãtitatibus in genere:ꝓponit hic demonſtrandũ i numeris:vt Si ſit ꝓportio.a.ad.b.ſicut.c.ad.d erit permutatim.a.ad.c.ſicut.b.ad.d.erit eni.a.maior.b.aut minor:ſilr̃ quoqʒ et maior.c.aut minor.Sit itaqʒ primo minor vtroqʒ:erit ergo ꝑ preſentem ypothe.et conuerſionem diffinitionis.a.tota pars aut partes.b.quota vel quote.c.d.per.9. itaqʒ vel.10.erit ꝑmutatim.a.tota pars aut ptes.c.quota vel quote.b.d.quare per diffinitionẽ proportio vna.Sit igitur.a.maior vtroqʒ:eritqʒ per primam partem 11.vt quota pars aut partes eſt.b.a.tota vel tote ſit.d.c.quare per.9.vel.10.tota pars aut ptes erit.b.d.quota vel quote.c.a.igitur per ſcꝺam partẽ.11.erit.a.ad.c. ſicut.b.ad.d.Sit tertio.a.maior.b.⁊ minor.c.eritqʒ ꝑ primã ptẽ.11.tota pars aut ptes.b.a.quota vel quote.d.c.quare per.9.vel.10.quota vel quote eſt.a.c.tota vel tote erit.b.d.per diffinitionẽ itaqʒ ꝓportio vna:Vltimo quoqʒ ſit.a.mĩor.b.maiorqʒ.c.eritqʒ vt tota pars aut partes ſit.c.d.quota vel quote eſt.a.b.per.9.itaqʒ vel.10.erit tota vel tote.d.b.quota vel quote.c.a.quare per ſecundã partem.11.b ad.d.ſicut.a.ad.c.ſicqʒ conſtat propoſitum:huic autẽ cedũt.9.vel.10.qʒ hec ſola ꝙ ambe ille proponit.
 
-## Propoſitio.ia.
+[Diagram: two pairs of horizontal segments, labelled a over b and c over d]
 
-{dropcap:[illegible]|lines=5|style=decorated}S fuerint quãtuor numeri proportionales: permutanm quoqz proportionales erunt. d Dl vodu arguedi qui bicitur proportionaliras permutara quã pel
+[Diagram: two pairs of horizontal segments, labelled a over b and c over d]
 
-[Diagram]
+[Diagram: two pairs of horizontal segments, labelled a over b and c over d]
 
-monſtrauit euclidcs pcr.is,quinti in quãtiratibus in gencre: pponit Jbic bamnonſtrandũ i numeris: vr Si ſit pportio. a. ad. b. ſicut. c.ad.d erit pcrmufatim.a. ad.c.ſicut.b.ad.d.erit eni.a. maioi. b. aut minor ſillr quogy er maion.c.aut minor. Sit ira primo minor vtrogs: erit ergo p preſentem ypoibe.c conuerſionem oiffinirionis.a. tora pars aut partes.b. quota vel quote.c. d.pcr.9. itac vel. io crit pmutarim, a. iora paro aut pres.c quora vel quoie. b. d quare per oiffinirionẽ proportio vna.Sit igitur. a.maion vtro: crit per primam partem q.vt quota pars aut partes eſt.b.a. tora vd iore ſit. d.c. quare per. ꝓ. vel-io tora pars aut ptes erit.b.d. quota vel quote.c.a. igirur per ſccam parié. ii. crit.a.ad.c. ficut.b.ad.d.Sit tertio. a. maior. b.z minor. c.eritoy p primã pté.n.tora pars aut ples. b.a.quora vel quote. d.c. quare per.ꝓ vel aio. quora vel quote eſt.a.c. tota va tore erit.b.d. per oiffinitionẽ ira ꝓportio vna: Blrimo quoq ſit.a.mior. b. ma ionqz.c. critqz vt tora pars aut partcs ſit.c.d. quota vel quote eſt. a. b. per.q. itay vel.io. erit tota vel tore. d.b. quora vel quote. c.a. quare per ſccundã partem.11.b ad. d.ficut. a.ad.c. ſicay conſtat propolitum: buic aurẽ cedũt.9. vel.io. qu bec ſola bambe ille proponit. Propoſitio .15.
+## Propoſitio .15.
 
-## [illegible]
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I fuerint quotlibet numeri alijqʒ ſcꝺm eorum numerum omneſqʒ duo ex prioribus ſcꝺm proportionem omnium duoruʒ ex poſterioribus in proportione equalitatis proportionales erunt.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint quorlibct numeri alii ſcom eoum numerum omneſqz ouo ex priozibus ſcom proportionem omninm ouoruz ex poſteriozibusl in proportione equalitatis pro portionales erunt.
-
-¶ DJodũ arguendi qui oicit cqua pportionaliras quã bemnonſtrauit cuciidcs p.az, quinti oe quatiratib in genere ꝓponit bic ocmõſtrãdũ in nunens
+¶Modũ arguendi qui dicit̃ equa ꝓportionalitas quã demonſtrauit euclides p.22.quinti de quãtitatib⁹ in genere ꝓponit hic demõſtrãdũ in numeris

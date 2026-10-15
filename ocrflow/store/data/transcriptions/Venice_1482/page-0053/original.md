@@ -1,25 +1,16 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: IIII -->
+
+[Margin]
+[Diagram: triangle a.b.c beside a circle with inscribed triangle d.e.f and tangent line g.d.h touching the circle at the point d]
+[Diagram: triangle a.b.c beside a circle with centre g inscribed in triangle h.k.l, with lines g.d, g.e and g.f drawn from the centre]
+[/Margin]
 
 ## Propoſitio .2.
 
-[Diagram]
+{dropcap:I|lines=5|style=decorated|decoration="foliate initial on black ground"}Ntra aſſignatũ circulum triangulum triangulo aſſignato equiangulum collocare.¶Sit aſſignatus triãgulus.a.b.c.aſſignatuſqʒ circulus.d.e.f.volo intra hunc circulum collocare vnũ triangulum equiangulum triangulo.a.b.c. equilateruʒ enim non ẽ neceſſariũ:ſed ẽ poſſibile.produco.g.d.h.contingentem circulum in puncto.d.ſuper quẽ facio angulum.h.d.f. ducta linea.d.f.equalẽ angulo.c.⁊ angulum.g.d.e.ducta linea.d.e.equalem angulo.b.⁊ protraho lineam.e.f.eritqʒ per.31.tertii angulꝰ.e.equalis angulo.c.qʒ vterqʒ eſt equalis angulo.h.d.f.c.quidẽ per poſitionẽ.e.vero per.31.tertii eadẽ rõne erit angulus.f.equalis angulo.b.quare per.32.primi.d.tertius erit equalis.a.tertio.quare habemus propoſitum.
 
-{dropcap:[illegible]|lines=5|style=decorated}Ptra aſſignatũ circulum triangulum triangulo aſſigna? to equiangulum collocare.
+## Propoſitio .3.
 
-¶oit aſſignatus trãgulus. a. b.c. aſſignatuſoz cirenlus. d.e.f.volo intra bunc circulum collocare vnũ triangulum cquiangulum trian? l gnlo. a b.c. cqulateruy enim non e neceſariũce ſed é poſſibile pro duco.g.d.h. contingentein circulum in puncto. d. ſuper quẽ facio angulum.b. d.f. oncra linca. d.f.cqualẽ angulo. c.z angulum. g. d.c.oucta linca. d.e. cqualem augu lo. b.z protrabo lincam.e.I. criray per, ⁊u tertii angulꝰ c. cqualis angulo.c. qu vrer z eſt equalis angulo.b. d.f.c.quide per poſitionẽ. e. vero per.31.tertii eade rõne crit angulus.f. cqualis angulo.b, quare per.ꝓz primi. d.tertius erit equalis. a. ier, tio,quare babemus propoſitum.
+{dropcap:C|lines=5|style=decorated|decoration="foliate initial on black ground"}Irca aſſignatum circulum aſſignato triangulo triangulũ equiangulum deſcribere.¶Sint vt prius aſſignatus triangulus.a.b.c. aſſignatuſqʒ circulus d.e.f.cuius centrum.g.circa hunc circulum volo deſcribere vnũ triangulum equiangulum triangulo.a.b.c.equilaterum enim nõ ẽ neceſſarium ſed ẽ poſſibile.producam baſim.b.c.ĩ vtrãqʒ partem.vt fiant duo anguli extrinſeci.⁊ a centro.g.producam lineam.g.d.ad circũferentiam.⁊ conſtituã angulum.d.g.e.ducta linea.g.e.equalem angulo.b.extrinſeco.⁊.d.g.f.ducta linea g.f.equalem.c.extrinſeco.⁊ a punctis.d.e.f.producam in vtranqʒ partem lineas orthogonaliter que per correlʼ.15.tertii erunt contingentes circulũ q̃s cõtingentes ꝓtrahã quouſqʒ concurrant in punctis.h.k.l.neceſſe eſt enim ipſas concurrere. cum enim vterqʒ angulorum qui ſunt ad.d.⁊ vterqʒ eorum qui ſunt ad.e.ſit rectꝰ ſi intelligatur protrahi linea.d.e.erunt duo anguli qui ſunt ad parteʒ.h.minores duobus rectis.quare ꝑ penultimã petitionẽ ĩ ꝑtem illam ꝓtracte concurrent linee l.d.h.k.e.h.eadem rõne concurrent due linee.h.d.l.k.f.l.cum vterqʒ angulorum qui ſunt.ad.f.ſit etiam rectus. Quia ergo in quadrilatero.h.d.e.g.duo anguli.d.⁊.e.ſunt recti.erunt duo anguli.g.⁊.h.equales duobus rectis.cuiuſlibet enim quadrilateri quatuor anguli ſunt equales quatuor rectis.vt mõſtratũ ẽ ſupra.32.primi:⁊ quia duo anguli.b.intrinſecus ⁊ extrinſecus ſunt ſimiliter equales duobꝰ rectis.ꝑ.13.p̃mi:at vero.b.extrinſecꝰ poſitꝰ ẽ equalis.d.g.e.erit intrinſecꝰ.b.equalis.h.ſimili quoqʒ rõne erit.c.intriſecus equalis.l.⁊ quia duo anguli.b.⁊.c.intrinſeci ſunt minores duobus rectis.per.32.primi:erunt ſimiliter duo anguli.h.⁊.l. minores duobus rectis.quare per penultimaʒ petitionem due linee.h.e.⁊.l.f.ꝓtracte concurrent in puncto.k.fietqʒ triangulus.h.k.l.⁊ quia angulus.h.ẽ equalis angulo.b.intrinſeco.⁊ angulus.l.angulo.c.intrinſeco.erit per.32.primi:angulus.k.equalis angulo.a.quare habemus propoſitum.
 
-## Propoſitio 3.
-
-{dropcap:[illegible]|lines=5|style=decorated}Srca allignatum circnlum allignato triangulo triangulũ lẽquiangnlum deſcribere.
-
-¶Sint vt prius aſſignatus triangulus.a. b.c. affignatuſy circulus d.e.f.cuius centrum. g. circa bunc circulnm volo beſcribere vnũ tri
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-langulum equiangulum triangulo. a. b.c.equilaterum enim nõ ẽ ne, ceſſarium ſed ẽ poſſibile. prodncam baſim. b.c.i vtrãz partem. vt fiant ouo angu li crtrinſeci. z a centro. g- producam lineam. g. d.ad circũferentiam. z conſtituã an gulum. d. g.c. oucta linea.g.e. cqualem angulo. b.cytrinſeco. 2. d. g.f. oncta linea g.f. cqualem. c. extrinſeco. ⁊ a punctis. d.e. f. producam in vtranz partem lincas orbogonaliter que per concl.15 tertii crunt contingentes circulu q̃s cõtingentes ptrabã quouſz concurrant in punctis.b. R. I. neceſſe eſt enim ipſas concurrere. cum cuim vtera; angulorum qui ſunt ad.d.z vterz corum qui ſunt ad.e. ſit rectꝰ ſi intelligatur protrabi linca. d.e. crunt ouo anguli qui funt ad partez. b. minores ouobus rectis, quare p pcnultimã petitionẽi ptem illam ptracte concurrent linee l.d.b.lt.c.b. cadem rone concurrent oue lince. b. d.I.E.f.l. cum vteraz angulorum qui ſunt. ad. f. ſit etiam rectus. Quia ergo in quadrilatero. b. d.e.g. ouo angu? li.d.z.e. ſunt recti.crunt ouo anguli.g.z.h. cquales ouobus rectis. cuiuſlibet enimn quadrllateri quatuor augnli ſunt cquales quatuor rectis. vt mõſtratũ ẽſupra.7 primi: z quia ouo anguli. b.intrinſecus z eyrtrinſecus ſunt ſimiliter equales ouob? rectis. p.i pmni:at vero.b. extrinſceꝰ poſitꝰ ẽ equalis. d.g.e.erit intrinſecꝰ. b.cqua lis. h.ſimili quooy rõne crit.c. intriſecus cqualis. l.z quia ouo anguli.b.2. c. intrin ſcci ſunt minores ouobus rectis. per.3z primi:erunt ſimiliter ouo anguli.h.2! minores ouobus rectis, quare per penultima; petitionein oue linee. b.c..l.f. ꝓi rracte concurrent in puncto. l. fietoz triangulus. b. l. I.z quia angulns. b. ẽ cqua? lis angulo.b.intrinſeco.z angulus.l. angulo. c. intrinſeco.erit per.yz primis angu lus. l. cqualis angulo. a. quare babemus propolitum.
-
-## Propoſitio.4
+## Propoſitio .4.

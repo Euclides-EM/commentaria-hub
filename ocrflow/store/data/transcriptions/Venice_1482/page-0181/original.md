@@ -1,39 +1,35 @@
-<!-- Page number: 9 -->
+<!-- Running title: X -->
 
-<!-- Running title: [illegible] -->
+## Pꝛopoſitio .82.
 
-<!-- Running title: Q -->
+{dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduum tertium perſcrutari.
 
-## PPropoſitio .82.
+¶Reſiduum tertium ſic habetur:poſita vt pꝛius.a.rõnali numeroqʒ e.quadrato diuiſo in.f.non quadratum.⁊.g.quadratum:aſſumptoqʒ.b.numero pꝛimo ac quadratum linee.a.ad quadratũ linee.b.c.ſicut.h.ad.e.ſit quadratũ linee.b.c.ad quadratũ linee.c.d.ſicut.e.ad f.eritqʒ ex diffinitione: de quo ſi heſitas cõſule binomiũ tertiũ: linea.d.b.reſiduũ tertium.
 
-{dropcap:[illegible]|lines=6|style=decorated}5 Eſiduum tertium perſcrutari.
+## Pꝛopoſitio .83.
 
-¶ Riduum tertiun iic babetur: poſita vt prius. a rõnall numeroos Q e, quadrato piuiſo in.f.non quadratum.z. s-quadratum:aſſumpto cy b numero primo ac quadratum lince. a’ad quadratu linee b.cſ cut h.ad.e ſit quadratu fince. b.c.ad quadratu lince. t.d ſicut.e ad 6 I. entos cy oifinitone: pe quo ſi beſras coinle binomin tertiu: unca. d b.rciduu S
+{dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduum quartum inuenire.
 
-## Propoſitio.63.
+¶Hic ſicut in inuentione reſidui pꝛimi ſit linea.b.c.cõmunicans linee.a.rationali poſite:numerus autem.e.quadratus ſit diuiſus ĩ.f.⁊.g.quoꝛum ſit vterqʒ non quadratus:ſitqʒ quadratum linee.b.c.ad quadratum linee.d.c.ſicut.e.ad.f.⁊ ſcies ex diffinitione lineam.d.b eſſe reſiduum quartum.ſi eoꝛum que in inuentione binomij quarti didiceras oblitus non fueris.
 
-tertium. {dropcap:[illegible]|lines=5|style=decorated}Eſiduum quartum inuenire.
+[Figure: horizontal line segments, one with points e, d and b, one labelled a, a divided line with the letter e and the numerals 3 and 6, and lines with the letters f, h and g and the numeral 7]
 
-[Diagram]
+## Pꝛopoſitio .84.
 
-(bie iiont i imentione reidus pnmi ſit linea bc. commonicans li 4 nce. s. rationali polite: nomeruos antem.e, qnadratus ſit biniſns il. Eess quormm ſir vreray non qadratne firey quadratamn imee,pe ad Q I aunadratom linee deſicute, ad. f. a ſoico ey bifintionc lineamdb cle reſiduum quartumn.ſi conum que in inuentione binomij quarti oidieras obliy 8
+{dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduum quintum demonſtrare.
 
-## PPropoſitio.8a
+¶Cum reſiduum quintum inuenire libuerit erit linea.c.d.cõmunicans linee.a.rationali poſite in longitudine ſicut erat in inquiſitione ſecundi:⁊ erit quadratus numerus.e.diuiſus in.f.⁊.e.quoꝛuʒ neuter quadratus ſicut in pꝛemiſſa:⁊ erit quadratum linee.c.d.ad quadratum.b.c.ſicut.f.ad.e.ex quibus a diffinitione cõcludere licet:habita ſufficienti noticia binomij quinti:lineam.d.b.eſſe reſiduum quintum.
 
-tus non fueris. {dropcap:[illegible]|lines=5|style=decorated}lſidnum quintum demonſtrare. 9
+## Pꝛopoſitio .85.
 
-¶ Lum reſiduum quintum inuenire libuerit erit linea' c. d. cõmunir ſcons linee a rationoii polite mlongundme fient erat in maminone 5 ſccundi: z ent quadratns numerus. e. Siniſus in.l. t. e. quomy neuier Iouadratus ſicut in premiſſa:z crit quadratum lince.c.d.ad quadra! tumn. b.c.ſicut.f.ad.e.er quibus s oifinitione cõdndere ller habila ſuffioentinor ticia binomij quinti: lineam. d. b.eſſe reſiduumquintum.
+{dropcap:R|lines=5|style=decorated|decoration="foliate initial on black ground"}Eſiduũ ſextum demum pꝛeſto ſit reperire.
 
-## PPropoſitio.85.
+¶Reſiduum ſextum ſic reperitur.erit ut pꝛius linea.a.rõnalis poſita ⁊.e.numer⁹ quadrat⁹ diuiſ⁹ in.f.⁊.g.non quadratos ⁊ erit.b.numerus pꝛimus ⁊ quadratum linee.a.ad quadratũ linee.c.b.ſicut.b.ad e.At vero quadratũ.b.c.ad quadratũ.c.d.ut.e.ad.f.eritqʒ ex diffinitione linea.d.b.reſiduum ſextum.cui ſi nõ plane animus tuus aſſenſerit exerceri te conuenit in inuentione binomij ſexti.
 
-{dropcap:[illegible]|lines=5|style=decorated}Eſiduu ſertum demum preſto ſit reperire. (Rcidumn ſertom fic repcrinr, erit nt pnins lmes. a.ronalis poſita 2c.numer? quadrat' piuil'in. f.z. g. non quadratos ⁊ erit. b nume rus pninus z quadratum lince. a. ad quadratu lince. cb.ſicut. b.ad
+[Figure: tall rectangle on base a b divided by horizontal lines with points g, f, h, e, k and c, with d at the top right]
 
-[Diagram]
+## Pꝛopoſitio .86.
 
-s.At vero quadratui. b.c. ad quadratui.c.d.ut.e.ad.f.critoy cy biffi nitone linco. d b. reſiduum ſeyiun cui ſi nõ plane animns tuns aflenſent ererce! ri te conuenit in inuentionc binomij ſerti. C
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I fuerit ſupficies linea rõnali atqʒ reſiduo pꝛimo cõtenta latus eius tetragonicũ neceſſe eſt eſſe reſiduum.
 
-## Propoſitio.86.
-
-J fuerit ſupficies linea ronali atqyreſiduo primo cõtenta {dropcap:[illegible]|lines=5|style=decorated}7 latus eins tetragonicũ neceſle eſt elle reſiduum.
-
-¶oit ſupficies.a.c̃ coteta linca ronali, a. b.e reſiduo pnmo .b..oi &7 co latus tetragontci ſupficici. a.c ee reſiduũ: adiungat eni adinca b.clincea. t diitay lla coine beractone bic. fuit reidun pninumn. 13 Enias er pionc. b. d ronalio er longitudine z.t. d.in potcntia ti b.d. quouy enit poréiion d̀ ci q̃drato lince ſecn coicontis iliggimndine vimidat ipit d cp couuie z toa. b.d. oinidat ca pditione in. f. g inter. b.f. e.f.d ſit, e. d medio loro ppous ouall critay er ſca pre. iy be.colcans in lopitudine l.d.p s ioit viraay cay coil cat ci ton iines b d qre p oifintioné amoe ſont ronalcs in longundime vucant ſiram iue sgch.e . E cqulaifantes a b eriny pais vmraoy day luriaeya E.z. s dronalie:ſt qadrarui crgo.lm.cq̃le ſnpfioes. a'f. crity ronale tlatꝰ eins romale i poíua mntra lind q̃drat pracia vianopoil ines l'am veſcrioat qdra? qun dn, equle ſiperioel.s d crtos iplum ronale z d’lamue ronle in poienua
+¶Sit ſupficies.a.c.cõtẽta linea rõnali.a.b.⁊ reſiduo pꝛimo .b.c.dico latus tetragonicũ ſupficiei.a.c.eẽ reſiduũ: adiungat̃ eni ad lineã b.c.linea.c.d.ſitqʒ illa cuius detractione.b.c.fuit reſiduũ pꝛimum. Eritqʒ ex dĩone.b.d.rõnalis ex longitudine ⁊.c.d.in potentia tm̃.b.d.quoqʒ erit potẽtioꝛ.d.c.ĩ q̃drato linee ſecũ cõicantis ĩ lõgitudine.diuidat̃ igit̃.d.c.ꝑ eq̃lia i.e ⁊ tota.b.d.diuidat̃ ea ꝯditione in.f.ꝙ inter.b.f.⁊.f.d.ſit.e.d.medio loco ꝓportionalis:eritqʒ ex ſcꝺa pte.13.b.f.cõicans in lõgitudine.f.d.ꝑ.9.igit̃ vtraqʒ eaꝝ cõicat cũ tota linea.b.d.q̃re ꝑ diffinitionẽ ambe ſunt rõnales in longitudine: ducant̃ itaqʒ linee.f.g.e.h.⁊.c.k.equidiſtantes .a.b.eritqʒ ꝑ.15.vtraqʒ duaꝝ ſupficieꝝ.a f.⁊.g.d.rõnalis:ſit quadratũ ergo.l.m.eq̃le ſupficiei.a.f.eritqʒ rõnale ⁊ lat⁹ eius rõnale ĩ potẽtia.intra illud q̃dratũ ꝓtracta dianogali linea.l.m.deſcribat̃ q̃dratum.l.n.equale ſuperficiei.g.d.eritqʒ ipſum rõnale ⁊ ei⁹ latus rõnale in potentia

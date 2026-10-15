@@ -1,37 +1,25 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-linee. e.f.incõmenſurabilis in longitudine: quare per.19 ſuperficies.e.⁊. erit medi alis: cum linca. e. f.ſit rõnalis i longitudine ſicut.c. d.ſibi cqualis: cũ ſit ergo. b, eõ?
+linee.e.f.incõmenſurabilis in longitudine:quare per.19.ſuperficies.e.g.erit medialis:cum linea.e.f.ſit rõnalis i longitudine ſicut.c.d.ſibi equalis:cũ ſit ergo.b.eq̃lis.e.g.erit quoqʒ.b.medialis qd̃ ẽ ꝓpoſitũ.¶Et nota ꝙ omnes ſuperficies mediales cõicantes cõponunt ſuperficiem medialẽ. Vnde tota.d.g.ẽ medialis:qꝛ cũ due linee.c.f.⁊.f.g.ſint rõnales in potẽtia tm̃ ⁊ nõ cõmunicantes in longitudine ſequitur ut tota.c.g.ſit rõnalis in potẽtia tm̃ ⁊ nõ cõicãs.c.d.i longitudine.itaqʒ ꝑ.19.d.g.ẽ medialis Eodẽqʒ mõ ſi ſint pl'es.
 
-[Diagram]
+## Propoſitio .22.
 
-lis.e.g-erit quoy.b.medialis qo e propoſitũ.
+{dropcap:O|lines=4|style=decorated|decoration="floriated initial on black ground"}Mnis differentia qua habundat mediale a mediali:irrationalis eſſe pꝛobatur.
 
-¶Et nora ꝙ omnes ſuperficies me diales cõicantes cõponunt ſuperficiem medialẽ. Inde toia.d.g. ẽ medialis:qu cũ oue lince.c.f.2.f.g.fint rõnales in porc̃tia tm z nõ cõmunicantes in longirudine ſcquitur ut tota.c.g.ſit ronalis in porẽtia tm ⁊ nõ coicãs.c.d.i longitudine.iraay p.i9.d. g.ẽ medialis Eodez mõ ſi ſint ples.
+¶Sit vtraqʒ duaꝝ ſuperficierũ.a.b.⁊.a.medialis:dico ꝙ ſupficies b.que eſt eaꝝ differentia ẽ irrõnalis. Sit eni linea.c.d.rõnalis i longitudine cui adiungat̃ ſuperficies.d.e.equalis ſupficiei.a.⁊ ſuperficies.d.f.equalis totali ſuperficiei.a.b. hoc aũt qualiter fiat in pꝛemiſſa docuimꝰ:qꝛ ergo.d.f.eſt equalis.a.b.⁊.d.e.equalis.a.erit ꝑ cõceptionẽ.g.f.equalis.b. Si itaqʒ ſupficies.b.nõ eſt irrõnalis ſed rõnalis:erit ⁊.f.g.ſua equalis rõnalis. At cum linea.e.g.ſit rõnalis in longitudine ſicut ſua equalis.c.d.erit per.16.linea.e.f.rationalis in longitudine ⁊ cõmunicãs linee.e.g.ꝑ.20.aũt eſt vtraqʒ duaꝝ linearuʒ c.e.⁊.c.f.potentialiter tm̃ rõnalis ⁊ linee.c.d.incõmenſurabilis i longitudine: itaqʒ.e.f.linea eſt incõmenſurabilis linee.c.e.in longitudine. Et quia per pꝛimã ſexti quadratum linee.e.f.ad ſuperficiem que fit ex.e.f.in.c.e.ẽ ſicut.e.f.ad.c.e.ſequit̃ per ſcd̃am partem.10.ut quadratũ linee.e.f.ſit incõmenſurabile ſupficiei facte ex e.f.in.c.e. quare ⁊ ipſũ quadratũ erit incõmenſurabile duplo ſupficiei ex.e.f.i.c.e quadratũ vero.c.e.cum ſit rõnale eſt cõicans quadrato.e.f.totum igitur ex ambobus compoſitũ erit per.9.cõicans quadrato.e.f.⁊ ideo incõmenſurabile duplo ſuperficiei ex.e.f.in.c.e.Et qꝛ per quartã ſcd̃i quadratũ linee.c.f.ẽ equale duobꝰ quadratis duaꝝ lineaꝝ.c.e.⁊.e.f.⁊ duplo ſupficiei ex.c.e.in.e.f. et duplũ ſuperficiei c.e.i.e.f.ẽ incõmenſurabile aggregato ex duobꝰ quadratis duaꝝ lineaꝝ.c.e.⁊.e.f. ſequitur per ea que addita ſunt in.9.ut quadratũ.c.f.ſit incõmenſurabile aggregato ex duobus quadratis duaꝝ lineaꝝ.c.e.⁊.e.f.at cũ aggregatũ ex his quadratis ſit rõnale:ſequit̃ quadratũ linee.c.f.nõ eſſe rõnale: ⁊ ideo linea.c.f.nõ ẽ rationalis in potentia: ⁊ idcirco nõ erit ſuperficies.d.f.medialis neqʒ.a.b.ſibi equalis quod eſt inconueniens cum ſit contrarium poſitis:relinquitur igitur ꝙ ſuperficies b.eſt irrationalis:quod eſt pꝛopoſitum.
 
-## Propoſitio 22.
+[Diagram: an upright rectangle divided by a horizontal line into two parts labelled b above and a below]
 
-{dropcap:[illegible]|lines=5|style=decorated}
+[Diagram: a rectangle with f at top, divided by a horizontal line with e at its left end and g at its right end, and c and d at the base]
 
-¶nis ifferentia qua babundat mediale a mediali:irra tionalis eſſe probatur.
+## Propoſitio .23.
 
-¶Oit vtraz ouay ſuperficierũ.a. b. 2.a. medialis ? oico ꝙ ſupficies
+{dropcap:O|lines=4|style=decorated|decoration="floriated initial on black ground"}Mnis ſuperficies quã cõtinẽt due linee mediales potentialiter tantũ cõicantes:aut rõnalis eſt aut medialis.
 
-[Diagram]
+¶Sint due linee.a.b.⁊.b.c.mediales potentia tm̃ cõmunicãtes:dico ꝙ ſuperficies.a.c.ab eis contenta aut eſt rõnalis aut medialis Sint enim.c.d.quadratũ linee.b.c.⁊.a.e.quadratũ linee.a.b. eruntqʒ ex ypotheſi hec duo quadrata communicantia ⁊ erit per pꝛimam ſexti ſuperficies.a.c.medialis medio loco pꝛopoꝛtionalis iter ipſa quadrata. Sumatur igitur linea.f.g.que ſit rationalis in longitudine:cui adiungatur ſuperfices.f.h.equalis quadrato.a.e.⁊.h.k.equalis ſuperficiei.a.c.⁊.k.l.equalis quadrato.d.c.eruntqʒ hee tres ſuperficies.f.h.h.k.⁊.k.l.continue pꝛopoꝛtionales ſicut ſunt ſue eq̃les
 
-„. que eſt eay bifferentia e irrõnalis. SOit eni linea. c.d.rõnalis i lon, Situdine cui adiungat ſuperficies. d.e. equalis ſupficiei.a. ⁊ ſuperfici es. d.f.cqualis totali ſuperficiei. a.b. boc aũt qualiter fiat i premiſſa oocuimꝰ: qr ergo. d.f.eſt cqualis. a.b.z. d.e. equalis. a. erit p cõceptionẽ.g.f.equalis.b. Si ita?  ſupficies. b. nõ eſt irrõnalis ſcd rõnalis:erit z. f.g. ſua equalis rõnalis. It cum linca.e.g. ſit rõnalis in longitudine ſicur ſua equalis. .d.enit per.is linca. c.f. ra! tionalis in longitudine z cõmunicãs linee.e. 8.p.2o. aũt eſt vtraqz ouax linearuz ce. 4. c.f. porentialiter tm̃ rõnalis z linee. c. d.incõmenſurabilis i longitudine: ita Q.e.I.linea eſt incõmenſnrabilis linee. c.e. in longitudine. Et quia per primã ſerti quadratum linec. e.f.ad ſuperficiem que fit ey. c.f.in.c.c.ẽ ſicut. c.f.ad. c.e. ſequit per ſcoam partem. io.ut quadratũ linee. c.f. ſit incõmenſurabile ſupficiei facte ex
+[Diagram: an upright rectangle divided by a horizontal line into two parts labelled b above and a below]
 
-[Diagram]
+[Diagram: a rectangle with f at top left, divided by a horizontal line with e at its left end, and c at the bottom left]
 
-efin. c.e. quare c ipſũ quadratũ crit incõmenſurabile ouplo ſupficiei cr.e. f.i.ce quadratũ vero. c.e. cum ſit ronale eſt cõicans quadrato c. f. totum igitur ex ambo bus compolitũ erit per.3. cõicans quadrato e.f. idco incõmenſurabile ouplo ſu, perficici ex.e. f.in.c.e. Et qu per quartã ſcoi quadratũ linec.c.f.ẽ. cqualc ouobꝰ qua
-
-[Diagram]
-
-dratis ouay lincay.c.e.4.C.f.z ouplo ſupficici cy.c.c.in. C.f. et ouplũ ſuperficiei ce. i.c.f.ẽ incõmenſurabile aggregato ex ouobꝰ quadratis ouay lineax. c,e. z.ef fcquitur per ca que addita ſunt in.9. ut quadratũ. c.f. ſit incõmenſurabile aggre? gato er ouobus quadraris ouay lincay. c.e. 1.e.f.at cũ aggregatũ cx bis quadra? tis ſit ronale: ſequit quadratũ lince. c. f.nõ eſſe rõnale: z ideo linea.c.f.nõ ẽ ratio, nalis in potentia: z idcirco nõ erit ſuperficies. d.f. medialis nez.a. b. ſibi equalis quod eſt inconueniens cum ſit contrarium poliris: rclinquitur igitur ꝙ luperficies b. eſt irrationalis: quod eſt propoſitum.
-
-## PPropoſitio .23.
-
-{dropcap:[illegible]|lines=5|style=decorated}nis ſuperficies quã cõtintẽ oue lince mediales poten tialiter tantũ coicantes:aut rõnalis eſt aut medialis.
-
-¶Oint oue linee. a. b.2. b.. mcdiales porenta tñ cõmunicãtes:oiꝰ co ꝙ ſupcrficies.a.c.ab cis contenta aut eſt rõnalis aut medialis Sint enim.c.d. quadratui lince. b.c. 1.a.c. quadratũ lince. a.b. erunt ex rpoibeſi bec ouo quadrata communicantia ⁊ erit per primam ſexti ſuperfi? cies. a.c.medialis medio loco proportionalis iter ipſa quadrata. Sumatur igitur lincea.f.g- que fit rationalis in longitudinc: cui adiungatur ſuperfices. f.b. cqua? lis quadrato. a.e..h.E. equalis ſuperficici.a.e.2. E.l. cqualis quadraro. d.c. crunt bce tres ſuperic es fh.h. h.2. R.l continue propotionales ſicur ſunt ſue cq̃les
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: k -->

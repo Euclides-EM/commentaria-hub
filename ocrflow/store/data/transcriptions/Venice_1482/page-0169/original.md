@@ -1,41 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-<!-- Page number: 5 -->
+linee.l.r.⁊.r.p.ſunt mediales in potentia quoqʒ cõmunicantes:nã cum linea.b.f. cõicet linee.f.d.ſequitur ut.a.f.ꝯmunicet.f.b.quare quadratũ.l.m.quadrato.m.n.ideoqʒ ⁊ linea.l.r.linee.r.p.in potentia:in longitudine autẽ non cõmunicãt:qm̃ vna earum ad alterã eſt ſicut.l.m.ad.m.p.Cum igitur.l.m.nõ ꝯmunicet.m.p.eo ꝙ altera medialis videlicet.l.m.altera vero rõnalis videlicet.m.p.ſequitur ut.l.r nõ cõmunicet in longitudine.r.p.qꝛ igitur ipſe continent ſuperficiem rationalem que eſt.m.p.ꝯſtat lineam.l.p.ex.31.huius eſſe bimediale pꝛimum.
 
-lince. l.r.2.r.p. ſunt mcdiales in potcntia quoqz cõmunicantes :nã cum linea.b.f. cõicet lince.f. d. ſequitur ut.a.f. omunicet. f.b. quarc quadratũ.l.m. quadrato.m. 2 n.ideouz zlinca. l.r.lince.r. p.in potentia: in longitudine autẽ non cõmunicãt: qm
+[Figure: rectangle with corners a and b at the base and c at top right, divided by horizontal lines labelled g e, h d and k f]
 
-[Diagram]
+## Pꝛopoſitio .50.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I binomio tertio ac linea rationali ſuperficies contineatur linea in eam potens erit bimediale ſecundum. ¶Diſpoſitio ⁊ ypotheſes maneant vt ſupra.Eritqʒ ex his ypotheſibus ⁊ diffinitione binomij tertij ⁊.19.vnaqueqʒ quatuoꝛ ſupficierũ in quas diuiſa ẽ ſupficies.a.c.medialis: quare vtrũqʒ duoꝝ quadratoꝝ.l.m.⁊.m.n.⁊ vtrũqʒ duoꝝ ſupplemẽtorũ.p.m.⁊.m.q.erit etiã mediale vtraqʒ igitur duaꝝ linearũ.l.r.⁊.r.p.erit medialis.⁊ cũ due ſuperficies.a.f.⁊.f.b.ſint cõmunicantes eo ꝙ due linee.b.f.⁊.f.d.ſint cõmunicantes per ſecũdã partẽ.13.erũt due linee.l.r.⁊.r.p.cõmunicantes in potentia in longitudine vero nõ:qꝛ ſupficies l.m.non cõicat cũ ſuperficie.m.p.eo ꝙ neqʒ.a.f.cõicat cum.d.g.Nam linea.b.f. nõ cõmunicat cum.d.e.cum igit̃ ipſi ꝯtineant ſuperficiem medialem que eſt.p.m cõſtat ex.32.lineã.l.p.eſſe mediale ſcꝺm:quod eſt pꝛopoſitum.
 
-[Diagram]
+[Figure: square with corners l, q, p and n, a diagonal drawn from l through m to n, with r on the left side and internal lines through m dividing the square]
 
-vvna carum ad alterã eſt ficut.l.m.ad.m.p. Lum igitur.Lm. nõ omunicet.m.p.eo ꝙ altera medialis videliccr. l.m.altera vero rõnalis vidclicet.m.p.ſcquitur ut.l.r p9 nõ cõmunicet in longitudine.r.p. ꝙ igitur ipſe contincnt ſuperficicm rationaleni que eſt.m.p. oſtat lineam.I.p.ey.31 buius eſſe bimedialc primum. A
+## Pꝛopoſitio .51.
 
-## Pr opoſitio.5o.
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I linea rationali binomioqʒ quarto ſuperficies cõtineatur:que in eã ſuperficiem poteſt eſt linea maioꝛ. ¶Cunctis ut in pꝛemiſſis manẽtibus erit ex ypoth.⁊ diffinitione binomij quarti ⁊.19.vtraqʒ duaꝝ ſupficieꝝ.d.g.⁊.g.c.quare ⁊ vtraqʒ duaꝝ.p.m.⁊.m.q.medialis duoqʒ quadrata.l.m.⁊.m.n.pariter accepta rõnale eo ꝙ ſuperficies.a.d.ẽ rõnalis per diffinitionẽ binomij quarti ⁊.15.Et quia.d.b.diuidit̃ in puncto.f.in duo incõicantia per ſcꝺam partẽ.14.erit ſuperficies.a.f.incõmenſurabilis ſuperficiei.f.b.Ideoqʒ ⁊ quadratum.l.m.quadrato m.n.due igitur linee.l.r.⁊.r.p.ſunt incõmenſurabiles ĩ potentia que cũ contineãt ſuperficiem medialẽ.p.m.⁊ earum quadrata ambo pariter accepta ſunt rationale ꝯſtat per.33.lineã.l.p.eſſe lineam maiorẽ quod erat monſtrãdum.
 
-{dropcap:[illegible]|lines=6|style=decorated}y binomio tertio ac linea rationali ſuperficics coutinea, 4 tur linea in cam potens erit bimediale ſecundum.
+## Pꝛopoſitio .52.
 
-¶Diſpoſitio z ypotbeles maneant vt ſupra. Eritqz ex bis ypotbeſi? bus z oiffinitionc binomij tertij z.iy-vnaqueqz quatuor ſupficicrũ S in quas piniſa ẽ ſupficies.a.. medialis: quare vtrũz ouoy quadra 1 S toy.l.m.m.n.z vtruiqz ouox fupplemẽtorũ. p.m.z.m.q. erit etiã mediale vtraqz igirur ouax lincarũ. l.r. 2.r. p. crit medialis. z cũ oue ſuperficies. a.f. 2.f. b. ſint cõ I municantes co ꝙ oue lince.b. f. 2. f. d fint cõmunicantes per ſecũdã partẽ.13. erũt 9 oue linee. l.r. 2.r.p. cõmunicantes in potentia in longitudine vero nõ. qu lupficies Lm. non cõicat cũ ſuperficie. m.p. eo ꝙ ncoz. a. f. cõicat cum. d.g. Iam linca.b.f. 9 nõ cõmunicat cum. d.e. cum igit ipſi otineant ſuperficiem medialem quc eſt. p.m cõſtat ex.32. lineã. I. p. eſſc mediale ſcom: quod eſt propoſitum. PPropoſitio. 5i.
-
-## [illegible]
-
-{dropcap:[illegible]|lines=6|style=decorated}S linea rationali binomioqz quarto ſuperficies cõtinea E tur: que in eã ſuperficiem poteſt eſt linea maioz.
-
-¶ Lunctis ut in premiſſis manẽtibus crit ex ypoib. z oiffinitionc bi 2 nomij quarti z.19. vtraqy ouaz ſupficiey. d.g.-2. g.c. quarc z vtraqy ouay. p.m..m.q. medialis ouoy quadrata.l.m.z.m.n.pariter ac cepra rõnale co ꝙ luperficies.a.d.ẽ rõnalis per biffinitionẽ binomij quarti zi5. Et quia. d. b. oinidit in puncto. f.in ouo incõicantia per ſcoam partẽ.1a.crit ſuper ficies. a.f. incõmenſurabilis ſuperficiei.I.b. Jocoz quadratum.I.m. quadrato 1 m.n. oue igitur lince. l.r. 2.r.p. ſunt incõmenſurabiles i potentia que cũ contineãr ſuperficiem mediale. p.m.z earum quadrata ambo pariter accepta ſunt rationale oſtat per-3z. lincã.l.p. eſſe lineam maiorẽ quod erat monſtrãdum. 1
-
-## Propoſitio.52.
-
-{dropcap:[illegible]|lines=6|style=decorated}S fuerit ſuperlicies linea rationali atqz binomio quinto
-
-[Diagram]
-
-contenta quecunqz in eam linea poreſt petens in ratio? nale z mediale eſle ex neceſſitate conuincitur.
-
-¶lec in bac quooz ẽ aliquid ey priorum oiſpoſitione z pofitionibꝰ mutandũ: eis eniz manẽtibus crit ex bis que poſita ſunt in oiffini? tione binomij quiti z.i5. vtragz ouay ſupficiey. d.g.2.S.e. quaꝑ vtradz ouay.p. m..m.q rõnalis totaz. a. d. quare z ouo q̃drata.l.m..m.n. piter accepta me? dialis ey-i9, cũqz ex ſcoa pte.1a ſit linea. f.b. icõmẽſurabilis linca. f. d.iõz ſupfici? cs. a. f.ſupficici.f.b. ⁊ q̃dratũ. l.m. q̃drato. m.n. erit linca.I.r. icõmẽſurabili potẽ? tia linca.r.p.at qr ipe ptinẽt ſupficiẽ rõnalẽ. p.m.z eay q̃drata ãbo piter accepta ſunt mediale condude ezya- linea.l.p. eſſe porentem in rationale ⁊ mediale: quod promiſſum eſt.
-
-1
-
-Q
-
-22 23
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I fuerit ſuperficies linea rationali atqʒ binomio quinto contenta quecunqʒ in eam linea poteſt petens in rationale ⁊ mediale eſſe ex neceſſitate conuincitur. ¶Nec in hac quoqʒ ẽ aliquid ex pꝛiorum diſpoſitione ⁊ poſitionibꝰ mutandũ:eis eniʒ manẽtibus erit ex his que poſita ſunt in diffinitione binomij quĩti ⁊.15.vtraqʒ duaꝝ ſupficieꝝ.d.g.⁊.g.e.quaꝝ vtraqʒ duaꝝ.p.m.⁊.m.q.rõnalis totaqʒ.a.d.quare ⁊ duo q̃drata.l.m.⁊.m.n.piter accepta medialis ex.19.cũqʒ ex ſcꝺa pte.14.ſit linea.f.b.icõmẽſurabilis linea.f.d.iõqʒ ſupficies.a.f.ſupficiei.f.b.⁊ q̃dratũ.l.m.q̃drato.m.n.erit linea.l.r.icõmẽſurabil̃ ĩ potẽtia linea.r.p.at qꝛ ip̃e ꝯtinẽt ſupficiẽ rõnalẽ.p.m.⁊ eaꝝ q̃drata ãbo piter accepta ſunt mediale conclude ex.34.lineã.l.p.eſſe potentem in rationale ⁊ mediale:quod pꝛomiſſum eſt.

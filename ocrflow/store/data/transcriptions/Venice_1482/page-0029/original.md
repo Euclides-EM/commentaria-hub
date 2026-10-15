@@ -1,39 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: II -->
 
-## Propolitio 2
+## Propoſitio .2.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I fuerit linea i ptes diuiſa.illud ꝙ ex ductu toti⁹ linee in ſeipſã fit:equũ erit his q̃ ex ductu eiuſdẽ i oẽs ſuas ptes.¶Sit linea.a.b.diuiſa in.a.c.⁊.c.d.⁊.d.b.dico ꝙ illud ꝙ fit ex ductu totius.a.b.in ſe ꝙ ſit.a.e.b.f.equũ eſt his que fiunt ex ipſa tota in vnamquãqʒ dictarum partium ꝙ palam patebit.ductis.c.g.⁊.d.h.equidiſtanter.a.e.⁊.b.f.¶Aliter ſumatur.k.eq̃lis.a.b.eritqʒ ꝑ premiſſam ꝙ fit ex ductu.k.in totam.a.b.equũ ei ꝙ fit ex ductu.k.in omnes ptes.a.b.⁊ qꝛ ex.k.i.a.b.tantũ fit quantũ ex.a.b.in ſe.⁊ ex.k.in omnes ptes.a.b.quãtũ ex.a.b.in omnes ptes eiuſdẽ.ppter id qꝛ.k.⁊.a.b.ſũt equales patet veꝝ eſſe propoſitum.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerit linea i ptes oiuiſa illnd qo er ouctu totiꝰ lince in ſceipla fit: equu erit bis q̃ er ouctu eiuldẽi oẽs luas preo.
+[Margin]
+[Diagram: rectangle with top corners e and f, divided by two vertical lines c–g and d–h into three parts, with bottom corners a and b, and a separate vertical line labelled k at the left]
+[/Margin]
 
-¶ Sit linca. a. b. oiuiſa in.a.c. t.c.d.t. d.b. bico q illud qo fir er on lctu torins. a. b. in ſe qoſit. a.c.b.f.cquũ eſt bis que fiunt ey ipla to ta in vnamquãgz oictarum partium qo palam parebit.ouctis. c.s.1. d.b.cquidi, ſtanter. a.c.2.b.f.
+## Propoſitio .3.
 
-¶ Aliter ſumatur. l. cqlis.a. b.eriro; p premilſam qo fit cy ouꝰ cu.l. in totam.a.b.cquũ ci qo fit ey ouctu. l. in omnes pres.a.b.τqer.Ei.a.b. tantui fit quantũ er. a b.in ſe. zer. R.in omnes ptes.a. b-quãtu ey. a.b. in omnes ptes cinde. ppter id qu.hi.2.a. b.ſũt cquales patet vey eſſe propoſitum.
+{dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I fuerit linea in duas ptes diuiſa illud ꝙ fiet ex ductu totius in alterutrã partẽ equũ erit his q̃ ex ductu eiuſdẽ partis in ſeipſam ⁊ alterius in alteram.¶Sit linea.a.b.diuiſa in.a.c.⁊.b.c.dico ꝙ illud quod fit ex tota.a.b.in eius partem.a.c.equũ eſt quadrato eiuſdem.a.c.partis.⁊ ei quod fit ex eadẽ parte.a.c.in.b.c.fiat quadratum linee.a.c.ꝙ ſit.a.c.d.f.⁊ pficiatur ſuperficies.a.b.d.e.patebitqʒ propoſitũ.¶Aliter ſumat̃.g.eq̃lis.a.c.⁊ qꝛ.b.a.in.a.c.tantũ eſt quantũ.a.c.in.a.b.ecõuerſo.⁊.a.c.in.a.b.⁊ in.c.b.⁊ in ſeipſaʒ quãtũ.g.i eaſdẽ.At.g.in totã.a.b.quãtũ in.a.c.⁊ in.c.b.ꝑ primam huius patet ꝓpoſitũ ſcʒ ꝙ tm̃ erit.a.c.i.a.b.quãtũ in ſe ⁊ in.c.b.q̃re ecõuerſo.a.b.i.a.c.quãtũ.a.c.in ſe ⁊ in.c.b.ꝙ volum⁹ demõſtrare.
 
-## PPropoſitio. 3
+[Margin]
+[Diagram: rectangle with top corners d and e and bottom corners a and b, divided by a vertical line f–c, with a separate short horizontal line labelled g above]
+[/Margin]
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerit linea in ouas pres piuia illnd qo fiet er ouctu to tius in alterutrã partẽ equũ erit bis q̃ ey ouctu eiuſdẽ par tis in ſeipſam z alterius in alteram.
+## Propoſitio .4.
 
-¶Sit linea. a. b. diuiſa in. a.c.2.b.c bico ꝙ ilnd quod fit er tota. a.
+{dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I fuerit linea in duas ptes diuiſa illud ꝙ ex ductu toti⁹ i ſeipſã fit:equũ ẽ his q̃ ex ductu vtriuſqʒ ptis i ſeipſã ⁊ alteri⁹ i alterã bis.Ex hoc manifeſtũ ẽ ꝙ i oi q̃drato due ſupficies quas diameter ſecat ꝑ mediũ ſunt ambe quadrate.¶Sit linea.a.b.diuiſa in.a.c.⁊.b.c.dico ꝙ quadratum totius.a.b.equum eſt duobus quadratis duarum linearum.a.c.⁊.b.c.⁊ duplo eius ꝙ fit ex ductu vnius eaꝝ in alteram:deſcribam quadratum alterius partialium ſitqʒ.c.d.b.e.quadratũ linee.c.b.cui adiungam gnomonẽ ſecũdũ ductũ directiuũ linee alterius ſcʒ.a.c.ꝙ faciam hoc mõ.in quadrato deſcripto protraham diametrũ.b.d.⁊ a puncto.a.educam perpendicularem ſup lineam.a.b.que ſit.a.k.quã.a.k.⁊ diametrũ.b.d.ꝓducam vſqʒ quo cõcurrãt in puncto.f.⁊ a puncto.f.producam.f.h.equidiſtantẽ linee.a.b.quã.f.h.⁊.b.e.producam vſqʒ quo concurrãt i pũcto.g.⁊ producã.c.d.vſqʒ ad.h.⁊.e.d.vſqʒ ad.k.Et quia duo latera.d.e.⁊.e.b.trianguli.d.e.b.ſunt equalia:erũt per.5.primi duo anguli.e.d.b.⁊.e.b.d.equales:⁊ qꝛ angulus.e.eſt rectus erit ꝑ.32.primi vterqʒ eoꝝ medietas recti. Eadẽ rõne vterqʒ duorũ angulorũ.c.d.b.⁊.c.b.d.erit medietas recti. quare ꝑ ſecũdã ptem.29.primi erit vnuſquiſqʒ quatuor anguloꝝ qui ſunt.b.f.d.⁊.b.d.f.⁊.k.f.d.⁊.k.d.f. medietas recti ergo ꝑ.6.primi.f.g.⁊.g.b.ſunt equales. ſimiliter quoqʒ.f.a.⁊.a.b. pari rõe.f.h.⁊.h.d.itẽqʒ.f.k.⁊.k.d. quare vtraqʒ duarũ ſupficierũ.a.b.g.f.⁊.k.d.h.f.eſt quadrata ⁊ qꝛ totale quadratum.a.b.f.g.ꝙ eſt quadratũ linee.a.b.conſtat ex duobus quadratis que cõſiſtunt circa diametꝝ que ſunt quadrata duarum linearum.a.c.⁊.c.b.⁊ ex duobus ſupplementis quoꝝ vnũquodqʒ ꝓducit̃ ex.a.c.in.b.c.patet propoſitum noſtrũ.¶Aliter ſit linea.a.b.vt prius diuiſa in.a.c.⁊.c.b.
 
-[Diagram]
+[Margin]
+[Diagram: square with top corners f and g and bottom corners a and b, with a diagonal from f through the centre point d to b, a vertical line h–c and a horizontal line k–e crossing at d]
+[/Margin]
 
-b.in cius partem. a.c. cquũ eſt quadrato ciuſdem.a.c. partis. z ei quod fit er cadẽ parte. a.c.in. b.c. fiat quadratum linee. a.c. ꝙ ſit.a.c. d.f.z pficiatur ſuperficies a b.d.e. patebit propoſitii.
-
-¶Aliter ſumai.g. colis.a.c.2 q1.b.a.in. a.c. tantũ eſt quantũ. a.c.in. a.b.ecõuerſo.2.a.c.in. a.b. T in.c.b.z in ſeipſaz quãtũ.g. i eaſdẽ. At.g.in torã. a.b. quãtũ in.a.c. in.c.b.p primam buius patet ppoſitũ ſcz ꝙ tiñ crit. a. c.i.a. b. quãtũ in ſe z in.c.b. q̃re ccouerſo. a.b.i.a.c. quãtũ. a. c.in ſe, gin c b.qu volum? pemoſtrare. Propoſitio.a4
-
-## [illegible]
-
-{dropcap:[illegible]|lines=5|style=decorated}J fuerit linea in dnas ptes diniſa illud qo er onctu toriꝰ ; seipſã fit:equũ ẽbis q̃ ey ouctuvtrinloz ptis i leiplã z alte
-
-[Diagram]
-
-riꝰ i alterã bis. Ey boc manifeſtu ẽ ꝙ i oi q̃drato oue ſup ficies quas diameter ſecat ꝑ mediũ ſunt ambe quadrate.
-
-¶ Sit linca. a. b. piuiſa in. a.C. 2. b.c. oico ꝙ quadratum totius a.b. cquum eſt ouobus quadratis ouarum linearum.a.c. t.b.c. ouplo cius qu fit er onctu vnius cay in alteram: deſcribam quadratum alterius partialium ſirqy c.d.b.e. quadratũ lince. c.b. cui adiungam gnomonẽ ſecũdũ onctũ birectiuũ lince alterins ſcz. a.c. qb faciam boc mõ. in quadrato oeſcripto protrabam oiametrũ b. d.z a puncto. a. educam perpendicularem ſup lincam.a.b, que ſit.a.R. quã.a. l z biametrũ. b.d. pducam vſqz quo cõcurrãt in puncto. f.z a puncto. f. producam l.h. equidiſtantẽ lince.a.b. quã. f.b. 2.b.e producam vſz quo concurrãt i pũcto 8.t producã. c.d. vſz ad.h.t.e. d. vſqz ad.k. Et quia ouo latcra. d.e. 2.e. b.trian guli. d.c. b. ſunt cqualia: crũt per. 5- primi ono anguli.e. d.b.1.e. b.d.cquales: z qu angulns. e. eſt rectus crit p.32. primi vtcrz eoy medieras recti. Eadẽ rõne vter, g ouorũ angnlorũ.c. d.b. 2.c.b. d. erit medictas recti. quare p ſecũdã prem. 29. p mi erit vnuſquiſ quatuor anguloy qui ſunt. b. f.d.z.b. d.f.t.R.f.d.1.E. d.f. me dietas recti ergo p.s. primi.f.g.2.g.b.ſunt equales. ſimiliter quoqz.f.a. 1.a.b. pari rõc.f.b.2.b.d.itẽy.f.l. 2.E. d. quare vtraz ouarũ ſupficierũ. a.b.g.f.2.E. d.h. f. eſt quadrata z qr totale quadratum. a. b. f.8. ꝙ eſt quadratũ lince. a.b. con ſtat ex ouobus quadraris que cõſiſtunt circa oiametꝑ que ſunt quadrata onarum linearum.a.c.2.C.b.z ex ouobus ſupplementis quoy vnũocoz pducit ex. a. c.in b.c. patet propoſitum noſtrũ.
-
-¶Aliter ſit lines. a. b. vt prius oiniſa in.a.c.2.c.b.
-
-<!-- Signature: [illegible] -->
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: b 2 -->

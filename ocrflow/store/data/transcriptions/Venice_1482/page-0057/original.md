@@ -1,35 +1,18 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: IIII -->
 
-[Diagram]
+[Margin]
+[Diagram: large circle b.d.e with inscribed triangle a.b.d and smaller circle through a, c and d; points e, d, c, b marked]
+[Diagram: circle with inscribed triangle, chords from d to a, c and b, and tangent to f; points e, d, a, c, b, f marked]
+[Diagram: two intersecting circles with triangle a.d.b; points a, d, c, h, b marked]
+[Diagram: circle with smaller circle and inscribed triangle; points b, d, c, e, a marked]
 
-factoqz puncto.a.centro bm iplins quantitatem oeſcribatur circulus.b. d.e. intra que per primam buius coaptetur linea. b. d. cqualis linec. a.c. ct producantur oue linee. d.a.d.c.oico triãgulũ.a. b. d.cẽ qlis pponit: circũſcribat circulꝰ q ſit d.c.a. per-5- buius triangulo. d.c.a, quia ergo linca. d.b. eſt equalis. lince. a.c.erit quod fit cy.a.b. in.b.c. cquale quadrato lincc. b.d. quare per vltimam tertii. b.d. linca eſt contingens circnlum. d.c.a. z per.3i ciuſdem angulus. c. d.b. cſt equalis angulo. c.a. d. poſito ergo cõmuni angulo. c. d.a. crit totus angulus.b. d.a. cqua? lis ouobus angulis.c. a. d.c. d. a ſedpcr. 3z primi angulus. b.c. d.cſt cqlis eiſdẽ quia cytrinſecus ad iplos. ergo angulns. b.d.a.eſt equalis angulo. b.c.d.z qran gulus.a. d.b. eſt equalis angulo. a. b. d. per.5, primi:eo ꝙ latera.a.d.t.a.b.ſũt c? qualia. crit angulus.b.c. d. cq̃lis angulo.c.b.d. ergo pcr.s, primi: linca.c.d.eſt e7 qualis linee. b. d. quare zlince. c.a. ergo per.s- primi:angulus.c.a. d.eſt equalis an
+[Handwritten]
+[unclear: de. et ea.]
+[/Handwritten]
+[/Margin]
 
-[Diagram]
+factoqʒ puncto.a.centro ſm̃ ipſius quantitatem deſcribatur circulus.b.d.e.intra quẽ per primam huius coaptetur linea.b.d.equalis linee.a.c.et producantur due linee.d.a.d.c.dico triãgulũ.a.b.d.eẽ q̃lis ꝓponit̃: circũſcribat̃ circul⁹ q̃ ſit.d.c.a. per.5.huius triangulo.d.c.a.quia ergo linea.d.b.eſt equalis.linee.a.c.erit quod fit ex.a.b.in.b.c.equale quadrato linee.b.d.quare per vltimam tertii.b.d.linea eſt contingens circulum.d.c.a.⁊ per.31.eiuſdem angulus.c.d.b.eſt equalis angulo.c.a.d.poſito ergo cõmuni angulo.c.d.a.erit totus angulus.b.d.a. equalis duobus angulis.c.a.d.c.d.a.ſed per.32.primi angulus.b.c.d.eſt eq̃lis eiſdẽ quia extrinſecus ad ipſos.ergo angulus.b.d.a.eſt equalis angulo.b.c.d.⁊ qꝛ angulus.a.d.b.eſt equalis angulo.a.b.d.per.5.primi:eo ꝙ latera.a.d.⁊.a.b.ſũt equalia.erit angulus.b.c.d. eq̃lis angulo.c.b.d.ergo per.6.primi: linea.c.d.eſt equalis linee.b.d.quare ⁊ linee.c.a.ergo per.5.primi:angulus.c.a.d.eſt equalis angulo.c.d.a.quia ergo vterqʒ anguloꝝ.c.d.b.⁊.c.d.a.ẽ eq̃lis ãgulo.c.a.d. erit tot⁹ angul⁹.b.d.a.dupl⁹ ad ãgulũ.d.a.b.⁊ iõ angul⁹.a.b.d.ſibi eq̃lis.dupl⁹ eſt etiã ad angulũ.b.a.d.qd̃ eſt propoſitũ.¶Forſan dicet aduerſarius circulũ.d.c.a.circũſcriptum trigono partiali ſecare circulum.b.d.e in aliquo puncto arcus.b.d.ita ꝙ ſimul ſecabit lineam.b.d.vnde ipſa non erit circulo applicata.ſicut in demonſtratione ſupponitur.ſed ipſum ſecans. Sit ergo ſi poſſibile eſt vt ponit aduerſarius ⁊ a puncto.b.ducatur ad ipſum circulum minorem contingens.b.f.⁊ ducantur linee.f.a.f.d.eritqʒ per penultimã tertii qd̃ fit ex.a.b.in.b.c.equale quadrato.b.f.ergo.b.f.eſt equalis.b.d.quare per.5.primi angulus.b.f.d.eſt equalis angulo.b.d.f.⁊ quia per.31.tertii angulus.b.f.a.eſt equalis angulo.a.d.f.erit angulus.b.d.f.maior angulo.a.d.f.quod eſt impoſſibile.cum ipſe ſit pars eius.¶Aliter poſſumus iſtud refellere ⁊ oſtendere ꝙ ille minor circulus nullo modo ſecabit lineã.b.d forſan enim diceret ꝙ ſecaret eam non ſecando arcum.d.b.maioris circuli. Si enĩ poſſibile eſt ꝙ ſecet eam.ſit hoc in puncto.h.eritqʒ qd̃ fit ex.a.b.in.b.c. equale ei quod fit ex.d.b.in.b.h.Mõſtratum eſt enim ſupra penultimã tertii ꝙ ſi ab aliquo puncto extra circulum ſignato quotlibet linee ſecantes ad circulum ducantur que ſub totis ⁊ earum portionibus extrinſecis continentur.equalia ſunt adinuicẽ: ⁊ quia quod fit ex.a.b.in.b.c.eſt equale quadrato.b.d.erit qd̃ fit ex.d.b.in.b.h.equale quadrato.d.b.quod eſt impoſſibile per ſcõam ſcõi:quare cõſtat ꝓpoſitum ¶Et nota ꝙ minor circulus neceſſario ſecabit maiorẽ ⁊ abſcindet ab eo arcũ vnũ equalem arcui.b.d.⁊ maior abſcindet ſimiliter ab eodem vnum arcum equalẽ arcui.d.c.Quod ſic probat̃.ſi enim minor non ſecat maiorem.contingit ergo ipſum in puncto.d.⁊ quia per.11.tertii circulorum ſe contingentium centra.⁊ punct⁹ contactus ſunt in linea vna.erit centrũ minoris circuli in linea.a.d.propter hoc ꝙ in ea eſt centrum maioris ⁊ punctus contactus.ergo per.17.tertii angulus.a.d.b.eſt rectus quare ſimiliter ⁊ angulus.a.b.d.ſibi eq̃lis ẽ rectus qd̃ ẽ impoſſibile.per.32.primi:Secet ergo ipſuʒ in punctis.e.d.dico arcum.e.d.maioris eſſe equalẽ arcui.d.b.⁊ arcum.e.d.minoris eſſe equalem arcui.d.c.produco lineas. d.e.c.e.⁊.e.a.eritqʒ per.26.tertii vnuſquiſqʒ quatuor angulorum qui ſunt.d.e.c.c.e.a.d.a.c.et a.d.c.equalis alii propter id ꝙ duo arc⁹.d.e.⁊.e.a. ſũt eq̃les.p.27. eiuſdẽ q̃re totalis angul⁹.a.e.d.dupl⁹ ẽ ad angulũ.b.a.d.⁊ iõ eq̃lis vtriqʒ angulorum.a.b.d.⁊.a.d.b.⁊ qꝛ angul⁹.a.e.d.ẽ eq̃lis angulo.a.d.e.p.5.primi: ꝓpter id qd̃.a.e.⁊.a.d.ſunt equales a cẽtro ad circũferentiam.erũt duo anguli.e.⁊.d.trianguli.a.e.d.
 
-[Diagram]
+[Diagram: handwritten circle with inscribed triangle, labelled a, e, c, d, with vertical line to h]
 
-gulo.c.d.a. quia crgo vterq; anguloy c. d.b.2.c. d.a. ẽ eqlis ãgulo.c. a. d. erit totꝰ angulꝰ. b.d.a. onpl' ad ãgulũ. d.a. b. z iõ angulꝰ. a.b.d.ſibi cq̃lls. ouplꝰ eſt etiã ad angnlũ. b. a. d.qb eſt propoſitũ.
-
-¶ Corſan oicet aducrſarius circulũ. d.c.a. circuſcri ptum trigono partiali ſecare circulum.b.d.e in aliquo puncto arcus. brd.ita ꝙ li, mul ſccabit lincam. b. d.vnde ipſa non erit circulo applicata. ficut in pẽmonſtra, tione ſupponitur. ſed ipſum ſecans. Oit ergo ſi poſſible eſt vt ponit aducrſarius z a puncto.b. oucatur ad ipſum circulum minorem contingens. b. f. z oucantur liꝰ nee.f.a.f.d eritoy per penultimã tertii qo fit er.a.b. in.b. c cquale quadrato. b.f. ergo.b. f. eſt cqualis.b. d. quare per. z primi angulus. b. f. d.eſt cqualis angulo.b. d.f.z quia per.31 terrii anguluns. b. f.a. eſt cqualis angulo. a.d.f.erit angulus.b. d f.maior angulo. a d.f. quod eſt impoſſibile. cum ipſe ſit pars eius.
-
-¶ Aliter poſſu?
-
-[Diagram]
-
-mus iſtud refellcre zoſtendere ꝙ ille minor circulus nullo modo ſecabit lincã. b. d
-
-polſibilc eſt ꝙ ſecet cam. ſit boc in puncto. b.critay qo fit cr. a. b.i. b.c. cquale ci quod fit cy. d.b.in.b. b. Dl Ionſtratum eſt enim ſupra penultimã tertii ꝙ ſi ab ali quo puncto ertra cirenlum ſignato quorlibet lince ſccantcs ad circalum oucantur
-
-c quia quod fit ey. a.b. in.b.c.eſt equale quadrato.b. d.erit qofit ey. d.b. in.b.b. equale quadrato. d.b. quod eſt impolſibile per ſcoam ſcoi: quare coſtat ppolitum
-
-¶Et nora g minor circulus neceſſario ſecabit maiorẽ z abſcindet ab eo arcũ vnũ cqualem arcui. b. d.z maior abſcindet ſimiliter ab codem vuum arcum equalẽ ar cui.d.c. Duod ſic probat. ſi enim minor non ſecat maiorein.contingit ergo ipſum
-
-[Diagram]
-
-in puncto. d.z quia per.n. tertii circulorum ſe contingentium centra.z punctꝰ con tactus ſunt in linca vna. erit centrũ minoris circnli in linea.a.d. propter boc ꝙ in ca eſt centrum maioris z punctus contactus. crgo per. 17 tertii angulns. a.d.b. eſt rectns quare ſimiliter z angulns. a. b. d. ſibi eq̃lis ẽ rcctus qo e impoſſibile. per.32. primi: Secct ergo ipſuz in punctis.e. d. oico arcum. e. d.maioris eſſe equale arcui. d.b. zarcum.e. d.minonis eſſe cqualem arcui. d.c. produco lincas. d.e.c.e. 2. e.a. critoz per. 2s. tcrtii vnuſquiſqz quatuoz angulomm qui ſunt. d.e. cc-e. a.d.a. c.et a. d.c.equalis alit propter id ꝙ ouo arc? d.e.t.e.a. ſũt cqleu.p.2z. ciuſdẽ q̃re to talis angul a.e. d. ouplꝰ ẽ ad angulũ. b.a: d.⁊ iõ cq̃lis vtriqy angulorm.a.b.d.
-
-d.ſunt cquales a cétro ad circufcrentiam erũt ouo anguli.c.2.d.trianguli. a.c.d.
-
-[Diagram]
-
-[Diagram]
+[Diagram: handwritten circle with smaller circle, labelled d, c, d, h]

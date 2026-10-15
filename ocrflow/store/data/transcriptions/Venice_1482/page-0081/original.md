@@ -1,31 +1,31 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: V -->
 
-eritoz per primã buins. m.p. ita multiplex. c. d.ficut. f. eſt multipley. a. vtraz igii pua ouantitatumm.p. 2.g. eſt eque multipley quantitatis.. d.crgo ipſe ſũt cõ¬ les. Ilam bec illatio oemoſtrata eſt in.x. buius:⁊ quia.g. non eſt maioi. E. nõ erit mi n maior cadem. ſcd per conuerſionẽ oifrinitionis incõtinuc ꝓporionalitaris m n, eſt maion. E.eo ꝙ.f. eſt maior. b.ergo.m.n.eſt maior.m.p.qo eſt unpoſſibile quare relinquitur propolitum.
+eritqʒ per primã huius.m.p.ita multiplex.c.d.ſicut.f.eſt multiplex.a.vtraqʒ igit̃ duaꝝ quantitatum.m.p.⁊.g.eſt eque multiplex quantitatis.c.d.ergo ipſe ſũt eq̃les. Nam hec illatio demõſtrata eſt in.7.huius:⁊ quia.g.non eſt maior.k.nõ erit m.p.maior eadem.ſed per conuerſionẽ diffinitionis incõtinue ꝓportionalitatis m.n.eſt maior.k.eo ꝙ.f.eſt maior.b.ergo.m.n.eſt maior.m.p.qd̃ eſt impoſſibile quare relinquitur propoſitum.
 
 ## Propoſitio .13.
 
-{dropcap:[illegible]|lines=5|style=decorated}3 fuerint quorlibet quantitatũ ad toridem alias propor: tio vna erit quoqz que proportio vnius ad vnam. eadem
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I fuerint quotlibet quantitatũ ad totidem alias proportio vna erit quoqʒ que proportio vnius ad vnam. eadem proportio harum omniuʒ pariter acceptarum ad omnes illas pariter acceptas.
 
-[Diagram]
+[Diagram: four rows of lines, g 24, h 20 and k 16; a 12, c 10 and e 8; b 6, d 5 and f 4; l 18, m 15 and n 12]
 
-proportio barum omniuz pariter acceptarum ad omnes llas pariter acceptas.
+¶Qd̃ primo propoſuit de multiplicib⁹:hic proponit de omnib⁹ proportionibus:vñ hec eſt cõmunior illa:eo ꝙ omnis multiplicitas eſt proportio:nõ auteʒ econuerſo. Sit igitur.a.ad.b.⁊.c.ad.d.⁊.e.ad.f.vna proportio:dico ꝙ que eſt proportio.a.ad.b.eadem eſt cõpoſiti ex.a.c.e.ad cõpoſitũ ex.b.d.f. Sumã.g. ad.a.⁊.h.ad.c.⁊.k.ad.e.eque multiplicia. Itemqʒ.l.ad.b.⁊.m.ad.d.⁊.n.ad.f.eq̃ multiplicia:eritqʒ per primã huius cõpoſitum ex.g.h.k. ita multiplex cõpoſiti ex a.c.e.ſicut.g.eſt multiplex.a. Similiter per eandẽ cõpoſitum ex.l.m.n.erit ita multiplex cõpoſiti ex.b.d.f.ſicut.l.ẽ ml̃tiplex.b.⁊ ꝑ cõuerſionẽ diffinitionis incõtinue ꝓportionalitatis.bis ſũptã ſi.g.addit ſup.l.h.addit ſup.m.⁊.k.ſuper.n. ⁊ ſi minuit minuit:⁊ ſi equat equat:ergo per cõmuneʒ ſcientiam ſi.g.addit ſup.l. compoſitũ ex.g.h.k.addit ſuper compoſitum ex.l.m.n.⁊ ſi minuit minuit:⁊ ſi equat equat:ergo per diffinitionem incontinue proportionalitatis proportio.a.ad.b.ẽ ſicut cõpoſiti ex.a.c.e.ad compoſitũ ex.b.d.f.quod eſt propoſitũ.
 
-¶Do primo propoſuit ce multiplicibꝰ: bic proponit oe omnib? proꝰ portionibus: vñ bec eſt cõmunior illa:eo ꝙ omnis multipliciras eſt proportio: nõ antez econuerſo. Sit igitur. a. ad.b.2.c.ad.d.2.e. ad.f. vna proportio: oico ꝙ one ſt moportio. a. ad.b. cadem eſt cõpoſiti cy. a.t.c. ad cõpolitũ ey. b. d.f. Oumã. a ad.a. 2.b. ad.c.t. l.ad.c.eque mnltiplicia. Jtemy.l.ad. b.z.m.ad.d.t.n.ad.f.cq̃ multiplicia: eritoz per primã buius copolitum ey. g.b. E. ita nuultipley cõpoſitier ce. ficut. g.eſt multipley.a. Similiter per candẽ cõpoſitum ex. I.m.n.erit ita mul tinlex cõpoliti ex. b. d.f. ſicut.l.ẽ mltiplex.b.z p cõuerſione oiffinitionis incõtinue ppontionalitatis. bis ſũptã ſi.s. addit ſup.l.b. addit ſup.m.2. E. ſuper.n. eſi mis nuit minuit : ⁊ſi cquat cquat: ergo per cõmuncz ſcientiam ſi.g-addit ſup.l. com nofitũ er.⁊.b. E.addit ſuper compoſitum er. lmn.æ ſi minuit minuit: ſi cquat conat: ergo per oiffinitionem incontinue proportionalitatis proportio.a.ad.b.c licut cõpoliti ex.a.c.c. ad compoſitũ ey.b. d.f.quod eſt propoſitũ.
+## Propoſitio .14.
 
-## Propolito i4
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I fuerint quatuor quantitates proportionales.fueritqʒ maior prima tertia.neceſſe eſt ſecundã.quarta eſſe maiorem. Qd̃ ſi minor ⁊ minorẽ. Si vero equalis ⁊ equalẽ ẽe.
 
-{dropcap:[illegible]|lines=5|style=decorated}* fuerint quatuoz quantitates proportionales, fueritoz maioz prima tertia neceſſe eſt ſecundã, quarta eſſe maio?
+[Diagram: two rows of lines, c 6 and a 8; d 3 and b 4]
 
-[Diagram]
+[Diagram: handwritten rows of lines labelled with letters a, b, c and d, repeating the printed figure]
 
-rem. No ſi minoz z minorẽ. Oi vero equalis ⁊ equalẽ ẽe.
+¶Sit proportio.a.ad.b.ſicut.c.ad.d.dico ꝙ ſi.a.eſt maior.c.b.erit maior.d.⁊ ſi minor minor.⁊ ſi equalis equalis. Si enim.a.ſit maior c.erit per primã partẽ.8.huius maior proportio.a.ad.d.q̃ʒ.c.ad.d. quare maior erit.a.ad.d.q̃ʒ ad.b.ergo per ſecũdã partẽ.10.huius.b.erit maior.d.qd̃ ẽ propoſitum. Qd̃ ſi.a.ſit minor.c.erit per primã ptẽ.8.minor proportio.a.ad.d.q̃ʒ.c.ad d.quare maior erit.a.ad.b.q̃ʒ ad.d.per.ſecũdã ergo ptem.10.b.erit minor.d. Si autem.a.ſit equalis.c.erit per primã partem.7.a.ad.d.ſicut.c.ad.d.quare.a.ad.d ſicut ad.b.itaqʒ per ſecũdã ptẽ:9.b.erit equalis.d.ſicqʒ patet propoſitum.
 
-¶Oit proportio. a.ad.b. ſicut.c.ad. d.oico ꝙ ſi.a. eſt maior.c.b. crit maior.d.z ſi minor minor.z ſi equalis cqualis. Si cnim. a.ſit maior t.erit per primã partẽ. 8. buius maior proportio. a. ad. d.3.c ad.d. quare maior crit. a.ad. d.q̃z ad.b. ergo per ſecũdã partẽ. io buins.b. erit maior. d.qd é propo! ſitum. Oo ſi.a. ſit minor.c. erit per primã prẽ. s minor propoxio.a. ad. d.q̃5.c.ad d. quare maior erit. a.ad. b.q̃5 ad. d. per. ſecũdã ergo ptem.1o. b. erit minor. d. Si autem.a.ſit equalis. c.erit per primã partem.7. a.ad. d.ſicut. c.ad. d. quare. a.ad. d bicut ad.b.itaos per ſecũdã ptẽ: q.b.crit cqualis. d.ſicoy patct propoſitum.
+## Propoſitio .15.
 
-## PPropoſitio .15.
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I fuerint aliquibus quantitatibus eque multiplices aſſignate.erit ipſarum multipliciũ atqʒ ſub multiplicium vna proportio.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint aliquibus quantitatibus eque multiplices aſſi? gnate. erit iplarum multipliciũ atoz lub multiplicinm vna propoztio.
+[Diagram: two rows of lines, a 8 and c 24; b 4 and d 12]
 
-¶Oint. c.ad.a.2. d.ad. b.eque multiplices. bico ꝙ que ẽ proportio la.ad.b. cadé eſt. c.ad. d.oinidat. c.hm quãritaté.a.t. d.bm quatitatẽ b.c. ſũtqz tot partes.c. quot. d.z quia quelibet pars. c. ad q̃zlibet partem. d. ſe ba? bct ſicut. a. ad.b. crit per. 13. buius.c. ad.d.ſicut.a. ad.b.ad eſt propoſirum.
+¶Sint.c.ad.a.⁊.d.ad.b.eque multiplices. dico ꝙ que ẽ proportio a.ad.b.eadẽ eſt.c.ad.d.diuidat̃.c.ſm̃ quãtitatẽ.a.⁊.d.ſm̃ quãtitatẽ b.c.ſũtqʒ tot partes.c.quot.d.⁊ quia quelibet pars.c.ad q̃ʒlibet partem.d.ſe habet ſicut.a.ad.b.erit per.13.huius.c.ad.d.ſicut.a.ad.b.qd̃ eſt propoſitum.
 
-<!-- Signature: [illegible] -->
+<!-- Signature: e 4 -->

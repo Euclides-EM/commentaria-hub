@@ -1,45 +1,49 @@
-[Diagram]
+<!-- Running title: V -->
 
-<!-- Running title: opolitio. 1. -->
+[Handwritten]
+Diffinitio
+[/Handwritten]
 
-[Diagram]
+## Propoſitio. 13.
 
-{dropcap:[illegible]|lines=5|style=decorated}Oninncra vero proportionaltas dicitur quotieus ſicut antecedens cum conſequente ad cõſequens. ſic etiam ante cedens cum conſcquente ad conſequens.
+[Diagram: horizontal line labelled a, 8, b and 4 above a shorter line labelled c, 6, d and 3]
 
-¶Diffinit coniuncam piſiunctam z euerſam in quibus ctiam nibu eytra ſumitur ſed termini non mancnt in iplis.idem fm ſubſtantiã ⁊ vult ꝙ ſi ira fucrit.vt ſit.a.ad. b.ſicut. c.ad. d.⁊ cgo ex boc concludam. ergo to tins.a. b.ad.b. ſicut totius.c.d.ad. d. q iſte modus arguendi oicatur proportiona litas coniuncta. iefpin pi Propoſitio.1a.
+{dropcap:C|lines=4|style=decorated|decoration="foliate ornament on hatched ground"}Oniuncta vero proportionaltas dicitur quotieus ſicut antecedens cum conſequente ad cõſequens. ſic etiam antecedens cum conſequente ad conſequens.
 
-## [illegible]
+¶Diffinit coniunctam diſiunctam ⁊ euerſam in quibus etiam nihil extra ſumitur ſed termini non manent in ipſis.idem ſm̃ ſubſtantiã ⁊ vult ꝙ ſi ita fuerit.vt ſit.a.ad.b.ſicut.c.ad.d.⁊ ego ex hoc concludam. ergo totius.a.b.ad.b.ſicut totius.c.d.ad.d.ꝙ iſte modus arguendi dicatur proportionalitas coniuncta.
 
-{dropcap:[illegible]|lines=5|style=decorated}Jſiuncra vero proportionalitas oicitur angmẽtorum an
+[Handwritten]
+Diffinitio
+[/Handwritten]
 
-[Diagram]
+## Propoſitio. 14.
 
-tecedentium ſupra conſequentia equa comparatio.
+[Diagram: horizontal line labelled a, 8, b and 4 above a shorter line labelled c, 6, d and 3]
 
-¶Bult ꝙ ſi fuerit proportio totius. a. b.ad.b.ſicut totius.c. d.ad. d.z er boc cgo condudam. ergo.a ad.b. ſicut.c.ad.d. ꝙ iſte modus l argnendi vocetur oiſiuncta proportionalitas.
+{dropcap:D|lines=4|style=decorated|decoration="foliate ornament on hatched ground"}Iſiuncta vero proportionalitas dicitur augmẽtorum antecedentium ſupra conſequentia equa comparatio.
 
-Dſ
+¶Vult ꝙ ſi fuerit proportio totius.a.b.ad.b.ſicut totius.c.d.ad.d.⁊ ex hoc ego concludam.ergo.a.ad.b.ſicut.c.ad.d.ꝙ iſte modus arguendi vocetur diſiuncta proportionalitas.
 
-## ropoſitio .i5.
+[Handwritten]
+Diffinitio
+[/Handwritten]
 
-{dropcap:[illegible]|lines=5|style=decorated}Merla proportionalitas oicitur quorũliber antecedentiũ
+## Propoſitio .15.
 
-[Diagram]
+[Diagram: horizontal line labelled a, 8, b and 4 above a shorter line labelled c, 6, d and 3]
 
-ad augmenta ſui ſupra cõſequentia ſua ſimilitudo propor tionum.
+{dropcap:E|lines=5|style=decorated|decoration="foliate ornament on hatched ground"}Uerſa proportionalitas dicitur quorũlibet antecedentiũ ad augmenta ſui ſupra cõſequentia ſua ſimilitudo proportionum.
 
-¶Yult ꝙ ſi fuerit. a. b.ad.b:ſicut. c. d.ad. d. z e boc ego concudã Il ergo. a.b. ad.a. ficut. c. d.ad.c. ꝙ iſte modus arguendi oicatur eucr ſa proporrionalitas fpe ſfmnt a PPropoſitio.1s.
+¶Vult ꝙ ſi fuerit.a.b.ad.b:ſicut.c.d.ad.d. ⁊ ex hoc ego concludã ergo.a.b.ad.a.ſicut.c.d.ad.c.ꝙ iſte modus arguendi dicatur euerſa proportionalitas.
 
-## [illegible]
+[Handwritten]
+Diffinitio
+[/Handwritten]
 
-{dropcap:[illegible]|lines=5|style=decorated}Nna proportionaliras oicitur quãtitatibus plurimis pro poſitis aluſqz ſcõm eundem numerũ in vna proportione applicatis mediorum equali numero remoto vtrorumqz
+## Propoſitio. 16.
 
-[Diagram]
+[Diagram: six horizontal lines in two columns labelled a 8, d 12, b 4, e 6, c 2 and f 3]
 
-ſummozum ſimilitudo proportionum.
+{dropcap:E|lines=4|style=decorated|decoration="foliate ornament on hatched ground"}Qua proportionalitas dicitur quãtitatibus plurimis propoſitis alijſqʒ ſcõm eundem numerũ in vna proportione applicatis mediorum equali numero remoto vtrorumqʒ ſummorum ſimilitudo proportionum.
 
-¶ Diffinit cquam proportionalitatem que ad probandum propoſi ium ad eytra ſumit.z vult ꝙ ſi fumant quorliber quantirarcs. Vt.a.b.c. itemoz to ridem alie fiuc ſint ciuſdemn generis cum primis. fiuc altcrins. vr .d.e.f. fucrintoy ſecunde in proportiõc primay liue codé ordinc. vt ſi oicatur. a.ad. b. ſicut. d. ad.e 2.b. ad.c. ſicut. e.ad. f. ſiuc ordine cõuerſo vr ſi oicar. a.ad. b. ſicut. e. ad.f. 2.b. ad .ſicut. d.ad.e. ⁊ cr boc condndatur. crgo.a.ad.c. ſicut. d. ad.f. ꝙ iſte modus ar guendi vocetur cqua proportionalitas.
-
-¶Dorum a.:tẽ s. modorum arguendi oui oicũtur ſpecies pportionalitatis quatuor pbat auctor in lrã infra in iſto.5.Per mutatam quide proportionaliratem probat in.is. buins. oiſiunctã vcro in.i con iuncram in-is. cquam vcro proportionalitatẽ vemonſtrat. in. 22.2 23. Sed in.22. cũ quantitates onorũ ordinũ eodẽ ordine ſunt proportionales. in.23. cũ vero ſũt portionales ordine conuerſo. Lõucrſam vero pportionaliraté: aut cuerſa non oemõſtrat co ꝙ conucrſa pz ex oiffinitiõc quãtiratũ icõtinue pportionaliũ. Eucr ſa aũt pz ex pmutata adinuicẽ. 19. vt ſup eãoẽ.1 9.ſumꝰ oicturi. qualr autẽ oucrſa portoalitas cy oione quãritatũ icõtinue ppontiõaliũ maileſta ſit demoſtremꝰ nũc.
-
-¶ Git crgo pportio. a.ad. b.ſicut.c.ad. d. volo S oemõſtrare qo erit b.ad.a.
+¶Diffinit equam proportionalitatem que ad probandum propoſitum ad extra ſumit̃.⁊ vult ꝙ ſi ſumant̃ quotlibet quantitates.vt.a.b.c. itemqʒ totidem alie ſiue ſint eiuſdem generis cum primis.ſiue alterius.vt.d.e.f.fuerintqʒ ſecunde in proportiõe primaꝝ ſiue eodẽ ordine.vt ſi dicatur.a.ad.b.ſicut.d.ad.e ⁊.b.ad.c.ſicut.e.ad.f.ſiue ordine cõuerſo vt ſi dicat̃.a.ad.b.ſicut.e.ad.f.⁊.b.ad c.ſicut.d.ad.e.⁊ ex hoc concludatur.ergo.a.ad.c.ſicut.d.ad.f.ꝙ iſte modus arguendi vocetur equa proportionalitas. ¶Horum autẽ 6.modorum arguendi qui dicũtur ſpecies ꝓportionalitatis quatuor ꝓbat auctor in lr̃a infra in iſto.5.Permutatam quidẽ proportionalitatem probat in.16.huius.diſiunctã vero in.17.coniunctam in.18.equam vero proportionalitatẽ demõſtrat.in.22.⁊.23.Sed in.22.cũ quantitates duorũ ordinũ eodẽ ordine ſunt proportionales.in.23.cũ vero ſũt ꝓportionales ordine conuerſo. Cõuerſam vero ꝓportionalitatẽ: aut euerſa non demõſtrat eo ꝙ conuerſa pʒ ex diffinitiõe quãtitatũ icõtinue ꝓportionaliũ. Euerſa aũt pʒ ex ꝑmutata adinuicẽ.19.vt ſup eãdẽ.19.ſum⁹ dicturi.qual’r autẽ ꝯuerſa ꝓportiõalitas ex diõe quãtitatũ icõtinue ꝓportiõaliũ mãifeſta ſit demõſtrem⁹ nũc. ¶Sit ergo ꝓportio.a.ad.b.ſicut.c.ad.d.volo g̃ demõſtrare qd̃ erit b.ad.a.

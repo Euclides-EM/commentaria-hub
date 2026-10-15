@@ -1,33 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: XII -->
 
-oetrabantur ab co ouo ſeratilia que ex premiſſa ſunt maius medietate piramidis
+detrahantur ab eo duo ſeratilia que ex premiſſa ſunt maius medietate piramidis ipſius: itemqʒ ex vtraqʒ duarum partialium reſiduarum piramidum duo earum predicto modo diuiſarum ſeratilia demantur ⁊ fiat hoc totiens quouſqʒ ex piramide.b.cogatur aduerſarius per primam.10.confiteri relinqui minus ſolido.d. eruntqʒ ex communi ſcientia ſeratilia detracta maius.c.fiat igitur a piramide.a. ſimilis ſeratilium detractio.⁊ intelligamus tot ſeratilia detracta eſſe ex piramide. a.quot detraximus ex piramide.b.eritqʒ ex correlario premiſſe ſicut baſis.a.ad baſim.b.ita ſeratilia detracta a piramide.a.ad ſeratilia detracta a piramide.b.ſic ſed erat piramis.a.ad corp⁹.c.itaqʒ ſeratilia piramidis.a.ad ſeratilia piramidis b.ſicut piramis.a.ad corpus.c.⁊ pmutatim ſeratilia piramidis.a.ad piramidẽ.a ſicut ſeratilia piramidis.b.ad corpus.c.Cũqʒ ſint ſeratilia piramidis.b.maius corpore.c.erunt ſeratilia piramidis.a.maius piramide.a.Et quia hoc ẽ impoſſibibile{printer-error-correction:impoſſibile} nõ erit corpus.c.minus piramide.b.ſed nec maius.hoc eni poſito cum ſit ꝓportio baſis.a.ad baſim.b.ſicut piramidis.a.ad corpus.c.erit ecõuerſo baſis.b. ad baſim.a.ſicut corporis.c.ad piramidẽ.a.Eritqʒ eadẽ ex cõmuni ſcia piramidis b.ad aliqꝺ corpus qꝺ ſit.d.ſequeťqʒ ex.14.quinti ꝙ corpus.d.ſit minus piramide a.eo ꝙ piramis.b.poniť minor corpe.c.Erit igiť baſis.b.ad baſiʒ.a.ſicut piramis b.ad corpus minus piramide.a.Ex hoc aũt demonſtratũ ẽ ſequi impoſſibile videlicet ſeratilia detracta ab aliqua piramide maius eẽ ea piramide a qua detrahunť ideoqʒ relinquiť corpus.c.eſſe equale piramidi.b.cum nec minus ea poſſit eẽ nec maius ⁊ ꝓportionẽ piramidis.a.ad piramidem.b.eſſe ſicut baſis.a.ad baſim.b. hoc aũt erat demonſtrandũ.
 
-[Diagram]
+[Figure: triangle labelled a]
 
-[Diagram]
+[Figure: rounded solid with curved base labelled c]
 
-[Diagram]
+[Figure: triangle labelled b]
 
-[Diagram]
+[Figure: rounded solid with curved base labelled d]
 
-[Diagram]
+## Propoſitio .6.
 
-ipfius: itemy cy vtraqy ouarun partialium reſiduarum piramidum ouo carum ppredicto modo oiuiſarum ſcratilia oemantur z fiat boc totiens quouiqz cy pira? mide. b. cogatur aduerſarins per primam. io. confiteri relinqui minus folido.d. eruni cy communi ſcicntia ſeratilia betracta mains.c. fiat igitur a piramide.a. ſunilis ſeratilium octractio. z intelligamus tot ſcratilia oetractra eſſe er piramide, a.quot oetrarimus cx piramide.b. eritoz ex conclario premiſſe ſicut baſis.a. ad baſim. b. ita ſeratilia derracta a piramide. a. ad ſeratilia octracta a piramide. b. ſic. ſcd erat piramis.a.ad corpꝰ. c.itaz ſeratilia piramidis. a. ad ſeratilia piramidis b.ſicnt piramis. a ad corpus.c. z pmutatim ſeratilia piramidis. a.ad piramidẽ. a ficut ſcratilia piramidis.b. ad corpus. c. Lunz ſint ſeratilia piramidis. b. maius corporc. c.erunt ſeratilia piramidis. a. maius piramide. a. Et quia boc ẽ impoſſibi bile nõ erit corpus. c.minus piramide. b. ſed nec maius. boc eni poſito cum ſit ꝓꝰ portio balis.a.ad baſim.b. ſicut piramidis. a. ad corpns. c.erit ccõuerſo baſis. b. ad baſim. a. ſicut corporis. c.ad piramidẽ. a. Erit cadẽ cy cõmuni ſcia piramidis b. ad aliqo corpus qo ſit. d.ſequerqz ey. 1a quinti ꝙ corpus. d.ſit minus piramide a.co ꝙ piramis.b. ponit minor corpe.c. Erit igit baſis.b.ad baliz, a. ſicut piramis b.ad compus minus piramide. a. Ex hoc aũt demonſtratũ ẽ ſequi impoſſibile vide licct ſeratilia betracta ab aliqua piramide mains cẽ ca piramide a qua octrabunt ideoz relinquii corpus. c. eſſe cquale piramidi.b.cum nec minus ca poſſit ce nec
+{dropcap:O|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Mne corpus ſeratile in tres piramides equales baſeſqʒ triangulas habentes eſt diuiſibile. ¶Sit ſeratile.a.b.c.d.e.f.ipſũ dico eſſe diuiſibile in tres piramides triangulas equales ꝓtrahať eni in vnaquaqʒ ſuaꝝ triuʒ ſuperficierũ palellogramaꝝ linea diagonalis ita ꝙ vna eaꝝ diagonaliũ ſit cõterminalis reliquis duabus ut ſi ꝓtrahas lineas.b.d.b.f.⁊.f.a.quas ꝓpter cõfuſionẽ protrahere cõtempſi:eritqʒ totum ſeratile in tres triangulas piramides diuiſũ quas ex premiſſa bis aſſumpta facile cõſtat eẽ equales. Qm̃ aũt euclides nihil demonſtrandum proponit de piramidibus lateratis exceptis ſolidis his quaꝝ ſunt baſes triangule vt omniũ cognitionẽ ex elemẽtis q̃ ponit:ſufficienter elicere poſſimus:quedã arbitramur nõ inutile demõſtrationibus hic poſitis adiungere:ſolis eni elemẽtis contentus euclides multa p̃termiſit que quãuis ex eis conſequanť non tamen ſine difficultate patent ſtudentibus:hoꝝ primum eſt hec.
 
-[Diagram]
+[Figure: elongated wedge-shaped solid (seratile) with triangular ends, labelled a at top, b at left, c at right and c below]
 
-maius z pportione piramidis.a. ad piramidem.b. eſſe ſicut baſis. a.ad baſim.b. boc aũt crat demonſtrandũ.
+¶Si duo ſolida quoruʒ alterum ſeratile alterum vero piramis cuius baſis triangula ſuper eandem baſim aut ſuper equales trigonas aut ſeratile ſuper quadrangulã:piramis vero ſuper trigonã que quadrangule baſis ſeratilis ſit dimidiuʒ conſtituta fuerint eque alta ſeratile piramidi triplum eſſe conueniet
 
-## PPropoſitio.6.
+¶Si ſeratile ꝓpoſitũ fuerit ſuper baſim trigonam tunc ex piramide ꝓpoſita ſup propriam baſim perficiatur ſeratile piramidi ꝓpoſite eque altum. Si vero ſeratile fuerit ſuper baſim quadrangulam tunc baſi piramidis adijciatur triãgulus ex quo ⁊ baſi piramidis perficiatur ſuperficies equidiſtantium laterum ſuper quã ex ipſa
 
-{dropcap:[illegible]|lines=5|style=decorated}Mne corpus ſerarile in tres piramides equales baſeſoz triangulas babentes eſt oiuiſibile.
-
-¶ Sit ſeratile.a.b.c. d.c. f.ipſũ oico eſſe biniſibile in tres piramides triangulas equales ptrabat eni in vnaquaqz ſuax triuz ſuperficierũ lpalellogramax linea diagonalis ita ꝙ vna eay oiagonaliũ ſit cõter? minalis reliquis ouabus ut ſi ptrabas lineas. b. d.b. f.2. f.a. quas ppter cõfuſio, ne protrabere cõtempſi: critz totum ſcrarile in tres triangulas piramides oiuiſũ quas ex premiſſa bis aſſumpra facile cõſtat eẽ equales. Om̃ aũt eucides nibil oe, monſtrandum proponit de piramidibus lateratis exceptis ſolidis bis quay ſunt baſes triangule vt omniũ cognitionẽ ex clemẽtis q̃ ponit: ſufficienter elicere poſſi, mus: quedã arbitramur nõ inutile oemõſtrarionibus bic poſitis adiungere : ſolis eni clemẽtis contentus eucides multa p̃termilit que quãuis ex eis conſequant non ramen ſine oifficultate patent ſtudentibus: boy primum eſt bec.
-
-¶ Si ono ſolida quoruz alterum ſeratile alterum vero piramis cnius balis triangula ſuper eandem baſim aut ſuper equales trigonas aut ſerarile ſuper quadrangulã: piramis vero ſuper trigonã que quadran gule baſis ſeratilis ſit oimidiuz conſtituta fnerint eque alta ſeratile pi ramdi triplum eſſe conueniet
-
-¶ Si ſeratile ppoſitũ fuerit ſuper baſim trigonam tunc ey piramide ppoſita ſup propriam balim perficiatur ſeratilc piramidi ꝓpoſite equc altum. Si vero ſeratile fuerit ſuper baſim quadrangulam tunc baſi,piramidis adijciatur triãgulus cx quo a baſi piramidis perſiciatur ſuperticies equidiſtantiim latcrum ſuper quà cy irla
-
-<!-- Signature: [illegible] -->
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: o -->

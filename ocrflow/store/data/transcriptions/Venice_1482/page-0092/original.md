@@ -1,29 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-## Propofitio.4
+## Propoſitio .4.
 
-{dropcap:[illegible]|lines=5|style=decorated}ninm ouorum triangulorum quoy anguli vnins an gulis alrerius ſunt equalcs: latera equos angnlos reſpici entia ſunt proportionalia.
+{dropcap:O|lines=4|style=decorated|decoration="white floral vine on black ground"}Mnium duorum triangulorum quoꝝ anguli vnius angulis alterius ſunt equales:latera equos angulos reſpicientia ſunt proportionalia.
 
-[Diagram]
+¶Sunt duo trianguli.a.b.c.d.e.f.equianguli.ſitqʒ angulus.a. eq̃lis angulo.d.⁊ angulus.b.angulo.e.⁊ angulus.c. angulo.f.dico ꝙ ꝓportio.d.e.ad.a.b.⁊.d.f.ad.a.c.eſt ſicut.e.f.ad.b.c.ponã enim ambos triangulos ſup lineã vnã que ſit.e.c.ita ꝙ duo anguli vnius qui erunt ſup hanc lineam ſint equales duobus alterius qui erunt ſuper eandẽ.non quidẽ medius medio aut extremus extremo.ſed medius vnius extremo alterius.⁊ ponã duos eoꝝ medios angulos in eodẽ pũcto coire.ſitqʒ.a.f.c.ipſe idẽ triangulꝰ qͥ erat.a.b.c. ⁊ qꝛ angulus.a.f.c.ẽ eq̃lis angulo.e. ⁊ angulus.d.f.e.ãgulo.c.ꝑ ypotheſiʒ: erit ꝑ primã partem.28.primi linea.a.f.equidiſtans.d.e.⁊.d.f.equidiſtans.a.c.cõplebo igitur ſuperficiem equidiſtantium laterum que ſit.g.f.eritqʒ per.34.primi.g.a. equalis.d.f.⁊.g.d.equalis.a.f.quia ergo per ſecũdum huius.g.a.ad.a.c.ſicut.e.f.ad.f.c.et per eandem.e.f.ad.f.c.ſicut.e.d.ad.d.g.erit per.7.quinti.d.f.ad.a.c. ⁊ per eandem.e.d.ad.f.a.ſicut.e.f.ad.f.c.quod eſt propoſitum.
 
-¶ Ount ouo trianguli. a.b.c. d.c.I. equianguli. ſit angulus.a. eq̃, lis angulo. d.z angulus. b. angulo.e. z angulus.c. angulo. f. oico ꝙ pportio. d.e. ad.a. b.2. d.f.ad. a. c.eſt ſicut. e.f.ad.b.c. ponã enim ambos trian¬ gulos ſup lincã vnã que ſit. e.c.ita ꝙ ouo anguli vnins qui erunt ſup banc lincam ſint equales ouobus alterius qui crunt ſuper eandẽ. non quidẽ medius medio aut ertremus ertremo. ſed medius vnius extremo altcrins.z ponã ouos corũ mcdios angnlos in eodẽ pũcto coire.ſit.a. f.c. ipſe idẽ triangulꝰ qͥ erat. a.b.c. zqr angu lus. a. f.c.ẽ cq̃lis angulo.c. ⁊ angulus. d.f.c. ãgulo. c.ꝑyporbeſiz: erit p primã par tem.2s. primi linca.a.f. equidiſtans. d.e.2. d.f. equidiſtans. a.c.cõplebo igitur ſu perficiem equidiſtantium laicrum que ſit.g.f. eritoz per.3 ⁊ primi.g.a. cqualis. d. f.2.g.d.equalis. a. f. quia. ergo pcr ſecũdum buius. g. a.ad.a.c.ſicut.e.f.ad.f.c.et per eandem.e. f.ad. f.c. ſicut.e. d.ad. d.g-erit per.7 quinti. d.f.ad.a.c. z per can dem. c.d.ad.f.a.ficut. c.f.ad.f.c.quod eſt propolitum.
+[Diagram: small triangle with apex a and base corners b and c, beside a larger triangle with apex g above points d and a, on a base line with points e, f and c]
 
-## ropoſitio 5.
+## Propoſitio .5.
 
-{dropcap:[illegible]|lines=5|style=decorated}nium ouorum trianguloru quorũ cunctorũ larerũ ſe ſe reſpicientiũ ẽ proporno vna anguli latcribus pportio
+{dropcap:O|lines=4|style=decorated|decoration="white floral vine on black ground"}Mnium duorum triangulorũ quorũ cunctorũ laterũ ſe ſe reſpicientiũ ẽ proportio vna anguli lateribus ꝓportionalibus contenti equi ſibi inuiceʒ eſſe probantur.
 
-[Diagram]
+¶Hec eſt conuerſa prioris nec fecit ex ea ⁊ premiſſa vnã cõcluſionem ſicut fecit in ſecunda ⁊ tertia huius:qꝛ nec eadẽ figuratione nec eiſdẽ medijs demonſtratur quibus p̃cedens. Sint itaqʒ duo trianguli.a.b.c.d.e.f.ſitqʒ proportio.a.b.ad.d.e.⁊.a.c.ad.d.f.ſicut.b.c.ad.e.f.dico ꝙ angulus.a. ẽ equalis angulo.d.⁊ angulus.b.angulo.e.⁊ angulus.c.angulo.f.conſtituã ſuper lineam.e.f.in oppoſita pte trianguli.d.e.f.angulũ.f.e.g.equalem angulo.b.⁊ angulũ.e.f.g equalem angulo.c.eritqʒ per.32.primi:angulus.g.equalis angulo.a. ergo per premiſſam proportio.a.b.ad.e.g.⁊.a.c.ad.f.g.ſicut.b.c.ad.e.f.quare.a.b. ad.d.e: ſicut ad.e.g.⁊.a.c.ad.d.f.ſicut ad.f.g. igitur per ſecundam partem none quinti d.e.eſt equalis.e.g.⁊ per eandem.d.f.equalis.f.g.quare per.8.primi: duo trianguli.d.e.f.⁊.g.e.f.ſunt equianguli:quare ergo triangulus.g.e.f.eſt etiam equiangulus triangulo.a.b.c.conſtat propoſitum.
 
-[Diagram]
+[Diagram: triangle with apex a and base corners b and c, beside a triangle with apex d and base corners e and f, with an inverted triangle below the base e–f meeting at point g]
 
-[Diagram]
+## Propoſitio .6.
 
-nalibus contenti cqui ſibi inuicez elle probantur.
+{dropcap:O|lines=4|style=decorated|decoration="white floral vine on black ground"}Mnes duo trianguli quorum vnus angulus vniꝰ vni angulo alterius eq̃lis.lateraqʒ illos duos equos angulos continentia proportionalia ſunt inter ſe inuicem equianguli.
 
-¶hcc eſt conuerſa priors ncc fecit ey ea z premiſſa vnã cõdnſionem lficut fecit in ſecunda ⁊ icra buino: qu nec cadẽ figuratione ncc eisdẽ medijs demonſtratur qnibus pcedens. Sint iia pus trianguli.a.b.c.d.e. f.ſitqy proportio. a. b.ad.d.e. 1.a.t.ad. d.f.ficut. b.c.ad.e.f.oico ꝙ angulus.a. ẽ cqualis angulo. d. z angulus. b.angulo.c. z angulus.c.angulo.f.conſtituã ſuper lincam.e. f.in oppoſita pre trianguli, d. c.f. angului.f.c.s. cqualemn angulo.b.t angnlui. c.f.g cqualem angulo.c.erit per.;z prmi:angnlus.g.cqualis angulo. a. ergo per pre mifam proporio. a. b.ad.e.5..a.c.ad.f.g-ſicut b.c.ad. e.f,quare.a.b. ad. d.es ficut ad.e.g.2.a.c.ad. d.f.ſicut ad.f.g-igitur per ſecundam parem none quinti d.e.eſt cqualis.e g. c per candemn. d.f. cqualis.f.g quare pcr.s primi: ouo trian,, guli. d.e.f.e g-e.f.ſunt cquiangulisquare crgo trangulus. S.e.f.eſt etiom cquian gnlus triangulo.a.b.c. conltat propoſitum.
-
-## Propolltio6.
-
-{dropcap:[illegible]|lines=5|style=decorated}UOnes ouo trianguli quorum vnus angulns vniꝰ vni an gulo alterins eq̃lis. lateraos illos ouos equos angnlos continentia proportionalia ſuut inter ſe inuicem equian, gnli.
-
-¶ DHaneat prior biſpoſitio.z ſit ſolũ angnlus. b. cqualis angulo. d. e.f.⁊ proportio. a. b.ad. d.e. ſicut.b.c. ad.e. f.oico adbue duos triãgulos. a.bit, d e.t.eſſe cquianguloo: cum enim ſit per a buius propter moibeſes pmiſle condu?
+¶Maneat prior diſpoſitio.⁊ ſit ſolũ angulus.b.equalis angulo.d.e.f.⁊ proportio.a.b.ad.d.e.ſicut.b.c.ad.e.f.dico adhuc duos triãgulos.a.b.c.⁊ d.e.f.eſſe equiangulos: cum enim ſit per.4.huius propter ypotheſes p̃miſſe conclu

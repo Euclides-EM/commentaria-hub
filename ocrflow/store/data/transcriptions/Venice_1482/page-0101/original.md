@@ -1,43 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VI -->
 
-[Diagram]
+b.⁊ pono per.9.huius lineam.ſ.t.proportionalẽ inter lineam.h.k.⁊ lineã.k.r.⁊ ſuper eam ſcõm doctrinam.19.huius conſtituo ſuperficiem.v.ſimilem ſuperficiei a.dico ipſã eſſe quã querimus ⁊ equalem ſuperficiei.b.cum eniʒ tres linee.h.k.ſ.t ⁊.k.r.ſint continue proportionales.⁊ ſuper primã ⁊ ſecũdã ſint conſtitute ſuperficies ſimiles videlicet.a.⁊.v.erit per correl'.17.huius.a.ad.v.ſicut.h.k.ad.k.r. quare per primam huius ſicut.h.n.ad.n.r.⁊ ideo per primam partem ſeptime q̃nti ſicut.a.ad.n.r.⁊ propter hoc per ſecundam partem eiuſdem ſicut.a.ad.b.itaqʒ per ſcd'am.partẽ.9.quinti.v.eſt equalis.b.qd' eſt propoſitum.¶Qd' etiã poſſumꝰ ex ꝑmutata ꝓportionalitate facile ꝓbare.quia cum ſit.a.ad.v.ſicut.h.n.ad.n.r. erit permutatim.a.ad.h.n.ſicut.v.ad.n.r.⁊ quia.a.eſt equalis.h.n.erit.v.equalis n.r.quare.v.eſt etiã equalis.b.per hanc cõmunẽ ſcientiam:quecunqʒ vni ⁊ eidem ſunt equalia inter ſe ſunt equalia.Nõ eſt autẽ neceſſariũ vt ſuperficies.h.l.l.m.⁊.m.n.equidiſtantium laterum equales triangulis.c.a.d.aut ſupficies.k.o.o.p.p.q.⁊.q.r.equales triangulis.e.h.f.g.ſint rectangule.ſed ut angulus extrinſecꝰ ſuperficiei.l.m.ſit equalis angulo intrinſeco ſuperficiei.l.h.⁊ extrinſecus.m.n.intrinſeco.m.l.Similiter quoqʒ ut extrinſecus ſuperficiei.k.o.ſit equalis intrinſeco ſuperficiei.h.n.⁊ extrinſecus.o.p.intrinſeco.k.o.ſicqʒ de ceteris.Cum eniʒ ſic fuerit erit vnaquaqʒ linearum.k.n.⁊ ſibi oppoſita.h m.itemqʒ.h.r.⁊ ſibi oppoſita.n q.linea vna per vltimam partem.29.primi:⁊ per.14.eiuſdem:quotiens oportuerit equaliter repetitas:propter id qd' omnes ſuperficies.h.l.l.m.⁊.m.n.Itemqʒ.k o.o.p.p.q.⁊.q.r.ſunt equidiſtantium laterum ⁊ angulus extrinſecꝰ cuiuſqʒ ſequẽtis eſt equalis intrinſeco eã p̃cedentis:quare due ſupſicies.h.n.⁊.n.r.erunt equidiſtantium laterũ ⁊ inter lineas equidiſtantes.⁊ equalis altitudinis.Cetera ergo argue vt prius:
 
-[Diagram]
+[Diagram: triangles d and c with pentagon A above a large rectangle divided into compartments, with h, k, p and r along the top, m at the left, n, o and q along the bottom, and c, l, a, e, b, f, g and d within]
 
-[Diagram]
+[Diagram: pentagon labelled v on base ſ.t]
 
-[Diagram]
+[Diagram: hexagon divided into triangles e, h, f and g, labelled B]
 
-b. z pono per. 9.buius lincam. f.t, proportionale inter lineam. b. E.⁊ lineã.R.r. Z ſupcr eam ſcom ooctrinam.19. buius conſtituo ſuperficiem.v. ſimilem supcrficici a.bico iplã eſſe quã qucrimus ⁊ equalem ſuperficiei. b. cum eniz tres lince. D. E.ſ.t. .R.r. ſint continue proportionales.z luper primã z ſecũdã ſit conſtitute ſuper? ficics ſimiles vidclicet.a.2. V. erit per concl.ix.buius. a. ad.v.ſicut. b.l. ad.RT. quare per primam buius ſicut. b.n.ad.n.r. ideo per primam partem ſeptime qn ti ficut. a. ad.n.r.z proprer boc per ſccundam partem eiuſdem ſicut. a. ad.b. itaz per ſcoam. partẽ. y quinti.V.eſt equalis. b. qo eſt propoſitum.
+## Propoſitio .26.
 
-¶ Oo etiã poſſum? cr pmutata ꝓportionalitate facile pbare. quia cum ſit. a.ad.V. ſicut.b.n.ad.n.r. crit pmutatim. a.ad.b.n.licut. V. ad.n.r.c quia. a. eſt equalis. b.n.erit. v. equa? lis nr. quare.v. eſt etiã cqualis.b. per banc cõmunẽ ſcientiam: quecun vni eci dem ſunt cqualia inter ſe ſunt equalia. Iõ eſt autẽ neceſſariũ vt ſupcrficies.b. I.I. m.z.m.n. cquidiſtantium laterum cquales triangulis.c.a. d.aut ſupficics. R. O.O. p.p.q.2.q.r. cqualcs triangulis. e. b.f.g-ſint rectangule. ſed ut angulus cytrinſec? ſnperficici. l.m.ſit equalis angulo intrinſeco ſuperficiei.I.b.z cytrinſecus.m.n.in trinſeco. m.l. Similiter quo ut extrinſecus luperficici. R. o. ſit equalis intrinſeco ſuperficici.b.n.z cxtrinſecus.o. p. intrinſeco. R. O. ſic oe ceteris. Lum eniz ſic fuc rit erit vnaqua linearum. l.n. ⁊z ſibi oppoſita.b m.item.b.r.z ſibi oppoſita.n q linca vna per vltimam partem. zy primi: z per- ia einſdem: quotiens oportuc,
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}Uper dimidiũ date linee palellogramũ deſignatum maius ẽ eo palellogramo cui date linee applicato deeſt ad cõpletionẽ linee ſile ⁊ ſup diametruʒ conſiſtens ſuper dimidium collocati.
 
-[Diagram]
+¶Sit data linea.a.b.ſup cuius dimidiũ.c.b.cõſtituaꝫ palellogramũ c.d.cuius diameter.b.e.⁊ ad lineã.a.b.appliceꝫ palellogramũ.a.f.cuius vnũ latꝰ ſecet.e.c.in puncto.g.ita ꝙ ad cõplementũ totius linee.a.b.deſit ſupficies.f.b.q̃ ſit ſimilis ſupficiei.c.d.⁊ conſiſtẽs circa diametrũ eius:dico tunc ꝙ palellogramũ c.d.eſt maiꝰ palellogramo.a.f.Eſt eni ꝑ primã huius.a.g.equale.g.b.⁊ ꝑ.43.primi.e.f.equale.f.d.ergo per hãc cõmunẽ ſcientiam:ſi equalibus equalia addas.⁊c. erit gnomo cõſtans ex tribus palellogramis q̃ ſunt.e.f.f.b.⁊.f.d.eq̃lis palellogramo.a.f.quare palellogramũ.c.d.ẽ maius palellogramo.a.f.i palellogramo.e.f. qd' ẽ propoſitũ.Idẽ etiã eẽt ſi ſupficies.a.f.fieret altior ſupficie.c.d.vt videre potes in ſecunda figura i qua etiã per primã huius.a.g.ẽ equale.g.b.demptis itaqʒ vtriqʒ duobus ſupplemẽtis ſuperficiei.f.b.excedet palellogramũ.c.d.palellogramum.a.f.in palellogramo.f.e.
 
-[Diagram]
+[Diagram: rectangle on base a.c.b with e and d above, g and f within, and a diagonal from b through f to e]
 
-rit equaliter repctitas: propter id qo omnes ſuperficics.b. l.l.m.z.m.n. Jtem;.R O.O.p.p.q.2. q.r. ſunt equidiſtantium laterum e angulus crrrinſec? cuiuſ ſcquẽ lis eſt cqualis intrinſeco cã pccdentis: quare oue ſupſicicx. b.n.2.n.r. crunt cqui, diſtantium latcrũ z inter lineas cquidiſtantes. z cqualis alritudinis. Letera ergo
+[Diagram: rectangle on base a.c.b with f and g at the top, e within, d at the right, and a diagonal drawn from f to the lower right corner]
 
-## Propofitio a¬
+## Propoſitio .27.
 
-argue vt prins: {dropcap:[illegible]|lines=5|style=decorated}Mper dimidiũ date linee palellogramũ deſignatum ma¬ uus ẽ eo palellogramo cui oate linee applicato deeſt ad cõpletionẽ linee ſil'e z ſup diametruz conſiſtens ſuper di
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-midium collocati.
-
-¶
-
-¶ Sit bata linca.a. b. ſup cuius dimidiũ. c. b. cõſtituai palcllogramũ c. d.cuins oiamcter. b.c. T ad lineã. a. b. applicct palcllogramũ. a.f.cuins vnũ lat? ſccet. c.c.in puncto. g.ita ꝙ ad cõplemcntũ totins linec. a.b. Deſit ſupficies. f.b. q̃ fit ſimilis ſupficiei.c. d.z conſiſtẽs circa oiametrũ cins: oico tunc ꝙ palcllogramũ c.d.eſt mai? palcllogramo. a.f. Eſt eni p primã buins. a. g. cqualc.5. b. 1P.a3 pri mi.c.f. cqualc. f. d.ergo per bãc cõmune ſcientiam: ſi cqualibus equalia addas. 1c. crit gnomo cõſtans er tribus palellogramis q̃ ſunt. c.f.f.b.2.f.d.eq̃lis palcllogra
-
-[Diagram]
-
-mo.a.f. quare palcllogramũ.c. d.ẽ maius palcllogramo. a. f.i palellogramo. e. f. pẽ propoitũ. Idẽ crã cẽt si ſupficics.a.f.ficret altior ſupficic. c. d.vt vidcre poꝰ tes in ſecunda figura i qua ctiã per primã buius. a.g.ẽ cquale.g.b. demptis itaz vtriqz ouobus ſupplemẽtis ſuperficiei.f.b. excedet palellogramũ. c. d. palcllogra? mum.a.f.in palcllogramo.f.c. Iropoſitio aa7
-
-## [illegible]
-
-ppr ersa tei il'ile ilatera ſuperficie ppolita equũ ci ſup quẽlibet alligna, {dropcap:[illegible]|lines=5|style=decorated}tã lineã palellogramũ delignare cui delit ad cõplẽdã line lam alij ſupficiei ppoſite ſil’e palellogramũ qo ſcom einſdẽ uum eſſe paralellogramo ſuper oimidium date linee col llocato minime mains eriſtai.
+{dropcap:T|lines=5|style=decorated|decoration="white floral vine on black ground"}Rilatera ſuperficie ꝓpoſita equũ ei ſup quẽlibet aſſignatã lineã palellogramũ deſignare cui deſit ad cõplẽdã lineam alij ſupficiei ꝓpoſite ſile palellogramũ qd' ſcõm eiuſdẽ ſuum eſſe paralellogramo ſuper dimidium date linee collocato minime maius exiſtat.

@@ -1,29 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-[Diagram]
+perpendicularis ad baſim.dico ꝙ vterqʒ duorum triangulorum partialium qui ſũt a.b.d.a.d.c.ſimilis eſt totali triangulo.a.b.c.⁊ vnus eorum alteri. ẽ enim vterqʒ ipſorum equiangulus totali per.32.primi.eo ꝙ vterqʒ eſt orthogonius ⁊ in vno angulo cõmunicat cum totali:quare ⁊ ſibi inuicem ſunt equianguli. ita ꝙ angulus b.eſt equalis angulo.d.a.c.⁊ angulus.b.a.d.angulo.c.⁊ duo anguli qui ſunt ad.d.ſibi inuicem ⁊ angulo.a.totali equales:quare per.4.huius latera equos eorum angulos reſpicientia.ſunt proportionalia:ergo per diffinitionem ſunt ſimiles:qd' eſt propoſitum:vtrũqʒ correl'.ex his euidenter apparet.
 
-nerneudicularis ad baſim.oico ꝙ vreroy ouorum triangulorum partialium qui ſu a h. d.a. d.c.ſimilis eſt torali triangulo. a.b.c.z vnus corum alteri. é cnim vicrq; ipſorum equiangulus totali per.y2 primi.co ꝙ vrcrq eſt ontbogonins z in vuo angulo cõmunicat cumn totsli: quare c ſibi inuicemn ſunt cquiangni. ira angulus b.eſt cqualis angulo. d.a.c. ⁊ angu’us. b.a. d.angulo.c. c ouo anguli qui ſunt.ad d.ſibi inuicem z angulo. a. totali cquales: quare per. 4.buius latcra cquos corum engulos reſpicientia. ſunt proportionalia: ergo per oiffinitionem ſunt ſimiles :oo eſt propolitum: vtrũqy conel. cy bis cuidenter apparer.
+[Diagram: triangle with apex a and base corners b and c, with perpendicular from a to point d on the base]
 
-## Propoſitio9.
+## Propoſitio .9.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mabus lineis propolitis tertiam inter eas ſub proportio
+{dropcap:D|lines=5|style=decorated|decoration="white floral vine on black ground"}Uabus lineis propoſitis tertiam inter eas ſub proportionalitate continua collocare.
 
-[Diagram]
+¶Sint due linee propoſite.a.b.⁊.c.inter quas volo vnam lineam in proportionalitate continua collocare. Adiungam vnam earuʒ alteri ſitqʒ tota ex eis compoſita.a.d.ita ꝙ.b.d.ſit equale.c.⁊ ſuper totam deſcribo ſemicirculum.a.e.d.⁊ produco.e.b.vſqʒ ad circumferentiam perpendicularem ad lineam.a.d.dico lineam.b.e.eſſe quã querimus:produco enim lineas.e.a.⁊.e.d.eritqʒ per.30.tertij angulus.e.totalis rectus:quare per primam partẽ correl'.premiſſe ꝓportio.a.b.ad.b.e.ſicut.b.e.ad.b.d.qd' eſt propoſitum.
 
-nalitate continua collocare.
+[Diagram: semicircle on diameter a d with apex e, perpendicular e b to the diameter and lines from e to a and d; segment c marked below the base; scale bar beneath]
 
-¶Oint ouc lince propoſite.a.b. z.c.inter qnas volo vnam lincam in propontionalirate continua collocarc. Adiungam vnam caniz alie? ri ſitq tota er cis compoſira.a. d.ira ꝙ. b. d.ſir equale.c.⁊ ſuper toꝰ tamoeſcribo ſemicirculuin.a.e.d.t produco. e.b. vly ad circumierentiam per? nendicularem ad lincam. a. d. oico lincam b.c.eſſe que querimus : produco euim iincas.c.a.2.e.d. critqs per.3o. tertij angulus.c. totalis recius: quare pcr primam parté concl. premiſſe ꝓportio.a. b.ad.b.e. ſicut.b.c.ad.b. d. qo eſt propoſitum. 2
+## Propoſitio .10.
 
-## Propoſitio.io.
+{dropcap:D|lines=5|style=decorated|decoration="white floral vine on black ground"}Uabus lineis datis tertiam eis in continua proportionalitate ſubiungere.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mabus lineis datis tertiam eis in continua proportiona
+¶Sint due linee propoſite.a.b.⁊.c.quibus volo tertiam in cõtinua proportionalitate ſubiungere:coniũgo lineam.c.angulariter vt cõtingit cuʒ linea.a.b.ſitqʒ.a.d.ſibi equalis.⁊ produco lineã.a.b.vſqʒ ad.e.donec fiat.b.e.equalis.a.d.⁊ protracta linea.b.d.a puncto.e.duco lineã ſibi equidiſtantemqʒ ⁊ lineam.a.d.produco quouſqʒ concurrant in puncto.f.dico igitur lineam.d.f.eſſe quã querimus.eſt enim per ſecundã huius proportio.a.b.ad.b.e.ſicut.a.d.ad.d.f.ſed.a.b.ad.b.e.eſt ſicut.a.b.ad.a.d.per.2.ptẽ.7.quinti:quare.a.b.ad.a.d.ſicut.a.d.ad.d.f.qd' eſt propoſitum.Qd' ſi propoſitis tribus lineis velimus inuenire quartam.ad quam ſit proportio tertie ſicut prime ad ſecũdaʒ:ex prima ⁊ ſecũda fiat linea vna ⁊ toti cõpoſite tertia:angulariter adiungaꝰ ⁊ a cõmuni termĩo prime ⁊ ſecunde:ducatur linea ad extremitatẽ tertie:⁊ ab altero termino ſecũde ducaꝰ huic linee equidiſtans:quouſqʒ concurrat cum tertia in cõtinuuʒ rectumqʒ protracta:eritqʒ per ſecundam huius linea quã hec equidiſtãs abſcindet que queritur:quẽadmodum ſi in hac figura fuerit prima.a.b.ſecunda.b.e. tertia.a.d.erit quarta.d.f.
 
-[Diagram]
+[Diagram: right triangle with vertex f at top left, base from e to a, and vertical line through points d and b meeting the base at c; scale bar beneath]
 
-litate ſubinngere. ( Oint oue lince propoſite.a.b. 2.c quibus volo tcrtiam in cõtinua loroportionaliratc ſubiungere: conĩgo lincam.c. angulariter vt cõ? ingir cuz linca.a. b. ſitcs.a. d. ſibi cqualis. * produco lincã. a b. vſqy ad.c.boncc fiat. b.e. cqualis. a. d.⁊ protracta linca. b. d.a puncto,e. ouco lmea ſii bi cquidiſtantemõz z lineam.a. d.produco quouſqy concurrant in puncto. f.oico igitur lincam.d.f. eſſe que querimus. eſt cnim per ſecundã buins proponrtio. a.b. ad.be, ſicut, a.d.ad.d.f.ſcd. a. b.ad. b.e eſt ſicut, a.b.ad.a. d. per.a pte.x. quin ti: quare.a. b.ad.a.d.ſicut. a. d.ad. d.f.qo eſt propoſitum. Oo ſi propoſiris tribus lincis vclumus innenire quartam. ad quam ſir proportio icertie ficut prime ad ſecũ Aaz: er prima ⁊ ſccũda fiat linca vna z toti cõpolire rertia: angulariter adungai z a cõmuni termio prime z ſecunde: oucatur linca ad cytremitatẽ terrie:z ab altero termino ſecũde oucat buic lince cquidiſtans:quouſy concurrat cum terria in cõꝰ tinunz rcctumz protracta: eritqs per ſecundam buius linca q̃s bec equidiſtãs abl fender que queritur: quẽadmodum ſi in bac figura ſuerit prima.a.b.ſccunda.b.e. s tertia.a.d.erit quarta.d.f.
+## Propoſitio .11.
 
-## Ppropoſitio 1l.
+{dropcap:A|lines=5|style=decorated|decoration="white floral vine on black ground"}B aſſignata linea quotamcũqʒ iubearis partem abſcindere.
 
-{dropcap:[illegible]|lines=5|style=decorated}allignata linca quotamcũqz iubearis partem abſcin dere.
-
-¶ Sit. a. b.linea alſignara ab ca volo aliquotam partem vtpore ter, jlriam abſcindere: coniungo ci angularitcr vt contingit lincami inde? finite quantitatis que ſit.a.c.a qua reſeco tres cquas portioncs.
+¶Sit.a.b.linea aſſignata ab ea volo aliquotam partem vtpote tertiam abſcindere:coniungo ei angulariter vt contingit lineam indefinite quantitatis que ſit.a.c.a qua reſeco tres equas portiones.

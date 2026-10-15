@@ -1,25 +1,27 @@
-biet angulus. d.b. c.cqualis angulo. e.c.b. quod ſic poatur: protractis. a.b.2.a.. ponam per tertiam lineam.a. d. equalem linee. a. e. z protrabam lineas. c.b. d.c. z intelligam ouos triangulos. a.b.e. z. a.c. d. quos probabo eſſe equales z cquila teros ⁊ eqangulos. Sunt.n. ouo latera. a. b.2. a.e. trianguli a.b.e. cqualia ouob' latcribus. a.c. 2.a.d.trianguli.a. c.d.z angulus. a. ẽ cõis vtriqz ergo p pmiſſã ba ſis. b.c.eſt cqualis baſi.c. d-e angulus. e. eſt equalis angulo. d. z angulus. a. b.e. cqualis angulo.a.c. d.Jtemn intelligo ouos triangulos. d.b.c.2.C.C.b, quos ſimili ter probabo eſſe equilareros z equiangulos. nam ono latera. d.b.2. d.c. trianguli b. d.c. ſunt equalia ouobus lateribus. e. c. z.e. b. trianguli.e. b. c. z angulus. d.eſt cqualis angulo. c. ergo per premiſſam: baſis baſi: z rcliqui anguli reliquis angulis ergo angulus. d.b. c. eſt equalis angulo. e.c. b.z boc eſt ſcom ppoſitũ. ſ. ꝙ anguli
+<!-- Running title: -->fiet angulus.d.b.c.equalis angulo.e.c.b.quod ſic ꝓbatur:protractis.a.b.⁊.a.c. ponam per tertiam lineam.a.d.equalem linee.a.e.⁊ protraham lineas.e.b.d.c. ⁊ intelligam duos triangulos.a.b.e.⁊.a.c.d.quos probabo eſſe equales ⁊ equilateros ⁊ eq̃angulos. Sunt.n.duo latera.a.b.⁊.a.e.trianguli.a.b.e.equalia duob⁹ lateribus.a.c.⁊.a.d.trianguli.a.c.d.⁊ angulus.a.ẽ cõis vtriqʒ ergo ꝑ p̃miſſã baſis.b.c.eſt equalis baſi.c.d.⁊ angulus.e.eſt equalis angulo.d. ⁊ angulus.a.b.e. equalis angulo.a.c.d.Item intelligo duos triangulos.d.b.c.⁊.e.c.b.quos ſimiliter probabo eſſe equilateros ⁊ equiangulos.nam duo latera.d.b.⁊.d.c. trianguli b.d.c.ſunt equalia duobus lateribus.e.c.⁊.e.b.trianguli.e.b.c. ⁊ angulus.d.eſt equalis angulo.e.ergo per premiſſam:baſis baſi: ⁊ reliqui anguli reliquis angulis ergo angulus.d.b.c.eſt equalis angulo.e.c.b.⁊ hoc eſt ſcðm ꝓpoſitũ.ſ.ꝙ anguli ſub baſi equales ſunt: ⁊ angulus.b.c.d.eſt equalis angulo.e.b.c.ſed totus.a.b.c. eſt equalis.a.c.d.vt probatum fuit ſupra.ergo angulus.a.b.c.reſiduus eſt equalis angulo.a.c.b.reſiduo quoꝝ vterqʒ eſt ſuper baſim:quod p̃mũ ꝓpoſitum
 
-[Diagram]
+[Margin]
+[Diagram: a triangle with apex a and base vertices b and c, with a point d on the left side and lines drawn from d and from the apex crossing to the base vertices]
+[/Margin]
 
-ſub baſi cquales ſunt: z angulus. b. c.d.eſt equalis angulo. e.b. c.ſed totus. a.b.c. eſt cqualis.a. c.d. vt probatum fuit ſupra.ergo angulus. a. b. c. reſiduus eſt equa lis angulo. a. c.b. reſiduo quoy vtcroz eſt ſuper baſim: quod pmũ ppolitum
+## Propoſitio .6.
 
-## Propoſitio.6.
+{dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I duo anguli alicuius trianguli equales fuerint duoqʒ latera angulos illos reſpicientia equalia erunt.
 
-{dropcap:[illegible]|lines=5|style=decorated}S ouo anguli alicuius triangunli equales fuerint ouoqz la ftera angulos illos reſpicientia equalia crunt.
+¶Hec ẽ conuerſa p̃miſſe quantum ad p̃mã eius ptem. Sit enim triangulus.a.b.c.cuius duo anguli.b.⁊.c.ſunt equales dico ꝙ lat⁹.a.b.eſt equalis lateri.a.c.Si eni non ſunt equales erit alterũ alt̃o maius.ſitqʒ.a.b.maius quod reſecetur ad equalitatem.a.c.per tertiam ꝓpoſitioneʒ vt ſuperfluum ſit a parte.a.⁊ reſecetur in puncto.d.ſitqʒ.b.d.equalis.a.c.⁊ ducat᷑ linea.d.c.Intelligo ergo duos triangulos.a.b.c.⁊.d.b.c.quos ꝓbabo eſſe equilateros ⁊ equiangulos.ſunt enim duo latera.d.b.⁊.b.c.trianguli.d.b.c.eq̃lia duobus lateribus.a.c.⁊.b.c.trianguli.a.b.c.⁊ angulus.b.equalis angulo.c.totali ꝑ ypotheſim ergo baſis.d.c.eſt equalis baſi.b.a.⁊ angulus.d.c.b.equalis angulo.a.c.b.pars vʒ toti quod eſt impoſſibile.
 
-¶Dec é conucrſa p̃miſſe quantum ad pmã cius ptem. Sit enim tri langulus. a. b. c. cuius ouo anguli.b. z. c. ſunt equales oico ꝙ lat.a. b. eſt equalis lateri. a.c. Si eni non ſunt cquales crit alterũ alto ma? ius. ſitqy. a.b. maius quod reſecctur ad equalitatem. a. c per tertiam ppoſitionez vt ſuperflnum ſit a parte.a. reſecetur in puncto. d. ſitz. b. d.equalis, a. c.z oucat linea. d.c. Jnteligo ergo ouos triangulos. a. b.c. z. d.b.c. quos pbabo cſſe cquila
+[Margin]
+[Diagram: a triangle on base a.b with two nearly coincident apex points c and d from which lines descend to the base vertices]
+[/Margin]
 
-[Diagram]
+## Propoſitio .7.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I a duobus punctis aliquam lineã terminantibus due linee ad punctũ vnum concurrentes exierint ab eiſdẽ punctis alias lineas ſingulas ſuis conterminalibus equales q̃ ad aliũ ꝯcurrãt in eandẽ ptem duci eſt impoſſibile.
 
-teros z equiangulos. ſunt enim ouo latera. d.b. 2. b.c. trianguli. d.b.c. cq̃lia ouo, bus lateribus.a.c. 4. b.c.trjanguli.a.b.c.t angulus. b. cqualis angulo.c. torali p potbcſim ergo baſis. d.c.eſt cqualis baſi. b.a. T angulus. d.c.b. cqualis angulo.a .b. pars vz toti quod eſt impoſſibile.
+¶ Sit linea.a.b.a cuius extremitatibus ꝓtrahant᷑ due linee in partem vnam que concurrant in eodem puncto vt ſint.a.c.⁊.b.c.que concurrant in puncto.c.dico ꝙ in eandem partem non protrahentur alie due ab eiſdem extremitatibus que concurrant ad aliud punctum:ita ꝙ illa que egredietur a pũcto.a.ſit equalis linee.a.c.⁊ que egredietur a puncto.b.ſit equaꝉ linee.b.c.Quod ſi fuerit poſſibile protrahantur alie due linee in eandem partem que concurrant in pũcto.d.⁊ ſit linea.a.d.equalis linee.a.c.⁊ linea.b.d.equalis.b.c.aut ergo punctus d.cadet intra triangulum aut extra:nam in altero laterum.a.c.⁊.b.c.non cadet quia tunc pars eſſet equalis ſuo toti.Si autem cadat extra aut altera linearum.a.d.⁊.b.d.ſecabit alteram linearum.a.c.⁊.b.c.aut neutra neutram:⁊ ſecet primo altera alteram ⁊ protrahatur linea.c.d.quia ergo trianguli.a.c.d.duo latera.a.c.⁊.a.d.ſunt equalia erit angulus.a.c.d.equalis angulo.a.d.c.per.5.Similiter q̃a in triangulo.b.c.d.duo latera.b.c.⁊.b.d.ſunt equalia erunt ãguli.b.c.d.⁊.b.d.c
 
-## Propoſitio7.
+[Margin]
+[Diagram: a triangle on base a.b with lines from a and b crossing near the apex at points c and d, and two short lines extending above to e and f]
+[/Margin]
 
-{dropcap:[illegible]|lines=5|style=decorated}I a ouobus punctis aliquam lineã terminantibus dueli? nce ad punctũ vnum concurrentes erierint ab eiſdẽ pun ctis alias lineas lingulas ſnis conterminalibus equales q̃ ad aliũ ꝯcurrãt in eandẽ ptem ouci eſt impoſlibile.
-
-¶ Sit linca a.b.a cuins crtremitatibus ptrabant once lince in par? tem vnam que concurrant in codem puncto vt ſint. a.c. 2.b. c. que concurrant in puncto. c. oico q in eandem partem non protrabentur alie oue ab eiſdem eytre, mitatibus que concurrant ad aliud punctum: ita ꝙ illa que egredietur a pũcto. a. ſit cqualis lince. a.c.z que egredietur a puncto. b.ſit equal lince. b.c. Quod ſi fue rit poſſibile protrabantur alic oue lince in eandem partemn que concurrant in pũ cto. d.z ſit linca. a.d.cqualis linec.a.c. z linca. b. d. equalis. b.c.aut crgo punctus d. cadet intra triangulum aut extra: nam in altero latcrum.a.c.2.b.c. non cadet quia tunc pars eſſet cqualis ſuo toti. Si autem cadot extra aur altera lincarum.a. d.2.b. d. ſecabit alteram linearum.a.c.2.b.c. aut neutra neutram: z ſccet primo altera alteram protrabatur linea. c. d. quia crgo trianguli.a.c. d.ouo latera. 4. c. 4.a.d.ſunt cqualia crit angulus.a.c.d.equalis angulo. a.d.c. per. 5. Similiter qa in triangulo. b.c. d. ouo larera.b.c.2. b.d.ſunt equalia erunt ãguli. b.c.d.2. b.d.c
-
-<!-- Signature: [illegible] -->
+<!-- Signature: a 4 -->

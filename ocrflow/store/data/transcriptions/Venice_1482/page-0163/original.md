@@ -1,31 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-¶ Si aliqna linea per buo inequalia dinidarur qua drara ambarũ ſe
+¶Si aliqua linea per duo inequalia diuidatur quadrata ambarũ ſectionum pariter accepta:tanto amplius ſunt duplo ſupficiei vniꝰ earũ in alteram quantũ ẽ quadratum eius linee qua maioꝛ excedit minoꝛẽ.
 
-[Diagram]
+¶Sit eni linea.a.b.diuiſa per duo inequalia in puncto.c.ſitqʒ maioꝛ poꝛtio.c.b.de qua ſumatur.c.d.equalis.a.c.dico ꝙ quadrata duaꝝ linearum.a.c.⁊.c.b.ſunt amplius duplo ſuperficiei vnius ĩ alteram in quadrato linee.d.b.nam quod fit ex.a.c.in.c.b.bis cum quadratis duarum linearũ.a.c.⁊.c.b.eſt equale ei quod fit ex.a.c.in.c.b.quater cum quadrato.d.b.eo ꝙ vtraqʒ hec equalia ſunt quadrato linee.a.b.primum quidem per quartam ſecundi ſcꝺm vero per.8.eiuſdem. Demptis itaqʒ vtrũqʒ equalibus videlicet eo qꝺ fit ex.a.c.in.c.b.bis erũt reſidua q̃ ſũt de pꝛimo quidẽ quadrata duaꝝ lineaꝝ.a.c.⁊.c.b.de ſecundo vero quod fit ex.a.c.in.c.b.bis cum quadrato.d.b.equalia:quare conſtat pꝛopoſitũ. Ex hoc ergo manifeſtũ eſt ꝙ ſi aliqua linea per duo inequalia diuidatur quadrata ambarum partiũ pariter accepta plus ſunt duplo ſuperficiei vnius earum in alteram. Et hoc ẽ propter quod iſtud premiſimus.
 
-ctionum pariter accepta: tanto amplius ſunt ouplo ſupficiei vniꝰ carũ in alteram quantũ ẽ quadratum eius linee qua maioz crcedit minozẽ.
+[Diagram: square divided into compartments by vertical and horizontal lines with a diagonal, labelled a, c, d and b along the base]
 
-¶Oit eni linca. a-b. oiuiſa pcr ouo incqualia in puncro. c. ſitdz maior portio. C.b. oe qua ſumatur.c d.cqualis. a. c.oico q quadrata ouay lincarnm. a. c.2.C.b. ſunt amplius ouplo ſuperficici vnius i alteram in quadrato lince. d.b. nam quod fit cr a.c.in.c.b. bis cum quadratis ouarum lincarũ. a.c.2.C.b. eſt cqualc ci quod fit cr.a. c.in. c.b. quater cum quadrato. d.b. co ꝙ vtraqz bec cqualja ſunt quadrato li nee. a.b.primuin quldem per quartam ſecundi ſcom vero per. s. ciuſdem. Dem ptis iraz vrrũz cqualibus videlicet eo qo fit ey. a. c.in. C.b. bis erũt reſidua q̃ ſũt, be primo quidẽ quadrata ouay lineay. a. c.2.C.b. oc ſccundo vero quod ſit er.a.c. in. c.b. bis cum quadrato. d. b. cqualia: quare conſtat propoſitũ. Ex boc ergo mani feſtũ eſt ꝙ li aliqua linea per ouo inequalia oiuidatur quadrata ambarum partiũ pariter accepta plus ſunt ouplo ſupcrficici vnius earum in alteram. Et bocẽ pro, pter quod iſtud premiſimus.
+¶Si aliqua linea per duo inequalia.itemqʒ alia duo inequalia diuidatur quadrata magis inequalium pariter accepta tanto ſunt ampliꝰ quadratis minus inequalium pariter acceptis quantũ eſt duplũ quadrati illius linee que inter vtraſqʒ ẽ ſectiones ⁊ quadruplum eius qꝺ fit ex eadem linea in eam que eſt inter punctũ ſectionis minus inequalium ⁊ punctum quod diuidit totam lineam per equalia.
 
-¶ Si aliqua linea per ouo inequalia.itemqz alia ouo inequalia diui? datur quadrata magis inequalium pariter accepra tanto iunt ampliꝰ quadratis minus inequalium pariter acceptis quantũ eſt ouplũ qua drati illius linee que inter vtraſqz ẽ ſectioncs z quadruplum eius qo fit ex eadem linea in eam que eſt inter punctũ ſectionis minus incqua linm ⁊ punctum quod oinidit totam lineam per equalia.
+¶Sit linea.b.diuiſa per duo inequalia in puncto.c.itemqʒ per alia minus inequalia in puncto.d.rurſus per equalia ĩ.e.dico ꝙ quadrata duaꝝ partium magis inequalium que ſunt.a.c.⁊.c.b.tantum ſunt amplius duobus quadratis duarum linearum minus inequalium que ſunt.a.d.⁊.d.b.quantum eſt duplum quadrati linee.c.d.⁊ quadruplum eius quod fit ex.c.d.in.d.e.ſunt enim per.9.ſecũdi quadrata duarum linearum.a.c.⁊.c.b.pariter accepta dupla quadratis duarum linearum.b.e.⁊.e.c.pariter acceptis.at per eandem.9.ſecundi quadrata duaꝝ linearuʒ a.d.⁊.d.b.piter accepta dupla ſũt quadratis duarũ linearum.b.e.⁊.e.d.piter acceptis:itaqʒ quadrata duarum linearum.a.c.⁊.c.b.pariter accepta excedũt quadrata duarum linearum.a.d.⁊.d.b.pariter accepta in eo quo duplũ quadrati linee.c.e.excedit duplum quadrati linee.d.e.hoc autẽ per quartam ſecundi eſt duplum quadrati linee.c.d.⁊ quadruplum eius quod fit ex.c.d.in.d.e.quare cõſtat propoſitum. Ex hoc manifeſtum eſt ꝙ quanto fuerint ſectiones alicuius linee magis inequales tanto erunt earũ quadrata pariter accepta maiora:⁊ hoc eſt ꝓpter quod iſtud premiſimus.
 
-¶ Oit linea.b. oiuiſa per ouo incqualia in puncto. c. itemqz per alia minus incqua lia in puncto. d.rurſus pcr equalia i.e. oico ꝙ quadrata onax partium magis in, cqualinm que ſunt. a.c..c.b. tantum ſunt ampliuns ouobus quadratis onarum li,
+[Diagram: horizontal line with points labelled a, c, d, e and b]
 
-[Diagram]
+## Pꝛopoſitio .36.
 
-[Diagram]
+{dropcap:I|lines=5|style=decorated|decoration="foliate initial on black ground"}N alias duas lineas ſub earum termino ex quibus cõiunctum ⁊ nominatum eſt binomium diuidi impoſſibile eſt.
 
-[Diagram]
+¶Sit linea.a.b.binomium eritqʒ ex.30.compoſita ex duabus lineis in potẽtia tm̃ rõnalibꝰ cõicantibꝰ q̃ ſint.a.c.⁊.c.b.dico ꝙ ipoſſibile ẽ eã diuidi ĩ alias duas lineas ſub hac dione videlicet ꝙ ipi ſint potẽtia tm̃ rõales cõicãtes:ſi eni põt diuidat̃ ĩ.a.d.⁊.d.b.q̃ ſint potẽtia rõales tm̃ cõicãtes. Eſto quoqʒ linea.e.f.rõnalis in lõgitudine cui adiungat̃ ſupficies.e.g. que
 
-ncarum minus incqualium que ſunt.a. d.2. d.b. quantum eſt ouplum quadrari lince.c. d.t quadruplum eius quod fit ex. c.d.in. d.e. ſunt enim per. 9. ſecũdi qua? drata ouarum lincarum. a.c.. c.b. pariter accepta oupla quadratis ouarum linca rum.b.c.z. c.c. paritcr acceptis. at per eandem. 9. ſecundi quadrata ouax lincaruz a.d.2. d.b. piter accepta oupla ſũt quadratis onarũ lincarum. b.c.z.e.d. piter acl ceptis:itaz quadrata ouarum linearum.a.c. 2. c.b. pariter acccpta eycedũt qua drata ouarum lincarum. a. d.2. d.b. pariter accepta in co quo ouplũ quadrari lil nee.c.c. ercedit ouplum quadrati linec. d.e. boc anté per quartam ſecundi cſt ou, plum quadrati linee. c. d.z quadrupluni cius quod fit cy. c. d.in. d.c. quare cõſtat propoſitum. Ex boc manifeſtum eſt ꝙ quanto fucrint ſectiones alicuius lince ma gis incquales tanto erunt carũ quadrata pariter accepta maiora :z boc eſt ppter quod iſtud premiſimus.
-
-## Propoſitio3.
-
-{dropcap:[illegible]|lines=5|style=decorated}M alias ouas lineas ſub earum termino er quibus cõiun ctum z nominatum eſt binomium oinidi impoſſibile eſt.
-
-¶Sit linca.a. b. binomium erit er.;o.compoſita er ouabus lineis
-
-[Diagram]
-
-in potẽtia tm̃ rõnalibꝰ cõicantibꝰ q̃ ſint.a.c.1. C.b. oico ꝙ ipoſſibile le ea piuidi i alias ouas lincaslſub bac oione videlicet ꝙ ipi ſint porẽ tia tm̃ rõales cõicãtes:ſi eni põt diuidat i.a.d.z. d.b. q̃ ſint porẽtia rõales tm cõi cãtcs. Eſto quog linea.e.frõnalis in lõgitudine cui adiungat ſupficics.c.S- que
+[Diagram: horizontal line with points labelled a, d, c and b]

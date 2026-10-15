@@ -1,31 +1,18 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-[Diagram]
+[Margin]
+[Diagram: circle with centre e, point a outside the circle, secant a.b.d passing through the circle, and lines a.c and a.f drawn from a to the circumference]
+[Diagram: triangle with a smaller inverted triangle inscribed within it]
+[Diagram: line segment a.b]
+[Diagram: two intersecting circles meeting at the points g and e, with diameter through d, f and c, and lines d.g and d.e drawn from the point d]
+[/Margin]
 
-## Propoſitio.36.
+## Propoſitio .36.
 
-{dropcap:[illegible]|lines=5|style=decorated}5 fucrit punctus ertra circulu ſignatus aquo oue linee ad circufer ẽtã oucant altera ſecans altcra circumferentie applicata fueritqz qo ey ouctu totins ſecantis in partẽ ſui eririnſecam equum ei quod ey ouctu applicate in ſeipſam fit: erit linea applicata ey neceſlitate circnlu contingens.
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I fuerit punctus extra circulũ ſignatus aquo due linee ad circũferẽtiã ducant̃.altera ſecans.altera circumferentie applicata fueritqʒ qđ ex ductu totius ſecantis in partẽ ſui extrinſecam equum ei quod ex ductu applicate in ſeipſam fit:erit linea applicata ex neceſſitate circulũ contingens.¶Sit a punctus ſignatus extra circulum.b.c.d.cuius centrum.e. a quo ducantur ad circulum linea.a.b.d.ſecans ipſum ⁊ linea.a.c.applicata circumferentie.⁊ eſto vt qđ fit ex.d.a.in.a.b.ſit equale quadrato.a.c.dico lineam.a.c.eſſe contingentẽ ⁊ eſt hec conuerſa prioris. Si enim non eſt contingens. ſit ergo contingens linea a.f: eritqʒ per premiſſam quod fit ex.d.a.in.a.b.equale quadrato linee.a.f.quare quadratum linee.a.f.eſt equale quadrato linee.a.c.ergo.a.c.eſt equalis.a.f.quod eſt impoſſibile.per.8.huius.erit ergo.a.c.contingens quod eſt propoſituʒ.¶Idẽ oſtẽſiue ꝓbabiť maneat prior diſpoſitio ⁊ ypotheſis.⁊ ſi linea.a.b.d.trãſit p cẽtꝝ ducatur linea.c.e.qʒ erit per.6.ſecundi qđ fit ex.d.a.in.a.b.cum quadrato.e.b.et ideo cum quadrato.e.c.equale quadrato.a.e.ſed qđ fit ex.d.a.in.a.b.poſitum eſt equale quadrato.a.c.ergo quadratum.a.c.cũ quadrato.c.e.ẽ equale quadrato.a.e. ergo per vltimã primi angulus.c.eſt rectus.ergo per correlʼ 15.huius linea. a.c.eſt contingens circulum quod eſt propoſitum.¶Si autem.a.b.d.non tranſit per centrum ducatur a puncto.d.linea tranſiens per centrum.⁊ quia qđ fit ex hac tota in eius partem extrinſecam eſt equale ei quod fit ex.d.a.in.a.b.per premiſſam ipſum erit equale quadrato linee.a.c.quare vt prius.a.c.erit contingens circulũ. Explicit liber tertius. Incipit liber quartus.
 
-¶ Sit a punctus ſignatus ertra circulum. b. c.d.cuius centrum. e. a quo oucantur ad circulum lincs.a.b.d. ſecans ipſum zlinca. a.c.applicata circumferentie. ⁊ eſto vt qofit er. d.a. in.a. b.ſit equale quadrato. a.c. oico lincam. a. c. eſſe contingente z eſt bec conuerſa prioris. Si cnim non eſt contingens. ſit ergo contingens linca a.f: eritoy per premilſam quod fit ey. d.a.in. a. b. cquale quadrato lince. a.f, quarc quadratum lince. a. f. eſt cquale quadrato lince.a.c.ergo.a. c.eſt cqualis.a.f. quod eſt impoffibile, per.s buins. crit ergo. a.c.contingens quod eſt propolituz.
+{dropcap:F|lines=7|style=decorated|decoration="foliate initial on black ground"}Igura intra figuram dicitur iſcribi quando ea que inſcribitur eius in qua inſcribitur.latera vno quoqʒ ſuorum angulorum ab interiore parte contingit.¶Circumſcribi vero figura figure perhibetur quotiẽs ea quidẽ figura eius cui circũſcribitur ſuis lateribus omnibus omnes angulos contingit.
 
-¶ ydë oſtéſiue pbabir mancat prior bipolitio zyporbeſis. ſi linea.a. b. d.trãſit p cery oncatur linca. c.c. oy erit per.s. ſecundi qofit ey. d.a.in.a.b. cum quadrato. eb. ct ideo cum quadrato.c.c. equale quadrato.a. c.ſed oo fit er. d.a. in. a.b poſitum eſt cquale quadrato.a. c.ergo quadratum.a.c. cũ quadrato. c.e. ć equale quadrato.a e. crgo per vltimã primi angulus c.eſt rectus. crgo per conel is, buins linca. a c. et contingens circulum quod eſt propoſitom. ( Si auten. a b.d non tranſit per centrum oucatur a punco, d.iincs tranſieno per centrum.⁊ quia qo fit cy bac to
+## Propoſitio. .1.
 
-ipſumn erit cquale quadrato lince. a.c,quare vt prius.a.c ent contingens crcului. Erplicit liber tertius. Incipit liber quartus.
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-{dropcap:[illegible]|lines=10|style=decorated}Sgura intra figuram dicitur iſcribi quando ea que inſcribitur eſus in qua inſcribitur. la tera vno quooz ſuorum angulorum ab inte riore parte contingit.
-
-¶ Circumlcribi vero figura figure perbibetur quories ca quide figura eins cui circũſcribitur ſuis lateribuo omnibus omnes angulos contingit.
-
-[Diagram]
-
-## PPropoſitio.. 1.
-
-{dropcap:[illegible]|lines=5|style=decorated}Mtra datum cirçulnm oate linee recte que diametro mir nime maior eyiſtat equam rectam lineam coaptare. (oitlinen pata. a b arouinſoy pamo t'd. e cul' oiamnerer.c. d.qua nõ ẽ maior linca. a.b. volo itra batui circuli coaptare linea eqle, a.b one ſi fuerit cqualile piameiro colat ppoluti, ii aũt mmnoi cr piame tro fumait. d.t. ſibi cqlis c ſup puncri. d fin quãtirate lmes d.f. pelcnbat circulns f.e. s ſecans patum circlom in punctis. s.z c.ad altcrum quomi oucatur lncs a puncto. d.yt.d. e vel. ds critay vtrolbet corm equalis lince d.b.eo q vinor cari eſt cqualis lince.d.f, per piffinitioncm oroults quarc habemus proyoiuui.
+{dropcap:I|lines=3|style=decorated|decoration="foliate initial on black ground"}Ntra datum circulum date linee recte que diametro minime maior exiſtat equam rectam lineam coaptare.¶Sit linea data.a.b.circulusqʒ datus.c.d.e.cuiꝰ diameter.c.d.qua nõ ẽ maior linea.a.b.volo itra datũ circulũ coaptare lineã eq̃lẽ.a.b que ſi fuerit equalis diametro cõſtat ꝓpoſitũ.ſi aũt minor ex diametro ſumať.d.f.ſibi eq̃lis ⁊ ſup punctũ.d.ſm quãtitatẽ linee.d.f.deſcribať circulus f.e.g.ſecans datum circulum in punctis.g.⁊.e.ad alterum quorum ducatur linea a puncto.d.vt.d.e.vel.d.g.eritqʒ vtralibet earum equalis linee.a.b.eo ꝙ vtraqʒ earũ eſt equalis linee.d.f.per diffinitionem circuli:quare habemus propoſitũ.

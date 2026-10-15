@@ -1,35 +1,17 @@
-[Diagram]
+<!-- Page number: XIII -->
 
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-<!-- Running title: [illegible] -->
-
-ſcriptibilis qu eſt xpolitũ. Lonelariũ aũt pz ſic. Lum eniz. a. b.ſit tripla ad.b. c.ꝑ cueriam proportionolitaté erit.a.b.ſcyquialtera ad.a.c.idcoqs ey ſcoa pte concla rij.S.ſcri e conclario.ix. einſdẽ quadratui lince. a. b. crit etiã ſeyquialtez ad qua, dratũ lince.a.d.z qr linca.a. d.é equalis lateri fabnicate piramidis. at vero.a.b.eſt piameter ſpere: conſtat vex cẽ qo per conclariũ oicit. Ie aĩt qucq̃y de veruſta ver ritate propoſita beſitare cõringat eã volumꝰ boc mõ ocmnoſtratione firmare. Sit igit ſup lineã.a.b.linca.c.d. ppendicularis q̃ ponai medio loco pportionalis in, ter ptes lince. a.b. que ſint. a.c.2.c.b.ita ꝙ proportio. a.c.ad.c.d.ſicut. c.d.ad.c.b Et ſuper lincã.a. b. oeſcribat ſemicirculus. a. c.b. oico ꝙ buius ſemicircili citcũfe, rentia tranſibit per punctũ.d. qui ẽ crtremitas ppendicularis. Sinauté aut ſecabit lincã.c.d.aut ſaptranfibit cã torã ipſã trãſiens ⁊ incindens z nou contingens. ſe, cct ergo primo eã in puncto.e. c oucant lince. e.b.z.c.a:crit cr prima pre. 3o.ter tij roralis angulus. a.e.b.rcctus. ira cr prima pre concl. S. ſeyti pportio eſt.a.c. ad.c.e. ſicut.c.e. ad.c.b.at vero ey ſecunda pte. S. quinti pportio. a. c.ad.c.e. ẽma ior q̃y. a.c.ad.c.d.co q.ce, ẽminor.q̃y c d.cũ igit fit. c.c ad.c. b.ficut. a.c.ad.ce 2.c.d.ad.c.b.ſicut.a.c.ad.c. d.erit per. i2 quinti.t.c.ad.c.b. maior q̃y.c. d. ad.c. b.idco per primã ptẽ.1 o.quinti.e.c.ẽ maior q̃y. d.c.ps videlicet q̃y ſuũ totuz qo eſt impoſſibile. Iõ crgo ſecabit circuferentia ſemicirculi lincã.c.d.
-
-¶ Oup tranſeat igit e pducai. c. d. vſcy ad circuferentiã:ſiroy tora.t.c.c protrabant lince. c.b.te a.ſequerq ut priꝰ linea.c.d. cſſe maiore q̃z ſit linea.c.e. q eſt eriã impoſſibile: con ſtat ergo ppoſitũ.Oilr aũt bicimus ꝙ ſi fuerit aliquis angulꝰ rectus cui baſis ſub tcndat ſup quã ſemicirculus lineci: iplius circũferentiã p angulĩ rccrũ tranſire ne, cellc ẽ connerlã vero buins pponit prima ps. yo. icrtj,-qb aũt bicimus ſic conſtat
-
-¶Oit eni angulꝰ. a.b.c. rectus cui ſubtendar baſis. a.c.z ſup cã lincet ſemicirculꝰ oico q ipſius circũferentia tranſibit ꝑ punctũ. b.in quo coeunt lince continentes angulu rectũ cuius oomonſtratio é ꝙ ncoz tranſibit ſupra ncoy infra. ſin aute trã? ſcat:pno iira ſit.a.c.c. z ab angnlo.b. producar linca. b.d. perpẽdicularis ad ba fim.a.c. que ſecet circũferentiã ſemicirculi in puncto.c.z prorrabant lince.e. a.2. e c.eritoy angulas.a.e.crectus cy prima pte. 3o.terrij at ipſe e maior angulo. a.b.t per.ai primi boc auté e impoſſioile cy tertia pertionc cũ vrcrqy ſit rcctus bic qui dẽ ex ppotbeſi:ille vero cr prima parte. 3o.tcrtij. Iõ. ergo trãſibit circũferentia ſe micirculi infra angului. b. tranſear ira lupra e ſit.a.f. c. pducatur auté ppendicu laris.d.b, quoulaz obuiet circũferentie ſemicirculi. a.f.e.i puncto. f. z producant lince. f. a. f.c. critqy ex prima parte.3o-tertij angulus. a.f.c. rectus. cũqz etiã eẽt ey pporbeſi angulus. a. b.c rcctus ſcquir iinpoſlibile per. 21 primi ſicur in principio. rclinquir ergo qo oirimus. boc aũt neccſſariũ eſt ad cognitionẽ coy que ſequũtur.
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
+ſcriptibilis qđ eſt ꝓpoſitũ.Correlariũ aũt pʒ ſic.Cum eniʒ.a.b.ſit tripla ad.b.c.ꝑ euerſam ꝓportionalitatẽ erit.a.b.ſexquialtera ad.a.c.ideoqʒ ex ſcđa pte correlarij.8.ſexti ⁊ correlario.17.eiuſdẽ quadratũ linee.a.b.erit etiã ſexquialteꝝ ad quadratũ linee.a.d.⁊ qꝛ linea.a.d.ẽ equalis lateri fabricate piramidis.at vero.a.b.eſt diameter ſpere:conſtat veꝝ eẽ qđ per correlariũ diciť.Ne aũt quẽqʒ de vetuſta veritate ꝓpoſita heſitare cõtingat eã volum⁹ hoc mõ demõſtratione firmare.Sit igiť ſup lineã.a.b.linea.c.d.ꝑpendicularis q̃ ponať medio loco ꝓportionalis inter ptes linee.a.b.que ſint.a.c.⁊.c.b.ita ꝙ proportio.a.c.ad.c.d.ſicut.c.d.ad.c.b Et ſuper lineã.a.b.deſcribať ſemicirculus.a.c.b.dico ꝙ huius ſemicirculi circũferentia tranſibit per punctũ.d.qui ẽ extremitas ꝑpendicularis.Sin autẽ aut ſecabit lineã.c.d.aut ſuptranſibit eã totã ipſã trãſiens ⁊ includens ⁊ non contingens.ſecet ergo primo eã in puncto.e.⁊ ducanť linee.e.b.⁊.e.a:eritqʒ ex prima pte.30.tertij totalis angulus.a.e.b.rectus.itaqʒ ex prima pte correl'.8.ſexti ꝓportio eſt.a.c.ad.c.e.ſicut.c.e.ad.c.b.at vero ex ſecunda pte.8.quinti ꝓportio.a.c.ad.c.e.ẽ maior q̃ʒ.a.c.ad.c.d.eo ꝙ.c.e.ẽ minor.q̃ʒ.c.d.cũ igiť ſit.c.e.ad.c.b.ſicut.a.c.ad.c.e ⁊.c.d.ad.c.b.ſicut.a.c.ad.c.d.erit per.12.quinti.e.c.ad.c.b.maior q̃ʒ.c.d.ad.c.b.ideoqʒ per primã ptẽ.10.quinti.e.c.ẽ maior q̃ʒ.d.c.ps videlicet q̃ʒ ſuũ totuʒ qđ eſt impoſſibile.Nõ ergo ſecabit circũferentia ſemicirculi lineã.c.d.¶Sup tranſeat igiť ⁊ ꝓducať.c.d.vſqʒ ad circũferentiã:ſitqʒ tota.c.e.⁊ protrahanť linee.e.b.⁊.e a.ſequeťqʒ ut pri⁹ lineã.c.d.eſſe maiorẽ q̃ʒ ſit linea.c.e.qđ eſt etiã impoſſibile:conſtat ergo ꝓpoſitũ.Silꝛ aũt dicimus ꝙ ſi fuerit aliquis angul⁹ rectus cui baſis ſubtendať ſup quã ſemicirculus lineeť:ipſius circũferentiã ꝑ angulũ rectũ tranſire neceſſe ẽ.conuerſa vero huius ꝓponit prima ps.30.tertij.qđ aũt dicimus ſic conſtat ¶Sit eni angul⁹.a.b.c.rectus cui ſubtendať baſis.a.c.⁊ ſup eã lineeť ſemicircul⁹ dico ꝙ ipſius circũferentia tranſibit ꝑ punctũ.b.in quo coeunt linee continentes angulũ rectũ cuius demonſtratio ẽ ꝙ neqʒ tranſibit ſupra neqʒ infra.ſin autẽ trãſeat:p̃mo ĩfra ſitqʒ.a.e.c.⁊ ab angulo.b.producať linea.b.d.perpẽdicularis ad baſim.a.c.que ſecet circũferentiã ſemicirculi in puncto.e.⁊ protrahanť linee.e.a.⁊.e c.eritqʒ angulus.a.e.c.rectus ex prima pte.30.tertij.at ipſe ẽ maior angulo.a.b.c per.21.primi hoc autẽ ẽ impoſſibile ex tertia petitione cũ vterqʒ ſit rectus.hic quidẽ ex ypotheſi:ille vero ex prima parte.30.tertij.Nõ ergo trãſibit circũferentia ſemicirculi infra angulũ.b.tranſeat itaqʒ ſupra ⁊ ſit.a.f.c.ꝓducatur autẽ ꝑpendicularis.d.b.quouſqʒ obuiet circũferentie ſemicirculi.a.f.c.i puncto.f.⁊ producanť linee.f.a.f.c.eritqʒ ex prima parte.30.tertij angulus.a.f.c.rectus.cũqʒ etiã eẽt ex ypotheſi angulus.a.b.c.rectus ſequiť impoſſibile per.21.primi ſicut in principio.relinquiť ergo qđ diximus.hoc aũt neceſſariũ eſt ad cognitionẽ eoꝝ que ſequũtur.
 
 ## Propoſitio .14.
 
-{dropcap:[illegible]|lines=5|style=decorated}B aſſignata ſpera circuſcriptibilem cnbum conſtituere einſdem autem ſpere diametrum latcri ipſiꝰ cubi poten, tialiter triplicem eſſe manifeſtum erit.
+{dropcap:A|lines=3|style=decorated|decoration="woodcut initial with foliate ornament on black ground"}B aſſignata ſpera circũſcriptibilem cubum conſtituere eiuſdem autem ſpere diametrum lateri ipſi⁹ cubi potentialiter triplicem eſſe manifeſtum erit.
 
-¶Aſſignate ſpere diamctrum ſit.a.b. ſuper quã linectur ſemicircu? lus. a.d.b. oinidaturay biametcr i puncto.c. prorſus ſccundum con ditionem premiſſe videlicet ut linea.a.c.ſit oupla ad lineam.c. b. z producatur c.d. perpendicnlaris ad.a.b.z protrabantur. d.b. z. d.a. poſtea fiat vnũ q̃dratum coiuns oia latera fint cqualla linee b.d ſitg e fa b.ſup au' qtuor anslos crigant
+¶Aſſignate ſpere diametrum ſit.a.b.ſuper quã lineetur ſemicirculus.a.d.b.diuidaturqʒ diameter i puncto.c.prorſus ſecundum conditionem premiſſe videlicet ut linea.a.c.ſit dupla ad lineam.c.b.⁊ producatur c.d.perpendicularis ad.a.b.⁊ protrahantur.d.b.⁊.d.a.poſtea fiat vnũ q̃dratum cuius oĩa latera ſint equalia linee.b.d.ſitqʒ.e.f.g.h.ſup cui⁹ q̃tuor anglos eriganť
+
+[Diagram: cube drawn in faint outline with face and space diagonals]
+
+[Diagram: semicircle on base b–c–a with a perpendicular at c extended above the arc to f, points e and d on the perpendicular, and lines joining e to b and a]
+
+[Diagram: semicircle on base c–d–a with point f at the top of the arc and points b and e on the perpendicular, with lines drawn from the base endpoints to f, b and e]
+
+[Diagram: semicircle on base a–c–b with top point d joined to a and b and a perpendicular from d to c]

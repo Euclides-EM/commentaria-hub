@@ -1,33 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-erit ouooz er ſeptima quinti baſis. a. ad baim.c. vt altitndo piramidis.c. ad alii
+erit quoqʒ ex ſeptima quinti baſis.a.ad baſim.c.vt altitudo piramidis.c.ad altitudinẽ piramidis.a.ideoqʒ ut patet ex prioribus erunt due piramides.a.⁊.c.eq̃les quare etiã ex cõmuni ſcientia ⁊ due que ſunt.a.⁊.b.erũt etiã equales. Et hoc ẽ propoſitum.
 
-[Diagram]
+[Figure: hexagon labelled b]
 
-eudinẽ piramidis.a. idcooy ut patet er proribus erunt ouc piramidcs. a.t.c. eq̃ͬ Ies quare etiã ey cõmuni ſcientia c oue que ſunt.a. 1.b.erũt etiã cqualcs. Et boce propoſitum.
+[Figure: triangle labelled c]
 
-## Propoſitio.s.
+## Propoſitio .8.
 
-{dropcap:[illegible]|lines=5|style=decorated}Tnium ouarum piramidum ſimilium quarum bales tri angnle ẽ proportio alterius ad alteram tandy lateris ad latus eins relatiuum proportio triplicata.
+{dropcap:O|lines=4|style=decorated|decoration="foliate ornament on hatched ground"}Mnium duarum piramidum ſimilium quarum baſes triangule ẽ proportio alterius ad alteram tanqʒ lateris ad latus eius relatiuum proportio triplicata.
 
-¶ Propoſitis ouabus piramidibus baſes triangulas babentious ſi miious er iplis perice ouo ſollda paralellograma quenadmodu nictum eſt in demonſtratione premiſſe: cruntq; bec ouo ſolida paralellograma ſi) milia eo c piramides ponuntur ſumiles ad inuicem. nã ouo ſoidi anguli qui ſunt
+¶Propoſitis duabus piramidibus baſes triangulas habentibus ſimilibus ex ipſis perfice duo ſolida paralellograma quemadmodũ dictum eſt in demonſtratione premiſſe:eruntqʒ hec duo ſolida paralellograma ſimilia eo ꝙ piramides ponuntur ſimiles ad inuicem.nã duo ſolidi anguli qui ſunt cõmunes piramidibus ⁊ ſolidis paralellogramis ſuperficialibus angulis numero ⁊ quantitate equalib⁹ continentur: ⁊ latera quoqʒ illos angulos ſuperficiales continentia ſunt proportionalia quare ex.34.primi tres ſuperficies ſolidorum paralellogramorum cõmunes angulos ſolidos conſtituentes ſunt equiangule ⁊ laterũ proportionalium.ideoqʒ ſimiles ex diffinitione ſimilium ſuperficierum: quare ex 24.⁊.13.quinti cuncte ſex ſupficies hoꝝ duorum ſolidoꝝ paralellogramoꝝ ſunt ſimiles adinuicẽ:igitur a diffinitione corporum ſimilium erunt ipſa ſolida ſimilia: quare cum proportio ſolidorum ⁊ piramidũ ſit vna ex.15.quinti.nam ſolida ſunt ſexcupla piramidibus ex ſexta huius.cunqʒ ſit proportio ſolidoꝝ vna ſicut ſuorum relatiuoꝝ laterum triplicata ex.36.vndecimi libri:ſunt aũt latera ſolidorum eadẽ quoqʒ latera piramidũ.erit quoqʒ ex.11.quinti proportio propoſitaꝝ piramidum ſicut ſuoꝝ relatiuoꝝ laterum proportio triplicata:quod eſt propoſitum.
 
-[Diagram]
+¶Qꝺ ſi fuerint due quelibet piramides laterate ſimiles erit ꝓportio alterius ad alteram ſicut ſui lateris ad ſibi relatiuum latus alterius proportio triplicata.
 
-[Diagram]
+¶Sint due laterate piramides quaꝝ coni.a.⁊.b.ſimiles ſintqʒ ſuper baſes penthagonas que ſunt.c.d.e.f.g.h.k.l.m.n.dico ꝙ ꝓportio eaꝝ eſt ſicut ſuoꝝ relatiuorum laterum triplicata.Conſtat enim ex diffinitione ſimiliũ ſuperficieꝝ ⁊ corporum ꝙ penthagoni qui ſunt baſes propoſitarum piramidũ ſibi ad inuicẽ cunctiqʒ relatiui aľ reliqui triãguli ipſas ãbientes ſibi inuicẽ ſũt ſimiles.diuidanť itaqʒ baſes ambaꝝ in triangulos ſiľes ⁊ numero equales ꝓut.18.ſexti ꝓponit eſſe poſſibile:protractis in hac quidẽ lineis.c.e.⁊.c.f.ĩ illa vero.h.l.⁊.h.m.dico igiť iſtas piramides eſſe diuiſas in piramides triangulas ſiľes ⁊ numero equales.Conferãť enim adinuicem due piramides.a.c.d.e.b.h.k.l.quaꝝ coni ſunt.a.⁊.b.cõſtat autem ex ypotheſi triangulũ.c.a.d.eſſe ſimilẽ triangulo.h.b.k.⁊ triangulũ.d.a.e. triangulo.k.b.l.⁊ ꝙ etiã ex ypotheſi angul⁹.d.ẽ equalis angulo.k.⁊ latera.c.d.⁊ d.e.cõtinẽtia angulũ.d.ſunt ꝓportionalia lateribus.h.k.⁊.k.l.cõtinẽtibus angulũ.k.erunt ex.6.ſexti duo trianguli.c.d.e.⁊.h.k.l.equianguli.ideoqʒ per.4.ſexti erit ꝓportio.c.d.ad.h.k.ſicut.c.e.ad.h.l.cũqʒ ex ypotheſi ſit ꝓportio.c.a.ad.h.b.⁊ etiã.a.e.ad.b.l.ſicut.c.d.ad.h.k.erit ex.11.quinti.c.a.ad.h.b.⁊.a.e.ad.b.l.ſicut.c.e.ad.h.l.igiť ex.5.ſexti ⁊ diffinitione ſimiliũ ſuperficieꝝ triangulus.c.a.e.erit ſiľis triangulo.h.b.l.manifeſtum eſt itaqʒ ex diffinitione ſiľium corporum ꝙ piramis.a.c.d.e.ẽ ſimilis piramidi.b.h.k.l.ſiľr quoqʒ cõſtat piramidẽ.a.c.e.f.ẽ
 
-cõmnnes piramidibus z ſolidis paralellogramis ſupcrficialibus angulis numero z quantirate cqualib' continentur: c latera quos illos angulos ſupcrficiales con rinentia ſunt propontionalia quare ey.3 a pinii ires ſuperficies ſolidouum para! Ieloaramouum comincs angulos ſolidos conſtituentes ſunt cquiangule z latcru moportionalium.idcooy ſimiles ey oiffinitione ſimilium ſuperticierum: quare cy 94.4 iaouinti cuncie ſer ſupficies boy ouorum ſoidoy paralellogramoy ſunt ſiꝰ miles adinuice:igitur a biffinitionc corporum ſimilium erunt ipla folida ſimnilia: ouore cum propotio ſolidonum e piramidũ ſit vna er.1 5 quinti. nam ſolida ſunt s'evcupla piramidibus er ſeyra buius.cuno; ſit proportio ſolidoy vna ſicut ſuonm relatiuox laterum triplicara cy.3s. vndccini libniſunt aũt latcra ſolidorun eade; ouooz latcra piramidũ. erit quouz cr. n. quinti proportio propolitay piramidum ficut iuoy relatinop laterum proponio triplicara: quod eſt propoſitum.
+[Figure: pentagon with vertices c, d, g, e and f, point h on the base, internal point a and lines drawn from each vertex to a]
 
-¶ On ſi fuerint oue quelibet prramides laicrate ſimiles erit pportio olterins adalteran ſicut fui lateris ad ſibi relatinum lats alterius
-
-[Diagram]
-
-propoztio triplicata.
-
-¶l oint oue latcrate piramides quay coni.a.z. b.ſimles ſintay ſuper baſcs pen, tpagonas que ſunt.e. de l.g D. Rlama, oico ꝙ ppoiio cay et fieut fuoy raui uonm latcrumn inplicata. Lonſtat enimn cy pininirionc ſimilius ſuperficiey e conr poium q pentbagoni qui ſunt baſcs propoſirarum piramidu ſibi ad innicé cun? ctiqy rdlarnt al reliqui mrãguli iplas abientes ſibt inuice ſut finilcs. oiuidant irag bales ambay in triangulos ſiles e numero cquales put. is ſeyi ppontt eſſe poi? libile:protraciis in bac quide lincio.ce.z.c.f.i illa vero. bil.z.h.m oico igit iſtas piramides dle piuſas in piramides priangulas ſiles numero coules. L'onſerat
-
-[Diagram]
-
-[Diagram]
-
-cnim adinuiccm oue piramides.a. c.d.e. b.b. l.l,quay coni ſunt. a.2.b. coſtat au tem er porbeſi trianguli.c.a. d. eſſe ſimile triangulo. b.b. E.z triangului.d.a.c. triangulo. l.b.l.⁊ q etiã cr pporbeſi angulꝰ, d.é cqualis angulo.li. ⁊ latera. c.d.? d.e.cõtinẽtia angului. d. ſunt xportionalia latcribus.b.l.1.E.I.cõtinẽtibus angu lu.E.crunt ey e ſeyi ouo mangull. ed.e. &. b.E lcquiangul. ideou per a ſeyii erit pportio. c.d.ad. h.l.ſicut.c.e. ad. b.l. cũqz er ppoibeſi ſit pportio.c.a. ad.h. b. netia.a.e. ad.bl. ſiut. c.d.ad.b. Rerit ey. iLquinti.ca.ad.h.b.t. a.c. ad.bl. ſicnt, c.e. ad.b.l.igii cy.5. ſeyti z oiffinitione fimiliu ſuperficicy triangulus.c.a.c. crit filis triangulo.b. b. I manifeſtum eſt ira ey oiffinitione ſilium comporun q piramie,à.de éfimlio plramidi.b. b.h.liir quons coſtat piramde.a. cehé
+[Figure: pentagon with vertices k, n, l and m, internal point b and lines drawn from each vertex to b]

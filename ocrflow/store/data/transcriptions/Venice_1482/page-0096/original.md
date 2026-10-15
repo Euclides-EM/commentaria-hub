@@ -1,39 +1,25 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
 eſſe comprobantur.
 
-[Diagram]
+¶Sint duo trianguli.a.b.c.c.d.e.equales:ſitqʒ angulus.c.vnius equalis angulo c.alterius:dico proportionem.a.c.ad.c.e.eſſe ſicut.d.c.ad.c.b.⁊ ſi fuerit ꝓportio a.c.ad.c.e.ſicut.d.c.ad.c.b.⁊ predicti anguli fuerint adhuc equales:dico illos duos triangulos eſſe equales:coniungam enim eos angulariter ita ꝙ latera.a.c.⁊.c.e.fiant linea vna.eruntqʒ ſimiliter.b.c.⁊.c.d.linea vna.aliter ſequeretur partem eſſe equalem toti.per.15.primi:⁊ protraham lineam.b.e.eritqʒ per primam ptem 7.quinti vtriuſqʒ dictoꝝ trianguloꝝ ad triangulum.c.b.e.proportio vna:⁊ qꝛ per primam huius primi eorum ad ipſum eſt ſicut.a.c.ad.c.e.⁊ ſecundi eoꝝ ad eũdem ſicut.d.c.ad.c.b.manifeſta eſt prima pars ꝓpoſite concluſionis.¶Secunda pars ecõuerſo probatur.qꝛ.a.c.ad.c.e.eſt ſicut primi trianguli ad triangulũ.b.c.e ⁊.d.c.ad.c.b.ſicut ſecundi ad eundem per primam huius:⁊ quia poſitum eſt vt ſit a.c.ad.c.e.ſicut.d.c.ad.c.b.erit vtriuſqʒ dictorum triangulorum ad triangulũ.b.c.e.vna proportio:quare per primam ptem.9.quinti ipſi ſunt equales. ſicqʒ patet ſecunda pars.
 
-( Gint ouo rrianguli.a. b.c.c. d.e. cquoles: ſiroy angulus. c. vnius equalis anguls c.altcriuo: pico proportionem.a.c.ad.c.e. eſle ſicut.d.c.ad.c.b. ſi fuerit pporrio a.t, ad. ce. ſicur, d.cad.c. b. predicti anguli fuerint adouc cqualcs: oico ilos oul os triangulos eſſe cquales: coniongan cnim eos angulariter ita ꝙ latera.a.c.2.c. e fiaut linca vna.cruntos ſimiliter. b.c.z.c. d. linca vna. aliter ſcqueretur parten cſe cqualcm ton. peras primi: z protrabam lincam. b.e.eritoy per primam ptem z, quinti vtriuſy oictoy trianguloy ad triangulum.c.b.e, propontio vna: z qͬ per primom biiuns primi corum ad ipiim eſt ficut. a.c.ad.cc. e ſccundi cor adeui demn ſicut.d.c.ad. c.b.mmnifeſta eſt prima pars ppoſite conduſionis.
-
-¶ Cecunda paro ecouerſo probatur. qu. a.c.ad.cc.eſt ficur primi trianguli ad trianguli. b.cc z.d.cad. c.b.ſicut ſecundi ad eundem per primam buius: ⁊ quia poſitum eſt vr ſit a.c.ad.c.c.ſicut.d.c.ad. c.b. crit vtriuſoy oictorm triangulorum ad triangulii.b. Ce. vna proportio: quarc per primam premn.n quinti ipli ſunt equales. ſico parcr ſccunda pars.
+[Diagram: two triangles joined at their common vertex c, with a at top left, d at top right, b at bottom left and e at bottom right, the sides crossing at c]
 
 ## Propoſitio .15.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint quatuor linee proportionales quod ſub prima ⁊ vltima rectangulum continetur: cquũ crit ei qo ſub oua bus rcliqnis. Si vero qo ſub prima z vltima continerur
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerint quatuor linee proportionales quod ſub prima ⁊ vltima rectangulum continetur:equũ erit ei qd' ſub duabus reliquis. Si vero qd' ſub prima ⁊ vltima continetur equuʒ fuerit ei qd' ſub duabus reliquis continetur rectãgulum:quatuor lineas proportionales eſſe conuenit.
 
-[Diagram]
+¶Sint quatuor linee.a.b.c.d.proportionales:Sitqʒ proportio.a.ad.b.ſicut.c.ad.d.dico ꝙ ſuperficies contenta ſub.a.⁊.d.equalis eſt ſuperficiei contente ſub.b ⁊.c.⁊ ſi ſuperficies contenta ſub.a.⁊.d.eſt equalis ſupficiei contente ſub.b.⁊.c.dico ꝙ proportio.a.ad.b.eſt ſicut.c.ad.d.Fiant enĩ ſuperficies contenta ſub.a.⁊.d ⁊ ſuperficies cõtenta ſub.b.⁊.c.Si ergo eſt ꝓportio.a.ad.b.ſicut.c.ad.d.latera illarum ſuperficierũ erunt mutekeſia.ſed ⁊ anguli ab eis contenti equales:qꝛ vtraqʒ eſt rectoꝝ anguloꝝ:quare per ſcõaʒ partẽ.13.huius ipſi ſunt equales quod eſt primum.¶Scõm patet per primam partem eiuſdẽ.ſi enim ipſe ſunt equales.qꝛ oẽs anguli earum ſunt recti:latera earum erunt mutekeſia:quare proportio.a.ad.b.ſicut.c.ad.d.quod eſt ſecundum.
 
-cquuz fuerit ci qo ſub ouabus reliquis continetur rectã gulum: quatuor lincas proportionales eſle conuenit.
+[Diagram: four horizontal lines of decreasing length labelled a, b, c and d, with the values 16, 8, 4 and 2 at their right ends]
 
-¶Oint quatuor lince. a. b.c. d. proportionales: Sitoy proportio. a. ad.b. ſicut.c. ad.d. oico ꝙ ſuperficies contenta ſub. a.2.d.cqualis eſt ſuperficiei contente ſub.b 4.c.c ſi ſuperficics contenta ſub. a. 2 d.eſt cqualis ſupficici contente ſub. b. 2.c.oi co ꝙ proportio. a.ad.b. eſt ficut. c.ad.d. giant cni ſuperficics contenta ſub.a.. d z ſuperficies cõtenta ſub.b.2.c. Si ergo eſt pportio. a.ad. b. ſicut. c.ad. d. latera il
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-larum ſupcrficicrũ erunt muteheſia.ſed z anguli ab cis contenti cquales: qu vtraq; eſt rectoy angulonui: quare per ſcoaz partẽ.ny.buius ipli ſunt cquales quod eſt pri mum.
-
-¶ Scom patet per primam partem ciuſde. ſi enim ipſe ſunt cqualcs. qu oẽs anguli carum ſunt recti : latera carum erunt mutclclia: quarc propoitio. a.ad.b. ficut.c.ad.d.qnod eſt ſccundum.
+[Diagram: two rectangles overlapping to form a cross shape, with points d and a on the upper rectangle and b and c on the lower]
 
 ## Propoſitio .16.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint tres linee proportionales qb lub prima ⁊ ter, tia rectanguluz continetur: equũ erit ei qu a ſecun da qua drato deſcribitur. Oi vero qo ſub prima z tertia contine tur equum eſt ci quadrato qo a ſecunda producitur: iple
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerint tres linee proportionales qd' ſub prima ⁊ tertia rectanguluʒ continetur:equũ erit ei qd' a ſecunda quadrato deſcribitur. Si vero qd' ſub prima ⁊ tertia continetur equum eſt ei quadrato qd' a ſecunda producitur:ipſe tres linee proportionales erunt.
 
-[Diagram]
+¶Sit proportio linee.a.ad lineam.b.ſicut linee.b.ad lineam.c.dico ꝙ ſuperficies contenta ſub.a.⁊.c.equalis eſt quadrato.b.⁊ ſi ſuperficies contenta ſub.a.⁊.c.eſt equalis quadrato.b.dico ꝙ proportio.a.ad.b.eſt ſicut.b.ad.c.hoc autem eſt euidens per precedentem poſita alia linea que ſit equalis.b.ita ꝙ.b.ſit in ratione ſecunde ⁊ tertie.
 
-tres linee proportionales crunt.
-
-¶Sit propontio lince. a. ad lincam.b. ficut lince. b. ad lincam.c.oico ꝙ ſuperficies contenta ſub.a. 2.c. cqualis eſt quadrato.b. z li ſuperficies contenta ſub.a. 2.c.eſt equalis quadrato. b. bico ꝙ proportio. a.ad.b. eſt ſicut. b.ad.c. boc aurem eſt eui, dens per precedentem poſita alia linca que ſit cqualis. b.ita ꝙ.b.ſit in ratone ſe. cunde z tertie.
+[Diagram: three horizontal lines of decreasing length labelled a, b and c, with the values 8, 4 and 2 at their right ends]

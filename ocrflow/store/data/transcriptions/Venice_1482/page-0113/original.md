@@ -1,41 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VII -->
 
-nirecte pportioalitaris: cquã aũt pportiõalitatẽ quã demõſtrauit per. 2z. quinti:t e ouãtitatibus indirecte ꝓportionalitatis non pponit ocmõſtrãdũ i numeris: ſed cã nemõſtrabim' infra ſup.i9. huius. Ilec eſt neceſſariũ ut p̃demõſtremus i numeria h nemõſiratũ ẽ pa1i. quinti ve quãtitatibꝰ i genere videlz ſi quorlibz pportioca i numerisfuerint vni cq̃les vel cede ipſas cẽ ſibi eq̃les vel caſdẽ. boc eni manifeſtũ ẽ ncr oiffinitione ut ſi.a.ad.c.2.c.ad.f. ſit ficut. b.ad.d.crit tam. a.c.q̃z.c.f. tora pe
+directe ꝓportiõalitatis:equã aũt ꝓportiõalitatẽ quã demõſtrauit per.23.quinti:⁊ de quãtitatibus indirecte ꝓportionalitatis non ꝓponit demõſtrãdũ i numeris:ſed eã demõſtrabim⁹ infra ſup.19.huius.Nec eſt neceſſariũ ut ꝑdemõſtremus i numeris qꝺ demõſtratũ ẽ p.11.quinti de quãtitatib⁹ i genere videlʒ ſi quotlibʒ ꝓportiões i numeris fuerint vni eq̃les vel eedẽ ipſas eẽ ſibi eq̃les vel eaſdẽ.hoc eni manifeſtũ ẽ per diffinitionẽ ut ſi.a.ad.c.⁊.e.ad.f.ſit ſicut.b.ad.d.erit tam.a.c.q̃ʒ.e.f.tota ps aut partes.quota vel quote.b.d.aut totiens continebit.a.c.⁊.e.f.quotiens.b.d.⁊ tota pars aut partes ſuperfluent.c.in.a.⁊.f.in.e.quota vel quote.d.in.b.qꝛ ergo quota pars aut ptes ẽ.a.c.tota vel tote eſt.e.f.aut quotiens.a.continet.c.totiens e.f.⁊ quota pars aut partes.c.ſuperfluunt.in.a.tota vel tote.f.in.e.erit per diffinitionẽ.a.ad.c.ſicut.e.ad.f.Sint igitur ut ꝓponitur numeri.a.b.e.⁊ alij totidem c.d.f.ſitqʒ.a.ad.b.ſicut.c.ad.d.⁊.b.ad.e.ſicut.d.ad.f.dico ꝙ erit in equa ꝓportionalitate.a.ad.e.ſicut.c.ad.f.erit eni per premiſſam.a.ad.c.ſicut.b.ad.d.ſed ⁊ b.ad.d.ſicut.e.ad.f.quare.a.ad.c.ſicut.e.ad.f.igit̃ per eandẽ.a.ad.e.ſicut.c.ad.f idẽ erit ſumptis plurib⁹:ſicqʒ cõſtat ꝓpoſitũ.¶Qm̃ aũt euclides ceteras quatuor ſpecies ꝓportiõalitatis que ſunt conuerſa:coniũcta:diſiuncta:euerſa:non ꝓponit demonſtrandas in numeris:cõueniẽs arbitramur eas quas auctor tanqʒ facile demonſtrabiles ꝑtermiſit demonſtrare:Primũ itaqʒ demonſtrabimus conuerſã:vt ſi ſit.a.ad.b.ſicut.c.ad.d.dico ꝙ erit ecõuerſo.b.ad.a.ſicut.d.ad.c.ſi eni fuerit.a minor b.tunc quoqʒ erit.c.minor.d.⁊ tota pars aut partes.a.b.quota vel quote c.d.quare per ſcꝺam ptem.11.erit.b.ad.a.ſicut.d.ad.c.ſi autem fuerit.a.maior.b. erit quoqʒ ⁊.c.maior.d.⁊ per primam partem.11.b.tota pars aut partes.a.quota vel quote.d.c.per diffinitionem igitur.b.ad.a.ſicut.d.ad.c.
 
-[Diagram]
+[Diagram: three horizontal segments labelled a, b and e beside three labelled c, d and f]
 
-aut partes, quota vcl quote.b. d.aut totiens continebit. a. c.2.e.f.quoticns. b.d. 2 tota pars aut partes ſupcrfluent.C.in. a.. f.in.e. quota vel quote. d.in. b. qu ergo quora pars aut ptes ẽ.a.c.tora vel tore eſt.e.f. aut quotiens. a. continct. c.toriens e.f.t quota pars aut partes. c. ſupcrfluunt. in. a. tora vel tote.f.in.e. erit per oifli, nitione. a.ad.c.ſicut.e. ad.f. Sint igitur ut pponitur numeri.a.b.e. z alij totidem c.d.f.ſitoz-a.ad.b.ſicut.c.ad.d.2.b.ad.e. ſicut. d.ad.f.oico ꝙ crit in cqua ppor tionalirarc. a. ad.e.ſicut. c.ad.f. crit eni per premiſſam.a. ad. c.ficut. b.ad.d. ſed e b.ad. d.ficut.e.ad.faquare. a.ad.c. ſicut.e.ad. f.igit per eandẽ. a.ad.e. ſicut.c.ad.f dẽ crit ſumptis pluribꝰ: ſicqy cõſtat xpolitũ.
+[Diagram: two pairs of horizontal segments, labelled a over b and c over d]
 
-¶ Dni aũt euclides cetcras quatuor species ꝓportiõalitatis que ſunt conuerſa:coniũcta: diliuncta:cuerſa : non pponit oemonſtrandas in numcris: cõuenies arbitramur cas quas auctor tandy facile de
+¶Diſiunctam proportionalitatem oſtendere. ¶Vt ſi ſit.a.b.ad.b.ſicut.c.d.ad.d.erit.a.ad.b.ſicut.c.ad.d.erit enim permutatim.a.b.ad.c.d.ſicut.b.ad.d.⁊ p.12.ſicut.a.ad.c.qꝛ ergo.a.ad.c.ſicut.b.ad.d.erit ꝑmutati.a.ad.b.ſicut c.ad.d. ¶Coniuncte proportionalitati demonſtrationem afferre ¶Vt ſi ſit.a ad.b.ſicut.c.ad.d.erit.a.b.ad.b.ſicut.c.d.ad.d.erit eni ꝑmutatim a.ad.c.ſicut.b.ad.d.quare p.13.a.b.ad.c.d.ſicut.b.ad.d.ꝑmutatim igitur erit.a b.ad.b.ſicut.c.d.ad.d. ¶Euerſam proportionalitatem reſtat in numeris ſtabilire. ¶Vt ſi ſit.a.b.ad.b.ſicut.c.d.ad.d.erit.a.b.ad.a.ſicut.c.d.ad c.erit eni ꝑmutatim.a.b.ad.c.d.ſicut.b.ad.d.q̃re p.12.ſicut.a.ad.c.permutatim igitur erit.a.b.ad.a.ſicut.c.d.ad.c.patet itaqʒ totum.Ex his quoqʒ leue ẽ demonſtrare i numeris ꝙ euclides ꝓponit ꝑ penulʼĩ quĩti de quãtitatib⁹ i genere videlʒ ꝙ
 
-[Diagram]
+[Diagram: two horizontal lines, the upper divided into segments a and b, the lower into c and d]
 
-monſtrabiles ptermniſit oemonſtrare: Prinũ itaz oemonſtrabimus conuerſã:vt fi ſit, a.ad. b.ſicut, c. ad. d. oico q erit ecõuerſo. b.ad. a. ſicut. d.ad. c.ſi eni fucrit, a minor b.tunc quoqz erit.c.minor. d.z tota pars aut partes. a.b, quota vel quote c.d.quare per ſcoam ptem.n.erit. b. ad.a.ficut. d.ad.c. ſi autem fuerit. a. maior.b. erit quoqy z.c.maior. d.z per primam partem.1.b. tora pars aut parres. a. quota vel quote. d.c.per oiffinitionem igitur. b. ad.a.ſicut. d.ad.c.
+¶Si proportio primi ad ſcõm fuerit ſicut tertij ad q̃rtũ quinti quoqʒ ad ſecundum ſicut ſexti ad quartum:erit proportio primi ⁊ quinti pariter acceptorum ad ſecundum ſicut tertij ⁊ ſexti ad quartum.
 
-¶ Diſiunctam proportionalitatem oſtendere.
+¶Vt ſi ſit.a.ad.b.ſicut.c.ad.d.itemqʒ.e.ad.b.ſicut.f.ad.d.erunt.a.⁊.e.pariter accepti ad.b.ſicut.c.⁊.f.pariter accepti ad.d.erit enim per conuerſam proportionalitatem.b.ad.e.ſicut.d.ad.f.quare per equam proportionalitatem.a.ad.e.ſicut c.ad.f.ergo coniunctim.a.⁊.e.ad.e.ſicut.c.⁊.f.ad.f itaqʒ per equã proportionalitatem.a.⁊.e.ad.b.ſicut.c.⁊.f.ad.d.quod eſt propoſitum.Eodemqʒ modo probabis ecõuerſo.ſi ſit.b.ad.a.ſicut.d.ad.c.itẽqʒ.b.ad.e.ſicut.d.ad.f.erit.b.ad.a. ⁊.e.ſicut.d.ad.c.⁊.f.erit enim per conuerſam proportionalitatẽ.a.ad.b.ſicut.c. ad.d.quare per equam.a.ad.e.ſicut.c.ad.f.⁊ coniunctim.a.⁊.e ad.e.ſicut.c.⁊.f.
 
-¶It li lit.a.b.ad. b.ſi
+[Diagram: two divided horizontal lines, the upper labelled a and e beside c and f, the lower labelled b beside d]
 
-[Diagram]
-
-cut.c.d.ad.d.erit. a.ad. b.ſicut. c.ad.d.crit cnim permutatim.a. b.ad.c. d.ficut.b. d d.æD.i2.ſicut. a. ad.c.qrergo. a. ad.c.ſicut.b.ad. d.crit pmutati. a. ad.b., ſicut cad.d.
-
-¶ Coniuncte proportionalitati demonſtrationem afferre
-
-¶Bt ſi fit. a ad.b. ſicut.c.ad.d.crit. a.b.ad. b.ſicut.c. d.ad.d. crit eni pmutatim a.ad. c.ſicut.b.ad. d.quare p.13..a.b.ad.c.d.ficut.b.ad. d-pmutatim igitur erit. a b.ad.b.ficut. c.d.ad.d.
-
-¶ Enerſam proportionalitatem reſtat in nume ris ſtabilire.
-
-¶Bt ſi ſit.a.b.ad.b.ſicut.c. d.ad. d.crit. a.b.ad.a.ſicut. c.d.ad C.crit eni pmutatint. a.b.ad.c.d.ficut.b.ad. d.q̃re p.iz. ſicut.a. ad.c. pcrmutatim igitur crit. a.b.ad.a.ſicut.c.d.ad.c. patet itaqs totum. Ey bis quoo; lcue ẽ cemnon ſtrare i numeris ꝙ euclidcs ꝓponit p penu'ĩ quiti oe quãtitaribꝰi genere videlz q
-
-¶ Oi proportio primi ad ſcõm fuerit licut tertij ad q̃rtũ quinti quoqz ad ſecundum ſicut ſerti ad quartum: erit proportio primi z quinti pa riter acceptorum ad ſecundum ſicut tertij z ſerti ad quartum.
-
-¶It ſi ſit. a.ad.b. ſicut. c.ad. d.itemz.e. ad.b.ſicut. f.ad. d.erunt. a.2.e. pariter acccpti ad.b. ſicut. c.ad.f. pariter accepti ad.d. crit enim per conuerſam proportio
-
-[Diagram]
-
-nalitatein. b. ad.e. ſicut. d.ad.f. quare per equam proportionalitatem. a.ad.e. ſicut c.ad.f.crgo coniunctim.a.z. c.ad. e.ſicut.c.2. f.ad.f itaqz per equã proportiona? litatem.a.t.c.ad.b.ſicut.c.z. f.ad.d.quod eſt propoſitum. Eodemq; modo proꝰ babis eouerſo. ſi fit.b. ad.a.ficut. d.ad.c. itéqz. b.ad.e. ficut. d.ad.f.crit. b.ad.a. 2.c.ſicut. d.ad.c.t.f.erit enim per conuerſam proportionaltatẽ. a. ad.b. ſicut.c. ad.d. quarc per cquam. a.ad.c. ficut.c.ad.f.z coniunctim.a.2.e ad.c.ſicut.c.2.f.
-
-<!-- Signature: [illegible] -->
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: g 4 -->

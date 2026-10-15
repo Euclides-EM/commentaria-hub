@@ -1,16 +1,27 @@
 [Handwritten]
-[unclear: C. II. 92.]  E'. 231.  [unclear: (Daunou 365)]
+[unclear: C. H. d. A.]
 
-1ʳᵉ Editio
+E. 231. ([unclear: Daunou] 365)
 
-N. Braun II. 92.
-D. Clement VIII. 143.
+1ᵉ Editio
+
+V. Braun II. 92
+
+D. Clément VIII. 143.
+
 Clemmius. 532
-Debure. nᵒ 1959
-[unclear: fefsi]. I. 643
+
+Debure 4º 1959
+
+foſsi. I. 643
+
 freytag. analect. 315
-Laire. II. 39.
+
+Laire. II. 59.
+
 Maittaire. 434.
+
 Mercier. 6.
-Seemiller. II. 108.
+
+Seemiller. II. 168.
 [/Handwritten]

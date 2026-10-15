@@ -1,33 +1,32 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: XV -->
 
-iõg necelle ẽ cas eſſe equiangulas cum ſint equilatere. Et qr ey.3z. primi angnli cu iuſoz eay pariter accepti funt equalcs quatuor rectis angulis. ſequitur cas ec rectã gulas nibil ergo oeeſt inſcripto corpori oe ratione cubi.
+iõqʒ neceſſe ẽ eas eſſe equiangulas cum ſint equilatere. Et qr ex.32.primi anguli cuiuſqʒ eaꝝ pariter accepti ſunt equales quatuor rectis angulis.ſequitur eas eẽ rectãgulas nihil ergo deeſt inſcripto corpori de ratione cubi.
 
-## Propoſitio.3.
+## Propoſitio .9.
 
-{dropcap:[illegible]|lines=5|style=decorated}Ato ouodecedro ſibi demum octocedron inclndere.
+{dropcap:D|lines=5|style=decorated|decoration="foliate woodcut initial"}Ato duodecedro ſibi demum octocedron includere.¶Compoſito duodecedro ut in.17.⁊ [unclear: ſeq́] decimiſex latera ſuarum ſupficierũ ea videlicet que cathecos ſup ſex lineas oppoſita latera ſuperficierum cubi per equalia ſecantes erectis tanq̃ʒ eorum corauſti iungunt per equalia diuide:eaqʒ bina ⁊ bina adinuicẽ compoſita cõtinua per tres lineas qui ſeinuicem ſuper medium punctum diametri cubi ex.48.vndecimi per equalia ſecabunt:eruntqʒ vt queqʒ due eaꝝ trium ſeinuicem quoqʒ ad angulos rectos diuidant.Si igitur harum trium linearum extremitates per.12 lineas rectas continuaueris perueniet tibi corpus octo baſiuʒ triangulariũ ⁊ equilaterarum ex quarta p̃mi vel ſi mai⁹ ex penultima primi:ꝙ oportebat oſtendere.
 
-¶ Lompoſito ouodecedro nt in. i7-⁊ icſj oecimiſex latera ſuarum supficierũ ca videlicet que catbecos ſup ſer lineas oppolira latera ſu perficierum cubi per cqualia ſecantes erectis tanq̃s corum corauſti iungunt per equalia oiuide: eaz bina zbina adinuice compoſita cõ tinna per tres lineas qui ſeinuicem ſuper medium punctum biametri cubi ex. 4S¬ vndecimi per equalia ſecabunt: eruntoz vt quoc oue eay trium ſeinuicem quouy ad angulos rectos oinidant. Si igitur barum trium lincarum eytremitares per.12 lineas rectas continuaucris pcrucniet tibi corpus octo baliuz triangularũ z cqui latcraruin cquarta pmi vel ſi maiꝰ ex penultima primi : qp opontebat oſtendere.
+## Propoſitio .10.
 
-## [illegible]
+{dropcap:I|lines=5|style=decorated|decoration="foliate woodcut initial"}Ntra aſſignatum duodecedron piramidem quatuor baſium triangularium atqʒ equilaterarum adhuc reſtat diſtinguere.¶Aſſignato duodecedro inſcribe cubum ex octaua huius cuboqʒ piramidem ex prima.cum igitur anguli piramidis ſint in angulis cubi vt patet ex rõcinatione prime ⁊ anguli cubi in angulis duodecedri ex rõcinatione octaua:erunt quoqʒ anguli piramidis in angulis duodecedri.itaqʒ cõſtat quod volumus.
 
-Se ropoſitio .io.
+## Propoſitio .11.
 
-{dropcap:[illegible]|lines=5|style=decorated}Mtra aſlignatum ouodecedron piramidem quatuoz baſi um triangularium atqz equilaterarum adbuc reſtat oiſtin guere.
-
-¶ Aſſignato ouodecedro inſcribe cubum er octaua buius cubooz pi ramidem ex prima. cum igitur anguli piramidis fint in angulis cubi vt patet ex rõcinatione prime z anguli cnbi in angulis onodecedri cx rõcinationc octana: erunt quoqz anguli piramidis in angulis ouodecedri. itaqy cõſtat quod vo lumus.
-
-## Propoſitio .1¬
-
-{dropcap:[illegible]|lines=5|style=decorated}Ropolito ycocedroin eo cubum figurare.
-
-¶ycocedro inſcribi ouodccedron ex ſeyta ac ouodecedro cubum ex octaua: conſtat autẽ cy oemonſtratione ſcyte ꝙ omnes anguli ouoꝰ decedri cadunt ſuper centrum baſium ycocedri z angulis cubi ſunt in langulis onodeccdri: ita anguli cubi ſnnt i centris baſium ycocedri babemus ergo propolitum.
+{dropcap:P|lines=5|style=decorated|decoration="foliate woodcut initial"}Ropoſito ycocedro in eo cubum figurare.¶Ycocedro inſcribi duodecedron ex ſexta ac duodecedro cubum ex octaua:conſtat autẽ ex demonſtratione ſexte ꝙ omnes anguli duodecedri cadunt ſuper centrum baſium ycocedri ⁊ anguli cubi ſunt in angulis duodecedri:itaqʒ anguli cubi ſunt i centris baſium ycocedri habemus ergo propoſitum.
 
 ## Propoſitio .12.
 
-{dropcap:[illegible]|lines=5|style=decorated}Cocedron batum piramidem quatuoz baſium triangnla
+{dropcap:Y|lines=5|style=decorated|decoration="foliate woodcut initial"}Cocedron datum piramidem quatuor baſium triangularium atqʒ equilateraꝝ ſibi poſtulat inſcribi ¶Si in dato ycocedro ex premiſſa cubum inſcripſeris cuboqʒ ex p̃ma piramidem incluſeris quin poſtulationi ycocedri ſatiſfeceris heſitandum non erit. Scire autem oportet quod cum ſint quinque regularia corpora de quorum mutua abinuicem inſcriptõe in hoc.15.libro determinet̃ ſi vnũqd́qʒ eoꝝ cuilibʒ ceteroꝝ eẽt inſcriptibile.20.eorũdẽ inſcriptões acciderẽt Quippe cuilʒ eoꝝ quinqʒ eẽt cetera q̃tuor inſcriptibilia.iõqʒ q̃ter quiqʒ inſcriptões qd́ ẽ.20.neceſſario puenirẽt.at vero piramidi ſolũ octocedron ꝯueniẽs eſt inſcribi.Non enim ſũt in piramide baſes aut anguli aut latera in quibꝰ anguli cubi aut ycocedri aut etiam duodecedri poſſint extrema ipſi⁹ piramidis ꝯtingere
 
-[Diagram]
+[Handwritten]
+[unclear: Quinqʒ corpora regularia]
+Cubus
+[unclear: Corpus 4 baſiũ triangulariũ]
+[unclear: Corpus octo baſiũ triangulariũ]
+[unclear: Corpus 20 baſiũ triangulariũ]
+[unclear: Corpus 12 baſiũ pentagonaꝝ]
+[/Handwritten]
 
-rium atqz equilaterax ſibi poſtulat inlcribi
-
-¶ Gi in pato ycocedro er premilla cubum inſcripſeris cubo er pl ma piramidem incluſeris quin poſtulationi ycocedri ſatilfeceris bcſitandum non crit. Scire autem oportet quoo cum ſint quinque regularia corpora oe quorum mutna abinuicem inſcriptõe in boc.15. libro oeter! minct ſi vnũocuz coy quilibz cẽtroy cẽt inſcriptibile. 2o. corũdẽ inſcriptões acci? derẽt Quippe quilz coy quinqz cent cetera q̃tuor inſcriptibilia. iõqz q̃ter quigz in? ſcriptões qbẽ. 2o. ncceſſario puenirẽt. at vero piramidi lolũ octocedron oueniẽs eſt inſcribi. Ion cnim ſũt in piramide baſes aut anguli ant latera in quibꝰ angus li cubi aut ycocedri aut etiam ouodecedn polſint eytrema ipli, piramidis otingere
+[Other type="stamp"]
+[illegible]
+[/Other]

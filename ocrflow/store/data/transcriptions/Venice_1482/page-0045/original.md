@@ -1,31 +1,21 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: III -->
 
-[Diagram]
+[Margin]
+[Diagram: arc of a circle with chord b.e.k.f.g crossing it horizontally, points c and d on the arc above, perpendiculars meeting at k, and points a and b at the base]
+[Diagram: semicircle on base line a.b with point c at the middle of the base]
+[Diagram: portion of a circle greater than a semicircle with apex c, point e at the centre, and points a, d and b on the base chord, with lines from a and b to c and e]
+[Diagram: portion of a circle less than a semicircle with apex c, points a, d and b on the chord, and a perpendicular continued downward through e to f, with lines from a and b to e]
+[Diagram: circle with point b at the top, point d at the centre, and points a and c at the bottom, with lines from a and c to b and to d]
+[/Margin]
 
-cr quo volo perficere circulum protrabam in eo ouas lincas qualitercunqz cõtin gat que ſint. a.c.2.b. d. quas oiuidam per cqualia.a.c. quidãi puncto.e, 1.b. d.in puncto, f.z prorrabam. Eg- perpendicularem ad.a.c. 2. Eb perpendicularem ad b.d. que ſccent ſe in puncto. l. critqz per concl. prme buins centrũ circuli i vtra, y lincarum.e.8.2.f, b, quare centrum eſt punctũ. R. Si autem. e.g. non ſecet. L.b. ſcd ſint linca vna. quẽadmodũ erit ſi oue linec. a. c. 2. b. d.ſint equidiſtantes tunc ipſa applicabir circũferẽtic pati arcꝰ. cx vtraz pte ipſa igii oiuiſa p mediũ i pũcto l. ent ibi centrũ circuli per idem concl. Equidiſtantes autem non crũt. c.g. 2. f.b. quia cum in vtraqz ſit centrum circuli per oictum concl. eſſent ciuſdem circuli ouo centra.Oic poreſt oe omni arcu ſiuc oc omni portione cõmuniter oemõſtrari qua
+[Handwritten]
+f .e. h g
+[/Handwritten]
 
-[Diagram]
+ex quo volo perficere circulum protraham in eo duas lineas qualitercunqʒ cõtingat que ſint.a.c.⁊.b.d.quas diuidam per equalia.a.c.quidẽ in puncto.e.⁊.b.d.in puncto.f.⁊ protraham.e.g.perpendicularem ad.a.c.⁊.f.h.perpendicularem ad b.d.que ſecent ſe in puncto.k.eritqʒ per correl'.prime huius centrũ circuli in vtraqʒ linearum.e.g.⁊.f.h.quare centrum eſt punctũ.k.Si autem.e.g.non ſecet.f.h. ſed ſint linea vna.quẽadmodũ erit ſi due linee.a.c.⁊.b.d.ſint equidiſtantes tunc ipſa applicabiꝛ circũferẽtie dati arc⁹.ex vtraqʒ pte ipſa igiꝛ diuiſa ꝑ mediũ ĩ pũcto k.erit ibi centrũ circuli per idem correl'.Equidiſtantes autem non erũt.e.g.⁊.f.h. quia cum in vtraqʒ ſit centrum circuli per dictum correl'.eſſent eiuſdem circuli duo centra.Sic poteſt de omni arcu ſiue de omni portione cõmuniter demõſtrari qualiter inde circulus perficiatur.¶Quia tamen auctor videꝛ hanc cõcluſionẽ variare in diuerſas ſpecies arcuũ omniũ portionũ enumerãdo ſpecies:demõſtrabim⁹ diuiſim per ſpecies qualiter ex omni portione data circulus perficiatur.Sit ergo primũ.a.b.portio data ſemicirculus.eritqʒ per diffinitionẽ ſemicirculi.linea.a.b. diametri.ea igitur diuiſa per medium in puncto.c.erit.c.centrũ circuli.¶Sit rurſus portio.a.c.b.ſemicirculo maior cuius corda ſit.a.b.quã diuido per equalia in puncto.d.a quo duco.d.c.perpendicularem ad ipſam que tranſibit per centrum per correl'.prime huius:⁊ protraho lineam.a.c.⁊ quia linea.a.b.eſt minor diametro cum ſit.a.c.b.portio maior ſemicirculo:erit.a.d.minor ſemidiametro.ſed.d.c eſt maior ſemidiametro.ergo.d.c.eſt maior qʒ.a.d.ergo per.19.primi:angulus c.a.d.eſt maior angulo.a.c.d.fiat itaqʒ per.23.primi:angulus.c.a.e equalis angulo.a.c.d.producta linea.a.e.que ſecet lineam.c.d.in puncto.e.eritqʒ ꝑ ſextã primi.linea.a.e.equalis linee.e.c.producaꝛ igitur linea.e.b.eritqʒ per.4.primi linea e.b.equalis linee.a.e.quare tres linee.e.a.e.b.e.c.ſunt equales ergo per.9.huius e.eſt centrum circuli.¶Sit iterum.a.c.b.portio minor ſemicirculo.cuius corda ſit a.b.quã diuido per equalia in puncto.d.a quo produco lineam.c.d.e.perpendicularem ad lineã.a.b.que ſecet circũferentiam in puncto.c.hãc manifeſtũ eſt tranſire per centrum per correlarium prime huius.produco iterũ lineam.a.c:eritqʒ angulus.a.c.d.maior angulo.c.a.d.ſi eſt equalis erit portio.a.c.b.ſemicirculus.⁊ ſi minor erit maior ſemicirculo:poſitũ eſt autẽ ꝙ ſit minor.produco igitur lineã.a. e.que cum linea.a.c.faciat angulũ equalem angulo.c.⁊ ſecet lineam.c.f.in puncto e.⁊ manifeſtũ ẽ ꝙ punctum.e.cadat extra datam portionẽ.⁊ produco lineam.e.b ⁊ quia angulus.a.totalis eſt equalis angulo.c.erit per.6.primi linea.e.a.equalis linee.e.c.⁊ quia per quartã primi linea.e.b.eſt equalis linee.e.a.erit per.9.huius punctũ.e.centrum circuli quare patet propoſitum in omnes ſpecies portionum circuli.
 
-[Diagram]
+## Propoſitio 25.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I in equis circulis ſeu ſuper centra.ſeu ſup circũferẽtias equales anguli conſiſtant.ſuper equos arcus eos cadere neceſſe eſt.
 
-[Diagram]
-
-[Diagram]
-
-liter inde circulus perficiatur.
-
-¶ Ouia tamen auctor videt banc cõcluſioné varia? re bin oiucrſas ſpecies arcuũ omniũ portionũ enumerãdo ſpecies: bemoſtrabim' oiuiſim per ſpecics qualiter cr onmi porrione para circulns perficiatur. Sit crgo primũ. a. b. portio oata ſemicirculus. critoz per oiffinitione ſemicirculi.linca. a.b. biametri. ca igitur oiuiſa pcr medium in puncto. c.crit. c. centrũ circuli.
-
-¶ Sit rur ſus portio. a. c.b. ſemicirculo maior cuius corda ſit. a.b. quã oiuido per cqualia in puncto. d.a quo onco. d.c.pcrpendicularem ad ipſam que tranſibit per centrum per concl prime buius: z protrabo lincam.a. c.z quia linea.a.b. eſt minor diame tro cum ſit. a.c.b.portio maior ſcmicirculo:erit. a.d. minor ſemnidiamctro.ſcd. d.c eſt maior ſcmidiametro. crgo. d.c.eſt maior q5.a. d. crgo per.ip. primi: angulus c.a. d.eſt maioz angulo. a.c. d. fiat itaqz per. 23. primi: angulus. c.a.e cqualis an? gulo.a.c.d. producta linca. a.e, que ſecor lincam.c.d.in puncto.c.eritoy plcrtã pri mi.linca. a.e. cqualis lince.e.c. producat igitur linca.c. b. critqz per. a prmi linea c.b. cqualis lince. a. c, quarc tres linee. e.a. e. b. e.c.ſunt cqualcs ergo per.9.buius e.eſt centrum circuli. ( Oit itcrum. a.c.b, portio minor ſemicirculo. cuius corda ſit a.b. quã biuido per cqualia in puncto. d. a quo prodnco lineam.c. d.e. perpendicu larem ad lincã. a.b. que ſecet circũferentiam in puncto.c. bãc manifeſtũ eſt tranſi re per centrum per conelarium primc buius, produco iterũ lineam. a. c:eritqz an? gulus. a.c.d.maior angulo.c.a. d.ſi eſt equalis erit portio.a.c. b. ſemicirculus. z ſi minor erit maior ſemicirculo: poſitũ eſt aute ꝙ fit minor. produco igitur lineã.a. c. que cum linca. a. c. faciat angulũ equalem angulo.c.t ſecet lincam. c. f.in puncto e.⁊ manifeſtũ ẽ ꝙ punctum.e. cadat cytra oatam portionẽ.⁊ produco lincam.e.b quia angulus. a. totalis eſt cqualis angulo. c. erit pcr.s- primi linca. c.a. cqualis lince. e.c.Z quia per quartã primilinca.e.b. cſt equalis lince. e.a. erit per.9. bu? ius punctũ.e. centrum circuli quare patet propoſitum bin omnes ſpecies pontioꝰ
-
-[Diagram]
-
-num circuli.
-
-## Propolitio 25.
-
-{dropcap:[illegible]|lines=5|style=decorated}J in equis circnlis ſeu luper centra ſeu ſup circũſerẽtias eqnales anguli conliſtant. ſupcr equos arcus eos cadere neceſſe eſt.
-
-¶Oint ono circuli cquales. a b.c. cuius centrũ. d.. e.f.g-cuins cen trũ.b.z fiãt ſupra cẽtra coy ouo anguli.a.d.c.z.c.b.s-qui ponant equales. oico ouas arcus. a.b.c. 1.e.f.g-eſſc equalcs. protrabantur oue lince. a.c. cce. ge c hiant ouo anguli in circuferennis ipſon; conſiſtentes ſupra predicros ar cuos qui ſint angulus, a b.c.z angulns.c.l.3 quia crgo cirouli ſunt cquales, pe pout
+¶Sint duo circuli equales.a.b.c.cuius centrũ.d.⁊.e.f.g.cuius centrũ.h.⁊ fiãt ſupra cẽtra eoꝝ duo anguli.a.d.c.⁊.e.h.g.qui ponanꝛ equales.dico duas arcus.a.b.c.⁊.e.f.g.eſſe equales.protrahantur due linee.a.c. ⁊.e.g.⁊ fiant duo anguli in circũferentiis ipſoꝝ conſiſtentes ſupra predictos arcus qui ſint angulus.a.b.c.⁊ angulus.e.f.g.quia ergo circuli ſunt equales.[unclear: erũt]

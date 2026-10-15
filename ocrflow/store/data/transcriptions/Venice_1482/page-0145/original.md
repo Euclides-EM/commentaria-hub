@@ -1,45 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-nams h.c, quotiens é multiplicata. a.i.d.e. f.ſitay cius moltipler. El.m.qu ſgitur vnaqueqy quãtitatii. l. lam.é cqualis. b.c. ſequir ur z.E. ſit minon b.g- ſed t.hmior Sb.at qum.é equalis. b.c. erit pcõceptione. E.l.m.minon. b.c-quare minor. d.c f cu ſit ergo.de. f.ad. a.ſicut. l .m.ad.b. cfitoy-d.e. f.maioi. ſe l.m. ſcquit p’ia¬ quinti q.a fit maior. b.e.qbẽ propoiitui. Jdé ſcquit ſi be, a'maiori pimiain de mai.itégy de reliquo oinidiũ: fitaz totiens quouſay maior ouuidat in tot partes quotiens cõrincr minon in quolibet ſuo multiplice:maiore poſitay quarlibet cyce dente.
+namqʒ.h.c.quotiens ẽ multiplicata.a.ĩ.d.e.f.ſitqʒ eius multiplex.k.l.m.qꝛ igitur vnaqueqʒ quãtitatũ.k.l.m.ẽ equalis.h.c.ſequit̃ ut ⁊.k.ſit minoꝛ.b.g.ſed ⁊.l.minoꝛ g.h.at qꝛ.m.ẽ equalis.h.c.erit ꝑ cõceptionẽ.k.l.m.minoꝛ.b.c.quare minoꝛ.d.e.f cũ ſit ergo.d.e.f.ad.a.ſicut.k.l.m.ad.h.c.ſitqʒ.d.e.f.maioꝛ.k.l.m.ſequit̃ ꝑ.14. quinti ꝙ.a.ſit maioꝛ.h.c.qd̃ ẽ propoſitũ.Jdẽqʒ ſequit̃ ſi de.a.maioꝛi dimidiũ demat̃.itẽqʒ de reliquo dimidiũ:fiatqʒ totiens quouſqʒ maioꝛ diuidat̃ in tot partes quotiens cõtinet̃ minoꝛ in quolibet ſuo multiplice:maioꝛẽ poſitaꝝ quãtũlibet excedente.¶Attendere aũt oportet ꝙ huic videt̃.15.tertij ꝯdicere ꝓponẽs angulũ contingentie minoꝛẽ fore quolibet angulo a duabus lineis rectis cõtento:poſito eniʒ angulo quolibʒ rectilineo:ſi ab ipſo maius dimidio demat̃.itẽqʒ de reſiduo maius dimidio:neceſſe videt̃ hoc totiens poſſe fieri quouſqʒ angulus rectilineus minoꝛ angulo cõtingentie relinquat̃:cuius oppoſitũ.15.tertij ſyllogizat:ſed hi nõ ſũt vniuoce anguli:nõ eni eiuſdẽ ſunt generis ſimplꝛ curuũ ⁊ rectũ.At vero nec angulum contingentie totiens cõtingit ſumi ut qualẽcũqʒ rectilineũ excedat:qd̃ neceſſariũ ẽ ut ex prehabita demõſtratione pʒ:ad hoc ut ꝯñs ex antecedente ſequat̃:planũ ꝟo ẽ etiã quẽlibet angulũ rectilineũ infinitis angulis cõtingẽtie eſſe maiorem.
 
-¶ Attendere aũt oportet ꝙ buic vidct.a y tertij õdicere pponẽs angului con ringentie minore fore quolibet angulo a cuabus lincis rectis cotento: poiito eniy angulo quolibz rectilineo: ſi ab iplo mains oimidio oemat. itcqz de reſiduo mains oimnidio: ncceſſe videt boc totiens polle fier quouſay angnlus recrlincus minos angulo cõtingentie relinqnar: cuius oppoſitũ.1s. rerrij fyllogisar: ſed bi nõ ſũt vni, noce anguli:nõ eni ciuſdé ſunt generis ſimple curuu z rcou. Er vero nec anqulum contingentie toriens cõtingit ſumi ur qualcciqz recilineũ cyccdat: q neceſſariũ ẽ nt er prchabita demoſtratione py:ad bocut ons cy antecedente ſequat: planu ŝ ẽ ctiã quelibet anguli recril ncu infinitis angulis coutingetie eſſe maiorem.
+## Pꝛopoſitio .2.
 
-## Propoſitio.2.
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint due quantitates inequales detrahat̃qʒ maioꝛi equale minoꝛi donec minus eo ſupſit:ac deinde minoꝛi ipſius reliqui equale demat̃ donec minus eo relinquatur denuo quoqʒ reliquo primo eq̃le reliqui ſcd̃i donec minus eo ſupſit auferat̃:⁊ in huiuſmodi cõtinua detractione nullũ reliquũ qd̃ ante relictũ numeret:inueniat̃:eas duas quãtitates.incõmenſurabiles eſſe neceſſe eſt.¶Simile huic ꝓpoſuit prima ſeptimi ĩ numeris.Sint due quãtitates inequales.a.⁊.b.maioꝛ.a.quibus ſi fiat recipꝛoca quoad põt detractio:nõ occurrat etiã ſi infinitiẽs fiat aliq̃ q̃ntitas detractiõeʒ ipediẽs ſiue ante relictũ numerãs dico eas incõmẽſurabiles eſſe.Sin aũt ſit cõis eaꝝ menſura.c.detrahat̃ igit̃.b.ex.a.quotiẽs põt.ſitqʒ reſiduũ.d.qd̃ reſiduũ detrahat̃ ex.b.quotiens põt ⁊ ſit reſiduũ.e.Fiatqʒ totiens iſta detractio quouſqʒ ex alterutra duaꝝ quantitatũ.a.⁊.b.remaneat minus.c.hoc eni neceſſe eſt eſſe poſſibile ꝑ p̃cedentẽ.Sitqʒ hic.e.minus.c.cũ igit̃.c.mẽſuret.b.detractã ab.a.⁊ etiã.a.menſurabit per cõceptionẽ.d.reſiduũ.ideoqʒ cũ menſuret.d.detractũ.a.b.⁊ etiã ipſi.b. menſurabit.e.reſiduũ.ſed erat.e.minus.c.maioꝛ:ergo quantitas menſurat minorem.qd̃ eſt impoſſibile.
 
-[Diagram]
+[Diagram: handwritten ink horizontal segments labelled a, b, c and d]
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint ouë quantitates incqualcs betrabat qz maiori equale minori donec minus eo ſupfit: ac deinde minori ipiius reliqui equale demat donec minus eo relinquatur benno quoqzreliquo primo cq̃le reliqui ſcbi donec mi I nus eo ſupſit auferat:z in buiuſmodi cõtinua detractione nullũ reliquũ qb ante relictũ numeret:inueniat,eas ouas quãtirates. incõmenſurabiles eſſe neceſle eſt.
+[Diagram: horizontal segments with labels a, b, c, d and e]
 
-¶Simile buic ppoſuit prima ſeptimii numeris Sint one quãt ratcs incquales, a.c. b, maion. a quibus ſi fiat rccipnoca quoad põt detractio:nõ occurrat ctiã ſi infinities fiat aliq̃ q̃ntiras detractiõez ipe
+## Pꝛopoſitio .3.
 
-[Diagram]
+{dropcap:P|lines=5|style=decorated|decoration="foliate woodcut initial"}Ropoſitis duabus quantitatibus inequalibꝰ cõicantibus maximã quantitatẽ cõiter eas numerantẽ inuenire.Ex hoc itaqʒ manifeſtum eſt:que duas metitur quantitates maximam quoqʒ cõmuniter ambas metientem metiri.¶huius demonſtrationem ſi ſcd̃am ſeptimi non ignoꝛas nõ potes ignorare:ꝓceſſus eni vtrobiqʒ idem.
 
-diẽs ſinc ante relicrũ numerãs dico cas incõmeſurabiles eſſe. Sin aũt ſir cois cay menſura.c. betrabat igi. b.cy a,quotiés põt. ſitoy rcſiduu d.ao reſiduũ detrabat cy.b, quotiens põt z ſit relidnũ.e. Suaty toticns iſta petractio quouſy ey alcru? tra ouay quantiratui.a.2.b.remancat minus.c.boc eni neceſſe eſt eſſe poſſibile p pcedentẽ. Siqy bic.e. minus.c. cũ igit.c. meſurct. b. bctractã ab.a.z ctiã. a. menſu?
+## Pꝛopoſitio .4.
 
-[Diagram]
+{dropcap:P|lines=4|style=decorated|decoration="foliate woodcut initial"}Ropoſitis tribus quantitatibus communicantibus maximam eas cõmuniter numerantem inuenire.¶hec ex tertia ſeptimi ſic patet ſicut premiſſa ex ſecunda ſeptimi.
 
-[Diagram]
+## Pꝛopoſitio .5.
 
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-rabit per cõccptioné. d. reſiduus. ideouy cui menſuret.d.octractu.a.b.e cnã ipſi.b. menſurabit. c.reſiduũ. ſcd erat.c.minus.c. maior: ergo quantitas menſurat mino, rem. qo eſt impoſſibilc.
-
-## ropolitio.3
-
-{dropcap:[illegible]|lines=5|style=decorated}Ropoſitis ouabus quantirarbus incqualib?cõicantibus marimã quantiratẽ coirer eas numcrantẽ inuenire. Ey boc itaqz manifeſtum eſt:que ouas metitur quantitates marimam quodz cõmuniter ambas metientem metiri.
-
-¶huius pemonſtraronen ſi ſcoam ſeptimi non ignons nõ potcs ignorare: ꝓceſſus eni vtrobioz idem.
-
-## Propoſitio.4.
-
-{dropcap:[illegible]|lines=5|style=decorated}Ropoſitis tribus quantitaribns communicantbns mari? mam eas cõmuniter numerantem inuenire.
-
-¶bec cy tertia ſeptimi ſic patet ſicut premniſla er ſccunda ſcprini. Propolitio.5.
-
-## [illegible]
-
-<!-- Signature: [illegible] -->
+<!-- Signature: i 4 -->

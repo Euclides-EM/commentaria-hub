@@ -1,55 +1,45 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: III -->
 
-[Diagram]
+## Propoſitio .18.
 
-## Propoſitio a1s.
+[Margin]
+[Diagram: circle with a horizontal tangent line above touching it at c, points a and b on the line, a vertical line from the contact through the circle to point e at the bottom, and point d inside to the right]
+[/Margin]
 
-{dropcap:[illegible]|lines=5|style=decorated}5 circulũ linea recta cõtingat: a cõtactu in circulnz linea quedã ortboganaliter oucat.i eadẽ cẽtx cẽ neceſle ẽ. dSit vt prius linea. a.b. contingens circulum.c. c. in puncro.c. t.a contactu oucai intra circulũ. c.e Iinca perpendicularis ad lincam.a. b.oico ꝙ centrum circuli eſt in linea.c.e. z eſt cõuerſa prioris. Si eni non fucrit centrũ in linea.c.c.ſit alibi vbicungz cõtingat. ſitqz.d.z pducar linca. d C.critoy d.c.per premiſſam pcrpendicularis ad lincã.a.b. qo eſt impoſſibile cui.e. c.poſita lit perpendicularis ad ipſam: quare patet propoſitum.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I circulũ linea recta cõtingat:⁊ a cõtactu in circuluʒ linea quedã orthoganaliter ducaꝛ.ĩ eadẽ cẽtꝝ eẽ neceſſe ẽ.
 
-## Propolitio.? 19.
+¶Sit vt prius linea.a.b.contingens circulum.c.e.in puncto.c.⁊ a contactu ducaꝛ intra circulũ.c.e.linea perpendicularis ad lineam.a.b.dico ꝙ centrum circuli eſt in linea.c.e.⁊ eſt cõuerſa prioris.Si eni non fuerit centrũ in linea.c.e.ſit alibi vbicunqʒ cõtingat.ſitqʒ.d.⁊ ꝓducaꝛ linea.d.c.eritqʒ.d.c.per premiſſam perpendicularis ad lineã.a.b.ꝙ eſt impoſſibile cũ.e.c.poſita ſit perpendicularis ad ipſam:quare patet propoſitum.
 
-{dropcap:[illegible]|lines=5|style=decorated}J intra circnlum angulus ſupra centrũ conſiſtat: alius ve
+## Propoſitio .19.
 
-[Diagram]
+[Margin]
+[Diagram: circle with centre d, point b at the top, points a and c at the bottom, point e below d, with lines joining a and c to b, d and e]
+[Diagram: circle with centre d, point b at the upper right, point a at the lower left and point c at the bottom, with lines joining them through the centre]
+[Diagram: circle with centre d, points e and b at either side, points a and c below, with line b.d.e and lines from a and c to the other points]
+[/Margin]
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I intra circulum angulus ſupra centrũ conſiſtat:alius vero angulus ſupra circũferẽtiã cõſiſtẽs eãdẽ baſim habeat inferior ſuperiori duplus erit.
 
-ro angulus ſupra circũferẽtiã cõſiſtẽs cãdẽ baſim babeat inferioz ſuperiori ouplus erit.
+¶Sit vt in circulo.a.b.c.cuius centrũ.d.fiat angulus.a.d.c.ſuper centrũ ⁊ angulus.a.b.c.ſup circũferentiã.ſitqʒ vtriuſqʒ anguli eadẽ baſis q̃ ſit arcus.a.c.dico angulũ.a.d.c.duplũ eſſe ad angulũ.a.b.c.¶Ꝙ ſic ꝓbatur.Aut eni due linee.a.b.⁊.b.c.icludũt duas lineas.a.d.⁊.d.c.aut altera eaꝝ fit linea vna cũ altera reliquaꝝ.aut etiã altera primarum ſecat alterã poſtremarũ ¶Sit ergo primo vt includant eos vt in prima figuratione apparet.⁊ producatur linea.b.d.e.eritqʒ per.32.primi:angulus.a.d.e.extrinſecus equalis duob⁹ intrinſecis qui ſunt.b.a.d.⁊.a.b.d.anguli ⁊ quia ipſi ſunt equales per.5.eiuſdẽ erit angulus.a.d.e.duplus ad angulũ.a.b.d.ſimiliter quoqʒ erit angulus.e.d.c.duplus ad angulũ.d.b.c.quare totus angulus.a.d.c.duplus ẽ ad totũ angulũ.a.b.c.ꝙ eſt propoſitum.¶Ꝙ ſi altera duaꝝ linearum.a.b.⁊.b.c.fiat linea vna cũ altera duaꝝ lineaꝝ q̃ ſunt.a.d.⁊.d.c.vt in ſecũda figuratione apparet.per eaſdẽ ꝑ quas prius:⁊ ſimili mõ liquet ꝓpoſitum.¶Ꝙ ſi altera duarum primaꝝ ſecet alteram duarum poſtremarum.vt in.3.figuratione apparet.vbi linea.a.b.ſecat lineã.d.c.producatur linea.b.d.e.eritqʒ per eaſdeʒ quas prius aſſumpſimus ⁊ ſimili modo angulus.e.d.a.duplus ad angulũ.d.b.a.⁊ totus angulus.e.d.c.duplus ad totũ angulũ.d.b.c.quare angulus.d.b.c.dupl⁹ ẽ ad angulũ.a.b.c.ꝙ eſt propoſitum.
 
-¶Oit vt in circulo. a.b.c. cuius centrũ.d. fiat angulus. a. d.c. ſupcr lcentrũ z angulus. a.b.c.ſup circũferentiã.ſitay vtriuſoz anguli cadẽ baſis q̃ ſit arcus.a.c.oico angnlũ. a.d.c. ouplũ eſſe ad angulũ. a.b.c.
+## Propoſitio .20.
 
-¶Do ſic pl batur. Aut eni onc lince.a.b.2. b.c.icudũt ouas lineas. a.d.2.d.c. aut altera cay fit linca vna cũ altera rcliquay. aut etiã altera primarum ſecat alterã poſtremarũ
+[Margin]
+[Diagram: circle with centre f, points c, d and e on the upper circumference, chord a.b below, with lines from a and b to c, d, e and f]
+[/Margin]
 
-¶ Sit ergo primo vt inclndant cos vt in prima figuratione apparct.z prodncatur
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I in vna circuli portione anguli ſuper arcum conſiſtant angulos quoſlibet eſſe equales neceſſe eſt.
 
-[Diagram]
-
-linea. b. d.e. crifoz per.3z. primi:angnlns. a. d.e. crtrinſecus cqualis ouobꝰ intrin? ſccis qui ſunt.b.a.d.z. a.b. d.anguli z quia ipſi ſunt cquales per. 5. cinſdẽ crit an? gulns. a. d.c. ouplus ad angulũ.a.b. d. ſimiliter quoq; crit augulus. e. d.c. ouplus ad angulũ. d.b.c. quare totus angulus. a. d.c. ouplus ẽ ad totũ angulũ. a. b.c. qo eſt propoſitum.
-
-¶ Do ſi altera onay linearum. a.b. 2.b. c. fiat linea vna cũ altera ouay lineay q̃ ſunt. a. d.2. d.c.vt in ſccũda figuratione apparet, per caſdẽ p quas prius:z ſimili mõ liquct ppoſitum.
-
-¶Do ſi altcra ouarum primax ſecet alteram
-
-[Diagram]
-
-ouarum poſtremarum. vt in.z figuratione apparet. vbi linca. a.b.ſccat lincã. d.c. producatur linca. b.d.e.critoy per eaſdez quas prius aſſumplimus z ſimili modo angulus.c.d.a.ouplus ad angulũ. d.b.a. z totus angulus.e. d.c. ouplus ad totũ angulũ. d.b.c. quare angulus. d.b. c. oupl ẽad angului.a.b.c. qu eſt propoſttum.
-
-## Propoſitio .20
-
-{dropcap:[illegible]|lines=5|style=decorated}Y in vna circuli portione angnli ſuper arcum conſiſtant angnlos quoſlibẽt eſle equales neceſle eſt.
-
-[Diagram]
-
-¶ Sit vt in portione. a. d.b.circuli. a. d.b.cuins centrum. f.cõſiſtant quoſlibet anguli ſuper arcum.a. d.b.qui ſũt. c.d.c.oico cos cẽ equa, les. protrabatur eni corda. a. b. z ab eius eyrtremitatibus : oucantur in centrum linee. a.f. 2. b. f. eritqz per premiſſam angulus. f. couſiſtens ſuper cen, trũ ad vnũquẽqz corum. ouplus: quare ipli ſunt equalcs: qu eſt propoſitum.
+¶Sit vt in portione.a.d.b.circuli.a.d.b.cuius centrum.f.cõſiſtant quoſlibet anguli ſuper arcum.a.d.b.qui ſũt.c.d.e.dico eos eẽ equales.protrahatur eni corda.a.b.⁊ ab eius extremitatibus:ducantur in centrum linee.a.f.⁊.b.f.eritqʒ per premiſſam angulus.f.conſiſtens ſuper centrũ ad vnũquẽqʒ eorum.duplus:quare ipſi ſunt equales:ꝙ eſt propoſitum.
 
 ## Propoſitio .21.
 
-{dropcap:[illegible]|lines=5|style=decorated}5 intra circulum quadrilateru oeſcribat. quollibet eius ouos angulos ex aduerſo collocatos ouobus rectis angu lis equos elle neceſle eſt.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I intra circulum quadrilaterũ deſcribaꝛ.quoſlibet eius duos angulos ex aduerſo collocatos duobus rectis angulis equos eſſe neceſſe eſt.
 
-¶Sit quadrilaterũ. a.b.c. d.inſcriptũ circulo. a. b.c. d. oico quoſz ouos eiꝰangulos ey aducrſo collocatos cẽ eq̃les ouobꝰ rectis. ptra? bant eni in q̃drlatero oiamertri. a.c. b. d.eritas ꝑpreiniſſã angulus. c.b.d. cq̃lis
+¶Sit quadrilaterũ.a.b.c.d.inſcriptũ circulo.a.b.c.d.dico quoſqʒ duos ei⁹angulos ex aduerſo collocatos eẽ eq̃les duob⁹ rectis.ꝓtrahanꝛ eni in q̃drilatero diamertri.a.c.b.d.eritqʒ ꝑ premiſſã angulus.c.b.d.eq̃lis
 
-<!-- Catchword: [illegible] -->
+[Handwritten]
+[Diagram: hand-drawn circle with inscribed quadrilateral labelled a, b, c and d, its diagonals, and points e, f and g below]
+[/Handwritten]
 
-[Diagram]
-
-pipiuia paiaiipi Mi riiiii
+<!-- Catchword: c -->

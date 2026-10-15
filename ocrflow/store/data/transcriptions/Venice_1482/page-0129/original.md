@@ -1,33 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VIII -->
 
-ner primã ptem.iy-nccefſe eſt vt. c. numerct. d.nccelle eſt igitur vr'humeret ipſum cũ non numcrat iplũ:qo eſt impoſſibile. Oucadmodũ autẽ ncceſſe eſt cõuerti ne? cationcs oppoſitas affirmatioibns quas.13. emõſtrauit ouerti:ſic quoqz neceſſe ẽcas negatiões que opponũt illis affirmationibus quas pmiſſa cõuerti demõſtra uit cõnertant. vnde ſi cubus nõ numerat cnbũ nec latus cius numerabit latus illi? ecouerſo quoqy ſi lams vnius nõ numerat latus alrcrino: nec iple cubns numera, bit alterũ cubũ. ocmõſtrat aũt boc p pmiſſam a oeſtructione oſcquẽtis: ſicut qupl politum eſt pcr.13 idcoqz boc anctor nõ propoſuit:ſed pr id qo propolitũ e iplu bedit intelligi.
+per primã ptem.13.neceſſe eſt vt.c.numeret.d.neceſſe eſt igitur vt numeret ipſum cũ non numerat ipſũ:qd̃ eſt impoſſibile.Quẽadmodũ autẽ neceſſe eſt cõuerti negationes oppoſitas affirmatiõibus quas.13.demõſtrauit ꝯuerti:ſic quoqʒ neceſſe ẽ eas negatiões que opponũt̃ illis affirmationibus quas p̃miſſa cõuerti demõſtrauit cõuertant̃.vnde ſi cubus nõ numerat cubũ nec latus eius numerabit latus illiꝰ ecõuerſo quoqʒ ſi latus vnius nõ numerat latus alterius:nec ipſe cubus numerabit alterũ cubũ.demõſtrat̃ aũt hoc ꝑ p̃miſſam a deſtructione ꝯſequẽtis:ſicut qd̃ ꝓpoſitum eſt per.13.ideoqʒ hoc auctor nõ propoſuit:ſed per id qd̃ propoſitũ ẽ ipſũ dedit intelligi.
 
-## PPropoſitio .16.
+## Propoſitio .16.
 
-{dropcap:[illegible]|lines=5|style=decorated}J ouo numeri ſupficiales fuerint liles neceſſe ẽ tertiũ nu, merũ pi pportionalitatẽ cõtinuã eis itereſſe: eritqz proꝰ portio vnius numerl ad altex ſibi ſimile velut oniꝰlateris fui ad latns alterins ſe relpiciens proportio ouplicata.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I duo numeri ſupficiales fuerint ſil'es neceſſe ẽ tertiũ numerũ ſm̃ ꝓportionalitatẽ cõtinuã eis itereſſe:eritqʒ proportio vnius numeri ad alteꝝ ſibi ſimilẽ velut vniꝰ lateris ſui ad latus alterius ſe reſpiciens proportio duplicata.
 
-[Diagram]
+¶Sint duo numeri.a.⁊.b.ſuperficiales ⁊ ſimiles:dico ꝙ inter ipſos cadet vnus numerus in cõtinua ꝓportione:latera enī.a.ſint.c.⁊.d.b.vero latera ſint.e.⁊.f.eruntqʒ ex cõuerſione diffinitionis numeroꝝ ſimiliũ.c.ad.e.ſicut.d.ad.f.conſtat aũt ꝙ ex.c.in.d.fiat.a.⁊ ex.e.in.f.b.fiat itaqʒ.g.ex.e.in.d.eritqʒ ꝑ.19.ſeptimi.a.ad.g.ſicut.c.ad.e.⁊ per.18.eiuſdẽ.g.ad.b.ſicut.d.ad.f.quare.a.ad.g.ſicut.g.ad.b.eſt itaqʒ.g.cõtinua ꝓportionalitate medius inter.a.⁊.b.qd̃ eſt propoſitum.Correl'.aũt patet.cũ ſit.a.ad.b.per diffinitionẽ ſicut.a.ad.g.duplicata.que eadem eſt illi que eſt.c.ad.e.
 
-¶Oint ouo numeri.a. z.b. ſuperficiales z ſimiles: oico  inter ipſos cadet vnus numerus in cõnnna ꝓpouionc latera eni.a.ſint, c.2. d. b. verolatcra ſint e z. f.cruntoz er cõuerſione biffinitionis numeroy ſimiliui.t,. ad.e. ſicut. d. ad E conſtat aũt qer.c.in. d.fiat. a. 2er.e.in. f.b. fiat iracy-g.ey. c.in. d.critp.1i9. Sentimi, a.ad.g. ſicut. c.ad.e. ⁊ per.is. ciuſdé. g ad. b.ſicut. d.ad.f. qare. a. ad.⁊. ſicut, ⁊ ad.b.eſt ita;.g. cõrinua pportionalirate medis inter. a.2.b.qo eſt pioꝰ poſitum. T'ongl. aur patet.cii ſit. a. ad. b. per oiffinitioné ſicut.a.ad. s- ouplicara. que eadem eſt ili quc cſt.c.ad.e. Propoſitio i.
+[Diagram: segments labelled a, g and b beside segments labelled c, d, e and f]
 
-## [illegible]
+## Propoſitio .17.
 
-{dropcap:[illegible]|lines=5|style=decorated}ſecũdũ cõtinuain pportionalitatẽ tertiꝰ numer? onobꝰ luumeris interiit:illi ouo nnmeri iupficiales ſunt ⁊z ſimiles.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I ſecũdũ cõtinuam ꝓportionalitatẽ tertiꝰ numerꝰ duobꝰ numeris interſit:illi duo numeri ſupficiales ſunt ⁊ ſimiles.
 
-¶Thec eſt cõuerſa pmifſe:ur ſi inter.a.2.b.ſit.c. ſub cõtinua pportio
+¶Hec eſt cõuerſa p̃miſſe:vt ſi inter.a.⁊.b.ſit.c.ſub cõtinua ꝓportionalitate cõſtitutus.a.⁊.b.erunt ſupficiales ⁊ ſimiles.ſint enī.d.⁊.e.minimi in proportione qua continuantur.a.b.c.qui per.21.ſeptimi numerabunt.a.⁊.c.equaliter:ſit vt ſm̃.f.⁊ per eandem.c.⁊.b.equaliter:⁊ ſit vt ſm̃.g.erunt igitur per diffinitionem.a.⁊.b.ſuperficiales:⁊ erunt etiam per diffinitionem.d.⁊.f.latera numeri.a.e.quoqʒ ⁊.g.latera numeri.b.Qd̃ autẽ ipſi ſint ſimiles ſic habeto:cum enim ex.d.in.g.ſit.c.⁊ ex.e.in.f.ſit idẽ.c.erit ꝑ ſcd̃am partem.20.ſeptimi.d.ad.e.ſicut.f.ad.g.per diffinitionẽ igitur.a.⁊.b.ſunt ſimiles qd̃ eſt propoſitum:hoc autem vltimum qd̃ eſt.a.⁊.b.eſſe ſimiles poteſt etiam haberi per.19.⁊.18.ſeptimi ⁊ per has ypoth.ꝙ.a.c.b.ſunt ꝯtinue ꝓportionales in ꝓportione.d.ad.e.minimoꝝ numerantiũ.a.⁊.c.ſm̃.f.⁊.c.⁊.b.ſcd̃m.g.
 
-[Diagram]
+[Diagram: segments labelled a, c and b beside segments labelled d, f, e and g]
 
-tionalitate cõſtiturs.a.2. b.crunt ſupiiciales z fimiles. ſint eni. d.? eminuni in proportionc qua continuantur.a. b. c qui per. ai.ſcpti, mi numcrabnnt,. a. 2.c. cqualiter: ſit vt fm.f.c pcr candem. c..b.equaliter: z ſit vt bm. g erunt igitr per oiffinitioncm.a. z. b.ſnperflciales:z crunt ertam per bif, fiuitionem. d.z. f.latera numeri. a-e. quoay t.g latera numeri.b. Do aute ipſi ſint funiles ſic babcto:cum enim cr. d.in.s.ſit.c.⁊ cy.c.in. f.ſit ide.c.crit pſcoam par,, tem. ao ſeptimi, d.ad.e. ſicut.f.ad.g-per piffinitione igitur. a.2.b. ſunt ſimiles qo ſt pronoſitum: boc autem vltimum qo'eſt. a . b.eſſe ſimiles poreſt etiam baberi ner.19. G.is. ſeptimi e per bas ppoib. q.a. c.b. ſunt prinue pportionales in ppor tionc. d. ad.e.minimoy numcrantiñ.a.2.C.bm.f.2.c. 2.b. ſcem.g.
+## Propoſitio .18.
 
-## Propoſitio 18.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I fuerint duo numeri ſolidi ſil'es:neceſſe eſt eis duos numeros ſm̃ continuam proportionalitatem intereſſe.eritqʒ proportio vnius ſolidi ad alterum ſibi ſimilem.velut cuiuſlibet ſui lateris ad latus alterius reſpiciens ſe ꝓportionaliter proportio triplicata.
 
-{dropcap:[illegible]|lines=5|style=decorated}fuerint ouo numeri ſoldi ſil es: neceſſe eſt eis ouos nu meros fm continuam proportionalitatem intereſle,. erit, Ozpoportio vnius ſolidi ad alterum ſibi fimilem. velut
+¶Sint duo numeri.a.⁊.b.ſolidi ſimiles:dico ꝙ inter ipſos cadent duo numeri in cõtinua ꝓportione.Sunt enī latera numeri.a.c.d.e.latera vero.b.ſint.f.g.h.erũtqʒ ex cõuerſione diffinitionis numeroꝝ ſimiliũ.c.ad.f.⁊.d.ad.g.ſicut.e.ad.h.Sit igitur ex.c.in.d.k.⁊ ex.f.in.g.l.eruntqʒ ex diffinitione.k.⁊.l.ſupficiales ⁊ ſimiles.
 
-[Diagram]
-
-cuinſlibet ſui lateris ad latus alterius reſpiciens ſe ppor tionaliter proportio triplicata.
-
-¶l Sint puo numeri. a..b. ſoudi ſimiles: oico ꝙ inter ipſos cadent ouo numeri in cõtinua pportione. Gunt eni latera numcri.a.c. d.c. latera vcro.b. ſint.f.g.h. erũt q ercouerſione oiffinitionis numcroy ſimiliũ.c.ad.f.z. d.ad.g.licut. c.ad.b. Sic giur er.cain. d.E.z cy.f.in.S l.eruntqy ey biffinitione. R.s l. ſupficiales c ſimiles.
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: h 4 -->

@@ -1,29 +1,25 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-[Diagram]
+[Handwritten]
+[unclear: Si dyameter cõmunicat coſte numerum diſparem eſſe parem]
+[/Handwritten]
 
-[Diagram]
+nõ ſit ſicut numeroꝝ q̃dratoꝝ:ſeq̃t̃ diametꝝ eẽ incõmenſurabilẽ coſte ĩ lõgitudine Alioquin cũ quaternarius ſit numerus quadratus eſſent oẽs pariter pares q̃drati ⁊ etiã alij infiniti qui nõ ſunt quadrati. Ducit aũt Aꝛ. ad iſtud inconueniens ſi diameter ponatur cõmenſurabilis coſte ꝙ impar numerus erit equalis pari:quod ſic patet. Sit enim diameter.a.b.commenſurabilis lateri.a.c.eritqʒ per.5.a.b.ad a.c.ſicut aliquis numerus ad aliuʒ. Sint ergo hij numeri.e.⁊.f.qui ſint minimi in ſua proportione:eritqʒ ob hoc alter eoꝝ impar. Si eni vterqʒ par:nõ erũt minimi: quadrati quoqʒ eoꝝ ſint.g.⁊.h.ſi ergo.e.ẽ ipar:erit quoqʒ ex.30.noni.g.ipar ſit itaqʒ.k.duplus ad.h.eritqʒ.k.ex diffinitione par.qꝛ igitur.a.b.ad.a.c.ut.e.ad f.erit per.8.ſexti ⁊.11.octaui quadratũ.a.b.ad quadratũ.a.c.ut.g.ad.h.ẽ itaqʒ.g. duplus ad.h.ſic enim eſt quadratũ.a.b.ad quadratũ.a.c.ꝑ penultimã pꝛimi:⁊ qꝛ etiam.k.eſt duplus ad.h.ſequitur per.9.quinti ut.g.numerus impar ſit eq̃lis.k. numero pari. Qd̃ ſi.e.ſit par ⁊.f.impar:erit ꝓportio.f.ad dimidiũ.e.qd̃ ſit.l.ſicut.a.c.ad dimidiũ.a.b.qd̃ ſit.a.d.⁊ ideo erit proportio quadrati.a.c.ad quadratum.a.d.ſicut proportio numeri.h.qui eſt impar per.30.noni ad quadratum numeri.l.qui ſit.m.cui.k.ponatur eẽ duplus:eritqʒ.k.per diffinitionem par. At qꝛ quadratũ.a.c.ẽ duplũ ad quadratũ.a.d.per penultimã pꝛimi erit.h.duplꝰ ad m.cũqʒ.k.ſit etiã duplus ad.m.erit per.9.quinti numerus impar.h.equalis.k. numero pari qd̃ ẽ propoſitũ.
 
-nxſit ſicut numeroy q̃dratoy: ſeqt biamety cẽ incõmenſurabilẽ coſte i lõgitudine¬
+[Diagram: square labelled b, c and d with diagonals, and horizontal segments labelled a, e, f, g, h, k and m]
 
-[Diagram]
+## Pꝛopoſitio .8.
 
-Flioouin cũ quaternarius ſit numerus quadratus eſſent oẽs pariter pares qdrati z etiã alij infiniti qui nõ ſunt quadrati. Ducit aũt A. ad iſtud inconueniens ſi piameter ponatur cõmenſurabilis coſte ꝙ impar numerus erit equalis pari: quod ſic patet. Oit enim oiameter. a.b. commenſurabilis lateri. a. c. eritoz per, e. a h ad a cſicut aliquis numerus ad aliuz. Sint ergo bij numeri.c. 2. f. qui ſint minini in ſna proportione: critz ob boc alter eoy impar. Si eni vteraz par : nõ erũt mini, mi: quadrati quoqz eoy ſint. g. .b. ſi ergo. e. ẽ ipar: erit quoy ey. 3o.noni.g. ipar fit iracz. l. ouplus ad.h, crity. R. ey biffinitione par. qr igitur. a.b. ad.a. c.ut,e ad Lerit per. s.ferti c.1I.octaui quadratũ.a. b.ad quadratũ.a. c.ut.g. ad.b.ẽ itaos. ⁊. puplns ad.b. ſic enim eſt quadratũ. a. b.ad quadratũ. a.c.ꝑ penultimã primi: z or etiami.l. eſt ouplns ad.b. ſcquitur per.q. quinti ut.g.numerus impar ſit eq̃lis.l. numero pari. Do ſi.c. ſit par z.f.impar: erit pportio. f.ad bimiduũ.c. qo ſit. l.ſi cut. a.c.a d oimidiũ. a.b. qo ſit. a. d.z ideo erit proportio quadrati.a.c. ad quadra tum. a. d.ſicut proportio numeri.b. qui eſt impar per-ꝓo. noni ad quadratum nuneri.l. qui ſit.m.cui.R. ponatur ee ouplus: eritoz. R. per oiffinitionem par. It qu quadratũ.a.c.ẽ ouplĩ ad quadratũ.a. d.per penultimã primi erit. b. ouplꝰ ad m.cũz.l.ſit ctiã ouplus ad.m.crit per. 9. quinti numcrus impar. b. equalis. R. ropoſitio.6. numero pari qo ẽ propolitũ
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint due quantitates vni quantitati cõicantes:ipſas quoqʒ inuicem cõmenſurabiles eſſe neceſſe eſt.
 
-## [illegible]
+¶Sit vtraqʒ duaꝝ quantitatũ.a.⁊.b.cõicans quantitati.c.dico.a.⁊ b.eſſe cõmenſurabiles:eſt enim per.5.a.ad.c.ſicut numerus ad numeꝝ:ſimiliter quoqʒ per eandẽ.c.ad.b.ſicut numerus ad numerum Sit itaqʒ numerus.d.ad numerũ.e.ſicut.a.ad.c.numeruſqʒ.f.ad numerum.g.ſicut.c.ad.b. At proportiones que ſunt.d.ad.e.⁊.f.ad.g.continentur in tribus terminis qui ſunt.h.k.l.ut docet.4.octaui:eritqʒ per equã proportionalitatẽ.a.ad.b ſicut.h.numerus ad.l.numeꝝ:per.6.igitur ſunt.a.⁊.b.cõicantes qd̃ eſt ꝓpoſitũ.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint oue quantitates vni quantitati cõicantes:ipſas quoqz inuicem cõmenlurabiles eſle neceſle eſt.
+¶Ex hac quoqʒ ſequitur ꝙ ſi fuerint due quãtitates ſibi inuicẽ cõicantes:cuicũqʒ vna earum communicat ⁊ reliqua:⁊ cuicunqʒ vna nõ cõmunicat nec reliqua. Sint enim due quantitates.a.⁊.b.cõmunicantes:ponaturqʒ quelibet quantitas que ſit c.cum qua cõmunicet.a.dico ꝙ.b.cõmunicabit cum eadẽ:qd̃ ex hac octaua patet cum vtraqʒ earum cõmunicet cum.a.ex ypotheſi. Qd̃ ſi iteꝝ.a.⁊.b.ſint cõmunicãtes ut pꝛius:ponatur.c.quelibet quãtitas cum qua non cõmunicet.a.dico ꝙ.b.nõ communicabit cum eadem.ſi enim.c.cõmunicaret cum.b.cum.a.quoqʒ ꝑ ypoth. communicet cum eodem.b.eſſent per hanc octauam.a.⁊.c.communicantes.ſed poſitum erant ꝙ non eſſent:quare conſtat quod diximus.
 
-¶ Sit vrragz ouay quantitatũ. a.2. b. coicans quantitati.c. oico.a.2
+[Diagram: horizontal segments labelled a, b, c, d, e, f, g, h, k and l]
 
-[Diagram]
+## Pꝛopoſitio .9.
 
-b. eſſe cõmenſurabiles: eſt enim per.5. a.ad.c. ſicut numerus ad nu¬ lney: ſimpiliter quooz per candẽ, c.ad. b. ſicut numerus ad numerum Sir itaqz numens. d. ad numerũ. c. ſicut. a.ad.c. numeruſqy.f. ad numerum. g. ſi cut.c.ad.b. At proportiones que ſunt. d.ad.c.2. f.ad.g-contincntur in tribus ier? minis qui ſunt -b. l.l.ut oocet. a octaui:eritoz per equã proportionalitarẽ. a. ad.b ficut. b.numerus ad.l.numcy: pcr.6.igitur ſunt. a.2. b. cõicantes qo eſt ppoſitũ.
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint due quantitates cõicantes:totum quoqʒ ex eis confectum vtriqʒ eaꝝ:erit cõmunicans. Si vero fuerit totum vtriqʒ cõmenſurabile erũt ambe cõmenſurabiles.
 
-¶Ex bacquocz ſcquitur ꝙ ſi fuerint ouc quãtirates ſibi inuicé cõicantes : cuicũqy vvna carum communicat e reliqua:z cuicunaz vna nõ cõmunicat nec reliqua. Oint enim ouc quantitates. a. 1.b. cõmunicantes: ponaturaz quelibet quantitas aue ſit c.cum qua cõmunicet. a. oico ꝙ. b. cõnumcabit cum eadcy: qo ex bac octaua patct cum vtraz carum cõmunicet cum. a. cx ypotbeſi. Do ſi itez. a. 2.b. ſint cõmunicã? tes ut prius: ponatur. c. quelibet quãtitas cum qua non cõmunicet. a.oico ꝙ. b. nõ communicabit cum cadem. ſi enim. c.cõmunicaret cum. b. cum. a. quoqz pyporb. communicet cum eodem.b. eſſent per banc octauam. a.2.c. communicantes. ſed poſituin erant ꝙ non eſſent: quare conſtat quod oirinins.
-
-## Propoſitio :.
-
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint oue quantitates cõicantes: totum quoqz ey eis confectum vtriqz eax:erit cõmunicans. Si vero fuerit to tum vtriqz cõmenſurabile erũt ambe cõmenſurabiles.
-
-¶Oint oue quãtitates. a. 2.b. cõmenſurabiles: oico totum ey cis cõ? lpoſitum quod ſit.c. vtriqz carum eſſe commenſurabile z cconucrfo. Adhuc quoz ſi totum ex cis compoſitum vni carum com municet. oico ꝙ com municabit alteri: z iple ſiiliter inter ſe. Jden quon in contraro li cnim.a.?
+¶Sint due quãtitates.a.⁊.b.cõmenſurabiles:dico totum ex eis cõpoſitum quod ſit.c.vtriqʒ earum eſſe commenſurabile ⁊ econuerſo. Adhuc quoqʒ ſi totum ex eis compoſitum vni earum communicet.dico ꝙ communicabit alteri:⁊ ipſe ſimiliter inter ſe. Idem quoqʒ in contrario.ſi enim.a.⁊

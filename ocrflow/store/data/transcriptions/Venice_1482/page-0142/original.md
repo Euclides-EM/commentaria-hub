@@ -1,47 +1,55 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-{dropcap:[illegible]|lines=5|style=decorated}* be numero pari imparẽ tollas qui relinquit impar eſt¬
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I de numero pari imparẽ tollas qui relinquit̃ impar eſt:
 
-[Diagram]
+¶Sit.a.b.par a quo tollat̃.a.c.qui ſit impar:dico.c.b.reſiduuʒ eſſe imparẽ:ſubtrahatur enim ab.a.c.vnitas que ſit.c.d.eritqʒ.a.d.par itaqʒ per.25.d.b.quoqʒ erit par.qꝛ igit̃.d.c.eſt vnitas ſequit̃.c.b.eſſe imparẽ:qd̃ ẽ ꝓpoſitũ.
 
-¶Sit. a. b. par a quo tollar. a.c, qui ſit impar: dico.c.b. reſiduuz eſſe imparẽ: ſubtrabatur enim ab. a.c. vnitas que ſit.c.d. eritqs.a. d par lira per.25 d.b, quoaz crit par. q igir.d.c.eſt vnitas ſequit.c.b.eſle imparẽ: qo ẽ ppolitũ. Propoſitio.29. {dropcap:[illegible]|lines=3|style=decorated}* numerus impar in numcru parem oucatur qui inde produ. cetur erit par.
+## Pꝛopoſitio .29.
 
-¶Ex2y mantfeſtum eſt quod oicitur.
+{dropcap:S|lines=3|style=decorated|decoration="foliate woodcut initial"}I numerus impar in numerũ parem ducatur qui inde producetur erit par.
 
-[Diagram]
+¶Ex.23.manifeſtum eſt quod dicitur.
 
-Propolitio 3o¬ {dropcap:[illegible]|lines=8|style=decorated}J in imparem oncatur impar qui producetur erit impar.
+## Pꝛopoſitio .30.
 
-¶ bec quooy ey.2a mamfeſta eſt. {dropcap:[illegible]|lines=5|style=decorated}{dropcap:[illegible]|lines=5|style=decorated}PPropoſitio.31. J numcrꝰ impar numerum parem numeret: numero pari eum numerabit.
+{dropcap:S|lines=2|style=decorated|decoration="foliate woodcut initial"}I in imparem ducatur impar qui producetur erit impar.
 
-¶ Si eni numero ipari eũ numerarct ex iparii imparé fieret par: do ẽ incõuenies p pmiſſã. Propolitio.32.
+¶hec quoqʒ ex.24.manifeſta eſt.
 
-[Diagram]
+## Pꝛopoſitio .31.
 
-{dropcap:[illegible]|lines=8|style=decorated}{dropcap:[illegible]|lines=3|style=decorated}S impar imparẽ numerct impariter enm numerat.
+{dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I numerꝰ impar numerum parem numeret:numero pari eum numerabit.
 
-¶ Si cni pariter eũ numcraret ex numero impari i numey parẽ fieret im par qo ẽ incõueniẽs p.a29. PPropoſitio .33. {dropcap:[illegible]|lines=5|style=decorated}J numerus impar numerum parem metiatur eiuſdẽ quo qz oimidium iplum metiri necelle eſt.
+¶Si eni numero ipari eũ numeraret ex ipari ĩ imparẽ fieret par:qd̃ ẽ incõueniẽs ꝑ p̃miſſã.
 
-¶ Git. a. numer? par cuius oimidiũ. b. ſitqy. c.numer impar qui nui
+## Pꝛopoſitio .32.
 
-[Diagram]
+{dropcap:S|lines=3|style=decorated|decoration="foliate woodcut initial"}I impar imparẽ numeret impariter eum numerat.
 
-meret.a.oico ꝙ.c. numcrabit. b. numeret eni.a.fm. d.erit p.3i.d. numerus par. Eſto igit eius oimidiũ.e. oucaturoz.c.in. c.2 pueniat L erit p.is ſep.a.ad.f.ficut.d.ad.e.⁊ qr erã eſt a.ad. b. ficut. d.ad.e. ſequir.b.? f.eſſe equales. cũ itay.c. numeret. f. ide numerabit. b. quod eſt propoſitum.
+¶Si eni pariter eũ numeraret ex numero impari ĩ numeꝝ parẽ fieret impar qd̃ ẽ incõueniẽs ꝑ.29.
 
-## Propoiitio .34.
+## Pꝛopoſitio .33.
 
-{dropcap:[illegible]|lines=5|style=decorated}J numerus impar ad aliquẽ lucrit primus idem ad einſdẽ uplum erit primus.
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I numerus impar numerum parem metiatur eiuſdẽ quoqʒ dimidium ipſum metiri neceſſe eſt.
 
-[Diagram]
+¶Sit.a.numerꝰ par cuius dimidiũ.b.ſitqʒ.c.numerꝰ impar qui numeret.a.dico ꝙ.c.numerabit.b.numeret eni.a.ſm̃.d.eritqʒ ꝑ.31.d.numerus par.Eſto igit̃ eius dimidiũ.e.ducaturqʒ.c.in.e.⁊ ꝓueniat f.eritqʒ ꝑ.18.ſep.a.ad.f.ſicut.d.ad.e.⁊ qꝛ etiã eſt.a.ad.b.ſicut.d.ad.e.ſequit̃.b.⁊ f.eſſe equales.cũ itaqʒ.c.numeret.f.idẽ numerabit.b.quod eſt propoſitum.
 
-¶ Sit. a. numerus impar primus ad.b. cuius ouplũ ſit.c. bico ꝙ.a: ẽ primus ad.c.fin autem numeret eos.d. cũ.a. ſit impar ſequir.d. I elle imparc: quicũ eni ipare numcrat impar eſt p premiſſam iraoy d.numerabit. b. non ſunt igitur. a.2.b. contra ſe primi:qo eſt contra yporbeſi.
+## Pꝛopoſitio .34.
 
-## PPropoſitio .35.
+{dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I numerus impar ad aliquẽ fuerit primus:idem ad eiuſdẽ duplum erit primus.
 
-{dropcap:[illegible]|lines=5|style=decorated}mert a duobus oupli ſunt pariter pares tantum
+¶Sit.a.numerus impar primus ad.b.cuius duplũ ſit.c.dico ꝙ.a. ẽ primus ad.c.ſin autem numeret eos.d.cũqʒ.a.ſit impar ſequit̃.d. eſſe imparẽ:quicũqʒ eni iparẽ numerat impar eſt ꝑ premiſſam itaqʒ d.numerabit.b.non ſunt igitur.a.⁊.b.contra ſe primi:qd̃ eſt contra ypotheſi.
 
-¶ Gint vnitas. a.b.c. d. cõtinue ꝓportiõales. ſitz. a. binarius: oico
+## Pꝛopoſitio .35.
 
-[Diagram]
+{dropcap:N|lines=5|style=decorated|decoration="foliate woodcut initial"}Vmeri a duobus dupli ſunt pariter pares tantum:
 
-loes eos ce pariter parcs ciſ bm banc pportionẽ in infinitũ aucris nullũ aliũ ce parit parẽ: oe bis quidẽ conſtat p oiffinitionẽ cũ p.i2. lquilibet p̃cedens numerct quelibet ſequẽte paiquẽ coy, quos omnes oportet eſſe pares:z nullus alius numcret aliquẽ eoy per.i3.eo ꝙ.a. qui ẽ binari? vnitatẽ ſequẽs ẽ primꝰ. Do aũt nullꝰ aliꝰ ab bis ſit pariter par oſtat: ſic poſito eni aliquo oiuidai i ouas medictates ciuſqz medictas i ouas: ⁊ boc totiẽs fiar quonf  numer aut vnitas oiuilione ipcdiat qo neceſſe c eucnire ꝑ vltimã peritionẽ.ſi vvero numerꝰ bãc phibeat iple erit ipar q̃ cũ numeret piter pare poſitũ nõ crat pii par q poſit? ẽ piter par. ſi aũt vniras nõ crit.i5. ali? a cõrinne vuplis ab vnitare.
+¶Sint vnitas.a.b.c.d.cõtinue ꝓportiõales.ſitqʒ.a.binarius:dico oẽs eos eẽ pariter pares eiſqʒ ſm̃ hanc ꝓportionẽ in infinitũ auctis nullũ aliũ eẽ parit̃ parẽ: de his quidẽ conſtat ꝑ diffinitionẽ cũ ꝑ.12. quilibet p̃cedens numeret quẽlibet ſequẽtẽ ꝑ aliquẽ eoꝝ.quos omnes oportet eſſe pares:⁊ nullus alius numeret aliquẽ eoꝝ per.13.eo ꝙ.a.qui ẽ binariꝰ vnitatẽ ſequẽs ẽ primꝰ.Qd̃ aũt nullꝰ aliꝰ ab his ſit pariter par ꝯſtat:ſic poſito eni aliquo diuidat̃ ĩ duas medietates eiuſqʒ medietas ĩ duas: ⁊ hoc totiẽs fiat quouſqʒ numerꝰ aut vnitas diuiſionẽ ipediat qd̃ neceſſe ẽ euenire ꝑ vltimã petitionẽ.ſi vero numerꝰ hãc ꝓhibeat ipſe erit ipar q̃ cũ numeret pit̃ parẽ poſitũ nõ erat pit̃ par q̃ poſitꝰ ẽ pit̃ par.ſi aũt vnitas nõ erit.15.aliꝰ a cõtinue duplis ab vnitate.
+
+[Diagram: a horizontal line with points labelled a, d, c and b, with a short segment below]
+
+[Diagram: a horizontal segment labelled a, with segments labelled f, b, c and d below, and a segment labelled e below]
+
+[Diagram: horizontal segments labelled c and a, with segments labelled b and d below]
+
+[Diagram: horizontal segments labelled d 16, c 8, b 4 and a 2, with a short segment below]

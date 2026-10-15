@@ -1,49 +1,47 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: V -->
 
-ecouerſo.a. ad.b. vt. c.ad.d.ſ nõ e imo maior: At vero ſiẽ. b.ad.a maior q̃z d.ad .ſit. e.ad.a.vt. d.ad.c eritqy er.12, e. ad.a.mior q̃z.b.ad.a.q̃re er p̂ma parie. 1o c
+ecõuerſo.a.ad.b.vt.c.ad.d.ſʒ nõ ẽ imo maior:At vero ſi ẽ.b.ad.a.maior q̃ʒ d.ad c.ſit.e.ad.a.vt.d.ad.c.eritqʒ ex.12.e.ad.a.mĩor q̃ʒ.b.ad.a.q̃re ex p̃ma parte.10.e ẽ mĩor.b.Jdeoqʒ ex ſcd̃a parte.8.maior erit ꝓportio.a.ad.e.q̃ʒ.a.ad.b.⁊ qꝛ ꝑ conuerſam proportionalitatem.a.ad.e.ſicut.c.ad.d.erit ex.12.proportio.c.ad.d.maior q̃ʒ.a.ad.b.ſed erit minor:relinquitur ergo propoſitũ.¶Poſſumus quoqʒ ſi libet aſtruere propoſitum oſtenſiue:manifeſtum enim eſt ex prima parte.10.ꝙ illa quantitas cuius ad.b.eſt.eadem proportio que eſt.c.ad.d.eſt minor.a.eo ꝙ ponitur maior proportio.a.ad.b.q̃ʒ.c.ad.d.illa ergo quantitas ſit.e.cum ſit igitur proportio.e.ad.b.vt.c.ad.d.erit econuerſo.b.ad.e.vt.d.ad.c.Conſtat autem ex ſecunda parte.8.ꝙ proportio.b.ad.a.minor eſt q̃ʒ proportio.b.ad.e.itaqʒ per 12.proportio.b.ad.a.eſt minor q̃ʒ.d.ad.c.qd̃ voluimus.
 
-[Diagram]
+[Handwritten]
+[unclear: ex campano]
+[unclear: exm̃a: e.a.d.e.b.a.]
+[/Handwritten]
 
-ẽmior.b. Jdcoaz ex ſcoa parte.s. maior erit ꝓportio. a.ad.e. q̃z.c.ad. b.t oup con nerſam proportionalitatem. a. ad.e.ſicut. c.ad. d.erit cy.iz. proportio. c.ad d ma iorq̃s. a.ad.b. ſed erit minor:relinquitur ergo propoſitũ.
+[Diagram: horizontal lines labelled a 8 and c 4, b and d 2, and e, with handwritten numerals added]
 
-¶ Poſſumns quooz ſi li bet aſtruere propoſitum oſtenſine: manifeſtum enim eſt ex prima parte.1o. o illa quantitas cuins ad.b.eſt. cadem proportio que eſt.c.ad.d.eſt minor, a, eo qu pol nitur maior proportio. a. ad.b. q̃5. c.ad. d.illa crgo quantitas ſit.e. cum ſit igitur pproportio. e. ad.b.vt.c.ad.d. crit econucrſo. b.ad.e. vt. d.ad.c. Lonſtat autem cr ſecunda parte.s. ꝙ proportio.b. ad. a minor eſt qz proportio. b. ad.e. itaz per proportio.b. ad. a.eſt minor dy.d. ad.c. qo voluimus.
+[Handwritten]
+[unclear: e.d.a.e a.b.]
+[/Handwritten]
 
-## PPropoſitio a2.
+## Propoſitio .27.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerit quatuoz quantitatum maioz proportio prime ad ſecundam. q̃z tertie ad ouartam. erit permutatim maioz
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerit quatuor quantitatum maior proportio prime ad ſecundam.q̃ʒ tertie ad quartam.erit permutatim maior proportio prime ad tertiam.quam ſecunde ad quartam.
 
-[Diagram]
+[Handwritten]
+[unclear: eem̃.ee.bd ae]
+[/Handwritten]
 
-[Diagram]
+[Diagram: horizontal lines labelled a 12 and c 4, b and d 2, and e, with handwritten numerals added]
 
-[Diagram]
+[Handwritten]
+[unclear: e.b ea d]
+[unclear: ed.e b. a.b.]
+[/Handwritten]
 
-proportio prime ad tertiam. quam ſecunde ad quartam.
+¶Sit hic quoqʒ proportio.a.ad.b.maior q̃ʒ.c.ad.d.dico ꝙ erit permutatim maior proportio.a.ad.c.q̃ʒ.b.ad.d.eadem enim non erit quia tunc quoqʒ eſſet permutatim.a.ad.b.ſicut.c.ad.d.neqʒ minor. Nam ſi hoc ponatur:ſit itaqʒ.e.ad.c.vt.b.ad.d.eritqʒ ex.12.maior ꝓportio.e.ad.c.q̃ʒ.a.ad c.quare ex prima parte.10.e.eſt maior.a.Jtaqʒ per primam partem.8.proportio e.ad.b.eſt maior q̃ʒ.a.ad.b.⁊ quia poſitum eſt vt ſit.e.ad.c.ſicut.b.ad.d.erit ꝑmutatim.e.ad.b.ſicut.c.ad.d.ex.12.igitur maior erit proportio.c.ad.d.q̃ʒ.a.ad b.ſed poſitum erat oppoſitum:verum eſt ergo propoſitũ:¶Oſtẽſiue quoqʒ idem quẽadmodum in premiſſa:ſumpta enim eſt.e.ad.b.vt.c.ad.d.erit ex prima parte 10.e.minor.a.quare ex prima parte.8.maior erit.a.ad.c.q̃ʒ.e.ad.c.ſed ex permutata proportionalitate eſt.e.ad.c.vt.b.ad.d.igitur ex.12.a.ad.c.eſt maior q̃ʒ.b. ad.d.quod eſt propoſitum.
 
-¶Sit bic quoproportio. a.ad.b.maior qz.c.ad. d. oico ꝙ erit per
+## Propoſitio .28.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerint quatuor quantitates quarum prime ad ſecundã ſit maior proportio q̃ʒ tertie ad quartam.erit quoqʒ coniunctim maior proportio prime ⁊ ſecunde ad ſecũdam q̃ʒ tertie ⁊ quarte ad quartam.
 
-[Diagram]
+[Handwritten]
+[unclear: .eb.b. ed.d. ab.b.]
+[/Handwritten]
 
-[Diagram]
+[Diagram: a horizontal line labelled a 12 b 4 with a handwritten diagonal line labelled e, and below a line labelled c 6 d 3]
 
-mutatim maion proportio. a.ad.c.q̃.b.ad. dcaden enim non erit
+[Handwritten]
+[unclear: e.d.e.b. a.b.]
+[/Handwritten]
 
-[Diagram]
-
-quia tunc quoz ellet permutatim. a.ad. b. ſicut.c. ad. d. neoz minor. Ilam ſi boc ponatur: lit itay.e.ad.c.Vt.b.ad.d.eritqs ex. 12.maior pportio.e. ad. c.õ5.a. ad c.quarc cx prima parte. 1o.e. eſt maior. a. Jtaqz per primam partem. S. proportio c.ad.b. eſt maior q3.-a. ad.b.z quia poſitum eſt vt ſit.e. ad.c. ſicur.b. ad. d. crit pl mutatim. e.ad.b. ſicut. c.ad. d.cr.12. igitur maior crit proportio.c. ad. d.q5.a.ad b. ſed poſitum erat oppoſitum: verum eſt ergo propoſitũ:
-
-¶ Oſtẽliue quooz idem quẽadmodum in premiſſa: ſumpta enim eſt.e. ad.b.vt.c.ad. d.crit ex prima parte ioe.minot.a. quare cy prima parte.s. maior erit. a.ad.c.q̃y.e.ad.c. ſed ex permu tata proportionalitate eſt.c.ad.c.vt. b.ad. d.igitur ey.12.a. ad.c eſt maior q̃3 b. ad. d. quod eſt propoſitum.
-
-## Propoſitio .2s.
-
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint quatuor quantitates quarum prime ad ſecundã ſit maior proportio q̃z tertie ad quartam. erit quoqz con,
-
-[Diagram]
-
-iunctim maioz proportio prime ⁊ ſecunde ad lecũdam q̃y tertie z quarte ad quartam.
-
-¶ Sit maior proportio.a.ad.b.q̃z.c.ad.d. oico ꝙ maior erit totins a.b.ad.b. qz totius. c. d.ad. d. quia ipſa neqz crit cqualis ne minor. Si eni equa lis:tunc erit oiſiunctim. a.ad.b.vt.c.ad. d.Si autem eſt minor:ſit. c.b.ad.b. vt.c d.ad. d eritoy ey. 12 maior proportio. e. b.ad.b. q̃5. a.b. ad. b. iraz er prima par? te.1o.e.b.eſt maior q̃z. a. b.z pcr cõceptionem.e. maior q̃z. a, quare cy prima par te.s. maior eſt propontio. c. ad.b. q̃5 a.ad. b.ſ ed.c.ad.b. eſt vt.c.ad.d. per oiſiunctam proportionalitatem: eo ꝙ erat. e.b.ad.b.vt. c. d. ad.d. crgo per.i2.c. ad. d.eſt maior qz.a.ad.b. boc autem eſt contra ppoibe.
-
-¶ Jdem etiam oſtenſi? ue: cum enim propoſitum ſit ꝙ maior ſit proportio. a. ad. b. q̃3. c. ad. d: iit propontio e. ad. b.vt. c. ad. d. eritas er prima parte vecime. e. minor. a.
+¶Sit maior proportio.a.ad.b.q̃ʒ.c.ad.d.dico ꝙ maior erit totius a.b.ad.b.q̃ʒ totius.c.d.ad.d.quia ipſa neqʒ erit equalis neqʒ minor.Si enĩ equalis:tunc erit diſiunctim.a.ad.b.vt.c.ad.d.Si autem eſt minor:ſit.e.b.ad.b.vt.c d.ad.d.eritqʒ ex.12.maior proportio.e.b.ad.b.q̃ʒ.a.b.ad.b.itaqʒ ex prima parte.10.e.b.eſt maior q̃ʒ.a.b.⁊ per cõceptionem.e.maior q̃ʒ.a.quare ex prima parte.8.maior eſt proportio.e.ad.b.q̃ʒ.a.ad.b.ſed.e.ad.b.eſt vt.c.ad.d.per diſiunctam proportionalitatem:eo ꝙ erat.e.b.ad.b.vt.c.d.ad.d.ergo per.12.c. ad.d.eſt maior q̃ʒ.a.ad.b.hoc autem eſt contra ypothe.¶Jdem etiam oſtenſiue:cum enim propoſitum ſit ꝙ maior ſit proportio.a.ad.b.q̃ʒ.c.ad.d: ſit proportio.e.ad.b.vt.c.ad.d.eritqʒ ex prima parte decime.e.minor.a.

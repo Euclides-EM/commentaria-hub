@@ -1,61 +1,33 @@
-<!-- Running title: [illegible] -->
+<!-- Page number: II -->
 
-a.hf.c. d.e. 2.c.f.e. Juuenio quoz bm ooctrinam iſtius tria latera tctragonica
+a.b.f.c.d.e.⁊.c.f.e. Inuenio quoqʒ ſm̃ doctrinam iſtius tria latera tetragonica iſtoꝝ trium triangulorum.qui ſunt.g.h.h.k.⁊.k.l.⁊ erigo.h.k.perpendiculariter ſuper.g.h.⁊ produco.g.k.eritqʒ per penultimã quadratum primi.g.k.equale quadratis duarum linearum.g.h.⁊.h.k.⁊ tertium latus.k.l.erigo perpendiculariter ſuper lineam.g.k.⁊ produco lineam.g.l.eritqʒ per penultimam primi.g.l.latus tetragonicum totius figure rectilinee propoſite. Explicit liber ſecundus. Incipit liber tertius.
 
-[Diagram]
+{dropcap:Q|lines=11|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Uoꝝ diametri ſunt eq̃les.ipſos circulos eq̃les eſſe. Maiores aũt quoꝝ maiores ⁊ minores quoꝝ minores. ¶Circulũ linea ꝯtingere dicitur:que cũ circulũ tangat in vtrãqʒ partẽ eiecta.circulũ non ſecat. ¶Circuli ſeſe contingere dicunt̃ qui tangentes ſeinuicem non ſecant. ¶Recte linee in circulo equaliter diſtare dicũt̃ a centro.cũ a centro ad ipſas ducte perpendiculares fuerint equales. ¶Plus vero diſtare a centro dicit̃.in quã ꝑpendicularis longior cadit. ¶Recta linea portionũ circuli cõtinẽs corda noiat̃. ¶Portio vero circũferentie arcꝰ nũcupat̃. ¶Angulus aũt portionis dicit̃ qͥ a corda ⁊ arcu continet̃. ¶Supra arcũ angulus conſiſtere dicit̃.qui a quolibet pũcto arcus ad corde terminos duabus rectis lineis exeuntibꝰ cõtinet̃. ¶Sector circuli eſt figura q̃ ſub duabꝰ a cẽtro ductis lineis ⁊ ſub arcu qui ab eis cõprehendit̃ cõtinet̃. ¶Angulus aũt qui ab eis lineis ambitur ſupra centrũ cõſiſtere dicit̃. ¶Sil'es circuloꝝ portiões dicũt̃ i quibꝰ qui ſupra arcum conſiſtunt anguli ſibi inuicẽ ſũt eq̃les. ¶Arcꝰ quoqʒ ſimiles ſunt qui equos angulos predicto modo ſuſcipiunt.
 
-[Diagram]
+## Propoſitio .1.
 
-ſtoy trium triangulorum, qui ſunt.g.h.b. R.2.l. l.z crigo.b.E. pcrpendiculariter ſuper.g.h. z produco. g.l.eritoz per penultimã quadratum primi. g. R. cquale qua dratis ouarui lincarum. g.h. 2.b. lt. Z tcrtium latus. l. l. crigo perpendiculariter ſupcr lincam.g.k. z produco lincam. g.l. critz per penultimam primi.g.l. latus te tragonicum totins figure rectilincc propoſite. Explicit liber ſecundus. Jucipit liber tertius.
+{dropcap:C|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Irculi ꝓpoſiti cẽtrũ inuenire.vñ manifeſtũ ẽ ꝙ duabꝰ rectis lineis in eodẽ circulo apud circũferẽtiã termiatis neutra illaꝝ alterã per eq̃lia orthogonal'r ſecat niſi ipſa ſuper centrum tranſierit.
 
-[Diagram]
+¶Sit circulus propoſitus.a.b.c.cuius volumus centrũ inuenire. duco in ipſo circulo lineã.a.c.qualitercũqʒ contingat quã diuido per equalia i pũcto d.a quo duco perpendicularem ad lineã.a.c.quã applico circũferentie ex vtraqʒ ꝑte.ſitqʒ.e.d.b.quã rurſus diuido ꝑ eq̃lia in pũcto.f.quẽ dico eſſe centrũ circuli. Si eni nõ ẽ:erit aũt alibi aut i linea.e.b.aut extra. In linea.e.b.nõ: ſi eni fuerit i ea vt i puncto.g.erit linea.e.f.maior linea.e.g.ps videlʒ toto qꝙ eſt ipoſſibile. Qꝙ ſi fuerit extra lineã.e.b.ut in pũcto.h.ducant̃ linee.h.a.h.d.h.c.⁊ qꝛ latera.h.d.⁊ d.a.trianguli.h.d.a.ſũt eq̃lia lateribꝰ.h.d.⁊.d.c.trianguli.h.d.c.⁊ baſis.h.a. baſi.h.c.erit ꝑ.8.primi angulꝰ.a.d.h.eq̃lis angulo.c.d.h.q̃re vterqʒ rectꝰ ⁊ qꝛ angulus.a.d.b.fuit etiã rectꝰ erit.a.d.h.eq̃lis.a.d.b.ꝑ.3.petitione p̃mi ps videlicet toti qꝙ ẽ ipoſſibile.nõ ẽ ergo cẽtrũ dati circuli alicubi quã i pũcto.f.qꝙ ẽ propoſitũ.
 
-{dropcap:[illegible]|lines=10|style=decorated}Mox oiametri ſunt eq̃les. ipſos circulos eq̃ les eſſe. ODaiozes aüt quoy maiores ⁊ mi? noxes quoy minozes.
+[Margin]
+[Diagram: right triangle with vertices l at top, h at lower left and g at lower right, the point k on the side between l and h joined to g; beside it three horizontal line segments labelled g h, h k and k l]
 
-¶ Rirculũ linea otin? gere dicitur: que cũ circulũ tangat in vtrãqz partẽ eiccta. circulũ non ſecat
+[Diagram: two circles touching at a point, each with a horizontal diameter, marked 1, 3 and 2, resting on a horizontal tangent line]
 
-¶Virculi ſele
+[Diagram: circle with two chords marked 4 and 5; circle with chords marked 8, 7 and 6]
 
-[Diagram]
+[Diagram: circle with inscribed triangle marked 9; circle with an angle at the circumference marked 10 and 11]
 
-contingere oicunt qui tangentes ſeinuicem non ſecant.
+[Diagram: two semicircles each containing an inscribed triangle, marked 12 and 13]
 
-¶RRecte linee in circulo equali, ter oiſtare dicũt a centro. cũ a centro ad ip ſas oucte perpendiculares fucrint equalcs.
+[Diagram: circle with points a, b, c and e on the circumference, vertical diameter from b to e crossing the chord a.c at d, centre marked f, and lines joining the point h to a, d and c]
+[/Margin]
 
-¶ Plus vero oiſtare a centro oicit.in quã l ppendicularis longior cadit.
+[Handwritten]
+[unclear: equales]
+[/Handwritten]
 
-¶ RRecta linea
-
-[Diagram]
-
-poztionũ circuli corinẽs corda noiat.
-
-¶ Portio vero circuferentie arcꝰ nũcupar.
-
-¶ AAngulus aũt portionis dicit qͥ a corda ⁊z arcu contiꝰ net.
-
-¶ Oupra arcũ angulus conſiſtere oicit. qui a quolibet pũcto ar? cus ad corde terminos ouabus rectis lineis eyeuntibꝰ cõtinei.
-
-¶Se ctoz circuli eſt figura q̃ lub ouabꝰ a cẽtro ouctis lineis z ſub arcu qui ab eis cõprebendit cõtinei.
-
-¶ ngulus aũt qui ab eis lineis ambitur
-
-[Diagram]
-
-[Diagram]
-
-ſupra centrũ cõliſtere dicit.
-
-¶ Oil es circuloꝑ portiões dicũt i quibꝰ qui ſupra arcum conſiſtunt anguli ſibi inuicẽ ſut eqles.
-
-¶Arcꝰ quoqz timiles ſunt qui equos angulos predicto modo ſuſcipiunt.
-
-## Propoiitio .1.
-
-{dropcap:[illegible]|lines=5|style=decorated}Srculi ppoſiti cẽtru inuenire, vñ manifeſtũ ẽ ꝙ ouabꝰ re
-
-[Diagram]
-
-lctis lineis in eodẽ circulo apud circũferẽtiã termiatis neu tra illay alterã per cq̃lia ortbogonalr ſecat niſi ipſa luper centrum tranſierit.
-
-¶Sit circulus propoſitus. a. b.c. cuius volumus centrũ inuenire. ou co in ipſo circulo lineã. a.c. qualitercũdz contingat quã oiuido per cqualia i pũcto d.a quo ouco perpendicularcm ad lincã. a.c. quã applico circũferentie ey vtraqz p te. ſilqy.e.d.b. quã rurſus oinido p eq̃lia in pũcto.f. que oico cſſe centrũ circuli. Si eni nõ ẽ:erit aũt alibi aut i linea. e.b. ãut extra. Jn linea.e. b. nõ: ſi cni fucrit i ca vt i puncto. g-crit linca.c.f, maior linez.e. g. ps vidclz toto qo eſt ipoſſibile. Do ſi fucrit eytra lincã.c. b.ut in pũcto.h. oucant lince. b. a.b. d.b.c. z q latera. b. d.7 d.a. trianguli. b.d.a. ſũt cq̃lia latcribꝰ. b.d.t. d.c.trianguli.b. d.c. baſis. b.a. ba ſi.b.c.erit pes primi angulꝰ. a. d.h. cq̃lis angulo.c. d.b. q̃re vteraz rectꝰ z qrangu lus. a. d.b. fuit ctiã rect) erit.a. d.h. eq̃lis.a. d.b.p-3 pctitione pmi ps vidclicet to ti obe ipoſſibile. no e ergo ceti pati circuli alicubi quã i pũcto.f,ab ẽ propoliũ.
+[Handwritten]
+[illegible]
+[/Handwritten]

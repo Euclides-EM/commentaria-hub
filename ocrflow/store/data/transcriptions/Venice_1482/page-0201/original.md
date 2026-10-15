@@ -1,35 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: XI -->
 
-[Diagram]
+perficitur angulus in puncto.a.dico quoſlibet duos ex ipſis ſuperficialibꝰ angulis ſolidum angulum in puncto.a.conſtituentibus pariter acceptos tertio eẽ maiores. Si eni hi tres anguli ſuperficiales fuerint ſibi inuicem eq̃les:aut ſi duo tantuʒ equales tertio exñte minore vtrolibet duoꝝ equaliuʒ:ꝯſtat ꝑ cõem ſcientiã verum eſſe qd dicitur. Qd ſi eoꝝ vnus vtrolibet duoꝝ reliquoꝝ maior fuerit ſiue illi duo ponanť equales ſiue non equales:adhuc conſtat illum maiorem cum vtrolibet duorũ reliquoꝝ pariter acceptoꝝ tertio eſſe maiorẽ.Sed ⁊ illos duos minores pariter acceptos hoc tertio qui maior vtrolibet ponitur eſſe maiores:ſic collige. eſto enim trium propoſitorum angulorum ſuperficialium angulis.c.a.d. maior vtrolibet reliquorum duoꝝ.Ex ipſo ergo abſcindam angulum.c.a.d.equalem angulo.b.a.d. ꝓtracta linea.a.e.⁊ ſumã ex hac linea.a.e.lineã.a.g.⁊ ex linea.a.b.lineã.a.f.quas ponam eſſe equales ⁊ protraham lineam a puncto.g.qualitercũqʒ contingat in ſuperficie duaꝝ linearuʒ.a.c.⁊.a.d.quouſqʒ ſecet.a.c.in puncto.h.⁊.a.d. in puncto k.⁊ ipſa ſit.h.g.k.⁊ producã lineas.f.h.⁊.f.k.cum ſit igitur.a.f.equalis .a.g. poſita.a.k.cõmuni erit per quartaʒ primi.f.k.equalis.k.g.⁊ qꝛ ex.20.prime due linee b.f.⁊.f.k.ſunt maiores linea.b.k.erit per cõceptionẽ.b.f.maior.b.g. ideoqʒ per 25.primi cũ ſit linea.a.f.equalis linee.a.g.erit angulus.f.a.h.maior angulo.b.a.g.per cõceptionẽ igitur cõſtat duos angulos.h.a.f.⁊.f.a.k.pariter acceptos eẽ maiores angulo.h.a.k.qd erat demonſtrandũ.
 
-[Diagram]
+[Figure: pyramid with apex a, interior points g, k, h, f, b, and base points c, e, d]
 
-[Diagram]
+## Propoſitio .21.
 
-[Diagram]
+{dropcap:O|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Mnis angulus ſolidus quatuor rectis ãgulis minor eſſe probatur.
 
-[Diagram]
+¶Anguli ſolidi quantitas ex anguloꝝ ſuperficialiũ ipſũ ſolidũ continentium quantitate determinatur:hac ergo.21.proportiõaliter ꝓponit quoqʒ quoſlibet ſupficiales angulos ſolidũ quẽlibet cõtinẽtes pariter acceptos quatuor rectis angulis eſſe minores.Sit eni triangula piramis a.b.c.d.cuiꝰ ſupremus angulus cũ poſſit eſſe quilibet ſuoꝝ anguloꝝ hic tñ ſit.a.de quo dico ꝙ tres ſupficiales anguli ipſũ.a.ꝯtinentes ſint minores quatuor rectis. Conſtat eni ex.32.primi.ꝙ angulos triũ triãguloꝝ hanc piramidẽ circũſtantium ⁊ ipſi ſunt.a.b.c.a.c.d.a.d.b.eſſe equales ſex angulis rectis:de tribꝰ aũt angulis baſis eiꝰ que ẽ triãgulus.b.c.d.cõſtat quoqʒ ꝑ eandẽ ꝙ ipſi ſunt equales duobus rectis.cum igitur ſex anguli trium trianguloꝝ predictoꝝ hanc noſtram piramidẽ de cuius ſupremo angulo diſputamus circũdantiũ:qui inq̃ʒ ſex anguli cum tribus angulis baſis reliquos tres angulos ſolidos piramidis continent:ſint ex premiſſa ter aſſumpta maiores tribus angulis baſis:ſequiť ipſos ſex angulos eſſe maiores duobus rectis: ex nouẽ igiť angulis trium trianguloꝝ piramidẽ circũdantiũ his ſex angulis demptis erunt ex cõmuni ſcia reliqui tres ⁊ ipſi ſunt qui conſtituũt ſolidũ angulũ.a.minores.4.rectis. Si aũt angulꝰ.a.ſupmus ĩ aſſũpta piramide pluribꝰ angulis ſupficialibꝰ quã tribꝰ ꝯtineať qd erit ſm multitudinẽ angloꝝ ſue baſis: cũ igiť oẽs anguli oĩm trianguloꝝ ipſã piramidẽ circũdãtiũ ꝑiter accepti ſint ex.32 ꝑmi tot rectis angulis eq̃les quãtꝰ ẽ numerꝰ angloꝝ ſue baſis duplicatꝰ:eo ꝙ tot neceſſe ẽ ẽe triangulos piramidẽ circũdãtes quot fuerit anguli ſue baſis. Cũqʒ omnes anguli ſue baſis ſint tot rectis angulis eq̃les quantꝰ ẽ numerꝰ anguloꝝ ſuoꝝ duplicatus: demptis inde.4.ut in.32.ꝑmi demonſtratum eſt. Cũqʒ igitur omnes an
 
-berficitur angulus in puncto. a. bico quoſibet oucs cy ipſis ſuperficialibꝰ ancui ls ſolidum angulun in puncto. a.conſtituentibus pariter accepros tertio cẽ maio es. Si eni bi tres anguli ſuperficialcs fucrint ſibi inuicem cq̃ co:aur ſi ouo tantur cqualcs tertio criite minox vtrolubet ouoy equaliuy: oſtat p cõcm ſcicntã verm eſſe qo oicitur. Do ſi coy vnus vrroliber ouoy reliquoy maior fucrit fine illi puo ponaut cquales ſiue non cquales: adhuc conſtar illum maiorem cum vtroliber ouo rã rdliquoy pariter acccproy tertio eſſe maioré. Ged c illos ouos minorcs parter acccpros boc tertio qui maior vtrolibet ponitur eſle maiorco: ſic collige. eſto enim trium propolitorum angulorum ſupcriicialium angulis. c.a d. maior vtrclbet re) hiquorum ouoy. Ey iplo ergo abfcindam angulum. c.a. d. cqualein angulo. b.a.d. ptracta linea.a. e. t fumã cy baclinca.a.e.lmca.a.g.z cr linca.a.b. lincã. a.f. qual ponam eſſe cqualcs c protrabam lincam a puncto.g-qualitercuiqy contingat in ſu perficie ouay lincaruz a.c.t. a.d. quouſoy ſecet.a.c.in puncto.b.t. a. d. in puncto Ez ipſa ſit. b.s. E.z produca lineas. f.h. a. f.l-cumn ſit igirur, a.f.cqualis .a.g. poſi ta.a.E.comuni erit per quartaz primi.f.E. cqualis.l.6.⁊ qu cy.1o puime oue lince b.f.2.f.E. ſunt maiores linea. b. l. erit per cõceprione. b. f. maior. b. g. ideoy per as primi cũ ſit linea.a.f.equalis lince. a.s. crit angulns.f.a.b.maior angulo.b.a.
+[Figure: triangular pyramid with apex a, interior point b, and base points c, d]
 
-[Diagram]
+[Figure: triangular pyramid with apex c, interior point a, and base points b, d]
 
-[Diagram]
+[Figure: pyramid with apex a, interior point b, and base points c, d, e, f]
 
-S.per cõceptione igitur cõſtat ouos angulos.h. a.f.f.a. R. paritcr acceptos ce ma? iorcs angulo.b. a.l.qb erat bemonſtrandũ.
-
-## Ppropoſitio ai.
-
-{dropcap:[illegible]|lines=5|style=decorated}nis angulus lolidus quatuoz rectis ãgulis minor eſſe probatur.
-
-¶Anguli ſolidi quantitas cr angnloy ſuperficialiũ ipſu ſolidu con? nnentium quantirate vctcrminaur: bac crgo. 2 1. proportiõaliter p, ponit quoaz quoſubet ſupliciales angulos lolidu queuiber cõrincies pantcr accepros quatuor recns angulis eſſe minores Sit cni trangula piramis a.b.c. d. cul' ſupremus angnlus cu poſſit efſe quilibct ſuor anguloy bic tin ſit. a.de quo oico q tres ſupficiales anguli iplũ.a. ounentcs ſint minorcs quarnor rectio.
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-Lonſtat eni cr.3z primi.y angulos tru tanguloy banc piramidé circiſtantiumn zipſi ſunt. a.b.c.a.c. d.a.d.b. eſſc cqualcs ſer angulis rcctis: de trbꝰ aũt angulis baſis ciꝰ que ẽ triãgnlus. b.c. d.cõſtat quoq; peande ꝙ ipſi ſunt cqualcs ouobus rectis. cun igitur ſer anguli trium trianguloy predictoy banc noſtram piramidẽ e cuins ſupremo angulo oiſputamus circũdantiũ: qu inq̃s ſcr anguli cum tnbus angnlis baſis rcliquos tres angulos ſolidos piramidis continent: ſint cr premila ter aſſumpta maiores tribis angulis baſis: ſcquir iplos ſey angulos clle maioico ouobns rectis: cr nouë igit angulis trium fiangulor piramidẽ circũdantiu bis ſcy angulis bemptis crunt er cõmuni ſcia reliqui tres z ipli funt qui conſtituũt ſoꝰ udu angila, a miores ⁊ rectis. Si aut angul' a ſupmus i alſupra pirannde plu nb' angolis ſupficialib? quã trib'orincat do erit bmn multirdine angloy ſue baio: cu igi oés anguli oim trianguloy iplã piramide crcudãtiu piter acccpni ſut cr.ya pni tot rectis angulis eq̃les quãt 'e numer'angloy ſue baſis ouplicarꝰ: eo q tot ne ceſſe é ec triangulos piramide crcũdãtes quor fucrit anguli ſue baſis. Lucy omues anguli ſue baſis ſint rot rectis angulis cq̃les quant e numer angulon ſuor tuplu? cauuos conpris mnde aut in ya pini cononſtratom oſt. Cunq oitur omnnco an
+[Figure: pentagon with vertices b, f, c, e, d and lines drawn from each vertex to central point a]

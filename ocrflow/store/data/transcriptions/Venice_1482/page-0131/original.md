@@ -1,67 +1,35 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: IX -->
 
-{dropcap:[illegible]|lines=5|style=decorated}J ouox numeroy quoy proportio ad alterum ſit ſicut cu
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I duoꝝ numeroꝝ quoꝝ proportio ad alterum ſit ſicut cubi ad cubum alteruter fuerit cubus ad alteꝝ cubicum eſſe.
 
-[Diagram]
+¶Sint duo numeri.a.⁊.b.in ꝓportione duoꝝ cuboꝝ qui ſunt.c.⁊.d ſitqʒ.a.vel.b.cubus:dico reliquũ eſſe cubum.neceſſe eſt enim ꝙ.c.⁊ d.ſint ſolidi ſimiles:quippe omnes cubi ſunt ſimiles ⁊ ſolidi:itaqʒ ꝑ 18.inter ipſos cadent duo medij in continua proportione totidem igitur per.8.cadent inter.a.⁊.b.itaqʒ per.21.manifeſtum eſt quod dicitur.
 
-bi ad cubum alteruter fuerit cubus ad altey cubicum eſſe.
+[Diagram: segments labelled a and c above segments labelled b and d]
 
-¶Sint ouo numeri. a. 2.b. in pportione onoy cuboy qui ſunt.c.1. d litqs.a. vel.b.cubus: oico reliquũ eſſe cubum. neceſſe eſt enim ꝙ.c.z d.ſint ſolidi ſimiles: quippe omnes enbi ſunt ſimilcs z folidi :itaz P s.inter ipſos cadent ouo medij in continua proportione toridem igitur per. 8. ca dent inter. a.2. b. itaas per.21.manifeſtum eſt quod oicitur.
+## Propoſitio .24.
 
-## Propoſitio.a4
+{dropcap:N|lines=5|style=decorated|decoration="white foliate initial on black ground"}Umerorum ſuperficialium ſimilium eſt proportio vnius ad alterum ſicut proportio quadrati ad quadratum.
 
-{dropcap:[illegible]|lines=5|style=decorated}Amerorum ſuperficialium ſimilium eſt proportio vnins
+¶Sint.a.⁊.b.ſuperficiales ſimiles.dico ꝙ vnus ad alterũ eſt ꝓportio ſicut quadrati ad quadratũ:erit enī per.16.inter eos vnus numerus medius in continua proportione qui ſit.c.ſumptis itaqʒ tribus minimis in ꝓportione eorũ:qui ſunt.d.e.f.erunt per correl'.2.d.⁊.f.quadrati:et qꝛ ꝑ equã proportionalitatẽ eſt.a.ad.b.ſicut.d.ad.f.cõſtat veꝝ eſſe qd̃ ꝓponitur.
 
-[Diagram]
+[Diagram: segments labelled a and d, c and e, and b and f]
 
-ad alterum ſicut proportio quadrati ad quadratum.
+## Propoſitio .25.
 
-¶Oint. a.2.b. ſuperficiales ſimiles. oico ꝙ vnus ad alterũ eſt ppor tio ſicut quadrati ad quadratũ: erit eni per-is. inter eos vnus nume, I rus medius in continua propontione qui ſit. c. ſumptis iraz tribus minimis in ꝓportione eorũ: qui ſunt. d.e. f. erunt per conel. 2. d.ad.f. quadrati: et up cquã proportionalitaté eſt. a. ad. b. ficut. d.ad.f.cõſtat vey eſle qo pponitur.
+{dropcap:O|lines=5|style=decorated|decoration="white foliate initial on black ground"}Mnium duorum ſolidorum ſimilium eſt proportio vnius ad alterum ſicut alicuius cubi ad aliquem cubum.
 
-## Propoſitio a;
+¶Sint.a.⁊.b.ſolidi ſimiles:dico ꝙ ꝓportio vnius eoꝝ ad alterum eſt ſicut alicuius cubi ad aliquẽ alium cubum.Sũt quidem ꝑ.18.inter eos duo numeri medij ſm̃ continuã ꝓportionẽ qui ſint.c.⁊.d.⁊ in eoꝝ proportione ſint minimi:quatuor.e.f.g.h.quoꝝ.e.⁊.h.erunt cubi per correlarium ſcd̃e.qꝛ igitur per equã proportionalitatem eſt.a.ad.b.ſicut.e.ad.h.liquet propoſitum.
 
-[Diagram]
+[Diagram: segments labelled a and e, c and f, b and g, and d and h]
 
-[Diagram]
+Explicit liber Octauus Incipit liber Nonus.
 
-[Diagram]
+{dropcap:P|lines=9|style=decorated|decoration="large white foliate initial on black ground"}Ar numerus eſt qui poteſt in duo equalia diuidi.¶Impar numerus ẽ qui ĩ duo equalia diuidi nõ põt:additqʒ ſupra parẽ vnitatẽ ¶Pariter par ẽ quẽ cũcti pares eũ numerantes paribus vicibus numerant:¶Pariter ĩpar eſt quẽ cuncti pares eũ numerãtes ĩparibꝰ vicibꝰ numerãt.¶Pariter par ⁊ ĩpariter ẽ quẽ pares eũ numerãtes quidã paribꝰ quidã im paribꝰ vicibꝰ numerãt.¶Impariter ĩpar quẽ cũcti ĩpares eũ numerantes imparibus vicibus numerãt.¶Perfectus numerus appellat̃ qui oĩbus ꝑtibꝰ ſuis quibꝰ numerat̃ ẽ equalis.¶Habundans dicitur qui oĩbus ſuis ꝑtibus minoꝛ eſt.¶Diminutus vero qui maioꝛ.
 
-[Diagram]
+## Propoſitio. .1.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I fuerint duo numeri ſupficiales ſil'es qui ex ductu alterius in alterum producetur numerũ quadratũ eẽ neceſſe ẽ.
 
-{dropcap:[illegible]|lines=5|style=decorated}
+¶Sint.a.⁊.b.ſuperficiales ſimiles ex quoꝝ multiplicatione proueniat.c.dico.c.eſſe quadratũ.fiat enī.d.ex.a.in ſe.eritqʒ per.18.ſeptimi.d.ad.c.ſicut.a.ad.b.⁊ qꝛ inter.a.⁊.b.cadit vnus medius ſcõm cõtinuã ꝓportionalitatẽ ꝑ.17.octaui.ſequit̃ ꝑ.8.eiuſdẽ vt vnꝰ quoqʒ cadat inter.d ⁊.c.itaqʒ cũ.d.ſit quadratus erit per.20.eiuſdẽ.c.quoqʒ quadratus qd̃ ẽ ꝓpoſitũ.
 
-¶Dnium duorum ſolidorum ſimilium eſt proportio vni qus ad alterum ſicut alicuins cubi ad aliquem cubum.
-
-¶ Sint. a.z.b. ſolidi ſimiles: dico ꝙ xportio vnius eoy ad alterum leſt licut alicuius cubi ad alique alium cubum. Oũt quidem p.is. inter leos ouo numeri medij bm continua propontioné qui ſit. c.2. d.i coy proportione ſint minimi:quatuor. c.f.g.b. quoy.c. 2. b. erunt cubi per conelarium ſcoe. qu igitur per cquã proportionalirarem eſt. a. ad. b. ſicut.e.ad. h. liquet propoꝰ litum. Erplicit liber Octauus Incipit liber Ionus. Ar numerus eſt qui poteſt in ouo equalia {dropcap:[illegible]|lines=10|style=decorated}iuidi.
-
-¶ Jmpar numerus ẽ qui i ouo equaꝰ lia oinidi nõ põt: addirqz ſupra parẽ vnitatẽ Pariter par ẽ quẽ cũcti pares eũ numeran es paribus vicibus numerant.
-
-¶ Pariter i par eſt quẽ cuncti pares eũ numerãtes ĩpaꝰ fribꝰ vicibꝰ numerãt.
-
-¶ Pariter par zipari
-
-[Diagram]
-
-fer ẽ quẽ pares eũ numerãtes quidã paribꝰ quida im paribꝰ vicibꝰ numerãt.
-
-¶ Jmpari ter ipar quẽ cũcti ipares eũ numerantes im l paribus vicibus numerãt.
-
-¶ PPerfectus nu merus appellat qui oibus ptibꝰ ſuis quibꝰ numerat ẽ equalis.
-
-¶la bundans dicitur qui oibus luis ptibus minoz eſt.
-
-¶ Diminutus vero
-
-## PPropoſitio. .1.
-
-qui maioz. {dropcap:[illegible]|lines=5|style=decorated}J fuerint ouo numeri ſupficiales ſiles qui ex ductu alteri us in alterum producetur numerũ quadrarũ eẽ ncceſſe ẽ.
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-¶ Sint. a.z. b. ſuperficiales ſimiles ey quoy multiplicatione proue? niat.c. oico. c. eſſe quadratũ. fiat eni.d.ey. a.in ſe. eritoz per.is. ſepti Il mi.d.ad.c.ſicut. a.lad.b. zqrinter. a.2. b. cadit vnus medius ſcom cõtinuã ꝓportionalitatẽ p-ix.octaui. ſequir p.8.eiuſdẽ vt vnꝰ quogycadat inter. d 2.c.itaqy cui. d. lit quadratus crit per.2o. cinſdẽ.c. quoqy quadratus qo ẽ xpoſitũ.
+[Diagram: segments labelled a and b above segments labelled d and c]

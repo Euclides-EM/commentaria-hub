@@ -1,35 +1,39 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-crit; p.2. buius quod fit ey tota. a.b. in ſe: equũ ci qo fit ex ipla in.a.c.z.t.b ſcd er ipſa in.a.c.tm̃ fit quãtũ er. a.c.in ſe. 2 cy. a.c.in.b.c.p.z.buiꝰ. Jtẽz ey ipſa a.b.tota in.b.c.tm fit quãtum ey.c.b.in ſe.z cy.c.b.in.a.c. per candem. ergo qu fit er tota.a.b.in ſe cquũ ẽ ci qo fit er.a.c.in ſe tin.c.b.1ey.c.b.in ſe. Tin.a.d.qb eſt propoſitum. Ced bac via non patet conciariũ. ſicut via precedenti patet. vn? de prima eſt auctori magis conſona¬
+eritqʒ ꝑ.2.huius quod fit ex tota.a.b.in ſe:equũ ei ꝙ fit ex ipſa in.a.c.⁊.c.b.ſed ex ipſa in.a.c.tm̃ fit quãtũ ex.a.c.in ſe.⁊ ex.a.c.in.b.c.ꝑ.3.hui⁹.Itẽqʒ ex ipſa a.b.tota in.b.c.tm̃ fit quãtum ex.c.b.in ſe.⁊ ex.c.b.in.a.c.per eandem.ergo ꝙ fit ex tota.a.b.in ſe equũ ẽ ei ꝙ fit ex.a.c.in ſe ⁊ in.c.b.⁊ ex.c.b.in ſe.⁊ in.a.c.ꝙ eſt propoſitum.Sed hac via non patet correlariũ.ſicut via precedenti patet.vnde prima eſt auctori magis conſona.
 
-## Propoſitio.5.
+## Propoſitio .5.
 
-{dropcap:[illegible]|lines=5|style=decorated}J linea recta per ouo equalia ouoqz iequalia ſecetur. qo ub inequalibus totius lectionis rectangulũ continet cũ
+{dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I linea recta per duo equalia duoqʒ inequalia ſecetur.ꝙ ſub inequalibus totius ſectionis rectangulũ continet̃ cũ eo quadrato ꝙ ab ea que inter vtraſqʒ ẽ ſectiones deſcribitur equum eſt ei quadrato ꝙ a dimidio totius linee ĩ ſe ducto deſcribitur.
 
-[Diagram]
+¶Sit linea.a.b.diuiſa ꝑ equalia in pũcto.c.⁊ ꝑ inequalia in puncto.d.dico quadratuʒ.c.b.eſſe equale ei ꝙ fit ex.a.d.in.d.b.⁊ q̃drato.c.d.¶Deſcribã quadratum.c.b.ꝙ ſit.c.b.f.e.in quo ꝓtraham diametrũ.e.b.⁊ ducã.d.g.equidiſtantẽ b.f.q̃ ſecet diametꝝ.e.b.i pũcto.h.⁊ a pũcto.h.educã eq̃diſtãtẽ linee.a.b.q̃ ſit.h.k.ſecãs lineã.b.f.in puncto.m.⁊ lineã.c.e.in puncto.l.⁊ ꝓtrahã.a.k.equidiſtantẽ.c.e.eritqʒ ꝑ correlariũ p̃miſſe vtraqʒ duaꝝ ſupficieꝝ.l.g.⁊.d.m.quadrata.⁊ per 43.primi duo ſupplemẽta.c.h.⁊.h.f.equalia.ergo addito quadrato.d.m.vtriqʒ erit palellogramũ.c.m.equale palellogramo.d.f.⁊ qꝛ.a.l.eſt equale.c.m.ꝑ.36.primi:erit.a.h.equale gnomoni qui circũſtat quadrato.l.g.ergo addito vtriqʒ quadrato.l.g.erit.a.h.cũ quadrato.l.g.equale quadrato.e.f.ꝙ eſt propoſitum.
 
-eo quadrato qo ab ea que inter vtraſqz ẽ ſectiones deſcri bitur equum eſt ci quadrato qo a dimidio totins linee ĩ ſe oncto oeſcribitur.
+[Margin]
+[Handwritten]
+[unclear: .6.]
+[/Handwritten]
+[Diagram: square with top corners e and f divided by a vertical line g and a diagonal crossing at h, a horizontal line from k through l to m, and a rectangle below with bottom points a and c]
+[/Margin]
 
-¶Sit linea. a. b. oiuiſa p equalia in pũcto. c.z p incqualia in puncto. d. bico qua, drotuz.c.b.eſſe cqualc ei qofit ey.a.d.in. d.b.2 q̃drato. c. d.
+## Propoſitio .6.
 
-¶ Deſcribã quadra? tum.c. b. ꝙ ſit.c.b.f.c.in quo ptrabam oiamctru. c.b. z oncoã. d.s-cquidiſtantẽ b.f, q̃ ſecet biamety.e. b.i pũcto.b.z a pũcto. b.educã eqdiſtãtẽ linee. a.b.q̃ lit.b. E. ſecãs lineã.b.f.in puncto.m. z lineã. c.e. in puncto.I.z ptrabã.a.l. cquidiſtan tẽ.c.c.erito ꝑ conclariũ pmiſſe vtrags ouay ſupficiey.l.g..d.m. quadrata.z per 43- primi ouo ſupplemeta.c.h.2.h. f. cqualia. crgo addito quadrato. d.m. vtrid; crit palcllogramũ. c.m.cquale palcllogramo. d.f. 2 qu.a.l.eſt cquale.c.m.p.3s pri mi: erit.a.b. cquale gnomoni qui circũſtat quadrato.l.g. crgo addito vrriqs qua? drato.l. g.erit.a.b.cũ quadrato. l. g. cquale quadrato.e.f.qo eſt propoſitum.
+{dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I recta linea in duo equalia diuidat̃.alia vero ei linea in longũ addat̃.ꝙ ex ductu toti⁹ iã cõpoſite i eã q̃ iã adiecta ẽ cũ eo ꝙ ex ductu dimidie in ſeipſaʒ:equũ ẽ ei q̃drato ꝙ ab ea q̃ cõſtat ex adiecta ⁊ dimidia ĩ ſeipſã ducta deſcribit̃
 
-## Piopoſitio.6.
+¶Sit linea.a.b.diuiſa ꝑ equalia in puncto.c.eiqʒ addat̃ linea.b.d.dico ꝙ quadratũ.c.d.ꝙ ſit.c.d.e.f.equale ẽ ei ꝙ fit ex tota.a.d.i.b.d.⁊ quadrato.c.b.Producã i quadrato predicto diametrũ.d.e.⁊ ducã lineã.b.g.equidiſtãtẽ d.f.q̃ ſecet diametrũ.d.e.in pũcto.h.a quo.h.ꝓducã equidiſtãtẽ linee.a.b.que ſit h.k.ſecans.d.f.in pũcto.m.⁊.c.e.in pũcto.l.⁊ producã.a.k.equidiſtantem.c.l.eritqʒ per.36.primi.a.l.equale.c.h.At.c.h.erit equale.h.f.per.43.primi.quare.a.l.ẽ equale.h.f.ergo addito.c.m.vtrobiqʒ erit.a.m.equalis toti gnomoni circũſtãti.l.g.quare.l.g.addito vtrobiqʒ erit.a.m.cũ.l.g.equale toti quadrato.c.f.⁊ quia vtraqʒ duaꝝ ſuperficieꝝ.l.g.⁊.h.m.ẽ quadrata:ꝑ correlariũ.4.hui⁹ pʒ propoſitũ.
 
-{dropcap:[illegible]|lines=5|style=decorated}recta linea in ouo equalia diuidat. alia vero ei linea in ſongũ addat.qu ex ductu totiꝰiã cõpoſite i eã q̃ iã adiecta ẽ cũ eo qo ex ouctu dimidie in ſeiplã:equũ ẽ ci q̃drato qo
+[Margin]
+[Handwritten]
+[unclear: .5.]
+[/Handwritten]
+[Diagram: square with top corners e and f divided by a vertical line g and a diagonal from e to b crossing at h, a horizontal line from k through l to m, and a base line with points a, c, d and b]
+[/Margin]
 
-[Diagram]
+## Propoſitio .7.
 
-ab ea q̃ cõſtat ex adiecta z oimidia ĩ ſciplã oucta deſcribit
+{dropcap:S|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I linea in duas partes diuidat̃.ꝙ fit ex ductu totius i ſeipſam cum eo ꝙ eſt ex ductu alterius partis i ſeipſam.equum eſt q̃ eis ex ductu totius linee i eandem partem bis ⁊ ex ductu alterius partis in ſeipſam.
 
-¶ Sit linca.a. b. oiuiſa p cqualia in puncto.c.eicy addat linca.b.d. oico ꝙ quadratũ.c. d.qo fit.c.d.e.f.cquale ẽ ci qo fit cy tota.a. d.i.b.d.z quadra to.c.b. Producã i quadrato predicto biametrũ.d.e.z oucã lincã. b.g.cquidiſtãtẽ d.f.q̃ ſecet oiamctrũ. d.e. in pũcto. b.a quo. b. ꝓducã cquidiſtãtẽ lince. a.b.que ſit b.l. ſccans. d.f. in pũcto.m.z.ce.in pũcto.l.s producã.a E. cquidiſtantem.c.I. critoz per. 3s. pnmi.a.l.cqualc. c.b. Et. c.h. crit cqualc. h. f. per. az primi, quarc. a L.ẽ cquale.h. f.ergo addito.c.m. vtrobi erit. a:m. cqualis toti gnomoni circũſtã ti.l.g quare.l.g-addito vtrobiqz crit. a.m.cũ. l.g. cquale toti quadrato.c.f.z quia
+¶Sit linea.a.b.diuiſa in duas partes in puncto.c.dico ꝙ quadratum totius.a.b.cũ quadrato.b.c.equũ eſt ei ꝙ fit ex.a.b.in.b.c.bis cum quadrato.a.c.deſcribatur quadratuʒ totius ꝙ ſit.a.b.d.e.⁊ ducatur diametrum.b.d.⁊
 
-[Diagram]
-
-vtracyz ouay ſuperficiey.l.g.2.b. m.é quadrata:p conelariũ. a buiꝰ pz propoſitũ.
-
-## ropoſitio 7
-
-{dropcap:[illegible]|lines=5|style=decorated}J linea in onas partes oinidat. qo fit er onctu torins i ſe ipſam cum eo qo eſt ex ouctu alterius partis i ſeipſam. e quum eſt q̃ eis er ouctu totins linee i eandem partem bis ey ductu alterius partis in leipſam.
-
-¶ Oit linca. a. b.biuiſa in ouas partes in puncto.c. bico ꝙ quadra! tum torius.a. b. cũ quadrato. b.c, cquii eſt ei qb fit ey.a. b.in.b.c.bis cum quadra to.a.c. beſcribatur quadratuz totius qo lit.a. b. d.e.z oucatur oiametrum .b.d..
+[Margin]
+[Diagram: square with top corners d and e divided by a vertical line f–c and a diagonal from d to b, a horizontal line from h through g, and bottom points a, c and b]
+[/Margin]

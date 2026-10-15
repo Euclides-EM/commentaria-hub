@@ -41,7 +41,9 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 OCR for Greek:
 https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
-**Status:** LLM in progress. 396/719
+**Status:** LLM in progress. 426/719
+
+# Manual Curation
 
 ## Venice_1482
 
@@ -52,13 +54,20 @@ Two facsimiles are available:
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_6vegrr&annotationId=ann_3pg8ot
 
-OCR was run but performed very poorly, need to re-run with proper page-by-page.
+Claude Code — Fable
 
-**Status:** LLM in progress. 263/284
+- **Requests:** 284
+- **Input tokens:** 1,422
+- **Cached tokens:** 8,850,210
+- **Cache creation tokens:** 5,399,806
+- **Output tokens:** 3,882,069
+- **Reasoning tokens:** 0
+- **Total tokens:** 18,133,507
+- **Cost:** $312.29
 
-# Manual Curation
+**Next steps:** Ready for curation.
 
-## London_1570s
+## London_1570
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 

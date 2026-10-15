@@ -1,33 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VI -->
 
-moportionalitatis cadem pportio baſis. b.c. ad baſim.e.f. que eſt ſuperflcici, a t.
+proportionalitatis eadem ꝓportio baſis.b.c.ad baſim.e.f.que eſt ſuperficiei.a.c. ad ſuperficiẽ.d.f.quod eſt propoſitum.¶De triangulis equalis altitudinis idem probabis:⁊ eodem modo per.38.primi ductis lineis ab extremitatibus eaꝝ quas ad baſes ſumes multiplices ad vertices triangulorum.
 
-[Diagram]
-
-ad ſupcrficẽ. d.f, quod eſt propoſitum.
-
-¶ De triangulis cqualis altitndmis idem prebabis:z eodem modo per.3s. primi ouctis lincis ab egtremitaribus cay quas ad baſes fumes multiplices ad verticcs triangulorum.
+[Diagram: fan of lines from two points a and d on an upper line with ends labelled k and n, descending to a base line with points labelled g, h, b, c, f, e and m]
 
 ## Propoſitio .2.
 
-{dropcap:[illegible]|lines=5|style=decorated}J linca recta buo trianguli latera ſecans reliquo fuerit equidiſtans: eam ouo illa larera proportionaliter lecare. Oi vero pportionaliter ſecet eã reliquo latere cquidiſta re neceſſe eſt.
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I linea recta duo trianguli latera ſecans reliquo fuerit equidiſtans:eam duo illa latera proportionaliter ſecare. Si vero ꝓportionaliter ſecet eã reliquo latere equidiſtare neceſſe eſt.
 
-¶Sit triangnlns.a.b.c.cuins ouo latera.a.b.2.a.c. ſecet linca. d.e.
+¶Sit triangulus.a.b.c.cuius duo latera.a.b.⁊.a.c.ſecet linea.d.e. equidiſtanter tertio lateri.ꝙ eſt.b.c.dico ꝙ erit ꝓportio.a.d.ad.d.b.ſicut.a.e. ad.e.c.⁊ ecõuerſo ſi fuerit ꝓportio.a.d.ad.d.b.ſicut.a.e.ad.e.c.linea.d.e.erit eq̃diſtans linee.b.c.protraham enĩ duas lineas.e.b.⁊.d.c.eritqʒ per.37.primi triangulus.e.d.b.equalis triangulo.d.e.c.propter id ꝙ ipſi ſunt ambo ſup lineã.d.e. inter lineas equidiſtantes.itaqʒ per ſcõam partẽ.7.quinti:ꝓportio trianguli.a.d. e.ad vtrũqʒ illorum erit vna:ſed ꝓportio eiꝰ ꝑ premiſſã ad triangulũ.e.d.b.ẽ ſicut linee.a.d.ad lineã.d.b.⁊ ad triangulũ.d.e.c.ſicut linee.a.e.ad lineã.e.c.Nam ipe cum vtroqʒ illoꝝ eſt equalis altitudinis:quare erit ꝓportio.a.d.ad.d.b.ſicut.a.e ad.e.c.ꝙ eſt primum.¶Et ſi hoc fuerit erit per premiſſam ipſius.a.d.e.vtrũqʒ illoꝝ proportio vna:quare per ſecundam partem.9.quinti ipſi ſunt adinuicẽ equales:⁊ quia ipſi ſunt ſuper eandẽ baſim.videlicet lineam.d.e.⁊ ex eadem p̃te erit ꝑ 39.primi:linea.d.e.equidiſtans linee.b.c.ꝙ eſt ſecundum.
 
-[Diagram]
+[Diagram: triangle with apex a and base corners b and c, cut by a line d–e parallel to the base, with lines d–c and e–b crossing between them]
 
-equidiſtanter tertio lateri.qu eſt.b.c. oico ꝙ crit pportio. a. d.ad. d.b. ſicut. a.e. ad.c.c.⁊ ecõuerſo ſi fucrit pportio. a.d.ad.d.b. ſicut. a. cad.c.c.linea.d.c.erit eq̃ diſtans lince.b. c. protrabam eni ouas lineas.e. h.z. d.c.eritoz per.39. primi trian gulus. e.d.b. cqualis triangulo. d.e.c. propter id qo ipſi ſunt ambo ſup lineã. d.e. inter lineas equidiſtantes. itagz per ſcoam partẽ.ꝰ. quinti: ꝓportio trianguli.a.d. c.ad vtrũz illorum erit vna:ſed ꝓportio ciꝰ ppremiſſã ad triangulũ.c. d.b. ẽ ſicut linee. a. d.ad tincã. d.b. z ad triangulũ. d.e. c. ficut lince. a.c.ad lineã. e. c. Iam ipe cum vtroz illoy eſt equalis altitudinis: quare erit pportio. a. d.ad. d.b. ſicut. a. e ad.e.c.qo eſt primum.
+## Propoſitio .3.
 
-¶Et ſi boc fucrit crit per premiſſam ipſins. a. d.e. vtrũqz illoy proportio vna: quare per ſecundam partem. o quinti ipſi ſunt adinuicé cqua les:⁊ quia ipli ſunt ſuper candé baſim. videlicer lincam.d.e.z er eadem pte crit p 3p primi:linea.d.e.cquidiſtans lince. b.c.qo eſt ſecundum.
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I ab aliquo angulorum trianguli linea recta ad baſim ducta angulum illum per equalia ſecet:duas partes ipſiꝰ baſis reliquis eiuſdem trianguli lateribus proportionales eſſe.Si vero due partes baſis quas linea ab angulo ducta diſtinguit reliquis trianguli lateribus ꝓportionales fuerint lineam illam angulũ ꝑ equalia diuidere neceſſario cõprobat̃.
 
-## Propoſitio3.
+¶Sit trigonus.a.b.c.cuius angulum.a.diuidat linea.a.d.ꝑ equalia:dico ꝙ proportio.b.d.ad.d.c.eſt ſicut.b.a.ad.a.c.⁊ ecõuerſo:protraham enim.b.e.equidiſtantem.a.d.⁊ producã.c.a.quouſqʒ concurrat cũ.b.e:in puncto.e.eritqʒ per primam partẽ.29.primi angulus.e.b.a.equalis angulo.b.a.d.⁊ per ſcõam partem eiuſdem angulus.e.angulo.d.a.c.quare angulus.e.eſt equalis angulo e.b.a.ergo per.6.primi.e.a.eſt equalis.a.b.⁊ ideo ꝑ primã partem.7.quinti proportio.e.a. ad.a.c.ẽ ſicut.b.a.ad.a.c.ſed per premiſſam.e.a.ad.a.c.ẽ ſicut.b.d.ad.d.c.ergo b.a.ad.a.c.ſicut.b.d.ad.d.c.quod eſt primum.¶Secunda pars que eſt conuerſa prime p̃tis probabitur conuerſo modo.Manente enim eadem diſpoſitione ſi fuerit proportio.b.a.ad.a.c.ſicut.b.d.ad.d.c.quare per premiſſã.e.a.ad.a.c.ẽ ſicut b.d.ad.d.c.erit eadem proportio.e.a.ad.a.c.que eſt.b.a.ad.a.c.ergo per primã partem.9.quinti.e.a.⁊.a.b.ſunt equales.quare per.5.primi duo anguli.e.⁊.e.b.a ſunt equales.igitur per primã ⁊ ſecundã partem.29.primi angulus.b.a.d.ẽ equalis angulo.d.a.c.quod eſt ſecundum.
 
-{dropcap:[illegible]|lines=5|style=decorated}J ab aliquo angulorum trianguli linea recta ad baſin on cta angulum illum per equalia ſecet: ouas partes ipſiꝰ ba ſis reliquis ciuſdem trianguli lateribus proportionales
+[Diagram: triangle with points labelled e, a, b and d, divided by a horizontal line and a diagonal from the upper corner to the base]
 
-[Diagram]
+<!-- Signature: f -->
 
-eſſe. Oi vero due partes baſis quas linea ab angulo ou, I cta oiſtinguit reliquis trian guli latcribus pportionales fuerint lineam illam angulũ p equalia oinidere neceſſario cõprobai.
-
-¶ Sit trigonns. a. b. c. cuius angulum. a. oiuidat linca. a.d. ꝑ equalia :oico ꝙ pro portio. b. d.ad.d.c.eſt ſicut. b.a.ad.a.c. ⁊ ecõuerſo: protrabam enim.b.e. cquidi? ſtantem.a.d.z producã.c. a. quouſ concurrat cũ.b.e: in puncto.c. eritoz per pri, mam partẽ.29-primi angulus. e. b. a.cqualis angulo. b. a. d. z per ſcoam partem ciuſdem angulus. c.angulo. d.a.c. quare angulus. c. eſt equalis angulo e. b. a.crgo per.s. primi. c. a. eſt equalis. a.b. ideo p primã partem.ꝰ quinti proportio.c.a. ad.a.c.ẽ ſicut. b.a.ad.a.c. ſed per premiſſam.e. a. ad.a.c. ẽſicut. b.d.ad. d.c.crgo b.a.ad.a.c.ſicut.b.d.ad. d.c. quod eſt primum.
-
-¶ Gecunda pars que eſt conuerſa prime ptis probabitur conuerſo modo. Dlianente enim eadem oiſpolitione ſi fue rit proportio. b. a.ad.a.c. ſicut. b. d.ad. d.c, quarc per premiſſã.c. a.ad.a.c.ẽ ſicut b. d.ad.d.c.crit cadem proportio. e. a.ad.a.c. que eſt. b.a.ad.a.c. ergo per primã partem. q quinti.c.a.2.a.b. ſunt cquales. quare per.z.primi ouo anguli.e. 2.e.b.a ſunt equales. igitur per primã z ſecundã partem.29 primi angulus.b. a. d.é equa? lis angulo. d.a.t, quod eſt ſecundum.
+[Handwritten]
+[illegible]
+[/Handwritten]

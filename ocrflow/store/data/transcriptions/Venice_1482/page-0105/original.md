@@ -1,45 +1,15 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: VII -->
 
-õz conum qui ſuper circũferentias: eſt ſicut arcus. b. c.ad arcum.f.g.cõtinuabo enĩ
+q̃ʒ eoꝝ qui ſuper circũferentias:eſt ſicut arcus.b.c.ad arcum.f.g.cõtinuabo enī illis duobus arcubus alios arcus equales.ſiue ſcõm eundẽ numerum:ſiue ſecundũ diuerſos:ſitqʒ arcus.k.b.equalis.b.c.⁊ vterqʒ duorum arcuum.l.m.⁊.f.l.equalis f.g.⁊ producam lineas.k.d.k.a.m.h.l.h.m.e.⁊.l.e.eruntqʒ per.26.tertij anguli qui ſunt ad.d.adinuicem equales.Similiter quoqʒ ⁊ qui ſunt ad.h.adinuicẽ equales.Idem etiam de his qui ſũt ad.a.⁊ de his qui ſũt ad.e.ſicut igitᷣ arcus.k.c.eſt multiplex arcus.b.c:ita angulus.k.d.c.anguli.b.d.c.⁊ angulus.k.a.c.anguli.b.a c.ſimiliter ſicut arcus.m.g.eſt multiplex arcus.f.g.ita angulus.m.h.g.anguli.f.h.g.⁊ angulus.m.e.g.anguli.f.e.g.ſed ſi arcus.k.c.eſt equalis arcui.m.g.angulus k.d.c.eſt equalis angulo.m.h.g.⁊ angulus.k.a.c.angulo.m.e.g.⁊ ſi maior maiores.⁊ ſi minor minores per.26.tertij.per diffinitionem itaqʒ incontinue proportionalitatis proportio arcus.b.c.ad arcum.f.g.eſt ſicut anguli.b.d.c.ad anguluʒ f.h.g.⁊ ſicut anguli.b.a.c.ad angulum.f.e.g.quod eſt propoſitum. Idem intellige in eodem circulo. Explicit liber ſextus. Incipit liber ſeptimus.
 
-[Diagram]
+[Diagram: circle with point e at top, h near the centre, and points m, l, f and g on the circumference joined by lines from e and h]
 
-illis ouobus arcubus alios arcus cquales. ſiue ſcom cundẽ numerum: ſiuc ſecundũ oincrſos: ſitqz arcus.R.b. equalis. b.c. vterqz ouorum arcuum.l.m. t. f.I.equalis f.g.z producam lincas. k.d.l.a.m.b. l.b.m.e. 4.l.e. erunt pcr.2s. tertij anguli eui ſunt ad. d.adinuicem equales. Similiter quo z qui ſunt ad. b. adinuicé cqua les Aem etiam oe bis qui ſũt ad.a.z be bis qui ſũt ad.e. ficut igit arcus.h.c, eſt mnltipler arcus. b. c: ita angulus. R.d.c. anguli. b. d.c. z angulus. lt. a. c.anguli.b. a .ſuniliter ficut arcus. m.g.eſt multipley arcus.f.g.ita angulus. m.b.g-anguli.f.b. g.z angulus. m.e. g. anguli. f.c.g. ſed ſi arcus. l.c. eſt cqualis arcui. m.g-angulus E.d.c.eſt equalis angulo. m.b.g.T angulus. l.a.c. angulo.m.e.g. z ſi maior maio rcs.z ſi munor minorcs per. 2s. tertij-per oiffinirionem iraqs incontinue propor? tionalitatis proportio orcus. b. c.ad arcum.f.g. eſt ſicut angnli.b. d.c. ad angulnz l.b.g.z ſicut anguli. b. a.c.adangulum. f.c.g-quod eſt propoſitum. Jdem intell, ge in codem circulo. Eyplicit lber ſeytus. Jcipit liber ſeptimus.
+{dropcap:V|lines=10|style=decorated|decoration="white foliate scrollwork on black ground"}Nitas eſt qua vna queqʒ res vna dicitur.¶Numerus eſt multitudo ex vnitatibus cõpoſita ¶Naturalis ſeries numerorum dicitur in qua ſecundũ vnitatis additionem fit ipſorum computatio.¶Differentia numerorum appellatur numerus quo maior habũdat a minore.¶Numerus primus dicitᷣ qui ſola vnitate metitur.¶Numerus compoſitus dicitur quẽ alius numerus metitur.¶Numeri contra ſe primi dicuntᷣ.qui nullo numero excepta ſola vnitate numerantur.¶Numeri adinuicem compoſiti ſiue cõmunicantes dicuntur.quos alius numerus q̃ʒ vnitas metitur.nulluſqʒ eorum eſt ad aliũ primus.¶Numerus per alium multiplicari dicitur.qui totiens ſibi coaceruatur.quotiens in multiplicante eſt vnitas.¶Productus vero dicitur qui ex eorum multiplicatione creſcit.¶Numerus alium numerare dicitur qui ſecundũ aliquẽ multiplicatus illũ ꝓducit.¶Pars ẽ numerus numeri minor maioris cum minor maiorem numerat.Et qui numeratur numerantis multiplex appellatur.¶Denominãs eſt numerus ſecũdũ quẽ pars ſumitᷣ in ſuo toto.¶Similes dicuntur partes que ab eodem numero denominantur.¶Prima.ſimpla numeri pars eſt vnitas.¶Quando duo numeri partem habuerint cõmunem tot partes maioris dicetur eſſe minor.quotiens eadem pars fuerit in minore.tote vero quotiens ipſa fuerit in maiore.¶Numeri ad numerum dicitur proportio minoris quidem ad maiorem in eo quod ẽ maioris pars vel partes.Maioris vero ad minorem ſecundũ ꝙ eũ continet ⁊ eius partem vel partes.¶Cum fuerint quotlibet numeri cõtinue ꝓportionales dicetᷣ ꝓportio primi ad tertiũ ſicut primi ſcõm duplicata ad q̃rtũ vero triplicata.¶Cũ cõtinuate fuerit eedẽ vel diuerſe ꝓportiones dicetᷣ ꝓportio primi ad vltimũ ex omnibꝰ cõpoſita.
 
-{dropcap:[illegible]|lines=10|style=decorated}Mitas eſt qua vna queqz res vna bicitur.
+[Handwritten]
+.4. 12. 16. nã .12. [unclear: ſũt tres ꝑtes de 16 quocienſ .4. eſt ī duodecī et quater reperitᷣ ideo .12. cõtinet tres ꝑtes] ſʒ quia .4. [unclear: reperitᷣ] quater ī 16 ideo 12 [unclear: cõtinet] tres quarte de 16.
+[/Handwritten]
 
-¶ Mumerus eſt multitudo ex vnitatibus cõ polita
-
-¶ Maturalis ſcries numerozum oici tur in qua ſecundũ vnitatis additionem fit ipſorum computatio.
-
-¶Differentia nume, rorum appellatur numerus quo maioz ba, bũdar a minore.
-
-¶ Humerus primus oicit qui lola vnirate metitur.
-
-¶ Hnmerus com? poſitus oicitur quẽ alins numerus metitur.
-
-¶ Mumeri contra ſe primi oicunt, qui nullo l numero ercepta ſola vnitate numerantur.
-
-¶ Mumert a inuicem compoſiti ſiue cõmunicantes oicuntur, quos alius numerus q̃z vnitas metitur. nulluſqz eorum eſt ad aliũ primus.
-
-¶ Humerus per alium multiplicari oicitur, qui totiens ſibi coacer, natur, quotiens in multiplicante eſt vnitas.
-
-¶ Productus vero diꝰ citur qui ex corum multiplicatione creſcit.
-
-¶ Mumerus alium nume rare oicitur qui ſecundũ aliquẽ mulriplicatns illũ poucit.
-
-¶Pparo ẽ numerus numeri minor maioris cum minoz maiorem numerat. Et IX, i6 no Ia ſpuepe A ii qui numeratur numerantis multipler appellatur.
-
-¶Denominãs eſt quocuerſ' p eſt s'loeler di puus s numerus secũdũ que pars ſummt in ſuo toto.
-
-¶ Gimiles oicuntur par tes que ab eodem pumero denominantur.
-
-¶ PPrima. ſimpla unmeri lapns dee idee neecout pi puſ¬ pars eſt vnitas.
-
-¶ Quando ouo numeri partem babuerint cõmunem ſms pqpu jyueatee 5ie'ide1 tot partes maioris dicetur eſſe minoz. quotiens eadem pars fucrir in Llar n’ſ ce duut minore. tote vero quotens ipla fuerit in maiore.
-
-¶ Humeri adnuy merum dicitur proportio minoris quidem ad maiorem in eo quod ẽ maioris pars vel partes. Maioris vcro ad minorem ſecundu ꝙ eũ continet ⁊ eins partem vcl partes.
-
-¶ Cum fuerint quorlibet numeri topeene yá -frs vir ixtri cõtinue pportionales oicet pportio primi ad tertiu ſicut primi lcom ouplicara ad õrti vero triplicata.
-
-¶ nũ cõtinnate fuerit eedẽ vel piy nerſe pportionen vicet pportio primi ad vlrimu ey oinmibꝰcopolita. Lns cpez a nls les ut mo dy d¬ fi, ò ta loipar ilreſhee mreuti pilep ar ſere ſri pfnr fapaen peſfieay- vuay a¬ ipeel ul'aij at i ſet (' poort l'ſper dif tesatz ul pait ileſalle Hev dex ſone nect lafrus - p'pe eels preauſnieeg E El a reiricere cſui pus a Lille miat lele le Jlſ mrerrr le aliui ppimeie ai vr ſit in ε j¬ e q e lel pa ſrat lari plr iet ſeai mpit lt iie EEa te Cipnei pit api ſetaiu pne air iete le ffr tet d. 1 le iue li di ae d i a a bi d’ponhi a bte Da v dri d' pes ppp ui ’ut amnit aiiran llit pt1LRι2 u viurd t'ipr, l' ay peutir eaprn ii ſin ſherE AIE fii ae ſet ier au pri &u vulur s’ipiu, ie' alrs aridie pfe 4413 Ii qpafre ſe pe ſei ſe l puuz s’arir, enia viide ta¬ Cet eiſt a'elui uiẽ d’y, gprir lil are tripei fpeuuit &hrru. n A aa pil att ai’Hſti qTtat t ur ete prenain eos elil ppefeuie pape.
+[Handwritten]
+proportio [unclear: extremi] ad p̃mũ aggregatᷣ ex ꝓportione [unclear: extremi] ad mediũ et medij ad p̃mũ. [unclear: ꝙmō ꝙ et pōt demõſtrari ꝙ quidam volentes ſaluare Ariſtotelem 7º phiſicoꝝ ponentem quaſdam regulas de ꝓportione velocitatũ motuum] [illegible: 4 words] [unclear: falſificantᷣ iſte regule] · [unclear: Ad hoc aũt demõſtrandum ſuppono hanc gñe que .18. 6ti demõſtratᵃ vʒ ꝙ ꝓportio quadratoꝝ eſt dupla ad ꝓportionẽ coſtaꝝ] pono [unclear: igitᷣ] quadratũ cuiꝰ coſta ſit duo ipſũ ergo erit quatuor ſit aliud quadratũ cuiꝰ coſta ſit octo et ipſũ erit .64. ergo .64. ad .4. [illegible: 2 words] [unclear: ſexdecupla ꝓportio qualis eſt .64. ad .4. dupla eſt ad ꝓportione quadruplam que eſt octo ad duo] [illegible: 3 words] [unclear: due ergo quadruple ſexdecuplam faciunt] ſʒ quia ꝓportio .16. ad .1. equiualet ꝓportioni .64. ad .4. et ꝓportio octo ad duo equiualet ꝓportioni .16. ad .4. ergo proportio 16 ad .1. aggregatᷣ ex proportioni .16. ad .4. et .4. ad vnũ [unclear: nã .16. ad vnũ eſt proportio quadratoꝝ ꝑ equiualentiã et ꝓportio .16. ad 4ʳᵉ eſt proportio coſtaꝝ ꝑ equiualentiã et .16. ad .4. eſt ſicut .4. ad vnũ] ergo ꝓportio 16 ad vnũ aggregatᷣ ex proportione .16. ad .4. et [unclear: 4ᵒʳ] ad vnũ ſʒ .16. ad vnũ [unclear: ꝙ ex] ꝓportione 16 ad .8. et .8. ad .4. et .4. ad vnũ nã .16. ad .8. eſt ſicut .8. ad .4. [unclear: ꝙ ſunt due duple que quadruplã faciunt] ergo ꝓportio 16 ad 4 equiualet ꝓportioni 16 ad .8. et .8. ad .4. [unclear: ꝑʒ ergo intentum nã vbiqʒ eſt quadrupla proportio]
+[/Handwritten]

@@ -1,41 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-piramide compleatur ſeratile piramidi e ue altum: qz igit iſtud ſeratile feratili nai¬
+piramide compleatur ſeratile piramidi eque altum:qꝛ igiť iſtud ſeratile ſeratili priori eſt eque altum ⁊ vtrorũqʒ baſes ſunt equales ex ypotheſi.ſequitur ipſa ẽe equalia.hoc eni demonſtratũ eſt in.36.vndecimi.at q̃m ex.6.hui⁹.12.libri ſeratile ſcꝺm triplum eſt ad piramidẽ ꝓpoſitã.nam ipſa eſt vna ex tribus piramidibus in quas ipſum ſeratile diuidiť.Erit quoqʒ per cõmunem ſcientiam propoſitam ſeratile triplum ad propoſitam piramidem.
 
-[Diagram]
+¶Si quotlibet piramides quarum baſes triangule ſuper vnã eandẽqʒ baſim ſiue ſuper equales conſtitute fuerint:eque alte eas eſſe adinuicẽ mequales{printer-error-correction:equales} neceſſe eſt. ¶Fabricato eni vno ſeratili eque alto piramidib⁹ propoſitis ſup baſim triangulã equalẽ baſib⁹ propoſitaꝝ piramidũ aut ſup baſim quadrangulã duplã baſibus earũdẽ:erit ipſũ ſeratile triplũ ad piramides ſinglas. hoc eni conſtat ex premiſſa addita ſiue interpoſita:igiť ex cõi ſcia cũcte propoſite piramides ſunt vt diximus adinuicẽ equales.
 
-ori eſt eque altum c vtrorũz baſcs ſunt equales cy ppotbeſi. ſcquitur ipla ce cqua la. boc eni cemonſtratii eſt i.3s. vndecimi.at qin cy.s.bui- iz. liori ſeratile ſcom triplum eſt ad piramide ppoſirã. nam ipſa eſt vna cy tribus piramidibus in quas ipſum ſerarilc binidit. Erit quooz per cõmunem ſcientiam propoſitam ſcrarile tri? plum ad propoſitam piramidem.
+¶Omnes piramides quarum baſes triangule eque alte ſuis baſibus ſunt proportionales.¶Fiant ſuper baſes propoſitarum piramidum aut ſup alias trigonas equales aut ſuper palellogramas duplis ſeratilia ipſis piramidibus eque alta eruntqʒ ob hoc ſeratilia ſibi adinuicẽ eque alta ⁊ qꝛ ſeratilia ſuis baſibus ſunt ꝓportionalia ut probatum ẽ in.36.vndecimi.33.ipſius mediante. Cũqʒ ex prima harum additarum manifeſtum ſit hec ſeratilia tripla eſſe ad propoſitas piramides vnũqꝺqʒ videlicet ad ſuã relatiuam:baſeſqʒ ipſoruʒ equales aut duplas eſſe baſibus ipſarum.ſic autem ex.15.quinti vt triplum ad triplum ita ſimplum ad ſimplum erunt quoqʒ propoſite piramides ſuis baſibus proportionales.
 
-¶ Gi quotlibet piramides quarum baſes triangule ſuper vnã candẽ qz baſim ſine ſuper equales conſtitute fuerint: eque alte eas eſle adin? uicẽ mequales neceſle eſt.
+¶Si fuerint due quelibet piramides eque alte fueritqʒ alterius baſis trigona:relique autem tetragona aut plurilatera:piramides ipſas ſuis baſibus proportionales eſſe conueniet.
 
-¶ Sabricato cni vno ſeratili eque alto piramidibꝰ
+¶Exempli gratia.Intelligantur due piramides eque alte ſuper duas baſes.a.⁊.b. ſitqʒ baſis.a.triangula.b.vero penthagona.Et dicantur hee piramides.a.⁊.b. itaqʒ dico proportionem piramidum.a.⁊ b.eſſe ſicut baſium.a.⁊.b.diſtinguatur quidem penthagonus.b.i tres triangulos.c.d.e.eritqʒ tota piramis.b.diſtincta in tres piramides eque altas quarum baſes ſunt trianguli.c.d.e.que etiã dicãtur nominibus ſuarum baſium.quia igitur ex premiſſa interpoſita proportio piramidis.c.ad piramidem.a.eſt ſicut trigoni.c.ad trigonum.a.⁊ piramidis.d.ad piramidem.a.ſicut trigoni.d.ad trigonum.a.itemqʒ piramis.e.ad piramidem.a.ſicut trigoni.e.ad trigonum.a.ex.24.quinti bis aſſumpta ſequitur ꝙ ſit proportio aggregati ex omnibus piramidibus.c.d.e.⁊ ipſum eſt piramis.b.ad piramidem.a.ſicut aggregati ex omnibus trigonis.c.d.e.⁊ ipſum eſt penthagonus.b. ad trigonum.a.conſtat igitur quod volumus.
 
-[Diagram]
+¶Omnes laterate piramides eque alte ſuis baſibus proportionales eſſe probantur.
 
-propoſitis ſup baſim triangulã equalé baſibꝰ propoſitax piramidũ aut ſux baſim quadrangulã ouplã baſibus carũdẽ: crit ipfũ ſeratile triplũ ad prramides ſinglas. boc eni conſtat er premiſſa addira ſine intcrpolita: igit ey cõi ſcia cũcic propolite piramides ſunt vt oiximus adinuicẽ cqualcs.
+¶Si altera earum fuerit ſuper baſim trigonam ex premiſſa interpoſita conſtat quod dicitur.Si autem baſis vtriuſqʒ fuerit poligonia vtralibet ipſarum baſium reſoluta in triangulos ⁊ ipſa piramide i piramides triangulas:erit ex premiſſa interpoſita proportio vniuſcuiuſqʒ harum triangularium piramidum iter quas altera propoſitarum diuiditur ad reliquã ſicut ſue baſis ad baſim alterius.itaqʒ per 24.quinti quotiens oportet aſſumptam:conſtat verum eſſe quod diximus.
 
-¶Dmnes piramides quarum baſes triangule eque alte ſuis baſibus ſunt proportionales.
+[Figure: triangle labelled a]
 
-¶giant ſuper baſcs propoſitarum piramidum aur ſup alias trigonas equales aut ſuper palellogramas ouplis ſeratilia iplis piramidi, bus cquc alra erunt ob boc ſeranilia ſibi adinuicé cque alta z qr ſcratilia ſuis bal ſibus ſunt xportionalia ut probatum é in.3s. vndecimi.33.ipſius mediante. Cũ?  er prima barum additarum manifeſtum ſit bec ſeratilia tripla eſſe ad propoſi tas piramides vnũqoqy videlicet ad ſuã relatiuam: baſcſz ipſoruz equales aut ou
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-plas eſſe baſibus ipſarum, ſic autem ey aay quinti vr triplum ad iriplum ira ſim plun ad ſimplum crunt quoz propoſite prramides ſuis baſibus proportionales.
-
-¶Si fuerint oue quelibet piramides cque alte fueritqz alterins ba ſis trigona: reliqne autem tetragona aut plurilatcra: piramides iplas fuis baſibus proportionales eſſe conuenicr.
-
-¶ Erempli grata. Inteligantur ouc piramides cque alle ſupcr ouas baſcs. a.t.b. fitay baſis. a. rriangula.b. vero pentbagona. Et oicantur bee piramides .a.z.b. iraqy oico proportionem piramidum.a.t b. elle ſicut baſium. a.t. b. oiſtingnatur quidem pentbagonus. b.i tres triangulos. c. d.e. critoy tora piramis. b.oiſtincta in tres piramides cque altas quarum paſcs ſunt trianguli. c.d.e, que etiã bicãtur nominibus ſuarum bafiuum, quia igitur ey premilla interpolira proportio pirami dis.c.ad piramidem. a eſt ſicut trigoni.c.ad trigonuni. a.z piramidis. d. ad pira? midem. a. ficut trigoni.d.ad trigonum.a. itemqs piramis. c.ad piramidem.a. ſi, cut rrigoni.c.ad rrigonum.a.cr.24 quinti bis aſſumpra ſcouitur ſit proport tio aggregati cy omnibus piramidibus.c.d.c. z ipſum eſt piramis. b.ad pirami? dem. a.ſicut aggregati cy omnibus trigonis. c. d.c.z iplum eſt' pentbagonus. b. ad trigonum. a.conſtat igitur qnod volumus.
-
-¶ Dmnes laterate piramides eque alre ſuis baſibus proportiona les eſle probantur.
-
-¶oi altera carum fuent ſuper baſim trigonam er premiſia intcrpoſita conftat quod oicitur. Si autem baſis vtriuſy fuerit poligonia vrralibet iplarum baſium reſolnta in triangulos cipla piramidei piramides triangulas: erit er premiſſa in terpoſira proportio vniuſcnuſz barum triangularium piramidum iter quas alte ra propoſitarum oiuiditur ad rcliquà ſicut ſue baſis ad baſin altcrus. iraqy per aa quinti quotiens oporter aſſumprain, conſtat veruin eſe quod oirimus.
-
-<!-- Page number: [illegible] -->
+[Figure: pentagon labelled b divided into three triangles labelled c, d and e]

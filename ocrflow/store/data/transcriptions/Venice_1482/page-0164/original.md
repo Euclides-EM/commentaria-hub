@@ -1,29 +1,23 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-ſit cqualis quadratis ouay lincay. a. c. 2. c.b. pariter ecceptis z ſupficies. f.h, oue fit cqualis quadrato linee. a. b. critaz ſuperficies.c.g.rõnalis eo ꝙ vtrũgz quadra toy lineay. a.c.2.c.b. pariter accepris eſt rõnale per yporbeſim z ſuperficies. 5.b. medialis per.i3 qũ ipla cſt equalis ouplo ſuperficiei.a.c..i.c.b.p quartã ſcoi. Sit igii rurſus ſupficies.f.E.eq̃lis quadratis ouax lineay.a.d 2. d.b. pariter acceptis que cũ ſint oiuerſe a onabus lincis. a.c.2. c.b. crit per ſcom pdemonſtraton ante cedentium ſupcrficies. f. l. dinerſa a ſupficic.e.S.cay ergo bifferẽtia ſit.l.g. eritoy ꝑ q̃rrã ſcoi eyceſſus ſupficici.f.b. ſup.f.E. qui ſit. E.I.cq̃lis ouplo ei? qo fit ex. a.d.i.d b.z ppter boc erit ctiã ſupficies.f.E. rõalis.z ſupficies. E.I.medial: itaqz ſupficies l.g.cum ipla ſit oifferentia ouarũ ſuperficicy ronalium que ſunt.e. g.2.f.l. erit ra tionalis. Ion eni oiffert rationale a rõnali niſi in rõnali. z boc oico piffinitione z 9. bnins boc ofirmantibus. Eadẽ quooz cũ ipſa ſit bifferentia ouay ſuperficierum medialium que ſunt.g.b.2. R.l.erit irrationalis per.az quod eſt impoſſibilc.
+ſit equalis quadratis duaꝝ lineaꝝ.a.c.⁊.c.b.pariter acceptis ⁊ ſupficies.f.h.que ſit equalis quadrato linee.a.b.eritqʒ ſuperficies.e.g.rõnalis eo ꝙ vtrũqʒ quadratoꝝ lineaꝝ.a.c.⁊.c.b.pariter acceptis eſt rõnale per ypotheſim ⁊ ſuperficies.g.h. medialis per.19.qm̃ ipſa eſt equalis duplo ſuperficiei.a.c.i.c.b.ꝑ quartã ſcꝺi. Sit igit̃ rurſus ſupficies.f.k.eq̃lis quadratis duaꝝ lineaꝝ.a.d.⁊.d.b.pariter acceptis que cũ ſint diuerſe a duabus lineis.a.c.⁊.c.b.erit per ſcꝺm p̃demonſtratoꝝ antecedentium ſuperficies.f.k.diuerſa a ſupficie.e.g.eaꝝ ergo differẽtia ſit.k.g.eritqʒ ꝑ q̃rtã ſcꝺi exceſſus ſupficiei.f.h.ſup.f.k.qui ſit.k.l.eq̃lis duplo ei⁹ qꝺ fit ex.a.d.i.d.b.⁊ ꝓpter hoc erit etiã ſupficies.f.k.rõalis.⁊ ſupficies.k.l.medial':itaqʒ ſupficies k.g.cum ipſa ſit differentia duarũ ſuperficieꝝ rõnalium que ſunt.e.g.⁊.f.k.erit rationalis. Non eni differt rationale a rõnali niſi in rõnali.⁊ hoc dico diffinitione ⁊ 9.huius hoc ꝯfirmantibus. Eadẽ quoqʒ cũ ipſa ſit differentia duaꝝ ſuperficierum medialium que ſunt.g.h.⁊.k.l.erit irrationalis per.22.quod eſt impoſſibile.
 
-## alropoſitio .37.
+[Diagram: tall rectangle with corners labelled h, l, e and f, divided by horizontal lines at g and k]
 
-{dropcap:[illegible]|lines=5|style=decorated}ymediali primo bm terminũ ſuum in ouas lineas mediai
+[Diagram: horizontal line with points labelled a, d, c and b]
 
-[Diagram]
+## Pꝛopoſitio .37.
 
-Ies oiniſo: ſub earum termino in alias ouas lineas media les idem oinidi eſt impoſlibile.
+{dropcap:B|lines=5|style=decorated|decoration="foliate initial on black ground"}Imediali pꝛimo ſm̃ terminũ ſuum in duas lineas mediales diuiſo:ſub earum termino in alias duas lineas mediales idem diuidi eſt impoſſibile.
 
-[Diagram]
+¶Sit quoqʒ hic linea.a.b.bimediale pꝛimũ diuiſa i duas lineas mediales potentia tantum cõicantes ſuperficiemqʒ rõnalem continentes:ex quibus.31.aſſerit eã cõponi que ſint.a.c.⁊.c.b.dico ꝙ impoſſibile eſt eam diuidi in alias duas lineas ſub eaꝝ diffinitione. Qꝺ ſi poſſibile fuerit diuidam eã in puncto.d.aſſumptaqʒ linea rõnali.e.f.adiungatur ei.e.g.equalis duobus quadratis duaꝝ lineaꝝ.a.c.⁊.c.b.et ſuperficies.f.h.equalis quadrato.a.b.⁊ ſuperficies.f.k.equalis quadratis duaꝝ lineaꝝ.a.d.⁊.d.b.eritqʒ per quartã ſcꝺi.g.h.eq̃lis duplo ſuperficiei.a.c.i.c.b.⁊ per eandẽ erit.k.l.equalis duplo ſuperficiei.a.d.in.d.b.pꝛopter ypotheſim quoqʒ erit vtraqʒ duaꝝ ſuperficieꝝ.e.g.⁊.k.f.medialis ⁊ vtraqʒ duaꝝ lineaꝝ.g.h.⁊.k.l.rõnalis. hoc autẽ impoſſibile:eſſet eni per pꝛimum ſuperficies.k.g.irrõnalis ex.22.per ſecundũ autẽ eadẽ eſſet rõnalis ex diffinitione ⁊.9.qꝺ eſt incõueniens.
 
-¶ Oit quogy bic linca. a.b. bimediale primũ oiuſa i onas lincas me diales porentia tantom coicantes ſuperſiciemoy rõnalemn continen? tes:cy quibus.31.aſſerit eã cõponi que ſint. a.c.2.c. b. bico ꝙ impoſſibile eſt eam oinidi in allas ouas lineas ſub eay piffinirione. Oo ſi poffibile fuerit oinidam eã in punctro. d. affumnpraoz linca ronali.e.f.adiungaiur el.e. g.cqualis ouobus quaͬ draris ouay lineay. a.c.2.c.b.ct ſuperficics.f.b. cqualis quadrato. a.b. ⁊ ſuperfi? cies.f.l. cqualis quadratis onax lincay.a.d.z. d.b.eritoz per quartã ſcoi.g.h.cq̃ lis ouplo ſuperficiei.a.c.i.c.b.⁊ per eandé erit.le.l.cqualis ouplo ſuperficici.a.d.
+[Diagram: tall rectangle with corners labelled h and l, divided by horizontal lines at g and k]
 
-[Diagram]
+## Pꝛopoſitio .38.
 
-in.d. b. propter ppoibeſiin quooy erir vtragy ouay ſuperficicy.e.g. 2.le. famcdi? lis z vtragy onay lineay. g.b.z.l. l.ronalis. boc autẽ impoſſibile: eſſet eni per pu mum ſuperficies. E.g.irronalis cy. az per ſccundu auté cade eſſet rõnalis ex oiffini tione z.9. qb eſt incõueniens.
+{dropcap:B|lines=5|style=decorated|decoration="foliate initial on black ground"}Imediale ſecũdũ niſi in duas lineas tantum ſub termino ſuo diuidi non poteſt.
 
-## PPropoſitio .3s
+¶Sit vt pꝛius linea.a.b.bimediale ſcꝺm diuiſa i duas lineas.a.c.et c.b.mediales:potentia tantuʒ communicantes ſuperficiemqʒ medialem continentes:ex quibus.32.pꝛoponit eam componi:dico ꝙ impoſſibile eſt eam diuidi ſub earum diffinitione i alias duas:Sin autem diuidatur in.d.ſintqʒ vt pꝛius ſuperficies.e.g.f.h.⁊.f.k.adiuncte ad lineã rõnalem.e.f.erũtqʒ per preſentes ypotheſes vtreqʒ ſupficies.e.g.⁊.g.h.mediales quare ꝑ.20.vtraqʒ duaꝝ lineaꝝ.f.g.⁊.g.l.erit rationalis in potẽtia tantũ nõ cõicãs i longitudine linee.e.f.At qꝛ due linee.a.c.⁊.c.b.erũt incõmenſurabiles in longitudine:ſequitur per pꝛimã ſexti ⁊ per ſcꝺam ptẽ.10.huius ꝙ vtrũqʒ q̃dratoꝝ lineaꝝ.a.c.⁊.c.b.ſit incõmenſurabile ſupficiei vni⁹ i alterã:cũqʒ dicta q̃drata cõicent:ex ypotheſi ſequit̃ vt ambo q̃drata piter accepta ſint incõmẽſurabile ſuperficiei vni⁹ i alterã. ideoqʒ ⁊ ei⁹ duplo:quare ſuperficies.e.g.incõmẽſurabil' ẽ ſupficiei.g.h.⁊ linea.g.f.linee
 
-{dropcap:[illegible]|lines=6|style=decorated}Qmediale ſecudu niſi in ouas lineas tantum ſub termino luo oinidi non poreſt.
-
-¶Sit vt prius linea. a. b. bimediale ſcom oiuiſa i ouas lineas.a.c.et .b. medialcs: potentia tantuz communicantes ſuperficiemoz medi alem continentes: cr qnibus.;2. proponit eam componi: oico ꝙ im? poſſibilc eſt eam oiuidi ſub earum oiffinitione i alias ouas: Sin autem oinidatur in. d.ſitoy vt prius ſuperfities.e.5.f.h.2. f.l adiuncte ad lincã rõnalem. c. f.cnit ⁊z per preſentes yporbeſes vtreaz ſupficies.c. 8. 2. g. b. mediales quare p. 2o vtra? z ouay lincay.f.g.2.g.l.erit rationalis in potẽria rantũ nõ cõicãs i longitudine lince. c.f. At qu oue linee. a.c.2.c b-erũt incõmenſurabies in longitudine:ſequitur
-
-[Diagram]
-
-per primã ſerti z per ſcoam prẽ. io. buius ꝙ vrrũgs q̃dratoy lincay.a. c.1.c. beſir incõmenſurabile iupficiei vni'i alterã:cuig oicra q̃drara coicent: cy poibeſi ſcquit vt ambo q̃drata pirer accepta ſint incomeſurable ſuperficici vniꝰ i alterã. ideouyy t cꝰ ouplos quare ſupcrtidies.e s.incomciurabir ẽ ſurfeei.g.h.s lincs s f. line
+[Diagram: horizontal line with points labelled a, d, c and b]

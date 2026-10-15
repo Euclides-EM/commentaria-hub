@@ -1,33 +1,33 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-[Diagram]
+[Handwritten]
+[unclear: a.d.b.e a.b.d e ab.b.de.e .b.e.bc.ef. a.d.bc.ef. a.bc.d.ef. a bc⁊bc⁊a def⁊ef]
+[/Handwritten]
 
-c pariter acceptay ad.e.tf parter acceptas: z q ipſa eſt minorq̃y. a ad. d.cu fit eni, a. ad. d. ma or q̃y b.ad.e, crit permutarim.a.ad.b. maior q̃s.d.ad.e. ⁊ con iunctim.a.b.ad. b.maior q̃y de. ad. e. citerum perutatimn. a.b. ad. d.e maior dy. b.ade, quare per premſſam a.ad. d.eſt maior q̃y a. b. ad. d.e. codẽg modo Pbai maioné ce. b.ad.e.q̃5.b.c.ad.e. f.ita maior pporrtio ẽ. a.ad.d.q̃y.b.c.ad.e f. q̃re permutatin maior eſt. a.ad.b.c.q̃y. d. ad.e. f.z coniunctim maior. a. b.c.ad b.c.q̃y. d.e. f.ad.e.f.zitcrum permutati maior. a. b.c ad.d.e.f.qy.c.b ad.e.f. quare per premiſſam maior eſt.a.ad. d. q̃5.a.b.c.ad.d.e.f. quod eſt ppoſitum. Erplicit liber quintus Jncipit liber Geytus. {dropcap:[illegible]|lines=10|style=decorated}{dropcap:[illegible]|lines=10|style=decorated}perficies ſimiles oicũt q̃rũ angnli vnins langulis alterins equales lateraq; equos an gulos continentia proportionalia.
+⁊.c.pariter acceptaꝝ ad.e.⁊.f.pariter acceptas:⁊ ꝙ ipſa eſt minor q̃ʒ.a.ad.d.cũ ſit enĩ.a.ad.d.maior q̃ʒ.b.ad.e.erit permutatim.a.ad.b.maior q̃ʒ.d.ad.e.⁊ coniunctim.a.b.ad.b.maior q̃ʒ.d.e.ad.e.⁊ iterum permutatim.a.b.ad.d.e.maior q̃ʒ.b.ad.e.quare per premiſſam.a.ad.d.eſt maior q̃ʒ.a.b.ad.d.e.eodẽqʒ modo ꝓbaꝰ maiorẽ ẽe.b.ad.e.q̃ʒ.b.c.ad.e.f.itaqʒ maior ꝓportio ẽ.a.ad.d.q̃ʒ.b.c.ad.e f.q̃re permutatim maior eſt.a.ad.b.c.q̃ʒ.d.ad.e.f.⁊ coniunctim maior.a.b.c.ad b.c.q̃ʒ.d.e.f.ad.e.f.⁊ iterum permutatim maior.a.b.c.ad.d.e.f.q̃ʒ.c.b.ad.e.f. quare per premiſſam maior eſt.a.ad.d.q̃ʒ.a.b.c.ad.d.e.f.quod eſt ꝓpoſitum. Explicit liber quintus Jncipit liber Sextus.
 
-¶Ht ſi trigonus. a. b.c.fuerit cquiangulus trigono d.e. f.fueritoy angulns. a.equalis angulo. d.z angu lus.b. cqualis angulo. e. z pportio. a. b.ad. d.e. ſicut la.c.ad.d.f.z.b.c.ad.e. f.ipſi crunt ſimiles. {dropcap:[illegible]|lines=5|style=decorated}Aperficies mutuox laterum ſũt l inter quarum latera incontinua
+{dropcap:S|lines=10|style=decorated|decoration="white floral vine on black ground"}Uperficies ſimiles dicũt q̃ꝝ anguli vnius angulis alterius equales.lateraqʒ equos angulos continentia proportionalia.
 
-[Diagram]
+¶Ut ſi trigonus.a.b.c.fuerit equiangulus trigono d.e.f.fueritqʒ angulus.a.equalis angulo.d.⁊ angulus.b.equalis angulo.e.⁊ ꝓportio.a.b.ad.d.e.ſicut a.c.ad.d.f.⁊.b.c.ad.e.f.ipſi erunt ſimiles.
 
-[Diagram]
+[Diagram: two triangles, the first with base angles labelled b and c, the second with base angles labelled e and f]
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}Uperficies mutuoꝝ laterum ſũt inter quarum latera incontinua proportionalitas retrãſitiue habetur.
 
-[Diagram]
+¶Ut ſi duoꝝ quadrilaterum.a.b.c.d.e.f.proportio.a.b.lateris primi.ad.d.c.latus ſecundi fuerit ſicut proportio.e.f.lateris ſecundi.ad.b.c.latus primi:illa duo quadrilatera dicuntur mutuorum laterum ſiue mutekeſia.¶Linea dicitur diuidi ſecundũ proportionẽ habentẽ mediũ ⁊ duo extrema quando eadem eſt proportio totius ad maiorem ſui ſeccionẽ que ẽ maioris ad minorem.
 
-[Diagram]
+[Diagram: two rectangles, the larger with corners labelled e, d and f, the smaller with corners labelled b, a and c]
 
-proportionalitas retrãſitiue ba betur.
+## Propoſitio .1.
 
-¶t ſi ouoy quadrilatcrum. a.b.c.d. e.f. proportio. a.b. lateris primi.ad. d.c. latus ſecundi fucrit ſicut proportio. ef. ateris ſecundi. ad.b.c.latus primizilla ouo qnadrilatera oicuntur mutuorum la? terum fine mutelreſia.
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I duarum rectilinearum ſuperficierum equidiſtantium laterum ſiue triangulorum fuerit altitudo vna:tanta erit alterutra earum ad alteram.quanta ſua baſis ad baſim alterius.
 
-¶Iinea bicitur dinidi ſccundũ proportione babeutẽ mcdiũ z ouo crtrema quando cadem eſt proportio torius ad maiorem ſui ſeccionẽ que ẽ maioris ad minorem.
+[Diagram: row of adjoining rectangles on a common base line labelled g, h, b, c, f, e and m, with upper corners labelled k, l, a, d and n]
 
-## PPropoſitio .1.
+¶Sint duo paralellograma.a.b.c.d.e.f.equalis altitudinis.dico ẽe ꝓportionẽ coꝝ:ſicut.b.c.ad.e.f.ponam illa duo paralellograma ſup lineã vnam que ſit.g.m.erũtqʒ propter hoc ꝙ ſunt equalis altitudinis inter lineas equidiſtantes quarũ ſit altera.k.n.deinde ex linea.g.m.ſumã.g.c.multiplicẽ ſm̃ quẽcumqʒ numerũ voluero.a.d.b.c.⁊ diuidã eã in ptes equales.b.c.in punctis.h.⁊.b.a quibus ⁊ puncto.g.ducã equidiſtantes linee.a.b.que ſũt.g.k.⁊.h.l.⁊ cõplebo ſupficies equidiſtantiũ laterũ.k.h.⁊.l.b.eritqʒ vnaq̃qʒ earũ p.36.primi equalis.a.c.q̃re ſicut linea.g.c.ẽ multiplex linee.b.c.ita ſupficies.c.k.ſuperficiei.a.c.Siliter quoqʒ ad lineã.e.f.ſumã ex linea.g.m.lineã.f.m.multiplicẽ ſm̃ quẽcũqʒ numerũ voluero e.f.⁊ cõplebo ſuperficiẽ equidiſtãtium laterum ducta linea.m.n.equidiſtãter linee d.e.eritqʒ ſuperficies.n.f.ita multiplex ſuperficiei.d.f.ſicut linea.m.f.linee.e.f.quia per.36.primi ſi linea.g.c.eſt maior linea.f.m.ſuperficies.k.c.eſt maior ſuperficie.n.f.et ſi minor minor.et ſi equalis equalis erit per diffinitioneʒ icõtinue
 
-{dropcap:[illegible]|lines=5|style=decorated}y ouarum rectilincarum ſuperficierum equidiſtantium laterum ſiue triangulozum fuerit altitndo vna: tanta crit alterutra earum ad alteram, quanta ſna balis ao baſim al
-
-[Diagram]
-
-terius.
-
-¶Gint ouo paralellograma.a. b.c. d.e.f.cqualis altitudinis. oico cẽ pportione corũ: ſicut. b. c.ad.e. f. ponam illa ouo paralellograma ſup lincã vnam que ſit. g.m.erũt propter boc ꝙ ſunt equalis altitudinis inter lincas cquidiſtan tes quarũ ſit altera.E. n. ocinde er linca.g.m.ſumã.g.-c. multiplicẽ bm quẽcumoy numerũ voluero.a. d.b.c.z oiuidã eã in ptes equales.b. c.in punctis. b.2. b.a qui bes z punto. g. oucã equidiſtantes linee. a.b, que ſũt. g.l.2.b.l.z cõplebo ſupfici es equidiſtantiũ latcrũ. R.h.z.I.b. erirqy vnaq̃ carũ p.3s.primi cqualis.a.c. qre ficur linea. g.c.ẽ multipler lince. b. c.ita ſupficics.c.l. ſuperficici.a. c.Silitcr quoqy adlineã. c.f. ſumã er linca.g.m. lincã.f.m. multiplicẽ bin quẽcũ numerũ voluero e.f.z cõplebo ſuperficiẽ equidiſtãtium latcrum oucta linea. m.n. equidiſtãter linee d.c. erituz ſuperficies.n.f. ita multipler ſuperficiei .d.f.ſicut linca m.f. lince. c. f.quia per.3s- primi ſi linea.g. c.eſt maior linea.f.m.ſuperficies. R.c.eſt maior ſu perficie.n.f. er ſi minor minon,et ſi cqualis cqualis crit per oiffinitioncz icotinue
+[Handwritten]
+[unclear: Altitudo eſt perpendicularis cadens a maiore cuiuſqʒ figure angulo ſup baſim vel dicas]
+[unclear: Altitudo eſt maior perpendicularis cadens a quouis puncto ſup baſim aut ſup latus q̃ ſicut]
+[illegible: 1 words]
+[/Handwritten]

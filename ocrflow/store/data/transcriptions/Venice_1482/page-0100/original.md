@@ -1,25 +1,25 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-paralellograma lunt equiangula conſtat per biffinitionẽ ſimilium ſupcrficiez.⁊.b. eſſe file. b. d. Sili quo modo pbai. f. R. cẽ ſile eidẽ. ppi boc ꝙ.b. a.ad.a.h.t. d.a ad.a.f.ẽ ſicut.t. a.ad. a.e. p ſcoaz buiꝰ z cõiũctã pportionalitatẽ: qre p.2o.buiꝰ. f. R ẽ etiã file.g.b.ſic py totũ., ropoſitio.23.
+paralellograma ſunt equiangula conſtat per diffinitionẽ ſimilium ſuperficieꝝ.g.h.eſſe ſile.b.d.Sili quoqʒ modo ꝓbaꝫ.f.k.eẽ ſile eidẽ.ꝓpꝫ hoc ꝙ.b.a.ad.a.k.⁊.d.a ad.a.f.ẽ ſicut.c.a.ad.a.e.ꝑ ſcõaʒ huiꝰ ⁊ cõiũctã ꝓportionalitatẽ:q̃re ꝑ.20.huiꝰ.f.k ẽ etiã ſile.g.h.ſicqʒ pʒ totũ.
 
-## [illegible]
+## Propoſitio .23.
 
-{dropcap:[illegible]|lines=5|style=decorated}in ſuo ſpacio palellogramũ partiale oiſtinctum toti pa ral ellogramo ſimile. atoz ſcom ſuũ illins eſſe fuerit: circa eiuſdem diametrum conſiſfit.
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I in ſuo ſpacio palellogramũ partiale diſtinctum toti paralellogramo ſimile.atqʒ ſcõm ſuũ illius eſſe fuerit:circa eiuſdem diametrum conſiſtit.
 
-[Diagram]
+¶Sit ut in paralellogramo.b.d.ſit diſtinctum paralellogramũ.f.g.qd' ſit ſibi ſimile.⁊ ſcõm ſuũ eẽ.i.participans cũ eo in angulo.c.dico ꝙ paralellogramũ.f.g.conſiſtit circa diametrũ paralellogrami.b.d.⁊.eſt hec conuerſa precedentis.producã eni.a.e.c.que ſi fuerit diameter paralellogrami.b.d.cõſtat propoſitum.Sin autem ſit.a.b.c.diameter eius.⁊ ducaꝫ.b.k.equidiſtans.f.c.eritqʒ per premiſſam paralellogramũ.f.k.ſimile palellogramo.b.d.ergo per conuerſionẽ diffinitionis ſimilium ſuperficieꝝ ꝓportio.b.c.ad.k.c.ẽ ſicut.d.c.ad.f.c.ſed per eandẽ cõuerſionẽ dicte diffinitionis ꝓportio.b.c.ad.g.c.ẽ ſicut.d.c.ad.f.c propter id qd' palellogramum.f.g.poſitum eſt ſimile paralellogramo.b.d.ergo per 11.quinti proportio.b.c.ad.g.c.eſt ſicut.b.c.ad.k.c.vtraqʒ eni eſt ſicut.d.c.ad.f.c quare ꝑ ſecũdã ptẽ none quinti.g.c.eſt equalis.k.c.pars videlicet toti quod ẽ impoſſibile.Erit igitur.a.e.c.diameter palellogrami.b.d.quod eſt propoſitum.
 
-¶Sit ut in paralcllogramo. b. d.ſit oiſtinctum paralellogramũ. f.g. qo lit ſibi ſimilc. ſcom ſuũ cẽ.i. participans cũ co in angulo.c. bico ꝙ paralelogramũ.f. g-conſiſtit circa oiametrũ paralcllogrami.b.d.z. eſt bec con uerſa precedentis. producã eni.a.e.c.que ſi fuerit oiameter paralellogrami.b. d.cõ ſtat propolitum. Sin autem ſit. a.b. c.biameter cius. z oucai.b. E. equidiſtans.f. .eritaz per premiſſam paralellogramũ.f.R. fumile palcllogramo.b.d.ergo per con nerionẽ oiffinitionis ſimilium ſuperficiez ꝓportio. b. c.ad.h.c.ẽ ſicut.d.c.ad.f.c. ſed pcr eande cõuerſionẽ oicte oiffinitionis pportio. b. c.ad. 8.C.ẽ ſicut. d.c.ad.f.c propter id qo palellogramum. f.g. poſitum eſt ſimilc paralellogramo. b. d.ergo per 1. quinti proportio.b.c.ad.g.c.eſt ſicut.b.c.ad. R.c. vtra eni eſt ſicut. d.c.ad.f.c quare p ſecũdã ptẽ none quinti.g. c.eſt equalis. R. c. pars vidclicet toti quod ẽ im poſſibile. Erit igitur.a.e.c. diamcter palellogrami. b. d quod eſt propoſitum.
+[Diagram: rectangle with vertices a, b, d and c, with points h, k and g on the right part, f on the bottom side and e within, and diagonal lines drawn from a to c]
 
-[Diagram]
+## Propoſitio .24.
 
-## PPropoſitio.2a.
+{dropcap:O|lines=4|style=decorated|decoration="white floral rosette on black ground"}Mnium duarum ſuperficierum equidiſtantium laterum quarum vnus angulus vnius vni angulo alterius equalis ꝓportio alterius ad alteram ẽ que ꝓducitur ex duabꝰ proportionibus ſuoꝝ lateꝝ duos equos angulos ꝯtinentium
 
-{dropcap:[illegible]|lines=5|style=decorated}AOniui ouarum ſuperficierum equidiftantium laterum quarum vnus angulus vnius vni angulo alterins equalis pportio alterius ad alteram ẽ que pducitur ex ouabꝰ pro portionibus ſuox latex ouos cquos angulos ptinentium
+¶Sint due ſupficies equidiſtantiũ laterũ.a.c.⁊.e.d.ſitqʒ angulꝰ.b.vnius equalis angulo.b.alterius.dico ꝙ ꝓportio vnius ad alterã ꝓducta eſt ex proportione.a.b.ad.b.d.⁊.c.b.ad.b.e.diſponã enim has duas ſupficies penitus ſicut diſpoſui eas in..13.huius.adiuncto ad vtrãqʒ palellogramo.c.d.⁊ ponam ut ꝓportio linee.f.ad lineã.g.ſit ſicut.a.b.ad.b.d.⁊.g.ad.h.ſicut.c.b.ad.b.e.qualiter eni hoc fiat.dictum eſt ſupra.10.huius:eritqʒ per primã huius.⁊.11.quinti.a.c.ad.c.d.ſicut.f.ad.g.⁊.c.d.ad.d.e.ſicut.g.ad.h.quare ꝑ.22.quinti erit in equa ꝓportionalitate.a.c.ad.d.e.ſicut.f.ad.h.⁊ quia.f.ad.h.producitur ex.f.ad.g.⁊.g.ad.h.vt dictũ ẽ in fine expoſitionis.11.diffinitõis q̃nti.erit ut.a.c.ad.d.e.ꝓducaꝫ ex eiſdẽ:q̃re cõſtat ꝓpoſitũ.
 
-¶Oint oue ſupficies equidiſtantiũ latcrũ.a.c.2.e. d.ſitqy angulꝰ. b. vnius cqualis angnlo. b.alierius. oico ꝙ pportio vnius ad alterã paucta eſt cy proportione. a.b.ad.b. d.2.C.b.ad.b.c. oiſponã enim bas ouas ſupfieics penirus ſicut oiſpoſui eas in..1z buins. adiuncto ad vtrã palcllogramo.c. d.z ponamur pportio linee. f.ad lincã. g.ſit ſicnt.a.b.ad. b. d.2.g. ad.b. ſicut.C.b.ad. b.e. quali ter eni boc fiat. oictum eſt ſupra.-to. buius: crity per primã buius. z.1. quinti. a.c. ad.c. d.ſicut.f.ad. g.2.c. d.ad. d.e.ficut.g. ad.b. quare p.2s. quinti erit in cqua pl portionalirate. a.c. ad.d.c. ſicut. f.ad.b. 2 quia. f.ad.b. producitur ex.f.ad.5.2.8. ad.h. vt oictũ ẽ in fine expoſitionis. 1. oiffinitois qnti. erit ut.a.c.ad.d.e. ꝓducar
+[Diagram: two rectangles meeting at a common vertex b, with labels c, g and h on the upper rectangle, d and a at its sides and e at the foot of the lower rectangle, beside three horizontal line segments labelled f, g and h]
 
-## Propoſitio i25.
+## Propoſitio .25.
 
-cy eiſdẽ: q̃re cõſtat ppoſitũ {dropcap:[illegible]|lines=5|style=decorated}te ſupficiei ſimilem alijoz ppoſite equalem deſignare.
+{dropcap:D|lines=4|style=decorated|decoration="white floral vine on black ground"}Ate ſupficiei ſimilem alijqʒ ꝓpoſite equalem deſignare.
 
-¶ Oint ppoſite oue ſupficies rectilince. A. pentbagona. B.cyagona. polo facere vnã ſupficiem filem. a. z equalẽ.b. vtracs poiiray super ficiey reſoluo in triangulos. A quidez i triangulos.c.a. d.B. vero ĩ ltriangnlos.c.b. f.g.z ſup baſim ſuperficici. a, que ſit. h. E. cõſtituo ſe cũdũ ooctrinã. a a primi ſuperficiẽ equidiſtantium laterum rectangulam equalem cque ſit.b.l.z.I m.cqualem. a. 2.m.n.equalem. d.ut ſit tora ſuperficies equiditã tinm latcrum. b.n-conſtituta ſuper baſim.b. E. equalis penthagono a. Eodem modo ſnper lincam. E. n que eſt bm latus buius ſuperficiei conſtituo aliã ſuperfi, ciem recrangnla eq̃lem cragono. b.qr facio. le. o. cqualcmn.e.2.o. p. cqualẽ. b.z.p'q cquale.f.z. qr. cqualemn. g-vt ſit tora rectangula ſuperficies.n.r. cqualis cragons.
+¶Sint ꝓpoſite due ſupficies rectilinee.A.penthagona.B.exagona.volo facere vnã ſupficiem ſilem.a.⁊ equalẽ.b.vtrãqʒ ꝓpoſitaꝝ ſuperficieꝝ reſoluo in triangulos.A quideʒ i triangulos.c.a.d.B.vero ĩ triangulos.e.h.f.g.⁊ ſup baſim ſuperficiei.a.que ſit.h.k.cõſtituo ſecũdũ doctrinã.44.primi ſuperficiẽ equidiſtantium laterum rectangulam equalem c.que ſit.h.l.⁊.l.m.equalem.a.⁊.m.n.equalem.d.ut ſit tota ſuperficies equidiſtãtium laterum.h.n.conſtituta ſuper baſim.h.k.equalis penthagono a.Eodem modo ſuper lineam.k.n.que eſt ſm̃ latus huius ſuperficiei conſtituo aliã ſuperficiem rectangulã eq̃lem exagono.b.qꝛ facio.k.o.equalem.e.⁊.o.p.equalẽ.h.⁊.p.q equalẽ.f.⁊.q.r.equalem.g.vt ſit tota rectangula ſuperficies.n.r.equalis exagono.

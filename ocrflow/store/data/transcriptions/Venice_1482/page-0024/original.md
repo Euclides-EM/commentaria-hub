@@ -1,23 +1,31 @@
-lincã.a.e. in pũcto. e. 2 ptrabam lineaz. e. c.⁊ quia triangulus c.b.c. eſt cqualis triangulo a. b.C.p.37.⁊ triangulns. d.b.c. poſitus ẽ cqualis triangulo a.bic. crit triangulns. d.b.. equalis triangulo e. b.c. pars toti quod eſt impoſſibile. Iõ igii pertranſibit linca que a puncto a oucitur eque biſtanter. b.c. ſupra. d.tranſcat, er go infra.⁊ fit.a.f. ſecans lincam d.b. in puncto. f. protrabam ergo lincam.f.c. ?
+lineã .a.e.in pũcto .e. ⁊ ꝓtraham lineaʒ.e.c.⁊ quia triangulus e.b.c.eſt equalis triangulo a.b.c.ꝑ.37.⁊ triangulus.d.b.c. poſitus ẽ equalis triangulo a.b.c.erit triangulus.d.b.c.equalis triangulo e.b.c.pars toti quod eſt impoſſibile. Nõ igit̃ pertranſibit linea que a puncto a ducitur eque diſtanter.b.c.ſupꝛa.d.tranſeat ergo infra.⁊ ſit.a.f.ſecans lineam d.b.in puncto.f.pꝛotraham ergo lineam.f.c.⁊ quia per.37.triangulus.f.b.c. eſt equalis triangulo.a.b.c. ipſe etiam erit equalis triangulo.d.b.c.pars toti quod eſt impoſſibile. Quia ergo linea a puncto a. equidiſtanter .b.c. non tranſit niſi per punctum .d. patet pꝛopoſitum. ¶Ex hac autem ⁊ premiſſa nota ꝙ ſi aliqua linea recta duo alicuius trianguli latera ꝑ equa ſecet vl̃ ſecuerit ipſa erit t̃tio equidiſtans quod ſic pꝛobatur. Sit triãgulus a.b.c.cuius duo latera que ſunt a.b.⁊.b.c.ſecet lineam.d.e.per equalia.a.b.qd̃ẽ ĩ puncto.d. ⁊.b.c.in puncto.e.dico ꝙ linea.d.e.eſt equidiſtans .a.c. pꝛotraham eni in quadrilatero.a.c.e.d.diametros.a.e.⁊.d.c.eritqʒ per.38.triãgulus.a.e.d. equalis triangulo.d.e.b.pꝛopter id ꝙ linea.a.d.poſita eſt equalis linee.d.b.Iteʒqʒ per eandem triangulus.c.e.d. erit equalis eidem triangulo.d.e.b.pꝛopter id ꝙ linea .c.e.poſita eſt equalis linee.e.b.quia triangulus.a.e.d.eſt equalis triangulo. c.e.d.quia ergo ipſi ſunt ꝯſtituti ſup eandẽ baſim videlicet lineã.e.d. ⁊ ex eadem parte ipſi erunt per hanc.39.inter lineas eque diſtantes ergo linea.d.e.eſt equidiſtans linee.a.c.quod quidem pꝛopoſitum ad quintam quarti tibi valebit.
 
-[Diagram]
+{dropcap:S|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I duo trianguli equales ſuper equales baſes vnius eiuſdemqʒ linee ex eadeʒ parte fuerint conſtituti eos inter duas lineas eque diſtantes neceſſe ẽ contineri.
 
-quia per. 37. triangulus. f.b.c. eſt cqualis triangulo. a. b.c. ipſe eriam erit cqua? lis triangulo.d. b. pars toti quod eſt impoſſibile. Quia ergo linca a puncto a cquidiſtanter.b.c. non tranſit niſi per punctum. d. patet propoſitum.
+¶Sint duo trianguli.a.b:c. d.e.f.equales conſtituti ſuper duas baſes que ſunt.b.c.⁊.e.f.⁊ ex eadem parte dico eos eſſe inter duas lineas equidiſtantes. ⁊ hec eſt conuerſa.38. ⁊ pꝛobatur per ipſam ſicut precedẽs per.37.a puncto.a.ducatur linea equidiſtans linee.b.f.que ſi tranſierit per punctum.d.patet pꝛopoſitum. ſin autem pertranſierit ſupꝛa vt.a.g.⁊ pꝛoducatur.e.d.vſqʒ ad ipſum que ſit .e.g.⁊ ducatur linea.g.f.eritqʒ per.38.triangulus.a.b.c. equalis triangulo.g.e.f.quare ⁊ triangul⁹.d.e.f. erit equalis triangulo.g.e.f.ꝑs toti quod eſt impoſſibile: Non ergo tranſibit ſupꝛa:tranſeat ergo infra.⁊ ſecet lineam .d.e.in puncto.h.⁊ ducatur linea.f.h.eritqʒ per .38.triangulus.h.e.f. eq̃lis triangulo.a.b.c.quare ⁊ triangulo.d.e.f: pars toti quod eſt impoſſibile. quia ergo non tranſibit niſi per punctum.d.patet ꝓpoſitum.
 
-¶ Er bac autem z premiſla nota ꝙ ſi aliqua linca recta ouo alicuius trianguli latcra p equa ſecet vl ſecuerit ipſa crit irio cquidiſtans quod ſic probatur. Sit triangulus a.b.c cuius ouo latera que ſunt a.b.z. b.c. ſccet lineam.d.e, per cqualie. a.b.qb i puncto.d. z.b.cin puncto.e.vico ꝙ linca d.e. cſt cquidiſtans .a.c. protraban eni in quadrilatero. a.c.e.d. biametros.a.e.t. dc. critay per.ys. triãgulus.a.e.d. cqualis triangulo d.e. b propter id qlican. a. d. poſita cit eoualis lince. d.b. Jrey Qper candemn triangulus.c.e. d. erit cqualis cidem triangulo. d.c.b. propter id v linea.c.e. poſita eſt equalis lince.c. b, quia triangulus.a. e. d.eſt cqualis trian ulo. c.e. d quia ergo ipli ſunt oſtituti ſup cande baſun videlicet linca.e. d. zer cademn parte ipſi erunt per banc.ꝓp inter lincas cque oiſtantes crgo linca. d.e. cſt cquidiſtans lince. a.c quod quidem propoſitum ad quintamn quarti nibi valcoit.
+{dropcap:S|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I palellogramũ trianguluſqʒ in eadem baſi atqʒ ĩ eiſdem alternis lineis fuerint ꝯſtituta palellogramũ triãgulo duplum eſſe ꝯueniet.
 
-[Diagram]
+¶Sit palellogramũ.a.b.c.d.⁊ triãgul⁹.e.b.d.ſup baſim b.d.⁊ int̃ lineas a.e.⁊.b.d.q̃ ſint eque diſtantes:dico palellogramũ duplũ eſſe triangulo ꝓtrahã in palellograno diametrum.a.d.eritqʒ triangulus.a.b.d.dimidiũ palellogrami ꝑ corre⁹.34.⁊ quia triangulus e.b.d.eſt eq̃lis triangulo .a.b.d.ꝑ.37.pʒ triangulũ.e.b.d.eẽ dimidiũ palellogrami.a.b.c.d.qd̃ ẽ ꝓpoſitũ. Similit̃ quoqʒ põt ꝓbari ꝙ ſi palellogramũ trianguluſqʒ in equalib⁹ baſib⁹ atqʒ inter lineas eq̃ diſtãtes fuerit ꝯſtituta palellogramũ duplũ erit triãgulo: qd̃ iõ nõ poſuit euclides: qꝛ leuit̃ pʒ ex hac p̃cedẽte correlariũ.⁊.38.diuiſo palellogramo ꝑ diametrũ in duos triangulos. vel ſup baſim palellogrami int̃ eaſdẽ lineas eq̃ diſtantes
 
-[Diagram]
+[Margin]
+Correlarium
 
-[Diagram]
+[Diagram: triangle with apex b, base corners a and c, points d and e on the sides joined by a line, with internal lines crossing between d, e and the base corners]
 
-[Diagram]
+[Diagram: two triangles on bases b–c and e–f between parallel lines, with top labels a, g, d and h and bottom labels b, c, e and f, joined by crossing oblique lines]
 
-[Diagram]
+[Diagram: quadrilateral with labels a and b at the left, c and e on the upper line and d below, with crossing diagonal lines]
 
-[Diagram]
+Correlariũ
 
-[Diagram]
+[Diagram: rectangle with labels c and e on the upper line and b, d, f and g on the lower line, with diagonal lines drawn from the corners to the lower middle points]
+[/Margin]
 
-{dropcap:[illegible]|lines=5|style=decorated}J ouo trianguli equales ſuper equales bales vnins einf, demoz linee ẽy eadez parte fuerint conſtituti eos inter ou as lineas eque diſtantes neceſſe ẽ contineri. (Oint ouo frianguli. a. b:c. d.e.f. cquales conſtituti fuper ouas baſes que ſunt. b.c,t, e.f.⁊ cr eadem parte bico cos dle inter ouac iincas cquidiſtantes. chec eſt conuerſa.;s. z probatur per ipſam ſicut precedes per. ⁊ a puncto.a. oucatur linea cquidiſtans linee. b.f, que ſi tranfierit per pun, ctuni. d patct propofitum. ſin autem pertranſierit ſupra vt.a. s-e prodncamr, e. A. viay ad ipium que ſit,c.s z oncatur uinca. s. f erltes per. y8.triangnlus. a.bc. cqualie triangnlo.g ef,ouare z trſangulꝰ d'e. f. crit coualis triangnlo gelp tou quod eſt impoſſibile. Ilon ergo tranſibit ſupra tranſcat ergo iniia.? ſccerli neam. d.e, in puncto. h. z oucatur linca. fh, eritoy per .3s.trangulus. h e. f. cq lis triangulo.a. b. c quare c triangulo. d.e. f: pars toti qnod eſt impoſſibile, qui ergo non tranſibit niſt per punctum. d. patct ppoſitum. {dropcap:[illegible]|lines=5|style=decorated}J palcllogramu trianguluſqz in eadem baſi atozi eiſden ãlternis lineis fuerint oftituia palcllo gramnu triagulo on plum eſſe oueniet. oir poleioyramis, a b. e a amrãgul' c b. a ſup baſimb d.zint Il uincas a.e. z. b. d q fint eque diſtantes: bico palellogranui ouplu clle rongmo pirapa in paidloprano piamerrrn a dcrros irangulne a Dacii ain paleloyrami p conc' y xouis trangpus eh d̀ cit cqlis triangus a ba¬ p.I.p5 triangulii,.e.b d ce vimnidis palellogrami, a.bic d'obé ppouitu Simouie cuoos pot pban ſi paiclogramu mangnluſon in cquali baitꝰ atoy interli' neas cq̃ oiiates fuert ofuinra paicioxrainis cupin cnt triãguor vois uo poine endidceo: orlent py er boc perdeire condari. s. jp cimſo pailcuieprano pbiame mmi in guos manqulon rdſmp taſmn paidiogrami mt calde lneis ca vifanies
+[Handwritten]
+[illegible]
+[/Handwritten]
+
+[Handwritten]
+[illegible]
+[/Handwritten]

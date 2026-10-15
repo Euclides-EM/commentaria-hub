@@ -1,33 +1,39 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: V -->
 
-poitio. a.ad.c. maior eſt q̃z proportio.b. ad.c. It vero propo:tio. b.ad.c, eſt per equam proportionalitatem:ſicut. d.ad.f. eſt enim. b. ad.g.vt. d.ad.e.2.g.ad.c.vt cad.f.igiuur cy.n. proportio. a. ad.c.eſt maior qs d.ad.f. quare conſtat propoſi tum
+portio.a.ad.c.maior eſt q̃ʒ proportio.h.ad.c. At vero proportio.h.ad.c. eſt per equam proportionalitatem:ſicut.d.ad.f.eſt enim.h.ad.g.vt.d.ad.e.⁊.g.ad.c.vt e.ad.f.igitur ex.12.proportio.a.ad.c.eſt maior q̃ʒ.d.ad.f. quare conſtat propoſitum
 
-## Propoſitio 32.
+[Handwritten]
+[unclear: d.f.h.c.a.c.]
+[/Handwritten]
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint tres quantitates in vno ordine. itemoz tres in alio fueritqz propoztio ſecunde priorum ad tertiam ma? ior quam prime poſteriorum ad ſecundam Jtemqs prime priorum ad ſecundam maior quam ſecunde poſteriorum lad tertiam, erit maior proportio prime priorum ad tertiã
+## Propoſitio .32.
 
-[Diagram]
+[Diagram: horizontal lines labelled a 18, b 6, c 2, g 4 and h 8, and beside them lines labelled d 12, e 6 and f 3]
 
-quam prime poſteriozum ad tertiam.
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerint tres quantitates in vno ordine. itemqʒ tres in alio fueritqʒ proportio ſecunde priorum ad tertiam maior quam prime poſteriorum ad ſecundam Jtemqʒ prime priorum ad ſecundam maior quam ſecunde poſteriorum ad tertiam.erit maior proportio prime priorum ad tertiã quam prime poſteriorum ad tertiam.
 
-¶Sint cnim tres quantirates in vno ordinc.a. b.c. Jtemaz tres in alio. d.c.f. quẽ admodum in premiſſa: ſitaz maior proportio.b.ad.c. q̃3. d. ad.e. z maior.a.ad.b. q̃y.e.ad.f.oico q maior erit.a. ad.c.õs d.ad.f.ſit enim.g.ad.c.vt.d.ad.c. eritoy &.minor. b. per primam partem-io quare maior erit proportio. a. ad.g. q̃z ad.b. per ſecundam partem. S.igitur multo maior cſt.a.ad.g-q̃y.c.ad.f. ſit itaqs.b. ad g.vVt.e. ad.f.eritqy-a. maior.b.ex prima parte. io.quare proportio. a. ad.c. maior eſt q̃z.b.ad.c.ey prima parte. s At vero ex.23 proportio.b. ad.c. eſt tanquã. d.ad
+¶Sint enim tres quantitates in vno ordine.a.b.c.Jtemqʒ tres in alio.d.e.f.quẽadmodum in premiſſa:ſitqʒ maior proportio.b.ad.c.q̃ʒ.d.ad.e.⁊ maior.a.ad.b.q̃ʒ.e.ad.f.dico ꝙ maior erit.a.ad.c.q̃ʒ.d.ad.f.ſit enim.g.ad.c.vt.d.ad.e.eritqʒ g.minor.b.per primam partem.10.quare maior erit proportio.a.ad.g.q̃ʒ ad.b.per ſecundam partem.8.igitur multo maior eſt.a.ad.g.q̃ʒ.e.ad.f.ſit itaqʒ.h.ad g.vt.e.ad.f.eritqʒ.a.maior.h.ex prima parte.10.quare proportio.a.ad.c.maior eſt q̃ʒ.h.ad.c.ex prima parte.8.At vero ex.23.proportio.h.ad.c.eſt tanquã.d.ad f.eo ꝙ eſt.g.ad.c.vt.d.ad.e.⁊.h.ad.g.vt.e.ad.f.igitur ex.12.maior eſt proportio.a.ad.c.q̃ʒ.d.ad.f.quod eſt propoſitum.
 
-[Diagram]
-
-f.eo qp eſt. g.ad.c.vt. d.ad.e.2.b.ad.g-vt.e. ad. f.igitur ey.12. maior eſt propor? tio.a.ad.c.q3.d.ad.f. quod eſt propoſitum.
+[Handwritten]
+[unclear: d.f.h.c.a.c]
+[/Handwritten]
 
 ## Propoſitio .33.
 
-{dropcap:[illegible]|lines=5|style=decorated}J fuerit proportio totius ad totũ maior: q̃z abſciſi ad ab ſciſum erit refidui ad reliduum maior proportio q̃y touiꝰ us ad totum.
+[Diagram: two horizontal lines, the upper with segments labelled e, a and c, the lower with segments labelled f, b and d]
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerit proportio totius ad totũ maior: q̃ʒ abſciſi ad abſciſum erit reſidui ad reſiduum maior proportio q̃ʒ totius ad totum.
 
-¶Oint pue quantitates. a. z.b. a quibous abſcindantur.c.t. d.z reſi ldua ſũt. e.z.f.ſitoz maior proportio. a.ad.b. q̃z.c.ad.d. oico ꝙ ma ion erit proportio.e. ad.f.q̃5. a. ad. b.crit enim ey.27. permurati maior proportio a.ad.c.q̃s. b.ad.d, quare ey yo. crit euerſim minor proportio. a. ad.e.q̃5.b.ad.f. igitur rurſus ey 27 permutatim mino erit.a.ad. b. q̃5.e .ad.f. quod eſt propoſi tum.
+¶Sint due quantitates.a.⁊.b.a quibus abſcindantur.c.⁊.d.⁊ reſidua ſũt.e.⁊.f.ſitqʒ maior proportio.a.ad.b.q̃ʒ.c.ad.d.dico ꝙ maior erit proportio.e.ad.f.q̃ʒ.a.ad.b.erit enim ex.27.permutati maior proportio a.ad.c.q̃ʒ.b.ad.d.quare ex.30.erit euerſim minor proportio.a.ad.e.q̃ʒ.b.ad.f.igitur rurſus ex.27.permutatim minor erit.a.ad.b.q̃ʒ.e.ad.f.quod eſt propoſitum.
 
-## Propoſitio.14
+[Handwritten]
+[unclear: a.b.c.d. e.f.a.b a.e.b.f]
+[/Handwritten]
 
-{dropcap:[illegible]|lines=5|style=decorated}J quotlibet quantitates ad totidem alias comparentur. fueritqz cniullibet precedentis ad ſuam relarinam maior proportio q̃z alicuins ſubſequentis ad ſuaz. erit omnium barum pariter acceptarum ad omnes illas pariter acce pras maior proportio dz alicuius ſubſequentinz ad ſuam
+## Propoſitio .34.
 
-[Diagram]
+[Diagram: horizontal lines labelled a 16, b 9 and c 4, and beside them lines labelled d 4, e 3 and f 2]
 
-comparem aut etiam q̃z omnium pariter acceptarum ad omnes pari? ter acceptas: minoz autem q̃z prime ad primam Sit.3-q̃ntitates. a.b.c.relate ad toridẽ alias q̃ ſit. d.e.f.ſitaz maior pportio. a.ad d.q̃y.b.ad.e. 2.b.ad.e. ſit maior q̃z.c.ad.f. oico ꝙ pportio. a. b c. pirer acceptay. ad.d.e.f, piter acceptas, émaion qy b.ad.e. rl maior q.. ad.f.z cilã maioi.d b
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I quotlibet quantitates ad totidem alias comparentur. fueritqʒ cuiuſlibet precedentis ad ſuam relatiuam maior proportio q̃ʒ alicuius ſubſequentis ad ſuaʒ. erit omnium harum pariter acceptarum ad omnes illas pariter acceptas maior proportio q̃ʒ alicuius ſubſequentiuʒ ad ſuam comparem aut etiam q̃ʒ omnium pariter acceptarum ad omnes pariter acceptas:minor autem q̃ʒ prime ad primam
+
+Sit.3.q̃ntitates.a.b.c.relate ad totidẽ alias q̃ ſit.d.e.f.ſitqʒ maior ꝓportio.a.ad d.q̃ʒ.b.ad.e.⁊.b.ad.e.ſit maior q̃ʒ.c.ad.f.dico ꝙ ꝓportio.a.b.c.p̃iter acceptaꝝ.ad.d.e.f.p̃iter acceptas.ẽ maior q̃ʒ.b.ad.e.vl̃ maior q̃ʒ.c.ad.f.⁊ etiã maior.q̃ʒ.b

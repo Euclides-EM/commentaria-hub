@@ -1,57 +1,21 @@
-<!-- Running title: ae qnentee & mj por -->
+[Handwritten]
+[unclear: proportio extremi ad extremũ eſt ſicut extremi ad mediũ et medij ad extremũ] [illegible]
+[/Handwritten]
 
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-¶ Denominario dicitur proportionis minoris quidẽ numeri ad ma iorem pars.vel partes ipſius minoris, que in maiore lunt. Iaiors autem ad mnozem totum. vel totum ⁊ pars vel partes: prout maior ſnnerfluit.
+¶Denominatio dicitur proportionis minoris quidẽ numeri ad maiorem pars.vel partes ipſius minoris.que in maiore ſunt.Maioris autem ad minorem totum.vel totum ⁊ pars vel partes:prout maior ſuperfluit.¶Similes ſiue vna alij eadem dicũtur proportiones que eandem denominationem recipiunt.Maior vero que maiorẽ.Minor autem que minorem.¶Numeri vero quoꝝ ꝓportio vna:ꝓportionales appellantur.¶Termini ſiue radices dicuntᷣ quibus in eadẽ ꝓportione minores ſumi ipoſſibile eſt. ¶Petitiones ſunt quattuor.¶Cuilibet numero quotlibet poſſe ſumi equales prout libet.vl' multiplices.¶Quolibet numero aliquẽ quãtũlibet ſumere poſſe maiorem.¶Seriem numerorum in infinitum poſſe procedere.¶Nulluʒ numeꝝ in infinitũ poſſe diminui. ¶Cõmunes animi cõceptiones ſunt decẽ.¶Omnis pars minor eſt ſuo toto.¶Quicunqʒ eiuſdẽ ſiue equalium fuerint eque multiplices:ipſi quoqʒ erũt eq̃les.¶Quibus idẽ numerus eque multiplex fuerit.ſiue quoruʒ eque multiplices fuerint equales:⁊ ipſi etiam erunt equales.¶Omnis numeri pars ẽ vnitas ab ipſo denominata.¶Omnis pars eſt minor que maiorẽ habet denominationẽ:maior vero que minorem.¶Quilibet numerus totus eſt ab vnitate.quota pars ipſius ẽ vnitas.¶Quicunqʒ numerꝰ in vnitatem ducitur.ſeipſum producit.Vnitas quoqʒ in quẽcũqʒ ducta producit eundem.¶Quicunqʒ numerus numerat duos:numerat quoqʒ cõpoſitum ex illis.¶Quicunqʒ numerus numerat aliquẽ:numerat omnem numeratum ab illo.¶Quicunqʒ numerus numerat totum ⁊ detractum:numerat reſiduum.
 
-¶ Gimiles ſine vna alij eadem oicũtur proportiones que candem oenominationem recipiunt. CDaior vcro que maiorẽ. Li nor autem que minorem.
+## Propoſitio .1.
 
-¶ Mumeri vero quoy pportio vna: ppor tionales appellantur.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate ornament on black ground"}I a maiore duorum numeroꝝ minor detrahatur.donec minus eo ſuperſit.Ac deinde de minore ipſum reliquum donec minus eo relinquatur:Itẽqʒ a reliquo primo reliquũ ſecundũ quouſqʒ minus eo ſuperſit:atqʒ in huiuſcemodi continua detractione nullus fuerit reliquus:qui ante relictum numeret vſqʒ ad vnitatem:eos duos numeros contra ſe primos eſſe neceſſe eſt.
 
-¶ Termini ſiue radices oicunt quibus in eadẽ nportione minores ſumi ipoſſibile eſt..
+[Diagram: horizontal line a b with points e and g; arcs above labelled 39 and 4; segments labelled 35, 3 and 1]
 
-¶ Petitiones ſunt quatu tuor.
+[Diagram: horizontal line c f d with segment labelled 4; arcs below labelled 3 and 7; separate line labelled h beneath]
 
-¶ Cuilibet numero quotlibet poſſe ſumi equales prout libet. vl' mnltiplices.
+¶Sint duo numeri.a.b.⁊.c.d.c.d.minor detrahaturqʒ.c.d.ex.a.b.quotiens poteſt:⁊ ſit reſiduum.e.b.qui erit minor.c.d.alioquin poſſet ex ipſo adhuc detrahi.c.d.detrahatur ⁊ ipſe.e.b.ex.c.d.quotiens poteſt.ſitqʒ reſiduũ.f.d.ſed ⁊.f.d.detrahatur ex.e.b.quotiens poteſt:⁊ ſit reſiduum.g.b.ꝙ ſit vnitas.dico tunc duos numeros.a.b.⁊.c.d.eſſe contra ſe primos.Si enim ſunt cõpoſiti numerabit eos cõmuniter per diffinitionẽ aliquis numerꝰ preter vnitatem qui ſit.h.⁊ quia.h.numerat.c.d.numerabit.a.e.per penultimã cõceptionẽ:⁊ quia idem numerat.a.b.numerabit etiam.e.b.per vltimã cõceptionẽ.ergo ⁊.c.f.per penult.quare ⁊.f.d.per vltimã.ergo ⁊.g.e.per penult.ergo ⁊.g.b.ꝑ vlt.⁊ quia.g.b.eſt vnitas.ſequitᷣ numerum eſſe partẽ vnitatis vel ſibi equalem:quod eſt impoſſibile:erunt igitur.a.b.⁊.c.d.contra ſe primi quod eſt propoſitum.¶ꝙ ſi duo numeri.a.b.⁊.c.d.ſint contra ſe primi.non erit in hac mutua detractione ſtatus anteq̃ʒ ad vnitatem ꝑueniatur.Et eſt iſtud conuerſum eius ꝙ auctor proponit.Si autẽ in hac mutua
 
-¶ Quolibet uumero aliquẽ quãtũlibet ſumere poſſe ma iorem.
-
-¶ Seriem numerorum in infinitum polle procedere.
-
-¶ Mul lnz numey in infinitũ poſſc oiminui.
-
-¶ Cõmunes animi cõceptio nés ſunt decẽ.
-
-¶ Omnis pars minor eſt ſuo toto.
-
-¶ Quicunoy einſde ſine equalium fuerint eque multiplices: ipli quoqz erũt eq̃les.
-
-¶ Qui bus idẽ numerus eque multiplex fucrit. ſiue quoruz eque multiplices fuerint equales:z ipli etiam erunt equales.
-
-¶ Omnis numeri pars ẽ vnitas ab iplo denominata.
-
-¶ Omnis pars eſt minoz que maiorẽ ba bet denominationẽ: maioz vero que minorem.
-
-¶ Huilibet numerus totus eſt ab vnitate. qnota pars iplins ẽ vnitas.
-
-¶ Quicunqz numer? in vnitatem oucitur. leiplum producit. Mnitas quoqz in quẽcũoz ou cta producit eundem.
-
-¶ Quicunqz numerus numerat ouos: numerat quoqz cõpoſitum ex illis.
-
-¶ Quicunqz numerus numerat aliquẽ: nu merat omnem numeratum ab illo.
-
-¶ Muicunqz numerus numerat to tum ⁊ detractum: numerat reſiduum.
-
-## Propoſitio ..
-
-{dropcap:[illegible]|lines=5|style=decorated}J a maiore buorum numerox minor detrabatur. doncc minus eo ſuperſit. Ac deinde de minoze ipſum reliquum
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-[Diagram]
-
-oonec minus eo relinquatur: Jtẽqz a reliquo primo reli quũ ſecundũ quouſoz minus ẽo ſuperſit: aiqz in buiuſce Imodi continua detractione nullus fucrit reliquns: qui an tem relictum numeret vlqz ad vniratem:eos ouos numcros contra ſe primos eſſe neceſſe eſt. (Sint ouo numeri.a.b.2.c.d.c.d. minor vctrabaturqz.c.d.cr. a.b, quotiens po teſt:z lit rcſiduum.e. b,qui erit minor.c. d. alioquin poſſet ey ipſo adhuc octrabi.c d.petrabatur c iple. c.b.er.c. d,quotiens poreſt. ſiray rcſiduũ. f.d.ſed z.f. d.oetra batur ey.e.b, quotiens peteſt: z li reſiduum.g.b. ꝙ lit vnitas. oico tunc ouos nu meros.a.b.t.c.d.eſſc contra ſe primos. S enim ſunt cõpoſiti numerabit cos cõ muniter per biffinitionẽ aliquis numerꝰ pretcr vnitatem qui ſit. b.⁊ quia.b. nume rat.c.d. numerabit. a.e. per penultimã cõcepronẽ:z quia idem numerat. a.b. nu merabit etiam.e. b. per vltimã cõceptionẽ.ergo z.c.f.per penult, quare z.f.d. per rtimã. crgo z.3.c.per pennlt. ergo z.g.b.p vli. ⁊ quia. g.b. eſt vnitas. ſequit nu¬ merum eſſe parẽ vniraris vel ſibi cqualem: quod eſt impoffibile: crunt igitur.a.b .c.d.contra ſe primi quod eſt propoſitum. Do li buo numeri.a.b. 2t.d. ſint contra ſe primi. non crit in bac mutua betractione ftatus anteqy ad vnitaiemnp ueuiatur. Et eſt iſtud conucrſom eius ꝙ ancror proponit. Si autẽ in bac mutua pri adpebs a mapal pi teutidus nê ay. e a dy cjon ie phprefo vfpα dy-bn i'n¬ is a y rpai? Puuy duirt c'e vu mirelllylaun prè n'l. & ttoen & vεν sh'h vialiy vo' dus îpu V h́. hauis l¬ Smt vi gnant, ale, &t trire. poνe ſu h Ppé. ſir.p. Ct illul a ſt oducue:p. ile- fit.p. ep duti ul E ſ. R myiſfurehont́ duuescs' ſ'e propśis mudipaxdy Iue ey dil e iei fr2 & ly huu l 5ε 4i et phuu- iyoͬ f el prrr ſu medipeſiemneec  mv Ie ep' h.ad 6 S3 jlu dhabuſi ꝓlJépreα e D́ hab é nep-alε. hir auι cntguνὸ dus ve adlu
+[Handwritten]
+[unclear: proportio extremi ad extremũ eſt ſicut extremi ad mediũ et medij ad mediũ] [unclear: ponuntᷣ duo nũ 24. et .4.] [unclear: ⁊ inter eos ponitᷣ .12.] [illegible] [unclear: ꝓpõ 24 ad .4. cõponitᷣ ex] [illegible] [unclear: ꝓpõ 24 ad .12. et .12. ad .4.] [unclear: nã ꝓportio 24 ad .12. ẽ dupla .12. vero ad .4. tripla] [illegible] [unclear: due denominatiões haꝝ ꝓpõnũ ſcilicet duo et tria] [unclear: duo quia prima erat dupla et tria quia 2ᵃ erat tripla Multiplica gº duo in tria et habebis ſex] [unclear: ꝓportionẽ ſ 24 ad .4. q̃ ẽ ſexcupla] [unclear: Sint vel aliter tres nũi a.b.c. Et ꝓpõ a ad c ſit h. ꝓportio a ad b ſit e. Et ꝓpõ b ad c ſit f. Et illud ꝙ fit ex ductu f in e ſit p.] [illegible] [unclear: hii igitᷣ duo nũi e. f. multiplicant duos gº q̃ ẽ ꝓportio multiplicantiũ et ꝓductoꝝ] [illegible] [unclear: q̃ ẽ ꝓpõ e ad c eadẽ ẽ p. ad b.] [unclear: Item ex ductu e in b ſit a. Et ex ductu e in h ſit a.] [unclear: hii vero duo nũ multiplicant alios duos et ꝓducunt idẽ gº q̃ eſt ꝓportio multiplicantiũ et multiplicatoꝝ] [illegible] [unclear: gº q̃ ẽ ꝓpõ e ad c eadẽ eſt h. ad b. S3 ius et habuiſti ꝙ q̃ ẽ ꝓpõ e. ad c. eadẽ ẽ p. ad b. gº eadẽ ꝓportio h. ad b. et p. ad b.] [unclear: hec aut] [illegible]
+[/Handwritten]

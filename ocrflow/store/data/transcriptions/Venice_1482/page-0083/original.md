@@ -1,37 +1,40 @@
-[Diagram]
+<!-- Running title: V -->
 
-<!-- Running title: [illegible] -->
+Sit itaqʒ primo maior ⁊ ſit.e.g.eritqʒ ꝑ premiſſam.a.c.ad.c.b.ſicut.d.g.ad.g.e. quare.d.g.ad.g.e.ſicut.d.f.ad.f.e. Sequit̃ igit̃ ꝑ.14.ꝙ cũ.d.g.p̃ma ſit mĩor.d.f.tertia erit.g.e.ſcõa minor.e.f.quarta:ſed erat poſitũ ꝙ eſſet maior. Sit ergo proportio.d.e.ad minorẽ.e.f.que ſit.e.b.ſicut.a.b.ad.b.c.eritqʒ ꝑ p̃miſſã.a.c.ad.c.b.ſicut.d.b.ad.b.e.q̃re ꝑ.11.d.b.ad.b.e.ſicut.d.f.ad.f.e.⁊ qʒ.d.b.p̃ma ẽ maior d.f.tertia erit ꝑ.14.e.b.ſcõa maior.e.f.tertia:ꝙ quia eſt ipoſſibile.ſequit̃ ꝓpoſitũ.
 
-Sit itas primo maior z ſit.e.g. critas ppremiſſant.a.t.ad.c.b. ſicut.d.g.ad.4. & quare. d.g ad.g-e. ſicut. d.f.ad.i, d Sequit igit p.1a- ꝙ cũ. d.g-prima ſit mior d.f¬
+[Diagram: handwritten horizontal lines labelled a, c, b and d, g, f, e]
 
-[Diagram]
+[Handwritten]
+dg df ge e
+[/Handwritten]
 
-tertia erit.g.e. ſcoa minor.e.f. quàrta: ſed erat poſitũ ꝙ eſſet maior. Sit ergo proͬ noutio.d.e adminorẽ. e.f.que ſit.c.b. ſicut. a.b.ad.b.c.eritoz p pmiſſã. a.c.ad.c. h. licut. db. ad.h.e. qre p.1t. d.b. ad.h. e. ſicut. d.f.ad.f.c. 2 q1. d.h. pma ẽ maioz d.f. tcrtia erit p-ia.e.h.ſcoa maior.e. f. tertia: ꝙ quia eſt ipollibile. ſcquit ꝓpoſitũ.
+[Diagram: handwritten horizontal lines labelled a, c, b and d, f, h, e]
 
-## PPropoſitio.19.
+[Handwritten]
+[unclear: db df be fe]
+[/Handwritten]
 
-{dropcap:[illegible]|lines=5|style=decorated}J a ouobus totie oue portiones abſcindantur. fueritozto tum ad totũ quantum abſciſum ad abſciſum: erit reliquum
+## Propoſitio .19.
 
-[Diagram]
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I a duobus totis due portiones abſcindantur.fueritqʒ totum ad totũ quantum abſciſum ad abſciſum:erit reliquum ad reliquum quantum totum ad totum.
 
-ad reliquum quantum totum ad totum.
+[Diagram: two horizontal lines, a 12 e 4 b above c 6 f 2 d]
 
-¶ Do quinta pponit de multiplicibus. bec ꝓponit vniuerſaliter oe l omnibus proportionibus. vnde eſt illa tanto cõmunior quãto mnlti plicitate pportio. Sint igitur ouc quãtitates. a.b.z.c.d.a quibus abſcindant oue que ſint.b.e.2.d.f. ſitoy ꝓportio totius.a.b.ad rotã.t.d.ſicut.b.c.abſciſe ad.d.f.
+¶Qd̃ quinta ꝓponit de multiplicibus. hec ꝓponit vniuerſaliter de omnibus proportionibus. vnde eſt illa tanto cõmunior quãto multiplicitate ꝓportio. Sint igitur due quãtitates.a.b.⁊.c.d.a quibus abſcindant̃ due que ſint.b.e.⁊.d.f.ſitqʒ ꝓportio totius.a.b.ad totã.c.d.ſicut.b.e.abſciſe ad.d.f.abſciſam.dico ꝙ eadem erit.a.e.reſidui ad.c.f.reſiduum que eſt toti⁹.a.b.ad totam.c.d.cũ eni ſit.a.b.ad.c.d.ſicut.b.e.ad.d.f.erit permutatĩ.a.b.ad.b.e.ſicut c.d.ad.d.f.⁊ diſiunctim.a.e.ad.e.b.ſicut.c.f.ad.f.d.⁊ iterũ permutatim.a.e.ad c.f.ſicut.e.b.ad.f.d.⁊ quia ſic erat.a.b.ad.c.d.patet propoſitũ. ¶Ex hac aũt.19.⁊ permutata ꝓportionalitate demonſtratur modus arguendi qui dicit̃ proportionalitas euerſa. vt ſi ſit.a.b.ad.b.e.ſicut.c.d.ad.d.f.dico ꝙ erit.b.a.ad.a.e.ſicut c.d.ad.c.f.quia cũ ſit.a.b.ad.b.e.ſicut.c.d.ad.d.f.erit permutatim.a.b.ad.c.d:ſicut.b.e.ad.d.f.quare per hanc.19.b.a.ad.d.c.ſicut.a.e.ad.c.f.igitur pmutatim b.a.ad.a.e.ſicut.c.d.ad.c.f.qd̃ eſt propoſitum. ¶Conuerſa quoqʒ ꝓportionalitas quã ex diffinitione incõtinue ꝓportionalitatis demonſtrauimus in exponendo principia huius quinti.põt hic quoqʒ demõſtrari indirecte ex pmutata ꝓportionalitate ⁊.9.huius vt ſi ſit proportio.a.ad.b.ſicut.c.ad.d.dico ꝙ erit.b.ad.a.ſicut.d.ad.c.ſin autẽ ſit.d.ad.e.ſicut.b.ad.a.⁊ qʒ.a.ad.b.ẽ ſicut.c.ad.d.erit pmutatim.a.ad.c.ſicut.b.ad.d.⁊ quia iterum.b.ad.a.ſicut.d.ad.e.erit quoqʒ pmutatim.b.ad.d.ſicut.a.ad.e.quare erit.a.ad.e.ſicut.a.ad.c.ſi igitur.e.non ſit equale c.accidet impoſſibile ⁊ contrariuʒ ſecunde partis.9.ſi autem equalis erit.b.ad.a.ſicut.d.ad.c.quod eſt propoſitum.
 
-[Diagram]
+[Handwritten]
+ab.cd. be df
+ae.eb. cf f.d
+ab. ae cd. cf euerſa
+ab be cd df
+a.b.c.d. [unclear: ba de p̃m]
+b.a a.c b d pmutat̃
+[/Handwritten]
 
-abſciſam. bico ꝙ cadem crit. a.e. reſidui ad.c.f. reſiduum que eſt totiꝰ a.b.ad tol tam.c.d.cũ eni ſit. a.b.ad.c.d.ſicut.b.c.ad. d.f.erit permutati. a. b.ad. b.e. ficut c.d.ad. d.f.c biſiunctim. a.c.ad.e. b. ficut. c.f.ad.f. d.z itcrũ permutatim.a.e. ad c.f.ſicut.e.b.ad.f.d.z quia fic erat.a.b.ad.c.d. patet propolitũ.
+## Propoſitio .20.
 
-¶ Ey bac aũt.19. z permutata ꝓportionalitate demonſtrarur modus arguendi qui oicit proportio nalitas eucrſa. vt ſi ſit. a.b.ad.b.e. ſicut.c. d.ad.d.f.oico ꝙ erit.b.a.ad.a.e. ſicut c.d.ad. c.f.quia cũ ſit. a. b.ad.b. c.ficut.c.d. ad. d.f.erit permutatim.a.b. ad.c. d: ficut.b.e. ad. d.f. quare per banc.19. b. a. ad. d.c.ſicut. a.e. ad.c.f. igitur pmutatin b.a. ad.a.c. ſicut.c. d.ad.c.f. qo eſt propolitum.
+{dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}I fuerint quotlibet quantitates alieqʒ ſecundũ earum numerum quarum queqʒ due priorum ſecundũ proportionem duarum poſtremarum neceſſe eſt improportionalitate quidã equalitatis vt ſi fuerit prima prioꝝ vltima maior.⁊ poſteriorum primã vltima eſſe maioreʒ.Qd̃ ſi minor ⁊ minorem. Si vero equalis ⁊ equalem.
 
-¶ Conuerſa quoz Pportionali? tas qz ex oiffinitione incõtinue ꝓportionalitatis demonſtrauimus in exponendo principia buins quinti. põt bic quoqy bemõſtrari indirccte ex pmutata pportio? nalitate z.9.buius vt ſi ſit proportio. a.ad. b.ſicut. c.ad. d.oico ꝙ crit. b.ad. a.ſi? cut. d.ad.c.ſin autẽ ſit. d.ad.c. ficut. b.ad.a. 2q1.a. ad.b. ẽ ſicut. c. ad. d.crit pmu? tatim. a. ad.c.licut. b.ad. d.z quia iterum. b.ad. a.ficut. d.ad. es erit quoz pmuta tim.b.ad.d.ficut. a.ad.e. quare erit.a.ad.e.ficut.d.ad.c.ſi igitur. e. non ſit equale e.accidet impoſſibile z contrariuz ſccunde partis. 9. ſi autem equalis crit.b. ad.a. ſicut. d.ad.c. quod eſt propoſitum.
+[Diagram: handwritten horizontal lines labelled a, b, e with numbers 12, 6, 3 beside lines labelled d, e, f with numbers 16, 8, 4]
 
-## Propoſitio. 20.
-
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint quollibet quantitates alieqz ſecnndũ carum nu merum quarum queoz oue priorum ſecnndũ proportio? nem onarum poſtremarum neceſle eſt improportionali
-
-[Diagram]
-
-tate quidãequalitatis vt ſi fuerit prima prioy vltima ma ior. ⁊ poſteriorum primã vltima eſſe maiorez. Ob ſi mi, Oz ⁊minorem. Oi vero equalis z equalem.
-
-¶ Demõſtraturus euclides modũ arguendi qui bicit eq̃ pportionalitas fiue q̃nti tatcs ouoy ordinũ oirecte ſiue puerſim ꝓportionẽt: p̃mitrit ouo añcedẽtia ad beꝰ mõſtrãdũ ppoſitũ neceſſaria: p quox pmũ demõſtrat eq̃ pportõalitas cũ q̃ntita, tes ouoy ordinũ oirecte pportionãt: ꝑ bm aũt cũ xportionar puerſim pponit aũt bec ouo añcedetia de q̃ntiratibꝰ ouoy ordinũ numero eq̃libꝰ quecũqz luerit. Ilr cni ſumptis vrrobiaz quãtitatbꝰ ſcom quẽcunqz numcrum vertatem babẽt. nõẽ
+¶Demõſtraturus euclides modũ arguendi qui dicit̃ eq̃ ꝓportionalitas ſiue q̃ntitates duoꝝ ordinũ directe ſiue ꝑuerſim ꝓportionẽt̃:p̃mittit duo añcedẽtia ad demõſtrãdũ ꝓpoſitũ neceſſaria:ꝑ quoꝝ p̃mũ demõſtrat̃ eq̃ ꝓportõalitas cũ q̃ntitates duoꝝ ordinũ directe ꝓportionãt̃:ꝑ ſm̃ aũt cũ ꝓportionãt̃ ꝑuerſim ꝓponit aũt hec duo añcedetia de q̃ntitatib⁹ duoꝝ ordinũ numero eq̃lib⁹ quecũqʒ fuerit. Vl̃r eni ſumptis vtrobiqʒ quãtitatib⁹ ſcõm quẽcunqʒ numerum veritatem habẽt.nõ ẽ

@@ -1,29 +1,15 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: III -->
 
-ni impoſlibile eſt
+pi impoſſibile eſt¶Angulum autem ab illa ⁊ circũferentia contentũ. omnium acutorum angulorum eſſe anguſtiſſimum.¶Angulum vero intrinſecum a diametro ⁊ circumferentia contentum omnium angulorum acutorum eſſe ampliſſimum neceſſe eſt.¶Unde etiam manifeſtũ eſt omnem lineam rectam a termio diametri cuiuſlibet circuli orthogonaliter ductam circulum ipſum contingere.
 
-¶ Angulum autem ab illa ⁊z circũferentia contentui.
+¶Sit vt a termio a diametri.a.c.circuli.a.b.c.cuiꝰcẽtꝝ.d.ducaꝛ linea orthogonaliter:dico ꝙ ipſa cadit extra circulum.⁊ ꝙ inter lineam illam ⁊ circũferentiã nulla alia recta linea itercipiꝛ:⁊ ꝙ angulus quẽ ipſa ⁊ circũferẽtia cõtinet ẽ minor omni angulo rectilineo qui videlicet a duabus rectis lineis continetur.⁊ ꝙ angulus cõtentus a diametro ⁊ circumferentia eſt maior omni angulo rectilineo acuto.¶Si enim linea ducta ab.a.orthogonaliter ſuper.a.c.lineam:poteſt cadere infra circulũ.ſit illa linea.a.b.⁊ ducatur linea.d.b.eritqʒ per.5.primi angulꝰ.d.a.b.equalis angulo.d.b.a.⁊ quia angulus.d.b.a.eſt rectus per ypotheſim.habebit triangulus.a.b.d.duos angulos rectos quod eſt impoſſibile.p.32.primi:¶Cadet ergo extra ſitqʒ.a.c.ꝙ ſi inter ipſam ⁊ circũferentiã põt linea recta intercipi ſit illa a.f.ad quã ducaꝛ perpendicularis.d.g.⁊ quia angulus.d.g.a.eſt rectus.erit p.18. primi linea.a.d.longior linea.d.g.quod eſt impoſſibile.quare inter ipſam ⁊ circũferentiã nulla linea recta intercipieꝛ.¶Propter quod patet ꝙ angulꝰcõtentus.ab e.a.⁊ circũferentia qui dicitur angulus contingentie ẽ minor omni angulo a duabus rectis lineis contento.Si enim aliquis rectilineus angulus eſſet angulo cõtingentie equalis.aut eo minor cum omnis talis poſſit per equalia diuidi ſecũdũ doctrinaʒ.9.primi inter lineã.a.c.⁊ circũferentiam poſſet linea recta itercipi ꝙ monſtrauimus eſſe nõ poſſe.per quod patet angulum contentum a diametro ⁊ circũferentia omnium acutorum rectilineorum eſſe maiorem.quia non differt a recto niſi in angulo contingentie quem monſtrauimus eſſe minorem omni rectilineo.¶Correlariũ patet per primam partem.Cum enim linea.a.c.in vtrãqʒ partem erecta non ſecet circulum ⁊ tangat ipſum in puncto.a.ipſa eſt contingens ꝑ diffinitionem.
 
-[Diagram]
+[Margin]
+[Diagram: circle with vertical diameter a.c and centre d, a horizontal tangent line at a, points e, g and f at the upper right outside the circle, point b on the right of the circumference, with lines drawn from d to a, b and the points near the tangent]
+[/Margin]
 
-omnium acutorum angulorum eſſe anguſtiſlimum.
+¶Ex hoc notandum ꝙ nõ valet iſta argumentatio.hoc tranſit a minori ad maius.⁊ per omnia media.ergo per equale.nec iſta contingit reperire maius hoc ⁊ minus eodem ergo cõtingit reperire equale.hoc autem ſic patet. Sit circulus.a.b.ſuper centrum.c.cuius diameter.a.c.b.⁊ ducatur ab eius termino a.linea.a.d.orthogonaliter:eritqʒ contingens circulum per correlarium huius. Deſcribaꝛ iterũ ſup pũctũ.a.ſm̃ quãtitatẽ diametri.a.b.circulꝰ.b.e.d.⁊ imagineꝛ linea.a.b.moueri ſuper punctum.a.per circumferentiam arcus.b.e.d.ita ꝙ punctum.b.numeret omnia puncta arcus.b.e.d.quouſqʒ perueniat ad lineam.a.d. ⁊ cooperiat ipſam.⁊ quia angulus.b.a.d.eſt rectus:erit vt nõ ſit ſumere aliquem angulum acutum cui equalẽ non fecerit linea.a.b.cum diametro.a.c.b.minoris circuli.quia tranſiuit ad angulum rectum dinumerans ſitum omnium angulorum acutorum quorum manifeſtum eſt quoſdam eſſe minores angulo ſemicirculi contento a ſemicircumferentia.a.b.⁊ diametro.a.c.b.⁊ angulum rectum manifeſtum eſt eſſe maiorem eodem.Dico ꝙ nullus in tranſitu ab acutis minoribus ad recto maiorẽ intermedius fuit ei equalis.Si eni fuerit aliquis:ſit vt illũ fecerit linea.a.b.cum punctus.b.fuit in puncto.e.arcus.b.e.d.quia ergo angulus
 
-¶ Angulum vero intrinſecum a diametro z circumferentia contentum omnium angulo rum acntorum eſſe ampliſſimum necelle cit.
-
-¶ Mnde etiam manileſtũ eſt omnem lineam rectam a termio diametri cuiuilibet circnli oztbo gonaliter ouctam circulum ipſum contingere.
-
-¶ Sit vt a termio a oiametri. a. c.circuli. a.b.c. cuiꝰcẽty. d. oucat linca ortbogona liter: oico ꝙ ipſa cadit eytra circuluin.z ꝙ inter lincam illam ⁊z circũferentiã nulla alia recta linca itercipit: z ꝙ angulus que ipſa z circũferẽtia cõtinet ẽ minor omni angnlo rectilineo qui vidclicet a ouabus rectis lincis continctur. ꝙ angulus cõ tentus a piamctro z circumferentia eſt maior omni angulo rectilineo acuto.
-
-¶Si enim linea oucta. ab. a ortbogonaliter ſuper. a. c.lincam: poteſt cadere infra cir, culũ. ſit illa linca. a. b. z oucatur linea. d.b. critoy per.5 primi angulꝰ d.a. b. cqua lis angulo. d.b. a. z quia angulus. d.b.a.eſt rectus per ypotbeſim.babebit trian? gulus.a.b. d.ouos angulos rectos quod eſt impoſſibile. p.3z primi:
-
-¶ Cadet er! so eytra ſirq.a.c.ꝙ li inter ipſam z circũferentiã põt linca recta intercipi ſit illa a.f.ad quã oucai perpendicularis. d.g. ⁊ quia angulus. d.g.a. eſt rectus. crit p.16. primi linea.a. d. longior linea. d.g-quod eſt impoſſibilc, quarc inter ipſam z circũ ferentiã nulla linca recta intcrcipier.
-
-¶ Propter quod paict q angulꝰcõtentus. ab c.a. circũfcrentia qui oicitur angulus contingentie e minor omni angulo a ouaꝰ bus rectis lincis contento. Si enim aliquis rectilincus angulus eſſet angulo cõtin gentic equalis. aut co minor cum omnis talis poſſit per cqualia oiuidi ſecũdũ oo ctrina;-o primi intcr lincã. a.c.z circũfereutiam poſſet linea recta itercipi ꝙ mon ſtrauimus eſſc nõ poſſe. per quod parct anguluni contentum a diamctro t circũ,
-
-[Diagram]
-
-ferentia omnium acutorum rectilincoruni eſſe maiorem. quia non oiffcrt a recto niſi in anguio contingentie quem monſtrauimus eſſe minorem omni rectili? neo.
-
-¶ Conclariũ patet per primam partem. Cum enim liuea.a. c.in vtrãdz par? tem crecta non ſecet circulum z tangat ipſum in puncto. a. ipla eſt contingens p oiffinitioncm.
-
-¶ Ex boc notandum ꝙ nõ valct iſta argumentatio. boc tranſit a minori ad maius. z pcr omnia media. crgo per equalc. nec iſta contingit reperire maius boc z minus codem ergo cõtingit reperire cqualc. boc autem ſic patet. Sit circulus.a.b. ſuper centrum.c. cuins oiameicr. a.c.b. z oucatur ab eius termino a.linca. a.d.ortbogonaliter: eritqz contingens circulum per conclarium buius. Deſcribai itcrũ ſup pũctũ. a.bin quãtitatẽ oiametri.a.b. circulꝰ. b.e. d.z imaginet linea.a.b. moueri ſuper punctum. a. per circumferentiam arcus.b.c. d.ita ꝙ pun, ctuni.b.numeret omnia puncta arcus.b.e. d. quouſoy perueniat ad lincam. a.d. z cooperiat ipſam. z quia angulus. b.a.d.eſt rectus: erit vt nõ ſit ſumere aliquem angulum acutum cui equalẽ non fecerit linea.a.b. cum oiamctro. a.c.b. minoris circuli,quia tranſiuit ad angulum rectum oinumcrans ſitum omnium angulorum acutorum quorum manifeſtum eſt quoſdam eſſe minoyes angulo ſcmicirculi con tento a ſemnicircumfcrentia. a.b. T oiametro. a.c.b. z angulum rectum mani? ffeſtum eſt eſſe maiorem eodem. Dico ꝙ nullus in tranſitu ab acutis minoribus ad recto maiore intcrmedius fuit ei equalis. Si cni fucrit aliquis:ſit vt ilũ fecerit linea.a.b. cum punctus. b.fuit in puncto.e. arcus.b. e. d. quia crgo angulus
+[Margin]
+[Diagram: larger circle with vertical diameter through a and b and a horizontal line from the left to a, point d on the right of the circumference, a smaller circle inside with centre c touching the larger circle at b, with lines drawn from a to d and to points on the lower right]
+[/Margin]

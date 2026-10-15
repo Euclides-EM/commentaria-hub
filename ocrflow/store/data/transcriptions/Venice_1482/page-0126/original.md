@@ -1,27 +1,31 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-t.b.ad Equut.e ad.c.2. g.ad b. II.Ead.I.qr jt. d ads. ideou fmn coua po Ea.adS.vE D.adI todudunt igiir. a adb.copont er qutsuo b.s l. roiu cud sed non necellario aſſumpto. Propoſitio.6.
+vt.b.ad.k.qꝛ ut.c.ad.e.⁊.g.ad.b.vt.k.ad.l.qꝛ vt.d.ad.f.ideoqʒ ſm̃ equã ꝓpoꝛ.⁊.a.ad.b.vt.h.ad.l.cõcludunt igitur.a.ad.b.cõponi ex quibus.h.⁊.l.verũ quidẽ ſed non neceſſario aſſumpto.
 
-## [illegible]
+## Propoſitio .6.
 
-{dropcap:[illegible]|lines=5|style=decorated}J numerorum quotlibet continue proportionalium puii
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I numerorum quotlibet continue proportionalium primus ſcd̃m non numeret:nullus eoꝝ numerabit vltimumt
 
-[Diagram]
+¶Sint.a.b.c.d.e.continue ꝓportionales.dico ꝙ ſi.a.nõ numeret.b.nullus eoꝝ numerabit.e.Manifeſtũ aũt eſt ꝙ ſi ipſum numeret omnes numerabunt.e.⁊ ſimpliciter quilibet p̄cedens quẽlibet ſequẽtem.Si autẽ non numerat ipſum patet ꝙ.d.nõ numerabit.e.nec ſimplr aliq̃s eorum ꝓximo ſequentẽ:qꝛ ſunt poſiti continue ꝓportionales:ſed ꝙ nullus aliꝰ ut.c.numeret ipſum ſic conſtat:ſumant̃ ſm̃ doctrinã ſcd̃e huius totidẽ minimi cõtinue proportionales in ꝓportione eadẽ quot ſũt ipſe.c.⁊ oẽs ſequẽtes qui ſunt.f.g.h:eruntqʒ ꝑ.3.huiꝰ.⁊.f.⁊.h.ꝯ̃ ſe primi:⁊ qꝛ ꝑ equã ꝓportionẽ.c.ad.e.vt.f.ad.h.cũ f.non numeret.h.nec.c.numerabit.e.eodem modo nec aliquis alioꝝ:quare liquet quod propoſitum eſt.
 
-Imuo ſcoim non numeret:nullus coy numer abit vltimumt (ont.a b.s. d. c.conpnne ppornondles. cies v li a no momere S molis toy norerabit e frs amisciu aut el gu ipion mnae lonnes nomerobunt. e. s fimpiciter quiibe peedens queibet lemue ltemn. Si auté non numerat ipſum patet ꝙ. d.nõ numerabit.c. nec ſimolr alidse ruin prino ſequenté,q ſunt poſui contue nporions coiled q mluo ail’utc. nomeret ipſum ſic conſtat: ſumant bm ooctrina ſcce buius toide niinimi connu piopoionles in mponione cadé quor ſut ipſe.c.x oio ſequeico qut ſunt f.a Ne crintoy pz buc af.z.b S̃ ſe puiniss qup cqus ppontione. cade. vt. ſ.ad. b ai Anon numnera b. neesmnumerabits. eodemn modo nes allquis aloy qure lanr quod propoſitum eſt.
+[Diagram: five segments of increasing length labelled a, b, c, d and e, beside three segments labelled f, g and h]
 
-## Propoſino .1.
+## Propoſitio .7.
 
-{dropcap:[illegible]|lines=5|style=decorated}J numeroy cõrinne proportionalium primus vltimũ nu meret: doin iple z ſecundum numerabit. qoint qu pu' tontume ppornonales, pico ll a numerat.c.iple nu nerabis.b. alicouin cr promila non numeraret.e qbe contranuei I mpoiſioie. no ſclum aurté nomerabis. b. ſed sois c oulay conm quelibet ipſum ſequentem.
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I numeroꝝ cõtinue proportionalium primus vltimũ numeret: idem ipſe ⁊ ſecundum numerabit.
 
-## Propoſitio.8.
+¶Sint qui priꝰ continue ꝓportionales.dico ſi.a.numerat.e.ipſe numerabit.b.alioquin ex premiſſa non numeraret.e.qꝺ ē contrariũ et impoſſibile.Nõ ſolum autẽ numerabit.b.ſed ⁊ oẽs ⁊ quiſqʒ eorum quẽlibet ipſum ſequentem.
 
-{dropcap:[illegible]|lines=5|style=decorated}F inter vuos numeros numeri quoliber in cõtinna pro¬ ppornonalitate ceciderint: totidem inter oinnes ouos in seadem proportione relaros cadere necelle eſt. (i oint à 2 b. mter qroncomts c.e d in corms xponione bbe?
+## Propoſitio .8.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I inter duos numeros numeri quotlibet in cõtinua proportionalitate ceciderint: totidem inter omnes duos in eadem proportione relatos cadere neceſſe eſt.
 
-l'es ſe in propouione. e ads. vico q ioiidé cadunt uter e el.si ca doin proponione quor tnter a. &.b. Sunt eni. gh. El, toiſde minimi quot ſunt a. Eb, qui inter cos cadunt ſumpn, quendmodu vocer ſecuda buiuns counue po¬ tionsles in cade pportiones crunioy p.i b.t l.totra ſe pumies a per cous mpor¬ cnt.s.ad l. ſicut. a ad b. ideouy zſicut.e.ad.f.c o ipli ſunt in ſua ppontione mi¬ mini p'ay ſeptimni ſcquit per.xi ciuſde nt, g nomeret e.z ll, cquauiter: toilenx ini tur numneres am.a .an poſinſas m, e n inter e. t.l. conffat p is ſcptont, em¬ nl. dſe cotime pporiondles: quendmodus font s b Rl.s ides quéndmodus y¬ dt auare pater qusd oiou e tr pac conſiat muilis ſupilolare pole per scqis oini deſi eni be dler onpuercr inter vuos numcron ſola vniate pitantes nomeromi cadere medium quod effe no põts idcooy tonuo in mulica que ſerqiocs conpmer Poiior in ouo vera ſomnitonia ouuidi non poreſt ſcd necellano piuidit in minu¬ ſanitonium et maius.
+¶Sint.a.⁊.b.inter quos cadunt.c.⁊.d.in cõtinua ꝓportione habẽtes ſe in proportione.e.ad.f.dico ꝙ totidẽ cadunt inter.e.⁊.f.⁊ ī eadem proportione quot inter.a.⁊.b.Sint enī.g.h.k.l.totidẽ minimi quot ſunt.a.⁊.b.qui inter eos cadunt ſumpti.quẽadmodũ docet ſecũda huius cõtinue ꝓportionales in eadẽ ꝓportione:eruntqʒ ꝑ.3.g.⁊.l.cõtra ſe primi:⁊ per equã ꝓpoꝛ.erit.g.ad.l.ſicut.a.ad.b.ideoqʒ ⁊ ſicut.e.ad.f.⁊ qꝛ ipſi ſunt in ſua ꝓportione minimi ꝑ.23.ſeptimi.ſequit̃ per.21.eiuſdẽ ut.g.numeret.e.⁊.l.f.equaliter:totiens igitur numeret.h.m.⁊.k.n.poſitiſqʒ.m.⁊.n.inter.e.⁊.f.conſtat ꝑ.18.ſeptimi.e.m.n.f.eſſe cõtinue ꝓportionales:quẽadmodũ ſunt.g.h.k.l.⁊ ideo quẽadmodũ.a.c.d.b.quare patet quod dictũ ē.Ex hac conſtat nullã ſuꝑticularẽ poſſe per eq̃lia diuidi:ſi enī hoc eſſet opoꝛteret inter duos numeros ſola vnitate diſtantes numerum cadere medium quod eſſe nõ põt: ideoqʒ tonus in muſica quẽ ſexquioctã continet ꝓportio: in duo vera ſemitonia diuidi non poteſt:ſed neceſſario diuidit̃ in minus ſemitonium et maius.
 
-## Propoſitio9.
+[Diagram: segments labelled a, c, d and b beside segments labelled g, h, k and l, beside segments labelled e, m, n and f]
 
-{dropcap:[illegible]|lines=5|style=decorated}S inter duos nmneros dlra ſe primos numeri quorlibe soninna pportionalitate ceciderint inter vrruas eorums onitate totlden cõtinna ppoitonalitate cadere necellee. (oint a. ct b. oira ſe primi ainter ouos cadt incorinua propont.s la oieo y torde crunt contimne ppomiondles miersne vnitatené g iondon mier S,s vnitaie out oon mr ila popouteuie mimimie. s. Lhompuve nva n ſuimni sr qupus ſuonoins mres coiure peyonienils amiuenr aeii
+## Propoſitio 9.
+
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I inter duos numeros ꝯtra ſe primos numeri quotlibet cõtinua ꝓportionalitate ceciderint: inter vtrũqʒ eorum ⁊ vnitatẽ totidem cõtinua ꝓportionalitate cadere neceſſe ē.
+
+¶Sint.a.et.b.ꝯtra ſe primi.inter quos cadat incõtinua propoꝛ.c.⁊ d.dico ꝙ totidẽ erunt continue ꝓportionales inter.a.⁊ vnitatẽ:itẽqʒ totidem inter.b.⁊ vnitatẽ.Sint enī in illa proportione minimi.e.⁊.f.ſumpti ut docet.34.ſeptimi:ex quibus ſumant̃ tres cõtinue proportionales et minimi ī eoꝝ

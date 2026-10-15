@@ -1,37 +1,33 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
 ## Propoſitio 2
 
-{dropcap:[illegible]|lines=5|style=decorated}J ex buctu alterins in alterum tetragonus pducatur. ouo quilibet numeri ſunt ſuperficiales ſimiles. Ex bis itaqy pa tens eſt: quia ſi tetragonns in tetragonum oucatur qui ey eis producetur tetragonum eſle. Oi vero er ouctu tetra goni in numerũ aliquẽ tetragonus producatur illũ nume rum aliquẽ elle tetragonũ. Itẽqz ſi ex ouctu retragoni in numex ali quẽ non tetragonus producatur eũ numerum aliquẽ non tetragonũ eſle. Si vero tetragonus in numey aliquẽ non tetragonum oucatur:
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I ex ductu alterius in alterum tetragonus ꝓducatur.duo quilibet numeri ſunt ſuperficiales ſimiles.Ex his itaqʒ patens eſt:quia ſi tetragonus in tetragonum ducatur qui ex eis producetur tetragonum eſſe.Si vero ex ductu tetragoni in numerũ aliquẽ tetragonus producatur illũ numerum aliquẽ eſſe tetragonũ.Itẽqʒ ſi ex ductu tetragoni in numeꝝ aliquẽ non tetragonus producatur eũ numerum aliquẽ non tetragonũ eſſe.Si vero tetragonus in numeꝝ aliquẽ non tetragonum ducatur:qui inde producetur non tetragonum eſſe neceſſe eſt.
 
-[Diagram]
+¶Hec eſt ꝯuerſa prioris vt ſi ex.a.in.b.fiat.c.fueritqʒ.c.quadratus:erunt.a.⁊.b.ſupficiales ſimiles.ſit enī.d.ex.a.in ſe.eritqʒ per.18.ſeptimi.d.ad.c.ſicut.a.ad.b.per.16.aut.8.cum.d.⁊.c.ſint ſupficiales ſimiles:eo ꝙ ſũt ambo quadrati.erit inter eos vnus numerus mediꝰ ſm̃ cõtinuã propoꝛ.ꝑ.8.itaqʒ eiuſdẽ erit etiam vnus inter.a.⁊.b.igitur ꝑ.17.eiuſdẽ.a.⁊.b.ſunt ſuperficiales ſil'es:quod eſt propoſitum Prima ps correl'.patet ꝑ premiſſam:ſunt enī omnes tetragoni ſupficiales ſimiles ſcõa patet ex hac cũ ſit ſolus tetragonus ſil'is tetragono.Tertia ps patet ex prima ipſius correl'.pte a deſtructione ꝯſequẽtis.quarta vero pʒ ex eiuſdẽ pte ſcõa a deſtructione etiã ꝯſequẽtis.
 
-qui inde producetur non tetragonum eſſe neceſſe eſt. dnec eſt ouerſa prioris vt ſi ex.a.in.b.fiat.c.fuerit.c. quadratus: erunt.a. 2.b. lupficialcs ſimiles. ſit eni.d.ey.a.in ſe. crit per.1s.ſeptimi. d.ad.c. ſicut.a.ad.b. per-is. aut.s.cum. d.t.c. ſint ſupficialcs fimilcs: co ꝙ ſũt ambo quadratl. erit in ter eos vnus numerus mediꝰ bm cõrinuã propor.p.S. ita ciuſdẽ crit etiam vnus inter. a.2.b.igitur paiz cinſdẽ. a.t.b. funt ſupcrficiales ſiles: quod eſt propoſitum Prima ps conel. patet p premiſſam: ſunt eni omnes terragoni ſupficiales ſimilcs ſcoa patet ex bac cũ lit ſolus tetragonus fills tetragono. Tertia ps patet ex prima iplius concl. pte a peſtrucrione picquẽtis. quarta vero py er cinlde pte ſcca a de ſtructione enã oſequẽtis.
+[Diagram: segments labelled b and a above segments labelled c and d]
 
-## Propoſitio 3.
+## Propoſitio .3.
 
-{dropcap:[illegible]|lines=5|style=decorated}J numerus cubus in ſe ipſum oucatur qui inde produce tur erit cubus.
+{dropcap:S|lines=4|style=decorated|decoration="white foliate initial on black ground"}I numerus cubus in ſe ipſum ducatur qui inde producetur erit cubus.
 
-[Diagram]
+¶Sit.a.cubus ex quo in ſe ducto fiat.b.dico.b.eſſe cubũ.ſit enī.c.latus cubicũ.a.ex.c.vero in ſe fiat.d.patet itaqʒ ꝙ ex.c.in.d.ſit.a.ſunt igitur vnitas.c.d.a.ꝯtinue ꝓportionales:qd̃ ex.18.ſeptimi ⁊ p̃ſentibus ypotheſibus manifeſtũ eſt:⁊ quia eſt.a.ad.b.ſicut vnitas ad.a.eo ꝙ quotiens vnitas ē ī.a.totiẽs.a.in.b.erũt iter.a.⁊.b.duo numeri medij ſm̃ ꝓportionalitatẽ ꝯtinuã per.8.octaui:cum igit̃ ex ypotheſi ſit.a.cubus erit per.21.eiuſdem.b.quoqʒ cubus:qd̃ oportebat demõſtrare.
 
-¶Sit. a. cubus er quo in ſe oucto fiat. b. oico. b.eſſe cubũ. ſit eni.6. latus cubicũ.a.er. c. vero in ſe fiat.d. paret itay q er. c.in. diſit.a. sunt igitur vniras.c. d.a. ptinuc pportionales: qocr.is. ſeprimi ⁊ pl ſentibns pporbeſibns manileſtũ eſt: z quia eſt.a. ad.b.ſicut vnitas ad.a.co q quo tiens vnitas ẽi.a.totiẽs. a.in.b.erũtiter. a.t.b. ouo numeri medi bi ꝓpouriona litatẽ prinnã per.8. octaui:cum igii ex oibeſi ſit.a.cubus erit per.2t. euuſdcin.b. quouz cubns: qo opouebat demõſtrare.
+[Diagram: horizontal segments of decreasing length labelled b, a, d, c and 1]
 
-## ſpropoſitio.a.
+## Propoſitio .4.
 
-{dropcap:[illegible]|lines=5|style=decorated}y cubns i alium cubum oncatur. qui inde producetur erit cnbus.
+{dropcap:S|lines=4|style=decorated|decoration="white foliate initial on black ground"}I cubus ī alium cubum ducatur.qui inde producetur erit cubus.
 
-[Diagram]
+¶Sint.a.⁊.b.cubi:fiatqʒ.c.ex.a.in.b.dico.c.eſſe cubum.fiat enim d.ex.a.in ſe.eritqʒ per premiſſã.d.cubus ⁊ qꝛ per.18.ſeptimi ē.a.ad b.ſicut.d.ad.c.conſtat ex.23.octaui.c.eē cubum:qd̃ eſt propoſitum.
 
-¶Oint. a. 2.b.cubi fiat c.er.a.in.b. pico. c. eſſe cubum. fiat enim d.ey.a.in ſe. erit per premiſſã. d.cubus zor per.18. ſcptimi ẽ..ad lb.ſicut. d.adc.conſtat ey ay ogroui.c.cé cubum: qo eſt propoſitumn. Propoſitio.3
+[Diagram: segments labelled a and b above segments labelled d and c]
 
-## [illegible]
+## Propoſitio .5.
 
-{dropcap:[illegible]|lines=5|style=decorated}Jnumerus cubus in numey alinm oucatur: fuerirqz pro ductus cnbns in quẽ ouctus ẽ numerum cubum clle necel se eſt. vnde z manifeſtũ eſt: quia er onctu cubi in nõ cnbũ producitur non cubus. Ductoqz cubo in numey aliquem
+{dropcap:S|lines=5|style=decorated|decoration="white foliate initial on black ground"}I numerus cubus in numeꝝ alium ducatur:fueritqʒ productus cubus in quẽ ductus ē numerum cubum eſſe neceſſe eſt.vnde ⁊ manifeſtũ eſt:quia ex ductu cubi in nõ cubũ producitur non cubus.Ductoqʒ cubo in numeꝝ aliquem ſi fuerit qui inde producitur non cubus in quẽ ille ductus fuerit neceſſe eſt eſſe non cubum.
 
-[Diagram]
+¶Sit enī ex.a.cubo in.b.numeꝝ ꝓductꝰ.c.cubꝰ dico.b.eē cubũ:fiat enī.d.ex.a.ī ſe qui ꝑ antep̃miſſã erit cubꝰ:qꝛ igit̃ ē ꝑ.18.ſep.a.ad.b.ſicut.d.ad.c.eſtqʒ.a.cubus ſʒ ⁊.d.⁊.c.cubi erit ꝑ.23.octaui.b.cubꝰ qd̃ ē ꝓpoſitũ: p̃ma ps correl'.patet ex hac quinta a deſtructione ꝯñtis.ſcõa per p̃miſſam ſil'r a deſtructione cõſequentis.
 
-ſi fuerit qui inde producitur non cubns in quẽ il le ouctus fuerit neceſſe eſt eſle non cubum.
-
-¶Oit eni cy.a. cubo in. b. numey pductꝰ. c.cubꝰ oico. b.cẽ cubũ: fiat eni. d. cr.a.i ſe qui p antepmilſã erit cubꝰ: qu igit ẽ p.is.ſep.a.ad.b.ſicut.d.ad.c.eſto-a.cubus 652.d.2.t. cubi erit p.ay octaui. b. cubꝰ qbẽ ppofitu: pma ps conel parct crpac quinta a beſtrucnone ontis ſcta per pmniſſam ſilr a deſtrucione toſcquentio.
-
-<!-- Page number: [illegible] -->
+[Diagram: segments labelled b and a above segments labelled c and d]

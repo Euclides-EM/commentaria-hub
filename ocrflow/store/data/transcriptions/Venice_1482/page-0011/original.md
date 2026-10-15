@@ -1,27 +1,15 @@
-rurſns alterã cius eytremitatem.. punctũ b. faciam centrũ: z per candem petitio non bm euſdem quantitatem lineabo circilum c.a. d.h.qui dirculi interſecabũt le in onobus punctis: que ſint. c.d.z alteram puaru ſectionum: ſicut ſectionem. d. continmabo cum ambabns eytremitatibus oate lince protractis lincis. d.a. d.b. per pumã petitionem: quia crgo a puncio a. q eſt centrum circuli.c.b.d. ptra, cte ſunt lince a. d.⁊ a.b.vſg ad eins circuiferentiam ipſe crunt cquales per biffini tionem circoli. Similiter quooy: quia a puncio b. quod eſt centrum circuli. c.a.d. notracte ſunt lince b.a.z.a. d. vqy ad eus circuiferentiã iple cerunt ẽt equales: qa ergo vtraqy ouara lincaru, a d.b.d equalis e linec a. b.vr probatum eſt:iple erut
+rurſus alterã eius extremitatem.ſ.punctũ b.faciam centrũ: ⁊ per eandem petitionem ⁊ ſm̃ eiuſdem quantitatem lineabo circulum c.a.d.b.qui circuli interſecabũt ſe in duobus punctis:que ſint.c.d.⁊ alteram duarũ ſectionum:ſicut ſectionem.d. continuabo cum ambabus extremitatibus date linee ꝓtractis lineis.d.a.d.b. per primã petitionem: quia ergo a puncto a.qð eſt centrum circuli.c.b.d. ꝓtracte ſunt linee a.d.⁊ a.b.vſqʒ ad eius circũferentiam ipſe erunt equales per diffinitionem circuli. Similiter quoqʒ: quia a puncto b. quod eſt centrum circuli.c.a.d. ꝓtracte ſunt linee b.a.⁊.a.d. vſqʒ ad eius circũferentiã ipſe erunt ẽt equales: q̃a ergo vtraqʒ duarũ linearũ.a.d.b.d.equalis ẽ linee a.b.vt probatum eſt:ipſe erũt equales inter ſe per primã cõceptionẽ:ergo ſuper datam lineam collocauimus triangulum equilaterũ:quod eſt ꝓpoſitum. ¶ Si autẽ ſuper eandẽ lineaʒ libeat collocare reliquas duas trianguloꝝ ſpẽs.ſcʒ.triangulũ duũ eq̃liũ laterũ ⁊ triangulũ triũ inequaliũ laterũ. ꝓtrahat᷑ linea.a.b.ĩ vtrãqʒ ptem vſqʒ quo occurret circũferentie amboꝝ circuloꝝ:ſup duo pũcta.f.⁊.h.⁊ poſito cẽtro ĩ pũcto.a.lineet᷑ circulus.e.h.g.ſm̃ quãtitatẽ linee.a.h. Itẽqʒ poſito centro in pũcto.b.lineet᷑ circulꝰ.e.f.g.ſm̃ quantitatẽ linee.b.f.hi aũt circuli interſecabũt ſe ĩ duob⁹ pũctis q̃ ſũt e.g. Coniungant᷑ igit᷑ extremitates date linee cũ altera dictarũ ſectionũ ꝑ duas lineas rectas q̃ ſunt.a.g.b.g.⁊ quia he linee a.b.⁊.a.f.exeunt a centro circuli.c.d.f.ad eius circũferentiã ipſe erũt equales. Siꝉr quoqʒ.a.b.⁊.b.h.quia exeũt a centro circuli.c.a.d.h.vſqʒ ad ipſius circũferẽtiã ipſe erũt equales: Quia ergo vtraqʒ duarũ lineaꝝ.a.f.⁊.b.h.equalis eſt linee.a.b.ipſe erunt inter ſe equales.ergo poſito a.b.cõi erit.b.f.equalis.a.h.ſʒ.b.f.eſt equalis.b.g.quia ãbo exeũt a centro circuli.e.f.g.ad eius circũferentiam. Similiꝰ quoqʒ.a.h.eſt equalis.a.g.⁊ vtraqʒ earũ eſt maior.a.b.eo ꝙ vtraqʒ duarũ linearum.b.f.⁊.a.h.maior eſt.a.b. quare ſup datam lineã collocauimus triangulũ duoꝝ equaliũ laterũ: ¶ Triangulũ etiã triũ inequaliũ laterũ ſup eandẽ lineã collocabim⁹:ſi aliqð pũctũ exñs in circũferentia alterutrius duoꝝ maioꝝ circuloꝝ qð nõ ſit in altera duarũ ſectionũ: ⁊ cui nõ obuiet f.h.cũ in vtrãlibet ptem ꝓtracta fuerit in cõtinuũ ⁊ directũ: ꝯiunxerimus ꝑ duas lineas rectas cũ ambab⁹extremitatib⁹ date linee. Sit.n.pũctus.k.ſignat⁹ ĩ circũferentia circuli.e.f.g.⁊ nõ ſit ĩ altera ſectionũ nec occurrat ei.f.h.cũ ꝓtraheret᷑ in ꝯtinuũ: ⁊ directũ vſqʒ ad eius circũferentiã. ꝓtraham ergo lineas.a.k.⁊.b.k.⁊ ſecabit linea.a.k.circũferentiã circuli.e.h.g.ſecet ergo in pũcto.l.eritqʒ.b.k. equalis.a.l.quia.b.k.eſt equalis.b.g.⁊.a.l.equalis.a.g.quare.a.k.eſt maior.b.k.ſed ⁊.b.k.eſt maior.a.b.triangul⁹ergo.a.b.k.eſt triũ inequaliũ laterũ: Sic igitur ſup datam lineam omnes trianguloꝝ ſpecies collocauimus.
 
-[Diagram]
+[Margin]
+[Diagram: two pairs of intersecting circles with points f, a, h and b on a horizontal line, g and k above, l between them, and c and e below, with lines drawn from a and b to g, k and l]
+[/Margin]
 
-cquolcs inter ſe per primã cõceptione ergo ſuper patam lincam collocauimus mri anguium cquilatcrus quod eſt ppoſitum.
+## Propoſitio. 2
 
-¶ oi aute ſuper candé lincaz libcat coi locare reliquas puas trangulor ſpës lc mranguli oun cquns laterui e tranguin tru inequaliũ larerui, pramat linca. a. b.i vrrãoy ptemn vſas quo occurret circuiſe, rente amboy circiloniup ouo pũcta.f.z.h.⁊ poſito cẽtroi pũcto.a.lineet cireu luo c. h'q fm ouatitatélmce, ah. Jrém poſio centro in pucio b. linee ciroul'. c. lia fmn ouantitaié linee. bs. oi aut circui mnicnerabut ſe i puoisꝰ pucis qͥ fute.a¬ L'onungant ſoit cprromtatrco pate lince cu atera bicaru ſesnonn pouaslneas prcerno q funta.s.b'g tonla be liee a b.s a Icrent a centro cirouli. c.d. f.ad eius crcuferentis iple erũt equales. Silr quous, a. b.z. b.h.quia creũt a centro cir cult. c.a d.h vlay ad ipſius circuiſerétis iple cruit cqualeo: Ouia ergo ptrags oua ru lincay a.f.c. b.h. cquali eſt linee.a.b ipſe crunt inter ſe cquales,.ergo poſito a.bsoi crit b'f.cqualis. a. b.ly bef.eſt cqualis.b.g quia abo cyreũt a centro circu? ll e f,g ad ous cirouiſeronttoin Ccimi quogs a b, et compdlis, a g s vraay camn eſt maion.a. b. co ꝙ vtraoy ouari lincarum. b.f.z. a.b maion eſt.a. b. quare ſup
+{dropcap:A|lines=5|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Dato puncto cuilibet linee recte ꝓpoſite equam rectam lineam ducere. ¶ Sit.a.punctus datus ⁊.b.c.linea data volo a puncto.a.ducere lineã vnã equalem linee.b.c.in quãcũqʒ ptem contingat: cõiungam ergo punctũ.a.cum altera extremitate linee.b.c.cum qua voluero.⁊ coniũgã ipſũ.a.cũ extremitate.c.per lineã.a.c.ſuper quã conſtituã triangulũ eq̃laterũ ſm̃ doctrinã p̃cedentis qui ſit.a.c.d.⁊ in illa extremitate linee date cum qua coniunxi punctũ datũ.ſ.in extremitate.c.ponã pedẽ circini imobilẽ ⁊ deſcribã ſuper ipſum circulũ ſm̃ quantitatẽ ipſius date linee q̃ ſit circul⁹.e.b.⁊ latus triãguli
 
-[Diagram]
+[Margin]
+[Diagram: circle with points b, d, a, c, e and f, a horizontal line from b through c, and a small triangle joining d, c and a]
+[/Margin]
 
-[Diagram]
-
-catan lmci coilocauimus trlangulis cuoy cquali lateri:
-
-¶ Trangui erã trun mncqai lateri ſup cande linca colocabin'eſi alios pucu eris in circiſerenpa ierurus onony maioy dronoy do no fit in altera cuaru ſcetionis ecui no cobi mier f'h, cu in viralibc pton prracta fucrit in cotini e pirectui: pinnyerinus p omaelinens rectae cui anbab ertremitans' pate lince. Sit n pucmus fignaé i craiſerentia circuli. e.f.p. a no ſit i altera ſectionui nec occurrat d.t.h. cui prabe rcr in onnoise birecu vlay ad eius circuiferentia. ptrabam crpo lincas. a'l.2b.
-
-[Diagram]
-
-le v ſecabir linea a l. circulercntia cirouli. e.h s ſcret erpo in pucto l. crityy b.E. coualis a laquia b'E eſt cqualis b.s.t.a l.cqualis. a p-quare.a l.cſt maionr b. & ſez b l.eſt maioi a b iriangnl'erpo a b.lt eſt trin incqualiu laterui: oic ſoi rr ſup oatam lincam omnes riangulon ſpecics collocauinus.
-
-## PPropoſitio. 2
-
-{dropcap:[illegible]|lines=5|style=decorated}pato puncto culib er lince recte ppoſite touam ryctain
-
-lineam oucere. ai cir,n punens patus z bc linca cata volo a punco, a oucere le ncea vnã cqualem lince. b c in quãcioy ptemn contingat: counganr lergo puncis.a.cum altcra eyromnitate ſince. b.e cum qua voluero.. conuipi ipin a -ci cprremnirale e per iuncu a cimper aua contis iransuins cqu terui fi oocmia pcedentis qui ſit. a. cd.e in ila ertremitate lince oate coumn qu coninmpi puncu patu ſin ertremitate c ponã pede drcint imnobié e pescrba ſi per ppiun airoui fmn qamiale ppiux paitc linee qur oroi'eh s lansmmipn
-
-<!-- Signature: [illegible] -->
+<!-- Signature: a 3 -->

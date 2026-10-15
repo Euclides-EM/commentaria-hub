@@ -1,29 +1,27 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-g.oni fit ey. a.in.b.z quia.e. 2.f. ſunt eq̃les. erit.g.ad vtrũg corm proportio ona
+g.qui fit ex.a.in.b.⁊ quia.e.⁊.f.ſunt eq̃les.erit.g.ad vtrũqʒ eorum proportio vna ⁊ quia vt prius per.18.g.ad.f.ſicut.a.ad.c.⁊ ad.e.ſicut.b.ad.d.erit.a.ad.c.ſicut.b ad.d.quare permutatim.a.ad.b.ſicut.c.ad.d.Non proponit autem euclides de tribus numeris continue proportionalibus ꝙ ille qui ex ductu primi in tertium ꝓducitur ſit equalis quadrato medij.Et ſi ille qui ex primo in tertium producit̃ fuerit equalis quadrato medij:ꝙ illi tres numeri ſint continue proportionales ſicut proponit in.16.ſexti de tribus lineis.hoc eni facile demonſtratur per hanc.20.medio illorum trium numerorum equali aſſumpto:quẽadmodum in ſexto de tribus lineis probatur per quatuor aſſumpta quatuor equali medie.
 
-[Diagram]
+## Propoſitio 21.
 
-z quia vt prins per.18.g.ad.f.ſicut.a.ad.c. zad.e.ſicut. b.ad.e. erit. a.ad.cſicut. b ad.d quare permutatim. a. ad. b. ficut. c.ad.d. Ion proponit autem cucidea pe tribus numeris continuc proportionalibus ꝙ ille qui er ouctu primi in tertium pl ducitur ſit equalis quadrato medij. Et ſi ille qui ex primo in tertium producir fue? rit cqualis quadrato medij: ꝙ illi tres numeri ſint continue proportionales ſicut proponit in. is. ſexti oe tribus lincis. boc eni facile demonſtratur per banc. 2o-me dio illorum trium numerorum cquali aſſumpto: quẽadmodum in ſeyto de tribus lincis probatur pcr quatuor aſſumpta quatuor equali medie.
+{dropcap:N|lines=4|style=decorated|decoration="foliate woodcut initial"}Vmeri ſecunduʒ quãlibet proportionem minimi:numerant quoſlibet in eadem proportione minor minorem et maior maiorem equaliter.
 
-## PPropoſitio 21.
+¶Sint.a.⁊.b.minimi numeri in ſua proportione.ſitqʒ.c.ad.d.ſicut.a.ad.b.dico ꝙ.a.numerat.c.⁊.b.d.equaliter.Cum ſit enim a.ad.b.ſicut.c.ad.d.erit permutatim.a.ad.c.ſicut.b.ad.d.erit igitur.a.c.tota pars vel partes quota vel quote.b.d.ſi itaqʒ fuerit pars conſtat propoſitum:At ſi partes ſit.e.vna partium.a.⁊.f.vna partium.b.⁊ quia tota pars eſt.e.c.per ypothe.quota.f.d.erit per diffinitionem proportio.e.ad.c.ſicut.f.ad.d.quare ꝑmutatim.e.ad.f.ſicut.c.ad.d.quare etiam ſicut.a.ad.b.non ſunt itaqʒ.a.⁊.b.minimi ſue proportionis:quod eſt contrarium poſitis.Similiter quoqʒ:
 
-{dropcap:[illegible]|lines=5|style=decorated}meri ſecunduz qualibet proportionem minimi: nume rant quoſlibet in eadem proportione minoz minorem et maioz maiozem equaliter. TSint. a. 4. b. minimi numerl in ſua proportione.ſitq. c'ad d.
+[Diagram: segments labelled d and c, above segments labelled b and a, above segments labelled f and e]
 
-[Diagram]
+¶Quotlibet numeri ſiue in eadem proportione ſiue in diuerſis minimi numerant omnes in eadem proportione quiſqʒ ſuum correlatiuũ equaliter.
 
-Ificut. a. ad. b. vico ꝙ a numerat.c.2.b. d. equaliter. Lum ſit enim a.ad. b.ſicut. c.ad. d. erit permutatim. a.ad.c. ſicut. b ad. d.- erit igitur .a.c.tol ta pars vdl partcs quota vel quote .b.d. ſi iraqy fuerit pars conſtat propolitum: At ſi partes ſit, c. vna partium.a.t.f.vna partium. b.z quia tora pars eſt.e.c per yporbe, quota. f. d. crit per oiffinitionem proportio.e. ad. c. ſicut. f.ad. d. quarc pl muratimn.e. ad.f.ficut. c.ad.d.quarc ctiam ficut. a. ad.b. non ſunt itaqy a.z.b.mii nimi ſuc proportionis: quod eſt contrarium poſitis. Simlitcr quoy:
+¶Vt ſi ſint.a.b.c.minimi in eadem proportione vel in diuerſis:ſintqʒ in eadem vel eiſdem.d.e.f.ita ꝙ ſit.d.ad.e.vt.a.ad.b.⁊.e.ad.f.vt.b.ad.c.dico ꝙ.a.numerat.d.⁊.b.e.⁊.c.f.equaliter:quia enim eſt.a.ad.b.vt.d.ad.e.erit permutatĩ.a.ad d.vt.b.ad.e.et quia.b.ad.c.ut.e.ad.f.erit etiam permutatim.b.ad.e.ut.c.ad.f.quare.b.ad.e.⁊.c.ad.f.ſicut.a.ad.d.⁊ quia.a.b.c.ſunt minores.d.e.f.erit.b.e.⁊ c.f.tota pars aut partes.quota eſt.a.d.Si itaqʒ pars conſtat propoſitũ.At ſi partes ſit.g.vna partium.a.⁊.h.vna partium.b.⁊.k.vna.c.eritqʒ per preſentẽ ypothe.tota pars.h.e.⁊.k.f.quota.g.d.quare per diffinitionẽ.h.ad.e.⁊.k.ad.f.ſicut g.ad.d.permutatim igitur erit.g.ad.h.vt.d.ad.e.⁊.h.ad.k.vt.e.ad.f.quare.g.ad.h.ut.a.ad.b.⁊.h.ad.k.vt.b.ad.c.quia ergo.g.h.k.ſunt minores.a.b.c.⁊ ĩ eadem proportione ſequitur contrarium poſiti.
 
-¶ Quotliber numeri ſinc in eadem proportione ſine in oiuerſis mini mi numerant omnes in eadem proportione quiſqz ſunm conelatinui cqualiter.
+[Diagram: segments labelled d, e and f, above segments labelled a, b and c, above segments labelled g, h and k]
 
-[Diagram]
+## Propoſitio .22
 
-¶ At ſi fint. a. b.c minimi in cadem proportione vel in oinerſis: ſintoy in cadem vel ciſdem. d.e.f. ita qſit. d.ad.e. vt. a. ad. b.2.e.ad.f.vt.b.ad.c.dico q.a. nume rat. d.z.b.e.2.c.f.equalitcr: quia enim eſt.a.ad. b. vt. d.ad.e. erit permutati.a.ad d.vt b, ad.e. ct quia. b.ad. c.ut.c. ad.f.crit ctiam pennutatini. b.ad. ent.c. ad.f. quarc.b.ad.e.2c.ad.f.ſicut. a.ad d.z quia.a.b.c. funt minores. d.e. f.erit. b.c.? .f.tora pars aut partcs, quota eſt. a. d. Si ita pars conſtat propolitũ. Ar ſi par tes ſit. s vna parium. a. t.b. vna parriuni. b.z.le. vna.c. eritoy per prcſenté por tbe, tota pars. b.c.t. h.f quota. s d, quarc per oiffinitione. b.ad.e.2. E.ad. f.ſicut S.ad. d. pcrmutatim igitur erit. q.ad.h. vt. d.ad.e. 2.h.ad.l.vt.e. ad. f.ouare, ⁊. ad. h.unt. a.ad. b.e. b.ad. E.Vt. b.ad.c quia crgo. s.b. E ſunt minores.a.b.c. ci ca dem proportione ſequitur contrarium poſiti.
+{dropcap:S|lines=4|style=decorated|decoration="foliate woodcut initial"}I fuerint duo numeri ſcꝺm ſuam proportionem minimi:ipſi erunt adinuicem primi.
 
-## PPropoſitio a2
+¶Sint duo numeri.a.⁊.b.ſcꝺm ſuaʒ proportionem minimi.dico ꝙ ipſi ſunt contra ſe primi.Si enim nõ numeret eos.c.ſm̃.d.⁊.e.eritqʒ per.18.d.ad.e.ſicut.a.ad.b.⁊ quia.d.⁊.e.ſũt minores.a.⁊.b.ſequitur.a.⁊.b.non eſſe ſue proportionis minimos:qꝺ ẽ ꝯ̃riũ poſitioni.Silʼr quoqʒ
 
-{dropcap:[illegible]|lines=6|style=decorated}J fuerint ouo numeri ſcom ſuam proportionem minimis
+[Diagram: segments labelled a and b, above a segment labelled c, above segments labelled d and e]
 
-[Diagram]
-
-ipſi crunt adinuicem primi. d Sint ouo numcri.a. z.b.ſcom ſuaz proportioncin minimi. oico q ipli ſunt contra ſc primi. Si cnim nõ numerct eos. c.bm.d..e. erit per.16. d.ad.e. ficut. a.ad.b. t quia.d.t.e. ſũt minores.a..b.ſe? uitur a. 2.b non cfle ſue propotionis minimos: qoe ꝯ̃riu politioni. Silr quous dOi fuerint quoilibet numert ii continuotione ſuaruin, pportionun
+¶Si fuerint quotlibet numeri in continuatione ſuarum ꝓportionum

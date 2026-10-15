@@ -1,27 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-m.2.4.R. que ſecet.I.b. in puncto.n.erit triangnlus.b. t. d. equiangulus triangu lo.g.b. R. pcr.s buius z preſente ppoib, quare z triangulus. a.b. m.triangulo.f.g. n.t.a.m.d.f.n.E.crgop.a buius proportio. b.m.ad.g.n. eſt ſicur.a.m.ad. f.n. 3 a.m.ad.f.n.ſicut.m. d.ad.n.R, quarc per.11. quinti.b.m.sd.g.n.ficut.m. d.ad.n. E. crgo pmuratim.b.m.ad.m. d.ſicut. g.n.ad.n.l. ſed per prinã buius. a.b.m.ad A.m.d.2.b.c.m.ad.c.m. d.ſicut. b.m.ad.m. d.z per eandé. f.g.n.ad.f.n.h.2.G n b.ad.h.n.l.ficut.g.n.ad.n.R. ergo p.13 quinti.a.b. c.ad.a.c.d.ſicut.f.g.b. ad.f. b.R quare pennutatim. a. b.c. ad.f.g.b.ſicut. a.c.d.ad.f.b. E. cade rõnc pbabis
+m.⁊.g.k.que ſecet.f.h.in puncto.n.eritqʒ triangulus.b.c.d.equiangulus triangulo.g.h.k.per.6.huius ⁊ preſentẽ ypoth.quare ⁊ triangulus.a.b.m.triangulo.f.g.n.⁊.a.m.d.f.n.k.ergo p.4.huius proportio.b.m.ad.g.n.eſt ſicut.a.m.ad.f.n.⁊ a.m.ad.f.n.ſicut.m.d.ad.n.k.quare per.11.quinti.b.m.ad.g.n.ſicut.m.d.ad.n.k.ergo ꝑmutatim.b.m.ad.m.d.ſicut.g.n.ad.n.k.ſed per primã huius.a.b.m.ad a.m.d.⁊.b.c.m.ad.c.m.d.ſicut.b.m.ad.m.d.⁊ per eandẽ.f.g.n.ad.f.n.k.⁊.g.n.h.ad.h.n.k.ſicut.g.n.ad.n.k.ergo p.13.quinti.a.b.c.ad.a.c.d.ſicut.f.g.h.ad.f.h.k.quare permutatim.a.b.c.ad.f.g.h.ſicut.a.c.d.ad.f.h.k.eadẽ rõne ꝓbabis ꝙ ⁊ ſicut.a.e.d.ad.f.l.k.ergo p.13.ꝑmi quĩti totiꝰ pẽthagoni ad totũ pẽthagonũ ſicut.a.b.c.ad.f.g.h.per p̃miſſam igitur eſt proportio penthagoni.a.c.d.ad penthagonũ.f.h.k.ſicut ꝓportio.a.b.ad.f.g.duplicata qd' eſt ꝓpoſitũ:ex quo rurſus patet correl'.precedentis. ¶Aliter põt demõſtrari ſcõm.cũ eni trianguli i quos pethagoni diuidunꝫ ſunt adinuicem ſimiles:erit per precedẽtem proportio.a.b.c.ad f.g.h.ſicut.b.c.ad.g.h.duplicata.⁊.a.c.d.ad.f.h.k.ſicut.c.d.ad.h.k.duplicata.⁊.a.e.d.ad.f.l.k.ſicut.d.e.ad.k.l.duplicata.qꝛ igitur omnes hee ꝓportiões duplicate ſunt equales propter hoc qd' poſitũ eſt ſimplas eſſe equales:erit p.13.quinti totius penthagoni ad totum penthagonum ſicut lateris vnius ad ſuum relatiuum.latus alterius proportio duplicata.
 
-[Diagram]
+## Propoſitio .19.
 
-ꝙ zſicut.a.c. d.ad. f.I.R.ergo p.1z pmi quiti toriꝰ pẽrbagoni ad torũ pẽtbagonũ ficut. a.b.c.ad.f.g.h. per pmiſſam igitur eſt proportio pentbagoni.a.c.d.ad peu, thagonũ.f.b. E. ſicut pportio.a. b.ad.f.g. ouplicara qo eſt xpolirũ: ey quo rurſus patct conel. prccedentis.
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}Upra datam lineam date ſuperficiei ſimilem ſuperficiem deſcribere.
 
-¶ Aliter põt oemõſtrari ſcom. cũ eni trianguli i quos pe thagoni oinidunt ſint adinuiccm ſimiles: crit per precedẽrcm proportio. d.b.c. ad f.g.b.ſicut. b.c.ad.g. b. ouplicata. 1.a.c.d.ad.f.b. l.ſicut.c.d.ad.b. R. ouplicara. 4.a.e.d.ad.f.I.E. ſicut. d.c.ad. E. l. ouplicata. qu igitur omnes bce ppo:rides ou? plicate ſunt equales propter boc qo politũ eſt ſimplas eſſe cquales: crir p.1z. quin, ti torius pentbagoni ad totuin pentbagonum ſicut lateris vnius ad ſuum reiari¬ unm. latus alterius proportio ouplicata.
+¶Sit data linea.a.b.ſupra quã volo conſtituere ſuperficiem ſimilẽ date ſupficiei que ſit penthagona:⁊ ſit.c.d.e.f.g.diuido hunc pẽthagonũ in triangulos ductis lineis.d.f.⁊.d.g.⁊ ſup punctũ.a.cõſtituo angulum equalẽ angulo.c.ducta linea.a.h.⁊ ſuper punctũ.b.conſtituo alium angulum:qui ſit.a.b.h.equalẽ angulo.c.d.g.ꝓtracta linea.b.h.quouſqʒ cõcurrat cũ a.h.in pũcto.h.eritqʒ per.32.primi angulus.a.h.b.equalis angulo.c.g.d.⁊ ideo per.4.huius latera duoꝝ trianguloꝝ.g.c.d.⁊.h.a.b.ꝓportionalia:facio quoqʒ angulum.h.b.k.ducta linea.b.k.equalẽ angulo.g.d.f.⁊ angulum.k.b.l.ducta linea b.l.equalẽ angulo.f.d.e.⁊ angulum.b.h.k.ducta linea.h.k.equalẽ angulo.d.g.f.⁊ angulum.b.k.l.ducta linea.k.l.equalẽ angulo.d.f.e.eritqʒ perfectus penthagonus qui cõſtituendꝰ erat ſup lineã.a.b.eſt eni equiangulus dato penthagono ꝓpter equalitatẽ anguloꝝ trianguloꝝ in quos eſt vterqʒ diuiſus ſed ⁊ laterũ ꝓportionaliũ propter ꝓportionalitatẽ laterum ipſoꝝ trianguloꝝ que ex.4.huius euidenter apparet:quare per diffinitionem ſimilium ſuperficierũ penthagonus cõſtitutus ſuper lineam.a.b.eſt ſimilis penthagono dato qd' eſt propoſitum.
 
-## Propoſirio.i9.
+[Diagram: pentagon with vertices a and b at the base, l at the left, k at the top and h at the right, with diagonals drawn from b, beside a smaller pentagon with vertices d and e at the base, c at the left, f at the top and g at the right, with diagonals drawn from d]
 
-{dropcap:[illegible]|lines=5|style=decorated}Mpra oatam lincam date ſuperſiciei ſimilem ſuperficiem oeſcribere.
+## Propoſitio .20.
 
-¶Sit oara lines.a. b. ſupra quã volo conſtitere ſuperficicm ſimilẽ
+{dropcap:S|lines=5|style=decorated|decoration="white floral vine on black ground"}I fuerint vni ſuperficiei ſimiles quaſlibet ſuperficies ſibi inuicem ſimiles eſſe neceſſe eſt.
 
-[Diagram]
+¶Sit vterqʒ penthagonorum.a.b.c.⁊.d.e.f.ſimilis penthagono.g.h.k.dico eos eſſe ſimiles ſibi inuicem.Eſt enim vterqʒ eorum equiangulus pẽthagono.g.h.k.per cõuerſionẽ diffinitiõis ſiliũ ſuperficieꝝ:quare ſunt equianguli adinuicẽ.Similiter quoqʒ ꝑ cõuerſiõe eiuſdẽ diffinitionis
 
-ate ſupliciei que ſit pentbagona:z ſit.c.d.c.f.g. oinido bunc pẽtba gonũ in triangulos ouctis lineis. d.f.z. d.g. ſup punciũ.a. cõſtituo angulum equalé angulo. c. oncta linca. a.b.z ſuper punctũ.b. conſtituo alium an. guluin: qui fit.a. b.b.cqualẽ angulo.c. d.g. ptracta linea. b.b. quouſy cõcurrar ci a.b. in pũcto.b. crit per.3z.primi angulus.a. b.b.equalis angulo.c.g.d. Tideo per A buius latera ouoy trianguloy.5.c.d.2.b.a.b. xportionalia:facio quoqz an gulum.b.b.E oucta linca.b. l. cqualc angulo.g.d.f.z angulum.R.b.l. oucta linea b.c. equalẽ angulo.f.e. d.z angulum. b. b. E. oucra linca.b. R. cquale angulo. d.g.f. zangnlum. b.E.l. oucta linea.E.I cqualc angulo. d. f.c. critqy perfectus penibagoꝰ nus qui cõſtituendꝰ crar ſup lincã.a.b. eſt eni equiangulus oato pentbagono pi pter cqualirarẽ anguloy trianguloy in quos eſt vierqz oiuiſus ſed z laterũ ppois tionaliũ propter pportionalirare laterum ipſorũ trianguloy que ey.a. buius cui? denter apparct: quarc per oiffinitioncm fimilium ſupcrficierũ penrbagonus con? hitutus ſuper lineam.a.b.eſt ſimilis pentbagono paro qo eſt propoſitum.
-
-[Diagram]
-
-## Propoſitio .2o.
-
-{dropcap:[illegible]|lines=5|style=decorated}J fuerint vni ſuperficiei ſimiles qualliber ſuperficics ſibi muicem ſimiles eſle neceſſe eſt.
-
-¶ Sit vteroy pentbagonorum. a.. b.c. d.e.f. ſimilis pentbagono.g.b k. oico cos eſſe ſimiles ſibi inuicem. Eſt enim vteroz corum equian? lgulns pẽtbagono.g. b.E. per cõuerſione viffinitois ſiliũ ſupericiey: quare ſunt cquianguli adinuicé. Similircr quoas pcõuerione eiuſdẽ oiffiniionis
+[Diagram: three pentagons, the first with labels f, d and e, the second with labels k, g and h, the third with labels c, a and b]

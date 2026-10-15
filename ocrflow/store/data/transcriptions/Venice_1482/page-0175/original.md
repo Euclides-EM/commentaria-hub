@@ -1,39 +1,29 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-uplo ſuperficici. l.cum itaz ſint. e.2.f. incõmenſurabiles in potentia quéadmoo 9 z d.erit er.35. linca.b. potens iu ouo mcdialia, quantũ aũt ad ſcom folite argu
+duplo ſuperficiei.k.cum itaqʒ ſint.e.⁊.f.incõmenſurabiles in potentia quẽadmodũ c.⁊.d.erit ex.35.linea.b.potens in duo medialia.quantũ aũt ad ſcꝺm ſolite argumentationis modũ erit p.59.d.e.binomiũ ſextũ. ideoqʒ etiã p.60.linea.e.g.erit binomiũ ſextum quare per.53.latus tetragonicũ ſupficiei.f.g.qꝺ eſt.b.erit potens in duo medialia quod eſt propoſitũ.
 
-[Diagram]
+## Pꝛopoſitio .65.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I due ſuperficies quaꝝ altera rõnalis altera vero medialis cõiungantur:linea potens in totã ſuperficiem inde cõpoſitã aliqua erit quatuoꝛ irrationalium lineaꝝ videlicet aut binomium aut bimediale pꝛimum aut linea maioꝛ aut potẽs in rationale ⁊ mediale:
 
-mentationis modũ crit p.59.d.c.binomiũ ſertũ. ideouy etiã p. o-linea .e. S-erit 6 binomiũ ſcrtum quarc per.s3 latus tetragonicũ ſupficiei. f.s-qu eſt.b. erit poteus in ouo medialia quod eſt propoſitii..Propoſitio 65.
+[Figure: square labelled a]
 
-## [illegible]
+[Figure: square labelled b]
 
-{dropcap:[illegible]|lines=5|style=decorated}7 oue ſuperficies quax altera rõnalis altera vero media p9 lis cõiungantur:linea potens in totã luperficiem inde cõꝰ poſitã aliqua erit quataor irrationalinmn lineay videlicet A aut binomuum aut bimediale primum aut linea maior aut potẽs in ratonale zmediale: 4
+¶Vt ſi.a.ſit rõnalis ſupficies ⁊.b.medialis erit linea potens in totã.a.b.aliqua pꝛemiſſaꝝ quatuoꝛ.Sit enĩ linea.c.d.rõnalis cui adiungat̃.c.e.equalis.a.⁊.f.g.equalis.b.eritqʒ ex.16.linea.d.e.rõnalis in longitudine cõicans linee.c.d.rõnali poſite ⁊ ex.20.linea.e.g.rõnalis in potentia tm̃ ⁊ ex.30.linea.d.g.binomiũ cuius cum altera binomialiũ poꝛtionũ que eſt.d.e.ſit rõnalis in longitudine cõicans linee rõnali poſite que eſt.c.d.ipſũ erit ex diffinitione ſpecieꝝ binomij aut binomium pꝛimũ aut ſcꝺm aut quartũ aut quintũ:tertiũ aũt aut ſextũ nõ erit ex diffinitione.itaqʒ ex.48.49.51.⁊.52.linea potens in totã.c.g.que ẽ equalis duabus ſimul a.⁊.b.erit aut binomiũ aut bimediale pꝛimũ:aut linea maioꝛ aut potens in rõnale ⁊ mediale:qꝺ eſt propoſitũ:bimediale vero ſecũdũ aut potens in duo medialia non erit:qm̃ ſi eſſet bimediale ſecundum:eſſet ex.56.linea.d.g.binomiũ tertium qꝺ ſi eſſet potens in duo medialia eſſet ex.59.linea.d.g.binomiũ ſextũ.ſed neutꝝ erat:vnde patet noſtra intentio.
 
-¶ Bt ſi.a.ſit ronalis ſupficies z.b.medialis erit linca porcns in totã. a. b. aliqua nemiſſax quatuoi. Sit eni linea. c.d ronalis cui adiungat. c.c. cqualis.a.2.f.g. 8 cqnalis. b. erit cy. 16. linea. d.e. ronalis in longitudine cõicans linee. c. d. ronali polite cr.ao. linca.e.5-ronalis in porentia tm̃ zex. yo linea. d.s.-binomiu cuiuf 1 cum alrera binomialuu portionũ que eſt.d.e. ſit rõnalis in longitudine cõicans li, S nce rõnali polite que eſt.c. d.iplu erit ex oiffinirione ipeciey binomij aut binomi um primũ aut ſcom aut quartũ aut quintũ: tertiũ aũt aut ſeytũ nõ erit ey piffiniti 9 onc irag er.as. a9.5i.2.52.linea poiens in torã.c.g que ẽ equalis ouabus ſimuſ a.t.b. crit aut binomiũ aur bimedialc primu: aut dinea maior aut potens in rona? Q le z medialc: qo eſt propoſitũ: bunediale vero ſecũdũ aut porens in ouo medialia non crits qm ſi efler bimediale ſecundum: efſet cy.;s linca. d.g-binomiu tertium 9 obſi eſſet porens in ouo medialia eſſer er.5y. linca. d.g. binomiu ſcytũ. ſed neurx
+## Pꝛopoſitio .66.
 
-[Diagram]
+{dropcap:C|lines=5|style=decorated|decoration="foliate initial on black ground"}Vm coniuncte fuerint due ſuperficies mediales incõmenſurabiles linea potens in totam ſupficiẽ alterutra erit duarũ irrõnaliũ linearum videlicet aut bimediale ſecundum aut potens in duo medialia.
 
-crat: vnde patet noſtra intentio. P ropolitio.66.
+[Figure: tall rectangle divided by horizontal lines, with g at the top right, f and e at the ends of a dividing line, and c and d at the bottom corners]
 
-## [illegible]
+¶Vt ſi.a.⁊.b.ſint due ſupficies mediales incõmenſurabiles.ſi enim eẽnt cõmenſurabiles eſſet cõpoſita ex eis medialis ex.9.⁊.21.quare ⁊ linea potens in ea medialis ex.19.dico ꝙ linea potens in cõpoſitã ex ambabus erit aut bimediale ſcꝺm aut potens in duo medialia.Sit quidẽ linea.c.d.rõnalis:ſupficies vero ſibi adiuncta.c.e.equalis.a.⁊ ſupficies.f.g.equalis.b.eritqʒ ex.20.linea.d.e.ſilr quoqʒ linea.e.g.rõnalis in potentia tm̃:cũqʒ ſupficies.c.e.⁊.f.g.ſint incõmenſurabiles ſicut.a.⁊.b.eis equales.ideoqʒ linee.d.e.⁊.e.g.ex pꝛima ſexti ⁊.10.huius:erit ex.30.linea.d.g.binomiũ cuius cũ vtraqʒ binomialiũ poꝛtionũ que ſunt.d.e.⁊.e.g.ſit incõmenſurabilis linee rõnali poſite que ẽ.c.d.ipſũ erit ex diffinitione binomiũ tertiũ aut ſextũ:linea ergo potẽs ĩ totã.c.g.eq̃lem ꝯpoſite ex.a.⁊.b.erit ex.50.⁊.53.aut bimediale ſecundum aut potens in duo medialia:quod eſt propoſitum.
 
-̃m coniuncte fuerint oue ſuperficies mediales incõmen {dropcap:[illegible]|lines=5|style=decorated}surabiles linea potens in totam ſupficiẽ alterutra erit oua rũ irrõnaliui linearum videlicet aut bimediale ſecundum C aut potens in ouo medialia.
+## Pꝛopoſitio .67.
 
-¶IIrſi.a.z.b.ſint oue ſupficies mediales incõmenſurabiles.ſi enim cent comenſurabiles ellet cõpolita ey cis medialis cy 9.2. AI quare zlinca potens in ca medialis cy. i9. bico ꝙ linca potens in cõpolirã ey ambabus crit aut bimedi ale ſcoin aut porens in ouo medialia. Sit quide linea.c. d. rõnalis: ſupficies vero ſibi adiuncra. ce, cqualis. a. e ſupficies. f.s cqualis.b.erit ey. ao linca. d.e. ſilr quogz linca.e.g rõnalis in potentia tii:cũ ſuplicies.c.e.2.f.s.-ſint incõmenſura biles ſicut. a. 2. b. eis equalcs. ideo linee. d.e. 2. c.g.ex prima ſerti z. io.buius: erit l 7 c o linca, d.g. binomiũ cuins cũ vtraz binomialiũ portionũ que ſunt. d. e.ze. g lit incomenſurabilis lince ronal poſite que e.c. d iplu erit ey offinitione binoͬ muĩ teruu aut ſertui:linea ergo potcs i tora.c.s. eq̃lem ppolite er. a. 2.b.erit er. so t.sy aut bimcdiale ſecundum aut potens in ouo medialia : quod eſt propoſitum.
+{dropcap:C|lines=5|style=decorated|decoration="foliate initial on black ground"}Vm poſita fuerit linea binomialis cetereqʒ irrationales ſequentes eam:non erit eaꝝ aliqua ſub termino alterius.
 
-## Propoſitio .67.
+¶Vult ꝙ ſi linea aliqua ut.a.fuerit aliqua ex ſex p̃habitis lineis irrationalibus que ſunt binomiũ ⁊ eius quinqʒ comites ipſa non erit aliqua aliaꝝ.Si enim quadrato eius equalis ſupficies adiũgatur ad lineã rõnalem.b.c.que ſit.b.d.ſiquidem.a.fuerit binomium:erit ex.54.linea.c.d.
 
-E {dropcap:[illegible]|lines=6|style=decorated}Am poſita fuerit linea binomialis cetereqz irrationales lequentes eam: non erit eay aliqua ſub termino alterins.
-
-¶ Lult ꝙ ſi linea aliqua ut.a fucrit aliqua cr ſer pbabitis lineis ir, fationalious que ſunt binomiũ c eius quinq; comites ipſa non crit liqua allay. Sl enim quadrato eins equalis ſupficics adiũgatur ad lnea ronalem. b.c que ſit.b. d ſiquidemn, a, ſuert binomiumient ey. sa linca c.d.
-
-<!-- Catchword: [illegible] -->
-
-2
-
-C0
-
-I 22 22
+<!-- Signature: l 3 -->

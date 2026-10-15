@@ -1,31 +1,19 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-pẽtbagonũ i boc quidẽ. a.g.1.c.b.i illo ãt. d.l.t.f.e.erity er. 6. ſexi triangulꝰ. a.b
+pẽthagonũ ĩ hoc quidẽ.a.g.⁊.c.b.ĩ illo ãt.d.l.⁊.f.e.eritqʒ ex.6.ſexti triangul⁹.a.b.g.equiangulus triangulo.d.e.l.nã cũ pẽthagoni ponanť adinuicẽ ſiľes erũt ex diffinitione ſiľiuʒ ſupficieꝝ angulus.b.equalis:angulo.e.⁊ latera ipſos continentia ꝓportionalia videlicet ꝓportio.a.b.ad.d.e.ſicut.b.g.ad.e.l.cũ ſint autem ex.20.tertij duo anguli.f.⁊.l.ſibi inuicẽ equales. Itẽqʒ duo alij.c.⁊.g.ſibi inuicẽ equales erunt duo qui ſunt.c.⁊.f.adinuicẽ equales ex hac cõi ſcia:que equalibus ſunt equalia ſibi quoqʒ equa eſſe neceſſe eſt. Et qꝛ ex prima pte.30.tertij vterqʒ duoꝝ anguloꝝ.a.b.c.d.e.f.eſt rectus ſequitur ex.32.primi duos triangulos.a.b.c.d.e.f.eſſe equiangulos quare per quartã ſexti ꝓportio diametri.a.c.ad diametꝝ.d.f.ẽ ſicut lateris.a.b.ad latus.d.e.ꝓportio duplicata ⁊ per eandẽ.cũ itaqʒ ex ſcꝺa pte.18.ſexti ꝓportio duoꝝ penthagonoꝝ ẽ ſicut ꝓportio lateris.a.b.ad latus.d.e.ꝓportõ duplicata ⁊ p eandẽ ꝓportio quadrati diametri.a.c.ad quadratũ diametri.d.f.ſit ſicut diametri.a.c.ad diametꝝ.d.f.duplicata per hanc cõem ſciam:quoꝝ dimidia ſunt equalia ipſa quoqʒ adinuicẽ eſſe equalia. manifeſtum eſt qꝺ propoſitum eſt.
 
-[Diagram]
+## Propoſitio .2.
 
-g.cquiangulus triangulo. d.e. I.nã cũ pẽtbagoni ponant adinnicẽ files crũt ex oif finitione ſilium ſupficicy angulus.b. cqualis: angulo.e.z latera iplos continentia pportionalia videlicct pportio.a.b.ad. d.e. ſicut. b.g.ad.e.l.cũ ſint autem ey. 20. tertij ouo anguli.f.z.I.ſibi inuicé cquales. Jtẽ ouo alij.c..5. ſibi inuice equalcs erunt ouo qui ſunt.c. Z. f.adinuicé cquales ex bac cõi ſcia: que cqualibus ſunt cqua lia ſibi quoqz cqua eſſe neceſſe eſt. Et qu ex prima pte.3o.tcrtij vicroy ouoy angul loy. a.b.c.d.c.f. eſt rectus ſcquitur ey.3z primi ouos triangulos.a. b.c.d.c. faclſe equiangulos quare per quartã ſcrti pportio oiametri.a.c.ad oiamety. d.f. ẽ ſicut lateris.a.b.ad latus. d.e. ꝓportio ouplicara z per candẽ. cũ itacy cr ſcoa pie.is.ſe ti pportio ouoy penthagonoy ẽ ſicut pportio latcris. a. b. ad latus. d.e. ꝓpportõ
+{dropcap:O|lines=4|style=decorated|decoration="white foliate ornament on black ground"}Mniũ duoꝝ circuloꝝ ẽ proportio alterius ad alteꝝ tãqʒ ꝓportio quadrati ſue diametri ad quadratũ diametri alterius. ¶Sit duo circuli.a.b.⁊.c.d.quoꝝ diametri quoqʒ dicãť.a.b.⁊.c.d.dico itaqʒ ꝙ ꝓportõ circuli.a.b.ad circulũ.c.d.ẽ ſicut q̃drati diametri.a.b.ad quadratũ diametri.c.d.manifeſtũ eni ẽ ex hac cõmuni ſcientia quanta eſt quelibet magnitudo ad aliquã ſecundã tantam neceſſe eſt eſſe quamlibet tertiam ad aliquam quartam ꝙ proportio quadrati diametri.a.b.ad quadratum diametri.c.d.eſt ſicut circuli.a.b.ad ſuperficiem aliquã que ſit.e.cuiuſcũqʒ figure aut forme ponať:hanc autem impoſſibile ẽ maiorẽ eſſe aut minorem circulo.c.d.Si eni eſt poſſibile ipſã eẽ minorẽ circulo.c.d.ſit itaqʒ minor ĩ ſuperficie.f.itaqʒ circulus.c.d.ſit equalis duabus ſuperficiebus.e.⁊.f.piter acceptis conſtat igiť ex prima.10.ꝙ totiens poſſit ex circulo.c.d.ſuiſqʒ reſiduis ſubtrahi maius dimidio quouſqʒ relinquať quantitas aliqua minor.f.inſcribatur ergo ſibi vt docet.6.quarti quadratũ.c.d.g.h.de quo conſtat ꝙ ipſum ſit maius medietate circuli:quadratũ eni quod eſt duplum ad ipſum ẽ circulum circũſcribens vt patʒ ex penultima primi ⁊.7.quarti. Si igitur portiones circuli exiſtentes ſuper latera quadrati piter accepte fuerint minus ſuperficie.f.ſufficit. Sin aũt quatuor arcus exſtentes ſuper dicta latera per equalia diuidantur ⁊ puncta ipſos arcus diuidentia cum extremitatibus lateꝝ cõtinenť per lineas rectas.verbi gratia arcus.c.g.diuidať per equalia in puncto.k.⁊ ꝓtrahanť linee.k.c.k.g.ſicqʒ de ceteris.Eritqʒ quilibʒ trianguloꝝ deſcriptoꝝ ſup latera q̃drati maior medietate portionis ĩ q̃ exiſtit eo ꝙ ois triangul⁹ yſocheles ẽ medietas palellogrami ſue baſis per.41.primi. Sint itaqʒ portiones exiſtentes ſuper latera octogonij inſcripti piter accepte minus ſuperficie.f.ſi eni nondũ hoc eſſet:nõ ceſſarẽ diuidere arcus quoꝝ latera vltime deſcripte figure ſunt corde per equalia:⁊ iſcribere figuram equilateram duplo plurium laterũ prime ſemper ſubtrahendo ab ipſis circuli portionibus maius dimidio quouſqʒ ꝑ pmã.10.portiões ſuper latera alicui⁹ talis figure circľo iſcripte exiſtẽtes piť accepte erũt min⁹ ſuperficie.f.ſint g̃ nũc q̃ dicte ſũt:eritqʒ ex ꝑceptiõe octogonũ.c.d.maius ſuperficie.e.in circulo igiť.a.b.eadeʒ via inſcribať ſiľe octogonum:quod dicatur.a.b.ſitqʒ ex premiſſa proportio octogoni.a.b.ad octogonum
 
-[Diagram]
+[Figure: circle with inscribed pentagon, vertices labelled a, k, b, h and g, with diameter to c and crossing chords]
 
-ouplicata ⁊p cande pportio quadrari biametri.a.c. ad quadratũ diametr. d.f.ſit ficut oiametri. a.c.ad oiamety. d.f. ouplicata per banc cõcm ſciam: quoy oimidia ſunt cqualia ipſa quoaz adinuicé eſſe cqualia. manifeſtum eſt qo propolitum eſt.
+[Figure: circle with inscribed pentagon, vertices labelled d, n, e, m and l, with diameter to f and crossing chords]
 
-## Propolitio.2.
+[Figure: circle with inscribed square and octagon, labelled a at top and b at bottom]
 
-{dropcap:[illegible]|lines=5|style=decorated}Aniũ ouoy circuloy ẽ proportio alterins ad altex tan, q̃z pportio quadrati lue diametri ad quadratũ oiameiri falterius.
+[Figure: circle with inscribed square and octagon, labelled c, k, g, h and d]
 
-¶ Sit ouo circuli. a.b.z.c.d.quoy oiametri quoz oicãt. a b.2.c.d.oico ita ꝙ pportõ circuli.a. b. ad circulũ.c. d.ẽ ſicut q̃drati loiamctri.a. b. ad quadratũ oiametri.c.d. manifeſtũ eni ẽ cy bat cõ? muni ſcientia quanta cſt quclibet magnitudo ad aliquã ſecundã tantam neceſſe eſt
+[Figure: oblong rounded surface labelled f]
 
-[Diagram]
-
-eſſe quamlibet tertiam ad aliquam quartam ꝙ proportio quadrati oiamctri.a.b. ad quadratum piametri.c.d.eſt ficut circuli. a.b.ad ſuperficiem aliquã que ſit. e. cuiuſcũz figure aut forme ponar: banc aurem impoſſibilc ẽ maiorẽ eſſe a tmino, rem circulo.c.d. Si eni eſt poſſibile ipſã ce minoré circulo. c.d.ſit iragz minor i ſu, perficie. f.ita circulus.c. d.ſit equalis onabus ſuperficiebus.e.2.f. piter acceptis conſtat igit er prima. io. ꝙ totiens poſſit er circulo. c.d. ſuiſqz reſidnis ſubtrabi maius bimidio quoulz rel nquar quantiras aliqua minor.f. inſcribatur ergo ſibi vt bocet.6. quarti quadratũ.c. d.g.b. oe quo conſtat ꝙ ipſum lir maius medicta? te circuli: quadratũ eni quod eſt ouplum ad iplum e circulum circuiſcribens vt paiz cr penultima primi zx quarti. Oi igirur porioncs circuli cyiſtentes ſuper latcra
-
-[Diagram]
-
-qu adrati piter accepte fucrint minus ſupcrficie. f. ſufficit. Sin aũt quatuor arcus ey ſtentes ſuper oicta latcra per cqualia oiuidantur z puncta ipſos arcus oiui? dentia cum crtremitatibns laicy cõrinent per lincas rectas. verbi graria arcus.c. ⁊.oiuidar per cqualia in puncto. k. e ptrabant lince. l. c.l. g. ſicy oe cetcris, Frit Qz quilibz trianguloy deſcriptoy ſup laicra q̃e rati maior medicrate portionis i q̃ eyiſtit co ꝙ ois triangulꝰ yſochcles ẽ medieras palcllogrami ſue baſis per. a1. pri? mi. Oint iraoy portioncs criſtentes ſupcr latera octogonij inſcripii piter accepte minus ſuperficie.f.ſi cni nondũ boc eſler: nõ ceſfarẽ piuiderc arcus quoy larcra vi time peſcripre figure ſunt corde pcr cqualia: c iſcriberc figuram cquilareram ouplo
-
-[Diagram]
-
-plurium laterũ prime ſemper ſubtrabendo ab iplis cirenli portionibns maius oiꝰ midio quouſy ppmã. io porriões ſuper latera alicui ralis figure circlo iſcripte er iſtẽtes pi accepte erũt minꝰ ſuperficie.f.ſint s̃ nũc q̃ picte ſũt: crirqy er pcepuõe oe togonu.c. d.mains ſuperficie.c. in circulo igit. a.b. cadez via inſcribat ſile octogoꝰ num: quod oicatur. a.b. ſugy cr premilla propoms ociogoni.a.b.ad ocroyonm
-
-I M 1 TIIIIITTIIHITTTI. . L. 12 2 22 16 18 19 20 10 14 17 21 I2 IE 2
+[Figure: oblong rounded surface labelled e]

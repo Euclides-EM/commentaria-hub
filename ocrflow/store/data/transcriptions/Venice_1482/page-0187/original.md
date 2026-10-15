@@ -1,53 +1,33 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: X -->
 
-cõſcabunt cũ ouplo.l.cy. 1o. igitur ex.73.b. eſt cũ mediali cõponẽs mediale. quan
+cõicabunt cũ duplo.l.ex.10.igitur ex.73.b.eſt cũ mediali cõponẽs mediale. quantum autẽ ad ſcꝺm modũ erit.d.e.reſiduũ ſextũ ex.97.ideoqʒ ⁊.e.g.ex.98.quare.b eſt cũ mediali cõponens mediale ex.91.
 
-[Diagram]
+[Figure: rectangle divided into two compartments labelled h and a]
 
-[Diagram]
+## Pꝛopoſitio .103.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I de ſupficie rationali ſuperficies medialis abſcindatur linea i reliquã ſuperficiem potens erit alterutra duarum irrationalium aut reſiduum aut linea minoꝛ.
 
-[Diagram]
+¶Sit eni tota ſuperficies conſtans ex.a.⁊.b.rõnalis a qua detrahatur.b.que ſit medialis:dico ꝙ linea potens in.a.reſiduũ aut ẽ reſiduum aut linea minoꝛ.Eſto nanqʒ linea.c.d.rationalis ſuperficieſqʒ.c.e.ſibi adiuncta ſit tãqʒ.a.⁊.f.g.tãqʒ.b.⁊.tota.c.g.ſicut tota.a.b.eritqʒ.c.g.rõnalis.ideoqʒ ꝑ 16.linea.d.g.rõnalis in longitudine ⁊.f.g.erit medialis.ideoqʒ per.20.e.g.rõnalis in potentia tm̃:eſt igiť ex diffinitiõe linea.d.e.reſiduũ pꝛimũ aut quartũ: ergo per.86.⁊.89.linea potens in ſupficiem.c.e.⁊ iõ in ſupficiẽ.a.ſibi equalem eſt reſiduũ aut linea minoꝛ:qꝺ ẽ ꝓpoſitum.
 
-[Diagram]
+[Figure: tall rectangle divided by a horizontal line, labelled g, f, e, c and d]
 
-[Diagram]
+## Pꝛopoſitio .104.
 
-[Diagram]
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I de ſuperficie mediali ſuperficies rõnalis detrahatur linea in reliquã ſuperficiem potens erit alterutra duarum irrationalium linearum aut reſiduum mediale pꝛimũ:aut cum rationali componens mediale.
 
-[Diagram]
+¶Hec quoqʒ ſicut premiſſa ꝓbať.Erit eni tota.a.b.medialis.b.aũt rõnalis:⁊ tunc dico ꝙ in.a.reſiduum põt: aut eſt reſiduũ mediale pꝛimũ aut cum rõnali cõponens mediale.Cũ eni.c.g.equalis ſit.a.b.erit per.20.linea.d.g.rõnalis in potentia tm̃:⁊ cũ ſit.f.g.equalis.b.erit per.16.linea.e.g.rõnalis in longitudine ergo a diffinitione erit linea.d.e.reſiduũ ſcꝺm aut quintũ quare per.87.⁊.90.latus tetragonicũ ſuperficiei.c.e.⁊ ideo ſuperficiei.a.eſt reſiduũ mediale pꝛimum aut cum rationali componens mediale:quod eſt propoſitum noſtrum.
 
-tum antẽ ad ſcom modũ erit. d.c. reſiduũ ſerĩ cr. 97. ideoqy z.e.g. cy. ꝓs.quarc. b
+## Pꝛopoſitio .105.
 
-## [illegible]
+{dropcap:S|lines=5|style=decorated|decoration="foliate initial on black ground"}I ſuperficies medialis ſuperficiei mediali detrahatur fueritqʒ reliqua toti incõmenſurabilis que in ipſam reliquã poteſt: alterutra erit duaꝝ irrõnaliũ videlicet aut reſiduum mediale ſcꝺm aut cum mediali componens mediale
 
-eſt cu mediali cõponens mediale cr.91... Propoſitio.io3. {dropcap:[illegible]|lines=5|style=decorated}J de ſupficie rationali fuperficies medialis ablcindatur linea i reliquã ſuperficiem potens erit alterutra ouarum irrarionalium aut reliduum aut linea minoz.
+¶Si a duaꝝ premiſſaꝝ demõſtratione non deuias concludes ſine difficultate propoſitũ.Sint eni tota.a.b.⁊.b.mediales ⁊ ſit.a.reliqua incõmenſurabilis toti:aliter eni eſſet.a.medialis ex.21.⁊ eius latꝰ tetragonicũ mediale ex.19 tunc dico ꝙ linea potens in.a.eſt reſiduũ mediale ſcꝺm aut cũ mediali cõponens mediale.nam cũ ſit.c.g.equalis.a.b.erit p.20.linea.d.g.rõnalis in potentia tãtũ per eandẽ quoqʒ cum ſit.f.g.equalis.b.erit etiã.e.g.rõnalis in potentia tm̃ ⁊ cum ſit.a.incõmenſurabilis toti.a.b.erit.f.g.incõmenſurabilis.c.g.ideoqʒ per pꝛimã ſexti ⁊.10.huius erit etiã.e.g.incõmenſurabilis.d.g.igiť a diffinitione linea.d.e.erit reſiduũ tertiũ aut ſextũ:qre p.88.⁊.91.latus tetragonicũ ſupficiei.c.e.⁊ iõ ſupficiei.a.ẽ reſiduũ mediale ſcꝺm aut cũ mediali componẽs mediale.
 
-¶Oit cni tota ſupcrficics conſtans cy. a. 2. b. ronalis a qua cetraba ur.b, que ſit medialis: oico g linca porcns in. a. reſiduũ aut ẽ rclidu um aat linca minor. Eſto nanay linca.c. d. rationalis ſupcrficiesqy.c.e. ſibi adiun cta ſit tãqs.a.z.f.g.tãdy.b.2. tota.c.g ſicur tota. a.b. critqs.c.g-ronalis. idcoq ꝑ is.linea. d.g-rõnalis in longitudine z.f.g-erit mcdialis. idcoqy per. 20.e.5-rõna? lis in porentia tm: eſt igit ey oiffinitiõe line a.de reſiduũ primũ aut quartũ: ergo per. 66.2.69 linea potens in ſupficiem.c.e. z iõ in ſupficiẽ. a. ſibi equalem eſt reſi
+## Pꝛopoſitio .106.
 
-[Diagram]
+{dropcap:L|lines=5|style=decorated|decoration="foliate initial on black ground"}Ineaꝝ irrõnaliũ que ſunt reſiduũ ⁊ poſt ipſam ſubſecute vllam alij termino et oꝛdine ſub eſſe impoſſibile eſt reſiduo quoqʒ binomij terminũ vel oꝛdinẽ cõuenire non eſt poſſibile.
 
-duũ aut linca minor: qo ẽ ppoſitum., Propoſitio .ioa.
+¶Vult aũt ꝑ hanc.106.ꝙ reſiduũ ⁊ alie quinqʒ linee
 
-## [illegible]
-
-{dropcap:[illegible]|lines=5|style=decorated}J oe ſuperficie mediali ſuperficies rõnalis detrabatur li nea in reliquã ſuperficiem potens erit alterutr a ouarum irrationalium lincarum aut reſiduum mediale p zimu :aut cum rationali componens medialc.
-
-¶Dec quoaz ſicut premiſſa pbar. Erit cni tora. a. b.m edialis. b. aũt rõnalis:z tunc oico qo in. a reſiduum põt: aur eſt rcſiduũ medialc primũ aut cum rõnali cõponens mediale. Cũ eni.c.g.cqualis ſir. a. b. crit per. 2o.linca. d.g. rõna? lis in potentia tm:z cũ ſit.f.g. cqualis.b. crit per.16. linca. c. g. rõnalis in longitu dine ergo a biffinitione erit linca. d.e. rcſiduũ ſcoi aut quinrũ quarc per. 87.4.70. latus terragonicũ ſuperficici.c.c. idco ſupcrficici. a. eſt reſidnũ mediale primum aut cum rationali componens medialc: quod eſt propoſitum noſirum.
-
-## Propoſitio.io5.
-
-{dropcap:[illegible]|lines=5|style=decorated}J ſuperficies medialis luperficiei mediali oetrabatur lue ritoz reliqua toti incõmenſurabilis que in ipſam reliquã poteſt: alterutra erit ouax irrõnalinz videlicet aut relidu um mediale ſcom aut cum mediali componens mediale
-
-¶ Si a ouax premiſſax oemnõſtratione non vcuias concludcs ſine oifficulrare propoſitũ. Sint eni tora.a.b. 2. b. mediales z ſit. a.reliqua incõmenſu rabilis toti: aliter eni eſſet. a. medialis ey. 21. z eius latꝰ tetragonicũ mediale cr.19 tunc oico ꝙ linea potens in. a. eſt reſiduũ mediale ſcom aut cũ mediali cõponens medialc. nam cũ ſit. c.g.equalis. a. b.erit p.2o.linca. d.g- rõnalis in potentia tãtũ per eandé quouz cum ſit.f. g.equalis. b. erit ctiã.e.g. rõnalis in potentia tm z cum fit. a. incõmenſurabilis tori.a.b.erit.f.g.incõmcnſurabilis. c.g. ideoy per primã feyti . io.buius erit etiã.e.g.incõmenſurabilis. d.g. igit a oiffinitionc linca d.e. erit reſiduũ tertiũ aut ſextũ: qre p.8s.2.91 latus tetragonicũ ſupficiei. c.e. z iõ ſut pficici.a. ẽ reſiduũ medialc ſcom aut cũ mediali compones mediale.
-
-## Propoſitio.ios.
-
-{dropcap:[illegible]|lines=5|style=decorated}Jneax irrõnaliũ que ſunt reliduũ ⁊ poſt iplam ſubſecute vllam alij termino et ordine ſub eſſe impoſlibile eſt reſi, ouo quoqz binomij terminũ vel ordinẽ cõnenire non eſt poſſibile.
-
-¶Hult aut pbant. ios,.ꝙ reiduui alle qunas linee
-
-<!-- Signature: [illegible] -->
-
-<!-- Catchword: [illegible] -->
+<!-- Signature: m -->

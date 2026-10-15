@@ -1,69 +1,33 @@
-<!-- Running title: [illegible] -->
+<!-- Running title: LIBER -->
 
-conueniunt.
+conueniunt.¶Duo anguli plani angulum ſolidum perficere nequeunt ſicut nec due recte linee nequeunt ſuperficiem claudere.Angulos quoqʒ planos ſolidũ angulum continentes in eadẽ ſuperficie nõ conuenit eſſe ſitos ſed in diuerſis quẽadmodũ duas rectas lineas planũ perficientes angulum non conuenit ſibi inuicem ſecũdũ ſitũ rectitudinis applicari.¶Similes ſunt figure corporee rotũde ſiue ſit colũne ſiue earũ piramides quaꝝ axes diametris ſuarũ baſiũ ſunt proportionales.¶Propoſitis enim duabus piramidibus rotundis aut duabus columnis rotundis ſi fuerit proportio axis vnius eaꝝ ad diametrum ſue baſis ſicut axis alterius ad diametrum ſue baſis ille due columne aut piramides ſimiles adinuicem eſſe dicuntur.
 
-¶ Duo anguli plani angulum ſolidum perficcre ncquennt ſicut nec
+## Propoſitio .1.
 
-[Diagram]
+{dropcap:L|lines=5|style=decorated|decoration="white foliate ornament on black ground"}inee recte partem eſſe in plano ⁊ partem in ſublimi ẽ impoſſibile.
 
-[Diagram]
+[Figure: line descending from b to point c on a horizontal line labelled d, c and a]
 
-[Diagram]
+¶Sit linea.a.b..recta.dico ꝙ non eſt poſſibile ut pars eius ſit in plano ⁊ pars ſurſum eleuata.ſi eni eſt poſſibile ſit pars eiꝰ que eſt.a.c.ſita.in plano ⁊ pars eius que ẽ.c.b.in ſublimi poſita ⁊ protrahať directe.a.c.in plano in quo ipſa ſita eſt vſqʒ ad.d.eritqʒ vt vni eidemqʒ linee que eſt linea.a.c.due linee penitꝰ diuerſe que ſũt linee.c.b.⁊.c.d.ex eadẽ parte directe adijcianť qꝺ eſt ipoſſibile:ex.13.primi.
 
-[Diagram]
+## Propoſitio .2.
 
-[Diagram]
+{dropcap:O|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Mnes linee due quarum altera alteram ſecat in vna ſupficie ſite ſunt omneſqʒ triangulus in vna ſupficie totus conſiſtit.
 
-[Diagram]
+[Figure: two lines crossing at point e, with endpoints c and a above and b and d below, and a horizontal line joining g and f]
 
-[Diagram]
+¶Sint due linee recte.a.b.⁊.c.d.ſe inuicem ſecantes in puncto.e.dico eas eſſe in ſuperficie vna ⁊ omnẽ triangulũ dico eſſe in ſuperficie vna totũ.ſignetur eni punctus.f.in linea.c.d.⁊ punctũ.g.in linea.a.b.⁊ ducať linea.f.g.Quia igitur impoſſibile eſt ptẽ trianguli.e.f.g.eſſe in plano ⁊ ptem ĩ ſublimi quin etiam ſuarum terminaliũ lineaꝝ vnius aut plurium pars ſimiliter ſit in plano.⁊ pars ſimiliter in ſublimi cum de lineis hoc ſit impoſſibile per premiſſam erit quoqʒ impoſſibile de triangulo.itaqʒ totus triangulus.e.f.g.eſt in ſuperficie vna.Ex hac igitur ſecũda parte ⁊ premiſſa cõſtat prima ps huius ſecunde propoſitionis.
 
-[Diagram]
+## Propoſitio .3.
 
-[Diagram]
+{dropcap:O|lines=5|style=decorated|decoration="white foliate ornament on black ground"}Mnium duarum ſuperficieꝝ ſe inuicẽ ſecantiũ cõmunis ſectio eſt linea recta.
 
-[Diagram]
+[Figure: two rectangles crossing at right angles with labels a, e, c, h, h, d, f and b, and a curved line between e and f]
 
-[Diagram]
+¶De planis ſuperficiebus intellige ⁊ verum erit qꝺ dicitur.Sint itaqʒ due ſuperficies plane.a.b.⁊.c.d.ſe inuicem ſecantes dico ꝙ earuʒ cõmunis ſectio erit linea recta.Eſto eni duo pũcta.e.⁊.f.termini cõmunis ſectionis eaꝝ que cõtinuenť per lineã rectã que ſit.e.f.ſi igitur linea.e.f.eſt in vtraqʒ duaꝝ ſupficieꝝ.a.b.⁊.c.d.ꝯſtat ꝓpoſitũ:at vero ſi in neutra aut ſi nõ in altera:cũ ambo puncta.e.⁊.f.ſint in vtraqʒ ſupficieꝝ.a.b.⁊.c.d.in ea ſuperficie in qua ipſa nõ fuerit protrahať linea recta que ſit.e.h.f.erũt igiť due recte linee.ef.⁊.e.h.f.hñtes duos terminos cões qꝺ ẽ ĩpoſſibile.ſic eni due recte linee includerẽt ſupficiẽ qꝺ ẽ ꝯ petitionẽ vltimã pmi libri.
 
-[Diagram]
+## Propoſitio .4.
 
-nue recte lince nequeunt ſuperficiem claudere. Angulos quoz planos ſolidũ an? gulum continentes in eade ſuperficie no connenit eſſe ſiros ſed in oincrſis quẽad, modũ ouas rectas lincas planii perficientes angulum non conuenit ſibi inuicem secũdũ ſitĩ rectitudinis applicari.
+{dropcap:S|lines=4|style=decorated|decoration="white foliate ornament on black ground"}I fuerit linea orthogonaliter ab inſciſione duarum linearum erecta interſecantium ſe:ipſa ad earundem ſuperficiẽ perpendicularis erit.
 
-¶ Gimiles lunt figure cozpozee rotude ſine ſit colũne ſiue caru piramides quay axes diametris ſuarũ baſiũ ſunt propozrtionales.
-
-¶ Propoſitis enim ouabus piramidibus rotundis aut pnabus columnis rotundis ſi fuerit proportio ayis vnius cay ad oiamctrum ſue baſis ficut ayis alterius ad oiametrum ſue baſis ille oue columne aut piramidcs
-
-## Propoſitio.i.
-
-ſimiles adinuicem eſſc oicuntnr. {dropcap:[illegible]|lines=5|style=decorated}Jnee recte partem eſle in plano z partem in lublimi ẽ im poſſibile.
-
-¶ Sit linea.a.b.. recta. dico g non eſt poſſibile ut pars cius ſit in plano z pars ſurſum clcuata.ſi eni eſt poſſibile ſir pars ci que eſt. a .ſita.in plano z pars cius que ẽ. c.b. in ſublimi polita z protrabai
-
-[Diagram]
-
-oirccte.a.c.in plano in quo ipla ſita eſt vſqy ad.d.critoz vr vni cidcmoy lince que eſt linea. a.c. ouc lince penit? oiucrſe que ſũt lincc. c.b. 4.c. d.cy cade parte oirecte adijciant qo est ipoſſibile:ey.13 primi.
-
-## ropoſitio 2.
-
-{dropcap:[illegible]|lines=5|style=decorated}nes lince oue quarum altera alteram ſecat in vna ſup fficie ſite ſunt omnelqz triangulus in vna lupficie totns con liſtit.
-
-¶ Sint onc linee rccte. a. b. 2.t. d. ſe inuicem ſecantes in puncto.c.oi co cas eſſe in iuperficic vna z omné triangulũ oico cſle in ſupcrficie vna totũ. ſignetur eni punctus. f.in linea.c. d.z punciũ.g-in linca. a.b. cucat li, nea.f.g-Quia igitur impoſlibile eſt ptez trianguli. e. f.g- eſſe in plano e ptem i ſub limi quin ctiam ſuarum terminaliũ lineaꝑ vnius aut plurium pars fimiliter ſit in nlano, z pars ſimiliter in ſublimi cum oe lincis boc ſit impoſſibile pcr premiſſam erit quooz impoſſibile de triangulo.itay totus triangulus.c.f.g. eſt in ſupcrficie vna. Ex bac igitur ſecũda partc z preiniſſa cõſtat prima ps buius ſecunde propoꝰ
-
-## Propoſitio.3..
-
-ſitionis. {dropcap:[illegible]|lines=5|style=decorated}Dnium ouarum ſupcrſiciez ſe inuicẽ ſecantiũ cõmunis fectio eſt linea recta.
-
-¶ De planis ſuperficicbus intellige e verm erit qo oicitr. Sint ita qy oue ſupcrficics plane. a.b. t.c.d. ſe inuicem ſccantes oico ꝙ caruz lcõmunis ſectio crit linca recta. Eſto eni ouo pũcia.c.2.f.termini cõꝰ munis ſectionis eay quc cõtinuent per lineã rectã que lit.e. f.ſi igitur linca.e. f. eſt
-
-[Diagram]
-
-[Diagram]
-
-in vtraqz ouay lupficicy. a.b.2.c. d. Sſtat ppoſirũ: at vero ſi in neutra aut ſi nõ in altera cũ ambo puncta.e.z. f.ſint in viragz ſupficiey.a.b.2.c. d.in ca fuperficie in qua ipſa nõ fuerit protrabat linca recta que ſir. c.h. f. crũt igit ouc recte lince. ef.2. .b.f. bũtes ouos terminos cões qo ẽ ĩpoſſibile. ſic eni ouc recte linee includcrẽt ſu
-
-## [illegible]
-
-{dropcap:[illegible]|lines=5|style=decorated}pficiẽ qo ẽ x petitione vltimã pmi libri. Propoſitio.4 J fuerit linea ortbogonaliter ab iniciſione ouarum linea rum erecta interſecantium ſe: ipla ad earundem ſuperficiẽ pperpendicularis erit.
-
-¶ oit linca.a.b. onbogonaliter crecta ſupcr inſciſione ouax lincari
+¶Sit linea.a.b.orthogonaliter erecta ſuper inſciſione duaꝝ lineaꝝ
