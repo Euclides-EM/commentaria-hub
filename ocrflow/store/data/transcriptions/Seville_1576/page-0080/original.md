@@ -2,6 +2,10 @@
 
 mun,L I,ques ygual al que ſe haze de,C D,luego el gnomõ C M I,y,L I,ſon yguales al rectangulo cõprehendido debaxo dela,A D,D B,y al quadrado que ſe haze de,C D,y el gnomon.C M I,y el,L I.ſon todo el quadrado,C E Z B,ques dela,B C,luego el rectãgulo cõprehẽdido debaxo dela,A D y dela:D B,juntamẽte con el quadrado q̃ ſe hace dela,C D, es ygual al quadrado que ſe haze dela,C B,luego ſi vna linea recta y lo demas que ſe ſigue como en el theorema lo qual conuino demoſtrarſe,
 
+[Curated heading level=2 type=propositions: Theorema.6. Propoſicion. 6.]
+
+[Curated heading level=2 type=theorems: Theorema.6. Propoſicion. 6.]
+
 ## Theorema.6. Propoſicion. 6.
 
 ¶Si vna linea recta ſe diuide en dos partes yguales y ſe le añade en derecho alguna linea recta el rectangulo comprehendido debaxo de toda ella cõ la añadida,y de la añadida, jũmente{printer-error-correction:jũtamente} conel quadrado que ſe haze de la mitad,es ygual a aquel quadrado que como de vna es hecho dela añadida y dela mitad jũtamente,

@@ -4,6 +4,10 @@ del mayor. A B.vna linea ygual a la. A C.y eſta ſea. D B. y tireſe la linea. 
 
 [Diagram: triangle with apex A and base B C, with point D on side A B near the apex and a line drawn from D to C]
 
+[Curated heading level=2 type=propositions: Theorema.4. Propoſition.7.]
+
+[Curated heading level=2 type=theorems: Theorema.4. Propoſition.7.]
+
 ## Theorema.4. Propoſition.7.
 
 Sobre vna miſma linea recta no ſe daran dos lineas rectas yguales a otras dos lineas rectas, la vna a la otra q̃ concurrã en otro puncto diuerſo, teñiendo vnos miſmos terminos cõ las primeras lineas rectas.

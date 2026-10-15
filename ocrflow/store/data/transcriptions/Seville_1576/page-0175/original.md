@@ -2,6 +2,10 @@
 
 <!-- Page number: 86. -->
 
+[Curated heading level=2 type=propositions: Theorema.8. Propoſicion.8.]
+
+[Curated heading level=2 type=theorems: Theorema.8. Propoſicion.8.]
+
 ## Theorema.8. Propoſicion.8.
 
 ¶De las quantidades deſiguales, la mayor a vna miſma tiene mayor razon que la menor y la miſma a la menor tiene mayor razonque a la mayor.

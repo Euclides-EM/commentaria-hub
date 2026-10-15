@@ -7,6 +7,10 @@ y ſe toman ſus centros la linea recta que abraça los centros đllos eſtendid
 
 Caya como. I Z C. y eſtiendaſe en derecho.C Z I.haſta eñl pũto.T.y tirenſe.A I.A Z.puesporque.A I.I Z.ſon mayores que A Z.(por la.20.del.1.)y la.A Z.es ygual ala.Z C.eſto es ala.Z T.quiteſe la comun.Z I.luego la.A I.que reſta es mayor q̃ la I T que reſta,eſto es.I D.mayor que.I T.la menor que la mayor ques impoſſible.Semejantemente ſe demoſtrara ſer impoſſible aunq̃ eſte el centro del circulo mayor fuera del circulo pequeño.
 
+[Curated heading level=2 type=propositions: Theorema.11. Propoſicion.12.]
+
+[Curated heading level=2 type=theorems: Theorema.11. Propoſicion.12.]
+
 ## Theorema.11. Propoſicion.12.
 
 ¶Si dos circulos entre ſi por de fuera ſe tocaren,la linea recta que abraça ſus centros paſſara por el tocamiento.

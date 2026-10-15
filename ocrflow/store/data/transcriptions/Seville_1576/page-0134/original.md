@@ -1,5 +1,9 @@
 <!-- Running title: LIBRO TERCERO DE -->
 
+[Curated heading level=2 type=propositions: Theorema.29. Propoſicion.35.]
+
+[Curated heading level=2 type=theorems: Theorema.29. Propoſicion.35.]
+
 ## Theorema.29. Propoſicion.35.
 
 ¶Si enel circulo ſe cortarẽ entre ſi dos lineas rectas:el rectangulo comprehendido debaxo de las partes de la vna,es ygual al rectangulo q̃ ſe cõprehẽde debaxo delas partes dela otra

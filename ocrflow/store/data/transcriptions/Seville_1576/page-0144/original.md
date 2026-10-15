@@ -2,6 +2,10 @@
 
 A K B.es ygual al angulo.D E I.luego el angulo. A M B.que reſta es ygual al angulo que reſta.D E Z.De la miſma manera ſe demoſtrara que tambien el angulo.L N M. es ygual al ãgulo .D Z E.luego el angulo que reſta.M L N.es ygual al angulo que reſta.E D Z.luego el triangulo.L M N. es el equiangulo al triangulo.D E Z.y deſcribeſe al derredor del circulo A B C.luego al derredor de vn circulo dado eſta deſcrito vn triangulo æquiangulo a vn triangulo dado.Lo qual cõuenia hacerſe.
 
+[Curated heading level=2 type=propositions: Problema.4. Propoſiciõ. 4.]
+
+[Curated heading level=2 type=problems: Problema.4. Propoſiciõ. 4.]
+
 ## Problema.4. Propoſiciõ. 4.
 
 ¶En vn triangulo dado deſcribir vn circulo.

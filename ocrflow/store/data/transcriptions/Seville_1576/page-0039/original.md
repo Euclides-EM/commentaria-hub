@@ -5,7 +5,11 @@
 
 cto dado.C.q̃ no eſta en ella.Porque.I T..es ygual ala.T E.y la.T C.es comũ luego las dos.I T. C T. ſõ yguales a las dos.E T.C T la vna a la otra,Y la baſis C I.ala baſis.C E.es ygual (por la difinicion quinze) luego el angulo.C T I. es ygual (por la.8.propoſiciõ)al angulo.C T E.Y eſtan de vna y otra parte.Y quãdo eſtãdo vna linea recta ſobre otra linea recta hiziere de vna y otra parte angulos entre ſi yguales,cada vno delos yguales angulos es recto(por la.10.difiniciõ) y la linea recta q̃ eſta encima ſe llama pepẽdicular{printer-error-correction:perpẽdicular}.Luego ſobre la linea recta dada infinita.A B.deſde el pũto.C.dado q̃ no eſta ẽ ella,eſta tirada la perpẽdicular.C T.q̃ cõuino hazerſe.
 
-## Thorema.6. Propoſition. 13
+[Curated heading level=2 type=propositions: Theorema.6. Propoſition. 13]
+
+[Curated heading level=2 type=theorems: Theorema.6. Propoſition. 13]
+
+## Thorema{printer-error-correction:Theorema}.6. Propoſition. 13
 
 Quando eſtãdo vna linea recta ſobre otra linea recta hiziere angulos,o hara dos rectos o yguales a dos rectos.
 

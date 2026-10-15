@@ -3,7 +3,11 @@
 
 luego las lineas.K M.Z L.(por la propoſicion.33.)ſon yguales y palelas.luego.K Z.M L es pallelogramo,y porque por la.42.)el triangulo. A B D.es ygualal pallelogramo. Z T.y el triãgulo. D B C.al pallelogramo. I M.luego todo el rectilineo A B C D.es ygual a todo el pallelogramo. K Z L M.Luego eſta hecho el pallelogrãmo. K Z L M.ygual al rectilineo dado A B C D.enel angulo. K M L.q̃ por la. 34. es ygual al angulo dado. E.lo qual conuino hazerſe.
 
-Problema 14. Propoſicion.46
+[Curated heading level=2 type=propositions: Problema 14. Propoſicion.46]
+
+[Curated heading level=2 type=problems: Problema 14. Propoſicion.46]
+
+## Problema 14. Propoſicion.46
 
 ¶De vna linea recta hazer vn quadrado.
 
@@ -11,6 +15,10 @@ Problema 14. Propoſicion.46
 
 [Diagram: a square with D and E at the top corners and A and B at the bottom corners; the left side extends upward beyond D to a point labelled C]
 
-Theorema.33. Propoſitio. 47.
+[Curated heading level=2 type=propositions: Theorema.33. Propoſitio. 47.]
+
+[Curated heading level=2 type=theorems: Theorema.33. Propoſitio. 47.]
+
+## Theorema.33. Propoſitio. 47.
 
 <!-- Catchword: En los -->

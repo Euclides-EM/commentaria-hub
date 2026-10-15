@@ -3,6 +3,10 @@
 
 ¶De aqui es manifieſto q̃ en los eſpacios quadrados, los parallelográmos que eſtan en la diagonal ſon quadradas,
 
+[Curated heading level=2 type=propositions: Theorema.5. Propoſicion.5.]
+
+[Curated heading level=2 type=theorems: Theorema.5. Propoſicion.5.]
+
 ## Theorema.5. Propoſicion.5.
 
 ¶Si vna linea recta ſe corta en partes yguales y en deſiguales el rectangulo que ſe comprehende delas partes deſiguales de ella toda,iũtamente con el quadrado dela parte de ẽ medio delas diuiſiones es ygual al quadrado que es hecho dela mitad,

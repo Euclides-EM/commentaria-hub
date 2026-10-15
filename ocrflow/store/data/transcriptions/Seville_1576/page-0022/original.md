@@ -2,40 +2,36 @@
 
 dentro cayendo enlacircũferentia del miſmo circulo ſon entre ſi yguales.
 
+[Curated heading level=3 type=definitions: 16 Centro del miſmo]
+
 16 Centro del miſmo circulo ſe llama aquel puncto.
+
+[Curated heading level=3 type=definitions: 17 Diametro dl circulo]
 
 17 Diametro dl circulo es vna linea recta tirada por el cẽtro:y de ambas pattes{printer-error-correction:partes} terminada ẽla circunferoncia{printer-error-correction:circunferencia} del circulo . la qual diuide alcirculo, por medio.
 
-[Margin]
-Diametro.
+[Diagram: circle with a diameter drawn across it, with the label "Diametro."]
 
-[Diagram: circle with a diameter drawn across it]
-[/Margin]
+[Curated heading level=3 type=definitions: 18 Medio circulo es]
 
 18 Medio circulo es la figura tenida del diametro y de la circũferẽtia que con el es cortada.
 
-[Margin]
-Medio circulo
+[Diagram: semicircle resting on its diameter, with the label "Medio circulo"]
 
-[Diagram: semicircle resting on its diameter]
-[/Margin]
+[Curated heading level=3 type=definitions: 19 Segmẽto de circulo]
 
 19 Segmẽto de circulo, es la figura contenida de vna linea recta y de vna circunferencia de circulo mayor o menor q́ medio circulo.
 
-[Margin]
-Segmento.
+[Diagram: circle with a chord cutting off a segment, with the label "Segmento."]
 
-[Diagram: circle with a chord cutting off a segment]
-[/Margin]
+[Curated heading level=3 type=definitions: 20 Figuras rectilineas ſon]
 
 20 Figuras rectilineas ſon las que ſon contenidas de lineas rectas.
 
+[Curated heading level=3 type=definitions: 21 Figuras de tres]
+
 21 Figuras de tres lados ſon las cõtenidas debajo de tres lineas rectas
 
-[Margin]
-Trilatera.
-
-[Diagram: triangle]
-[/Margin]
+[Diagram: triangle, with the label "Trilatera."]
 
 <!-- Catchword: Figu. -->

@@ -5,7 +5,7 @@ es menor que recto,luego el angulo.A D C. que reſta es mayor que recto,y eſta 
 
 ¶ Otra demoſtracion que el angulo.B A C. es recto. Porq̃ el angulo.A E C.es doblado al angulo.B A E.(por la.32. del. 1.porq̃s ygual a los dos interiores y oppueſtos,y los interiores(por la.5.)ſon yguales:y el ãgulo.A E B.es doblado al angulo.E A C.luego los angulos.A E B.A E C.ſon el doblo delãgulo.B A C.y los angulos.A E B.A E C.ſon yguales a dos rectos,luego el ãgulo.B A C es recto,lo q̃l ſe auia de demoſtrar
 
-## Corolario.
+### Corolario.
 
 ¶De aqui es manifieſto que ſi el vn angulo de vn triangulo fuere ygual a los dos que reſtan,que ſera recto.Porque el que le eſta pegado,conuiene a ſaber el que es hecho eſtendido el lado fuera del triangulo,es ygual a los
 

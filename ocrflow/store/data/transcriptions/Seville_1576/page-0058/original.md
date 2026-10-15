@@ -2,6 +2,10 @@
 
 al angulo.B C D.luego la baſis.D B(por la.4.propoſiciõ) es ygual a la baſis.A C.y el triangulo A B C.es ygual al triãgulo B C D.y los de mas angulos ſon yguales a los de mas angulos el vno al otro debajo delos quales ſe tienden yguales lados.Luego el angulo.A C B.es ygual al angulo C B D.y el angulo.B A C al angulo.B D C. Y porq̃ ſobre las dos lineas rectas.A C.B D.cae la linea recta.B C.haziendo yguales los angulos alternos A C B.C B D.entreſi,luego.A C.parallela es a la.B D(por la.27.propoſicion)y eſta demoſtrado q̃ tambiẽ le esygual.Luego las lineas rectas q̃ juntã a yguales lineas rectas y parallelas hacia vnas miſmas partes,ellas meſmas tãbien ſon yguales y parallelas,lo qual conuino demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.24. Propoſitio.34.]
+
+[Curated heading level=2 type=theorems: Theorema.24. Propoſitio.34.]
+
 ## Theorema.24. Propoſitio.34.
 
 ¶Los lados oppueſtos y los ãgulos delos eſpacios de lados parallelos,ſo yguales entre ſi: y la diagonal los corta en dos partes yguales,

@@ -8,6 +8,10 @@ Porq̃ dẽtro del circulo.A B C.Tome ſe el pũcto.D. y deſde el miſmo.D.al c
 
 [Diagram: circle with horizontal diameter labelled Z, D, E and I, and lines from the centre to points A, B and C on the lower circumference]
 
+[Curated heading level=2 type=propositions: Theorema.9. Propoſicion. 10.]
+
+[Curated heading level=2 type=theorems: Theorema.9. Propoſicion. 10.]
+
 ## Theorema.9. Propoſicion. 10.
 
 ¶Vn circulo no corta a otro circulo en mas punctos que dos.

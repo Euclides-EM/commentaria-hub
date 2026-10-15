@@ -1,59 +1,45 @@
 <!-- Running title: LIBRO PRIMERO. -->
 
+[Curated heading level=3 type=definitions: 29 Oxigonio el que]
+
 29 Oxigonio el que tienetres angulos agudos.
 
-[Margin]
-Oxigonio.
+[Diagram: triangle labelled F, with the label "Oxigonio."]
 
-[Diagram: triangle labelled F]
-[/Margin]
+[Curated heading level=3 type=definitions: 30 Pero de las]
 
 30 Pero de las figuras quadrilateras, quadrado es elque es equilatero y rectangulo.
 
-[Margin]
-Quadrado.
+[Diagram: square labelled A, with the label "Quadrado."]
 
-[Diagram: square labelled A]
-[/Margin]
+[Curated heading level=3 type=definitions: 31 Quadrangulo es]
 
 31 Quadrangulo es, el que es rectangulo p̃o no es equilatero
 
-[Margin]
-Quadrãgulo.
+[Diagram: rectangle labelled B, with the label "Quadrãgulo."]
 
-[Diagram: rectangle labelled B]
-[/Margin]
+[Curated heading level=3 type=definitions: 32 Rombo es la]
 
 32 Rombo es la figura q́ es equilatera, pero no es rectágula.
 
-[Margin]
-Rombo.
+[Diagram: rhombus labelled C, with the label "Rombo."]
 
-[Diagram: rhombus labelled C]
-[/Margin]
+[Curated heading level=3 type=definitions: 33 Romboyde es la]
 
 33 Romboyde es la figura q́ tiene los lados y angulos contrarios yguales, pero ni es equilatera ni rectangula.
 
-[Margin]
-Romboyde.
+[Diagram: rhomboid labelled D, with the label "Romboyde."]
 
-[Diagram: rhomboid labelled D]
-[/Margin]
+[Curated heading level=3 type=definitions: 34 Los demas quadrilateros]
 
 34 Los demas quadrilateros fuera deſtos llamanſe trapezias.
 
-[Margin]
-Trapezias.
+[Diagram: trapezium labelled E, with the label "Trapezias."]
 
-[Diagram: trapezium labelled E]
-[/Margin]
+[Curated heading level=3 type=definitions: 35 Lineas rectas parallelas]
 
 35 Lineas rectas parallelas ſõlas q́ eſtãdo ẽ vn miſmo llano, y eſtẽdidas de ábas partes ẽ infinito, ẽ ningũaparte cõcurrẽ
 
-[Margin]
-Paralelas
-
-[Diagram: two horizontal parallel lines]
-[/Margin]
+[Diagram: two horizontal parallel lines, with the label "Paralelas"]
 
 <!-- Catchword: El -->

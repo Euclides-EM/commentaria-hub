@@ -3,6 +3,10 @@
 
 tiene la miſma.baſis, eſto es.B C.y en vnas miſmas paralellas es a ſaber.B C.E T.y tambien por eſto.E Z I T.es ygual a.E B C T,por lo qual el paralelógramo.A B C D.es ygual al parallelogramo.E Z I T.luego los parallelogramos que eſtã en yguales baſes,y lo de mas que ſe ſigue como en el theorema que era lo que ſe hauia de demoſtrar.
 
+[Curated heading level=2 type=propositions: Theorema.27. Propoſicion. 37.]
+
+[Curated heading level=2 type=theorems: Theorema.27. Propoſicion. 37.]
+
 ## Theorema.27. Propoſicion. 37.
 
 ¶Los triangulos que eſtã en vna miſma baſis y ẽ vnas miſmas paralelas:ſon yguales entre ſi

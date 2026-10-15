@@ -6,6 +6,10 @@
 
 [Figure: pentagon A B C D E inscribed in a circle, with lines drawn from the central point Z to each vertex]
 
+[Curated heading level=2 type=propositions: Problema.15. Propoſicion. 15.]
+
+[Curated heading level=2 type=problems: Problema.15. Propoſicion. 15.]
+
 ## Problema.15. Propoſicion. 15.
 
 <!-- Catchword: En vn -->

@@ -4,6 +4,10 @@
 
 bira al derredor del circulo vn hexagono æquilatero y equiangulo,lo qual ſe ſeguira de lo dicho enel pentagono.Y demas deſto por lo que ſemejantemente eſta dicho en el penthagono inſcribiremos vn circulo en el hexagono dado,y le deſcribiremos al derredor,lo qual conuenia hazer ſe.
 
+[Curated heading level=2 type=propositions: Problema.16. Propoſicion.16.]
+
+[Curated heading level=2 type=problems: Problema.16. Propoſicion.16.]
+
 ## Problema.16. Propoſicion.16.
 
 ¶En vn circulo dado deſcribir vna figura de quinze angulos equilatera y equiangula,

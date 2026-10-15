@@ -5,6 +5,10 @@ que dos rectos ſe eſtienden en infinito, concurren, y eſtas por ſerparalella
 
 [Diagram: transversal line E Z crossing two horizontal parallel lines A B and C D at points I and T]
 
+[Curated heading level=2 type=propositions: Theorema.21. Propoſition.30.]
+
+[Curated heading level=2 type=theorems: Theorema.21. Propoſition.30.]
+
 ## Theorema.21. Propoſition.30.
 
 ¶Las lineas rectas que a vna miſma ſon parallelas entre ſi ſon paralellas.

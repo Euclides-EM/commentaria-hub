@@ -4,6 +4,10 @@ triangulo.A B E.tiene dupla razon al triangulo.Z I L.que la B E.a la.I L.y por t
 
 [Diagram: two pentagons with diagonals drawn from the top vertex, labelled A, B, C, D, E and Z, I, T, K, L]
 
+[Curated heading level=2 type=propositions: Theorema.15. Propoſicion.21.]
+
+[Curated heading level=2 type=theorems: Theorema.15. Propoſicion.21.]
+
 ## Theorema.15. Propoſicion.21.
 
 Los que a vn miſmo rectilineo ſon ſemejantes,ſon ſemejantes entre ſi.

@@ -7,6 +7,10 @@ ces, quan multiplice de la vna es la vna quãtidad tan multiplices de todas ſer
 
 [Figure: four vertical lines, the first labelled A, I, B, the second labelled E, the third labelled C, T, D, the fourth labelled Z]
 
+[Curated heading level=2 type=propositions: Theorema.2. Propoſicion. 2.]
+
+[Curated heading level=2 type=theorems: Theorema.2. Propoſicion. 2.]
+
 ## Theorema.2. Propoſicion. 2.
 
 ¶Si la primera fuere ygualmente multiplice de la ſegunda, que la tercera de la quarta, y la

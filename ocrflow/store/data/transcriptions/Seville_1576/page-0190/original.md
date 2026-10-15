@@ -4,6 +4,10 @@ a la,D,por el corolario de la,4,del,5,y a la q̃ vna miſma tiene mayor razon, a
 
 [Diagram: ten vertical lines of varying heights labelled A, B, C, C, C, D, D, D, E and Z]
 
+[Curated heading level=2 type=propositions: Theorema.22. Propoſicion. 22.]
+
+[Curated heading level=2 type=theorems: Theorema.22. Propoſicion. 22.]
+
 ## Theorema.22. Propoſicion. 22.
 
 Si fueren qualesquiera quantidades , y otras a ellas yguales é numero,tomadas de dos en dos en vna miſma razon, tambien por ygual eſtará en la miſma razon.

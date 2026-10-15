@@ -2,6 +2,10 @@
 
 lados q̃ eſtan junto a yguales angulos delos triangulos yguales y que tienen el vn angulo ygual al vn angulo,y los triãgulos que tienen el vn angulo ygual al vn angulo,y ſus lados ſõ reciprocos,tambien ellos ſon yguales entreſi.Lo qual conuino demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.11. Propoſicion.16]
+
+[Curated heading level=2 type=theorems: Theorema.11. Propoſicion.16]
+
 ## Theorema.11. Propoſicion.16
 
 ¶Si quatro lineas rectas fueren proporcionales,el rectangulo comprehendido debaxo de las dos extremas es ygual al comprehendido debaxo delas dos medias:y ſi el rectangulocõprehendido debaxo de las extremas fuere ygual al que ſe contiene debaxo delas de ẽ medio las q̃tro lineas rectas ſerã proporcionales

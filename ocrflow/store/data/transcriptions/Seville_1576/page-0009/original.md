@@ -1,6 +1,9 @@
 <!-- Running title: AL ILLVSTRE SE NOR LVCIANO DE NEGRON -->
 
-# AL ILLVSTRE SENOR LVCIANO DE NEGRON canonigo dela ſancta ygleſia de Seuilla.
+# AL ILLVSTRE
+[Subhead]
+SENOR LVCIANO DE NEGRON canonigo dela ſancta ygleſia de Seuilla.
+[/Subhead]
 
 [Ornament: small asterisk between parentheses]
 

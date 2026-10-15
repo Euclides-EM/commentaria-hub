@@ -4,6 +4,10 @@ en el puncto.A. luego por la.4.del.2, el q̃ ſe hace dla.CD.es ygual a los quad
 
 [Diagram: right triangle with vertices labelled B, C, A and D, the point A lying on the base between C and D]
 
+[Curated heading level=2 type=propositions: Theorema.12. Propoſition.13]
+
+[Curated heading level=2 type=theorems: Theorema.12. Propoſition.13]
+
 ## Theorema.12. Propoſition.13
 
 ¶Enlos triãgulos oxigonios el quadrado q̃ ſe hace d̃l lado oppueſto al ãgulo agudo es tãto menor q̃ los quadrados delos lados q̃ cõprehendẽ el angulo agudo, quãto es el q̃ ſecõprehende dos vezes debajo devno de aquellos q̃ eſtã cerca del angulo agudoſobre quiẽ cae la perpendicular, y del tomado dentro debajo dela perpendicular aſta el angulo agudo,

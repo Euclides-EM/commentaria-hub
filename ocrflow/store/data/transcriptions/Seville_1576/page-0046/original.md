@@ -4,6 +4,10 @@ porque eſtiẽdaſe(por la. 2. peticiõ) la linea. B D. aſta. E. y porque (por
 
 [Diagram: triangle with A at the top, B at the bottom left and C at the bottom right; E lies on the right side and D is inside, with lines from B to E and from B through D to C]
 
+[Curated heading level=2 type=propositions: Problema.8. Propoſicion. 22.]
+
+[Curated heading level=2 type=problems: Problema.8. Propoſicion. 22.]
+
 ## Problema.8. Propoſicion. 22.
 
 ¶Hazer vn triangulo de tres lineas rectas que ſean yguales a tres lineas rectas dadas:pero cõuiene que las dos lineas ſean mayores que la que reſta tomadas de qualquier manera,porque los dos lados de todo triangulo tomados

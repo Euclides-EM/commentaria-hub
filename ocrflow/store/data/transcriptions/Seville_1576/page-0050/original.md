@@ -4,6 +4,10 @@ Siẽdo dos triangulos. A B C. D E Z. que tengan los dos lados. A B. A C. yguale
 
 [Diagram: two triangles side by side; the left triangle has apex A with B at the lower left and C at the lower right; the right triangle has apex D with E at the lower left and Z at the lower right]
 
+[Curated heading level=2 type=propositions: Theorema.17. Propoſitio.26.]
+
+[Curated heading level=2 type=theorems: Theorema.17. Propoſitio.26.]
+
 ## Theorema.17. Propoſitio.26.
 
 ¶Si dos triangulos tuuieren los dos angulos yguales a los dos angulos: el vno al otro: y el vn lado ygual al vn lado: aora el q̃ eſta entre los dos angulos yguales: o el que ſe opone al vño de los yguales angulos tendran tambien los demas lados yguales a los demas lados el vno al otro: y el ãgulo reſtãte al ãgulo reſtãte.

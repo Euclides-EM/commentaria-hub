@@ -2,6 +2,10 @@
 
 gulo diuidiere tãbien la baſis, las partes dela baſis tẽdrã vna miſma razõ a los demas lados del miſmo triãgulo. Y ſi laspartes dela baſis tuuierẽ vna miſma razõ a los demas lados del miſmo triangulo,la linea recta tirada deſde el punto a la diuiſion,diuide por medio el angulo del miſmo triangulo. Lo qual ſe hauia de demoſtrar.
 
+[Curated heading level=2 type=propositions: Theorema.4. Propoſiciõ.4.]
+
+[Curated heading level=2 type=theorems: Theorema.4. Propoſiciõ.4.]
+
 ## Theorema.4. Propoſiciõ.4.
 
 Los lados de los triangulos equiãgulos que abraçan yguales angulos ſonproporcionales: y ſon de ſemejante razon los lados que ſe oponen a yguales angulos.

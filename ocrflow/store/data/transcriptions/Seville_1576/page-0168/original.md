@@ -6,6 +6,10 @@ quinta de la ſegunda ygualmente multiplice que la ſexta de la quarta, tambien 
 
 [Figure: four vertical lines, the first labelled A, B, I, the second labelled C, the third labelled D, E, T, the fourth labelled Z]
 
+[Curated heading level=2 type=propositions: Theorema.3. Propoſicion. 3.]
+
+[Curated heading level=2 type=theorems: Theorema.3. Propoſicion. 3.]
+
 ## Theorema.3. Propoſicion. 3.
 
 <!-- Catchword: Si el -->

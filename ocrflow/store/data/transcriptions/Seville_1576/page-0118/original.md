@@ -2,6 +2,10 @@
 
 luego por la.18.es perpendicular a la D E.y es recto el angulo.Z C E,y el angulo.A C E.es recto.Luego el angulo. Z C E. es ygual al angulo.A C E.el menor al mayor,que es impoſſible.Luego.Z.no es centro del circulo. A B C.Tambien demoſtraremos de la miſma manera q̃ ni en otra pa rte fuera del a A C.Luego ſi alguna linea recta tocare al circulo, y deſde el tocamiẽto ſe ſacare vna linea recta en angulos rectos ſobre la que toca,en la que ſe ſaca eſtara el centro del circulo. Lo qual conuino demoſtrar ſe.
 
+[Curated heading level=2 type=propositions: Theorema.18. Propoſicion.20]
+
+[Curated heading level=2 type=theorems: Theorema.18. Propoſicion.20]
+
 ## Theorema.18. Propoſicion.20
 
 ¶Enel circulo,el angulo ſobre el cẽtro, es doblado al de ſobre la circunferẽcia,quandolos angulos tuuieren ygual circunferencia.

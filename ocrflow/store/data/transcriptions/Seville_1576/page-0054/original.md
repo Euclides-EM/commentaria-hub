@@ -2,6 +2,10 @@
 
 propoſicion)luego es paralella. A B. a la.C D. Demas deſto porque los angulos.B I T.I T D.ſon yguales a dos rectos (por la ſuppoſicion)y los angulos.A I T.B I T(por la treze propoſicion)ſon yguales a dos rectos.Luego los angulos A I T,B I T.ſon yguales a los angulos.B I T.I T D. Quite ſe el angulo comun,B I T.luego el reſtante,A I T.es ygual al reſtante.I T D.y.ſon alternos.Luego parallela es.AB.a la.CD. luego ſi cayendo vna linea recta ſobre dos lineas rectas,y lo demas como en la propoſicion,que es lo q̃ ſe auia de demoſtrar.
 
+[Curated heading level=2 type=propositions: Theorema.20. Propoſicion.29.]
+
+[Curated heading level=2 type=theorems: Theorema.20. Propoſicion.29.]
+
 ## Theorema.20. Propoſicion.29.
 
 ¶Cayendo vna linea recta ſobre dos lineas rectas paralellas,hara los angulos alternos entreſi yguales:y el exterior ygual al interior y opueſto hacia vnas miſmas partes:y los dos interiores hacia vnas miſmas partes yguales a dos rectos.

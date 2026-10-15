@@ -7,6 +7,10 @@ de qualquier manera ſon mayores q̃ el reſtãte
 
 [Diagram: three horizontal line segments labelled A, B and C above two intersecting circles; the horizontal line T D passes through the centres I and Z, the circles intersect at K above and L below, with lines from K to I and Z]
 
+[Curated heading level=2 type=propositions: Problema.9, Propoſicion,23,]
+
+[Curated heading level=2 type=problems: Problema.9, Propoſicion,23,]
+
 ## Ploblema{printer-error-correction:Problema}.9, Propoſicion,23,
 
 ¶Sobre vna linea recta y en vn puncto enella ſeñalado hazer vn angulo de lineas rectas ygual a vn angulo dado de lineas rectas,

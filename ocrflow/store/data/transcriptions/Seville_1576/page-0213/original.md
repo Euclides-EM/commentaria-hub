@@ -3,6 +3,10 @@
 
 ſe tiro la.I T.prallela alvn lado.E Z. del triãgulo.DEZ.luego (por la.2.del.6.)como ſe ha.D I.cõ la.I E,aſſi la.DT.cõ la.T Z y es ygual la.D I.a la.A.y la.I E.a la.B. y la,D T.a la .C.luego como la.A.cõ la.B.aſſi la.C.con la.T Z.Luego halloſe la quarta linea.T Z.proporcional a las tres lineas rectas dadas.A. B C.Lo qual conuenia hazer ſe.
 
+[Curated heading level=2 type=propositions: Problema.5. Propoſiciõ.13.]
+
+[Curated heading level=2 type=problems: Problema.5. Propoſiciõ.13.]
+
 ## Problema.5. Propoſiciõ.13.
 
 ¶ Dadas dos lineas rectas hallar vna media proporcional.
@@ -11,7 +15,11 @@ Seã dos lineas rectas.A B.B C.conuiene delas dos.AB BC hallar vna media proport
 
 [Figure: semicircle on base A C with D on the arc, B on the base near C, lines drawn from A to D and from D to B and C]
 
-## Theorema.8, Propoſicion. 14.
+[Curated heading level=2 type=propositions: Theorema.9, Propoſicion. 14.]
+
+[Curated heading level=2 type=theorems: Theorema.9, Propoſicion. 14.]
+
+## Theorema.8{printer-error-correction:9}, Propoſicion. 14.
 
 ¶ Son reciprocos los lados que eſtan junto a yguales angulos delos parallelogrãmos yguales y q̃ tienen el vn angulo ygual alvn angulo: y en los parallelogramos que tienẽ elvn angulo ygual al vn angulo y ſus lados ſon reciprocos,tambien ellos ſon yguales entre ſi.
 

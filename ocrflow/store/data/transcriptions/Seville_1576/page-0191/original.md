@@ -5,6 +5,10 @@ las dos.B.E.otras qualesquiera ygualmẽte multiplices.K.L.luego (por la, 4. del
 
 [Diagram: twelve vertical lines of varying heights labelled I, K, M, A, B, C, D, E, Z, T, L and N]
 
+[Curated heading level=2 type=propositions: Theorema,23. Propoſicion.23.]
+
+[Curated heading level=2 type=theorems: Theorema,23. Propoſicion.23.]
+
 ## Theorema,23. Propoſicion.23.
 
 ¶Si fuerẽ tres quãtidades,y otras a ellas yguales é numero tomadas de dos é dos é vna miſma razõ,y la proporciõ dellas fuere perturbada tãbien por ygual eſtará en la miſma razõ.

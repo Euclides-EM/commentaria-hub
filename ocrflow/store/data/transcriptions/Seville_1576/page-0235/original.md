@@ -8,6 +8,10 @@ De otra manera. Sea otra vez. A B. diuidida por medio en el puncto.C.y ſea el a
 
 [Diagram: a rectangle with corners labelled Z, T, B and A, crossed by a diagonal from B, with interior lines through points I, E, L, K, C and D]
 
+[Curated heading level=2 type=propositions: Problema. 8, Propoſicion.28.]
+
+[Curated heading level=2 type=problems: Problema. 8, Propoſicion.28.]
+
 ## Problema. 8, Propoſicion.28.
 
 ¶Sobre vna linea recta aplicar vn parallelogrãmo falto en figura parallelograma ſemejãte a vno dado ,y ygual a vn rectilineo dado

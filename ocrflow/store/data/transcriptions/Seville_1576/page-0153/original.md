@@ -1,6 +1,10 @@
 <!-- Running title: EVCLIDES. -->
 <!-- Page number: 75. -->
 
+[Curated heading level=2 type=propositions: Problema.11. Propoſicion.11.]
+
+[Curated heading level=2 type=problems: Problema.11. Propoſicion.11.]
+
 ## Problema.11. Propoſicion.11.
 
 ¶En vn circulo dado deſcribir vn pentangono æquilatero y æquiangulo.

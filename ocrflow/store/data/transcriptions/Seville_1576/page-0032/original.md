@@ -2,6 +2,10 @@
 
 tẽcia)y le es ygual,y caeran tãbien los de mas angulos(por la miſma)ſobre los de mas angulos y les ſerã yguales,eſto es el angulo. A B C.al angulo. D E Z.y el angulo. A C B.al angulo D Z E.Luego quando dos triangulos tuuieren los dos lados yguales a los dos lados el vno al otro y el angulo ygual al angulo contenido de yguales lineas rectas,tendran tambien la baſis ygual a la baſis,y el vn triangulo ſera ygual al otro triãgulo:y los de mas angulos ſerã yguales a los de mas angulos el vno al otro, debajo de los quales ſe eſtienden yguales lados,lo qual conuino demonſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.2. Propoſition.5.]
+
+[Curated heading level=2 type=theorems: Theorema.2. Propoſition.5.]
+
 ## Theorema.2. Propoſition.5.
 
 ¶Los angulos de los triãgulos yſoſceles q̃ eſtã ſobre la baſis ſon entreſi yguales. Y eſtẽdidas las lineas rectas yguales, ſeran tãbien yguales entre ſi los angulos q̃ eſtan debajo de la baſis

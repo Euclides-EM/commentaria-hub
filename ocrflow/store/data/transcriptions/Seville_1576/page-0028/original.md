@@ -1,4 +1,16 @@
-# LIBRO PRIMERO DE LOS ELEMENTOS GEOMETRICOS DE EVCLIDES philoſopho Megarenſe.
+# LIBRO PRIMERO DE LOS ELEMENTOS GEOMETRICOS DE EVCLIDES
+
+[Subhead]
+philoſopho Megarenſe.
+[/Subhead]
+
+[Curated heading level=1 type=propositions: LIBRO PRIMERO DE LOS ELEMENTOS GEOMETRICOS DE EVCLIDES]
+
+[Curated heading level=1 type=problems: LIBRO PRIMERO DE LOS ELEMENTOS GEOMETRICOS DE EVCLIDES]
+
+[Curated heading level=2 type=propositions: Problema primero, propoſition primera,]
+
+[Curated heading level=2 type=problems: Problema primero, propoſition primera,]
 
 ## Problema primero, propoſition primera,
 

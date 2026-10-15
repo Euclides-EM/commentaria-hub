@@ -2,6 +2,10 @@
 
 poſſible,Luego no quadrando la linea recta.A B. ſobre la linea recta.C D.tampoco quadrara el ſegmento.A E B. ſobre el ſegmento.C Z D,luego quadra y es le ygual.Luego los ſegmentos ſemejantes de circulos,pueſtos ſobre yguales lineas rectas,ſon yguales entre ſi.Lo qual ſe hauia de demoſtrar.
 
+[Curated heading level=2 type=propositions: Problema.3. Propoſicion.25.]
+
+[Curated heading level=2 type=problems: Problema.3. Propoſicion.25.]
+
 ## Problema.3. Propoſicion.25.
 
 ¶Dado vn ſegmento de circulo: deſcribir el circulo cuyo ſegmento es.

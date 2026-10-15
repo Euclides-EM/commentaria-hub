@@ -3,6 +3,10 @@
 
 la.A,ala.B.mayor razon tiene que la.C,ala.B. y como ſe ha la.A,ala.B,aſsi es la.D.ala,E.y como la.C.ala,B.otro ſi, tambien la.Z.ala,E.luego tãbien la. D. ala.E.tiene mayor razon que la.Z.ala.E.(por el corolario dela.4.del.5.)y delasquetienen razon a vna miſma,la que tiene mayor razon,esmayor (por la decima del.5.)luego mayor es la.D. que la.Z. Tambien dela miſma forma demoſtraremos que ſi es ygual la.A. ala.C.tambien ſera ygual la,D.ala.Z.y ſi menor,menor, luego ſi fueren tres quãtidades y otras a ellas yguales en numero,tomadas de dos en dos en vna miſma razon,pero por ygual,la primera fuere mayor que la tercera,ſera tambien la quarta mayor que la ſexta:y ſi ygual,ygual: y ſi menor menor,loqual conuenia demoſtrar.
 
+[Curated heading level=2 type=propositions: Theorema.21. Propoſicion.21.]
+
+[Curated heading level=2 type=theorems: Theorema.21. Propoſicion.21.]
+
 ## Theorema.21. Propoſicion.21.
 
 ¶Si fueren tres quantidades, y otras a ellas yguales en numero, tomadas de dos en dos y en vna miſma razon, y fuere la proportiõ de ellas perturbada, pero por ygual la primera fuere mayor que la tercera, ſera tambien la quarta mayor que la ſexta:y ſi ygual,ygual: y ſi menor,menor.

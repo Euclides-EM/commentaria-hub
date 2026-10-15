@@ -4,6 +4,10 @@ tercera propoſiciõ)la linea C E.ygual a la.D C.y ſobre D E(por la.1. propoſi
 
 [Diagram: triangle with apex Z and base from D to E on a horizontal line ending at B, with a perpendicular from Z to the base; the letter C below the foot of the perpendicular]
 
+[Curated heading level=2 type=propositions: Problema.7. Propoſicion.12.]
+
+[Curated heading level=2 type=problems: Problema.7. Propoſicion.12.]
+
 ## Ploblema{printer-error-correction:Problema}.7. Propoſicion.12.
 
 ¶Tirar vna linea recta perpendicular ſobre vna linea recta dada infinita deſdevn puncto que no eſte en ella,

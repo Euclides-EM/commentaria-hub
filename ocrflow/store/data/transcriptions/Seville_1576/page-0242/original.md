@@ -4,4 +4,8 @@ a la.D C.y la.A C.a la.D E.Digo que.B C. eſta en linea recta cõ.C E.porque la.
 
 [Diagram: two right triangles on a common horizontal base line; the first with vertices A at top left, B at bottom left and C at bottom right; the second with vertices D at top, C at bottom left and E at bottom right]
 
+[Curated heading level=2 type=propositions: Theorema,23, Propoſicion,33]
+
+[Curated heading level=2 type=theorems: Theorema,23, Propoſicion,33]
+
 ## Theorema,23, Propoſicion,33

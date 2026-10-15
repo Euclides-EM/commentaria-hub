@@ -2,6 +2,10 @@
 
 el punto. C.ſobre el punto.Z.porque.B C.es ygual a la.E Z. caen tambien. C A. A B. ſobre.E D. D Z.porque ſi la baſis B A.cae ſobre la baſis.E D.pero los lados.B C.A C.no caẽ ſobre loslados.E Z. D Z.ſino q̃ ſi difieren como.E Z. E C.D Z. D C.darſe han ſobre vna miſma linea recta dos lineas rectas yguales a otras dos lineas rectas la vna ala otra q̃ cõcurrã ẽ differentes puntos hazia vna miſma parte teniẽdo vnos miſmos terminos.Pero no ſe dan eſtas(por la.7.propoſiciõ)luego cayẽdo la baſis.B A.ſobre la baſis.E D caerã tãbien los lados.B C. A C.ſobre los lados.E Z. D Z.por lo qual tambien el angulo.B C A.caera ſobre el angulo. E Z D. y ſera ygual. Luegoſi dos triangulos tuuieren los dos lados yguales a los dos lados el vno al otro y la baſis tãbien ygual ala baſis,tendran el angulo tambien ygual al angulo cõtenido de yguales rectas lineas, que era lo q̃ſe auia de demoſtrar.
 
+[Curated heading level=2 type=propositions: Problema.4. Propoſition 9.]
+
+[Curated heading level=2 type=problems: Problema.4. Propoſition 9.]
+
 ## Problema.4. Propoſition 9.
 
 ¶Diuidir vn angulo dado recti lineo en dos partes yguales.

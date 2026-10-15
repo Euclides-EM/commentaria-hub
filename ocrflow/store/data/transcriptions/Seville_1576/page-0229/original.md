@@ -3,6 +3,10 @@
 
 aſsi.T I.con.I N.luego tãbien al traſtrocado,por la.16. del. 5, como.R P.con.T I.aſsi.P S.con.I N y es mayor la.P R.que la T I.luego mayor es.P S.que la.I N.por lo qual tambien.R S. es mayor que.T N,y es tambien ygual,por la ſuppoſicion,lo qual es impoſsible.Luego.P R. en ningũa manera es deſigual a la.T I.Luego ſera ygual,lo qual conuino demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.17. Propoſicion.23,]
+
+[Curated heading level=2 type=theorems: Theorema.17. Propoſicion.23,]
+
 ## Theorema.17. Propoſicion.23,
 
 ¶Los parallelogramos equiãgulos tienen entre ſi la razon compueſta delos lados.

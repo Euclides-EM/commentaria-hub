@@ -4,6 +4,10 @@
 
 en A,y en.C,y tireſe,A C,por la.1.peticiõ)Pues porque en la circũferẽcia de ambos circulos.A B C D,A C K,ſean tomado dos pũctos,a caſo A.C,cae dẽtro de ambos(por la.2.del.1.)la linea recta que los abraça,y cae dentro del circulo.A B C D y fuera del circulo.A C K,lo qual es impoſſible.Luego vn circulo a otro circulo no le tocara pordefuera ẽ mas punctos q̃ en vno.Y eſta demoſtrado que ni por dentro.Luego vn circulo no toca a otro circulo en mas punctos que vno aunq̃ por fuera,y aunque por dentro le toque,lo qual conuino demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.13. Propoſicion.14.]
+
+[Curated heading level=2 type=theorems: Theorema.13. Propoſicion.14.]
+
 ## Theorema.13. Propoſicion.14.
 
 ¶Enel circulo yguales lineas rectas,ygualmẽte diſtã del centro,y las que ygualmente diſtã del centro ſon yguales entre ſi.

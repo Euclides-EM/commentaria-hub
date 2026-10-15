@@ -2,6 +2,10 @@
 
 tiplice que el tercero de el quarto,y ſe tomaren del primero y del tercero ygualmente multiplices tambien por ygual el vno y el otro de los q̃ fuerõ tomados ſera ygualméte multiplice del vno y del otro,el vno d̃l ſegũdo y el otro del quarto
 
+[Curated heading level=2 type=propositions: Theorema.4. Propoſiciõ.4.]
+
+[Curated heading level=2 type=theorems: Theorema.4. Propoſiciõ.4.]
+
 ## Theorema.4. Propoſiciõ.4.
 
 ¶Si el primero al ſegũdo tuuiere la miſma razon que el tercero al quarto,tãbien los ygualméte multiplices del primero y del tercero a los ygualmente multiplices del ſegundo y del quarto,ſegun qualquiera multiplicaciõ,tendran la miſma razon,tomados entre ſi.

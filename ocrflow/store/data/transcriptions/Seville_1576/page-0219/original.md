@@ -4,6 +4,10 @@
 
 las quatro lineas rectas ſon proporcionales(por la.16.del.6.) luego como ſe ha la.A.con la.B.aſſi la.D.con la.C,y es ygual la.B,a la.D.luego como la.A.cõ la.B.aſſi la.B.cõ la.C. Luego ſi tres lineas rectas fuerẽ proporcionales el rectãgulo cõprehendido debaxo de las extremas es ygual al quadrado de la de en medio,y ſi el rectãgulo que es comprehẽdido debaxo delas extremas esygual al quadrado dela de ẽ medio,las tres lineas rectas ſerã ꝓporcionales.Lo qual cõuenia demoſtrar.
 
+[Curated heading level=2 type=propositions: Problema.6. Propoſicion.18.]
+
+[Curated heading level=2 type=problems: Problema.6. Propoſicion.18.]
+
 ## Problema.6. Propoſicion.18.
 
 ¶De vna linea dada recta deſcribir vn rectilineo ſemejante y ſemejantemente pueſto a vn rectilineo dado.

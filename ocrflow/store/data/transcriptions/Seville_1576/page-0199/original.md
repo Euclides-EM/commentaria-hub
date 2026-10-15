@@ -3,6 +3,10 @@
 
 (por la.11.del.5.)como la baſis.BC.a la baſis.C D.aſsi el paralelo gramo,E C.al pallelogramo{printer-error-correction:parallelogramo}.Z G.luego los triangulos y los paralelogrãmos que eſtã debaxo de vna miſma altura ſe hã entre ſi como las baſes, lo qual conuenia demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.2. Propoſicion.2.]
+
+[Curated heading level=2 type=theorems: Theorema.2. Propoſicion.2.]
+
 ## Theorema.2. Propoſicion.2.
 
 ¶ Si fuere tirada algũa linea recta equidiſtãte a vno delos lados del triãgulo,corta pportionalmẽte los lados del triangulo. Y ſi los lados del triãgulo fuerẽ cortados proportionalmẽte,la linea recta q̃ abraça las diuiſiones ſera equidiſtãte al lado q̃ reſta del miſmo triãgulo

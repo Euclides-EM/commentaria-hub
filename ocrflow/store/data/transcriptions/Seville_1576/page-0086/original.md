@@ -2,6 +2,10 @@
 
 partes yguales y en deſiguales los quadrados q̃ ſe hacé de las parres deſiguales de toda ella,ſon el doblo de aquellos q̃dra dos q̃ e haze dela mitad,y del q̃ de la pte q̃ eſta en medio de las diuiſiones.lo qual conuino demoſtrar.
 
+[Curated heading level=2 type=propositions: Theorema.10. Propoſition.10]
+
+[Curated heading level=2 type=theorems: Theorema.10. Propoſition.10]
+
 ## Theorema.10. Propoſition.10
 
 ¶ Si vna linea recta ſe diuide en partes yguales,y ſe le ajunta en derecho vna linea recta, el quadrado d̃ toda ella cõ la añadida,y el de la añadida,ambos a dos,ſon el doblo del quadrado q̃ ſe deſcribe dela mitad,y del q̃ de la otra mitad y dela añadida como de vna.

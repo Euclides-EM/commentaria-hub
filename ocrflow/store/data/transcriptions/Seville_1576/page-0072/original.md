@@ -6,4 +6,4 @@ drado que es hecho de. D A.es ygual al quadrado de la. A B. pongaſe comun el qu
 
 [Ornament: large foliate diamond-shaped tailpiece]
 
-## ¶FIN DEL PRIMER LIBRO.
+¶FIN DEL PRIMER LIBRO.

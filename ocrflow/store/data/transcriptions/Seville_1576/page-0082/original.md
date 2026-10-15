@@ -4,6 +4,10 @@ A Z.es ygual a todo.C E.Luego.A Z.y C E. ſon el doblo de A Z y.A Z.y C E ſó e
 
 [Diagram: square with vertices A, B, E, D, diagonal from B to D, interior lines forming smaller squares with points C, L, I, T, K, Z, M, and two arcs about the diagonal]
 
+[Curated heading level=2 type=propositions: Theorema.8. Propoſicion.8.]
+
+[Curated heading level=2 type=theorems: Theorema.8. Propoſicion.8.]
+
 ## Theorema.8. Propoſicion.8.
 
 ¶Si vna linea recta ſe corta comoquiera,el rectágulo q̃ ſe cõprehéde quatro veces debajo de toda ella y de vna de ſus partes con el quadrado que esdela parte q̃ reſta,esygual al quadrado q̃ ſe hace de toda ella y de la dicha parte como de vna.

@@ -4,6 +4,10 @@
 
 B.es ſemejante al rectilineo.C.luego es equiãgulo a el,por la miſma,y tiene proporcionales los lados que eſtan junto a yguales angulos.Luego cada vno de los dos,A.B. es equiangulo a. C,por la.6.del.6,y tiene proporcionales los lados que eſtan junto a yguales angulos.Por lo qual,porla miſma,tambien.A.es equiangulo. a B.y tiene proporcionales los lados de junto a yguales angulos.luego.B.es ſemejante a.A.loqual conuenia demoſtrar.
 
+[Curated heading level=2 type=propositions: Theorema. 16. Propoſicion.22.]
+
+[Curated heading level=2 type=theorems: Theorema. 16. Propoſicion.22.]
+
 ## Theorema. 16. Propoſicion.22.
 
 ¶ Si quatro lineas rectas fueren proporcionales,tambien los rectilineos que ſe hazẽ de ellas ſemejantes y ſemejantemente deſcritos, ſeran proporcionales:y ſi los rectilineos de ellas fueren proporcionales, tambien las miſmas lineas rectas ſeran proporcionales.

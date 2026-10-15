@@ -4,7 +4,11 @@
 
 [Diagram: two triangles side by side; the left triangle has apex C and base points E and D; the right triangle has apex A and base points I and Z, with a line extending below the base through I to a point B]
 
-## Problema.15 Propoſitiõ.24
+[Curated heading level=2 type=propositions: Theorema.15 Propoſitiõ.24]
+
+[Curated heading level=2 type=theorems: Theorema.15 Propoſitiõ.24]
+
+## Problema{printer-error-correction:Theorema}.15 Propoſitiõ.24
 
 ¶Si dos triãgulos tuuieren los dos ladosyguales a los dos lados,el vno al otro,pero mayor el vn angulo contenido de yguales lineas rectas que el angulo,tendran tambien la baſis mayor que la baſis.
 

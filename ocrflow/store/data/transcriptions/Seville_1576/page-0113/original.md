@@ -7,6 +7,10 @@ Enel circulo la mayor es el diametro, y de las otras ſiempre la mas propinqua a
 
 [Figure: circle with points B, A, M, Z on the upper circumference and C, D, N, I below; centre E with points T, L and K on a horizontal line; chords and radii drawn from E to the circumference]
 
+[Curated heading level=2 type=propositions: Theorema.15. Propoſicion.16.]
+
+[Curated heading level=2 type=theorems: Theorema.15. Propoſicion.16.]
+
 ## Theorema.15. Propoſicion.16.
 
 <!-- Signature: H 3 -->

@@ -4,6 +4,10 @@ tãpoco es menor q̃ recto el angulo.B IC.luego(por la.17.del .1.)los dos angulo
 
 [Figure: two right triangles side by side; the left triangle labelled D at the apex, Z and E at the base; the right triangle labelled A at the apex, C and B at the base, with an interior line from a point I to B]
 
+[Curated heading level=2 type=propositions: Theorema.8. Propoſicion. 8.]
+
+[Curated heading level=2 type=theorems: Theorema.8. Propoſicion. 8.]
+
 ## Theorema.8. Propoſicion. 8.
 
 ¶Si enel triangulo rectãgulo ſe tirare vna perpendicular ſobre la baſis, deſde el angulo recto, los triangulos de ſobre la perpendicular, ſon ſemejantes al todo, y entre ſi.

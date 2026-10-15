@@ -4,6 +4,10 @@
 
 a la.D I,y las compueſtas quantidades ſon proporcionales, por lo qual tambien diuididas ſeran proporcionales ( por la 17.del quinto)luego como ſe ha la, A E,a la, E B.aſsi la .C I.a la. I D.y preſuponeſe que como la, A E, a la, B E, aſsi la, C Z, a la.Z D. luego(por la.11.del.5,)como la, C I.ala. I D, aſsi la C Z.ala, Z D, y es mayor la primera, C I,q̃ la tercera.C Z.luego(por la.14,del.5.)mayor es la ſegunda,I D. que la quarta, Z D.y es menor.que es impoſsible, luego no es q̃ como la, A B.à la, B E.aſsi la.C D,a la menor que la.Z D.Dela miſma ſuerte tambien demoſtraremos que ni a la mayor, luego à la miſma. luego ſi diuididas las quantidades fueren proporcionales, tambien cõpueſtas ſeran proporcionales. Lo qual cõuino demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.19. Propoſicion.19.]
+
+[Curated heading level=2 type=theorems: Theorema.19. Propoſicion.19.]
+
 ## Theorema.19. Propoſicion.19.
 
 ¶Si fuereque como el todo al todo, aſsi lo quitado a lo quitado, tambien la reſta a la reſta ſera como el todo al todo.

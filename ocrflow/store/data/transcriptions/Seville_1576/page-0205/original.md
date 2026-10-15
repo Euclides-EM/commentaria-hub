@@ -2,6 +2,10 @@
 
 <!-- Page number: 101 -->
 
+[Curated heading level=2 type=propositions: Theorema.6. Propoſicion.6.]
+
+[Curated heading level=2 type=theorems: Theorema.6. Propoſicion.6.]
+
 ## Theorema.6. Propoſicion.6.
 
 Si dos triangulos tuuieren el vn angulo ygual al vn angulo, y proporcionales los lados de junto a yguales angulos,ſeran equiãgulos los triangulos,y tendran yguales los angulos debaxo de los quales ſe eſtiendẽ lados devna miſma razon.

@@ -30,6 +30,6 @@
 | 108 | 1 | 19 | DCZ | DZC |
 | 110 | 1 | 4 | ITK | LTK |
 
-## Eratas delas figuras
+# Eratas delas figuras
 
 en la figura dela.27.del.1.enla linea.A E E diga.A E B.enla figura dea.41.tire ſe vna linea dela A.haſta la.C.enla.24,del.3 en el circulo.A B.pongaſe vna.E.enla.18.del.6.enla figura.EZ DD.pon EZ CD.

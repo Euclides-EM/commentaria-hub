@@ -6,6 +6,10 @@
 
 [Diagram: at top, a triangle labelled C and an angle formed by two lines labelled D; below, a rectangular figure with points Z, E along the top, I and B on a middle horizontal line with M at its right end, T, A and L along the bottom, crossed by diagonal lines meeting at B]
 
+[Curated heading level=2 type=propositions: Problema.13. Propoſicion.45.]
+
+[Curated heading level=2 type=problems: Problema.13. Propoſicion.45.]
+
 ## Problema.13. Propoſicion.45.
 
 <!-- Signature: E 4 -->

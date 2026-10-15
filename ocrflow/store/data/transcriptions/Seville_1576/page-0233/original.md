@@ -3,6 +3,10 @@
 
 mo.D.y es.K I T.ſemejante al miſmo, A B C. luego hizo ſe el miſmo.K I T.ſemejante al rectilineo dado.A B C.y ygual avn otro.D.lo qual conuenia hazerſe.
 
+[Curated heading level=2 type=propositions: Theorema.19. Propoſicion.26.]
+
+[Curated heading level=2 type=theorems: Theorema.19. Propoſicion.26.]
+
 ## Theorema.19. Propoſicion.26.
 
 ¶Si de vn parallelogramo ſe quita otro parallelogramo ſemejante al todo y ſemejantemẽte pueſto teniendo con el vn angulo comun, eſta ſobre la miſma diagonal con el todo.

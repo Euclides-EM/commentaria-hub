@@ -2,6 +2,10 @@
 
 zon tambien.E Z.es ygual a la,B C.y aſſi tambien A D.es ygual a la.E Z.y es comun la.D E.luego toda la. A E es ygual a toda la.D Z.Y la.A B.es ygual a la.D C.luego las dos. E A. A B.ſon yguales a las dos.Z D.D C.la vna ala otra,y el angulo.Z D C.es ygual al ãgulo.E A B.el exterior al interior. luego(por la.4.propoſicion)la baſis.E B.es ygual a la baſis.Z C y el triangulo.E A B.es ygual al triangulo.Z D C. quite ſe el comun triangulo.D I E.Luego el trapezio.E I C Z. es ygual al trapezio.A B I D.Pongaſe pues comun el triangulo.I B C. Luego todo el parallelogramo. A B C D.es ygual a todo el parallelogramo. E B C Z.Luego los parallelogramos que eſtan en vna miſma baſis,y lo de mas que ſe ſigue,lo qual conuino demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.26. Propoſicion.36.]
+
+[Curated heading level=2 type=theorems: Theorema.26. Propoſicion.36.]
+
 ## Theorema.26. Propoſicion.36.
 
 ¶Los parallelogramos que eſtan en yguales baſis y en vnas miſmas parallelas ſon yguales entre ſi.

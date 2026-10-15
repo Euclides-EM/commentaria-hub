@@ -2,15 +2,35 @@
 
 <!-- Page number: 35. -->
 
-# LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLIdes Megarenſe philoſopho, Griego.
+[Curated heading level=1 type=definitions: LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLI]
 
-## Parallelográmo rectangulo.
+# LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLI
+
+[Subhead]
+des Megarenſe philoſopho, Griego.
+[/Subhead]
+
+[Curated heading level=2: Definiciones]
+
+[Curated heading level=3 type=definitions: Parallelográmo rectangulo.]
+
+### Parallelográmo rectangulo.
 
 ¶Todo parallelográmo rectangulo ſe dize eſtar contenido debajo de las dos lineas rectas que comprehenden el angulo recto.
 
-## Que ſea gnomon,
+[Curated heading level=3 type=definitions: Que ſea gnomon,]
+
+### Que ſea gnomon,
 
 ¶Cada vno de aquellos parallelográmos de todo parallelográmo que eſtá en la diagonal ſuya:cõ los dos ſupplemẽtos ſe llama gnomõ
+
+[Curated heading level=1 type=propositions: LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLI]
+
+[Curated heading level=1 type=theorems: LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLI]
+
+[Curated heading level=2 type=propositions: Theorema. 1. Propoſicion. 1.]
+
+[Curated heading level=2 type=theorems: Theorema. 1. Propoſicion. 1.]
 
 ## Theorema. 1. Propoſicion. 1.
 

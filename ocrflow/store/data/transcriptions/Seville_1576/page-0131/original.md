@@ -4,6 +4,10 @@
 
 ſõ yguales a los angulos.B A D.B C D,de los quales el angulo. B A D.eſta demoſtrado q̃ es ygual al angulo.D B Z.Luego el ãgulo.D B E.q̃ reſta es ygual al angulo.D C B.q̃ eſta eñl ſegmẽto alterno.Luego ſi al circulo le tocare alguna linea recta, y deſde el tocamiẽto fuere tirada alguna linea recta q̃ corte al circulo,los angulos q̃ hace con la q̃ toca ſon yguales a aq̃llos angulos q̃ eſtan en los ſegmẽtos alternos del circulo, que ſe auia de demoſtrar.
 
+[Curated heading level=2 type=propositions: Problema.5. Propoſicion.33.]
+
+[Curated heading level=2 type=problems: Problema.5. Propoſicion.33.]
+
 ## Problema.5. Propoſicion.33.
 
 ¶Sobre vna linea recta dada deſcribir vn ſegmẽto de circulo que reciba vn angulo ygual a vn angulo dado rectilineo.

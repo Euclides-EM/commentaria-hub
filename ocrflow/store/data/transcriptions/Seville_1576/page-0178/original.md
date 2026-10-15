@@ -4,6 +4,10 @@ la.C. (por la octaua del quinto)no la tiene, luego la.A, no es menor que la.B.y 
 
 [Figure: three vertical lines labelled C, B and A]
 
+[Curated heading level=2 type=propositions: Theorema.11. Propoſicion,11.]
+
+[Curated heading level=2 type=theorems: Theorema.11. Propoſicion,11.]
+
 ## Theorema.11. Propoſicion,11.
 
 ¶Las razones que ſon vnas a vna miſma, ſon vnas miſmas entre ſi.

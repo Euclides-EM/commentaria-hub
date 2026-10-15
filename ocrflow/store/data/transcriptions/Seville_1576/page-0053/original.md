@@ -3,6 +3,10 @@
 
 poſſible.Luego el angulo exterior.A E Z.del triangulo.I E Z. es ygual al angulo.E Z I.interior,y oppueſto.Lo qual(por la 16.propoſicion)es impoſſible.Luego.A B.C D.eſtendidas ha cia las partes,B D.en ninguna manera concurren. Tambien de la miſma ſuerte ſe demoſtrara que ni hacia las partes.A C y las lineas que en ninguna parte concurren ſon parallelas (por la vltima difinicion)luego.A B.es paralella a la.C D.Lu ego ſi cayendo vna linea recta,y lo demas como enel tneore{printer-error-correction:theore} ma que ſe hauia de demoſtrar.
 
+[Curated heading level=2 type=propositions: Theorema. 19. Propoſicion.28.]
+
+[Curated heading level=2 type=theorems: Theorema. 19. Propoſicion.28.]
+
 ## Theorema. 19. Propoſicion.28.
 
 ¶Si cayendo vna linea recta ſobre dos lineas rectas hizieren el angulo exterior ygual al in terior y oppueſto haciavnas miſmas partes,o los interiores hacia vnas miſmas partesygua lee{printer-error-correction:les} a dos rectos,ſerã paralellas entre ſi las miſ mas lineas rectas.

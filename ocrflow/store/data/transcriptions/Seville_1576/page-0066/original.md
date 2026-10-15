@@ -6,6 +6,10 @@ parallelogramos que eſtan en la diagonal de todo parallelográmo,
 
 [Diagram: rectangle with corners D, A, Z and B, points T and E on the sides, K at the crossing of interior lines, C and I along the base, and a diagonal from C to A]
 
+[Curated heading level=2 type=propositions: Problema. 12. Propoſicion. 44.]
+
+[Curated heading level=2 type=problems: Problema. 12. Propoſicion. 44.]
+
 ## Problema. 12. Propoſicion. 44.
 
 ¶Sobre vna linea recta dada en vn angulo dado rectilineo hazer vn parallelográmo ygual a vn triangulo dado,

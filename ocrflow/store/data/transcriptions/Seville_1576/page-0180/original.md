@@ -4,6 +4,10 @@ les quiera ygualmẽente{printer-error-correction:ygualmente} multiplices y ſea
 
 [Diagram: twelve vertical lines of varying heights labelled I, T, K, A, C, E, B, D, Z, L, M and N]
 
+[Curated heading level=2 type=propositions: Theorema.13. Propoſicion. 13.]
+
+[Curated heading level=2 type=theorems: Theorema.13. Propoſicion. 13.]
+
 ## Theorema.13. Propoſicion. 13.
 
 ¶Si la primera ala ſegũda tuuuiere la miſma razon que la tercera ala quarta, y tenga la ter

@@ -2,6 +2,10 @@
 
 mo ſe quita otro parallelogrãmo ſemejante al todo,y ſemejantemente pueſto,teniendo con el vn angulo comun,eſta ſobre la miſma diagonal con el todo.Lo qual conuenia demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.20. Propoſicion.27.]
+
+[Curated heading level=2 type=theorems: Theorema.20. Propoſicion.27.]
+
 ## Theorema.20. Propoſicion.27.
 
 ¶Detodos los parallelogrãmos pueſtosſobre vna miſma linea recta y faltos por figuras pallelogramas ſemejantes y ſemejantemẽtepueſtas a aquel que es deſcrito de la media,el mayor parallelogramo es el q̃ eſta pueſto ſobre la media,ſiendo ſemejante al tomado.

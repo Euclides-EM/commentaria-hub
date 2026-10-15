@@ -4,6 +4,10 @@ Sean las dos lineas rectas. A. y la. B C. y corte ſe la vna dellas. B C. como q
 
 [Diagram: rectangle divided by vertical lines into three compartments, labelled C, E, D, B along the top and T, L, K, I along the bottom; a separate horizontal line labelled A below, and the letter Z at the lower right]
 
+[Curated heading level=2 type=propositions: Theorema.2. Propoſicion.2.]
+
+[Curated heading level=2 type=theorems: Theorema.2. Propoſicion.2.]
+
 ## Theorema.2. Propoſicion.2.
 
 ¶ Si vna linea recta ſe cortare como quiera: los rectangulos que de toda ella y qualquiera de ſus partes ſon comprehendidos: ſon yguales a aquel quadrado que es de toda ella.

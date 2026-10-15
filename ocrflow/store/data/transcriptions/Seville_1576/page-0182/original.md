@@ -2,6 +2,10 @@
 
 primera a la ſegunda tuuiere la miſma razon q̃la tercera a la quarta,y tenga la tercera a la quarta mayor razon q̃ la quinta a la ſexta,tambien la primera a la ſegunda tendra mayor razon que la quinta a la ſexta.Lo qual cõuenia demoſtrarſe
 
+[Curated heading level=2 type=propositions: Theorema.14. Propoſicion.14.]
+
+[Curated heading level=2 type=theorems: Theorema.14. Propoſicion.14.]
+
 ## Theorema.14. Propoſicion.14.
 
 ¶ Si la primera a la ſegunda tuuiere la miſma razon que la tercera a la quarta, pero la primera fuere mayor que la tercera, tambien la ſegunda ſera mayor que la quarta: y ſi ygual ygual:y ſi menor menor.

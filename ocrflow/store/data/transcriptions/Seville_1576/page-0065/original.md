@@ -7,6 +7,10 @@
 
 [Diagram: quadrilateral with points Z and A at the top, and D, O, E and B along the base, with several oblique lines crossing inside]
 
+[Curated heading level=2 type=propositions: Theorema.32. Propoſicion. 43.]
+
+[Curated heading level=2 type=theorems: Theorema.32. Propoſicion. 43.]
+
 ## Theorema.32. Propoſicion. 43.
 
 ¶Sõ yguales entre ſi los ſuplemẽtos de aq̃llos

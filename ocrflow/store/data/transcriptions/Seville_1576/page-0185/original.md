@@ -1,6 +1,10 @@
 <!-- Running title: EVCLIDES. -->
 <!-- Page number: 91. -->
 
+[Curated heading level=2 type=propositions: Theorema.17 Propoſicion.17.]
+
+[Curated heading level=2 type=theorems: Theorema.17 Propoſicion.17.]
+
 ## Theorema.17 Propoſicion.17.
 
 ¶Si las quantidades compueſtas fueren proporcionales,tambien diuididas ſeran proporcionales.

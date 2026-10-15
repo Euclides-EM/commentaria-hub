@@ -4,6 +4,10 @@
 
 ſe (por la. 31. del. 1. la. A Z. parallela a las dos C D, B E. Es pues aora ygual. A E. a los dos. A D. CE. y A E. es el rectangulo comprehendido de. A B. y B C. porque ſe comprehende de la. A B. y de la. B E. y es ygual a la. B C. la. B E. y A D. es el que de. A C. y B C. porque es ygual. D C. a la. C B. y D B. es el quadrado que ſe hace de la. C B. Luego el rectangulo contenido de la. A B. y dela. B C. es ygual al rectangulo comprehendido de la A C. y dela. C B. cõ el quadrado de la. B C. Luego ſi vna linea recta ſe corta, y lo demas que ſe ſigue enel theorema que conuino demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.4. Propoſicion.4.]
+
+[Curated heading level=2 type=theorems: Theorema.4. Propoſicion.4.]
+
 ## Theorema.4. Propoſicion.4.
 
 ¶ Si vna linea recta ſe corta como quiera, el quadrado que es hecho de ella toda es ygual a los quadrados que ſe hacẽ de ſus partes : y a aquel rectangulo que dos vezes ſe comprehẽde debajo de ſus partes.

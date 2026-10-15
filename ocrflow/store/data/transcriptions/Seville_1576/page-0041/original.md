@@ -3,7 +3,11 @@
 
 reſta.A B C.el menor al mayor,lo qual es impoſſible.Luego la linea.B E.no eſta en derecho ala linea.B D.Tambien de la miſma manera demoſtraremos que ni otra linea fuera de la linea.B C,luego ala linea.D B.eſtale en derecho la linea.B C luego ſi de alguna linea recta y de vn pũto ſuyo , tiradas dos lineas rectas acia diuerſas partes,hizierẽ angulos devna y otra partey guales a dos rectos,ellas entre ſi eſtaran en derecho de linea recta,que conuino demoſtrarſe.
 
-## Thorema.8. Propoſiciõ. 15.
+[Curated heading level=2 type=propositions: Theorema.8. Propoſiciõ. 15.]
+
+[Curated heading level=2 type=theorems: Theorema.8. Propoſiciõ. 15.]
+
+## Thorema{printer-error-correction:Theorema}.8. Propoſiciõ. 15.
 
 ¶Si dos lineas rectas ſe cortaren entre ſi , hará los angulos contrarios yguales entre ſi.
 

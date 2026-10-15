@@ -2,6 +2,10 @@
 
 ſon tambien entre ſi yguales,luego la linea. A L.es ygual a la B C.Haſe pues tirado deſde el punto dado. A.la linea recta. A L.ygual a la linea recta dada.B C. Lo qual cõuino hazerſe
 
+[Curated heading level=2 type=propositions: Problema tercero,Propoſicion tercera.]
+
+[Curated heading level=2 type=problems: Problema tercero,Propoſicion tercera.]
+
 ## Problema tercero,Propoſicion tercera.
 
 ¶Dadas dos lineas rectas deſiguales, cortar dela mayor vna linea recta ygual a la menor.
@@ -10,7 +14,13 @@ Sean dos lineas rectas dadas deſiguales. A B.y. C. de las quales ſea, A B.la m
 
 [Diagram: circle about centre A with Z at top, points D and E on the circumference, a line from A through E extended to B outside the circle, and a separate horizontal line labelled C below]
 
-## Thorema primero, Propoſition quarta.
+[Curated heading level=1 type=theorems: LIBRO PRIMERO DE LOS ELEMENTOS GEOMETRICOS DE EVCLIDES]
+
+[Curated heading level=2 type=propositions: Theorema primero, Propoſition quarta.]
+
+[Curated heading level=2 type=theorems: Theorema primero, Propoſition quarta.]
+
+## Thorema{printer-error-correction:Theorema} primero, Propoſition quarta.
 
 Si dos triangulos tuuieren los dos lados yguales a los dos lados el vno y el otro al otro y al otro,y el angulo ygual al angulo cõtenido de bajo de yguales lineas rectas,tendran la baſis ygual ala baſis,y elvn triãgulo ſera ygual al o
 

@@ -3,6 +3,10 @@
 
 B A C.E D Z.digo que el angulo.B I C.es ygual al angulo.E T Z,y el angulo.B A C.es ygual al ãgulo.E D Z.Puesſiel angulo B I C es ygual al angulo.E T Z. claro es que tambien el angulo.B A C.es ygual al angulo.E D Z.por la.20.del.3.Pero ſino el vno dellos ſera mayor.Sea mayor el angulo.B I C.y por la 23.del.1,hagaſe ſobre la linea recta, B I.y enlpũcto.I.el angulo B I K. ygual al angulo.E T Z.y los angulos yguales eſtan ſobre yguales circunferencias (porla.26.del.3.)quando fueren enlos centros,luego ygual es la circunferencia.B K.a la circũ ferencia.E Z.y la.E Z.es ygual ala.B C.luego la,B K. es tãbiẽ ygual ala,B C.la menor ala mayor ques impoſſible.Luego el angulo.B I C.no es deſigual al angulo,E T Z.ſera pues ygual Y el angulo.A. es la mitad de el angulo.B I C.(por la.20.del.3 y por la miſma)el angulo.D.es mitad del angulo.E T Z. luego ygual es el angulo.A.al angulo.D.Luego en circulosygua les,los angulos que eſtan ſobre yguales circunferencias ſon yguales entre ſi aora eſten hechos ſobre los centros aora ſobre las circunferencias,lo qual conuino demoſtraſe.
 
+[Curated heading level=2 type=propositions: Theorema.25. Propoſicion.28.]
+
+[Curated heading level=2 type=theorems: Theorema.25. Propoſicion.28.]
+
 ## Theorema.25. Propoſicion.28.
 
 ¶Enlos circulos yguales,laslineas rectasygua les cortan yguales circunferencias,mayor ala mayor,y menor ala menor.

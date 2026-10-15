@@ -4,6 +4,10 @@
 
 [Diagram: two concentric circles with centre E; points Z, B, A, D, C marked; lines drawn from E to Z, B, A and D forming triangles]
 
+[Curated heading level=2 type=propositions: Theorema. 16. Propoſicion. 18.]
+
+[Curated heading level=2 type=theorems: Theorema. 16. Propoſicion. 18.]
+
 ## Theorema. 16. Propoſicion. 18.
 
 ¶Si alguna linea recta tocare al circulo y deſde el centro al tocamiẽto ſe tirare algũalinea recta,la tirada ſera perpẽdicular a la q̃ toca.

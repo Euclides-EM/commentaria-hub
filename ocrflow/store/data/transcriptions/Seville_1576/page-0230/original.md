@@ -2,6 +2,10 @@
 
 L.aſsi.A C.con C T.Otro ſi porque es que como.D C.cõ.C E. aſsi el parallelogrãmo.C T.con el parallelogramo.C Z.y aſsi como,D C.con.C E.aſsi.L.cõ.M. Luego(por la miſma)como L.con.M.aſsi el parallelogrãmo.C T.con el parallelogramo. C Z. Pues porq̃ eſta demoſtrado que como la.K.con la.L. aſsi el parallelogramo.A C.con el parallelogrãmo.C T. Y como la L con la.M.aſsi el parallelogrãmo.C T.con el parallelogrãmo. C Z. luego por ygual(por la.22.del.5.)como la.K. con la M.aſsi el parallelogramo.A C.con el parallelogrãmo. C Z. y la.K.con la.M,tiene la razon compueſta de los lados. Luego el parallelogramo.A C.con el paralelogramo.C Z.tiene la razon compueſta de los lados,luego los parallelogramos equiangulos tienen entre ſi la razon compueſta de los lados. Lo qual conuino demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.18. Propoſicion.24.]
+
+[Curated heading level=2 type=theorems: Theorema.18. Propoſicion.24.]
+
 ## Theorema.18. Propoſicion.24.
 
 ¶Los parallelogramos que eſtan ſobre la diagonal de todo parallelogrãmo ſon ſemejãtes al todo,y entre ſi.

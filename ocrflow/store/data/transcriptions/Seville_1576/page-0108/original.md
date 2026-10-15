@@ -2,6 +2,10 @@
 
 que dos lineas rectas,K B.K I,K Z,luego(por la.9, del,3,)el puncto,K,es centro del circulo,D E Z,y del circulo,A B C, es centro el miſmo,K,Luego de los dos circulos que entre ſi ſe cortan es vno miſmo el cẽtro,K. q̃(por la,5,del,3)es impoſſible,Luego vn circulo no corta a otro circulo en mas que ẽ dos punctos,que ſe hauia de demoſtrar,
 
+[Curated heading level=2 type=propositions: Theorema. 10. Propoſicion.11.]
+
+[Curated heading level=2 type=theorems: Theorema. 10. Propoſicion.11.]
+
 ## Theorema. 10. Propoſicion.11.
 
 ¶Si dos circulos entre ſi ſe tocaren por dẽtro y ſe toman ſus centros,la linea recta que abraça los centros de ellos eſtendida cae en el tocamiento de los circulos.

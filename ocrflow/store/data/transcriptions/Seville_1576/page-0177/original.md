@@ -8,6 +8,10 @@ Tenga cada vna de las dos.A.B.con la. C.vna miſma razon. Digo que es ygual la A
 
 [Figure: three vertical lines labelled A, C and B]
 
+[Curated heading level=2 type=propositions: Theorema.10. Propoſicion.10]
+
+[Curated heading level=2 type=theorems: Theorema.10. Propoſicion.10]
+
 ## Theorema.10. Propoſicion.10
 
 ¶De las que tienen razon avna miſma,la que tiene mayor razon,aquella es mayor: y a la q̃ la miſma tiene mayor razõ,aquella es menor

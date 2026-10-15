@@ -4,6 +4,10 @@ Sea el circulo.A B C D.y eſte enel el quadrilatero.A B C D Digo que los angulos
 
 [Diagram: circle with A at the upper left, D at the upper right, B at the lower left and C at the lower right; the quadrilateral A B C D is inscribed with both diagonals drawn]
 
+[Curated heading level=2 type=propositions: Theorema. 21. Propoſicion.23.]
+
+[Curated heading level=2 type=theorems: Theorema. 21. Propoſicion.23.]
+
 ## Theorema. 21. Propoſicion.23.
 
 ¶Sobre vna miſma linea recta dada, no ſe dara hazia vnas miſmas partes,dos ſegmẽtos de circulos ſemejantes y deſiguales.

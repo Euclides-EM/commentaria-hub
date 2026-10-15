@@ -1,6 +1,10 @@
 <!-- Running title: EVCLIDES. -->
 <!-- Page number: fo. 13 -->
 
+[Curated heading level=2 type=propositions: Problema ſegundo. Propoſition ſecunda.]
+
+[Curated heading level=2 type=problems: Problema ſegundo. Propoſition ſecunda.]
+
 ## Problema ſegundo. Propoſition ſecunda.
 
 Hazer vna linea recta ygual a otra linea recta dada, deſde vn puncto ſeñalado.

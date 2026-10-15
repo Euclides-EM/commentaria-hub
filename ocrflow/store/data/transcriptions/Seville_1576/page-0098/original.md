@@ -4,6 +4,10 @@
 
 [Figure: circle with C at top, D at bottom, A at left and B at right; E at the centre of a vertical line C D crossing the chord A B at Z, with lines from E to A and B]
 
+[Curated heading level=2 type=propositions: Theorema. 3. Propoſicion.4.]
+
+[Curated heading level=2 type=theorems: Theorema. 3. Propoſicion.4.]
+
 ## Theorema. 3. Propoſicion.4.
 
 <!-- Catchword: Si en -->

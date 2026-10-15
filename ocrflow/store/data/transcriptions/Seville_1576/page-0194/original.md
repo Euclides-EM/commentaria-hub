@@ -2,6 +2,10 @@
 
 a la.C.aſſi la.D T.a la.Z.luego ſi el primero al ſegũdo tuuiere la miſma razõ q̃ el tercero al quarto, pero tuuiere el quinto al ſegundo la miſma razõ q̃ el ſexto al quarto, tãbien cõpueſtos primero y quinto al ſegũdo tendrã la miſma razon quel tercero y ſexto al quarto, lo qual conuenia demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.25. Propoſicion.25.]
+
+[Curated heading level=2 type=theorems: Theorema.25. Propoſicion.25.]
+
 ## Theorema.25. Propoſicion.25.
 
 ¶Si quatro quantidades fueren proportionales,la mayor dellas y la menor ſeran mayores que las que reſtan.

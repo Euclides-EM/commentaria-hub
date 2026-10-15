@@ -2,7 +2,11 @@
 
 o yguales, oygualmente multiplices delas miſmas lo qual cõuino demoſtrarſe.
 
-## Theorema.7. Propoſiciõ.7.
+[Curated heading level=2 type=propositions: Theorema.7. Propoſicio.7.]
+
+[Curated heading level=2 type=theorems: Theorema.7. Propoſicio.7.]
+
+## Theorema.7. Propoſicio.7.
 
 ¶Las yguales tienen vna miſma razon a vna miſma,y la miſma alas yguales.
 

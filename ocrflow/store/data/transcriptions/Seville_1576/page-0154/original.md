@@ -2,6 +2,10 @@
 
 Luego toda la circunferencia. A B C D.es ygual a toda la circunferencia:E D C B.y eſta ſobre la circunferencia. A B C D, el angulo. A E D.Y ſobre la circunferécia.E D C B. eſta el angulo.B A E.luego tãbien el angulo.B A E. es ygual al angulo A E D.y por eſſo cada vno delos angulos. A B C.B C D.CDE es ygual a cada vno delos angulos.B A E.A E D.luego el pen tagono. A B C D E.es equiangulo,y eſta demoſtrado q̃ tãbié equilatero,luego é vn circulo dado eſta deſcrito vn pentago no equilatero y equiangulo lo qual conuenia hazer ſe.
 
+[Curated heading level=2 type=propositions: Problema.12. Propoſicion.12.]
+
+[Curated heading level=2 type=problems: Problema.12. Propoſicion.12.]
+
 ## Problema.12. Propoſicion.12.
 
 ¶Al derredor de vn circulo dado deſcribir vn pentagono equilatero y æquiangulo.

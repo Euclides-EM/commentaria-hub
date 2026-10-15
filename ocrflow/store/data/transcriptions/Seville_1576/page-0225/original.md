@@ -8,7 +8,7 @@ dupla razon de los lados de ſemejante razon Y ſi de las dos.A B.Z I.tomamos ot
 
 pero tiene tambien el poligono o quadrilatero al quadrilatero dupla razon q̃ el lado de ſemejante razon al lado de ſemejãte razõ, eſto es.A B,a la.Z I.y eſto vioſe enlos triãgulos.Y tambien ſemejantemẽte ſe demoſtrara enlos quadrados ſemejantes q̃ ſon en dupla razon de los lados de ſemejante razon:y vioſe tambien en los triangulos.
 
-## Segundo corolario.
+### Segundo corolario.
 
 Por tanto tãbien vniuerſalmente es manifieſto que ſi tres lineas rectas,C, fueren proporcionales ſera que como la primera a la tercera,aſſi la figura que es deſcrita dela primera a la q̃ de la ſegunda ſemejante, y ſemejantemente.
 

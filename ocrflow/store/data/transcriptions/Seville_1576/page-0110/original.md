@@ -2,6 +2,10 @@
 
 y eſta demoſtrado q̃.K A.es ygual ala.K C.luego.K A.y la A T ſon yguales a la.K C.y ala.T D.por lo qual toda la.K T.es mayor que las dos.K A.A T.y es menor por la.20.del.1,lo qual es impoſſible.Luego la linea recta tirada del cẽtro del vno al đl otro paſſa por el puncto.A.del tocamiento.Luego ſi dos circulos ſe tocaren entre ſi por de fuera la linea recta que abraça ſus centros paſſara por el tocamiento.
 
+[Curated heading level=2 type=propositions: Theorema.12. Propoſicion.13.]
+
+[Curated heading level=2 type=theorems: Theorema.12. Propoſicion.13.]
+
 ## Theorema.12. Propoſicion.13.
 
 ¶Vn circulo no toca a otro circulo en mas pũctos que vno,aunque le toque por de fuera y aunque por dentro.

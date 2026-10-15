@@ -3,9 +3,13 @@
 
 ze de la.B C.a aquellas figuras ſemejantes y ſemejantemente hechas de la,B A,y de la,A C.Luego en los triangulos rectangulos la figura que ſe haze de el lado opueſto al angulo recto es ygual a las figuras ſemejantes y ſemejantemente he chas de los lados que comprehenden al angulorecto,lo qual conuino demoſtrarſe,
 
-## De otra manera,
+### De otra manera,
 
 Porque por el corelario primero de la,20.del.6.) ſemejantes figuras eſtan en doblada razon de los lados de ſemejante razon,la figura dela.B C,a aquella que es de la,B A.tiene dobla da razon que la.C B.a la B A.Y el quadrado d̃ la. B C. al quadrado dela,B A.tiene doblada razon que la.C B.a la.B A.luego como la figura que es de la.C B,a aquella figura que es de la,B A.aſſi el quadrado dela, C B,al quadrado de la.B A.y tãbien por tanto como la figura que es de la, B.C.a la figura de la,C A.aſſi el quadrado dela. B C.a los quadrados de la. B A. y de la.A C,Pero el quadrado de la, B C. es ygual a los quadrados de la.B A.y dela. A C(por la.47.del.1.)luego la figura de la.B C.es ygual a aquellas figuras que ſon ſemejantes y ſe mejantemente hechas dela.B A.y de la .A C.
+
+[Curated heading level=2 type=propositions: Theorema.22. Propoſicion.32,]
+
+[Curated heading level=2 type=theorems: Theorema.22. Propoſicion.32,]
 
 ## Theorema.22. Propoſicion.32,
 

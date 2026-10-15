@@ -5,6 +5,10 @@
 
 [Diagram: quadrilateral with points A and D at the top, E near D, and B and C at the base, with crossing diagonal lines from the top points to the base points]
 
+[Curated heading level=2 type=propositions: Theorema. 30 Propoſitiõ.40.]
+
+[Curated heading level=2 type=theorems: Theorema. 30 Propoſitiõ.40.]
+
 ## Theorema. 30 Propoſitiõ.40.
 
 ¶Los triãgulos yguales que eſtan ſobre baſis yguales:y fabricados hazia vnas miſmas partes,eſtan en vnas miſmas parallelas.

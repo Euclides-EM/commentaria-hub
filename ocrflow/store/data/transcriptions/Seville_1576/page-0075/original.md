@@ -5,6 +5,10 @@
 
 [Diagram: rectangle divided by a vertical line into two compartments, labelled B, C, A along the top and E, Z, D along the bottom]
 
+[Curated heading level=2 type=propositions: Theorema.3. Propoſicion.3.]
+
+[Curated heading level=2 type=theorems: Theorema.3. Propoſicion.3.]
+
 ## Theorema.3. Propoſicion.3.
 
 ¶ Si vna linea recta ſe corta comoquiera el rectangulo comprehendido de ella toda: y de vna de ſus partes es ygual al rectangulo comprehendido de ſus partes y a aquel quadrado que ſe hace dela dicha parte,

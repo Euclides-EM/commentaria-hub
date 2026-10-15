@@ -3,6 +3,10 @@
 
 la.4.peticiõ,es ygual al angulo.B Z I.Luego la baſis.A I. por la.4.del miſmo es ygual a la baſis.I B.Pues ſobre el centro. I. y el eſpacio.I A.(por la.3.peticiõ)deſcrito vn circulo paſſara por.B.Paſſe como.A B E.Y porq̃ dela extremidad del diametro.A E.en angulos rectos ſe ſaco la.A D.Luego(por el corolario dela.16.del 3). la.A D. toca al circulo. A E B.Y deſde el tocamiẽto. A.ſe eſtiẽde la.A B.Luego el angulo.B A D(por la 32.del miſmo)es ygual al angulo. A T B.q̃ eſta en el ſegmẽto alterno del circulo.Y el angulo.B A D.es ygual al angulo. C. Luego el angulo q̃ eſta enel ſegmento.A T B.es ygual al angulo.C.Luego ſobre la linea recta dada.A B.eſta deſcrito el ſegmento de circulo.A T B.que recibe vn angulo ygual al ãgulo C.que conuino hazer ſe.
 
+[Curated heading level=2 type=propositions: Problema.6. Propoſicion.34.]
+
+[Curated heading level=2 type=problems: Problema.6. Propoſicion.34.]
+
 ## Problema.6. Propoſicion.34.
 
 ¶De vn circulo dado cortar vn ſegmẽto q̃ reciba vn ãgulo ygual a vn ãgulo dado rectilineo.

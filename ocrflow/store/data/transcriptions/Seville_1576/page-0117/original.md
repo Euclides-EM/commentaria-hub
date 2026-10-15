@@ -5,6 +5,10 @@ Z.y deſde.Z.aſta en.C.tireſe por la.1.peticion,Z C.digo q̃ Z C es perpẽdic
 
 [Diagram: circle with points D, C, I at the top, B and Z inside, A at the bottom; a tangent line through D, C and I, with lines from Z to C and to I]
 
+[Curated heading level=2 type=propositions: Theorema.17. Propoſicion.19.]
+
+[Curated heading level=2 type=theorems: Theorema.17. Propoſicion.19.]
+
 ## Theorema.17. Propoſicion.19.
 
 ¶Si alguna linea recta tocare al circulo, y deſde el tocamiento ſe le ſacare alguna linea recta en angulos rectos,enla que es ſacada eſtara el centro del circulo,

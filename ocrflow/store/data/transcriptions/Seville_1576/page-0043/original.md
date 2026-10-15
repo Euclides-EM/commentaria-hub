@@ -8,6 +8,10 @@ Tomados de q̃lquiera ſuerte los dos angulos de q̃lquier triãgulo ſon menore
 
 [Diagram: triangle with apex A and base points B, C and D along a horizontal line extended to the right]
 
+[Curated heading level=2 type=propositions: Theorema.11. Propoſicion.18.]
+
+[Curated heading level=2 type=theorems: Theorema.11. Propoſicion.18.]
+
 ## Theorema.11. Propoſicion.18.
 
 ¶El mayor lado de todo triangulo ſe eſtiende debaxo del mayor angulo.

@@ -8,6 +8,10 @@
 
 [Figure: circle with two chords crossing at E; B at upper left, C at upper right, A at lower left, D at lower right, and Z below E on a short vertical line]
 
+[Curated heading level=2 type=propositions: Theorema. 4. Propoſicion.5.]
+
+[Curated heading level=2 type=theorems: Theorema. 4. Propoſicion.5.]
+
 ## Theorema. 4. Propoſicion.5.
 
 ¶Si dos circulos étre ſi ſe cortaré,no ſera vno meſmo el centro dellos.

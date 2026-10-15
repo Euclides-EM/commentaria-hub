@@ -6,6 +6,10 @@ nera que ſe tomen, es a ſaber. B A. A C.mayores que. B C. y B C. A B. que. A C
 
 [Diagram: triangle with D at the top left, C at the bottom left and B at the bottom right, with a line from C to a point A inside near the middle]
 
+[Curated heading level=2 type=propositions: Theorema. 14. Propoſicion.21.]
+
+[Curated heading level=2 type=theorems: Theorema. 14. Propoſicion.21.]
+
 ## Theorema. 14. Propoſicion.21.
 
 ¶Si delos terminos del vn lado de vn triãgulo ſe dierẽ dentro del dos lineas rectas:lasque ſe dierẽ ſeran menores que los dos lados del triangulo y contendran mayor angulo.

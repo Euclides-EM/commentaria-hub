@@ -4,6 +4,10 @@
 
 enlos punctos.E Z I.ſon rectos.Porque ſi las corta, caera en el circulo la linea ſacada en angulos rectos dela extremidad del diametro del circulo,lo qual ſer impoſſible ſe vio claro a rriba en la.16.del.3.luego el circulo deſcrito ſobre el centro D.y el eſpacio.D E.o D Z. o D I. no corta a las lineas rectas A B.B C.C A.Luego tocar las a,por el corelario de la miſma, y eſtara deſcrito el circulo enel triangulo. A B C.Luego en el triangulo dado. A B C.eſta deſcrito el circulo.E Z I.lo qual cõuenia hazer ſe.
 
+[Curated heading level=2 type=propositions: Problema.5. Propoſicion. 5.]
+
+[Curated heading level=2 type=problems: Problema.5. Propoſicion. 5.]
+
 ## Problema.5. Propoſicion. 5.
 
 ¶Al derredor de vn triangulo dado deſcribir vn circulo.

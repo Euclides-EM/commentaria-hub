@@ -3,6 +3,10 @@
 
 menor.D I.es ygual a la mas apartada,lo qual ya eſta demoſtrado por impoſſible.O tãbiẽ deſta manera(Tireſe por la.1. peticiõ)M N.y porq̃(por la.15.difiniciõ)es ygual la.K M.a la M N.y comun la.M D.y la baſis. D K.es ygual a la baſis,D N por la ſuppoſicion,luego por la,8,del.1,el angulo.K M D. es ygual al angulo.D M N.y el angulo.K M D,es ygual al angulo.B M D.Luego el angulo.B M D.es ygual al angulo.N M D es a ſaber el menor al mayor,que es impoſſible,Luego deſde el puncto.D.enel circulo. A B C.no caen mas de dos lineas rectas yguales a ambas partes dela menor. D I. Luego ſi fuera de vn circulo ſe toma vn pũcto. Y lo de mas como en el theorema,lo qual conuino demoſtrar.
 
+[Curated heading level=2 type=propositions: Theorema. 8. Propoſicion.9.]
+
+[Curated heading level=2 type=theorems: Theorema. 8. Propoſicion.9.]
+
 ## Theorema. 8. Propoſicion.9.
 
 ¶Si enel circulo ſe toma vn puncto.y deſde el puncto al circulo cayeren mas que dos lineas rectas yguales,el puncto tomado es dẽtro del miſmo circulo.

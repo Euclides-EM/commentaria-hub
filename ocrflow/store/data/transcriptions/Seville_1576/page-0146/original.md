@@ -6,7 +6,7 @@ ygual a la.Z C. luego las tres Z A.Z B.Z C. ſon yguales en tre ſi.luego ſobre
 
 [Figure: triangle A B C inscribed in a circle, with points E and D on the upper sides and lines from the vertices meeting at point Z below the line C B]
 
-## Corolario
+### Corolario
 
 ¶ Y es manifieſto que quando dentro del triangulo cae el centro del circulo, el angulo.B A C. que eſta en mayor ſegmento de circulo,es menor que recto y quando
 

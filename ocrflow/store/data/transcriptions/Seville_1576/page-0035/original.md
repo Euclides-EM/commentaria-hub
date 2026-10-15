@@ -5,6 +5,10 @@ ticiõ)Pues porq̃. A C es ygual a la. A D. ſera tãbien ygual el angulo. ACD a
 
 [Diagram: quadrilateral with points C and D at the top and A and B at the bottom, with crossing diagonal lines drawn between the vertices]
 
+[Curated heading level=2 type=propositions: Theorema.5. Propoſicion.8.]
+
+[Curated heading level=2 type=theorems: Theorema.5. Propoſicion.8.]
+
 ## Theorema.5. Propoſicion.8.
 
 ¶Si dos triãgulos tuuierẽ los dos lados yguales a los dos lados, el vno al otro:y la baſis tãbiẽ ygual a la baſis,tẽdran tãbiẽ el angulo cõtenido de yguales lineas rectas ygual al ãgulo

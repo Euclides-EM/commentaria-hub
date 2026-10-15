@@ -4,6 +4,10 @@
 
 A B C.en el circulo dado, A B C,luego en vn circulo dado ſe ha deſcrito vn triangulo de angulos yguales a los de vn trian gulo dado.
 
+[Curated heading level=2 type=propositions: Problema.3. Propoſicion. 3.]
+
+[Curated heading level=2 type=problems: Problema.3. Propoſicion. 3.]
+
 ## Problema.3. Propoſicion. 3.
 
 ¶Al derredor d̃ vn circulo deſcribir vn triãgu lo de ãgulos yguales a los devn triãgulo dado

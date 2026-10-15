@@ -6,6 +6,10 @@ Sean los parallelogrãmos yguales,A B,B C,que tengan yguales los angulos de junt
 
 Pero ſean reciprocos los lados q̃ eſtan junto a yguales angulos,y ſea q̃ como,D B,con,B E,aſſi,I B,con,B Z, Digo que es ygual el parallelogramo,A B,al parallelogrãmo,B C,Porq̃ como ſe ha,D B,con,B E,aſſi,I B,con,B Z,y tãbien como,D B cõ,B E,aſſi,por la,1,del,6,el parallelogramo,A B,con el parallelogramo.Z E,y como.I B.cõ.B Z.aſſi el parallelogramo.B C.cõ el pallelogramo.Z E,luego(por la.11.del.5.)como.A B.cõ.Z E.aſſi.B C.con Z E.luego ygual es el pallelogrãmo. A B al pallelogrãmo.B C.luego los lados de yguales y equiangulos parallelogrãmos ſon reciprocos,los quales eſtan junto a yguales angulos.Y los parallelogramos que tienen el vn angulo ygual al vn angulo y ſus lados ſon reciprocos tambien ellos ſon yguales entre ſi.Lo qual conuino demoſtrarſe.
 
+[Curated heading level=2 type=propositions: Theorema.10. Propoſicion.15,]
+
+[Curated heading level=2 type=theorems: Theorema.10. Propoſicion.15,]
+
 ## Theorema.10. Propoſicion.15,
 
 ¶ Son reciprocos los lados q̃ eſtá jũto a yguales águlos delos triãgulos yguales y q̃ tiené el

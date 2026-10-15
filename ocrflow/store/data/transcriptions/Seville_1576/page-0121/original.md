@@ -5,6 +5,10 @@ A D B.y ſon ſemejantes ſegmentos de circulos los que recibẽ yguales angulos
 
 [Diagram: two unequal similar segments of circles drawn on the same base line from B at the left to A at the right, with D on the outer arc and C on the inner arc, and straight lines joining the points]
 
+[Curated heading level=2 type=propositions: Theorema.22. Propoſicion.24.]
+
+[Curated heading level=2 type=theorems: Theorema.22. Propoſicion.24.]
+
 ## Theorema.22. Propoſicion.24.
 
 ¶Los ſegmentos ſemejantes de circulos,pueſtos ſobre yguales lineas rectas ſon yguales entre ſi.

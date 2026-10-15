@@ -5,6 +5,10 @@
 
 [Figure: circle with E at top, C at bottom, B at left and A at right; D at the centre joined by lines to B and A, a vertical line from E through Z and D, and an arc A Z B passing above the chord B A]
 
+[Curated heading level=2 type=propositions: Theorema, 2, Propoſicion. 3.]
+
+[Curated heading level=2 type=theorems: Theorema, 2, Propoſicion. 3.]
+
 ## Theorema, 2, Propoſicion. 3.
 
 ¶Si enel circulo vna linea recta tirada por el cétro, cortare por medio a otra linearecta no tirada por el centro, cortar la a en angulos rectos, y ſi la cortare en angulos rectos, tambié la cortara por medio.

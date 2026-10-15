@@ -5,7 +5,11 @@ Sea el triangulo oxigonio,A B C,q̃ tẽga agudo el angulo B,y por la,12,del,1,t
 
 [Diagram: triangle with apex A and base vertices B and C, with a perpendicular from A meeting the base at D]
 
-## Poblema{printer-error-correction:Problema} z. Propoſicion.14.
+[Curated heading level=2 type=propositions: Problema 2. Propoſicion.14.]
+
+[Curated heading level=2 type=problems: Problema 2. Propoſicion.14.]
+
+## Poblema{printer-error-correction:Problema} 2. Propoſicion.14.
 
 Hazer vn q̃drado ygual a vn rectilineo dado
 

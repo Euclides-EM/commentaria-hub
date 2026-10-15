@@ -2,6 +2,10 @@
 
 pues comũ, X T, q̃ es ygual al quadrado dela, A C, Luego el quatro vezes comprehendido de la. A.B.y de la.B D.con el quadrado dela. A C.esygual al gnomõ.S Q F.y al quadrado X T.y el gnomõ.S Q F.y X T.y ſõ todo el quadrado. A E Z D. q̃ es dela. A D,luego lo q̃ quatro vezes es dela, A B, y d̃la, B D,juntamẽte con aquel quadrado que ſe hace dela, A C, es ygual al quadrado q̃ ſe haze d̃la, A D, Y la, B D, es ygual ala B C,luego el rectangulo cõprehendido quatro vezes de la, A B,y dela, B C, juntamẽte cõ aquel quadrado q̃ ſe haze d̃la A C,es ygualal quadrado que ſe haze de la, A D,eſto es dela A B y dela, B C, como de vna. Luego ſi vna linea recta, y lo q̃ de mas ſe ſigue, que era lo q̃ ſe auia de demoſtrar.
 
+[Curated heading level=2 type=propositions: Theorema.9 Propoſiciõ. 9.]
+
+[Curated heading level=2 type=theorems: Theorema.9 Propoſiciõ. 9.]
+
 ## Theorema.9 Propoſiciõ. 9.
 
 ¶Si vna linea recta ſe diuide éyguales y en deſiguales partes,los quadrados q̃ ſe hazen de las partes deſiguales d̃ toda ella,ſon el doblo de aquel quadrado que ſe hace dela mitad,y del que dela que eſta en medio delas diuiſio-

@@ -4,6 +4,10 @@
 
 A.D.y las.L.N.de las.C.Z.ſon ygualmente multiplices. Luego como ſe ha la.A.a la.C.aſſi la.D.a la.Z.(por la.6. definiciõ del quinto)luego ſi fueren tres quantidades,y otras a ellas yguales en numero,tomadas de dos en dos en vna miſma razon,y la proporcion dellas fuere perturbada,tambien por ygual eſtaran en la miſma razon.Lo qual cõuino demoſtrarſe
 
+[Curated heading level=2 type=propositions: Theorema.24 Propoſicion.24.]
+
+[Curated heading level=2 type=theorems: Theorema.24 Propoſicion.24.]
+
 ## Theorema.24 Propoſicion.24.
 
 Si el primero al ſegũdo tuuiere la miſmarazõ que el tercero al quarto,pero tuuiere el quinto al ſegundo la miſma razon que el ſexto al quarto,tambien compueſtos primero y quinto tendran la miſma razon al ſegundo,que el tercero y el ſexto al quarto.

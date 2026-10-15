@@ -2,6 +2,10 @@
 
 E A Z.y tire ſe la.C A. Pues porque el centro del circulo. E A Z.es el puncto.C. (por la quinze definicion del.1.) es ygual la C A.a la.C E.y a la miſma. D.es ygual la.C E.luego (por la.1. comun ſentencia)tambien la. D. es ygual a la. A C.luego ẽ vn circulo dado.A B C.eſta aſſentada la.C A. ygual a la linea recta dada. D. lo qual conuenia hazerſe.
 
+[Curated heading level=2 type=propositions: Problema. 2. Propoſicion. 2.]
+
+[Curated heading level=2 type=problems: Problema. 2. Propoſicion. 2.]
+
 ## Problema. 2. Propoſicion. 2.
 
 ¶En vn circulo dado deſcribir vn triangulo de angulos yguales a los de vn triãgulo dado.

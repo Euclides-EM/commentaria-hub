@@ -5,6 +5,10 @@ otro,conuiene ſaber,el lado. A B.al lado.D E.y el lado. A C. al lado.D Z.pero e
 
 [Diagram: two triangles side by side; the left triangle has apex A, with B at the lower left and C at the bottom; the right triangle has apex D, with E at the lower left and internal lines drawn to points I and Z at the bottom right]
 
+[Curated heading level=2 type=propositions: Theorema.16. Propoſicion.25.]
+
+[Curated heading level=2 type=theorems: Theorema.16. Propoſicion.25.]
+
 ## Theorema.16. Propoſicion.25.
 
 ¶Si dos triãgulos tuuierẽ los dos lados yguales a los dos lados el vno al otro: pero la baſis mayor q̃ la baſis tẽdrã tãbiẽ el angulo cõtenido de yguales lineas rectas mayor q̃ el ãgulo.

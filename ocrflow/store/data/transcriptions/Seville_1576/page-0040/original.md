@@ -2,7 +2,11 @@
 
 dos angulos D B E.E B A.Põgaſe por comũ el angulo.A B C luego los angulos.D B A.A B C.ſon yguales a lostres ãgulos D B E.E B A.A B C.Y eſta demonſtrado q̃ los ãgulos.C B E. E B D.ſõ yguales a los miſmos tres,y las coſas q̃ a vna miſma ſõ yguales(por la.1.comũſentẽtia)ſon entre ſi yguales:luego los ãgulos.C B E.E B D.ſõ yguales a los ãgulos.D B A.A B C y los angulos D B E.C B E.ſon dos rectos , luego tãbien los angulos.D B A.A B C.ſon yguales a dos rectos.Luego quando eſtãdo vna linea recta ſobre otra linea recta hiziere angulos,o hara dos rectos o yguales a dos rectos,lo qual fue conueniente demonſtrarſe.
 
-## Thorema.7. Propoſiciõ. 14
+[Curated heading level=2 type=propositions: Theorema.7. Propoſiciõ. 14]
+
+[Curated heading level=2 type=theorems: Theorema.7. Propoſiciõ. 14]
+
+## Thorema{printer-error-correction:Theorema}.7. Propoſiciõ. 14
 
 ¶Si de alguna linea recta:y devn puncto ſuyo tiradas doslineas rectas haziadiuerſas partes de vna y otra parte hizierẽ angulos yguales a dos rectos , ellas entre ſi ſeran en derecho de linea recta.
 

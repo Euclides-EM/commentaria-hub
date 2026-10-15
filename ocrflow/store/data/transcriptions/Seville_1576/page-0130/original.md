@@ -2,6 +2,10 @@
 
 miſmos:y quando de vna y otra parte fueren yguales ſon rectos.
 
+[Curated heading level=2 type=propositions: Theorema.28. Propoſiciõ.32.]
+
+[Curated heading level=2 type=theorems: Theorema.28. Propoſiciõ.32.]
+
 ## Theorema.28. Propoſiciõ.32.
 
 ¶Si algũa linea recta tocare al circulo,y deſde el tocamiẽto fuere tirada vna linea recta q̃ corte al circulo,los angulos q̃ hace con la q̃ toca ſon yguales a aquellos angulos que eſtã enlos ſegmentos alternos del circulo.

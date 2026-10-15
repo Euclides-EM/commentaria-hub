@@ -6,6 +6,10 @@ Sean las dos lineas rectas dadas.B A.A C.y eſten de manera que hagan angulo a c
 
 [Figure: triangle with A at top, E at bottom left and D at bottom right, with C and B marked on the sides joined by a line]
 
+[Curated heading level=2 type=propositions: Problema.4. Propoſicion.12.]
+
+[Curated heading level=2 type=problems: Problema.4. Propoſicion.12.]
+
 ## Problema.4. Propoſicion.12.
 
 Dadas tres lineas rectas hallar vna quarta proporcional.
