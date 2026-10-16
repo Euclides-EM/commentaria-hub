@@ -1,15 +1,14 @@
 # OCR Pipeline Queue
 
-> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_4kk2ag - LineDetect done
-> Strasbourg_1566 - https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7 - LineDetect running
-> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_wcl1tc - Seg running
+> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4 - LineDetect running
+> Strasbourg_1566 - https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7 - OCR running
+> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_wcl1tc - Redoing facs
 > Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg running [LARGE FILE]
-> Paris_1685 - https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr - LineDetect running
-> Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r  Seg done, need to review
-> Oxford_1701 - https://euclides.huma-num.fr/hub/?datasetId=ds_73fy51 - Seg done, need to review
-> Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - Seg running
-> Paris_1814 vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy - LineDetect preparing
-> Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - Seg running
+> Paris_1685 - https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr - OCR running
+> Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r  Seg running
+> Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - LineDetect preparing
+> Paris_1814 vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy - OCR preparing x2
+> Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - LineDetect preparing
 
 # Train to improve segmentation
 
@@ -32,6 +31,8 @@
 > Edinburgh_1795 - https://euclides.huma-num.fr/hub/?datasetId=ds_4sklu9 - Seg done. Need to train to improve, i.e page 205.
 
 > Paris_1693 - https://euclides.huma-num.fr/hub/?datasetId=ds_mi34kk - Seg done. Need to train to improve, probably can rely on above trained and no need to slice from it.
+
+> Oxford_1701 - https://euclides.huma-num.fr/hub/?datasetId=ds_73fy51 - Seg done. Need to train to improve.
 
 # Run LLM Corrector
 
