@@ -1,13 +1,10 @@
 # OCR Pipeline Queue
 
-> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4 - LineDetect running
-> Strasbourg_1566 - https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7 - OCR running
-> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_wcl1tc - Redoing facs
-> Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg running [LARGE FILE]
-> Paris_1685 - https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr - OCR running
-> Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r  Seg running
-> Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - LineDetect preparing
-> Paris_1814 vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy - OCR preparing x2
+> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4 - OCR preparing
+> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - Seg preparing
+> Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg preparing [LARGE FILE]
+> Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - OCR preparing
+> Paris_1814 vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy - OCR preparing
 > Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - LineDetect preparing
 
 # Train to improve segmentation
@@ -34,7 +31,17 @@
 
 > Oxford_1701 - https://euclides.huma-num.fr/hub/?datasetId=ds_73fy51 - Seg done. Need to train to improve.
 
+> Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r  Seg done. Need to train to improve.
+
 # Run LLM Corrector
+
+## Paris_1685
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr&annotationId=ann_i31qou
+
+## Strasbourg_1566
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7&annotationId=ann_fsoleq
 
 ## Lyon_1672
 
