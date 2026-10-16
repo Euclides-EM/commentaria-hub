@@ -418,3 +418,20 @@ func (h *Handlers) ListAnnotationCategories(r *http.Request) (any, error) {
 
 	return h.deps.AnnotationSvc.GetAvailableCategories(datasetID, annotationID)
 }
+
+// ListAnnotationCategoriesBulk godoc
+// @Summary      Get Available Categories for Annotations
+// @Description  Get the combined available categories for a collection of annotations.
+// @Tags         Annotations
+// @Param        annotations  body      []annotation.Reference  true  "Annotations"
+// @Produce      json
+// @Success      200  {array}   string
+// @Router       /annotations/categories [post]
+func (h *Handlers) ListAnnotationCategoriesBulk(r *http.Request) (any, error) {
+	var annotations []annotation.Reference
+	if err := DecodeBody(r, &annotations); err != nil {
+		return nil, err
+	}
+
+	return h.deps.AnnotationSvc.GetAvailableCategoriesBulk(annotations)
+}

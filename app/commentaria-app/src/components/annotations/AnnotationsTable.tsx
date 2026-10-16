@@ -596,38 +596,27 @@ export function AnnotationsTable({
   )
   const categorySourceRows =
     selectedCount > 0 ? selectedAnnotationRows : sortedRows
-  const categoryQueries = useQueries({
-    queries: categorySourceRows.map((row) => ({
-      queryKey: [
-        'annotations',
-        row.datasetId,
-        row.annotation.id,
-        'categories',
-      ] as const,
-      queryFn: () =>
-        AnnotationsService.getDatasetsAnnotationsCategories({
-          dataSetId: row.datasetId,
-          id: row.annotation.id || '',
-        }),
-      enabled: !!row.datasetId && !!row.annotation.id,
-    })),
+  const categoryReferences = useMemo(
+    () =>
+      categorySourceRows.map((row) => ({
+        dataset_id: row.datasetId,
+        id: row.annotation.id || '',
+      })),
+    [categorySourceRows],
+  )
+  const {
+    data: aggregatedCategories = [],
+    isLoading: categoriesLoading,
+    error: categoryError,
+  } = useQuery({
+    queryKey: ['annotations', 'categories', categoryReferences] as const,
+    queryFn: () =>
+      AnnotationsService.postAnnotationsCategories({
+        annotations: categoryReferences,
+      }),
+    enabled: categoryReferences.length > 0,
   })
-  const categoriesLoading =
-    categorySourceRows.length > 0 &&
-    categoryQueries.some((query) => query.isLoading)
-  const categoriesError =
-    categoryQueries.find((query) => query.error)?.error?.toString() || null
-  const aggregatedCategories = useMemo(() => {
-    const categories = new Set<string>()
-    categoryQueries.forEach((query) => {
-      query.data?.forEach((category) => {
-        if (category) {
-          categories.add(category)
-        }
-      })
-    })
-    return [...categories].sort((a, b) => a.localeCompare(b))
-  }, [categoryQueries])
+  const categoriesError = categoryError?.toString() || null
   const allVisibleSelected =
     sortedRows.length > 0 &&
     sortedRows.every(
