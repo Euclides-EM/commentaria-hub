@@ -56,26 +56,14 @@ func NewAnnotationTEI(annotationSvc *Annotation, datasetSvc *Dataset, fileSysMgt
 }
 
 func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrKey string, features []string, fallbackToOrigin bool, imageVariant model.ImageVariant) ([]byte, error) {
-	ann, err := t.annotationSvc.Get(datasetID, annotationID)
+	ann, features, feats, err := t.prepareTEIRequest(datasetID, annotationID, features)
 	if err != nil {
 		return nil, err
 	}
 
-	if !t.annotationCanBeRepresentedAsTEI(ann) {
-		return nil, annotationNotRepresentableAsTEIError{annotationID: ann.ID}
-	}
-
-	features, err = t.normalizeFeatureIDs(datasetID, features)
+	tei, err := t.getScaledTEIWithFeatures(ann, pageNumOrKey, features, fallbackToOrigin, feats, imageVariant)
 	if err != nil {
-		return nil, fmt.Errorf("failed to normalize feature IDs for dataset %s: %v", datasetID, err)
-	}
-
-	tei, err := t.getTEI(ann, pageNumOrKey, features, fallbackToOrigin)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get TEI for annotation %s: %v", ann.ID, err)
-	}
-	if err := t.scaleTEIToVariant(datasetID, pageNumOrKey, tei, imageVariant); err != nil {
-		return nil, fmt.Errorf("failed to scale TEI for annotation %s: %v", ann.ID, err)
+		return nil, err
 	}
 
 	xml, err := tei.ToXML()
@@ -86,23 +74,39 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 	return xml, nil
 }
 
-func (t *AnnotationTEI) normalizeFeatureIDs(datasetID string, features []string) ([]string, error) {
-	if len(features) != 0 {
-		return features, nil
+func (t *AnnotationTEI) prepareTEIRequest(datasetID string, annotationID string, features []string) (*annotation.Annotation, []string, []*feature.Feature, error) {
+	ann, err := t.annotationSvc.getWithoutFallback(datasetID, annotationID)
+	if err != nil {
+		return nil, nil, nil, err
+	}
+	if !t.annotationCanBeRepresentedAsTEI(ann) {
+		return nil, nil, nil, annotationNotRepresentableAsTEIError{annotationID: ann.ID}
 	}
 
-	// if no features specified, default to all features for the dataset.
-	allFeatures, err := t.featureSvc.ListFeatures(feature.NewDatasetDefScope(datasetID), nil)
+	feats, err := t.featureSvc.ListFeatures(feature.NewDatasetDefScope(datasetID), []feature.ExpandOptions{feature.ExpandRevisions})
 	if err != nil {
-		return nil, fmt.Errorf("failed to list features for dataset %s: %v", datasetID, err)
+		return nil, nil, nil, fmt.Errorf("failed to list features for annotation %s: %v", ann.ID, err)
 	}
-	return lo.Map(allFeatures, func(f *feature.Feature, _ int) string {
-		return f.ID
-	}), nil
+	if len(features) == 0 {
+		features = lo.Map(feats, func(f *feature.Feature, _ int) string { return f.ID })
+	}
+
+	return ann, features, feats, nil
+}
+
+func (t *AnnotationTEI) getScaledTEIWithFeatures(ann *annotation.Annotation, pageNumOrKey string, features []string, fallbackToOrigin bool, feats []*feature.Feature, imageVariant model.ImageVariant) (*teimodel.TEI, error) {
+	tei, err := t.getTEIWithFeatures(ann, pageNumOrKey, features, fallbackToOrigin, feats)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get TEI for annotation %s: %v", ann.ID, err)
+	}
+	if err := t.scaleTEIToVariant(ann.DatasetID, pageNumOrKey, tei, imageVariant); err != nil {
+		return nil, fmt.Errorf("failed to scale TEI for annotation %s page %s: %v", ann.ID, pageNumOrKey, err)
+	}
+	return tei, nil
 }
 
 func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrKey string, imprintOnly *bool) (string, error) {
-	ann, err := t.annotationSvc.Get(datasetID, annotationID)
+	ann, err := t.annotationSvc.getWithoutFallback(datasetID, annotationID)
 	if err != nil {
 		return "", err
 	}
@@ -137,16 +141,14 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 }
 
 func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, features []string, fallbackToOrigin bool) (*teimodel.TEI, error) {
-	// Load results + feature definitions first (shared by both ALTO and TXT paths)
-	results, err := t.resultSvc.ListResults(feature.NewDatasetExecScope(ann.DatasetID, ann.ID), []string{pageNumOrKey}, features, fallbackToOrigin)
-	if err != nil {
-		return nil, fmt.Errorf("failed to list results for annotation %s: %v", ann.ID, err)
-	}
 	feats, err := t.featureSvc.ListFeatures(feature.NewDatasetDefScope(ann.DatasetID), []feature.ExpandOptions{feature.ExpandRevisions})
 	if err != nil {
 		return nil, fmt.Errorf("failed to list features for annotation %s: %v", ann.ID, err)
 	}
+	return t.getTEIWithFeatures(ann, pageNumOrKey, features, fallbackToOrigin, feats)
+}
 
+func (t *AnnotationTEI) getTEIWithFeatures(ann *annotation.Annotation, pageNumOrKey string, features []string, fallbackToOrigin bool, feats []*feature.Feature) (*teimodel.TEI, error) {
 	if files, listErr := t.fileSysMgt.ListAnnotationTranscriptionFiles(ann, pageNumOrKey); listErr == nil {
 		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 		return buildTEIFromTranscriptionFiles(pageNumOrKey, files, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
@@ -174,6 +176,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		lines        []string
 		translations map[string][]string
 		imageURL     string
+		err          error
 	)
 
 	if ann.DatasetID == titlepage.DatasetID {
@@ -198,6 +201,10 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 	pageLines := tei2.Lines{
 		TranscriptionLines: lines,
 		Translations:       translations,
+	}
+	results, err := t.resultSvc.ListResults(feature.NewDatasetExecScope(ann.DatasetID, ann.ID), []string{pageNumOrKey}, features, fallbackToOrigin)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list results for annotation %s: %v", ann.ID, err)
 	}
 
 	return tei2.BuildTEIFromLines(pageNumOrKey, pageLines, buildItems(results, feats, lines), imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
@@ -254,28 +261,16 @@ func (t *AnnotationTEI) getTitlePageTexts(editionKey string, imprintOnly *bool) 
 }
 
 func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, keys []string, features []string, fallbackToOrigin bool, imageVariant model.ImageVariant) ([]byte, error) {
-	features, err := t.normalizeFeatureIDs(datasetID, features)
+	ann, features, feats, err := t.prepareTEIRequest(datasetID, annotationID, features)
 	if err != nil {
-		return nil, fmt.Errorf("failed to normalize feature IDs for dataset %s: %v", datasetID, err)
+		return nil, err
 	}
 
 	teis := map[string]*teimodel.TEI{}
 	for _, key := range keys {
-		ann, err := t.annotationSvc.Get(datasetID, annotationID)
+		tei, err := t.getScaledTEIWithFeatures(ann, key, features, fallbackToOrigin, feats, imageVariant)
 		if err != nil {
 			return nil, err
-		}
-
-		if !t.annotationCanBeRepresentedAsTEI(ann) {
-			continue
-		}
-
-		tei, err := t.getTEI(ann, key, features, fallbackToOrigin)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get TEI for annotation %s: %v", ann.ID, err)
-		}
-		if err := t.scaleTEIToVariant(datasetID, key, tei, imageVariant); err != nil {
-			return nil, fmt.Errorf("failed to scale TEI for annotation %s page %s: %v", ann.ID, key, err)
 		}
 
 		teis[key] = tei

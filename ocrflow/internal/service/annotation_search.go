@@ -39,7 +39,7 @@ func NewAnnotationSearch(annotationSvc *Annotation, fileSysMgt *filesys.Manager,
 }
 
 func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, error) {
-	ann, err := s.annotationSvc.Get(as.DatasetID, as.AnnotationId)
+	ann, err := s.annotationSvc.getWithoutFallback(as.DatasetID, as.AnnotationId)
 	if err != nil {
 		return nil, err
 	}

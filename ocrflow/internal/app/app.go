@@ -94,7 +94,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		filepath.Join(env.RootDir, "ocrflow", "store", "items_metadata"),
 		filepath.Join(env.RootDir, "ocrflow", "store", "data", titlepage.DatasetID, "imgs"),
 	)
-	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
+	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc, env.StoreDir)
 	logsSvc := service.NewLogsService(env.LogsSystemdUnit, env.LogsTailDefaultLines, env.LogsTailMaxLines)
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)

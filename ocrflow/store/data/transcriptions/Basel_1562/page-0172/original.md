@@ -23,7 +23,9 @@ Als hierin.
  60 } 150
  30 } 75
  20 } 50
+[/Calculation]
 
+[Calculation]
   7 } 1/4
   2 } 28
   5 } 70
@@ -31,7 +33,9 @@ Als hierin.
   2 } 210
   2 } 140
     } 70
+[/Calculation]
 
+[Calculation]
   3/2 } 12
       } 8
   1/4 } 4

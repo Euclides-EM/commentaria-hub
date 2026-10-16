@@ -1,6 +1,7 @@
 package service
 
 import (
+	"encoding/json"
 	"errors"
 	"fmt"
 	"log"
@@ -20,6 +21,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/cache"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/formatcov"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
@@ -28,6 +30,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 	"github.com/samber/lo"
 	"github.com/tiendc/go-deepcopy"
+	"golang.org/x/sync/singleflight"
 )
 
 // todo: add interfaces to all services
@@ -40,7 +43,15 @@ type Annotation struct {
 	fileSysMgt        *filesys.Manager
 	annotationStore   *store.AnnotationSQL
 	activeRuleRuns    sync.Map
+	derivedCache      *cache.Cache
+	derivedCacheGroup singleflight.Group
 }
+
+const (
+	annotationDerivedCacheEntries = 512
+	annotationDerivedCacheBytes   = 64 << 20
+	annotationDerivedCacheTTL     = 5 * time.Minute
+)
 
 var ErrAnnotationRuleRunInProgress = errors.New("annotation rule application already in progress")
 
@@ -52,6 +63,7 @@ func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleA
 		featureResultsSvc: featureResultsSvc,
 		fileSysMgt:        fileSysMgt,
 		annotationStore:   annotationStore,
+		derivedCache:      cache.NewCache(cache.WithLimits(annotationDerivedCacheEntries, annotationDerivedCacheBytes)),
 	}
 }
 
@@ -67,15 +79,23 @@ func (a *Annotation) ListAnnotations(id string) ([]*annotation.Annotation, error
 }
 
 func (a *Annotation) Get(datasetId, id string) (*annotation.Annotation, error) {
+	ann, err := a.getWithoutFallback(datasetId, id)
+	if err != nil {
+		return nil, err
+	}
+	if err := a.populateTranscriptionFallbacks([]*annotation.Annotation{ann}); err != nil {
+		return nil, err
+	}
+	return ann, nil
+}
+
+func (a *Annotation) getWithoutFallback(datasetId, id string) (*annotation.Annotation, error) {
 	ann, err := a.annotationStore.GetAnnotation(datasetId, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
 	}
 	if ann == nil || ann.DatasetID != datasetId {
 		return nil, fmt.Errorf("annotation not found")
-	}
-	if err := a.populateTranscriptionFallbacks([]*annotation.Annotation{ann}); err != nil {
-		return nil, err
 	}
 	return ann, nil
 }
@@ -103,6 +123,37 @@ func (a *Annotation) populateTranscriptionFallbacks(annotations []*annotation.An
 }
 
 func (a *Annotation) transcriptionFallback(ann *annotation.Annotation) (*annotation.TranscriptionFallback, error) {
+	key := "fallback:" + annotationCacheVersion(ann)
+	if value, ok := a.derivedCache.Get(key); ok {
+		return value.(transcriptionFallbackCacheValue).fallback, nil
+	}
+	value, err, _ := a.derivedCacheGroup.Do(key, func() (any, error) {
+		if value, ok := a.derivedCache.Get(key); ok {
+			return value.(transcriptionFallbackCacheValue), nil
+		}
+		fallback, err := a.transcriptionFallbackUncached(ann)
+		if err != nil {
+			return nil, err
+		}
+		cached := transcriptionFallbackCacheValue{fallback: fallback}
+		a.derivedCache.SetWithTTLAndSize(key, cached, annotationDerivedCacheTTL, 128)
+		return cached, nil
+	})
+	if err != nil {
+		return nil, err
+	}
+	return value.(transcriptionFallbackCacheValue).fallback, nil
+}
+
+type transcriptionFallbackCacheValue struct {
+	fallback *annotation.TranscriptionFallback
+}
+
+func annotationCacheVersion(ann *annotation.Annotation) string {
+	return fmt.Sprintf("%s:%s:%d:%s:%t:%t:%t", ann.DatasetID, ann.ID, ann.UpdatedAt.UnixNano(), ann.Pages, ann.Segmented, ann.Ocred, ann.LinesDetected)
+}
+
+func (a *Annotation) transcriptionFallbackUncached(ann *annotation.Annotation) (*annotation.TranscriptionFallback, error) {
 	ds, err := a.datasetSvc.Get(ann.DatasetID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset from store: %w", err)
@@ -113,42 +164,37 @@ func (a *Annotation) transcriptionFallback(ann *annotation.Annotation) (*annotat
 		return nil, err
 	}
 
-	if lo.EveryBy(annPages, func(page string) bool {
-		_, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
-		return err == nil
-	}) {
+	all, some := availability(annPages, func(page string) bool {
+		fileName := page + ".xml"
+		if pageNum, err := strconv.Atoi(page); err == nil {
+			fileName = pagesparser.PageToXMLFilename(pageNum)
+		}
+		return regularFileExists(filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), fileName))
+	})
+	if all {
 		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelAnnotation, false), nil
 	}
-	if lo.SomeBy(annPages, func(page string) bool {
-		_, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
-		return err == nil
-	}) {
+	if some {
 		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelAnnotation, true), nil
 	}
 
-	if lo.EveryBy(annPages, func(page string) bool {
-		_, err := a.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, page)
-		return err == nil
-	}) {
+	all, some = availability(annPages, func(page string) bool {
+		return regularFileExists(filepath.Join(a.fileSysMgt.AnnotationTxtPageTranscriptionDir(ann, page), "original.md"))
+	})
+	if all {
 		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelAnnotation, false), nil
 	}
-	if lo.SomeBy(annPages, func(page string) bool {
-		_, err := a.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, page)
-		return err == nil
-	}) {
+	if some {
 		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelAnnotation, true), nil
 	}
 
-	if lo.EveryBy(annPages, func(page string) bool {
-		_, _, err := a.fileSysMgt.RetrieveEditionTXTPage(ds.EditionID, page)
-		return err == nil
-	}) {
+	all, some = availability(annPages, func(page string) bool {
+		return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, page), "original.txt"))
+	})
+	if all {
 		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelAnnotation, false), nil
 	}
-	if lo.SomeBy(annPages, func(page string) bool {
-		_, _, err := a.fileSysMgt.RetrieveEditionTXTPage(ds.EditionID, page)
-		return err == nil
-	}) {
+	if some {
 		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelAnnotation, true), nil
 	}
 
@@ -158,47 +204,53 @@ func (a *Annotation) transcriptionFallback(ann *annotation.Annotation) (*annotat
 			return nil, err
 		}
 
-		if lo.EveryBy(edPages, func(page int) bool {
-			_, _, err := a.fileSysMgt.RetrieveEditionAltoPage(ds.EditionID, page)
-			return err == nil
-		}) {
+		all, some = availability(edPages, func(page int) bool {
+			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, strconv.Itoa(page)), "original.xml"))
+		})
+		if all {
 			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelDataset, false), nil
 		}
-		if lo.SomeBy(edPages, func(page int) bool {
-			_, _, err := a.fileSysMgt.RetrieveEditionAltoPage(ds.EditionID, page)
-			return err == nil
-		}) {
+		if some {
 			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelDataset, true), nil
 		}
 
-		if lo.EveryBy(edPages, func(page int) bool {
-			_, err := a.fileSysMgt.RetrieveEditionMarkdownPage(ds.EditionID, page)
-			return err == nil
-		}) {
+		all, some = availability(edPages, func(page int) bool {
+			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, strconv.Itoa(page)), "original.md"))
+		})
+		if all {
 			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelDataset, false), nil
 		}
-		if lo.SomeBy(edPages, func(page int) bool {
-			_, err := a.fileSysMgt.RetrieveEditionMarkdownPage(ds.EditionID, page)
-			return err == nil
-		}) {
+		if some {
 			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelDataset, true), nil
 		}
 
-		if lo.EveryBy(edPages, func(page int) bool {
-			_, _, err := a.fileSysMgt.RetrieveEditionTXTPage(ds.EditionID, strconv.Itoa(page))
-			return err == nil
-		}) {
+		all, some = availability(edPages, func(page int) bool {
+			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, strconv.Itoa(page)), "original.txt"))
+		})
+		if all {
 			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelDataset, false), nil
 		}
-		if lo.SomeBy(edPages, func(page int) bool {
-			_, _, err := a.fileSysMgt.RetrieveEditionTXTPage(ds.EditionID, strconv.Itoa(page))
-			return err == nil
-		}) {
+		if some {
 			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelDataset, true), nil
 		}
 	}
 
 	return nil, nil
+}
+
+func availability[T any](values []T, exists func(T) bool) (all bool, some bool) {
+	all = len(values) > 0
+	for _, value := range values {
+		present := exists(value)
+		all = all && present
+		some = some || present
+	}
+	return all, some
+}
+
+func regularFileExists(filename string) bool {
+	info, err := os.Stat(filename)
+	return err == nil && info.Mode().IsRegular()
 }
 
 var errStopTranscriptionFallbackScan = errors.New("stop transcription fallback scan")
@@ -460,10 +512,33 @@ func (a *Annotation) acquireRuleRun(datasetID string, id string) (func(), error)
 }
 
 func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, error) {
-	ann, err := a.Get(datasetID, id)
+	ann, err := a.getWithoutFallback(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
+	key := "categories:" + annotationCacheVersion(ann)
+	if value, ok := a.derivedCache.Get(key); ok {
+		return slices.Clone(value.([]string)), nil
+	}
+	value, err, _ := a.derivedCacheGroup.Do(key, func() (any, error) {
+		if value, ok := a.derivedCache.Get(key); ok {
+			return value, nil
+		}
+		categories, err := a.getAvailableCategoriesUncached(ann)
+		if err != nil {
+			return nil, err
+		}
+		data, _ := json.Marshal(categories)
+		a.derivedCache.SetWithTTLAndSize(key, categories, annotationDerivedCacheTTL, int64(len(data)))
+		return categories, nil
+	})
+	if err != nil {
+		return nil, err
+	}
+	return slices.Clone(value.([]string)), nil
+}
+
+func (a *Annotation) getAvailableCategoriesUncached(ann *annotation.Annotation) ([]string, error) {
 	if !ann.Segmented {
 		return nil, nil
 	}
@@ -501,16 +576,47 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	for cat := range categorySet {
 		categories = append(categories, cat)
 	}
+	slices.Sort(categories)
 
 	return categories, nil
 }
 
 func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexTypes []string, normalize bool) (*annotation.Index, error) {
-	ann, err := a.Get(datasetID, id)
+	ann, err := a.getWithoutFallback(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
+	keyData, _ := json.Marshal(struct {
+		Version    string
+		Categories []string
+		IndexTypes []string
+		Normalize  bool
+	}{annotationCacheVersion(ann), categories, indexTypes, normalize})
+	key := "index:" + string(keyData)
+	if value, ok := a.derivedCache.Get(key); ok {
+		return value.(*annotation.Index), nil
+	}
+	value, err, _ := a.derivedCacheGroup.Do(key, func() (any, error) {
+		if value, ok := a.derivedCache.Get(key); ok {
+			return value, nil
+		}
+		index, err := a.getAnnotationIndexUncached(datasetID, id, ann, categories, indexTypes, normalize)
+		if err != nil {
+			return nil, err
+		}
+		data, _ := json.Marshal(index)
+		a.derivedCache.SetWithTTLAndSize(key, index, annotationDerivedCacheTTL, int64(len(data)))
+		return index, nil
+	})
+	if err != nil {
+		return nil, err
+	}
+	return value.(*annotation.Index), nil
+}
+
+func (a *Annotation) getAnnotationIndexUncached(datasetID, id string, ann *annotation.Annotation, categories, indexTypes []string, normalize bool) (*annotation.Index, error) {
 	var pages []int
+	var err error
 	if strings.TrimSpace(ann.Pages) == "" {
 		ds, err := a.datasetSvc.Get(datasetID)
 		if err != nil {
