@@ -35,25 +35,22 @@
 
 # Run LLM Corrector
 
-
 ## Lyon_1672
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq&annotationId=ann_57z69k
 
-**Status:** LLM in progress. 0/449
+Claude Code — Fable
 
-Claude Code — Fable usage:
-
-- **Requests:** 341
-- **Input tokens:** 1,372
-- **Cached tokens:** 6,868,477
-- **Cache creation tokens:** 2,756,888
-- **Output tokens:** 258,491
+- **Requests:** 790
+- **Input tokens:** 3,172
+- **Cached tokens:** 16,059,312
+- **Cache creation tokens:** 7,433,879
+- **Output tokens:** 618,653
 - **Reasoning tokens:** 0
-- **Total tokens:** 9,885,228
-- **Cost:** $75.53
+- **Total tokens:** 24,114,?16
+- **Cost:** $197.06
 
-Codex — GPT-5.6 Sol usage:
+Codex — GPT-5.6 Sol
 
 - **Requests:** 108
 - **Input tokens:** 2,562,295
@@ -63,6 +60,8 @@ Codex — GPT-5.6 Sol usage:
 - **Reasoning tokens:** 0
 - **Total tokens:** 2,697,481
 
+**Next steps:** Ready for curation.
+
 ## Oxford_1703
 
 OCR for Latin:
@@ -71,7 +70,7 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 OCR for Greek:
 https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
-**Status:** LLM in progress. 472/719
+**Status:** LLM in progress. 564/719
 
 # Manual Curation
 

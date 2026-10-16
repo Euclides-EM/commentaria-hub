@@ -1,0 +1,4 @@
+<!-- Page number: 268 -->
+<!-- Running title: Liure cinquieſme -->
+
+Demonſtration. Puiſqu'il y a vne plus grande raiſon de A à C, que de I à K; & que ce qu'eſt I, á l'égard de K, B l'eſt à l'égard de C ; B aura vne plus petite raiſon comparée à C, que A a comparée à C, & (*par la* 8.) A ſera plus grande ; de plus puiſque C a vne plus grande raiſon à E, que H, à I, & que H à l'égard d'I eſt le meſme que C à l'égard de F, C aura vne plus grande raiſon à E, qu'à F, ainſi F ſera plus grande que E. Que ſi nous adjoûtons que la raiſon de B à C eſt la méme que de I, à K, & que C comparée à F a vne méme raiſon que H à l'égard de I, neceſſairemẽt il y aura vne meſme raiſon de B à F que de H à K : (*par la* 23.) & parce que A, eſt plus grande que B ; auſſi y aura-t'il vne plus grande raiſon d'A à F que de B à F ; enfin parce que E, eſt plus petite que F, il y aura encore vne plus grande raiſon d'A à E, que de B à F, où de H à K.
