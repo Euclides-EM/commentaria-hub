@@ -4,6 +4,8 @@ import (
 	"errors"
 	"net/http"
 	"net/http/httptest"
+	"os"
+	"path/filepath"
 	"strings"
 	"testing"
 )
@@ -22,6 +24,35 @@ func TestGetStopsAfterHandlerError(t *testing.T) {
 	}
 	if body := rec.Body.String(); !strings.Contains(body, "boom") {
 		t.Fatalf("body = %q, expected error message", body)
+	}
+}
+
+func TestGetDownloadServesRequestedNameAndCleansUp(t *testing.T) {
+	tempDir := t.TempDir()
+	filePath := filepath.Join(tempDir, "temporary-name.zip")
+	if err := os.WriteFile(filePath, []byte("backup"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	cleaned := false
+	handler := GetDownload(func(r *http.Request) (string, string, func(), error) {
+		return filePath, "euclides_backup.zip", func() { cleaned = true }, nil
+	}, "application/zip").Build()
+
+	req := httptest.NewRequest(http.MethodGet, "/backups/example", nil)
+	rec := httptest.NewRecorder()
+	handler(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("status = %d, want %d", rec.Code, http.StatusOK)
+	}
+	if disposition := rec.Header().Get("Content-Disposition"); disposition != `attachment; filename="euclides_backup.zip"` {
+		t.Fatalf("Content-Disposition = %q", disposition)
+	}
+	if rec.Body.String() != "backup" {
+		t.Fatalf("body = %q, want backup", rec.Body.String())
+	}
+	if !cleaned {
+		t.Fatal("cleanup was not called after serving download")
 	}
 }
 

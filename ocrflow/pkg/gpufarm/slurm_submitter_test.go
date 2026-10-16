@@ -67,3 +67,13 @@ func TestDiscardRejectsPathsOutsideDirectJobRunDirectory(t *testing.T) {
 		}
 	}
 }
+
+func TestParseDFCapacity(t *testing.T) {
+	total, available, err := parseDFCapacity("1B-blocks Avail\n42949672960 15728640000")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if total != 42949672960 || available != 15728640000 {
+		t.Fatalf("capacity = (%d, %d), want (42949672960, 15728640000)", total, available)
+	}
+}

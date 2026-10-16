@@ -1,6 +1,7 @@
 package app
 
 import (
+	"context"
 	"database/sql"
 	"fmt"
 	"log"
@@ -30,6 +31,7 @@ type OCRFlowApp struct {
 	DB     *sql.DB
 	Deps   *api.Dependencies
 	Router http.Handler
+	cancel context.CancelFunc
 }
 
 func NewOCRFlowApp() (*OCRFlowApp, error) {
@@ -63,6 +65,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("handle restore if needed: %w", err)
 	}
 	log.Printf("finished app for backup/restore if needed")
+	if err := bckSvc.ApplyLocalRetention(); err != nil {
+		return nil, fmt.Errorf("apply local backup retention: %w", err)
+	}
 
 	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.ModelsDir(), env.DiagramsDir(), env.DefaultModelsDir())
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
@@ -102,7 +107,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("init models: %w", err)
 	}
 	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
-	gpuFarmManualBundlesSvc := service.NewGPUFarmManualBundles(env.APIURL)
+	gpuFarmManualBundlesSvc := service.NewGPUFarmManualBundles(env.APIURL, env.GPUFarmManualBundleTTL)
+	bundleCleanupCtx, cancelBundleCleanup := context.WithCancel(context.Background())
+	gpuFarmManualBundlesSvc.StartCleanup(bundleCleanupCtx)
 	annotationDetectionRemoteSvc := service.NewAnnotationDetectionRemote(fileSystemManager, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc, gpuFarmManualBundlesSvc)
 	llmClient := llm.NewClient(env.OpenAIAPIKey, env.OllamaBaseURL, env.OllamaAuthToken)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey, annotationDetectionRemoteSvc, annotationStore, datasetStore, llmClient)
@@ -254,13 +261,18 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DB:     sqlDB,
 		Deps:   deps,
 		Router: router,
+		cancel: cancelBundleCleanup,
 	}, nil
 }
 
 func (a *OCRFlowApp) Close() error {
+	if a.cancel != nil {
+		a.cancel()
+	}
+	var err error
 	if a.DB != nil {
-		return a.DB.Close()
+		err = a.DB.Close()
 	}
 	futils.CleanTemp()
-	return nil
+	return err
 }
