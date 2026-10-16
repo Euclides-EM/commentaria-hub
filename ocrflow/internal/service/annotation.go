@@ -30,6 +30,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 	"github.com/samber/lo"
 	"github.com/tiendc/go-deepcopy"
+	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/singleflight"
 )
 
@@ -536,6 +537,42 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 		return nil, err
 	}
 	return slices.Clone(value.([]string)), nil
+}
+
+func (a *Annotation) GetAvailableCategoriesBulk(refs []annotation.Reference) ([]string, error) {
+	uniqueRefs := make(map[annotation.Reference]struct{}, len(refs))
+	for _, ref := range refs {
+		if ref.DatasetID != "" && ref.ID != "" {
+			uniqueRefs[ref] = struct{}{}
+		}
+	}
+
+	categorySet := make(map[string]struct{})
+	var categorySetMu sync.Mutex
+	var group errgroup.Group
+	group.SetLimit(8)
+	for ref := range uniqueRefs {
+		ref := ref
+		group.Go(func() error {
+			categories, err := a.GetAvailableCategories(ref.DatasetID, ref.ID)
+			if err != nil {
+				return err
+			}
+			categorySetMu.Lock()
+			for _, category := range categories {
+				categorySet[category] = struct{}{}
+			}
+			categorySetMu.Unlock()
+			return nil
+		})
+	}
+	if err := group.Wait(); err != nil {
+		return nil, err
+	}
+
+	categories := lo.Keys(categorySet)
+	slices.Sort(categories)
+	return categories, nil
 }
 
 func (a *Annotation) getAvailableCategoriesUncached(ann *annotation.Annotation) ([]string, error) {

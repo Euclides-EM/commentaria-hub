@@ -7,11 +7,32 @@ import type { annotation_DuplicateRequest } from '../models/annotation_Duplicate
 import type { annotation_ExpectedBlocks } from '../models/annotation_ExpectedBlocks';
 import type { annotation_Index } from '../models/annotation_Index';
 import type { annotation_MergeRequest } from '../models/annotation_MergeRequest';
+import type { annotation_Reference } from '../models/annotation_Reference';
 import type { annotation_Search } from '../models/annotation_Search';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class AnnotationsService {
+    /**
+     * Get Available Categories for Annotations
+     * Get the combined available categories for a collection of annotations.
+     * @returns string OK
+     * @throws ApiError
+     */
+    public static postAnnotationsCategories({
+        annotations,
+    }: {
+        /**
+         * Annotations
+         */
+        annotations: Array<annotation_Reference>,
+    }): CancelablePromise<Array<string>> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/annotations/categories',
+            body: annotations,
+        });
+    }
     /**
      * List Annotations
      * Get a list of annotations for a specific dataset.

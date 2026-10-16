@@ -85,6 +85,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/index", httpwrapper.Get(h.GetAnnotationIndex).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/categories", httpwrapper.Get(h.ListAnnotationCategories).Build())
+	api.HandleFunc("/annotations/categories", httpwrapper.Create(h.ListAnnotationCategoriesBulk).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply", httpwrapper.Update(h.ApplyRules).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/model_detect", httpwrapper.Update(h.ApplyRuleModelDetect).Build())
