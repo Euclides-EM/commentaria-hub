@@ -1153,6 +1153,7 @@ func getIndexFromMarkdown(pages []int, categories []string, loadPage func(int) (
 				category:  h.Category,
 				content:   h.Content,
 				indexType: h.IndexType,
+				hidden:    h.Hidden,
 			})
 			seenCategories[h.Category] = struct{}{}
 		}
@@ -1221,6 +1222,14 @@ func buildNodes(categories []string, data []categoryPageContent) []*annotation.I
 			continue
 		}
 
+		for len(stack) > 0 && stack[len(stack)-1].rank >= rank {
+			stack = stack[:len(stack)-1]
+		}
+		if item.hidden {
+			stack = append(stack, rankedNode{rank: rank})
+			continue
+		}
+
 		node := &annotation.IndexNode{
 			Category: item.category,
 			Type:     item.indexType,
@@ -1231,13 +1240,13 @@ func buildNodes(categories []string, data []categoryPageContent) []*annotation.I
 			node.Type = markdown.DefaultIndexType
 		}
 
-		for len(stack) > 0 && stack[len(stack)-1].rank >= rank {
-			stack = stack[:len(stack)-1]
+		var parent *annotation.IndexNode
+		for i := len(stack) - 1; i >= 0 && parent == nil; i-- {
+			parent = stack[i].node
 		}
-		if len(stack) == 0 {
+		if parent == nil {
 			nodes = append(nodes, node)
 		} else {
-			parent := stack[len(stack)-1].node
 			parent.Children = append(parent.Children, node)
 		}
 		stack = append(stack, rankedNode{rank: rank, node: node})
@@ -1251,4 +1260,5 @@ type categoryPageContent struct {
 	category  string
 	content   string
 	indexType string
+	hidden    bool
 }
