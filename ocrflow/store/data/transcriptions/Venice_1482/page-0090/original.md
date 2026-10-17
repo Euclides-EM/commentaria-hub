@@ -6,17 +6,13 @@
 
 ⁊.c.pariter acceptaꝝ ad.e.⁊.f.pariter acceptas:⁊ ꝙ ipſa eſt minor q̃ʒ.a.ad.d.cũ ſit enĩ.a.ad.d.maior q̃ʒ.b.ad.e.erit permutatim.a.ad.b.maior q̃ʒ.d.ad.e.⁊ coniunctim.a.b.ad.b.maior q̃ʒ.d.e.ad.e.⁊ iterum permutatim.a.b.ad.d.e.maior q̃ʒ.b.ad.e.quare per premiſſam.a.ad.d.eſt maior q̃ʒ.a.b.ad.d.e.eodẽqʒ modo ꝓbaꝰ maiorẽ ẽe.b.ad.e.q̃ʒ.b.c.ad.e.f.itaqʒ maior ꝓportio ẽ.a.ad.d.q̃ʒ.b.c.ad.e f.q̃re permutatim maior eſt.a.ad.b.c.q̃ʒ.d.ad.e.f.⁊ coniunctim maior.a.b.c.ad b.c.q̃ʒ.d.e.f.ad.e.f.⁊ iterum permutatim maior.a.b.c.ad.d.e.f.q̃ʒ.c.b.ad.e.f. quare per premiſſam maior eſt.a.ad.d.q̃ʒ.a.b.c.ad.d.e.f.quod eſt ꝓpoſitum. Explicit liber quintus Jncipit liber Sextus.
 
-[Curated heading level=1: LIBER VI]
-
-[Curated heading level=2 type=definitions: SUperficies ſimiles dicũt q̃ꝝ anguli vnius angulis alterius equales]
+[Curated heading level=1 type=Books: Book 6]
 
 {dropcap:S|lines=10|style=decorated|decoration="white floral vine on black ground"}Uperficies ſimiles dicũt q̃ꝝ anguli vnius angulis alterius equales.lateraqʒ equos angulos continentia proportionalia.
 
 ¶Ut ſi trigonus.a.b.c.fuerit equiangulus trigono d.e.f.fueritqʒ angulus.a.equalis angulo.d.⁊ angulus.b.equalis angulo.e.⁊ ꝓportio.a.b.ad.d.e.ſicut a.c.ad.d.f.⁊.b.c.ad.e.f.ipſi erunt ſimiles.
 
 [Diagram: two triangles, the first with base angles labelled b and c, the second with base angles labelled e and f]
-
-[Curated heading level=2 type=definitions: SUperficies mutuoꝝ laterum ſũt]
 
 {dropcap:S|lines=4|style=decorated|decoration="white floral vine on black ground"}Uperficies mutuoꝝ laterum ſũt inter quarum latera incontinua proportionalitas retrãſitiue habetur.
 

@@ -4,12 +4,6 @@
 [unclear: Alia eſt romboides ⁊ ſimilis rombo cuius duo latera ex aduerſo poſita ſt equalia]
 [/Handwritten]
 
-[Curated heading level=2 type=definitions: Alia eſt ſimilis helmuaym]
-
-[Curated heading level=2 type=definitions: Preter has autẽ oẽs]
-
-[Curated heading level=2 type=definitions: Equidiſtantes linee ſunt que]
-
 ¶ Alia eſt ſimilis helmuaym que oppoſita latera habet equalia atqʒ oppoſitos angulos equales: idẽ tamen nec rectis angulis nec equis lateribus cõtineꝛ: ¶ Preter has autẽ oẽs quadrilatere figure helmuariphe nominantur. ¶ Equidiſtantes linee ſunt que in eadem ſuperficie collocate atqʒ in alterutram partem ꝓtracte non conueniunt etiã ſi in infinitum protrahantur.
 
 [Margin]

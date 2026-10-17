@@ -28,25 +28,7 @@
 
 Explicit liber Octauus Incipit liber Nonus.
 
-[Curated heading level=1: LIBER IX]
-
-[Curated heading level=2 type=definitions: PAr numerus eſt qui poteſt in duo equalia diuidi]
-
-[Curated heading level=2 type=definitions: Impar numerus ẽ qui]
-
-[Curated heading level=2 type=definitions: Pariter par ẽ quẽ]
-
-[Curated heading level=2 type=definitions: Pariter ĩpar eſt quẽ]
-
-[Curated heading level=2 type=definitions: Pariter par ⁊ ĩpariter]
-
-[Curated heading level=2 type=definitions: Impariter ĩpar quẽ cũcti]
-
-[Curated heading level=2 type=definitions: Perfectus numerus appellat̃ qui]
-
-[Curated heading level=2 type=definitions: Habundans dicitur qui oĩbus]
-
-[Curated heading level=2 type=definitions: Diminutus vero qui maioꝛ]
+[Curated heading level=1 type=Books: Book 9]
 
 {dropcap:P|lines=9|style=decorated|decoration="large white foliate initial on black ground"}Ar numerus eſt qui poteſt in duo equalia diuidi.¶Impar numerus ẽ qui ĩ duo equalia diuidi nõ põt:additqʒ ſupra parẽ vnitatẽ ¶Pariter par ẽ quẽ cũcti pares eũ numerantes paribus vicibus numerant:¶Pariter ĩpar eſt quẽ cuncti pares eũ numerãtes ĩparibꝰ vicibꝰ numerãt.¶Pariter par ⁊ ĩpariter ẽ quẽ pares eũ numerãtes quidã paribꝰ quidã im paribꝰ vicibꝰ numerãt.¶Impariter ĩpar quẽ cũcti ĩpares eũ numerantes imparibus vicibus numerãt.¶Perfectus numerus appellat̃ qui oĩbus ꝑtibꝰ ſuis quibꝰ numerat̃ ẽ equalis.¶Habundans dicitur qui oĩbus ſuis ꝑtibus minoꝛ eſt.¶Diminutus vero qui maioꝛ.
 
