@@ -3,8 +3,6 @@
 
 tuiſſe dici, eodem quo nunc jure, ex tempore Theonis hactenus, ſperare licet.
 
-[Curated heading level=3: LIB. VI.]
-
 #### DEF. II. et V. LIB. VI.
 
 {dropcap:D|lines=2|style=plain}EFINITIO ſecunda non videtur Euclidis eſſe, ſed cujuſdam imperiti. Nulla enim figurarum reciprocarum mentio fit ab Euclide, neque, quantum ſcio, a quocunque alio Geometra. obſcure enuntiata eſt, quare eam magis claram exhibuimus. vice autem ejus haec quae ſequitur ponenda videtur, viz.
