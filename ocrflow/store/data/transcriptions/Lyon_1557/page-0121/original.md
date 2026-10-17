@@ -2,19 +2,11 @@
 
 [Ornament: foliate headpiece]
 
-[Curated heading level=1 type=propositions: LIBER QVINTVS]
-
-[Curated heading level=1 type=theorems: LIBER QVINTVS]
-
-[Curated heading level=1 type=additions: LIBER QVINTVS]
-
-[Curated heading level=1 type=definitions: LIBER QVINTVS]
-
 # IACOBI PELETARII CENOMANI IN EVCLIDIS ELEMENTA GEOMETRICA DEMONSTRATIONVM LIBER QVINTVS.
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: Pars]
+[Curated heading level=3 type=definitions: PArs]
 
 ### {dropcap:P|lines=5|style=decorated|decoration="foliate ornamental initial"}Ars, eſt Magnitudo Magnitudinis minor maioris, quum minor maiorem metitur.
 
@@ -22,7 +14,7 @@ In explicandis huius Quinti Definitionibus, Numeros nobis accommodabimus. Id eni
 
 [Figure: four horizontal line segments of differing lengths, labelled A B, E F, C D and G H]
 
-[Curated heading level=2 type=definitions: DEFINITIO 2.]
+[Curated heading level=3 type=definitions: 2]
 
 ### 2 Multiplex, eſt Magnitudo maior minoris, quam metitur minor.
 

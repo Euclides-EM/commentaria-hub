@@ -20,37 +20,37 @@
 
 <!-- Running title: DEFINITIONS. -->
 
-[Curated heading level=2 type=definitions: DEFINITION VIII.]
+[Curated heading level=3 type=definitions: VIII.]
 
 ### VIII.
 
 {dropcap:L|lines=2|style=plain}'*Angle Plan* eſt l'inclinaiſon mutuelle de deux lignes (AB, BC,) qui ſe rencontrent, & qui ſe trouvent ſituées dans un même plan. *Fig.* 6.
 
-[Curated heading level=2 type=definitions: DEFINITION IX.]
+[Curated heading level=3 type=definitions: IX.]
 
 ### IX.
 
 *L'Angle* eſt nommé *Rectiligne*, ſi les lignes, entre lesquelles il eſt compris, ſont droites. *Fig.* 6.
 
-[Curated heading level=2 type=definitions: DEFINITION X.]
+[Curated heading level=3 type=definitions: X.]
 
 ### X.
 
 Quand une ligne droite (AB), tombant ſur une autre ligne droite (CD), fait les angles contigus (ABD, ABC) égaux entr'eux, ces angles ſont appellés *Angles Droits*. La ligne (AB), qui tombe de cette maniere ſur l'autre (CD), eſt appellée *Perpendiculaire*. *Fig.* 7.
 
-[Curated heading level=2 type=definitions: DEFINITION XI.]
+[Curated heading level=3 type=definitions: XI.]
 
 ### XI.
 
 *L'Angle Obtus* (ABC) eſt un angle plus grand qu'un angle droit (EBC). *Fig.* 8.
 
-[Curated heading level=2 type=definitions: DEFINITION XII.]
+[Curated heading level=3 type=definitions: XII.]
 
 ### XII.
 
 *L'Angle Aigu* (ABC) eſt un angle plus petit qu'un angle droit (EBC). *Fig.* 9.
 
-[Curated heading level=2 type=definitions: DEFINITION XIII.]
+[Curated heading level=3 type=definitions: XIII.]
 
 ### XIII.
 

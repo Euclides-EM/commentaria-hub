@@ -3,7 +3,7 @@
 
 totam OEFK) triplicata erit rationis IM ad PZ. Quod erat demonſtrandum.
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO IX.]
+[Curated heading level=2 type=propositions: PROPOSITIO IX.]
 
 ## PROPOSITIO IX.
 

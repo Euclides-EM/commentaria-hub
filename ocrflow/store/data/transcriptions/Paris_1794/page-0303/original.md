@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE VIII. -->
 <!-- Page number: 275 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XVII. PROBLÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVII.]
 
-[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION XVII.]
+[Curated heading level=2 type=problems: PROPOSITION XVII.]
 
 ## PROPOSITION XVII.
 
@@ -31,9 +31,9 @@ le solide décrit par le secteur DCA = ⅔ π. CA². AF ; donc la différence de
 
 donc le solide décrit par le segment BMD = ⅔ π. EF. (CA² − CI²). Or dans le triangle rectangle CBI on a CB² − CI² = BI² = ¼ BD² ; donc, à cause de CA = CB, le solide décrit par le segment BMD aura pour mesure ⅔ π. EF. ¼ BD², ou ⅙ π. BD². EF.
 
-[Curated heading level=2 type=propositions: PROPOSITION XVIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XVIII.]
 
 ## PROPOSITION XVIII.
 

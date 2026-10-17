@@ -1,7 +1,7 @@
 <!-- Page number: 50 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-### Scholium.
+#### Scholium.
 
 [Curated heading level=2 type=figures: Fig. 70]
 
@@ -16,9 +16,9 @@ tabulâ 2.
 
 *Reſolue in triangula per rectam A C. Ex oppoſitis angulis demitte perpendiculares B O, F I. biſeca A C in S. Ex S erige perpendicularem S L parem duabus B O, F I. Rectangulum ſub L S, & S A æquatur dato B F. Demonſtratio patet ex 41.*
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XLVI.]
+[Curated heading level=3 type=propositions: PROPOSITIO XLVI.]
 
-## PROPOSITIO XLVI.
+### PROPOSITIO XLVI.
 
 [Curated heading level=2 type=figures: Fig. 71]
 

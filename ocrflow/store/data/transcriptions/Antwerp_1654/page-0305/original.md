@@ -13,7 +13,7 @@ e Per 10. ac 7.l.12.
 
 Sunt enim e cylindrorum ac priſmatum partes tertiæ.
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO XVI. XVII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVI. XVII.]
 
 ## PROPOSITIO XVI. XVII.
 

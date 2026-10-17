@@ -16,9 +16,9 @@ Dw. a : b | A : B — n. 11. V.
 
 Wenn derowegen die Gantzen sich zu einander also/ wie die abgenommenen Stücke zu einander verhalten: So werden die übergeblieben Stücke sich auch also/ wie die Gantzen zu einander verhalten. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 20. Beweiß-Stück. Der XX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 20. Beweiß-Stück.]
 
 ## Der XX. Vortrag.
 

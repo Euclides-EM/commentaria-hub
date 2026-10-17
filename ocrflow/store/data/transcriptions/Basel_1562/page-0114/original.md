@@ -7,7 +7,7 @@ fürtern fürgenommen / haſt auch deſſen ain exempel mit zalen erklärt.
 
 Auß diſer propoſ. mag yeder abnemen / das ſo von ainem puncten vil linien gezogen werden den zirckel zerſchneidend / das alle winckelrechte parallelogram ſo von yeder zerſchneidenden vnd irem außwendigen ſtuck begriffen werden ainander gleich ſeind / vrſach das ſy alle ainem quadrat ainer berüerenden linj gleich. Deßgleichen ſeind auch zwo berüerend lini / von ainem puncten zum zirckel raichend / ainander gleich. Das auch nitt mehr dann zwo berüerend linien von ainem puncten auff ain zirckel mögen fallen / mag durch die 8 vorgehnd propoſit. vn̄ verſtand diſer gegenwertigen / ſo ain linj durch den zirckel gezogen wirdt vom puncten / bewiſen werden.
 
-[Curated heading level=2 type=propositions: XXXVII. Die ſibendevnddreyſigſt Propoſition]
+[Curated heading level=2 type=propositions: XXXVII Die ſibendevnddreyſigſt Propoſition.]
 
 ## XXXVII Die ſibendevnddreyſigſt Propoſition.
 

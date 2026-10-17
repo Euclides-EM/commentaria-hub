@@ -2,17 +2,11 @@
 
 [Ornament]
 
-[Curated heading level=1 type=propositions: LE CINQVIESME LIVRE DES ELEMENTS D'EVCLIDE.]
-
-[Curated heading level=1 type=theorems: LE CINQVIESME LIVRE DES ELEMENTS D'EVCLIDE.]
-
-[Curated heading level=1 type=definitions: LE CINQVIESME LIVRE DES ELEMENTS D'EVCLIDE.]
-
 # LE CINQVIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
 ## DEFINITIONS.
 
-[Curated heading level=2 type=definitions: DEF. I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 

@@ -3,19 +3,19 @@
 
 inde latus A B æquabitur lateri c b; quòd erat demonſtrandum, cædem enim ſunt lineæ C B & c b.
 
-### Corollarium.
+#### Corollarium.
 
 {dropcap:Æ|lines=2|style=plain}Quiangulum ergo triangulum, etiam æquilaterum eſt.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO VII.]
+[Curated heading level=3 type=propositions: PROPOSITIO VII.]
 
-## PROPOSITIO VII.
+### PROPOSITIO VII.
 
 {dropcap:E|lines=2|style=plain}St propter 8, quæ ſine illa ſeorſim propoſita demonſtrabitur.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO VIII.]
+[Curated heading level=3 type=propositions: PROPOSITIO VIII.]
 
-## PROPOSITIO VIII.
+### PROPOSITIO VIII.
 
 [Curated heading level=2 type=figures: Fig. 27]
 

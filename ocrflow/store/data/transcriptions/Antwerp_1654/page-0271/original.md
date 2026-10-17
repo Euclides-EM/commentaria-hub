@@ -3,13 +3,13 @@
 
 lum conſtituant, adeoq́, præter iam dicta 5, nulla ordinata corpora dari poſſe.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXII. XXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXII. XXIII.]
 
 ## PROPOSITIO XXII. XXIII.
 
 {dropcap:A|lines=2|style=plain}Dmodum prolixæ ſunt ac moleſtæ tyronibus, & ferè vſu non veniunt.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXIV.]
 
 ## PROPOSITIO XXIV.
 

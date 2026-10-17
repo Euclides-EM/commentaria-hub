@@ -2,8 +2,6 @@
 
 la. D B.ſon el doblo de aq̃llos quadrados q̃ ſe hazẽ dela. A C. y dela.C D.Luego ſi vna linea recta ſe corta en partes yguales y lo que mas ſe ſigue como en el theorema que conuino demoſtrarſe.
 
-[Curated heading level=1 type=problems: LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLI]
-
 [Curated heading level=2 type=propositions: Problema.1. Propoſiciõ.11.]
 
 [Curated heading level=2 type=problems: Problema.1. Propoſiciõ.11.]

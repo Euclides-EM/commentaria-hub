@@ -16,9 +16,9 @@ Reſolutio demōſtrationis.
 
 [Diagram: d/e. e/f | a/b. b/c | d/e. e/g.]
 
-[Curated heading level=2 type=propositions: Theorema 7, Propoſitio 7.]
+[Curated heading level=2 type=propositions: Theorema 7, Propoſitio. 7.]
 
-[Curated heading level=2 type=theorems: Theorema 7, Propoſitio 7.]
+[Curated heading level=2 type=theorems: Theorema 7, Propoſitio. 7.]
 
 ## Θεώρημα ζ, Πρόθεσις ζ.
 

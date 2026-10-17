@@ -1,7 +1,7 @@
 <!-- Page number: 214 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXIV.]
 
 ## PROPOSITIO XXIV.
 
@@ -26,7 +26,7 @@ l Per defin. 1.l.6.
 n Per 21.l.6.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXV.]
 
 ## PROPOSITIO XXV.
 

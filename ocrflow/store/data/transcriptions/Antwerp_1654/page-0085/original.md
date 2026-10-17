@@ -3,7 +3,7 @@
 
 verò patet ex 14, cum anguli L B A, & C B A ambo recti ſint per hypotheſim.
 
-### Scholium.
+#### Scholium.
 
 {dropcap:H|lines=2|style=plain}*Oc theorema (quod prop.31. lib.6. Euclides ad omnes figuras ſimiles extendet) Pythagoricum appellatur paßim, ab inuentore Pythagora; qui, vt teſtantur Proclus, Vitruuius, alijq́;, Muſis victimas immolauit, quod ſe in tam præclaro inuento ab ijs adiutum putaret. Ignorabat videlicet ſcientiarum Dominum, verum & vnicum omnis ſapientiæ auctorem Deum; aut certe ſi cognouit, non ſicut Deum glorificauit. Frequens porro huius theorematis & eximius per Mathematicam totam vſus eſt; ac viam inprimis ad incommenſurabiles magnitudines, arcanum ingens Geometricæ philoſophiæ, cognoſcendas aperit.*
 

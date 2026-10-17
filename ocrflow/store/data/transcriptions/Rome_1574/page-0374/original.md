@@ -5,7 +5,7 @@ fertur, & multiplex ad partem, ita minor quantitas menſurãs maiorem, dicatur p
 
 SATIS autem perſpicue ex hac definitione colligitur, partem antea definitam eſſe eam, quæ perfecte metitur ſuum totũ. Si enim 6. diceretur metiri 7. ut uult Peletarius, eſſet iuxta hanc definitionem, 7. multiplex ipſius 6. quod eſt abſurdum.
 
-[Curated heading level=2 type=definitions: III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 

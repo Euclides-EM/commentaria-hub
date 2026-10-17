@@ -17,9 +17,9 @@ AB² : AC² :: BD : DC.
 
 *Donc les quarrés des deux côtés de l’angle droit sont entre eux comme les segments de l’hypoténuse adjacents à ces côtés.*
 
-[Curated heading level=2 type=propositions: PROPOSITION XII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XII.]
+[Curated heading level=2 type=theorems: PROPOSITION XII.]
 
 ## PROPOSITION XII.
 

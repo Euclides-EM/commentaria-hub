@@ -17,7 +17,7 @@ Fig.23.
 
 Demonſtratio ſimilis eſt, cum enim rectangula A B Z, C B D ſint æqualia, erit A B ad B C vt B D (hoc eſt vt B C) ad B Z.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIII.]
 
 ## PROPOSITIO XIII.
 

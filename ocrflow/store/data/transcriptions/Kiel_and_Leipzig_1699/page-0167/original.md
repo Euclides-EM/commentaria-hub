@@ -15,9 +15,9 @@ Welches aber unmöglich n. 20. I.
 
 Muß also allezeit der gerade Strich / welcher zweene Mittel-Düpffele derer Kreyse/so einander auswendig berühren/ zusammen henget / durch den Anrührungs-Düpffel gehen. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XIII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XIII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 12. Beweiß-Stück. Der XIII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 12. Beweiß-Stück.]
 
 ## Der XIII. Vortrag.
 

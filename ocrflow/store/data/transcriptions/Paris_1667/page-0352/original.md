@@ -25,9 +25,9 @@ Je ſçay bien que cela ſe prouve ordinairement d'une autre maniere plus palpab
 
 ## DES PARALLELOGRAMMES SEMBLABLES.
 
-[Curated heading level=2 type=propositions: XIX. PREMIER THEOREME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XIX. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 
@@ -39,9 +39,9 @@ XIX.
 
 Deux parallelogrammes ſemblables (c'eſtadire qui eſtant equiangles ont leurs coſtez proportionels) ſont en raiſon doublée de leurs coſtez homologues, comme il vient d'eſtre dit §. 17.
 
-[Curated heading level=2 type=propositions: XX. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XX. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 

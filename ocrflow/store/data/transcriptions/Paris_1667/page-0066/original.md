@@ -5,7 +5,7 @@ reils aux premiers, chacun à chacun & dans le même ordre.
 
 3 B. 5 B : : 3 C. 5 C.
 
-[Curated heading level=2 type=axioms: XXXIV. QUATRIEME AXIOME.]
+[Curated heading level=4 type=axioms: QUATRIEME AXIOME.]
 
 #### QUATRIEME AXIOME.
 
@@ -29,7 +29,7 @@ XXXV.
 
 TOUT *ce que j'ay dit des multiples ſe peut dire des aliquotes, n'eſtant que la même choſe ſous un autre nom. Car toute grandeur eſt multiple de ſes aliquotes, & aliquote de ſes multiples.*
 
-[Curated heading level=2 type=axioms: XXXVI. CINQUIEME AXIOME.]
+[Curated heading level=4 type=axioms: CINQUIEME AXIOME.]
 
 #### CINQUIEME AXIOME.
 
@@ -45,7 +45,7 @@ LES equimultiples de deux grandeurs demeurent equimultiples chacun de ſa grande
 
 Et de meſme 5 A — 3 A & 5 B — 3 B.
 
-[Curated heading level=2 type=axioms: XXXVII. SIXIEME AXIOME.]
+[Curated heading level=4 type=axioms: SIXIEME AXIOME.]
 
 #### SIXIEME AXIOME.
 

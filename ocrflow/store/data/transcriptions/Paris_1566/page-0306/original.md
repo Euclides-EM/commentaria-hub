@@ -4,8 +4,6 @@
 
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber vndecimus.
 
-[Curated heading level=1 type=definitions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber vndecimus.]
-
 [Curated heading level=2 type=definitions: Diffinitio prima.]
 
 ## Diffinitio prima.

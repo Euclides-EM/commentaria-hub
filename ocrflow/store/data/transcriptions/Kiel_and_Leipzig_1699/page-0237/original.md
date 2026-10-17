@@ -38,9 +38,9 @@ und dem Kreyß eingeschrieben/ — n. 3. Beschr. IV.
 Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
 lichtes Fünffeck eingeschrieben. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XII. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XII. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 12. Werck-Stück. Der XII. Vortrag.]
+[Curated heading level=2 type=problems: Das 12. Werckstück.]
 
 ## Der XII. Vortrag.
 

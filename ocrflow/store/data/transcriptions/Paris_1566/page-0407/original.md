@@ -4,13 +4,13 @@ Eſto ppoſitũ octahedrũ A B G D E C cuius ſecẽtur duodecim latera extrema 
 
 [Figure: octahedron with inscribed dodecahedron, vertices labelled A, B, G, D, and internal points I, K, N, H, O, E, F, R, T, P, M, L, Q, X, Y, V]
 
-[Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
+[Curated heading level=3 type=propositions: Propoſitio decimaoctaua.]
 
-[Curated heading level=2 type=problems: Propoſitio decimaoctaua. Problema 18]
+[Curated heading level=3 type=problems: Propoſitio decimaoctaua. Problema 18]
 
-[Curated heading level=2 type=added_propositions: Propoſitio decimaoctaua.]
+[Curated heading level=3 type=added_propositions: Propoſitio decimaoctaua.]
 
-## Propoſitio decimaoctaua. Problema 18
+### Propoſitio decimaoctaua. Problema 18
 
 In data trilatera & æquilatera Pyramide, cubum conſtruere.
 

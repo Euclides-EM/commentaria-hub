@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=2 type=definitions: DEF. XI.]
+[Curated heading level=3 type=definitions: XI.]
 
 ### XI.
 
@@ -8,7 +8,7 @@ L'angle obtus est, celuy qui est plus grand qu'vn droict, comme ACB.
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XII.]
+[Curated heading level=3 type=definitions: XII.]
 
 ### XII.
 
@@ -16,7 +16,7 @@ Mais l'aigu est, celuy qui est plus petit qu'vn droict, comme ACD.
 
 Nous noterons icy que plusieurs angles estans à vn poinct, il faut trois lettres pour nommer celuy qu'on veut d'iceux, lequel se trouue tousiours au poinct de la lettre du milieu : comme en ceste figure, pour nommer l'angle obtus du poinct C, on dira ACB, ou BCA : & l'aigu s'appellera ACD ou DCA.
 
-[Curated heading level=2 type=definitions: DEF. XIII.]
+[Curated heading level=3 type=definitions: XIII.]
 
 ### XIII.
 

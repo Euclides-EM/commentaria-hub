@@ -3,19 +3,19 @@
 
 Das diſe figurn durch den diameter in 2 gleiche tail zertailt ſein / magſtu leichtlich demonſtriern / ſo du der 4 prop. ingedenckh biſt.
 
-[Curated heading level=2 type=propositions: XXXV. Die fünffvnddreyſſigſt Propoſition]
+[Curated heading level=3 type=propositions: XXXV Die fünffvnddreyſſigſt Propoſition.]
 
-## XXXV Die fünffvnddreyſſigſt Propoſition.
+### XXXV Die fünffvnddreyſſigſt Propoſition.
 
 Alle parallelogram oder paralleliſche figurn / ſo zwiſchen zwayen parallel linien ſtehn vnd auff einer baſi / ſeind einander gleich.
 
-### Erklärung.
+#### Erklärung.
 
 In diſer figur ſeind 3 parallelogram / nemlich a c e f / c e f h / e g f i. deren gemaine baſis iſt die lini c f / auch ſtehn ſy all zwiſchen den zwayen parallel linien a b vnd c d. Volgt demnach das ſy alle einander gleich / vnd ye ains ſouil innhellt als des ander.
 
 [Diagram: three parallelograms between two parallel lines]
 
-### Ain anhang.
+#### Ain anhang.
 
 So du die warhait vnd gwiß diſer vnd volgender prop. durch rechnung in zalen erfaren wöllteſt (wellichs ſeer nutzlich / zů dem das es kurtzweilig vnd luſtig iſt) thett nott das du einer yeden figur feldung oder innhalt oder begriff wißteſt zefinden / ſo dir die lenge der linien / darmit ſy beſchloſſen / bekhannt wer. Demnach wiß das aines jeden quadrats / auch ainer jeden winckelrechtigen vierung innhalt gefunden wirt / ſo du die lang mit der braitte multiplicierſt. Zum exempel nim das quadrat vnd die zwo vberlengt vierungen / ſo mit ziffern verzaichnet bei der vorgehnden propoſ. multiplicier 12 mit 12 / werden 144 / der innhalt des quadrats. Verſteh / ſo die lenge wer zwelff zöll oder ſchůch / wurdt das quadrat 144 ſollicher geuierter zöll oder ſchůch innhallten. Item ſo ain ſal wer 12 ſchůch lang vnd ſouil brait / vnd man wollt in pfleſtern mit ſtainen / die ſchůchs leng vnnd braitte hetten / deren müßt mann 144 darzů haben / etc. Alſo helt die ander figur in 60 / dan ſouil thůt zwelffe zů 5 malen / die dritt helt in 7 mal 4 / das iſt 28.
 

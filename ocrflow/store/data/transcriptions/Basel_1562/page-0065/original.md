@@ -8,13 +8,11 @@ Von dem anfang vnd grund der Geometri.
 
 ## Beſchreibungen.
 
-[Curated heading level=1 type=definitions: Das ander bůch Euclidis]
-
-[Curated heading level=2 type=definitions: Beſchreibung 1.]
+[Curated heading level=3 type=definitions: 1.]
 
 1. {dropcap:A|lines=4|style=decorated|decoration="ornamental flourishes"}in yedes winckelrechts parallelogram wirt begriffen oder beſchloſſen von den zwayen linien welche den rechten winckel machen.
 
-[Curated heading level=2 type=definitions: Beſchreibung 2.]
+[Curated heading level=3 type=definitions: 2.]
 
 2. In ainem yeden parallelogram / wirt je dz ain parallelogram deren / durch welche der diameter geht / ſambt den zwayen Supplementen oder zů ſatzen / Gnomo / das iſt / ain winckelhack genant.
 

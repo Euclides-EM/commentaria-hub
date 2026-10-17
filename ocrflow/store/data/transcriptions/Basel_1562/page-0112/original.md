@@ -11,7 +11,7 @@ auch auß bemellter 47 propoſit. der lini f e / quadrat gleich iſt baiden quad
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: XXXVI. Die ſechßvnddreyſſigſt Propoſition]
+[Curated heading level=2 type=propositions: XXXVI Die ſechßvnddreyſſigſt Propoſition.]
 
 ## XXXVI Die ſechßvnddreyſſigſt Propoſition.
 

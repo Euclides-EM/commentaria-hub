@@ -30,9 +30,9 @@ A + C : B | a + c : b.
 
 Wenn derowegen Sechs Grössen gegeben werden/deren I. zu der II. sich also verhält/ wie die III. zu der IV. darnach auch die V. zu der II. wie die VI. zu der III. So müssen auch die I. und V. zusammen sich zu der II. also wie III. und VI. zusammen genommen sich zu der IV. verhalten.
 
-[Curated heading level=2 type=propositions: Der XXV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 25. Beweiß-Stück. Der XXV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 25. Beweiß-Stück.]
 
 ## Der XXV. Vortrag.
 

@@ -7,9 +7,9 @@ l’angle solide est moindre que la somme des deux autres* ; donc un côté quel
 * 20. 5.
 [/Margin]
 
-[Curated heading level=2 type=propositions: PROPOSITION III. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION III.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION III.]
+[Curated heading level=2 type=theorems: PROPOSITION III.]
 
 ## PROPOSITION III.
 

@@ -3,11 +3,11 @@
 
 raiſons égales chacune à chacune de part & d'autre par l'hypotheſe : Donc ces deux raiſons compoſées ſont égales par le premier Theoreme.
 
-[Curated heading level=2 type=propositions: X. QUATRIEME THEOREME.]
+[Curated heading level=2 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: X. QUATRIEME THEOREME.]
+[Curated heading level=2 type=theorems: QUATRIEME THEOREME.]
 
-### QUATRIEME THEOREME.
+## QUATRIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: X.]
 
@@ -36,9 +36,9 @@ Or par le 1er Theoreme.
 
 Donc *b. d :: m. o.* *Ce qu'il falloit démonſtrer.*
 
-[Curated heading level=2 type=definitions: XI. QUATRIEME DEFINITION.]
+[Curated heading level=2 type=definitions: QUATRIEME DEFINITION.]
 
-### QUATRIEME DEFINITION.
+## QUATRIEME DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: XI.]
 
@@ -48,9 +48,9 @@ XI.
 
 VNE raiſon compoſée de deux raiſons égales, s'appelle *raiſon doublée* de chacune de ces raiſons.
 
-[Curated heading level=2 type=definitions: XII. CINQUIEME DEFINITION.]
+[Curated heading level=2 type=definitions: CINQUIEME DEFINITION.]
 
-### CINQUIEME DEFINITION.
+## CINQUIEME DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: XII.]
 
@@ -60,7 +60,7 @@ XII.
 
 VNE raiſon compoſée de trois raiſons égales, s'appelle *raiſon triplée* de chacune de ces raiſons.
 
-### AVERTISSEMENT.
+## AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XIII.]
 
@@ -70,11 +70,11 @@ XIII.
 
 IL *ne faut pas confondre une raiſon double ou triple, avec une raiſon doublée ou triplée ; ce qui eſt tout different. Car la raiſon non ecuple n'eſt pas une raiſon double, quoy qu'elle ſoit doublée de la raiſon triple, parce que l'addition de deux raiſons triples fait la raiſon non ecuple.*
 
-[Curated heading level=2 type=propositions: XIV. CINQUIEME THEOREME.]
+[Curated heading level=2 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XIV. CINQUIEME THEOREME.]
+[Curated heading level=2 type=theorems: CINQUIEME THEOREME.]
 
-### CINQUIEME THEOREME.
+## CINQUIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 

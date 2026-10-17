@@ -15,8 +15,6 @@ Nun waiß ich auch das die octaua (diapaſon) auß ainer quint vnd quart zůſam
 Merck.
 [/Margin]
 
-[Curated heading level=1 type=propositions: Das ſechßt bůch Euclidis]
-
 [Curated heading level=2 type=propositions: I. Die erſt propoſition]
 
 ## I. Die erſt propoſition.

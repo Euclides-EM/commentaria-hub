@@ -1,6 +1,8 @@
 <!-- Page number: 24 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
+[Curated heading level=4 type=definitions: XIII.]
+
 [Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
@@ -9,6 +11,8 @@ XIII.
 
 LA raiſon d'inégalité ſe diviſe en celle qu'on appelle *de plus grande inégalité*, qui eſt quand on commence par le plus grand terme en le comparant au plus petit, comme 3 à 2.
 
+[Curated heading level=4 type=definitions: XIV.]
+
 [Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
@@ -16,6 +20,8 @@ XIV.
 [/Margin]
 
 ET celle *de moindre inégalité*, qui eſt quand on commence par le plus petit terme en le comparant au plus grand, comme 2 à 3.
+
+[Curated heading level=4 type=definitions: XV.]
 
 [Curated heading level=4 type=paragraph_order: XV.]
 
@@ -33,6 +39,8 @@ XVI.
 
 L'UNE & l'autre de ces raiſons d'inégalité eſt *multiple* ou *non multiple*.
 
+[Curated heading level=4 type=definitions: XVII.]
+
 [Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
@@ -40,6 +48,8 @@ XVII.
 [/Margin]
 
 ON l'appelle *multiple* quand une grandeur entiere eſt contenuë pluſieurs fois preciſément dans une autre. Car alors celle qui contient eſt appellée multiple de celle qui eſt contenuë, & celle qui eſt contenuë *ſous-multiple*. Et l'une & l'autre ſe ſubdiviſe à l'infini ſelon l'infinie varieté des nombres; double, triple, quadruple, &c. moitié, tiers, quart.
+
+[Curated heading level=4 type=definitions: XVIII.]
 
 [Curated heading level=4 type=paragraph_order: XVIII.]
 
@@ -64,6 +74,8 @@ XIX.
 NOUS venons de dire que les comparaiſons de deux grandeurs entr'elles s'appellent difference, ou raiſon.
 
 Mais on peut comparer enſemble ces comparaiſons mêmes, & c'eſt de là que vient ce qu'on appelle *proportion*.
+
+[Curated heading level=3 type=definitions: XX.]
 
 [Curated heading level=4 type=paragraph_order: XX.]
 

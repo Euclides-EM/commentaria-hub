@@ -17,7 +17,7 @@ In æqualibus circulis A B G & D E Z, ſub æqualibus circunferentiis G A B & Z 
 
 [Curated heading level=2 type=propositions: Propoſitio trigeſima.]
 
-[Curated heading level=2 type=problems: Propoſitio trigeſima. Problema 4.]
+[Curated heading level=2 type=problems: Problema 4.]
 
 ## Propoſitio trigeſima.
 

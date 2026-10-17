@@ -18,41 +18,39 @@ dern liegt, ſo weit auch beide Linien nach entgegengeſetzten Richtungen verlä
 
 ## Grundſätze.
 
-[Curated heading level=1 type=axioms: Erſtes Buch der Elemente]
-
-[Curated heading level=2 type=axioms: Grundſ. 1)]
+[Curated heading level=3 type=axioms: 1)]
 
 1) Größen, die einer gewiſſen Größe gleich ſind, ſind ſelbſt gleich.
 
-[Curated heading level=2 type=axioms: Grundſ. 2)]
+[Curated heading level=3 type=axioms: 2)]
 
 2) Zu Gleichem Gleiches hinzugeſetzt gibt Gleiches.
 
-[Curated heading level=2 type=axioms: Grundſ. 3)]
+[Curated heading level=3 type=axioms: 3)]
 
 3) Von Gleichem Gleiches weggenommen, giebt auch Gleiches.
 
-[Curated heading level=2 type=axioms: Grundſ. 4)]
+[Curated heading level=3 type=axioms: 4)]
 
 4) Aber zu Ungleichem Gleiches hinzugeſetzt, giebt Ungleiches.
 
-[Curated heading level=2 type=axioms: Grundſ. 5)]
+[Curated heading level=3 type=axioms: 5)]
 
 5) Und von Ungleichem Gleiches weggenommen, giebt Ungleiches.
 
-[Curated heading level=2 type=axioms: Grundſ. 6)]
+[Curated heading level=3 type=axioms: 6)]
 
 6) Das Doppelte gleicher Größen iſt gleich.
 
-[Curated heading level=2 type=axioms: Grundſ. 7)]
+[Curated heading level=3 type=axioms: 7)]
 
 7) Die Hälften gleicher Größen ſind gleich.
 
-[Curated heading level=2 type=axioms: Grundſ. 8)]
+[Curated heading level=3 type=axioms: 8)]
 
 8) Größen, welche ſich decken, (d. h. congruente Größen,) ſind gleich.
 
-[Curated heading level=2 type=axioms: Grundſ. 9)]
+[Curated heading level=3 type=axioms: 9)]
 
 9) Das Ganze iſt größer als jeder beliebige Theil deſſelben.
 

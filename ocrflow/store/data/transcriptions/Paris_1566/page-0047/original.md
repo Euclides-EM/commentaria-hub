@@ -2,7 +2,7 @@
 
 angulorũ quantitatem conferat, ſequetur quinque triangula contuliſſe eptagono decem angulos rectos, quatuor verò exagono octo angulos rectos, tria autem pentagono ſex rectos, duo inſuper quadrilatero quatuor rectos, trilatero verò vnicum duos rectos, per huius demonſtrata. Quod ſi plura deſcriberentur, in ipſis poligonis triangula, eorum anguli pluribus æquipollerent rectis, ſed & paucioribus, eadem itaque quantitas ſeipſa maior vel minor eſſet, quod eſſet abſurdum. Non igitur plura vel pauciora ipſis conuenient triangula, angulos in poligonorum angulis habentia. Hæc in irregularium figurarum tipis docere voluimus, vt certior pateat regularium methodus. Cæterum cum oſtenderimus angulorum poligoni numerum, ſemper binario numerum triangulorum exceſſiſſe, manifeſtum erit duplum angulorum poligoni numerum, excedere duplum triangulorum numerum (hoc eſt, angulorum rectorum à triangulis collatorum, qui ſemper ipſis triangulis duplus eſt) duplo binario, hoc eſt quaternario, vt latius quandoque demonſtrabit vndecima ſeptimi, ſi quidem iſtud demonſtratione egeat. Quare ſequetur angulos exteriores cuiuſlibet poligoni, quatuor rectis æquales eſſe, vt pateat in pentagoni figura. Cum in qualibet figura angulus interior cum exteriore, duobus rectis æquipolleant, ex 13 huius. Sequetur interiores & exteriores ſimul ſumptos, totidem rectis æquiualere, quotus eſt duplus angulorum poligoni numerus, nam quilibet duos rectos proferet. Sed duplus numerus angulorum poligoni numerum angulorum rectorum intrinſecorum quaternario excedit. Reliqui igitur exteriores quatuor rectis æquales erunt in quouis poligono.
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſimatertia.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſimatertia.]
 
 ### Propoſitio trigeſimatertia.
 
@@ -12,7 +12,7 @@ Sint æquales & parallelæ rectæ lineæ A E G D, coniungant autem eas ad eaſde
 
 [Diagram: quadrilateral A G D E with diagonal G E]
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſimaquarta.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſimaquarta.]
 
 ### Propoſitio trigeſimaquarta.
 

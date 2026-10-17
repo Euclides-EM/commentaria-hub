@@ -4,8 +4,6 @@
 
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quintus.
 
-[Curated heading level=1 type=definitions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quintus.]
-
 [Curated heading level=2 type=definitions: Diffinitio 1.]
 
 ## Diffinitio 1.

@@ -3,9 +3,9 @@
 
 un plan perpendiculaire à la ligne C, les lignes A et B, paralleles à cette perpendiculaire, seront perpendiculaires au même plan ; donc, par le corollaire précédent, elles seront paralleles entre elles : il est entendu que les trois lignes ne sont pas dans le même plan, sans quoi la proposition seroit déja connue.
 
-[Curated heading level=2 type=propositions: PROPOSITION VIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VIII.]
+[Curated heading level=2 type=theorems: PROPOSITION VIII.]
 
 ## PROPOSITION VIII.
 
@@ -19,9 +19,9 @@ F. 187.
 
 Car si la ligne AB, qui est dans le plan ABCD, rencontroit le plan MN, ce ne pourroit être qu’en quelque point de la ligne CD, intersection commune des deux plans : or AB ne peut rencontrer CD, puisqu’elle lui est parallele ; donc elle ne rencontrera pas non plus le plan MN ; donc elle est parallele à ce plan.
 
-[Curated heading level=2 type=propositions: PROPOSITION IX. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION IX.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IX.]
+[Curated heading level=2 type=theorems: PROPOSITION IX.]
 
 ## PROPOSITION IX.
 

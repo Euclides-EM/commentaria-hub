@@ -2,9 +2,9 @@
 
 <!-- Page number: 164 -->
 
-[Curated heading level=2 type=propositions: Der XIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 17. Beweiß-Stück. Der XIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 17. Beweiß-Stück.]
 
 ## Der XIX. Vortrag.
 

@@ -6,7 +6,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION III. THEOREME II.]
 
-[Curated heading level=2 type=theorems: THEOREME II. PROPOSITION III.]
+[Curated heading level=2 type=theorems: PROPOSITION III. THEOREME II.]
 
 ## PROPOSITION III. THEOREME II.
 

@@ -2,7 +2,7 @@
 
 quantitas plures habens dimensiones quam tres : omne siquidem terminatum superat terminum suum vna dimensione, vt perspicuum est ex adductis exemplis. | qui ait plus de trois dimensions : & toute chose terminée excede son terme d'vne dimension, comme il est manifesté par les exemples proposez.
 
-[Curated heading level=2 type=definitions: XIV.]
+[Curated heading level=3 type=definitions: XIV.]
 
 ### XIV.
 

@@ -1,6 +1,6 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Curated heading level=2 type=axioms: 10. a. 1.]
+[Curated heading level=3 type=axioms: 10. a. 1.]
 
 ### 10. a. 1.
 
@@ -16,13 +16,13 @@ Explicat.. not;
 AB & BC sunt in directum positæ, per hyp. | AB & BC sont constituez directement, par l'hyp.
 Igitur GB & BC non sunt in directum positæ, id est non constituunt vnam rectam lineam, per 10.a.1. | Partant GB & BC ne sont pas constituez directement, c'est à dire qu'ils ne font pas vne ligne droite, par le 10.ax. du 1.
 
-[Curated heading level=2 type=axioms: 11. a. 1.]
+[Curated heading level=3 type=axioms: 11. a. 1.]
 
 ### 11. a. 1.
 
 Duæ rectæ in vno puncto concurrentes, si producantur ambæ, necessariò se mutuò in eo puncto intersecabunt. | Deux lignes droictes se rencontrant à vn poinct, si elles sont toutes deux prolongees, elles s'entrecouperöt necessairement au mesme poinct.
 
-[Curated heading level=2 type=axioms: 12. a. 1.]
+[Curated heading level=3 type=axioms: 12. a. 1.]
 
 ### 12. a. 1.
 

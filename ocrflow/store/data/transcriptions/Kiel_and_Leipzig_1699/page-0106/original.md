@@ -4,11 +4,9 @@
 
 [Diagram: schiefwincklichtes Viereck mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Zwerg- und Diagonalstrichen]
 
-[Curated heading level=1 type=theorems: Das II. Buch]
+[Curated heading level=2 type=propositions: Der I. Vortrag.]
 
-[Curated heading level=2 type=propositions: Der I. Vortrag. Beweiß-Stück]
-
-[Curated heading level=2 type=theorems: Das 1. Beweiß-Stück. Der I. Vortrag.]
+[Curated heading level=2 type=theorems: Das 1. Beweiß-Stück.]
 
 ## Der I. Vortrag.
 

@@ -12,15 +12,13 @@
 
 ## ¶ De inscriptione ac circunscriptione figurarum, Diffinitiones 7.
 
-[Curated heading level=1 type=definitions: LIBER IIII.]
-
-[Curated heading level=2 type=definitions: Figura rectilinea]
+[Curated heading level=3 type=definitions: FIgura rectilinea]
 
 FIgura rectilinea, in figura rectilinea describi dicitur: quando vnusquisque inscriptæ figurę angulus, vnumquodque latus eius in qua describitur tãgit.
 
 ¶ Σχῆμα δὲ ὁμοίως περὶ σχῆμα περιγράφεσθαι λέγεται, ὅταν ἑκάστη πλευρὰ τοῦ περιγραφομένου, ἑκάστης γωνίας τοῦ περὶ ὃ περιγράφεται ἅπτηται.
 
-[Curated heading level=2 type=definitions: Figura autem similiter circa figuram describi]
+[Curated heading level=3 type=definitions: Figura autem similiter circa figuram describi]
 
 Figura autem similiter circa figuram describi dicitur: quando vnumquodq; latus circunscriptæ, vnumquenq; angulum eius circum quam describitur tangit.
 
@@ -36,13 +34,13 @@ In exẽplum igitur primæ ac secundæ diffinitionis, habes obiectum a/b/c/ tria
 
 ¶ Σχῆμα δὲ εὐθύγραμμον εἰς κύκλον ἐγγράφεσθαι λέγεται, ὅταν ἑκάστη γωνία τοῦ ἐγγραφομένου, ἅπτηται τῆς τοῦ κύκλου περιφερείας.
 
-[Curated heading level=2 type=definitions: Figura rectilinea]
+[Curated heading level=3 type=definitions: Figura rectilinea]
 
 Figura rectilinea, in circulo describi dicitur: quando vnusquisque angulus inscriptæ, circuli circunferentiam tangit.
 
 ¶ Κύκλος δὲ περὶ σχῆμα περιγράφεσθαι λέγεται, ὅταν ἡ τοῦ κύκλου περιφέρεια ἑκάστης γωνίας, τοῦ περὶ ὃ περιγράφεται ἅπτηται.
 
-[Curated heading level=2 type=definitions: Circulus verò]
+[Curated heading level=3 type=definitions: Circulus verò]
 
 Circulus verò, circa figuram rectilineam describi dicitur: quando
 

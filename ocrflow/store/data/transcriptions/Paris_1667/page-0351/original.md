@@ -17,9 +17,9 @@ Tout ce qui a eſté dit de la raiſon des rectangles par la comparaiſon de leu
 
 ## DES PARALLELOGRAMMES EQUIANGLES.
 
-[Curated heading level=2 type=propositions: XVI. THEOREME GENERAL.]
+[Curated heading level=3 type=propositions: THEOREME GENERAL.]
 
-[Curated heading level=2 type=theorems: XVI. THEOREME GENERAL.]
+[Curated heading level=3 type=theorems: THEOREME GENERAL.]
 
 ### THEOREME GENERAL.
 

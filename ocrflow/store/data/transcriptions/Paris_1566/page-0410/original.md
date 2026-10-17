@@ -5,13 +5,13 @@
 
 Eſto pyramis ABGD, cuius ſingula latera bifariam ſecẽtur, ductis rectis ſectiones iungẽtibus, quæ rectæ extrema & media ratione ſectæ, ſuſcipiẽt ductis per ſectiones rectis, viginti triangula icoſahedrum componentia, vt proxima patuit, ſi eorum triangulorũ centra ſuſceperimus, ibidẽ viginti dodecahedri inſcripti angulos cõperiemus, per quintam huius, quia verò præfati icoſahedri quatuor baſes ſunt baſibus pyramidis concentricæ, vt oſtenſum fuit corollario ſecundo decimæſextæ huius, quatuor angulos ſcilicet E F H D dodecahedri, in quatuor baſiũ centris collocabimus, reliquorum verò ſedecim angulorum bini ſingulis ſex pyramidis lateribus ſubiiciuntur, nempe lateri A D anguli C K, lateri B D L & I, rectæ G D M & N, rectæ A B T & S, lateri B G P & O, lateri A G R & Q ſuperſunt quatuor, quorum verum locum deſignemus: cùm cubus eadem ſphæra cum dodecahedro ſeptus, eidẽ dodecahedro inſcribatur, vt patuit decimaſeptima decimitertij, & octaua huius, ſequetur cubum dodecahedrúmque circunſcriptum iiſdem contineri corporibus, eò quòd eorum anguli ad eadem ſigna coëant. Oſtenſum eſt autem (18 huius) quatuor angulos cubi pyramidi inſcripti perpendicularium quæ ab angulis in baſes oppoſitas pyramidis ſunt miſſæ, medias obtinere ſectiones, Dicemus itaque quatuor reliquos dodecahedri angulos medias illas perpendicularium cum angulis cubi poßidere ſectiones. Has quidem V dimidiam perpendicularis A H, dimidiam verò B F angulum Y, dimidiam autem G E ſignum X, reliquam demùm, medium ſignũ perpendicularis D anguli, in baſim oppoſitam. Quare quatuor illi dodecahedri angulis, ſolidis pyramidis quatuor angulis directi, ſiue ad perpendiculum ſuppoſiti dicentur: dodecahedrum itaque hac lege conſtitutum propoſitæ pyramidi inſcriptum dicetur, eò quòd ſirgulis{printer-error-correction:ſingulis} pyramidis baſibus ſinguli adhæreant dodecahedri inſcripti anguli, per vigeſimamſextam diffinitionem vndecimi. In data igitur trilatera æquilatera pyramide dodecahedrum compoſuimus.
 
-[Curated heading level=2 type=propositions: Propoſitio vigeſimaprima.]
+[Curated heading level=3 type=propositions: Propoſitio vigeſimaprima.]
 
-[Curated heading level=2 type=problems: Propoſitio vigeſimaprima. Problema 21.]
+[Curated heading level=3 type=problems: Propoſitio vigeſimaprima. Problema 21.]
 
-[Curated heading level=2 type=added_propositions: Propoſitio vigeſimaprima.]
+[Curated heading level=3 type=added_propositions: Propoſitio vigeſimaprima.]
 
-## Propoſitio vigeſimaprima. Problema 21.
+### Propoſitio vigeſimaprima. Problema 21.
 
 Cuilibet regularium ſolidorum, Sphæram inſcribere.
 

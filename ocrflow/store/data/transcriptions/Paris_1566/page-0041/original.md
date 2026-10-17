@@ -8,7 +8,7 @@ Eſto triangulum A B C. Dico duo eius quælibet latera reliquo eſſe maiora. Ex
 
 Potuit breuius hanc demonſtrare Campanus per diffinitionem rectæ lineæ, cùm omnis linea recta à ſigno ad ſignum ſit breuiſſima, duo latera reliquo ſequitur eſſe maiora: ſed quia hæc deſcriptio potius quàm diffinitio fuerit, ab ea demonſtrando abſtinuimus, eo quod eius non meminerimus.
 
-[Curated heading level=2 type=propositions: Propoſitio vigeſimaprima.]
+[Curated heading level=3 type=propositions: Propoſitio vigeſimaprima.]
 
 ### Propoſitio vigeſimaprima.
 
@@ -22,9 +22,9 @@ Trianguli A B G à limitibus B & G binæ lineæ B D G D ad ſignum D introrſum 
 
 Diximus præter Theonem rectas introrſum conſtitutas, ad ſignum conſtitui: nam ſi vſque ad trianguli educerentur latera, verè maiorem angulum quoquomodo efficerent, ſed quandoque maiores eſſent, contra propoſitum, nos ideo non tantum introrſum, ſed & ad ſignum eas conſtitui petimus.
 
-[Curated heading level=2 type=propositions: Propoſitio vigeſimaſecunda.]
+[Curated heading level=3 type=propositions: Propoſitio vigeſimaſecunda.]
 
-[Curated heading level=2 type=problems: Propoſitio vigeſimaſecunda. Problema 8.]
+[Curated heading level=3 type=problems: Problema 8.]
 
 ### Propoſitio vigeſimaſecunda.
 

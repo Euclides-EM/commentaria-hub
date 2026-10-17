@@ -9,7 +9,7 @@ Per 13.l.1.
 
 A C. Anguli alterni tam O, C, quàm N, A æquales c ſunt. Sed O, Q, N conficiunt d duos rectos. Ergo etiam A, C, Q duos rectos conficiunt: quod erat demonſtrandum.
 
-#### Corollaria.
+##### Corollaria.
 
 [Curated heading level=5 type=numbered_item: 4.]
 

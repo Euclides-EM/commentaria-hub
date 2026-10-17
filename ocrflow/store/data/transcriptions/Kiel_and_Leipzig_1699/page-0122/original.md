@@ -11,9 +11,9 @@ d | c + b
 c | f
 dd | fc + bb — n. 5. II. W. Z B.
 
-[Curated heading level=2 type=propositions: Der VII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der VII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 7. Beweiß-Stück. Der VII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 7. Beweiß-Stück.]
 
 ## Der VII. Vortrag.
 

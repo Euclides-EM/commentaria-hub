@@ -11,9 +11,9 @@ ainsi posées coïncideront entièrement l’une avec l’autre ; car sans cela 
 * Déf. 10
 [/Margin]
 
-[Curated heading level=2 type=propositions: PROPOSITION II. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION II.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION II.]
+[Curated heading level=2 type=theorems: PROPOSITION II.]
 
 ## PROPOSITION II.
 

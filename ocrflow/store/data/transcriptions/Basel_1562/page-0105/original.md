@@ -21,7 +21,7 @@ den puncten a (nach außweiſung der 22. des erſten bůchs) ainen winckel / wel
 
 Zeuch die linj e b / nun angeſechen gleiche winckel a d e vnnd d a c / ſeind e a vnnd e d gleich (durch die 6 deß erſten) item durch die 4 deſſelben / angeſechen die rechten winckel vnnd gleiche ſtuckh der linj durch die perpendicular zertailt a c vnnd c b / ſeind e a vnnd e b gleich. volgt das auch alle 3 linien e a / e d vnnd e b gleich / demnach / vermoͤg der 9 diß bůchs e das centrum / hiehar beſich auch die 5 propoſ. des 4 bůchs.
 
-[Curated heading level=2 type=propositions: XXVI. Die ſechſundzwainzigſt Propoſition]
+[Curated heading level=2 type=propositions: XXVI Die ſechſundzwainzigſt Propoſition.]
 
 ## XXVI Die ſechſundzwainzigſt Propoſition.
 

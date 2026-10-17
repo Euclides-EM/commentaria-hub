@@ -3,17 +3,15 @@
 
 ſchriben / wann des zirckels vmbkraiß alle ſeitten der rechtliniſchen figur berüert.
 
-[Curated heading level=2 type=definitions: Beſchreibung 6.]
+[Curated heading level=3 type=definitions: 6]
 
 6 Ain zirckel wirt vmb ain rechtliniſche figur beſchriben / wan ſein vmbkhraiß alle winckell der rechtliniſchen figur berüert.
 
-[Curated heading level=2 type=definitions: Beſchreibung 7.]
+[Curated heading level=3 type=definitions: 7]
 
 7 Ain rechte linj wirt inn ainem zirckel geſtellt oder gefüegt / wann ire baide ortt / in dem vmbkraiß des zirckels ſeind.
 
 [Diagram: a triangle and square circumscribed about a circle, with labels 4 and 5]
-
-[Curated heading level=1 type=propositions: Das vierdt bůch Euclidis]
 
 [Curated heading level=2 type=propositions: I. Die erſt propoſition]
 

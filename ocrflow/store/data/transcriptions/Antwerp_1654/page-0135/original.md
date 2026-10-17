@@ -11,7 +11,7 @@ C A Q. Ablato igitur communi B A Q, erit B Q A (hoc c eſt L) æqualis C A B. Qu
 
 Deinde, d F A B, C A B, faciunt duos rectos; & in quadrilatero B O A L e oppoſiti L, & O etiam faciunt duos rectos. Ergo duo F A B, C A B æquantur duobus ſimul O & L. Ablatis ergo hinc quidem C A B, inde L, quos iam oſtendi æquales, erunt æquales reliqui F A B, & O. Quod erat alterum.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIII.]
 
 ## PROPOSITIO XXXIII.
 

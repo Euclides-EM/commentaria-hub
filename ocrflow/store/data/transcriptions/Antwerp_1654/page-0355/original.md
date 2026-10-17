@@ -9,7 +9,7 @@
 
 Patet ex propoſ.2.l.12. & defin.10.lib.5.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXIV.]
 
 ## PROPOSITIO XXIV.
 

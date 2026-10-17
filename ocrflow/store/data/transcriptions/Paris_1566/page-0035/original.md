@@ -10,7 +10,7 @@ Sint triangulorum ABG & DEZ, duo latera AB, AG, duobus DE, DZ æqualia, Inſuper
 
 Alteram demonſtrationem huic quartæ exhibere cogimur, ne præbeatur aditus, quo vlla mechanicorum vſuum inſtrumenta in demonſtrationes incidant. Nam Campanus ac Theon hanc demonſtrantes, triangulum triangulo ſuperponunt, angulumq́ angulo, ſiue latus lateri, demonſtrationem potius inſtrumento palpantes, quam ratione firmantes: quod tanquam prorſus alienum à vero diſciplinarum cultu reijcientes, aliam demonſtrationem abſque figuræ, anguli ſeu lineæ tranſpoſitione, protulimus ratione elucidatam.
 
-[Curated heading level=2 type=propositions: Propoſitio quinta.]
+[Curated heading level=3 type=propositions: Propoſitio quinta.]
 
 ### Propoſitio quinta.
 

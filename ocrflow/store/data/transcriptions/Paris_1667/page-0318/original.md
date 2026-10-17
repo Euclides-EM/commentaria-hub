@@ -3,9 +3,9 @@
 
 de cette diagonale on tire deux paralleles aux deux coſtez angulaires du parallelogramme, qui ſe terminant chacune à l'un de ces coſtez faſſent un nouveau parallelogramme, dont une partie de cette diagonale eſt encore diagonale.
 
-[Curated heading level=2 type=propositions: LII. SEPTIEME THEOREME.]
+[Curated heading level=4 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LII. SEPTIEME THEOREME.]
+[Curated heading level=4 type=theorems: SEPTIEME THEOREME.]
 
 #### SEPTIEME THEOREME.
 

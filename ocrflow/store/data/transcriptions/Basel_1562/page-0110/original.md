@@ -3,7 +3,7 @@
 
 durch ain rechte linj verfaßt. Volgt abermals / angeſechen den rechten winckel im halben zirckel (c d g) auß obgemelltem grund / das die winckel d c g vnnd c g d / ſambtlich zwen gerechten gleich ſeind / vnd ſo der winckel d c g / dahingenommen / auch vonn dem gerechten winckel g c b / abgezogen / die winckel c g d vnnd b c d ainander gleich. Nun iſt / angeſechen die linj c d vnnd 21 propoſit. diß bůchs / der winckel des ſtucks e / dem winckel g / vnd der halbe auch dem winckel b c d gleich / welches war zůbeweyſen fürgenommen. Ferners / gleiche winckel an ſtat gleicher genommen / dieweil g vnnd f (demnach auch e vn̄ f / item auch b c d vnnd f) ſambtlich zwayen gerechten gleich ſeind / durch die 22 diß bůchs / auch durch die 13 des erſten / b c d vnnd a c d / ſambtlich zwayen gerechten gleich / ſo ich baider tails gleiche winckel hinweg wirffe / als g vnnd b c d / daß das vberig / nemlich die winckel a c d vnnd f / ainander gleich ſeind.
 
-[Curated heading level=2 type=propositions: XXXIII. Die dreyvnnddreyſſigſt propoſition]
+[Curated heading level=2 type=propositions: XXXIII Die dreyvnnddreyſſigſt propoſition.]
 
 ## XXXIII Die dreyvnnddreyſſigſt propoſition.
 

@@ -32,7 +32,7 @@
 
 [Diagram: drei Striche, a am kürzesten, b länger, c am längsten]
 
-[Curated heading level=2 type=axioms: Grund-Satz II.]
+[Curated heading level=3 type=axioms: II.]
 
 II. Wenn man zu ( zwey ) gleichen Dingen ab und bc ( zwey ) gleiche Stücke de und ef thut/werden die ( beeden ) Gantzen ae und bf auch gleich.
 

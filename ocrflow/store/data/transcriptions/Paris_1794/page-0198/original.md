@@ -1,9 +1,9 @@
 <!-- Page number: 170 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=propositions: PROPOSITION II. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION II.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION II.]
+[Curated heading level=2 type=theorems: PROPOSITION II.]
 
 ## PROPOSITION II.
 

@@ -1,11 +1,9 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 60 -->
 
-[Curated heading level=1 type=theorems: Livre III]
+[Curated heading level=2 type=propositions: PROPOSITION I.]
 
-[Curated heading level=2 type=propositions: PROPOSITION I. THÉORÊME.]
-
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION I.]
+[Curated heading level=2 type=theorems: PROPOSITION I.]
 
 ## PROPOSITION I.
 
@@ -29,9 +27,9 @@ Fig. 97.
 
 *Corollaire.* Donc tout parallélogramme ABCD est équivalent au rectangle ABEF de même base et de même hauteur.
 
-[Curated heading level=2 type=propositions: PROPOSITION II. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION II.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION II.]
+[Curated heading level=2 type=theorems: PROPOSITION II.]
 
 ## PROPOSITION II.
 

@@ -31,9 +31,9 @@ XLVII.
 
 LES angles qui ſont égaux & qui ont le ſinus égal, ont le rayon égal. Car s'ils avoient le rayon inégal, ils ſeroient meſurez par des arcs de cercles inégaux : & par conſequent (ſelon le 5e Lemme) les ſinus égaux donneroient des arcs proportionellement inégaux, & ainſy les angles ne pourroient pas eſtre égaux.
 
-[Curated heading level=2 type=propositions: XLVIII. SECOND THEOREME.]
+[Curated heading level=4 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XLVIII. SECOND THEOREME.]
+[Curated heading level=4 type=theorems: SECOND THEOREME.]
 
 #### SECOND THEOREME.
 

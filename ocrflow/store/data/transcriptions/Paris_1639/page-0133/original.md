@@ -4,7 +4,7 @@ gnée du centre sur laquelle tombe la plus grande perpendiculaire.
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 
@@ -14,7 +14,7 @@ Segment ou section de cercle, est vne figure comprise sous vne ligne droicte, & 
 
 5.d.3 | abc & def *ſnt* ⌓.
 
-[Curated heading level=2 type=definitions: DEF. VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 
@@ -22,7 +22,7 @@ L'angle du segment ou de la section, est celuy qui est compris sous vne ligne dr
 
 6.d.3 | cab *eſt* ∠ *du ſegment* ABC.
 
-[Curated heading level=2 type=definitions: DEF. VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 ### VII.
 

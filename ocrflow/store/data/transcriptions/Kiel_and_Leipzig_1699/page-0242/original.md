@@ -42,9 +42,9 @@ af gezogen/ begreifft das Fünffeck in sich/n. 6. Besch. IV.
 Ist also umb das gegebene gleichseitige und gleichwincklichte
 Fünffeck ein Kreyß umbgeschrieben. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XV. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XV. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 15. Werck-Stück. Der XV. Vortrag.]
+[Curated heading level=2 type=problems: Das 15. Werckstück.]
 
 ## Der XV. Vortrag.
 

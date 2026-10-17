@@ -12,9 +12,9 @@ Et on peut dire auſſy que tout point de la circonference eſt comme le ſommet
 COMPARE'ES ENSEMBLE.
 [/Subhead]
 
-[Curated heading level=2 type=propositions: XXV. CINQUIEME THEOREME.]
+[Curated heading level=5 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXV. CINQUIEME THEOREME.]
+[Curated heading level=5 type=theorems: CINQUIEME THEOREME.]
 
 ##### CINQUIEME THEOREME.
 
@@ -36,9 +36,9 @@ Et il eſt clair auſſy que b eſt à c, comme 10 b à 10 c, ou 100 b à 100 c,
 
 Donc les circuits ne ſçauroient manquer d'eſtre en même raiſon que les coſtez.
 
-[Curated heading level=2 type=propositions: XXVI. SIXIEME THEOREME.]
+[Curated heading level=5 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVI. SIXIEME THEOREME.]
+[Curated heading level=5 type=theorems: SIXIEME THEOREME.]
 
 ##### SIXIEME THEOREME.
 

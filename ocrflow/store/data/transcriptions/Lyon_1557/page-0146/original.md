@@ -5,7 +5,7 @@ IDEM affirmatè. Ponatur EB ad B vt CD ad D. Eritq́;, ex priori parte decimæ, 
 
 [Diagram: horizontal lines labelled A, E, B and C, D]
 
-[Curated heading level=2 type=additions: Campani Additarum V.]
+[Curated heading level=3 type=additions: V.]
 
 ### V.
 
@@ -17,7 +17,7 @@ Erit enim diſiunctim, per antecedentem, maior proportio A ad B, quàm C ad D. I
 
 [Diagram: horizontal lines labelled A, B and C, D]
 
-[Curated heading level=2 type=additions: Campani Additarum VI.]
+[Curated heading level=3 type=additions: VI.]
 
 ### VI.
 
@@ -29,7 +29,7 @@ Sit enim G ad C vt E ad F. Eritq́;, ex priori parte decimæ huius, G minor B. O
 
 [Diagram: horizontal lines labelled A, B, C, H, G, C and D, E, F]
 
-[Curated heading level=2 type=additions: Campani Additarum VII.]
+[Curated heading level=3 type=additions: VII.]
 
 ### VII.
 

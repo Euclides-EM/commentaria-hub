@@ -14,7 +14,7 @@ Sit, nanq̃ æqualis b c ipsi c d, & circum quidē b c, semicirculus describatur
 
 [Diagram: two arcs over the base line d, c, b, meeting at f above; chords from f to d, c, b]
 
-[Curated heading level=2 type=theorems: Theorema quinquagesimum.]
+[Curated heading level=2 type=theorems: Theorema quinquagesimum]
 
 ## Theorema quinquagesimum conuersum præcedentis.
 

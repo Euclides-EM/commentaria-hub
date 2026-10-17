@@ -38,9 +38,9 @@ quàm ad d. Est igitur b/minor ipsa d, per ipsam decimā eiusdem quinti. ¶Porr�
 Vbi prima æquatur tertiȩ.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 15, Propositio 15.]
+[Curated heading level=2 type=propositions: Theorema 15, Propositio. 15.]
 
-[Curated heading level=2 type=theorems: Theorema 15, Propositio 15.]
+[Curated heading level=2 type=theorems: Theorema 15, Propositio. 15.]
 
 ## Θεώρημα ιε, Πρόθεσις ιε.
 

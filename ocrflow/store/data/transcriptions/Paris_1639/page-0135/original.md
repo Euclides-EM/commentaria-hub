@@ -1,6 +1,6 @@
 <!-- Running title: D'EVCLIDE, LIV. III. -->
 
-[Curated heading level=2 type=definitions: DEF. X.]
+[Curated heading level=3 type=definitions: X.]
 
 ### X.
 

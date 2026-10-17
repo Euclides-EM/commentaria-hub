@@ -3,21 +3,21 @@
 
 ius nomen plus poſsit minore, eò quòd fit ex ſibi longitudine commenſurabili.
 
-[Curated heading level=3 type=definitions: Diffinitio prima, hoc ſuppoſito.]
+[Curated heading level=4 type=definitions: Diffinitio prima, hoc ſuppoſito.]
 
-### Diffinitio prima, hoc ſuppoſito.
+#### Diffinitio prima, hoc ſuppoſito.
 
 Si maius nomen propoſitæ Certæ fuerit longitudine commenſurabile, tota vocatur Ex binis nominibus prima.
 
-[Curated heading level=3 type=definitions: Diffinitio ſecunda.]
+[Curated heading level=4 type=definitions: Diffinitio ſecunda.]
 
-### Diffinitio ſecunda.
+#### Diffinitio ſecunda.
 
 Si minus nomen propoſitæ Certæ fuerit longitudine cõmenſurabile, tota vocatur Ex binis nominibus ſecunda.
 
-[Curated heading level=3 type=definitions: Diffinitio tertia.]
+[Curated heading level=4 type=definitions: Diffinitio tertia.]
 
-### Diffinitio tertia.
+#### Diffinitio tertia.
 
 Si neutrum nominum propoſitæ Certę fuerit longitudine commenſurabile, ea vocatur Ex binis nominibus tertia.
 
@@ -27,21 +27,21 @@ Si neutrum nominum propoſitæ Certę fuerit longitudine commenſurabile, ea voc
 
 Si autem maius nomen plus poſsit minore, eò quòd fit à ſibi longitudine incommenſurabili.
 
-[Curated heading level=3 type=definitions: Diffinitio quarta, hoc ſuppoſito.]
+[Curated heading level=4 type=definitions: Diffinitio quarta, hoc ſuppoſito.]
 
-### Diffinitio quarta, hoc ſuppoſito.
+#### Diffinitio quarta, hoc ſuppoſito.
 
 Si maius nomen propoſitæ Certæ fuerit longitudine commenſurabile, tota vocatur Ex binis nominibus quarta.
 
-[Curated heading level=3 type=definitions: Diffinitio quinta.]
+[Curated heading level=4 type=definitions: Diffinitio quinta.]
 
-### Diffinitio quinta.
+#### Diffinitio quinta.
 
 Si minus nomen propoſitę Certę fuerit longitudine commenſurabile, ea vocetur Ex binis nominibus quinta.
 
-[Curated heading level=3 type=definitions: Diffinitio ſexta.]
+[Curated heading level=4 type=definitions: Diffinitio ſexta.]
 
-### Diffinitio ſexta.
+#### Diffinitio ſexta.
 
 Si neutrum nomen expoſitæ Certę longitudine fuerit commenſurabile, ea vocetur Ex binis nominibus ſexta.
 

@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=2 type=axioms: AXIOME 12. a. 1.]
+[Curated heading level=3 type=axioms: 12. a. 1.]
 
 ### 12. a. 1.
 
@@ -12,7 +12,7 @@ hyp. | ∠b *eſt* ┘,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 12. a. b.]
+[Curated heading level=4 type=axioms: 12. a. b.]
 
 ### 12. a. b.
 
@@ -32,7 +32,7 @@ L'angle A est droict, par l'hypothese.
 
 Partant les angles B & C sont droicts, par le 12. a. b.
 
-[Curated heading level=2 type=axioms: AXIOME 13. a. 1.]
+[Curated heading level=3 type=axioms: 13. a. 1.]
 
 ### 13. a. 1.
 

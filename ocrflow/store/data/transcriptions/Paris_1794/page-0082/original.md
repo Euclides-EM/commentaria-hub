@@ -13,7 +13,7 @@ Car l’angle EBD est égal à son opposé ABF ; et puisque BF est perpendiculai
 
 *Scholie.* Si l’angle donné étoit droit, le segment cherché seroit le demi-cercle décrit sur le diamètre AB.
 
-[Curated heading level=2 type=problems: PROBLÊME XVII.]
+[Curated heading level=3 type=problems: PROBLÊME XVII.]
 
 ### PROBLÊME XVII.
 

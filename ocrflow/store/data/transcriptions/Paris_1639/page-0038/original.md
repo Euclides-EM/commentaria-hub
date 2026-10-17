@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=3 type=axioms: AXIOME 1. a. g.]
+[Curated heading level=4 type=axioms: 1. a. g.]
 
 ### 1. a. g.
 
@@ -15,7 +15,7 @@ hyp. | cg *eſt* □.cd.
 
 C'est à dire, que si le quarré AF est égal au quarré CG, & que AF soit le quarré de AB, & CG le quarré de CD : la consequence sera, que le quarré de AB est égal au quarré de CD.
 
-[Curated heading level=2 type=axioms: AXIOME 2. a. 1.]
+[Curated heading level=3 type=axioms: 2. a. 1.]
 
 ### 2. a. 1.
 
@@ -27,7 +27,7 @@ hyp. | bf 2|2 dg,
 
 [Figure]
 
-[Curated heading level=2 type=axioms: AXIOME 3. a. 1.]
+[Curated heading level=3 type=axioms: 3. a. 1.]
 
 ### 3. a. 1.
 
@@ -39,7 +39,7 @@ hyp. | ae 2|2 cf,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 3. a. b.]
+[Curated heading level=4 type=axioms: 3. a. b.]
 
 ### 3. a. b.
 

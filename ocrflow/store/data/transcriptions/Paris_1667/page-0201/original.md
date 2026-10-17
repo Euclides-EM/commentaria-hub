@@ -19,9 +19,9 @@ Mais pour cela il eſt neceſſaire de marquer la maniere dont on exprime les an
 
 ### PREMIER AVERTISSEMENT.
 
-[Curated heading level=2 type=definitions: VIII. DEFINITIONS.]
-
 ### DEFINITIONS.
+
+[Curated heading level=4 type=definitions: VIII.]
 
 [Curated heading level=4 type=paragraph_order: VIII.]
 
@@ -30,6 +30,8 @@ VIII.
 [/Margin]
 
 L'ANGLE du 1er genre, qui eſt celuy qui eſt compris entre une corde & une tangente, eſt appellé ordinairement angle du ſegment, angulus ſegmenti.
+
+[Curated heading level=4 type=definitions: Et l'angle du 3e genre]
 
 Et l'angle du 3e genre, qui eſt compris entre deux cordes qui ſe terminent d'une part à un même point de la circonference, l'angle dans le ſegment, angulus in ſegmento.
 

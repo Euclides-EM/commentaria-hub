@@ -7,7 +7,7 @@ eſt per A E Z & E Z D interiores oppoſitos. Nam ipſi E Z D æquus eſt exteri
 
 In plano huic addidimus, eò quòd licet ſeruentur reliquæ hypoteſes ſcilicet angulos ab incidente alternos æquales effici, non tamen extra idem planum parallelæ fieri poſſent, vt videbamus diffinitione 35 huius.
 
-[Curated heading level=2 type=propositions: Propoſitio vigeſimaoctaua.]
+[Curated heading level=3 type=propositions: Propoſitio vigeſimaoctaua.]
 
 ### Propoſitio vigeſimaoctaua.
 
@@ -17,7 +17,7 @@ Incidat recta E Z in binas rectas A B, G D, efficiens exteriorem angulum E I B i
 
 [Diagram: parallel horizontal lines A B and G D cut at I and T by the transversal E Z]
 
-[Curated heading level=2 type=propositions: Propoſitio vigeſimanona.]
+[Curated heading level=3 type=propositions: Propoſitio vigeſimanona.]
 
 ### Propoſitio vigeſimanona.
 
@@ -27,7 +27,7 @@ In parallelas A B G D incidat recta E Z, quas ſeccet in I T: Dico E Z efficere 
 
 [Diagram: parallel horizontal lines A B and G D cut at I and T by the transversal E Z]
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſima.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſima.]
 
 ### Propoſitio trigeſima.
 

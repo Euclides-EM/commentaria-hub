@@ -4,10 +4,6 @@
 philoſopho Megarenſe.
 [/Subhead]
 
-[Curated heading level=1 type=propositions: LIBRO PRIMERO DE LOS ELEMENTOS GEOMETRICOS DE EVCLIDES]
-
-[Curated heading level=1 type=problems: LIBRO PRIMERO DE LOS ELEMENTOS GEOMETRICOS DE EVCLIDES]
-
 [Curated heading level=2 type=propositions: Problema primero, propoſition primera,]
 
 [Curated heading level=2 type=problems: Problema primero, propoſition primera,]

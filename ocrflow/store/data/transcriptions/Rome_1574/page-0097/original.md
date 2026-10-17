@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Curated heading level=2 type=definitions: XI.]
+[Curated heading level=3 type=definitions: XI.]
 
 ### XI.
 
@@ -12,7 +12,7 @@ OBTVSVS angulus eſt, qui recto maior eſt.
 
 QVANDO recta AB, rectæ CD, inſiſtens non fecerit angulos ad punctum B, æquales, & ob eam cauſam neutrum rectum, ſed vnum quidem recto maiorem, alterum vero minorem, dicitur maior angulus obtuſus, qualis eſt angulus B, ad punctum C, vergens, qui continetur rectis lineis AB, BC.
 
-[Curated heading level=2 type=definitions: XII.]
+[Curated heading level=3 type=definitions: XII.]
 
 ### XII.
 

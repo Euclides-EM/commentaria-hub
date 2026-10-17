@@ -3,7 +3,7 @@
 
 ſphæram C G, vt 9 ad 32. Quod erat demonſtrandum.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XLIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XLIII.]
 
 ## PROPOSITIO XLIII.
 

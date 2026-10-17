@@ -15,7 +15,7 @@ d Per 27.l.1.
 e Per ax.7.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSIT. XXIX. & XXX.]
+[Curated heading level=2 type=propositions: PROPOSIT. XXIX. & XXX.]
 
 ## PROPOSIT. XXIX. & XXX.
 

@@ -9,9 +9,9 @@ l’angle donné à l’angle droit, ce qui est la mesure absolue.
 
 On voit par-là que les arcs de cercle qui servent de mesure aux angles peuvent aussi servir de mesure aux secteurs d’un même cercle ou de cercles égaux.
 
-[Curated heading level=2 type=propositions: PROPOSITION XVIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XVIII.]
 
 ## PROPOSITION XVIII.
 

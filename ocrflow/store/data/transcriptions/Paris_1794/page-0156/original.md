@@ -2,9 +2,9 @@
 
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XVI. PROBLÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVI.]
 
-[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION XVI.]
+[Curated heading level=2 type=problems: PROPOSITION XVI.]
 
 ## PROPOSITION XVI.
 

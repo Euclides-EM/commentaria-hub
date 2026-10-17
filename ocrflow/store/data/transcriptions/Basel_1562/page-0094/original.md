@@ -3,25 +3,23 @@
 
 der ſo von zwayen linien begriffen wirt / welche yede von ainem ortt der geſtrackhen linj außgezogen in ainen puncten der Circunferentz zůſamen fallen.
 
-[Curated heading level=2 type=definitions: Beſchreibung 8.]
+[Curated heading level=3 type=definitions: 8]
 
 8 So aber ſolche linien ain ſtuckh des vmbkraiß begreiffen / ſo ſteht auff ſolchem ſtuck des vmbkraiß der bemellte winckel.
 
 [Diagram]
 
-[Curated heading level=2 type=definitions: Beſchreibung 9.]
+[Curated heading level=3 type=definitions: 9]
 
 9 So ain winckel ſteht bei des zirckels centro / haißt die figur welche von den linien ſo diſen winckel beſchlieſſen / vnd dem ſtuckh der circunferentz darauff ſy ſtehn / ain tailer des zirckels.
 
 [Diagram]
 
-[Curated heading level=2 type=definitions: Beſchreibung 10.]
+[Curated heading level=3 type=definitions: 10]
 
 10 Gleichförmige ſtuckh ains zirckels haiſſen / welche glyche winckel begreiffen / oder in welchem glyche winckel ſtehn.
 
 Merck abermals das wörtlin linj / da es on zůſatz begegnet / für gerad geſtracke linj zůverſtehn. a a a glyche begriffne winckel. Derhalben dz zirckels ſtückh a a a / gleich. b b b / gleiche eingeſchribne winckel. Darumb je das ſtuckh a a b / ainem andern ſolchen gleichförmig.
-
-[Curated heading level=1 type=propositions: Das dritt bůch Euclidis]
 
 [Curated heading level=2 type=propositions: I. Die erſt propoſition]
 

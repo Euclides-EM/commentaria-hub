@@ -19,9 +19,7 @@ I.
 
 {dropcap:A|lines=4|style=decorated|decoration="foliate woodcut initial"}PRES avoir parlé des lignes, c'eſt ſuivre l'ordre de la nature que de paſſer aux angles qui ſont plus compoſez que les lignes tenant quelque choſe des ſurfaces, comme nous allons voir.
 
-[Curated heading level=1 type=definitions: LIVRE HUITIEME.]
-
-[Curated heading level=2 type=definitions: II. DEFINITION DE L'ANGLE RECTILIGNE.]
+[Curated heading level=2 type=definitions: DEFINITION DE L'ANGLE RECTILIGNE.]
 
 ## DEFINITION DE L'ANGLE RECTILIGNE.
 
@@ -33,9 +31,9 @@ II.
 
 L'angle rectiligne eſt une ſurface compriſe entre deux lignes droites qui ſe joignent en un point du coſté où elles s'approchent le plus, indefinie & indeterminée ſelon l'une de ſes dimenſions, qui eſt celle qui répond à la longueur des lignes qui la comprennent, & determinée ſelon l'autre par la partie proportionnelle d'une circonference dont le centre eſt au point où ces lignes ſe joignent.
 
-[Curated heading level=2 type=definitions: III. AUTRES DEFINITIONS.]
-
 ## AUTRES DEFINITIONS.
+
+[Curated heading level=3 type=definitions: III.]
 
 [Curated heading level=4 type=paragraph_order: III.]
 
@@ -45,6 +43,8 @@ III.
 
 Les lignes qui comprennent l'angle s'appellent ſes coſtez.
 
+[Curated heading level=3 type=definitions: IV.]
+
 [Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
@@ -52,6 +52,8 @@ IV.
 [/Margin]
 
 Le point où ces lignes ſe joignent s'appelle ſon ſommet.
+
+[Curated heading level=3 type=definitions: V.]
 
 [Curated heading level=4 type=paragraph_order: V.]
 

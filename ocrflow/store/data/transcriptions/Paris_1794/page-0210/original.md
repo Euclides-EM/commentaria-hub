@@ -16,9 +16,9 @@ Multipliant ces deux proportions par ordre ; et omettant, dans le résultat, le 
 
 Mais AB×AD représente la base ABCD, et AO×AM représente la base AMNO. Donc deux parallélépipedes rectangles de même hauteur sont entre eux comme leurs bases.
 
-[Curated heading level=2 type=propositions: PROPOSITION XIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XIII.]
 
 ## PROPOSITION XIII.
 

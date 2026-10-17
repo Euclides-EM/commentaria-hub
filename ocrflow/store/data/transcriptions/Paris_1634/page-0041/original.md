@@ -2,19 +2,19 @@
 
 [Figure: ligne BD horizontale passant par C, ligne CA oblique montant vers la droite]
 
-[Curated heading level=2 type=definitions: XI.]
+[Curated heading level=3 type=definitions: XI.]
 
 ### XI.
 
 Obtusus angulus est, qui recto maior est, vt ACB. | L'angle obtus est, celuy qui est plus grand qu'vn droict, comme ACB.
 
-[Curated heading level=2 type=definitions: XII.]
+[Curated heading level=3 type=definitions: XII.]
 
 ### XII.
 
 Acutus verò, qui minor est recto, vt ACD. | Mais l'aigu est, celuy qui est plus petit qu'vn droict, comme ACD.
 
-[Curated heading level=2 type=definitions: XIII.]
+[Curated heading level=3 type=definitions: XIII.]
 
 ### XIII.
 

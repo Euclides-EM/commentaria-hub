@@ -19,9 +19,9 @@ Réciproquement, si les angles ainsi dénommés sont égaux, on peut conclure qu
 * Pr. 21.
 [/Margin]
 
-[Curated heading level=2 type=propositions: PROPOSITION XXIV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXIV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XXIV.]
 
 ## PROPOSITION XXIV.
 

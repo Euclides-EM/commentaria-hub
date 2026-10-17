@@ -1,9 +1,9 @@
 <!-- Page number: 78 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XIX. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIX.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIX.]
+[Curated heading level=2 type=theorems: PROPOSITION XIX.]
 
 ## PROPOSITION XIX.
 

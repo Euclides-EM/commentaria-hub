@@ -11,7 +11,7 @@ Angulus BAC Trianguli ABC, ponitur rectus: angulusq́; AMC Trianguli ACM, rectus
 
 Vides vt perpendicularis æqualitatem teſtetur non laterum ſingulorum, ſed potentiæ ipſorum. Hoc eſt, ſi Quadratum lineæ BC ad duo Quadrata æqualia reducatur: hæc erunt æqualia Quadratis duorum laterum AB & AC. Vbi etiam animaduertendum, eæ lineæ vt præſtent mutuas operas, officij permutatione. Nam ex ſubtenſa BC fiunt duo latera Triangulorum aduentitiorum ABM & ACM: Et ex duobus lateribus primi Trianguli ABC, rectum angulum continentibus, fiunt duæ ſubtenſæ. Sed quonam modo fiat ea reductio Quadratorum ad æqualitatem, placet hîc demonſtrare.
 
-[Curated heading level=2 type=additions: Ad PROPOSITIO XLVII. Duo Quadrata inæqualia ad duo Quadrata æqualia reducere.]
+[Curated heading level=3 type=additions: Duo Quadrata inæqualia ad duo Quadrata æqualia reducere.]
 
 ### Duo Quadrata inæqualia ad duo Quadrata æqualia reducere.
 

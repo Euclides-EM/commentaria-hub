@@ -7,7 +7,7 @@ Porro quia anguli natura in linearum inclinatione conſiſtit, inclinatio autem 
 Fig. 2. 4.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 13]
+[Curated heading level=3 type=definitions: 13.]
 
 [Curated heading level=2 type=figures: Fig. 6]
 
@@ -17,7 +17,7 @@ Fig. 2. 4.
 Fig. 6.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 14]
+[Curated heading level=3 type=definitions: 14.]
 
 14. Cum recta (C A) ſuper rectam (B F) conſiſtens, in neutram inclinat partem, ac proinde angulos vtrimque facit æquales (C A B) & (C A F,) rectus eſt vterque æqualium angulorum: Recta autem (C A) alteri inſiſtens dicitur perpendicularis, ſeu perpendiculum.
 

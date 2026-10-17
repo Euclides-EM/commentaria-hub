@@ -18,11 +18,11 @@ Angulum igitur efficiunt duæ lineæ BA, CA ſe mutuo tangentes in A, ſic vt no
 Fig. 2, 4.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 9]
+[Curated heading level=3 type=definitions: 9.]
 
 9. Latera ſeu crura anguli, ſunt lineæ, quæ angulum efficiunt.
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 10]
+[Curated heading level=3 type=definitions: 10.]
 
 10. Vertex anguli eſt punctum (A) in quo crura ſibi mutuo occurrunt.
 
@@ -40,11 +40,11 @@ Fig. 5ᵈ
 Fig. 2. 3.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 11]
+[Curated heading level=3 type=definitions: 11.]
 
 11. Anguli æquales, vel potius ſimiles dicuntur; ſi, cum ſibi inuicem vertices imponuntur, latera vnius congruant lateribus alterius. Ad hoc non requiritur, vt latera ſint æquè longa.
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 12]
+[Curated heading level=3 type=definitions: 12.]
 
 12. Inæquales, ſeu diſſimiles dicuntur anguli, cum vertice & vno latere congruentibus, alterum non congruit: & ille maior dicitur, cuius latus cadit extra. Sic angulus BAE maior eſt angulo BAC.
 

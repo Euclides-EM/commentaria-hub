@@ -2,7 +2,7 @@
 
 <!-- Page number: 191 -->
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO VIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VIII.]
 
 ## PROPOSITIO VIII.
 

@@ -3,7 +3,7 @@
 
 exceſſus eſt 2. idem qui ipſorum 5. & 3. Rurſus, ſi ad 5. & 3. addas 6. fiunt 11. & 9. quorũ exceßus 2, idem eſt, qui ipſorũ 5. & 8. Item ſi ex 8. demas 5. & 2. relinquuntur 3. & 6. quorum exceſſus 3. idem eſt, qui ipſorum 5. & 2. Deniq́; ſi ex 10. & 7. demas 3. relinquuntur 7. & 4. quorum exceſſus 3. idem eſt, qui ipſorum 10. & 7.
 
-[Curated heading level=2 type=axioms: XVIII.]
+[Curated heading level=3 type=axioms: XVIII.]
 
 ### XVIII.
 
@@ -13,7 +13,7 @@ OMNE totum æquale eſt omnibus ſuis partibus ſimul ſumptis.
 
 QVONIAM omnes partes ſimul ſumptæ conſtituũt totũ, cuius ſunt partes, manifeſta eſt veritas huius axiomatis.
 
-[Curated heading level=2 type=axioms: XIX.]
+[Curated heading level=3 type=axioms: XIX.]
 
 ### XIX.
 

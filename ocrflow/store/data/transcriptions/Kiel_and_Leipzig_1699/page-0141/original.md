@@ -2,9 +2,9 @@
 
 <!-- Running title: Das II. Buch -->
 
-[Curated heading level=2 type=propositions: Der XIV. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XIV. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 2. Werck-Stück. Der XIV. Vortrag.]
+[Curated heading level=2 type=problems: Das 2. Werckstück.]
 
 ## Der XIV. Vortrag.
 

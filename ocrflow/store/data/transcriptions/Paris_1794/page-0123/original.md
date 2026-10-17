@@ -1,7 +1,7 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 95 -->
 
-[Curated heading level=2 type=problems: PROBLÊME II.]
+[Curated heading level=3 type=problems: PROBLÊME II.]
 
 ### PROBLÊME II.
 
@@ -17,7 +17,7 @@ Tirez les deux lignes indéfinies DE, DF, sous un angle quelconque. Sur DE prene
 
 *Corollaire.* On trouvera de même une troisieme proportionnelle aux deux lignes données A, B, car elle sera la même que la quatrieme proportionnelle aux trois lignes A, B, B.
 
-[Curated heading level=2 type=problems: PROBLÊME III.]
+[Curated heading level=3 type=problems: PROBLÊME III.]
 
 ### PROBLÊME III.
 

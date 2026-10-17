@@ -6,7 +6,7 @@ ab hisce parallelis in quatuor distribuatur parallelogramma : appellantur duo il
 
 Parallelogramma DG & GB sunt complementa, parallelogramma verò HE & FI dicuntur consistere circa diametrum. | Les parallelogrammes DG & GB sont complements, mais les parallelogrammes HE & FI sont dits estre à l'entour du diametre.
 
-[Curated heading level=2 type=definitions: XXXVII.]
+[Curated heading level=3 type=definitions: XXXVII.]
 
 ### XXXVII.
 

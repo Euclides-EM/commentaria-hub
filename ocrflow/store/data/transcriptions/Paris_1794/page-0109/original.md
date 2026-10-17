@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 81 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XXII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXII.]
 
 ## PROPOSITION XXII.
 
@@ -21,9 +21,9 @@ Car, puisque DI est parallele à BF, le triangle ADI est équiangle à ABF, et o
 
 *Corollaire.* Donc, si BC est divisée en parties égales, aux points F, G, H, la parallele DE sera divisée de même en parties égales, aux points I, K, L.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXIII.]
 
 ## PROPOSITION XXIII.
 

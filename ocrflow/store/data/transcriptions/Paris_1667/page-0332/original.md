@@ -1,9 +1,9 @@
 <!-- Page number: 294 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=2 type=propositions: XXVI. CINQUIEME THEOREME.]
+[Curated heading level=3 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVI. CINQUIEME THEOREME.]
+[Curated heading level=3 type=theorems: CINQUIEME THEOREME.]
 
 ### CINQUIEME THEOREME.
 

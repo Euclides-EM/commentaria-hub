@@ -29,9 +29,9 @@ XL.
 
 LE 1ᵉʳ Cas eſt quand *y* coupe le cercle. Et alors il n'eſt point neceſſaire de dire que cette ligne doit eſtre perpendiculaire à celle qui eſtant tirée du point K paſſe par le centre : car il ſuffit de dire (ce qui eſt la même choſe) qu'elle doit couper le cercle en deux points, que j'appelleray E & *E*, qui ſoient également diſtans de K. Cela eſtant vray, voicy le 1ᵉʳ Theoreme.
 
-[Curated heading level=2 type=propositions: XLI. PREMIER THEOREME.]
+[Curated heading level=5 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XLI. PREMIER THEOREME.]
+[Curated heading level=5 type=theorems: PREMIER THEOREME.]
 
 ##### PREMIER THEOREME.
 

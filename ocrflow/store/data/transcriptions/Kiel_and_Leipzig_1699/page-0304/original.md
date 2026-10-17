@@ -29,9 +29,9 @@ c : a | B : b
 
 Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat/ als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß/ als die II. zu der IV. haben. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXIIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXIIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 28. Beweiß-Stück. Der XXIIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 28. Beweiß-Stück.]
 
 ## Der XXIIX. Vortrag.
 

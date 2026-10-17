@@ -7,9 +7,9 @@
 DE LA LIGNE CIRCVLAIRE.
 [/Subhead]
 
-[Curated heading level=2 type=definitions: XII. DEFINITIONS.]
-
 ### DEFINITIONS.
+
+[Curated heading level=4 type=definitions: XII.]
 
 [Curated heading level=4 type=paragraph_order: XII.]
 
@@ -19,6 +19,8 @@ XII.
 
 La ligne que décrit ſur un plan l'une des extrémitez d'une ligne droite, ſon autre extrémité demeurant immobile, s'appelle *circulaire*, ou *circonference*.
 
+[Curated heading level=4 type=definitions: XIII.]
+
 [Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
@@ -26,6 +28,8 @@ XIII.
 [/Margin]
 
 Et l'eſpace que décrit toute la ligne s'appelle *cercle*.
+
+[Curated heading level=4 type=definitions: XIV.]
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 
@@ -43,6 +47,8 @@ XV.
 
 Et ainſy il eſt bien clair que toutes les lignes du centre à la circonference ſont égales.
 
+[Curated heading level=4 type=definitions: XVI.]
+
 [Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
@@ -50,6 +56,8 @@ XVI.
 [/Margin]
 
 Ces lignes s'appellent *rayons* ou *demydiametres*.
+
+[Curated heading level=4 type=definitions: XVII.]
 
 [Curated heading level=4 type=paragraph_order: XVII.]
 
@@ -61,6 +69,8 @@ Les lignes menées d'un point de la circonference à un autre s'appellent *corde
 
 [Diagram: circle with a horizontal chord above a horizontal diameter through the centre point]
 
+[Curated heading level=4 type=definitions: XVIII.]
+
 [Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
@@ -71,6 +81,8 @@ Si elles paſſent par le centre, elles s'appellent *diametres*, & elles coupent
 
 [Diagram: circle cut by a horizontal chord near its top]
 
+[Curated heading level=4 type=definitions: XIX.]
+
 [Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
@@ -79,6 +91,8 @@ XIX.
 
 La partie de la circonference qui ſe trouve entre les extremitez d'une corde s'appelle *arc*. Mais lors que cette corde eſt moindre qu'un diametre, il y a deux portions de circonferences qui ſe terminent aux extremitez de cette corde. L'une plus grande que la demycirconference, & l'autre plus petite. Or quand on parle de l'arc d'une corde, ſi on n'ajoûte autre choſe, on entend celuy qui n'eſt pas plus grand que la demycirconference. Ce qui ſoit bien remarqué.
 
+[Curated heading level=4 type=definitions: XX.]
+
 [Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
@@ -86,6 +100,8 @@ XX.
 [/Margin]
 
 Toute circonference ſe conçoit diviſée en 360. parties égales qui s'appellent *degrez*.
+
+[Curated heading level=4 type=definitions: XXI.]
 
 [Curated heading level=4 type=paragraph_order: XXI.]
 

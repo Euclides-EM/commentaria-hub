@@ -1,9 +1,9 @@
 <!-- Page number: 34 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXXI.]
+[Curated heading level=3 type=propositions: PROPOSITIO XXXI.]
 
-## PROPOSITIO XXXI.
+### PROPOSITIO XXXI.
 
 [Curated heading level=2 type=figures: Fig. 48]
 
@@ -33,7 +33,7 @@ Aliter. Centro quopiam P deſcribe circulum qui tranſeat per datum punctum A, &
 
 Demonſtratio pendet ex 29, libri 3. & ex 28. huius.
 
-### Scholium.
+#### Scholium.
 
 {dropcap:D|lines=2|style=plain}Emonſtrata iam igitur eſt parallelarum theoria independenter ab axiomate, quod Euclides, eiuſque interpretes aſſumunt minus rectè; cum non ſit axioma, ſed theorema, cuius veritas nõ magis per ſe appareat, quam ipſius 29. propoſitionis. Quia tamen deinceps ſæpius adhibebitur, id hoc loco iam facilè ex præmiſſis demonſtrabimus.
 

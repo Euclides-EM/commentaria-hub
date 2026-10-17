@@ -3,9 +3,9 @@
 
 ∴ *abcde* ∷ XYZ : *xyz*. Donc les sections *abcde*, *xyz*, sont entre elles comme les bases ABCDE, XYZ.
 
-[Curated heading level=2 type=propositions: PROPOSITION XVI. LEMME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVI.]
 
-[Curated heading level=2 type=lemmas: LEMME. PROPOSITION XVI.]
+[Curated heading level=2 type=lemmas: PROPOSITION XVI.]
 
 ## PROPOSITION XVI.
 

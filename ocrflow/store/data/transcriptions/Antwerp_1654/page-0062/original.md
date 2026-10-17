@@ -19,9 +19,9 @@ Fig.43.
 
 Horum omnium demonſtratio pendet ex vltima prop.lib.6.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXIV. & XXV.]
+[Curated heading level=3 type=propositions: PROPOSITIO XXIV. & XXV.]
 
-## PROPOSITIO XXIV. & XXV.
+### PROPOSITIO XXIV. & XXV.
 
 [Curated heading level=2 type=figures: Fig. 44]
 

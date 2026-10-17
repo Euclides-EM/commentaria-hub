@@ -2,7 +2,7 @@
 
 [Figure: trapeze GNDH, H en haut à gauche, D en haut à droite, G en bas à gauche, N en bas]
 
-[Curated heading level=2 type=definitions: XXXIV.]
+[Curated heading level=3 type=definitions: XXXIV.]
 
 ### XXXIV.
 
@@ -12,7 +12,7 @@ Parallelæ rectæ lineæ sunt, quæ cum in eodem sint plano, & ex vtraque parte,
 
 Hic finem imposuit Euclides definitionibus primi libri, sequentes duæ sunt ex Clauio, quæ deinceps sequütur sunt à nobis additæ. | Euclide a icy fini les definitions du premier liure, les deux suiuantes sont de Clauius, & celles qui suiuent nous les auons adjoustées.
 
-[Curated heading level=2 type=definitions: XXXV.]
+[Curated heading level=3 type=definitions: XXXV.]
 
 ### XXXV.
 

@@ -1,19 +1,13 @@
 <!-- Running title: LIBER. II. -->
 <!-- Page number: 77 -->
 
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM II.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM II.]
-
-[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTVM II.]
-
 # EVCLIDIS ELEMENTVM II.
 
 [Ornament: floral headpiece]
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 

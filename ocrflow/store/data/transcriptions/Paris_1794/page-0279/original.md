@@ -7,9 +7,9 @@ BC, CD, etc., prises ensemble, font le périmetre de la base du prisme. Donc la 
 
 *Corollaire.* Si deux prismes droits ont la même hauteur, les surfaces convexes de ces prismes seront entre elles comme les périmetres de leurs bases.
 
-[Curated heading level=2 type=propositions: PROPOSITION III. LEMME.]
+[Curated heading level=2 type=propositions: PROPOSITION III.]
 
-[Curated heading level=2 type=lemmas: LEMME. PROPOSITION III.]
+[Curated heading level=2 type=lemmas: PROPOSITION III.]
 
 ## PROPOSITION III.
 

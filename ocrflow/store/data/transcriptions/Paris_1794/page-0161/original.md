@@ -3,9 +3,9 @@
 
 [Diagram: hand-drawn quadrilateral with intersecting lines]
 
-[Curated heading level=2 type=propositions: PROPOSITION III. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION III.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION III.]
+[Curated heading level=2 type=theorems: PROPOSITION III.]
 
 ## PROPOSITION III.
 
@@ -21,9 +21,9 @@ Soient les deux triangles BAC, BAD, qui ont le côté AB commun, et le côté AC
 
 Car la base AB étant la même, les deux triangles BAC, BAD, sont comme les hauteurs AC, DE : mais la perpendiculaire DE est plus courte que AD ou son égale AC ; donc le triangle BAD est plus petit que BAC.
 
-[Curated heading level=2 type=propositions: PROPOSITION IV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION IV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IV.]
+[Curated heading level=2 type=theorems: PROPOSITION IV.]
 
 ## PROPOSITION IV.
 

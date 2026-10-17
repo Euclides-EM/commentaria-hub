@@ -2,12 +2,6 @@
 
 [Ornament]
 
-[Curated heading level=1 type=propositions: ELEMENT NEVFIESME.]
-
-[Curated heading level=1 type=theorems: ELEMENT NEVFIESME.]
-
-[Curated heading level=1 type=problems: ELEMENT NEVFIESME.]
-
 # ELEMENT NEVFIESME.
 
 [Curated heading level=2 type=propositions: THEOR. 1. PROP.I.]

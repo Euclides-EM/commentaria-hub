@@ -16,7 +16,7 @@ VI.
 
 Tout ce qu'on enſeigne de la puiſſance d'une ligne comparée avec la puiſſance de ſes parties, n'eſt que la même choſe que ce que nous avons dit dans le premier livre de la multiplication des grandeurs complexes; & ſe peut reduire à cet Axiome.
 
-[Curated heading level=2 type=axioms: VII. TROISIEME AXIOME.]
+[Curated heading level=3 type=axioms: TROISIEME AXIOME.]
 
 ### TROISIEME AXIOME.
 

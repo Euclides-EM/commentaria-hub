@@ -1,7 +1,7 @@
 <!-- Running title: Liber Primus. -->
 <!-- Page number: 21 -->
 
-### Scholium.
+#### Scholium.
 
 {dropcap:M|lines=2|style=plain}Ethodum ſecandi angulos in æquales quotcunque, circino & regulâ hactenus nemo docuit.
 
@@ -15,9 +15,9 @@ Fig. 30.
 
 Mechanice datum angulum in quotcunque ſecabis æquales angulos, ſi ex anguli vertice A tanquam centro intra anguli crura arcum deſcribas, eumq́; diuidas in quot placuerit æquas partes; rectæ enim ex A per diuiſionum puncta emiſſæ, angulum ſecabunt in partes totidem æquales.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO X.]
+[Curated heading level=3 type=propositions: PROPOSITIO X.]
 
-## PROPOSITIO X.
+### PROPOSITIO X.
 
 [Curated heading level=2 type=figures: Fig. 31]
 

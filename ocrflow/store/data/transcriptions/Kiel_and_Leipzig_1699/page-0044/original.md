@@ -20,9 +20,9 @@ Eben so unmöglich können die beeden Striche in e zusammen kommen.
 
 Weil nun kein Düttel / ohne allein der Düttel b zu finden / wo die andern beeden Striche zusammen stossen / so müssen sie nothwendig in dem Düttel/ wo die ersten beeden Striche einander berühret/ zusammen kommen. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der IIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der IIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 5. Beweiß-Stück. Der IIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 5. Beweiß Stück.]
 
 ## Der IIX. Vortrag.
 

@@ -7,13 +7,13 @@
 
 [Diagram: rectangle labelled D at upper left, C at lower left, I at upper right, and E at lower right, divided vertically at Z above and T below]
 
-### MONITVM.
+#### MONITVM.
 
 *Prolixiori argumento diſcuſſit hanc Theon, per comparationem linearum, DI DZ & ZI ipſi DC propoſitæ, concludens incertam eſſe DZ, quare ſub certa DC & incerta DZ comprehẽſum DT, incertum eſſe, probare conatur, per lemma vigeſimæ huius, quod aliud agit negotium. Nos itaque breuiorem (ne tædio diſtrahantur ingenia) elegimus methodum, quo fere vſus eſt Campanus.*
 
-[Curated heading level=2 type=propositions: Propoſitio ſeptuageſimaſexta.]
+[Curated heading level=3 type=propositions: Propoſitio ſeptuageſimaſexta.]
 
-## Propoſitio ſeptuageſimaſexta.
+### Propoſitio ſeptuageſimaſexta.
 
 Si à recta linea recta auferatur, potentia toti incommenſurabilis exiſtens, cum tota verò efficiens quod ex earum quadratis certum, quod verò ſub ipſis medium. Reliqua incerta eſt, appellatúrque Minor.
 
@@ -21,9 +21,9 @@ Si à recta linea recta auferatur, potentia toti incommenſurabilis exiſtens, c
 
 [Diagram: horizontal line labelled A at the left, G above an interior point, and B at the right]
 
-[Curated heading level=2 type=propositions: Propoſitio ſeptuageſimaſeptima.]
+[Curated heading level=3 type=propositions: Propoſitio ſeptuageſimaſeptima.]
 
-## Propoſitio ſeptuageſimaſeptima.
+### Propoſitio ſeptuageſimaſeptima.
 
 Si à recta linea recta auferatur, potentia toti incommenſurabilis exiſtẽs, & cum tota efficiens conflatum quidem ex ipſarum quadratis medium, quod verò ſub ipſis Certum. Reliqua incerta eſt, vocata Cum certo mediũ totum efficiens.
 

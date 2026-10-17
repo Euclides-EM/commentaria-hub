@@ -6,9 +6,9 @@
 
 Wenn derowegen die I. Grösse der III. und die II. Grösse der IV. gleichvielfältig sind; darnach das von der I. abgenommene Stück zu der III. eben so vielfältig ist / als das von der II. abgenommene Stück zu der IV. So wird das Erste übergebliebene der III. und das Andere übergebliebene der IV. Grösse gleichgroß / oder die übergebliebenen werden gegen die II. und IV. Grössen gleichvielfältig seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der VII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der VII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 7. Beweiß-Stück. Der VII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 7. Beweiß-Stück.]
 
 ## Der VII. Vortrag.
 

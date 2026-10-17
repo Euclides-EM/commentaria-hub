@@ -2,9 +2,9 @@
 
 <!-- Page number: 179 -->
 
-[Curated heading level=2 type=propositions: Der XXX. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XXX. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 4. Werck-Stück. Der XXX. Vortrag.]
+[Curated heading level=2 type=problems: Das 4. Werckstück.]
 
 ## Der XXX. Vortrag.
 

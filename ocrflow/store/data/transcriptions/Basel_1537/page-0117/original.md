@@ -6,6 +6,8 @@ secundum, sicut secundi ad tertium: erit proportio primi ad tertium sicut primi 
 
 [Diagram: at right, three horizontal lines of decreasing length labelled 8, 4, 2]
 
+[Curated heading level=3 type=definitions: Cum fuerint quatuor quantitates]
+
 [Curated heading level=3 type=campanus_sequence: 11.]
 
 [Margin]

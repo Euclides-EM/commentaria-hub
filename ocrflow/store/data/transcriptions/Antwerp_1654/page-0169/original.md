@@ -3,7 +3,7 @@
 
 difficilis eſt: vel denique per rationum æqualitatem nihil aliud intelligit, quàm ſimultaneum illum exceſſum defectumúe multiplicium; Et ſic toto 5 ac 6 libro, cum quatuor magnitudines proportionales eſſe demonſtrat, nihil ſciemus aliud, quàm dictum exceſſum & defectum illis competere, incerti planè, vtrum magnitudines, de quibus agitur, ſint verè proportionales.
 
-## Proportionum æqualium aliud indicium primum & infallibile aſſignatur.
+#### Proportionum æqualium aliud indicium primum & infallibile aſſignatur.
 
 {dropcap:Q|lines=2|style=plain}Vod ſi rationum æqualium deſideretur indicium infallibile, & facile, & primum; nos tale aſſignabimus, demonſtrabimuſq́ꝫ theor. 5. & 6. partis 2. eſtq́ꝫ eiuſmodi;
 

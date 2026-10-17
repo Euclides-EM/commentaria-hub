@@ -5,7 +5,7 @@ tant la longueur que la largeur, eſt égale à celle qui meſure dans l'autre t
 
 C'eſtpourquoy auſſy par tout où une ligne d'une certaine longueur ſe trouve, comme de la longueur de b, elle peut eſtre marquée par le même caractere & appellée b. Car il ne peut y avoir de difference que de ſituation, ce qui n'y fait rien. Et ainſy il ne faut pas s'étonner ſi bb eſt par tout égal à bb.
 
-[Curated heading level=2 type=axioms: III. SECOND AXIOME.]
+[Curated heading level=3 type=axioms: SECOND AXIOME.]
 
 ### SECOND AXIOME.
 
@@ -33,9 +33,7 @@ Ces deux axiomes nous font voir que tout ce que nous avons dit dans le premier l
 
 C'eſt ce que nous verrons en peu de mots en commençant par la puiſſance des lignes.
 
-[Curated heading level=1 type=definitions: LIVRE QUATORZIEME.]
-
-[Curated heading level=2 type=definitions: V. DEFINITION.]
+[Curated heading level=3 type=definitions: DEFINITION.]
 
 ### DEFINITION.
 

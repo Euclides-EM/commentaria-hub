@@ -14,9 +14,9 @@ Welches aber Unmüglich n. 9. Gr. I.
 
 Können also zweene Kreyse / so einander durchschneiden/ nicht aus einem einigen Mittel-Düpffel beschrieben seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der VI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der VI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 5. Beweiß-Stück. Der VI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 5. Beweiß-Stück.]
 
 ## Der VI. Vortrag.
 

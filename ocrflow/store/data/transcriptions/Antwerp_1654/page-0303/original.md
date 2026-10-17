@@ -3,7 +3,7 @@
 
 De cylindris patet theorema cum ſint tripli conorum.
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO XIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIII.]
 
 ## PROPOSITIO XIII.
 
@@ -19,7 +19,7 @@ Demonſtratur vt prima ſexti.
 
 Theorema eodem modo verum eſt de ſuperficie.
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO XIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIV.]
 
 ## PROPOSITIO XIV.
 

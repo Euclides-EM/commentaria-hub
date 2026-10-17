@@ -27,9 +27,9 @@ Donc enfin la solidité d’un cylindre est égale au produit de sa base par sa 
 * 12. 4.
 [/Margin]
 
-[Curated heading level=2 type=propositions: PROPOSITION II. LEMME.]
+[Curated heading level=2 type=propositions: PROPOSITION II.]
 
-[Curated heading level=2 type=lemmas: LEMME. PROPOSITION II.]
+[Curated heading level=2 type=lemmas: PROPOSITION II.]
 
 ## PROPOSITION II.
 

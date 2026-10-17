@@ -4,7 +4,7 @@ numero quotlibet posse sumi æquales vel multiplices.
 
 *pouuoir prendre tant qu'on voudra d'egaux ou multiples.*
 
-[Curated heading level=2 type=postulates: II.]
+[Curated heading level=3 type=postulates: II.]
 
 ### II.
 
@@ -12,7 +12,7 @@ Quolibet numero sumi posse maiorem.
 
 *A tout nombre donné en pouuoir prendre vn plus grand.*
 
-[Curated heading level=2 type=postulates: III.]
+[Curated heading level=3 type=postulates: III.]
 
 ### III.
 
@@ -24,7 +24,7 @@ Additio, subtractio, multiplicatio, diuisio, extractionesq. radicum, seu laterū
 
 ## AXIOMES, OV communes sentences.
 
-[Curated heading level=2 type=axioms: I.]
+[Curated heading level=3 type=axioms: I.]
 
 ### I.
 

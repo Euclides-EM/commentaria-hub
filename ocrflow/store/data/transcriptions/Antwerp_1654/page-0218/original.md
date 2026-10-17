@@ -2,7 +2,7 @@
 
 <!-- Page number: 185 -->
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO II.]
+[Curated heading level=2 type=propositions: PROPOSITIO II.]
 
 ## PROPOSITIO II.
 

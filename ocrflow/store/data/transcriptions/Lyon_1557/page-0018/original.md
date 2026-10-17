@@ -3,7 +3,7 @@
 
 inter ſe ſunt æqualia, duoq́; E G & F H inter ſe. Cæterum in hoc conuenit cum Rhombo, quòd duas Diametros inæquales: binos item angulos oppoſitos æquales, hinc obtuſos, illinc acutos habet.
 
-[Curated heading level=2 type=definitions: DEFINITIO 34.]
+[Curated heading level=3 type=definitions: 34]
 
 ### 34 Præter hæc autem reliqua Quadrilatera, Trapezia dicantur.
 
@@ -11,7 +11,7 @@ In his nulla eſt laterum definita æqualitas: ſed promiſcua conſtitutio: pro
 
 [Diagram: two irregular quadrilaterals labelled A and B]
 
-[Curated heading level=2 type=definitions: DEFINITIO 35.]
+[Curated heading level=3 type=definitions: 35]
 
 ### 35 Paralleli, ſeu æquidiſtantes lineæ rectæ, ſunt quæ in eodem plano exiſtentes, in vtranque partem productæ neutrobi conueniunt.
 
@@ -27,7 +27,7 @@ Lineæ autem Circulorum, Paralleli dicuntur, quæ ſuper eodem centro ductæ ſu
 
 ## PETITIONES.
 
-[Curated heading level=2 type=postulates: PETITIO 1.]
+[Curated heading level=3 type=postulates: 1]
 
 ### 1 Ab omni puncto in omne punctum rectam lineam ducere.
 
@@ -35,7 +35,7 @@ Duo puncta, vbicunque aſſignentur, in eodem plano eſſe intelliguntur: atque 
 
 [Diagram: a triangle with vertices A, B and C]
 
-[Curated heading level=2 type=postulates: PETITIO 2.]
+[Curated heading level=3 type=postulates: 2]
 
 ### 2 Rectam lineam terminatam in continuũ rectumq́; producere.
 

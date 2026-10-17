@@ -7,9 +7,9 @@ eſpaces, les parties de l'une de ces lignes ſeront proportionelles aux parties
 
 Car les deux parties de chacune ſont proportionelles aux deux parties de la diagonale, par le Corollaire precedent, parceque chacune de ces lignes & la diagonale ſont compriſes dans le même eſpace parallele & s'y coupent. Donc les parties de chacune eſtant en même raiſon que celles de la diagonale, les parties de l'une doivent auſſy eſtre en même raiſon que les parties de l'autre, puiſque deux raiſons égales à une 3ᵉ ſont égales entr'elles.
 
-[Curated heading level=2 type=propositions: XVIII. SECOND THEOREME.]
+[Curated heading level=2 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XVIII. SECOND THEOREME.]
+[Curated heading level=2 type=theorems: SECOND THEOREME.]
 
 ## SECOND THEOREME.
 

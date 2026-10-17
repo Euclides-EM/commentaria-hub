@@ -5,9 +5,9 @@
 ### Beschluß.
 Wenn derowegen das Gantze zu dem Gantzen eine grössere Verhältnüß / als das Abgeschnittene zu dem Abgeschnittenen hat; So hat das Ubergebliebene zu dem Ubergebliebenen eine grössere Verhältnüß / als das Gantze zu dem Gantzen. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXXIV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXIV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 34. Beweiß-Stück. Der XXXIV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 34. Beweiß-Stück.]
 
 ## Der XXXIV. Vortrag.
 ## Das 34. Beweiß-Stück.

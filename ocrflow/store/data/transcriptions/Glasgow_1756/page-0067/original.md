@@ -3,25 +3,17 @@
 
 # EUCLIDIS ELEMENTORUM
 
-[Curated heading level=1 type=propositions: LIBER SECUNDUS.]
-
-[Curated heading level=1 type=theorems: LIBER SECUNDUS.]
-
-[Curated heading level=1 type=problems: LIBER SECUNDUS.]
-
-[Curated heading level=1 type=definitions: LIBER SECUNDUS.]
-
 # LIBER SECUNDUS.
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: DEF. I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 
 {dropcap:O|lines=2|style=plain}MNE parallelogrammum rectangulum contineri dicitur a duabus rectis lineis, quae rectum angulum continent.
 
-[Curated heading level=2 type=definitions: DEF. II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 

@@ -5,9 +5,9 @@
 
 2°. Soit I un point hors de la perpendiculaire; si on joint IA, IB, l’une de ces lignes coupera la perpendiculaire en D, d’où l’on tirera DB. Cela posé, IB est plus petit que ID+DB : mais à cause de DB=DA, on a ID+DB=ID+DA=IA ; donc IB < IA ; donc 2°. tout point hors de la perpendiculaire sera inégalement distant des extrémités A et B.
 
-[Curated heading level=2 type=propositions: PROPOSITION XVIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XVIII.]
 
 ## PROPOSITION XVIII.
 
@@ -31,9 +31,9 @@ L’égalité seroit manifeste si le troisième côté BC étoit égal au troisi
 \* Pr. 16.
 [/Margin]
 
-[Curated heading level=2 type=propositions: PROPOSITION XIX. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIX.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIX.]
+[Curated heading level=2 type=theorems: PROPOSITION XIX.]
 
 ## PROPOSITION XIX.
 

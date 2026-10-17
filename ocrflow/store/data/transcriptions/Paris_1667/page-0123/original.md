@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE V. -->
 <!-- Page number: 85 -->
 
-[Curated heading level=2 type=axioms: XXII. PREMIER AXIOME OU DEMANDE.]
+[Curated heading level=3 type=axioms: PREMIER AXIOME OU DEMANDE.]
 
 ### PREMIER AXIOME OU DEMANDE.
 
@@ -15,7 +15,7 @@ On demande qu'ayant un intervale donné, on puiſſe décrire une circonference 
 
 La machine la plus ordinaire dont on ſe ſert pour la décrire ſur le papier s'appelle, *compas*, qui a deux jambes, qui eſtant ouvertes plus ou moins ſelon l'intervale donné, l'une demeurant immobile, l'autre décrit la circonference.
 
-[Curated heading level=2 type=axioms: XXIII. SECOND AXIOME OU DEMANDE.]
+[Curated heading level=3 type=axioms: SECOND AXIOME OU DEMANDE.]
 
 ### SECOND AXIOME OU DEMANDE.
 
@@ -29,7 +29,7 @@ Or comme il faut ſuppoſer dans cette operation que les deux jambes du compas g
 
 Décrire une ligne égale à une ligne donnée, ſoit par le retranchement d'une autre ligne, ſoit par tout ailleurs.
 
-[Curated heading level=2 type=axioms: XXIV. TROISIEME AXIOME.]
+[Curated heading level=3 type=axioms: TROISIEME AXIOME.]
 
 ### TROISIEME AXIOME.
 
@@ -47,7 +47,7 @@ Et celles qui ſont décrites d'un plus petit intervale ſont plus petites.
 
 Et d'un plus grand ſont plus grandes.
 
-[Curated heading level=2 type=axioms: XXV. QUATRIEME AXIOME.]
+[Curated heading level=3 type=axioms: QUATRIEME AXIOME.]
 
 ### QUATRIEME AXIOME.
 

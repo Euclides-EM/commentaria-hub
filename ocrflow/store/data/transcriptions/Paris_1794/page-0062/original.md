@@ -7,9 +7,9 @@ grande que AD, on conclura des mêmes triangles que l’angle ACH est plus grand
 
 *Scholie.* Nous supposons que les arcs dont il s’agit sont plus petits que la demi-circonférence. C’est le contraire lorsqu’ils sont plus grands ; alors l’arc augmentant, la corde diminue, et réciproquement. Ainsi l’arc AKBD étant plus grand que AKBH, la corde AD est plus petite que AH.
 
-[Curated heading level=2 type=propositions: PROPOSITION VI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VI.]
+[Curated heading level=2 type=theorems: PROPOSITION VI.]
 
 ## PROPOSITION VI.
 

@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Curated heading level=2 type=definitions: V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 

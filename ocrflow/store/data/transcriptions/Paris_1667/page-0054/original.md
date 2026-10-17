@@ -13,13 +13,9 @@ en gardant les regles precedentes pour ce qui eſt des *plus* & des *moins*.
 4 p + 3 q } 12 bp + 8 pd + 9 bq + 6 dq.
 [/Calculation]
 
-[Curated heading level=1 type=propositions: LIVRE PREMIER.]
+[Curated heading level=4 type=propositions: THEOREME]
 
-[Curated heading level=1 type=theorems: LIVRE PREMIER.]
-
-[Curated heading level=2 type=propositions: THEOREME]
-
-[Curated heading level=2 type=theorems: THEOREME]
+[Curated heading level=4 type=theorems: THEOREME]
 
 #### THEOREME
 [Subhead]

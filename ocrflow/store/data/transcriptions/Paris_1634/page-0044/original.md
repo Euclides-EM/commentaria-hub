@@ -1,6 +1,6 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Curated heading level=2 type=definitions: XVII.]
+[Curated heading level=3 type=definitions: XVII.]
 
 ### XVII.
 
@@ -12,7 +12,7 @@ ABCD est circulus. | ABCD est vn cercle.
 E centrum circuli. | E est le centre du cercle.
 AC diameter circuli. | AC est le diametre du cercle.
 
-[Curated heading level=2 type=definitions: XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 ### XVIII.
 

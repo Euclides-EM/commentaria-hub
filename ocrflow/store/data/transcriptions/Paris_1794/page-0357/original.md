@@ -1,7 +1,7 @@
 <!-- Running title: NOTE XII. -->
 <!-- Page number: 329 -->
 
-[Curated heading level=2 type=lemmas: LEMME III. (NOTE XII.)]
+[Curated heading level=3 type=lemmas: LEMME III.]
 
 ### LEMME III.
 

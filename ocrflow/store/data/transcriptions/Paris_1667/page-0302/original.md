@@ -1,13 +1,11 @@
 <!-- Page number: 264 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=2 type=lemmas: TROISIEME LEMME.]
+[Curated heading level=3 type=lemmas: TROISIEME LEMME.]
 
 ### TROISIEME LEMME.
 
-[Curated heading level=1 type=definitions: LIVRE TREIZIEME.]
-
-[Curated heading level=2 type=definitions: III. DEFINITION.]
+[Curated heading level=3 type=definitions: DEFINITION.]
 
 ### DEFINITION.
 
@@ -21,13 +19,9 @@ Le coſté quelconque d'un triangle en peut eſtre appellé *la baſe*, & les de
 
 ### TRIANGLES CONSIDEREZ A PART.
 
-[Curated heading level=1 type=propositions: LIVRE TREIZIEME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=1 type=theorems: LIVRE TREIZIEME.]
-
-[Curated heading level=2 type=propositions: IV. PREMIER THEOREME.]
-
-[Curated heading level=2 type=theorems: IV. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 
@@ -71,9 +65,9 @@ Qui connoiſt la grandeur des deux angles d'un triangle, connoiſt la grandeur d
 
 Qui connoiſt de combien de degrez ſont les deux, ſçait de combien de degrez eſt le 3ᵉ. Car oſtant le nombre des degrez que valent les deux de 180, ce qui reſte eſt le nombre des degrez que vaut le 3ᵉ. Si les deux valent 108 degrez, le 3ᵉ en vaut 72.
 
-[Curated heading level=2 type=propositions: VIII. SECOND THEOREME.]
+[Curated heading level=4 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: VIII. SECOND THEOREME.]
+[Curated heading level=4 type=theorems: SECOND THEOREME.]
 
 #### SECOND THEOREME.
 

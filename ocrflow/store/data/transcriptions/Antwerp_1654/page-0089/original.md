@@ -4,9 +4,7 @@
 
 {dropcap:H|lines=6|style=decorated|decoration="foliate woodcut initial with a face"}Ic liber mole paruus, at præſtantiâ ac vtilitate theorematum planè magnus. Tyrones, ſcio quod dico, nondum capient; ſed eſſe verißimum vlterius prouecti, vſu ipſo certißimè intelligent.
 
-[Curated heading level=1 type=definitions: Liber II]
-
-[Curated heading level=2 type=definitions: Lib. II, Def.]
+[Curated heading level=2 type=definitions: DEFINITIO.]
 
 ## DEFINITIO.
 

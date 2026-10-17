@@ -33,9 +33,9 @@ Je dis que les angles K c g & k d f ſont égaux.
 
 Car par le precedent Theoreme l'un & l'autre a pour meſure la moitié des arcs f c, c d, d g.
 
-[Curated heading level=2 type=propositions: XVIII. TROISIEME THEOREME.]
+[Curated heading level=3 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XVIII. TROISIEME THEOREME.]
+[Curated heading level=3 type=theorems: TROISIEME THEOREME.]
 
 ### TROISIEME THEOREME.
 

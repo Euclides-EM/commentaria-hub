@@ -2,7 +2,7 @@
 
 igitur neque anguli magnitudinem. | quent la quantité de l'angle.
 
-[Curated heading level=2 type=definitions: IX.]
+[Curated heading level=3 type=definitions: IX.]
 
 ### IX.
 
@@ -16,7 +16,7 @@ Angulus A est rectilineus, | L'angle A est droict.
 B curuilineus, | B curuiligne.
 C mixtus. | C mixtiligne.
 
-[Curated heading level=2 type=definitions: X.]
+[Curated heading level=3 type=definitions: X.]
 
 ### X.
 

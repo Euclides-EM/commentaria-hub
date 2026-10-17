@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=2 type=definitions: DEF. XXXIX.]
+[Curated heading level=3 type=definitions: XXXIX.]
 
 ### XXXIX.
 
@@ -8,13 +8,13 @@ En la Geometrie (sçauoir) est mesurer par vne mesure cognuë, ou d'exprimer cha
 
 La construction represente vne figure en sa vraye forme. Mais la cognoissance, la represente mesurée d'vne mesure cognuë, & exprimée par ses nombres.
 
-[Curated heading level=2 type=definitions: DEF. XL.]
+[Curated heading level=3 type=definitions: XL.]
 
 ### XL.
 
 Probleme est, quand on propose quelque chose à faire, ou à cognoistre,
 
-[Curated heading level=2 type=definitions: DEF. XLI.]
+[Curated heading level=3 type=definitions: XLI.]
 
 ### XLI.
 

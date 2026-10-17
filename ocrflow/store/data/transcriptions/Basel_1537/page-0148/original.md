@@ -16,17 +16,11 @@ CAMPANVS. Sint tres quantitates a,b,c,relatæ ad totidem alias quæ sint d,e,f,s
 
 SEXTI LIBRI FINIS.
 
-[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER SEXTVS]
-
-[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER SEXTVS]
-
-[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER SEXTVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEXTVS.
 
-[Curated heading level=2 type=definitions: Euclides ex Campano. Diffinitiones.]
-
 ## Euclides ex Campano. Diffinitiones.
+
+[Curated heading level=3 type=definitions: SVperficies similes]
 
 [Curated heading level=3 type=campanus_sequence: 1.]
 
@@ -40,6 +34,8 @@ CAMPANVS. Vt sit trigonus a b c fuerit æquiangulus trigono d e f,fueritqꝫ ang
 
 [Diagram: two triangles, one with apex a and base b c, the other with apex d and base e f]
 
+[Curated heading level=3 type=definitions: Superficies mutuorū]
+
 [Curated heading level=3 type=campanus_sequence: 2.]
 
 [Margin]
@@ -51,6 +47,8 @@ Superficies mutuorū laterum, sunt inter quarū latera, incontinua proportionali
 CAMPANVS. Vt si duorū quadrilaterorū a b c, d e f, proportio a b lateris primi ad d c latus secundi fuerit sicut proportio e f lateris secundi ad b c latus primi, illa duo quadrilatera dicuntur mortuorum laterum siue mutekesia.
 
 [Diagram: two quadrilaterals, the first open-sided with corners a, b, c, the second a rectangle with corners e, d, f]
+
+[Curated heading level=3 type=definitions: Linea dicitur diuidi]
 
 [Curated heading level=3 type=campanus_sequence: 3.]
 

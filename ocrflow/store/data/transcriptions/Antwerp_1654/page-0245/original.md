@@ -3,7 +3,7 @@
 
 oſtendetur p.2.l.12, Hæc praxis ad circulos quoque pertinebit.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXI.]
 
 ## PROPOSITIO XXI.
 
@@ -17,7 +17,7 @@ Fig.40.
 
 Patet ex defin.1 6,ex axiom.2.l.1. & propoſ.11.l.5.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXII.]
 
 ## PROPOSITIO XXII.
 
@@ -37,7 +37,7 @@ Demonſtratio primæ partis patet ex 34. 5.Quoniam enim a rationes A ad B,& E ad
 
 Pars 2.patet ex 35. l. 5.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXIII.]
 
 ## PROPOSITIO XXIII.
 

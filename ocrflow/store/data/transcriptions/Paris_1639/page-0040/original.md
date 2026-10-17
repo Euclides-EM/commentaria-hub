@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=2 type=axioms: AXIOME 5. a. 1.]
+[Curated heading level=3 type=axioms: 5. a. 1.]
 
 ### 5. a. 1.
 
@@ -12,7 +12,7 @@ hyp. | eb 2|2 fd,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 5. a. b.]
+[Curated heading level=4 type=axioms: 5. a. b.]
 
 ### 5. a. b.
 
@@ -24,7 +24,7 @@ hyp. | ae 3|2 cf,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 5. a. c.]
+[Curated heading level=4 type=axioms: 5. a. c.]
 
 ### 5. a. c.
 
@@ -38,7 +38,7 @@ hyp. | cf 3|2 ae,
 
 Or en toutes ces notions, excepté la premiere, par le mot de quantitez égales, faut entendre aussi vne mesme, commune à plusieurs.
 
-[Curated heading level=2 type=axioms: AXIOME 6. a. 1.]
+[Curated heading level=3 type=axioms: 6. a. 1.]
 
 ### 6. a. 1.
 

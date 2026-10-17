@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE II. -->
 <!-- Page number: 39 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XII.]
+[Curated heading level=2 type=theorems: PROPOSITION XII.]
 
 ## PROPOSITION XII.
 
@@ -17,9 +17,9 @@ Fig. 57 et 58.
 
 Car, pour qu’il y ait lieu à intersection, il faut que le triangle CAD soit possible. Il faut donc, non seulement que CD soit < AC+AD, mais qu’aussi le plus grand rayon AD soit < AC+CD. Or toutes les fois que le triangle CAD sera possible, il est clair que les circonférences décrites des centres C et D se couperont en A et B.
 
-[Curated heading level=2 type=propositions: PROPOSITION XIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XIII.]
 
 ## PROPOSITION XIII.
 
@@ -33,9 +33,9 @@ Fig. 59.
 
 Il est clair qu’ils auront le point A commun : mais ils n’auront que ce point ; car, pour avoir deux points communs, il faudroit que la distance des centres fût plus petite que la somme des rayons.
 
-[Curated heading level=2 type=propositions: PROPOSITION XIV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XIV.]
 
 ## PROPOSITION XIV.
 

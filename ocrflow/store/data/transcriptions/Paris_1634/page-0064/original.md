@@ -1,6 +1,6 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Curated heading level=2 type=postulates: II.]
+[Curated heading level=3 type=postulates: II.]
 
 ### II.
 
@@ -14,7 +14,7 @@ Explicatio notarum. | Explication des notes.
 
 Recta AB est in continuum producta ad punctum C, per secundum postulatum. | La ligne droite AB a esté continuée directement au poinct C, par la seconde demande.
 
-[Curated heading level=2 type=postulates: III.]
+[Curated heading level=3 type=postulates: III.]
 
 ### III.
 

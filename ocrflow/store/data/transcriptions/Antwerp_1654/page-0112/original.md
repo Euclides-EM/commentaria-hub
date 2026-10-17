@@ -1,7 +1,7 @@
 <!-- Running title: Liber Tertius. -->
 <!-- Page number: 79 -->
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XI.]
 
 ## PROPOSITIO XI.
 
@@ -21,7 +21,7 @@ b Per 20. l.1.
 c Per defin. circuli.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XII.]
 
 ## PROPOSITIO XII.
 

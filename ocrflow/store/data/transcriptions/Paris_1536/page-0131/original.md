@@ -23,10 +23,6 @@ De extensa, atq̄ inordinata ratione.
 Notandum.
 [/Margin]
 
-[Curated heading level=1 type=propositions: LIBER V.]
-
-[Curated heading level=1 type=theorems: LIBER V.]
-
 [Curated heading level=2 type=propositions: Theorema 1, Propositio 1.]
 
 [Curated heading level=2 type=theorems: Theorema 1, Propositio 1.]

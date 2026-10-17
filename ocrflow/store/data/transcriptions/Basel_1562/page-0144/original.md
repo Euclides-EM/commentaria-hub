@@ -11,7 +11,7 @@ Dan zweymal genommen erfüllet ſy die linj a f nit / dreymal genommen / thůt �
 
 Volgt.
 
-[Curated heading level=2 type=definitions: Beſchreibung 4.]
+[Curated heading level=3 type=definitions: 4.]
 
 4. Diſe quantiteten haben ain Proportz gegenainander / deren die aine ettlich mal genommen oder gemehrt / die ander ybertreffen mag.
 

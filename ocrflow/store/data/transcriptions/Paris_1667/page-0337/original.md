@@ -7,9 +7,9 @@ Donc le coſté du decagone eſt moyenne entre le coſté du decagone & ſa plus
 
 Donc par le 5ᵉ Corollaire ( 20 s̄. ) le quarré du pentagone eſt égal au quarré du coſté de l'exagone , plus le quarré du coſté du decagone inſcrit dans le même cercle. Ce qu'il falloit demonſtrer.
 
-[Curated heading level=2 type=propositions: XXXVII. ONZIEME THEOREME.]
+[Curated heading level=3 type=propositions: ONZIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXVII. ONZIEME THEOREME.]
+[Curated heading level=3 type=theorems: ONZIEME THEOREME.]
 
 ### ONZIEME THEOREME.
 
@@ -39,9 +39,9 @@ Donc à m m + 4. m m.
 
 Donc à 5. m m.
 
-[Curated heading level=2 type=propositions: XXXVIII. DOUZIEME THEOREME.]
+[Curated heading level=3 type=propositions: DOUZIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXVIII. DOUZIEME THEOREME.]
+[Curated heading level=3 type=theorems: DOUZIEME THEOREME.]
 
 ### DOUZIEME THEOREME.
 

@@ -7,7 +7,7 @@
 
 <!-- Running title: DEFINITIONS. -->
 
-[Curated heading level=2 type=definitions: DEFINITION IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 
@@ -17,25 +17,25 @@
 
 {dropcap:I|lines=2|style=plain}*L ſuit de cette Définition que ſi deux figures, placées ſur une même droite, ont la même hauteur, elles ſeront auſſi entre les mêmes Paralèles; puiſque par la nature des Parallèles les perpendiculaires abaiſſées de l'une à l'autre ſont toujours égales.*
 
-[Curated heading level=2 type=definitions: DEFINITION V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 
 {dropcap:U|lines=2|style=plain}*Ne raiſon* (AB.BC.CD : DE.EF : FG) *eſt compoſée de pluſieurs autres* (AB : DE + BC : EF + CD : FG), lorſque ſes termes réſultent de la multiplication des termes de ces raiſons compoſantes (*Voy. Def. 6. de l'Append.*).
 
-[Curated heading level=2 type=definitions: DEFINITION VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 
 {dropcap:O|lines=2|style=plain}N dit qu'*un Parallélogramme* (AB) (Fig. 2.) *eſt appliqué à quelque ligne droite* (CD), quand il a pour baſe ou pour côté cette ligne droite propoſée (CD).
 
-[Curated heading level=2 type=definitions: DEFINITION VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 ### VII.
 
 {dropcap:U|lines=2|style=plain}N *Parallélogramme défaillant* (AF) (Fig. 3.) eſt celui dont la baſe (AB) eſt plus petite que la ligne propoſée (CD) à laquelle il eſt dit être appliqué.
 
-[Curated heading level=2 type=definitions: DEFINITION VIII.]
+[Curated heading level=3 type=definitions: VIII.]
 
 ### VIII.
 

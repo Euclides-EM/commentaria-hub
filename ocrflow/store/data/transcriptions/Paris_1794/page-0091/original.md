@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 63 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION IV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION IV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IV.]
+[Curated heading level=2 type=theorems: PROPOSITION IV.]
 
 ## PROPOSITION IV.
 

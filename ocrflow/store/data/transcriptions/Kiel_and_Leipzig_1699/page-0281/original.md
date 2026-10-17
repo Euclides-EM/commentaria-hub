@@ -17,9 +17,9 @@ Weil nun der I. Grösse Vervielfältigung grösser ist/ als die Vervielfältigun
 
 Wenn derohalben die I: zu der II. eben solche Verhältnüß hat/ als die III: zu der IV. die III: zu der IV. aber eine grössere Verhältnüß hat/ als die V: zu der VI. so wird auch die I: zu der II. eine grössere Verhältnüß haben/ als die V: zu der VI. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XIV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XIV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 14. Beweiß-Stück. Der XIV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 14. Beweiß-Stück.]
 
 ## Der XIV. Vortrag.
 

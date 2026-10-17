@@ -22,13 +22,13 @@
 
 *Euclide n'a pas énoncé ſéparément, ces axiomes particuliers ſubordonnés à l'axiome général, mais il n'en fait pas moins uſage; comme il eſt aiſé de s'en convaincre par l'analyſe de pluſieurs de ſes démonſtrations.*
 
-[Curated heading level=2 type=axioms: AXIOME X.]
+[Curated heading level=3 type=axioms: X.]
 
 ### X.
 
 Tous les angles droits ſont égaux entr'eux.
 
-[Curated heading level=2 type=axioms: AXIOME XI.]
+[Curated heading level=3 type=axioms: XI.]
 
 ### XI.
 
@@ -36,7 +36,7 @@ Si une ligne droite (AB) coupe deux autres lignes droites (CD, EF,) ſituées ſ
 
 *Cette vérité n'eſt pas aſſez ſimple, pour pouvoir être reçue au nombre des axiomes. Elle eſt une ſuite de la XXVII propoſition du premier Livre; ce n'eſt que là où elle pourra être établie convenablement.*
 
-[Curated heading level=2 type=axioms: AXIOME XII.]
+[Curated heading level=3 type=axioms: XII.]
 
 ### XII.
 

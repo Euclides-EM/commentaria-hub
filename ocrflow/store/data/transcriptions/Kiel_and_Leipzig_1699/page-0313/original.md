@@ -5,9 +5,9 @@
 ### Beschluß.
 Wenn derowegen Sechs Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die V. zu der VI. Auch die II. zu der III. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXXIII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXIII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 33. Beweiß-Stück. Der XXXIII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 33. Beweiß-Stück.]
 
 ## Der XXXIII. Vortrag.
 ## Das 33. Beweiß-Stück.

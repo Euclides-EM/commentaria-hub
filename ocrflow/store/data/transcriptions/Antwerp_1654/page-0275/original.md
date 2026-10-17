@@ -1,7 +1,7 @@
 <!-- Page number: 242 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXI.]
 
 ## PROPOSITIO XXXI.
 

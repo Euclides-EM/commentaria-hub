@@ -6,9 +6,9 @@
 
 Derowegen kan auff keinerley Weise ein Kreyß den andern in mehr/als einem Düttel anrühren. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XIV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XIV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 13. Beweiß-Stück. Der XIV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 13. Beweiß-Stück.]
 
 ## Der XIV. Vortrag.
 

@@ -24,7 +24,7 @@ x Per 4.l.2.
 
 Hinc ſequitur latus æquilateri trianguli eſſe ad diametrum, vt radix quadrata ternarij eſt ad 2, radicem nempe quadratam quaternarij, ac proinde eſſe lineas incommenſurabiles.
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO XVI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVI.]
 
 ## PROPOSITIO XVI.
 

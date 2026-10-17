@@ -1,9 +1,7 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 45 -->
 
-[Curated heading level=1 type=propositions: Das ander bůch Euclidis]
-
-[Curated heading level=2 type=propositions: I. Die erſt Propoſition]
+[Curated heading level=2 type=propositions: I Die erſt Propoſition.]
 
 ## I Die erſt Propoſition.
 

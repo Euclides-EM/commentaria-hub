@@ -15,15 +15,13 @@ Das auch die linien e a vnd e b / gleich ſein / wirt offenbar / angeſächen di
 
 {dropcap:W|lines=2|style=plain}as hierauß abzünemen ſein für vortail / vnd vergleichung der vmb vnnd aingeſchribnen fünffeckh / ⁊c. gegen ainander / gib ich dem fleiſſigen Leſer vnd der yebung zůbetrachten. Seittenmal aber ich verhäiſſen / die proportion der vmb vnd aingeſchreibnen figurn gegen jren zircklen / vnd härgegen / anzůzaigen / wil ich ſollichs auch bei den fünffeckhen thůn. Darzů ich ettlich propoſit. Euclidis / můß hiehär als ainen grund diſer handlung ſetzen / dern demonſtration ich vnderlaſſen / doch alles demonſtrierte von Euclide oder vns / anziechen will.
 
-[Curated heading level=1 type=added_propositions: Das vierdt bůch Euclidis]
-
-[Curated heading level=2 type=added_propositions: Die 1. propoſition des anhangs.]
+[Curated heading level=4 type=added_propositions: Die 1. propoſition des anhangs.]
 
 #### Die 1. propoſition des anhangs.
 
 {dropcap:D|lines=2|style=plain}arbei erſtlich zů merckhen / das der ſemidiameter des zirckels / vnd die ſeitten ains regular ſechßeckhs / ain lini oder gleiche linien ſeind / wie volgende 15 propoſ. beweißt / vnd wir auch oben bei diß gegenwürtigen bůchs anderer propoſ. grundtlich angezaigt haben.
 
-[Curated heading level=2 type=added_propositions: Die 2. propoſition des anhangs.]
+[Curated heading level=4 type=added_propositions: Die 2. propoſition des anhangs.]
 
 #### Die 2. propoſition des anhangs.
 

@@ -37,11 +37,11 @@ On les peut appeller des angles circonſcripts.
 
 Et voicy une nouvelle maniere de les meſurer.
 
-[Curated heading level=2 type=propositions: LII. SEPTIEME THEOREME.]
+[Curated heading level=4 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LII. SEPTIEME THEOREME.]
+[Curated heading level=4 type=theorems: SEPTIEME THEOREME.]
 
-### SEPTIEME THEOREME.
+#### SEPTIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LII.]
 
@@ -51,7 +51,7 @@ LII.
 
 L'ANGLE circonſcript au cercle, c'eſtadire dont les deux coſtez touchent le cercle, a pour meſure la demycirconference moins l'arc convexe ſur lequel il eſt appuyé.
 
-#### PREMIERE DEMONSTRATION.
+##### PREMIERE DEMONSTRATION.
 
 Soit l'angle *b k d*, à qui ſoit donné pour baſe la ligne qui joint les deux points d'attouchement *b d*; l'angle *k* plus les deux angles ſur ſa baſe ſont égaux à deux droits, c'eſtadire ont pour meſure pris enſemble la demycirconference.
 

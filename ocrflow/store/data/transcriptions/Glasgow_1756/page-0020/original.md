@@ -1,13 +1,13 @@
 <!-- Running title: LIBER PRIMUS. -->
 <!-- Page number: 5 -->
 
-[Curated heading level=2 type=definitions: DEF. XXIX.]
+[Curated heading level=3 type=definitions: XXIX.]
 
 ### XXIX.
 
 Acutangulum vero, quod tres acutos angulos habet.
 
-[Curated heading level=2 type=definitions: DEF. XXX.]
+[Curated heading level=3 type=definitions: XXX.]
 
 ### XXX.
 
@@ -15,13 +15,13 @@ Quadrilaterarum figurarum, quadratum eſt, quod et aequilaterum eſt et rectangu
 
 [Diagram: a square and an oblong rectangle]
 
-[Curated heading level=2 type=definitions: DEF. XXXI.]
+[Curated heading level=3 type=definitions: XXXI.]
 
 ### XXXI.
 
 Altera parte longior figura eſt, quae rectangula quidem aequilatera vero non eſt.
 
-[Curated heading level=2 type=definitions: DEF. XXXII.]
+[Curated heading level=3 type=definitions: XXXII.]
 
 ### XXXII.
 
@@ -29,19 +29,19 @@ Rhombus, quae aequilatera quidem, ſed rectangula non eſt.
 
 [Diagram: two rhombi]
 
-[Curated heading level=2 type=definitions: DEF. XXXIII.]
+[Curated heading level=3 type=definitions: XXXIII.]
 
 ### XXXIII.
 
 Rhomboides, quae oppoſita latera inter ſe aequalia habens, neque aequilatera eſt, neque rectangula.
 
-[Curated heading level=2 type=definitions: DEF. XXXIV.]
+[Curated heading level=3 type=definitions: XXXIV.]
 
 ### XXXIV.
 
 Praeter has autem reliquae quadrilaterae figurae trapezia vocentur.
 
-[Curated heading level=2 type=definitions: DEF. XXXV.]
+[Curated heading level=3 type=definitions: XXXV.]
 
 ### XXXV.
 

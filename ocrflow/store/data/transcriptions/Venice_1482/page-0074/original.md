@@ -6,8 +6,6 @@ prime ad ſecũdã ſicut tertie ad quartã.qd̃ autẽ dicit in.8.diffinitione 
 [unclear: nixi]
 [/Handwritten]
 
-[Curated heading level=1 type=propositions: LIBER V]
-
 [Curated heading level=2 type=propositions: Propoſitio .1.]
 
 ## Propoſitio .1.

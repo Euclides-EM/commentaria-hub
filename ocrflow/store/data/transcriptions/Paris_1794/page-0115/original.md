@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 87 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XXVII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXVII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXVII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXVII.]
 
 ## PROPOSITION XXVII.
 

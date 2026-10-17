@@ -6,6 +6,8 @@
 vom anfang vnd grund der Geometri.
 [/Subhead]
 
+[Curated heading level=2: Beſchreybungen / oder außlegung etlicher wörtlin.]
+
 Beſchreybungen / oder außlegung etlicher wörtlin.
 
 [Curated heading level=3 type=margin_terms: Pars]
@@ -14,13 +16,11 @@ Beſchreybungen / oder außlegung etlicher wörtlin.
 a Pars.
 [/Margin]
 
-[Curated heading level=1 type=definitions: Das fünffte bůch Euclidis]
-
-[Curated heading level=2 type=definitions: Beſchreibung 1.]
+[Curated heading level=3 type=definitions: 1]
 
 1 {dropcap:E|lines=3|style=decorated}ß wirt ain tailᵃ genant / das klainer / ſo inn ainem gröſſeren gerad ettlich mall begreiffen wirt.
 
-[Curated heading level=2 type=definitions: Beſchreibung 2.]
+[Curated heading level=3 type=definitions: 2]
 
 2 Solliches gröſſers / inn welchem das klainer gerad ettlich mal begreiffen iſt / nennen wir ain Gantzesᵇ.
 
@@ -30,7 +30,7 @@ a Pars.
 b Multiplex.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Beſchreibung 3.]
+[Curated heading level=3 type=definitions: 3]
 
 3 So man zwar gleichförmige ding irer zal / oder gröſſe wegen (oder was vnder zal / vnd gröſſe begriffen / auch dadurch verſtanden wirt) gegen ainander haltett / oder ſchetzet:wirt ſolliche vergleichung oder gegenſatz ain Proporzᶜ genant.
 

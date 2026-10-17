@@ -2,9 +2,9 @@
 
 <!-- Page number: 259 -->
 
-[Curated heading level=2 type=propositions: Der XI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 11. Beweiß-Stück. Der XI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 11. Beweißstück.]
 
 ## Der XI. Vortrag.
 

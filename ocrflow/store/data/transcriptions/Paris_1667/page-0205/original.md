@@ -35,9 +35,9 @@ LORSQUE deux cercles dont l'un eſt dans l'autre ſe touchent, toutes les cordes
 
 Car les angles m k b & m k d ſont le même angle. Or l'un a pour meſure la moitié de l'arc k b, & l'autre la moitié de l'arc k d. Donc ces deux arcs ſont proportionellement égaux.
 
-[Curated heading level=2 type=propositions: XVI. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XVI. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 

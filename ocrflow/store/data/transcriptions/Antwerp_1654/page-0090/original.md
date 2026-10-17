@@ -13,9 +13,7 @@ Rectangulum porro aliud eſt oblongum, aliud quadratum. Oblongum eſt quod later
 
 Signum æqualitatis in hoc libro eſt. Æ.
 
-[Curated heading level=1 type=propositions: Liber II]
-
-[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO PRIMA.]
+[Curated heading level=2 type=propositions: PROPOSITIO PRIMA.]
 
 ## PROPOSITIO PRIMA.
 

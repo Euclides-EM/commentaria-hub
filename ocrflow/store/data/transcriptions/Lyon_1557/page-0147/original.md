@@ -9,7 +9,7 @@ Sit enim G ad C vt D ad E. Et erit, per priorem partem decimæ huius, G minor B 
 
 [Diagram: horizontal lines labelled A, B, C, H, G, C and D, E, F]
 
-[Curated heading level=2 type=additions: Campani Additarum VIII.]
+[Curated heading level=3 type=additions: VIII.]
 
 ### VIII.
 
@@ -21,7 +21,7 @@ Erit enim, per ſecundam additarum, permutatim, maior proportio AB ad AE, quàm 
 
 [Diagram: two horizontal lines, one labelled A, E, B, the other C, G, F, D]
 
-[Curated heading level=2 type=additions: Campani Additarum IX.]
+[Curated heading level=3 type=additions: IX.]
 
 ### IX.
 

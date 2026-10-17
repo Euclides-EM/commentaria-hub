@@ -20,7 +20,7 @@ Il faut donc qu'il y ait une ligne droitte outre la circonference, afin que les 
 
 *Voicy donc la propoſition generale ſur ce ſujet, qui eſt peuteſtre la plus belle & la plus generale qu'on puiſſe trouver ſur les proportions des lignes par la geometrie ordinaire.*
 
-[Curated heading level=2 type=propositions: XXXVIII. PROPOSITION GENERALE.]
+[Curated heading level=4 type=propositions: PROPOSITION GENERALE.]
 
 #### PROPOSITION GENERALE.
 

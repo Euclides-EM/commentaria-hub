@@ -3,9 +3,9 @@
 
 Donc enfin la ſurface convexe d’un cône eſt égale à la circonférence de ſa baſe multipliée par la moitié de ſon côté.
 
-[Curated heading level=2 type=propositions: PROPOSITION VIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VIII.]
+[Curated heading level=2 type=theorems: PROPOSITION VIII.]
 
 ## PROPOSITION VIII.
 

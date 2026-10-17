@@ -11,9 +11,9 @@ Dw.   AB ╪ CH     n. 27. Vortr.
 
 Ist also dem Strich AB, ein Neben-Strich CH, durch den Düttel C, gezogen W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXXII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 22. Beweiß-Stück. Der XXXII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 22. Beweiß-Stück.]
 
 ## Der XXXII. Vortrag.
 

@@ -1,9 +1,9 @@
 <!-- Running title: DE GEOMETRIE. LIVRE IV. -->
 <!-- Page number: 69 -->
 
-[Curated heading level=2 type=propositions: XV. QUATRIEME THEOREME.]
+[Curated heading level=2 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XV. QUATRIEME THEOREME.]
+[Curated heading level=2 type=theorems: QUATRIEME THEOREME.]
 
 ## QUATRIEME THEOREME.
 
@@ -73,7 +73,7 @@ Donc oſtant de part & d'autre ixy , reſte  { bbb.
 
 C'eſt la même choſe de la 3e maniere.
 
-[Curated heading level=2 type=propositions: XVI. PROPOSITION FONDAMENTALE]
+[Curated heading level=2 type=propositions: PROPOSITION FONDAMENTALE]
 
 ## PROPOSITION FONDAMENTALE
 [Subhead]

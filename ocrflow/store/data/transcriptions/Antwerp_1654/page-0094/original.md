@@ -25,7 +25,7 @@ rect.L B F.  Æ.  rect. A F B.
 { quad.C B.
 [/Calculation]
 
-[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO VII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VII.]
 
 ## PROPOSITIO VII.
 

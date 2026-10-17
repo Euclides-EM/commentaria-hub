@@ -17,8 +17,6 @@ Vt ſi A D ad rectam A B applicatum, deficit ipſo D B ſimili dato E, vel ſi a
 
 [Diagram: parallelograms applied to a line and labelled A, B, C, D and E]
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIONum reſtitutarum Liber ſextus.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
 ## Propoſitio prima.

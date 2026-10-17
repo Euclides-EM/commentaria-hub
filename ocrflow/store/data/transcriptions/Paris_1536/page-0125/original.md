@@ -28,7 +28,7 @@ De rationum cōparatione.
 
 ¶Ἀναλογία δὲ ἐστιν, ἡ τῶν λόγων ὁμοιότης.
 
-[Curated heading level=2 type=definitions: Diffinitio 4.]
+[Curated heading level=2 type=definitions: 4]
 
 4 Proportio verò, est rationum identitas.
 
@@ -58,7 +58,7 @@ Genere diuersa discōtinuā proportionē obseruant. Corollarium.
 
 ¶Λόγον ἔχειν πρὸς ἄλληλα μεγέθη λέγεται, ἃ δύναται πολλαπλασιαζόμενα ἀλλήλων ὑπερέχειν.
 
-[Curated heading level=2 type=definitions: Diffinitio 5.]
+[Curated heading level=2 type=definitions: 5]
 
 5 Rationem habere adinuicē magnitudines dicuntur, quæ possunt multiplicatæ inuicem excedere.
 

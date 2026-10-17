@@ -13,9 +13,9 @@ Auch alle andere mangelhaffte Vierecke sind kleiner/ als das an die Helffte des 
 
 Ist derowegen das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck grösser/ als alle andere mangelhaffte an den gegeben Strich angeschlagene Vierecke. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXIIX. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XXIIX. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 8. Werck-Stück. Der XXIIX. Vortrag.]
+[Curated heading level=2 type=problems: Das 8. Werck-Stück.]
 
 ## Der XXIIX. Vortrag.
 

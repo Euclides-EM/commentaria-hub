@@ -3,7 +3,7 @@
 
 lich daß der triangel a e f / dem triangel b e h gleich ſey / wie auch a b g vnd b e k / müſſen zůvor die linien bekhantt ſein / nemlich a f / b h / a g vnd c k / dann die andern als ſeitten bekanter quadrat ſeind wiſſenlich. Iſt nemlich die lenge der lini a f / √260 / der lini b h / √260 / der lini a g / √232 / der lini c k / √232. Iſt die ſeitten des gröſſern parallelograms c d e f / ſeind 6 2/5 vñ 10 / des klainern 10 vñ 3 3/5. Procedier wie ich dich in der 35 prop. gelehret hab der winckelmeſſigen parallelograms vñ der triangel innhalt zů ſůchen / wirſtu alles ſo in der demonſtration geſagt / warhafftig befunden / vnderlaß ich von khürtze wegen.
 
-### Anhang darinn der nutz diſer Propoſ. ettlicher maß eröffnet.
+#### Anhang darinn der nutz diſer Propoſ. ettlicher maß eröffnet.
 
 Wiewol der nutz gegenwertiger propoſ. weitleuffiger iſt / dann das er mitte wenig wortten gnůgſam mag erklärt werden / will ich doch etwas daruon dem Leſer zůlieb ſchreyben / wöll er ſelbſt weitter nachdencken / oder bey andern das vberig erholen / ſonderlich auch bemelte Chriſtoff Rudolffen exempel beſehen / darinn ain feine vbung diſer aigenschafft ſteht.
 

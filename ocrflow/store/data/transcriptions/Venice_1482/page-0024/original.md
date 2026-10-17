@@ -2,11 +2,15 @@ lineã .a.e.in pũcto .e. ⁊ ꝓtraham lineaʒ.e.c.⁊ quia triangulus e.b.c.e�
 
 [Curated heading level=2: Propoſitio .40.]
 
+[Curated heading level=2 type=propositions: SI duo trianguli equales]
+
 {dropcap:S|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I duo trianguli equales ſuper equales baſes vnius eiuſdemqʒ linee ex eadeʒ parte fuerint conſtituti eos inter duas lineas eque diſtantes neceſſe ẽ contineri.
 
 ¶Sint duo trianguli.a.b:c. d.e.f.equales conſtituti ſuper duas baſes que ſunt.b.c.⁊.e.f.⁊ ex eadem parte dico eos eſſe inter duas lineas equidiſtantes. ⁊ hec eſt conuerſa.38. ⁊ pꝛobatur per ipſam ſicut precedẽs per.37.a puncto.a.ducatur linea equidiſtans linee.b.f.que ſi tranſierit per punctum.d.patet pꝛopoſitum. ſin autem pertranſierit ſupꝛa vt.a.g.⁊ pꝛoducatur.e.d.vſqʒ ad ipſum que ſit .e.g.⁊ ducatur linea.g.f.eritqʒ per.38.triangulus.a.b.c. equalis triangulo.g.e.f.quare ⁊ triangul⁹.d.e.f. erit equalis triangulo.g.e.f.ꝑs toti quod eſt impoſſibile: Non ergo tranſibit ſupꝛa:tranſeat ergo infra.⁊ ſecet lineam .d.e.in puncto.h.⁊ ducatur linea.f.h.eritqʒ per .38.triangulus.h.e.f. eq̃lis triangulo.a.b.c.quare ⁊ triangulo.d.e.f: pars toti quod eſt impoſſibile. quia ergo non tranſibit niſi per punctum.d.patet ꝓpoſitum.
 
 [Curated heading level=2: Propoſitio .41.]
+
+[Curated heading level=2 type=propositions: SI palellogramũ trianguluſqʒ]
 
 {dropcap:S|lines=3|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}I palellogramũ trianguluſqʒ in eadem baſi atqʒ ĩ eiſdem alternis lineis fuerint ꝯſtituta palellogramũ triãgulo duplum eſſe ꝯueniet.
 

@@ -30,9 +30,9 @@ Dw. A + B + C : a + b + c | A : a — n. 1. V.
 
 Müssen derowegen alle etlicher ebenmässigen Grössen vorgehende zusammen-genommene Grössen zu allen Nachgehenden zusammen-genommenen Grössen sich also verhalten / wie eine der gegebenen Vorgehenden Grössen zu ihrer eigenen Nachgehenden Grösse. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XIII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XIII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 13. Beweiß-Stück. Der XIII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 13. Beweiß-Stück.]
 
 ## Der XIII. Vortrag.
 

@@ -1,11 +1,9 @@
 <!-- Running title: LIVRE VII. -->
 <!-- Page number: 215 -->
 
-[Curated heading level=1 type=lemmas: Livre VII]
+[Curated heading level=2 type=propositions: PROPOSITION XI.]
 
-[Curated heading level=2 type=propositions: PROPOSITION XI. LEMME.]
-
-[Curated heading level=2 type=lemmas: LEMME. PROPOSITION XI.]
+[Curated heading level=2 type=lemmas: PROPOSITION XI.]
 
 ## PROPOSITION XI.
 

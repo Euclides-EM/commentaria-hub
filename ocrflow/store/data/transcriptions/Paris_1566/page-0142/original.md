@@ -15,7 +15,7 @@ Diximus parallelogrammum applicandum non maius optari, eò quòd ad dimidiam ſi
 
 [Curated heading level=2 type=propositions: Propoſitio vigeſimanona.]
 
-[Curated heading level=2 type=problems: Propoſitio vigeſimanona. Problema 9.]
+[Curated heading level=2 type=problems: Problema 9.]
 
 ## Propoſitio vigeſimanona.
 

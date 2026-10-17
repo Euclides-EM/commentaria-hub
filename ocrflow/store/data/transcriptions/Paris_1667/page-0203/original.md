@@ -23,13 +23,9 @@ XII.
 
 ENFIN il faut remarquer, que quand on parle des arcs que ſoutiennent les coſtez d'un angle inſcrit dans le cercle, on doit entendre les deux qui ſont à coſté l'un de l'autre, & tout à fait ſeparez l'un de l'autre, & qui avec celuy ſur lequel l'arc inſcrit eſt appuyé comprennent toute la circonference.
 
-[Curated heading level=1 type=propositions: LIVRE NEVVIEME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME,]
 
-[Curated heading level=1 type=theorems: LIVRE NEVVIEME.]
-
-[Curated heading level=2 type=propositions: XIII. PREMIER THEOREME,]
-
-[Curated heading level=2 type=theorems: XIII. PREMIER THEOREME,]
+[Curated heading level=3 type=theorems: PREMIER THEOREME,]
 
 ### PREMIER THEOREME,
 [Subhead]

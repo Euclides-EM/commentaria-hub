@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-[Curated heading level=2 type=axioms: IX.]
+[Curated heading level=3 type=axioms: IX.]
 
 ### IX.
 
@@ -11,7 +11,7 @@ Si numerus numerum metiēs, multiplicet eum, per quem metitur, vel ab eo multipl
 hyp. | a, msur: b ꝑ c, A,3. B,15. C,5.
 9.a.7 | ▭.c,a 2|2 b.
 
-[Curated heading level=2 type=axioms: X.]
+[Curated heading level=3 type=axioms: X.]
 
 ### X.
 
@@ -23,7 +23,7 @@ hyp. | a + b + c 2|2 d, A,9. B,12. C,15. D,36. E,3.
 hyp. | e, msur: a, b, c,
 10.a.7 | e, msur: d.
 
-[Curated heading level=2 type=axioms: XI.]
+[Curated heading level=3 type=axioms: XI.]
 
 ### XI.
 

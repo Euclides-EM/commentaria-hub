@@ -7,7 +7,7 @@
 c Per defin. 6.l.11.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO V.]
+[Curated heading level=2 type=propositions: PROPOSITIO V.]
 
 ## PROPOSITIO V.
 

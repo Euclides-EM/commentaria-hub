@@ -1,7 +1,5 @@
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber nonus.
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber nonus.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
 ## Propoſitio prima.

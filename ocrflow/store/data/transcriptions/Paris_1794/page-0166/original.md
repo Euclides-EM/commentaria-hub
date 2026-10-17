@@ -15,9 +15,9 @@ En effet, prolongez l’arc GH d’une quantité KH=HG ; d’un rayon KP égal �
 
 Il résulte de là que l’apothême OE est plus grand que CB ; mais les deux polygones ayant même périmetre sont entre eux comme leurs apothêmes* ; donc le polygone qui a pour demi-côté DE est plus grand que celui qui a pour demi-côté AB : le premier a plus de côtés, puisque l’angle au centre est plus petit ; donc de deux polygones réguliers isopérimetres, celui qui a le plus de côtés est le plus grand.
 
-[Curated heading level=2 type=propositions: PROPOSITION X. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION X.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION X.]
+[Curated heading level=2 type=theorems: PROPOSITION X.]
 
 ## PROPOSITION X.
 

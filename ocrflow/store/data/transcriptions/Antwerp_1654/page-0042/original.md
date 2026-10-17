@@ -7,7 +7,7 @@
 Fig.18.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 36]
+[Curated heading level=3 type=definitions: 36.]
 
 36. Rectæ lineæ parallelæ ſeu æquidiſtantes ſunt, quæ in eodem plano exiſtentes, vtrimque in infinitum protractæ, æqualibus ſemper interuallis inter ſe diſtant.
 
@@ -21,7 +21,7 @@ Euclides definit parallelas eſſe, quæ vtrimque in infinitum productæ, in neu
 Fig.17.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 37]
+[Curated heading level=3 type=definitions: 37.]
 
 37. Parallelogrammi & cuiuſuis quadrilateri diameter eſt recta (A F) per angu
 

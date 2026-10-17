@@ -4,7 +4,7 @@ ficies perfecte plana, iuxta omnes definitiones; Non enim difficile erit huic ſ
 
 [Diagram: an arch, showing the curved surface of a fornix]
 
-[Curated heading level=2 type=definitions: VIII.]
+[Curated heading level=3 type=definitions: VIII.]
 
 ### VIII.
 

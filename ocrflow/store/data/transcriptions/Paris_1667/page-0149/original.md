@@ -59,13 +59,9 @@ XVII.
 
 Les obliques entre paralleles ſont plus longues que les perpendiculaires. Car chaque oblique eſt plus longue que ſa perpendiculaire, & toutes les perpendiculaires ſont égales.
 
-[Curated heading level=1 type=propositions: LIVRE SIXIEME.]
+[Curated heading level=2 type=propositions: PROBLEME.]
 
-[Curated heading level=1 type=problems: LIVRE SIXIEME.]
-
-[Curated heading level=2 type=propositions: XVIII. PROBLEME.]
-
-[Curated heading level=2 type=problems: XVIII. PROBLEME.]
+[Curated heading level=2 type=problems: PROBLEME.]
 
 ## PROBLEME.
 

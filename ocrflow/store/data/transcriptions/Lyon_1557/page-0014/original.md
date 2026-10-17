@@ -5,13 +5,13 @@ iuſmodi ſit & in quo conſiſtat. Nam quòd nonnulli dixerunt, Angulum partem 
 
 Huic igitur dubitationi, meo iudicio, ſic occurrendum, Angulum quidem in vno puncto conſiſtere: ſed inclinationem eſſe quæ maiorem ipſum aut minorem efficit. Linea quidem lineam ſecans Angulum conſtituit: ſed non proptereà Angulus pars eſt Lineæ: ſicut nec Lineæ ipſæ ſunt Superficiei partes, quãuis ſine Lineis Superficies eſſe non poſſit quæ ipſam terminēt. Neque igitur Angulus pars erit Superficiei, quòd ipſam occludat. In quo ſanè intueri licet, punctum ipſum ſectionis, à linea ſecante premi & quodammodo anguſtius fieri, pro inclinationis modo. Punctum ergo erit quantitas? minimè. Intellectus enim quod ſemel minutiſſimum receperit, id ampliùs non diuidit: ſed contrahere tamen & conſtringere nihil vetat. Ac nequis nos repugnantia dicere putet, is attendat in Geometria Punctum non conſiderari vt nihil: immò vt aliquid. Et vt in Arithmeticis Vnitatem minuimus, ſic & Punctum ſuo modo in Continuis: ſcilicet vt id ex quo omnia emergunt, omnium etiam repræſentationem imaginemq́; exhibeat: nempe recti, obliqui, longi, lati, & profundi. Quum igitur Geometria Naturam vbique referat, vt eſt ipſius ſpeculum: cogitemus, ſicut in angulo phyſico duæ lineæ quantunlibet tenues ſe mutuò non poſſunt ſcindere, niſi altera alteri cedat in puncto decuſſationis: ita in linearum Mathematicarum ſectione recta, Punctum quodammodo eſſe quadratum: in obtuſa, hebetius: in acuta, preſſius & anguſtius. Atque hæc intellectus aſſequitur: qui niſi cum natura nunquam conquieſcit. Vnde Puncti imminuendi finem non facit: donec linea cadens cum iacente vna facta ſit. Quum itaque Punctum diuiſionis expers eſſe intellectus ponit: id concipit, vt neque Linea, neque Superficies, neque Corpus ſit. Sed quum ad Angulum deuenit, qui aliam omninò habet cõſiderationem à cæteris quantitatibus: tunc quod ſine partibus receperat, id iam minuendum aſſumit: ſcilicet, vt, quod paulò antè diximus, id ex quo quantitas naſcitur, naturam etiam quantitatis ſapiat. Atque hæc noſtra eſt de Anguli conſtitutione ſententia. Diu enim nos exercuit hęc Puncti variatio: quam à nemine obſeruatam inuenimus: & ſi modò obſeruata ſit, hactenus diſſimulata eſt. Impedita enim res eſt in diſciplinis ea, quæ quum apparet, demonſtrationem non recipit. Quòd ſiquis hac in re habebit quod probabilius ſentiat, huic libenter concedemus. Nihil enim inueſtigandum nobis proponimus præter veritatem.
 
-[Curated heading level=2 type=definitions: DEFINITIO 13.]
+[Curated heading level=3 type=definitions: 13]
 
 ### 13 Terminus, eſt quod cuiuſque finis eſt.
 
 Quia Puncta, Linearum: Lineæ, Superficierum: Superficies, Corporum ſunt termini: moxq́; Figuram terminatam eſſe ponit: quid Terminus eſſet definire voluit: nempè vniuſcuiuſque rei finis.
 
-[Curated heading level=2 type=definitions: DEFINITIO 14.]
+[Curated heading level=3 type=definitions: 14]
 
 ### 14 Figura, eſt quæ ſub aliquo vel aliquibus terminis continetur.
 

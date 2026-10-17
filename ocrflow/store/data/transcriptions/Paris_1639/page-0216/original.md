@@ -8,7 +8,7 @@ hyp. | a π b 2|2 f π g, b π c 2|2 e π f, 23.5 | a π c 2|2 e π g.
 
 A ces 19. definitions d'Euclide, i'adiousteray la definition & l'axiome qui suiuent.
 
-[Curated heading level=2 type=definitions: DEF. XX.]
+[Curated heading level=3 type=definitions: XX.]
 
 ### XX.
 

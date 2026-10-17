@@ -5,7 +5,7 @@ DENIQVE & vnitas aliquando ſolidus appellabitur numerus, & ſi non proprie, qui
 
 DEFINIT autem & hic Euclides tantum numerum ſolidum rectangulum, cuius baſes oppoſitæ ſunt parallelæ, contineturque ſub tribus numeris, omiſſis infinitis alijs, de quibus Iordanus, ob cauſam in præcedenti definitione datam, quia ſcilicet hi prorſus æquales ſunt, & ſimiles cubis, & parallelepipedis Geometricis.
 
-[Curated heading level=2 type=definitions: XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 ### XVIII.
 

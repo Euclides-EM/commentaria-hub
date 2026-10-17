@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=2 type=definitions: DEF. XIII.]
+[Curated heading level=3 type=definitions: XIII.]
 
 ### XIII.
 
@@ -11,7 +11,7 @@ A, 6. B, 4. C, 12. D, 8.
 hyp. | a π b 2|2 c π d, c.4.5 | b π a 2|2 d π c.
 6 4 12 8 4 6 8 12
 
-[Curated heading level=2 type=definitions: DEF. XIV.]
+[Curated heading level=3 type=definitions: XIV.]
 
 ### XIV.
 

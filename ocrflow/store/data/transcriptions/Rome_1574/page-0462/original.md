@@ -13,7 +13,7 @@ ITAQVE cum proportio extremorum componatur ex proportionibus intermedijs, ceu de
 
 QVINQVE autem prædictis definitionibus Euclidis addendam eſſe cenſemus ſequentem ſextam, quæ multum conducet, ut recte intelligantur 27, 28 29. & 40. propoſitiones huius libri, & quamplurima aliæ decimi libri. Ea autem eſt eiuſmodi.
 
-[Curated heading level=2 type=definitions: VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 

@@ -17,49 +17,49 @@ Et quovis centro et intervallo circulum deſcribere.
 
 ## AXIOMATA.
 
-[Curated heading level=2 type=axioms: AXIOMA I.]
+[Curated heading level=3 type=axioms: I.]
 
 ### I.
 
 {dropcap:Q|lines=2|style=plain}UAE eidem aequalia, et inter ſe ſunt aequalia.
 
-[Curated heading level=2 type=axioms: AXIOMA II.]
+[Curated heading level=3 type=axioms: II.]
 
 ### II.
 
 Et ſi aequalibus aequalia adjiciantur, tota ſunt aequalia.
 
-[Curated heading level=2 type=axioms: AXIOMA III.]
+[Curated heading level=3 type=axioms: III.]
 
 ### III.
 
 Et ſi ab aequalibus aequalia auferantur, reliqua ſunt inaequalia.
 
-[Curated heading level=2 type=axioms: AXIOMA IV.]
+[Curated heading level=3 type=axioms: IV.]
 
 ### IV.
 
 Et ſi inaequalibus aequalia adjiciantur, tota ſunt inaequalia.
 
-[Curated heading level=2 type=axioms: AXIOMA V.]
+[Curated heading level=3 type=axioms: V.]
 
 ### V.
 
 Et ſi ab inaequalibus aequalia auferantur, reliqua ſunt inaequalia.
 
-[Curated heading level=2 type=axioms: AXIOMA VI.]
+[Curated heading level=3 type=axioms: VI.]
 
 ### VI.
 
 Et quae ejuſdem ſunt duplicia, inter ſe ſunt aequalia.
 
-[Curated heading level=2 type=axioms: AXIOMA VII.]
+[Curated heading level=3 type=axioms: VII.]
 
 ### VII.
 
 Et quae ejuſdem ſunt dimidia, inter ſe ſunt aequalia.
 
-[Curated heading level=2 type=axioms: AXIOMA VIII.]
+[Curated heading level=3 type=axioms: VIII.]
 
 ### VIII.
 

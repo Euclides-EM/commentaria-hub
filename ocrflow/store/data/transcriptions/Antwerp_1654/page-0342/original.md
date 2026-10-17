@@ -1,7 +1,7 @@
 <!-- Running title: Ex Archimede. -->
 <!-- Page number: 307 -->
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIV.]
 
 ## PROPOSITIO XIV.
 

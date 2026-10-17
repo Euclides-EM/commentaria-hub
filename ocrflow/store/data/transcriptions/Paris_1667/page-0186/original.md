@@ -11,9 +11,9 @@ XXVIII.
 
 LES angles iſocordes & égaux ſont équilateres entr'eux. Car il eſt aiſé de voir par le 3e Lemme que les cordes égales ne peuvent ſoûtenir des arcs égaux, que dans les mêmes cercles, ou en des cercles égaux.
 
-[Curated heading level=2 type=propositions: XXIX. SECOND THEOREME.]
+[Curated heading level=4 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XXIX. SECOND THEOREME.]
+[Curated heading level=4 type=theorems: SECOND THEOREME.]
 
 #### SECOND THEOREME.
 
@@ -49,11 +49,9 @@ XXXI.
 
 N'Y ayant égalité que dans la grandeur des angles, les plus grandes cordes donnent les plus grands coſtez, & les plus grands coſtez ont les plus grandes cordes. C'eſt le 4e Lemme.
 
-[Curated heading level=1 type=problems: LIVRE HUITIEME.]
+[Curated heading level=4 type=propositions: PREMIER PROBLEME.]
 
-[Curated heading level=2 type=propositions: XXXII. PREMIER PROBLEME.]
-
-[Curated heading level=2 type=problems: XXXII. PREMIER PROBLEME.]
+[Curated heading level=4 type=problems: PREMIER PROBLEME.]
 
 #### PREMIER PROBLEME.
 
@@ -65,9 +63,9 @@ XXXII.
 
 COUPER en deux un angle donné. L'ayant pris iſoſcele, il ne faut qu'en couper la corde perpendiculairement & par la moitié, ce qui ſe fait de la même ſorte. Car alors l'arc ſera partagé par la moitié, par VII. 6.
 
-[Curated heading level=2 type=propositions: XXXIII. SECOND PROBLEME.]
+[Curated heading level=4 type=propositions: SECOND PROBLEME.]
 
-[Curated heading level=2 type=problems: XXXIII. SECOND PROBLEME.]
+[Curated heading level=4 type=problems: SECOND PROBLEME.]
 
 #### SECOND PROBLEME.
 

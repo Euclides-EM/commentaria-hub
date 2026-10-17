@@ -1,9 +1,9 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XIV. -->
 <!-- Page number: 295 -->
 
-[Curated heading level=2 type=propositions: XXXI. SIXIEME THEOREME.]
+[Curated heading level=3 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXI. SIXIEME THEOREME.]
+[Curated heading level=3 type=theorems: SIXIEME THEOREME.]
 
 ### SIXIEME THEOREME.
 

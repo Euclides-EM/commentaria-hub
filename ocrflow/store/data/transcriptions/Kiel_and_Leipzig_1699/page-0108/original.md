@@ -32,9 +32,9 @@ a | b + c + d nach 3. Gegeb.
 e | e
 ae | be + ce + de nach 1. Gr-S. II. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der II. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der II. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 2. Beweiß-Stück. Der II. Vortrag.]
+[Curated heading level=2 type=theorems: Das 2. BeweißStück.]
 
 ## Der II. Vortrag.
 

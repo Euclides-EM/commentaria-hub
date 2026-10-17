@@ -1,7 +1,7 @@
 <!-- Running title: Liber Sextus. -->
 <!-- Page number: 205 -->
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIV.]
 
 ## PROPOSITIO XIV.
 
@@ -33,7 +33,7 @@ o Per 11.l.5.
 q Per 9.l.5.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XV.]
 
 ## PROPOSITIO XV.
 

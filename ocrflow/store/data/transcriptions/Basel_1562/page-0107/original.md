@@ -13,7 +13,7 @@ Welches auß der 4 des erſten / vnd 28 diß bůchs gar leicht zůbeweiſen. So 
 
 [Diagram: two circular segments with bisecting construction lines]
 
-[Curated heading level=2 type=propositions: XXXI. Die ainvnddreyſſigſt Propoſition]
+[Curated heading level=2 type=propositions: XXXI Die ainvnddreyſſigſt Propoſition.]
 
 ## XXXI Die ainvnddreyſſigſt Propoſition.
 

@@ -1,11 +1,5 @@
 <!-- Page number: 420 -->
 
-[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER TERTIVSDECIMVS]
-
-[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER TERTIVSDECIMVS]
-
-[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER TERTIVSDECIMVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER TERTIVSDECIMVS,
 
 ## Euclides ex Campano. Propoſitio 1

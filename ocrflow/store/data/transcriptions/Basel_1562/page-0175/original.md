@@ -1,7 +1,7 @@
 <!-- Running title: Des ſechßten bůchs Euclidis -->
 <!-- Page number: 154 -->
 
-[Curated heading level=2 type=definitions: Beſchreibung 4.]
+[Curated heading level=3 type=definitions: 4.]
 
 ### 4.
 
@@ -16,7 +16,7 @@ In winckelrechten figurn zaigt ſych die höhe ſelbſt / in andern / gibt ſy d
 [Diagram]
 [Diagram]
 
-[Curated heading level=2 type=definitions: Beſchreibung 5.]
+[Curated heading level=3 type=definitions: 5.]
 
 ### 5.
 

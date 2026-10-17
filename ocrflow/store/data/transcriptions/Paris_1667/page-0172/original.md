@@ -13,9 +13,9 @@ Or il eſt clair que le point f ſe trouvera au dedans du 2e cercle, parce que k
 
 Et par la même raiſon le point g ſe trouvera au dehors du 2e cercle, parce que kg eſt plus longue que kx, qui en eſt le rayon: ce qui fait voir auſſy que tous les points de la 1re circonference plus proches de g qu'x ſe trouveront auſſy au dehors du 2e cercle.
 
-[Curated heading level=2 type=propositions: XXIX. SIXIEME THEOREME.]
+[Curated heading level=3 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXIX. SIXIEME THEOREME.]
+[Curated heading level=3 type=theorems: SIXIEME THEOREME.]
 
 ### SIXIEME THEOREME.
 

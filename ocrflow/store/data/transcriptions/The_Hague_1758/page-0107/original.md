@@ -8,19 +8,19 @@
 
 ## DEFINITIONS
 
-[Curated heading level=2 type=definitions: DEFINITION I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 
 {dropcap:O|lines=2|style=plain}N nomme *tangente d'un cercle*, une ligne droite (ADB), qui touche le cercle fans le couper, quoique prolongée de part & d'autre à l'infini *Fig*. 1.
 
-[Curated heading level=2 type=definitions: DEFINITION II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 
 On dit que *deux cercles ſe touchent*, quand leurs circonférences (ABC, CEF ou ABC, GBH) ſe touchent ſans ſe couper. *Fig*. 2.
 
-[Curated heading level=2 type=definitions: DEFINITION III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 

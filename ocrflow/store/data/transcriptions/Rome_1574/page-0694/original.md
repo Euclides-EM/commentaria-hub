@@ -2,10 +2,6 @@
 
 <!-- Page number: 305 -->
 
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM IX.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM IX.]
-
 # EVCLIDIS ELEMENTVM IX.
 
 [Ornament: floral headpiece]

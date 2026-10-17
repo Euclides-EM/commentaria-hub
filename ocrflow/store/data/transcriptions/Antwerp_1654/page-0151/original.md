@@ -1,7 +1,7 @@
 <!-- Page number: 118 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO XII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XII.]
 
 ## PROPOSITIO XII.
 

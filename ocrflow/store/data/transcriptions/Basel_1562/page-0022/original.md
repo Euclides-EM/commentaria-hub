@@ -22,21 +22,19 @@ Erklaͤrung ettlicher woͤrttlin / ſo in diſem buͦch begegnen.
 Definitiones.
 [/Margin]
 
-[Curated heading level=1 type=definitions: Das erſt buͦch Euclidis]
-
-[Curated heading level=2 type=definitions: Beſchreibung 1.]
+[Curated heading level=3 type=definitions: 1.]
 
 1. Ain punct oder tipfflin / wirtt das genant / ſo khain thail hatt.
 
 Der punct iſt ein anfang aller groͤſſen oder quantitet / yedoch er ſelbſt iſt khain groͤſſe. Darum mag er auch nit gethailt werden. Alſo iſt 1.(wie im vij.Euclidis volgt) khain zall / dan 1. multipliciert / vnd diuidiert nit / ⁊c. aber iſt ein vrſprung aller zalen.
 
-[Curated heading level=2 type=definitions: Beſchreibung 2.]
+[Curated heading level=3 type=definitions: 2.]
 
 2. Ain linj iſt ain lenge / on alle breitte / welche ſich an einem puncten anfacht / vn̄ an einem puncten endet.
 
 [Diagram: a straight horizontal line and a curved line]
 
-[Curated heading level=2 type=definitions: Beſchreibung 3.]
+[Curated heading level=3 type=definitions: 3.]
 
 3. Ain geſtrackhe oder rechte linj iſt / welche zuͦgleich zwiſchen jren zwen puncten (darinn ſy begriffen) ligt. Oder / iſt die nechſt vnd kürtzeſt außſtreckung von ainem punctenn zum anderen.
 
@@ -50,11 +48,11 @@ Dann die khrum̄en oder gebognē linien / ſchwingen ſich überſich oder vnder
 Superficies
 [/Margin]
 
-[Curated heading level=2 type=definitions: Beſchreibung 4.]
+[Curated heading level=3 type=definitions: 4.]
 
 4. Ain fleche wirt genent / waß allain ain lenge vnnd braitte hatt / vnd wirt mit linien eingeſchloſſen.
 
-[Curated heading level=2 type=definitions: Beſchreibung 5.]
+[Curated heading level=3 type=definitions: 5.]
 
 5. Ain ebne fleche iſt / welche zuͦgleich ligt zwiſchen den linienn darmit ſy begriffen wirtt.
 
@@ -62,7 +60,7 @@ Superficies
 
 Hiemit werdē außgeſchloſſen die khrum̄e vn̄ gebogne flechinen / als die ſeind an kuglen / ſeulen / ⁊c.
 
-[Curated heading level=2 type=definitions: Beſchreibung 6.]
+[Curated heading level=3 type=definitions: 6.]
 
 6. Ain ebenn / eckh / oder ebner winckel iſt / ſo zwo linien in einer ebnen einander betreffend vnnd anrürend / welche nit ſtracks einander nach ligen.
 

@@ -7,7 +7,7 @@ Car AE étant parallele à CD, on a BE:EC::BA:AD;
 
 Or BE=EC, donc BA=AD.
 
-[Curated heading level=2 type=problems: PROBLÊME VI.]
+[Curated heading level=3 type=problems: PROBLÊME VI.]
 
 ### PROBLÊME VI.
 
@@ -33,7 +33,7 @@ F. 144.
 
 Car, puisqu’on a BC:XY::XY:½AD, il en résulte XY²=BC×½AD ; donc le quarré fait sur XY est équivalent au triangle ABC.
 
-[Curated heading level=2 type=problems: PROBLÊME VII.]
+[Curated heading level=3 type=problems: PROBLÊME VII.]
 
 ### PROBLÊME VII.
 

@@ -32,13 +32,9 @@ IX.
 
 ### METHODE COMMUNE.
 
-[Curated heading level=1 type=lemmas: LIVRE QVINZIEME.]
+[Curated heading level=4 type=lemmas: LEMME OU AXIOME.]
 
-[Curated heading level=1 type=axioms: LIVRE QVINZIEME.]
-
-[Curated heading level=2 type=lemmas: X. LEMME OU AXIOME.]
-
-[Curated heading level=2 type=axioms: X. LEMME OU AXIOME.]
+[Curated heading level=4 type=axioms: LEMME OU AXIOME.]
 
 #### LEMME OU AXIOME.
 

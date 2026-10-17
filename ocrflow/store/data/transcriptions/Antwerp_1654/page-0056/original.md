@@ -11,9 +11,9 @@ d Per 8. l.1.
 e Per def. 14.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XIII.]
+[Curated heading level=3 type=propositions: PROPOSITIO XIII.]
 
-## PROPOSITIO XIII.
+### PROPOSITIO XIII.
 
 [Curated heading level=2 type=figures: Fig. 34]
 
@@ -33,7 +33,7 @@ a Per 11. l.1.
 b Per axio. 7.
 [/Margin]
 
-### Corollaria.
+#### Corollaria.
 
 [Curated heading level=4 type=numbered_item: 1.]
 

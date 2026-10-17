@@ -1,5 +1,7 @@
 [Curated heading level=2: Propoſitio .11.]
 
+[Curated heading level=2 type=propositions: DAta linea recta]
+
 {dropcap:D|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ata linea recta a pũcto in ea ſignato ꝑpẽdicularẽ extrahere duob⁹q̃dem angul' eq̃lib⁹ac rectis vtrinqʒ ſubnixam.
 
 ¶Sit data linea.a.b.in q̃ ſit datus pũctus.c.a quo oʒ ꝑpẽdicularẽ extrahere:faciã g̃ ꝑ tertiã lineã.b.c.eq̃lẽ linee.a.c.⁊ ſup totã.a.b.cõſtituo triangulũ eq̃laterũ.a.b.d.⁊ ꝓtraho lineã.c.d.de q̃ dico ꝙ ipſa ẽ ꝑpẽdicularis ſup lineã.a.b.Intelligo duos triangulos.a.c.d.⁊.b.c.d.⁊ qꝛ duo latera.a.c.⁊.c.d.trianguli.a.c.d.ſũt eq̃lia duob⁹laterib⁹.c.b.⁊.c.d.trianguli.c.b.d.⁊ baſis.a.d.baſi.b.d.erit ꝑ.8.angul⁹.a.c.d.eq̃lis angulo.b.c.d.q̃re vt̃qʒ eoꝝ erit rect⁹ꝑ diffinitõem anguli recti:⁊ linea.c.b.ꝑpẽdicularis ſup lineã.a.b.ꝑ diffinitõem linee ꝑpẽdicularis:qð ẽ ꝓpoſitũ.

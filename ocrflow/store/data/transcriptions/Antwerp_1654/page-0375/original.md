@@ -18,7 +18,7 @@ d Per 14.
 huius.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXVII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXVII.]
 
 ## PROPOSITIO XXXVII.
 

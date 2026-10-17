@@ -2,17 +2,37 @@
 
 <!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-[Curated heading level=2 type=definitions: Eucli. ex Camp. Binomiorum diffinitiones]
-
 ## Eucli. ex Camp. Binomiorum diffinittonss.{printer-error-correction:diffinitiones}
+
+[Curated heading level=3 type=definitions: 1]
+
+[Curated heading level=3 type=definitions: 2]
+
+[Curated heading level=3 type=definitions: 3]
+
+[Curated heading level=3 type=definitions: 4]
+
+[Curated heading level=3 type=definitions: 5]
+
+[Curated heading level=3 type=definitions: 6]
 
 1 Si fuerit binomij longior portio breuiore potentior augmento quãdrati{printer-error-correction:quadrati} lineæ communicãtis eidem longiori in longitudine, fueritque eadem longior lineæ positæ rationali communicãs, ipsum uocabitur binomium primum. 2 Si uero breuior positæ rationali communicet, dicetur binomium secundum. 3 Quod si neutra portionum eius positæ rationali communicet, appellabitur binomium tertium. 4 Item si longior breuiore tanto amplius possit quantum est quadratum alicuius lineæ ipsi longiori incommensurabilis in longitudine, fueritq̃ longior portionum positæ lineæ rationali communicans in longitudine, ipsum nuncupabitur binomium quartum. 5 Si uero breuior, positæ rationali communicet in longitudine, quintum nominabitur. 6 Si autem neutra portionum eius positæ rationali communicet in longitudine, erit binomium sextum.
 
-[Curated heading level=2 type=definitions: Eucli. ex Zamb. Binum nominum Diffinitiones]
-
 ## Eucli. ex Zamb. Binum nominum Diffinitiones,
 
+[Curated heading level=3 type=definitions: 1]
+
+[Curated heading level=3 type=definitions: 2]
+
+[Curated heading level=3 type=definitions: 3]
+
 1 Proposita rationali & ea quæ ex binis diuisa in nomina, cuius nomẽ maius minore maius possit eo quod ex sibi longitudine commensurabili, si maius nomen longitudine commensurabile expositæ rationali, tota uocetur ex binis nominibus prima. 2 Si uero nomen minus longitudine commensurabile fuerit expositæ rationali, uocatur ex binis nominibus secunda. 3 Si autem neutrum ipsorum nominum commẽsurabile longitudine fuerit expositæ rationali, uocatur ex binis nominibus tertia.
+
+[Curated heading level=3 type=definitions: 4]
+
+[Curated heading level=3 type=definitions: 5]
+
+[Curated heading level=3 type=definitions: 6]
 
 4 Rursus iam si maius nomen, minore maius possit eo quod à sibi longitudine incommensurabili, si quidem maius nomen expositæ rationali longitudine commensurabile fuerit, uocatur ex binis nominibus quarta. 5 Si uero minus, quinta, 6 Si uero neutrum, sexta.
 

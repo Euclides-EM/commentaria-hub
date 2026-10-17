@@ -3,7 +3,7 @@
 
 vel minore exiſtentes; aut omnes tres inæquales; erit omne triãgulum vel æquiangulum, habens tres omnes angulos æquales; vel duorum tantum angulorum æqualium; vel omnium angulorum inæqualium; quorum primum quidem AEquilatero, ſecundum vero Iſoſceli, tertium deniq́; Scaleno reſpondet triãgulo. Cæterum quanam arte conſtruenda ſint triangula huius partitionis ſuper quauis data recta linea finita, trademus propos. 1. huius lib.
 
-[Curated heading level=2 type=definitions: XXVI.]
+[Curated heading level=3 type=definitions: XXVI.]
 
 ### XXVI.
 
@@ -15,7 +15,7 @@ NVNC exponit triangulorum ſpecies iuxta poſteriorem diuiſionem, habita ration
 
 [Figure: two right triangles]
 
-[Curated heading level=2 type=definitions: XXVII.]
+[Curated heading level=3 type=definitions: XXVII.]
 
 ### XXVII.
 

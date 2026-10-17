@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE VII. -->
 <!-- Page number: 217 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XIV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XIV.]
 
 ## PROPOSITION XIV.
 
@@ -17,9 +17,9 @@ F. 229.
 
 Cela est manifeste par la prop. XI, où l’on a vu qu’avec trois côtés donnés AB, AC, BC, on ne peut faire que deux triangles ACB, ABD, différents quant à la position des parties, mais égaux quant à la grandeur de ces mêmes parties. Donc deux triangles équilatéraux entre eux sont ou absolument égaux, ou au moins égaux par symmétrie ; dans l’un et l’autre cas ils sont équiangles et les angles égaux sont opposés aux côtés égaux.
 
-[Curated heading level=2 type=propositions: PROPOSITION XV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XV.]
+[Curated heading level=2 type=theorems: PROPOSITION XV.]
 
 ## PROPOSITION XV.
 

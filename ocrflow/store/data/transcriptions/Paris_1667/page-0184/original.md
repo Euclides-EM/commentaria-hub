@@ -3,9 +3,9 @@
 
 l'arc *b g* de commun, qui eſt l'arc d'un des angles obtus: & par conſequent oſtant cet arc, l'arc de l'aigu qui reſte d'une part ſera égal à l'arc de l'aigu qui reſte de l'autre. On prouvera la même choſe des deux angles obtus.
 
-[Curated heading level=2 type=propositions: XVIII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XVIII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=theorems: QUATRIEME THEOREME.]
 
 ### QUATRIEME THEOREME.
 

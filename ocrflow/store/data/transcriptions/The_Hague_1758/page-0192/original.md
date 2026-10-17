@@ -19,7 +19,7 @@ Que deux raiſons R : P & r : p ſont ſemblables, ſi les équimultiples de leu
 
 *§. 12. Remarquez encore que ce qui eſt vrai de la correſpondance des multiples, eſt vrai par rapport à celle des ſousmultiples, des Puiſſances ſemblables, des Radicaux ſemblables &c. Mais il paroît aſſez qu'Euclide n'a pas voulu embraſſer cette généralité, pour ne pas s'éloigner de la clarté des notions communes: & en particulier on peut croire qu'il a préféré l'uſage des multiples à celui des ſousmultiples, parcequ'il n'auroit pû preſcrire de prendre des ſousmultiples, ſans montret{printer-error-correction:montrer} auparavant comment on doit partager une grandeur en parties égales; au-lieu que la formation des multiples n'avoit pas beſoin d'un pareil principe. Ce Géomètre étoit en droit de demander qu'on pût doubler, tripler &c. ou prendre tel multiple qu'on voudroit d'une grandeur, au-lieu qu'il devoit aprendre par la reſolution d'un problême, comment on peut retrancher une partie aliquote quelconque d'une ligne donnée: & la réſolution de ce problême ſuppoſant la doctrine de la ſimilitude, elle ne pouvoit être donnée que dans la IX Prop. du VI Livre.*
 
-[Curated heading level=2 type=definitions: DEFINITION VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 

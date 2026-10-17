@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-[Curated heading level=2 type=axioms: XII.]
+[Curated heading level=3 type=axioms: XII.]
 
 ### XII.
 

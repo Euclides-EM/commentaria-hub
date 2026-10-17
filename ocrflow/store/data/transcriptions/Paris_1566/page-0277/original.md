@@ -8,9 +8,9 @@
 per ablationem genitarum.
 [/Subhead]
 
-[Curated heading level=2 type=propositions: Propoſitio ſeptuageſimatertia.]
+[Curated heading level=3 type=propositions: Propoſitio ſeptuageſimatertia.]
 
-## Propoſitio ſeptuageſimatertia.
+### Propoſitio ſeptuageſimatertia.
 
 Si à Certa Certa auferatur potẽtia tantùm commenſurabilis exiſtens toti, Reliqua incerta eſt, vocatur autem Apotome.
 
@@ -18,9 +18,9 @@ Si à Certa Certa auferatur potẽtia tantùm commenſurabilis exiſtens toti, R
 
 [Diagram: horizontal line labelled A at the left, G above an interior point, and B at the right]
 
-[Curated heading level=2 type=propositions: Propoſitio ſeptuageſimaquarta.]
+[Curated heading level=3 type=propositions: Propoſitio ſeptuageſimaquarta.]
 
-## Propoſitio ſeptuageſimaquarta.
+### Propoſitio ſeptuageſimaquarta.
 
 Si à Media auferatur Media, potẽtia tantùm commenſurabilis toti, cum tota verò certum comprehendens, reliqua incerta eſt, vocatur autem Mediæ apotome prima.
 
@@ -28,9 +28,9 @@ Si à Media auferatur Media, potẽtia tantùm commenſurabilis toti, cum tota v
 
 [Diagram: horizontal line labelled A at the left, G above an interior point, and B at the right]
 
-[Curated heading level=2 type=propositions: Propoſitio ſeptuageſimaquinta.]
+[Curated heading level=3 type=propositions: Propoſitio ſeptuageſimaquinta.]
 
-## Propoſitio ſeptuageſimaquinta.
+### Propoſitio ſeptuageſimaquinta.
 
 Si à Media auferatur Media potentia tantum commenſurabilis exiſtens toti, cum tota verò medium comprehendens, reliqua incerta eſt, vocatur verò Mediæ apotome ſecunda.
 

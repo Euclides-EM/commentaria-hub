@@ -11,9 +11,9 @@ Donc, par la même construction, on peut décrire un polygone régulier inscrit 
 
 Nous appelons ici *portion de polygone régulier* la figure qui résulte d’une suite de cordes égales inscrites dans l’arc FG d’une extrémité à l’autre. Cette portion a les propriétés principales des polygones réguliers, elle a les angles égaux et les côtés égaux, elle est à la fois inscriptible et circonscriptible au cercle ; cependant elle ne feroit partie d’un polygone régulier proprement dit, qu’autant que l’arc sous-tendu par un de ses côtés seroit une partie aliquote de la circonférence.
 
-[Curated heading level=2 type=propositions: PROPOSITION XI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XI.]
+[Curated heading level=2 type=theorems: PROPOSITION XI.]
 
 ## PROPOSITION XI.
 

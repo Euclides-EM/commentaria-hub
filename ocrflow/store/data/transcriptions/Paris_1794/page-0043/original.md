@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE Iᵉʳ. -->
 <!-- Page number: 15 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XIV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XIV.]
 
 ## PROPOSITION XIV.
 
@@ -39,9 +39,9 @@ Soit fait l’angle BCD=B ; dans le triangle BDC on aura * BD=DC. Mais la ligne 
 
 Car si on avoit C < B, il s’ensuivroit par ce qui vient d’être démontré, AB < AC, ce qui est contre la supposition. Si on avoit C=B, il s’ensuivroit *AB=AC, ce qui est encore contre la supposition. Donc il faut que l’angle C soit plus grand que B.
 
-[Curated heading level=2 type=propositions: PROPOSITION XV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XV.]
+[Curated heading level=2 type=theorems: PROPOSITION XV.]
 
 ## PROPOSITION XV.
 

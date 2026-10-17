@@ -3,7 +3,7 @@
 
 X. Ergo ratio A ad B æqualis eſt rationi, X ad Z. Quod erat demonſtrandum.
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSIT. III. & IV.]
+[Curated heading level=2 type=propositions: PROPOSIT. III. & IV.]
 
 ## PROPOSIT. III. & IV.
 

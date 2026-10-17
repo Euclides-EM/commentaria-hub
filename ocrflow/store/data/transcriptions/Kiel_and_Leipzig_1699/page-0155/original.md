@@ -15,9 +15,9 @@ Welches unmüglich n. 9. Gr. I.
 
 Können also einander inwendig anrührende Kreyse nicht nur einen einigen Mittel-Düpffel haben. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der VII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der VII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 6. Beweiß-Stück. Der VII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 6. Beweiß-Stück.]
 
 ## Der VII. Vortrag.
 

@@ -3,6 +3,8 @@
 
 des deux raiſons dont l'égalité fait la proportion demandant deux termes, chaque proportion en demande 4. dont le premier eſt un antecedent, le ſecond ſon conſequent : le troiſiéme un antecedent, & le quatriéme ſon conſequent. Ce qui ſe peut marquer ainſi b. c : : f. g.
 
+[Curated heading level=3 type=definitions: XXII.]
+
 [Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
@@ -10,6 +12,8 @@ XXII.
 [/Margin]
 
 ET de plus, le premier & le dernier terme s'appellent *les extrêmes*, le 2 & le 3 ceux *du milieu*, ou *les moyens*.
+
+[Curated heading level=3 type=definitions: XXIII.]
 
 [Curated heading level=4 type=paragraph_order: XXIII.]
 
@@ -20,6 +24,8 @@ XXIII.
 NEANMOINS une meſme grandeur peut ſervir de conſequent au premier antecedent, & d'antecedent au ſecond conſequent : & alors cette proportion eſt appellée *continuë*, & la grandeur qui eſt ainſi priſe deux fois *moyenne proportionnelle*. Comme b. c : : c. d.
 
 On peut marquer ainſi cette proportion continuë pour la diſtinguer de l'autre ∺ b. c. d.
+
+[Curated heading level=3 type=definitions: XXIV.]
 
 [Curated heading level=4 type=paragraph_order: XXIV.]
 
@@ -41,13 +47,9 @@ DANS la proportion arithmetique la difference du premier antecedent à ſon con�
 
 3. à 7 : : 8. à 12.
 
-[Curated heading level=1 type=propositions: LIVRE SECOND.]
+[Curated heading level=4 type=propositions: THEOREME.]
 
-[Curated heading level=1 type=theorems: LIVRE SECOND.]
-
-[Curated heading level=2 type=propositions: XXVI. THEOREME.]
-
-[Curated heading level=2 type=theorems: XXVI. THEOREME.]
+[Curated heading level=4 type=theorems: THEOREME.]
 
 #### THEOREME.
 

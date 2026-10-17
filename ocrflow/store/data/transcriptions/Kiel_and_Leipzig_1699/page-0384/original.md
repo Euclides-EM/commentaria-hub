@@ -14,9 +14,9 @@ Gleicher Gestalt sind auch
 
 Sind also in jedwedem Nebenstrichichten Viereck die üm den Zwergstrich stehende Vierecke nicht allein unter sich/ sondern auch dem grossen Viereck ähnlich. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXV. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XXV. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 7. Werck-Stück. Der XXV. Vortrag.]
+[Curated heading level=2 type=problems: Das 7. Werck-Stück.]
 
 ## Der XXV. Vortrag.
 

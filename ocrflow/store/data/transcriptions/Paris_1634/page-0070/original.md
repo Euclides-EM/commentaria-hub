@@ -9,7 +9,7 @@ hyp. | hl 2|2 ⅓gl.
 
 [Figure: trois lignes horizontales, ACB en haut, DFE au milieu, GHL au dessous]
 
-[Curated heading level=2 type=axioms: 4. a. 1.]
+[Curated heading level=3 type=axioms: 4. a. 1.]
 
 ### 4. a. 1.
 
@@ -21,7 +21,7 @@ hyp. | ab 3|2 cd.
 hyp. | be 2|2 df.
 4.a.1 | ab 3|2 cf.
 
-[Curated heading level=2 type=axioms: 4. a. b.]
+[Curated heading level=3 type=axioms: 4. a. b.]
 
 ### 4. a. b.
 
@@ -33,7 +33,7 @@ hyp. | ab 2|2 cd.
 hyp. | be 3|2 df.
 4.a.b. | ae 3|2 cf.
 
-[Curated heading level=2 type=axioms: 4. a. c.]
+[Curated heading level=3 type=axioms: 4. a. c.]
 
 ### 4. a. c.
 

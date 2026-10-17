@@ -5,7 +5,7 @@ Trianguli ABC altitudo, eſt perpendicularis AD. Rectum enim, vt anteà monuimus
 
 [Diagram: triangle with vertices A, B, C and point D on the base]
 
-[Curated heading level=2 type=definitions: Ratio ex duabus rationibus]
+[Curated heading level=3 type=definitions: Ratio ex duabus rationibus]
 
 ### Ratio ex duabus rationibus aut ex pluribus conſtare dicitur, quum rationes Quantitatum inter ſe multiplicatæ, aliquam rationem efficiunt.
 

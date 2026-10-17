@@ -25,9 +25,9 @@ Donc il eſt une aliquote de l'hypotenuſe.
 
 Donc par le Theoreme precedent l'autre coſté, qui eſt la perpendiculaire, eſt incommenſurable en longueur, & commenſurable ſeulement en puiſſance avec l'hypotenuſe de cet angle droit, laquelle eſt le coſté de l'angle dont la baſe eſt ſuppoſée égale à chaque coſté.
 
-[Curated heading level=2 type=propositions: LXXXII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LXXXII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=theorems: QUATRIEME THEOREME.]
 
 ### QUATRIEME THEOREME.
 

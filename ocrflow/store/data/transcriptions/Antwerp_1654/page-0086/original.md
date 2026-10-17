@@ -7,7 +7,7 @@ cari nequit, ac proinde incommenſurabiles ſunt.
 
 *His ſubiungo tria problemata ex eadem propoſitione deducta, quorum vſus frequentior.*
 
-### Problema 1.
+#### Problema 1.
 
 [Curated heading level=2 type=figures: Fig. 73]
 
@@ -27,7 +27,7 @@ a Per 47, l.1.
 b Per eand.
 [/Margin]
 
-### Problema 2.
+#### Problema 2.
 
 [Curated heading level=2 type=figures: Fig. 74]
 

@@ -19,9 +19,9 @@ Il eſt impoſſible qu'un même point ſoit également diſtant de trois points
 
 C'eſt la même choſe que la precedente differemment énoncée.
 
-[Curated heading level=2 type=propositions: L. SECOND THEOREME.]
+[Curated heading level=4 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: L. SECOND THEOREME.]
+[Curated heading level=4 type=theorems: SECOND THEOREME.]
 
 #### SECOND THEOREME.
 
@@ -35,9 +35,9 @@ S'IL y a égalité dans la perpendiculaire & dans l'oblique, il y a égalité da
 
 Soit fait comme devant. Si k m eſt égale à k n, b m ſera égale à b n. Car ſi m eſtoit plus éloignée de b que n'eſt n, l'oblique k m ſeroit plus éloignée de la perpendiculaire, & par conſequent plus longue par la propoſition principale.
 
-[Curated heading level=2 type=propositions: LI. TROISIEME THEOREME.]
+[Curated heading level=4 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LI. TROISIEME THEOREME.]
+[Curated heading level=4 type=theorems: TROISIEME THEOREME.]
 
 #### TROISIEME THEOREME.
 

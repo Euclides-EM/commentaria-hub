@@ -7,7 +7,7 @@ modo vna ratio ſeſe habeat ad alteram, ſicuti enim F eſt ad G, ita ratio F H
 
 #### Axiomata.
 
-[Curated heading level=2 type=axioms: Lib. V, Pars III, Ax.1.]
+[Curated heading level=5 type=axioms: AX.1.]
 
 [Curated heading level=2 type=figures: Fig. 28]
 
@@ -19,7 +19,7 @@ Fig 28.
 
 Hoc eſt ratio G, ad H, tanto maior eſt ratione F ad H, quanto G maior eſt quam F.
 
-[Curated heading level=2 type=axioms: Lib. V, Pars III, Ax.2.]
+[Curated heading level=5 type=axioms: Ax.2.]
 
 [Curated heading level=2 type=figures: Fig. 29]
 
@@ -31,7 +31,7 @@ Fig 29.
 
 Hoc eſt ratio I ad L eſt ad rationem I ad M, vt reciprocè eſt M conſequens, ad conſequens L: ſiue ratio I ad L tantò maior eſt ratione eiuſdem I ad M, quanto L fuerit minor, quam M, ac proinde quanto M fuerit maior quam L.
 
-[Curated heading level=2 type=axioms: Lib. V, Pars III, Ax.3.]
+[Curated heading level=5 type=axioms: Ax.3.]
 
 Ax.3. Rationes rationales eam inter ſe rationem habent, quã denominatores. Patet ex axiom.1.
 

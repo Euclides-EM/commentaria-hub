@@ -5,8 +5,6 @@
 Volgen nun die propoſition oder fürgäben diß fünfften bůchs.
 [/Subhead]
 
-[Curated heading level=1 type=propositions: Das fünffte bůch Euclidis]
-
 [Curated heading level=2 type=propositions: I. Die erſt Propoſition]
 
 ## I. Die erſt Propoſition.

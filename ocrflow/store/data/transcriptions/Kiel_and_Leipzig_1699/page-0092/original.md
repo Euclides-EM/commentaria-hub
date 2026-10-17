@@ -6,9 +6,9 @@
 
 Wird dannenhero allezeit das □ , so mit einem △ auff einem Grundstrich / und zwischen einerley Nebenstrichen stehet/ doppelt so groß/als das △ seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XLII. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XLII. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 11. Werck-Stück. Der XLII. Vortrag.]
+[Curated heading level=2 type=problems: Das 11. Werck-Stück.]
 
 ## Der XLII. Vortrag.
 

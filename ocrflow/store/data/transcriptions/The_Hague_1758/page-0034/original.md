@@ -4,9 +4,9 @@
 
 [Figure: two triangles, FHG and ACB, the second with dotted lines from A and B to a point D above C]
 
-[Curated heading level=2 type=propositions: PROPOSITION VIII. THEOREME V.]
+[Curated heading level=2 type=propositions: PROPOSITION VIII. THEORÊME V.]
 
-[Curated heading level=2 type=theorems: THEOREME V. PROPOSITION VIII.]
+[Curated heading level=2 type=theorems: PROPOSITION VIII. THEORÊME V.]
 
 ## PROPOSITION VIII. THEORÊME V.
 

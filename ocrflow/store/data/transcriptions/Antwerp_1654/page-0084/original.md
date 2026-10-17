@@ -1,9 +1,9 @@
 <!-- Running title: Liber Primus. -->
 <!-- Page number: 51 -->
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XLVII.]
+[Curated heading level=3 type=propositions: PROPOSITIO XLVII.]
 
-## PROPOSITIO XLVII.
+### PROPOSITIO XLVII.
 
 [Curated heading level=2 type=figures: Fig. 72]
 

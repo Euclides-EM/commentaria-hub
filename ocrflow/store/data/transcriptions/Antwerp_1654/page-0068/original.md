@@ -1,7 +1,7 @@
 <!-- Running title: Liber Primus. -->
 <!-- Page number: 35 -->
 
-### Theorema.
+#### Theorema.
 
 [Curated heading level=2 type=figures: Fig. 50]
 

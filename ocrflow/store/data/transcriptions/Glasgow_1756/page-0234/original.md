@@ -1,37 +1,29 @@
 <!-- Running title: LIBER UNDECIMUS, -->
 <!-- Page number: 221 -->
 
-[Curated heading level=1 type=propositions: LIBER UNDECIMUS.]
-
-[Curated heading level=1 type=theorems: LIBER UNDECIMUS.]
-
-[Curated heading level=1 type=problems: LIBER UNDECIMUS.]
-
-[Curated heading level=1 type=definitions: LIBER UNDECIMUS.]
-
 # EUCLIDIS ELEMENTORUM LIBER UNDECIMUS.
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: DEF. I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 
 {dropcap:S|lines=2|style=plain}OLIDUM eſt quod longitudinem, latitudinem et craſſitudinem habet.
 
-[Curated heading level=2 type=definitions: DEF. II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 
 Solidi vero terminus eſt ſuperficies.
 
-[Curated heading level=2 type=definitions: DEF. III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 
 Recta linea ad planum recta, ſive perpendicularis, eſt, quando ad omnes rectas lineas quae ipſam tangunt, et in ſubjecto ſunt plano, rectos angulos efficit.
 
-[Curated heading level=2 type=definitions: DEF. IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 

@@ -2,7 +2,7 @@
 
 anteponi. Quare hoc libro ſeptimo, & duobus inſequentibus, circa numerorum proprietates, affectionesque, quantum eæ rei Geometricæ inſeruiunt, occupatur, ut in decimo deinde facilius, ac plenius demonſtrationes linearum commenſurabilium, & incommenſurabilium exequatur. Incipiens igitur more ſuo a principijs, definit initio unitatem, docetque eam eſſe, ſecundum quam unumquodque eorum, quæ ſunt, unum eſſe dicitur: Nam ſecundum unitatem unum lapidem, unum animal, unum corpus, &c. dicere ſolemus. Cæterum vnitas in numeris nullam ſuſcipit diuiſionem, quemadmodum nec punctum in magnitudinibus, ut in primo lib. docuimus.
 
-[Curated heading level=2 type=definitions: II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 
@@ -14,7 +14,7 @@ CVM numerus ſit multitudo quædam ex vnitatibus compoſita, manifeſtum eſt, n
 
 EX his ſequitur, omnes numeros, quotcunque ſint, inter ſe commenſurabiles eſſe, cum eos vna eademque menſura, nimirũ vnitas, vt dictum eſt, metiatur: Id quod omnibus magnitudinibus nulla poteſt ratione conuenire, cum plurimæ illarum menſuram communem non habeant, ſed prorſus ſint incommenſurabiles, ut clariſſime lib. 10. oſtendetur.
 
-[Curated heading level=2 type=definitions: III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 

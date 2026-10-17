@@ -11,9 +11,9 @@
 \*Pr.4.
 [/Margin]
 
-[Curated heading level=2 type=propositions: PROPOSITION XVI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVI.]
+[Curated heading level=2 type=theorems: PROPOSITION XVI.]
 
 ## PROPOSITION XVI.
 

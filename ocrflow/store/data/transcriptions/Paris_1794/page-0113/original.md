@@ -5,9 +5,9 @@
 
 *Corollaire.* Donc les deux triangles seroient équivalents, si le rectangle AB × AC étoit égal au rectangle AD × AE, ou si on avoit AB : AD :: AE : AC.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXV.]
+[Curated heading level=2 type=theorems: PROPOSITION XXV.]
 
 ## PROPOSITION XXV.
 
@@ -45,9 +45,9 @@ ABC : DEF :: AC² : DF².
 
 Donc deux triangles semblables ABC, DEF, sont entre eux comme les quarrés des côtés homologues AC, DF, ou comme les quarrés de deux autres côtés homologues quelconques.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXVI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXVI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXVI.]
+[Curated heading level=2 type=theorems: PROPOSITION XXVI.]
 
 ## PROPOSITION XXVI.
 

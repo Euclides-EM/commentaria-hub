@@ -24,15 +24,13 @@ Simili via qua proximè diximus. Nam proxima patuit cubum ſuiipſius angulos in
 
 Subſequuntur autem quæ relicta erant perficienda.
 
-[Curated heading level=1 type=added_propositions: HACTENVS QVÆ PARTIM A MAioribus ex decimoquinto Elementorum recepimus,]
+[Curated heading level=3 type=propositions: Propoſitio decimatertia.]
 
-[Curated heading level=2 type=propositions: Propoſitio decimatertia.]
+[Curated heading level=3 type=problems: Propoſitio decimatertia. Problema 13.]
 
-[Curated heading level=2 type=problems: Propoſitio decimatertia. Problema 13.]
+[Curated heading level=3 type=added_propositions: Propoſitio decimatertia.]
 
-[Curated heading level=2 type=added_propositions: Propoſitio decimatertia.]
-
-## Propoſitio decimatertia. Problema 13.
+### Propoſitio decimatertia. Problema 13.
 
 Propoſito cubo, dodecahedrum inſcribere.
 

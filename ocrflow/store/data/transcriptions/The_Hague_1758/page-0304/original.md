@@ -8,43 +8,43 @@
 
 <!-- Running title: DEFINITIONS. -->
 
-[Curated heading level=2 type=definitions: DEFINITION VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 
 {dropcap:U|lines=2|style=plain}N *Plan* (AB) (*Fig.* 1.) *eſt incliné à un autre* (PL); lorſque les lignes droites ED & EF tirées dans chacun des Plans (c. a. d. DE dans le Plan AB, & EF dans le Plan PL) d'un même point E, perpendiculairement à leur Section commune AN, forment un angle aigu DEF.
 
-[Curated heading level=2 type=definitions: DEFINITION VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 ### VII.
 
 *Les Plans ſont ſemblablement inclinés*, lorſque leurs angles d'Inclinaiſon ſont égaux.
 
-[Curated heading level=2 type=definitions: DEFINITION VIII.]
+[Curated heading level=3 type=definitions: VIII.]
 
 ### VIII.
 
 *Les Plans ſont Paralleles*, lorſqu'étant prolongés à l'infini, de part & d'autre, ils ne ſe rencontrent jamais.
 
-[Curated heading level=2 type=definitions: DEFINITION IX.]
+[Curated heading level=3 type=definitions: IX.]
 
 ### IX.
 
 *Les Solides ou Corps ſont ſemblables*; lorſqu'ils ſont terminés par un pareil nombre de ſurfaces, ſemblables & homologues.
 
-[Curated heading level=2 type=definitions: DEFINITION X.]
+[Curated heading level=3 type=definitions: X.]
 
 ### X.
 
 *Les Solides ſont ſemblables & égaux*; lorſqu'ils ſont terminéz par un même nombre de ſurfaces ſemblables & égales.
 
-[Curated heading level=2 type=definitions: DEFINITION XI.]
+[Curated heading level=3 type=definitions: XI.]
 
 ### XI.
 
 *Un Angle Solide* eſt l'inclinaiſon de plus de deux lignes droites qui ſe rencontrent en un point A (*Fig.* 2.) & ne ſont point dans un même Plan: ou plutôt *un Angle Solide* (A) eſt un Angle formé par plus de deux Angles plans (BAC, CAD & BAD) qui ont tous le même point (A) pour ſommet, & ne ſont point dans le même Plan.
 
-[Curated heading level=2 type=definitions: DEFINITION XII.]
+[Curated heading level=3 type=definitions: XII.]
 
 ### XII.
 

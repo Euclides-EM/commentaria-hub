@@ -16,6 +16,8 @@ ex.a.b.in.b.c.bis:itaqʒ quadratum.a.d.tantũ ẽ quãtũ qd̃ ex.a.b.in.b.d.bis
 
 [Curated heading level=2: Propoſitio .17.]
 
+[Curated heading level=2 type=propositions: SI fuerint duo numeri]
+
 {dropcap:S|lines=5|style=decorated|decoration="foliate woodcut initial"}I fuerint duo numeri ꝯtra ſe pꝛimi quãtus ẽ pꝛimus eoꝝ ad ſcõm:tantũ eſſe ſcõm ad tertium quẽqʒ impoſſibile eſt.
 
 ¶Sint.a.⁊.b.contra ſe pꝛimi:dico impoſſibile eſſe aliquẽ eis in continua ꝓportionalitate adiungi.Si eniʒ põt ſit.c.qꝛ igit̃.a.ad.b.ſicut

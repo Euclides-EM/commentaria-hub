@@ -25,9 +25,7 @@ Weil man keine Erklärung oder Beweiß nachtrücklich anstellen kan/es werden de
 ## Außsprüche oder Grund-Sätze.
 (Axiomata sive communes notiones.)
 
-[Curated heading level=1 type=axioms: Das I. Buch]
-
-[Curated heading level=2 type=axioms: Grund-Satz I.]
+[Curated heading level=3 type=axioms: I.]
 
 I. Welche zwo Grössen c oder b ( oder Zalen ) einer dritten Grösse a ( oder Zal ) gleich sind/ dieselbigen sind auch unter sich gleich.
 

@@ -2,9 +2,13 @@
 
 <!-- Page number: 54 -->
 
-[Curated heading level=2 type=definitions: Ex Zamberto. Diffinitiones.]
-
 ## Ex Zamberto. Diffinitiones.
+
+[Curated heading level=3 type=definitions: AEquales circuli]
+
+[Curated heading level=3 type=definitions: 2]
+
+[Curated heading level=3 type=definitions: 3]
 
 {dropcap:A|lines=?|style=decorated|decoration="foliate ornament and vase"}Equales circuli, sunt quorum dimetientes sunt æquales, uel quorum quæ ex centris sunt æquales. 2 Recta linea circulum tangere dicitur, quæ circulum tangens & eiecta, circulum non secat, 3 Circuli sese tangere adinuicē dicūtur, qui sese inuicē tangentes non inuicē secant.
 
@@ -12,9 +16,23 @@ Circuli æquales — Linea cir. tangens. — Circuli se tangentes
 
 [Diagram: two equal circles each with a radius and diameter drawn; a circle beneath a horizontal tangent line; two circles touching one another]
 
+[Curated heading level=3 type=definitions: 4]
+
+[Curated heading level=3 type=definitions: 5]
+
+[Curated heading level=3 type=definitions: 6]
+
+[Curated heading level=3 type=definitions: 7]
+
 4 In circulo æqualiter distare à centro rectæ lineæ dicuntur, cū à centro in eas perpendiculares ductæ sunt æquales. Magis autē distare dicitur, in quā maior perpendicularis cadit: 5 Segmentum circuli, est figura comprehensa sub recta linea, & circuli circunferentia. 6 Segmenti angulus, est qui sub recta linea & circuli circunferentia comprehenditur: 7 In segmēto autem angulus est, cum in circunferentia segmēti sumitur aliquod signum, & ab eo in rectæ lineæ fines quæ basis est segmenti rectæ lineæ coniunguntur, angulus qui continetur, sub coniunctis rectis lineis.
 
 [Diagram: two circles each with a chord and perpendicular drawn; two circle segments, one turned downward and one upright; a circle with an inscribed triangle standing on a chord]
+
+[Curated heading level=3 type=definitions: 8]
+
+[Curated heading level=3 type=definitions: 9]
+
+[Curated heading level=3 type=definitions: 10]
 
 8 Cum uero comprehendentes angulum rectæ lineæ aliquam suscipiūt circunferentiam, in illa angulus esse dicitur. 9 Sector autem circuli, est cum ad centrum circuli steterit angulus, comprehēsa figura sub angulum comprehendentibus rectis lineis, & assumpta sub eis circunferentia. 10 Similia segmenta circuli, sunt quæ angulos æquos suscipiunt: uel in quibus anguli sibi inuicem sunt æquales.
 

@@ -9,7 +9,7 @@ Si igitur ratio A ad B, eadem ſit rationi E ad F; et ratio B ad C, eadem fuerit
 
 Similiter, ſi ratio M ad N eadem ſit rationi A ad D, praecedentibus manentibus, brevitatis gratia, dicitur ratio M ad N eadem eſſe rationi compoſitae ex rationibus E ad F, G ad H, et K ad L.
 
-[Curated heading level=2 type=definitions: DEF. XII.]
+[Curated heading level=3 type=definitions: XII.]
 
 ### XII.
 
@@ -17,13 +17,13 @@ Homologae magnitudines, in proportionalibus, dicuntur antecedentes quidem antece
 
 ‘Vocabulis ſequentibus, apud Geometras veteres deſignantur modi quidam mutandi ſive ordinem, ſive magnitudinem proportionalium, ita tamen ut proportionales maneant.’
 
-[Curated heading level=2 type=definitions: DEF. XIII.]
+[Curated heading level=3 type=definitions: XIII.]
 
 ### XIII.
 
 Ἐναλλάξ, i. e. Permutando; hoc vocabulo utuntur quando quatuor ſunt proportionales, et concluditur eſſe ut prima ad tertiam, ita ſecunda ad quartam; ut oſtenſum eſt in Prop. 16. Libri hujus 5ti.
 
-[Curated heading level=2 type=definitions: DEF. XIV.]
+[Curated heading level=3 type=definitions: XIV.]
 
 ### XIV.
 

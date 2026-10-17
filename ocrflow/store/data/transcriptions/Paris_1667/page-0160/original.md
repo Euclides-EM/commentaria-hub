@@ -11,11 +11,9 @@ Donc le centre ſe trouvera dans l'interſection de deux lignes qui couperont pe
 
 Car par le precedent Theoreme chacune de ces perpendiculaires paſſe par le centre. Donc le centre eſt le point qui leur eſt commun. Et par là on voit combien il eſt facile de reſoudre ce Probleme.
 
-[Curated heading level=1 type=problems: LIVRE SEPTIEME.]
+[Curated heading level=3 type=propositions: PROBLEME.]
 
-[Curated heading level=2 type=propositions: PROBLEME.]
-
-[Curated heading level=2 type=problems: PROBLEME.]
+[Curated heading level=3 type=problems: PROBLEME.]
 
 ### PROBLEME.
 

@@ -5,7 +5,7 @@
 
 [Curated heading level=1 type=lemma_target: Lemma ad X.79]
 
-### Lemma.
+#### Lemma.
 
 Si quatuor magnitudines arithmetica ratione proportionales fuerint, & viciſſim proportionales erunt.
 
@@ -13,13 +13,13 @@ Si quatuor magnitudines arithmetica ratione proportionales fuerint, & viciſſim
 
 [Diagram: four horizontal lines labelled E, H, A; I, B; G, C; and D]
 
-### MONITVM.
+#### MONITVM.
 
 *Campanus ſolus hoc lemma poſt ſeptuageſimamtertiam ſui ſcripti poſuit, eouſque tamen confuſè vt diſcentibus ſit difficile, an exceſſum proportionis geometrica aut arithmetica intellexerit diiudicare. Nam eiſdem terminis differentias comparat, quibus differentiæ ſiue rationes geometricæ comparari ſolent: & inſuper ab eo deſcripta figura, rationem geometricam, nõ autem arithmeticam inſequitur, principiumque citat, quo extremorum differentias, à mediorum differentiis componi dicit, quod in rationibus geometricis alias diſcuſſimus receptum eſſe, quandoquidem exceſſus proportionales exiſtunt, ſed quando hi ſunt æquales nondum extremos ſequi medios Euclide dixiſſe memoramur. Nam mediorum exceſſus compoſiti, non ſemper extremorum producunt exceſſum, veluti rationes, maximè ſi inter eos reperiantur maioris ſimul & minoris inæqualitatis rationes. Tamen cernẽtes futuris demonſtrandis commodiorem nobis affuturam arithmeticam rationem geometrica huius arithmeticæ rationis exceſſus æquales eſſe, demonſtratione geometrica quàm lucidè licuit protulimus.*
 
-[Curated heading level=2 type=propositions: Propoſitio ſeptuageſimanona.]
+[Curated heading level=3 type=propositions: Propoſitio ſeptuageſimanona.]
 
-## Propoſitio ſeptuageſimanona.
+### Propoſitio ſeptuageſimanona.
 
 Apotome vna tantum congruit recta linea, Certa potentia tantum toti commenſurabilis exiſtens.
 

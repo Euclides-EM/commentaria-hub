@@ -20,9 +20,9 @@ LI.
 
 Quand le point commun eſt hors le cercle, les coſtez de l'angle qui l'a pour ſommet peuvent eſtre coupez chacun deux fois par la circonference du cercle ; une fois par la convexité en entrant dans le cercle, & une fois par ſa concavité, où on les ſuppoſe terminées ; ſi ce n'eſt que le point de l'attouchement tenant lieu tout ſeul de la convexité & de la concavité, un des coſtez peut n'eſtre terminé qu'à ce point. Et alors il ſera tangente du cercle, & les deux baſes antiparalleles n'auront que 3 points differens. C'eſt ce qu'on verra dans les deux Theoremes ſuivans.
 
-[Curated heading level=2 type=propositions: LII. CINQUIEME THEOREME.]
+[Curated heading level=3 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LII. CINQUIEME THEOREME.]
+[Curated heading level=3 type=theorems: CINQUIEME THEOREME.]
 
 ### CINQUIEME THEOREME.
 

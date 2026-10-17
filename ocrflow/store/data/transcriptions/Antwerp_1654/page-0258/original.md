@@ -18,7 +18,7 @@ e Patet ex defin.3.l.11.
 
 {dropcap:E|lines=2|style=plain}X eo quod ponebatur B Q eſſe recta plano F A C, directè eſt demonſtratum B Q non eſſe rectam plano F A C: ac proinde ex eo quod negaretur aſſertio theorematis, eadem aſſertio directè probata eſt. Hæc demonſtratio quoad ſubſtantiam eſt Ioannis Ciermans.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO V.]
+[Curated heading level=2 type=propositions: PROPOSITIO V.]
 
 ## PROPOSITIO V.
 

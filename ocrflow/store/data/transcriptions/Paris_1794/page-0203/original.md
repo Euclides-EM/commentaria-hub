@@ -7,9 +7,9 @@ parallèles, il s’ensuit qu’une face quelconque et son opposée peuvent êtr
 
 *Scholie.* Etant données trois droites AB, AE, AD, non situées dans le même plan et faisant entre elles des angles donnés, on peut sur ces trois droites construire un parallélépipede AG ; il faut pour cela mener par l’extrémité de chaque droite un plan parallèle au plan des deux autres, savoir par le point B un plan parallèle à DAE, par le point D un plan parallèle à BAE, et par le point E un plan parallèle à BAD. Les rencontres mutuelles de ces plans formeront le parallélépipede demandé AG.
 
-[Curated heading level=2 type=propositions: PROPOSITION V. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION V.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION V.]
+[Curated heading level=2 type=theorems: PROPOSITION V.]
 
 ## PROPOSITION V.
 

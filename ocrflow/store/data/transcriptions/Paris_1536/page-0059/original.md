@@ -8,8 +8,6 @@
 
 ΠΑν παραλληλόγραμμον ὀρθογώνιον περιέχεσθαι λέγεται ὑπὸ δύο τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν εὐθειῶν.
 
-[Curated heading level=1 type=definitions: LIBER II.]
-
 [Curated heading level=2 type=definitions: Parallelogrammum rectangulum]
 
 ## Parallelogrammum rectangulum.

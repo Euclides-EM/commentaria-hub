@@ -8,7 +8,7 @@ La 4. demande a esté adjoustée par Clauius aux trois precedentes, qui sont d'E
 
 ## COMMVNES NOTIONS, AXIOMES *ou Sentences, qui s'appellent auſſi Maximes.*
 
-[Curated heading level=2 type=axioms: AXIOME 1. a. 1.]
+[Curated heading level=3 type=axioms: 1. a. 1.]
 
 ### 1. a. 1.
 
@@ -22,7 +22,7 @@ hyp. | cd 2|2 ef,
 
 Les six axiomes suiuants distinguez par les lettres b, c, d, e, f, g, se rapportent à ce premier ; & ne sont pas d'Euclide, non plus que les autres qui sont distinguez par lettres.
 
-[Curated heading level=3 type=axioms: AXIOME 1. a. b.]
+[Curated heading level=4 type=axioms: 1. a. b.]
 
 ### 1. a. b.
 

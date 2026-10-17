@@ -9,7 +9,7 @@ i Defin. 6. l.12.
 
 Hæc per ſe ſatis clara, non eſt neceſſe operoſius demonſtrare.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXIII.]
 
 ## PROPOSITIO XXIII.
 

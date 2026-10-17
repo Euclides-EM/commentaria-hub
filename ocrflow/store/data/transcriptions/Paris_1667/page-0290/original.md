@@ -7,7 +7,7 @@ Mais cela arrive encore quand ces arcs ſont alternativement égaux, pourveu qu'
 
 Mais il eſt bien viſible qu'il faut en ce cas là que le nombre des coſtez ſoit pair, comme il a eſté montré §. 10.
 
-##### DES CIRCONSCRITTES AU CERCLE.
+#### DES CIRCONSCRITTES AU CERCLE.
 
 [Curated heading level=4 type=paragraph_order: XVI.]
 

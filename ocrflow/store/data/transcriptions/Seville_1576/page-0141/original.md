@@ -2,21 +2,17 @@
 
 <!-- Page number: 69. -->
 
-[Curated heading level=3 type=definitions: 5. El circulo ſe]
+[Curated heading level=3 type=definitions: 5.]
 
 5. ¶El circulo ſe dize deſcribirſe ẽ vna figura rectilinea quando la circũferẽcia del circulo toca a cada lado de aquella en la qual ſe deſcribe.
 
-[Curated heading level=3 type=definitions: 6. Dizeſe deſcrebirſe vna]
+[Curated heading level=3 type=definitions: 6.]
 
 6. Dizeſe deſcrebirſe vna figura rectilinea al derredor de vn circulo quando cada lado dela que ſe deſcribe al derredor toca en la circunferencia del circulo.
 
-[Curated heading level=3 type=definitions: 7. Vna linea recta]
+[Curated heading level=3 type=definitions: 7.]
 
 7. ¶Vna linea recta ſe dize aſſentarſe, quando ſus extremidades caen en la circunferẽcia del circulo.
-
-[Curated heading level=1 type=propositions: LIBRO QVARTO DELOS ELEMENTOS DE EVCLI]
-
-[Curated heading level=1 type=problems: LIBRO QVARTO DELOS ELEMENTOS DE EVCLI]
 
 [Curated heading level=2 type=propositions: Problema.1. Propoſicion 1.]
 

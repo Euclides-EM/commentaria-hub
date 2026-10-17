@@ -1,9 +1,3 @@
-[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM LIBER OCTAVVS.]
-
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTORVM LIBER OCTAVVS.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTORVM LIBER OCTAVVS.]
-
 # EVCLIDIS ELEMENTORVM LIBER OCTAVVS.
 
 # LE HVICTIESME LIVRE DES ELEMENTS D'EVCLIDE.

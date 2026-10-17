@@ -1,7 +1,7 @@
 <!-- Page number: 52 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=problems: PROBLÊME XIII.]
+[Curated heading level=3 type=problems: PROBLÊME XIII.]
 
 ### PROBLÊME XIII.
 
@@ -17,7 +17,7 @@ Prenez à volonté dans la circonférence ou dans l’arc trois points A, B, C, 
 
 *Scholie.* La même construction sert à faire passer une circonférence par les trois points donnés A, B, C, et aussi à faire en sorte que le triangle donné ABC soit inscrit dans un cercle.
 
-[Curated heading level=2 type=problems: PROBLÊME XIV.]
+[Curated heading level=3 type=problems: PROBLÊME XIV.]
 
 ### PROBLÊME XIV.
 

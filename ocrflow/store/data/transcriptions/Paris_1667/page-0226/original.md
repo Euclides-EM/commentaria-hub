@@ -19,13 +19,9 @@ I.
 
 {dropcap:L|lines=6|style=decorated|decoration="woodcut initial with figure and foliage"}A *proportion des lignes dépend de deux choſes, des paralleles & des angles, & ainſy elle n'a pas pû ſe bien traitter qu'aprés l'explication de l'une & l'autre. Et meſme pour en bien comprendre tout le myſtere, il faut reprendre beaucoup de choſes des paralleles que nous propoſerons en forme de Lemmes.*
 
-[Curated heading level=1 type=lemmas: LIVRE DIXIEME.]
+[Curated heading level=2 type=lemmas: PREMIER LEMME. DEFINITION.]
 
-[Curated heading level=1 type=definitions: LIVRE DIXIEME.]
-
-[Curated heading level=2 type=lemmas: II. PREMIER LEMME. DEFINITION.]
-
-[Curated heading level=2 type=definitions: II. PREMIER LEMME. DEFINITION.]
+[Curated heading level=2 type=definitions: PREMIER LEMME. DEFINITION.]
 
 ## PREMIER LEMME. DEFINITION.
 
@@ -37,9 +33,9 @@ II.
 
 UN eſpace compris d'une part entre deux paralleles & indefiny de l'autre, ſoit appellé eſpace parallele.
 
-[Curated heading level=2 type=lemmas: III. SECOND LEMME. DEFINITION.]
+[Curated heading level=2 type=lemmas: SECOND LEMME. DEFINITION.]
 
-[Curated heading level=2 type=definitions: III. SECOND LEMME. DEFINITION.]
+[Curated heading level=2 type=definitions: SECOND LEMME. DEFINITION.]
 
 ## SECOND LEMME. DEFINITION.
 
@@ -53,9 +49,9 @@ COMME on ne conſidere dans ces eſpaces que la diſtance entre les paralleles, 
 
 Et delà il s'enſuit que ces eſpaces ſont égaux quand les perpendiculaires de l'un ſont égales aux perpendiculaires de l'autre.
 
-[Curated heading level=2 type=lemmas: IV. TROISIEME LEMME. DEFINITION.]
+[Curated heading level=2 type=lemmas: TROISIEME LEMME. DEFINITION.]
 
-[Curated heading level=2 type=definitions: IV. TROISIEME LEMME. DEFINITION.]
+[Curated heading level=2 type=definitions: TROISIEME LEMME. DEFINITION.]
 
 ## TROISIEME LEMME. DEFINITION.
 

@@ -25,9 +25,9 @@ Donc AC, moitié de la ligne ACF, est plus courte que AD moitié de ADF. Donc 3�
 
 *Corollaire II.* D’un même point on ne peut mener à une même ligne trois droites égales. Car, si cela étoit, il y auroit d’un même côté de la perpendiculaire deux obliques égales, ce qui est impossible.
 
-[Curated heading level=2 type=propositions: PROPOSITION XVII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVII.]
+[Curated heading level=2 type=theorems: PROPOSITION XVII.]
 
 ## PROPOSITION XVII.
 

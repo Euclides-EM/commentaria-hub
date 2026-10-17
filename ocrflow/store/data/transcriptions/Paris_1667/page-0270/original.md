@@ -27,9 +27,9 @@ Donc 3. par le même 2ᵉ Theoreme.
 Kk
 [/Handwritten]
 
-[Curated heading level=2 type=propositions: LX. DIXIEME THEOREME.]
+[Curated heading level=3 type=propositions: DIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LX. DIXIEME THEOREME.]
+[Curated heading level=3 type=theorems: DIXIEME THEOREME.]
 
 ### DIXIEME THEOREME.
 
@@ -43,9 +43,9 @@ TOUTE ligne qui coupant perpendiculairement l'hypotenuſe d'un angle droit en co
 
 [Figure: triangle cut by a line crossing its base and one side perpendicularly]
 
-[Curated heading level=2 type=propositions: LXI. DERNIER THEOREME.]
+[Curated heading level=3 type=propositions: DERNIER THEOREME.]
 
-[Curated heading level=2 type=theorems: LXI. DERNIER THEOREME.]
+[Curated heading level=3 type=theorems: DERNIER THEOREME.]
 
 ### DERNIER THEOREME.
 

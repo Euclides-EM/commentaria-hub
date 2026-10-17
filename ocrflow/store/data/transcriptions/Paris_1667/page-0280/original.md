@@ -1,9 +1,9 @@
 <!-- Page number: 242 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=2 type=propositions: LXXVII. PREMIER THEOREME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: LXXVII. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 
@@ -39,9 +39,9 @@ Mais il leur eſt commenſurable en puiſſance, parceque
 { dd.  mm }  ::  { 2.  1.
 [/Calculation]
 
-[Curated heading level=2 type=propositions: LXXVIII. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: LXXVIII. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 

@@ -28,9 +28,7 @@ Quota seu multiplicatiua pars.
 
 ¶Μέρος ἐστὶ μέγεθος μεγέθους, τὸ ἔλασσον τοῦ μείζονος, ὅταν καταμετρῇ τὸ μεῖζον.
 
-[Curated heading level=1 type=definitions: LIBER V.]
-
-[Curated heading level=2 type=definitions: Diffinitio 1.]
+[Curated heading level=2 type=definitions: 1]
 
 1 Pars est magnitudo magnitudinis minor maioris, quando minor metitur maiorem.
 
@@ -48,7 +46,7 @@ Multiplex.
 
 ¶Πολλαπλάσιον δὲ τὸ μεῖζον τοῦ ἐλάσσονος, ὅταν καταμετρῆται ὑπὸ τοῦ ἐλάσσονος.
 
-[Curated heading level=2 type=definitions: Diffinitio 2.]
+[Curated heading level=2 type=definitions: 2]
 
 2 Multiplex autem, maior minore, quando eam metitur minor.
 

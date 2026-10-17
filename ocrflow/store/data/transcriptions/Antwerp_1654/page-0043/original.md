@@ -3,7 +3,7 @@
 
 los oppoſitos ducta.
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 38]
+[Curated heading level=3 type=definitions: 38.]
 
 [Curated heading level=2 type=figures: Fig. 19]
 
@@ -13,7 +13,7 @@ los oppoſitos ducta.
 Fig.19.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. I, Def. 39]
+[Curated heading level=3 type=definitions: 39.]
 
 39. Rectilineæ figuræ externus angulus eſt, qui latere producto extra figurã oritur. Tales ſunt F B C, G C A, H A B. Tot igitur figura quælibet habet externos angulos, quot latera & angulos internos.
 
@@ -37,9 +37,7 @@ Fig.19.
 
 {dropcap:A|lines=2|style=plain}Xioma eſt ſententia per ſe manifeſta.
 
-[Curated heading level=1 type=axioms: Liber I]
-
-[Curated heading level=2 type=axioms: Lib. I, Ax. 1]
+[Curated heading level=3 type=axioms: 1.]
 
 1. Quæ eidem ſunt æqualia, & inter ſe æqualia ſunt. Et quod vno æqualium maius aut minus eſt, maius quoque aut minus eſt altero æqualium: & conuerſim.
 

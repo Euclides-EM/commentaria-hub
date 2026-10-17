@@ -1,9 +1,3 @@
-[Curated heading level=1 type=definitions: LIBRO PRIMERO DE LOS ELEMENTOS DE EVCLIDES PHILOSOPHO]
-
-[Curated heading level=1 type=postulates: LIBRO PRIMERO DE LOS ELEMENTOS DE EVCLIDES PHILOSOPHO]
-
-[Curated heading level=1 type=axioms: LIBRO PRIMERO DE LOS ELEMENTOS DE EVCLIDES PHILOSOPHO]
-
 # LIBRO PRIMERO DE LOS ELEMENTOS DE EVCLIDES PHILOSOPHO
 
 [Subhead]
@@ -12,35 +6,35 @@ Megarenſe.
 
 ## De tres generos de principios El primero las difinitiones.
 
-[Curated heading level=3 type=definitions: 1. Punto es]
+[Curated heading level=3 type=definitions: 1.]
 
 1. Punto es, cuya parte es ninguna.
 
-[Curated heading level=3 type=definitions: 2 Linea es lógitud]
+[Curated heading level=3 type=definitions: 2]
 
 2 Linea es lógitud que no ſe puede enſanchar.
 
-[Curated heading level=3 type=definitions: 3 Los terminos dela]
+[Curated heading level=3 type=definitions: 3]
 
 3 Los terminos dela linea ſon punctos.
 
-[Curated heading level=3 type=definitions: 4 Linea recta es]
+[Curated heading level=3 type=definitions: 4]
 
 4 Linea recta es la que ygualméte eſta entreſus puntos.
 
-[Curated heading level=3 type=definitions: 5 Superficie es lo]
+[Curated heading level=3 type=definitions: 5]
 
 5 Superficie es lo que ſolamente tiene lógitud y anchura.
 
-[Curated heading level=3 type=definitions: 6 Los terminos dela]
+[Curated heading level=3 type=definitions: 6]
 
 6 Los terminos dela ſuperficie ſon lineas.
 
-[Curated heading level=3 type=definitions: 7 Superficie llana es]
+[Curated heading level=3 type=definitions: 7]
 
 7 Superficie llana es, la que ygualmente eſta entre ſus lineas.
 
-[Curated heading level=3 type=definitions: 8 Angulo llano es]
+[Curated heading level=3 type=definitions: 8]
 
 8 Angulo llano es, la inclinació de doslineas q́ ſe tocá en vn plano y no eſtá en derecho
 

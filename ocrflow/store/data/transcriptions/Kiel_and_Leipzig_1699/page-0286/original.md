@@ -2,9 +2,9 @@
 
 <!-- Page number: 269 -->
 
-[Curated heading level=2 type=propositions: Der XVII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XVII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 17. Beweiß-Stück. Der XVII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 17. Beweiß-Stück.]
 
 ## Der XVII. Vortrag.
 
@@ -39,9 +39,9 @@ und A—a : a | B—b : b — n. 16. V.
 
 Werden derowegen allezeit zusammengesetzte Ebenmässige Grössen/ wenn sie zertheilet werden / auch Ebenmässig bleiben. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XVIII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XVIII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 18. Beweiß-Stück. Der XVIII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 18. Beweiß-Stück.]
 
 ## Der XVIII. Vortrag.
 

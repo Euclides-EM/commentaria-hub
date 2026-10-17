@@ -37,9 +37,9 @@ XLVII.
 
 Le 2ᵉ Cas de la propoſition principale ( §. 39. ) eſt quand la ligne *y* touche le cercle en un point diametralement oppoſé à *k* : ce qui comprend auſſy deux Theoremes.
 
-[Curated heading level=2 type=propositions: XLVIII. TROISIEME THEOREME.]
+[Curated heading level=5 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XLVIII. TROISIEME THEOREME.]
+[Curated heading level=5 type=theorems: TROISIEME THEOREME.]
 
 ##### TROISIEME THEOREME.
 

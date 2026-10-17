@@ -24,7 +24,7 @@ Postuletur, quamlibet magnitudinem toties posse multiplicari, donec quamlibet ma
 
 ## AXIOMES, OV communes sentences.
 
-[Curated heading level=2 type=axioms: I.]
+[Curated heading level=3 type=axioms: I.]
 
 I.
 

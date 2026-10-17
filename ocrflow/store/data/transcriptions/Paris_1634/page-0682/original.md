@@ -1,10 +1,10 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-[Curated heading level=2 type=propositions: THEOR. LXV. PROPOS. LXXXIII.]
+[Curated heading level=3 type=propositions: THEOR. LXV. PROPOS. LXXXIII.]
 
-[Curated heading level=2 type=theorems: THEOR. LXV. PROPOS. LXXXIII.]
+[Curated heading level=3 type=theorems: THEOR. LXV. PROPOS. LXXXIII.]
 
-## THEOR. LXV. PROPOS. LXXXIII.
+### THEOR. LXV. PROPOS. LXXXIII.
 
 Minori vna tantùm congruit recta linea potentia incommensurabilis existens toti, & cum tota faciens compositum quidem ex ipsarum quadratis rationale; quod autem sub ipsis cōtinetur medium.
 

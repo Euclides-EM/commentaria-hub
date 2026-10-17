@@ -3,17 +3,15 @@
 
 ## DEFINITIONES.
 
-[Curated heading level=1 type=definitions: Liber XI]
-
-[Curated heading level=2 type=definitions: Lib. XI, Def. 1]
+[Curated heading level=3 type=definitions: 1.]
 
 1. {dropcap:S|lines=2|style=plain}Olidum ſiue corpus eſt, quod longitudinem, latitudinem & profunditatem habet.
 
-[Curated heading level=2 type=definitions: Lib. XI, Def. 2]
+[Curated heading level=3 type=definitions: 2.]
 
 2. Solidi extremum eſt ſuperficies.
 
-[Curated heading level=2 type=definitions: Lib. XI, Def. 3]
+[Curated heading level=3 type=definitions: 3.]
 
 [Curated heading level=1 type=figures: Liber XI]
 
@@ -25,7 +23,7 @@
 Fig. 1.l.11. tabulâ 5.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. XI, Def. 4]
+[Curated heading level=3 type=definitions: 4.]
 
 [Curated heading level=2 type=figures: Fig. 2]
 
@@ -35,7 +33,7 @@ Fig. 1.l.11. tabulâ 5.
 Fig. 2.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. XI, Def. 5]
+[Curated heading level=3 type=definitions: 5.]
 
 [Curated heading level=2 type=figures: Fig. 3]
 
@@ -45,7 +43,7 @@ Fig. 2.
 Fig. 3.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. XI, Def. 6]
+[Curated heading level=3 type=definitions: 6.]
 
 [Curated heading level=2 type=figures: Fig. 4]
 
@@ -55,7 +53,7 @@ Fig. 3.
 Fig. 4.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. XI, Def. 7]
+[Curated heading level=3 type=definitions: 7.]
 
 7. Planum ad planum ſimiliter inclinatum dicitur, atque alterum ad alterum,
 

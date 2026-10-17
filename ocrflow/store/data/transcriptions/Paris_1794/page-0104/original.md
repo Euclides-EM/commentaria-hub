@@ -1,9 +1,9 @@
 <!-- Page number: 76 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XVII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVII.]
+[Curated heading level=2 type=theorems: PROPOSITION XVII.]
 
 ## PROPOSITION XVII.
 
@@ -30,9 +30,9 @@ Mais le triangle ACE est isoscele ; car, à cause des paralleles AD, CE, l’ang
 
 BD : DC :: AB : AC.
 
-[Curated heading level=2 type=propositions: PROPOSITION XVIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XVIII.]
 
 ## PROPOSITION XVIII.
 

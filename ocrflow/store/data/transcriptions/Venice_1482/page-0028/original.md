@@ -6,11 +6,15 @@ mo ille eſt quadrato.c.d.equalis.quod erat probandum.
 
 Explicit liber primus Jncipit liber ſecundus.
 
-[Curated heading level=1 type=definitions: LIBER II]
+[Curated heading level=2 type=definitions: OMne paralellogramũ rectãgulũ ſub duab⁹ lineis ãgulũ rectũ ãbiẽtib⁹ dicit̃ ꝯtineri]
 
-[Curated heading level=2 type=definitions: Omne paralellogramũ rectãgulũ ſub duab⁹ lineis ãgulũ rectũ ãbiẽtib⁹ dicit̃ ꝯtineri]
+[Curated heading level=2 type=definitions: Paralellogramũ eſt ſupficies equidiſtãtiũ]
+
+[Curated heading level=2 type=definitions: Paralellogramũ rectangulũ eſt habens]
 
 {dropcap:O|lines=10|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Mne paralellogramũ rectãgulũ ſub duab⁹ lineis ãgulũ rectũ ãbiẽtib⁹ dicit̃ ꝯtineri.¶Paralellogramũ eſt ſupficies equidiſtãtiũ lateꝝ ¶Paralellogramũ rectangulũ eſt habens omnes angulos rectos.⁊ ꝓducit̃ ex vno duoꝝ lateꝝ eius ambientiũ vnũ ex ſuis angulis in reliquũ. ⁊ ideo ſub illis dicitur cõtineri.
+
+[Curated heading level=2 type=definitions: OMnis paralellogrami ſpacij ea]
 
 {dropcap:O|lines=3|style=plain}Mnis paralellogrami ſpacij ea qdẽ q̃ diameter ſecat ꝑ mediũ palellograma circa eandẽ diametꝝ cõſiſtere dicunt̃.Eoꝝ vero paralellogramoꝝ que circa eandẽ diametrũ conſiſtũt quodlibet vnũ cũ ſupplementis duob⁹ gnomo noiat̃.
 
@@ -19,8 +23,6 @@ Explicit liber primus Jncipit liber ſecundus.
 [Margin]
 [Diagram: square with top corners a and b, its diagonal drawn from a to the lower right corner d, crossed by a vertical line g–h and a horizontal line e–f meeting the diagonal at k, with lower corners c and d]
 [/Margin]
-
-[Curated heading level=1 type=propositions: LIBER II]
 
 [Curated heading level=2 type=propositions: Propoſitio .j.]
 

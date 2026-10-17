@@ -3,9 +3,7 @@
 
 ## *Problêmes annexés au Livre III.*
 
-[Curated heading level=1 type=problems: Livre III, Problêmes annexés au Livre III]
-
-[Curated heading level=2 type=problems: PROBLÊME I.]
+[Curated heading level=3 type=problems: PROBLÊME I.]
 
 ### PROBLÊME I.
 

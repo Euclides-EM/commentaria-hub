@@ -2,7 +2,7 @@
 
 <!-- Page number: 75 -->
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO IV.]
+[Curated heading level=2 type=propositions: PROPOSITIO IV.]
 
 ## PROPOSITIO IV.
 
@@ -30,7 +30,7 @@ Si neutra per centrum tranſit, ex A centro duc A O. Si iam ambæ B C, F L foren
 a Per præc.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO V. & VI.]
+[Curated heading level=2 type=propositions: PROPOSITIO V. & VI.]
 
 ## PROPOSITIO V. & VI.
 
@@ -44,7 +44,7 @@ Fig. 6. & 7.
 
 Alias enim ductis ex communi centro A rectis A B, A C F, eſſent A C, A F, (pars & totum) æquales, quia ambæ ſunt æquales eidem A B.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO VII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VII.]
 
 ## PROPOSITIO VII.
 

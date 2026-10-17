@@ -1,7 +1,7 @@
 <!-- Page number: 100 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=problems: PROBLÊME XI.]
+[Curated heading level=3 type=problems: PROBLÊME XI.]
 
 ### PROBLÊME XI.
 
@@ -29,7 +29,7 @@ Car le triangle GEH est rectangle, l’hypoténuse GH=A, et le côté GE=B ; don
 
 *Scholie.* On peut trouver ainsi un quarré égal à la différence de tant de quarrés qu’on voudra ; car dès qu’on en réduit deux à un seul, on en réduira trois à deux, et ces deux-ci à un, et ainsi des autres.
 
-[Curated heading level=2 type=problems: PROBLÊME XII.]
+[Curated heading level=3 type=problems: PROBLÊME XII.]
 
 ### PROBLÊME XII.
 

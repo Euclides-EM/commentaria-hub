@@ -35,11 +35,9 @@
 
 *N. B.* Nous aurions pu rapporter beaucoup d’autres axiomes : mais ce petit nombre suffit, et c’est principalement le huitieme qui sert de base à tout l’ouvrage.
 
-[Curated heading level=1 type=theorems: Livre I]
+[Curated heading level=2 type=propositions: PROPOSITION I.]
 
-[Curated heading level=2 type=propositions: PROPOSITION I. THÉORÊME.]
-
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION I.]
+[Curated heading level=2 type=theorems: PROPOSITION I.]
 
 ## PROPOSITION I.
 

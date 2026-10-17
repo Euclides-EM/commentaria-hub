@@ -5,7 +5,7 @@ tiones, æque multiplicia primæ, ac tertiæ excedant æque multiplicia ſecund�
 
 [Diagram: three concentric ovals around a central rectangle containing the numbers 3, 2 and 4, 3; along the upper arcs the numbers 15, 6, 12, 10, 8, 14 and along the lower arcs 20, 12, 16, 15, 12, 21]
 
-[Curated heading level=2 type=definitions: IX.]
+[Curated heading level=3 type=definitions: IX.]
 
 ### IX.
 

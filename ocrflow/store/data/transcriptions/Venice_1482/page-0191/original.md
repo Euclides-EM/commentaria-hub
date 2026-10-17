@@ -4,11 +4,11 @@ conſtat autẽ ꝙ.p.⁊.u.ſunt incõmenſurabiles.nam ſi nõ erunt.n.⁊.c.c
 
 [Figure: column of horizontal lines labelled with letters a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, ſ, t, u and x, with small squares at the left and the numbers 2, 4, 16, 64 and 256]
 
-[Curated heading level=1 type=definitions: LIBER XI]
-
-[Curated heading level=2 type=definitions: Coꝛpus eſt qꝺ longitudinem ⁊ latitudinem ⁊ altitudinẽ habet]
-
 [Curated heading level=1: LIBER XI]
+
+[Curated heading level=2 type=definitions: COꝛpus eſt qꝺ longitudinem ⁊ latitudinem ⁊ altitudinẽ habet]
+
+[Curated heading level=2 type=definitions: Linea erecta ſupꝛa ſupficiẽ]
 
 {dropcap:C|lines=11|style=decorated|decoration="interlaced foliate ornament on black ground"}Oꝛpus eſt qꝺ longitudinem ⁊ latitudinem ⁊ altitudinẽ habet cuiꝰ termini ſunt ſupficies Linea erecta ſupꝛa ſupficiẽ ẽ que cũ ſingulis ſibi ꝑterminalibus lineis in ea ſupficie expãſis angulos rectos facit.linea aũt hec ſupꝛa eã ſuperficiẽ perpendicularis eſſe ⁊ ad eãdẽ oꝛthogonaliter inſiſtere dicitur.
 

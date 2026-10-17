@@ -6,9 +6,9 @@
 
 Müssen derowegen die ähnliche/ gleicherweiß gesetzte/ und gleichmässigen Winckel habende abgenommene Vierecke mit dem gantzen ac üm einen einigen Zwergstrich stehen. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXVII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXVII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 20. Beweiß-Stück. Der XXVII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 20. Beweiß-Stück.]
 
 ## Der XXVII. Vortrag.
 

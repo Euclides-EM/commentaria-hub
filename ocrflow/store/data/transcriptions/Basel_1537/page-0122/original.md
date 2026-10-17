@@ -4,13 +4,15 @@
 
 nor a b, quorum primum demonstrat 8 huius, & secundum 10. Nam cum uult sumere quantitatem quæ se habeat ad e in proportione g ad d, dabo tibi maiorem aut minorem aut æqualem a b indifferenter sicut uoluero, quare aut non demonstrat aut accidit sibi circulus. & principia esse ignotiora conclusionibus. Supponenda sunt igitur cum Euclide principia tanquam nota, & non ipsa ex conclusionibus, sed cōclusiones ex ipsis demonstrandæ sunt.
 
-[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER QVINTVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
 
-[Curated heading level=2 type=definitions: Euclides ex Zamberto. Diffinitiones.]
-
 ## Euclides ex Zamberto. Diffinitiones.
+
+[Curated heading level=3 type=definitions: PArs est magnitudo]
+
+[Curated heading level=3 type=definitions: 2]
+
+[Curated heading level=3 type=definitions: 3]
 
 {dropcap:P|lines=?|style=decorated|decoration="depicting Alexander and Diogenes, inscribed ALIXANDER DIOGEN"}Ars est magnitudo magnitudinis minor maioris quando minor metitur maiorē. 2 Multiplex autē, maior minori, quādo eā metitur minor. 3 Ratio, est duarū magnitudinū eiusdem generis* aliquatenus adinuicem quædā habitudo,
 
@@ -18,13 +20,25 @@ nor a b, quorum primum demonstrat 8 huius, & secundum 10. Nam cum uult sumere qu
 *κατὰ πηλικότητα, id est quo ad quantitatem quod ad quantitatem pertinet.
 [/Margin]
 
+[Curated heading level=3 type=definitions: 4]
+
 4 Proportio uero est rationū * identitas
 
 [Margin]
 *ὁμοιότης
 [/Margin]
 
+[Curated heading level=3 type=definitions: 5]
+
+[Curated heading level=3 type=definitions: 6]
+
 5 Rationem habere adinuicem magnitudines dicūtur, quæ possunt multiplicatæ inuicem excedere. 6 In eadem ratione magnitudines dicuntur esse, prima ad secundam, & tertia ad quartam: quādo primæ tertiæq̃ æque multiplices, secundæ & quartæ æque multiplices, iuxta quāuis multiplicationē utraq̃ utrāq̃ uel una excedūt, uel una æquales sunt, uel una deficiūt sumptæ adinuicem.
+
+[Curated heading level=3 type=definitions: 7]
+
+[Curated heading level=3 type=definitions: 8]
+
+[Curated heading level=3 type=definitions: 9]
 
 7 Eandē autē habentes rationem magnitudines, proportionales uocētur, 8 Quando uero æque multipliciū multiplex primæ excesserit multiplicem secundæ, multiplex autem tertiæ nō excesserit multiplicem quartæ, tunc prima ad secundam maiorem rationē habere dicetur, quàm tertia ad quartā. 9 Proportio autē in tribus terminis, *minima est.
 
@@ -32,11 +46,19 @@ nor a b, quorum primum demonstrat 8 huius, & secundum 10. Nam cum uult sumere qu
 *ad minus
 [/Margin]
 
+[Curated heading level=3 type=definitions: 10]
+
+[Curated heading level=3 type=definitions: 11]
+
 10 Quādo tres magnitudines proportionales fuerint, prima ad tertiam duplicem rationē habere dicetur quam ad secundam. Quando autē quatuor magnitudines proportionales fuerint, prima ad quartam triplicē rationē habere dicetur quam ad secundā. Et semper deinceps una plus, quo ad proportio fuerit. 11 *Similis rationis magnitudines dicuntur, antecedentes antecedentibus & consequentes consequentibus.
 
 [Margin]
 *ὁμόλογα
 [/Margin]
+
+[Curated heading level=3 type=definitions: 12]
+
+[Curated heading level=3 type=definitions: 13]
 
 12 Petmutata ratio, est acceptio antecedētis ad antecedēs, & cōsequentis ad consequens, 13 *Cōuersa ratio, est acceptio cōsequentis tanquā antecedentis ad antecedēs tanquam ad consequēs.
 
@@ -44,11 +66,19 @@ nor a b, quorum primum demonstrat 8 huius, & secundum 10. Nam cum uult sumere qu
 *ἀνάπαλιν λόγος econtra uertit alibi
 [/Margin]
 
+[Curated heading level=3 type=definitions: 14]
+
+[Curated heading level=3 type=definitions: 15]
+
+[Curated heading level=3 type=definitions: 16]
+
 14 Cōpositio rationis, est acceptio antecedētis cū cōsequēte, sicut unius, ad ipsum consequēs. 15 Diuisio rationis, est acceptio excessus quo excedit antecedēs ipsum cōsequēs, ad ipsum cōsequēs. 16 Cōuersio rationis, est acceptio antecedentis ad excessum quo excedit antecedens ipsum cōsequens.
 
 [Margin]
 *ἀναστροφὴ λόγου
 [/Margin]
+
+[Curated heading level=3 type=definitions: 17]
 
 17 Aequa ratio, est pluribus existentibus ma-
 

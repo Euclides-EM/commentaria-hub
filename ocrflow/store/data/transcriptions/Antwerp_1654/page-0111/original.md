@@ -25,7 +25,7 @@ d Per 21 l.1.
 
 Pars 5. patet ex quatuor præced.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO IX.]
+[Curated heading level=2 type=propositions: PROPOSITIO IX.]
 
 ## PROPOSITIO IX.
 
@@ -37,7 +37,7 @@ Fig. 11.
 
 Patet ex 4. parte prop. 7.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO X.]
+[Curated heading level=2 type=propositions: PROPOSITIO X.]
 
 ## PROPOSITIO X.
 

@@ -3,9 +3,9 @@
 
 parcequ'elles peuvent toutes y eſtre inſcrites, ſelon ce Theoreme.
 
-[Curated heading level=2 type=propositions: XIX. QUATRIEME THEOREME.]
+[Curated heading level=5 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XIX. QUATRIEME THEOREME.]
+[Curated heading level=5 type=theorems: QUATRIEME THEOREME.]
 
 ##### QUATRIEME THEOREME.
 

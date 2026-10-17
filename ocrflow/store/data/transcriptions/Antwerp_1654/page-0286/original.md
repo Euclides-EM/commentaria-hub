@@ -11,7 +11,7 @@ alia figura; ex cuius lateribus ſingulis triangula ſurgunt, in vnum punctum L,
 Fig. 2. 3.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. XII, Def. 2]
+[Curated heading level=3 type=definitions: 2.]
 
 2. Si extra planum alicuius circuli (C L) acceptum fuerit punctum (A) ab eoque ducatur recta infinita (A F) tangens circulum in C; quæ pũcto (A) manente fixo, circa peripheriam circuli conuertatur, donec in eum locum (A C F) redeat, vnde moueri cœperat; ſuperficies à recta linea (A C F) deſcripta, dicitur conica ſuperficies, corpus verò quod hac ſuperficie & circulo (C L) continetur, conus vocatur.
 

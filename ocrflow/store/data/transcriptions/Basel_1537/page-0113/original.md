@@ -4,6 +4,8 @@
 
 maioris abstractionis, quàm proportionem arithmeticā: omnis enim proportio circa quam arithmetica uersatur, rationalis est: geometria uero, rationales & irrationales æqualiter considerat.
 
+[Curated heading level=3 type=definitions: Proportionalitas, est similitudo]
+
 [Curated heading level=3 type=campanus_sequence: 4.]
 
 [Margin]
@@ -15,6 +17,8 @@ Proportionalitas, est similitudo proportionum.
 CAMPANVS. Vt si dicamus quod quæ est proportio a ad b, ea est etiam c ad d: proportio quæ est inter a & b, similis est illi quæ est inter c & d. Hæc autem similitudo quæ ex istis proportionibus resultat: dicitur proportionalitas.
 
 [Diagram: four horizontal line segments in two pairs, labelled a and c (shorter, above) and b and d (longer, below)]
+
+[Curated heading level=3 type=definitions: Quantitates autem quæ dicuntur]
 
 [Curated heading level=3 type=campanus_sequence: 5.]
 

@@ -16,7 +16,7 @@ d Per eand.
 
 Erit rurſum AF ad AB, vt AB ad AC.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO IX.]
+[Curated heading level=2 type=propositions: PROPOSITIO IX.]
 
 ## PROPOSITIO IX.
 
@@ -32,7 +32,7 @@ Ducatur infinita AZ. Ex qua ſume AQ, QR æquales FI, IL. Ex R duc RB. Huic ex Q
 
 Patet ex p.2.l.6.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO X.]
+[Curated heading level=2 type=propositions: PROPOSITIO X.]
 
 ## PROPOSITIO X.
 

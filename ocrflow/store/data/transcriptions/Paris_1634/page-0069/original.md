@@ -1,6 +1,6 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Curated heading level=2 type=axioms: 2. a. 1.]
+[Curated heading level=3 type=axioms: 2. a. 1.]
 
 ### 2. a. 1.
 
@@ -12,7 +12,7 @@ hyp. | ab 2|2 cd.
 hyp. | bf 2|2 dg.
 2.a.1 | af 2|2 cg.
 
-[Curated heading level=2 type=axioms: 3. a. 1.]
+[Curated heading level=3 type=axioms: 3. a. 1.]
 
 ### 3. a. 1.
 
@@ -24,7 +24,7 @@ hyp. | ab 2|2 cd.
 hyp. | ae 2|2 cf.
 3.a.1 | eb 2|2 fd.
 
-[Curated heading level=2 type=axioms: 3. a. b.]
+[Curated heading level=3 type=axioms: 3. a. b.]
 
 ### 3. a. b.
 

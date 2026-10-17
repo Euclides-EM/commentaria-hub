@@ -5,7 +5,7 @@ cumſcripti eſſe æqualia. Illud igitur æquilaterum erit:eſt vero & æquiang
 
 *Eodem artificio circulo circumſcribitur ordinata figura quæcunque, ſi prius illi ſimilis circulo inſcribatur.*
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO XIII. & XIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIII. & XIV.]
 
 ## PROPOSITIO XIII. & XIV.
 

@@ -3,7 +3,7 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 99 -->
 
-[Curated heading level=2 type=problems: PROBLÊME X.]
+[Curated heading level=3 type=problems: PROBLÊME X.]
 
 ### PROBLÊME X.
 

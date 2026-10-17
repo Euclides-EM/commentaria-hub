@@ -15,7 +15,7 @@ Fig. 41.
 
 3. Pars. Eſto ſegmentum L O X ſemicirculo L O B minus, in eoque angulus X O L. Erit hic maior quàm B O L, qui rectus eſt. Ergo &c.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXXII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXII.]
 
 ## PROPOSITIO XXXII.
 

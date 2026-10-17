@@ -16,9 +16,9 @@
 
 3. Jedweder Vierthel wird abermahl in zween gleiche Theile geschnitten/ und so fort an.
 
-[Curated heading level=2 type=propositions: Der XI. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XI Vortrag.]
 
-[Curated heading level=2 type=problems: Das 6. Werck-Stück. Der XI. Vortrag.]
+[Curated heading level=2 type=problems: Das 6. Werckstück.]
 
 ## Der XI Vortrag.
 

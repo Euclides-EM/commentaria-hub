@@ -4,8 +4,6 @@
 
 proportionalis inter ipſius baſis ſegmenta:& vnumquodq; præterea laterū rectum continentium angulum , medium itidem proportionale eſt inter baſin & ſegmentum,quod cum ipſo congreditur latere.
 
-[Curated heading level=1 type=problems: LIBER VI.]
-
 [Curated heading level=2 type=propositions: Problema 1, Propoſitio 9.]
 
 [Curated heading level=2 type=problems: Problema 1, Propoſitio 9.]

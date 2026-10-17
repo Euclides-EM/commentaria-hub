@@ -36,9 +36,9 @@ Weßwegen kein ander Nebenstrich/ als durch den Gipffel D kan gezogen werden.
 
 Müssen also allezeit gleichgrosse und auff gleichlangen Grundstrichen stehende △ △ auch zwischen einerley Nebenstrichen stehen. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XL. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XL. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 30. Beweiß-Stück. Der XL. Vortrag.]
+[Curated heading level=2 type=theorems: Das 30. Beweiß-Stück.]
 
 ## Der XL. Vortrag.
 

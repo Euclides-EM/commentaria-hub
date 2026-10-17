@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE VII. -->
 <!-- Page number: 131 -->
 
-### COROLLAIRE.
+#### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXII.]
 

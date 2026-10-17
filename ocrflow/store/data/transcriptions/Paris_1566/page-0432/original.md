@@ -4,8 +4,6 @@
 
 {dropcap:C|lines=5|style=decorated|decoration="foliate woodcut initial"}OMPONI & miſceri dicuntur regularia ſolida, quando ſingula eorum in alia transformantur ſolida, ſeruatis baſium forma, numero, & inclinatione, ad ſe inuicẽ prius habitis, quorũ tamen aliqua in mixta, alia in ſimplicia trãsformãtur ſolida. In mixta, veluti Dodecahedrũ & Icoſahedron, quæ transferuntur ſi ſectis bifariam lateribus, tollantur ſolidi anguli, iunctarum ſecantium figuris ſubtenſi, quod ſupereſt ſolidum, icoſidodecahedror{printer-error-correction:icoſidodecahedron} dicetur. Si cubi & octahedri latera bifariam ſecta, rectis coniungãtur, anguli ſolidi planis à coniungentibus deſcriptis ſubtenſi & ablati, ſolidum relinquunt, quod exoctahedron dicetur. Vnde dicemus ex dodecahedro & icoſahedro idem confici icoſidodecahedron, ex cubo autem & octahedro aliud idem exoctahedron. Reliquum verò ſolidum ſcilicet pyramis, in ſimplex transformatur ſolidum: nam ſectis bifariam ſingulis pyramidis lateribus, triangula à ſectiones coniungentibus deſcripta, angulos pyramidis ſolidos ſubtedentia & tollentia, æqualia & ſimilia ſunt relictis in ſingulis baſibus triangulis æquilateris, ex quibus oritur Octahedrum, ſimplex non compoſitum ſolidum. Octahedrum nanque quatuor habet baſes, ſimiles numero, forma, & inclinatione mutua, pyramidis baſibus. Ac reliquas quatuor ſimili ſitu prioribus oppoſitas, & parallelas, quare bis repetita pyramidis applicatio, Octahedrum ſimplex, veluti reliqua corpora compoſitum mixtum, binarum interuentu componit. Quod iam antea inſcriptum, ſiue hac lege pyramidi deſcriptum, ſecunda decimiquinti diſcußimus, quare huius fuſiori parcemus expoſitioni.
 
-[Curated heading level=1 type=definitions: DE MIXTIS ET COMPOSITIS REGVLARIBVS SOLIDIS.]
-
 [Curated heading level=2 type=definitions: Diffinitio prima.]
 
 ## Diffinitio prima.
@@ -17,10 +15,6 @@ Exoctahedron eſt figura ſolida, ſex æqualibus quadratis baſibus octóque tr
 ## Diffinitio ſecunda.
 
 Ycoſidodecahedron eſt figura ſolida, duodecim quinquangulis æquilateris æqualibus & æquiangulis, vigintíque triangulis æqualibus & æquilateris comprehenſa.
-
-[Curated heading level=1 type=propositions: DE MIXTIS ET COMPOSITIS REGVLARIBVS SOLIDIS.]
-
-[Curated heading level=1 type=problems: DE MIXTIS ET COMPOSITIS REGVLARIBVS SOLIDIS.]
 
 [Curated heading level=2 type=propositions: Problema primum.]
 

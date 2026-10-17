@@ -1,9 +1,9 @@
 <!-- Page number: 112 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=propositions: PROPOSITION VI. PROBLÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VI.]
 
-[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION VI.]
+[Curated heading level=2 type=problems: PROPOSITION VI.]
 
 ## PROPOSITION VI.
 

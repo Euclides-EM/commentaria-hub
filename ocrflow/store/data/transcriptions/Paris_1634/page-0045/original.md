@@ -4,7 +4,7 @@
 
 ABC est semicirculus. | ABC est vn demy cercle.
 
-[Curated heading level=2 type=definitions: XIX.]
+[Curated heading level=3 type=definitions: XIX.]
 
 ### XIX.
 

@@ -3,7 +3,7 @@
 
 neat ſuum conſequens (Q;) vel quando antecedens vnius, minus continetur in ſuo conſequente, quàm antecedens alterum contineatur in conſequente ſuo.
 
-## Proportionum æqualitas & inæqualitas explicatur.
+#### Proportionum æqualitas & inæqualitas explicatur.
 
 [Curated heading level=2 type=figures: Fig. 5]
 

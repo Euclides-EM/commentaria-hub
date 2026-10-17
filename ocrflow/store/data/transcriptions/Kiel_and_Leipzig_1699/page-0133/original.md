@@ -26,11 +26,9 @@ dd | bb — 2bc + cc | n. 4. II.
 aa + dd | bb + 2bc + cc + bb — 2bc + cc | n 2 Gr. I.
 oder aa + dd | 2bb + 2cc | W. Z B.
 
-[Curated heading level=1 type=problems: Das II. Buch]
+[Curated heading level=2 type=propositions: Der XI. Vortrag.]
 
-[Curated heading level=2 type=propositions: Der XI. Vortrag. Werck-Stück]
-
-[Curated heading level=2 type=problems: Das 1. Werck-Stück. Der XI. Vortrag.]
+[Curated heading level=2 type=problems: Das 1. Werck-Stück.]
 
 ## Der XI. Vortrag.
 

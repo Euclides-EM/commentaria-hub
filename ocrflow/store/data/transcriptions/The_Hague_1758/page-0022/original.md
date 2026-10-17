@@ -8,7 +8,7 @@
 
 <!-- Running title: AXIOMES. -->
 
-[Curated heading level=2 type=axioms: AXIOME VIII.]
+[Curated heading level=3 type=axioms: VIII.]
 
 ### VIII.
 
@@ -16,7 +16,7 @@
 
 *Toute la ligne* AC *eſt plus grande que ſa partie* BC. *Fig.* 6.
 
-[Curated heading level=2 type=axioms: AXIOME IX.]
+[Curated heading level=3 type=axioms: IX.]
 
 ### IX.
 

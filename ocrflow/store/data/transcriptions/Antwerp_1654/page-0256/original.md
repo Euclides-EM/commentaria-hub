@@ -1,9 +1,7 @@
 <!-- Running title: Liber Vndecimus. -->
 <!-- Page number: 223 -->
 
-[Curated heading level=1 type=propositions: Liber XI]
-
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO PRIMA.]
+[Curated heading level=2 type=propositions: PROPOSITIO PRIMA.]
 
 ## PROPOSITIO PRIMA.
 
@@ -17,7 +15,7 @@ Fig.9.
 
 Per ſe clarum eſt ex definitione plani, & lineæ rectæ vide defin. 5. & 4.l.1.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO II.]
+[Curated heading level=2 type=propositions: PROPOSITIO II.]
 
 ## PROPOSITIO II.
 
@@ -31,7 +29,7 @@ Fig.10.
 
 Prima pars per ſe clara eſt, cum triangulum nihil ſit aliud, quam plana ſuperficies, tribus rectis comprehenſa. Ex quo etiam patet pars altera.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO III.]
+[Curated heading level=2 type=propositions: PROPOSITIO III.]
 
 ## PROPOSITIO III.
 

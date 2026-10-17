@@ -6,7 +6,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XXIV. THEOREME XV.]
 
-[Curated heading level=2 type=theorems: THEOREME XV. PROPOSITION XXIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XXIV. THEOREME XV.]
 
 ## PROPOSITION XXIV. THEOREME XV.
 

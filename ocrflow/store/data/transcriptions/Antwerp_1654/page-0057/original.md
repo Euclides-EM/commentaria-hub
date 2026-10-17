@@ -11,9 +11,9 @@ Fig.36.
 
 3. Omnes anguli circa vnum punctum conſtituti, conficiunt quatuor rectos. Patet ex Corol.2. ſunt enim quatuor recti in plures partes ſecti.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XIV.]
+[Curated heading level=3 type=propositions: PROPOSITIO XIV.]
 
-## PROPOSITIO XIV.
+### PROPOSITIO XIV.
 
 [Curated heading level=2 type=figures: Fig. 35]
 
@@ -33,9 +33,9 @@ b Per 13. l.1.
 c Contra axio. 9.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XV.]
+[Curated heading level=3 type=propositions: PROPOSITIO XV.]
 
-## PROPOSITIO XV.
+### PROPOSITIO XV.
 
 [Margin]
 Fig 37.

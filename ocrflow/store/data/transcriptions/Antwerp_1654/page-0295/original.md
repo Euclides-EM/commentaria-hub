@@ -1,7 +1,7 @@
 <!-- Page number: 262 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO VI.]
+[Curated heading level=2 type=propositions: PROPOSITIO VI.]
 
 ## PROPOSITIO VI.
 
@@ -24,7 +24,7 @@ e Per eand.
 f Per eand.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO VII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VII.]
 
 ## PROPOSITIO VII.
 

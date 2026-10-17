@@ -3,7 +3,7 @@
 
 triangel a b c / der mit drej ainander geleichen linien begreiffen vnd beſchloſſen iſt.
 
-### Demonſtratio / das iſt /
+#### Demonſtratio / das iſt /
 
 [Subhead]
 Grund vnd vrſach diſer Operation.
@@ -11,15 +11,15 @@ Grund vnd vrſach diſer Operation.
 
 Sollichs zuͤbeweiſen / biß ingedenck des zirckels beſchreibung / oben N°.14 angezaigt. dañ auß der ſelben volgt das die linien a b / vñ a c / ainer lenge ſeind / dieweil ſy von dem Centro oder mittlen puncten aines zirckels biß an den vmbkhraiß raichen. Auß bemelter vrſach / ſeind auch die zwo linien a b vnd b c ainander geleich. So nun baide / a c / vnnd b c / der linien a b gleich ſeind / wie yetzo erwyſen / ſo müſſen auch ſy baid einander gleich ſein / auß dem Erſten puncten deren ſo durch gemainen verſtand bekhandt ſeind / ⁊c. Demnach ſeind alle drej linien einander geleich / vnd dem begern ein benuͤgen geſchechen.
 
-### Warnung.
+#### Warnung.
 
 Will hiemitt den ainfeltigen ermantt haben / vnnd gewarnet / Das nit vonnoͤtten die zwen zirckel gar außzuͤreiſſen / oder die ſelben offenbar zuͤmachen / ſonder gnuͤg iſt / ſo du zwen verborgne riß / in der gebnen linj lenge / mit dem zirckel macheſt / die creützweiß durch einander gehn. dann das vberig von ſollichem zirckel / dienet nur zuͤr Demonſtration / deßgleichen ſolt auch in andern verſtehn. Welcher maſſen du ain gleichfüſſigen oder gar vngleichen triangell machen ſolleſt / lehrt die 22 volgendt Propoſ. ⁊c.
 
 [Figure: triangle drawn with two short intersecting arcs at its apex]
 
-[Curated heading level=2 type=propositions: II. Die ander propoſition]
+[Curated heading level=3 type=propositions: II. Die ander propoſition]
 
-## II. Die ander propoſition.
+### II. Die ander propoſition.
 
 [Subhead]
 Von ainem fürgenommen puncten / ain linj die einer fürgegebnen linj gleich ſei / ziechen. Geſchicht alſo /
@@ -29,9 +29,9 @@ Wiewol gar leichtlich / ſollichs zuͤwegen mag bracht werden / nemlich ſo du d
 
 [Figure: a horizontal line labelled a above a point b from which several equal lines radiate to points c, d, e, f, g and h]
 
-[Curated heading level=2 type=propositions: III. Die dritt propoſition]
+[Curated heading level=3 type=propositions: III. Die dritt propoſition]
 
-## III. Die dritt propoſition. Lehrt
+### III. Die dritt propoſition. Lehrt
 
 [Subhead]
 So zwo vngleich linien fürgeben / von der lengē aine die der kürtzern gleich ſei / abſchneiden.

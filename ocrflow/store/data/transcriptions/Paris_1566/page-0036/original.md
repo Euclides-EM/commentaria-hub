@@ -5,7 +5,7 @@
 
 Tranſtulimus Iſoſcelium triangulorum pluralem vocem in ſingularem, ne incumbant diſcentes ſuper comparatione angulorum plurium Iſoſcelium adinuicem, ſed tantùm comparationi angulorum cuiuſlibet Iſoſcelis & eiuſdem inter ſe.
 
-[Curated heading level=2 type=propositions: Propoſitio 6.]
+[Curated heading level=3 type=propositions: Propoſitio 6.]
 
 ### Propoſitio 6.
 
@@ -15,7 +15,7 @@ Sit triangulum GBA æquos habens angulos GAB, BGA: Dico latera AG & AB (eos ſub
 
 [Diagram: triangle ABG with point D on AB and line DG]
 
-[Curated heading level=2 type=propositions: Propoſitio 7.]
+[Curated heading level=3 type=propositions: Propoſitio 7.]
 
 ### Propoſitio 7.
 

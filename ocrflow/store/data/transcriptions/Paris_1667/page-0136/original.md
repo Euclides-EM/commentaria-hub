@@ -15,9 +15,9 @@ XLVII.
 
 CETTE ſeule propoſition avec ſon corollaire & l'avertiſſement nous donne moyen de prouver facilement pluſieurs theoremes touchant les lignes obliques. Et voicy premierement ceux de l'égalité.
 
-[Curated heading level=2 type=propositions: XLVIII. PREMIER THEOREME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XLVIII. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 

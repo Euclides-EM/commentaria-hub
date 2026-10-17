@@ -11,9 +11,7 @@ Rurſum cum de cylindris vel conis ago, non alios intelligo quam rectos.
 Fig 1 & 16.
 [/Margin]
 
-[Curated heading level=1 type=axioms: Selecta ex Archimede]
-
-[Curated heading level=2 type=axioms: Archim., Ax. 1]
+[Curated heading level=3 type=axioms: 1.]
 
 1. {dropcap:P|lines=2|style=plain}Olygoni circulo inſcripti ambitus minor eſt circuli peripheriâ.
 
@@ -21,7 +19,7 @@ Fig 1 & 16.
 Fig. 1.
 [/Margin]
 
-[Curated heading level=2 type=axioms: Archim., Ax. 2]
+[Curated heading level=3 type=axioms: 2.]
 
 2. Polygoni circulo circumſcripti ambitus circuli peripheriâ maior eſt.
 
@@ -29,7 +27,7 @@ Fig. 1.
 Fig. 16.
 [/Margin]
 
-[Curated heading level=2 type=axioms: Archim., Ax. 3]
+[Curated heading level=3 type=axioms: 3.]
 
 [Curated heading level=2 type=figures: Fig. 17]
 
@@ -39,7 +37,7 @@ Fig. 16.
 Fig. 17.
 [/Margin]
 
-[Curated heading level=2 type=axioms: Archim., Ax. 4]
+[Curated heading level=3 type=axioms: 4.]
 
 [Curated heading level=2 type=figures: Fig. 3 & 6]
 
@@ -49,7 +47,7 @@ Fig. 17.
 Fig 3. & 6.
 [/Margin]
 
-[Curated heading level=2 type=axioms: Archim., Ax. 5]
+[Curated heading level=3 type=axioms: 5.]
 
 [Curated heading level=2 type=figures: Fig. 4 & 8]
 
@@ -59,7 +57,7 @@ Fig 3. & 6.
 Fig. 4. & 8.
 [/Margin]
 
-[Curated heading level=2 type=axioms: Archim., Ax. 6]
+[Curated heading level=3 type=axioms: 6.]
 
 6. Et ſuperficies pyramidis cono inſcriptę minor eſt coni ſuperficie; circumſcriptæ autem maior.
 

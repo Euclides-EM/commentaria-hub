@@ -8,7 +8,7 @@
 d Per 8. l.1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO VI.]
+[Curated heading level=2 type=propositions: PROPOSITIO VI.]
 
 ## PROPOSITIO VI.
 
@@ -32,7 +32,7 @@ o Per 4.l.1.
 d Per 4.l.6.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO VII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VII.]
 
 ## PROPOSITIO VII.
 

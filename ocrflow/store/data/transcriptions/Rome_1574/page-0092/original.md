@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. I. -->
 <!-- Page number: 4 -->
 
-[Curated heading level=2 type=definitions: VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 ### VII.
 

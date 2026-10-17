@@ -7,7 +7,7 @@ A Z primam quantitatem, q ita omnes differentiæ (hoc eſt, vt iam oſtendi, pri
 q Per 12.l.5.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XII.]
 
 ## PROPOSITIO XII.
 

@@ -7,9 +7,9 @@ Si vero B et C ſimul minores ſint quam A, quoniam requiritur ut B, C, D ſimul
 
 Cor. Si praeterea requiratur ut A et B ſimul non minores ſint quam C et D ſimul, debet exceſſus ipſarum A et B ſimul ſupra C non minor eſſe quam D, hoc eſt debet D non major eſſe hoc exceſſu.
 
-[Curated heading level=2 type=propositions: PROP. II. PROBLEMA.]
+[Curated heading level=4 type=propositions: PROP. II. PROBLEMA.]
 
-[Curated heading level=2 type=problems: PROP. II. PROBLEMA.]
+[Curated heading level=4 type=problems: PROP. II. PROBLEMA.]
 
 #### PROP. II. PROBLEMA.
 

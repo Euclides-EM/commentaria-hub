@@ -10,7 +10,7 @@ a Per 26.l.1.
 b Per 16.l.3.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO V.]
+[Curated heading level=2 type=propositions: PROPOSITIO V.]
 
 ## PROPOSITIO V.
 

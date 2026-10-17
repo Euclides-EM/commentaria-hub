@@ -5,9 +5,9 @@
 
 *Scholie.* On met dans cette proposition la restriction que EF soit dirigé dans le même sens que AC, et ED dans le même sens que AB ; car si on prolonge FE vers H, l’angle DEH aura ses côtés paralleles à ceux de l’angle BAC : mais ces angles ne seront pas égaux, parceque EH et AC sont dirigés en sens contraires : dans ce cas l’angle DEH et l’angle BAC feroient ensemble deux angles droits.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXVII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXVII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXVII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXVII.]
 
 ## PROPOSITION XXVII.
 
@@ -25,9 +25,9 @@ Menez AE parallele à CB ; par rapport à la sécante AB les angles BAE, ABC, so
 *Pr. 23.
 [/Margin]
 
-[Curated heading level=2 type=propositions: PROPOSITION XXVIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXVIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXVIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXVIII.]
 
 ## PROPOSITION XXVIII.
 

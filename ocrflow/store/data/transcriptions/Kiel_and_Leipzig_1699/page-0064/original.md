@@ -12,9 +12,9 @@ Drw. FEG | ICK n. 8. Vortr.
 ### Beschluß.
 Ist also auff den gegebenen Düttel C. in dem gegebenen Strich AB, gesetzt ein Winckel ICK ⋀ FEG. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XXIV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXIV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 15. Beweiß-Stück. Der XXIV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 15. Beweiß-Stück.]
 
 ## Der XXIV. Vortrag.
 

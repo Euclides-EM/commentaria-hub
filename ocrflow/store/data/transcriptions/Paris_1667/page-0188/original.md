@@ -11,7 +11,7 @@ XXXVIII.
 
 Tout cela ſuppoſé, ſoient conſiderez les Lemmes ſuivans.
 
-[Curated heading level=2 type=lemmas: XXXIX. PREMIER LEMME.]
+[Curated heading level=4 type=lemmas: PREMIER LEMME.]
 
 #### PREMIER LEMME.
 
@@ -23,7 +23,7 @@ XXXIX.
 
 QUAND on dit que deux angles qu'on veut meſurer par les ſinus ont le rayon égal, c'eſt de même que ſi l'on diſoit qu'ils ſont meſurez par des arcs de cercles égaux; & s'ils ont le rayon inégal, par des arcs de cercles inégaux.
 
-[Curated heading level=2 type=lemmas: XL. SECOND LEMME.]
+[Curated heading level=4 type=lemmas: SECOND LEMME.]
 
 #### SECOND LEMME.
 
@@ -35,7 +35,7 @@ XL.
 
 DANS les cercles égaux les arcs égaux ont des ſinus égaux, & les ſinus égaux donnent des arcs égaux. VII. 15.
 
-[Curated heading level=2 type=lemmas: XLI. TROISIEME LEMME.]
+[Curated heading level=4 type=lemmas: TROISIEME LEMME.]
 
 #### TROISIEME LEMME.
 
@@ -47,7 +47,7 @@ XLI.
 
 DANS les cercles égaux les plus grands arcs ont les plus grands ſinus, & les plus grands ſinus donnent les plus grands arcs. VII. 15.
 
-[Curated heading level=2 type=lemmas: XLII. QUATRIEME LEMME.]
+[Curated heading level=4 type=lemmas: QUATRIEME LEMME.]
 
 #### QUATRIEME LEMME.
 
@@ -59,7 +59,7 @@ XLII.
 
 DANS des cercles inégaux les arcs eſtant égaux, ceux des plus grands cercles ont les plus grands ſinus. VII. 18.
 
-[Curated heading level=2 type=lemmas: XLIII. CINQUIEME LEMME.]
+[Curated heading level=4 type=lemmas: CINQUIEME LEMME.]
 
 #### CINQUIEME LEMME.
 
@@ -71,9 +71,9 @@ XLIII.
 
 DANS des cercles inégaux les ſinus eſtant égaux, ceux des plus grands cercles donnent des arcs proportionellement plus petits, c'eſtadire de moins de degrez. C'eſt une ſuitte claire du precedent.
 
-[Curated heading level=2 type=propositions: XLIV. PREMIER THEOREME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XLIV. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 

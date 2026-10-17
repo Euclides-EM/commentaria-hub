@@ -11,7 +11,7 @@ gne eſt coupée en deux. C'eſtpourquoy il faut bien retenir ces trois propoſi
 
 ## DE LA PROPORTION ENTRE LES RECTANGLES.
 
-[Curated heading level=2 type=propositions: XIV. PROPOSITION FONDAMENTALE.]
+[Curated heading level=3 type=propositions: PROPOSITION FONDAMENTALE.]
 
 ### PROPOSITION FONDAMENTALE.
 

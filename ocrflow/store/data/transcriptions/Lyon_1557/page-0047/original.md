@@ -9,7 +9,7 @@ Mechanicè verò diuidetur Triangulũ in alias partes, diuiſo ſimiliter latere
 
 Subijciemus & hoc Problema,
 
-[Curated heading level=2 type=additions: Ad PROPOSITIO XXXVIII. A puncto in vno laterum Trianguli ſignato lineam ducere, quæ Triangulum bifariam diuidat.]
+[Curated heading level=3 type=additions: A puncto in vno laterum Trianguli ſignato lineam ducere, quæ Triangulum bifariam diuidat.]
 
 ### A puncto in vno laterum Trianguli ſignato lineam ducere, quæ Triangulum bifariam diuidat.
 

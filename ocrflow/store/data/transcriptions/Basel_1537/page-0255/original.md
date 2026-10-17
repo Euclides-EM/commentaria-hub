@@ -2,6 +2,12 @@
 
 <!-- Page number: 244 -->
 
+[Curated heading level=3 type=definitions: 10]
+
+[Curated heading level=3 type=definitions: 11]
+
+[Curated heading level=3 type=definitions: 12]
+
 10 Et quæ huic commensurabilia, rationalia. 11 Et quæ huic incōmensurabilia, irrationalia dicuntur. 12 Et ipsorum (si quadrata fuerint latera, sin autem, alia quæpiam rectilinea, ipsa potentes æqualiaq̃ ipsis quadrata describentes, irrationales uocentur.
 
 ## Eucli. ex Camp. Propositio 1

@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE VII. -->
 <!-- Page number: 225 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XXI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXI.]
+[Curated heading level=2 type=theorems: PROPOSITION XXI.]
 
 ## PROPOSITION XXI.
 
@@ -21,9 +21,9 @@ Car en prolongeant les arcs OB, OD, dans l’autre hémisphere jusqu’à leur r
 
 *Scholie.* Il est clair aussi que les deux pyramides sphériques qui ont pour bases les triangles AOC, BOD, prises ensemble, équivalent à l’onglet sphérique dont l’angle est BOD.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXII.]
 
 ## PROPOSITION XXII.
 

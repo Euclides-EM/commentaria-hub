@@ -1,7 +1,7 @@
 <!-- Running title: Liber Primus. -->
 <!-- Page number: 43 -->
 
-### Scholium.
+#### Scholium.
 
 [Curated heading level=2 type=figures: Fig. 60]
 
@@ -21,9 +21,9 @@ Fig.61.
 
 Demonſtratio ex hac prop. patet ductis per laterum diuiſiones parallelis.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXXV. & XXXVI.]
+[Curated heading level=3 type=propositions: PROPOSITIO XXXV. & XXXVI.]
 
-## PROPOSITIO XXXV. & XXXVI.
+### PROPOSITIO XXXV. & XXXVI.
 
 [Curated heading level=2 type=figures: Fig. 62]
 

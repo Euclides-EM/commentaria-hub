@@ -1,7 +1,7 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 48 -->
 
-[Curated heading level=2 type=problems: PROBLÊME IV.]
+[Curated heading level=3 type=problems: PROBLÊME IV.]
 
 ### PROBLÊME IV.
 
@@ -19,7 +19,7 @@ Du sommet K, comme centre, et d’un rayon à volonté, décrivez l’arc IL ter
 
 Car les deux arcs BD, LI, ont des rayons égaux et des cordes égales ; donc ils sont égaux* ; donc l’angle BAD = IKL.
 
-[Curated heading level=2 type=problems: PROBLÊME V.]
+[Curated heading level=3 type=problems: PROBLÊME V.]
 
 ### PROBLÊME V.
 

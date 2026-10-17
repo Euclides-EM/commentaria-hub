@@ -2,14 +2,6 @@
 
 [Ornament: floral headpiece]
 
-[Curated heading level=1 type=propositions: LIBER SECVNDVS]
-
-[Curated heading level=1 type=theorems: LIBER SECVNDVS]
-
-[Curated heading level=1 type=problems: LIBER SECVNDVS]
-
-[Curated heading level=1 type=definitions: LIBER SECVNDVS]
-
 # IACOBI PELETARII CENOMANI IN EVCLIDIS ELEMENTA GEOMETRICA DEMONSTRATIONVM. LIBER SECVNDVS.
 
 [Ornament: fleuron]

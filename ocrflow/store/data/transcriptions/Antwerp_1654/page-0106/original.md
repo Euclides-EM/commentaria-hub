@@ -12,7 +12,7 @@ Facillime per normam inuenitur centrum; vertice Q ad circumferentiam applicato. 
 Fig. 1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO II.]
+[Curated heading level=2 type=propositions: PROPOSITIO II.]
 
 ## PROPOSITIO II.
 

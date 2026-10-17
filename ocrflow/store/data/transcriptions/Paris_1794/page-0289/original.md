@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE VIII. -->
 <!-- Page number: 261 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION IX. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION IX.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IX.]
+[Curated heading level=2 type=theorems: PROPOSITION IX.]
 
 ## PROPOSITION IX.
 

@@ -11,7 +11,7 @@ a Per præc.
 
 {dropcap:P|lines=2|style=plain}Racticè per datum punctum perpendicularis ducitur dato plano, ſi norma O K N ad datum punctum applicetur.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIII.]
 
 ## PROPOSITIO XIII.
 
@@ -25,7 +25,7 @@ Fig.20.
 
 Alias enim per 6 forent parallelæ, Quod fieri non poteſt.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIV.]
 
 ## PROPOSITIO XIV.
 

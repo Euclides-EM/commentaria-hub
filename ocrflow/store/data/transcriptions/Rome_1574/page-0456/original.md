@@ -7,7 +7,7 @@ SI linea recta quæuis A B, ita diuidatur in C, inæqualiter, ut ſit, quemadmod
 
 [Diagram: horizontal line with endpoints A and B, divided at point C]
 
-[Curated heading level=2 type=definitions: IIII.]
+[Curated heading level=3 type=definitions: IIII.]
 
 ### IIII.
 

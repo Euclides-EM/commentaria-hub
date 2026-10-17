@@ -1,7 +1,5 @@
 <!-- Running title: LIBER III. -->
 
-[Curated heading level=1 type=theorems: LIBER III.]
-
 [Curated heading level=2 type=propositions: Theorema 1, Propoſitio 2.]
 
 [Curated heading level=2 type=theorems: Theorema 1, Propoſitio 2.]

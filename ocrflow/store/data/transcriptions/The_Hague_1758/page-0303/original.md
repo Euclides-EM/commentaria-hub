@@ -8,25 +8,25 @@
 
 ## DEFINITIONS.
 
-[Curated heading level=2 type=definitions: DEFINITION I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 
 {dropcap:O|lines=2|style=plain}N nomme *Corps* ou *Solide* ce qui eſt étendu en Longueur, Largeur & Profondeur.
 
-[Curated heading level=2 type=definitions: DEFINITION II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 
 *Les termes*, ou *Extremitez* d'un Solide ſont des Superficies.
 
-[Curated heading level=2 type=definitions: DEFINITION III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 
 *Une ligne droite* (AB) *eſt perpendiculaire à un Plan* (PL) (Fig. 1.) ſi elle eſt perpendiculaire à toutes les lignes (CD & FE) qu'elle rencontre dans ce Plan. c. à. d. *Que la ligne AB ſera perpendiculaire au Plan PL, ſi elle eſt perpendiculaire aux lignes CD & FE; leſquelles étant tirées dans le Plan PL, paſſent par le point B, de ſorte que les Angles ABC, ABD, ABE & ABF ſoient droits.*
 
-[Curated heading level=2 type=definitions: DEFINITION IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 
@@ -34,7 +34,7 @@
 
 *On nomme Section commune des Plans une ligne qui eſt dans les deux Plans: comme la ligne AN, qui eſt auſſi bien dans le Plan AB que dans le Plan PL. Si donc les lignes DE & FG tirées perpendiculairement ſur AN dans le Plan AB, ſont auſſi perpendiculaires au Plan PL: le Plan AB ſera perpendiculaire au Plan PL.*
 
-[Curated heading level=2 type=definitions: DEFINITION V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 

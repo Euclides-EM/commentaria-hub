@@ -13,9 +13,9 @@ Or *bc = cf*, les deux triangles *dbc* & *dcf* eſtant tout-égaux, par 18. ſup
 
 Donc *bc* eſt la moitié de *db*. Ce qu'il falloit demonſtrer.
 
-[Curated heading level=2 type=propositions: XXXII. PROBLEME.]
+[Curated heading level=4 type=propositions: PROBLEME.]
 
-[Curated heading level=2 type=problems: XXXII. PROBLEME.]
+[Curated heading level=4 type=problems: PROBLEME.]
 
 #### PROBLEME.
 

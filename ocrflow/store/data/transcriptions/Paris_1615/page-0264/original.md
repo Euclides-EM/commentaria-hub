@@ -2,12 +2,6 @@
 
 [Ornament]
 
-[Curated heading level=1 type=propositions: ELEMENT HVICTIESME.]
-
-[Curated heading level=1 type=theorems: ELEMENT HVICTIESME.]
-
-[Curated heading level=1 type=problems: ELEMENT HVICTIESME.]
-
 # ELEMENT HVICTIESME.
 
 [Curated heading level=2 type=propositions: THEO. 1. PROP. I.]

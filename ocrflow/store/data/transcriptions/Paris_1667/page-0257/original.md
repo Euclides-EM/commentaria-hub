@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XI. -->
 <!-- Page number: 219 -->
 
-[Curated heading level=2 type=lemmas: XXXI. TREIZIEME LEMME.]
+[Curated heading level=2 type=lemmas: TREIZIEME LEMME.]
 
 ## TREIZIEME LEMME.
 
@@ -15,7 +15,7 @@ TOUT angle qui ſe fait par la ſection de deux cordes qui ſe coupent au dedans
 
 [Diagram: circle with two chords crossing at K, labels g, f, d and c on the circumference]
 
-[Curated heading level=2 type=lemmas: XXXII. QUATORZIEME LEMME.]
+[Curated heading level=2 type=lemmas: QUATORZIEME LEMME.]
 
 ## QUATORZIEME LEMME.
 

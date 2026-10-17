@@ -11,9 +11,9 @@ F. 182.
 
 *Corollaire II.* Donc aussi deux paralleles AB, CD, déterminent la position d’un plan ; car si on mene la sécante EF, le plan des deux droites AE, EF, sera celui des paralleles AB, CD.
 
-[Curated heading level=2 type=propositions: PROPOSITION III. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION III.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION III.]
+[Curated heading level=2 type=theorems: PROPOSITION III.]
 
 ## PROPOSITION III.
 
@@ -23,9 +23,9 @@ F. 182.
 
 Car, si dans les points communs aux deux plans on en trouvoit trois qui ne fussent pas en ligne droite, les deux plans dont il s’agit, passant chacun par ces trois points, ne feroient qu’un seul et même plan, ce qui est contre la supposition.
 
-[Curated heading level=2 type=propositions: PROPOSITION IV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION IV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IV.]
+[Curated heading level=2 type=theorems: PROPOSITION IV.]
 
 ## PROPOSITION IV.
 

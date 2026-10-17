@@ -11,9 +11,9 @@
 
 L’angle au sommet de la pyramide tri-rectangle est formé par trois plans perpendiculaires entre eux. Cet angle, qu’on peut appeler *angle solide droit*, est très propre à servir d’unité de mesure aux autres angles solides. Cela posé, le même nombre qui donne l’aire du polygone sphérique donnera la mesure de l’angle solide correspondant. Par exemple, si l’aire du polygone sphérique est ¾, c’est-à-dire s’il est les ¾ du triangle tri-rectangle, l’angle solide correspondant sera aussi ¾ de l’angle solide droit.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXIII.]
 
 ## PROPOSITION XXIII.
 

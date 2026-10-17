@@ -3,11 +3,9 @@
 
 primi. Nam angulus Z oppoſitus ipſi EGB rectus eſt, per 34 primi: Similiter quod ex AE quadratũ duplum eſt (per 47 primi) quadrati ex AG. Cùm autem angulus AEG ſit recti dimidius, ſimiliter & BEG, per ſecundam partem 32 primi, totus AEI rectus erit. Quia verò in parallelas GDEZ cadit IZ, angulus ADI interiori & oppoſito EZD recto æquus erit, per 29 primi, & itaque rectus erit ADI. Quadratis igitur ex AE & EI æquum erit quadratum ex AI, per 47 primi. Sed cùm dupla ſint ex AE & EI quadratorum ex AG & GD oſtenſa, duplum erit quod ex AI eorum quæ ex AG & GD quadratorum. Quadrato autem ex AI æqualia ſunt quæ ex AD & DI (hoc eſt DB ſibi æquali) quadrata, per eandem 47 primi. Quæ itaque ex AD tota cum appoſita & DB appoſita, ſimul ſumpta quadrata dupla ſunt eius quod ex AG dimidia, & ex GD dimidia & appoſita tanquam vna deſcriptorum quadratorum. Si igitur recta linea ſeccetur bifariam, apponatur autem ei quæpiam recta in rectum, &c.
 
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſecundus.]
-
 [Curated heading level=2 type=propositions: Propoſitio vndecima.]
 
-[Curated heading level=2 type=problems: Propoſitio vndecima. Problema 1.]
+[Curated heading level=2 type=problems: Problema 1.]
 
 ## Propoſitio vndecima.
 

@@ -17,9 +17,9 @@ und ef muß durch den Mittel-Düpffel gehen/n. 1. Zugabe III. Gleicher gestalt w
 
 Wird demnach allezeit derjenige Düttel/ von welchem mehr/ als zween gerade Striche zu des Kreyses Umfang können gezogen werden/ solches Kreyses Mittel-Düpffel seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der X. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der X. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 9. Beweiß-Stück. Der X. Vortrag.]
+[Curated heading level=2 type=theorems: Das 9. Beweiß-Stück.]
 
 ## Der X. Vortrag.
 

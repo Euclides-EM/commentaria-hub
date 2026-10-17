@@ -7,9 +7,9 @@ Les deux côtés BO, BC, sont égaux aux deux AC, BC ; l’angle compris par les
 
 *Scholie.* La même démonstration prouve que l’angle BAD = DAC, et que l’angle BDA = ADC. Donc ces deux derniers sont droits : donc *l’arc mené du sommet d’un triangle isoscele au milieu de sa base est perpendiculaire à cette base et divise l’angle du sommet en deux parties égales.*
 
-[Curated heading level=2 type=propositions: PROPOSITION XVI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVI.]
+[Curated heading level=2 type=theorems: PROPOSITION XVI.]
 
 ## PROPOSITION XVI.
 

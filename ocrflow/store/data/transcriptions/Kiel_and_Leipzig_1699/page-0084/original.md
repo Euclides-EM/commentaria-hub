@@ -24,9 +24,9 @@ oder CDEF ⌻ ABDC n. 9. Gr:S. q.
 
 Müssen also alle □ □ , welche einen einigen Grundstrich haben/ und zwischen einerley Nebenstrichen stehen/ (oder gleich hoch sind) gleich groß seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXXVI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXVI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 26. Beweiß-Stück. Der XXXVI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 26. Beweiß-Stück.]
 
 ## Der XXXVI. Vortrag.
 

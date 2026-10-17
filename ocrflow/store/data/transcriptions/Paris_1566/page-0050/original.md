@@ -5,7 +5,7 @@
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: Propoſitio quadrageſima.]
+[Curated heading level=3 type=propositions: Propoſitio quadrageſima.]
 
 ### Propoſitio quadrageſima.
 
@@ -15,7 +15,7 @@ Proponantur ſuper æqualibus baſibus B G G E, triangula A B G & D G E æqualia
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: Propoſitio quadrageſimaprima.]
+[Curated heading level=3 type=propositions: Propoſitio quadrageſimaprima.]
 
 ### Propoſitio quadrageſimaprima.
 
@@ -25,9 +25,9 @@ Parallelogrammum A B D G & triangulum A E B eandem habeant baſim A B, & in eiſ
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: Propoſitio quadrageſimaſecunda.]
+[Curated heading level=3 type=propositions: Propoſitio quadrageſimaſecunda.]
 
-[Curated heading level=2 type=problems: Propoſitio quadrageſimaſecunda. Problema 11.]
+[Curated heading level=3 type=problems: Problema 11.]
 
 ### Propoſitio quadrageſimaſecunda.
 

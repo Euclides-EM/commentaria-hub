@@ -1,19 +1,15 @@
 <!-- Page number: 234 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=1 type=propositions: Appendice aux Livres VI et VII]
-
 # APPENDICE AUX LIVRES VI ET VII.
 
 [Subhead]
 LES POLYEDRES RÉGULIERS.
 [/Subhead]
 
-[Curated heading level=1 type=theorems: Appendice aux Livres VI et VII]
+[Curated heading level=2 type=propositions: PROPOSITION I.]
 
-[Curated heading level=2 type=propositions: PROPOSITION I. THÉORÊME.]
-
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION I.]
+[Curated heading level=2 type=theorems: PROPOSITION I.]
 
 ## PROPOSITION I.
 

@@ -3,9 +3,9 @@
 
 Car d'un angle quelconque tirant deux lignes de part & d'autre, qui ſoûtienne chacune l'angle qui le ſuit de part & d'autre, il s'en fait deux triangles qui comprennent 4 coſtez de la figure. Mais de ce même angle menant des lignes à chacun des autres angles, il s'en fait autant de triangles qu'il y a de coſtez outre ces 4. Donc il y aura autant de triangles que de coſtez moins 2, puiſqu'il y a neceſſairement 2 de ces triangles qui comprennent 4 de ces coſtez.
 
-[Curated heading level=2 type=propositions: IX. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: IX. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 

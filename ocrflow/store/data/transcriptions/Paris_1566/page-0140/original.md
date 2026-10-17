@@ -3,7 +3,7 @@
 
 [Curated heading level=2 type=propositions: Propoſitio vigeſimaquinta.]
 
-[Curated heading level=2 type=problems: Propoſitio vigeſimaquinta. Problema 7.]
+[Curated heading level=2 type=problems: Problema 7.]
 
 ## Propoſitio vigeſimaquinta.
 

@@ -9,9 +9,9 @@ Donc *les deux diagonales d’un quadrilatere inscrit sont entre elles comme les
 
 Ces deux théorêmes peuvent servir à trouver les diagonales quand on connoît les côtés.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXXIV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXXIV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXXIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XXXIV.]
 
 ## PROPOSITION XXXIV.
 

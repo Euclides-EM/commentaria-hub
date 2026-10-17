@@ -7,7 +7,7 @@ quantur. Sed e ACB eſt dimidium parallelogrammi AL. Ergo etiam AFB eſt dimidiu
 e Per 34.l.1.
 [/Margin]
 
-### Scholium.
+#### Scholium.
 
 [Margin]
 Fig 65.
@@ -17,9 +17,9 @@ Fig 65.
 
 In triangulo rectangulo altitudo eſt eadem cum alterutro latere circa angulum rectum. Huius ergo ſemißis ducta in latus alterum recto adiacens dabit trianguli aream.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XLII.]
+[Curated heading level=3 type=propositions: PROPOSITIO XLII.]
 
-## PROPOSITIO XLII.
+### PROPOSITIO XLII.
 
 [Curated heading level=2 type=figures: Fig. 66]
 

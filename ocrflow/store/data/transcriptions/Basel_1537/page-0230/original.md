@@ -2,6 +2,12 @@
 
 <!-- Page number: 219 -->
 
+[Curated heading level=3 type=definitions: 7]
+
+[Curated heading level=3 type=definitions: 8]
+
+[Curated heading level=3 type=definitions: 9]
+
 7 Perfectus numerus appellatur, qui omnibus partibus suis quibus numeratur, est æqualis. 8 Abundans dicitur, qui omnibus suis partibus minor est. 9 Diminutus uero, qui maior.
 
 ## Eucli. ex Camp. Propositio 1

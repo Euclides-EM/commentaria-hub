@@ -9,7 +9,7 @@ Car, à cauſe des paralleles KI, GE, on a HI : HK ∷ HE : HG, ou HI² : HK² �
 \* 23. 1.
 [/Margin]
 
-[Curated heading level=2 type=problems: PROBLÊME XIII.]
+[Curated heading level=3 type=problems: PROBLÊME XIII.]
 
 ### PROBLÊME XIII.
 
@@ -27,7 +27,7 @@ Car ces deux polygones ſont compoſés d’un même nombre de triangles ſembla
 \* 26.
 [/Margin]
 
-[Curated heading level=2 type=problems: PROBLÊME XIV.]
+[Curated heading level=3 type=problems: PROBLÊME XIV.]
 
 ### PROBLÊME XIV.
 

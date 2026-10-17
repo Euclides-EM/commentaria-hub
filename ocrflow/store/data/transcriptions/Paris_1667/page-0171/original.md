@@ -7,9 +7,9 @@ Donc tous les points de cette ligne ſont également diſtans d'x & x. Donc le p
 
 C'eſt la même choſe de deux points également diſtans de g.
 
-[Curated heading level=2 type=propositions: XXVII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=theorems: QUATRIEME THEOREME.]
 
 ### QUATRIEME THEOREME.
 
@@ -27,9 +27,9 @@ Car ſi kf eſt rayon du 2e cercle, comme cette ligne eſt la plus courte de tou
 
 Et au contraire ſi kg eſt le rayon du 2e cercle, cette ligne eſtant la plus longue de toutes celles qui peuvent eſtre menées de k à la circonference du 1er cercle, toute autre ligne menée de k à la circonference du 1er cercle ne pourra pas aller juſqu'à la circonference du 2e.
 
-[Curated heading level=2 type=propositions: XXVIII. CINQUIEME THEOREME.]
+[Curated heading level=3 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVIII. CINQUIEME THEOREME.]
+[Curated heading level=3 type=theorems: CINQUIEME THEOREME.]
 
 ### CINQUIEME THEOREME.
 

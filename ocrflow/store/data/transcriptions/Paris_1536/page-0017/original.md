@@ -14,9 +14,7 @@ RECEPTVM EST AB OMNIBVS, VNAMQVANque disciplinã propria sibi vẽdicare princip
 Punctum
 [/Margin]
 
-[Curated heading level=1 type=definitions: LIBER I.]
-
-[Curated heading level=2 type=definitions: Diffinitio 1.]
+[Curated heading level=3 type=definitions: 1]
 
 **1** Punctum est, cuius pars nulla.
 
@@ -24,7 +22,7 @@ Id est, quod abstractũ à cõtinuo, velut ipsius cõtinui pars minima, omni dim
 
 ¶ γραμμὴ δ᾽, μῆκος ἀπλατές.
 
-[Curated heading level=2 type=definitions: Diffinitio 2.]
+[Curated heading level=3 type=definitions: 2]
 
 **2** Linea verò, est longitudo latitudinis expers.
 
@@ -32,7 +30,7 @@ Hoc est, latitudine priuata. Cũ enim punctũ omni careat dimẽsione: suo fluxu
 
 ¶ γραμμῆς δ᾽ πέρατα, σημεῖα.
 
-[Curated heading level=2 type=definitions: Diffinitio 3.]
+[Curated heading level=3 type=definitions: 3]
 
 **3** Lineæ autem limites, sunt puncta.
 

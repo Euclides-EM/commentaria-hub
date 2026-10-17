@@ -6,7 +6,7 @@
 
 Demnach den innhallt des fünffeckhs zů finden imm erſten exempel. So die ſeitten 10 / iſt die perpendicular √25+√500. Multiplicier 25 (als den halbten tail der ſumm aller ſeitten / mit √25+√500 / entſpringen √15625+√195312500, der innhallt des regular fünffeckhs / etc.
 
-[Curated heading level=2 type=added_propositions: 7. Die ij. propoſition des xiij. bůchs]
+[Curated heading level=4 type=added_propositions: 7.]
 
 #### 7.
 

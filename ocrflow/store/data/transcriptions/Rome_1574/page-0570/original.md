@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. VII. -->
 <!-- Page number: 243 -->
 
-[Curated heading level=2 type=definitions: XXVII.]
+[Curated heading level=3 type=definitions: XXVII.]
 
 ### XXVII.
 

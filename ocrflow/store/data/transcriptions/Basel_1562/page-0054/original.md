@@ -9,19 +9,19 @@ Communis noticie zůſamen lauffen / nemlich die winckel d vnd f / als ains tria
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: XLV. Die fünffvndviertzigſt prop.]
+[Curated heading level=3 type=propositions: XLV Die fünffvndviertzigſt prop.]
 
-## XLV Die fünffvndviertzigſt prop. Lehrt /
+### XLV Die fünffvndviertzigſt prop. Lehrt /
 
 [Subhead]
 Ain parallelogram in einem fürgebnen rechtliniſchen winckel machē / dz einer fürgebnē rechtliniſchē figur gleich ſey.
 [/Subhead]
 
-### Erklärung.
+#### Erklärung.
 
 Diſe propoſition iſt vonn Campano außgelaſſen worden / aber in Griechiſch text vnd andern tolmetſchungen vorhanden. Iſt weittleüffiger dann die vorgehnden / dan durch ſy mag man ainer vierung / fünffeckh / ſechßeckh / ⁊c. in ſumma yeder rechtliniſchen figur ain gleiches parallelogram machen / das ainem fürgeben winckel begreifft.
 
-### Geſchicht alſo /
+#### Geſchicht alſo /
 
 Erſtlich zům exempel ſei die vberlengt vierung / ſo parallelogram iſt vnd winckelmeſſig / zů verkheren in ain ander parallelogrã / mit ainem weitten winckel / welchen der diameter auff der erſtreckten baſi machet. Angeſechen die 43 propoſ. iſt gar leicht ain yedes parallelogrã in ain
 

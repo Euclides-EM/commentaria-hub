@@ -1,17 +1,13 @@
 <!-- Running title: LIBER V. -->
 <!-- Page number: 144 -->
 
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM V.]
-
-[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTVM V.]
-
 # EVCLIDIS ELEMENTVM V.
 
 [Ornament: floral headpiece]
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 

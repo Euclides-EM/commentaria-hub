@@ -7,9 +7,9 @@ Si on proposoit de faire un cube double d’un cube donné, il faudroit que le c
 
 A raison de cette difficulté le problème de la *duplication du cube* a été célèbre parmi les anciens géometres, comme celui de la *trisection de l’angle* qui est à-peu-près du même ordre.
 
-[Curated heading level=2 type=propositions: PROPOSITION XIV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XIV.]
 
 ## PROPOSITION XIV.
 

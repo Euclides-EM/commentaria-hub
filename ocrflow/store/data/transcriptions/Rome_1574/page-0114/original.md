@@ -20,7 +20,7 @@ OMNIS enim quantitas continua per additionem augeri, per diuiſionem vero diminu
 ſiue Axiomata, quæ & Pronunciata dici ſolent, vel Dignitates.
 [/Subhead]
 
-[Curated heading level=2 type=axioms: I.]
+[Curated heading level=3 type=axioms: I.]
 
 ### I.
 

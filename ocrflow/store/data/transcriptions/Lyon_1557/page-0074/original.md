@@ -5,7 +5,7 @@
 
 Vt in Circulo ABCD, duæ lineæ AB & CD æqualiter diſtant ab E Centro: proptereà quòd duæ EF & EG perpendiculares, ſunt æquales. At in Circulo HKLM, remotior eſt HK à Centro N quàm ſit LM. Eſt enim NO ipſa NP maior.
 
-[Curated heading level=2 type=definitions: DEFINITIO 5.]
+[Curated heading level=3 type=definitions: 5]
 
 ### 5 Sectio Circuli, eſt Figura comprehenſa ſub recta linea & peripheriæ portione.
 
@@ -13,13 +13,13 @@ Vt in Circulo ABCD, duæ lineæ AB & CD æqualiter diſtant ab E Centro: propter
 
 Figura ABC, quam conſtituunt AC recta & ABC portio peripheriæ: Item DBE, quam conſtituunt DE recta & DBE portio eiuſdem, Sectiones ſunt Circuli. Rectæ verò AC & DE, Chordæ vulgò dicuntur: ſicut curuæ ABC & DBE, Arcus. Sed FBG figura, proprio nomine Semicirculus vocatur: & FG, Diameter.
 
-[Curated heading level=2 type=definitions: DEFINITIO 6.]
+[Curated heading level=3 type=definitions: 6]
 
 ### 6 Angulus ſectionis, eſt qui ſub recta linea & Circuli peripheria comprehenditur.
 
 In poſterioribus Figuris, Anguli D, A, E, & C, Sectionis dicuntur.
 
-[Curated heading level=2 type=definitions: DEFINITIO 7.]
+[Curated heading level=3 type=definitions: 7]
 
 ### 7 In ſectione angulus conſiſtit, quem efficiunt duæ lineæ, à ſubtenſæ baſis finibus ad punctum aliquod peripheriæ ſectionis concurrentes.
 
@@ -27,7 +27,7 @@ In poſterioribus Figuris, Anguli D, A, E, & C, Sectionis dicuntur.
 
 Angulus ABC, qui fit à duabus AB & BC rectis, quæ exeuntes à duobus terminis A & C ſubtenſæ AC, ad punctum B coëunt: in ſectione conſiſtit. Quòd ſi angulum B abſque baſi AC: hoc eſt, ſine Trianguli conſideratione accipias: is in peripheria eſſe dicetur.
 
-[Curated heading level=2 type=definitions: DEFINITIO 8.]
+[Curated heading level=3 type=definitions: 8]
 
 ### 8 Sector Circuli, eſt Figura comprehenſa ſub lineis rectis quæ à duobus peripheriæ punctis eductæ: ad Centrum conueniunt.
 
@@ -35,7 +35,7 @@ Angulus ABC, qui fit à duabus AB & BC rectis, quæ exeuntes à duobus terminis 
 
 Duæ lineæ AB & CB, à duobus punctis A & C peripheriæ, ad Centrum B concurrentes, Circuli Sectorem ACB conſtituunt.
 
-[Curated heading level=2 type=definitions: DEFINITIO 9.]
+[Curated heading level=3 type=definitions: 9]
 
 ### 9 Similes Sectiones Circuli, dicuntur quæ angulos æquos ſuſcipiũt: vel in quibus anguli ſunt æquales.
 

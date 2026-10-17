@@ -15,7 +15,7 @@ Pars 2.in trigono C A B , quia anguli O, & G,iam oſtenſi ſunt æquales, erunt
 h Per 6.l.1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO XV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XV.]
 
 ## PROPOSITIO XV.
 

@@ -7,11 +7,9 @@ Donc il ne peut y avoir que cinq polyedres réguliers, trois formés avec des tr
 
 *Scholie.* On va prouver dans la proposition suivante que ces cinq polyedres existent réellement, et qu’on peut en déterminer toutes les dimensions lorsqu’on connoît une de leurs faces.
 
-[Curated heading level=1 type=problems: Appendice aux Livres VI et VII]
+[Curated heading level=2 type=propositions: PROPOSITION II.]
 
-[Curated heading level=2 type=propositions: PROPOSITION II. PROBLÊME.]
-
-[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION II.]
+[Curated heading level=2 type=problems: PROPOSITION II.]
 
 ## PROPOSITION II.
 

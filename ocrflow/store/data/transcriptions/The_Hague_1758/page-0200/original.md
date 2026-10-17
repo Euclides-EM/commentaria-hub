@@ -3,7 +3,7 @@
 
 <!-- Running title: DEFINITIONS. -->
 
-[Curated heading level=2 type=definitions: DEFINITION XX.]
+[Curated heading level=3 type=definitions: XX.]
 
 ### XX.
 

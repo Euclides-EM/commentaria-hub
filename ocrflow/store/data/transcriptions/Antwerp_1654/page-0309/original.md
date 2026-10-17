@@ -5,7 +5,7 @@
 
 {dropcap:E|lines=3|style=plain}Odem modo demõſtrabitur cylindros, cono,conoidi,ſphæroidi &c. inſcriptos, in ipſa deſinere.
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO XVIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVIII.]
 
 ## PROPOSITIO XVIII.
 

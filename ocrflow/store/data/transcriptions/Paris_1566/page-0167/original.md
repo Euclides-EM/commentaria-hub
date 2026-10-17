@@ -18,8 +18,6 @@ imploratorum alij ſunt actiui, diſcreti ſeu Arithmeticarum operationum actore
 | Minimi | Proportionales |
 | Perfecti, | Multiplicandus vel ſimplex. |
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſeptimus.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
 ## Propoſitio prima.
@@ -30,11 +28,9 @@ Exponantur duo numeri A B maior & G D, à maiore autem A B auferatur G D relinqu
 
 [Diagram]
 
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſeptimus.]
-
 [Curated heading level=2 type=propositions: Propoſitio ſecunda.]
 
-[Curated heading level=2 type=problems: Propoſitio ſecunda. Problema 1.]
+[Curated heading level=2 type=problems: Problema 1.]
 
 ## Propoſitio ſecunda.
 

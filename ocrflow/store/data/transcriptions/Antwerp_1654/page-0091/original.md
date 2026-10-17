@@ -7,7 +7,7 @@ les A B) rectangulis ſub A B, A E, ſub A B, E F, ſub A B, F C.
 
 {dropcap:D|lines=2|style=plain}Ecem prima huius libri theoremata etiam vera ſunt in numeris, ſi vt lineæ diuidantur in partes. Rectangula numerica procreantur ex multiplicatione duorum numerorum, quadrata vero numerica ex multiplicatione numeri per ſe ipſum.
 
-[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO II.]
+[Curated heading level=2 type=propositions: PROPOSITIO II.]
 
 ## PROPOSITIO II.
 
@@ -35,7 +35,7 @@ Quad.ex A B.  Æ.  rect.B A C }
                   rect.A B C }
 [/Calculation]
 
-[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO III.]
+[Curated heading level=2 type=propositions: PROPOSITIO III.]
 
 ## PROPOSITIO III.
 

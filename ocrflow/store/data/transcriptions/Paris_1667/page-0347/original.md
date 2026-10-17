@@ -3,9 +3,9 @@
 
 Donc ils ſont tous égaux ſelon le fondement de la Geometrie des indiviſibles.
 
-[Curated heading level=2 type=propositions: V. SECOND THEOREME.]
+[Curated heading level=4 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: V. SECOND THEOREME.]
+[Curated heading level=4 type=theorems: SECOND THEOREME.]
 
 #### SECOND THEOREME.
 
@@ -29,9 +29,9 @@ Or les parallelogrammes qui dans *E* ont *x* pour baſe ſont égaux à ceux qui
 
 Donc par la definition de l'égalité des raiſons *A* eſt à *E* en même raiſon que la baſe d'*A* à la baſe d'*E*, puiſqu'autant que les aliquotes quelconques de la baſe d'*A* ſont contenues dans la baſe d'*E*, les aliquotes pareilles d'*A* ſont contenues dans *E* : ſi ſans reſte, ſans reſte; ſi avec reſte, avec reſte.
 
-[Curated heading level=2 type=propositions: VI. TROISIEME THEOREME.]
+[Curated heading level=4 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: VI. TROISIEME THEOREME.]
+[Curated heading level=4 type=theorems: TROISIEME THEOREME.]
 
 #### TROISIEME THEOREME.
 

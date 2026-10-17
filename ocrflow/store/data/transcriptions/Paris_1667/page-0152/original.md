@@ -1,9 +1,9 @@
 <!-- Page number: 114 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=2 type=propositions: XXII. TROISIEME THEOREME.]
+[Curated heading level=2 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXII. TROISIEME THEOREME.]
+[Curated heading level=2 type=theorems: TROISIEME THEOREME.]
 
 ## TROISIEME THEOREME.
 
@@ -15,9 +15,9 @@ XXII.
 
 Les plus inclinées entre les mêmes paralleles ſont les plus longues, & les plus longues ſont les plus inclinées; cela ſe prouve de la même ſorte par V. 54.
 
-[Curated heading level=2 type=propositions: XXIII. QUATRIEME THEOREME.]
+[Curated heading level=2 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXIII. QUATRIEME THEOREME.]
+[Curated heading level=2 type=theorems: QUATRIEME THEOREME.]
 
 ## QUATRIEME THEOREME.
 
@@ -52,9 +52,9 @@ Donc oſtant *k f* de l'un & de l'autre,
 d k = f g. & par conſequent à b c.
 [/Calculation]
 
-[Curated heading level=2 type=propositions: XXIV. CINQUIEME THEOREME.]
+[Curated heading level=2 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXIV. CINQUIEME THEOREME.]
+[Curated heading level=2 type=theorems: CINQUIEME THEOREME.]
 
 ## CINQUIEME THEOREME.
 

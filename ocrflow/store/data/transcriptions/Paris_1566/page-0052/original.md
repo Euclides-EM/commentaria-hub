@@ -7,9 +7,9 @@ quale ipſi B D G triangulo parallelogrammũ conſtituatur ſimiliter in C D K, 
 
 Antecedenti theoremati & huic appoſuimus figuras deſcribi in angulo, non dato, ſed ipſi dato æquiangulo. Cùm enim cogimur ad datam rectam illas applicare, perſpicuum eſt: non ſemper lineam datam, ad datum eſſe angulum, quare ſufficit in 44 dixiſſe, ad datam lineam, & dato angulo æquiangulum parallelogrammum, triangulo æquum deſcribendum, vt poſtmodum eius auxilio, per hãc cuiuis rectilineo æquum parallelogrammum deſcribere poſſimus, præſtat etenim illud deſcribi ad datam rectam quam ad datum angulum, cùm eidem ad datam rectam poſito, angulus dato æquiangulus facile coaptetur, vt geometriæ plus amplietur quam reſtringatur facultas. Id præcauẽtes eſſe neceſſarium ad aliquas ſexti demonſtrationes, quibus non in dato angulo, ſed ipſi æquiangulum fit parallelogrammum.
 
-[Curated heading level=2 type=propositions: Propoſitio quadrageſimaſexta.]
+[Curated heading level=3 type=propositions: Propoſitio quadrageſimaſexta.]
 
-[Curated heading level=2 type=problems: Propoſitio quadrageſimaſexta. Problema 14.]
+[Curated heading level=3 type=problems: Problema 14.]
 
 ### Propoſitio quadrageſimaſexta.
 
@@ -23,7 +23,7 @@ Data recta ſit A B, cui ad rectos excitetur ad ſignum A recta A D, per 11 huiu
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: Propoſitio quadrageſimaſeptima.]
+[Curated heading level=3 type=propositions: Propoſitio quadrageſimaſeptima.]
 
 ### Propoſitio quadrageſimaſeptima.
 

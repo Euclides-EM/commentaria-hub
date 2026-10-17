@@ -3,10 +3,6 @@
 
 datas quidẽ ſua conſtantes & propoſita lõgitudine, ſiue ea certa fuerit, ſiue incerta. Quas verò hac diffinitione explicamus, eas intelligamus eſſe quaſcunque nobis propoſitas diametrum circuli non excedentes: Dato circulo coaptatas; ille etenim ei circulo verè congruere dicuntur, eo quod earum propoſita quantitas, dato circulo quadam demonſtrandi facultate, non autem caſu coaptetur, inter duo eius circunferentiæ ſigna producta, vt proxima & huius prima patefaciet propoſitio.
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quartus.]
-
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quartus.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
 [Curated heading level=2 type=problems: Propoſitio prima. Problema 1.]

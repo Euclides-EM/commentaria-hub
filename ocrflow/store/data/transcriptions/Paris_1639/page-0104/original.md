@@ -43,7 +43,7 @@ conſtr. | ∠a *eſt* ┘,
 conſtr. | ab 2|2 e,
 concl. 1.d.2 | ac *eſt* ▭.ad, ab Ⅱ e.
 
-[Curated heading level=2 type=definitions: DEF. II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 

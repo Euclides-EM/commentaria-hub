@@ -4,7 +4,7 @@
 
 B, ita C, ad D; Igitur conuertendo, uel e contrario, erit quoq; B, ad A, ut D, ad C; Quem quidem modum argumentandi certum eſſe, oſtendetur propos. 4 huius lib. Porro duæ priores magnitudines poſſunt eſſe unius generis, & poſteriores alterius. Recte namque licebit inferre; vt ſe habet linea A, ad lineam B, ita ſe habet triangulum, ſeu numerus C, ad triangulum, ſeu numerum D; Igitur inuertendo vt linea B, ad lineam A, ita triangulum, ſeu numerus D, ad triangulum, ſeu numerum C.
 
-[Curated heading level=2 type=definitions: XIIII.]
+[Curated heading level=3 type=definitions: XIIII.]
 
 ### XIIII.
 
@@ -16,7 +16,7 @@ COMPOSITIO rationis, eſt ſumptio antecedentis cum conſequente, ceu unius, ad 
 
 SIT proportio AB, ad BC, quæ DE, ad EF; Si igitur ex hoc colligatur, eam quoque eſſe proportionem totius AC, nempe antecedentis cum conſequente, ad BC, conſequentem, quam habet tota DF, antecedens nimirum cum conſequente, ad EF, conſequentem; Dicetur huiuſcemodi argumentatio compoſitio rationis, eo quod ex antecedente, & conſequente componatur aliud nouum antecedens. Hunc autem modum dicendi apud Græcos ſcriptores reperies in hac argumentatione; Vt AB, ad BC, ita DE, ad EF, componendo ergo erit & AC, ad BC, ut DF, ad EF. Demonſtrabitur hic modus argumentandi hoc lib. propos. 18.
 
-[Curated heading level=2 type=definitions: XV.]
+[Curated heading level=3 type=definitions: XV.]
 
 ### XV.
 

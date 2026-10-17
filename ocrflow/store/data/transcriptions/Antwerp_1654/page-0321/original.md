@@ -11,7 +11,7 @@ e Per 22. l.6.
 i Defin.6. l.12.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO IV.]
+[Curated heading level=2 type=propositions: PROPOSITIO IV.]
 
 ## PROPOSITIO IV.
 

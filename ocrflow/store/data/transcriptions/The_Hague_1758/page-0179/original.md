@@ -7,7 +7,7 @@
 
 ## DEFINITIONS.
 
-[Curated heading level=2 type=definitions: DEFINITION I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 

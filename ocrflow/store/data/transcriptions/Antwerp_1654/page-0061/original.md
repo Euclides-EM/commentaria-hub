@@ -7,7 +7,7 @@ Erit angulus L B O par dato A.
 
 Nam per conſtr. triangula ſibi mutuo ſunt æquilatera. Ergo per 8. anguli B & A æquales.
 
-### Scholium.
+#### Scholium.
 
 [Curated heading level=2 type=figures: Fig. 41]
 

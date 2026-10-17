@@ -10,8 +10,6 @@
 
 [Figure: oblique lines meeting at B and descending to A and G, and lines from Z and D meeting at E below]
 
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber vndecimus.]
-
 [Curated heading level=2 type=propositions: Propoſitio vndecima.]
 
 [Curated heading level=2 type=problems: Propoſitio vndecima. Problema 1.]

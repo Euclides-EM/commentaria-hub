@@ -5,7 +5,7 @@ A, multiplex: Diuiſo ergo BC, in partes BE, EC, ipſi A, æquales, & ipſo CD, 
 
 [Diagram: two horizontal dotted lines, the first labelled A, the second labelled B, E, C, F, G and D]
 
-[Curated heading level=2 type=axioms: XI.]
+[Curated heading level=3 type=axioms: XI.]
 
 ### XI.
 
@@ -17,7 +17,7 @@ METIATVR numerus A, numerum B; & B, numerum CD. Dico eundem A, metiri quoque num
 
 [Diagram: three horizontal dotted lines labelled A, B, and C, E, D]
 
-[Curated heading level=2 type=axioms: XII.]
+[Curated heading level=3 type=axioms: XII.]
 
 ### XII.
 

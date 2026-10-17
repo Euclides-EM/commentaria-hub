@@ -29,9 +29,9 @@ dd | bb + 4ac | n. 3. Gr. I.
 
 W. Z. B.
 
-[Curated heading level=2 type=propositions: Der IX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der IX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 9. Beweiß-Stück. Der IX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 9. Beweiß-Stück.]
 
 ## Der IX. Vortrag.
 

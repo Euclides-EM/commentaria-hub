@@ -7,7 +7,7 @@ SINT plures magnitudines duabus A, B, C, & totidẽ D, E, F, ſintque binæ ac b
 
 [Figure: six vertical lines labelled A, B, C, D, E and F, with the numbers 12 and 6 above B and C, and 12, 8 and 4 above D, E and F; the number above A is partly legible]
 
-[Curated heading level=2 type=definitions: XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 ### XVIII.
 

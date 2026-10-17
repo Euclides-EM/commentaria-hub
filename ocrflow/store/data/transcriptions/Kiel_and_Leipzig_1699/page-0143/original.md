@@ -14,21 +14,17 @@ W. Z. M.
 
 [Diagram: links ein Quadrat (schwach), rechts ein schiefes Viereck]
 
-[Curated heading level=1 type=propositions: Das III. Buch]
-
 # Das III. Buch Euclidis.
 
 ## Beschreibungen.
 
-[Curated heading level=1 type=definitions: Das III. Buch]
-
-[Curated heading level=2 type=definitions: Beschreibung I.]
+[Curated heading level=3 type=definitions: I.]
 
 I. Gleichgrosse Kreyse sind / deren Durchschläge gleichlang sind.
 
 [Diagram: zwei gleichgrosse Kreise, der linke mit waagerechtem, der rechte mit schrägem Durchmesser]
 
-[Curated heading level=2 type=definitions: Beschreibung II.]
+[Curated heading level=3 type=definitions: II.]
 
 II. Ein anrührender Strich ca ist / welcher den Kreyß zwar in dem Düttel a berühret / wenn er aber fort gezogen wird / denselben nicht durchschneidet.
 

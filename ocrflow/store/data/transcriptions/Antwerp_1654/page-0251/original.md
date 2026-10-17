@@ -3,13 +3,13 @@
 
 buſcunque vna omnibus æqualis & ſimilis, eâdem prorſus methodo, quâ probl.1.ſcholij poſt 47.l.1. exhibetur datis quotlibet quadratis vnum æquale. In demonſtratione tantum pro 47.l.1.citetur 31.l.6.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXXII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXII.]
 
 ## PROPOSITIO XXXII.
 
 {dropcap:V|lines=2|style=plain}Ix habet vſum, nec quidquam habet notabile.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIII.]
 
 ## PROPOSITIO XXXIII.
 

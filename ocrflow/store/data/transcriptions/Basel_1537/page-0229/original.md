@@ -46,15 +46,23 @@ THEON ex Zamberto. Sint similes solidi numeri α, β. Dico quod α ad β ratione
 
 [Diagram: dotted number lines α, γ, δ, β, ε, ζ, η, θ]
 
-[Curated heading level=1 type=theorems: ARITHMETICORVM ELEMENTORVM LIBER NONVS]
-
-[Curated heading level=1 type=definitions: ARITHMETICORVM ELEMENTORVM LIBER NONVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER NONVS.
 
-[Curated heading level=2 type=definitions: Ex Campano. Diffinitiones.]
+[Curated heading level=2: Ex Campano. Diffinitiones.]
 
 Ex Campano. Diffinitiones.
+
+[Curated heading level=3 type=definitions: PAr numerus]
+
+[Curated heading level=3 type=definitions: 2]
+
+[Curated heading level=3 type=definitions: 3]
+
+[Curated heading level=3 type=definitions: 4]
+
+[Curated heading level=3 type=definitions: 5]
+
+[Curated heading level=3 type=definitions: 6]
 
 {dropcap:P|lines=?|style=decorated|decoration="captioned ALEXANDER DIOGENES, showing two figures"}Ar numerus, est qui potest in duo æqualia diuidi. 2 Impar numerus, est qui in duo æqualia diuidi non potest, additq̃ supra parem unitatē. 3 Pariter par, est quem cuncti pares eum numerantes, paribus uicibus numerant. 4 Pariter impar est quem cuncti pares eum numerantes, imparibus uicibus numerant. 5 Pariter par & impariter, est quem pares eum numerantes, quidam paribus quidam imparibus uicibus numerāt. 6 Impariter impar, quē cuncti impares eum numerantes, imparibus uicibus numerāt.
 

@@ -13,9 +13,7 @@ vom anfang vnnd grund der Geometri.
 oder außlegungen ettlicher wörtlin.
 [/Subhead]
 
-[Curated heading level=1 type=definitions: Das ſechßt bůch Euclidis]
-
-[Curated heading level=2 type=definitions: Beſchreibung 1.]
+[Curated heading level=3 type=definitions: 1.]
 
 ### 1.
 
@@ -31,7 +29,7 @@ Es ſeind zwen gleichſeittig triangel: hallten ſych alle linien in ainer propo
 
 [Diagram: two triangles labelled 6 and 9]
 
-[Curated heading level=2 type=definitions: Beſchreibung 2.]
+[Curated heading level=3 type=definitions: 2.]
 
 ### 2.
 
@@ -47,7 +45,7 @@ Widerſinns geproportionierte figuren ſeind / in welchen die winckel der ainen 
 
 Beſihe die 14. vnnd 15 propoſition / da wirſtu exempel vnd beſchaid finden.
 
-[Curated heading level=2 type=definitions: Beſchreibung 3.]
+[Curated heading level=3 type=definitions: 3.]
 
 ### 3.
 

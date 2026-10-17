@@ -6,9 +6,9 @@
 Sind also jedes Viereckes / so einem Kreyß eingeschrieben/ gegen einander überstehende Winckel adc + abc ⋀ ⌓
 dcb + adb ⋀ ⌓ W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXIII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXIII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 21. Beweiß-Stück. Der XXIII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 21. Beweiß-Stück.]
 
 ## Der XXIII. Vortrag.
 

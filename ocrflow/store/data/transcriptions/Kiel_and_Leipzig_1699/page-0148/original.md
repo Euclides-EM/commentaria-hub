@@ -20,11 +20,9 @@ Ist also der gefundene Düttel a, der rechte Mittel-Düpffel des gegebenen Kreys
 
 Wenn ein gerader Strich in einem Kreyß einen andern Strich des Kreyses / nach rechten Winckeln in zween gleiche Theile schneidet/ so wird auch desselben Kreyses Mittel-Düpffel in solchem Striche seyn/ wie aus dem vorhergesetzten Beweiß erhellet.
 
-[Curated heading level=1 type=theorems: Das III. Buch]
+[Curated heading level=2 type=propositions: Der II. Vortrag.]
 
-[Curated heading level=2 type=propositions: Der II. Vortrag. Beweiß-Stück]
-
-[Curated heading level=2 type=theorems: Das 1. Beweiß-Stück. Der II. Vortrag.]
+[Curated heading level=2 type=theorems: Das 1. Beweiß-Stück.]
 
 ## Der II. Vortrag.
 

@@ -14,8 +14,6 @@ Sean dos lineas rectas dadas deſiguales. A B.y. C. de las quales ſea, A B.la m
 
 [Diagram: circle about centre A with Z at top, points D and E on the circumference, a line from A through E extended to B outside the circle, and a separate horizontal line labelled C below]
 
-[Curated heading level=1 type=theorems: LIBRO PRIMERO DE LOS ELEMENTOS GEOMETRICOS DE EVCLIDES]
-
 [Curated heading level=2 type=propositions: Theorema primero, Propoſition quarta.]
 
 [Curated heading level=2 type=theorems: Theorema primero, Propoſition quarta.]

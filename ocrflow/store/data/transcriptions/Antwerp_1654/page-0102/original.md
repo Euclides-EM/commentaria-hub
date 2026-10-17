@@ -17,7 +17,7 @@ b Per prob. 2. ſchol. poſt 47. l.1.
 
 Obtinere idipſum poteris etiam ex p.12. Verum 13 ſufficit, cum in omni triangulo perpendicularis ex aliquo angulo in latus oppoſitum, intra triangulum cadat.
 
-[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO XIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIV.]
 
 ## PROPOSITIO XVI{printer-error-correction:XIV}.
 

@@ -15,9 +15,9 @@ Ainſi aiant une grandeur comme b partagée en deux portions, comme c & d, on pe
 
 Or il y a beaucoup de rencontres où il eſt plus avantageux de nommer une partie du nom du tout moins l'autre partie que de luy donner un nom propre. Comme au contraire il eſt quelquefois plus utile de donner un nom propre à ce qui eſt marqué par une grandeur moins quelque choſe, comme nous avons veu dans les regles de la multiplication.
 
-[Curated heading level=2 type=propositions: LXVIII. THEOREME.]
+[Curated heading level=3 type=propositions: THEOREME.]
 
-[Curated heading level=2 type=theorems: LXVIII. THEOREME.]
+[Curated heading level=3 type=theorems: THEOREME.]
 
 ### THEOREME.
 

@@ -2,19 +2,19 @@
 
 [Figure: rectangle BCDA, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite]
 
-[Curated heading level=2 type=definitions: VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 
 Superficiei autem extrema sunt lineæ. | Mais les extremitez de la superficie sont lignes.
 
-[Curated heading level=2 type=definitions: VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 ### VII.
 
 Plana superficies est, quæ ex æquo suas interiacet lineas. | Superficie plane, est celle qui est egalement estenduë entre ses lignes.
 
-[Curated heading level=2 type=definitions: VIII.]
+[Curated heading level=3 type=definitions: VIII.]
 
 ### VIII.
 

@@ -1,9 +1,3 @@
-[Curated heading level=1 type=propositions: APPENDIX GEOMETRIÆ PLANORVM.]
-
-[Curated heading level=1 type=theorems: APPENDIX GEOMETRIÆ PLANORVM.]
-
-[Curated heading level=1 type=problems: APPENDIX GEOMETRIÆ PLANORVM.]
-
 # APPENDIX GEOMETRIÆ PLANORVM.
 
 # L'APPENDIX DE LA GEOMETRIE DES PLANS.

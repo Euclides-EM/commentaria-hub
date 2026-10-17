@@ -1,15 +1,3 @@
-[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM LIBER DECIMVS.]
-
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTORVM LIBER DECIMVS.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTORVM LIBER DECIMVS.]
-
-[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTORVM LIBER DECIMVS.]
-
-[Curated heading level=1 type=postulates: EVCLIDIS ELEMENTORVM LIBER DECIMVS.]
-
-[Curated heading level=1 type=axioms: EVCLIDIS ELEMENTORVM LIBER DECIMVS.]
-
 # EVCLIDIS ELEMENTORVM LIBER DECIMVS.
 
 # LE DIXIESME LIVRE DES ELEMENTS D'EVCLIDE.

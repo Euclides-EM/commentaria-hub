@@ -4,7 +4,7 @@
 
 mais en faut quatre au moins, ſi elle eſt proportion diſcrette.
 
-[Curated heading level=2 type=definitions: 10.]
+[Curated heading level=3 type=definitions: 10]
 
 10 Quand trois grandeurs ſont proportiõnelles, la premiere eſt dite auoir à la troiſieſme la raiſon doublee de la premiere à la ſeconde: ’il y en a quatre; la premiere eſt dite eſtre à la qquatrieſme, en raiſon triplee de la premiere à la ſeconde: & touſiours d’vn meſme ordre vne plus, iuſques à ce que la proportion ſoit acheuée.
 
@@ -12,7 +12,7 @@ Comme ſi les grandeurs A,B, C, D, E, ſont continuellement proportionelles, la 
 
 Dounot a retranché de ceſte def. ces mots: Et touſiours d’vn meſme ordre vne plus, iuſques à ce que la proportion ſoit finie.
 
-[Curated heading level=2 type=definitions: 11.]
+[Curated heading level=3 type=definitions: 11.]
 
 11. Les grandeurs ſont dites homologues. ou de ſemblables raiſons, les antecedans aux antecedans, & les conſequens aux conſeques.
 

@@ -1,7 +1,5 @@
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimustertius.
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimustertius.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
 ## Propoſitio prima.

@@ -5,9 +5,9 @@ quantur. Biſecta eſt ergo data A B. Quod erat faciendum.
 
 Pro praxi ſatis erit centris A & B duos æquales circulos deſcribere, ſe ſecantes in G & L, ac ducere rectam G L.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XI.]
+[Curated heading level=3 type=propositions: PROPOSITIO XI.]
 
-## PROPOSITIO XI.
+### PROPOSITIO XI.
 
 [Curated heading level=2 type=figures: Fig. 32]
 
@@ -35,9 +35,9 @@ Ducantur enim C B, F B. Triangula X, & Z, ſibi mutuo æquilatera ſunt. Ergo an
 
 Praxis tam huius quam ſequentis expeditur facillimè præſidio normæ.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XII.]
+[Curated heading level=3 type=propositions: PROPOSITIO XII.]
 
-## PROPOSITIO XII.
+### PROPOSITIO XII.
 
 [Curated heading level=2 type=figures: Fig. 33]
 

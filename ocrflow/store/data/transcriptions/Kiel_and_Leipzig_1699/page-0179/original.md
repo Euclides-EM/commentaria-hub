@@ -33,9 +33,9 @@ und ec ist ein anrührender Strich aus dem Düttel gezogen n. 16. III. n. 2. Bes
 
 Jst also auß dem Düttel e ein gerader Strich ec gezogen/ welcher den gegebenen Kreyß fcd in dem Düttel c anrühret. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XIIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XIIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 16. Beweiß-Stück. Der XIIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 16. Beweiß-Stück.]
 
 ## Der XIIX. Vortrag.
 

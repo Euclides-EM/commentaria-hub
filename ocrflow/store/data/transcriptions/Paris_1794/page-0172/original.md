@@ -3,9 +3,9 @@
 
 le triangle APQ auroit deux angles droits APQ, AQP ; ce qui est impossible.
 
-[Curated heading level=2 type=propositions: PROPOSITION V. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION V.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION V.]
+[Curated heading level=2 type=theorems: PROPOSITION V.]
 
 ## PROPOSITION V.
 

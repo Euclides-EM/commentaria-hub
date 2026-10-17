@@ -1,23 +1,23 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 11 -->
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 6.]
+[Curated heading level=3 type=axioms: 6]
 
 ### 6 Quæ eiuſdem duplicia ſunt, inter ſe ſunt æqualia.
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 7.]
+[Curated heading level=3 type=axioms: 7]
 
 ### 7 Et quæ eiuſdem ſunt dimidium, inter ſe ſunt æqualia.
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 8.]
+[Curated heading level=3 type=axioms: 8]
 
 ### 8 Quæ inter ſe ipſa conueniunt, & inter ſe ſunt æqualia.
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 9.]
+[Curated heading level=3 type=axioms: 9]
 
 ### 9 Totum eſt ſua parte maius.
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 10.]
+[Curated heading level=3 type=axioms: 10]
 
 ### 10 Duæ rectæ lineæ Superficiem non concludunt.
 

@@ -1,7 +1,7 @@
 <!-- Running title: APPENDICE. -->
 <!-- Page number: 229 -->
 
-[Curated heading level=2 type=definitions: DEFINITION IX.]
+[Curated heading level=2 type=definitions: DEFINITION. IX.]
 
 ## DEFINITION. IX.
 

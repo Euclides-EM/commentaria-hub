@@ -17,9 +17,9 @@ Cùm omnis theorematum textura contineat binas partes, hypotheſim ſcilicet & c
 
 Eidem A rectæ erunt binæ B & C parallelæ, tamen productæ concurrent, ſi idem poſſideant planum: non igitur ſibiipſis parallelæ erunt. Si autem rectas B C eandem lineam dicere velimus, fallimur, cùm ſit ſectum continuum. Præterea hypotheſis ponit binas eidem parallelas eſſe, nihilque aliud optat, tum demùm vt inuicem parallelas ſtatuat ſibiipſis, nec adhuc ſciens ſi productæ cõcurrent. Executionem etenim debet præcedere propoſitio, ſola namque executio concurſum earum an ſit, docet: non igitur aliter quam exequendo, an rectæ B C concurrant an non, percipiemus, hypotheſis itaque concluſionem generãs, ea integritate debet ornari, vt cuncta quæ concluſionis neceſſitati noxia obſtunt, ea prudẽtia detrahantur, qua ſola hypotheſis poſitio, concluſionem theorematis neceſſariam exhibeat. Idem diximus optari planum, vt generalis fiat huius figuræ demonſtratio. Nam ablata plani hypotheſi, recta K I tres rectas propoſitas nō neceſſariò ſeccat, quinimò rectam E Z, forſan extra idem planum in ſublimi omitteret. Quare geometria parallelis in plano ſuppoſitis, binas ac diſiunctas adhibet concluſiones, vt in genere propoſita demonſtret. Quod ſi ſimplicem velit nec diſiunctam adhibere concluſionem, tum ab hypotheſi idem plani reiicit, vt diuino auxilio 9. vndecimi docebit, quo ſuppoſito ſimpliciter nec diſiunctim parallelas fore concludet. Alias infinitæ rectæ ſupponi debuerant rectæ parallelæ vt conſtaret theorema.
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſimaprima.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſimaprima.]
 
-[Curated heading level=2 type=problems: Propoſitio trigeſimaprima. Problema 10.]
+[Curated heading level=3 type=problems: Problema 10.]
 
 ### Propoſitio trigeſimaprima.
 

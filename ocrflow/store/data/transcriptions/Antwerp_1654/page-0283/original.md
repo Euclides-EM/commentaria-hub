@@ -1,13 +1,13 @@
 <!-- Page number: 250 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOS. XXXVIII. & XXXIX.]
+[Curated heading level=2 type=propositions: PROPOS. XXXVIII. & XXXIX.]
 
 ## PROPOS. XXXVIII. & XXXIX.
 
 {dropcap:N|lines=2|style=plain}*Ihil continent memorabile, & vix vllius ſunt vſus.*
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XL.]
+[Curated heading level=2 type=propositions: PROPOSITIO XL.]
 
 ## PROPOSITIO XL.
 

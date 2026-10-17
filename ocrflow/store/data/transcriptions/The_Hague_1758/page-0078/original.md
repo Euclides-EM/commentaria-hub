@@ -8,7 +8,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XLVII. THEOREME XXXIII.]
 
-[Curated heading level=2 type=theorems: THEOREME XXXIII. PROPOSITION XLVII.]
+[Curated heading level=2 type=theorems: PROPOSITION XLVII. THEOREME XXXIII.]
 
 ## PROPOSITION XLVII. THEOREME XXXIII.
 

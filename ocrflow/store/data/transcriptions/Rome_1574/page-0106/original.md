@@ -7,7 +7,7 @@ TRIANGVLVM amblygonium, ſiue obtuſangulum eſſe [illegible: 1 word] poteſt v
 
 [Figure: two obtuse-angled triangles]
 
-[Curated heading level=2 type=definitions: XXVIII.]
+[Curated heading level=3 type=definitions: XXVIII.]
 
 ### XXVIII.
 

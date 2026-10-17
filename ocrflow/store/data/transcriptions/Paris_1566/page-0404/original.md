@@ -5,19 +5,19 @@ decimitertij, ſed rectas A T T G poteſt A G, cùm rectus ſit angulus A T G. R
 
 [Figure: cube with inscribed icosahedron, vertices labelled L, T, G, R, S, B, A, I, M, D, E, F, O, N, P, K, Q, H, C]
 
-### Corollarium primum.
+#### Corollarium primum.
 
 Dimetiens Sphæræ Icoſahedrum ambientis, bina poteſt, & Icoſadri & ipſum continentis cubi latera. Nam ducta A B, rectos efficiet ad A F angulos, cùm ſit cubi lateribus parallela: quæ igitur binos F & B oppoſitos icoſahedri coniunget angulos, ipſas A B (latus cubi) & A F (latus Icoſahedri, per 47 primi) poteſt: quæ dimetienti ſphæræ icoſahedrum ambientis æqualis eſt per demõſtrationem decimæ ſextæ decimitertij.
 
-### Corollarium ſecundum.
+#### Corollarium ſecundum.
 
 Sex oppoſitorum Icoſahedri laterũ bifarias ſectiones, cõiungunt tres rectæ æquales in centro Sphæræ Icoſahedrum continentis, ſeſe bifariam ſecantes & ad rectos. Sunt etenim tres ipſæ centra baſium cubi G H D E I K iungentes, quæ ſeſe hac lege ſecant, per corollarium tertiæ huius, & ideo lateribus cubi ſunt æquales. Ab eo autem cubi centro ductæ rectæ ad angulos icoſahedri, ſingulæ dimidium cubi latus & dimidium icoſahedri (angulum rectum comprehendentes) ſubtendunt, quare æquales ſunt. Et proinde centrum præfatum ſphæræ centrum eſſe demonſtrant icoſahedrum ambientis.
 
-### Corollarium tertium.
+#### Corollarium tertium.
 
 Cubi latus extrema & media ratione ſectum, efficit maius ſegmentum latus icoſahedri ſibi inſcripti. Nam dimidium cubi latus, dimidium icoſahedri lateris maius ſegmentum efficit. Totum igitur cubi, totum icoſahedri maius ſegmentum efficiet, per decimamquintam quinti, cùm ſint ſimiles ſectiones, per ſecundam decimiquarti.
 
-### Corollarium quartum.
+#### Corollarium quartum.
 
 Icoſahedri latera & baſes quæ ex oppoſito, parallela adinuicem erunt. Cùm oppoſita icoſahedri latera quæuis, in cubi rectis parallelis eſſe poſſint, nempe oppoſitis in cubo, quæ verò ex parallelis
 

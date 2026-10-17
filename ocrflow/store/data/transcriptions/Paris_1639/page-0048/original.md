@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=3 type=axioms: AXIOME 20. a. b.]
+[Curated heading level=4 type=axioms: 20. a. b.]
 
 ### 20. a. b.
 
@@ -14,7 +14,7 @@ hyp: | eb 2|2 2fd,
 
 I'ay adjousté l'axiome suiuant, à cause qu'il est necessaire aux demonstrations, qui conduisent à l'impossible.
 
-[Curated heading level=2 type=axioms: AXIOME 21. a. 1.]
+[Curated heading level=3 type=axioms: 21. a. 1.]
 
 ### 21. a. 1.
 

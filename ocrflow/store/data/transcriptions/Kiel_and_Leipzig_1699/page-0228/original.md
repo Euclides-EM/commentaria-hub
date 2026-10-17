@@ -30,9 +30,9 @@
 
 Man ziehe die drey Düttele a, h, c mit geraden Strichen ah, hc, ca zusammen/ so ist nach vorhergehendem Vortrag ein Kreyß umb dasselbige Dreyeck (oder durch die 3. Düttele) gezogen / wie allbereit bewiesen. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der VI. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der VI. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 6. Werck-Stück. Der VI. Vortrag.]
+[Curated heading level=2 type=problems: Das 6. Werckstück.]
 
 ## Der VI. Vortrag.
 

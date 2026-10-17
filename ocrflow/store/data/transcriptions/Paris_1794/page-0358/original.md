@@ -5,7 +5,7 @@
 Fig. 14.
 [/Margin]
 
-[Curated heading level=2 type=lemmas: LEMME IV. (NOTE XII.)]
+[Curated heading level=3 type=lemmas: LEMME IV.]
 
 ### LEMME IV.
 
@@ -17,7 +17,7 @@ Car puisque l’angle solide A est quadruple, les inclinaisons sur AE et AB, si 
 Fig. 15.
 [/Margin]
 
-[Curated heading level=2 type=lemmas: LEMME V. (NOTE XII.)]
+[Curated heading level=3 type=lemmas: LEMME V.]
 
 ### LEMME V.
 

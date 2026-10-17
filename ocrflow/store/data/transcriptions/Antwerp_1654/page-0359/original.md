@@ -23,7 +23,7 @@ Deinde quia eodem modo oſtenditur cylindrica HX æquari ſphæricæ QBR, etiam 
 
 Ex his patet de ſegmentis omnibus.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXVII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXVII.]
 
 ## PROPOSITIO XXVII.
 

@@ -3,19 +3,19 @@
 
 Soit la ligne donnée *x*, & le point donné *b*, on peut en diverſes manieres mener par le point *b* une parallele à *x*.
 
-## PREMIERE MANIERE.
+### PREMIERE MANIERE.
 
 Du point *b* mener ſur *x* la perpendiculaire *b f*, & mener par *b* une perpendiculaire ſur *b f*, comme peut eſtre *m b*, elle ſera parallelle à *x* (par la 1re propoſition.)
 
 [Diagram: two horizontal parallel lines, the upper with points m and b, the lower labelled x with point f, joined by a vertical line b f]
 
-## SECONDE MANIERE.
+### SECONDE MANIERE.
 
 Ayant mené de *b* ſur *x* la perpendiculaire *b f*, en élever une autre d'un autre point quelconque d'*x*, comme *g c*, la prenant égale à *b f*, & joignant les points *c*, *b*. *c*, *b*. ſera parallele à *x*, par la 2e propoſition.
 
 [Diagram: two horizontal parallel lines labelled z and x, with points c and b on the upper line joined by verticals to points g and f on the lower line]
 
-## TROISIEME MANIERE, PLUS COURTE ET PLUS FACILE.
+### TROISIEME MANIERE, PLUS COURTE ET PLUS FACILE.
 
 Du point *b* tirer ſur une oblique quelconque, comme *b d*. Du centre *d*, intervale *b d*, décrire l'arc *b k*, qui coupe *x* en *k*. Puis du centre *b*, intervale *b d*, décrire une portion de circonference dans laquelle on puiſſe prendre l'arc *d c*, égal à l'arc *b k* ; la ligne *c b* ſera parallele à *d k*, c'eſt à dire à *x*.
 

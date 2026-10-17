@@ -13,9 +13,7 @@ Die Sehne des dreizehnfachen Bogens des vier und dreißigſten Theils des Kreisu
 
 Dieſer findet ſich vom Herrn Profeſſor Rothe analytiſch-trigonometriſch ausgeführt, in deſſen Programm: de diviſione peripheriae circuli in 17 et 13 partes aequales. Erlangae, 1804. 4.
 
-[Curated heading level=1 type=problems: Anhang]
-
-[Curated heading level=2 type=problems: Anhang, Aufgabe (Siebzehneck).]
+[Curated heading level=2 type=problems: Aufgabe.]
 
 ## Aufgabe.
 

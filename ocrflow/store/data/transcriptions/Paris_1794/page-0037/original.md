@@ -3,9 +3,9 @@
 
 Mais, par hypothese, la somme des angles ACD, DCB, est aussi égale à deux droits ; donc ACD+DCB seroit égale à ACD+DCE ; retranchant de part et d’autre l’angle ACD, il resteroit DCB=DCE ou la partie égale au tout, ce qui est impossible. Donc CB est le prolongement de AC.
 
-[Curated heading level=2 type=propositions: PROPOSITION V. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION V.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION V.]
+[Curated heading level=2 type=theorems: PROPOSITION V.]
 
 ## PROPOSITION V.
 

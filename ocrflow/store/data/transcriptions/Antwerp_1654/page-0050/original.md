@@ -9,7 +9,7 @@ Nam ſi intelligamus triangulum Z triangulo X ſuperponi, latera L F, L I perfec
 a Per axio. 8.
 [/Margin]
 
-### Scholium.
+#### Scholium.
 
 {dropcap:S|lines=2|style=plain}Imili ferè ratiocionio, theorema ſequens, cuius mox erit vſus, licebit demonſtrare.
 

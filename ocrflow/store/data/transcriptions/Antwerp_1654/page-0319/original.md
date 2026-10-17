@@ -1,7 +1,7 @@
 <!-- Page number: 284 -->
 <!-- Running title: Theoremata ſelecta -->
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO II.]
+[Curated heading level=2 type=propositions: PROPOSITIO II.]
 
 ## PROPOSITIO II.
 
@@ -17,7 +17,7 @@ Dico etiam figuras datas A, B æquales fore.
 
 Si non, alterutra minor erit. Eſto igitur A minor quam B defectu Z. Per hypotheſim dari poſſunt magnitudines O, P, inter ſe æquales, quæ deficiant à figuris datis A & B defectu minori quam Z, quo ponitur A deficere à B. Ergo P maior eſt quàm A. Sed P per hypotheſim eſt æqualis O. Ergo etiam O maior eſt quam A, quod repugnat hypotheſi, quâ ſtatuitur O minor quam A. Eodem modo oſtendam B non eſſe minorem quàm A. Quare cum neutra ſit minor alterâ, æquales erunt. Quod erat demonſtrandum.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO III.]
+[Curated heading level=2 type=propositions: PROPOSITIO III.]
 
 ## PROPOSITIO III.
 

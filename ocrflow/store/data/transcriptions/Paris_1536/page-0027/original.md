@@ -1,9 +1,5 @@
 # ΕΥΚΛΕΙΔΟΥ ΒΙΒΛΙΟΥ ΠΡΩΤΟΥ
 
-[Curated heading level=1 type=propositions: LIBER I.]
-
-[Curated heading level=1 type=problems: LIBER I.]
-
 [Curated heading level=2 type=propositions: Problema 1, Propoſitio 1.]
 
 [Curated heading level=2 type=problems: Problema 1, Propoſitio 1.]

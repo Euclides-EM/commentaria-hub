@@ -5,7 +5,7 @@
 
 Huius integritatem conſeruantes, à Theonis vocibus paululum digredi cogimur. Inquit enim ille, per datum ſignum datæ rectæ parallelam rectam lineam ducere. Quid tum ſi in eadem propoſita detur ſignum, aut equidem extra propoſitam ſibi in rectum collocetur, per ea ſigna parallela duci minimè poteſt. Quare ne in rectum apponatur extra illam ſignum, infinitam diximus. Vt autem reliqua parallela dari valeat, datum extra eam ſignum propoſuimus.
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſimaſecunda.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſimaſecunda.]
 
 ### Propoſitio trigeſimaſecunda.
 

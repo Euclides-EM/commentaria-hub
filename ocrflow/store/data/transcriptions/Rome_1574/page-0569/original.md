@@ -4,7 +4,7 @@ hæc comparatio, habitudoue, Proportio. Sic etiam proportio erit ea habitudo, qu
 
 QVÆ cum ita ſint, perſpicuum eſt, tum demum quatuor numeros dici proportionales, cum primus ſecundi, & tertius quarti, æque multiplex eſt; vel eadem pars, vel eædem partes: Vel certe, cum primus ſecundum, & tertius quartum, æqualiter continet, eandemque inſuper illius partem, vel eaſdem partes, vt ſupra defin. 20. docuimus.
 
-[Curated heading level=2 type=definitions: XXV.]
+[Curated heading level=3 type=definitions: XXV.]
 
 ### XXV.
 
@@ -12,7 +12,7 @@ QVÆ cum ita ſint, perſpicuum eſt, tum demum quatuor numeros dici proportiona
 
 TERMINI, ſiue radices proportionis dicuntur duo numeri, quibus in eadem proportione minores ſumi nequeunt.
 
-[Curated heading level=2 type=definitions: XXVI.]
+[Curated heading level=3 type=definitions: XXVI.]
 
 ### XXVI.
 

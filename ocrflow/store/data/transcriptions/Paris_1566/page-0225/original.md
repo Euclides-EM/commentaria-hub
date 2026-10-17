@@ -13,8 +13,6 @@ Exponantur duæ magnitunines inæquales AB & GD: Tollatur autem à maiori GD ip�
 
 [Diagram: three horizontal lines, the upper labelled B, I, A, the middle D, Z, G, and the lower E]
 
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIONum reſtitutarum Liber decimus.]
-
 [Curated heading level=2 type=propositions: Propoſitio tertia.]
 
 [Curated heading level=2 type=problems: Propoſitio tertia. Problema 1.]

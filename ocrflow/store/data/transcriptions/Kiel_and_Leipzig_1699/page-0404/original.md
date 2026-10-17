@@ -14,9 +14,9 @@
 
 Wenn derowegen zwey Dreyecke / derer zwo Seiten zweyen Seiten ebenmässig sind/ also zusammen gesetzet werden/ daß die ebenmässigen Seiten auch nebenstrichicht werden/ so machen die übrigen beyden Seiten einen geraden Strich. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXXIII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXIII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 23. Beweiß-Stück. Der XXXIII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 23. Beweiß-Stück.]
 
 ## Der XXXIII. Vortrag.
 

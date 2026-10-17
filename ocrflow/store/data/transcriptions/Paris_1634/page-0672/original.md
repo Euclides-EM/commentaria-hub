@@ -4,11 +4,11 @@ Si EF est apotome, vel residuū, DE erit congruens.
 
 *Si EF est apotome ou residu, DE sera congruent.*
 
-[Curated heading level=2 type=propositions: THEOR. LVII. PROPOS. LXXV.]
+[Curated heading level=3 type=propositions: THEOR. LVII. PROPOS. LXXV.]
 
-[Curated heading level=2 type=theorems: THEOR. LVII. PROPOS. LXXV.]
+[Curated heading level=3 type=theorems: THEOR. LVII. PROPOS. LXXV.]
 
-## THEOR. LVII. PROPOS. LXXV.
+### THEOR. LVII. PROPOS. LXXV.
 
 Si à media, media auferatur potentia tantum commensurabilis existens toti, quæ cum tota rationale contineat, reliqua irrationalis est: vocetur autem mediæ apotome prima.
 
@@ -37,10 +37,10 @@ df, est √√.54,
 de, est √√.24,
 ef, est √√.54 ∼ √√.24.
 
-[Curated heading level=2 type=propositions: THEOR. LVIII. PROPOS. LXXVI.]
+[Curated heading level=3 type=propositions: THEOR. LVIII. PROPOS. LXXVI.]
 
-[Curated heading level=2 type=theorems: THEOR. LVIII. PROPOS. LXXVI.]
+[Curated heading level=3 type=theorems: THEOR. LVIII. PROPOS. LXXVI.]
 
-## THEOR. LVIII. PROPOS. LXXVI.
+### THEOR. LVIII. PROPOS. LXXVI.
 
 Si à media media auferatur potentia tantum commensurabilis existens toti, quæ cum tota me-

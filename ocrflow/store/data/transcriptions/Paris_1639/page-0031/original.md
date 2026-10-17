@@ -2,7 +2,7 @@
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XXXVI.]
+[Curated heading level=3 type=definitions: XXXVI.]
 
 ### XXXVI.
 
@@ -12,13 +12,13 @@ Les parallelogrammes DG & GB sont complements, mais les parallelogrammes HE & FI
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XXXVII.]
+[Curated heading level=3 type=definitions: XXXVII.]
 
 ### XXXVII.
 
 La figure reguliere est, celle qui est equilatere & equiangle.
 
-[Curated heading level=2 type=definitions: DEF. XXXVIII.]
+[Curated heading level=3 type=definitions: XXXVIII.]
 
 ### XXXVIII.
 

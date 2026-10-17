@@ -8,7 +8,7 @@ Trapezium irregulare est, cuius nulla latera inter se sunt parallela, vt ABCD. |
 
 [Figure: quadrilatere irregulier ABCD, D au sommet, A en bas à gauche, B en bas au milieu, C en bas à droite]
 
-[Curated heading level=2 type=definitions: XXXVI.]
+[Curated heading level=3 type=definitions: XXXVI.]
 
 ### XXXVI.
 

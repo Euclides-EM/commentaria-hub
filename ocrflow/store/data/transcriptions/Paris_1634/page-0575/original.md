@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-[Curated heading level=2 type=axioms: II.]
+[Curated heading level=3 type=axioms: II.]
 
 II.
 
@@ -8,7 +8,7 @@ Magnitudo quancunque magnitudinem metiens, metitur quoque omnem magnitudinem, qu
 
 *Vne grandeur qui mesure quelconque grandeur, mesure aussi toute grandeur que celle-la mesure.*
 
-[Curated heading level=2 type=axioms: III.]
+[Curated heading level=3 type=axioms: III.]
 
 III.
 

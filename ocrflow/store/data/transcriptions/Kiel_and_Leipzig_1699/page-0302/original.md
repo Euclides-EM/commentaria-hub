@@ -6,9 +6,9 @@
 
 Dieses ist der letzte Vortrag des V. Buchs Euclidis, die Nachfolgenden sind aus dem Pappo Alexandrino entlehnet/ weil sie öffters von den besten Mathematicis, um etwas darmit zu beweisen / angezogen werden.
 
-[Curated heading level=2 type=propositions: Der XXVI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXVI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 26. Beweiß-Stück. Der XXVI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 26. Beweiß-Stück.]
 
 ## Der XXVI. Vortrag.
 

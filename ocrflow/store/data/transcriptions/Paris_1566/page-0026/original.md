@@ -14,9 +14,7 @@ ELEMENTA GEOMETRICA LIBRIS QVINDECIM AD GERMANAM GEOMETRIÆ INTELLIGENTIAM E DIV
 Liber primus.
 [/Subhead]
 
-[Curated heading level=1 type=definitions: DEMONSTRATIONVM EVCLIDIS Liber primus.]
-
-[Curated heading level=2 type=definitions: Diffinitio prima.]
+[Curated heading level=3 type=definitions: Diffinitio prima.]
 
 ### Diffinitio prima.
 
@@ -24,7 +22,7 @@ Liber primus.
 
 Quia geometriam, agimus cuius vnicum obiectum eſt quantitas, Signum eſſe diffinimus, notam ſubintelligentes, cuius nulla eſt pars quantitatis, vt cum diffinito conuerſa diffinitio, notam cuius nulla ſit quantitatis pars, ſignum eſſe intelligat, quantitatem agẽs: Nullam autem partem, ſed tantùm animi conceptum: Cuiuſlibet quantitatis partem optatam, vel locum limitantem, diuidentem, aut deſignantem. Quod equidem in temporis quantitate inſtans, veluti in pondere, momentum, idem eſſe dicemus, quæ nihil metiuntur ſed tantùm limitant.
 
-[Curated heading level=2 type=definitions: Diffinitio ſecunda.]
+[Curated heading level=3 type=definitions: Diffinitio ſecunda.]
 
 ### Diffinitio ſecunda.
 
@@ -32,7 +30,7 @@ Linea verò eſt, longitudo non lata.
 
 Quoniam Geometria tres recipit dimenſiones, longitudinem, latitudinem, ſcilicet & ſublimitatem. Quæ verò quantitas vnam tantùm habet dimenſionem, Ea longitudinem tantùm habet, Ea propter lineam primam quidem omnium dimenſionem, longitudine ſola, nulla verò latitudine aut altitudine dotat. Quare eius longitudo quantitas dicetur, eius verò latitudo aut ſublimitas, ſignum tantùm recipit, hoc eſt determinandi, limitandi, aut deſignandi virtutem: Metiendi verò ſolas longitudines, nullas autem latitudines, vel ſublimitates ſuſcipit negotium.
 
-[Curated heading level=2 type=definitions: Diffinitio tertia.]
+[Curated heading level=3 type=definitions: Diffinitio tertia.]
 
 ### Diffinitio tertia.
 
@@ -40,7 +38,7 @@ Lineæ autem limites ſunt, ſigna.
 
 Limites lineæ ſigna vocat, Eo quod limitare ſit alicuius quantitatis progreſſum terminare, quia verò longitudo lineæ cum ſit ſola in linea dimenſio, ſumit ſibi terminum limitem, ſiue deſignatorem ſignum, quod quidẽ æque vt illa vtitur reliquis dimenſionibus, latitudine ſcilicet & altitudine, hoc eſt nulla. Terminatur itaque aut limitatur lineæ progreſſus ſigno.
 
-[Curated heading level=2 type=definitions: Diffinitio quarta.]
+[Curated heading level=3 type=definitions: Diffinitio quarta.]
 
 ### Diffinitio quarta.
 

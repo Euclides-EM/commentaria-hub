@@ -9,9 +9,9 @@ a Per 19.l.1.
 
 2. Pars patet ex prima parte & ex prop.4.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXVI.]
+[Curated heading level=3 type=propositions: PROPOSITIO XXVI.]
 
-## PROPOSITIO XXVI.
+### PROPOSITIO XXVI.
 
 [Margin]
 Fig.25.

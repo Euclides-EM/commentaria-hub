@@ -3,9 +3,9 @@
 
 *æquum, medium erit, quæ quidem media, ad certam E Z comparata, latitudines E N E M certas potẽtia tantùm ipſi E Z propoſitæ commenſurabiles efficiunt, per 22 huius, ſimiliter quia rectangula ſub A D D B & ſub A G G B ſunt media, eadem bis ſumpta media erunt, per coroll. 23 huius, & idcirco T C ipſi quod bis ſub A D D B æquum, & T I, ei quod bis ſub A G G B æquum, media erunt. Rectè igitur T M T N (latitudines) certa potentia tantùm ipſi E Z commenſurabiles erunt: cùm enim A G G B ſint (ex hypotheſi) longitudine incommenſurabiles, ſit autem vt A G ad G B, ſic quod ex A G ad quod ſub A G G B, per lemma 21 huius, incommenſurabile erit quod ſub A G G B quadrato A G, quod autem ex A G ei quod ex G B eſt (per hypotheſim) commenſurabile, quod autem ſub A G G B, ei quod bis ſub A G G B eſt item commenſurabile, dimidium duplo. Duobus igitur (ſcilicet ei quod ex A G & ei quod ſub A G G B incommenſurabilibus cõmenſurabilia, quæ ex A G G B & quæ bis ſub A G G B, per tertium coroll. decimæ huius, incommenſurabilia erunt, & proinde E I & T I (ipſis æqualia) incommenſurabilia erunt, & ideo (ex prima ſexti) E M & T M rectæ incommenſurabiles erunt longitudine, potentia itaque tantùm commenſurabiles erunt, E M T M cùm ſint certæ oſtenſæ. Reliqua igitur E T eſt apotome, per 73 huius, haud diſſimili via patebit E N T N certas eſſe potentia tantùm commenſurabiles, & proinde reliquam E T eſſe apotome, ipſi itaque E T apotome plures congruunt T M T N certæ, potentia tantùm toti commenſurabiles exiſtentes, quod fieri non poteſt, per 79 huius: non itaque alia quàm G B ipſi A B media apotome ſecundæ cõgruet. Mediæ igitur apotome ſecundæ vna tantũ, &c.*
 
-[Curated heading level=2 type=propositions: Propoſitio octuageſimaſecunda.]
+[Curated heading level=3 type=propositions: Propoſitio octuageſimaſecunda.]
 
-## Propoſitio octuageſimaſecunda.
+### Propoſitio octuageſimaſecunda.
 
 Minori vna tantũ congruit recta linea, potentia toti incommenſurabilis exiſtens, & efficiens cum tota compoſitum ex earum quadratis Certum, quod verò ſub ipſis Medium.
 
@@ -13,9 +13,9 @@ Minori vna tantũ congruit recta linea, potentia toti incommenſurabilis exiſte
 
 [Diagram: horizontal line labelled A, B, G, and D]
 
-[Curated heading level=2 type=propositions: Propoſitio octuageſimatertia.]
+[Curated heading level=3 type=propositions: Propoſitio octuageſimatertia.]
 
-## Propoſitio octuageſimatertia.
+### Propoſitio octuageſimatertia.
 
 Cum certo medium totum efficienti vna tantum congruit recta linea, potentia toti incommenſurabilis ſubſiſtens, & cum tota efficiens conflatum, ex ipſarum quadratis medium, quod verò ſub ipſis certum.
 

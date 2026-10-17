@@ -4,7 +4,7 @@ hyp. | 16 2|2 16,
 hyp. | 12 3|2 7, *l'excez des adjouſtées eſt 5.*
 15.a.1 | 28 3|2 23, *l'excez des toutes eſt 5.*
 
-[Curated heading level=2 type=axioms: AXIOME 16. a. 1.]
+[Curated heading level=3 type=axioms: 16. a. 1.]
 
 ### 16. a. 1.
 
@@ -14,7 +14,7 @@ hyp | 18 3|2 12 *l'excez eſt 6.*
 hyp. | 7 2|2 7 *les adiouſtées.*
 16.a.1 | 25 3|2 19 *l'excez des toutes eſt 6.*
 
-[Curated heading level=2 type=axioms: AXIOME 17. a. 1.]
+[Curated heading level=3 type=axioms: 17. a. 1.]
 
 ### 17. a. 1.
 
@@ -24,7 +24,7 @@ hyp. | 16 2|2 16,
 hyp. | 12 3|2 7 *l'excez des retranchées eſt 5.*
 17.a.1 | 4 2|3 9 *l'excez des reſtantes eſt 5.*
 
-[Curated heading level=2 type=axioms: AXIOME 18. a. 1.]
+[Curated heading level=3 type=axioms: 18. a. 1.]
 
 ### 18. a. 1.
 

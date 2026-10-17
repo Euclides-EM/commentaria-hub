@@ -13,11 +13,11 @@ b g. eſt égal à c f.
 
 Car par Liv. II. 35. le produit des extrêmes b. g. qui eſt le premier de ces deux plans, eſt égal au produit des moyens c. f. qui eſt le ſecond de ces deux plans.
 
-[Curated heading level=2 type=propositions: XXXII. DIXIEME THEOREME.]
+[Curated heading level=2 type=propositions: DIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXII. DIXIEME THEOREME.]
+[Curated heading level=2 type=theorems: DIXIEME THEOREME.]
 
-### DIXIEME THEOREME.
+## DIXIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXII.]
 
@@ -35,11 +35,11 @@ b.  c  ::  f.  g.
 
 C'eſt la converſe de la precedente, & qui ſe prouve auſſi par la converſe de la proprieté de la proportion Geometrique, Liv. II. 36.
 
-[Curated heading level=2 type=propositions: XXXIII. ONZIEME THEOREME.]
+[Curated heading level=2 type=propositions: ONZIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXIII. ONZIEME THEOREME.]
+[Curated heading level=2 type=theorems: ONZIEME THEOREME.]
 
-### ONZIEME THEOREME.
+## ONZIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXIII.]
 

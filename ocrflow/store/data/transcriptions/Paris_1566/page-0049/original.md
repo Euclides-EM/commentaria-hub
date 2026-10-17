@@ -4,7 +4,7 @@ Sint triangula A B G & D B G, in eadem baſi B G & eiſdem parallelis A D, B G. 
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſimaoctaua.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſimaoctaua.]
 
 ### Propoſitio trigeſimaoctaua.
 
@@ -14,7 +14,7 @@ Sint triangula A B G, D G Z, in æqualibus baſibus B G, G Z, & in eiſdem paral
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſimanona.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſimanona.]
 
 ### Propoſitio trigeſimanona.
 

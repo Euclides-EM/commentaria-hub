@@ -13,11 +13,9 @@ Dw. ab | cg nach 1 Grund-S.
 Und ist also von dem grössern ch abgeschnitten ein Stück cg | ab
 W. Z. M.
 
-[Curated heading level=1 type=theorems: Das I. Buch]
+[Curated heading level=2 type=propositions: Der IV. Vortrag.]
 
-[Curated heading level=2 type=propositions: Der IV. Vortrag. Beweiß-Stück]
-
-[Curated heading level=2 type=theorems: Das 1. Beweiß-Stück. Der IV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 1. Beweiß-Stück.]
 
 ## Der IV. Vortrag.
 

@@ -8,9 +8,9 @@ aa + cc + 2bc + 2cc | 2ac + bb + 2bc + 2cc — n. 2. Grs. I.
 Dw. aa + cc | 2ac + bb — n. 3. Gr. I.
 W. Z. B.
 
-[Curated heading level=2 type=propositions: Der IIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der IIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 8. Beweiß-Stück. Der IIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 8. Beweiß-Stück.]
 
 ## Der IIX. Vortrag.
 

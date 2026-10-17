@@ -11,11 +11,11 @@ suppos. | cf 3|2 fк..□.——, incomm. cf,
 
 *JCY COMMENCENT LES SIXAINES des lignes irrationelles par le retranchement.*
 
-[Curated heading level=2 type=propositions: THEOR. LVI. PROPOS. LXXIV.]
+[Curated heading level=3 type=propositions: THEOR. LVI. PROPOS. LXXIV.]
 
-[Curated heading level=2 type=theorems: THEOR. LVI. PROPOS. LXXIV.]
+[Curated heading level=3 type=theorems: THEOR. LVI. PROPOS. LXXIV.]
 
-## THEOR. LVI. PROPOS. LXXIV.
+### THEOR. LVI. PROPOS. LXXIV.
 
 Si à rationali rationalis auferatur potentia tantum commensurabilis existens toti: reliqua irrationalis est, vocetur autem apotome.
 

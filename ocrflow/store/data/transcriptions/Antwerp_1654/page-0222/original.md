@@ -8,7 +8,7 @@ Igitur permutando AF eſt ad FC e vt LI ad IO.
 e Per 16.l.5.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO V.]
+[Curated heading level=2 type=propositions: PROPOSITIO V.]
 
 ## PROPOSITIO V.
 

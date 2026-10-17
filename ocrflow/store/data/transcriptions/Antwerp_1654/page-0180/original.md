@@ -5,9 +5,9 @@ habuerint rationem, etiam ad partes earum ſimiles, eandem inter ſe habere rati
 
 Si plures fuerint vtrimque quantitates quam tres, eodem ratiocinio procedatur ad reliquas.
 
-[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXIII.]
+[Curated heading level=3 type=propositions: PROPOSITIO XXIII.]
 
-## PROPOSITIO XXIII.
+### PROPOSITIO XXIII.
 
 [Curated heading level=2 type=figures: Fig. 14]
 
@@ -33,9 +33,9 @@ d Per 11. l.5.
 
 Vocatur à Geometris hæc ratio perturbata.
 
-[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXIV.]
+[Curated heading level=3 type=propositions: PROPOSITIO XXIV.]
 
-## PROPOSITIO XXIV.
+### PROPOSITIO XXIV.
 
 [Curated heading level=2 type=figures: Fig. 15]
 

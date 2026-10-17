@@ -33,9 +33,9 @@ Ist auch demselben der Kreyß bcd eingeschrieben n. 5. Beschr. IV.
 
 Ist also dem gegebenen △ efg ein O bcd eingeschrieben. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der V. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der V. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 5. Werck-Stück. Der V. Vortrag.]
+[Curated heading level=2 type=problems: Das 5. Werck-Stück.]
 
 ## Der V. Vortrag.
 

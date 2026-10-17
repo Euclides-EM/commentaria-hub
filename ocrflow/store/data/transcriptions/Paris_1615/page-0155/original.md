@@ -4,7 +4,7 @@
 
 de la bartie aliquele, & iceluy eſtant multiplié par le denominatear de la raiſon multiple, ſi on adiouſte 1.au produit, on aura le denominateur de la fraction, comme il eſt manifeſte par les exemples cy-deſſu. Le denominateur de quelconque raiſon muitiple ſuperpartiente, eſt le nombre entier, denommant la raiſon multiple obtenue en icelle, auec les parties aliquotes que doit comprendre la plus grande quantité de la moindre. Cõme le denominaieur de la taiſoo triple ſuperbipartete tierces, eſt 3? de quadruple ſeperiripartiẽte quinites, a) &. I eſt facile de trouuer le denominateur de telles raiſons, pour ce que la prolation exprime diſtinctemẽt, :ãt le denominateur de la raisõ multiple, que les parties aliquotes, cõme apert ez exẽples cy deſſus, &le denominateur d’vne raiſon ſubmul tiple ſuperpatiente, eſt vne fraction, dont le numerateur eſt Ie nõbre denommant les parties aliquotes d’icelle raiſon: comme le denominateur de la raiſon ſubtriple ſuperbipariiente tierces, eſt, de ſubquaAruple ſubiripartiẽte quintes, eſt , &c. Le denominaieur de ielles ranõs ſera trouué, ſi pour le numerateur de la fraction on prẽd le denominaaeur des parties aliquotes: lequel eſtãt multiplié par le denominateur de la raiſon multiple, & au nombre produit adiouſte le nombre des parties aliquoies, viendra le denominateur de la fraction, ainſi qu’il appert ez exemples poſés cy deſſus. Finablemẽt le denominateur de la raiſon d’egalité eſt touſiours l’vnité, pour oe que les quantitez d’icelle raiſon ſon egales entr'elles; & parpant l’vne contient l’autre vne fois preciſement.
 
-[Curated heading level=2 type=definitions: 4.]
+[Curated heading level=3 type=definitions: 4.]
 
 4. Proportion, eſt vne ſimilitude de raiſons.
 

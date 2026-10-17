@@ -5,9 +5,9 @@ duit des extrémes *b g* eſt égal au produit des moyens *f c*. Et par conſequ
 
 *b g* + *c g* ſera égal à *f c* + *c g*.
 
-[Curated heading level=2 type=propositions: LXI. TREIZIEME THEOREME.]
+[Curated heading level=4 type=propositions: TREIZIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LXI. TREIZIEME THEOREME.]
+[Curated heading level=4 type=theorems: TREIZIEME THEOREME.]
 
 #### TREIZIEME THEOREME.
 

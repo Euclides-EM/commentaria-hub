@@ -1,7 +1,7 @@
 <!-- Page number: 312 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=2 type=propositions: XI. PROPOSITION FONDAMENTALE]
+[Curated heading level=4 type=propositions: PROPOSITION FONDAMENTALE]
 
 #### PROPOSITION FONDAMENTALE
 [Subhead]

@@ -4,7 +4,7 @@ lis erit, pars toti, quod fieri non poteſt. Non ergo rectæ duæ lineæ ſpaciu
 
 HVIC duodenario numero Axiomatum ab Euclide poſitorum adiungemus nos nonnulla alia ex alijs Geometris decerpta, non minus neceſſaria ad futuras demonſtrationes Problematum atq́; Theorematum cum Euclidis, tum cæterorum Mathematicorum, quam ea, quæ nobis tradidit Euclides.
 
-[Curated heading level=2 type=axioms: XIII.]
+[Curated heading level=3 type=axioms: XIII.]
 
 ### XIII.
 

@@ -5,9 +5,9 @@ le point *b*, auquel il faudra mener la ligne du point *k* pour faire la perpend
 
 C'eſt la meſme preuve que du precedent. Car *k* & *b* ſeront chacun également diſtans de *m* & *n*.
 
-[Curated heading level=2 type=propositions: XXXV. TROISIEME PROBLEME.]
+[Curated heading level=3 type=propositions: TROISIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XXXV. TROISIEME PROBLEME.]
+[Curated heading level=3 type=problems: TROISIEME PROBLEME.]
 
 ### TROISIEME PROBLEME.
 
@@ -23,11 +23,9 @@ Couper une ligne donnée en deux parties égales. Soit la ligne donnée *mn*, en
 
 [Diagram: vertical line marked K and B meeting a horizontal line marked M, Z and N, with dotted arcs near the top]
 
-[Curated heading level=1 type=theorems: LIVRE CINQVIEME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=propositions: XXXVI. PREMIER THEOREME.]
-
-[Curated heading level=2 type=theorems: XXXVI. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 

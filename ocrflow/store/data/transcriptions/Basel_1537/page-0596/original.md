@@ -18,17 +18,29 @@ In circuli enim a b c, positione dati diametro b c assumptum sit datũ signũ d 
 
 Finis Datorum.
 
-[Curated heading level=1 type=theorems: DE LEVI ET PONDEROSO FRAGMENTVM]
-
-[Curated heading level=1 type=definitions: DE LEVI ET PONDEROSO FRAGMENTVM]
-
 # EVCLIDIS DE LEVI ET PONDEROSO FRAGMENTVM.
-
-[Curated heading level=2 type=definitions: Diffinitiones.]
 
 [Margin]
 Diffinitiones.
 [/Margin]
+
+[Curated heading level=2 type=definitions: 1]
+
+[Curated heading level=2 type=definitions: 2]
+
+[Curated heading level=2 type=definitions: 3]
+
+[Curated heading level=2 type=definitions: 4]
+
+[Curated heading level=2 type=definitions: 5]
+
+[Curated heading level=2 type=definitions: 6]
+
+[Curated heading level=2 type=definitions: 7]
+
+[Curated heading level=2 type=definitions: 8]
+
+[Curated heading level=2 type=definitions: 9]
 
 1 Æqua magnitudine corpora sunt, quæ loca replent æqua, 2 Diuersa magnitudine corpora sunt, quæ loca replent non æqua. 3 Grãdiora magnitudine dicũtur corpora, quæ loco sunt ampliore. 4 Æqua potentia corpora sunt, quotũ & tempore & aëre aquáue media æqualibus & per æqualia interualla æquales sunt motus.{printer-error-correction:quorũ} 5 Diuersa potentia corpora sunt, quorum tẽpore diuerso motus sunt æquales. 6 Diuersorũ potẽtia corporum, maius id potentia dicitur, quod mouendo temporis insumpsit minus: minus autem potẽtia, quod temporis amplius. 7 Generis eiusdem corpora sunt, quæ cum æqua magnitudine sint, etiam sunt potentia. 8 Diuersa genere corpora sunt, quæ cum æqua magnitudine sint, potentia non sunt, per idem licet medium moueãtur. 9 Diuersorum genere corporum, potentius id dicitur, quod est solidius.
 

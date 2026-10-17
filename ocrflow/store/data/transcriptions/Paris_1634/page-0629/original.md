@@ -17,11 +17,11 @@ hyp. | ▭.abc, est medi.
 l.38.10 concl. | ▭df, est irration.
 α.11.d.10 | ac, est irration.
 
-[Curated heading level=2 type=propositions: THEOR. XXVIII. PROPOS. XL.]
+[Curated heading level=3 type=propositions: THEOR. XXVIII. PROPOS. XL.]
 
-[Curated heading level=2 type=theorems: THEOR. XXVIII. PROPOS. XL.]
+[Curated heading level=3 type=theorems: THEOR. XXVIII. PROPOS. XL.]
 
-## THEOR. XXVIII. PROPOS. XL.
+### THEOR. XXVIII. PROPOS. XL.
 
 Si duæ rectæ lineæ potentia incommensurabiles componantur, quæ faciant compositum quidem ex ipsarum quadratis rationale, quod autem sub ipsis continetur, medium; tota recta linea irrationalis erit: vocetur autem major.
 

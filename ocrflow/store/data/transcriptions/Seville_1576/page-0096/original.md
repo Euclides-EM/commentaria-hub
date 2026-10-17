@@ -8,8 +8,6 @@ tro del circulo. A B C. porque ſi no. ſi es poſſible ſea. I. (ypor la.1,pet
 
 ¶De aqui es manifieſto que ſi en el circulo alguna linea recta a alguna linea recta la corta por medio y en angulos rectos, enla que corta eſta el centro del circulo.
 
-[Curated heading level=1 type=theorems: LIBRO TERCERO DELOS ELEMENTOS GEO]
-
 [Curated heading level=2 type=propositions: Theorema. 1. Propoſicion. 2.]
 
 [Curated heading level=2 type=theorems: Theorema. 1. Propoſicion. 2.]

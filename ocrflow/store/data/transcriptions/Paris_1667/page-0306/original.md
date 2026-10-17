@@ -11,9 +11,9 @@ Car ſi b c doit ſoûtenir un angle aigu, le triangle eſt b c d: & s'il doit �
 
 ### TRIANGLES COMPAREZ.
 
-[Curated heading level=2 type=propositions: XVI. PREMIER THEOREME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XVI. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 
@@ -25,9 +25,9 @@ XVI.
 
 Deux triangles ſont tout-égaux, quand les coſtez de l'un ſont égaux aux coſtez de l'autre, chacun à chacun. Car alors les angles de l'un ſont auſſy égaux aux angles de l'autre, par VIII. 64.
 
-[Curated heading level=2 type=propositions: XVII. SECOND THEOREME.]
+[Curated heading level=4 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XVII. SECOND THEOREME.]
+[Curated heading level=4 type=theorems: SECOND THEOREME.]
 
 #### SECOND THEOREME.
 
@@ -39,9 +39,9 @@ XVII.
 
 Deux triangles ſont tout-égaux quand ils ont un angle égal, & que les coſtez qui comprennent dans l'un cet angle égal, ſont égaux à ceux qui le comprennent dans l'autre, chacun à chacun. Car alors la baſe eſt auſſy égale à la baſe, par VIII. 65.
 
-[Curated heading level=2 type=propositions: XVIII. TROISIEME THEOREME.]
+[Curated heading level=4 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XVIII. TROISIEME THEOREME.]
+[Curated heading level=4 type=theorems: TROISIEME THEOREME.]
 
 #### TROISIEME THEOREME.
 

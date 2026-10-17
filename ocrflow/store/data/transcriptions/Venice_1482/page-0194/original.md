@@ -1,8 +1,8 @@
 <!-- Running title: LIBER -->
 
-conueniunt.¶Duo anguli plani angulum ſolidum perficere nequeunt ſicut nec due recte linee nequeunt ſuperficiem claudere.Angulos quoqʒ planos ſolidũ angulum continentes in eadẽ ſuperficie nõ conuenit eſſe ſitos ſed in diuerſis quẽadmodũ duas rectas lineas planũ perficientes angulum non conuenit ſibi inuicem ſecũdũ ſitũ rectitudinis applicari.¶Similes ſunt figure corporee rotũde ſiue ſit colũne ſiue earũ piramides quaꝝ axes diametris ſuarũ baſiũ ſunt proportionales.¶Propoſitis enim duabus piramidibus rotundis aut duabus columnis rotundis ſi fuerit proportio axis vnius eaꝝ ad diametrum ſue baſis ſicut axis alterius ad diametrum ſue baſis ille due columne aut piramides ſimiles adinuicem eſſe dicuntur.
+[Curated heading level=2 type=definitions: Similes ſunt figure corporee]
 
-[Curated heading level=1 type=propositions: LIBER XI]
+conueniunt.¶Duo anguli plani angulum ſolidum perficere nequeunt ſicut nec due recte linee nequeunt ſuperficiem claudere.Angulos quoqʒ planos ſolidũ angulum continentes in eadẽ ſuperficie nõ conuenit eſſe ſitos ſed in diuerſis quẽadmodũ duas rectas lineas planũ perficientes angulum non conuenit ſibi inuicem ſecũdũ ſitũ rectitudinis applicari.¶Similes ſunt figure corporee rotũde ſiue ſit colũne ſiue earũ piramides quaꝝ axes diametris ſuarũ baſiũ ſunt proportionales.¶Propoſitis enim duabus piramidibus rotundis aut duabus columnis rotundis ſi fuerit proportio axis vnius eaꝝ ad diametrum ſue baſis ſicut axis alterius ad diametrum ſue baſis ille due columne aut piramides ſimiles adinuicem eſſe dicuntur.
 
 [Curated heading level=2 type=propositions: Propoſitio .1.]
 

@@ -23,7 +23,7 @@
 DIFFERENTES ALIQUOTES D'UNE MÊME GRANDEUR.
 [/Subhead]
 
-[Curated heading level=2 type=lemmas: XXXI. PREMIER LEMME.]
+[Curated heading level=3 type=lemmas: PREMIER LEMME.]
 
 ### PREMIER LEMME.
 
@@ -35,7 +35,7 @@ XXXI.
 
 IE ſuppoſe que l'on ſçait qu'une aliquote, qui s'appelle une fraction dans les nombres, s'exprime par deux chiffres au deſſus l'un de l'autre avec une raye entre-deux, [unclear: ⅓ ⅖]. Et que celuy d'embas, qui marque combien de fois l'aliquote eſt contenuë dans ſon tout, eſt appellé dénominateur, & celuy d'enhaut numerateur, parce qu'il marque combien de fois on doit prendre l'aliquote marquée par celuy d'embas. Ainſi ⅓ eſt un tiers, ¾ trois quarts, ⅚ cinq ſixiémes.
 
-[Curated heading level=2 type=lemmas: XXXII. SECOND LEMME.]
+[Curated heading level=3 type=lemmas: SECOND LEMME.]
 
 ### SECOND LEMME.
 
@@ -53,7 +53,7 @@ t. ⅓ :: 3. 1.
 t. ¼ :: 4. 1.
 [/Calculation]
 
-[Curated heading level=2 type=lemmas: XXXIII. TROISIEME LEMME.]
+[Curated heading level=3 type=lemmas: TROISIEME LEMME.]
 
 ### TROISIEME LEMME.
 

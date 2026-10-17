@@ -4,9 +4,9 @@
 
 [Figure: two angles on a base line: at left, angle BAC on line A C M with a dotted line from B to C; at right, angle HDG on line D E G with a dotted line from F to E]
 
-[Curated heading level=2 type=propositions: PROPOSITION XXIII. PROBLEME IX.]
+[Curated heading level=2 type=propositions: PROPOSITION XXIII. PROBLE'ME IX.]
 
-[Curated heading level=2 type=problems: PROBLEME IX. PROPOSITION XXIII.]
+[Curated heading level=2 type=problems: PROPOSITION XXIII. PROBLE'ME IX.]
 
 ## PROPOSITION XXIII. PROBLE'ME IX.
 

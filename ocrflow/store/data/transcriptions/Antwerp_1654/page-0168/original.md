@@ -3,7 +3,7 @@
 
 rali, atque iſtud: dabile eſt maius quam P, & dabile eſt minus quam P, ergo dabile eſt æquale aliquod ipſi P.
 
-## Quid in proportionum æqualium definitione Euclidæâ deſideretur.
+#### Quid in proportionum æqualium definitione Euclidæâ deſideretur.
 
 [Curated heading level=2 type=figures: Fig. 21]
 

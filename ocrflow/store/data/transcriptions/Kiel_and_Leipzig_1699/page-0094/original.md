@@ -14,9 +14,9 @@ oder FH ⌻ GI.
 
 Aus diesem ist klar zu sehen / daß alle eines durch einen Zwergstrich getheileten Viereckes Füllflächen gleiche Grösse haben müssen. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XLIV. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XLIV. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 12. Werck-Stück. Der XLIV. Vortrag.]
+[Curated heading level=2 type=problems: Das 12. Werckstück.]
 
 ## Der XLIV. Vortrag.
 

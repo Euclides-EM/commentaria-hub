@@ -1,6 +1,6 @@
 <!-- Running title: ELEMENT. GEOM. EVCL. -->
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Nona.]
+[Curated heading level=3 type=axioms: Nona.]
 
 ### Nona.
 
@@ -8,13 +8,13 @@ Totum eſt ſua parte maius.
 
 Reſpectiuum eſſe dicemus totum ad partem, cùm ſint ſibi relatiua: pars etenim geometrica quodlibet à toto abſtractum eſt, aliquid ei relinquens, quod latius docebimus prima diffinitione quinti.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Decima.]
+[Curated heading level=3 type=axioms: Decima.]
 
 ### Decima.
 
 Omnes anguli recti, æquales adinuicem ſunt.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Vndecima.]
+[Curated heading level=3 type=axioms: Vndecima.]
 
 ### Vndecima.
 
@@ -22,7 +22,7 @@ Si in duas rectas lineas, recta incidens linea interiores & ad eaſdem partes an
 
 Huius notitia à trigeſima quinta diffinitione oritur ob inclinationem: nam ſi binæ lineæ rectæ, in quas recta incidit, efficiant binos interiores angulos, & ad eaſdem partes lineæ incidentis, duobus rectis minores, clarum eſt binas lineas ad ſe inuicem inclinare, & quanto plus in rectum longumq́; producentur, plus accedent ad ſeipſas, quouſque altera alteram ſecet. Quare ſequitur omnem linearum rectarum inclinationem infinitè in plano productam, tandem angulum producere.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Duodecima.]
+[Curated heading level=3 type=axioms: Duodecima.]
 
 ### Duodecima.
 

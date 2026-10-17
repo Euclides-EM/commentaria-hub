@@ -7,7 +7,7 @@ Si numerus duos numeros metiatur, & maximam communem eorum menſurã metietur. N
 
 [Curated heading level=2 type=propositions: Propoſitio tertia.]
 
-[Curated heading level=2 type=problems: Propoſitio tertia. Problema 2.]
+[Curated heading level=2 type=problems: Problema 2.]
 
 ## Propoſitio tertia.
 

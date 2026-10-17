@@ -1,6 +1,6 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Curated heading level=2 type=definitions: XXIV.]
+[Curated heading level=3 type=definitions: XXIV.]
 
 ### XXIV.
 
@@ -8,7 +8,7 @@ Isosceles autem est, quod duo tantùm æqualia habet latera, vt triangulum B. | 
 
 [Figure: triangle isoscele B]
 
-[Curated heading level=2 type=definitions: XXV.]
+[Curated heading level=3 type=definitions: XXV.]
 
 ### XXV.
 
@@ -16,7 +16,7 @@ Scalenum verò, quod tria inæqualia habet latera, vt triangulum C. | Et le scal
 
 [Figure: triangle scalene C]
 
-[Curated heading level=2 type=definitions: XXVI.]
+[Curated heading level=3 type=definitions: XXVI.]
 
 ### XXVI.
 

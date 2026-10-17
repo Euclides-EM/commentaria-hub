@@ -1,7 +1,7 @@
 <!-- Running title: Liber Vndecimus. -->
 <!-- Page number: 235 -->
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXI.]
 
 ## PROPOSITIO XXI.
 

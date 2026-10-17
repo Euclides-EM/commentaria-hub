@@ -1,7 +1,7 @@
 <!-- Running title: LIBER PRIMVS. -->
 <!-- Page number: 4 -->
 
-[Curated heading level=2 type=postulates: Poſtulatum tertium.]
+[Curated heading level=3 type=postulates: Poſtulatum tertium.]
 
 ### Poſtulatum tertium.
 
@@ -17,45 +17,43 @@ Hæc bina Poſtulata (veluti prius) naturam Geometricæ ſequuntur diſciplinæ:
 QVÆ EO A POſtulatis differunt, quod Poſtulata ſint poſitiones ſimplices, à nulla præmiſſa deducta, quæ rem non exiſtentem fieri poſtulent. Sententiæ verò communes, conditionalem præmiſſam neceſſariò ſequentes, rem iam exiſtentem nos ſentire cupiant: Quod prætermiſerunt Campanus & Theon: hic nanque duas inter Poſtulata miſcuit Sententias, ille verò tres, relinquentes græcum exemplar, quod noſtro iudicio approbandum videtur hoc loco.
 [/Subhead]
 
-[Curated heading level=1 type=axioms: DEMONSTRATIONVM EVCLIDIS Liber primus.]
-
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Prima.]
+[Curated heading level=3 type=axioms: Prima.]
 
 ### Prima.
 
 {dropcap:Q|lines=3|style=decorated|decoration="foliate ornament"}VÆ eidem æqualia, & adinuicem ſunt æqualia.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Secunda.]
+[Curated heading level=3 type=axioms: Secunda.]
 
 ### Secunda.
 
 Et ſi æqualibus æqualia adiiciantur, tota erunt æqualia.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Tertia.]
+[Curated heading level=3 type=axioms: Tertia.]
 
 ### Tertia.
 
 Et ſi ab æqualibus æqualia auferantur, quæ relinquuntur, erunt æqualia.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Quarta.]
+[Curated heading level=3 type=axioms: Quarta.]
 
 ### Quarta.
 
 Et ſi inæqualibus æqualia adiungantur, tota erunt inæqualia.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Quinta.]
+[Curated heading level=3 type=axioms: Quinta.]
 
 ### Quinta.
 
 Et ſi ab inæqualibus æqualia auferantur, reliqua inæqualia erunt.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Sexta.]
+[Curated heading level=3 type=axioms: Sexta.]
 
 ### Sexta.
 
 Quæ eiuſdem ſunt duplicia, adinuicem ſunt æqualia.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Septima.]
+[Curated heading level=3 type=axioms: Septima.]
 
 ### Septima.
 
@@ -63,7 +61,7 @@ Et quæ eiuſdem ſunt dimidium, æqualia ſunt adinuicem.
 
 Binas, ſextam ſcilicet & ſeptimam, poſuit tantùm Euclides, quibus cunctæ reliquæ quantitatum multiplicationes ſiue in augmentum ſiue in decrementum extenſæ, comprehensæ ſint. Nam cùm ait eiuſdem duplicia æqualia adinuicem eſſe, intelligit haud ſecus eiuſdem triplicia aut quadruplicia aut alia quæuis multiplicia inter ſe æqualia eſſe: nec non & dicens eiuſdem dimidia æqua eſſe, illico concludit, eiuſdem tertia, quarta, quinta aut alia quæuis idem decrementum eiuſdem multiplicantia, inter ſe æqualia eſſe: vt compendio conſulat.
 
-[Curated heading level=2 type=axioms: COMMVNES SENTENTIÆ, Octaua.]
+[Curated heading level=3 type=axioms: Octaua.]
 
 ### Octaua.
 

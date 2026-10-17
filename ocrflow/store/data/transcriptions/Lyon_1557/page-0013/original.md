@@ -5,7 +5,7 @@
 
 Ceſſante enim ſectione, ceſſat Angulus : vt illìc probabimus.
 
-[Curated heading level=2 type=definitions: DEFINITIO 9.]
+[Curated heading level=3 type=definitions: 9]
 
 ### 9 Quando autem quæ angulum continét rectæ fuerint lineæ: Rectilineus Angulus vocatur.
 
@@ -13,17 +13,17 @@ Ceſſante enim ſectione, ceſſat Angulus : vt illìc probabimus.
 
 Vt, ſi recta A B ſecet rectam C D: fiunt anguli A B C & A B D, Rectilinei. Cæteri autem Curuilinei quidem dicũtur, quum à duabus curuis fiunt: Mixti verò, quum à recta & curua.
 
-[Curated heading level=2 type=definitions: DEFINITIO 10.]
+[Curated heading level=3 type=definitions: 10]
 
 ### 10 Quum recta linea ſuper rectam conſiſtens lineam angulos utrinque æquales fecerit: rectus eſt vterque angulorum. Et quæ ſic cadit linea, perpendicularis eſt ei ſuper quam ſteterit.
 
 Angulus Rectus à quibuſdam definitur eſſe, qui ſibi adiacentem angulum ab eadem linea factum, æqualem habet. Nos verò, vt etiam Quaternarium honoremus, Angulum Rectum eſſe dicemus, quartam partem ſectionis duarum linearum rectarum. Quum igitur linea lineam ſecans in neutram partem inclinatur, fit angulus Rectus.
 
-[Curated heading level=2 type=definitions: DEFINITIO 11.]
+[Curated heading level=3 type=definitions: 11]
 
 ### 11 Obtuſus angulus, eſt Recto maior:
 
-[Curated heading level=2 type=definitions: DEFINITIO 12.]
+[Curated heading level=3 type=definitions: 12]
 
 ### 12 Acutus verò Recto minor.
 

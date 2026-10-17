@@ -3,7 +3,7 @@
 
 benti pro altitudine radium, pro baſi ſuperficiem hemiſphæricam E O B D. Ergo etiam hemiſphærium coni E B D duplum eſt. Quod erat dem.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXI.]
 
 ## PROPOSITIO XXXI.
 

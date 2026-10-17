@@ -7,9 +7,9 @@ S’il faut prolonger l’arc AM, ou si on ne donne que les points A et M par le
 
 Enfin on voit aisément ce qu’il faudroit faire pour mener par un point donné un arc perpendiculaire à un arc donné, et aussi pour diviser un arc donné en deux parties égales, etc.
 
-[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+[Curated heading level=2 type=theorems: PROPOSITION VII.]
 
 ## PROPOSITION VII.
 

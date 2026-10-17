@@ -13,9 +13,9 @@ Dw. f c | a b nach 1. Grund-Satz.
 
 und ist fc | ab aus dem gegebenen Düttel c gezogen/ W. Z. M.
 
-[Curated heading level=2 type=propositions: Der III. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der III. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 3. Werck-Stück. Der III. Vortrag.]
+[Curated heading level=2 type=problems: Das 3. Werck-Stück.]
 
 ## Der III. Vortrag.
 ## Das 3. Werck-Stück.

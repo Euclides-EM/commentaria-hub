@@ -7,7 +7,7 @@ Eſto data recta AB, datus verò angulus G, ad datam AB & ſignum eius A, dato a
 
 [Curated heading level=2 type=propositions: Propoſitio trigeſimaquarta.]
 
-[Curated heading level=2 type=problems: Propoſitio trigeſimaquarta. Problema 6.]
+[Curated heading level=2 type=problems: Problema 6.]
 
 ## Propoſitio trigeſimaquarta.
 

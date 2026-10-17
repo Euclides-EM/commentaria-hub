@@ -20,9 +20,9 @@ Dw.      BC ⊢ dc.       n. 1. Gr-S. d.
 
 Ist also allezeit des △es / dessen zwo Seiten / zweyen Seiten eines andern △es gleich sind / aber einen grössern Winckel haben / Grundstrich grösser / als des andern △es / welches einen kleinern Winckel hat.   W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 16. Beweiß-Stück. Der XXV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 16. Beweiß-Stück.]
 
 ## Der XXV. Vortrag.
 

@@ -15,9 +15,9 @@ b k = k b. C'eſt à dire à ſoy même.
 
 Donc par V. 57. les perpendiculaires de *k* ſur *b d* & de *b* ſur *c k* ſont égales. Donc les lignes *b d* & *c k* ſont paralleles par 15. s̃.
 
-[Curated heading level=2 type=propositions: XXV. SIXIEME THEOREME.]
+[Curated heading level=2 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXV. SIXIEME THEOREME.]
+[Curated heading level=2 type=theorems: SIXIEME THEOREME.]
 
 ## SIXIEME THEOREME.
 
@@ -37,9 +37,9 @@ Les inégales entre paralleles quoy qu'inclinées du même coſté ne peuvent e�
 
 [Diagram: two horizontal parallel lines with points b and c on the upper line joined by oblique and dotted lines to points d, k and q on the lower line]
 
-[Curated heading level=2 type=propositions: XXVI. SEPTIEME THEOREME.]
+[Curated heading level=2 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVI. SEPTIEME THEOREME.]
+[Curated heading level=2 type=theorems: SEPTIEME THEOREME.]
 
 ## SEPTIEME THEOREME.
 

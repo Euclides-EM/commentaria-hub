@@ -8,7 +8,7 @@ limite, ſuccedunt rectilineæ, hoc eſt, rectis lineis terminatæ figuræ, vari
 Rectilineæ figuræ
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 20.]
+[Curated heading level=3 type=definitions: 20]
 
 Rectilineæ figuræ, ſunt quæ ſub rectis lineis continentur. 20
 
@@ -24,7 +24,7 @@ Porrò inter rectilineas figuras, primum locum ſibi vendicant trilateræ, ſub 
 Trilateræ figuræ
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 21.]
+[Curated heading level=3 type=definitions: 21]
 
 Trilateræ figuræ, ſunt quæ ſub tribus rectis continentur lineis. 21
 
@@ -36,7 +36,7 @@ His ſuccedunt quadrilateræ, à quaternario laterum numero denominatæ.
 Quadrilateræ
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 22.]
+[Curated heading level=3 type=definitions: 22]
 
 Quadrilateræ figuræ ſunt, quæ ſub quatuor comprehẽduntur rectis lineis. 22
 
@@ -48,7 +48,7 @@ Et quoniam rectilinearum figurarum ſupra quadrilateras per cõtinuam laterum ad
 Multilateræ
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 23.]
+[Curated heading level=3 type=definitions: 23]
 
 Multilateræ figuræ, ſunt quæ ſub pluribus quàm quatuor rectis lineis comprehenduntur. 23
 
@@ -60,7 +60,7 @@ Trilaterarũ figurarũ à lateribus diſcrimina.
 
 Τῶν δὲ τριπλεύρων σχημάτων, ἰσόπλευρον μὲν τρίγωνόν ἐστι, ὃ τρεῖς ἴσας ἔχον πλευράς.
 
-[Curated heading level=2 type=definitions: Diffinitio 24.]
+[Curated heading level=3 type=definitions: 24]
 
 Trilaterarum porrò figurarum, æquilaterũ eſt triangulum, quod tria continet æqualia latera. 24
 
@@ -72,7 +72,7 @@ Veluti ſubſcripta in exemplum trianguli figura a/ & quæ illi ſimiles.
 Iſosceles
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 25.]
+[Curated heading level=3 type=definitions: 25]
 
 Iſoſceles autẽ, eſt quod ſub binis tantũ ęqualibus lateribus cõtinet. 25
 
@@ -84,7 +84,7 @@ Cuiuſmodi ſunt triangula b,c,d, ad clariorem ſingulorum euidentiam depicta.
 Scalenum
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 26.]
+[Curated heading level=3 type=definitions: 26]
 
 Scalenum verò, eſt quod ſub tribus inæqualibus lateribus continetur. 26
 

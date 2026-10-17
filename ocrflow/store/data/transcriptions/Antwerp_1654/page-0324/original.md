@@ -3,7 +3,7 @@
 
 duplum rectanguli G F C E ( hoc eſt ad F H quadratum circumſcriptum) vt C D E ad duplam diametrum C E, ſiue vt quadrans C D ad diametrum C E.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO VI.]
+[Curated heading level=2 type=propositions: PROPOSITIO VI.]
 
 ## PROPOSITIO VI.
 

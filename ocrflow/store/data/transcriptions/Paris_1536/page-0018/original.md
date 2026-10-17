@@ -4,7 +4,7 @@
 
 ¶ εὐθεῖα γραμμή, ἐστιν ἥτις ἐξίσου τοῖς ἐφ᾽ ἑαυτῆς σημείοις κεῖται.
 
-[Curated heading level=2 type=definitions: Diffinitio 4.]
+[Curated heading level=3 type=definitions: 4]
 
 **4** Recta linea est, quæ ex æquali sua interiacet puncta.
 
@@ -14,7 +14,7 @@ Vtpote, quæ à puncto in pũctum breuissimè ducitur, ipsa terminatiua puncta i
 
 ¶ ἐπιφάνεια δ᾽ ἐστὶ, ὃ μῆκος καὶ πλάτος μόνον ἔχει.
 
-[Curated heading level=2 type=definitions: Diffinitio 5.]
+[Curated heading level=3 type=definitions: 5]
 
 **5** Superficies est, quæ longitudinem, latitudinémq; tantùm habet.
 
@@ -22,7 +22,7 @@ Quæ cùm exordiatur à linea, & ipsius lineæ terminatiua puncta, ad motum eius
 
 ¶ ἐπιφανείας πέρατα γραμμαί.
 
-[Curated heading level=2 type=definitions: Diffinitio 6.]
+[Curated heading level=3 type=definitions: 6]
 
 **6** Superficiei extrema sunt lineæ.
 
@@ -30,7 +30,7 @@ Porrò cùm linea, ad descriptionem mota superficiei, recta fuerit, atq; in long
 
 ¶ ἐπίπεδος ἐπιφάνεια, ἐστιν ἥτις ἐξίσου ταῖς ἐφ᾽ ἑαυτῆς εὐθείας ἔχει.
 
-[Curated heading level=2 type=definitions: Diffinitio 7.]
+[Curated heading level=3 type=definitions: 7]
 
 **7** Plana superficies est, quæ ex æquali suas interiacet lineas.
 

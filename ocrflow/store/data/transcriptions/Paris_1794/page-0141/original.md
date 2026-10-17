@@ -7,9 +7,9 @@ roient la circonférence aux points A, B, C, etc. ; on joindroit ensuite ces poi
 
 *Corollaire II.* Donc on peut circonscrire à un cercle donné tous les polygones réguliers qu’on sait y inscrire, et réciproquement.
 
-[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+[Curated heading level=2 type=theorems: PROPOSITION VII.]
 
 ## PROPOSITION VII.
 

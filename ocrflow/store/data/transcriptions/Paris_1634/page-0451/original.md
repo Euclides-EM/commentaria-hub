@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-[Curated heading level=2 type=axioms: VII.]
+[Curated heading level=3 type=axioms: VII.]
 
 ### VII.
 
@@ -18,7 +18,7 @@ Ex hoc manifestum est, nullum numerum primum, esse planum, solidum, quadratum, a
 
 *De cecy il est manifeste, qu'il n'y a aucun nombre premier qui soit plan, solide, quarré, ou cube.*
 
-[Curated heading level=2 type=axioms: VIII.]
+[Curated heading level=3 type=axioms: VIII.]
 
 ### VIII.
 

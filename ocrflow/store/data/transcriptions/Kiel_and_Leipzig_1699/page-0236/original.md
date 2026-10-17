@@ -8,9 +8,9 @@ Ist also ein gleichschencklichtes Dreyeck abd verfertiget/dessen
 Gipffelswinckel dab halb so groß/als einer von den Grundwinckeln
 dba oder bda. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XI. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XI. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 11. Werck-Stück. Der XI. Vortrag.]
+[Curated heading level=2 type=problems: Das 11. Werck-Stück.]
 
 ## Der XI. Vortrag.
 

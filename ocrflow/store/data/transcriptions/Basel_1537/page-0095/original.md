@@ -1,30 +1,40 @@
 <!-- Page number: 86 -->
 
-[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER QVARTVS]
-
-[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER QVARTVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVARTVS
 
-[Curated heading level=2 type=definitions: Ex Campano. Diffinitiones]
-
 ## Ex Campano. Diffinitiones
+
+[Curated heading level=3 type=definitions: FIgura intra figuram]
+
+[Curated heading level=3 type=definitions: 2]
 
 FIgura intra figuram dicitur inscribi, quando ea quæ inscribitur eius in qua inscribitur latera unoquoque suorum angulorum ab inreriore parte contingit. 2 Circunscribi uero figura figuræ perhibetur, quoties ea quidem figura eius cui circunscribitur omnibus omnes angulos contingit.
 
 [Diagram: triangle with a smaller triangle inscribed within it, the two marked 1 and 2]
 
-[Curated heading level=2 type=definitions: Ex Zamberto. Diffinitiones.]
-
 ## Ex Zamberto. Diffinitiones.
+
+[Curated heading level=3 type=definitions: FIgura rectilinea]
+
+[Curated heading level=3 type=definitions: 2]
 
 FIgura rectilinea in figura rectilinea describi dicitur, quando unusquisque inscriptæ figuræ angulus, unumquodque latus eius in qua describitur tangit. 2 Figura autem similiter circa figuram describi dicitur, quando unumquodque latus circunscriptæ, unumquenq̃ angulum eius circum quē describitur tangit.
 
 [Diagram: square with a second square inscribed diagonally within it, the two marked 1 and 2]
 
+[Curated heading level=3 type=definitions: 3]
+
+[Curated heading level=3 type=definitions: 4]
+
 3 Figura rectilinea in circulo describi dicitur, quādo unusquisque angulus inscriptæ circuli circunferentiam tangit. 4 Circulus uero circa figuram rectilineam describi dicitur, quando circuli circunferētia unumquenq̃ eius circum quam describitur, angulum tangit.
 
 [Diagram: three circles side by side: a pentagon inscribed in a circle marked 3 and 4; a hexagon about a circle marked 5 and 6; a circle with a chord drawn across it marked 7]
+
+[Curated heading level=3 type=definitions: 5]
+
+[Curated heading level=3 type=definitions: 6]
+
+[Curated heading level=3 type=definitions: 7]
 
 5 Circulus autem in figura rectilinea describi dicitur, quando circuli circunferentia unumquodque latus eius in qua describitur tangit. 6 Figura uero rectilinea circa circulum describi dicitur, quando unumquodq̃ latus circūscriptæ circunferentiā tangit. 7 Recta linea in circulū coaptari dicitur, quando eius extrema in circuli circunferentiam cadunt.
 

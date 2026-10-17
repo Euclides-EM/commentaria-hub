@@ -18,7 +18,7 @@ La progression arithmetique est vne suite de plusieurs grandeurs qui s'excedent 
 
 1. 2. 3. 4. 5. 6. 7. 8. &c. ou, 1. 3. 5. 7. 9. 11. 13. 15. &c.
 
-[Curated heading level=2 type=definitions: DEF. V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 

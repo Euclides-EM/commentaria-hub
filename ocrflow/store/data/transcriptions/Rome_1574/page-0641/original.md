@@ -1,9 +1,5 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM VIII.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM VIII.]
-
 # EVCLIDIS ELEMENTVM VIII.
 
 [Ornament: floral headpiece]

@@ -2,9 +2,9 @@
 
 <!-- Page number: 325 -->
 
-[Curated heading level=2 type=propositions: Der VII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der VII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 7. Beweiß-Stück. Der VII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 7. Beweiß-Stück.]
 
 ## Der VII. Vortrag.
 

@@ -13,9 +13,9 @@ b k = k b. C'eſt à dire égale à ſoy même.
 
 Donc par V. 57. les perpendiculaires de *b* ſur *d k*, & de *k* ſur *b c*, ſont égales. Donc *b c* & *d k* ſont paralleles par 15. s̃.
 
-[Curated heading level=2 type=propositions: XXVII. HUITIEME THEOREME.]
+[Curated heading level=2 type=propositions: HUITIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVII. HUITIEME THEOREME.]
+[Curated heading level=2 type=theorems: HUITIEME THEOREME.]
 
 ## HUITIEME THEOREME.
 
@@ -31,9 +31,9 @@ Soit fait comme auparavant, *b c* & *d k* ſont paralleles. Donc *b d* & *c k* q
 
 Mais eſtant égales & inclinées du même coſté, les portions des paralleles qui ſont compriſes entre ces lignes ſont égales par le 4e Theoreme. Donc *b c* & *d k* ſont égales.
 
-[Curated heading level=2 type=propositions: XXVIII. NEUVIEME THEOREME.]
+[Curated heading level=2 type=propositions: NEUVIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVIII. NEUVIEME THEOREME.]
+[Curated heading level=2 type=theorems: NEUVIEME THEOREME.]
 
 ## NEUVIEME THEOREME.
 
@@ -55,9 +55,9 @@ Donc *b d* & *k c* ſont égales, par V. 48.
 
 Et paralleles par 24. *ſup*.
 
-[Curated heading level=2 type=propositions: XXIX. DIXIEME THEOREME.]
+[Curated heading level=2 type=propositions: DIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXIX. DIXIEME THEOREME.]
+[Curated heading level=2 type=theorems: DIXIEME THEOREME.]
 
 ## DIXIEME THEOREME.
 

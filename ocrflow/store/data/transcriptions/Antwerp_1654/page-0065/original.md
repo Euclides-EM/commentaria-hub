@@ -15,9 +15,9 @@ f Per 13. l.1.
 
 3. Pars. A L O per 1. partem æquatur F O L. Atqui F O L cum C O L f facit duos rectos. Ergo etiam A L O cùm C O L facit duos rectos. Quod erat tertium.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXVIII.]
+[Curated heading level=3 type=propositions: PROPOSITIO XXVIII.]
 
-## PROPOSITIO XXVIII.
+### PROPOSITIO XXVIII.
 
 [Curated heading level=2 type=figures: Fig. 47]
 
@@ -35,9 +35,9 @@ a Per præc.
 
 Ergo a angulus X L O par eſt alterno F O L; Quod fieri non poteſt, cum per hyp. A L O par ſit eidem F O L.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXIX.]
+[Curated heading level=3 type=propositions: PROPOSITIO XXIX.]
 
-## PROPOSITIO XXIX.
+### PROPOSITIO XXIX.
 
 [Margin]
 Fig. 45. vel 46.

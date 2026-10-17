@@ -16,9 +16,9 @@ Dw. de ⧣ bc — n. 39. I.
 
 Wenn derowegen ein gerader Strich zwo des Dreyeckes Seiten also schneidet/ daß die Stücke in ebenmässiger Verhältnüß stehen/ so wird der schneidende Strich ein Nebenstrich des Grundstrichs seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der III. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der III. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 3. Beweiß-Stück. Der III. Vortrag.]
+[Curated heading level=2 type=theorems: Das 3. Beweiß-Stück.]
 
 ## Der III. Vortrag.
 

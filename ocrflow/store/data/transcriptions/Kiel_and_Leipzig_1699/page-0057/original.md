@@ -44,9 +44,9 @@ Dw. CBA ⲗ BAC n. 1. Gr-S. e
 
 Ist also jedwedes △es längste Seite / über den grössesten Winckel gespannet. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 12. Beweiß-Stück. Der XIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 12. Beweiß-Stück.]
 
 ## Der XIX. Vortrag.
 

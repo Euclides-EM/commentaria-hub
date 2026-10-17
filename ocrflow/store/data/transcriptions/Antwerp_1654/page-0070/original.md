@@ -25,9 +25,9 @@ Fig. 55.
 
 Cadat enim, ſi fieri poteſt, verſus obtuſum A O C, puta in Q. Igitur acutus A O B erit externus, reſpectu recti A Q B, ac proinde illo maior per coroll.1. quod eſt abſurdum.
 
-## PROPOS. XXXII.
+### PROPOS. XXXII.
 
-### Pars II.
+#### Pars II.
 
 {dropcap:O|lines=2|style=plain}Mnis trianguli tres ſimul anguli, duobus rectis ſunt æquales.
 

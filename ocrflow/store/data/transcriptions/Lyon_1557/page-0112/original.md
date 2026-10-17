@@ -9,7 +9,7 @@ Ex poſteriori conſtructione conſtitit, tres Arcus AC, CD, & DE minoris Circul
 
 Nos huic loco hoc ſubnectemus Problema.
 
-[Curated heading level=2 type=additions: Ad PROPOSITIO X. Super data recta linea Pentagonum æquilaterum & æquiangulum conſtituere.]
+[Curated heading level=3 type=additions: Super data recta linea Pentagonum æquilaterum & æquiangulum conſtituere.]
 
 ### Super data recta linea Pentagonum æquilaterum & æquiangulum conſtituere.
 

@@ -1,15 +1,15 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 11 -->
 
-### Warnung.
+#### Warnung.
 
 [Figure: two creützriß arcs crossing over a line, with a vertical linj through the crossing points, labelled d, e, a, c and f]
 
 Magſt diſe operation / ſo du auff den grund acht haſt / wol verkürtzen / dan nit nott den gantzen gleichſeittigen triangel zuͤmachen / iſt genuͤg ſo du die zwen creützriß machſt / vnd die linj b f zeücheſt / wie hiebey verzaichnet / das verſteh auch von andern. Sunſt jren nutz / dieweil diſen forthin ſo manigfaltige meldung / hie on not zuͤrhuͤmen.
 
-[Curated heading level=2 type=propositions: X. Die zechendt propoſ.]
+[Curated heading level=3 type=propositions: X Die zechendt propoſ.]
 
-## X Die zechendt propoſ. Lehrt
+### X Die zechendt propoſ. Lehrt
 
 [Subhead]
 Ain fürgebne linj in zwen gleich tail abthailen. Geſchicht alſo /
@@ -25,9 +25,9 @@ Stell nach außweiſung der erſten propoſ.auff diſe linj (welche iſt a b) ei
 Demonſtration.
 [/Margin]
 
-[Curated heading level=2 type=propositions: XI. Die ailfft propoſition]
+[Curated heading level=3 type=propositions: XI Die ailfft propoſition]
 
-## XI Die ailfft propoſition / Lehrt
+### XI Die ailfft propoſition / Lehrt
 
 [Subhead]
 So ain linj fürgeben wirt / von einem puncten in der ſelben linj ain perpendicular oder ſchnuͤrgerechte linj ziechen. Dem thuͦ alſo /

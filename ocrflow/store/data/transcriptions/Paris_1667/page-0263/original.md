@@ -16,9 +16,9 @@ K f. K g : : K d. K c.
 T.  T  : :  p.  p.
 [/Calculation]
 
-[Curated heading level=2 type=propositions: XLV. SECOND THEOREME.]
+[Curated heading level=5 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XLV. SECOND THEOREME.]
+[Curated heading level=5 type=theorems: SECOND THEOREME.]
 
 ##### SECOND THEOREME.
 

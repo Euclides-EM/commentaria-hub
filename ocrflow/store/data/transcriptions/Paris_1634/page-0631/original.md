@@ -1,10 +1,10 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-[Curated heading level=2 type=propositions: THEOR. XXX. PROPOS. XLII.]
+[Curated heading level=3 type=propositions: THEOR. XXX. PROPOS. XLII.]
 
-[Curated heading level=2 type=theorems: THEOR. XXX. PROPOS. XLII.]
+[Curated heading level=3 type=theorems: THEOR. XXX. PROPOS. XLII.]
 
-## THEOR. XXX. PROPOS. XLII.
+### THEOR. XXX. PROPOS. XLII.
 
 Si duæ rectæ lineæ potentia incommensurabiles componantur, quæ faciant & compositum ex ipsarum quadratis medium, & quod sub ipsis continetur medium, incommensurabiléque composito ex quadratis ipsarum; tota recta linea irrationalis erit: vocetur autem bina media potens.
 

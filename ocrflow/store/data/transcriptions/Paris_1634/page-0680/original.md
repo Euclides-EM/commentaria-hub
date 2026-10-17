@@ -11,11 +11,11 @@ l.79.10 | □.ac + □.bc .∼: / □.ad + □.bd / 2|2, 2▭.acb.∼: 2▭.adb,
 γ♪ | □.ac + □.bc .∼: □.ad + □.bd, est ration.
 αβ | contr. 27.10.
 
-[Curated heading level=2 type=propositions: THEOR. LXIV. PROPOS. LXXXII.]
+[Curated heading level=3 type=propositions: THEOR. LXIV. PROPOS. LXXXII.]
 
-[Curated heading level=2 type=theorems: THEOR. LXIV. PROPOS. LXXXII.]
+[Curated heading level=3 type=theorems: THEOR. LXIV. PROPOS. LXXXII.]
 
-## THEOR. LXIV. PROPOS. LXXXII.
+### THEOR. LXIV. PROPOS. LXXXII.
 
 Mediæ apotomæ secundæ vna tantùm congruit recta linea media potentia solùm commensurabilis existens toti, & cum tota medium continens.
 

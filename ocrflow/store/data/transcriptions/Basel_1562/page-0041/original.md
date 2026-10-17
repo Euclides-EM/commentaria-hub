@@ -31,7 +31,7 @@ Wo yede figur inn ire triangel zertailen.
 Alle außwenndig winckell ainer figur / wieuil gerechter winckeln die gleich.
 [/Margin]
 
-### Ain andern weg zůbeweyſen /
+#### Ain andern weg zůbeweyſen /
 
 [Subhead]
 daß yede rechtliniſche figur / ſo vil Gerecht winckel vermög / als yetz angezaigt.

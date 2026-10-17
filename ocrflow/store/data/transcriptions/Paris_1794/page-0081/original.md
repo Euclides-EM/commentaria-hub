@@ -3,7 +3,7 @@
 
 triangles rectangles CBA, CDA, ont l’hypoténuse CA commune, et le côté CB=CD. Donc ils sont égaux ; donc AD=AB, et en même temps l’angle CAD=CAB.
 
-[Curated heading level=2 type=problems: PROBLÊME XV.]
+[Curated heading level=3 type=problems: PROBLÊME XV.]
 
 ### PROBLÊME XV.
 
@@ -17,7 +17,7 @@ Divisez les angles A et B en deux également par les lignes AO et BO qui se renc
 
 Maintenant si du point O comme centre et du rayon OD on décrit une circonférence, il est clair que cette circonférence sera inscrite dans le triangle ABC ; car le côté AB, perpendiculaire à l’extrémité du rayon OD, est une tangente : et il en est de même des côtés BC, AC.
 
-[Curated heading level=2 type=problems: PROBLÊME XVI.]
+[Curated heading level=3 type=problems: PROBLÊME XVI.]
 
 ### PROBLÊME XVI.
 

@@ -30,7 +30,7 @@ f Per 27.l.1.
 o Per 5.l.1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO IV.]
+[Curated heading level=2 type=propositions: PROPOSITIO IV.]
 
 ## PROPOSITIO IV.
 

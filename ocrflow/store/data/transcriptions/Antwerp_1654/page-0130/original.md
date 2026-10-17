@@ -1,7 +1,7 @@
 <!-- Running title: Liber Tertius. -->
 <!-- Page number: 97 -->
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXII.]
 
 ## PROPOSITIO XXII.
 
@@ -21,13 +21,13 @@ b Per 21. l. 3.
 c Per eand.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIONES XXIII. XXIV.]
+[Curated heading level=2 type=propositions: PROPOSITIONES XXIII. XXIV.]
 
 ## PROPOSITIONES XXIII. XXIV.
 
 {dropcap:N|lines=2|style=plain}On ſunt neceſſariæ: & agitur de ſegmentis ſimilibus, quæ non poſſunt ſine proportionibus rectè definiri.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXV.]
 
 ## PROPOSITIO XXV.
 

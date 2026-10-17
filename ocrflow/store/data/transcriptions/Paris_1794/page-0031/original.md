@@ -7,11 +7,11 @@ Si les lignes sont droites, l’espace qu’elles renferment s’appelle *figure
 Fig. 6.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Définition XIV.]
+[Curated heading level=3 type=definitions: XIV.]
 
 XIV. Le polygone de trois côtés est le plus simple de tous ; il s’appelle *triangle* ; celui de quatre côtés s’appelle *quadrilatere* ; celui de cinq, *pentagone* ; celui de six, *hexagone*, etc.
 
-[Curated heading level=2 type=definitions: Définition XV.]
+[Curated heading level=3 type=definitions: XV.]
 
 XV. On appelle triangle *équilatéral* celui qui a ses trois côtés égaux ; triangle *isoscele*, celui dont deux côtés seulement sont égaux ; triangle *scalene*, celui qui a ses trois côtés inégaux.
 
@@ -23,7 +23,7 @@ Fig. 8.
 Fig. 9.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Définition XVI.]
+[Curated heading level=3 type=definitions: XVI.]
 
 XVI. Le triangle *rectangle* est celui qui a un angle droit. Le côté opposé à l’angle droit s’appelle *hypoténuse*. Ainsi ABC est un triangle rectangle en A, le côté BC est son hypoténuse.
 
@@ -31,7 +31,7 @@ XVI. Le triangle *rectangle* est celui qui a un angle droit. Le côté opposé �
 Fig. 10.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Définition XVII.]
+[Curated heading level=3 type=definitions: XVII.]
 
 XVII. Parmi les quadrilateres on distingue :
 
@@ -65,11 +65,11 @@ Enfin, le *trapeze* dont deux côtés seulement sont parallèles.
 Fig. 15.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Définition XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 XVIII. Nous appellerons polygone *équilatéral* celui dont tous les côtés sont égaux ; polygone *équiangle* celui dont tous les angles sont égaux.
 
-[Curated heading level=2 type=definitions: Définition XIX.]
+[Curated heading level=3 type=definitions: XIX.]
 
 XIX. Deux polygones sont *équilatéraux entre eux* lorsqu’ils ont les côtés égaux chacun à chacun, et placés dans le même ordre, c’est-à-dire lorsqu’en
 

@@ -4,9 +4,9 @@
 
 [Figure: two triangles in a double-ruled frame: triangle BAC with angle a at apex A and angles b and c at base, with a dotted circle; triangle EDF with angle d at apex D, angles e and f at base, a point X above the base EF and a dotted arc through Y below it]
 
-[Curated heading level=2 type=propositions: PROPOSITION IV. THEOREME I.]
+[Curated heading level=2 type=propositions: PROPOSITION IV. THEORE'ME I.]
 
-[Curated heading level=2 type=theorems: THEOREME I. PROPOSITION IV.]
+[Curated heading level=2 type=theorems: PROPOSITION IV. THEORE'ME I.]
 
 ## PROPOSITION IV. THEORE'ME I.
 

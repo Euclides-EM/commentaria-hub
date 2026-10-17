@@ -28,7 +28,7 @@ f Per 19.l.1.
 
 15. Ex vno puncto ad vnam rectam tãtum vna perpendicularis cadit. Patet ex coroll. præced.
 
-### Scholium.
+#### Scholium.
 
 {dropcap:H|lines=2|style=plain}Vius pulcherrimi, fæcundiſſimique theorematis, cuius per Matheſim vniuerſam vſus prope immenſus, inuentor eſt Pythagoras teſte Eudemo veteri geometrâ. Frequentiſſimè eiuſdem meminit Ariſtoteles, qui illud etiam exemplum ſtatuit perfectiſſimæ demonſtrationis. Sed quemadmodum ex hac propoſitione iam didicimus, quot rectis angulis, eius anguli æquiualeant, ita eiuſdem beneficio cuiuslibet figuræ rectilineæ ſiue interni, ſiue externi
 

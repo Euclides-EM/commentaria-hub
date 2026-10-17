@@ -2,7 +2,7 @@
 
 poursuiure ceste infinité, il appelle toutes autres figures rectilignes, circonscrites de plus de quatre lignes, d'vn nom general Multilateres.
 
-[Curated heading level=2 type=definitions: DEF. XXIII.]
+[Curated heading level=3 type=definitions: XXIII.]
 
 ### XXIII.
 
@@ -10,7 +10,7 @@ Or des figures trilateres, celle qui a trois costez égaux, s'appelle triangle E
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XXIV.]
+[Curated heading level=3 type=definitions: XXIV.]
 
 ### XXIV.
 
@@ -18,7 +18,7 @@ Mais le triangle Isoscele est, celuy qui a seulement deux costez égaux, comme l
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XXV.]
+[Curated heading level=3 type=definitions: XXV.]
 
 ### XXV.
 

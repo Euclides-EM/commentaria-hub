@@ -16,19 +16,19 @@
 
 <!-- Running title: DEFINITIONS -->
 
-[Curated heading level=2 type=definitions: DEFINITION XXXIII.]
+[Curated heading level=3 type=definitions: XXXIII.]
 
 ### XXXIII.
 
 {dropcap:E|lines=2|style=plain}*T* par *Rhomboïde*, une figure quadrilatére, ayant les angles & les côtés oppoſés égaux entr'eux, mais ni équilatérale, ni équiangulaire. *Fig.* 25.
 
-[Curated heading level=2 type=definitions: DEFINITION XXXIV.]
+[Curated heading level=3 type=definitions: XXXIV.]
 
 ### XXXIV.
 
 Toute autre Figure quadrilatére eſt appellée. *Trapéze*. *Fig.* 26.
 
-[Curated heading level=2 type=definitions: DEFINITION XXXV.]
+[Curated heading level=3 type=definitions: XXXV.]
 
 ### XXXV.
 

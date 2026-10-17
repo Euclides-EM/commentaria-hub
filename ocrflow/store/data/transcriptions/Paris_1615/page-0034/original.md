@@ -1,11 +1,5 @@
 <!-- Page number: 11 -->
 
-[Curated heading level=1 type=propositions: ELEMENT PREMIER.]
-
-[Curated heading level=1 type=theorems: ELEMENT PREMIER.]
-
-[Curated heading level=1 type=problems: ELEMENT PREMIER.]
-
 # ELEMENT PREMIER.
 
 [Curated heading level=2 type=propositions: PROBL. 1. PROP. I.]

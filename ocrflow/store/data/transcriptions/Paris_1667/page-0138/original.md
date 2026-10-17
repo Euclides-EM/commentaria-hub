@@ -5,9 +5,9 @@ perpendiculaire k b, & l'autre du point c plus bas que k de cette même perpendi
 
 Or ſi cela eſtoit, c n ſeroit plus petite que k m, par 44. & 45. ſup. ce qui eſt contre l'hypotheſe.
 
-[Curated heading level=2 type=propositions: LII. QUATRIEME THEOREME.]
+[Curated heading level=4 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LII. QUATRIEME THEOREME.]
+[Curated heading level=4 type=theorems: QUATRIEME THEOREME.]
 
 #### QUATRIEME THEOREME.
 
@@ -21,9 +21,9 @@ QUAND il n'y a égalité donnée que dans l'une de ces trois lignes, voicy ce qu
 
 1. S'il n'y a égalité que dans la perpendiculaire, le plus grand éloignement du perpendicule donne la plus grande oblique, & la plus grande oblique donne le plus grand éloignement du perpendicule. C'eſt ce qui a eſté prouvé dans la propoſition principale.
 
-[Curated heading level=2 type=propositions: LIII. CINQUIEME THEOREME.]
+[Curated heading level=4 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LIII. CINQUIEME THEOREME.]
+[Curated heading level=4 type=theorems: CINQUIEME THEOREME.]
 
 #### CINQUIEME THEOREME.
 
@@ -39,9 +39,9 @@ Il y a deux parties dont la premiere a eſté prouvée par le corollaire de la p
 
 [Figure: triangle with apex k above a horizontal line from m to n, with a point c on the perpendicular meeting the line at B]
 
-[Curated heading level=2 type=propositions: LIV. SIXIEME THEOREME.]
+[Curated heading level=4 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LIV. SIXIEME THEOREME.]
+[Curated heading level=4 type=theorems: SIXIEME THEOREME.]
 
 #### SIXIEME THEOREME.
 

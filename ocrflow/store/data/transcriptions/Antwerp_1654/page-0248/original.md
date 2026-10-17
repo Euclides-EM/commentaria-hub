@@ -19,7 +19,7 @@ e Per 20. l.6 & defin. 10. l.5.
 i Per 1.l.6.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXVI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXVI.]
 
 ## PROPOSITIO XXVI.
 

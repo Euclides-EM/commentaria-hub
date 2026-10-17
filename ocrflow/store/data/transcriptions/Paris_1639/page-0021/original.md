@@ -4,7 +4,7 @@
 
 Tout augle plan est faict, ou de deux lignes droites, & est appellé angle Rectiligne, comme A, & d'iceluy traicte seulement icy Euclide : ou de deux lignes courbes, comme B, qui peut estre appellé Curuiligne : ou d'vne ligne droite & d'vne courbe, comme C, qui s'appelle Mixtiligne.
 
-[Curated heading level=2 type=definitions: DEF. X.]
+[Curated heading level=3 type=definitions: X.]
 
 ### X.
 
