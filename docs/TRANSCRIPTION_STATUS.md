@@ -1,9 +1,9 @@
 # OCR Pipeline Queue
 
-> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4 - LineDetect preparing
-> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect preparing
+> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4 - LineDetect running
+> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect running
 > Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg running [LARGE FILE]
-> Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - LineDetect running
+> Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - OCR running
 > Paris_1814 vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy - OCR running
 > Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - LineDetect running
 
