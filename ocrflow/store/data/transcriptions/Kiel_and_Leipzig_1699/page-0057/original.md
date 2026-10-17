@@ -4,11 +4,7 @@
 
 ### 2. Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Von der Seite BA werde abgeschnitten BE | BC n. 3. Vortr.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werde gezogen der Strich EC
 
@@ -24,11 +20,7 @@ Drw. BCA ⲗ BAC n. 1. Gr-S. e.
 
 ### 3. Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Von der Seite CA werde abgeschnitten CF | CB n. 3. Vortr.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werde gezogen der Strich BF.
 

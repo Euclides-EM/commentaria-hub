@@ -27,19 +27,11 @@ Eben so wenig kan auch gh ⊢ rs
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Zu den drey geraden Strichen ab, cd und ef werde der vierte ebenmässige Strich rs gefunden. n. 12. VI.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auf den Strich rs werde ein geradstrichichtes Vieleck rsut gesetzet/ welches
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Vieleck st ähnlich sey dem Vieleck el, n 18. VI. und auch
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Auf gleiche Weise gesetzet sey.
 

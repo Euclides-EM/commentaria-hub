@@ -20,31 +20,17 @@ Dritte Begebenheit.
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auff des Striches Ad Düttel A setze man den ⋀ bAd
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2.        Also daß    bAd ⋏ BAC   nach 23. Vortr.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3.        und         Ab | AB     n. 3. Vortr.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4.    Es werden gezogen cb
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5.        wie auch      db
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6.  Ab werde verlängert gegen f.
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7.  Ac  -  -  -  -  -  gegen e.
 

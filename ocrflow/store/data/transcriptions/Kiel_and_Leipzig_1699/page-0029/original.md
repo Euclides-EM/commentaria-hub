@@ -8,19 +8,19 @@ VI. Diejenigen (zwey) Dinge ab und cd / welche zweyfach grösser sind / als das 
 
 [Diagram: drei Striche a–b, e–f (kürzer), c–d]
 
-[Curated heading level=4 type=numbered_item: (i)]
+[Curated heading level=4 type=axiom_subitems: (i)]
 
 (i) Wenn (zwey) Dinge ab und cd zwiefach so groß sind/als (zwey) andere gleiche Dinge ef und im / sind die beeden ersten ab und cd auch einander gleich.
 
 [Diagram: vier Striche a–b, e–f, i–m, c–d]
 
-[Curated heading level=4 type=numbered_item: (k)]
+[Curated heading level=4 type=axiom_subitems: (k)]
 
 (k) Wenn ein Ding ab zweymal so groß ist / als das eine cd ( zweyer gleichen Dinge cd und ef/ ) so ist ab auch zweymal so groß/ als das andere ef.
 
 [Diagram: drei Striche a–b (lang), c–d, e–f (kürzer, gleich lang)]
 
-[Curated heading level=4 type=numbered_item: (l)]
+[Curated heading level=4 type=axiom_subitems: (l)]
 
 (l) Eben dieses gehet auch bey denen Dingen ef an / welche drey-vier-oder mehr-mal grösser oder kleiner sind.
 
@@ -30,7 +30,7 @@ VI. Diejenigen (zwey) Dinge ab und cd / welche zweyfach grösser sind / als das 
 
 VII. Wenn (zwey) Dinge ab und cd halb so groß sind /als das dritte ef/ so sind sie unter einander gleich.
 
-[Curated heading level=4 type=numbered_item: (m)]
+[Curated heading level=4 type=axiom_subitems: (m)]
 
 (m) Welche ab und cd gleich groß sind/ die sind auch halb so groß / als das dritte ef.
 

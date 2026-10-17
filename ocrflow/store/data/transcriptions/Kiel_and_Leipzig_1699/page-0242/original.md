@@ -4,18 +4,12 @@
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Zweene des Fünffeckes Winckele / als e und f, werden in
 zween gleiche Theile gea ∧ fea
 efa ∧ dfa — getheilet/n. 9. I.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Werden die Winckeltheilende Striche fa und ea so weit
 verlängert/ biß sie einander in a schneiden.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Nach der Weite ae werde der Kreyß bgefd gezogen.
 

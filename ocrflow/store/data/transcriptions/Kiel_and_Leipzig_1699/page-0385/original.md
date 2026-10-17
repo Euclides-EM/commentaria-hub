@@ -6,43 +6,23 @@
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde gemacht ein nebenstrichichtes Viereck de
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auf den Strich DC, welches
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. □ de | ⬠ A. n. 45. I.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Auch werde ein nebenstrichichtes Viereck gf
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Auf den Strich df
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Nach dem Winckel fdg und
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. □ gf | ⬠ B gemacht n. 44. I.
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Werde zu den beyden Strichen cd und dg ein mittelebenmässiger Strich dm oder DM gefunden. n. 13. VI.
 
-[Curated heading level=4 type=numbered_item: 9.]
-
 9. Auf diesen Strich dm oder DM werde ein Fünfeck L, welches
-
-[Curated heading level=4 type=numbered_item: 10.]
 
 10. ⬠ L ähnlich ⬠ A, gemacht. n. 18. VI.
 

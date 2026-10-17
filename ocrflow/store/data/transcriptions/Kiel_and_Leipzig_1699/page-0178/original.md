@@ -31,8 +31,6 @@ Aus einem gegebenen Düttel einen geraden Strich zu ziehen/ welcher den gegebene
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus dem gegebenen Düttel e werde zu des gegebenen Kreyses Mittel-Düpffel b ein gerader Strich eb gezogen.
 
 <!-- Signature: X -->

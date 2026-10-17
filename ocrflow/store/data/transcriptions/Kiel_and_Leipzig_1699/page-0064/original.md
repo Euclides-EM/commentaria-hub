@@ -36,15 +36,9 @@ db ⊣ DB
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auff des Striches ab, Düttel a werde gesetzet der Winckel bac.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. bac ⋀ BAD
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Werde gezogen der gerade Strich ac
 

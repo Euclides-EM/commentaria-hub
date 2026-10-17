@@ -4,19 +4,11 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Die Grösse C werde zweymahl /
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Deßgleichen die Grösse D auch zweymahl genommen.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Die Grösse a aber viermahl /
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Und b auch viermahl genommen.
 
@@ -39,11 +31,7 @@ Oder auch also:
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Es werde a zehen mahl /
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Und auch b zehen mahl genommen.
 

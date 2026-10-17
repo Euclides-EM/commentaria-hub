@@ -39,15 +39,9 @@ Auff einen unendlichen Strich aus einem ausser demselben gegebenen Düttel einen
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus dem Düttel C wird ein Kreyß-stück gezogen/welches den gegebenen Strich in zwey Orthen/ nemlich in D und E durchschneide.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Der Strich DE wird in zween gleiche Theile getheilet in dem Düttel F.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Wird der gerade Strich CF gezogen.
 

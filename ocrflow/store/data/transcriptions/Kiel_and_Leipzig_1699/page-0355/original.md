@@ -28,31 +28,17 @@ AB : AC ⊤ BD : ce.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde ein gerader Strich af gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Von welchem abgeschnitten werden ab ⊤ AB
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Und bd ⊤ BD   n. 3. I.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Aus a wird nach belibigem Winckel der Strich ag gezogen.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Von welchem ac ⊤ AC abgeschnitten wird. n. 3. I.
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Werde der gerade Strich bc,
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Und gegen diesen Strich bc aus d der gerade Nebenstrich de gezogen. n. 31. I.
 

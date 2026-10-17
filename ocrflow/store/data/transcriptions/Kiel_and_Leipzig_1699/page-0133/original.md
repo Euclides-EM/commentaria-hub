@@ -47,11 +47,7 @@ Gerader Strich ab
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auff ab werde ein gleichseitiges □ ab gesetzt/ n. 46. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Die Seite ae werde in zween gleiche Theil getheilet in dem Düttel d, n. 10. I.
 

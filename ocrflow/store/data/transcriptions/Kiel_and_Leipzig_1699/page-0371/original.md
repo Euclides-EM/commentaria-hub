@@ -6,15 +6,9 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Zu des ersten Dreyecks Seite bc und des andern Dreyecks Seite ef werde der dritte ebenmässige Strich BG gefunden n. 11. VI. bc : ef | ef : BG.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Diesem Strich BG werde ein gleichmässiger b g von bc abgeschnitten. n. 3. I.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. werde der Strich ag gezogen.
 

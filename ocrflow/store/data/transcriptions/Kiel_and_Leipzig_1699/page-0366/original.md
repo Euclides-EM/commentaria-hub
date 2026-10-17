@@ -4,19 +4,11 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Man nehme noch darzu d | b n. 2. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. werde gemacht ▭ ac
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Deßgleichen ▭ bd.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Und zwar nach rechten Winckeln.
 

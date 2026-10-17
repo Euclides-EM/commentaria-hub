@@ -19,35 +19,19 @@ lichten Dreyeck vermag der/dem rechten Winckel entgegen gesetzte Strich/ so viel
 
 Es werden gemacht.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auff den Strich fg das □ fpeg
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. - - - xf - □ fxlr
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. - - - xg - □ xgh | n. 46. Vortr.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Aus dem Düttel x der Strich xi = ge = fp n. 31. Vortr.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Aus dem Düttel x der Strich xe
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. - - - - x - - xp
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. - - - - f - - fh
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. - - - - g - - gr
 

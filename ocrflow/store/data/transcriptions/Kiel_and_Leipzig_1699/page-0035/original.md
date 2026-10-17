@@ -34,15 +34,9 @@ Wenn zween ungleiche Striche gegeben werden/ von dem grössern ein Stück abzusc
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus einem der beeden End-Düttele c oder h des längern Strichs ch, wird ein gerader Strich cf gezogen.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Welcher Strich cf | ab, nach 2. Vortr.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Auß dem Düttel c, wird nach der Länge cf ein Kreyß-Stück fg gezogen/welches den Strich ch in dem Düttel g durchschneidet.
 

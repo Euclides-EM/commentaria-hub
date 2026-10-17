@@ -14,7 +14,7 @@ IV. Wenn man (zwey) ungleichen Dingen ab und cd (zwey) gleiche Stücke be und cf
 
 [Diagram: zwei Striche a–b–e und d–c–f]
 
-[Curated heading level=4 type=numbered_item: (g)]
+[Curated heading level=4 type=axiom_subitems: (g)]
 
 (g) Wenn man ( zwey ) ungleiche Dinge ac und ef zu ( zwey ) ungleichen Dingen ab und ed setzet/und zwar das Grosse ac dem Grossen ab/ das Kleiner ef aber dem Kleinern de beyfüget / so werden die beeden Gantzen auch ungleich / und zwar jenes bc Grösser / dieses df aber Kleiner.
 
@@ -26,7 +26,7 @@ V. Wenn man von ( zwey ) ungleichen Dingen bc und df (zwey) gleiche Stücke ab u
 
 [Diagram: zwei Striche a–c–b und d–e–f]
 
-[Curated heading level=4 type=numbered_item: (h)]
+[Curated heading level=4 type=axiom_subitems: (h)]
 
 (h) Wenn man von (zwey) ungleichen Dingen db und ef (zwey) ungleiche Stücke ab und cf abnimt / und zwar das Kleinere ab von dem Grossen bd / das Grössere cf aber von dem Kleinen ef/ so bleiben (zwey) ungleiche Stücke übrig / nemblich jenes da Grösser/ dieses ce Kleiner.
 

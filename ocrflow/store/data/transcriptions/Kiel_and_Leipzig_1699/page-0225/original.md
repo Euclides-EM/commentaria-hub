@@ -2,11 +2,7 @@
 
 <!-- Page number: 208 -->
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Der Senckstrich ab zu dem Strich gf }
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. - - - - ad - - - eg } n. 12. I.
 

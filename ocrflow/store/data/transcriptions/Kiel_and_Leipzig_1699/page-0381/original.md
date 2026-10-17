@@ -17,15 +17,9 @@ ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüs
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werden die beyden Vierecke bey dem Winckel d also zusammen gefüget/ daß ad und dg, wie auch cd und de zween gerade Striche machen.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Die Seiten bc und fg werden fort gezogen/ biß sie in h zusammen kommen.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Werden zween gerade Striche i und k, gefunden/ welche eben solche Verhältnüß haben / als ad : dg.
 

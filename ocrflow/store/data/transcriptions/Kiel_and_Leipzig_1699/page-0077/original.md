@@ -39,23 +39,13 @@ Gegen einen gegebenen geraden Strich/durch den zur Seiten gegebenen Düttel/ ein
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus dem gegebenen Düttel C wird ein gerader Strich CD nach dem Strich AB gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auff den Strich CD und zwar
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Auff den Düttel C setze man den Winckel DCH
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. DCH ⋏ ADC nach 23. Vortr.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Durch H und C ziehe man den Strich CH.
 

@@ -32,11 +32,7 @@ Viereck bcde.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werden die Zwergstriche bd, ec gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Aus dem Düttel a, wo diese Zwergstriche einander durch-
 schneiden/ werde nach der Weite ab ein Kreyß beschrieben.

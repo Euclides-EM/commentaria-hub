@@ -32,11 +32,7 @@ Jedwedes Dreyeckes längste Seite überspannet den grössesten Winckel.
 
 ### 1. Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Von dem Strich AC werde abgeschnitten AD | AB, n. 3. Vortr.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werde der Strich BD gezogen.
 

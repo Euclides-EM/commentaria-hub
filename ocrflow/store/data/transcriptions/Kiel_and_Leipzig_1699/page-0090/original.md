@@ -23,15 +23,9 @@ Wenn der Nebenstrich des Striches AH nicht durch den Gipffel E gehet/ so ziehe m
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde auß C, entgegen AH, der Nebenstrich CD gezogen/ nach 31. Vortrag.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Verlänge man die Seite HE biß D.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Ziehe man den Strich FD.
 

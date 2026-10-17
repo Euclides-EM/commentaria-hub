@@ -35,11 +35,7 @@ und bic ⊻ dke   n. 24. III.
 
 ### II. Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 Es werden gezogen 1. die Stralen ba, ca und df, ef.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Die geraden Striche bc und de.
 

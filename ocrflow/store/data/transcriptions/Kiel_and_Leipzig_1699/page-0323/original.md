@@ -10,11 +10,7 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werden die Zwergstriche mo und gi,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Deßgleichen der Senckstrich rm, gezogen.
 

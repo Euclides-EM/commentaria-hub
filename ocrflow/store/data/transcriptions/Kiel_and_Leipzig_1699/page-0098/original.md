@@ -29,8 +29,6 @@ Ein gleichseitig und gleichwincklicht □ mit unveränderter Oeffnung des Kreyß
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Thue man den Kreyß-zieher so weit auff/als die länge des gegebenen Strichs AB.
 
 <!-- Signature: L -->

@@ -27,8 +27,6 @@ daß | fb : bc | AB : BC.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Gegen den getheilten Strich AG werde ein Nebenstrich hg nach Nothdurfft gezogen. n. 31. I.
 
 <!-- Signature: Tt 3 -->

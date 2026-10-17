@@ -12,31 +12,17 @@ Die Nachsätze oder Anhänge (Corollaria, consectaria, Zugaben) fliessen auß ih
 
 Bey jedwedem Vortrage kommen zum öfftern sieben Theile vor/als:
 
-[Curated heading level=3 type=numbered_item: (1)]
-
 (1.) Der Haupt-Satz (Propositio) an sich selbst/in welchem nicht allein etwas begehret / sondern auch etwas gegeben wird.
-
-[Curated heading level=3 type=numbered_item: (2)]
 
 (2) Die Erklärung des Gegebenen. (Explicatio Dati vel datorum )
 
-[Curated heading level=3 type=numbered_item: (3)]
-
 (3) Die Erklärung des Begehrten. (Explicatio Quæsiti vel quæsitorum.)
-
-[Curated heading level=3 type=numbered_item: (4)]
 
 (4) Die Bewerckstellung deß Auffrisses (Delineatio) oder Wirckung.
 
-[Curated heading level=3 type=numbered_item: (5)]
-
 (5) Bißweilen eine Vorbereitung. (Præparatio.)
 
-[Curated heading level=3 type=numbered_item: (6)]
-
 (6) Der Beweiß (Demonstratio,) und endlich
-
-[Curated heading level=3 type=numbered_item: (7)]
 
 (7) Der Beschluß (Conclusio,) welcher in kurtzer Widerholung des Haupt-Satzes bestehet/ mit diesem Anhange: W. Z. M. das ist / welches zu machen war. ( q. e. f. in Problematibus) oder W. Z. B. das ist/ welches zu beweisen war. (q. e. d. in Theorematibus.)
 

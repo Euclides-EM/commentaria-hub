@@ -4,19 +4,11 @@
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Dem Kreyß werde ein gleichseitigs Dreyeck afg eingeschrieben / n. 2. IV. oder n. 2. Anhang vorhergehenden Vortrags.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Es werde auch solchem Kreyß ein gleichseitig und gleichwincklicht Fünffeck eingeschrieben/ n. 11. IV. doch also/ daß die Spitze desselben auff die Spitze a des Dreyecks falle.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Werden die Striche cf und dg gezogen.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Werden die übrigen Seiten auch nach der Grösse cf oder dg in den Kreyß herumb gesetzet/ und angefüget/ n. 1. IV.
 

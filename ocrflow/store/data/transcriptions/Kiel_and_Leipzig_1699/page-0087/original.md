@@ -20,11 +20,7 @@ ABC ⩓ DEF.
 
 Es werden Nebenstriche gezogen
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auß C gegen AB nemlich CG
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. — E — DF — EH.
 

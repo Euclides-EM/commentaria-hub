@@ -26,11 +26,7 @@ Kreyß bhac, dessen Theil das gegebene Kreyßstück ist.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Man ziehe in dem gegebenen Bogen den geraden Strich ac.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Welcher in zwey gleiche Stücke ea | ec getheilet wird. n. 10. I.
 

@@ -34,15 +34,9 @@ ag | af.
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus dem Mittel-Düpffel a werden gezogen die Stralen ab und ae.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Beede Striche werden in zween gleiche Theile geschnitten n. 10. I.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Es werden auch die beeden Senckstriche ag, af gezogen. n. 12. I.
 

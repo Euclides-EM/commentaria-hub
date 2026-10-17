@@ -32,13 +32,9 @@ Kreyß bcdae.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde ein gleichschencklicht Dreyeck ABC gemachet/ dessen
 Gipffelwinckel A halb so groß sey/ als einer von den Grundwin-
 ckeln B oder C, n. 10. IV.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Dem gegebenen Kreyß werde ein Dreyeck abc gleichwinck-
 licht dem Dreyeck ABC eingeschrieben/ n. 2. IV.

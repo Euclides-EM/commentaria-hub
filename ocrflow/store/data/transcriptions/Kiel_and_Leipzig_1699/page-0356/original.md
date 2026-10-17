@@ -41,8 +41,6 @@ Zu zweyen gegebenen geraden Strichen einen mitlern ebenmässigen (mediam proport
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde gezogen der Strich ae.
 
 <!-- Signature: Uu 2 -->

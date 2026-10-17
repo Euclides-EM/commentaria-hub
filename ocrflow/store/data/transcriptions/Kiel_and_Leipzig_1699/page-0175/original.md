@@ -2,15 +2,9 @@
 
 <!-- Page number: 158 -->
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Wie auch alle Senckstriche ad, ao, ak, ai.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Aus dem Mittel-Düpffel a.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Auff die im Kreyß stehende Striche bc, en, ef, hg gezogen.
 

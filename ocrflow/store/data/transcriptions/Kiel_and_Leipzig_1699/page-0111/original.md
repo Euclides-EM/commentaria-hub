@@ -16,31 +16,17 @@ Viereck/ so dem gantzen Strich und von einem solchen Stück begriffen wird/ eben
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Man nehme noch einen Strich DB, welcher gleich sey dem Stück CB.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. mache man ab | AB
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. - - - cb | CB
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. - - - ac | AC — n. 2. I.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. - - □ cb — n. 46. I.
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. - - □ acb
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. - - □ abc
 

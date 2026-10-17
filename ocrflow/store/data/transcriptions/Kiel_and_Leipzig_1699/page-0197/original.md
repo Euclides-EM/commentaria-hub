@@ -25,11 +25,7 @@ cdb ⋀ ∟
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde der Strich bd verlängt biß e.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Der Strahl ad gezogen.
 

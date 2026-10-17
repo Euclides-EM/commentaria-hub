@@ -4,23 +4,13 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Der Grundstrich bc werde nach Nothdurfft gegen g verlängert.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Von cg werde abgeschnitten das Stück ce | CE — n. 3. I.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Es werde gemacht △ ced | △ CED — n. 22. I.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Der Strich ba werde biß f, und
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Der Strich ed auch biß f verlängert.
 

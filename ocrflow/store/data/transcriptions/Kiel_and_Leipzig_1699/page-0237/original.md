@@ -2,17 +2,11 @@
 
 <!-- Page number: 220 -->
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Der Winckel bca werde in zween gleiche Theile getheilet
 durch den Strich ce. n. 9. I.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Der Winckel cba werde gleicher Weise in zween gleiche
 Theile getheilet/ durch den Strich db. n. 9. I.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Werden die geraden Striche be. ea. ad. dc. gezogen.
 

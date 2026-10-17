@@ -10,11 +10,7 @@ Wenn die beeden Kreyse einander auswendig in k und m anrühren.
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ziehe man von dem einen Mittel-Düpffel i einen geraden Strich il zum andern Mittel-Düpffel l.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Aus denen Mittel-Düpffeln i und l werden zum Anrührungs-Düttel k zweene gerade Striche ik und lk gezogen.
 

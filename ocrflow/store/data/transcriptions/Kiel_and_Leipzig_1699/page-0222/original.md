@@ -26,23 +26,13 @@ Umb einen gegebenen Kreyß ein DreyEck/welches dem gegebenen DreyEck gleichwinck
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Des gegebenen △ ikm Grundstrich ik werde auff beeden Seiten nohtdürfftig verlänget gegen h und l.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werde in dem O der Strahl cb gezogen.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. An dem Mittel-Düpffel b auff den Strahl eb werde der Winckel cbe ∧ mil.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Und auff die andere Seite der Winckel cbd ∧ mkh gesetzt. n 23. I.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. An die Düttele c, d, e werden Rührstriche ca, cg, eg, ef, df, da, gezogen. n. 17. III.
 

@@ -2,19 +2,11 @@
 
 ## Zu denen 17. Zeichen sind noch diese zusetzen:
 
-[Curated heading level=3 type=numbered_item: 18.]
-
 18. ⬠ Fünfeck/ Quinquangulum, Pentagonum.
-
-[Curated heading level=3 type=numbered_item: 19.]
 
 19. ◇ Kreißschnitt/ Sector.
 
-[Curated heading level=3 type=numbered_item: 20.]
-
 20. ⊐ Zwiefach grössere Verhältnüß/ Duplicata ratio.
-
-[Curated heading level=3 type=numbered_item: 21.]
 
 21. ⋣ Dreyfach grössere Verhältnüß/ Triplicata ratio.
 

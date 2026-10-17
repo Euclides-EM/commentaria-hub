@@ -8,27 +8,15 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus dem Düttel b werde gegen aq ein gerader Nebenstrich be gezogen. n. 31. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Biß zu diesem Strich be werde fortgezogen der Strich qic.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Aus p werde auch ein Nebenstrich pd gegen aq gezogen. n. 31. I.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Biß zu diesem Strich pd werde aus b durch i der Strich bd gezogen.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Aus d werde gegen qc ein Nebenstrich biß an den Strich be, nemlich de gezogen. n. 31. I.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Endlich werde der Strich gi biß zu dem Strich de verlängert.
 

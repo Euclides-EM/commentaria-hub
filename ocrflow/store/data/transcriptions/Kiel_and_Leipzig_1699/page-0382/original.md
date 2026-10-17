@@ -2,8 +2,6 @@
 
 <!-- Page number: 365 -->
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Werde noch ein Strich l gefunden/ zu welchem sich k also / wie cd zu de verhalte.
 
 cd : de | k : l n. 12. VI.

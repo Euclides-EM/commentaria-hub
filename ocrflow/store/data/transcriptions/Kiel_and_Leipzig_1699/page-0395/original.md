@@ -6,35 +6,19 @@
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Der gegebene Strich AB werde in zween gleiche Theile in C geschnitten. n. 10. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auf die Helffte AC werde ein dem Viereck L ähnliches nebenstrichichtes Viereck Ad gesetzet. n. 18. VI.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Die Gestalt K werde in ein nebenstrichichtes Viereck hi, welches dem Viereck L gleichwincklicht/ und
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Dessen Seite dem Strich Ac gleichmässig. n. 44. I.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Dem □ Ad werde das □ dg | □ hi beygefüget.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Die Vierecke Ad + dg werden in ein dem Viereck L ähnliches nebenstrichichtes Viereck qb verwandelt. n. 25. VI.
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. Dieses Viereck qb werde an den halben Strich CB also gesetzet/ daß es nicht höher komme/ als der Strich db, so wird ein Ende q unter C fallen. n. 28. VI.
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Durch q werde der Nebenstrich mp gegen AB gezogen. n. 31. I.
 

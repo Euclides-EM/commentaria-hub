@@ -8,19 +8,11 @@
 
 Aus dem Mittel-Düpffel e werden gezogen
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Zu des Striches ac Endung c der Strich ec.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Zum Ende des Striches bd der Strich ed.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Zum Düttel l, wo die beeden Striche einander durchschneiden / der Strich el.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Auff den andern Strich bd, der Senckstrich en n 12. I.
 

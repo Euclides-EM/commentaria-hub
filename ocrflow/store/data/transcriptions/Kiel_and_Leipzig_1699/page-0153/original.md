@@ -34,11 +34,7 @@ Solche zween Kreyse haben zween unterschiedliche Mittel-Düpffel.
 
 Wenn man sagen wolte/ sie hätten nur einen einigen Mittel-Düpffel/ nemlich a, so ziehe man
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auß a zu dem Düttel b, wo sie einander durchschneiden / einen geraden Strich ab.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Ziehe man auch den Strich ad.
 

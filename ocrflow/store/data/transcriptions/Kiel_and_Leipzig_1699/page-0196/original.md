@@ -19,11 +19,7 @@ ad ⊻ db.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Der Strich ab werde in zween gleiche Theile getheilet. n. 10. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auff das Mittel c werde ein Senckstrich cd gesetzet. n. 11. I.
 

@@ -2,31 +2,31 @@
 
 <!-- Page number: 10 -->
 
-[Curated heading level=4 type=numbered_item: (b)]
+[Curated heading level=4 type=axiom_subitems: (b)]
 
 (b) Welch Ding a kleiner ist/ als eins b von zwey gleichen Dingen/ das ist auch kleiner / als das andere c.
 
 [Diagram: drei Striche, a kürzer, b und c länger und gleich lang]
 
-[Curated heading level=4 type=numbered_item: (c)]
+[Curated heading level=4 type=axiom_subitems: (c)]
 
 (c) Wenn eins oder das erste b von (zwey) gleichen Dingen b und c grösser ist/als das dritte a / so ist auch das andere c grösser/ als das dritte a.
 
 [Diagram: drei Striche, b und c gleich lang, a kürzer]
 
-[Curated heading level=4 type=numbered_item: (d)]
+[Curated heading level=4 type=axiom_subitems: (d)]
 
 (d) Wenn das eine b von (zwey) gleichen Dingen b und c kleiner ist/ als das dritte a / so ist auch das andere c kleiner / als das dritte a.
 
 [Diagram: drei Striche, b und c gleich lang, a länger]
 
-[Curated heading level=4 type=numbered_item: (e)]
+[Curated heading level=4 type=axiom_subitems: (e)]
 
 (e) Was a grösser ist / als das Grössere b/ das ist auch grösser / als das Kleinere c.
 
 [Diagram: drei Striche, a am längsten, b kürzer, c am kürzesten]
 
-[Curated heading level=4 type=numbered_item: (f)]
+[Curated heading level=4 type=axiom_subitems: (f)]
 
 (f) Was a/ kleiner ist / als das kleinere b / das ist auch kleiner / als das Grössere c.
 

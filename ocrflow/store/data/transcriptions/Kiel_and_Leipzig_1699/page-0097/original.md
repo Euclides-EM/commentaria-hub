@@ -43,27 +43,15 @@ Gerader Strich AB
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. AB werde verlänget gegen E.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auff B werde ein Senckstrich BC gesetzet. n. 11. Vortrag.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Dieser Senckstrich BC | AB n. 2. Vortr.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Aus C gegen über AB = CD n. 31. Vortr.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. CD | CB n. 2. Vortr.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Aus A werde gezogen AD
 

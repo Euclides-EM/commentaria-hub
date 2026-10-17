@@ -4,23 +4,13 @@
 
 edc ⋏ abh
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. und dec ⋏ ahb
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Auf den Strich ah aber gce ⋏ hak
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. und gec ⋏ ahk
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Endlich auf den Strich eg, gef ⋏ khi
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. und egf ⋏ hki n. 23. I.
 

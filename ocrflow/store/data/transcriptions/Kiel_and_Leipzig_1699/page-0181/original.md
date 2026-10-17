@@ -30,11 +30,7 @@ Jn dem gezogenen Senckstrich cd ist des Kreyses cg Mitteldüpffel d.
 
 Wenn der Mitteldüpffel nicht in dem Senckstrich cd, so
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. nehme man den Mitteldüpffel e.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. von diesem Mitteldüpffel e werde zu dem Rührdüpffel ein gerader Strich ec gezogen.
 

@@ -28,11 +28,7 @@ Durch drey gegebene Düttele / welche aber nicht in einem geraden Striche stehen
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Von h zu c werde ein gerader Strich hc gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Dieser Strich werde in zween gleiche Theile hf | fc getheilet/n. 10. I.
 

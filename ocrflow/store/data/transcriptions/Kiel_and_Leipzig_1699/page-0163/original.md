@@ -2,11 +2,7 @@
 
 <!-- Page number: 146 -->
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Werden gezogen die geraden Striche fc und cd.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Durch die Mittel dieser beyden Striche werden gerade Senckstriche gezogen / bg und ek.
 

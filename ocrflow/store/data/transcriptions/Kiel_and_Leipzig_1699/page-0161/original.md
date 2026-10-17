@@ -15,16 +15,10 @@ a Der Mittel-Düpffel dieses Kreyses. bcf
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ziehe man die geraden Striche cb und cd.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Theile man dieser Striche jedweden in zween gleiche Theil/
 n. 10. I.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Durch beyder Striche Mittel/ nemlich m und n, werden gerade Senckstriche kh und ef gezogen / n. 11. I.
 

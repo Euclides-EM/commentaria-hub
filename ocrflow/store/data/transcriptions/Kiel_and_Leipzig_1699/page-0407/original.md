@@ -25,23 +25,13 @@
 
 ### II. Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werden in dem Kreyß abm zweene dem ⌒ bc gleichmässige Bogen ci und cm,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Deßgleichen dem Bogen fg zweene gleichmässige ⌒ gk und ⌒ kl abgeschnitten/ n. 1. IV.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Werde der Bogen fg in zweene gleiche Theile fn | ng.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Wie auch ⌒ gk in zween gleiche Theile go | ok getheilet.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Werden die Striche fm, mg, gn, nk gezogen.
 

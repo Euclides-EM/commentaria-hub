@@ -33,19 +33,11 @@ Wenn ein gerader Strich in zween gleiche Theile getheilet/ und gerade aus ein St
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde das □ dac gemacht.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. - - - - □ ab - -
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. - - - - □ bc - -
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. - - Der Strich ee verlängert biß f.
 

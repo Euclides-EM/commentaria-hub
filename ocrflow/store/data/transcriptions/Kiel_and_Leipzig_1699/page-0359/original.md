@@ -2,23 +2,13 @@
 
 <!-- Running title: Das VI. Buch -->
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. werde DH ⊤ eh
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. und DF ⊤ ef   n. 3. I.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Gegen EF werde gezogen der Nebenstrich Hd
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. u. EH Fd   n. 31. I.
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Die Nebenstriche AB und dH werden fortgezogen/biß sie in dem Düttel I zusammen kommen.
 

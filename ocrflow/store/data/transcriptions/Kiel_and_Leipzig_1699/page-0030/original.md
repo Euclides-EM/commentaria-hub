@@ -2,19 +2,19 @@
 
 <!-- Page number: 13 -->
 
-[Curated heading level=4 type=numbered_item: (n)]
+[Curated heading level=4 type=axiom_subitems: (n)]
 
 (n) Wenn (zwey) Dinge ab und cd halb so groß sind / als (zwey) andere gleiche Dinge ef und mn / so sind dieselben auch ein ander gleich.
 
 [Diagram: vier Striche a–b (kurz), e–f, m–n (länger, gleich), c–d (kurz)]
 
-[Curated heading level=4 type=numbered_item: (o)]
+[Curated heading level=4 type=axiom_subitems: (o)]
 
 (o) Wenn von (zwey) gleich grossen Dingen ab und cd, eines ab halb so groß ist/als eins ef von ( zwey ) andern gleichen Dingen ef und mn, so sind dieselben ( beyden ) Dinge ab und cd auch halb so groß / als die andern (beyden) Dinge ef und mn.
 
 [Diagram: vier Striche a–b, c–d (kürzer, gleich), e–f, m–n (länger, gleich)]
 
-[Curated heading level=4 type=numbered_item: (p)]
+[Curated heading level=4 type=axiom_subitems: (p)]
 
 (p) Gleiche bewandniß hat es / wenn etliche Dinge ab, cd nur dritte Theile / oder vierte ab, cd Theile / oder noch kleinere Theile sind.
 

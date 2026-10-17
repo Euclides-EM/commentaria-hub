@@ -32,15 +32,9 @@ acb | ⌐
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auff die Seite ac, und zwar den Düttel c, werde ein Senckstrich cd gesetzet. n. 11. Vortr.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Senckstrich cd | cb n. 2. Vortr.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Werde der Strich ad gezogen.
 

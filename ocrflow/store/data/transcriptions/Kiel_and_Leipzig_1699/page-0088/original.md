@@ -33,15 +33,9 @@ Entweder ist CD = AB, oder nicht. Ist nun CD kein Nebenstrich/ des Striches AB, 
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde entgegen AB durch C der Nebenstrich CE gezogen.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Verlänge man die Seite AD biß zum Nebenstrich in E.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Ziehe man den Strich BE.
 

@@ -13,15 +13,9 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde aus dem Düttel a ein Rührstrich ak zum Kreyß gezogen. n. 17. III.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Werden die Strahlen cd und ck, wie auch
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Aus dem Düttel a zu dem Mittel-Düpffel c der Strich ac gezogen.
 

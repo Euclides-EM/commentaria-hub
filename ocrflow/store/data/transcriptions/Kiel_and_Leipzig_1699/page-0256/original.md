@@ -6,11 +6,7 @@ Oder auch also:
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Die grösse a werde vier mahl/
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. wie auch b vier mahl genommen:
 
@@ -28,15 +24,9 @@ Oder auch also:
 | Dw. | 4b | B | | |
 | λ und | 4a + 4b | A + B | n. 4. Gr. g. I. | |
 
-[Curated heading level=4 type=numbered_item: (1)]
-
 Weil nun (1) 3a + 3b | A + B, n. Bew. η
 
-[Curated heading level=4 type=numbered_item: (2)]
-
 (2) 2a + 2b ⊢ A + B, n. Bew. κ
-
-[Curated heading level=4 type=numbered_item: (3)]
 
 und (3) 4a + 4b ⊣ A + B, n. Bew. λ
 

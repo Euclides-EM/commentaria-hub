@@ -20,11 +20,7 @@ a : b | A : B.
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Es werde A in vier gleiche Theile getheilet/ daß c | a, d | a, e | a und f | a, n. 3. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auch werde B also getheilet/ daß g | b, h | b, i | b, und k | b, werde. n. 3. I.
 

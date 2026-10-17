@@ -37,11 +37,7 @@ Diese Kreyse haben verschiedene Mittel-Düpffele.
 
 Wolte man sagen / sie hätten nur einen eintzigen Mittel-Düpffel/ nemlich a, so ziehe man aus a
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Zu dem anrührungs-Düpffel b den Strich ab.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auch den Strich af.
 

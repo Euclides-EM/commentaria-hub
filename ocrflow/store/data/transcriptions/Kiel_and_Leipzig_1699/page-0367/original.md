@@ -32,10 +32,6 @@ Auf einen gegebenen geraden Strich eine der gegebenen geradstrichichten Gestalt 
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus h zu denen gegen überstehenden Winckeln a und k werden gerade Striche ha, hk gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. werden auf den Strich cd Winckel gesetzet

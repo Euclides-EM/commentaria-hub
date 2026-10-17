@@ -38,8 +38,6 @@ Nicht in mehr/als in 2. Dütteln geschnitten.
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Zu drey Dütteln/ wo die Kreyse einander durchschneiden/ nemlich zu f, o, d werden aus dem Mittel-Düpffel gerade Striche af, ac, ad gezogen.
 
 <!-- Signature: T -->

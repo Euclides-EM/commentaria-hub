@@ -6,19 +6,11 @@
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde an den gegebenen Kreyß bac der Rührstrich de gezogen. n. 17. III.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. An den Rührdüpffel a dieses Striches de werde der Winckel dac ∧ hfg n. 23. I.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Und auff die andere Seite gegen e dieses Düttels a, der Winckel eab ∧ fgh gesetzet. n. 23. I.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Werde der Strich bc gezogen.
 

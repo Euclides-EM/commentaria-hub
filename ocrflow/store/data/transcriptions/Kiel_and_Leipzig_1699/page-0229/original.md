@@ -36,15 +36,9 @@ Kreyß adfh
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Durch den Mittel-Düpffel o werde der Durchschlag dh,
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Und durch diesen Durchschlag/und zwar durch den Mittel-Düpffel o werde ein Senckstrich af gezogen/ n. 11. I.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Auff dieses Durchschlages Endungen a, d, f, h. werden zu beeden Seiten Senckstriche de, db; ab, ac; hc, hg; fg, fe gesetzet/ n. 11. I.
 

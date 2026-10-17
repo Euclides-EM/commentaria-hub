@@ -45,11 +45,7 @@ Viereck bcde.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werden die Zwergstriche bd, ec gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Alle Seiten des Vierecks bc, cd, de, eb werden in zwey gleiche Theile bf | fc : ci | id und so weiter/ getheilet/n. 10. I.
 

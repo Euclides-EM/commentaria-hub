@@ -33,11 +33,7 @@ ABC + BAC + ACB ⋏ ⏥
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Gegen die Seite AC werde ein Neben-Strich/ und zwar
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Aus dem Düttel B gezogen / nemlich BE n. 31. Vortr.
 

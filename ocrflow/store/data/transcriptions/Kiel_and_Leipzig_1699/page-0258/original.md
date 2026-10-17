@@ -33,11 +33,7 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Es werde die Grösse a sechsmahl/ und
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Die Grösse b auch sechsmahl genommen.
 

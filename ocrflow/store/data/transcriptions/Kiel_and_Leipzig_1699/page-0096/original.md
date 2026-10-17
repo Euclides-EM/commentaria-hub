@@ -24,19 +24,11 @@ Einer geradstrichichen Gestalt / nach dem gegebenen Winckel / ein gleichgrosses 
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde durch einen ( oder so es nöthig mehr ) zwergstriche die gegebene Gestalt in Dreyecke getheilet.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Dem einen △ A werde ein gleichhaltendes Viereck nach dem gegebenen ∠ D gemacht/nach 44. Vortr.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Dem andern △ B werde auch ein gleiches □ nach dem ∠ D und nach der einen Seite des □ a. gemacht/nach 44. Vortr.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Diese beyden □ □ a und b werden zusammen gesetzet bey ihren gleich langen Seiten/ damit ein □ gomn daraus werde.
 

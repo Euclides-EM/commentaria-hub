@@ -24,11 +24,7 @@ cad [unclear: ⋀] ∟
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Durch den Mittel-Düpffel werde der Durchschlag cb,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Der Strich bd gezogen.
 
