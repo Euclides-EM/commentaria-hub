@@ -5,7 +5,7 @@
 
 *tre produits doivent être en proportion. Si on ſuppoſe* a = c & b = d, *on tombe dans le cas particulier qu'on a traité dans le §. précédent. (Voyez App. Prop. 3).*
 
-[Curated heading level=4 type=numbered_item: §. 11.]
+[Curated heading level=4: §. 11.]
 
 *§. 11. On déduit des mêmes principes la liaiſon qui règne entre les vérités contenues dans les V & VIII Définitions; à ſçavoir,*
 
@@ -15,7 +15,7 @@ Que deux raiſons R : P & r : p ſont ſemblables, ſi les équimultiples de leu
 
 *Ce ſont là à peu près les principes généraux, qui peuvent ſervir à réduire aux notions communes les vérités contenues dans ces Définitions. Il ne nous eſt pas permis d'approfondir davantage cette matière en ce lieu; il faudroit compoſer un Traité en forme ſur la ſimilitude, ce qui nous écarteroit trop de la route qu'Euclide a ſuivie.*
 
-[Curated heading level=4 type=numbered_item: §. 12.]
+[Curated heading level=4: §. 12.]
 
 *§. 12. Remarquez encore que ce qui eſt vrai de la correſpondance des multiples, eſt vrai par rapport à celle des ſousmultiples, des Puiſſances ſemblables, des Radicaux ſemblables &c. Mais il paroît aſſez qu'Euclide n'a pas voulu embraſſer cette généralité, pour ne pas s'éloigner de la clarté des notions communes: & en particulier on peut croire qu'il a préféré l'uſage des multiples à celui des ſousmultiples, parcequ'il n'auroit pû preſcrire de prendre des ſousmultiples, ſans montret{printer-error-correction:montrer} auparavant comment on doit partager une grandeur en parties égales; au-lieu que la formation des multiples n'avoit pas beſoin d'un pareil principe. Ce Géomètre étoit en droit de demander qu'on pût doubler, tripler &c. ou prendre tel multiple qu'on voudroit d'une grandeur, au-lieu qu'il devoit aprendre par la reſolution d'un problême, comment on peut retrancher une partie aliquote quelconque d'une ligne donnée: & la réſolution de ce problême ſuppoſant la doctrine de la ſimilitude, elle ne pouvoit être donnée que dans la IX Prop. du VI Livre.*
 

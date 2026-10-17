@@ -5,34 +5,20 @@
 
 Enſuite AC étant = à CE (*Prep.* 2).
 
-[Curated heading level=4 type=numbered_item: 10.]
-
 10. Le □ de AC eſt = au □ de CE.
 
-[Curated heading level=4 type=numbered_item: 11.]
-
 11. Partant, les □ de AC & de CE pris enſemble ſont doubles du □ de AC, Et ces □ de AC & CE étant = au □ de AE. (*Prop.* 47. *L.* 1).
-
-[Curated heading level=4 type=numbered_item: 12.]
 
 12. Le □ de AE ſera auſſi double du □ de AC.
 De la même maniere on prouvera, que
 
-[Curated heading level=4 type=numbered_item: 13.]
-
 13. Le □ de EF eſt double du □ de EG, c.à.d. du □ de CD; puiſque EG = CD.
-
-[Curated heading level=4 type=numbered_item: 14.]
 
 14. Par conſéquent, le □ de AE avec le □ de EF ſont doubles du □ de AC & du □ de CD.
 Mais le □ de AE & le □ de EF étant = au □ de AF (*Prop.* 47. *L.* 1).
 
-[Curated heading level=4 type=numbered_item: 15.]
-
 15. Le □ de AF eſt double du □ de AC & du □ de CD.
 Et ce même □ de AF étant outre cela = au □ de AD & au □ de DF (*Prop.* 47. *L.* 1), ou de BD, attendu que DF = BD (*Arg.* 7).
-
-[Curated heading level=4 type=numbered_item: 16.]
 
 16. Il s'enſuit donc, que le □ de AD + le □ de BD ſont doubles du □ de AC + du □ de CD.
 

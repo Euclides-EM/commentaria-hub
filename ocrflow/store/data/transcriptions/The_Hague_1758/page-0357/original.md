@@ -27,29 +27,21 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque le ⊟ A eſt ∽ ⊟ B. (*Hyp.* 2.).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le ⊟ ſur A : ⊟ ſur B = A³ : B³ *.
 
 [Margin]
 Prop.33.L.11.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. De même le ⊟ ſur C : ⊟ ſur D = C³ : D³.
 
 Mais la raiſon de A à B étant égale à la raiſon de C à D. (*Hyp.* 1.).
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Il s'enſuit que trois fois la raiſon de A à B eſt égale à trois fois la raiſon de C à D. *c. a. d.* que A³ : B³ = C³ : D³.
 
 [Margin]
 Ax. 6. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant le ⊟ ſur A : ⊟ ſur B = ⊟ ſur C : ⊟ ſur D.
 

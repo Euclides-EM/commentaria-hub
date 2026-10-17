@@ -24,23 +24,17 @@ II. *Le Rectiligne* V, *qui n'eſt pas* 〉 *qu'un Pgr* ED, *ſemblable à* T, *
 ### *Réſolution.*
 [/Subhead]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Coupez AB en deux également en E.
 
 [Margin]
 Prop. 10. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Conſtruiſez ſur EB un Pgr ED, ſemblable au Pgr T & ſemblablement poſé.
 
 [Margin]
 Prop. 18. L. 6.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Achevez le Pgr AD.
 
@@ -62,8 +56,6 @@ CAS II. Si AF eſt 〉V, & par-là ED 〉V, parceque AF ⚌ ED.
 Prop. 36. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Conſtruiſez un Pgr X, ſemblable au Pgr T, (ou au Pgr ED) (*Reſ.* 2), & ſemblablement poſé, & égal à l'excès dont ED, ou ſon égal AF, ſurpaſſe V (c. à. d. faites X ⚌ ED — V), & que RS, FD item RP, FE en ſoyent les côtés homologues.
 
 [Margin]
@@ -74,15 +66,11 @@ Et d'autant que X eſt ſemblable à ED & 〈 ED; (parceque ED ⚌ V+X),
 
 Les côtés RS, RP ſont 〈 que leur côtés homologues FD, FE.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Faites donc FN ⚌ à RS, & FK ⚌ à RP.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Et achevez le Pgr NK.
 

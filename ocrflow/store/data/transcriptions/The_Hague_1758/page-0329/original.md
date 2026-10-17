@@ -27,8 +27,6 @@ Lorſque les trois angles CAB, d, & c + b ſont égaux.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ∀ CAB, d & c + b ſont égaux.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Il s'enſuit que ∀ CAB + d ſeront > ∀ c + b.
 
 [Margin]
@@ -42,8 +40,6 @@ C. Q. F. D.
 Lorſque des trois angles CAB, d & c + b, deux comme CAB & d ſont égaux, & que le troiſiéme c + b eſt plus petit que chacun d'eux.
 
 {dropcap:P|lines=2|style=plain}Uiſque ∀ CAB eſt > que ∀ c + b.
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. ∀ CAB + ∀ d ſeront beaucoup > ∀ c + b
 

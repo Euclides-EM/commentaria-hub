@@ -28,17 +28,11 @@ II. *La pyramide ABCD eſt = à la pyramide EFGH.*
 
 {dropcap:P|lines=2|style=plain}Uiſque les priſmes PNB & LIF, ont la même baze & la même hauteur que les pyramides données ABCD & EFGH. (*Prép.*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Chaque priſme ſera le triple de ſa pyramide (c. a. d. le priſme PNB le triple de la pyramide ABCD, & le priſme LIF le triple de la pyramide EFGH).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant le priſme PNB eſt = au priſme LIF.
 
 Or le ▱ BO eſt le double du priſme PNB, & le ▱ FK le double priſme LIF.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Donc le ▱ BO eſt = au ▱ FK.
 

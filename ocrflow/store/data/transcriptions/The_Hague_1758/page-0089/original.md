@@ -21,23 +21,17 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:S|lines=2|style=plain}Ur la droite AB conſtruiſez le □ AE.
 
 [Margin]
 Prop 46. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Prolongez le côté DE indéfiniment vers F.
 
 [Margin]
 Dem. 2.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Par le point C tirez la droite CF Plle à AD ou BE, & prolongez la, juſqu'à ce qu'elle rencontre DF au point F.
 
@@ -48,19 +42,13 @@ Dem. 2.
 
 ### Demonstration.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}E Rgle AF eſt = aux Rgles AE & BF pris enſemble.
 
 [Margin]
 Ax. 1. L. 2.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Mais le Rgle AF eſt compris des droites CA, AB; parce qu'il eſt compris de CA & AD, dont AD = AB (*Prep.* 1).
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Et le Rgle BF eſt compris de AB, BC; à cauſe qu'il eſt compris de EB, BC, dont EB = AB (*Prep.* 1).
 
@@ -69,8 +57,6 @@ Ax. 2. L. 2.
 [/Margin]
 
 De plus, le Rgle AE étant le □ de la droite AB (*Prep.* 1).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Le Rgle de CA. AB eſt = au Rgle de AB. BC avec le □ de AB; ou bien le Rgle CAB eſt = au Rgle ABC + le □ de AB.
 

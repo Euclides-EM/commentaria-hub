@@ -31,17 +31,11 @@ Pyramide ABCD : pyramide EFGH 〉 baze ABC : baze EFG.
 ### Préparation.
 [/Subhead]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:P|lines=1|style=plain}Renez un ſolide X qui ſoit 〈 que la pyramide ABCD, de façon que X : pyramide EFGH = baze ABC : baze EFG.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Diviſez les pyramides ABCD & EFGH, ſelon la Prop. 3. L. 12.
 
 {dropcap:P|lines=2|style=plain}Uiſque les deux priſmes provenus de la premiere diviſion ſont 〉 que la moitié de la pyramide ABCD; & que les quatres ſuivants provenus de la ſeconde diviſion ſont encore 〉 que les moitiés des pyramides de la première diviſion, & qu’on peut le continuer ainſi de ſuite (*par la Prop. 3. L. 11.*).
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. Il eſt évident que la ſomme de tous les priſmes contenus dans la pyramide ABCD ſera plus grand que le ſolide X qui a été pris moindre que la pyramide ABCD.
 

@@ -28,15 +28,11 @@ Les côtés AB, DE ſont inégaux: & l'un, comme DE, ſera ＞ l'autre AB.
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Retranchez donc du plus grand côté DE une partie DG ＝ à AB.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point G au point F tirez la droite GF.
 
@@ -46,8 +42,6 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uis donc que dans les △ ACB, DFG le côté AC eſt ＝ au côté DF (*Hyp.* 3), AB ＝ DG (*Prep.* 1) & que ∀ compris A eſt ＝ à ∀ compris D (*Hyp.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les autres ∀ B & DGF, oppoſés aux côtés égaux AC, DF, ſont ＝ entr'eux.
 
 [Margin]
@@ -55,8 +49,6 @@ Prop. 4. L. 1.
 [/Margin]
 
 L'angle B étant donc ＝ ∀ DGF (*Arg.* 1) & ce même ∀ B étant auſſi égal à ∀ E (*Hyp.* 2).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Il s'enſuit, que ∀ E eſt ＝ à ∀ DGF.
 
@@ -66,11 +58,7 @@ Ax. 1.
 
 Mais l'angle DGF eſt un ∀ extérieur du △ GFE & ∀ E eſt ſon intérieur oppoſé.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc ∀ extérieur ſeroit égal à ſon intérieur oppoſé.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Ce qui eſt impoſſible.
 
@@ -78,11 +66,7 @@ Mais l'angle DGF eſt un ∀ extérieur du △ GFE & ∀ E eſt ſon intérieur 
 Prop. 16. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Partant, les côtés AB, DE ne ſont point inégaux.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Ils ſont donc égaux, ou AB ＝ DE.
 
@@ -93,8 +77,6 @@ N. C.
 C. Q. F. D. I.
 
 Puis donc que dans les △ ACB, DFE le côté AC eſt ＝ au côté DF (*Hyp.* 3), AB ＝ DE (*Arg.* 6) & que ∀ compris A eſt ＝ à ∀ compris D (*Hyp.* 1).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Il eſt évident, que le troiſieme côté BC eſt ＝ au troiſieme côté EF & que les ∀ C & F, oppoſés aux côtés égaux AB, DE, ſont ＝ entr'eux.
 

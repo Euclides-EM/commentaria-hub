@@ -21,15 +21,11 @@
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:C|lines=2|style=plain}Oupez les ∀ BAF, AFE en deux également par les droites prolongées CA, CF.
 
 [Margin]
 Prop. 9. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point C, où ces droites ſe coupent, comme centre, & du rayon CA décrivez le ⊙ ADF.
 
@@ -47,23 +43,17 @@ Dem. 1.
 
 ### Demonstration.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}Es droites CB, CD, CE coupent donc en deux également les ∀ ABD, BDE, DEF,
 
 [Margin]
 Prop. 13. L. 4. Coroll.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Et à cauſe que ∀ BAF eſt = à ∀ AFE, l'angle CAF ſera auſſi = à ∀ CFA.
 
 [Margin]
 Ax. 7. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. C'eſt pourquoi CA eſt = à CF.
 
@@ -73,19 +63,13 @@ Prop. 6. L. 1.
 
 On démontrera de même, que
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Chacune des droites CB, CD, CE eſt = à CA ou à CF.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. D'où il ſuit que le ⊙ décrit du centre C & du rayon CA paſſera auſſi par les points B, D, E, F,
 
 [Margin]
 Def. 15. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Par conſéquent le ⊙ ADF eſt circonſcrit au pentagone donné ABDEF.
 

@@ -38,11 +38,7 @@ CAS. I. Si on ſuppoſe le point D ſur un des côtés, comme ſur le côté AC.
 
 {dropcap:P|lines=2|style=plain}Uis donc qu'on ſuppoſe, que le point D eſt un point dans AC différent du point C.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La ligne AD eſt ou > ou < la ligne AC.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant il eſt impoſſible que AD ſoit = AC.
 
@@ -56,15 +52,11 @@ CAS. II. Si on ſuppoſe le point D au dedans du △ ACB. *Fig. 2.*
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Du point D au point C tirez la droite DC.
 
 [Margin]
 Dem. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Prolongez à diſcrétion BD en E & BC en F.
 

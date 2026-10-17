@@ -13,11 +13,11 @@
 
 {dropcap:O|lines=2|style=plain}N appelle *partie*, une moindre grandeur qui en meſure une plus grande.
 
-[Curated heading level=4 type=numbered_item: §. 1.]
+[Curated heading level=4: §. 1.]
 
 §. 1. *Par l'expreſſion* meſurer une grandeur, *Euclide entend, s'y trouver contenu un certain nombre de fois ſans reſte, c. à. d. une moindre grandeur* N (*Fig.* 1.) *en meſure une plus grande* M, *lorſque la grandeur* N *eſt contenue dans* M *ſans reſte deux, trois, quatre, & en général tant de fois qu'on voudra; ou, ce qui revient au même, lorſque la moindre grandeur* N *répétée deux, trois, quatre, & en général tant de fois qu'on voudra, produit un Tout égal à la plus grande* M.
 
-[Curated heading level=4 type=numbered_item: §. 2.]
+[Curated heading level=4: §. 2.]
 
 §. 2. *Les modernes nomment ces ſortes de parties, qui meſurent le Tout ſans reſte, des* parties aliquotes; *donnant le nom de* parties aliquantes *à celles qui ne peuvent meſurer le Tout qu'avec un reſte; tandis qu'une autre quantité déterminée peut les meſurer exactement, auſſi bien que le Tout.*
 
@@ -25,7 +25,7 @@
 
 *De même la grandeur* N (*Fig.* 2) *eſt une partie aliquante de la grandeur* M (= N+N+N +R &c), *ſi* N *meſure* M *en laiſſant un reſte* R; *bien entendû néanmoins que ce reſte* R *ſoit tel, qu'il meſure lui-même, la grandeur* N, *ou du moins, qu'une de ſes parties déterminée* r *meſure ce reſte* R *de même que la grandeur* N, *& par conſéquent auſſi toute la grandeur* M; *autrement* N *ne ſeroit point une partie aliquante de* M, *mais une partie incommenſurable.*
 
-[Curated heading level=4 type=numbered_item: §. 3.]
+[Curated heading level=4: §. 3.]
 
 §. 3. *On appelle en général* nombre commenſurable, *celui qui peut réſulter de l'unité, ou d'une de ſes parties aliquotes répétée un nombre de fois déterminé: Ou, ce qui revient au même, celui qui peut être meſuré par l'unité, ou une de ſes parties aliquotes. Ainſi les*
 

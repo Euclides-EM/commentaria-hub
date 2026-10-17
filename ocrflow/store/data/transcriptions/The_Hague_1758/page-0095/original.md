@@ -21,19 +21,11 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:S|lines=2|style=plain}Ur AD conſtruiſez le quarré AN.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par les points B & C, tirez BR & CO Plles à DN ou AP.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Tirez la diagonale DP, qui coupera BR & CO quelque part en L & en K.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par les points L & K, tirez GE & HF Plles à DA ou NP.
 
@@ -48,35 +40,19 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure AN eſt un quarré (*Prep.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les Rgles alentour de la diagonale CH, ER, FO ſont des quarrés. Et parce que dans le □ CH, le côté CD eſt partagé en deux également en B (*Hyp.*).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les Rgles BG, CL, LH, IM ſont quatre quarrés égaux,
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Et le □ CH eſt = au quadruple □ CL. De plus, à cauſe que ER eſt un quarré (*Arg.* 1).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Le Rgle EK eſt = au Rgle KR. Mais puiſque IK = IC (*Arg.* 2), & CO Plle à AP (*Prep.* 2).
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Le Rgle AI eſt = au Rgle EK.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Partant, le Rgle AI eſt auſſi = au Rgle KR. De même, à cauſe que KM = MH (*Arg.* 2), & HF Plle à NP (*Prep.* 4).
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. Le Rgle KR eſt = au Rgle MN.
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Partant, les quatre Rgles AI, EK, KR, MN, ſont = entr'eux.
 

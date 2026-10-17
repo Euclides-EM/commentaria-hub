@@ -39,15 +39,9 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque le diametre, ou ſa partie FE, coupe en deux également chacune des cordes AC, DB du ⊙ ADCB (*Sup*.).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Cette droite FE eſt ⊥ ſur chacune des cordes AC, DB.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant, les ∀ FEB, FEA ſont = entr'eux; ce qui eſt impoſſible.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. C'eſt pourquoi, les deux cordes AC, DB s'entre-coupent en deux inégalement.
 

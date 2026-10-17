@@ -28,8 +28,6 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites AB, CD ſont deux Plles (*Hyp.*), coupées par une même droite BC (*Prep.*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les ∀ alternes *n* & *m* ſont ＝ entr'eux.
 
 [Margin]
@@ -37,8 +35,6 @@ Prop. 29. L. 1.
 [/Margin]
 
 Puis donc que dans les deux △ CAB, BDC le côté CD eſt ＝ au côté AB (*Hyp.*), le côté BC commun aux deux △ & ∀ compris *m* ＝ à ∀ compris *n* (*Arg.* 1).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Il s'enſuit, que la baſe AC eſt ＝ à la baſe BD;
 
@@ -48,13 +44,9 @@ C. Q. F. D. I.
 Prop. 4. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Item, que les ∀ ACB, DBC qui ſont oppoſés aux côtés égaux AB CD, ſont auſſi ＝ entr'eux.
 
 Or ces ∀ égaux ACB, DBC (*Arg.* 3) ſont des ∀ alternes formés par les droites AC, BD coupées par la droite BC.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Par conſéquent, les droites AC, BD ſont Plles.
 

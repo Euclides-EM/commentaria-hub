@@ -23,11 +23,7 @@ Les ſegmens ADB, ACB placés ſur la même corde AB & du même côté ſeront �
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Tirez une droite quelconque AC, qui coupe les ſegmens ADB, ACB aux points D & C.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez les droites BD, BC.
 
@@ -37,23 +33,17 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ∠ BDA, BCA ſont placés dans des ſegmens ſemblables ADB, ACB (*Hyp.* & *Prep.* 1 & 2).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ces ∠ ſont donc = entr’eux.
 
 [Margin]
 Ax. 2. L. 3.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. L’angle extérieur ADB du △ BDC ſeroit donc = à ſon intérieur oppoſé BCD; ce qui eſt impoſſible.
 
 [Margin]
 Prop. 16. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, on ne ſçauroit placer ſur une même ligne droite AB & du même côté deux ſegmens de ⊙ ADB, ACB ſemblables & inégaux.
 

@@ -19,23 +19,17 @@
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:P|lines=2|style=plain}Artagez la corde AB en deux également au point E.
 
 [Margin]
 Prop. 10. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Du point E ſur AB élevez la ⊥ ED.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Tirez la droite AD. Et ∀ ADE ſera >, ou <, ou = ∀ DAE.
 
@@ -47,15 +41,11 @@ Dem. 1.
 
 Si ∀ ADE eſt ou >, ou < ∀ DAE. *(Fig. 1. & 2).*
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. {dropcap:F|lines=2|style=plain}Aites ſur DA au point A, ∀ DAC = à ∀ ADE.
 
 [Margin]
 Prop. 23. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Prolongez DE en C *(Fig. 1)*, & tirez BC *(Fig. 1. & 2).*
 
@@ -67,8 +57,6 @@ Dem. 2. & 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ ADC, l’angle DAC eſt = à ∀ ADC *(Réſ. 4).*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le côté AC eſt = au côté DC.
 
 [Margin]
@@ -77,23 +65,17 @@ Prop. 5. L. 1.
 
 Mais dans les △ AEC, BEC, le côté AE eſt = au côté EB, le côté EC commun aux deux △ & ∀ compris AEC = à ∀ compris BEC *(Réſ. 2. & Ax. 10. L. 1).*
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. La baſe AC ſera = à la baſe BC.
 
 [Margin]
 Prop. 4. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant, les trois droites AC, DC, BC, tirées d’un point C, à la ⊙ ADB, ſont = entr’elles.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. C’eſt pourquoi le point C eſt le centre du ⊙, dont ADB eſt un ſegment.
 
@@ -107,23 +89,17 @@ C. Q. F. F.
 
 Si ∀ ADE eſt = à ∀ DAE. *(Fig. 3).*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}E côté AE eſt donc = au côté ED.
 
 [Margin]
 Prop. 5. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant, AE étant = EB *(Réſ. 1)*, les trois droites AE, ED, EB tirées d’un point E à la ⊙ ADB ſont = entr’elles.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. D’où il ſuit que le point E eſt le centre du ⊙ dont ADB eſt un ſegment.
 

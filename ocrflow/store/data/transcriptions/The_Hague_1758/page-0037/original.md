@@ -20,23 +20,17 @@
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=1|style=plain}E part & d'autre du point C, prenez les droites CD, CE ═ entr'elles.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Sur la droite DE conſtruiſez le △ équilatéral DFE.
 
 [Margin]
 Prop. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Du point F au point C tirez la droite FC.
 
@@ -48,19 +42,13 @@ Dem .1.
 
 {dropcap:P|lines=2|style=plain}Uiſque CD eſt ═ à CE (*Reſ.* 1), FD ═ FE (*Reſ.* 2), & que le côté CF eſt commun aux deux △ DFC, EFC.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Il eſt évident que ces deux △ ont les trois côtés égaux aux trois côtés chacun à chacun.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par conſéquent, les ∀ contigus FCD, FCE (compris par les côtés égaux FC, CD, item FC, CE) ſont égaux entr'eux. Mais c'eſt la droite FC qui tombant ſur AB, forme ces ∀ contigus ═ entr'eux.
 
 [Margin]
 Prop. 8. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, la droite FC eſt ⊥ ſur AB.
 

@@ -9,7 +9,7 @@
 
 Mais ſi dans cette comparaiſon des équimultiples, le multiple de la première ſurpaſſe le multiple de la ſeconde, ſans que le multiple de la troiſième ſurpaſſe le multiple de la quatrième, on dira que *la raiſon de la prèmiere à la ſeconde, eſt plus grande que la raiſon de la troiſième à la quatrième.*
 
-[Curated heading level=4 type=numbered_item: §. 1.]
+[Curated heading level=4: §. 1.]
 
 *§. 1. Comme il y a des raiſons égales, il doit y en avoir d'inégales; & par conſequent de plus grandes & de plus petites.*
 
@@ -21,7 +21,7 @@ Mais ſi dans cette comparaiſon des équimultiples, le multiple de la première
 
 *Parceque l'antécédent* 4 *eſt la moitié de ſon conſequent* 8, *au-lieu que l'antécédent* 3 *n'eſt que le quart de ſon conſéquent* 12. *La même choſe eſt manifeſte par les expoſans. Ainſi* 12 : 3 > 8 : 4, *c. à. d.* 12 *diviſé par* 3 *eſt* > 8 *diviſé par* 4, *ou bien* trois, *expoſant de la premiere raiſon eſt* > deux, *expoſant de la ſeconde raiſon. De même* 3 : 12 < 4 : 8 *parceque* ³⁄₁₂ *ou* ¼ < ⁴⁄₈ *ou* ½.
 
-[Curated heading level=4 type=numbered_item: §. 2.]
+[Curated heading level=4: §. 2.]
 
 *§. 2. Le principe des expoſans eſt donc très commode pour diſtinguer immédiatement ſi une raiſon eſt égale à une autre raiſon, ou ſi elle eſt plus grande, ou moindre. Cependant l'Auteur de ces Elémens, qui n'a pas fait uſage de la doctrine des expoſans, nous propoſe un autre caractère de la majorité des raiſons. Selon lui, une raiſon eſt plus grande,* lorſqu'un certain multiple du premier antécédent, peut ſurpaſſer le multiple du conſéquent, ſans qu'un pareil multiple du ſecond antécédent ſurpaſſe le multiple de ſon conſéquent.
 

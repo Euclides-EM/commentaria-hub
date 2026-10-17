@@ -21,15 +21,11 @@
 
 ### *Réſolution.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. TIrez les diamètres EI, HF enſorte qu'ils ſe coupent à ∀ ⌊.
 
 [Margin]
 Prop. 11. L.1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Sur les extrèmités H, E, F, I de ces diamètres, élevez les ⊥ AD, AB, BC, CD.
 
@@ -39,8 +35,6 @@ Prop. 11.L.1.
 
 ### Demonstration.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. LEs droites DA, AB, BC, CD ſont donc des tangentes du ⊙ HEFI,
 
 [Margin]
@@ -48,15 +42,11 @@ Prop. 16.L.3
 Coroll.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Et la droite AD eſt Plle à EI, de même que la droite BC; à cauſe que ∀ HGE + GHA, item ∀ FGE + GFB ſont = à 2 ⌊ (*Reſ.* 1 & 2).
 
 [Margin]
 Prop.28.L.1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant AD eſt auſſi Plle à BC; & par la même raiſon AB, HF, DC ſont Plles.
 
@@ -64,23 +54,17 @@ Prop.28.L.1.
 Prop. 30. L.1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. C'eſt pourquoi les quadrilatéres AI, EC, AF, HC, AC ſont des Pgmes.
 
 [Margin]
 Def. 35. L.1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. D'où il ſuit, que les droites AD, EI, BC, item AB, HF, DC, ſont = entr'elles.
 
 [Margin]
 Prop. 34.L.1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Et par la raiſon que EI eſt = à HF (*Def.* 15. *L.* 1), les droites AD, BC, AB, DC ſont auſſi égales.
 
@@ -90,8 +74,6 @@ Ax. 1. L.1.
 
 Mais ∀ EID du Pgme AI étant un ⌊ (*Reſ.* 2),
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. L'angle A, qui lui eſt diagonalement oppoſé, eſt ⌊ auſſi.
 
 [Margin]
@@ -100,11 +82,7 @@ Prop. 34.L.1.
 
 Par un raiſonnement ſemblable on prouvera, que
 
-[Curated heading level=4 type=numbered_item: 8.]
-
 8. Les ∀ B, C, D ſont des ⌊.
-
-[Curated heading level=4 type=numbered_item: 9.]
 
 9. Par conſéquent, on a circonſcrit au ⊙ HEFI un quadrilatére ABCD équilatére (*Arg.* 6.) & rectangulaire (*Arg.* 7 & 8); ou un quarré.
 

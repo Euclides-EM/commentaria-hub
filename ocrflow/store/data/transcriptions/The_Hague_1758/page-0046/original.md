@@ -20,23 +20,17 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:P|lines=2|style=plain}Rolongez un des deux côtés, comme AB, à l'infini.
 
 [Margin]
 Dem. 2.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Faites BD ═ à BC.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Du point C au point D tirez la droite CD.
 
@@ -48,15 +42,11 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ BDC le côté BD eſt ═ au côté BC (*Prep.* 2).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ce triangle eſt iſoſcéle.
 
 [Margin]
 Def. 25. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par conſéquent, les ∀ ſur la baſe *n* & *p* ſont ═ entr'eux.
 
@@ -66,8 +56,6 @@ Prop. 5. L. 1.
 
 Or ∀ *m* ＋ *n* étant le tout & ∀ *n* ſa partie.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Il s'enſuit, que ∀ *m* ＋ *n* eſt ⟩ ∀ *n*.
 
 [Margin]
@@ -75,8 +63,6 @@ Ax. 8.
 [/Margin]
 
 Mais ∀ *m* ＋ *n* étant ⟩ ∀ *n* (*Arg.* 3) & cet ∀ *n* étant ═ à ∀ *p* (*Arg.* 2).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Il eſt évident, que ∀ *m* ＋ *n* eſt ⟩ ∀ *p*.
 
@@ -86,8 +72,6 @@ N. C.
 
 Puis donc que dans le △ ADC, ∀ *m* ＋ *n* eſt ⟩ ∀ *p* (*Arg.* 4).
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Le côté AD oppoſé au plus grand ∀ *m* ＋ *n* eſt auſſi ⟩ le côté AC oppoſé au plus petit ∀ *p*.
 
 [Margin]
@@ -96,8 +80,6 @@ Prop. 19. L. 1.
 
 Mais à cauſe que la droite BD eſt ═ à la droite BC (*Prep.* 2); ſi on ajoute de part & d'autre le côté AB,
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Il s'enſuit, que AB ＋ BD, ou AD eſt ═ à la ſomme des deux côtés AB ＋ BC.
 
 [Margin]
@@ -105,8 +87,6 @@ Ax. 2.
 [/Margin]
 
 Mais AD eſt ⟩ le côté AC (*Arg.* 5).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Partant, la ſomme des deux côtés AB ＋ BC eſt auſſi ⟩ le troiſieme côté AC.
 

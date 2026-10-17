@@ -34,8 +34,6 @@ Prop. 12. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque CD eſt ⊥ ſur la commune ſection AB. (*Prép.*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. CD ſera ⊥ ſur le Plan AX.
 
 [Margin]
@@ -44,11 +42,7 @@ Def. 4. L. 11.
 
 Mais EC eſt ⊥ ſur le même Plan. (*par la Sup.*).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Donc on a mené d'un même point C deux perpendiculaires EC & CD au Plan AX.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Ce qui eſt impoſſible.
 
@@ -56,11 +50,7 @@ Mais EC eſt ⊥ ſur le même Plan. (*par la Sup.*).
 Prop.13. L.11.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Partant EC n'eſt point ⊥ ſur AX.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Par conſequent la perpendiculaire CD abaiſſée d'un point C, quelcon- du Plan AZ ſur le Plan AX (qui y eſt perpendiculaire) paſſe par leur commune ſection AB.
 

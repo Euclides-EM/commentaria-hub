@@ -27,15 +27,9 @@
 
 {dropcap:P|lines=2|style=plain}Uis donc que chacune des figures A et C eſt ſemblable à la figure B (*Hyp.*),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Chacune de ces figures ſera auſſi équiangle à la figure B, & aura les côtés alentour des ∀ égaux, proportionels aux côtés de la figure B.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Par conſéquent ces figures A et C ſeront auſſi équiangles entr'elles, & leurs côtés alentour des ∀ égaux, ſeront proportionels.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant les figures A et C, ſont ſemblables.
 

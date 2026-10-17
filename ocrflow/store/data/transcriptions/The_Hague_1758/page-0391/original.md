@@ -1,8 +1,6 @@
 <!-- Running title: LIVRE DOUZIEME. -->
 <!-- Page number: 379 -->
 
-[Curated heading level=4 type=numbered_item: 30.]
-
 30. D'où il ſuit qu'il eſt impoſſible qu'un cone BFE eſt à une grandeur moindre que le cone LOM, en raiſon triplée du diamêtre CD au diamêtre iH.
 
 ### II. Suppoſition.
@@ -15,8 +13,6 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque Z eſt > que le cone LOM. (11. *Supp.*).
 
-[Curated heading level=4 type=numbered_item: 31.]
-
 31. Le cone BFE ſera > X.
 
 [Margin]
@@ -24,8 +20,6 @@ Prop. 14. L..5.
 [/Margin]
 
 Mais CD³ : IH³ = cone BFE : Z (*par la Sup.*).
-
-[Curated heading level=4 type=numbered_item: 32.]
 
 32. Donc invert. IH³ : CD³ = Z : cone BFE.
 
@@ -35,8 +29,6 @@ Prop. 4. L. 5. Corol.
 
 Or Z : cone BFE = cone LOM : X. (11. *Prép.*),
 
-[Curated heading level=4 type=numbered_item: 33.]
-
 33. Partant IH³ : CD³ = cone LOM : X.
 
 [Margin]
@@ -45,29 +37,17 @@ Prop. 11. L. 5.
 
 Et il eſt demontré (*Arg.* 30.) qu'il eſt impoſſible qu'un cone eſt à une grandeur moindre qu'un autre cone en raiſon triplée des diamétres de leur bazes.
 
-[Curated heading level=4 type=numbered_item: 34.]
-
 34. Donc X n'eſt pas < que le cone BFE.
 Cependant X eſt < que le même cone (*Arg.* 31.),
 
-[Curated heading level=4 type=numbered_item: 35.]
-
 35. D'où il ſuit que X ſeroit < que le cone & ne le ſeroit point en même tems.
 
-[Curated heading level=4 type=numbered_item: 36.]
-
 36. Ce qui eſt impoſſible.
-
-[Curated heading level=4 type=numbered_item: 37.]
 
 37. Donc la ſuppoſition que Z eſt > que le cone LOM, eſt fauſſe.
 Lagrandeur Z n'étant donc ni < ni > que le cone LOM. (*Arg.* 29 & 37.).
 
-[Curated heading level=4 type=numbered_item: 38.]
-
 38. Il lui ſera égal.
-
-[Curated heading level=4 type=numbered_item: 39.]
 
 39. Partant le cone BFE : cone LOM = CD³ : IH³.
 
@@ -83,8 +63,6 @@ Et le cylindre L*cd*M le triple du cone LOM.
 [Margin]
 Prop. 10. L.12.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 40.]
 
 40. Le cylindre B*ab*E : cylindre L*cd*M = CD³ : IH³.
 

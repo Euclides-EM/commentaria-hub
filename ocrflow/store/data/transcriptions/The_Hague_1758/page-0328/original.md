@@ -24,22 +24,14 @@ La commune Section AB eſt ⊥ ſur le Plan ZX.
 
 {dropcap:P|lines=2|style=plain}Uiſque CB, ſection commune du Plan CD avec le Plan XZ, eſt auſſi dans le Plan ZX.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. On peut élever du point B une ⊥, ſur CB (*Par le 11e. Prop. de ce Livre*) qui ſera dans le Plan CD. (*Hyp. 1.*)
 Et comme la ligne FB ſection commune des Plans FE & XZ, eſt auſſi dans le Plan XZ.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. On peut auſſi du méme point B & du même coté que la précedente élever encore une ⊥ qui tombera dans le Plan FE.
 Mais du point B on ne peut élever qu'une ⊥.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant ces perpendiculaires doivent coïncider; c'eſt-à-dire, que ces deux lignes ne doivent faire qu'une ſeule qui foit commune aux deux Plans.
 Or ces Plans n'ont de commun que la ligne AB. (*Hyp. 2.*).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc AB eſt perpendiculaire ſur le Plan XZ.
 

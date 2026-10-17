@@ -21,15 +21,11 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:S|lines=2|style=plain}Ur la droite AC conſtruiſez le □ AF.
 
 [Margin]
 Prop 46. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par le point de ſection B tirez la droite BE Plle à AD, ou CF.
 
@@ -39,8 +35,6 @@ Prop. 31. L. 1.
 
 ### Demonstration.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}E Rgle entier AF eſt = aux Rgles AE, BF pris enſemble.
 
 [Margin]
@@ -49,15 +43,11 @@ Ax. 1. L. 2.
 
 Mais ce Rgle AF eſt le □ de la ligne AC (*Prep.* 1).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant, les Rgles AE, BF pris enſemble égalent le quarré de la ligne AC.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Or le Rgle AE, eſt compris des droites CA, AB; à cauſe qu'il eſt compris des droites DA, AB dont DA = CA (*Prep.* 1).
 
@@ -65,15 +55,11 @@ Ax. 1. L. 1.
 Ax. 2. L. 2.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. De même, BF eſt un Rgle compris des droites AC, CB; parcequ'il eſt compris des droites EB, BC; dont EB = AC (*Prep.* 1 & 2).
 
 [Margin]
 Prop. 34. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. C'eſt pourquoi, le Rgle compris des droites CA, AB avec le Rgle compris des droites AC, CB eſt = au □ de la droite AC; ou bien le Rgle CAB + le Rgle ACB ſont = au □ de AC.
 

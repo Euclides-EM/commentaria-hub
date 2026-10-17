@@ -21,11 +21,7 @@ A : B = E : F.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Prenez des équimultiples quelconques aA, aC, aE des trois antécédens A, C, E.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et d’autres équimultiples quelconques cB, cD, cF des trois conſéquens B, D, F.
 
@@ -37,8 +33,6 @@ Dem. 1. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uiſque A : B = C : D (Hyp);
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Si le multiple aA eſt >, =, ou < le multiple cB; l’équimultiple aC eſt pareillement >, =, ou < l’équimultiple cD.
 
 [Margin]
@@ -47,19 +41,13 @@ Def. 5. L. 5.
 
 De même puiſque C : D = E : F (Hyp).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Si le multiple aC eſt >, = ou < le multiple cD; l’équimultiple aE ſera pareillement >, =, ou < l’équimultiple cF.
 
 [Margin]
 Def. 5. L. 5.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Par conſéquent ſi le multiple aA eſt >, = ou <, le multiple cB; l’équimultiple aE eſt pareillement >, =, ou < l’équimultiple cF.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant, A : B = E : F.
 

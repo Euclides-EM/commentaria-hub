@@ -21,11 +21,7 @@ Le Plan AX dans lequel les lignes AB & AC ſe trouvent eſt parallele au Plan DZ
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=2|style=plain}U point A abaiſſez la ⊥ AG ſur le Plan DZ.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez GH Plle à DE, & GL Plle à DF.
 
@@ -38,30 +34,18 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les lignes GH & GL ſont Plle à DE & DF. (*Prép.* 2.).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ils ſeront auſſi Plle à AB & AC.
 Et GL étant Plle à AC.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les ∀ CAG + AGL ſont = 2 ⌊.
 Mais ∀ AGL eſt ⌊. (*Prép.* 1.).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant ∀ CAG eſt auſſi ⌊.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. De la même manière on demontrera que ∀ BAG eſt ⌊.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Donc GA eſt ⊥ ſur le Plan AX.
 Or le même GA eſt auſſi ⊥ ſur le Plan DZ. (*Prép.* 1.).
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. C'eſt pourquoi le Plan AX eſt Plle au Plan DZ.
 

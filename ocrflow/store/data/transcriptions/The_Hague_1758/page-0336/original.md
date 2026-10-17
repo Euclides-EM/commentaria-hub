@@ -21,19 +21,11 @@ Le ⏥ BM : ⏥ MC = baze BL : baze LC.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:P|lines=2|style=plain}Rolongez BC de part & d'autre, de même que FH.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Prenez ſur le prolongement de BC pluſieurs lignes égales à BK Et CK: comme BO & TO chacune = à BK, & CW = KC.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Par ces points T, O, & W. tiréz des droites TU, OP & WX Plle à BF ou CH, juſqu'à ce qu'elles rencontrent l'autre Plle prolongée dans les points U, P & X.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par les lignes TU, OP, & WX faites paſſer des Plans TR, OQ & WY, Plle aux Plans BE & CD, qui rencontreront le Plan de la baze ſuperieure AE DG, en SR, NQ & VY.
 

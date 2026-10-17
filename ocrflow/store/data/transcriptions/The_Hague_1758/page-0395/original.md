@@ -23,23 +23,17 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=2|style=plain}U plus grand LO, coupez la hauteur LN = à la hauteur CF.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Par le point N, faites paſſer un Plan PM Plle aux Plan oppoſés du cylindre HIKG.
 
 ### I. DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les cylindres GHIK & PMKG ont la même baze.
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. Le cylindre GHIK : cylindre PMKG = hauteur LO : hauteur LN.
 
@@ -49,8 +43,6 @@ Prop. 14. L. 12.
 
 Mais les cylindres ABDE & GHIK ſont égaux. (*Hyp.* 1.).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant le cylindre ABDE : cylindre PMKG = hauteur LO hauteur LN.
 
 [Margin]
@@ -58,8 +50,6 @@ Prop. 7. L. 5.
 [/Margin]
 
 De plus les cylindres ABDE & PMKG ont la même hauteur (*Prép.* 1.).
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Donc le cylindre ABDE : cylindre PMKG = baze AE : baze GK.
 
@@ -70,8 +60,6 @@ Prop. 11. L. 12.
 Or le cylindre ABDE : cylindre PMKG = hauteur LO : hauteur LN. (*Arg.* 2.).
 
 Et la hauteur LN eſt = à la hauteur CF. (*Prép.* 1.)
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. D'où il ſuit que la baze AE : baze GK = hauteur LO : hauteur CF.
 

@@ -2,7 +2,7 @@
 
 cordas ſubtractas ſingulis arcubus ⁊ habebo intentum. ¶ Explicit liber quartus incipit liber quintus.
 
-[Curated heading level=1: LIBER V]
+[Curated heading level=1 type=Books: Book 5]
 
 [Curated heading level=2 type=definitions: Diffinitio .1.]
 

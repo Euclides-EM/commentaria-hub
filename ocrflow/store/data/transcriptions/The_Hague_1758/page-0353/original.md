@@ -25,23 +25,13 @@
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:F|lines=1|style=plain}Aites AF = HK.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez FG, Plle à DE, juſqu'à la rencontre du Plan BAC, & G.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Du point G, dans le Plan BAC, tirez CG, ⊥ ſur AC; & GB, ⊥ ſur AB.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Du point K dans le Plan IHL, tirez IM, ⊥ ſur HI; & ML ⊥ ſur HL.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Tirez BF, BC & FC; Item IK, IL & LK.
 

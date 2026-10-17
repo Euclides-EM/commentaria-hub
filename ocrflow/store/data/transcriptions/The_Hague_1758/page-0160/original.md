@@ -21,15 +21,11 @@
 
 ### *Réſolution.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. TIrez d'un point quelconque M, au ⊙ ABHC, la tangente MN.
 
 [Margin]
 Prop. 17. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Faites ſur MN, au point d'attouchement A, l'angle BAM = à ∀FED, & ∀CAN = à ∀FDE.
 
@@ -38,23 +34,17 @@ Prop. 23. L. 1.
 Dem. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Tirez BC.
 
 ### Demonstration.
 
 PUiſque ∀BCA = à ∀BAM (*Prop.* 32. *L.* 3), & ∀FED = au même ∀BAM (*Ref.* 2); Item ∀CBA = à ∀CAN (*Prop.* 32. *L.* 3), & ∀FDE auſſi = à ∀CAN (*Ref.* 2).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Il s'enſuit que ∀BCA eſt = à ∀FED, & ∀CBA = à ∀FDE.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, le troiſieme ∀BAC, du △ ABC, eſt auſſi = au troiſieme ∀DFE du △ DFE, & ce △ ABC eſt inſcrit dans le ⊙ ABHC.
 

@@ -21,15 +21,9 @@ AB & CD ſe touchent en B, dans un Plan different de celui ou DE & EF ſont, qui
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:C|lines=2|style=plain}Oupéz à volonté des droites AB & BC, les parties BG & BI,
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Faites HE = BG, & EK = BI.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Joignez les points BE, GH, GI, HK & IK.
 
@@ -42,24 +36,14 @@ Dem. 1. L. 1.
 
 {dropcap:L|lines=2|style=plain}A ligne BG étant égale & parallele à HE (*Prép.* 2. & *Hyp.*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. GH ſera = & Plle à BE.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. De la même manière IK eſt = & Plle à BE.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant GH eſt = & Plle à IK.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc GI eſt = & Plle à KH.
 Et puiſque dans les △ GBI & HEK les trois cotés BG, BI, & GI du premier, ſont égaux aux trois cotés HE, EK & HK du dernier, chacun à chacun (*Prép.* 2. & *Arg.* 4.).
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. l'Angle GBI ou ABC eſt = ∀ HEK ou DEF.
 

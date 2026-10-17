@@ -26,15 +26,11 @@ II. Lequel eſt ſemblable & ſemblablement poſé à ſon défaut, le Pgr FD, d
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Tirez la Diagonale BE.
 
 [Margin]
 Dem. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et par un point quelconque G, pris dans BE, tirez IH MN Plles à BA, AC.
 
@@ -54,8 +50,6 @@ CAS I. Lorſque le point N tombe dans la moitié FB.
 
 {dropcap:P|lines=2|style=plain}Uiſque le Pgr GD eſt ⚌ au Pgr GF (*Prop.* 43. *L.* 1); en ajoutant le Pgr commun NI,
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le Pgr ND ſera ⚌ au Pgr FI.
 
 [Margin]
@@ -63,8 +57,6 @@ Ax. 2. L. 1.
 [/Margin]
 
 Mais à cauſe que le Pgr AK eſt auſſi ⚌ au Pgr FI (*Prop.* 36. *L.* 1),
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Le Pgr ND eſt ⚌ au Pgr AK.
 
@@ -74,15 +66,11 @@ Ax. 1. L. 1.
 
 Si l'on ajoute donc de part & d'autre le Pgr FG.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Le Gnomon *abc* eſt ⚌ au Pgr AG,
 
 [Margin]
 Ax. 2. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant le Pgr entier FD, ou ſon égal le Pgr AE (*Hyp.* 2), eſt 〉 Pgr AG.
 

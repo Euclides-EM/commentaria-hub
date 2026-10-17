@@ -2,19 +2,7 @@
 
 non erit ſumere plures numeros qꝺ ꝓpoſitũ erit cõtinentes.Solus eni ẽ cui⁹ ternarius ẽ quinta:nõ plures.Solus quoqʒ cuius ternarius octaua:⁊ ſenarius quarta:nõ plures.ideoqʒ ꝓponentem ptes ⁊ denoiationes ipſaꝝ in toto nõ eſt querere quis minimus cõtinet has ptes ſub iſtis denoiationibus:ſed quis vnus continet:proponentẽ aũt partes tantũ.Contingit querere quis minimus eas continet ⁊ a quibus in eo denominant̃:ſolas quoqʒ ꝓponentẽ denoiationes conuenit querere que partes ab illis dicte ⁊ in quo minimo reperiunt̃.Conuenientius autẽ videt̃ partes ꝑ denominationes inquirere:qʒ denominationes ꝑ ptes:diuerſitatẽ quidem denominationũ non partiũ comitat̃ ꝓportionũ diuerſitas. Explicit liber ſeptimus incipit liber Octauus.
 
-[Curated heading level=1: LIBER VIII]
-
-[Curated heading level=2 type=definitions: LAtera numeroꝝ dicunt̃ quoꝝ multiplicatõe numeri ꝓducunt̃]
-
-[Curated heading level=2 type=definitions: Supficies appellat̃ numer⁹ qui]
-
-[Curated heading level=2 type=definitions: Solidus vero qui ſub]
-
-[Curated heading level=2 type=definitions: Quadratus ẽ numerus ſupficialis]
-
-[Curated heading level=2 type=definitions: Cubus eſt ſolidus equalib⁹]
-
-[Curated heading level=2 type=definitions: Similes dicuntur numeri ſupficiales]
+[Curated heading level=1 type=Books: Book 8]
 
 {dropcap:L|lines=10|style=decorated|decoration="white vine-scroll foliate initial on black ground"}Atera numeroꝝ dicunt̃ quoꝝ multiplicatõe numeri ꝓducunt̃.¶Supficies appellat̃ numer⁹ qui ex duob⁹ laterib⁹ cõtinet̃.¶Solidus vero qui ſub tribus ex quoꝝ cõtinua multiplicatione hʒ procreari.¶Quadratus ẽ numerus ſupficialis equalib⁹ lateribus cõſiſtẽs.¶Cubus eſt ſolidus equalib⁹ cõſiſtẽs lateribus.¶Similes dicuntur numeri ſupficiales ſiue ſolidi quoꝝ latera ſũt proportionalia.
 

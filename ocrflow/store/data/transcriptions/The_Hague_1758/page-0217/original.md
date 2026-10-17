@@ -25,21 +25,13 @@ CAS I. Si A eſt > C.
 
 ### DEMONSTRATION.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}A raiſon de A : B eſt donc > la raiſon C : B.
 Mais A : B = C : D (*Hyp.* 1);
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Donc la raiſon de C : D eſt > la raiſon C : B.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. D’où il ſuit, que D eſt < B ou B > D.
 On démontrera de la même maniere pour les deux autres cas; ſi A = C, que B ſera = D; & ſi A eſt < C, que B ſera < D.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent, ſelon que A eſt >, =, ou < C, pareillement B eſt >, =, ou < D.
 

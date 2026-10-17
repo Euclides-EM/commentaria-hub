@@ -34,36 +34,22 @@ Dem. 1. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uis donc que ∀ B ═ ∀ G & AB : BC ═ FG : GH (*Hyp. & Def. 1. L. 6*),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le △ ABC eſt équiangle au △ FGH,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. C'eſt pourquoi ces △ ſont ſemblables, & ∀ m ═ ∀ a.
 Or ∀ entier m + n eſt ═ à ∀ entier a + e (*Hyp.*);
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant ∀ n eſt ═ ∀ e.
 Puis donc que par la ſimil. des △ ABC & FGH (*Arg. 2*), AC : BC ═ FH : GH.
 & par la ſimil. des Polyg. M & N BC : CD ═ GH : HI.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Il ſuit par égalité de raiſon, que AC : CD ═ FH : HI.
 c. à. d. les côtés alentour des ∀ égaux n & e ſont proportionels.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Le △ ACD eſt donc équiangle au △ FHI;
 Et par conſéquent il lui eſt ſemblable.
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Par la même raiſon, tous les autres △ ADE, FIK &c, ſont ſemblables.
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Les Polyg. ſemblables peuvent donc être diviſés dans le même nombre de △ ſemblables, par des diagonales tirées ſemblablement.
 

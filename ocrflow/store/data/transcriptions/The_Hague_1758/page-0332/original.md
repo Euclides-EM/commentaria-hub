@@ -28,19 +28,11 @@ CAS I. Si les ∀ a, b & c ſont égaux.
 
 {dropcap:P|lines=2|style=plain}Uiſque les cotés qui comprennent les angles, ſont égaux. (Hyp. 2.).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les △ DEF, GHI & ABC ſont égaux.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc DF = GI = AC.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant DF + AC > GI.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc on peut conſtruire un △ de ces trois lignes DF, AC & GI.
 
@@ -58,15 +50,9 @@ CAS II. Si les angles donnez a, b, & c ſont inégaux.
 ### Préparation.
 [/Subhead]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:A|lines=2|style=plain}U ſommet d'un des ∀ comme en B, faites ∀ ABL = ∀ a.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Faites BL = DE.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Tirez LC & LA
 
@@ -80,21 +66,13 @@ Dem. 1. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les deux angles a + c ſont > b (Hyp. 1.) & que LB = HG = BC = HI. (Prép. 2. & Hyp. 2.).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La baze LC ſera > GI.
 Or LC < LA + AC.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc a plus forte raiſon GI < LA + AC.
 Mais LA = DF. (Prép. 1. & Prop. 4. L. 1.)
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc GI < DF + AC.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant on peut conſtruire un △ des trois lignes DF, AC & GI.
 

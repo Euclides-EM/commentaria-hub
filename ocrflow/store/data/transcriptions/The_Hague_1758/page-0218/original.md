@@ -21,11 +21,7 @@ A : B = m A : m B.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Diviſez m A en ces parties P, Q, R chacune = A.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et m B en ces parties p, q, r chacune = B.
 
@@ -37,25 +33,15 @@ Dem. 2. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uiſque les gdrs. m A, m B ſont equimultiples des gdrs. A & B (*Hyp*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le nombre des parties P, Q, R &c. eſt = au nombre des parties p, q, r &c.
 Et d'autant que P = Q = R (*Prep.* 1), & p = q = r (*Prep.* 2),
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. La gdr. P : p = Q : q = R : r &c.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. C'eſt pourquoi P + Q + R, ou m A : p + q + r ou m B = P : p.
 Mais à cauſe que P = A & p = B (*Prep.* 1 & 2),
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. La gdr. P : p = A : B.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant A : B = m A : m B.
 

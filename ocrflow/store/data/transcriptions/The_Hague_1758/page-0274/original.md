@@ -16,30 +16,18 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Diſpoſez les deux △ ACB, ECD, enſorte que les côtés AC, CD ne forment qu'une même droite AD.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez la droite BD.
 
 ### Demonstration.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:O|lines=2|style=plain}N démontrera, comme dans le premier Cas, que EC, CB ne forment qu'une même droite EB.
 Et puiſque les △ ACB, CBD, item les △ ECD, CBD, ont la même hauteur (*Prep.* 2 *Arg.* 1. & *Def.* 4. *L.* 6 *Rem.*).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Le △ ACB : △ CBD ═ AC : CD, De même le △ ECD : △ CBD ═ EC : CB. Or AC : CD ═ EC : CB (*Hyp.* 1);
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. C'eſt pourquoi △ ABC : △ CBD ═ △ ECD : △ CBD.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. D'où il ſuit que le △ ABC eſt ═ au △ ECD.
 

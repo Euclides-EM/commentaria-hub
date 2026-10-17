@@ -22,15 +22,9 @@ A : C = a : c.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Prenez m A & m a équimult. de A & a.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. De même n B & n b autres équimult. de B & b.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Enfin r C & r c équimult. de C & c.
 
@@ -42,24 +36,14 @@ Dem. 1. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uiſque A : B = a : b (Hyp. 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. On aura m A : n B = m a : n b
 De même B : C = b : c (Hyp. 2).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Par conſéquent n B : r C = n b : r c.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Donc m A, n B, r C & m a, n b, r c forment deux ſuites de grandeurs, telles que les raiſons de l'une ſont égales aux raiſons de l'autre, chacune à chacune, dans un ordre direct.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Partant, par égalité de raiſon, ſelon que la premiere m A d'une des ſuites eſt >, =, ou < que la troiſieme r C, de même la premiere m a de l'autre ſuite ſera >, =, ou < que la troiſieme r c.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. D'où il ſuit que A : C = a : c.
 

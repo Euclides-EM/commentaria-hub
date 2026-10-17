@@ -1,27 +1,19 @@
 <!-- Running title: LIVRE QUATRIEME. -->
 <!-- Page number: 159 -->
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. L'angle CFE eſt = à ∀ CFG & ∀ ECF = à ∀ GCF.
 
 [Margin]
 Prop. 8. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Par conſéquent, ∀ EFG eſt double de ∀ CFG, & ∀ ECG double de ∀ FCG; par la même raiſon ∀ GHI eſt double de ∀ CHG & ∀ GCI double de ∀ GCH.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. De plus, ∀ ECG eſt = à ∀ GCI, à cauſe des arcs égaux EG, GI (*Reſ.* 1).
 
 [Margin]
 Prop. 28. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Partant, ∀ FCG eſt = à ∀ GCH.
 
@@ -31,15 +23,11 @@ Ax. 7. L. 1.
 
 Mais les ∀ CGF, CGH des △ CFG, CHG étant de plus égaux (*Reſ.* 3. *& Ax.* 10. *L.* 1) & CG commun aux deux △,
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. La droite FG eſt = à GH & ∀ CFG eſt = à ∀ CHG.
 
 [Margin]
 Prop. 26. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. C'eſt pourquoi FH eſt double de FG, & par la même raiſon DF eſt double de EF.
 
@@ -49,17 +37,11 @@ Ax. 2. L. 1.
 
 Et puiſque de plus la droite FG eſt = à EF (*Prop.* 37. *L.* 3. *Coroll.*).
 
-[Curated heading level=4 type=numbered_item: 9.]
-
 9. La droite FH eſt auſſi = à DF, (*Ax.* 6. *L.* 1) & les droites HK, KA, AD ſeront par la même raiſon = à FH ou DF.
 
 Derechef ∀ EFG ou DFH étant double de ∀ CFG, l'angle GHI ou FHK double de ∀ CHG & de plus ∀ CFG = à ∀ CHG (*Arg.* 7).
 
-[Curated heading level=4 type=numbered_item: 10.]
-
 10. Les ∀ DFH, FHK ſeront = entr'eux, & les ∀ HKA, KAD, ADF ſont par la même raiſon = à DFH ou FHK.
-
-[Curated heading level=4 type=numbered_item: 11.]
 
 11. Partant, on a circonſcrit au ⊙ LEG un pentagone ADFHK (*Arg.* 1). équilatéral (*Arg.* 9) & équiangle (*Arg.* 10).
 

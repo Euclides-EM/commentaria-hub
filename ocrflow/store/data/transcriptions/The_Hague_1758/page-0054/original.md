@@ -39,8 +39,6 @@ Dem. 2.
 
 {dropcap:P|lines=2|style=plain}Uis donc que ∀ *n* eſt un angle extérieur du △ GMH, & ∀ *o* ſon intérieur oppoſé;
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. L'angle *n* eſt ＞ ∀ *o*.
 
 [Margin]
@@ -49,19 +47,13 @@ Prop. 16. L. 1.
 
 Mais ∀ *n* eſt ＝ à ∀ *o* (*Hyp.* 2).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Cet ∀ *n* n'eſt donc point ＞ ∀ *o*.
 
 [Margin]
 N. C.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant il eſt impoſſible que les droites AB, CD s'entrecoupent en un point comme M.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. D'où il ſuit qu'elles ſont des droites Plles.
 

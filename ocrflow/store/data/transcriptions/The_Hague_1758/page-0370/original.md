@@ -27,15 +27,11 @@ IV. Les priſmes IDEFLG & GLFCH ſont enſemble > que la moitié de la pyramide 
 
 ### I. Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:C|lines=2|style=plain}Oupez tous les cotés de la pyramide ABCD en deux également aux points L, F, H, E, G & I.
 
 [Margin]
 Prop. 10. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez les lignes LF, FH, FE, GE, GI, & IL, item LG & LH.
 
@@ -47,15 +43,11 @@ Dem. 1. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ BCD les cotés BD & BC ſont diviſés en deux aux points F & H. (*Prép. 1.*)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. BH : HC = BF : DF.
 
 [Margin]
 Prop. 19. L. 5.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant FH eſt Plle à DC.
 
@@ -63,11 +55,7 @@ Prop. 19. L. 5.
 Prop. 2. L. 6.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. De même FE eſt Plle à BC.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc FECH eſt un Pgr.
 

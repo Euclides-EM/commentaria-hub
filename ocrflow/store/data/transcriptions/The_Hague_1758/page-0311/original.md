@@ -27,11 +27,7 @@ Comme AxB pour le Plan RS; & AyB pour le Plan PL.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites differentes AxB & AyB ont les mêmes extremités A & B.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ces droites AxB & AyB renferment l'eſpace AxBy.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Ce qui eſt impoſſible.
 
@@ -39,11 +35,7 @@ Comme AxB pour le Plan RS; & AyB pour le Plan PL.
 Ax. 12. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant la Section des Plans PL & RS ne forme point deux droites differentes AxB & AyB.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc leur Section commune, ſera une même droite AB.
 

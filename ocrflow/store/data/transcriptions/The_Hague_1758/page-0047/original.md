@@ -31,8 +31,6 @@ Dem. 2.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure ACE eſt un △ (*Def.* 21. *L.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les deux côtés CA ＋ CE ſont ⟩ le troiſieme AE.
 
 [Margin]
@@ -40,8 +38,6 @@ Prop. 20. L. 1.
 [/Margin]
 
 Si on ajoute de part & d'autre la ligne EB,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les côtés CA ＋ CB (c. à. d. CA ＋ CE ＋ EB) ſont ⟩ les lignes AE ＋ EB.
 
@@ -51,8 +47,6 @@ Ax. 4.
 
 Derechef, la figure DEB étant auſſi un △ (*Def.* 21. *L.* 1).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Les deux côtés EB ＋ ED ſont ⟩ le troiſieme DB.
 
 [Margin]
@@ -61,8 +55,6 @@ Prop. 20. L. 1
 
 Si on ajoute donc de part & d'autre, la partie commune DA;
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Les lignes AE ＋ EB (c. à. d. EB ＋ ED ＋ DA) ſont ⟩ les lignes DA ＋ DB.
 
 [Margin]
@@ -70,8 +62,6 @@ Ax. 4.
 [/Margin]
 
 Mais on a prouvé, que les côtés CA ＋ CB ſont ⟩ les lignes AE ＋ EB (*Arg.* 2).
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant, à plus forte raiſon les côtés CA ＋ CB ſeront ⟩ les lignes DA ＋ DB.
 
@@ -83,21 +73,15 @@ C. Q. F. D. I.
 
 De même; puiſque ∀ ADB eſt un ∀ extérieur du △ DEB (*Prep.*) & que ∀ DEB eſt ſon intérieur oppoſé,
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Il ſuit, que ∀ ADB eſt ⟩ ∀ DEB.
 
 [Margin]
 Prop. 16. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Par la même raiſon; ∀ DEB eſt ⟩ ∀ C.
 
 Or puiſque ∀ ADB ⟩ ∀ DEB (*Arg.* 1), & que ∀ DEB eſt ⟩ ∀ C (*Arg.* 2).
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Il eſt évident, que ∀ ADB eſt à plus forte raiſon ⟩ ∀ C.
 

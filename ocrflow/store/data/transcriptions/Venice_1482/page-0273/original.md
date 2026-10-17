@@ -6,7 +6,7 @@
 
 ¶Ex his ergo euenire neceſſe eſt vt ex medietate lateris cubi ⁊ biſſe quadrati producti ex diametro ſpere ipſũ cubũ ãbientis cubi ſoliditas ꝓducatur.¶Explicit liber decimuſquartus Jncipit liber Decimuſquintus.
 
-[Curated heading level=1: LIBER XV]
+[Curated heading level=1 type=Books: Book 15]
 
 [Curated heading level=2 type=propositions: Propoſitio .1.]
 

@@ -5,7 +5,7 @@
 
 *où la correſpondance des multiples ne ſe ſoutient pas, le premier antécédent* 27 *ſe trouvant plus grand que ſon conſéquent* 26, *pendant que le ſecond antécédent* 99 *eſt moindre que ſon conſéquent* 117.
 
-[Curated heading level=4 type=numbered_item: §. 3.]
+[Curated heading level=4: §. 3.]
 
 *§. 3. Pour reconnoître auſſitôt l'inégalité de deux raiſons* A : B & C : D. *par ce caractère de la non-correſpondance des multiples, on choiſira pour multiplicateurs les deux termes de l'une des deux raiſons, par ex:* C : D, & *on multipliera les antécédens* A & C, *par le conſéquent* D *de la raiſon choiſie* C : D; & *les deux conſéquens* B & D, *par l'antécédent* C *de la même raiſon, en cette manière:*
 
@@ -26,7 +26,7 @@ A.D : B.C ; C.D : D.C    27 : 35 ; 63 : 63
 
 *il en réſulte ces quatre nombres,* 63 : 55 ; 99 : 99 *où* 63 *eſt* > 55 *pendant que* 99 *eſt* = 99.
 
-[Curated heading level=4 type=numbered_item: §. 4.]
+[Curated heading level=4: §. 4.]
 
 *§. 4. Au contraire, ſi l'on multiplie les deux antécédens par* 5 & *les deux conſéquens par* 7, *termes de la plus grande raiſon,*
 
@@ -37,7 +37,7 @@ A.D : B.C ; C.D : D.C    27 : 35 ; 63 : 63
 
 *les produits ſont* 35 : 35 ; 55 : 63 *où* 35 *eſt* = 35, *pendant que* 55 *eſt* < 63.
 
-[Curated heading level=4 type=numbered_item: §. 5.]
+[Curated heading level=4: §. 5.]
 
 *§. 5. Si l'on veut avoir des multiplicateurs, qui produiſent quatre multiples tels que le premier ſoit plus grand que le ſecond, pendant que le troiſième eſt moindre que le quatrième, il faut prendre pour multiplicateurs les termes d'une raiſon moyenne entre les deux raiſons propoſées, & multiplier les antécédens par le conſéquent de cette raiſon moyenne, & les conſéquens par ſon antécédent.*
 

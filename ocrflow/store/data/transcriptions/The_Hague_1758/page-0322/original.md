@@ -30,29 +30,17 @@ On peut élever du point B encore une ⊥.
 
 {dropcap:P|lines=2|style=plain}Uiſque les lignes AB & BC ſe touchent au point B,
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ils ſont dans le même Plan PO.
 Or ils ſont chacun ⊥ ſur le Plan XZ. (*Sup.*).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant les ∀ a + b, & b ſont chacun ⊥.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc ∀ a + b = ∀ b, c. a. d. le tout égal à la partie.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Ce qui eſt impoſſible.
 Mais AB eſt ⊥ ſur le Plan XZ. (*Hyp.*)
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Donc BC n'eſt point ⊥ ſur XZ.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Partant il eſt impoſſible de mèner une autre ligne du côté de AB & du point B qui ſoit ⊥ ſur le Plan XZ.
 

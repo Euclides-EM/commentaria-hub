@@ -21,23 +21,17 @@
 
 ### *Réſolution.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. INſcrivez dans le ⊙ LEG, un pentagone équilatéral & équiangle.
 
 [Margin]
 Prop. 11. L. 4.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Tirez aux points B, E, G, I, L les rayons CB, CE, CG, CI, CL.
 
 [Margin]
 Dem. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Elevez ſur les extrêmités de ces rayons les ⊥ prolongées AD, DF, FH, HK, KA.
 
@@ -57,8 +51,6 @@ Dem. 1.
 
 PUiſque les droites AD, DF, FH, HK, KA ſont ⊥ à l'extrêmité des rayons CB, CE, CG, CI, CL (*Reſ.* 3).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ces droites toucheront le ⊙ au point B, E, G, I, L, Et les ∀ DBE + DEB, FEG + FGE, HGI + HIG, KIL + KLI, ABL + ALB, pris deux à deux ſont ⟨ 2 ⌐.
 
 [Margin]
@@ -66,8 +58,6 @@ Prop. 16. L. 3.
 Coroll.
 Ax. 8. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les droites AD, DF, FH, HK, KA ſe rencontreront donc aux points D, F, H, K, A.
 

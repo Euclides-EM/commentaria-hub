@@ -6,7 +6,7 @@
 
 [Figure: circle lettered e above and f below]
 
-[Curated heading level=1: LIBER XIII]
+[Curated heading level=1 type=Books: Book 13]
 
 Explicit liber Duodecimus Jncipit liber Terciuſdecimus.
 

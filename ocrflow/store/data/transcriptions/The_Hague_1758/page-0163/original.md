@@ -23,23 +23,17 @@
 
 ### *Réſolution.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. PArtagez les côtés AB, DB en deux également, aux points E & F.
 
 [Margin]
 Prop. 10. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Sur AB, DB, aux points E & F, élevez les ⊥ EC, FC prolongées juſqu'à ce qu'elles ſe rencontrent en C.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Et, ſoit que le point C tombe au dedans (*Fig.* 1), au dehors (*Fig.* 3), ou ſur un des côtés (*Fig.* 2) du △ ABD, décrivez du centre C & du rayon CA le ⊙ ABDH.
 
@@ -59,8 +53,6 @@ Dem. 1.
 
 PUiſque dans les △ AEC, BEC, le côté AE eſt = au côté EB (*Reſ.* 1), EC commun aux deux △, & ∀ compris AEC = à ∀ compris BEC (*Reſ.* 2. & *Ax.* 10. *L.* 1),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La droite CB eſt = à CA.
 
 [Margin]
@@ -69,11 +61,7 @@ Prop. 4. L. 1.
 
 On démontrera de même, que
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. La droite CB eſt = à CD.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, les droites CA, CB, CD ſont = entr'elles; & le ⊙ ABDH décrit du centre C & du rayon CA, paſſera auſſi par les points B & D.
 
@@ -81,8 +69,6 @@ On démontrera de même, que
 Ax. 1. L. 1.
 Def. 15. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Ce ⊙ ABDH eſt donc circonſcrit au △ ABD.
 

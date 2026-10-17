@@ -21,19 +21,11 @@
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Menez les deux droites AD, AE, formant un ∀ quelconque DAE.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Faites AB ═ M; BD ═ N; AC ═ P.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Joignez BC.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par l'extrêmité D de la droite AD, tirez DE Plle à BC.
 
@@ -47,12 +39,8 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uis donc que BC eſt Plle à DE (*Reſ.* 4),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. AB : BD ═ AC : CE,
 Or AB ═ M, BD ═ N, & AC ═ P (*Reſ.* 2);
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant M : N ═ P : CE.
 

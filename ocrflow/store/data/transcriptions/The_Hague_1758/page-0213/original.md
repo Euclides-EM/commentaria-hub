@@ -27,21 +27,15 @@ Sinon; M eſt = P, ou < P.
 
 ### CAS I. Si M eſt = P.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}Es deux gdrs. M & P auroient donc même raiſon à la même gdr. N. Or elles n’ont point même raiſon à la même gdr. N (Hyp.);
 
 [Margin]
 Prop. 7. L. 5.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. La gdr. M n’eſt donc point = à la gdr. P.
 
 ### CAS II. Si M eſt < P.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. {dropcap:L|lines=2|style=plain}A raiſon de M : N ſeroit < la raiſon P : N. Or la raiſon de M : N n’eſt pas < la raiſon P : N (Hyp.);
 
@@ -49,11 +43,7 @@ Prop. 7. L. 5.
 Prop. 8. L. 5.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Donc la gdr. M n’eſt pas < la gdr. P. Mais M n’étant pas non plus = P (Arg. 2),
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Il reſte donc que M ſoit > P.
 
@@ -75,21 +65,15 @@ Sinon; P eſt =, ou > M.
 
 ### CAS I. Si P eſt = M.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}A raiſon N : M devroit être = à la raiſon de N : P.
 
 [Margin]
 Prop. 7. L. 5.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Ce qui étant contraire à l’hypotheſe, P ne ſera pas = M.
 
 ### CAS II. Si P eſt > M.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. {dropcap:L|lines=2|style=plain}A raiſon N : M devient > la raiſon N : P.
 
@@ -97,11 +81,7 @@ Prop. 7. L. 5.
 Prop. 8. L. 5.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Ce qui étant encore contraire à l’hypotheſe, P ne ſera pas > M. Mais P n’eſt pas non plus = M (Arg. 2);
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Il reſte donc que P ſoit < M.
 

@@ -20,15 +20,11 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:T|lines=2|style=plain}Irez le rayon CD,
 
 [Margin]
 Dem. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Et prolongez AD en N.
 
@@ -40,8 +36,6 @@ Dem. 2.
 
 {dropcap:P|lines=2|style=plain}Uisque dans le △ ADC le côté CA eſt = au côté CD *(Def. 15. L. 1).*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. L’angle CDA eſt = à ∀ CAD.
 
 [Margin]
@@ -50,15 +44,11 @@ Prop. 5. L. 1.
 
 Derechef, dans le △ CDB, le côté CD étant = au côté CB *(Def. 15. L. 1).*
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. L’angle CDB eſt = à ∀ CBD.
 
 [Margin]
 Prop. 5. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, ∀ ADB eſt = aux ∀ CAD + CBD.
 
@@ -68,15 +58,11 @@ Ax. 2. L. 1.
 
 Mais ∀ NDB eſt auſſi = aux ∀ CAD + CBD *(Prop. 32. L. 1).*
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. C’eſt pourquoi, cet ∀ NDB eſt = à ∀ ADB.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. D’où il ſuit que ∀ ADB eſt un ∟.
 
@@ -95,8 +81,6 @@ C. Q. F. D.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uisque dans le △ ADB, l’angle ADB eſt un ∟ *(Cas. 1).*
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. L’angle DAB ſera < un ∟.
 

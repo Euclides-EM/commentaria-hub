@@ -35,8 +35,6 @@ Dem. 1.
 
 ### DEMONSTRATION.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}E Rayon CD eſt donc ⊥ ſur la tangente ED,
 
 [Margin]
@@ -44,8 +42,6 @@ Prop. 18. L. 3.
 [/Margin]
 
 Et à cauſe que la droite AB eſt coupée en deux également en C, & que la droite BE y eſt ajoutée directement,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Le Rgle AE. EB + le □ de CB eſt = au □ de CE.
 
@@ -55,15 +51,11 @@ Prop. 6. L. 2.
 
 De plus, le □ de CE étant auſſi = au □ de DE + au □ de CD *(Prop. 47, L. 1)*, ou au □ de DE + au □ CB *(Prop. 46. L. 1. Coroll. 3)*;
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Le Rgle AE. EB + le □ de CB eſt = au □ de DE + au □ de CB.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant, le Rgle AE. EB ſera = au □ de DE.
 
@@ -77,15 +69,11 @@ CAS II. Si la ſecante AE ne paſſe pas par le centre *(Fig. 2)*.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:A|lines=1|style=plain}Baiſſez du centre C ſur AE la ⊥ CF.
 
 [Margin]
 Prop. 12. L. 2.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez les rayons CB, CD, & la droite CE.
 

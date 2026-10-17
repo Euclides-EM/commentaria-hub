@@ -26,15 +26,11 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:C|lines=1|style=plain}Onſtruiſez (*Fig.* 1.) ſur les trois côtés AC, AB, BC des □ AG, AM, CD.
 
 [Margin]
 Prop. 46. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par le point B tirez la droite BH Plle à AF ou CG.
 
@@ -42,11 +38,7 @@ Prop. 46. L. 1.
 Prop. 31. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Du point B au point F tirez la droite BF,
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Et du point C au point N la droite CN.
 
@@ -58,8 +50,6 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure AM eſt un □ (*Prep.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. L'angle ABM eſt un ⌐.
 
 [Margin]
@@ -67,8 +57,6 @@ Def. 30. L 1.
 [/Margin]
 
 Mais ∀ ABC étant auſſi un ⌐ (*Hyp*).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les deux ∀ contigus ABM, ABC ſont ⚌ à deux ⌐.
 
@@ -78,8 +66,6 @@ Ax. 2.
 
 Les droites MB, BC, qui rencontrent de part & d'autre la ligne AB au point B, faiſant donc avec cette droite AB la ſomme des ∀ contigus ABM, ABC ⚌ à deux ⌐ (*Arg* 2).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Ces droites MB, BC ne font qu'une même ligne droite MC qui eſt Plle à NA. Par la même raiſon on prouvera que
 
 [Margin]
@@ -87,11 +73,7 @@ Prop. 14. L. 1.
 Prop. 29. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. La droite AB ne forme avec BD qu'une même droite AD qui eſt Plle à CE. De plus, à cauſe que AG, AM ſont des □ (*Prep.* 1).
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Les ∀ FAC, NAB ſont ⚌ entr'eux (puiſqu'ils ſont des angles droits); & les côtés AF, AC, item AB, AN ſont auſſi ⚌ entr'eux.
 

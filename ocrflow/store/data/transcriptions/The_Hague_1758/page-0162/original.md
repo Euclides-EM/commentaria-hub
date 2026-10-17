@@ -21,23 +21,17 @@
 
 ### *Réſolution.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. COupez les ∀ BAD, BDA en deux également par les droites AC, DC prolongées juſqu'à ce qu'elles ſe rencontrent en C.
 
 [Margin]
 Prop. 9. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Du point C abaiſſez ſur AD la ⊥ CE.
 
 [Margin]
 Prop. 12. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Et de ce même point C comme centre, & du rayon CE, décrivez le ⊙ EFG.
 
@@ -57,8 +51,6 @@ Prop. 12. L. 1.
 
 PUiſque dans les △ AFC, ACE, l'angle FAC eſt = à ∀ CAE (*Reſ.* 1), ∀ CFA = à ∀ CEA (*Prép. Reſ.* 2 & *Ax.* 10. *L.* 1); & AC commun aux deux △,
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La droite CF eſt = à CE.
 
 [Margin]
@@ -67,11 +59,7 @@ Prop. 26. L. 1.
 
 On démontrera de même, que
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. La droite CG eſt = à CE.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, les droites CF, CE, CG ſont = entr'elles; & le ⊙ décrit du centre C & du rayon CE, paſſera auſſi par les points F & G. Et par la raiſon que les côtés AD, AB, DB ſont ⊥ à l'extrêmité E, F, G du rayons CE, CF, CG (*Reſ.* 2 & *Prép.*),
 
@@ -79,8 +67,6 @@ On démontrera de même, que
 Ax. 1. L. 1.
 Def. 15. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Ces côtés toucheront le ⊙ aux points E, F, G. Le ⊙ EFG eſt donc inſcrit dans le △ ABD.
 

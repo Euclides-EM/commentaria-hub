@@ -12,15 +12,11 @@
 
 ### DEMONSTRATION.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}Es ∀ opposés DAB + DEB, du quadrilatere ADEB ſont = à 2 ∟.
 
 [Margin]
 Prop. 22. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. C’eſt pourquoi, ∀ DAB étant < un ∟ *(Cas II)*, DEB ſera néceſſairement > un ∟.
 
@@ -35,8 +31,6 @@ C. Q. F. D.
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uisque les ∀ rectilignes ADB, NDB ſont des ∟ *(Cas I).*
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. L’angle mixtiligne BDA ſera néceſſairement > un ∟, & ∀ mixtiligne BDE < un ∟.
 

@@ -1,6 +1,4 @@
-[Curated heading level=2: Propoſitio .11.]
-
-[Curated heading level=2 type=propositions: DAta linea recta]
+[Curated heading level=2 type=propositions: Propoſitio .11.]
 
 {dropcap:D|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ata linea recta a pũcto in ea ſignato ꝑpẽdicularẽ extrahere duob⁹q̃dem angul' eq̃lib⁹ac rectis vtrinqʒ ſubnixam.
 

@@ -34,8 +34,6 @@ CAS. I. Suppoſé que ∀ A ſoit ＝ à ∀ D.
 
 {dropcap:P|lines=2|style=plain}Uiſque ∀ A eſt ＝ à ∀ D (*Sup.* 1) & que les côtés AB, AC & DE, DF, qui comprennent ces ∀, ſont égaux chacun à chacun (*Hyp.* 1 & 2).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La baſe BC eſt ＝ à la baſe EF.
 
 [Margin]
@@ -44,15 +42,11 @@ Prop. 4. L. 1.
 
 Mais la baſe BC n'eſt point ＝ à la baſe EF (*Hyp.* 3).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Donc ∀ A ne peut point être ＝ à ∀ D.
 
 CAS. II. Suppoſé que ∀ A ſoit ＜ ∀ D.
 
 {dropcap:P|lines=2|style=plain}Uiſque ∀ A eſt ＜ ∀ D (*Sup.* 2). & que les côtés AB, AC & DE, DF, qui comprennent ces ∀, ſont égaux chacun à chacun (*Hyp.* 1 & 2).
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. La baſe BC eſt ＜ la baſe EF.
 
@@ -62,13 +56,9 @@ Prop. 24. L. 1.
 
 Or la baſe BC n'eſt pas ＜ que la baſe EF (*Hyp.* 3).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Donc ∀ A n'eſt pas ＜ ∀ D.
 
 Mais on a démontré qu'il ne lui eſt pas égal non plus (*Cas* 1).
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Par conſéquent ∀ A, qui eſt oppoſé à la plus grande baſe BC, eſt ＞ ∀ D, qui eſt oppoſé à la plus petite baſe EF.
 

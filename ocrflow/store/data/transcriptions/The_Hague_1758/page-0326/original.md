@@ -22,15 +22,9 @@ AE: EG = BF: FH.
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:J|lines=2|style=plain}Oignez les points A & B, Item G & H
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Tirez AH qui paſſera par le point I, au travers du Plan PY.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Tirez EI & IF.
 
@@ -42,23 +36,13 @@ Dem. 1. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Plans Plles ZX & PY ſont coupés par le Plan du △ ABH.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. AB eſt Plle à IF.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. De la même manière EI eſt Plle à GH.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant AI : IH = BF : FH
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Et AI : IH = AE : EG
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Donc AE: EG = BF: FH.
 

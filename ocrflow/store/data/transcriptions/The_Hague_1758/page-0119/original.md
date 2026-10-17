@@ -6,17 +6,11 @@
 
 [Figure: Fig. 2. circle AHG with center E; diameter from A through E and F to D; lines from F to G and H on the circumference, with dotted lines from E to G and H]
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Les droites FE+FH ſont auſſi > ED.
 En retranchant donc de part & d'autre la partie FE;
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. La droite FH ſera > FD; ou FD < FH.
 On démontrera de la même maniere que
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. La droite FD, qui eſt la prolongée de FA, eſt la plus petite de toutes les droites quelconques tirées du point F à la circonférence AHG.
 
@@ -24,16 +18,10 @@ C. Q. F. D. II.
 
 De plus, le côté FE étant commun aux deux △ FEB, FEC, le côté EB = au côté EC (*Def*. 15. *L*. 1), & ∀ compris FEB > ∀ compris FEC (*Ax*. 8. *L*. 1);
 
-[Curated heading level=4 type=numbered_item: 8.]
-
 8. La baſe FB ſera > la baſe FC.
 Par un raiſonnement ſemblable on prouvera que
 
-[Curated heading level=4 type=numbered_item: 9.]
-
 9. La droite FC eſt > FH.
-
-[Curated heading level=4 type=numbered_item: 10.]
 
 10. Partant, la droite FB ou FC plus proche de la ligne FA, paſſant par le centre, eſt > celle FC ou FH qui en eſt plus éloignée.
 
@@ -41,26 +29,16 @@ C. Q. F. D. III.
 
 ### II. *Préparation*. Fig. 2.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:F|lines=1|style=plain}Aites enſuite ∀ FEG = à ∀ FEH, & prolongez EG juſqu'à la rencontre de la ⊙ AHG.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point F au point G tirez la droite FG.
 
 Maintenant, EF étant commun aux deux △ FEH, FEG, le côté EH = au côté EG (*Def*. 15. *L*. 1), & ∀ compris FEH = à ∀ compris FEG (*II Prep*. 1).
 
-[Curated heading level=4 type=numbered_item: 11.]
-
 11. La baſe FH ſera = à la baſe FG.
 Mais parceque tout autre droite, différente de FG, ſe trouve néceſſairement, ou plus proche de la ligne FD ou plus éloignée d'elle, que FG.
 
-[Curated heading level=4 type=numbered_item: 12.]
-
 12. Une telle droite ſera auſſi < ou > FG (*Arg*. 10).
-
-[Curated heading level=4 type=numbered_item: 13.]
 
 13. C'eſt pourquoi on ne peut tirer du point F, de part & d'autre de la plus petite FD, plus de deux lignes droites FH, FG = entr'elles.
 

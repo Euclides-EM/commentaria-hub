@@ -3,8 +3,6 @@
 
 [Figure: triangular prism with vertices labelled C, D, B, E, A, F, with dotted diagonals]
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Partant le priſme triangulaire (ADE) peut être diviſé en trois pyramides triangulaires égaux.
 
 C. Q. F. D.

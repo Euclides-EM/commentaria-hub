@@ -22,43 +22,23 @@ Au point A un angle ſolide = à l'angle ſolide F.
 ### Reſolution.
 [/Subhead]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. D'Un point I pris à volonté ſur une des lignes de ſection autour de ∀ ſolide F, decendez une ⊥ IL ſur le Plan oppoſé GFH.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tiréz LF, LG, LH, HI & GI dans les Plans qui forment ∀ ſolide.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Sur la droite donnée AB, prenez AM = FG.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Faites au point A, un ∀ plan MAD = ∀ plan GFH.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Coupéz AD = FH.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Sur le même Plan MAD, faites un ∀ plan MAE égal à ∀ plan GFL.
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. Coupéz AE = FL.
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Du point E, ſur le Plan MAD élevez la ⊥ EC.
 
-[Curated heading level=4 type=numbered_item: 9.]
-
 9. Faites EC = LI.
-
-[Curated heading level=4 type=numbered_item: 10.]
 
 10. Tiréz AC.
 

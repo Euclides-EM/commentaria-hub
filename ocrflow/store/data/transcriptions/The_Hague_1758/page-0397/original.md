@@ -21,11 +21,7 @@
 
 ### Reſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:T|lines=2|style=plain}Irez le diamêtre AC dans le plus grand ⊙ ABI, qui coupera la ○ du ⊙ DF au point E.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par le point E, tirez la tangente HEI au ⊙ DEF, & prolongez la juſqu'à ce qu'elle rencontre la ○ concave du ⊙ ABI aux points H & I.
 
@@ -33,19 +29,13 @@
 Prop. 16. L.3. Dem. 2. L.1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Coupez la demi ○ ABC en deux au point B.
 
 [Margin]
 Prop. 30. L.3.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Diviſez encore le demi arc BC en deux également; & continuez cette diviſion des moitiez juſqu'à ce que l'arc KC ſoit plus petit que l'arc HC (*par le Lem. de la ſeconde Propoſition de ce Livre.*).
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Tirez la corde KC, & appliquez-le autant de fois qu'il eſt poſſible dans la ○ du ⊙ ABCI.
 

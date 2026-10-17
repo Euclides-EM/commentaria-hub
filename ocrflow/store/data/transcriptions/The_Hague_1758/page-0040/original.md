@@ -39,8 +39,6 @@ Dem. 2.
 
 {dropcap:P|lines=2|style=plain}Uis donc que la ligne ACD eſt une ligne droite ſur laquelle tombe la ligne EC.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Il s'enſuit, que la ſomme des ∀ contigus ACE + ECD eſt ═ à deux ⌐.
 
 [Margin]
@@ -48,8 +46,6 @@ P. 13. L. 1.
 [/Margin]
 
 Mais les ∀ ACE + ECB étant auſſi ═ à deux ⌐ (*Hyp.* 2).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les deux ∀ ACE + ECB ſont donc ═ aux deux ∀ ACE + ECD.
 
@@ -59,8 +55,6 @@ Ax. 1.
 
 Otant donc de part & d'autre ∀ commun ACE.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Les ∀ reſtans ECB & ECD ſeront égaux entr'eux.
 
 [Margin]
@@ -69,19 +63,13 @@ Ax. 3.
 
 Mais ∀ ECB étant le tout, & ∀ ECD ſa partie,
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Il s'enſuit, que le tout eſt égal à ſa partie.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Ce qui eſt impoſſible.
 
 [Margin]
 Ax. 8.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Partant, les lignes AC & BC ſe rencontrent directement; ou ne forment qu'une même ligne droite AB.
 

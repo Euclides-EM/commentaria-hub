@@ -29,11 +29,7 @@
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. CHerchez le centre C du ⊙ BAED.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et tirez les rayons CB, CD.
 
@@ -43,8 +39,6 @@ Dem. 1.
 [/Margin]
 
 {dropcap:P|lines=2|style=plain}Uiſque ∠ BCD eſt double de chacun des ∠ m & n (*Prop. 20. L. 3.*).
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. Il s’enſuit que ∠ m eſt = à ∠ n.
 
@@ -64,8 +58,6 @@ Ax. 7. L. 1.
 Dem. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}Es trois ∠ m + o + q du △ BAG ſont égaux aux trois ∠ p + n + r du △ GED.
 
 [Margin]
@@ -74,8 +66,6 @@ Prop. 32. L. 1.
 [/Margin]
 
 Mais ∠ q eſt = à ∠ r (*Cas I.*), & ∠ o = à ∠ p (*Prop. 15. L. 1.*), en retranchant donc d’une part les ∠ q + o & de l’autre leurs égaux les ∠ p + r,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les ∠ reſtans m & n ſeront = entr’eux.
 

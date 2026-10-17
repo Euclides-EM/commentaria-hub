@@ -23,19 +23,11 @@ II. P : N > P : M.
 
 ### I. Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Rétranchez de la plus grande M la partie 1N = à la plus petite N; Et le reſte R ſera ou <, ou > ou enfin = N; Suppoſez premierement que ce reſte ſoit < N.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. De ce reſte R prenez un multiple aR > P,
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Autant que aR eſt multiple de R, prenez 1aN & aN multiples de 1N & de N.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Faites la gdr. 2P double de P; la gdr 3P triple de P; & ainſi de ſuite juſques à ce que vous ſoyez parvenu au premier multiple de P, qui ſurpaſſe aN, que vous ſuppoſerez être 4P.
 
@@ -47,13 +39,9 @@ Dem. 1. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uiſque 4P eſt le premier des multiples de P, qui eſt > aN (Prep. 4),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le multiple précédent 3P n’eſt pas > aN; Ou bien aN n’eſt pas < 3P.
 
 De plus aR & 1aN étant équimult. de R & de 1N (Prep. 3),
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. La gdr. aR+1aN, ou aM eſt autant multiple de R+1N, ou M que aR l’eſt de R, Ou bien que aN de N. (Prep. 3).
 
@@ -61,13 +49,9 @@ De plus aR & 1aN étant équimult. de R & de 1N (Prep. 3),
 Prop. 1. L. 5.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc aM & aN ſont des équimult. de M & de N.
 
 D’ailleurs; aN & 1aN étant des équimult. des gdrs. égales N & 1N (Prep. 3 & 1),
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. La gdr. aN eſt = 1aN.
 
@@ -77,19 +61,13 @@ Ax. 6. L. 1.
 
 Mais aN n’eſt pas < 3P (Arg. 1);
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Partant 1aN n’eſt pas non plus < 3P.
 
 Or aR eſt > P. (Prep. 2).
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Donc, en ajoutant, aR+1aN, ou aM > 4P.
 
 Puis donc que aM eſt > 4P, & aN < 4P (Prep. 4); & que aM & aN ſont des equimult. des antécédens M & N, & 4P & 4P d’autres équimult. des conſéquens P & P (Arg. 3 & Prep. 4).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Il ſuit que M : P > N : P.
 
@@ -101,13 +79,9 @@ C. Q. F. D. 1.
 
 De plus, comme on vient d’établir que aN eſt < 4P (Prep. 4), & aM > 4P (Arg. 6),
 
-[Curated heading level=4 type=numbered_item: 8.]
-
 8. Il eſt évident que la gdr. 4P eſt > aN, & que la même gdr. 4P eſt < aM.
 
 Or 4P & 4P étant des équimult. des antécédens P & P; & aN & aM d’autres équimult. des conſéquens N & M,
-
-[Curated heading level=4 type=numbered_item: 9.]
 
 9. Il ſuit que P : N > P : M.
 

@@ -16,6 +16,7 @@ import { selectStyles } from '../../../../styles/selectStyles.ts'
 import type { annotation_SearchWithin, common_ALTOPart } from '@hub-api'
 import { startCase } from 'lodash'
 import {
+  ANNOTATION_SEARCH_ANNOTATION_ID_KEY,
   ANNOTATION_SEARCH_CATEGORIES_KEY,
   ANNOTATION_SEARCH_TERM_KEY,
   ANNOTATION_SEARCH_WITHIN_KEY,
@@ -95,7 +96,10 @@ export function AnnotationSearchMenu() {
     useScopedStorageKey(ANNOTATION_SEARCH_TERM_KEY),
     { defaultValue: '', storageSync: false },
   )
-  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState(searchTerm)
+  const [debouncedSearch, setDebouncedSearch] = useState({
+    term: searchTerm,
+    annotationId: state.annotationId,
+  })
   const [selectedCategories, setSelectedCategories] = useLocalStorageState<
     string[] | null
   >(useScopedStorageKey(ANNOTATION_SEARCH_CATEGORIES_KEY), {
@@ -108,6 +112,26 @@ export function AnnotationSearchMenu() {
     defaultValue: null,
     storageSync: false,
   })
+  const [searchAnnotationId, setSearchAnnotationId] = useLocalStorageState<
+    string | null
+  >(useScopedStorageKey(ANNOTATION_SEARCH_ANNOTATION_ID_KEY), {
+    defaultValue: null,
+    storageSync: false,
+  })
+  const isSearchForCurrentAnnotation = searchAnnotationId === state.annotationId
+
+  useEffect(() => {
+    if (isSearchForCurrentAnnotation) return
+    setSearchAnnotationId(state.annotationId)
+    setSearchTerm('')
+    setSelectedCategories(null)
+  }, [
+    isSearchForCurrentAnnotation,
+    setSearchAnnotationId,
+    setSearchTerm,
+    setSelectedCategories,
+    state.annotationId,
+  ])
 
   const { data: categories } = useAnnotationCategories(
     state.datasetId,
@@ -116,14 +140,18 @@ export function AnnotationSearchMenu() {
 
   useEffect(() => {
     const timeoutId = window.setTimeout(() => {
-      setDebouncedSearchTerm(searchTerm)
+      setDebouncedSearch({ term: searchTerm, annotationId: state.annotationId })
     }, 300)
     return () => {
       window.clearTimeout(timeoutId)
     }
-  }, [searchTerm])
+  }, [searchTerm, state.annotationId])
 
-  const normalizedSearch = debouncedSearchTerm.trim()
+  const normalizedSearch =
+    isSearchForCurrentAnnotation &&
+    debouncedSearch.annotationId === state.annotationId
+      ? debouncedSearch.term.trim()
+      : ''
 
   const activeCategories = useMemo(() => {
     if (!categories || categories.length === 0) {

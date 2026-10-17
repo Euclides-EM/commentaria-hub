@@ -18,15 +18,11 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aux lignes AB, CD, EF prenez la IV<sup>me</sup>. proportionelle KL.
 
 [Margin]
 Prop. 12. L. 6.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. De cette KL décrivez la Figure rectil. R, ſemblable & ſemblablement poſée, aux Figures P ou Q.
 
@@ -38,21 +34,15 @@ Prop. 18. L. 6.
 
 {dropcap:P|lines=2|style=plain}Uiſque AB : CD ⚌ EF : KL (*Prep.* 1); & qu'on a décrit de ces droites, les Fig. M & N, item P & R ſemblables chacune à chacune, & en des poſitions ſemblables (*Hyp.* 2 & *Prep.* 2),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. M : N ⚌ P : R (*Partie I de cette Propoſ.*).
 
 Or M : N ⚌ P : Q (*Hyp.* 1).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant P : R ⚌ P : Q.
 
 [Margin]
 Prop. 11. L. 5.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. C'eſt pourquoi R ⚌ Q.
 
@@ -62,13 +52,9 @@ Prop. 9. L. 5.
 
 De plus, ces mémes figures égales, ſont auſſi ſemblables & décrites ſemblablement des droites GH, KL (*Prep.* 2).
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Partant GH ⚌ KL *.
 
 Puis donc que AB : CD ⚌ EF : KL (*Prep.* 1), & que GH ⚌ KL (*Arg.* 4),
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. AB : CD ⚌ EF : GH.
 
@@ -84,8 +70,6 @@ C. Q. F. D. II.
 
 Car à cauſe de leur ſimilitude
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 1. Q : R ⚌ □ de GH : □ de KL.
 
 [Margin]
@@ -94,8 +78,6 @@ Coroll. 2.
 [/Margin]
 
 Or Q étant ⚌ à R (*Arg.* 3),
-
-[Curated heading level=3 type=numbered_item: 2.]
 
 2. Le □ de GH eſt ⚌ au □ de KL.
 

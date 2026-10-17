@@ -22,11 +22,7 @@ De CD retrancher CB = A.
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Du point C menez la droite CE = à la donnée A.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du centre C & du rayon CE décrivez le ⊙ CEB; qui coupe la plus grande CD en B.
 
@@ -40,23 +36,15 @@ Dem. 3.
 
 {dropcap:L|lines=2|style=plain}Es droites CB CE, étant menées du centre C à la ○ BEF *(Reſ. 2.)*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Elles ſont des rayons, d'un même ⊙ BEF.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, CB = CE.
 
 Or la droite A étant = à la droite CE *(Reſ. 1.)*; & la droite CB étant = à la même droite CE *(Arg. 2.)*
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. La droite A eſt = à la droite CB.
 
 Mais la droite CB, fait partie de la droite entiere CD.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant, on a retranché de la plus grande CD, une partie CB = à la plus petite donnée A.
 

@@ -7,7 +7,7 @@
 
 *Les raiſons qui ont lieu entre les nombres* 3 & 7 *ou* 8 & 11 &c. *ſont des raiſons rationelles, & au contraire celles qui ſubſiſtent entre les nombres* 1 & √2, 3 & √3, √3 & √5 *ſont autant de raiſons incommenſurables.*
 
-[Curated heading level=4 type=numbered_item: §. 4.]
+[Curated heading level=4: §. 4.]
 
 §. 4. L'antécédent *d'une raiſon* M à N *eſt le premier des deux termes qu'on compare; & l'autre eſt nommé ſon* conſéquent.
 
@@ -15,17 +15,17 @@
 
 M : N *Caractériſtique qu'on énonce,* la raiſon de l'antécédant M au conſéquent N; *ou ſimplement* la raiſon de M à N.
 
-[Curated heading level=4 type=numbered_item: §. 5.]
+[Curated heading level=4: §. 5.]
 
 §. 5. *On appelle* expoſant de la raiſon, *le quotient qui reſulte de la diviſion de l'antécédent* M *par ſon conſéquent homogene* N. *Ainſi l'expoſant de la raiſon* 6: 2 *eſt* 6/2 = 3; *celui de la raiſon* 5 : 7 *eſt* 5/7. *On donne à ce quotient le nom d'expoſant, parcequ'il expoſe combien de fois le conſéquent contient ſon antécédent, ou qu'il y eſt contenu.*
 
-[Curated heading level=4 type=numbered_item: §. 6.]
+[Curated heading level=4: §. 6.]
 
 §. 6. *Les raiſons incommenſurables ont des expoſans, entant qu'on généraliſe la notion de la diviſion, & qu'on ſoumet les quantités incommenſurables à ſes opérations; ce qui peut ſe faire. Car quoiqu'on ne puiſſe diviſer effectivement* 1 *par* √2; *on peut cependant repréſenter le reſultat de cette diviſion arithmétiquement, ſous la forme de la fraction* 1/√2 *ou* 1 : √2, (*qu'on énonce* un diviſé par racine de deux), *que la Géométrie ſait exprimer par des lignes.*
 
 *Ainſi elle repreſente l'expreſſion* 1: √2, *par le rapport du côté* (AB) *à la diagonale* (AC) *du quarré.*
 
-[Curated heading level=4 type=numbered_item: §. 7.]
+[Curated heading level=4: §. 7.]
 
 §. 7. *Il y a donc des expoſans rationels & d'irrationels, ſelon que les termes de la raiſon ſont de l'un ou de l'autre genre. En général, de quelque nature que puiſſent être les grandeurs qui forment la raiſon, on repréſentera toujours ſon expoſant ſous la forme d'une fraction, où l'antécédent devient le numerateur & le conſéquent le dénominateur.*
 

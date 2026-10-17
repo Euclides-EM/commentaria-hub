@@ -9,7 +9,7 @@
 
 *de fois déterminé, reproduiſe l'unité, & qui ajoutée à elle même un autre nombre de fois déterminé, faſſe en même tems naître la racine quarrée du nombre* 2. *Puis donc que la diagonale* (AC) *du quarré* (ABCD) *repréſente la racine quarrée du nombre deux, le côte* (AD *ou* DC) *du quarré étant pris pour unité; on voit que la diagonale d'un quarré eſt incommenſurable à ſon côté* (Fig. 1).
 
-[Curated heading level=4 type=numbered_item: §. 8.]
+[Curated heading level=4: §. 8.]
 
 §. 8. *Il ſuit de-là, que* ſi deux grandeurs M & N ſont incommenſurables, M ne peut-être ni un multiple de N, ni une partie aliquote, ni enfin une partie aliquante de ce même N. *Car ſuppoſant le contraire, il arriveroit néceſſairement, que les grandeurs* M & N *pourroient être meſurées, par une même grandeur déterminée, repréſentative de l'unité; ce qui repugne à l'hypotheſe de l'incommenſurabilité* (Fig. 2).
 

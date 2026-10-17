@@ -5,11 +5,7 @@
 
 La ſphère ſuppoſée ne pouvant donc être ni < ni > que la ſphère ABCD.
 
-[Curated heading level=4 type=numbered_item: 12.]
-
 12. Elle la ſera égale.
-
-[Curated heading level=4 type=numbered_item: 13.]
 
 13. D'où il ſuit que la ſphère ABCD : ſphère HILK = A̅C̅³ : K̅I̅³.
 

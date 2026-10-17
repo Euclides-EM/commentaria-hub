@@ -27,25 +27,15 @@ CAS I. Soit A > C.
 
 {dropcap:P|lines=2|style=plain}Uis donc que A eſt > C
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La raiſon de A : B > C : B.
 Mais A : B = b : c (Hyp. 1).
 & invertendo C : B = b : a (Hyp. 2. & Prop. 4. L. 5. Coroll.).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant, la raiſon b : c > b : a.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Et de-là c eſt < a, ou a > c.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. On démontrera de-la même maniere, ſi A eſt = C, qu'auſſi a eſt = c; & encore de même, ſi A eſt < C, qu'auſſi a eſt < c.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant, ſelon que A eſt >, =, ou < C, a ſera auſſi >, =, ou < c.
 

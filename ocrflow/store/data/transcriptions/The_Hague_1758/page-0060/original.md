@@ -32,8 +32,6 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites AB, CE ſont deux Plles (*Prep.*) coupées par une même droite BC,
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les ∀ alternes *n* & *o* ſont ＝ entr'eux.
 
 [Margin]
@@ -42,8 +40,6 @@ Prop. 29. L. 1.
 
 De même; puiſque les droites AB, CE ſont deux Plles (*Prep.*) coupées par une même droite AD,
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. L'angle extérieur *p* eſt ＝ à ſon intérieur *m* oppoſé du même côté.
 
 [Margin]
@@ -51,8 +47,6 @@ Prop. 29. L. 1.
 [/Margin]
 
 L'angle *o* étant donc ＝ à ∀ *n* (*Arg.* 1) & ∀ *p* ＝ ∀ *m* (*Arg.* 2).
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. L'angle *o* ＋ *p* eſt ＝ aux angles *n* & *m* pris enſemble.
 
@@ -64,8 +58,6 @@ C. Q. F. D. I.
 
 Puis donc que ∀ *o* ＋ *p* eſt ＝ aux ∀ *n* ＋ *m* (*Arg.* 3); ſi on ajoute de part & d'autre l'angle commun *r*,
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Les ∀ *o* ＋ *p* ＋ *r* ſeront ＝ aux trois ∀ *n* ＋ *m* ＋ *r* du △ ABC.
 
 [Margin]
@@ -74,15 +66,11 @@ Ax. 2.
 
 Mais ces ∀ *o* ＋ *p* ＋ *r* ſont des ∀ contigus, formés par la ligne BC, qui rencontre AD au même point C.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Par conſéquent, les ∀ *o* ＋ *p* ＋ *r* ſont ＝ à deux ⌐.
 
 [Margin]
 Prop. 13. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Partant, les trois ∀ *n* ＋ *m* ＋ *r*, qui ſont ＝ aux ∀ *o* ＋ *p* ＋ *r* (*Arg.* 4), ſont auſſi ＝ à deux ⌐.
 

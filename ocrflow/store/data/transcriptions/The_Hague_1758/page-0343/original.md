@@ -21,19 +21,11 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Prolongez LK & FG vers P, juſqu'à ce qu'elles s'y rencontrent.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Prolongez IM, juſqu'à ce qu'elle rencontre FG en Q.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Et EH juſqu'en O.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Tiréz QA, PB, OC & ND.
 
@@ -46,15 +38,9 @@ Dem. 1. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ⊟s FHCA & QOCA ont la même baze ABCD & que leurs lignes inſiſtantes AF, AQ; ED, DN; BG, BP; & HC, CO; ſont dans les directions FP & EO.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le ⊟ FHCA eſt égal au ⊟ QOCA.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. De la même maniere le ⊟ QOCA eſt = au ⊟ ILCA.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant le ⊟ FHCA eſt égal au ⊟ ILCA.
 

@@ -2,33 +2,7 @@
 
 a.b.f.c.d.e.⁊.c.f.e. Inuenio quoqʒ ſm̃ doctrinam iſtius tria latera tetragonica iſtoꝝ trium triangulorum.qui ſunt.g.h.h.k.⁊.k.l.⁊ erigo.h.k.perpendiculariter ſuper.g.h.⁊ produco.g.k.eritqʒ per penultimã quadratum primi.g.k.equale quadratis duarum linearum.g.h.⁊.h.k.⁊ tertium latus.k.l.erigo perpendiculariter ſuper lineam.g.k.⁊ produco lineam.g.l.eritqʒ per penultimam primi.g.l.latus tetragonicum totius figure rectilinee propoſite. Explicit liber ſecundus. Incipit liber tertius.
 
-[Curated heading level=1: LIBER III]
-
-[Curated heading level=2 type=definitions: QUoꝝ diametri ſunt eq̃les]
-
-[Curated heading level=2 type=definitions: Circulũ linea ꝯtingere]
-
-[Curated heading level=2 type=definitions: Circuli ſeſe contingere dicunt̃]
-
-[Curated heading level=2 type=definitions: Recte linee in circulo]
-
-[Curated heading level=2 type=definitions: Plus vero diſtare a]
-
-[Curated heading level=2 type=definitions: Recta linea portionũ circuli]
-
-[Curated heading level=2 type=definitions: Portio vero circũferentie arcꝰ]
-
-[Curated heading level=2 type=definitions: Angulus aũt portionis dicit̃]
-
-[Curated heading level=2 type=definitions: Supra arcũ angulus conſiſtere]
-
-[Curated heading level=2 type=definitions: Sector circuli eſt figura]
-
-[Curated heading level=2 type=definitions: Angulus aũt qui ab]
-
-[Curated heading level=2 type=definitions: Sil'es circuloꝝ portiões dicũt̃]
-
-[Curated heading level=2 type=definitions: Arcꝰ quoqʒ ſimiles ſunt]
+[Curated heading level=1 type=Books: Book 3]
 
 {dropcap:Q|lines=11|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Uoꝝ diametri ſunt eq̃les.ipſos circulos eq̃les eſſe. Maiores aũt quoꝝ maiores ⁊ minores quoꝝ minores. ¶Circulũ linea ꝯtingere dicitur:que cũ circulũ tangat in vtrãqʒ partẽ eiecta.circulũ non ſecat. ¶Circuli ſeſe contingere dicunt̃ qui tangentes ſeinuicem non ſecant. ¶Recte linee in circulo equaliter diſtare dicũt̃ a centro.cũ a centro ad ipſas ducte perpendiculares fuerint equales. ¶Plus vero diſtare a centro dicit̃.in quã ꝑpendicularis longior cadit. ¶Recta linea portionũ circuli cõtinẽs corda noiat̃. ¶Portio vero circũferentie arcꝰ nũcupat̃. ¶Angulus aũt portionis dicit̃ qͥ a corda ⁊ arcu continet̃. ¶Supra arcũ angulus conſiſtere dicit̃.qui a quolibet pũcto arcus ad corde terminos duabus rectis lineis exeuntibꝰ cõtinet̃. ¶Sector circuli eſt figura q̃ ſub duabꝰ a cẽtro ductis lineis ⁊ ſub arcu qui ab eis cõprehendit̃ cõtinet̃. ¶Angulus aũt qui ab eis lineis ambitur ſupra centrũ cõſiſtere dicit̃. ¶Sil'es circuloꝝ portiões dicũt̃ i quibꝰ qui ſupra arcum conſiſtunt anguli ſibi inuicẽ ſũt eq̃les. ¶Arcꝰ quoqʒ ſimiles ſunt qui equos angulos predicto modo ſuſcipiunt.
 

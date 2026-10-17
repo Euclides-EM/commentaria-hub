@@ -22,15 +22,11 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque le côté AB ⟩ AC (*Hyp.*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Faites AD ═ AC.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point C au point D tirez la droite CD.
 
@@ -42,15 +38,11 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque le côté AD eſt ═ au côté AC (*Prep.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le △ ACD eſt iſoſcéle.
 
 [Margin]
 D. 25. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, les ∀ *m* & *n* ſur la baſe CD ſont ═ entr'eux.
 
@@ -60,8 +52,6 @@ Prop. 5. L. 1.
 
 Or ∀ *m* étant un ∀ extérieur du △ DCB.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Il s'enſuit, qu'il eſt ⟩ ∀ intérieur oppoſé DBC.
 
 [Margin]
@@ -70,8 +60,6 @@ Prop. 16. L. 1.
 
 Mais ∀ *m* eſt ═ à ∀ *n* (*Arg.* 2).
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Donc ∀ *n* eſt auſſi ⟩ ∀ DBC.
 
 [Margin]
@@ -79,8 +67,6 @@ N. C.
 [/Margin]
 
 Et ſi à ∀ *n* on ajoute encore ∀ *p*.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. ∀ *n* ┼ *p*, ou ∀ ACB, oppoſé au plus grand côté AB, ſera à plus forte raiſon ⟩ ∀ DBC, ou ABC oppoſé au moindre côté AC.
 
