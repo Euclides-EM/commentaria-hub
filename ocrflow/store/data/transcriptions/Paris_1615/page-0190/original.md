@@ -2,6 +2,8 @@
 
 [Ornament]
 
+[Curated heading level=1 type=books: Book 6]
+
 # ELEMENT SIXIESME.
 
 ## DEFINITIONS.

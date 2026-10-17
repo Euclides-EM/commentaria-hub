@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 1]
+
 # ÉLÉMENS DE GÉOMÉTRIE.
 
 # LIVRE PREMIER.

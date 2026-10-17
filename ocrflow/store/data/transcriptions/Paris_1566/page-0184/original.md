@@ -1,5 +1,7 @@
 <!-- Page number: 79 -->
 
+[Curated heading level=1 type=books: Book 8]
+
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber octauus.
 
 [Curated heading level=2 type=propositions: Propoſitio prima.]

@@ -2,6 +2,8 @@
 
 [Ornament: printer's foliate ornament]
 
+[Curated heading level=1 type=books: Book 11]
+
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber vndecimus.
 
 [Curated heading level=2 type=definitions: Diffinitio prima.]

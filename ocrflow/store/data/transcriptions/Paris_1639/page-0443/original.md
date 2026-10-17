@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Gnomonics]
+
 # DE LA GNOMONIQVE, OV HOROLOGEOGRAPHIE.
 
 [Curated heading level=2 type=propositions: Propos. 1. pag. 750. du 5.]

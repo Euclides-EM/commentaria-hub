@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 10]
+
 # EVCLIDIS ELEMENTORVM LIBER DECIMVS.
 
 # LE DIXIESME LIVRE DES ELEMENTS D'EVCLIDE.

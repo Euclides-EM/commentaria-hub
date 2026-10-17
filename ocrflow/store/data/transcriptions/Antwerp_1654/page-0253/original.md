@@ -1,5 +1,7 @@
 <!-- Page number: 220 -->
 
+[Curated heading level=1 type=books: Book 11]
+
 # ELEMENTORVM GEOMETRIÆ, LIBER VNDECIMVS,
 
 [Subhead]

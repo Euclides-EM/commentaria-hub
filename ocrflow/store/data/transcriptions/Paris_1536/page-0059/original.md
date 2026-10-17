@@ -1,6 +1,6 @@
 [Ornament: ornamental headpiece]
 
-[Curated heading level=1 type=books: Book 2]
+[Curated heading level=2 type=books: Book 2]
 
 ## Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Secundum elementorum Euclidis, Demonstrationes.
 

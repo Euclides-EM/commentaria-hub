@@ -1,6 +1,8 @@
 <!-- Running title: LIBER V. -->
 <!-- Page number: 144 -->
 
+[Curated heading level=1 type=books: Book 5]
+
 # EVCLIDIS ELEMENTVM V.
 
 [Ornament: floral headpiece]

@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 8]
+
 # EVCLIDIS ELEMENTORVM LIBER OCTAVVS.
 
 # LE HVICTIESME LIVRE DES ELEMENTS D'EVCLIDE.

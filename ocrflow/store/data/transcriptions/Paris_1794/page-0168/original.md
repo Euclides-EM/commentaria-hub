@@ -1,5 +1,7 @@
 [Ornament]
 
+[Curated heading level=1 type=books: Book 5]
+
 # LIVRE V.
 
 [Ornament]

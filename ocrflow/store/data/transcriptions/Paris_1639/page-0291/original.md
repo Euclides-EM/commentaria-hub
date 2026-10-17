@@ -1,5 +1,7 @@
 [Ornament]
 
+[Curated heading level=1 type=books: Practical Arithmetic]
+
 # BRIEF TRAICTÉ DE L'ARITHMETIQVE PRACTIQVE.
 
 *En l'Arithmetique practique il y a quatre regles principales, par le moyen deſquelles ſe demeſlent toutes queſtions d'Arithmetique, à ſçauoir l'Addition, la Souſtraction, la Multiplication, & la Diuiſion.*

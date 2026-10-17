@@ -1,5 +1,7 @@
 <!-- Page number: 192 -->
 
+[Curated heading level=1 type=books: Book 16]
+
 # FRANCISCI FLVSSATIS Candallæ Elementorum geometricorum Liber decimusſextus.
 
 [Curated heading level=2 type=propositions: Propoſitio prima.]

@@ -1,5 +1,7 @@
 <!-- Page number: 44 -->
 
+[Curated heading level=1 type=books: Book 2]
+
 # Das ander bůch Euclidis
 
 [Subhead]

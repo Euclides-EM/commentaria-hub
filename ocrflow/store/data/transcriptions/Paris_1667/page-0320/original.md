@@ -3,6 +3,8 @@
 
 [Ornament: headpiece of three rows of fleuron ornaments]
 
+[Curated heading level=1 type=books: Book 14]
+
 # NOUVEAUX ELEMENS DE GEOMETRIE.
 
 # LIVRE QUATORZIEME.

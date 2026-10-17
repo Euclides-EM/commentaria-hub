@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/oder Schlußreden: -->
 <!-- Page number: 153 -->
 
+[Curated heading level=1 type=books: Book 6]
+
 # Das ſechßt bůch Euclidis
 
 [Subhead]

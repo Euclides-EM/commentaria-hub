@@ -3,6 +3,8 @@
 
 [Ornament: decorative headpiece band of fleurons]
 
+[Curated heading level=1 type=books: Book 4]
+
 # NOVVEAVX ELEMENS DE GEOMETRIE.
 
 # LIVRE QVATRIEME.

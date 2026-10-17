@@ -3,6 +3,8 @@
 
 [Ornament: headpiece of repeated fleuron rows]
 
+[Curated heading level=1 type=books: Book 15]
+
 # NOVVEAVX ELEMENS DE GEOMETRIE.
 
 # LIVRE QVINZIEME.

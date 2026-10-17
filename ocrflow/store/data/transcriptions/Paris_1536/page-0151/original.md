@@ -2,7 +2,7 @@
 
 [Ornament: ornamental headpiece]
 
-[Curated heading level=1 type=books: Book 6]
+[Curated heading level=2 type=books: Book 6]
 
 ## Orontij Finei Delphinatis, Regii mathematicarvm professoris, In Sextum elementorum Euclidis, Demonstrationes.
 

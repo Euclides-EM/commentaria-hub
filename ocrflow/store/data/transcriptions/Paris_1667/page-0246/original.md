@@ -3,6 +3,8 @@
 
 [Ornament: floral headpiece band]
 
+[Curated heading level=1 type=books: Book 11]
+
 # NOUVEAUX ELEMENS DE GEOMETRIE.
 
 # LIVRE ONZIEME.

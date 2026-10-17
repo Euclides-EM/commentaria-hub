@@ -1,5 +1,7 @@
 <!-- Page number: 176 -->
 
+[Curated heading level=1 type=books: Book 14]
+
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimusquartus.
 
 [Curated heading level=2 type=propositions: Propoſitio prima.]

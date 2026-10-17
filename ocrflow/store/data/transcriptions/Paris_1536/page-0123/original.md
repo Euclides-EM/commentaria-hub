@@ -1,6 +1,6 @@
 <!-- Page number: 107 -->
 
-[Curated heading level=1 type=books: Book 5]
+[Curated heading level=2 type=books: Book 5]
 
 ## Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Quintum elementorum Euclidis, Demonstrationes.
 

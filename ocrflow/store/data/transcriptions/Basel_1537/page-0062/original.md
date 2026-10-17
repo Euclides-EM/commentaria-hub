@@ -1,5 +1,7 @@
 <!-- Page number: 53 -->
 
+[Curated heading level=1 type=books: Book 3]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS{printer-error-correction:TERTIVS}.
 
 ## Ex Campano. Diffinitiones.

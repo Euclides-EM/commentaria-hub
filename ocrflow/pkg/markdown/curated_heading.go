@@ -8,6 +8,7 @@ import (
 
 const CuratedHeadingPrefix = "curated-heading"
 const DefaultIndexType = "default"
+const BooksIndexType = "books"
 
 var (
 	curatedHeadingPattern = regexp.MustCompile(`^\[Curated heading ([^:]+): ([^\]]+)\]$`)

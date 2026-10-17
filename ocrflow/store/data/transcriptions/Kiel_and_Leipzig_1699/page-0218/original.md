@@ -15,6 +15,8 @@ und ad | Rührstrich n. 16. III. u. 2. Besch. III.
 
 Wird also allezeit der auff den Kreyß khdg stossende/und aus a gezogene Strich ad, wenn desselben gleichseitiges Viereck eben so groß ist/ als das rechtwincklichte Viereck / welches von dem gantzen schneidenden Strich ah, und dem zwischen dem Düttel a und äussern Kreyßkrümme stehenden Stück ag begriffen wird/ein Rührstrich seyn. W. Z. B.
 
+[Curated heading level=1 type=books: Book 4]
+
 # Das IV. Buch Euclidis.
 
 ## Beschreibungen.

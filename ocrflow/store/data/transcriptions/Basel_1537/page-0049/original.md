@@ -1,5 +1,7 @@
 <!-- Page number: 40 -->
 
+[Curated heading level=1 type=books: Book 2]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS.
 
 ## Euclides ex Campano.

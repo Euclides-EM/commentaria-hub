@@ -1,6 +1,8 @@
 <!-- Running title: LIBER DUODECIMUS. -->
 <!-- Page number: 287 -->
 
+[Curated heading level=1 type=books: Book 12]
+
 # EUCLIDIS ELEMENTORUM LIBER DUODECIMUS.
 
 ## LEMMA I.

@@ -1,6 +1,8 @@
 <!-- Page number: 58 -->
 <!-- Running title: EVCLIDIS -->
 
+[Curated heading level=1 type=books: Book 6]
+
 # EVCLIDIS ELEMENTORVM SEXTVS.
 
 [Curated heading level=2 type=propositions: PROP. I.]

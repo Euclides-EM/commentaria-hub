@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 12]
+
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber duodecimus.
 
 [Curated heading level=2 type=propositions: Propoſitio prima.]

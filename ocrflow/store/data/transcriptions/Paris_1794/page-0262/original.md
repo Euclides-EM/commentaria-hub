@@ -1,6 +1,8 @@
 <!-- Page number: 234 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
+[Curated heading level=1 type=books: Appendix to Books 6 and 7]
+
 # APPENDICE AUX LIVRES VI ET VII.
 
 [Subhead]

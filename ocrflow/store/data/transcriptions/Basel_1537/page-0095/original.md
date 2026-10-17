@@ -1,5 +1,7 @@
 <!-- Page number: 86 -->
 
+[Curated heading level=1 type=books: Book 4]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVARTVS
 
 ## Ex Campano. Diffinitiones

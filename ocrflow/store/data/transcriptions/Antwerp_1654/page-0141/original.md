@@ -1,5 +1,7 @@
 <!-- Page number: 108 -->
 
+[Curated heading level=1 type=books: Book 4]
+
 # ELEMENTORVM GEOMETRIÆ. LIBER IV.
 
 {dropcap:H|lines=6|style=decorated|decoration="foliate woodcut initial"}Ic liber totus problematicus eſt, docet, quo artificio figuræ præſertim ordinatæ circulo inſcribantur & conſcribantur. Amplißimus eſt illius vſus in munitionibus extruendis: & ex illo quaſi fonte eximiæ illæ ſinuum, tangentium, & ſecantium tabulæ ingenti bono Matheſeos fluxêre.

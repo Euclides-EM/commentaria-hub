@@ -17,6 +17,8 @@ Wenn man derowegen zu zwo ungleichen Grössen zwey gleiche Stücke thut / so wer
 
 ---
 
+[Curated heading level=1 type=books: Book 6]
+
 # Das VI. Buch Euclidis.
 
 ## Beschreibungen.

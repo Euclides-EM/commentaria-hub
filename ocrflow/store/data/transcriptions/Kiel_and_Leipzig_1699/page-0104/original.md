@@ -2,6 +2,8 @@
 
 <!-- Page number: 87 -->
 
+[Curated heading level=1 type=books: Book 2]
+
 # Das II. Buch Euclidis.
 
 ## Vorbericht.

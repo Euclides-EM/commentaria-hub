@@ -10,6 +10,8 @@ CORRELARIVM Et manifestum est quod sicut sector ad sectorem,sic angulus ad angul
 
 SEXTI LIBRI FINIS.
 
+[Curated heading level=1 type=books: Book 7]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEPTIMVS.
 
 ## Ex Campano triplex principiorum genus. Primum. Diffinitiones.

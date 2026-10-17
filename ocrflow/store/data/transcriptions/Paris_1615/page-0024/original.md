@@ -1,5 +1,7 @@
 [Ornament]
 
+[Curated heading level=1 type=books: Book 1]
+
 # ELEMENT PREMIER.
 
 ## DEFINITIONS.

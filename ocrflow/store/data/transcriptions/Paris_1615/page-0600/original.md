@@ -2,6 +2,8 @@
 
 [Ornament]
 
+[Curated heading level=1 type=books: Book 13]
+
 # ELEMENT TREIZIESME.
 
 [Curated heading level=2 type=propositions: THEOR. 1. PROP. I.]

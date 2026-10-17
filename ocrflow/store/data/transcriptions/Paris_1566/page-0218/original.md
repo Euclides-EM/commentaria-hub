@@ -2,6 +2,8 @@
 
 [Ornament: floral printer's ornament]
 
+[Curated heading level=1 type=books: Book 10]
+
 # EVCLIDIS DEMONSTRATIONum reſtitutarum Liber decimus.
 
 [Curated heading level=2 type=definitions: Diffinitio prima.]

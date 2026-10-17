@@ -8,6 +8,8 @@
 o
 [/Handwritten]
 
+[Curated heading level=1 type=books: Appendix to Book 4]
+
 # APPENDICE AU LIVRE IV.
 
 [Ornament: tapered horizontal flourish]

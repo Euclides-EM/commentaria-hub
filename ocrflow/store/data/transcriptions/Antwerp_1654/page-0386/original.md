@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Appendix]
+
 # APPENDIX
 
 [Subhead]

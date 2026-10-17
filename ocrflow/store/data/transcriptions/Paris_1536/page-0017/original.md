@@ -1,6 +1,6 @@
 [Ornament: decorative woodcut border]
 
-[Curated heading level=1 type=books: Book 1]
+[Curated heading level=2 type=books: Book 1]
 
 ## Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Primum elementorum Euclidis, Demonstrationes.
 

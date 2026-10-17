@@ -1,5 +1,7 @@
 [Ornament: horizontal typographic rule]
 
+[Curated heading level=1 type=books: Book 8]
+
 # LIVRE VIII.
 
 [Subhead]

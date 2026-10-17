@@ -122,6 +122,18 @@ Scope is proposition level or above. Do not recommend layers for sub-proposition
 
 **Placement.** Each item entry goes immediately before the printed header or numbered line it indexes, with one blank line before and after. It must come after the book or section header that groups it, never before it, or it nests under the previous group. Printed lines never move; a `missing_headers` entry (such as a supplied `LIBER N`) may be moved to fix the order. A printed paragraph that holds several items (run-in definitions) gets no entries, and existing entries stacked before it are removed. When several layers attach to the same line, order them: `propositions`, `theorems`, `problems`, `lemmas`, `added_propositions`, `additions`, `definitions`, `postulates`, `axioms`, all before any existing curated heading for the same item.
 
+### Books layer
+
+The `books` layer gives a language-neutral navigation over the books of the edition (`LIBER PRIMVS`, `Das erſt buͦch`, `LIVRE II`, ...). Recommend it for every edition that prints more than one book header, or one book header of a multi-book work.
+
+- One entry per book: `[Curated heading level=N type=books: Book 1]`. The text is always plain English `Book ` plus the arabic book number, never the edition's wording or language. Use the book number the edition prints, not its position in the volume: an edition with books I-VI and XI-XII gets `Book 11` and `Book 12`.
+- Place the entry immediately before the printed header that opens the book, with one blank line before and after it. When the book title is printed as several consecutive header lines (`# EUCLIDIS ELEMENTORUM` / `# LIBER PRIMUS`), place it before the first of them. When the book's principles (definitions, postulates, axioms) are printed under their own header before the book header, the book opens at the first of those headers.
+- Use the same level as that printed book header (`#` gives `level=1`, `##` gives `level=2`).
+- When the `books` layer is requested, the hub's index builder nests every heading after a `books` entry under it, up to the next `books` entry, whatever their levels.
+- A book header that is printed twice for the same book (a running repeat, a second header for another translation of the same book, a misnumbered header that `{printer-error-correction:...}` already corrects) gets one entry, at the book's first header. A header whose printed number is wrong without a correction is a finding (possible printer's error); index the book by its actual position in the sequence.
+- Separate works and appendices that are not numbered books (the Data, Optics, Phaenomena, Catoptrics, an appended treatise, an appendix printed as its own book-level unit) also get an entry, placed and levelled the same way, with their standard English title as text (`Data`, `Optics`, `On the Heavy and the Light`, `Practical Arithmetic`, `Appendix to Book 4`), so they do not nest under the preceding book. When a work opens with its own dedication, the entry goes before the dedication. Front matter before the first book (title page, dedications, prefaces), errata, indices and notes get no entry. Books XIV and XV (Hypsicles, Campanus) are numbered books and get `Book N` entries.
+- Placement rules for other layers apply: the entry never moves printed lines, and when another typed layer attaches to the same line, the `books` entry comes first.
+
 ### Other layers
 
 Also look for other structures with a clear, repeated pattern, such as `[Margin]` blocks with recurring topics, terms or figure callouts (`grep -n -A2 '\[Margin\]' <dir>/page-*/original.md | head -50`, sample rather than read everything). Recommend only layers with a clear, repeated pattern; do not list every one-off item.

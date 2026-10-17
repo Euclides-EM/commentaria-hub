@@ -3,6 +3,8 @@
 
 [Ornament: floral headpiece]
 
+[Curated heading level=1 type=books: Book 10]
+
 # NOUVEAUX ELEMENS DE GEOMETRIE.
 
 # LIVRE DIXIEME.

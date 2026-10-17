@@ -3,6 +3,8 @@
 
 [Ornament: typographic headpiece composed of rows of small fleurons and circles]
 
+[Curated heading level=1 type=books: Book 2]
+
 # NOVVEAUX ELEMENS DE GEOMETRIE.
 
 # LIVRE SECOND.

@@ -1,6 +1,8 @@
 <!-- Running title: Propoſition/oder Schutzreden. -->
 <!-- Page number: 95 -->
 
+[Curated heading level=1 type=books: Book 4]
+
 # Das vierdt bůch Euclidis
 
 [Subhead]

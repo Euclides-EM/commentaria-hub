@@ -1,5 +1,7 @@
 [Ornament]
 
+[Curated heading level=1 type=books: Book 6]
+
 # EVCLIDIS DEMONSTRATIONum reſtitutarum Liber ſextus.
 
 [Curated heading level=2 type=definitions: Diffinitio prima.]

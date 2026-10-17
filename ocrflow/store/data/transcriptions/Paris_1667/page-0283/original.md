@@ -3,6 +3,8 @@
 
 [Ornament: headpiece of three rows of small fleuron ornaments]
 
+[Curated heading level=1 type=books: Book 12]
+
 # NOVVEAVX ELEMENS DE GEOMETRIE.
 
 # LIVRE DOVZIEME.

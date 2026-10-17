@@ -1,6 +1,8 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 70 -->
 
+[Curated heading level=1 type=books: Book 3]
+
 # EUCLIDIS ELEMENTORUM
 
 # LIBER TERTIUS.

@@ -2,6 +2,8 @@
 
 <!-- Page number: 1 -->
 
+[Curated heading level=1 type=books: Book 1]
+
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI, MATHEMATICORVM facile principis: primum ex Campano, deinde ex Theone græco commentatore, interprete Bartholomæo Zamberto Veneto, Geometricorum elementorum liber primus.
 
 ## Ex Campano: triplex principiorum genus. Primum Diffinitiones.

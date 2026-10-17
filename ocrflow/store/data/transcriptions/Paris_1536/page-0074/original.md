@@ -1,4 +1,4 @@
-[Curated heading level=1 type=books: Book 3]
+[Curated heading level=2 type=books: Book 3]
 
 ## Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Tertium elementorum Euclidis, Demonſtrationes.
 

@@ -1,5 +1,7 @@
 <!-- Page number: 420 -->
 
+[Curated heading level=1 type=books: Book 13]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER TERTIVSDECIMVS,
 
 ## Euclides ex Campano. Propoſitio 1

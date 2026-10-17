@@ -1,5 +1,7 @@
 <!-- Page number: 56 -->
 
+[Curated heading level=1 type=books: Book 2]
+
 # ELEMENTORVM GEOMETRIÆ LIBER SECVNDVS.
 
 {dropcap:H|lines=6|style=decorated|decoration="foliate woodcut initial with a face"}Ic liber mole paruus, at præſtantiâ ac vtilitate theorematum planè magnus. Tyrones, ſcio quod dico, nondum capient; ſed eſſe verißimum vlterius prouecti, vſu ipſo certißimè intelligent.

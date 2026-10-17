@@ -3,6 +3,8 @@
 
 [Ornament: headpiece of three rows of typographic fleurons]
 
+[Curated heading level=1 type=books: Book 9]
+
 # NOVVEAVX ELEMENS DE GEOMETRIE.
 
 # LIVRE NEVVIEME.

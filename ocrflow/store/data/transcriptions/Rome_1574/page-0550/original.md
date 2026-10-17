@@ -1,6 +1,8 @@
 <!-- Running title: LIBER VII. -->
 <!-- Page number: 233 -->
 
+[Curated heading level=1 type=books: Book 7]
+
 # EVCLIDIS ELEMENTVM VII.
 
 [Ornament: floral headpiece]

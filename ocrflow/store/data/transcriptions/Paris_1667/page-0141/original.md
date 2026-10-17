@@ -5,6 +5,8 @@
 
 [Ornament: headpiece row of fleurons]
 
+[Curated heading level=1 type=books: Book 6]
+
 # NOUVEAUX ELEMENS DE GEOMETRIE.
 
 # LIVRE SIXIEME.

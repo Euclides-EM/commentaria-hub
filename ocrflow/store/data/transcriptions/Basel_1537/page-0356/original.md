@@ -18,6 +18,8 @@ Inuentis iam longitudine incommensurabilibus rectis ut α,β,& plures aliæ magn
 
 DECIMI LIBRI FINIS.
 
+[Curated heading level=1 type=books: Book 11]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER VNDECIMVS,
 
 ## Eucli.ex Campano Diffinitiones.

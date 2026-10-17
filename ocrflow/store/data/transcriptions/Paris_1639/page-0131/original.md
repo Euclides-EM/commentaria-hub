@@ -2,6 +2,8 @@
 
 [Ornament]
 
+[Curated heading level=1 type=books: Book 3]
+
 # LE TROISIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
 ## DEFINITIONS.

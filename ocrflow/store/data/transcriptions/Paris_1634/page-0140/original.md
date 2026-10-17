@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 2]
+
 # EVCLIDIS ELEMENTORVM LIBER SECVNDVS.
 
 # LE SECOND LIVRE DES ELEMENTS D'EVCLIDE.

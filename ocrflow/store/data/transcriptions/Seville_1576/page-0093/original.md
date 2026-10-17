@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 3]
+
 # LIBRO TERCERO DELOS ELEMENTOS GEO
 
 [Subhead]

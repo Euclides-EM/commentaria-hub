@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Appendix on Plane Geometry]
+
 # APPENDIX GEOMETRIÆ PLANORVM.
 
 # L'APPENDIX DE LA GEOMETRIE DES PLANS.

@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 4]
+
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quartus.
 
 [Curated heading level=2 type=definitions: Diffinitio 1.]

@@ -12,6 +12,8 @@ prima ad id quod ex sc̃da. Est igitur sicut δ β ad β α, sic quod ex δ β a
 
 F I N I S.
 
+[Curated heading level=1 type=books: Book 14]
+
 # EVCLIDI MEGARENSI CLARISSIMO PHILOSOPHO MATHEMATICORVMQVE facile principi deputatus liber de regularium corporū proportione Campano cōmentatore, qui in ordine est decimusquartus.
 
 ## Eucli. ex Camp. Propositio 1

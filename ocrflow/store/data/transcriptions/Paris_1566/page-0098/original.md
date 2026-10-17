@@ -2,6 +2,8 @@
 
 [Ornament: floral fleuron]
 
+[Curated heading level=1 type=books: Book 5]
+
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber quintus.
 
 [Curated heading level=2 type=definitions: Diffinitio 1.]

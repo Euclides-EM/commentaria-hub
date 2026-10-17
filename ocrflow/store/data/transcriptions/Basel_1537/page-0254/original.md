@@ -1,5 +1,7 @@
 <!-- Page number: 243 -->
 
+[Curated heading level=1 type=books: Book 10]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMET,ICORVM{printer-error-correction:GEOMETRICORVM} ELEMENTORVM LIBER DECIMVS.
 
 ## Ex Campauo{printer-error-correction:Campano} — Diffinitiones

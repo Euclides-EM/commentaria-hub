@@ -1221,6 +1221,9 @@ func buildNodes(categories []string, data []categoryPageContent) []*annotation.I
 		if !ok {
 			continue
 		}
+		if item.indexType == markdown.BooksIndexType && !item.hidden {
+			rank = -1
+		}
 
 		for len(stack) > 0 && stack[len(stack)-1].rank >= rank {
 			stack = stack[:len(stack)-1]

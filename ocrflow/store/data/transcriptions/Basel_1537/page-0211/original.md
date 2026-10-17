@@ -1,5 +1,7 @@
 <!-- Page number: 200 -->
 
+[Curated heading level=1 type=books: Book 8]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS.
 
 ## Ex Campano. — *Diffinitiones*

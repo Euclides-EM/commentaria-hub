@@ -1,5 +1,7 @@
 <!-- Page number: 71 -->
 
+[Curated heading level=1 type=books: Book 3]
+
 # ELEMENTORVM GEOMETRIÆ. LIBER III.
 
 {dropcap:P|lines=6|style=decorated|decoration="foliate woodcut initial"}Erfectiſsimæ inter planas figuræ proprietates fundamentales hoc libro demonſtrantur. Libri vtilitas vel hoc ſolo innoteſcit; quod tractet de circulo, rerum admirabilium per Matheſim vniuerſam fonte vberrimo. Theoremata illuſtriora ſunt 16. 20. 21. 22. 31. 32. 35. 36.

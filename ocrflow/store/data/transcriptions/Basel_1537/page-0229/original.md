@@ -46,6 +46,8 @@ THEON ex Zamberto. Sint similes solidi numeri α, β. Dico quod α ad β ratione
 
 [Diagram: dotted number lines α, γ, δ, β, ε, ζ, η, θ]
 
+[Curated heading level=1 type=books: Book 9]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER NONVS.
 
 ## Ex Campano. Diffinitiones.

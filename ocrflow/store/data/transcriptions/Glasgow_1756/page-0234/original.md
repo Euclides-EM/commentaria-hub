@@ -1,6 +1,8 @@
 <!-- Running title: LIBER UNDECIMUS, -->
 <!-- Page number: 221 -->
 
+[Curated heading level=1 type=books: Book 11]
+
 # EUCLIDIS ELEMENTORUM LIBER UNDECIMUS.
 
 ## DEFINITIONES.

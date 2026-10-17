@@ -1,6 +1,8 @@
 <!-- Running title: LIBER III. -->
 <!-- Page number: 25 -->
 
+[Curated heading level=1 type=books: Book 3]
+
 # EVCLIDIS ELEMENTORVM TERTIVS.
 
 [Curated heading level=2 type=propositions: PROP. III.]

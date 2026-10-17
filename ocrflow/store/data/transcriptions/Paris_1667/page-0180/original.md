@@ -3,6 +3,8 @@
 
 [Ornament: floral headpiece composed of rows of fleuron type ornaments]
 
+[Curated heading level=1 type=books: Book 8]
+
 # NOUVEAUX ELEMENS DE GEOMETRIE.
 
 # LIVRE HUITIEME.

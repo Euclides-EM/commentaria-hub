@@ -1,6 +1,8 @@
 <!-- Running title: LIBER II. -->
 <!-- Page number: 13 -->
 
+[Curated heading level=1 type=books: Book 2]
+
 # EVCLIDIS ELEMENTORVM SECVNDVS.
 
 [Curated heading level=2 type=propositions: PROP. I.]

@@ -1,5 +1,7 @@
 <!-- Page number: I -->
 
+[Curated heading level=1 type=books: Book 1]
+
 # EVCLIDIS ELEMENTORVM
 # PRIMVS.
 

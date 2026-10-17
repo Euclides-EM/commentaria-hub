@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 9]
+
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber nonus.
 
 [Curated heading level=2 type=propositions: Propoſitio prima.]

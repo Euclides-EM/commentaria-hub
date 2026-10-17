@@ -1,6 +1,8 @@
 <!-- Running title: LIBER III. -->
 <!-- Page number: 96 -->
 
+[Curated heading level=1 type=books: Book 3]
+
 # EVCLIDIS ELEMENTVM III.
 
 [Ornament: floral headpiece]

@@ -1,5 +1,7 @@
 <!-- Page number: 516 -->
 
+[Curated heading level=1 type=books: Optics]
+
 # BARTHOLOMAEVS ZAMBERTVS VENETVS
 
 ## Ioanni Zamberto Veneto fratri humanissimo salutem perpetuam.

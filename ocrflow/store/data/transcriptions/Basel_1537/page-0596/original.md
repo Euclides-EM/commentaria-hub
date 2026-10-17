@@ -18,6 +18,8 @@ In circuli enim a b c, positione dati diametro b c assumptum sit datũ signũ d 
 
 Finis Datorum.
 
+[Curated heading level=1 type=books: On the Heavy and the Light]
+
 # EVCLIDIS DE LEVI ET PONDEROSO FRAGMENTVM.
 
 [Margin]

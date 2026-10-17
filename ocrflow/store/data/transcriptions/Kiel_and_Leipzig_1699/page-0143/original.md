@@ -14,6 +14,8 @@ W. Z. M.
 
 [Diagram: links ein Quadrat (schwach), rechts ein schiefes Viereck]
 
+[Curated heading level=1 type=books: Book 3]
+
 # Das III. Buch Euclidis.
 
 ## Beschreibungen.

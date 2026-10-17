@@ -2,6 +2,8 @@
 
 [Ornament: headpiece with foliate scrollwork and grotesque figures]
 
+[Curated heading level=1 type=books: Book 1]
+
 # Das erſt buͦch Euclidis /
 
 [Subhead]

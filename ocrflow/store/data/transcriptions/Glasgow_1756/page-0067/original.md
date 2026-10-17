@@ -1,6 +1,8 @@
 <!-- Page number: 52 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=1 type=books: Book 2]
+
 # EUCLIDIS ELEMENTORUM
 
 # LIBER SECUNDUS.

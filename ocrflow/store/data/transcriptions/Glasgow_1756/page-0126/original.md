@@ -1,6 +1,8 @@
 <!-- Running title: LIBER QUARTUS. -->
 <!-- Page number: 111 -->
 
+[Curated heading level=1 type=books: Book 4]
+
 # EUCLIDIS ELEMENTORUM LIBER QUARTUS.
 
 ## DEFINITIONES.

@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Selected Theorems from Archimedes]
+
 # ANDREÆ TACQVET E SOCIETATE IESV SELECTA EX ARCHIMEDE THEOREMATA.
 
 Via faciliori ac breuiori demonſtrata, & nouis inuentis auctæ.

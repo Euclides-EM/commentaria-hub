@@ -1,5 +1,7 @@
 [Ornament: floral fleuron]
 
+[Curated heading level=1 type=books: Book 3]
+
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber tertius.
 
 [Curated heading level=2 type=definitions: Diffinitio 1.]

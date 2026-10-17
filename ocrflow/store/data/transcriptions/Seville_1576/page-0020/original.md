@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 1]
+
 # LIBRO PRIMERO DE LOS ELEMENTOS DE EVCLIDES PHILOSOPHO
 
 [Subhead]

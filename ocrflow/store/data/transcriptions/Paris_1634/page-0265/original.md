@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 5]
+
 # EVCLIDIS ELEMENTORVM LIBER QVINTVS.
 
 # LE CINQVIESME LIVRE DES ELEMENTS D'EVCLIDE.

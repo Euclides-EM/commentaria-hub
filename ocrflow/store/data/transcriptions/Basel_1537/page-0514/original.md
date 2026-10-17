@@ -6,6 +6,8 @@ permutat apparens hemisphæriū quàm m n, non apparens. Sed in quo tempore m n,
 
 PHAENOMENA FINIVNT.
 
+[Curated heading level=1 type=books: Catoptrics]
+
 # BARTHOLOMAEVS ZAMBERTVS VENETVS
 
 ## Lodouico Mocenico patritio Veneto equiti iurato, Senatorij ordinis, ac oratori facundissimo, gaudere & bene rem gerere.

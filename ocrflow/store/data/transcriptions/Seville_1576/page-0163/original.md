@@ -2,6 +2,8 @@
 
 <!-- Page number: 80. -->
 
+[Curated heading level=1 type=books: Book 5]
+
 # LIBRO QVINTO DELOS ELEMENTOS DE EVCLI
 
 [Subhead]

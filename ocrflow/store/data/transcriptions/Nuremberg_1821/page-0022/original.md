@@ -2,6 +2,8 @@
 
 [Ornament: horizontal rule]
 
+[Curated heading level=1 type=books: Book 1]
+
 # Erſtes Buch der Elemente.
 
 [Ornament: horizontal rule]

@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 15]
+
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimusquintus.
 
 [Curated heading level=2 type=propositions: Propoſitio prima.]

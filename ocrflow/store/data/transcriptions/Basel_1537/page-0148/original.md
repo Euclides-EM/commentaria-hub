@@ -16,6 +16,8 @@ CAMPANVS. Sint tres quantitates a,b,c,relatæ ad totidem alias quæ sint d,e,f,s
 
 SEXTI LIBRI FINIS.
 
+[Curated heading level=1 type=books: Book 6]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEXTVS.
 
 ## Euclides ex Campano. Diffinitiones.

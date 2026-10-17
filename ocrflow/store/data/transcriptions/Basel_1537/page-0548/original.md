@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Data]
+
 # BARTHOLOMAEVS ZAMBERTVS VENETVS
 
 <!-- Page number: 537 -->

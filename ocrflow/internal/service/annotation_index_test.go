@@ -134,6 +134,33 @@ func TestBuildNodesKeepsHiddenHeadingsAsStructuralBoundaries(t *testing.T) {
 	require.Equal(t, "Diffinitio tertia", nodes[2].Children[0].Content)
 }
 
+func TestBuildNodesNestsEverythingUntilNextBookUnderBook(t *testing.T) {
+	nodes := buildNodes(
+		[]string{"header1", "header2", "curated-heading1", "curated-heading2"},
+		[]categoryPageContent{
+			{page: 1, category: "header1", content: "Praefatio"},
+			{page: 2, category: "curated-heading1", content: "Book 1", indexType: "books"},
+			{page: 2, category: "header1", content: "LIBER PRIMVS"},
+			{page: 3, category: "header2", content: "PROP. I."},
+			{page: 4, category: "header1", content: "APPENDIX"},
+			{page: 5, category: "curated-heading2", content: "Book 2", indexType: "books"},
+			{page: 5, category: "header1", hidden: true},
+			{page: 6, category: "curated-heading2", content: "PROP. I.", indexType: "propositions"},
+		},
+	)
+
+	require.Len(t, nodes, 3)
+	require.Equal(t, "Praefatio", nodes[0].Content)
+	require.Empty(t, nodes[0].Children)
+	require.Equal(t, "Book 1", nodes[1].Content)
+	require.Len(t, nodes[1].Children, 2)
+	require.Equal(t, "LIBER PRIMVS", nodes[1].Children[0].Content)
+	require.Equal(t, "PROP. I.", nodes[1].Children[0].Children[0].Content)
+	require.Equal(t, "APPENDIX", nodes[1].Children[1].Content)
+	require.Equal(t, "Book 2", nodes[2].Content)
+	require.Equal(t, "PROP. I.", nodes[2].Children[0].Content)
+}
+
 func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	db, err := sql.Open("sqlite3", ":memory:")
 	require.NoError(t, err)

@@ -2,6 +2,8 @@
 
 [Ornament: engraved headpiece with acanthus scrollwork flanking an oval medallion of a standing figure, inscribed ARDET AMANS and SPE NIXA FIDES]
 
+[Curated heading level=1 type=books: Book 1]
+
 # NOVVEAVX ELEMENS DE GEOMETRIE.
 
 # LIVRE PREMIER.

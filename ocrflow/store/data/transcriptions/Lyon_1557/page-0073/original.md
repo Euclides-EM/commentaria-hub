@@ -1,5 +1,7 @@
 [Ornament: floral headpiece]
 
+[Curated heading level=1 type=books: Book 3]
+
 # IACOBI PELETARII CENOMANI IN EVCLIDIS ELEMENTA GEOMETRICA DEMONSTRATIONVM LIBER TERTIVS.
 
 [Ornament]

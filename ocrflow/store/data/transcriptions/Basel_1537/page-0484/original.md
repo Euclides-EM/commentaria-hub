@@ -1,5 +1,7 @@
 <!-- Page number: 473 -->
 
+[Curated heading level=1 type=books: Book 15]
+
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI MATHEMATICORVMQVE facile principis, ex traditione Campani, Geometricorum Elementorum Liber decimusquintus,
 
 ## Eucli. ex Camp. Propositio 1

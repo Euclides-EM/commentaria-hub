@@ -2,7 +2,7 @@
 
 [Ornament: ornamental headpiece]
 
-[Curated heading level=1 type=books: Book 4]
+[Curated heading level=2 type=books: Book 4]
 
 ## Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Quartum elementorum Euclidis, Demonstrationes.
 

@@ -2,6 +2,8 @@
 
 [Ornament]
 
+[Curated heading level=1 type=books: Book 12]
+
 # ELEMENT DOVZIESME.
 
 [Curated heading level=2 type=propositions: THEOR. 1. PROP. I.]

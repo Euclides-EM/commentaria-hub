@@ -8,6 +8,8 @@
 
 QVARTI LIBRI FINIS.
 
+[Curated heading level=1 type=books: Book 5]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
 
 ## Euclides ex Campano. Diffinitiones.

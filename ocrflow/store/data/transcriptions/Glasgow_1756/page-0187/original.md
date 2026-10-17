@@ -1,6 +1,8 @@
 <!-- Page number: 174 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
+[Curated heading level=1 type=books: Book 6]
+
 # EUCLIDIS ELEMENTORUM
 
 # LIBER SEXTUS.

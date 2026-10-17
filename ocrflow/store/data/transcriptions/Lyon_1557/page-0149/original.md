@@ -2,6 +2,8 @@
 
 [Ornament: foliate headpiece]
 
+[Curated heading level=1 type=books: Book 6]
+
 # IACOBI PELETARII CENOMANI IN EVCLIDIS ELEMENTA GEOMETRICA DEMONSTRATIONVM LIBER SEXTVS.
 
 [Ornament]

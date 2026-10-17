@@ -2,6 +2,8 @@
 
 [Ornament]
 
+[Curated heading level=1 type=books: Book 1]
+
 # PREMIER LIVRE DES ELEMENTS D'EVCLIDE.
 
 ## DEFINITIONS.

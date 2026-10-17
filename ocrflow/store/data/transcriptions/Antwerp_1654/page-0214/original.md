@@ -1,5 +1,7 @@
 <!-- Page number: 181 -->
 
+[Curated heading level=1 type=books: Book 6]
+
 # ELEMENTORVM GEOMETRIÆ LIBER VI.
 
 {dropcap:R|lines=5|style=decorated|decoration="foliate woodcut initial"}Oportionum doctrina libro quinto vniuerſim expoſita, in ſexto figuris planis applicatur. Et ſunt quæ hoc libro traduntur adeò ſcitu neceßaria, vt ſine illis arcana Geometriæ penetrare, fructuſq́ⳝ ſuaues Matheſeos percipere nemo poßit. Ad propoſitiones propè ſingulas oporteret encomium texere; tanta omnium vtilitas eſt.

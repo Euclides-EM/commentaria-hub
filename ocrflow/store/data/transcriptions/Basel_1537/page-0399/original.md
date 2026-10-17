@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 12]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER DVODECIMVS,
 
 <!-- Page number: 388 -->

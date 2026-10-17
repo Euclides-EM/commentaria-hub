@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 7]
+
 # LIVRE VII.
 
 [Subhead]

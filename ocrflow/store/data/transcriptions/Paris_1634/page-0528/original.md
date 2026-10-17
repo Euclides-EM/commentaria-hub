@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 9]
+
 # EVCLIDIS ELEMENTORVM LIBER NONVS.
 
 # LE NEVFIESME LIVRE DES ELEMENTS D'EVCLIDE.

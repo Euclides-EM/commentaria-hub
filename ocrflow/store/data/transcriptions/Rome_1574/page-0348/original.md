@@ -1,6 +1,8 @@
 <!-- Running title: LIBER. IIII. -->
 <!-- Page number: 132 -->
 
+[Curated heading level=1 type=books: Book 4]
+
 # EVCLIDIS ELEMENTVM IIII.
 
 [Ornament: foliate headpiece]

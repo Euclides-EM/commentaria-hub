@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Mathematical Rudiments]
+
 # RVDIMENTA Mathematica.
 
 ## Hæc in duos digeruntur libros, quorum priOR GEOMETRIAE TRADIT PRINcipia ſeu prima elementa, unà cum rerum & uariarum figurarũ dimenſionibus. Poſterior uerò omnigenum Horologiorum docet delineationes, autore Sebaſtiano Munſtero.

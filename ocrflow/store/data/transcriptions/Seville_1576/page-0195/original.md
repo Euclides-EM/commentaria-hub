@@ -1,6 +1,8 @@
 <!-- Running title: EVCLIDES. -->
 <!-- Page number: 96. -->
 
+[Curated heading level=1 type=books: Book 6]
+
 # LIBRO SEXTO DE LOS ELEMENTOS DE EVCLI
 
 [Subhead]

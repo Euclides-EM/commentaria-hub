@@ -1,5 +1,7 @@
 <!-- Running title: EVCLID. GEOM. -->
 
+[Curated heading level=1 type=books: Book 8]
+
 # EVCLIDIS ELEMENTVM VIII.
 
 [Ornament: floral headpiece]

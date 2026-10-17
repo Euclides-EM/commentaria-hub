@@ -3,6 +3,8 @@
 
 [Ornament: decorative headpiece band of typographic ornaments]
 
+[Curated heading level=1 type=books: Book 3]
+
 # NOVVEAVX ELEMENS DE GEOMETRIE.
 
 # LIVRE TROISIEME.

@@ -2,6 +2,8 @@
 
 <!-- Page number: 2 -->
 
+[Curated heading level=1 type=books: Book 1]
+
 # Deß I. Buchs Anfänge (Principia,) und zwar 1. Beschreibungen der Kunst wörter.
 
 [Curated heading level=3 type=definitions: I.]

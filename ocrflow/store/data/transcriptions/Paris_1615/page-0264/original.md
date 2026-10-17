@@ -2,6 +2,8 @@
 
 [Ornament]
 
+[Curated heading level=1 type=books: Book 8]
+
 # ELEMENT HVICTIESME.
 
 [Curated heading level=2 type=propositions: THEO. 1. PROP. I.]

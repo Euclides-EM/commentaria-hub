@@ -2,6 +2,8 @@
 
 <!-- Page number: 305 -->
 
+[Curated heading level=1 type=books: Book 9]
+
 # EVCLIDIS ELEMENTVM IX.
 
 [Ornament: floral headpiece]

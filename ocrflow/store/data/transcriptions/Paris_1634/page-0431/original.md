@@ -1,3 +1,5 @@
+[Curated heading level=1 type=books: Book 7]
+
 # EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.
 
 # LE SEPTIESME LIVRE DES ELEMENTS D'EVCLIDE.

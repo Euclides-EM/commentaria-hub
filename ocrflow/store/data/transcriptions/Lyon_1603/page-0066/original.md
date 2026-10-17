@@ -37,6 +37,8 @@
 
 FINIS QVARTI.
 
+[Curated heading level=1 type=books: Book 5]
+
 # EVCLIDIS ELEMENTORVM QVINTVS.
 
 [Curated heading level=2 type=propositions: PROP. I.]

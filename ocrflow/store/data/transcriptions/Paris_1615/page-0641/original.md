@@ -2,6 +2,8 @@
 
 [Ornament]
 
+[Curated heading level=1 type=books: Book 15]
+
 # ELEMENT QVINZIESME.
 
 [Curated heading level=2 type=propositions: PROB. 1. PROP. I.]

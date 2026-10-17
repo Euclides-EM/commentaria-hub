@@ -1,5 +1,7 @@
 <!-- Page number: 72 -->
 
+[Curated heading level=1 type=books: Book 3]
+
 # Das dritt bůch Euclidis
 
 [Subhead]

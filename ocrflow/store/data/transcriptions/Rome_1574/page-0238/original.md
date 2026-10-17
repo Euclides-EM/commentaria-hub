@@ -1,6 +1,8 @@
 <!-- Running title: LIBER. II. -->
 <!-- Page number: 77 -->
 
+[Curated heading level=1 type=books: Book 2]
+
 # EVCLIDIS ELEMENTVM II.
 
 [Ornament: floral headpiece]
