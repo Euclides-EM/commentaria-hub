@@ -34,19 +34,19 @@ Si ab equalibus equalia aufferantur que relinquuntur equalia erunt.
 ad inuicem sunt equales & productis equalibus rectis lineis qui sub basi sūt anguli adinuicem equales erūt
 [/Handwritten]
 
-### Corollarium.
+#### Corollarium.
 
 Hinc manifestum est,triangulum æquilaterum tres angulos adinuicem æquales continere. Quoniam binatim sumpta latera, semper offenduntur æqualia: & duo quoq anguli omnifariam sumpti consequenter æquales.
 
-[Curated heading level=2 type=propositions: Theorema 3, Propositio 6.]
+[Curated heading level=3 type=propositions: Theorema 3, Propositio 6.]
 
-[Curated heading level=2 type=theorems: Theorema 3, Propositio 6.]
+[Curated heading level=3 type=theorems: Theorema 3, Propositio 6.]
 
-## Θεώρημα γ, Πρόθεσις ς.
+### Θεώρημα γ, Πρόθεσις ς.
 
 Ἐὰν τριγώνου αἱ δύο γωνίαι ἴσαι ἀλλήλαις ὦσι,καὶ αἱ ὑπὸ τὰς ἴσας γωνίας ὑποτείνουσαι πλευραὶ ἴσαι ἀλλήλαις ἔσονται.
 
-## Theorema 3, Propositio 6.
+### Theorema 3, Propositio 6.
 
 6 SI trianguli duo anguli , æquales adinuicem fuerint: æquales quoq angulos subtendentia latera æqualia adinuicem erunt.
 

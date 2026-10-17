@@ -1,16 +1,18 @@
 [Ornament: ornamental headpiece]
 
-# Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Secundum elementorum Euclidis, Demonstrationes.
+[Curated heading level=1 type=books: Book 2]
 
-# ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΔΕΥΤΕΡΟΝ.
+## Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Secundum elementorum Euclidis, Demonstrationes.
+
+## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΔΕΥΤΕΡΟΝ.
 
 Παραλληλόγραμμον ὀρθογώνιον.
 
 ΠΑν παραλληλόγραμμον ὀρθογώνιον περιέχεσθαι λέγεται ὑπὸ δύο τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν εὐθειῶν.
 
-[Curated heading level=2 type=definitions: Parallelogrammum rectangulum]
+[Curated heading level=4 type=definitions: Parallelogrammum rectangulum]
 
-## Parallelogrammum rectangulum.
+### Parallelogrammum rectangulum.
 
 OMne parallelogrammum rectangulum, sub duabus rectum angulum comprehendentibus rectis lineis dicitur contineri.
 
@@ -42,8 +44,8 @@ Corrollarium. Que sub aqualib. rectis Lineis compre[illegible] quadratum rectum 
 
 ΠΑντὸς δὲ παραλληλογράμμου χωρίον τῶν περὶ τὴν διάμετρον αὐτῶν ἓν παραλληλογράμμων ὁποιονοῦν σὺν τοῖς δυσὶ παραπληρώμασι, γνώμων καλείσθω.
 
-[Curated heading level=2 type=definitions: Quid gnomon]
+[Curated heading level=4 type=definitions: Quid gnomon]
 
-## Quid gnomon.
+### Quid gnomon.
 
 OMnis parallelográmi loci eorum quæ circa dimetientẽ illius sunt parallelogrammorum, vnumquodq; eorum cum binis supplementis, gnomon vocetur.

@@ -2,15 +2,15 @@
 
 omne siquidem totum est sua parte maius, per nonam communem sententiã. Non cadit ergo parallela super a/d. patuit quòd nec infra. igitur ex a/in ipsum d. Triangula igitur æqualia: & quæ sequuntur reliqua. Quod oportuit ostendisse.
 
-[Curated heading level=2 type=propositions: Theorema 30, Propositio 40.]
+[Curated heading level=3 type=propositions: Theorema 30, Propositio 40.]
 
-[Curated heading level=2 type=theorems: Theorema 30, Propositio 40.]
+[Curated heading level=3 type=theorems: Theorema 30, Propositio 40.]
 
-## Θεώρημα λ, Πρόθεσις μ.
+### Θεώρημα λ, Πρόθεσις μ.
 
 ΤΑ ἴσα τρίγωνα τὰ ὑπὸ τῶν ἴσων βάσεων ὄντα καὶ ὑπὸ τὰ αὐτὰ μέρη, καὶ ἐν ταῖς αὐταῖς παραλλήλοις ὅτι.
 
-## Theorema 30, Propositio 40.
+### Theorema 30, Propositio 40.
 
 TRiangula æqualia in æqualibus basibus existentia, & ad easdem partes: & in eisdem sunt parallelis.
 
@@ -36,14 +36,14 @@ Concludendum ergo, triangula æqualia in æqualibus basibus existentia, & ad eas
 Notandum.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 31, Propositio 41.]
+[Curated heading level=3 type=propositions: Theorema 31, Propositio 41.]
 
-[Curated heading level=2 type=theorems: Theorema 31, Propositio 41.]
+[Curated heading level=3 type=theorems: Theorema 31, Propositio 41.]
 
-## Θεώρημα λα, Πρόθεσις μα.
+### Θεώρημα λα, Πρόθεσις μα.
 
 ΕΑν παραλληλόγραμμον τριγώνῳ βάσιν τε ἔχῃ τὴν αὐτὴν καὶ ἐν ταῖς αὐταῖς παραλλήλοις ᾖ, διπλάσιον ἴσαι τὸ παραλληλόγραμμον τοῦ τριγώνου.
 
-## Theorema 31, Propositio 41.
+### Theorema 31, Propositio 41.
 
 SI parallelogrammũ & triangulum eandem basin habuerint,

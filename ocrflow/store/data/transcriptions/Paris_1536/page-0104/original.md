@@ -4,15 +4,15 @@
 
 adinuicem æqualia sunt, per primam communem sententiam. Comprehensum igitur sub a/e/ & e/c/ rectangulum, vnà cum quadrato quod fit ex e/f: æquatur rectangulo, quod sub b/e/ & e/d/ continetur, ac ipsi quadrato quod fit ex e/f. Dempto itaq; cómuni quadrato quod ex e/f: reliquum sub a/e/ & e/c/ comprehensum rectangulum, reliquo quod sub b/e/ & e/d/ continetur rectangulo, per tertiam cómunem sententiã est æquale. Si igitur in circulo duæ rectæ lineæ se adinuicem secuerint: &c. vt in theoremate. Quod demonstrare oportebat.
 
-[Curated heading level=2 type=propositions: Theorema 30, Propositio 36.]
+[Curated heading level=3 type=propositions: Theorema 30, Propositio 36.]
 
-[Curated heading level=2 type=theorems: Theorema 30, Propositio 36.]
+[Curated heading level=3 type=theorems: Theorema 30, Propositio 36.]
 
-## Θεώρημα λ, Πρόθεσις λς.
+### Θεώρημα λ, Πρόθεσις λς.
 
 Ἐὰν κύκλου ληφθῇ τι σημεῖον ἐκτὸς, καὶ ἀπ᾽ αὐτοῦ πρὸς τὸν κύκλον προσπίπτωσι δύο εὐθεῖαι, καὶ ἡ μὲν αὐτῶν τέμνῃ τὸν κύκλον, ἡ δὲ ἐφάπτηται: ἔσται τὸ ὑπὸ ὅλης τῆς τεμνούσης καὶ τῆς ἐκτὸς ἀπολαμβανομένης, μεταξὺ τοῦ τε σημείου καὶ τῆς κυρτῆς περιφερείας, περιεχόμενον ὀρθογώνιον ἴσον τῷ ἀπὸ τῆς ἐφαπτομένης τετραγώνῳ.
 
-## Theorema 30, Propositio 36.
+### Theorema 30, Propositio 36.
 
 SI extra circulum sumatur punctum aliquod, ab eóque in circulum cadant duæ rectæ lineæ, & earũ altera circulum dispescat, altera verò tangat: quod sub tota dispescente, & extrinsecus sumpta inter punctum & curuam circunferentiam comprehenditur rectangulum, æquum est ei quod fit ex tangente quadrato.
 

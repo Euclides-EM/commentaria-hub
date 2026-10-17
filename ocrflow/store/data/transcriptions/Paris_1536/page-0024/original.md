@@ -4,11 +4,11 @@ In quibus videlicet nulla oppoſitorum vel laterum, vel angulorũ ſimul obſeru
 
 [Diagram: n o]
 
-## Parallelarum linearum diffinitio vltima.
+### Parallelarum linearum diffinitio vltima.
 
 Παράλληλοί εἰσιν ευθεῖαι αἵ τινες ἐν τῷ αὐτῷ ἐπιπέδῳ ὄυσαι, καὶ ἐκβαλλόμεναι ἐπ' ἄπειρον ἐφ' ἑκάτερα τὰ μέρη ἐπὶ μηδέτερα συμπίπτωσι ἀλλήλαις.
 
-[Curated heading level=3 type=definitions: 35]
+[Curated heading level=4 type=definitions: 35]
 
 Parallelæ rectæ lineæ ſunt quæ in eodem exiſtentes plano, & ex vtraque parte in infinitum productæ, in nulla parte concurrunt. 35
 
@@ -16,9 +16,9 @@ Parallelæ rectæ lineæ ſunt quæ in eodem exiſtentes plano, & ex vtraque par
 
 Quales tibi repræſentant a/b/ & c/d/ lineæ rectæ. In quarum videlicet alteram, vtpote a/b, recta linea e/f/ad æquales ſeu rectos incidẽs angulos: & cũ reliqua c/d/rectos itidem vel æquales angulos efficit. Ex eo enim, alterius in alterã æqualis vtrobiq̃ ſurgit inclinatio: vnde fit, vt ipſæ datæ lineæ in infinitũ ex vtraq̃ parte productæ, æqualiter ſeu parallelicè diſtent, nuſquam adinuicem concurrentes.
 
-## Αἰτήματα. Poſtulata.
+### Αἰτήματα. Poſtulata.
 
-### ORONTIVS.
+#### ORONTIVS.
 
 [Margin]
 Poſtulata quę
@@ -28,7 +28,7 @@ SECVNDO LOCO, SESE OFFERVNT POSTVLATA: QVAE petitiones à nõnullis adpellãtur.
 
 Ητήσθω, ἀπὸ παντὸς σημείου ἐπὶ πᾶν σημεῖον ευθεῖαν γραμμὴν ἀγαγεῖν.
 
-[Curated heading level=3 type=postulates: 1]
+[Curated heading level=4 type=postulates: 1]
 
 Ab omni puncto in omne punctum, rectam lineam dúcere 1
 
@@ -38,7 +38,7 @@ Poteſt enim datum quodcunq̃ punctum, in aliud quodlibet punctum, etiam vbilibe
 
 Καὶ πεπερασμένην ευθεῖαν κατὰ τὸ συνεχὲς ἐπ' ευθείας ἐκβάλλειν.
 
-[Curated heading level=3 type=postulates: 2]
+[Curated heading level=4 type=postulates: 2]
 
 Rectam lineam terminatã, in continuum rectúmq; producere. 2
 
@@ -48,7 +48,7 @@ Nam vtrunq̃ punctum ipſius datæ rectæ lineæ terminatiuum, per rectum eiuſd
 
 Καὶ παντὶ κέντρῳ καὶ διαστήματι κύκλον γράφεσθαι.
 
-[Curated heading level=3 type=postulates: 3]
+[Curated heading level=4 type=postulates: 3]
 
 Omni centro & interuallo circulum deſcribere. 3
 
@@ -58,6 +58,6 @@ Hoc eſt, licet vbicunque volueris centrum deſignare circuli, & circa idem cent
 
 Καὶ πάσαι αἱ ὀρθαὶ γωνίαι ἴσαι ἀλλήλαις ἐισί.
 
-[Curated heading level=3 type=postulates: 4]
+[Curated heading level=4 type=postulates: 4]
 
 Omnes angulos rectos adinuicẽ æquales eſſe. 4

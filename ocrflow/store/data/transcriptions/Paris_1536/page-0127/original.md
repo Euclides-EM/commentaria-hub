@@ -14,7 +14,7 @@ Vt datis in exemplum a, b, c, numeris: quorum æquè multiplices sint d, e, f, v
 
 ¶Τὰ δὲ τὸν αὐτὸν ἔχοντα μεγέθη λόγον, ἀνάλογον καλείσθω.
 
-[Curated heading level=2 type=definitions: 7]
+[Curated heading level=4 type=definitions: 7]
 
 7 Eandem autem habentes rationem magnitudines, proportionales vocentur.
 
@@ -26,7 +26,7 @@ Diffinitio pportionaliū.
 
 ¶Ὅταν δὲ τῶν ἰσάκις πολλαπλασίων τὸ μὲν τοῦ πρώτου πολλαπλάσιον ὑπερέχῃ τοῦ τοῦ δευτέρου πολλαπλασίου, τὸ δὲ τοῦ τρίτου πολλαπλάσιον, μὴ ὑπερέχῃ τοῦ τοῦ τετάρτου πολλαπλασίου, τότε τὸ πρῶτον πρὸς τὸ δεύτερον μείζονα λόγον ἔχειν λέγεται, ἤπερ τὸ τρίτον πρὸς τὸ τέταρτον.
 
-[Curated heading level=2 type=definitions: 8]
+[Curated heading level=4 type=definitions: 8]
 
 8 Quando verò æquè multipliciū multiplex primi excesserit multiplex secundi, multiplex autem tertij non excesserit multiplex quarti: tunc primum ad secundum maiorem rationem habere dicetur, quàm tertium ad quartum.
 
@@ -44,7 +44,7 @@ Disproportio Diffinitionis interpretatio
 
 ¶Ἀναλογία δὲ ἐν τρισὶν ὅροις ἐλαχίστοις ἐστίν.
 
-[Curated heading level=2 type=definitions: 9]
+[Curated heading level=4 type=definitions: 9]
 
 9 Proportio autem in tribus terminis ad minus est.
 

@@ -9,7 +9,7 @@ Quotuplex est igitur circunferentia b/c/l, ipsius b/c/ circunferentiæ: totuplex
 | b/c/l. | e/f/n. | g/b/l. | h/e/n. |
 | b/c. | e/f. | g/b/c. | h/e/f. |
 
-### Corollarium.
+#### Corollarium.
 
 ¶ Et proinde manifestum est, quòd veluti sector ad sectorẽ, sic per vndecimã quinti angulus ad angulum: vtrobique enim ratio offenditur, quæ circunferentiæ ad circunferentiam.
 
@@ -19,13 +19,13 @@ FINIS.
 
 Virescit vulnere virtus.
 
-## Errata quæ in paucis admodùm accidere exemplaribus.
+### Errata quæ in paucis admodùm accidere exemplaribus.
 
 Pagina 9. sub prima cómuni sentẽtia: lege, sit æqualis magnitudo c: necessum est. &c.
 
 Pagina 49. linea prima demonstrationis: tolle quòd, & lege aio ex tota a/b. &c. non, quòd ex tota.
 
-## Registrum.
+### Registrum.
 
 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 2.
 

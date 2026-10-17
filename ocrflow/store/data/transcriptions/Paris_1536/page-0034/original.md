@@ -1,14 +1,14 @@
 <!-- Running title: GEOMET. ELEMENT. -->
 
-[Curated heading level=2 type=propositions: Problema 6, Propositio 11.]
+[Curated heading level=3 type=propositions: Problema 6, Propositio 11.]
 
-[Curated heading level=2 type=problems: Problema 6, Propositio 11.]
+[Curated heading level=3 type=problems: Problema 6, Propositio 11.]
 
-## Πρόβλημα ς, Πρόθεσις ια.
+### Πρόβλημα ς, Πρόθεσις ια.
 
 Τῇ δοθείσῃ εὐθείᾳ,ἀπὸ τοῦ πρὸς αὐτῇ δοθέντος σημείου, πρὸς ὀρθὰς γωνίας εὐθεῖαν γραμμὴν ἀγαγεῖν.
 
-## Problema 6, Propositio 11.
+### Problema 6, Propositio 11.
 
 DAta recta linea,à púcto in ea dato, rectam lineam ad angulos rectos excitare.
 
@@ -28,15 +28,15 @@ ORONTIVS.¶Esto recta linea data a/b,datúmq; in ea púctú c:à quo oporteat re
 1 postul. Ab oi puncto ad oé punctum rectam lineam ducere.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Problema 7, Propositio 12.]
+[Curated heading level=3 type=propositions: Problema 7, Propositio 12.]
 
-[Curated heading level=2 type=problems: Problema 7, Propositio 12.]
+[Curated heading level=3 type=problems: Problema 7, Propositio 12.]
 
-## Πρόβλημα ζ, Πρόθεσις ιβ.
+### Πρόβλημα ζ, Πρόθεσις ιβ.
 
 Ἐπὶ τὴν δοθεῖσαν εὐθεῖαν ἄπειρον, ἀπὸ τοῦ δοθέντος σημείου, ὃ μή ἐστιν ἐπ' αὐτῆς, κάθετον εὐθεῖαν γραμμὴν ἀγαγεῖν.
 
-## Problema 7, Propositio 12.
+### Problema 7, Propositio 12.
 
 SVper datam rectam lineam infinitam, à dato puncto quod in ea non est,perpendicularem rectam lineam deducere.
 

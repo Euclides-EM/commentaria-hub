@@ -4,15 +4,15 @@
 
 diffinitionem. Ergo si prima ad secundam eandem rationē habuerit: &c. vt in theoremate. Quod oportuit ostendisse.
 
-[Curated heading level=2 type=propositions: Theorema 14, Propositio 14.]
+[Curated heading level=3 type=propositions: Theorema 14, Propositio 14.]
 
-[Curated heading level=2 type=theorems: Theorema 14, Propositio 14.]
+[Curated heading level=3 type=theorems: Theorema 14, Propositio 14.]
 
-## Θεώρημα ιδ', Πρόθεσις ιδ'.
+### Θεώρημα ιδ', Πρόθεσις ιδ'.
 
 EΑν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, ὃ τρίτον πρὸς τέταρτον: ᾖ δὲ πρῶτον τοῦ τρίτου μεῖζον ᾖ, καὶ τὸ δεύτερον τοῦ τετάρτου μεῖζον ἔσαι: κἂν ἴσον, ἴσον, κἂν ἔλασσον, ἔλασσον.
 
-## Theorema 14, Propositio 14.
+### Theorema 14, Propositio 14.
 
 SI prima ad secundam eandem habuerit rationem, & tertia ad quartá: prima verò tertia maior fuerit, & secunda quarta maior erit: etsi æqualis, æqualis: etsi minor, minor.
 
@@ -38,15 +38,15 @@ quàm ad d. Est igitur b/minor ipsa d, per ipsam decimā eiusdem quinti. ¶Porr�
 Vbi prima æquatur tertiȩ.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 15, Propositio. 15.]
+[Curated heading level=3 type=propositions: Theorema 15, Propositio. 15.]
 
-[Curated heading level=2 type=theorems: Theorema 15, Propositio. 15.]
+[Curated heading level=3 type=theorems: Theorema 15, Propositio. 15.]
 
-## Θεώρημα ιε, Πρόθεσις ιε.
+### Θεώρημα ιε, Πρόθεσις ιε.
 
 TΑ μέρη τοῖς ὡσαύτως πολλαπλασίοις, τὸν αὐτὸν ἔχῃ λόγον, ληφθέντα κατάλληλα.
 
-## Theorema 15, Propositio. 15.
+### Theorema 15, Propositio. 15.
 
 PArtes eodem modo multiplicium, eandem rationem habent sumptæ adinuicem.
 

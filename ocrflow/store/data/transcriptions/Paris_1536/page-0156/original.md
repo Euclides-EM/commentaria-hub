@@ -12,15 +12,15 @@ Aliud exēplū
 
 [Diagram: 3 × 2 sesqualtera ratio. | 6 × 5 sesquiquinta. | 15——12 sesquiquarta.]
 
-[Curated heading level=2 type=propositions: Theorema 1, Propositio 1.]
+[Curated heading level=3 type=propositions: Theorema 1, Propositio 1.]
 
-[Curated heading level=2 type=theorems: Theorema 1, Propositio 1.]
+[Curated heading level=3 type=theorems: Theorema 1, Propositio 1.]
 
-## Θεώρημα α, Πρόθεσις α.
+### Θεώρημα α, Πρόθεσις α.
 
 Τὰ τρίγωνα καὶ τὰ παραλληλόγραμμα, τὰ ὑπὸ τὸ αὐτὸ ὕψος ὄντα, πρὸς ἄλληλα ὁξὶμ ὡς αἱ βάσεις.
 
-## Theorema 1, Propositio 1.
+### Theorema 1, Propositio 1.
 
 TRiangula & parallelogramma, quæ sub eadem sunt altitudine:ad se inuicem sunt,vt bases.
 

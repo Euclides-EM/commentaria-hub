@@ -24,9 +24,9 @@ Wenn in zwei Dreiecken zwei Seiten des einen Dreiecks zweien Seiten des andern D
 
 Die beiden gegebenen Dreiecke ſeien BAC und EDF, und der Winkel BAC ſei größer als der Winkel EDF. Man ſetze an den Punkt D der DE den Winkel EDG=BAC, (24 S.) mache DG=AC oder =DF, und ziehe FG und EG, ſo iſt das Dreieck EDG mit dem Dreieck BAC congruent, (5 S.) alſo EG=BC.
 
-[Curated heading level=4 type=cases: Erſter Fall.]
+#### Erſter Fall.
 
-Erſter Fall. (Fig 5. b.) EF liege unterhalb EG.
+(Fig 5. b.) EF liege unterhalb EG.
 
 Da das Dreieck FDG gleichſchenklich iſt, ſo ſind die
 

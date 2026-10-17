@@ -32,8 +32,8 @@ Aus einem gegebenen Punkt A als Mittelpunkt einen Kreis zu beſchreiben, deſſe
 
 Die Ebene, in welcher der Kreis beſchriebeu{printer-error-correction:beſchrieben} werden ſoll, iſt entweder gegeben oder nicht.
 
-[Curated heading level=4 type=cases: Erſter Fall.]
+#### Erſter Fall.
 
-Erſter Fall. Wenn dieſe Ebene gegeben iſt, ſo ziehe man vom Punkt A zum Punkt C eine gerade Linie
+Wenn dieſe Ebene gegeben iſt, ſo ziehe man vom Punkt A zum Punkt C eine gerade Linie
 
 <!-- Catchword: AC, -->

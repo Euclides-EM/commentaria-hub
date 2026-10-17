@@ -12,15 +12,15 @@ Vbi plures tribus in vtroq̄; magnitudinū extiterint ordine.
 
 [Diagram: a, b, c, d. e, f, g, h.]
 
-[Curated heading level=2 type=propositions: Theorema 23, Propositio 23.]
+[Curated heading level=3 type=propositions: Theorema 23, Propositio 23.]
 
-[Curated heading level=2 type=theorems: Theorema 23, Propositio 23.]
+[Curated heading level=3 type=theorems: Theorema 23, Propositio 23.]
 
-## Θεώρημα κγ, Πρόθεσις κγ.
+### Θεώρημα κγ, Πρόθεσις κγ.
 
 EΑν ᾖ τρία μεγέθη, ὃ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα ἐν τῷ αὐτῷ λόγῳ, ᾖ δὲ τεταραγμένη αὐτῶν ἡ ἀναλογία, καὶ δι' ἴσου ἐν τῷ αὐτῷ λόγῳ ἔσαι.
 
-## Theorema 23, Propositio 23.
+### Theorema 23, Propositio 23.
 
 SI fuerint tres magnitudines, aliæ'que eisdem æquales numero, binatim sumptæ in eadem ratione, fuerit autem perturbata earum proportio: & ex æquali in eadem ratione erunt.
 

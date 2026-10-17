@@ -2,15 +2,15 @@
 
 <!-- Page number: 84 -->
 
-[Curated heading level=2 type=propositions: Problema 5, Propositio 33.]
+[Curated heading level=3 type=propositions: Problema 5, Propositio 33.]
 
-[Curated heading level=2 type=problems: Problema 5, Propositio 33.]
+[Curated heading level=3 type=problems: Problema 5, Propositio 33.]
 
-## Πρόβλημα ε, Πρόθεσις λγ.
+### Πρόβλημα ε, Πρόθεσις λγ.
 
 Επὶ τῆς δοθείσης εὐθείας γράψαι τμῆμα κύκλου δεχόμενον γωνίαν ἴσην, τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ.
 
-## Problema 5, Propositio 33.
+### Problema 5, Propositio 33.
 
 SVper data recta linea, describere sectionem circuli, capientem angulum æqualem dato angulo rectilineo.
 

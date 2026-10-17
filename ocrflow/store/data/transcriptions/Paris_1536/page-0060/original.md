@@ -20,15 +20,15 @@ Cur tales aſſumpti gnomones.
 
 in demonſtrationibus parallelogrammorum expeditiorem expreſſionem, principaliter excogitata.
 
-[Curated heading level=2 type=propositions: Theorema 1, Propoſitio 1.]
+[Curated heading level=3 type=propositions: Theorema 1, Propoſitio 1.]
 
-[Curated heading level=2 type=theorems: Theorema 1, Propoſitio 1.]
+[Curated heading level=3 type=theorems: Theorema 1, Propoſitio 1.]
 
-## Θεώρημα α, Πρόθεσις α.
+### Θεώρημα α, Πρόθεσις α.
 
 ΕΑν ὦσι δύο εὐθεῖαι, τμηθῇ δὲ ἡ ἑτέρα αὐτῶν, εἰς ὅσα δηποτοῦν τμήματα, τὸ περιεχόμενον ὀρθογώνιον ὑπὸ τῶν δύο εὐθειῶν ἴσον ἐστὶ τοῖς ὑπό τε τῆς ἀτμήτου καὶ ἑκάστου τῶν τμημάτων περιεχομένοις ὀρθογωνίοις.
 
-## Theorema 1, Propoſitio 1.
+### Theorema 1, Propoſitio 1.
 
 SI fuerint binæ rectæ lineæ, ſecetúrq; ipſarum altera in quotcunque ſegmenta: rectangulum comprehenſum ſub duabus rectis lineis, æquum eſt eis quæ ab inſecta & quolibet ſegmento rectangulis comprehenduntur.
 

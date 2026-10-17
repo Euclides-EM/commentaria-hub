@@ -14,15 +14,15 @@ Pars secunda theorematis, conuersa primæ.
 
 [Diagram: b/a.a/c. | b/d.d/c. | e/a.a/c.]
 
-[Curated heading level=2 type=propositions: Theorema 4, Propositio 4.]
+[Curated heading level=3 type=propositions: Theorema 4, Propositio 4.]
 
-[Curated heading level=2 type=theorems: Theorema 4, Propositio 4.]
+[Curated heading level=3 type=theorems: Theorema 4, Propositio 4.]
 
-## Θεώρημα δ, Πρόθεσις δ.
+### Θεώρημα δ, Πρόθεσις δ.
 
 Τῶμ ἰσογωνίωμ τριγώνωμ,ἀνάλογομ ἐσὶμ αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας: καὶ ὁμόλογοι αἱ ὑπὸ τὰς ἴσας γωνίας ὑποτείνουσαι πλευραί.
 
-## Theorema 4, Propositio 4.
+### Theorema 4, Propositio 4.
 
 AEquiangulorum triangulorum , proportionalia sunt latera quæ circū æquales angulos: & similis sunt rationis,quæ æqualibus angulis latera subtenduntur.
 

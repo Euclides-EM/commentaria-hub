@@ -4,15 +4,15 @@
 
 sic k/ad m, per quartam huius quinti propositionem. Ostensum est autem, quòd sicut g/ad h, sic m/ad n. Sunt itaque g,h,l, tres magnitudines, & k,m,n, aliæ eisdem æquales numero, cum duabus in eadem ratione perturbatim coassumptis: sicut quidem g/ad h, sic m/ad n, sicut rursum h/ad l, sic k/ad m. Ergo si g/fuerit maior l, erit ex æquali k/maior n: & si æqualis, æqualis: si autem minor, itidem minor, per vigesimamprimam huius quinti. Porrò g,k/sunt æquè multiplices ipsarum a,d, primæ & tertiæ magnitudinis (seruato illationis ordine) l/autem & n/secundæ & quartæ, hoc est ipsarum c,f/æquè rursum multiplices, per constructionem. Est igitur vt prima a/ad secundam c, sic tertia d/ad quartam f: per sextam eiusdem quinti diffinitionem. Si fuerint igitur tres magnitudines, aliæq́; eisdem æquales: &c. vt in theoremate. Quod oportuit ostendisse.
 
-[Curated heading level=2 type=propositions: Theorema 24, Propositio 24.]
+[Curated heading level=3 type=propositions: Theorema 24, Propositio 24.]
 
-[Curated heading level=2 type=theorems: Theorema 24, Propositio 24.]
+[Curated heading level=3 type=theorems: Theorema 24, Propositio 24.]
 
-## Θεώρημα κδ, Πρόθεσις κδ.
+### Θεώρημα κδ, Πρόθεσις κδ.
 
 Εαν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, καὶ τρίτον πρὸς τέταρτον, ἔχῃ δὲ καὶ πέμπτον πρὸς δεύτερον τὸν αὐτὸν λόγον, καὶ ἕκτον πρὸς τέταρτον, καὶ συντεθὲν πρῶτον καὶ πέμπτον πρὸς δεύτερον, τὸν αὐτὸν ἕξει λόγον, καὶ τρίτον καὶ ἕκτον πρὸς τέταρτον.
 
-## Theorema 24, Propositio 24.
+### Theorema 24, Propositio 24.
 
 [Margin]
 24
@@ -28,15 +28,15 @@ ORONTIVS. ¶ Habeat primùm a/b/ad secundū c/eandem rationem, quam tertium d/e/
 
 [Diagram: a,g,b,c. — d,h,e,f.]
 
-[Curated heading level=2 type=propositions: Theorema 25, Propositio 25.]
+[Curated heading level=3 type=propositions: Theorema 25, Propositio 25.]
 
-[Curated heading level=2 type=theorems: Theorema 25, Propositio 25.]
+[Curated heading level=3 type=theorems: Theorema 25, Propositio 25.]
 
-## Θεώρημα κε, Πρόθεσις κε.
+### Θεώρημα κε, Πρόθεσις κε.
 
 Εαν τέσσαρα μεγέθη ἀνάλογον ᾖ, τὸ μέγιστον καὶ τὸ ἐλάχιστον, δύο τῶν λοιπῶν μείζονά ἐστιν.
 
-## Theorema 25, Propositio 25.
+### Theorema 25, Propositio 25.
 
 [Margin]
 25

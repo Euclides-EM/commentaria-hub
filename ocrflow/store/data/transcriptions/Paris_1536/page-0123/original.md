@@ -1,10 +1,12 @@
 <!-- Page number: 107 -->
 
-# Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Quintum elementorum Euclidis, Demonstrationes.
+[Curated heading level=1 type=books: Book 5]
 
-## ¶Diffinitionum elucidatio non aspernanda.
+## Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Quintum elementorum Euclidis, Demonstrationes.
 
-### ORONTIVS.
+### ¶Diffinitionum elucidatio non aspernanda.
+
+#### ORONTIVS.
 
 POSTQVAM EVCLIDES QVATVOR ANTEcedentibus libris, quantitatis continuæ qualitatem, illiúsq́; dimensiones apertè demonstrauit: iam binis succedentibus libris, magnitudinū rationes, atque proportiones, acutissimis prosequitur ostensionibus. Huius itaq; libri quinti scopus est, de proportionibus in vniuersum pertractare: singula enim quę in eo demōstrātur, nō solùm ad geometricā videntur spectare contēplationē, sed cōmune aliquid habēt cum Arithmetica, & Musica, & cum doctrinis omnibus quę sub mathematica traditione cōprehendūtur.
 
@@ -24,11 +26,11 @@ Ipsæ autē magnitudines, termini tunc vocitātur: illa quidē quæ alteri refer
 Quota seu multiplicatiua pars.
 [/Margin]
 
-# ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΠΕΜΠΤΟΝ.
+## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΠΕΜΠΤΟΝ.
 
 ¶Μέρος ἐστὶ μέγεθος μεγέθους, τὸ ἔλασσον τοῦ μείζονος, ὅταν καταμετρῇ τὸ μεῖζον.
 
-[Curated heading level=2 type=definitions: 1]
+[Curated heading level=4 type=definitions: 1]
 
 1 Pars est magnitudo magnitudinis minor maioris, quando minor metitur maiorem.
 
@@ -46,7 +48,7 @@ Multiplex.
 
 ¶Πολλαπλάσιον δὲ τὸ μεῖζον τοῦ ἐλάσσονος, ὅταν καταμετρῆται ὑπὸ τοῦ ἐλάσσονος.
 
-[Curated heading level=2 type=definitions: 2]
+[Curated heading level=4 type=definitions: 2]
 
 2 Multiplex autem, maior minore, quando eam metitur minor.
 

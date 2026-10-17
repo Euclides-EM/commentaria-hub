@@ -2,15 +2,15 @@
 
 <!-- Page number: 24 -->
 
-[Curated heading level=2 type=propositions: Problema 8, Propositio 22.]
+[Curated heading level=3 type=propositions: Problema 8, Propositio 22.]
 
-[Curated heading level=2 type=problems: Problema 8, Propositio 22.]
+[Curated heading level=3 type=problems: Problema 8, Propositio 22.]
 
-## Πρόβλημα η, Πρόθεσις κβ.
+### Πρόβλημα η, Πρόθεσις κβ.
 
 Ἐκ τριῶν εὐθειῶν αἵ ἐισιν ἴσαι τρισὶ ταῖς δοθείσαις εὐθείαις,τρίγωνον συστήσασθαι.δεῖ δὴ τὰς δύο τῆς λοιπῆς μείζονας εἶναι, πάντη μεταλαμβανομένας,διὰ τὸ καὶ παντὸς τριγώνου τὰς δύο πλευρὰς τῆς λοιπῆς μείζονας εἶναι,πάντη μεταλαμβανομένας.
 
-## Problema 8, Propositio 22.
+### Problema 8, Propositio 22.
 
 22 EX tribus rectis lineis,quæ sunt tribus datis rectis lineis æquales,triangulum cōstruere. Oportet autem duo latera, reliquo esse maiora quomodocunque assumpta : quoniam trianguli bina latera quomodocunque assumpta,reliquo sunt maiora.
 

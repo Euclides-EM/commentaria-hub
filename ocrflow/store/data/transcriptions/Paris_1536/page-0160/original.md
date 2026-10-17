@@ -16,15 +16,15 @@ Demōstratio theorematis.
 
 [Diagram: a/b,b/c,c/a. d/c,c/e,e/d.]
 
-[Curated heading level=2 type=propositions: Theorema 5, Propositio 5.]
+[Curated heading level=3 type=propositions: Theorema 5, Propositio 5.]
 
-[Curated heading level=2 type=theorems: Theorema 5, Propositio 5.]
+[Curated heading level=3 type=theorems: Theorema 5, Propositio 5.]
 
-## Θεώρημα ε, Πρόθεσις ε.
+### Θεώρημα ε, Πρόθεσις ε.
 
 Ἐὰμ δύο τρίγωνα τὰς πλευρὰς ἀνάλογομ ἔχῃ,ἰσογώνια ἔσαι τὰ τρίγωνα,καὶ ἴσας ἕξει τὰς γωνίας ὑφ᾽ ἃς αἱ ὁμόλογοι πλευραὶ ὑποτείνουσιμ.
 
-## Theorema 5, Propositio 5.
+### Theorema 5, Propositio 5.
 
 SI duo triangula,latera proportionalia habuerint:æquiangula erunt triangula,& æquales habebunt angulos sub quibus eiusdem rationis latera subtenduntur.
 

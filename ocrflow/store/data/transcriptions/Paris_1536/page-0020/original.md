@@ -8,7 +8,7 @@ Cuiusmodi sunt anguli a/b/c/ & a/b/d, à recta a/b/ super rectam c/d/ ad perpend
 
 Ἀμβλεῖα γωνία ἐστίν,ἡ μείζων ὀρθῆς.
 
-[Curated heading level=3 type=definitions: 11]
+[Curated heading level=4 type=definitions: 11]
 
 11 Obtusus angulus,maior est recto
 
@@ -20,7 +20,7 @@ Vt angulus e/ f/ g,includens arcum e/ g, quadrante maiorem, descripti circa punc
 
 Ὀξεῖα δέ,ἡ ἐλάσσων ὀρθῆς.
 
-[Curated heading level=3 type=definitions: 12]
+[Curated heading level=4 type=definitions: 12]
 
 12 Acutus verò,minor est recto.
 
@@ -36,13 +36,13 @@ Veluti angulus e/f/h:cuius arcus e/h/eodem circuli quadrante minor est. Vnde fit
 Cur ōnes anguli recti inuicē æquales. Acutorum & obtusoruman gulorū diuersitas. Linearū quātitas angulū nō immutat.
 [/Margin]
 
-## De termino & figura.
+### De termino & figura.
 
 CVM AVTEM OMNIS MAGNITVDO FINITA SIT, ET terminata:diffinit cōsequēter Euclides ipsi⁹ magnitudinis terminū,in hūc qui sequitur modū,
 
 Ὅρος ἐστίν,ὅ τινός ἐστι πέρας.
 
-[Curated heading level=3 type=definitions: 13]
+[Curated heading level=4 type=definitions: 13]
 
 13 Terminus est,quod cuiusque finis est.
 
@@ -54,7 +54,7 @@ Vtpote,punctum ipsius lineæ,linea superficiei, superficies denique solidi:quema
 
 Σχῆμά ἐστι,τὸ ὑπό τινος ἢ τινῶν ὅρων περιεχόμενον.
 
-[Curated heading level=3 type=definitions: 14]
+[Curated heading level=4 type=definitions: 14]
 
 14 Figura sub aliquo,vel aliquibus terminis comprehenditur.
 
@@ -68,7 +68,7 @@ Sub aliquo quidem,vt planū circulare,vel solidum sphæricum:sub aliquibus verò
 Notandum.
 [/Margin]
 
-## De circulo,eiúsque partibus.
+### De circulo,eiúsque partibus.
 
 INTER FIGVRAS, QVAE PLANAE VOCANTVR, EA DICItur esse simplicissima,quæ vnico comprehenditur termino:cuiusmodi videtur esse circulus. Hunc itaque primùm diffinit Euclides,
 
@@ -78,7 +78,7 @@ Planarū figurarū simplicissima circulus est
 
 Κύκλος ἐστὶ σχῆμα ἐπίπεδον, ὑπὸ μιᾶς γραμμῆς περιεχόμενον, ἣ καλεῖται περιφέρεια, πρὸς ἣν ἀφ᾽ ἑνὸς σημείου τῶν ἐντὸς τοῦ σχήματος κειμένου, πᾶσαι αἱ προσπίπτουσαι εὐθεῖαι, ἴσαι ἀλλήλαις εἰσί.
 
-[Curated heading level=3 type=definitions: 15]
+[Curated heading level=4 type=definitions: 15]
 
 15 Circulus, est figura plana, vna linea contenta , quæ circunferentia adpellatur:ad quam ab vno puncto introrsum medio existēte,
 

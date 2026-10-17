@@ -1,14 +1,14 @@
 <!-- Running title: GEOMET. ELEMENT. -->
 
-[Curated heading level=2 type=propositions: Theorema 2, Propositio 2.]
+[Curated heading level=3 type=propositions: Theorema 2, Propositio 2.]
 
-[Curated heading level=2 type=theorems: Theorema 2, Propositio 2.]
+[Curated heading level=3 type=theorems: Theorema 2, Propositio 2.]
 
-## Θεώρημα β, Πρόθεσις β.
+### Θεώρημα β, Πρόθεσις β.
 
 Ἐὰν πρῶτον δευτέρου ἰσάκις ᾖ πολλαπλάσιον, καὶ τρίτον τετάρτου, ᾖ δὲ ⁊ πέμπτον δευτέρου ἰσάκις πολλαπλάσιον, καὶ ἕκτον τετάρτου· καὶ συντεθὲν πρῶτον, καὶ πέμπτον, δευτέρου ἰσάκις ἔσαι πολλαπλάσιον, καὶ τρίτον, καὶ ἕκτον τετάρτου.
 
-## Theorema 2, Propositio 2.
+### Theorema 2, Propositio 2.
 
 SI prima secundæ æquè fuerit multiplex & tertia quartæ, fuerit autem & quinta secundæ æquè multiplex & sexta quartæ: & composita prima & quinta secundæ æquè multiplex erit, & tertia & sexta quartæ.
 
@@ -22,15 +22,15 @@ ac tertia d/e ipsius quartæ f: & quinta rursum b/g eiusdem secundæ c æquè mu
 Demōstratio theorematis.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 3, Propositio 3.]
+[Curated heading level=3 type=propositions: Theorema 3, Propositio 3.]
 
-[Curated heading level=2 type=theorems: Theorema 3, Propositio 3.]
+[Curated heading level=3 type=theorems: Theorema 3, Propositio 3.]
 
-## Θεώρημα γ, Πρόθεσις γ.
+### Θεώρημα γ, Πρόθεσις γ.
 
 Ἐὰν πρῶτον δευτέρου ἰσάκις ᾖ πολλαπλάσιον, καὶ τρίτον τετάρτου, ληφθῇ δὲ ἰσάκις πολλαπλάσια τοῦ πρώτου καὶ τρίτου· καὶ δι᾽ ἴσου τῶν ληφθέντων ἑκάτερον ἑκατέρου ἰσάκις ἔσαι πολλαπλάσιον, τὸ μὲν, τοῦ δευτέρου, τὸ δὲ, τοῦ τετάρτου.
 
-## Theorema 3, Propositio 3.
+### Theorema 3, Propositio 3.
 
 SI primum secundi æquè fuerit multiplex, & tertium quarti, sumátur autem æquè multiplicia primi & tertij: & æquè sumptorum vtrunque vtriusq; æquè erit multiplex, alterum quidem secundi, alterum autem quarti.
 

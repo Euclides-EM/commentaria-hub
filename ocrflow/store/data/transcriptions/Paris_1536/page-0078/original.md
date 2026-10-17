@@ -10,15 +10,15 @@ Pars ſecūda conuerſa præcedentis.
 
 [Diagram: a d b e c f]
 
-[Curated heading level=2 type=propositions: Theorema 3, Propoſitio 4.]
+[Curated heading level=3 type=propositions: Theorema 3, Propoſitio 4.]
 
-[Curated heading level=2 type=theorems: Theorema 3, Propoſitio 4.]
+[Curated heading level=3 type=theorems: Theorema 3, Propoſitio 4.]
 
-## Θεώρημα γ, Πρόθεσις δ.
+### Θεώρημα γ, Πρόθεσις δ.
 
 Ἐὰν ἐν κύκλῳ δύο εὐθεῖαι τέμνωσιν ἀλλήλας,μὴ διὰ τοῦ κέντρου οὖσαι,οὐ τέμνουσιν ἀλλήλας δίχα.
 
-## Theorema 3, Propoſitio 4.
+### Theorema 3, Propoſitio 4.
 
 SI in circulo binæ rectæ lineæ ſeſe inuicem ſecuerint non per centrum extenſæ:ſeſe inuicem bifariam non ſecabunt.
 

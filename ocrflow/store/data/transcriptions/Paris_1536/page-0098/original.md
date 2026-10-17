@@ -28,6 +28,6 @@ Quarta eiusdẽ theorematis pars.
 Pars quinta & vltima.
 [/Margin]
 
-### Corollarium primum.
+#### Corollarium primum.
 
 ¶Ex hac, & decimasexta huius tertij propositione fit manifestum, quòd tametsi in mixtis angulis, sub recta linea & circuli circunferentia comprehensis, detur minor atque maior recto: nunquàm tamen dabitur æqualis.

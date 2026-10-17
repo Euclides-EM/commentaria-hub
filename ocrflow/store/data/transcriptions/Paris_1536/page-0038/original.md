@@ -1,14 +1,14 @@
 <!-- Running title: GEOMET. ELEMENT. -->
 
-[Curated heading level=2 type=propositions: Theorema 11, Propositio 18.]
+[Curated heading level=3 type=propositions: Theorema 11, Propositio 18.]
 
-[Curated heading level=2 type=theorems: Theorema 11, Propositio 18.]
+[Curated heading level=3 type=theorems: Theorema 11, Propositio 18.]
 
-## Θεώρημα ια, Πρόθεσις ιη.
+### Θεώρημα ια, Πρόθεσις ιη.
 
 Παντὸς τριγώνου ἡ μείζων πλευρὰ, τὴν μείζονα γωνίαν ὑποτείνει.
 
-## Theorema 11, Propositio 18.
+### Theorema 11, Propositio 18.
 
 OMnis trianguli maius latus,sub maiori angulo subtenditur.
 
@@ -16,15 +16,15 @@ ORONTIVS.¶Sit triangulum a/b/c:cuius latus a/b,maius sit a/c/latere.dico quòd 
 
 [Diagram: a d b c]
 
-[Curated heading level=2 type=propositions: Theorema 12, Propositio 19.]
+[Curated heading level=3 type=propositions: Theorema 12, Propositio 19.]
 
-[Curated heading level=2 type=theorems: Theorema 12, Propositio 19.]
+[Curated heading level=3 type=theorems: Theorema 12, Propositio 19.]
 
-## Θεώρημα ιβ, Πρόθεσις ιθ.
+### Θεώρημα ιβ, Πρόθεσις ιθ.
 
 Παντὸς τριγώνου ὑπὸ τὴν μείζονα γωνίαν ἡ μείζων πλευρὰ ὑποτείνει.
 
-## Theorema 12, Propositio 19.
+### Theorema 12, Propositio 19.
 
 OMnis trianguli maior angulus, sub maiori latere subtéditur.
 
@@ -32,15 +32,15 @@ ORONTIVS. ¶Sit rursum a/b/c/ triangulum, habens angulum a/c/b, maioré angulo a
 
 [Diagram: a b c]
 
-[Curated heading level=2 type=propositions: Theorema 13, Propositio 20.]
+[Curated heading level=3 type=propositions: Theorema 13, Propositio 20.]
 
-[Curated heading level=2 type=theorems: Theorema 13, Propositio 20.]
+[Curated heading level=3 type=theorems: Theorema 13, Propositio 20.]
 
-## Θεώρημα ιγ, Πρόθεσις κ.
+### Θεώρημα ιγ, Πρόθεσις κ.
 
 Παντὸς τριγώνου αἱ δύο πλευραὶ,τῆς λοιπῆς μείζονές εἰσι,πάντη μεταλαμβανόμεναι.
 
-## Theorema 13, Propositio 20.
+### Theorema 13, Propositio 20.
 
 OMnis trianguli duo latera, reliquo sunt maiora, quomodocunque assumpta.
 

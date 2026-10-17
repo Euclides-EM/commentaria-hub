@@ -4,15 +4,15 @@
 
 proportionalis inter ipſius baſis ſegmenta:& vnumquodq; præterea laterū rectum continentium angulum , medium itidem proportionale eſt inter baſin & ſegmentum,quod cum ipſo congreditur latere.
 
-[Curated heading level=2 type=propositions: Problema 1, Propoſitio 9.]
+[Curated heading level=3 type=propositions: Problema 1, Propoſitio 9.]
 
-[Curated heading level=2 type=problems: Problema 1, Propoſitio 9.]
+[Curated heading level=3 type=problems: Problema 1, Propoſitio 9.]
 
-## Πρόβλημα α, Πρόθεσις θ.
+### Πρόβλημα α, Πρόθεσις θ.
 
 ΤΗς δοθείσης εὐθείας,τὸ προσαχθὲν μέρος ἀφελεῖν.
 
-## Problema 1, Propoſitio 9.
+### Problema 1, Propoſitio 9.
 
 DAta recta linea,ordinatam partem abſcindere.
 
@@ -28,15 +28,15 @@ Exequutio p̷blematis.
 
 [Diagram: a f b c d e]
 
-[Curated heading level=2 type=propositions: Problema 2, Propoſitio 10.]
+[Curated heading level=3 type=propositions: Problema 2, Propoſitio 10.]
 
-[Curated heading level=2 type=problems: Problema 2, Propoſitio 10.]
+[Curated heading level=3 type=problems: Problema 2, Propoſitio 10.]
 
-## Πρόβλημα β, Πρόθεσις ι.
+### Πρόβλημα β, Πρόθεσις ι.
 
 ΤΗν δοθεῖσαν εὐθεῖαν ἄτμητον,τῇ δοθείσῃ εὐθείᾳ τετμημένῃ ὁμοίως τεμεῖν.
 
-## Problema 2, Propoſitio 10.
+### Problema 2, Propoſitio 10.
 
 DAtam rectam lineam non ſectam, datæ rectæ lineæ ſectæ ſimiliter ſecare.
 

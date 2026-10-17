@@ -16,15 +16,15 @@ Tertia eiusdē primæ partis differentia.
 Pars secunda prīcipalis theorematis.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 9, Propositio 9.]
+[Curated heading level=3 type=propositions: Theorema 9, Propositio 9.]
 
-[Curated heading level=2 type=theorems: Theorema 9, Propositio 9.]
+[Curated heading level=3 type=theorems: Theorema 9, Propositio 9.]
 
-## Θεώρημα θ, Πρόθεσις θ.
+### Θεώρημα θ, Πρόθεσις θ.
 
 Τα πρὸς τὸ αὐτὸ τὸν αὐτὸν ἔχοντα λόγον, ἴσα ἀλλήλοις ἐστί: καὶ πρὸς ἃ τὸ αὐτὸ τὸν αὐτὸν ἔχῃ λόγον, κἀκεῖνα ἴσα ἀλλήλοις ἐστίν.
 
-## Theorema 9, Propositio 9.
+### Theorema 9, Propositio 9.
 
 [Margin]
 9

@@ -6,14 +6,14 @@
 Quòd idẽ pẽtagonum ſit æquiangulũ.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Problema 12, Propoſitio 12.]
+[Curated heading level=3 type=propositions: Problema 12, Propoſitio 12.]
 
-[Curated heading level=2 type=problems: Problema 12, Propoſitio 12.]
+[Curated heading level=3 type=problems: Problema 12, Propoſitio 12.]
 
-## Πρόβλημα ιβ, Πρόθεσις ιβ.
+### Πρόβλημα ιβ, Πρόθεσις ιβ.
 Περὶ τὸν δοθέντα κύκλον, πεντάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον περιγράψαι.
 
-## Problema 12, Propoſitio 12.
+### Problema 12, Propoſitio 12.
 
 CIrca datum circulum, pentagonum æquilaterum & æquiangulum deſcribere.
 

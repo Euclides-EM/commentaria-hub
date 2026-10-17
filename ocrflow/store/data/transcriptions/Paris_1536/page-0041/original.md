@@ -2,15 +2,15 @@
 
 <!-- Page number: 25 -->
 
-[Curated heading level=2 type=propositions: Problema 9, Propositio 23.]
+[Curated heading level=3 type=propositions: Problema 9, Propositio 23.]
 
-[Curated heading level=2 type=problems: Problema 9, Propositio 23.]
+[Curated heading level=3 type=problems: Problema 9, Propositio 23.]
 
-## Πρόβλημα θ, Πρόθεσις κγ.
+### Πρόβλημα θ, Πρόθεσις κγ.
 
 Πρὸς τῇ δοθείσῃ εὐθείᾳ καὶ τῷ πρὸς αὐτῇ σημείῳ, τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ,ἴσην γωνίαν εὐθύγραμμον συστήσασθαι.
 
-## Problema 9, Propositio 23.
+### Problema 9, Propositio 23.
 
 23 AD datam rectam lineam,ad datúmque in ea punctum, dato angulo rectilineo,æqualem angulum rectilineū constituere.
 
@@ -26,15 +26,15 @@ Figurę constitutio.
 Cōclusio problematis.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 15, Propositio 24.]
+[Curated heading level=3 type=propositions: Theorema 15, Propositio 24.]
 
-[Curated heading level=2 type=theorems: Theorema 15, Propositio 24.]
+[Curated heading level=3 type=theorems: Theorema 15, Propositio 24.]
 
-## Θεώρημα ιε, Πρόθεσις κδ.
+### Θεώρημα ιε, Πρόθεσις κδ.
 
 Ἐὰν δύο τρίγωνα τὰς δύο πλευρὰς ταῖς δυσὶ πλευραῖς ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, τὴν δὲ γωνίαν τῆς γωνίας μείζονα ἔχῃ τὴν ὑπὸ τῶν ἴσων εὐθειῶν περιεχομένην,καὶ τὴν βάσιν τῆς βάσεως μείζονα ἕξῃ.
 
-## Theorema 15, Propositio 24.
+### Theorema 15, Propositio 24.
 
 24 SI bina triangula,duo latera duobus lateribus æqualia habuerint alterum alteri,angulum verò angulo maiorem sub æquis rectis lineis contentum:basin quoq basi maiorem habebunt.
 

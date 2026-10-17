@@ -4,15 +4,15 @@
 
 est eius qui ad circunferentiam: quando ipsi anguli communem basin eandem circunferentiam habuerint. Quod fuerat ostendendum.
 
-[Curated heading level=2 type=propositions: Theorema 19, Propositio 21.]
+[Curated heading level=3 type=propositions: Theorema 19, Propositio 21.]
 
-[Curated heading level=2 type=theorems: Theorema 19, Propositio 21.]
+[Curated heading level=3 type=theorems: Theorema 19, Propositio 21.]
 
-## Θεώρημα ιθ, Πρόθεσις κα.
+### Θεώρημα ιθ, Πρόθεσις κα.
 
 Εν κύκλῳ αἱ ἐν τῷ αὐτῷ τμήματι γωνίαι, ἴσαι ἀλλήλαις ἐσίν.
 
-## Theorema 19, Propositio 21.
+### Theorema 19, Propositio 21.
 
 IN circulo qui in eodem segmento sunt anguli: sibi inuicem sunt æquales.
 
@@ -32,15 +32,15 @@ De segmento semicirculo minori.
 
 [Diagram: a b c d e f]
 
-[Curated heading level=2 type=propositions: Theorema 20, Propositio 22.]
+[Curated heading level=3 type=propositions: Theorema 20, Propositio 22.]
 
-[Curated heading level=2 type=theorems: Theorema 20, Propositio 22.]
+[Curated heading level=3 type=theorems: Theorema 20, Propositio 22.]
 
-## Θεώρημα κ, Πρόθεσις κβ.
+### Θεώρημα κ, Πρόθεσις κβ.
 
 Των ἐν τοῖς κύκλοις τετραπλεύρων αἱ ἀπεναντίον γωνίαι, δυσὶν ὀρθαῖς ἴσαι ἐσίν.
 
-## Theorema 20, Propositio 22.
+### Theorema 20, Propositio 22.
 
 IN circulis quadrilaterorum existentium anguli, qui ex opposito: duobus rectis sunt æquales.
 

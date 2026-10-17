@@ -22,11 +22,7 @@ Bew. S. die Uiberſ. v. L. od. B.
 
 ### Zuſatz.
 
-[Curated heading level=4 type=numbered_item: 1)]
-
 1) Die Summe der vier Scheitelwinkel iſt vier rechten Winkeln gleich.
-
-[Curated heading level=4 type=numbered_item: 2)]
 
 2) Die Summe aller Winkel, die von einer beliebigen Anzahl der in einerlei Ebene befindlichen, und von dem nemlichen Punkt ausgehenden geraden Linien gebildet werden, iſt auch vier rechten Winkeln gleich.
 

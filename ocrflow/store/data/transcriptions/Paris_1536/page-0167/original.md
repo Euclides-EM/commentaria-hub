@@ -4,15 +4,15 @@
 
 Tribus itaq; rectis lineis datis,a,b,c,quartam inuenimus proportionalē h/f.Quod faciendum fuerat.
 
-[Curated heading level=2 type=propositions: Problema 5, Propoſitio 13.]
+[Curated heading level=3 type=propositions: Problema 5, Propoſitio 13.]
 
-[Curated heading level=2 type=problems: Problema 5, Propoſitio 13.]
+[Curated heading level=3 type=problems: Problema 5, Propoſitio 13.]
 
-## Πρόβλημα ε, Πρόθεσις ιγ.
+### Πρόβλημα ε, Πρόθεσις ιγ.
 
 ΔΥο Δοθεισῶν εὐθειῶν,μέσην ἀνάλογον προσευρεῖν.
 
-## Problema 5, Propoſitio 13.
+### Problema 5, Propoſitio 13.
 
 DVabus datis rectis lineis,mediam proportionalem inuenire.
 
@@ -28,15 +28,15 @@ Conſtructio figuræ.
 Sūmaria problematis oſtēſio.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 9, Propoſitio 14.]
+[Curated heading level=3 type=propositions: Theorema 9, Propoſitio 14.]
 
-[Curated heading level=2 type=theorems: Theorema 9, Propoſitio 14.]
+[Curated heading level=3 type=theorems: Theorema 9, Propoſitio 14.]
 
-## Θεώρημα θ, Πρόθεσις ιδ.
+### Θεώρημα θ, Πρόθεσις ιδ.
 
 ΤΩν ἴσων τε καὶ μίαν μιᾷ ἴσην ἐχόντων γωνίαν παραλληλογράμμων, ἀντιπεπόνθασιν αἱ πλευραὶ,αἱ περὶ τὰς ἴσας γωνίας: καὶ ὧν παραλληλογράμμων μίαν μιᾷ ἴσην ἐχόντων γωνίαν,ἀντιπεπόνθασιν αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας, ἴσα ἐστὶν ἐκεῖνα.
 
-## Theorema 9, Propoſitio 14.
+### Theorema 9, Propoſitio 14.
 
 AEqualium & vnum vni æqualem habētium angulum parallelogrammorum: reciproca ſunt latera,quæ circum æquales angulos . Et quorum parallelogrammorum vnum angulum vni angulo æqualem habentium , reciproca ſunt latera , quæ circum æquales angulos:ea quoque ſunt æqualia.
 

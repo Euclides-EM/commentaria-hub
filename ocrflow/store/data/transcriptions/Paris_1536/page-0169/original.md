@@ -24,15 +24,15 @@ Pars secunda conuersa primæ.
 
 Aequum eſt igitur a/b/c/triangulum,ipsi triangulo d/b/e. Aequalium itaq; & vnũ vni æqualẽ habentiũ angulũ:&c.vt in theoremate.Quod oportebat demonſtrare.
 
-[Curated heading level=2 type=propositions: Theorema 11, Propositio 16.]
+[Curated heading level=3 type=propositions: Theorema 11, Propositio 16.]
 
-[Curated heading level=2 type=theorems: Theorema 11, Propositio 16.]
+[Curated heading level=3 type=theorems: Theorema 11, Propositio 16.]
 
-## Θεώρημα ια, Πρόθεσις ις.
+### Θεώρημα ια, Πρόθεσις ις.
 
 Εὰν τέσσαρες εὐθεῖαι ἀνάλογον ὦσι, τὸ ὑπὸ τῶν ἄκρων περιεχόμενον ὀρθογώνιον, ἴσον ἐστὶ τῷ ὑπὸ τῶν μέσων περιεχομένῳ ὀρθογωνίῳ.καὶ ἐὰν τὸ ὑπὸ τῶν ἄκρων περιεχόμενον ὀρθογώνιον,ἴσον ᾖ τῷ ὑπὸ τῶν μέσων περιεχομένῳ ὀρθογωνίῳ, αἱ τέσσαρες εὐθεῖαι , ἀνάλογον ἔσονται.
 
-## Theorema 11, Propositio 16.
+### Theorema 11, Propositio 16.
 
 SI quatuor rectæ lineæ proportionales fuerint : quod sub extremis comprehensum rectangulum, æquum eſt ei, quod sub medijs continetur rectangulo. Et si sub extremis comprehensum rectangulum, æquum fuerit ei, quod sub medijs continetur rectangulo:quatuor rectæ lineæ proportionales erunt.
 

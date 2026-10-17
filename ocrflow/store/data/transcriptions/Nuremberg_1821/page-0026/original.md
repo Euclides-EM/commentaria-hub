@@ -4,15 +4,9 @@ dern liegt, ſo weit auch beide Linien nach entgegengeſetzten Richtungen verlä
 
 ## Forderungen.
 
-[Curated heading level=3 type=numbered_item: 1)]
-
 1) Von einem gegebenen Punkt zu einem andern gegebenen Punkt eine gerade Linie zu ziehen.
 
-[Curated heading level=3 type=numbered_item: 2)]
-
 2) Eine der Lage und Größe nach gegebene gerade Linie ins unbegrenzte zu verlängern.
-
-[Curated heading level=3 type=numbered_item: 3)]
 
 3) Durch drei gegebene, nicht in gerader Linie liegende Punkte, eine Ebene zu legen.
 

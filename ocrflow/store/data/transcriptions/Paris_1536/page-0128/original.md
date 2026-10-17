@@ -6,7 +6,7 @@ terminis, discontinua autem in paucioribus quatuor. Hi sunt ergo numeri terminor
 
 ¶Ὅταν τρία μεγέθη ἀνάλογον ᾖ, τὸ πρῶτον πρὸς τὸ τρίτον, διπλασίονα λόγον ἔχειν λέγεται, ἤπερ πρὸς τὸ δεύτερον. Ὅταν δὲ τέσσαρα μεγέθη ἀνάλογον τὸ πρῶτον πρὸς τὸ τέταρτον, τριπλασίονα λόγον ἔχειν λέγεται, ἤπερ πρὸς τὸ δεύτερον, καὶ ἀεὶ ἑξῆς ἑνὶ πλεῖον, ἕως ἂν ἡ ἀναλογία ὑπάρχῃ.
 
-[Curated heading level=2 type=definitions: Quando tres magnitudines proportionales fuerint]
+[Curated heading level=4 type=definitions: Quando tres magnitudines proportionales fuerint]
 
 Quando tres magnitudines proportionales fuerint: prima ad tertiam duplicē rationem habere dicetur, quàm ad secundam. Quando autem quatuor magnitudines proportionales fuerint: prima ad quartam triplicem rationē habere dicetur, quàm ad secundā, & semper ordine vna plus, quousq; sit absoluta proportio.
 
@@ -46,6 +46,6 @@ Vbi quinque vel plures fuerint magnitudines.
 
 ¶Ὁμόλογα μεγέθη λέγεται εἶναι, τὰ μὲν ἡγούμενα τοῖς ἡγουμένοις, τὰ δὲ ἑπόμενα τοῖς ἑπομένοις.
 
-[Curated heading level=2 type=definitions: Similis rationis magnitudines dicuntur]
+[Curated heading level=4 type=definitions: Similis rationis magnitudines dicuntur]
 
 Similis rationis magnitudines dicuntur, antecedentia antecedentibus, & consequentia consequentibus.

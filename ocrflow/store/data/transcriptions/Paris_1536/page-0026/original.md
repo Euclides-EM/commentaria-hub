@@ -8,7 +8,7 @@ gnitudinibus datis h/l/ & k/m, æquales auferantur l/ & m, quæ relinquentur h/ 
 
 Καὶ τὰ τῦ αὐτῦ διπλάσια, ἴσα ἀλλήλοις ἐστίν.
 
-[Curated heading level=3 type=axioms: 6]
+[Curated heading level=4 type=axioms: 6]
 
 Quæ eiuſdem duplicia ſunt, adinuicem ſunt æqualia. 6
 
@@ -24,7 +24,7 @@ Hoc eſt, quę eiuſdem ſunt æquè multiplicia, vel æquè ſuperparticularia,
 
 Καὶ τὰ τῦ αὐτῦ ἥμισυ, ἴσα ἀλλήλοις ἐστί.
 
-[Curated heading level=3 type=axioms: 7]
+[Curated heading level=4 type=axioms: 7]
 
 Et quæ eiuſdem ſunt dimidium, æqualia ſunt adinuicem. 7
 
@@ -40,7 +40,7 @@ quæcũq̃ eiuſdẽ ſunt ęquè ſubmultiplicia, aut ſubſuperparticularia, v
 
 Καὶ τὰ ἐφαρμόζοντα ἐπ' ἄλληλα, ἴσα ἀλλήλοις ἐστίν.
 
-[Curated heading level=3 type=axioms: 8]
+[Curated heading level=4 type=axioms: 8]
 
 Et quæ ſibimet ipſis conueniunt, æqualia ſunt adinuicem. 8
 
@@ -48,7 +48,7 @@ Vtpote, ſi duę rectę lineę in limitib⁹, duæve ſuperficies in terminis, �
 
 Καὶ τὸ ὅλον μεῖζον τῦ μέρους ἐστί.
 
-[Curated heading level=3 type=axioms: 9]
+[Curated heading level=4 type=axioms: 9]
 
 Totum eſt ſua parte maius. 9
 
@@ -56,13 +56,13 @@ Adde quòd & æquale ſuis partibus integralibus, id eſt quæ ſimul ſumptæ i
 
 Καὶ δύο ευθεῖαι χωρίον ὀυ περιέχουσι.
 
-[Curated heading level=3 type=axioms: 10]
+[Curated heading level=4 type=axioms: 10]
 
 Duæ rectæ lineæ ſuperficiem non concludunt. 10
 
 Prius q̃ enim ſuperficiẽ cõcludere valerẽt: operępretiũ eſſet, gemina pũcta vtriuſq̃ datarũ linearũ terminos limitãtia mutuo cõuenire. Duæ itaq̃ lineę rectę, à dato pũcto in datũ punctũ producerentur: coinciderẽt igitur in vnã atq̃ eandem lineam rectã, ſuperficiem concludere non valentes. quẽadmodum ex ijs quę quarta prædiximus diffinitione fit manifeſtum.
 
-## De Problemate, Theoremate, atque Hypotheſi.
+### De Problemate, Theoremate, atque Hypotheſi.
 
 [Margin]
 Problemata. Theoremata

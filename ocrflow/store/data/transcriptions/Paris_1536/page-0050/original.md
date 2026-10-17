@@ -6,15 +6,15 @@ ORONTIVS. ¶ Sint a b c d & e f g h parallelogramma, in baſibus æqualibus c d 
 
 tuūtur. Et per eandem trigeſimamquintam propoſitionem, e f g h parallelogrāmum, æquum eſt ipſi c d e f parallelogrammo: ſunt enim in eadem baſi e f, atque in eiſdem parallelis a f & c h. Bina igitur parallelogramma a b c d & e f g h, eidem parallelogrammo c d e f ſunt æqualia: quapropter & æqualia adinuicem, per primam cómunem ſentētiam. Idem etiam oſtendere licebit, de quacunq; parallelogrammorum diſpoſitione: hypotheſi ſeruata. Parallelográma igitur in baſibus æqualibus: & cætera, vt in theoremate. Quod demonſtrare oportebat.
 
-[Curated heading level=2 type=propositions: Theorema 27, Propoſitio 37.]
+[Curated heading level=3 type=propositions: Theorema 27, Propoſitio 37.]
 
-[Curated heading level=2 type=theorems: Theorema 27, Propoſitio 37.]
+[Curated heading level=3 type=theorems: Theorema 27, Propoſitio 37.]
 
-## Θεώρημα κζ, Πρόθεσις λζ.
+### Θεώρημα κζ, Πρόθεσις λζ.
 
 ΤΑ τρίγωνα τὰ ἐπὶ τῆς αὐτῆς βάσεως ὄντα καὶ ἐν ταῖς αὐταῖς παραλλήλοις ἴσα ἀλλήλοις ἐστίν.
 
-## Theorema 27, Propoſitio 37.
+### Theorema 27, Propoſitio 37.
 
 TRiangula in eadem baſi, & in eiſdem parallelis conſtituta: adinuicem ſunt æqualia.
 
@@ -24,14 +24,14 @@ ORONTIVS. ¶ Sint triangula a b c & d b c, in eadem baſi b c, atq; in eiſdē p
 
 parallelogramma, & in eadem baſi b c, atque in eiſdem parallelis b c & e f, per hypotheſin cóſtituta: igitur adinuicem æqualia, per trigeſimamquintam propoſitionē. Triangulum porrò a b c, dimidiū eſt parallelogrammi a c b e, atq; d b c, triāgulum dimidiū ipſius d b c f parallelogrammi: dimetientes enim a b & c d, ipſa bifariam ſecant parallelogramma, per trigeſimamquartam propoſitionem. Quæ autem æqualium ſunt dimidiū, æqualia ſunt adinuicem, per ſeptimam communē ſententiam. Igitur a b c triangulum, æquum eſt d b c triāgulo. Ergo triangula in eadem baſi: & quæ ſequūtur reliqua. Quod oſtendendum fuerat.
 
-[Curated heading level=2 type=propositions: Theorema 28, Propoſitio 38.]
+[Curated heading level=3 type=propositions: Theorema 28, Propoſitio 38.]
 
-[Curated heading level=2 type=theorems: Theorema 28, Propoſitio 38.]
+[Curated heading level=3 type=theorems: Theorema 28, Propoſitio 38.]
 
-## Θεώρημα κη, Πρόθεσις λη.
+### Θεώρημα κη, Πρόθεσις λη.
 
 ΤΑ τρίγωνα τὰ ἐπὶ τῶν ἴσων βάσεων ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστίν.
 
-## Theorema 28, Propoſitio 38.
+### Theorema 28, Propoſitio 38.
 
 TRiangula in æqualibus baſibus, & in eiſdem parallelis conſtituta: adinuicem ſunt æqualia.

@@ -16,15 +16,15 @@ Reſolutio demōſtrationis.
 
 [Diagram: d/e. e/f | a/b. b/c | d/e. e/g.]
 
-[Curated heading level=2 type=propositions: Theorema 7, Propoſitio. 7.]
+[Curated heading level=3 type=propositions: Theorema 7, Propoſitio. 7.]
 
-[Curated heading level=2 type=theorems: Theorema 7, Propoſitio. 7.]
+[Curated heading level=3 type=theorems: Theorema 7, Propoſitio. 7.]
 
-## Θεώρημα ζ, Πρόθεσις ζ.
+### Θεώρημα ζ, Πρόθεσις ζ.
 
 ΕΑν δύο τρίγωνα μίαν γωνίαν μιᾷ γωνίᾳ ἴσην ἔχῃ, ὧδὲ δὲ τὰς ἄλλας γωνίας, τὰς πλευρὰς ἀνάλογον, τῶν δὲ λοιπῶν ἑκατέραν ἅμα ἤτοι ἐλάσσονα ἢ μὴ ἐλάσσονα ὀρθῆς : ἰσογώνια ἔσται τὰ τρίγωνα, καὶ ἴσας ἕξει τὰς γωνίας, ὧδὲ ἃς ἀνάλογον εἰσὶν αἱ πλευραί.
 
-## Theorema 7, Propoſitio. 7.
+### Theorema 7, Propoſitio. 7.
 
 SI bina triāgula vnum angulum vni angulo æqualē habuerint, circum autem alios angulos latera proportionalia, reliquorū verò vtrunq; ſimul aut minorem aut non minorē recto : æquiangula erunt triangula, & æquales habebunt angulos, circum quos proportionalia ſunt latera.
 

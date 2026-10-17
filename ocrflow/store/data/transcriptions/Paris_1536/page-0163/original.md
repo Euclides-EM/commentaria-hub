@@ -18,15 +18,15 @@ Pars ſecunda theorematis, ſiue hypotheſis differētia.
 
 [Diagram: a b c g d e f]
 
-[Curated heading level=2 type=propositions: Theorema 8, Propoſitio 8.]
+[Curated heading level=3 type=propositions: Theorema 8, Propoſitio 8.]
 
-[Curated heading level=2 type=theorems: Theorema 8, Propoſitio 8.]
+[Curated heading level=3 type=theorems: Theorema 8, Propoſitio 8.]
 
-## Θεώρημα η, Πρόθεσις η.
+### Θεώρημα η, Πρόθεσις η.
 
 ΕΑν ἐν ὀρθογωνίῳ τριγώνῳ,ἀπὸ τῆς ὀρθῆς γωνίας ἐπὶ τὴν βάσιν κάθετος ἀχθῇ,τὰ πρὸς τῇ καθέτῳ τρίγωνα ὅμοιά ἐστι τῷ τε ὅλῳ καὶ ἀλλήλοις.
 
-## Theorema 8, Propoſitio 8.
+### Theorema 8, Propoſitio 8.
 
 SI in triāgulo rectāgulo,ab angulo recto in baſin perpēdicularis
 

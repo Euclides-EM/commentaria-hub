@@ -2,9 +2,9 @@
 
 AC, und drehe ſolche in dieſer Ebene um den Punkt A, bis ſie wieder die erſte Lage AC hat, ſo beſchreibt ſie durch dieſes Umdrehen einen Kreis, und ihr zweiter Endpunkt C den Umfang deſſelben, der durch den gegebenen Punkt C geht.
 
-[Curated heading level=4 type=cases: Zweiter Fall.]
+#### Zweiter Fall.
 
-Zweiter Fall. Wenn dieſe Ebene nicht gegeben iſt, ſo ziehe man die gerade Linie AC, nehme irgendwo einen dritten von A und C verſchiedenen Punkt B an, der nicht in der geraden Linie AC oder ihrer Verlängerung iſt, und lege durch die drei Punkte A, C und B eine Ebene, (3 Ford.) betrachte dieſe Ebene als eine gegebene, und verfahre übrigens nach dem erſten Fall.
+Wenn dieſe Ebene nicht gegeben iſt, ſo ziehe man die gerade Linie AC, nehme irgendwo einen dritten von A und C verſchiedenen Punkt B an, der nicht in der geraden Linie AC oder ihrer Verlängerung iſt, und lege durch die drei Punkte A, C und B eine Ebene, (3 Ford.) betrachte dieſe Ebene als eine gegebene, und verfahre übrigens nach dem erſten Fall.
 
 ### Beweis.
 

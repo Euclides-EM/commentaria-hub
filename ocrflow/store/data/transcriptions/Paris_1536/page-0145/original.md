@@ -20,15 +20,15 @@ Secunda pars siue differentia.
 
 ad f/e, sic d/h, ad h/e: vtrobique enim sicut a/c/ad c/b. Et quoniam prima d/f, minor est tertia d/h: erit rursum per ipsam decimamquartam eiusdem quinti, secunda f/e, minor quarta h/e. Supponitur autē maior: quæ simul stare non possunt. Non est ergo sicut a/b/ad b/c, sic d/e/ad minorē e/f. patuit quòd neq; ad maiorem. Et sicut igitur a/b/ad b/c, sic d/e, ad ipsam e/f. Itaque si diuisæ magnitudines proportionales fuerint: compositæ quoq; proportionales erunt. Quod ostendere fuerat operæpretiū.
 
-[Curated heading level=2 type=propositions: Theorema 19, Propositio 19.]
+[Curated heading level=3 type=propositions: Theorema 19, Propositio 19.]
 
-[Curated heading level=2 type=theorems: Theorema 19, Propositio 19.]
+[Curated heading level=3 type=theorems: Theorema 19, Propositio 19.]
 
-## Θεώρημα ιθ, Πρόθεσις ιθ.
+### Θεώρημα ιθ, Πρόθεσις ιθ.
 
 EΑν ᾖ ὡς ὅλον πρὸς ὅλον, οὕτως ἀφαιρεθὲν πρὸς ἀφαιρεθέν, καὶ τὸ λοιπὸν πρὸς τὸ λοιπὸν ἔσαι, ὡς ὅλον πρὸς ὅλον.
 
-## Theorema 19, Propositio 19.
+### Theorema 19, Propositio 19.
 
 SI fuerit sicut totum ad totum, sic ablatum ad ablatum: & reliquum ad reliquum, erit sicut totum ad totum.
 
@@ -48,7 +48,7 @@ Tota. Ablata. Reliqua. a,b.c,d. a,e.c,f. e,b.f,d.
 
 sic reliqua e/b/ad reliquam f/d. Sicut porrò ablata a/e/ ad ablatam c/f, sic totum a/b/ad totum c/d, per hypothesin. Reliquum igitur e/b/ ad reliquum f/d, se habet vt totum a/b/ad totum c/d, per vndecimam eiusdem quinti. Si fuerit ergo sicut totum ad totum: &c. vt in theoremate. Quod expediebat demonstrare.
 
-### Lemma siue assumptum.
+#### Lemma siue assumptum.
 
 ¶Et quoniam erat ex hypothesi, vt a/b/ad c/d, sic a/e/ad c/f: & permutatim deinde
 

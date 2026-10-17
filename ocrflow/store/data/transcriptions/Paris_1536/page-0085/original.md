@@ -10,15 +10,15 @@ Idem qui priꝰ ostendẽdi modus ab impossibili.
 
 [Diagram: a d b f c e g]
 
-[Curated heading level=2 type=propositions: Theorema 12, Propositio 13.]
+[Curated heading level=3 type=propositions: Theorema 12, Propositio 13.]
 
-[Curated heading level=2 type=theorems: Theorema 12, Propositio 13.]
+[Curated heading level=3 type=theorems: Theorema 12, Propositio 13.]
 
-## Θεώρημα ιβ, Πρόθεσις ιγ.
+### Θεώρημα ιβ, Πρόθεσις ιγ.
 
 ΚΥκλος κύκλου οὐκ ἐφάπτεται κατὰ πλείονα σημεῖα ἢ καθ' ἕν, ἐάν τε ἐντός, ἐάν τε ἐκτὸς ἐφάπτηται.
 
-## Theorema 12, Propositio 13.
+### Theorema 12, Propositio 13.
 
 CIrculus circulum non tangit in pluribus punctis vno: & si extra, & si intus tangat.
 
@@ -36,14 +36,14 @@ De circulis q̃ se tangũt extra.
 
 [Diagram: a b d c]
 
-[Curated heading level=2 type=propositions: Theorema 13, Propositio 14.]
+[Curated heading level=3 type=propositions: Theorema 13, Propositio 14.]
 
-[Curated heading level=2 type=theorems: Theorema 13, Propositio 14.]
+[Curated heading level=3 type=theorems: Theorema 13, Propositio 14.]
 
-## Θεώρημα ιγ, Πρόθεσις ιδ.
+### Θεώρημα ιγ, Πρόθεσις ιδ.
 
 ΕΝ κύκλῳ αἱ ἴσαι εὐθεῖαι, ἴσον ἀπέχουσιν ἀπὸ τοῦ κέντρου: καὶ αἱ ἴσον ἀπέχουσαι ἀπὸ τοῦ κέντρου, ἴσαι ἀλλήλαις εἰσίν.
 
-## Theorema 13, Propositio 14.
+### Theorema 13, Propositio 14.
 
 IN circulo rectæ lineę sunt æquales, quæ æqualiter distãt à cétro:

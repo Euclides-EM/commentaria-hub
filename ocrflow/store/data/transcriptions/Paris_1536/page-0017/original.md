@@ -1,12 +1,14 @@
 [Ornament: decorative woodcut border]
 
-# Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Primum elementorum Euclidis, Demonstrationes.
+[Curated heading level=1 type=books: Book 1]
 
-## ¶ Principiorum Interpretatio.
+## Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Primum elementorum Euclidis, Demonstrationes.
+
+### ¶ Principiorum Interpretatio.
 
 RECEPTVM EST AB OMNIBVS, VNAMQVANque disciplinã propria sibi vẽdicare principia: quę etsi nulla prorsus videãtur indigere probatione. ex ipsis tamen sanéq; intellectis principijs, ad ea quæ eadem consequũtur principia, deuenire vel facile cõtingit. Idcirco generalẽ principiorũ geometricorũ elucidationẽ, protheoriámve in sex priores libros geometricorũ elementorũ Euclidis Megarensis (quos in gratiam studiosorum omnium suscepimus interpretãdos) præmittere: atq; intellectualem illam magnitudinum, & figurarum cõtemplationem (prius, quàm ad propositionum expositionem deueniamus) rudioribus geometricarum speculationum tyrunculis aperire, non duximus importunum. ¶ Triplicem itaque principiorum offendimus ordinem: vtpote, diffinitiones, terminorum naturam exprimentes: postulata, ex ipsis collecta diffinitionibus: & effata, seu cõmunes sententias, quæ dicuntur axiomata In primis ergo diffinitiones: dein reliqua suo declarabimus ordine. ¶ Animaduertendum est igitur, subiectum ipsius Geometriæ fore magnitudinem, à numero quidem & materia seorsum abstractam. Magnitudinis autem, triplex assignatur dimensio Aut enim magnitudo longa tantùm imaginatur: aut longa, & lata: vel denique longa, & lata, simúlque profunda, siue crassa abstrahitur. Quorum omnium mediatum vel immediatum principiũ, punctum (alias signum) esse dicitur. Fingitur enim magnitudo per continuam suiipsius diuisionem (quãquàm in semper diuisibilia distribuatur) deuenire tandem ad partem minimam, quæ videlicet amplius diuidi non possit, ac si foret omni dimensione priuata: instar quidem vnitatis in discreta quantitate. Vt quemadmodum ex vnitatis multiplicatione, omnis conficitur numerus: haud dissimiliter ex huiuscemodi parte, vel indiuisibili nota, per abstractum seu transsumptiuum eiusdem notulę motum, omnem effingamus oriri seu produci magnitudinẽ. Hanc itaq; magnitudinis partem minimã, siue notulã indiuisibilem seorsum abstractam, punctum adpellamus: & ab Euclide ita primùm describitur,
 
-## ¶ De puncto, linea, atque superficie, Diffinitiones.
+### ¶ De puncto, linea, atque superficie, Diffinitiones.
 
 ¶ σημεῖόν ἐστι, ᾧ μέρος οὐθέν.
 
@@ -14,7 +16,7 @@ RECEPTVM EST AB OMNIBVS, VNAMQVANque disciplinã propria sibi vẽdicare princip
 Punctum
 [/Margin]
 
-[Curated heading level=3 type=definitions: 1]
+[Curated heading level=4 type=definitions: 1]
 
 **1** Punctum est, cuius pars nulla.
 
@@ -22,7 +24,7 @@ Id est, quod abstractũ à cõtinuo, velut ipsius cõtinui pars minima, omni dim
 
 ¶ γραμμὴ δ᾽, μῆκος ἀπλατές.
 
-[Curated heading level=3 type=definitions: 2]
+[Curated heading level=4 type=definitions: 2]
 
 **2** Linea verò, est longitudo latitudinis expers.
 
@@ -30,7 +32,7 @@ Hoc est, latitudine priuata. Cũ enim punctũ omni careat dimẽsione: suo fluxu
 
 ¶ γραμμῆς δ᾽ πέρατα, σημεῖα.
 
-[Curated heading level=3 type=definitions: 3]
+[Curated heading level=4 type=definitions: 3]
 
 **3** Lineæ autem limites, sunt puncta.
 

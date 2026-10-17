@@ -12,15 +12,15 @@ Hoc theorema aliter ostẽdi potest: sed hæc est demõstratio potissima.
 
 [Diagram: k a g e d h b f c l]
 
-[Curated heading level=2 type=propositions: Theorema 9, Propositio 10.]
+[Curated heading level=3 type=propositions: Theorema 9, Propositio 10.]
 
-[Curated heading level=2 type=theorems: Theorema 9, Propositio 10.]
+[Curated heading level=3 type=theorems: Theorema 9, Propositio 10.]
 
-## Θεώρημα θ, Πρόθεσις ι.
+### Θεώρημα θ, Πρόθεσις ι.
 
 ΚΥκλος οὐ τέμνει κύκλον κατὰ πλείονα σημεῖα ἢ δύο.
 
-## Theorema 9, Propositio 10.
+### Theorema 9, Propositio 10.
 
 CIrculus, circulum in pluribus duobus punctis non secat.
 
@@ -32,15 +32,15 @@ Hæc rursum aliter potuisset ostẽdi, sed hanc potiorẽ existimo demõstration
 
 [Diagram: a b f d g c e]
 
-[Curated heading level=2 type=propositions: Theorema 10, Propositio 11.]
+[Curated heading level=3 type=propositions: Theorema 10, Propositio 11.]
 
-[Curated heading level=2 type=theorems: Theorema 10, Propositio 11.]
+[Curated heading level=3 type=theorems: Theorema 10, Propositio 11.]
 
-## Θεώρημα ι, Πρόθεσις ια.
+### Θεώρημα ι, Πρόθεσις ια.
 
 ΕΑν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐντός, καὶ ληφθῇ αὐτῶν τὰ κέντρα, ἡ ἐπὶ τὰ κέντρα αὐτῶν ἐπιζευγνυμένη εὐθεῖα καὶ ἐκβαλλομένη, ἐπὶ τὴν συναφὴν πεσεῖται τῶν κύκλων.
 
-## Theorema 10, Propositio 11.
+### Theorema 10, Propositio 11.
 
 SI bini orbes se introrsum adinuicem tetigerint, suscipiátúrq;
 

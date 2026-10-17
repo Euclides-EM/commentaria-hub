@@ -1,14 +1,14 @@
 <!-- Running title: GEOMET. ELEMENT. -->
 
-[Curated heading level=2 type=propositions: Theorema 32, Propositio 43.]
+[Curated heading level=3 type=propositions: Theorema 32, Propositio 43.]
 
-[Curated heading level=2 type=theorems: Theorema 32, Propositio 43.]
+[Curated heading level=3 type=theorems: Theorema 32, Propositio 43.]
 
-## Θεώρημα λβ, Πρόθεσις μγ.
+### Θεώρημα λβ, Πρόθεσις μγ.
 
 ΠΑντὸς παραλληλογράμμου τῶν περὶ τὴν διάμετρον παραλληλογράμμων τὰ παραπληρώματα, ἴσα ἀλλήλοις ὅτι.
 
-## Theorema 32, Propositio 43.
+### Theorema 32, Propositio 43.
 
 OMnis parallelogrammi eorum quæ circa dimetientem sunt parallelogrammorũ supplementa, sibi inuicẽ sunt æqualia.
 
@@ -20,15 +20,15 @@ Parallelogrãma circa dimetientem. Supplemẽta.
 
 [Diagram: a g b e k f c h d]
 
-[Curated heading level=2 type=propositions: Problema 12, Propositio 44.]
+[Curated heading level=3 type=propositions: Problema 12, Propositio 44.]
 
-[Curated heading level=2 type=problems: Problema 12, Propositio 44.]
+[Curated heading level=3 type=problems: Problema 12, Propositio 44.]
 
-## Πρόβλημα ιβ, Πρόθεσις μδ.
+### Πρόβλημα ιβ, Πρόθεσις μδ.
 
 ΠΑρὰ τὴν δοθεῖσαν εὐθεῖαν τῷ δοθέντι τριγώνῳ, ἴσον παραλληλόγραμμον παραβαλεῖν ἐν τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ.
 
-## Problema 12, Propositio 44.
+### Problema 12, Propositio 44.
 
 AD datam rectam lineam: dato triangulo, æquale parallelogrammum construere, in dato angulo rectilineo.
 

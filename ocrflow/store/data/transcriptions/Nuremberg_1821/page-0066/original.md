@@ -28,8 +28,6 @@ und √[(2α−β)(2α+6)]=δ
 
 Alſo für den Halbmeſſer r
 
-[Curated heading level=3 type=numbered_item: 1)]
-
 [Calculation]
 1) α=r√17=√17r²=√17rr
 [/Calculation]

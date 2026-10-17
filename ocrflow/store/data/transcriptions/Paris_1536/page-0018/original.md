@@ -4,7 +4,7 @@
 
 ¶ εὐθεῖα γραμμή, ἐστιν ἥτις ἐξίσου τοῖς ἐφ᾽ ἑαυτῆς σημείοις κεῖται.
 
-[Curated heading level=3 type=definitions: 4]
+[Curated heading level=4 type=definitions: 4]
 
 **4** Recta linea est, quæ ex æquali sua interiacet puncta.
 
@@ -14,7 +14,7 @@ Vtpote, quæ à puncto in pũctum breuissimè ducitur, ipsa terminatiua puncta i
 
 ¶ ἐπιφάνεια δ᾽ ἐστὶ, ὃ μῆκος καὶ πλάτος μόνον ἔχει.
 
-[Curated heading level=3 type=definitions: 5]
+[Curated heading level=4 type=definitions: 5]
 
 **5** Superficies est, quæ longitudinem, latitudinémq; tantùm habet.
 
@@ -22,7 +22,7 @@ Quæ cùm exordiatur à linea, & ipsius lineæ terminatiua puncta, ad motum eius
 
 ¶ ἐπιφανείας πέρατα γραμμαί.
 
-[Curated heading level=3 type=definitions: 6]
+[Curated heading level=4 type=definitions: 6]
 
 **6** Superficiei extrema sunt lineæ.
 
@@ -30,7 +30,7 @@ Porrò cùm linea, ad descriptionem mota superficiei, recta fuerit, atq; in long
 
 ¶ ἐπίπεδος ἐπιφάνεια, ἐστιν ἥτις ἐξίσου ταῖς ἐφ᾽ ἑαυτῆς εὐθείας ἔχει.
 
-[Curated heading level=3 type=definitions: 7]
+[Curated heading level=4 type=definitions: 7]
 
 **7** Plana superficies est, quæ ex æquali suas interiacet lineas.
 
@@ -46,7 +46,7 @@ Hinc curuæ superficiei diffinitio, per contrariam elicitur imaginationem: quæ 
 
 [Diagram: Sphæra k. Figura cubi l.]
 
-## ¶ De rectilineis angulis.
+### ¶ De rectilineis angulis.
 
 ¶ ANGVLORVM IGITVR, QVIDAM PLANI: QVIDAM VErò solidi. Planos vocitamus angulos, qui ex mutua concurrentium adinuicem linearum causantur inclinatione. Solidi autem dicuntur anguli, qui ex planorum angulorum cõcursu figurantur: de quibus in postremis elementorum libris. Nunc itaque de planis tractandum angulis. Pro quorũ elucidatione animaduertendum est, quoties linea recta, altero limitum manente fixo, altero autem moto, completè circunducitur: describi superficiem, quæ circulus adpellatur. vtpote, si a/b/ recta, immoto puncto a, ex b/ in c, per d/ & e, rediens tandem
 

@@ -23,14 +23,14 @@ De extensa, atq̄ inordinata ratione.
 Notandum.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 1, Propositio 1.]
+[Curated heading level=3 type=propositions: Theorema 1, Propositio 1.]
 
-[Curated heading level=2 type=theorems: Theorema 1, Propositio 1.]
+[Curated heading level=3 type=theorems: Theorema 1, Propositio 1.]
 
-## Θεώρημα α, Πρόθεσις α.
+### Θεώρημα α, Πρόθεσις α.
 Ἐὰν ᾖ ὁποσαοῦν μεγέθη, ὁποσωνοῦν μεγεθῶν ἴσων τὸ πλῆθος, ἕκαστον ἑκάστου ἰσάκις πολλαπλάσιον, ὁσαπλάσιον ἐστὶν ἓν τῶν μεγεθῶν ἑνὸς, τοσαυταπλάσια ἔσται καὶ τὰ πάντα τῶν πάντων.
 
-## Theorema 1, Propositio 1.
+### Theorema 1, Propositio 1.
 
 SI fuerint quælibet magnitudines quarumlibet magnitudinum æqualium numero, singulæ singularū æquè multiplices: quotuplex est vnius vna magnitudo, totuplices erunt & omnes omnium.
 

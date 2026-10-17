@@ -20,15 +20,15 @@ Alia figurę dispositio.
 
 [Diagram: b a d g e f c]
 
-[Curated heading level=2 type=propositions: Theorema 11, Propositio 12.]
+[Curated heading level=3 type=propositions: Theorema 11, Propositio 12.]
 
-[Curated heading level=2 type=theorems: Theorema 11, Propositio 12.]
+[Curated heading level=3 type=theorems: Theorema 11, Propositio 12.]
 
-## Θεώρημα ια, Πρόθεσις ιβ.
+### Θεώρημα ια, Πρόθεσις ιβ.
 
 ΕΑν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐκτός, ἡ ἐπὶ τὰ κέντρα αὐτῶν ἐπιζευγνυμένη, διὰ τῆς ἐπαφῆς ἐλεύσεται.
 
-## Theorema 11, Propositio 12.
+### Theorema 11, Propositio 12.
 
 SI duo circuli sese adinuicem exterius tetigerint: ad centra eorum applicata recta linea, per contactum transibit.
 

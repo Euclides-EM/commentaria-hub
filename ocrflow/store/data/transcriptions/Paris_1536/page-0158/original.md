@@ -16,15 +16,15 @@ Partis secūdę demōstratio.
 
 [Diagram: a d e b c]
 
-[Curated heading level=2 type=propositions: Theorema 3, Propositio 3.]
+[Curated heading level=3 type=propositions: Theorema 3, Propositio 3.]
 
-[Curated heading level=2 type=theorems: Theorema 3, Propositio 3.]
+[Curated heading level=3 type=theorems: Theorema 3, Propositio 3.]
 
-## Θεώρημα γ, Πρόθεσις γ.
+### Θεώρημα γ, Πρόθεσις γ.
 
 Ἐὰμ τριγώνου γωνία δίχα τμηθῇ, ἡ δὲ τέμνουσα τὴμ γωνίαμ εὐθεῖα τέμνει καὶ τὴμ βάσιμ: τὰ τῆς βάσεως τὸμ αὐτὸμ ἕξει λόγομ ταῖς λοιπαῖς τοῦ τριγώνου πλευραῖς.& ἐὰμ τὰ τῆς βάσεως τμήματα, τὸμ αὐτὸμ ἔχει λόγομ ταῖς λοιπαῖς τοῦ τριγώνου πλευραῖς : ἀπὸ τῆς κορυφῆς ἐπὶ τὴμ τομήμ,ἐπιζευγνυμένη εὐθεῖα,δίχα τέμνει τὴμ τοῦ τριγώνου γωνίαμ.
 
-## Theorema 3, Propositio 3.
+### Theorema 3, Propositio 3.
 
 SI trianguli angulus bifariam secetur,dispescens autem angulum recta linea secuerit & basin : basis segmenta eandem habebunt rationem,reliquis ipsius triāguli lateribus.Et si basis segmenta eandem habuerint rationem,reliquis ipsius trianguli lateribus:à vertice ad basin coniuncta recta linea, bifariam dispescit trianguli angulum.
 

@@ -8,15 +8,15 @@ igitur rursum æquales circuli a/b/c/d/& e/f/g/h, quorum cẽtra k, l: sint'q; i
 
 [Diagram: a k b d c — e l f h g]
 
-[Curated heading level=2 type=propositions: Problema 4, Propositio 30.]
+[Curated heading level=3 type=propositions: Problema 4, Propositio 30.]
 
-[Curated heading level=2 type=problems: Problema 4, Propositio 30.]
+[Curated heading level=3 type=problems: Problema 4, Propositio 30.]
 
-## Πρόβλημα δ, Πρόθεσις λ.
+### Πρόβλημα δ, Πρόθεσις λ.
 
 Τὴν δοθεῖσαν περιφέρειαν δίχα τέμνειν.
 
-## Problema 4, Propositio 30.
+### Problema 4, Propositio 30.
 
 DAtam circunferentiam bifariam discindere.
 
@@ -24,14 +24,14 @@ ORONTIVS. ¶Esto data circũferentia a/b/c:quam oporteat bifariam discindere. Co
 
 [Diagram: b a d c]
 
-[Curated heading level=2 type=propositions: Theorema 27, Propositio 31.]
+[Curated heading level=3 type=propositions: Theorema 27, Propositio 31.]
 
-[Curated heading level=2 type=theorems: Theorema 27, Propositio 31.]
+[Curated heading level=3 type=theorems: Theorema 27, Propositio 31.]
 
-## Θεώρημα κζ, Πρόθεσις λα.
+### Θεώρημα κζ, Πρόθεσις λα.
 
 Εν κύκλῳ, ἡ μὲν ἐν τῷ ἡμικυκλίῳ γωνία, ὀρθὴ ἐςὶν:ἡ δὲ ἐν τῷ μείζονι τμήματι, ἐλάττωρ ὀρθῆς:ἡ δὲ ἐν τῷ ἐλάττονι, μείζωρ ὀρθῆς. καὶ ἐπὶ ἡ μὲν τῶ μείζον⊕ τμήματ⊕ γωνία, μείζωρ ἐςὶρ ὀρθῆς:ἡ δὲ τῶ ἐλάττονος τμήματ⊕ γωνία, ἐλάττωρ ἐςὶρ ὀρθῆς.
 
-## Theorema 27, Propositio 31.
+### Theorema 27, Propositio 31.
 
 INn circulo, angulus qui in semicirculo est, rectus est: qui autem in maiori segmento, minor recto: qui verò in minori segmento, maior est recto. Et insuper angulus maioris segmẽti, recto quidem maior est:minoris autem segmenti angulus, minor est recto.
