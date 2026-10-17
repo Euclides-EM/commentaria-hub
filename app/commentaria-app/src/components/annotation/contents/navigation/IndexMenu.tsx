@@ -250,13 +250,21 @@ export function IndexMenu({
   )
   const scrollContainerRef = useRef<HTMLDivElement>(null)
   const scrolledPageRef = useRef<number | null>(null)
-  const [indexTypes, setIndexTypes] = useLocalStorageState<string[]>(
-    useScopedStorageKey(`indexTypes.${state.datasetId}.${state.annotationId}`),
+  const indexKey = `${state.datasetId}.${state.annotationId}`
+  const [indexTypes, setIndexTypes] = useLocalStorageState<string[] | null>(
+    useScopedStorageKey(`indexTypes.${indexKey}`),
     {
-      defaultValue: ['default'],
+      defaultValue: null,
       storageSync: false,
     },
   )
+  const [knownIndexTypes, setKnownIndexTypes] = useState<{
+    key: string
+    types: string[]
+  } | null>(null)
+  const allIndexTypes =
+    knownIndexTypes?.key === indexKey ? knownIndexTypes.types : undefined
+  const effectiveIndexTypes = indexTypes ?? allIndexTypes ?? ['default']
   const [normalize, setNormalize] = useLocalStorageState(
     useScopedStorageKey('indexNormalize'),
     {
@@ -271,39 +279,33 @@ export function IndexMenu({
   } = useAnnotationIndexQuery(
     state.datasetId,
     state.annotationId,
-    indexTypes,
+    effectiveIndexTypes,
     normalize,
   )
   const availableIndexTypes = annotationIndex?.available_types
   useEffect(() => {
     if (!availableIndexTypes?.length) return
+    setKnownIndexTypes((current) =>
+      current?.key === indexKey &&
+      current.types.join(',') === availableIndexTypes.join(',')
+        ? current
+        : { key: indexKey, types: availableIndexTypes },
+    )
+    if (!indexTypes) return
     const validIndexTypes = indexTypes.filter((indexType) =>
       availableIndexTypes.includes(indexType),
     )
     if (validIndexTypes.length === indexTypes.length) return
-    setIndexTypes(
-      validIndexTypes.length > 0
-        ? validIndexTypes
-        : [
-            availableIndexTypes.includes('default')
-              ? 'default'
-              : availableIndexTypes[0],
-          ],
-    )
-  }, [availableIndexTypes, indexTypes, setIndexTypes])
+    setIndexTypes(validIndexTypes.length > 0 ? validIndexTypes : null)
+  }, [availableIndexTypes, indexKey, indexTypes, setIndexTypes])
   const normalizedSearchTerm = searchTerm.trim()
   const navigationNodes = useMemo(
     () =>
       addNavigationKeys(
-        indexTypes.length > 0 ? (annotationIndex?.nodes ?? []) : [],
-        `${state.datasetId}.${state.annotationId}`,
+        effectiveIndexTypes.length > 0 ? (annotationIndex?.nodes ?? []) : [],
+        indexKey,
       ),
-    [
-      annotationIndex?.nodes,
-      indexTypes.length,
-      state.annotationId,
-      state.datasetId,
-    ],
+    [annotationIndex?.nodes, effectiveIndexTypes.length, indexKey],
   )
   const expandableNodeKeys = useMemo(
     () => getExpandableNodeKeys(navigationNodes),
@@ -396,7 +398,10 @@ export function IndexMenu({
             selectedItems={indexTypes}
             setSelectedItems={(items) => {
               setIndexTypes(
-                items ?? annotationIndex?.available_types ?? indexTypes,
+                items &&
+                  items.length === annotationIndex?.available_types?.length
+                  ? null
+                  : items,
               )
             }}
             itemsLabel="layers"
