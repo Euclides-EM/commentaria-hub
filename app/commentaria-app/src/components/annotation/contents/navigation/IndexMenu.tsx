@@ -7,6 +7,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import { SearchInput } from '../../../core/SearchInput.tsx'
+import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import type { PageOrKey } from '../../../../context/AppStateContext.ts'
 import { startCase } from 'lodash'
 
@@ -273,14 +274,36 @@ export function IndexMenu({
     indexTypes,
     normalize,
   )
+  const availableIndexTypes = annotationIndex?.available_types
+  useEffect(() => {
+    if (!availableIndexTypes?.length) return
+    const validIndexTypes = indexTypes.filter((indexType) =>
+      availableIndexTypes.includes(indexType),
+    )
+    if (validIndexTypes.length === indexTypes.length) return
+    setIndexTypes(
+      validIndexTypes.length > 0
+        ? validIndexTypes
+        : [
+            availableIndexTypes.includes('default')
+              ? 'default'
+              : availableIndexTypes[0],
+          ],
+    )
+  }, [availableIndexTypes, indexTypes, setIndexTypes])
   const normalizedSearchTerm = searchTerm.trim()
   const navigationNodes = useMemo(
     () =>
       addNavigationKeys(
-        annotationIndex?.nodes ?? [],
+        indexTypes.length > 0 ? (annotationIndex?.nodes ?? []) : [],
         `${state.datasetId}.${state.annotationId}`,
       ),
-    [annotationIndex?.nodes, state.annotationId, state.datasetId],
+    [
+      annotationIndex?.nodes,
+      indexTypes.length,
+      state.annotationId,
+      state.datasetId,
+    ],
   )
   const expandableNodeKeys = useMemo(
     () => getExpandableNodeKeys(navigationNodes),
@@ -366,37 +389,30 @@ export function IndexMenu({
   return (
     <div className="flex flex-col min-h-0 h-full">
       {(annotationIndex?.available_types?.length ?? 0) > 1 && (
-        <fieldset className="mx-3 mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-700">
-          <span className="mr-1 font-medium">Index layers</span>
-          {annotationIndex?.available_types?.map((indexType) => (
-            <label
-              className="flex cursor-pointer items-center gap-1.5"
-              key={indexType}
-            >
-              <input
-                type="checkbox"
-                checked={indexTypes.includes(indexType)}
-                onChange={(event) => {
-                  if (event.target.checked) {
-                    setIndexTypes([...new Set([...indexTypes, indexType])])
-                  } else if (indexTypes.length > 1) {
-                    setIndexTypes(
-                      indexTypes.filter((value) => value !== indexType),
-                    )
-                  }
-                }}
-                className="accent-violet-600"
-              />
-              {startCase(indexType)}
-            </label>
-          ))}
-        </fieldset>
+        <div className="mx-3 mb-2 flex items-center gap-2 text-xs text-gray-700">
+          <span className="font-medium">Index layers</span>
+          <MultiSelectDropdown<string>
+            allItems={annotationIndex?.available_types ?? []}
+            selectedItems={indexTypes}
+            setSelectedItems={(items) => {
+              setIndexTypes(
+                items ?? annotationIndex?.available_types ?? indexTypes,
+              )
+            }}
+            itemsLabel="layers"
+            getItemLabel={startCase}
+            getItemColor={(indexType) =>
+              `hsl(${getIndexTypeHue(indexType, annotationIndex?.available_types ?? [])} 60% 40%)`
+            }
+            roundItemColor
+          />
+        </div>
       )}
       {isLoading ? (
         <LoadingSpinner size="sm" message="Loading index..." />
       ) : error ? (
         <ErrorMessage error={error} variant="empty" />
-      ) : !annotationIndex?.nodes?.length ? (
+      ) : !navigationNodes.length ? (
         <div className="text-gray-600 text-sm italic text-center p-5">
           No index available
         </div>
