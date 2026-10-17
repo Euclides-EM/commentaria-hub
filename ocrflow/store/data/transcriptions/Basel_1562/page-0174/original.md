@@ -35,7 +35,7 @@ Es ſeind zwen gleichſeittig triangel: hallten ſych alle linien in ainer propo
 
 Widerſinns geproportionierte figuren ſeind / in welchen die winckel der ainen / gegen den wincklen der andern gleicher proportz ſeind: deßgleichen auch die linien / mit welchen ſolche geproportionierte winckel aingeſchloſſen.
 
-[Curated heading level=3 type=margin_terms: ἀντιπεπονθότα]
+[Curated heading level=3 type=marginal_headings: ἀντιπεπονθότα]
 
 [Margin]
 ἀντιπεπονθότα.
@@ -51,7 +51,7 @@ Beſihe die 14. vnnd 15 propoſition / da wirſtu exempel vnd beſchaid finden.
 
 Wann ein ſtrackhe lini alſo in zwai tail wirt zertailt / das ſich die gantze lini gegen dem gröſſern tail hallt / wie das gröſſer tail gegen dem klaineren: nennet man ſy Proportzlich zertailt.
 
-[Curated heading level=3 type=margin_terms: ἄκρον καὶ μέſον λόγον]
+[Curated heading level=3 type=marginal_headings: ἄκρον καὶ μέſον λόγον]
 
 [Margin]
 ἄκρον καὶ μέſον λόγον.

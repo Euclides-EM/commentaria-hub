@@ -5,7 +5,7 @@ hypotenus iſt des halben quadrats / ꝛc. gib ich dir zůbedencken. Das erſt q
 
 [Diagram]
 
-[Curated heading level=4 type=margin_topics: Diameter vn̄ ſeiten aines quadrats habē kein vßſprechliche proporz gegen ainander]
+[Curated heading level=3 type=marginal_headings: Diameter vn̄ ſeiten aines quadrats habē kein vßſprechliche proporz gegen ainander]
 
 [Margin]
 Diameter vn̄ ſeiten aines quadrats habē kein vßſprechliche proporz gegen ainander.

@@ -6,7 +6,7 @@
 
 Hie haſtu nun ain / gwiſe vnd gegrundte regel / wie fürgebner drei oder vier (vnnd demnach auch mehr) zalen proportionalitet zůprobieren vn̄ zůerkündigen. Welches nit allain hierin / ſonder in allen rechnungen größlich von nötten. Bißher in diſem bůch hatt ſolches offt nott gethon / wie die proporz zwaier zalen gefunden vnnd außgeſprochen werde / iſt bei der dritten beſchreibung des 5 bůchs / gnůgſam erklärt. Nun ſo vier zalen fürfallen / wöllen wir ir proportionalitet auß diſer 16 propoſition beweren. Alß im erſten exempel der erſten propoſition diß bůchs / findt man / das ſych ſoll hallten 120 gegen 48 wie 20 gegen 8. Multiplicier 120. mit 8. Item 48 mit 20 kommen baider tails 960. Alſo probier alle diſer vnnd volgender propoſit. exempel. Das man aber auch durchs tailen ſolches verricht / hat ſein weg vnnd vrſach / hie on nott zůerholen. Item diß bůchs 8 propoſit. wirt geſagt / das 12 ſteh mitten in der proporz zwiſchen 9 vnnd 16. Item 15 zwiſchen 25 vnnd 9. Item 20 zwiſchen 25 vnnd 16 diß zů probieren / nim an die hand diſe 17 propoſition / multiplicier 9 mit 16. Item 12 in ſych ſelbß kombt baider tails 144.wie dann ſein ſoll. Item quadrier 15 / multiplicier 25 mit 9 / khombt baider tails 225. Mer multiplicier 20 inn ſych ſelbß / thůtt 400 / ſouil entſpringt auch ſo man 25 mit 16 multipliciert. Deßgleichen probier alle andre exempel.
 
-[Curated heading level=3 type=margin_topics: Proportionalitet zůprobieren]
+[Curated heading level=3 type=marginal_headings: Proportionalitet zůprobieren]
 
 [Margin]
 Proportionalitet zůprobieren.

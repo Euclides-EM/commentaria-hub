@@ -5,7 +5,7 @@
 
 14 Umbkerung der proportion haiſſet / ſo mann die volgenden / an ſtatt der vorgenden vmb härgegen nim̃ett.
 
-[Curated heading level=3 type=margin_terms: ἀνάπαλιν]
+[Curated heading level=3 type=marginal_headings: ἀνάπαλιν]
 
 [Margin]
 ἀνάπαλιν.
@@ -19,7 +19,7 @@
 
 15 Samblung der proportion iſt / ſo man die vorgende vnd die volgend bayder tails ſambtlich als aine zal gegen der volgenden ſchetzett. Als /
 
-[Curated heading level=3 type=margin_terms: σύνθεσις]
+[Curated heading level=3 type=marginal_headings: σύνθεσις]
 
 [Margin]
 σύνθεσις.
@@ -36,7 +36,7 @@ Demnach auch
 
 16 Zertailung der proportion iſt / ſo man den yberſchuß der vorgenden yber die folgend (oder härgegen) gegen der volgenden bayder tails ſchetzett. Als /
 
-[Curated heading level=3 type=margin_terms: διαίρεσις]
+[Curated heading level=3 type=marginal_headings: διαίρεσις]
 
 [Margin]
 διαίρεσις.
@@ -48,7 +48,7 @@ Demnach auch
 
 17 Verwendung der proporz iſt / ſo gegen ſolchem exceß baider tails die vorgſhend geſetzt wirt. Als /
 
-[Curated heading level=3 type=margin_terms: ἀναστροφή]
+[Curated heading level=3 type=marginal_headings: ἀναστροφή]
 
 [Margin]
 ἀναστροφή.

@@ -18,7 +18,7 @@ Innhalt der parallelograms. iſt
 
 So aber die fürgeben figur vier ſeitten hett / aber vngleich vnnd nit parallelogram. Oder ein vngleich ſeittig fünffeck / ſechßeckh / ⁊c. were / braucht es mehr arbait. Dan erſtlich ſolliche figur můßt in triangel zertailt werden / nachmals ainem triangel ain gleichs parallelogram / ⁊c. zůmachen durch die 42 propoſ. vnnd alls dan nach gefallen auff ain ſeitten yetz gemachts parallelograms / als auff ain fürgebne lini ain parallelogram dem andern gleich / nach außweyſung der 44 zůmachen / vnd alſo forthin dem dritten triangel / vnd ſo offt es dan von nötten. Dieweil aber diſe operation etwas ſchwer den vngeyebten / will ich ſy nach notturfft mit exemplen erklären. Volgt erſtlich von ainem trapezio oder Tiſchlin / das iſt einer vngleichen vierung / die nit parallelogram iſt.
 
-[Curated heading level=3 type=margin_topics: Vngleich ſeittig figuren in parallelogrã zůuerkeren]
+[Curated heading level=3 type=marginal_headings: Vngleich ſeittig figuren in parallelogrã zůuerkeren]
 
 [Margin]
 Vngleich ſeittig figuren in parallelogrã zůuerkeren.

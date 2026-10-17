@@ -30,7 +30,7 @@ Addiert vnd ſubtrahieren zů proportzen.
 
 Seien zwo proportzen bezaichnet / als ¹⁄₂ vnnd ⁴⁄₁ vnnd man fragt / was doch für ain proportz auß diſen zwaien entſpringen mög. Multipliciert / ſo kommen ⁴⁄₂. das iſt 2. ſag ich die duppel proportz / entſpring auß gemelten zwaien. Biß allhie inn gedenckh was vom multipliciern vnnd tailen der proportz / bei der ailfften beſchreibung des vorgenden bůchs geſagt. Dann hie rin ſteckht der grund / wie zwo oder mehr proportzen vnder ain benennung gebracht ſollen werden / welches addiern iſt in proportzen. Dann wie 3 vnnd 4. in ſumma vnnd ainem namen thůnd 7. Item ⁵⁄₂ vnnd ¹⁄₂ vnder ainer ſumma vnnd ainem namen thůnd ³⁄₁. ⁊c. alſo auch die proportz 1 ¹⁄₂ / vnd die proportz 1 ¹⁄₃ / ſo die zůſamen kommen / bringen ſy die zwÿfache proportz mit 2 benennet.
 
-[Curated heading level=3 type=margin_topics: Bruch vō bruchē]
+[Curated heading level=3 type=marginal_headings: Bruch vō bruchē]
 
 [Margin]
 Bruch vō bruchē

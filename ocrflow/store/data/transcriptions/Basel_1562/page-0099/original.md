@@ -19,11 +19,11 @@ Ain zirckel berüert ainem andern zirckel nitt mehr dan in ainem puncten oder or
 
 ## XIIII. Die vierzehend propoſition.
 
-[Curated heading level=3 type=numbered_item: 1.]
+[Curated heading level=3 type=proposition_claims: 1.]
 
 1 In ainem zirckel ſtehnd gleiche rechte linien / gleich weitt vom centro.
 
-[Curated heading level=3 type=numbered_item: 2.]
+[Curated heading level=3 type=proposition_claims: 2.]
 
 2 Vnd rechte linien / welche gleichweitt vom centro ſtehn / ſeind ainander gleich.
 
@@ -37,11 +37,11 @@ Welche linien gleichweitt vom centro ſtehn / iſt in der 4 beſchreibung erkler
 
 ## XV. Die fünffzehende propoſition.
 
-[Curated heading level=3 type=numbered_item: 1.]
+[Curated heading level=3 type=proposition_claims: 1.]
 
 1 In ainem zirckel / iſt vnnder allen rechten linien der diameter die lengſt.
 
-[Curated heading level=3 type=numbered_item: 2.]
+[Curated heading level=3 type=proposition_claims: 2.]
 
 2 Vnd nachmals allmal die nehner beim diametro / lenger weder die weitter.
 
@@ -55,11 +55,11 @@ Verſtehe / ſo die linien all auff ainer ſeitten ſtehn. ſunſt mag man nit w
 
 ## XVI. Die ſechszehende propoſition.
 
-[Curated heading level=3 type=numbered_item: 1.]
+[Curated heading level=3 type=proposition_claims: 1.]
 
 1 Ain perpendicular geſtellt auff das ortt des diametri ains zirckels / fellt außerhalb des zirckels.
 
-[Curated heading level=3 type=numbered_item: 2.]
+[Curated heading level=3 type=proposition_claims: 2.]
 
 2 Auch mag khain andre rechte linj zwiſchen des
 

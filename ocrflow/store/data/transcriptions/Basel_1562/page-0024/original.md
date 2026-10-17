@@ -23,31 +23,31 @@ des vmbkhraiß des zirckels / Iſt klainer oder groͤſſer dan ein halber zirck
 
 [Diagram: two triangles with rotated numeral labels]
 
-[Curated heading level=4 type=definitions: 23.]
+[Curated heading level=3 type=definitions: 23.]
 
 23. Vnder den dreyeckhetten figuren wirt der Triangel Gleichſeittig genant / welcher drey gleiche ſeitten oder linien hatt.
 
 [Diagram: a triangle with rotated numeral labels]
 
-[Curated heading level=4 type=definitions: 24.]
+[Curated heading level=3 type=definitions: 24.]
 
 24. Welcher aber zwo gleich ſeitten hatt / haißt Gleichfüſſig.
 
-[Curated heading level=4 type=definitions: 25.]
+[Curated heading level=3 type=definitions: 25.]
 
 25. Da aber khain ſeitten der anderen gleich iſt / haiſt der Triangel vngleich.
 
 [Diagram: a square and a right triangle with rotated numeral labels]
 
-[Curated heading level=4 type=definitions: 26.]
+[Curated heading level=3 type=definitions: 26.]
 
 26. Weitter der triangel ettlicher haißt Rechteckhig oder winckhelmeſſig / welcher ein gerechten winckhel hat.
 
-[Curated heading level=4 type=definitions: 27.]
+[Curated heading level=3 type=definitions: 27.]
 
 27. Welcher aber ein weitten winckhel hat / mag weitteckhig genant werden.
 
-[Curated heading level=4 type=definitions: 28.]
+[Curated heading level=3 type=definitions: 28.]
 
 28. Welcher aber drey eng winckhel hatt / Scharpffeckhig oder Engeckhecht.
 

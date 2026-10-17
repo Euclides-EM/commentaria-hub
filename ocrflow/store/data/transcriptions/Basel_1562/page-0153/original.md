@@ -11,7 +11,7 @@ Zertaylung  } auch     {  9 }       { 18 }       {  5 }       { 10
 Verwendung  }          { 27 }       {  9 }       { 15 }       {  5
 [/Calculation]
 
-[Curated heading level=3 type=margin_terms: δι’ ἴſου]
+[Curated heading level=3 type=marginal_headings: δι’ ἴſου]
 
 [Margin]
 δι’ ἴſου.
@@ -21,7 +21,7 @@ Verwendung  }          { 27 }       {  9 }       { 15 }       {  5
 
 18 Gleichhaitt der proportionalitet iſt / wann etliche quantiteten in allerlay oder vilerlay proportion nach ain ander volgen: vnnd eben inn ſolcher proportion gleich / ſouil andere quantiteten ainander volgen. Dann als dann / hindangeſetzt die mittlen / ſagt man das wie ſich inn der ainen ordnung die erſt halt gegen der letſten / alſo auch inn der anderen.
 
-[Curated heading level=4 type=margin_terms: τεταγμένως]
+[Curated heading level=3 type=marginal_headings: τεταγμένως]
 
 [Margin]
 τεταγμένως.
@@ -33,7 +33,7 @@ Verwendung  }          { 27 }       {  9 }       { 15 }       {  5
 
 Diſe zwo hatt Campanus / auch andere mehr / außgelaſſen.
 
-[Curated heading level=4 type=margin_terms: πεπλεγμένως]
+[Curated heading level=3 type=marginal_headings: πεπλεγμένως]
 
 [Margin]
 πεπλεγμένως.

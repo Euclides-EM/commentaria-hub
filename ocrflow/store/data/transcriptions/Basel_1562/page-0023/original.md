@@ -15,7 +15,7 @@
 
 9. Auch diſe linj ſo auff der anderen ſteht / Schnuͤrgerecht / oder Perpendicular gehaiſſen / gegenn deren auff der ſy ſteht.
 
-[Curated heading level=3 type=margin_terms: Obtuſus]
+[Curated heading level=3 type=marginal_headings: Obtuſus]
 
 [Margin]
 Obtuſus.
@@ -25,7 +25,7 @@ Obtuſus.
 
 10. Ain winckel / ſo groͤſſer iſt dann ein gerechter / den haͤißt man Weyt.
 
-[Curated heading level=3 type=margin_terms: Acutus]
+[Curated heading level=3 type=marginal_headings: Acutus]
 
 [Margin]
 Acutus.
@@ -35,7 +35,7 @@ Acutus.
 
 11. Der aber kleiner iſt dann ein gerechter / wirt Eng / Scharpff / oder Spitzig genant.
 
-[Curated heading level=3 type=margin_terms: Terminus]
+[Curated heading level=3 type=marginal_headings: Terminus]
 
 [Margin]
 Terminus.

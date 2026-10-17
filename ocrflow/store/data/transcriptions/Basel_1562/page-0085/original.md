@@ -9,7 +9,7 @@ Sey die geben linj a b / dern lenge √32. Setz ain perpendicular auff ain ort d
 
 ### Anhang.
 
-[Curated heading level=3 type=margin_topics: Cāpanus wirt vertädigt]
+[Curated heading level=3 type=marginal_headings: Cāpanus wirt vertädigt]
 
 [Margin]
 Cāpanus wirt vertädigt.
@@ -17,7 +17,7 @@ Cāpanus wirt vertädigt.
 
 Es ſagt Campanus allhie / daß diſe propoſ. nit mög mitt zalen bewiſen werden / wie er dann auch bei der 16 des 9 bůchs demonſtriert / daß khain zal mög dermaſſen getailt werden / als diſe 11 propoſ. erfordert. Vnd redt zwar Campanus recht. Dan auch Euclides in der 6 propoſ. des 13 bůchs beweißt / daß ſo ain rational linj (vnd nemlich ain außprechliche zal) auff diſe weiß getailt werdt / baide tail reſidua ſeien. Nun iſt khainem khunſt geübten verborgen / daß die Surdiſch oder Irrational quantiteten kains wegs zalen mögen / ſein noch genennt werden / ſo man aigentlich will reden. Wie dann Euclides ſelbſt imm zehenden bůch vilmals zůverſtehn gibt / vnd mit onzalbern vrſachen mag erwiſen werden / ja auch der gmain verſtand ſollichs bezeugt. Aber in ſurdiſchen / als Reſiduis vnd Irrational zalen (alſo zůſprechen) mag das wolgeſchechen / welches on zweyffel Campanus ſeer wol gewiſſt / vnnd du deſſen in Chriſtoff Rüdolffs Coß / bei der ſechßten regel das 7 exempel / haſt. Alſo iſt allhie im exempel die linj 8 getailt in 12−√80. als den klainern vnnd √80−4. den gröſſern tail / vnd auch nachmals die innhalt der figurn verzaichnet. Alſo magſtu auch ain yetliche zal dermaſſen in zwai reſidua tailen / des gib ich denen ſo der Coß / nit geübt die regel. Quadrier die zal / auch der ſelben halben tail / die ſumm diſer quadrat merckh. Dann ſo du von der wurzel derſelben nimbſt den halbentail der zal / haſtu den gröſſern tail / nimbſt ſolche wurzel von ³⁄₂ der zal / ſo haſtu den klainern. Alſo wirt 12 getailt in √180−6 vnd 18−√180. Item 25 in √781¼−12½ vñ 37½−√781¼. Item √72 in √90−√18. den gröſſern / vnd den klainern √162−√90. ꝛc. Hab ich wöllen anzaigen.
 
-[Curated heading level=3 type=margin_topics: Regel ſolcher tailung in zalen]
+[Curated heading level=3 type=marginal_headings: Regel ſolcher tailung in zalen]
 
 [Margin]
 Regel ſolcher tailung in zalen.

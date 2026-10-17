@@ -7,7 +7,7 @@ ler rechtliniſchen figuren / die andern in der ordnung ſeind vierſeittig / di
 
 In ſumma / yede rechtliniſche figur wirt in ſouil triangell reſoluiert / ſouil vber bleibt / wann du zway von der zal irer ſeitten nimbſt. Alſo wirt ain zwelff eckh in zehen triangel / ain zwaintzigliniſche figur in 18 triangel zerſtreutt. Demnach leichtlich iſt zůerkennen / wieuil gerechter winckel yede rechtliniſche figur vermög / nemlich ſo du die zal der triangel darein ſy zertailt wirt / mit zway multiplicierſt / angeſehen / daß jeder triangel zwen gerecht winckel vermag. Alſo findt ſich fein / daß yede viereckete figur / 4 gerecht winckel vermag. yede fünffeckete ſechs / yede ſechßeckhete acht / yede ſiben eckhte zehen gerecht winckel.
 
-[Curated heading level=3 type=margin_topics: Wieuil gerechter winckell yede rechtliniſche figur vermög]
+[Curated heading level=3 type=marginal_headings: Wieuil gerechter winckell yede rechtliniſche figur vermög]
 
 [Margin]
 Wieuil gerechter winckell yede rechtliniſche figur vermög.
@@ -15,7 +15,7 @@ Wieuil gerechter winckell yede rechtliniſche figur vermög.
 
 Wie aber ein yede figur in ire triangel ſoll zerthailt werden / magſtu auß beygeſetzen figuren gnůgſam verſtehn. Geſchicht alſo / Von einem eckh der fürgebnen rechtliniſchen figur / zeuch zů yedem eckh (außgenommen die zway ſo baider ſeitten neben dem fürgenommen eckh ſtehn) ain lini / ſo iſt alßdann die figur in ire triangel zertailt.
 
-[Curated heading level=4 type=margin_topics: Wo yede figur inn ire triangel zertailen]
+[Curated heading level=3 type=marginal_headings: Wo yede figur inn ire triangel zertailen]
 
 [Margin]
 Wo yede figur inn ire triangel zertailen.
@@ -25,7 +25,7 @@ Wo yede figur inn ire triangel zertailen.
 
 {dropcap:M|lines=2|style=plain}erckh. Darauß mit hilff der 13 prop. magſtu beweyſen / daß ſo alle linien ainer rechtliniſchen figur füraußgezogen werden / wie in der fünffecketen figur / mit a bezaichnet anbedütet / es hab die figur wieuil winckel oder ſeitten du immer wilt / ſo ſeind ſolche außwendige winckel all ſambtlich vier gerechten winckeln glich / Fleüßt auß dem grund / dz je ain inwendiger vnd außwendiger winckel zůſamen / zwayen gerechten wincklen (lautt der 13 prop.) gleich ſeind / demnach alle winckel diſer fünffeckheten figur außwendig vnd inwendig / zehen gerechten wincklen gleich ſeind / So du dan daruon ſechs gerechter winckel (dan jetz beweiſen / daß die innern winckel ſambtlich 6 gerecht winckel thůnd) genommen / bleybend noch vier gerechter winckel / welche den außwendigen antwurten vnd gleich ſeind. Das verſteh auch von allen andern rechtliniſchen figuren.
 
-[Curated heading level=4 type=margin_topics: Alle außwenndig winckell ainer figur / wieuil gerechter winckeln die gleich]
+[Curated heading level=3 type=marginal_headings: Alle außwenndig winckell ainer figur / wieuil gerechter winckeln die gleich]
 
 [Margin]
 Alle außwenndig winckell ainer figur / wieuil gerechter winckeln die gleich.

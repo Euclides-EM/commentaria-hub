@@ -5,7 +5,7 @@ anders zůuerkheren / dan ſo ain parallelogram in ſeine triangel (wie bey der 
 
 [Diagram]
 
-[Curated heading level=3 type=margin_topics: Gleichſeitig rechtliniſche figuren in parallelogram zůverkeren]
+[Curated heading level=3 type=marginal_headings: Gleichſeitig rechtliniſche figuren in parallelogram zůverkeren]
 
 [Margin]
 Gleichſeitig rechtliniſche figuren in parallelogram zůverkeren.

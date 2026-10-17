@@ -7,8 +7,6 @@
 
 [Diagram: circle with inscribed pentagon, perpendicular diameters, arc, and labelled points]
 
-[Curated heading level=4 type=added_propositions: 3. Iſt die x. Propoſition des xiij. bůchs.]
-
 #### 3. Iſt die x. Propoſition des xiij. bůchs.
 
 {dropcap:D|lines=2|style=plain}as quadrat der ſeitten ains regular fünffeckhs / ſo in ainem zirckel iſt beſchreiben. Iſt gleich den quadraten des halben diameters / vnd des gröſſern tails deſſelben / ſo er nach offtgedachter 11 propoſ. zertailt iſt / ſambtlich.
@@ -16,8 +14,6 @@
 ##### Erklärung.
 
 {dropcap:D|lines=2|style=plain}as quadrat der linien e f / iſt ſo groß / als ſo du die quadrat der linien a b / vnd a d / oder a b / vnd c f / (als der ſeitten des ſechßeckhs / vnd des zeheneckhs) zůſamen nimbſt / Auß welchem dann die lenge der ſeitten des fünffecks / ſo der diameter des zirckels bekhannt / leichtlich zůfinden iſt / mit hilff der regel ſo ich bei diſer 11 propoſ. des andern bůchs geben. Zum exempel ſei der ſelbig diameter 12. iſt der ſemidiameter 6 / demnach deſſelben gröſſerer tail a d / oder c f / thůt √45—3. quadrier 6. werden 36. quadrier auch √45—3. werden 54—√1620. addier 36 / vnd 54—√1620. Summa thůt 90—√1620. Iſt nemlich das quadrat der ſeitten des fünffeckhs deſſen wurtzel / als √90—√1620. zaigt die lenge des fünffeckhs.
-
-[Curated heading level=4 type=added_propositions: 4. Die xi. Propoſition des xiij. bůchs.]
 
 #### 4. Die xi. Propoſition des xiij. bůchs.
 

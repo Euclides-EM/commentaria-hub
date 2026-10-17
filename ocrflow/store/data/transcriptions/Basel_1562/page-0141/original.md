@@ -10,7 +10,7 @@ vom anfang vnd grund der Geometri.
 
 Beſchreybungen / oder außlegung etlicher wörtlin.
 
-[Curated heading level=3 type=margin_terms: Pars]
+[Curated heading level=3 type=marginal_headings: Pars]
 
 [Margin]
 a Pars.
@@ -24,7 +24,7 @@ a Pars.
 
 2 Solliches gröſſers / inn welchem das klainer gerad ettlich mal begreiffen iſt / nennen wir ain Gantzesᵇ.
 
-[Curated heading level=3 type=margin_terms: Multiplex]
+[Curated heading level=3 type=marginal_headings: Multiplex]
 
 [Margin]
 b Multiplex.
@@ -34,7 +34,7 @@ b Multiplex.
 
 3 So man zwar gleichförmige ding irer zal / oder gröſſe wegen (oder was vnder zal / vnd gröſſe begriffen / auch dadurch verſtanden wirt) gegen ainander haltett / oder ſchetzet:wirt ſolliche vergleichung oder gegenſatz ain Proporzᶜ genant.
 
-[Curated heading level=3 type=margin_terms: λόγος, ratio, proportio]
+[Curated heading level=3 type=marginal_headings: λόγος, ratio, proportio]
 
 [Margin]
 c λόγος, ratio, proportio.

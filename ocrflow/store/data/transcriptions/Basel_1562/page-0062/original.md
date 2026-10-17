@@ -9,7 +9,7 @@ der baſis multiplicierſt / als bald der innhalt des fürgenommen triangels ent
 
 Item ſey fürgeben der gleich füßig triangell / des baſis ſey 12 / die zwo ſeitten 10 vnd 10 / wirt die perpendicular ſein 8 / der begriff des triangels 48 deßgleichen haltt dich bey andern exemplen. Iſt diſe regel vil behender vnd richtiger / als die ſo ich dir bey der 35 prop. angezaigt.
 
-[Curated heading level=4 type=margin_topics: Von vngleichen / mitt winckelrechten triangeln]
+[Curated heading level=3 type=marginal_headings: Von vngleichen / mitt winckelrechten triangeln]
 
 [Margin]
 Von vngleichen / mitt winckelrechten triangeln.
@@ -23,7 +23,7 @@ Gleicherweiß mag diſe Regel auch gebraucht werden in Scaleno / das iſt / aine
 
 Im beygeſetzten exempel findt ſich die leng der perpendicular √12 23/36 / der gröſſer tail der baſis 7 1/6 / der klainer 4 5/6 / der innhalt √455. Wie aber durch die Coß die lenge der zertailten baſis vnnd perpendicular lini zůfinden ſey / wißen die ſo der rechenkhunſt geüebt / vnd hatt Chriſtoff Rudolff deſſelben ain exempel fürgeſchriben / welches iſt das 39 ſeiner erſten Regell / behilfft ſych ſolliche rechnung auch des grunds gegenwertiger prop. wie du daſelbſt magſt ſehen / ꝛc. Beſihe hiehär die 5 propoſ. des 6 bůchs.
 
-[Curated heading level=3 type=margin_topics: III. Wie ain quadrat noch ſo groß zů machen]
+[Curated heading level=3 type=marginal_headings: III. Wie ain quadrat noch ſo groß zů machen]
 
 [Margin]
 III. Wie ain quadrat noch ſo groß zů machen.

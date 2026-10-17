@@ -16,7 +16,7 @@ Von dem anfang oder grund der Geometrj.
 Erklaͤrung ettlicher woͤrttlin / ſo in diſem buͦch begegnen.
 [/Subhead]
 
-[Curated heading level=3 type=margin_terms: Definitiones]
+[Curated heading level=3 type=marginal_headings: Definitiones]
 
 [Margin]
 Definitiones.
@@ -42,7 +42,7 @@ Der punct iſt ein anfang aller groͤſſen oder quantitet / yedoch er ſelbſt 
 
 Dann die khrum̄en oder gebognē linien / ſchwingen ſich überſich oder vnderſich von jrem anfang vnd end / vnd iſt je ein gerade linien kürtzer dañ ein khrum̄e / ſo ſy baide gleichen anfang vnd end habend.
 
-[Curated heading level=3 type=margin_terms: Superficies]
+[Curated heading level=3 type=marginal_headings: Superficies]
 
 [Margin]
 Superficies

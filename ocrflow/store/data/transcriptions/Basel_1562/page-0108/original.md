@@ -23,7 +23,7 @@ Gleicher weiß möcht erſtlich (ſo die linien von den örttern des diameters z
 
 {dropcap:S|lines=2|style=plain}o du den erſten tail diſer propoſit. betrachteſt / findeſt du vrſach des wegs ain perpendicular zůmachen auff ain linj / oben im erſten bůch bei der 11 prop. angezeigt / beſich auch die 5 propoſition des viertten bůchs / item die 13 des ſechſten / ꝛc.
 
-[Curated heading level=3 type=margin_terms: Perpendicular]
+[Curated heading level=3 type=marginal_headings: Perpendicular]
 
 [Margin]
 Perpendicular.

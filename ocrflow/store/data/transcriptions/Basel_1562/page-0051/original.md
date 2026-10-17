@@ -1,7 +1,7 @@
 <!-- Running title: Deß erſten bůchs Euclidis -->
 <!-- Page number: 30 -->
 
-[Curated heading level=3 type=margin_topics: Die feldung aines winckelrechte triangell bald zů finden]
+[Curated heading level=3 type=marginal_headings: Die feldung aines winckelrechte triangell bald zů finden]
 
 [Margin]
 Die feldung aines winckelrechte triangell bald zů finden.
@@ -23,7 +23,7 @@ Demonſtration.
 
 [Diagram]
 
-[Curated heading level=4 type=margin_topics: Von anderen triangeln]
+[Curated heading level=3 type=marginal_headings: Von anderen triangeln]
 
 [Margin]
 Von anderen triangeln.
@@ -31,7 +31,7 @@ Von anderen triangeln.
 
 Wie auch anderer triangel begriff / durch mittel ains gerechten winckels leichtlich zefinden / wil ich hievnden bey der 47. prop. diſes bůchs / auch im andern bůch bey der 12. vnd 13. prop. dich berichten.
 
-[Curated heading level=3 type=margin_topics: Vō arithmetiſche progreß]
+[Curated heading level=3 type=marginal_headings: Vō arithmetiſche progreß]
 
 [Margin]
 Vō arithmetiſche progreß.

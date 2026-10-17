@@ -4,8 +4,6 @@
 
 Sei die ſeitten des fünffeckhs 10 / wirt / (wie oben angezaigt) die lini b e / ſein √125+5. quadrier die baide / werden 100 / vnd 150+√12500. Summa 250+√12500. darauß ⅕ thütt 50+√500. das quadrat des halben diameters / welcher demnach iſt √50+√500.
 
-[Curated heading level=4 type=added_propositions: 6. Die erſt propoſition des xiiij. bůchs.]
-
 #### 6. Die erſt propoſition des xiiij. bůchs.
 
 [Diagram]

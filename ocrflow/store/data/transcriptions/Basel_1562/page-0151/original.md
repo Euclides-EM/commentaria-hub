@@ -7,7 +7,7 @@ zůſůchen ſein / √ʒʒ auß 4096 iſt 8 zaigt das ſo wir ſůchten. Item �
 
 So wenig nun ain jede zal mag one brůch getailt werden / ſo wenig mag auß ainer jeder zal jede wurzel gefunden werden. Als hatt radicem cubicam / aber nit quadratam. härgegen 36 aber 32 hatt deren kaine 64 / ſy bayde / etc. in ſumma wie ſichs in gemainen zalen mit den brüchen zůtregt / alſo in proporzen finden ſich die ſurdiſchen zalen / gleichſam brüch der quantiteten vnd wurzeln. Aber daruon iſt diſe mal gnůg geredt. Beſihe auch die nůnzehendt propoſit. des ſechſten bůchs.
 
-[Curated heading level=3 type=margin_terms: Antecedēs dux, conſequens, comes]
+[Curated heading level=3 type=marginal_headings: Antecedēs dux, conſequens, comes]
 
 [Margin]
 Antecedēs dux, conſequens, comes.
@@ -21,7 +21,7 @@ Antecedēs dux, conſequens, comes.
 
 Wie ſich halten 6 gegen 8 / alſo auch 9 gegen 12 / ſie nennen wir 6 vnd 9 die vorgehnden 8 vnd 12 die volgenden / daruon auch zůuor meldung gethon. Volgen nunn ettliche aigenſchafften / ſo auß verkerung / verſetzung oder zůſamen ziehen der vier alſo proportionierten quantiteten oder zalen ſich erzeigen.
 
-[Curated heading level=3 type=margin_terms: ἐναλλάξ]
+[Curated heading level=3 type=marginal_headings: ἐναλλάξ]
 
 [Margin]
 ἐναλλάξ.

@@ -13,7 +13,7 @@ So zwo ordnung von quantiteten fürgeben werden / alſo / das der wieuilſte tai
 
 ### Erklärung.
 
-[Curated heading level=3 type=margin_terms: Multiplex proportio]
+[Curated heading level=3 type=marginal_headings: Multiplex proportio]
 
 [Margin]
 Multiplex proportio.

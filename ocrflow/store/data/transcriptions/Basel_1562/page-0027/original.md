@@ -18,13 +18,13 @@ Auff ein gerade linj ſo einer bekhantten lenge iſt / ainen gleichſeittigen Tr
 
 {dropcap:F|lines=6|style=decorated|decoration="large calligraphic initial with flourishes"}Reündtlicher lieber leſer / dieweil die Demonſtrationes(das iſt grundtlich vnnd onwider ſprechliche beweyſungen deß yenigen / ſo Euclides in ſeinen Propoſition als warhafftig fürgibt)nit von jme dem Euclide ſelbs / ſondern von andern hoch gelerten khūſtreichen menneren / als Theone / Hypſicle / Campano / ⁊c. hinzuͤgeſetzt worden: Zuͦ dem bemelte Demonſtration / ettwa ſchwaͤrlich von vngelertten moͤgen vernommen vnnd begriffen werden / vnnd dann ein einfeltiger Teüttſcher liebhaber diſer khünſten woll begnügt vnnd zefriden iſt / So er die ſach verſteht / ob er ſchon vrſach vnnd den grund deſſelben nitt allmal erkhent: Hab ich ſolche Demonſtration zuͦ zeitten außgelaſſen / vnnd (welchs ich dem leſer nützer vnd angenemmer vermain) an ſtatt derſelben / den gebrauch vnnd nutz ſolcher Propoſition / wa ich das füglich ſein vermaint angezaigt / vnnd mit Exemplen vnnd der ziffer zimlich erklertt.
 
-[Curated heading level=3 type=margin_terms: Theoremata]
+[Curated heading level=3 type=marginal_headings: Theoremata]
 
 [Margin]
 Theoremata.
 [/Margin]
 
-[Curated heading level=3 type=margin_terms: Problemata]
+[Curated heading level=3 type=marginal_headings: Problemata]
 
 [Margin]
 Problemata

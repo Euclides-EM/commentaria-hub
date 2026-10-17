@@ -9,7 +9,7 @@ darinn der nutz vnd gebrauch diſer prop. in der rechenkhunſt ettlicher maſſe
 
 Welchermaſſen ain yede zal mit vortail quadriert mög werdẽ / haſtu auß der andern / vnnd auch gegenwerttiger propoſition verſtanden. Ferner hat die propoſ. auch andere nutzbarkhaitten / die ich nitt verhalten will.
 
-[Curated heading level=3 type=margin_topics: Wie man radicem quadratā ainer zal finde]
+[Curated heading level=3 type=marginal_headings: Wie man radicem quadratā ainer zal finde]
 
 [Margin]
 Wie man radicem quadratā ainer zal finde.
@@ -17,7 +17,7 @@ Wie man radicem quadratā ainer zal finde.
 
 Erſtlich iſt die regel zefinden ainer zal radicem quadratam oder geuiertte wurtzel auß diſer prop. gefunden vnd gemacht worden / on welche die rechenkunſt gar breſthafft. Zum exempel. Ich ſoll ſůchen √ auß 625. Welche iſt 25. müſſen erſtlich die erſt figur gegen der rechten / nachmals aine außgelaſſen die dritt / vnnd alſo immer fortt aine außgelaſſen / die andren mit puncten verzaichnet werden / alſo 625. Itẽ ſo ich ſůchet √ auß 54756 / ſtiend die verzaichnung alſo 54756 / ⁊c.
 
-[Curated heading level=4 type=margin_topics: Vrſach des punctierens]
+[Curated heading level=3 type=marginal_headings: Vrſach des punctierens]
 
 [Margin]
 Vrſach des punctierens.
