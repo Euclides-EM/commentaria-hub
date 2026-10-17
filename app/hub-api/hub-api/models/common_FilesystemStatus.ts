@@ -9,3 +9,4 @@ export type common_FilesystemStatus = {
     used_bytes?: number;
     used_percent?: number;
 };
+
