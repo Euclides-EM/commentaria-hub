@@ -5,8 +5,6 @@ IDEM affirmatè. Ponatur EB ad B vt CD ad D. Eritq́;, ex priori parte decimæ, 
 
 [Diagram: horizontal lines labelled A, E, B and C, D]
 
-[Curated heading level=3 type=additions: V.]
-
 ### V.
 
 Si fuerint quatuor Quantitates, quarum primæ & ſecundæ ad ſecundam maior ſit proportio, quàm tertiæ & quartæ ad quartam : erit euerſim, minor proportio primæ & ſecundæ ad primam, quàm tertiæ & quartæ ad tertiam.
@@ -17,8 +15,6 @@ Erit enim diſiunctim, per antecedentem, maior proportio A ad B, quàm C ad D. I
 
 [Diagram: horizontal lines labelled A, B and C, D]
 
-[Curated heading level=3 type=additions: VI.]
-
 ### VI.
 
 Si fuerint tres Quantitates vnius ordinis, totidemq́; alterius : fueritq́; primæ priorũ ad ſecundam, maior proportio, quàm primæ poſteriorum ad ſecundam : erit quoque primæ priorum ad tertiam, maior proportio, quàm primæ poſteriorum ad tertiam.
@@ -28,8 +24,6 @@ Sint tres Quantitates vnius ordinis A, B, C : aliæq́; totidem alterius, D, E, 
 Sit enim G ad C vt E ad F. Eritq́;, ex priori parte decimæ huius, G minor B. Ob id, ex ſecunda parte octauæ, maior eſt ratio A ad G, quàm A ad B. Multò maior igitur eſt A ad G, quàm D ad E. Sit itaque H ad G vt D ad E. Eritq́; ex priori parte decimæ, A maior quàm H. Ob idq́;, ex priori parte octauæ, maior ratio A ad C, quàm H ad C. Atqui H ad C, per Æquam proportionalitatem, eſt vt D ad F : eſt enim H ad G vt D ad E : & G ad C vt E ad F. Quare, per duodecimam, A ad C maior eſt, quàm D ad F, Quod erat demonſtrandum.
 
 [Diagram: horizontal lines labelled A, B, C, H, G, C and D, E, F]
-
-[Curated heading level=3 type=additions: VII.]
 
 ### VII.
 

@@ -26,9 +26,7 @@ d. γ | ek, est apotom. & km congruen.
 
 contr. 80.10.
 
-[Curated heading level=2: Definitiones tertiæ.]
-
-Definitiones tertiæ.
+## Definitiones tertiæ.
 
 Exposita rationali & apotoma; si tota plus possit, quàm congruens, quadrato rectæ lineæ sibi longitudine commensurabilis.
 
