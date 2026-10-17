@@ -69,6 +69,8 @@ type HighlightMode = 'hide' | 'hover' | 'show'
 type HighlightModeOption = { value: HighlightMode; label: string }
 
 const BATCH_SIZE = 20
+const VIEWPORT_SETTLE_MS = 150
+const VIEWPORT_ROOT_MARGIN = '200px'
 const DEFAULT_CARD_SIZE = 280
 const PREVIEW_VARIANT_CARD_SIZE_THRESHOLD = 400
 const PREVIEW_VARIANT_ZOOM_THRESHOLD = 300
@@ -664,10 +666,15 @@ export function GalleryViewTab() {
 
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE)
   const sentinelRef = useRef<HTMLDivElement | null>(null)
+  const [loadedPages, setLoadedPages] = useState(new Set<string>())
 
   useEffect(() => {
     setVisibleCount(BATCH_SIZE)
   }, [datasetId, annotationId, filteredAvailablePages.length, normalizedSearch])
+
+  useEffect(() => {
+    setLoadedPages(new Set())
+  }, [datasetId, annotationId])
 
   const visiblePages = useMemo(
     () => filteredAvailablePages.slice(0, visibleCount),
@@ -723,9 +730,11 @@ export function GalleryViewTab() {
     if (!segmented) {
       return []
     }
-    return visiblePages.filter((p) => !fetchedPageSetRef.current.has(p))
+    return visiblePages.filter(
+      (p) => loadedPages.has(p) && !fetchedPageSetRef.current.has(p),
+    )
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [JSON.stringify(visiblePages), segmented])
+  }, [JSON.stringify(visiblePages), loadedPages, segmented])
   const pendingTeiPageSet = useMemo(() => new Set(pagesToFetch), [pagesToFetch])
 
   pagesToFetchRef.current = pagesToFetch
@@ -947,6 +956,44 @@ export function GalleryViewTab() {
 
   const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
   const lastScrolledPageRef = useRef('')
+  const cardObserverRef = useRef<IntersectionObserver | null>(null)
+
+  useEffect(() => {
+    const intersectingPages = new Set<string>()
+    let settleTimer: ReturnType<typeof setTimeout> | undefined
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const page = (entry.target as HTMLElement).dataset.page
+          if (!page) continue
+          if (entry.isIntersecting) {
+            intersectingPages.add(page)
+          } else {
+            intersectingPages.delete(page)
+          }
+        }
+        clearTimeout(settleTimer)
+        settleTimer = setTimeout(() => {
+          const pages = [...intersectingPages]
+          setLoadedPages((prev) =>
+            pages.every((p) => prev.has(p))
+              ? prev
+              : new Set([...prev, ...pages]),
+          )
+        }, VIEWPORT_SETTLE_MS)
+      },
+      { rootMargin: VIEWPORT_ROOT_MARGIN },
+    )
+    cardObserverRef.current = observer
+    Object.values(cardRefs.current).forEach((el) => {
+      if (el?.isConnected) observer.observe(el)
+    })
+    return () => {
+      clearTimeout(settleTimer)
+      observer.disconnect()
+      cardObserverRef.current = null
+    }
+  }, [])
 
   const handleOpenInPageView = (pageKey: string) => {
     setState({
@@ -1195,8 +1242,10 @@ export function GalleryViewTab() {
             {visiblePages.map((page) => (
               <div
                 key={page}
+                data-page={page}
                 ref={(el) => {
                   cardRefs.current[page] = el
+                  if (el) cardObserverRef.current?.observe(el)
                 }}
                 className="border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white shrink-0"
                 style={{ width: cardWidth, height: cardSize }}
@@ -1212,30 +1261,32 @@ export function GalleryViewTab() {
                   </button>
                 </div>
                 <div className="flex-1 min-h-0 flex overflow-hidden">
-                  <GalleryCardBody
-                    key={`${page}:${galleryRenderKey}`}
-                    baseVariant={imageVariant}
-                    getVariantUrl={showImage ? makeGetVariantUrl(page) : null}
-                    imageZoom={imageZoom}
-                    highlightMode={highlightMode}
-                    highlightZoneFilters={highlightZoneFilters}
-                    selectedZoneCategoryIds={selectedZoneCategoryIds}
-                    surfaceZones={surfaceZonesByPage.get(page) ?? []}
-                    sideBySide={viewMode === 'side-by-side'}
-                    showText={showText}
-                    teiContent={showText ? teiByPage.get(page) : undefined}
-                    isFetchingTei={pendingTeiPageSet.has(page)}
-                    minCert={minCert}
-                    showCertaintyVisualization={showCertaintyVisualization}
-                    teiViewMode={effectiveTeiViewMode}
-                    alignLines={alignLines}
-                    highlightConfig={highlightConfig}
-                    visibleFeatureIdsKey={visibleFeatureIdsKey}
-                    showTeiLineHighlights={showTeiLineHighlights}
-                    searchResultHighlight={
-                      searchHighlightsByPage.get(page) ?? null
-                    }
-                  />
+                  {loadedPages.has(page) && (
+                    <GalleryCardBody
+                      key={`${page}:${galleryRenderKey}`}
+                      baseVariant={imageVariant}
+                      getVariantUrl={showImage ? makeGetVariantUrl(page) : null}
+                      imageZoom={imageZoom}
+                      highlightMode={highlightMode}
+                      highlightZoneFilters={highlightZoneFilters}
+                      selectedZoneCategoryIds={selectedZoneCategoryIds}
+                      surfaceZones={surfaceZonesByPage.get(page) ?? []}
+                      sideBySide={viewMode === 'side-by-side'}
+                      showText={showText}
+                      teiContent={showText ? teiByPage.get(page) : undefined}
+                      isFetchingTei={pendingTeiPageSet.has(page)}
+                      minCert={minCert}
+                      showCertaintyVisualization={showCertaintyVisualization}
+                      teiViewMode={effectiveTeiViewMode}
+                      alignLines={alignLines}
+                      highlightConfig={highlightConfig}
+                      visibleFeatureIdsKey={visibleFeatureIdsKey}
+                      showTeiLineHighlights={showTeiLineHighlights}
+                      searchResultHighlight={
+                        searchHighlightsByPage.get(page) ?? null
+                      }
+                    />
+                  )}
                 </div>
               </div>
             ))}
