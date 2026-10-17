@@ -39,13 +39,13 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr&annotationId=ann_i31qou
 
-Running OCR, 0/388
+Running OCR, 121/388
 
 ## Strasbourg_1566
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7&annotationId=ann_fsoleq
 
-Running OCR, 0/221
+Running OCR, 35/221
 
 ## Oxford_1703
 
@@ -55,7 +55,7 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 OCR for Greek:
 https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
-**Status:** LLM in progress. 603/719
+**Status:** LLM in progress. 686/719
 
 # Manual Curation
 
