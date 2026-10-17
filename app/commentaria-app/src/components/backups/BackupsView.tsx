@@ -28,6 +28,23 @@ const getBackupCreatedAt = (backupId: string): string | null => {
   return Number.isNaN(new Date(iso).getTime()) ? null : iso
 }
 
+const formatBytes = (bytes?: number): string | null => {
+  if (bytes === undefined || bytes < 0) {
+    return null
+  }
+  if (bytes < 1024) {
+    return `${bytes} B`
+  }
+  const units = ['KiB', 'MiB', 'GiB', 'TiB']
+  let value = bytes / 1024
+  let unit = units[0]
+  for (let index = 1; index < units.length && value >= 1024; index += 1) {
+    value /= 1024
+    unit = units[index]
+  }
+  return `${value.toFixed(value >= 10 ? 1 : 2)} ${unit}`
+}
+
 const isNetworkError = (error: unknown): boolean => {
   if (!error || typeof error !== 'object') {
     return false
@@ -96,6 +113,10 @@ export function BackupsView() {
       ),
     [jobs],
   )
+  const backupJobsSignature = backupJobs
+    .map((job) => `${job.id || ''}:${job.status || ''}`)
+    .sort()
+    .join('|')
   const createBackupJob =
     backupJobs.find((job) => job.id && job.id === createBackupJobId) ||
     backupJobs.find((job) => job.task === 'BackupCreate' && isActiveJob(job))
@@ -116,10 +137,8 @@ export function BackupsView() {
     )
 
   useEffect(() => {
-    if (createBackupJob?.status === 'completed') {
-      queryClient.invalidateQueries({ queryKey: backupsQueryKey() })
-    }
-  }, [createBackupJob?.status, queryClient])
+    queryClient.invalidateQueries({ queryKey: backupsQueryKey() })
+  }, [backupJobsSignature, queryClient])
 
   const handleDownload = (backupId: string) => {
     setDownloadError(null)
@@ -252,13 +271,17 @@ export function BackupsView() {
                   <th className="px-4 py-3 text-left whitespace-nowrap">
                     Created
                   </th>
+                  <th className="px-4 py-3 text-left whitespace-nowrap">
+                    Available in
+                  </th>
                   <th className="px-4 py-3 text-right whitespace-nowrap">
                     Actions
                   </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                {backups?.map((backupId) => {
+                {backups?.map((backup) => {
+                  const backupId = backup.id
                   const createdAt = getBackupCreatedAt(backupId)
                   const syncJob = getSyncJob(backupId)
                   const syncActive =
@@ -281,6 +304,32 @@ export function BackupsView() {
                           <span className="text-gray-400">-</span>
                         )}
                       </td>
+                      <td className="px-4 py-3 text-left whitespace-nowrap">
+                        <div className="flex items-center gap-2">
+                          {backup.local_available && (
+                            <span
+                              className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-700"
+                              title={
+                                formatBytes(backup.local_size_bytes) ||
+                                undefined
+                              }
+                            >
+                              Local
+                            </span>
+                          )}
+                          {backup.drive_available && (
+                            <span
+                              className="rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700"
+                              title={
+                                formatBytes(backup.drive_size_bytes) ||
+                                undefined
+                              }
+                            >
+                              Drive
+                            </span>
+                          )}
+                        </div>
+                      </td>
                       <td className="px-4 py-3">
                         <div className="flex flex-col items-end gap-1">
                           <div className="flex items-center justify-end gap-2">
@@ -298,13 +347,21 @@ export function BackupsView() {
                                   className="px-2 py-1 text-xs"
                                   onClick={() => handleSyncToDrive(backupId)}
                                   disabled={
-                                    syncActive || restoreMutation.isPending
+                                    backup.drive_available ||
+                                    !backup.local_available ||
+                                    syncActive ||
+                                    restoreMutation.isPending
                                   }
                                 >
-                                  {syncMutation.isPending &&
-                                  syncMutation.variables === backupId
-                                    ? 'Queueing...'
-                                    : jobStatusLabel(syncJob, 'Sync to Drive')}
+                                  {backup.drive_available
+                                    ? 'On Drive'
+                                    : syncMutation.isPending &&
+                                        syncMutation.variables === backupId
+                                      ? 'Queueing...'
+                                      : jobStatusLabel(
+                                          syncJob,
+                                          'Sync to Drive',
+                                        )}
                                 </Button>
                                 <Button
                                   variant="danger"

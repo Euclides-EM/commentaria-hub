@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/job"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/httpwrapper"
@@ -14,10 +15,12 @@ import (
 // @Description  Returns a list of available backups with their metadata.
 // @Tags         Backups
 // @Produce      json
-// @Success      200  {array}  string
+// @Success      200  {array}  model.Backup
 // @Router       /backups [get]
 func (h *Handlers) ListBackups(r *http.Request) (any, error) {
-	return h.deps.BackupSvc.ListBackups()
+	var backups []*model.Backup
+	backups, err := h.deps.BackupSvc.ListBackups()
+	return backups, err
 }
 
 // CreateBackup godoc
@@ -104,13 +107,8 @@ func (h *Handlers) RestoreLatestBackup(r *http.Request) (any, error) {
 // @Success      200  {file}  string  "Backup file"
 // @Security 	 BearerAuth
 // @Router       /backups/{backupId} [get]
-func (h *Handlers) DownloadBackup(r *http.Request) (zipPath string, deleteAfterServe bool, err error) {
-	backupId := r.PathValue("backupId")
-	zipPath, err = h.deps.BackupSvc.GetBackupFullPath(backupId)
-	if err != nil {
-		return "", false, err
-	}
-	return zipPath, false, nil
+func (h *Handlers) DownloadBackup(r *http.Request) (filePath string, downloadName string, cleanup func(), err error) {
+	return h.deps.BackupSvc.PrepareBackupDownload(r.PathValue("backupId"), nil)
 }
 
 // CreateBackupFromZip godoc

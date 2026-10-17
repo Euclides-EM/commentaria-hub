@@ -369,6 +369,10 @@ This JSON file contains the trained model path and dataset metadata.
 
 GPU farm work can be run manually, without the API connecting to the GPU farm over SSH, by setting `"manual_run": true`.
 
+Download the generated bundle within `GPU_FARM_MANUAL_BUNDLE_TTL` (24 hours by
+default). The API removes expired bundles periodically and refuses downloads
+after expiry.
+
 Use a GitHub token that is allowed by the API:
 
 ```bash
@@ -394,6 +398,12 @@ pushd "$RUN_DIR" && sbatch "$PROJECT_ROOT/job.sbatch" && popd
 squeue -u $USER
 tail -n 100 -F "$RUN_DIR"/logs/*
 ```
+
+For automatic SSH submissions, the API measures the complete detection batch
+before upload and requires enough remote capacity for the batch plus a 2 GiB
+safety reserve. It also rechecks the reserve before each copied file. An
+oversized batch therefore fails during preflight instead of filling the GPU
+farm filesystem partway through an upload.
 
 The Slurm job reports back to the API itself.  If the Slurm job ends without reaching the API (for example it was cancelled, hit its time limit, or the upload failed), resolve it from `$RUN_DIR`.
 

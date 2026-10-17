@@ -27,13 +27,14 @@ type EnvConfig struct {
 	LogsTailMaxLines         int           `env:"LOGS_TAIL_MAX_LINES" envDefault:"2000"`
 	GPUFarmHost              string        `env:"GPU_FARM_HOST" envDefault:""`
 	GPUFarmJobRoot           string        `env:"GPU_FARM_JOB_ROOT" envDefault:""`
+	GPUFarmManualBundleTTL   time.Duration `env:"GPU_FARM_MANUAL_BUNDLE_TTL" envDefault:"24h"`
 	APIURL                   string        `env:"API_URL" envDefault:""`
 
 	RootDir               string `env:"ROOT_DIR" envDefault:"../"`
 	StoreDir              string `env:"STORE_DIR" envDefault:"./store"`
 	TempDir               string `env:"OCRFLOW_TEMP_DIR"`
 	BackupRootDir         string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
-	BackupLocalMaxToStore int    `env:"BACKUP_LOCAL_MAX_TO_STORE" envDefault:"2"`
+	BackupLocalMaxToStore int    `env:"BACKUP_LOCAL_MAX_TO_STORE" envDefault:"0"`
 	BackupDriveMaxToStore int    `env:"BACKUP_DRIVE_MAX_TO_STORE" envDefault:"5"`
 
 	FacsimilesPDFDir         string `env:"FACSIMILES_PDF_DIR" envDefault:""`
