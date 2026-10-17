@@ -21,11 +21,7 @@ A : B = C : D.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Prenez des équimult. quelconques m A, m B, m C, m D des grandeurs A, B, C, D.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Prenez encore des équimult. quelconques n B, n D des grandeurs B & D.
 
@@ -35,43 +31,25 @@ Dem. 1. L. 5.
 
 ### DEMONSTRATION.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 {dropcap:L|lines=2|style=plain}A gdr. entiere m A + m B eſt donc autant multiple de la gdr. A + B, que m A l'eſt de A, ou m C de C.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. De même, la gdr. entiere m C + m D eſt autant multiple de la gdr. C + D, que m C l'eſt de C.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Par conſéquent m A + m B eſt multiple de A + B, autant que m C + m D l'eſt de C + D.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. On voit auſſi que les gdrs. entieres m B + n B, m D + n D ſont équimult. des gdrs B & D.
 Or A + B : B = C + D : D : (*Hyp*)., & m A + m B, m C + m D ſont équimult. des antécédens A + B & C + D (*Arg.* 3); item m B + n B, m D + n D ſont équimult. des conſéquens B & D (*Arg.* 4.);
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Par conſéquent, ſi m A + m B eſt >, =, ou < m B + n B; m C + m D eſt auſſi >, =, ou < m D + n D.
 Mais, ſi m A + m B eſt >, =, ou < m B + n B; en rétranchant la partie commune m B,
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Le reſte m A eſt encore >, =, ou < le reſte n B.
 De méme, ſi m C + m D eſt >, =, ou < m D + n D; en rétranchant la partie commune m D,
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. Le reſte m C eſt encore >, =, ou < le reſte n D.
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. C'eſt pourquoi, ſi m A eſt >, =, ou < n B; m C eſt pareillement >, =, ou < n D.
 Mais m A & m C ſont des équimult. de A & de C pris comme antécédens (*Prep.* 1); & n B, n D des équimult. de B & D conſidérés comme conſéquens (*Prep.* 2);
-
-[Curated heading level=4 type=numbered_item: 9.]
 
 9. Partant A : B = C : D.
 

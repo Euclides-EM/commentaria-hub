@@ -26,43 +26,23 @@ THÉSE.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:P|lines=2|style=plain}Rolongez NF, & faites FQ = AH.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Au point F ſur FQ, faites ∀ plan QFR = ∀ plan HAK.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Faites FR = AK.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Achevez le Pgr. FQSR.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Achevez de même avec les lignes FQ & FD; Item FR & FD, les Pgr. QTDF & DFR.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Achevez le ⊟ DS.
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. Prolongez les droites Fq & RS, juſqu'à ce qu'elles ſe rencontrent en V.
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Par le point Q, tirez XQY, Plle à Vq.
 
-[Curated heading level=4 type=numbered_item: 9.]
-
 9. Prolongez Cq, juſqu'à ce qu'elle rencontre XY, au point Y.
-
-[Curated heading level=4 type=numbered_item: 10.]
 
 10. Achevez les ⊟s ZQ, & VDTX.
 
@@ -79,11 +59,7 @@ Prop. 31. L. 1.
 {dropcap:P|lines=2|style=plain}Uiſque les lignes FQ & FR ſont = à AH & AK. (*Prép. 1 & 3.*)
 Et que l'∀ QFR, eſt = à ∀ HAK. (*Prép. 2.*)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le Pgr. FS eſt = & ∽ au Pgr. KH.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. De la même manière on demontrera que les Pgr. FT & DR ſont égaux & ∽ aux Pgr. AI, & AL.
 

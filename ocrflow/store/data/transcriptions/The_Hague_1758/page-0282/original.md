@@ -38,8 +38,6 @@ Prop. 11. L. 6.
 
 {dropcap:P|lines=2|style=plain}Uiſque AB : CD ⚌ EF : GH (*Hyp.* 1), & CD : Z ⚌ GH : X (*Hyp.* 1. *Prep. & Prop.* 11. L. 5),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. AB : Z ⚌ EF : X
 
 [Margin]
@@ -48,16 +46,12 @@ Prop. 22. L. 5.
 
 Or à cauſe de la ſimilitude des figures M & N, P & Q, & de leur deſcription ſemblable des droites AB & CD, item EF & GH (*Hyp.* 2.);
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. AB : Z ⚌ M : N. & EF : X ⚌ P : Q.
 
 [Margin]
 Prop. 20. L 6.
 Coroll. 2.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. C'eſt pourquoi M : N ⚌ P : Q. (*Arg.* 1).
 

@@ -37,13 +37,9 @@ Et que le Pgr. BO eſt auſſi le double du △ ABC.
 Prop. 41. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le Pgr. FI eſt = au Pgr. BO.
 
 De plus la hauteur LI étant = à la hauteur AE (*Hyp.* 1.).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Le ▭ BD eſt = au ▭ NI.
 
@@ -57,8 +53,6 @@ Et le priſme EC, eſt la moitié du ▭ BD.
 [Margin]
 Prop. 28. L. 11.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant le priſme FL eſt = au priſme EC.
 

@@ -37,23 +37,15 @@ IV. *Du point F, de part & d'autre de la plus petite FD, on ne peut tirer plus d
 
 ### DEMONSTRATION.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}Es deux côtés FE+EB du △ FEB ſont > le troiſieme FB.
 Or EB eſt = à EA (*Def*. 15. *L*. 1).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc FE+EA, ou FA eſt > FB.
 De la même maniere on prouvera, que
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. La droite FA, eſt la plus grande de toutes les droites tirées du point F à la circonférence AHG.
 
 C. Q. F.D. 1.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Derechef; les deux côtés FE+FH du △ FEH ſont > le troiſieme EH.
 Et ED etant = à EH (*Def*. 15. *L*. 1)

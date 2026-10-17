@@ -24,11 +24,7 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=2|style=plain}U point B au point G tirez la droite BG.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point C au point H tirez la droite CH.
 
@@ -40,8 +36,6 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure GE eſt un Pgr (*Hyp.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les côtés oppoſés DE, GH ſont ＝ entr'eux.
 
 [Margin]
@@ -49,8 +43,6 @@ Prop. 34. L. 1.
 [/Margin]
 
 Or la droite BC eſt ＝ à DE (*Hyp.* 2) & GH eſt ＝ à la même droite DE (*Arg.* 1).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc BC eſt ＝ à GH.
 
@@ -60,15 +52,11 @@ Ax. 1.
 
 Mais puiſque BC eſt ＝ à GH (*Arg.* 2): & que ces droites ſont outre cela des Plles (*Hyp.* 2), dont les extrêmités ſont jointes par les droites GB, HC (*Prep.* 1 & 2).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Il eſt évident, que ces droites GB, HC ſont ＝ & Plles.
 
 [Margin]
 Prop. 33. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant, la figure GC eſt un Pgr.
 
@@ -78,8 +66,6 @@ Def. 35. L. 1.
 
 De plus, les Pgrs AC, GC étant placés ſur la même baſe BC, & entre les mêmes Plles AH, BE (*Hyp.* 2).
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Ces Pgrs AC, GC ſont ＝ entr'eux.
 
 [Margin]
@@ -88,13 +74,9 @@ Prop. 35. L. 1.
 
 Par un raiſonnement ſemblable on prouvera,
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Que le Pgr GC eſt ＝ au Pgr GE.
 
 Puis donc que le Pgr AC eſt ＝ au Pgr GC (*Arg.* 5), & que le Pgr GE eſt ＝ au même Pgr GC (*Arg.* 6).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Il s'enſuit que le Pgr AC eſt ＝ au Pgr GE.
 

@@ -27,8 +27,6 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ∠ u & n ſont des ∠ à la ⊙, placés dans le même ſegment DABC,
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ces ∠ u & n ſont = entr’eux.
 
 [Margin]
@@ -37,11 +35,7 @@ Prop. 21. L. 3.
 
 On prouvera de même, que
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Les ∠ p & m ſont = entr’eux.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. C’eſt pourquoi, les ∠ u + p ſont = aux ∠ n + m ou à ∠ BAD.
 
@@ -51,8 +45,6 @@ Ax. 2. L. 1.
 
 Si on ajoute donc de part & d’autre ∠ r + q, ou BCD ;
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Les ∠ u + p + (r + q) ſont = aux ∠ BAD + BCD.
 
 [Margin]
@@ -61,8 +53,6 @@ Ax. 2. L. 1.
 
 Mais les trois ∠ u + p + (r + q), du △ DBC étant = à 2 L. (*Prop. 32. L. 1.*).
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Les deux ∠ oppoſés BAD + BCD du quadrilatère DABC ſont auſſi = à 2 L.
 
 [Margin]
@@ -70,8 +60,6 @@ Ax. 1. L. 1.
 [/Margin]
 
 On démontrera par un raiſonnement ſemblable, que
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Les ∠ ABC + ADC ſont = à 2 L.
 

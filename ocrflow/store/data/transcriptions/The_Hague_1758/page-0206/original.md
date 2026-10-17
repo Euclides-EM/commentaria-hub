@@ -33,8 +33,6 @@ Dem. 2. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uis donc que aN eſt autant multiple de N, que aP l'eſt de P (Prep.),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La ſomme aN + aP, ou aM, des premieres, eſt autant multiple de la ſomme N + P des derniéres, que aN l'eſt de N.
 
 [Margin]
@@ -43,11 +41,7 @@ Prop. 1. L. 5.
 
 Mais aM eſt autant multiple de M, ou de N + V, que aN l'eſt de N (Hyp. 2);
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant, la même gdr. aM eſt équimultiple des gdrs. N + P, & N + V.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Par conſéquent, N + P = N + V.
 
@@ -57,15 +51,11 @@ Ax. 7. L. 1.
 
 Et retranchant la gdr. commune N,
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Il s'enſuit que la gdr. P eſt = à la gdr. V.
 
 [Margin]
 Ax. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant, aP étant autant multiple de P, que aM l'eſt de M (Prep.), le même aP eſt autant multiple de V, que aM l'eſt de M.
 

@@ -7,8 +7,6 @@ De plus l'∀ AIK eſt = à ∀ ICK + ∀ IKC.
 Prop. 32. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 24.]
-
 24. Partant l'∀ ICK + ∀ IKC ſont > qu'un angle ∟.
 
 Or l'∀ ICK eſt = à l'∀ CKI (*Prop*. 5. *L*. 1.) car KI eſt = à CI (*Def*. 15. *L*. 1.)
@@ -17,11 +15,7 @@ Or l'∀ ICK eſt = à l'∀ CKI (*Prop*. 5. *L*. 1.) car KI eſt = à CI (*Def*
 Ax. 7. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 25.]
-
 25. Donc 2 ∀ ICK ſont > qu'un angle ∟, & ∀ ICK > ½ angle ∟.
-
-[Curated heading level=4 type=numbered_item: 26.]
 
 26. C'eſt pourquoi dans le △ CoK, l'∀ CKo eſt < ½ ∟.
 
@@ -31,21 +25,13 @@ Prop. 18. L. 1.
 
 Mais l'∀ ICK eſt > ½ ∟. (*Arg*. 25.).
 
-[Curated heading level=4 type=numbered_item: 27.]
-
 27. D'où il ſuit que dans le △ CoK, le coté Ko, oppoſé à l'∀ KCo ou KCI, eſt > que le coté Co, oppoſé à ∀ CKo.
-
-[Curated heading level=4 type=numbered_item: 28.]
 
 28. Partant il eſt évident que le □ ſur KC (qui eſt = au □ ſur Ko + au □ ſur Co *par la Prop*. 47. *L*. 1.) eſt < que deux fois le □ ſur Ko.
 
 Et il eſt demontré (*Arg*. 23.) que le □ ſur KC eſt > que le double du □ ſur ZC.
 
-[Curated heading level=4 type=numbered_item: 29.]
-
 29. C'eſt pourquoi le double du □ ſur Ko ſera > que le double du □ ſur ZC.
-
-[Curated heading level=4 type=numbered_item: 30.]
 
 30. Partant le □ ſur Ko eſt > que le □ ſur ZC.
 
@@ -61,8 +47,6 @@ Et le □ ſur IK (= au □ ſur IC. *Def*. 15. *L*. 1. & *Prop*. 46. *L*. 1. *C
 Ax. 1. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 31.]
-
 31. Donc le □ ſur IZ + le □ ſur ZC ſont = au □ ſur Io + le □ ſur Ko.
 
 Si donc on retranche d'un coté le □ ſur ZC & de l'autre le □ ſur Ko. (qui ſont inégaux *par l'Arg*. 30.).
@@ -71,11 +55,7 @@ Si donc on retranche d'un coté le □ ſur ZC & de l'autre le □ ſur Ko. (qui
 Ax. 5. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 32.]
-
 32. Le reſte ſavoir le □ ſur IZ ſera > que le □ ſur Io.
-
-[Curated heading level=4 type=numbered_item: 33.]
 
 33. Partant IZ eſt > Io.
 
@@ -83,19 +63,11 @@ Or la ligne Ko (qui eſt ⊥ ſur le diamêtre AC, 11. *Prép*. 3.) eſt au-del�
 
 Et Io eſt < IZ. (*Arg*. 33.).
 
-[Curated heading level=4 type=numbered_item: 34.]
-
 34. Donc a plus forte raiſon IZ (qui eſt beaucoup > IG,) ne touche point la ſuperficie de la ſphère EFGH.
-
-[Curated heading level=4 type=numbered_item: 35.]
 
 35. C'eſt pourquoi le Plan KSPC, dans lequel Z eſt le point le plus proche du centre I, ne peut non plus toucher cette ſphère EFGH.
 
-[Curated heading level=4 type=numbered_item: 36.]
-
 36. De la même manière on demontrera, que tous les autres Plans qui forment le polyëdre ne touchent point non plus la ſphère EFGH.
-
-[Curated heading level=4 type=numbered_item: 37.]
 
 37. Partant on a décrit dans la plus grande ſphère KON, un polyëdre KPTRVO &c. dont les Plans ne touchent point la petite ſphère EFGH.
 

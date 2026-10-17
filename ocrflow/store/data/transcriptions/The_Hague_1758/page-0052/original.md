@@ -36,15 +36,11 @@ Les côtés ſont inégaux, & l'un, comme DF, ſera ＞ l'autre AC.
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Retranchez donc du plus grand côté DF une partie DG ＝ à AC.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point G au point E tirez la droite GE.
 
@@ -54,8 +50,6 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uis donc que dans les △ ACB, DGE le côté AC eſt ＝ au côté DG (*Prep.* 1), AB ＝ DE (*Hyp.* 3) & que ∀ compris A eſt ＝ à ∀ compris D (*Hyp.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les ∀ B & GED, oppoſés aux côtés égaux AC & DG, ſont ＝ entr'eux.
 
 [Margin]
@@ -63,8 +57,6 @@ Prop. 4. L. 1.
 [/Margin]
 
 Mais ∀ B étant ＝ à ∀ GED (*Arg.* 1) & ce même ∀ B étant auſſi ＝ à ∀ FED (*Hyp.* 2).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Il s'enſuit, que ∀ GED eſt ＝ à ∀ FED.
 
@@ -74,11 +66,7 @@ Ax. 1.
 
 Or ∀ FED étant le tout & ∀ GED ſa partie.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Le tout ſeroit ＝ à ſa partie.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Ce qui eſt impoſſible.
 
@@ -86,11 +74,7 @@ Or ∀ FED étant le tout & ∀ GED ſa partie.
 Ax. 8.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Les côtés AC, DF ne ſont donc point inégaux.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Partant, il ſont égaux, ou AC ＝ DF.
 
@@ -101,8 +85,6 @@ N. C.
 C. Q. F. D. I.
 
 Puis donc que dans les △ ACB, DFE, le côté AC eſt ＝ au côté DF (*Arg.* 6), AB ＝ DE (*Hyp.* 3), & que ∀ compris A eſt ＝ à ∀ compris D (*Hyp.* 1).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Le troiſieme côté BC eſt auſſi ＝ au troiſieme côté EF, & les ∀ C & F oppoſés aux côtés égaux AB, DE ſont auſſi ＝ entr'eux.
 

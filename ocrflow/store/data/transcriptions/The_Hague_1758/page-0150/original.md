@@ -21,15 +21,11 @@ CAS I. Si les deux cordes paſſent par le centre F du ⊙ *(Fig. 1)*.
 
 ### DEMONSTRATION.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:L|lines=2|style=plain}Es droites AF, FB, DF, FE ſont donc = entr’elles,
 
 [Margin]
 Def. 15. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et par conſéquent le Rgle AF. FB eſt = au Rgle DF. FE.
 
@@ -51,8 +47,6 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la droite AB eſt coupée en deux également en C, & en deux inégalement en F.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le Rgle AF. FB + le □ de CF eſt = au □ de CB, ou = au □ de CE.
 
 [Margin]
@@ -61,15 +55,11 @@ Prop. 5. L. 2. Ax. 1. L. 1.
 
 Mais le □ de FE + le □ de CF eſt auſſi = au □ de CE *(Prop. 47. L. 1)*.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. D’où il ſuit que le Rgle AF. FB + le □ de CF eſt = au □ de FE + au □ de CF.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, le Rgle AF. FB eſt = au □ de FE,
 
@@ -78,8 +68,6 @@ Ax. 3. L. 1.
 [/Margin]
 
 Et par la raiſon que DF eſt = à FE *(Prop. 3. L. 3)*, ou DF. FE = au □ de FE *(Ax. 2. L. 2)*.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Le Rgle AF. FB eſt auſſi = au Rgle DF. FE.
 

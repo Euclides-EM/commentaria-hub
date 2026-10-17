@@ -32,38 +32,22 @@ Dem. 1. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uis donc que AC : CB ═ DF : FE (*Hyp. & Def. 1. L. 6*),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. En alternant AC : DF ═ CB : FE.
 Mais CB : FE ═ FE : CG (*Prep.*);
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Par conſéquent AC : DF ═ FE : CG.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Les côtés des △ AGC, DEF alentour des ∀ égaux C & F (*Hyp.*), ſont donc réciproques. (*Def. 2. L. 6.*).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant le △ AGC eſt ═ au △ DEF.
 Or les △ ABC, AGC ayant la même hauteur,
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Le △ ABC : △ AGC ═ CB : CG.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Partant le △ ABC : △ DEF ═ CB : CG.
 Mais, puiſque CB : FE ═ FE : CG (*Prep.*),
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. CB : CG en raiſon doublée de CB à FE ou comme C̅B̅² : F̅E̅² \*.
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Par conſéquent le △ ABC : △ DEF en raiſon doublée de CB à FE, ou comme C̅B̅² : F̅E̅² \*.
 

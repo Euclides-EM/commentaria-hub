@@ -17,8 +17,6 @@ Dem. 1. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uiſque eM eſt autant multiple de M, que 1eN l'eſt de N (Prep.), & que cM eſt autant multiple de M, que cN l'eſt de N (Hyp. 2),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La grandeur eM + cM, ou aM, ſera autant multiple de M, que 1eN + cN l'eſt de N.
 
 [Margin]
@@ -27,11 +25,7 @@ Prop. 2. L. 5.
 
 Mais aM étant autant multiple de M, que aN, ou eN + cN, l'eſt de N (Hyp. 2),
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Les deux gdrs. 1eN + cN & eN + cN ſont donc équimultiples de la même gdr. N.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Par conſéquent, 1eN + cN eſt = eN + cN.
 
@@ -41,8 +35,6 @@ Ax. 6. L. 1.
 
 En retranchant donc la gdr. commune cN,
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Il ſuit que la grandeur 1eN eſt = eN.
 
 [Margin]
@@ -50,8 +42,6 @@ Ax. 3. L. 1.
 [/Margin]
 
 Or 1eN eſt autant multiple de N, que eM l'eſt de M (Prep.);
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Donc, ſi eM eſt multiple de M, eN ſera équimultiple de N.
 

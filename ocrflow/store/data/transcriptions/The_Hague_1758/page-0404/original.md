@@ -29,11 +29,7 @@ Une ſphère < ou > que la ſphère ABCD ſera à la ſphère HILK = A̅C̅³ : 
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:P|lines=2|style=plain}Lacez la ſphère VRT autour du centre de la ſphère ABCD, comme eſt EFG, (qui eſt = à la ſphère VRT).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Dans la grande ABCD. inſcrivez un polyëdre, de façon qu'il ne touche point la ſphère EFG.
 
@@ -41,13 +37,9 @@ Une ſphère < ou > que la ſphère ABCD ſera à la ſphère HILK = A̅C̅³ : 
 Prop. 17. L. 12.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Dans la ſphère HILK inſcrivez un polyëdre ∽ au précedent.
 
 {dropcap:P|lines=2|style=plain}Uiſque les polyëdres ABCD & KHIL ſont ∽ (1. *Prép*. 1 & 2.).
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. Le polyëdre ABCD : polyëdre KHIL = A̅C̅³ : K̅I̅³.
 

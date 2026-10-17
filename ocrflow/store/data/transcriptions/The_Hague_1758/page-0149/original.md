@@ -17,15 +17,11 @@
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=2|style=plain}’Un point quelconque A tirez au ⊙ BDE la tangente ABC.
 
 [Margin]
 Prop. 17. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point d’attouchement B, menez la corde BD, enſorte qu’elle forme ſur AB ∀ DBA = à ∀ donné N.
 
@@ -37,15 +33,11 @@ Prop. 23. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque ∀ donné N eſt = à ∀ DBA *(Reſ. 2)*, & ∀ DEB = à ∀ DBA *(Prop. 32. L. 3).*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les ∀ DEB & N ſont = entr’eux.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. On a donc retranché du ⊙ BDE, un ſegment BED, qui contient un ∀ DEB = à ∀ donné N.
 

@@ -20,15 +20,11 @@ Donnees.
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 {dropcap:T|lines=2|style=plain}Irez la droite indéterminée DM.
 
 [Margin]
 Dem. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Faites ED ＝ à la donnée A, FE ＝ à la donnée B, & FG ＝ à la donnée C.
 
@@ -36,19 +32,13 @@ Dem. 1.
 Prop. 3. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Du point E comme centre & du rayon ED décrivez le ⊙ DH.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Du point F comme centre & du rayon FG décrivez le ⊙ GH.
 
 [Margin]
 Dem. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Des points E & F, au point d'interſection H, tirez les droites EH, FH.
 
@@ -60,15 +50,11 @@ Dem. 2.
 
 {dropcap:L|lines=2|style=plain}Es droites ED, EH étant tirées du centre E à la ○ DH (*Reſ.* 3 & 5).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ces deux droites ED, EH ſont des rayons d'un même ⊙ DH.
 
 [Margin]
 Def. 16. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par conſéquent, la droite ED eſt ＝ à la droite EH.
 
@@ -78,8 +64,6 @@ Def. 15. L. 1.
 
 Puis donc que ED eſt ＝ à EH (*Arg.* 2) & que la droite donnée A eſt auſſi ＝ à la même ligne ED (*Reſ.* 2).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Il s'enſuit, que EH eſt ＝ à la donnée A.
 
 [Margin]
@@ -88,13 +72,9 @@ Ax. 1.
 
 Par un raiſonnement ſemblable on prouvera, que
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. La ligne FH eſt ＝ à la donnée C.
 
 Or le côté EH étant ＝ à la donnée A (*Arg.* 3), le côté FH ＝ à la donnée C (*Arg.* 4), & enfin le côté FE ＝ à la donnée B (*Reſ.* 2).
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Il eſt évident, que les trois côtés EH, FE, FH du △ FHE, que l'on vient de conſtruire, ſont ＝ aux trois droites données A, B, C.
 

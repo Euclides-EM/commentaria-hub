@@ -21,15 +21,11 @@
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. De la droite AB décrivez un quarré BC.
 
 [Margin]
 Prop. 46. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Appliquez au côté CA, un Pgr CD ⚌ au quarré BC, dont l'excès AD ſoit ſembláble à BC; qui ſera par conſéquent un quarré.
 
@@ -41,8 +37,6 @@ Prop. 29. L. 6.
 
 {dropcap:P|lines=2|style=plain}Uis donc que BC ⚌ CD (*Reſ.* 2.); ſi l'on ôte le Rgle commun CE,
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Reſte BF ⚌ AD.
 
 [Margin]
@@ -50,8 +44,6 @@ Ax. 3. L. 1.
 [/Margin]
 
 Mais BF eſt auſſi équiangle avec AD (*Prop.* 15. *L.* 1);
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Leurs côtés FE, EB; ED, AE alentour des angles égaux, ſont donc réciproquement proportionels, c. à. d. FE : ED ⚌ AE : EB.
 
@@ -61,8 +53,6 @@ Prop. 14. L. 6.
 
 Or FE eſt ⚌ CA (*Prop.* 34. *L.* 1), ou ⚌ à BA, & ED ⚌ AE (*Def.* 30. *L.* 1).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. C'eſt pourquoi BA : AE ⚌ AE : EB.
 
 [Margin]
@@ -71,15 +61,11 @@ Pr. 7. & 11. L. 5.
 
 Mais parceque BA eſt > AE (*Ax.* 8. *L.* 1.),
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. La droite AE eſt > EB.
 
 [Margin]
 Prop. 14. L. 5.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant la droite AB eſt coupée en extrême & moyenne raiſon en E; tellement que AE en eſt le plus grand ſegment.
 
@@ -101,8 +87,6 @@ Prop. 11. L. 2.
 
 {dropcap:P|lines=2|style=plain}Uis donc que BA . BE eſt ⚌ au □ de AE (*Reſ.*),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. BA : AE ⚌ AE : BE.
 
 [Margin]
@@ -111,15 +95,11 @@ Prop. 17. L. 6.
 
 Et parceque BA eſt > AE (*Ax.* 8. *L.* 1.).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. La droite AE eſt > BE
 
 [Margin]
 Prop. 14. L. 5.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant la droite AB eſt coupée en extrême & moyenne raiſon en E.
 

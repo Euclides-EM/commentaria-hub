@@ -21,15 +21,11 @@
 
 ### *Réſolution.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. TIrez les diamêtres AD, BE, enſorte qu'ils ſe coupent à ⌊.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Joignez leurs extrêmités par les droites AB, BD, DE, EA.
 
@@ -41,8 +37,6 @@ Dem. 1.
 
 PUis donc que dans les △ ABC, DBC le côté AC eſt = à CD (*Reſ.* 1. & *Def.* 15. *L.* 1), BC commun aux deux △, & ∀ compris BCA = a ∀ compris BCD (*Reſ.* 1. & *Ax.* 10. *L.* 1),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La droite AB eſt = à BD.
 
 [Margin]
@@ -51,11 +45,7 @@ Prop. 4. L. 1.
 
 Par un raiſonnement ſemblable on démontrera, que
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. La droite BD eſt = à DE, DE = à EA & EA = à AB.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, les droites AB, BD, DE, EA ſont = entr'elles, ou le quadrilatère ABDE eſt équilatère.
 
@@ -65,15 +55,11 @@ Ax. 1. L. 1.
 
 Et à cauſe que chacun des ∀ ABD, BDE, DEA, BAE eſt placé dans un demi ⊙.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Ces ∀ ſeront des ⌊, & le quadrilatère équilatère ABDE eſt auſſi rectangulaire.
 
 [Margin]
 Prop. 31. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. C'eſt pourquoi ce quadrilatère eſt un quarré inſcrit dans le ⊙ ABDE.
 

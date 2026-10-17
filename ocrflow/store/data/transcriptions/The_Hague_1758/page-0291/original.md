@@ -5,15 +5,11 @@
 
 {dropcap:L|lines=2|style=plain}E Pgr KN étant donc égal & ſemblable au Pgr X (*Reſ.* 4, 5 & 6); qui eſt lui même ſemblable au Pgr ED (*Reſ.* 4),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le Pgr KN eſt ſemblable au Pgr ED.
 
 [Margin]
 Prop. 21. L. 6.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. C'eſt pourquoi ces deux Pgrs KN, ED, ſont alentour de la même diagonale. Tirez cette diagonale FGB, & achevez de décrire la figure.
 
@@ -23,15 +19,11 @@ Prop. 26. L. 6.
 
 Puis donc que le Pgr MI, eſt auſſi alentour de la même diagonale FB,
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Il eſt ſemblable au Pgr ED.
 
 [Margin]
 Prop. 24. L. 6.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent ſemblable au Pgr T (*Reſ.* 2.).
 
@@ -41,8 +33,6 @@ Prop. 21. L. 6.
 
 Or le Pgr DG étant ⚌ au Pgr EG (*Prop.* 43. *L.* 1), ſi l'on ajoute de part & d'autre ce Pgr commun MI,
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Le Pgr MD ſera ⚌ au Pgr EI.
 
 [Margin]
@@ -50,8 +40,6 @@ Ax. 2. L. 1.
 [/Margin]
 
 Mais le Pgr AK étant auſſi ⚌ au Pgr EI (*Prop.* 36. *L.* 1),
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Le Pgr MD eſt ⚌ au Pgr AK.
 
@@ -61,8 +49,6 @@ Ax. 1. L. 1.
 
 Et ajoutant de plus le Pgr commun EG, de part & d'autre,
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. Le Gnomon *abc* ſera ⚌ au Pgr AG.
 
 [Margin]
@@ -71,15 +57,11 @@ Ax. 2. L. 1.
 
 Or le Pgr ED étant ⚌ aux figures V & X priſes enſemble, (*Reſ.* 4) ou V & KN, puiſque X eſt ⚌ KN, (*Reſ.* 5 & 6); ſi l'on ôte le commun KN, de part & d'autre
 
-[Curated heading level=4 type=numbered_item: 8.]
-
 8. Reſte le Gnomon *abc* ⚌ à V.
 
 [Margin]
 Ax. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 9.]
 
 9. Partant le Pgr AG eſt ⚌ à V. (*Arg.* 7).
 
@@ -88,8 +70,6 @@ Ax. 1. L. 1.
 [/Margin]
 
 Or ce Pgr AG a pour défaut le Pgr MI, ſemblable au Pgr donné T (*Arg.* 4);
-
-[Curated heading level=4 type=numbered_item: 10.]
 
 10. On a donc appliqué ſelon AB, un Pgr AG ⚌ à V, défaillant d'un Pgr MI ſemblable au Pgr T.
 

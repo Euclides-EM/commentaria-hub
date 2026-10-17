@@ -22,19 +22,11 @@ La droite AH abaiſſez du point A, ⊥ ſur le Plan ZX.
 
 ### Reſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=2|style=plain}Ans le Plan ZX tiréz à volonté la droite BC.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point A abaiſſez ſur BC la ⊥ AD.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Au point D dans le Plan ZX élevéz la ⊥ DG ſur BC.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Du point A abaiſſez ſur DG la ⊥ AH.
 
@@ -56,26 +48,16 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la droite BC eſt ⊥ ſur DA & DG (*Reſ.* 2. & 3.).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Elle ſera ⊥ ſur le Plan qui paſſe par ces lignes.
 Mais FE eſt Plle à BC. (*Prép.*).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc FE eſt auſſi ⊥ ſur ce même Plan qui paſſe par DG & DA.
 Or AH eſt dans le même Plan que DA & DG (*Prop.* 2. *L.* 11.) & touche FE en H. (*Reſ.* 4. & *Prép.*).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc ∀ FHA eſt ⌐.
 Et d'autant que ∀ AHD eſt un ⌐. (*Reſ.* 4.).
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. AH eſt ⊥ ſur deux lignes FE & DG ſituées dans le Plan ZX & qui ſe coupent en H.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Donc AH eſt ⊥ ſur le Plan ZX.
 

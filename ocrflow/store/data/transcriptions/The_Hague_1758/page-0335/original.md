@@ -21,55 +21,31 @@ Les plans oppoſés BD, CF, Item BE & FG, Item AF & BH ſont des Pgr. égaux & �
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:T|lines=2|style=plain}Iréz les diagonales oppoſés EH & AG. Item AC & DH.
 
 ### DEMONSTRATION.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Plans Plle BD & CF ſont coupéz par le Plan ABCE.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La ligne BA eſt Plle à EC.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. De la même manière CH eſt Plle à GB. Et les même Plans Plle BD & CF étant auſſi coupés par le Plan DGHF.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. La ligne DG ſera Plle à FH.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. De même AE eſt Plle à BC & DF Plle à GH. Et puiſque ces lignes Plles (*Arg*. 1. 2. & 4.) ſont les oppoſés des quadrilatères AE CB & DF HG.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Ces quadrilatères AE CB & DF HG ſont des Paralelogrammes.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. De la même façon les autres Plans oppoſés BD & CF, Item AF & BH ſont des Paralelogrammes. Et comme AB & BG ſont Plle à EC & CH, chacun à chacun. (*Arg*. 1. & 2.)
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. ∀ ABG eſt = ∀ ECH. Or AB eſt = à EC & BG = CH.
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Donc le △ ABG eſt = & ∽ au △ ECH. Mais le Pgr. BD eſt le double du △ ABG (*Prop*. 41. L. 1.). Et le Pgr. CF le double du △ ECH. Or ces Pgr. ont chacun un ∀ commun avec les △ équiangles.
 
-[Curated heading level=4 type=numbered_item: 9.]
-
 9. Partant les Pgr. BD & CF ſont égaux & ∽.
 
-[Curated heading level=4 type=numbered_item: 10.]
-
 10. De la même manière on demontrera que le Pgr. BD eſt = & ∽ Pgr. CF, & Pgr. AF = & ∽ Pgr. BH.
-
-[Curated heading level=4 type=numbered_item: 11.]
 
 11. Donc les Plans oppoſés d'un ⏥ ſont des Pgr. ∽ & égaux.
 

@@ -24,23 +24,17 @@ L'angle ABC compris des côtés AB, BC eſt ⌐.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=2|style=plain}U point B, ſur la droite BA, élevez la perpendiculaire BH.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Faites BH ⚌ BC.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Du point H au point A tirez la droite HA.
 
@@ -52,8 +46,6 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque BH eſt ⚌ à BC (*Prep.* 2).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le □ de BH ſera ⚌ au □ de BC.
 
 [Margin]
@@ -61,8 +53,6 @@ Prop. 46. L. 1. Coroll. 3.
 [/Margin]
 
 Si on ajoute de part & d'autre le □ de AB.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les □ de AB & BH ſeront ⚌ aux □ de AB & BC pris enſemble.
 
@@ -72,8 +62,6 @@ Ax. 2.
 
 Mais le △ HBA étant Rgle en B (*Prep.* 1).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Il s'enſuit, que le □ de HA eſt ⚌ aux □ de AB & BH.
 
 [Margin]
@@ -82,15 +70,11 @@ Prop. 47. L. 1.
 
 Puis donc que le □ de CA eſt ⚌ aux □ de AB & BC (*Hyp.* 1), le □ de HA ⚌ aux □ de AB & BH (*Arg.* 3) & que les □ de AB & BH ſont ⚌ aux □ de AB & BC (*Arg.* 2).
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Il faut néceſſairement, que le □ de CA ſoit ⚌ au □ de HA.
 
 [Margin]
 Ax. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant, CA eſt ⚌ à HA.
 
@@ -100,8 +84,6 @@ Prop. 46. L. 1. Coroll. 3.
 
 Or dans les △ CBA, HBA le côté CA eſt ⚌ au côté HA (*Arg.* 5), AB eſt commun aux deux △ & la baſe BC eſt ⚌ à la baſe BH (*Prep.* 2).
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Par conſéquent, les ∀ ABC, ABH, compris par les côtés égaux AB, BC & AB, BH, ſont ⚌ entr'eux.
 
 [Margin]
@@ -109,8 +91,6 @@ Prop. 8. L. 1.
 [/Margin]
 
 Mais l'angle ABH eſt un ⌐ (*Prep.* 1).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Partant l'angle ABC ſera auſſi droit.
 

@@ -30,8 +30,6 @@ Dem. 2.
 
 {dropcap:P|lines=2|style=plain}Uiſque ∀ ACD eſt un ∀ extérieur du △ BAC.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Il eſt ⟩ que ſon intérieur oppoſé ABC.
 
 [Margin]
@@ -39,8 +37,6 @@ Prop. 16. L. 1.
 [/Margin]
 
 Puis donc que ∀ ACD eſt ⟩ ∀ ABC; ſi on ajoute de part & d'autre ∀ ACB,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les ∀ ACD ┼ ACB ſeront ⟩ que les ∀ ABC ┼ ACB.
 
@@ -50,8 +46,6 @@ Ax. 4.
 
 Mais les ∀ ACD ┼ ACB ſont des ∀ contigus, formés par la droite AC, qui tombe ſur BD (*Prep*).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Par conſéquent, ces ∀ ACD ┼ ACB ſont ═ à deux ∟.
 
 [Margin]
@@ -59,8 +53,6 @@ Prop. 13. L. 1.
 [/Margin]
 
 Or les ∀ ACD ┼ ACB étant ═ à deux ∟ (*Arg.* 3) & ces mêmes ∀ étant ⟩ que les ∀ ABC ┼ ACB (*Arg.* 2).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Il s'enſuit que les ∀ ABC ┼ ACB ſont ⟨ deux ∟.
 

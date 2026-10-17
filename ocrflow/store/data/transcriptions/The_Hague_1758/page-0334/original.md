@@ -7,27 +7,15 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque PO eſt ⊥ ſur le Plan du ⊙ LMN. (Reſ. 6.).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le △ POL ſera Rectangle en O, (Reſ. 5. & 8.).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant le □ ſur PO + le □ ſur OL eſt = au □ ſur LP. Mais ces quarrez ſur PO & LO ſont = □ AB. (Reſ. 7.).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc □ AB eſt = au □ LP & AB = LP.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. De la même maniére PN & PM ſont chacun = à AB. Or NM eſt à = GI, NL = AC, & LM = DF. (Reſ. 3.)
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Partant △ NMP eſt = au △ GHI, △ NPL = △ ABC, △ LPM = △ DEF. ∀ NPM = H, ∀ LPN = B, & ∀ LPM = ∀ E. Mais ces trois ∀ NPM, LPN & LPM forment ∀ ſolide P.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Donc on a conſtruit un ∀ ſolide P, des trois donnés B, E & H.
 

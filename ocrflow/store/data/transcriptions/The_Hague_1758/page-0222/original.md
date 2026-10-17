@@ -23,20 +23,12 @@ B : D = A + B : C + D.
 
 {dropcap:P|lines=2|style=plain}Uiſque A + B : C + D = A : C. (*Hyp.*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Donc alternando A + B : A = C + D : C.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Puis dividendo B : A = D : C.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Et alternant de nouveau B : D = A : C.
 Mais d'autant que A + B : C + D = A : C. (*Hyp.*).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Il ſuit que B : D = A + B : C + D.
 

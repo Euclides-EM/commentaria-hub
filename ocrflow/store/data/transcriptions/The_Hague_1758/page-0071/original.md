@@ -26,21 +26,15 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque AD eſt un Pgr, dont BC eſt la diagonale (*Hyp.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Cette diagonale partage le Pgr en deux également.
 
 [Margin]
 Prop. 34. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant, le △ CAB eſt ＝ au △ BDC.
 
 De même; EI étant un Pgr, dont BF eſt la diagonale (*Hyp.* 2).
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Elle partage auſſi le Pgr en deux également.
 
@@ -48,13 +42,9 @@ De même; EI étant un Pgr, dont BF eſt la diagonale (*Hyp.* 2).
 Prop. 34. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. C'eſt pourquoi, le △ FEB eſt ＝ au △ BIF.
 
 Enfin, HG eſt un Pgr, dont FC eſt la diagonale (*Hyp.* 2),
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Qui par conſéquent, le partage auſſi en deux également.
 
@@ -62,13 +52,9 @@ Enfin, HG eſt un Pgr, dont FC eſt la diagonale (*Hyp.* 2),
 Prop. 34. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Partant, le △ CHF eſt ＝ au △ FGC.
 
 Puis donc que le △ FEB eſt ＝ au △ BIF (*Arg.* 4) & le △ CHF ＝ au △ FGC (*Arg.* 6).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Le △ FEB avec le △ CHF eſt ＝ aux △ BIF & FGC pris enſemble.
 
@@ -77,8 +63,6 @@ Ax. 2.
 [/Margin]
 
 Mais les △ entiers CAB, BDC étant ＝ entr'eux (*Arg.* 2); ſi on retranche de part & d'autre les △ FEB ＋ CHF & les △ BIF ＋ FGC qui leurs ſont égaux (*Arg.* 7).
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Les Pgrs reſtans AF, FD, qui ſont les complémens des Pgrs HG, EI, ſeront auſſi ＝ entr'eux.
 

@@ -23,11 +23,7 @@ aM : cN : = aO : cP.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Prenez RaM, RaO équimultiples de aM & de aO.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. De même ScN, ScP équimultiples de cN & de cP.
 
@@ -39,21 +35,15 @@ Dem. 1. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uis donc que aM eſt autant multiple de M, que aO l'eſt de O (Hyp. 2), & que les grandeurs RaM, RaO ſont des équimultiples des grandeurs aM, aO (Prep. 1),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La grandeur RaM eſt autant multiple de M, que la grandeur RaO l'eſt de O.
 
 [Margin]
 Prop. 3. L. 5.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Par la même raiſon; la grandeur ScN eſt autant multiple de N, que ScP l'eſt de P.
 
 Et d'autant que M : N = O : P (Hyp. 1), & que RaM, RaO ſont des équimultiples quelconques du I terme M & du III O; & ScN, ScP des équimultiples quelconques du II terme N & du IV P (Arg. 1 & 2),
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Si RaM eſt >, = ou < ScN, pareillement RaO ſera >, = ou < ScP.
 
@@ -62,8 +52,6 @@ Def. 5. L. 5.
 [/Margin]
 
 Mais les grandeurs RaM & RaO ſont des équimultiples quelconques des grandeurs aM & aO, & les grandeurs ScN, ScP des équimultiples quelconques des grandeurs cN, & cP (Prep. 1 & 2).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant, la raiſon, de aM à cN eſt égale à la raiſon de aO à cP; ou aM : cN = aO : cP.
 

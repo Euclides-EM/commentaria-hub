@@ -9,19 +9,11 @@ SUR CETTE NOUVELLE EDITION.
 
 Il ſeroit donc inutile de chercher à aſſurer à EUCLIDE, une ſupériorité que perſonne ne lui diſpute. Notre unique but doit être d'indiquer ici les avantages de cette nouvelle Edition ſur celles qui l'ont précedée.
 
-[Curated heading level=2 type=numbered_item: 1.]
-
 1°. On a conſervé, avec toute l'attention poſſible, toutes les Propoſitions & les Démonſtrations d'EUCLIDE, qu'on a laiſſées dans le même ordre où elles ſe trouvent dans les meilleures Editions.
-
-[Curated heading level=2 type=numbered_item: 2.]
 
 2°. Comme ce fameux Géometre avoit l'eſprit Philoſophique & que tous ſes raiſonnemens ſe ſuivent, on en a conſervé, autant qu'il a été poſſible, la forme, la liaiſon & toute l'exactitude.
 
-[Curated heading level=2 type=numbered_item: 3.]
-
 3°. Après avoir expoſé, avec toute la clarté & la preciſion poſſible, les parties eſſentielles de ſes Propoſitions, on a développé le ſens de ſes raiſonnemens, & on l'a expoſé dans un ſi beau jour, que l'œil tant ſoit peu attentif peut l'appercevoir. Pour rendre ces Elemens encore plus faciles, on a diſtingué en pluſieurs Articles ſeparés, les différentes opérations & les raiſonnemens eſſentiels à une bonne Démonſtration.
-
-[Curated heading level=2 type=numbered_item: 4.]
 
 4°. Pour faire quelques progrès dans l'etude des Mathématiques, il faut s'appliquer à découvrir la liaiſon & le rapport qu'il y a entre les Propoſitions; ſe former une juſte idée du nombre & des qualités des argumens qui ſervent à etablir une nouvelle vérité; connoître, en un mot, toutes les parties intrinſeques d'une Démonſtration.
 

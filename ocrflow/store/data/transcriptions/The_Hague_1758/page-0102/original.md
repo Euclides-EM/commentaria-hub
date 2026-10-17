@@ -22,17 +22,11 @@
 
 PUiſque la droite CD eſt coupée en deux parties quelconques CA, AD (*Hyp.* 2).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le □ de CD eſt = au double Rgle CA.AD & aux □ de CA & de AD pris enſemble.
 Si on ajoute donc de part & d'autre le □ de BD.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Le □ de CD + le □ de BD ſera = au double Rgle CA.AD + au □ de CA + au □ de AD + au □ de BD.
 Mais le □ de CD avec le □ de BD eſt = au □ de BC, & le □ de AD avec le □ de BD eſt = au □ de AB (*Prop.* 47. *L.* 1).
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Par conſéquent, le □ de BC eſt = au double Rgle de CAD + au □ de CA + au □ de AB.
 

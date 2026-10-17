@@ -38,11 +38,7 @@ Dem. 1.
 
 {dropcap:D|lines=2|style=plain}Ans les △ AEF, BEF, le côté EA eſt = au côté EB (*Prep*. & *Def*. 15. *L*. 1), le côté EF eſt commun aux deux △, & la baſe AF = a la baſe BF (*Hyp*.).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Par conſéquent, les ∀ contigus *m* & *n*, oppoſés aux côtés égaux EA, EB, ſont = entr'eux.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant, la droite CD, qui forme ſur AB des ∀ contigus *m* & *n* = entr'eux, eſt ⊥ ſur AB.
 
@@ -71,12 +67,8 @@ Def. 10. L. 1.
 
 {dropcap:L|lines=2|style=plain}Es côtés EA, EB du △ AEB étant = entr'eux (*Prep*. & *Def*. 15. *L*. 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les ∀ EAF, EBF le ſeront auſſi.
 Puis donc que dans les △ AEF, BEF, les ∀ EAF, EBF ſont = (*Arg*. 1), de même que les ∀ *m* & *n* (*Hyp*.), & le côté EF commun aux deux △.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. La baſe AF ſera = à la baſe FB.
 

@@ -32,26 +32,16 @@ SOit Z < que le cone HMK d'une grandeur = X, *c. a. d.* que le cone HMK eſt = Z
 
 ### I. Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=2|style=plain}Ans le ⊙ GHIK qui eſt la baze du cone HMK; inſcrivez le □ GHIK.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Diviſez le cone en pyamides{printer-error-correction:pyramides} partielles, (*comme dans la Prép. de la II. Suppoſition de la précedente.*).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Tirez dans les bazes des deux cones EFB & HMK, les diamètres EB & HK.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Dans le ⊙ EABD baze du cone EFB, inſcrivez un polygone ∽ au polygone H*h*G*g*KL*li*H, & diviſez le comme le cone HMK.
 
 {dropcap:P|lines=2|style=plain}Uis qu'on a diviſé le cone HMK en pyramide partielles (*Prép.* 2.).
 Si on retranchoit de ce cone ces pyramides partielles (ainſi qu'on a fait dans *Arg.* 13. de la précedente).
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. On parviendroit à avoir des élemens dont la ſomme ſeroit < X.
 Si donc on retranche ces élemens du cone HMK, & des grandeurs Z + X, la grandeur X.

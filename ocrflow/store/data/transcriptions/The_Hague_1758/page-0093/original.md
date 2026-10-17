@@ -22,23 +22,13 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:S|lines=2|style=plain}Ur la droite BE conſtruiſez le □ BN.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par le point C, tirez la droite CL Plle à EN ou BK.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Tirez la Diagonale EK, qui coupera CL quelque part en G.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Par le point G, tirez FH Plle à EB ou NK,
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Et par le point A, la droite AI Plle à BK, qui coupera le prolongement de FH quelque part en I.
 
@@ -53,39 +43,21 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure BN eſt un quarré (*Prep.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les Rgles CF, HL, alentour de la diagonale, ſont des quarrés. Et à cauſe que HG eſt = à BC (*Prop.* 34. *L.* 1).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Le □ HL eſt = au □ de BC. De plus AB étant = à BC. (*Hyp.* 1).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Le Rgle AH eſt = au Rgle BG. Mais le Rgle BG eſt = au Rgle GN. (*Prop.* 43. *L.* 1).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Le Rgle AH eſt donc auſſi = au Rgle GN. Et ſi on ajoute de part & d'autre le Rgle BF;
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Le Rgle entier AF ſera = aux Rgles GN & BF pris enſemble; c. à. d. au Gnomon *abc*.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Mais ce Rgle AF eſt compris des droites AE, EC; parceque EC = EF (*Arg.* 1).
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. C'eſt pourquoi le Rgle AE . EC eſt auſſi = au Gnomon *abc*. Si on ajoute donc de part & d'autre le □ HL; qui n'eſt autre choſe que le □ de BC (*Arg.* 2);
 
-[Curated heading level=4 type=numbered_item: 8.]
-
 8. Le Rgle AE . EC avec le □ de BC ſera = au Gnomon *abc* avec le □ HL. Mais le Gnomon *abc* & le □ HL forment le □ BN, ou le □ de BE (*Prep.* 1).
-
-[Curated heading level=4 type=numbered_item: 9.]
 
 9. Partant, le Rgle AEC + le □ de BC eſt = au □ de BE.
 

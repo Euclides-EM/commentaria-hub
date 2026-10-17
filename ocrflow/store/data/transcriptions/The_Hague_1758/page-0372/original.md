@@ -27,8 +27,6 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque les pyramides ABCD & EFGH ont des hauteurs égales & que les priſmes LB, LC, RF & RG ont chacun la moitié de cette hauteur. (*Hyp. 1. & Prop. 3. L. 12.*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ces priſmes LB, LC, RF & RG ont la même hauteur.
 
 [Margin]

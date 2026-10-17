@@ -21,15 +21,11 @@
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:C|lines=2|style=plain}Onſtruiſez un △ équilatéral N.
 
 [Margin]
 Prop. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Inſcrivez dans le ⊙ EBI un △ ABD équiangle au △ équilatéral N.
 
@@ -37,15 +33,11 @@ Prop. 1. L. 1.
 Prop. 2. L. 4.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Et un pentagone équilatéral & équiangle EGBHI.
 
 [Margin]
 Prop. 11. L. 4.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Tirez la corde AE, & appliquez la 15 fois de ſuite, dans le ⊙ EBI.
 
@@ -57,15 +49,11 @@ Prop. 1. L. 4.
 
 {dropcap:P|lines=2|style=plain}Uiſque le △ ABD eſt équiangle à un △ équilatéral N (*Reſ. 2*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ce △ eſt auſſi équilatéral, ou AD eſt = à AB = à BD,
 
 [Margin]
 Prop. 6. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et les arcs AD, AB, BD ſont = entr'eux, ou chacun eſt la troiſième partie de la ○ entiere.
 
@@ -75,8 +63,6 @@ Prop. 28. L. 3.
 
 Derechef, à cauſe que le pentagone EGBHI eſt équilatéral, (*Reſ. 3*).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Chacun des arcs EG, GB, BH, HI, IE eſt la cinquieme partie de la ○ entiere.
 
 [Margin]
@@ -85,11 +71,7 @@ Prop. 28. L. 3.
 
 Mais l'arc AB étant la troiſième partie (*Arg. 2*), & l'arc EG ou GB chacun la cinquième partie de la ○ (*Arg. 3*).
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. On peut appliquer dans l'arc AB cinq côtés du quindécagone, & dans chacun des arcs EG, GB trois côtés du quindécagone, ou dans l'arc EGB ſix côtés du quindécagone.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant, on pourra appliquer un de ces côtés dans l'arc AE, & le quindécagone équilatéral EAFG &c. ſera inſcrit au ⊙ EBI.
 
@@ -99,15 +81,11 @@ Def. 3. L 4.
 
 De plus, puiſque chacun de ſes ∀ FAE s'appuye ſur un arc FHE qui eſt = à treize quinziemes parties de la circonférence,
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Ces angles ſeront tous = entr'eux.
 
 [Margin]
 Prop. 27. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. On a donc inſcrit dans le ⊙ EBI, un quindécagone EAFG, équilatéral & équiangle.
 

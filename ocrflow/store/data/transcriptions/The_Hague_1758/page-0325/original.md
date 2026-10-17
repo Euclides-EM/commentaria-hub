@@ -35,19 +35,11 @@ Dem. 2. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites BAF & DCF, ſe rencontrent en F.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les Plans PY & ZX, dans leſquels ces lignes ſe trouvent, ſe reconcontreront{printer-error-correction:rencontreront} auſſi: (Puiſque BAF eſt entierement dans le Plan PY, & DCF entièrement dans le Plan ZX).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Ce qui eſt impoſſible. (*Hyp.* 1.)
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant AB & CD ne ſe rencontrent point.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc AB & CD ſont paralleles.
 

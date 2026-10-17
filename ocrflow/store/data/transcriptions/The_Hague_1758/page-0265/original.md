@@ -5,15 +5,9 @@ CAS II. Si les ∀ C & F ſont l'un & l'autre obtus.
 
 {dropcap:P|lines=2|style=plain}Ar le même raiſonnement (*Arg.* 1. *juſqu'à* 5) du premier Cas, on prouvera que
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. L'angle C eſt ═ à ∀ *m*.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Donc ∀ *m* eſt auſſi ⟩ L, & les ∀ C ┼ *m* ſeront ⟩ 2 L; ce qui eſt impoſſible.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, les ∀ BAC & D ſont ═ entr'eux, & le troiſième ∀ C eſt ═ à ∀ F, ou les △ ABC, DEF ſont équiangles.
 

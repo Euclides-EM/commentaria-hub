@@ -22,11 +22,7 @@ AB eſt Plle CD.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=2|style=plain}'Un point H de la ligne AB dans le Plan FS abaiſſez une ⊥ HG ſur EF.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du Point G dans le Plan RF abaiſſez la ⊥ GK ſur CD.
 
@@ -38,21 +34,13 @@ Prop. 11. L. 1:
 
 {dropcap:P|lines=2|style=plain}Uiſque EG ou EF eſt ⊥ ſur GH & GK (*Prép.* 1. & 2.)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. EG ſera ⊥ ſur le Plan qui paſſe par ces lignes.
 Or AB eſt Plle EF (*Hyp.* 2.)
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Donc AB eſt ⊥ ſur le Plan qui paſſe par ces lignes HG & GK.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. De la même manière CD eſt auſſi ⊥ ſur ce même Plan.
 Les lignes AB & CD étant donc ⊥ ſur un même Plan. (*Arg.* 2 & 3.).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Elles ſont paralleles entr'elles.
 

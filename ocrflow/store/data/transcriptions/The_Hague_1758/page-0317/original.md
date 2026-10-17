@@ -22,19 +22,11 @@ CD eſt ⊥ ſur le même Plan ZX.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:J|lines=2|style=plain}Oignez les points B & D dans le Plan ZX.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Sur BD au point D, dans le Plan ZX, élevéz la ⊥ DE.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Faites DE = AB.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Tiréz AD, AE & BE.
 
@@ -49,48 +41,28 @@ Dem. 1. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque BD eſt dans le Plan XZ, & que AB eſt ⊥ ſur ce Plan (*Hyp.* 11.)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. ∀ ABD eſt ∟.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant ∀ BDC eſt auſſi ∟.
 Or ∀ BDE eſt ∟, DE eſt = AB (*Prép.* 2. & 3.) & BD étant commun aux deux △ ABD & BDE.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. La baze AD eſt égal à la baze BE.
 Dans les deux △ ADE & ABE, AB eſt = DE (*Prép.* 3.) AD = BE (*Arg.* 3.) & AE commun.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant ∀ ABE = ∀ ADE.
 Or ∀ ABE eſt ∟.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Donc ∀ ADE eſt auſſi ∟.
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Partant DE eſt ⊥ ſur BD & AD. (*Prép.* 2. & *Arg.* 5.).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. C'eſt pourquoi DE eſt auſſi ⊥ ſur le Plan paſſant. par ces lignes BD & AD.
 Mais AD joint deux points A & D pris dans AB & CD, qui ſont parallele (*par Hyp.* 1.).
 
-[Curated heading level=4 type=numbered_item: 8.]
-
 8. Donc CD eſt dans le même Plan avec AB & AD.
-
-[Curated heading level=4 type=numbered_item: 9.]
 
 9. Partant DE eſt ⊥ ſur DC, ou DC ⊥ ſur DE.
 Puis donc que CD eſt ⊥ ſur DB & ED. (*Arg.* 2. & 9.)
-
-[Curated heading level=4 type=numbered_item: 10.]
 
 10. CD ſera auſſi ⊥ ſur le Plan paſſant par ces lignes (*c. a. d.*) ſur le Plan ZX.
 

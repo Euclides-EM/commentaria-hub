@@ -9,7 +9,7 @@
 
 *La raiſon de* 7 : 3 *eſt* > *la raiſon de* 7 : 4 *parceque ſept tiers eſt une plus grande quantité que ſept quarts.*
 
-[Curated heading level=4 type=numbered_item: §. 12.]
+[Curated heading level=4: §. 12.]
 
 §. 12. *Deux raiſons égales s'appellent une* proportion. *Selon Mr. Leibntiz on l'exprime au moyen du ſigne d'égalité, de cette maniere*
 
@@ -17,7 +17,7 @@
 
 *Caractériſtique qu'on peut énoncer,* la raiſon de 6 à 2 eſt égale à la raiſon de 24 à 8; *ou bien,* 6 eſt à 2 comme 24 eſt à 8 *Et puiſque* 6 : 2 *repréſente auſſi une fraction, la même expreſſion peut-être expliquée ainſi.* L'expoſant (6 diviſé par 2) de la premiere raiſon eſt égal à l'expoſant (24 diviſé par 8) *de la ſeconde raiſon.*
 
-[Curated heading level=4 type=numbered_item: §. 13.]
+[Curated heading level=4: §. 13.]
 
 §. 13. *On nomme* ſemblables *des ſujets dont les déterminations intrinſeques ſont les mêmes, autant qu'il eſt poſſible d'en juger par ce qu'on trouve dans le ſujet même, ſans employer des moyens de comparaiſon externes.*
 

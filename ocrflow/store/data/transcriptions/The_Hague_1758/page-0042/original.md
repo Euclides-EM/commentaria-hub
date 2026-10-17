@@ -24,15 +24,11 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:P|lines=2|style=plain}Artagez CB en deux également au point D (*Fig.* 1).
 
 [Margin]
 P. 10. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Du point A au point D tirez la ligne AD & prolongez la indéfiniment en E.
 
@@ -40,15 +36,11 @@ P. 10. L. 1.
 Dem. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Faites DE ═ DA.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Du point B au point E tirez la droite BE.
 
@@ -60,8 +52,6 @@ Dem. 1.
 
 {dropcap:L|lines=2|style=plain}Es droites AE, BC (*Fig.* 1) s'entre-coupent au point D. (*Prep.* 2).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Par conſéquent, les ∀ oppoſés au ſommet CDA, BDE ſont ═ entr'eux.
 
 [Margin]
@@ -69,8 +59,6 @@ Prop. 15. L. 1.
 [/Margin]
 
 Puis donc que dans les △ ACD, DEB, le côté CD eſt ═ au côté DB (*Pr.* 1), AD ═ DE (*Prep.* 3) & ∀ compris CDA eſt ═ à ∀ compris BDE. (*Arg.* 1).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Il ſuit que les autres ∀ ſont ═ aux autres ∀, chacun à chacun de ceux qui ſont oppoſés à des côtés égaux.
 
@@ -80,21 +68,15 @@ Prop. 4. L. 1.
 
 Or les ∀ ACD, DBE ſont oppoſés aux côtés égaux AD, DE (*Prep.* 3).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc ∀ ACD eſt ═ à ∀ DBE.
 
 Or ∀ CBF étant le tout, & ∀ DBE ſa partie.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Il s'enſuit que ∀ CBF > ∀ DBE.
 
 [Margin]
 Ax. 8.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant, ∀ extérieur CBF eſt auſſi > ∀ intérieur ACB.
 
@@ -104,8 +86,6 @@ N. C.
 
 De la même maniere, en partageant le côté AB en deux également, au point D (*Fig.* 2), on prouvera par un raiſonnement ſemblable,
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Que ∀ extérieur ABf eſt > ∀ intérieur CAB.
 
 Mais cet ∀ ABf eſt oppoſé au ſommet à ∀ CBF.
@@ -114,15 +94,11 @@ Mais cet ∀ ABf eſt oppoſé au ſommet à ∀ CBF.
 Prop. 15. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. D'où il ſuit que ∀ ABf ═ ∀ CBF.
 
 [Margin]
 N. C.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Partant, il eſt encore vrai que ∀ extérieur CBF > ∀ intérieur CAB.
 

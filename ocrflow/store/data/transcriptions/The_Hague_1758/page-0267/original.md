@@ -21,19 +21,11 @@
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Tirez du point A une droite indéfinie AC, qui forme avec AB un angle quelconque BAC.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Prenez ſur AC trois parties égales AE, EF, FC de longueur arbitraire.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Joignez CB.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Et par E, tirez ED Plle à CB, qui coupera la droite AB de manière que AD en ſera la troiſième partie.
 
@@ -48,20 +40,12 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque ED eſt Plle au côté CB du △ CAB (*Prep.{printer-error-correction:Prop.}* 4),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. CE : EA ═ BD : DA.
 Or CE eſt double de EA (*Ref.{printer-error-correction:Reſ.}* 2);
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant BD eſt auſſi double de DA.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Par conſéquent AB eſt triple de AD.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. La droite retranchée AD eſt donc la troiſième partie de AB.
 

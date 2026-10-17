@@ -22,19 +22,11 @@
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Tirez la corde AB.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Coupez la en deux également au point D.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Du point D élevez ſur AB, la ⊥ DC, & prolongez la en E.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Coupez la droite CE en deux également au point F; Ce point F ſera le centre cherché du ⊙ donné ACBE.
 
@@ -55,19 +47,11 @@ Suppoſé, que le centre ſe trouve dans la ligne EC, en un point H différent d
 
 {dropcap:P|lines=2|style=plain}Uiſque le centre du ⊙ eſt dans la ligne EC, en un point H différent du point F (*Sup*. 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les rayons HE & HC ſont = entr'eux. Mais FE étant = à FC (*Reſ*. 4) & HC < FC (*Ax*. 8. *L*. 1).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. HC ſera auſſi < FE, & à plus forte raiſon < HE.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant, HE n'eſt point = à HC.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Le point H pris dans la ligne EC, différent du point F, ne peut donc être le centre du ⊙ ACBE.
 

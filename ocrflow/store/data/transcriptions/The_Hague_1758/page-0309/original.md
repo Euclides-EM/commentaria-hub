@@ -26,21 +26,15 @@ Elle ſera hors du Plan comme eſt BD.
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. SUr AB au point B elevéz dans le Plan ZX la ⊥ GB.
 
 [Margin]
 Prop. 11. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Sur BG au même point B dans le Plan ZX elevéz la ⊥ BC.
 
 {dropcap:P|lines=2|style=plain}Uiſque ∀ ABG eſt un ⌐, de même que ∀ GBC & qu'ils concourent dans le même point B.
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. Les lignes AB & BC font une même droite AC.
 
@@ -50,21 +44,13 @@ Prop. 14. L. 1.
 
 Cependant la ligne BD eſt une partie de la droite ſituée hors du Plan (*Sup.*).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Donc les lignes BD & BC ont une partie Commune AB.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Ce qui eſt impoſſible.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc BD ne peut-être une partie d'une droite avec AB (*Arg.* 1)
 
 Et comme la même demonſtration a lieu pour toutes les parties differentes de BC il s'enſuit.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Que toutes les parties d'une droite ſont dans le méme Plan.
 

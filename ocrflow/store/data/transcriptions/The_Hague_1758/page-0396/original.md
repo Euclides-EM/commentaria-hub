@@ -17,8 +17,6 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque les cylindres GPMK & ABDE, ont la même hauteur (*Prép.* 2.)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le cylindre GPMK : cylindre ABDE = baze GK : baze AE.
 
 [Margin]
@@ -26,8 +24,6 @@ Prop. 11. L. 12.
 [/Margin]
 
 Or la baze GK : baze AE = hauteur CF : hauteur LO (*Hyp.*).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant le cylindre GPMK : cylindre ABDE = hauteur CF : haut. LO.
 
@@ -37,8 +33,6 @@ Prop. 11. L. 5.
 
 De plus les cylindres GPMK & HIKG, ont la même baze.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc le cylindre GPMK : cylindre HIKG = hauteur LN : haut. LO.
 
 [Margin]
@@ -46,8 +40,6 @@ Prop. 14. L. 12.
 [/Margin]
 
 Mais la hauteur LN eſt = à la hauteur CF. (*Prép.* 1.).
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. D'où il ſuit que le cylindre GPMK : cylindre GHIK = hauteur CF : hauteur LO.
 
@@ -57,15 +49,11 @@ Prop. 7. L. 5.
 
 Cependant le cylindre GPMK : cylindre ABDE = hauteur CF : hauteur LO. (*Arg.* 2.).
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Donc le cylindre GPMK : cylindre ABDE = cylindre GPMK : cylindre GHIK.
 
 [Margin]
 Prop. 11. L. 5.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Et par conſequent le cylindre ABDE eſt = au cylindre GHIK.
 
@@ -82,8 +70,6 @@ Prop. 10. L. 12.
 [/Margin]
 
 Et ces cylindres étant égaux. (*Arg.* 6.).
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. Le cone ACE eſt = au cone GOK.
 

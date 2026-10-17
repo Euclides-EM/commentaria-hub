@@ -38,8 +38,6 @@ N. C.
 
 {dropcap:P|lines=2|style=plain}Uis donc que ∀ *m* ＜ ∀ *n*; ſi on ajoute de part & d'autre ∀ commun *p*.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les ∀ *m* ＋ *p* ſeront ＜ les ∀ *n* ＋ *p*.
 
 [Margin]
@@ -48,23 +46,17 @@ Ax. 4.
 
 Mais à cauſe que ∀ *n* & ∀ *p* ſont des ∀ contigus, formés par la droite EF, qui tombe ſur AB.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Ces ∀ *n* ＋ *p* ſont ＝ à deux ⌐.
 
 [Margin]
 Prop. 13. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant, les ∀ *m* ＋ *p* (moindres que les ∀ *n* ＋ *p*) ſont auſſi ＜ deux ⌐.
 
 [Margin]
 N. C.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. D'où il ſuit que les lignes AB, CD ne ſont pas Plles.
 
@@ -74,15 +66,11 @@ Corol. du Lem
 
 Mais les droites AB, CD ſont Plles (*Hyp.*).
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Par conſéquent, les ∀ *m* & *n* ne ſont point inégaux.
 
 [Margin]
 Prop. 27. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Ils ſont donc égaux, ou ∀ *n* ＝ ∀ *m*.
 
@@ -94,8 +82,6 @@ C. Q. F. D. I.
 
 De plus, ∀ *r* & ∀ *n* étant oppoſés au ſommet.
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. Ces angles ſont ＝ entr'eux.
 
 [Margin]
@@ -103,8 +89,6 @@ Prop. 15. L. 1.
 [/Margin]
 
 Mais ∀ *m* étant ＝ à ∀ *n* (*Arg.* 6) & ∀ *r* étant ＝ au même ∀ *n* (*Arg.* 7).
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Il s'enſuit, que ∀ *r* eſt ＝ à ∀ *m*.
 
@@ -116,8 +100,6 @@ C. Q. F. D. II.
 
 De même; ∀ *n* étant ＝ à ∀ *m* (*Arg.* 6); ſi on ajoute ∀ commun *p*.
 
-[Curated heading level=4 type=numbered_item: 9.]
-
 9. Les ∀ *n* ＋ *p* ſeront ＝ aux ∀ *m* ＋ *p*.
 
 [Margin]
@@ -125,8 +107,6 @@ Ax. 2.
 [/Margin]
 
 Mais les ∀ *n* ＋ *p* ſont ＝ à deux ⌐ (*Arg.* 2).
-
-[Curated heading level=4 type=numbered_item: 10.]
 
 10. D'où il ſuit que les ∀ *m* ＋ *p* ſont auſſi ＝ à deux ⌐.
 

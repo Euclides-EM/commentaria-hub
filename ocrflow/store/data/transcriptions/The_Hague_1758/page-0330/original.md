@@ -11,19 +11,11 @@ Lorſque les trois angles ſont inégaux, & que b + c eſt > que CAB ou d.
 ### Préparation.
 [/Subhead]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:A|lines=2|style=plain}Vec AC au point A faites ∀ b = ∀ CAB dans le Plan CAD.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Faites AE = AB.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Du point C par E tirez la droite CED
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Des points C & D tirez CB & BD.
 
@@ -36,24 +28,16 @@ Dem. 1. L. 1.
 {dropcap:L|lines=2|style=plain}Es △ BCA & CAE ont les cotés AB & AE égaux. (Prép. 2.)
 Le coté CA commun, & ∀ b = ∀ CAB (Prép. 1.).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Partant le coté BC eſt = au coté CE.
 Or dans le △ CBD * les cotés CB + BD ſont > CD.
 Si donc on retranche de CB + BD la partie CB, & de CD, la partie égale à CE.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Le reſte ſavoir BD, ſera > ED.
 Dans les △ BAD & EAD, les cotés AB & AE ſont égaux, (Prép. 2.) & AD commun.
 Mais la baze BD > que la baze ED. (Arg. 2.).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc ∀ d eſt > ∀ c.
 Si donc on ajoute d'un coté ∀ CAB, & de l'autre ſon égal b.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. ∀ CAB + d ſeront > ∀ b + c ou CAD.
 

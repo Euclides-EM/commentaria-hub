@@ -21,15 +21,9 @@
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Sur les extrémités A & C, des droites AB, CD, élevez les ⊥ AE, CF.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Faites AE ═ N, & CF ═ M.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Achevez les Rgles EB, FD.
 
@@ -43,20 +37,12 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uis donc que AB : CD ═ M : N (*Hyp.*) : & que M ═ CF & N ═ AE (*Prep.* 2),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. AB : CD ═ CF : AE.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les côtés des Rgles EB, FD, alentour des ∀ égaux A & C, (*Prep.* 1 & *Ax.* 10. *L.* 1) ſont donc réciproques.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Par conſéquent le Rgle EB ═ au Rgle FD, ou le Rgle ſous AB. AE ═ au Rgle ſous CD. CF.
 Partant AE étant ═ N & CF ═ M (*Prep.* 2),
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Le Rgle ſous AB. N eſt auſſi ═ au Rgle ſous CD. M.
 
@@ -82,17 +68,11 @@ C. Q. F.D. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque le Rgle AB. N eſt ═ au Rgle CD. M (*Hyp.*) : & que AE ═ N, & CF ═ M (*Prep.* 2),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le Rgle ſous AB. AE eſt ═ au Rgle ſous CD. CF.
 Or ces côtés environnant les ∀ égaux EAB, FCD (*Prep.* 1. & *Ax.* 10. *L.* 1).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. AB : CD ═ CF : AE.
 Et d'autant que CF ═ M & AE ═ N (*Prep.* 2),
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. AB : CD ═ M : N.
 

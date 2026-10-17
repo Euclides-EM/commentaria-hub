@@ -35,8 +35,6 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ CAD le côté CA eſt = au côté CD (*Def. 15. L. 1.*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. L’angle m eſt = à ∠ n & ∠ m + n double ∠ m.
 
 [Margin]
@@ -45,8 +43,6 @@ Ax. 2. L. 1.
 [/Margin]
 
 Mais ∠ o eſt = à ∠ m + n (*Prop. 32. L. 1.*).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc ∠ o eſt double de ∠ m ou ∠ BCD double de ∠ BAD.
 
@@ -70,11 +66,7 @@ Dem. 1.
 
 On prouvera, comme dans le premier Cas.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Que le ∠ o eſt double de ∠ m & ∠ p double ∠ n.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. D’où il ſuit que ∠ o + p eſt double de ∠ m+n, ou ∠ BCD double de ∠ BAD.
 
@@ -90,11 +82,7 @@ C. Q. F. D.
 
 En tirant le diametre ACE; on démontrera encore par un raiſonnement ſemblable à celui du premier Cas, que
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. L’angle p eſt double de ∠ n, & ∠ o + p double de ∠ m+n; En retranchant donc d’une part ∠ p, & de l’autre ∠ n,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. L’angle reſtant o ſera double de ∠ m ou ∠ BCD double de ∠ BAD.
 

@@ -9,27 +9,15 @@ Ax. 8. L. 1.
 Prop. 14. L. 5.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 10.]
-
 10. Donc le polygone ADFH : polygone ILOQ = ⊙ ACEG : T. Mais le polygone ADFH eſt < ⊙ ACEG.
-
-[Curated heading level=4 type=numbered_item: 11.]
 
 11. Partant le polygone ILOQ eſt < T. Or le polygone ILOQ eſt > que T. (*Arg. 9.*).
 
-[Curated heading level=4 type=numbered_item: 12.]
-
 12. Donc T ſeroit > & < que le polygone ILOQ. (*Arg. 9 & 11.*)
-
-[Curated heading level=4 type=numbered_item: 13.]
 
 13. Ce qui eſt impoſſible.
 
-[Curated heading level=4 type=numbered_item: 14.]
-
 14. Donc T n'eſt pas < que le cercle ILP.
-
-[Curated heading level=4 type=numbered_item: 15.]
 
 15. D'où il ſuit qu'il n'eſt pas poſſible que le quarré du diamêtre (AE) d'un cercle (ACEG), ſoit au quarré du diamêtre (IN) d'un autre cercle (ILP), comme le premier cercle (ACEG) à une grandeur moindre que le ſecond cercle (ILP.)*
 
@@ -48,15 +36,11 @@ Prop. 4. L. 5.
 Corol.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 16.]
-
 16. On aura *invert.* T : ⊙ ACEG = □ ſur IN : □ ſur AE. Or T : ⊙ ACEG = ⊙ ILP : V. (*II. Prép.*). De plus T eſt > ⊙ ILP. (*II. Sup.*).
 
 [Margin]
 Prop. 14. L. 5.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 17.]
 
 17. Partant le ⊙ ACEG eſt auſſi > V. De plus T : ⊙ ACEG = □ ſur IN : □ ſur AE (*Arg. 16.*). Et T : ⊙ ACEG = ⊙ ILP : V. (*II. Prép.*).
 
@@ -64,27 +48,17 @@ Prop. 14. L. 5.
 Prop. 11. L. 5.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 18.]
-
 18. Donc le □ ſur IN : □ ſur AE = ⊙ ILP : V. Mais V < ⊙ ACEG. (*Arg. 17.*). Et il eſt demontré (*Arg. 15.*) qu'il n'eſt pas poſſible que le quarré du diamêtre (IN) d'un cercle (ILP,) ſoit au quarré du diamêtre d'un autre cercle (ACEG); comme ce premier cercle (ILP) à une grandeur moindre que le ſecond (ACEG).
-
-[Curated heading level=4 type=numbered_item: 19.]
 
 19. Partant V n'eſt pas < que le cercle ILP.
 
-[Curated heading level=4 type=numbered_item: 20.]
-
 20. Donc T n'eſt pas > que le ⊙ ILP. l'Eſpace ou grandeur T n'étant donc ni < ni > que le cercle ILP. (*Arg. 14 & 19.*).
-
-[Curated heading level=4 type=numbered_item: 21.]
 
 21. T ſera égal à ce cercle ILP.
 
 [Margin]
 Prop. 7. L. 5.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 22.]
 
 22. Par conſequent le ⊙ ACEG : ⊙ ILP = □ ſur AE : □ ſur IN
 

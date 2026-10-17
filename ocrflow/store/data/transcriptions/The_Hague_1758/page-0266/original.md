@@ -24,29 +24,17 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque dans les deux △ Rgles ADB, ABC, l'angle *m* eſt ═ à ∀ ABC (*Ax.* 10. *L.* 1), & ∀ A commun aux deux △,
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. L'angle *o* eſt ═ à ∀ C, & les deux △ ABC, ADB ſont équiangles.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant ces deux △ ſont auſſi ſemblables.
 On démontrera par un même raiſonnement, que
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Le △ BDC eſt ſemblable au △ ABC.
 De même, dans les deux △ Rgles ADB, BDC l'angle *m* étant ═ à ∀ *n* (*Ax.* 10. *L.* 1), & ∀ *o* ═ à ∀ C (*Arg.* 1),
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. L'angle A eſt ═ à ∀ *p*, & les deux △ ADB, BDC ſont équiangles.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. D'où il ſuit que ces △ ſont ſemblables.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. La ⊥ BD partage donc le △ ABC en deux △ ADB, BDC ſemblables entr'eux (*Arg.* 5), & ſemblables chacun au △ total ABC (*Arg.* 2 & 3).
 

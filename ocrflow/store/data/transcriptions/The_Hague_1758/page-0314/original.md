@@ -31,34 +31,20 @@ Une de ces trois comme BE eſt dans un Plan different.
 
 {dropcap:P|lines=2|style=plain}Uiſque TP & ZX ſont des Plans differens qui ſe touchent en B.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ils ſe couperont étant prolongés, & leur commune Section ſera la droite BP commune aux deux Plans.
 Or AB eſt ⊥ ſur BD & BC. (*Hyp.* 11.).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Partant AB ſera auſſi ⊥ ſur le Plan ZX ou ces lignes ſe trouvent.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Donc AB eſt ⊥ ſur BP & ∀ ABP un angle ∟. (*Arg.* 1.).
 Mais ∀ ABE eſt ∟. (*Hyp.* 11.).
 Et BE eſt dans le même Plan avec AB & BP. (*Prép. & Arg.* 1.).
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Partant ∀ ABE = ∀ ABP *c. a. d.* la partie = au tout.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Ce qui eſt impoſſible.
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Donc BE n'eſt point dans un Plan different que BD & BC.
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Partant ces trois lignes ſont dans le même Plan ZX.
 

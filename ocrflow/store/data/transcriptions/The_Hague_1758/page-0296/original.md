@@ -27,15 +27,11 @@ III. *De manière que* AB *eſt* Plle *à* CD, & BC Plle *à* DE.
 
 {dropcap:P|lines=2|style=plain}Uiſque les Plles AB, CD ſont coupées par la droite BC, & les Plles BC, DE par la droite DC (*Hyp.* 2),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. L'angle B eſt ⚌ à ∀ BCD & ∀ D eſt auſſi ⚌ à ∀ BCD.
 
 [Margin]
 Prop. 29. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant ∀ B eſt ⚌ à ∀ D.
 
@@ -45,19 +41,13 @@ Ax. 1. L. 1.
 
 Et comme de plus AB : BC ⚌ CD : DE (*Hyp.* 1),
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Les △ ABC, CDE ſont équiangles.
 
 [Margin]
 Prop. 6. L. 6.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Donc l'angle A eſt ⚌ à ∀ DCE, comme oppoſés aux côtés homologues BC, DE. Ajoutant donc de part & d'autre ∀ B, ou ſon ⚌ ∀ BCD (*Arg.* 1), avec ∀ commun BCA,
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Les ∀ A + B + BCA ſeront ⚌ aux ∀ DCE + BCD + BCA.
 
@@ -67,15 +57,11 @@ Ax. 2. L. 1.
 
 Or les ∀ A + B + BCA ſont ⚌ à 2 Ⅼ (*Prop.* 32. *L.* 1),
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Par conſéquent les ∀ DCE + BCD + BCA ſont auſſi ⚌ à 2 Ⅼ.
 
 [Margin]
 Ax. 1. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. D'où il ſuit que les droites AC, CE ſe rencontrent directement, ou qu'elles ne forment qu'une même ligne droite AE.
 

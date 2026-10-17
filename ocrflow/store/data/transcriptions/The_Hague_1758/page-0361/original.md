@@ -1,15 +1,11 @@
 <!-- Running title: LIVRE ONZIEME. -->
 <!-- Page number: 349 -->
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Et par conſequent FD eſt = & Plle à HB.
 
 [Margin]
 Prop. 33. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. D'où il ſuit que FB & MS, ſont dans le même Plan FDBH.
 
@@ -23,8 +19,6 @@ Or dans les △ FMT, & TSB; les cotés FM & SB, ſont égaux. (parce que le △ 
 Prop. 15. L. 1.
 Prop. 29. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 8.]
 
 8. Donc MT = TS & FT = TB (*Prop,* 26. *L.* 1.), c. a. d. que la ligne de commune ſection des Plans KO & LR qui eſt MS, & le diametre du paralelipipéde qui eſt FB, ſe coupent mutuellement en deux au point T.
 

@@ -21,15 +21,9 @@ Tous les Plans (comme QE), paſſant par la ⊥ AB. ſont ⊥ ſur le Plan ZX.
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:F|lines=2|style=plain}Aites paſſer le Plan QE, par la ligne AB, qui coupera le Plan ZX en EF.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Prenez dans cette droite EF, un point D, à volonté.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. De ce point D, tiréz dans le Plan QE, la ligne DC Plle à AB.
 
@@ -42,19 +36,11 @@ Prop. 31. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque la droite AB eſt ⊥ ſur le Plan ZX, & que DC eſt Plle à AB. (*Hyp. & Prép. 3.*).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le ligne DC eſt ⊥ ſur le Plan ZX.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partant CD eſt auſſi ⊥ ſur la ligne de ſection commune EF.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Donc le Plan EQ dans lequel les lignes AB & CD ſe trouvent, eſt ⊥ ſur le Plan SX{printer-error-correction:ZX}. & comme la même Demonſtration à lieu pour tout autre Plan paſſant par la ⊥ AB. On peut conclure.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Que tous les Plans paſſant par cette ligne ſont perpendiculaire ſur le Plan ZX.
 

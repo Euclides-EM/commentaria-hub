@@ -21,19 +21,11 @@ Le □ de AD + le □ de BD ſont doubles du □ de AC + du □ de CD.
 
 ### *Préparation.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. SUr AB, au point C, élevez la ⊥ CE.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Faites CE = à AC ou BC.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Des points A & B au point E tirez les droites AE & BE,
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par les points E & D menez EG, DG Plles a AD & CE; & prolongez DG juſqu'a ce qu'elle coupe le prolongement de EB en F.
 
@@ -49,44 +41,26 @@ Dem. 2.
 
 PUiſque dans le △ ACE le côté AC eſt = au CE (*Prep.* 2).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. L'angle CAE eſt = à ∀ *m*.
 Or ∀ ACE eſt un ∟ (*Prep.* 1).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Ainſi chacun des ∀ CAE, & *m* eſt un demi ∟.
 Par un raiſonnement ſemblable on prouvera, que
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Chacun des ∀ *p* & *n* eſt un demi ∟.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Partant, ∀ *m* + *n* ſera = à un ∟
 De plus, ∀ *p* étant un demi ∟ (*Arg.* 3).
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. L'angle *r* ſera auſſi un demi ∟.
 Mais ∀ BDF étant outre cela ∟ (*Prop.* 29. *L.* 1), puisqu'il eſt alterne de ∀ ECD qui eſt ∟ (*Prep.* 1).
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. L'angle *q* eſt auſſi un demi ∟.
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Partant, le côté BD = au côté DF.
 De même; ∀ *q* étant un demi ∟ (*Arg.* 6) & ∀ G un ∟, comme diagonalement oppoſé à ∀ ECD. (*Prop.* 34. *L.* 1).
 
-[Curated heading level=4 type=numbered_item: 8.]
-
 8. L'angle *o* eſt un demi ∟.
-
-[Curated heading level=4 type=numbered_item: 9.]
 
 9. Donc EG eſt = à GF.
 

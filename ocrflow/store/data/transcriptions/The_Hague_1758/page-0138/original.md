@@ -23,15 +23,11 @@ Le ſegment AEB ne ſera point = au ſegment CFD.
 
 {dropcap:P|lines=2|style=plain}Uis donc que le ſegment AEB n’eſt point = au ſegment CFD (*Sup*), & que la corde AB eſt = à la corde CD. (*Hyp.* 2.)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. On pourra placer ſur une corde AB, ou ſur ſon égale CD, deux ſegmens de ⊙ ſemblables & inégaux AEB, CFD; ce qui eſt impoſſible.
 
 [Margin]
 Prop. 23. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Ces ſegmens ſont donc = entr’eux.
 

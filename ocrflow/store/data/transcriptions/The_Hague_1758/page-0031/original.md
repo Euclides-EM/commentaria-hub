@@ -24,15 +24,11 @@
 
 Si non,
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les côtés CA, BA ſeront néceſſairement inégaux.
 
 [Margin]
 N. C.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par conſéquent l'un, comme BA, ſera > l'autre CA.
 
@@ -42,15 +38,11 @@ N. C.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Retranchez donc du > côté BA, une partie égale au < côté CA.
 
 [Margin]
 P. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Menez du point C au point D la droite CD.
 
@@ -60,11 +52,7 @@ Dem. 1.
 
 {dropcap:D|lines=2|style=plain}Ans les △ ACB, DBC le côté BD = au côté CA (*Prep. 1*), le côté BC eſt commun aux deux △, & ∀ compris *a* = ∀ compris *b* + *c* (*Hyp.*)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Partant deux △ ACB, DBC ont deux côtés = à deux côtés chacun à chacun, & ∀ compris *a* = ∀ compris *b* + *c*.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. C'eſt pourquoi le △ ACB eſt = au △ DBC.
 
@@ -74,11 +62,7 @@ P. 4. L. 1.
 
 Mais le △ ACB étant le tout, & le △ DBC ſa partie.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Il s'enſuivroit que le tout ſeroit = à ſa partie.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Ce qui eſt impoſſible.
 
@@ -87,8 +71,6 @@ Ax. 8.
 [/Margin]
 
 Les côtés CA, BA, oppoſés aux ∀ égaux *a* & *b* + *c*, ne pouvant donc être inégaux.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Ces côtés ſont égaux entr'eux, ou CA = BA.
 

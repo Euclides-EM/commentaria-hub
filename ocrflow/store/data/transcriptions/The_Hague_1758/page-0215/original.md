@@ -21,11 +21,7 @@ A + C + E : B + D + F = A : B.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Prenez les équimultiples mA, mC, mE des antécédens A, C, E;
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. De même les équimultiples nB, nD, nF des conſéquens B, D, F.
 
@@ -37,8 +33,6 @@ Dem. 1. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uis donc que A : B = C : D = E : F (Hyp.);
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Si mA eſt >, =, ou < nB, mC eſt pareillement >, =, ou < nD; & de même mE eſt >, = ou < nF.
 
 [Margin]
@@ -47,13 +41,9 @@ Def. 5. L. 5.
 
 En ajoutant donc de part & d’autre les gdrs. >, = ou <.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Les gdrs. mA + mC + mE ſeront conſtamment >, =, ou < les gdrs. nB + nD + nF, ſelon que mA eſt >, =, ou < nB.
 
 Or les gdrs. mA + mC + mE & mA ſont des équimultiples des gdrs. A + C + E & A (Prep. 1 & Prop. 1. L. 5); item les gdrs. nB + nD + nF & nB ſont des équimultiples des gdrs. B + D + F & B (Prep. 2 & Prop. 1. L.5);
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant A + C + E : B + D + F = A : B.
 

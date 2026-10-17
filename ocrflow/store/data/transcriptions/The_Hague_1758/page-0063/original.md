@@ -26,8 +26,6 @@
 
 {dropcap:P|lines=2|style=plain}Uiſque la figure AD eſt un Pgr (*Hyp.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les côtés oppoſés AC, BD & AB, CD ſont ＝ entr'eux.
 
 [Margin]
@@ -35,8 +33,6 @@ Prop. 34. L. 1.
 [/Margin]
 
 De même; puiſque la figure ED eſt un Pgr (*Hyp.* 1).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Les côtés oppoſés EF, BD & BE, DF ſont ＝ entr'eux.
 
@@ -46,8 +42,6 @@ Prop. 34. L. 1.
 
 Or la droite AC étant ＝ à la droite BD (*Arg.* 1) & la droite EF étant auſſi ＝ à la même droite BD (*Arg.* 2).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Il s'enſuit, que la droite AC eſt ＝ à la droite EF.
 
 [Margin]
@@ -55,8 +49,6 @@ Ax. 1.
 [/Margin]
 
 Puis donc que AC eſt ＝ à EF (*Arg.* 3); ſi on ajoute de part & d'autre la droite commune CE.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. La droite AE eſt néceſſairement ＝ à la droite CF.
 
@@ -66,8 +58,6 @@ Ax. 2.
 
 Dans les △ ABE, CDF le côté AB eſt donc ＝ au côté CD (*Arg.* 1), le côté BE eſt ＝ au côté DF (*Arg.* 2) & la baſe AE eſt ＝ à la baſe CF (*Arg.* 4).
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Par conſéquent, le △ ABE eſt ＝ au △ CDF.
 
 [Margin]
@@ -76,8 +66,6 @@ Prop. 8. L. 1.
 
 Retranchant donc de ces △ égaux ABE, CDF (*Arg.* 5) leur partie commune CME;
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Les trapezes reſtans ABMC, MDFE ſont ＝ entr'eux.
 
 [Margin]
@@ -85,8 +73,6 @@ Ax. 3.
 [/Margin]
 
 Ajoutant enfin a ces trapezes égaux ABMC, MDFE (*Arg.* 6) la partie commune MBD,
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Les Pgrs AD & ED ſeront ＝ entr'eux.
 

@@ -31,11 +31,7 @@ Les cercles ABE, ADE ont un même centre C.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:T|lines=1|style=plain}Irez du point C à un point de ſection A le rayon CA.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et du même point C la droite CB, qui coupe les deux ⊙ aux points D & B.
 
@@ -45,20 +41,12 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les droites CA, CD ſont tirées du centre C à la ○ ADE (*Prep*. 1. & 2).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ces droites CA, CD ſont = entr'elles.
 Par un raiſonnement ſemblable on prouvera, que
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Les droites CA, CB ſont = entr'elles.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Partant, CB ſeroit = à CD; ce qui eſt impoſſible.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Donc les deux cercles ABE, ADE n'ont pas un même centre C.
 

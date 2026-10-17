@@ -33,11 +33,7 @@ Lorſque les ⊟s ont la même hauteur, c. a. d. IR = GB.
 
 {dropcap:P|lines=2|style=plain}Uiſque les ⊟s donnés ſont égaux & qu'ils ont la même hauteur.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Leurs bazes ſont égales. (Corollaire de la Prop. 31. L. 11.).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc baze AC : baze IL = hauteur IR : hauteur GB.
 

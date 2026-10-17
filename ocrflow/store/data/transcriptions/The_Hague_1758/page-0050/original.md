@@ -22,23 +22,17 @@ III. ∀ B ＞ ∀ DEF.*
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:S|lines=2|style=plain}Ur la ligne DE au point E décrivez ∀ DEG ＝ à ∀ donné B.
 
 [Margin]
 Prop. 23. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Faites EG ＝ à BC ou à EF.
 
 [Margin]
 Prop. 3. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Des points D & F au point G tirez les droites DG, FG.
 
@@ -50,8 +44,6 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ ABC les côtés BA, BC ſont ＝ aux côtés ED, EG du △ DEG (*Hyp.* 1. *Prep.* 2) & ∀ compris B ＝ à ∀ compris DEG (*Prep.* 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Il ſuit, que la baſe AC eſt ＝ à la baſe DG.
 
 [Margin]
@@ -60,15 +52,11 @@ Prop. 5. L. 1.
 
 Derechef; puiſque EG eſt ＝ au côté EF (*Prep.* 2, *Hyp.* 2).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Le △ FEG eſt un △ iſoſcéle.
 
 [Margin]
 Def. 25. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, ∀ *m* ＝ ∀ *r* ＋ *p*.
 
@@ -78,8 +66,6 @@ Prop. 5. L. 1.
 
 Puis donc que ∀ *m* ＝ ∀ *r* ＋ *p* (*Arg.* 3); ſi on retranche du dernier ſa partie *p*,
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. L'angle *m* ſera ＞ ∀ *r*.
 
 [Margin]
@@ -88,15 +74,11 @@ N. C.
 
 Et ſi à ∀ *m* on ajoute encore ∀ *n*;
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. L'angle entier *m* ＋ *n* ſera beaucoup ＞ ∀ *r*.
 
 [Margin]
 N. C.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Par conſéquent, le côté DG, oppoſé au plus grand ∀ *m* ＋ *n*, eſt ＞ le côté DF oppoſé au plus petit ∀ *r*.
 
@@ -105,8 +87,6 @@ Prop. 19. L. 1.
 [/Margin]
 
 Or la droite DG étant ＞ DF (*Arg.* 6) & cette même droite DG étant ＝ à la baſe AC (*Arg.* 1).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Il eſt évident, que la baſe AC eſt auſſi ＞ la baſe DF.
 

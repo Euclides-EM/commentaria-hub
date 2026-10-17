@@ -35,13 +35,9 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque dans le △ CDA, les deux côtés CD & DA pris enſemble, ſont > le troiſieme CA (*Prop.* 20. L. 1), & que CA eſt = à CB (*Def.* 15. L. 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Les droites CD + DA ſeront auſſi > CB,
 
 Si on retranche donc de part & d’autre la partie commune CD ;
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. La droite DA ſera > DB.
 
@@ -51,15 +47,11 @@ Ax. 5. L. 1.
 
 Mais la droite DA étant = à DG (*Prep.* & *Def.* 15. L. 1).
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. DG ſeroit auſſi > DB ; ce qui eſt impoſſible.
 
 [Margin]
 Ax. 8. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. C’eſt pourquoi la droite CA, qui joint les centres des ⊙ AGE, ABF ſe touchant intérieurement, étant prolongée, paſſera par le point d’attouchement A.
 

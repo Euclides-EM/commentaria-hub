@@ -5,17 +5,11 @@
 
 ### I. Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:C|lines=2|style=plain}Oupez de la hauteur RI la partie PI = à la hauteur BG.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Par le point P, faites paſſer le Plan PONQ, Plle à la baze IL.
 
 {dropcap:P|lines=2|style=plain}Uiſque les paralelipipédes AD & IN ont la même hauteur. (1. *Prép.* 1.).
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. Le ⊟ AD : ⊟ IN = baze AC : baze IL.
 
@@ -25,15 +19,11 @@ Prop.32.L.11.
 
 Or ⊟ AD eſt = au ⊟ IV. (*Hyp.*).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Donc ⊟ AD : ⊟ IN = ⊟ IV : ⊟ IN.
 
 [Margin]
 Prop. 7. L. 5.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant ⊟ IV : ⊟ IN = baze AC : baze IL.
 
@@ -43,15 +33,11 @@ Prop. 11. L. 5.
 
 Le ⊟ IV eſt coupé par le Plan PONQ. (1. *Prép.* 2.).
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Donc ⊟ PV : ⊟ IN = baze PS : baze KP.
 
 [Margin]
 Prop.25.L.11.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Donc en compoſant ⊟ IV : ⊟ IN = baze KR : baze KP.
 
@@ -65,8 +51,6 @@ Mais baze KR : baze KP = RI : PI.
 Prop. 1. L. 6.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. C'eſt pourquoi ⊟ IV : ⊟ IN = RI : PI.
 
 [Margin]
@@ -76,8 +60,6 @@ Prop. 11. L. 5.
 Or ⊟ IV : ⊟ IN = baze AC : baze IL. (*Arg.* 3.)
 
 Et PI = GB. (1. *Prép.* 1.).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Partant baze AC : baze IL = IR : BG.
 
@@ -97,8 +79,6 @@ Lorſque le ⊟ IV à un inclinaiſon differente que le ⊟ AD.
 
 {dropcap:P|lines=2|style=plain}Uiſque le ⊟ conſtruit à la même baze & la même hauteur que l'oblique (II *Prép.*)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ce ⊟ ſera égal au ⊟ donné IV.
 
 [Margin]
@@ -106,8 +86,6 @@ Prop.31.L.11.
 [/Margin]
 
 Or ce ⊟ conſtruit eſt en raiſon reciproque de ſa baze & de ſa hauteur avec le ⊟ AD. (*Cas II.*).
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Donc le ⊟ IV ſera auſſi en raiſon reciproque avec le ⊟ AD.
 

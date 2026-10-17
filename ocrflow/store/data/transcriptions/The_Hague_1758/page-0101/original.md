@@ -19,23 +19,13 @@ CHERCHE.
 
 ### Réſolution.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. SUr la droite AB conſtruiſez le quarré AE.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Partagez le côté BE en deux également au point D, & tirez du point D au point A la droite DA.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Sur le prolongement de EB, faites DH = à DA.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Sur la droite BH conſtruiſez le quarré CH,
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Et prolongez le côté KC en F.
 
@@ -52,35 +42,21 @@ Dem. 2.
 
 PUiſque la droite BE eſt coupée en deux également en D, & que la droite BH y eſt ajoutée directement.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le Rgle EH.HB + □ de BD eſt = au □ de DH.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Et ce □ de DH eſt = au □ de DA; parceque DH = DA (*Reſ.* 3).
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, le Rgle EH.HB + □ de BD eſt = au □ de DA.
 Mais ce même □ de DA eſt = au □ de AB + au □ de BD (*Prop.* 47. *L.* 1).
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. C'eſt pourquoi, le Rgle EH.HB + □ de BD = au □ de AB + au □ de BD.
 Si donc on retranche de part & d'autre le □ de BD;
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Le Rgle EH.HB ſera = au □ de AB.
 Maintenant; ſi du Rgle EH.HB qui eſt = au Rgle FH, (*Reſ.* 4. 5) & du □ de AB qui eſt = au □ AE (*Reſ.* 1), on retranche le Rgle commun FB;
 
-[Curated heading level=4 type=numbered_item: 6.]
-
 6. Il reſtera le □ CH = au Rgle GC.
 Ce □ CH étant donc = au □ de BC (*Reſ.* 4) & le Rgle GC = au Rgle BA.AC; à cauſe que AG = AB (*Reſ.* 1).
-
-[Curated heading level=4 type=numbered_item: 7.]
 
 7. Il s'enſuit, que la droite AB eſt coupée en C de façon que le Rgle BAC eſt = au □ de CB.
 

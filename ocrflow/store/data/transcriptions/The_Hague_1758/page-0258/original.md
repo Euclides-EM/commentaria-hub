@@ -24,15 +24,9 @@ II. Le Pgme CF : Pgme CE ═ AC : CD.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Prolongez AD indéfiniment en H & en I.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Faites AG ═ AC ═ GH, item DL ═ CD ═ LI.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Tirez BG, BH, BL, BI.
 
@@ -46,25 +40,15 @@ Dem. 1. L. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque les △ ABC, GBA, HBG ſont ſur des baſes égales AC, AG, GH (*Prep.* 2) & entre les mêmes Plles HI, FE (Hyp. & Def. 35. L. 1. & Rem. Def. 4. L. 6.)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Ces △ ſont ═ entr'eux.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. D'où il ſuit que le △ HBC & la baſe HC ſont des équimult. du △ ABC & de la baſe AC.
 On démontrera par un raiſonnement ſemblable, que
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Le △ CBI & la baſe CI ſont des équimult. du △ CBD & de la baſe CD.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par conſéquent les gdrs HBC & HC ſont equimult. des gdrs ABC & AC (*Arg.* 2), & les gdrs CBI & CI ſont d'autres équimult. des gdrs CBD & CD (*Arg* 3).
 Or ſi le △ HBC eſt ⟩, ═, ou ⟨ le △ CBI, la baſe HC eſt auſſi ⟩, ═, ou ⟨ la baſe CI. (Prop. 38. L. 1.)
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Partant le △ ABC : △ CBD ═ AC : CD.
 
@@ -77,11 +61,7 @@ C. Q. F. D. I.
 
 Mais les △ ACB, CBD étant les moitiés des Pgmes CF, CE (*Prop.* 41. *L.* 1),
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Il s'enſuit que △ ACB : △ CBD ═ Pgme CF : Pgme CE.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. C'eſt pourquoi le Pgme CF : Pgme CE ═ AC : CD.
 

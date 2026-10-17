@@ -22,11 +22,7 @@ II. m : M = m : 1M.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Prenez aM & a1M équimultiples de M & de 1M.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Et em un multiple quelconque de m.
 
@@ -38,19 +34,13 @@ Dem. 1. L. 5.
 
 {dropcap:P|lines=2|style=plain}Uiſque aM & a1M ſont des équimult. de M & de 1M (Prep. 1), & que M = 1M (Hyp.),
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. La gdr aM eſt = a1M.
 
 [Margin]
 Ax. 6. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Donc, ſi aM eſt >, =, ou < em; a1M ſera pareillement >, =, ou < em. Mais aM & a1M ſont des equimult. du I terme M & du III terme 1M, comme em & em en ſont du II terme m & du IV terme m;
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant M : m = 1M : m.
 
@@ -62,11 +52,7 @@ C. Q. F. D. 1.
 
 Et puiſque aM = a1M (Arg. 1),
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Il ſuit encore que, ſi em eſt >, = ou < aM, le même em doit en même tems être >, = ou < a1M.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Donc, m : M = m : 1M.
 

@@ -31,15 +31,9 @@ Le Cone ſera < ou > que le tiers du Cylindre d'une partie = Z.
 
 ### I. Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=1|style=plain}Ans la baze ABDC du cone & du cylindre, inſcrivez le □ ABDC.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Autour de la même baze faites le □ POQS.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Elevez ſur ces quarrés deux ▱s (dont le premier eſt le ▱ FHBC qui eſt conſtruit ſur le □ inſcrit, & le ſecond, conſtruit ſur le □ circonſcrit, touchera la baze ſuperieure avec ces Plans Plles, dans les points H, G, F, & E,) * ayant la même hauteur que le cylindre & le cone,
 

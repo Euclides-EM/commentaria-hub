@@ -31,11 +31,7 @@ Soit T < ⊙ ILP de la grandeur V. c. a. d. T + V = ⊙ ILP.
 
 ### I. Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:D|lines=2|style=plain}Ans le ⊙ LIP décrivez le □ ILNP.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Diviſez les arcs IL, LN, NP, & PI en deux, aux points K, M, O & Q.
 
@@ -43,15 +39,11 @@ Soit T < ⊙ ILP de la grandeur V. c. a. d. T + V = ⊙ ILP.
 Prop. 6. L. 4.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Tirez les lignes IK, KL, LM, MN, NO, OP, PQ & QI.
 
 [Margin]
 Prop. 30. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Par le point K, tirez SR Plle à LI.
 
@@ -59,15 +51,11 @@ Prop. 30. L. 3.
 Dem. 1. L. 1.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Prolongez NL & PI, juſqu'en R & S, qui formeront le Rgle SRIL.
 
 [Margin]
 Prop. 31. L. 1.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Inſcrivez dans le ⊙ ADF un polygone ∽ au polygone du ⊙ ILP.
 

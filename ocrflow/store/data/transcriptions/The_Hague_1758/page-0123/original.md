@@ -27,15 +27,11 @@ Ils s’entre-coupent en plus de deux points, comme en A, B, C &c.
 
 ### Préparation.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. {dropcap:T|lines=2|style=plain}Rouvez le centre D du ⊙ ABCEG.
 
 [Margin]
 Prop. 1. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Tirez du centre D aux points de ſection A, B, C, &c les rayons DA, DB, DC.
 
@@ -45,8 +41,6 @@ Dem. 1.
 
 {dropcap:P|lines=2|style=plain}Uiſque le point D eſt pris au dedans du ⊙ ABFCG, & que plus de deux droites DA, DB, DC, tirées de ce point à la ⊙ du ⊙ ABFCG, ſont = entr’elles (*Prep.* 1. & *Def.* 15. L. 1).
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Le point D eſt le centre de ce cercle.
 
 [Margin]
@@ -55,15 +49,11 @@ Prop. 9. L. 3.
 
 Mais ce point étant auſſi le centre du cercle ABCEG (*Prep.* 1).
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Il s’enſuivroit que deux cercles ABFCG, ABCEG qui s’entrecoupent ont un centre commun D; ce qui eſt impoſſible.
 
 [Margin]
 Prop. 5. L. 3.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Partant, deux ⊙ ABCEG, ABFCG ne ſçauroient s’entrecouper en plus de deux points.
 
