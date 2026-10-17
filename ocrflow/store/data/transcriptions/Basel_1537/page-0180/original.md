@@ -2,17 +2,23 @@
 
 <!-- Page number: 169 -->
 
+[Curated heading level=3 type=definitions: 15-23]
+
 15 Prima simpla numeri pars, est unitas. 16 Quādo duo numeri partem habuerint cōmunem, tot partes maioris dicetur esse minor, quoties eadem pars fuerit in minore, totæ uero, quoties ipsa fuerit in maiore.
 
 17 Numeri ad numerum dicitur proportio minoris quidem ad maiorem,in eo quod est maioris pars uel partes. Maioris uero ad minorem, secundum quod eum continet & eius pattem uel partes. 18 Cum fuerint quotlibet numeri cōtinue proportionales, dicetur proportio primi ad tertium sicut primi ad secundum duplicata, ad quartum uero triplicata.
 
 19 Cum continuatæ fuerint eædem uel diuersæ proportiones,dicetur proportio primi ad ultimum,ex omnibus composita. 20 Denominatio dicitur proportionis minoris quidem numeri ad maiorē,pars,uel partes ipsius minoris quæ in maiore sunt.Maioris autem ad minorem,totum uel totū & pars uel partes,prout maior superfluit. 21 Similes siue una alij eadem dicuntur proportiones, quæ eandem denominationē recipiūt. Maior uero,quæ maiorem. Minor autem,quæ minorem. 22 Numeri uero quorum proportio una,proportionales appellantur. 23 Termini siue radices dicuntur,quibus in eadem proportione minores sumi impossibile est.
 
+[Curated heading level=2 type=campanus_sequence: Petitiones.]
+
 ## Petitiones.
 
 1 Cuilibet numero, quotlibet posse sumi æquales prout libet, uel multiplices. 2 Quolibet numero, aliquem quantūlibet sumere posse maiorem. 3 Seriem numerorum, in infinitum posse procedere.
 
 4 Nullum numerum in infinitum posse diminui.
+
+[Curated heading level=2 type=campanus_sequence: Communes animi conceptiones.]
 
 ## Communes animi conceptiones.
 

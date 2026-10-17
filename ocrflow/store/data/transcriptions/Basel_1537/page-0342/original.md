@@ -4,6 +4,8 @@
 
 CAMPANVS. Nunc ultimo conuenit lineā d e esse illam, quæ iuncta cū mediali componit totū mediale cui adiuncta linea e f (quæ uidelicet sit illa per cuius abscisionē linea d e fuerat quæ proponitur) si quales lineas d f & f e esse oporteat ex 73 didiceris, priorēque argumentationē firma mente tenueris, sine obice quoquā lineā b c esse residuum sextū concludere poteris. Si autē fortassis in aliquo te hæsitare contigerit, quicquid illud fuerit de quadrato g h ad sibi æqualē superficiem a n conferendū erit, & sic patebit propositum nostrū.
 
+[Curated heading level=2 type=propositions: Theorema 78 Propositio 102]
+
 [Curated heading level=2 type=theorems: Theorema 78 Propositio 102]
 
 ## Eucli.ex Zamb. Theorema 78 Propositio 102
@@ -21,6 +23,8 @@ THEON ex Zamb, Sit cum medio medium totum efficiens α β, rationalis autem esto
 [Diagram: horizontal line with a tick dividing it towards the right: the line α β with its annex β η; labels α at the left end, β at the division point, η at the right end]
 
 [Diagram: rectangle on the rational line γ δ (γ top-left, δ bottom-left), divided by verticals ζ ε, ν ξ, κ θ and μ λ; top edge labelled γ ζ ν κ μ, bottom edge labelled δ ε ξ θ λ]
+
+[Curated heading level=2 type=propositions: Propositio 98]
 
 ## Eucli.ex Camp. Propositio 98
 

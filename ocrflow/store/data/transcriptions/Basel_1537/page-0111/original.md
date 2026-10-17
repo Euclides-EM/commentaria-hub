@@ -12,9 +12,11 @@ QVARTI LIBRI FINIS.
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
 
+[Curated heading level=2 type=campanus_sequence: Euclides ex Campano. Diffinitiones.]
+
 ## Euclides ex Campano. Diffinitiones.
 
-[Curated heading level=3 type=definitions: Pars, est quantitas]
+[Curated heading level=3 type=definitions: 1]
 
 [Curated heading level=3 type=campanus_sequence: 1.]
 
@@ -26,7 +28,7 @@ QVARTI LIBRI FINIS.
 
 CAMPANVS. Pars, quandoq̃ sumitur proprie: & hæc est quæ aliquoties sumpta, suum totum præcise constituit: sine diminutione uel augmento: & dicitur suum totum numerare per illum numerū, secundum quem sumitur ad ipsius totius constitutionem: talem autem partem quam multiplicatiuam dicimus, hic diffinit. Quandoq̃ sumitur communiter: & hæc est quælibet quātitas minor, quæ quotiescunq̃ sumpta, suo toto minus aut maius constituit, quam aggregatiuam dicimus: eo quod cum alia quantitate diuersa totum suum constituat, per se autem quotiescunq̃ sumpta fuerit, non producat.
 
-[Curated heading level=3 type=definitions: Multiplex, est maior]
+[Curated heading level=3 type=definitions: 2]
 
 [Curated heading level=3 type=campanus_sequence: 2.]
 

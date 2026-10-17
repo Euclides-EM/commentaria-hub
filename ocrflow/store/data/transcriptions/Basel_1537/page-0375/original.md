@@ -10,6 +10,8 @@ ALITER. Sint dati tres anguli plani qui sub α β γ, δ ε ζ, η θ κ, quorū
 
 [Diagram: three figures in a row: triangle with apex ε and base δ ζ; triangle with apex θ and base η κ; triangle with apex β and base α γ, with a point λ below the base joined to α and γ]
 
+[Curated heading level=2 type=propositions: Propositio 23]
+
 ## Eucli. ex Camp. Propositio 23
 
 [Curated heading level=3 type=campanus_sequence: 23.]

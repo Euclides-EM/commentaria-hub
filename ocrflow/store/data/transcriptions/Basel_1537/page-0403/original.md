@@ -14,6 +14,8 @@ rectæ lineæ ε θ, θ η, duabus, κ δ, δ λ, sunt æquales altera alteri, &
 
 [Diagram: pyramid α β γ δ drawn as large triangle — α at apex, β at bottom left, ζ at bottom middle, γ at bottom right, θ on the axis below α, ε and η marks at the sides, inner row κ, δ, λ; network of lines showing the two pyramids and two prisms]
 
+[Curated heading level=2 type=propositions: Propositio 4]
+
 ## Eucli. ex Camp. Propositio 4
 
 [Curated heading level=3 type=campanus_sequence: 4.]

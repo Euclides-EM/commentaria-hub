@@ -4,6 +4,8 @@
 
 neæ b & f d nō fuerint æquales, sit f d maior, ex ea resecetur f g ad æqualitatē e b, tribusque cæteris lineis quæ sunt altitudinis solidi c d ad eandē mēsurā in pūctis b, K, l, resectis perficiatur solidum parallelogrammum c g æque altum solido a b, eritq̃ ex præmissa, a b ad c g, sicut a e ad c f. Cum itaq̃ c d sit æquale a b, erit (ex prima parte 7 quinti) c d ad c g, sicut a e ad c f. Per præmissam autem est proportio c d ad c g, sicut m f ad f l, quod patet, si una ex lateralibus superficiebus solidi c d (& ipsa sit f m) intelligatur basis ipsius. At (per primā sexti) f m ad f l, sicut d f ad f g, ideoq̃ per 7 quinti sicut d f ad b e. Igitur a e ad e f{printer-error-correction:c f}, sicut d f ad b e. Cōstat itaq̃ prima pars. Secundā partem cū sit cōuersa primæ, cōuerso modo probabis. sit enim eadē dispositiōe manēte, proportio a e ad c f, sicut d f ad e b. Dico tūc solida a b & c d esse æqualia. Erit enim ex 7 quinti d f ad f g, sicut a e ad c f. Sed ex præmissa est a b ad c g, sicut a e ad c f. Igitur est a b ad c g, sicut d f ad f g. ex prima aūt sexti est d f ad f g, sicut m f, ad f l, & ex præmissa c d ad c g sicut m f ad f l. Itaque c d ad g c, sicut a b ad c g. Igitur ex 9 quinti a b & c d sunt æqualia, quod est propositum.
 
+[Curated heading level=2 type=propositions: Propositio 35]
+
 ## Eucl. ex Camp. Propositio 35
 
 [Curated heading level=3 type=campanus_sequence: 35.]
@@ -15,6 +17,8 @@ neæ b & f d nō fuerint æquales, sit f d maior, ex ea resecetur f g ad æquali
 SI duo solida æquidistantiū terminorum fuerint æqualia, eorū bases eorundem altitudinibus erunt mutuæ. Si uero bases suæ altitudinibus suis mutuæ fuerint, quælibet duo corpora æquidistantium superficierum probantur esse æqualia.
 
 CAMPANVS Quod præmia{printer-error-correction:præmissa} proposuit de solidis parallelogrāmis quorū lineæ altitudinū sup̱ bases suas orthogonaliter exurgūt, hæc 35, ꝓponit indistincte de omnibus. Demōstrare aūt cōuenit hāc ex præmissa, quēadmodū demōstrauimꝰ 32 & 33 Fabricatis enim duobus solidis æquidistātiū laterū quibuscūq̃, si lineæ altitudinum suis basibus orthogonaliter insistunt, cōstat uerū esse qd̓ dicitur ex præmissa. Sinautē à quatuor angularibus punctis supremarū superficierū in utroq̃ solido quaternæ lineæ demittantur perpendiculariter ad bases, uel à pūctis angularibus infimarum superficierum quaternæ erigantur, inter quas duo solida parallelogramma perficiantur æque alta solidis prioribus, erūtq̃ ex 29 & 30 hæc duo solida duobus prioribus solidis æqualia. Cum igitur horum & eorum sint eædem bases & eædē altitudines, sit autem ex præmissa de posterioribus uerum quod hæc 35 proponit, uerum erit idem etiam de prioribus.
+
+[Curated heading level=2 type=propositions: Propositio 36]
 
 ## Eucl. ex Camp. Propositio 36
 

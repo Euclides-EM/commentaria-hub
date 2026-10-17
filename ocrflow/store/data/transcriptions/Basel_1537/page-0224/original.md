@@ -4,6 +4,8 @@
 
 itaque g ex e in d, eritque per 19 septimi, a ad g, sicut c ad e. & per 18 eiusdem g ad b sicut d ad f, quare a ad g, sicut g ad b, est itaque g, contiuua proportionalitate medius inter a & b, quod est propositum. Correlarium autem patet, cum sit a ad b per diffinitionem sicut a ad g duplicata, quæ eadem est illi quæ est c ad e.
 
+[Curated heading level=2 type=propositions: Propositio 17]
+
 ## Eucli. ex Camp. Propositio 17
 
 [Curated heading level=3 type=campanus_sequence: 17.]
@@ -18,6 +20,8 @@ CAMPANVS Hæc est conuersa ptæmissæ. Vt si inter a & b sit c sub continua prop
 
 [Diagram: dotted number lines a, c, b, d, e, f, g]
 
+[Curated heading level=2 type=propositions: Propositio 18]
+
 ## Eucli. ex Camp. Propositio 18
 
 [Curated heading level=3 type=campanus_sequence: 18.]
@@ -31,6 +35,8 @@ CAMPANVS Hæc est conuersa ptæmissæ. Vt si inter a & b sit c sub continua prop
 CAMPANVS. Sint duo numeri a & b, solidi similes. dico quod inter ipsos cadent duo numeri in continua proportione. Sint enim latera numeri a, c, d. e: latera uero b, sint f, g, h. eruntq̃ ex conuersione diffinitionis numerorum similium, c ad f, & d ad g, sicut c ad h. Sit igitur ex c in d, K, & ex f in g. l, erūtque ex diffinitione. K & l, superficiales & similes, quare per 16 huius, unus numerus cadit inter eos medius secundū proportionem c ad f, qui s.t m. Manifestum autem est quod ex e in K, sit a & ex h in l, b, si igitur ex e in m & l fiant n & p, erunt per 18 septimi, a ad n sicut K ad m & n ad p, sicut m ad l, quare a, n, p, sunt continue proportionales in proportione c ad f, & quia per 19 eiusdem p ad b sicut e ad h. & ideo sicut c ad f, sequitur ut quatuor numeri a, n, p, b sint continue proportionales secundum proportionem c ad f, sunt itaque inter a & b duo numeri n & p, medij in continua proportionalitate suorum laterū interpositi, quod est propositū Correlariū autē patet, cū proportio a ad b sit per diffinitionē sicut a ad n triplicata quæ est eadē illi quæ est c ad f.
 
 [Diagram: dotted number lines a, n, p, b, c, d, e, f, g, h, K, m, l]
+
+[Curated heading level=2 type=propositions: Propositio 19]
 
 ## Eucli. ex Camp. Propositio 19
 

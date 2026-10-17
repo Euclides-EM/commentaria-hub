@@ -2,7 +2,11 @@
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS.
 
+[Curated heading level=2 type=zamberti_sequence: Euclidis ex Zamberto. Diffinitiones.]
+
 ## Euclidis ex Zamberto. Diffinitiones.
+
+[Curated heading level=3 type=definitions: 1-21]
 
 {dropcap:V|lines=?|style=decorated|decoration="two nude figures and a serpent"}Nitas, est qua unumquodq̃ eorum quæ sunt unum dicitur. 2 Numerus autem,ex unitatibus composita multitudo. 3 Pars,est numerus numeri minor maioris,quādo dimetitur maiorem. 4 Partes autem,quando non metitur. 5 Multiplex uero, maior minoris, quando eum metitur minor. 6 Par nnmerus,est qui bifariā diuiditur. 7 Impar uero, qui bifariam non diuiditur,uel qui unitate differt à pari. 8 Pariter par numerus, est quem par numerus metitur per numerū parem. 9 Pariter autem impar, est quem par numerus metitur per imparem numerum.
 
@@ -17,6 +21,8 @@ Similes plani & solidi numeri, sunt qui proportionalia habent latera.
 [Curated heading level=3 type=definitions: Perfectus numerus]
 
 Perfectus numerus,est qui suijpsius pattibus est æqualis.
+
+[Curated heading level=2 type=propositions: Propositio 1.]
 
 ## Eucli. ex Camp. Propositio 1.
 

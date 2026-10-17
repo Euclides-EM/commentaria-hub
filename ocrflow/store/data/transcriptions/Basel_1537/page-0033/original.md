@@ -6,6 +6,8 @@ Rursus sint ad angulos æquos latera subtensa, æqualia, sintq̃ α β & δ ε. 
 
 [Diagram: two triangles side by side, triangle α β γ with point θ on base β γ and line α θ drawn, and triangle δ ε ζ]
 
+[Curated heading level=2 type=propositions: Propositio 27.]
+
 ## Eucli. ex Camp. Propositio 27.
 
 [Curated heading level=3 type=campanus_sequence: 27.]
@@ -19,6 +21,8 @@ SI recta linea super duas lineas rectas ceciderit, duosq̃ angulos coalternos si
 CAMPANVS. Sit ut linea a b cadat super duas lineas c d, e f, & secet lineam c d in puncto g, & lineam e f in puncto h: sitq̃ angulus d g h æqualis angulo e h g: dico quod lineæ c d & e f, sunt æquidistantes. Si enim non, concurrant aut ad partem c, e, super punctum k, aut ad partem d, f, super punctum l: & qualitercunq̃ fuerit, accidet impossibile, per 16, uidelicet, angulum extrinsecum, esse æqualem intrinseco & opposito: nam unus dictorum angulorum coalternorum qui positi sunt æquales, erit extrinsecus, & reliquus intrinsecus & oppositus. Quia igitur impossibile est eas cōcurrere, in alterutram partem protractas, ipsæ per ultimam diffinitionē erunt æquidistantes, quod est propositum.
 
 [Diagram: transversal line a b crossing two lines c d and e f at points g and h, with the lines produced to meeting points k on the left and l on the right; labels a, c, g, d, k, l, e, h, f, b]
+
+[Curated heading level=2 type=propositions: Theorema 18. Propositio 27.]
 
 [Curated heading level=2 type=theorems: Theorema 18. Propositio 27.]
 
@@ -35,6 +39,8 @@ Si in binas rectas lineas recta incidens linea, alternatim angulos æquos adinui
 THEON ex Zamberto. In binas enim rectas lineas α β, γ δ recta incidens linea ε ζ, alternatim angulos α ε ζ & ε ζ δ æquales adinuicem efficiat, dico quod parallelus est α β, ipsi γ δ. Si autem non, productæ concurrent aut ad partes β, δ, aut ad α, γ: producantur igitur & concurrant ad partes β, δ, in signo η, si est possibile. Trianguli ergo η ε ζ, angulus α ε ζ exterior, æqualis est angulo ε ζ η interiore & opposito: quod (per 16 propositiōe) est impossibile. Igitur α β & γ δ productæ, ad partes β, δ, minime concurrunt: similiter quoq̃ ostendetur, quod neq̃ ad partes α, γ. Quæ autem in nulla parte concurrunt, parallelæ sunt (per ultimam diffinitionem.) Parallelus igitur est α β, ipsi γ δ. Si in binas igitur rectas lineas & quæ sequuntur reliqua ut in theoremate. Quod erat ostendendum.
 
 [Diagram: transversal line crossing two lines α β and γ δ at points ε and ζ, the lines produced to a meeting point η at the right; labels α, β, γ, δ, ε, ζ, η]
+
+[Curated heading level=2 type=propositions: Propositio 28.]
 
 ## Eucli. ex Camp. Propositio 28.
 

@@ -6,6 +6,8 @@ d f,& super eos erigantur duæ lineæ hypothenusaliter a g & d b{printer-error-c
 
 [Diagram: two pyramid-like solids for prop. 37 — left, apex a with lines to r, b, p, q, c, s, and below k, m, g; right, apex d with lines to t, x, e, l, n, f, and below h]
 
+[Curated heading level=2 type=propositions: Theorema 30 Propositio 35]
+
 [Curated heading level=2 type=theorems: Theorema 30 Propositio 35]
 
 ## Eucl.ex Zamb. Theorema 30 Propositio 35

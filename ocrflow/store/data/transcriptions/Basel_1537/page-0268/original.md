@@ -12,6 +12,8 @@ NVNC autem monstrandum est qualiter linea a b(cum ipsa posita fuerit maior linea
 
 [Diagram: semicircle drawn on line a b, with f on the arc near the right end; lines f a and f b drawn; f g perpendicular to a b at g, and points d and g marked on the base; e marked at the right beside the perpendicular; beneath, a line labeled c]
 
+[Curated heading level=2 type=zamberti_sequence: THEON Lemma.]
+
 ## THEON Lemma.
 
 Si ad aliquam rectam lineam* comparetur parallelogrammum deficiēs forma quadrata,ipsum comparatum æquū est ei quod(continetur)sub segmētis rectæ lineæ,quæ ex ipsa comparatione sunt facta.

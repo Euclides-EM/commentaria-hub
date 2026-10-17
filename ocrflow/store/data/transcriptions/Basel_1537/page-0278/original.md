@@ -12,6 +12,8 @@ Zamb. 24
 
 Præcedentes duæ ex Campano propositiones, scilicet, 22. & 23. tribus ex Zamberto sequentibus, uidelicet, 24. 25. & 26. inuerso ordine respondent, 22. namq̃ ex Campano, 26. ex Zamberto, 26.{printer-error-correction:23} autem ex Campano, cum additione, 24. & 25. ex Zamberto respondent.
 
+[Curated heading level=2 type=propositions: Theorema 21 Propositio 24]
+
 [Curated heading level=2 type=theorems: Theorema 21 Propositio 24]
 
 ## Eucli.ex Zamb. Theorema 21 Propositio 24
@@ -27,6 +29,8 @@ Sub medijs longitudine commensurabilibus rectis lineis comprehensum rectangulum,
 THEON ex Zamberto. Sub medijs enim longitudine commensurabilibus rectis lineis α β, β γ, comprehendatur rectangulum α γ, dico quod α γ medium est. Describatur enim (per 49 primi) ex α β, quadratum α δ, medium igitur est α δ. Et quoniam cōmensurabilis est α β ipsi β γ longitudine, æqualis autem est α β ipsi β δ, commensurabilis igitur est δ β ipsi β γ longitudine. Quare & δ α ipsi α γ (per correlarium 23 decimi) commensurabile est : medium autem est δ α, medium igitur est & α γ, quod oportebat ostendere.
 
 [Diagram: a rectangle with δ at top left, β at the top where a vertical line divides it, γ at top right, and α below the bottom right]
+
+[Curated heading level=2 type=propositions: Theorema 22 Propositio 25]
 
 [Curated heading level=2 type=theorems: Theorema 22 Propositio 25]
 

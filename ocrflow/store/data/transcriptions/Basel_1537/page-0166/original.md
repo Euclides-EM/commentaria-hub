@@ -18,6 +18,8 @@ ALITER. Dememonstrabimus aliter & expeditius, similis rationis esse triangula. I
 
 [Diagram: two similar pentagonal figures, each a square surmounted by a triangle: the left with apex α, upper corners β (left) and ε (right), base corners γ and δ, divided by the horizontal β ε and a diagonal of the square; the right with apex ζ, upper corners η (left) and λ (right), base corners θ and κ, divided likewise]
 
+[Curated heading level=2 type=propositions: Propositio 20.]
+
 ## Eucli.ex Camp. Propositio 20.
 
 [Curated heading level=3 type=campanus_sequence: 20.]
@@ -31,6 +33,8 @@ SI fuerint uni superficiei similes, quaslibet superficies sibĳnuicem similes es
 CAMPANVS. Sit uterq̃ pentagonorum a b c.d e f, similis pentagono g h k: dico eos esse similes sibĳnuicẽ. Est enim uterq̃ eorum æquiangulus pentagono g h K: per conuersionem diffinitionis similium superficierum: quare sunt æquianguli adinuicem. Similiter quoque per conuersionem eiusdem diffinitionis, proportio a b ad g h. sicut a c ad g K, & g h ad d e, sicut g K ad d f: ergo per æquam proportionaliitatem, a b ad d e, sicut a c ad d f. Eodem modo probabis reliqua latera pentagonorum a b c & d e f, continentia æquos angulos: esse proportionalia. Per diffinitionem itaque similium superficierum: ipsi sunt similes adinuicem: quod est propositum.
 
 [Diagram: three similar pentagonal figures: the left with apex a, side b, interior label c; the middle, smaller, with apex g, side b(h), interior label k; the right with apex d, interior label e, side f]
+
+[Curated heading level=2 type=propositions: Theorema 15 Propositio 21.]
 
 [Curated heading level=2 type=theorems: Theorema 15 Propositio 21.]
 

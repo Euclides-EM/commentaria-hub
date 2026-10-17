@@ -2,6 +2,8 @@
 
 <!-- Running title: EVCLIDIS MEGARENSIS -->
 
+[Curated heading level=2 type=propositions: Theorema 37 Propositio 37]
+
 [Curated heading level=2 type=theorems: Theorema 37 Propositio 37]
 
 ## Theorema 37 Propositio 37
@@ -12,6 +14,8 @@ In parallelos enim positiōe datas rectas lineas a b, c d, recta excitetur linea
 
 [Diagram: horizontal parallels a b, h k, and c d with transversal e g f and perpendicular l m n; visible labels b, l, e, a on the top line; k, h on the middle line; d, m, g, c on the lower line; n and f below]
 
+[Curated heading level=2 type=propositions: Theorema 38 Propositio 38]
+
 [Curated heading level=2 type=theorems: Theorema 38 Propositio 38]
 
 ## Theorema 38 Propositio 38
@@ -21,6 +25,8 @@ SI in parallelos positione datas rectas lineas recta linea acta fuerit, proiecta
 In parallelos positione datas, inquā ipsas a b, c d recta excitetur linea e f, apponaturq̃ eidē aliqua e g rōnē habēs ad e f, datā ac p̄ g per 31 primi ele. utriq̃ ipsarū a b, c d, parallelus recta linea agatur ipsa h k. Dico q̃ positiōe est h k, assumatur enim in a b datū signū n exciteturq̃ per 12 primi ele. ab ipso n in c d perpendicularis n m extendaturq̃ in l. Quoniam à dato signo n in positione datā rectā lineam c d, recta acta est n m, datū efficiēs angulū n m d. Igitur per 30 propositionem positione data est ipsa l m, positione autem & c d. Datum igitur est m signum, est autem & n datum. Igitur per 26 propositionem positione datur n m. Et quoniā ratio ipsius f e ad e g, data est. Sicut aūt f e ad e g, sic m n ad n l. Ratio igitur & ipsius m n ad n l data est. Data autem & n m, data igitur & n l. Sed & positione datum est n, datum igitur est & l. Quoniam igitur per datū signum l ad positione datam rectam lineā a b recta linea acta est h k positione est ipsa h k.
 
 [Diagram: horizontal parallels; top line k l g b with a at right; middle line d n e c; points m and f below; transversal g e f and perpendicular l n m]
+
+[Curated heading level=2 type=propositions: Theorema 39 Propositio 39]
 
 [Curated heading level=2 type=theorems: Theorema 39 Propositio 39]
 

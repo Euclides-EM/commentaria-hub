@@ -20,9 +20,11 @@ SEXTI LIBRI FINIS.
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEXTVS.
 
+[Curated heading level=2 type=campanus_sequence: Euclides ex Campano. Diffinitiones.]
+
 ## Euclides ex Campano. Diffinitiones.
 
-[Curated heading level=3 type=definitions: SVperficies similes]
+[Curated heading level=3 type=definitions: 1]
 
 [Curated heading level=3 type=campanus_sequence: 1.]
 
@@ -36,7 +38,7 @@ CAMPANVS. Vt sit trigonus a b c fuerit æquiangulus trigono d e f,fueritqꝫ ang
 
 [Diagram: two triangles, one with apex a and base b c, the other with apex d and base e f]
 
-[Curated heading level=3 type=definitions: Superficies mutuorū]
+[Curated heading level=3 type=definitions: 2]
 
 [Curated heading level=3 type=campanus_sequence: 2.]
 
@@ -50,7 +52,7 @@ CAMPANVS. Vt si duorū quadrilaterorū a b c, d e f, proportio a b lateris primi
 
 [Diagram: two quadrilaterals, the first open-sided with corners a, b, c, the second a rectangle with corners e, d, f]
 
-[Curated heading level=3 type=definitions: Linea dicitur diuidi]
+[Curated heading level=3 type=definitions: 3]
 
 [Curated heading level=3 type=campanus_sequence: 3.]
 

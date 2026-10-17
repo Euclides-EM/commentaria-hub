@@ -4,6 +4,8 @@
 
 CAMPANVS Intellige quid sit linea minor quod si oblitus es, cōsule 21. & sine obiectione concludes propositum. si quemadmodū in 74 processeris, poterisque si libuerit, quemadmodum in 76 procedere.
 
+[Curated heading level=2 type=propositions: Theorema 64 Propositio 82]
+
 [Curated heading level=2 type=theorems: Theorema 64 Propositio 82]
 
 ## Eucl.ex Zãb. Theorema 64 Propositio 82
@@ -20,6 +22,8 @@ THEON ex Zamb. Esto minor α β, & ipsi α β congruens esto β γ, ipsæ igitur
 
 [Diagram: horizontal line with points α, β, γ, δ marked above it; α at the left end, β and γ close together near the middle, δ at the right end]
 
+[Curated heading level=2 type=propositions: Propositio 78]
+
 ## Eucli.ex Camp. Propositio 78
 
 [Curated heading level=3 type=campanus_sequence: 78.]
@@ -31,6 +35,8 @@ THEON ex Zamb. Esto minor α β, & ipsi α β congruens esto β γ, ipsæ igitur
 Linea quæ coniuncta cum rationali facit totum mediale, nisi uni tantum componi non potest ut sub earum termino fiant quæ erant ante separationem.
 
 CAMPANVS Quid sit linea quæ proponitur, ex 72 didicisti. Cum ergo de ea uolueris quod per hanc 78 dicitur demonstrare, à processu 75, in, quoquã non deuies, sed sicut in 76, si te delectauerit, ingenio duce poteris procedere.
+
+[Curated heading level=2 type=propositions: Theorema 65 Propositio 83]
 
 [Curated heading level=2 type=theorems: Theorema 65 Propositio 83]
 
@@ -48,6 +54,8 @@ THEON ex Zamberto. Sit cum rationali medium totum efficiens α β, & ipsi α β 
 
 [Diagram: horizontal line with points α, β, γ, δ marked above it; α at the left end, β and γ close together near the middle, δ at the right end]
 
+[Curated heading level=2 type=propositions: Propositio 79]
+
 ## Eucli.ex Camp. Propositio 79
 
 [Curated heading level=3 type=campanus_sequence: 79.]
@@ -59,6 +67,8 @@ THEON ex Zamberto. Sit cum rationali medium totum efficiens α β, & ipsi α β 
 Lineæ quæ iuncta cum mediali facit totū mediale, nisi una linea tantum iungi nequit ut sub earum termino fiant quæ erant ante separationem.
 
 CAMPANVS Huius lineæ quæ iuncta cum mediali componit totū mediale, magistra est 71. De qua quod hæc 79 enuntiat concludere cogeris, sicut de residuo mediali secundo (quod per 76 enuntiatum est) conclusisti.
+
+[Curated heading level=2 type=propositions: Theorema 66 Propositio 84]
 
 [Curated heading level=2 type=theorems: Theorema 66 Propositio 84]
 

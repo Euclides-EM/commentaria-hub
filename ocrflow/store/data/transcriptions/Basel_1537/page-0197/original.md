@@ -10,6 +10,8 @@ Vt si sint a,b,c, minimi in eadem proportione uel in diuersis, sintq̃ in eadem 
 
 [Diagram: dotted number lines beside the text: d········ e······ f···· / a···· b··· c·· / d········ e······· e···· the third label is printed e for f / a···· b··· c·· / g··· h·· k·]
 
+[Curated heading level=2 type=propositions: Theorema 19 Propositio 21]
+
 [Curated heading level=2 type=theorems: Theorema 19 Propositio 21]
 
 ## Eucli. ex Zamb. Theorema 19 Propositio 21
@@ -27,6 +29,8 @@ THEON ex Zamberto. Sint enim minimi numeri eandem rationem habentium ipsis α,β
 [Diagram: dotted number lines beside the text: γ··η··δ / ε···θ·ζ / α········· / β·······]
 
 Huic ex Zamberto propositioni respondet id quod supra, ad 19 addidit Campanus.
+
+[Curated heading level=2 type=propositions: Theorema 20 Propositio 22]
 
 [Curated heading level=2 type=theorems: Theorema 20 Propositio 22]
 
@@ -47,6 +51,8 @@ Si fuerint tres numeri, & alij eisdem æquales numero,* cum duobus sumpti & in e
 THEON ex Zamberto. Sint numeri α,β,γ, & alij eisdem æquales numero δ,ε,ζ, cum duobus sumpti, & in eadem ratione: sit autem perturbata eorum proportio: sicut quidem α ad β, sic ε ad ζ, & sicut β ad γ, sic δ ad ε. Dico quod & ex æquali est sicut α ad γ, sic est δ ad ζ. Quoniam enim est sicut α ad β, sic ε ad ζ, qui igitur ex α,ζ, (per 20 septimi) æqualis est ei qui ex β,ε. Rursus quoniam est sicut β ad γ, sic est δ ad ε, qui igitur ex δ,γ, æqualis est ei qui ex β,ε: ostensum autem est quod qui ex α,ζ, æquus est ei qui ex β,ε, & qui ex α,ζ igitur, (per 20 septimi,) æquus est ei qui ex δ,γ. Est igitur (per 11 quinti) sicut α ad γ, sic δ ad ζ, quod oportebat demonstrare.
 
 [Diagram: dotted number lines beside the text: α······ / β···· / γ··· / δ············ / ε········· / ζ······]
+
+[Curated heading level=2 type=propositions: Propositio 22]
 
 ## Eucli. ex Camp. Propositio 22
 

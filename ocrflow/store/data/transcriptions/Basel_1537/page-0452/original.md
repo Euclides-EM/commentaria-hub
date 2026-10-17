@@ -6,6 +6,8 @@
 
 [Diagram: cube drawn in perspective with its diagonals and circumscribing construction lines; vertices labelled with small Greek letters ε, ζ, η, θ, κ, λ, μ, ν]
 
+[Curated heading level=2 type=propositions: Propositio 16]
+
 ## Eucli.ex Camp. Propositio 16
 
 [Curated heading level=3 type=campanus_sequence: 16.]

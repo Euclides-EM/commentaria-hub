@@ -6,6 +6,8 @@ tem est quod bis sub α η, η β, comprehenditur. rationale igitur & ζ λ. Et 
 
 [Diagram: horizontal line with points α, β, η; below it a rectangle with top corners γ (left) and μ (right), bottom corners δ (left) and λ (right); points ζ, ν, κ on the top side and ε, ξ, θ on the bottom side, with vertical lines dividing the rectangle at ζ–ε, ν–ξ and κ–θ]
 
+[Curated heading level=2 type=propositions: Propositio 94]
+
 ## Eucli.ex Camp. Propositio 94
 
 [Curated heading level=3 type=campanus_sequence: 94.]
@@ -17,6 +19,8 @@ tem est quod bis sub α η, η β, comprehenditur. rationale igitur & ζ λ. Et 
 SI superficies æqualis quadrato residui medialis secundi applicata fuerit ad lineam rationalem, alterum latus eius residuum tertium esse conueniet.
 
 CAMPANVS. Hic etiam erit d e residuū mediale secundum, & sequetur ut sit c b residuum tertium. Quod ut facile concludas, primæ demonstrationi insistas, & quales lineas conueniat esse d f & f e. ex 70, collige.
+
+[Curated heading level=2 type=propositions: Theorema 75 Propositio 99]
 
 [Curated heading level=2 type=theorems: Theorema 75 Propositio 99]
 

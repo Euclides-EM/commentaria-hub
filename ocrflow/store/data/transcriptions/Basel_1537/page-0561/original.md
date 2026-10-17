@@ -12,6 +12,8 @@ Binæ nãq̃ magnitudines a b,c d,adinuicẽ rõnẽ habeant datã,auferaturq̃ 
 
 Hoc conuersum est quodammodo præcedentis,ostendens, ꝙ si appositæ fuerint datæ magnitudines,eis datam habent, rationem,nunc uero auferatur eadem ab eisdem idem ostendit.
 
+[Curated heading level=2 type=propositions: Theorema 16 Propositio 16]
+
 [Curated heading level=2 type=theorems: Theorema 16 Propositio 16]
 
 ## Theorema 16 Propositio 16
@@ -22,6 +24,8 @@ Binæ siquidem magnitudines a b,c d,rationem habeant datam,& ab ipsa c d.data au
 
 [Diagram: two vertical line segments in the right margin, with visible point labels f, e, a, e, d, b]
 
+[Curated heading level=2 type=propositions: Theorema 17 Propositio 17]
+
 [Curated heading level=2 type=theorems: Theorema 17 Propositio 17]
 
 ## Theorema 17 Propositio 17
@@ -31,6 +35,8 @@ SI fuerint tres magnitudines,& prima secũda dato maior fuerint quàm in ratione
 Sint tres magnitudines a b,c,d e.& utraque ipsarum a b,d e,ipsa c dato maior esto quàm in ratione. Dico quod ipsæ a b,d e, aut adinuicem datam habent rationẽ, uel altera altera,dato maior est quàm in ratiõe. Auferatur data magnitudo d g. Reliquæ igitur g e ad c,ratio est data. Id propterea iam & ipsius f b ad c,ratio est data, & ipsius f b ad g e,igitur rõ est data,& eis apponuntur datæ magnitudines a f,d g. Totæ igitur a b,d e,adinuicem uel rationẽ habet datam,uel altera altera dato maior est quàm in ratione.
 
 [Diagram: vertical line segments in the right margin, with visible point labels c, b, f, g, c, d, a]
+
+[Curated heading level=2 type=propositions: Theorema 18 Propositio 18]
 
 [Curated heading level=2 type=theorems: Theorema 18 Propositio 18]
 

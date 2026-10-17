@@ -8,6 +8,8 @@ Si uero neutra propositarũ pyramidum fuerit trigona, sed utraq̃ polygonia (uer
 
 [Diagram: pentagon labelled a and hexagon labelled b side by side; below them a triangle labelled c]
 
+[Curated heading level=2 type=propositions: Propositio 8]
+
 ## Eucli. ex Camp. Propositio 8
 
 [Curated heading level=3 type=campanus_sequence: 8.]
@@ -19,6 +21,8 @@ Si uero neutra propositarũ pyramidum fuerit trigona, sed utraq̃ polygonia (uer
 {dropcap:O|lines=?|style=decorated|decoration="ornamental"}Mnium duarum pyramidum similium quarum bases triangulæ, est proportio alterius ad alteram, tanquã lateris ad latus eius relatiuum proportio triplicata.
 
 CAMPANVS. Propositis duabus pyramidibus similibus bases triangulas habentibus, ex ipsis perfice duo solida parallelogrãma, quemadmodũ dictum est in demõstratione præmissæ, eruntq̃ hæc duo solida parallelogramma similia, eo q̃ pyramides ponuntur similes adinuicẽ, nam duo solidi anguli qui sunt cõmunes pyramidibus & solidis parallelogrãmis, superficialibus angulis numero & quantitate æqualibus cõtinentur, & latera quoq̃ illos angulos superficiales continẽtia, sunt proportionalia. Quare ex 34 primi tres superficies solidorũ parallelogrãmorũ cõmunes angulos solidos constituẽtes, sunt æquiangulæ & laterũ proportionaliũ, ideoq̃ similes ex diffinitione similium superficierũ: quare ex 24 & 15 quinti cunctæ sex superficies horum duorũ solidorũ parallelogrãmorũ, sunt similes adinuicẽ. Igitur à diffinitione corporũ similium, erunt ipsa solida similia. Quare cũ proportio solidorũ & pyramidũ sit una ex 15 quinti (nam solida sunt sexcupla pyramidibus ex 6 huius) cumq̃ sit proportio solidorũ una sicut suorũ relatiuorũ laterum triplicata ex 36 undecimi libri, sunt autem latera solidorũ eadem lateribus pyramidum, erit quoq̃ ex 11 quinti proportio propositarũ pyramidũ sicut suorum relatiuorũ laterum proportio triplicata, quod est propositum.
+
+[Curated heading level=2 type=campanus_sequence: CAMPANI additiones.]
 
 ## CAMPANI additiones.
 

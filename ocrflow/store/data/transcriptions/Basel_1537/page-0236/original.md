@@ -8,6 +8,8 @@ Cum sit e primus, si non numerat a, primus erit ad ipsum per 32 septimi, itaq̃ 
 
 [Diagram: vertical dotted lines from unitas labelled a, b, c, d, e, h, g, f with rotated values 6, 36, 216, 1296, 2, 18, 108, 648]
 
+[Curated heading level=2 type=propositions: Propositio 12]
+
 ## Eucli. ex Camp. Propositio 12
 
 [Curated heading level=3 type=campanus_sequence: 12.]
@@ -24,6 +26,8 @@ CAMPANVS. Sint ab unitate usq̃ ad f continue proportionales. dico nullum ipsor�
 
 Sequentes duæ ex Zamberto Euclidis propositiones, duabus præcedentibus ex Campano ordine præpostero respondent.
 
+[Curated heading level=2 type=propositions: Theorema 11 Propositio 11]
+
 [Curated heading level=2 type=theorems: Theorema 11 Propositio 11]
 
 ## Eucli.ex Zamb. Theorema 2{printer-error-correction:11} Propositio 11
@@ -39,6 +43,8 @@ Si ab unitate quotcunq̃ numeri cōtinue proportionales fuerint, minor maiorem m
 THEON ex Zamb. Sint ab unitate α, quotcunq; numeri continue proportionales β,γ,δ,ε. Dico quod ipsorum β,γ,δ,ε, minor β, ipsum ε maiorem metitur per aliquem ipsorū γ,δ. Quoniam enim est sicut α unitas ad β, sic δ ad ε, æque igitur α unitas ipsum β numerū metitur, & δ ipsum ε: uicissim igitur (per 15 septimi) æque α unitas ipsum δ metitur, & β ipsum ε. At α unitas ipsum δ metitur, per eas quæ in ipso sunt unitates: & β igitur ipsum ε metitur per eas quæ in ipso δ sunt unitates. Quare minor β ipsum ε maiorem metitur per aliquem numerum præexistentem in proportionalibus numeris, quod ostendere oportuit.
 
 [Diagram: dotted number lines labelled ε, δ, γ, β, α]
+
+[Curated heading level=2 type=propositions: Theorema 12 Propositio 12]
 
 [Curated heading level=2 type=theorems: Theorema 12 Propositio 12]
 

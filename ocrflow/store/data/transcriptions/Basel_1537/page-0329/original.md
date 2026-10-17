@@ -4,6 +4,8 @@
 
 dine commensurabili, estque tota β η, ipsi α expositæ rationali commensurabilis. Igitur (per tertias dffinitiones.{printer-error-correction:diffinitiones}) β γ apotome est prima. Inuenta igitur est prima apotome β γ. quod erat agendum.
 
+[Curated heading level=2 type=propositions: Propositio 81]
+
 ## Eucli.ex Camp. Propositio 81
 
 [Curated heading level=3 type=campanus_sequence: 81.]
@@ -17,6 +19,8 @@ REsiduum secundum patefacere,
 CAMPANVS Ad habendum residuum secundum, sit a linea rationalis posita, eique communicans in longitudine c d, & sit quadratum c d ad quadratum b c, sicut f ad e. eritq̃ b d residuum secundum ex diffinitiōe. Si dubitas, aut positas non seruas hypotheses, aut binomij secundi repetitione indiges.
 
 [Diagram: line a; line with points c, d, b (c at left, d toward the right, b at the right end); a shorter line e; dotted number line with labels f and g]
+
+[Curated heading level=2 type=propositions: Problema 20 Propositio 86]
 
 [Curated heading level=2 type=problems: Problema 20 Propositio 86]
 
@@ -34,6 +38,8 @@ THEON ex Zamb. Exponatur rationalis α. & ipsi α longitudine commensurabilis es
 
 [Diagram: four horizontal lines: line α; line with points β, γ, η (β at the left end, γ near it, η at the right end); shorter line θ; dotted number line with points δ, ζ, ε]
 
+[Curated heading level=2 type=propositions: Propositio 82]
+
 ## Eucli.ex Camp. Propositio 82
 
 [Curated heading level=3 type=campanus_sequence: 82.]
@@ -47,6 +53,8 @@ REsiduum tertium perscrutari.
 CAMPANVS Residuum tertium sic habetur. Posita ut prius a rationali numeróque e quadrato diuiso in f non quadratum & g quadratū, assumptoq̃ h numero primo, sit quadratum lineæ a ad quadratum lineæ b c, sicut h ad e, sitq̃ quadratum lineæ b c ad quadratū lineæ c d, sicut e ad f. eritq̃ ex diffinitione (de quo si hæsitas consule binomium tertium) linea d b, residuum tertium.
 
 [Diagram: dotted number line e divided into parts f and g; dotted number line h; line a; line with points b, d, c (b at the left end, d in the middle, c at the right end)]
+
+[Curated heading level=2 type=propositions: Problema 21 Propositio 87]
 
 [Curated heading level=2 type=problems: Problema 21 Propositio 87]
 

@@ -22,6 +22,8 @@ CORRELARIVM. Ex hoc manifestū est, quod in quadratis \* areis parallelogrāma q
 χωρίοις
 [/Margin]
 
+[Curated heading level=2 type=propositions: Propositio 5]
+
 ## Euclides ex Campano. Proppsitio{printer-error-correction:Propositio} 5
 
 [Curated heading level=3 type=campanus_sequence: 5.]

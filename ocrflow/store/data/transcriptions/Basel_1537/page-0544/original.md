@@ -4,6 +4,8 @@
 
 gnitudo a b, at sub angulo d e f, magnitudo d f: minor igitur spectabitur magnitudo a b, magnitudine d f, quod oportebat ostendere.
 
+[Curated heading level=2 type=propositions: Theorema quadragesimumquintum.]
+
 [Curated heading level=2 type=theorems: Theorema quadragesimumquintum.]
 
 ## Theorema quadragesimumquintum.
@@ -13,6 +15,8 @@ ESt aliquis locus in quo oculo manente uisile, quæ permutato, æquum semper uis
 Sit, inquā, spectata magnitudo b c, oculus autē sit f, a quo procidant radij f b, f c, suscipiaturq̃ triangulum f b c, in circulo b f. Dico quod b c, magnitudo p̃mutata in descripti circuli circunferētia æqualiter semper apparebit, permutetur enim b c, in c d, connectaturq̃ f. igitur circūferentia b c, æqua est circunferentiæ c d, igitur per 27 tertij elementorū, æqualis est angulus r, æquales uero sub æqualibus spectantur angulis per 6 suppositionem optices, æqualia apparent æqualis igitur apparet b c ipsi c d.
 
 [Diagram: circle with d at the upper left, c at the left, b at the lower left, f at the right; chords from f to b, c, d; s and r within]
+
+[Curated heading level=2 type=propositions: Theorema quadragesimumsextum]
 
 [Curated heading level=2 type=theorems: Theorema quadragesimumsextum]
 
@@ -24,6 +28,8 @@ Esto, inquam, quod spectatur b c, oculus autem sit f, a quo procidant radij f b,
 
 [Diagram: circle segment with e and b at the upper corners, s and r within, f(?) at the left, d at the right; crossing chords]
 
+[Curated heading level=2 type=propositions: Theorema quadragesimumseptimum.]
+
 [Curated heading level=2 type=theorems: Theorema quadragesimumseptimum.]
 
 ## Theorema quadragesimumseptimum.
@@ -33,6 +39,8 @@ ESt aliquis locus in quo oculo permutato & uisile permanente, inæqualiter uisil
 Sit, inquam, uisile k d, recta autem linea b c. in ipsam k d, procidens, accipiaturq̃ per 9 sexti ele. ipsius d c & c k, media proportionalis c f, & connectatur f k, & f d. Super autem k d, segmentum describatur acutum habens angulum q, tangit autem rectam lineam b c. Quoniam est sicut d c, ad c f, sic c f ad c k, ponatur igitur circulus in b, signo, protendaturq̃ d b, b k, connectatur f d, igitur angulus q, æqualis est per 21 tertij elementorū, angulo f, in eodem nanq̃ est segmento, & angulus f, angulo b, maior est. & angulus q, igitur angulo b, maior est. oculo igitur in f, existente, maior apparet k d, q̃ si oculus in b positus fuerit.
 
 [Diagram: b at the top left; from d at the lower left lines run to k and e at the lower right; arcs over the base with s and f at the top and q within]
+
+[Curated heading level=2 type=propositions: Theorema quadragesimumoctauum.]
 
 [Curated heading level=2 type=theorems: Theorema quadragesimumoctauum.]
 

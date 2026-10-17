@@ -6,6 +6,8 @@ tionibus circuli, quarũ portionũ latera quadrati sunt chordæ, diuisis arcubus
 
 [Diagram: circle with inscribed square and octagon; labels c (upper left), f (upper right), d (lower left), e (lower right) in the segments between square and circle; below, a rounded oblong figure labelled b]
 
+[Curated heading level=2 type=propositions: Theorema 10 Propositio 10]
+
 [Curated heading level=2 type=theorems: Theorema 10 Propositio 10]
 
 ## Eucli ex Zamb. Theorema 10 Propositio 10

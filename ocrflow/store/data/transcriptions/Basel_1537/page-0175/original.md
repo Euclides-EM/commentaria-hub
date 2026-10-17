@@ -4,6 +4,8 @@
 
 ponatur ε ξ, totum igitur α ξ, æquum est ipsi φ χ ψ, gnomoni. Sed φ χ ψ gnomon æqualis est ipsi γ. Igitur α ξ, ipsi γ est æquale. Ad datam igitur rectam lineam α β, dato rectilineo γ, æquale parallelogrammum comparatum est α ξ, excedens specie parallelogrammo π ο simili existente ipsi δ. Igitur δ, simile est ipsi β ξ, & β ξ. ipsi ο π, est simile, circum enim eandem dimetientem consistunt, quod fecisse oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 29.]
+
 ## Eucli.ex Camp. Propositio 29.
 
 [Curated heading level=3 type=campanus_sequence: 29.]
@@ -17,6 +19,8 @@ QVamlibet lineam propositam, secundum proportionem habentem medium duóque extre
 CAMPANVS Sit proposita linea a b: quam uolo diuidere secundũ proportionem habentẽ mediũ & duo extrema. Ex ipsa describo quadratum b c: & ad eius latus a c adiungo secundũ quod docet præmissa, parallelogrammũ c d æquale quadrato b c: quod sit simile b c, sitque latus parallelogrãmi c d, quod æquidistat a c: d e, & secet lineã a b in pũcto f. Dico, lineã a b esse diuisam in puncto f sicut proponitur. Est enim a d quadratũ, propter id quod est simile b c, quare a f. est æquale f d, sed & f e est æqualis a b: propter id quod est æqualis a c per 34 primi, & quia c d æquale b c: dempto ab utroque c f: erit a d æquale e b. & angulus f unius angulo f alterius. ergo per 15 huius latera sunt mutekefia: ergo e f ad f d sicut a f ad f b: & quia e f est æqualis a b, & f d: erit a b ad a f sicut a f ad f b: ergo per diffinitionem est diuisa ut proponitur. Idẽ etiã potest demõstrari ex 11 secũdi. Diuidatur enim a b in puncto f: secundũ quod docet 11 secundi, sitque c b quod continetur sub tota a b & eius parte f b: ita quod f e sit æqualis a b & a d sit quadratum a f: est itaque per prædictã 11 secũdi e b: æquale a d. Quod restat arguere ut prius per 15 huius, uel sic: cum A b sit diuisa in puncto f secundum quod docet 11 secundi: quod fit ex a b prima in f b tertiam est æquale quadrato a f secundæ: ergo per secundã partem 16 huius proportio a b primæ ad a f, secũdam est sicut a f secundæ ad f b tertiã: per diffinitionem itaque diuisa est a b ut proponitur.
 
 [Diagram: rectangle with c at top left and a at top right, divided by a vertical line toward the right and a horizontal line below; e on the left side, f and d at the right of the vertical divider, b at bottom right]
+
+[Curated heading level=2 type=propositions: Problema 10 Propositio 30]
 
 [Curated heading level=2 type=problems: Problema 10 Propositio 30]
 
@@ -41,6 +45,8 @@ THEON ex Zamberto. Sit data recta linea terminata α β, oportet iam ipsam α β
 [Diagram: tall rectangle divided by a horizontal line at α on the left side and by a vertical line; δ at upper right, ε and β at middle right, γ and ζ at the bottom]
 
 ALITER Sit data recta linea α β, oportet ipsam iã α β, extrema, & media ratione secare, secetur enim α β, in γ, (per 11 secundi): ut quod sub α β, & β γ, æquum sit ei quod ex γ α, quadrato. Quoniã igitur quod sub α β & β γ. æquũ est ei quod ex γ α, est igitur (per 17 huius) sicut β α, ad α γ sic α γ, ad γ β. Igitur α β, media & extrema diuisa est ratione in γ, quod oportebat facere.
+
+[Curated heading level=2 type=propositions: Propositio 30]
 
 ## Eucli.ex Camp. Propositio 30
 

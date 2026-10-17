@@ -10,6 +10,8 @@ ALITER idem ostendere. Intra circulum enim α β γ, suscipiatur signũ δ, & ab
 
 [Diagram: circle with diameter ζ η through ε and δ; lines from δ to β and γ on the circumference]
 
+[Curated heading level=2 type=propositions: Propositio 10.]
+
 ## Eucli. ex Camp. Propositio 10.
 
 [Curated heading level=3 type=campanus_sequence: 10.]
@@ -23,6 +25,8 @@ SI circulus circulum secet, in duobus tantum locis secare necesse est.
 CAMPANVS Sint si possibile est, duo circuli, secãtes se in pluribus quàm in duobus locis, super tria puncta a b c, producam lineas a b & a c, quas diuidam per æqualia in pũctis d & e, & producam a puncto e, lineam e f, perpendicularem super lineam a c, & a puncto d, lineã d f, perpendicularem super lineam a b, & secent se duæ lineæ e f & d f, in puncto f, eritq̃ per correlarium primæ huius, pũctum f, centrũ circuli utriusq̃ quod est impossibile per 5 huius.
 
 [Diagram: two circles overlapping in a lens shape; a at the upper left, b at the upper right, d and e within, f below them, c at the lower left]
+
+[Curated heading level=2 type=propositions: Theorema 9. Propositio 10.]
 
 [Curated heading level=2 type=theorems: Theorema 9. Propositio 10.]
 

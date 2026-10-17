@@ -4,6 +4,8 @@
 
 Et qui ex δ ε, ε ζ, igitur una cum ijs qui bis sub δ ε, ε ζ, ad eum qui sub δ ε, ε ζ, primi sunt. Diuidendo quoq̃, qui ex δ ε, ε ζ, una cum eo qui sub δ ε, ε ζ, primi sunt ad eum qui sub δ ε, ε ζ. Insuper diuidendo, qui ex δ ε, δ ζ, ad eum qui sub δ ε, ε ζ, primi sunt. Est autem qui ex δ ε, ipse α, qui ex ε ζ, ipse γ, qui uero sub δ ε, ε ζ, ipse β. Ipsi ergo α, γ, compositi, ad β primi sunt, quod ostendere oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 17]
+
 ## Eucli. ex Camp. Propositio 17
 
 [Curated heading level=3 type=campanus_sequence: 17.]
@@ -17,6 +19,8 @@ Et qui ex δ ε, ε ζ, igitur una cum ijs qui bis sub δ ε, ε ζ, ad eum qui 
 CAMPANVS. Sint a & b contra se primi, dico impossibile esse, aliquem eis in continua proportionalitate adiungi. Si enim potest, sit c, quia igitur a ad b, sicut b ad c, sunt autem a & b in sua proportione minimi per 23 septimi, sequitur per 21 eiusdem, ut a numeret b, qui cum etiam numeret se, non erunt a & b contra se primi, quod est contrarium positioni.
 
 [Diagram: solid line c; dotted lines b, a]
+
+[Curated heading level=2 type=propositions: Theorema 16 Propositio 16]
 
 [Curated heading level=2 type=theorems: Theorema 16 Propositio 16]
 
@@ -34,6 +38,8 @@ THEON ex Zamber. Bini enim numeri α,β, primi sint adinuicem. Dico quod non est
 
 [Diagram: solid line γ; dotted lines β, α]
 
+[Curated heading level=2 type=propositions: Propositio 18]
+
 ## Eucli. ex Camp. Propositio 18
 
 [Curated heading level=3 type=campanus_sequence: 18.]
@@ -47,6 +53,8 @@ THEON ex Zamber. Bini enim numeri α,β, primi sint adinuicem. Dico quod non est
 CAMPANVS. Sint a, b, c, continue proportionales, sintq̃ a & c contra se primi: dico quod in eadem proportione non potest eis adiungi alius. Si enim potest, sit d. Quia igitur est a ad b sicut c ad d, erit permutatim a ad c, sicut b ad d, sunt autem a & c, in sua proportione minimi, per 23 septimi, itaq̃ per 21 eiusdem a numerat b, quare etiam numerat c, numerorū enim continue proportionaliū, si primus numerat secundum, ipse numerat omnes, & simpliciter quilibet præcedens quemlibet sequentem, at quia etiam numerat se, non erunt a & c contra se primi, quod est inconueniens.
 
 [Diagram: solid line d; dotted lines c, b, a]
+
+[Curated heading level=2 type=propositions: Theorema 17 Propositio 17]
 
 [Curated heading level=2 type=theorems: Theorema 17 Propositio 17]
 

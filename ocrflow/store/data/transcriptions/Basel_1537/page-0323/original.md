@@ -14,6 +14,8 @@ Intelligendū est hoc de quātitatibus eodem modo relatis, ut cum prima maior fu
 
 [Diagram: four horizontal lines labeled a, b, c, d]
 
+[Curated heading level=2 type=propositions: Propositio 74]
+
 ## Eucli. ex Camp. Propositio 74
 
 [Curated heading level=3 type=campanus_sequence: 74.]

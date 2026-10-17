@@ -6,6 +6,8 @@ les. Quoniam igitur est sicut α ε, ad ε β, sic est γ ζ ad ζ δ, est igitu
 
 [Diagram: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]
 
+[Curated heading level=2 type=propositions: Propositio 101]
+
 ## Eucli.ex Camp. Propositio 101
 
 [Curated heading level=3 type=campanus_sequence: 101.]
@@ -21,6 +23,8 @@ Figura propositionis 100
 OMnis linea communicans lineæ cum rationali componenti mediale, est cum rationali componens mediale.
 
 CAMPANVS Hanc quoque duplici prædicto modo non est difficile probare, siue de communicantia in lōgitudine siue in cōmunicantia in potētia tantum intelligatur. Sed quantū ad primum modū, erunt duo quadrata duarū linearum f & d pariter accepta mediale per 21, quemadmodū sunt duo quadrata duarum linearum e & c pariter accepta ex 72, quibus ipsa cōmunicant, & superficies l erit rationalis, per diffinitionem, quemadmodum est superficies K ex 72 cui ipsa cōmunicat. Igitur ex 72 b est cum rationali cōponens mediale. Quantum ad secundum modum, erit d e residuum quintum ex 69, ideoq̃ & e g ex 98. quare b est cum rationali componens mediale per 90.
+
+[Curated heading level=2 type=propositions: Theorema 82 Propositio 106]
 
 [Curated heading level=2 type=theorems: Theorema 82 Propositio 106]
 
@@ -38,6 +42,8 @@ THEON ex Zamb. Esto cum rationali medium totum efficiens α β, & ipsi α β cō
 
 [Diagram: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]
 
+[Curated heading level=2 type=propositions: Propositio 102]
+
 ## Eucli.ex Camp. Propositio 102
 
 [Curated heading level=3 type=campanus_sequence: 102.]
@@ -53,6 +59,8 @@ Figura eadē
 OMnis linea commensurabilis lineæ cum mediali constituēs mediale, est cum mediali constituens mediale.
 
 CAMPANVS Hic quoque pone lineam aliquam communicare cum ea quæ cum mediali componit mediale, indifferenter in longitudine uel potentia tantum prout uolueris, & duplici modo præmisso sine difficultate cōcludes eam quoque cum mediali componere mediale. Erit etiam quantum ad primum modum, superficies l medialis quemadmodum & k, & duo quoque quadrata duarum linearum f d pariter accepta mediale, sicut & duo quadrata duarum e & c. Et quia duo quoque duarum linearum e & c ad K sicut duo duarum f & d ad l, cum duo prima non communicent cum dupso{printer-error-correction:duplo} K ex 73, neque duo secunda communicabunt cum duplo l ex 10. Igitur ex 73 b est cum mediali cōponens mediale. Quantum autem ad secundum modum, erit d e residuum sextum ex 97, ideoq̃ & e g ex 98. Quare b est cum mediali cōponens mediale ex 91.
+
+[Curated heading level=2 type=propositions: Theorema 83 Propositio 107]
 
 [Curated heading level=2 type=theorems: Theorema 83 Propositio 107]
 

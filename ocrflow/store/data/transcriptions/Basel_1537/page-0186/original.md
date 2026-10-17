@@ -6,6 +6,8 @@
 
 [Diagram: dot-rows: βγ (row of dots with interior point η), δ (4 dots), εζ (row of dots with interior point θ)]
 
+[Curated heading level=2 type=propositions: Propositio 6]
+
 ## Euclides ex Campano. Propositio 6
 
 [Curated heading level=3 type=campanus_sequence: 6.]
@@ -21,6 +23,8 @@ CAMPANVS. Quod proposuit præmissa de parte, proponit ista de partibus. Sint ita
 [Diagram: dot-rows: a (7 dots) with c (12 dots); b (4 dots) with d (8 dots); g; e (2 dots) with f (4 dots); b (2 dots) and k (3 dots)]
 
 CAMPANI annotatio. Potes autem & per hanc & præmissam, quod proponit de quatuor numeris, ad quotlibet numeros ampliare, quot si quotlibet numeri minores ad totidem maiores comparentur, fuerintq̃ singuli singulorum tota pars aut partes, quota uel quotæ primus secūdi, erunt quoq̃ omnes pariter accepti tota pars aut partes omnium pariter acceptorū, quota uel quotæ primus secundi, quod facile probatur per hanc & præmissam, quoties oportuerit repetitas. Et si crederemus esse intentionem Euclidis assumere ex prius demonstratis, aliqua ad demonstrationem eorum quæ hic proponit, ex 11 quinti facile demonstrassemus hanc sextam. Nunc autem quia uidetur oppositum (aliter enim superuacue proposuisset multa de numeris, quæ demonstrata sunt in quinto de quantitatibus in genere) necesse habuimus proprijs uti demonstrationibus tanquā ex prioribus nihil sumentes, solis huius septimi contenti principijs: propter quod & petitiones & communes animi conceptiones, proposito proprias non inconuenienter huius septimi principio apposuimus.
+
+[Curated heading level=2 type=propositions: Theorema 4 Propositio 6]
 
 [Curated heading level=2 type=theorems: Theorema 4 Propositio 6]
 

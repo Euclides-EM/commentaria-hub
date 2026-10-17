@@ -14,7 +14,11 @@ F I N I S.
 
 [Curated heading level=1 type=books: Book 14]
 
+[Curated heading level=1 type=campanus_sequence: EVCLIDI MEGARENSI CLARISSIMO PHILOSOPHO MATHEMATICORVMQVE facile principi deputatus liber de regularium corporū proportione Campano cōmentatore, qui in ordine est decimusquartus.]
+
 # EVCLIDI MEGARENSI CLARISSIMO PHILOSOPHO MATHEMATICORVMQVE facile principi deputatus liber de regularium corporū proportione Campano cōmentatore, qui in ordine est decimusquartus.
+
+[Curated heading level=2 type=propositions: Propositio 1]
 
 ## Eucli. ex Camp. Propositio 1
 

@@ -6,6 +6,8 @@ THEON ex Zāb. Esto cum medio mediū, totū efficiēs α β, & ipsi α β, cōme
 
 [Diagram: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]
 
+[Curated heading level=2 type=propositions: Propositio 103]
+
 ## Eucli.ex Camp. Propositio 103
 
 [Curated heading level=3 type=campanus_sequence: 103.]
@@ -21,6 +23,8 @@ CAMPANVS Sit enim tota superficies cōstās ex a & b, rationalis. a qua detrahat
 [Diagram: a rectangle divided by a horizontal line into an upper part b and a lower part a]
 
 [Diagram: a larger rectangle on base c d (c bottom-left, d bottom-right), divided by a horizontal line f–e (f on the left side, e on the right side), with g at the top right]
+
+[Curated heading level=2 type=propositions: Theorema 84 Propositio 108]
 
 [Curated heading level=2 type=theorems: Theorema 84 Propositio 108]
 
@@ -39,6 +43,8 @@ THEON ex Zamb. A rōnali enim β γ, auferatur media β δ. Dico quod quæ reliq
 [Diagram: rectangle β γ divided by a vertical line ε δ: β above the top-left corner, ε above the top of the dividing line, α(?) below the bottom-left corner, δ below the bottom of the dividing line, γ below the bottom-right corner]
 
 [Diagram: rectangle with ζ above the top-left corner, κ above the top edge towards the right, η above the top-right corner; a vertical line runs down from κ; θ below the bottom-left corner, λ below the bottom of the dividing line]
+
+[Curated heading level=2 type=propositions: Propositio 104]
 
 ## Eucli.ex Camp. Propositio 104
 

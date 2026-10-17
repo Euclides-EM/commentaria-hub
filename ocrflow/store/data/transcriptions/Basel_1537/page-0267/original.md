@@ -6,6 +6,8 @@ surabilis est quoque γ ipsi ζ,sed si α,ipsi ε,incommensurabilis est,incommen
 
 [Diagram: six vertical lines of differing heights labelled at foot α, β, ε, γ, δ, ζ]
 
+[Curated heading level=2 type=propositions: Theorema 12 Propositio 15]
+
 [Curated heading level=2 type=theorems: Theorema 12 Propositio 15]
 
 ## Eucli.ex Zamb. Theorema 12 Propositio 15
@@ -22,6 +24,8 @@ THEON ex Zamb. Cōponantur binæ magnitudines cōmensurabiles α β,β γ.Dico q
 
 [Diagram: horizontal line marked α, β, γ; beneath it a shorter line labelled δ]
 
+[Curated heading level=2 type=propositions: Theorema 13 Propositio 16]
+
 [Curated heading level=2 type=theorems: Theorema 13 Propositio 16]
 
 ## Eucli.ex Zamb. Theorema 13 Propositio 16 Præcedentis conuersa.
@@ -33,6 +37,8 @@ Si binæ magnitudines incommensurabiles compositæ fuerint,& tota utriq̃ ipsaru
 THEON ex Zamb. Cōponantur enim binæ magnitudines incommensurabiles α β,β γ. Dico quod tota α γ,utrique ipsarū α β,β γ,incōmensurabilis est.Si enim γ α,& α β,incommensurabiles nō sunt,ipsas aliqua metietur magnitudo (per 1 diffinitionē decimi,)metiatur si est possibile:sitq̃ δ,Quoniam igitur δ ipsas γ α,& α β,metitur,& reliquam β γ metietur,metitur autem & α β,igitur δ,ipsas α β,& β γ metietur.Commensurabiles igitur(per 1 diffinitionem decimi,)sunt ipsæ α β,β γ.Supponuntur autem quod & incommensurabiles,quod est impossibile,ipsas igitur α β,& α γ,aliqua magnitudo non metietur.Incommensurabiles igitur sunt ipsæ γ α,& α β.Similiter iam demonstrabimus,quod & ipsæ α γ,& γ β,incōmensurabiles sunt. Sed iam ipsa α γ,uni ipsarum α β,& β γ,incommēsurabilis esto,& primum ipsi α β.Dico quod & ipsæ α β,β γ,incommensurabiles sunt.Si enim sunt cōmensurabiles, metietur eas aliqua magnitudo(per eādē)metiatur,sitq̃ δ.Quoniā igitur δ ipsas α β,& β γ metitur,& totā igitur α γ metietur metitur autem & α β.Igitur δ,ipsas γ α,& α β metitur.Cōmensurabiles igitur sunt ipsæ γ α & α β.Suppositæ uero sunt quod & incommensurabiles,quod est impossibile.Ipsas igitur α β,& β γ,aliqua maguitudo{printer-error-correction:magnitudo} nō metietur. Incommensurabiles igitur sunt ipsæ α β,β γ.Similiter iam demonstrabitur quod ipsa α γ,reliquæ β γ, incommensurabilis est.Si binæ igitur magnitudines,& quæ sequuntur reliqua,quod erat ostendendum.
 
 [Diagram: horizontal line marked α, β, γ; beneath it a shorter line labelled δ]
+
+[Curated heading level=2 type=propositions: Propositio 13]
 
 ## Eucli.ex Camp. Propositio 13
 

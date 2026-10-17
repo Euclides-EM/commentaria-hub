@@ -4,6 +4,8 @@
 
 itaque superficies e est irrationalis, & eius latus tetragonicum quod est a c, ut in præmissis, quare constat propositum. Si autem duplũ superficiei a b in b c non essei{printer-error-correction:esset} incommensurabile ambobus quadratis pariter acceptis, esset rationalis in potentia tantum incõmensurabilis in longitudine lineæ d e, per 19 igitur esset superficies e h medialis, eiusque latus tetragonicum quod est a c, linea medialis.
 
+[Curated heading level=2 type=propositions: Theorema 29 Propositio 41]
+
 [Curated heading level=2 type=theorems: Theorema 29 Propositio 41]
 
 ## Eucli. ex Zamb. Theorema 29 Propositio 41

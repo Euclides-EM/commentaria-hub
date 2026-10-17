@@ -6,6 +6,8 @@ potentia tantum cõmensurabiles. Dico quod ipsa α β, ad aliud signum nõ diuid
 
 [Diagram: horizontal line with points α, δ, γ, β]
 
+[Curated heading level=2 type=propositions: Propositio 37]
+
 ## Eucli. ex Camp. Propositio 37
 
 [Curated heading level=3 type=campanus_sequence: 37.]
@@ -19,6 +21,8 @@ potentia tantum cõmensurabiles. Dico quod ipsa α β, ad aliud signum nõ diuid
 CAMPANVS. Sit quoq̃ hic linea a b, bimediale primũ, diuisa in duas lineas mediales potentia tantum cõmunicantes superficiemq̃ rationalem continentes, ex quibus 31 asserit eam componi, quæ sint a c & c b. Dico quod impossibile est eam diuidi in alias duas lineas sub earum diffinitione. Quod si possibile fuerit, diuidam eam in puncto d, assumptaq̃ linea rationali e f, adiungatur ei e g æqualis duobus quadratis duarum linearũ a c & c b, & superficies f h æqualis quadrato a b, & superficies f k æqualis quadratis duarũ linearum a d & d b, eritq̃ per quartam secundi g h æqualis duplo superficiei a c in c b, & per eandem erit k l æqualis duplo superficiei a d in d b, propter hypothesin quoq̃ erit utraq̃ duarũ superficierũ e g & k f medialis, & utraq̃ duarum linearũ g h & k l rationalis, hoc autem impossibile, esset enim per primũ superficies k g, irrationalis ex 22, per secundam autem eadem esset rationalis ex diffinitione & 9. Quod est inconueniẽs.
 
 [Diagram: horizontal line with points a, d, c, b; below, a tall rectangle on the line e f, divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]
+
+[Curated heading level=2 type=propositions: Theorema 31 Propositio 43]
 
 [Curated heading level=2 type=theorems: Theorema 31 Propositio 43]
 
@@ -35,6 +39,8 @@ Ex binis medijs prima, ad unũ duntaxat signum diuiditur in nomina.
 THEON ex Zamb. Esto ex binis prima medijs α β diuisa in γ, ut ipsæ α γ, γ β, mediæ sint potentia tantum cõmensurabiles rationale cõprehendentes. Dico quod ipsa α β, ad aliud signum nõ discinditur. Si enim possibile, diuidatur in δ, ut α δ & δ β sint potentia mediæ tantum cõmensuxabiles{printer-error-correction:cõmensurabiles} rationale cõprehendentes. Quoniam igitur quo differt qd̃ bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, differũt quæ ex α γ, γ β, ab eis quæ ex α δ, δ β, rationali autem differt quod bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, rationalia enim utraq̃. Rationali igitur differunt & quæ ex α γ, γ β, ab eis quæ ex α β{printer-error-correction:α δ}, δ β, media existentia. quod est impossibile. Ex binis igitur medys prima, ad aliud & aliud signum non diuiditur in nomina, ad unum duntaxat igitur, quod erat demonstrandũ.
 
 [Diagram: horizontal line with points α, δ, γ, β]
+
+[Curated heading level=2 type=propositions: Propositio 38]
 
 ## Eucli. ex Camp. Propositio 38
 

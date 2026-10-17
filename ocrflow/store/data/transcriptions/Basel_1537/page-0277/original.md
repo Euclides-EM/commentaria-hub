@@ -6,6 +6,8 @@ linea e g sit rationalis in longitudine sicut sua æqualis c d, erit per 16 line
 
 [Diagram: a rectangle divided by a horizontal line into a smaller upper part b and a larger lower part a; beside it a rectangle with f at top left, divided by a horizontal line e–g, with c at bottom left and d at bottom right]
 
+[Curated heading level=2 type=propositions: Propositio 23]
+
 ## Eucli.ex Camp. Propositio 23
 
 [Curated heading level=3 type=campanus_sequence: 23.]

@@ -6,6 +6,8 @@ Vt si sit a ad b, sicut d ad f, & b ad e, sicut c ad d, erit a ad e, sicut c ad 
 
 [Diagram: dot-rows in the right margin labelled g (12 dots); h (8 dots); a and c; b and d; c and f; k]
 
+[Curated heading level=2 type=propositions: Theorema 16 Propositio 18]
+
 [Curated heading level=2 type=theorems: Theorema 16 Propositio 18]
 
 ## Eucli.ex Zamb. Theorema 16 Propositio 18
@@ -21,6 +23,8 @@ Si duo numeri numerum aliquem multiplicantes, fecerint aliquos, geniti ex eis ea
 THEON ex Zamberto. Duo enim α, β. numerum aliquem δ multiplicantes, efficiant ipsos δ,ε. Dico quod est sicut α ad β, sic est δ ad ε. Quoniā α enim multiplicans ipsum γ. fecit ipsum δ, & γ igitur ipsum α multiplicans, facit ipsum δ. Id propterea γ ipsum β multiplicans, ipsum ε fecit. Numerus iam γ duos numeros α, β, multiplicans, fecit ipsos δ, ε. Est igitur (per 17 septimi) sicut α ad β, sic est δ ad ε, quod oportuit demonstrasse.
 
 [Diagram: dot-rows in the right margin labelled α, β, γ, δ (12 dots), ε (15 dots)]
+
+[Curated heading level=2 type=propositions: Propositio 20]
 
 ## Eucli. ex Camp. Propositio 20
 

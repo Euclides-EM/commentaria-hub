@@ -18,6 +18,8 @@ LEMMA siue assumptio. Quoniā igitur demōstratū est quod si κ excedit μ, ips
 
 CORRELARIVM Hinc manifestū est quod si quatuor magnitudines proportionales fuerint, & contra quoque proportionales erunt.
 
+[Curated heading level=2 type=propositions: Propositio 5]
+
 ## Eucli. ex Camp. Propositio 5
 
 [Curated heading level=3 type=campanus_sequence: 5.]
@@ -33,6 +35,8 @@ SI fuerint duæ quantitates quarum una sit pars alterius, minuaturque ab utraque
 CAMPANVS Sit quantitas a b tota pars quantitatis c d, quota este b ipsius a b, minuaturq̃ a b ex quātitate c d, & sit residuū f c, eritq̃ f d, æqualis b, similiter quoq̃ minuatur e b ex quātitate a b, sitq̃ residuum e a. Dico quod quota pars est quātitas a b quantitatis c d tota est quantitas a e quantitatis c f. Cū enim f d sit æqualis a b, erit f d ita multiplex e b, sicut c d est multiplex e b, ponā itaq̃ g ita multiplicē a e, sicut f d, est multiplex e b, eritq̃ ex prima huius quātitas f g ita multiplex a b, sicut f d, est multiplex e b, & quia sic fuit c d, multiplex a b, sicut f d, fuit multiplex e b erit utraque duarū quantitatū c d, g f, æque multiplex quātitatis a b, quare per cōmunem scientiam, c d & f g sunt æquales adinuicem, dempta igitur ab utraq̃ earū, quātitate f d, erit c f æqualis g. Et quia d g fuit ita multiplex a e sicut f d, e b, & ideo sicut a b, e b. quare & sicut c d, a b, erit c f, ita multiplex a e, sicut tota c d totius a b, quod erit propositum.
 
 [Diagram: horizontal line segments with points c, f, d and a, e, b in the text column]
+
+[Curated heading level=2 type=propositions: Theorema 5 Propositio 5]
 
 [Curated heading level=2 type=theorems: Theorema 5 Propositio 5]
 

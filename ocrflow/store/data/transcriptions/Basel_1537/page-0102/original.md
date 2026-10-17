@@ -4,6 +4,8 @@
 
 quoq̃ modo probabitur quēlibet partialiū angulorū à prædictis diametris & lateribus quadrati propositi contentorū, esse medietatē recti. Quia igitur angulus e a d, est æqualis angulo e d a, erit per 6 primi, linea e a, æqualis lineæ e d. Eadem ratione erit e a æqualis e b, & e c, æqualis e d, quare quia quatuor lineæ a, e b, c, e d, sunt æquales, erit per 9 tertij, e centrum circuli quæsiti, quod est propositum.
 
+[Curated heading level=2 type=propositions: Problema 9 Propositio 9]
+
 [Curated heading level=2 type=problems: Problema 9 Propositio 9]
 
 ## Eucli.ex Zamb. Problema 9 Propositio 9
@@ -19,6 +21,8 @@ Circa datum quadratum, circulum describere.
 THEON ex Zamberto. Sit datum quadratum α β γ δ, oportet iam circa α β γ δ, quadratum, circulum describere. Coniunctæ rectæ lineæ α γ, & β δ, sese inuicem secent in ε. Et quoniam æqualis est δ α, ipsi α β, communis autem α γ, duæ igitur δ α, & α γ, duabus β α, & α γ, sunt æquales, altera alteri, & basis δ γ, (per 4 primi,) basi β γ, est æqualis angulus igitur δ α γ, (per 8 primi) ei qui sub β α γ, est angulo æqualis est. Angulus igitur δ α β, bifariam diuisus est, per lineam α γ. Similiter iam ostendemus quod & unusquisq̃ angulorum qui sunt sub α β γ, & β γ δ, & γ δ α, bifariam diuisus est per α γ, & δ β, rectas lineas. Et quoniam angulus δ α β, æqualis est angulo α β γ, & anguli δ α β, angulus ε α β, dimidium est, & anguli α β γ, dimidium est angulus ε β α, & angulus igitur ε α β, angulo ε β α, est æqualis, quare (per 6 primi,) & latus ε α, lateri ε β, est æquale. Similiter iam ostendemus quod & utraque ipsarum ε γ, & ε δ, rectarum linearum, utrique ipsarum ε α, & ε β, est æqualis. Quatuor igitur ε α, ε β, ε γ, ε δ, sibi inuicem sunt æquales. Cētro igitur ε, spatio uero aut ε α, aut ε β, aut ε γ, aut ε δ, circulus descriptus, trāsibit per reliqua signa & erit descriptus circa α β γ δ, quadratum, describatur sicut α β γ δ. Circa datum igitur quadratum, circulus descriptus est, quod fecisse oportuit.
 
 [Diagram: square α β γ δ set diagonally with diagonals α γ and β δ meeting at ε, circumscribed circle through the four corners]
+
+[Curated heading level=2 type=propositions: Propositio 10]
 
 ## Eucli.ex Camp. Propositio 10
 

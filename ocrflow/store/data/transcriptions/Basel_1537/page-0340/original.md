@@ -4,6 +4,8 @@
 
 tur est γ μ, ipsi ζ μ longitudine. Et utræque sunt rationales. Ipsæ igitur γ μ, μ ζ, rationales sunt potentia tantum commensurabiles. Apotome igitur est γ ζ. Dico quod & tertia. Quoniā enim quod ex α η commensurabile est ei quod ex β η, cōmensurabile igitur est γ θ ipsi κ λ, quare & γ κ, ipsi κ μ. Et quoniā eorū quæ ex α η, η β, (per lēma 53 decimi) medium proportionale est quod sub α η, η β, & ei quidem quod ex α η æquum est γ θ, ei autem quod ex η β æquum est κ λ, ei autem quod sub α η, η β, æquum est ν λ, & ipsorum γ θ, κ λ, igitur (per lemma 53 decimi) medium proportionale est ν λ. Est igitur sicut γ θ ad ν λ, sic est ν λ ad κ λ, Sed sicut γ θ ad ν λ, sic (per 1 sexti) est γ κ ad ν μ, sicut autem ν λ, ad κ λ, sic est ν μ, ad κ μ. Sicut igitur γ κ, ad ν μ, sic est ν μ, ad κ μ, quod igitur sub γ κ, κ μ, æquum est ei quod ex μ ν, hoc est quartæ parti eius quod ex ζ μ. Quoniam igitur binæ rectæ lineæ inæquales sunt γ μ, μ ζ, & quartæ parti eius quod ex ζ μ, (per 17 decimi,) æquum ad ipsam γ μ apponitur forma deficiēs quadrata, & in commensurabilia ipsam diuidit, igitur γ μ ipsa μ ζ maius potest eo quod ex sibi commensurabili. Et ipsarum γ μ, μ ζ, neutra commēsurabilis est longitudine ipsi γ δ expositæ rationali. Ipsa igitur γ ζ, (per 95 decimi apotome est tertia. Quod igitur ex mediæ apomæ{printer-error-correction:apotomæ} secunda ad rationalem cōparatū latitudinem, efficit tertiam apotomen, quod erat ostendendum.
 
+[Curated heading level=2 type=propositions: Propositio 95]
+
 ## Eucli.ex Camp. Propositio 95
 
 [Curated heading level=3 type=campanus_sequence: 95.]
@@ -19,6 +21,8 @@ CAMPANVS Si fuerit d e linea minor, asserit hæc 95 ꝙ b c erit residuū quart�
 [Diagram: square with g at top-left corner and b at bottom-right corner; f midpoint of top side, d midpoint of bottom side, k (partially inked) midpoint of left side, l midpoint of right side; vertical f d and horizontal k l cross at centre e; diagonal g b drawn]
 
 [Diagram: tall rectangle with bottom corners a and b; n at top right; three horizontal lines across it near the top, h–m, p–q and r–c, the labels h, p, r on the left side and m, q, c on the right side]
+
+[Curated heading level=2 type=propositions: Theorema 76 Propositio 100]
 
 [Curated heading level=2 type=theorems: Theorema 76 Propositio 100]
 

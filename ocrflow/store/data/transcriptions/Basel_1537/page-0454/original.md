@@ -2,6 +2,8 @@
 
 <!-- Page number: 443 -->
 
+[Curated heading level=2 type=propositions: Problema 4 Propositio 16]
+
 [Curated heading level=2 type=problems: Problema 4 Propositio 16]
 
 ## Eucli.ex Zamb. Problema 4 Propositio 16

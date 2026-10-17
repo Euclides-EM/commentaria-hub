@@ -6,6 +6,8 @@ a c est irrationalis, ideoq̃ & suum latus tetragonicum est etiã irrationale. D
 
 [Diagram: rectangle divided by a vertical line into two rectangles; labels a, b, d along the top and c below the middle]
 
+[Curated heading level=2 type=zamberti_sequence: THEON Lemma,]
+
 ## THEON Lemma,
 
 Potens irrationalem aream, irrationalis est.
@@ -13,6 +15,8 @@ Potens irrationalem aream, irrationalis est.
 Poßit enim α, irrationalem aream, hoc est id quod ex α, quadratum æquale irrationale areæ. Dico quod α irrationalis est: si enim est rationalis, erit rationale quoq̃ id quod ex α quadratum, sic enim in diffinitionibus, non est autem. Irrationalis igitur est α. Potens irrationalem igitur, & reliqua, quod erat demonstrandum.
 
 [Diagram: horizontal line segment labeled α]
+
+[Curated heading level=2 type=propositions: Theorema 18 Propositio 21]
 
 [Curated heading level=2 type=theorems: Theorema 18 Propositio 21]
 
@@ -29,6 +33,8 @@ Sub rationalibus potentia tantũ commensurabilibus rectis lineis comprehehensum{
 THEON ex Zamberto. Sub rationalibus enim potentia tantum commensurabilibus rectis lineis α β, & β γ comprehendatur rectangulum α γ, Dico quod α γ, irrationale est potensq̃ illud irrationalis est & media appellatur. Describatur enim (per 46 primi) ex α β, quadratum α δ, rationale igitur est ipsum α δ. Et quoniam incommensurabilis est α β, ipsi β γ, longitudine (potentia namq̃ tantum supponuntur cõmensurabiles) æqualis autem est α β ipsi β δ, incommensurabilis igitur est & β δ, ipsi β γ longitudine. Estq̃ sicut δ β ad β γ, sic est α δ, ad α γ, incommensurabile igitur est (per 11 decimi) δ α, ipsi α γ. Rationale autem est δ α, irrationale igitur est α γ, quare & ipsum potens α γ, hoc est potens æquale ei quadratum, irrationalis est: uoceturq̃ media, eo quia ex ipsa quadratum, æquale est ei quod α β, β γ, & eo quia ipsa media (per secundam partem 17 sexti,) proportionalis est ipsis α β, & β γ. Sub rationalibus igitur potentia tantum, & reliqua, quod oportuit demonstraße.
 
 [Diagram: rectangle divided by a vertical line into two rectangles; labels δ, β, γ along the top]
+
+[Curated heading level=2 type=propositions: Propositio 20]
 
 ## Eucli. ex Camp. Propositio 20
 

@@ -6,6 +6,8 @@ effecit. Igitur qui ex α,γ, ei qui ex ε,ζ, est æqualis. Est igitur sicut α
 
 [Diagram: vertical dotted lines from unitas labelled α, β, γ, δ, ε, θ, η, ζ with rotated values 4, 16, 64, 256, 2, 8, 32, 128]
 
+[Curated heading level=2 type=propositions: Propositio 13]
+
 ## Eucli. ex Camp. Propositio 13
 
 [Curated heading level=3 type=campanus_sequence: 13.]

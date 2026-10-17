@@ -10,6 +10,8 @@ A L I A ostensio, quod angulus qui sub β α γ rectus est. Quoniā angulus α �
 
 CORRELARIVM. Hinc manifestum est, quod si trianguli angulus unus, reliquis duobus æqualis fuerit, rectus est: eo quod illi contiguus (qui scilicet producto latere extra triangulum fit) eisdem est æqualis, sed quādo utrobiq̃ æquales fuerint, recti sunt.
 
+[Curated heading level=2 type=propositions: Propositio 31.]
+
 ## Eucli. ex Camp. Propositio 31.
 
 [Curated heading level=3 type=campanus_sequence: 31.]
@@ -28,6 +30,8 @@ CAMPANVS. Si recta linea a b, contingens circulum c d e f, cuius centrum g, in p
 
 [Diagram: circle c d e f with centre g; tangent line a d b touching the circle at d on top (a at left, b at right); chords d c, c f, d e, e f and secant d f; diameter d g h to h at bottom, with line f h drawn]
 
+[Curated heading level=2 type=propositions: Theorema 28. Propositio 32.]
+
 [Curated heading level=2 type=theorems: Theorema 28. Propositio 32.]
 
 ## Eucli. ex Zamb. Theorema 28. Propositio 32.
@@ -43,6 +47,8 @@ Si circulum tetigerit aliqua recta lines, à contactu autem ducta fuerit quædam
 THEON ex Zamberio. Circulum enim α β γ δ, tangat recta linea quædam ἡ ε ζ in β signo: & à signo β, ducatur recta linea quædam in circulum α β γ δ, eum secās, sitq̃ β δ. Aio quod anguli quos β δ simul cum ε ζ tangente conficit: angulis qui sunt in alternis segmentis circuli sunt æquales: hoc est quod angulus ζ β δ: æqualis est angulo existenti in β α δ segmento: & angulus ε β δ, æqualis est angulo existenti in δ γ β segmento. Excitetur enim (per 11 primi) ab ipso β, ipsi ε ζ ad rectos angulos β α. Sumaturq̃, in β δ circunferentia, signum utcunq̃: sitq̃ illud γ, & connectatur α δ, δ γ, γ β. Et quoniam circulum α β γ δ, quædam recta linea tangit ε ζ, & ex β contactu ducta est ipsi cōtingenti ad angulos rectos β α: in ipsa β α igitur centrum est circuli α β γ δ (per 19 tertij). Angulus igitur α δ β in semicirculo existens (per 31 tertij) rectus est. Reliqui igitur anguli β α δ & α β δ, uni recto sunt æquales. Angulus autem α β ζ, rectus est. Angulus igitur qui sub α β ζ, æqualis est eis qui sunt sub α δ β & δ β α angulis. Communis auferatur angulus α β δ. Reliquus igitur angulus δ β ζ, æqualis est angulo β α δ existenti in alterno segmento circuli. Et quoniā in circulo quadrilaterum est α β γ δ, anguli eius ex opposito duobus rectis sunt æquales (per 22 tertij), eis qui sunt sub β α δ & β γ δ anguli sunt æquales, δ β ζ & δ β ε. Quorū angulus β α δ, ostensum est q̃ æqualis est ipsi δ β ζ angulo. Reliquus igitur angulus qui sub δ β ε, angulo δ γ β in alterno segmento δ γ β existenti est æqualis. Si circulum igitur tetigerit aliqua recta linea, à contactu autem in circulum ducta fuerit aliqua recta linea eū circulum secans, anguli quos efficit ad tangentem, ijs qui in alternis circuli segmentis consistunt angulis æquales: quod erat demonstrandum.
 
 [Diagram: circle α β γ δ with α at top, δ at upper right, γ at right; tangent line ε ζ along the bottom touching the circle at β; chords β δ, δ γ, γ β and diameter β α]
+
+[Curated heading level=2 type=propositions: Propositio 32.]
 
 ## Eucli. ex Camp. Propositio 32.
 

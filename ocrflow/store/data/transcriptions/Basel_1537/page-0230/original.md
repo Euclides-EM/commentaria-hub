@@ -2,7 +2,11 @@
 
 <!-- Page number: 219 -->
 
+[Curated heading level=3 type=definitions: 7-9]
+
 7 Perfectus numerus appellatur, qui omnibus partibus suis quibus numeratur, est æqualis. 8 Abundans dicitur, qui omnibus suis partibus minor est. 9 Diminutus uero, qui maior.
+
+[Curated heading level=2 type=propositions: Propositio 1]
 
 ## Eucli. ex Camp. Propositio 1
 
@@ -15,6 +19,8 @@
 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duo numeri superficiales similes, qui ex ductu alterius in alterum producetur, numerū quadratū esse necesse est.
 
 CAMPANVS. Sint a & b superficiales similes, ex quorum multiplicatione proueniat c, dico c esse quadratū : fiat enim d ex a in se, eritq̃ per 18 septimi, d ad c, sicut a ad b, & quia inter a & b cadit medius secūdum continuam proportionalitatē per 16 octaui, sequitur per 8 eiusdem, ut unus quoq̃ cadat inter d & c, itaq̃ cum d sit quadratus, erit per 20 eiusdem. c quoq̃ quadratus, quod est propositū.
+
+[Curated heading level=2 type=propositions: Theorema 1 Propositio 1]
 
 [Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
 
@@ -31,6 +37,8 @@ Si bini similes plani numeri sese inuicem multiplicantes, aliquem fecerint, fact
 THEON ex Zamb. Sint bini similes plani numeri α, β, & α ipsum β multiplicans, ipsum efficiat γ. Dico quod γ quadratus est, ipse enim α seipsum multiplicans, ipsum δ efficiat, ipse igitur δ, quadratus est. Quoniam igitur α se ipsum multiplicans ipsum δ fecit, ipsum autem β muliplicans ipsum γ fecit: est igitur (per 17 septimi) sicut α ad β, sic δ ad γ. Et quoniam ipsi α, β, similes plani sunt numeri, unus medius (per 18 octaui) proportionalis cadit numerus ipsorum α, β. Si autē inter binos numeros continue proportionales, numeri proportionales ceciderint, quot inter ipsos cadunt totidem quoq́; (per 8 octaui) & inter eandem rationem habentes cadent. Quare & inter ipsos γ, δ, unus medius proportionalis numerus cadit: est autem ipse δ, quadratus, quadratus igitur est γ, quod ostendere oportuit.
 
 [Diagram: dotted number lines γ, δ, β, α with intermediate dotted lines]
+
+[Curated heading level=2 type=propositions: Propositio 2]
 
 ## Eucli. ex Camp. Propositio 2
 
@@ -51,6 +59,8 @@ CAMPANVS. Hæc est conuersa prioris. Vt si ex a in b fiat c, fueritq̃ c quadrat
 [Diagram: dotted number lines c, d, b, a with intermediate dotted lines]
 
 Prima pars correlarij patet per præmissam, sunt enim omnes tetragoni, superficiales similes. Secūda patet ex hac, cum sit solus tetragonus similis tetragono. Tertia pars patet, ex prima ipsius correlarij parte, à destructione consequētis. Quarta uero patet ex eiusdem parte secunda, à destructione consequentis.
+
+[Curated heading level=2 type=propositions: Theorema 2 Propositio 2]
 
 [Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
 

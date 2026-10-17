@@ -10,6 +10,8 @@ Excitetur ad angulos rectos ab ipso b signo ipsi a d per 31 primi ele. æqua & p
 
 [Diagram: a rectangle with a at top left, f at top middle, e at top right, and d, b, c along the base; a vertical line from f to b, and lines from a to b and from a to c]
 
+[Curated heading level=2 type=propositions: Theorema 65 Propositio 65]
+
 [Curated heading level=2 type=theorems: Theorema 65 Propositio 65]
 
 ## Theorema 65 Propositio 65
@@ -20,6 +22,8 @@ Esto triangulum acutum habens angulum a b c. Exciteturq́; ab ipso a per 12 prim
 
 [Diagram: a triangle with apex a at the top; base line with c at the left, d in the middle, b at the right; a vertical line from a to d]
 
+[Curated heading level=2 type=propositions: Theorema 66 Propositio 66]
+
 [Curated heading level=2 type=theorems: Theorema 66 Propositio 66]
 
 ## Theorema 66 Propositio 66
@@ -29,6 +33,8 @@ SI triangulum datum habuerit angulum, rectangulum sub datum angulum comprehenden
 Esto triangulum a b c, datum habens angulum eum qui ad a. Dico q̃ quod sub b a c ad a b c, triangulum rationē habet datam, excitetur enim per duodecimam primi elementorum ab ipso b in ipsam a c perpendicularis b d. Quoniam igitur angulus b a c, datus est. Est autem & qui sub a d b, angulus datus. Et reliquus igitur qui sub a b d angulus datur. Datur igitur a b d, triangulum specie. Ratio igitur ipsius a b ad b d data est. Sicut autem a b ad b d, sic quod sub b a c ad id quod sub b d a c. Quare & eius qui sub b a c, ad id quod sub b d a c ratio est data. Eius autem quod sub a c, b d ad a b c, triangulum ratio est data. Et eius qui sub b a c, igitur ad a b c, trianguli ratio est data.
 
 [Diagram: a triangle with apex a at the top, d on the right side below a, b at the lower left, c at the lower right; lines run from b to d and from b to the side a c]
+
+[Curated heading level=2 type=propositions: Theorema 67 Propositio 67]
 
 [Curated heading level=2 type=theorems: Theorema 67 Propositio 67]
 

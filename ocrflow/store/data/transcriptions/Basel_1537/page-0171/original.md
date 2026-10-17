@@ -4,6 +4,8 @@
 
 quæ circum æquales angulos. Simile igitur est (per primam diffinitionē sexti) parallelogrammū α β γ δ, parallelogrammo ε η. Id propterea, & parallelogrammum α β γ δ, parallelogrammo η θ, est simile, utrumq́ȝ igitur ipsorum ε η & θ κ, parallelogrammorum, ipsi α β γ δ, parallelogrammo simile est. Quæ autem eidem rectilineo similia, & sibi inuicem sunt similia (per 11 sexti) igitur & ε η, parallelogrammum ipsi θ κ, parallelogrammo simile est. Omnis igitur parallelogrammi quæ circa dimetientem parallelogrāma, similia sunt toti & adinuicem, quod erat demonstrandum.
 
+[Curated heading level=2 type=propositions: Problema 7 Propositio 25]
+
 [Curated heading level=2 type=problems: Problema 7 Propositio 25]
 
 ## Eucli. ex Zamb. Problema 7 Propositio 25
@@ -20,6 +22,8 @@ THEON ex Zamberto. Sit quidem datum rectilineum cui oportet simile constituere, 
 
 [Diagram: at top left a small square containing the point δ; at top right a triangle with apex α standing on the segment γ ζ; beneath them a long rectangle with β (top left), γ (top middle), ζ (top right), λ (bottom left), ε (bottom middle), μ (bottom right), divided by the vertical line γ ε into two parallelograms; below, a separate triangle with base corners η (left) and θ (right), its apex label κ faint]
 
+[Curated heading level=2 type=propositions: Theorema 19 Propositio 26]
+
 [Curated heading level=2 type=theorems: Theorema 19 Propositio 26]
 
 ## Eucli. ex Zamb. Theorema 19 Propositio 26
@@ -35,6 +39,8 @@ Si à parallelogrāmo parallelogrammū auferatur, simile toti & similiter positu
 THEON ex Zamberto. A parallelogrammo enim α β γ δ, parallelogrāmum auferatur α ζ, simile ipsi α β γ δ, & similiter positum, cōmunem angulū habens ei qui sub δ α β. Dico quod circum eandem diametrum est α β γ δ, ipsi α ζ. Non enim: at si possibile est, sit eorum dimetiens α η γ, & excitetur (per 31 primi, ab θ utrique ipsarum α δ, & β γ, parallelus θ κ. Quoniā igitur circum eandem dimetientem est α β γ δ, ipsi κ η, simile est (per 24 sexti,) α β γ δ, ipsi κ η, est igitur sicut δ α, ad α β. sic η α, ad α κ, (per conuersionem 1 diffinitionis sexti. Est autē propter similitudinem ipsorū α β γ δ, & ε η, sicut δ α, ad α β, sic η α, ad α ε. Igitur per 9 quinti,) η α, ad utrāque ipsarum α κ, & α ε, eandem habet rationem, æqualis igitur est α κ, ipsi α ε, minor maiori, quod absurdum est. Igitur α β γ δ, non est circa eandem dimetientem ipsi κ η. Circa eandem igitur dimetientem est α β γ δ, parallelogrammum, ipsi α ζ, parallelogrammo. Si à parallelogrammo igitur parallelogrāmū auferatur, simile toti & similiter positum cōmunem angulū habens ei, circa eandem dimetientem est toti. Quod ostendere oportebat.
 
 [Diagram: parallelogram with α (top left), ε (on the top side), δ (top right), γ (bottom right); on the left side the points η and θ with horizontal lines drawn from them; a vertical line down from ε; interior points θ and ζ at the crossings; the diagonal α γ and a second line from α through the inner corner to γ]
+
+[Curated heading level=2 type=propositions: Propositio 26]
 
 ## Eucli. ex Camp. Propositio 26
 

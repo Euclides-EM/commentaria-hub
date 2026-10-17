@@ -6,6 +6,8 @@ primi) baſi β ε eſt æqualis, & triãgulũ α β γ, triãgulo α β ε, eſ
 
 [Diagram: pentagon α β γ δ ε with diagonals drawn from the vertices and their intersection ζ; labels α (top), β (left), ε (right), γ (lower left), δ (lower right), ζ (within)]
 
+[Curated heading level=2 type=propositions: Propoſitio 8]
+
 ## Eucli. ex Camp. Propoſitio 8
 
 [Curated heading level=3 type=campanus_sequence: 8.]
@@ -23,6 +25,8 @@ OMnis trianguli æquilateri quod à latere ſuo quadratum, deſcribitur, triplum
 CAMPANVS Sit triangulus a b c æquilaterus, cui circũſcribatur circulus a b c ſupra centrum d, quemadmodum docet 5 quarti, & protrahatur in eo diameter a d e. Dico ergo qd̃ quadratũ lineæ a b triplũ eſt ad quadratũ ſemidiametri a d. Ducantur enim duæ lineæ b d & d c, & arcui b e, ſubtẽdatur chorda b e, eritq̃ ex 8 primi angulus b a d, æqualis angulo c a d, quare per ultimã ſexti arcus b e, eſt æqualis arcui e c. Et quia ex 27 tertij tres arcus a b, b c, & c a, ſunt adinuicẽ æquales, eo quod eorũ chordæ, quæ ſunt latera trigoni, ſunt æquales ex hypotheſi, erit arcus b e ſexta pars circũferentiæ, ideoq̃ chorda b e, erit latus hexagoni æquilateri ipſi circulo inſcripti. quare per correlarium 15 quarti, linea b e, eſt æqualis ſemidiametro a d. Manifeſtum eſt autem ex prima parte 30 tertij, quod angulus a b e eſt rectus, ideoq̃ quadratũ lineæ a e, eſt æquale quadratis duarũ linearũ a b & b e pariter acceptis, ex penultima primi. At uero quadratũ a e, quadruplũ eſt ad quadratum b e ex 4 ſecũdi, cũ linea a e ſit dupla b e, relinquitur ergo, quadratũ a b triplũ eſſe ad quadratũ b e, & ideo ad quadratũ a d. Quod eſt propoſitũ. Non lateat autem nos, quod linea b c quæ eſt latus trigoni, diuidat ſemidiametrum d e, per æqualia. Eſto quidẽ punctus diuiſionis, f. Conſtat igitur ex 4 primi, quod b f eſt æqualis f c, ideoq̃ per primã partẽ 3 tertij, oẽs anguli qui ſunt ad f, ſunt recti. quare ex penultima primi quadratũ b d, eſt æquale quadratis duarũ linearũ quæ ſunt b f & f d. Et quia b d eſt æqualis b e, erũt ex cõi ſcientia duo quadrata duarũ linearũ b f & f d pariter accepta æqualia duobus quadratis duarũ linearũ b f & f e pariter accceptis. Dempto igitur utrinq̃ quadrato b f, erit ex cõi ſciẽtia quadratum f d reſiduum, æquale quadrato f e reſiduo, quare & linea f d, lineæ f e. ex hac cõmuni ſcientia. quarum quadratũ ſunt æqualia eas lineas eſſe æquales. Ex hoc itaq̃ manifeſtum eſt, quod perpendicularis ducta à cẽtro circuli ad latus trigoni æquilateri ſibi inſcripti, æqualis eſt dimidio lineæ ductæ à centro eiuſdem circuli ad ipſius circunferentiam.
 
 [Diagram: circle with inscribed equilateral triangle; labels a (top vertex), d (centre), f (midpoint below d), b (left vertex), c (right vertex), e (bottom of the circle); radii and chords drawn]
+
+[Curated heading level=2 type=propositions: Propoſitio 9]
 
 ## Eucli. ex Camp. Propoſitio 9
 

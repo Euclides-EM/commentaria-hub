@@ -6,6 +6,8 @@ nem basis b d primi, est æqualis basi a c secundi, & anguli a d b primi, æqual
 
 [Diagram: parallelogram a b, c d with diagonal]
 
+[Curated heading level=2 type=propositions: Theorema 23. Propositio 33.]
+
 [Curated heading level=2 type=theorems: Theorema 23. Propositio 33.]
 
 ## Eucli. ex Zamb. Theorema 23. Propositio 33.
@@ -22,6 +24,8 @@ THEON ex Zamb. Sint æquales rectæ lineæ & paralleli, α β, & γ δ, & ipsas 
 
 [Diagram: parallelogram β α δ γ with diagonal β γ]
 
+[Curated heading level=2 type=propositions: Propositio 34.]
+
 ## Eucli. ex Camp. Propositio 34.
 
 [Curated heading level=3 type=campanus_sequence: 34.]
@@ -35,6 +39,8 @@ THEON ex Zamb. Sint æquales rectæ lineæ & paralleli, α β, & γ δ, & ipsas 
 CAMPANVS. Sit superficies a b c d æquidistantiū laterum, ita quòd linea a b æquidistet c d, & a c ipsi b d. Dico duas lineas a b & c d, item duas lineas a c & b d, esse æquales: similiter dico angulum a esse æqualem angulo d, & angulū b angulo c. Protraham diametrū a d, quæ etiam diuidet superficiem illam per medium. Cum a b & c d sint æquidistantes, erunt anguli b a d & a d c coalterni, æquales per uicesimamnonam. At quia etiam a c & d b sunt æquidistantes, erunt anguli c a d & b d a, qui sunt coalterni æquales per eandem. Intelligo enim duos triangulos a b d & d c a, quia duo anguli a & d trianguli a b d, sunt æquales duobus angulis d & a trianguli d a c, & latus a d super quod iacent illi anguli in utroq̃ triangulo, est commune, erit per uicesimamsextam propositionem latus a b æquale lateri c d, & latus a c lateri b d, & angulus b angulo c. Et quia angulum a totalem patet esse æqualem angulo d totali per secundam communem animi conceptionem, totum propositum cum correlario liquet.
 
 [Diagram: parallelogram b a, d c with diagonal a d]
+
+[Curated heading level=2 type=propositions: Theorema 24. Propositio 34.]
 
 [Curated heading level=2 type=theorems: Theorema 24. Propositio 34.]
 

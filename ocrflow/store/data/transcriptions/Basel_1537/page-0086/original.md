@@ -2,6 +2,8 @@
 
 <!-- Page number: 77 -->
 
+[Curated heading level=2 type=propositions: Propoſitio 29.]
+
 ## Eucli.ex Camp. Propoſitio 29.
 
 [Curated heading level=3 type=campanus_sequence: 29.]
@@ -16,6 +18,8 @@ CAMPANVS. Sit datus arcus a b c cui ſubtendatur chorda a c, quæ diuidatur per 
 
 [Diagram: semicircular arc with b at the summit; a, d, c on the base chord; lines b a, b d, b c drawn]
 
+[Curated heading level=2 type=propositions: Problema 4. Propoſitio 30.]
+
 [Curated heading level=2 type=problems: Problema 4. Propoſitio 30.]
 
 ## Eucli.ex Zamb. Problema 4. Propoſitio 30.
@@ -27,6 +31,8 @@ Datam circunferentiam, bifariam ſecare.
 THEON ex Zamberto. Sit data circunferentia α δ β, oportet iam ipſam circunferentiam α δ β, bifariam ſecare. Coniungatur α β, ſeceturq̃ (per 10 primi) bifariam in γ ſigno: & ab ipſo γ, ipſi α β rectæ lineæ (per 11 primi) ad angulos rectos excitetur γ δ, & coniungatur α δ & δ β. Et quoniam æqualis eſt α γ ipſi γ β, communis autem γ δ: duæ igitur α γ & γ δ, duabus β γ & γ δ ſunt æquales: & angulus α γ δ (per 4 poſtulatum) angulo β γ δ eſt æqualis: rectus enim uterq̃ eſt. Baſis igitur α δ (per 4 primi) baſi δ β eſt æqualis. Æquales autem rectæ lineæ: æquales circunferentias auferunt, maiorẽ maiori, minorem autem minori (per 28 tertij). Et utraq̃ ipſarum circunferentiarum α δ & δ β: ſemicirculo minor eſt: æqualis igitur eſt circunferentia α δ, ipſi δ β circunferentiæ. Data igitur circunferentia, bifariam ſecta eſt, quod feciſſe oportuit.
 
 [Diagram: arc with δ at the summit; α, γ, β on the base chord; lines α δ, γ δ, δ β drawn]
+
+[Curated heading level=2 type=propositions: Propoſitio 30.]
 
 ## Eucli.ex Camp. Propoſitio 30.
 

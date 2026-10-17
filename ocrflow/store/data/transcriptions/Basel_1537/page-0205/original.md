@@ -6,6 +6,8 @@ THEON ex Zamberto. Sint dati quotcunque numeri α β γ. Oportet iam inuenire mi
 
 [Diagram: dotted number lines beside the text: α······ / β········ / γ············ / δ·· / ε··· / ζ···· / η······ / θ·· / κ··· / λ···· / μ···]
 
+[Curated heading level=2 type=propositions: Propositio 35]
+
 ## Eucli. ex Camp. Propositio 35
 
 [Curated heading level=3 type=campanus_sequence: 35.]
@@ -23,6 +25,8 @@ Vnde manifestum est minimum quem duo numerant, quemlibet ab eis numeratum numera
 CAMPANVS. Sint duo numeri a & b, minimiq̃ in eorum proportiōe c & d, eritq̃ per primam partem 20, ut ex a in d, & b in c: fiat idem numerus qui sit e. quem dico esse minimum numeratum ab a & b, aliter enim, sit f, quem numerent a & b secundum g & h, eritque per secundam partem 20, h ad g sicut a ad b, & sicut c ad d, & per 15 erit c ad h, sicut e ad f, cum itaque per 21 c numeret h, e numerabit f, maior minorē, quia ergo hoc est impossibile constat uerum esse quod dicitur.
 
 [Diagram: dotted number lines beside the text: a···· b······ / c·· d··· / e············ / f·········· / g··· h·····]
+
+[Curated heading level=2 type=propositions: Propositio 36]
 
 ## Eucl. ex Camp. Propositio 36
 

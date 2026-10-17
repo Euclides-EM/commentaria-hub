@@ -6,6 +6,8 @@ rabilis,Quoniam enim cōmensurabilis est α ipsi γ,igitur(per 5 decimi,)α ad �
 
 [Diagram: three horizontal lines labelled α, γ, β; beside them rows of dots labelled δ and ζ, ε and η, and θ, κ, λ]
 
+[Curated heading level=2 type=zamberti_sequence: THEON Lemma.]
+
 ## THEON Lemma.
 
 Si fuerint binæ magnitudines,& altera quidem commensurabilis fuerit eidem,altera uero incommensurabilis,incommensurabiles erunt ipsæ magnitudines.
@@ -13,6 +15,8 @@ Si fuerint binæ magnitudines,& altera quidem commensurabilis fuerit eidem,alter
 Sint enim binæ magnitudines α,β,& alia quædam γ,& α ipsi quidem γ esto commensurabilis:at β.ipsi γ esto incommensurabilis.Dico quod & α,ipsi β est incōmensurabilis.Si enim commensurabilis est α ipsi β,est quoque & γ ipsi α,& γ igitur(per 12 decimi,ipsi β est commensurabilis,quod non supponitur.
 
 [Diagram: three horizontal lines labelled α, γ, β]
+
+[Curated heading level=2 type=propositions: Theorema 10 Propositio 13]
 
 [Curated heading level=2 type=theorems: Theorema 10 Propositio 13]
 
@@ -30,6 +34,8 @@ THEON ex Zamb. Sint binæ magnitudines commēsura{printer-error-correction:comme
 
 [Diagram: three horizontal lines labelled α, γ, β]
 
+[Curated heading level=2 type=zamberti_sequence: THEON Lemma.]
+
 ## THEON Lemma.
 
 Duabus datis rectis lineis inæqualibus,inuenire quo maius potest maior minore.
@@ -37,6 +43,8 @@ Duabus datis rectis lineis inæqualibus,inuenire quo maius potest maior minore.
 THEON ex Zamb. Sint binæ datæ inæquales rectæ lineæ α β,γ,quarum maior sit α β,oportet iā inuenire quo maius potest α β,quàm ipsa γ.Describatur super α β,semicirculus α δ β,& in ipsum(per 1 quarti,) coaptetur ipsi γ æqualis α δ,cōnectaturq̃ δ β,manifestum est iam quod angulus α δ β,rectus est,& quod α β,ipsa α δ,hoc est quàm ipsa γ maius potest ipsa δ β. Similiter autem & duabus datis rectis lineis,potens ipsas sic inuenietur.Sint datæ binæ rectæ lineæ α δ,δ β,oporteatq̃ inuenire potentem ipsas.Ponantur enim,ut α δ,δ β comprehendāt rectum angulū qui sub α δ β, connectaturq̃ α β.Manifestum rursus est(per 47 primi,quod ipsas α δ,δ β,potens,est ipsa α β.
 
 [Diagram: semicircle on diameter α β with point δ on the arc, chords α δ and δ β drawn; below, a separate line γ]
+
+[Curated heading level=2 type=propositions: Theorema 11 Propositio 14]
 
 [Curated heading level=2 type=theorems: Theorema 11 Propositio 14]
 

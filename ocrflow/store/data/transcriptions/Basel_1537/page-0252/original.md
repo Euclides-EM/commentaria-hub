@@ -4,6 +4,8 @@
 
 ponitur. Quare α, pariter impar est, patuit autē quod & pariter par. Igitur & pariter par & est pariter impar. Quod ostendere oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 38]
+
 ## Eucli. ex Camp. Propositio 38
 
 [Curated heading level=3 type=campanus_sequence: 38.]
@@ -17,6 +19,8 @@ ponitur. Quare α, pariter impar est, patuit autē quod & pariter par. Igitur & 
 CAMPANVS Sint continue proportionales a b, c d, e f, g h, dematurq̃ de c d, æqualis a b, qui sit c k, & de g h, qui sit g l. Dico tunc quod proportio k d ad a b, est sicut l h ad compositum ex e f, c d & a b. Sumatur ex g h, æqualis e f, qui sit g m, & æqualis c d, qui sit g n, eritq̃ l n æqualis k d. Manifestum autem per 11 septimi, quod cum sit g h ad g m sicut g m ad g n, erit h m residuum ad m n residuum, sicut g h ad g m, ideoq̃ sicut e f ad c d, simili quoque modo erit m n ad l n, sicut c d ad a b. Permutatim igitur erit h m ad e f, & m n ad c d, sicut n l ad a b, itaque coniuncti per 13 septimi, erit l h compositus ex h m, m n & l n, ad compositum ex e f, c d & a b, sicut l n a ad b{printer-error-correction:l n ad a b}, ideoq̃ sicut k d ad a b, quod est propositū.
 
 [Diagram: dotted lines: g with points l, n, m, h; e with point f; c with points k, d; a with point b]
+
+[Curated heading level=2 type=propositions: Theorema 35 Propositio 35]
 
 [Curated heading level=2 type=theorems: Theorema 35 Propositio 35]
 
@@ -33,6 +37,8 @@ Si fuerint quotcunque numeri continue proportionales, auferantur autem à secund
 THEON ex Zamb. Sint quotcunque numeri continue proportionales α,β,γ,δ,ε,ζ, incipientes ab α minimo auferaturque ab ipsis β γ, & ε ζ, ipsi α æqualis uterque ipsorum γ,η,ζ,θ. Dico quod est sicut β,η, ad α, sic est θ ε, ad α, β,γ,δ. Ponatur enim ipsi quidem β,γ, æqualis ζ κ, ipsi autem δ, æqualis ζ λ. Et quoniam ζ κ ipsi γ β, est æqualis, quorum ζ θ, ipsi ε κ, est æqualis, reliquus igitur θ κ, reliquo γ β{printer-error-correction:η β} est æqualis. Et quoniam est sicut ε ζ, ad δ sic est δ ad β γ & β γ, ad α, æquus autem est δ, ipsi ζ λ, & β γ, ipsi ζ κ & α ipsi ζ θ, est igitur sicut ε ζ, ad ζ λ, sic λ ζ. ad ζ κ, & κ ζ ad ζ θ, diuidēdo ergo (per 17 quinti,) & sicut ε λ ad λ ζ, sic λ κ ad ζ κ, & θ ζ, ad ζ θ. Est igitur & sicut unus antecedentiū ad unum sequentium, sic omnes antecedentes ad omnes sequentes. Est igitur sicut κ θ ad ζ θ, sic ε λ, λ κ. κ θ, ad ipsos λ ζ, ζ κ, ζ θ, æqualis autem est κ θ, ipsi β η, & ζ θ, ipsi α, Ipsi autem ζ λ, ζ κ, ζ θ, ipsis δ, β γ, α, est igitur sicut β η ad α, sic ε θ, ad δ,β,γ, α. Est igitur sicut secundi excessus ad primum, sic est ultimi excessus ad omnes seipsum præcedentes. Quod ostendere oportuit.
 
 [Diagram: dotted lines: α; β with points η, γ; δ; ε with points λ, κ, θ, ζ]
+
+[Curated heading level=2 type=propositions: Propositio 39]
 
 ## Eucli. ex Camp. Propositio 39
 

@@ -6,11 +6,13 @@
 σύνδυο, i. binis (partially legible)
 [/Margin]
 
+[Curated heading level=3 type=definitions: 18-21]
+
 gnitudinibus & alijs eis æqualibus multitudine* una sumptis & in eadem ratione quando fuerit sicut in primis magnitudinibus prima ad ultimam, sic in secundis magnitudinibus prima ad ultimam. Vel aliter. Acceptio extremarum per subtractionem mediarum. 18 Ordinata proportio, est cùm fuerit antecedens ad consequens, sicut antecedēs ad cōsequēs & consequens ad rem aliam, sicut cōsequens ad rem aliā. 19 Inordinata proportio, est cū fuerit antecedēs ad cōsequens sicut antecedēs ad cōsequēs, & cōsequens ad rem aliam sicut res alia ad antecedēs. 20 Extēsa proportio, est uādo fuerit sicut antecedēs ad cōsequens sic antecedens ad consequens, fuerit autem & sicut consequens ad rem aliam, sic consequens ad rem aliam.
 
-[Curated heading level=3 type=definitions: 21]
-
 21 Perturbata autem proportio, est quando tribus existentibus magnitudinibus & alijs eis æqualibus multitudine, fit sicut quidem in primis magnitudinibus antecedens ad consequens sic in secundis magnitudinibus antecedens ad consequens, sicut autem in primis magnitudinibus cōsequens ad rem aliam, sic in secundis res alia ad antecedens.
+
+[Curated heading level=2 type=propositions: Propositio 1]
 
 ## Eucli. ex Camp. Propositio 1
 
@@ -29,6 +31,8 @@ CAMPANVS Sint quotlibet quantitates quæ sint a b, c, aliarū totidem quæ sint 
 Quod si singulæ singulis sint æquales, patet propositum per hanc commuuem scientiam, si æqualibus æqualia addantur, tota quoq̃ erūt æqualia. Si autem sint omnes suis cōparibus æque multiplices, diuisis eis secundum quantitatem suarum submultiplicium, erit aggregatum ex prima parte a, & prima b, & prima c, æquale aggregato ex d e f, per prædictam communem scientiam adiuuante hac, quæ eidem sunt æqualia inter se sunt æqualia. Similiter quoque aggregatū ex secundis partibus quantitatum a b, erit æquale aggregato ex d e f, sicque de cæteris, & quia hoc poterit totiens fieri quotiens d continetur in a, erit ut æquale aggregatum ex d e f, totiens cōtineatur in aggregato ex a b c, quotiens d continetur in a. Quia ergo quotiens d numerat a, totiens aggregatū ex d e f, numerat aggregatum ex a b c, patet quod sicut a est multiplex ad d, ita aggregatum ex a b c, aggregati ex d e f, quod est propositum.
 
 [Diagram: at right, three short horizontal lines labelled a, b, c; beneath them three equal short lines labelled d, e, f]
+
+[Curated heading level=2 type=propositions: Theorema 1 Propositio 1]
 
 [Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
 

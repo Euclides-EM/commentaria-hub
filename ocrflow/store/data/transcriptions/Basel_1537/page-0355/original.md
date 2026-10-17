@@ -4,6 +4,8 @@
 
 retur ζ η,latitudinē efficiēs ζ θ.Quoniā igitur cōmēsurabilis est α ipsi β.cōmēsurabile igitur est id quod ex α ei quod ex β.Sed ei quidē quod ex α,æquū est γ ε,ei uero quod ex β,æquū est ζ η.Igitur γ ε,ipsi ζ η,est cōmēsurabile.Cōmēsurabilis igitur est γ ζ,ipsi ζ θ,longitudine.Quinta autem apotome est γ ζ. Apotome igitur quinta est, & ζ θ. Rationalis autē ζ ε,Si uero areola cōprehēdatur sub rationali & apotome quinta,quæ areolā potest cū rationali mediū totum efficiēs est(per 95 decimi.)Potest aūt ipsum ζ η,ipsa β.Igitur β.cū rationali mediū totū efficiēs est. Quod erat ostendendum.
 
+[Curated heading level=2 type=propositions: Theorema 94 Propositio 118]
+
 [Curated heading level=2 type=theorems: Theorema 94 Propositio 118]
 
 ## Eucli.ex Zamb. Theorema 94 Propositio 118

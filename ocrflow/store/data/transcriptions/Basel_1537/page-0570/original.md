@@ -8,6 +8,8 @@ nem datorum. Rursus centro quidem f interuallo uero f g, per idem postulatum cir
 
 Quoniam igitur datæ sunt ipsæ k e, e f earum adinuicem ratio data est per primū theorema datorum, similiter autem & ipsarum e f, k ratio data est, estque ipsarum f k, k e ratio data. Rursus quoniam ipsæ k e, e f, datæ sunt positione, eundem igitur semper locū obtinent, ac per hoc qui sub k e f magnitudine datur, similiter autem & qui sub e f k, datur magnitudine, & insuper qui sub f k e, datur magnitudine.
 
+[Curated heading level=2 type=propositions: Theorema 40 Propositio 40]
+
 [Curated heading level=2 type=theorems: Theorema 40 Propositio 40]
 
 ## Theorema 40 Propositio 40
@@ -25,6 +27,8 @@ Trianguli enim a b c unusquisque angulus datus sit magnitudine. Dico quod a b c 
 Quoniam igitur datur utraque ipsarum d e, e f, datur & earum adinuicem ratio per primum theorema. Similiter iam & ipsarum e f, f d, ratio datur, & insuper ipsorum f d, e d, ratio. Insuper & unusquisque ipsorum d e f angulorū datus est magnitudine. Datur igitur d e f triangulum specie sicut in diffinitionibus.
 
 [Diagram: triangle with apex f, base vertices e and d]
+
+[Curated heading level=2 type=propositions: Theorema 41 Propositio 41]
 
 [Curated heading level=2 type=theorems: Theorema 41 Propositio 41]
 

@@ -4,6 +4,8 @@
 
 ipsam circunferentiam, intra igitur. Si in circuli circunferentia igitur, & quæ sequuntur reliqua ut in theoremate quod demonstrasse oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 3.]
+
 ## Eucli. ex Camp. Propositio 3.
 
 [Curated heading level=3 type=campanus_sequence: 3.]
@@ -20,6 +22,8 @@ Ponam iterum quod c d sit perpēdicularis super a b, & ostendam quod ipsa diuidi
 
 [Diagram: circle with c near the centre, chord a b at the bottom divided at d, lines c a and c b drawn to the ends of the chord]
 
+[Curated heading level=2 type=propositions: Theorema 2 Propositio 3]
+
 [Curated heading level=2 type=theorems: Theorema 2 Propositio 3]
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 3
@@ -35,6 +39,8 @@ Si in circulo recta linea quædam per centrum extensa, quandam non per centrum e
 THEON ex Zamberto. Sit circulus α β γ, & in eo recta quædam linea per centrum extensa γ δ, rectam lineam quandam non extensam per centrum α β, bifariam secet in signo ζ. Dico quod & ad angulos rectos eam secat. Contingat siue accipiatur centrum circuli α β γ, (per primam tertij,) sitque illud ε, & (per primum postulatum connectantur ε α, & ε β. Et quoniam æqualis est α ζ, ipsi ζ β, communis autem ζ ε, duæ igitur ζ ε, & ζ α, duabus ζ ε, & ζ β, sunt æquales. Et basis ε α, basi ε β, (per 15 diffinitionem primi) est æqualis. Igitur (per 8 primi) angulus α ζ ε, angulo β ζ ε, est æqualis. Cum autem recta linea super rectam lineam consistens, utrobique angulos sibi inuicem æquos fecerit, (per 10 diffinitionem primi,) uterque ipsorum angulorum rectus erit, uterque igitur eorum qui sunt sub α ζ ε, & β ζ ε rectus est. Igitur γ δ, quæ per centrum secans, ipsam α β, non per centrum extensam bifariam, & ad angulos rectos secat. Sed secet γ δ, ipsam α β, ad angulos rectos. Aio quod bifariam ipsam secat, hoc est quod æqualis est α ζ ipsi ζ β. Eisdē nāq̃ dispositis & constructis, quoniam æqualis est ε α, ipsi ε β, (per 15 diffinitionem primi,) æqualis est angulus ε α ζ, angulo ε β ζ. Et angulus α ζ ε, rectus: æqualis est (per quartum postulatum,) angulo recto qui est sub β ζ ε. Duo igitur triangula sunt ε ζ α, & ε ζ β, duos angulos duobus angulis æquales habentia, & unum latus uni lateri æquale: ζ ε, scilicet quod (per 26 primi,) cōmune ipsis est subtendens unum æqualium angulorum, & reliqua igitur latera reliquis lateribus habebunt æqualia: æqualis igitur est α ζ, ipsi ζ β. Si igitur linea, & quæ sequuntur reliqua ut in theoremate, quod demonstrasse oportuit.
 
 [Diagram: circle with γ at the top and δ at the bottom joined by a vertical diameter, ε at the centre, chord α β cut at ζ, lines ε α and ε β drawn]
+
+[Curated heading level=2 type=propositions: Propositio 4.]
 
 ## Eucli. ex Camp. Propositio 4.
 

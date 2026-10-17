@@ -16,6 +16,8 @@ THEON ex Zamberto. Sit circulus α β γ, circa centrum δ, & dimetientem α β.
 
 CORRELARIVM. Hinc manifestum est, quod à diametri circuli extremitate ad angulos rectos ductæ ipsum circulum tangit, & quod recta linea circulum in uno signo tantum tangit, quoniam ostensum est (per 2 tertij,) quod quæ in duobus illis signis incidit, intra ipsum cadit, quod demonstrasse oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 16]
+
 ## Eucli.ex Camp. Propositio 16
 
 [Curated heading level=3 type=campanus_sequence: 16.]
@@ -29,6 +31,8 @@ A Dato puncto, ad datum circulum lineam contingentem ducere.
 CAMPANVS. Sit circulus datus a b cuius centrum c, punctusque datus d, uolo ergo a puncto d, ducere lineam contingentem circulum a b. Produco lineam d c, secantem circunferentiam circuli a b, in puncto a, super quam describo circulum d e, secundum quantitatem lineæ d c, concentricum circulo a b, & à puncto a, produco lineam a e, perpendicularem ad lineam d c, quæ secet circunferentiam circuli d e, in puncto e, & produco lineam e c, secantem circunferentiam circuli a b in puncto b. Deinde producam lineam d b, quæ erit contingens circulum a b. Quia enim duo latera d c & c e, sunt æqualia duobus lateribus b c & c d trianguli b c d, & angulus c est communis utrique, erit per 4 primi angulus e a c æqualis angulo d b c, angulus autē e a c est rectus, quare angulus d b c est rectus. Per correlarium ergo præcedentis erit linea d b, contingens circulum a b, quod est propositum.
 
 [Diagram: two concentric circles with centre c; d at the left upon the outer circle, e at the top upon the outer circle, a and b upon the inner circle; the lines d c, a e, e c and d b are drawn]
+
+[Curated heading level=2 type=propositions: Problema 2 Propositio 17]
 
 [Curated heading level=2 type=problems: Problema 2 Propositio 17]
 

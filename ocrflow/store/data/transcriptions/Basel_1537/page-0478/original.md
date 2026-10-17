@@ -6,6 +6,8 @@ Cumq̃ perpendiculares ad circulos basium, sint quoq̃ perpēdiculares ad bases,
 
 [Diagram: triangle a b c with apex a, base b c; interior point e with f on side a b; point d at upper right connected by lines to e, b and c]
 
+[Curated heading level=2 type=propositions: Propositio 18]
+
 ## Eucli. ex Camp. Propositio 18
 
 [Curated heading level=3 type=campanus_sequence: 18.]
@@ -21,6 +23,8 @@ CAMPANVS. Manifestum est enim ex correlario 14 tredecimi, quod diameter sphæræ
 CORRELARIVM. Ex his ergo euenire necesse est, ut ex medietate lateris cubi in bisse quadrati producti ex diametro sphæræ ipsum cubum ambientis cubi soliditas producatur.
 
 FINIS.
+
+[Curated heading level=1 type=zamberti_sequence: EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENtorum, deputatus liber de regularium corporum proportione, traditore Hypsicle Alexandrino, ac Bartholomæo Zamberto Veneto interprete, qui in ordine est decimusquartus.]
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENtorum, deputatus liber de regularium corporum proportione, traditore Hypsicle Alexandrino, ac Bartholomæo Zamberto Veneto interprete, qui in ordine est decimusquartus.
 

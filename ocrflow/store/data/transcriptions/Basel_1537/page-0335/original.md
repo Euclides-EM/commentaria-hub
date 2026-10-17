@@ -2,6 +2,8 @@
 
 <!-- Page number: 324 -->
 
+[Curated heading level=2 type=propositions: Propositio 89]
+
 ## Eucli.ex Camp. Propositio 89
 
 [Curated heading level=3 type=campanus_sequence: 89.]
@@ -13,6 +15,8 @@
 SI fuerit superficies linea rationali residuoq̃ quarto contenta, linea super eam potens erit linea minor.
 
 CAMPANVS In hac quoq̃ nō aliter procedas quàm prius, facile erit ibi{printer-error-correction:tibi} propositum concludere, si præmissam non despicis. ex diffinitione residui quarti & secunda parte 14 & 9 & 19 & 15 & 71, & sic patebit propositum.
+
+[Curated heading level=2 type=propositions: Theorema 70 Propositio 94]
 
 [Curated heading level=2 type=theorems: Theorema 70 Propositio 94]
 
@@ -32,6 +36,8 @@ THEON ex Zãb. Areola nāque α β, comprehendatur sub rationali α γ, & quarta
 
 [Diagram: square with diagonal from ρ (bottom left) to ο (top right); a vertical line and a horizontal line cross on the diagonal; semicircular arcs are drawn about the crossing; labels: λ, ν, ο along the top, σ at the left, ξ at the right, υ, π, φ and χ inside, ρ, τ, μ along the bottom]
 
+[Curated heading level=2 type=propositions: Propositio 90]
+
 ## Eucli.ex Camp. Propositio 90
 
 [Curated heading level=3 type=campanus_sequence: 90.]
@@ -43,6 +49,8 @@ THEON ex Zãb. Areola nāque α β, comprehendatur sub rationali α γ, & quarta
 SI fuerit linea rationali residuoq̃ quinto superficies contēta, latus eius tetragonicū, erit cū rationali componens mediale.
 
 CAMPANVS Nitere præmissa argumentatiōe ex diffinitione residui quinti & secunda parte 14 & 9 & 19 & 15 & 72, quod propositū est concludere.
+
+[Curated heading level=2 type=propositions: Theorema 71 Propositio 95]
 
 [Curated heading level=2 type=theorems: Theorema 71 Propositio 95]
 

@@ -12,6 +12,8 @@ Dico iam ꝙ ipsius sphæræ dimetiēs, lateris ipsius pyramidis potentia sesqua
 
 [Diagram: semicircle α δ β on the line α β with γ on the diameter and δ on the arc; lines δ α, δ γ; below α β the square ε γ described on α γ and the parallelogram ζ β completed on γ β, divided by the vertical through γ; ε at the bottom left corner, ζ at the bottom of the dividing line]
 
+[Curated heading level=2 type=propositions: Propositio 14]
+
 ## Eucli. ex Camp. Propositio 14
 
 [Curated heading level=3 type=campanus_sequence: 14.]

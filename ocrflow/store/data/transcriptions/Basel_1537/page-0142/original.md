@@ -14,6 +14,8 @@ CAMPANVS Demonstratis antecedētibus ad æquam proportionalitatem, hic demonstra
 
 [Diagram: ten horizontal lines with tick marks: six long lines labelled g, h, K, l, m, n; below them shorter paired lines labelled a and c, b and d, e and f, p and q]
 
+[Curated heading level=2 type=propositions: Theorema 22. Propositio 22]
+
 [Curated heading level=2 type=theorems: Theorema 22. Propositio 22]
 
 ## Eucli. ex Zamb. Theorema 22. Propositio 22
@@ -29,6 +31,8 @@ Si fuerint quælibet magnitudines & aliæ eisdem æquales numero binæ sumptæ i
 THEON ex Zamb. Sint quælibet magnitudines α β γ, & aliæ eisdem æquales numero δ ε ζ. binæ sumptæ in eadem ratione, sicut quidem α, ad β, sic δ, ad ε, sicutq́ꝫ β ad γ, sib ε ad ζ. Dico quod etiam ex æquali in eadem ratione erunt, sicut α, ad γ, sic δ, ad ζ. Sumantur quidem ipsarum α δ, æque multiplices η θ, ipsarū autē β ε, aliæ quæuis æque multiplices κ λ, & insuper ipsarū γ ζ, aliæ quæuis multiplices μ ν. Et quoniam est sicut α, ad β, sic δ, ad ε, & sumptæ sunt ipsarum α δ, æque multiplices η θ, ipsarum autem β ε, aliæ quæuis æque multiplices κ λ, est igitur (per 4 quinti) sicut η, ad κ, sic θ ad λ, & per hoc sicut κ, ad μ, sic λ, ad ν. Quoniam igitur tres magnitudines sunt η κ μ, & aliæ eisdem æquales numero θ λ ν, binæ sumptæ & in eadem ratione, ex æquali igitur (per 20 quinti) si excedit ν, ipsam μ, excedit & θ, ipsam η, & si æqualis, æqualis: & si minor, minor. Sunt autem η θ, ipsarum α δ, æque multiplices, & μ ν, ipsarum γ ζ, aliæ quæuis æque multiplices: est igitur (per 6 diffinitionem quinti) sicut α, ad γ, sic δ, ad ζ. Si fuerint igitur quælibet magnitudines & aliæ æquales numero binæ sumptæ in eadem ratione etiam ex æquali in eadem erunt ratione, quod demonstrasse oportuit.
 
 [Diagram: twelve upright lines of varying heights with tick marks, labelled below η κ μ α β δ γ ε ζ θ λ ν]
+
+[Curated heading level=2 type=propositions: Propositio 23]
 
 ## Eucli. ex Camp. Propositio 23
 

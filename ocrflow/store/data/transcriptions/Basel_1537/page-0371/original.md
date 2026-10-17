@@ -6,6 +6,8 @@ ciem assignatã, erit earũ cõmunis sectio linea recta ex 3 huius, sitq̃ b d. 
 
 [Diagram: two parallel vertical lines a b and c d standing on a horizontal line through b and d; a and c at top, b and d at bottom]
 
+[Curated heading level=2 type=propositions: Theorema 16 Propositio 18]
+
 [Curated heading level=2 type=theorems: Theorema 16 Propositio 18]
 
 ## Eucli. ex Zamb. Theorema 16 Propositio 18
@@ -21,6 +23,8 @@ Si recta linea plano alicui ad angulos fuerit rectos, & omnia quæ per ipsam pla
 THEON ex Zamber. Recta enim linea α β, subiecto plano ad angulos rectos esto. Dico quod & omnia quæ per α β plana, ad subiectum planum ad angulos rectos sunt. Extendatur, inquam, per α β, planũ δ ε, sitq̃ (per 3 undecimi) communis sectio ipsius δ ε linea plani, & subiecti, γ ε, & sumatur in γ ε, contingens signum ζ, & ab ipso ζ, (per 12 undecimi) ipsi γ ε ad angulos rectos excitetur in δ ε plano ipsa ζ η. Et quoniam α β ad subiectum planum recta est, & ad omnes igitur ipsam tangentes rectas lineas & in subiecto plano existentes recta est ipsa α β (per 2 undecimi diffinitionem,) quare & ad γ ε recta est. Igitur angulus qui sub α β ζ, rectus, est autem qui sub η ζ β, rectus, igitur (per 28 primi) α β, ipsi ζ η parallelus est. Ipsa autẽ α β, ad subiectum planum ad angulos rectos est, & ζ η igitur ad subiectũ planum ad angulos rectos est. Et quoniam (per 3 diffinitionẽ undecimi) planum ad planum rectum est quando quæ communi sectioni planorum ad angulos rectos ductæ rectæ lineæ in uno planorum, ad reliquũ planum ad angulos fuerint rectos, & ipsi γ ε sectioni planorum cõmuni, in uno planorum δ ε scilicet ad angulos rectos acta ζ η, ostensa est supposito plano ad angulos rectos esse, igitur planum δ ε rectum est ad suppositum planum. Similiter iam ostendetur quod omnia quæ per α β plana, recta sunt ad subiectum planum. Si recta igitur linea plano alicui ad angulos fuerit rectos, & omnia quæ per ipsam plana ad idem planum ad angulos rectos erunt. Quod oportuit demonstrasse.
 
 [Diagram: rectangle representing the plane δ ε, with δ at top left and ε at bottom right; two vertical lines within it, η ζ (η at top, ζ at bottom) and α β (α at top, β at bottom); γ at bottom left corner]
+
+[Curated heading level=2 type=propositions: Propositio 19]
 
 ## Eucli. ex Camp. Propositio 19
 

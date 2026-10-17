@@ -4,6 +4,8 @@
 
 Basis igitur δ γ, (per 4 propositionem) basi α β, est æqualis: & triangulum δ β γ, (per eandem) triangulo α γ β æquum erit, minus scilicet maiori, quod est impossibile. Latus igitur α β: lateri α γ non est inæquale: æquale igitur. Si trianguli ergo duo anguli æquales adinuicem fuerint: æquales quoque angulos subtendentia latera æqualia ad inuicem erunt: quod fuerat ostendendum.
 
+[Curated heading level=2 type=propositions: Propositio 7.]
+
 ## Eucli. ex Cam. Propositio 7.
 
 [Curated heading level=3 type=campanus_sequence: 7.]
@@ -15,6 +17,8 @@ CAMPANVS. Sit linea a b: à cuius extremitatibus a & b, protrahantur duæ lineæ
 [Diagram: triangle on base a b with two apexes c and d near the top and crossing lines from a and b to both apexes]
 
 [Diagram: second case: points e and f at the upper left above d, with d above c; lines from a (lower left) and b (lower right) through c and d, the lines b c and b d produced beyond the base to e and f]
+
+[Curated heading level=2 type=propositions: Theorema 4. Propositio 7.]
 
 [Curated heading level=2 type=theorems: Theorema 4. Propositio 7.]
 

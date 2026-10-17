@@ -4,6 +4,8 @@
 
 periori parte, ꝙ ipsæ sint æquales adinuicē & lateribus quadrati. Cōpleuimꝰ igitur corpus 8 basiū triangulariū & æquilaterarū. Hoc autē ab assignata sphæra circūscriptibile esse, sic habeto. Constat enim ꝙ linea l m est æqualis diametro assignatæ sphæræ, nam utraq́; earū est æqualis diametro quadrati. Igitur si super l m lineetur semicirculus qui circūuoluatur quousq́; ad locū suū redeat, sphæra quā motu suo describet, erit æqualis assignatæ sphæræ, ut ex diffinitiōe æqualiū sphærarū colligitur. Hic uero semicirculus trāsibit per quatuor angulos quadrati, & simpliciter per omnia pūcta circūferētiæ circuli circūscribētis quadratū, eo ꝙ semidiameter quadrati ut linea f k, & portiōes lineæ l m quæ sunt l k & k m, sunt adinuicē æquales, quare ex diffinitiōe eius q̊d est figurā unā alij figuræ inscribi, fabricatū corpus inscriptibile est sphæræ motu huius semicirculi descriptæ. Itaq́; & sphæræ assignatæ ex cōceptione, cum ipsæ sint adinuicē æquales ex diffinitiōe. Correlariū uero manifeste constat, sunt enī duæ lineæ d b & d a ex penult. primi, latus autem fabricati corporis, est æquale lineæ b d. Verum est ergo correlariū.
 
+[Curated heading level=2 type=propositions: Problema 2 Propositio 14]
+
 [Curated heading level=2 type=problems: Problema 2 Propositio 14]
 
 ## Eucli. ex Zamb. Problema 2 Propositio 14
@@ -21,6 +23,8 @@ THEON ex Zamb. Exponatur datæ sphæræ diameter α β, seceturq́; (per 10 prim
 [Diagram: semicircle α δ β on the diameter α β, with γ at the middle of the diameter; δ on the arc above γ; the perpendicular γ δ and the chords δ α, δ β drawn]
 
 [Diagram: octahedron drawn as a double pyramid: apex λ at the top, apex μ at the bottom; the square ε ζ η θ in the middle with ε at the upper left, θ at the upper right, ζ at the lower left, η at the lower right, and centre κ; lines joining λ and μ to the four angles of the square, with the diagonals ε η and ζ θ]
+
+[Curated heading level=2 type=propositions: Problema 3 Propositio 15]
 
 [Curated heading level=2 type=problems: Problema 3 Propositio 15]
 

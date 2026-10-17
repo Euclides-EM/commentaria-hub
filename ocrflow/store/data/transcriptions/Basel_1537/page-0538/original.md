@@ -8,6 +8,8 @@ Sit conus cuius basis quidē sit circulus c d, uertex autem sit b signum, oculus
 
 [Diagram: cone with apex b above a circle; on the slanting line from K (lower left) the points f, s, n; base points K and d below the circle, e within]
 
+[Curated heading level=2 type=propositions: Theorema trigesimumtertium]
+
 [Curated heading level=2 type=theorems: Theorema trigesimumtertium]
 
 ## Theorema trigesimumtertium
@@ -17,6 +19,8 @@ AEqualiter autem semper oculo à cono distante, sublimius quidem oculo posito mi
 Esto coni uertex quidem ad d signum, basis autē circulus, exciteturque per 11 primi elementorum k h. ipsi b d, ponaturque oculus in h. Dico iam id quod spectatur coni oculo posito in h minus spectabitur quàm in s. Connectātur, inquam, per primum postulatum ab ipso d signo in h s signa ipsæ h d, d s, & per secundum postulatum extendantur in n l, igitur in n & l, signo posito oculo spectata coni æqualia apparebunt, & minus quidem apparebit quod ad n, maius autem id quod ad l, æquū uero id quod ad n, ei quod ad h. Id autem quod ad l ei quod ad s, sicut in præcedēti patuit: oculo igitur in h, signo existente spectatū coni minus apparet quàm in s signo.
 
 [Diagram: apex d at upper right; circle with K at centre, e at right; points b and s at upper left, n and l at left, b below the circle]
+
+[Curated heading level=2 type=propositions: Theorema trigesimumquartum.]
 
 [Curated heading level=2 type=theorems: Theorema trigesimumquartum.]
 

@@ -8,6 +8,8 @@ THEON ex Zamb. Sint quatuor rectæ lineæ proportionales α β, γ δ, ε ζ, η
 
 [Diagram: four parallelepipeds in two rows: the upper pair labelled α, β and γ, δ beneath them, the lower pair labelled μ and ν beside them]
 
+[Curated heading level=2 type=propositions: Theorema 33 Propositio 38]
+
 [Curated heading level=2 type=theorems: Theorema 33 Propositio 38]
 
 ## Eucli. ex Zamb. Theorema 33 Propositio 38
@@ -23,6 +25,8 @@ Si planum ad planum rectum fuerit, à signo autem in altero planorū existente i
 THEON ex Zamb. Planum enim γ δ, ad planum α β, rectum esto, cōmunis autem ipsorū sectio sit δ α, sumaturq̃ in ipso γ δ plano, contingens signum ε. Dico quod ab ipso ε in α β planū perpēdicularis ducta, in ipsam δ α cadit. Non enim, sed si possibile est, cadat extra sicut ε ζ, & concurrat ipsi α β plano in ζ signo, & ab ipso ζ, in ipsam δ α, in plano α β (per 11 undecimi) perpendicularis excitetur ζ η, quæ & ipsi γ δ plano ad angulos rectos est. Connectanturq̃ ε η. Quoniam igitur ζ η ipsi γ δ plano ad angulos rectos est, tangit autem ipsam ipsa ε η existens in ipso γ δ plano, igitur angulus qui sub ζ η ε, rectus est. Sed & ε ζ, ipsi α β plano ad angulos est rectos: angulus igitur qui sub ε ζ η, rectus est. Trianguli iam ipsius ε ζ η bini anguli, duobus rectis sunt æquales, quod (per 17 primi) est impossibile. Igitur ab ε in α β planum perpēdicularis ducta, non cadit extra ipsam δ α, in ipsam igitur α δ cadit. Quod erat ostendendum.
 
 [Diagram: a plane γ δ standing on the plane α β, their common section δ α, with the triangle ε ζ η drawn between them]
+
+[Curated heading level=2 type=propositions: Propositio 40]
 
 ## Eucli. ex Camp. Propositio 40
 

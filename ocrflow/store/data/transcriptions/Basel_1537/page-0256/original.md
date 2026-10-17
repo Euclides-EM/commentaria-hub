@@ -8,6 +8,8 @@ ALITER idem ostendere. Constent binæ magnitudines inæquales α,β,γ. Sit aute
 
 [Diagram: at the right of the ALITER proof, four vertical lines — the line α β with α at its top, points δ and ε along it, and β below; the tall line ζ μ with ζ at its top, points η and θ along it, and μ below; the short line γ; and a bracketed line divided into three parts with κ, λ and ν at its left and ζ below]
 
+[Curated heading level=2 type=propositions: Propositio 2]
+
 ## Eucli. ex Camp. Propositio 2
 
 [Curated heading level=3 type=campanus_sequence: 2.]
@@ -21,6 +23,8 @@ ALITER idem ostendere. Constent binæ magnitudines inæquales α,β,γ. Sit aute
 CAMPANVS Simile huic proposuit prima septimi in numeris. Sint duæ quantitates inæquales a & b maior a, quibus (si fiat reciproca quoad potest detractio) nō occurrat (etiam si infinities fiat) aliqua quantitas detractionem impediens, siue ante relictum numerans, dico eas incommensurabiles esse. Si autem sint cōmensurabiles, sit cōmunis earum mēsura c. Detrahatur igitur b, ex a quoties potest, sitq̃ residuū d, quod residuum detrahatur ex b quoties potest. & sit residuum e. Fiatq̃ toties ista detractio, quousq̃ ex alterutra duarū quātitatū a & b, remaneat minus c, hoc enim necesse est esse possibile per præcedentē, sitq̃ hic e minus c. Cū igitur c mēsuret b detracta ab a. & etiam a, mensurabit per conceptionem, d residuum, ideoq̃ cum mensuret d detractum ab ipso b, & etiā ipsum b, mēsurabit e, residuum, sed erat minus c, maior ergo quantitas, mensurat minorem, quod est impossibile.
 
 [Diagram: at the right of the Campanus proof, three horizontal lines — a long line with a at its left and d at its right; a short line c with e at its right; and a line b above a longer ticked line]
+
+[Curated heading level=2 type=propositions: Theorema 2 Propositio 2]
 
 [Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
 

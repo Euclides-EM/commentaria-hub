@@ -6,6 +6,8 @@ sin̄ & 6 huius:ipsi trianguli sunt æquianguli, & angulus b,est æqualis angulo
 
 [Diagram: two triangles standing on a common base line b c e: triangle with apex a on base b c, and triangle with apex d on base c e]
 
+[Curated heading level=2 type=propositions: Propositio 31]
+
 ## Eucli.ex Camp. Propositio 31
 
 [Curated heading level=3 type=campanus_sequence: 31.]
@@ -25,6 +27,8 @@ CAMPANI additio Cōuersam quoq̃ huius possumus facile demonstrare per modū dem
 [Diagram: triangle with apex c at top, base d b, interior point a on the base with a line from c to the base]
 
 Sequentes duæ ex Zamberto propositiones,duabus præcedētibus ex Campano præpostero ordine respondent.
+
+[Curated heading level=2 type=propositions: Theorema 21 Propositio 31]
 
 [Curated heading level=2 type=theorems: Theorema 21 Propositio 31]
 

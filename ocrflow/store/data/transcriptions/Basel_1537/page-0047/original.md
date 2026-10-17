@@ -6,6 +6,8 @@
 
 [Diagram: right triangle a b c with a at top and squares on the three sides: f, g on a b, h, k on a c, d, l, e on b c below; m on b c; lines a d, a e, b k, c f drawn]
 
+[Curated heading level=2 type=propositions: Theorema 33. Propositio 47.]
+
 [Curated heading level=2 type=theorems: Theorema 33. Propositio 47.]
 
 ## Eucli. ex Zamb. Theorema 33. Propositio 47.
@@ -27,6 +29,8 @@ THEON ex Zamb. Sit triangulū rectangulum α β γ, rectum habens qui sub β α 
 utrobiq̃ duobus rectis æquos efficiunt (per 14 propositionem) in rectum igitur est γ α ipsi α η. Ac per hoc & θ α ipsi α β est in rectum. Et quoniam angulus δ β γ, angulo ζ β α est æqualis, rectus enim uterque est, communis ponatur angulus α β γ: totus igitur δ β α, toti ζ β γ est æqualis. Et quoniam duæ δ β & β α, duabus γ β & β ζ sunt æquales alteri alteri, & angulus δ β α angulo ζ β γ est æqualis, basis igitur α δ, basi ζ γ (per 4 propositionem) est æqualis, & triangulum α β δ triangulo ζ β γ est æquale. Triangulū uero α β δ (per 41) parallelogrammū β λ duplum est: basim enim habet eandem, hoc est β δ, in eisdemq̃ est parallelis, hoc est β δ & α λ. Et trianguli quoq̃ ζ β γ (per eandem) quadratum η β duplum est, basim namq̃ eandem habet, hoc est ζ β, in eisdem est parallelis, hoc est ζ β & η γ. Quæ autem æqualium dupla sunt (per 6 cōmunem sententiam) adinuicem sunt æqualia: parallelogrammū igitur β λ, æquale esse quadrato η β. Similiterq̃, si connectantur (per 1 postulatum) α ε & β κ, ostendetur parallelogrammū γ λ, æquale esse quadrato θ γ. Totum igitur quadratum β δ ε γ, duobus η β & θ γ quadratis æquū est. Et quadratum β δ ε γ, est descriptum ex β γ, quadrata uero η β & θ γ, sunt descripta ex β α & α γ. Quadratum igitur quod ex β γ latere, æquū est quadratis quæ fiunt ex lateribus β α & α γ. In rectangulis igitur triangulis, quadratū quod à latere rectum angulum subtendente fit, æquū est, & quæ sequuntur reliqua ut in theoremate. Quod erat ostendendum.
 
 [Diagram: right triangle α β γ with square β δ ε γ below on β γ, squares η β on α β and θ γ on α γ above, line α λ parallel to β δ and γ ε, lines α δ, ζ γ, α ε, β κ drawn]
+
+[Curated heading level=2 type=propositions: Propositio 47.]
 
 ## Eucli. ex Camp. Propositio 47.
 

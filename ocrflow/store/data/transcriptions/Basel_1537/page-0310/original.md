@@ -6,6 +6,8 @@ igitur δ μ, μ η, rationales sunt potentia tantum commensurabiles, ex binis i
 
 [Diagram: line α–γ–β; below, rectangle with δ at the left, divided by vertical lines into several compartments, two of which project above the top line; labels κ, μ, ν, η along the middle row and ε, θ, λ, ξ, ζ along the bottom]
 
+[Curated heading level=2 type=propositions: Propositio 56]
+
 ## Eucli. ex Camp. Propositio 56
 
 [Curated heading level=3 type=campanus_sequence: 56.]
@@ -22,6 +24,8 @@ CAMPANVS Si fuerit linea a b bimediale secũdum diuisa per terminũ suũ ad pũc
 
 [Diagram: tall rectangle divided by horizontal lines into bands; right side labels from top: g, q, n, l, f; left side labels: p, m, e (bottom-left)]
 
+[Curated heading level=2 type=propositions: Theorema 44 Propositio 62]
+
 [Curated heading level=2 type=theorems: Theorema 44 Propositio 62]
 
 ## Eucli. ex Zamb. Theorema 44 Propositio 62
@@ -37,6 +41,8 @@ Quod ex ea quæ ex binis secunda medijs ad rationalem comparatum latitudinem eff
 THEON ex Zãb. Esto (per 44 decimi) ex binis medijs secunda α β. diuisa in medias in γ ut maius segmentũ sit α γ rationalis autem esto δ ε, & ad ipsam δ ε, ei quod ex α β æquũ parallelogrammũ cõparetur (per 44 primi δ ζ, latitudinē efficiens δ η, Dico quod δ η est ex binis nominibus tertia, Cõstruantur eadē quæ in præcedētibus. Et quoniã α β ex binis est secũda medijs diuisa in γ, ipsæ igitur α γ, γ β, (per 38 decimi mediæ sunt potētia tãtũ cõmēsurabiles mediũ cõprehēdētes, quare & cõflatũ ex ijs quæ ex α γ, γ β, mediũ est, & est æquale ipsi δ λ mediũ igitur est & δ λ, cõparaturq̃ ad rationalē δ ε. Rationalis igitur est (per 22 decimi μ δ, & ipsi δ ε lõgitudine incõmēsurabilis. Id propterea etiã μ η ratiõalis est & ipsi μ λ incõmēsurabilis (hoc est ipsi δ ε) longitudine. Ratiõalis igitur est utraque ipsarum δ μ, μ η, & ipsi δ ε longitudine incommensurabilis Et quoniã α γ ipsi γ β lõgitudine est incõmensurabilis, sicut autem (per lēma præcedēs 22 decimi) α γ ad γ β, sic quod ex α γ, ad id quod sub α γ, γ β, incõmēsurabile igitur est & quod ex α γ, ei quod sub α γ, γ β, Quare & cõflatũ ex ijs quæ ex à γ, γ β, ei quod bis sub α γ, γ β, incõmēsurabile est, hoc est δ λ ipsi μ ζ. Quare (per 1 sexti, & 11 decimi.) & δ μ ipsi μ η incõmensurabilis est. Sũtq̃ ratiõales. Ipsa igitur δ η, ex binis nominibus est. Ostendendũ iã quod & tertia. Similiter iã sicut in præcedētibus ratiocinabimur quod maior est δ μ ipsa μ η. & quod δ κ ipsi κ μ cõmēsurabilis est. Estq̃ quod sub δ κ. κ μ, æquũ ei quod ex μ η. Ipsa igitur δ μ, ipsa μ η, maius potest eo quod ex sibi cõmēsurabili, & neutra ipsarũ δ μ, μ η, cõmēsurabilis est ipsi δ ε, lõgitudine, ipsa igitur δ η, ex binis est tertia nominibus, quod erat ostendēdũ.
 
 [Diagram: line α–γ–β; below, rectangle with δ at the left, divided by vertical lines into several compartments, two of which project above the top line; labels κ, μ, ν, η along the middle row and ε, θ, λ, ξ, ζ along the bottom]
+
+[Curated heading level=2 type=propositions: Propositio 57]
 
 ## Eucli. ex Cãp. Propositio 57
 

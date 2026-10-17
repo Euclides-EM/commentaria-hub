@@ -4,6 +4,8 @@
 
 <!-- Page number: 388 -->
 
+[Curated heading level=2 type=propositions: Propositio 1]
+
 ## Eucli. ex Camp. Propositio 1
 
 [Curated heading level=3 type=campanus_sequence: 1.]
@@ -19,6 +21,8 @@ CAMPANVS. Sint duo circuli a b c, d e f, quibus inscribantur duæ quælibet figu
 [Diagram: circle with inscribed pentagon a b g h k — a at top, b upper left, k upper right, g lower left, h lower right, c at bottom; diameter a c, with lines a g and c b crossing within the pentagon]
 
 [Diagram: smaller circle with inscribed pentagon d e l m n — d at top, e left, n right, l lower left, m lower right, f at bottom; diameter d f, with lines d l and f e crossing]
+
+[Curated heading level=2 type=propositions: Theorema 1 Propositio 1]
 
 [Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
 

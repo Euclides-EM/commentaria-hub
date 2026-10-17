@@ -4,6 +4,8 @@
 
 conceptionem mensurabit a, igitur a & b communicantes: mensurabat enim & b, quod est propositum.
 
+[Curated heading level=2 type=propositions: Theorema 4 Propositio 6]
+
 [Curated heading level=2 type=theorems: Theorema 4 Propositio 6]
 
 ## Eucli. ex Zamb Theorema 4 Propositio 6
@@ -31,6 +33,8 @@ CORRELARIVM. Ex hoc proinde manifestum est, si fuerint bini numeri δ,ε, & rect
 ALITER idem ostendere. Binæ enim magnitudines α, β, adinuicem rationem habeant, quam numerus γ ad numerum δ, dico quod ipsæ magnitudiues{printer-error-correction:magnitudines} sunt commeusurabiles{printer-error-correction:commensurabiles}. Quot enim sunt in ipso γ unitates, in tot æqualia diuidatur α, & uni earum æqualis esto ε. Est, igitur sicut unitas ad γ numerum, sic est ε ad α, est autem & sicut γ ad δ, sic α ad β, ex æquali igitur (per 22 quinti) est sicut unitas ad ipsum δ numerum, sic est ε ad β, metitur autem unitas ipsum δ metitur igitur ε ipsum β, metitur aūt & α, quoniam unitas ipsum ε. Igitur ε, utramq̃ ipsarum α, β, metitur. Ipsæ igitur α,β, commēsurabiles sunt, &, ipsarum cōmunis est dimēsio.
 
 [Diagram: at the left of the ALITER proof, three vertical ticked lines of decreasing height, two columns of square dots and a single dot, labelled below α, β, ε, γ, δ]
+
+[Curated heading level=2 type=propositions: Propositio 7]
 
 ## Eucli. ex Camp. Propositio 6{printer-error-correction:7}
 

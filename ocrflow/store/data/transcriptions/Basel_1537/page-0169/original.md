@@ -4,6 +4,8 @@
 
 b d, ergo per 11 quinti. proportio b c ad g c, est sicut b c ad k c, utraque enim est sicut d ẽ ad fe. quare per secundã partẽ nonæ quinti, g c est æqualis K c pars uidelicet toti quod est impossibile. Erit igitur a e c diameter parallelogrammi b d, quod est propositum.
 
+[Curated heading level=2 type=propositions: Propositio 24.]
+
 ## Eucli.ex Camp. Propositio 24.
 
 [Curated heading level=3 type=campanus_sequence: 24.]
@@ -17,6 +19,8 @@ Omnium duarum superficierum æquidistantium laterum quarum unus angulus unius un
 CAMPANVS Sint duæ superficies æquidistãtium laterum, a c & e d, sitque angulus b unius, æqualis angulo b alterius, dico quod proportio unius ad alterã producta ex proportione a b ad b d.& c b ad e, disponam enim has duas superficies penitus sicut disposui eas in 13 huius adiuncto ad utranque parallelogrammo c d, & ponã ut proportio lineæ f ad lineam g, sit sicut a b ad b d, & g ad h sicut c b ad b e, qualiter enim hoc fiat, dictum est supra 10 huius, eritque per primam huius & 11 quinti, a c ad c d, sicut f ad g, & c d, ad d e, sicut g ad h, quare per 22 quinti erit in æqua proportionalitate a c ad d e: sicut f ad h: & quia f ad h producitur ex f ad g & g ad h, ut dictum est in fine expositionis 11 diffinitionis quinti: erit ut a c ad d e, producatur ex eisdem. quare constat propositum.
 
 [Diagram: two parallelograms conjoined at a common vertex: an upper rectangle with labels c and b inside beside the dividing vertical, a at its left outside, and a tall rectangle below to the right with d at its right side and e inside; below, three vertical lines of differing lengths labelled c(f?), g, b(h?) at their feet]
+
+[Curated heading level=2 type=propositions: Propositio 25]
 
 ## Eucli.ex Camp. Propositio 25
 

@@ -6,6 +6,8 @@
 
 [Diagram: dotted number-lines at right: a . . . . . . . . . e . . . . . b; c . . . . . f . . . d; g . . . .]
 
+[Curated heading level=2 type=propositions: Problema 1 Propositio 2]
+
 [Curated heading level=2 type=problems: Problema 1 Propositio 2]
 
 ## Eucli.ex Zamb. Problema 1 Propositio 2
@@ -23,6 +25,8 @@ THEON ex Zamberto. Sint dati bini mumeri non primi adinuicem,α β & γ δ: opor
 [Diagram: dotted number-lines at right: β . . . . . . . . α; δ . . . . γ; β . . . . . . ε . . . . α; δ . . . . ζ . . γ; and further below: β . . . . . . . ε . . . α; η . . . .; δ . . . . ζ . . γ]
 
 CORRELARIVM. Ex hoc manifestum est quod si numerus binos numeros metitur,& maximam communem eorum dimensionem metietur.
+
+[Curated heading level=2 type=propositions: Propositio 3]
 
 ## Eucli. ex Camp. Propositio 3
 

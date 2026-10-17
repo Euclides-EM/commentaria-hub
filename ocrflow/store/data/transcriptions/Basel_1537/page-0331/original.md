@@ -4,6 +4,8 @@
 
 igitur β η, η γ, rationales sunt potentia tantum cōmēsurabiles. Igitur β γ, apotome est per 73 decimi. Dico quod & quinta. Quo nāque maius est id quod ex β η, eo quod ex η γ, esto id quod ex θ. Quoniā igitur est sicut quod ex β η, ad id quod ex η γ sic est δ ε ad ε ζ, cōuertēdo igitur (per correlariū 18 quinti) est sicut ε δ, ad δ ζ, sic quod ex β η, ad id quod ex θ. At ε δ, ad δ ζ, rationē nō habet quàm quadratus numerus ad quadratū numerum, neque igitur quod ex β η, ad id quod ex η θ, rationem habet quam quadratus numerus ad quadratum numerum. Incōmensurabilis (igitur per 9 decimi) β η, ipsi θ, longitudine. Ipsáq̃ η β, ipsa η γ, maius potest eo quod ex θ. Ipsa igitur η β, ipsa η γ maius potest, eo quod ex sibi long tudine{printer-error-correction:longitudine} incommensurabili, & congruens est longitudine commensurabilis ipsi α expositæ rationali. Ipsa igitur β γ, apotome est quinta. Inuenta igitur est apotome quinta. Quod ostendendum fuerat.
 
+[Curated heading level=2 type=propositions: Propositio 85]
+
 ## Eucli.ex Camp. Propositio 85
 
 [Curated heading level=3 type=campanus_sequence: 85.]
@@ -17,6 +19,8 @@ REsiduum sextū demum præsto sit reperire.
 CAMPANVS. Residuum sextum sic reperitur. Erit ut prius linea a rationalis posita, & c numerus quadratus diuisus in f & g non quadratos. & erit h numerus primus. Et quadratū lineæ a ad quadratum lineæ b c, sicut h ad e. at uero quadratū lineæ b c, quadratū c d, ut e ad f, eritq̃ ex diffinitione linea d b, residuum sextum. Cui si non plane animus tuus assenserit, exerceri te conuenit in inuentione binomij sexti,
 
 [Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); dotted number line with labels f and g]
+
+[Curated heading level=2 type=propositions: Problema 24 Propositio 90]
 
 [Curated heading level=2 type=missing_headers: Eucli. ex Zamb. Problema 24 Propositio 90]
 
@@ -37,6 +41,8 @@ THEON ex Zamb. Exponatur rationalis α, & tres numeri ε, β γ, γ δ, rationem
 [Diagram: line α; line with points ζ, θ, η (ζ at the left end, θ in the middle, η at the right end); shorter line κ; dotted number line with points β, δ, γ]
 
 [Diagram: line with points α, β, δ (α at the left end, β toward the right, δ at the right end)]
+
+[Curated heading level=2 type=propositions: Propositio 86]
 
 ## Eucli. ex Camp. Propositio 86
 

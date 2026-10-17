@@ -2,6 +2,8 @@
 
 <!-- Page number: 240 -->
 
+[Curated heading level=2 type=propositions: Theorema 32 Propositio 32]
+
 [Curated heading level=2 type=theorems: Theorema 32 Propositio 32]
 
 ## Eucli. ex Zamb. Theorema 32 Propositio 32
@@ -18,6 +20,8 @@ THEON ex Zamberto. A binario enim α, duplicentur quotcunq̃ numeri β,γ,δ. Di
 
 [Diagram: dotted lines labelled δ, γ, β, α, with a single dot labelled unitas]
 
+[Curated heading level=2 type=propositions: Propositio 36]
+
 ## Eucli. ex Camp. Propositio 36
 
 [Curated heading level=3 type=campanus_sequence: 36.]
@@ -31,6 +35,8 @@ THEON ex Zamberto. A binario enim α, duplicentur quotcunq̃ numeri β,γ,δ. Di
 CAMPANVS. Sit a numerus, cuius medietas quæ sit b, sit impar. Dico a, esse pariter imparem. Sit enim c binarius, manifestum itaque, quoniam ex c in b fit a. Sit autem d quilibet numerus par numerans a, qui numeret eum secundū e, eritq̃ per secundam partem 20 septimi, e ad b, sicut c ad d. Igitur e numerat b, quia c numerat d. Eritq̃ itaq̃ e numerus impart{printer-error-correction:impar}, erat enim & b, per diffinitionem igitur a est pariter impar.
 
 [Diagram: dotted lines labelled a, b, c; at right, shorter dotted lines labelled b and d]
+
+[Curated heading level=2 type=propositions: Theorema 33 Propositio 33]
 
 [Curated heading level=2 type=theorems: Theorema 33 Propositio 33]
 
@@ -48,6 +54,8 @@ THEON ex Zamberto. Numerus enim α, dimidium habeat imparem. Dico quod α parite
 
 [Diagram: dotted line labelled α]
 
+[Curated heading level=2 type=propositions: Propositio 37]
+
 ## Eucli. ex Camp. Propositio 37
 
 [Curated heading level=3 type=campanus_sequence: 37.]
@@ -61,6 +69,8 @@ THEON ex Zamberto. Numerus enim α, dimidium habeat imparem. Dico quod α parite
 CAMPANVS. Sit numerus a, non duplus a duobus, cuius medietas quæ sit b, ponatur par: dico ipsum esse pariter parem & impariter. Sit enim c binarius, de quo manifestum est quod ipse numerat a secūdum b: quia uero a non est duplus a duobus, necesse est si eius medietas quæ est b, in alias duas medietates diuidatur, medietatisq̃ medietas in alias duas, ut tandem occurrat numerus impediēs diuisionem, qui propter hoc quod diuisionem non recipit, erit impar, sitq̃ is in quo sistit diuisio, d. In numero quippe necesse est stare, quia si usq̃ ad unitatem perueniret diuisio, esset a de numeris duplis a binario, de quibus nō est. de d uero manifestum est quod & ipse numerat a per hanc cōmunem scientiā. Omnis numerus alium numerat omnem numeratū ab illo. Numeret ergo eum secundum e, eritq̃ e, par, alioquin cum d sit maior impar, sequeretur per 30 a esse imparem. Quia igitur b numerus par numerat a secundū c, qui quoq̃ est par (est enim binarius) at uero c numerus par numerat eundem secundum d qui est impar, constat ex diffinitione numerum a esse pariter parem & impariter, quod est propositum.
 
 [Diagram: dotted lines labelled a, b, c; at right, shorter dotted lines labelled d and e]
+
+[Curated heading level=2 type=propositions: Theorema 34 Propositio 34]
 
 [Curated heading level=2 type=theorems: Theorema 34 Propositio 34]
 

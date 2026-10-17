@@ -8,6 +8,8 @@ lo. Datur autem d e g,triangulum specie, datur igitur & a b c,triangulum specie.
 
 Quoniam enim ponitur d e,positione & magnitudine data,manifestum quod si circulus bifariam secetur est centrum circuli positione. Dimidia uero,hoc est quæ ex centro datur positione & magnitudine sicut & circulus,per diffinitionem.
 
+[Curated heading level=2 type=propositions: Theorema 44 Propositio 44]
+
 [Curated heading level=2 type=theorems: Theorema 44 Propositio 44]
 
 ## Theorema 44 Propositio 44
@@ -19,6 +21,8 @@ Sit triangulum a b c unum habens angulum datum eum qui sub b a c, circum autẽ 
 [Diagram: triangle with apex e and base c, b; points a and d on the side from c toward e, each joined to b]
 
 [Diagram: triangle with base c, b; point a above the base and e above a, both joined to b]
+
+[Curated heading level=2 type=propositions: Theorema 45 Propositio 45]
 
 [Curated heading level=2 type=theorems: Theorema 45 Propositio 45]
 

@@ -8,6 +8,8 @@ Binæ, inquam, species a b c, d e f, specie datæ adinuicẽ rationẽ habeant d
 
 [Diagram: two figures at right: a tall square b n surmounted by a gabled species with labels d, g, f, e, b; and a square e h with a triangular species above, labels a, l, K, e, b, n, m]
 
+[Curated heading level=2 type=propositions: Theorema 78. Propositio 78.]
+
 [Curated heading level=2 type=theorems: Theorema 78. Propositio 78.]
 
 ## Theorema 78. Propositio 78.
@@ -17,6 +19,8 @@ SI data species ad rectangulum aliquod rationem habuerit datam, & unum latus ad 
 Data enim species a f b ad rectangulum c d, rationem habeat datam, sitque ipsius f b ad c d, ratio data. Dico quod c d specie datur. Describatur per 46 primi ele. ex f b, quadratũ f g. Cõpareturq̃ per 25 sexti ele. ad ipsam e d ipsiq̃ f g, æquum parallelogrammum e k ponaturque ut c e ipsi e h, sit in rectam lineam, in rectã igitur lineã est & m d, ipsi d K. Et quoniã ab eadem recta linea f b bina rectilinea quæ utcũque specie data sunt describuntur a f b, f g. Ratio igitur ipsius a f b ad f g per 49 propositionem data est. Ipsius autẽ a f b ad c d ratio est data, & ipsius ergo f g ad c d, ratio est data. Sed f h ipsi e k est æquale, & ipsius c d ergo ad e k, ratio est data, Quare & ipsius c e ad e h ratio est data. Et quoniã f g ipsi e k, æquum & æquiãgulũ est, est autẽ & rectãgulũ. Igitur per 14 sexti el. ipsorũ latera reciproca sunt, estque sicut f b ad e d, sic e h ad f l. Ratio autẽ ipsius f b ad e d, supponitur data. Ratio igitur & ipsius e h ad f l data est. Ipsius autem e h ad c e, ratio est data, & ipsius ergo c e ad f l ratio est data, æqualis autem est f l ipsi f b, quadrati enim. Ipsius ergo l f ad e d, ratio est data, componatur enim, & ipsius igitur c e ad c d, ratio est data, & angulus qui ad e rectus est. Datur ergo c d specie.
 
 [Diagram: at right: a rectangle m d over K h with labels m, c, d, b, K, h; beside it a pentagonal species with apex a and labels x, n, e, f, g, l]
+
+[Curated heading level=2 type=propositions: Theorema 79. Propositio 79.]
 
 [Curated heading level=2 type=theorems: Theorema 79. Propositio 79.]
 

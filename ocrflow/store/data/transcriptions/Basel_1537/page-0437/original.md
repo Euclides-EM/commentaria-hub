@@ -12,6 +12,8 @@ RESOLVTIO quinti theorematis. *Recta enim quædā linea α β, extrema & media r
 
 COMPOSITIO *Quoniā α β, extrema & media ratione in γ secatur, est igitur sicut β α ad α γ, sic α γ, ad γ β Aequalis autē est α γ, ipsi α δ, est igitur sicut β α ad α δ, sic α γ, ad γ β, cōponēdo (per 18 quinti) sicut β δ, ad δ α, sic α β ad β γ. Cōuertēdo, sicut δ β ad β α, sic β α ad α γ. Aequalis autē est α γ, ipsi α δ, est igitur sicut δ β ad β α, sic β α, ad α δ. Ipsa igitur δ β, extrema & media ratione secatur in α, & maius segmentum est α β. Quod ostendere oportuit.*
 
+[Curated heading level=2 type=propositions: Propositio 6]
+
 ## Eucli. ex Camp. Propositio 6
 
 [Curated heading level=3 type=campanus_sequence: 6.]

@@ -4,7 +4,7 @@
 
 autem ipsum, multiplex: propter hoc quod minus aliquoties sumptum, ipsum constituat: erunt igitur relatiue dicta adinuicem, pars & multiplex. Nam omnis pars, submultiplex: ut patet per eius diffinitionem.
 
-[Curated heading level=3 type=definitions: Proportio, est habitudo]
+[Curated heading level=3 type=definitions: 3]
 
 [Curated heading level=3 type=campanus_sequence: 3.]
 

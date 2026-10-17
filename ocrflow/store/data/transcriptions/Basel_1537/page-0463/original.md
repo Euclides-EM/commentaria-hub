@@ -8,6 +8,8 @@ CAMPA. Sit linea a b latus pētagoni æquilateri inscripti circulo cuius centrū
 
 CAMPANI annotatio Nūc ergo explicādū est quod ait Aristæus in libro intitulato. Expositio sciētiæ quinqꝫ corporū necnō & Apollonius in dono secūdo in proportionalitate figuræ 12 basiū ad figurā 20 basiū, dicēs quod proportio superficierū figuræ habentis 12 bases ad superficies figuræ habētis 20 bases est tanquā proportio corporis 12 basiū ad corpus 20 basiū, linea etenim ducta à centro circuli pētagoni figuræ 12 basiū dodecedri ad circūferētiā eius est quasi linea prodiēs à cētro circuli triāguli figuræ uiginti basium icosedri ad circūferentiā eius. Hæc sunt ipsius magni Apollonij uerba. Intelligēda aūt sunt de figura 12 & 20 basiū ab una eadēqꝫ sphæra circūscriptibiliū. Est enim proportio corporis dodecedri ad corpus icosedron, cū ambo una eadēqꝫ sphæra circunscribit sicut proportio omnium superficierū dodecedri pariter acceptarū, ad oēs superficies icosedri pariter acceptas, quēadmodū Apollonius præmissorū uerborū prima parte cōmemorat, quod & 10 huius decimiquarti libri solida demōstratione stabilitur. Et est circulus circūscribēs pētagonū dodecedri æqualis circulo circūscribēti trigonū icosedri.cum dodecedrō & icosedrō eadē sphæra circunscribit, quamadmodum ipse Apollonius secunda parte præmissorū uerborum commemorat, quod etiam 5 huius libri demōstratione firmatur. Præmittēda sunt igitur antecedētia, ad tantorū uirorum eloquia, inconcussa ueritate corroboranda.
 
+[Curated heading level=2 type=propositions: Propositio 2]
+
 ## Eucl.ex Camp. Propositio 2
 
 [Curated heading level=3 type=campanus_sequence: 2.]

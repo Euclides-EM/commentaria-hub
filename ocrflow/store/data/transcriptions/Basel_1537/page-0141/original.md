@@ -6,6 +6,8 @@ THEON ex Zamb. Sint tres magnitudines α β γ, & aliæ eisdem æquales numero �
 
 [Diagram: nine vertical bars of differing heights with tick marks, labeled below α β γ γ γ δ ε ζ ζ]
 
+[Curated heading level=2 type=propositions: Propositio 21]
+
 ## Eucli.ex Camp. Propositio 21
 
 [Curated heading level=3 type=campanus_sequence: 21.]
@@ -19,6 +21,8 @@ SI fuerint quotlibet quantitates aliǽ que secundum earum numerum, quarum quæqu
 CAMPANVS. Secundum antecedens, sint tres quãtitates a b e, sumãturq̃ aliæ tres quæ sunt f c d & sit proportio a ad b, sicut c ad d, & b ad e, sicut f ad c. dico quod si a est maior e, f, erit maior d, & si minor, minor: & si æqualis, æqualis, hoc autem probatur per easdem & eodem modo, quo præcedens, si enim a sit maior e, erit maior p̃portio a ad b quàm e ad b, quare maior c ad, quã e ad b, & ideo maior quàm c ad f, maior igitur f, quàm d, per secundam partem 10 quod est propositum. Quod si a sit minor e, erit tandem minor c ad d quàm ad f, quare per eandẽ partẽ eiusdẽ f, erit minor d. Si autẽ a sit æqualis e, sequitur ut sit proportio c d sicut c ad f, igitur per secundam partem 9 erit f æqualis d, quod est propositum
 
 [Diagram: three groups of paired horizontal segments with tick marks, labeled a and f, b and c, e and d in each group]
+
+[Curated heading level=2 type=propositions: Theorema 21 Propositio 21]
 
 [Curated heading level=2 type=theorems: Theorema 21 Propositio 21]
 

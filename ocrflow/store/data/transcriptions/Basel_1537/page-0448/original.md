@@ -12,6 +12,8 @@ Similiter autē dicimus, ꝙ si fuerit aliquis angulus rectus cui basis subtenda
 
 [Diagram: base line a d c with perpendicular d b; b the vertex of the right angle a b c, e on the perpendicular below b, f above b; several semicircular arcs described on a c, one through e, one through b and one through f; lines from a and c to b, e and f]
 
+[Curated heading level=2 type=propositions: Problema 1 Propositio 13]
+
 [Curated heading level=2 type=problems: Problema 1 Propositio 13]
 
 ## Eucli. ex Zamb. Problema 1 Propositio 13

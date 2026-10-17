@@ -8,6 +8,8 @@ CAMPANVS. Sint duæ lineæ a b & a c, se angulariter contingentes in puncto a, �
 
 [Diagram: three chevrons one above another joined by a vertical line: at the top the angle b a c with apex a; below it the angle h g k with apex g; at the bottom the angle e d f with apex d]
 
+[Curated heading level=2 type=propositions: Theorema 13 Propositio 15]
+
 [Curated heading level=2 type=theorems: Theorema 13 Propositio 15]
 
 ## Eucli. ex Zamb. Theorema 13 Propositio 15
@@ -35,6 +37,8 @@ Excitetur, inquam, (per 11 undecimi) ab ipso β signo, in id quod per δ ε, ε 
 Et per η, ipsi quidem ε δ parallelus excitetur (per 31 primi) η θ, ipsi autẽ ε ζ, ipsa η κ. Et quoniam β η ad id quod per δ ε, ε ζ, planũ recta est, & ad omnes igitur eam tangentes rectas lineas (per 2 undecimi diffinitionẽ) & in eodem quod per δ ε, ε ζ, plano existentes, rectos efficiet angulos. Tangit autem ipsam utraq̃ ipsarũ η θ, η κ, existens in eo quod per δ ε, ε ζ, plano, rectus igitur est (per 4 undecimi) uterq̃ ipsorũ qui sub β η θ, β η κ, angulorũ. Et quoniam parallelus est β α ipsi η θ, ipsi igitur sub η β α, β η γ{printer-error-correction:β η θ}, anguli (per 29 primi) duobus rectis sunt æquales, sed rectus est qui sub β η θ, rectus igitur est qui sub η β α, igitur ipsa η β, ipsi β α ad angulos rectos est. Id propterea etiam β η, ipsi β γ ad angulos rectos est. Quoniã igitur recta linea β η duabus rectis lineis β α, β γ, sese inuicem tangentibus ad angulos rectos stetit, igitur (per 4 undecimi) β η & ad id quod per β α, β γ, planũ ad rectos angulos est. Est autem & ei quod per η θ, η κ, plano, recta quod uero per η θ, η κ planũ, id est quod per δ ε, ε ζ, ipsa igitur β η ei quod per δ ε, ε ζ plano recta est. Igitur β η ad utrunq̃ eorũ quæ per α β γ, δ ε ζ, planorũ, recta est. Plana autẽ ad quæ eadem recta linea recta est, parallela sunt (per 14 undecimi.) Parallelũ igitur est quod per α β, β γ, planum, ad id quod per δ ε, ε ζ. Si binæ gitur{printer-error-correction:igitur} rectæ lineæ sese inuicẽ tangentes, ad binas rectas lineas sese inuicem tangentes fuerint parallelæ, sed non in eodem plano, parallela sunt quæ per ipsas plana. Quod ostendendum erat.
 
 [Diagram: two chevrons one above another: the angle α β γ with apex β at the top, η beneath β with the angle θ η κ(?) drawn through it, and below the angle δ ε ζ with δ at the lower left, ε at the middle and ζ at the lower right]
+
+[Curated heading level=2 type=propositions: Propositio 16]
 
 ## Eucli.ex Camp. Propositio 16
 

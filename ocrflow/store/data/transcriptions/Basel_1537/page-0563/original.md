@@ -8,6 +8,8 @@ tur g b.data est,& quoniam est sicut a e ad c f,sic est a g ad c d,& reliquæ g 
 
 Quoniam enim est sicut a e ad c f,sic est a g,ad c d,manifestum quod & reliquæ e g ad reliquam. f d,ratio data per 19 quinti elementorum & in alijs eiusmodi per scholiũ maxime decimi theorematis.
 
+[Curated heading level=2 type=propositions: Theorema 21 Propositio 21]
+
 [Curated heading level=2 type=theorems: Theorema 21 Propositio 21]
 
 ## Theorema 21 Propositio 21
@@ -18,6 +20,8 @@ Sint binæ magnitudines datæ a b,c d,apponanturque eisdem magnitudines.e a, c f
 
 [Diagram: two horizontal lines; the upper with points e, a, g, b; the lower with points f, c, d]
 
+[Curated heading level=2 type=propositions: Theorema 22 Propositio 22]
+
 [Curated heading level=2 type=theorems: Theorema 22 Propositio 22]
 
 ## Theorema 22 Propositio 22
@@ -27,6 +31,8 @@ SI binæ magnitudines ad aliquam magnitudinem rationem datam habuerint, & utraqu
 Binæ siquidem magnitudines a b,b c,ad aliquam magnitudinem d rationem habeant datam. Dico quod & utraque a c ad eandem d rationẽ habet datam. Quoniam utraq̃ ipsarum a b,b c,ad d, rationem habet datam:ratio igitur & ipsius a b ad b c data est. Et componendo per 17 quinti elementorum ipsius a c ad c b.ratio est data:ipsius autem b c ad d ratio est data,& ipsius a c,igitur ad d ratio data est.
 
 [Diagram: a horizontal line with points a, b, c; below it a shorter line labelled d]
+
+[Curated heading level=2 type=propositions: Theorema 23 Propositio 23]
 
 [Curated heading level=2 type=theorems: Theorema 23 Propositio 23]
 

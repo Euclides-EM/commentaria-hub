@@ -4,15 +4,13 @@
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS.
 
-## Euclides ex Campano.
+[Curated heading level=2 type=campanus_sequence: Euclides ex Campano.]
 
-[Curated heading level=3 type=definitions: OMne parallelogrammū rectangulum]
+## Euclides ex Campano.
 
 {dropcap:O|lines=?|style=decorated|decoration="putto woodcut"}Mne parallelogrammū rectangulum, sub duabus lineis angulū rectum ambientibus dicitur contineri.
 
 CAMPANVS. Parallelogrammum, est superficies æquidistantium laterum. Parallelogrammum rectangulum, est superficies æquidistantium laterum habens omnes angulos rectos, & producitur ex uno duorum laterum eius ambientium unum ex suis angulis, ducto in reliquum, & ideo sub illis dicitur contineri.
-
-[Curated heading level=3 type=definitions: Omnis parallelogrammi spatij]
 
 Omnis parallelogrammi spatij ea quidem quæ diameter secat per medium parallelogrāma, circa eandem diametrū consistere dicuntur. Eorum uero parallelogrammorū quæ circa eandem diametrum consistūt, quodlibet una cum supplementis duobus, gnomo nominatur.
 
@@ -21,6 +19,8 @@ CAMPANVS. Quæ parallelogrāma dicuntur consistere circa diametrū, & quæ sunt 
 [Diagram: square a b c d with a, g, b along the top, e, k, f across the middle, c, h, d along the bottom; diagonal a d drawn through k, the lines e f and g h crossing at k]
 
 [Curated heading level=2 type=definitions: Parallelogrammum rectangulum.]
+
+[Curated heading level=2 type=zamberti_sequence: Eucli. ex Zamb. Parallelogrammum rectangulum.]
 
 ## Eucli. ex Zamb. Parallelogrammum rectangulum.
 
@@ -35,6 +35,8 @@ OMne parallelogrammū rectangulum, sub duabus rectum angulum comprehendentibus r
 [/Margin]
 
 Omnis parallelogrammi * loci eorum quæ circa dimetientē illius sunt parallelogrammorū unumquodq̃ cum binis supplementis gnomon uocetur.
+
+[Curated heading level=2 type=propositions: Propositio 1.]
 
 ## Eucli. ex Camp. Propositio 1.
 

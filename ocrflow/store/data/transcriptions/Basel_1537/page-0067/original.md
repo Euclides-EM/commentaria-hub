@@ -6,6 +6,8 @@ Dico quod eorum sunt diuersa centra. Si enim habuerint idẽ centrum: erit per d
 
 [Diagram: two circles touching internally at a; centre d with lines d a and d b c drawn; labels d, b, c]
 
+[Curated heading level=2 type=propositions: Theorema 5. Propositio 6.]
+
 [Curated heading level=2 type=theorems: Theorema 5. Propositio 6.]
 
 ## Eucli. ex Zamb. Theorema 5. Propositio 6.
@@ -21,6 +23,8 @@ Si duo circuli se adinuicem tetigerint, eorum non est idem centrum.
 THEON ex Zamb. Duo enim circuli α β γ, & γ δ ε, sese inuicem tangant in γ, signo. Dico quod eorum non est idem centrum. Si enim possibile, sit ζ, & (per primum postulatum) connectatur ζ γ, & ζ β ducatur utcunque. Quoniam igitur ζ, signum, centrum est circuli α β γ, æqualis est (per 15 primi diffinitionem) ζ γ, ipsi ζ β. Rursus quoniam ζ, signũ, centrũ est circuli γ δ ε, æqualis est ζ γ, ipsi ζ δ, (per eandem diffinitionem.) Patuit autem quod ζ γ, ipsi ζ β, est æqualis. igitur ζ δ, ipsi ζ β, est æqualis, minor maiori, quod est impossibile. Igitur ζ, signum, nõ est centrum circulorum α β γ, & γ δ ε. Si bini igitur circuli se adinuicem tetigerint, & quæ sequuntur reliqua ut in theoremate, quod erat ostendendum.
 
 [Diagram: two circles touching at γ, one within the other; lines from ζ to γ and through β and δ; labels γ, ζ, δ, α, β, ε]
+
+[Curated heading level=2 type=propositions: Propositio 7.]
 
 ## Eucli. ex Camp. Propositio 7.
 

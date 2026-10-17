@@ -6,6 +6,8 @@ stantem cd, & produco f d & e b, quousq̃ concurrant in puncto g, & produco line
 
 [Diagram: base line a c b d with apex e above c, point f at upper right, lines e f, f d and e b produced meeting at g below right]
 
+[Curated heading level=2 type=propositions: Theorema 10. Propositio 10.]
+
 [Curated heading level=2 type=theorems: Theorema 10. Propositio 10.]
 
 ## Eucli. ex Zamb. Theorema 10. Propositio 10.

@@ -6,6 +6,8 @@ Protraham ergo b n æquidistantem a l, & producam diametrū n a, quam protraham 
 
 [Diagram: at left, angle c and triangle d e f with apex δ over base e f; at right, the completed construction on line g a b with points m, k, l, n above, h on g a, α and b, and o, p, q below, diameter n a produced to o]
 
+[Curated heading level=2 type=propositions: Problema 12. Propositio 44.]
+
 [Curated heading level=2 type=problems: Problema 12. Propositio 44.]
 
 ## Eucli. ex Zamb. Problema 12. Propositio 44.
@@ -35,6 +37,8 @@ Constituatur (per 42) ipsi γ triangulo æquale parallelogrammū β ε ζ η, in
 [/Margin]
 
 [Diagram: triangle γ with angle δ marked beside it; construction figure with parallelogram β ε ζ η, line α β, points θ, λ, κ, μ, and the diameter θ κ with supplements about it]
+
+[Curated heading level=2 type=propositions: Problema 13. Propositio 45.]
 
 [Curated heading level=2 type=problems: Problema 13. Propositio 45.]
 

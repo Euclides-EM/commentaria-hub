@@ -6,6 +6,8 @@ THEON ex Zamberto. Sint bini numeri α,β, & α quidem ipsum β multiplicans, ef
 
 [Diagram: dot-rows in the right margin, ε (1 dot), α (2 dots), β (4 dots), γ (8 dots), δ (8 dots)]
 
+[Curated heading level=2 type=propositions: Propositio 18]
+
 ## Eucli.ex Camp. Propositio 18
 
 [Curated heading level=3 type=campanus_sequence: 18.]
@@ -19,6 +21,8 @@ SI unus numerus in duos ducatur, tantus erit duorum inde productorum alter ad al
 CAMPANVS. Multiplicet a utrunq̃ duorum numerorū b & c, & proueniant d & e. Dico quod erit proportio d ad e, sicut b ad c: sequitur enim per conuersionē diffinitionis eius quod est multiplicari, ut b in d, & c in e sit, quoties unitas in a: quare per diffinitionē, proportio d ad b, est sicut e ad c: æqualiter enim eos continent, quia quoties unitatem, ergo permutatim d ad e, sicut b ad c, quod est propositum.
 
 [Diagram: dot-rows in the right margin, d and e in one row; below, b and c; below, a (2 dots); below, a single dot above the word Vnitas]
+
+[Curated heading level=2 type=propositions: Theorema 15 Propositio 17]
 
 [Curated heading level=2 type=theorems: Theorema 15 Propositio 17]
 
@@ -35,6 +39,8 @@ Si numerus duos numeros multiplicans, fecerit aliquos, geniti ex eis eandem rati
 THEON ex Zamb. Numerus enim α duos numeros β,γ, multiplicans, efficiat ipsos δ,ε. Dico quod est sicut β ad γ, sic est δ ad ε. Quoniam enim α ipsum β multiplicans, ipsum δ fecit, & β igitur ipsum δ metitur per eas quæ in α sunt unitates . Metitur autem & ζ unitas, ipsum α numerum, per eas quæ in eo sunt unitates. Pariter igitur ζ unitas ipsum α numerum metitur, & β ipsum δ: est igitur sicut ζ unitas ad α numerum, sic est β ad δ. Propterea iam & sicut ζ unitas ad α numerum, sic γ ad ε: & sicut igitur (per 11 quinti) β ad δ, sic γ ad ε. Vicißim igitnr (per 15 septimi) est sicut β ad γ, sic est δ ad ε. Si igitur numerus duos, & reliqua quæ sequuntur, quod oportebat demonstrare.
 
 [Diagram: dot-rows in the right margin, ζ (1 dot), α (3 dots), β (4 dots), γ (5 dots), δ (12 dots), ε (15 dots)]
+
+[Curated heading level=2 type=propositions: Propositio 19]
 
 ## Eucli. ex Camp. Propositio 19
 

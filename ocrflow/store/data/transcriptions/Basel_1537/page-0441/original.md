@@ -4,6 +4,8 @@
 
 duorum relatiuorum laterum illarum figurarum ſicut duarum diametrorum illorũ circulorum, ut apparet ex correlario 15 ſexti libri & 1 duodecimi, cum latera decagonorum ſimilium inſcriptorum duobus circulis a b c & f, ſint æqualia, ſequitur ut diametri eorum ſint æquales. ideoq̃ & ſemidiametri etiam æquales. Sũt autem ſemidiametri & latus hexagoni; æqualia ex correlario 15 quarti. Erit ergo linea e b, latus hexagoni circulo a b c inſcripti ſicut ipſa eſt latus hexagoni circuli f ſibi æqualis. Hoc autem eſt, quod demonſtrare uoluimus. Ex hac autem nona huius decimitertij noueris exortam eſſe 10 quarti libri, quæ duum æqualium laterum proponit trigonum deſcribẽdum, cuius uterque duorum angulorum quos baſis obtinet, ad tertiũ duplus exiſtat, talis enim eſt uterque triangulorum e d c & d c b, & ſimpliciter omnis, cuius duo latera ſunt æqualia maiori portioni alicuius lineæ diuiſæ ſcd̃m proportionem habentem medium duoq̃ extrema, & tertium quod eſt baſis eſt æquale minori portioni lineæ eiuſdem, uel cuius duo latera ſunt æqualia lateri hexagoni æquilateri alicui in circulo inſcripti, baſis uero eſt æqualis lateri decagoni æquilateri eidem circulo inſcripti. Quod eſt propoſitum.
 
+[Curated heading level=2 type=propositions: Propoſitio 10]
+
 ## Eucli. ex Camp. Propoſitio 10
 
 [Curated heading level=3 type=campanus_sequence: 10.]

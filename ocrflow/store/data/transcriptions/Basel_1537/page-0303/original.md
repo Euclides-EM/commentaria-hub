@@ -8,11 +8,15 @@ ducantur autē lineæ e g, d h, f K, æquidistãtes lineæ a b. Et quia ex diffi
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
+[Curated heading level=2 type=zamberti_sequence: THEON Lemma.]
+
 ## THEON Lemma.
 
 Sint bina quadrata α β, β γ, ponaturq̃ (per 14 primi. ut δ β, ipsi β ε, sit in rectas lineas. In rectas lineas igitur est & ζ β, ipsi β η. Cōpleaturq̃ parallelogrammum α γ, Dico quod α γ, quadratum est, & quod δ η, ipsorum α β, β γ, medium est proportionale, & insuper δ γ, ipsorum α γ, γ β, medium proportionale est. Quoniam enim δ β, ipsi β ζ est æqualis, & β ε ipsi β η, tota igitur δ ε toti ζ η est æqualis. Sed δ ε, utriq̃ ipsarum α θ, κ γ est æqualis: Igitur (per 33 primi (parallelogrammum α γ, æquilaterum est, est quoque & rectangulum, quadratum igitur est α γ, (per 46 primi) Et quoniam est sicut ζ β ad β η, sic δ β, ad β ε, sed sicut quidē ζ β, ad β η, sic (per primam sexti, α β, ad δ η, sicut uero δ β, ad β ε, sic δ η, ad β γ, & sicut igitur α β ad δ η, sic δ η ad β γ. Igitur δ η, ipsorũ α β, β γ, mediũ proportionale est. Dico iam & quod & δ γ, ipsorũ α γ, γ β, medium proportionale est. Quoniã enim est sicut α δ ad δ κ, sic est κ η ad η γ, (æqualis est enim altera alteri) & cōponēdo (per 16 quinti) sicut α κ ad κ δ. sic κ γ, ad γ η, sed sicut α κ, ad κ δ, sic α γ, ad γ δ, sicut autē κ γ ad γ η, sic (per primã sexti δ γ, ad γ β, igitur δ γ, ipsorum α γ, γ β, medium & proportionale est.
 
 [Diagram: square with corners κ (top-left), γ (top-right), α (bottom-left), θ (bottom-right); a horizontal line δ–β–ε and a vertical line ζ–β–η cross at β, dividing it into the two squares α β and β γ with their supplements]
+
+[Curated heading level=2 type=propositions: Theorema 36 Propositio 54]
 
 [Curated heading level=2 type=theorems: Theorema 36 Propositio 54]
 

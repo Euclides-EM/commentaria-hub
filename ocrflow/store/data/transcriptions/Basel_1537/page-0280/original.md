@@ -6,6 +6,8 @@ cōmensurabiles,& γ,δ,igitur(per 11 decimi)potentia tantum sunt cōmensurabile
 
 [Diagram: four horizontal lines of decreasing length in the right margin, labelled above: α R. 9 — γ R. R. 54 — δ R. 6 (sic, apparently for β R. 6) — δ R. R. 24]
 
+[Curated heading level=2 type=propositions: Problema 5 Propositio 28]
+
 [Curated heading level=2 type=problems: Problema 5 Propositio 28]
 
 ## Eucli.ex Zamb. Problema 5 Propositio 28
@@ -21,6 +23,8 @@ Medias comperire potentia tantum cōmensurabiles,medium comprehendentes.
 THEON ex Zamb. Exponantur enim tres rationales potentia tantum cōmensurabiles,α,β,γ, suscipiaturq́ʒ (per 13 sexti)ipsarum α,β, media proportionalis δ.Fiatq́ʒ(per 12 sexti)sicut β ad γ,sic δ ad ε.Quoniam enim α,β,rationales sunt,potentia tantum cōmensurabiles,igitur (per 21 decimi)quod sub α β,hoc est id quod ex δ,medium est : media igitur est δ. Et quoniam β,γ,potentia solum sunt cōmensurabiles, estq́ʒ sicut β ad γ,sic est δ ad ε,ipsæ igitur δ, ε,(per 11 decimi)potentia tantū sunt cōmensurabiles,media uero est δ,& igitur ε. Igitur ipsæ δ, γ{printer-error-correction:δ, ε}, mediæ sunt potentia tantum commensurabiles. Dico quod & medium comprehendunt. Quoniam enim est sicut β ad γ, sic est δ ad ε, uicißim igitur (per 16 quinti) sicut β ad δ, sic est γ ad ε . Sicut autem β ad δ, sic δ ad α. Et sicut igitur (per 11 quinti) δ ad α, sic γ ad ε . Quod igitur sub α, γ, (per 16 sexti) æquum est ei quod sub δ, ε, medium autem quod sub α,γ,medium igitur (per correlarium 23 decimi) quod sub δ ε. Inuentæ igitur sunt mediæ potentia tantum commensurabiles, medium comprehendentes, quod fecisse oportuit.
 
 [Diagram: five horizontal lines of different lengths in the right margin, labelled above: α R. 16 — δ R. R. 128 — β R. 8 — γ R. 6 — ε R. R. 72]
+
+[Curated heading level=2 type=zamberti_sequence: THEON Lemma.]
 
 ## THEON Lemma.
 

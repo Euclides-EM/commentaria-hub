@@ -14,6 +14,8 @@ ipsi λ ξ rectæ lineæ æqualis ipsa α γ, connectanturq̃ γ β. Quoniam igi
 
 [Diagram: semicircle on base α β with γ on the arc joined to α and β; a vertical segment marked ξ stands at the left; the letter λ beside α at the baseline]
 
+[Curated heading level=2 type=propositions: Propositio 24]
+
 ## Eucli. ex Camp. Propositio 24
 
 [Curated heading level=3 type=campanus_sequence: 24.]
@@ -27,6 +29,8 @@ ipsi λ ξ rectæ lineæ æqualis ipsa α γ, connectanturq̃ γ β. Quoniam igi
 CAMPANVS. Quicquid dicant alij, solidum æquidistantibus superficiebus contentum, superficiebus paribus necesse est contineri, quæ sicut esse non possunt pauciores sex, ita possunt esse in omni numero pari senarium excedente. Constat enim columnā hexagonam, posse octo superficiebus quæ binæ & binæ oppositæ sibi inuicē æquidistant, contineri. Sic quoq̃ octogonam 10, & decagonam 12, & ad istarum similitudinem, in infinitum. Sed horum omnium solidorū æquidistantibus superficiebus contentorum quæ infinita esse pronuntio, solum illud dicitur parallelogrammū, cuius omnes superficies ipsum ambiētes parallelogrāmæ sunt, & istud sex superficiebus duntaxat necesse est ambiri. De tali itaq̃ quod sex tantum superficiebus ambitur, dico debere intelligi quod hæc 24 proponit. Sit igitur tale solidū, corpus a b, cuius omnino superficies fac ut solido habitu mente cōprehendas, patebitq̃ tibi unamquāq̃ earum quatuor ex reliquis secare eius quatuor latera, cum sint communes sectiones ipsius secantis & quatuor sectarum. Sint autem illæ quatuor sectæ binæ & binæ secundum quod adinuicem opponuntur, æquidistantes ex hypothesi, sequitur ex 10 bis assumpta, ut quatuor latera huius superficiei secantis & quatuor sectarum sint adinuicem bina & bina æquidistantia. Constat itaq̃ secundum. At uero ex 34 primi manifestum est, omnia latera opposita istarū sex superficierū esse æqualia, erunt igitur bina latera angulum planum continētia cuiusq̃ earum, æqualia binis lateribus angulum planum in superficie sibi opposita continentibus, anguli quoq̃ ab illis binis lateribus contenti, æquales per 10 huius. Igitur ex conuersa penultimæ cōmunis scientiæ in primo libro positæ, necesse est quasque duas superficies in solido a b oppositas, esse sibi inuicem æquales. Quod est propositum.
 
 [Diagram: parallelepiped in perspective, with a at the lower front left corner and b at the upper back right corner]
+
+[Curated heading level=2 type=propositions: Theorema 21 Propositio 24]
 
 [Curated heading level=2 type=theorems: Theorema 21 Propositio 24]
 

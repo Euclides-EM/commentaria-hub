@@ -10,6 +10,8 @@ printed two-line note, partly legible: ipsius / ipsius
 
 [Diagram: triangle with apex ζ above the horizontal line α β; on the line the points δ, γ, ε, with the perpendicular ζ γ drawn]
 
+[Curated heading level=2 type=propositions: Propositio 12.]
+
 ## Eucli. ex Camp. Propositio 12.
 
 [Curated heading level=3 type=campanus_sequence: 12.]
@@ -23,6 +25,8 @@ printed two-line note, partly legible: ipsius / ipsius
 CAMPANVS. Sit a, punctus signatus extra lineā b c, à quo ad ipsam oportet deducere perpendicularem. Protraham ergo lineam b c in utranq̃ partem, quantum libuerit: & super punctum a, describā circulum b c, sic ut secet lineam datam in punctis b, c, & protrabam lineas a b & a c, & diuidam angulū b a c per æqualia, per 9 propositionem. Dico q̃ a d est perpendicularis super lineam b c. Intelligo duos triangulos, a b d & a c d, & quia duo latera a b & a d, trianguli a b d, sunt æqualia duobus lateribus a c & a d triāguli a c d, & angulus b a d æqualis angulo c a d, erit per 4 propositionē basis b d æqualis basi d c, & angulus a d b æqualis angulo a d c: quare uterq̃ eorum rectus, & linea a d perpendicularis super lineam b c, per diffinitionem anguli recti & lineæ perpendicularis, quod est propositum.
 
 [Diagram: circle with centre a; the horizontal line cuts the circle at b and c below, with d between them; the lines a b, a c and the perpendicular a d drawn]
+
+[Curated heading level=2 type=propositions: Problema 7. Propositio 12.]
 
 [Curated heading level=2 type=problems: Problema 7. Propositio 12.]
 
@@ -43,6 +47,8 @@ printed two-line note, partly legible: ipsius / æqua fecerit
 [/Margin]
 
 [Diagram: circle with ζ at the top and centre γ; the horizontal line α β below cuts the circle at η and ε, with θ between them; the lines γ η, γ ε and the perpendicular γ θ drawn, δ on the far side of the line]
+
+[Curated heading level=2 type=propositions: Propositio 13.]
 
 ## Eucli. ex Camp. Propositio 13.
 

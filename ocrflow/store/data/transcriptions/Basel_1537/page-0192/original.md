@@ -44,6 +44,8 @@ conuersam proportionalitatem b ad e, sicut d ad f: quare per
 
 Eodemq́; modo probabis econuerso, si sit b ad a, sicut d ad c, itemq́; b ad e, sicut d ad f, erit b ad a & e, sicut d ad c & f, erit enim per conuersam proportionalitatẽ a ad b, sicut c ad d: quare per æquam a ad e, sicut c ad f, & cõiunctim a & e ad e, sicut c & f ad f: igitur econuerso e ad a & e, sicut f ad c & f, per æquam itaq́; prrportionalitatẽ erit b ad a & e, sicut d ad c & f, quod erat propositum. Ex hoc quoq́; manifestum rst quod si fuerit proportio quotlibet numerorũ ad primum sicut totidem aliorum ad secundum, erit aggregari ex omnibus antecedẽtibus ad primum, ad primum, sicut aggregati ex omnibus antecedentibus ad secundum, ad secundum. Itemq́; econuerso si fuerit proportio primi ad quotlibet numeros sicut secundi ad totidem alios, erit primi ad aggregatum ex omnibus consequentibus ad ipsum, sicut secundi ad aggregatum ex omnibus consequentibus ad ipsum.
 
+[Curated heading level=2 type=propositions: Theorema 12 Propositio 14]
+
 [Curated heading level=2 type=theorems: Theorema 12 Propositio 14]
 
 ## Eucli.ex Zamb. Theorema 12 Propositio 14

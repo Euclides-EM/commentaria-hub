@@ -6,6 +6,8 @@ THEON ex Zãb. Recta enim linea α β. extrema & media rõne ſecetur in γ ſig
 
 [Diagram: two overlapping squares with a common diagonal and semicircular arcs marking the gnomon; labels λ (upper left), ζ (upper right), η (within, upper), θ (centre), μ (left), ξ (below centre), γ (right), δ (lower left), α, and along the bottom κ and ε]
 
+[Curated heading level=2 type=propositions: Propoſitio 2]
+
 ## Eucli. ex Camp. Propoſitio 2
 
 [Curated heading level=3 type=campanus_sequence: 2.]

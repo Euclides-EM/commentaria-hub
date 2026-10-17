@@ -6,6 +6,8 @@ demonstrandum, ipsa omnia esse æqualia adinuicem. Sunt autem eorū alia quæ no
 
 [Diagram: two parallelepipeds on the same base drawn as one slanted solid; labels b and c at the top, d inside at the left, e and f on the front face, a at the lower left, with diagonal lines through the base]
 
+[Curated heading level=2 type=propositions: Theorema 24. Propositio 29.]
+
 [Curated heading level=2 type=theorems: Theorema 24. Propositio 29.]
 
 ## Eucli. ex Zamb. Theorema 24. Propositio 29.
@@ -21,6 +23,8 @@ Super eadem basi & sub eadem altitudine solida parallellepipeda consistentia, qu
 THEON ex Zamb. Sint super eadem basi α β, solida parallelepipeda γ μ, γ ν, sub eadem altitudine, quorum stantes, hoc est α ζ, α η, λ μ, λ ν, γ δ, γ ε, β θ, & β κ, super eisdem sint rectis lineis ipsi ζ ν δ κ plano. Dico quod solidum γ μ, æquum est ipsi γ ν solido. Quoniam enim parallelogrammū est utrunq̃ ipsorū γ θ, γ κ, æqualis est (per 34 primi) γ β utriq́̃ ipsarū δ θ, ε κ. Quare & δ θ, ipsi ε κ est æqualis. Cōmunis auferatur ε θ, reliqua igitur δ ε, reliquæ θ κ est æqualis. Quare & ipsum quidem δ γ ε triangulū ipsi θ κ β triangulo est æquale, & δ η parallelogrammū ipsi θ ν parallelogrāmo, & id propterea triangulū α η ζ, triangulo μ λ ν est æquale. Est autem & ipsum quidē γ ζ parallelogrammū, ipsi β μ parallelogrāmo æquum, & γ η, ipsi β ν, ex opposito nanq̃. Igitur & prisma cōprehensum sub duobus quidem triāgulis ζ α η, δ γ ε, tribusq́̃ parallelogrāmis α δ, δ η, γ η, æquū est prismati cōprehenso sub duobus quidē triangulis μ λ ν, θ β κ, & tribus parallelogrāmis, hoc est β μ, ν θ, β ν. Cōmune apponatur solidū, cuius basis quidem sit parallelogrammū α β, ex opposito autē η ε θ μ. Totum igitur γ μ solidum parallelepipedū, toti γ ν solido parallelepipedo est æquale. Super eadem igitur basi existētia solida parallelepipeda & sub eadem altitudine, quorū stantes super eisdem sunt rectis lineis, sunt inuicē æqualia. Quod oportuit ostendere.
 
 [Diagram: a tall parallelepiped with two slanted solids on the same base; visible labels ν and κ at the top, μ, θ, λ, β along the sides, η and ζ within, ε, δ lower, α and γ at the bottom]
+
+[Curated heading level=2 type=propositions: Propositio 30.]
 
 ## Eucli. ex Camp. Propositio 30.
 

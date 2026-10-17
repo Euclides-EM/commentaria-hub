@@ -4,6 +4,8 @@
 
 ex hac 16 cōmunes sectiones duarum extremarū superficierū, æquidistātes sectionibus mediæ. Quare ex 30 primi ipsæ etiam sectiones duarum extremarū superficierū, erunt æquidistantes adinuicem. Et quia ipsæ contingunt se in cōmuni sectione duarū superficierū tres positas superficies secantium, ex præmissa euidenter constat quod diximus.
 
+[Curated heading level=2 type=propositions: Theorema 14. Propositio 16.]
+
 [Curated heading level=2 type=theorems: Theorema 14. Propositio 16.]
 
 ## Eucli. ex Zamb. Theorema 14. Propositio 16.
@@ -20,6 +22,8 @@ THEON ex Zamb. Bina, inquam, plana parallela α β, γ δ, à plano ε ζ η θ 
 
 [Diagram: house-shaped diagram; two parallel planes α β (left side β) and γ δ (right side δ) cut by plane ε ζ η θ; the sections ε ζ (left, corner ζ) and η θ (right, corner θ) produced upward meet at apex κ; bottom corners ε and η, interior bottom labels α and γ]
 
+[Curated heading level=2 type=propositions: Propositio 17.]
+
 ## Eucli. ex Camp. Propositio 17.
 
 [Curated heading level=3 type=campanus_sequence: 17.]
@@ -31,6 +35,8 @@ THEON ex Zamb. Bina, inquam, plana parallela α β, γ δ, à plano ε ζ η θ 
 {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I superficies tres uel plures æquidistantes duas rectas lineas se inuicem contingētes uel æquidistantes secent, illarum linearū portiones proportionales esse probantur.
 
 CAMPANVS. Intelligantur enim duæ rectæ lineæ penetrantes qualitercunq̃ contigerit tres superficies æquidistantes, aut etiam plures tribus: dico itaq̃ duas portiones illarum linearū inter quaslibet duas superficies interceptas, proportionales esse quibusq̃ duabus inter alias duas ex illis æquidistantibus superficiebus interceptis. Coniungantur enim duæ extremitates illarum duarum linearū, ducta inter eas linea una diagonaliter, eritq̃ hæc diagonalis, cum utraq̃ illarū duarum linearū penetrantiū superficies propositas, in superficie una illas æquidistantes superficies positas secante. Si ergo harum superficierum communes sectiones quæ per præmissam erunt æquidistantes, cogitatione protraxeris, ex prima parte secundæ sexti constabit propositum.
+
+[Curated heading level=2 type=propositions: Theorema 15. Propositio 17.]
 
 [Curated heading level=2 type=theorems: Theorema 15. Propositio 17.]
 
@@ -47,6 +53,8 @@ Si binæ rectæ lineæ à planis parallelis secentur, in easdem rationes secabun
 THEON ex Zamb. Binæ, inquam, rectæ lineæ α β, γ δ, à planis parallelis η θ, κ λ, μ ν, secētur in α, ε, β, γ, ζ, δ, signis. Dico quod est sicut α ε recta linea ad ε β, sic est γ ζ ad ζ δ. Connectantur α γ, β δ, α δ, & concurrat α δ ipsi κ λ plano in ξ signo, cōnectanturq̃ ε ξ, ξ ζ. Et quoniam bina plana parallela κ λ, μ ν, à plano ε β, δ ξ, secantur, ipsorum cōmunes sectiones ε ξ, β δ, parallelæ sunt (per 16 undecimi.) Idq̃ propterea quoniam bina plana parallela η θ, κ λ, à plano α ξ, ζ γ, secantur, cōmunes ipsorum sectiones α γ, ξ ζ, parallelæ sunt (per 16 undecimi.) Et quoniam lateri β δ trianguli α β δ, recta linea parallelus ducta est ε ξ, proportionaliter igitur sicut α ε ad ε β, sic est α ξ ad ξ δ. Rursus quoniam lateri α γ trianguli α δ γ, recta linea parallelus ducta est ξ ζ, proportionaliter igitur sicut α ξ ad ξ δ, sic γ ζ ad ζ δ, patuit autē & sicut α ξ ad ξ δ, sic α ε ad ε β, & sicut igitur (per 11 quinti) α ε ad ε β, sic γ ζ ad ζ δ. Si binæ igitur rectæ lineæ à planis parallelis secentur, & reliqua. Quod erat ostendendū.
 
 [Diagram: three parallel planes drawn as horizontal rectangles: top plane η θ containing points α and γ; middle plane κ λ containing points ε, ξ, ζ; bottom plane μ ν containing points β and δ joined by a horizontal segment; lines α β and γ δ descend through the planes and the diagonal α δ crosses the middle plane at ξ]
+
+[Curated heading level=2 type=propositions: Propositio 18.]
 
 ## Eucli. ex Camp. Propositio 18.
 

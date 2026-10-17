@@ -4,6 +4,8 @@
 
 est sicut σ area ad ε ζ η θ circulum, sic est α β γ δ circulus ad τ aream. Maior autem est σ area ipso ε ζ η θ circulo, maior igitur est & α β γ δ circulus, ipsa area τ, quare est sicut σ area ad α β γ δ circulum, sic est ε ζ η θ circulus ad minorem aliquam aream ipso α β γ δ circulo, quod oportuit demonstrasse.
 
+[Curated heading level=2 type=propositions: Propositio 3]
+
 ## Eucli. ex Camp. Propositio 3
 
 [Curated heading level=3 type=campanus_sequence: 3.]
@@ -17,6 +19,8 @@ est sicut σ area ad ε ζ η θ circulum, sic est α β γ δ circulus ad τ ar
 CAMPANVS. Sit pyramis a b c d super basin triangulam b c d, eiusq̃ uertex solidus angulus a, à quo demittātur tres hypothenusæ a b, a c, a d, ad tres angulos basis, & diuidātur omnia latera basis per æqualia in tribus punctis e, f, g, tres quoq̃ hypothenusæ per æqualia in tribus punctis h, k, l, & protrahātur in basi duæ lineæ e f & e g. Eritq̃ basis eius diuisa in tres superficies, quarum duæ sunt duo trianguli b e f, e g d, quos ex secunda parte 2 sexti, & diffinitiōe similium superficierū constat esse similes sibi inuicem & toti basi, & æquales adinuicē ex 8 primi, tertia est tetragona parallelogramma & ipsa est e f g c, quam constat esse duplam ad triāgulum e g d ex 40 & 41 primi. Demittātur ergo rursus à puncto h duæ hypothenusæ h e, h f, & à puncto k l hypothenusa k g, & protrahātur lineæ h k, k l & l h. Diuisa est itaq̃ tota pyramis a b c d in duas pyramides quæ sint h b e f & a h k l, & duo seratilia quorū unum est e h f g k c & est super basin quadrangulā c f g e, & aliud est e g d h k l & est super basin triangulam e g d. De duabus autem pyramidibus h b e f, a h k l, quod ipsæ sunt æquales adinuicem, sibiq̃ & toti pyramidi a b c d similes, constat ex diffinitione corporum æqualium & similium & ex 10 undecimi & ex secunda parte 2 sexti. De duobus autem seratilibus quod ipsa sint æqualia, constat ex ultima undecimi. Quod uero ambo seratilia pariter accepta sint maius medietate totius pyramidis, ex hoc manifestum est ꝗ utrunq̃ illorū diuisibile est in duas pyramides quarū altera triangula æqualis uni duarum, in quas & seratilia totalis pyramis diuiditur: altera uero quadrangula, quæ dupla est ad reliquā, quare patet ambo seratilia pariter accepta tres quartas esse totalis pyramidis diuisæ. Ac proportionē si scire desideras, sextam huius duodecimi consule. Sed sufficit tibi scire (quantū ad propositū) illa duo seratilia pariter accepta duas partiales pyramides in quas & seratilia totalis diuiditur pariter acceptas, quantalibet quantitate excedere.
 
 [Diagram: pyramid a b c d drawn as inverted triangle — b at upper left, e at top middle, d at upper right, c at bottom; apex a in the centre with inner points h, l (upper), f, g (sides), k (lower); hypotenusae and dividing lines showing the two pyramids and two seratilia]
+
+[Curated heading level=2 type=propositions: Theorema 3 Propositio 3]
 
 [Curated heading level=2 type=theorems: Theorema 3 Propositio 3]
 

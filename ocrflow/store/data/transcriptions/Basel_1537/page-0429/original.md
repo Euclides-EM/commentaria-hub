@@ -12,6 +12,8 @@ Oſtẽdẽdũ iã & aliter ac expeditius quod maior eſt α ψ, ipſa α κ. Ex
 
 CORRELARIVM. Si uero & in altera ſphæra ei quod in β γ δ ε, ſphæra, ſolido polyhedro, ſimile ſolidũ polyhedrũ inſcribatur, in ipſa β γ δ ε ſphæra ſolidũ polyhedrũ ad id quod in altera ſphæra ſolidum polyhedrũ triplã habet rationẽ, quàm ipſius β γ δ ε ſphæræ dimetiẽs ad ipſius alterius ſphæræ dimetientẽ. Diſtributis nãq̃ ſolidis in numero æquales & æqualis ordinis pyramidas, pyramides ſimiles erũt. Similes uero pyramides, (per 8 duodecimi) adinuicẽ in tripla ſunt rõne eiuſdẽ rõnis laterũ. Pyramis igitur cuius baſis quidẽ eſt κ β ο σ quadrilaterũ, uertex aũt α ſignũ, ad eã quæ in altera ſphæra ſimilis ordinis pyramida triplã habet rõnẽ, q̃ ſimilis rõnis latus ad ſimilis rõnis latus, hoc eſt quàm α β quæ ex cẽtro eius eſt ſphæræ quæ circũ α centrũ, ad eã quæ ex centro alterius ſphæræ. Similiter & unaquæq̃ pyramis quæ in ſphæra quæ circũ centrũ α, ad quãlibet pyramida eiuſdẽ ordinis in altera ſphæra triplã habebit rõnẽ quàm α β ad eã quæ ex cẽtro alterius ſphæræ. Et ſicut unũ antecedentiũ ad unũ ſequentiũ, ſic õnia ãtecedentia ad õnia ſequẽtia. Quare totũ ſolidũ polyhedrũ quod in ſphæra quæ circũ centrũ α, ad totũ ſolydum polyhedrum quod in altera ſphæra triplam rationem habebit quàm α β ad eã quæ ex centro alterius ſphæræ, hoc eſt quàm β δ diameter ad alterius ſphæræ diametrum. Quod oſtendere oportuit.
 
+[Curated heading level=2 type=propositions: Propoſitio 15]
+
 ## Euclid. ex Camp. Propoſitio 15
 
 [Curated heading level=3 type=campanus_sequence: 15.]

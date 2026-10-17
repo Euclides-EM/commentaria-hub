@@ -10,6 +10,8 @@ dium duoqꝫ extrema. sitqꝫ maior portio eius linea l n. & secūdū quantitat�
 
 [Diagram: circle with an inscribed pentagon, the vertex q at the top joined by a vertical line to the centre, and p at the left]
 
+[Curated heading level=2 type=propositions: Propositio 6]
+
 ## Eucli.ex Camp. Propositio 6
 
 [Curated heading level=3 type=campanus_sequence: 6.]

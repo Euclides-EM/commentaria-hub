@@ -4,6 +4,8 @@
 
 æquum ei quod fit ex b d in f g. Sed quod fit ex e f, in g e, æquum est quadrato f{printer-error-correction:f g} ex diffinitione lineæ diuisæ secundū proportionem habentem medium duoqꝫ extrema, & ex prima parte 16 sexti, igitur ꝙ fit ex b p{printer-error-correction:b d} in f g est æquale quadrato f g, ideoqꝫ ex prīa sexti linea b d, æqualis f g. Et quia f g est æqualis c b, erit quoqꝫ c b æqualis b d, & latus decagoni. Quod oportebat ostendere.
 
+[Curated heading level=2 type=propositions: Propositio 4]
+
 ## Eucli.ex Camp. Propositio 4
 
 [Curated heading level=3 type=campanus_sequence: 4.]
@@ -21,6 +23,8 @@ CAMPANVS Sit in circulo a b c cuius centrum d, inscriptus unus pentagonus æquil
 CORRELARIVM. Manifestum est ergo quod quadratum lateris cubi atque quadratum lateris figuræ duodecim basium, cū cubum & figurā duodecim basiū eadem sphæra circunscribit, ambo quadrata pariter accepta quincuplum sunt quadrati medietatis diametri circuli qui circunscribit pentagonum eiusdem figuræ duodecim basium.
 
 Istud correlarium uere manifestum est, constat enim ex demōstratione 17 tredecimi quod latus cubi subtenditur angulo pētagoni dodecedri, cum cubum & dodecedron una eadēqꝫ sphæra circunscribit, itaque per hanc 4 sine obice constat correlarium.
+
+[Curated heading level=2 type=propositions: Propositio 5]
 
 ## Eucli.ex Camp. Propositio 5
 

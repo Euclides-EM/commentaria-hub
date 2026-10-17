@@ -4,6 +4,8 @@
 
 μ ν, ν ξ, incōmēsurabile igitur est (per 1 sexti & 11 decimi,) cõpositũ ex ijs quæ ex μ ν, ν ξ, ei quod sub μ ν, ν ξ, & ipsorũ utrũq̃ mediũ est. Ipsæ igitur μ ν, ν ξ, potentia sunt incōmēsurabiles. Ipsa igitur μ ξ bina potens est media (per 41 decimi,) & ipsam potest α γ, quod ostendere oportebat.
 
+[Curated heading level=2 type=propositions: Propositio 54]
+
 ## Eucli. ex Camp. Propositio 54
 
 [Curated heading level=3 type=campanus_sequence: 54.]
@@ -20,6 +22,8 @@ CAMPANVS. Hæ sex sequentes, cõuersæ sunt sex præcedētium per ordinē. Huius
 
 [Diagram: tall rectangle divided by horizontal lines into bands; right side labels from top: g, q, n, l, f; left side labels: p, m, e (bottom-left)]
 
+[Curated heading level=2 type=zamberti_sequence: THEON Lemma.]
+
 ## THEON Lemma.
 
 Si recta linea secetur in inæqualia, quæ ab inæqualibus quadrata, maiora sunt eo quod bis sub inæqualibus comprehensum est rectangulum.
@@ -27,6 +31,8 @@ Si recta linea secetur in inæqualia, quæ ab inæqualibus quadrata, maiora sunt
 Sit recta linea α β, seceturq̃ in inæqualia in γ, sitq̃ maior α γ. Dico quod quæ ex α γ, γ β, maiora sunt eo quod bis sub α γ, γ β, secetur enim (per 10 primi) α β, bifariã in δ. Quoniã igitur recta linea secta est in æqualia in δ, & in inæqualia in γ, igitur (per 5 secũdi) quod sub α γ, γ β, una cũ eo quod ex γ δ, æquũ est ei quod ex α δ, & perinde quod ex sub α γ, γ β, minus est eo quod α δ. Quod igitur bis sub α γ, γ β, est minus quã duplũ eius quod ex α δ, Sed quæ ex α γ, γ β, dupla sunt eorũ quæ ex α δ, δ γ, ergo quæ ex α γ, γ β, maiora sunt eo quod bis sub α γ, γ β, quod erat ostendendũ.
 
 [Diagram: horizontal line with points labelled α, δ, γ, β from left to right]
+
+[Curated heading level=2 type=propositions: Theorema 42 Propositio 60]
 
 [Curated heading level=2 type=theorems: Theorema 42 Propositio 60]
 

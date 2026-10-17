@@ -4,7 +4,7 @@
 
 mutata, & in isto modo arguendi sit antecedens secundæ proportionis, consequens primæ, & consequens primæ, antecedens secundæ.
 
-[Curated heading level=3 type=definitions: Coniuncta uero proportionalitas]
+[Curated heading level=3 type=definitions: 13]
 
 [Curated heading level=3 type=campanus_sequence: 13.]
 
@@ -18,7 +18,7 @@ CAMPANVS. Diffinit coniunctam, disiunctam, & euersam, in quibus etiam nihil extr
 
 [Diagram: at right, two horizontal lines each divided by a tick, the upper labelled a and b, the lower labelled c and d]
 
-[Curated heading level=3 type=definitions: Disiuncta uero proportionalitas]
+[Curated heading level=3 type=definitions: 14]
 
 [Curated heading level=3 type=campanus_sequence: 14.]
 
@@ -32,7 +32,7 @@ CAMPANVS. Vult quod si fuerit proportio totius a b ad b sicut totius c d ad d, &
 
 [Diagram: at right, two horizontal lines each divided by a tick, the upper labelled a and b, the lower labelled c and d]
 
-[Curated heading level=3 type=definitions: Euersa proportionalitas]
+[Curated heading level=3 type=definitions: 15]
 
 [Curated heading level=3 type=campanus_sequence: 15.]
 
@@ -46,7 +46,7 @@ CAMPANVS. Vult quod si fuerit a b ad b, sicut c d ad d, & ex hoc ego cōcludam e
 
 [Diagram: at right, two horizontal lines each divided by a tick, the upper labelled a and b, the lower labelled c and d]
 
-[Curated heading level=3 type=definitions: Aequa proportionalitas]
+[Curated heading level=3 type=definitions: 16]
 
 [Curated heading level=3 type=campanus_sequence: 16.]
 

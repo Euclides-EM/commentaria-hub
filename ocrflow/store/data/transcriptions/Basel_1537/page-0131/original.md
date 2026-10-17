@@ -6,6 +6,8 @@ CAMPANVS Propositionem hanc quam Euclides in principio primi annumerauit inter c
 
 [Diagram: three rows of horizontal line segments with division marks, labelled g, k, h above; a, e, c; b, f, d; l, n, m; set beside the paragraph]
 
+[Curated heading level=2 type=propositions: Theorema 11 Propositio 11]
+
 [Curated heading level=2 type=theorems: Theorema 11 Propositio 11]
 
 ## Eucli. ex Zamb. Theorema 11 Propositio 11
@@ -21,6 +23,8 @@ Quæ eidem sunt eædem rationes, & adinuicem sunt eædem.
 THEON ex Zamberio. Sint enim sicut α, ad β, sic γ, ad δ, sicut uero γ, ad δ, sic ε, ad ζ. Dico quod est sicut α, ad β, sic ε, ad ζ. Sumantur enim ipsarum α γ ε, æque multiplices, sintq̃ η θ κ, ipsarum uero β δ ζ, aliæ quæuis æque multiplices, sintq̃ λ μ ν. Et quoniam est sicut α, ad β, sic γ, ad δ, & sumptæ sunt ipsarum α γ, æque multiplices η θ, ipsarum autē β δ, aliæ quæuis æque multiplices λ μ, si igitur excedit η, ipsum λ, excedit & θ, ipsum μ, & si æquale, æquale: & si deficit, deficit, (per couersionē 6 diffinitionis quinti.) Rursus quoniā sicut est γ, ad δ, sic ε, ad ζ, & sumptæ sunt ipsarum γ ε, æque multiplices θ κ, ipsarum δ ζ, aliæ quæuis æque multiplices μ ν, si igitur excedit θ, ipsum μ, excedit quoque κ, ipsum ν, & si æquale, æquale: & si minus, minus, (per eandē.) Sed si excedit θ, ipsum μ, excedit quoq̃ η, ipsum λ, & si æquale, æquale: & si minus, minus: (per eandem cōuersionē.) Quare si excedit η, ipsum λ, excedit & κ, ipsum ν, & si æquale, æquale: & si minus, minus: (per eandem.) Sunt autem η κ ipsarum α ε, æque multiplices, & λ ν, ipsarū β ζ, aliæ quæuis æque multiplices. Est igitur sicut α, ad β, sic est ε, ad ζ. Quæ igitur eidem eædem sunt rationes, & adinuicem sunt eædem (per 6 diffinitionem) quod demonstrasse oportuit.
 
 [Diagram: group of tall vertical line segments of graduated heights with division marks, letters η α β λ γ δ μ ε ζ ν beneath, in the right margin]
+
+[Curated heading level=2 type=propositions: Propositio 12]
 
 ## Eucli. ex Camp. Propositio 12
 

@@ -4,6 +4,8 @@
 
 sius circuli, hexagoni igitur latus est ipsa β ε recta linea, æqualis igitur est ei qui ex centro, hoc est ipsi δ ε. Et quoniā α ε ipsius δ ε dupla est, quadruplū est quod ex α ε eius quod ex δ ε, hoc est eius quod ex β ε. Aequū autem est id quod ex α ε, eis quæ ex α β, β ε, quæ igitur ex α β, β ε, quadrupla sunt eius quæ ex β ε: diuidendo igitur quòd quod ex α β, triplum est eius quod ex β ε. Aequalis autem est β ε, ipsi δ ε, quod ex α β igitur triplum est eius quod ex δ ε. Trianguli ergo latus potentia triplum est eius quæ ex centro circuli. Quod ostendere oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 13]
+
 ## Eucli. ex Camp. Propositio 13
 
 [Curated heading level=3 type=campanus_sequence: 13.]

@@ -6,6 +6,8 @@ munis apponatur μ δ. Igitur ε μ, & μ δ, ipsis μ ζ, & μ δ, sunt æquale
 
 [Diagram: point δ above a circle; lines from δ fanning down through the circle; λ, κ, μ, β labelled across the upper part, θ on the near circumference, ε, α, γ around the circle, centre within]
 
+[Curated heading level=2 type=propositions: Propositio 9.]
+
 ## Eucli. ex Camp. Propositio 9.
 
 [Curated heading level=3 type=campanus_sequence: 9.]
@@ -19,6 +21,8 @@ SI intra circulum puncto signato, ab eo plures quàm duæ lineæ ductæ ad circ�
 CAMPANVS. Sit ut à puncto a, signato intra circulum b c d, ductæ sint tres lineæ a b, c a, d a, ad circunferentiam: quas pono esse æquales. Dico punctum a, esse centrum circuli. Producam enim duas lineas c b & d c: & diuidam utramq̃ earum per æqualia, c b quidẽ in puncto e: & d c in puncto f. Et producam e a & f a, quas applico circunferẽtiæ ex utraque parte, eritq̃ per 8 primi, uterq̃ angulorum qui sunt ad e æqualis alteri: igitur per diffinitionem anguli recti, uterq̃ erit rectus. Similiter quoq̃ per eãdem uterque angulorũ qui sunt ad f: rectus: ergo per correlarium primæ huius, quia a e diuidit c b per æqualia & orthogonaliter: ipsa transit per centrum: similiter quoq̃ a f transit per centrũ: quia diuidit d c per æqualia & orthogonaliter: quare a est centrum, quod est propositum.
 
 [Diagram: circle with interior point a; lines from a to the circumference through d, f, b, c, e, crossing as diagonals and perpendiculars]
+
+[Curated heading level=2 type=propositions: Theorema 8. Propositio 9.]
 
 [Curated heading level=2 type=theorems: Theorema 8. Propositio 9.]
 

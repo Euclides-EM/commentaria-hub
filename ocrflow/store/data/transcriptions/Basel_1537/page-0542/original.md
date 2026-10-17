@@ -2,6 +2,8 @@
 
 <!-- Page number: 531 -->
 
+[Curated heading level=2 type=propositions: Theorema quadragesimumsecundum.]
+
 [Curated heading level=2 type=theorems: Theorema quadragesimumsecundum.]
 
 ## Theorema quadragesimumsecundum.
@@ -12,6 +14,8 @@ Esto, inquam, spectata aliqua magnitudo a b, sublimior plano, oculus autem esto 
 
 [Diagram: circle with centre c; radius drawn to b at the right; a stands above b outside the circle, d at the left of the circle]
 
+[Curated heading level=2 type=propositions: Theorema quadragesimumtertium.]
+
 [Curated heading level=2 type=theorems: Theorema quadragesimumtertium.]
 
 ## Theorema quadragesimumtertium.
@@ -21,6 +25,8 @@ SI uero uisile ad subiectū planum ad angulos fuerit rectos, permutatus autem fu
 Sit, inquam, spectata magnitudo a b, sublimis & ad angulos rectos existens ad subiectum planum, oculus uero sit c, & centro quidem b, spacio uero b c, per 3 postulatum circulus describatur c d. Dico quod si c, permutetur in circuli circunferentia ipsa a b, magnitudo æqualiter semper apparebit, hoc, inquam, est manifestum, omnes enim ab ipso c signo ad a b, cadentes radij ad æquos angulos procidunt. Quoniā angulus qui ad b rectus est. Aequaliter igitur spectata magnitudo apparebit.
 
 [Diagram: circle with centre b; a stands vertically above b, e on the circumference at the lower right]
+
+[Curated heading level=2 type=propositions: Theorema quadragesimumquartum.]
 
 [Curated heading level=2 type=theorems: Theorema quadragesimumquartum.]
 

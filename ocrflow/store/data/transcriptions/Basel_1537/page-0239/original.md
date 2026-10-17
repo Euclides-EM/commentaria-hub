@@ -2,6 +2,8 @@
 
 <!-- Page number: 228 -->
 
+[Curated heading level=2 type=propositions: Theorema 14 Propositio 14]
+
 [Curated heading level=2 type=theorems: Theorema 14 Propositio 14]
 
 ## Eucli.ex Zamb. Theorema 14 Propositio 14
@@ -20,6 +22,8 @@ THEON ex Zamberto. Minimus enim quem ipsi β,γ,δ, primi metiuntur, sit α. Dic
 
 Hæc decimaquinta sequens ex Campano propositio, nullam in Zamberto respondentem habet.
 
+[Curated heading level=2 type=propositions: Propositio 15]
+
 ## Eucli. ex Camp. Propositio 15
 
 [Curated heading level=3 type=campanus_sequence: 15.]
@@ -33,6 +37,8 @@ Hæc decimaquinta sequens ex Campano propositio, nullam in Zamberto respondentem
 CAMPANVS. Sint a, b,c,d,e, cōtinue proportionales & minimi secundum proportionē f ad g qui sint in sua proportione minimi, & ponatur h numerare c. Dico q̃ h est cōmensurabilis f uel g, sumātur enim in eadē proportione quatuor minimi, qui suut k,l,m,n, constat autem ex 2 octaui, q̃ ex f in m fit c, alioqui contingeret esse minus minimo, quod esse non potest. Itaq̃ per correlarium 33 septimi, erit h cōmensurabilis f uel m, quod si f, constat propositum: si autem m, sumantur in eadem proportione tres minimi qui sint p,q,r, eritq̃ ex 2 octaui, ut m fiat ex f in r, ne minus minimo aliquid esse cogamur concedere: quare per prædictum correlarium h est cōmensurabilis f uel r, sed nō erat f, sic enim constabat propositū: cōmensurabilis igitur est r, qui cum ex 2 octaui, fiat ex g in se, sequitur ex dicto correlario, ut h sit cōmensurabilis g, quod est propositum.
 
 [Diagram: dotted number lines labelled a, b, c, d, e, k, l, m, n, p, q, r, and below f, g, h]
+
+[Curated heading level=2 type=propositions: Propositio 16]
 
 ## Eucli.ex Camp. Propositio 16
 

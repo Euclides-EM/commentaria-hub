@@ -6,6 +6,8 @@ THEON ex Zāb. Esto apotome α β. Dico quod α β non est eadem ei quæ ex bini
 
 [Diagram: horizontal line with points α and β; below it a longer horizontal line with points δ, η, ε and, further to the right, ζ; beneath its left portion (from δ to ε) a square whose bottom left corner is γ]
 
+[Curated heading level=2 type=propositions: Propositio 107]
+
 ## Eucli.ex Camp. Propositio 107
 
 [Curated heading level=3 type=campanus_sequence: 107.]

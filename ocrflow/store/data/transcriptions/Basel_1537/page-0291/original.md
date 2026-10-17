@@ -8,6 +8,8 @@ IDEM aliter. Sit ut in præmissis linea d e rationalis in longitudine, superfici
 
 [Diagram: line a c divided at b, labelled a, b, c; below it, a rectangle on base d e divided by a horizontal line into an upper compartment (h at upper left) and a lower compartment; g at middle left, f at middle right, d and e at the bottom corners]
 
+[Curated heading level=2 type=propositions: Theorema 28 Propositio 40]
+
 [Curated heading level=2 type=theorems: Theorema 28 Propositio 40]
 
 ## Eucli. ex Zamb. Theorema 28 Propositio 40
@@ -23,6 +25,8 @@ Si binæ rectæ lineæ potentia incommensurabiles compositæ fuerint efficientes
 THEON ex Zāb. Componantur enim binæ rectæ lineæ potentia incommensurabiles α β, β γ, efficientes præcedentia. Dico quod irrationalis est α γ. Quoniam enim compositum ex ijs quæ ex α β, β γ, mediū est, quod uero bis sub α β, β γ, rationale, incommensurabile igitur est compositum ex ijs quæ ex α β, β γ, ei quod bis sub α β, β γ. Quare & componendo (per 16 decimi & 4 secundi,) quod ex α γ, incommensurabile est ei quod bis sub α β, β γ. Rationale autem est quod sub α β, β γ, Irrationale igitur est quod ex α γ. Irrationalis igitur est α γ. Vocatur autem rationale mediumq́ⳓ potens. Rationale autem & medium potentē eam appellauit, eo quia binas potest areas unā quidem rationalem, alteram uero mediam, ac propter rationalis præexistentiam, primam rationalem appellauit, quod erat ostendendum.
 
 [Diagram: horizontal line with points labelled α, β, γ]
+
+[Curated heading level=2 type=propositions: Propositio 35]
 
 ## Eucl. ex Camp. Propositio 35
 

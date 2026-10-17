@@ -8,6 +8,8 @@
 
 [Diagram: segment of a circle with β at the top, a point within, and α, δ, γ along the base, with lines from β to α and to δ]
 
+[Curated heading level=2 type=propositions: Propositio 25.]
+
 ## Eucli. ex Camp. Propositio 25.
 
 [Curated heading level=3 type=campanus_sequence: 25.]
@@ -23,6 +25,8 @@ CAMPANVS Sint duo circuli æquales a b c cuius centrum d, & e f g, cuius centrum
 [Diagram: circle with b at the top, centre d, a at lower left and c at lower right; inscribed triangle a b c with lines from a and c to d]
 
 [Diagram: circle with f at the top, centre h, e at lower left and g at lower right; inscribed triangle e f g with lines from e and g to h]
+
+[Curated heading level=2 type=propositions: Theorema 23. Propositio 26.]
 
 [Curated heading level=2 type=theorems: Theorema 23. Propositio 26.]
 

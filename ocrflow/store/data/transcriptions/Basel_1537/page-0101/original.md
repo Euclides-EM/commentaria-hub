@@ -6,6 +6,8 @@
 
 [Diagram: circle α β γ δ with centre ε and two perpendicular diameters, circumscribed by the square ζ η θ κ tangent at the four points]
 
+[Curated heading level=2 type=propositions: Propositio 8]
+
 ## Eucli.ex Camp. Propositio 8
 
 [Curated heading level=3 type=campanus_sequence: 8.]
@@ -19,6 +21,8 @@ INtra quadratum assignatum circulum describere
 CAMPANVS Sit quadratum assignatum a b c d. Volo intra ipsum: describere circulum. Hæc est quasi conuersa 6. Diuido unūquodque latus eius per æqualia: a d quidem in puncto f, b a in puncto g, c b in puncto h, & d c in puncto e, & produco lineas e g & f h, secantes se in puncto k: quem dico esse centrum circuli: erit enim f h æquidistans & æqualis a b, per 33 primi, propter id quod a f, & b h sunt æquales & æquidistantes. Similiter per eandem & d c, ipsi a b, & quia omnes medietates quatuor laterum ipsius quadrati sunt adinuicem æquales, erunt per 34 primi quatuor lineæ k e, k f, k g, & k h: æquales: ergo per 9 tertij k: est centrum circuli quæsiti.
 
 [Diagram: square a b c d with side midpoints f (top), g (left), h (bottom), e (right); lines e g and f h meet at k, centre of the inscribed circle]
+
+[Curated heading level=2 type=propositions: Problema 8. Propositio 8]
 
 [Curated heading level=2 type=problems: Problema 8. Propositio 8]
 
@@ -35,6 +39,8 @@ In dato quadrato, circulum describere.
 THEON ex Zamb. Esto datum quadratum α β γ δ. Oportet iam in α β γ δ, quadrato, circulum describere, secetur (per 10 primi) utraque ipsarum α β, & α δ, bifariam in ε, ζ, signis, & per ε, utrique ipsarum α β, & γ δ, (per 31 primi) parallelus excitetur ε θ, & per ζ, utrique ipsarum α δ, & β γ, (per 31 primi,) parallelus excitetur ζ κ. Parallelogrammum igitur est unumquodque ipsorum α κ, κ β, α θ, θ δ, & eorum latera, uidelicet quæ ex opposito, sunt æqualia (per 34 primi,) & quoniā æqualis est α δ, ipsi α β, & ipsius α δ, dimidiū est α ε, & ipsius α β, dimidium est α ζ, æqualis igitur est α ε, ipsi α ζ, quare quæ ex opposito (per eandē) sunt æquales, æqualis igitur est ζ η, ipsi η ε. Similiter quoq̃ ostendemus quod & utraq̃ ipsarū η θ, & η κ, utrique ipsarum ζ η, & η ε, est æqualis. Quatuor igitur η ε, η ζ, η θ, & η κ: sibi inuicē sunt æquales, (per 1 communem scientiam.) Centro igitur η, spatio uero aut η ε, aut η ζ, aut η θ, aut η κ, circulus descriptus, trāsibit etiam per reliqua signa, tangetq̃ α β, β γ, γ δ, δ α, rectas lineas: quoniam anguli qui sunt ad ε, ζ, θ, κ, recti sunt. Si enim circulus rectas lineas α β, β γ, γ δ, δ α, secat: quoniam quæ ab diametri circuli extremitate ducitur ad angulos rectos, introrsum ipsius circuli cadit, quod est impossibile (per 16 tertij.) Centro igitur η, spatio autem aut η ε, aut η ζ, aut η θ, aut η κ, circulus descriptus, ipsas α β, β γ, γ δ, δ α, rectas lineas non secat: tangit igitur ea: & in quadrato α β γ δ, descriptus est. In dato quadrato igitur, & reliqua quæ sequuntur, quod facere oportebat.
 
 [Diagram: square α β γ δ with inscribed circle of centre η touching the sides at ε, ζ, θ, κ]
+
+[Curated heading level=2 type=propositions: Propositio 9]
 
 ## Eucli.ex Camp. Propositio 9
 

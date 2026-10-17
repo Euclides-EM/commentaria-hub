@@ -2,6 +2,8 @@
 
 <!-- Page number: 180 -->
 
+[Curated heading level=2 type=propositions: Propositio 14.]
+
 ## Eucli. ex Camp. Propositio 14.
 
 [Curated heading level=3 type=campanus_sequence: 14.]
@@ -32,6 +34,8 @@ Vltimo quoq̃ sit a minor b maiorq̃ c, eritq̃ ut tota pars aut partes sit c, d
 
 per 9 itaq̃ uel 10 erit tota uel totæ d, b, quota uel quotæ c, a, quare per secundā partem undecimæ, b ad d, sicut a ad c, sicq̃ constat propositū. Huic autem cedunt 9 uel 10, quia hæc sola quod ambæ illæ proponit.
 
+[Curated heading level=2 type=propositions: Theorema 11 Propositio 13]
+
 [Curated heading level=2 type=theorems: Theorema 11 Propositio 13]
 
 ## Eucli. ex Zamb. Theorema 11 Propositio 13
@@ -47,6 +51,8 @@ Si quatuor numeri proportionales fuerint, & uicissim proportionales erunt.
 THEON ex Zamb. Sint quatuor numeri proportionales α, β, γ, δ, sicut α ad β, sic γ ad δ. Dico quod & uicißim proportionales erunt. sicut α ad γ, sic β ad δ. Quoniam enim (per hypothesin) est sicut α ad β sic γ ad δ, qualis igitur pars est α ipsius β uel partes, eadem pars est & γ ipsius δ uel partes (per 6 septimi.) Vicißim igitur qualis pars est α ipsius γ uel partes, eadem pars est & β ipsius δ uel partes (per 9 septimi & 10 eiusdem.) Sicut igitur α ad γ, sic β ad δ (per 11 quinti.) Quod erat demonstrandū.
 
 [Diagram: dot-rows: α (13 dots) with β (4 dots); γ (11 dots) with δ (3 dots)]
+
+[Curated heading level=2 type=propositions: Propositio 15]
 
 ## Eucli. ex Camp. Propositio 15
 

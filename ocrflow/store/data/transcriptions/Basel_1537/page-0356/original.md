@@ -22,15 +22,17 @@ DECIMI LIBRI FINIS.
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER VNDECIMVS,
 
+[Curated heading level=2 type=campanus_sequence: Eucli.ex Campano Diffinitiones.]
+
 ## Eucli.ex Campano Diffinitiones.
 
-[Curated heading level=3 type=definitions: COrpus,est quod]
+[Curated heading level=3 type=definitions: 1]
 
 [Curated heading level=3 type=campanus_sequence: 1.]
 
 {dropcap:C|lines=?|style=decorated|decoration="figures"}Orpus,est quod longitudinem latitudinem,& altitudinem habet.Cuius termini,sunt superficies.
 
-[Curated heading level=3 type=definitions: Linea erecta supra]
+[Curated heading level=3 type=definitions: 2]
 
 [Curated heading level=3 type=campanus_sequence: 2.]
 
@@ -40,7 +42,7 @@ Intelligatur enim linea a b exurgere supra planū,ita quod pūctus a imaginetur 
 
 [Diagram: a plane drawn as a parallelogram with several lines crossing at the point b, the letters c and d at its edges, and the line b a rising obliquely to the point a above]
 
-[Curated heading level=3 type=definitions: Superficies autem erecta]
+[Curated heading level=3 type=definitions: 3]
 
 [Curated heading level=3 type=campanus_sequence: 3.]
 

@@ -6,6 +6,8 @@ rabiles. Fiatq̃ (per 12 sexti) sicut α β ad γ δ, sic α ε ad γ ζ, & reli
 
 [Diagram: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]
 
+[Curated heading level=2 type=propositions: Propositio 62]
+
 ## Eucli.ex Camp. Propositio 62
 
 [Curated heading level=3 type=campanus_sequence: 62.]
@@ -23,6 +25,8 @@ CAMPANVS. Et hæc quoq̃ ueritatē habet, si utrolibet modo cōmunicans fuerit a
 [Diagram: smaller square labelled n at its left side, standing on a shallow rectangle with K at the left and l at the right; beneath the base the labels e, b, f]
 
 [Diagram: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]
+
+[Curated heading level=2 type=propositions: Theorema 50 Propositio 68]
 
 [Curated heading level=2 type=theorems: Theorema 50 Propositio 68]
 

@@ -4,6 +4,8 @@
 
 cylindrus ipso η χ cylindro. Et si minor, minor (per 1 quinti. Quatuor iā existētibus magnitudinibus, axibus quidē, ε κ, κ ζ, cylindris aūt β η, η δ accepta (per diffinitionē 6 quinti) sunt æque multiplicia ipsius q̃dē ε κ axis & β η cylindri, ipse axis κ λ, & π η cylindrus. Ipsius autē κ ζ axis, & η δ cylindri, κ μ axis & η χ cylindrus. Et patuit quod si κ λ, axis excedit κ μ axē, & π η cylindrus ipsum excedit η χ cylindrū, & si æqualis, æqualis, & si minor, minor. Est igitur (per 6 diffinitionē quinti) sicut ε κ axis ad κ ζ axē, sic β η cylindrus ad η δ cylindrū. Quod ostendere oportuit.
 
+[Curated heading level=2 type=propositions: Theorema 14 Propositio 14]
+
 [Curated heading level=2 type=theorems: Theorema 14 Propositio 14]
 
 ## Eucli. ex Zamb. Theorema 14 Propositio 14
@@ -19,6 +21,8 @@ In æqualibus basibus existentes coni & cylindri, adinuicem sese habent sicut fa
 THEON ex Zamb. Sint enim in æqualibus basibus α β, γ δ, cylindri ζ δ, ε β. Dico q̃d est sicut cylindrus ε β ad cylindrū ζ δ, sic est η θ axis ad κ λ axē, extēdatur enim κ λ axis in ν signū, ponaturq̃ ipsi η θ axi æqualis λ ν, & circū axem λ ν, intelligatur cylindrus γ μ. Quoniā igitur ε β, γ μ cylindri sub eodē sunt fastigio a, dinuicē{printer-error-correction:adinuicē} sūt sicut bases (per 11 duodecimi) Bases autem inuicē sunt æquales, igitur & cylindri ε β, γ μ, sunt æquales. Et quoniā cylindrus ζ μ, plano quodam secatur γ δ, parallelo existēte eis quæ ex opposito planis, est igitur (per 13 duodecimi) sicut γ μ cylindrus ad ζ δ cylindrum, sic est λ ν axis ad κ λ axē, æqualis autē est γ μ cylindrus ipsi ε β cylindro, & λ ν axis ipsi η θ axi. Est igitur sicut ε β cylindrus ad ζ δ cylindrum, sic est η θ axis ad κ λ axē. Sicut autem ε β cylindrus ad ζ δ cylindrum, sic α η β conus ad γ δ κ conū, tripli enim sunt cylindri ipsorū conorum (per 10 duodecimi,) & sicut igitur (per 11 quinti) η θ axis ad κ λ axem. sic α β η, conus ad γ δ κ, conū, & ε β cylindrus ad ζ δ cylindrū Quod erat ostēdendū.
 
 [Diagram: two cylinders each with an inscribed cone: the left, shorter, has top ellipse with rim ε and centre η, base circle α β with centre θ, the cone rising from the base to apex η; the right, taller, has top circle with rim ζ and centre κ, a middle circle γ δ with centre λ, and a lower circle with rim μ and centre ν, the cone rising from circle γ δ to apex κ]
+
+[Curated heading level=2 type=propositions: Propositio 12]
 
 ## Eucli. ex Camp. Propositio 12
 

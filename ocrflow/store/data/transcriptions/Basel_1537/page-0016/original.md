@@ -1,6 +1,10 @@
+[Curated heading level=1 type=campanus_sequence: EVCLIDIS MEGARENSIS GEOMETRICA ELEMENTA: EX CAMPANO.]
+
 # EVCLIDIS MEGARENSIS GEOMETRICA ELEMENTA: EX CAMPANO.
 
 <!-- Page number: 7 -->
+
+[Curated heading level=2 type=propositions: propositio prima.]
 
 ## Primi libri propositio prima.
 

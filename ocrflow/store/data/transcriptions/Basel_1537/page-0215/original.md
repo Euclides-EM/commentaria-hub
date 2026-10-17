@@ -4,6 +4,8 @@
 
 *tionales minimi in ipsorum α β γ δ ε ζ rationibus,erunt aliqui numeri ipsis ξ ν,μ ο,minores,continue proportionales in ipsorum α β γ δ ε ζ,rationibus,Sint π ρ σ τ,Et quoniā est sicut π ad ρ,sic est α, ad β,ipsi autem α β, minimi, minimi autem(per 21 septimi metiuntur eandem rationem habentes cis{printer-error-correction:eis} æqualiter antecedens antecedeniem & sequens sequentem,igitur β,ipsum ρ metitur.Id propterea etiam γ,ipsum ρ, metitur.Igitur ipsi β,γ,ipsum ρ metiuntur,& minimus igitur per 36 septimi,quem ipsi α γ,metiuntur,ipsum metietur ρ.minimus autē quem ipsi β γ.metiuntur,est η.Igitur η ipsum ρ metitur,estq́; sicut η,ad ρ.sic est κ,ad σ,& κ igitur ipsum σ metitur,metitur autem & ε,ipsum σ.Igitur ipsi ε κ,ipsum σ,matientur,& minimus quem ipsi ε κ,metiuntur,(per eandem,(metietur ipsum σ.Minimus autē quem ipsi ε κ,metiuntur:est μ.Igitur μ,ipsum σ metitur,maior minorem,quod est impossibile.Igitur non erūt aliqui numeri minores ipsis ν ξ,μ ο,continue proportionales in ipsius α ad β,& γ ad δ,& ε ad ζ,rationibus.Igitur ipsi ν ξ,μ ο,continue proportionales minimi sunt in ipsorum α β γ δ ε ζ,rationibus,quod oportuit feciße.*
 
+[Curated heading level=2 type=propositions: Propositio 5]
+
 ## Eucli.ex Camp. Propositio 5
 
 [Curated heading level=3 type=campanus_sequence: 5.]
@@ -21,6 +23,8 @@ CAMPANVS. Quod proponit 24 sexti de superficiebus æquidistantium laterum,propon
 CAMPANI annotatio. Nec est necessarium ut continuemus proportiones laterum (uidelicet eam quæ est c ad e & eā quæ est d ad f )in minimis numeris repertis,secundum doctrinam præcedentis,ut docēt quidam,hoc enim est proposito præter necessarium.Arguūt enim posito quod illi minimi sint h K l,ita quod sit h ad K sicut c ad e & k ad l, sicut d ad f, proportionem h ad l esse compositam ex propositorum laterum proportionibus. Sumptóque g fieri ex d in e,arguunt a ad g,ut h ad K,quia ut c ad e,& g ad h ut K ad l,quia ut d ad f,ideoque secūdum æquā proportionalitatem,& a ad b:ut h ad l,concludunt igitur a ad b,cōponi ex quibus h & l. uerum quidem sed non necessarium assumpto.
 
 [Diagram: dotted number lines beside the text, labelled a (13 dots), g (26 dots), b (22 dots), c (2 dots), e (4 dots), d (6 dots), f (5 dots), h (13 dots), K (26 dots), l (22 dots)]
+
+[Curated heading level=2 type=propositions: Theorema 3 Propositio 5]
 
 [Curated heading level=2 type=theorems: Theorema 3 Propositio 5]
 

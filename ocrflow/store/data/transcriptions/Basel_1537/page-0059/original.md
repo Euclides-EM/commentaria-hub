@@ -6,6 +6,8 @@ CAMPANVS. Sit triangulus a b c, habens angulum a, obtusum. A pūcto c, ducatur l
 
 [Diagram: obtuse-angled triangle with b at the left, c at the right, a and d at the top; the perpendicular from c meets the extension of b a at d]
 
+[Curated heading level=2 type=propositions: Theorema 11. Propositio 12.]
+
 [Curated heading level=2 type=theorems: Theorema 11. Propositio 12.]
 
 ## Eucli. ex Zamb. Theorema 11. Propositio 12.
@@ -21,6 +23,8 @@ In obtusiangulis triangulis quod ab obtusum angulum subtendente latere fit quadr
 THEON ex Zamb. Sit obtusi anguli triangulū α β γ, obtusum habēs angulū β α γ, & ducatur ex β signo, in γ α, productā (per 12 primi) perpēdicularis β δ. Dico quod quadratum quod ex β γ, maius est eis quæ fiunt ex β α, & α γ, quadratis: bis sub γ α, & α δ, comprehenso rectangulo. Quoniam enim recta linea γ δ, secta est utcūq̃ in α, signo: igitur (per 4 secundi) quod ex γ δ, æquum est eis quæ fiunt ex γ α, & α δ, quadratis, & bis sub γ α & α δ comprehenso rectangulo. Commune ponatur id quod ex δ β. Ea igitur quæ sunt ex γ δ & δ β, æqua sunt eis quæ fiunt ex γ α & α δ & δ β, quadratis: & bis sub γ α & α δ, comprehenso rectangulo. Sed eis quæ sunt ex γ δ & δ β: æquum est id quod ex γ β, (per 47 primi) rectus enim est angulus qui ad δ. Eis autem quæ fiunt ex α δ & δ β, (per eandem) æquum est id quod fit ex α β. Quadratum igitur quod fit ex γ β, æquum est eis quæ fiunt ex γ α & α β, quadratis (per eandem) & bis sub γ α & α δ, comprehenso rectangulo. Quare quadratum quod fit ex γ β, eis quæ fiunt ex γ α & α β, maius est: bis sub γ α & α δ, comprehenso rectangulo. In amblygonijs igitur triāgulis quod ab obtusum angulum subtendente latere fit quadratū: maius est & quæ sequuntur reliqua: quod ostendere oportuit.
 
 [Diagram: obtuse-angled triangle with apex β at the upper right and base points δ, α, γ; the perpendicular β δ falls outside the triangle on the extension of γ α]
+
+[Curated heading level=2 type=propositions: Propositio 13.]
 
 ## Eucli. ex Camp. Propositio 13.
 

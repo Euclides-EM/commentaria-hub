@@ -10,6 +10,8 @@ Dico insuper quod neq̃ minor q̃ triplus est cylindrus cono. Si enim possibile,
 
 [Diagram: circle inscribed in a square, with inscribed square and octagon within the circle; θ at top, α at upper left, δ at upper right, ε at the left, η at the right, β at lower left, γ at lower right, ζ at bottom]
 
+[Curated heading level=2 type=propositions: Propositio 10]
+
 ## Eucli. ex Camp. Propositio 10
 
 [Curated heading level=3 type=campanus_sequence: 10.]

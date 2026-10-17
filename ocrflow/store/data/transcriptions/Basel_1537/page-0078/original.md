@@ -6,6 +6,8 @@ centrum est circulorum β γ, & α ε ζ: æqualis est δ α, ipsi δ ζ, & ipsa
 
 [Diagram: two concentric circles with centre δ; α at the top upon the outer circle, ζ upon it below, β upon the inner circle, γ at the foot; the lines δ α, γ ζ, ζ δ and α β form two triangles]
 
+[Curated heading level=2 type=propositions: Propositio 17]
+
 ## Eucli.ex Camp. Propositio 17
 
 [Curated heading level=3 type=campanus_sequence: 17.]
@@ -19,6 +21,8 @@ SI circulum linea recta contingat, à contactu uero ad centrum linea recta ducat
 CAMPANVS. Sit linea a b, cōtingens circulum c e, cuius centrum sit d, in puncto c, qui iungatur cum centro per lineam c d. Dico hanc esse perpendicularem super lineam contingentem. Si enim non sit perpendicularis ad ipsam, sit ergo d f perpendicularis ad eandem, quæ secet circunferentiam circuli in puncto e, eritque uterq̃ angulorum qui sunt ad f, rectus, igitur per 18 primi, linea c d, est maior linea d f, quod est impossibile. Constat itaq̃ d c esse perpendicularem super a b: quod est propositum.
 
 [Diagram: circle with centre d; above it the horizontal tangent line a c f b, touching at c, with e upon the circle beneath f; the lines d c and d f are drawn]
+
+[Curated heading level=2 type=propositions: Theorema 16. Propositio 18.]
 
 [Curated heading level=2 type=theorems: Theorema 16. Propositio 18.]
 
@@ -36,6 +40,8 @@ THEON ex Zamb. Circulum enim α β γ, tangat recta linea quædam δ ε, in γ s
 
 [Diagram: circle with α at the top and centre ζ; below, the tangent line δ γ η ε touching at γ; the lines ζ γ and ζ η are drawn, β lying upon ζ η within the circle]
 
+[Curated heading level=2 type=propositions: Propositio 18]
+
 ## Eucli.ex Camp. Propositio 18
 
 [Curated heading level=3 type=campanus_sequence: 18.]
@@ -49,6 +55,8 @@ SI circulum linea recta contingat, & à contactu in circulum linea quædam ortho
 CAMPANVS. Sit ut prius linea a b contingēns circulum c e in pūcto c, & contactui ducatur linea intra circulum, c e, perpendicularis ad lineam a b. Dico quod centrum circuli est in linea c e. Hæc est cōuersa prioris. Si enim non fuerit centrum in linea c e, sit alibi ubicunque contingat, sitq̃ d, & producatur d c, eritq̃ d c, per præmissam perpendicularis ad lineam a b, quod est impossibile, cum c e, posita sit perpēdicularis ad ipsam.
 
 [Diagram: horizontal tangent line a c b above a circle touching at c; the line c e descends through the circle, d lying within it beside the line]
+
+[Curated heading level=2 type=propositions: Theorema 17. Propositio 19.]
 
 [Curated heading level=2 type=theorems: Theorema 17. Propositio 19.]
 

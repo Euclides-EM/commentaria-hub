@@ -2,6 +2,8 @@
 
 <!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=zamberti_sequence: THEON Lemma,]
+
 ## THEON Lemma,
 
 Si fuerint binæ rectæ lineæ, est sicut prima ad secundam sic quod à prima ad id quod sub duabus rectis lineis.
@@ -9,6 +11,8 @@ Si fuerint binæ rectæ lineæ, est sicut prima ad secundam sic quod à prima ad
 Sint binæ rectæ lineæ, ζ ε, ε η. Dico quod est sicut ζ ε, ad ε η, sic est quod ex ζ ε, ad id quod sub ζ ε, & ε η. Describatur enim (per 46 primi ex ζ ε, quadratum δ η, compleaturque ζ η. Quoniam igitur est sicut ζ ε ad ε η, sic est ζ δ, ad ζ η, & est quidem ζ δ, id quod ex ζ ε, at ζ η id est quod sub δ ε, & ε η, hoc est quod sub ζ ε, & ε η, est igitur sicut ζ ε, ad ε η, sic quod ex ζ ε, ad id quod sub ζ ε, & ε η, similiter quoq̃ & sicut quod sub η ε, & ε ζ, ad id quod ex ε ζ, hoc est sicut η ζ, ad δ ζ, sic ε η, ad ε ζ.
 
 [Diagram: rectangle divided by a vertical line into two; labels: ε above the divider, η at top right, ζ below the divider]
+
+[Curated heading level=2 type=propositions: Theorema 19 Propositio 22]
 
 [Curated heading level=2 type=theorems: Theorema 19 Propositio 22]
 
@@ -25,6 +29,8 @@ Quod à media ad rationalem comparatum, latitudinem efficit rationalem, & ei ad 
 THEON ex Zamberto. Sit (per 21 decimi) media quidem α, rationalis autem γ β, & ei quidem quod ex α, æqua ad β γ, comparctur{printer-error-correction:comparetur} (per 45 primi,) area rectangula β δ, latitudinem efficiens γ δ. Dico quod rationalis est γ δ, & incommensurabilis ipsi γ β longitudine. Quoniã (per 21 decimi, α media est, δ aream potest comprehensam sub rationalibus potentia tantum commensurabilibus, poßit ipsam η ζ, potest autem & β δ, æqualis igitur est β δ, ipsi η ζ, est autẽ & ei æquiangula. Aequaliũ autẽ & æquiangulorũ parallelogrãmorũ (per 14 sexti, reciproca sunt latera, quæ circũ æquales angulos, proportionaliter igitur est sicut β γ ad ε η, sic ε ζ ad γ δ, est igitur (per 22 sexti, & sicut id quod ex β γ ad id quod ex ε η, sic est id quod ex ε ζ, ad id quod ex γ δ. Cõmensurabile autẽ est (per hypothesin,) quod ex β γ, ei quod ex ε η. Rationalis enim est utraq̃ ipsarũ. Cõmensurabile igitur est (per 11 decimi,) & quod ex γ ζ{printer-error-correction:ε ζ} ei quod ex γ δ. Rationale autem est quod ex ε ζ, rationale igitur & quod ex γ δ, rationalis igitur est γ δ. Et quoniã incommẽsurabilis est ε ζ, ipsi ε η longitudine (potẽtia enim tantũ sunt cõmensurabiles) sicut autẽ ε ζ, ad ε η, sic (per lemma præcedens) quod ex ε ζ, ad id quod sub ε ζ, & ε η, incõmẽsurabile igitur est (per 11 decimi) quod ex ε ζ, ei quod sub ζ ε, & ε η. Sed ei quidẽ quod ex ε ζ, commensurabile est id quod ex γ δ, rationales enim sunt potentia, ei autem quod sub ζ ε, & ε η, commensurabile est id quod sub δ γ, & γ β, æqualia enim sunt ei quod ex α. Incõmensurabile igitur est (per 13 decimi) quod ex γ δ ei quod sub δ γ, & γ β. Sicut autem quod ex γ δ, ad id quod sub δ γ, & γ β, sic (per lẽma præcedens) est δ γ ad γ β. Incõmensurabilis igitur est δ γ, ipsi γ β longitudine. Rationalis igitur est γ δ, & ipsi γ β longitudine commensurabilis{printer-error-correction:incommensurabilis}. Quod erat demonstrandum.
 
 [Diagram: tall rectangle with γ at lower left and β below its lower right corner; beside it a smaller rectangle with ζ at top left, ε at bottom left, η at bottom right; below, a horizontal segment labeled α]
+
+[Curated heading level=2 type=propositions: Propositio 21]
 
 ## Eucli. ex Camp. Propositio 21
 

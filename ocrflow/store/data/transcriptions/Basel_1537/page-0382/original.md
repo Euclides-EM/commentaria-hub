@@ -6,6 +6,8 @@ dum. Et quoniā est sicut ε γ ad γ η, sic β α ad α κ, & quæ circū æqu
 
 [Diagram: two parallelepipeds: the larger on the left with labels λ at the top corner, θ on the upper face, μ at the right, κ at the left, α and β at the bottom; the smaller on the right with labels δ at the top corner, ζ on the upper face, η at the left, γ and ε at the bottom]
 
+[Curated heading level=2 type=propositions: Propositio 28.]
+
 ## Eucli. ex Camp. Propositio 28.
 
 [Curated heading level=3 type=campanus_sequence: 28.]
@@ -19,6 +21,8 @@ dum. Et quoniā est sicut ε γ ad γ η, sic β α ad α κ, & quæ circū æqu
 CAMPANVS. Sit corpus a b solidum parallelogrammū, de quo sit positum ꝗ superficies a b c d secet ipsum super diametros duarum superficierū oppositarū ipsum terminantiū quæ sint a d & c b. Dico quod ipsa diuidit istud solidum propositū, per æqualia. Constat enim ꝗ ipsa diuidit illud solidum in duo serratilia, quorū superficies quadrilateras binas & binas adinuicē relatas secūdum ꝗ ipsæ sunt opposita latera solidi propositi, manifestum est ex 24 huius esse æquales, cum solidum de quo loquimur, positum sit esse parallelogrammū. Ex eadem quoq̃ & 41 primi constat, trilateras supficies dictorū serratiliū esse æquales. Igitur à diffinitiōe solidorū æqualiū, liquet q̊d ꝓpositū est.
 
 [Diagram: parallelepiped with the cutting plane drawn through two face diagonals; labels b at top, c at the upper left face, f at the right, d at the centre, a at the lower left]
+
+[Curated heading level=2 type=propositions: Theorema 23 Propositio 28.]
 
 [Curated heading level=2 type=theorems: Theorema 23 Propositio 28.]
 
@@ -39,6 +43,8 @@ THEON ex Zamberto. Solidum enim parallelepipedum α β, plano γ δ ε ζ secetu
 ZAMBERTVS. Diagonius, linea recta est quæ in figuris angularibus ab uno angulo insurgit, & sese in alium extendit angulum. Vt in hac figura patet.
 
 [Diagram: a rectangle with its diagonal drawn]
+
+[Curated heading level=2 type=propositions: Propositio 29.]
 
 ## Eucli ex Camp. Propositio 29.
 

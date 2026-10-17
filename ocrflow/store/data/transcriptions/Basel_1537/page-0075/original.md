@@ -6,6 +6,8 @@ a d maior est a c. Sic quoque est maior h k, & maior etiã quàm a b. Quod autem
 
 [Diagram: circle with centre e; points h and k on the upper circumference joined by chord h k, f and a on the left, g and d on the right, c at lower right, b at bottom; lines drawn from a and e to the several points]
 
+[Curated heading level=2 type=propositions: Theorema 14. Propositio 15]
+
 [Curated heading level=2 type=theorems: Theorema 14. Propositio 15]
 
 ## Eucli. ex Zamb. Theorema 14. Propositio 15
@@ -21,6 +23,8 @@ In circulo, maxima, quidem est dimetiens, aliarum autem semper propinquior centr
 THEON ex Zamberto. *Sit circulus α β γ δ, dimetiens uero illius sit α δ, centrum autem, sit ε. Et propinquior ipsi α δ, dimetienti, sit β γ. remotior autem sit ζ η. Dico quod α δ, maxima est, maior autem β γ, quàm ζ η. Excitetur (per 12 primi) ab ε, centro in ipsas β γ, & ζ η, perpendiculares ε θ, & ε κ. Et quoniam propinquior quidem centro est β γ, remotior autem ζ η, maior est (per 4 diffinitionem) igitur ε κ, ipsa ε θ. Ponatur autem (per 4 tertij) æqualis ε λ, ipsi ε θ, & (per undecimam primi) per λ, ipsi ε κ ad rectos angulos excitata λ μ, extendatur in ν. Et (per primum postulatum) coniungantur ε μ, ε ν, ε ζ, & ε η. Et quoniam æqualis est ε θ, ipsi ε λ, æqualis est (per quartam tertij & diffinitionem quartam eiusdem) β γ, ipsi μ ν. Rursus quoniam æqualis est α ε, ipsi ε μ, & ε δ, ipsi ε ν, igitur α δ, ipsis μ ε, & ε ν, est æqualis. Sed μ ε, & ε ν, (per 20 primi) ipsa μ ν, maiores sunt. Igitur α δ, maior est quàm μ ν. Et quoniam duæ μ ε, & ε ν, duabus ζ ε, & ε η, sunt æquales (per 15 diffinitionem primi) ex centro enim in circunferentiam, & angulus qui sub μ ε ν, angulo qui sub ζ ε η, maior est, basis igitur μ ν, (per 24 primi basi ζ η, maior est. Sed μ ν, ipsi β γ, ostensa est æqualis, & β γ, igitur, quàm ζ η, maior est. Maxima igitur est α δ, dimetiens, maior autem β γ, ipsa ζ η. In circulo igitur dimetiens maxima est: aliarum autem semper propinquior centro: remotiore maior est, quod demonstrasse oportuit.*
 
 [Diagram: circle with points μ, α, β along the top, ζ at upper left, ν, δ, γ at the bottom; within, the centre ε with the points θ, λ, κ, η, vertical chords and lines radiating from the centre]
+
+[Curated heading level=2 type=propositions: Propositio 15]
 
 ## Eucli. ex Camp. Propositio 15
 

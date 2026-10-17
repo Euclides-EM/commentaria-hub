@@ -12,6 +12,8 @@ utrobiq̃ angulos binis rectis æquales efficiunt. In rectum igitur est κ θ ip
 
 [Diagram: two quadrilaterals with diagonals drawn, the parallelograms of the construction; tiny Greek letter labels beneath, partly illegible]
 
+[Curated heading level=2 type=propositions: Propositio 45.]
+
 ## Eucli. ex Camp. Propositio 45.
 
 [Curated heading level=3 type=campanus_sequence: 45.]
@@ -27,6 +29,8 @@ CAMPANVS. Sit data linea a b, ex qua uolo quadratum describere. A punctis a & b 
 [Diagram: square with vertices c, d at top and a, b at bottom]
 
 Idem aliter ostendere. Sit a c perpendicularis super lineam a b per 11, & sit ei æqualis ut prius, & à puncto c per 31 ducatur c d æquidistans a b, & ponatur æqualis ei, & ducatur linea b d, quæ per 33 erit æqualis & æquidistās a c, & omnes anguli recti, per ultimam partem 29, quare per diffinitionē quadrati habemus propositū.
+
+[Curated heading level=2 type=propositions: Problema 14. Propositio 46.]
 
 [Curated heading level=2 type=problems: Problema 14. Propositio 46.]
 
@@ -49,6 +53,8 @@ THEON ex Zamb. Sit data recta linea α β, oportet ex α β recta linea, quadrat
 locorum autem latera & anguli ex opposito, sibi inuicem sunt æqualia (per 34 propositionē) Ex opposito igitur ambo δ ε β & ε β α anguli, sunt recti. Rectangulum igitur est α δ ε β, ostensum autem est quod & æquilaterū. Quadratum igitur est, & ex data linea α β descriptum, quod facere oportebat.
 
 [Diagram: square α δ ε β on base α β, with γ above δ on the perpendicular α γ; δ, ε at top, α, β at bottom]
+
+[Curated heading level=2 type=propositions: Propositio 46.]
 
 ## Eucli. ex Camp. Propositio 46.
 

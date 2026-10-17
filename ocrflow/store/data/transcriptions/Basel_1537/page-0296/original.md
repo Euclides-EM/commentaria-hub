@@ -6,6 +6,8 @@ signum non diuiditur Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, 
 
 [Diagram: horizontal line with points α, δ, γ, β]
 
+[Curated heading level=2 type=propositions: Propositio 40]
+
 ## Eucli. ex Camp. Propositio 40
 
 [Curated heading level=3 type=campanus_sequence: 40.]
@@ -17,6 +19,8 @@ signum non diuiditur Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, 
 {dropcap:L|lines=?|style=decorated|decoration="ornamental"}Inea potens in rationale & mediale, nisi in suas duas lineas tantum sub termino non diuiditur.
 
 CAMPANVS Hæc quoque 40, manentibus prioribus figura & positionibus (excepto quod ipsa linea a b diuidatur in punctum c, in illas duas lineas ex quibus 32{printer-error-correction:34} dicit eam componi) probabitur, quemadmodũ 37. Si autem aliter fuerit quàm proponat, erit superficies k g rationalis & irrationalis, quod esse non potest.
+
+[Curated heading level=2 type=propositions: Theorema 34 Propositio 46]
 
 [Curated heading level=2 type=theorems: Theorema 34 Propositio 46]
 
@@ -34,6 +38,8 @@ THEON ex Zamb. Esto rationale mediũq̃ potẽs α β. diuisa in γ, ut ipsæ α
 
 [Diagram: horizontal line with points α, δ, γ, β]
 
+[Curated heading level=2 type=propositions: Propositio 41]
+
 ## Eucli. ex Camp. Propositio 41
 
 [Curated heading level=3 type=campanus_sequence: 41.]
@@ -45,6 +51,8 @@ THEON ex Zamb. Esto rationale mediũq̃ potẽs α β. diuisa in γ, ut ipsæ α
 {dropcap:L|lines=?|style=decorated|decoration="ornamental"}Inea potẽs in duo medialia nequit diuidi in alias duas sub termino earum ex quibus coniuncta est, sed in suas tantum duas ex quibus componitur est diuisibilis.
 
 CAMPANVS Hæc enim 41 diuisa linea a b ad punctum c in eas ex quibus 35 asserit eã componi, cæterisq̃ ut supra tam figura quàm positionibus manentibus. probatur sicut 38. nam dato opposito propositi, sequitur oppositum 36, qupd{printer-error-correction:quod} est impossibile.
+
+[Curated heading level=2 type=propositions: Theorema 35 Propositio 47]
 
 [Curated heading level=2 type=theorems: Theorema 35 Propositio 47]
 

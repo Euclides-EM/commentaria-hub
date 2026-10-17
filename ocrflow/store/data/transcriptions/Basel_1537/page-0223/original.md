@@ -12,6 +12,8 @@ CAMPANI annotatio. Quemadmodū autem necesse est conuerti negationes oppositas a
 
 Hæ sequentes ex Zamberto duæ propositiones præcedenti ex Campano cum annotatione eiusdem respondent.
 
+[Curated heading level=2 type=propositions: Theorema 14 Propositio 16]
+
 [Curated heading level=2 type=theorems: Theorema 14 Propositio 16]
 
 ## Eucli. ex Zamb. Theorema 14 Propositio 16 Conuersa 14
@@ -28,6 +30,8 @@ THEON ex Zamberto. Sint quadrati numeri α, β: eorum autem latera sint γ, δ. 
 
 [Diagram: dotted number lines α, β, γ, δ]
 
+[Curated heading level=2 type=propositions: Theorema 15 Propositio 17]
+
 [Curated heading level=2 type=theorems: Theorema 15 Propositio 17]
 
 ## Eucli. ex Zamb. Theorema 15 Propositio 17 Conuersa 15
@@ -43,6 +47,8 @@ Si cubus numerus cubum numerum non metiatur, neque latus latus metietur. Et si l
 THEON ex Zamb. Cubus enim numerus α, cubum numerum β non metiatur, & ipsius quidem α, latus esto γ, ipsius uero β, sit δ. Dico quod & γ, ipsum δ non metietur, Si enim γ ipsum δ metitur, & α, ipsum β metietur, (per 15 octaui,) non metitur autem α, ipsum β, (per hypothesin,) neque igitur γ, ipsum δ metietur. Sed iam non metiatur γ ipsum δ. Dico quod & α ipsum β non metietur, si enim α ipsum β, metitur, & γ, ipsum δ, metietur (per 15 octaui,) non metitur autem γ, ipsum δ, (per hypothesin,) neque α igitur ipsum β, metietur: quod oportuit demonstrasse.
 
 [Diagram: dotted number lines α, β, γ, δ]
+
+[Curated heading level=2 type=propositions: Propositio 16]
 
 ## Eucli. ex Camp. Propositio 16
 

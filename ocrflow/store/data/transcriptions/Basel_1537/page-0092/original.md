@@ -4,6 +4,8 @@
 
 quæ fiunt ex ε η, & η ζ, æquū est id quod fit ex ζ ε, (per 47 primi, eis autē quæ fiunt ex γ η & η ζ, æquū est id quod fit ex ζ γ, (per eandem.) Quod igitur continetur sub α ε, & ε γ, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ γ. Aequalis autem est ζ γ, ipsi ζ β. Ex centro enim in circunferentiam. Quod continetur igitur sub α ε, & ε γ, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ β. Et per hoc quod continetur sub δ ε, & ε β, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ β. Ostensum autem continetur sub α ε, & ε γ, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ β. Quod cōtinetur igitur sub α ε, & ε γ, una cū eo quod fit ex ζ ε, æquū est ei quod continetur, sub δ ε, & ε β, una cum eo quod fit ex ζ ε. Commune auferatur id quod fit ex ζ ε. Reliquum igitur rectangulum comprehensum sub α ε, & ε γ, æquum est rectangulo comprehenso sub δ ε, & ε β. Si in circulo igitur duæ rectæ lineæ se adinuicem secuerint, rectangulum comprehensum sub segmentis unius, æquum est rectangulo comprehenso sub segmentis alterius, quod demonstrasse oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 35]
+
 ## Eucli. ex Camp. Propositio 35
 
 [Curated heading level=3 type=campanus_sequence: 35.]

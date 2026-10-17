@@ -12,6 +12,8 @@ CORRELARIVM. Ex hoc nempe manifestum est, quod sicut ipsius dodecahedri superfic
 Camp. 8
 [/Margin]
 
+[Curated heading level=2 type=propositions: Theorema 4 Propositio 4]
+
 [Curated heading level=2 type=theorems: Theorema 4 Propositio 4]
 
 ## Eucl. ex Zamb. Theorema 4 Propositio 4

@@ -8,6 +8,8 @@ mo b c, dico latus tetragonicum superficiei a c, esse residuum. Adiungatur enim 
 
 [Diagram: square with diagonal drawn from m (bottom left) to l (top right); a vertical line t p and a horizontal line r q cross at n on the diagonal; labels: t at top, l at top right, r at left, q at right, n at centre, m at bottom left, p at bottom]
 
+[Curated heading level=2 type=propositions: Theorema 67 Propositio 91]
+
 [Curated heading level=2 type=theorems: Theorema 67 Propositio 91]
 
 ## Eucli.ex Zamb. Theorema 67 Propositio 91

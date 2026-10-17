@@ -8,6 +8,8 @@ CORRELARIVM. Ex hoc proinde manifestum est, quod si magnitudo tres magnitudines 
 
 [Diagram: at the right of the proof, six vertical ticked lines of varying heights, labelled below α, β, γ, δ, ε, ζ]
 
+[Curated heading level=2 type=propositions: Propositio 5]
+
 ## Eucli. ex Camp. Propositio 5
 
 [Curated heading level=3 type=campanus_sequence: 5.]
@@ -21,6 +23,8 @@ CORRELARIVM. Ex hoc proinde manifestum est, quod si magnitudo tres magnitudines 
 CAMPANVS Sint duæ quantitates a & b, communicantes. Dico quod earum proportio est sicut alicuius numeri ad alium numerum. Sit enim, c maxima quantitas communiter mensurans a & b, reperta ut docet secunda huius, quæ mensuret a secundum numerum d, & b secundum numerū e, eritq̃ a ad c ut d ad unitatem, eo quod sicut a est multiplex c, ita d est multiplex unitatis, ac c ad b, ut unitas ad e, quoniam sicut c est submultiplex b. ita uuitas{printer-error-correction:unitas} est sub multiplex e, igitur per æquam proportionalitatem a ad b, ut d ad e, quod est propositum.
 
 [Diagram: at the right of the proof, three horizontal ticked lines — the long line a with three square dots d at its right; the short line c with a single dot at its right; and the line b with square dots e at its right]
+
+[Curated heading level=2 type=propositions: Theorema 3 Propositio 5]
 
 [Curated heading level=2 type=theorems: Theorema 3 Propositio 5]
 
@@ -41,6 +45,8 @@ THEON ex Zamberto. Sint commensurabiles magnitudines α,β. Dico quod α ad β, 
 [/Margin]
 
 [Diagram: at the right of the Theon proof, three vertical lines of decreasing height and columns of square dots, labelled below α, β, γ, δ, ε]
+
+[Curated heading level=2 type=propositions: Propositio 6]
 
 ## Eucli. ex Camp. Propositio 6
 

@@ -6,6 +6,8 @@ Sit in mundo horizon a b c, æstiuus quidem tropicus sit a b, hybernus uero sit 
 
 [Diagram: sphere with horizon and oblique zodiac band crossed by parallel circles; points b, t, d, g, h, l, m, n, r, x, o, f, e, c, d marked]
 
+[Curated heading level=2 type=propositions: Theorema 18 Apparens 18]
+
 [Curated heading level=2 type=theorems: Theorema 18 Apparens 18]
 
 ## Theorema 18 Apparens 18
@@ -17,6 +19,8 @@ Sit in mundo horizon a b c, æstiuus quidem tropicus sit a b, hybernus uero sit 
 Sit in mūdo horizon a b c, æquinoctialis autem circulus sit b d c, zodiacus autem circulus positionem habeat sicut a e h, & b c d, æquinoctialis ex utraq̃ parte æquales & æque distantes circūferentiæ sint h k, f n. Dico q̄ in quo tēpore h k permutat apparens hemisphæriū, ipsa f n non apparens, ponatur enim ipsi f n, æqualis & ex opposito m l circūferentia. Ipsæ igitur m l, h k, circūferentiæ permutāt apparens hemisphæriū. Sed in quo tēpore l m apparens hemisphæriū permutat, ipsa f n non apparens permutat, & in quo igitur tempore h k, circūferentia permutat apparens hemisphæriū, ipsa n f circūferentia non apparens permutat. Idq̃ p̄ptereà iam & in quo tempore h k, circūferentia permutat non apparens hemisphærium, ipsa f n non apparens permutat.
 
 [Diagram: sphere with horizon, equinoctial and oblique zodiac; points a, b, x, l, m, d, e, n, f, k, c, h marked]
+
+[Curated heading level=2 type=propositions: Theorema 19 Apparens 19]
 
 [Curated heading level=2 type=theorems: Theorema 19 Apparens 19]
 

@@ -2,6 +2,8 @@
 
 <!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: Propositio 16]
+
 ## Eucli. ex Camp. Propositio 16
 
 [Curated heading level=3 type=campanus_sequence: 16.]
@@ -15,6 +17,8 @@ SI numeret unitas aliquem numerum quoties quilibet tertius aliquem quartum, erit
 CAMPANVS. Vt si sit unitas ad a, sicut b ad c, erit permutatim unitas ad b, sicut a ad c. Non superfluit autem hæc, demonstrata permutata proportione, non enim ex illa potest concludi quod hic proponitur. Nam illa demonstrata est de quatuor numeris proportionalibus, unitas uero non est numerus per diffinitionem. Hoc ergo modo pateat propositum. Diuidatur a per unitates, & c, secundum quantitatẽ b, eruntq́; per præsentẽ hypothesin tot partes a, quot c, & quia unaquæq́; partium a est unitas, & unaquæq́; partium c est æqualis b, erit ut quoties unitas in b, toties unaquæq́; partium a in sua compari ex partibus c, per modum itaq́; demonstrationis quintæ, sequetur toties esse a in c, quoties unitas in b, quod est propositum.
 
 [Diagram: unitas . — b . . — a . . . . — c . . . . . . . .]
+
+[Curated heading level=2 type=propositions: Theorema 13 Propositio 15]
 
 [Curated heading level=2 type=theorems: Theorema 13 Propositio 15]
 
@@ -32,6 +36,8 @@ THEON ex Zamberto. Vnitas, inquam, α numerum aliquem β γ metiatur, pariter au
 
 [Diagram: α . — β . η . θ . γ — δ . . — ε . . κ . . λ . . ζ]
 
+[Curated heading level=2 type=propositions: Propositio 17]
+
 ## Eucli. ex Camp. Propositio 17
 
 [Curated heading level=3 type=campanus_sequence: 17.]
@@ -47,6 +53,8 @@ CAMPANVS. Sicut si ex a in b proueniat c b, & ex b in a proueniat d, erunt c & d
 [Diagram: unitas . — a . . . b . . . . — c . . . . . . . . . . . . — d . . . . . . . . . . . .]
 
 CAMPANI annotatio. Possumus quoq́; hanc conclusionem alio modo proponere. Si duorum numerorum uterque ducatur in alterum idem numerus utrobique proueniet, ut si ex a in b proueniat c, idem etiam ex b in proueniet. Quia enim ex a in b fit c, erit prius per conuersionem diffinitionis b in c quoties unitas in a. Et permutatim per præmissam a in c, quoties unitas in b, quia igitur a toties sibi coaceruatur in c, quoties in b est unitas, sequitur per diffinitionem quod ex b in a fit c.
+
+[Curated heading level=2 type=propositions: Theorema 14 Propositio 16]
 
 [Curated heading level=2 type=theorems: Theorema 14 Propositio 16]
 

@@ -4,6 +4,8 @@
 
 dratū diametri a b, erit sicut circuli c d ad superficiē f minorē circulo a b. Sed ex hoc demonstrauimus pauloante sequi impossibile, uidelicet, polygoniū inscriptū circulo maius esse circulo. Sicut ergo superficies e non potest esse minor circulo c d, ita nec maior, erit ergo necessario æqualis. Quare per secūdam partem 7 quinti, liquet quod propositum est.
 
+[Curated heading level=2 type=propositions: Theorema 2 Propositio 2]
+
 [Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 2

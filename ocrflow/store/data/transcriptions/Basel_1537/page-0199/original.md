@@ -8,6 +8,8 @@ minores in eadem ratione existentes ipsis α,β, sint autem γ,δ. Quoniam igitu
 
 Sequens ex Campano 23, præcedenti 23 ex Zamberto respondet: præcedens autem ex Campano 22, sequenti ex Zamberto 24.
 
+[Curated heading level=2 type=propositions: Propositio 23]
+
 ## Eucli. ex Camp. Propositio 23
 
 [Curated heading level=3 type=campanus_sequence: 23.]
@@ -21,6 +23,8 @@ Sequens ex Campano 23, præcedenti 23 ex Zamberto respondet: præcedens autem ex
 CAMPANVS. Hæc est conuersa præmissæ, ut si duo numeri sint a & b contra se primi, ipsi erunt secundum suam proportionem minimi, sin autem, sint minimi in eadem proportione (si possibile est) c & d, constat itaq̃ per 21 quod c numerat a, & d, æqualiter: sit igitur ut secundum e, erit per 17 ut uiceuersa e numeret a & b, a quidem secundum c, & b secundum d: non sunt igitur a & b contra se primi, quod est contra hypothesin.
 
 [Diagram: dotted number lines beside the text: a······ b····· / e·· / c···· d···]
+
+[Curated heading level=2 type=propositions: Theorema 22 Propositio 24]
 
 [Curated heading level=2 type=theorems: Theorema 22 Propositio 24]
 
@@ -38,6 +42,8 @@ THEON ex Zamberto. Sint minimi numeri eandem rationem habentium eis α, β. Dico
 
 [Diagram: dotted number lines beside the text: α········ β······· / γ···· / δ··· / ε··]
 
+[Curated heading level=2 type=propositions: Propositio 24]
+
 ## Eucli. ex Camp. Propositio 24
 
 [Curated heading level=3 type=campanus_sequence: 24.]
@@ -51,6 +57,8 @@ THEON ex Zamberto. Sint minimi numeri eandem rationem habentium eis α, β. Dico
 CAMPANVS. Sint a & b contra se primi, c uero numeret a. Dico quod c primus est ad b, alioquin, numeret eos d, quæ per penultimam cōceptionem numerabit etiam a, non sunt ergo a & b, contra se primi, d enim nnmerat{printer-error-correction:numerat} ambos.
 
 [Diagram: dotted number lines beside the text: a···· b····· / c·· d···]
+
+[Curated heading level=2 type=propositions: Theorema 23 Propositio 25]
 
 [Curated heading level=2 type=theorems: Theorema 23 Propositio 25]
 

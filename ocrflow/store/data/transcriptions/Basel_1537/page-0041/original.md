@@ -6,6 +6,8 @@ b c & e f æquales, & inter lineas a g & b h æquidistantes, dico eos esse æqua
 
 [Diagram: triangles a b c and d e f on equal bases b c and e f between parallels a g and b h, with lines c k and f l drawn; letters a, k, d, l, g above and b, c, e, f, h below]
 
+[Curated heading level=2 type=propositions: Theorema 28. Propositio 38.]
+
 [Curated heading level=2 type=theorems: Theorema 28. Propositio 38.]
 
 ## Eucli. ex Zamb. Theorema 28. Propositio 38.
@@ -21,6 +23,8 @@ Triangula in æqualibus basibus & in eisdem parallelis constituta, adinuicem sun
 THEON ex Zamb. Sint triangula α β γ & δ ε ζ, in æqualibus basibus constituta, hoc est β γ & ε ζ, & in eisdem parallelis, hoc est β ζ & α δ. Dico quod triangulum α β γ æquum est triangulo δ ε ζ. Producatur enim (per secundum postulatum) α δ ex utraq̃ parte in η, θ, & per β, ipsi γ α (per 31 propositionem) parallelus excitetur β η, & per ε, ipsi δ ζ parallelus excitetur ζ θ (per eandem.) Parallelogrammum igitur est, η β γ α & δ ε ζ θ. At parallelogrammū η β γ α, (per 36) æquum est ipsi δ ε ζ θ parallelogrammo: in æqualibus enim sunt basibus, hoc est β γ & ε ζ, & in eisdem parallelis, hoc est β ζ & η θ. At parallelogrammi η β γ α (per 34 propositionem) triangulum α β γ, medietas est, α β enim dimetiens, illud bifariam secat: & triangulum δ ε ζ, parallelogrammi δ ε ζ θ, medietas est (per eandem), nam dimetiens δ ζ, illud secat bifariam. Aequalium uero ea quæ sunt dimidium, sibi inuicem sunt æqualia, (per 7 cōmunem sententiam.) Triangulum igitur α β γ, triangulo δ ε ζ est æquale. Triangula igitur in æqualibus basibus & in eisdem parallelis constituta, sibi inuicem sunt æqualia. Quod oportuit demonstrasse.
 
 [Diagram: triangles α β γ and δ ε ζ on equal bases β γ and ε ζ between parallels, with η and θ on the upper parallel and lines β η, ζ θ drawn]
+
+[Curated heading level=2 type=propositions: Propositio 39.]
 
 ## Eucli. ex Camp. Propositio 39.
 

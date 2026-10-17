@@ -8,6 +8,8 @@ THEON ex Zamberto. Sit triangulum α β γ,seceturque (per 9 primi,)angulus β �
 
 [Diagram: triangle with apex ε at the top, point α on the left side, base β δ γ, with lines α δ and α γ drawn within]
 
+[Curated heading level=2 type=propositions: Propositio 4]
+
 ## Eucli.ex Camp. Propositio 4
 
 [Curated heading level=3 type=campanus_sequence: 4.]
@@ -21,6 +23,8 @@ THEON ex Zamberto. Sit triangulum α β γ,seceturque (per 9 primi,)angulus β �
 CAMPANVS. Sint duo trianguli a b c,d e f æquianguli: sitqꝫ angulus a æqualis angulo d:& angulus b,angulo e:& angulus c angulo f:dico quod proportio d e ad a b,& d f ad a c: est sicut e f ad b c: ponam enim ambos triangulos super lineam unā quæ sit e c: ita quod duo anguli unius qui erūt super hanc lineam, sint æquales duobus alterius qui erunt super eandem : non quidem medius medio aut extremus extremo:sed medius unius,extremo alterius : & ponam duos eorum medios angulos in eodem puncto coire, sitqꝫ a f c: ipse idem triangulus qui erat a b c: & quia angulus a f c est æqualis angulo e, angulus d f e angulo c per hypothesin:erit per primam partem 26 primi,linea a f æquidistans d e,& d f æquidistans a c: complebo igitur superficiem æquidistantium laterum:quæ sit g f:eritqꝫ per 34 primi,g a æqualis d f,& g d æqualis a f. Quia ergo per secundam huius g a ad a c, sicut e f ad f c, & per eandem e f ad f c sicut e d ad d g:erit per 7 quinti d f ad a c: & per eandem e d ad f a,sicut e f ad f c,quod est propositum.
 
 [Diagram: two triangles: one with apex a and base b c; the other with apex g, point a on its left side, point d on the right, and base e f c, with inner lines drawn]
+
+[Curated heading level=2 type=propositions: Theorema 4. Propositio 4.]
 
 [Curated heading level=2 type=theorems: Theorema 4. Propositio 4.]
 

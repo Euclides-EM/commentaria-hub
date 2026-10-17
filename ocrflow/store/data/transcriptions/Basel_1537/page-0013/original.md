@@ -2,9 +2,15 @@
 
 [Ornament: ornamental headpiece border]
 
+[Curated heading level=1 type=zamberti_sequence: EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, BARTHOLOMAEO ZAMBERTO Veneto interprete: Triplex principiorum genus.]
+
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, BARTHOLOMAEO ZAMBERTO Veneto interprete: Triplex principiorum genus.
 
+[Curated heading level=2 type=zamberti_sequence: Primum Diffinitiones.]
+
 ## Primum Diffinitiones.
+
+[Curated heading level=3 type=definitions: 1-18]
 
 {dropcap:S|lines=?|style=decorated|decoration="foliate and figural decoration"}Ignum, est cuius pars nulla, 2 Linea uero, longitudo illatabilis. 3 Lineæ autē limites, sunt signa. 4 Recta linea, est quæ ex æquali, sua interiacet signa. 5 Superficies, est quæ longitudinem latitudinemq̃ʒ tantum habet. 6 Superficiei extrema, sunt lineæ. 7 Plana superficies, est quæ ex æquali, suas interiacet lineas. 8 Planus angulus, est duarum linearū in plano sese tangentiū & non in directo iacentiū, ad alterutrā inclinatio.
 

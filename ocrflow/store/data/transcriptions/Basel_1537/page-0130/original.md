@@ -14,6 +14,8 @@ CAMPANVS. Sit duarum quantitatum a & b, proportio una ad c, dico eas esse æqual
 
 [Diagram: horizontal line segments a and b above, with segment c below, in the right margin]
 
+[Curated heading level=2 type=propositions: Theorema 9 Propositio 9]
+
 [Curated heading level=2 type=theorems: Theorema 9 Propositio 9]
 
 ## Eucli. ex Zamb. Theorema 9 Propositio 9
@@ -30,6 +32,8 @@ THEON ex Zamb. Habeat inquam utraque ipsarum α β, ad γ, eandē rationem. Dico
 
 [Diagram: three vertical line segments labelled α, β, γ in the right margin]
 
+[Curated heading level=2 type=propositions: Propositio 10]
+
 ## Eucli. ex Camp. Propositio 10
 
 [Curated heading level=3 type=campanus_sequence: 10.]
@@ -43,6 +47,8 @@ SI fuerit unius quantitatis ad quantitatem unam proportio maior, quantitatem mai
 CAMPANVS. Quod si fuerit maior proportio a ad c quàm b ad c, dico a esse maiorem b, & si fuerit maior c ad b quàm c ad a, adhuc dico a esse maiorem b. Hæc est conuersa 8. Primum patet per primam partem 7 & per primam 8, nam per primam partem septimæ, non erit a æqualis b, nec etiam minor, per primam octauæ. Secūdum uero patet ex secundis partibus earundem.
 
 [Diagram: horizontal line segments a and b above, with segment c below, in the right margin]
+
+[Curated heading level=2 type=propositions: Theorema 10 Propositio 10]
 
 [Curated heading level=2 type=theorems: Theorema 10 Propositio 10]
 
@@ -59,6 +65,8 @@ Ad eandem, rationem habentium, maiorem rationem habens, illa maior est, ad quam 
 THEON ex Zamb. Habeat enim α, ad γ, maiorem rationem, quàm β, ad γ. Dico quod α maior est quàm β. Si autem non, aut est ipsi γ, æqualis, aut ea minor, æqualis autem minime est, ipsi ε, utraque etenim ipsarum α β, ad γ, eandem rationem haberet: (per 9 quinti) non habet autem, igitur α, ipsi β minime æqualis est. Neque etiam minor est α, quàm β, nam α, ad ipsum γ, minorem rationem haberet, quàm β, ad γ, (per 8 quinti) non habet autem, igitur α, quàm β, minor non est. Ostēsum autem est, quod neque est æqualis, maior igitur est α, quàm β. Habeat rursus γ, ad α c, maiorem rationem, quàm γ ad α. Dico quod minor est α, quàm β. Si autem non, aut est ei æqualis aut ea maior, æqualis quidem non est, β. Nam γ, ad utramque ipsarum α β, eandem haberet rationem, (per 6 quinti,) non habet autem, Igitur α, ipsi β, minime est æqualis. Neque etiam maior est γ, quàm α, nam γ, ad β, maiuorem rationem haberet, quàm ad α, (per 8 quinti), non habes autem. Igitur maior nō est γ quàm α: patuit autem quod neque æqualis est, minor igitur est β, quàm α. Ad eandem igitur rationem habentium, maior est, & ad quam autem eadem maiorem rationē habet, ipsa minor est. Quod erat demonstrandum.
 
 [Diagram: three vertical line segments labelled α, β, γ in the right margin]
+
+[Curated heading level=2 type=propositions: Propositio 11]
 
 ## Eucli. ex Camp. Propositio 11
 

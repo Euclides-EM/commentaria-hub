@@ -2,6 +2,8 @@
 
 <!-- Page number: 519 -->
 
+[Curated heading level=2 type=propositions: Theorema tertium.]
+
 [Curated heading level=2 type=theorems: Theorema tertium.]
 
 ## Theorema tertium.
@@ -11,6 +13,8 @@
 Sit, inquam, oculus n, spectatū uero c d, sitq́ in aliqua distantia, nō amplius spectabitur, fiat nāq́ c d, inter uisuū interuallū in quo κ igitur ad k nullus ab ipso b uisus procidet, id uero ad quod uisus non addunt non spectatur. Eorū igitur quæ spectantur unūquodq́ longitudinem distantiæ habet nō aliquam, qua aduentante, amplius spectatur.
 
 [Diagram: point κ above a horizontal line d–e; rays converging downward to the eye b]
+
+[Curated heading level=2 type=propositions: Theorema quartum.]
 
 [Curated heading level=2 type=theorems: Theorema quartum.]
 
@@ -22,6 +26,8 @@ Sint, inquā, æqualia b c, c d, d f, oculus uero sit k, ex quo ꝓcidant uisus 
 
 [Diagram: horizontal line with points b, c, d, f; rays from κ below to each point; angle labels e, g, h between successive rays near κ]
 
+[Curated heading level=2 type=propositions: Theorema quintum.]
+
 [Curated heading level=2 type=theorems: Theorema quintum.]
 
 ## Theorema quintum.
@@ -31,6 +37,8 @@ Sint, inquā, æqualia b c, c d, d f, oculus uero sit k, ex quo ꝓcidant uisus 
 Sit æqualis c d ipsi k l, oculus uero sit b a, quo procidant uisus b c, b d, b k, & b l, d igitur, c sub maiori spectatur angulo quam ipsa k l: maior igitur apparet c d ipsa k l.
 
 [Diagram: shorter line k–l above, wider line c–d beneath it, rays from all endpoints converging downward to the eye b]
+
+[Curated heading level=2 type=propositions: Theorema sextum.]
 
 [Curated heading level=2 type=theorems: Theorema sextum.]
 

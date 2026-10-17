@@ -16,6 +16,8 @@ Secet ergo ipsum in punctis e d, dico arcum e d, maioris, esse æqualem arcui d 
 
 [Diagram: two circles cutting one another at e and d, with lines d e, c e, e a; labels a, b, c, d, e]
 
+[Curated heading level=2 type=propositions: Problema 10 Propositio 10]
+
 [Curated heading level=2 type=problems: Problema 10 Propositio 10]
 
 ## Eucli ex Zamb. Problema 10 Propositio 10

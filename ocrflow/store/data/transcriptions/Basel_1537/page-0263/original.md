@@ -8,6 +8,8 @@ communicabunt. Idem quoque in contrario,si enim a & b sint incommunicātes, dico
 
 CAMPANI *additio*. Si autem a & b sint incommunicantes,erit c incommunicans utrique earū. Si enim cum utraque seu etiam cum altera earum communicaret,& ipsæ communicarent adinuicem,quod est contra hypothesin. Similiter quoque econuerso sie est in communicans{printer-error-correction:si c est incommunicans} utriq̃ earum seu etiam alteri earū,erit quoque incommunicās reliquæ,& ipsæ inter se,quod palam est ex prædemonstratis,à destructione cōsequentis.
 
+[Curated heading level=2 type=propositions: Propositio 10]
+
 ## Eucli.ex Camp. Propositio 10
 
 [Curated heading level=3 type=campanus_sequence: 10.]
@@ -23,6 +25,8 @@ CAMPANVS. Sint quatuor quantitates proportionales,a,b,c,d: dico quod si a commun
 [Diagram: four horizontal lines labelled a, b, c, d, marked into parts; below them two rows of dots labelled f (two dots) and e (five dots)]
 
 [Diagram: four horizontal lines labelled a; b Re. 32; c; d Re. 18]
+
+[Curated heading level=2 type=propositions: Propositio 11]
 
 ## Eucli.ex Camp. Propositio 11
 

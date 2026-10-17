@@ -8,6 +8,8 @@ mensuram metietur (per correlarium secundæ septimi.) Ipsorum autem α, β, maxi
 
 CORRELARIVM. Proinde manifestū est, ꝙ si numerus aliquis tres numeros metitur, & maximā eorum cōmunem dimensionē metietur. Similiter autem & pluribus numeris datis non primis adinuicē, maxima cōmunis dimensio inuenietur.
 
+[Curated heading level=2 type=propositions: Propositio 4]
+
 ## Eucli. ex Camp. Propositio 4
 
 [Curated heading level=3 type=campanus_sequence: 4.]
@@ -21,6 +23,8 @@ CORRELARIVM. Proinde manifestū est, ꝙ si numerus aliquis tres numeros metitur
 CAMPANVS. Sint duo numeri a & b, b, minor, dico quod b est pars uel partes a. Aut enim b numerat a, aut non, si numerat, pars eius est per diffinitionē. Si non numerat ipsum, aut ergo sunt adinuicem primi, aut non, si non sunt adinuicem primi, habebunt per diffinitionem partem communem, quæ quoties fuerit in b tot partes a dicetur esse b per diffinitionē: si autem sint adinuicem primi, quia tamen omnis numeri pars est unitas ab ipso denominata, patet idem per unitates.
 
 [Diagram: numbers as dot-rows: a (8 dots), b (4 dots), b (6 dots), b (7 dots)]
+
+[Curated heading level=2 type=propositions: Theorema 2 Propositio 4]
 
 [Curated heading level=2 type=theorems: Theorema 2 Propositio 4]
 
@@ -38,6 +42,8 @@ THEON ex Zamberto. Sit bini numeri α, βγ, & sit minor βγ. Dico quod βγ ip
 
 [Diagram: numbers as dot-rows: α (13 dots); β—γ (8 dots); β—γ (7 dots); β—γ (10 dots with interior points ε and ζ); δ (3 dots)]
 
+[Curated heading level=2 type=propositions: Propositio 5]
+
 ## Eucli. ex Camp. Propositio 5
 
 [Curated heading level=3 type=campanus_sequence: 5.]
@@ -51,6 +57,8 @@ THEON ex Zamberto. Sit bini numeri α, βγ, & sit minor βγ. Dico quod βγ ip
 CAMPANVS. Volens Euclides hos libros de numeris aliquo præcedentiū non indigere, sed per seipsos stare, partem eius quod proposuit per primam quinti de quantitatibus in genere, proponit per hanc quintam huius septimi de numeris. Sint igitur quatuor numeri a, b, c, d, sitq̃ b tota pars a, quota d, c: dico quod b & d pariter accepti sunt tota pars a & c pariter acceptorū, quota b est a: diuisis enim a & c secūdum quantitatem b & d, argumentare sicut in prima quinti: erit enim ut totidem sint partes a, quot c per positionem, & ut aggregatum ex prima parte a & prima c, sit æquale aggregato ex b & d: similiter quoq̃ & aggregatum ex secunda parte a & secunda c, & quia hæc aggregatio toties potest fieri quoties cōtinetur b in a, sequitur ut numerus æqualis aggregato ex b & d, toties contineatur in aggregato ex a & c, quoties b continetur in a, quare constat propositum.
 
 [Diagram: numbers as dot-rows: a (8 dots) with c (6 dots); b (4 dots) with d (3 dots)]
+
+[Curated heading level=2 type=propositions: Theorema 3 Propositio 5]
 
 [Curated heading level=2 type=theorems: Theorema 3 Propositio 5]
 

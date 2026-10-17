@@ -2,6 +2,8 @@
 
 <!-- Page number: 576 -->
 
+[Curated heading level=2 type=propositions: Theorema 72. Propositio 72.]
+
 [Curated heading level=2 type=theorems: Theorema 72. Propositio 72.]
 
 ## Theorema 72. Propositio 72.
@@ -12,6 +14,8 @@ Sint bina triangula a b c, d e f, excitẽturq̃ a g, d h, aut æquos angulos ef
 
 [Diagram: two rectangles, each with a triangle inscribed from the top side to the base; left rectangle with corners d, l above and f, b, c below; right rectangle with corners a, k above and e, g, b below]
 
+[Curated heading level=2 type=propositions: Theorema 73. Propositio 73.]
+
 [Curated heading level=2 type=theorems: Theorema 73. Propositio 73.]
 
 ## Theorema 73. Propositio 73.
@@ -21,6 +25,8 @@ SI binorum parallelogrammorum quæ circũ æquos aut inæquales angulos, datos t
 Binorum, inquam, parallelogrammorũ a b, e g, quæ circũ æquales aut inæquales angulos, datos tamen, eos qui ad c f, latera sic adinuicem se habeãt, ut sit sicut c b ad f g, sic e f ad c k. Ipsius autem a c ad c k ratio esto data. Dico quod & ipsius c d, parallelogrammi a e g parallelogrammũ ratio est data.{printer-error-correction:ad e g} Sit enim prius a b ipsi e g, æquiangulum, comparetur que per 25 sexti elementorum ad ipsam c b, rectam lineam ipsi e g parallelogrammo æquum c h, ponaturque ut a c ipsi c k, sit in rectam lineam. In rectã igitur est lineam & d b: ipsi b h, & quoniã c h, ipsi e g est æquale, est autem & æquiãgulum c h ipsi e g. Ipsorum igitur c h e g, latera quæ circũ æquales angulos per 14 sexti elemẽtorum sunt reciproca: est igitur sicut b c ad f g, sic est f e ad c k. Sicut autẽ c b ad f g, sic e f, ad quã a c, rõnẽ habet datã. At a c uerbi gratia ad d aut quãpiã aliã rõnẽ habet datã Ratio igitur ipsius a c ad c k est data. Quare & ipsius a b ad c h, hoc est e g, ratio data est. Non sit au tem æquiangulum. Cõstituaturque per 25 primi elementorum ad ipsam c b rectam lineam, ad signaque ad ipsam c ei qui sub e f g, angulo, æquus angulus qui sub b c l, cõpleaturque c m parallelogrammũ. Quoniam uterq̃ qui sub a c b, l c b angulorum datus est, & reliquus igitur q̃ sub a c l est datus. Datur au tem & qui sub c a l, & reliquus ergo qui sub c l a datur. Quare triãgulum a c l specie datur. Ratio igitur ipsius a c ad c l data est. Et quoniã est sicut b c ad f g, sic est e f, a d, quam ipsa a c, rationem habet datã. Ipsius autẽ a c ad c l, ratio est data: est igitur sicut c b ad f g, sic f e ad c l. Estque æqualis angulus l c m, angulo e f g. Ratio igitur ipsius c m parallelogrammi ad e g, parallelogrammũ data est. Aequum au tem est c m ipsi c d. Ratio igitur ipsius c d ad h g data est.
 
 [Diagram: at right of the text, a parallelogram-figure with top labels l, d, m and c at far right; side label c, interior points b, e; lower labels k, b; a slanted parallelogram below with labels e, g, f and g, f at its foot; and a tall rectangle at right with labels g, f]
+
+[Curated heading level=2 type=propositions: Theorema 74. Propositio 74.]
 
 [Curated heading level=2 type=theorems: Theorema 74. Propositio 74.]
 

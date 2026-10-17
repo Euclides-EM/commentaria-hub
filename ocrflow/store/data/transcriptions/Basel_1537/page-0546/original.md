@@ -8,6 +8,8 @@ Deferantur æquiceleriter b c, d f, k l, & ab oculo m, procidāt radij m c, m f,
 
 [Diagram: three lines from b, c, d at the top converging downwards to k]
 
+[Curated heading level=2 type=propositions: Theorema 53 Propositio 54]
+
 [Curated heading level=2 type=theorems: Theorema 53 Propositio 54]
 
 ## Theorema 53 Propositio 54
@@ -17,6 +19,8 @@ SI aliquibus delatis, & pluribus celeritate inæquali, cōferatur uero ad eadē 
 Ferantur inæquali celeritate b c d, tardius uero feratur b, sed & æquiceleriter oculo k & d, celerius ipso c, ab oculo uero k, procidant radij k b, k c, k d, igitur oculo ipsos b c d, insequēte. Semper c per c delatum stare putabitur. At b derelictum in contrarium ferri, & d celerius ipso c uidebitur præcedere, plus nanq̃ ab ipso c distat.
 
 [Diagram: three lines from b, c, d at the top converging downwards to f]
+
+[Curated heading level=2 type=propositions: Theorema 54 Propositio 55]
 
 [Curated heading level=2 type=theorems: Theorema 54 Propositio 55]
 
@@ -28,6 +32,8 @@ Ferrantur nanq̃ b, d, maneat autem c, & ab oculo f, procidant radij f b, f c, f
 
 [Diagram: c and b at the top; lines converge downwards through d to f]
 
+[Curated heading level=2 type=propositions: Theorema 55 Propositio 56]
+
 [Curated heading level=2 type=theorems: Theorema 55 Propositio 56]
 
 ## Theorema 55 Propositio 56
@@ -37,6 +43,8 @@ OCulo prope spectatum accedente, spectatū augeri putabitur.
 Spectetur, inquā, b c, oculo in f, posito sub f b, f c, radijs, permuteturq̃ oculus ut propius sit ipsi b c, sitq̃ in d, spectaturq̃ idem sub d b, & d c radijs. Igitur angulus d, angulo f, maior est. Sed quæ sub maioribus angulis spectantur per suppositionem 4 opticæ maiora apparent. Igitur b c, oculo existente in d, augeri putabitur potius quàm in f.
 
 [Diagram: horizontal lines b, c and f at the top with k below; lines converge downwards to a]
+
+[Curated heading level=2 type=propositions: Theorema 56 Propositio 57]
 
 [Curated heading level=2 type=theorems: Theorema 56 Propositio 57]
 

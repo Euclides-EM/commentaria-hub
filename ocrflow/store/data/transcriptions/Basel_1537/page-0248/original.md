@@ -2,6 +2,8 @@
 
 <!-- Page number: 237 -->
 
+[Curated heading level=2 type=propositions: Theorema 23 Propositio 23]
+
 [Curated heading level=2 type=theorems: Theorema 23 Propositio 23]
 
 ## Eucli. ex Zamb. Theorema 23 Propositio 23
@@ -18,6 +20,8 @@ THEON ex Zamberto. Componantur enim quotcunq̃ impares numeri, quorum multitudo 
 
 [Diagram: dotted line with points α, β, γ, ε, δ]
 
+[Curated heading level=2 type=propositions: Propositio 25]
+
 ## Eucli. ex Camp. Propositio 25
 
 [Curated heading level=3 type=campanus_sequence: 25.]
@@ -31,6 +35,8 @@ THEON ex Zamberto. Componantur enim quotcunq̃ impares numeri, quorum multitudo 
 CAMPANVS. Sit a totus par, à quo detrahatur b, qui quoq̃ sit par, & residuus sit c. Dico c esse parem, sit enim d medietas a, e quoq̃ sit medietas b, detractoq̃ e de d, sit reliquus f, erit per 11 septimi, c ad f, sicut a ad d, quare f est medietas, itaq̃ c est par, quod est propositum.
 
 [Diagram: dotted line a with points d, f; below, dotted lines b (with point e) and c]
+
+[Curated heading level=2 type=propositions: Theorema 24 Propositio 24]
 
 [Curated heading level=2 type=theorems: Theorema 24 Propositio 24]
 
@@ -48,6 +54,8 @@ THEON ex Zamberto. A pari enim α β, auferatur par ε. Dico quod reliquus α γ
 
 [Diagram: dotted line with points α, γ, β]
 
+[Curated heading level=2 type=propositions: Propositio 26]
+
 ## Eucli. ex Camp. Propositio 26
 
 [Curated heading level=3 type=campanus_sequence: 26.]
@@ -61,6 +69,8 @@ THEON ex Zamberto. A pari enim α β, auferatur par ε. Dico quod reliquus α γ
 CAMPANVS. Sit a b par, à quo tollatur a c, qui sit impar. Dico c b residuum esse imparem, subtrahatur enim ab a c, unitas quæ sit c d, eritq̃ a d par, itaq̃ per 25, d b quoq̃ erit par. Quia igitur d c est unitas, sequitur c b esse imparem, quod est propositum.
 
 [Diagram: dotted line with points a, d, c, b]
+
+[Curated heading level=2 type=propositions: Theorema 25 Propositio 25]
 
 [Curated heading level=2 type=theorems: Theorema 25 Propositio 25]
 
@@ -78,6 +88,8 @@ THEON ex Zamberto. A pari nanq̃ numero α β, auferatur impar β γ. Dico quod 
 
 [Diagram: dotted line with points α, γ, δ, β]
 
+[Curated heading level=2 type=propositions: Propositio 27]
+
 ## Eucli. ex Camp. Propositio 27
 
 [Curated heading level=3 type=campanus_sequence: 27.]
@@ -91,6 +103,8 @@ THEON ex Zamberto. A pari nanq̃ numero α β, auferatur impar β γ. Dico quod 
 CAMPANVS. Sit a b numerus impar, à quo detrahatur b c, qui etiam sit impar: dico reliquum qui est a c, esse parem. Detrahatur enim ab utroq̃ duorum numerorum a b & b c, unitas quæ sit b d, erit uterque duorum residuorum quæ sunt a d & d c, par, per præmissam itaque constat a c esse parem, quod est propositum.
 
 [Diagram: dotted line with points a, c, d, b]
+
+[Curated heading level=2 type=propositions: Theorema 26 Propositio 26]
 
 [Curated heading level=2 type=theorems: Theorema 26 Propositio 26]
 

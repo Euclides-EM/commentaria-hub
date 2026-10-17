@@ -2,6 +2,8 @@
 
 <!-- Page number: 279 -->
 
+[Curated heading level=2 type=propositions: Propositio 33]
+
 ## Eucli. ex Camp. Propositio 33
 
 [Curated heading level=3 type=campanus_sequence: 33.]
@@ -13,6 +15,8 @@ CAMPANVS Sint duæ lineæ a b & b c sibi in continuumq́ⳓ coniunctæ sicut pro
 IDEM aliter. Sicut præmissis ad lineam d e quæ sit rationalis in longitudine, adiungatur superficies d f, quæ sit æqualis duobus quadratis duarum linearum a b & b c pariter aceeptis{printer-error-correction:acceptis}, eritq́ⳓ rationalis per hypothesin, quare per 16 latus eius secundum quod est d g, erit etiam rationale in longitudine & commnnicans{printer-error-correction:communicans} lineæ d e Rursus ad lineā f g adiungatur superficies f h æqualis duplo superficiei a b in b c, eritq́ⳓ medialis per hypothesin. quare per 20 linea g h quæ est eius latus secundum est rationalis in potentia tantum: per 30 igitur est linea d h binomiū & irrationalis, ideoq́ⳓ per 16 à destructione consequentis superficies e h est irrationalis, quare latus eius tetragonicū quod per 4 secundi est a c, est irrationale per diffinitionem, quod uolumus ostendere.
 
 [Diagram: line a c divided at b, labelled a, b, c; below it, a rectangle on base e d, divided by the horizontal line f g into an upper compartment (b at upper right) and a lower compartment; f at middle left, g at middle right, e and d at the bottom corners]
+
+[Curated heading level=2 type=propositions: Theorema 27 Propositio 39]
 
 [Curated heading level=2 type=theorems: Theorema 27 Propositio 39]
 
@@ -31,6 +35,8 @@ THEON ex Zamb. Cōponantur enim binæ rectæ lineæ potentia incommḗsurabiles 
 [Diagram: horizontal line with points labelled α, β, γ]
 
 [Diagram: horizontal line with points labelled α, δ, β, γ]
+
+[Curated heading level=2 type=propositions: Propositio 34]
 
 ## Eucli. ex Camp. Propositio 34
 

@@ -14,6 +14,8 @@ tia signa η,μ,excitenturq̃;(per 11 undecimi)ab ipsis η,μ,signis ad ea quæ 
 
 CORRELARIVM. Ex hoc nempe manifestū,quod si fuerint bini anguli plani rectilinei æquales,steterintq̃; super ipsis sublimes rectæ lineæ æquales æquos angulos cōprehendentes,cum ijs quæ in principio rectis lineis alterum alteri,quæ ex ipsis perpendiculares ductæ ad plana in quibus sunt qui principio anguli,sunt æquales.
 
+[Curated heading level=2 type=propositions: Propositio 38]
+
 ## Eucli.ex Camp. Propositio 38
 
 [Curated heading level=3 type=campanus_sequence: 38.]

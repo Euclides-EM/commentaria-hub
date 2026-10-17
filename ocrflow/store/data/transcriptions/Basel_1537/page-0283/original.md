@@ -2,6 +2,8 @@
 
 <!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
+[Curated heading level=2 type=propositions: Propositio 26]
+
 ## Eucli ex Camp. Propositio 26
 
 [Curated heading level=3 type=campanus_sequence: 26.]
@@ -25,6 +27,8 @@ superficiem medialem. Quod est propositum.
 CAMPANVS. Si autē cura esset inuenire duas lineas mediales potentia tantum cōmunicantes superficiemq́ʒ medialem continentes, quarum longior esset potentior breuiori, quadrato lineæ secum cōmunicantis in longitudine, sumeremus tres lineas secundum doctrinam 17, a,b,c,potentia tantum rationales & in ea solum communicantes, & poneremus lineam a esse potentiorē linea c, quadrato alicuius lineæ sibi communicantis in longitudine, cætera uero manerēt ut prius. & argumētatione consimili concluderemus,duas lineas d & e esse quales proponitur inquirere. Et nota quod duæ lineæ quas hæc 26 docet iuuenire{printer-error-correction:inuenire} , componunt bimediale secundum , & minori earum abscisa de maiori, quæ reliqua est,dicitur residuum mediale secundum.
 
 [Diagram: five horizontal lines in the right margin, labelled: R. 54 — d R. R. 1944 — d R. 36 (sic, apparently for b R. 36) — e R. R. 499 — c R. 10]
+
+[Curated heading level=2 type=propositions: Problema 9 Propositio 32]
 
 [Curated heading level=2 type=problems: Problema 9 Propositio 32]
 

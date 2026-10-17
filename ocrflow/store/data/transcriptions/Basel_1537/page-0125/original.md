@@ -6,6 +6,8 @@ Diuidatur enim e secundū quantitatē a sui multiplicis, & f secundum quantitate
 
 [Diagram: at right, horizontal lines labelled a, b, c and, longer and divided by ticks, e and f]
 
+[Curated heading level=2 type=propositions: Theorema 3 Propositio 3]
+
 [Curated heading level=2 type=theorems: Theorema 3 Propositio 3]
 
 ## Eucli. ex Zamb. Theorema 3 Propositio 3
@@ -22,6 +24,8 @@ THEON ex Zamb. *Primum enim a secūdi β, æque sit multiplex, & tertiū γ, ips
 
 [Diagram: in right margin, vertical lines of varying heights: tall lines ε ζ and η θ divided at κ and λ, beside shorter lines labelled a, β, γ, δ]
 
+[Curated heading level=2 type=propositions: Propositio 4]
+
 ## Eucli. ex Camp. Propositio 4
 
 [Curated heading level=3 type=campanus_sequence: 4.]
@@ -35,6 +39,8 @@ THEON ex Zamb. *Primum enim a secūdi β, æque sit multiplex, & tertiū γ, ips
 CAMPANVS. Sit proportio a primi ad b secundū, sicut c tertij ad d quartū, sumanturq̃ e ad a, & f ad c, æque multiplicia: itēq̃ g ad b, & h ad d, æque multiplicia. Dico quod proportio e ad g, est sicut f ad h. Sumam k ad e, & l ad f, æque multiplicia, itemque m ad g: & n ad h, æque multiplicia. Quia ergo e & f sunt æque multiplicia ad a, & c, itemq̃ k & l æque multiplicia ad e & f, erunt per præmissam k & l, æque multiplicia ad a & c, per eandem quoq̃ erunt m & n, æque multiplicia ad b, & d. Quare per cōuersionem diffinitionis incōtinuæ proportionalitatis, k ad m, & l ad n, similiter se habebunt in addendo, diminuendo & æquādo. Quia ergo k & l sunt æque multiplicia ad e & f, itemq̃ m & n, æque multiplicia ad g & h, erit per diffinitionem incontinuæ proportionalitatis proportio e ad g, sicut f ad h, quod est propositum.
 
 [Diagram: at right, twelve vertical lines of varying heights standing over the letters k e a b g m l f c d h n]
+
+[Curated heading level=2 type=propositions: Theorema 4 Propositio 4]
 
 [Curated heading level=2 type=theorems: Theorema 4 Propositio 4]
 

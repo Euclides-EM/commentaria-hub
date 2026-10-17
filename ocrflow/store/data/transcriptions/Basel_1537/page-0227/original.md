@@ -6,6 +6,8 @@ Sint igitur ipsius quidem ε, latera θ, κ, ipsius autem η, sint λ, μ. Manif
 
 [Diagram: dotted number lines α, γ, δ, β, ε, ζ, η, θ, κ, ν, λ, μ, ξ]
 
+[Curated heading level=2 type=propositions: Propositio 20]
+
 ## Eucli. ex Camp. Propositio 20
 
 [Curated heading level=3 type=campanus_sequence: 20.]
@@ -19,6 +21,8 @@ Sint igitur ipsius quidem ε, latera θ, κ, ipsius autem η, sint λ, μ. Manif
 CAMPANVS Sint tres numeri continue proportionales a, b, c, sitque a quadratus. Dico quod c est etiam quadratus: sunt enim per 17 a & c superficiales & similes, cum igitur a sit quadratus: per hypothesin, erit c quadratus.
 
 [Diagram: dotted number lines a, b, c]
+
+[Curated heading level=2 type=propositions: Theorema 20 Propositio 22]
 
 [Curated heading level=2 type=theorems: Theorema 20 Propositio 22]
 
@@ -36,6 +40,8 @@ THEON ex Zamberto. Sint tres numeri continue proportionales α, β, γ, primus a
 
 [Diagram: dotted number lines β, β, δ (sic, for α, β, γ)]
 
+[Curated heading level=2 type=propositions: Propositio 21]
+
 ## Eucli. ex Camp. Propositio 21
 
 [Curated heading level=3 type=campanus_sequence: 21.]
@@ -47,6 +53,8 @@ THEON ex Zamberto. Sint tres numeri continue proportionales α, β, γ, primus a
 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I quatuor numerorum continue proportionalium primus fuit cubus, quartum cubum esse necesse est.
 
 CAMPANVS Sint quatuor numeri continue proportionales a, b, c, d sitque a cubus, dico quod d est etiam cubus, constat enim per 19 quod a & d sunt solidi similes, & quia a est cubus per hypothesin, erit etiam d cubus.
+
+[Curated heading level=2 type=propositions: Theorema 21 Propositio 23]
 
 [Curated heading level=2 type=theorems: Theorema 21 Propositio 23]
 

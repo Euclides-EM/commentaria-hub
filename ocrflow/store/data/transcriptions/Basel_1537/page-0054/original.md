@@ -6,6 +6,8 @@ Sed α μ est id quod fit sub α δ & δ β, æqualis enim est δ μ ipsi δ β:
 
 [Diagram: line α γ β δ along the top; square γ ε ζ δ below segment γ δ; diagonal δ ε; vertical β η cutting the diagonal at θ; horizontal κ λ θ μ (κ below α, μ on δ ζ); ξ on the diagonal near the top right, ο inside below; circle inscribed in the square marking the gnomon]
 
+[Curated heading level=2 type=propositions: Propositio 7.]
+
 ## Eucli. ex Camp. Propositio 7.
 
 [Curated heading level=3 type=campanus_sequence: 7.]
@@ -19,6 +21,8 @@ SI linea in duas partes diuidatur, quod fit ex ductu totius in seipsam cū eo qu
 CAMPANVS. Sit linea a b diuisa in duas partes in puncto c, dico quod quadratū totius a b cū quadrato b c, æquū est ei quod fit ex a b in b c bis cum quadrato a c. Describatur quadratū totius, quod sit a b d e, & ducatur diameter b d, & c f æquidistans, b e, secans diametrū in puncto g, & ducatur k g h æquidistās a b. Et quia quadratū a e cū quadrato c h tantū sunt quantū quadratū k f cum duabus superficiebus a h & c e patet propositū.
 
 [Diagram: square a b d e (b bottom left, a bottom right, e top left, d top right); c on bottom side, f on top side; diagonal b d; vertical c f cutting the diagonal at g; horizontal h g k through g (h on side b e, k on side a d)]
+
+[Curated heading level=2 type=propositions: Theorema 7. Propositio 7.]
 
 [Curated heading level=2 type=theorems: Theorema 7. Propositio 7.]
 
@@ -35,6 +39,8 @@ Si recta linea secetur utcunq́ꝫ, & quod ex tota & q̊d ex uno segmentorū utr
 THEON ex Zamb. Recta enim linea α β, secetur utcunq́ꝫ in signo γ, dico quod quadrata ex α β & β γ, æqua sunt rectangulo contento bis sub α β & β γ, & ei quod fit ex α γ, quadrato. Describatur enim (per 46 primi) ex α β, quadratū α δ ε β, describaturq́ꝫ figura. Quoniam (per 43 primi) æquū est α η ipsi η ε, cōmune apponatur ε ζ: totum igitur α ζ, toti γ ε est æquale. Igitur α ζ & γ ε, duplum est ipsius α ζ. Sed α ζ & γ ε, sunt κ λ μ gnomon, & ε ζ quadratū, & κ λ μ: igitur gnomon & α ζ. Est autē ipsius α ζ duplum, etiam id quod bis sub α β & β γ, fit æqualis enim est β ζ ipsi β γ, ergo κ λ μ gnomon & quadratū γ ζ, æquū est rectangulo contento bis sub α β & β γ, cōmune apponatur δ η, quod est quadratū ex α γ: gnomon igitur κ λ μ, & β η & η δ quadrata, æqualia sunt & ei quod bis sub α β & β γ rectangulo continetur, & ei quod ex α γ fit quadrato. Sed κ λ μ gnonion, & quadrata β η & δ η, totum sunt β α δ ε & ε ζ, quæ sunt ex α β & β γ quadrata: quadrata igitur ex α β, β γ, æqualia sunt rectāgulo bis sub α β & β γ comprehenso, cum eo quod fit ex α γ quadrato. Si recta igitur linea, & quæ sequūtur reliqua ut in theoremate, quod demonstrasse oportuit.
 
 [Diagram: square β α δ ε (β top left, α top right, ε bottom left, δ bottom right); γ on top side; diagonal β δ; vertical from γ through the diagonal; horizontal ζ θ (ζ on side β ε, θ on side α δ) crossing at η; λ inside the upper left square, κ inside right of centre, μ inside the lower left; circle through the pieces marking the gnomon]
+
+[Curated heading level=2 type=propositions: Propositio 8.]
 
 ## Eucl. ex Camp. Propositio 8.
 

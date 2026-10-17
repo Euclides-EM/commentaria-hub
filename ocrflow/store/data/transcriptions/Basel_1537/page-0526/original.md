@@ -4,6 +4,8 @@
 
 trum sepositum ab ipso b c, positum. similiter igitur ab ipso m in f, centrum connexa & extensa superius cadit in K sicut l, quæ uero ab n in f superius in e, usque h. Igitur m n spectatur sicut h l & minus est h l, ipso e K & speculo propinquius.
 
+[Curated heading level=2 type=propositions: Theorema trigesimum]
+
 [Curated heading level=2 type=theorems: Theorema trigesimum]
 
 ## Theorema trigesimum,
@@ -13,6 +15,8 @@ trum sepositum ab ipso b c, positum. similiter igitur ab ipso m in f, centrum co
 SPeculum construere est possibile, ut in ipso spectentur plures facies, & maiores, & minores, & aliquæ propius, & aliquæ lōgius, & aliæ dexteræ, & aliæ sinistræ.
 
 Sit enim planum a m, igitur in hoc fieri possunt conuexa specula sicut a b c, h k l. Caua autem qualia sunt c d e, f g h. plana porro qualia sunt e f. l m, posita uero facie sicut g spectantur à planis æqualia simulacra æque distantia, à conuexis minora & minus distātia, à cauis porro omnino sicut manifestum est.
+
+[Curated heading level=2 type=propositions: Theorema trigesimum primum.]
 
 [Curated heading level=2 type=theorems: Theorema trigesimum primum.]
 

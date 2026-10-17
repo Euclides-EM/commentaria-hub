@@ -8,6 +8,8 @@ CAMPANVS Hæc quoq́; sicut præmissa probatur. Erit enim tota a b medialis, b a
 
 [Diagram: rectangle with g at top right corner, divided horizontally; f at the left and e at the right of the lower band; corners c (bottom left) and d (bottom right)]
 
+[Curated heading level=2 type=propositions: Theorema 85 Propositio 109]
+
 [Curated heading level=2 type=theorems: Theorema 85 Propositio 109]
 
 ## Eucli.ex Zamb. Theorema 85 Propositio 109
@@ -24,6 +26,8 @@ THEON ex Zāb. A medio β γ, rationale auferatur β δ. Dico quod quæ reliquum
 
 [Diagram: two rectangles, each divided by an internal vertical line. First rectangle: β at top left, ε above the vertical line, δ below the vertical line, γ at bottom right, and a blotted letter at bottom left. Second rectangle: ζ at top left, κ above the vertical line, a small unclear letter (θ?) at top right, η at bottom left, λ below the vertical line]
 
+[Curated heading level=2 type=propositions: Propositio 105]
+
 ## Eucli.est{printer-error-correction:ex} Camp. Propositio 105
 
 [Curated heading level=3 type=campanus_sequence: 105.]
@@ -39,6 +43,8 @@ CAMPANVS. Si a duarum præmissarum demonstratione non deuias, cōcludes sine dif
 [Diagram: rectangle divided horizontally into two cells, labelled b (upper) and a (lower)]
 
 [Diagram: rectangle with g at top right corner, divided horizontally; f at the left and e at the right of the lower band; corners c (bottom left) and d (bottom right)]
+
+[Curated heading level=2 type=propositions: Theorema 86 Propositio 110]
 
 [Curated heading level=2 type=theorems: Theorema 86 Propositio 110]
 

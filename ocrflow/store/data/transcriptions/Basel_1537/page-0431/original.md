@@ -4,6 +4,8 @@
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER TERTIVSDECIMVS,
 
+[Curated heading level=2 type=propositions: Propoſitio 1]
+
 ## Euclides ex Campano. Propoſitio 1
 
 [Curated heading level=3 type=campanus_sequence: 1.]
@@ -19,6 +21,8 @@ CAMPANVS Sit linea a b diuiſa in puncto c, prout docet 29 ſexti, & ſit maior 
 [Diagram: two overlapping squares with common diagonal f–m and inscribed gnomons; labels m, n, q along the top, p, l, k at the sides, g and b at the inner intersections, a, c, d at the left and right, b, e, f along the bottom]
 
 IDEM aliter. Ex quarta ſecundi conſtat, quod quadratum lineæ a b, eſt quadruplũ ad quadratum lineæ b d. At per ſecundam eiuſdem quod fit ex a b in b c & in a c, eſt æquale quadrato a b. quod autem ex a b in b c, æquũ eſt ei quod ex b d bis in b c, quod ex prima ſecundi manifeſtum eſt, cũ a b ſit dupla ad b d. At uero quod ex a b in a c eſt ex prima parte 16 ſexti æquale quadrato b c. Itaque per communem ſcientiam quod fit ex b d, bis in b c, quod ex b c in ſe, eſt æquale quadrato a b, & ideo eſt quadruplum ad quadratum b d. Quare ſuperaddito quadrato b d, erit totum aggregatum, quintuplum. uidelicet illud quod fit ex b d bis in b c cum quadrato b c & quadrato b d. At quia ex quarta ſecundi hoc totũ eſt æquale quadrato c d, conſtat uerũ eſſe quod diximus.
+
+[Curated heading level=2 type=propositions: Theorema 1 Propoſitio 1]
 
 [Curated heading level=2 type=theorems: Theorema 1 Propoſitio 1]
 

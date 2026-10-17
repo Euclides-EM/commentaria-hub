@@ -10,6 +10,8 @@ Aliter idem. Sit horizon circulus a b c d, æstiuus autem tropicus sit b a, hybe
 
 [Diagram: sphere with horizon a b c d and several parallel circles; points b, q, a, m, l, h, k, x, o, e, n, s, y, u, p, r, z, c, d marked]
 
+[Curated heading level=2 type=propositions: Theorema 17 Apparens 17]
+
 [Curated heading level=2 type=theorems: Theorema 17 Apparens 17]
 
 ## Theorema 17 Apparens 17

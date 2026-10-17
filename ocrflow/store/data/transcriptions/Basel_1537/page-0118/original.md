@@ -10,7 +10,7 @@ Sint quatuor numeri continuæ improportionales, qui sint 2,4,12,48: in quibus pr
 
 [Diagram: at right, a horizontal line with the number 48 at its right end; above it small arcs labelled 6 and 12 spanning the numbers 2, 3, 4 written along the line; below the line the numbers 4 and 12, and beneath the whole figure the number 24]
 
-[Curated heading level=3 type=definitions: Quantitates quæ sunt in proportione]
+[Curated heading level=3 type=definitions: 12]
 
 [Curated heading level=3 type=campanus_sequence: 12.]
 

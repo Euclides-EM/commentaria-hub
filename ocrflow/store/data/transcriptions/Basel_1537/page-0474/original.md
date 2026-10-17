@@ -2,6 +2,8 @@
 
 <!-- Page number: 463 -->
 
+[Curated heading level=2 type=propositions: Propositio 14]
+
 ## Eucli. ex Camp. Propositio 14
 
 [Curated heading level=3 type=campanus_sequence: 14.]
@@ -15,6 +17,8 @@ SI tetrachedron & octoedron una eademq́ⱼ sphæra circūscribat, erit una ex b
 CAMPANVS. Sit aliqua sphæra cuius diameter a, circūscribens pyramidē cuius latus b, & octoedron cuius latus c. Dico itaq́ⱼ quod triāgulus æquilaterus cuius latus b, sesquitertius est ad triangulū æquilaterū cuius latus c, & quod superficies quā componunt octo trianguli æquilateri cuiusq́ⱼ quorum est latus c, sesquialtera est ad superficiem quam componunt quatuor trianguli æquilateri cuiusq́ⱼ quorū est latus b. Constat enim ex correlario 13 tredecimi, quod quadratū a ad quadratū b, est sicut 6 ad 4, igitur econuerso quadratum b ad quadratum a, sicut 4 ad 6. Ex correlario uero 15 eiusdem manifestū est, quod quadrata a ad quadratū c, sicut 4 ad 2. Itaq́ⱼ per æquam proportionalitatē quadratum b ad quadratum c, sicut 4 ad 3. Quadratū autem b ad quadratum c, est sicut trigonus æquilaterus cuius latus b, ad trigonum æquilaterum cuius latus c, utrobiq́ⱼ enim est sicut b ad c proportio duplicata ex secunda parte 15 sexti, igitur trigonus æquilaterus cuius latus b, ad trigonum æquilaterū cuius latus c, sicut 4 ad 3. Quare constat prima pars propositi. Ex quo euidenter elicitur secūda. Erit enim per conuersam proportionalitatē trigonus æquilaterus cuius latus c, ad trigonum æquilaterum cuius latus b, sicut tria ad quatuor, ideoq́ⱼ octuplum trigoni æquilateri cuius latus c, ad quadruplum trigoni æquilateri cuius latus b, est sicut octuplum ternarij ad quadruplū quaternarij, hoc autem sicut 24 ad 16. Et quia octuplum trigoni æquilateri cuius latus c, est omnes bases octoedri cuius latus c, & quadruplum trigoni æquilateri cuius latus b, est omnes bases pyramidis cuius latus b, & quia proportio 24 ad 16 est sesquialtera, sequitur ut superficies quam componunt omnes bases octoedri cuius latus c, ad superficiem quam componunt omnes bases pyramidis cuius latus b, sesquialtera (sicut diximus) in proportione respiciat.
 
 [Diagram: three horizontal lines of decreasing length labelled a, b, c]
+
+[Curated heading level=2 type=propositions: Propositio 15]
 
 ## Eucli. ex Camp. Propositio 15
 

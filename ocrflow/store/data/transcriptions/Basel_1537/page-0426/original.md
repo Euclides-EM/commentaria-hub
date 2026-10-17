@@ -6,6 +6,8 @@
 
 CORRELARIVM. Et inde est manifestum, quod perpendicularis quæ ex λ in β δ, unum circulum non tangit.
 
+[Curated heading level=2 type=propositions: Propositio 14]
+
 ## Eucli. ex Camp. Propositio 14
 
 [Curated heading level=3 type=campanus_sequence: 14.]

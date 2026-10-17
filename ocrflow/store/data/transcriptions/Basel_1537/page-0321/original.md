@@ -6,6 +6,8 @@ IDEM aliter. Sit linea d e rationalis, cui adiungatur superficies d f æqualis d
 
 [Diagram: line a c b above; rectangle with left side marked g and h, corners d and e at bottom, region f at right of the upper division]
 
+[Curated heading level=2 type=propositions: Theorema 57 Propositio 75]
+
 [Curated heading level=2 type=theorems: Theorema 57 Propositio 75]
 
 ## Eucli. ex Zamb. Theorema 57 Propositio 75
@@ -22,6 +24,8 @@ THEON ex Zamb. A media nanq̀; α β, media auferatur γ β potentia tantum toti
 
 [Diagram: line α γ β above; below, a rectangle divided by a vertical line into two, top corners δ, ζ, η, bottom corners ι, θ, ε]
 
+[Curated heading level=2 type=propositions: Propositio 71]
+
 ## Eucli. ex Camp. Propositio 71
 
 [Curated heading level=3 type=campanus_sequence: 71.]
@@ -35,6 +39,8 @@ THEON ex Zamb. A media nanq̀; α β, media auferatur γ β potentia tantum toti
 CAMPANVS. Si sint a b & b c quales proponitur, quæ per 27 reperiuntur & cōponunt lineam maiorem, erit linea a c irrationalis, & ipsa est quæ dicitur linea minor. Quod qui præmissa firmiter tenuerit, positionesq́; diligenter attenderit, duplici modo ut antecedentes facile probabit.
 
 [Diagram: line a c b]
+
+[Curated heading level=2 type=propositions: Theorema 58 Propositio 76]
 
 [Curated heading level=2 type=theorems: Theorema 58 Propositio 76]
 

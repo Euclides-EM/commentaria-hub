@@ -4,6 +4,8 @@
 
 ipsorum δ κ, κ λ, & λ ε. Et quoniam α η, η θ, & θ β, sibi inuicem sunt æquales, & δ κ, κ λ, & λ ε, quoque sibi inuicem sunt æquales, est igitur sicut α η, ad δ κ, sic est η θ, ad κ λ, & β θ, ad λ ε, erit igitur (per 12 quinti,) sicut unum antecedentium ad unum consequentium, sic omnia antecedentia ad omnia consequentia. Est igitur sicut α η, ad δ κ, sic est α β, ad δ ε, æqualis autem est α η, ipsi γ, ipsum autem δ κ, ipsi ζ, est igitur sicut γ, ad ζ, sic est α β, ad δ ε. Partes igitur eodem modo multiplicium, eaudem habent rationem sumptæ adinuicem, quod demonstraße oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 16]
+
 ## Eucli.ex Camp. Propositio 16
 
 [Curated heading level=3 type=campanus_sequence: 16.]
@@ -17,6 +19,8 @@ SI fuerint quatuor quãtitates proportiõales, permutatim quoq̃ proportionales 
 CAMPANVS. Sit proportio a ad b, sicut c ad d. Dico quod erit a ad c sicut b ad d. Et iste est modus arguendi, qui dicitur proportionalitas permutata, cuius demõstratio sic patet. Sumã e ad a, & f ad b, æque multiplices: itẽq̃ g ad c & h ad d, æque multiplices, eritq̃ per præmissam e ad f, sicut g ad h, quare per 14 si e addit super g, & f addit super h. & si minuit, minuit & si æquat, æquat: per diffinitionẽ igitur incõtinuæ proportiõalitatis erit a ad c, sicut b ad d. Quod est propositũ. Necesse est autem, ut in permutata proportionalitate sint omnes quatuor quantitates, eiusdem generis.
 
 [Diagram: six horizontal line segments with tick marks, labeled g, e, a with c, b with d, f with h]
+
+[Curated heading level=2 type=propositions: Theorema 16 Propositio 16]
 
 [Curated heading level=2 type=theorems: Theorema 16 Propositio 16]
 
@@ -33,6 +37,8 @@ Si quatuor magnitudines proportionales fuerint, & uicissim proportionales erunt.
 THEON ex Zamberto. Sint quatuor magnitudines proportionales α β γ δ, sicut α, ad β, sic γ, ad δ. Dico quod & uicissim proportionales erunt, sicut α, ad γ, sic β, ad δ. Sumantur quidem ipsarum α β, æqui multiplices ε ζ, & ipsarū γ δ. & aliæ quæuis, æque multiplices η θ, & quoniam æque multiplex est ε, ipsius α, & ζ, ipsius β, partes aūt eodem modo multipliciū eandẽ habent rationẽ sumptæ adinuicem (per præcedentem, est igitur sicut α ad β, sic ε ad ζ, Sicut autem α, ad β, sic & γ, ad δ, & sicut igitur γ, ad δ, sic ε, ad ζ, (per 11 quinti. Rursus quoniam η θ, ipsarum γ δ. æque sunt multiplices, partes autem eodem modo multiplicium eandem habent rationem sumptæ adinuicem (per 15 quinti,) est igitur sicut γ, ad δ, sic est η, ad θ. Sicut autem γ, ad δ, sic ε, ad ζ, & sicut igitur ε, ad ζ, sic η, ad θ, (per 11 quinti.) Si quatuor autem magnitudines proportionales fuerint, prima uero tertia maior sit, & secũda quarta maior erit, & si æqualis, æqualis: & si minor, minor: (per 14 quinti.) Si igitur excedit ε, ipsum η, excedit & ζ, ipsum θ: & si æquale, æquale: & si minus, minus: (per 6 diffinitionem quinti.) Sunt autem ε ζ, ipsarum α β, æque multiplices, & η θ, ipsarum γ δ: aliæ quæuis æque multiplices. Est igitur sicut α, ad γ, sic est β, ad δ. Si quatuor igitur magnitudines proportionales fuerint, & uicißim proportionales erunt, quod demonstraße oportuit.
 
 [Diagram: eight vertical bars of differing heights with tick marks, labeled below ε α β ζ η γ δ θ]
+
+[Curated heading level=2 type=propositions: Propositio 17]
 
 ## Eucli.ex Camp. Propositio 17
 

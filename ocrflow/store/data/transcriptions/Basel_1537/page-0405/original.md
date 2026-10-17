@@ -12,6 +12,8 @@ prismata existentia in ipsa α β γ η pyramide inuicem sunt æqualia, & quia b
 
 [Diagram: pyramid δ ε ζ θ as smaller triangle — δ at apex, ε, φ, ζ along the bottom; σ on the axis below δ, π on side δ ε, ρ on side δ ζ, θ in the centre with τ at left and υ at right]
 
+[Curated heading level=2 type=propositions: Propositio 5]
+
 ## Eucli. ex Camp. Propositio 5
 
 [Curated heading level=3 type=campanus_sequence: 5.]

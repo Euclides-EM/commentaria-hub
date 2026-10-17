@@ -6,6 +6,8 @@ datur secundum quantitatem a, & e secundum quantitatem b, quod partes utrobique 
 
 [Diagram: horizontal line segments d, e, a, b, f, c in the right upper corner of the text]
 
+[Curated heading level=2 type=propositions: Theorema 7 Propositio 7]
+
 [Curated heading level=2 type=theorems: Theorema 7 Propositio 7]
 
 ## Eucli. ex Zamb. Theorema 7 Propositio 7
@@ -21,6 +23,8 @@ Aequales, ad eandem, eandem habent rationem, & eadem, ad æquales
 THEON ex Zamb. Sint æquales magnitudines α β, alia autem utcunque magnitudo γ. Dico quod utraque ipsarum α β, ad ipsam γ, eandem habet rationem, & γ, ad utramque ipsarū α β. Sumantur (per 3 quinti,) ipsarum α β, æque multiplicia, sintq̃ δ ε, ipsius autem γ, alia utcūque multiplex, sitq̃ ζ. Quoniam igitur æque multiplex est δ, ipsius α, & ε, ipsius β, æqualis autē est α, ipsi β, æqualis igitur est (per primam cōmunem sententiam.) & δ, ipsi ε, Alia autem quæcūque ζ, multiplex ipsius γ. si excedit igitur δ, ipsum ζ, excedit &, ipsum ζ, & si æqualis, æqualis, & si minor, minor. Et sunt quidem δ ε, ipsarum α β, æque multiplices, ζ autem ipsius γ, alia quæcūque multiplex. Est igitur ut α, ad γ, sic β, ad γ, dico iam quod γ, ad utramq̃: ipsarum α β, eandē habet rationem. Eisdem namque dispositis, similiter ostēdemus quod æqualis quædam est δ, ipsi ε, alia autem quædam est ζ. Si igitur excedit ζ, ipsum δ, excedit quoque ipsum ε, & si æqualis, æqualis: & si minor, minor. At ζ, ipsius γ, multiplex est, & δ ε, ipsarum α β, aliæ quæuis sunt æque multiplicia. Est igitur ut γ, ad α, sic γ ad β. Aequales igitur ad eandem, eandem habent rationem, & eadem, ad æquales, quod fuerat demonstrandum.
 
 [Diagram: vertical line segments representing the magnitudes α, β, γ and their multiples δ, ε, ζ, in the right margin]
+
+[Curated heading level=2 type=propositions: Propositio 8]
 
 ## Eucli. ex Camp. Propositio 8
 

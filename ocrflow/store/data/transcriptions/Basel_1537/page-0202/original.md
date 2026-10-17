@@ -2,6 +2,8 @@
 
 <!-- Page number: 191 -->
 
+[Curated heading level=2 type=propositions: Propositio 29]
+
 ## Euclides ex Campano. Propositio 29
 
 [Curated heading level=3 type=campanus_sequence: 29.]
@@ -18,6 +20,8 @@ CAMPANVS. Sint a & b, contra se primi, dico q̃ ex eis compositus a b, ad utrunq
 
 CAMPANI annotatio. Eodem quoq̃ modo si coaceruatus ex duobus, primus fuerit ad alterū, primus quoq̃ erit ad reliquum: ideoq̃ & coaceruati inter se. Sit enim compositus ex a, b, primus ad a, dico quod erit etiam primus ad b, alioqui, numeret eos d, qui per conceptionē numerabit & a, cum numeret totum & detractum: hoc autem inconueniens, erat enim compositus ex a & b, primus ad a.
 
+[Curated heading level=2 type=propositions: Theorema 28 Propositio 30]
+
 [Curated heading level=2 type=theorems: Theorema 28 Propositio 30]
 
 ## Eucli. ex Zamb. Theorema 28 Propositio 30
@@ -33,6 +37,8 @@ Si bini numeri, primi adinuicem fuerint, & uterque simul ad alterum ipsorum prim
 THEON ex Zamb. Componantur enim bini numeri primi adinuicem, α β & β γ. Dico quod & uterque α β γ, simul ad alterum ipsorum α β, β γ, primus est. Si autem γ α & α β primi adinuicem non sunt, metietur eos aliquis numerus, metiatur, & esto δ. Quoniam igitur δ ipsos γ α & α β metitur, & reliquum igitur β γ metietur. Metitur autem & β α. Igitur δ ipsos α β & β γ metitur, primos existentes adinuicem, quod est impossibile (per 13 diffinitionem septimi:) ipsos igitur γ α & α β numeros, numerus aliquis non metietur. Igitur γ α & α β, primi adinuicem sunt. Id propterea iam & ipsi γ α & β γ, primi sunt adinuicem. Igitur α γ, ad utrunq̃ ipsorum α β & β γ primus est. Sint rursus γ α & α β, primi adinuicem. Dico quod ipsi α β & β γ primi adinuicem sunt. Si enim ipsi α β, β γ, primi non sunt adinuicem, metietur ipsos α β & β γ, numerus aliquis, metiatur, & esto δ, & quoniam δ utrunq̃ ipsorum α β & β γ metitur: & totum igitur γ α, metietur: metietur autem & ipsum α β. Igitur δ, ipsos γ α, α β primos adinuicem existentes metietur, quod (per 13 diffinitionem septimi) est impossibile. Ipsos igitur α β & β γ numeros, numerus aliquis non metietur. Ipsi igitur α β & β γ, primi adinuicem sunt. Quod oportuit demonstrasse.
 
 [Diagram: dotted number line with three point labels: α········β·····γ, and below it: δ····]
+
+[Curated heading level=2 type=propositions: Propositio 30]
 
 ## Eucli. ex Camp. Propositio 30
 
@@ -51,6 +57,8 @@ Zamb. 33
 CAMPANVS. Sit a quilibet numerus compositus. Dico quod aliquis primus numerat ipsum, quia enim est cōpositus, numerabitur ab aliquo numero qui sit b, qui si fuerit primus, uerum erit quod dicitur: si autem compositus, sit c qui numerat eum, qui etiam per communem scientiam numerabit a: si ergo ipse fuerit primus, constat quod dicitur. At si compositus, necessario numerabit eum alius qui sit d, qui etiam per communem scientiam numerabit a, de quo ratiocinare ut prius. Quia ergo quoties occurrit compositus necesse est minorem assumere, qui compositū occurrentem numeret, sequitur ut tandem deueniatur ad aliquem primum, alioquin accidet impossibile & contrarium petitioni, numerum in infinitum decrescere.
 
 [Diagram: dotted number lines beside the text: a························ / b············ / c······ / d···]
+
+[Curated heading level=2 type=propositions: Propositio 31]
 
 ## Eucli. ex Camp. Propositio 31
 

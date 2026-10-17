@@ -2,6 +2,8 @@
 
 <!-- Page number: 74 -->
 
+[Curated heading level=2 type=propositions: Propositio 12]
+
 ## Eucli. ex Camp. Propositio 12
 
 [Curated heading level=3 type=campanus_sequence: 12.]
@@ -17,6 +19,8 @@ CAMPANVS. Si enim fuerit possibile, ut circulus circulũ cõtingat in duobus loc
 In circulo uero contingẽte exterius in punctis c d, si ducamus lineam rectam a puncto c ad punctũ d, necesse est accidere contrarium secũdæ huius. Quare utrũque impossibile.
 
 [Diagram: three small figures in a row: a circle with crossing diameters and centre e; two circles touching internally at the top with a, b above and e, c, d within; two circles touching externally with c, e, d at the contact and f in the right-hand circle]
+
+[Curated heading level=2 type=propositions: Theorema 12. Propositio 13]
 
 [Curated heading level=2 type=theorems: Theorema 12. Propositio 13]
 
@@ -37,6 +41,8 @@ Dico etiam quod nec exterius. Si enim est possibile: circulus α γ κ, circulum
 [Diagram: a small circle resting on and touching a larger circle at the top; α, γ, β, ε, δ labelled about the point of contact and circumferences]
 
 [Diagram: a lens-shaped figure of two arcs with a horizontal line through it; β, α, ε, δ labelled at the extremities and within; κ below]
+
+[Curated heading level=2 type=propositions: Propositio 13]
 
 ## Eucli. ex Camp. Propositio 13
 

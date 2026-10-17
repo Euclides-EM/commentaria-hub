@@ -10,6 +10,8 @@ d b. Dico quod a b ipsi c d, aut est æqualis, uel altera altera dato maior est.
 
 Si autem maior fuerit b d ipsa a c dato a c æquum aūt quod ex b & eadem efficiētes demōstrabimus, quod c d ipsa a b dato maior est, hoc enim patuit in prima, uel altera, altera dato maior est.
 
+[Curated heading level=2 type=propositions: Theorema 13 Propositio 13]
+
 [Curated heading level=2 type=theorems: Theorema 13 Propositio 13]
 
 ## Theorema 13 Propositio 13
@@ -21,6 +23,8 @@ I fuerint tres magnitudines, & prima ad secundam rationē habuerit datam, secund
 ### Scholium.
 
 Si enim fuerit sicut totum ad totum, sic ablatum ad ablatum, & reliquū ad reliquū erit sicut totum ad totum, sicut patet per 19 quinti elemen. & in diffinitionibus, componitur enim dato quod maior sit quàm in ratione.
+
+[Curated heading level=2 type=propositions: Theorema 14 Propositio 14]
 
 [Curated heading level=2 type=theorems: Theorema 14 Propositio 14]
 
@@ -35,6 +39,8 @@ Binæ siquidem magnitudines a b, c d, adinuicē rationē habeant datam, & appona
 ### Scholium
 
 Si uero efficiemus sicut a b ad c d, sic a e, ad id quod ex c, sicut in 7 inuenietur f d ipsa e b. dato maior quàm in ratione.
+
+[Curated heading level=2 type=propositions: Theorema 15 Propositio 15]
 
 [Curated heading level=2 type=theorems: Theorema 15 Propositio 15]
 

@@ -8,6 +8,8 @@ CAMPANVS. Sit a punctus signatus extra circulum b c d, cuius cētrum e, à quo d
 
 [Diagram: circle with centre e; from the external point a at upper left issue the secant a b d through the circle to d at lower right, the applied line a c to c at the bottom, and the line a f, with b and f near the top of the circle and the line c e drawn]
 
+[Curated heading level=2 type=propositions: Theorema 31. Propositio 37.]
+
 [Curated heading level=2 type=theorems: Theorema 31. Propositio 37.]
 
 ## Eucli. ex Zamb. Theorema 31. Propositio 37. Conuersa præcedentis.

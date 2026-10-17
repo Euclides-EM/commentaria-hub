@@ -8,6 +8,8 @@ Itẽq̃ quia in triãgulo a h n, duo latera a h & h n sunt maiora a n per 20. p
 
 [Diagram: point a above a circle with centre n; lines from a through the circle; f, g, h, k, o, l along the near circumference, m between k and l outside, b at the bottom; c, d, e on the far side; radii from n to c, d, e, f, g, h]
 
+[Curated heading level=2 type=propositions: Theorema 7. Propositio 8.]
+
 [Curated heading level=2 type=theorems: Theorema 7. Propositio 8.]
 
 ## Eucli. ex Zamb. Theorema 7. Propositio 8.

@@ -6,6 +6,8 @@ e, & c d, signa. Insuper ponatur ei, qui sub e f & f g, æquus qui sub l n, n o,
 
 [Diagram: circle with an inscribed star of crossing lines; g at top, e and a at upper left and upper right, k and f within, d at right, b at lower right and b below]
 
+[Curated heading level=2 type=propositions: Theorema quadragesimum.]
+
 [Curated heading level=2 type=theorems: Theorema quadragesimum.]
 
 ## Theorema quadragesimum.
@@ -15,6 +17,8 @@ NOn sit autem maior quæ ab oculo in centrū annexa est ea quæ ex centro, sed m
 Esto circulus a b c d, extendanturq̃ bini dimetientes a b, c d, sese inuicē ad rectos angulos secantes, altera uero quæpiam extendatur n h, oculus uero sit e, à quo in centrum f, connexa esto e f, minor existens utraq̃ earum quæ ex centro, ad angulos uero rectos esto e f, ponaturq̃ circuli diametro æqualis l m, quæ per 10 primi element. secetur bifariam in n, exciteturq̃ per 11 ad angulos rectos ipsi l m, ipsa n x. Describaturq̃ circum l x m, segmentum circuli, sitq̃ l x m. Erit iam semicirculo, quoniā n x, minor est ea quæ ex centro, esto, inquam, l x m, cōnectanturq̃ ipsæ l x, x m, quoniā angulus qui ad x, comprehensus sub l x, x m, æquus est ei qui ad e, comprehenso sub c e d. Insuper ponatur ei qui sub e f, q̃ æqualis qui sub l n, l o, angulus, auferaturq̃ e, ipsi n o, æqualis, connectanturq̃ l o, m o. Describaturq̃ circa l o m, triangulum segmentum circuli l o m. Iam angulus qui ad o, signum comprehensus sub l o, n, rectis lineis æqualis erit ei qui ad e, comprehēsus sub h e n. Insuper ponatur ei qui sub a f, s e, æquus qui sub l p, n, auferaturq̃, ipsi f, æqualis connectanturq̃ q̃ p, m, describaturq̃ circum l p m, triangulum segmentum circuli, sitq̃ l p m. Erit iam angulus qui ad p, signum comprehensus sub l p, p m, æqualis ei qui ad e, angulo comprehenso sub a e b. Quoniam igitur angulus x, eo quod ad o, minor est, æqualis autem est angulus qui ad o, ei qui ad e, comprehenso sub h e n, & qui ad x, ei qui ad e, comprehenso sub c e d, minor igitur apparebit c d, ipsa n h. Rursus quoniam angulus qui ad e, comprehensus sub h e n, minor est eo qui comprehensus est sub l e b, minor igitur per suppositionem 5 specularie apparebit & n h, ipsa a b.
 
 [Diagram: at the left a fan of arcs and chords: p, o, s, t along the top, e at the right, l, n, m along the base line]
+
+[Curated heading level=2 type=propositions: Theorema quadragesimumprimum.]
 
 [Curated heading level=2 type=theorems: Theorema quadragesimumprimum.]
 

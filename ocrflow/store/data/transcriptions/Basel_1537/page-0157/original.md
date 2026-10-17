@@ -4,6 +4,8 @@
 
 neas e a & e d, eritque per 30 tertij, angulus e totalis: rectus, quare per primam partem correlarij præmissæ, proportio a b ad b e, sicut b e ad b d, quod est propositum.
 
+[Curated heading level=2 type=propositions: Propositio 10]
+
 ## Eucli. ex Camp. Propositio 10
 
 [Curated heading level=3 type=campanus_sequence: 10.]
@@ -20,6 +22,8 @@ CAMPANVS Sint duæ lineæ propositæ a b & c: quibus uolo tertiam in continua pr
 
 CAMPANI additio. Quod si propositis tribus lineis uelimus inuenire quartam, ad quam sit proportio tertiæ sicut prima ad secundã: ex prima & secunda fiat linea una & toti compositæ tertia angulariter adiungatur, & a communi termino primæ & secũdæ: ducatur linea ad extremitatem tertiæ. & ab altero termino secundæ ducatur huic lineæ æquidistans: quousque concurrat cum tertia in cõtinuum rectũque protracta: eritque per secundam huius, linea quã hæc æquidistans abscindet: quæ quæritur. quẽadmodum si in hac figura fuerit prima a b, secunda b e, tertia a d: erit quarta d f.
 
+[Curated heading level=2 type=propositions: Propositio 11.]
+
 ## Eucli. ex Camp. Propositio 11.
 
 [Curated heading level=3 type=campanus_sequence: 11.]
@@ -33,6 +37,8 @@ AB assignata linea, quotamcumque iubearis, partem abscindere.
 CAMPANVS Sit a b linea assignata, ab ea uolo aliquotam partem utpote tertiam abscindere, coniungo ei angulariter ut contingit lineam indefinitæ quantitatis: quæ sit a c, a qua reseco tres æquas portiones: quæ sunt a d, d e, & e c, & produco lineas c b & d f: sibi æquidistãtes, dico a f esse tertiam a b, est enim per secundam huius, proportio c d ad d a, sicut b f ad f a, quare cõiunctim, c a ad d a: sicut b a ad f a. Cum igitur c a sit tripla ad d a: patet a f esse tertiam a b, quod est propositum.
 
 [Diagram: triangle with apex a at top, b at bottom left, c at bottom right; f on side a b and d on side a c joined by a line parallel to the base, e on side a c below d]
+
+[Curated heading level=2 type=propositions: Propositio 12.]
 
 ## Eucli. ex Camp. Propositio 12.
 

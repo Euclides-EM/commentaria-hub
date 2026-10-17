@@ -4,6 +4,8 @@
 
 *Reliqua igitur β κ γ circunferentia (per 3 cõmunem sententiam) reliquæ ε λ ζ: circunferentiæ est æqualis. In æqualibus igitur circulis æquales anguli æqualibus circunferentijs insistunt: siue si ad circunferentias, siue si ad centra consistant, quod demonstrasse oportuit.*
 
+[Curated heading level=2 type=propositions: Propositio 26.]
+
 ## Eucli ex Camp. Propositio 26.
 
 [Curated heading level=3 type=campanus_sequence: 26.]
@@ -19,6 +21,8 @@ CAMPANVS. Sint ut prius duo circuli æquales: a b c cuius centrum d, & e f g cui
 [Diagram: circle with b at the top, centre d, a at lower left and c at lower right; the triangle a b c with lines from a and c to d]
 
 [Diagram: circle with f at the top, centre h, e at lower left and g at lower right, k at the bottom of the circumference; lines from e and g to h and f, and from h to k]
+
+[Curated heading level=2 type=propositions: Theorema. 24. Propositio. 27.]
 
 [Curated heading level=2 type=theorems: Theorema. 24. Propositio. 27.]
 
@@ -37,6 +41,8 @@ THEON ex Zamberto. *In æqualibus enim circulis α β γ, & δ ε ζ, super æqu
 [Diagram: circle with α at the top, centre η, β at lower left, γ at lower right and κ below; the angles β α γ and β η γ drawn as nested chevrons]
 
 [Diagram: circle with ε at upper left and ζ at upper right, centre θ, and δ at the bottom; the angles ε θ ζ and ε δ ζ drawn as nested chevrons opening upward]
+
+[Curated heading level=2 type=propositions: Propositio. 27.]
 
 ## Eucli. ex Camp. Propositio. 27.
 

@@ -4,6 +4,8 @@
 
 Subsequentes ex Campano propositiones 17 scilicet & 18 respondent 29 & 30 ex Zamberto infra suo loco & ordine dispositis.
 
+[Curated heading level=2 type=propositions: Propositio 17]
+
 ## Eucli.ex Camp. Propositio 17
 
 [Curated heading level=3 type=campanus_sequence: 17.]

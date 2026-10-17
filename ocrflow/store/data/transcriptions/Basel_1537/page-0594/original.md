@@ -6,6 +6,8 @@ tur per 1 tertij elementorũ. ipsius circuli centrũ d & cõnectãtur b d, d c. 
 
 [Diagram: a circle with apex a at top, points c and b at the base, centre d, with lines from a to c and b and from d to c and b]
 
+[Curated heading level=2 type=propositions: Theorema 91. Propositio 91.]
+
 [Curated heading level=2 type=theorems: Theorema 91. Propositio 91.]
 
 ## Theorema 91. Propositio 91.
@@ -15,6 +17,8 @@ SI à dato signo, positiõe datũ circulũ tãgẽs recta linea acta fuerit, dat
 A dato enim signo c positiõe datũ circulũ a b tãgẽs recta linea excitetur c a. Dico q̃ c a recta linea datur positiõe & magnitudine. Accipiatur enim p 1 tertij el. ipsius circuli cẽtrũ d, & cõnectatur d a. & q̃m datũ est utrũq̃ ipsorũ d c, data est igitur d c. estq̃ ãgulus d a c, datus igitur sup c d, descriptus semicirculus ueniet p a, ueniat sitq̃ d a c, positiõe igitur est d a c, positiõe aũt est a b circulꝰ. Igitur a datũ est. Sed & c datũ est. Data igitur est a c põne & magnitudine.
 
 [Diagram: a semicircle described over c d intersecting a smaller circle at a point; labels c, e, d, b]
+
+[Curated heading level=2 type=propositions: Theorema 92. Propositio 92.]
 
 [Curated heading level=2 type=theorems: Theorema 92. Propositio 92.]
 
@@ -29,6 +33,8 @@ Aliter.
 Assumatur per 1 tertij ele. ipsius circuli cẽtrũ e, & cõnectatur d e. extẽdatur in a & quoniã datũ est utrũq̃ ipsorũ e d. Data igitur est e d positiõe Datur autẽ & a b f circulus. datũ igitur est utrũq̃ ipsorũ a f, est aũt ipsum d datũ. Data igitur est utraque ipsarũ a f, f d. Datũ igitur est quod sub a d, d f & ei est æquũ quod sub b d, d c ei quod sub a d, d f. Datum igitur est quod sub b d, d c.
 
 [Diagram: a circle with labels b (top), a (left), c (interior right), and external point d below with lines drawn to the circle; below it a second circle with labels f, c, e, b, a and tangent and secant lines from d]
+
+[Curated heading level=2 type=propositions: Theorema 93. Propositio 93.]
 
 [Curated heading level=2 type=theorems: Theorema 93. Propositio 93.]
 

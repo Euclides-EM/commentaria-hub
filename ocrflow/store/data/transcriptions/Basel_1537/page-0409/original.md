@@ -8,6 +8,8 @@ quidem est triangulũ ε β γ, & uertex δ signum, ab eisdem enim planis cõpre
 
 CORRELARIVM. Ex hoc iam est manifestũ, quod omnis pyramis, tertia pars est prismatis eandem eidem basin habentis & altitudinem æquam. Quoniam & si aliam quampiam figuram rectilineam habuerit basis prismatis & eandem ex opposito diuiditur in prismata triangulares bases habentia, & ea quæ ex opposito.
 
+[Curated heading level=2 type=propositions: Propositio 7]
+
 ## Eucli. ex Camp. Propositio 7
 
 [Curated heading level=3 type=campanus_sequence: 7.]
@@ -21,6 +23,8 @@ CORRELARIVM. Ex hoc iam est manifestũ, quod omnis pyramis, tertia pars est pris
 CAMPANVS. Quod 34 & 35 undecimi proposuerũt de solidis parallelogrammis, & nos in 36 eiusdem demonstrauimus de seratilibus, hæc 7 duodecimi proponit de pyramidibus habentibus bases triangulas. Intelligantur enim duæ pyramides æquales super duos trigonos uel triangulos a & b, quæ dicantur a & b. Dico itaq̃ q̃ proportio basis a ad basin b, est sicut proportio altitudinis pyramidis b ad altitudinẽ pyramidis a. Et si hoc fuerit, dico pyramides a & b esse æquales. Adhibeantur quidem duobus trigonis a & b, duo alij qui sunt c & d ut fiant ambæ superficies a c & b d æquidistantiũ laterũ, & ex ipsis pyramidibus super bases a c & b d, cõpleantur solida parallelogrãma pyramidibus propositis æque alta quæ similiter dicãtur a c & b d. Manifestũ igitur est ex sexta huius 12, q̃ pyramis a est sexta pars solidi a c, & pyramis b sexta solidi b d. Itaq̃ ex 35 undecimi argue propositũ, primam quidem partem ex prima, secũdam autem ex secunda.
 
 [Diagram: square divided by a diagonal into two triangles, c above and a below; beside it a rhomboid divided by a diagonal into two triangles, b on the left and d on the right]
+
+[Curated heading level=2 type=campanus_sequence: CAMPANI additio.]
 
 ## CAMPANI additio.
 

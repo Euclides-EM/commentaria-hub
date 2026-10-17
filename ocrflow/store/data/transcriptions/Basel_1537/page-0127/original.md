@@ -4,6 +4,8 @@
 
 tiplex. α ε, ipsius γ ζ, & α β, ipsius γ δ, æque igitur multiplex est ε β, ipsius ζ δ, & ipsius γ δ. Et reliqua igitur ε β, reliquæ ζ δ, æque multiplex erit: quotuplex est tota α β, totius γ δ. Si magnitudo igitur magnitudinis æque fuerit multiplex & ablata ablatæ, quotuplex erit tota totius. Quod demonstrasse oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 6]
+
 ## Eucli. ex Camp. Propositio 6
 
 [Curated heading level=3 type=campanus_sequence: 6.]
@@ -22,6 +24,8 @@ Si autē a g sit multiplex c, ponam ut e k sit æque multiplex f, eritque ut pri
 
 [Diagram: horizontal line segments a, g, b, d and b, e, k with divided segments below, in the text column]
 
+[Curated heading level=2 type=propositions: Theorema 6 Propositio 6]
+
 [Curated heading level=2 type=theorems: Theorema 6 Propositio 6]
 
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
@@ -37,6 +41,8 @@ Si duæ magnitudines duarum magnitudinum æque fuerint multiplices, & ablatæ al
 THEON ex Zamb. Duæ enim magnitudines α β, γ δ, duarum magnitudinū ε ζ, æque multiplices, & ablatæ aliquæ α η, γ θ, earundem ε ζ, æque sint etiam multiplices. Dico quod & reliquæ η β, & θ δ, eisdem ε ζ, aut sunt æquales, aut earum æque multiplices. Sit enim primum, η β, ipsi ε, æquale. Dico quod & θ δ, ipsi ζ, est æquale. Ponatur enim ipsi ζ, æqualis γ κ. Et quoniam æque multiplex est α η, ipsius ε, & γ θ, ipsius ζ, æqualis autem est η β, ipsi ε, & κ γ, ipsi ζ, æque igitur est multiplex α β, ipsius ε, & κ θ, ipsius ζ. Aeque autem ponitur & multiplex α β, ipsius ε, & γ δ, ipsius ζ. Quoniam igitur utraque ipsarū κ θ, & γ δ, ipsius ζ, æque est multiplex, æqualis igitur (per 1 cōmunem sententiā) est κ θ, ipsi γ δ. Cōmunis auferatur γ θ, reliqua igitur κ γ, reliquæ θ δ, est æqualis. Sed ζ, ipsi κ γ, est æqualis. Quare & θ δ, ipsi ζ, erit æqualis. Similiter quoq̃ ostendemus quod si multiplex fuerit η β, ipsius ε, tam multiplex erit & θ δ, ipsius ζ. Si duæ igitur magnitudines duarū magnitudinum æque fuerint multiplices, & ablatæ aliquæ earūdē æque fuerint multiplices, & reliquæ eisdē aut æquales, aut earū æque multiplices erunt. Quod demūstrare oportebat.
 
 [Diagram: vertical line segments representing the magnitudes α β, γ δ with points η, θ, κ and the magnitudes ε, ζ, in the right margin]
+
+[Curated heading level=2 type=propositions: Propositio 7]
 
 ## Eucli. ex Camp. Propositio 7
 

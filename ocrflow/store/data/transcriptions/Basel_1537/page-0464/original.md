@@ -6,6 +6,8 @@ tione lineæ secundum proportionem medium duoqꝫ extrema diuisæ & ea parte 16 
 
 [Diagram: two horizontal lines: the upper marked with the points a, c, b, g; the lower with the points d, f, e, h]
 
+[Curated heading level=2 type=propositions: Propositio 3]
+
 ## Eucl.ex Camp. Propositio 3
 
 [Curated heading level=3 type=campanus_sequence: 3.]

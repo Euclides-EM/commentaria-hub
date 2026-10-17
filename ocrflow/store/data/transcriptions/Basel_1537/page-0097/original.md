@@ -14,6 +14,8 @@ CAMPANVS. Sint ut prius: assignatus triangulus a b c: assignatusq́; circulus d 
 
 [Diagram: circle with centre g inscribed in triangle h k l, radii g d, g e, g f drawn to the points of tangency d, e, f; at the lower left the assigned triangle a b c with base b c produced on both sides]
 
+[Curated heading level=2 type=propositions: Problema 3. Propositio 3]
+
 [Curated heading level=2 type=problems: Problema 3. Propositio 3]
 
 ## Eucli ex Zamb. Problema 3. Propositio 3
@@ -29,6 +31,8 @@ Circa datū circulū, dato triangulo æquiangulū triangulum describere
 THEON ex Zamberto. *Sit datus circulus α β γ, datum autem triangulum sit δ ε ζ, oportet circa α β γ, circulum, ipsi δ ε ζ, triangulo æquiangulum triāgulū describere. Extēdatur δ ε, ex utraq; parte, in η θ, signa. Et sumatur (per 1 tertij) centrū circuli α β γ, sitq́; illud κ. Et ducatur utcūq;: recta linea κ β. Et constituatur (per 23 primi,) ad κ β, rectam lineam & ad signum quod in ea κ, angulo qui est sub δ ε η, æqualis angulus β κ α, angulo autem δ ε θ, æqualis angulus β κ γ. Et per signa α β γ, (per 17 tertij,) Excitentur rectæ lineæ tangentes circulū α β γ; λ α μ, μ β ν, ν γ λ. Et quoniā rectæ lineæ λ μ, μ ν, ν λ, tangunt circulum α β γ, in signis α β γ, à centro autē κ, ad signa α β γ, signa coniunctæ sunt κ α, κ β, κ γ, anguli igitur qui sunt ad signa α β γ, recti sunt. Et quoniam quadrilateri α μ β κ, quatuor anguli quatuor rectis sunt æquales quoniā quadrilaterū α μ β κ, in duo triangula diuiditur quorū anguli κ α μ & κ β μ, duo recti sunt: reliqui igitur anguli α κ β & α μ β, duobus rectis sunt æquales. Anguli autem δ ε η & δ ε ζ, (per 13 primi,) duobus rectis sunt æquales. Anguli igitur α κ β & α μ β, æquales sunt angulis δ ε η & δ ε ζ, quorum angulus α κ β, angulo δ ε η, est æqualis: reliquus igitur α μ β, reliquo angulo δ ε ζ, est æqualis. Similiter quoque ostendetur, quod & angulus λ ν μ, angulo δ ζ ε, est æqualis, & reliquus igitur angulus μ λ ν, reliquo angulo ε δ ζ, est æqualis: æquiangulum igitur est triangulum λ μ ν, ipsi δ ε ζ, triangulo: & descriptum circa circulum α β γ. Circa circulum igitur datum: dato triangulo æquiangulum triangulum descriptum est, quod facere oportebat.*
 
 [Diagram: triangle λ μ ν circumscribed about circle α β γ with centre κ, radii κ α, κ β, κ γ drawn to the tangent points; beside it the given triangle δ ε ζ with base δ ε produced to η and θ]
+
+[Curated heading level=2 type=propositions: Propositio 4]
 
 ## Eucli. ex Camp. Propositio 4
 

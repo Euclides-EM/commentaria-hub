@@ -4,6 +4,8 @@
 
 angulus qui sub g h l. Connectãturq̃ ipse f l, l g exciteturq̃ per 12 primi ele. perpendicularis l m. Et q̃m angulus b a d angulo l h g est æqualis, & qui sub h l g ei qui sub a b c, & reliquus igitur qui sub b c a reliquo qui sub h g l, est æqualis. Simile igitur est triangulũ b c a ipsi h l g triãgulo & perpẽdiculares ductæ sunt b d, l m, est igitur sicut a c ad b d, sic h g ad l m, per 76 propositionẽ. Erat autẽ sicut a c ad b d sic h g ad f k, supponitur enim. Et sicut igitur per 11 quinti ele. h g ad m l. Sic h g ad f k, æqualis igitur est f k ipsi l m, est autem & parallelus & f l ipsi h g, est æqualis & parallelus. Aequalis igitur est angulus f l h ipsi l h g angulo. Sed qui sub l h g ipsi b a c est æqualis, qui uero sub f l h ipsi f g h est æqualis. Et qui sub b a c igitur ei qui sub f g h est æqualis, est autem & qui sub a b c ei qui sub f h g. æqualis. Reliquus igitur qui sub b c a, reliquo qui sub f h g est æqualis. æquiangulum igitur est a b c triãgulum ipsi f h g triangulo.
 
+[Curated heading level=2 type=propositions: Theorema 80. Propositio 80.]
+
 [Curated heading level=2 type=theorems: Theorema 80. Propositio 80.]
 
 ## Theorema 80. Propositio 80.

@@ -6,6 +6,8 @@ ad a b, sicut a b ad b c. Cūq̃ sit ex 7 quinti a b ad b c, sicut ad b d, erit 
 
 [Diagram: horizontal line with points a, d, c, b]
 
+[Curated heading level=2 type=propositions: Propositio 5]
+
 ## Eucli. ex Camp. Propositio 5
 
 [Curated heading level=3 type=campanus_sequence: 5.]
@@ -23,6 +25,8 @@ SI secundum proportionem habentem medium & duo extrema quælibet linea fuerit di
 CAMPANVS. Sit linea a b, diuisa per sæpe dictam proportionē in puncto c, sitq̃ maior portio eius linea c b. Dico quod quadrata duarū linearū a b & c a pariter accepta, triplum sunt ad quadratum lineæ c b. Hæc enim duo quadrata pariter accepta, sunt ex 7 secundi quātū quadratum c b, & duplū eius quod fit ex a b in a c. Itēq̃ quia quod fit ex a b in a c est æquale quadrato c b ex diffinitiōe & prima parte 16 sexti manifestum est propositum.
 
 [Diagram: horizontal line with points a, c, b]
+
+[Curated heading level=2 type=propositions: Theorema 4 Propositio 4]
 
 [Curated heading level=2 type=theorems: Theorema 4 Propositio 4]
 
@@ -43,6 +47,8 @@ Si recta linea extrema mediaq̃ rōne secetur, quod ex tota & q̃ ex minori segm
 THEON ex Zamb. *Sit recta linea α β, seceturq̃ extrema & media ratione in γ, sitq̃ maius segmentū α γ. Dico quod quæ ex α β, β γ, tripla sunt eius quod ex ipsa α γ. Describatur (per 46 primi) ab ipsa α β quadratū α δ ε β, & describatur figura. Quoniā igitur α β extrema & media rōne secta est in γ, & maius segmentū est α γ, quod igitur sub α β, β γ, æquū est ei quod ex α γ, estq̃ id quod sub α β, β γ, id quod α κ, quod autem ex α γ, id quod θ η, æquum igitur est α κ ipsi θ η. Sed α ζ, ipsi ζ ε, æquū est, apponatur cōmune γ κ, totū igitur α κ, toti γ ε est æquale. Igitur γ ε, α κ, ipsius α κ dupla sunt. Sed α κ, γ ε, sunt id quod λ μ ν gnomon, & γ κ quadratum. Igitur λ μ ν gnomon & γ κ quadratum, dupla sunt ipsius α κ. Sed quod α κ, ipsi θ η sit æquale ostēsum est. Igitur λ μ ν gnomon & γ κ quadratum dupla sunt ipsius θ η, quare λ μ ν gnomon & γ κ, θ η, quadrata, tripla sunt ipsius θ η, quadrati. Et λ μ ν gnomō & γ κ, θ η, quadrata, sunt totū α ε, & γ κ, quæ sunt ex α β, β γ, quadrata & η θ ipsum quod ex α γ, quadratum, quæ igitur ex α β, β γ, quadrata, tripla sunt eius quod ex α γ quadrati. Quod ostendere oportuit.*
 
 [Diagram: square α δ ε β on the line α β, with γ on the top side; vertical and horizontal dividing lines, a diagonal, and a circular arc about the centre; internal labels include δ, ζ, θ, κ, ν, ε]
+
+[Curated heading level=2 type=propositions: Theorema 5 Propositio 5.]
 
 [Curated heading level=2 type=theorems: Theorema 5 Propositio 5.]
 

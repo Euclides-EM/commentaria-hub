@@ -12,6 +12,8 @@ Omnium duarũ columnarũ lateratarũ similium est proportio alterius ad alteram,
 
 Si columnæ fuerint similes, erunt ex diffinitione similium corporũ, bases earũ cæteræq̃ superficies eas ambientes similes. Diuidantur itaq̃ bases earũ in triãgulos similes & numero æquales, quemadmodũ 18 sexti proponit esse possibile, & ipsæ colũnæ diuidantur in seratilia super hos triãgulos existentia. Stude igitur probare seratilia unius, suis relatiuis seratilibus alterius esse similia, quod facile probabis ex hypothesi & 6 & 4 & 5 sexti, & ex diffinitione similium superficierũ & diffinitione similium corporũ. Hoc autem probato, erit ex 36 undecimi proportio uniuscuiusq̃ seratilis unius ad suum relatiuũ seratile alterius, sicut sui lateris ad latus illius proportio triplicata. Et quia omniũ laterũ est proportio una, cum cuncta seratilia unius sint similia suis relatiuis seratilibus alterius, sequitur ex 11 quinti ut cunctorũ seratiliũ unius ad sua relatiua seratilia alterius sit proportio una. Quare per 13 quinti quæ est proportio unius seratilis ad suũ seratile relatiuũ alterius, eadẽ est omniũ pariter acceptorũ ad omnia pariter accepta. Et quia utrobiq̃ omnia seratilia pariter accepta cõponunt columnas, & relatiua latera seratilium sunt relatiua latera columnarũ, necesse est ex 11 quinti ut proportio columnarũ sit sicut suorũ relatiuorũ laterum proportio triplicata. Quod est propositũ.
 
+[Curated heading level=2 type=propositions: Theorema 8 Propositio 8]
+
 [Curated heading level=2 type=theorems: Theorema 8 Propositio 8]
 
 ## Eucli. ex Zamb. Theorema 8 Propositio 8

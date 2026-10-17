@@ -6,6 +6,8 @@ perpendicularem super lineam b c, quam pono æqualem a b, & produco lineam d c, 
 
 [Diagram: triangle with apex c and base a d; b on the base between a and d; lines c a, c b, c d drawn]
 
+[Curated heading level=2 type=propositions: Theorema 34. Propositio 48.]
+
 [Curated heading level=2 type=theorems: Theorema 34. Propositio 48.]
 
 ## Eucli. ex Zamb. Theorema 34. Propositio 48.
@@ -21,6 +23,8 @@ Si trianguli quod ab uno laterum quadratum, æquale fuerit eis quæ ex reliquis 
 THEON ex Zamb. Trianguli namq̃ α β γ, quod ex uno latere β γ quadratum, æquum sit eis quæ ex β α, α γ lateribus, quadratis. Dico quod angulus β α γ, rectus est. Excitetur enim (per 11 propositionem) ab α signo, ipsi α γ rectæ lineæ ad angulos rectos α δ. Et (per 3 propositionem) ponatur ipsi α β, æqualis α δ, & (per 1 postulatum) connectatur δ γ. Et quoniam æqualis est α δ ipsi α β, quadratum quod ex α δ, æquum est quadrato quod ex α β. Commune apponatur quadratum quod ex α γ, quadrata igitur quæ ex α δ & α γ, æqualia sunt eis quæ ex β α & α γ quadratis. At (per præcedentem) quadratis quæ ex δ α & α γ, æquum est quadratum quod ex δ γ. Rectus enim est angulus δ α γ. Quadratis autem ex α β & α γ (per hypothesin) æquum est quadratum quod ex β γ, nam id receptum est. Quadratum igitur quod ex δ γ, æquum est quadrato quod ex β γ. Quare latus δ γ, lateri β γ est æquale: & quoniam α δ, ipsi α β est æquale, communis autem α γ, duæ igitur δ α & α γ, duabus β α & α γ sunt æquales, & basis δ γ, basi β γ æqualis. Angulus igitur δ α γ, angulo β α γ (per 8 propositionem) est æqualis. At angulus δ α γ, rectus est: rectus igitur est & angulus β α γ. Si trianguli ergo quod ab uno laterum quadratum, æquum fuerit eis quæ à reliquis trianguli duobus lateribus, quadratis, angulus comprehensus sub reliquis duobus trianguli lateribus, rectus erit. Quod erat ostendendum.
 
 [Diagram: triangle α β γ with the right angle at α; δ above α, lines α δ and δ γ drawn]
+
+[Curated heading level=2 type=campanus_sequence: CAMPANI additio.]
 
 ## CAMPANI additio.
 

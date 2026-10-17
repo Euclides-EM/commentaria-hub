@@ -4,6 +4,8 @@
 
 at angulus α γ δ, rectus est, æqualis igitur est angulus ζ γ δ, ei qui sub α γ δ, minor maiori, quod est impossibile. Igitur ζ, centrum circuli α β γ, non est. Similiter quoque ostendemus, quod nec alibi præter quàm in α γ. Si circulum igitur aliqua recta linea tetigerit, à contactu autem ipsi tangenti ad angulos rectos recta linea excitetur, in excitata erit centrum circuli quod demonstrasse oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 19.]
+
 ## Eucli.ex Camp. Propositio 19.
 
 [Curated heading level=3 type=campanus_sequence: 19.]
@@ -20,6 +22,8 @@ CAMPANVS Sit ut in circulo a b c, cuius cētrum d, fiat angulus a d c, supra cē
 
 Quod si altera duarum linearum a b & b c, fuerit linea una cum altera duarum quæ sunt a d & d c, ut in secunda figuratione apparet, per easdem per quas prius & simili modo liquet propositum. Quod si altera duarum linearum primarum secet alterā duarum postremarum, ut in tertia figuratione apparet ubi linea a b secat lineam d c, producatur linea b d e. Erit per easdem quas à principio assumpsimus & simili modo angulus e d a, duplus ad angulum d b a, & totus angulus e d c, duplus ad totū angulum d b c, quare angulus a d c, duplus est ad angulum a b c. Quod est propositum.
 
+[Curated heading level=2 type=propositions: Theorema 18. Propositio 20.]
+
 [Curated heading level=2 type=theorems: Theorema 18. Propositio 20.]
 
 ## Eucli ex Zamb. Theorema 18. Propositio 20.
@@ -35,6 +39,8 @@ In circulo angulus qui ad centrum, duplus est eius qui ad circunferentiam, quand
 THEON ex Zamb. Sit circulus α β γ, & eius centrum, sit angulus β ε γ, ad centrum, ad circunferentiam uero, angulus β α γ, habeant autem eandem basin, circunferentiam β γ. Dico quod duplus est angulus β ε γ, anguli β α γ, ducta enim α ε, (per secundum postulatum) extendatur in ζ. Quoniam igitur æqualis est α ε, ipsi ε β, ex centro enim in circunferentiam: æqualis est angulus: ε α β, ei qui sub ε β α. Anguli igitur ε α β, & ε β α, (per 5 primi,) eius qui sub ε α β, dupli sunt, æqualis autem est qui sub β ε ζ, (per 32 eiusdem) eis qui sub ε α β & ε β α. Angulus igitur β ε ζ, ipsius ε α β, duplus est. Et perinde angulus qui sub ζ ε γ, (per eandem) duplus est eius qui sub ε α γ. Totus igitur β ε γ, totius qui sub β α γ, est anguli, duplus. Rursus constituatur, & sit alter angulus β δ γ, & ducatur (per 1 postulatum) δ ε, extendaturque (per 2 postulatum) in η. Similiter quoque ostendemus quod duplus est η ε γ, angulus eius qui sub η δ γ, est anguli. Quorum qui sub η ε β, duplus est eius qui sub η δ β. Reliquus igitur qui sub β ε γ, eius qui est sub β δ γ, duplus est. In circulo igitur angulus qui ad centrum, duplus est eius qui ad circunferentiam, quando eandem circunferentiam basin habuerint anguli, quod oportuit demonstrasse.
 
 [Diagram: circle with δ at the top, α at the left, ε near the centre, β and γ at the foot; the chords and the lines drawn through ε produced to ζ and η form a star-shaped figure]
+
+[Curated heading level=2 type=propositions: Propositio 20.]
 
 ## Eucli.ex Camp. Propositio 20.
 

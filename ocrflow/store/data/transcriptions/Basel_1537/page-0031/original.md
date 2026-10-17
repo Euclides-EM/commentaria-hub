@@ -8,6 +8,8 @@ THEON ex Zamberto. Sint bina triangula α β γ, δ ε ζ, duo latera, hoc est �
 
 [Diagram: two triangles side by side, triangle α β γ, and triangle δ ε ζ with the additional point η and lines δ η, η ε, ζ η drawn]
 
+[Curated heading level=2 type=propositions: Propositio 25.]
+
 ## Eucli. ex Camp. Propositio 25.
 
 [Curated heading level=3 type=campanus_sequence: 25.]
@@ -21,6 +23,8 @@ OMnium duorum triangulorū quorum duo latera unius duobus lateribus alterius fue
 CAMPANVS. Sint duo triāguli a b c, d e f: sintq̃ duo latera a b & a c primi, æqualia duobus lateribus d e & d f secundi, unūquodq̃ suo correlatiuo: sitq̃ basis b c, maior basi e f: dico q̃d angulus a, maior erit angulo d. Hæc est cōuersa præcedentis. Æqualis quidem non erit. Sic enim esset per 4 basis, b c æqualis basi e f: quod est cōtra hypothesin. Sed nec minor, q̃a sic esset d maior: & ita per præcedentē basis e f, erit maior basi b c, q̃d est contrariū positioni, quare maior erit. Sicq̃ propositū astruitur.
 
 [Diagram: two triangles side by side, triangle a b c and triangle d e f]
+
+[Curated heading level=2 type=propositions: Theorema 16. Propositio 25.]
 
 [Curated heading level=2 type=theorems: Theorema 16. Propositio 25.]
 
@@ -37,6 +41,8 @@ Si duo triangula duo latera duobus lateribus alterū alteri æqualia habuerint, 
 THEON ex Zamb. Sint duo triangula α β γ, δ ε ζ, duo latera hoc est α β & α γ, duobus lateribus, hoc est δ ε & δ ζ æqualia habentia alterum alteri, α β, scilicet, ipsi δ ε, & α γ ipsi δ ζ: basis autem β γ, basi ε ζ maior esto: dico quod angulus β α γ, maior est angulo ε δ ζ. Si autem non, aut ei est æqualis, aut eo minor. Æqualis autem nō est angulus β α γ, angulo ε δ ζ: si enim æqualis esset, basis quoq̃ β γ (per 4 propositiōe) basi ε ζ æqualis esset: at non est: angulus igitur β α γ, angulo ε δ ζ æqualis minime est. Neq̃ etiam minor est angulus β α γ, eo qui sub ε δ ζ: nam basis β γ, basi ε ζ minor esset: at non est, minor igitur non est angulus β α γ, eo qui sub ε δ ζ: ostensum autem est quod neq̃ æqualis: maior igitur est angulus β α γ, angulo ε δ ζ. Si bina igitur triangula, duo latera duobus lateribus, & quæ sequuntur reliqua, ut theoremate. Quod ostendere oportuit.
 
 [Diagram: two triangles side by side, triangle α β γ and triangle δ ε ζ]
+
+[Curated heading level=2 type=propositions: Propositio 26.]
 
 ## Eucli. ex Camp. Propositio 26.
 

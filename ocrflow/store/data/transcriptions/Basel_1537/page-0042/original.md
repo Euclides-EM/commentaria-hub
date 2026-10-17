@@ -2,6 +2,8 @@
 
 <!-- Page number: 33 -->
 
+[Curated heading level=2 type=propositions: Theorema 29. Propositio 39.]
+
 [Curated heading level=2 type=theorems: Theorema 29. Propositio 39.]
 
 ## Eucli. ex Zamb. Theorema 29. Propositio 39.
@@ -18,6 +20,8 @@ THEON ex Zamb. Sint bina triangula α β γ & δ γ β, constituta in eadem basi
 
 [Diagram: base β γ with points α and δ above, triangles α β γ and δ β γ, line α ε drawn and connecting lines crossing]
 
+[Curated heading level=2 type=propositions: Propositio 40.]
+
 ## Eucli. ex Camp. Propositio 40.
 
 [Curated heading level=3 type=campanus_sequence: 40.]
@@ -31,6 +35,8 @@ THEON ex Zamb. Sint bina triangula α β γ & δ γ β, constituta in eadem basi
 CAMPANVS. Sint duo trianguli a b c, d e f æquales, constituti super duas bases quæ sunt b c & e f, & ex eadem parte: dico eos esse inter duas lineas æquidistantes, & hæc est cōuersa 38. Et pbatur per ipsam, sicut præcedens per 37. A puncto a, ducatur linea æquidistās lineæ b c, quæ si transierit per punctum d, patet propositū: sin autem, pertranseat supra ut a g, & producatur e d usq̃ ad ipsum g, ut sit e g, & ducatur linea g f. Erit per 38 triāgulus a b c, æqualis triangulo g e f, quare & triangulus d e f erit æqualis triangulo g e f, pars toti, quod est impossibile: non ergo transibit supra. Transeat ergo infra, secetq̃ lineam d e in puncto h, & ducatur linea f h, erit per 38 triāgulus h e f æqualis triangulo a b c, quare & triāgulo d e f, pars toti, quod est impossibile. Quia ergo non transibit nisi per punctum d, patet p̃positū.
 
 [Diagram: bases b c and e f on one line, triangles a b c and d e f above, with points g above d and h on line d e, lines g f and f h drawn]
+
+[Curated heading level=2 type=propositions: Theorema 30. Propositio 40.]
 
 [Curated heading level=2 type=theorems: Theorema 30. Propositio 40.]
 
@@ -47,6 +53,8 @@ Triangula æqualia in æqualibus basibus & ad easdem partes constituta, in eisde
 THEON ex Zamb. Sint triangula æqualia α β γ & γ δ ε, in æqualibus basibus constituta, hoc est β γ & γ ε. Dico quod in eisdem sunt parallelis. Connectatur (per 1 postulatū) α δ. Dico quod α δ ipsi β ε est parallelus. Si autem non, excitetur (per 31 propositionē) per α, ipsi β ε parallelus α ζ, & connectatur ζ ε. Triangulum igitur α β γ, triangulo ζ γ ε est æquale: (per 38) in æqualibus enim sunt basibus constituta β γ & γ ε, & in eisdem parallelis β ε & α ζ, sed triangulū α β γ, triangulo γ δ ε est æquale. Triangulū igitur δ γ ε, æquū est triāgulo ζ γ ε, maius minori, quod est impossibile: parallelus igitur minime est α ζ ipsi β ε. Similiterq̃ ostendemus quod nulla præter α δ. Parallelus igitur est α δ ipsi β ε. Quod ostendere oportebat.
 
 [Diagram: bases β γ and γ ε on one line, triangles α β γ and γ δ ε above with point ζ and connecting lines]
+
+[Curated heading level=2 type=propositions: Propositio 41.]
 
 ## Eucli. ex Camp. Propositio 41.
 

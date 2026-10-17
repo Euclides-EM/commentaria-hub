@@ -4,6 +4,8 @@
 
 ε γ, angulo:anguli igitur α β γ & δ ε γ,duobus rectis sunt minores . Igitur β α & ε δ, productæ,in congressum ueniunt . Congrediantur conueniantqꝫ in ζ:& quoniam per hypothesin angulus δ γ ε angulo α β γ est æqualis:parallelus est ( per 28 primi ) β ζ ipsi γ δ.Rursus quoniam per hypothesin,angulus α γ β æqualis est angulo δ ε γ: parallelus est (per 28 primi) α γ ipsi ζ ε. Parallelogrammum igitur est,ζ α δ γ.Aequalis igitur est ζ α,ipsi δ γ, & α γ ipsi ζ δ.Et quoniam (per 2 sexti) trianguli β ζ ε ad latus unum ζ ε parallelus acta est α γ : est igitur sicut β α ad α ζ, sic β γ ad γ ε.Aequalis autem est α ζ ipsi γ δ.Sicut igitur (per 11 quinti,β α ad γ δ,sic β γ ad γ ε : & uicißim ( per 16 quinti)sicut α β ad β γ,sic δ γ ad γ ε.Rursus quoniam parallelus est γ δ ipsi β ζ:est igitur(per 2 sexti)sicut β γ ad γ ε, sic ζ δ ad δ ε.Aequalis autem est ζ δ ipsi α γ.Sicut igitur β γ ad γ ε, sic α γ ad δ ε:uicißim igitur (per 16 quinti) sicut β γ ad γ α,sic γ ε ad ε δ.Quoniam igitur demonstratum est quod sicut α β ad β γ,sic δ γ ad γ ε:sicut autem β γ ad γ α, sic γ ε ad ε δ:ex æquali igitur (per 22 quinti)sicut β α ad α γ,sic γ δ ad δ ε. Proinde æquiangulorum triangulorū proportionalia sunt:quæ circū æquales angulos sunt latera:eiusdemqꝫ rationis:quæ æqualibus angulis latera subtenduntur,quod fuit demonstrandum.
 
+[Curated heading level=2 type=propositions: Propositio 5.]
+
 ## Eucli.ex Camp. Propositio 5.
 
 [Curated heading level=3 type=campanus_sequence: 5.]
@@ -17,6 +19,8 @@
 CAMPANVS. Hæc est conuersa prioris. Nec fecit ex ea & præmissa unam conclusionem,sicut fecit in secunda & tertia huius:quia nec eadem figuratione nec eisdem medijs demonstratur quibus præcedēs. Sint itaqꝫ duo triāguli a b c,d e f, sitqꝫ proportio a b ad d e,& a c,ad d f,sicut b c ad e f,dico quod angulus a.est æqualis angulo d, & angulus b,angulo e.& angulus c,angulo f. Constituā super lineā e f,in opposita parte triāguli d e f,angulum f e g,æqualem angulo b,& angulum e f g, æqualē angulo c,eritque per 32 primi,angulus g,æqualis angulo a:ergo per præmissam,proportio a b ad e g,& a c ad f g sicut b c ad e f,quare a b ad d e. sicut ad e g. & a c ad d f. sicut ad f g,igitur per secundam partem 9 quinti. d e,est æqualis e g,& per eandem d f,æqualis f g,quare per 8 primi,duo trianguli d e f,& g e f.sunt æquianguli,quia ergo triāgulus g e f. est est etiā æquiangulus triangulo a b c,constat propositum.
 
 [Diagram: two figures: a triangle with apex a and base b c; and two triangles sharing a horizontal side e f, with d at the top and g at the bottom]
+
+[Curated heading level=2 type=propositions: Theorema 5. Propositio 5.]
 
 [Curated heading level=2 type=theorems: Theorema 5. Propositio 5.]
 

@@ -16,6 +16,8 @@ Ex ultimo autem huius demonstrationis processu, possumus etiam istud correlarium
 
 CORRELARIVM. Vnde manifestum est quod omnis numerus numerans quotlibet adinuicem compositos, numerat maximum numerantē eos omnes, & etiam maximos numerantes binos & binos eorum.
 
+[Curated heading level=2 type=propositions: Problema 2 Propositio 3]
+
 [Curated heading level=2 type=problems: Problema 2 Propositio 3]
 
 ## Eucli. ex Zamb. Problema 2 Propositio 3

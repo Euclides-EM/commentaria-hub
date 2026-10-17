@@ -6,6 +6,8 @@ sicut quod sub α, β, ad id quod sub β, γ, sic est α ad γ, sed ei quidem qu
 
 [Diagram: five horizontal line segments at the right of the text, each with a label above it: α Re. 64 — δ Re.Re.3072 — β Re. 48 — ι Re.Re.Re.1456 — γ Re.28]
 
+[Curated heading level=2 type=propositions: Propositio 27]
+
 ## Eucli. ex Camp. Propositio 27
 
 [Curated heading level=3 type=campanus_sequence: 27.]

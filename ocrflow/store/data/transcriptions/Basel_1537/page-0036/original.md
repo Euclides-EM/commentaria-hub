@@ -6,6 +6,8 @@ propositionē) in rectis ipsis α ε, linea α ζ. Et quoniā in rectas lineas �
 
 [Diagram: line ε α ζ through point α, parallel to line β γ below, with transversal α γ]
 
+[Curated heading level=2 type=propositions: Propositio 32.]
+
 ## Eucli. ex Camp. Propositio 32.
 
 [Curated heading level=3 type=campanus_sequence: 32.]

@@ -2,6 +2,8 @@
 
 <!-- Running title: EVCLIDIS MEGARENSIS -->
 
+[Curated heading level=2 type=propositions: Theorema 57. Propositio 58.]
+
 [Curated heading level=2 type=theorems: Theorema 57. Propositio 58.]
 
 ## Theorema 57. Propositio 58.
@@ -11,6 +13,8 @@
 Sit, inquā, oculus b, à quo excitentur radij b c, b d, b f, spectentur uero k & l, igitur oculo translato ad partes c, celerius transibunt uisus k q̄ l, putabitur igitur k, destitui, & l, in contrarium ferri, hoc est ad partes f.
 
 [Diagram: three rays rise from the eye b at bottom to the points c, d, f at top; at the left two small rectangles marked k (above) and l (below)]
+
+[Curated heading level=2 type=propositions: Theorema 58. Propositio 59.]
 
 [Curated heading level=2 type=theorems: Theorema 58. Propositio 59.]
 
@@ -22,6 +26,8 @@ Sit spectatū b c, sub k b, k c, radijs augeaturq̃ b c, ipsa b d, & ab ipso k, 
 
 [Diagram: point d at top right, b on the left, c at bottom left, the eye k at bottom right; radii k b, k c, k d drawn]
 
+[Curated heading level=2 type=propositions: Theorema 59. Propositio 60.]
+
 [Curated heading level=2 type=theorems: Theorema 59. Propositio 60.]
 
 ## Theorema 59. Propositio 60.
@@ -31,6 +37,8 @@ Sit spectatū b c, sub k b, k c, radijs augeaturq̃ b c, ipsa b d, & ab ipso k, 
 Spectentur nanq̃ b c d, oculo in k posito, procidantq̃ radij k b, k c, k d, igitur tota figura cōuexa esse putabitur, permutetur iam rursus spectatum, ponaturq̃ propius ad oculum. Igitur d b c, curuum esse putabitur.
 
 [Diagram: two curved figures; above, a circle with points k and c at the top and b within; below, a teardrop-shaped curve with b at the left, c at the bottom and k at the right]
+
+[Curated heading level=2 type=propositions: Theorema 60. Propositio 61.]
 
 [Curated heading level=2 type=theorems: Theorema 60. Propositio 61.]
 

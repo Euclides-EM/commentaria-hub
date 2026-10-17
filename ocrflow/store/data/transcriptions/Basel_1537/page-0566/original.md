@@ -18,6 +18,8 @@ Assumatur in b c, contingens signum e, cōiectaturque e a, quoniam a signum: dat
 
 [Diagram: triangle with apex a and base line c e d b]
 
+[Curated heading level=2 type=propositions: Theorema 31 Propositio 31]
+
 [Curated heading level=2 type=theorems: Theorema 31 Propositio 31]
 
 ## Theorema 31 Propositio 31
@@ -27,6 +29,8 @@ SI à dato signo in positiōe datam rectam lineam, recta linea proiecta fuerit d
 A dato enim signo a in positiōe datam rectam lineam b c recta excitetur linea d a, data magnitudine. Dico quod etiam positione datur. Centro siquidem a interuallo uero a d, per 3 postulatū circulus describatur e d f, positiōe igitur est, per 6 diffinitionē ipse circulus d f. Datur siquidem a cētrū positione, & quæ ex centro a d magnitudine, positione autē & b c, recta linea. Si uero binæ lineæ positiōe datæ sese inuicem secuerint, datur per 25 propositionem signum in quo se dispescūt positione. Est autem & a datum, igitur per 26 propositione positione datur ipsa a d.
 
 [Diagram: circle with centre a; radius drawn from a down to d on a horizontal line f d b below the circle, cutting the circle at c; e on the circle]
+
+[Curated heading level=2 type=propositions: Theorema 32 Propositio 32]
 
 [Curated heading level=2 type=theorems: Theorema 32 Propositio 32]
 

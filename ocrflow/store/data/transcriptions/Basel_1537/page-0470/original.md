@@ -6,6 +6,8 @@ demōstratione 17 tredecimi erit latus cubi quem eadem sphaera cōcludit, protra
 
 [Diagram: circle with inscribed pentagon a b c d e and triangle a f g sharing vertex a at top; centre h; diameter a h k vertical; points l, m, n on it; b and e on the sides, f and g lower]
 
+[Curated heading level=2 type=propositions: Propositio 9]
+
 ## Eucli. ex Camp. Propositio 9
 
 [Curated heading level=3 type=campanus_sequence: 9.]

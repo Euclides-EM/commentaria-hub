@@ -8,6 +8,8 @@ CAMP. Cũctis ut in præmissis manētibus. erit ex hypothesi & diffinitione bino
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
+[Curated heading level=2 type=propositions: Theorema 39 Propositio 57]
+
 [Curated heading level=2 type=theorems: Theorema 39 Propositio 57]
 
 ## Eucl. ex Zãb. Theorema 39 Propositio 57
@@ -26,6 +28,8 @@ THEON ex Zãb. Areola nãq̃ α γ, cõprehēdatur sub rõnali α β, & ex binis
 
 [Diagram: square divided by a vertical and a horizontal line into four compartments; labels: τ, ς, π along the top, μ at the left, υ at the centre, ξ at the right, σ and ο along the bottom]
 
+[Curated heading level=2 type=propositions: Propositio 52]
+
 ## Eucli. ex Camp. Propositio 52
 
 [Curated heading level=3 type=campanus_sequence: 52.]
@@ -41,6 +45,8 @@ CAMP. Nec in hac quoq̃ est aliquid ex priorũ dispositiõe & positiõibus mæt�
 [Diagram: rectangle divided by three horizontal lines into four bands; left side labels from top: a, K, b, g, c; right side labels: b, f, d, e]
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
+
+[Curated heading level=2 type=propositions: Theorema 40 Propositio 58]
 
 [Curated heading level=2 type=theorems: Theorema 40 Propositio 58]
 

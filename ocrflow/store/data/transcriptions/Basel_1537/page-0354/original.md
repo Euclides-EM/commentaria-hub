@@ -8,6 +8,8 @@ THEON ex Zāb. Cōprehēdatur areola sub apotome α β,& ea quæ ex binis nomini
 
 CORRELARIVM. Fitq̃ nobis & id propterea manifestū,quod possibile est rōnalem areolam sub irrationalibus rectis lineis contineri.
 
+[Curated heading level=2 type=propositions: Theorema 91 Propositio 115]
+
 [Curated heading level=2 type=theorems: Theorema 91 Propositio 115]
 
 ## Eucli.ex Zamb. Theorema 91 Propositio 115
@@ -28,6 +30,8 @@ ALITER. Esto media α γ. Dico q̃ ab α γ, infinitæ sunt irrōnales,neq̃ ull
 
 [Diagram: a rectangle divided by a vertical line, the top side lettered α, γ, δ with ζ beyond to the right, the bottom side lettered β, ε]
 
+[Curated heading level=2 type=propositions: Theorema 92 Propositio 116.]
+
 [Curated heading level=2 type=theorems: Theorema 92 Propositio 116.]
 
 ## Eucli.ex Zāb. Theorema 92 Propositio 116.
@@ -43,6 +47,8 @@ Minori commensurabilis, minor est.
 THEON ex Zāb. Esto minor α,& ipsi α cōmēsurabilis esto(per 11 decimi) β.Dico q̃ β minor est.Exponatur γ δ rōnalis,& ei q̃ ex α(per 44 primi, )æquū ad ipsam γ δ cōparetur γ ε,latitudinē efficiēs γ ζ.Apotome igitur est quarta γ ζ. Ei aūt quod ex β,(per eandē)æquū ad ipsam ζ ε cōparetur ζ η,latitudinē efficiēs ζ θ Quoniā igitur cōmēsurabilis est α ipsi β,cōmēsurabile igitur est & quod ex α, ei quod ex β. Sed ei quidē quod ex α,æquū est γ ε,ei autē quod ex β,æquū est ζ η,cōmensurabile igitur est γ ε,ipsi ζ η.Sicut autē γ ε ad ζ η,sic est γ ζ,ad ζ θ.Cōmensurabilis igitur est γ ζ,ipsi ζ θ lōgitudine.Apotome aūt quarta est(per 100 decimi)ipsa γ ζ. Igitur & ζ θ,quarta est apotome.Rōnalis aūt est ζ ε.Si uero areola cōprehēdatur sub rationali & quarta apotome, quæ areolā potest minor est(per 64 decimi.) Ipsam autem ζ η areolam,ipsa β potest,ergo α{printer-error-correction:β} minor est.Quod erat ostendendum.
 
 [Diagram: two horizontal lines labelled α and β above a rectangle divided by a vertical line, the top side lettered γ, ζ, θ and the bottom side lettered δ, ε, η]
+
+[Curated heading level=2 type=propositions: Theorema 93 Propositio 117]
 
 [Curated heading level=2 type=theorems: Theorema 93 Propositio 117]
 

@@ -6,6 +6,8 @@ nisi irrationali superficie per 12. Hoc autem fit manifestius in figura, sic. Si
 
 [Diagram: line a c d b above; two rectangles: the left one with corners e (bottom left) and g (bottom right), f at top right, a horizontal division marked b on the left side and the region p in the lower part; the right one with l at top right, a horizontal division marked n on the left side, and corners k (bottom left) and m (bottom right)]
 
+[Curated heading level=2 type=propositions: Theorema 61 Propositio 79]
+
 [Curated heading level=2 type=theorems: Theorema 61 Propositio 79]
 
 ## Eucli. ex Zamb. Theorema 61 Propositio 79
@@ -22,6 +24,8 @@ THEON ex Zāb. Sit apotome α β, cōgruēs aūt ei sit β γ, ipsæ igitur α �
 
 [Diagram: line with points α, β, γ, δ]
 
+[Curated heading level=2 type=propositions: Propositio 75]
+
 ## Eucli. ex Camp. Propositio 75
 
 [Curated heading level=3 type=campanus_sequence: 75.]
@@ -33,6 +37,8 @@ THEON ex Zāb. Sit apotome α β, cōgruēs aūt ei sit β γ, ipsæ igitur α �
 {dropcap:N|lines=?|style=decorated|decoration="woodcut"}Vlla linea nisi una tantum residuo mediali primo coniungi potest, ut sint ambæ sub termino earum quæ erant ante separationem.
 
 CAMPANVS Hæc quoque probabis simili modo. Sint enim in utraq̀ sectione ambo quadrata pariter accepta, mediale, duplū uero superficiei unius in alterā ratiōale. Et quia ut prius eadē differentia quadratorū unius sectionis ad quadrata altius{printer-error-correction:alterius}, quæ est dupli superficiei unius ad duplum superficiei alterius, erit una & eadē superficies differentia duarū medialium & duarum rationalium. Quod est impossibile.
+
+[Curated heading level=2 type=propositions: Theorema 62 Propositio 80]
 
 [Curated heading level=2 type=theorems: Theorema 62 Propositio 80]
 

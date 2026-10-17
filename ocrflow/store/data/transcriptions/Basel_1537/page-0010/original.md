@@ -6,7 +6,11 @@
 
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI, MATHEMATICORVM facile principis: primum ex Campano, deinde ex Theone græco commentatore, interprete Bartholomæo Zamberto Veneto, Geometricorum elementorum liber primus.
 
+[Curated heading level=2 type=campanus_sequence: Ex Campano: triplex principiorum genus. Primum Diffinitiones.]
+
 ## Ex Campano: triplex principiorum genus. Primum Diffinitiones.
+
+[Curated heading level=3 type=definitions: 1-15]
 
 {dropcap:P|lines=?|style=decorated|decoration="depicting Alexander and Diogenes, labelled ALEXANDER DIOGENES"}Vnctus est, cuius pars non est. 2 Linea, est longitudo sine latitudine. 3 Cuius quidem extremitates, sunt duo puncta. 4 Linea recta, est ab uno puncto ad alium breuissima extensio, in extremitates suas eos recipiens. 5 Superficies, est quæ longitudinem & latitudinem tantum habet. 6 Cuius quidem termini, sunt lineæ. 7 Superficies plana, est ab una linea ad aliam breuissima extensio, in extremitates suas eas recipiens.
 

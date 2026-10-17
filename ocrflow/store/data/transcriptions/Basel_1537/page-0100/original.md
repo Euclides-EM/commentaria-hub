@@ -6,6 +6,8 @@
 
 CORRELARIVM. *Et manifestum est quod quando introrsum trianguli, cadit centrum circuli, angulus β α γ, existens in maiore circuli segmento, recto minor est. Quando autē in β γ, rectā lineam, in semicirculo existēs angulus, rectus est. Quādo uero extra ipsam β γ, rectā lineā centrū cadit, angulus β α γ, existēs in minore circuli segmēto, recto maior est. Quare quādo minor recto fuerit datus angulus, introrsūm ipsius trianguli concurrūt δ ζ, & ε ζ, rectæ lineæ. Quando autē rectus: super β γ. Quando uero maior recto: extra ipsam β γ, quod fecisse oportuit.*
 
+[Curated heading level=2 type=propositions: Propositio 6]
+
 ## Eucli. ex Camp. Propositio 6
 
 [Curated heading level=3 type=campanus_sequence: 6.]
@@ -19,6 +21,8 @@ INtra datum circulum quadratum describere.
 CAMPANVS Sit datus circulus a b c d, cuius cētrū e: uolo intra ipsum describere quadratū. Protraho in ipso duas diametros a c & b d, secantes se orthogonaliter, quarū extremitates cōiungo, protractis lineis a b, b c, c d, & d a, quas dico continere quadratū quæsitū, ipsæ enim erunt æquales adinuicem per 4 primi ter assumptā, propter id quod quatuor lineæ a e: b e, c e & d e, sunt æquales, & quatuor anguli qui sunt ad e, recti: sed unusquisq́; quatuor angulorum a b c & d, est rectus, per primam partem 30 tertij, propter id quod quilibet eorum est in semicirculo erit igitur a b c d: quadratū per diffinitionem. Quod est propositū.
 
 [Diagram: circle with inscribed square a b c d, the diagonals a c and b d crossing at the centre e]
+
+[Curated heading level=2 type=propositions: Problema 6 Propositio 6]
 
 [Curated heading level=2 type=problems: Problema 6 Propositio 6]
 
@@ -36,6 +40,8 @@ THEON ex Zamberto. *Sit datus circulus α β γ δ. oportet iam in circulo α β
 
 [Diagram: circle with inscribed square α β γ δ, the diagonals crossing at the centre ε]
 
+[Curated heading level=2 type=propositions: Propositio 7]
+
 ## Eucli. ex Camp. Propositio 7
 
 [Curated heading level=3 type=campanus_sequence: 7.]
@@ -49,6 +55,8 @@ CIrca propositum circulum quadratum describere.
 CAMPANVS Sit propositus circulus a b c d: cuius cētrū e, uolo circa ipsum, describere quadratum. Protraho in ipso duas diametros a c & b d secantes se orthogonaliter super centrum e, à quarum extremitatibus duco in utrāq́; partē lineas orthogonaliter, quas protraho quàlibet quousq́; concurrat cū duabus lateralibus: sintq́; puncta cōcursus earū f g h k, eritq́; per correlariū 15 tertij, uterque angulorū qui sunt ad unūquodq́; quatuor punctorū a b c d, rectus: quia ergo in quadrilatero a f b e tres āguli a b & e sunt recti, erit quartus angulus qui est f rectus: habet eīm quodlibet quadrilaterū, quatuor angulos æquales quatuor rectis ut demonstratum est supra 32 primi. Eadē ratione quilibet angulorum g h k, erit rectus: ergo per secundam partē 28 primi duæ lineæ f g & k h, itēq́; duæ f k & g h, sunt æquidistantes, ergo per 34 primi f k est æqualis g h, & f g ipsi k h. Et quia per eandem f k est æqualis b d, & f g ipsi a c, at uero a c & b d sunt æquales, quia diametri: erunt quatuor lineæ f k, g h, f g & k h æquales. Sed & quatuor anguli f g k h sunt recti: ut probatum est prius. ergo f g k h, est quadratum per diffinitione. Quod est propositum.
 
 [Diagram: circle a b c d with two perpendicular diameters through the centre e, circumscribed by the square f g h k touching at the extremities of the diameters]
+
+[Curated heading level=2 type=propositions: Problema 7. Propositio 7]
 
 [Curated heading level=2 type=problems: Problema 7. Propositio 7]
 

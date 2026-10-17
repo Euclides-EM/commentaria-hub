@@ -2,6 +2,8 @@
 
 <!-- Page number: 408 -->
 
+[Curated heading level=2 type=propositions: Propositio 11]
+
 ## Eucli. ex Camp. Propositio 11
 
 [Curated heading level=3 type=campanus_sequence: 11.]

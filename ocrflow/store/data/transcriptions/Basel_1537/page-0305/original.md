@@ -8,6 +8,8 @@ tudine. Et quoniã cōmēsurabilis est α η, ipsi ε η, cōmēsurabilis est & 
 
 [Diagram: square divided by a vertical and a horizontal line into four compartments; labels: τ, ς, π along the top, μ at the left, υ at the centre, ξ at the right, σ and ο along the bottom]
 
+[Curated heading level=2 type=propositions: Propositio 50]
+
 ## Eucli. ex Camp. Propositio 50
 
 [Curated heading level=3 type=campanus_sequence: 50.]
@@ -23,6 +25,8 @@ CAMPA. Dispositio & hypotheses maneãt ut supra. Eritq̃ ex his hypothesibus & d
 [Diagram: rectangle divided by three horizontal lines into four bands; corners a (top-left), b (top-right), c (bottom-right); left side labels K, b, g; right side labels f, d, e]
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
+
+[Curated heading level=2 type=propositions: Theorema 38 Propositio 56]
 
 [Curated heading level=2 type=theorems: Theorema 38 Propositio 56]
 
@@ -41,6 +45,8 @@ THEON ex Zamb. Areola nãq̃ α β γ δ, cõprehēdatur sub rõnali α β. ac e
 [Diagram: rectangle with vertical lines; labels α, ε, ζ, δ along the top and β, θ, κ, λ, γ along the bottom; the middle compartment projects above the top line]
 
 [Diagram: square divided by a vertical and a horizontal line into four compartments; labels: τ, ς, π along the top, μ at the left, υ at the centre, ξ at the right, σ and ο along the bottom]
+
+[Curated heading level=2 type=propositions: Propositio 51]
 
 ## Eucl. ex Cãp Propositio 51
 

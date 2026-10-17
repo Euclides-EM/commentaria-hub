@@ -6,6 +6,8 @@
 
 [Diagram: in right margin, vertical line segments a β and γ δ, each divided (at η and θ), beside shorter segments ε and ζ]
 
+[Curated heading level=2 type=propositions: Propositio 2]
+
 ## Eucli. ex Camp. Propositio 2
 
 [Curated heading level=3 type=campanus_sequence: 2.]
@@ -19,6 +21,8 @@
 CAMPANVS Sint sex quantitates, a prima, b secunda, c tertia, d quarta, e quinta, f sexta. Sintq̃ a & c, æque multiplices ad b, & d. Itemque e & f sint æque multiplices ad easdē. Dico qđ sicut totum aggregatū ex a & e, est multiplex ad quantitatem b, ita totum aggregatum ex c & f, est multiplex ad quantitatem d. Nam quia numerus secundum quem b continetur in a, est æqualis numero secundum quem d continetur in c, similiter quoque numerus secūdum quem b continetur in e, est æqualis numero secundum quē d continetur in f: erit per cōmunē scientiam quæ est: si æqualibus æqualia addātur & tota quoque erunt æqualia, numerus secūdū quē b cōtinetur in aggregato ex a & e, æqualis numero secundum quē d cōtinetur in aggregato ex c & f: quare sicut aggregatū ex a & e, est multiplex ad b, ita aggregatum ex c & f, est multiplex ad d, quod est propositum.
 
 [Diagram: at right, horizontal lines of varying lengths labelled a, b, d, e, c, f]
+
+[Curated heading level=2 type=propositions: Theorema 2 Propositio 2]
 
 [Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
 
@@ -35,6 +39,8 @@ Si prima secundæ æque fuerit multiplex, & tertia quartæ, fuerit autem & quint
 THEON ex Zamb. *Prima enim a β, secundæ γ, æque multiplex esto, & tertia δ ε, ipsius ζ, quartæ, sit autē & quinta β η, secundæ γ, æque multiplex, & sexta ε θ, ipsius ζ, quartæ. Dico quod composita prima & quinta a η, ipsius γ, secundæ æque multiplex erit, & tertia & sexta δ θ, ipsius ζ, quartæ. Quoniam enim æque multiplex est a β, ipsius γ, & δ ε, ipsius ζ, quot magnitudines igitur sunt in a β, æquales ipsi γ, totidem magnitudines sunt in δ ε, æquales ipsi ζ. ac per hoc, & quot sunt in β η, æquales ipsi γ, tot etiam sunt in ε θ, æquales ipsi ζ. Quot igitur sunt in tota a η, æquales ipsi γ, tot sunt in tota δ θ, æquales ipsi ζ. Quotuplex igitur est a η, ipsius γ, totuplex est & δ θ, ipsius ζ. Et composita igitur prima & quinta a η, ipsius γ, secundæ æque erit multiplex & tertia & sexta δ θ, ipsius ζ, quartæ. Si prima igitur secundæ æque fuerit multiplex & tertia quartæ, fuerit autem & quinta secūdæ æque multiplex & sexta quartæ, etiam composita prima & quinta, secundæ æque multiplex erit & tertia & sexta quartæ, quod demōstrasse oportuit.*
 
 [Diagram: in right margin, vertical line segments a β η and δ ε θ, each divided by ticks, beside shorter segments γ and ζ]
+
+[Curated heading level=2 type=propositions: Propositio 3]
 
 ## Eucli. ex Camp. Propositio 3
 

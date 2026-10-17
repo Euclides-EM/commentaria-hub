@@ -6,6 +6,8 @@ torū angulus r, ipso p maior est quia exterior est. Et angulus p ipsi o, angul�
 
 [Diagram: circle with points K and g at top, f inside upper left, b at left on the circumference, a at right; inside the circle points b, r, l, o, d, p, m, n near the horizontal diameter, and e at lower right; several chords crossing]
 
+[Curated heading level=2 type=propositions: Theorema septimum.]
+
 [Curated heading level=2 type=theorems: Theorema septimum.]
 
 ## Theorema septimum.
@@ -22,6 +24,8 @@ Sit rursus crassitudo quidem e a, speculū autem planum sit a c, oculus uero sit
 
 [Diagram: vertical line with points b, g, a, f, e from top to bottom; rays fan out rightward crossing at b and c]
 
+[Curated heading level=2 type=propositions: Theorema octauum.]
+
 [Curated heading level=2 type=theorems: Theorema octauum.]
 
 ## Theorema octauum.
@@ -36,6 +40,8 @@ Sit celsitudo a e, speculum autem conuexum sit a d c, uisus uero sint b d, b c r
 
 Sit rursus crassitudo a e, speculum uero conuexum sit a d c. oculus autem sit b uisus autem refracti in e h. sint b c e, b d h. reliqua uero sicut & in planis.
 
+[Curated heading level=2 type=propositions: Theorema nonum.]
+
 [Curated heading level=2 type=theorems: Theorema nonum.]
 
 ## Theorema nonum.
@@ -45,6 +51,8 @@ OBliquæ longitudines à planis speculis sicut se habent, sic & uidentur.
 Sit oculus b longitudo autem obliqua sit d e, speculum uero sit a c, igitur refractis uisibus uidetur quidē d in a &, e, super c sicq́; se habet in phantasia. sicut uero se habet, propius propius, & remotius remotius.
 
 [Diagram: square with vertex a at top right; a diagonal and lines to points d and e at the left side; b below]
+
+[Curated heading level=2 type=propositions: Theorema decimum.]
 
 [Curated heading level=2 type=theorems: Theorema decimum.]
 

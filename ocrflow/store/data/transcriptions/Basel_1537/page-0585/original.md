@@ -14,6 +14,8 @@ Exponatur data recta linea k, & quoniam ratio ipsius a ad b data est, eadem eide
 
 Si fuerint binæ rectæ lineæ, assumaturq́; quædam una recta linea, una priorum ad alteram rationem habet cōpositam ex ea quam habet prima ad extrinsecus utcunq; sumptam, & quam assumpta ad alteram.
 
+[Curated heading level=2 type=propositions: Theorema 69 Propositio 69]
+
 [Curated heading level=2 type=theorems: Theorema 69 Propositio 69]
 
 ## Theorema 69 Propositio 69
@@ -27,6 +29,8 @@ Bina siquidem parallelogramma a b, g e, datos habētia angulos, eos qui ad d f, 
 ### Scholium.
 
 In uniuersum enim si parallelogrammi unus angulus datus fuerit, & reliqui dati erunt, uno enim dato necessario & consequentes dabuntur, quare & econuerso.
+
+[Curated heading level=2 type=propositions: Theorema 70 Propositio 70]
 
 [Curated heading level=2 type=theorems: Theorema 70 Propositio 70]
 

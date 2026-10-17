@@ -8,6 +8,8 @@
 
 Sed iam esto angulus qui ad γ, obtusus, & constituatur ei iterum ad α β rectam lineam & ad α signum: æqualis angulus β α δ (per 23 primi) sicut habet tertia descriptio, & ipsi α δ: ad angulos rectos (per 11 eiusdem) excitetur α ε, seceturq̃ rursus α β bifariam in ζ (per 10 eiusdem) & ipsi α β ad angulos rectos excitetur ζ η (per 11 eiusdem) & connectatur η β. Et rursus quoniam æqualis est ζ α ipsi ζ β, & communis ζ η: duæ igitur ζ α & ζ η, duabus ζ β & ζ η sunt æquales: & angulus α ζ η (per 4 postulatum) angulo β ζ η est æqualis: basis igitur α η (per 4 eiusdem) basi η β est æqualis. Centro igitur η, spatio autem η α (per 3 postulatum) circulus descriptus, transibit per β, transeat sicut α β ε. Et quoniam ab extremitate α ε dimetientis, ad angulos rectos excitata est α δ: igitur α δ (per correlarium 16 tertij) tangit ipsum circulum: & ab α contactu α β extenditur. Angulus igitur δ α β (per 32 eiusdem) æqualis est angulo α ε β existenti in alterno segmento circuli. Sed angulus β α δ, ei qui ad γ est æqualis. Igitur angulus qui sub α ε β, ei qui ad γ est æqualis. Super data igitur recta linea α β, descriptum est segmentum circuli α ε β capiens angulum æqualem ei qui ad γ est angulo, quod fecisse oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 33.]
+
 ## Eucli. ex Camp. Propositio 33.
 
 [Curated heading level=3 type=campanus_sequence: 33.]
@@ -21,6 +23,8 @@ A dato circulo, dato angulo æquum angulum capientem portionē abscindere.
 CAMPANVS. Sit a b datus circulus, & c datus angulus, uolo ergo à circulo a b, abscindere portionē unam capientem æqualem angulum angulo c. Produco lineam d a e, cōtingentem datum circulum in puncto a, à quo duco in circulum lineam a b, continentem cum linea a e, angulum æqualem angulo c: eritq̃ per 31 huius, portio a b existens à parte lineæ a d: recipiens angulū æqualem angulo c, quod est propositum.
 
 [Diagram: circle with tangent line d a e touching at a (d above, e at right), chord a b drawn into the circle to b; below at right the given angle c]
+
+[Curated heading level=2 type=propositions: Problema. 6. Propositio 34.]
 
 [Curated heading level=2 type=problems: Problema. 6. Propositio 34.]
 
@@ -37,6 +41,8 @@ A dato circulo, segmentum abscindere capiens angulum æqualem dato angulo rectil
 THEON ex Zamberto. Esto datus circulus α β γ: datus uero angulus rectilineus qui ad δ: oportet iam ab α β γ circulo, segmētum abscindere capiens angulum æqualem ei qui ad δ est angulo. Ducatur enim (per 17 tertij, linea tangens circulū sitq̃ illa ε ζ, & tangat in β signo. Et constituatur (per 23 primi) ipsi ε ζ rectæ lineæ & in ea signo β, angulo qui ad δ, æqualis angulus ζ β γ. Quoniam igitur circulum α β γ tangit quædam recta linea ε ζ in β, & à contactu ducta est β γ: angulus igitur ζ β γ (per 32 tertij) æqualis est ei qui ad β α γ cōsistenti in alterno segmento. Sed angulus ζ β γ: ei qui est ad δ æqualis. igitur angulus existens in β α γ segmento, æqualis est ei qui est ad δ angulo. A dato igitur circulo α β γ segmentum abscissum est β α γ, capiens angulum æqualem dato angulo rectilineo, quod fecisse oportuit.
 
 [Diagram: circle α β γ with inscribed triangle, α at top, γ at right, β at bottom; tangent line ε ζ touching at β; at the left the given angle δ]
+
+[Curated heading level=2 type=propositions: Propositio. 34.]
 
 ## Eucli. ex Camp. Propositio. 34.
 

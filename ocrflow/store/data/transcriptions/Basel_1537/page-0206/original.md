@@ -40,6 +40,8 @@ Tres numeri propositi sint a, b, c, minimusq̃ quem numerant a, & b, sit d, qui 
 
 Duæ præcedentes ex Campano propositiones, 35 scilicet & 36, tribus ex Zamberto sequentibus Euclidis propositionibus si respondent, ut correlarium 35 ex Campano, 37 ex Zamberto respondeat. 36 autem ex Campano, sit ad 36 & 38 ex Zamberto propositiones uniuersales.
 
+[Curated heading level=2 type=propositions: Problema 4 Propositio 36]
+
 [Curated heading level=2 type=problems: Problema 4 Propositio 36]
 
 ## Eucli. ex Zamb. Problema 4 Propositio 36

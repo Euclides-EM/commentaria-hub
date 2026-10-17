@@ -4,7 +4,7 @@
 
 maioris abstractionis, quàm proportionem arithmeticā: omnis enim proportio circa quam arithmetica uersatur, rationalis est: geometria uero, rationales & irrationales æqualiter considerat.
 
-[Curated heading level=3 type=definitions: Proportionalitas, est similitudo]
+[Curated heading level=3 type=definitions: 4]
 
 [Curated heading level=3 type=campanus_sequence: 4.]
 
@@ -18,7 +18,7 @@ CAMPANVS. Vt si dicamus quod quæ est proportio a ad b, ea est etiam c ad d: pro
 
 [Diagram: four horizontal line segments in two pairs, labelled a and c (shorter, above) and b and d (longer, below)]
 
-[Curated heading level=3 type=definitions: Quantitates autem quæ dicuntur]
+[Curated heading level=3 type=definitions: 5]
 
 [Curated heading level=3 type=campanus_sequence: 5.]
 

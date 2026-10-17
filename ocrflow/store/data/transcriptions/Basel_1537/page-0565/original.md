@@ -6,6 +6,8 @@ lineæ aut positio, aut magnitudo. Intercidet & b signum, nō intercidit autem. 
 
 [Diagram: horizontal line with endpoints a and b]
 
+[Curated heading level=2 type=propositions: Theorema 27 Propositio 27]
+
 [Curated heading level=2 type=theorems: Theorema 27 Propositio 27]
 
 ## Theorema 27 Propositio 27
@@ -20,6 +22,8 @@ Rectæ siquidem lineæ a b positione & magnitudine datæ unum extremum a datum s
 
 Siquidē enim b signū aut introrsum aut exterius intercidit, igitur recta linea magnitudine data non est. si autem intercidit, aut supra aut infra nec positione data est igitur.
 
+[Curated heading level=2 type=propositions: Theorema 28 Propositio 28]
+
 [Curated heading level=2 type=theorems: Theorema 28 Propositio 28]
 
 ## Theorema 28 Propositio 28
@@ -30,6 +34,8 @@ Per siquidem datum signum a ad positione datam rectam lineam b c, recta linea ag
 
 [Diagram: two straight lines crossing at a; e upper left, f upper right, g lower left, d lower right; line c b below at right]
 
+[Curated heading level=2 type=propositions: Theorema 29 Propositio 29]
+
 [Curated heading level=2 type=theorems: Theorema 29 Propositio 29]
 
 ## Theorema 29 Propositio 29
@@ -39,6 +45,8 @@ SI additione data recta linea fuerit, ad signumque in ea datum recta linea acta 
 Additione siquidē recta linea a b, & ad signū ad eam datum c, recta excitetur linea c d angulum datum efficiens eum qui sub b c d. Dico quod ipsa c d, est positione data. Si autem non manēte signo c intercidit ipsius c d positio seruans ipsius b c d, anguli magnitudinem. Intercidat & sit c e, æquus igitur est angulus qui sub d c b, ei qui sub e c b. minor maiori quod est absurdum. Nō intercidit ergo ipsius d c, positio, positione igitur est ipsa c d.
 
 [Diagram: horizontal line b c a with two rays c d and c e ascending from c; d and e above]
+
+[Curated heading level=2 type=propositions: Theorema 30 Propositio 30]
 
 [Curated heading level=2 type=theorems: Theorema 30 Propositio 30]
 

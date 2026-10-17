@@ -4,6 +4,8 @@
 
 α γ latere α β minus minime est. Maius igitur est latus α γ, latere α β. Omnis igitur trianguli maior angulus a maiore latere subtenditur. Quod demonstrasse oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 20.]
+
 ## Eucli. ex Camp. Propositio 20.
 
 [Curated heading level=3 type=campanus_sequence: 20.]
@@ -17,6 +19,8 @@ OMnis triāguli duo quælibet latera simul iuncta, reliquo sunt longiora.
 CAMPANVS. Sit triāgulus a b c, dico q̃ duo latera a b & a c, sunt lōgiora latere b c. Protrahatur linea b a usq̃ ad d, ita ut a d sit æqualis a c, & p̃trahatur c d, per 5 propositionē erit angulus a c d, æqualis angulo d, quare angulus b c d est maior āgulo d, ergo per 19 latus b d, est maius latere b c, sed b d, est æquale a b & a c, quare b a & a c simul iuncta, sunt maiora b c.
 
 [Diagram: triangle a b c with side b a produced to d and line c d drawn; labels d at top, a, c, b]
+
+[Curated heading level=2 type=propositions: Theorema 13. Propositio 20.]
 
 [Curated heading level=2 type=theorems: Theorema 13. Propositio 20.]
 
@@ -34,6 +38,8 @@ THEON ex Zamb. Sit triangulū α β γ. Aio ipsius α β γ trianguli bina later
 
 [Diagram: triangle α β γ with side β α produced to δ and line δ γ drawn; labels δ at top, α, γ, β]
 
+[Curated heading level=2 type=propositions: Propositio 21.]
+
 ## Eucli. ex Camp. Propositio 21.
 
 [Curated heading level=3 type=campanus_sequence: 21.]
@@ -47,6 +53,8 @@ SI de duobus punctis terminalibus unius lateris trianguli duæ lineæ exeuntes, 
 CAMPANVS. Sit ut in triāgulo a b c, ab extremitatibus lateris b c concurrant duæ lineæ b d & c d, ad punctum d, intra triangulum a b c. Dico q̃ ipsæ lineæ b d & c d simul iunctæ, sunt breuiores duabus lineis a b & a c simul iunctis, & quod angulus d est maior angulo a. Protrahā enim b d, usquequo secet latus a c in puncto e, eruntq̃ per 20 propositiōem b a & a e simul iunctæ, maiores b e, ergo b a & a c, sunt maiores b e & e c. At uero d e & e c simul iunctæ, per eandem sunt maiores d c, quare b e & e c sunt maiores b d & d c, & quia b a & a c sunt maiores b e & e c, ut probatū est prius, erunt multo fortius b a & a c maiores b d & d c, quod est propositū. At quoniā angulus b d c est maior angulo d e c per 16 propositionē, & angulus d e c est maior angulo b a c per eandem, erit angulus b d c multo fortius maior angulo b a c, quod est propositū.
 
 [Diagram: triangle a b c with interior point d, lines b d and c d drawn, b d produced to e on side a c; labels a at top, e, d within, b, c at base]
+
+[Curated heading level=2 type=propositions: Theorema 14. Propositio 21.]
 
 [Curated heading level=2 type=theorems: Theorema 14. Propositio 21.]
 

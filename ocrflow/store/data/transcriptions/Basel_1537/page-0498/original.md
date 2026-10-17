@@ -4,6 +4,8 @@
 
 l t, circunferentiæ: in quo igitur tempore k in s peruenit in eodem & l in t, & k l, circulus coheret in ipso s t, circulo a t. s t, circulus ad g e k, l igitur ad e k rectus est: & k l, igitur ad e k, rectus est. Rursus quoniam s m p, circunferentia ipsi t n r, est similis: in quo igitur tempore s in p, in eodem quoque & t in r uenit, & circulus zodiacus conuenit in circulo p o r, & p r, ad g e k, rectus est, & zodiacus circulus rectus est ad g e k, horizontem, bis igitur zodiacus circulus ad horizontem rectus est.
 
+[Curated heading level=2 type=propositions: Theorema 3 Apparens 3]
+
 [Curated heading level=2 type=theorems: Theorema 3 Apparens 3]
 
 ## Theorema 3 Apparens 3
@@ -15,6 +17,8 @@ l t, circunferentiæ: in quo igitur tempore k in s peruenit in eodem & l in t, &
 Sit in mundo horizon a b c maximus autem semper apparētium esto circulus a d e, non apparentium uero maximus esto b g, assumanturq̃ signum h ortus & occasus facientiū, sintq̃ orientales partes c, occiduæ uero sint k. Dico quod h signum semper iuxta eadem horizontis signa oritur, & occidit euoluta sphæra, sit circulus per quem signum h cōuertitur sitq̃ k h c, igitur orbis k h c, ipsum horizontem secat ad ipsius sphæræ axem, cū autem axi ad angulos rectos existentes circuli, horizontemq̃ dispescentes, ortus & occasus per eadem horizōtis signa efficiunt, orbis igitur k h c, per c signum oritur, & per k occidit, fertur aūt h signum in circunferentia ipsius k h c circuli, & h igitur signum per signū c oritur, & per k occidit.
 
 [Diagram: circle a d e with chord arcs and a smaller circle f g below; points labeled a, b, c, d, e, f, g, h, k]
+
+[Curated heading level=2 type=propositions: Theorema 4 Apparens 4]
 
 [Curated heading level=2 type=theorems: Theorema 4 Apparens 4]
 

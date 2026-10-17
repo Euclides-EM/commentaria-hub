@@ -2,6 +2,8 @@
 
 <!-- Page number: 513 -->
 
+[Curated heading level=2 type=propositions: Theorema uigesimum quintum]
+
 [Curated heading level=2 type=theorems: Theorema uigesimum quintum]
 
 ## Theorema uigesimum quintum
@@ -11,6 +13,8 @@ IN cauis speculis si in circunferentia aut extra circunferētiam oculus positus 
 Esto cauum speculum, a c b, & oculus ponatur in circunferentia ipsius & sit b, aspectus aūt procidant b a, b c & refringantur igitur angulus m b angulo K maior est, & e l ipso f. Quare non refringuntur, b a, b c uisus in b oculum. Si in oculum refringūtur, anguli æqui ipsa a c, signa. Ostendetur autem & quod si extra circunferentiam sit oculus idem eueniet. scilicet quod non spectabitur oculus, quippe quoniam in ipsum non sunt refractiones.
 
 [Diagram: arc from a at the upper left to b at the lower right; e at the top of the arc with f beside it; K and m near a, l on a line within; b at the lower left]
+
+[Curated heading level=2 type=propositions: Theorema uigesimumsextum.]
 
 [Curated heading level=2 type=theorems: Theorema uigesimumsextum.]
 
@@ -22,6 +26,8 @@ Sit cauum speculum a c d, dimetiens autem esto ipsius sphæræ a d & ipsa a d ad
 
 [Diagram: semicircular arc on the base line a f m d, with c, K, e, n on the arc; b and x within; lines l and x descending; a long vertical line below the base ending at b]
 
+[Curated heading level=2 type=propositions: Theorema uigesimumseptimum.]
+
 [Curated heading level=2 type=theorems: Theorema uigesimumseptimum.]
 
 ## Theorema uigesimumoctauum{printer-error-correction:uigesimumseptimum}.
@@ -31,6 +37,8 @@ IN cauis speculis si in dimetiente ponantur oculi æqualiter distantes a centro,
 Sit cauum speculum a c d, dimetiens uero sit a d centrum autem sit f ad rectos angulos sit f c. oculi porro sunt b e à centro æqualiter distātes, uisus autem b c, igitur refractus ueniet in e: in æqualibus enim angulis refringitur. alius autē nullus ibit ut b h. Connectantur h e, h f, igitur angulus qui sub b h e bifariam secabitur ab ipsa f h. & proportionalior erit sicut b h ad b f, sic f ad f e, quod est impossibile. Nā b h, ipso h e, maior est, & b f ipsi f e est æqualis, nullus igitur refractus ueniet ex b in e, unus igitur uisus refringetur in utroque oculorū, & ipse non spectabitur. Nam b c, extensa ipsi b d, non cōcurrit ad partes c d, apparebat autem unumquodque propter spectatorū congressum neque ex ijs quæ ad partes c a. concurrit. In cauis nāq; speculis unūquodq; spectatorū per ex spectato in centrum sphæræ ducta rectam lineam spectatur.
 
 [Diagram: semicircle on the base line a b f e d with h at the upper right on the arc; lines from b and e crossing up to the arc and to h]
+
+[Curated heading level=2 type=propositions: Theorema 28]
 
 [Curated heading level=2 type=theorems: Theorema 28]
 

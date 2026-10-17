@@ -2,6 +2,8 @@
 
 <!-- Page number: 387 -->
 
+[Curated heading level=2 type=propositions: Propositio 41]
+
 ## Eucli. ex Camp. Propositio 41
 
 [Curated heading level=3 type=campanus_sequence: 41.]
@@ -17,6 +19,8 @@ CAMPANVS. Sit superficies a b d æquidistantiū laterum dupla trilateræ superfi
 [Diagram: parallelepiped on quadrangular base a b c d, with upper corners h and k, interior point c, front points p and q; diagonal planes divide it into two prisms]
 
 [Diagram: parallelepiped with top face l s, points e and r, left point m, interior point n, lower front corners f and g; diagonals divide it into two prisms]
+
+[Curated heading level=2 type=propositions: Theorema 35 Propositio 40]
 
 [Curated heading level=2 type=theorems: Theorema 35 Propositio 40]
 

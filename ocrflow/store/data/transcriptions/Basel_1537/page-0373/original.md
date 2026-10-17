@@ -6,6 +6,8 @@ inuicem æquales, manifestū est quod bini reliquo, quomodocunq̃ suscepti sunt 
 
 [Diagram: triangle with apex δ above, base β γ with point ε on it between β and γ, interior point α joined by lines to δ, β, γ and ε]
 
+[Curated heading level=2 type=propositions: Propositio 21]
+
 ## Eucli. ex Camp. Propositio 21
 
 [Curated heading level=3 type=campanus_sequence: 21.]
@@ -23,6 +25,8 @@ CAMPANVS. Anguli solidi quantitas, ex angulorū superficialium ipsum solidum con
 Si autē angulus a supremus in assumpta pyramide pluribus angulis supficialibus  quàm tribus cōtineatur quod erit secundum multitudinē angulorū suæ basis, cum igitur omnes anguli omnium triangulorū ipsam pyramdem{printer-error-correction:pyramidem} circundantiū pariter accepti sint ex 32 primi, tot rectis angulis æquales quantus est numerus angulorū suæ basis duplicatus eo q̃ tot necesse est esse triangulos pyramidem circumdantes quot fuerint anguli suæ basis, cumq̃ omnes anguli suæ basis sint tot rectis angulis æquales quantus est numerus angulorū suorū duplicatus, demptis inde 4 ut in 32 primi demonstratum est, cumq̃ igitur omnes anguli triangulorū pyramidem circūdantiū qui super latera basis ipsius pyramidis consistunt pariter accepti sint maiores omnibus angulis basis pariter acceptis, ut euidenter constat ex præmissa toties quot angulos basis habuerit repetita, adhuc necessario sequitur ex communi scientia superficiales angulos solidum angulum a continentes pariter acceptos esse minores quatuor rectis, eo inquam minores quo omnes anguli trigonorū pyramidem circūdantium qui super latera basis statutæ pyramidis consistunt, excedunt omnes angulos basis pariter acceptos.
 
 [Diagram: pentagonal pyramid with apex a at top, interior vertex b, base corners c (left), f (right), d and e (below)]
+
+[Curated heading level=2 type=propositions: Theorema 19 Propositio 21]
 
 [Curated heading level=2 type=theorems: Theorema 19 Propositio 21]
 

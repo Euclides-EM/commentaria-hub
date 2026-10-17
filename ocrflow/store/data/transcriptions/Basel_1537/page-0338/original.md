@@ -4,6 +4,8 @@
 
 ne.sequitur ex diffinitione lineam b c esse residuum primum. Quod est propositum.
 
+[Curated heading level=2 type=propositions: Theorema 73 Propositio 97]
+
 [Curated heading level=2 type=theorems: Theorema 73 Propositio 97]
 
 ## Eucli.ex Zamb. Theorema 73 Propositio 97
@@ -20,6 +22,8 @@ THEON ex Zāb. Sit apotome α β, rationalis autem sit γ δ, & ei quod ex α β
 
 [Diagram: horizontal line with points α, β, η; below it a rectangle with top corners γ (left) and μ (right), bottom corners δ (left) and λ (right); points ζ, ν, κ on the top side and ε, ξ, θ on the bottom side, with vertical lines dividing the rectangle at ζ–ε, ν–ξ and κ–θ]
 
+[Curated heading level=2 type=propositions: Propositio 93]
+
 ## Eucli.ex Camp. Propositio 93
 
 [Curated heading level=3 type=campanus_sequence: 93.]
@@ -31,6 +35,8 @@ THEON ex Zāb. Sit apotome α β, rationalis autem sit γ δ, & ei quod ex α β
 CVm adiuncta fuerit superficies æqualis quadrato residui medialis ptimi{printer-error-correction:primi} ad lineam rationem{printer-error-correction:rationalem}, alterum latus eius erit residuum secundum.
 
 CAMPANVS Hic erit linea d e residuum mediale primum, & linea e f erit linea illa per cuius abscisionem d e fuerat residuum mediale primum. Dico quod b c erit residuū secundum. Quod nescire non poteris, si demonstrationi præmissæ (quousque eam solido amplectaris habitu) institeris, & quales lineas oporteat esse d f & f e uigilanter attenderis. de quo si dubitas, 69 requirenda erit.
+
+[Curated heading level=2 type=propositions: Theorema 74 Propositio 98]
 
 [Curated heading level=2 type=theorems: Theorema 74 Propositio 98]
 

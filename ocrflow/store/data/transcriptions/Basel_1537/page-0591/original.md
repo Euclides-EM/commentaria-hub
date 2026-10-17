@@ -4,6 +4,8 @@
 
 ex b c, ratio est data. Sed area d una cũ ea quæ ex b c est id quod ex utraque b a c. Ratio enim eius quod ex utraq̃ b a c ad id quod ex b c data est, quare & utriusque b a c ad b c ratio data est, estq̃ angulus qui sub b a c, datus: datur igitur triangulũ a b c specie.
 
+[Curated heading level=2 type=propositions: Theorema 81. Propositio 81.]
+
 [Curated heading level=2 type=theorems: Theorema 81. Propositio 81.]
 
 ## Theorema 81. Propositio 81.
@@ -14,6 +16,8 @@ Tres, inquam, rectæ lineæ proportionales existentes a, b, c. tribus rectis lin
 
 [Diagram: at right, six vertical line segments in two groups: c, b, a above and f, e, d below]
 
+[Curated heading level=2 type=propositions: Theorema 82. Propositio 82.]
+
 [Curated heading level=2 type=theorems: Theorema 82. Propositio 82.]
 
 ## Theorema 82. Propositio 82.
@@ -23,6 +27,8 @@ SI quatuor rectæ lineæ proportionales fuerint, erit sicut prima ad quam secund
 Sint quatuor rectæ lineæ proportiõales a, b, c, d, sicut a ad b sic c ad d. Dico quod est sicut a ad quã b rationẽ habet datã. Sic c ad quã d rationẽ habet datã: esto enim ad quã b rõnẽ habet datã e, fiatq̃ sicut b ad e, sic d ad f. Ratio aũt ipsius b ad e data, ratio igitur ipsius d ad f data. Et q̃m est sicut a ad b, sic c ad d. Est autẽ & sicut b ad e, sic d ad f. ex æquali igitur per uigesimãsecundam quinti elemẽ. sicut a ad e, sic e ad f. Estq̃ e ad quam b rationẽ habet datam & f ad quã d: est igitur sicut a ad quã b rationẽ habet datã, sic c ad quam d rationẽ habet datã.{printer-error-correction:sic c ad f}
 
 [Diagram: at right, horizontal line segments labelled e, f, a, b, c, d]
+
+[Curated heading level=2 type=propositions: Theorema 83. Propositio 83.]
 
 [Curated heading level=2 type=theorems: Theorema 83. Propositio 83.]
 

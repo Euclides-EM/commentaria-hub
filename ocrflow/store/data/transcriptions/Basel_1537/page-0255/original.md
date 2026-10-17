@@ -2,7 +2,11 @@
 
 <!-- Page number: 244 -->
 
+[Curated heading level=3 type=definitions: 10-12]
+
 10 Et quæ huic commensurabilia, rationalia. 11 Et quæ huic incōmensurabilia, irrationalia dicuntur. 12 Et ipsorum (si quadrata fuerint latera, sin autem, alia quæpiam rectilinea, ipsa potentes æqualiaq̃ ipsis quadrata describentes, irrationales uocentur.
+
+[Curated heading level=2 type=propositions: Propositio 1]
 
 ## Eucli. ex Camp. Propositio 1
 
@@ -19,6 +23,8 @@ CAMPANVS Sint duæ quantitates inæquales a & b c, b c maior: dico quod toties p
 [Diagram: at the right of the Campanus proof, vertical lines — a tall line divided into the segments f, e, d (the multiple d e f), with the short quantity a below; a tall line with c at its top and points b and g along it, ending at b below; and a shorter bracketed line divided into three parts marked k, l, m]
 
 CAMPANI annotatio. Attendere autem oportet, quod huic propositioni uidetur decima quinta tertij contradicere, proponens angulum contingentiæ minorem fore quolibet angulo à duabus lincis{printer-error-correction:lineis} rectis contento. Posito enim angulo quolibet rectilineo, si ab ipso maius dimidio dematur, itemq̃ de residuo maius dimidio, necesse uidetur hoc toties posse fieri quousque angulus rectilineus minor angulo cōtingentiæ relinquatur. cuius oppositum 15 tertij syllogizat. Sed hi nō sunt uniuoce anguli, non enim eiusdem sunt generis simpliciter curuum & rectum. At uero nec angulum contingentiæ toties contingit sumi, ut qualencunque rectilineum excedat, quod necessarium est (ut ex præhabita demonstratione patet) ad hoc ut consequens ex antecedente sequatur . Planum ergo est etiam quemlibet angulum rectilineum, infinitis angulis contingentiæ esse maiorem.
+
+[Curated heading level=2 type=propositions: Theorema 1 Propositio 1]
 
 [Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
 

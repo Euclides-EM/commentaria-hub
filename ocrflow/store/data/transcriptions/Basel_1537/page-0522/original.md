@@ -6,6 +6,8 @@ paret super k & d super l, hoc enim prius ostēsum est, ergo sinistra dextra app
 
 [Diagram: parallelogram with k at the top left and l at the top right corner; a horizontal line through e, f, a, b; d at the lower right; diagonals and rays crossing from a point at the far left]
 
+[Curated heading level=2 type=propositions: Theorema uigesimum.]
+
 [Curated heading level=2 type=theorems: Theorema uigesimum.]
 
 ## Theorema uigesimum.
@@ -15,6 +17,8 @@ IN conuexis speculis sinistra dextra, & dextra sinistra spectantur, & interuallu
 Sit speculum conuexum a c, centrum autem sphæræ sit h, oculus porro sit b, uisus autem sint b a, b c, refracti in d e, quod spectatur sit d e, & ab ipso h centro excitentur in d e, h d, h e, & extendātur uisus ad f g, & cōnectatur f g simulacrum. Igitur ipsum quidem d apparet super g, & e super f dextra igitur sinistra, & sinistra dextra spectantur. Dico quod maior est e l ipsa l f. excitetur per a ipsam tangens circunferentiam r a k. quoniam igitur b a, a e ad ipsam circunferentiam æquos efficiunt angulos, propter refractionem tangit ipsa K a r, bifariam fuerit sectus qui sub l a f angulus. & obtusus est angulus k. maior igitur est e k, ipsa k f multo maior igitur e l ipsa l f: minus igitur abest simulacrum f g à speculo: magis autem quod spectatur e d, sicut in sequenti patet.
 
 [Diagram: convex speculum arc with b at the top; on and about the arc the points g, f, c, l, k, a; long visual rays descending to e at the lower left, d at the bottom and b at the right]
+
+[Curated heading level=2 type=propositions: Theorema uigesimumprimum.]
 
 [Curated heading level=2 type=theorems: Theorema uigesimumprimum.]
 

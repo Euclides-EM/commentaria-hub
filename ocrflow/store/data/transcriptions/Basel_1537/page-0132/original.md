@@ -10,6 +10,8 @@ Conuersam huius demonstrare possumus, uidelicet, quod si contingit reperire aliq
 
 [Diagram: horizontal line segments with division marks, labelled p, n, m; g; f; a; b; c, l, d; e; k; set beside the paragraph]
 
+[Curated heading level=2 type=propositions: Propositio 13]
+
 ## Eucli. ex Camp. Propositio 13
 
 [Curated heading level=3 type=campanus_sequence: 13.]

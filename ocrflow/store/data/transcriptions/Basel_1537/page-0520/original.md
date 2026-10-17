@@ -6,6 +6,8 @@ d e: e f, excitetur per 11 primi elementorum perpendicularis ab ipso h in c d sp
 
 [Diagram: three plane specula; a long oblique line from a at top down to the left; horizontal line with points e, m, d; below it points o and p; a vertical line through x with k and e at its top; point n and q at right; at bottom the base line with points f, a and b, c, s; small triangles at b and at r near the base]
 
+[Curated heading level=2 type=propositions: Theorema decimumquartum.]
+
 [Curated heading level=2 type=theorems: Theorema decimumquartum.]
 
 ## Theorema decimumquartum.
@@ -15,6 +17,8 @@ ESt autem & in quibuslibet siquis constituat speculis idem inspicere, oportet au
 Esto enim quod spectari debeat a, oculus autem sit b & connectatur a b & ab ipso a b, describatur polygonum æquilaterum, & æquiangulum binis lateribus excedens ipsa specula, & sit a b d polygonum, & sumatur per 1 tertij elementorum centrum circuli ipsi polygono circunscripti, & sit h, & ab ipso h, cōnectantur h c, h e, h d, h b, h a, in angulis, & proponantur specula plana ad angulos rectos. Quoniam igitur per quartum postulatum æqualis est f l, angulus ipsi n k angulo: uterque enim rectus est, quorum n ipsi l est æqualis. reliquus igitur ipsi f k est æqualis. Quare refractio ipsius b uisus erit in d, per æquos enim angulos refractiones fiunt per primum theorema. Similiter iā ostendetur quod qui ad e signa ad omnia specula uenient in a.
 
 [Diagram: circle circumscribing a pentagon with vertices d at top, a at right, b at bottom; centre h with radii to the vertices; letters K, n, l, c, e, f near the sides; tangent specula at the vertices]
+
+[Curated heading level=2 type=propositions: Theorema decimumquintum.]
 
 [Curated heading level=2 type=theorems: Theorema decimumquintum.]
 

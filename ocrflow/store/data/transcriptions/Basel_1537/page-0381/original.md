@@ -6,6 +6,8 @@ THEON ex Zamb. Sit quidē data recta linea α β, datumq́̃ in ea signū sit α
 
 [Diagram: two pyramid-like solid angles: on the left, apex α with edges to β (left) and λ (right) and base points κ and θ joined by crossing lines; on the right, apex δ with edges to γ and ε and base points ζ and η joined by crossing lines]
 
+[Curated heading level=2 type=propositions: Propositio 27.]
+
 ## Eucli. ex Camp. Propositio 27.
 
 [Curated heading level=3 type=campanus_sequence: 27.]
@@ -19,6 +21,8 @@ THEON ex Zamb. Sit quidē data recta linea α β, datumq́̃ in ea signū sit α
 CAMPANVS. Sit assignata linea a b, de cuius situ utrū in plano iaceat uel sursum exurgat, nil curetur, sitq̃ assignatū parallelogrammū solidum, corpus c d, cui super lineam a b, iubemur simile solidum fabricare. Sint igitur tres lineæ continentes supficiales angulos, ex qbus cōponitur solidus angulus c, inscriptæ literis c e, c f, c g. At secundū præcepta præmissæ super punctū a lineæ a b, cōstituatur angulus solidus æqualis c, quem contineāt tres lineæ a b, a h, a k, & auxilio 10 sexti sit proportio c e ad a b, & e f ad a h, & g c ad a k, proportio una. Dehinc à tribus punctis b, h, k, ꝓtrahantur sex lineæ h l æquidistātes lineæ a b, & h m æquidistans lineæ a k, iterū b l æquidistās lineæ a h, & b n æquidistās lineæ a k, rursus quoq̃ k n æquidistās a b, & k m æquidistans a h, amplius autem protrahātur, m p æquidistās h l, & p l æquidistans h m, protrahatur quoq̃ & linea p n. Eritq̃ completū solidum parallelogrammū a p, quod dico esse simile solido c d. Hoc autem ex diffinitione similium superficierū & diffinitione similium corporū si earum memineris, facile concludes.
 
 [Diagram: two parallelepipeds: the larger on the left with visible labels a and k at top, b, m at the upper face, n at centre, h at the left, l and p at the bottom; the smaller on the right with labels c, g, f, e, d]
+
+[Curated heading level=2 type=propositions: Problema 5. Propositio 27.]
 
 [Curated heading level=2 type=problems: Problema 5. Propositio 27.]
 

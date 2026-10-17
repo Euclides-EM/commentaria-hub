@@ -10,6 +10,8 @@ THEON ex Zãb. Areola etenim α γ, cõprehēdatur sub ratiõali α β, ac ex bi
 
 [Diagram: square divided by a vertical and a horizontal line into four compartments; labels: τ, ς, π along the top, μ at the left, υ at the centre, ξ at the right, σ and ο along the bottom]
 
+[Curated heading level=2 type=propositions: Propositio 53]
+
 ## Eucli. ex Camp. Propositio 53
 
 [Curated heading level=3 type=campanus_sequence: 53.]
@@ -25,6 +27,8 @@ CAMP. Hæc 53, adhuc te sustinet ociari a pingēdis figuris, cõtēta enim est p
 [Diagram: rectangle divided by three horizontal lines into four bands; left side labels from top: a, K, b, g; right side labels: b, f, d, e, c]
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
+
+[Curated heading level=2 type=propositions: Theorema 41 Propositio 59]
 
 [Curated heading level=2 type=theorems: Theorema 41 Propositio 59]
 

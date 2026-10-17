@@ -2,6 +2,8 @@
 
 <!-- Running title: GEOMET. ELEMEN. EVCLIDIS -->
 
+[Curated heading level=3 type=definitions: 16-33]
+
 sunt æquales. 16 Et hic quidem punctus: centrum circuli dicitur.
 
 17 Diameter circuli, est linea recta quæ super eius centrum transiens, extremitatesq́ʒ suas circunferentiæ applicans, circulum in duo media diuidit. 18 Semicirculus, est figura plana diametro circuli & medietate circunferentiæ contenta. 19 Portio circuli, est figura plana recta linea & parte circunferentiæ contenta, semicirculo quidem aut maior aut minor.

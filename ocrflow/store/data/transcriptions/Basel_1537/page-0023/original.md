@@ -4,6 +4,8 @@
 
 tem angulus a b d est æqualis angulo c b d, quod oportebat efficere.
 
+[Curated heading level=2 type=propositions: Problema 4. Propositio 9.]
+
 [Curated heading level=2 type=problems: Problema 4. Propositio 9.]
 
 ## Eucli. ex Zamb. Problema 4. Propositio 9.
@@ -20,6 +22,8 @@ THEON. ex Zamberto. Sit datus rectilineus angulus β α γ. Oportet ipsum bifari
 
 [Diagram: angle at α opening downwards to β and γ; points δ and ε on the two legs, the line δ ε drawn, the equilateral triangle δ ζ ε below it with ζ at the bottom, and the bisecting line α ζ]
 
+[Curated heading level=2 type=propositions: Propositio 10.]
+
 ## Eucli. ex Camp. Propositio 10.
 
 [Curated heading level=3 type=campanus_sequence: 10.]
@@ -33,6 +37,8 @@ THEON. ex Zamberto. Sit datus rectilineus angulus β α γ. Oportet ipsum bifari
 CAMPANVS. Sit proposita linea quā oportet diuidere per æqualia: linea a b, super ipsam cōstituam triangulum æquilaterū a b c, & angulum c diuido per æqualia secundum doctrinā præcedentis, per lineam c d. Dico quòd linea c d: diuidit datam lineā a b per æqualia. Intelligo enim duos triangulos: a c d & b c d, & argumentor sic: duo latera a c & c d triāguli a c d, sunt æqualia duobus lateribus b c & c d triāguli b c d, & angulus c unius angulo c alterius: ergo per 4. basis a d, basi b d q̃d est ꝓpositū.
 
 [Diagram: equilateral triangle with apex c above the base a b; the line c d drawn from the apex to the midpoint d of the base]
+
+[Curated heading level=2 type=propositions: Problema 5. Propositio 10.]
 
 [Curated heading level=2 type=problems: Problema 5. Propositio 10.]
 
@@ -50,6 +56,8 @@ THEON. ex Zamberto. Sit data linea terminata α β. oportet lineā α β bifaria
 
 [Diagram: equilateral triangle with apex γ above the base α β; the line γ δ drawn from the apex to the midpoint δ of the base]
 
+[Curated heading level=2 type=propositions: Propositio 11.]
+
 ## Eucli. ex Camp. Propositio 11.
 
 [Curated heading level=3 type=campanus_sequence: 11.]
@@ -63,6 +71,8 @@ THEON. ex Zamberto. Sit data linea terminata α β. oportet lineā α β bifaria
 CAMPANVS. Sit data linea a b: in qua sit datus punctus c, à quo oportet perpendicularem extrahere. Faciam ergo per 3 propositionem: lineam b c æqualem lineæ a c. & super totam a b constituo triangulum æquilaterum a b d. & protraho lineam c d. de qua dico quod ipsa est perpendicularis super lineam a b. Intelligo duos triangulos a c d & b c d. & quia duo latera a c & c d, trianguli a c d sunt æqualia duobus lateribus c b & c d, trianguli c b d, & basis a d basi b d: erit per 8 propositionē angulus a c d æqualis angulo b c d. quare uterque eorum erit rectus, per diffinitionem anguli recti: & linea c b perpendicularis super lineam a b, per diffinitionem lineæ perpendicularis. Quod est propositum.
 
 [Diagram: triangle with apex d above; base line a b with the point c between a and b, and the perpendicular line d c drawn from the apex to c]
+
+[Curated heading level=2 type=propositions: Problema 6. Propositio 11.]
 
 [Curated heading level=2 type=problems: Problema 6. Propositio 11.]
 

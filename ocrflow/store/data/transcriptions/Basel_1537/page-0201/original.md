@@ -6,6 +6,8 @@ CAMPANVS. Sint a & b, priores, c & d, posteriotes: sitq̃ uterque duorum a & b, 
 
 [Diagram: dotted number lines beside the text: a·· b····· / e·········· / c··· d······· / f·····················]
 
+[Curated heading level=2 type=propositions: Theorema 26 Propositio 28]
+
 [Curated heading level=2 type=theorems: Theorema 26 Propositio 28]
 
 ## Eucli. ex Zamb. Theorema 26 Propositio 28
@@ -22,6 +24,8 @@ THEON ex Zamberto. Bini enim numeri α,β, ad binos numeros γ,δ, uterque ad ut
 
 [Diagram: dotted number lines beside the text: α··· / β····· / ε··············· / γ·· / δ···· / ζ········]
 
+[Curated heading level=2 type=propositions: Propositio 28]
+
 ## Eucli. ex Camp. Propositio 28
 
 [Curated heading level=3 type=campanus_sequence: 28.]
@@ -37,6 +41,8 @@ CAMPANVS. Sint a & b, contra se primi, ducaturq̃ uterque in se, & proueniant ex
 Reliquum sic, est enim uterque duorum numerorum a & c, primus ad utrunq̃ duorum b & d, itaq̃ per 27, erit e primus ad f, quod est reliquū. Non solum autem erit e primus ad f, sed etiam per 25, ad b & ad d, itemq̃ per eandem f ad a & c. Sicq̃ si infinities duceretur utrunq̃ productorum in suum principium, essent omnes producti contra se primi, & non solum, sed quilibet eductus ab a, ad quemlibet eductum a b.
 
 [Diagram: dotted number lines beside the text: a·· / c···· / e········ / b··· / d········· / f···························]
+
+[Curated heading level=2 type=propositions: Theorema 27 Propositio 29]
 
 [Curated heading level=2 type=theorems: Theorema 27 Propositio 29]
 

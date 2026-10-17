@@ -4,6 +4,8 @@
 
 α β γ, centrum est ipsum κ. Duorum igitur circulorum sese inuicem secantium idem est centrum κ. quod (per 5 tertij) est impossibile. Circulus igitur circulum in pluribus quàm duobus signis non secat, quod fuerat ostendendum.
 
+[Curated heading level=2 type=propositions: Propositio 11]
+
 ## Eucli. ex Camp. Propositio 11
 
 [Curated heading level=3 type=campanus_sequence: 11.]
@@ -19,6 +21,8 @@ CAMPANVS Si enim linea transiens per centra duorum circulorum c e & d e sese con
 [Diagram: two circles touching internally at e above; line a b c d through the centres; lines e a and e b from the point of contact]
 
 [Diagram: two circles touching externally at e; line from a through the contact to b; d, c on the line between the centres]
+
+[Curated heading level=2 type=propositions: Theorema 10. Propositio 11.]
 
 [Curated heading level=2 type=theorems: Theorema 10. Propositio 11.]
 
@@ -37,6 +41,8 @@ THEON ex Zamberto. Bini inquam circuli α β γ, & α δ ε, sese adinuicem tang
 ALITER idem ostendere. Sed iam cadat sicut ζ γ, & extendatur in rectas directum lineæ, γ ζ, in η, signum, & coniungantur α η, & α ζ. Quoniam igitur α η, & η ζ, maior sunt ipsa α ζ, (per 20 primi,) sed α ζ, hoc est ipsi ζ θ, communis auferatur ζ η, reliqua igitur α η, & reliqua η θ, maior est, hoc est α η, quàm η θ, maiore minor, quod est impossibile. Similiter & si extra circulum paruum fuerit centrum maioris circuli, ostendemus impossibile.
 
 [Diagram: two circles touching internally at α; lines from the centres ζ and η within, extended towards the contact and to θ on the circumference; β, γ, δ, ε on the circles]
+
+[Curated heading level=2 type=propositions: Theorema 11. Propositio 12.]
 
 [Curated heading level=2 type=theorems: Theorema 11. Propositio 12.]
 

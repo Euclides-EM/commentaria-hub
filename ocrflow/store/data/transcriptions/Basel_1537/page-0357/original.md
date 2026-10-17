@@ -4,7 +4,7 @@
 
 quem continent hæ duæ lineæ perpendiculares uidelicet g h & g k,erit rectus: superficies a b c d dicitur orthogonaliter erecta super superficiem c d e f.
 
-[Curated heading level=3 type=definitions: Superficies æquidistantes]
+[Curated heading level=3 type=definitions: 4]
 
 [Curated heading level=3 type=campanus_sequence: 4.]
 
@@ -16,7 +16,7 @@ Superficies æquidistantes sunt quæ in utramlibet partem protractæ nō concurr
 
 Intellectum est quod dicitur.Scire tamen debes,quod omnes planæ superficies,aut sunt æquidistantes abinuicem,aut in omnem partem protractæ concurrent alicubi & super rectam lineam se secabunt.Lineas autem rectas nō est necessariū uel esse æquidistantes uel in utrāque partem protractas concurrere,quippe quæ in eadem superficie non sunt nec æquidistant ab inuicem,nec tamen quantumlibet protractæ concurrent.
 
-[Curated heading level=3 type=definitions: Aequa corpora]
+[Curated heading level=3 type=definitions: 5]
 
 [Curated heading level=3 type=campanus_sequence: 5.]
 
@@ -26,7 +26,7 @@ Intellectum est quod dicitur.Scire tamen debes,quod omnes planæ superficies,aut
 
 Aequa corpora sunt atque similia,quorum terminales superficies numero ac quantitate æquales unius creationis sint atque similes.
 
-[Curated heading level=3 type=definitions: Similia corpora]
+[Curated heading level=3 type=definitions: 6]
 
 [Curated heading level=3 type=campanus_sequence: 6.]
 
@@ -38,7 +38,7 @@ Similia corpora,sunt quæ similibus superficiebus numero æqualibus cōtinentur.
 
 Si has duas diffinitiones de corporibus æqualibus & similibus,non intelligis,ad diffinitionem similium superficierum positam in principio sexti recurre.
 
-[Curated heading level=3 type=definitions: Corpus serratile]
+[Curated heading level=3 type=definitions: 7]
 
 [Curated heading level=3 type=campanus_sequence: 7.]
 
@@ -50,7 +50,7 @@ Corpus serratile,dicitur quod quinque superficiebus quarum tres parallelogrammæ
 
 Domui quatuor parietes æquidistantes habenti,tectū unico fastigio supremis duorum parietum lateribus æquali & æquidistanti superpositū.serratilis corporis expressam similitudinem gerit.
 
-[Curated heading level=3 type=definitions: Sphæra,est transitus]
+[Curated heading level=3 type=definitions: 8]
 
 [Curated heading level=3 type=campanus_sequence: 8.]
 
@@ -62,7 +62,7 @@ Sphæra,est transitus arcus circunferētiæ dimidij circuli quoties sumpto uel s
 
 Super quamlibet lineam semicirculo descripto,si linea illa fixa semicirculus tota reuolutione circunducatur,corpus quod describitur,sphæra nominatur.Cuius centrū,constat esse centrum semicirculi circunducti.
 
-[Curated heading level=3 type=definitions: Pyramis laterata]
+[Curated heading level=3 type=definitions: 9]
 
 [Curated heading level=3 type=campanus_sequence: 9.]
 
@@ -74,7 +74,7 @@ Pyramis laterata,est figura corporea quam continent superficies à quarum una re
 
 In omni laterata pyramide cunctæ superficies ipsam ambiētes,ab ipsius basi ad unū punctum subleuantur,qui conus pyramidis dicitur:suntque oēs hæ laterales superficies,triangulæ,basis uero frequenter non est triangula.
 
-[Curated heading level=3 type=definitions: Pyramis rotunda]
+[Curated heading level=3 type=definitions: 10]
 
 [Curated heading level=3 type=campanus_sequence: 10.]
 

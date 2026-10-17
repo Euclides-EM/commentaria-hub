@@ -6,6 +6,8 @@ quæ concurrent in puncto d, a quo ducam perpendiculares ad tria latera ipsius t
 
 [Diagram: triangle a b c with inscribed circle, centre d; perpendiculars d e, d f, d g drawn to the three sides]
 
+[Curated heading level=2 type=propositions: Problema 4 Propositio 4]
+
 [Curated heading level=2 type=problems: Problema 4 Propositio 4]
 
 ## Eucli. ex Zamb. Problema 4 Propositio 4
@@ -21,6 +23,8 @@ In dato triangulo, circulum describere.
 THEON ex Zamb. *Sit datum triangulum α β γ. oportet iam in triangulo α β γ, circulum describere. Secentur (per 9 primi) anguli α β γ, & α γ β, bifariam, per rectas lineas β δ, & γ δ, quæ concurrant adinuicem in signo δ. Excitenturq́; (per 12 primi) ab ipso δ, in ipsas α β, β γ, & γ α, rectas lineas: perpendiculares δ ε, δ ζ, & δ η. Et quoniam æqualis est angulus α β δ, angulo γ β δ, rectus etiam angulus β ε δ, recto β ζ δ: duo triangula sunt β ε δ, β ζ δ, duos angulos duobus angulis habētia æquales, & unū latus uni lateri æquale, quod uni ex æqualibus angulorum subtenditur β δ, scilicet quod commune ipsis est: æqualium angulorum subtendens: reliqua igitur latera (per 26 primi) reliquis lateribus æqualia habebunt, æqualis igitur est δ ε, ipsi δ ζ. per hoc etiam δ η, ipsi δ ζ, est æqualis, tres igitur δ ε, δ ζ, δ η, sibi inuicem sunt æquales (per 1 cōmunem sententiam.) Cētro igitur δ, spatio uero aut δ ε, aut δ ζ, aut δ η, circulus descriptus, per reliqua signa transibit, & tanget rectas lineas α β, β γ, γ α, quoniam anguli ad ε ζ η, signa existentes, recti sunt. Si enim eas secat, erit ab extremitate diametri circuli ad angulos rectos excitata, in circulum cadens, quod esse impossibile patuit (per 16 tertij.) Circulus igitur descriptus centro δ, spatio uero aut δ ε, aut δ ζ, aut δ η, rectas lineas α β, β γ, γ α, non secat, tanget igitur, & erit circulus descriptus in triangulo α β γ. in dato triāgulo igitur α β γ, circulus descriptus est ε ζ η. Quod facere oporteat.*
 
 [Diagram: triangle α β γ with inscribed circle ε ζ η, centre δ; the bisectors β δ, γ δ and the perpendiculars δ ε, δ ζ, δ η]
+
+[Curated heading level=2 type=propositions: Propositio 5]
 
 ## Eucli. ex Camp. Propositio 5
 

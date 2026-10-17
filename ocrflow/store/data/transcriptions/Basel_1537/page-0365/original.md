@@ -4,6 +4,8 @@
 
 diculariter erectã supra superficiẽ in qua est linea b a. A diffinitione igitur erit angulus f b a, rectus. Et quia etiam angulus d b a est rectus per ultimã pertem{printer-error-correction:partem} 29 primi, sequitur per 4 huius, lineã a b esse perpendicularẽ ad superficiẽ in qua sitæ sunt duæ lineæ b d & b f. Quare constat propositũ.
 
+[Curated heading level=2 type=propositions: Theorema 8 Propositio 8]
+
 [Curated heading level=2 type=theorems: Theorema 8 Propositio 8]
 
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
@@ -20,6 +22,8 @@ THEON ex Zamb Sint binæ rectæ lineæ parallelæ α β, γ δ, altera autẽ ip
 
 [Diagram: two vertical parallels α β and γ δ; the line β δ joins their feet, with ε below; lines α δ, β ε and α ε drawn, forming triangles on the base β δ]
 
+[Curated heading level=2 type=propositions: Propositio 9]
+
 ## Eucli. ex Camp. Propositio 9
 
 [Curated heading level=3 type=campanus_sequence: 9.]
@@ -33,6 +37,8 @@ SI duæ lineæ uni non in una superficie æquidistant, eas quoq̃ sibi inuicem �
 CAMPANVS. Sit utraq̃ duarũ linearũ a b & c d æquidistans lineæ e f, nec sint omnes in superficie una. Dico ꝙ eædem quoq̃ sibi inuicẽ sunt æquidistãtes. De ijs quidẽ quæ sunt omnes in superficie una, probatũ est per 30 primi. At uero de ijs quæ in una superficie non sunt, ut est hic e f quæ intelligatur sursum erecta in sublimi, restat hoc loco probandum. Signetur itaq̃ in ea punctus g, à quo educantur duæ perpendiculares ad duas lineas a b & c d, quæ sint g h & g k, eritq̃ per 4 huius linea e f, perpẽdicularis ad superficiẽ, uidelicet, illam in qua sunt sitæ duæ lineæ g h & g k. Itaq̃ per præmissam bis assumptã utraq̃ illarũ duarũ linearũ a b & c d, perpendicularis est ad eandẽ superficiẽ uidelicet ad illam in qua sitæ sunt dictæ duæ lineæ g h & g k, per 6 huius igitur ipsæ sunt sibi inuicẽ æquidistãtes. Quod est propositũ.
 
 [Diagram: three horizontal lines: a b with h upon it, e f with g upon it, and c d with k upon it; the obliques g h and g k drawn from g to the outer lines]
+
+[Curated heading level=2 type=propositions: Theorema 9 Propositio 9]
 
 [Curated heading level=2 type=theorems: Theorema 9 Propositio 9]
 

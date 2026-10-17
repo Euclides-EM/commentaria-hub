@@ -2,6 +2,8 @@
 
 <!-- Running title: EVCLIDIS MEGARENSIS -->
 
+[Curated heading level=2 type=propositions: Theorema decimumquintum.]
+
 [Curated heading level=2 type=theorems: Theorema decimumquintum.]
 
 ## Theorema decimumquintum.
@@ -11,6 +13,8 @@
 Sit nempe maius b c ipso h f, ponaturq́ ut oculus sit k, super ipsa b c, & h f, procidatq́ radius per h, sitq́ k d. igitur b c ipso h f maius apparet ipso b d, æquum enim apparebat h f ipsi d c, quoniam iam sub eodem oculo κ & radio k d aspiciebatur. Rursus iam permutetur oculus k, sitq́ oculus in l & ꝑ h, procidat radius l n, igitur rursus b c ipso h f maius apparet ipso b n minore, igitur ipsum b c, ipsum h f. uidetur excedere abeunte oculoque adhærente.
 
 [Diagram: vertical line b–c at left with points n, h, d on it; eye κ above and second eye position l at right; rays κ–d and l–n crossing the vertical line at h]
+
+[Curated heading level=2 type=propositions: Theorema decimumsextum]
 
 [Curated heading level=2 type=theorems: Theorema decimumsextum]
 
@@ -22,6 +26,8 @@ Esto, inquam, maius b ipso h κ, & oculo l inferius posito cadat radius l c. per
 
 [Diagram: vertical line at left with e at top and d below it; diagonal lines crossing at b right of centre; base line with points f, κ, l, n]
 
+[Curated heading level=2 type=propositions: Theorema decimumseptimum.]
+
 [Curated heading level=2 type=theorems: Theorema decimumseptimum.]
 
 ## Theorema decimumseptimum.
@@ -32,6 +38,8 @@ Excedat, inquam, b d ipsum h g ipso b c & connexa c h per 1 postulatum extēdatu
 
 [Diagram: horizontal line through the eye positions f and κ ending at h; vertical line b–d at right with points c and g on it]
 
+[Curated heading level=2 type=propositions: Theorema decimumoctauum.]
+
 [Curated heading level=2 type=theorems: Theorema decimumoctauum.]
 
 ## Theorema decimumoctauum.
@@ -41,6 +49,8 @@ Excedat, inquam, b d ipsum h g ipso b c & connexa c h per 1 postulatum extēdatu
 Sit, inquam, quā oportet cognoscere. quanta sit data altitudo b c, cadatq́ radius solis ab ipso b ut b d, igitur umbra erit ut c d, cape magnitudinem quampiam notam sitque κ f annectatur per trigesimamprimam primi elemētorum sub angulo d, parallelū b c. igitur est sicut c ad c b, sic f ad f k. & nota est ratio ipsius d f ad ipsam f k, nota igitur est ipsius d c ad c b ratio. Sed d c umbra non est ipsa igitur c b altitudo nota est.
 
 [Diagram: right triangle with d at left, c at bottom right, b at top right; vertical κ–f inside the triangle parallel to b c]
+
+[Curated heading level=2 type=propositions: Theorema decimumnonum.]
 
 [Curated heading level=2 type=theorems: Theorema decimumnonum.]
 

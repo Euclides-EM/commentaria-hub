@@ -4,6 +4,8 @@
 
 do. Incommensurabiles igitur sunt ipsæ α β,γ δ, magnitudines. Si binæ igitur magnitudines inæquales exponantur auferaturq̃ semper à maiore minor, & reliqua tamen præcedentem non metiatur, ipsæ magnitudines erunt incommensurabiles, quod oportuit demonstrare.
 
+[Curated heading level=2 type=propositions: Propositio 3]
+
 ## Eucli. ex Camp. Propositio 3
 
 [Curated heading level=3 type=campanus_sequence: 3.]
@@ -21,6 +23,8 @@ Ex hoc itaque manifestum est, quæ duas metitur quātitates, maximam quoque comm
 CAMPANVS. Huius demonstrationem. si 2 septimi non ignoras, non potes ignorare. Si enim numeri nomen in quantitatis nomen conuertas, idem prorsus hic & illic efficies, processus enim utrobique idem erit.
 
 [Diagram: two horizontal lines at the right — a short line with b at its left and a at its right; a longer ticked line with d at its left and c at its right]
+
+[Curated heading level=2 type=propositions: Problema 1 Propositio 3]
 
 [Curated heading level=2 type=problems: Problema 1 Propositio 3]
 
@@ -40,6 +44,8 @@ CORRELARIVM. Ex hoc manifestum est, quod si magnitudo binas magnitudines mēsa f
 
 [Diagram: at the right of the Theon proof, three vertical lines — α β with α at its top and a point ζ along it, β below; the tall line γ δ with γ at its top and a point ε along it, δ below; and the short line η]
 
+[Curated heading level=2 type=propositions: Propositio 4]
+
 ## Eucli. ex Camp. Propositio 4
 
 [Curated heading level=3 type=campanus_sequence: 4.]
@@ -51,6 +57,8 @@ CORRELARIVM. Ex hoc manifestum est, quod si magnitudo binas magnitudines mēsa f
 {dropcap:P|lines=?|style=decorated|decoration="foliate ornament"}Ropositis tribus quantitatibus communicātibus, maximam eas communiter numerantem inuenire.
 
 CAMPANVS Hæc ex tertia septimi, sic patet. sicut præmissa ex secūda. Simulq̃ correlarium ex hac deduces, ut illic ex secunda deductū est.
+
+[Curated heading level=2 type=propositions: Problema 2 Propositio 4]
 
 [Curated heading level=2 type=problems: Problema 2 Propositio 4]
 

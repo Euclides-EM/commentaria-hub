@@ -12,6 +12,8 @@ Dico etiam, quod dimetiens ea bifariam secat. Quoniam enim α β æquum est ipsi
 
 [Diagram: parallelogram α β, γ δ with diagonal β γ]
 
+[Curated heading level=2 type=propositions: Propositio 35.]
+
 ## Eucli. ex Camp. Propositio 35.
 
 [Curated heading level=3 type=campanus_sequence: 35.]
@@ -30,6 +32,8 @@ CAMPANVS. Sint duæ lineæ a b & c d æquidistantes, inter quas fiat a c f e sup
 
 [Diagram: third case — parallelograms on base c e with c g meeting a b between f and b, intersection point k on line f e; letters a, f, g, h, b above, c, e, d below]
 
+[Curated heading level=2 type=propositions: Theorema 25. Propositio 35.]
+
 [Curated heading level=2 type=theorems: Theorema 25. Propositio 35.]
 
 ## Eucli. ex Zamb. Theorema 25. Propositio 35.
@@ -45,6 +49,8 @@ Parallelogramma in eadem basi & in eisdem parallelis existentia, adinuicem sunt 
 THEON ex Zamb. Sint parallelogramma α β γ δ & ε β γ ζ, in eadem basi existentia, (hoc est) β γ, & in eisdem parallelis (hoc est) α ζ & β γ. Dico quod α β γ δ, æquale est parallelogrammo ε β γ ζ. Quoniam enim parallelogrammū est α β γ δ, æqualis est α δ ipsi β γ (per 34 propositionem,) & id propterea etiam ε ζ ipsi β γ est æqualis: quare & α δ ipsi ε ζ est æqualis, & communis δ ε: tota igitur α ε toti δ ζ est æqualis. At α β ipsi δ γ est æqualis, duæ igitur ε α & α β, duabus ζ δ & δ γ sunt altera alteri æquales, & angulus ζ δ γ angulo ε α β æqualis, exterior interiori. Basis igitur ε β, (per quartam propositionem) basi ζ γ est æqualis, & triangulum ε α β, triangulo ζ δ γ est æquale. Cōmune auferatur triangulum δ γ ε, reliquum igitur trapezium α β γ δ, trapezio ε β γ ζ est æquale. Commune autem ponatur triangulum β γ δ: totum igitur parallelogrammum α β γ δ, toti parallelogrāmo ε β γ ζ est æquale. Parallelogrāma igitur & quæ sequuntur reliqua, quod ostendere oportuit.
 
 [Diagram: parallelograms α β γ δ and ε β γ ζ on the same base β γ between the same parallels, with connecting lines]
+
+[Curated heading level=2 type=propositions: Propositio 36.]
 
 ## Eucli. ex Camp. Propositio 36.
 

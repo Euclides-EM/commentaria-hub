@@ -6,6 +6,8 @@ duæ lineæ a b & c d, quales proponit 25, eruntq́ⳓ simili argumentatione pr�
 
 [Diagram: semicircle on diameter a b with apex e; perpendicular e g to a b at g; chords from e to a and to b; below, a short line b and a divided line c f d]
 
+[Curated heading level=2 type=propositions: Problema 11 Propositio 34.]
+
 [Curated heading level=2 type=problems: Problema 11 Propositio 34.]
 
 ## Eucli. ex Zamb. Problema 12{printer-error-correction:11} Propositio 34.
@@ -21,6 +23,8 @@ Binas rectas lineas potentia incommensurabiles efficientes compositum ex ijs qu�
 THEON ex Zamberto. Exponantur binæ mediæ potentia tantum commensurabiles α β, β γ, rationale comprehendentes quod sub ipsis, ut α β, ipsa β γ maius possit eo quod a sibi incommensurabili. Describaturq́ⳓ super ipsa α β, semicirculus α δ β, secteturq́ⳓ (per 10 primi) β γ, bifariam in ε, comparcturq́ⳓ{printer-error-correction:compareturq́ⳓ} (per 28 sexti) ad ipsam α β, ei quod ex β ε æquum parallelogrammū forma deficiens α{printer-error-correction:a} quadrata, sitq́ⳓ quod sub α ζ, ζ β. Incommensurabilis igitur est α ζ ipsi ζ β longitudine. Exciteturq́ⳓ (per 11 primi) ab ζ, ipsi α β ad angulos rectos ζ δ, connectanturq́ⳓ ipsæ α δ & δ β. Quoniam igitur incommensurabilis est α ζ ipsi ζ β, incommensurabile est igitur & quod sub β α & α ζ, ei quod sub α β. & β ζ. Aequale autem est id quod sub β α & α ζ, ei quod ex α δ, quod autem sub α β, β ζ, ei quod ex δ β, incommensurabile igitur est & id quod ex α δ, ei quod ex δ β. Et quoniam medium est quod fit ex α β, medium igitur est & compositum ex eis quæ ex α δ, δ β. Et quoniam dupla est β γ ipsius δ ζ, duplum igitur est quod sub α β, β γ, eius quod sub α β, ζ δ. Rationale autem est quod sub α β, β γ, supponitur enim: rationale igitur & quod sub α β, ζ δ. Ei autem quod sub α β, ζ δ, æquum est (per lemma 32 decimi) qnod{printer-error-correction:quod} sub α δ, δ β. Quare & quod sub α δ, δ β, rationale est. Inuentæ sunt igitur binæ rectæ lineæ potentia incommensurabiles α δ, δ β, efficientes compositum ex eis quæ ab ipsis sunt quadratis medium, quod uero sub ipsis rationale. Quod facere oportuit.
 
 [Diagram: semicircle α δ β drawn on a vertical diameter α β, with δ marked in the margin; the perpendicular from ζ meets the arc, chords joining α and β to δ; the point ε on the diameter; the line continued below β down to γ]
+
+[Curated heading level=2 type=propositions: Propositio 29]
 
 ## Eucli. ex Camp. Propositio 29
 

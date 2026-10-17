@@ -6,6 +6,8 @@ planis angulis qui sub β α γ, δ α γ, δ α β. Dico quod ipsi β α γ, δ
 
 [Diagram: triangle with apex β at top, base corners γ (left) and δ (right), interior point α joined by lines to the three vertices]
 
+[Curated heading level=2 type=propositions: Propositio 22]
+
 ## Eucli. ex Camp. Propositio 22
 
 [Curated heading level=3 type=campanus_sequence: 22.]
@@ -23,6 +25,8 @@ CAMPANVS. Sint tres superficiales anguli b a c, e d f, h g k, ut proponitur, tal
 [Diagram: second row of three lower triangles: apex a with point l at the left joined into the triangle, base b c; apex d, base e f; apex g, base b k ]
 
 [Diagram: third row: point l above left of a small triangle with apex a and base b c, joined by lines to it; triangle with apex d and base e f; triangle with apex g and base b k ]
+
+[Curated heading level=2 type=propositions: Theorema 20 Propositio 22]
 
 [Curated heading level=2 type=theorems: Theorema 20 Propositio 22]
 

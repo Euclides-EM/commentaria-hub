@@ -6,11 +6,15 @@ ex 58 c d binomium quintum, aut ex 59 binomiū sextum. Et quia impossibile est c
 
 [Diagram: horizontal line labelled a at its left end; below it a rectangle with d at the top right corner, b at the bottom left and c at the bottom right, with tick marks along the base]
 
+[Curated heading level=2 type=zamberti_sequence: THEON]
+
 ## THEON
 
 Quæ ex binis nominibus, & post ipsam irrationales, neq̃ mediæ, neq̃ inuicem sunt eædem. Quod enim ex media ad rationalem comparatū, latitudinem efficit rationalem, & ei longitudine incōmensurabilem ad quam comparatur (per 22 decimi.) Quod ex ea quæ ex binis nominibus ad rationalem comparatū, latitudinē efficit ex binis nomiuibus{printer-error-correction:nominibus} primam (per 60 decimi.) Quod ex ea uero quæ ex binis prima medijs ad rationalē comparatū, latitudinē efficit ex binis nominibus secundam (per 61 decimi.) Quod ex ea autem quæ ex binis secunda medijs ad rationalem comparatū, latitudinē efficit ex binis nominibus tertiam (per 62 decimi.) Verum quod ex maiore ad rationalē comparatū, latitudinē efficit ex binis nominibus quartam (per 63 decimi.) Sed quod ex rationale ac medium potente ad rationalem comparatum, latitudinem efficit ex binis nominibus sextam (per 65 decimi.)
 
 Quoniam prædictæ latitudines differunt & à prima & adinuicem, à prima quoniam rationalis est, adinuicem uero quia in ordine non sunt eædem, manifestum est quod & ipsæ irrationales adinuicem differunt.
+
+[Curated heading level=2 type=propositions: Propositio 68]
 
 ## Eucli. ex Camp. Propositio 68
 
@@ -27,6 +31,8 @@ CAMPANVS. Sit linea b c, abscisa ex a b, sintq̃ ambæ rationales tantum potenti
 [Diagram: horizontal line with points a (left), c (middle right), b (right); below it a rectangle with g at the upper left and h at the left below it, divided by a horizontal line with f inside at the right; d at the bottom left and e at the bottom right]
 
 Incipiunt hexades per aphæresin, hoc est per abscisionem.
+
+[Curated heading level=2 type=propositions: Theorema 55 Propositio 73]
 
 [Curated heading level=2 type=theorems: Theorema 55 Propositio 73]
 

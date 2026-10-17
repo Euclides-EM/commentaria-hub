@@ -2,6 +2,8 @@
 
 <!-- Page number: 396 -->
 
+[Curated heading level=2 type=propositions: Theorema 6 Propositio 6]
+
 [Curated heading level=2 type=theorems: Theorema 6 Propositio 6]
 
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
@@ -17,6 +19,8 @@ Sub eadem altitudine pyramides existentes, multangulasq̃ bases habentes, adinui
 THEON ex Zamb. Sint sub eadem altitudine pyramides, multangulas bases habentes, hoc est α β γ, δ ε, ζ η θ κ λ, fastigia uero μ, ν, signa. Dico quod est sicut α β γ δ ε basis ad ζ η θ κ λ basin, sic est α β γ δ ε μ, pyramis ad ζ η θ κ ν{printer-error-correction:ζ η θ κ λ ν} pyramida. Diuidatur enim ipsa α β γ δ ε basis in triangula α β γ, α γ δ, α δ ε & ζ η θ κ λ in ζ η θ, ζ θ κ, ζ κ λ triangula. Intelliganturq̃; ab unoquoq̃; triangulo, pyramides æquæ altæ eis quæ in principio pyramidibus. Et quoniā est sicut α β γ triangulum ad α γ δ triangulū, sic est α β γ μ pyramis ad α γ δ μ pyramida, & componendo (per 18 quinti) sicut α β γ δ trapezium ad α γ δ triangulum, sic α β γ δ μ pyramis ad α γ δ μ pyramida, sed & sicut α γ δ triangulum ad α δ ε triangulum sic α γ δ μ pyramis ad α δ ε μ pyramida, ex æquali igitur (per 22 quinti) est sicut α β γ δ basis ad α δ ε basin, sic α β γ δ μ pyramis ad ipsam α δ ε μ pyramida: & cōponendo rursus (per 18 quinti) sicut α β γ δ ε basis ad ipsam α δ ε, sic α β γ ε μ{printer-error-correction:α β γ δ ε μ} pyramis ad α δ ε μ pyramida. Idq̃; propterea etiam sicut ζ η θ κ λ basis ad ζ κ λ basin, sic & ζ η θ κ λ ν pyramis ad ζ κ λ ν pyramida. Et quoniā binæ pyramides sunt α δ ε μ, ζ κ λ ν, triangulas habētes bases ac sub eadem altitudine, est igitur (per 5 duodecimi) sicut α δ ε basis ad ζ κ λ basin, sic α δ ε μ pyramis ad ipsam ζ κ λ ν pyramida. Quoniam igitur sicut α β γ δ ε basis ad α δ ε basin, sic α β γ δ ε μ pyramis ad α δ ε μ pyramida, sicut autē α δ ε basis ad ζ κ λ basin, sic α δ ε μ pyramis ad ζ κ λ ν pyramida, ex æquali igitur (per 22 quinti) & sicut α β γ δ ε basis ad ζ κ λ basin, sic α β γ δ ε μ pyramis ad ζ κ λ ν pyramida. Sed & sicut ζ κ λ basis ad ζ η θ κ λ basin, sic erat & ζ κ λ ν pyramis ad ζ η θ κ λ ν pyramida: & ex æquali rursus (per 21 quinti) est sicut α β γ δ ε basis ad ζ η θ κ λ basin, sic α β γ δ μ{printer-error-correction:α β γ δ ε μ} pyramis ad ζ η θ κ λ{printer-error-correction:ζ η θ κ λ ν} pyramida. Sub eadem altitudine igitur, & quæ sequuntur reliqua. Quod erat ostendendum.
 
 [Diagram: two pyramids on pentagonal bases drawn in perspective — the left with apex μ and base α β γ δ ε (γ at left, β at centre, α at bottom, δ at lower left, ε at right), the right with apex ν and base ζ η θ κ λ (θ at left, η at top, ζ at right, κ and λ below), with diagonals drawn dividing the bases into triangles]
+
+[Curated heading level=2 type=propositions: Propositio 6]
 
 ## Eucli. ex Camp. Propositio 6
 

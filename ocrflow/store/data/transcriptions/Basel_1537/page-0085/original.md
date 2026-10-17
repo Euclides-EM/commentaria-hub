@@ -4,6 +4,8 @@
 
 lineæ ad extremitates chordarum: quæ sint d a, d c, h e, h g: & quia circuli positi sunt fore æquales: erunt hæ semidiametri æquales: & quia linea a c posita est æqualis lineæ e g, erit per 8 primi, angulus d æqualis angulo h totali: quare per 25 huius, erit arcus a b c, æqualis arcui e f g: sicq̃ patet primum. Secundum sic. Sit e g maior a c: eritq̃ per 25 primi, angulus h, maior angulo d. Fiat ergo angulus f h g æqualis angulo d: eritq̃ per 25 huius, arcus f g, æqualis arcui a b c. Quare arcus e f g, est maior arcu a b c, quod est secundum propositum.
 
+[Curated heading level=2 type=propositions: Theorema 25. Propositio 28.]
+
 [Curated heading level=2 type=theorems: Theorema 25. Propositio 28.]
 
 ## Eucli. ex Zamb. Theorema 25. Propositio 28.
@@ -22,6 +24,8 @@ THEON ex Zamberto. *Sint æquales circuli α β γ & δ ε ζ, & in eis sint æq
 
 [Diagram: circle with δ at the top, centre λ, the chord ε ζ with a triangle from the centre upon it, ζ at lower right, θ at the bottom]
 
+[Curated heading level=2 type=propositions: Propositio 28.]
+
 ## Eucli. ex Camp Propositio 28.
 
 [Curated heading level=3 type=campanus_sequence: 28.]
@@ -37,6 +41,8 @@ CAMPANVS. Sint duo circuli æquales a b c, cuius centrum d, & e f g cuius centru
 [Diagram: circle with d within, a at lower left, c at lower right, b at the bottom; the triangle a b c inscribed with apex at the top and lines from a and c to d]
 
 [Diagram: circle with h within, e at lower left, g at lower right, f at the bottom; the triangle inscribed with apex at the top and lines from e and g to h]
+
+[Curated heading level=2 type=propositions: Theorema 26. Propositio 29.]
 
 [Curated heading level=2 type=theorems: Theorema 26. Propositio 29.]
 

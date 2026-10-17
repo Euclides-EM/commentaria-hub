@@ -4,6 +4,8 @@
 
 nitionem septimi.) Ipsos igitur β, γ, numeros numerus aliquis non metietur. Ipsi igitur γ,β, primi adinuicem sunt, quod erat demonstrandum.
 
+[Curated heading level=2 type=propositions: Propositio 25]
+
 ## Eucli. ex Camp. Propositio 25
 
 [Curated heading level=3 type=campanus_sequence: 25.]
@@ -17,6 +19,8 @@ nitionem septimi.) Ipsos igitur β, γ, numeros numerus aliquis non metietur. Ip
 CAMPANVS. Sit uterque duorum numerorum a & b, primus ad e, & ex a in b sit d. Dico quod d est primus ad c, aliter enim numeret eos e,d, quidem secundum f: eritq̃ per secundam partem 20, a ad e, sicut f ad b, & quia a & c sunt primi, & e numerat c. ipse erit per 24 primus ad a, quare per 25 a & e, sunt secundum suam proportionem minimi: sequitur ergo per 21, ut e numeret b, & quia positum est quod ipse numeret c, non erunt b & c contra se primi, quod est contra hypothesin.
 
 [Diagram: dotted number lines beside the text: a··· b···· / c····· / d············ / e·· f······]
+
+[Curated heading level=2 type=propositions: Theorema 24 Propositio 26]
 
 [Curated heading level=2 type=theorems: Theorema 24 Propositio 26]
 
@@ -34,6 +38,8 @@ THEON ex Zamberto. Bini enim numeri α,β, ad aliquem numerū γ, primi sint, & 
 
 [Diagram: dotted number lines beside the text: α·· β··· / γ····· / δ····· / ε··· / ζ··]
 
+[Curated heading level=2 type=propositions: Propositio 26]
+
 ## Euclides ex Campano. Propositio 26
 
 [Curated heading level=3 type=campanus_sequence: 26.]
@@ -47,6 +53,8 @@ THEON ex Zamberto. Bini enim numeri α,β, ad aliquem numerū γ, primi sint, & 
 CAMPANVS. Sint contra se primi a & b, & ex a in se fiat c. Dico quod c primus est ad b: sit enim d, æqualis a, eritq̃ d primus ad b, & ex a in d, fiet c, per præmissam igitur patet c primum esse ad b, quod proposuimus.
 
 [Diagram: dotted number lines beside the text: a··· b···· / c········· / d···]
+
+[Curated heading level=2 type=propositions: Theorema 25 Propositio 27]
 
 [Curated heading level=2 type=theorems: Theorema 25 Propositio 27]
 
@@ -63,6 +71,8 @@ Si duo numeri primi adinuicem fuerint, qui ex uno eorum fit, ad reliquum primus 
 THEON ex Zamberto. Sint bini numeri primi adinuicem α,β, & α seipsum multiplicans, ipsum δ efficiat. Dico quod ipsi β,γ, primi adinuicem sunt. Ponatur enim ipsi α, æqualis δ. Et quoniam α, β, primi adinuicem sunt, æqualis autem est α ipsi δ, & δ, β: igitur primi adinuicem sunt: uterque igitur ipsorum δ,α, ad β primus est, & qui ex δ,α, igitur fit, ad β primus est (per 36 septimi.) Qui autem ex δ.α, fit numerus, est γ, igitur γ,β, primi adinuicem sunt, quod erat demonstrandum.
 
 [Diagram: dotted number lines beside the text: α·· β····· / γ······· / δ···]
+
+[Curated heading level=2 type=propositions: Propositio 27]
 
 ## Eucli. ex Camp. Propositio 27
 

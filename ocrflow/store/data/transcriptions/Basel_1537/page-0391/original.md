@@ -10,6 +10,8 @@ Non sit iam ε θ basis ipsi ν π basi æqualis,sed esto maior ε θ,maior igit
 
 [Diagram: second oblique parallelepiped; visible point labels include δ, ξ, θ, ν, χ, ψ, ω, γ]
 
+[Curated heading level=2 type=propositions: Propositio 37]
+
 ## Eucli.ex Camp. Propositio 37
 
 [Curated heading level=3 type=campanus_sequence: 37.]

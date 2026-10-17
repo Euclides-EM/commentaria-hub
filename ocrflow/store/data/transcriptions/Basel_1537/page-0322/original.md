@@ -6,6 +6,8 @@
 
 [Diagram: line α γ β]
 
+[Curated heading level=2 type=propositions: Propositio 72]
+
 ## Eucli. ex Camp. Propositio 72
 
 [Curated heading level=3 type=campanus_sequence: 72.]
@@ -19,6 +21,8 @@
 CAMPANVS. Et hoc quoq̀ nescire non potest qui priora nouerit, nisi a memoria exciderint: quin positis lineis a b & b c (quales proponitur, quæ & per 28 reperiuntur, & lineam potentem in rationale & mediale componunt, sit a c reliqua, irrationales{printer-error-correction:irrationalis}. & ipsa dicitur quæ iuncta cum rationali componit totum mediale.
 
 [Diagram: line a c b]
+
+[Curated heading level=2 type=propositions: Theorema 59 Propositio 77]
 
 [Curated heading level=2 type=theorems: Theorema 59 Propositio 77]
 
@@ -36,6 +40,8 @@ THEON ex Zamb. A recta enim linea α β, recta linea auferatur β γ, toti α β
 
 [Diagram: line α γ β]
 
+[Curated heading level=2 type=propositions: Propositio 73]
+
 ## Eucli. ex Camp. Propositio 73
 
 [Curated heading level=3 type=campanus_sequence: 73.]
@@ -49,6 +55,8 @@ THEON ex Zamb. A recta enim linea α β, recta linea auferatur β γ, toti α β
 CAMPANVS. Sint etiam hic a b & b c quales proponitur, quæ per 29 reperiuntur, & ipsæ sunt quæ cōponunt lineam potentē in duo medialia, eritq́; a c reliqua irrationalis dicta, quæ iuncta cum mediali componit totum mediale. Quod ut facile (sicut præmissa) duplici argumentatione concludes, processum 70 moneo diligenter attendas.
 
 [Diagram: line a c b]
+
+[Curated heading level=2 type=propositions: Theorema 60 Propositio 78]
 
 [Curated heading level=2 type=theorems: Theorema 60 Propositio 78]
 

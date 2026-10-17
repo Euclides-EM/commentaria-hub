@@ -12,6 +12,8 @@ Extendatur enim quædã in subiecto plano recta linea utcunq̃, sitq̃ θ γ{pri
 
 [Diagram: the horizontal line η θ; beneath it the line β δ γ; from α at the upper right the line α δ falls to δ; from δ the line δ ε rises toward ε at the upper left crossing η θ; α ζ drawn to ζ upon δ ε]
 
+[Curated heading level=2 type=propositions: Propositio 12]
+
 ## Eucli. ex Camp. Propositio 12
 
 [Curated heading level=3 type=campanus_sequence: 12.]
@@ -23,6 +25,8 @@ Extendatur enim quædã in subiecto plano recta linea utcunq̃, sitq̃ θ γ{pri
 SVperficie proposita, punctoq̃ in ea assignato, ab eo puncto ad datam superficiem, lineam orthogonaliter erigere.
 
 CAMPANVS. Cum à pũcto quolibet in superficie proposita assignato, perpendicularẽ educere libuerit, à quolibet puncto sursum in aere ad libitum posito, ad eandem superficiẽ perpendicularẽ (quemadmodũ præmissa docuit) demitte, quæ si assignatũ punctũ ceciderit, ipsa est quã quæris. Sin autẽ, ab ipsa assignato pũcto ad demissam perpendicularẽ, æquidistantẽ ducito, eamq̃ per 8 huius probabis esse quam quæris.
+
+[Curated heading level=2 type=propositions: Problema 2 Propositio 12]
 
 [Curated heading level=2 type=problems: Problema 2 Propositio 12]
 
@@ -39,6 +43,8 @@ Ad datũ planũ, à dato in eo signo, ad angulos rectos rectã lineã constituer
 THEON ex Zamb. Sit datũ planũ suppositũ, signũ autẽ in eo sit α. Oportet ab ipso α signo, ipsi supposito plano ad angulos rectos rectam lineã constituere. Intelligatur signũ quoddã in sublimi, sitq̃ β, & ab ipso β (per 11 undecimi) ad subiectum planũ perpendicularis excitetur β γ, exciteturq̃ (per 11 primi) ab ipso α signo, ad angulos rectos α δ. Quoniam igitur binæ rectæ lineæ parallelæ sunt α δ, γ β, altera autem ipsarũ β γ ad subiectũ planũ ad rectos est angulos, reliqua igitur α δ ad subiectũ ad angulos est rectos (per 8 undecimi:) ad datum igitur planũ, à signo in eo dato α, ad rectos angulos constituta est α δ. Quod facere oportebat.
 
 [Diagram: two vertical parallel lines, δ above α at the left and β above γ at the right]
+
+[Curated heading level=2 type=propositions: Propositio 13]
 
 ## Eucli.ex Camp. Propositio 13
 

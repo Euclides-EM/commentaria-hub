@@ -2,6 +2,8 @@
 
 <!-- Page number: 10 -->
 
+[Curated heading level=2 type=propositions: Theorema primum. Propositio 4.]
+
 [Curated heading level=2 type=theorems: Theorema primum. Propositio 4.]
 
 ## Eucli ex Zamb. Theorema primum. Propositio 4.
@@ -17,6 +19,8 @@ Si duo triangula duo latera duobus lateribus æqualia habuerint alterum alteri, 
 THEON ex Zamb. Sint duo triangula α β γ, δ ε ζ, duo latera uidelicet α β, α γ, duobus lateribus, hoc est, δ ε, δ ζ æqualia habentia alterum alteri, scilicet α β, ipsi δ ε, & α γ, ipsi δ ζ, & angulum β α γ, angulo ε δ ζ æqualem. Dico quod & basis β γ, basi ε ζ est æqualis, & triangulū α β γ, triangulo δ ε ζ æquum erit: & reliqui anguli reliquis angulis æquales erunt alter alteri sub quibus æqualia latera subtenduntur, hoc est, α β γ ipsi δ ε ζ, & α γ β, ipsi δ ζ ε. Congruente namq̃ triangulo α β γ ipsi δ ε ζ triangulo, ac posito signo α super δ, & recta linea α β super δ ε, congruit & signum β signo ε, ex eo quia linea α β ipsi δ ε est æqualis (per hypothesin). Et congruente linea α β ipsi δ ε lineæ, congruit & linea recta α γ ipsi lineæ δ ζ: quoniam angulus β α γ, ipsi ε δ ζ est æqualis (per hypothesin): signum igitur γ, ipsi signo ζ congruit. Rursus quoniam γ signum ipsi ζ signo congruit, at β signū ipsi ε signo congruit: basis igitur β γ, basi ε ζ congruit. Si enim congruente β ipsi ε, & γ ipsi ζ, basis β γ, basi ε ζ non congruit: duæ rectæ lineæ superficiem concludunt, quod (per 10 communem sententiam) est impossibile. Congruit ergo basis β γ, basi ε ζ, & ei est æqualis. Quare totum triangulum α β γ, toti triangulo δ ε ζ congruit (per 8 coummunem sententiam), & ei est æquale. Et reliqui anguli (per eandem) reliquis angulis congruent, & eis erunt æquales, hoc est angulus α β γ, angulo δ ε ζ, & angulus α γ β angulo δ ζ ε. Cum igitur bina triangula duo latera duobus lateribus æqualia habuerint alterum alteri, & angulum angulo æquum sub æqualibus rectis lineis contentum: basin quoque basi æqualem habebunt, & triangulum triangulo æquum erit, & reliqui anguli reliquis angulis æquales erunt alter alteri, sub quibus æqualia latera subtenduntur. Quod oportuit demonstrasse.
 
 [Diagram: two tall triangles side by side with Greek vertex labels; the left triangle δ ε ζ with curved lines below its base ε ζ, the right triangle α β γ]
+
+[Curated heading level=2 type=propositions: Propositio 5.]
 
 ## Eucli. ex Camp. Propositio 5.
 

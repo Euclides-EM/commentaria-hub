@@ -2,7 +2,11 @@
 
 <!-- Page number: 54 -->
 
+[Curated heading level=2 type=zamberti_sequence: Ex Zamberto. Diffinitiones.]
+
 ## Ex Zamberto. Diffinitiones.
+
+[Curated heading level=3 type=definitions: 1-10]
 
 {dropcap:A|lines=?|style=decorated|decoration="foliate ornament and vase"}Equales circuli, sunt quorum dimetientes sunt æquales, uel quorum quæ ex centris sunt æquales. 2 Recta linea circulum tangere dicitur, quæ circulum tangens & eiecta, circulum non secat, 3 Circuli sese tangere adinuicē dicūtur, qui sese inuicē tangentes non inuicē secant.
 
@@ -17,6 +21,8 @@ Circuli æquales — Linea cir. tangens. — Circuli se tangentes
 8 Cum uero comprehendentes angulum rectæ lineæ aliquam suscipiūt circunferentiam, in illa angulus esse dicitur. 9 Sector autem circuli, est cum ad centrum circuli steterit angulus, comprehēsa figura sub angulum comprehendentibus rectis lineis, & assumpta sub eis circunferentia. 10 Similia segmenta circuli, sunt quæ angulos æquos suscipiunt: uel in quibus anguli sibi inuicem sunt æquales.
 
 [Diagram: a circle with two radii forming a sector; a circle with an angle standing at the centre; two circles each with an inscribed triangle on a chord]
+
+[Curated heading level=2 type=propositions: Propositio 1.]
 
 ## Eucli. ex Camp. Propositio 1.
 

@@ -6,6 +6,8 @@ protrahātur à centro sphæræ, uidelicet, à puncto a, perpendiculares, secund
 
 [Diagram: two circles side by side, the left with points b (left), d (top); the right with points c (right), e (top); a at the meeting point between them at bottom centre]
 
+[Curated heading level=2 type=propositions: Propositio 10]
+
 ## Eucli. ex Camp. Propositio 10
 
 [Curated heading level=3 type=campanus_sequence: 10.]

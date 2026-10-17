@@ -6,6 +6,8 @@ CAMPANVS. Sit a numerus par cuius dimidium b, sitq̃ c numerus impar qui numeret
 
 [Diagram: dotted lines labelled a, b, c at left and f, e, d at right]
 
+[Curated heading level=2 type=propositions: Theorema 30 Propositio 30]
+
 [Curated heading level=2 type=theorems: Theorema 30 Propositio 30]
 
 ## Eucli. ex Zamb. Theorema 30 Propositio 30
@@ -22,6 +24,8 @@ THEON ex Zamb. Impar enim numerus α, parem numerum β metiatur. Dico quod & eiu
 
 [Diagram: dotted lines labelled α, γ, β]
 
+[Curated heading level=2 type=propositions: Propositio 34]
+
 ## Eucli. ex Camp. Propositio 34
 
 [Curated heading level=3 type=campanus_sequence: 34.]
@@ -35,6 +39,8 @@ THEON ex Zamb. Impar enim numerus α, parem numerum β metiatur. Dico quod & eiu
 CAMPANVS. Sit a numerus impar primus ad b, cuius duplum sit c. Dico quod a est primus ad c, sin autem, numeret eos d. Cumq̃ a sit impar, sequitur d esse imparem, quicunq̃ enim impar parem numerat, pari numero cum numerabit per 31, per præmissam itaq̃ a numerabit b, non sunt igitur a & b contra se primi, quod est contra hypothesin.
 
 [Diagram: dotted lines c, a, b; solid line d at right]
+
+[Curated heading level=2 type=propositions: Theorema 31 Propositio 31]
 
 [Curated heading level=2 type=theorems: Theorema 31 Propositio 31]
 
@@ -51,6 +57,8 @@ Si impar numerus ad numerum aliquem primus fuerit, & ad ipsius duplum primus eri
 THEON ex Zamb. Impar enim numerus α, ad numerum aliquem β, primus esto, ipsi is{printer-error-correction:ipsius} autem β, duplus esto γ. Dico quod α ad γ primus est. Si autem α,γ, non sunt primi, metitur eos aliquis numerus, metiatur, & esto δ: est autem impar numerus, α, impar igitur & δ. Et quoniam δ impar existens ipsum γ metitur, est autem & γ par, igitur δ metietur ipsius γ dimidium (per præcedentem) Dimidium autem ipsius γ, est β, igitur δ ipsum β metitur. metitur autem & α. Igitur δ, ipsos α,β, metitur primos adinuicem existentes, quod est absurdum. Igitur α ad γ primus est. Ipsi igitur α,γ, primi sunt adinuicē, quod erat ostendendum.
 
 [Diagram: dotted lines α, β, γ; solid line δ]
+
+[Curated heading level=2 type=propositions: Propositio 35]
 
 ## Eucli. ex Camp. Propositio 35
 

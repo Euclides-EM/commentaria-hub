@@ -6,6 +6,8 @@ tangentes rectas lineas (per 2 diffinitionẽ undecimi) & in subiecto plano exis
 
 [Diagram: two vertical parallels α β and γ δ; the line β δ joins their feet, with ε below; lines α δ, β ε and α ε drawn, forming triangles on the base β δ]
 
+[Curated heading level=2 type=propositions: Propositio 7]
+
 ## Eucli. ex Camp. Propositio 7
 
 [Curated heading level=3 type=campanus_sequence: 7.]
@@ -19,6 +21,8 @@ SI in duabus lineis æquedistantibus, duobus punctis signatis, ab altero ad alte
 CAMPANVS. Sint duæ lineæ a b & d c æquidistantes, de quibus constat per diffinitionẽ ꝙ ipsæ sunt in supficie una, in eis autẽ signentur duo puncta e & f, & ꝓducatur linea recta e f. Dico itaq̃ lineã e f, esse sitam in superficie linearũ a b & c d. Sin autẽ sit e f in alia supficie ut in sublimi, depẽdens quoq̃ supficies si ꝓtrahatur, secabit necessario superficiẽ in qua sitæ sunt duæ lineæ a b & c d, eritq̃ per 3 huius, cõmunis sectio earum, linea recta eisdem punctis terminata. Quod est impossibile. sic enim duæ rectæ lineæ concluderẽt superficiem.
 
 [Diagram: two horizontal parallels b a (with e upon it) and d c (with f upon it); between e and f a straight line and a curved line forming a lens]
+
+[Curated heading level=2 type=propositions: Theorema 7 Propositio 7]
 
 [Curated heading level=2 type=theorems: Theorema 7 Propositio 7]
 
@@ -47,6 +51,8 @@ Non enim, sed si possibile, esto in sublimiori sicut ε η ζ,\* exciteturq̃ pe
 Sectionẽ iam faciet in supposito plano rectam lineã, efficiat (per 3 undecimi) ε ζ. Binæ igitur rectæ lineæ ε η ζ, ε ζ, areolã cõprehendũt. Quod est impossibile (per ultimã cõmunem sententiã.) Igitur quæ ex ε in ζ adiecta recta linea, in sublimiori plano nõ est. In eo igitur (in quo & α β & γ δ parallelæ) est plano, quæ ex ε in ζ adiũcta est recta linea. Si fuerint igitur binæ rectæ lineæ parallelæ, assumãturq̃ in ipsarũ utraq̃ utcunq̃ signa, ad ipsa signa adiecta recta linea, in eodẽ est cum ipsis parallelis plano. Quod ostẽdere oportebat.
 
 [Diagram: two horizontal parallels α β (with ε upon it) and γ δ (with ζ upon it); between ε and ζ a straight line and a curved line through η forming a lens]
+
+[Curated heading level=2 type=propositions: Propositio 8]
 
 ## Eucli. ex Cãp. Propositio 8
 

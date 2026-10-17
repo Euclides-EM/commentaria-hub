@@ -12,6 +12,8 @@ CAMPANI additio. Quod si duo numeri a b & c d sint contra se primi,non erit in h
 
 [Diagram: dotted number-lines at right: a . . . . . . . e . . . g . b; c . . . . f . . . d]
 
+[Curated heading level=2 type=propositions: Theorema 1 Propositio 1]
+
 [Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
 
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
@@ -27,6 +29,8 @@ Si duobus numeris inæqualibus expositis, sublato semper minore,à maiore reliqu
 THEON ex Zamb. Duobus namq̃ inæqualibus numeris propositis α β & γ δ, sublato semper minore à maiore,reliquus minime metiatur præcedentem quoad sumpta fuerit unitas . Dico quod ipsi α β & γ δ,primi adinuicem sunt, hoc est quod ipsos α β & γ δ unitas sola dimetitur. Si autem α β & γ δ non sunt primi adinuicem , eos aliquis numerus metietur , metiatur , estoq̃ ε, & γ δ ipsum β ζ metiens,relinquat se minorem ζ α:at α ζ ipsum δ γ metiens,relinquat se minorem η γ, & η γ ipsum ζ θ metiens,relinquat unitatem β α. Quoniam igitur ε ipsum δ γ metitur,& γ δ ipsum β ζ metitur, igitur & ε ipsum β ζ metitur : metitur autem & totum β α,& reliquum igitur α ζ metietur.At α ζ ipsum δ η metitur,& ε igitur ipsum δ η metietur : metietur autem & totum δ γ,& reliquum igitur γ η metietur.At ε η ipsum ζ θ metitur,& ε igittr ipsum ζ θ metietur : metitur autem & totum ζ α,& reliquā igitur α θ metietur unitatem,uumerus existens,quod est impossibile. Igitur ipsos α β & γ δ, nullus numerus metietur.Igitur α β & γ δ,primi adinuicem sunt,quod demonstrare oportebat.
 
 [Diagram: dotted number-lines at right: ε . .; δ . . . η . . γ; β . . . . . ζ . . θ . α]
+
+[Curated heading level=2 type=propositions: Propositio 2]
 
 ## Eucli. ex Camp. Propositio 2
 

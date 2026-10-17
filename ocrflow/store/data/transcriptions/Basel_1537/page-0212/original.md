@@ -10,6 +10,8 @@ CAMPANVS Sint datæ proportionis minimi, a & b ducaturq̃ a in se,& fiat c, & in
 
 [Diagram: dotted number lines beside the text, labelled a (2 dots), b (3 dots), c (4 dots), d (6 dots), e (9 dots), f (8 dots), g (12 dots), h (18 dots), K (27 dots)]
 
+[Curated heading level=2 type=propositions: Problema 1 Propositio 2]
+
 [Curated heading level=2 type=problems: Problema 1 Propositio 2]
 
 ## Eucli.ex Zamb. Problema 1 Propositio 2
@@ -27,6 +29,8 @@ THEON ex Zamberto. *Sit data ratio in minimis numeris,ipsius α ad β,oportet ia
 [Diagram: dotted number lines beside the Theon proof, labelled α (3 dots), β (4 dots), γ (9 dots), δ (12 dots), ε (16 dots), ζ (27 dots), η (36 dots), θ (48 dots), κ (64 dots)]
 
 PORISMA *siue correlarium* Proinde manifestum est,quod si tres numeri continue proportionales minimi fuerint eandem rationē habentium eis:extremi eorum quadrati sunt,si autem quatuor,cubi.
+
+[Curated heading level=2 type=propositions: Propositio 3]
 
 ## Eucli.ex Camp. Propositio 3
 

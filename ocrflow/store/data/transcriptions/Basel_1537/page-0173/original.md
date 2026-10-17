@@ -8,6 +8,8 @@ dam lineam a b parallelogrammū simile d: & sit ita conditionatum quod triangulu
 small marks in the right margin beside the middle of the paragraph and in the left margin further down
 [/Handwritten]
 
+[Curated heading level=2 type=propositions: Problema 8 Propositio 28]
+
 [Curated heading level=2 type=problems: Problema 8 Propositio 28]
 
 ## Eucli. ex Zamb. Problema 8 Propositio 28
@@ -27,6 +29,8 @@ oportet, preceded by a reference mark; a further reference mark stands beside th
 THEON ex Zāb. Sit quidē data recta liuea α β. datū uero rectilineū cui oportet æquū prætēdere ad α β. sitq̃ illud γ, nō maius existēs eo quod à dimidia cōparatū est similibus existētibus sūptis, cui autē expedit simile deficere, δ, oportet iā ad datā rectā lineā α β, dato rectilineo γ æquale parallelogrāmū prætēdere deficiēs specie parallelogrāmo simili existēte ipsi δ. Secetur (per 10 primi) α β bifariā in signo ε. Describaturq̃ (per 18 sexti, ab ε β, ipsi δ, simile similiterq̃ positū ε β ζ η. Cōpleaturq̃ α η, parallelogrāmū. Iā α η, aut æquū est ipsi γ, aut eo maius per determinationē. Si quidē igitur æquū est α η, ipsi γ, quod quærimus factū iam est. Cōparatū siqdē esset ad datā rectā lineā α β, dato rectilineo γ æquū parallelogrāmū α η deficiēs specie parallelogrāmo η β, simili ipsi δ. Si aūt nō est maius θ ε, q̃; γ, æquale autē θ ε, ipsi η β, maius igitur & η β, quā γ. Quo aūt maius est η β, quā γ. tali excessui (per 25 sexti) æquale, ipsi δ, simile similiterq̃ positū idē cōstituatur η λ μ ν. Sed ipsi η β, ipsum δ est simile. & η μ, igitur, ipsi η β, est simile. Esto igitur similis rationis η λ, ipsi η ε, & λ μ, ipsi η ζ. Et quoniā æquū est η β, ipsis γ η μ, maius igitur est η β, quàm η μ. Maior igitur est η ε, quàm η ρ, & η ξ, quàm λ μ, ponatur (per 11 primi) ipsi q̃dē η λ æqualis η ξ, ipsi aūt λ μ, æqualis η ο, & cōpleatur parallelogrāmū ξ η ο π. Aequū igitur est & simile η π ipsi η μ. Sed η μ, ipsi η θ. est simile, & η π igitur ipsi η β, est simile. Circū eādē dimetientē, (per 26 sexti) igitur, ea η π, ipsi η β, Sit eorū dimetiēs η π β, & describatur figura. Quoniā igitur æquū est β η, ipsis γ & η μ quorū η π ipsi η μ. est æquale reliquus igitur υ φ χ, gnomon reliquo γ est æqualis, & quoniam æquum est ο ρ, Totum igitur ο β, toti α β, est æquale. Sed ξ β. ipsi τ ε, est æquale: quoniā & latus α ε, lateri ε β, est æquale, & τ ε, igitur, ipsi ο β. est æquale. Cōmune applicetur ξ β, totum igitur τ σ toti φ χ υ, gnomoni æquū est. Sed φ χ υ gnomon ipsi γ, ostēsum est quod est æqualis, & τ σ igitur: ipsi γ æquū est. Ad datam rectā lineā igitur α β, dato rectilineo γ æquū parallelogrāmū comparatum est τ σ deficiens specie parallelogrāmo π β, simili existēti ipsi δ, quoniam π β, ipsi η π, simile est. Quod erat propositum.
 
 [Diagram: a triangle labelled γ; a rhomboid parallelogram labelled δ; a rectangle with corners labelled λ, μ above and η, ρ below; below these, a large rectangle with top corners θ and ρ, bottom corners α and β, points η and ο on the top edge, ξ and τ on the horizontal midline, ε and σ on the bottom edge, a diagonal running to β, internal verticals, the letters φ, π, χ inside, and a circular arc drawn about the intersection of the lines]
+
+[Curated heading level=2 type=propositions: Propositio 28]
 
 ## Eucli. ex Camp. Propositio 30{printer-error-correction:28}
 

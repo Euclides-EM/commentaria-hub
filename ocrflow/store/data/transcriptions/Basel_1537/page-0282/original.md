@@ -6,6 +6,8 @@ possit amplius breuiori in quadrato alicuius lineæ sibi cōmunicantis in longit
 
 [Diagram: four horizontal lines in the right margin, labelled: a R. 36 — c — b 20 — d]
 
+[Curated heading level=2 type=propositions: Propositio 25]
+
 ## Eucli ex Camp. Propositio 25
 
 [Curated heading level=3 type=campanus_sequence: 25.]
@@ -19,6 +21,8 @@ possit amplius breuiori in quadrato alicuius lineæ sibi cōmunicantis in longit
 CAMPANVS. Positis duabus lineis a & b rationalibus potentia tantum cōmunicantibus,quarū longior possit amplius breuiori in quadrato lineæ secum non communicantis in longitudine,quæ quidem reperiuntur secundum doctrinam 18,cæterisq́ʒ positionibus manentibus sicut in præmissa , argumentando modo consimili patebit duas lineas c & d esse quales quærimus. Et nota quod duæ lineæ quas hæc & præmissa docent inuenire , componunt bimediale primum , & minori earum abscisa de maiori, quæ reliqua est,dicitur residuum mediale primum.
 
 [Diagram: four horizontal lines in the right margin, labelled: a 36 — c — b R. 18 — d]
+
+[Curated heading level=2 type=propositions: Problema 8 Propositio 31]
 
 [Curated heading level=2 type=problems: Problema 8 Propositio 31]
 

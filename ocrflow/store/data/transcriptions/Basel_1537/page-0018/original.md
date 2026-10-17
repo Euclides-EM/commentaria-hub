@@ -4,6 +4,8 @@
 
 est æqualis (per præcedentem): reliqua igitur α λ, reliquæ β η (per 3 cōmunem sententiam) est æqualis. Ostensum est autem, quod β γ ipsi β η est æqualis, utraq̃ igitur & α λ, & β γ, ipsi β η est æqualis. Quæ autem eidem æqualia, (per primam cōmunem sententiam) & adinuicem sunt æqualia, & linea α λ igitur, ipsi β γ est æqualis. Ad datum igitur signum, α, datæ rectæ lineæ β γ æqua recta linea collocata est α λ, quod fecisse oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 3]
+
 ## Eucli. ex Camp. Propositio 3
 
 [Curated heading level=3 type=campanus_sequence: 3.]
@@ -17,6 +19,8 @@ est æqualis (per præcedentem): reliqua igitur α λ, reliquæ β η (per 3 cō
 CAMPANVS. Sint duæ lineæ a b & c d, & sit a b minor: uolo ex c d abscindere unam, quæ sit æqualis a b. Duco primo à puncto c, unam lineam æqualem a b, secundum quod docuit præcedens, quæ sit c e: posito ergo centro in puncto c, describam circulum secundum quantitatem c e, qui secabit lineam c d: sit ergo ut secet eam in puncto f, eritq̃ linea c f, æqualis lineæ c e, quia ambæ exeunt à centro eiusdem circuli ad circunferentiam, & quia utraque duarum linearū a b & c f est æqualis c e, ipsæ per 1 cōmunem animi conceptionem sunt inter se æquales, quod est propositum.
 
 [Diagram: line a b above; circle with centre c, the line c e drawn to the circumference at e, and the line c d entering at d on the left and cut by the circle at f]
+
+[Curated heading level=2 type=propositions: Problema 3. Propositio 3.]
 
 [Curated heading level=2 type=problems: Problema 3. Propositio 3.]
 
@@ -33,6 +37,8 @@ Duabus datis rectis lineis inæqualibus, à maiore, minori æqualem rectam linea
 THEON ex Zamberto. Sint datæ duæ rectæ lineæ inæquales, α β, γ, quarum maior sit α β: oportet ab ipsa α β maiore, ipsi γ minori æqualem rectam lineam abscindere. Ponatur (per secundam propositionē) ad signum α, lineæ (uero) rectæ γ, æqualis α δ, & centro quidem α, interuallo uero α δ, (per 3 postulatū) circulus describatur δ ε. Et quoniam α signum, centrum est circuli δ ε, æqualis est α ε ipsi α δ. At linea γ, ipsi α δ est æqualis: utraq̃ igitur & α ε, & γ, ipsi α δ est æqualis: quare & linea α ε, ipsi γ est æqualis. Duabus igitur datis rectis lineis inæqualibus α β, γ, ab ipsa α β maiore, ipsi γ minori æqualis abscissa est α ε, quod facere oportebat.
 
 [Diagram: circle with centre α, the line α β descending to β below and cut by the circle at ε; δ on the circumference at the left, and the separate shorter line γ at the right]
+
+[Curated heading level=2 type=propositions: Propositio 4.]
 
 ## Eucl. ex Camp. Propositio 4.
 

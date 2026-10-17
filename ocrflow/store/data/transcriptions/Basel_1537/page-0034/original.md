@@ -6,6 +6,8 @@ lus g extrinsecus, æqualis angulo h intrinseco ex eadem parte sumpto, aut duo a
 
 [Diagram: transversal line a b crossing line c d at g and line e f at h; labels a, g, c, d, e, h, f, b]
 
+[Curated heading level=2 type=propositions: Theorema 19. Propositio 28.]
+
 [Curated heading level=2 type=theorems: Theorema 19. Propositio 28.]
 
 ## Eucli. ex Zamb. Theorema 19. Propositio 28.
@@ -22,6 +24,8 @@ THEON ex Zamb. In binas enim rectas lineas α β & γ δ, recta linea incidens �
 
 [Diagram: transversal line ε ζ crossing line α β at η and line γ δ at θ; labels ε, α, β, η, γ, θ, δ, ζ]
 
+[Curated heading level=2 type=propositions: Propositio 29.]
+
 ## Eucli. ex Camp. Propositio 29.
 
 [Curated heading level=3 type=campanus_sequence: 29.]
@@ -35,6 +39,8 @@ SI duabus lineis æquidistantibus linea superuenerit, duo anguli coalterni æqua
 CAMPANVS. Sint duæ lineæ a b & c d æquidistantes: super quas cadat linea e f, secans eas in punctis g & h, dico q̃ anguli g & h coalterni sunt æquales, & quod angulus g extrinsecus est æqualis angulo h intrinseco sibi opposito ex eadem parte sumpto, & q̃d anguli g & h intrinseci ex eadem parte sumpti sunt æquales duobus rectis. Et hæc est cōuersa duarum præcedentium. Primum sic patet. Si enim angulus b g h non est æqualis angulo c h g, alter eorum erit maior: sit ergo maior angulus c h g, & duo anguli c h g & g h d sunt æquales duobus rectis, ergo per 13 propositionem erunt duo anguli b g h & d h g minores duobus rectis, ergo per quartam petitionem, duæ lineæ a b & c d si protrahantur, concurrent in parte b & d, ad punctum aliquem, ut ad k: non ergo sunt æquidistantes per ultimam diffinitionē, quod est contra hypothesin, & quia hoc est impossibile, erunt duo anguli coalterni b g h & c h g æquales, quod est primum propositū. Ex hoc patet secundum. Est enim per 15 propositionē angulus b g h æqualis angulo a g e, ergo angulus a g e, erit æqualis angulo c h g, extrinsecus, uidelicet, intrinseco, quod est secundum propositū. Ex hoc rursus patet tertium. Sunt enim per 13 propositionē duo anguli a g e & a g h, æquales duobus rectis, ergo duo anguli a g h & c h g, erunt etiam æquales duobus rectis, qui sunt duo intrinseci ex eadem parte sumpti, quod est propositum.
 
 [Diagram: transversal line e f crossing line a b at g and line c d at h, the two lines produced to a meeting point k at the right; labels e, a, g, b, k, c, h, d, f]
+
+[Curated heading level=2 type=propositions: Theorema 20. Propositio 29.]
 
 [Curated heading level=2 type=theorems: Theorema 20. Propositio 29.]
 

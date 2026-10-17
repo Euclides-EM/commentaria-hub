@@ -6,6 +6,8 @@ utraque. Quod si fuerit hoc possibile: ponatur, & sit primo, ut neutra transeat 
 
 [Diagram: circle with centre e; vertical line b d and chord a c meeting it at f; labels b, b at top, e at centre, a, f, c across the middle, d at bottom]
 
+[Curated heading level=2 type=propositions: Theorema 3. Propositio 4.]
+
 [Curated heading level=2 type=theorems: Theorema 3. Propositio 4.]
 
 ## Eucli. ex Zamb. Theorema 3. Propositio 4.
@@ -22,6 +24,8 @@ THEON ex Zamb. Sit circulus α β γ δ, & in eo binæ rectæ lineæ α γ, & β
 
 [Diagram: circle α β γ δ with chords α γ and β δ crossing at ε; ζ marks the centre above ε, line ζ ε drawn]
 
+[Curated heading level=2 type=propositions: Propositio 5.]
+
 ## Eucli. ex Camp. Propositio 5.
 
 [Curated heading level=3 type=campanus_sequence: 5.]
@@ -35,6 +39,8 @@ CIrculorum se inuicem secantium, centra diuersa esse.
 CAMPANVS. Sint duo circuli a c b, a d b, secantes se super puncta a & b. Dico quod eorum sunt diuersa centra. Si enim haberẽt idem centrum: ipsum esset per diffinitionem, in portione utrique circulo communi, sitque illud e, & ducantur lineæ e a & e f c, erũtq̃ per diffinitionẽ circuli duæ lineæ e a & e f, æquales. Itemq̃ per eandẽ diffinitionẽ duæ lineæ e a & e c, æquales, quare e f est æqualis e c, cũ utraq̃ earũ sit æqualis e a, pars uidelicet toti, quod est impossibile.
 
 [Diagram: two circles intersecting at a and b; points c and f on the upper arc, e within the common portion, d on the lower circle]
+
+[Curated heading level=2 type=propositions: Theorema 4. Propositio 5.]
 
 [Curated heading level=2 type=theorems: Theorema 4. Propositio 5.]
 
@@ -51,6 +57,8 @@ Si bini circuli sese inuicem secuerint, non erit eorum idem centrum.
 THEON ex Zamberio. Duo inquam circuli α β γ, & γ δ κ, sese inuicem secent in signis γ, & β. Dico quod eorum non est idem centrum. Si enim possibile: esto ε, & (per primum postulatum) connectatur γ ε, & ε ζ ducatur, utcunque. Et quoniam ε, signum, centrum est circuli α β γ, æqualis est ε γ, ipsi ε ζ, (per 15 diffinitionem primi.) Rursus quoniam ε, signũ, centrum est circuli γ δ κ, æqualis est (per eandem diffinitionem) ε γ, ipsi ε κ. ostensum est autem quod ε γ, ipsi ε ζ, est æqualis, & igitur ε κ, ipsi ε ζ, est æqualis, minor maiori, quod est impossibile. Igitur ε, signum: centrum non est circulorum α β γ, & γ δ κ. Si duo igitur circuli & reliqua quæ sequuntur quod demonstrare oportebat.
 
 [Diagram: two intersecting circles; γ at top, ε within with lines to γ and through ζ and κ; labels δ, α, β on the circumferences]
+
+[Curated heading level=2 type=propositions: Propositio 6]
 
 ## Eucli. ex Camp. Propositio 6
 

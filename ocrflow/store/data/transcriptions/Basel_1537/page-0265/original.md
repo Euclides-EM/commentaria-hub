@@ -4,9 +4,13 @@
 
 cimæ & decimætertiæ ex Zamberto propositionibus respondet. Nona apud Campanū cum additione,decimæquintæ & decimæsextæ ex Zamberto propositionibus. Decima autem & undecima apud Campanū,decimæ,& undecimæ ex Zāberto propositionibus præpostero respondent ordine. Duodecima uero apud campanum,decimæquartæ ex Zamberto propositioni respondet.
 
+[Curated heading level=2 type=zamberti_sequence: THEON Lemma.]
+
 ## THEON Lemma.
 
 Quoniam autem ostensum est in arithmeticis(ex 26 octaui)quod similes plani numeri adinuicem rationem habent quam quadratus numerus ad quadratum numerum,& quod si bini numeri adinuicem rationem habuerint quam quadratus numerus ad quadratum numerum similes sunt ipsi plani numeri(per 24 eiusdem)manifestum ex his quod dissimiles plani numeri hoc est latera proportionalia non habentes,adinuicem rationem non habent quam quadratus numerus ad quadratum numerum. Si enim habebunt,similes ipsi plani erant,quod quidem non supponitur. Dissimiles igitur plani numeri adinuicem rationem nō habent, quam quadratus numerus ad quadratum numerum.
+
+[Curated heading level=2 type=propositions: Problema 3 Propositio 10]
 
 [Curated heading level=2 type=problems: Problema 3 Propositio 10]
 
@@ -24,6 +28,8 @@ THEON ex Zamberto. Sit proposita recta linea α,oportet iam ipsi α,binas rectas
 
 [Diagram: three vertical lines labelled at foot α, ε, δ, with rotated captions Re. 16 beside α, me.pro. beside ε, and Re. 28 beside δ; at the right two vertical columns of dots labelled β and γ]
 
+[Curated heading level=2 type=propositions: Theorema 8 Propositio 11]
+
 [Curated heading level=2 type=theorems: Theorema 8 Propositio 11]
 
 ## Eucli.ex Zamb. Theorema 8 Propositio 11
@@ -39,6 +45,8 @@ Si quatuor magnitudines proportionales fuerint,prima autem secundæ fuerit comme
 THEON ex Zamb. Sint quatuor magnitudines proportionales α,β,γ,δ,sicut α ad β, sic γ ad δ, sit autem α ipsi β commensurabilis. Dico quod & γ ipsi δ est commensurabilis.Quoniam enim commensurabilis est α ipsi β,rationem habet(per 5 decimi,)quam numerus ad numerum. Estq̃ sicut α ad β,sic γ ad δ.Igitur & γ ad δ habet rationem,quam numerus ad numerum. Commensurabilis igitur est γ ipsi δ. Sed iam α ipsi β incommensurabilis esto. Dico quod & γ ipsi δ est incōmensurabilis.Quoniā enim incommensurabilis est α ipsi β,igitur(per 7 quinti)α ad β,non habet rationem quam numerus ad numerum,& est sicut α ad β,sic γ ad δ.Igitur(per 5 decimi,)γ ad δ,non habet rationem quam numerus ad numerum.Incommensurabilis est igitur γ ipsi δ,Si quatuor igitur magnitndines{printer-error-correction:magnitudines},& quæ sequuntur reliqua,quod oportuit demonstrasse.
 
 [Diagram: two groups of four horizontal lines, each labelled α, β, γ, δ]
+
+[Curated heading level=2 type=propositions: Theorema 9 Propositio 12]
 
 [Curated heading level=2 type=theorems: Theorema 9 Propositio 12]
 

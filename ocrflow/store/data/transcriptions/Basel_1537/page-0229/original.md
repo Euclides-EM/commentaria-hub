@@ -2,6 +2,8 @@
 
 <!-- Page number: 218 -->
 
+[Curated heading level=2 type=propositions: Theorema 24 Propositio 26]
+
 [Curated heading level=2 type=theorems: Theorema 24 Propositio 26]
 
 ## Eucli. ex Zamb. Theorema 24 Propositio 26
@@ -18,6 +20,8 @@ THEON ex Zamber. Sint similes plani numeri α β. Dico quod α ad β rationem ha
 
 [Diagram: dotted number lines α, γ, β, δ, ε, ζ]
 
+[Curated heading level=2 type=propositions: Propositio 25]
+
 ## Eucli. ex Camp. Propositio 25
 
 [Curated heading level=3 type=campanus_sequence: 25.]
@@ -29,6 +33,8 @@ THEON ex Zamber. Sint similes plani numeri α β. Dico quod α ad β rationem ha
 {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duorum solidorum similium est proportio unius ad alterum, sicut alicuius cubi ad aliquem cubum.
 
 CAMPANVS: Sint a & b solidi similes, dico quod proportio unius eorum ad alterum, est sicut alicuius cubi ad aliquem alium cubum. Sunt quidem per 18 inter eos duo numeri medij secundum continuam proportionē, qui sint c & d, & in eorū proportione sint minimi quatuor e, f, g, h, quorū e & h erunt cubi per correlarium secūdæ: quia igitur per æquam proportionalitatē est a ad b, sicut e ad h, liquet propositū.
+
+[Curated heading level=2 type=propositions: Theorema 25 Propositio 27]
 
 [Curated heading level=2 type=theorems: Theorema 25 Propositio 27]
 
@@ -50,7 +56,11 @@ THEON ex Zamberto. Sint similes solidi numeri α, β. Dico quod α ad β ratione
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER NONVS.
 
+[Curated heading level=2 type=campanus_sequence: Ex Campano. Diffinitiones.]
+
 ## Ex Campano. Diffinitiones.
+
+[Curated heading level=3 type=definitions: 1-6]
 
 {dropcap:P|lines=?|style=decorated|decoration="captioned ALEXANDER DIOGENES, showing two figures"}Ar numerus, est qui potest in duo æqualia diuidi. 2 Impar numerus, est qui in duo æqualia diuidi non potest, additq̃ supra parem unitatē. 3 Pariter par, est quem cuncti pares eum numerantes, paribus uicibus numerant. 4 Pariter impar est quem cuncti pares eum numerantes, imparibus uicibus numerant. 5 Pariter par & impariter, est quem pares eum numerantes, quidam paribus quidam imparibus uicibus numerāt. 6 Impariter impar, quē cuncti impares eum numerantes, imparibus uicibus numerāt.
 

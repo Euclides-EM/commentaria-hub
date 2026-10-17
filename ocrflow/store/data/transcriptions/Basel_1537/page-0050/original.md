@@ -6,6 +6,8 @@ Sint duæ lineæ a b & c, quarū una scilicet a b, in quotlibet partes diuidatur
 
 [Diagram: rectangle on base a b divided by the verticals d h and e k into three rectangles; f, h, k, g along the top, a, d, e, b along the bottom; beside it the separate line c]
 
+[Curated heading level=2 type=propositions: Theorema 1 Propositio 1]
+
 [Curated heading level=2 type=theorems: Theorema 1 Propositio 1]
 
 ## Eucli. ex Zamb. Theorema 1 Propositio 1
@@ -22,6 +24,8 @@ THEON ex Zamb. Sint binæ rectæ lineæ α & β γ, seceturq̃ earū altera β �
 
 [Diagram: rectangle β γ θ η divided by the verticals δ κ and ε λ into three rectangles; β, δ, ε, γ along the top, η, κ, λ, θ along the bottom, ζ below η; beneath it the separate line α]
 
+[Curated heading level=2 type=propositions: Propositio 2.]
+
 ## Eucli. ex Camp. Propositio 2.
 
 [Curated heading level=3 type=campanus_sequence: 2.]
@@ -35,6 +39,8 @@ SI fuerit linea in partes diuisa, illud quod ex ductu totius lineæ in seipsam f
 CAMPANVS. Sit linea diuisa in a c & c d & d b, dico q̃ illud quod fit ex ductu totius a b in se, quod sit a e b f, æquū est ijs quæ fiunt ex tota a b in unamquamq̃ dictarū partium, quod palàm patebit, ductis c g & d h æquidistanter a e & b f. Aliter. Sumatur k æqualis a b, & dico per præmissam q̃d fit ex ductu k in totā a b, æquū ei quod fit ex ductu k in omnes partes a b. Et quia ex k in a b tantū fit, quantū ex a b in se, & ex k in omnes partes a b, quantū ex a b in omnes partes eiusdē, propter id q̃ k & a b sunt æquales, patet uerum esse propositū.
 
 [Diagram: rectangle on base a b divided by the verticals c g and d h into three rectangles; e, g, h, f along the top, a, c, d, b along the bottom; beside it the separate vertical line k]
+
+[Curated heading level=2 type=propositions: Theorema 2 Propositio 2]
 
 [Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
 
@@ -51,6 +57,8 @@ Si recta linea secetur utcunq̃, quæ sub tota & quolibet segmentorū rectangula
 THEON ex Zamb. Recta enim linea α β, secetur utcunq̃, in signo γ. Dico quod rectangulū comprehensum sub α β & β γ, cum rectangulo cōprehenso sub β α & α γ, æquū est quadrato quod ex α β. Describatur enim (per 46 primi) ex α β, quadratū α δ ε β, exciteturq̃ (per 31 primi) per γ, utriq̃ α δ & β ε parallelus γ ζ. Æquū est igitur α ε ipsis α ζ & γ ε. Et α ε quidē est quadratū quod ex α β. Α ζ uero rectangulū contentū sub β α & α γ: comprehenditur enim sub δ α & α γ, æqualis autē est α δ ipsi α β. Et γ ε ei quod sub α β & β γ: æqualis enim est β ε ipsi α β. Quod igitur sub β α & α γ, cum eo quod sub α β & β γ, æquū est quadrato quod ex α β. Si recta igitur linea, & quæ sequuntur reliqua, ut in theoremate, quod ostendere oportuit.
 
 [Diagram: square on α β with α, γ, β along the top and δ, ζ, ε along the bottom; the vertical γ ζ dividing it in two]
+
+[Curated heading level=2 type=propositions: Propositio 3.]
 
 ## Eucli. ex Camp. Propositio 3.
 

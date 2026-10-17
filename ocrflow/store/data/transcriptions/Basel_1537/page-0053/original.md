@@ -4,6 +4,8 @@
 
 æquale c m per 36 primi. erit a h æquale gnomoni qui circūstat quadrato l g, ergo addito utriq́ꝫ, quadrato l g, erit a h cum quadrato l g æquale quadrato e f, quod est propositū.
 
+[Curated heading level=2 type=propositions: Theorema 5 Propositio 5]
+
 [Curated heading level=2 type=theorems: Theorema 5 Propositio 5]
 
 ## Eucli. ex Zamb. Theorema 5 Propositio 5
@@ -20,6 +22,8 @@ THEON ex Zamb. Recta enim linea quædā α β secetur quidem in æqualia in γ, 
 
 [Diagram: line α γ δ β with α at far left; square γ ε ζ β below segment γ β (ε bottom left, ζ bottom right); diagonal β ε; vertical δ η cutting the diagonal at θ; horizontal line κ λ θ μ (κ below α, λ on γ ε, μ on β ζ); vertical α κ at far left; circle inscribed in the square marking the gnomon, with letters ν, μ, ξ inside]
 
+[Curated heading level=2 type=propositions: Propositio 6]
+
 ## Eucli. ex Camp. Propositio 6
 
 [Curated heading level=3 type=campanus_sequence: 6.]
@@ -33,6 +37,8 @@ SI recta linea in duo æqualia diuidatur, alia uero ei linea in longū addatur, 
 CAMPANVS. Sit linea a b diuisa per æqualia in puncto c, eiq́ꝫ addatur linea b d: dico ꝙ quadratū c d, quod sit c d e f, æquale est ei quod fit ex tota a d in b d & quadrato c b. Producam in quadrato prædicto e d, diametrū d e, & ducam lineam b g æquidistantē d f, quæ secet diametrū d e in puncto h, à quo h, producam æquidistantē lineæ a b, quæ sit h k, secans d f in puncto m, & c e in puncto l, & producam a K, æquidistantē e l, eritq́ꝫ per 36 primi, a l, æquale c h. At c h, erit æquale h f, p̄ 43 primi, quare a l, est æquale h f. Ergo addito c m utrobiq́ꝫ, erit a m æquale toti gnomoni circūstanti l g, quare l g addito utrobiq́ꝫ, erit a m cū l g, æquale toti quadrato c f. Et quia utraq́ꝫ duarū superficierū l g & b m est quadrata per correl. 4 huius patet propositū.
 
 [Diagram: same woodcut as the preceding proposition: base line a c d b; square c b f e above segment c b, with g on top side e f; diagonal e b; vertical line d g cutting the diagonal at h; horizontal line K l h m through h, K above a, l on c e, m on b f]
+
+[Curated heading level=2 type=propositions: Theorema 6. Propositio 6.]
 
 [Curated heading level=2 type=theorems: Theorema 6. Propositio 6.]
 

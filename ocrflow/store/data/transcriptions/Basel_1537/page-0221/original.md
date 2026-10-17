@@ -4,6 +4,8 @@
 
 (per 17 septimi,) sicut ζ ad η, sic est κ ad β, sicut autem ζ ad η, sic est γ ad δ, & sicut igitur (per 11 quinti,) γ ad δ, sic κ, ad β. Patuit aūt quod & sicut γ ad δ, sic est α ad θ, & θ, ad κ, & κ ad β. Ipsorum igitur α,β, bini medij proportionales sunt, hoc est θ,λ. Dico iam quod & α ad β triplam rationem habet, quàm γ ad δ. Quoniā enim quatuor numeri proportionales sunt α,θ,κ,β. igitur (per 10 diffinitionem quinti,) α ad β, triplam habet rationem quàm α ad θ, sicut autem est α, ad θ, sic est γ ad δ. Igitur α ad β triplam rationem habet quàm γ ad δ. Quod oportuit demonstrasse.
 
+[Curated heading level=2 type=propositions: Propositio 12]
+
 ## Eucli.ex Camp. Propositio 12
 
 [Curated heading level=3 type=campanus_sequence: 12.]
@@ -19,6 +21,8 @@ CAMPANVS Sint a,b. continue proportionales, quorum quisque in se ducatur. & prou
 Reliquū sic: Ducatur a in l & proueniāt n & p, c quoque ducatur in e & m. & proueniāt q & r, eruntque per easdē g,n,p,h,q,r,k, cōtinue quoq̃ proportionales in proportione primorum, per æquā igitur proportionalitatē cōclude g ad h, sicut h ad k quod est reliquum. Eadem erit ratio, quotiescunque primi in productos ducantur.
 
 [Diagram: at top the numbers a (4 dots), b (6 dots), c (9 dots); below, a ladder of horizontal ruled lines each labelled at left and with a value written vertically at its right end: d 16, l 24, e 36, m 54, f 81, g 64, n 96, p 144, h 216, q 324, r 486, k 729]
+
+[Curated heading level=2 type=propositions: Theorema 11 Propositio 13]
 
 [Curated heading level=2 type=theorems: Theorema 11 Propositio 13]
 

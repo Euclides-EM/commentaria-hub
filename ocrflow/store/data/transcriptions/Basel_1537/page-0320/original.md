@@ -4,6 +4,8 @@
 
 mensurabile est quod bis sub α β, β γ. Quæ igitur ex α β, β γ, incōmensurabilia sunt ei quod bis sub α β, β γ, & reliquo igitur quod ex α γ, incōmensurabilia sunt ei quæ ex α β, β γ, quoniam (per 5 secūdi){printer-error-correction:7 secundi} & quæ ex α β, β γ, æqua sunt ei quod bis sub α β, β γ, una cum eo quod ex γ α. Rationalia autē sunt ea quæ ex α β, β γ, quadrata, irrationalis igitur est linea α γ, uocatur autē ipsa, apotome.
 
+[Curated heading level=2 type=propositions: Propositio 69]
+
 ## Eucli.ex Camp. Propositio 69
 
 [Curated heading level=3 type=campanus_sequence: 69.]
@@ -20,6 +22,8 @@ CAMPANVS. Sit linea b c, abscisa ex linea a b, sintq̃ ambæ quales proponitur, 
 
 [Diagram: horizontal line with points a, c, b; below it a rectangle with g at the upper left and h at the left below it, divided by a horizontal line with f inside at the right; d at the bottom left and e at the bottom right, with tick marks along the base]
 
+[Curated heading level=2 type=propositions: Theorema 56 Propositio 74]
+
 [Curated heading level=2 type=theorems: Theorema 56 Propositio 74]
 
 ## Eucli.ex Zamb. Theorema 56 Propositio 74
@@ -35,6 +39,8 @@ Si à media auferatur media potentia tantum toti subsistens commensurabilis, cum
 THEON ex Zamb. A media nanq̃ α β, media auferatur β γ potentia tantum cōmensurabilis subsistens toti α β, & cum ipsa α β rationale cōprehendens quod sub α β, β γ. Dico quod reliqua α γ irrationalis est, appellaturq̃ mediæ apotome prima. Quoniam enim α β, β γ, mediæ sunt, media quoq̃ sunt quæ ex α β, β γ. Rationale autē quod bis sub α β, β γ, incōmensurabilia igitur sunt quæ ex α β, β γ, ei quod bis sub α β, β γ: & reliquo igitur ei quod ex α γ (per 16 decimi) incōmensurabile est quod bis sub α β, β γ, quoniam & si tota uni earū incōmensurabilis fuerit, & quæ in principio magnitudines, incōmensurabiles erunt (per 16 decimi.) Rationale autē est quod bis sub α β, β γ, irrationale igitur qd̃ ex α γ. Irrationalis igitur est α γ, uocatur sane mediæ apotome prima. Quod fuerat ostendendū.
 
 [Diagram: horizontal line with points α (left), γ (middle right), β (right)]
+
+[Curated heading level=2 type=propositions: Propositio 70]
 
 ## Eucli. ex Camp. Propositio 70
 

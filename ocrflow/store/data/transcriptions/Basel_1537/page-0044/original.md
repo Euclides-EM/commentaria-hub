@@ -6,6 +6,8 @@ secet utrunq̃ latus a b & c d, sitq̃ tota g k h. Erit totum parallelogrammū a
 
 [Diagram: parallelogram with a, g, b along the top, e, k, f in the middle, c, h, δ along the bottom; diameter b c drawn, with lines e f and g h through k dividing it into four parallelograms]
 
+[Curated heading level=2 type=propositions: Theorema 32. Propositio 43.]
+
 [Curated heading level=2 type=theorems: Theorema 32. Propositio 43.]
 
 ## Eucli. ex Zamb. Theorema 32. Propositio 43.
@@ -21,6 +23,8 @@ Omnis parallelogrāmi eorum quæ circa dimetientē sunt parallelogrāmorū suppl
 THEON ex Zamb. Sit parallelogrammū α β γ δ, dimetiens uero illius sit α γ, circa uero α γ, sint parallelogramma ε θ & ζ η, supplementa uero sint β κ & κ δ. Dico quod supplementū β κ, æquale est supplemento κ δ. Quoniam enim parallelogrammū est α β γ δ, dimetiens uero illius est α γ, triangulum α β γ (per 34 propositionē) æquum est triangulo α γ δ. Rursus quoniam parallelogrammū est ε θ, dimetiens uero illius est α κ, triangulum igitur α ε κ (per eandem) æquum est triangulo α η κ, ac per hoc etiam triangulū κ ζ γ, æquū est triangulo κ θ γ. At quoniam triangulū α ε κ, triangulo α η κ est æquale, & triangulū κ ζ γ, triangulo κ θ γ est æquale, triāgula igitur α ε κ & κ ζ γ, triangulis α η κ & κ θ γ sunt æqualia: est autē totum triangulū α β γ, toti triangulo α δ γ æquale: reliquū igitur supplementū β κ (per 3 cōmunem sententiam) reliquo supplemento κ δ est æquale. Omnis parallelogrammi ergo, & quod sequitur reliquum, quod oportuit demonstrasse.
 
 [Diagram: parallelogram α β γ δ with dimetiens α γ, parallelograms ε θ and ζ η about the diameter meeting in κ, and the two supplements]
+
+[Curated heading level=2 type=propositions: Propositio 44.]
 
 ## Eucli. ex Camp. Propositio 44.
 

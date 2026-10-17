@@ -12,6 +12,8 @@ tur & simile est ρ ψ parallelogrammū ipsi α μ parallelogrāmo. Iam idq́̃ 
 
 [Diagram: a parallelepiped with visible labels π at the top left, χ on the left face, and ν, κ, φ along the bottom]
 
+[Curated heading level=2 type=propositions: Propositio 33.]
+
 ## Eucl. ex Camp. Propositio 33.
 
 [Curated heading level=3 type=campanus_sequence: 33.]

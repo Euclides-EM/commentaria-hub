@@ -4,7 +4,7 @@
 
 multiplicibus ad secundam & quartam: erit proportio multiplicis primæ ad multiplex secundæ, sicut multiplicis tertiæ ad multiplex quartæ. Sed non diffiniuit sub hac forma, propter causam prædictam: licet à parte rei idem sit. Non est autem necessariū ut quatuor quātitates a, b, c, d sint eiusdem generis, eo quod b non cōtinuatur in proportione cum c: sed possunt esse duæ primæ unius generis, & duæ sequentes alterius. Per quod patet quod necesse est referri multiplex primæ ad multiplex secūdæ, & multiplex tertiæ ad multiplex quartæ: non autem multiplex primæ ad multiplex tertiæ, aut multiplex secundæ ad multiplex quartæ: quia non semper sunt eiusdem generis multiplex primæ & tertiæ, nec multiplex secundæ & quartæ: fuit autem necesse sumere æque multiplices ad primā & tertiā, itemq̃ æque multiplices ad secundā & quartā, & non æque multiplices ad primam & secūdam, & item non æque ad tertiam & quartam: quia nisi per multiplicium sumptinnem continuentur termini primæ proportionis cum terminis secundæ, non erit per quid sit proportio a ad b sicut c ad d.
 
-[Curated heading level=3 type=definitions: Quantitates quarum proportio]
+[Curated heading level=3 type=definitions: 7]
 
 [Curated heading level=3 type=campanus_sequence: 7.]
 
@@ -16,7 +16,7 @@ Quantitates quarum proportio est una, proportionales nominantur.
 
 CAMPANVS. Postquam diffiniuit quantitates continue proportionales & incōtinue: diffinit quantitates proportionales simpliciter, & patet diffinitio.
 
-[Curated heading level=3 type=definitions: Cum fuerint primæ]
+[Curated heading level=3 type=definitions: 8]
 
 [Curated heading level=3 type=campanus_sequence: 8.]
 

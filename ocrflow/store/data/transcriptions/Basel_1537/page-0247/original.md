@@ -6,6 +6,8 @@ THEON ex Zamb. Sint propositi primi numeri α,β,γ. Dico quod ipsis α,β,γ, p
 
 [Diagram: at right, rows of small filled squares labelled α (two), β (three), γ (nineteen); below, a long solid line marked 114 and 23 above, ending with points δ . ζ; beneath it a shorter solid line labelled η]
 
+[Curated heading level=2 type=propositions: Propositio 22]
+
 ## Eucli. ex Camp. Propositio 22
 
 [Curated heading level=3 type=campanus_sequence: 22.]
@@ -19,6 +21,8 @@ THEON ex Zamb. Sint propositi primi numeri α,β,γ. Dico quod ipsis α,β,γ, p
 CAMPANVS. Sit quisq̃ numerorū a,b,c, par. Dico ex eis compositum, esse parem: habet enim ex conuersione diffinitionis quisq̃ eorum, medietatem: sint ergo eorum medietates d,e,f, quia igitur sicut a ad d, sic b ad e, & c ad f, erit ex 13 septimi, sicut a ad d, sic totus a b c ad totum d e f, itaq̃ d e f est medietas a b c, ergo per diffinitionem a b c, est par, quod est propositum.
 
 [Diagram: dotted line with points a, b, c]
+
+[Curated heading level=2 type=propositions: Theorema 21 Propositio 21]
 
 [Curated heading level=2 type=theorems: Theorema 21 Propositio 21]
 
@@ -36,6 +40,8 @@ THEON ex Zamberto. Componantur enim numeri quilibet pares ipsi α β, β γ, γ 
 
 [Diagram: dotted line with points α, β, γ, δ, ε]
 
+[Curated heading level=2 type=propositions: Propositio 23]
+
 ## Eucli. ex Camp. Propositio 23
 
 [Curated heading level=3 type=campanus_sequence: 23.]
@@ -49,6 +55,8 @@ THEON ex Zamberto. Componantur enim numeri quilibet pares ipsi α β, β γ, γ 
 CAMPANVS. Sit quilibet numerorum a,b,c,d, impar: dico ex eis compositum, esse parem, dempta enim a quolibet unitate, constat residuos esse pares, & quia ille unitates, demptæ componunt parem, cum sint numero pares, constat propositum per præmissam.
 
 [Diagram: dotted line with points a, b, c, d]
+
+[Curated heading level=2 type=propositions: Theorema 22 Propositio 22]
 
 [Curated heading level=2 type=theorems: Theorema 22 Propositio 22]
 
@@ -65,6 +73,8 @@ Si impares numeri quotcunq̃ componantur, fuerit autem multitudo par, totus par 
 THEON ex Zamberto. Componantur enim impares numeri quotcunq̃, multitudine pares, α β, β γ, γ δ, δ ε. Dico quot{printer-error-correction:quod} totus α ε par est. Nam quoniam unusquisq̃ ipsorum α β, β γ, γ δ, δ ε, impar est, ablata unitate ab unoquoq̃, unusquisq̃ reliquus par erit. Quare & compositus ex ipsis par erit (per 21 noni.) Est autem & unitatum uultitudo{printer-error-correction:multitudo} par. Totus igitur α ε par est, quod ostendere oportebat.
 
 [Diagram: dotted line with points α, β, γ, δ, ε]
+
+[Curated heading level=2 type=propositions: Propositio 24]
 
 ## Eucli. ex Camp. Propositio 24
 

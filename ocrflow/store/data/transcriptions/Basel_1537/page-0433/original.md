@@ -4,6 +4,8 @@
 
 ut quadratum lineæ q c sit æquale ei quod fit ex a b in a c. Igitur ex secunda parte 16 sexti & diffinitione, constat propositum.
 
+[Curated heading level=2 type=propositions: Theorema 2 Propositio 2]
+
 [Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
@@ -19,6 +21,8 @@ Si recta linea sui ipsius segmento quincuplum potuerit, dupla prædicti segmenti
 THEON ex Zāb. *Recta enim linea α β, sui ipsius segmētō α γ quincuplum possit, ipsius autē α γ dupla sit γ δ. Dico quod ipsa γ δ extrema & media ratione diuisa, maius segmentū est γ β. Describantur enim ex utraque ipsarū α β, γ δ, quadrata α ζ, γ η, & describatur in ipso α ζ, figura, & extēdatur β ζ in ε. Et quoniā α ζ ipsius α θ quincuplum est, quadruplus igitur est μ ν ξ gnomon, ipsius α θ. Et quoniā δ γ ipsius γ α dupla est, quadruplum igitur est quod ex δ γ eius quod ex γ α hoc est γ η ipsius α θ. Patuit aūt, ꝙ μ ν ξ gnomō ipsius α θ quadruplus est. Aequus igitur est μ ν ξ gnomō ipsi γ η. Et quoniā δ γ ipsius γ α dupla est, æqualis aūt est δ γ ipsi γ κ, & α γ ipsi γ θ, dupla igitur est & κ γ, ipsius γ θ, duplū igitur est & κ β, ipsius β θ. Sunt autem & λ θ, θ β, dupla ipsius β θ. Igitur κ β, ipsis λ θ, θ β, est æquale. Ostēsum autē est, ꝙ & totus μ ν ξ gnomon toti γ η est æqualis, & reliquū igitur θ ζ, ipsi β η, est æquale. Estq̃ ipsum β η, id quod sub γ δ, δ β, æqualis enim est γ δ ipsi δ η, & θ ζ ipsum quod ex γ β. Igitur quod sub γ δ, δ β, æquū est ei quod ex γ β. Est igitur sicut δ γ ad γ β, sic γ β ad β δ. Maior aūt est δ γ, ipsa γ β, maior igitur est & γ β ipsa β δ. Igitur γ δ recta linea extrema & media ratione diuisa maius segmentum est γ β. Si recta igitur linea sui ipsius segmento quincuplum potuerit, dupla dicti segmenti extrema & media ratione dissecta, maius segmentū reliqua pars eius quæ in principio rectæ lineæ. Quod autem dupla ipsius α γ maior sit quàm ipsa β γ, sic ostendendum est. Si autem non, esto (si possibile est) β γ dupla ipsius γ α, quadruplum igitur est quod ex β γ, eius quod ex γ α, quæ igitur ex β γ, γ α, eius quod ex γ α, quincupla sunt. Supponitur autem & quod ex β α, quincuplum eius quod ex γ α. Quod ex β α igitur, æquū est eis quæ ex β γ, γ α quod est impossibile. Igitur β γ, ipsius α γ dupla non est. Similiter iam ostendemus, quod neque minor quàm ipsa β γ, est dupla ipsius α γ, multo enim absurdius. Ipsius igitur α γ, dupla, maior est ipsa β γ. Quod demonstrasse oportuit.*
 
 [Diagram: square α ζ on the line α β, divided by a vertical line and crossed by the diagonal, with quadrant arcs marking the gnomon μ ν ξ; θ within; λ and ε at the top, α, γ on the base, and to the right the square γ η on γ δ with β, δ, η, κ about it]
+
+[Curated heading level=2 type=propositions: Propositio 3]
 
 ## Eucli. ex Camp. Propositio 3
 

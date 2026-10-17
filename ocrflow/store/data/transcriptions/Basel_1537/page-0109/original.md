@@ -4,6 +4,8 @@
 
 omnis figura æquilatera circulo inscripta aut circumscripta est etiam necessario æquiangula: de inscripta patet per 27 & 28 tertij sumptis arcubus circuli: quibus latera inscriptæ figuræ chordæ sunt, binis & binis. In hos enim arcus ipsius figuræ anguli cadunt. De circumscripta autem ductis à circuli centro lineis ad omnes eius angulos, & ad loca contactus, facile probabis, si plene intellectæ demonstrationi 13 huius diligens intellectus accesserit: erit enim, ut omnes ipsius figuræ angulos, lineæ à centro uenientes per æqualia diuidant: sumptis itaq̃ quibuslibet duobus eius proximis lateribus cum linea ad angulum ab eis contentū, & cum duobus ad eorum extremitates a centro uenientibus: duos triangulos ab eis contentos, æquiangulos adinuicem per 4 primi esse probabis. Sicq̃ faciendo de omnibus, patebit eos esse æquiangulos per hanc communem scientiam, quorum dimidia sunt æqualia tota quoq̃ esse æqualia.
 
+[Curated heading level=2 type=propositions: Problema 15. Propositio 15.]
+
 [Curated heading level=2 type=problems: Problema 15. Propositio 15.]
 
 ## Eucli.ex Zamb. Problema 15. Propositio 15.
@@ -27,6 +29,8 @@ illegible short italic note, possibly "ipsis"
 CORRELARIVM. *Hic manifestum est quod hexagoni latus ei qui est ex centro circuli est æquale: & si per signa α, β, γ, δ, ε, ζ, circulum tangentes ducamus rectas lineas: describetur circa circulum, hexagonum æquilaterum & æquiangulum consequenter ex prædictis in pentagono. Et insuper per ea quæ similiter in pentagono dicta sunt, in dato hexagono circulum describemus & circunscribemus, quod facere oportebat.*
 
 [Diagram: hexagon circumscribed about a circle, tangent points and vertices labelled with Greek letters α, β, γ, δ, ε, ζ]
+
+[Curated heading level=2 type=propositions: Propositio 16.]
 
 ## Eucli.ex Camp. Propositio 16.
 

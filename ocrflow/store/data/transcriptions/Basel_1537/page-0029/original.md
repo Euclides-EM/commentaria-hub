@@ -4,6 +4,8 @@
 
 angulo β α γ. Sed ostensum est quod angulus β δ γ, eo qui sub γ ε β, est maior: longe igitur maior est angulus β δ γ, angulo β α γ. Si trianguli ergo à limitibus unius lateris binæ rectæ lineæ introrsum constituentur, quæ constituuntur, reliquis trianguli duobus lateribus minores quidem erunt, maiorē uero angulum continebunt, quod ostendere oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 22.]
+
 ## Eucli. ex Camp. Propositio 22.
 
 [Curated heading level=3 type=campanus_sequence: 22.]
@@ -17,6 +19,8 @@ PRopositis tribus lineis rectis quarū duæ quælibet simul iunctæ reliqua sint
 CAMPANVS. Sint tres lineæ rectæ propositæ, a, b, c, & sint quælibet duæ simul iunctæ longiores reliqua, aliter enī ex illis tribus datis æqualibus, triangulus non posset constitui, per 20 propositiōe. Cum ergo ex illis tribus prædictis uolo cōstituere triangulum, sumo lineam rectam quæ sit d e, cui nō pono à parte e determinatū finē, de qua sumo per 3 propositionē, d f æqualem a & f g æqualē b, & g h æqualē c, & facto f centro, describo secūdum quantitatē lineæ f d, circulum d k, itemq̃ facto g centro, describo secundū quantitatē lineæ g h, circulū k h, qui circuli intersecabūt se in duobus punctis, quorū unum sit k: alioquin sequeretur, unam dictarum linearū esse æqualē alijs duabus iunctis, aut maiorē eis, quod est contrariū positioni. Duco ergo lineā k f & k g, eritq̃ triangulus k f g, constitutus ex tribus lineis æqualibus datis lineis a, b, c, sunt enim f d & f k æquales, quoniā sunt à centro ad circūferentiā, quare f k, est æqualis a. Similiter q̃ g h & g k sunt æquales, quia exeunt à centro ad circūferentiā, quare g k est æqualis c, & quia g f fuit æqualis b, patet propositū manifeste.
 
 [Diagram: two intersecting circles about centres f and g on a straight line e b f d, meeting at k above, with triangle k f g drawn and point g below; three given line segments a, b, c shown at left]
+
+[Curated heading level=2 type=propositions: Problema 8. Propositio 22.]
 
 [Curated heading level=2 type=problems: Problema 8. Propositio 22.]
 
@@ -33,6 +37,8 @@ Ex tribus rectis lineis quæ sunt tribus datis rectis lineis æquales, triangul�
 THEON ex Zamb. Sint datæ tres rectæ lineæ α, β, γ, quarū duæ reliqua sint maiores quomodocunq̃ assumptæ, hoc est α, β, ipsa γ, & α, γ, ipsa β, & β, γ, ipsa α: oportet iam ex tribus lineis rectis, ipsis α, β, γ, æqualibus triangulū cōstruere. Proponatur recta linea quædam δ ε, finita quidem ex parte δ, infinita uero ex parte ε, ponaturq̃ (per 3 propositiōe) ipsi α æqualis δ ζ, & ipsi β æqualis ζ η, & ipsi γ æqualis linea η θ. Et centro quidem ζ, spatio uero ζ δ (per 3 postulatū) circulus describatur δ κ λ: rursus centro quidem η, spatio uero η θ (per idem) circulus describatur κ λ θ, & cōnectantur (per 1 postulatū) κ ζ & κ η. Dico quod ex tribus rectis lineis æqualibus ipsis α, β, γ, triangulū κ ζ η constitutū est. Quoniā enim ζ signū, centrū est circuli δ κ λ, æqualis est (per 15 diffinitionē) ζ δ ipsi ζ κ. Sed α ipsi ζ δ est æqualis, ζ κ igitur (per 1 cōmunem sententiā) ipsi α est æqualis. Rursus quoniā η signū, centrū est circuli κ λ θ, æqualis est (per eandem diffinitionē) ipsi η θ ipsa η κ, sed γ ipsi η θ est æqualis, & η κ igitur (per 1 cōmunem sententiam) ipsi γ est æqualis. At q̃ ipsi β est æqualis (per hypothesin) tres igitur rectæ lineæ κ ζ, ζ η, η κ, ipsis tribus α, β, γ, sunt æquales. Ex tribus igitur rectis lineis, hoc est κ ζ, ζ η, η κ, quæ tribus datis rectis lineis, hoc est α, β, γ, sunt æquales, triangulū κ ζ η constitutū est, quod fecisse oportuit.
 
 [Diagram: three given line segments α, β, γ at right; below, two intersecting circles about centres ζ and η on the straight line δ ε, meeting at κ, with triangle κ ζ η drawn; labels δ, ζ, η, ε, θ, κ, λ]
+
+[Curated heading level=2 type=propositions: Propositio 23.]
 
 ## Eucli. ex Camp. Propositio 23.
 

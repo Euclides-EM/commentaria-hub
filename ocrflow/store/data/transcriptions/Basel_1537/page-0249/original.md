@@ -2,6 +2,8 @@
 
 <!-- Page number: 238 -->
 
+[Curated heading level=2 type=propositions: Propositio 28]
+
 ## Eucli. ex Camp. Propositio 28
 
 [Curated heading level=3 type=campanus_sequence: 28.]
@@ -15,6 +17,8 @@
 CAMPANVS. Sit a b impar, à quo detrahatur a c qui sit par. Dico b c residuū esse imparem. Sit enim b d unitas, eritq̃ a d par. Et quia a c est par, erit per 25 c d par, cum itaq̃ sit d b unitas, erit c b impar, quod est propositum.
 
 [Diagram: dotted line with points a, c, d, b]
+
+[Curated heading level=2 type=propositions: Theorema 27 Propositio 27]
 
 [Curated heading level=2 type=theorems: Theorema 27 Propositio 27]
 
@@ -32,6 +36,8 @@ THEON ex Zamberto. Ab impari nanq̃ α β, par auferatur β γ. Dico quod reliqu
 
 [Diagram: dotted line with points α, δ, γ, β]
 
+[Curated heading level=2 type=propositions: Propositio 29]
+
 ## Eucli. ex Camp. Propositio 29
 
 [Curated heading level=3 type=campanus_sequence: 29.]
@@ -43,6 +49,8 @@ THEON ex Zamberto. Ab impari nanq̃ α β, par auferatur β γ. Dico quod reliqu
 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numerus impar in numerum parem ducatur, qui inde producetur erit par.
 
 CAMPANVS. Ex 23 manifestum est quod dicitur.
+
+[Curated heading level=2 type=propositions: Theorema 28 Propositio 28]
 
 [Curated heading level=2 type=theorems: Theorema 28 Propositio 28]
 
@@ -60,6 +68,8 @@ THEON ex Zamberto. Impar enim numerus α, parem β multiplicans, ipsum efficiat.
 
 [Diagram: dotted lines labelled γ, β, α]
 
+[Curated heading level=2 type=propositions: Propositio 30]
+
 ## Eucli. ex Camp. Propositio 30
 
 [Curated heading level=3 type=campanus_sequence: 30.]
@@ -74,6 +84,8 @@ CAMPANVS. Hæc quoq̃ ex 24 manifesta est.
 
 Hæ sequentes 2 ex Campano propositiones, nullas sibi ex Zamberto respondentes habent.
 
+[Curated heading level=2 type=propositions: Propositio 31]
+
 ## Eucli. ex Camp. Propositio 31
 
 [Curated heading level=3 type=campanus_sequence: 31.]
@@ -86,6 +98,8 @@ Si numerus impar numerum parem numeret, numero pari eum numerabit.
 
 CAMPANVS. Si enim numero impari eum numeraret, ex impari in imparem fieret par, quod est inconueniens per præmissam.
 
+[Curated heading level=2 type=propositions: Propositio 32]
+
 ## Eucli. ex Camp. Propositio 32
 
 [Curated heading level=3 type=campanus_sequence: 32.]
@@ -97,6 +111,8 @@ CAMPANVS. Si enim numero impari eum numeraret, ex impari in imparem fieret par, 
 Si impar imparem numeret, impariter eum numerat.
 
 CAMPANVS. Si enim pariter eum numeraret, ex numero impari in numerū parem fieret impar, quod est inconueniens per 29.
+
+[Curated heading level=2 type=propositions: Theorema 29 Propositio 29]
 
 [Curated heading level=2 type=theorems: Theorema 29 Propositio 29]
 

@@ -6,6 +6,8 @@ logrammū η θ, ipsam latitudinē efficiens ζ θ. Ipsi autem α γ ad θ μ æ
 
 [Diagram: at top right, a square (on α δ, β) with a small square adjoining at the upper right corner labelled ζ, θ, η; below it a large three-strip rectangle whose left side is labelled top-to-bottom λ, θ, η, ζ and right side ν, μ, θ]
 
+[Curated heading level=2 type=propositions: Theorema 23 Propositio 26]
+
 [Curated heading level=2 type=theorems: Theorema 23 Propositio 26]
 
 ## Eucli.ex Zamb. Theorema 23 Propositio 26
@@ -23,6 +25,8 @@ THEON ex Zamberto. Si enim possibile, medium α ε, medium α γ excedat rationa
 [Diagram: a rectangle divided by a vertical line, labelled γ and β along the top and α, δ at the bottom; below it a second rectangle divided by a vertical line with ζ and κ at the top corners and ζ, θ at the bottom]
 
 Sequentes duæ ex zamberto neutiquā in Campano respondentes habent.
+
+[Curated heading level=2 type=propositions: Problema 4 Propositio 27]
 
 [Curated heading level=2 type=problems: Problema 4 Propositio 27]
 

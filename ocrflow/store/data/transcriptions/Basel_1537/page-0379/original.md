@@ -4,6 +4,8 @@
 
 Et quoniā binæ α β, β θ, duabus δ γ, γ ζ, sunt æquales, & angulus qui sub α β θ, angulo qui sub δ γ ζ est æqualis, basis igitur α θ (per 4 primi) basi δ ζ, est æqualis, & triangulū α β θ triāgulo δ γ ζ est æquale. Et quoniā ipsius quidē α β θ, duplum (per 41 primi) est β η parallelogrammū, ipsius uero δ γ ζ dupūl{printer-error-correction:duplū} est ipsum γ ε parallelogrammū, æquū igitur est parallelogrammū β η, parallelogrāmo ε γ. Similiter iam ostendemus, quod & α γ ipsi η ζ est æquale, & α ε ipsi β ζ. Si planū{printer-error-correction:solidū} igitur sub parallelis planis cōprehendatur, quæ ex opposito eius plana, æqualia & parallelogrāma sunt. Quod est propositum.
 
+[Curated heading level=2 type=propositions: Propositio 25]
+
 ## Eucli. ex Camp. Propositio 25
 
 [Curated heading level=3 type=campanus_sequence: 25.]
@@ -21,6 +23,8 @@ CAMPANVS. Sit corpus a b, solidū parallelogrammū, & secet ipsum supficies c d 
 CAMPANVS. Quod si superficies aliqua secet corpus serratile æquidistāter duobus eius triangularibus superficiebus oppositis, duo partialia corpora quæ ad illam secantē superficiē uelut ad cōmunem terminū copulantur, suis basibus erūt ꝓportionalia. Sit enim a f corpus serratile, cuius sint duæ trigonæ superficies a b c, d e f. Constat igitur ex diffinitione serratilis, unāquamq̃ trium superficierū quæ sunt a b d e, b c e f, a c d f, esse parallelogrammū. Secet igitur superficies g h k, istud serratile æquidistāter duabus eius oppositis superficiebus quæ sunt a b c, d e f. Dico ꝙ proportio serratilis a k ad serratile g f, est sicut basis a k ad basin g f. Quod sicut de solidis parallelogrāmis ꝓbatur. Protractis enim in utranq̃ partē lineis a d, b e, c f, factisq̃ inter eas ex parte pūcti e serratilibus æqualibus serratili g f, & ex parte pūcti b alijs æqualibus serratili a k utrinq̃ quouis numero, ex diffinitione incōtinuæ ꝓportionalitatis (si cuncta uigili mente perlustres) nō erit tibi difficile cōcludere qd̃ diximus.
 
 [Diagram: elongated triangular prism (corpus serratile) divided by parallel transverse triangular sections; the letters a, g, d along the top; b, b, e within; c, k, f along the bottom]
+
+[Curated heading level=2 type=propositions: Theorema 22 Propositio 25]
 
 [Curated heading level=2 type=theorems: Theorema 22 Propositio 25]
 

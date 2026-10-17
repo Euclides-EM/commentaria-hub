@@ -16,6 +16,8 @@ CAMPANVS. Sit a b linea data, & c datus angulus. Super lineā a b uolo describer
 
 [Diagram: circle a k b with centre f and k at top; tangent d a at a, perpendicular a e rising to e at upper right, line b f, points g and h below the base a b; at the right the given angle c]
 
+[Curated heading level=2 type=propositions: Problema 5. Propositio 33.]
+
 [Curated heading level=2 type=problems: Problema 5. Propositio 33.]
 
 ## Eucli. ex Zamb. Problema 5. Propositio 33.

@@ -4,6 +4,8 @@
 
 ex minore hoc est ei quod ex ε ζ, æquũ ad maiorē α ε cōparatũ fuerit deficiens forma quadrata, in cōmēsurabilia distribuit (per 17 decimi. Cōparetur (per 28 sexti) igitur ad ipsam α ε, ei quod ex ε ζ, æquũ quod sub α η, η ε, cōmensurabilis igitur est α η, ipsi η ε lōgitudine. Excitēturq̃ (per 31 primi) per ipsa η, ε, ζ, utriq̃ ipsarũ α β, δ γ, paralleli η θ, ε κ, ζ λ. Et ipsi quidē α θ parallelogrãmo, æquũ (per 14 secũdi quadratũ cōstituatur σ ν, ipsi autē η κ, ν π. Ponãturq̃ (per 14 primi) sicut in rectas lineas μ ν, ipsi ν ξ, in rectas igitur lineas est & ρ ν, ipsi ν ο. Cōpleaturq̃ ipsum σ π, parallelogrammũ, quadratũ igitur est σ π. Et quoniam quod sub α η, η ε, æquum est ei quod ε ζ, est igitur (per cōstructionem) sicut α η, ad ε ζ, sic ζ ε, ad ε η, & sicut igitur (per 1 sexti,) α θ, ad ε λ, sic ε λ, ad κ η. Ipsorum igitur α θ, η κ, mediũ ε λ proportionale est. Sed α θ, quidē, æquũ est ipsi σ ν, & η κ, æquũ est ipsi ν π. Ipsorũ igitur σ ν, ν π, mediũ ε λ, proportiõale est. Est aũt ipsorũ σ ν, ν π, mediũ μ ρ proportiõale, (per præostēsum lēma, æquũ est igitur μ ρ, ipsi ε λ. Sed μ ρ, quidē, ipsi ο ξ, æquũ est, & ε λ, ipsi ζ γ, totũ igitur ε γ, ipsis μ ρ, ο ξ, est æquale. Sũt aũt & ipsa α θ. η κ, ipsis σ ν, ν π, æqualia, (per 44 primi,) totũ igitur α γ, æquũ est toti σ π, hoc est ei quod ex μ ξ, quadrato, igitur ipsa μ ξ, ipsum potest α γ. Dico iã quod & ipsa μ ξ, ex binis nominibus est. Quoniã enim cōmēsurabilis est (per 17 decimi,) α η ipsi ε η, cōmēsurabilis igitur est (per 12 decimi, & diffinitionē, & α ε, utriq̃ ipsarũ α η, η ε. Supponitur aũt (per diffinitionē primæ) α ε ipsi α β, cōmēsurabilis, & ipsæ igitur α η, η ε, ipsi α β, sũt cōmēsurabiles. Ratiõalis uero est α β, ratiõalis igitur est & utraq̃ ipsarũ α η, η ε. Ratiõale igitur est & utrũq̃ ipsorũ α θ, β κ{printer-error-correction:η κ}. Cōmēsurabile aũt est (per 1 sexti & 11 decimi) β θ{printer-error-correction:α θ} ipsi η κ. Sed α θ, ipsi quidē σ ν est æquale, ipsum: uero η κ, ipsi ν π, & ipsa igitur σ ν, ν π, hoc est quod ex μ ν, ν ξ, ratiõalia sunt & cōmēsurabilia. Et quoniã incōmēsurabilis est α ε, ipsi ε δ lōgitudine, sed ipsa qdē α ε ipsi α η, est cōmēsurabilis, ipsa aũt δ ε ipsi ε ζ cōmēsurabilis (per 13 decimi) incōmēsurabilis igitur est & α η, ipsi ε ζ. Quare & α θ, ipsi ε λ, incōmēsurabile est. Sed α θ, quidē ipsi σ ν, est æquale, ipsum uero ε λ, ipsi μ ρ, & σ ν, igitur ipsi μ ρ. incōmēsurabile est. Sed sicut σ ν ad μ ρ, sic & ο ν ad ν ρ. incōmēsurabilis igitur est ο ν ipsi ν ρ. Aequalis aũt est ο ν ipsi μ ν, & ν ρ ipsi ν ξ. incōmēsurabilis igitur est μ ν, ipsi ν ξ. Et quod ex μ ν, cōmēsurabile est ei quod ex ν ξ, & utrũq̃ ratiõale. Ipsæ igitur μ ν, ν ξ, ratiõales sunt potētia tãtũ cōmensurabiles, ipsa igitur μ ξ, ex binis nominibus est ipsumq̃ α γ, potest quod erat ostendendum.
 
+[Curated heading level=2 type=propositions: Propositio 49]
+
 ## Eucli. ex Camp. Propositio 49
 
 [Curated heading level=3 type=campanus_sequence: 49.]
@@ -19,6 +21,8 @@ CAMPA. Sit eadē figura eædēq̃ hypotheses quæ in præmissa, eritq̃ ex diffi
 [Diagram: rectangle divided by three horizontal lines into four bands; left side labels from top: c, e, d, f, b; right side labels: g, h, K, a]
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
+
+[Curated heading level=2 type=propositions: Theorema 37 Propositio 55]
 
 [Curated heading level=2 type=theorems: Theorema 37 Propositio 55]
 

@@ -2,6 +2,8 @@
 
 <!-- Page number: 156 -->
 
+[Curated heading level=2 type=propositions: Propositio 21.]
+
 ## Eucli.ex Camp. Propositio 21.
 
 [Curated heading level=3 type=campanus_sequence: 21.]
@@ -17,6 +19,8 @@ CAMPANVS. Si quatuor lineæ proportionales, a,b,c,d, sitq̃ proportio a ad b, si
 Subiungantur enim lineis a & b,e,& lineis c & d, f,in cõtinua proportionalitate, sicut docet 10 huius: eritq̃ per 22 quinti, & per æquam proportionalitatem, a ad e, sicut c ad f: quia ergo per correlarium 17 huius, proportio pentagonorum,est sicut a ad e & triangulorum sicut c ad f:erit ꝓportio pentagonorũ sicut triangulorum:& hoc est primũ. Secundum sic patet. Sint duo pentagoni similes, & duo trianguli similes, sitq̃ proportio pentagonorum, sunt triangulorum:dico quod proportio a ad b,est sicut c ad d.Sit enim c ad g,sicut a ad b, hoc enim qualiter fiat, dictum est supra 10 huius, & super g fiat sicut docet 19 huius, superficies similis illi quæ est constituta super lineã c:eritq̃ per præmissam,similis ei quæ constituta est super lineam d: eritq̃ etiam per primã partem huius 21, quæ proportio pentagoni a ad pentagonum b:eadem trianguli c ad triãgulum g: sed eadem erat etiã trianguli c ad triangulum d:ergo per secundam partẽ 9 quinti,triangulus d,est æqualis triangulo g.Et quia sunt similes,erit linea g æqualis lineæ d, per primam partem 17 huius,cum super lineas c d & g sint trianguli:uel secundum partẽ 18: cum fuerint quælibet aliæ figuræ multiangulæ: æqualitas enim nõ producitur ex aliqua proportione duplicata uel triplicata uel quotieslibet sumpta, nisi ex æquali: erit itaq̃ c ad d sicut a ad b:quod est propositum.
 
 [Diagram: two short horizontal lines labelled e and f; below, a pentagon labelled a and a triangle labelled c; below these, a pentagon labelled b, a small triangle labelled g, and an inverted triangle labelled d]
+
+[Curated heading level=2 type=propositions: Theorema 16. Propositio 22.]
 
 [Curated heading level=2 type=theorems: Theorema 16. Propositio 22.]
 

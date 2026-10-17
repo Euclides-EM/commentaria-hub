@@ -2,6 +2,8 @@
 
 <!-- Page number: 73 -->
 
+[Curated heading level=2 type=propositions: Propositio 24.]
+
 ## Eucli. ex Camp. Propositio 24.
 
 [Curated heading level=3 type=campanus_sequence: 24.]
@@ -23,6 +25,8 @@ CAMPANVS. Intentio per hanc conclusionem, est ex omni arcu dato siue ex omni cir
 [Diagram: circle with c at top, centre e, and a, d, b at the bottom, with lines from a to c and from a and b to e]
 
 [Diagram: portion less than a semicircle: pointed oval a d b with e below the base and a line descending to f]
+
+[Curated heading level=2 type=propositions: Problema 3. Propositio 25.]
 
 [Curated heading level=2 type=problems: Problema 3. Propositio 25.]
 

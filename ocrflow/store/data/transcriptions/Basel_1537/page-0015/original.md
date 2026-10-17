@@ -6,11 +6,15 @@
 
 35 Parallelæ rectæ lineæ sunt, quæ in eodem existentes plano, & ex utraque parte in infinitum productæ, in nulla parte concurrunt.
 
+[Curated heading level=2 type=zamberti_sequence: Secundum, Postulata.]
+
 ## Secundum, Postulata.
 
 1 Ab omni signo in omne signum, rectam lineam ducere. 2 Rectam lineam terminatam, in continuum rectumq́ʒ producere. 3 Omni centro & interuallo, circulum describere. 4 Omnes angulos rectos, adinuicem æquales esse. 5 Si in duas rectas lineas recta linea incidens, interiores & in eadē parte angulos duobus rectis minores fecerit, rectas lineas in infinitū productas concurrere necesse est ad eas partes in quibus anguli duobus rectis minores existunt.
 
 [Diagram: two horizontal straight lines with a point; a transversal line falling across two straight lines; four concentric circles about a centre point]
+
+[Curated heading level=2 type=zamberti_sequence: Tertium Communes sententiæ.]
 
 ## Tertium Communes sententiæ.
 

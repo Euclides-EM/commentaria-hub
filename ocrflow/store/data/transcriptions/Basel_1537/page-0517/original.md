@@ -10,6 +10,8 @@ Sit planum speculū a c, oculus sit b, uisus uero refracti sunt. b c d. b a e. D
 
 Sit rursus conuexum speculum a g f c, oculus uero sit b, aspectus autem refractus sint b f d b g e. Dico quod ipsi f d, g e, neque in e d cōcurrūt, neque sunt paralleli, & cōnectatur enim g f, recta linea, extendaturq́; ex utraque parte, quoniā æqualis est k h, ipsi l, eo quia in æquis angulis refringitur. maior fuerit quoque l m ipso k & k ipso n x est maior. sed n x ipso p o maior est. Rursus x, æqualis est ipsi o, maior igitur est l m ipso o p, multo igitur maior est l m ipso o: non concurrunt: igitur ipsæ f d, g e, rectæ lineæ, neque sunt paralleli.
 
+[Curated heading level=2 type=propositions: Theorema quintum.]
+
 [Curated heading level=2 type=theorems: Theorema quintum.]
 
 ## Theorema quintum.
@@ -27,6 +29,8 @@ Sit rursus cauum speculum a b c, oculus autē esto. b ponaturq́; in eius circun
 [Diagram: circle with a horizontal diameter d–a and a vertical chord from c; point b at the centre below the chord]
 
 [Diagram: circle with points c and K at top left, m and l inside, b at right on the circumference, g and e at lower left, d and f below; chords from c and b crossing within the circle]
+
+[Curated heading level=2 type=propositions: Theorema sextum.]
 
 [Curated heading level=2 type=theorems: Theorema sextum.]
 

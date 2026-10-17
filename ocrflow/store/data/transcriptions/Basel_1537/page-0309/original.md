@@ -6,6 +6,8 @@
 
 [Diagram: line α–γ–β; below, rectangle with δ at the left, divided by vertical lines into several compartments, two of which project above the top line; small labels (θ, κ, μ, ν, ξ, ε, ζ, λ) mark the divisions along the middle and bottom]
 
+[Curated heading level=2 type=propositions: Propositio 55]
+
 ## Eucli. ex Camp. Propositio 55
 
 [Curated heading level=3 type=campanus_sequence: 55.]
@@ -21,6 +23,8 @@ CAMPANVS Sit lnea{printer-error-correction:linea} a b bimediale primũ, diuisa a
 [Diagram: square with corners d (top-left), K (top-right), c (bottom-left), b (bottom-right); a diagonal from d, a vertical and a horizontal line crossing near the centre (letter h at the crossing, letter a on the left side)]
 
 [Diagram: tall rectangle divided by horizontal lines into bands; right side labels from top: g, q, n, l, f; left side labels: p, m, e (bottom-left)]
+
+[Curated heading level=2 type=propositions: Theorema 43 Propositio 61]
 
 [Curated heading level=2 type=theorems: Theorema 43 Propositio 61]
 

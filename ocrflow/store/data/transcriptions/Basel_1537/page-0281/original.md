@@ -10,6 +10,8 @@ ipsius δ ζ duplus ponatur θ α. * Conducaturq́ʒ duplus rursus θ γ ipsius 
 
 [Diagram: a dotted horizontal line with the points α . . η . . θ . δ . ε . ζ . . . γ . . . . . . . . β]
 
+[Curated heading level=2 type=propositions: Problema 6 Propositio 29]
+
 [Curated heading level=2 type=problems: Problema 6 Propositio 29]
 
 ## Eucli.ex Zamb. Problema 6 Propositio 29
@@ -26,6 +28,8 @@ THEON ex Zamb. Exponatur enim quædam rationalis α β,& bini quadrati numeri γ
 
 [Diagram: semicircle on base β α (β at the left end, α at the right end) with an inscribed triangle whose apex, labelled ζ, stands near the top of the arc, with tick marks on the left chord and on the base; below, a dotted line with the points δ . . . . ε . . . . γ]
 
+[Curated heading level=2 type=propositions: Problema 7 Propositio 30]
+
 [Curated heading level=2 type=problems: Problema 7 Propositio 30]
 
 ## Eucli. ex Zamb. Problema 7 Propositio 30
@@ -41,6 +45,8 @@ Comperire binas rationales potentia tantum cōmensurabiles,ut maior minore maius
 THEON ex Zamb. Exponatur rationalis α β, biniq́ʒ numeri quadrati γ ε & ε δ,ut ex eis compositus γ δ non sit quadratus(per lemma secundum 28 decimi.) Describaturq́ʒ super α β,semicirculus α ζ β,fiatq́ʒ(per correlariū 6 decimi)sicut δ γ ad γ ε,sic quod ex α β ad id quod ex α ζ conectaturq́ʒ ζ β. Similiter iam ostendemus sicut in præcedenti,quod ipsæ β α & α ζ rationales sunt potentia tantum cōmensurabiles. Et quoniam est sicut δ γ ad γ ε,sic est quod ex β α ad id quod ex α ζ,conuertendo igitur (per correlariū 19 quinti)sicut γ δ ad δ ε,sic quod ex α β ad id quod ex ζ β. At γ δ ad δ ε rationem non habet quam quadratus numerus ad quadratum numerum,neq́ʒ igitur quod ex α β , ad id quod ex β ζ rationem habet quam numerus quadratus ad quadratū numerum. Incōmensurabilis igitur est α β ipsi β ζ longitudine,potestq́ʒ α β,quàm ipsa α ζ maius eo quod ex β ζ sibi incommensurabili. Ipsæ igitur α β, β ζ, rationales sunt potentia tantum commensurabiles & α β quàm ipsa α ζ maius potest eo quod ex ζ β sibi longitudine incommensurabili,quod fecisse oportuit.
 
 [Diagram: semicircle on base α β (α at the left end, β at the right end) with an inscribed triangle whose apex, labelled ζ, stands near the top right of the arc; beneath the base, R. 18; below, a dotted line with the points γ . . . . . . ε . . . . δ]
+
+[Curated heading level=2 type=propositions: Propositio 24]
 
 ## Eucli.ex Camp. Propositio 24
 

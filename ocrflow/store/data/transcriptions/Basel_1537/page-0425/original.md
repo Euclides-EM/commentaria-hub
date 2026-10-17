@@ -6,6 +6,8 @@ tij, linea h e K, contingens circulū minorem. Postea uero quadrantē a b maiori
 
 [Diagram: circle with centre g; on the upper arc the points b, m, p, n, K, with p at the top; lines fan from g to the arc points; q inside where the perpendicular from g crosses the chord]
 
+[Curated heading level=2 type=propositions: Problema 1 Propositio 16]
+
 [Curated heading level=2 type=problems: Problema 1 Propositio 16]
 
 ## Eucli. ex Zamb. Theorema{printer-error-correction:Problema} 1 Propositio 16

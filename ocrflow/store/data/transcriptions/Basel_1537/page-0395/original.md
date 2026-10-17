@@ -4,6 +4,8 @@
 
 tes cum ijs quæ in principio rectis lineis alterum alteri. ipsæ igitur quæ ex κ, ξ. signis perpendiculares ductæ ad ea quæ per ν λ μ, δ ε ζ, plana, (per corollariū præcedentis) inuicem sunt æquales. Quare λ θ, ε κ, solida, sub eadem sunt altitudine. Super æqualibus autē basibus & sub eisdē altitudinis constituta solida parallelepipeda, inuicem sunt æqualia (pea{printer-error-correction:per} 31 undecimi.) Igitur solidum θ λ, solido ε κ est æquale. At λ θ, solidū, est ex ipsis α. β, γ, & ε κ, solidū est ex β. Igitur quod ex α, β γ, solidum parallelepipedum, æquum est ei quod ex β solido æquilatero quidem, sed æquiangulo prædicto. Quod erat ostendendum.
 
+[Curated heading level=2 type=propositions: Propositio 39]
+
 ## Eucli. ex Camp. Propositio 39
 
 [Curated heading level=3 type=campanus_sequence: 39.]
@@ -21,6 +23,8 @@ CAMPANVS Simile proponit uigesima prima sexti de superficiebus. Sint itaq̃ quat
 [Diagram: two horizontal line segments labelled g and h, above two parallelepipeds labelled c and d]
 
 [Diagram: a parallelepiped labelled K]
+
+[Curated heading level=2 type=propositions: Theorema 32 Propositio 37]
 
 [Curated heading level=2 type=theorems: Theorema 32 Propositio 37]
 

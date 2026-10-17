@@ -6,6 +6,8 @@ THEON ex Zamb. In parallelos enim rectas lineas α β & γ δ, recta incidat lin
 
 [Diagram: transversal line ε ζ crossing the parallel lines α β and γ δ at points η and θ; labels ε, α, β, η, γ, θ, δ, ζ]
 
+[Curated heading level=2 type=propositions: Propositio 30.]
+
 ## Eucli. ex Camp. Propositio 30.
 
 [Curated heading level=3 type=campanus_sequence: 30.]
@@ -19,6 +21,8 @@ SI fuerint duæ lineæ uni æquidistantes, eædem sibi inuicem æquidistantes er
 CAMPANVS. Sint duæ lineæ a b & c d, quarum utraq̃ æquidistet lineæ e f. Dico illas duas, uidelicet, a b & c d, esse æquidistantes. Hoc autem est uniuersaliter uerum, siue duæ lineæ a b & c d sint in una superficie cum linea e f, siue non: hic tamen non intelligitur, nisi secūdum quod omnes sunt in superficie una, secundum enim quod sunt in diuersis superficiebus, probatur in 9 undecimi libri, quod sunt æquidistantes. Sint ergo omnes in superficie una: protraham autem lineam g h, secantē lineas a b, e f, & c d, in punctis k, l, m. Et quia a b æquidistat e f, erit angulus b k l æqualis angulo e l k per primā partē præcedentis, cum illi sint coalterni: at quia c d æquidistat e f, erit angulus k l e extrinsecus æqualis angulo l m c intrinseco, per secūdā partem præcedentis, ergo angulus b k l, est æqualis angulo l m c, qui cum sint coalterni, erunt per 27, lineæ a b & c d æquidistantes. Quod est propositum.
 
 [Diagram: transversal line g h crossing three lines: a b at k, e f at l, c d at m; labels g at top, a, k, b, e, l, f, c, m, d, h at bottom]
+
+[Curated heading level=2 type=propositions: Theorema 21. Propositio 30.]
 
 [Curated heading level=2 type=theorems: Theorema 21. Propositio 30.]
 
@@ -36,6 +40,8 @@ THEON ex Zamb. Sint α β & γ δ, ipsi ε ζ paralleli, dico quod & α β, ipsi
 
 [Diagram: transversal line η θ crossing three lines α β, ε ζ, γ δ; labels α, β, ε, ζ, γ, δ with the transversal points on each line]
 
+[Curated heading level=2 type=propositions: Propositio 31.]
+
 ## Eucli. ex Camp. Propositio 31.
 
 [Curated heading level=3 type=campanus_sequence: 31.]
@@ -49,6 +55,8 @@ A Puncto extra lineam dato, lineæ propositæ æquidistantē ducere.
 CAMPANVS. Punctus extra lineā datus intelligitur, cum linea utrinq̃ protracta, per ipsum non transit. Sit ergo punctus a, datus extra lineā b c, ab eodem pūcto a, à quo oportet protrahere lineā æquidistantē ipsi b c, protraho lineam a d lineæ b c superstantem qualitercūq̃ contingat, & super punctū a qui est extremitas lineæ a d, cōstituo angulum e a d per doctrinā 23 propositionis, æqualem angulo b d a sibi coalterno, eritq̃ a e æquidistans b c per 27 propositionē, quod est propositū.
 
 [Diagram: point a above with line a e drawn to the right, slant line a d descending to the lower line b c at d; labels a, e, d, f on the lines]
+
+[Curated heading level=2 type=propositions: Problema 10. Propositio 31.]
 
 [Curated heading level=2 type=problems: Problema 10. Propositio 31.]
 

@@ -4,6 +4,8 @@
 
 bilis est, ac id propterea δ μ ipsa μ η maius potest eo quod ex sibi longitudine cōmensurabili{printer-error-correction:incōmensurabili}, & neutra ipsarum δ μ, μ η, cōmensurabilis est expositæ rationali δ ε lōgitudine. Ipsa igitur δ η (per secundas diffinitiones) ex binis est sexta nominibus, quod erat ostendendū.
 
+[Curated heading level=2 type=propositions: Propositio 60]
+
 ## Eucli.ex Camp. Propositio 60
 
 [Curated heading level=3 type=campanus_sequence: 60.]
@@ -17,6 +19,8 @@ bilis est, ac id propterea δ μ ipsa μ η maius potest eo quod ex sibi longitu
 CAMPANVS. Sit linea a binomium cuiusuis speciei, sitq̃ linea b ei cōmunicans in longitudine. Dico lineam b esse binomium eiusdem speciei cuius a, sint enim binomiales portiones a, c & d, eruntq̃ ambæ rationales in potentia tātum communicantes per 30. linea uero b diuidatur per 12 sexti secūdū proportionem c ad d, in e & f, eritq̃ per coniunctam & euersam & permutātam proportionalitatem c ad e, & d ad f, sicut a ad b. Cum sint igitur a & b communicantes, erunt etiam per primam partem 10 c & e, itemq̃ d & f, cōmunicantes. Si igitur fufrit{printer-error-correction:fuerit} c rationalis in potentia tantū, erit & e, si autē in lōgitudine, & e. Eodemq̃ modo si d est rationalis in potentia tantum uel etiam in lōgitudine, erit quoq̃ & f similiter, & ex 12 si potentior est c, d, in quadrato lineæ sibi cōmensurabilis in lōgitudine, uel si forte incōmensurabilis, erit & e potentior f in quadrato lineæ sibi cōmensurabilis uel etiam incōmensurabilis, necesse est ex diffinitionibus sex specierum binomiorū, ut eiusdem speciei binomij sint a & b. Si autem linea d cōmunicet binomio a in potentia tantum erit etiam & sic linea b. Binomiū autem eiusdem esse speciei non est necessarium, immo impossibile est ut ambæ simul cadant sub prima specie binomiorū uel sub secūda, quarta uel quinta, sed necesse est ut ambo cadāt sub primis tribus aut ambo sub tribus postremis, unum enim eorum esse in aliqua ex tribus primis speciebus, & aliud in aliqua ex tribus postremis, est impossibile. Cum enim a cōmunicet cum b in potentia tantum c quoq̃ cum e, & d cum f communicabit tātum in potentia ex 10. Si igitur alterutra duarum linearum c & d fuerit rationalis in longitudine, non erit sua compar ex lineis e & f rationalis in lōgitudine. Non est itaq̃ possibile ut a & b cadant simul sub aliqua ex illis speciebus binomiorū, in quibus altera duarum portionum binomij est rationalis in longitudine, hæ autem species sunt, prima & secūda, quarta & quinta. At uero quia per 12 duæ lineæ c & e simul potentiores sunt duabus lineis d & f in quadratis duarum linearum sibi in longitudine communicantium aut incommunicantium, necesse est ut ambo binomia a & b simul cadant sub primis tribus speciebus binomiorum aut simul sub tribus postremis ex diffinitione ipsarum specierum. Lineam antem{printer-error-correction:autem} b quid dubitas esse binomium? cum sint enim c & e communicantes in potentia tantum, similiter quoq̃ d & f, sint autem c & d rationales in potentia, conuincitur e & f esse rationales in potentia tantum, quæ quia non communicant in longitudine sicut nec eis proportionales c & d, ipsæ componunt indubitanter binomium per 30 huius.
 
 [Diagram: long horizontal line with c at left end and d at right end, labelled a above; below it a shorter horizontal line with e at left end and f at right end, labelled b above]
+
+[Curated heading level=2 type=propositions: Theorema 48 Propositio 66]
 
 [Curated heading level=2 type=theorems: Theorema 48 Propositio 66]
 

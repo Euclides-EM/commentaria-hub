@@ -8,6 +8,8 @@ CAMPANI *annotatio*. Habito minimo,si cura est habere secundum, aut quotūcunque
 
 [Diagram: five dotted number lines beside the text, labelled l, m, n, p, q, of decreasing length]
 
+[Curated heading level=2 type=campanus_sequence: CAMPANI additiones.]
+
 ## CAMPANI additiones.
 
 Minimum numerum habentem partes propositarum denominationum sumptarum continue, reperire.

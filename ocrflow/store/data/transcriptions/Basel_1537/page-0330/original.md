@@ -4,6 +4,8 @@
 
 ζ θ (per 73 decimi.) Dico quod & tertia. Quoniā enim enim{printer-error-correction:enim bis} est sicut ε ad β γ, sic quod ex α, quadratū ad id quod ex ζ η quadratū, sicut aūt β γ, ad γ δ, sic quod ex ζ η ad id quod ex η θ, ex æquali igitur (per 22 quinti,) sicut ε ad γ δ, sic quod ex α ad id quod ex θ η. Sed ε ad γ δ rationē nō habet quā quadratus nūerus ad quadratū numerū. Neq̃ igitur quod ex α, ad id quod ex η θ rationē habet quā quadratus numerus ad quadratū numerū. Incōmēsurabilis igitur est α ipsi η θ lōgitudine. Neutra igitur ipsarum ζ η, η θ, cōmensurabilis est longitudine ipsi α expositæ rationali. Quo nēpe maius est quod ex ζ η eo quod ex η θ, esto id quod ex κ. Quoniā igitur est sicut β γ ad γ δ, sic est quod ex ζ η, ad id quod ex η θ, conuertendo igitur (per correlariū 19 quinti) est sicut β γ ad β δ, sic est quod ex ζ η. quadratū ad id quod ex κ. At β γ, ad β δ rationem habet quā quadratus numerus ad quadratū numerū, & quod ex ζ η, igitur ad id quod ex κ rationem habet quā quadratus numerus ad quadratū numerū, commensurabilis igitur est ζ η, ipsi κ longitudine. Et ζ η, ipsa η θ. maius potest, eo quod ex κ, ipsa igitur ζ η, ipsa η θ, maius potest, eo quod ex sibi commensurabili. Et neutra ipsarum ζ η, η θ, cōmensurabilis est lōgitudine ipsi α expositæ rationali. Igitur (per 3 diffinitiōes ζ θ, apotome est tertia. Inuenta igitur est tertia apotome, quod erat agendū.
 
+[Curated heading level=2 type=propositions: Propositio 83]
+
 ## Eucli.ex Camp. Propositio 83
 
 [Curated heading level=3 type=campanus_sequence: 83.]
@@ -17,6 +19,8 @@ REsiduum quartum inuenire.
 CAMPANVS Hic (sicut in inuentione residui primi) sit linea b c, cōmunicans lineæ a ratiōali positæ, numerus autē e quadratus, sit diuisus in f & g, quorū sit uterque nō quadratus, sitq̃ quadratū lineæ b c, quadratū lineæ d e, sicut e ad f, & scies ex diffinitione, lineam d b esse residuum quartū, si eorū quæ in inuentione binomij quarti didiceras, oblitus nō fueris.
 
 [Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); a third line with label e below it; dotted number line with labels f and g]
+
+[Curated heading level=2 type=propositions: Problema 22 Propositio 88]
 
 [Curated heading level=2 type=problems: Problema 22 Propositio 88]
 
@@ -34,6 +38,8 @@ THEON ex Zãb. Exponatur rōnalis α, & ei lōgitudine cōmēsurabilis esto β �
 
 [Diagram: line α; line with points β, γ, η (β at the left end, γ in the middle, η at the right end); line θ; dotted number line with points δ, ζ, ε]
 
+[Curated heading level=2 type=propositions: Propositio 84]
+
 ## Eucl.ex Cãp. Propositio 84
 
 [Curated heading level=3 type=campanus_sequence: 84.]
@@ -47,6 +53,8 @@ REsiduum quintum demonstrare.
 CAMPANVS Cum residuū quintū inuenire libuerit, erit linea c d communicans lineæ a rationali positæ in lōgitudine, sicut erat in inquisitione secūdi, & erit quadratus numerus e diuisus in f & e, quorum neuter quadratus sicut in præmissa, erit quadratū lineæ c d ad quadratū b c, sicut f ad e, ex quibus à diffinitione cōcludere licet (habita sufficiēti notitia binomij quinti) lineā d b esse residuū quintū.
 
 [Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); a third line with label e below it; dotted number line with labels f and e]
+
+[Curated heading level=2 type=propositions: Problema 23 Propositio 89]
 
 [Curated heading level=2 type=problems: Problema 23 Propositio 89]
 

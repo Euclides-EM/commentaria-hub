@@ -4,6 +4,8 @@
 
 linea d e æquidistans lineæ b c,quod est secundum.
 
+[Curated heading level=2 type=propositions: Theorema 2 Propositio 2]
+
 [Curated heading level=2 type=theorems: Theorema 2 Propositio 2]
 
 ## Eucli.ex Zamb. Theorema 2 Propositio 2
@@ -20,6 +22,8 @@ THEON ex Zamberto. Trianguli enim α β γ.parallelus ad latus β γ,agatur δ �
 
 [Diagram: right triangle with apex α at top, base line β γ at bottom, points δ and ε on the sides joined by a line parallel to the base, with diagonals crossing below]
 
+[Curated heading level=2 type=propositions: Propositio 3]
+
 ## Eucli.ex Camp. Propositio 3
 
 [Curated heading level=3 type=campanus_sequence: 3.]
@@ -33,6 +37,8 @@ THEON ex Zamberto. Trianguli enim α β γ.parallelus ad latus β γ,agatur δ �
 CAMPANVS Sit trigonus a b c,cuius angulum a diuidat linea a d per æqualia,dico quod proportio b d ad d c. est sicut b a ad a c,& econuerso, protraham enim b e,æquidistantē a d,& producam c a, quousque concurrat cum b e,in puncto e, eritque per primam partem 29 primi,angulus e b c,æqualis angulo b a d,& per secundam partem eiusdem,angulus c,angulo d a c,quare angulus e,est æqualis angulo e b a,ergo per sextam primi, e a ,est æqualis a b,& ideo per primam partem septimi quinti, proportio e a ad a c:est sicut b a ad a c,sed per præmissam,e a, ad a c,est sicut b d ad d c. ergo b a ad a c,sicut b d ad d c,qd'est primum. Secunda pars quæ est conuersa primæ partis,probabitur conuerso modo.Manente enim eadem dispositione, si fuerit proportio b a ad a c,sicut b d ad d c,quia per præmissam e a ad a c est sicut b d ad d c,erit eadē proportio e a ad a c,quæ est b a ad a c,ergo per primā partem,9 quinti e a & a b sunt æquales.quare per 5 primi duo anguli e & e b a.sunt æquales ,igitur per primam & secundam partem 29 primi angulus b a d,est æqualis angulo d a c,quod est secundum.
 
 [Diagram: triangle with base b d c and vertex a at the top, a point e partway down within the figure, with lines a d and e b drawn]
+
+[Curated heading level=2 type=propositions: Theorema 3 Propositio 3]
 
 [Curated heading level=2 type=theorems: Theorema 3 Propositio 3]
 

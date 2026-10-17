@@ -6,6 +6,8 @@ per eas quæ in α sunt unitates, igitur & α ipsum β metitur per eas quæ in i
 
 [Diagram: dotted number lines from unitas labelled α, β, γ, δ, ε, ζ with values 3, 9, 27, 81, 243, 729]
 
+[Curated heading level=2 type=propositions: Propositio 9]
+
 ## Eucli. ex Camp. Propositio 9
 
 [Curated heading level=3 type=campanus_sequence: 9.]
@@ -19,6 +21,8 @@ per eas quæ in α sunt unitates, igitur & α ipsum β metitur per eas quæ in i
 CAMPANVS. Sint qui prius continue proportionales ab unitate, sitq̃ a quadratus, dico omnes esse quadratos. Aut sit idem cubus, tunc quoq̃ dico omnes esse cubos, b enim constat esse quadratum per præmissam, quia ergo a ad b, sicut b ad c, ex 22 octaui, sequitur c esse quadratum, idem quoq̃ ex eiusdem 17 uel 20 potes arguere. De sequētibus autem idem eodemq̃ modo probabis, quare patet primum. Secūdum autem sic. Cum b fiat ex a in se, si fuerit a cubus, erit per tertiam ipse quoq̃ cubus, c uero constat esse cubum per præmissam, itaque per 25 octaui, d omnesq̃ sequentes cubicos esse probabis, est enim a ad b, sicut c ad d. Idem quoq̃ arguere potes ex 19 uel 21 eiusdem, sunt enim a, b, c, d, sed & b,c,d,e, singuliq̃ quatuor continue sumpti, continue proportionales.
 
 [Diagram: dotted number lines from unitas labelled a, b, c, d, e, f, g, h, k, l, m, n]
+
+[Curated heading level=2 type=propositions: Theorema 9 Propositio 9]
 
 [Curated heading level=2 type=theorems: Theorema 9 Propositio 9]
 

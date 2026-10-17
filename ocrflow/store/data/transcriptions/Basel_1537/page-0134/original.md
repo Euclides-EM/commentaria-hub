@@ -4,6 +4,8 @@
 
 sumptæ sunt ipsarū α γ, æque multiplices μ η, ipsarū β δ, aliæ quæuis æque multiplices ν κ: si excedit igitur μ, ipsam ν, excedit & η, ipsam κ, & si æqualis, æqualis, & si minor, minor: (per cōuersionem sextæ diffinitionis quinti. Excedit autem η ipsam κ, excedit igitur & μ, ipsam ν, θ autem, ipsam λ, non excedit, sunt autem μ θ, æque multiplices ipsarum α ε, ν λ, ipsarum β ζ, aliæ quæuis æque multiplices. Igitur α, ad ε, maiorē habet rationē, quàm ε, ad ζ. Si prima igitur ad secundam eandem habuerit rationem & tertia ad quartam, tertia autem ad quartam maiorē rationē habeat quàm quinta ad sextam, prima ad secundam quoque maiorem rationem habebit, quàm quinta ad sextam, quod demonstrare oportebit.
 
+[Curated heading level=2 type=propositions: Propositio 14.]
+
 ## Eucli. ex Camp. Propositio 14.
 
 [Curated heading level=3 type=campanus_sequence: 14.]
@@ -17,6 +19,8 @@ SI fuerint quatuor quantitates proportionales, fueritque prima maior tertia. nec
 CAMPANVS Sit proportio a ad b, sicut c ad d. Dico quod si a est maior c, b erit maior d, & si minor, minor, & si æqualis, æqualis. Si enim a sit maior c, erit per primam partem 8 huius. maior proportio a ad d quàm c ad d. Quare maior erit a ad d, quàm a ad b, ergo per secūdam partem 10 huius, b erit maior d, quod est propositum. Quod si a sit minor c, erit per primam partem 8, minor proportio a ad d, quàm c ad d. Quare maior erit a ad b, per secundam partem ergo 10, b erit minor d Si autem a sit æqualis c, erit per primam partem 7, a ad d sicut c ad d Quare a ad b sicut a ad d, itaque per secundam partem 9, b erit æqualis d, sicque patet propositum.
 
 [Diagram: horizontal line segments a, c above and b, d below, set beside the paragraph]
+
+[Curated heading level=2 type=propositions: Theorema 14 Propositio 14]
 
 [Curated heading level=2 type=theorems: Theorema 14 Propositio 14]
 
@@ -34,6 +38,8 @@ THEON ex Zamberto. Primum enim α, ad secundum β, eandem habeat rationem, & ter
 
 [Diagram: four vertical line segments of unequal heights with division marks, letters α β γ δ beneath, in the right margin]
 
+[Curated heading level=2 type=propositions: Propositio 15]
+
 ## Eucli. ex Camp. Propositio 15
 
 [Curated heading level=3 type=campanus_sequence: 15.]
@@ -47,6 +53,8 @@ SI fuerint aliquibus quantitatibus æque multiplices assignatæ, erit ipsarum mu
 CAMPANVS Sint c ad a, & d ad b, æque multiplices. Dico quod quæ est proportio a ad b, eadem est c ad d. Diuidatur c secundum quantitatem a, & d secūdum quantitatem b, sunt que tot partes e, quot d, & quia quælibet pars c ad quamlibet partem d se habet sicut a ad b, erit per 13 huius, c ad d, sicut a ad b. quod est propositum.
 
 [Diagram: horizontal line segments c and d with division marks above, segments a and b below, set beside the paragraph]
+
+[Curated heading level=2 type=propositions: Theorema 15 Propositio 15]
 
 [Curated heading level=2 type=theorems: Theorema 15 Propositio 15]
 

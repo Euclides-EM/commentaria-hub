@@ -4,7 +4,11 @@
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS{printer-error-correction:TERTIVS}.
 
+[Curated heading level=2 type=campanus_sequence: Ex Campano. Diffinitiones.]
+
 ## Ex Campano. Diffinitiones.
+
+[Curated heading level=3 type=definitions: 1-13]
 
 {dropcap:Q|lines=?|style=decorated|decoration="portrait medallion of a man in profile within a decorated square frame, with lettering around the medallion"}Vorum diametri sunt æquales, ipsos circulos æquales esse. Maiores autem, quorum maiores. Et minores, quorum minores. 2 Circulum linea contingere dicitur: quæ cum circulum tangat, in utramq̃ partem eiecta circulum non secat. 3 Circuli sese contingere dicuntur: qui se tāgentes, seinuicem non secant.
 

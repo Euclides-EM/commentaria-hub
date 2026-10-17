@@ -6,6 +6,8 @@ cies a medialis, cui ponatur superficies b esse cōmunicans, dico superficiem b 
 
 [Diagram: two rectangles side by side labelled b and a; below them a larger rectangle with corners c (top left) and d (top right), divided by a horizontal line f–e, g at the bottom left]
 
+[Curated heading level=2 type=propositions: Theorema 20 Propositio 23]
+
 [Curated heading level=2 type=theorems: Theorema 20 Propositio 23]
 
 ## Eucli.ex Zamb. Theorema 20 Propositio 23
@@ -23,6 +25,8 @@ THEON ex Zamberto. Sit media α, & ipsi α commensurabilis esto β. Dico quod & 
 [Diagram: two horizontal segments labelled α and β; below, a rectangle with ε at top left, δ on the top side where a vertical line divides it, ζ at top right, and γ below the rectangle]
 
 CORRELARIVM. Hinc igitur est manifestum, quod mediæ areæ commensurabilis media est, possunt enim eas rectæ lineæ quæ potentia sunt commensurabiles, quarum altera media, quare & reliqua media est. Similiter autem eis quæ de rationalibus dicta sunt, sequitur & in medijs ut mediæ longitudine cōmensurabilis, media appelletur, eiq̃ cōmensurabilis non tantum longitudine sed & potentia, quoniam in uniuersali longitudine cōmensurabiles omnino & potentia. Si uero mediæ commensurabiles potentia tantum, dicuntur mediæ potentia tantum commensurabiles.
+
+[Curated heading level=2 type=propositions: Propositio 22]
 
 ## Eucli. ex Camp. Propositio 22
 

@@ -4,6 +4,8 @@
 
 Igitur magnitudo d f, maior apparet oculo in n, existente quàm in c, oculo igitur in b c permutato parallelo existenti ipsi d f, spectatum inæquale apparet.
 
+[Curated heading level=2 type=propositions: Theorema quadragesimumnonum.]
+
 [Curated heading level=2 type=theorems: Theorema quadragesimumnonum.]
 
 ## Theorema quadragesimumnonum.
@@ -13,6 +15,8 @@ ESt aliquis locus in quo æquales magnitudines inæquales apparent.
 Sit, nanq̃ æqualis b c ipsi c d, & circum quidē b c, semicirculus describatur b f c, circum uero c d, describatur segmentū maius semicirculo. Connectatur f b, f c, f d, igitur angulus qui in semicirculo est per 31 tertij element. maior est eo qui est in maiori segmētō, at quæ sub maiori spectantur angulo per 4 suppositionē opticæ maiora apparēt, oculo uero posito in f, maior igitur apparet b c, ipsa c d, erat autem æqualis: est igitur cōmunis locus in quo æquales inæquales apparent magnitudines.
 
 [Diagram: two arcs over the base line d, c, b, meeting at f above; chords from f to d, c, b]
+
+[Curated heading level=2 type=propositions: Theorema quinquagesimum]
 
 [Curated heading level=2 type=theorems: Theorema quinquagesimum]
 
@@ -24,6 +28,8 @@ Esto, inquā, maior b c, ipsa c d, & super b c, maius semicirculo segmentum desc
 
 [Diagram: two arcs over the base line d, c, b, meeting at f above; chords from f]
 
+[Curated heading level=2 type=propositions: Theorema quinquagesimumprimum.]
+
 [Curated heading level=2 type=theorems: Theorema quinquagesimumprimum.]
 
 ## Theorema quinquagesimumprimum.
@@ -33,6 +39,8 @@ ALiqui sunt loci in q̃bus binæ magnitudines inæquales in idem compositæ utri
 Esto nempe maior b c, ipsa c d, & super ipsis b c & c d, semicirculi describātur, superq̃ tota b d. Igitur per 31 tertij element. angulus qui in semicirculo b a d, æqualis est ei q̃ in b k c, uterq̃ enim ipsorū rectus est. Igitur b c ipsi b d, æqualis apparet, itidem quoq̃ & b d ipsi c d, oculis in b a d, b k c, c f d, semicirculis positis. Sunt igitur aliqui loci in q̃bus binæ inæquales magnitudines in idem cōpositæ æquales utriq̃ inæqualium apparent.
 
 [Diagram: large semicircle with a at its apex, over two smaller semicircles marked f and k; base line with b at the left, c in the middle, b at the right]
+
+[Curated heading level=2 type=propositions: Problema primum Propositio 52]
 
 [Curated heading level=2 type=problems: Problema primum Propositio 52]
 
@@ -45,6 +53,8 @@ Sit enim recta linea l f, & super l f, describatur segmentū contingēs, & inscr
 [Diagram: two small circle-segments side by side, the first with k at its apex over the base l, f, the second with d(?) at its apex over the base b, b]
 
 [Diagram: fan of lines converging to m at the bottom; along the top the points b, f, n and z(?); on the descending lines the points d, f, p, r and i, t, k, f]
+
+[Curated heading level=2 type=propositions: Theorema 52 Propositio 53]
 
 [Curated heading level=2 type=theorems: Theorema 52 Propositio 53]
 

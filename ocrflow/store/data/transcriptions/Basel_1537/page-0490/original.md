@@ -1,6 +1,10 @@
 <!-- Page number: 479 -->
 
+[Curated heading level=1 type=zamberti_sequence: EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI MATHEMATICORVMQVE facile principis, ex Hypsiclis Alexandrini, Græci philosophi traditione, Geometricorum Elementorum Liber decimusquintus,]
+
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI MATHEMATICORVMQVE facile principis, ex Hypsiclis Alexandrini, Græci philosophi traditione, Geometricorum Elementorum Liber decimusquintus,
+
+[Curated heading level=2 type=propositions: Problema 1 Propositio 1]
 
 [Curated heading level=2 type=problems: Problema 1 Propositio 1]
 
@@ -22,6 +26,8 @@ HYPSICLES ex Zāb. Esto datus cubus α β γ δ ε ζ η θ, in quo oportet pyra
 
 [Diagram: cube in perspective with the face-diagonals drawn, forming the inscribed pyramid α ε γ θ; corner labels partly legible]
 
+[Curated heading level=2 type=propositions: Problema 2 Propositio 2]
+
 [Curated heading level=2 type=problems: Problema 2 Propositio 2]
 
 ## Eucli, ex Zāb. Problema 2 Propositio 2
@@ -41,6 +47,8 @@ In data pyramide octahedrū describere.
 HYPSIC. ex Zamb. Esto data pyramis α β γ δ, seceturq̃ bifariā ipsis ε, ζ, η, θ, κ, λ, signis: & connectantur ipsæ θ κ, θ λ, ε ζ, ζ κ, & reliquæ. Et quoniam α β, dupla est utriusq̃ ipsarū θ κ, κ ζ, æqualis igitur est θ κ, ipsi κ ζ, & parallelus, similiter & θ η, ipsi ζ κ est æqualis & parallelus, æquilaterū igitur est θ κ ζ η. Dico quod & rectāgulū. Si enim ab ipsa κ λ, perpēdiculares agātur ad plana ε ζ β η, ε ζ κ ε, ε ζ θ η, θ κ ζ η, similiter ostendemus quæ in ipsius θ κ ζ η, quadrati æquilatera: Quod facere oportebat.
 
 [Diagram: triangle α β γ with the sides bisected and the inscribed octahedron drawn; visible interior labels include η, λ]
+
+[Curated heading level=2 type=propositions: Probleme 3 Propositio 3]
 
 [Curated heading level=2 type=problems: Probleme 3 Propositio 3]
 
@@ -63,6 +71,8 @@ HYPSICLES ex Zamb. Esto datus cubus α β γ δ ε ζ η, Et capiantur centra* i
 [Margin]
 ἐφεςώτων ſtãtiũ
 [/Margin]
+
+[Curated heading level=2 type=propositions: Problema 4 Propositio 4]
 
 [Curated heading level=2 type=problems: Problema 4 Propositio 4]
 

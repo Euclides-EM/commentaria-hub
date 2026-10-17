@@ -6,6 +6,8 @@
 
 [Diagram: rectangle with f and g on the top edge, d at the right side, e inside at the middle right, a (bottom left), c (bottom middle), b (bottom right); a vertical line below f, a horizontal mid line, and a diagonal running down to b]
 
+[Curated heading level=2 type=propositions: Theorema 20 Propositio 27]
+
 [Curated heading level=2 type=theorems: Theorema 20 Propositio 27]
 
 ## Eucli. ex Zamb. Theorema 20 Propositio 27
@@ -33,6 +35,8 @@ THEON ex Zāb. Sit recta linea α β, & secetur (per 10 primi,) bifariam in γ, 
 ALITER Sit enim rursus α β, dissecta bifariam in γ, & comparatū α λ, deficiens specie ipso λ β. Compareturq́ȝ rursus ad α β, parallelogrammū α ε, deficiens ipso ε β, simili similiterq́ȝ posito ipsi λ β, quod à dimidia fit ipsius α β. Dico quod à dimidia comparatum, α λ maius est ipso α ε. Quoniā enim simile est ε β: ipsi λ β, circum eādem dimetientem sunt (per 26 sexti. Sit eorum demetiens ε β, describaturq́ȝ figura, & quoniā æquū est λ ζ, ipsi λ θ, quoniā & rectæ ζ κ, rectæ κ θ, est æqualis: maius igitur est λ ζ, ipso κ ε, æquū autem est λ ζ ipsi δ λ, maius igitur est & δ λ. ipso κ ε, commune esto κ δ, totum igitur α λ, toto α ζ, maius est quod demonstrare oportebat.
 
 [Diagram: parallelogram with θ, ε, κ, ζ along the top, κ on the left side, interior point λ, and α, δ, γ, β along the bottom; two slanted cross lines, a horizontal mid line, and a diagonal running down to β]
+
+[Curated heading level=2 type=propositions: Propositio 27]
 
 ## Eucli. ex Camp. Propositio 27
 

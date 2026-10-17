@@ -2,6 +2,8 @@
 
 <!-- Page number: 221 -->
 
+[Curated heading level=2 type=propositions: Propositio 5]
+
 ## Eucli. ex Camp. Propositio 5
 
 [Curated heading level=3 type=campanus_sequence: 5.]
@@ -17,6 +19,8 @@
 Vnde & manifestum est, quia ex ductu cubi in non cubum, producitur non cubus. Ductoq̃ cubo in numerum aliquem, si fuerit qui inde producitur non cubus, in quem ille ductus fuerit, necesse est esse non cubum.
 
 CAMPANVS. Sit enim ex a cubo in b numerū, productus c cubus, dico b esse cubum: fiat enim d ex a in se, qui per antepræmissam erit cubus, quia igitur est per 18 sept. a ad b sicut d ad c, estq̃ a cubus, sed & d & c cubi, erit per 23 octaui, b cubus, quod est propositū. Prima pars correlarij, patet ex hac quinta, à destructione consequentis, secunda, per præmissam, similiter à destructione consequentis.
+
+[Curated heading level=2 type=propositions: Theorema 5 Propositio 5]
 
 [Curated heading level=2 type=theorems: Theorema 5 Propositio 5]
 
@@ -38,6 +42,8 @@ C.5 Z.5
 
 [Diagram: four vertical ruled line-segments labeled α, β, δ, γ with rotated numerals 27, 64, 729, 1728]
 
+[Curated heading level=2 type=propositions: Propositio 6]
+
 ## Eucli. ex Camp. Propositio 6
 
 [Curated heading level=3 type=campanus_sequence: 6.]
@@ -51,6 +57,8 @@ C.5 Z.5
 CAMPANVS. Sit ut ex a in se fiat b, sitq̃ b cubus: dico ergo a esse cubū. Fiat enim c ex a in b, eritq̃ ex diffinitione, c cubus : & quoniā constat ex 18 septi. q̃ sit a ad b, sicut b ad c. cum sint b & c cubi, sequitur ex 23 octaui. a esse cubum, quod est propositū.
 
 [Diagram: table of ruled lines with 512 c, 64 b, 8 a]
+
+[Curated heading level=2 type=propositions: Theorema 6 Propositio 6]
 
 [Curated heading level=2 type=theorems: Theorema 6 Propositio 6]
 
@@ -68,6 +76,8 @@ THEON ex Zamb. Numerus enim α seipsum multiplicans, cubum efficiat β. Dico quo
 
 [Diagram: three vertical ruled line-segments labeled α, β, γ with rotated numerals 27, 729, 19683]
 
+[Curated heading level=2 type=propositions: Propositio 7]
+
 ## Eucli. ex Camp. Propositio 7
 
 [Curated heading level=3 type=campanus_sequence: 7.]
@@ -81,6 +91,8 @@ THEON ex Zamb. Numerus enim α seipsum multiplicans, cubum efficiat β. Dico quo
 CAMPANVS. Sit a numerus cōpositus, qui ducātur in b, & proueniat c. dico c esse numerum solidum. Cum enim a sit cōpositus, numeratur ab aliquo numero, qui sit d, numeretq̃ eum secūdum e. Quia igitur ex e in d fit a, & ex a in b, c, erit ex diffinitione solidorū c solidus, eiusq̃ latera e, d, b, quod est propositū.
 
 [Diagram: dotted number lines e, d, c, b, a]
+
+[Curated heading level=2 type=propositions: Theorema 7 Propositio 7]
 
 [Curated heading level=2 type=theorems: Theorema 7 Propositio 7]
 

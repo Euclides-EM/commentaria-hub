@@ -6,6 +6,8 @@ ne & in potentia. Sumo itaque duos numeros nequaquam se habentes in proportione 
 
 [Diagram: rows of dots labelled b (four dots) and c (three dots); horizontal line a with perpendicular line e erected at its right end; below, two lines labelled f Re. cub. 48 and d Re. q. 12]
 
+[Curated heading level=2 type=propositions: Propositio 12]
+
 ## Eucli.ex Camp. Propositio 12
 
 [Curated heading level=3 type=campanus_sequence: 12.]

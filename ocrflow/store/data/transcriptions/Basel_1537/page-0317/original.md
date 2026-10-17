@@ -4,6 +4,8 @@
 
 sub γ ζ, ζ δ, quare & conflatū ex ipsarū γ ζ, ζ δ, quadratis medium est, & quod sub ipsis γ ζ, ζ δ medium, & insuper incōmensurabile est conflatū ex ipsarū γ ζ, ζ δ, quadratis, ei quod sub γ ζ, ζ δ. Ipsa igitur γ δ, bina potēs est media, quod ostendere oportuit.
 
+[Curated heading level=2 type=propositions: Propositio 65]
+
 ## Eucli.ex Camp. Propositio 65
 
 [Curated heading level=3 type=campanus_sequence: 65.]
@@ -19,6 +21,8 @@ CAMPANVS. Vt si a sit rationalis superficies, & b medialis, erit linea potens in
 [Diagram: rectangle divided by a horizontal line into two cells, labelled b (upper) and a (lower)]
 
 [Diagram: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]
+
+[Curated heading level=2 type=propositions: Theorema 53 Propositio 71]
 
 [Curated heading level=2 type=theorems: Theorema 53 Propositio 71]
 

@@ -2,6 +2,8 @@
 
 <!-- Page number: 505 -->
 
+[Curated heading level=2 type=propositions: Theorema primum.]
+
 [Curated heading level=2 type=theorems: Theorema primum.]
 
 ## Theorema primum.
@@ -24,6 +26,8 @@ Sit rursus cauum speculum a k c uisus autem b k refractus in d. Dico quod angulu
 
 [Diagram: concave mirror a k c with tangent plane mirror l k b / m n at k, rays to b and d; points m, k, l, f, e, b, n, a, b, d marked]
 
+[Curated heading level=2 type=propositions: Theorema secundum.]
+
 [Curated heading level=2 type=theorems: Theorema secundum.]
 
 ## Theorema secundum.
@@ -34,6 +38,8 @@ Sit planum speculum a k c oculus autem sit b, uisus uero sit b k, cadatq̃ æquo
 
 [Diagram: plane mirror a k c with perpendicular k b and oblique ray k d; points a, k, c, f, b, e, b, d marked]
 
+[Curated heading level=2 type=propositions: Theorema tertium.]
+
 [Curated heading level=2 type=theorems: Theorema tertium.]
 
 ## Theorema tertium.
@@ -43,6 +49,8 @@ Sit planum speculum a k c oculus autem sit b, uisus uero sit b k, cadatq̃ æquo
 Sit planum speculum a k c, uisus autem b k procidat maiorem efficiens angulum f ipso h l. Dico quod b k, refractus, non refringetur in sese, neque in angulo h l, si enim ueniet in b k angulus f ipsi h l est æqualis, quod est impossibile, maior enim supponitur. Igitur b k in maiori refringetur angulo f. a maiori namque minori æquale abscindi est possibile per 3 primi elementorum, eademq̃ demonstratio est & in conuexis, & in cauis.
 
 [Diagram: plane mirror a k c with rays k b and k d below, angles f, h, l at k; points a, k, c, f, h, l, b, d marked]
+
+[Curated heading level=2 type=propositions: Theorema quartum.]
 
 [Curated heading level=2 type=theorems: Theorema quartum.]
 

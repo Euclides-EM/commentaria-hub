@@ -8,6 +8,8 @@
 
 ALITER. Quoniam(per correlarium primū 20 sexti,) similes figuræ in dupla sunt ratione similis rationis laterum,igitur quæ ex β γ,est species ad eam quæ ex β α,duplā rationem habet quàm γ β, ad β α,habet autem & quod ex β γ,quadratū ad id quod ex α,quadratum duplā rationem quàm γ α,ad β α,& sicut igitur quæ ex γ β,species ad eam quæ ex β α,speciem:sic quadratum quod ex γ β, ad quadratum quod ex β α.Id propterea & sicut species quæ ex β γ,ad speciem quæ ex γ α,sic quadratū quod ex β γ ad quadratum quod ex γ α,Quare & sicut species quæ ex β γ,ad species quæ ex β α,& α γ,sic quadratū quod ex, β γ,ad quadrata quæ ex β α,et α γ.Quadratū aūt quod ex β γ,æquū est eis quæ ex β α,& α γ,quadratis(per 47 primi,)æqualis igitur est species quæ ex β γ,eis quæ ex β α,& α γ,speciebus similibus similiterq̃ descriptis.
 
+[Curated heading level=2 type=propositions: Theorema 22 Propositio 32]
+
 [Curated heading level=2 type=theorems: Theorema 22 Propositio 32]
 
 ## Eucli.ex Zamb. Theorema 22 Propositio 32
@@ -31,6 +33,8 @@ THEON ex Zamberto. Sint bina triangula α β γ,& δ γ ε,duo latera β α, & �
 [/Margin]
 
 [Diagram: two triangles on a common base line β γ ε: tall right triangle with apex α above β, hypotenuse to γ; smaller triangle with apex δ above the base between γ and ε]
+
+[Curated heading level=2 type=propositions: Propositio 32]
 
 ## Eucli.ex Camp. Propositio 32
 

@@ -6,6 +6,8 @@ ipsi α β, utraq̃ enim ipsarū est ex binis nominibus secunda. Si uero neutra 
 
 [Diagram: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]
 
+[Curated heading level=2 type=propositions: Propositio 61]
+
 ## Eucli. ex Camp. Propositio 61
 
 [Curated heading level=3 type=campanus_sequence: 61.]
@@ -23,6 +25,8 @@ CAMPANVS. Veritatem habet quod dicitur, siue in longitudine, siue etiam in poten
 [Diagram: shorter rectangle divided by a vertical line, with k (printed resembling l) at the left side and l at the right side; beneath the base the labels e, b (d?), f]
 
 [Diagram: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]
+
+[Curated heading level=2 type=propositions: Theorema 49 Propositio 67]
 
 [Curated heading level=2 type=theorems: Theorema 49 Propositio 67]
 

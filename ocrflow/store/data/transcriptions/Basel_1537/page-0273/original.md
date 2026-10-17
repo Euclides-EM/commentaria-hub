@@ -4,6 +4,8 @@
 
 proportio quadrati lineæ a b ad quadratũ lineæ a n sicut d ad l, & producatur n b, erunt duæ lineæ a b & b n quales inquirimus. Quod si rursus diuidatur d in p quadratum & in q nõ quadratum, & fuerit proportio quadrati lineæ a b ad quadratũ lineæ a r sicut d ad p, & protracta fuerit linca{printer-error-correction:linea} r b, erũt etiam duæ a b & b r, quales inquirimus. Sunt itaque lineæ a b, b c, b k, b n, b r, potentia tantũ rationales & in ea cõmunicantes, quarum una uidelicet a b est potentior qualibet aliarũ in quadrato lineæ secũ communicantis in longitudine. Si igitur quatuor linearum b c, b k, b n, b r, nulla communicat alij in longitudine, cõstat propositum. Istud autẽ sic probatur, patet enim ex præmissis, quod quadratũ lineæ b c ad quadratũ lineæ a b est sicut numerus f ad numerũ d, & quadratũ lineæ a b ad quadratũ lineæ b k est sicut numerus f ad numerũ d, & quadratũ lineæ a b ad quadratũ lineæ b k est sicut numerus d ad numerũ h, ergo per æquã proportionalitatẽ quadratũ lineæ b c ad quadratum lineæ b k, est sicut numerus f ad numerũ h, sed nullus quatuor numerorũ f, h, m, k, se habet ex hypothesi ad alium sicut numerus quadratus ad numerum quadratum, quare per 3 partem septimæ, duæ lineæ b c, b k, sunt incommensurabiles in longitudine. Eadem ratiõne quælibet duæ ex illis quatuor sunt incommensurabiles in longitudine. Liquet ergo quod uolumus.
 
+[Curated heading level=2 type=propositions: Propositio 18]
+
 ## Eucli. ex Camp. Propositio 18
 
 [Curated heading level=3 type=campanus_sequence: 18.]
@@ -19,6 +21,8 @@ CAMPANVS In hac quoq̃ remaneat eadem dispositio eædẽq̃ hypotheses quæ in p
 [Diagram: semicircle on base a b with apex c on the arc, lines drawn from a and b to c forming an inscribed triangle; below, a dotted horizontal segment with points d, f, e]
 
 CAMPANI additio Et sciendũ quod duæ lineæ quales hæc & præmissa docẽt inuenire, cõponũt binomiũ, & minori earum abscisa de maiori, quæ reliqua est dicitur residuũ. Nota etiam quod lineæ tantum potentia rationales communicantes, possunt esse una rationalis & alia irrationalis, sicut latera tetragonica duarum superficierum quarũ una sit 25 pedum & alia 24, sunt rationalia potentia tantum communicantia, latus enim primæ superficici{printer-error-correction:superficiei} est 5 latus uero secundæ non numeratur. Et possunt esse ambæ irrationales, ut latera tetragonica duarum superficierum quarum una sit 24 pedum & alia 23, neutrius enim numeratur latus, suntq̃ in longitudine incommensurabilia ex ultima parte septimæ, Quod si libeat etiam inuenire plures lineas duabus potentia tantum rationales communicantes, quarum una sit potentior qualibet aliarũ in quadrato lineæ secum non cõmunicantis in longitudine, sumatur talis numerus qui possit pluries sic diuidi quod ipsius ad nullam suarum partium nec alicuius ad aliquã aliarum sit proportio ut numeri quadrati ad numerũ quadratũ, ut 25, potest diuidi in 2 & 23, item in 5 & 20, & rursus in 7 & 18. Et sic processus idem qui fuit in præmissa.
+
+[Curated heading level=2 type=propositions: Propositio 19]
 
 ## Eucli. ex Camp. Propositio 19
 

@@ -10,6 +10,8 @@ CAMPANVS. Sit trigonus a b c, orthogonus, eiusque angulus a, rectus, à quo duca
 
 [Diagram: right triangle with apex a, base from b to c, perpendicular a d drawn from a to foot d on the base between b and c]
 
+[Curated heading level=2 type=propositions: Theorema 8 Propositio 8]
+
 [Curated heading level=2 type=theorems: Theorema 8 Propositio 8]
 
 ## Eucli. ex Zamb. Theorema 8 Propositio 8
@@ -27,6 +29,8 @@ THEON ex Zamb. Sit triangulum rectangulum α β γ, rectum habens eum qui sub β
 [Diagram: right triangle with apex α, base from β to γ, perpendicular α δ drawn to foot δ on the base near γ]
 
 CORRELARIVM. Ex hoc manifestum est, quod si in rectangulo triangulo ab angulo recto in basin perpendicularis agatur: acta, ipsius basis segmentis media proportionalis est. Et insuper ipsius basis & uniuscuiusq̃ segmentorum, latus quod ad segmentum, medium proportionale est, quod erat demonstrandum.
+
+[Curated heading level=2 type=propositions: Propositio 9]
 
 ## Eucli. ex Camp. Propositio 9
 

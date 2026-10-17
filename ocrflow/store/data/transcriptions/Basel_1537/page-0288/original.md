@@ -6,6 +6,8 @@ Dico quod α γ, irrationalis est. Quoniam enim incommensurabilis est α β, ips
 
 [Diagram: horizontal line divided at two points; labels above: α 20 β β γ; below: β β γ Re. Re. 640]
 
+[Curated heading level=2 type=propositions: Propositio 31]
+
 ## Eucli. ex Camp. Propositio 31
 
 [Curated heading level=3 type=campanus_sequence: 31.]
@@ -23,6 +25,8 @@ CAMPANVS Sint duæ lineæ a b & b c, in continuum directumque coniunctæ quales 
 IDEM aliter. Sit linea d e, rationalis in longitudine, cui adiūgatur superficies d f, æqualis duobus quadratis duarū linearum a b & b c, eritq́ⳓ superficies hæc d f medialis. cū utrunque quadratum sit mediale per hypothesin, & unū eorū commuuicans{printer-error-correction:communicans} alij quare per 20 linea d g, est rationalis in potentia tantum, non cōmunicās in longitudine lineæ d e. Rursus ad lineam f g, quæ est æqualis d e, adiungatur superficies f h æqualis duplo superficiei a b in b c, eritq́ⳓ f h rationalis per hypothesin, quare per 16 linea g h erit rationalis in lōgitudine: duæ itaque lineæ d g & g h sunt potentialiter rationales, & in ea tātum communicantes, ergo per 30 tota ex eis composita quæ est d h, est binomiū & irrationalis, quare per 16 à destructione consequentis superficies e h est irrationalis. At quia per 4 secūdi latus eius tetragonicū est linea a c, ipsa erit irrationalis per diffinitionem, quod oportuit demonstrare.
 
 [Diagram: rectangle on base c d, divided by the horizontal line f g into an upper compartment (b at top right) and a lower compartment; f at middle left, g at middle right, c and d at the bottom corners]
+
+[Curated heading level=2 type=propositions: Theorema 25 Propositio 37]
 
 [Curated heading level=2 type=theorems: Theorema 25 Propositio 37]
 
@@ -43,6 +47,8 @@ Græcus non habet
 [/Margin]
 
 [Diagram: line α γ divided at β, labelled above: α Re. Re. 27 β Re. Re. 12 γ]
+
+[Curated heading level=2 type=propositions: Propositio 32]
 
 ## Eucl. ex Camp. Propositio 32
 

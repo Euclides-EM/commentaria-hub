@@ -2,6 +2,8 @@
 
 <!-- Page number: 584 -->
 
+[Curated heading level=2 type=propositions: Theorema 94. Propositio 94.]
+
 [Curated heading level=2 type=theorems: Theorema 94. Propositio 94.]
 
 ## Theorema 94. Propositio 94.

@@ -2,6 +2,8 @@
 
 <!-- Page number: 176 -->
 
+[Curated heading level=2 type=propositions: Propositio 7]
+
 ## Eucli. ex Camp. Propositio 7
 
 [Curated heading level=3 type=campanus_sequence: 7.]
@@ -15,6 +17,8 @@
 CAMPANVS. Quod proponit hic Euclides de numeris, proposuit superius in quinta quinti de quantitatibus in genere. Sit ita ut quota pars est totus a totius b, totus sit c detractus ab a, d detracti a b: dico ꝙ tota erit e residuus a f residui b, quota est totus a totius b, & hæc est quasi conuersa quintæ. Sit enim per petitionem, e tota pars g, quota c est d, eritq̃ per 5, tota pars a compositi ex g & d, quota est c, d: quare & quota est a, b: igitur per secundam conceptionem compositus ex g & d est æqualis b: dempto itaque ab utroque numero, d, erit g æqualis f, quare erit e tota pars f, quota est a, b, tota enim erat e, g, quod est propositum.
 
 [Diagram: dot diagram: g at top with a diagonal column of single dots descending; then b; then row f (8 dots) with d (4 dots); then a; then row e (5 dots) with c (2 dots)]
+
+[Curated heading level=2 type=propositions: Theorema 5 Propositio 7]
 
 [Curated heading level=2 type=theorems: Theorema 5 Propositio 7]
 
@@ -32,6 +36,8 @@ THEON ex Zamberto. Numerus enim αβ numeri γδ pars esto, qualis ablatus αε 
 
 [Diagram: dot-rows: η (4 dots) γ (9 dots) ζ (4 dots) δ in one line; α (5 dots) ε (2 dots) β in a second line]
 
+[Curated heading level=2 type=propositions: Propositio 8]
+
 ## Eucli. ex Camp. Propositio 8
 
 [Curated heading level=3 type=campanus_sequence: 8.]
@@ -45,6 +51,8 @@ THEON ex Zamberto. Numerus enim αβ numeri γδ pars esto, qualis ablatus αε 
 CAMPANVS. Hæc est quasi conuersa sextæ, ut si sit quot & quotæ partes est totus a totius b, tot & totæ c detractus a, b, ad detracti a b, erit e residuus a, tot & totæ partes f residui b, quot & quotæ est a, b. Sit enim g una partium a, & h una partiū c, eritq̃ propter hypothesin, g tota pars a, quota h, c, & tota b, quota h, d: detrahatur igitur h d g, & remaneat k, eritq̃ k per præmissam, tota pars e, quota g, a, & tota f per eandem, quota g, b: quia igitur e & f habent partem cōmunem quæ est k, erit per 16 diffinitionem, e partes f tot quidem quota pars est k, e, & totæ, quota est k, f. & quia tot & totæ erat a, b, patet propositum.
 
 [Diagram: dot diagram: b; row f (3 dots) with d (6 dots); a; row e (2 dots) with c (4 dots); row g (2 dots) with k (1 dot); b (2 dots)]
+
+[Curated heading level=2 type=propositions: Theorema 6 Propositio 8]
 
 [Curated heading level=2 type=theorems: Theorema 6 Propositio 8]
 

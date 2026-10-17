@@ -10,6 +10,8 @@ Et manifestū est ex his,quod longitudine commensurabiles rectæ lineæ, omnino 
 
 Quoniam enim ex longitudine commensurabilibus rectis lineis quadrata rationem habent quam quadratus numerus ad quadratum numerum,at quæ rationem habent quam numerus ad numerum, commensurabilia sunt (per 6 decimi,)longitudine igitur commensurabiles rectæ lineæ,non solum longitudine sunt commensurabiles,sed & potentia. Rursus quoniam quæcunque quadrata rationem habent quam numerus ad numerum commensurabilia sunt (per 6 decimi.)at quatenus rationem habent quam quadratus numerus ad numerum quadratum eorum latera longitudine commensurabilia sunt,quæcunque igitur qudrata{printer-error-correction:quadrata} rationem non habent quam quadratus numerus ad quadratum numerum,sed simpliciter quam aliquis numerus ad numerum,commensurabilia potentia quidē habent latera,non autem & longitudine. Quare longitudine quidem commensurabiles rectæ lineæ,omnino & potentia,quæ autem potentia,non omnino longitudine,nisi rationem habuerint eorum quadrata quàm quadratus numerus ad quadratum numerum. Dico iam quod & quæ longitudine incommensurabiles,nō omnino & potentia. Quandoquidem quadrata commensurabilia,possunt rationem habere non quidem quam quadratus ad quadratū, sed simpliciter quam aliquis numerus ad numerum,& ob id potentia commensurabilia latera habebunt,& longitudine incommensurabilia. Quare quæ longitudine incommensurabiles rectæ lineæ,non omnino & potentia. Sed longitudine existentes incommensurabiles possunt & potentia esse incommensurabiles,si eorum quadrata sunt incommensurabilia. Quæ autem potētia incōmensurabiles,omnino & longitudine incommensurabiles. Si enim longitudine commensurabiles fuerint,erunt quoque & potentia commensurabiles. Supponuntur autem & incommensurabiles,quod est absurdum. Quæ igitur potentia incommensurabiles,omnino & longitudine.
 
+[Curated heading level=2 type=propositions: Propositio 8]
+
 ## Eucli.ex Camp. Propositio 8
 
 [Curated heading level=3 type=campanus_sequence: 8.]
@@ -27,6 +29,8 @@ CAMPANVS Sit utraqʒ duarū quantitatum a & b,cōmunicans quantitati c,dico a & 
 CAMPANI additio. Ex hac quoqʒ sequitur,quod si fuerint duæ quātitates sibi inuicē cōmunicātes,cuicūqʒ una earū cōmunicat,& reliqua,& cuicūqʒ una nō cōmunicat,nec reliqua. Sint enim duæ quātitates a & b cōmunicantes:ponaturqʒ quælibet quantitas quæ sit c,cū qua cōmunicet a,dico q̄ b cōmunicabit cū eadē,qd' ex hac octaua patet cū utrūqʒ earū cōmunicet cū a,ex hypothesi. Quod si iterū a & b sint cōmunicātes ut prius,ponatur c quælibet quātitas cū qua nō cōmunicet a,dico qd' b non cōmunicabit cū eadē. Si enim c communicaret cum b,quum a quoqʒ per hypothesin cōmunicet cum eodē, b.essent per hanc octauā a & c cōmunicantes,sed positum erat,quod non essent. Quare constat quod diximus.
 
 [Diagram: three horizontal lines, labeled a, c (with Re. 18 printed beside the label) and b]
+
+[Curated heading level=2 type=propositions: Propositio 9]
 
 ## Eucli.ex Camp. Propositio 9
 
