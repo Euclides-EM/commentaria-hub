@@ -5,8 +5,6 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XVI.]
 
-[Curated heading level=2 type=lemmas: PROPOSITION XVI.]
-
 ## PROPOSITION XVI.
 
 ### LEMME.
@@ -17,18 +15,10 @@
 F°. 215.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 *1°. Chaque prisme, ABCFPG, qu’on peut appeler prisme excédent, est au prisme AHIEPD, qu’on peut appeler prisme déficient, comme le quarré de SA est au quarré de SP.*
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 *2°. La somme de tous les prismes excédents est à la somme de tous les prismes déficients pareillement ∷ S̅A̅ : S̅P̅.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 En effet, 1°. les deux prismes excédent et déficient ont même hauteur, ils sont donc entre eux comme leurs bases ABC, AHI. Ces bases étant des triangles semblables, on a ABC : AHI ∷ A̅B̅² : A̅H̅² ou P̅D̅² ; mais PD étant parallele à AB, on a AB : PD ∷ SA : SP, ou A̅B̅² : P̅D̅² ∷ S̅A̅² : S̅P̅². Donc le prisme excédent PABC est au prisme déficient PAHI comme S̅A̅² est à S̅P̅².
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2°. On démontrera de même que les prismes excédent

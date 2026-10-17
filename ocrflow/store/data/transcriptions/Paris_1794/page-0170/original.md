@@ -7,7 +7,7 @@ A, B, C, non en ligne droite, déterminent la position d’un plan.
 F. 182.
 [/Margin]
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Donc aussi deux paralleles AB, CD, déterminent la position d’un plan ; car si on mene la sécante EF, le plan des deux droites AE, EF, sera celui des paralleles AB, CD.
 

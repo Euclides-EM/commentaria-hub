@@ -1,8 +1,6 @@
 <!-- Page number: 302 -->
 <!-- Running title: NOTE VI. -->
 
-[Curated heading level=3 type=lemmas: LEMME II.]
-
 ### LEMME II.
 
 [Subhead]

@@ -45,8 +45,6 @@ Soient AB, AC, deux lignes droites qui se coupent en A : on peut concevoir un pl
 F. 181.
 [/Margin]
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Donc un triangle ABC, ou trois points

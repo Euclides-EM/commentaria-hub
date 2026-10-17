@@ -27,10 +27,6 @@ Fig. 61.
 
 *Réciproquement si les arcs AB, DE, sont égaux, les angles ACB, DCE, seront aussi égaux.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 Car 1°. si l’angle ACB est égal à l’angle DCE, ces deux angles pourront se placer l’un sur l’autre ; et comme leurs côtés sont égaux, il est clair que le point A tombera en D et le point B en E. Mais alors l’arc AB doit aussi tomber sur l’arc DE ; car si les deux arcs n’étoient pas confondus en un seul, il y auroit dans l’un ou dans l’autre des points inégalement éloignés du centre, ce qui est impossible ; donc l’arc AB=DE.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2°. Si on suppose AB=DE, je dis que l’angle ACB sera égal à DCE. Car si ces angles ne sont pas égaux, soit ACB le plus grand, et soit pris ACI=DCE, on aura par ce qui vient d’être démontré AI=DE : mais par hypothèse l’arc AB=DE ; donc on auroit AI=AB,

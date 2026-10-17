@@ -15,8 +15,6 @@
 Fig. 30.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1°. Soit l’angle C > B, je dis que le côté AB opposé à l’angle C est plus grand que le côté AC opposé à l’angle B.
 
 [Margin]
@@ -24,8 +22,6 @@ Fig. 30.
 [/Margin]
 
 Soit fait l’angle BCD=B ; dans le triangle BDC on aura * BD=DC. Mais la ligne droite AC est plus courte que AD+DC, et AD+DC=AD+DB=AB. Donc AB est plus grand que AC.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2°. Soit le côté AB > AC, je dis que l’angle C opposé au côté AB sera plus grand que l’angle B opposé au côté AC.
 

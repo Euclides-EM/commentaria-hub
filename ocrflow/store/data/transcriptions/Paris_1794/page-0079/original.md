@@ -7,8 +7,6 @@ Il faut dans ce premier cas que le côté B soit plus grand que A, car l’angle
 Fig. 81.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2º. Si l’angle C est aigu, et que B soit plus grand que A, la même construction a toujours lieu, et DEF est le triangle requis.
 
 [Margin]

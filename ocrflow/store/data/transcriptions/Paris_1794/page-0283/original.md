@@ -11,15 +11,9 @@ Donc enfin la solidité d’un cône est égale au produit de sa base par le tie
 
 *Corollaire.* Donc un cône est le tiers d’un cylindre de même base et de même hauteur ; et de là il suit,
 
-[Curated heading level=5 type=numbered_item: 1.]
-
 1°. Que les cônes d’égale hauteur sont entre eux comme leurs bases ;
 
-[Curated heading level=5 type=numbered_item: 2.]
-
 2°. Que les cônes de bases égales sont entre eux comme leurs hauteurs ;
-
-[Curated heading level=5 type=numbered_item: 3.]
 
 3°. Que les cônes semblables sont comme les cubes des diametres de leurs bases, ou comme les cubes de leurs hauteurs.
 

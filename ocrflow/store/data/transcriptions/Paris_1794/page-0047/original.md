@@ -9,8 +9,6 @@ Car si elles pouvoient se rencontrer en un point O d’un côté ou de l’autre
 
 [Curated heading level=2 type=propositions: PROPOSITION XX.]
 
-[Curated heading level=2 type=lemmas: PROPOSITION XX.]
-
 ## PROPOSITION XX.
 
 ### LEMME.

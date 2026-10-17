@@ -3,13 +3,11 @@
 
 la base OAB ou OBA est double de l’angle du sommet O ; donc les trois angles du triangle valent cinq fois l’angle O, et ainsi l’angle O est la cinquieme partie de deux angles droits, ou la dixieme de quatre ; donc l’arc AB est la dixieme partie de la circonférence, et la corde AB est le côté du décagone régulier.
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Si on joint de deux en deux les angles du décagone régulier, on formera le pentagone régulier ACEGI.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* AB étant toujours le côté du décagone, soit AL le côté de l’hexagone ; alors l’arc BL sera, par rapport à la circonférence ¹⁄₆ — ¹⁄₁₀ ou ¹⁄₁₅ ; donc la corde BL sera le côté du penté-décagone ou polygone régulier de 15 côtés. On voit en même temps que l’arc CL est le tiers de CB.
 

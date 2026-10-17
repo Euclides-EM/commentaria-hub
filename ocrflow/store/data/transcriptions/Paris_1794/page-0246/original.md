@@ -21,14 +21,10 @@ F. 232.
 
 *Dans un triangle sphérique ABC, si l’angle A est plus grand que l’angle B, le côté BC opposé à l’angle A sera plus grand que le côté AC opposé à l’angle B ; réciproquement si le côté BC est plus grand que AC, l’angle A sera plus grand que l’angle B.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1°. Soit l’angle A > B, faites l’angle BAD = B, vous aurez AD = DB*. Mais AD + DC est plus grand que AC ; à la place de AD mettant DB, on aura DB + DC ou BC > AC.
 
 [Margin]
 * 15.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2°. Si on suppose BC > AC, je dis que l’angle BAC sera plus grand que ABC. Car si BAC étoit égal à ABC, on auroit BC = AC ; et si on avoit BAC < ABC, il s’ensuivroit par ce qui vient d’être démontré BC < AC ; ce qui est contre la supposition. Donc BAC est plus grand que ABC.

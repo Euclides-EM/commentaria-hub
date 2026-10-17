@@ -7,8 +7,6 @@
 
 par conséquent* BD² = BC² + CD² − 2 BC × CD. Ajoutant de part et d’autre AD², et observant qu’à cause du triangle rectangle ABD, AD² + BD² = AB², et à cause du triangle rectangle ADC, AD² + DC² = AC², on aura AB² = BC² + AC² − 2 BC × CD.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2°. Si la perpendiculaire AD tombe hors du triangle ABC, on aura BD = CD − BC, et par conséquent BD² = CD² + BC² − 2 CD × BC. Ajoutant de part et d’autre AD², on en conclura de même AB² = BC² + AC² − 2 BC × CD.
 
 [Curated heading level=2 type=propositions: PROPOSITION XIII.]

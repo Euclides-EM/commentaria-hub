@@ -17,8 +17,6 @@ F. 123.
 * 26. 2.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 Car, 1º. si le côté AB est parallele à DE, et BC à EF, l’angle ABC sera égal à DEF* ; si de plus AC est parallele à DF, l’angle ACB sera égal à DFE, et aussi BAC à EDF : donc les triangles ABC, DEF, sont équiangles ; donc ils sont semblables.
 
 [Margin]
@@ -26,8 +24,6 @@ F. 124.
 
 * 29. 2.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2º. Soit le côté DE perpendiculaire à AB, et le côté DF à AC ; dans le quadrilatere AIDH les deux angles I et H seront droits ; les quatre angles valent ensemble quatre angles droits* ; donc les deux restants IAH, IDH, valent deux angles droits. Mais les deux angles EDF, IDH, valent aussi deux angles droits ; donc l’angle EDF est égal à BAC. Pareillement si le troisieme côté EF est perpendiculaire au troisieme BC, on démontrera que l’angle DFE = C, et DEF = B. Donc les deux triangles ABC, DEF, qui ont les côtés perpendiculaires chacun à chacun, sont équiangles et semblables.
 

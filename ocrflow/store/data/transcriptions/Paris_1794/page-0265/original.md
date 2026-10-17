@@ -11,7 +11,7 @@ seule ; donc l’angle solide S est égal à l’angle solide B ; donc le solide
 F. 245.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
+[Curated heading level=4: 4°.]
 
 4°. *Le dodécaedre.* Soit ABCDE un pentagone régulier donné ; soient ABP, CBP, deux angles plans égaux à l’angle ABC : avec ces angles plans formez l’angle solide B, et déterminez par la proposition XXIII, livre V, l’inclinaison mutuelle de deux de ces plans, inclinaison que j’appelle K. Formez semblablement aux points C, D, E, A, des angles solides égaux à l’angle solide B et situés de la même maniere : le plan CBP sera le même avec le plan BCG, puisqu’ils sont inclinés l’un et l’autre de la même quantité K sur le plan ABCD.
 

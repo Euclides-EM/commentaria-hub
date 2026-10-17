@@ -3,11 +3,7 @@
 
 l’un est égal au troisieme C de l’autre. Donc ces deux triangles sont équiangles et semblables. On démontrera de même que le triangle DAC est semblable au triangle BAC ; donc les trois triangles sont semblables entre eux.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2º. Puisque le triangle BAD est semblable au triangle BAC, leurs côtés homologues sont proportionnels. Or le côté BD dans le petit triangle est homologue à BA dans le grand, parcequ’ils sont opposés à des angles égaux BAD, BCA ; l’hypoténuse BA du petit est homologue à l’hypoténuse BC du grand ; donc on peut former la proportion BD : BA :: BA : BC. On auroit de la même maniere DC : AC :: AC : BC. Donc 2º. chacun des côtés AB, AC, est moyen proportionnel entre l’hypoténuse et le segment adjacent à ce côté.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3º. Enfin la similitude des triangles ABD, ADC, donne, en comparant les côtés homologues, BD : AD :: AD : DC. Donc 3º. la perpendiculaire AD est moyenne proportionnelle entre les segments BD, DC.
 

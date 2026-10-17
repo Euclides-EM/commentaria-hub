@@ -3,7 +3,7 @@
 
 hauteur AO ; car le rectangle BCEF est équivalent au parallélogramme ABCD.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Tous les triangles qui ont des bases égales et des hauteurs égales sont équivalents.
 

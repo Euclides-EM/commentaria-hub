@@ -19,6 +19,4 @@ Car les triangles rectangles CDO, CAO, de la figure 249 sont égaux aux triangle
 
 Scholie. On peut tirer des propositions précédentes plusieurs conséquences.
 
-[Curated heading level=5 type=numbered_item: 1.]
-
 1°. Tout polyedre régulier peut être partagé en autant de pyramides régulières que le polyedre a de faces ; le sommet commun de ces pyramides sera le

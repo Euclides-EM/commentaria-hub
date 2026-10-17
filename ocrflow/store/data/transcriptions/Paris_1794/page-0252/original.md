@@ -5,13 +5,11 @@ est à 96, ou comme 5 est à 48, c’est-à-dire comme l’arc MN est à la circ
 
 Si l’arc MN n’est pas commensurable avec la circonférence, on prouvera par le même raisonnement dont on a déjà vu beaucoup d’exemples, que le fuseau est toujours à la sphère comme l’arc MN est à la circonférence.
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Deux fuseaux sont entre eux comme leurs angles respectifs.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* On a déjà vu que la surface entière de la sphère est égale à huit triangles tri-rectangles*.
 

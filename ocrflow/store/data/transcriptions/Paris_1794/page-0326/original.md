@@ -33,8 +33,6 @@ tang. x = x/(1 − x²/(3 − x²/(5 − x²/(7 −, etc.))))
 
 Celle-ci est la formule qui va servir de base à notre démonstration. Mais il faut avant tout démontrer les deux lemmes suivants.
 
-[Curated heading level=3 type=lemmas: LEMME I.]
-
 ### LEMME I.
 
 *Soit une fraction continue prolongée à l’infini,*

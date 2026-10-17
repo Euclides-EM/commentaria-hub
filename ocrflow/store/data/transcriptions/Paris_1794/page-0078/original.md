@@ -39,6 +39,4 @@ Fig. 80.
 
 *Etant donnés deux côtés A et B d’un triangle, avec l’angle C opposé au côté B, décrire le triangle.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 Il y a deux cas : 1º. si l’angle C est droit ou obtus ; faites l’angle EDF égal à l’angle C ; prenez DE = A, du point E comme centre, et d’un rayon égal au côté donné B, décrivez un arc qui coupe en F la ligne DF ; tirez EF, et DEF sera le triangle demandé.

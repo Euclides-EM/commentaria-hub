@@ -3,7 +3,7 @@
 
 l’angle donné à l’angle droit, ce qui est la mesure absolue.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Scholie II.]
 
 *Scholie II.* Tout ce qui a été démontré dans les trois propositions précédentes pour la comparaison des angles avec les arcs a lieu également pour la comparaison des secteurs avec les arcs : car les secteurs sont égaux lorsque les angles le sont, et en général ils suivent la même proportion ; donc *deux secteurs* ACB, ACD, *pris dans le même cercle ou dans des cercles égaux, sont entre eux comme les arcs* AB, AD, *de ces mêmes secteurs.*
 

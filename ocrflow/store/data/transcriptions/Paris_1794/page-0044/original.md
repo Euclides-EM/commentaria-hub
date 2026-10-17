@@ -21,15 +21,9 @@
 
 *Si d’un point A situé hors d’une droite DE on mene la perpendiculaire AB sur cette droite, et différentes obliques AE, AC, AD, etc. à différens points de cette même droite :*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 *1°. La perpendiculaire AB sera plus courte que toute oblique.*
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 *2°. Les deux obliques AC, AE, menées de part et d’autre de la perpendiculaire à des distances égales BC, BE, seront égales.*
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 *3°. De deux obliques AC et AD, ou AE et AD, menées comme on voudra, celle qui s’écarte le plus de la perpendiculaire sera la plus longue.*
 
@@ -38,8 +32,6 @@ Soit prolongée la perpendiculaire AB d’une quantité BF=AB, et soient tirées
 [Margin]
 \*Pr.6.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1°. Le triangle BCF est égal au triangle BCA, car l’angle droit CBF=CBA, le côté CB est commun, et le côté BF=BA ; donc\* le troisième côté CF est égal au troisième AC. Or ABF ligne droite est plus courte que ACF ligne brisée, donc AB moitié de ABF est plus courte que AC moitié de ACF. Donc 1°. la perpendiculaire est plus courte que toute oblique.
 

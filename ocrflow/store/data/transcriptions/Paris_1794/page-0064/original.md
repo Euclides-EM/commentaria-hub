@@ -29,8 +29,6 @@ Car s’il y avoit une seconde circonférence qui passât par les trois points d
 Fig. 53.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1°. Soit la corde AB=DE : menez du centre les perpendiculaires CF, CG, sur ces cordes, et tirez les rayons CA, CD.
 
 Les triangles rectangles CAF, CDG, ont les hypoténuses CA, CD, égales ; de plus, le côté AF moitié de AB est égal au côté DG moitié de DE ; donc ces triangles sont égaux*, et le troisième côté CF est égal au troisième CG ; donc 1°. les deux cordes égales AB, DE, sont également éloignées du centre.

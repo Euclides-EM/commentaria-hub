@@ -3,7 +3,7 @@
 
 mais la proportion des côtés est différente : de même, sans changer les quatre côtés AB, BC, CD, AD, on peut rapprocher ou éloigner le point B du point D, ce qui altérera les angles.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Scholie II.]
 
 *Scholie II.* Les deux propositions précédentes, qui n’en font proprement qu’une, jointes à celle du quarré de l’hypoténuse, sont les propositions les plus importantes et les plus fécondes de la géométrie ; elles suffisent presque seules à toutes les applications et à la résolution de tous les problèmes : la raison en est que toutes les figures peuvent se partager en triangles, et un triangle quelconque en deux triangles rectangles. Ainsi les propriétés générales des triangles renferment implicitement celles de toutes les figures.
 

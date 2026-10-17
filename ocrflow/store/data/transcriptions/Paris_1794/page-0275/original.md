@@ -3,8 +3,6 @@
 
 droite BD sera toujours plus petite que BID. Donc la surface plane OABCD est plus petite que la surface environnante IABCD.
 
-[Curated heading level=3 type=lemmas: II.]
-
 ### II.
 
 [Margin]

@@ -7,8 +7,6 @@ rayon CH perpendiculaire à la corde MP, il sera en même temps perpendiculaire 
 Fig. 56.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2°. Si des deux paralleles AB, DE, l’une est sécante, l’autre tangente, au point de contact H menez le rayon CH, ce rayon sera perpendiculaire à la tangente DE et aussi à sa parallele MP. Mais puisque CH est perpendiculaire à la corde MP, le point H est le milieu de l’arc MHP ; donc les arcs MH, HP, compris entre les paralleles AB, DE, sont égaux.
 
 [Curated heading level=2 type=propositions: PROPOSITION XI.]

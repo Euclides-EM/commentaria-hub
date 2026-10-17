@@ -17,8 +17,6 @@ Or BE=EC, donc BA=AD.
 F. 143.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1°. Soit ABCD le parallélogramme donné, AB sa base, DE sa hauteur. Entre AB et DE cherchez une moyenne proportionnelle XY ; je dis que le quarré fait sur XY sera équivalent au parallélogramme ABCD.
 
 Car, par construction, AB:XY::XY:DE ; donc XY²=AB×DE. Or AB×DE est la mesure du parallélogramme, et XY² celle du quarré ; donc ils sont équivalents.
@@ -26,8 +24,6 @@ Car, par construction, AB:XY::XY:DE ; donc XY²=AB×DE. Or AB×DE est la mesure 
 [Margin]
 F. 144.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2°. Soit ABC le triangle donné, BC sa base, AD sa hauteur. Prenez une moyenne proportionnelle entre BC et la moitié de AD, et soit XY cette moyenne ; je dis que le quarré fait sur XY sera équivalent au triangle ABC.
 

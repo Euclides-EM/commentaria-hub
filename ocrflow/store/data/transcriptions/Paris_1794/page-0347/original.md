@@ -21,14 +21,10 @@ cot. S/2 = (cot. a/2 cot. b/2 + cos. C) / sin. C,
 
 formule très simple qui peut servir à calculer l’aire d’un triangle sphérique lorsqu’on connoît deux côtés a, b, et l’angle compris C. On peut aussi en déduire plusieurs conséquences remarquables.
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 1º. Si l’angle C est constant, ainsi que le produit cot. a/2 cot. b/2, l’aire du triangle sphérique représentée par S demeurera constante. Donc deux triangles CAB, CDE, qui ont un angle égal C, seront équivalents, si on a tang. ½ CA : tang. ½ CD :: tang. ½ CE : tang. ½ CB, c’est-à-dire si les tangentes des moitiés des côtés qui comprennent l’angle égal sont réciproquement proportionnelles.
 
 [Margin]
 Fig. 83.
 [/Margin]
-
-[Curated heading level=3 type=numbered_item: 2.]
 
 2º. Pour faire sur le côté donné CD un triangle

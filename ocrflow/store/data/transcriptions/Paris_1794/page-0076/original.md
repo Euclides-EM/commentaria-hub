@@ -29,8 +29,6 @@ Fig. 74.
 
 *Diviser un angle ou un arc donné en deux parties égales.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1º. S’il faut diviser l’arc AB en deux parties égales, des points A et B, comme centres, et avec un même rayon, décrivez deux arcs qui se coupent en D. Par le point D et par le centre C tirez CD qui coupera l’arc AB en deux parties égales au point E.
 
 [Margin]
@@ -38,8 +36,6 @@ Fig. 74.
 [/Margin]
 
 Car les deux points C et D sont chacun également distants des extrémités A et B de la corde AB ; donc la ligne CD est perpendiculaire sur le milieu de cette corde ; donc elle divise l’arc AB en deux parties égales au point E.*
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2º. S’il faut diviser en deux parties égales l’angle ACB, on commencera par décrire du sommet C, comme centre, l’arc AB, et le reste comme il vient d’être dit. Il est clair que la ligne CD divisera en deux parties égales l’angle ACB.
 

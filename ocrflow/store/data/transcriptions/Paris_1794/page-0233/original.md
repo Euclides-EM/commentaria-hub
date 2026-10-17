@@ -37,16 +37,14 @@ Les obliques CM, CM, CB, sont égales puisqu’elles sont des rayons de la spher
 * 5. 5.
 [/Margin]
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Si la section passe par le centre de la sphere, son rayon sera le rayon de la sphere ; donc tous les grands cercles sont égaux entre eux.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Deux grands cercles se coupent toujours en deux parties égales ; car leur intersection commune, passant par le centre, est un diametre.
 
-[Curated heading level=5 type=numbered_item: 3.]
+[Curated heading level=4: Corollaire III.]
 
 *Corollaire III.* Tout grand cercle divise la sphere et sa surface en deux parties égales ; car si après

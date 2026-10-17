@@ -27,13 +27,11 @@ Fig. 17.
 
 Au point C élevez sur AB la perpendiculaire CE. L’angle ACD est la somme des angles ACE, ECD ; donc ACD+BCD sera la somme des trois ACE, DCE, BCD. Le premier de ceux-ci est droit, les deux autres font ensemble l’angle droit BCE ; donc la somme des deux angles ACD, BCD, est égale à deux angles droits.
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Si l’un des angles ACD, BCD, est droit, l’autre le sera pareillement.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Si la ligne DE est perpendiculaire à AB, réciproquement AB sera perpendiculaire à DE.
 

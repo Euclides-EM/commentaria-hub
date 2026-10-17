@@ -17,8 +17,6 @@ Car, suivant le théorême II, le polygone *maximum* a tous ses côtés égaux ;
 
 [Curated heading level=2 type=propositions: PROPOSITION VIII.]
 
-[Curated heading level=2 type=lemmas: PROPOSITION VIII.]
-
 ## PROPOSITION VIII.
 
 ### LEMME.

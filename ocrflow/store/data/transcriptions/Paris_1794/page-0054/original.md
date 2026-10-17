@@ -1,15 +1,15 @@
 <!-- Page number: 26 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=5 type=numbered_item: 3.]
+[Curated heading level=4: Corollaire III.]
 
 III. Dans un triangle il ne peut y avoir qu’un angle droit ; car, s’il y en avoit deux, le troisieme seroit nul. A plus forte raison un triangle ne peut-il avoir qu’un seul angle obtus.
 
-[Curated heading level=5 type=numbered_item: 4.]
+[Curated heading level=4: Corollaire IV.]
 
 IV. Dans un triangle rectangle la somme des deux angles aigus est égale à un angle droit.
 
-[Curated heading level=5 type=numbered_item: 5.]
+[Curated heading level=4: Corollaire V.]
 
 V. Dans un triangle équilatéral chaque angle est le tiers de deux angles droits ou les deux tiers d’un.
 

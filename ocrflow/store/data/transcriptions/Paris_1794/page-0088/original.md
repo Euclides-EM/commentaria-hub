@@ -47,8 +47,6 @@ Fig. 98.
 
 Car les triangles ABC, ACD, sont égaux *.
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Donc un triangle ABC est la moitié du rectangle BCEF qui a même base BC et même

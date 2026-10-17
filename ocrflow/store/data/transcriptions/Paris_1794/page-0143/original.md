@@ -3,8 +3,6 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION IX.]
 
-[Curated heading level=2 type=lemmas: PROPOSITION IX.]
-
 ## PROPOSITION IX.
 
 ### LEMME.
