@@ -1,0 +1,22 @@
+<!-- Running title: EUCLIDIS ELEMENTORUM -->
+<!-- Page number: 264 -->
+
+ΗΚ ἴσον τετράγωνον τὸ ΝΠ· καὶ κείσθω ὥστε ἐπ᾽ εὐθείας εἶναι τὴν ΜΝ τῇ ΝΞ· ἐπ᾽ εὐθείας ἄρα ἐστὶ καὶ ἡ ΡΝ τῇ ΝΟ. καὶ συμπεπληρώσθω τὸ ΣΠ τετράγωνον· φανερὸν δὴ ἐκ τῶν ἀποδεδειγμένων, ὅτι τὸ ΜΡ μέσον ἀνάλογόν ἐστι τῶν ΣΝ, ΝΠ, καὶ ἴσον τῷ ΕΛ, καὶ ὅτι τὸ ΑΓ χωρίον δύναται ἡ ΜΞ· δεικτέον δὴ ὅτι ἡ ΜΞ ἐκ δύο μέσων ἐστὶ πρώτη. ἐπεὶ γὰρ ἀσύμμετρός ἐστιν ἡ ΑΕ τῇ ΕΔ μήκει, σύμμετρος δὲ ἡ ΕΔ τῇ ΑΒ· ἀσύμμετρος ἄρα ἡ ΑΕ τῇ ΑΒ μήκει. καὶ ἐπεὶ σύμμετρός ἐστιν ἡ ΑΗ τῇ ΗΕ μήκει, σύμμετρός ἐστι καὶ ἡ ΑΕ ἑκατέρᾳ τῶν ΑΗ, ΗΕ. καὶ ἐστὶ ῥητὴ ἡ ΑΕ· ῥητὴ ἄρα καὶ ἑκατέρα τῶν ΑΗ, ΗΕ.
+
+[Diagram: two stacked rectilinear constructions labelled Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ and Τ]
+
+καὶ ἐπεὶ ἀσύμμετρός ἐστιν ἡ ΑΕ τῇ ΑΒ, σύμμετρος δὲ ἡ ΑΕ ἑκατέρᾳ τῶν ΑΗ, ΗΕ· αἱ ΑΗ, ΗΕ ἄρα ἀσύμμετροί εἰσι τῇ ΑΒ μήκει· αἱ ΒΑ, ΑΗ, ΗΕ ἄρα ῥηταί εἰσι δυνάμει μόνον σύμμετροι· ὥστε μέσον ἐστὶν ἑκάτερον τῶν ΑΘ, ΗΚ· ὥστε ἑκάτερον τῶν ΣΝ, ΝΠ μέσον ἐστίν· καὶ αἱ ΜΝ, ΝΞ ἄρα μέσαι εἰσίν. καὶ ἐπεὶ σύμμετρός ἐστιν ἡ ΑΗ τῇ ΗΕ μήκει, σύμμετρόν ἐστι καὶ τὸ ΑΘ τῷ ΗΚ, τουτέστι τὸ ΣΝ τῷ ΝΠ, τουτέστι τὸ ἀπὸ τῆς ΜΝ τῷ ἀπὸ τῆς ΝΞ· ὥστε δυνάμει εἰσὶ σύμμετροι αἱ ΜΝ, ΝΞ. καὶ ἐπεὶ ἀσύμμετρός ἐστιν ἡ ΑΕ τῇ ΕΔ μήκει, ἀλλ᾽ ἡ μὲν ΑΕ σύμμετρός ἐστι τῇ ΑΗ, ἡ δὲ ΕΔ τῇ ΕΖ· ἀσύμμετρος ἄρα ἡ ΑΗ τῇ ΕΖ· ὥστε καὶ τὸ ΑΘ τῷ ΕΛ ἀσύμμετρόν ἐστι, τουτέστι τὸ ΣΝ τῷ ΜΡ, τουτέστιν ἡ ΟΝ τῇ ΝΡ, τουτέστιν ἡ ΜΝ τῇ ΝΞ ἀσύμμετρός ἐστι μήκει. ἐδείχθησαν δὲ αἱ ΜΝ, ΝΞ καὶ μέσαι οὖσαι καὶ δυνάμει σύμμετροι· αἱ ΜΝ, ΝΞ ἄρα μέσαι εἰσὶ δυνάμει μόνον σύμμετροι. λέγω δὴ ὅτι καὶ ῥητὸν περιέχουσιν. ἐπεὶ γὰρ ἡ ΔΕ ὑπόκειται ἑκατέρᾳ τῶν ΑΒ, ΕΖ συμμέτρῳ· σύμμετρος ἄρα καὶ ἡ ΕΖ τῇ ΕΚ. καὶ ῥητὴ ἑκατέρα αὐτῶν· ῥητὸν ἄρα καὶ τὸ ΕΛ, τουτέστι τὸ ΜΡ, τὸ δὲ ΜΡ ἐστὶ τὸ ὑπὸ τῶν ΜΝ, ΝΞ. ἐὰν δὲ δύο μέσαι δυνάμει σύμμετροι συντεθῶσι, ῥητὸν περιέχουσαι, ἡ ὅλη ἄλογός ἐστι, καλουμένη δὲ ἐκ δύο μέσων πρώτη· ἡ ΜΞ ἄρα ἐκ δύο μέσων ἐστὶ πρώτη. ὅπερ ἔδει δεῖξαι.
+
+logrammo ΗΚ æquale quadratum ΝΠ, & ponatur ita ut ΜΝ ſit in directum ipſi ΝΞ: ergo & ΡΝ ipſi ΝΟ in directum erit. & compleatur ΣΠ quadratum: manifeſtum igitur eſt ex iis quæ demonſtrata ſunt [in antec.] parallelogrammum ΜΡ medium eſſe proportionale inter quadrata ΣΝ, ΝΠ, & parallelogrammo ΕΛ æquale; & præterea rectam lineam ΜΞ poſſe ſpatium ΑΓ: oſtendendum igitur eſt ipſam ΜΞ ex binis mediis primam eſſe. quoniam enim [per 37. 10.] incommenſurabilis eſt ΑΕ ipſi ΕΔ longitudine, commenſurabilis autem ΕΔ ipſi ΑΒ; erit [per 14. 10.] ΑΕ ipſi ΑΒ longitudine incommenſurabilis. & quoniam ΑΗ commenſurabilis eſt longitudine ipſi ΗΕ, erit [per 16. 10.] ΑΕ utrique ipſarum ΑΗ, ΗΕ longitudine commenſurabilis. atque eſt ΑΕ rationalis: rationalis igitur & utraque ΑΗ, ΗΕ. quod cum ΑΕ ſit incommenſurabilis quidem ipſi ΑΒ longitudine, commenſurabilis autem ΑΕ utrique ipſarum ΑΗ, ΗΕ; erunt ΑΗ, ΗΕ ipſi ΑΒ longitudine incommenſurabiles: quare ΒΑ, ΑΗ, ΗΕ rationales ſunt potentia ſolum commenſurabiles: medium igitur eſt [per 22. 10.] utrumque parallelogrammorum ΑΘ, ΗΚ: & ob id utrumque quadratorum ΣΝ, ΝΠ eſt medium: ergo rectæ lineæ ΜΝ, ΝΞ mediæ ſunt. rurſus, quoniam commenſurabilis eſt ΑΗ ipſi ΗΕ longitudine, erit [per 1. 6. & 10. 10.] parallelogrammum ΑΘ parallelogrammo ΗΚ commenſurabile, hoc eſt quadratum ΣΝ ipſi ΝΠ, hoc eſt quadratum ex ΜΝ quadrato ex ΝΞ: ergo ΜΝ, ΝΞ potentia commenſurabiles ſunt. & quoniam incommenſurabilis eſt ΑΕ ipſi ΕΔ longitudine, & ΑΕ quidem eſt commenſurabilis ipſi ΑΗ, ΕΔ vero ipſi ΕΖ: erit ΑΗ ipſi ΕΖ longitudine incommenſurabilis: quare & parallelogrammum ΑΘ incommenſurabile parallelogrammo ΕΛ, hoc eſt ΣΝ ipſi ΜΡ, hoc eſt [per 1. 6.] ΟΝ ipſi ΝΡ, hoc eſt ΜΝ ipſi ΝΞ incommenſurabilis eſt longitudine. oſtenſæ autem ſunt ΜΝ, ΝΞ & mediæ & potentia commenſurabiles: ergo ΜΝ, ΝΞ mediæ ſunt potentia ſolum commenſurabiles. dico & rationale continere. quoniam enim ΔΕ ponitur commenſurabilis utrique ipſarum ΑΒ, ΕΖ, erit ΕΖ ipſi ΕΚ longitudine commenſurabilis. atque eſt rationalis utraque ipſarum: rationale igitur eſt [per 20. 10.] parallelogrammum ΕΛ, hoc eſt ΜΡ; eſtque ΜΡ quod ſub ΜΝ, ΝΞ continetur. ſi autem duæ mediæ potentia ſolum commenſurabiles componantur, quæ rationale contineant, tota [per 38. 10.] irrationalis eſt, quæ ex binis mediis prima appellatur: ergo ΜΞ ex binis mediis eſt prima. quod erat demonſtrandum.
+
+## ΠΡΟΤΑΣΙΣ νζʹ.
+
+[Subhead]
+Ἐὰν χωρίον περιέχηται ὑπὸ ῥητῆς, καὶ τῆς ἐκ δύο ὀνομάτων τρίτης· ἡ τὸ χωρίον δυναμένη
+[/Subhead]
+
+## PROP. LVII. THEOR.
+
+[Subhead]
+Si ſpatium contineatur ſub rationali, & ex binis nominibus tertia; recta li-
+[/Subhead]

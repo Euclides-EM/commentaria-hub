@@ -39,13 +39,16 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr&annotationId=ann_i31qou
 
-Running OCR, 0/388
+Running OCR, 121/388
 
 ## Strasbourg_1566
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7&annotationId=ann_fsoleq
 
-Running OCR, 0/221
+Running OCR, 35/221
+
+
+# Manual Curation
 
 ## Oxford_1703
 
@@ -55,9 +58,28 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 OCR for Greek:
 https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
-**Status:** LLM in progress. 603/719
+### Dataset Usage Summary
 
-# Manual Curation
+Codex — GPT-5.6 Sol
+
+- **Requests:** 627
+- **Input tokens:** 90,964,375
+- **Cached tokens:** 77,983,104
+- **Cache creation tokens:** 0
+- **Output tokens:** 4,894,010
+- **Reasoning tokens:** 0
+- **Total tokens:** 95,858,385
+
+Claude Code — Fable
+
+- **Requests:** 57
+- **Input tokens:** 270
+- **Cached tokens:** 1,828,701
+- **Cache creation tokens:** 1,077,683
+- **Output tokens:** 496,574
+- **Reasoning tokens:** 0
+- **Total tokens:** 3,403,228
+- **Cost:** $48.45
 
 ## Lyon_1672
 

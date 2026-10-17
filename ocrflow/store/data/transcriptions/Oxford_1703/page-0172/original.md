@@ -1,0 +1,18 @@
+<!-- Running title: LIBER SEXTUS. -->
+<!-- Page number: 147 -->
+
+ἡ εἰς τὸν ὅλον ΑΒΓ κύκλον περιφέρεια ἴση ἐστὶ τῇ λοιπῇ τῇ εἰς τὸν αὐτὸν κύκλον περιφερείᾳ· ὥστε καὶ γωνία ἡ ὑπὸ ΒΞΓ γωνίᾳ τῇ ὑπὸ ΓΟΚ ἐστὶν ἴση· ὁμοίως ἄρα ἐστὶ τὸ ΒΞΓ τμῆμα τῷ ΓΟΚ τμήματι· καὶ εἰσιν ὑπὸ ἴσων εὐθειῶν τῶν ΒΓ, ΓΚ. τὰ δὲ ὑπὸ ἴσων εὐθειῶν ὅμοια τμήματα κύκλων ἴσα ἀλλήλοις ἐστίν· ἴσον ἄρα ἐστὶ τὸ ΒΞΓ τμῆμα τῷ ΓΟΚ τμήματι. ἐστὶ δὲ καὶ τὸ ΒΗΓ τρίγωνον τῷ ΓΗΚ τριγώνῳ ἴσον· καὶ ὅλος ἄρα ὁ ΗΒΓ τομεὺς ὅλῳ τῷ ΗΓΚ τομεῖ ἴσος ἐστίν. Διὰ τὰ αὐτὰ δὴ καὶ ὁ ΗΚΛ τομεὺς ἑκατέρῳ τῶν ΗΚΓ, ΗΓΒ ἴσος ἐστίν· οἱ τρεῖς ἄρα τομεῖς οἱ ΗΒΓ, ΗΓΚ, ΗΚΛ ἴσοι ἀλλήλοις εἰσίν. Διὰ τὰ αὐτὰ δὴ καὶ οἱ ΘΕΖ, ΘΖΜ, ΘΜΝ τομεῖς ἴσοι ἀλλήλοις εἰσίν· ὁσαπλασίων ἄρα ἐστὶν ἡ ΒΛ περιφέρεια τῆς ΓΒ περιφερείας, τοσαυταπλασίων ἐστὶ καὶ ὁ ΗΒΛ τομεὺς τοῦ ΗΒΓ τομέως. Διὰ τὰ αὐτὰ δὴ καὶ ὁσαπλασίων ἐστὶν ἡ ΕΝ περιφέρεια τῆς ΕΖ περιφερείας, τοσαυταπλασίων ἐστὶ καὶ ὁ ΘΕΝ τομεὺς τοῦ ΘΕΖ τομέως· καὶ εἰ ἴση ἐστὶν ἡ ΒΛ περιφέρεια τῇ ΕΝ, ἴσος ἐστὶ καὶ ὁ ΗΒΛ τομεὺς τῷ ΘΕΝ τομεῖ· καὶ εἰ ὑπερέχει ἡ ΒΛ περιφέρεια τῆς ΕΝ περιφερείας, ὑπερέχει καὶ ὁ ΗΒΛ τομεὺς τὸν ΘΕΝ τομέα· καὶ εἰ ἐλάττων, ἐλάττων. τεσσάρων δὴ ὄντων μεγεθῶν, δύο μὲν τῶν ΒΓ, ΕΖ περιφερειῶν, δύο δὲ τῶν ΗΒΓ, ΘΕΖ τομέων, εἴληπται ἰσάκις πολλαπλάσια τῆς μὲν ΒΓ περιφερείας καὶ τοῦ ΗΒΓ τομέως ἥ τε ΒΛ περιφέρεια καὶ ὁ ΗΒΛ τομεὺς, τῆς δὲ ΕΖ περιφερείας καὶ τοῦ ΘΕΖ τομέως ἰσάκις πολλαπλάσια ἥ τε ΕΝ περιφέρεια καὶ ὁ ΘΕΝ τομεὺς. καὶ δέδεικται ὅτι εἰ ὑπερέχει ἡ ΒΛ περιφέρεια τῆς ΕΝ περιφερείας, ὑπερέχει καὶ ὁ ΗΒΛ τομεὺς τοῦ ΘΕΝ τομέως· καὶ εἰ ἴση, ἴσος· καὶ εἰ ἐλάττων, ἐλάττων· ἐστὶν ἄρα ὡς ἡ ΒΓ περιφέρεια πρὸς τὴν ΕΖ οὕτως ὁ ΗΒΓ τομεὺς πρὸς τὸν ΘΕΖ τομέα.
+
+liqua circumferentia quæ complet totum circulum ΑΒΓ æqualis eſt [per 3. ax.] reliquæ quæ eundem circulum complet; quare [per 27. 3.] & angulus ΒΞΓ angulo ΓΟΚ eſt æqualis: ſimile igitur eſt [per 11. def. 3.] ΒΞΓ ſegmentum ſegmento ΓΟΚ: & ſunt ſuper æquales rectas lineas ΒΓ, ΓΚ. quæ autem ſuper æquales rectas lineas ſunt ſimilia circulorum ſegmenta [per 24. 3.] & inter ſe æqualia ſunt: ergo ſegmentum ΒΞΓ eſt æquale ſegmento ΓΟΚ. eſt autem & ΒΗΓ triangulum triangulo ΓΗΚ æquale: & totus igitur ſector ΗΒΓ [per 2. ax.] toti ſectori ΗΓΚ æqualis erit. eadem ratione & ΗΚΛ ſector utriuis ipſorum ΗΚΓ, ΗΓΒ eſt æqualis: tres igitur ſectores ΗΒΓ, ΗΓΚ, ΗΚΛ æquales ſunt inter ſe. ſimiliter & ſectores ΘΕΖ, ΘΖΜ, ΘΜΝ inter ſe ſunt æquales: quam multiplex igitur eſt ΒΛ circumferentia circumferentiæ ΒΓ, tam multiplex eſt & ΗΒΛ ſector ſectoris ΗΒΓ. eadem ratione & quam multiplex eſt circumferentia ΕΝ circumferentiæ ΕΖ, tam multiplex eſt & ΘΕΝ ſector ſectoris ΘΕΖ; & [ex modo oſtenſis] ſi circumferentia ΒΛ circumferentiæ ΕΝ eſt æqualis, & ſector ΗΒΛ æqualis eſt ſectori ΘΕΝ; & ſi circumferentia ΒΛ ſuperat circumferentiam ΕΝ, ſuperat & ΗΒΛ ſector ſectorem ΘΕΝ; & ſi minor, minor. quatuor igitur exiſtentibus magnitudinibus, duabus quidem circumferentiis ΒΓ, ΕΖ, duobus vero ſectoribus ΗΒΓ, ΘΕΖ; ſumpta ſunt circumferentiæ quidem ΒΓ & ΗΒΓ ſectoris æque multiplicia, viz. circumferentia ΒΛ & ΗΒΛ ſector; circumferentiæ vero ΕΖ & ſectoris ΘΕΖ æque multiplicia, nempe circumferentia ΕΝ & ΘΕΝ ſector. atque oſtenſum eſt ſi ΒΛ circumferentia ſuperat circumferentiam ΕΝ, & ſectorem ΗΒΛ ſuperare ſectorem ΘΕΝ; & ſi æqualis æqualem eſſe; & ſi minor, minorem: eſt igitur [per 5. def. 5.] ut ΒΓ circumferentia ad circumferentiam ΕΖ ita ſector ΗΒΓ ad ΘΕΖ ſectorem.
+
+[Diagram: two circles with labelled points Α, Β, Γ, Η, Κ, Λ, Ξ, Ο and Δ, Ε, Ζ, Θ, Μ, Ν, with radial lines and chords]
+
+### Πόρισμα.
+
+Καὶ δῆλον ὅτι καὶ ὡς ὁ τομεὺς πρὸς τὸν τομέα οὕτως καὶ ἡ γωνία πρὸς τὴν γωνίαν.
+
+### Corollarium.
+
+Perſpicuum etiam eſt [per 11. 5.] & ut ſector ad ſectorem ita eſſe angulum ad angulum.
+
+<!-- Catchword: ΕΥΚΛΕΙ- -->
