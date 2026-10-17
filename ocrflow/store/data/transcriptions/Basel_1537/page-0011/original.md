@@ -2,55 +2,19 @@
 
 <!-- Running title: GEOMET. ELEMEN. EVCLIDIS -->
 
-[Curated heading level=3 type=definitions: 16]
-
 sunt æquales. 16 Et hic quidem punctus: centrum circuli dicitur.
-
-[Curated heading level=3 type=definitions: 17]
-
-[Curated heading level=3 type=definitions: 18]
-
-[Curated heading level=3 type=definitions: 19]
 
 17 Diameter circuli, est linea recta quæ super eius centrum transiens, extremitatesq́ʒ suas circunferentiæ applicans, circulum in duo media diuidit. 18 Semicirculus, est figura plana diametro circuli & medietate circunferentiæ contenta. 19 Portio circuli, est figura plana recta linea & parte circunferentiæ contenta, semicirculo quidem aut maior aut minor.
 
 [Diagram: Circulus (circle with point marked Centrum); Triangulus (triangle); Quadrangulus (hatched cube-like solid); Diameter (circle with horizontal diameter); Maior portio (segment greater than a semicircle); Semicirculus (semicircle); Minor portio (segment less than a semicircle)]
 
-[Curated heading level=3 type=definitions: 20]
-
-[Curated heading level=3 type=definitions: 21]
-
-[Curated heading level=3 type=definitions: 22]
-
-[Curated heading level=3 type=definitions: 23]
-
 20 Rectilineæ figuræ, sunt quæ rectis lineis continentur. 21 Quarum quædam trilateræ: quæ tribus rectis lineis. 22 Quædam quadrilateræ: quæ quatuor rectis lineis. 23 Quædā multilaterę, quæ pluribus q̃ʒ quatuor rectis lineis continentur.
 
 [Diagram: Trilatera (triangle); Quadrilatera (quadrilateral); Multilatera (hexagon); Aequilaterus (equilateral triangle)]
 
-[Curated heading level=3 type=definitions: 24]
-
-[Curated heading level=3 type=definitions: 25]
-
-[Curated heading level=3 type=definitions: 26]
-
-[Curated heading level=3 type=definitions: 27]
-
-[Curated heading level=3 type=definitions: 28]
-
-[Curated heading level=3 type=definitions: 29]
-
 24 Figurarū trilaterarū, alia est triangulus, habēs tria latera æqualia. 25 Alia, triangulus duo habens æqualia latera. 26 Alia, triangulus trium inæqualiū laterū. 27 Harum iterū alia est orthogoniū, unum, scilicet, rectum angulū habens. 28 Alia est amblygoniū, aliquē obtusum angulum habens. 29 Alia est oxygoniū, in qua tres anguli sunt acuti.
 
 [Diagram: Duum æqualium laterum; Trium inæqualiū laterū; Orthogoniū; Oxygoniū; Amblygoniū — seven triangles of the several kinds]
-
-[Curated heading level=3 type=definitions: 30]
-
-[Curated heading level=3 type=definitions: 31]
-
-[Curated heading level=3 type=definitions: 32]
-
-[Curated heading level=3 type=definitions: 33]
 
 30 Figurarū autem quadrilaterarū, alia est quadratum, quod est æquilaterum atq̃ rectangulū. 31 Alia est tetragonus longus, quæ est figura rectangula, sed æquilatera non est. 32 Alia est helmuayn, quæ est æquilatera, sed rectangula non est. 33 Alia est similis helmuayn, quæ oppo-
 

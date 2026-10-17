@@ -18,43 +18,13 @@ Propositis enim duabus pyramidibus rotundis aut duabus columnis rotundis. si fue
 
 Diffinitiones
 
-[Curated heading level=3 type=definitions: SOlidum, est]
-
-[Curated heading level=3 type=definitions: 2]
-
-[Curated heading level=3 type=definitions: 3]
-
-[Curated heading level=3 type=definitions: 4]
-
-[Curated heading level=3 type=definitions: 5]
-
-[Curated heading level=3 type=definitions: 6]
-
-[Curated heading level=3 type=definitions: 7]
-
 {dropcap:S|lines=?|style=decorated|decoration="figures"}Olidum, est quod lógitudinem, latitudinem, & crassitudinem habet. Solidi uero terminus, superficies est. 2 Recta linea ad planum recta est, quando ad omnes contingẽtes ipsam rectas lineas & in subiecto plano existentes, rectos efficit angulos. 3 Planum ad planum rectũ est, quando communi segmento ipsorũ planorum ad angulos rectos ductæ rectæ lineæ in uno ipsorũ planorũ, reliquo plano ad angulos rectos fuerint. Rectæ lineę ad planũ inclinatio est, quãdo à termino sublimi rectæ lineæ in planũ ducta perpẽdiculari, à signo facto & à termino lineæ in plano, recta cóiũcta fuerit, angulus acutus qui sub ducta linea & stante cótinetur. 4 Plani ad planũ inclinatio, est angulus acutus comprehensus sub ijs quæ ad angulos rectos cómuni segmento ducuntur ad idẽ signum in utroque ipsorum planorũ. 5 Planum ad planum similiter inclinari dicitur & alterum ad alterum, quãdo prædicti inclinationum anguli sibi inuicem æquales fuerint. 6 Paralella plana, sunt quæ contactum non admittũt. 7 Similes solidæ figuræ, sunt quæ sub similibus planis, æqualibus multitudine comprehẽdũtur.
-
-[Curated heading level=3 type=definitions: 8]
-
-[Curated heading level=3 type=definitions: 9]
 
 8 Similes solidæ figuræ & æquales, sunt quæ sub similibus planis, multitudine & magnitudine æqualibus, cóprehẽduntur, 9 Angulus solidus est sub pluribus duabus lineis sese adinuicẽ tangentibus & nõ existẽtibus in eadem superficie ad omnes lineas inclinatio. Aliter
 
 [Curated heading level=3 type=definitions: Solidus angulus, est]
 
 Solidus angulus, est qui sub pluribus duobus planis angulis comprehenditur non existentibus in eodem plano ad unum signum constitutis.
-
-[Curated heading level=3 type=definitions: 10]
-
-[Curated heading level=3 type=definitions: 11]
-
-[Curated heading level=3 type=definitions: 12]
-
-[Curated heading level=3 type=definitions: 13]
-
-[Curated heading level=3 type=definitions: 14]
-
-[Curated heading level=3 type=definitions: 15]
 
 10 Pyramis, est figura solida planis comprehensa ab uno plano ad unum signum constituta. 11 Prisma, est figura solida planis comprehensa, quorũ duo quæ ex opposito æqualia & similia & parallela sunt, reliqua uero parallelogrãma. 12 Sphæra, est quando semicirculi manente dimetiente circũductus semicirculus in seipsum rursus reuoluitur unde incepit, circumassumpta figura. 13 Axis sphæræ, est manens recta linea quã circum semicirculus uertitur. 1{printer-error-correction:14} Centrum sphæræ, est illud quod & semicirculi. 15 Dimetiens sphæræ, est recta quædam linea per centrum acta & terminata ex utraque parte sub ipsius sphæræ superficie.
 

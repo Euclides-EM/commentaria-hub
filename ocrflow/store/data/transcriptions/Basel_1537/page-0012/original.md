@@ -2,8 +2,6 @@
 
 <!-- Page number: 3 -->
 
-[Curated heading level=3 type=definitions: 34]
-
 sita latera habet æqualia atque oppositos angulos æquales, idem tamen nec rectis angulis nec æquis lateribus continetur. 34 Præter has autem omnes, quadrilateræ figuræ, helmuariphe nominantur.
 
 [Curated heading level=3 type=definitions: 35]

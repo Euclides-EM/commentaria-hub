@@ -14,14 +14,6 @@ THEON ex Zãb. Esto cū medio mediū totū efficiens α β, congruēs autem illi
 
 1 Si fuerit idem totū positæ rationali lineæ in lōgitudine commensurabile, quod positum erat, dicetur residuum primum.
 
-[Curated heading level=3 type=definitions: 2]
-
-[Curated heading level=3 type=definitions: 3]
-
-[Curated heading level=3 type=definitions: 4]
-
-[Curated heading level=3 type=definitions: 5]
-
 2 Si uero linea adiuncta, positæ rationali communicet in longitudine, dicetur residuum secundū. 3 Quod si fuerit utraq̃ rationali positæ in longitudine incommensurabilis, uocabitur residuum tertium. 4 Si eadem tota positæ rationali cōmunicet in longitudine, nūcupabitur residuum quartum. 5 Si uero linea adiuncta, positæ rationali, communicet in longitudine, uocabitur residuum quintum.
 
 [Curated heading level=3 type=definitions: Commune initium trium priorum diffinitionum.]

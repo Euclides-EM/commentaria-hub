@@ -4,16 +4,6 @@
 
 ## Eucli.ex Zamb. Diffinitiones.
 
-[Curated heading level=3 type=definitions: SImiles figuræ]
-
-[Curated heading level=3 type=definitions: 2]
-
-[Curated heading level=3 type=definitions: 3]
-
-[Curated heading level=3 type=definitions: 4]
-
-[Curated heading level=3 type=definitions: 5]
-
 [Curated heading level=3 type=zamberti_sequence: 1.]
 
 [Margin]

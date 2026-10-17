@@ -12,18 +12,6 @@ recta linea æqua fuerit reliquæ quæ circum rectum circumductæ, rectangulus e
 
 18 Cylindrus, est quando rectanguli parallelogrammi manente uno eorum quæ circum rectum angulum latere circumductum parallelogrammum in idem unde sumpsit exordium steterit, ea assumpta figura.
 
-[Curated heading level=3 type=definitions: 19]
-
-[Curated heading level=3 type=definitions: 20]
-
-[Curated heading level=3 type=definitions: 21]
-
-[Curated heading level=3 type=definitions: 22]
-
-[Curated heading level=3 type=definitions: 23]
-
-[Curated heading level=3 type=definitions: 24]
-
 19 Axis cylindri, est manens quædam recta linea quam circum parallelogrammũ uertitur. Basis autem, circuli qui sub ijs quæ ex opposito circumductis lateribus sunt descripti. 20 Similes coni & cylindri, sunt quorũ axes & dimetientes basium, sunt proportionales. 21 Cubus, est figura solida sub sex quadratis contenta lateribus. 22 Octaedrum, est figura solida sub octo æqualibus & æquilateris contenta triangulis. 23 Dodecaedrum, est figura solidà sub duodecim quinquangulis æqualibus & æquilateris & æquiangulis comprehensa. 24 Icosaedrum, est figura solida sub uiginti triangulis æqualibus & æquilateris comprehensa.
 
 ## Eucli. ex Camp. Propositio 1

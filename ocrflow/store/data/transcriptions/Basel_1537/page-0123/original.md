@@ -6,12 +6,6 @@
 σύνδυο, i. binis (partially legible)
 [/Margin]
 
-[Curated heading level=3 type=definitions: 18]
-
-[Curated heading level=3 type=definitions: 19]
-
-[Curated heading level=3 type=definitions: 20]
-
 gnitudinibus & alijs eis æqualibus multitudine* una sumptis & in eadem ratione quando fuerit sicut in primis magnitudinibus prima ad ultimam, sic in secundis magnitudinibus prima ad ultimam. Vel aliter. Acceptio extremarum per subtractionem mediarum. 18 Ordinata proportio, est cùm fuerit antecedens ad consequens, sicut antecedēs ad cōsequēs & consequens ad rem aliam, sicut cōsequens ad rem aliā. 19 Inordinata proportio, est cū fuerit antecedēs ad cōsequens sicut antecedēs ad cōsequēs, & cōsequens ad rem aliam sicut res alia ad antecedēs. 20 Extēsa proportio, est uādo fuerit sicut antecedēs ad cōsequens sic antecedens ad consequens, fuerit autem & sicut consequens ad rem aliam, sic consequens ad rem aliam.
 
 [Curated heading level=3 type=definitions: 21]

@@ -6,49 +6,13 @@
 
 ## Primum Diffinitiones.
 
-[Curated heading level=3 type=definitions: SIgnum, est]
-
-[Curated heading level=3 type=definitions: 2]
-
-[Curated heading level=3 type=definitions: 3]
-
-[Curated heading level=3 type=definitions: 4]
-
-[Curated heading level=3 type=definitions: 5]
-
-[Curated heading level=3 type=definitions: 6]
-
-[Curated heading level=3 type=definitions: 7]
-
-[Curated heading level=3 type=definitions: 8]
-
 {dropcap:S|lines=?|style=decorated|decoration="foliate and figural decoration"}Ignum, est cuius pars nulla, 2 Linea uero, longitudo illatabilis. 3 Lineæ autē limites, sunt signa. 4 Recta linea, est quæ ex æquali, sua interiacet signa. 5 Superficies, est quæ longitudinem latitudinemq̃ʒ tantum habet. 6 Superficiei extrema, sunt lineæ. 7 Plana superficies, est quæ ex æquali, suas interiacet lineas. 8 Planus angulus, est duarum linearū in plano sese tangentiū & non in directo iacentiū, ad alterutrā inclinatio.
 
 [Diagram: Punctus (a dot); Linea (a curved line and a straight line); Su per fi ci es (a plain quadrilateral, a parallelogram, and a curved shaded surface)]
 
-[Curated heading level=3 type=definitions: 9]
-
-[Curated heading level=3 type=definitions: 10]
-
-[Curated heading level=3 type=definitions: 11]
-
-[Curated heading level=3 type=definitions: 12]
-
-[Curated heading level=3 type=definitions: 13]
-
 9 Quando autem quæ angulum continent, rectæ lineæ fuerint, rectilineus angulus nuncupatur. 10 Cum uero recta linea super rectam consistens lineam, utrobiq̃ʒ angulos æquales adinuicē fecerit, rectus est uterq̃ʒ æqualiū angulorū: & quæ superstat recta linea, perpendicularis uocatur, super quam steterit. 11 Obtusus angulus, maior est recto. 12 Acutus uero, minor est recto. 13 Terminus, est quod cuiusq̃ʒ finis est.
 
 [Diagram: Angulus planus (angle of two curved lines); Rectilineus (angle of two straight lines); Angulus obliquus (angle of curved lines); a Acutus, b Obtusus (angles marked a and b); Li. perpendic. c Rectus (perpendicular line standing on a horizontal line with right angle at c)]
-
-[Curated heading level=3 type=definitions: 14]
-
-[Curated heading level=3 type=definitions: 15]
-
-[Curated heading level=3 type=definitions: 16]
-
-[Curated heading level=3 type=definitions: 17]
-
-[Curated heading level=3 type=definitions: 18]
 
 14 Figura est quæ sub aliquo, uel aliquibus terminis comprehenditur. 15 Circulus, est figura plana una linea contenta quæ circunferentia appellatur, ad quam ab uno signo introrsum existente omnes prodeuntes lineæ, ipsiusq́ʒ circuli circunferentiam incidentes, adinuicem sunt æquales. 16 Centrum uero ipsius circuli id signum appellatur. 17 Dimetiens circuli, est recta quædam linea per centrum acta, & ex utraque parte in circuli circūferentiam terminata, quæ circulū bifariam dispescit. 18 Semicirculus, est figura quæ sub dimetiente & ea quæ per ipsam circuli circun-
 
