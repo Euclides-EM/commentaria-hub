@@ -15,7 +15,7 @@ a Per præc.
 
 ## PROPOSITIO XIII.
 
-[Curated heading level=2 type=figures: Fig. 20]
+[Curated heading level=5 type=figures: Fig. 20]
 
 {dropcap:L|lines=2|style=plain}Ineæ ex eodem puncto ductæ (D C, E C) nequeunt ambæ ad idem planum (A B) eße rectæ.
 
@@ -29,7 +29,7 @@ Alias enim per 6 forent parallelæ, Quod fieri non poteſt.
 
 ## PROPOSITIO XIV.
 
-[Curated heading level=2 type=figures: Fig. 21]
+[Curated heading level=5 type=figures: Fig. 21]
 
 {dropcap:S|lines=2|style=plain}I eadem recta (A B) ad duo plana (F G, L Q) perpendicularis eſt, plana erunt parallela.
 

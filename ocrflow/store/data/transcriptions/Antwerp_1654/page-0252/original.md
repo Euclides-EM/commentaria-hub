@@ -3,9 +3,9 @@
 
 ### Corollaria.
 
-[Curated heading level=4 type=numbered_item: 1.]
+[Curated heading level=5 type=numbered_corollaries: 1.]
 
-[Curated heading level=2 type=figures: Fig. 49]
+[Curated heading level=5 type=figures: Fig. 49]
 
 1. {dropcap:A|lines=2|style=plain}Ngulus centri (B A C) eſt ad quatuor rectos, vt arcus B C cui inſiſtit, ad totam circumferentiam.
 
@@ -15,7 +15,7 @@ Fig. 49.
 
 Nam vt B A C eſt ad rectum B A F, ita per hanc 33 arcus B C ad quadrantem B F. Ergo angulus B A C eſt ad 4 rectos, vt arcus B C eſt ad 4 quadrantes, hoc eſt ad totam peripheriam.
 
-[Curated heading level=4 type=numbered_item: 2.]
+[Curated heading level=5 type=numbered_corollaries: 2.]
 
 2. Inæqualium circulorum arcus I L, B C, qui æquales ſubtendunt angulos, ſiué ad centra vt I A L, & B A C, ſiue ad peripheriam, ſunt ſimiles.
 
@@ -33,11 +33,11 @@ c Per idem corol.
 d Per defin. 4.l.6.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
+[Curated heading level=5 type=numbered_corollaries: 3.]
 
 3. Duæ ſemidiametri (A B, A C) à concentricis peripherijs, arcus auferunt ſimiles I L, B C. Patet ex coroll.2.
 
-[Curated heading level=4 type=numbered_item: 4.]
+[Curated heading level=5 type=numbered_corollaries: 4.]
 
 4. Segmenta (B K C, I O L) quæ angulos capiunt æquales (K, O,) ſimilia ſunt.
 

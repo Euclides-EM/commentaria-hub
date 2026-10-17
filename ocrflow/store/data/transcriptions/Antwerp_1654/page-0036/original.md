@@ -3,7 +3,7 @@
 
 inuerſam, ſic vt extremitas priùs dextra, iam ſit ſiniſtra, rurſum applica lineæ prius deſcriptæ, ſi planè cum illa congruat, recta eſt regula; ſi non congruat, non erit recta. Ratio pendet ex axiomate 13.
 
-[Curated heading level=3 type=definitions: 5.]
+[Curated heading level=4 type=definitions: 5.]
 
 5. Superficies eſt magnitudo tantum longa & lata.
 
@@ -12,11 +12,11 @@ inuerſam, ſic vt extremitas priùs dextra, iam ſit ſiniſtra, rurſum applic
 
 Duas ergo habet dimenſiones. Intelligitur generari ex fluxu lineæ.
 
-[Curated heading level=3 type=definitions: 6.]
+[Curated heading level=4 type=definitions: 6.]
 
 6. Superficiei extrema ſunt lineæ.
 
-[Curated heading level=3 type=definitions: 7.]
+[Curated heading level=4 type=definitions: 7.]
 
 7. Planum, ſiue ſuperficies plana eſt, quæ ex æquo inter ſuas extremas lineas iacet.
 
@@ -36,7 +36,7 @@ Vel: plana ſuperficies eſt minima omnium eoſdem terminos habentium. Idem ſen
 
 Non definiuit hîc corpus, ſiue ſolidum Euclides, quia nondum hic erat acturus de corpore. Ne quis tamen illius definitionem deſideret; corpus eſt magnitudo longa, lata, & profunda. Tres igitur dimenſiones habet corpus, ſuperficies duas, linea vnam, punctum nullam.
 
-[Curated heading level=3 type=definitions: 8.]
+[Curated heading level=4 type=definitions: 8.]
 
 8. Angulus planus eſt duarum linearum;
 

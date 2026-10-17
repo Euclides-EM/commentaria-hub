@@ -17,7 +17,7 @@ d Per 3. l.3.
 
 ## PROPOSITIO XV.
 
-[Curated heading level=2 type=figures: Fig. 19]
+[Curated heading level=5 type=figures: Fig. 19]
 
 [Margin]
 Fig.19.

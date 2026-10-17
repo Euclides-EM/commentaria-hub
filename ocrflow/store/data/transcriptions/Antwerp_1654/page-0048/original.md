@@ -7,9 +7,9 @@
 
 Traduntur hoc libro affectiones, primæ triangulorum & parallelogrammorum. Propoſitiones illuſtriores ſunt 32.35.37.41.44.45.47.
 
-[Curated heading level=3 type=propositions: PROPOSITIO PRIMA.]
+[Curated heading level=2 type=propositions: PROPOSITIO PRIMA.]
 
-### PROPOSITIO PRIMA.
+## PROPOSITIO PRIMA.
 
 {dropcap:S|lines=2|style=plain}Vper datâ rectâ (A B) triangulum æquilaterum conſtituere.
 

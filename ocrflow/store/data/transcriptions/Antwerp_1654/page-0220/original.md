@@ -46,7 +46,7 @@ o Def.1.l.6.
 Fig.7.
 [/Margin]
 
-[Curated heading level=2 type=figures: Fig. 8]
+[Curated heading level=5 type=figures: Fig. 8]
 
 Dem. ſi angulus F ponatur ſupra ſibi æqualem A, latera FI, FL, cadent ſupra la-
 

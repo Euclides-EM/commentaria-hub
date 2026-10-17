@@ -60,7 +60,7 @@ func TestGetAvailableCategoriesBulkDeduplicatesAndSortsCategories(t *testing.T) 
 	insertAnnotation("ann_two", "Commentary", "MainZone")
 
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
-	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
 	categories, err := annotationSvc.GetAvailableCategoriesBulk([]annotation.Reference{
 		{DatasetID: "ds_categories", ID: "ann_one"},
 		{DatasetID: "ds_categories", ID: "ann_two"},

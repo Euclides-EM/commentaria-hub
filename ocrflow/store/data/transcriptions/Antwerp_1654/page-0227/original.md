@@ -10,7 +10,7 @@ Hæ duæ praxes ſunt faciliores Euclideâ, quia pauciores ducendæ ſunt parall
 
 ## PROPOSITIO XI.
 
-[Curated heading level=2 type=figures: Fig. 16]
+[Curated heading level=5 type=figures: Fig. 16]
 
 [Margin]
 Fig.16.
@@ -32,7 +32,7 @@ d Per conſtr.
 
 ### Aliter.
 
-[Curated heading level=2 type=figures: Fig. 17]
+[Curated heading level=5 type=figures: Fig. 17]
 
 [Margin]
 Fig.17.

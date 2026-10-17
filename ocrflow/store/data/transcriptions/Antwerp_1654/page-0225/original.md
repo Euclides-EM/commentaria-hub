@@ -20,7 +20,7 @@ Erit rurſum AF ad AB, vt AB ad AC.
 
 ## PROPOSITIO IX.
 
-[Curated heading level=2 type=figures: Fig. 12]
+[Curated heading level=5 type=figures: Fig. 12]
 
 [Margin]
 Fig.12.
@@ -36,7 +36,7 @@ Patet ex p.2.l.6.
 
 ## PROPOSITIO X.
 
-[Curated heading level=2 type=figures: Fig. 13]
+[Curated heading level=5 type=figures: Fig. 13]
 
 [Margin]
 Fig. 13.

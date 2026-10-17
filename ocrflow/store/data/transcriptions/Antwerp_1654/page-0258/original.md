@@ -22,7 +22,7 @@ e Patet ex defin.3.l.11.
 
 ## PROPOSITIO V.
 
-[Curated heading level=2 type=figures: Fig. 13]
+[Curated heading level=5 type=figures: Fig. 13]
 
 [Margin]
 Fig.13.

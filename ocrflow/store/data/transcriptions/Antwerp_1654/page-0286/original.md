@@ -3,7 +3,7 @@
 
 alia figura; ex cuius lateribus ſingulis triangula ſurgunt, in vnum punctum L, quod vertex dicitur, coëuntibus.
 
-[Curated heading level=2 type=figures: Fig. 2 & 3]
+[Curated heading level=5 type=figures: Fig. 2 & 3]
 
 *Vt triangulũ inter rectilineas figuras planas, ita pyramis inter ſolidas prima & ſimplicißima eſt.*
 
@@ -11,7 +11,7 @@ alia figura; ex cuius lateribus ſingulis triangula ſurgunt, in vnum punctum L,
 Fig. 2. 3.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 2.]
+[Curated heading level=4 type=definitions: 2.]
 
 2. Si extra planum alicuius circuli (C L) acceptum fuerit punctum (A) ab eoque ducatur recta infinita (A F) tangens circulum in C; quæ pũcto (A) manente fixo, circa peripheriam circuli conuertatur, donec in eum locum (A C F) redeat, vnde moueri cœperat; ſuperficies à recta linea (A C F) deſcripta, dicitur conica ſuperficies, corpus verò quod hac ſuperficie & circulo (C L) continetur, conus vocatur.
 
@@ -21,7 +21,7 @@ Baſis coni eſt circulus C L.
 
 Axis coni eſt recta (A B) ex vertice ad baſeos centrum ducta.
 
-[Curated heading level=2 type=figures: Fig. 4]
+[Curated heading level=5 type=figures: Fig. 4]
 
 Latus coni eſt recta (A C) à vertice ad baſeos circumferentiam ducta, quam eſſe totam in coni ſuperficie, ex eius geneſi eſt manifeſtum.
 
@@ -29,7 +29,7 @@ Latus coni eſt recta (A C) à vertice ad baſeos circumferentiam ducta, quam e�
 a Fig. [unclear: 4].
 [/Margin]
 
-[Curated heading level=2 type=figures: Fig. 5]
+[Curated heading level=5 type=figures: Fig. 5]
 
 Conus a rectus eſt, cum axis (A B) eſt baſi rectus.
 

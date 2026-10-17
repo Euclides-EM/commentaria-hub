@@ -24,7 +24,7 @@ i Per ſchol. poſt 31.l.1
 
 ## PROPOSITIO IV.
 
-[Curated heading level=2 type=figures: Fig. 5]
+[Curated heading level=5 type=figures: Fig. 5]
 
 {dropcap:T|lines=2|style=plain}Riangulo circulum inſcribere.
 

@@ -5,7 +5,7 @@
 
 ## PROPOSITIO PRIMA.
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 {dropcap:R|lines=2|style=plain}Ecta lineæ pars vna (AC) nequit eſſe in ſubiecto plano (OE) altera (CB) extra planum.
 
@@ -19,7 +19,7 @@ Per ſe clarum eſt ex definitione plani, & lineæ rectæ vide defin. 5. & 4.l.1
 
 ## PROPOSITIO II.
 
-[Curated heading level=2 type=figures: Fig. 10]
+[Curated heading level=5 type=figures: Fig. 10]
 
 {dropcap:O|lines=2|style=plain}Mne triangulum in vno eſt plano. Et duæ rectæ ſe mutuo ſecantes in eodem plano ſunt.
 
@@ -33,7 +33,7 @@ Prima pars per ſe clara eſt, cum triangulum nihil ſit aliud, quam plana ſupe
 
 ## PROPOSITIO III.
 
-[Curated heading level=2 type=figures: Fig. 11]
+[Curated heading level=5 type=figures: Fig. 11]
 
 {dropcap:S|lines=2|style=plain}I duo plana (AB,CD) ſe mutuo ſecant; (EF) communis eorum ſectio eſt recta linea.
 

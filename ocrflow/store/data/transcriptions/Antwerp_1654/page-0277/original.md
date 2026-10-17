@@ -9,7 +9,7 @@
 
 ## PROPOSITIO XXXIII.
 
-[Curated heading level=2 type=figures: Fig. 35]
+[Curated heading level=5 type=figures: Fig. 35]
 
 [Margin]
 Fig.35.

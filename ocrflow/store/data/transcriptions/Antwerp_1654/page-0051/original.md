@@ -1,11 +1,11 @@
 <!-- Page number: 18 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=3 type=propositions: PROPOSITIO V.]
+[Curated heading level=2 type=propositions: PROPOSITIO V.]
 
-### PROPOSITIO V.
+## PROPOSITIO V.
 
-[Curated heading level=2 type=figures: Fig. 26]
+[Curated heading level=5 type=figures: Fig. 26]
 
 [Margin]
 Fig. 26.
@@ -19,13 +19,13 @@ Intelligatur triangulum A B C bis poſitum, ſed ſitu conuerſo c b a. Quoniam 
 b Per 4. l.1.
 [/Margin]
 
-#### Corollarium.
+### Corollarium.
 
 {dropcap:Æ|lines=2|style=plain}Quilaterum ergò triangulum, etiam æquiangulum eſt.
 
-[Curated heading level=3 type=propositions: PROPOSITIO VI.]
+[Curated heading level=2 type=propositions: PROPOSITIO VI.]
 
-### PROPOSITIO VI.
+## PROPOSITIO VI.
 
 [Margin]
 Fig. 26.

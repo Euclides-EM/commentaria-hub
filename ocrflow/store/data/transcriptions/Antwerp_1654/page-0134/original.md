@@ -1,7 +1,7 @@
 <!-- Running title: Liber Tertius. -->
 <!-- Page number: 101 -->
 
-[Curated heading level=2 type=figures: Fig. 41]
+[Curated heading level=5 type=figures: Fig. 41]
 
 [Margin]
 Fig. 41.
@@ -19,7 +19,7 @@ Fig. 41.
 
 ## PROPOSITIO XXXII.
 
-[Curated heading level=2 type=figures: Fig. 42 & 43]
+[Curated heading level=5 type=figures: Fig. 42 & 43]
 
 [Margin]
 Fig. 42. & 43.

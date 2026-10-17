@@ -1,7 +1,7 @@
 <!-- Page number: 144 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=3 type=propositions: PROPOSITIO XVIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVIII.]
 
 ### PROPOSITIO XVIII.
 

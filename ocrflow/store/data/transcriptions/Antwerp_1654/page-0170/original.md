@@ -21,7 +21,7 @@ Similes vero partes aliquotæ ſunt, quæ ſua tota æqualiter metiuntur; vt ſi
 
 [Curated heading level=4 type=definitions: 8.]
 
-[Curated heading level=2 type=figures: Fig. 6]
+[Curated heading level=5 type=figures: Fig. 6]
 
 8. Magnitudines (ABCD) continuè proportionales dicuntur, cum medij termini (B, C) bis ſumuntur; hoc eſt cum ſunt conſequens reſpectu præcedentis, & antecedens reſpectu ſequentis.
 

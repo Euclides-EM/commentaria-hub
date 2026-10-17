@@ -11,17 +11,17 @@ b Per corol. 1.præced.
 c Per 16.l.5.
 [/Margin]
 
-[Curated heading level=3 type=propositions: PROPOSITIONES XX. XXI.]
+[Curated heading level=2 type=propositions: PROPOSITIONES XX. XXI.]
 
 ### PROPOSITIONES XX. XXI.
 
 {dropcap:I|lines=2|style=plain}N noſtra methodo ſunt ſuperfluæ.
 
-[Curated heading level=3 type=propositions: PROPOSITIO XXII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXII.]
 
 ### PROPOSITIO XXII.
 
-[Curated heading level=2 type=figures: Fig. 13]
+[Curated heading level=5 type=figures: Fig. 13]
 
 [Margin]
 Fig.13.

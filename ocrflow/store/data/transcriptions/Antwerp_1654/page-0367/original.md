@@ -7,7 +7,7 @@ benti pro altitudine radium, pro baſi ſuperficiem hemiſphæricam E O B D. Erg
 
 ## PROPOSITIO XXXI.
 
-[Curated heading level=2 type=figures: Fig. 25]
+[Curated heading level=5 type=figures: Fig. 25]
 
 {dropcap:S|lines=2|style=plain}Phæra ſit diuiſa in duo ſegmenta I L B G, I S K G, plano I Q G T, per centrum A non tranſeunte: diameter autem plano ſecanti recta ſit B O K.
 

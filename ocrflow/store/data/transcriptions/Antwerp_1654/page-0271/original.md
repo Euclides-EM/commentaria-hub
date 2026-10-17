@@ -13,7 +13,7 @@ lum conſtituant, adeoq́, præter iam dicta 5, nulla ordinata corpora dari poſ
 
 ## PROPOSITIO XXIV.
 
-[Curated heading level=2 type=figures: Fig. 29]
+[Curated heading level=5 type=figures: Fig. 29]
 
 [Margin]
 Fig.29.

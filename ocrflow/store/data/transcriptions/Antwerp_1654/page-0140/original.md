@@ -1,7 +1,7 @@
 <!-- Running title: Liber Tertius. -->
 <!-- Page number: 107 -->
 
-[Curated heading level=4 type=numbered_item: 2.]
+[Curated heading level=5 type=numbered_corollaries: 2.]
 
 2. Quæ ex eodem puncto circulum tangunt, B F, B Q æquales ſunt. Earum quippe quadrata æquantur ſingula eidem rectangulo C B O.
 
@@ -9,7 +9,7 @@
 
 ## PROPOSITIO XXXVII.
 
-[Curated heading level=2 type=figures: Fig. 52]
+[Curated heading level=5 type=figures: Fig. 52]
 
 {dropcap:S|lines=2|style=plain}I rectangulum ſub C B, & O B ſit æquale quadrato B F, hæc circulum tanget in F.
 

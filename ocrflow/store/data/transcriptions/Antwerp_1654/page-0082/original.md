@@ -1,11 +1,11 @@
 <!-- Running title: Liber Primus. -->
 <!-- Page number: 49 -->
 
-[Curated heading level=3 type=propositions: PROPOSITIO XLV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XLV.]
 
-### PROPOSITIO XLV.
+## PROPOSITIO XLV.
 
-[Curated heading level=2 type=figures: Fig. 69]
+[Curated heading level=5 type=figures: Fig. 69]
 
 {dropcap:D|lines=2|style=plain}*Ató rectilineo (C B A) æquale parallelogrammum conſtruere ad datam rectam (I Q) & in dato angulo (H.)*
 

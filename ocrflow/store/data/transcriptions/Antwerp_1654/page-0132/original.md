@@ -11,7 +11,7 @@ d Per axio. 7.
 
 ## PROPOSITIO XVIII{printer-error-correction:XXVIII}. & XXIX.
 
-[Curated heading level=2 type=figures: Fig. 38]
+[Curated heading level=5 type=figures: Fig. 38]
 
 [Margin]
 Fig. 38.

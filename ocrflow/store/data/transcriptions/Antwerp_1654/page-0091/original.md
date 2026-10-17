@@ -39,7 +39,7 @@ Quad.ex A B.  Æ.  rect.B A C }
 
 ## PROPOSITIO III.
 
-[Curated heading level=2 type=figures: Fig. 3]
+[Curated heading level=5 type=figures: Fig. 3]
 
 [Margin]
 Fig.3.

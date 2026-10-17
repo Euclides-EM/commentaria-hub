@@ -47,6 +47,7 @@ type EnvConfig struct {
 	OllamaAuthToken          string `env:"OLLAMA_AUTH_TOKEN" envDefault:""`
 
 	SkipDiagramCropsGeneration bool     `env:"SKIP_DIAGRAM_CROPS_GENERATION" envDefault:"false"`
+	DisableAnnotationCache     bool     `env:"DISABLE_ANNOTATION_CACHE" envDefault:"false"`
 	OptMigrations              []string `env:"OPT_MIGRATIONS" envDefault:""`
 
 	RcloneRemoteName     string `env:"RCLONE_REMOTE_NAME" envDefault:"G"`

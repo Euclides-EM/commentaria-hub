@@ -18,7 +18,7 @@ b Per defin. 1.l.6.
 
 ## PROPOSITIO XXX.
 
-[Curated heading level=2 type=figures: Fig. 45]
+[Curated heading level=5 type=figures: Fig. 45]
 
 {dropcap:D|lines=2|style=plain}Atam rectam (A B) ita ſecare, vt tota (A B) ſit ad vnum ſegmentum (AC,) ſicut idem ſegmentum eſt ad reliquum (C B)
 

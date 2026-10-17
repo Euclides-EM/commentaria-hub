@@ -19,7 +19,7 @@ h Per 6.l.1.
 
 ## PROPOSITIO XV.
 
-[Curated heading level=2 type=figures: Fig. 13]
+[Curated heading level=5 type=figures: Fig. 13]
 
 {dropcap:I|lines=2|style=plain}*N dato circulo Hexagonum ordinatum deſcribere.*
 

@@ -17,9 +17,7 @@ Fig.1.l.3. tabulâ 3.
 
 [Curated heading level=4 type=definitions: 5.]
 
-[Curated heading level=1 type=figures: Liber V]
-
-[Curated heading level=2 type=figures: Fig. 2]
+[Curated heading level=5 type=figures: Fig. 2]
 
 5. Duæ rationes (A ad B, & C ad F) ſunt ſimiles, æquales, eædem; cum vnius antecedens (A) æquè ſeu eodem modo (hoc eſt nec magis, nec minus) continet ſuum conſequens (B,) quo alterius antecedens (C) continet ſuum conſequens (F.)
 
@@ -27,7 +25,7 @@ Fig.1.l.3. tabulâ 3.
 Fig.2.
 [/Margin]
 
-[Curated heading level=2 type=figures: Fig. 3]
+[Curated heading level=5 type=figures: Fig. 3]
 
 Vel quando vnius antecedens (A) eodem modo continetur in ſuo conſequente (B,) quo (C) antecedens alterius in ſuo (D.)
 
@@ -37,7 +35,7 @@ Fig.3.
 
 [Curated heading level=4 type=definitions: 6.]
 
-[Curated heading level=2 type=figures: Fig. 4]
+[Curated heading level=5 type=figures: Fig. 4]
 
 6. Duæ rationes ſunt diſſimiles, ſiue vna ratio eſt maior alterâ, quando vnius antecedens (I) magis continet ſuum conſequens (L,) quam alterius antecedens (O) conti-
 

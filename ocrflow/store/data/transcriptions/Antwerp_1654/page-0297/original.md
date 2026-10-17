@@ -1,7 +1,7 @@
 <!-- Page number: 264 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=figures: Fig. 17]
+[Curated heading level=5 type=figures: Fig. 17]
 
 Sint primo trigonæ; perfectis parallelogrammis AM & HQ, ſuper his conſtitue parallelepipeda AG, HL, in altitudine pyramidum; quæ cum pyramides ſint ſimiles, etiam patet ſimilia a eſſe. Ducãtur iam EF, RP, & per EF, CB, item per RP, IN ſecabuntur b parallelepipeda in duo priſmata æqualia: ſingula horum c tripla ſunt pyramidum OACB, & KHIN. Vtraque ergo ſimul; hoc eſt tota parallelepipeda, AG, HL, ſextupla ſunt pyramidum. Pyramides ergo parallelepipedis proportionales ſunt. Sed horum ratio d triplicata eſt rationis laterum AB, HN. Ergo & illarum. Quod erat demonſtrandum.
 

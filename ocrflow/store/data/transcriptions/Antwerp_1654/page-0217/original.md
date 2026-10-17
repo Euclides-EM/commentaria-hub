@@ -12,7 +12,7 @@ c Per 41.l.1.
 
 ### Corollarium.
 
-[Curated heading level=2 type=figures: Fig. 3]
+[Curated heading level=5 type=figures: Fig. 3]
 
 [Margin]
 Fig.3.

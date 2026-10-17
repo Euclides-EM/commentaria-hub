@@ -7,7 +7,7 @@ totam OEFK) triplicata erit rationis IM ad PZ. Quod erat demonſtrandum.
 
 ## PROPOSITIO IX.
 
-[Curated heading level=2 type=figures: Fig. 18 & 19]
+[Curated heading level=5 type=figures: Fig. 18 & 19]
 
 {dropcap:Æ|lines=2|style=plain}Quales pyramides reciprocant baſes, & altitudines: & quæ reciprocant, ſunt æquales.
 

@@ -12,7 +12,7 @@ c Per 8.l.5.
 
 Idem ſimiliter demonſtrabitur de proportione minori.
 
-[Curated heading level=3 type=propositions: PROPOSITIO XXX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXX.]
 
 ### PROPOSITIO XXX.
 
@@ -30,11 +30,11 @@ b Per 26. l.5.
 c Patet ex 28.l.5.
 [/Margin]
 
-[Curated heading level=3 type=propositions: PROPOSITIO XXXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXI.]
 
 ### PROPOSITIO XXXI.
 
-[Curated heading level=2 type=figures: Fig. 19]
+[Curated heading level=5 type=figures: Fig. 19]
 
 [Margin]
 Fig.19.

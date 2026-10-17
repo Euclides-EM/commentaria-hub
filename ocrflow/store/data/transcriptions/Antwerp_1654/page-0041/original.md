@@ -1,7 +1,7 @@
 <!-- Page number: 8 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=figures: Fig. 11 & 12]
+[Curated heading level=5 type=figures: Fig. 11 & 12]
 
 tria latera habet æqualia.
 
@@ -9,9 +9,9 @@ tria latera habet æqualia.
 Fig.11.12.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 26.]
+[Curated heading level=4 type=definitions: 26.]
 
-[Curated heading level=2 type=figures: Fig. 13]
+[Curated heading level=5 type=figures: Fig. 13]
 
 26. Triangulum Iſoſceles, ſeu æquicrure, quod duo tantùm latera habet æqualia.
 
@@ -19,9 +19,9 @@ Fig.11.12.
 Fig.13.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 27.]
+[Curated heading level=4 type=definitions: 27.]
 
-[Curated heading level=2 type=figures: Fig. 15]
+[Curated heading level=5 type=figures: Fig. 15]
 
 27. Scalenum, quod tria latera inæqualia habet.
 
@@ -29,7 +29,7 @@ Fig.13.
 Fig.15.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 28.]
+[Curated heading level=4 type=definitions: 28.]
 
 28. Rectangulum triangulum eſt, quod vnum angulum habet rectum.
 
@@ -37,7 +37,7 @@ Fig.15.
 Fig.12.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 29.]
+[Curated heading level=4 type=definitions: 29.]
 
 29. Obtuſangulum triangulum eſt, quod vnum angulum habet obtuſum.
 
@@ -45,9 +45,9 @@ Fig.12.
 Fig.10.11.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 30.]
+[Curated heading level=4 type=definitions: 30.]
 
-[Curated heading level=2 type=figures: Fig. 14]
+[Curated heading level=5 type=figures: Fig. 14]
 
 30. Acutangulum triangulum eſt, quod tres habet acutos angulos.
 
@@ -55,7 +55,7 @@ Fig.10.11.
 Fig.14.15.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 31.]
+[Curated heading level=4 type=definitions: 31.]
 
 31. Inter figuras quadrilateras, rectangulum eſt, quod quatuor angulos habet rectos, adeoque æquales: ſiue latera æqualia ſint, ſiue non.
 
@@ -63,11 +63,11 @@ Fig.14.15.
 Fig.15.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 32.]
+[Curated heading level=4 type=definitions: 32.]
 
 32. Quadratum eſt, quod æquilaterum, & rectangulum eſt, ac proinde æquiangulum.
 
-[Curated heading level=2 type=figures: Fig. 16]
+[Curated heading level=5 type=figures: Fig. 16]
 
 Omne quadratum eſt rectangulum, ſed non contra.
 
@@ -75,9 +75,9 @@ Omne quadratum eſt rectangulum, ſed non contra.
 Fig 16.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 33.]
+[Curated heading level=4 type=definitions: 33.]
 
-[Curated heading level=2 type=figures: Fig. 17]
+[Curated heading level=5 type=figures: Fig. 17]
 
 33. Rhombus eſt, qui æquilaterus, ſed non æquiangulus eſt.
 
@@ -85,7 +85,7 @@ Fig 16.
 Fig.17.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 34.]
+[Curated heading level=4 type=definitions: 34.]
 
 34. Rhomboides, quæ aduerſa latera & angulos habens æqualia, neque æquilatera, neque æquiangula eſt.
 
@@ -93,7 +93,7 @@ Fig.17.
 Fig.14.15. 16.17.
 [/Margin]
 
-[Curated heading level=3 type=definitions: 35.]
+[Curated heading level=4 type=definitions: 35.]
 
 35. Parallelogrammum eſt figura quadrilatera, cuius bina oppoſita latera (A B, F C, & B F, A C) ſunt parallela. Quid vero ſint parallelæ, dicetur ſeq. defin.
 

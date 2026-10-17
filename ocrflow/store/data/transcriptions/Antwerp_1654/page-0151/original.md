@@ -5,7 +5,7 @@
 
 ## PROPOSITIO XII.
 
-[Curated heading level=2 type=figures: Fig. 10]
+[Curated heading level=5 type=figures: Fig. 10]
 
 [Margin]
 Fig.10.

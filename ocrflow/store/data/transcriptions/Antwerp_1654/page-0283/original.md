@@ -11,7 +11,7 @@
 
 ## PROPOSITIO XL.
 
-[Curated heading level=2 type=figures: Fig. 39 & 40]
+[Curated heading level=5 type=figures: Fig. 39 & 40]
 
 [Margin]
 Fig.39.& 40.

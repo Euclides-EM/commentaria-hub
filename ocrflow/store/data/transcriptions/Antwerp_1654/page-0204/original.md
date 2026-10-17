@@ -1,7 +1,7 @@
 <!-- Running title: Liber Quintus. Pars III. -->
 <!-- Page number: 171 -->
 
-[Curated heading level=2 type=figures: Fig. 32]
+[Curated heading level=5 type=figures: Fig. 32]
 
 ex ax. 1 & 3. Nam multiplicatio rationum, eſt vnius ad alteram additio ſæpius repetita. Hanc autem perfici repetitâ ſæpius antecedentium additione (hoc eſt multiplicatione) patet ex iam citatis axio.1.& 3.
 
@@ -17,7 +17,7 @@ Diuiſio rationum perficitur, ſi denominator maioris diuidatur per denominatore
 
 #### Multiplicatio rationum irrationalium.
 
-[Curated heading level=2 type=figures: Fig. 33]
+[Curated heading level=5 type=figures: Fig. 33]
 
 [Margin]
 Fig 33.

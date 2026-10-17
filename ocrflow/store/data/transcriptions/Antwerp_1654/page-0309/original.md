@@ -9,7 +9,7 @@
 
 ## PROPOSITIO XVIII.
 
-[Curated heading level=2 type=figures: Fig. 27]
+[Curated heading level=5 type=figures: Fig. 27]
 
 [Margin]
 Fig.27.

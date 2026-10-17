@@ -22,7 +22,7 @@ c Per 18.l.5.
 
 ### Corollaria.
 
-[Curated heading level=4 type=numbered_item: 1.]
+[Curated heading level=5 type=numbered_corollaries: 1.]
 
 1. {dropcap:S|lines=2|style=plain}I in triangulo ducatur vni lateri (BC) parallela (LI) erit triangulum LFI ſimile toti CFB; ac proinde CF eſt ad LF, vt BC ad LI.
 
@@ -40,9 +40,9 @@ q Per 27. l.6.
 r Per prac.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
+[Curated heading level=5 type=numbered_corollaries: 2.]
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 2. Si in triangulo parallelas AC, LO ſecet recta BF, ab angulo oppoſito B ducta, ſecabit eas proportionaliter.
 

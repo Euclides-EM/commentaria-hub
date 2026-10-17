@@ -9,9 +9,9 @@ Ducatur enim B E. quadratum B E, hoc eſt A B, æquatur c quadrato B C, & quadra
 c Per 47. l.1.
 [/Margin]
 
-#### Problema 3.
+### Problema 3.
 
-[Curated heading level=2 type=figures: Fig. 75]
+[Curated heading level=5 type=figures: Fig. 75]
 
 {dropcap:N|lines=2|style=plain}*Otis duobus quibuſcunque lateribus trigoni rectanguli, reliquum inuenire.*
 
@@ -23,11 +23,11 @@ Latera rectum angulum ambientia ſint A C, A B, hoc 6 pedum, illud 8: Oporteat i
 
 Nota ſint deinde latera A B, B C, hoc 10 pedum, illud 6. Oporteat inuenire A C. Lateris A B quadratum 36 aufer ex 100, quadrato lateris B C. Reſiduum 64 erit quadratum lateris A C. Radix ergo 64, (nempe 8) dat pedes lateris A C.
 
-[Curated heading level=3 type=propositions: PROPOSITIO XLVIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XLVIII.]
 
-### PROPOSITIO XLVIII.
+## PROPOSITIO XLVIII.
 
-[Curated heading level=2 type=figures: Fig. 76]
+[Curated heading level=5 type=figures: Fig. 76]
 
 [Margin]
 Fig.76.

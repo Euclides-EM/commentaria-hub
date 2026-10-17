@@ -11,7 +11,7 @@ q Per 12.l.5.
 
 ## PROPOSITIO XII.
 
-[Curated heading level=2 type=figures: Fig. 21]
+[Curated heading level=5 type=figures: Fig. 21]
 
 {dropcap:D|lines=2|style=plain}Atis tribus rectis (A B, B C, A F) quartam proportionalem inuenire.
 
@@ -27,7 +27,7 @@ Dico A B eſt ad B C, vt A F ad F L vt patet ex p.2.huius. Ergo F L eſt quarta 
 
 {dropcap:P|lines=2|style=plain}Vlchrè Bettinus noſter in ſuo Ærario Mathematicæ philoſophiæ. Ex 35.l.3. & 14.huius, quæ ab hac non dependet, datis tribus quartam, & datis duabus tertiam proportionalem exhibet, hunc in modum.
 
-[Curated heading level=2 type=figures: Fig. 22]
+[Curated heading level=5 type=figures: Fig. 22]
 
 Si tres dentur rectæ; ſecunda C B & tertia B D ponantur in directum, quas prima B A, tangat in B ſub quouis angulo. Per puncta C, A, D deſcribe a circulum, cui A B prima occurrat in Z. B Z eſt quarta proportionalis.
 

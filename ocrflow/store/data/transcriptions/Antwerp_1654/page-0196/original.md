@@ -1,7 +1,7 @@
 <!-- Running title: Liber Quintus. Pars II. -->
 <!-- Page number: 163 -->
 
-[Curated heading level=3 type=propositions: Theorema 6.]
+[Curated heading level=2 type=propositions: Theorema 6.]
 
 ### Theorema 6.
 

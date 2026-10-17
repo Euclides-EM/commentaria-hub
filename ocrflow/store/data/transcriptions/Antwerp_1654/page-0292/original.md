@@ -15,7 +15,7 @@ X. Ergo ratio A ad B æqualis eſt rationi, X ad Z. Quod erat demonſtrandum.
 
 ### I.
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 {dropcap:S|lines=2|style=plain}I duæ pyramides triangulares ſecentur planis (OSE, RXZ) ad baſes (ABC, IQV) parallelis, quæ diuidant latera (CF, QL,) proportionaliter (in E & Z:) erunt (OSE, RXZ) inter ſe vt baſes (ACB, IQV.)
 

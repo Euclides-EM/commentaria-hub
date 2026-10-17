@@ -15,7 +15,7 @@ Atqui A L eſt quadratum A C, cum A I, A C ex conſt. ſint æquales : & C S eſ
 
 ## PROPOSITIO XII.
 
-[Curated heading level=2 type=figures: Fig. 12]
+[Curated heading level=5 type=figures: Fig. 12]
 
 [Margin]
 Fig.12.

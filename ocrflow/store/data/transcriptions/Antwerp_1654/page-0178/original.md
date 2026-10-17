@@ -34,7 +34,7 @@ d Per 17.l.5.
 e Per 18.l 5.
 [/Margin]
 
-[Curated heading level=3 type=propositions: PROPOSITIO XIX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIX.]
 
 ### PROPOSITIO XIX.
 

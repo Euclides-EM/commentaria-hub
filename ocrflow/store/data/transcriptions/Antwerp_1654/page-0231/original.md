@@ -9,7 +9,7 @@
 Fig.19.
 [/Margin]
 
-[Curated heading level=2 type=figures: Fig. 20]
+[Curated heading level=5 type=figures: Fig. 20]
 
 In ſuperiori figura ducatur O X parallela ad A Z, Igitur L X erit differentia primi termini A L, ſeu A B, & ſecundi B O, ſeu B C. Quoniam X O eſt parallela ad A Z. Erit L X ad X O, vt f L A ad A Z. Sed X O eſt A B, & L A etiam eſt A B. Ergo L X differentia, eſt ad A B primum terminum, vt A B primus terminus ad A Z totam ſummam, Quod erat demonſtrandum.
 

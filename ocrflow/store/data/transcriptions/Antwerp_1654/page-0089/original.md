@@ -4,8 +4,6 @@
 
 {dropcap:H|lines=6|style=decorated|decoration="foliate woodcut initial with a face"}Ic liber mole paruus, at præſtantiâ ac vtilitate theorematum planè magnus. Tyrones, ſcio quod dico, nondum capient; ſed eſſe verißimum vlterius prouecti, vſu ipſo certißimè intelligent.
 
-[Curated heading level=2 type=definitions: DEFINITIO.]
-
 ## DEFINITIO.
 
 [Margin]
@@ -14,9 +12,7 @@ Fig.60.li.1.
 
 {dropcap:P|lines=2|style=plain}Arallelogrammum rectangulum (A E) (quod rectangulum ſimpliciter ſine vllo addito appellari ſolet) contineri dicitur ſub duabus lineis rectis (A C, A F) rectum angulum comprehendentibus.
 
-[Curated heading level=1 type=figures: Liber II]
-
-[Curated heading level=2 type=figures: Fig. 2]
+[Curated heading level=5 type=figures: Fig. 2]
 
 Nam earum altera A C altitudinem rectanguli, altera A F latitudinem determinat. Deinde ſi intelligatur latus A C ferri perpendiculariter per totam A F, aut A F per totam A C, producetur eo motu area rectanguli. Quare merito rectangulum fieri dicitur ex ductu, ſeu multiplicatione duorum laterum contiguorum.
 

@@ -1,11 +1,11 @@
 <!-- Page number: 34 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=3 type=propositions: PROPOSITIO XXXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXI.]
 
-### PROPOSITIO XXXI.
+## PROPOSITIO XXXI.
 
-[Curated heading level=2 type=figures: Fig. 48]
+[Curated heading level=5 type=figures: Fig. 48]
 
 [Margin]
 Fig. 48.
@@ -21,7 +21,7 @@ a Per 23. l.1.
 
 Praxis: ducta A L, centro L deſcribe arcum I Q, & centro A eodem interuallo arcum O X; ex quo aufer O B parem I Q. Per A & B ducta recta erit parallela.
 
-[Curated heading level=2 type=figures: Fig. 49]
+[Curated heading level=5 type=figures: Fig. 49]
 
 Demonſtratio pendet ex 29.l.3.
 
@@ -33,7 +33,7 @@ Aliter. Centro quopiam P deſcribe circulum qui tranſeat per datum punctum A, &
 
 Demonſtratio pendet ex 29, libri 3. & ex 28. huius.
 
-#### Scholium.
+### Scholium.
 
 {dropcap:D|lines=2|style=plain}Emonſtrata iam igitur eſt parallelarum theoria independenter ab axiomate, quod Euclides, eiuſque interpretes aſſumunt minus rectè; cum non ſit axioma, ſed theorema, cuius veritas nõ magis per ſe appareat, quam ipſius 29. propoſitionis. Quia tamen deinceps ſæpius adhibebitur, id hoc loco iam facilè ex præmiſſis demonſtrabimus.
 

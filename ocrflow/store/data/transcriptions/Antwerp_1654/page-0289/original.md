@@ -28,7 +28,7 @@ Cum oſtenſum iam ſit A B eſſe ad L I, vt A F ad I C, etiam O B, erit ad R L
 
 ## Lemma.
 
-[Curated heading level=2 type=figures: Fig. 8]
+[Curated heading level=5 type=figures: Fig. 8]
 
 [Margin]
 Fig. 8.

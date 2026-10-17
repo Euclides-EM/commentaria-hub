@@ -12,7 +12,7 @@ e Per 16.l.5.
 
 ## PROPOSITIO V.
 
-[Curated heading level=2 type=figures: Fig. 10]
+[Curated heading level=5 type=figures: Fig. 10]
 
 {dropcap:S|lines=2|style=plain}I duo triangula habuerint omnia latera ſibi mutuo proportionalia, etiam ſibi mutuo æquiangula erunt.
 

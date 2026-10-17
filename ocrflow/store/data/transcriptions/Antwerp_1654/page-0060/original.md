@@ -10,11 +10,11 @@ b Per eand.
 
 2. Pars demonſtrabitur in Coroll.2.partis primæ prop.32. Eâ interim non vtemur.
 
-[Curated heading level=3 type=propositions: PROPOSITIO XXII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXII.]
 
-### PROPOSITIO XXII.
+## PROPOSITIO XXII.
 
-[Curated heading level=2 type=figures: Fig. 40]
+[Curated heading level=5 type=figures: Fig. 40]
 
 [Margin]
 Fig.40.
@@ -28,9 +28,9 @@ Deinde acceptâ pro centro extremitate alrerâ L, interuallo tertiæ L O deſcri
 
 Demonſtratio patet ex conſtructione.
 
-[Curated heading level=3 type=propositions: PROPOSITIO XXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXIII.]
 
-### PROPOSITIO XXIII.
+## PROPOSITIO XXIII.
 
 [Margin]
 Fig 40.

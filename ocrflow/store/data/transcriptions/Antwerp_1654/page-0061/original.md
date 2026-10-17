@@ -7,9 +7,9 @@ Erit angulus L B O par dato A.
 
 Nam per conſtr. triangula ſibi mutuo ſunt æquilatera. Ergo per 8. anguli B & A æquales.
 
-#### Scholium.
+### Scholium.
 
-[Curated heading level=2 type=figures: Fig. 41]
+[Curated heading level=5 type=figures: Fig. 41]
 
 {dropcap:I|lines=2|style=plain}N gratiam tyronum viſum eſt hic nonnulla ad praxim angulorum neceſſaria proponere.
 
@@ -19,7 +19,7 @@ Fig.41.
 
 Anguli menſura eſt circuli peripheria, quæ ex A vertice anguli tanquam centro deſcribitur, vt patebit ex prop.vltima l.6.
 
-[Curated heading level=2 type=figures: Fig. 42]
+[Curated heading level=5 type=figures: Fig. 42]
 
 Itaque quot gradus continebit arcus B C inter anguli B A C crura interceptus, tot graduum dicetur eſſe angulus B A C. Et quoniam rectum angulum B A F metitur quadrans peripheriæ B F, gradus 90.continens, dicetur rectus angulus eſſe graduum 90. Similiter quia duos rectos menſurat dimidia circumferentia in 180 gradus ſecta, & quatuor rectos circumferentia tota ſecta in gradus 360, dicentur duo recti efficere gradus 180, & quatuor recti gradus 360. His prænotatis praxes angulorum ſunt.
 
@@ -27,7 +27,7 @@ Itaque quot gradus continebit arcus B C inter anguli B A C crura interceptus, to
 Fig.42.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
+[Curated heading level=5 type=scholium_points: 1.]
 
 1. Ad datum in recta punctum B angulum ſtatuere parem dato A. Ex A dati anguli vertice tanquam centro inter latera arcum deſcribe C F.
 

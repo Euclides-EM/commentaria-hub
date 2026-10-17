@@ -3,7 +3,7 @@
 
 metrum FN, ita reciprocè altitudo FH ad altitudinem RB : & è conuerſo.
 
-[Curated heading level=4 type=numbered_item: 7.]
+[Curated heading level=5 type=numbered_corollaries: 7.]
 
 7. Denique ex eodem 1. corol. habetur cylindricæ ſuperficiei dimenſio, ſi nimirum altitudo ducatur in baſeos peripheriam, vt ſi altitudo ſit pedum 20, peripheria baſis pedum 6; multiplica 20 per 6, proueniunt 120 pedes quadrati pro cylindrica ſuperficie.
 

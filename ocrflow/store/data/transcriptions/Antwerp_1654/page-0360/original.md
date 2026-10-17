@@ -19,7 +19,7 @@ Cæterum & quatuor præcedentia theoremata, & reliqua omnia quæ ſequuntur, omn
 
 ## Lemma ad ſequent.
 
-[Curated heading level=2 type=figures: Fig. 19]
+[Curated heading level=5 type=figures: Fig. 19]
 
 {dropcap:S|lines=2|style=plain}I ſphæram tangat planum (QN in O,) recta (AO) ex centro ad contactum ducta eſt plano tangenti perpendicularis.
 

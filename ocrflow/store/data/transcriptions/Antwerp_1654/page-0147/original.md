@@ -11,7 +11,7 @@ per G, H, I, tangetq́ue latera f omnia quadrati, quia anguli ad D, G, H, I ſun
 
 ## PROPOSITIO X.
 
-[Curated heading level=2 type=figures: Fig. 7]
+[Curated heading level=5 type=figures: Fig. 7]
 
 [Margin]
 Fig.7.

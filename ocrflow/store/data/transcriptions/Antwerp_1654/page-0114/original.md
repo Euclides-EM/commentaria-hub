@@ -5,7 +5,7 @@ Erunt igitur tam A C, quam A E æquales perpendiculari A D, quod eſt abſurdum 
 
 ### Corollarium.
 
-[Curated heading level=2 type=figures: Fig. 17]
+[Curated heading level=5 type=figures: Fig. 17]
 
 {dropcap:C|lines=2|style=plain}Irculi qui habent centra in vna recta, eamque ſecant in eodem puncto B. ſe mutuo in puncto illo B, contingunt.
 

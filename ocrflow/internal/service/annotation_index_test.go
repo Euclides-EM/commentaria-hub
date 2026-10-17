@@ -144,7 +144,7 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	}))
 
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
-	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
 
 	var logs bytes.Buffer
 	originalLogOutput := log.Writer()
@@ -188,7 +188,7 @@ func TestCreateAnnotationInfersPagesFromDatasetImages(t *testing.T) {
 	}
 
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
-	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
 
 	created, err := annotationSvc.Create("ds_infer_pages", &annotation.Annotation{
 		Meta: common.Meta{Name: "Infer pages"},
@@ -242,7 +242,7 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	}, filepath.Join(annotationAltoDir, "page-0001.xml")))
 
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
-	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
 
 	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil, false)
 	require.NoError(t, err)

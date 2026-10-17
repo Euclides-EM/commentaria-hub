@@ -5,7 +5,7 @@
 
 ## PROPOSITIO XXII.
 
-[Curated heading level=2 type=figures: Fig. 35]
+[Curated heading level=5 type=figures: Fig. 35]
 
 [Margin]
 Fig. 35.
@@ -31,7 +31,7 @@ c Per eand.
 
 ## PROPOSITIO XXV.
 
-[Curated heading level=2 type=figures: Fig. 36]
+[Curated heading level=5 type=figures: Fig. 36]
 
 {dropcap:D|lines=2|style=plain}Atum arcum ( A B C ) perficere.
 

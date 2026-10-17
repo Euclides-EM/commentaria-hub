@@ -5,9 +5,7 @@
 
 ## PROPOSITIO PRIMA.
 
-[Curated heading level=1 type=figures: Liber IV]
-
-[Curated heading level=2 type=figures: Fig. 1]
+[Curated heading level=5 type=figures: Fig. 1]
 
 {dropcap:C|lines=2|style=plain}Irculo (B D) rectam datam (A) diametro non maiorem, inſcribere.
 
@@ -21,7 +19,7 @@ Accipe in peripheria quoduis punctum B. Centro B interuallo datæ A deſcribe ar
 
 ## PROPOSITIO II.
 
-[Curated heading level=2 type=figures: Fig. 2]
+[Curated heading level=5 type=figures: Fig. 2]
 
 {dropcap:C|lines=2|style=plain}Irculo triangulum inſcribere dato (X) æquiangulum.
 
@@ -44,7 +42,7 @@ f Per corol. 9.p.32.l.1.
 
 ## PROPOSITIO III.
 
-[Curated heading level=2 type=figures: Fig. 3]
+[Curated heading level=5 type=figures: Fig. 3]
 
 {dropcap:C|lines=2|style=plain}Irculo circumſcribere triangulum æquiangulum dato H.
 

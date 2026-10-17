@@ -21,7 +21,7 @@ Viam, quá in theoremate nobilißimo demonſtrando hactenus vſi ſumus, Archime
 
 {dropcap:E|lines=2|style=plain}Xpedita iam erit dimenſio ſuperficiei ſphæricæ, principis inter omnes curuas. Duplex eſt modus.
 
-[Curated heading level=4 type=numbered_item: 1.]
+[Curated heading level=5 type=scholium_points: 1.]
 
 1. Menſuretur circulus ſphæræ maximus (vt traditur in ſcholio poſt P.6.huius.) Et multiplicetur per 4. Vt ſi maximus orbis terræ circulus inuentus ſit continere quadrata milliaria vnius horæ ſiue Belgica 5,940,000, hic numerus quadruplicatus exhibet quadrata milliaria Belgica, 23,760,000, quæ in ſuperficie orbis terræ continentur.
 

@@ -1,7 +1,7 @@
 <!-- Running title: Liber Quintus. Pars III. -->
 <!-- Page number: 173 -->
 
-[Curated heading level=2 type=figures: Fig. 34]
+[Curated heading level=5 type=figures: Fig. 34]
 
 inter ſe multiplicatæ aliquam effecerint rationem. Eſt definitio 5.l.6. Euclidis.
 

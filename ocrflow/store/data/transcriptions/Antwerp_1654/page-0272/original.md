@@ -5,7 +5,7 @@
 
 ## PROPOSITIO XXV.
 
-[Curated heading level=2 type=figures: Fig. 30]
+[Curated heading level=5 type=figures: Fig. 30]
 
 [Margin]
 Fig 30.

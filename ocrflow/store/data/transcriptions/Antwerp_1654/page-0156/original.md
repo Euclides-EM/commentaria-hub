@@ -28,7 +28,7 @@ Hinc ſequitur latus æquilateri trianguli eſſe ad diametrum, vt radix quadrat
 
 ## PROPOSITIO XVI.
 
-[Curated heading level=2 type=figures: Fig. 15]
+[Curated heading level=5 type=figures: Fig. 15]
 
 {dropcap:I|lines=2|style=plain}N circulo quindecagonum ordinatum deſcribere.
 

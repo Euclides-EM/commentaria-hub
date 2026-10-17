@@ -15,7 +15,7 @@ k Per 5.l.1.
 
 ## PROPOSITIO XI.
 
-[Curated heading level=2 type=figures: Fig. 8]
+[Curated heading level=5 type=figures: Fig. 8]
 
 {dropcap:C|lines=2|style=plain}Irculo pentagonum ordinatum inſcribere.
 

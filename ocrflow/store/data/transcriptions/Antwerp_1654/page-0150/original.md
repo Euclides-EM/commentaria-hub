@@ -3,7 +3,7 @@
 
 ### Problema.
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 {dropcap:S|lines=2|style=plain}Vper datâ rectâ (A B) pentagonum ordinatum ita conſtrues. Seca c A B, ſic vt rectangulum A B C ſit æquale quadrato A C. Ex A B vtrimque productâ aufer A D, B E æquales maiori ſegmento A C. Centris A & D, interuallo A B deſcribe arcus duos ſe ſecantes in F: Item centris B & E, eodem interuallo ſe ſecantes in G. Rurſum centris F & G, interuallo itidem A B, alios ſe ſecantes in I. Puncta A, F, I, G, B rectis lineis iuncta dabunt pentagonum ordinatum, (hoc eſt æquilaterum, & æquiangulum) ſuper datâ A B.
 

@@ -17,7 +17,7 @@ Patet ex duabus præcedentibus.
 
 ## PROPOSITIO XVI.
 
-[Curated heading level=2 type=figures: Fig. 33]
+[Curated heading level=5 type=figures: Fig. 33]
 
 [Margin]
 Fig.33.

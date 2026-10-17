@@ -12,11 +12,11 @@ e Per hyp.
 f Per 22.l.5.
 [/Margin]
 
-[Curated heading level=3 type=propositions: PROPOSITIO XXV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXV.]
 
 ### PROPOSITIO XXV.
 
-[Curated heading level=2 type=figures: Fig. 16]
+[Curated heading level=5 type=figures: Fig. 16]
 
 [Margin]
 Fig.16.

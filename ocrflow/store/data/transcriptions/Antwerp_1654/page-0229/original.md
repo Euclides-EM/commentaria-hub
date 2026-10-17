@@ -19,7 +19,7 @@ g Per conſtr.
 
 ### Problema.
 
-[Curated heading level=2 type=figures: Fig. 19]
+[Curated heading level=5 type=figures: Fig. 19]
 
 [Margin]
 Fig.19.

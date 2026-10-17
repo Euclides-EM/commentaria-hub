@@ -1,7 +1,7 @@
 <!-- Page number: 140 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=3 type=propositions: PROPOSITIO IX.]
+[Curated heading level=2 type=propositions: PROPOSITIO IX.]
 
 ### PROPOSITIO IX.
 
@@ -13,7 +13,7 @@ Fig. 7.
 
 Et ſi eadem Z ad A & B eandem rationem habeat, rurſum A & B æquales erunt.
 
-[Curated heading level=3 type=propositions: PROPOSITIO X.]
+[Curated heading level=2 type=propositions: PROPOSITIO X.]
 
 ### PROPOSITIO X.
 
@@ -25,11 +25,11 @@ Fig 8.
 
 Et ſi Z ad F maiorem rationem habeat, quàm eadem Z ad C, erit F minor quam C.
 
-[Curated heading level=3 type=propositions: PROPOSITIO XI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XI.]
 
 ### PROPOSITIO XI.
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 [Margin]
 Fig. 9.

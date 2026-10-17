@@ -11,11 +11,11 @@ c Per axio.1.
 d Per def. 25.
 [/Margin]
 
-[Curated heading level=3 type=propositions: PROPOSITIO II.]
+[Curated heading level=2 type=propositions: PROPOSITIO II.]
 
-### PROPOSITIO II.
+## PROPOSITIO II.
 
-[Curated heading level=2 type=figures: Fig. 24]
+[Curated heading level=5 type=figures: Fig. 24]
 
 {dropcap:A|lines=2|style=plain}D datum punctum (A) datæ rectæ (E F) æqualem ponere.
 
@@ -29,9 +29,9 @@ Accipe circino a interuallum E F, & trāſfer ex A in D, erit recta A D par dat�
 a Poſtul.3.
 [/Margin]
 
-[Curated heading level=3 type=propositions: PROPOSITIO III.]
+[Curated heading level=2 type=propositions: PROPOSITIO III.]
 
-### PROPOSITIO III.
+## PROPOSITIO III.
 
 {dropcap:D|lines=2|style=plain}Atis duabus rectis inæqualibus, de maiore (G H) minori (E F) parem auferre (G I.)
 
@@ -45,11 +45,11 @@ Accipe circino b interuallum minoris datæ E F, & transfer in maiorem ex G in I.
 b Poſtul.3.
 [/Margin]
 
-[Curated heading level=3 type=propositions: PROPOSITIO IV.]
+[Curated heading level=2 type=propositions: PROPOSITIO IV.]
 
-### PROPOSITIO IV.
+## PROPOSITIO IV.
 
-[Curated heading level=2 type=figures: Fig. 25]
+[Curated heading level=5 type=figures: Fig. 25]
 
 {dropcap:S|lines=2|style=plain}I duorum triangulorum (X, Z) latus vnum (B A) vni (F L) & alterum (C A) alteri (I L) ſit æquale; anguliq́; (A & L) ab illis lateribus facti, etiam ſint æquales; æquabuntur etiam & ba-
 

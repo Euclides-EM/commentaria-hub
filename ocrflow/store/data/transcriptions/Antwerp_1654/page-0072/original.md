@@ -3,11 +3,11 @@
 
 ſunt ſemirecti. Et Iſoſcelis ad baſim anguli ſemper ſunt acuti.
 
-[Curated heading level=5 type=numbered_item: 12.]
+[Curated heading level=5 type=numbered_corollaries: 12.]
 
 12. Trianguli æquilateri angulus facit duas tertias vnius recti. Facit enim tertiam partem duorum rectorum. Ergo duas tertias vnius.
 
-[Curated heading level=5 type=numbered_item: 13.]
+[Curated heading level=5 type=numbered_corollaries: 13.]
 
 13. Hinc anguli recti (B A C) facillima triſectio; ſi ſuper A C fiat triangulum æquilaterum Z. Nam cum F A C ſint duæ tertię vnius recti, erit B A F recti vna tertia.
 
@@ -15,7 +15,7 @@
 Fig.54.
 [/Margin]
 
-[Curated heading level=5 type=numbered_item: 14.]
+[Curated heading level=5 type=numbered_corollaries: 14.]
 
 14. Perpendicularis A F eſt breuiſſima omnium quæ ex puncto (A) ad rectam aliquam duci poſſunt. Quoniam enim angulus F rectus eſt, erit per coroll. 5 A O F acutus. Ergo f A F minor quam A O quęlibet.
 
@@ -24,11 +24,11 @@ Fig.55.
 f Per 19.l.1.
 [/Margin]
 
-[Curated heading level=5 type=numbered_item: 15.]
+[Curated heading level=5 type=numbered_corollaries: 15.]
 
 15. Ex vno puncto ad vnam rectam tãtum vna perpendicularis cadit. Patet ex coroll. præced.
 
-#### Scholium.
+### Scholium.
 
 {dropcap:H|lines=2|style=plain}Vius pulcherrimi, fæcundiſſimique theorematis, cuius per Matheſim vniuerſam vſus prope immenſus, inuentor eſt Pythagoras teſte Eudemo veteri geometrâ. Frequentiſſimè eiuſdem meminit Ariſtoteles, qui illud etiam exemplum ſtatuit perfectiſſimæ demonſtrationis. Sed quemadmodum ex hac propoſitione iam didicimus, quot rectis angulis, eius anguli æquiualeant, ita eiuſdem beneficio cuiuslibet figuræ rectilineæ ſiue interni, ſiue externi
 

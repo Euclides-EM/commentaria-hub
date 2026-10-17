@@ -11,9 +11,9 @@ b Per 4. l.1.
 c Per 28.l.1.
 [/Margin]
 
-[Curated heading level=3 type=propositions: PROPOSITIO XXXIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIV.]
 
-### PROPOSITIO XXXIV.
+## PROPOSITIO XXXIV.
 
 {dropcap:P|lines=2|style=plain}Arallelogrammi oppoſita latera & anguli æquantur, ipſumq́; à diametro biſecatur.
 

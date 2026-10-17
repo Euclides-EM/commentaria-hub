@@ -19,7 +19,7 @@ Quoniam enim A eſt ad B, vt C ad F, etiam I dupla ipſius A erit ad B, vt Q dup
 
 ### Lemma 2.
 
-[Curated heading level=2 type=figures: Fig. 22]
+[Curated heading level=5 type=figures: Fig. 22]
 
 {dropcap:S|lines=2|style=plain}I quantitates A, B habeant communem menſuram C; erit A toties ſumpta, quoties eſt C in B, æqualis quantitati B toties ſumptæ, quoties C eſt in A.
 

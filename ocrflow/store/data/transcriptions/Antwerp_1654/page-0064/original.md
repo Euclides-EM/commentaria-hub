@@ -3,17 +3,17 @@
 
 Ergo per primam partem omnia reliqua ſunt æqualia.
 
-[Curated heading level=3 type=propositions: PROPOSITIO XXVII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXVII.]
 
-### PROPOSITIO XXVII.
+## PROPOSITIO XXVII.
 
-[Curated heading level=2 type=figures: Fig. 45]
+[Curated heading level=5 type=figures: Fig. 45]
 
 [Margin]
 Fig.45.
 [/Margin]
 
-[Curated heading level=2 type=figures: Fig. 46]
+[Curated heading level=5 type=figures: Fig. 46]
 
 {dropcap:S|lines=2|style=plain}I duas rectas (A B, C F) parallelas ſecuerit recta G O: erunt 1. æquales alterni anguli (R L O, Q O L, item B L O, C O L) 2. externus (G L B) æqualis interno ad eandem partem (L O F) (item G L R ipſi L O C.) 3. Duo ad eandem partẽ interni ſimul (A L O, C O L) æquales duobus rectis: item duo B L O, F O L duobus rectis æquales.
 

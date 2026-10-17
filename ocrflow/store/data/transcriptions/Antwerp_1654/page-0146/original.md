@@ -5,7 +5,7 @@
 
 ## PROPOSITIO VIII. & IX.
 
-[Curated heading level=2 type=figures: Fig. 6]
+[Curated heading level=5 type=figures: Fig. 6]
 
 [Margin]
 Fig.6.

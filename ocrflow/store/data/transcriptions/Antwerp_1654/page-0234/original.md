@@ -9,7 +9,7 @@ pendicularis (F C) eam eſſe mediam proportionalem inter diametri ſegmenta (A 
 
 ### Modus Platonis.
 
-[Curated heading level=2 type=figures: Fig. 25]
+[Curated heading level=5 type=figures: Fig. 25]
 
 {dropcap:O|lines=2|style=plain}Porteat inter datas A B, B C, duas medias inuenire.
 
@@ -17,7 +17,7 @@ pendicularis (F C) eam eſſe mediam proportionalem inter diametri ſegmenta (A 
 Fig.25.
 [/Margin]
 
-[Curated heading level=2 type=figures: Fig. 26]
+[Curated heading level=5 type=figures: Fig. 26]
 
 Ponantur A B, B C, ad rectum angulum & producantur infinitè verſus X & Z. Accipiantur deinde duæ normæ (ita Claudius Richardus noſter; Plato enim vnicâ normâ vtitur, ſed a cuius lateri D E inſerta ſit regula mobilis per D E) & vnius normæ angulus D applicetur rectæ B X, eâ lege, vt & latus vnum tranſeat per A, & ad punctum E, in quo latus alterum ſecabit rectam B Z, applicata norma
 

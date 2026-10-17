@@ -14,7 +14,7 @@ b Per 16.l.3.
 
 ## PROPOSITIO V.
 
-[Curated heading level=2 type=figures: Fig. 4]
+[Curated heading level=5 type=figures: Fig. 4]
 
 {dropcap:T|lines=2|style=plain}Riangulo circulum circumſcribere: ſiue per tria data puncta ( B, C, D) non ad vnam rectam poſita, circulum deſcribere.
 

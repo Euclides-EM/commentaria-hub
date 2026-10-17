@@ -1,7 +1,7 @@
 <!-- Page number: 142 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=figures: Fig. 11]
+[Curated heading level=5 type=figures: Fig. 11]
 
 [Margin]
 Fig.11.
@@ -11,7 +11,7 @@ Et vniuerſim partes ſimiles (C,F) ſunt inter ſe vt tota (A,B.)
 
 Verè inſtar axiomatis haberi poteſt, ſi rectè intelligatur, quid ſint partes ſimiles. Vide defin.7.
 
-[Curated heading level=3 type=propositions: PROPOSITIO XVI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVI.]
 
 ### PROPOSITIO XVI.
 

@@ -152,7 +152,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureProperty := service.NewFeatureProperty()
 	featureSvc := service.NewFeature(featureStore, featureRevisionStore, featureProperty)
 	featureResultSvc := service.NewResult(featureResultStore, annotationStore, featureSvc, featureProperty)
-	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, featureResultSvc, fileSystemManager, annotationStore)
+	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, featureResultSvc, fileSystemManager, annotationStore, env.DisableAnnotationCache)
 	annotationGroupSvc := service.NewAnnotationGroupService(annotationSvc, annotationGroupStore)
 	editionTranscriptionSvc := service.NewEditionTranscription(editionPreferredTranscriptionStore, editionSvc, datasetSvc, annotationSvc)
 	metadataDetailsSvc := service.NewMetadataDetails()

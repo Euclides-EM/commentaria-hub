@@ -10,7 +10,7 @@ c Per 16. l.3.
 
 ### Scholium.
 
-[Curated heading level=2 type=figures: Fig. 27]
+[Curated heading level=5 type=figures: Fig. 27]
 
 [Margin]
 Fig. 27.
@@ -26,7 +26,7 @@ Nam iunctâ A B, angulus A B O in ſemicirculo rectus eſt per 31. ergo per 16. 
 
 ## PROPOSITIO XVIII.
 
-[Curated heading level=2 type=figures: Fig. 28]
+[Curated heading level=5 type=figures: Fig. 28]
 
 [Margin]
 Fig. 28.

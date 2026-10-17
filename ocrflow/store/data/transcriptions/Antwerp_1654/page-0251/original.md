@@ -13,7 +13,7 @@ buſcunque vna omnibus æqualis & ſimilis, eâdem prorſus methodo, quâ probl.
 
 ## PROPOSITIO XXXIII.
 
-[Curated heading level=2 type=figures: Fig. 48]
+[Curated heading level=5 type=figures: Fig. 48]
 
 {dropcap:I|lines=2|style=plain}N æqualibus circulis; vel eodem; anguli, ſiue ad centra (vt A B C, F O D) ſiue ad peripheriam (vt A R C, F S D) eam inter ſe rationem habent, quam arcus (A K C, F G D) quibus inſiſtunt. Idem intellige de ſectoribus.
 

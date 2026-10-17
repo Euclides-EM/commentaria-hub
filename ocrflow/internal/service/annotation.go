@@ -46,6 +46,7 @@ type Annotation struct {
 	activeRuleRuns    sync.Map
 	derivedCache      *cache.Cache
 	derivedCacheGroup singleflight.Group
+	disableCache      bool
 }
 
 const (
@@ -56,7 +57,7 @@ const (
 
 var ErrAnnotationRuleRunInProgress = errors.New("annotation rule application already in progress")
 
-func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, featureResultsSvc *Result, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
+func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, featureResultsSvc *Result, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL, disableCache bool) *Annotation {
 	return &Annotation{
 		datasetSvc:        datasetSvc,
 		datasetImgSvc:     datasetImgSvc,
@@ -65,6 +66,7 @@ func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleA
 		fileSysMgt:        fileSysMgt,
 		annotationStore:   annotationStore,
 		derivedCache:      cache.NewCache(cache.WithLimits(annotationDerivedCacheEntries, annotationDerivedCacheBytes)),
+		disableCache:      disableCache,
 	}
 }
 
@@ -124,6 +126,9 @@ func (a *Annotation) populateTranscriptionFallbacks(annotations []*annotation.An
 }
 
 func (a *Annotation) transcriptionFallback(ann *annotation.Annotation) (*annotation.TranscriptionFallback, error) {
+	if a.disableCache {
+		return a.transcriptionFallbackUncached(ann)
+	}
 	key := "fallback:" + annotationCacheVersion(ann)
 	if value, ok := a.derivedCache.Get(key); ok {
 		return value.(transcriptionFallbackCacheValue).fallback, nil
@@ -517,6 +522,9 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
+	if a.disableCache {
+		return a.getAvailableCategoriesUncached(ann)
+	}
 	key := "categories:" + annotationCacheVersion(ann)
 	if value, ok := a.derivedCache.Get(key); ok {
 		return slices.Clone(value.([]string)), nil
@@ -622,6 +630,9 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexT
 	ann, err := a.getWithoutFallback(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
+	}
+	if a.disableCache {
+		return a.getAnnotationIndexUncached(datasetID, id, ann, categories, indexTypes, normalize)
 	}
 	keyData, _ := json.Marshal(struct {
 		Version    string

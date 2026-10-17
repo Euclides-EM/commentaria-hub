@@ -7,7 +7,7 @@ Hi duo modi quamuis ſint ingenioſi & faciles; tamen, quia debita normæ, & reg
 
 ### Modus Carteſii.
 
-[Curated heading level=2 type=figures: Fig. 28]
+[Curated heading level=5 type=figures: Fig. 28]
 
 [Margin]
 Fig.28.

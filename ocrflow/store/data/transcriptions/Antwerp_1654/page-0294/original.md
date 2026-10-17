@@ -11,7 +11,7 @@ c Per defin. 6.l.11.
 
 ## PROPOSITIO V.
 
-[Curated heading level=2 type=figures: Fig. 11]
+[Curated heading level=5 type=figures: Fig. 11]
 
 [Margin]
 Fig.11.

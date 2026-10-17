@@ -3,11 +3,11 @@
 
 tionis maioris excedente multiplam conſequentis S, multipla antecedentis O non excedat multiplam conſequentis Q: quod eſt abſurdum, cum euertat hypotheſim.
 
-[Curated heading level=3 type=propositions: Theorema 4.]
+[Curated heading level=2 type=propositions: Theorema 4.]
 
 ### Theorema 4.
 
-[Curated heading level=2 type=figures: Fig. 25]
+[Curated heading level=5 type=figures: Fig. 25]
 
 [Margin]
 Fig.25.

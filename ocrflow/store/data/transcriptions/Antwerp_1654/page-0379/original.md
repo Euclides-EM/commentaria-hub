@@ -12,7 +12,7 @@ s Per corol. 1 p.14. huius.
 
 ## PROPOSITIO XL.
 
-[Curated heading level=2 type=figures: Fig. 28]
+[Curated heading level=5 type=figures: Fig. 28]
 
 {dropcap:S|lines=2|style=plain}Phæræ ſuperficies ad æquilateri coni ſibi circumſcripti totam ſuperficiem, eam proportionem habet, quam 4 ad 9.
 

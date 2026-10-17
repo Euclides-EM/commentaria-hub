@@ -9,7 +9,7 @@
 
 ## PROPOSITIO XIII.
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 {dropcap:C|lines=3|style=plain}Irculus, cuius radius (O L) eſt medius proportionalis inter coni recti latus (B C) & baſis radium (A C,) æqualis eſt ſuperficiei conicæ.
 

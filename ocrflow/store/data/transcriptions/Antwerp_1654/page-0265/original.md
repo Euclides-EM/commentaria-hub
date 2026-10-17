@@ -11,7 +11,7 @@ a Per 1.l.11.
 
 ## PROPOSITIO XVII.
 
-[Curated heading level=2 type=figures: Fig. 24]
+[Curated heading level=5 type=figures: Fig. 24]
 
 {dropcap:P|lines=2|style=plain}Arallela plana rectas lineas (B D & H G) proportionaliter ſecant.
 
@@ -32,7 +32,7 @@ d Per 2. l.6.
 
 ## PROPOSITIO XVIII.
 
-[Curated heading level=2 type=figures: Fig. 25]
+[Curated heading level=5 type=figures: Fig. 25]
 
 {dropcap:S|lines=2|style=plain}I recta linea (F E) ſit ad planum (A B) recta, omnia, quæ per ipſam ducuntur plana, ſunt eidem plano (A B) recta.
 

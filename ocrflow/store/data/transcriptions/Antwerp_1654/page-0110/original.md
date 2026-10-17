@@ -7,7 +7,7 @@ forent duæ C Q, C I ad eandem partem inter ſe æquales. Quod repugnat parti 3.
 
 ## PROPOSITIO VIII.
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 {dropcap:S|lines=2|style=plain}I à puncto extra circulum accepto (A) ad circulum ducantur plures rectæ (A B, A C, A F) (A O, A Q, A R)
 

@@ -9,7 +9,7 @@ cumſcripti eſſe æqualia. Illud igitur æquilaterum erit:eſt vero & æquiang
 
 ## PROPOSITIO XIII. & XIV.
 
-[Curated heading level=2 type=figures: Fig. 11]
+[Curated heading level=5 type=figures: Fig. 11]
 
 {dropcap:P|lines=2|style=plain}*Entagono ordinato circulum inſcribere,& circumſcribere.*
 
