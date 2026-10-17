@@ -2,7 +2,7 @@ name: backup-perform
 
 on:
   schedule:
-    - cron: "30 23 * * 6" # Saturday at 23:30 Paris time
+    - cron: "30 23 * * 5" # Friday at 23:30 Paris time
       timezone: "Europe/Paris"
   workflow_dispatch:
 
