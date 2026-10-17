@@ -45,8 +45,7 @@ Running OCR, 121/388
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7&annotationId=ann_fsoleq
 
-Running OCR, 35/221
-
+Running OCR, 60/221
 
 # Manual Curation
 
