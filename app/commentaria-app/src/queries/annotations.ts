@@ -89,6 +89,11 @@ export function useAnnotationIndexQuery(
         types: indexTypes.join(','),
         normalize,
       }),
+    placeholderData: (previousData) =>
+      previousData?.dataset_id === datasetId &&
+      previousData?.annotation_id === annotationId
+        ? previousData
+        : undefined,
     enabled: !!datasetId && !!annotationId,
   })
 }
