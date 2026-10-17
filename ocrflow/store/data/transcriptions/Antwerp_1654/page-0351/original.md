@@ -3,7 +3,7 @@
 
 los circulos diametrorum CG, DF interceptæ. Ergo circulus radio I deſcriptus, æquatur omnibus ſimul conicis ſuperficiebus ſphæræ inſcriptis. Quod erat dem.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XIX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIX.]
 
 ## PROPOSITIO XIX.
 
@@ -17,11 +17,11 @@ Dico omnibus ſuperficiebus conicis ſegmento ſphærico DAF inſcriptis æquale
 
 Demonſtratio plane eadem, quæ præcedentis: ſed pro P.16, citetur P. 17.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XX.]
 
 ## PROPOSITIO XX.
 
-[Curated heading level=2 type=figures: Fig. 15]
+[Curated heading level=5 type=figures: Fig. 15]
 
 [Margin]
 Fig.15.

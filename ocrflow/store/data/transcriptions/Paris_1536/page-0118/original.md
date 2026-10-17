@@ -8,14 +8,14 @@ quadratis, ſunt per primam communem ſententiam æqualia: quorum id quod ex f/a
 Quòd idẽ circũſcriptũ pentagonum ſit æquiangulũ.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Problema 13, Propoſitio 13.]
+[Curated heading level=3 type=propositions: Problema 13, Propoſitio 13.]
 
-[Curated heading level=2 type=problems: Problema 13, Propoſitio 13.]
+[Curated heading level=3 type=problems: Problema 13, Propoſitio 13.]
 
-## Πρόβλημα ιγ, Πρόθεσις ιγ.
+### Πρόβλημα ιγ, Πρόθεσις ιγ.
 Εἰς τὸ δοθὲν πεντάγωνον, ὅ ἐστιν ἰσόπλευρόν τε καὶ ἰσογώνιον κύκλον, ἐγγράψαι.
 
-## Problema 13, Propoſitio 13.
+### Problema 13, Propoſitio 13.
 
 IN dato pẽtagono æquilatero & æquiangulo, circulũ deſcribere.
 

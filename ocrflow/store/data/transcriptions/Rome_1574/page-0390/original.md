@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. V -->
 <!-- Page number: 153 -->
 
-[Curated heading level=2 type=definitions: IIII.]
+[Curated heading level=3 type=definitions: IIII.]
 
 ### IIII.
 

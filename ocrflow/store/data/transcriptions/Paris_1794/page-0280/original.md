@@ -5,13 +5,11 @@
 F. 253.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2°. Cette même surface est plus petite que celle de tout prisme circonscrit. Car si cela n’étoit pas, parmi les prismes circonscrits il y en auroit un dont la surface seroit la plus petite de toutes. Soit ABCD la base de ce prisme, et soit toujours AF la hauteur commune au prisme et au cylindre ; la surface qu’on suppose un *minimum* sera égale à AF multipliée par le contour ABCD. Mais en menant à volonté dans l’angle A la tangente KL, il est clair que KL < AL + AK, et qu’ainsi le contour BCDKL est plus petit que ABCD. Donc, à hauteurs égales, la surface du prisme qui auroit pour base BCDKL seroit plus petite que celle du prisme dont la base est ABCD ; donc cette derniere n’est pas la plus petite de toutes. Donc 2°. la surface convexe du cylindre est plus petite que celle de tout prisme circonscrit.
 
-[Curated heading level=2 type=propositions: PROPOSITION IV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION IV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IV.]
+[Curated heading level=2 type=theorems: PROPOSITION IV.]
 
 ## PROPOSITION IV.
 

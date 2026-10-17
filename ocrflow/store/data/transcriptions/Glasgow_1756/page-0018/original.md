@@ -3,25 +3,25 @@
 
 [Diagram: two acute angles]
 
-[Curated heading level=2 type=definitions: DEF. XII.]
+[Curated heading level=3 type=definitions: XII.]
 
 ### XII.
 
 Acutus autem, qui minor eſt recto.
 
-[Curated heading level=2 type=definitions: DEF. XIII.]
+[Curated heading level=3 type=definitions: XIII.]
 
 ### XIII.
 
 “ Terminus eſt, quod alicujus eſt extremum.”
 
-[Curated heading level=2 type=definitions: DEF. XIV.]
+[Curated heading level=3 type=definitions: XIV.]
 
 ### XIV.
 
 Figura eſt, quae aliquo, vel aliquibus terminis continetur.
 
-[Curated heading level=2 type=definitions: DEF. XV.]
+[Curated heading level=3 type=definitions: XV.]
 
 ### XV.
 
@@ -29,19 +29,19 @@ Circulus eſt figura plana, una linea contenta, quae circumferentia appellatur; 
 
 [Diagram: circle with horizontal diameter and two radii]
 
-[Curated heading level=2 type=definitions: DEF. XVI.]
+[Curated heading level=3 type=definitions: XVI.]
 
 ### XVI.
 
 Hoc autem punctum, centrum circuli nuncupatur.
 
-[Curated heading level=2 type=definitions: DEF. XVII.]
+[Curated heading level=3 type=definitions: XVII.]
 
 ### XVII.
 
 Diameter circuli eſt recta quaedam linea per centrum ducta, et ex utraque parte circumferentia circuli terminata.
 
-[Curated heading level=2 type=definitions: DEF. XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 ### XVIII.
 

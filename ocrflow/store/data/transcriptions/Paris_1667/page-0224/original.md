@@ -3,7 +3,7 @@
 
 me point ſont toûjours égales, par le 2ᵉ Probleme.
 
-### QUATRIEME COROLLAIRE.
+#### QUATRIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LVI.]
 
@@ -17,7 +17,7 @@ LA ligne menée du ſommet de l'angle circonſcript au centre le diviſe toûjou
 
 Car ſi on tire deux rayons au point de l'attouchement, on ne pourra conſiderer ces deux demyangles qu'on ne voye ſans peine que les coſtez de l'un ſont égaux aux coſtez de l'autre, & que les rayons du même cercle, & par conſequent égaux, en ſont les ſinus. Donc ils ſont égaux.
 
-### CINQUIEME COROLLAIRE.
+#### CINQUIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LVII.]
 

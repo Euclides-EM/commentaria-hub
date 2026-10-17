@@ -2,13 +2,13 @@
 
 *ex A G G B æquè excedant rectangulum bis ſub A G G B comprehenſum, veluti quadrata ex A D D B, excedat rectanguli bis ſub A D D B comprehenſum, nempe quadrato reliqui ſegmenti A B, per ſeptimam ſecundi. Sequetur viciſſim, arithmetica progreſſione, quadrata eodem excedere quadrata, quo rectangula excedunt rectangula, per lemma præfatum, ſed quadrata ſeſe excedunt certo, cùm ſint certa, ex certis potentia tantùm commenſurabilibus ex hypotheſi. Rectangula igitur quæ ſunt media (per 21 huius) ſeſe excederent certo, contra 26 huius, quod eſſet abſurdũ. Vnica igitur ſolùm B G (potentia tantùm commenſurabilis toti A G) certa, ipſi A B congruet. Apotome itaque vna tantùm congruit, &c.*
 
-### MONITVM.
+#### MONITVM.
 
 *Hanc demonſtrans Theon, conatur æquos exceſſus quadratorum & rectangulorum viciſſim poſſe concludi, per 16 quinti, quæ quatuor magnitudines proportione geometrica coniunctas, non autem arithmetica ſupponit, quæ quo ſibi interſint, cuique diſcernendum relinquimus. In illud autem erroris incidit, penuria omiſſi proximi lemmatis, quod huic ac ſequentium maximè conferet negotio.*
 
-[Curated heading level=2 type=propositions: Propoſitio octuageſima.]
+[Curated heading level=3 type=propositions: Propoſitio octuageſima.]
 
-## Propoſitio octuageſima.
+### Propoſitio octuageſima.
 
 Mediæ apotome primæ vna tantum congruit recta linea Media, potẽtia tantum commenſurabilis exiſtens toti, & cum tota certum comprehẽdens.
 
@@ -16,9 +16,9 @@ Mediæ apotome primæ vna tantum congruit recta linea Media, potẽtia tantum co
 
 [Diagram: horizontal line labelled A, B, G, and D]
 
-[Curated heading level=2 type=propositions: Propoſitio octuageſimaprima.]
+[Curated heading level=3 type=propositions: Propoſitio octuageſimaprima.]
 
-## Propoſitio octuageſimaprima.
+### Propoſitio octuageſimaprima.
 
 Mediæ apotome ſecundæ, vna tantùm congruit recta linea Media, potentia tantũ toti commenſurabilis exiſtens, & cum tota medium comprehendens.
 

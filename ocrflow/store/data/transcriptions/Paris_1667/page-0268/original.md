@@ -32,9 +32,9 @@ Cette voie eſt pour trouver que les parties d'une ligne ſont reciproques aux p
 LVI.
 [/Margin]
 
-[Curated heading level=2 type=propositions: SEPTIEME THEOREME.]
+[Curated heading level=3 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: SEPTIEME THEOREME.]
+[Curated heading level=3 type=theorems: SEPTIEME THEOREME.]
 
 ### SEPTIEME THEOREME.
 

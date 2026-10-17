@@ -8,19 +8,19 @@ Tertia pars.
 
 quòd & g/h/d. Bini itaq; anguli e/g/b/& g/h/d, eidem a/g/h/sunt æquales: quapropter & æquales adinuicē, per primam communē sententiam. ⁋ Dico tandem, quòd & interiores & ad easdem partes sumptos angulos, vtpote, a/g/h/& g/h/c, binis rectis æquales efficit. Ostensum est enim, quòd angulus a/g/h, alterno g/h/d/est æqualis. cómunis vtriq; æqualium addatur angulus g/h/c. Bini igitur anguli a/g/h/& g/h/c, duobus angulis g/h/c/& g/h/d, per secundam communem sentētiam adæquantur. Eisdem quoq; angulis g/h/c/& g/h/d, bini recti sunt æquales: per decimamtertiam propositionem. Et a/g/h/igitur atq; g/h/c/anguli, duobus rectis, per primam cómunem sententiā coæquantur. In parallelas igitur rectas lineas, recta incidens linea: & alternatim angulos: & quæ sequuntur reliqua, vt in theoremate. Quod oportuit demonstrasse.
 
-### Corollarium.
+#### Corollarium.
 
 ⁋ Quæ igitur in parallelas rectas lineas incidit, & in alteram perpendicularis existit: cum reliqua itidem cadit ad perpendiculum.
 
-[Curated heading level=2 type=propositions: Theorema 21, Propositio 30.]
+[Curated heading level=3 type=propositions: Theorema 21, Propositio 30.]
 
-[Curated heading level=2 type=theorems: Theorema 21, Propositio 30.]
+[Curated heading level=3 type=theorems: Theorema 21, Propositio 30.]
 
-## Θεώρημα κα, Πρόθεσις λ.
+### Θεώρημα κα, Πρόθεσις λ.
 
 Αἱ τῇ αὐτῇ εὐθείᾳ παράλληλοι, καὶ ἀλλήλαις εἰσὶ παράλληλοι.
 
-## Theorema 21, Propositio 30.
+### Theorema 21, Propositio 30.
 
 QVæ eidem rectæ lineæ paralleli: & adinuicem sunt paralleli.
 
@@ -30,19 +30,19 @@ ORONTIVS. ⁋ Sit vtraq; a/b/& c/d/recta, eidem e/f/parallela. Dico a/b/ipsi c/d
 
 eiusdē vigesimænonæ propositionis. Duo itaq; anguli a/g/h/& h/k/d, hoc est, a/g/k/& g/k/d, eidē angulo g/h/f/ sunt æquales: & æquales igitur adinuicem, per primam communem sententiam. Sunt autem a/g/k/& g/k/d/anguli alterni, à recta g/k/in a/b/& c/d/rectas incidēte causati. Parallela est igitur a/b/ipsi c/d, per vigesimamseptimam propositionē. Quæ eidem igitur rectæ lineæ parallelæ: & adinuicem sunt parallelæ. Quod oportebat ostendere.
 
-### Corollarium.
+#### Corollarium.
 
 ⁋ Quæ vni igitur parallelarum est parallela: alteri quoque parallela est.
 
-[Curated heading level=2 type=propositions: Problema 10, Propositio 31.]
+[Curated heading level=3 type=propositions: Problema 10, Propositio 31.]
 
-[Curated heading level=2 type=problems: Problema 10, Propositio 31.]
+[Curated heading level=3 type=problems: Problema 10, Propositio 31.]
 
-## Πρόβλημα ι, Πρόθεσις λα.
+### Πρόβλημα ι, Πρόθεσις λα.
 
 Απὸ τοῦ δοθέντος σημείου, τῇ δοθείσῃ εὐθείᾳ παράλληλον εὐθεῖαν γραμμὴν ἀγαγεῖν.
 
-## Problema 10, Propositio 31.
+### Problema 10, Propositio 31.
 
 PEr datum punctum, datæ rectæ lineæ parallelam rectam lineam ducere.
 

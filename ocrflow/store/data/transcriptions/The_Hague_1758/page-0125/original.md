@@ -5,7 +5,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XII. THEOREME XI.]
 
-[Curated heading level=2 type=theorems: THEOREME XI. PROPOSITION XII.]
+[Curated heading level=2 type=theorems: PROPOSITION XII. THEOREME XI.]
 
 ## PROPOSITION XII. *THEOREME XI.*
 

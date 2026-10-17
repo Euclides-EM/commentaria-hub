@@ -2,31 +2,29 @@
 
 <!-- Page number: 202 -->
 
-[Curated heading level=2 type=definitions: Beschreibung IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 IV. Eine geradstrichichte Gestalt wird umb einen Kreyß beschrieben genennet/ wenn sie mit ihren Seiten den Umbfang des Kreyses berühret.
 
-[Curated heading level=2 type=definitions: Beschreibung V.]
+[Curated heading level=3 type=definitions: V.]
 
 V. Auff gleiche weise wird ein einer geradstrichichten Gestalt eingeschriebener Kreyß genennet/ welcher mit seinem Umfang alle derselbigen Gestalt Seiten berühret.
 
-[Curated heading level=2 type=definitions: Beschreibung VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 VI. Ein ümb eine geradstrichichte Gestalt beschriebener Kreyß wird genennet / welcher mit seinem Umfang alle derselben Gestalt Ecken berühret.
 
-[Curated heading level=2 type=definitions: Beschreibung VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 VII. Ein dem Kreyß eingesetzter oder eingefügter gerader Strich wird genennet/ dessen beede Ende in dem Kreyßzuge stehen.
 
-[Curated heading level=2 type=definitions: Beschreibung 8.]
+[Curated heading level=3 type=definitions: 8.]
 
 8. Gleichwincklichte Dreyecke ( oder Gestalte ) sind/ in welchen alle Winckel des einen/ allen Winckeln des andern / jedweder jedwedem gleich sind.
 
-[Curated heading level=1 type=problems: Das IV. Buch]
+[Curated heading level=2 type=propositions: Der I. Vortrag.]
 
-[Curated heading level=2 type=propositions: Der I. Vortrag. Werck-Stück]
-
-[Curated heading level=2 type=problems: Das 1. Werck-Stück. Der I. Vortrag.]
+[Curated heading level=2 type=problems: Das 1. Werckstück.]
 
 ## Der I. Vortrag.
 

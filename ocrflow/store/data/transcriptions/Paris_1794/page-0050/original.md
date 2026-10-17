@@ -9,9 +9,9 @@ angles pris ensemble valent quatre angles droits. Mais la somme des deux angles 
 
 Car dès que AC est parallele à BD, toute autre ligne AI ou AM menée d’un côté ou d’un autre de la ligne AC est telle que la somme des angles intérieurs est plus petite ou plus grande que deux angles droits ; donc elle doit rencontrer la ligne BD.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXIII.]
 
 ## PROPOSITION XXIII.
 
@@ -25,12 +25,10 @@ Fig. 37.
 
 Car si elle étoit plus grande ou plus petite, les deux lignes AB, CD, se rencontreroient d’un côté ou de l’autre, et ne seroient pas paralleles.
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Si l’angle GOC est droit, l’angle AGO doit l’être aussi ; donc toute ligne perpendiculaire à l’une des paralleles est perpendiculaire à l’autre.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Puisque AGO + GOC est égal à deux angles droits, et que GOD + GOC est aussi égal à deux angles droits, en retranchant de part et d’autre GOC, on aura l’angle AGO = GOD. Par conséquent les quatre angles aigus EGB, AGO, GOD, COF, sont égaux entre eux ; il en est de même des quatre angles obtus AGE, OGB, COG, DOF ; et en même temps si on ajoute l’un des quatre angles aigus à l’un des quatre obtus, la somme ſera toujours deux angles droits.

@@ -10,13 +10,9 @@ CORRELARIVM Et manifestum est quod sicut sector ad sectorem,sic angulus ad angul
 
 SEXTI LIBRI FINIS.
 
-[Curated heading level=1 type=definitions: ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEPTIMVS.
 
-[Curated heading level=2 type=definitions: Ex Campano Diffinitiones.]
-
-Ex Campano triplex principiorum genus. Primum. Diffinitiones.
+## Ex Campano triplex principiorum genus. Primum. Diffinitiones.
 
 {dropcap:V|lines=?|style=decorated|decoration="foliage, a bird, and dice in the design"}Nitas,est qua unaquæq̃ res una dicitur. 2 Numerus,est multitudo ex unitatibus composita. 3 Naturalis series numerorum,dicitur in qua secundum unitatis additionem fit ipsorum computatio. 4 Differentia numerorum,appellatur numerus quo maior abundat à minore. 5 Numerus primus dicitur, qui sola unitate metitur. 6 Numerus compositus dicitur quē alius numerus metitur. 7 Numeri contra se primi dicuntur,qui nullo numero excepta sola unitate numerantur. 8 Numeri adinuicem compositi siue cōmunicantes dicuntur,quos alius numerus quàm unitas metitur,nullusque eorum est ad alium primus. 9 Numerus per alium multiplicari dicitur,qui toties sibi coaceruatur,quoties in multiplicante est unitas. 10 Productus uero dicitur,qui ex eorum multiplicatione crescit. 11 Numerus aliū numerare dicitur,qui secundū aliquē multiplicatus illū producit. 12 Pars,est numerus numeri minor maioris,cum minor maiorē numerat.Et qui numeratur numerantis multiplex appellatur. 13 Denomiuans,est numerus secundum quem pars sumitur in suo toto. 14 Similes dicuntur partes,quæ ab eodē numero denominantur.
 

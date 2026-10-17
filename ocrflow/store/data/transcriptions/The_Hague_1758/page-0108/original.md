@@ -8,19 +8,19 @@
 
 <!-- Running title: DEFINITIONS -->
 
-[Curated heading level=2 type=definitions: DEFINITION IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 
 {dropcap:L|lines=2|style=plain}A *diſtance d'une ligne droite* (FB) *du centre du cercle, eſt la perpendiculaire* (CM) *abaiſſée du centre du cercle* (C) *ſur cette ligne droite* (FB); C'eſt pour cela que l'on dit; que *deux lignes droites* (FB, DE) *ſont également diſtantes du centre du cercle*, quand les perpendiculaires (CM, CN), abaiſſées du centre (C) ſur ces lignes droites (FB, DE) ſont égales. *Fig*. 1.
 
-[Curated heading level=2 type=definitions: DEFINITION V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 
 Mais on dit qu'*une ligne droite* (AG) *eſt plus éloignée du centre du cercle que* (BF ou ED), lorſque la perpendiculaire (CH) abaiſſée du centre (C) ſur cette ligne droite eſt plus grande que (CM ou CN) *Fig*. 1.
 
-[Curated heading level=2 type=definitions: DEFINITION VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 

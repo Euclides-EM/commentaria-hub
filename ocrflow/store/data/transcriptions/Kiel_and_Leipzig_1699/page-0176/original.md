@@ -22,15 +22,9 @@ nicht in den Kreyß fallen : Es wird auch zwischen solchen Strich/ und den Krey�
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus dem Mittel-Düpffel a werde gegen den Strich bc ein gerader Strich ab gezogen.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Werde aus c zwischen cg und bc ein gerader Strich ec.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Und gegen diesen Strich aus a der Senckstrich ad gezogen.
 

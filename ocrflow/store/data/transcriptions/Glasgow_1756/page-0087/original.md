@@ -1,7 +1,7 @@
 <!-- Page number: 72 -->
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 
-[Curated heading level=2 type=definitions: DEF. XI.]
+[Curated heading level=3 type=definitions: XI.]
 
 ### XI.
 

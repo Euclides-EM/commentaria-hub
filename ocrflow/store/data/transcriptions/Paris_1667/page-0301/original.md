@@ -19,9 +19,7 @@ DES TRIANGLES ET QUADRILATERES CONSIDEREZ SELON LEURS COSTEZ ET LEURS ANGLES.
 DES TRIANGLES.
 [/Subhead]
 
-[Curated heading level=1 type=lemmas: LIVRE TREIZIEME.]
-
-[Curated heading level=2 type=lemmas: I. PREMIER LEMME.]
+[Curated heading level=3 type=lemmas: PREMIER LEMME.]
 
 ### PREMIER LEMME.
 
@@ -33,7 +31,7 @@ I.
 
 Un angle avec ſa baſe, eſt la même choſe qu'un triangle. Et ainſy tout ce qui a eſté dit dans les livres des angles, des proportionelles, & des reciproques des angles conſiderez avec leur baſe, ſe peut ſans peine appliquer aux triangles.
 
-[Curated heading level=2 type=lemmas: II. SECOND LEMME.]
+[Curated heading level=3 type=lemmas: SECOND LEMME.]
 
 ### SECOND LEMME.
 

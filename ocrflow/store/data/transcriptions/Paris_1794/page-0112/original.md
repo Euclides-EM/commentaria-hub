@@ -7,17 +7,13 @@
 
 metre BC, le triangle BAC sera rectangle en A★. Donc ;
 
-[Curated heading level=5 type=numbered_item: 1.]
-
 1°. *la perpendiculaire AD est moyenne proportionnelle entre les deux segments du diametre BD, DC*, ou, ce qui revient au même, le quarré AD² est égal au rectangle BD × DC.
-
-[Curated heading level=5 type=numbered_item: 2.]
 
 2°. *La corde AB est moyenne proportionnelle entre le diametre BC et le segment adjacent BD*, ou, ce qui revient au même, AB² = BD × BC. On a de même AC² = CD × BC ; donc AB² : AC² :: BD : DC ; et si on compare AB² à BC², on aura AB² : BC² :: BD : BC ; on auroit de même AC² : BC² :: DC : BC. Ces rapports des quarrés des côtés, soit entre eux, soit avec le quarré de l’hypoténuse, ont été déja donnés dans les corol. III et IV de la prop. XI.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXIV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXIV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XXIV.]
 
 ## PROPOSITION XXIV.
 

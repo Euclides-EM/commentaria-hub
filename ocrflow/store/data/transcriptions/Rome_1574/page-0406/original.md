@@ -5,7 +5,7 @@ portionibus, quorum frequentiſſimus eſt vſus apud Geometras. Hi autem ſunt 
 
 [Figure: four vertical lines labelled A, B, C and D, with the numbers 18, 12, 5 and 10 beside them]
 
-[Curated heading level=2 type=definitions: XIII.]
+[Curated heading level=3 type=definitions: XIII.]
 
 ### XIII.
 

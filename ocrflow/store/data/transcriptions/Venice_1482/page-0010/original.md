@@ -4,6 +4,12 @@
 [unclear: Alia eſt romboides ⁊ ſimilis rombo cuius duo latera ex aduerſo poſita ſt equalia]
 [/Handwritten]
 
+[Curated heading level=2 type=definitions: Alia eſt ſimilis helmuaym]
+
+[Curated heading level=2 type=definitions: Preter has autẽ oẽs]
+
+[Curated heading level=2 type=definitions: Equidiſtantes linee ſunt que]
+
 ¶ Alia eſt ſimilis helmuaym que oppoſita latera habet equalia atqʒ oppoſitos angulos equales: idẽ tamen nec rectis angulis nec equis lateribus cõtineꝛ: ¶ Preter has autẽ oẽs quadrilatere figure helmuariphe nominantur. ¶ Equidiſtantes linee ſunt que in eadem ſuperficie collocate atqʒ in alterutram partem ꝓtracte non conueniunt etiã ſi in infinitum protrahantur.
 
 [Margin]
@@ -29,8 +35,6 @@
 {dropcap:C|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ommunes animi ꝯceptiones ſunt hee: ¶ Que vni ⁊ eidẽ ſunt equalia ⁊ ſibiĩuicẽ ſunt equalia: ¶ Et ſi equalibꝰ equalia addant᷑ tota quoqʒ fiẽt equalia. ¶ Et ſi ab equalibꝰ eq̃lia auferant᷑ que relinquũt᷑ erũt equalia. ¶ Et ſi ab ineq̃libus equalia demas q̃ relinquũt᷑ erũt ineq̃lia. ¶ Et ſi ineq̃libus equalia addas ipſa quoqʒ fiẽt inequalia. ¶ Si fuerint due res vni equales ipſe ſibiĩuicem erũt equales. ¶ Si fuerint due res quaꝝ vtraqʒ vniꝰ eiuſdẽ fuerit dimidiũ vtraqʒ erit equalis alteri. ¶ Si aliqua res alicui ſuperponat᷑ applicet᷑qʒ ei nec excedat altera alterã: ille ſibiĩuicẽ erunt eq̃les. ¶ Omne totum ẽ maius ſua pte.
 
 {dropcap:S|lines=4|style=decorated|decoration="woodcut initial with foliate decoration on black ground"}Ciendũ eſt aũt ꝙ preter has aĩmi cõceptiões: ſiue cões ſcias multas alias que numero ſunt incõprehenſibiles pretermiſit Euclides: quarũ hec eſt vna. ¶ Si due quantitates equales ad quãlibet tertiã eiuſdem generis cõparentur ſimul erunt ambe illa tertia aut eque maiores: aut eque minores: aut ſimul equales. ¶ Jtẽ alia Quanta eſt aliqua quantitas ad quãlibet aliam eiuſdẽ generis tantã eſſe quãlibet tertiã ad aliquam quartã eiuſdem generis in quantitatibꝰ continuis: hoc vniuerſaliter verum eſt ſiue antecedentes maiores fuerint conſequentibus ſiue minores. magnitudo enim decreſcit in infinitũ. in numeris aũt non ſic: ſed ſi fuerit primus ſubmultiplex ſecundi: erit quilibet tertius eque ſubmultiplex alicuiꝰ quarti: quoniã numerus creſcit in infinitũ: ſicut magnitudo in in finitum minuitur.
-
-[Curated heading level=1 type=propositions: LIBER I]
 
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 

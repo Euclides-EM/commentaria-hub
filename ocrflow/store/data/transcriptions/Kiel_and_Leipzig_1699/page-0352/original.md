@@ -18,24 +18,14 @@ oc : oi ⊤ bc : ba.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus b werde nach beliebigem Winckel ein unendlicher Strich bg,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Und aus dem Düttel c ein mit bg gerader Nebenstrich ch gezogen. n. 31. I.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Auf den Strich bg werden die Theile des getheilten Striches nacheinander gesetzet. n. 3. I.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Auf den Strich ch werden eben solche Theile / doch also gesetzet / daß man von c anfange und c 3 ⊤ 4 3.
 Und so ferner n. 3. I.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Es werden die Striche 11. 22. 33. gezogen.
 

@@ -22,9 +22,9 @@ ABE — CBE ⋏ ACD — BCD nach 3. Gr.S.
 
 Sind also in dem gleich-schencklichten △ ABC die beeden Winckel auff dem Gr. Strich. ABC ⋏ ACD ε, wie auch unter dem Grund-Strich BCE ⋏ CBD. γ. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der VI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der VI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 3. Beweiß-Stück. Der VI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 3. Beweiß-Stück.]
 
 ## Der VI. Vortrag.
 

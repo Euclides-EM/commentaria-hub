@@ -1,9 +1,9 @@
 <!-- Running title: DE GEOMETRIE LIVRE II. -->
 <!-- Page number: 37 -->
 
-[Curated heading level=2 type=propositions: L. SIXIEME THEOREME.]
+[Curated heading level=4 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: L. SIXIEME THEOREME.]
+[Curated heading level=4 type=theorems: SIXIEME THEOREME.]
 
 #### SIXIEME THEOREME.
 
@@ -47,9 +47,9 @@ c.  d  : :  n.  o.
 
 Ce qu'il faloit demonſtrer.
 
-[Curated heading level=2 type=propositions: LI. SEPTIEME THEOREME.]
+[Curated heading level=4 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LI. SEPTIEME THEOREME.]
+[Curated heading level=4 type=theorems: SEPTIEME THEOREME.]
 
 #### SEPTIEME THEOREME.
 

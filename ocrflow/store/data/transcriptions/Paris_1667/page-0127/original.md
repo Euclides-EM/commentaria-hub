@@ -3,13 +3,9 @@
 
 *de demonſtrer les Problemes ſuivans ſans ſe ſervir des triangles comme fait Euclide.*
 
-[Curated heading level=1 type=propositions: LIVRE CINQVIEME.]
+[Curated heading level=3 type=propositions: PREMIER PROBLEME.]
 
-[Curated heading level=1 type=problems: LIVRE CINQVIEME.]
-
-[Curated heading level=2 type=propositions: XXXIII. PREMIER PROBLEME.]
-
-[Curated heading level=2 type=problems: XXXIII. PREMIER PROBLEME.]
+[Curated heading level=3 type=problems: PREMIER PROBLEME.]
 
 ### PREMIER PROBLEME.
 
@@ -27,9 +23,9 @@ Soit le point *k* & la ligne *z*, de *k* pris pour centre, décrire un cercle qu
 
 [Diagram: two dotted circles intersecting, with points K, m, n and B and a horizontal line through m and n]
 
-[Curated heading level=2 type=propositions: XXXIV. SECOND PROBLEME.]
+[Curated heading level=3 type=propositions: SECOND PROBLEME.]
 
-[Curated heading level=2 type=problems: XXXIV. SECOND PROBLEME.]
+[Curated heading level=3 type=problems: SECOND PROBLEME.]
 
 ### SECOND PROBLEME.
 

@@ -26,8 +26,6 @@ Bina media potens, ad vnum duntaxat ſignum diuiditur in nomina.
 
 [Diagram: a horizontal line with A at the left, D and G marked between, and B at the right]
 
-[Curated heading level=2 type=definitions: Rectarum quæ ex binis nominibus diffinitiones,]
-
 ## Rectarum quæ ex binis nominibus diffinitiones,
 
 ### Supponendum tribus prioribus.

@@ -6,15 +6,9 @@
 
 ### Beweiß.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Entweder sind        AB — DC.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. oder lauffen zusammen in H.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. oder  -  -  -  -  in G.
 
@@ -36,9 +30,9 @@ Wann aber die beeden Striche BA und DC in dem Düttel H zusammen kommen / so wer
 
 Wenn derwegen bey den beeden Strichen der einfallende Strich auff einer Seiten zween Winckel/ so kleiner als ⏥, machet so müssen solche Striche auff selbiger Seite/wo die kleinere Winckel stehen/ zusammen kommen. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 20. Beweiß-Stück. Der XXIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 20. Beweiß Stück.]
 
 ## Der XXIX. Vortrag.
 

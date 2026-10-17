@@ -2,7 +2,7 @@
 
 thon / das diß werckh diſer zeit ſo beſſt vnd zierlichſt das geſein mögen / offenntlich im Truckh außgieng: vnd hierinn weder fleiß / mühe / noch vnkoſſten geſpart / wie das ſonderlich bei den figuren der exempel (an welchen in diſer ſach das fürnembſt gelegen) zůerſechen. Die ich mitt ſehr groſſer vn̄ langweiliger arbait / faſt alle in irer gwiße proportion one fehl (ſouil deſſen zirckel / richtſcheit / federn vnnd deſgleichen werckhzeüg erleiden mag) geſtellet / auch volgendts aufs perment vonn newem abgeriſſen hab / darmit ſy auch der formſchneider inn meiner verlegung / ſo ferr ime müglich / onverruckht vnnd aigentlich ſchneiden / vnd demnach ſolche figurn den gantzen handel zum trewlichſten vnd haitterſten dem fleiſſigen Leſer fürbilden möchten.
 
-[Curated heading level=3 type=margin_topics: Zůſatz diſes wercks]
+[Curated heading level=3 type=marginal_headings: Zůſatz diſes wercks]
 
 [Margin]
 Zůſatz diſes wercks.

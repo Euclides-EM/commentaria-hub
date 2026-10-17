@@ -2,9 +2,9 @@
 
 <!-- Page number: 179 -->
 
-[Curated heading level=2 type=propositions: Der XXX. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XXX. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 4. Werck-Stück. Der XXX. Vortrag.]
+[Curated heading level=2 type=problems: Das 4. Werckstück.]
 
 ## Der XXX. Vortrag.
 
@@ -19,11 +19,7 @@ ad ⊻ db.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Der Strich ab werde in zween gleiche Theile getheilet. n. 10. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auff das Mittel c werde ein Senckstrich cd gesetzet. n. 11. I.
 

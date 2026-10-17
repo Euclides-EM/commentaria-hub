@@ -1,17 +1,13 @@
 <!-- Running title: LIBER. IIII. -->
 <!-- Page number: 132 -->
 
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM IIII.]
-
-[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTVM IIII.]
-
 # EVCLIDIS ELEMENTVM IIII.
 
 [Ornament: foliate headpiece]
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 

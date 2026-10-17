@@ -3,11 +3,9 @@
 
 ou de superposition : la raison en est qu’on peut renverser une figure plane et prendre indifféremment le dessus pour le dessous. Il en est autrement dans les solides.
 
-[Curated heading level=1 type=problems: Livre V]
+[Curated heading level=2 type=propositions: PROPOSITION XXIII.]
 
-[Curated heading level=2 type=propositions: PROPOSITION XXIII. PROBLÊME.]
-
-[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION XXIII.]
+[Curated heading level=2 type=problems: PROPOSITION XXIII.]
 
 ## PROPOSITION XXIII.
 

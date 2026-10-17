@@ -1,9 +1,9 @@
 <!-- Page number: 66 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+[Curated heading level=2 type=theorems: PROPOSITION VII.]
 
 ## PROPOSITION VII.
 

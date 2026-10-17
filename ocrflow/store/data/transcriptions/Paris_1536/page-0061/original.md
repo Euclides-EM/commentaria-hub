@@ -1,14 +1,14 @@
 <!-- Running title: LIBER II. -->
 
-[Curated heading level=2 type=propositions: Theorema 2, Propoſitio 2.]
+[Curated heading level=3 type=propositions: Theorema 2, Propoſitio 2.]
 
-[Curated heading level=2 type=theorems: Theorema 2, Propoſitio 2.]
+[Curated heading level=3 type=theorems: Theorema 2, Propoſitio 2.]
 
-## Θεώρημα β, Πρόθεσις β.
+### Θεώρημα β, Πρόθεσις β.
 
 ΕΑν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε, τὰ ὑπὸ τῆς ὅλης καὶ ἑκατέρου τῶν τμημάτων περιεχόμενα ὀρθογώνια, ἴσα ἐστὶ τῷ ἀπὸ τῆς ὅλης τετραγώνῳ.
 
-## Theorema 2, Propoſitio 2.
+### Theorema 2, Propoſitio 2.
 
 SI recta linea ſecetur vtcunq;: quæ ſub tota & quolibet ſegmétorum rectangula comprehenduntur, æqualia ſunt ei quod ex tota eſt quadrato.
 
@@ -22,15 +22,15 @@ ORONTIVS. ¶ Recta linea vtcunque ſecari dicitur, quæ in quouis dato illius pu
 
 atque ipſum a f ſub a d & a c, ipſum verò c e ſub c b & b e, per primam huius diffinitionem comprehenſum. Et quoniam a b & a d ſunt binæ quædam lineæ rectæ: & ipſarū altera, ſcilicet a b, ſecta eſt in a c & c b ſegmēta, ex hypotheſi. Quæ igitur ab inſecta a d, & vtroque ſegmento a c & c b continētur rectangula: æqua ſunt ei, quod ſub duabus lineis rectis a b & a d cóprehenditur rectangulo, per primam huius ſecundi propoſitionem. Atqui b e ipſi a d, & vtraque ipſi a b, per trigeſimam diffinitionem primi eſt æqualis: necnon a b d e rectangulum, id quod ex ipſa a b fit quadratū. Quæ ſub tota igitur a b, & quolibet ſegmento a c & c b, rectangula comprehenduntur: æqualia ſunt ei quod ex tota a b eſt quadrato. Quod erat oſtendendum.
 
-[Curated heading level=2 type=propositions: Theorema 3, Propoſitio 3.]
+[Curated heading level=3 type=propositions: Theorema 3, Propoſitio 3.]
 
-[Curated heading level=2 type=theorems: Theorema 3, Propoſitio 3.]
+[Curated heading level=3 type=theorems: Theorema 3, Propoſitio 3.]
 
-## Θεώρημα γ, Πρόθεσις γ.
+### Θεώρημα γ, Πρόθεσις γ.
 
 ΕΑν εὐθεῖα γραμμὴ ὡς ἔτυχε τμηθῇ, τὸ ὑπὸ τῆς ὅλης καὶ ἑνὸς τῶν τμημάτων περιεχόμενον ὀρθογώνιον ἴσον ἐστὶ τῷ τε ὑπὸ τῶν τμημάτων περιεχομένῳ ὀρθογωνίῳ, καὶ τῷ ἀπὸ τοῦ προειρημένου τμήματος τετραγώνῳ.
 
-## Theorema 3, Propoſitio 3.
+### Theorema 3, Propoſitio 3.
 
 SI recta linea ſecetur vtcunque: rectangulum ſub tota & vno ſegmentorum cóprehenſum, æquum eſt ei quod ſub ſegmentis comprehenditur rectangulo, & ei quod ex prædicto ſegmento fit quadrato.
 

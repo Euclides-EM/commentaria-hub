@@ -3,9 +3,7 @@
 
 ſure de l'angle, il ne faut que faire attention à ces Lemmes tirez des Livres V. & VII.
 
-[Curated heading level=1 type=lemmas: LIVRE HUITIEME.]
-
-[Curated heading level=2 type=lemmas: XXI. PREMIER LEMME.]
+[Curated heading level=4 type=lemmas: PREMIER LEMME.]
 
 #### PREMIER LEMME.
 
@@ -17,7 +15,7 @@ XXI.
 
 DANS les cercles égaux les cordes égales ſoûtiennent des arcs tout égaux. Et les arcs égaux ſont ſoûtenus par cordes égales.
 
-[Curated heading level=2 type=lemmas: XXII. SECOND LEMME.]
+[Curated heading level=4 type=lemmas: SECOND LEMME.]
 
 #### SECOND LEMME.
 
@@ -29,7 +27,7 @@ XXII.
 
 DANS les cercles égaux les plus grandes cordes ſoûtiennent de plus grands arcs. Et les plus grands arcs ſont ſoûtenus par les plus grandes cordes. VII. 10.
 
-[Curated heading level=2 type=lemmas: XXIII. TROISIEME LEMME.]
+[Curated heading level=4 type=lemmas: TROISIEME LEMME.]
 
 #### TROISIEME LEMME.
 
@@ -41,7 +39,7 @@ XXIII.
 
 LES cercles eſtant inégaux les cordes égales ſoûtiennent des arcs de plus de degrez dans les plus petits cercles. VII. 20.
 
-[Curated heading level=2 type=lemmas: XXIV. QUATRIEME LEMME.]
+[Curated heading level=4 type=lemmas: QUATRIEME LEMME.]
 
 #### QUATRIEME LEMME.
 
@@ -53,9 +51,9 @@ XXIV.
 
 LES arcs d'un même nombre de degrez ſont ſoûtenus par de plus grandes cordes dans les plus grands cercles. VII. 20.
 
-[Curated heading level=2 type=propositions: XXV. PREMIER THEOREME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XXV. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 

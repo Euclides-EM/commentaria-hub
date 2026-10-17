@@ -3,11 +3,11 @@
 
 L’un de ces plans peut être tangent à la sphere, et alors le segment sphérique n’a qu’une base.
 
-[Curated heading level=2 type=definitions: Définition XIV.]
+[Curated heading level=3 type=definitions: XIV.]
 
 XIV. *L’axe ou hauteur* d’une zone et d’un segment est la distance des deux plans paralleles qui sont les bases de la zone ou du segment.
 
-[Curated heading level=2 type=definitions: Définition XV.]
+[Curated heading level=3 type=definitions: XV.]
 
 XV. Tandis que le demi-cercle DAE tournant autour du diametre DE décrit la sphere, tout secteur circulaire comme DCF ou FGH décrit un solide qu’on appelle *secteur sphérique.*
 
@@ -15,11 +15,9 @@ XV. Tandis que le demi-cercle DAE tournant autour du diametre DE décrit la sphe
 F. 220.
 [/Margin]
 
-[Curated heading level=1 type=theorems: Livre VII]
+[Curated heading level=2 type=propositions: PROPOSITION I.]
 
-[Curated heading level=2 type=propositions: PROPOSITION I. THÉORÊME.]
-
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION I.]
+[Curated heading level=2 type=theorems: PROPOSITION I.]
 
 ## PROPOSITION I.
 
@@ -39,16 +37,14 @@ Les obliques CM, CM, CB, sont égales puisqu’elles sont des rayons de la spher
 * 5. 5.
 [/Margin]
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Si la section passe par le centre de la sphere, son rayon sera le rayon de la sphere ; donc tous les grands cercles sont égaux entre eux.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Deux grands cercles se coupent toujours en deux parties égales ; car leur intersection commune, passant par le centre, est un diametre.
 
-[Curated heading level=5 type=numbered_item: 3.]
+[Curated heading level=4: Corollaire III.]
 
 *Corollaire III.* Tout grand cercle divise la sphere et sa surface en deux parties égales ; car si après

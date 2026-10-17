@@ -4,11 +4,9 @@
 
 [Diagram: schiefwincklichtes Viereck mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Zwerg- und Diagonalstrichen]
 
-[Curated heading level=1 type=theorems: Das II. Buch]
+[Curated heading level=2 type=propositions: Der I. Vortrag.]
 
-[Curated heading level=2 type=propositions: Der I. Vortrag. Beweiß-Stück]
-
-[Curated heading level=2 type=theorems: Das 1. Beweiß-Stück. Der I. Vortrag.]
+[Curated heading level=2 type=theorems: Das 1. Beweiß-Stück.]
 
 ## Der I. Vortrag.
 
@@ -30,23 +28,13 @@ oder
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Es werde gezogen der gerade Strich ba | AB.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auff diesen Strich ab, und zwar in den Düttel b, werde ein Senckstrich ac gesetzet nach 10. Vortr. I. B.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. ac | AC n. 2. Vortr. des I. Buchs.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Durch den Düttel c werde entgegen ab ein Nebenstrich ch. gezogen/ nach 31. Vortr. I.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Durch b ziehe man gegen über ac , den Nebenstrich bh, nach 31. Vortr. I.
 

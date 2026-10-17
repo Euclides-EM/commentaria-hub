@@ -2,8 +2,6 @@
 
 13 Satz des ſechsten Buchs der Elemente Euklid's, leicht conſtruirt werden kann.
 
-[Curated heading level=3 type=numbered_item: 2)]
-
 [Calculation]
 2) γ=r√(34+2α)=√r²(34+2α)=√r²(34+2√17) =√r(34r+2r√17)
 [/Calculation]
@@ -33,8 +31,6 @@ Auf ähnliche Art findet man
 [Calculation]
 r: β=β: 34r−2α
 [/Calculation]
-
-[Curated heading level=3 type=numbered_item: 3)]
 
 [Calculation]
 3) δ=√[(2α−β)(2α+6r)]
@@ -72,13 +68,9 @@ K=(α−1)(γ+4), λ=3γ+8+αγ und η= √[(2α−γ)(2α−6)]
 
 iſt, die Linien durch folgende geometr. Proportionen, für den Halbmeſſer r,
 
-[Curated heading level=3 type=numbered_item: 1)]
-
 [Calculation]
 1) für α,) r: α=α: 17r (wie vorhin,)
 [/Calculation]
-
-[Curated heading level=3 type=numbered_item: 2)]
 
 [Calculation]
 2) für γ) r: γ=γ: (34r+2α) (wie vorhin,)

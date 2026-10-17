@@ -19,11 +19,9 @@ Sit triangulum A B G habens angulum rectum A, à quo perpendicularis in baſim d
 
 A trianguli recto angulo in baſim perpendicularis media eſt proportionalis inter baſis ſegmenta: inſuper inter baſim & vnumquodque ſegmentorum medium, proportionale eſt latus quod ad idem ſegmentum. Cum ſit vt B D ad D A, ſic D A ad D G circum æquales angulos, media eſt proportionalis A D inter baſis ſegmenta. Præterea erit medium latus A G inter B G G D, ſicut latus A B inter G B B D, comprehendunt enim eoſdem angulos, ſcilicet G & B.
 
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIONum reſtitutarum Liber ſextus.]
-
 [Curated heading level=2 type=propositions: Propoſitio nona.]
 
-[Curated heading level=2 type=problems: Propoſitio nona. Problema I.]
+[Curated heading level=2 type=problems: Problema I.]
 
 ## Propoſitio nona.
 

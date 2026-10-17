@@ -7,13 +7,13 @@ zůſůchen ſein / √ʒʒ auß 4096 iſt 8 zaigt das ſo wir ſůchten. Item �
 
 So wenig nun ain jede zal mag one brůch getailt werden / ſo wenig mag auß ainer jeder zal jede wurzel gefunden werden. Als hatt radicem cubicam / aber nit quadratam. härgegen 36 aber 32 hatt deren kaine 64 / ſy bayde / etc. in ſumma wie ſichs in gemainen zalen mit den brüchen zůtregt / alſo in proporzen finden ſich die ſurdiſchen zalen / gleichſam brüch der quantiteten vnd wurzeln. Aber daruon iſt diſe mal gnůg geredt. Beſihe auch die nůnzehendt propoſit. des ſechſten bůchs.
 
-[Curated heading level=3 type=margin_terms: Antecedēs dux, conſequens, comes]
+[Curated heading level=3 type=marginal_headings: Antecedēs dux, conſequens, comes]
 
 [Margin]
 Antecedēs dux, conſequens, comes.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Beſchreibung 12.]
+[Curated heading level=3 type=definitions: 12]
 
 12 {dropcap:I|lines=2|style=plain}n vergleichung zwayer proportion / wirt baydertails die zal ſo gegen ainer andern geſchezt / die vorgehnd genennt: die aber / gegen deren die vergleichung geſchicht / nennt man die volgend.
 
@@ -21,13 +21,13 @@ Antecedēs dux, conſequens, comes.
 
 Wie ſich halten 6 gegen 8 / alſo auch 9 gegen 12 / ſie nennen wir 6 vnd 9 die vorgehnden 8 vnd 12 die volgenden / daruon auch zůuor meldung gethon. Volgen nunn ettliche aigenſchafften / ſo auß verkerung / verſetzung oder zůſamen ziehen der vier alſo proportionierten quantiteten oder zalen ſich erzeigen.
 
-[Curated heading level=3 type=margin_terms: ἐναλλάξ]
+[Curated heading level=3 type=marginal_headings: ἐναλλάξ]
 
 [Margin]
 ἐναλλάξ.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Beſchreibung 13.]
+[Curated heading level=3 type=definitions: 13]
 
 13 {dropcap:V|lines=2|style=plain}erwechſlung der proportion haiſt / wan man die vorgehnd gegen der vorgehnden / die folgende gegen der volgenden ſchetzett. Als /
 

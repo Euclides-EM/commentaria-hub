@@ -7,11 +7,11 @@ totæ H E I, F G I ſint ᵃ in planis A B, C D, productis, etiam hæc conuenien
 a Per 1.l.11.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XVII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVII.]
 
 ## PROPOSITIO XVII.
 
-[Curated heading level=2 type=figures: Fig. 24]
+[Curated heading level=5 type=figures: Fig. 24]
 
 {dropcap:P|lines=2|style=plain}Arallela plana rectas lineas (B D & H G) proportionaliter ſecant.
 
@@ -28,11 +28,11 @@ c Per præc.
 d Per 2. l.6.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XVIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVIII.]
 
 ## PROPOSITIO XVIII.
 
-[Curated heading level=2 type=figures: Fig. 25]
+[Curated heading level=5 type=figures: Fig. 25]
 
 {dropcap:S|lines=2|style=plain}I recta linea (F E) ſit ad planum (A B) recta, omnia, quæ per ipſam ducuntur plana, ſunt eidem plano (A B) recta.
 

@@ -8,9 +8,9 @@ Wenn derowegen drey ebenmässige Striche gegeben werden/ so ist das von den äus
 
 Und wenn der beyden äusersten Striche Viereck dem gleichseitigen Viereck des mittelsten Striches gleichmässig ist/ so stehen die drey Striche in unzertrennter (continua) Ebenmaß. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XIIX. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XIIX. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 6. Werck-Stück. Der XIIX. Vortrag.]
+[Curated heading level=2 type=problems: Das 6. Werck-Stück.]
 
 ## Der XIIX. Vortrag.
 
@@ -32,10 +32,6 @@ Auf einen gegebenen geraden Strich eine der gegebenen geradstrichichten Gestalt 
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus h zu denen gegen überstehenden Winckeln a und k werden gerade Striche ha, hk gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. werden auf den Strich cd Winckel gesetzet

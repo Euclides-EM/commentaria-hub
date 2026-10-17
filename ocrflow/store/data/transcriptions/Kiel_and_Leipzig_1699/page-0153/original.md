@@ -11,9 +11,9 @@ Welches aber unmöglich/ nach 9. Gr. I.
 
 Können also dergleichen Striche/ welche nicht durch den Mittel-Düpffel o gehen/ einander nicht in gleiche Theile schneiden. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der V. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der V. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 4. Beweiß-Stück. Der V. Vortrag.]
+[Curated heading level=2 type=theorems: Das 4. Beweiß-Stück.]
 
 ## Der V. Vortrag.
 
@@ -34,11 +34,7 @@ Solche zween Kreyse haben zween unterschiedliche Mittel-Düpffel.
 
 Wenn man sagen wolte/ sie hätten nur einen einigen Mittel-Düpffel/ nemlich a, so ziehe man
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auß a zu dem Düttel b, wo sie einander durchschneiden / einen geraden Strich ab.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Ziehe man auch den Strich ad.
 

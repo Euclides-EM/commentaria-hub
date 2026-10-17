@@ -10,11 +10,11 @@ d Per 33.l.1.
 e Per 8.l.1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XI.]
 
 ## PROPOSITIO XI.
 
-[Curated heading level=2 type=figures: Fig. 18]
+[Curated heading level=5 type=figures: Fig. 18]
 
 {dropcap:A|lines=2|style=plain}D planum datum (A B) à dato extra illud puncto (C) perpendicularem ducere.
 
@@ -35,11 +35,11 @@ c Per defin. 3.l.11.
 d Per 4.l.11.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XII.]
 
 ## PROPOSITIO XII.
 
-[Curated heading level=2 type=figures: Fig. 19]
+[Curated heading level=5 type=figures: Fig. 19]
 
 {dropcap:E|lines=2|style=plain}X dato plani (E F) puncto (A) rectam ad datum planum erigere.
 

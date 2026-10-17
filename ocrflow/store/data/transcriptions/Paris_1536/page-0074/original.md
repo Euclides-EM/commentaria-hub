@@ -1,16 +1,16 @@
-# Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Tertium elementorum Euclidis, Demonſtrationes.
+[Curated heading level=1 type=books: Book 3]
 
-# ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΡΙΤΟΝ.
+## Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Tertium elementorum Euclidis, Demonſtrationes.
+
+## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΡΙΤΟΝ.
 
 Ὅροι.
 
 Ἴσοι κύκλοι ἐισὶν, ὧν αἱ διάμετροι ἰσὶν ἴσαι, ἢ ὧν αἱ ἐκ τῶν κέντρων, ἴσαι ἐισίν.
 
-## Diffinitiones.
+### Diffinitiones.
 
-[Curated heading level=1 type=definitions: LIBER III.]
-
-[Curated heading level=2 type=definitions: Equales circuli]
+[Curated heading level=4 type=definitions: Equales circuli]
 
 Equales circuli: ſunt quorū dimetiētes ſunt æquales, vel quorum quæ ex centris ſunt æquales.
 
@@ -24,7 +24,7 @@ Circulorū inæqualiū contraria diffinitio.
 
 Εὐθεῖα κύκλου ἐφάπτεσθαι λέγεται, ἥτις ἁπτομένη τοῦ κύκλου καὶ ἐκβαλλομένη οὐ τέμνει τὸν κύκλον.
 
-[Curated heading level=2 type=definitions: Recta linea circulum tangere dicitur]
+[Curated heading level=4 type=definitions: Recta linea circulum tangere dicitur]
 
 Recta linea circulum tangere dicitur:quæ circulū tangens & eiecta,circulum non ſecat.
 
@@ -38,7 +38,7 @@ Quæ circulū ſecat.
 
 Κύκλοι ἐφάπτεσθαι ἀλλήλων λέγονται, οἵτινες ἁπτόμενοι ἀλλήλων,οὐ τέμνουσιν ἀλλήλους.
 
-[Curated heading level=2 type=definitions: Circuli ſeſe tangere adinuicem dicuntur]
+[Curated heading level=4 type=definitions: Circuli ſeſe tangere adinuicem dicuntur]
 
 Circuli ſeſe tangere adinuicem dicuntur:qui ſeſe inuicem tangētes,ſe non inuicem ſecant.
 
@@ -52,6 +52,6 @@ Circuli ſeſe interſecātes.
 
 Ἐν κύκλῳ ἴσον ἀπέχειν τοῦ κέντρου εὐθεῖαι λέγονται, ὅταν αἱ ἀπὸ τοῦ κέντρου ἐπ' αὐτὰς κάθετοι ἀγόμεναι ἴσαι ὦσιν.μεῖζον. ἢ ἀπέχειν λέγεται,ἐφ' ἣν ἡ μείζων κάθετος πίπτει.
 
-[Curated heading level=2 type=definitions: In circulo æqualiter diſtare à centro]
+[Curated heading level=4 type=definitions: In circulo æqualiter diſtare à centro]
 
 In circulo æqualiter diſtare à centro rectæ lineæ dicuntur: cùm à

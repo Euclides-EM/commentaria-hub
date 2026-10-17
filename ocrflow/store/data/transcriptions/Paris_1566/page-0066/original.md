@@ -3,13 +3,9 @@
 
 re non poſſet, ſed anguli magnitudinem ea neceſſariò & ſola. Eius namque augmentum vel decrementum, ſemper cum augmento anguli vel eiuſdem decremento, idem eſſe reperitur, vt docebimus 33 ſexti, fauente ſupremo artium moderatore. Quæ autem præter hæc mutauimus pauca ſunt ob faciliorem circulorum intelligentiam.
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber tertius.]
-
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber tertius.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
-[Curated heading level=2 type=problems: Propoſitio prima. Problema 1.]
+[Curated heading level=2 type=problems: Problema 1.]
 
 ## Propoſitio prima.
 

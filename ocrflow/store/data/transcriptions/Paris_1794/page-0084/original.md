@@ -1,7 +1,7 @@
 <!-- Page number: 56 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=problems: PROBLÊME XVIII.]
+[Curated heading level=3 type=problems: PROBLÊME XVIII.]
 
 ### PROBLÊME XVIII.
 

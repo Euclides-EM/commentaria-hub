@@ -2,9 +2,9 @@
 
 <!-- Running title: Euclidis. -->
 
-[Curated heading level=2 type=propositions: Der XXXIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 29. Beweiß-Stück. Der XXXIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 29. Beweiß-Stück.]
 
 ## Der XXXIX. Vortrag.
 
@@ -33,15 +33,9 @@ Entweder ist CD = AB, oder nicht. Ist nun CD kein Nebenstrich/ des Striches AB, 
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde entgegen AB durch C der Nebenstrich CE gezogen.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Verlänge man die Seite AD biß zum Nebenstrich in E.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Ziehe man den Strich BE.
 

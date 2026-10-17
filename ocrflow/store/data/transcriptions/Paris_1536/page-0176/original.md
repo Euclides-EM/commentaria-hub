@@ -4,15 +4,15 @@
 
 Haud dissimiliter oſtendemus , reliquos angulos ipsius a/ b/ c/ rectilinei, reliquis angulis ipsius d/e/f/fore inuicem æquales: & circum eosdem æquales angulos latera proportionalia.Simile eſt itaq; a/b/c/rectilineũ,ipsi rectilineo d/e/f, per primam huius sexti diffinitionem.Quod oportebat demonſtrare.
 
-[Curated heading level=2 type=propositions: Theorema 16, Propositio 22.]
+[Curated heading level=3 type=propositions: Theorema 16, Propositio 22.]
 
-[Curated heading level=2 type=theorems: Theorema 16, Propositio 22.]
+[Curated heading level=3 type=theorems: Theorema 16, Propositio 22.]
 
-## Θεώρημα ις, Πρόθεσις κβ.
+### Θεώρημα ις, Πρόθεσις κβ.
 
 Εὰν τέσσαρες εὐθεῖαι ἀνάλογον ὦσι,καὶ τὰ ἀπ᾽ αὐτῶν εὐθύγραμμα ὅμοιάτε καὶ ὁμοίως ἀναγεγραμμένα,ἀνάλογον ἔσαι . κἂν τὰ ἀπ᾽ αὐτῶν εὐθύγραμμα ὅμοιάτε καὶ ὁμοίως ἀναγεγραμμένα ἀνάλογον ᾖ,καὶ αὐταὶ αἱ εὐθεῖαι ἀνάλογον ἔσονται.
 
-## Theorema 16, Propositio 22.
+### Theorema 16, Propositio 22.
 
 SI quatuor rectæ lineæ proportionales fuerint:& ab eis rectilinea similia similitérque descripta, proportionalia erunt. Et si ab ipsis rectilinea similia similitérque descripta,proportionalia fuerint:ipsæ quoque rectæ lineæ proportionales erunt.
 

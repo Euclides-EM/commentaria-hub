@@ -29,9 +29,9 @@ XXXII.
 
 ## DES FIGURES REGULIERES.
 
-[Curated heading level=2 type=propositions: XXXIII. PREMIER THEOREME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXIII. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 

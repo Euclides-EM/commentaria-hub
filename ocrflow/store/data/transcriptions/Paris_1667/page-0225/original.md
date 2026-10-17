@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE IX. -->
 <!-- Page number: 187 -->
 
-### SIXIEME COROLLAIRE.
+#### SIXIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LVIII.]
 

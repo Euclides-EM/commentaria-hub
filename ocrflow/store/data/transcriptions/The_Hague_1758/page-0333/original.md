@@ -5,7 +5,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XXIII. PROBLEME III.]
 
-[Curated heading level=2 type=problems: PROBLEME III. PROPOSITION XXIII.]
+[Curated heading level=2 type=problems: PROPOSITION XXIII. PROBLEME III.]
 
 ## PROPOSITION XXIII. PROBLEME III.
 

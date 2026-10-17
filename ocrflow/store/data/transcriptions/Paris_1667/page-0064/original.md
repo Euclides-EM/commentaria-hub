@@ -15,7 +15,7 @@ IE *ne diray rien davantage de la proportion arithmetique, parce qu'elle n'eſt 
 
 ### DE LA PROPORTION GEOMETRIQVE.
 
-[Curated heading level=2 type=definitions: XXVIII. DEFINITION.]
+[Curated heading level=4 type=definitions: DEFINITION.]
 
 #### DEFINITION.
 
@@ -51,7 +51,7 @@ Ou bien ainſi,
 
 ∺ b. c. d.
 
-[Curated heading level=2 type=definitions: XXIX. I. DEFINITION DE L'EGALITE' DES RAISONS.]
+[Curated heading level=4 type=definitions: I. DEFINITION DE L'EGALITE' DES RAISONS.]
 
 #### I. DEFINITION DE L'EGALITE' DES RAISONS.
 

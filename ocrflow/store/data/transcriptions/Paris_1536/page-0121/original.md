@@ -8,7 +8,7 @@ est igitur ipsum a/f/g/triangulum: & proinde æquiangulum, per quintæ libri pri
 Quòd idem hexagonū sit æquiangulū.
 [/Margin]
 
-### Corollarium.
+#### Corollarium.
 
 ¶Hinc fit manifestum, quòd hexagoni latus, ei quæ ex centro circuli, in quo ipsum discribitur hexagonum, est æquale.
 
@@ -26,9 +26,9 @@ cū illius dimetiētibus ad rectos cóuenientes angulos: hexagonum æquilaterum 
 De circuli in dato hexagono inscriptione ac circunscriptione.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Problema 16, Propositio 16.]
+[Curated heading level=3 type=propositions: Problema 16, Propositio 16.]
 
-[Curated heading level=2 type=problems: Problema 16, Propositio 16.]
+[Curated heading level=3 type=problems: Problema 16, Propositio 16.]
 
-## Πρόβλημα ις, Πρόθεσις ις.
+### Πρόβλημα ις, Πρόθεσις ις.
 Εἰς τὸν δοθέντα κύκλον πεντεκαιδεκάγωνον, ἰσόπλευρόν τε καὶ ἰσογώνιον ἐγγράψαι.

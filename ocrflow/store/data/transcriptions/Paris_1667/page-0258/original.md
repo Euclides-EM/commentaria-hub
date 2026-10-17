@@ -26,11 +26,9 @@ L'autre par un angle qui a deux baſes antiparalleles.
 
 ### PREMIERE MANIERE.
 
-[Curated heading level=1 type=theorems: LIVRE ONZIEME.]
+[Curated heading level=4 type=propositions: THEOREME ANOMAL.]
 
-[Curated heading level=2 type=propositions: XXXV. THEOREME ANOMAL.]
-
-[Curated heading level=2 type=theorems: XXXV. THEOREME ANOMAL.]
+[Curated heading level=4 type=theorems: THEOREME ANOMAL.]
 
 #### THEOREME ANOMAL.
 

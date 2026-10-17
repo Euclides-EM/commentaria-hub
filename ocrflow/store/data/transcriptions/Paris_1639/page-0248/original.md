@@ -9,7 +9,7 @@ cd *eſt la hauteur des* △; abc & bce, *au reſpect des baſes* ab & be.
 
 D'où s'ensuit, que si les trois perpendiculaires tirées de trois angles d'vn triangle sur les costez opposez, continuez directemẽt, si besoin est, sont inégales, le triangle aura trois hauteurs differẽtes.
 
-[Curated heading level=2 type=definitions: DEF. V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 

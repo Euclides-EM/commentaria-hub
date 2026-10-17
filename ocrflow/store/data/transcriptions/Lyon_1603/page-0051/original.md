@@ -27,8 +27,6 @@ V.79¾ − V25 ⁵⁄₁₆ − V.151⅞ − V4613 ¹⁷⁄₆₄ − V.15¾ −
 
 FINIS TERTII.
 
-[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM QVARTVS.]
-
 # EVCLIDIS ELEMENTORVM QVARTVS.
 
 [Curated heading level=2 type=propositions: PROP. II.]

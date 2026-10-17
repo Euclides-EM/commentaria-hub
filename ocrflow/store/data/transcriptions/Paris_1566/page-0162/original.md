@@ -5,9 +5,7 @@ queſtum, videmus etenim omne totum ſuis partibus æquum eſſe, omnes igitur n
 
 ## Communes ſententiæ.
 
-[Curated heading level=1 type=axioms: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſeptimus.]
-
-[Curated heading level=2 type=axioms: Communes ſententiæ, Prima.]
+[Curated heading level=3 type=axioms: Prima.]
 
 ### Prima.
 
@@ -17,7 +15,7 @@ Cùm pars ſit ea quæ totum ſuiipſius præciſa repetitione conſtituit, per�
 
 [Diagram: three horizontal lines labelled A, B, C and 2, 4, 8]
 
-[Curated heading level=2 type=axioms: Communes ſententiæ, Secunda.]
+[Curated heading level=3 type=axioms: Secunda.]
 
 ### Secunda.
 

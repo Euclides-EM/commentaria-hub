@@ -2,8 +2,6 @@
 
 ## NOTAE &c.
 
-[Curated heading level=3: LIB. I.]
-
 #### Ad DEFINITIONEM VII. LIB. I.
 
 {dropcap:L|lines=2|style=plain}OCO Definitionis quae habetur in Graecis codicibus alia magis diſtincta poſita eſt, in qua continetur affectio planae ſuperficiei quae in Elementis manifeſte ponitur, rectam ſcilicet lineam duci poſſe a quovis puncto in plana ſuperficie ad quodvis in eâdem, quae tota fit in ea ſuperficie.

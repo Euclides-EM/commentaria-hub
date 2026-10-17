@@ -11,7 +11,7 @@ Vniuerſalem igitur huius rei demonſtrationem dare conabimur hunc in modum.
 
 #### Demonſtratur in magnitudinibus.
 
-[Curated heading level=2 type=figures: Fig. 35]
+[Curated heading level=5 type=figures: Fig. 35]
 
 {dropcap:D|lines=2|style=plain}Atæ ſint magnitudines quæcunque & quotcunque A,B, C,D. Oſtendendum eſt rationem A ad D componi ex rationibus A ad B; B ad C; C ad D.
 

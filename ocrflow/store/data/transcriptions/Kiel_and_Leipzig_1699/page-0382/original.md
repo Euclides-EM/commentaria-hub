@@ -2,8 +2,6 @@
 
 <!-- Page number: 365 -->
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Werde noch ein Strich l gefunden/ zu welchem sich k also / wie cd zu de verhalte.
 
 cd : de | k : l n. 12. VI.
@@ -31,9 +29,9 @@ Dw. □ ac : □ df | ad, dc : gd, de n. Bw. γ. 11. V.
 
 Haben derowegen gleichwincklichte Nebenstrichichte Vierecke eine solche Verhältnüß zusammen / als diejenige / welche aus ihren Seiten zusammen gesetzet ist. W Z B.
 
-[Curated heading level=2 type=propositions: Der XXIV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXIV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 18. Beweiß-Stück. Der XXIV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 18. Beweiß-Stück.]
 
 ## Der XXIV. Vortrag.
 

@@ -1,11 +1,11 @@
 <!-- Page number: 18 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO V.]
+[Curated heading level=2 type=propositions: PROPOSITIO V.]
 
 ## PROPOSITIO V.
 
-[Curated heading level=2 type=figures: Fig. 26]
+[Curated heading level=5 type=figures: Fig. 26]
 
 [Margin]
 Fig. 26.
@@ -23,7 +23,7 @@ b Per 4. l.1.
 
 {dropcap:Æ|lines=2|style=plain}Quilaterum ergò triangulum, etiam æquiangulum eſt.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO VI.]
+[Curated heading level=2 type=propositions: PROPOSITIO VI.]
 
 ## PROPOSITIO VI.
 

@@ -2,9 +2,9 @@
 
 <!-- Page number: 207 -->
 
-[Curated heading level=2 type=propositions: Der IV. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der IV. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 4. Werck-Stück. Der IV. Vortrag.]
+[Curated heading level=2 type=problems: Das 4. Werck-Stück.]
 
 ## Der IV. Vortrag.
 
@@ -25,19 +25,11 @@ Dreyeck efg.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Der Winckel e werde in zwey gleiche Theile dea ∧ cea getheilet.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Wie auch der Winckel f in efa ∧ bfa.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Aus dem Düttel a, wo diese beede Winckeltheilende Striche ea und fa einander schneiden / werde auff die Seite ef ein Senckstrich ac gesetzet. n. 12. I.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Nach der Weite ac werde der Kreyß cdb beschrieben.
 

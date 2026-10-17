@@ -1,14 +1,14 @@
 <!-- Running title: LIBER II. -->
 
-[Curated heading level=2 type=propositions: Theorema 7, Propositio 7.]
+[Curated heading level=3 type=propositions: Theorema 7, Propositio 7.]
 
-[Curated heading level=2 type=theorems: Theorema 7, Propositio 7.]
+[Curated heading level=3 type=theorems: Theorema 7, Propositio 7.]
 
-## Θεώρημα ζ, Πρόθεσις ζ.
+### Θεώρημα ζ, Πρόθεσις ζ.
 
 Εὰν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε,τὸ ἀπὸ τῆς ὅλης καὶ ἀφ' ἑνὸς τῶν τμημάτων τὰ συναμφότερα τετράγωνα ἴσα ἐστὶ τῷ τε δὶς ὑπὸ τῆς ὅλης καὶ τοῦ εἰρημένου τμήματος περιεχομένῳ ὀρθογωνίῳ,καὶ τῷ ἀπὸ τοῦ λοιποῦ τμήματος τετραγώνῳ.
 
-## Theorema 7, Propositio 7.
+### Theorema 7, Propositio 7.
 
 SI recta linea secetur vtcunque:quod à tota & ab vno segmentorum vtraque fiunt quadrata,æqualia sunt rectangulo comprehenso bis sub tota & dicto segmento, & ei quod à reliquo segmento fit quadrato.
 
@@ -26,15 +26,15 @@ Figuræ præparatio.
 Demōstratio theorematis.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 8, Propositio 8.]
+[Curated heading level=3 type=propositions: Theorema 8, Propositio 8.]
 
-[Curated heading level=2 type=theorems: Theorema 8, Propositio 8.]
+[Curated heading level=3 type=theorems: Theorema 8, Propositio 8.]
 
-## Θεώρημα η, Πρόθεσις η.
+### Θεώρημα η, Πρόθεσις η.
 
 Εὰν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε, τὸ τετράκις ὑπὸ τῆς ὅλης καὶ ἑνὸς τῶν τμημάτων περιεχόμενον ὀρθογώνιον μετὰ τοῦ ἀπὸ λοιποῦ τμήματος τετραγώνου,ἴσον ἐστὶ τῷ τε ἀπὸ τῆς ὅλης καὶ τοῦ εἰρημένου τμήματος,ὡς ἀπὸ μιᾶς ἀναγραφέντι τετραγώνῳ.
 
-## Theorema 8, Propositio 8.
+### Theorema 8, Propositio 8.
 
 SI recta linea secetur vtcunque : rectangulum comprehensum quater sub tota & vno segmentorum, cū eo quod ex reliquo
 

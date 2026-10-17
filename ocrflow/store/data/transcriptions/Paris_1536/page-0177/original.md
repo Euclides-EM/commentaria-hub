@@ -4,7 +4,7 @@
 
 rectilineum o/g/h,ipsi v/s/t : per nonam quinti. Eſt autẽ & eidem simile,similitérq; positum,per conſtructionem. Similia porrò similitérque posita,& inuicem æqualia rectilinea:ab æqualibus, aut super æqualibus rectis lineis describũtur.Aequalis eſt igitur s/t/ipsi g/h.Eſt autẽ vt a/b/ad c/d,sic e/f/ad s/t. ipsi porrò s/t,æqualis oſtensa eſt g/h:& eadem ad æquales,eandem habet rationem,per septimam quinti Et sicut igitur a/b/ad c/d:sic e/f,ad g/h.Ergo si quatuor rectæ lineæ proportionales fuerint:& quæ sequuntur reliqua.Quod oſtendendum susceperamus.
 
-### Lemma siue assumptum.
+#### Lemma siue assumptum.
 
 ¶Quòd autem similia, similitérque posita, & inuicem æqualia rectilinea, habeant similis rationis latera inuicem æqualia:sic demonſtratur.Sint rursum æqualia,& similia, similitérque posita rectilinea, o/g/h/& v/s/t: sitq́; vt o/g/ad g/h,sic v/s/ad s/t.Aio quòd g/h/ & s/t,sunt inuicem æquales.Si nanque fuerint inæquales: altera maior erit.Eſto (si possibile sit) g/h, maior s/t.Et quoniam eſt vt o/g/ad g/h,sic v/s/ad s/t:& econtra igitur,vel à conuersa ratione,sicut g/h/ad o/g,sic erit s/t/ad v/s:per corollarium quartæ libri quinti.Sed prima g/h,maior eſt tertia s/t:& secunda itaque o/g,quarta v/s/maior erit, per decimamquartam ipsius quinti.Binæ itaque o/g/& g/h,duabus v/s/& s/t/erunt maiores:& proinde ipsum rectilineũ o/ g/ h, maius rectilineo v/s/t.Eſt autẽ eidem æquale,per hypothesin : quæ simul impossibilia sunt. Non eſt igitur g/h,maior ipsa s/t.Similiter oſtendetur, quòd neq; minor. Aequalis eſt itaq; g/h,eidem s/t. Quod fuerat oſtendendum.
 
@@ -12,15 +12,15 @@ rectilineum o/g/h,ipsi v/s/t : per nonam quinti. Eſt autẽ & eidem simile,simi
 
 [Diagram: | g/h | o/g | s/t | v/s |]
 
-[Curated heading level=2 type=propositions: Theorema 17, Propositio 23.]
+[Curated heading level=3 type=propositions: Theorema 17, Propositio 23.]
 
-[Curated heading level=2 type=theorems: Theorema 17, Propositio 23.]
+[Curated heading level=3 type=theorems: Theorema 17, Propositio 23.]
 
-## Θεώρημα ιζ, Πρόθεσις κγ.
+### Θεώρημα ιζ, Πρόθεσις κγ.
 
 Τὰ ἰσογώνια παραλληλόγραμμα,πρὸς ἄλληλα λόγον ἔχῃ τὸν συγκείμενον ἐκ τῶν πλευρῶν.
 
-## Theorema 17, Propositio 23.
+### Theorema 17, Propositio 23.
 
 AEquiangula parallelogramma, adinuicem rationem habent compositam ex lateribus.
 

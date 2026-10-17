@@ -6,7 +6,7 @@
 
 DATO rectilineo ſimile ſimiliterque poſitum rectilineum deſcribere, maius, uel minus, ſecundum proportionem datam.
 
-[Curated heading level=4 type=numbered_item: XIIII.]
+[Curated heading level=4: XIIII]
 
 [Margin]
 XIIII.

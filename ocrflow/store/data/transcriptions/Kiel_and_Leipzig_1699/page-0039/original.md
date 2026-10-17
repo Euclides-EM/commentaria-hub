@@ -17,15 +17,9 @@ Strich/ bey den verlängeten Seiten-Strichen befindliche Winckel/einer dem ander
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Es werde gemacht BD | CE nach 3. Vortrag.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Werde gezogen der Strich BE
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Deßgleichen CD
 

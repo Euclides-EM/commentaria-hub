@@ -2,23 +2,17 @@
 
 ſitque minor proportio primæ priorum ad ſecundam, quam ſecundæ poſteriorum ad tertiam; Item ſecundæ priorum ad tertiam minor, quam primæ poſteriorum ad ſecundam: Erit quoque ex æqualitate, minor proportio primæ priorum ad tertiam, quam primæ poſteriorum ad tertiam. 183.a.
 
-[Curated heading level=3 type=numbered_item: 25.]
-
 [Margin]
 25
 [/Margin]
 
 Si fuerit maior proportio totius ad totum, quam ablati ad ablatum; Erit & reliqui ad reliquum maior proportio, quam totius ad totum. 183.b.
 
-[Curated heading level=3 type=numbered_item: 26.]
-
 [Margin]
 26
 [/Margin]
 
 Si fuerit minor proportio totius ad totum, quã ablati ad ablatum; Erit & reliqui ad reliquum minor proportio, quam totius ad totum. 183.b.
-
-[Curated heading level=3 type=numbered_item: 27.]
 
 [Margin]
 27
@@ -28,15 +22,11 @@ Si ſint quotcunque magnitudines, & aliæ ipſis æquales numero, ſitque maior 
 
 ## IN SEXTO LIBRO.
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 [Margin]
 1
 [/Margin]
 
 {dropcap:P|lines=2|style=plain}ROPOSITIS quotcunque quantitatibus, proportio primæ ad ultimam componitur ex proportionibus omnibus intermedijs, ut ex proportione primæ ad ſecundam, ſecundæ ad tertiam, &c. 188.a.
-
-[Curated heading level=3 type=numbered_item: 2.]
 
 [Margin]
 2
@@ -44,15 +34,11 @@ Si ſint quotcunque magnitudines, & aliæ ipſis æquales numero, ſitque maior 
 
 Triangula & parallelogramma, quæ ita ſe habent inter ſe, ut baſes, eandem habent altitudinem, æqualeſue. 190.b.
 
-[Curated heading level=3 type=numbered_item: 3.]
-
 [Margin]
 3
 [/Margin]
 
 Triangula & parallelogramma, quorum æquales ſunt baſes, uel eadem, ita ſe habent inter ſe, ut altitudines. 191.a.
-
-[Curated heading level=3 type=numbered_item: 4.]
 
 [Margin]
 4
@@ -60,15 +46,11 @@ Triangula & parallelogramma, quorum æquales ſunt baſes, uel eadem, ita ſe ha
 
 Triangula & parallelogramma, quæ ita ſe habent inter ſe ut altitudines, æquales habent baſes. 191.a
 
-[Curated heading level=3 type=numbered_item: 5.]
-
 [Margin]
 5
 [/Margin]
 
 Linea recta, quæ parallela ducitur uni lateri in triangulo aufert triangulum toti triangulo ſimile. 193b.
-
-[Curated heading level=3 type=numbered_item: 6.]
 
 [Margin]
 6

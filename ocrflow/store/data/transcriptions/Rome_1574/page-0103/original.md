@@ -2,7 +2,7 @@
 
 EADEM ratione erit Quadrangulum, figura quatuor rectis lineis contenta, cuius variæ ſpecies mox ſubſequentur.
 
-[Curated heading level=2 type=definitions: XXII.]
+[Curated heading level=3 type=definitions: XXII.]
 
 ### XXII.
 
@@ -12,7 +12,7 @@ MVLTILATERAE autem, quæ ſub pluribus, quam quatuor, rectis lineis comprehendun
 
 QVONIAM ſpecies rectilinearum figurarum ſunt innumerabiles, propter infinitum numerorum progreſſum. Nam tres rectæ lineæ claudentes figuram efficiunt primam ſpeciẽ, ſub qua omnia triangula continentur; quatuor conſtituunt ſecundam, quæ omnia quadrangula complectitur; quinque tertiam componunt ſpeciem; ſex quartam, atq́; ita deinceps infinite: Ideo Euclides, ne infinitatem hanc figurarum cogatur perſequi, vocat omnes alias figuras rectilineas, quæ pluribus, quam quatuor, rectis lineis circunſcribuntur, generali vocabulo Multilateras; contentus denominatione trilaterarum figurarum, & quadrilaterarum, ſorte eam ob cauſam, quod præcipue in prioribus his libris de Triangulis, atque Quadrangulis ſermo habeatur, & quod facile ad ſimilitudinem harum duarum ſpecierum cæteræ omnes a quolibet definiri poſſint. Quis enim ex dictis non colligat, figuram quinque lineis rectis contentam appellari quinquilateram, & ſex lineis comprehenſam ſexilateram, atq́; reliquas eodem modo? Sic etiam dici poterunt huiuſmodi figuræ quinquangulæ, ſexangulæ, ſeptangulæ, &c.
 
-[Curated heading level=2 type=definitions: XXIII.]
+[Curated heading level=3 type=definitions: XXIII.]
 
 ### XXIII.
 

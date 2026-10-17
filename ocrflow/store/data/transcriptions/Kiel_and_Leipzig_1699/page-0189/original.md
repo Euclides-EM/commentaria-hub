@@ -6,9 +6,9 @@ cken / und so ist es auch nicht gleich gestalt / n. 23. III. welches wider das 2
 ### Beschluß.
 Werden also gleichgestalte auff gleichlangen Strichen stehende Kreyßstücke gleicher grösse seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXV. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XXV. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 3. Werck-Stück. Der XXV. Vortrag.]
+[Curated heading level=2 type=problems: Das 3. Werckstück.]
 
 ## Der XXV. Vortrag.
 
@@ -26,11 +26,7 @@ Kreyß bhac, dessen Theil das gegebene Kreyßstück ist.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Man ziehe in dem gegebenen Bogen den geraden Strich ac.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Welcher in zwey gleiche Stücke ea | ec getheilet wird. n. 10. I.
 

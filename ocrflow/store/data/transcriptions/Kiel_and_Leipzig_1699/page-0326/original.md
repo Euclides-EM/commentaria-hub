@@ -25,15 +25,9 @@ Diejenigen Dreyecke / und nebenstrichichte Vierecke/ welche gleichmässige Grund
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Weil die Höhe de ⊣ bc — n. 3. Gegeb.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. so werde ge | bc — n. 3. I.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. werde der gerade Strich gf gezogen.
 

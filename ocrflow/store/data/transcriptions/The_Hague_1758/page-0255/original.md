@@ -7,13 +7,13 @@
 
 ## DEFINITIONS.
 
-[Curated heading level=2 type=definitions: DEFINITION I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 
 {dropcap:O|lines=2|style=plain}N nomme *figures ſemblables* (Fig. 1.) celles (ABC, abc), qui ont les angles (A, B, C, & a, b, c,) égaux chacun à chacun, & les côtés (AB, AC, BC & ab, ac, bc,) comprenant ces angles égaux proportionels (c. à. d. AB : AC = ab : ac, item AB : BC = ab : bc, & AC : BC = ac : bc).
 
-[Curated heading level=2 type=definitions: DEFINITION II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 
@@ -21,7 +21,7 @@
 
 *Ou les* figures (DAB, dAb) *ſont* réciproques; *quand les deux côtés* (AD, AB & Ad, Ab) *dans chacune de ces figures, environnant un même angle* (A) *ou des angles égaux, deviennent les extrêmes ou les moyens* (Voy. Def. 9. §. 1. L. 5.) *d'une même proportion* (*c. à. d. ſi* AD : Ad = Ab : AB).
 
-[Curated heading level=2 type=definitions: DEFINITION III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 

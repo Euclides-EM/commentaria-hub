@@ -8,15 +8,15 @@ Demóstratio ab impossibili
 
 [Diagram: a c b e d]
 
-[Curated heading level=2 type=propositions: Theorema 8, Propositio 15.]
+[Curated heading level=3 type=propositions: Theorema 8, Propositio 15.]
 
-[Curated heading level=2 type=theorems: Theorema 8, Propositio 15.]
+[Curated heading level=3 type=theorems: Theorema 8, Propositio 15.]
 
-## Θεώρημα η, Πρόθεσις ιε.
+### Θεώρημα η, Πρόθεσις ιε.
 
 Ἐὰν δύο εὐθεῖαι τέμνωσιν ἀλλήλας, τὰς κατὰ κορυφὴν γωνίας ἴσας ἀλλήλαις ποιήσουσιν.
 
-## Theorema 8, Propositio 15.
+### Theorema 8, Propositio 15.
 
 SI duæ rectæ lineæ se adinuicé secuerint:angulos qui circa verticem sunt æquos adinuicem efficient.
 
@@ -24,19 +24,19 @@ ORONTIVS.¶Secent se adinuicem binæ rectæ lineæ a/b,& c/d,in púcto quidem e:
 
 [Diagram: c b e a d]
 
-### Corollarium.
+#### Corollarium.
 
 ¶Hinc manifestum est,quotlibet rectas lineas in eodem púcto sese adinuicem intersecantes,angulos efficere quatuor rectis æquales.
 
-[Curated heading level=2 type=propositions: Theorema 9, Propositio 16.]
+[Curated heading level=3 type=propositions: Theorema 9, Propositio 16.]
 
-[Curated heading level=2 type=theorems: Theorema 9, Propositio 16.]
+[Curated heading level=3 type=theorems: Theorema 9, Propositio 16.]
 
-## Θεώρημα θ, Πρόθεσις ις.
+### Θεώρημα θ, Πρόθεσις ις.
 
 Παντὸς τριγώνου μιᾶς τῶν πλευρῶν ἐκβληθείσης,ἡ ἐκτὸς γωνία, ἑκατέρας τῶν ἐντὸς καὶ ἀπ' ἐναντίον μείζων ἐστί.
 
-## Theorema 9, Propositio 16.
+### Theorema 9, Propositio 16.
 
 OMnis triáguli vno latere producto,exterior angulus vtrisq; interioribus & ex opposito maior est.
 

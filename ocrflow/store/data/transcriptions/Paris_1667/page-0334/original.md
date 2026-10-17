@@ -31,9 +31,9 @@ Donc b b = c c + d d — 2. d x. Ce qu'il falloit demonſtrer.
 
 De tout cecy il eſt aiſé de conclure que ſi des deux extremitez de la baſe d'un angle aigu, on tire des perpendiculaires à chaque coſté, le rectangle d'un coſté & de la ligne compriſe entre le ſommet de l'angle aigu; & la perpendiculaire qui tombe ſur ce coſté ſera toujours égale au rectangle de l'autre coſté & de la ligne compriſe entre le ſommet de l'angle aigu & la perpendiculaire qui tombe ſur cet autre coſté.
 
-[Curated heading level=2 type=propositions: XXXII. SEPTIEME THEOREME.]
+[Curated heading level=3 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXII. SEPTIEME THEOREME.]
+[Curated heading level=3 type=theorems: SEPTIEME THEOREME.]
 
 ### SEPTIEME THEOREME.
 

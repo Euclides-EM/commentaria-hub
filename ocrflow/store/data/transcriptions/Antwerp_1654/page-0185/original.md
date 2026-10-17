@@ -13,9 +13,9 @@ d Per 8.l.5.
 e Per eand.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXXII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXII.]
 
-## PROPOSITIO XXXII.
+### PROPOSITIO XXXII.
 
 [Margin]
 Fig.19.
@@ -25,9 +25,9 @@ Fig.19.
 
 Demonſtratio eadem quæ præcedentis, ſed pro 22.citetur 23.
 
-[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIII.]
 
-## PROPOSITIO XXXIII.
+### PROPOSITIO XXXIII.
 
 [Margin]
 Fig.12.

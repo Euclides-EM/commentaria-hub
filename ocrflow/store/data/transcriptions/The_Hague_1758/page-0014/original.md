@@ -16,13 +16,13 @@
 
 <!-- Running title: DEFINITIONS. -->
 
-[Curated heading level=2 type=definitions: DEFINITION III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 
 {dropcap:L|lines=2|style=plain}Es *Extrêmités de la Ligne* ſont des points (A, B,). *Fig.* 3.
 
-[Curated heading level=2 type=definitions: DEFINITION IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 
@@ -30,19 +30,19 @@
 
 *Cette définition eſt imparfaite, puiſqu'elle n'offre aucune marque eſſentielle de la ligne droite; auſſi Euclide n'en a-t'il rien pu tirer; elle ne ſe trouve plus citée dans le corps de l'ouvrage. Il eſt obligé d'avoir recours à d'autres principes (par exemp. à l'axiome 12.), toutes les fois qu'il a beſoin d'employer des vérités qui dépendent d'une définition parfaite de la ligne droite.*
 
-[Curated heading level=2 type=definitions: DEFINITION V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 
 *La Superficie*, ou *Surface*, eſt une étendue ayant de la longueur & de la largeur ſans profondeur. *Fig.* 4.
 
-[Curated heading level=2 type=definitions: DEFINITION VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 
 Les *Extrêmités de la Superficie* ſont des lignes (AB, CD, AC, BD,). *Fig.* 4.
 
-[Curated heading level=2 type=definitions: DEFINITION VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 ### VII.
 

@@ -8,7 +8,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XVI. THEOREME IX.]
 
-[Curated heading level=2 type=theorems: THEOREME IX. PROPOSITION XVI.]
+[Curated heading level=2 type=theorems: PROPOSITION XVI. THEOREME IX.]
 
 ## PROPOSITION XVI. THEOREME IX.
 

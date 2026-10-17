@@ -5,13 +5,11 @@ grande que *surf.* CD; donc la solidité du prisme dont il s’agit est plus gra
 
 Donc enfin la solidité d’un cylindre est égale au produit de sa base par sa hauteur.
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Les cylindres de même hauteur sont entre eux comme leurs bases, et les cylindres de même base sont entre eux comme leurs hauteurs.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Les cylindres semblables sont comme les cubes des hauteurs, ou comme les cubes des diametres des bases. Car les bases sont comme les quarrés de leurs diametres; et puisque les cylindres sont semblables, les diametres des bases sont comme les hauteurs * : donc les bases sont comme les quarrés des hauteurs; donc les bases multipliées par les hauteurs, ou les cylindres eux-mêmes, sont comme les cubes des hauteurs.
 
@@ -27,9 +25,7 @@ Donc enfin la solidité d’un cylindre est égale au produit de sa base par sa 
 * 12. 4.
 [/Margin]
 
-[Curated heading level=2 type=propositions: PROPOSITION II. LEMME.]
-
-[Curated heading level=2 type=lemmas: LEMME. PROPOSITION II.]
+[Curated heading level=2 type=propositions: PROPOSITION II.]
 
 ## PROPOSITION II.
 

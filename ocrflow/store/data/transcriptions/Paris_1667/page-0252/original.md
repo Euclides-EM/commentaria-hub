@@ -3,7 +3,7 @@
 
 ainſy l'on aura deux eſpaces paralleles, l'un compris entre le ſommet & *B* (dans lequel ſont p & *p*) que nous appellerons *A*. Et l'autre compris entre ce même ſommet & *b* (dans lequel ſont q & *q*) que nous appellerons *E*.
 
-[Curated heading level=2 type=lemmas: XV. HUITIEME LEMME.]
+[Curated heading level=2 type=lemmas: HUITIEME LEMME.]
 
 ## HUITIEME LEMME.
 
@@ -27,7 +27,7 @@ Si *C* & *c* ſont également inclinées; *C* dans *A*, & *c* dans *E*, & que *D
 
 *C*. *c* :: *D*. *d*. *& alternando* *C*. *D* :: *c*. *d*.
 
-[Curated heading level=2 type=lemmas: XVI. NEUVIEME LEMME.]
+[Curated heading level=2 type=lemmas: NEUVIEME LEMME.]
 
 ## NEUVIEME LEMME.
 
@@ -39,9 +39,7 @@ XVI.
 
 Pour ne ſe point broüiller en diſpoſant les termes, il eſt bon de s'aſtraindre à donner toûjours pour 1er & 2e termes de la proportion les également inclinées dans les deux differens eſpaces paralleles, & de même au regard du 3e & du 4e. Et pour 1er & 3e termes, celles qui ſont dans le même eſpace parallele. Et de même au regard du 2e & du 4e. Sauf à les diſpoſer apres autrement, *Alternando*.
 
-[Curated heading level=1 type=propositions: LIVRE ONZIEME.]
-
-[Curated heading level=2 type=propositions: XVII. I. PROPOSITION FONDAMENTALE]
+[Curated heading level=2 type=propositions: I. PROPOSITION FONDAMENTALE]
 
 ## I. PROPOSITION FONDAMENTALE
 [Subhead]

@@ -1,11 +1,11 @@
 <!-- Running title: Liber Vndecimus. -->
 <!-- Page number: 235 -->
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXI.]
 
 ## PROPOSITIO XXI.
 
-[Curated heading level=2 type=figures: Fig. 28]
+[Curated heading level=5 type=figures: Fig. 28]
 
 {dropcap:P|lines=2|style=plain}Lani anguli, ſolidum angulum quemcunque componentes, quatuor rectis ſunt minores.
 

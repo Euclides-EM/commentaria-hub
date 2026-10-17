@@ -21,9 +21,9 @@ Gleicher Gestalt kan auch dargethan werden/ daß die übrigen Theile des gegeben
 
 Ist also der gegebene Ungetheilte Strich ag, oder FG oder BC also / wie der getheilte Strich AD, AG oder o4 getheilet/ W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XI. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XI. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 3. Werck-Stück. Der XI. Vortrag.]
+[Curated heading level=2 type=problems: Das 3. Werck-Stück.]
 
 ## Der XI. Vortrag.
 

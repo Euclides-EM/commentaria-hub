@@ -25,8 +25,6 @@ ab : cd | ef : gh
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Es werde zu denen beyden Strichen ab und cd der dritte ebenmässige Strich p gefunden n. 11. VI.
 ab : cd | cd : p.
 

@@ -4,42 +4,26 @@
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Nehme man einen Strich AB,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Welchen man also theile in C, daß des gantzen Strichs AB und
 kleinem Stückes BC länglicht Viereck eben so groß sey/ als des
 Grössern Stückes AC gleichseitiges Viereck/ n. 11. II.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Werde in dem Dreyeck abd der Grundstrich bd eben so groß/
 als das grössere Stück AC gemacht/ n. 2. I.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Zu den beyden Schenckeln ab und ad aber werde der gantze
 Strich AB genommen/ n. 12. I.
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Von der Seiten ab werde ein Stück ac | AC abgeschnitten/
 n. 3. I.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Werde der Strich dc gezogen.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Aus a nach der Weite ab werde ein Kreyß gezogen.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Umb das Dreyeck acd werde auch ein Kreyß gezogen/ n. 5. IV.
 

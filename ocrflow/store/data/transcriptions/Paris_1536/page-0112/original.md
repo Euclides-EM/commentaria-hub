@@ -12,18 +12,18 @@ Tertia figurę diſpoſitio.
 
 baſi f/b, concludetur æqualis. Et proinde f/c, æqualis eidem f/b. Hinc per primam communem ſententiam f/a, ipſi f/c/æquabitur: tres quoque f/a, f/b, & f/c, tandem conuincentur æquales. Quapropter deſcripto, per tertium poſtulatum, pro centro f, ad ipſius f/a, vel f/b, aut f/c/interuallum circulo: tranſibit ipſius circuli circunferentia, per eadem puncta a, b, c, ad quæ dati trianguli a/b/c/conueniũt latera. Hinc per quartam huius quarti diffinitionem, deſcriptus erit idem circulus, circa datum a/b/c/triangulum. Quod faciendum ſuſceperamus.
 
-### Corollarium.
+#### Corollarium.
 
 ¶Ex his, & trigeſimaprima tertij fit manifeſtum, quòd dùm f/centrum circuli cadit intra datum a/b/c/triangulum: angulus qui ad b/recto minor eſt, nempe in ſegmẽto ſemicirculo maiori conſiſtens. Dùm autem cadit in latus b/c: angulus ipſe qui ad b, in ſemicirculo eſt, & proinde rectus. Quãdo verò centrũ ipſum cadit extra datũ triangulum: idem angulus qui ad b/recto maior eſt, vtpote in ſegmento ſemicirculo minori cõſtitutus. Hinc verſa vice ſequitur, quòd in oxygonijs triãgulis circũſcribendi circuli centrũ cadit intra datum triangulum: in rectangulis verò, in medium ſubtenſi lateris: in amblygonijs deniq; triãgulis, extra ipſum triangulũ datum.
 
-[Curated heading level=2 type=propositions: Problema 6, Propoſitio 6.]
+[Curated heading level=3 type=propositions: Problema 6, Propoſitio 6.]
 
-[Curated heading level=2 type=problems: Problema 6, Propoſitio 6.]
+[Curated heading level=3 type=problems: Problema 6, Propoſitio 6.]
 
-## Πρόβλημα ς, Πρόθεσις ς.
+### Πρόβλημα ς, Πρόθεσις ς.
 Εἰς τὸν δοθέντα κύκλον τετράγωνον ἐγγράψαι.
 
-## Problema 6, Propoſitio 6.
+### Problema 6, Propoſitio 6.
 
 IN dato circulo, quadratum deſcribere.
 

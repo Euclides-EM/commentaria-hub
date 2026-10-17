@@ -12,9 +12,9 @@ Donc b b. = c c. + d d. { — 2. d x.
                        ou — d c.
 [/Calculation]
 
-[Curated heading level=2 type=propositions: XXXVI. DIXIEME THEOREME.]
+[Curated heading level=3 type=propositions: DIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXVI. DIXIEME THEOREME.]
+[Curated heading level=3 type=theorems: DIXIEME THEOREME.]
 
 ### DIXIEME THEOREME.
 

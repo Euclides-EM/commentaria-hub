@@ -7,10 +7,6 @@ les perpendiculaires MX, NY, etc. au plan de la base; il est clair que ces perpe
 
 ## *Lemmes préliminaires sur les surfaces.*
 
-[Curated heading level=1 type=lemmas: Livre VIII]
-
-[Curated heading level=2 type=lemmas: Lemmes préliminaires sur les surfaces, I.]
-
 ### I.
 
 [Margin]

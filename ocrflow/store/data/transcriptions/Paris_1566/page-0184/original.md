@@ -2,8 +2,6 @@
 
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber octauus.
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber octauus.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
 ## Propoſitio prima.
@@ -13,8 +11,6 @@
 Sint quotcũque cõtinuè proportionales numeri A B G D, quorum extremi A & D ſint primi: Dico ipſos A B G D eſſe tot minimos datæ rationis: quod ſin minus, dentur minores ipſis A B G D, hi E Z I T. Qui cùm ſupponantur iu{printer-error-correction:in} eadem eſſe ratione, ipſis A B G D ex æquali erunt (per 14 ſeptimi) ſicut A ad D, ſic E ad T: ſed A ad D primi ſunt, per hypotheſim, & minimi, per 23 ſeptimi. Ipſi igitur metiũtur E T eandem rationem habentes æqualiter, per 21 ſeptimi: maiores igitur metirentur minores, quod fieri non poteſt, ipſi itaque A B G D minimi erunt, ſuæ rationis in hac multitudine. Si fuerint igitur quotcunque, &c.
 
 [Diagram: nine horizontal lines labelled A 8, B 12, G 18, D 27, E, Z, I, T]
-
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber octauus.]
 
 [Curated heading level=2 type=propositions: Propoſitio ſecunda.]
 

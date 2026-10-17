@@ -17,9 +17,9 @@ port. du coſté. perpend :: port. de la perp. port. du coſté.
 
 ### DES TRIANGLES RECTANGLES.
 
-[Curated heading level=2 type=propositions: XXXI. PREMIER THEOREME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXI. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 

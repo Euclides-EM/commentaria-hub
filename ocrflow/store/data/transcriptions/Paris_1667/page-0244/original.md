@@ -33,9 +33,9 @@ XXXVI.
 
 Trouver une 3ᵉ proportionelle, c'eſtadire faire que l'une des deux données ſoit moyenne proportionelle entre l'autre donnée & la trouvée. C'eſt la même choſe que le precedent, excepté qu'une ſeule des deux données tient lieu de la 2ᵉ & de la 3ᵉ.
 
-[Curated heading level=2 type=propositions: XXXVII. SECOND PROBLEME.]
+[Curated heading level=2 type=propositions: SECOND PROBLEME.]
 
-[Curated heading level=2 type=problems: XXXVII. SECOND PROBLEME.]
+[Curated heading level=2 type=problems: SECOND PROBLEME.]
 
 ## SECOND PROBLEME.
 

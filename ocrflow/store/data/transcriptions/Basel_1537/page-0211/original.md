@@ -1,16 +1,8 @@
 <!-- Page number: 200 -->
 
-[Curated heading level=1 type=theorems: ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS]
-
-[Curated heading level=1 type=problems: ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS]
-
-[Curated heading level=1 type=definitions: ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS.
 
-[Curated heading level=2 type=definitions: Ex Campano. Diffinitiones]
-
-Ex Campano. — *Diffinitiones*
+## Ex Campano. — *Diffinitiones*
 
 {dropcap:L|lines=?|style=decorated|decoration="depicting Coriolanus and Veturia, inscribed CORIOLAN above and VETVRIA below"}Atera numerorum dicuntur,quorum multiplicatione numeri producuntur. 2 Superficialis appellatur numerus,qui sub duobus lateribus continerur. 3 Solidus uero, qui sub tribus,ex quorum continua multiplicatione habet procreari. 4 Quadratus,est numerus superficialis æqualibus lateribus consistens. 5 Cubus,est solidus æqualibus consistens lateribus. 6 Similes dicuntur numeri superficiales siue solidi,quorū latera sunt proportionalia.
 

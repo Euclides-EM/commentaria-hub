@@ -1,6 +1,6 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Curated heading level=2 type=definitions: XLI.]
+[Curated heading level=3 type=definitions: XLI.]
 
 ### XLI.
 

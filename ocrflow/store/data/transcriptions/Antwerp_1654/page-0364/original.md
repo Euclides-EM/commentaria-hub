@@ -13,7 +13,7 @@ a Per hanc 28.
 b Per ſchol. p.6.huius.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXIX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXIX.]
 
 ## PROPOSITIO XXIX.
 

@@ -7,11 +7,7 @@ Car si elles pouvoient se rencontrer en un point O d’un côté ou de l’autre
 \* Pr. 15.
 [/Margin]
 
-[Curated heading level=1 type=lemmas: Livre I]
-
-[Curated heading level=2 type=propositions: PROPOSITION XX. LEMME.]
-
-[Curated heading level=2 type=lemmas: LEMME. PROPOSITION XX.]
+[Curated heading level=2 type=propositions: PROPOSITION XX.]
 
 ## PROPOSITION XX.
 

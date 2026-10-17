@@ -5,7 +5,7 @@
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: DEFINITIO 1.]
+[Curated heading level=3 type=definitions: 1]
 
 ### 1 {dropcap:P|lines=8|style=decorated|decoration="foliate ornamental initial in a square frame"}Vnctum, eſt quod partes non habet.
 
@@ -17,7 +17,7 @@ Ab negatione autem definit Euclides Punctum, quòd ad ſimpliciſſimum deuenire
 
 Punctum autem nonnulli à Signo ſic diſtinguunt, vt Punctum dicant eſſe quòd in medio eſt Figuræ: Signum verò, quod in termino, aut alibi quàm in medio. Sed nos hac curioſitate contempta, vtrunque ſine diſcrimine vnum & idem eſſe ponimus. Ex Puncti fluxu perpetuo in longum, gigni intelligitur Linea: Quæ ſic definitur,
 
-[Curated heading level=2 type=definitions: DEFINITIO 2.]
+[Curated heading level=3 type=definitions: 2]
 
 ### 2 Linea, eſt longitudo latitudinis expers.
 
@@ -25,13 +25,13 @@ Magnitudinum prima eſt Linea: cui ex iis tribus quæ Puncto negãtur, vnum ine�
 
 Non igitur ſicut ex accumulatis Vnitatibus fit Numerus, ſic ex additis Punctis fit Linea: ſed ex ipſorum fluxu continuo. Atque in hoc differt Continuum à Diſcreto, quòd Continuum infinitè diuidatur: neque ad Punctum vnquam deueniatur, vt in Diſcretis ad Vnitatem.
 
-[Curated heading level=2 type=definitions: DEFINITIO 3.]
+[Curated heading level=3 type=definitions: 3]
 
 ### 3 Lineæ autem limites, ſunt puncta.
 
 A Puncto Linea oritur, & in idem deſinit. Sed hoc loco dubitatur quonam modo Puncta Lineæ ſint limites, quum Circuli peripheria nullos terminos videatur habere. Sanè Puncta eius Lineæ limites dicuntur eſſe, quæ terminata eſt. Peripheriam verò, quatenus extrema non habet, Puncta non terminant. Extrema autem ſi ponuntur, ea niſi Punctis deſignari non poſſunt: aut ſaltem puncto vno, quod duorum vicem ſupplebit.
 
-[Curated heading level=2 type=definitions: DEFINITIO 4.]
+[Curated heading level=3 type=definitions: 4]
 
 ### 4 Linea Recta, eſt quæ ex æquali ſua interiacet puncta.
 

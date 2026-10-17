@@ -1,11 +1,11 @@
 <!-- Running title: Liber Sextus. -->
 <!-- Page number: 205 -->
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIV.]
 
 ## PROPOSITIO XIV.
 
-[Curated heading level=2 type=figures: Fig. 30]
+[Curated heading level=5 type=figures: Fig. 30]
 
 {dropcap:P|lines=2|style=plain}Arallelogramma æqualia (X, Z) quæ vnum angulum (C) vni (O) habent æqualem, etiam latera circa æquales angulos habent reciproca: (hoc eſt AC eſt ad C B, vt F O ad O L.)
 
@@ -33,11 +33,11 @@ o Per 11.l.5.
 q Per 9.l.5.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XV.]
 
 ## PROPOSITIO XV.
 
-[Curated heading level=2 type=figures: Fig. 31 & 32]
+[Curated heading level=5 type=figures: Fig. 31 & 32]
 
 {dropcap:Æ|lines=2|style=plain}Qualia triangula (A C L, F C B) quæ vnum angulum (C) vni (O) æqualem habent, etiam latera circa æ-
 

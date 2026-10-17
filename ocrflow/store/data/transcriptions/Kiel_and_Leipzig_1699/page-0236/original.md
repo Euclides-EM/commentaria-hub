@@ -8,9 +8,9 @@ Ist also ein gleichschencklichtes Dreyeck abd verfertiget/dessen
 Gipffelswinckel dab halb so groß/als einer von den Grundwinckeln
 dba oder bda. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XI. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XI. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 11. Werck-Stück. Der XI. Vortrag.]
+[Curated heading level=2 type=problems: Das 11. Werck-Stück.]
 
 ## Der XI. Vortrag.
 
@@ -32,13 +32,9 @@ Kreyß bcdae.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde ein gleichschencklicht Dreyeck ABC gemachet/ dessen
 Gipffelwinckel A halb so groß sey/ als einer von den Grundwin-
 ckeln B oder C, n. 10. IV.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Dem gegebenen Kreyß werde ein Dreyeck abc gleichwinck-
 licht dem Dreyeck ABC eingeschrieben/ n. 2. IV.

@@ -7,9 +7,9 @@
 
 Huic Propoſitioni hunc locum aſſignauimus: quam tamen poteramus ſtatim poſt trigeſimamquartam ſubijcere: Sed ad Quadrati mentionem reponere placuit, non vltrà: quanuis Euclides ad quartam Secundi diſtulerit.
 
-[Curated heading level=2 type=propositions: THEOREMA 33, PROPOSITIO XLVII.]
+[Curated heading level=2 type=propositions: THEOREMA 33, PROPOSITIO XLVII]
 
-[Curated heading level=2 type=theorems: THEOREMA 33, PROPOSITIO XLVII.]
+[Curated heading level=2 type=theorems: THEOREMA 33, PROPOSITIO XLVII]
 
 ## THEOREMA 33, PROPOSITIO XLVII, Campano 46.
 

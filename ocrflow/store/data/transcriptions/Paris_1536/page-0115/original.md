@@ -8,14 +8,14 @@ quòd vnuſquiſq; reliquorum angulorum qui ſub b/a/d, b/c/d, & a/d/c, bifariam
 Oſtenſio problematis, priori ſimilis.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Problema 10, Propoſitio 10.]
+[Curated heading level=3 type=propositions: Problema 10, Propoſitio 10.]
 
-[Curated heading level=2 type=problems: Problema 10, Propoſitio 10.]
+[Curated heading level=3 type=problems: Problema 10, Propoſitio 10.]
 
-## Πρόβλημα ι, Πρόθεσις ι.
+### Πρόβλημα ι, Πρόθεσις ι.
 Ἰσοσκελὲς τρίγωνον συστήσασθαι, ἔχον ἑκατέραν τῶν πρὸς τῇ βάσει γωνιῶν διπλασίονα τῆς λοιπῆς.
 
-## Problema 10, Propoſitio 10.
+### Problema 10, Propoſitio 10.
 
 ISoſceles triangulum cõſtituere, habens vnumquenque eorum qui ad baſin ſunt angulorum, duplum reliqui.
 

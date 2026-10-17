@@ -1,7 +1,7 @@
 <!-- Page number: 14 -->
 <!-- Running title: EVCL. ELEMENT. GEOMET. -->
 
-[Curated heading level=2 type=propositions: Propoſitio quadrageſimatertia.]
+[Curated heading level=3 type=propositions: Propoſitio quadrageſimatertia.]
 
 ### Propoſitio quadrageſimatertia.
 
@@ -15,9 +15,9 @@ Sit parallelogrammum A B G D, cuius dimetiens ſit A G. Circa dimetientem verò 
 
 Idem ſequetur licet quæ circa dimetientem communem angulum non habeãt toti: nam ab æqualibus æqualia ablata ſemper æqualia relinquunt, quapropter communem angulum optari non diximus.
 
-[Curated heading level=2 type=propositions: Propoſitio quadrageſimaquarta.]
+[Curated heading level=3 type=propositions: Propoſitio quadrageſimaquarta.]
 
-[Curated heading level=2 type=problems: Propoſitio quadrageſimaquarta. Problema 12.]
+[Curated heading level=3 type=problems: Problema 12.]
 
 ### Propoſitio quadrageſimaquarta.
 
@@ -31,9 +31,9 @@ Sit data recta linea A B, datum verò triangulum G. datus autem angulus D, oport
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: Propoſitio 45.]
+[Curated heading level=3 type=propositions: Propoſitio 45.]
 
-[Curated heading level=2 type=problems: Propoſitio 45. Problema.13]
+[Curated heading level=3 type=problems: Problema.13]
 
 ### Propoſitio 45.
 

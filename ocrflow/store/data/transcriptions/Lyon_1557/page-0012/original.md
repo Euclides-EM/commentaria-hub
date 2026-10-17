@@ -9,7 +9,7 @@ Igitur Linea Recta, eſt à puncto ad punctum via breuiſſima: ſeu, vt Archime
 
 Ac quemadmodum ex Puncti fluxu in continuum, exit Linea: ita ex Lineæ in tranſuerſum ductu, oritur Superficies: Quæ ſic definitur.
 
-[Curated heading level=2 type=definitions: DEFINITIO 5.]
+[Curated heading level=3 type=definitions: 5]
 
 ### 5 Superficies, eſt quæ longitudinem & latitudinem tantùm habet.
 
@@ -17,13 +17,13 @@ Superficiei vnum ex tribus abnegatur quæ Solido inſunt, nempe craſſum ſeu p
 
 Ac tametſi, Punctum, Linea, & Superficies intellectu tantùm capi videantur, non re exiſtere, neque oſtendi poſſe: habet tamen vnumquodque horum in rerum natura quo repræſentetur. Puncta enim corpuſculis inſecabilibus aſſimilantur, quæ in radijs Solis colludunt: Lineæ radijs ipſis: Superficies vmbris, vt quæ terram nunquam ſubeant: ſeu etiam coloribus, ex Pythagoreorum ſententia. Puncta igitur, atomi ſunt: Lineæ materia: Superficies forma. Atque ex his Corpus, quod longum, latum, & craſſum eſt.
 
-[Curated heading level=2 type=definitions: DEFINITIO 6.]
+[Curated heading level=3 type=definitions: 6]
 
 ### 6 Superficiei extrema, ſunt Lineæ.
 
 Hoc loco dubium mouetur ſimile quod & in terminis ipſius Lineæ: quur Lineas Superficiei extrema eſſe dicat Euclides. Nam ſuperficiei Sphæricæ vnica linea terminus eſt. Verùm qui ſuperiorem explicationem acceperit, is etiam in hac facilè conquieſcet. Superficies enim rotunda quomodocunque diuidatur: (ea autem diuiſio fit officio Diametri, aut lineæ cuiuſuis abſcindentis) ipſius limites erunt Lineæ. Eadem erit & terminorum Corporis, quæ Superficies ſunt, ratio.
 
-[Curated heading level=2 type=definitions: DEFINITIO 7.]
+[Curated heading level=3 type=definitions: 7]
 
 ### 7 Plana Superficies, eſt quæ ex æquali ſuas interiacet lineas.
 
@@ -33,7 +33,7 @@ Conuenit hæc Planæ Superficiei Definitio cum Rectæ Lineæ definitione. Quum i
 
 A plana igitur Superficie ſic excluditur ſphærica, ſeu rotunda, vt à recta linea excluditur Peripheria.
 
-[Curated heading level=2 type=definitions: DEFINITIO 8.]
+[Curated heading level=3 type=definitions: 8]
 
 ### 8 Planus Angulus, eſt duarum linearum in plano ſeſe tangentium alterius ad alteram inclinatio.
 

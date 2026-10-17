@@ -3,7 +3,7 @@
 
 ECONTRARIO, Quæ inter ſe ſunt æqualia, ſibi mutuo congruent. ſi alterum alteri ſuperponatur. Intelligendum eſt autem, quantitates ſibi mutuo congruentes, eſſe æquales ſecundum id duntaxat, in quo ſibi congruunt; Congruit autem longitudo longitudini tantum, ſuperficies ſuperficiei, ſolidum ſolido, linearum inclinatio inclinationi linearum &c.
 
-[Curated heading level=2 type=axioms: IX.]
+[Curated heading level=3 type=axioms: IX.]
 
 ### IX.
 
@@ -13,7 +13,7 @@ ET totum ſua parte maius eſt.
 
 CVM pars a toto ablata relinquat adhuc aliquid, ne totum ipſum auferatur; perſpicuum eſt, omne totum ſua eſſe parte maius.
 
-[Curated heading level=2 type=axioms: X.]
+[Curated heading level=3 type=axioms: X.]
 
 ### X.
 

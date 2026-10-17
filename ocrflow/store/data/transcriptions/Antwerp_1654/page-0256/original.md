@@ -1,13 +1,11 @@
 <!-- Running title: Liber Vndecimus. -->
 <!-- Page number: 223 -->
 
-[Curated heading level=1 type=propositions: Liber XI]
-
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO PRIMA.]
+[Curated heading level=2 type=propositions: PROPOSITIO PRIMA.]
 
 ## PROPOSITIO PRIMA.
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 {dropcap:R|lines=2|style=plain}Ecta lineæ pars vna (AC) nequit eſſe in ſubiecto plano (OE) altera (CB) extra planum.
 
@@ -17,11 +15,11 @@ Fig.9.
 
 Per ſe clarum eſt ex definitione plani, & lineæ rectæ vide defin. 5. & 4.l.1.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO II.]
+[Curated heading level=2 type=propositions: PROPOSITIO II.]
 
 ## PROPOSITIO II.
 
-[Curated heading level=2 type=figures: Fig. 10]
+[Curated heading level=5 type=figures: Fig. 10]
 
 {dropcap:O|lines=2|style=plain}Mne triangulum in vno eſt plano. Et duæ rectæ ſe mutuo ſecantes in eodem plano ſunt.
 
@@ -31,11 +29,11 @@ Fig.10.
 
 Prima pars per ſe clara eſt, cum triangulum nihil ſit aliud, quam plana ſuperficies, tribus rectis comprehenſa. Ex quo etiam patet pars altera.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO III.]
+[Curated heading level=2 type=propositions: PROPOSITIO III.]
 
 ## PROPOSITIO III.
 
-[Curated heading level=2 type=figures: Fig. 11]
+[Curated heading level=5 type=figures: Fig. 11]
 
 {dropcap:S|lines=2|style=plain}I duo plana (AB,CD) ſe mutuo ſecant; (EF) communis eorum ſectio eſt recta linea.
 

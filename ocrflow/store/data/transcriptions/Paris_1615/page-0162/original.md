@@ -10,12 +10,12 @@ L’autre moyen d’argumenter peut eſtre dit diuiſion contraire de raiſon, c
 
 Il eſt euident qu’en ceſte diuiſion contraire de raiſon, le conſequent doit eſtre plus grand que l’antecedant.
 
-[Curated heading level=2 type=definitions: 16.]
+[Curated heading level=3 type=definitions: 16.]
 
 16. Conuerſion de raiſon eſt comparer l’antecedant à l’excez, par lequel l’antecedant ſurpaſſe le conſequent.
 
 Comme ſi on dit, que comme AB eſt à CB, (ſoit veuë la figure de la 14.def.)ainſi DE a FE: & on vient à conclure que AB antecedant ſera außi à AC, excez, par lequel il ſurmonte le conſequent, comme D E ant ecedant ſera à DF, excez par lequel l’antecedat excede le conſequent, cela ſera dit conuerſion de raiſon. En ceſte ſorte d’arzumenter les autheurs parlent ordinairement ainſi: comme AB eſt à CB ainſi D E eſt à FE: Donc par conuerſion de raiſon AB ſera à AC, comme DE à DF: laquelle ſorte d’argumenter ſera demonſtree au corell.de la 19.p. de ce liure. Ceſte16.def a eſte retranchee par Dounor.
 
-[Curated heading level=2 type=definitions: 17.]
+[Curated heading level=3 type=definitions: 17.]
 
 17. Raiſon egalle eſt lors qu’il y a pluſieurs grandeurs d’vn coſté, & autant de l’autre en

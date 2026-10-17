@@ -6,9 +6,9 @@
 
 Wird dannenhero allezeit das □ , so mit einem △ auff einem Grundstrich / und zwischen einerley Nebenstrichen stehet/ doppelt so groß/als das △ seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XLII. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XLII. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 11. Werck-Stück. Der XLII. Vortrag.]
+[Curated heading level=2 type=problems: Das 11. Werck-Stück.]
 
 ## Der XLII. Vortrag.
 
@@ -31,19 +31,11 @@ Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck 
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Durch denn Gipffel des △ werde dem Grundstrich gegen über/ der Nebenstrich GA gezogen / nach 31. Vortr.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Der Grundstrich BC werde in zwey gleiche Theile geschnitten in E, nach 10. Vortr.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Auff des Grundstrichs Enddüttel E setze man den Winckel ECG ⋀ D, nach 23. Vortr.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Aus E ziehe man EF ⟛ CG nach 31. Vortr.
 

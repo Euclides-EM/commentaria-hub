@@ -16,15 +16,9 @@ sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als d
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde die Seite CA nach nohturfft verlängert. n. 2. Fod.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. werde AD | AB n. 3. Vortr.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Ziehe man den geraden Strich BD.
 

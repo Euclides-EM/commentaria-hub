@@ -2,9 +2,9 @@
 
 <!-- Page number: 268 -->
 
-[Curated heading level=2 type=propositions: Der XVI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XVI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 16. Beweiß-Stück. Der XVI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 16. Beweiß-Stück.]
 
 ## Der XVI. Vortrag.
 

@@ -4,7 +4,7 @@ hyp. | 18 3|2 12 *l'excez des toutes eſt 6.*
 hyp. | 7 2|2 7 *les retranchées.*
 18.a.1 | 11 3|2 5 *l'excez des reſtantes eſt 6.*
 
-[Curated heading level=2 type=axioms: AXIOME 19. a. 1.]
+[Curated heading level=3 type=axioms: 19. a. 1.]
 
 ### 19. a. 1.
 
@@ -15,7 +15,7 @@ hyp. | ac, cd, db, *ſont parties de* ab.
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 19. a. b.]
+[Curated heading level=4 type=axioms: 19. a. b.]
 
 ### 19. a. b.
 
@@ -27,7 +27,7 @@ hyp. | ab, bc, cd, de *ſont* 2|2 đe.
 19.a.b. | AE *eſt quadruple de* AB.
 19.a.b. | AB *eſt le quart de* AE.
 
-[Curated heading level=2 type=axioms: AXIOME 20. a. 1.]
+[Curated heading level=3 type=axioms: 20. a. 1.]
 
 ### 20. a. 1.
 

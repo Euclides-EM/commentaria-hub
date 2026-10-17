@@ -8,7 +8,7 @@ CD est æqualis EF per hypothesim. | CD est egal EF par l'hypothese.
 
 AB est æqualis CD per primum axioma libri primi. | AB est egal CD par le premier axiome du premier liure.
 
-[Curated heading level=2 type=axioms: 1. a. b.]
+[Curated heading level=3 type=axioms: 1. a. b.]
 
 ### 1. a. b.
 
@@ -21,7 +21,7 @@ hyp. | a 2|2 c.
 hyp. | b 2|2 d.
 1.a.b | a 2|2 b.
 
-[Curated heading level=2 type=axioms: 1. a. c.]
+[Curated heading level=3 type=axioms: 1. a. c.]
 
 ### 1. a. c.
 

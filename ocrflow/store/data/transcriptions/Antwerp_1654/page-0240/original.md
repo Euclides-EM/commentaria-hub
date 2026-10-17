@@ -7,11 +7,11 @@
 b Per eand.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XVII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVII.]
 
 ## PROPOSITIO XVII.
 
-[Curated heading level=2 type=figures: Fig. 34]
+[Curated heading level=5 type=figures: Fig. 34]
 
 {dropcap:S|lines=2|style=plain}I tres rectæ (AB, FL, BC) fuerint proportionales, rectangulum ſub extremis (AB,BC) æquale erit quadrato mediæ (FL.)
 

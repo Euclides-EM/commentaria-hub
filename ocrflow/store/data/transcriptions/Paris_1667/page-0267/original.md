@@ -31,9 +31,9 @@ Donc kf. kg :: kd. kc.
 
 T. T :: p. p.
 
-[Curated heading level=2 type=propositions: LIV. VI. THEOREME, COROLLAIRE DU CINQUIEME.]
+[Curated heading level=3 type=propositions: VI. THEOREME, COROLLAIRE DU CINQUIEME.]
 
-[Curated heading level=2 type=theorems: LIV. VI. THEOREME, COROLLAIRE DU CINQUIEME.]
+[Curated heading level=3 type=theorems: VI. THEOREME, COROLLAIRE DU CINQUIEME.]
 
 ### VI. THEOREME, COROLLAIRE DU CINQUIEME.
 

@@ -1,7 +1,7 @@
 <!-- Page number: 10 -->
 <!-- Running title: ELEMENT. EVCLIDIS -->
 
-[Curated heading level=2 type=postulates: PETITIO 3.]
+[Curated heading level=3 type=postulates: 3]
 
 ### 3 Omni centro & interuallo Circulum deſcribere.
 
@@ -9,7 +9,7 @@
 
 Superficies plana in ambitum extendi infinitè poteſt:ſicut ab omni puncto in omne punctum recta linea duci: quò fit vt Circulus omni interuallo deſcribi poſſe concedatur.
 
-[Curated heading level=2 type=postulates: PETITIO 4.]
+[Curated heading level=3 type=postulates: 4]
 
 ### 4 Omnes angulos rectos inter ſe æquales eſſe.
 
@@ -17,7 +17,7 @@ Superficies plana in ambitum extendi infinitè poteſt:ſicut ab omni puncto in 
 
 Hæc conſtat ex decima Definitione. Rectus enim angulus, fit quum recta linea in rectam lineam ad prependiculum cadit: hoc eſt, æqualiter ipſi ſuperſtat. Id verò ex Circuli centro euidentiſsimè apparet. Vt ex A B C D, qui duabus Diametris ſe in E centro ſecantibus diuiditur in quadrantes, qui quatuor angulos qui ad E, ſubtendunt æquales, quia rectos.
 
-[Curated heading level=2 type=postulates: PETITIO 5.]
+[Curated heading level=3 type=postulates: 5]
 
 ### 5 Quum in duas rectas lineas recta linea incidens, interiores & in eadem parte angulos duobus rectis minores fecerit: rectas lineas productas tandem concurrere ad eam partem in qua anguli duobus rectis minores exiſtunt.
 
@@ -31,23 +31,23 @@ HOC TAMEN Poſtulatum inter Definitiones reponi poterat. Exponit enim lineas non
 
 ## ANIMI NOTIONES.
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 1.]
+[Curated heading level=3 type=axioms: 1]
 
 ### 1 Quæ eidem ſunt æqualia, & inter ſe ſunt æqualia.
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 2.]
+[Curated heading level=3 type=axioms: 2]
 
 ### 2 Et ſi æqualibus æqualia addantur, tota erunt æqualia.
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 3.]
+[Curated heading level=3 type=axioms: 3]
 
 ### 3 Et ſi ab æqualibus æqualia auferantur:quæ relinquuntur erunt æqualia.
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 4.]
+[Curated heading level=3 type=axioms: 4]
 
 ### 4 Et ſi inæqualibus æqualia adiiciantur: tota erunt inæqualia.
 
-[Curated heading level=2 type=axioms: ANIMI NOTIO 5.]
+[Curated heading level=3 type=axioms: 5]
 
 ### 5 Et ſi ab inæqualibus æqualia auferantur: reliqua erũt inæqualia.
 

@@ -1,7 +1,7 @@
 <!-- Page number: 88 -->
 <!-- Running title: Des dritten bůchs Euclidis -->
 
-[Curated heading level=2 type=propositions: XXXII. Die zweyvnnddreyſſigſt Propoſition]
+[Curated heading level=2 type=propositions: XXXII Die zweyvnnddreyſſigſt Propoſition.]
 
 ## XXXII Die zweyvnnddreyſſigſt Propoſition.
 

@@ -41,6 +41,7 @@ type JobSubmission struct {
 type Submitter interface {
 	CopyTo(localPath string, remotePath string) error
 	Discard(request *RemoteEnv) error
+	EnsureCapacity(remoteDir string, requiredBytes int64) error
 	FileExists(remotePath string) (bool, error)
 	PreparePythonEnv(request PythonEnvRequest) (*RemoteEnv, error)
 	Submit(request *RemoteEnv) (*JobSubmission, error)

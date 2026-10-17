@@ -5,13 +5,9 @@ qui doivent faire les coſtez angulaires des rectangles, ſans que je m'amuſe p
 
 Et quand je parle d'une ligne coupée en pluſieurs parties, j'entens toujours égales ou inégales, à moins que j'exprime qu'on les doive prendre égales.
 
-[Curated heading level=1 type=propositions: LIVRE QUATORZIEME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=1 type=theorems: LIVRE QUATORZIEME.]
-
-[Curated heading level=2 type=propositions: IX. PREMIER THEOREME.]
-
-[Curated heading level=2 type=theorems: IX. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 
@@ -27,9 +23,9 @@ Soit p la non coupée, & T la coupée en 5 parties b, c, d, f, g; il eſt bien v
 
 [Diagram: rectangle labelled T along the top, divided by dotted lines into five columns headed b, c, d, f and g, containing pb, pc, pd, pf and pg, with p at the left side]
 
-[Curated heading level=2 type=propositions: X. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: X. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 
@@ -47,9 +43,9 @@ C'eſt la même choſe que le precedent, excepté que la même ligne faiſant le
 
 Il eſt donc clair que T eſtant coupé en b, c, d, f, g. TT doit eſtre égal à Tb. Tc. Td. Tf. Tg.
 
-[Curated heading level=2 type=propositions: XI. TROISIEME THEOREME.]
+[Curated heading level=3 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XI. TROISIEME THEOREME.]
+[Curated heading level=3 type=theorems: TROISIEME THEOREME.]
 
 ### TROISIEME THEOREME.
 

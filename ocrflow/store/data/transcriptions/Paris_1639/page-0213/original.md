@@ -16,7 +16,7 @@ A, 6. B, 4. C, 12. D, 8.
 hyp. | a π b 2|2 c π d, 3.ſ.18.5 | b π a + b 2|2 d π c + d.
 6 4 12 8 4 10 8 20
 
-[Curated heading level=2 type=definitions: DEF. XV.]
+[Curated heading level=3 type=definitions: XV.]
 
 ### XV.
 

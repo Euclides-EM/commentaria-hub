@@ -1,6 +1,6 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Curated heading level=2 type=definitions: XXIX.]
+[Curated heading level=3 type=definitions: XXIX.]
 
 ### XXIX.
 
@@ -8,7 +8,7 @@ Quadrilaterarum autem figurarum, quadratum quidem est, quod & æquilaterum & rec
 
 [Figure: quarré ABCD, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite]
 
-[Curated heading level=2 type=definitions: XXX.]
+[Curated heading level=3 type=definitions: XXX.]
 
 ### XXX.
 

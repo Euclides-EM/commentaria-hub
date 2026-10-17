@@ -14,7 +14,7 @@ Hęc diffinitio,ex data nuper(cùm de planis loqueremur angulis)abstractiua circ
 
 Κέντρον δὲ τοῦ κύκλου,τὸ σημεῖον καλεῖται.
 
-[Curated heading level=2 type=definitions: Diffinitio 16.]
+[Curated heading level=4 type=definitions: 16]
 
 16 Centrum verò ipsius circuli, punctum adpellatur.
 
@@ -30,7 +30,7 @@ De puncto medio velim intelligas: vt punctum a, in obiecta circuli figura b/c/d/
 
 Διάμετρος δὲ τοῦ κύκλου,ἐστὶν εὐθεῖά τις,διὰ τοῦ κέντρου ἠγμένη,καὶ περατουμένη ἐφ᾽ ἑκάτερα τὰ μέρη ὑπὸ τῆς τοῦ κύκλου περιφερείας,ἥτις καὶ δίχα τέμνει τὸν κύκλον.
 
-[Curated heading level=2 type=definitions: Diffinitio 17.]
+[Curated heading level=4 type=definitions: 17]
 
 17 Dimetiens circuli,est recta quædam linea per centrum acta,& ex vtraque parte in circuli circunferētiam terminata, quæ circulum bifariam dispescit.
 
@@ -46,7 +46,7 @@ Dimetiētis à diagonio & axe differētia.
 
 Ἡμικύκλιον δέ,ἐστὶ τὸ περιεχόμενον σχῆμα ὑπό τε τῆς,διαμέτρου καὶ τῆς ἀπολαμβανομένης ὑπὸ τῆς τοῦ κύκλου περιφερείας.
 
-[Curated heading level=2 type=definitions: Diffinitio 18.]
+[Curated heading level=4 type=definitions: 18]
 
 18 Semicirculus,est figura quæ sub dimetiente,& ea quæ ex ipsa circuli circunferentia sublata est,cōtinetur.
 
@@ -60,7 +60,7 @@ Vt ea figura , quæ ex f/h/ dimetiente , & dimidia circuli circunferentia f/ g/ 
 
 Τμῆμα κύκλου,ἐστὶ τὸ περιεχόμενον ὑπό τε εὐθείας καὶ κύκλου περιφερείας.
 
-[Curated heading level=2 type=definitions: Diffinitio 19.]
+[Curated heading level=4 type=definitions: 19]
 
 19 Sectio circuli,est figura quæ sub recta linea,& circuli circunferentia aut maiore aut minore semicirculo,continetur.
 
@@ -76,7 +76,7 @@ Cùm enim recta linea per circuli centrum minimè ducitur, vtrinque tamen in cir
 Chorda. Arcus.
 [/Margin]
 
-## De rectilineis figuris.
+### De rectilineis figuris.
 
 POST CIRCVLAREM FIGVRAM, QVAE VNICO CLAVDITVR
 

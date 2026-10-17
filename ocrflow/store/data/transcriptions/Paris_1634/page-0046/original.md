@@ -1,18 +1,18 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Curated heading level=2 type=definitions: XX.]
+[Curated heading level=3 type=definitions: XX.]
 
 ### XX.
 
 Trilateræ quidem, quæ sub tribus. | Figures trilateres sont celles qui sont contenuës sous trois costez.
 
-[Curated heading level=2 type=definitions: XXI.]
+[Curated heading level=3 type=definitions: XXI.]
 
 ### XXI.
 
 Quadrilateræ verò, quæ sub quatuor. | Les figures quadrilateres sont celles qui sont contenues sous trois{printer-error-correction:quatre} costez.
 
-[Curated heading level=2 type=definitions: XXII.]
+[Curated heading level=3 type=definitions: XXII.]
 
 ### XXII.
 

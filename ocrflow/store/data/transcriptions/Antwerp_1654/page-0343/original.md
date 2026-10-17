@@ -11,7 +11,7 @@ d Patet ex 26.l.1.
 Fig.24.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
+[Curated heading level=5 type=numbered_corollaries: 3.]
 
 3. Superficies cylindri recti (G K) eſt ad ſuperficiem coni recti ( G B N, ) vt cylindri latus ad dimidium latus coni.
 
@@ -26,7 +26,7 @@ i Per 12. huius.
 
 ## Lemma ad ſequen.
 
-[Curated heading level=2 type=figures: Fig. 10]
+[Curated heading level=5 type=figures: Fig. 10]
 
 {dropcap:I|lines=2|style=plain}N triangulo N P V ducta ſit Q D parallela ad N V.
 

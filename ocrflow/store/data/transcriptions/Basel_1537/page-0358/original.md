@@ -4,6 +4,8 @@
 
 moueri cœpit secundum rectitudinem, eritq̃ linea hæc quasi b c d. Et quia (ex 32 primi & 5 eiusdem) angulus c a b est medietas recti, erit angulus c a d rectus, ideoq̃ pyramis hæc dicitur rectangula. Si autem latus a b sit lõgius latere b c, erit acutiãgula. Erit enim tũc (ex 32 primi & 19) eiusdẽ angulus c a b, minor medietate recti, ideoq̃ totus angulus c a d. est minor recto & acutus, quare pyramis acutiãgula. Quod si latus a b fuerit breuius latere b c, erit angulus c a d maior medietate recti (ex 32 primi & 19 eiusdẽ) & totus c a d, qui est duplus ad ipsum c a b, maior recto & obtusus, igitur & pyramis conuenienter tunc dicitur obtusiangula. Axis autẽ huius pyramidis, dicitur linea a b Basis uero eius, circulus quem describit linea c b super cẽtrum b. Dicitur quoque hæc pyramis columnæ rotundæ, illius uidelicet quam motu suo describeret parallelogrãmum proueniens ex a b & b c, latere a b manente fixo.
 
+[Curated heading level=3 type=definitions: Figura corporea rotunda]
+
 [Curated heading level=3 type=campanus_sequence: 11.]
 
 [Margin]
@@ -17,6 +19,8 @@ Sit parallelogrammum rectãgulum a b c d, figaturque latus a b, & eo fixo totum 
 [Diagram: cylinder with top circle through d and a, bottom circle through e and b; axis a b drawn inside]
 
 [Diagram: rectangle d a f / c b e with vertical line a b through the middle, centre g on the diagonal d e]
+
+[Curated heading level=3 type=definitions: Angulus corporeus]
 
 [Curated heading level=3 type=campanus_sequence: 12.]
 

@@ -8,7 +8,7 @@ Si A : B = C : D |  on peut faire dividendo  | A — B : B = C — D : D.
    9 : 3 = 12: 4. |                          | 9 — 3 : 3 = 12 — 4 : 4.
 [/Calculation]
 
-[Curated heading level=2 type=definitions: DEFINITION XVII.]
+[Curated heading level=3 type=definitions: XVII.]
 
 ### XVII.
 
@@ -19,7 +19,7 @@ Si  A : B = C : D |  il s'enſuit convertendo  | A : A — B = C : C — D.
     9 : 3 = 12: 4 |                           | 9 : 9 — 3 = 12 : 12 — 4.
 [/Calculation]
 
-[Curated heading level=2 type=definitions: DEFINITION XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 ### XVIII.
 
@@ -41,7 +41,7 @@ II.  a, b, c, d          10,   2,   30,  6
      A: D = a: d         15:   9, = 10:  6
 [/Calculation]
 
-[Curated heading level=2 type=definitions: DEFINITION XIX.]
+[Curated heading level=3 type=definitions: XIX.]
 
 ### XIX.
 

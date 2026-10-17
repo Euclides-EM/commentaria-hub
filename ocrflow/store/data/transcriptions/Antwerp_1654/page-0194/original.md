@@ -5,9 +5,9 @@ bile indicium eſſe æqualitatis rationum: non quidem per ſe immediatè, ſed 
 
 Verum quia indicium per multiplices, quantumuis iam ſecurum, nihilominus remotum eſt & implexum, hic aliud clariſſimum & proximum, quod promiſi ſupra, demonſtrabo.
 
-[Curated heading level=2 type=propositions: Lib. V, Pars II, Theorema 5.]
+[Curated heading level=2 type=propositions: Theorema 5.]
 
-## Theorema 5.
+### Theorema 5.
 
 [Margin]
 Fig.26.

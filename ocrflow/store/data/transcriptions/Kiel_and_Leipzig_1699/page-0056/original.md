@@ -5,9 +5,9 @@
 ### Beschluß.
 Müssen also jedwedes △es zweene Winckel auff allerley Weise genommen/ kleiner seyn/ als ⊥. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XIIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XIIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 11. Beweiß-Stück. Der XIIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 11. Beweiß-Stück.]
 
 ## Der XIIX. Vortrag.
 
@@ -32,11 +32,7 @@ Jedwedes Dreyeckes längste Seite überspannet den grössesten Winckel.
 
 ### 1. Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Von dem Strich AC werde abgeschnitten AD | AB, n. 3. Vortr.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werde der Strich BD gezogen.
 

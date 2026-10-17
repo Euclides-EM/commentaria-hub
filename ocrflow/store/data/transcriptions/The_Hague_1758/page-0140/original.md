@@ -6,7 +6,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XXVI. THEOREME XXIII.]
 
-[Curated heading level=2 type=theorems: THEOREME XXIII. PROPOSITION XXVI.]
+[Curated heading level=2 type=theorems: PROPOSITION XXVI. THEOREME XXIII.]
 
 ## PROPOSITION XXVI. *THEOREME XXIII.*
 

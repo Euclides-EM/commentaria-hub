@@ -21,9 +21,9 @@ Dw. dce ∠ dbe — n. 7. Gr. I.
 
 Sind also allezeit diejenigen Winckel/welche in einem Kreyßstück stehen/ gleich groß. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 20. Beweiß-Stück. Der XXII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 20. Beweiß-Stück.]
 
 ## Der XXII. Vortrag.
 

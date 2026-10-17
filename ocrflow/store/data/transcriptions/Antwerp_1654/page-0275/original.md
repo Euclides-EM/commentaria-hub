@@ -1,11 +1,11 @@
 <!-- Page number: 242 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXI.]
 
 ## PROPOSITIO XXXI.
 
-[Curated heading level=2 type=figures: Fig. 33]
+[Curated heading level=5 type=figures: Fig. 33]
 
 {dropcap:P|lines=2|style=plain}Arallelepipeda ſuper æqualibus baſibus (AO & EG) & in eadem altitudine (S) ſunt æqualia.
 

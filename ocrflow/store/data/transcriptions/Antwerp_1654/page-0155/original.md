@@ -1,7 +1,7 @@
 <!-- Page number: 122 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=figures: Fig. 14]
+[Curated heading level=5 type=figures: Fig. 14]
 
 bus angulis trianguli æquilateri quorum ſinguli conficiunt d duas tertias vnius recti.
 
@@ -10,7 +10,7 @@ d Per corol. 12.p.32.l.1.
 Fig.14.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
+[Curated heading level=5 type=numbered_corollaries: 3.]
 
 3. Si ducatur inſuper diameter P S, perpendicularis alteri F B, & interuallo radij P A, centris P, &, S, ſectiones fiant in O, & Q, in R, & T; puncta P,E,O,F,R,G,S,D, T,B,Q C, rectis lineis connexa dabũt duodecangulum ordinatum vnâ circini aperturâ circulo inſcriptum. Id quod magno eſt vſui in Gnomonica.
 
@@ -18,11 +18,11 @@ Fig.14.
 Fig.14.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 4.]
+[Curated heading level=5 type=numbered_corollaries: 4.]
 
 4. Ex demonſtratis elicitur etiam deſcriptio facillima trianguli æquilateri in circulo. Ducta diametro F B, centro B per A centrum deſcribe arcum C A D. Puncta C, F, D, rectis iuncta dant æquilaterum quæſitum.
 
-[Curated heading level=4 type=numbered_item: 5.]
+[Curated heading level=5 type=numbered_corollaries: 5.]
 
 5. Æquilateri trianguli latus (C X D) à diametro (B F) ad ipſum perpendiculari, quartam partem (B X) abſcindit. Nam anguli A C X,B C X, æqualibus arcubus G D, D B inſiſtentes , æquales e ſunt : & latera A C,C X æquantur lateribus B C,C X. Ergo A X,B X f æquales ſunt. Ergo B X eſt quarta pars diametri B F.
 

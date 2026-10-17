@@ -36,15 +36,15 @@ Pars secunda
 Tertia pars.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 2, Propositio 5.]
+[Curated heading level=3 type=propositions: Theorema 2, Propositio 5.]
 
-[Curated heading level=2 type=theorems: Theorema 2, Propositio 5.]
+[Curated heading level=3 type=theorems: Theorema 2, Propositio 5.]
 
-## Θεώρημα β, Πρόθεσις ε.
+### Θεώρημα β, Πρόθεσις ε.
 
 Τῶν ἰσοσκελῶν τριγώνων αἱ πρὸς τῇ βάσει γωνίαι ἴσαι ἀλλήλαις ἐισί.καὶ προσεκβληθεισῶν τῶν ἴσων εὐθειῶν,αἱ ὑπὸ τὴν βάσιν γωνίαι ἴσαι ἀλλήλαις ἔσονται.
 
-## Theorema 2, Propositio 5.
+### Theorema 2, Propositio 5.
 
 5 ISoscelium triangulorum qui ad basin sunt anguli,adinuicem sunt æquales : & productis æqualibus rectis lineis , qui sub basi sunt anguli adinuicem æquales erunt.
 

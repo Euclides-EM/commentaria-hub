@@ -1,11 +1,11 @@
 <!-- Running title: Elementorum Geometriæ -->
 <!-- Page number: 60 -->
 
-[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO V.]
+[Curated heading level=2 type=propositions: PROPOSITIO V.]
 
 ## PROPOSITIO V.
 
-[Curated heading level=2 type=figures: Fig. 5]
+[Curated heading level=5 type=figures: Fig. 5]
 
 [Margin]
 Fig.5.
@@ -57,11 +57,11 @@ e Per 4.l.2.
                   quad. R S  }
 [/Calculation]
 
-[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO VI.]
+[Curated heading level=2 type=propositions: PROPOSITIO VI.]
 
 ## PROPOSITIO VI.
 
-[Curated heading level=2 type=figures: Fig. 6]
+[Curated heading level=5 type=figures: Fig. 6]
 
 [Margin]
 Fig.6.

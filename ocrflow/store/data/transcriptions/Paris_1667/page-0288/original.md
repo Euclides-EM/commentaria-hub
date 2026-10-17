@@ -5,11 +5,13 @@
 
 Ce qui fait voir que les *tout-egales* ſont toûjours *ſemblables*, puiſqu'il y a même raiſon entre les coſtez de l'une & de l'autre, qui eſt la raiſon de l'égalité. Au lieu que les *ſemblables* ne ſont pas tous toûjours *tout-egales*, puiſqu'il peut y avoir une autre raiſon que celle d'égalité, qui ſoit la même entre les coſtez de l'une & de l'autre.
 
+[Curated heading level=5 type=definitions: Les coſtez des figures ſemblables]
+
 Les coſtez des figures ſemblables, entre leſquels il y a même raiſon, s'appellent les coſtez *Homologues*, qui ſont toûjours le plus grand coſté de l'une & de l'autre : & toûjours ainſy. Et c'eſt ce qui produit ce Theoreme.
 
-[Curated heading level=2 type=propositions: XII. PREMIER THEOREME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XII. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 
@@ -31,8 +33,6 @@ Puiſque *B* eſt à *b*, comme *C* à *c*, & *D* à *d*.
 
 Les trois d'une part (qui font le circuit de la premiere figure) ſont aux trois de l'autre part (qui font le circuit de la ſeconde) en même raiſon que chacune d'une part à chacune de l'autre. C'eſt ce qui a eſté demonſtré, II. 52.
 
-[Curated heading level=2 type=definitions: XIII. AUTRES DEFINITIONS.]
-
 #### AUTRES DEFINITIONS.
 
 [Curated heading level=4 type=paragraph_order: XIII.]
@@ -43,6 +43,10 @@ XIII.
 
 Quand on compare deux figures de même ou de differentes eſpeces.
 
+[Curated heading level=5 type=definitions: 5.]
+
 5. Si le circuit de l'une eſt égal au circuit de l'autre, on les appelle *Iſoperimetres*.
+
+[Curated heading level=5 type=definitions: 6.]
 
 6. Si l'eſpace que comprend l'une eſt égal à l'eſpace que comprend l'autre, on les appelle *égales*. Ce qui appartient au Livre où l'on traittera des figures conſiderées ſelon *l'aire*. Et ce qu'il ne faut pas confondre, comme il a déja eſté dit, avec celles qu'on appelle *tout-egales*.

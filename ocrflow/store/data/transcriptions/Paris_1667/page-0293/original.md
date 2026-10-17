@@ -27,11 +27,9 @@ La ſeconde, de combien de degrez eſt l'angle de la figure; c'eſtadire l'angle
 
 La troiſiême, quel eſt auſſy l'angle que fait un raion ſur un coſté: c'eſt ce qui ſe verra par ces trois Problemes.
 
-[Curated heading level=1 type=problems: LIVRE DOVZIEME.]
+[Curated heading level=5 type=propositions: PREMIER PROBLEME.]
 
-[Curated heading level=2 type=propositions: XXI. PREMIER PROBLEME.]
-
-[Curated heading level=2 type=problems: XXI. PREMIER PROBLEME.]
+[Curated heading level=5 type=problems: PREMIER PROBLEME.]
 
 ##### PREMIER PROBLEME.
 
@@ -49,9 +47,9 @@ Ainſy l'arc d'une figure de 15 coſtez eſt de 24 degrez, parceque 15 diviſant
 
 L'arc d'une figure de 3600 coſtez eſt de 6 minutes, parceque 21600 minutes eſtant diviſé par 3600, le quotient eſt 6.
 
-[Curated heading level=2 type=propositions: XXII. SECOND PROBLEME.]
+[Curated heading level=5 type=propositions: SECOND PROBLEME.]
 
-[Curated heading level=2 type=problems: XXII. SECOND PROBLEME.]
+[Curated heading level=5 type=problems: SECOND PROBLEME.]
 
 ##### SECOND PROBLEME.
 

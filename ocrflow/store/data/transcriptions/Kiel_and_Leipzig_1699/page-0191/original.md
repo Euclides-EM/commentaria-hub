@@ -2,9 +2,9 @@
 
 <!-- Page number: 174 -->
 
-[Curated heading level=2 type=propositions: Der XXVI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXVI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 23. Beweiß-Stück. Der XXVI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 23. Beweiß-Stück.]
 
 ## Der XXVI. Vortrag.
 
@@ -35,11 +35,7 @@ und bic ⊻ dke   n. 24. III.
 
 ### II. Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 Es werden gezogen 1. die Stralen ba, ca und df, ef.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Die geraden Striche bc und de.
 

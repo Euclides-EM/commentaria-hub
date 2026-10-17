@@ -2,7 +2,7 @@
 
 tres ED, EF, EA, proportionales, atque adeo EF, media proportionalis inter quãlibet lineam quæ circulum ſecet, & ſegmentum eius exterius. Quod eſt propoſitum.
 
-[Curated heading level=4 type=numbered_item: X.]
+[Curated heading level=4: X]
 
 [Margin]
 X.
@@ -28,7 +28,7 @@ PORRO eadem ratione ſegmenta perpendiculariũ AD, CE, in poſteriori figura ſe
 4. ſexti.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: XI.]
+[Curated heading level=4: XI]
 
 [Margin]
 XI.

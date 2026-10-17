@@ -9,7 +9,7 @@ PATET etiam ex hac demonſtratione, ſi quotquot numeri fuerint ab unitate conti
 
 LIBET hoc loco nonnulla alia theoremata demonſtrare ad numeros continue proportionales pertinentia, quæ tum ad ea, quæ ſequuntur, tum ad alia multa erunt vtilia, hinc initium ſumentes.
 
-[Curated heading level=4 type=numbered_item: I.]
+[Curated heading level=4: I]
 
 [Margin]
 I.

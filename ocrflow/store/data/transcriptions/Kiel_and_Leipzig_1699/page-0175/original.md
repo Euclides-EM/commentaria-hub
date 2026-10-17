@@ -2,15 +2,9 @@
 
 <!-- Page number: 158 -->
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Wie auch alle Senckstriche ad, ao, ak, ai.
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Aus dem Mittel-Düpffel a.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. Auff die im Kreyß stehende Striche bc, en, ef, hg gezogen.
 
@@ -40,9 +34,9 @@ und hg ⊢ bc — n. 1. Gr. d. I.
 
 Jst also der Durchschlag ml der längste Strich: die Striche so näher bey dem Mittel a, sind länger/ als die/so weiter davon entfernet ; und die/ so weiter vom Mittel a stehen/ sind kürtzer/ als die/ welche dem Mittel a näher stehen. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XVI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XVI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 15. Beweiß-Stück. Der XVI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 15. Beweiß-Stück.]
 
 ## Der XVI. Vortrag.
 

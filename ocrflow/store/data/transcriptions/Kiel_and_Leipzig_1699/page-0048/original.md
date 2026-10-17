@@ -4,21 +4,15 @@
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Wird der gantze Striche in zween gleiche Theile getheilet.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Jedwede helffte / wird wiederumb in zween gleiche Theile getheilet.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Jedweder Vierthel wird abermahl in zween gleiche Theile geschnitten/ und so fort an.
 
-[Curated heading level=2 type=propositions: Der XI. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XI Vortrag.]
 
-[Curated heading level=2 type=problems: Das 6. Werck-Stück. Der XI. Vortrag.]
+[Curated heading level=2 type=problems: Das 6. Werckstück.]
 
 ## Der XI Vortrag.
 
@@ -40,15 +34,9 @@ Auff einen gegebenen geraden Strich / und zwar auff den darin gegebenen Düttel/
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus dem gegebenen Düttel C wird nach beliebiger weite ein Kreyß gezogen / welcher den gegebenen Strich in E und F durchschneidet.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Auff dem Strich EF wird ein gleichseitiges (oder gleichschenckliches) △ gesetzet/ nach 1. Vortr.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Aus dieses △es Gipffel D wird ein gerader Strich DC zu dem gegebenen Düttel C gezogen.
 

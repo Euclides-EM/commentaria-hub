@@ -2,6 +2,7 @@ package service
 
 import (
 	"archive/zip"
+	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
@@ -13,15 +14,15 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
-	"github.com/samber/lo"
 )
 
 const (
-	defaultLocalMaxBackupsToStore = 2
-	defaultDriveMaxBackupsToStore = 5
-	zipProgressLogEveryFiles      = 100
-	backupZipPrefix               = "euclides_backup_"
+	defaultDriveMaxBackupsToStore       = 5
+	zipProgressLogEveryFiles            = 100
+	backupZipPrefix                     = "euclides_backup_"
+	backupDiskReserveBytes        int64 = 2 * 1024 * 1024 * 1024
 )
 
 type dirZipStats struct {
@@ -31,8 +32,18 @@ type dirZipStats struct {
 }
 
 type driveBackupEntry struct {
-	name  string
-	isDir bool
+	name       string
+	isDir      bool
+	size       int64
+	modifiedAt *time.Time
+}
+
+type rcloneJSONEntry struct {
+	Path    string    `json:"Path"`
+	Name    string    `json:"Name"`
+	Size    int64     `json:"Size"`
+	ModTime time.Time `json:"ModTime"`
+	IsDir   bool      `json:"IsDir"`
 }
 
 type Backup struct {
@@ -56,8 +67,8 @@ type Backup struct {
 }
 
 func NewBackup(baseData, models, items, db, backupDir, restoreDir, rcloneRemoteName, rcloneGDriveFolderID string, localMaxBackupsToStore, driveMaxBackupsToStore int, shutdownFunc func() error) *Backup {
-	if localMaxBackupsToStore <= 0 {
-		localMaxBackupsToStore = defaultLocalMaxBackupsToStore
+	if localMaxBackupsToStore < 0 {
+		localMaxBackupsToStore = 0
 	}
 	if driveMaxBackupsToStore <= 0 {
 		driveMaxBackupsToStore = defaultDriveMaxBackupsToStore
@@ -77,8 +88,8 @@ func NewBackup(baseData, models, items, db, backupDir, restoreDir, rcloneRemoteN
 	}
 }
 
-// ListBackups lists available backups.
-func (s *Backup) ListBackups() ([]string, error) {
+// ListLocalBackups lists backup IDs available on local storage.
+func (s *Backup) ListLocalBackups() ([]string, error) {
 	entries, err := os.ReadDir(s.backupdir)
 	if err != nil {
 		if os.IsNotExist(err) {
@@ -107,6 +118,49 @@ func (s *Backup) ListBackups() ([]string, error) {
 	return names, nil
 }
 
+// ListBackups returns the merged inventory across local storage and Drive.
+func (s *Backup) ListBackups() ([]*model.Backup, error) {
+	localIDs, err := s.ListLocalBackups()
+	if err != nil {
+		return nil, err
+	}
+	byID := make(map[string]*model.Backup, len(localIDs))
+	for _, id := range localIDs {
+		entry := &model.Backup{ID: id, LocalAvailable: true}
+		if info, statErr := os.Stat(filepath.Join(s.backupdir, id+".zip")); statErr == nil {
+			modifiedAt := info.ModTime()
+			entry.LocalSizeBytes = info.Size()
+			entry.LocalModifiedAt = &modifiedAt
+		}
+		byID[id] = entry
+	}
+
+	if s.driveConfigured() {
+		driveEntries, err := s.listDriveBackupMetadata()
+		if err != nil {
+			return nil, fmt.Errorf("list Drive backups: %w", err)
+		}
+		for _, driveEntry := range driveEntries {
+			id := strings.TrimSuffix(driveEntry.name, filepath.Ext(driveEntry.name))
+			entry := byID[id]
+			if entry == nil {
+				entry = &model.Backup{ID: id}
+				byID[id] = entry
+			}
+			entry.DriveAvailable = true
+			entry.DriveSizeBytes = driveEntry.size
+			entry.DriveModifiedAt = driveEntry.modifiedAt
+		}
+	}
+
+	backups := make([]*model.Backup, 0, len(byID))
+	for _, entry := range byID {
+		backups = append(backups, entry)
+	}
+	sort.Slice(backups, func(i, j int) bool { return backups[i].ID > backups[j].ID })
+	return backups, nil
+}
+
 // SetCheckpointFunc sets the function to run before copying the DB into a backup (e.g. PRAGMA wal_checkpoint(FULL)).
 // Call this after the DB is opened so backups include all committed data when SQLite is in WAL mode.
 func (s *Backup) SetCheckpointFunc(f func() error) {
@@ -115,6 +169,9 @@ func (s *Backup) SetCheckpointFunc(f func() error) {
 
 // CreateBackup creates a new backup of the current system state.
 func (s *Backup) CreateBackup(syncToDrive bool, progress func(string)) (string, error) {
+	if s.localMaxBackupsToStore == 0 && !syncToDrive {
+		return "", errors.New("backup: local retention is disabled; sync_to_drive must be true")
+	}
 	if err := s.ensureBackupDir(); err != nil {
 		return "", err
 	}
@@ -133,10 +190,14 @@ func (s *Backup) CreateBackup(syncToDrive bool, progress func(string)) (string, 
 	if err != nil {
 		return "", fmt.Errorf("create backup: create zip: %w", err)
 	}
-	defer func() { _ = f.Close() }()
-
 	zw := zip.NewWriter(f)
-	defer func() { _ = zw.Close() }()
+	finalized := false
+	defer func() {
+		if !finalized {
+			_ = zw.Close()
+			_ = f.Close()
+		}
+	}()
 
 	// Keep paths stable inside the ZIP, independent of absolute paths.
 	// Layout:
@@ -168,12 +229,15 @@ func (s *Backup) CreateBackup(syncToDrive bool, progress func(string)) (string, 
 	if err := addFileToZip(zw, s.dbPath, filepath.Join("db", filepath.Base(s.dbPath))); err != nil {
 		return "", err
 	}
+	if err := zw.Close(); err != nil {
+		return "", fmt.Errorf("create backup: finalize zip: %w", err)
+	}
+	if err := f.Close(); err != nil {
+		return "", fmt.Errorf("create backup: close zip: %w", err)
+	}
+	finalized = true
 
 	log.Printf("backup created: %s", dst)
-
-	if err := s.ensureMaxBackups(); err != nil {
-		log.Printf("warning: failed to ensure max backups after creating backup from zip: %v", err)
-	}
 
 	if syncToDrive {
 		if err := s.syncBackupToDrive(dst, name, progress); err != nil {
@@ -181,12 +245,24 @@ func (s *Backup) CreateBackup(syncToDrive bool, progress func(string)) (string, 
 		}
 	}
 
+	// Prune only after a successful Drive sync. With zero local retention this
+	// removes the staging ZIP while preserving it for retry if the upload fails.
+	if err := s.ensureMaxBackups(); err != nil {
+		log.Printf("warning: failed to ensure max local backups after creating backup: %v", err)
+	}
+
 	return strings.TrimSuffix(name, ".zip"), nil
 }
 
+// ApplyLocalRetention enforces the configured local backup count. It is safe
+// to call at startup after pending restore handling has completed.
+func (s *Backup) ApplyLocalRetention() error {
+	return s.ensureMaxBackups()
+}
+
 func (s *Backup) syncBackupToDrive(localPath, filename string, progress func(string)) error {
-	if s.rclone.RemoteName == "" {
-		return errors.New("backup: rclone remote name is not configured")
+	if !s.driveConfigured() {
+		return errors.New("backup: rclone remote is not configured")
 	}
 	if progress == nil {
 		progress = func(message string) {
@@ -204,6 +280,10 @@ func (s *Backup) syncBackupToDrive(localPath, filename string, progress func(str
 }
 
 func (s *Backup) SyncBackupToDrive(backupId string, progress func(string)) error {
+	if entry, err := s.findBackup(backupId); err == nil && entry.DriveAvailable {
+		log.Printf("backup already exists on Drive, skipping sync: %s", backupId)
+		return nil
+	}
 	zipPath, err := s.GetBackupFullPath(backupId)
 	if err != nil {
 		return err
@@ -213,6 +293,10 @@ func (s *Backup) SyncBackupToDrive(backupId string, progress func(string)) error
 	}
 	log.Printf("completed sync backup to drive: %s", zipPath)
 	return nil
+}
+
+func (s *Backup) driveConfigured() bool {
+	return s.rclone != nil && s.rclone.RemoteName != ""
 }
 
 func (s *Backup) ensureMaxDriveBackups() error {
@@ -246,6 +330,35 @@ func (s *Backup) listDriveBackups() ([]driveBackupEntry, error) {
 	return entries, nil
 }
 
+func (s *Backup) listDriveBackupMetadata() ([]driveBackupEntry, error) {
+	out, err := s.rclone.Run("lsjson", s.rclone.RemotePath(""), "--files-only")
+	if err != nil {
+		return nil, err
+	}
+	return parseDriveBackupMetadata(out)
+}
+
+func parseDriveBackupMetadata(data []byte) ([]driveBackupEntry, error) {
+	var rawEntries []rcloneJSONEntry
+	if err := json.Unmarshal(data, &rawEntries); err != nil {
+		return nil, fmt.Errorf("parse rclone lsjson: %w", err)
+	}
+	entries := make([]driveBackupEntry, 0, len(rawEntries))
+	for _, raw := range rawEntries {
+		name := raw.Name
+		if name == "" {
+			name = raw.Path
+		}
+		if raw.IsDir || filepath.Base(name) != name || !strings.HasPrefix(name, backupZipPrefix) || !strings.EqualFold(filepath.Ext(name), ".zip") {
+			continue
+		}
+		modifiedAt := raw.ModTime
+		entries = append(entries, driveBackupEntry{name: name, size: raw.Size, modifiedAt: &modifiedAt})
+	}
+	sort.Slice(entries, func(i, j int) bool { return entries[i].name > entries[j].name })
+	return entries, nil
+}
+
 func parseDriveBackupEntries(listing string) []driveBackupEntry {
 	var entries []driveBackupEntry
 	for _, line := range strings.Split(listing, "\n") {
@@ -276,30 +389,141 @@ func (s *Backup) deleteDriveBackup(entry driveBackupEntry) error {
 	return err
 }
 
-// SetupRestoreBackup restores the system state from the backup with the given ID (or latest if backupId is empty or "latest").
-func (s *Backup) SetupRestoreBackup(backupId string) error {
+func (s *Backup) findBackup(backupID string) (*model.Backup, error) {
 	backups, err := s.ListBackups()
 	if err != nil {
-		return err
+		return nil, err
 	}
 	if len(backups) == 0 {
-		return errors.New("setup restore: no backups found")
+		return nil, errors.New("no backups found")
 	}
-
-	backupToRestore := backupId
-	if backupToRestore == "" || backupToRestore == "latest" {
-		backupToRestore = backups[0]
-	} else {
-		if !lo.Contains(backups, backupToRestore) {
-			return fmt.Errorf("setup restore: backup not found: %s", backupToRestore)
+	if backupID == "" || backupID == "latest" {
+		return backups[0], nil
+	}
+	for _, backup := range backups {
+		if backup.ID == backupID {
+			return backup, nil
 		}
 	}
+	return nil, fmt.Errorf("backup not found: %s", backupID)
+}
 
-	log.Printf("backup: selected backup for restore: %s", backupToRestore)
+// PrepareBackupDownload resolves a local backup or temporarily stages a
+// Drive-only backup. The returned cleanup must be called after serving.
+func (s *Backup) PrepareBackupDownload(backupID string, progress func(string)) (filePath string, downloadName string, cleanup func(), err error) {
+	backup, err := s.findBackup(backupID)
+	if err != nil {
+		return "", "", nil, err
+	}
+	downloadName = backup.ID + ".zip"
+	if backup.LocalAvailable {
+		return filepath.Join(s.backupdir, downloadName), downloadName, nil, nil
+	}
+	filePath, cleanup, err = s.stageDriveBackup(backup, progress)
+	if err != nil {
+		return "", "", nil, err
+	}
+	return filePath, downloadName, cleanup, nil
+}
 
-	latest := filepath.Join(s.backupdir, backupToRestore+".zip")
-	if !fileExists(latest) {
-		return fmt.Errorf("setup restore: backup file not found: %s", latest)
+func (s *Backup) stageDriveBackup(backup *model.Backup, progress func(string)) (string, func(), error) {
+	if backup == nil || !backup.DriveAvailable {
+		return "", nil, errors.New("backup is not available on Drive")
+	}
+	if !s.driveConfigured() {
+		return "", nil, errors.New("backup Drive is not configured")
+	}
+	if err := ensureBackupDiskSpace(futils.TmpDir, backup.DriveSizeBytes, "Drive backup download"); err != nil {
+		return "", nil, err
+	}
+	tempDir, err := futils.MkdirTemp("backup-drive")
+	if err != nil {
+		return "", nil, fmt.Errorf("create Drive backup staging directory: %w", err)
+	}
+	cleanup := func() {
+		if err := os.RemoveAll(tempDir); err != nil {
+			log.Printf("warning: failed to clean Drive backup staging directory %s: %v", tempDir, err)
+		}
+	}
+	stagedPath := filepath.Join(tempDir, backup.ID+".zip")
+	if progress == nil {
+		progress = func(message string) {
+			log.Printf("backup Drive download progress: %s", strings.TrimSpace(message))
+		}
+	}
+	args := []string{"--progress", "--stats=10s", "--stats-one-line", "copyto", s.rclone.RemotePath(backup.ID + ".zip"), stagedPath}
+	if _, err := s.rclone.RunStreaming(progress, args...); err != nil {
+		cleanup()
+		return "", nil, fmt.Errorf("download backup from Drive: %w", err)
+	}
+	info, err := os.Stat(stagedPath)
+	if err != nil {
+		cleanup()
+		return "", nil, fmt.Errorf("stat staged Drive backup: %w", err)
+	}
+	if backup.DriveSizeBytes > 0 && info.Size() != backup.DriveSizeBytes {
+		cleanup()
+		return "", nil, fmt.Errorf("staged Drive backup size mismatch: got %d bytes, expected %d", info.Size(), backup.DriveSizeBytes)
+	}
+	return stagedPath, cleanup, nil
+}
+
+func ensureBackupDiskSpace(path string, requiredBytes int64, operation string) error {
+	if requiredBytes < 0 {
+		return fmt.Errorf("%s has invalid required size %d", operation, requiredBytes)
+	}
+	status, statusErr := filesystemStatus(path)
+	if statusErr != "" {
+		return errors.New(statusErr)
+	}
+	needed := uint64(requiredBytes) + uint64(backupDiskReserveBytes)
+	if status.AvailableBytes < needed {
+		return fmt.Errorf("not enough disk space for %s: required=%d reserve=%d available=%d", operation, requiredBytes, backupDiskReserveBytes, status.AvailableBytes)
+	}
+	return nil
+}
+
+func zipUncompressedSize(zipPath string) (int64, error) {
+	reader, err := zip.OpenReader(zipPath)
+	if err != nil {
+		return 0, err
+	}
+	defer func() { _ = reader.Close() }()
+	var total uint64
+	for _, file := range reader.File {
+		if ^uint64(0)-total < file.UncompressedSize64 {
+			return 0, errors.New("backup uncompressed size overflows uint64")
+		}
+		total += file.UncompressedSize64
+	}
+	if total > uint64(^uint64(0)>>1) {
+		return 0, errors.New("backup uncompressed size exceeds int64")
+	}
+	return int64(total), nil
+}
+
+// SetupRestoreBackup restores the system state from the backup with the given ID (or latest if backupId is empty or "latest").
+func (s *Backup) SetupRestoreBackup(backupId string) error {
+	backup, err := s.findBackup(backupId)
+	if err != nil {
+		return fmt.Errorf("setup restore: %w", err)
+	}
+	log.Printf("backup: selected backup for restore: %s local=%t drive=%t", backup.ID, backup.LocalAvailable, backup.DriveAvailable)
+
+	archivePath := ""
+	var cleanup func()
+	if backup.LocalAvailable {
+		archivePath = filepath.Join(s.backupdir, backup.ID+".zip")
+	} else {
+		archivePath, cleanup, err = s.stageDriveBackup(backup, nil)
+		if err != nil {
+			return fmt.Errorf("setup restore: stage Drive backup: %w", err)
+		}
+		defer func() {
+			if cleanup != nil {
+				cleanup()
+			}
+		}()
 	}
 
 	// Extract into restoreFromBackupPath (clean first).
@@ -309,15 +533,26 @@ func (s *Backup) SetupRestoreBackup(backupId string) error {
 	if err := os.RemoveAll(s.restoreFromBackupPath); err != nil {
 		return fmt.Errorf("setup restore: clean restore dir: %w", err)
 	}
+	uncompressedBytes, err := zipUncompressedSize(archivePath)
+	if err != nil {
+		return fmt.Errorf("setup restore: inspect backup: %w", err)
+	}
+	if err := ensureBackupDiskSpace(filepath.Dir(s.restoreFromBackupPath), uncompressedBytes, "restore extraction"); err != nil {
+		return fmt.Errorf("setup restore: %w", err)
+	}
 	if err := os.MkdirAll(s.restoreFromBackupPath, 0o755); err != nil {
 		return fmt.Errorf("setup restore: create restore dir: %w", err)
 	}
 
-	if err := unzip(latest, s.restoreFromBackupPath); err != nil {
+	if err := unzip(archivePath, s.restoreFromBackupPath); err != nil {
 		return fmt.Errorf("setup restore: unzip latest backup: %w", err)
 	}
+	if cleanup != nil {
+		cleanup()
+		cleanup = nil
+	}
 
-	log.Printf("backup: extracted latest backup %s to %s", latest, s.restoreFromBackupPath)
+	log.Printf("backup: extracted backup %s to %s", backup.ID, s.restoreFromBackupPath)
 
 	// Shutdown so restore can happen safely on next start.
 	if s.shutdownFunc != nil {
@@ -397,6 +632,12 @@ func (s *Backup) ensureBackupDir() error {
 }
 
 func (s *Backup) CreateBackupFromZip(file multipart.File, f func(dstPath string) error) (string, error) {
+	if s.localMaxBackupsToStore == 0 && !s.driveConfigured() {
+		return "", errors.New("create backup from zip: local retention is disabled and backup Drive is not configured")
+	}
+	if err := s.ensureBackupDir(); err != nil {
+		return "", err
+	}
 	dst, err := futils.CreateTemp("upload-*.zip")
 	if err != nil {
 		return "", fmt.Errorf("create backup from zip: create temp file: %w", err)
@@ -409,25 +650,47 @@ func (s *Backup) CreateBackupFromZip(file multipart.File, f func(dstPath string)
 		return "", fmt.Errorf("create backup from zip: save file: %w", err)
 	}
 
-	if err := f(dst.Name()); err != nil {
+	uncompressedBytes, err := zipUncompressedSize(dst.Name())
+	if err != nil {
+		return "", fmt.Errorf("create backup from zip: inspect zip: %w", err)
+	}
+	if err := ensureBackupDiskSpace(futils.TmpDir, uncompressedBytes, "backup upload validation"); err != nil {
+		return "", fmt.Errorf("create backup from zip: %w", err)
+	}
+	validationDir, err := futils.MkdirTemp("backup-upload-validation")
+	if err != nil {
+		return "", fmt.Errorf("create backup from zip: create validation directory: %w", err)
+	}
+	if err := f(validationDir); err != nil {
+		_ = os.RemoveAll(validationDir)
 		return "", fmt.Errorf("create backup from zip: process zip: %w", err)
+	}
+	if err := os.RemoveAll(validationDir); err != nil {
+		return "", fmt.Errorf("create backup from zip: clean validation directory: %w", err)
 	}
 
 	// validations can be added here if needed, e.g. check for expected files/dirs in the extracted content.
 
-	if err := futils.CopyFile(dst.Name(), filepath.Join(s.backupdir, fmt.Sprintf("%s%s.zip", backupZipPrefix, time.Now().UTC().Format("20060102T150405Z")))); err != nil {
+	name := fmt.Sprintf("%s%s.zip", backupZipPrefix, time.Now().UTC().Format("20060102T150405Z"))
+	backupPath := filepath.Join(s.backupdir, name)
+	if err := futils.CopyFile(dst.Name(), backupPath); err != nil {
 		return "", fmt.Errorf("create backup from zip: save backup: %w", err)
+	}
+	if s.driveConfigured() {
+		if err := s.syncBackupToDrive(backupPath, name, nil); err != nil {
+			return "", fmt.Errorf("create backup from zip: sync to Drive: %w", err)
+		}
 	}
 
 	if err := s.ensureMaxBackups(); err != nil {
 		log.Printf("warning: failed to ensure max backups after creating backup from zip: %v", err)
 	}
 
-	return "backup created from zip", nil
+	return strings.TrimSuffix(name, ".zip"), nil
 }
 
 func (s *Backup) GetBackupFullPath(backupId string) (string, error) {
-	l, err := s.ListBackups()
+	l, err := s.ListLocalBackups()
 	if err != nil {
 		return "", err
 	}
@@ -437,14 +700,21 @@ func (s *Backup) GetBackupFullPath(backupId string) (string, error) {
 	if backupId == "latest" {
 		backupId = l[0]
 	}
-	if !lo.Contains(l, backupId) {
+	found := false
+	for _, id := range l {
+		if id == backupId {
+			found = true
+			break
+		}
+	}
+	if !found {
 		return "", fmt.Errorf("backup not found: %s", backupId)
 	}
 	return filepath.Join(s.backupdir, backupId+".zip"), nil
 }
 
 func (s *Backup) ensureMaxBackups() error {
-	l, err := s.ListBackups()
+	l, err := s.ListLocalBackups()
 	if err != nil {
 		return fmt.Errorf("list backups: %w", err)
 	}

@@ -13,9 +13,9 @@ XLII.
 
 TROUVER le quarré égal à pluſieurs rectangles donnez , il ne faut que trouver les quarrez égaux à chacun de ces rectangles. Et puis on trouvera le quarré égal à tous ces quarrez.
 
-[Curated heading level=2 type=propositions: XLIII. QUATRIEME PROBLEME.]
+[Curated heading level=3 type=propositions: QUATRIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XLIII. QUATRIEME PROBLEME.]
+[Curated heading level=3 type=problems: QUATRIEME PROBLEME.]
 
 ### QUATRIEME PROBLEME.
 
@@ -43,9 +43,9 @@ Or b. d : : m. n.
 
 Donc b b. c c : : m. n.
 
-[Curated heading level=2 type=propositions: XLIV. CINQUIEME PROBLEME.]
+[Curated heading level=3 type=propositions: CINQUIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XLIV. CINQUIEME PROBLEME.]
+[Curated heading level=3 type=problems: CINQUIEME PROBLEME.]
 
 ### CINQUIEME PROBLEME.
 
@@ -59,9 +59,9 @@ DIVISER une ligne , en ſorte que le quarré de la plus grande portion ſoit ég
 
 Ce Probleme a eſté reſolu (XI. 68.) quand on a appris à couper une ligne en moyenne & extrême raiſon : c'eſtadire , en ſorte que la toute ſoit à la plus grande portion , comme la plus grande portion à la plus petite.
 
-[Curated heading level=2 type=propositions: XLV. SIXIEME PROBLEME.]
+[Curated heading level=3 type=propositions: SIXIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XLV. SIXIEME PROBLEME.]
+[Curated heading level=3 type=problems: SIXIEME PROBLEME.]
 
 ### SIXIEME PROBLEME.
 

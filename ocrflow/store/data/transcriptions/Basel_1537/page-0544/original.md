@@ -14,7 +14,7 @@ Sit, inquā, spectata magnitudo b c, oculus autē sit f, a quo procidant radij f
 
 [Diagram: circle with d at the upper left, c at the left, b at the lower left, f at the right; chords from f to b, c, d; s and r within]
 
-[Curated heading level=2 type=theorems: Theorema quadragesimumsextum.]
+[Curated heading level=2 type=theorems: Theorema quadragesimumsextum]
 
 ## Theorema quadragesimumsextum conuersum præcedentis.
 

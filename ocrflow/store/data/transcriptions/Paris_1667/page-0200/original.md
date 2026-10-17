@@ -3,7 +3,7 @@
 
 ſe que la moitié du tout moins la petite entiere. Car ſi le tout a pour portions b & c, la moitié du tout eſt égale à la moitié de b plus la moitié de c. Il faut donc oſter deux fois la moitié de c de la moitié du tout, pour rendre la moitié du tout égale à la moitié de b, dont on auroit oſté la moitié de c.
 
-[Curated heading level=2 type=lemmas: VI. QUATRIEME LEMME.]
+[Curated heading level=2 type=lemmas: QUATRIEME LEMME.]
 
 ## QUATRIEME LEMME.
 

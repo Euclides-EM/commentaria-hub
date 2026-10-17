@@ -1,13 +1,13 @@
 <!-- Running title: LIBER V. -->
 <!-- Page number: 117 -->
 
-[Curated heading level=2 type=definitions: DEFINITIO 12.]
+[Curated heading level=3 type=definitions: 12]
 
 ### 12 Similis rationis Magnitudines dicuntur, Antecedentia antecedentibus & Conſequentia conſequentibus.
 
 Similitudinem Rationum anteà propoſuit: hoc eſt, Proportionalitatem: hîc ſimilis rationis Magnitudines ſuis appellationibus nuncupat. ac ſi diceret, Magnitudines Proportionales ſignificantur, quatenus antecedunt & conſequuntur. Scilicet, ſumuntur æquemultiplicia Antecedentium, & æquemultiplicia Conſequentium: vt ex ijs proportionalitatem Magnitudinum colligamus. Hanc itaque appoſuit Euclides, vt vocabula, quæ dicunt, artis exprimeret. Antecedentium autem & Conſequentium variæ ſunt comparationes: quæ Definitionibus ſequentibus explicantur.
 
-[Curated heading level=2 type=definitions: DEFINITIO 13.]
+[Curated heading level=3 type=definitions: 13]
 
 ### 13 Permutata Ratio, eſt acceptio Antecedentis ad antecedens, vt Conſequentis ad conſequens.
 
@@ -15,7 +15,7 @@ Similitudinem Rationum anteà propoſuit: hoc eſt, Proportionalitatem: hîc ſi
 
 Prima comparatio Magnitudinum, quæ, pronuntiatione naturali, eſt vnius Antecedentis ad ſuum Conſequēs, ſicut alterius Antecedentis ad ſuum Conſequens, dux eſt atque origo cæterarum comparationum: ac primùm Permutatæ: in qua mutatur ſecundum Antecedens in prius Conſequens, & prius Conſequēs in ſecundum Antecedens. Vt ſi fuerit A ad B ſicut C ad D: & concludatur, A ad C ſicut B ad D: hæc Permutata dicetur Ratio.
 
-[Curated heading level=2 type=definitions: DEFINITIO 14.]
+[Curated heading level=3 type=definitions: 14]
 
 ### 14 Conuerſa Ratio, eſt acceptio Conſequentis tanquam antecedentis, ad Antecedēs tanquā conſequēs.
 
@@ -23,7 +23,7 @@ Prima comparatio Magnitudinum, quæ, pronuntiatione naturali, eſt vnius Anteced
 
 In hac conuertuntur duo Conſequentia in duo Antecedentia, & contrà. Vt ſi fuerit A ad B ſicut C ad D: & concludatur conuerſo modo, B ad A ſicut D ad C.
 
-[Curated heading level=2 type=definitions: DEFINITIO 15.]
+[Curated heading level=3 type=definitions: 15]
 
 ### 15 Coniuncta ſeu Compoſita Ratio, eſt acceptio Antecedentis cum conſequente inſtar vnius, ad ipſum Conſequens.
 
@@ -31,7 +31,7 @@ In hac conuertuntur duo Conſequentia in duo Antecedentia, & contrà. Vt ſi fue
 
 Vt ſi fuerit A ad B ſicut C ad D: & concludatur, totum AB ad B ſicut totum CD ad D: dicetur Coniuncta ſeu Compoſita Ratio.
 
-[Curated heading level=2 type=definitions: DEFINITIO 16.]
+[Curated heading level=3 type=definitions: 16]
 
 ### 16 Diſiuncta ſeu Diuiſa Ratio, eſt quum augmenta Antecedentium ſupra Conſequentia, ad ipſa Conſequentia comparantur.
 
@@ -39,7 +39,7 @@ Vt ſi fuerit A ad B ſicut C ad D: & concludatur, totum AB ad B ſicut totum CD
 
 Vt ſi fuerit totum AB ad B ſicut totum CD ad D: & concludatur, A ad B ſicut C ad D. Et eſt conuerſus modus Coniunctæ.
 
-[Curated heading level=2 type=definitions: DEFINITIO 17.]
+[Curated heading level=3 type=definitions: 17]
 
 ### 17 Euerſa Ratio, eſt quum Antecedentia comparantur ad exceſſus quos habent ſupra Conſequentia.
 
@@ -47,7 +47,7 @@ Vt ſi fuerit totum AB ad B ſicut totum CD ad D: & concludatur, A ad B ſicut C
 
 Euerſio Rationum, fit quum Antecedens comparatur cum ea quam habet ad Conſequens differentia. Vt ſi fuerit AB ad B ſicut CD ad D: & concludatur, ſicut AB ad A, ita CD ad C.
 
-[Curated heading level=2 type=definitions: DEFINITIO 18.]
+[Curated heading level=3 type=definitions: 18]
 
 ### 18 Aequa Ratio dicitur, quum plures Magnitudines hinc inde æquali numero ſumptæ, & binæ compa-
 

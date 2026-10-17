@@ -9,9 +9,9 @@ L'equilateral ne ſçauroit eſtre qu'oxygone.
 
 ### DES TRIANGLES OXYGONES.
 
-[Curated heading level=2 type=propositions: XXIX. THEOREME.]
+[Curated heading level=4 type=propositions: THEOREME.]
 
-[Curated heading level=2 type=theorems: XXIX. THEOREME.]
+[Curated heading level=4 type=theorems: THEOREME.]
 
 #### THEOREME.
 

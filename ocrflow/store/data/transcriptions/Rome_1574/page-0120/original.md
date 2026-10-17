@@ -3,7 +3,7 @@
 
 te dictarum linearum ſpatium coarctari, ex altera vero magis ac magis dilatari; ideoq́; eas conuenturas tandem eße aliquãdo in vnũ punctum. Verum quia hoc axioma a numero principiorũ omnino reijcitur ſecundũ Geminũ Geometrã, Proclum, & alios, diciq́; debet potius Theorema, quam principiũ, cũ nõ facile quiuis ei aſſenſum præbeat, propterea quod reperiantur & aliæ lineæ, quarũ ſpatiũ licet ſemper magis, ac magis coanguſtetur, nunquam tamen in vnum punctum coeunt, etiamſi infinite producantur, vt cõſtat ex elementis conicis Apollonij: Idcirco illud poſt 28. propoſ: & ante 29. huius libri, vbi primum eius vſus incipit apparere, Geometrice demonſtrabimus ex ſententia Procli, vt ſine vlla dubitatione ad theorematum, atq́; problematum demonſtrationes poſſit aſſumi.
 
-[Curated heading level=2 type=axioms: XII.]
+[Curated heading level=3 type=axioms: XII.]
 
 ### XII.
 

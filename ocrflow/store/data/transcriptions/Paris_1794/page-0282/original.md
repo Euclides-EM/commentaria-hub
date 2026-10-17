@@ -5,9 +5,9 @@ teint pas jusqu’au cylindre. Donc la seconde hypothèse est aussi absurde que 
 
 Donc enfin la surface convexe d’un cylindre est égale à la circonférence de sa base multipliée par sa hauteur.
 
-[Curated heading level=2 type=propositions: PROPOSITION V. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION V.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION V.]
+[Curated heading level=2 type=theorems: PROPOSITION V.]
 
 ## PROPOSITION V.
 

@@ -3,7 +3,7 @@
 
 ### Theorema 3.
 
-[Curated heading level=2 type=figures: Fig. 58]
+[Curated heading level=5 type=figures: Fig. 58]
 
 {dropcap:O|lines=2|style=plain}Mnes ſimul externi anguli cuiuſcumque figuræ rectilineæ, conficiunt quatuor rectos.
 
@@ -19,11 +19,11 @@ c Per 13.l.1.
 
 Mira ſanè hæc figurarum rectilinearum proprietas eſt: ex qua illud etiam conſequitur, omnes cuiuſcumque ſpeciei rectilineas figuras æquales habere externorum angulorum ſummas. Itaque trianguli alicuius tres externi anguli æquales ſunt mille externis angulis figuræ millelateræ: Quæ prorſus admiratione ſunt digna.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIII.]
 
 ## PROPOSITIO XXXIII.
 
-[Curated heading level=2 type=figures: Fig. 59]
+[Curated heading level=5 type=figures: Fig. 59]
 
 {dropcap:S|lines=2|style=plain}I duas rectas æquales & parallelas (AB, CF) iungant duæ aliæ (AC, BF) erũt etiam illæ æquales & parallelæ.
 

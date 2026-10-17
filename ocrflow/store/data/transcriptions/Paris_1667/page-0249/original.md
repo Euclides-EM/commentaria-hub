@@ -3,7 +3,7 @@
 
 gle que p partie de la premiere toute fait ſur b.
 
-## SECONDE DISPOSITION DES ANTIPARALLELES.
+### SECONDE DISPOSITION DES ANTIPARALLELES.
 
 [Curated heading level=4 type=paragraph_order: VI.]
 
@@ -19,7 +19,7 @@ Mais les coſtez au regard de chaque baſe ſont une toute & la partie de l'autr
 
 Or afin que les baſes ſoient antiparalleles dans cette diſpoſition, il eſt clair qu'il faut que les angles que les deux toutes font, l'une ſur B & l'autre ſur b, ſoient égaux; Et que ceux que les deux parties font l'une ſur B & l'autre ſur b ſoient égaux auſſy.
 
-## TROISIEME DISPOSITION DES ANTIPARALLELES.
+### TROISIEME DISPOSITION DES ANTIPARALLELES.
 
 [Curated heading level=4 type=paragraph_order: VII.]
 
@@ -33,7 +33,7 @@ LA troiſiéme eſt quand les deux baſes ſe joignent en un même point de l'un
 
 Or afin que les baſes *B* & *b* ſoient antiparalleles, il faut que l'angle que T fait ſur *B* ſoit égal à l'angle que *M* fait ſur *b*, & que l'angle que *M* fait ſur *B* (qui comprend celuy qu'elle fait ſur *b*) ſoit égal à l'angle que p fait ſur *b*.
 
-[Curated heading level=2 type=lemmas: VIII. CINQUIEME LEMME.]
+[Curated heading level=2 type=lemmas: CINQUIEME LEMME.]
 
 ## CINQUIEME LEMME.
 

@@ -6,8 +6,6 @@ Diuidat̃ itaqʒ.c.b.que ẽ latꝰ cubi ab aſſignata ſpera circũſcriptibil
 
 Incipit liber Decimuſquartus.
 
-[Curated heading level=1 type=propositions: LIBER XIV]
-
 [Curated heading level=2 type=propositions: Propoſitio .1.]
 
 ## Propoſitio .1.

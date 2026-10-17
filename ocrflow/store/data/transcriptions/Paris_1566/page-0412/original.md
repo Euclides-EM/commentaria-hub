@@ -2,10 +2,6 @@
 
 # FRANCISCI FLVSSATIS Candallæ Elementorum geometricorum Liber decimusſextus.
 
-[Curated heading level=1 type=propositions: FRANCISCI FLVSSATIS Candallæ Elementorum geometricorum Liber decimusſextus.]
-
-[Curated heading level=1 type=added_propositions: FRANCISCI FLVSSATIS Candallæ Elementorum geometricorum Liber decimusſextus.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
 [Curated heading level=2 type=added_propositions: Propoſitio prima.]

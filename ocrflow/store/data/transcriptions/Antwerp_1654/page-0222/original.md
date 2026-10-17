@@ -8,11 +8,11 @@ Igitur permutando AF eſt ad FC e vt LI ad IO.
 e Per 16.l.5.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO V.]
+[Curated heading level=2 type=propositions: PROPOSITIO V.]
 
 ## PROPOSITIO V.
 
-[Curated heading level=2 type=figures: Fig. 10]
+[Curated heading level=5 type=figures: Fig. 10]
 
 {dropcap:S|lines=2|style=plain}I duo triangula habuerint omnia latera ſibi mutuo proportionalia, etiam ſibi mutuo æquiangula erunt.
 

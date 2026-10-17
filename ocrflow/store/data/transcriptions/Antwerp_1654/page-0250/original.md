@@ -3,11 +3,11 @@
 
 Huius ſectionis vis admirabilis eſt in corporum regularium inſcriptione & comparatione.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXI.]
 
 ## PROPOSITIO XXXI.
 
-[Curated heading level=2 type=figures: Fig. 47]
+[Curated heading level=5 type=figures: Fig. 47]
 
 {dropcap:S|lines=2|style=plain}I à lateribus trianguli rectanguli (A C B) figuræ ſimiles quæcunque deſcribantur, erit ea quæ opponitur recto angulo duabus ſimul reliquis (L,R,) æqualis.
 

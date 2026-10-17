@@ -6,9 +6,9 @@
 
 Haben derowegen gleichmässige Dreyecke bey einem gleichmässigen Winckel wechselweiß stehende Seiten. Und die Dreyecke/ welche bey einem gleichmässigen Winckel wechselweiß stehende Seiten haben/ sind gleichmässig. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XVI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XVI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 11. Beweiß-Stück. Der XVI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 11. Beweiß-Stück.]
 
 ## Der XVI. Vortrag.
 

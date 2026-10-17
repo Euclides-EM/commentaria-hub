@@ -30,7 +30,7 @@ Illa igitur rationalium vel irrationalium, seu cōmensurabilium & incōmensurabi
 
 ¶Λόγος ἐστὶ δύο μεγεθῶν ὁμογενῶν ἡ κατὰ πηλικότητα πρὸς ἄλληλα ποιὰ σχέσις.
 
-[Curated heading level=2 type=definitions: Diffinitio 3.]
+[Curated heading level=4 type=definitions: 3]
 
 3 Ratio est duarum magnitudinum eiusdem generis aliquatenus adinuicem quædam habitudo.
 

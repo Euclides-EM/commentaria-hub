@@ -1,6 +1,6 @@
 <!-- Running title: D'EVCLIDE, LIV. I. -->
 
-[Curated heading level=3 type=axioms: AXIOME 1. a. c.]
+[Curated heading level=4 type=axioms: 1. a. c.]
 
 ### 1. a. c.
 
@@ -12,7 +12,7 @@ hyp. | a 3|2 b,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 1. a. d.]
+[Curated heading level=4 type=axioms: 1. a. d.]
 
 ### 1. a. d.
 
@@ -24,7 +24,7 @@ hyp. | a 3|2 c,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 1. a. e.]
+[Curated heading level=4 type=axioms: 1. a. e.]
 
 ### 1. a. e.
 
@@ -36,7 +36,7 @@ hyp. | a 3|2 b,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 1. a. f.]
+[Curated heading level=4 type=axioms: 1. a. f.]
 
 ### 1. a. f.
 

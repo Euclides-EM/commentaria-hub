@@ -2,10 +2,6 @@
 
 [Ornament]
 
-[Curated heading level=1 type=propositions: ELEMENT QVATORZIESME.]
-
-[Curated heading level=1 type=theorems: ELEMENT QVATORZIESME.]
-
 # ELEMENT QVATORZIESME.
 
 [Curated heading level=2 type=propositions: THEOR. 1. PROP. I.]

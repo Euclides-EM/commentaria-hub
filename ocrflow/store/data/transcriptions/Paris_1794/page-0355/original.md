@@ -1,8 +1,6 @@
 <!-- Running title: NOTE XII. -->
 <!-- Page number: 327 -->
 
-[Curated heading level=2 type=lemmas: LEMME II. (NOTE XII.)]
-
 ### LEMME II.
 
 [Subhead]

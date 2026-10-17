@@ -3,7 +3,7 @@
 
 qu'une raiſon eſt compoſée de deux autres en cette maniere. *bf. cg :: b. c + f. g.*
 
-### PREMIER AVERTISSEMENT.
+## PREMIER AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: III.]
 
@@ -13,7 +13,7 @@ III.
 
 *CE que nous avons appellé* addition de raiſons *eſt appellé par d'autres* multiplication, *parce que cela ſe fait par la multiplication des antecedens & celle des conſequens. Mais quoy que l'on multiplie les termes ce n'eſt pas à dire que l'on multiplie les raiſons. Et le mot d'addition ſemble mieux convenir à celuy de raiſon compoſée. Car on dit plûtoſt qu'une choſe eſt compoſée de ſes parties ajoûtées enſemble. que de ſes dimenſions multipliées l'une par l'autre.*
 
-### SECOND AVERTISSEMENT.
+## SECOND AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: IV.]
 
@@ -25,9 +25,9 @@ IV.
 
 *C'eſt pourquoy on peut ajoûter encore cette definition.*
 
-[Curated heading level=2 type=definitions: V. TROISIEME DEFINITION.]
+[Curated heading level=2 type=definitions: TROISIEME DEFINITION.]
 
-### TROISIEME DEFINITION.
+## TROISIEME DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: V.]
 

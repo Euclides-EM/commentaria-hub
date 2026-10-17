@@ -20,11 +20,11 @@ Atqui rect. B C A bis cum quadrato A C bis, æquatur b rectangulo B A C bis. Qua
 { quad. A C        quad. B C       }
 [/Calculation]
 
-[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO VIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VIII.]
 
 ## PROPOSITIO VIII.
 
-[Curated heading level=2 type=figures: Fig. 8]
+[Curated heading level=5 type=figures: Fig. 8]
 
 [Margin]
 Fig.8.

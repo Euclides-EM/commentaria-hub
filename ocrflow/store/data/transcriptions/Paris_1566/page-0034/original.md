@@ -2,13 +2,9 @@
 
 ## EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber primus.
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber primus.]
+[Curated heading level=3 type=propositions: Propoſitio prima.]
 
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber primus.]
-
-[Curated heading level=2 type=propositions: Propoſitio prima.]
-
-[Curated heading level=2 type=problems: Propoſitio prima. Problema. I.]
+[Curated heading level=3 type=problems: Problema. I.]
 
 ### Propoſitio prima.
 
@@ -22,9 +18,9 @@ Sit propoſita recta AB terminata in A & B, centro A: interuallo autem AB circul
 
 [Diagram: equilateral triangle and intersecting circular arcs labelled A, B and G]
 
-[Curated heading level=2 type=propositions: Propoſitio ſecunda.]
+[Curated heading level=3 type=propositions: Propoſitio ſecunda.]
 
-[Curated heading level=2 type=problems: Propoſitio ſecunda. Problema 2.]
+[Curated heading level=3 type=problems: Problema 2.]
 
 ### Propoſitio ſecunda.
 
@@ -38,9 +34,9 @@ Eſto ſignum datum A: data verò recta BG, ducatur AB recta, ſuper qua (per pr
 
 [Diagram: intersecting straight lines and circular arcs labelled A, B, D, G, I and L]
 
-[Curated heading level=2 type=propositions: Propoſitio tertia.]
+[Curated heading level=3 type=propositions: Propoſitio tertia.]
 
-[Curated heading level=2 type=problems: Propoſitio tertia. Problema 3.]
+[Curated heading level=3 type=problems: Problema 3.]
 
 ### Propoſitio tertia.
 
@@ -54,7 +50,7 @@ Sint datæ rectæ inæquales AB maior, & G minor; ad datum ſignũ A datæ G, �
 
 [Diagram: straight lines and a circular arc labelled A, B, D, E and G]
 
-[Curated heading level=2 type=propositions: Propoſitio quarta.]
+[Curated heading level=3 type=propositions: Propoſitio quarta.]
 
 ### Propoſitio quarta.
 

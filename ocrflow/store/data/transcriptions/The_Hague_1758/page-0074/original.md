@@ -6,7 +6,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XLV. PROBLEME XIII.]
 
-[Curated heading level=2 type=problems: PROBLEME XIII. PROPOSITION XLV.]
+[Curated heading level=2 type=problems: PROPOSITION XLV. PROBLEME XIII.]
 
 ## PROPOSITION LXV{printer-error-correction:XLV}. PROBLEME XIII.
 

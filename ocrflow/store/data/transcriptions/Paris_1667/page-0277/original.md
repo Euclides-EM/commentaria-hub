@@ -11,9 +11,9 @@ SI on prend la mediane de la 1re toute , il s'en fait une 2e toute plus petite ,
 
 Et cette mediane de la 2e toute eſt une 3e toute qui a pour ſa mediane la petite partie de la 2e toute , & cette mediane de la 3e toute eſt une 4e toute qui a pour ſa mediane la petite partie de la 3e toute , & ainſy à l'infini. Ce qui peut eſtre conſideré comme une nouvelle & tres belle preuve de la diviſibilité d'une ligne à l'infini.
 
-[Curated heading level=2 type=propositions: LXXIV. SIXIEME PROBLEME.]
+[Curated heading level=3 type=propositions: SIXIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: LXXIV. SIXIEME PROBLEME.]
+[Curated heading level=3 type=problems: SIXIEME PROBLEME.]
 
 ### SIXIEME PROBLEME.
 

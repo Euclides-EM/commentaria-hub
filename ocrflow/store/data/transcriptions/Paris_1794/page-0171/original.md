@@ -23,13 +23,11 @@ Donc, en prenant les moitiés de part et d’autre, AP²＝AQ²−PQ², ou AQ²�
 
 *Scholie.* On voit par-là, non seulement qu’il est possible qu’une ligne droite soit perpendiculaire à toutes celles qui passent par son pied dans un plan, mais que cela arrive toutes les fois que cette ligne est perpendiculaire à deux droites menées dans le plan : c’est ce qui démontre la légitimité de la définition I.
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* La perpendiculaire AP est plus courte qu’une oblique quelconque AQ ; donc elle mesure la vraie distance du point A au plan PQ.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Par un point P donné sur un plan on ne peut élever qu’une seule perpendiculaire à ce plan ; car si on pouvoit élever une autre perpendiculaire que AP, conduisez suivant ces deux perpendiculaires un plan dont l’intersection avec le plan MN soit PQ ; alors les deux perpendiculaires dont il s’agit seroient perpendiculaires à la ligne PQ, au même point et dans le même plan, ce qui est impossible.
 

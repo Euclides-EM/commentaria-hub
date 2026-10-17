@@ -22,9 +22,9 @@ u. Eben so gesetzet.
 
 Ist also ein Fünfeck L, welches der Gestalt B gleichmässig/ dem Fünfeck A ähnlich/ und auch eben so gesetzet/ verfertiget. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XXVI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXVI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 19. Beweiß-Stück. Der XXVI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 19. Beweiß-Stück.]
 
 ## Der XXVI. Vortrag.
 

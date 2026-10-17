@@ -10,11 +10,11 @@ c Per 8.l.5.
 
 Idem ſimiliter demonſtrabitur de proportione minori.
 
-[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXVIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXVIII.]
 
-## PROPOSITIO XXVIII.
+### PROPOSITIO XXVIII.
 
-[Curated heading level=2 type=figures: Fig. 18]
+[Curated heading level=5 type=figures: Fig. 18]
 
 [Margin]
 Fig.18.
@@ -33,9 +33,9 @@ c Per 8. l.5.
 
 Idem ſimiliter demonſtrabitur de proportione minori.
 
-[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXIX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXIX.]
 
-## PROPOSITIO XXIX.
+### PROPOSITIO XXIX.
 
 [Margin]
 Fig.18.

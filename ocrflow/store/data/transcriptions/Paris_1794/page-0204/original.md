@@ -3,9 +3,9 @@
 
 EC, AG, se couperont mutuellement en deux parties égales. Mais la diagonale EC et une autre DF se couperont aussi en deux parties égales ; donc le milieu d’une diagonale est le milieu des trois autres, et par conséquent les quatre diagonales se couperont en deux parties égales dans un même point qu’on peut regarder comme le centre du parallélépipede.
 
-[Curated heading level=2 type=propositions: PROPOSITION VI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VI.]
+[Curated heading level=2 type=theorems: PROPOSITION VI.]
 
 ## PROPOSITION VI.
 

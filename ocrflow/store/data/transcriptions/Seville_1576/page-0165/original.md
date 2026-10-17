@@ -2,27 +2,27 @@
 
 <!-- Page number: 81. -->
 
-[Curated heading level=3 type=definitions: 13. Conuerſa razon es]
+[Curated heading level=3 type=definitions: 13.]
 
 13. Conuerſa razon es, el tomar del conſequẽte con el antecedente, como del antecedẽte al conſequente.
 
-[Curated heading level=3 type=definitions: 14. Compoſicion de razon]
+[Curated heading level=3 type=definitions: 14.]
 
 14. Compoſicion de razon es, el tomar del antecedente con el conſequente, como de vno al miſmo conſequente.
 
-[Curated heading level=3 type=definitions: 15. Diuiſion de razon]
+[Curated heading level=3 type=definitions: 15.]
 
 15. Diuiſion de razon es, el tomar del exceſſo en que excede el antecedente al conſequẽte, a el miſmo conſequente.
 
-[Curated heading level=3 type=definitions: 16. Conuerſion de razon]
+[Curated heading level=3 type=definitions: 16.]
 
 16. Conuerſion de razon es, el tomar del antecedente al exceſſo en que excede el antecedente al miſmo conſequente.
 
-[Curated heading level=3 type=definitions: 17. Ygual razon es]
+[Curated heading level=3 type=definitions: 17.]
 
 17. Ygual razon es, ſiendo muchas cãtidades y otras yguales a ellas en numero tomadas juntamente y en vna miſma razõ, quando fuere como en las primeras cantidades la primera a la vltima, aſſi en las ſegundas cãtidades la primera a la vltima, O ẽ otra manera, el tomar de las extremas por quitamiento de las de en medio.
 
-[Curated heading level=3 type=definitions: 18. Ordenada proporcion es]
+[Curated heading level=3 type=definitions: 18.]
 
 18. Ordenada proporcion es, quando fuere el antecedente al conſequente, y el conſequente a otra coſa, como el conſequente a otra coſa.
 

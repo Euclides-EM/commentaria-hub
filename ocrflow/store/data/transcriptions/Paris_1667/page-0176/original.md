@@ -41,7 +41,7 @@ Car il eſt viſible par la ſolution du 2e Probleme, que dans tous ces cas, ces
 DES CIRCONFERENCES PARALLELES.
 [/Subhead]
 
-[Curated heading level=2 type=lemmas: XXXVII. PREMIER LEMME.]
+[Curated heading level=3 type=lemmas: PREMIER LEMME.]
 
 ### PREMIER LEMME.
 
@@ -53,7 +53,7 @@ XXXVII.
 
 VNE ligne droite eſt perpendiculaire à une circonference, autant que la nature de l'une & de l'autre le peut ſouffrir, lorſqu'elle eſt perpendiculaire à la tangente au point de la ſection.
 
-[Curated heading level=2 type=lemmas: XXXVIII. SECOND LEMME.]
+[Curated heading level=3 type=lemmas: SECOND LEMME.]
 
 ### SECOND LEMME.
 

@@ -1,19 +1,15 @@
 <!-- Running title: LIVRE VII. -->
 <!-- Page number: 227 -->
 
-[Curated heading level=5 type=numbered_item: 1.]
-
 1°. Deux pyramides triangulaires sphériques sont entre elles comme leurs bases; et puisqu’une pyramide polygonale peut se partager en plusieurs pyramides triangulaires, il s’ensuit que deux pyramides sphériques quelconques sont entre elles comme les polygones qui leur servent de bases.
-
-[Curated heading level=5 type=numbered_item: 2.]
 
 2°. Les angles solides au sommet des mêmes pyramides sont également dans la proportion des bases. Donc, pour comparer deux angles solides quelconques, il faut placer leurs sommets au centre de deux spheres égales, et ces angles solides seront entre eux comme les polygones sphériques interceptés entre leurs plans ou faces.
 
 L’angle au sommet de la pyramide tri-rectangle est formé par trois plans perpendiculaires entre eux. Cet angle, qu’on peut appeler *angle solide droit*, est très propre à servir d’unité de mesure aux autres angles solides. Cela posé, le même nombre qui donne l’aire du polygone sphérique donnera la mesure de l’angle solide correspondant. Par exemple, si l’aire du polygone sphérique est ¾, c’est-à-dire s’il est les ¾ du triangle tri-rectangle, l’angle solide correspondant sera aussi ¾ de l’angle solide droit.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXIII.]
 
 ## PROPOSITION XXIII.
 

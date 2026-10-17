@@ -8,11 +8,11 @@ d Per 34.l.1.
 e Per defin. 8.l.11.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XV.]
 
 ## PROPOSITIO XV.
 
-[Curated heading level=2 type=figures: Fig. 22]
+[Curated heading level=5 type=figures: Fig. 22]
 
 {dropcap:S|lines=2|style=plain}I rectæ duæ ſe mutuo tangentes (B A, C A) ad duas alias ſe mutuo tangentes (E D, F D) ſint parallelæ, etiam plana per ipſas ducta erunt parallela.
 
@@ -30,11 +30,11 @@ d Per 4.l.11.
 e Per præc.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XVI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVI.]
 
 ## PROPOSITIO XVI.
 
-[Curated heading level=2 type=figures: Fig. 23]
+[Curated heading level=5 type=figures: Fig. 23]
 
 {dropcap:P|lines=2|style=plain}Lanum (E H F G) ſecans parallela plana (A B, C D) in iis facit ſectiones (E H, G F) parallelas.
 

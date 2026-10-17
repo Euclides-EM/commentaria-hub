@@ -11,7 +11,7 @@ b Per 4. l.1.
 c Per 28.l.1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXXIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIV.]
 
 ## PROPOSITIO XXXIV.
 

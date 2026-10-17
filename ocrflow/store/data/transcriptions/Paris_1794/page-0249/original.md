@@ -5,9 +5,9 @@ ainsi que dans les propositions XII, XIII, XIV et XVIII, où il s’agit de la c
 
 Il en seroit autrement si les triangles étoient tracés sur des spheres inégales ; alors les angles étant égaux, les triangles seroient semblables et les côtés homologues seroient entre eux comme les rayons des spheres.
 
-[Curated heading level=2 type=propositions: PROPOSITION XIX. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIX.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIX.]
+[Curated heading level=2 type=theorems: PROPOSITION XIX.]
 
 ## PROPOSITION XIX.
 
@@ -15,11 +15,7 @@ Il en seroit autrement si les triangles étoient tracés sur des spheres inégal
 
 *La somme des angles de tout triangle sphérique est moindre que six et plus grande que deux angles droits.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 Car 1°. chaque angle d’un triangle sphérique est moindre que deux angles droits, (voyez le scholie ci-après) ; donc la somme des trois angles est moindre que six angles droits.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2°. La mesure de chaque angle d’un triangle sphérique est égale à la demi-circonférence moins le côté correspondant du triangle polaire*. Donc la somme des trois angles a pour mesure trois demi-circonférences moins la somme des côtés du triangle polaire. Or cette derniere somme est plus petite qu’une circonférence* ; donc en la retranchant de trois demi-circonférences, il restera plus d’une demi-circonférence qui est la mesure de deux angles droits. Donc 2°. la somme des trois angles d’un triangle sphérique est plus grande que deux angles droits.
 

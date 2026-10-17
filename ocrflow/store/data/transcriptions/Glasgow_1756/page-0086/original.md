@@ -1,7 +1,7 @@
 <!-- Running title: LIBER TERTIUS. -->
 <!-- Page number: 71 -->
 
-[Curated heading level=2 type=definitions: DEF. IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 
@@ -9,13 +9,13 @@ In circulo æqualiter diſtare a centro rectæ lineæ dicuntur, quando a centro 
 
 [Diagram: circle with three chords and perpendicular lines drawn from the centre]
 
-[Curated heading level=2 type=definitions: DEF. V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 
 Magis autem diſtare a centro dicitur ea in quam major perpendicularis cadit.
 
-[Curated heading level=2 type=definitions: DEF. VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 
@@ -23,13 +23,13 @@ Segmentum circuli eſt figura, quæ recta linea et circuli circumferentia contin
 
 [Diagram: circular segment bounded by an arc and a straight line]
 
-[Curated heading level=2 type=definitions: DEF. VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 ### VII.
 
 “Segmenti autem angulus eſt, qui recta linea et circuli circumferentia continetur.”
 
-[Curated heading level=2 type=definitions: DEF. VIII.]
+[Curated heading level=3 type=definitions: VIII.]
 
 ### VIII.
 
@@ -37,13 +37,13 @@ In ſegmento angulus eſt, quando in circumferentia ſegmenti ſumitur aliquod p
 
 [Diagram: circle containing a triangle whose vertices lie on the circumference]
 
-[Curated heading level=2 type=definitions: DEF. IX.]
+[Curated heading level=3 type=definitions: IX.]
 
 ### IX.
 
 Quando autem continentes angulum rectæ lineæ aſſumunt circumferentiam, illi inſiſtere angulus dicitur.
 
-[Curated heading level=2 type=definitions: DEF. X.]
+[Curated heading level=3 type=definitions: X.]
 
 ### X.
 

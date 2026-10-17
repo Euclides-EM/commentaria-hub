@@ -18,11 +18,11 @@ quad. L O.   Æ.   rect. L I O bis }
 b Per 4. l.2.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. II, PROPOSITIO IX.]
+[Curated heading level=2 type=propositions: PROPOSITIO IX.]
 
 ## PROPOSITIO IX.
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 [Margin]
 Fig.9.

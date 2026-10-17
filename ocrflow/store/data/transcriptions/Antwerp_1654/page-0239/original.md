@@ -13,11 +13,11 @@ Ducatur recta LB; reliqua demonſtratio eadem quæ præcedentis.
 
 Patet ex duabus præcedentibus.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XVI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVI.]
 
 ## PROPOSITIO XVI.
 
-[Curated heading level=2 type=figures: Fig. 33]
+[Curated heading level=5 type=figures: Fig. 33]
 
 [Margin]
 Fig.33.

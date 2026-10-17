@@ -8,24 +8,24 @@ proportionalia. ¶ Aio demū q̄ polygonū a/b/c/d/e, ad f/g/h/k/l, duplatam rat
 Tertia pars.
 [/Margin]
 
-### Corollarium primum.
+#### Corollarium primum.
 
 ¶ Fit itaq; generaliter manifestum, q̄ similes quæcunq; rectilineæ figuræ, in dupla ratione sunt adinuicem similis rationis laterum: id est, q̄ ratio similium rectilinearū figurarum, ex duplata similium laterum ratione consurgit. Id enim primò patuit in triangulis, & rectangulis, siue quadratis: nunc autem in polygonis, & omnia polygona in triangula diuisibilia sunt.
 
-### Corollarium secundum.
+#### Corollarium secundum.
 
 ¶ Sequitur rursum, quòd si tres rectæ lineæ fuerint proportionales: erit sicut prima ad tertiam, sic descripta super primam vel à prima species rectilinei, ad simile similitérq; positam speciem, quæ à secunda vel supra secundam conscribitur. Ostensum est enim polygonū a/b/c/d/e, ad polygonum f/g/h/k/l/duplam rationē habere, quam latus a/b/ad latus f/g. & si ipsarum a/b/ & f/g/tertiam acceperimus proportionalem, per vndecimam huius sexti, vtpote m/n: ipsa a/b/ad m/n/duplam itidem rationē habebit, quam eadē a/b/ad f/g, per decimam diffinitionem quinti. Et proinde sicut a/b/ad m/n, sic a/b/c/rectilineum ad simile similitérque positum rectilineum f/g/h.
 
 [Diagram: c h / a b f g m n]
 
-[Curated heading level=2 type=propositions: Theorema 15, Propositio 21.]
+[Curated heading level=3 type=propositions: Theorema 15, Propositio 21.]
 
-[Curated heading level=2 type=theorems: Theorema 15, Propositio 21.]
+[Curated heading level=3 type=theorems: Theorema 15, Propositio 21.]
 
-## Θεώρημα ιε, Πρόθεσις κα.
+### Θεώρημα ιε, Πρόθεσις κα.
 ΤΑ τῷ αὐτῷ εὐθυγράμμῳ ὅμοια καὶ ἀλλήλοις ἐστὶν ὅμοια.
 
-## Theorema 15, Propositio 21.
+### Theorema 15, Propositio 21.
 
 QVæ eidem rectilineo sunt similia: & adinuicem sunt similia.
 

@@ -29,9 +29,9 @@ LXII.
 
 DEUX angles ſont égaux, quand les angles que les coſtez de l'un font ſur ſa baſe, ſont égaux à ceux que les coſtez de l'autre font ſur la ſienne.
 
-[Curated heading level=2 type=propositions: LXIII. DOUZIEME COROLLAIRE, TROISIEME PROBLEME.]
+[Curated heading level=5 type=propositions: DOUZIEME COROLLAIRE, TROISIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: LXIII. DOUZIEME COROLLAIRE, TROISIEME PROBLEME.]
+[Curated heading level=5 type=problems: DOUZIEME COROLLAIRE, TROISIEME PROBLEME.]
 
 ##### DOUZIEME COROLLAIRE, TROISIEME PROBLEME.
 

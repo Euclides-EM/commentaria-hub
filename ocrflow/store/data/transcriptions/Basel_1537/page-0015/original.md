@@ -2,6 +2,8 @@
 
 <!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
+[Curated heading level=3 type=definitions: 35]
+
 35 Parallelæ rectæ lineæ sunt, quæ in eodem existentes plano, & ex utraque parte in infinitum productæ, in nulla parte concurrunt.
 
 ## Secundum, Postulata.

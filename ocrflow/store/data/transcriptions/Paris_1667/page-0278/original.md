@@ -27,9 +27,9 @@ LXXV.
 
 TOUT angle Iſoſcele dont la baſe eſt moyenne proportionelle entre le coſté entier & le coſté moins , cette baſe eſt de 36 degrez , & chacun des angles ſur la baſe de 72. Car 36. plus deux fois 72. qui eſt la double de 36 , vaut 180 , qui eſt ce que valent les 3 angles pris enſemble.
 
-[Curated heading level=2 type=propositions: SEPTIEME PROBLEME.]
+[Curated heading level=3 type=propositions: SEPTIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: SEPTIEME PROBLEME.]
+[Curated heading level=3 type=problems: SEPTIEME PROBLEME.]
 
 ### SEPTIEME PROBLEME.
 

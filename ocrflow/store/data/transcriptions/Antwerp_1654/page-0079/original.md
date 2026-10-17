@@ -17,11 +17,11 @@ Fig 65.
 
 In triangulo rectangulo altitudo eſt eadem cum alterutro latere circa angulum rectum. Huius ergo ſemißis ducta in latus alterum recto adiacens dabit trianguli aream.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XLII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XLII.]
 
 ## PROPOSITIO XLII.
 
-[Curated heading level=2 type=figures: Fig. 66]
+[Curated heading level=5 type=figures: Fig. 66]
 
 [Margin]
 Fig.66.

@@ -11,9 +11,9 @@ DEUX cercles ne ſe peuvent couper en plus de deux points. Car s'ils ſe coupoie
 V.
 [/Margin]
 
-[Curated heading level=2 type=propositions: VI. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: VI. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 

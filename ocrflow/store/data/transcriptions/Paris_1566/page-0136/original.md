@@ -11,7 +11,7 @@ Hinc aſſequimur, quamlibet rectam eſſe mediam proportionalem, inter quaſuis
 
 [Curated heading level=2 type=propositions: Propoſitio decimaoctaua.]
 
-[Curated heading level=2 type=problems: Propoſitio decimaoctaua. Problema 6.]
+[Curated heading level=2 type=problems: Problema 6.]
 
 ## Propoſitio decimaoctaua.
 

@@ -2,7 +2,7 @@
 
 son par son consequent: par exemple, la quantité de la raison de 12 à 4 est 3, à cause que ce nombre 3 monstre combien de fois l'antecedent 12 contient son consequent 4.
 
-[Curated heading level=2 type=definitions: DEF. IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 

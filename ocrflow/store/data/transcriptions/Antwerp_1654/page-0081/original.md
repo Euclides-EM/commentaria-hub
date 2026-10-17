@@ -8,11 +8,11 @@ a Per 34.l.1.
 b Per eand.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XLIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XLIV.]
 
 ## PROPOSITIO XLIV.
 
-[Curated heading level=2 type=figures: Fig. 68]
+[Curated heading level=5 type=figures: Fig. 68]
 
 [Margin]
 Fig.68.

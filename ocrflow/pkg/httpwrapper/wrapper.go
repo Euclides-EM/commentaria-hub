@@ -74,6 +74,11 @@ func GetFile(f func(*http.Request) (filePath string, downloadName string, err er
 	return wb.GetFile(f, contentType)
 }
 
+func GetDownload(f func(*http.Request) (filePath string, downloadName string, cleanup func(), err error), contentType string) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.GetDownload(f, contentType)
+}
+
 func GetStream(f func(*http.Request) (downloadName string, write func(io.Writer) error, err error), contentType string) *wrapperBuilder {
 	wb := &wrapperBuilder{}
 	return wb.GetStream(f, contentType)
@@ -176,6 +181,28 @@ func (wb *wrapperBuilder) GetFile(f func(r *http.Request) (filePath string, down
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 			return
+		}
+		if contentType != "" {
+			w.Header().Set("Content-Type", contentType)
+		}
+		if downloadName == "" {
+			downloadName = filepath.Base(filePath)
+		}
+		w.Header().Set("Content-Disposition", "attachment; filename=\""+downloadName+"\"")
+		http.ServeFile(w, r, filePath)
+	}
+	return wb
+}
+
+func (wb *wrapperBuilder) GetDownload(f func(r *http.Request) (filePath string, downloadName string, cleanup func(), err error), contentType string) *wrapperBuilder {
+	wb.get = func(w http.ResponseWriter, r *http.Request) {
+		filePath, downloadName, cleanup, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+		if cleanup != nil {
+			defer cleanup()
 		}
 		if contentType != "" {
 			w.Header().Set("Content-Type", contentType)

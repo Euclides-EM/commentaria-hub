@@ -3,9 +3,9 @@
 
 tement, à moins qu’ils ne fussent isosceles. L’égalité dont il s’agit est ce que nous avons déja appelé une égalité par *symmétrie*, et par cette raison nous appellerons les triangles ACB, ADB, *triangles symmétriques.*
 
-[Curated heading level=2 type=propositions: PROPOSITION XII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XII.]
+[Curated heading level=2 type=theorems: PROPOSITION XII.]
 
 ## PROPOSITION XII.
 
@@ -19,9 +19,9 @@ F. 230.
 
 Soit le côté AB = EF, le côté AC = EG, et l’angle BAC = FEG ; le triangle EFG pourra être placé sur le triangle ABC ou sur son symmétrique ABD, de la même maniere qu’on superpose deux triangles rectilignes qui ont un angle égal compris entre côtés égaux. Donc toutes les parties du triangle EFG seront égales à celles du triangle ABC, c’est-à-dire qu’outre les trois parties qui sont supposées égales, on aura le côté BC = FG, l’angle ABC = EFG, et l’angle ACB = EGF.
 
-[Curated heading level=2 type=propositions: PROPOSITION XIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XIII.]
 
 ## PROPOSITION XIII.
 

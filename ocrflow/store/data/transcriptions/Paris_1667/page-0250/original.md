@@ -21,7 +21,7 @@ La 2e eſt quand ce ſont les angles de proche en proche qui ſont égaux ſur l
 
 Ce ſont encore ces baſes que nous appellerons *antiparalleles*, pour marquer leur effet contraire à celuy des paralleles.
 
-[Curated heading level=2 type=lemmas: X. SIXIEME LEMME.]
+[Curated heading level=2 type=lemmas: SIXIEME LEMME.]
 
 ## SIXIEME LEMME.
 

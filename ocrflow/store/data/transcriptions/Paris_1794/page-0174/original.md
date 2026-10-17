@@ -3,9 +3,9 @@
 
 marquer sur la ligne BC deux points B et C également distants d’un point quelconque A pris sur l’autre ligne AP, ensuite marquer sur celle-ci les deux points A et E également distants de B ; le milieu de BC et le milieu de AE seront les points D et P dont la distance est la plus petite.
 
-[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+[Curated heading level=2 type=theorems: PROPOSITION VII.]
 
 ## PROPOSITION VII.
 
@@ -21,12 +21,10 @@ Suivant les paralleles AP, DE, conduisez un plan dont l’intersection avec le p
 
 Suivant le corollaire du théorême précédent, BC est perpendiculaire au plan APDE ; donc l’angle BDE est droit : mais l’angle EDP est droit aussi, puisque AP est perpendiculaire à PD, et que DE est parallele à AP ; donc la ligne DE est perpendiculaire aux deux droites DP, DB ; donc elle est perpendiculaire à leur plan MN.
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Réciproquement si les droites AP, DE, sont perpendiculaires au même plan MN, elles seront paralleles ; car si elles ne l’étoient pas, conduisez par le point D une parallele à AP, cette parallele sera perpendiculaire au plan MN ; donc on pourroit par un même point D élever deux perpendiculaires à un même plan, ce qui est impossible.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Deux lignes A et B, paralleles à une troisième C, sont paralleles entre elles ; car imaginez

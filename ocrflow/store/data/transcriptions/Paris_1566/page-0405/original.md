@@ -2,13 +2,13 @@
 
 rectis triangula, parallela ſint, per decimamquintam vndecimi: ſequetur triangula icoſahedri oppoſita, veluti & latera adinuicem parallela eſſe.
 
-[Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
+[Curated heading level=3 type=propositions: Propoſitio decimaquinta.]
 
-[Curated heading level=2 type=problems: Propoſitio decimaquinta. Problema 15.]
+[Curated heading level=3 type=problems: Propoſitio decimaquinta. Problema 15.]
 
-[Curated heading level=2 type=added_propositions: Propoſitio decimaquinta.]
+[Curated heading level=3 type=added_propositions: Propoſitio decimaquinta.]
 
-## Propoſitio decimaquinta. Problema 15.
+### Propoſitio decimaquinta. Problema 15.
 
 In dato Icoſahedro, Octahedrum componere.
 
@@ -16,13 +16,13 @@ Eſto icoſahedrum A C D F, cuius (per præcedens ſecundum corollarium) ſumant
 
 [Figure: icosahedron with inscribed octahedron, vertices labelled A, B, C, L, G, I, H, K, D, E, F]
 
-[Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
+[Curated heading level=3 type=propositions: Propoſitio decimaſexta.]
 
-[Curated heading level=2 type=problems: Propoſitio decimaſexta. Problema 16.]
+[Curated heading level=3 type=problems: Propoſitio decimaſexta. Problema 16.]
 
-[Curated heading level=2 type=added_propositions: Propoſitio decimaſexta.]
+[Curated heading level=3 type=added_propositions: Propoſitio decimaſexta.]
 
-## Propoſitio decimaſexta. Problema 16.
+### Propoſitio decimaſexta. Problema 16.
 
 In dato Octahedro, Icoſahedrum collocare.
 

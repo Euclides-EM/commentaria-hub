@@ -6,8 +6,6 @@
 
 Demnach den innhallt des fünffeckhs zů finden imm erſten exempel. So die ſeitten 10 / iſt die perpendicular √25+√500. Multiplicier 25 (als den halbten tail der ſumm aller ſeitten / mit √25+√500 / entſpringen √15625+√195312500, der innhallt des regular fünffeckhs / etc.
 
-[Curated heading level=2 type=added_propositions: 7. Die ij. propoſition des xiij. bůchs]
-
 #### 7.
 
 Auß diſem allem haſtu zůmercken / das ſolche perpendicular allmal gleich iſt dem ſemidiameter des zirckels / ſo darein / lautt diß bůchs 13 propoſ. beſchreiben wirt. Derhalben wa ain regular fünffeckh fürkhomment / dem ain zirckel aingeſchreiben iſt / haſtu ſchon die lehr deſſen diameter zůerkennen / ſo ferr die lenge der ſeitten des fünffeckhs bekhannt iſt. Härgegen ſo der diameter bekhant iſt / die ſeitten des fünffeckhs zůerlernen / můſt du wiſſen.

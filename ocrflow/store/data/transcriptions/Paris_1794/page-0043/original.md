@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE Iᵉʳ. -->
 <!-- Page number: 15 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XIV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XIV.]
 
 ## PROPOSITION XIV.
 
@@ -15,8 +15,6 @@
 Fig. 30.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1°. Soit l’angle C > B, je dis que le côté AB opposé à l’angle C est plus grand que le côté AC opposé à l’angle B.
 
 [Margin]
@@ -24,8 +22,6 @@ Fig. 30.
 [/Margin]
 
 Soit fait l’angle BCD=B ; dans le triangle BDC on aura * BD=DC. Mais la ligne droite AC est plus courte que AD+DC, et AD+DC=AD+DB=AB. Donc AB est plus grand que AC.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2°. Soit le côté AB > AC, je dis que l’angle C opposé au côté AB sera plus grand que l’angle B opposé au côté AC.
 
@@ -39,9 +35,9 @@ Soit fait l’angle BCD=B ; dans le triangle BDC on aura * BD=DC. Mais la ligne 
 
 Car si on avoit C < B, il s’ensuivroit par ce qui vient d’être démontré, AB < AC, ce qui est contre la supposition. Si on avoit C=B, il s’ensuivroit *AB=AC, ce qui est encore contre la supposition. Donc il faut que l’angle C soit plus grand que B.
 
-[Curated heading level=2 type=propositions: PROPOSITION XV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XV.]
+[Curated heading level=2 type=theorems: PROPOSITION XV.]
 
 ## PROPOSITION XV.
 

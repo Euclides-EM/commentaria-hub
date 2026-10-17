@@ -9,11 +9,11 @@ b Per 30.l.5.
 c Patet ex 27.l.5.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXXIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIV.]
 
-## PROPOSITIO XXXIV.
+### PROPOSITIO XXXIV.
 
-[Curated heading level=2 type=figures: Fig. 20]
+[Curated heading level=5 type=figures: Fig. 20]
 
 [Margin]
 Fig.20.
@@ -28,9 +28,9 @@ a Per defin. 10.l.5.
 b Per 22. l.5.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XXXV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXV.]
 
-## PROPOSITIO XXXV.
+### PROPOSITIO XXXV.
 
 [Margin]
 Fig.20.

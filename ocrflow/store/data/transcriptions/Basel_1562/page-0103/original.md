@@ -13,7 +13,7 @@ Diß zůbeweiſen / zertail die vierecke mit zwayen diametern / ſo werden es ac
 
 Darauß volgt / das kain rhombus / noch rhomboides mag inn ainem zirckel beſchriben werden. Dan derſelben zwen winckel über eckhs gröſſer ſeind / weder zwen gerecht / ꝛc̄.
 
-[Curated heading level=2 type=propositions: XXIII. Die drey vnd zwaintzigſt Propoſition]
+[Curated heading level=2 type=propositions: XXIII Die drey vnd zwaintzigſt Propoſition.]
 
 ## XXIII Die drey vnd zwaintzigſt Propoſition.
 
@@ -21,7 +21,7 @@ Darauß volgt / das kain rhombus / noch rhomboides mag inn ainem zirckel beſchr
 Es mögen khains wegs auff aine rechte linj zwai ſtuckh ains zirckels geſetzt werden / welche gleichförmig (das iſt / gleicher winckel) ſeien / vnnd doch vngleichere gröſſe.
 [/Subhead]
 
-[Curated heading level=2 type=propositions: XXIIII. Die vier vnd zwaintzigſt propoſition]
+[Curated heading level=2 type=propositions: XXIIII Die vier vnd zwaintzigſt propoſition.]
 
 ## XXIIII Die vier vnd zwaintzigſt propoſition.
 
@@ -35,7 +35,7 @@ Was gleichförmige ſtuckh ſeien / iſt in dem beſchreibungen angezaigt / neml
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: XXV. Die fünffvndzwaintzigſt propoſition]
+[Curated heading level=2 type=propositions: XXV Die fünffvndzwaintzigſt propoſition.]
 
 ## XXV Die fünffvndzwaintzigſt propoſition.
 

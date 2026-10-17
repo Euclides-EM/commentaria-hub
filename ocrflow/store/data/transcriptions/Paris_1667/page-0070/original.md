@@ -11,9 +11,9 @@ Ie dis que *b* eſt égal à *f*. Car afin que *b* & *f* aient même raiſon à 
 
 Que ſi on ſuppoſe au contraire que *b* & *f* ſont égales, il s'enſuivra qu'elles auront même raiſon à une même grandeur comme *d*. Car eſtant égales leurs aliquotes pareilles ſeront égales (I. 22.) & par conſequent également contenuës dans *d*. Ce qui eſt la même choſe qu'avoir même raiſon à *d*. ſ̄. 38.
 
-[Curated heading level=2 type=propositions: XLII. SECOND THEOREME.]
+[Curated heading level=4 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XLII. SECOND THEOREME.]
+[Curated heading level=4 type=theorems: SECOND THEOREME.]
 
 #### SECOND THEOREME.
 

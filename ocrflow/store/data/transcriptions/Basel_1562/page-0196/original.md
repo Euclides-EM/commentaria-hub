@@ -11,7 +11,7 @@ Darauß offenbar / das ſo drei linien proportional ſeind: wie ſych halt die e
 
 In zalen mag man diß alſo außprechen. Wan drei zalen proportional ſein / wirt ſych das quadrat der erſten gegen dem quadrat der andern halten / wie die erſt gegen der dritten / in diſem exempel wer die lini g c (hab dich eben gelert wie es zůrechnen ſei) 9. drei proportional zalen 16. 12. 9. Halten ſych 256 (der erſten quadrat) gegen 144 (dem quadrat der andern) wie 16 gegen 9. magſtu probiern / diß hatt in linien ſtat bei allen rechtliniſchen / jedoch baider tails gleichförmigen figurn. Es ſeien triangel / quadrat / regular / oder jrregular / deſſen vrſach volgende propoſition anzaigt / im exempel ſeind baide triangel gleichſeittig / halt der triangel a b c (deſſen ſeitten 16) in ſeinem begriff √12288. der triangel d e f (deſſen ſeitten 12) √3888. die proportion der ſeitten iſt ⁴⁄₃ die duplier / wirt ¹⁶⁄₉. ſol ſych √12288 gegen √3888. halten wie 16 gegen 9. magſtu probiern. Siheſtu hie den nutz deſſen / ſo bei der 10. vnd 11. beſchreibung des fünfften bůchs iſt angezaigt worden.
 
-[Curated heading level=3 type=margin_topics: Aigenſchafft dreier proportional zalen]
+[Curated heading level=3 type=marginal_headings: Aigenſchafft dreier proportional zalen]
 
 [Margin]
 Aigenſchafft dreier proportional zalen.

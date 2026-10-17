@@ -3,9 +3,9 @@
 
 On laiſſe à trouver beaucoup d'autres manieres dont on le peut demonſtrer.
 
-[Curated heading level=2 type=propositions: XI. TROISIEME THEOREME.]
+[Curated heading level=4 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XI. TROISIEME THEOREME.]
+[Curated heading level=4 type=theorems: TROISIEME THEOREME.]
 
 #### TROISIEME THEOREME.
 
@@ -58,11 +58,9 @@ Pour l'angle d. d r. r q { d b. b q.
                           d c. c q.
 [/Calculation]
 
-[Curated heading level=1 type=problems: LIVRE TREIZIEME.]
+[Curated heading level=4 type=propositions: PREMIER PROBLEME.]
 
-[Curated heading level=2 type=propositions: XII. PREMIER PROBLEME.]
-
-[Curated heading level=2 type=problems: XII. PREMIER PROBLEME.]
+[Curated heading level=4 type=problems: PREMIER PROBLEME.]
 
 #### PREMIER PROBLEME.
 

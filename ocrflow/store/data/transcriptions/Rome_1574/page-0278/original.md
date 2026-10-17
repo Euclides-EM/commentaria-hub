@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. III. -->
 <!-- Page number: 97 -->
 
-[Curated heading level=2 type=definitions: IIII.]
+[Curated heading level=3 type=definitions: IIII.]
 
 ### IIII.
 
@@ -21,7 +21,7 @@ QVONIAM inter omnes lineas rectas, quæ ab aliquo puncto ad quamlibet lineam rec
 
 [Diagram: circle ABCD with points A and B above, C at right, H at left, D at lower right and I at bottom; centre E with perpendiculars EF, EG and EK drawn to chords]
 
-[Curated heading level=2 type=definitions: V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 

@@ -2,11 +2,7 @@
 
 <!-- Page number: 146 -->
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Werden gezogen die geraden Striche fc und cd.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Durch die Mittel dieser beyden Striche werden gerade Senckstriche gezogen / bg und ek.
 
@@ -29,9 +25,9 @@ Welches aber unmöglich nach 5. III.
 
 Kan also kein Kreyß einen andern Kreyß in drey oder mehr Dütteln durchschneiden. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 10. Beweiß-Stück. Der XI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 10. Beweiß-Stück.]
 
 ## Der XI. Vortrag.
 

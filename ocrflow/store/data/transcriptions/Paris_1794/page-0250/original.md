@@ -1,13 +1,11 @@
 <!-- Page number: 222 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* La somme des angles d’un triangle sphérique n’est pas constante comme celle des triangles rectilignes ; elle varie depuis deux angles droits jusqu’à six, sans pouvoir être égale à l’une ni à l’autre limite. Ainsi deux angles donnés ne font pas connoître le troisième.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Un triangle sphérique peut avoir deux ou trois angles droits ; deux ou trois angles obtus.
 

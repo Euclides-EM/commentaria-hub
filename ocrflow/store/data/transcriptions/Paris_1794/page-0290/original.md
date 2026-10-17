@@ -3,9 +3,9 @@
 
 par la circonférence du cercle inſcrit. Cet axe FG ſera en même temps le diametre du cercle circonſcrit.
 
-[Curated heading level=2 type=propositions: PROPOSITION X. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION X.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION X.]
+[Curated heading level=2 type=theorems: PROPOSITION X.]
 
 ## PROPOSITION X.
 

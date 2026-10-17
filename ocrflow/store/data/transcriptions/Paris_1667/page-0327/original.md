@@ -5,9 +5,9 @@ toute, eſt égal au quarré de cette partie plus les rectangles de cette partie
 
 Soit T comme auparavant diviſé en 5 parties b. c. d. f. g. il eſt clair par le premier Theoreme, que le rectangle de b par la toute eſt égal aux 5 rectangles de b par chaque partie de T. Or b eſt l'une de ces parties, & par conſequent l'un de ces 5 rectangles ſera bb. C'eſtadire le quarré de cette partie, & les autres 4 rectangles ſeront le rectangle de b par chacune des autres parties; ſçavoir bc. bd. bf. bg.
 
-[Curated heading level=2 type=propositions: XII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=theorems: QUATRIEME THEOREME.]
 
 ### QUATRIEME THEOREME.
 

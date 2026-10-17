@@ -2,8 +2,6 @@
 
 <!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-[Curated heading level=2 type=definitions: Eucli.ex Zamb. Diffinitiones.]
-
 ## Eucli.ex Zamb. Diffinitiones.
 
 [Curated heading level=3 type=zamberti_sequence: 1.]

@@ -13,7 +13,7 @@
 47. primi.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: IIII.]
+[Curated heading level=4: IIII]
 
 [Margin]
 IIII.
@@ -45,7 +45,7 @@ SINT A, & B latera duorum quadratorũ inæqualiũ; Fiat angulus rectus DCE, ſit
 1. pron.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: V.]
+[Curated heading level=4: V]
 
 [Margin]
 V.

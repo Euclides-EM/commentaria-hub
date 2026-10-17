@@ -1,11 +1,3 @@
-[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM LIBER TERTIVS.]
-
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTORVM LIBER TERTIVS.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTORVM LIBER TERTIVS.]
-
-[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTORVM LIBER TERTIVS.]
-
 # EVCLIDIS ELEMENTORVM LIBER TERTIVS.
 
 # LE TROISIESME LIVRE DES ELEMENTS D'EVCLIDE.

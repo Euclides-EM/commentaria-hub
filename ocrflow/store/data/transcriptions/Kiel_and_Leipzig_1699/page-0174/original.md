@@ -2,9 +2,9 @@
 
 <!-- Page number: 157 -->
 
-[Curated heading level=2 type=propositions: Der XV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 14. Beweiß-Stück. Der XV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 14. Beweiß-Stück.]
 
 ## Der XV. Vortrag.
 
@@ -30,15 +30,9 @@ Jn jedwedem Kreyß ist/ unter allen geraden Strichen/der Durchschlag am längste
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auß dem Düttel e werde gezogen der Strich ef, also daß
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Er gleichweit mit bc von dem Mittel-Düpffel abstehe.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Deßgleichen werden die Stralen ha, ea, ga, fa, na.
 

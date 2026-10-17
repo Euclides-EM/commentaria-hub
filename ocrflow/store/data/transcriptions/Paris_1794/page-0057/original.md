@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE 1er. -->
 <!-- Page number: 29 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XXXIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXXIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXXIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXXIII.]
 
 ## PROPOSITION XXXIII.
 

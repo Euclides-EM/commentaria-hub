@@ -9,9 +9,9 @@ Et ainſy pour avoir la grandeur de l'angle d'une figure de 15 coſtez, il ne fa
 
 Et pour avoir l'angle d'une figure de 3600 coſtez, il faut oſter 6 minutes de 180 degrez, & ce qui reſtera, qui eſt 179 d. 54′. ſera la meſure de l'angle de cette figure.
 
-[Curated heading level=2 type=propositions: XXIII. TROISIEME PROBLEME.]
+[Curated heading level=5 type=propositions: TROISIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XXIII. TROISIEME PROBLEME.]
+[Curated heading level=5 type=problems: TROISIEME PROBLEME.]
 
 ##### TROISIEME PROBLEME.
 

@@ -2,11 +2,7 @@
 
 <!-- Page number: 214 -->
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Aus dem Mittel-Düpffel a werde zu dem Düpffel f ein gerader Strich af gezogen.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Nach der Weite af werde ein Kreyß gezogen.
 

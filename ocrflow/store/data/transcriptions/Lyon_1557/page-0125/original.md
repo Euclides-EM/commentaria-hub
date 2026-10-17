@@ -3,13 +3,13 @@
 
 mus. Itaque Binarij vim ſic innuit Euclides.
 
-[Curated heading level=2 type=definitions: DEFINITIO 10.]
+[Curated heading level=3 type=definitions: 10]
 
 ### 10 Quum tres Magnitudines fuerint proportionales: dicetur proportio primæ ad tertiam ſicut proportio primæ ad ſecundam duplicata.
 
 Definit Proportionalitatem trium Quantitatum. Cuius Definitionis explicatio hęc eſt. In proportionalitate trium Quantitatum, latet Quadrati natura. Scilicet tantum producunt duo extremi termini inter ſe, quantum medius in ſe. Ob id, proportio extremorum inter ſe, eſt duplum proportionis primi ad ſecundum. Quod niſi per Numeros ſatis definitè exponi nequit. Sint 2 ad 4, vt 4 ad 8. Hæc eſt proportionalitas Continua in dupla ratione. Duco 2 in 8, fiunt 16: & tantundem producunt 4 in ſe. Itaque, ex definitione, erit proportio 2 ad 8, denominata à Quadrato Binarij, proportionem primi ad ſecundum denominantis: nempè quadrupla. In tripla ratione, ſint 2 ad 6 vt 6 ad 18. Denominationem proportionis primi ad ſecundum, nempè 3, duco in ſe: fiunt nouem, denominator proportionis 2 ad 18. Atq; hæc eſt Definitionis ſententia: ex qua binarij, ternarij, & quaternarij elicitur mira colligatio. Nam in tribus Quantitatibus quatuor inſunt: atque huius affinitatis, binarius eſt index. Huius enim numeri ſingularis proprietas eſt, quòd tantum efficiat duplicatus, quantum in ſe ductus. Ea re Euclides duplicatam proportionem dixit, quaſi quadratam: proptereà quòd binarius Quadrati eſt index: vt cæteræ denominationes naturam primæ ſequerentur: ſcilicet tripla proportio duplicata, eadem eſſet quæ in ſe ducta. Quadratum itaque per Binarium ſignificatur, ſicut Cubus per Ternarium, Quadratumquadrati, ſeu, vt vulgò dicunt, Cenſuſcenſus, per Quaternarium: & Superſolidum, Relatum primum dicunt, per Quinarium: ſicq; infinitè: Quod nos ſatis luculenter expoſuimus in priore libro noſtræ Algebræ. Quum igitur Quantitatem quantitati comparamus, vnitas repræſentatur in Numeris: in Continuis, linea. Trium verò Quantitatum collatio in Numeris, Quadratum: in Continuis, Superficiem: quatuor deniq; proportio in Numeris, Cubum: in Continuis, Solidum. Hæc autem ſpeculatio in immenſum patet. Hinc pendet Definitio ſequens.
 
-[Curated heading level=2 type=definitions: DEFINITIO 11.]
+[Curated heading level=3 type=definitions: 11]
 
 ### 11 Quum quatuor Magnitudines continuè proportionales fuerint: dicetur proportio primæ ad quartam ſicut primæ ad ſecundam triplicata: ac ſemper ordine vna plus, donec ſit abſoluta proportionalitas.
 

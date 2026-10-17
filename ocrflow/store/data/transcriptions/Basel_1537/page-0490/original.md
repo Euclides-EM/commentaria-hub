@@ -1,7 +1,5 @@
 <!-- Page number: 479 -->
 
-[Curated heading level=1 type=problems: Geometricorum Elementorum Liber decimusquintus]
-
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI MATHEMATICORVMQVE facile principis, ex Hypsiclis Alexandrini, Græci philosophi traditione, Geometricorum Elementorum Liber decimusquintus,
 
 [Curated heading level=2 type=problems: Problema 1 Propositio 1]
@@ -44,7 +42,7 @@ HYPSIC. ex Zamb. Esto data pyramis α β γ δ, seceturq̃ bifariā ipsis ε, ζ
 
 [Diagram: triangle α β γ with the sides bisected and the inscribed octahedron drawn; visible interior labels include η, λ]
 
-[Curated heading level=2 type=problems: Problema 3 Propositio 3]
+[Curated heading level=2 type=problems: Probleme 3 Propositio 3]
 
 ## Eucli. ex Zamb. Probleme 3 Propositio 3
 

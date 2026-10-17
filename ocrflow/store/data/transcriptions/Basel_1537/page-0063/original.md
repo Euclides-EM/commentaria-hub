@@ -2,8 +2,6 @@
 
 <!-- Page number: 54 -->
 
-[Curated heading level=2 type=definitions: Ex Zamberto. Diffinitiones.]
-
 ## Ex Zamberto. Diffinitiones.
 
 {dropcap:A|lines=?|style=decorated|decoration="foliate ornament and vase"}Equales circuli, sunt quorum dimetientes sunt æquales, uel quorum quæ ex centris sunt æquales. 2 Recta linea circulum tangere dicitur, quæ circulum tangens & eiecta, circulum non secat, 3 Circuli sese tangere adinuicē dicūtur, qui sese inuicē tangentes non inuicē secant.

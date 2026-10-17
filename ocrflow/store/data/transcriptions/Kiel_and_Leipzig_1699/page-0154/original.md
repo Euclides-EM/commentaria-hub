@@ -14,9 +14,9 @@ Welches aber Unmüglich n. 9. Gr. I.
 
 Können also zweene Kreyse / so einander durchschneiden/ nicht aus einem einigen Mittel-Düpffel beschrieben seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der VI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der VI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 5. Beweiß-Stück. Der VI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 5. Beweiß-Stück.]
 
 ## Der VI. Vortrag.
 
@@ -37,11 +37,7 @@ Diese Kreyse haben verschiedene Mittel-Düpffele.
 
 Wolte man sagen / sie hätten nur einen eintzigen Mittel-Düpffel/ nemlich a, so ziehe man aus a
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Zu dem anrührungs-Düpffel b den Strich ab.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auch den Strich af.
 

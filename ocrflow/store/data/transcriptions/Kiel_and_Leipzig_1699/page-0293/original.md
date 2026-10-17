@@ -2,9 +2,9 @@
 
 <!-- Page number: 276 -->
 
-[Curated heading level=2 type=propositions: Der XXI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 21. Beweiß-Stück. Der XXI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 21. Beweiß-Stück.]
 
 ## Der XXI. Vortrag.
 

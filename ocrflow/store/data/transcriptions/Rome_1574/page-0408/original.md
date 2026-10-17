@@ -5,7 +5,7 @@ V T ſi dicatur, quæ proportio eſt totius A B, ad C B, ea eſt totius D E, ad 
 
 [Figure: two horizontal lines, the first labelled A, C and B with the numbers 12 and 4, the second labelled D, F and E with the numbers 6 and 2]
 
-[Curated heading level=2 type=definitions: XVI.]
+[Curated heading level=3 type=definitions: XVI.]
 
 ### XVI.
 
@@ -17,7 +17,7 @@ Q V O D ſi colligamus hoc modo. Sicut eſt tota magnitudo A B, ad C B, ita tota
 
 [Figure: two horizontal lines, the first labelled A, C and B with the numbers 6 and 4, the second labelled D, F and E with the numbers 12 and 8]
 
-[Curated heading level=2 type=definitions: XVII.]
+[Curated heading level=3 type=definitions: XVII.]
 
 ### XVII.
 

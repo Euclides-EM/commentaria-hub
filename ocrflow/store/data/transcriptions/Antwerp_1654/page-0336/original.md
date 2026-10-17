@@ -5,7 +5,7 @@ Ex egregio hoc theoremate exhibetur circulus æqualis ſuperficiei cylindricæ.
 
 ### Corollaria.
 
-[Curated heading level=4 type=numbered_item: 1.]
+[Curated heading level=5 type=numbered_corollaries: 1.]
 
 1. SVperficies cylindri recti, æqualis eſt rectangulo ſub latere BC, & baſeos peripheria contento.
 
@@ -25,7 +25,7 @@ s Patet ex 41. l.1.
 
 Ex hoc corollario manifeſtum eſt rectangulorum proprietates, ſuperficiebus cylindricis rectis eſſe communes. Eſto igitur corollarium.
 
-[Curated heading level=4 type=numbered_item: 2.]
+[Curated heading level=5 type=numbered_corollaries: 2.]
 
 2. Cylindricæ ſuperficies (BM, QN) æquè altæ, ſunt inter ſe vt baſium diametri (BF, QR.)
 

@@ -4,6 +4,8 @@
 
 sita latera habet æqualia atque oppositos angulos æquales, idem tamen nec rectis angulis nec æquis lateribus continetur. 34 Præter has autem omnes, quadrilateræ figuræ, helmuariphe nominantur.
 
+[Curated heading level=3 type=definitions: 35]
+
 35 Æquidistantes lineæ, sunt quæ in eadem superficie collocatæ, atq̃ʒ in alterutram partem protractæ non conueniunt, etiam si in infinitū protrahantur.
 
 ## Secundum, Petitiones.

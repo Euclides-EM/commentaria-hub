@@ -17,11 +17,9 @@ DES PROPORTIONS.
 DIFFERENCE ET RAISON.
 [/Subhead]
 
-[Curated heading level=1 type=definitions: LIVRE SECOND.]
-
-[Curated heading level=2 type=definitions: I. DEFINITIONS ET DIVISIONS.]
-
 ### DEFINITIONS ET DIVISIONS.
+
+[Curated heading level=4 type=definitions: I.]
 
 [Curated heading level=4 type=paragraph_order: I.]
 
@@ -31,6 +29,8 @@ I.
 
 {dropcap:L|lines=6|style=decorated|decoration="woodcut initial with human figure and foliate ornament"}Es grandeurs de meſme genre s'appellent *homogenes*, comme deux nombres, deux lignes, deux ſurfaces.
 
+[Curated heading level=4 type=definitions: II.]
+
 [Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
@@ -38,6 +38,8 @@ II.
 [/Margin]
 
 DE divers genres *eterogenes*, comme un nombre & une ligne; une ſurface & un ſolide.
+
+[Curated heading level=4 type=definitions: III.]
 
 [Curated heading level=4 type=paragraph_order: III.]
 
@@ -54,5 +56,7 @@ IV.
 [/Margin]
 
 OR cette comparaiſon ſe peut faire en deux manieres.
+
+[Curated heading level=4 type=definitions: La premiere eſt quand]
 
 La premiere eſt quand l'une eſtant plus grande que l'autre on regarde de combien la plus grande ſurpaſſe la plus petite, ce qui s'appelle *excés* ou *difference*: comme

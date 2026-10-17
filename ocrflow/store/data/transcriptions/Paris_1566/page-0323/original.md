@@ -20,7 +20,7 @@ Si fuerint tres anguli plani quorum bini reliquo ſint maiores quomodocunque ſu
 
 [Curated heading level=2 type=propositions: Propoſitio vigeſimatertia.]
 
-[Curated heading level=2 type=problems: Propoſitio vigeſimatertia. Problema 3.]
+[Curated heading level=2 type=problems: Problema 3.]
 
 ## Propoſitio vigeſimatertia.
 

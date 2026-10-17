@@ -30,9 +30,9 @@ C'eſt ce que l'on fait en prenant les aliquotes pareilles des antecedens, & con
 
 C'eſt ce qu'on a déja veu dans le premier Corollaire, & on y a reconnu auſſi que cela n'eſt pas ſeulement vray dans les raiſons de nombre à nombre, mais auſſi dans les raiſons ſourdes, autant que cela le peut eſtre, ſelon ce qui a eſté dit dans le ſecond Corollaire.
 
-[Curated heading level=2 type=propositions: XLI. PREMIER THEOREME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XLI. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 

@@ -6,7 +6,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XLII. PROBLEME XI.]
 
-[Curated heading level=2 type=problems: PROBLEME XI. PROPOSITION XLII.]
+[Curated heading level=2 type=problems: PROPOSITION XLII. PROBLEME XI.]
 
 ## PROPOSITION XLII. PROBLEME XI.
 

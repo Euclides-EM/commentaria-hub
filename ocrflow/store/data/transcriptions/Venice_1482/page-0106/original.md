@@ -6,8 +6,6 @@
 
 ¶Denominatio dicitur proportionis minoris quidẽ numeri ad maiorem pars.vel partes ipſius minoris.que in maiore ſunt.Maioris autem ad minorem totum.vel totum ⁊ pars vel partes:prout maior ſuperfluit.¶Similes ſiue vna alij eadem dicũtur proportiones que eandem denominationem recipiunt.Maior vero que maiorẽ.Minor autem que minorem.¶Numeri vero quoꝝ ꝓportio vna:ꝓportionales appellantur.¶Termini ſiue radices dicuntᷣ quibus in eadẽ ꝓportione minores ſumi ipoſſibile eſt. ¶Petitiones ſunt quattuor.¶Cuilibet numero quotlibet poſſe ſumi equales prout libet.vl' multiplices.¶Quolibet numero aliquẽ quãtũlibet ſumere poſſe maiorem.¶Seriem numerorum in infinitum poſſe procedere.¶Nulluʒ numeꝝ in infinitũ poſſe diminui. ¶Cõmunes animi cõceptiones ſunt decẽ.¶Omnis pars minor eſt ſuo toto.¶Quicunqʒ eiuſdẽ ſiue equalium fuerint eque multiplices:ipſi quoqʒ erũt eq̃les.¶Quibus idẽ numerus eque multiplex fuerit.ſiue quoruʒ eque multiplices fuerint equales:⁊ ipſi etiam erunt equales.¶Omnis numeri pars ẽ vnitas ab ipſo denominata.¶Omnis pars eſt minor que maiorẽ habet denominationẽ:maior vero que minorem.¶Quilibet numerus totus eſt ab vnitate.quota pars ipſius ẽ vnitas.¶Quicunqʒ numerꝰ in vnitatem ducitur.ſeipſum producit.Vnitas quoqʒ in quẽcũqʒ ducta producit eundem.¶Quicunqʒ numerus numerat duos:numerat quoqʒ cõpoſitum ex illis.¶Quicunqʒ numerus numerat aliquẽ:numerat omnem numeratum ab illo.¶Quicunqʒ numerus numerat totum ⁊ detractum:numerat reſiduum.
 
-[Curated heading level=1 type=propositions: LIBER VII]
-
 [Curated heading level=2 type=propositions: Propoſitio .1.]
 
 ## Propoſitio .1.

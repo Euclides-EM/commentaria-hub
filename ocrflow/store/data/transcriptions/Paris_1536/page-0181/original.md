@@ -6,15 +6,15 @@ parallelogrammo,per vigesimamquartam huius sexti.Eidem porrò a/b/c/d parallelog
 
 [Diagram: b c e h f a l g d]
 
-[Curated heading level=2 type=propositions: Theorema 20, Propositio 27.]
+[Curated heading level=3 type=propositions: Theorema 20, Propositio 27.]
 
-[Curated heading level=2 type=theorems: Theorema 20, Propositio 27.]
+[Curated heading level=3 type=theorems: Theorema 20, Propositio 27.]
 
-## Θεώρημα κ, Πρόθεσις κζ.
+### Θεώρημα κ, Πρόθεσις κζ.
 
 Πάντων τῶν παρὰ τὴν αὐτὴν εὐθεῖαν παραβαλλομένων παραλληλογράμμων,καὶ ἐλλειπόντων εἴδεσι παραλληλογράμμοις ὁμοίοις τε ϗ̃ ὁμοίως κειμένοις τῷ ἀπὸ τῆς ἡμισείας ἀναγραφομένῳ:μέγιστόν ἐστι,τὸ ἀπὸ τῆς ἡμισείας παραβαλλόμενον παραλληλόγραμμον, ὅμοιον ὂν τῷ ἐλλείμματι.
 
-## Theorema 20, Propositio 27.
+### Theorema 20, Propositio 27.
 
 OMnium parallelogrãmorum circum eandem rectam lineam proiectorum, deficientiúmq; specie parallelogrammis similibus similitérque positis ei quod à dimidia descriptum eſt : maximum eſt quod à dimidia proiectum parallelogrammum,simile exiſtens sumpto.
 

@@ -18,21 +18,17 @@ Inuentis iam longitudine incommensurabilibus rectis ut α,β,& plures aliæ magn
 
 DECIMI LIBRI FINIS.
 
-[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER VNDECIMVS]
-
-[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER VNDECIMVS]
-
-[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER VNDECIMVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER VNDECIMVS,
 
-[Curated heading level=2 type=definitions: Eucli.ex Campano Diffinitiones.]
-
 ## Eucli.ex Campano Diffinitiones.
+
+[Curated heading level=3 type=definitions: COrpus,est quod]
 
 [Curated heading level=3 type=campanus_sequence: 1.]
 
 {dropcap:C|lines=?|style=decorated|decoration="figures"}Orpus,est quod longitudinem latitudinem,& altitudinem habet.Cuius termini,sunt superficies.
+
+[Curated heading level=3 type=definitions: Linea erecta supra]
 
 [Curated heading level=3 type=campanus_sequence: 2.]
 
@@ -41,6 +37,8 @@ Linea erecta supra superficiem,est quæ cum singulis sibi conterminalibus lineis
 Intelligatur enim linea a b exurgere supra planū,ita quod pūctus a imaginetur in aëre,& b in plano.& à puncto b ducantur plures lineæ in eodē plano:ut b c,b d,& quotlibet aliæ.Si igitur ita fuerit quod linea a b cum linea b c,& cum linea b d,& cum qualibet alia linea protracta a puncto b in plano illo angulum rectum contineat,ipsa dicetur esse perpēdicularis ad illā superficiem in qua protractæ sunt hæ lineæ,uidelicet b c & b d,& aliæ cum quibus ipsa ponitur continere angulum rectum.
 
 [Diagram: a plane drawn as a parallelogram with several lines crossing at the point b, the letters c and d at its edges, and the line b a rising obliquely to the point a above]
+
+[Curated heading level=3 type=definitions: Superficies autem erecta]
 
 [Curated heading level=3 type=campanus_sequence: 3.]
 

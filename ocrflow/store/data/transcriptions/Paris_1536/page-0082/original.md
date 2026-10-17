@@ -14,18 +14,18 @@ Pars secũda.
 Tertia pars.
 [/Margin]
 
-### Corollarium.
+#### Corollarium.
 
 ¶Quæ igitur à pũcto extra circulũ dato, in circulum ipsum cadunt rectæ lineæ, ab ipsa minima, vel maxima (quæ per centrũ) æquè distãtes: æquales sunt adinuicem, & è diuerso, siue in conuexã, siue in curuã inciderint eiusdem circuli circũferẽtiam.
 
-[Curated heading level=2 type=propositions: Theorema 8, Propositio 9.]
+[Curated heading level=3 type=propositions: Theorema 8, Propositio 9.]
 
-[Curated heading level=2 type=theorems: Theorema 8, Propositio 9.]
+[Curated heading level=3 type=theorems: Theorema 8, Propositio 9.]
 
-## Θεώρημα η, Πρόθεσις θ.
+### Θεώρημα η, Πρόθεσις θ.
 
 Εὰν κύκλου ληφθῇ τι σημεῖον ἐντός, ἀπὸ δὲ τοῦ σημείου πρὸς τὸν κύκλον προσπίπτωσιν πλείους ἢ δύο εὐθεῖαι ἴσαι, τὸ ληφθὲν σημεῖον, κέντρον ἐστὶ τοῦ κύκλου.
 
-## Theorema 8, Propositio 9.
+### Theorema 8, Propositio 9.
 
 SI in circulo suscipiatur punctum aliquod, & ab eo puncto ad

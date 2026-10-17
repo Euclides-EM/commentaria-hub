@@ -5,9 +5,9 @@ Puisqu’en prenant AC plus grande que AF, la perpendiculaire CM est plus éloig
 
 Donc les perpendiculaires abaissées des différens points de la ligne AC sur AI passent à des distances aussi grandes qu’on voudra du point A ; donc il y en aura une qui passera par B et qui sera confondue avec la perpendiculaire BD ; donc les lignes AC, BD, prolongées doivent se rencontrer.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXI.]
+[Curated heading level=2 type=theorems: PROPOSITION XXI.]
 
 ## PROPOSITION XXI.
 

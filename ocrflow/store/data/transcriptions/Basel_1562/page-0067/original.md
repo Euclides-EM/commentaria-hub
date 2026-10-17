@@ -27,7 +27,7 @@ Item ſo ich 576 mit 675 ſoll multipliciern / die ich zerſtreit in 600 vnd 75:
 
 Nachdem dann ainer ain vortail waißt in diſer art zefinden. Was groſſen nutz diſer vortail in der rechenkhunſt hab / mag niemandt gnůgſamer zele. Dan es iſt offenbar das die welſch practic (welche allain iſt ain gſchwinder / ſchöner khunſtlicher vnd artlicher vortail vnd proceß der regel de tri) ſo alle andere rechnungen / die Coß außgenomen / ybertrifft / mehrerthails in geſchwinder vnd vortailiger multiplicatiō ainer zal in die ander / ſteht / vnd dardurch verricht wirtt / vnd alſo diſe propoſ. ettlicher maß zů ainer grundveſt hat. Wie aber ſolliche zertailung der zalen füglich beſcheche / iſt hie nit zeit noch ſtatt anzezaigen.
 
-[Curated heading level=3 type=margin_topics: Erweitterung diſer propoſition]
+[Curated heading level=3 type=marginal_headings: Erweitterung diſer propoſition]
 
 [Margin]
 Erweitterung diſer propoſition.

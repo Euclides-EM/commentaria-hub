@@ -112,6 +112,28 @@ func TestBuildNodesNestsCuratedAndPrintedHeadingsByStructuralLevel(t *testing.T)
 	require.Equal(t, "Book I", nodes[1].Content)
 }
 
+func TestBuildNodesKeepsHiddenHeadingsAsStructuralBoundaries(t *testing.T) {
+	nodes := buildNodes(
+		[]string{"header1", "header2", "curated-heading2", "curated-heading3"},
+		[]categoryPageContent{
+			{page: 1, category: "header1", hidden: true},
+			{page: 1, category: "curated-heading2", content: "Diffinitio vndecima", indexType: "definitions"},
+			{page: 2, category: "header2", hidden: true},
+			{page: 2, category: "curated-heading3", content: "Diffinitio prima", indexType: "definitions"},
+			{page: 3, category: "header1", hidden: true},
+			{page: 3, category: "curated-heading2", content: "Diffinitio secunda", indexType: "definitions"},
+			{page: 3, category: "curated-heading3", content: "Diffinitio tertia", indexType: "definitions"},
+		},
+	)
+
+	require.Len(t, nodes, 3)
+	require.Equal(t, "Diffinitio vndecima", nodes[0].Content)
+	require.Empty(t, nodes[0].Children)
+	require.Equal(t, "Diffinitio prima", nodes[1].Content)
+	require.Equal(t, "Diffinitio secunda", nodes[2].Content)
+	require.Equal(t, "Diffinitio tertia", nodes[2].Children[0].Content)
+}
+
 func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	db, err := sql.Open("sqlite3", ":memory:")
 	require.NoError(t, err)
@@ -144,7 +166,7 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	}))
 
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
-	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
 
 	var logs bytes.Buffer
 	originalLogOutput := log.Writer()
@@ -188,7 +210,7 @@ func TestCreateAnnotationInfersPagesFromDatasetImages(t *testing.T) {
 	}
 
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
-	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
 
 	created, err := annotationSvc.Create("ds_infer_pages", &annotation.Annotation{
 		Meta: common.Meta{Name: "Infer pages"},
@@ -242,7 +264,7 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	}, filepath.Join(annotationAltoDir, "page-0001.xml")))
 
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
-	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
 
 	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil, false)
 	require.NoError(t, err)

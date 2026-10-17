@@ -2,8 +2,6 @@
 
 <!-- Page number: 171 -->
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Werde auch bd gezogen.
 ### Beweiß.
 ⌓ adb gleichgestalt mit ⌓ acb   n. 1. Vorber.
@@ -12,9 +10,9 @@ Welches unmüglich   n. 16. I.
 ### Beschluß.
 Können also keine zwey gleichgestalte/ und doch von ungleicher Grösse/ Kreyßstücke auff einen einigen geraden Strich auff gleiche Weise gesetzet werden. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXIV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXIV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 22. Beweiß-Stück. Der XXIV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 22. Beweiß-Stück.]
 
 ## Der XXIV. Vortrag.
 

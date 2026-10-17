@@ -2,8 +2,6 @@
 
 # EVCLIDIS DEMONSTRATIONum reſtitutarum Liber ſextus.
 
-[Curated heading level=1 type=definitions: EVCLIDIS DEMONSTRATIONum reſtitutarum Liber ſextus.]
-
 [Curated heading level=2 type=definitions: Diffinitio prima.]
 
 ## Diffinitio prima.

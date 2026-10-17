@@ -4,15 +4,15 @@
 
 Tout ainſi que ceſte ligne là, laquelle eſt co gnuë & determinee de certaine quantité eſt dite rationele; ainſi auſſi le quarré deſcrit ſur icelle ligne, eſt appellé rationel, pour ce qu’iceluy eſt certain & cogneu: & les ſuperficies comparees à iceluy quarre, ſont auſſi dictes rationeles, ou bien irrationeles, ſelon quelles ſeront trouuees commenſurables à iceluy quarré rationel, ainſi qu’il eſt dit és deux definitions ſuiuantes.
 
-[Curated heading level=2 type=definitions: 9.]
+[Curated heading level=3 type=definitions: 9.]
 
 9. Les figures commenſurables au quarré rationel, ſont auſſi rationeles.
 
-[Curated heading level=2 type=definitions: 10.]
+[Curated heading level=3 type=definitions: 10]
 
 10 Et celles qui ſont incommenſurables au quarré rationel, ſont irrationeles & ſourdes.
 
-[Curated heading level=2 type=definitions: 11.]
+[Curated heading level=3 type=definitions: 11.]
 
 11. Et les lignes qui peuuent icelles figures irrationeles, ſont irrationeles & ſourdes.
 
@@ -24,10 +24,8 @@ Or a ces definitions nous adiouterons ( apres Clauius) vne de mande, & quelques 
 
 Qu’on puiſſe multiplier quelconque grandeur tant de fois qu’elle excede quelconque grandeur de meſme genre.
 
-[Curated heading level=1 type=axioms: ELEMENT DIXIESME. COMMVNES SENTENCES.]
-
 ## COMMVNES SENTENCES.
 
-[Curated heading level=2 type=axioms: I.]
+[Curated heading level=3 type=axioms: I.]
 
 I. Vne grandeur meſurant tant de grandeurs qu’on voudra, meſure auſſi la compoſee d’icelles.

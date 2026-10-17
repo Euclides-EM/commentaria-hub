@@ -5,9 +5,9 @@ ayant la premiere & la ſeconde, qui eſt la moyenne, on a la 3ᵉ par le Proble
 
 ### DES TRIANGLES ISOSCELES.
 
-[Curated heading level=2 type=propositions: XXXIII. PREMIER THEOREME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXIII. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 
@@ -19,9 +19,9 @@ XXXIII.
 
 LORSQUE l'angle du ſommet d'un triangle Iſoſcele eſt de 36 degrez, chacun des angles ſur la baſe eſt de 72, & la baſe eſt la moyenne proportionelle entre le coſté entier, & le coſté moins cette baſe ( c'eſtadire que la baſe diviſe le coſté en moyenne & extrême raiſon ) & la baſe eſtant ajoûtée au coſté, il s'en fait une ligne diviſée en moyenne & extrême raiſon. Voyez XI. 68. 69. 73.
 
-[Curated heading level=2 type=propositions: XXXIV. SECOND THEOREME.]
+[Curated heading level=4 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXIV. SECOND THEOREME.]
+[Curated heading level=4 type=theorems: SECOND THEOREME.]
 
 #### SECOND THEOREME.
 
@@ -47,9 +47,9 @@ Donc ∴ *bc*. *cd*. *fc*. Ce qu'il falloit demonſtrer.
 DES QUADRILATERES.
 [/Subhead]
 
-[Curated heading level=2 type=definitions: XXXV. DEFINITIONS.]
-
 ### DEFINITIONS.
+
+[Curated heading level=4 type=definitions: XXXV.]
 
 [Curated heading level=4 type=paragraph_order: XXXV.]
 
@@ -58,5 +58,7 @@ XXXV.
 [/Margin]
 
 LE quadrilatere eſt une figure de 4 coſtez qui ne ſe joignent qu'aux extrêmitez: & par conſequent de 4 angles qui tous enſemble valent quatre droits. XII. 5.
+
+[Curated heading level=4 type=definitions: Les coſtez qui comprennent]
 
 Les coſtez qui comprennent un même angle s'appellent coſtez angulaires.

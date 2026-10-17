@@ -13,11 +13,11 @@ Fig. 48.
 
 Quod ſi neutra rectarum C L, F B per centrum tranſeat, per communem earum ſectionem O per centrum A, ducatur recta X Z. Per modo demonſtrata tam rectang. C O L quam rectang. F O B æquantur rectangulo Z O X. Ergo etiam C O L, F O B æqualia ſunt inter ſe.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXXVI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXVI.]
 
 ## PROPOSITIO XXXVI.
 
-[Curated heading level=2 type=figures: Fig. 49, 50 & 51]
+[Curated heading level=5 type=figures: Fig. 49, 50 & 51]
 
 [Margin]
 Fig. 49. 50. 51.

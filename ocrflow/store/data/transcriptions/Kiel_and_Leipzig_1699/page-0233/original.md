@@ -16,9 +16,9 @@ Welcher umb das Viereck beschrieben/ n. 6. Besch. IV.
 Ist also umb das gegebene □ bcde ein Kreyß edcb beschrieben.
 W. Z. M.
 
-[Curated heading level=2 type=propositions: Der X. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der X. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 10. Werck-Stück. Der X. Vortrag.]
+[Curated heading level=2 type=problems: Das 10. Werck-Stück.]
 
 ## Der X. Vortrag.
 

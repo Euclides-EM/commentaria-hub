@@ -4,11 +4,11 @@
 
 Ex ipſa etiam notione lineæ rectæ, & circularis, propoſitio eſt manifeſta.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO III.]
+[Curated heading level=2 type=propositions: PROPOSITIO III.]
 
 ## PROPOSITIO III.
 
-[Curated heading level=2 type=figures: Fig. 3]
+[Curated heading level=5 type=figures: Fig. 3]
 
 [Margin]
 Fig. 3.

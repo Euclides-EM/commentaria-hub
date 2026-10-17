@@ -3,11 +3,9 @@
 
 ## PROBLEMES.
 
-[Curated heading level=1 type=problems: LIVRE ONZIEME.]
+[Curated heading level=3 type=propositions: I.]
 
-[Curated heading level=2 type=propositions: LXV. I.]
-
-[Curated heading level=2 type=problems: LXV. I.]
+[Curated heading level=3 type=problems: I.]
 
 ### I.
 
@@ -23,9 +21,9 @@ TROUVER la moyenne proportionelle entre deux lignes données. Joindre les lignes
 
 On peut employer pour trouver la même choſe les Theoremes 2. ( 46. s̄. ) & 6. 54. s̄. ) J'en laiſſe la recherche pour exercer l'eſprit.
 
-[Curated heading level=2 type=propositions: LXVI. SECOND PROBLEME.]
+[Curated heading level=3 type=propositions: SECOND PROBLEME.]
 
-[Curated heading level=2 type=problems: LXVI. SECOND PROBLEME.]
+[Curated heading level=3 type=problems: SECOND PROBLEME.]
 
 ### SECOND PROBLEME.
 
@@ -39,9 +37,9 @@ TROUVER toutes les reciproques poſſibles à deux lignes données. Mettre la pl
 
 [Figure: circle with vertical diameter K f, point c on the diameter, and a horizontal line through c extended to y]
 
-[Curated heading level=2 type=propositions: LXVII. TROISIEME PROBLEME.]
+[Curated heading level=3 type=propositions: TROISIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: LXVII. TROISIEME PROBLEME.]
+[Curated heading level=3 type=problems: TROISIEME PROBLEME.]
 
 ### TROISIEME PROBLEME.
 

@@ -4,7 +4,7 @@ bifariam ſecari a diametro, perſpicuum ex eo eſſe poteſt, quod diameter per
 
 [Diagram: semicircle on baseline A C B with point D at top of the outer arc, inner arcs marked E and D descending toward the base]
 
-[Curated heading level=2 type=definitions: XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 ### XVIII.
 

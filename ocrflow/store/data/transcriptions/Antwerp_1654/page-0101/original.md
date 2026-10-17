@@ -35,7 +35,7 @@ Hoc eſt, B C, A C quadrata, excedunt quad. A B rectangulo B C F bis.
 
 ### Corollarium.
 
-[Curated heading level=2 type=figures: Fig. 15]
+[Curated heading level=5 type=figures: Fig. 15]
 
 [Margin]
 Fig.15.

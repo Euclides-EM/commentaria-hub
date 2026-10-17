@@ -9,8 +9,6 @@ intersections AB, *ab*, par un troisieme plan SAB, seront paralleles* ; donc les
 
 Donc tous les côtés SA, SB, SC, etc. sont coupés proportionnellement en *a*, *b*, *c*, etc. La hauteur SO est coupée dans la même proportion au point *o* ; car BO et *bo* sont paralleles, et ainsi on a SO : S*o* :: SB : S*b*.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2°. Puisque *ab* est parallele à AB, *bc* à BC, *cd* à CD, etc., l’angle *abc* = ABC, l’angle *bcd* = BCD, et ainsi de suite. De plus, à cause des triangles semblables SAB, S*ab*, on a AB : *ab* :: SB : S*b* ; et à cause des triangles semblables SBC, S*bc*, on a SB : S*b* :: BC : *bc* ; donc AB : *ab* :: BC : *bc* ; on auroit de même BC : *bc* :: CD : *cd*, et ainsi de suite. Donc les polygones *abcde*, ABCDE, ont les angles égaux et les côtés homologues proportionnels ; donc ils sont semblables.
 
 [Curated heading level=4: Corollaire.]

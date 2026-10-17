@@ -9,11 +9,7 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auß C werde der Nebenstrich CE,
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Wie auch der Nebenstrich CF gezogen.
 
@@ -30,9 +26,9 @@ Dw. DBC ⩓ ABC n. 7. Gr:S. n.
 
 Müssen also allezeit diejenigen △ △ , welche auff einem einigen/ Grundstrich und zwischen einerley Nebenstrichen stehen/ einander gleich seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXXVIII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXVIII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 28. Beweiß-Stück. Der XXXVIII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 28. Beweiß-Stück.]
 
 ## Der XXXVIII. Vortrag.
 

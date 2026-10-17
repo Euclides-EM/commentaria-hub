@@ -6,7 +6,7 @@
 Trilaterarũ figurarum ab angulis differentiæ.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 27.]
+[Curated heading level=4 type=definitions: 27]
 
 27 Amplius trilaterarum figurarum, rectangulum triangulum eſt, quod rectum angulum habet.
 
@@ -18,7 +18,7 @@ Vt iſoſceles b, vel ſcalenum triangulum e, proxima diffinitione deſcriptum.
 Amblygoniũ
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 28.]
+[Curated heading level=4 type=definitions: 28]
 
 28 Amblygonium autem, quod obtuſum angulum habet.
 
@@ -30,7 +30,7 @@ Veluti antecedens iſoſceles d, ſcalenúmve triangulum g.
 Oxygoniũ
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 29.]
+[Curated heading level=4 type=definitions: 29]
 
 29 Oxygonium verò, quod tres habet acutos angulos.
 
@@ -50,7 +50,7 @@ Quadrilaterarum figurarũ diſcrimina
 Quadratum eſt equilaterum et rectãgulũ
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 30.]
+[Curated heading level=4 type=definitions: 30]
 
 30 Quadrilaterarum autem figurarum, quadratũ quidem eſt, quod & æquilaterum & rectangulum eſt.
 
@@ -68,7 +68,7 @@ Quatuor ſequẽtia ſunt parallelogrammata
 
 Επρόμηκες δὲ, ὃ ὀρθογώνιον μὲν ὀυκ ἰσόπλευρον δὲ.
 
-[Curated heading level=2 type=definitions: Diffinitio 31.]
+[Curated heading level=4 type=definitions: 31]
 
 31 Altera parte longius, eſt quod rectangulum quidem, at æquilaterum non eſt.
 
@@ -80,7 +80,7 @@ Quemadmodũ ſupraſcripa figura k, quoad angulorum rectitudinem conueniẽs cum
 Rhombus
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 32.]
+[Curated heading level=4 type=definitions: 32]
 
 32 Rhombus, eſt quæ æquilatera, at rectangula non eſt.
 
@@ -94,7 +94,7 @@ Cuiuſmodi eſt figura l. Cõuenit itaque rhombus cum ipſo quadrato, in ſola l
 Rhomboides
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 33.]
+[Curated heading level=4 type=definitions: 33]
 
 33 Rhomboides verò, eſt quæ ex oppoſito latera & angulos habens æquales, neque æquilatera, neque rectangula eſt.
 
@@ -110,7 +110,7 @@ Quemadmodùm ſuprà depicta figura m/ repræſentat. Súntque hæc omnia nuper 
 Trapezia
 [/Margin]
 
-[Curated heading level=2 type=definitions: Diffinitio 34.]
+[Curated heading level=4 type=definitions: 34]
 
 34 Præter hæc autem reliqua quadrilatera, trapezia adpellantur.
 

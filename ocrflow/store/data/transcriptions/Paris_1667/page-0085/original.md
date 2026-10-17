@@ -9,15 +9,11 @@ c.      d.
 b c.    c d.
 [/Calculation]
 
-[Curated heading level=1 type=propositions: LIVRE TROISIEME.]
+[Curated heading level=2 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=1 type=theorems: LIVRE TROISIEME.]
+[Curated heading level=2 type=theorems: PREMIER THEOREME.]
 
-[Curated heading level=2 type=propositions: VI. PREMIER THEOREME.]
-
-[Curated heading level=2 type=theorems: VI. PREMIER THEOREME.]
-
-### PREMIER THEOREME.
+## PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: VI.]
 
@@ -53,11 +49,11 @@ Car    bd.      cf    ::    mp.      nq.
 
 Et je penſe avoir aſſez fait voir dans le 2e Livre que la même choſe ſe trouveroit dans les raiſons ſourdes, quoy qu'avec plus de longueur. Donc, &c.
 
-[Curated heading level=2 type=propositions: VII. SECOND THEOREME.]
+[Curated heading level=2 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: VII. SECOND THEOREME.]
+[Curated heading level=2 type=theorems: SECOND THEOREME.]
 
-### SECOND THEOREME.
+## SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: VII.]
 

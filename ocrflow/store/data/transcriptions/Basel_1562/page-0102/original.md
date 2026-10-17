@@ -13,7 +13,7 @@ So aber (wie in der dritten figur) die ſeitten ainander nit zerſchnitten. Soll
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: XXI. Die ain vnd zwaintzigſt Propoſition]
+[Curated heading level=2 type=propositions: XXI Die ain vnd zwaintzigſt Propoſition.]
 
 ## XXI Die ain vnd zwaintzigſt Propoſition.
 
@@ -27,7 +27,7 @@ Als die winckel c d e f / ſeind all ainander glych / dann ſy ſtehn ob ainem �
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: XXII. Die zway vnd zwaintzigſt Propoſition]
+[Curated heading level=2 type=propositions: XXII Die zway vnd zwaintzigſt Propoſition.]
 
 ## XXII Die zway vnd zwaintzigſt Propoſition.
 

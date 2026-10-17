@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE IV. -->
 <!-- Page number: 125 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XIV. PROBLÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIV.]
 
-[Curated heading level=2 type=problems: PROBLÊME. PROPOSITION XIV.]
+[Curated heading level=2 type=problems: PROPOSITION XIV.]
 
 ## PROPOSITION XIV.
 

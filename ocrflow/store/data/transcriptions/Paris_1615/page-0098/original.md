@@ -1,14 +1,6 @@
 <!-- Page number: 75 -->
 
-[Curated heading level=1 type=propositions: ELEMENT TROISIESME.]
-
-[Curated heading level=1 type=theorems: ELEMENT TROISIESME.]
-
-[Curated heading level=1 type=problems: ELEMENT TROISIESME.]
-
 # ELEMENT TROISIESME.
-
-[Curated heading level=1 type=definitions: ELEMENT TROISIESME. DEFINITIONS.]
 
 ## DEFINITIONS.
 

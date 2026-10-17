@@ -19,9 +19,9 @@ Car ayant les points de tous les ſommets des angles de l'inſcrite, les tangent
 
 ### PROBLEMES PARTICULIERS.
 
-[Curated heading level=2 type=propositions: XXXIV. I.]
+[Curated heading level=4 type=propositions: I.]
 
-[Curated heading level=2 type=problems: XXXIV. I.]
+[Curated heading level=4 type=problems: I.]
 
 #### I.
 
@@ -45,9 +45,9 @@ XXXV.
 
 INSCRIRE dans un cercle donné une figure de 8 coſtez, de 16, de 32; & ainſy à l'infini. 2e Regle generale.
 
-[Curated heading level=2 type=propositions: XXXVI. SECOND PROBLEME.]
+[Curated heading level=4 type=propositions: SECOND PROBLEME.]
 
-[Curated heading level=2 type=problems: XXXVI. SECOND PROBLEME.]
+[Curated heading level=4 type=problems: SECOND PROBLEME.]
 
 #### SECOND PROBLEME.
 

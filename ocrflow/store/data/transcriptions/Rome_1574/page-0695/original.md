@@ -27,7 +27,7 @@ D,36.  C,324.
 
 Ex his demonſtrabimus quatuor inſequentia theoremata non inutilia.
 
-[Curated heading level=4 type=numbered_item: I.]
+[Curated heading level=4: I]
 
 [Margin]
 I.
@@ -46,7 +46,7 @@ C,100.
 8. noni.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: II.]
+[Curated heading level=4: II]
 
 [Margin]
 II.
@@ -73,7 +73,7 @@ C,144.
 22. octaui
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: III.]
+[Curated heading level=4: III]
 
 [Margin]
 III.

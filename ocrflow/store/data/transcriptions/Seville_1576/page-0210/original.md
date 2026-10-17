@@ -2,8 +2,6 @@
 
 De aqui es manifieſto que ſi en el triangulo rectangulo deſde el angulo recto ſe tira vna perpendicular ſobre la baſis, la que es tirada es media proporcional a las partes dela baſis: y de mas deſto el lado de jũto a la parte es medio proporcional entre toda la baſis y la miſma parte: que ſe hauia de demoſtrar.
 
-[Curated heading level=1 type=problems: LIBRO SEXTO DE LOS ELEMENTOS DE EVCLI]
-
 [Curated heading level=2 type=propositions: Problema.1. Propoſicion.9.]
 
 [Curated heading level=2 type=problems: Problema.1. Propoſicion.9.]

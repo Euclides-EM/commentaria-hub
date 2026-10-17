@@ -14,7 +14,7 @@ Tertia differentia.
 
 [Diagram: b e a d c]
 
-### Corollarium.
+#### Corollarium.
 
 ¶Hinc fit manifestũ, in semicirculo angulum b/a/d, fore æqualẽ ipsi d/b/a:in sectione autẽ semicirculo minore, minorẽ:& in maiore maiorẽ.
 
@@ -26,15 +26,15 @@ Alia & vniuersalior eiusdẽ problematis ostensio.
 
 [Diagram: b d e f a c]
 
-[Curated heading level=2 type=propositions: Theorema 23, Propositio 26.]
+[Curated heading level=3 type=propositions: Theorema 23, Propositio 26.]
 
-[Curated heading level=2 type=theorems: Theorema 23, Propositio 26.]
+[Curated heading level=3 type=theorems: Theorema 23, Propositio 26.]
 
-## Θεώρημα κγ, Πρόθεσις κς.
+### Θεώρημα κγ, Πρόθεσις κς.
 
 Εν τοῖς ἴσοις κύκλοις αἱ ἴσαι γωνίαι ἐπὶ ἴσωρ περιφερειῶρ βεβήκασι, ἐάντε πρὸς τοῖς κέντροις, ἐάντε πρὸς ταῖς περιφερείαις ὦσι βεβηκῦαι.
 
-## Theorema 23, Propositio 26.
+### Theorema 23, Propositio 26.
 
 IN æqualibus circulis æquales anguli, in æqualibus circunferentijs subtenduntur: etsi ad centra, etsi ad circunferentias deducti fuerint.
 

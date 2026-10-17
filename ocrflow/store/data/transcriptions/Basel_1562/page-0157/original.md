@@ -1,7 +1,7 @@
 <!-- Running title: Des fünfft bůchs Euclidis -->
 <!-- Page number: 136 -->
 
-[Curated heading level=2 type=propositions: III. Die dryt propoſition]
+[Curated heading level=2 type=propositions: III Die dryt propoſition.]
 
 ## III Die dryt propoſition.
 
@@ -11,7 +11,7 @@
 
 Nun eben die obgeſeßten exempel. 24 iſt zway mal 12. item 16 iſt 2 mal 8. halt ſich auch 24 gegen 3. wie 16 gegen 2. ꝛc.
 
-[Curated heading level=2 type=propositions: IIII. Die vierdte propoſition]
+[Curated heading level=2 type=propositions: IIII Die vierdte propoſition.]
 
 ## IIII Die vierdte propoſition.
 

@@ -11,11 +11,11 @@ d Per 8. l.1.
 e Per def. 14.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIII.]
 
 ## PROPOSITIO XIII.
 
-[Curated heading level=2 type=figures: Fig. 34]
+[Curated heading level=5 type=figures: Fig. 34]
 
 [Margin]
 Fig. 34.
@@ -35,13 +35,13 @@ b Per axio. 7.
 
 ### Corollaria.
 
-[Curated heading level=4 type=numbered_item: 1.]
+[Curated heading level=5 type=numbered_corollaries: 1.]
 
 1. {dropcap:E|lines=2|style=plain}Odem modo demonſtrabitur ſi plures rectæ, quàm vna, eidem rectæ inſiſtant, angulos effici duobus rectis æquales.
 
-[Curated heading level=4 type=numbered_item: 2.]
+[Curated heading level=5 type=numbered_corollaries: 2.]
 
-[Curated heading level=2 type=figures: Fig. 37]
+[Curated heading level=5 type=figures: Fig. 37]
 
 2. Duæ rectæ inuicem ſecantes B A C, F A L efficiunt angulos, quatuor rectis æquales. Patet ex propoſ.
 

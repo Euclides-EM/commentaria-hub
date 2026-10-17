@@ -3,9 +3,9 @@
 
 Car soit O le point de concours des droites AB, CD ; dans le triangle OEF, où la ligne AC est menée parallélement à la base, on aura OE : AE :: OF : CF, ou OE : OF :: AE : CF. Dans le triangle OGH, on aura semblablement OE : EG :: OF : FH, ou OE : OF :: EG : FH. Donc, à cause du rapport commun, OE : OF, ces deux proportions donnent AE : CF :: EG : FH. On démontrera de la même maniere qu’on a EG : FH :: GB : HD, et ainsi de suite. Donc les lignes AB, CD, sont coupées proportionnellement par les paralleles EF, GH, etc.
 
-[Curated heading level=2 type=propositions: PROPOSITION XVI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVI.]
+[Curated heading level=2 type=theorems: PROPOSITION XVI.]
 
 ## PROPOSITION XVI.
 

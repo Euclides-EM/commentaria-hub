@@ -29,9 +29,9 @@ Dw. a ⊢ b — n. 7. Gr. p. I.
 
 Wenn derowegen aus Vier Ebenmässigen Grössen die Erste grösser/ als die Dritte/ so ist die Andere auch grösser/ als die Vierte: Und wenn die Erste eben so groß/ als die Dritte/ so ist auch die Andere eben so groß/ als die Vierte: wenn aber die Erste kleiner/ als die Dritte/ so ist die Andere auch kleiner/ als die Vierte. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 15. Beweiß-Stück. Der XV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 15. Beweiß-Stück.]
 
 ## Der XV. Vortrag.
 

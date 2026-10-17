@@ -25,11 +25,11 @@ Fig. 62.
 f Per ſchol. præced.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO XXXVII. & XXXVIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXVII. & XXXVIII.]
 
 ## PROPOSITIO XXXVII. & XXXVIII.
 
-[Curated heading level=2 type=figures: Fig. 63]
+[Curated heading level=5 type=figures: Fig. 63]
 
 {dropcap:T|lines=2|style=plain}Riangula (ACB, AFB) ſuper baſi eadem (AB) vel æquali, inter eaſdem parallelas (CI, AZ) conſtituta, ſunt æqualia.
 

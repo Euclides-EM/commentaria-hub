@@ -2,7 +2,7 @@
 
 touche chacun angle de la figure à l'entour de laquelle il est descrit.
 
-[Curated heading level=2 type=definitions: DEF. VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 ### VII.
 

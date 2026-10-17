@@ -5,7 +5,7 @@ Erunt igitur tam A C, quam A E æquales perpendiculari A D, quod eſt abſurdum 
 
 ### Corollarium.
 
-[Curated heading level=2 type=figures: Fig. 17]
+[Curated heading level=5 type=figures: Fig. 17]
 
 {dropcap:C|lines=2|style=plain}Irculi qui habent centra in vna recta, eamque ſecant in eodem puncto B. ſe mutuo in puncto illo B, contingunt.
 
@@ -15,7 +15,7 @@ Fig 17.
 
 Cæterum hæc propoſitio liquet etiam ex notione ipſa linearum, quæ comparantur. Neque enim aut recta linea & curua circuli peripheria, aut peripheriarum inæqualium diuerſæ curuaturæ, aut duæ conuexæ, ſecundum vllam ſui partem poſſunt congruere. Congruerent autem ſi inuicem in tota parte aliquâ tangerent.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIV.]
 
 ## PROPOSITIO XIV.
 

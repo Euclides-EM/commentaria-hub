@@ -8,7 +8,7 @@ in b,circum idem punctum a,completè reuoluatur: describens planum circulare b/c
 
 Ἐπίπεδος δὲ γωνία,ἐστὶν ἡ ἐν ἐπιπέδῳ δύο γραμμῶν ἁπτομένων ἀλλήλων, καὶ μὴ ἐπ᾽ εὐθείας κειμένων πρὸς ἀλλήλας τῶν γραμμῶν κλίσις.
 
-[Curated heading level=2 type=definitions: Diffinitio 8.]
+[Curated heading level=4 type=definitions: 8]
 
 8 Planus angulus,est duarum linearum in plano sese tangentium, & non in directo iacentium,ad alterutram inclinatio.
 
@@ -20,7 +20,7 @@ Hæc autem inclinatio de rectis lineis potissimùm venit intelligenda: tales eni
 
 Ὅταν δὲ αἱ περιέχουσαι τὴν γωνίαν γραμμαὶ εὐθεῖαι ὦσιν,εὐθύγραμμος καλεῖται ἡ γωνία.
 
-[Curated heading level=2 type=definitions: Diffinitio 9.]
+[Curated heading level=4 type=definitions: 9]
 
 9 Quando autem quæ angulum continent rectæ lineæ fuerint,rectilineus angulus nuncupatur.
 
@@ -39,7 +39,7 @@ Rectilinei. Curuilinei. Mixti.
 
 [Diagram: rectilinear, curvilinear and mixed angles]
 
-## Penes quid rectilineorum angulorum attendenda magnitudo.
+### Penes quid rectilineorum angulorum attendenda magnitudo.
 
 CVIVSLIBET IGITVR ANGVLI PLANI RECTILINEI MAgnitudo siue quantitas,dicitur arcus circuli,ab ipsis lineis rectis datū efficientibus angulum comprehēsus:circuli inquā,cuius centrū ad concursum dictarum linearū imaginatur,& qui ad completam minoris earundem linearum reuolutionem describitur. Si datæ itaque lineæ rectæ angulum continentes,quadrantē adamussim comprehendant ipsius circuli: huiusmodi angulus rectus dicitur. Si verò arcum includant quadrante minorem:acutus.Quoties autem idem arcus,quadrantem exuperauerit circuli:datus angulus nominatur obtusus.Quod ex ipso facile colligitur Euclide,cùm dicit,
 
@@ -49,7 +49,7 @@ Angulus, Rectus, Acutus, Obtusus.
 
 Ὅταν δὲ εὐθεῖα ἐπ᾽ εὐθεῖαν σταθεῖσα τὰς ἐφεξῆς γωνίας ἴσας ἀλλήλαις ποιῇ, ὀρθή ἐστιν ἑκατέρα τῶν ἴσων γωνιῶν.καὶ ἡ ἐφεστηκυῖα εὐθεῖα,κάθετος καλεῖται ἐφ᾽ ἣν ἐφέστηκεν.
 
-[Curated heading level=2 type=definitions: Diffinitio 10.]
+[Curated heading level=4 type=definitions: 10]
 
 10 Cùm verò recta linea super rectam consistens lineam, vtrobique angulos adinuicem æquales fecerit:rectus est vterque æqualium angulorum.Et quæ superstat recta linea,perpendicularis vocitatur,super quam steterit.
 

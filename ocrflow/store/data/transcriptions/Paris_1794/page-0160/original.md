@@ -10,9 +10,9 @@ culaires sur DN. Puisque CB=CD et MN=MB, on a AC+CB=AD, et AM+MB=AM+MN. Mais AC+
 
 Mais la base BD est divisée en deux parties égales au point G*, ainsi que MN au point P ; on a donc aussi BG>BP. Mais les triangles ABC, ABM, qui ont même base AB, sont entre eux comme leurs hauteurs BG, BP ; et puisque BG>BP, il s’ensuit que le triangle isoscele ABC est plus grand que le non-isoscele ABM de même base et de même périmetre.
 
-[Curated heading level=2 type=propositions: PROPOSITION II. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION II.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION II.]
+[Curated heading level=2 type=theorems: PROPOSITION II.]
 
 ## PROPOSITION II.
 

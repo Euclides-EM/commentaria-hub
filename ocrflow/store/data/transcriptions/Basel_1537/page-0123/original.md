@@ -8,6 +8,8 @@
 
 gnitudinibus & alijs eis æqualibus multitudine* una sumptis & in eadem ratione quando fuerit sicut in primis magnitudinibus prima ad ultimam, sic in secundis magnitudinibus prima ad ultimam. Vel aliter. Acceptio extremarum per subtractionem mediarum. 18 Ordinata proportio, est cùm fuerit antecedens ad consequens, sicut antecedēs ad cōsequēs & consequens ad rem aliam, sicut cōsequens ad rem aliā. 19 Inordinata proportio, est cū fuerit antecedēs ad cōsequens sicut antecedēs ad cōsequēs, & cōsequens ad rem aliam sicut res alia ad antecedēs. 20 Extēsa proportio, est uādo fuerit sicut antecedēs ad cōsequens sic antecedens ad consequens, fuerit autem & sicut consequens ad rem aliam, sic consequens ad rem aliam.
 
+[Curated heading level=3 type=definitions: 21]
+
 21 Perturbata autem proportio, est quando tribus existentibus magnitudinibus & alijs eis æqualibus multitudine, fit sicut quidem in primis magnitudinibus antecedens ad consequens sic in secundis magnitudinibus antecedens ad consequens, sicut autem in primis magnitudinibus cōsequens ad rem aliam, sic in secundis res alia ad antecedens.
 
 ## Eucli. ex Camp. Propositio 1

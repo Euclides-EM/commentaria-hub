@@ -1,11 +1,11 @@
 <!-- Page number: 228 -->
 <!-- Running title: Elementorum Geometriæ -->
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO IX.]
+[Curated heading level=2 type=propositions: PROPOSITIO IX.]
 
 ## PROPOSITIO IX.
 
-[Curated heading level=2 type=figures: Fig. 16]
+[Curated heading level=5 type=figures: Fig. 16]
 
 [Margin]
 Fig.16.
@@ -23,11 +23,11 @@ b Per 8. l.11.
 c Per 6.l.11.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO X.]
+[Curated heading level=2 type=propositions: PROPOSITIO X.]
 
 ## PROPOSITIO X.
 
-[Curated heading level=2 type=figures: Fig. 17]
+[Curated heading level=5 type=figures: Fig. 17]
 
 [Margin]
 Fig.17.

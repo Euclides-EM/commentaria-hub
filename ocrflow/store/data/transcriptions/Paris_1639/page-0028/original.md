@@ -2,7 +2,7 @@
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XXX.]
+[Curated heading level=3 type=definitions: XXX.]
 
 ### XXX.
 
@@ -10,7 +10,7 @@ Le quarré long ou rectangle est, vne figure qui a les angles droicts, mais qui 
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XXXI.]
+[Curated heading level=3 type=definitions: XXXI.]
 
 ### XXXI.
 
@@ -18,7 +18,7 @@ Rhombe est vne figure equilatere, mais n'est pas rectangle, comme A.
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XXXII.]
+[Curated heading level=3 type=definitions: XXXII.]
 
 ### XXXII.
 

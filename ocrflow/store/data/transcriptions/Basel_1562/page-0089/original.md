@@ -21,7 +21,7 @@ Das kain triangel ſey / der nitt zwen ſcharpff winckel auffs wenigſt hab / ma
 
 Demnach ſo du aines fürgebnen triangels des ſeitten dir bekhant / innhalt begerſt zefinden / er ſey winckhelrecht / weitteckhig / ſcharpffeckhig / gleichſeittig / gleichfüſſig / oder dreyer ungleichen linien / haſtu ain kurtzen vnd ſchönen weg auß diſer propoſition / Nemlich zeuch in im ain perpendicular / vnd ſo du dan derſelben lenge auß diſer propoſition aigenſchafft angeſehen ainen ſcharpffen winckel erkhant / multiplicier dieſelb in die baſim / das iſt zertailte linj / der halbtail diß products zaigt den innhalt oder begreiff des triangels auß vrſach bey der 41 vnd 47 propoſitiones / des erſten bůchs erklärt. Mag jeder der leng nach in geſetzten vnd andern exemplen probiern.
 
-[Curated heading level=2 type=propositions: XIIII. Die vierzehende Propoſition]
+[Curated heading level=2 type=propositions: XIIII Die vierzehende Propoſition.]
 
 ## XIIII Die vierzehende Propoſition. Lehrt
 

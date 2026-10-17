@@ -1,29 +1,29 @@
 <!-- Running title: Des erſt bůchs Euclidis -->
 <!-- Page number: 26 -->
 
-[Curated heading level=2 type=propositions: XXXVIII. Die achtvnddreyſſigſt propoſition]
+[Curated heading level=3 type=propositions: XXXVIII Die achtvnddreyſſigſt propoſition.]
 
-## XXXVIII Die achtvnddreyſſigſt propoſition.
+### XXXVIII Die achtvnddreyſſigſt propoſition.
 
 [Subhead]
 All triangel / ſo zwiſchen zwayen parallel linien auff gleichen baſis linien ſtehn / ſeind ainander gleich.
 [/Subhead]
 
-### Erklärung.
+#### Erklärung.
 
 Diſe prop. hatt iren verſtand vnd vrſach auß der vorgehnden / wie die 36 auß der 35. Volgen exempel mitt jren zalen erklärt.
 
 [Diagram: several triangles standing between two parallel lines, with numerical and radical side labels]
 
-### Anhang.
+#### Anhang.
 
 Ainem fürgebnen triangel in zway gleiche tail oder ſtuck zů tailen.
 
-#### Geſchicht alſo /
+##### Geſchicht alſo /
 
 Tail ain ſeitten des triangels (welche du wilt) in zwen gleiche tail / durch die 10 propoſ. vom puncten der tailung zeüch ain linj in den winckel ſo gegen yberſteht / ſo iſt der triangel in zwen gleiche triangel getailt.
 
-#### ¶ Demonſtration /
+##### ¶ Demonſtration /
 
 Als diſe propoſ. beweyſet / ſo du von gemelten winckel ain linj zeüheſt / welche gegen der getailtten parallel iſt / als hie der triangel a b c.
 
@@ -31,9 +31,9 @@ Die linj a c getailt in puncten d / die linj b d / macht zwai gleiche tail des g
 
 [Diagram: triangle abc divided into two triangles by line bd, with a parallel line through b]
 
-[Curated heading level=2 type=propositions: XXXIX. Die neünvnddreyſſigſt prop.]
+[Curated heading level=3 type=propositions: XXXIX Die neünvnddreyſſigſt prop.]
 
-## XXXIX Die neünvnddreyſſigſt prop.
+### XXXIX Die neünvnddreyſſigſt prop.
 
 [Subhead]
 Gleiche triangel / ſo auff ainer ſeitten auff ainer baſi ſtehn / ſtehnd zwiſchen parallel linien.
@@ -41,15 +41,15 @@ Gleiche triangel / ſo auff ainer ſeitten auff ainer baſi ſtehn / ſtehnd zwi
 
 Diß iſt die 37 propoſ. vmbkehrt.
 
-[Curated heading level=2 type=propositions: XL. Die viertzigſt propoſition]
+[Curated heading level=3 type=propositions: XL Die viertzigſt propoſition.]
 
-## XL Die viertzigſt propoſition.
+### XL Die viertzigſt propoſition.
 
 [Subhead]
 Gleiche triangel / ſo auff gleichen baſis linien / vnd auff ain ſeitten geſtelt ſeind / ſtehn zwiſchen parallel linien.
 [/Subhead]
 
-### Erklärung.
+#### Erklärung.
 
 Diſe iſt die 38 vmbkehrt / mag auch gleicherweiß auß der ſelben figur verſtanden werden / wie die vorgehnd auß der 37. Das er aber ſpricht / auff ainer ſeitten / machſtu auß diſen beigeſezten figur verſtehn / da der ain triangel vberſich ſteht / der ander vnderſich / vnd nitt nott daß die linj ſo den ſpitz trifft der baſis linj oder dern ſo des andern ſpitz trifft / parallel ſey / wiewol die triangel gleich ſein.
 

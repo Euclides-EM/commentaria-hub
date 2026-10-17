@@ -7,11 +7,11 @@ s.12.10 | 2▭.aeb ∼ 2▭.adb, est ration.
 s.12.10 | ▭.aeb ∼ ▭.adb, est ration.
 γ | contr. 27.10.
 
-[Curated heading level=2 type=propositions: THEOR. XXXII. PROPOS. XLIV.]
+[Curated heading level=3 type=propositions: THEOR. XXXII. PROPOS. XLIV.]
 
-[Curated heading level=2 type=theorems: THEOR. XXXII. PROPOS. XLIV.]
+[Curated heading level=3 type=theorems: THEOR. XXXII. PROPOS. XLIV.]
 
-## THEOR. XXXII. PROPOS. XLIV.
+### THEOR. XXXII. PROPOS. XLIV.
 
 Quæ ex binis mediis prima, ad vnum duntaxat punctum diuiditur in nomina.
 

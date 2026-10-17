@@ -1,9 +1,7 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 45 -->
 
-[Curated heading level=1 type=propositions: Das ander bůch Euclidis]
-
-[Curated heading level=2 type=propositions: I. Die erſt Propoſition]
+[Curated heading level=2 type=propositions: I Die erſt Propoſition.]
 
 ## I Die erſt Propoſition.
 
@@ -31,7 +29,7 @@ den nutz diſer propoſition / ſo ſy in der rechenkhunſt hatt / anzaigendt.
 
 [Diagram: subdivided rectangle labelled 1, 2, 3, 4, 8, 10, 16, 24 and 32]
 
-[Curated heading level=3 type=margin_topics: Multipliciern]
+[Curated heading level=3 type=marginal_headings: Multipliciern]
 
 [Margin]
 Multipliciern.

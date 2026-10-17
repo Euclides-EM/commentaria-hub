@@ -1,7 +1,7 @@
 <!-- Page number: 296 -->
 <!-- Running title: Theoremata ſelecta -->
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO VIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VIII.]
 
 ## PROPOSITIO VIII.
 
@@ -20,7 +20,7 @@ f Patet ex.1. l.6.
 
 Eadem eſt ratio ſecundæ partis, nam latus cylindri, communis rurſum eſt altitudo rectangulorum B D I K, K I O P &c. quæ conſtituunt ſuperficiem priſmatis inſcripti.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO IX.]
+[Curated heading level=2 type=propositions: PROPOSITIO IX.]
 
 ## PROPOSITIO IX.
 

@@ -2,7 +2,7 @@
 
 parément, pour rendre la demonstration du requis plus briefue.
 
-[Curated heading level=2 type=definitions: DEF. XLIV.]
+[Curated heading level=3 type=definitions: XLIV.]
 
 ### XLIV.
 

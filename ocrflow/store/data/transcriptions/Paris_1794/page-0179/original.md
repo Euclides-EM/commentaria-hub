@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE V. -->
 <!-- Page number: 151 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XV.]
+[Curated heading level=2 type=theorems: PROPOSITION XV.]
 
 ## PROPOSITION XV.
 

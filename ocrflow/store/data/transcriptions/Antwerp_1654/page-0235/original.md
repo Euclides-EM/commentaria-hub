@@ -7,7 +7,7 @@ Demonſtratio patet ex coroll.1.p.8.l.6. Nam A D E rectangulum triangulum eſt, 
 
 ### Modus Philonis Byſantij.
 
-[Curated heading level=2 type=figures: Fig. 27]
+[Curated heading level=5 type=figures: Fig. 27]
 
 [Margin]
 Fig.27.

@@ -12,7 +12,7 @@ hyp. | e *eſt* 3|2 g, f *eſt* 2|3 h,
 
 La conuerse de la 8. definition est, que si A a plus grande raison à B, que C à D: qu'il est possible que l'equimultiple de A excede l'equimultiple de B, & que l'equimultiple de C n'excede pas l'equimultiple de D.
 
-[Curated heading level=2 type=definitions: DEF. IX.]
+[Curated heading level=3 type=definitions: IX.]
 
 ### IX.
 
@@ -20,7 +20,7 @@ La proportion ne peut estre constituée en moins de trois termes.
 
 La raison a deux termes, la proportion ou proportionalité deux raisons; que si elle est continuë, il y aura trois termes; mais si elle n'est continuë, il y aura quatre termes,
 
-[Curated heading level=2 type=definitions: DEF. X.]
+[Curated heading level=3 type=definitions: X.]
 
 ### X.
 

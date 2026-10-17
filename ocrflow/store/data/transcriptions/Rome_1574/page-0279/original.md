@@ -4,7 +4,7 @@
 
 VT ſi ducatur in circulo ABCD, recta BD, vtcunq;, dicetur tam figura ABD, contenta circunferentia BAD, & recta BD; quam BCD, comprehenſa recta BD, & circunferentia BCD, circuli ſegmentum. Ex his colligitur triplex circuli ſegmentum, Semicirculus, quando recta BD, per centrum E, incedit; Segmentum ſemicirculo maius, quando recta BD, non tranſit per centrum, in ipſo tamen centrum exiſtit, quale eſt ſegmentum BAD; Et Segmentum ſemicirculo minus, extra quod centrum circuli conſtituitur, cuiuſmodi eſt ſegmẽtum BCD. Vocatur a pleriſq; Geometris recta BD, chorda, & circunferentia BAD, vel BCD, arcus.
 
-[Curated heading level=2 type=definitions: VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 
@@ -16,7 +16,7 @@ SEGMENTI autẽ angulus eſt, qui ſub recta linea, & circuli peripheria compreh
 
 DEFINIT iam Euclides tria genera angulorum, qui in circulis conſiderantur; Primo angulum ſegmenti, dicens, angulum mixtũ BAC, vel BCA, contentum ſub recta linea AC, & circunferentia ABC, appellari angulum ſegmenti. Quod ſi ſegmentum circuli fuerit ſemicirculus, dicetur angulus ſemicirculi: Si vero ſegmentum maius ſemicirculo extiterit, vocabitur angulus ſegmenti maioris: Si deniq; ſegmentum minus fuerit ſemicirculo, angulus ſegmenti minoris nuncupabitur.
 
-[Curated heading level=2 type=definitions: VII.]
+[Curated heading level=3 type=definitions: VII.]
 
 ### VII.
 

@@ -1,45 +1,43 @@
 <!-- Page number: 6 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=3 type=numbered_item: 2.]
+[Curated heading level=3 type=axioms: 2.]
 
 2. Si à des quantités égales on ajoute des quantités égales, les sommes seront égales.
 
-[Curated heading level=3 type=numbered_item: 3.]
+[Curated heading level=3 type=axioms: 3.]
 
 3. Si de quantités égales on retranche des quantités égales, les restes seront égaux.
 
-[Curated heading level=3 type=numbered_item: 4.]
+[Curated heading level=3 type=axioms: 4.]
 
 4. Si deux quantités contiennent une troisième le même nombre de fois, ces deux quantités seront égales entre elles.
 
-[Curated heading level=3 type=numbered_item: 5.]
+[Curated heading level=3 type=axioms: 5.]
 
 5. Si deux quantités sont contenues dans une troisième le même nombre de fois, elles seront égales entre elles.
 
-[Curated heading level=3 type=numbered_item: 6.]
+[Curated heading level=3 type=axioms: 6.]
 
 6. Le tout est plus grand que sa partie.
 
-[Curated heading level=3 type=numbered_item: 7.]
+[Curated heading level=3 type=axioms: 7.]
 
 7. Le tout est égal à la somme des parties dans lesquelles il a été divisé.
 
-[Curated heading level=3 type=numbered_item: 8.]
+[Curated heading level=3 type=axioms: 8.]
 
 8. D’un point à un autre on ne peut mener qu’une seule ligne droite.
 
-[Curated heading level=3 type=numbered_item: 9.]
+[Curated heading level=3 type=axioms: 9.]
 
 9. Deux grandeurs, ligne, surface ou solide, sont égales, lorsqu’étant placées l’une sur l’autre, elles coïncident dans toute leur étendue.
 
 *N. B.* Nous aurions pu rapporter beaucoup d’autres axiomes : mais ce petit nombre suffit, et c’est principalement le huitieme qui sert de base à tout l’ouvrage.
 
-[Curated heading level=1 type=theorems: Livre I]
+[Curated heading level=2 type=propositions: PROPOSITION I.]
 
-[Curated heading level=2 type=propositions: PROPOSITION I. THÉORÊME.]
-
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION I.]
+[Curated heading level=2 type=theorems: PROPOSITION I.]
 
 ## PROPOSITION I.
 

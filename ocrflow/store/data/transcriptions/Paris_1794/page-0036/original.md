@@ -3,9 +3,9 @@
 
 et qu’ils sont tous deux droits. Mais de ce que ACD est un angle droit, il s’ensuit que son adjacent ACE est aussi un angle droit ; donc l’angle ACE=ACD ; donc AB est perpendiculaire à DE.
 
-[Curated heading level=2 type=propositions: PROPOSITION III. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION III.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION III.]
+[Curated heading level=2 type=theorems: PROPOSITION III.]
 
 ## PROPOSITION III.
 
@@ -23,9 +23,9 @@ Soient les deux points communs A et B ; d’abord les deux lignes n’en doivent
 * Pr. 2.
 [/Margin]
 
-[Curated heading level=2 type=propositions: PROPOSITION IV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION IV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IV.]
+[Curated heading level=2 type=theorems: PROPOSITION IV.]
 
 ## PROPOSITION IV.
 

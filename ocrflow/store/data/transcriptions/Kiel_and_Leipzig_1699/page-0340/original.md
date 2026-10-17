@@ -10,9 +10,9 @@ u. | DEC ⋏ acb | n. Zugab 8. I.
 
 Müssen derowegen diejenigen Dreyecke / deren Seiten in richtiger Ebenmaß stehen / gleichwincklicht seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der VI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der VI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 6. Beweiß-Stück. Der VI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 6. Beweiß-Stück.]
 
 ## Der VI. Vortrag.
 
@@ -38,15 +38,9 @@ Wenn in zweyen Dreyecken zweene gleichmässige winckel gefunden werden / deren S
 
 Auf den Strich ed werden gesetzet
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. deg ⋏ bac
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. gde ⋏ abc | n. 23. I.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. werden gezogen eg und dg.
 

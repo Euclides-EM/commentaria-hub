@@ -1,9 +1,5 @@
 # EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimusquintus.
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimusquintus.]
-
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber decimusquintus.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
 [Curated heading level=2 type=problems: Propoſitio prima. Problema primum.]

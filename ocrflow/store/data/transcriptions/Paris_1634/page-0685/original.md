@@ -26,7 +26,7 @@ d. γ | ek, est apotom. & km congruen.
 
 contr. 80.10.
 
-Definitiones tertiæ.
+## Definitiones tertiæ.
 
 Exposita rationali & apotoma; si tota plus possit, quàm congruens, quadrato rectæ lineæ sibi longitudine commensurabilis.
 
@@ -34,7 +34,7 @@ Exposita rationali & apotoma; si tota plus possit, quàm congruens, quadrato rec
 
 *Vne ligne rationelle estant exposee, & vn apotome ou residu; quand la toute peut plus que la conuenable du quarré d'vne ligne qui luy est commensurable en longitude.*
 
-[Curated heading level=2 type=definitions: Definitiones tertiæ. I.]
+[Curated heading level=3 type=definitions: I.]
 
 I.
 

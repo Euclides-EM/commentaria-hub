@@ -24,15 +24,15 @@ quinti. Auferantur vtrisque cómunes h/k, & m/n: vt reliqua igitur g/h/ad reliqu
 
 æquè multiplices: k/o/verò & n/p, ipsarum c/b/ & f/e, secundæ inquàm & quartæ magnitudinis æquè itidem multiplices. Prima igitur a/c, ad secundam c/b/eam rationem habet: quam tertia d/f, ad quartam f/e, per sextā huius quinti diffinitionē. Si compositæ itaque magnitudines proportionales fuerint, diuisæ quoque proportionales erunt. Quod susceperamus ostendendum.
 
-[Curated heading level=2 type=propositions: Theorema 18, Propositio 18.]
+[Curated heading level=3 type=propositions: Theorema 18, Propositio 18.]
 
-[Curated heading level=2 type=theorems: Theorema 18, Propositio 18.]
+[Curated heading level=3 type=theorems: Theorema 18, Propositio 18.]
 
-## Θεώρημα ιη, Πρόθεσις ιη.
+### Θεώρημα ιη, Πρόθεσις ιη.
 
 EΑν διῃρημένα μεγέθη ἀνάλογον ᾖ, ὃ συντιθέντα ἀνάλογον ἔσαι.
 
-## Theorema 18, Propositio 18.
+### Theorema 18, Propositio 18.
 
 SI diuisæ magnitudines proportionales fuerint: cōpositæ quoque proportionales erunt.
 

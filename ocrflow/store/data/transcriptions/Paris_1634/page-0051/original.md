@@ -1,6 +1,6 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Curated heading level=2 type=definitions: XXXI.]
+[Curated heading level=3 type=definitions: XXXI.]
 
 ### XXXI.
 
@@ -8,7 +8,7 @@ Rhombus autem, quæ æquilatera, sed rectangula non est, vt A. | Rhombe est vne 
 
 [Figure: rhombe A, parallelogramme incliné]
 
-[Curated heading level=2 type=definitions: XXXII.]
+[Curated heading level=3 type=definitions: XXXII.]
 
 ### XXXII.
 
@@ -16,7 +16,7 @@ Rhomboïdes verò, quæ aduersa & latera & angulos habens inter se æquales, neq
 
 [Figure: rhomboïde GLMH, H en haut à gauche, M en haut à droite, G en bas à gauche, L en bas à droite]
 
-[Curated heading level=2 type=definitions: XXXIII.]
+[Curated heading level=3 type=definitions: XXXIII.]
 
 ### XXXIII.
 

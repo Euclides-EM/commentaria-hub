@@ -9,7 +9,7 @@ cari nequit, ac proinde incommenſurabiles ſunt.
 
 ### Problema 1.
 
-[Curated heading level=2 type=figures: Fig. 73]
+[Curated heading level=5 type=figures: Fig. 73]
 
 {dropcap:D|lines=2|style=plain}*Atis quotcunque quadratis, vnum omnibus æquale conſtruere.*
 
@@ -29,7 +29,7 @@ b Per eand.
 
 ### Problema 2.
 
-[Curated heading level=2 type=figures: Fig. 74]
+[Curated heading level=5 type=figures: Fig. 74]
 
 {dropcap:D|lines=2|style=plain}*Atis duabus rectis inæqualibus A B, B C, exhibere quadratum, quo quadratum maioris A B, excedit quadratum minoris B C.*
 

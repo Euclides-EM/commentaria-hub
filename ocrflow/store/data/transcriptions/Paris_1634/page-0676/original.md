@@ -11,11 +11,11 @@ df, est √.. √.216 + √.72,
 de, est √.. √.216 ∼ √.72,
 ef, est √.. 216 + √.72, ∼ √..216 ∼ √.72,
 
-[Curated heading level=2 type=propositions: THEOR. LXI. PROPOS. LXXIX.]
+[Curated heading level=3 type=propositions: THEOR. LXI. PROPOS. LXXIX.]
 
-[Curated heading level=2 type=theorems: THEOR. LXI. PROPOS. LXXIX.]
+[Curated heading level=3 type=theorems: THEOR. LXI. PROPOS. LXXIX.]
 
-## THEOR. LXI. PROPOS. LXXIX.
+### THEOR. LXI. PROPOS. LXXIX.
 
 Si à recta, recta auferatur potentia incommensurabilis existens toti, quæ cum tota faciat & compositum ex ipsarum quadratis, medium, & quod sub ipsis continetur, medium, incommensurabiléque composito ex quadratis ipsarum: reliqua irrationalis est. Vocetur autem cum medio medium totum efficiens.
 

@@ -22,8 +22,6 @@ In æqualibus itaque baſibus exiſtentes coni & cylindri inclinati, ad ſe erun
 
 Vnde reciprocè erunt æqualium conorum, vel cylindrorum inclinatorum aut rectorum, baſes verticibus, & è contrà. Cũ enim ſæpius dixerimus inclinatos & rectos æquales eſſe, qui eaſdem habẽt baſes & vertices. Cũ igitur recti æquales, ſuorum verticũ ac baſium reciprocã patiantur rationem, Sequetur inclinatos (rectis æquales) ſuarum baſium ac verticum (vtriſque communium) inſtar rectorum reciprocam rationem habere. Similiter ſi reciprocam habeant eorum vertices & baſes rationem, & ipſi æquales erunt, eò quòd æquales ſint rectis cylindris, ſuper eiſdem baſibus & vertice, qui quidem inter ſe ſunt æquales, per eandem decimamquintam huius. Suſcipiemus itaque ea quæ de conis & cylindris hoc duodecimo diſcuſſimus, quorum vertices baſibus perpendiculares inſiſtunt, ex conorum & cylindrorum diffinitionibus, æquè intelligi in conis & cylindris, quorum vertices ad baſium plana inclinantur, ſiue obliquos efficiunt angulos. Notabimus tamen huiuſmodi conos aut cylindros inclinantes, minimè teretes eſſe veluti rectos: nam ſi ſecentur plano ſuſcipiente verticem eorum ad rectos, hæc ſectio non circulum, ſed conoydalem figuram in eorum ſuperficie deſcribet, cuius maior dimetiens æqualis erit (in cylindris) dimetienti baſis, hoc eſt, eadem conſtabit. Necnon in conis eadem quæ in rectis contingent ſectis eadem methodo.
 
-[Curated heading level=1 type=problems: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber duodecimus.]
-
 [Curated heading level=2 type=propositions: Propoſitio decimaſexta.]
 
 [Curated heading level=2 type=problems: Propoſitio decimaſexta. Problema 1.]

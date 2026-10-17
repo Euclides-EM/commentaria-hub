@@ -20,11 +20,11 @@ g Per corol. 3.p 13.l.1.
 i Per ſchol. poſt 31.l.1
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO IV.]
+[Curated heading level=2 type=propositions: PROPOSITIO IV.]
 
 ## PROPOSITIO IV.
 
-[Curated heading level=2 type=figures: Fig. 5]
+[Curated heading level=5 type=figures: Fig. 5]
 
 {dropcap:T|lines=2|style=plain}Riangulo circulum inſcribere.
 

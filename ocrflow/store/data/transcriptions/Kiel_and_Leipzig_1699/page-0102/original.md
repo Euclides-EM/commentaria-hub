@@ -11,9 +11,9 @@ Dw. □ fg | □ fx + □ gx | n. 1. GrS.
 
 Ist also in jedwedem rechtwincklichten △ das □ des Strichs/ so dem rechten Winckel gegen über stehet/ eben so groß/ als die Vierecke der beeden andern Seiten zusammen. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XLVIII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XLVIII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 34. Beweiß-Stück. Der XLVIII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 34. Beweiß-Stück.]
 
 ## Der XLVIII. Vortrag.
 
@@ -32,15 +32,9 @@ acb | ⌐
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auff die Seite ac, und zwar den Düttel c, werde ein Senckstrich cd gesetzet. n. 11. Vortr.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Senckstrich cd | cb n. 2. Vortr.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Werde der Strich ad gezogen.
 

@@ -18,15 +18,9 @@ a : B ⊣ a : A.
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Man nehme wiederümb a siebenmahl/
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Aber A zweymahl/
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Und B auch zweymahl.
 

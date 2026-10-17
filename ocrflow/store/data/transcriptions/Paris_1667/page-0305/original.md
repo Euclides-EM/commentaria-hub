@@ -5,9 +5,9 @@ De chacune des deux extremitez de l'une des données décrire un cercle de l'int
 
 [Figure: triangle with arcs crossing at the apex]
 
-[Curated heading level=2 type=propositions: XIII. SECOND PROBLEME.]
+[Curated heading level=4 type=propositions: SECOND PROBLEME.]
 
-[Curated heading level=2 type=problems: XIII. SECOND PROBLEME.]
+[Curated heading level=4 type=problems: SECOND PROBLEME.]
 
 #### SECOND PROBLEME.
 
@@ -23,9 +23,9 @@ Ayant mis ces deux coſtez en ſorte qu'ils faſſent l'angle donné, la ligne q
 
 [Figure: angle formed by two lines, closed by a dotted line]
 
-[Curated heading level=2 type=propositions: XIV. TROISIEME PROBLEME.]
+[Curated heading level=4 type=propositions: TROISIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XIV. TROISIEME PROBLEME.]
+[Curated heading level=4 type=problems: TROISIEME PROBLEME.]
 
 #### TROISIEME PROBLEME.
 
@@ -41,9 +41,9 @@ Tirant des lignes ſur les extremitez du coſté donné qui faſſent les angles
 
 [Figure: triangle with one dotted side]
 
-[Curated heading level=2 type=propositions: XV. QUATRIEME PROBLEME.]
+[Curated heading level=4 type=propositions: QUATRIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XV. QUATRIEME PROBLEME.]
+[Curated heading level=4 type=problems: QUATRIEME PROBLEME.]
 
 #### QUATRIEME PROBLEME.
 

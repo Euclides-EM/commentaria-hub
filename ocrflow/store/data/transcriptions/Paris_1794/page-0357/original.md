@@ -1,8 +1,6 @@
 <!-- Running title: NOTE XII. -->
 <!-- Page number: 329 -->
 
-[Curated heading level=2 type=lemmas: LEMME III. (NOTE XII.)]
-
 ### LEMME III.
 
 *Les variations d’inclinaison ne peuvent être de même signe sur plus de deux arêtes consécutives dans l’angle solide quintuple, sur plus de trois dans l’angle solide sextuple, et ainsi de suite. Et dans le cas où il y a ainsi des variations consécutives de même signe, dans le plus grand nombre possible, les variations sur les trois arêtes restantes sont en signes alternatifs avec les autres. (La constance ou variation nulle peut être comprise parmi les variations de même signe.)*

@@ -4,7 +4,7 @@ expositæ Rationali commensurabile sit longitudine, vocetur ex binis nominibus q
 
 *commensurable en longitude à la Rationelle exposée, soit appellée binome quatriesme.*
 
-[Curated heading level=2 type=definitions: Definitiones secundæ. V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 
@@ -12,7 +12,7 @@ Si vero minus nomen, vocetur quinta.
 
 *Mais si le moindre nom est commensurable en longitude à la Rationelle exposée, soit appellée binome cinquiesme.*
 
-[Curated heading level=2 type=definitions: Definitiones secundæ. VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 

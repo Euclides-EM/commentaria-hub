@@ -4,7 +4,7 @@
 
 ## PETITIONS OV DEMANDES.
 
-[Curated heading level=2 type=postulates: I.]
+[Curated heading level=3 type=postulates: I.]
 
 ### I.
 

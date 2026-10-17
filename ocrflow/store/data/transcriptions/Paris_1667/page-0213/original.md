@@ -5,11 +5,9 @@ n c B & c n m ſont égaux, parce qu'ils ſont appuyez ſur des arcs égaux. Don
 
 ### PROBLEMES.
 
-[Curated heading level=1 type=problems: LIVRE NEVVIEME.]
+[Curated heading level=4 type=propositions: I.]
 
-[Curated heading level=2 type=propositions: XXXVI. I.]
-
-[Curated heading level=2 type=problems: XXXVI. I.]
+[Curated heading level=4 type=problems: I.]
 
 #### I.
 
@@ -29,9 +27,9 @@ Car la diſtance eſtant donnée de ce ſommet à l'hypothenuſe, il ne ſe peut
 
 [Figure: a semicircle on a horizontal diameter, with a horizontal line parallel to the diameter cutting the semicircle]
 
-[Curated heading level=2 type=propositions: XXXVII. SECOND PROBLEME.]
+[Curated heading level=4 type=propositions: SECOND PROBLEME.]
 
-[Curated heading level=2 type=problems: XXXVII. SECOND PROBLEME.]
+[Curated heading level=4 type=problems: SECOND PROBLEME.]
 
 #### SECOND PROBLEME.
 

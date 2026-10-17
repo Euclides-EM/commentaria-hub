@@ -2,11 +2,9 @@
 
 <!-- Page number: 16 -->
 
-[Curated heading level=1 type=problems: Das I. Buch]
+[Curated heading level=2 type=propositions: Der I. Vortrag.]
 
-[Curated heading level=2 type=propositions: Der I. Vortrag. Werck-Stück]
-
-[Curated heading level=2 type=problems: Das 1. Werck-Stück. Der I. Vortrag.]
+[Curated heading level=2 type=problems: Das 1. Werck-Stück.]
 
 ## Der I. Vortrag.
 ## Das 1. Werck-Stück.
@@ -24,15 +22,9 @@ Der gerade endliche Strich AB.
 
 ### Wirckung (Operatio)
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Nach der bekanten Weite AB beschreibet man aus A einen Kreyß CBD / nach der III. Foderung.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Nach eben dieser Weite AB wird auch aus dem Düpffel B ein Kreyß beschrieben / nemblich CAD / nach der III Foderung.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Aus A und B werden nach dem Düpffel C/ wo die beyden Kreysse einander durchschneiden / gerade Striche gezogen/ nach der I Foderung.
 

@@ -10,7 +10,7 @@ c Per 16. l.3.
 
 ### Scholium.
 
-[Curated heading level=2 type=figures: Fig. 27]
+[Curated heading level=5 type=figures: Fig. 27]
 
 [Margin]
 Fig. 27.
@@ -22,11 +22,11 @@ Centrum A & datum punctum O iungens recta biſecetur in P. Tum centro P, per A &
 
 Nam iunctâ A B, angulus A B O in ſemicirculo rectus eſt per 31. ergo per 16. O B tangit circulum B Q.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XVIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVIII.]
 
 ## PROPOSITIO XVIII.
 
-[Curated heading level=2 type=figures: Fig. 28]
+[Curated heading level=5 type=figures: Fig. 28]
 
 [Margin]
 Fig. 28.

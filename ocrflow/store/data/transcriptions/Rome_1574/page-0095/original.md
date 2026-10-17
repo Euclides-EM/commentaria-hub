@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Curated heading level=2 type=definitions: IX.]
+[Curated heading level=3 type=definitions: IX.]
 
 ### IX.
 
@@ -12,7 +12,7 @@ ANGVLVS omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilin
 
 [Diagram: six angle figures formed of straight and curved lines, illustrating curvilinear and mixed angles]
 
-[Curated heading level=2 type=definitions: X.]
+[Curated heading level=3 type=definitions: X.]
 
 ### X.
 

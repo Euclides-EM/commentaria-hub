@@ -1,11 +1,11 @@
 <!-- Running title: Elementorum Geometriæ -->
 <!-- Page number: 234 -->
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XX.]
 
 ## PROPOSITIO XX.
 
-[Curated heading level=2 type=figures: Fig. 27]
+[Curated heading level=5 type=figures: Fig. 27]
 
 {dropcap:S|lines=2|style=plain}I angulus ſolidus (A) tribus planis angulis (B A C, C A D, D A B) continetur, horum duo quilibet reliquo ſunt maiores.
 

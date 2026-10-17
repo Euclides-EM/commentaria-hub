@@ -16,9 +16,9 @@ On peut rapporter icy tout ce qui a eſté demonſtré dans le 2 & 3ᵉ livre de
 DE CETTE DOCTRINE GENERALE A QUELQUES LIGNES PARTICULIERES QU'ON A FAIT VOIR CY DEVANT ESTRE PROPORTIONELLES.
 [/Subhead]
 
-[Curated heading level=2 type=propositions: XXII. PREMIER THEOREME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XXII. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 
@@ -30,9 +30,9 @@ XXII.
 
 Si deux lignes ſe coupent dans un cercle, le rectangle des portions de l'une eſt égal au rectangle des portions de l'autre. Voyez XI. 55.
 
-[Curated heading level=2 type=propositions: XXIII. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XXIII. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 
@@ -44,9 +44,9 @@ XXIII.
 
 Le quarré de la perpendiculaire d'un point de la circonference au diametre, eſt égal au rectangle des portions du diametre. Voyez XI. 57.
 
-[Curated heading level=2 type=propositions: XXIV. TROISIEME THEOREME.]
+[Curated heading level=3 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXIV. TROISIEME THEOREME.]
+[Curated heading level=3 type=theorems: TROISIEME THEOREME.]
 
 ### TROISIEME THEOREME.
 
@@ -58,9 +58,9 @@ XXIV.
 
 Si d'un point hors le cercle deux lignes ſont menées juſqu'à la concavité du cercle, le rectangle d'une toute & de ſa portion qui eſt hors le cercle, eſt égal au rectangle de l'autre toute & de ſa portion, qui eſt auſſy hors le cercle. Voyez XI. 52.
 
-[Curated heading level=2 type=propositions: XXV. QUATRIEME THEOREME.]
+[Curated heading level=3 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXV. QUATRIEME THEOREME.]
+[Curated heading level=3 type=theorems: QUATRIEME THEOREME.]
 
 ### QUATRIEME THEOREME.
 

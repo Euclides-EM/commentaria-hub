@@ -2,9 +2,9 @@
 
 <!-- Running title: Das I. Buch -->
 
-[Curated heading level=2 type=propositions: Der XXXIV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXIV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 24. Beweiß-Stück. Der XXXIV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 24. Beweiß Stück.]
 
 ## Der XXXIV. Vortrag.
 

@@ -5,9 +5,9 @@ lement diſtant de *k* & de *c*, que les autres points comme *m* & *n* ne ſoien
 
 Or cela eſtant, il eſt clair que la ligne *k b c* eſtant droitte eſt plus courte que les lignes *k m c*, qui ne font pas une ligne droitte, & par conſequent *k b*, qui eſt la moitié de *k b c*, eſt plus courte que *k m*, qui eſt la moitié de *k m c*.
 
-[Curated heading level=2 type=propositions: XXXVII. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXVII. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 

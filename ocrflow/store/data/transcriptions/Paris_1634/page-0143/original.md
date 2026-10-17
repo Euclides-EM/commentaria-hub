@@ -9,7 +9,7 @@ Demonstr.
 34.1. | ▭hf 2|2 2△ehg,
 concl. 6.a.1. | ▭db 2|2 ▭hf.
 
-### LEMM.
+#### LEMM.
 
 Describere rectangulum quod sub duabus datis rectis lineis contineatur.
 
@@ -37,8 +37,8 @@ constr. | <a est ∟,
 constr. | ab 2|2 e,
 concl. 1.d.2. | ac est ▭. ad, ab u e.
 
-[Curated heading level=2 type=definitions: DEFINIT. II.]
+[Curated heading level=3 type=definitions: DEFINIT. II.]
 
-## DEFINIT. II.
+### DEFINIT. II.
 
 In omni parallelogrammo spatio, vnumquodlibet eorum, quæ circa diametrum illius sunt, parallelogrammorum, cum duobus complementis, Gnomon vocetur.

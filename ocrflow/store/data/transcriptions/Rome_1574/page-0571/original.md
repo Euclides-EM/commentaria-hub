@@ -4,7 +4,7 @@ tis. Quare quolibet numero propoſito maior [unclear: exhiberi poteſt], ille ui
 
 ## AXIOMATA, SIVE PRONVNTIATA.
 
-[Curated heading level=2 type=axioms: I.]
+[Curated heading level=3 type=axioms: I.]
 
 ### I.
 
@@ -12,7 +12,7 @@ tis. Quare quolibet numero propoſito maior [unclear: exhiberi poteſt], ille ui
 
 QVI numeri æqualium numerorũ, uel eiuſdem æque multiplices ſunt, inter ſe ſunt æquales.
 
-[Curated heading level=2 type=axioms: II.]
+[Curated heading level=3 type=axioms: II.]
 
 ### II.
 
@@ -20,7 +20,7 @@ QVI numeri æqualium numerorũ, uel eiuſdem æque multiplices ſunt, inter ſe 
 
 QVORVM idem numerus æque multiplex eſt, uel æque multiplices ſunt æquales, inter ſe æquales ſunt.
 
-[Curated heading level=2 type=axioms: III.]
+[Curated heading level=3 type=axioms: III.]
 
 ### III.
 
@@ -28,7 +28,7 @@ QVORVM idem numerus æque multiplex eſt, uel æque multiplices ſunt æquales, 
 
 QVI numeri æqualiũ numerorum, uel eiuſdem, eadem pars, uel eædem partes fuerint, æquales inter ſe ſunt.
 
-[Curated heading level=2 type=axioms: IIII.]
+[Curated heading level=3 type=axioms: IIII.]
 
 ### IIII.
 
@@ -36,7 +36,7 @@ QVI numeri æqualiũ numerorum, uel eiuſdem, eadem pars, uel eædem partes fuer
 
 QVORVM idem numerus, uel æquales, eadem pars, uel eædem partes fuerint, æquales inter ſe ſunt.
 
-[Curated heading level=2 type=axioms: V.]
+[Curated heading level=3 type=axioms: V.]
 
 ### V.
 

@@ -5,9 +5,9 @@ Soit la ligne *b c* coupée par l'oblique *k g* inclinée vers *b*, ſi du point
 
 [Diagram: horizontal line from b to c, with an oblique line descending from k to g and a dotted perpendicular rising from g]
 
-[Curated heading level=2 type=propositions: XLII. TROISIEME THEOREME.]
+[Curated heading level=3 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XLII. TROISIEME THEOREME.]
+[Curated heading level=3 type=theorems: TROISIEME THEOREME.]
 
 ### TROISIEME THEOREME.
 

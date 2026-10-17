@@ -8,8 +8,6 @@ in ſimili prorſus caſu factum videmus in Prop. 34. Lib. 1. Elem. melius igitu
 
 Prope finem demonſtrationis recta KM parallela oſtenditur rectae FL, ope Prop. 33. eſt autem KH ex conſtructione parallela ipſi FG, et oſtenſae fuerunt KHM, FGL rectae lineae. adjectum eſt Corollarium ex Commandino, quod ſaepius uſui ſit.
 
-[Curated heading level=3: LIB. II.]
-
 #### PROP. XIII. LIB. II.
 
 {dropcap:P|lines=2|style=plain}Ropositio haec enunciatur ſolummodo de triangulis acutangulis, quamvis vera ſit de omni triangulo. adjecta igitur eſt Demonſtratio in reliquis caſibus; Commandinus et Clavius ſuas etiam dederunt.
@@ -17,8 +15,6 @@ Prope finem demonſtrationis recta KM parallela oſtenditur rectae FL, ope Prop.
 #### PROP. XIV. LIB. II.
 
 In Demonſtratione hujus aliquis inepte interpoſuit " ſin minus, una " ipſarum BE, ED major eſt; ſit BE major et producatur ad F," quaſi aliquod interſit ſive major, ſive minor earum producta fuerit. vice igitur horum ſolummodo legendum eſt " ſin minus, producatur BE ad F."
-
-[Curated heading level=3: LIB. III.]
 
 #### PROP. I. LIB. III.
 

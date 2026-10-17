@@ -3,11 +3,11 @@
 
 Ponatur C contineri in B quater, & in A ſexies, ac proinde B eſſe 4.C, & A eße 6.C. Igitur 6.C (hoc eſt A)ducta in 4.C(hoc eſt toties ſumpta quoties C eſt in B)efficiunt 24.C. Similiter 4.C (hoc eſt B)ducta in 6. C (hoc eſt toties ſumpta quoties C eſt in A)efficiunt etiã 24.C.Ergo A toties ſumpta quoties C in B,æquatur B toties ſumptæ quoties C in A.
 
-[Curated heading level=2 type=propositions: Lib. V, Pars II, Theorema 1.]
+[Curated heading level=2 type=propositions: Theorema 1.]
 
-## Theorema 1.
+### Theorema 1.
 
-[Curated heading level=2 type=figures: Fig. 23]
+[Curated heading level=5 type=figures: Fig. 23]
 
 [Margin]
 Fig.23.

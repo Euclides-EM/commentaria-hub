@@ -171,6 +171,7 @@ func TestExtractIndexContentsFiltersLayersAndReturnsAvailableTypes(t *testing.T)
 	require.Equal(t, []Category{
 		{Category: "header1", Content: "Printed book", IndexType: "default"},
 		{Category: "curated-heading2", Content: "Default division", IndexType: "default"},
+		{Category: "curated-heading1", IndexType: "myType", Hidden: true},
 		{Category: "curated-heading2", Content: "Typed division", IndexType: "myType2"},
 	}, contents)
 }

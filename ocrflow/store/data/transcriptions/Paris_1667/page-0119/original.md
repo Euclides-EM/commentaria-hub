@@ -3,7 +3,11 @@
 
 elle s'appelle *ſurface* ou *ſuperficie*, qui eſt ou plate, qui s'appelle *plan*, ou non plate qui s'appelle *ſurface courbe*.
 
+[Curated heading level=3 type=definitions: Ou ſelon une ſeulement]
+
 Ou ſelon une ſeulement, qui eſt la longueur, & alors elle s'appelle *ligne*, qui eſt ou droite ou courbe.
+
+[Curated heading level=3 type=definitions: L'extrémité de la ligne]
 
 L'extrémité de la ligne s'appelle *point*, qui doit eſtre conceu indiviſible. Car s'il pouvoit eſtre partagé en deux, l'une de ces moitiez ne ſeroit pas à l'extrémité de la ligne.
 

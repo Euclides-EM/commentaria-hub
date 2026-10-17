@@ -1,7 +1,7 @@
 <!-- Running title: Liber Tertius. -->
 <!-- Page number: 101 -->
 
-[Curated heading level=2 type=figures: Fig. 41]
+[Curated heading level=5 type=figures: Fig. 41]
 
 [Margin]
 Fig. 41.
@@ -15,11 +15,11 @@ Fig. 41.
 
 3. Pars. Eſto ſegmentum L O X ſemicirculo L O B minus, in eoque angulus X O L. Erit hic maior quàm B O L, qui rectus eſt. Ergo &c.
 
-[Curated heading level=2 type=propositions: Lib. III, PROPOSITIO XXXII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXII.]
 
 ## PROPOSITIO XXXII.
 
-[Curated heading level=2 type=figures: Fig. 42 & 43]
+[Curated heading level=5 type=figures: Fig. 42 & 43]
 
 [Margin]
 Fig. 42. & 43.

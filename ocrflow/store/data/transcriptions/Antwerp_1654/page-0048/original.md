@@ -7,9 +7,7 @@
 
 Traduntur hoc libro affectiones, primæ triangulorum & parallelogrammorum. Propoſitiones illuſtriores ſunt 32.35.37.41.44.45.47.
 
-[Curated heading level=1 type=propositions: Liber I]
-
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO PRIMA.]
+[Curated heading level=2 type=propositions: PROPOSITIO PRIMA.]
 
 ## PROPOSITIO PRIMA.
 

@@ -3,9 +3,9 @@
 
 & paralleles, les deux autres ſont auſſy égaux & paralleles. VI. 28.
 
-[Curated heading level=2 type=propositions: XLI. QUATRIEME THEOREME.]
+[Curated heading level=4 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XLI. QUATRIEME THEOREME.]
+[Curated heading level=4 type=theorems: QUATRIEME THEOREME.]
 
 #### QUATRIEME THEOREME.
 

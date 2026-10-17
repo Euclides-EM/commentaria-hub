@@ -3,7 +3,7 @@
 
 miles, ac proinde eorum proportio d triplicata ſit proportionis diametrorum D F & S T, quæ eſt 2 ad 1; erit conus D O F ad conum S K T, vt 8 ad 1. Quod erat dem.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XLIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XLIV.]
 
 ## PROPOSITIO XLIV.
 

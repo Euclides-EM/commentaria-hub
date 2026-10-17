@@ -2,7 +2,7 @@
 
 aller freyen ehrlichen künſten liebhabern ſolches alles onverborgen: vnd ich gleichwol auch ſollichs inn der vorred an den Leſer der notturfft nach angezaigt hab.
 
-[Curated heading level=3 type=margin_topics: Entſchuldigung]
+[Curated heading level=3 type=marginal_headings: Entſchuldigung]
 
 [Margin]
 Entſchuldigung.

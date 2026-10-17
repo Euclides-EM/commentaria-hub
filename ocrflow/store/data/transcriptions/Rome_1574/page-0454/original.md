@@ -1,19 +1,13 @@
 <!-- Running title: LIBER VI. -->
 <!-- Page number: 185 -->
 
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM VI.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM VI.]
-
-[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTVM VI.]
-
 # EVCLIDIS ELEMENTVM VI.
 
 [Ornament: foliate headpiece]
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 

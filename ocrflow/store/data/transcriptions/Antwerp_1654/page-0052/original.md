@@ -7,17 +7,17 @@ inde latus A B æquabitur lateri c b; quòd erat demonſtrandum, cædem enim ſu
 
 {dropcap:Æ|lines=2|style=plain}Quiangulum ergo triangulum, etiam æquilaterum eſt.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO VII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VII.]
 
 ## PROPOSITIO VII.
 
 {dropcap:E|lines=2|style=plain}St propter 8, quæ ſine illa ſeorſim propoſita demonſtrabitur.
 
-[Curated heading level=2 type=propositions: Lib. I, PROPOSITIO VIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VIII.]
 
 ## PROPOSITIO VIII.
 
-[Curated heading level=2 type=figures: Fig. 27]
+[Curated heading level=5 type=figures: Fig. 27]
 
 [Margin]
 Fig. 27.
@@ -25,7 +25,7 @@ Fig. 27.
 
 {dropcap:S|lines=2|style=plain}I duo triangula habuerint omnia latera ſibi mutuo æqualia (A C ipſi E F; C B ipſi F I; A B ipſi E I;) etiam angulos omnes æqualibus lateribus oppoſitos habebunt æquales (C ipſi F; A ipſi E; B ipſi I.)
 
-[Curated heading level=2 type=figures: Fig. 28]
+[Curated heading level=5 type=figures: Fig. 28]
 
 Ponatur enim latus A B ſupra ſibi æquale E I. Tum verò punctũ C vel incidet in punctum F vel non. Si incidat in F, tota triangula congruent, ac proinde omnes anguli a æquales erunt.
 

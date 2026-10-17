@@ -1,7 +1,7 @@
 <!-- Page number: 108 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=2 type=lemmas: VII. TROISIEME LEMME.]
+[Curated heading level=2 type=lemmas: TROISIEME LEMME.]
 
 ## TROISIEME LEMME.
 
@@ -19,7 +19,7 @@ Soit *f g* perpendiculaire ſur *z*, & oblique ſur *x*, & *p q* perpendiculaire
 
 Car en élevant de *g*, *g h* perpendiculaire ſur *x*, & oblique ſur *z*, par le Lemme precedent *g h* ſera plus courte que *p q*: or *g f* eſtant perpendiculaire ſur *z*, elle eſt plus courte que *g h*, qui eſt oblique ſur la même *z*, & par conſequent *f g* eſt plus courte que *p q*.
 
-[Curated heading level=2 type=lemmas: VIII. QUATRIEME LEMME.]
+[Curated heading level=2 type=lemmas: QUATRIEME LEMME.]
 
 ## QUATRIEME LEMME.
 
@@ -33,7 +33,7 @@ Deux lignes enfermées ne ſe croiſant point, ne ſçauroient eſtre égales, &
 
 Car ſi l'une eſtoit perpendiculaire ſur *x*, & oblique ſur *z*, elle ſeroit inégale à l'autre, ou par le ſecond Lemme, ſi l'autre eſtoit auſſy perpendiculaire ſur *x*; ou par le troiſiéme, ſi l'autre eſtoit perpendiculaire ſur *z*. Il faut donc pour eſtre égales qu'elles ſoient perpendiculaires ſur l'une & ſur l'autre des enfermantes.
 
-[Curated heading level=2 type=lemmas: IX. CINQUIEME LEMME.]
+[Curated heading level=2 type=lemmas: CINQUIEME LEMME.]
 
 ## CINQUIEME LEMME.
 

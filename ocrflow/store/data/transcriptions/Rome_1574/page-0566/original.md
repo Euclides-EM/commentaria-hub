@@ -7,7 +7,7 @@ RVRSVS quia numeri ad eundem habentes eandem proportionem, ſunt illius vel æqu
 
 PARI ratione infertur, maioris numeri ad eundem, maiorem proportionem eſſe, quam minoris. Et contra, eiuſdem ad minorem, maiorem eſſe proportionem, quam ad maiorem. Item numerorum illum, qui ad eundem habet maiorem proportionẽ, maiorem eſſe: Ad quem autem idem habet maiorem proportionem, minorem eſſe. Quæ omnia perſpicua ſunt, ſi recte hæc definitio intelligatur.
 
-[Curated heading level=2 type=definitions: XXI.]
+[Curated heading level=3 type=definitions: XXI.]
 
 ### XXI.
 

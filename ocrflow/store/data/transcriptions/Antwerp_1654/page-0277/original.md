@@ -5,11 +5,11 @@
 
 {dropcap:Q|lines=3|style=plain}Vod hic de parallelepipedis oſtenſum eſt, demonſtrabitur in libro 12 de pyramidibus prop. 6; de quibuſlibet priſmatis in corollario 1. poſt p. 9. de conis & cylindris prop. 11.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIII.]
 
 ## PROPOSITIO XXXIII.
 
-[Curated heading level=2 type=figures: Fig. 35]
+[Curated heading level=5 type=figures: Fig. 35]
 
 [Margin]
 Fig.35.

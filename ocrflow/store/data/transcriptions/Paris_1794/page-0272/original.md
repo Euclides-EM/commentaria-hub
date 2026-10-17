@@ -1,7 +1,5 @@
 [Ornament: horizontal typographic rule]
 
-[Curated heading level=1 type=propositions: Livre VIII]
-
 # LIVRE VIII.
 
 [Subhead]
@@ -16,9 +14,7 @@ LES CORPS RONDS.
 E. 250.
 [/Margin]
 
-[Curated heading level=1 type=definitions: Livre VIII]
-
-[Curated heading level=2 type=definitions: Définition I.]
+[Curated heading level=3 type=definitions: I.]
 
 I. {dropcap:O|lines=2|style=plain}n appelle *cylindre* le solide produit par la révolution d’un rectangle ABCD, qu’on imagine tourner autour du côté immobile AB.
 
@@ -34,7 +30,7 @@ Toute section PQGH faite suivant l’axe, est un rectangle double du rectangle g
 F. 251.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Définition II.]
+[Curated heading level=3 type=definitions: II.]
 
 II. On appelle *cône* le solide produit par la révolution du triangle rectangle SAB, qu’on imagine tourner autour du côté immobile SA.
 

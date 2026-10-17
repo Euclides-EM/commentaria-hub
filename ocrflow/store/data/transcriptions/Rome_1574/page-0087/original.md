@@ -4,7 +4,7 @@ facilius percipietur, ſi prius intelligamus, quantitatem continuam triplices ha
 
 [Diagram: a single point labelled punctum]
 
-[Curated heading level=2 type=definitions: II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 

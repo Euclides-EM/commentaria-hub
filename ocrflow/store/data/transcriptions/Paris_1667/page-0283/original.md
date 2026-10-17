@@ -39,11 +39,9 @@ Ou curviligne.
 
 Ou mixte.
 
-[Curated heading level=1 type=definitions: LIVRE DOVZIEME.]
+[Curated heading level=3 type=definitions: PREMIERE DEFINITION.]
 
-[Curated heading level=2 type=definitions: III. PREMIERE DEFINITION.]
-
-## PREMIERE DEFINITION.
+### PREMIERE DEFINITION.
 
 [Curated heading level=4 type=paragraph_order: III.]
 

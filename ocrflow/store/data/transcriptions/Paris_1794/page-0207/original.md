@@ -3,9 +3,9 @@
 
 entre les paralleles HP, EO. Par la même raison ce troisieme parallélépipede seroit équivalent au parallélépipede AL. Donc les deux parallélépipedes AG, AL, qui ont même base et même hauteur, sont équivalents entre eux.
 
-[Curated heading level=2 type=propositions: PROPOSITION IX. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION IX.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION IX.]
+[Curated heading level=2 type=theorems: PROPOSITION IX.]
 
 ## PROPOSITION IX.
 

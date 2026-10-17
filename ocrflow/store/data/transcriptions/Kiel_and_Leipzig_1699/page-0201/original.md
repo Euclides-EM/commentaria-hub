@@ -13,30 +13,20 @@
 
 ### Beschluß.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 Müssen also 1. Im Halb-Kreyß stehende Winckel alle Rechte /
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. In grössern/als Halb-Kreysen/stehende Winckel spitzig/
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. In kleinern Kreyßstücken aber stumpffe Winckel seyn.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Grösserer Kreyßstücke Winckele sind grösser/
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Kleinerer Kreyßstücke Winckele aber sind kleiner/ als
 rechte Winckel. W.Z.B.
 
-[Curated heading level=2 type=propositions: Der XXXII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 28. Beweiß-Stück. Der XXXII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 28. Beweiß-Stück.]
 
 ## Der XXXII. Vortrag.
 

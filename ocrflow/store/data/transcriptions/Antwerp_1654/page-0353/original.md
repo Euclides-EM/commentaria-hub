@@ -1,7 +1,7 @@
 <!-- Page number: 318 -->
 <!-- Running title: Theoremata ſelecta -->
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXII.]
 
 ## PROPOSITIO XXII.
 

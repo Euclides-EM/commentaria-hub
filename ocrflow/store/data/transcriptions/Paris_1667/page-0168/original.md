@@ -15,11 +15,11 @@ Et de même la corde *B D* eſt plus grande que *b d* ( par VI. 31.) & auſſy p
 
 Donc les arcs *B D* & *b d* eſtant proportionellement égaux, celuy du plus grand cercle a une plus grande corde.
 
-[Curated heading level=2 type=propositions: XXI. DIXIEME THEOREME.]
+[Curated heading level=4 type=propositions: DIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXI. DIXIEME THEOREME.]
+[Curated heading level=4 type=theorems: DIXIEME THEOREME.]
 
-### DIXIEME THEOREME.
+#### DIXIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXI.]
 

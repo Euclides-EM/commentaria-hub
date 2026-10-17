@@ -9,9 +9,9 @@ ces deux pyramides auront même base F*f*H ; elles auront aussi même hauteur, p
 
 En effet les triangles FHK, *fgh*, ont un angle égal F = *f*, et un côté égal FK = *fg* ; on a donc \* FHK : *fgh* :: FH : *fh*. On a aussi FHG : FHK :: FG : FK ou *fg*. Mais les triangles semblables FGH, *fgh*, donnent FG : *fg* :: FH : *fh* ; donc FGH : FHK :: FHK : *fgh* ; c’est-à-dire que la base FHK est moyenne proportionnelle entre les deux bases FGH, *fgh*. Donc un tronc de pyramide triangulaire, à bases paralleles, équivaut à trois pyramides qui ont pour hauteur commune la hauteur du tronc, et dont les bases sont la base inférieure du tronc, sa base supérieure, et une moyenne proportionnelle entre ces deux bases.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXI.]
+[Curated heading level=2 type=theorems: PROPOSITION XXI.]
 
 ## PROPOSITION XXI.
 

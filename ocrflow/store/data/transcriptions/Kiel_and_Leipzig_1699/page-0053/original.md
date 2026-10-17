@@ -19,9 +19,9 @@ Drw. AEC ⋀ BED nach 3. Gr-S.
 ### Beschluß.
 Sind also allezeit die aneinander stossende Gipffel-Winckel einander gleich. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XVI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XVI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 9. Beweiß-Stück. Der XVI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 9. Beweiß Stück.]
 
 ## Der XVI. Vortrag.
 

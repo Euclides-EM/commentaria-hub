@@ -21,11 +21,9 @@ Donc *componendo* *bd*. *xd* :: *bd*. *cd*.
 
 Donc les points *x* & *c* ne ſçauroient eſtre que le même point, & *k x* & *k c* la même ligne. Donc *k c* diviſe l'angle par la moitié. Ce qu'il falloit demonſtrer.
 
-[Curated heading level=1 type=problems: LIVRE DIXIEME.]
+[Curated heading level=2 type=propositions: PREMIER PROBLEME.]
 
-[Curated heading level=2 type=propositions: XXXIV. PREMIER PROBLEME.]
-
-[Curated heading level=2 type=problems: XXXIV. PREMIER PROBLEME.]
+[Curated heading level=2 type=problems: PREMIER PROBLEME.]
 
 ## PREMIER PROBLEME.
 

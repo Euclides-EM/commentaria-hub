@@ -1,11 +1,11 @@
 <!-- Running title: Des fünfft bůchs Euclidis -->
 <!-- Page number: 124 -->
 
-[Curated heading level=2 type=definitions: Beſchreibung 5.]
+[Curated heading level=3 type=definitions: 5]
 
 5 Vergleichung der proportion / wirt proportionalitet genant.
 
-[Curated heading level=2 type=definitions: Beſchreibung 6.]
+[Curated heading level=3 type=definitions: 6]
 
 6 Zů ſolcher werden zum wenigſten drey zalen / oder zil (termini) erfordert.
 
@@ -13,7 +13,7 @@
 
 Alß ſo ich ſag / wie ſich ain minut helt gegen ainer ſtund / alſo halt ſich auch ain kreützer gegen ainem floren (verſtehe) / das bayde tayl 1/60 jrs gantzes ſeind. Item ſo ich ſag / wie ſich 4 helt gegen 6 / alſo halten ſich die 6 gegen 9 (verſtehe das 6 anderhalb mal 4 / auch 9 anderhalbmal 6 iſt) jede proportion ſteht inn vergleichung zwayer ding / als nun klar iſt / werden ſolche ding zů Latein Termini genant / als zil / oder mal ſtot / zwiſchen welchen die proportz jren platz hat.
 
-[Curated heading level=3 type=margin_terms: Termini]
+[Curated heading level=3 type=marginal_headings: Termini]
 
 [Margin]
 Termini.
@@ -21,9 +21,9 @@ Termini.
 
 Müeſſen in vergleichung / oder gegen ainander ſchetzung der proportion / zum wenigſten zwo proportzen vergleicht begeben ſich alſo vier termini / oder zil. Aber es mag ſich ſchicken / das ain ding oder zal in bayden proportzen geſetzt wirt / als im exempel 4 — 6 — 9. Item ſo ich ſag / wie ſich halt ain quintel gegen ainem lot / alſo haltet ſich ain pfennig gewicht gegen ainem quintel (dann 4 ₰ thůn ain quintel / vnd 4 quintel thůn ain lot) ſteht das wörtlin quint in bayden proportzen / vnd werden auß den 4 zilen oder mal ſtetten drey (minder mögen nit ſein) doch alſo das daß mittelſte zwaymal gerechnet wirtt / vnd alſo im grund 4 zalen oder ſtett bleiben. Alſo in der coß 1 ℞ gegen 1 z / wie 1 z gegen 1 c.
 
-[Curated heading level=3 type=margin_terms: Tailung der proportionaliteten]
+[Curated heading level=3 type=marginal_headings: Tailung der proportionaliteten]
 
-[Curated heading level=4 type=margin_terms: Continua]
+[Curated heading level=3 type=marginal_headings: Continua]
 
 [Margin]
 Tailung der proportionaliteten. Continua.
@@ -31,7 +31,7 @@ Tailung der proportionaliteten. Continua.
 
 Darbey zůmercken / das in benenten zalen / zwaycrlay proportionaliteten ſeind. Etlich an ainander hangende / verſtehe / da ainerlay quantiteten verglichen werden / vnd namlich bayde proportzen auff ainerlay ding ſtehn / alſo das zum wenigſten die vorgehnde bayde ainerlay namen / deſſgleichen auch bayde volgende ainerlay benennung haben müeſſen / als ſo ich ſag 5 lb. gegen 6 kronen wie 30 lb. gegen 36 kronen. Item 52 wochen treffen koſtgelt 40 gl. vnd auch 39 wochen thůn in koſt 30 fl. ⁊c. Etlich vnderſchayde.
 
-[Curated heading level=4 type=margin_terms: Incontinua]
+[Curated heading level=3 type=marginal_headings: Incontinua]
 
 [Margin]
 Incontinua.
@@ -43,7 +43,7 @@ Alß ſo ich ſag / wie ſich helt 2 gegen 1 / alſo halt ſich das quadrat des 
 
 iſt es ain ſtete oder an ainander hangede proportionalitet. Deßgleichen auch ſo zalen geben würden / da die erſt gegen der anderen / die ander gegen der dritten / die drit gegen der vierten / ⁊c. Alles ainerlay proportz hette.
 
-[Curated heading level=3 type=margin_topics: Geometriſche progreſſion]
+[Curated heading level=3 type=marginal_headings: Geometriſche progreſſion]
 
 [Margin]
 Geometriſche progreſſion.

@@ -4,7 +4,7 @@
 
 quoque proportio ABC, ad DEF, compoſita ex proportionibus laterum BC, AC, ad latera EF, DF.
 
-[Curated heading level=4 type=numbered_item: II.]
+[Curated heading level=4: II]
 
 [Margin]
 II.
@@ -16,7 +16,7 @@ HOC, quo modo fiat, facile colligitur ex demonſtratione huius propoſ. 23. Sint
 
 [Figure: ten horizontal lines of varying lengths labelled A, B, C, D, E, F, G, H, I and K]
 
-[Curated heading level=4 type=numbered_item: III.]
+[Curated heading level=4: III]
 
 [Margin]
 III.
@@ -28,7 +28,7 @@ SIT proportio A, ad B, minor auferenda ex proportione maiore C, ad D. Fiat, ut A
 
 [Figure: five horizontal lines of varying lengths labelled A, B, C, E and D]
 
-[Curated heading level=4 type=numbered_item: IIII.]
+[Curated heading level=4: IIII]
 
 [Margin]
 IIII.

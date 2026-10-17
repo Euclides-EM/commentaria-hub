@@ -1,25 +1,17 @@
 <!-- Page number: 63 -->
 
-[Curated heading level=3 type=numbered_item: 3)]
-
 [Calculation]
 3) für (K/64) 4r: (¼α−¼r)=(¼γ+r): K/64 (wie vorhin,)
 [/Calculation]
-
-[Curated heading level=3 type=numbered_item: 4)]
 
 [Calculation]
 4) (für αγ) r: α=γ: φ und 8r: α=γ: ⅛φ
 also iſt λ=3γ+8r+φ und ⅛λ=⅜γ+⅛φ+r
 [/Calculation]
 
-[Curated heading level=3 type=numbered_item: 5)]
-
 [Calculation]
 5) (für η) (2α+γ): η=η: (2α−6r)
 [/Calculation]
-
-[Curated heading level=3 type=numbered_item: 6)]
 
 [Calculation]
 6) für ω) 4r: ⅛λ=⅛η: ω

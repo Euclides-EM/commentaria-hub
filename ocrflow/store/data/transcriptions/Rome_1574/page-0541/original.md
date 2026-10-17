@@ -16,7 +16,7 @@ IK, connectanturq́ue rectæ FK, HK. Deſcribantur iam ex FK, HK, rectilinea FKL
 
 DVOBVS datis rectilineis, æquale rectilineum conſtituere, quod ſimile ſit, ſimiliterque poſitum cuiuis rectilineo dato.
 
-[Curated heading level=4 type=numbered_item: VII.]
+[Curated heading level=4: VII]
 
 [Margin]
 VII.

@@ -22,7 +22,7 @@ Quoniam Theonis compendium potiuſquam demonſtret confundit hanc, cogimur aliam
 
 [Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
 
-[Curated heading level=2 type=problems: Propoſitio decimaquarta. Problema 2.]
+[Curated heading level=2 type=problems: Problema 2.]
 
 ## Propoſitio decimaquarta.
 

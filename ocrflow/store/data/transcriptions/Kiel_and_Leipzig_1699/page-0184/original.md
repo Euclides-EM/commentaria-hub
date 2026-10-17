@@ -2,9 +2,9 @@
 
 <!-- Page number: 167 -->
 
-[Curated heading level=2 type=propositions: Der XXI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 19. Beweiß-Stück. Der XXI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 19. Beweiß-Stück.]
 
 ## Der XXI. Vortrag.
 
@@ -39,11 +39,7 @@ Dw. dce ∠ [unclear: dbe] — n. 7. Gr. I.
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werden auß den Winckeln b und c durch den Mittel-Düpffel a gezogen zween gerade Striche bg und cf.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werden auch die Strahlen da und ea gezogen.
 

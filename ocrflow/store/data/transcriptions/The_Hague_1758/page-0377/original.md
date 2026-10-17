@@ -5,7 +5,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION VII. THEOREME VII.]
 
-[Curated heading level=2 type=theorems: THEOREME VII. PROPOSITION VII.]
+[Curated heading level=2 type=theorems: PROPOSITION VII. THEOREME VII.]
 
 ## PROPOSITION VII. THEOREME VII.
 

@@ -9,7 +9,7 @@ Si enim fieri poſſit rectam parallelogrammum ſecantem bifariam, dimetientem b
 
 Hoc ideo contulimus corollarium, vt quandoque nutu diuinæ clementiæ demonſtrandis ſolidis ferat compendium.
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſimaquinta.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſimaquinta.]
 
 ### Propoſitio trigeſimaquinta.
 
@@ -23,7 +23,7 @@ Sint ſuper eadem baſi B G & in eiſdem parallelis A Z B G, parallelogramma A B
 
 Cùm hac & deinceps optabit Euclides triangula & parallelogramma in eiſdem eſſe parallelis, non in eiſdem ipſo actu intelligemus: ſed in parallelis æquali à ſe ſpatio diuulſis, quas eaſdem iure dicere poſſumus, eò quòd Geometria quantitatem, non tantùm ſitum aſpectet. Nos etenim ſitum liberè diſponimus (quod licet) ad demonſtrandorum facilitatem.
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſimaſexta.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſimaſexta.]
 
 ### Propoſitio trigeſimaſexta.
 
@@ -33,7 +33,7 @@ Sint in æqualibus baſibus B G, Z I, & eiſdem parallelis A T, B I, parallelogr
 
 [Diagram]
 
-[Curated heading level=2 type=propositions: Propoſitio trigeſimaſeptima.]
+[Curated heading level=3 type=propositions: Propoſitio trigeſimaſeptima.]
 
 ### Propoſitio trigeſimaſeptima.
 

@@ -16,14 +16,14 @@ Demõstratio.
 
 [Diagram: n f l m h e d a g c b]
 
-[Curated heading level=2 type=propositions: Problema 8, Propositio 28.]
+[Curated heading level=3 type=propositions: Problema 8, Propositio 28.]
 
-[Curated heading level=2 type=problems: Problema 8, Propositio 28.]
+[Curated heading level=3 type=problems: Problema 8, Propositio 28.]
 
-## Πρόβλημα η, Πρόθεσις κη.
+### Πρόβλημα η, Πρόθεσις κη.
 
 Παρὰ τὴν δοθεῖσαν εὐθεῖαν τῷ δοθέντι εὐθυγράμμῳ ἴσον παραλληλόγραμμον παραβαλεῖν, ἐλλεῖπον εἴδει παραλληλογράμμῳ, ὁμοίῳ ὄντι τῷ δοθέντι. Δεῖ δὴ τὸ διδόμενον εὐθύγραμμον, ᾧ δεῖ ἴσον παραβαλεῖν, μὴ μεῖζον εἶναι τοῦ ἀπὸ τῆς ἡμισείας παραβαλλομένου, ὁμοίων ὄντων τῶν ἐλλειμμάτων, τοῦ τε ἀπὸ τῆς ἡμισείας, καὶ ᾧ δεῖ ὅμοιον ἐλλείπειν.
 
-## Problema 8, Propositio 28.
+### Problema 8, Propositio 28.
 
 AD datam rectam lineam, dato rectilineo æquale parallelogrammum comparare, deficiens specie parallelogrammo simili dato. Oportet iam datum rectilineum, cui expedit æquum comparare, nõ maius esse eo quod à dimidia comparatũ, similibus

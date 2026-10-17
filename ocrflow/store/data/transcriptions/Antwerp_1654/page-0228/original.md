@@ -5,7 +5,7 @@ tota infinitorum proportionalium terminorum ſumma exhiberi. Pulcherrimè hanc r
 
 ### Lemma 1.
 
-[Curated heading level=2 type=figures: Fig. 18]
+[Curated heading level=5 type=figures: Fig. 18]
 
 [Margin]
 Fig.18. ſecunda.

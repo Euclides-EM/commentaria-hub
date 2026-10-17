@@ -2,15 +2,15 @@
 
 <!-- Page number: 64 -->
 
-[Curated heading level=2 type=propositions: Theorema 6, Propositio 7.]
+[Curated heading level=3 type=propositions: Theorema 6, Propositio 7.]
 
-[Curated heading level=2 type=theorems: Theorema 6, Propositio 7.]
+[Curated heading level=3 type=theorems: Theorema 6, Propositio 7.]
 
-## Θεώρημα ς, Πρόθεσις ζ.
+### Θεώρημα ς, Πρόθεσις ζ.
 
 Εαν κύκλου ἐπὶ τῆς διαμέτρου ληφθῇ τι σημεῖον, ὃ μή ἐστι κέντρον τοῦ κύκλου, ἀπὸ δὲ τοῦ σημείου προσπίπτωσιν εὐθεῖαι τινὲς πρὸς τὸν κύκλον, μεγίστη μὲν ἔσται ἐφ᾽ ἧς τὸ κέντρον, ἐλαχίστη δὲ ἡ λοιπή. τῶν δ᾽ ἄλλων ἀεὶ ἡ ἔγγιον τῆς διὰ τοῦ κέντρου, τῆς ἀπώτερον μείζων ἐστί. δύο δὲ μόνον εὐθεῖαι ἴσαι ἀπὸ τοῦ αὐτοῦ σημείου προσπεσοῦνται πρὸς τὸν κύκλον, ἐφ᾽ ἑκάτερα τῆς ἐλαχίστης.
 
-## Theorema 6, Propositio 7.
+### Theorema 6, Propositio 7.
 
 SI in diametro circuli aliquod contingat punctum quod minimè circuli centrum sit, ab eóque puncto in circulum quædam rectæ lineæ procidant: maxima erit in qua centrum, minima verò reliqua. aliarum verò, semper propinquior ei quæ per centrum extenditur, remotiore maior est. Duæ autem solùm rectæ lineæ æquales, ab eodem puncto in circulum cadunt, ad vtrasque partes minimæ.
 

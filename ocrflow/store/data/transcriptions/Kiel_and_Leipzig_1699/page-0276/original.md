@@ -2,9 +2,9 @@
 
 <!-- Page number: 259 -->
 
-[Curated heading level=2 type=propositions: Der XI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 11. Beweiß-Stück. Der XI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 11. Beweißstück.]
 
 ## Der XI. Vortrag.
 
@@ -32,15 +32,9 @@ A : a | B : b.
 
 ### Vorbereitung:
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Nehme man A zweymahl
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Deßgleichen auch B zweymahl
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Die Grösse a und b aber jedwede viermahl.
 

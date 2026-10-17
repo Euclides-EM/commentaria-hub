@@ -6,19 +6,11 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus dem Rühr-Düpffel a des Rühr-Striches bc werde ein Senckstrich ag in den Kreyß dge auffgerichtet.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werde der Strich eg, und
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Die Striche ed und ab,
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Wie auch ef und fa gezogen.
 

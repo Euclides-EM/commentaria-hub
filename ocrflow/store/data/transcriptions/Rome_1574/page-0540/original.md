@@ -23,7 +23,7 @@ deinde latere eius EH, in I, ſecundum proportionem B, ad C, (quod facile fiet, 
 
 DATO rectilineo, duo rectilinea æqualia exhibere, quæ cuiuis rectilineo ſimilia ſint, ſimiliterque deſcripta, lateraque eorum homologa habeant inter ſe proportionem datam.
 
-[Curated heading level=4 type=numbered_item: VI.]
+[Curated heading level=4: VI]
 
 [Margin]
 VI.

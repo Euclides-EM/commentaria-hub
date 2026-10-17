@@ -13,13 +13,9 @@ C'eſt ce que l'on verra par ce Livre, qui ne ſervira pas ſeulement à meſure
 
 Mais pour rendre les preuves plus courtes, il eſt bon de ſuppoſer quelques Lemmes, ou clairs d'eux mèmes, ou demonſtrez dans le Livre precedent, afin d'y renvoyer quand on en aura beſoin.
 
-[Curated heading level=1 type=lemmas: LIVRE NEVVIEME.]
+[Curated heading level=2 type=lemmas: PREMIER LEMME. DEFINITION.]
 
-[Curated heading level=1 type=definitions: LIVRE NEVVIEME.]
-
-[Curated heading level=2 type=lemmas: III. PREMIER LEMME. DEFINITION.]
-
-[Curated heading level=2 type=definitions: III. PREMIER LEMME. DEFINITION.]
+[Curated heading level=2 type=definitions: PREMIER LEMME. DEFINITION.]
 
 ## PREMIER LEMME. DEFINITION.
 
@@ -33,7 +29,7 @@ LORSQUE dans toutes ces ſortes d'angles on dit qu'un tel arc du cercle auquel i
 
 Et de là il s'enſuit, que dans ces ſortes d'angles, auſſy bien que dans ceux qui ſont au centre du cercle, deux angles ſont égaux quand ils ont pour meſure des arcs égaux, ou abſolument quand ce ſont des arcs du même cercle, ou de cercles égaux ; ou proportionellement quand ce ſont des arcs de cercles inégaux : l'arc du petit ayant la même raiſon à ſa circonference, que l'arc du grand à la ſienne : comme ſi l'un & l'autre eſtoit la dixiême partie de ſa circonference, c'eſtadire de 36. degrez.
 
-[Curated heading level=2 type=lemmas: IV. SECOND LEMME.]
+[Curated heading level=2 type=lemmas: SECOND LEMME.]
 
 ## SECOND LEMME.
 

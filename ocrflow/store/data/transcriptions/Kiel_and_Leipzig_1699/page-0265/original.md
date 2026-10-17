@@ -2,9 +2,9 @@
 
 <!-- Page number: 248 -->
 
-[Curated heading level=2 type=propositions: Der IV. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der IV. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 4. Beweiß-Stück. Der IV. Vortrag.]
+[Curated heading level=2 type=theorems: Das 4. Beweiß-Stück.]
 
 ## Der IV. Vortrag.
 

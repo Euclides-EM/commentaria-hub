@@ -3,7 +3,7 @@
 
 den zirckel berüert / vnd von dem puncten der berürung die linj a b / durch den zirckel geht / ⁊c̄.
 
-[Curated heading level=2 type=propositions: XXXIIII. Die viervnddreyſſigſt Propoſition]
+[Curated heading level=2 type=propositions: XXXIIII Die viervnddreyſſigſt Propoſition.]
 
 ## XXXIIII Die viervnddreyſſigſt Propoſition.
 
@@ -16,7 +16,7 @@ Von ainem fürgebnen zirckel ain ſtuckh ſchneiden / in welchem ain winckel ſt
 
 [Diagram: circle with an inscribed triangle labelled a, b and c, a tangent through a, and an exterior angle at c]
 
-[Curated heading level=2 type=propositions: XXXV. Die fünffvnnddreyſſigſt Propoſition]
+[Curated heading level=2 type=propositions: XXXV Die fünffvnnddreyſſigſt Propoſition.]
 
 ## XXXV Die fünffvnnddreyſſigſt Propoſition.
 

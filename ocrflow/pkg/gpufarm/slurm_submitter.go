@@ -10,6 +10,7 @@ import (
 	"path"
 	"path/filepath"
 	"regexp"
+	"strconv"
 	"strings"
 	"text/template"
 
@@ -19,6 +20,8 @@ import (
 var slurmJobIDPattern = regexp.MustCompile(`Submitted batch job\s+([^\s]+)`)
 
 const completedRunsToKeep = 0
+
+const gpuFarmFreeSpaceReserveBytes int64 = 2 * 1024 * 1024 * 1024
 
 //go:embed templates/cleanup_completed_runs.sh
 var cleanupCompletedRunsScript string
@@ -82,6 +85,9 @@ func (s *SubmitterSlurm) CopyTo(localPath string, remotePath string) error {
 	if _, err := s.run("mkdir", "-p", path.Dir(remotePath)); err != nil {
 		return fmt.Errorf("create remote upload directory host=%s directory=%s source=%s source_bytes=%d: %w", s.host, path.Dir(remotePath), localPath, info.Size(), err)
 	}
+	if err := s.EnsureCapacity(path.Dir(remotePath), info.Size()); err != nil {
+		return fmt.Errorf("upload capacity check host=%s source=%s source_bytes=%d destination=%s: %w", s.host, localPath, info.Size(), remotePath, err)
+	}
 	out, err := exec.Command("scp", "-o", "StrictHostKeyChecking=accept-new", localPath, fmt.Sprintf("%s:%s", s.host, remotePath)).CombinedOutput()
 	output := strings.TrimSpace(string(out))
 	if err != nil {
@@ -92,6 +98,38 @@ func (s *SubmitterSlurm) CopyTo(localPath string, remotePath string) error {
 		return fmt.Errorf("upload failed host=%s source=%s source_bytes=%d destination=%s storage=%s: %w", s.host, localPath, info.Size(), remotePath, storage, err)
 	}
 	return nil
+}
+
+func (s *SubmitterSlurm) EnsureCapacity(remoteDir string, requiredBytes int64) error {
+	output, err := s.run("df", "-B1", "--output=size,avail", remoteDir)
+	if err != nil {
+		return fmt.Errorf("check storage capacity in %s: %w", remoteDir, err)
+	}
+	totalBytes, availableBytes, err := parseDFCapacity(output)
+	if err != nil {
+		return fmt.Errorf("check storage capacity in %s: %w", remoteDir, err)
+	}
+	neededBytes := requiredBytes + gpuFarmFreeSpaceReserveBytes
+	if availableBytes < neededBytes {
+		return fmt.Errorf("insufficient GPU farm space: required=%d reserve=%d available=%d total=%d", requiredBytes, gpuFarmFreeSpaceReserveBytes, availableBytes, totalBytes)
+	}
+	return nil
+}
+
+func parseDFCapacity(output string) (totalBytes int64, availableBytes int64, err error) {
+	fields := strings.Fields(output)
+	if len(fields) < 4 {
+		return 0, 0, fmt.Errorf("unexpected df output %q", output)
+	}
+	totalBytes, err = strconv.ParseInt(fields[len(fields)-2], 10, 64)
+	if err != nil {
+		return 0, 0, fmt.Errorf("parse total bytes from df output %q: %w", output, err)
+	}
+	availableBytes, err = strconv.ParseInt(fields[len(fields)-1], 10, 64)
+	if err != nil {
+		return 0, 0, fmt.Errorf("parse available bytes from df output %q: %w", output, err)
+	}
+	return totalBytes, availableBytes, nil
 }
 
 func (s *SubmitterSlurm) remoteStorageStatus(remoteDir string) string {

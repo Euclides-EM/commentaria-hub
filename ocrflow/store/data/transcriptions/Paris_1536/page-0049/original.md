@@ -1,14 +1,14 @@
 <!-- Running title: LIBER I. -->
 
-[Curated heading level=2 type=propositions: Theorema 25, Propoſitio 35.]
+[Curated heading level=3 type=propositions: Theorema 25, Propoſitio 35.]
 
-[Curated heading level=2 type=theorems: Theorema 25, Propoſitio 35.]
+[Curated heading level=3 type=theorems: Theorema 25, Propoſitio 35.]
 
-## Θεώρημα κε, Πρόθεσις λε.
+### Θεώρημα κε, Πρόθεσις λε.
 
 ΤΑ παραλληλόγραμμα, τὰ ἐπὶ τῆς αὐτῆς βάσεως ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστί.
 
-## Theorema 25, Propoſitio 35.
+### Theorema 25, Propoſitio 35.
 
 PArallelogramma in eadem baſi & in eiſdem parallelis exiſtētia, adinuicem ſunt æqualia.
 
@@ -38,14 +38,14 @@ Tertia differentia.
 
 triangulū a c e, triāgulo b d f, veluti ſuprà mōſtrabitur, æquale. Q₂ ſi vtriq; æqualium angulorū, addatur cómune trapeziū e b c d: reſultabit iterum a b c d parallelográmum, eidem parallelogrāmo c d e f, per ſecundā cómunem ſententiā æquale. Igitur parallelogrāma in eadem baſi, & in eiſdem parallelis exiſtentia, adinuicem ſunt æqualia. Quod erat oſtendendum.
 
-[Curated heading level=2 type=propositions: Theorema 26, Propoſitio 36.]
+[Curated heading level=3 type=propositions: Theorema 26, Propoſitio 36.]
 
-[Curated heading level=2 type=theorems: Theorema 26, Propoſitio 36.]
+[Curated heading level=3 type=theorems: Theorema 26, Propoſitio 36.]
 
-## Θεώρημα κς, Πρόθεσις λς.
+### Θεώρημα κς, Πρόθεσις λς.
 
 ΤΑ παραλληλόγραμμα τὰ ἐπὶ τῶν ἴσων βάσεων ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστί.
 
-## Theorema 26, Propoſitio 36.
+### Theorema 26, Propoſitio 36.
 
 PArallelogramma in æqualibus baſibus, & in eiſdem parallelis exiſtentia: adinuicem ſunt æqualia.

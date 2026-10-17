@@ -2,7 +2,7 @@
 
 ex A D, in B D, una cum quadrato ipſius C B; æqualis eſt quadrato ipſius C D. Quod eſt propoſitum.
 
-[Curated heading level=5 type=numbered_item: VII.]
+[Curated heading level=5: VII]
 
 [Margin]
 VII.
@@ -14,7 +14,7 @@ DIVIDATVR numerus A B, in partes A C, C B. Dico quadratum totius A B, vna cum qu
 
 [Diagram: horizontal line with points labelled A, C, B]
 
-[Curated heading level=5 type=numbered_item: VIII.]
+[Curated heading level=5: VIII]
 
 [Margin]
 VIII.

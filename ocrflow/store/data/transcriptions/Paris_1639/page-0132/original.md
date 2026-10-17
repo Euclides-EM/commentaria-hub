@@ -7,7 +7,7 @@
 2.d.3 | eb *eſt tangente ou touchante,*
 2.d.3 | fg *eſt ſecante ou couppante.*
 
-[Curated heading level=2 type=definitions: DEF. III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 
@@ -21,7 +21,7 @@ Le cercle FBG touche le mesme cercle ABE par dehors en B.
 
 Les cercles BFG & HFG s'entrecouppent l'vn l'autre en F & G.
 
-[Curated heading level=2 type=definitions: DEF. IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 

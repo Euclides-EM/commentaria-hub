@@ -1,15 +1,11 @@
 <!-- Running title: Liber Quartus. -->
 <!-- Page number: 109 -->
 
-[Curated heading level=1 type=propositions: Liber IV]
-
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO PRIMA.]
+[Curated heading level=2 type=propositions: PROPOSITIO PRIMA.]
 
 ## PROPOSITIO PRIMA.
 
-[Curated heading level=1 type=figures: Liber IV]
-
-[Curated heading level=2 type=figures: Fig. 1]
+[Curated heading level=5 type=figures: Fig. 1]
 
 {dropcap:C|lines=2|style=plain}Irculo (B D) rectam datam (A) diametro non maiorem, inſcribere.
 
@@ -19,11 +15,11 @@ Fig.1 l.4.
 
 Accipe in peripheria quoduis punctum B. Centro B interuallo datæ A deſcribe arcum circulo occurrentem in C. Duc rectam B C. Dico factum.
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO II.]
+[Curated heading level=2 type=propositions: PROPOSITIO II.]
 
 ## PROPOSITIO II.
 
-[Curated heading level=2 type=figures: Fig. 2]
+[Curated heading level=5 type=figures: Fig. 2]
 
 {dropcap:C|lines=2|style=plain}Irculo triangulum inſcribere dato (X) æquiangulum.
 
@@ -42,11 +38,11 @@ d Per conſtr.
 f Per corol. 9.p.32.l.1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO III.]
+[Curated heading level=2 type=propositions: PROPOSITIO III.]
 
 ## PROPOSITIO III.
 
-[Curated heading level=2 type=figures: Fig. 3]
+[Curated heading level=5 type=figures: Fig. 3]
 
 {dropcap:C|lines=2|style=plain}Irculo circumſcribere triangulum æquiangulum dato H.
 

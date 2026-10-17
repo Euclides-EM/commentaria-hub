@@ -18,7 +18,7 @@ Fig.8.
 
 ### Scholium.
 
-[Curated heading level=2 type=figures: Fig. 12]
+[Curated heading level=5 type=figures: Fig. 12]
 
 {dropcap:I|lines=2|style=plain}Ngenioſa eſt Euclidæa pentagoni inſcriptio, ſed multò expeditior illa Ptolomæi, quam tradit lib.1. Almageſti, & eſt eiuſmodi.
 

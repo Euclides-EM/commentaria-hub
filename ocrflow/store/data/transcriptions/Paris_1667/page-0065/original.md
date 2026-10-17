@@ -21,9 +21,7 @@ CETTE *notion de l'égalité des raiſons ſuffiroit, s'il eſtoit toujours ais�
 
 ### PROPORTIONS NATVRELLEMENT CONNVES.
 
-[Curated heading level=1 type=axioms: LIVRE SECOND.]
-
-[Curated heading level=2 type=axioms: XXXI. PREMIER AXIOME.]
+[Curated heading level=4 type=axioms: PREMIER AXIOME.]
 
 #### PREMIER AXIOME.
 
@@ -39,7 +37,7 @@ LE multiple d'une grandeur eſt à cette grandeur, comme le multiple pareil d'un
 
 B. 3 B : : C. 3 C.
 
-[Curated heading level=2 type=axioms: XXXII. SECOND AXIOME.]
+[Curated heading level=4 type=axioms: SECOND AXIOME.]
 
 #### SECOND AXIOME.
 
@@ -55,7 +53,7 @@ LES multiples pareils de deux grandeurs ſont entr'eux comme ces grandeurs: & au
 
 B. C : : 3 B. 3 C.
 
-[Curated heading level=2 type=axioms: XXXIII. TROISIEME AXIOME.]
+[Curated heading level=4 type=axioms: TROISIEME AXIOME.]
 
 #### TROISIEME AXIOME.
 

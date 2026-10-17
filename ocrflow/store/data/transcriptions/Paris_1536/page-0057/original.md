@@ -2,19 +2,19 @@
 
 diffinitionem. Ex data igitur linea recta a/b, quadratum descripsimus. Quod oportuit fecisse.
 
-### Corollarium.
+#### Corollarium.
 
 ¶Quæ ab æqualibus igitur lineis rectis quadrata describuntur, æqualia sunt adinuicem: & ediuerso. quæ autem ab inæqualibus fiunt quadrata, sunt inequalia: maius quidem quod à maiore, minus autem quod à minore describitur.
 
-[Curated heading level=2 type=propositions: Theorema 33, Propositio 47.]
+[Curated heading level=3 type=propositions: Theorema 33, Propositio 47.]
 
-[Curated heading level=2 type=theorems: Theorema 33, Propositio 47.]
+[Curated heading level=3 type=theorems: Theorema 33, Propositio 47.]
 
-## Θεώρημα λγ, Πρόθεσις μζ.
+### Θεώρημα λγ, Πρόθεσις μζ.
 
 ΕΝ τοῖς ὀρθογωνίοις τριγώνοις, τὸ ἀπὸ τῆς τὴν ὀρθὴν γωνίαν ὑποτεινούσης πλευρᾶς τετράγωνον ἴσον ἐστὶ, τοῖς ἀπὸ τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν πλευρῶν τετραγώνοις.
 
-## Theorema 33, Propositio 47.
+### Theorema 33, Propositio 47.
 
 IN rectangulis triangulis, quadratum quod à latere rectum angulum subtendente fit, æquum est quadratis quæ fiunt ex lateribus angulum rectum continentibus.
 

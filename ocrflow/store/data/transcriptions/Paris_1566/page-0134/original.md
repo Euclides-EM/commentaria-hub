@@ -7,7 +7,7 @@ Exponantur tres rectæ ſcilicet A B G, oportet iam ipſis quartam inuenire prop
 
 [Curated heading level=2 type=propositions: Propoſitio decimatertia.]
 
-[Curated heading level=2 type=problems: Propoſitio decimatertia. Problema 5.]
+[Curated heading level=2 type=problems: Problema 5.]
 
 ## Propoſitio decimatertia.
 

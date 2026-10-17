@@ -11,7 +11,7 @@ enim BC ad SE, vt e CF ad EF; hoc eſt per hyp. vt QL ad ZL; hoc f eſt vt VQ ad
 
 ### II.
 
-[Curated heading level=2 type=figures: Fig. 10]
+[Curated heading level=5 type=figures: Fig. 10]
 
 [Margin]
 Fig.10.

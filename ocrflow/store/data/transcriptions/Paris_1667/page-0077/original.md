@@ -7,9 +7,9 @@ Quoy qu'il en ſoit ne me voulant broüiller avec perſonne, chacun prendra ce q
 
 ### LA PRINCIPALE PROPRIETE' DE LA PROPORTION GEOMETRIQVE.
 
-[Curated heading level=2 type=propositions: LIII. HUITIEME THEOREME.]
+[Curated heading level=4 type=propositions: HUITIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LIII. HUITIEME THEOREME.]
+[Curated heading level=4 type=theorems: HUITIEME THEOREME.]
 
 #### HUITIEME THEOREME.
 

@@ -5,7 +5,7 @@
 
 ## Lemma ad ſequen.
 
-[Curated heading level=2 type=figures: Fig. 13]
+[Curated heading level=5 type=figures: Fig. 13]
 
 {dropcap:R|lines=2|style=plain}Ecta (B H, C G) quæ in circulo æquales arcus (B C, H G) intercipiunt, ſunt parallelæ.
 
@@ -20,7 +20,7 @@ a Per 29. l.3.
 b Per 28. l.1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XVI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVI.]
 
 ## PROPOSITIO XVI.
 

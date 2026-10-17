@@ -10,7 +10,7 @@ i Per 39.l.1.
 
 ### Corollarium.
 
-[Curated heading level=2 type=figures: Fig. 5]
+[Curated heading level=5 type=figures: Fig. 5]
 
 {dropcap:S|lines=2|style=plain}I ad vnum trianguli latus (BC) ductę fuerint plures parallelæ (IO, FL,) erunt omnia laterum ſegmenta, proportionalia.
 
@@ -28,11 +28,11 @@ o Per 34.l.1.
 b Per 2.l.6.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO III.]
+[Curated heading level=2 type=propositions: PROPOSITIO III.]
 
 ## PROPOSITIO III.
 
-[Curated heading level=2 type=figures: Fig. 6]
+[Curated heading level=5 type=figures: Fig. 6]
 
 {dropcap:S|lines=2|style=plain}I recta (BF) angulum trianguli bifariam ſecans, etiam ſecet baſim (AC,) habebunt baſis ſegmenta (AF, FC) eandem proportionem quam reliqua latera (AB, CB.)
 

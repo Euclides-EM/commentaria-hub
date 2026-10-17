@@ -3,11 +3,11 @@
 
 amplius innoteſcet, tredecim ſequentibus propoſitionibus comprehenſa, ſubiungam.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIII.]
 
 ## PROPOSITIO XXXIII.
 
-[Curated heading level=2 type=figures: Fig. 26]
+[Curated heading level=5 type=figures: Fig. 26]
 
 {dropcap:S|lines=2|style=plain}Vperficies ſphæræ dupla eſt ſuperficiei cylindri quadrati ſphæræ inſcripti.
 
@@ -25,7 +25,7 @@ d Per hyp.
 e Per corol. p.12. huius.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIV.]
 
 ## PROPOSITIO XXXIV.
 

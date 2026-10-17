@@ -19,9 +19,9 @@ Iſt leichtlich zůbeweiſen / in anſehung / das die linj e f / der linj c glei
 
 Dann von ſolchen figuren iſt (meins erachtens) aigentlich die beſchreibung diß bůchs zůuerſtehn / vnd mögen wol verſtendlichen weiß widerſinns geproportioniert genent werden. Als im geſetzten exempel / wie ſych halt 8 gegen 18 die lenge des erſten gegen der lenge des andern / alſo hallten ſych härgegen die braittin des andern 12.gegen der braitten des erſten 27. Iſt die proportz 4/9. Oder wie ſych halt 8 gegen 12.alſo härgegen 18 gegen 27.iſt die proportz 2/3. Erhalltet ſolche widerſinns genomne proportion / die gleichait der figuren.
 
-[Curated heading level=3 type=margin_topics: Widerſinns geproportioniert figuren]
+[Curated heading level=3 type=marginal_headings: Widerſinns geproportioniert figuren]
 
-[Curated heading level=3 type=margin_terms: muteceſia, reciproca, ἀντιπεπονθότα]
+[Curated heading level=3 type=marginal_headings: muteceſia, reciproca, ἀντιπεπονθότα]
 
 [Margin]
 Widerſinns geproportioniert figuren. Campanus nents muteceſia. Zů Latin reciproca ἀντιπεπονθότα.
@@ -35,7 +35,7 @@ Diſer propoſition beſſern verſtand vnnd nutz erklärend.
 
 {dropcap:O|lines=2|style=plain}nangeſehen diſe aigenſchafft / můß in handlung der proportionalitet offtermalß gefehlet werden / welches ich durch exempel will darthůn / ainer kaufft zů ainem rockh 2 elln tůchs / die elln neun viertel braitt. Den will er fůettern mit ainem anderen tůch / ſo 1 1/2 ellen (verſteh 6 viertel) brait iſt / fragt / wieuil er deſſelben tůchs haben můſſt. Iſt niemandt ſo ainfeltig der das nitt verſtehe / das das fůtter dem rockh gleich ſein můß / auch waißt man auß gmainem verſtand wol / das ſo braiter ain tůch iſt / ſo weniger man ſein bedarff / vnd ſo ſchmeler / ſo mehr. Auch gleichen ſych die abgeſchnitten 2 ellen / des 9 viertel braitten
 
-[Curated heading level=3 type=margin_topics: Grund vnd erklärung der verkehrten oder Conuerſa regel Detri]
+[Curated heading level=3 type=marginal_headings: Grund vnd erklärung der verkehrten oder Conuerſa regel Detri]
 
 [Margin]
 Grund vnd erklärung der verkehrten oder Conuerſa regel Detri.

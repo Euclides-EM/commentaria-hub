@@ -24,16 +24,10 @@ oder
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auff die gegebene Düttele d, g, e, h, k, m, n. &c. werden
 aus dem Mittel-Düpffel b gerade Striche bn, bm, bk, &c. gezogen.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Werde gemacht fbL ⋀ fbl. n. 23. I.
-
-[Curated heading level=4 type=numbered_item: 3.]
 
 3. Werden gezogen aL und al.
 

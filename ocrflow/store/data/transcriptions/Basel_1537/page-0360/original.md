@@ -4,7 +4,11 @@
 
 recta linea æqua fuerit reliquæ quæ circum rectum circumductæ, rectangulus erit conus. Si uero minor, amblygonius. Si autem maior, oxygonius.
 
+[Curated heading level=3 type=definitions: 17]
+
 17 Axis coni, est manens quædam recta linea quam circum triangulũ uertitur. Basis autem, est circulus sub circumducta recta linea descriptus.
+
+[Curated heading level=3 type=definitions: 18]
 
 18 Cylindrus, est quando rectanguli parallelogrammi manente uno eorum quæ circum rectum angulum latere circumductum parallelogrammum in idem unde sumpsit exordium steterit, ea assumpta figura.
 

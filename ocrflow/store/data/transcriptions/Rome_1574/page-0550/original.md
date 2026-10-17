@@ -1,21 +1,13 @@
 <!-- Running title: LIBER VII. -->
 <!-- Page number: 233 -->
 
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM VII.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM VII.]
-
-[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTVM VII.]
-
-[Curated heading level=1 type=axioms: EVCLIDIS ELEMENTVM VII.]
-
 # EVCLIDIS ELEMENTVM VII.
 
 [Ornament: floral headpiece]
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 

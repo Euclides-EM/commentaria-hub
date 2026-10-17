@@ -17,8 +17,6 @@ Deerat huic diffinitioni, prout eam Campanus & Theon meminerunt, parallelogrammu
 
 [Diagram: parallelogram labelled A, B, and C, with a diagonal and internal parallelogram labelled G and E]
 
-[Curated heading level=1 type=propositions: EVCLIDIS DEMONSTRATIOnum reſtitutarum Liber ſecundus.]
-
 [Curated heading level=2 type=propositions: Propoſitio prima.]
 
 ## Propoſitio prima.

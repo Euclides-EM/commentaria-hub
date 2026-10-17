@@ -1,25 +1,21 @@
 <!-- Running title: EVCLIDES -->
 <!-- Page number: 46. -->
 
-[Curated heading level=3 type=definitions: 8. Pero quando las]
+[Curated heading level=3 type=definitions: 8.]
 
 8. ¶Pero quando las lineas rectas que cõprehenden el angulo toman alguna circunferencia en aquella ſe dize eſtar el angulo.
 
-[Curated heading level=3 type=definitions: 9. Sector d̃ circulo]
+[Curated heading level=3 type=definitions: 9.]
 
 9. Sector d̃ circulo es quando el angulo eſtuuiere ſobre elcẽtro del circulo ) la figura comprehẽdida debaxo delas lineas rectas q̃ cõprehenden el angulo,y de la circũferẽcia tomada debaxo dellas.
 
 [Figure: two circles labelled above "Sector.", each containing two radii from the centre forming an angle]
 
-[Curated heading level=3 type=definitions: 10. Semejãtes ſegmẽtos de]
+[Curated heading level=3 type=definitions: 10.]
 
 10. Semejãtes ſegmẽtos de circulo ſon los que reciben yguales angulos: o aq̃llos cuyos angulos entre ſi ſon yguales.
 
 [Figure: two circles labelled above "Semejantes ſegmentos.", each containing a triangle inscribed from a point on the arc to the ends of a chord]
-
-[Curated heading level=1 type=propositions: LIBRO TERCERO DELOS ELEMENTOS GEO]
-
-[Curated heading level=1 type=problems: LIBRO TERCERO DELOS ELEMENTOS GEO]
 
 [Curated heading level=2 type=propositions: Problema. 1. Propoſicion. 1.]
 

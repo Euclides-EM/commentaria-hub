@@ -5,7 +5,7 @@
 
 #### Rationum irrationalium Additio & Subtractio.
 
-[Curated heading level=2 type=figures: Fig. 31]
+[Curated heading level=5 type=figures: Fig. 31]
 
 [Margin]
 Fig.31.

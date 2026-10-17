@@ -6,23 +6,13 @@
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Eine des Dreyecks Seite ab werde in zween gleiche Theile ad | db getheilet/n. 10. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auff dieser Seite Mittel d werde einwerts ein Senckstrich df gesetzet/n. 11. I.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Deßgleichen werde eine andere Seite ae getheilet ae | ec, n. 10. I.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Auch werde auff dieses Mittel e einwerts ein Senckstrich ef gesetzet/n. 11. I.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Aus f, wo beede Senckstriche einander durchschneiden / werde nach der Weite fb, oder fa ein Kreyß beschrieben.
 

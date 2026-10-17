@@ -1,6 +1,6 @@
 <!-- Running title: D'EVCLIDE, LIV. VI. -->
 
-[Curated heading level=2 type=definitions: DEF. II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 
@@ -14,7 +14,7 @@ hyp. | ab π bg 2|2 eb π bc,
 
 Aux figures semblables le premier & quatriesme termes ne peuuent estre en la mesme figure: mais aux figures reciproques le premier & quatriesme termes sont tousiours en la mesme figure.
 
-[Curated heading level=2 type=definitions: DEF. III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 
@@ -27,7 +27,7 @@ hyp. | ab π ac 2|2 ac π cb.
 
 Cette section en la moyenne & extréme raison, est nommée proportion diuine par quelques Mathematiciens, à cause qu'elle est fort frequente en la stereometrie, principalement au 13. des elem.
 
-[Curated heading level=2 type=definitions: DEF. IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 

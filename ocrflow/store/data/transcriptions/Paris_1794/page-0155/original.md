@@ -1,9 +1,7 @@
 <!-- Running title: LIVRE IV. -->
 <!-- Page number: 127 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XV. LEMME.]
-
-[Curated heading level=2 type=lemmas: LEMME. PROPOSITION XV.]
+[Curated heading level=2 type=propositions: PROPOSITION XV.]
 
 ## PROPOSITION XV.
 
@@ -15,15 +13,11 @@ Le triangle CAB est équivalent au triangle isoscele DCE, qui a le même angle C
 F. 170.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 Car, 1°. à cause de l’angle commun C, le triangle ACB est au triangle isoscele DCE comme AC × CB est à DC × CE, ou D̅C̅² ; donc ces triangles seront équivalents, si D̅C̅² = AC × CB, ou si DC est moyenne proportionnelle entre AC et CB.
 
 [Margin]
 * 24. 3₄
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2°. La perpendiculaire CGF coupant en deux parties égales l’angle ACB, on a * AG : GB :: AC : CB, d’où il suit componendo AG : AG+GB ou AB :: AC : AC+CB : mais AG est à AB comme le triangle ACG est au triangle ACB ou 2CDF ; d’ailleurs si l’angle A est droit, les triangles rectangles ACG, CDF, sont semblables, et on a ACG : CDF :: A̅C̅² : C̅F̅² ; donc A̅C̅² : 2C̅F̅² :: AC : AC+CB.
 

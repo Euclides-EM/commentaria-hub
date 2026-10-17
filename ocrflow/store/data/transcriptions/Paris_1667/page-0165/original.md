@@ -5,11 +5,11 @@
 
 Et de même quand un ſinus eſt plus grand que l'autre, la corde dont le plus grand eſt la moitié, eſt plus grande auſſy que la corde dont le plus petit eſt la moitié. Donc cette plus grande corde ſoûtient un plus grand arc. Or l'arc qu'elle ſoûtient eſt double de celuy dont la moitié de cette plus grande corde eſt le ſinus. Donc l'arc dont la moitié de cette plus grande corde eſt le ſinus, eſt plus grand que l'arc qui a pour ſinus la moitié d'une plus petite corde. (Ce qu'il falloit demonſtrer.)
 
-[Curated heading level=2 type=propositions: XVI. SEPTIEME THEOREME.]
+[Curated heading level=4 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XVI. SEPTIEME THEOREME.]
+[Curated heading level=4 type=theorems: SEPTIEME THEOREME.]
 
-### SEPTIEME THEOREME.
+#### SEPTIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XVI.]
 
@@ -23,7 +23,7 @@ Car les ſinus égaux ſont également diſtans du centre. Or cette diſtance du
 
 Que ſi le ſinus eſt plus grand, cette diſtance eſt plus petite. Donc oſtant moins du rayon, ce qui reſte, qui eſt le ſinus verſe, eſt plus grand.
 
-### AVERTISSEMENT.
+#### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XVII.]
 

@@ -7,9 +7,9 @@ deux parties ABHE + BHLK ; et la partie BHLK est égale au rectangle EDGF, car B
 
 *Scholie.* Cette proposition revient à la formule d’algèbre (a + b) (a — b) = a² — b².
 
-[Curated heading level=2 type=propositions: PROPOSITION XI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XI.]
+[Curated heading level=2 type=theorems: PROPOSITION XI.]
 
 ## PROPOSITION XI.
 

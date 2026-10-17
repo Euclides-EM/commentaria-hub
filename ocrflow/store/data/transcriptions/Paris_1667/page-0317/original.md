@@ -13,9 +13,9 @@ QUI connoiſt d'un parallelogramme deux coſtez angulaires & un angle, connoiſt
 
 Car qui connoiſt un angle, les connoiſt tous; & qui connoiſt deux coſtez angulaires connoiſt les deux autres, chacun eſtant égal à ſon coſté.
 
-[Curated heading level=2 type=propositions: XLVII. PROBLEME.]
+[Curated heading level=4 type=propositions: PROBLEME.]
 
-[Curated heading level=2 type=problems: XLVII. PROBLEME.]
+[Curated heading level=4 type=problems: PROBLEME.]
 
 #### PROBLEME.
 
@@ -29,9 +29,9 @@ DECRIRE un parallelogramme dont on a un angle, & la grandeur de chacun des deux 
 
 Les deux coſtez angulaires comprenant cet angle, de l'extremité du plus petit décrire un cercle de l'intervalle du plus grand, & de l'extremité du plus grand décrire un cercle de l'intervalle du plus petit: les lignes menées de ces extremitez au point où ces cercles ſe couperont, acheveront la deſcription de ce parallelogramme.
 
-[Curated heading level=2 type=propositions: XLVIII. CINQUIEME THEOREME.]
+[Curated heading level=4 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XLVIII. CINQUIEME THEOREME.]
+[Curated heading level=4 type=theorems: CINQUIEME THEOREME.]
 
 #### CINQUIEME THEOREME.
 
@@ -45,7 +45,7 @@ DEUX parallelogrammes ſont ſemblables quand ils ont un angle égal, & les coſ
 
 Car l'égalité d'un angle donne celle des autres; & deux coſtez angulaires ne ſçauroient eſtre proportionels, que les deux autres ne le ſoient auſſy.
 
-[Curated heading level=2 type=definitions: XLIX. DEFINITION.]
+[Curated heading level=4 type=definitions: DEFINITION.]
 
 #### DEFINITION.
 
@@ -59,9 +59,9 @@ LA ligne qui joint deux angles oppoſez s'appelle *Diagonale*, & elle diviſe le
 
 [Figure: parallelogram with a dotted diagonal joining two opposite angles]
 
-[Curated heading level=2 type=propositions: L. SIXIEME THEOREME.]
+[Curated heading level=4 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: L. SIXIEME THEOREME.]
+[Curated heading level=4 type=theorems: SIXIEME THEOREME.]
 
 #### SIXIEME THEOREME.
 
@@ -77,7 +77,7 @@ Demonſtré X. 16.
 
 [Figure: parallelogram with dotted diagonal and dotted lines parallel to the sides crossing at a point of the diagonal]
 
-[Curated heading level=2 type=definitions: LI. DEFINITION.]
+[Curated heading level=4 type=definitions: DEFINITION.]
 
 #### DEFINITION.
 

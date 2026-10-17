@@ -2,25 +2,25 @@
 
 <!-- Page number: 3 -->
 
-[Curated heading level=2 type=definitions: Beschreibung IIX.]
+[Curated heading level=3 type=definitions: IIX.]
 
 IIX. Ein ebener Winckel wird von zween Strichen auff einer ebenen Fläche gemacht/ wenn die Striche nicht neben einander / sondern gegen einander gezogen / einander anrühren.
 
 [Diagram: mehrere Winkeldarstellungen aus gekrümmten und geraden Strichen]
 
-[Curated heading level=2 type=definitions: Beschreibung IX.]
+[Curated heading level=3 type=definitions: IX.]
 
 IX. Ein gerader Winckel bestehet auß geraden Strichen.
 
 [Diagram: mehrere Winkeldarstellungen aus geraden Strichen]
 
-[Curated heading level=2 type=definitions: Beschreibung X.]
+[Curated heading level=3 type=definitions: X.]
 
 X. Wenn ein gerader Strich auff einen andern geraden Strich fället oder stösset/ also daß die beeden neben einander stehende Winckel einander gleich werden / so ist jedweder derselben ein rechter Winckel; der anstossende Strich wird ein Bleyrechter Senck-Strich deß gegenstehenden oder unterliegenden Striches genennet.
 
 [Diagram: senkrechter Strich auf waagerechtem Strich mit Halbkreis]
 
-[Curated heading level=2 type=definitions: Beschreibung XI.]
+[Curated heading level=3 type=definitions: XI.]
 
 XI. Ein stumpffer Winckel ist / welcher einen rechten Winckel übertrifft.
 

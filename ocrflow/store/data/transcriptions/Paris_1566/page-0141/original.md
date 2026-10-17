@@ -12,7 +12,7 @@ Voces propoſitionis (græcum imitantes) variavimus, vt proiectum ad lineam appl
 
 [Curated heading level=2 type=propositions: Propoſitio vigeſimaoctaua.]
 
-[Curated heading level=2 type=problems: Propoſitio vigeſimaoctaua. Problema 8.]
+[Curated heading level=2 type=problems: Problema 8.]
 
 ## Propoſitio vigeſimaoctaua.
 

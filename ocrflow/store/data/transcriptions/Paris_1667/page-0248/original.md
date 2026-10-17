@@ -5,7 +5,7 @@ baſes de cet angle ſont paralleles, comme l'on a veu X. 13.
 
 La ſeconde maniere eſt quand l'angle qu'une baſe fait ſur un coſté eſt égal à l'angle que l'autre baſe fait ſur l'autre coſté. Et alors on peut appeller ces baſes *antiparalleles*, pour marquer leur effet oppoſé à celuy des baſes paralleles. Ce ſont ces ſortes de baſes qui feront preſque toutes les preuves dans tout ce Livre.
 
-[Curated heading level=2 type=lemmas: IV. QUATRIEME LEMME.]
+[Curated heading level=2 type=lemmas: QUATRIEME LEMME.]
 
 ## QUATRIEME LEMME.
 
@@ -17,7 +17,7 @@ IV.
 
 LES baſes paralleles d'un même angle ne peuvent eſtre diſpoſées que d'une ſeule maniere, qui eſt d'eſtre toutes ſeparées l'une de l'autre. Car c'eſt le propre des paralleles de ne ſe pouvoir jamais joindre. Mais les antiparalleles peuvent eſtre diſpoſées en trois manieres differentes.
 
-## PREMIERE DISPOSITION DES ANTIPARALLELES.
+### PREMIERE DISPOSITION DES ANTIPARALLELES.
 
 [Curated heading level=4 type=paragraph_order: V.]
 

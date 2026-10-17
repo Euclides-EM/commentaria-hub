@@ -7,8 +7,9 @@ import (
 	"unicode"
 )
 
-// ExtractIndexContentsFromMarkdown returns headings in the requested index
-// layers and, in the same pass, all layer names present in the document.
+// ExtractIndexContentsFromMarkdown returns headings in document order, marking
+// those outside the requested index layers as hidden, and, in the same pass,
+// all layer names present in the document.
 // Printed headings and untyped curated headings belong to the default layer.
 func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []string, normalize bool) ([]Category, []string, error) {
 	if md == nil {
@@ -45,13 +46,18 @@ func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []str
 		if category == "" {
 			continue
 		}
-		if _, ok := selectedTypes[indexType]; !ok {
-			continue
-		}
 		if len(allowedCategories) > 0 {
 			if _, ok := allowedCategories[category]; !ok {
 				continue
 			}
+		}
+		if _, ok := selectedTypes[indexType]; !ok {
+			results = append(results, Category{
+				Category:  category,
+				IndexType: indexType,
+				Hidden:    true,
+			})
+			continue
 		}
 		content = StripEmphasis(ResolvePrinterErrorCorrections(ExpandDropcaps(content), normalize))
 		if normalize {
@@ -85,4 +91,5 @@ type Category struct {
 	Category  string
 	Content   string
 	IndexType string
+	Hidden    bool
 }

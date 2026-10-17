@@ -1,7 +1,7 @@
 <!-- Running title: LIBER SEXTUS. -->
 <!-- Page number: 175 -->
 
-[Curated heading level=2 type=definitions: DEF. IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 

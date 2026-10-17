@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 87 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XXVII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXVII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXVII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXVII.]
 
 ## PROPOSITION XXVII.
 
@@ -11,15 +11,11 @@
 
 *Les contours ou périmètres des polygones semblables sont comme les côtés homologues, et leurs surfaces comme les quarrés des côtés homologues.*
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 Car 1°. puisqu’on a, par la nature des figures semblables, AB : FG :: BC : GH :: CD : HI, etc., on peut conclure de cette suite de rapports égaux : La somme des antécédents AB+BC+CD, etc., contour de la première figure, est à la somme des conséquents FG+GH+HI, etc., contour de la seconde figure, comme un seul côté AB est à son homologue FG.
 
 [Margin]
 F. 129.
 [/Margin]
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2°. Puisque les triangles ABC, FGH, sont semblables, on a* ABC : FGH :: A̅C̅² : F̅H̅² ; de même les triangles ACD, FHI, étant semblables, on a ACD : FHI :: A̅C̅² : F̅H̅² ; donc, à cause du rapport commun A̅C̅² : F̅H̅², on a
 

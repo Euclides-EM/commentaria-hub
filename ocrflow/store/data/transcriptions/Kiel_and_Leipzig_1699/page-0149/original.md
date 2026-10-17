@@ -12,11 +12,7 @@ Wenn der Strich nicht inwendig / sondern außwendig solte zu stehen kommen /
 
 So ziehe man aus dem Mittel-Düpffel a
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Die beeden Striche ah und ag.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Deßgleichen nach dem außwerts fallenden Strich hfg den Strich af.
 

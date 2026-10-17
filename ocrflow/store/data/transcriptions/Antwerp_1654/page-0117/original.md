@@ -13,7 +13,7 @@ d Per coroll. 5.p.32.l.1.
 Fig.20.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
+[Curated heading level=5 type=numbered_corollaries: 1.]
 
 1. {dropcap:H|lines=2|style=plain}Inc rurſum patet contactum rectæ lineæ & circularis eſſe punctualem.
 
@@ -21,15 +21,15 @@ Fig.20.
 Fig.17.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
+[Curated heading level=5 type=numbered_corollaries: 2.]
 
 2. Si centris in eadem lineâ rectâ in infinitum protractâ acceptis deſcribantur per B infiniti circuli tam minores primo B S C, quam maiores; omnes tangent, rectam I F in eodem vno puncto B.
 
-[Curated heading level=4 type=numbered_item: 3.]
+[Curated heading level=5 type=numbered_corollaries: 3.]
 
 3. Circuli igitur in amplitudinem quâcunque datâ maiorem excreſcentes, propiùs ſemper ac propiùs in infinitum tangenti appropinquant, nunquam tamen ei præterquam in vnico contactus puncto, coniunguntur: quod quamuis euidentiſſimum ſit, eſt tamen reuera admirabile.
 
-[Curated heading level=4 type=numbered_item: 4.]
+[Curated heading level=5 type=numbered_corollaries: 4.]
 
 4. Ex his manifeſtum eſt, lineam quamcunque in infinitum eſſe diuiſibilem. Du-
 

@@ -2,8 +2,6 @@
 
 <!-- Page number: 317 -->
 
-[Curated heading level=2 type=definitions: Ex Zamberto. Apotomarum Diffinitiones.]
-
 ## Ex Zamberto. Apotomarum Diffinitiones.
 
 1 Siquidem tota expositæ rationali longitudine cōmensurabilis fuerit, appellatur apotome prima. 2 Si uero congruens commensurabilis fuerit, longitudine expositæ rationali, secunda appellatur apotome. 3 Si autem neutra commensurabilis fuerit expositæ rationali longitudine, tertia appellatur apotome. 4 Si quidem tota commensurabilis fuerit expositæ rationali longitudine, appellatur apotome quarta. 5 Si uero congruens, quinta. 6 Si autem neutra, sexta.

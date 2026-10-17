@@ -19,9 +19,9 @@ LV.
 
 IE ne dis rien de la diverſe obliquité qu'a la même ligne ſur les deux lignes qui peuvent eſtre reciproquement conſiderées comme ſa perpendiculaire & ſon éloignement du perpendicule, comme k b ſur b c & ſur k c: car cela eſt trop facile à juger par ce qui eſt dit.
 
-[Curated heading level=2 type=propositions: LVI. SEPTIEME THEOREME.]
+[Curated heading level=4 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LVI. SEPTIEME THEOREME.]
+[Curated heading level=4 type=theorems: SEPTIEME THEOREME.]
 
 #### SEPTIEME THEOREME.
 

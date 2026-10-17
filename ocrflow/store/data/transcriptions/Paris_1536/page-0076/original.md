@@ -6,7 +6,7 @@ Cuiuſmodi eſſe videtur figura r/s/t/antecedentis deſcriptionis,ſub rectis l
 
 Ὅμοια τμήματα κύκλου ἐστὶ, τὰ δεχόμενα γωνίας ἴσας, ἢ ἐν οἷς αἱ γωνίαι ἴσαι ἀλλήλαις ἐισίν.
 
-[Curated heading level=2 type=definitions: Similes ſectiones circuli]
+[Curated heading level=4 type=definitions: Similes ſectiones circuli]
 
 Similes ſectiones circuli : ſunt quæ angulos æquos ſuſcipiunt, vel in quibus anguli ſibi inuicem ſunt æquales.
 
@@ -14,19 +14,15 @@ Vti ſubiectæ circuli ſectiones a/b/c/ & d/e/f:in quibus anguli qui ad b/& e,�
 
 [Diagram: b a c / e d f]
 
-[Curated heading level=1 type=propositions: LIBER III.]
+[Curated heading level=3 type=propositions: Problema 1, Propoſitio 1.]
 
-[Curated heading level=1 type=problems: LIBER III.]
+[Curated heading level=3 type=problems: Problema 1, Propoſitio 1.]
 
-[Curated heading level=2 type=propositions: Problema 1, Propoſitio 1.]
-
-[Curated heading level=2 type=problems: Problema 1, Propoſitio 1.]
-
-## Πρόβλημα α, Πρόθεσις α.
+### Πρόβλημα α, Πρόθεσις α.
 
 Τοῦ δοθέντος κύκλου τὸ κέντρον εὑρεῖν.
 
-## Problema 1, Propoſitio 1.
+### Problema 1, Propoſitio 1.
 
 Dati circuli,centrum inuenire.
 
@@ -38,6 +34,6 @@ Demōſtratio ab impoſſibili
 
 [Diagram: a f g b d c e]
 
-### Corollarium.
+#### Corollarium.
 
 Si igitur in circulo recta linea,aliam quandam rectam lineam bifariam,& ad rectos ſecuerit angulos:in ipſa diuidente erit centrum dati circuli.

@@ -35,13 +35,9 @@ Et Polygone, de pluſieurs angles indeterminément.
 
 Ces noms ſont ſi communs, qu'il eſt bon de ne les pas ignorer; mais on peut ſe paſſer d'en ſçavoir d'autres qui ſont moins communs: & appeller les figures du nombre de leurs coſtez ou de leurs angles. Une figure de quinze coſtez, de trente, de cent, de mille &c.
 
-[Curated heading level=1 type=propositions: LIVRE DOVZIEME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=1 type=theorems: LIVRE DOVZIEME.]
-
-[Curated heading level=2 type=propositions: VIII. PREMIER THEOREME.]
-
-[Curated heading level=2 type=theorems: VIII. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 

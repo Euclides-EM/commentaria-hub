@@ -13,11 +13,11 @@ b Patet ex. 1.l.6.
 
 2. Pars. Simili ferè ratiocinio concludetur.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO V.]
+[Curated heading level=2 type=propositions: PROPOSITIO V.]
 
 ## PROPOSITIO V.
 
-[Curated heading level=2 type=figures: Fig. 2]
+[Curated heading level=5 type=figures: Fig. 2]
 
 {dropcap:C|lines=2|style=plain}Irculus eſt æqualis triangulo, cuius baſis eſt peripheria circuli, altitudo autem ſemidiameter.
 

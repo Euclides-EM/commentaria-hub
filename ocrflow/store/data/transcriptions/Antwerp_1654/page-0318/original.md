@@ -1,9 +1,7 @@
 <!-- Running title: Ex Archimede. -->
 <!-- Page number: 283 -->
 
-[Curated heading level=1 type=propositions: Selecta ex Archimede]
-
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO PRIMA.]
+[Curated heading level=2 type=propositions: PROPOSITIO PRIMA.]
 
 ## PROPOSITIO PRIMA.
 

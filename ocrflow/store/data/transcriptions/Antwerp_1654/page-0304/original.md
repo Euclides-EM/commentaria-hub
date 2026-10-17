@@ -3,11 +3,11 @@
 
 rol.1.p.9.l.12.& 25.l.11.eiuſque coroll. De pyramidibus ex hoc, & ex.7.l.12.
 
-[Curated heading level=2 type=propositions: Lib. XII, PROPOSITIO XV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XV.]
 
 ## PROPOSITIO XV.
 
-[Curated heading level=2 type=figures: Fig. 25]
+[Curated heading level=5 type=figures: Fig. 25]
 
 [Margin]
 Fig. 24. & 25.
@@ -21,7 +21,7 @@ Demonſtratur vt P.34.lib.11, ſed pro 32 & 25 iſthic citatis, hic adhibebitur 
 
 {dropcap:C|lines=2|style=plain}Vm nihil attulerit Euclides de ratione compoſita in corporibus, eam breuiter hoc loco demonſtrabimus.
 
-[Curated heading level=4 type=numbered_item: 1.]
+[Curated heading level=5 type=scholium_points: 1.]
 
 1. Cylindrus ad cylindrum, & priſma ad priſma, rationem habent compoſitam ex rationibus baſium & altitudinum.
 

@@ -18,13 +18,7 @@ In circuli enim a b c, positione dati diametro b c assumptum sit datũ signũ d 
 
 Finis Datorum.
 
-[Curated heading level=1 type=theorems: DE LEVI ET PONDEROSO FRAGMENTVM]
-
-[Curated heading level=1 type=definitions: DE LEVI ET PONDEROSO FRAGMENTVM]
-
 # EVCLIDIS DE LEVI ET PONDEROSO FRAGMENTVM.
-
-[Curated heading level=2 type=definitions: Diffinitiones.]
 
 [Margin]
 Diffinitiones.

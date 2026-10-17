@@ -5,7 +5,7 @@
 
 *Scholie.* On peut par la même construction diviser chacune des moitiés AE, EB, en deux parties égales ; ainsi par des sous-divisions successives on divisera un angle ou un arc donné en quatre parties égales, en huit, en seize, etc.
 
-[Curated heading level=2 type=problems: PROBLÊME VI.]
+[Curated heading level=3 type=problems: PROBLÊME VI.]
 
 ### PROBLÊME VI.
 
@@ -23,7 +23,7 @@ Car en joignant AE, on voit que les angles alternes AEF, EAD, sont égaux ; donc
 * 23. 1.
 [/Margin]
 
-[Curated heading level=2 type=problems: PROBLÊME VII.]
+[Curated heading level=3 type=problems: PROBLÊME VII.]
 
 ### PROBLÊME VII.
 
@@ -35,7 +35,7 @@ Fig. 76.
 
 Tirez la ligne indéfinie DEF, faites au point E l’angle DEG = A, et l’angle GEH = B : l’angle restant HEF sera le troisième angle requis ; car ces trois angles pris ensemble valent deux angles droits.
 
-[Curated heading level=2 type=problems: PROBLÊME VIII.]
+[Curated heading level=3 type=problems: PROBLÊME VIII.]
 
 ### PROBLÊME VIII.
 

@@ -3,9 +3,9 @@
 
 ### DU PENTAGONE.
 
-[Curated heading level=2 type=propositions: LIV. THEOREME.]
+[Curated heading level=4 type=propositions: THEOREME.]
 
-[Curated heading level=2 type=theorems: LIV. THEOREME.]
+[Curated heading level=4 type=theorems: THEOREME.]
 
 #### THEOREME.
 

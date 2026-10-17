@@ -6,7 +6,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION V. THEOREME IV.]
 
-[Curated heading level=2 type=theorems: THEOREME IV. PROPOSITION V.]
+[Curated heading level=2 type=theorems: PROPOSITION V. THEOREME IV.]
 
 ## PROPOSITION V. THEOREME IV.
 

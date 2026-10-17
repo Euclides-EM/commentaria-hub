@@ -9,7 +9,7 @@ Que ſi au contraire *b c* eſt oblique ſur *z*, toutes les perpendiculaires de
 
 Mais remarquez que je ne dis pas qu'un point d'*x* ne puiſſe eſtre auſſy diſtant de *z* qu'un point de *z* eſt diſtant d'*x*, mais ſeulement que tous les points d'*x* ſont inégalement diſtans de *z*, & tous les points de *z* inégalement diſtans d'*x*.
 
-[Curated heading level=2 type=lemmas: XII. HUITIEME LEMME.]
+[Curated heading level=2 type=lemmas: HUITIEME LEMME.]
 
 ## HUITIEME LEMME.
 

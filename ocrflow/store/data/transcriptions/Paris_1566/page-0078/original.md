@@ -13,7 +13,7 @@ Quoniam Theon & Campanus hanc demonſtrare conati ſunt, aut hi à quibus demon�
 
 [Curated heading level=2 type=propositions: Propoſitio vigeſimaquinta.]
 
-[Curated heading level=2 type=problems: Propoſitio vigeſimaquinta. Problema 3.]
+[Curated heading level=2 type=problems: Problema 3.]
 
 ## Propoſitio vigeſimaquinta.
 

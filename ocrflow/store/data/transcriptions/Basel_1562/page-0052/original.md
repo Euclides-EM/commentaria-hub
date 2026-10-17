@@ -1,7 +1,7 @@
 <!-- Running title: Propoſition/oder Schlußreden. -->
 <!-- Page number: 31 -->
 
-### Erklärung.
+#### Erklärung.
 
 Diſem thůn alſo /
 
@@ -17,7 +17,7 @@ Zum exempel ſey der fürgebnen rechtliniſch winckel / wie er daneben verzaichn
 
 ¶ Demonſt. Das zůbeweiſen / biß ingedenckh der 38 vnd 41 propoſ. zeüch ain linj von dem ſpitz des fürgebnen triangels auß den halben tail baſis / wie du in der figur ſichſt / die linj b d mit tüpfflin angezaigt / ſo wirtt ſollicher triangel / in zwen triangel zertailt / welche ainander gleich ſeind / vermög der 38 prop. Es iſt auch das parallelogram zweymal ſo groß als diſer triangel ainer iſt / wie das die 41 prop. bezeüget. Volgt das baide ſolliche triangel / dz iſt der gantz fürgeben triangell dem parallelogram gleich iſt / hab ich wöllen demonſtriern. Volgen andere exempel mitt zalen erklärt. Im erſten / iſt der winckel (auch mit o bezaichnet) verkert oder verſetzt / iſt von mir mit fleiß gemacht / dem nachgedencke zůſcherpffen / in betrachtung der parallel linien aigenschafft / ⁊c. Im andern / ſol der fürgenomen winckel / rechteckig ſein / des triangels ſeitten 9. 9. 12. des parallelograms 6. √45. magſtu probiern.
 
-### Anhang.
+#### Anhang.
 
 [Ornament]
 

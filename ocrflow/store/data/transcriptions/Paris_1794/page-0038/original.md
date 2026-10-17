@@ -1,9 +1,9 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 10 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION VI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VI.]
+[Curated heading level=2 type=theorems: PROPOSITION VI.]
 
 ## PROPOSITION VI.
 
@@ -23,9 +23,9 @@ En effet ces triangles peuvent être posés l’un sur l’autre de manière qu�
 
 *Corollaire.* Donc, de ce que trois choses sont égales dans deux triangles, savoir, l’angle A=D, AB=DE, AC=DF, on peut conclure que les trois autres le sont, savoir, l’angle B=E, l’angle C=F, et le côté BC=EF.
 
-[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+[Curated heading level=2 type=theorems: PROPOSITION VII.]
 
 ## PROPOSITION VII.
 

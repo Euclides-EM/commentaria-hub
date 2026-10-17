@@ -25,13 +25,9 @@ Et nous y en ajoûterons une 4ᵉ, qui ſera du paralleliſme des lignes circula
 DES CORDES.
 [/Subhead]
 
-[Curated heading level=1 type=propositions: LIVRE SEPTIEME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=1 type=theorems: LIVRE SEPTIEME.]
-
-[Curated heading level=2 type=propositions: II. PREMIER THEOREME.]
-
-[Curated heading level=2 type=theorems: II. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 

@@ -1,9 +1,7 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 210 -->
 
-[Curated heading level=4: Corollaire.]
-
-[Curated heading level=5 type=numbered_item: 1.]
+[Curated heading level=4: Corollaire I.]
 
 *Corollaire I.* Tout arc DM mené d’un point de l’arc de grand cercle AMB à son pole est un quart de circonférence. Nous l’appellerons, pour abréger, un *quadrans*, et ce *quadrans* fait en même temps un angle droit avec l’arc AM. Car la ligne DC étant perpendiculaire au plan AMC, tout plan DMC qui passe par la ligne DC est perpendiculaire au plan AMC* ; donc l’angle AMD est un angle droit.
 
@@ -11,11 +9,11 @@
 * 17. 5.
 [/Margin]
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Pour trouver le pole d’un arc donné AM, menez l’arc indéfini MD perpendiculaire à AM, prenez MD égal à un *quadrans*, et le point D sera un des poles de l’arc AM ; ou bien menez aux deux points A et M les arcs AD et MD perpendiculaires à AM, le point de concours D de ces deux arcs sera le pole demandé.
 
-[Curated heading level=5 type=numbered_item: 3.]
+[Curated heading level=4: Corollaire III.]
 
 *Corollaire III.* Réciproquement si la distance du point D à chacun des points A et M est égale à un *quadrans*, je dis que le point D sera le pole de l’arc AM, et qu’en même temps les angles DAM, AMD, seront droits.
 

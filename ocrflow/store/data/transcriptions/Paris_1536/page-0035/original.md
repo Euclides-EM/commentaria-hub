@@ -6,15 +6,15 @@ Recta ergo c/h/consistens super datã rectam lineã a/b,æquales vtrobiq; facit 
 Cum [illegible] recta linea super rectam consistens lineam [illegible]
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 6, Propositio 13.]
+[Curated heading level=3 type=propositions: Theorema 6, Propositio 13.]
 
-[Curated heading level=2 type=theorems: Theorema 6, Propositio 13.]
+[Curated heading level=3 type=theorems: Theorema 6, Propositio 13.]
 
-## Θεώρημα ς, Πρόθεσις ιγ.
+### Θεώρημα ς, Πρόθεσις ιγ.
 
 Ὡς ἂν εὐθεῖα ἐπ' εὐθεῖαν σταθεῖσα γωνίας ποιῇ, ἤτοι δύο ὀρθὰς,ἢ δυσὶν ὀρθαῖς ἴσας ποιήσει.
 
-## Theorema 6, Propositio 13.
+### Theorema 6, Propositio 13.
 
 CVm recta linea super rectam consistens lineã angulos fecerit: aut duos rectos,aut duobus rectis æquales efficiet.
 
@@ -24,15 +24,15 @@ ORONTIVS. ¶Incidat inquàm a/b/recta,super rectam c/d,efficiens angulos a/b/c/&
 
 [Diagram: abc. / ebc. abc. abc. / ebd. ebd. abd.]
 
-[Curated heading level=2 type=propositions: Theorema 7, Propositio 14.]
+[Curated heading level=3 type=propositions: Theorema 7, Propositio 14.]
 
-[Curated heading level=2 type=theorems: Theorema 7, Propositio 14.]
+[Curated heading level=3 type=theorems: Theorema 7, Propositio 14.]
 
-## Θεώρημα ζ, Πρόθεσις ιδ.
+### Θεώρημα ζ, Πρόθεσις ιδ.
 
 Ἐὰν πρός τινι εὐθείᾳ καὶ τῷ πρὸς αὐτῇ σημείῳ, δύο εὐθεῖαι μὴ ἐπὶ τὰ αὐτὰ μέρη κείμεναι, τὰς ἐφεξῆς γωνίας δυσὶν ὀρθαῖς ἴσας ποιῶσιν,ἐπ' εὐθείας ἔσονται ἀλλήλαις αἱ εὐθεῖαι.
 
-## Theorema 7, Propositio 14.
+### Theorema 7, Propositio 14.
 
 SI ad aliquam rectam lineam, atque ad eius punctum,duæ rectæ lineæ non ad easdem partes ductæ, vtrobique duobus rectis angulos æquales fecerint: ipsæ in directum rectæ lineæ adinuicem erunt.
 

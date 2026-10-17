@@ -9,11 +9,11 @@ Donc la meſure des deux eſt cet arc convexe.
 
 Donc oſtant cet arc convexe de la demycirconference, ce qui reſtera ſera la meſure de l'angle *k* circonſcrit au cercle: ce qu'il falloit demonſtrer.
 
-#### SECONDE DEMONSTRATION.
+##### SECONDE DEMONSTRATION.
 
 Par la demonſtration generale l'angle *k* a pour meſure la moitié de l'arc concave moins la moitié de l'arc convexe. Or ces deux arcs comprennent toute la circonference. Donc par le 3ᵉ Lemme la moitié de toute la circonference moins l'arc convexe entier, eſt la meſme choſe que la moitié de l'arc concave moins la moitié du convexe.
 
-### PREMIER COROLLAIRE.
+#### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LIII.]
 
@@ -25,7 +25,7 @@ Deux angles circonſcripts ſont égaux quand ils ſont appuyez ſur des arcs co
 
 Car de 180 degrez qui en oſte un nombre égal, ce qui reſte eſt égal, & plus le nombre qu'on en oſte eſt petit, plus ce qui reſte eſt grand. Donc, &c.
 
-### SECOND COROLLAIRE.
+#### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LIV.]
 
@@ -39,7 +39,7 @@ Si un angle circonſcript eſt appuyé ſur un arc convexe qui ſoit ſoûtenu p
 
 Car oſtant cet arc de la demycirconference, ce qui reſtera ſera la meſure du circonſcript par 52. s̃. & de l'inſcript par 20. s̃.
 
-### TROISIEME COROLLAIRE.
+#### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: LV.]
 

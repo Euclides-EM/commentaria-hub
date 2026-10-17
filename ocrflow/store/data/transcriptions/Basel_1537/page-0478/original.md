@@ -22,8 +22,6 @@ CORRELARIVM. Ex his ergo euenire necesse est, ut ex medietate lateris cubi in bi
 
 FINIS.
 
-[Curated heading level=1 type=theorems: Liber de regularium corporum proportione, decimusquartus]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENtorum, deputatus liber de regularium corporum proportione, traditore Hypsicle Alexandrino, ac Bartholomæo Zamberto Veneto interprete, qui in ordine est decimusquartus.
 
 ## Prooemium.

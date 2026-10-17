@@ -30,7 +30,7 @@ QVOD ſi pars imperata, nempe tertia, ſimpliciter ſit auferenda, fiet id breui
 
 [Figure: a triangle labelled A and a parallelogram with vertices labelled G, F, B, E and D]
 
-[Curated heading level=4 type=numbered_item: II.]
+[Curated heading level=4: II]
 
 [Margin]
 II.

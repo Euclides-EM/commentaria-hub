@@ -18,6 +18,7 @@ interface MultiSelectDropdownProps<T> {
   bulkActionLabel?: string
   showBulkActions?: boolean
   getItemColor?: (item: T) => string | undefined
+  roundItemColor?: boolean
   showSeparatorBeforeItem?: (item: T) => boolean
   minWidth?: string
   disabled?: boolean
@@ -32,6 +33,7 @@ export function MultiSelectDropdown<T>({
   getPickerLabel,
   getItemKey,
   getItemColor,
+  roundItemColor = false,
   bulkActionItems,
   bulkActionLabel,
   showBulkActions = true,
@@ -239,7 +241,7 @@ export function MultiSelectDropdown<T>({
                       />
                       {getItemColor && (
                         <span
-                          className="inline-block w-3 h-3 rounded-sm shrink-0 border border-black/10"
+                          className={`inline-block w-3 h-3 ${roundItemColor ? 'rounded-full' : 'rounded-sm'} shrink-0 border border-black/10`}
                           style={{ backgroundColor: getItemColor(item) }}
                         />
                       )}

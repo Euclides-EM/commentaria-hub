@@ -15,11 +15,11 @@ Pars 2.in trigono C A B , quia anguli O, & G,iam oſtenſi ſunt æquales, erunt
 h Per 6.l.1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO XV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XV.]
 
 ## PROPOSITIO XV.
 
-[Curated heading level=2 type=figures: Fig. 13]
+[Curated heading level=5 type=figures: Fig. 13]
 
 {dropcap:I|lines=2|style=plain}*N dato circulo Hexagonum ordinatum deſcribere.*
 

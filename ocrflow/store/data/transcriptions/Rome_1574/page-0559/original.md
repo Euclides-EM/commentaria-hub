@@ -2,7 +2,7 @@
 
 ptus fuerit centies, millies, aut vicies, &c. genitique fuerint hi numeri 45600. 456000. 9120. &c. Itaque numerus aliquis dicetur produci, gigni, procreariue ex duobus numeris, quando altero alterum multiplicante, productus fuerit. Vt numerus 63. gigni dicitur ex his numeris 7. 9. quia procreatur ex multiplicatione numeri 7. in numerum 9. vel e contrario. Et ſic de reliquis.
 
-[Curated heading level=2 type=definitions: XVI.]
+[Curated heading level=3 type=definitions: XVI.]
 
 ### XVI.
 

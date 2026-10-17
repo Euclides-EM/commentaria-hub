@@ -4,15 +4,15 @@
 
 sententiam. & proinde c/m, & m/l, l/d, sunt quoque adinuicem æquales. Aequales porrò ad eandem, vel æquales, eandem habent rationem, & eadem ad æquales: per septimam huius quinti. Est igitur vt a/h/ad c/m, sic h/k/ad m/l, & k/b/ad l/d. Proportionales igitur sunt ipsæ a/h, h/k, & k/b, ipsis c/m, & m/l, l/d. Et sicut igitur vna antecedentium ad vnam consequentium, sic omnes antecedentes ad omnes consequentes, per duodecimam ipsius quinti. Ergo sicut a/h/ad c/m, sic tota a/b/ad totam c/d. æqualis porrò est a/h/ipsi e, & c/m/ipsi f. Et sicut igitur pars e/ad partē f, sic a/b/ multiplex ad c/d/multiplicem. Partes itaq̄; eodem modo multipliciū, eandem rationem habent sumptæ adinuicem. Quod ostendendum fuerat.
 
-[Curated heading level=2 type=propositions: Theorema 16, Propositio 16.]
+[Curated heading level=3 type=propositions: Theorema 16, Propositio 16.]
 
-[Curated heading level=2 type=theorems: Theorema 16, Propositio 16.]
+[Curated heading level=3 type=theorems: Theorema 16, Propositio 16.]
 
-## Θεώρημα ις, Πρόθεσις ις.
+### Θεώρημα ις, Πρόθεσις ις.
 
 EΑν τέσσαρα μεγέθη ἀνάλογον ᾖ, καὶ ἐναλλὰξ ἀνάλογον ἔσαι.
 
-## Theorema 16, Propositio 16.
+### Theorema 16, Propositio 16.
 
 SI quatuor magnitudines proportionales fuerint: & permutatim proportionales erunt.
 
@@ -28,15 +28,15 @@ modo multiplicium, eandem rationem habent sumptæ adinuicem, per antecedentem de
 
 Quatuor itaq̄; magnitudines e,f,g,h, sunt inuicem proportionales: habétque prima e/ad secundam f/eam rationem, quam tertia g/ad quartā h. Si prima igitur e, fuerit maior tertia g: & secūda f, ipsa h/quarta maior erit: etsi æqualis, æqualis: etsi minor, minor, per decimamquartā eiusdem quinti. Atqui e/& f, ipsarum a/& b, hoc est primæ & tertiæ magnitudinis (de illationis ordine velim intelligas) sunt æquè multiplices: g/autem & h, secundæ & quartæ, vtpote ipsarum c/& d/ æquè rursum multiplices. Est igitur per sextam huius quinti diffinitionem, vt prima a/ad secundam c, sic tertia b, ad quartā d. Si quatuor igitur magnitudines proportionales fuerint: & permutatim seu vicissim proportionales erunt. Quod erat demonstrandum.
 
-[Curated heading level=2 type=propositions: Theorema 17, Propositio 17.]
+[Curated heading level=3 type=propositions: Theorema 17, Propositio 17.]
 
-[Curated heading level=2 type=theorems: Theorema 17, Propositio 17.]
+[Curated heading level=3 type=theorems: Theorema 17, Propositio 17.]
 
-## Θεώρημα ιζ, Πρόθεσις ιζ.
+### Θεώρημα ιζ, Πρόθεσις ιζ.
 
 EΑν συγκείμενα μεγέθη ἀνάλογον ᾖ, καὶ διαιρεθέντα ἀνάλογον ἔσαι.
 
-## Theorema 17, Propositio 17.
+### Theorema 17, Propositio 17.
 
 SI cōpositæ magnitudines proportionales fuerint: diuisæ quoque proportionales erunt.
 

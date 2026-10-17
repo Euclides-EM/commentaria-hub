@@ -2,14 +2,14 @@
 
 vnumquodque latus ipſius quadrati f/g/h/k, circunferentiam dati a/b/c/d/ circuli. Igitur per ſextam huius quarti diffinitionẽ, circa datum circulum a/b/c/d, quadratũ deſcribitur f/g/h/k. Quod faciendum receperamus.
 
-[Curated heading level=2 type=propositions: Problema 8, Propoſitio 8.]
+[Curated heading level=3 type=propositions: Problema 8, Propoſitio 8.]
 
-[Curated heading level=2 type=problems: Problema 8, Propoſitio 8.]
+[Curated heading level=3 type=problems: Problema 8, Propoſitio 8.]
 
-## Πρόβλημα η, Πρόθεσις η.
+### Πρόβλημα η, Πρόθεσις η.
 Εἰς τὸ δοθὲν τετράγωνον, κύκλον ἐγγράψαι.
 
-## Problema 8, Propoſitio 8.
+### Problema 8, Propoſitio 8.
 
 IN dato quadrato, circulum deſcribere.
 
@@ -25,14 +25,14 @@ Centri inſcribẽdi circuli inueſtigatio.
 Abſolutio pblematis.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Problema 9, Propoſitio 9.]
+[Curated heading level=3 type=propositions: Problema 9, Propoſitio 9.]
 
-[Curated heading level=2 type=problems: Problema 9, Propoſitio 9.]
+[Curated heading level=3 type=problems: Problema 9, Propoſitio 9.]
 
-## Πρόβλημα θ, Πρόθεσις θ.
+### Πρόβλημα θ, Πρόθεσις θ.
 Περὶ τὸ δοθὲν τετράγωνον, κύκλον περιγράψαι.
 
-## Problema 9, Propoſitio 9.
+### Problema 9, Propoſitio 9.
 
 CIrca datum quadratum, circulum deſcribere.
 

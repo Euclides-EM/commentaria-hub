@@ -4,9 +4,9 @@
 
 wird/eben so groß seyn/ als das Viereck der beeden Stücke bl, ld des andern Striches. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXXVI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXVI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 30. Beweiß-Stück. Der XXXVI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 30. Beweiß-Stück.]
 
 ## Der XXXVI. Vortrag.
 

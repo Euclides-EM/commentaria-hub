@@ -1,7 +1,7 @@
 <!-- Running title: Deß erſten bůchs Euclidis -->
 <!-- Page number: 28 -->
 
-### Rechnung der Triangel /
+#### Rechnung der Triangel /
 
 [Subhead]
 vorgeſetzter figuren.

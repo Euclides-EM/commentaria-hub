@@ -2,9 +2,9 @@
 
 <!-- Page number: 113 -->
 
-[Curated heading level=2 type=propositions: Der X. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der X. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 10. Beweiß-Stück. Der X. Vortrag.]
+[Curated heading level=2 type=theorems: Das 10. Beweiß-Stück.]
 
 ## Der X. Vortrag.
 
@@ -28,39 +28,21 @@ Wenn ein gerader Strich in zweene gleiche Theile geschnitten / und hernach ein a
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auff den Düttel c werde ein Senckstrich ce gesetzte n. 11. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Also daß der Senckstrich ce | ca | cb n. 2. I.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Werde durch d gegen ce ein Nebenstrich fd gezogen.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Und verlänget zu g,
 
-[Curated heading level=4 type=numbered_item: 5.]
-
 5. Damit dg | db sey.
-
-[Curated heading level=4 type=numbered_item: 6.]
 
 6. sey df | ce.
 
-[Curated heading level=4 type=numbered_item: 7.]
-
 7. Es werde gezogen aus g durch b biß e der Strich ge,
 
-[Curated heading level=4 type=numbered_item: 8.]
-
 8. Desgleichen auch ea,
-
-[Curated heading level=4 type=numbered_item: 9.]
 
 9. Und ag.
 

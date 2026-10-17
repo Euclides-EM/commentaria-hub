@@ -1,7 +1,7 @@
 <!-- Page number: 64 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=2 type=lemmas: X. HUITIEME LEMME.]
+[Curated heading level=2 type=lemmas: HUITIEME LEMME.]
 
 ## HUITIEME LEMME.
 
@@ -23,13 +23,9 @@ Et quand on le multiplieroit 2 , 3 & 4 fois par l'unité , ce ſeroit toûjours 
 
 Cette obſervation ſera de grand uſage dans les Theoremes ſuivans.
 
-[Curated heading level=1 type=propositions: LIVRE QVATRIEME.]
+[Curated heading level=2 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=1 type=theorems: LIVRE QVATRIEME.]
-
-[Curated heading level=2 type=propositions: XI. PREMIER THEOREME.]
-
-[Curated heading level=2 type=theorems: XI. PREMIER THEOREME.]
+[Curated heading level=2 type=theorems: PREMIER THEOREME.]
 
 ## PREMIER THEOREME.
 

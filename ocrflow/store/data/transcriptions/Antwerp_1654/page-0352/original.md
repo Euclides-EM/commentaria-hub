@@ -15,7 +15,7 @@ b Per axio. 3.huius.
 c Defin.6. L.12.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXI.]
 
 ## PROPOSITIO XXI.
 

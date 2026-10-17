@@ -12,7 +12,7 @@ ut BD, ad FH, ita rectangulum ſub AB, BC, ad rectangulum ſub EF, FG. Ductis en
 11. quinti.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: VI.]
+[Curated heading level=4: VI]
 
 [Margin]
 VI.

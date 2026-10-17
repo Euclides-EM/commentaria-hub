@@ -5,9 +5,9 @@ côté AC en une circonférence entière ACE, ce qui reste en retranchant de la 
 
 Au reste si on a exclus de la définition les triangles dont les côtés et les angles sont si grands, c’est que leur résolution ou la détermination de leurs parties se réduit toujours à celle des triangles renfermés dans la définition. En effet on voit aisément que si on connoît les angles et les côtés du triangle ABC, on connoîtra immédiatement les angles et les côtés du triangle qui est le reste de la demi-sphère.
 
-[Curated heading level=2 type=propositions: PROPOSITION XX. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XX.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XX.]
+[Curated heading level=2 type=theorems: PROPOSITION XX.]
 
 ## PROPOSITION XX.
 

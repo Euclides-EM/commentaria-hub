@@ -17,9 +17,9 @@ Dw. der Strich ce der vierte ebenmässige Strich.
 
 Ist also zu den drey gegebenen Strichen AB, AC, AD der vierte ebenmässige Strich ce gefunden. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XIII. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XIII. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 5. Werck-Stück. Der XIII. Vortrag.]
+[Curated heading level=2 type=problems: Das 5. Werck-Stück.]
 
 ## Der XIII. Vortrag.
 
@@ -40,8 +40,6 @@ Zu zweyen gegebenen geraden Strichen einen mitlern ebenmässigen (mediam proport
 [Diagram: Striche A—D und C—D; darunter ein Halbkreis über der Grundlinie a d g e mit Scheitelpunkt b und Strichen von a und e nach b]
 
 ### Wirckung.
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. Werde gezogen der Strich ae.
 

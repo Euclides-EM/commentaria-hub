@@ -2,7 +2,7 @@
 
 [Curated heading level=2 type=propositions: Propoſitio trigeſima.]
 
-[Curated heading level=2 type=problems: Propoſitio trigeſima. Problema 10.]
+[Curated heading level=2 type=problems: Problema 10.]
 
 ## Propoſitio trigeſima.
 

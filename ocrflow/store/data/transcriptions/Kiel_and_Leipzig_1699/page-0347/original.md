@@ -15,19 +15,11 @@ Der sechste Theil ec des Striches ac.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus einem der beyden Endcüttele des Striches ac werde der Strich af nach Nothdurfft gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auf diesen Strich af werden aus a ordentlich nacheinander sechs gleiche Theile gesetzet n. 3. I.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Aus dem Düttel b, wo der letzte Sechste Theil sich endet/ werde biß c ein gerader Strich bc gezogen.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Aus dem Düttel d, wo das letzte Sechste Theil anfänget/ wird biß an den Strich ac gegen bc ein gerader Nebenstrich de gezogen. n. 31. I.
 

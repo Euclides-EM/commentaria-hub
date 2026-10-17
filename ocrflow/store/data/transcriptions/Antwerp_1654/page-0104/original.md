@@ -6,17 +6,13 @@
 
 ## DEFINITIONES.
 
-[Curated heading level=1 type=definitions: Liber III]
-
-[Curated heading level=2 type=definitions: Lib. III, Def. 1]
+[Curated heading level=4 type=definitions: 1.]
 
 1. {dropcap:C|lines=2|style=plain}Irculi æquales ſunt, quorum diametri ſeu ſemidiametri ſunt æquales.
 
-[Curated heading level=2 type=definitions: Lib. III, Def. 2]
+[Curated heading level=4 type=definitions: 2.]
 
-[Curated heading level=1 type=figures: Liber III]
-
-[Curated heading level=2 type=figures: Fig. 10]
+[Curated heading level=5 type=figures: Fig. 10]
 
 2. Recta (F B) circulum tangere dicitur, quæ circulo ſic occurrit (in B) vt tamen producta circulum non ſecet.
 
@@ -24,9 +20,9 @@
 Fig. 10. li. 3.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. III, Def. 3]
+[Curated heading level=4 type=definitions: 3.]
 
-[Curated heading level=2 type=figures: Fig. 13 & 14]
+[Curated heading level=5 type=figures: Fig. 13 & 14]
 
 3. Circuli tangere ſe dicuntur, cum ſibi ſic occurrunt, vt tamen non ſecent.
 
@@ -34,9 +30,9 @@ Fig. 10. li. 3.
 Fig. 13. & 14.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. III, Def. 4]
+[Curated heading level=4 type=definitions: 4.]
 
-[Curated heading level=2 type=figures: Fig. 18]
+[Curated heading level=5 type=figures: Fig. 18]
 
 4. In circulo æqualiter à centro (A) diſtare dicuntur rectæ (B C, F L) cum perpendiculares (A I, A O) quæ ex centro in ipſas ducuntur, ſunt æquales.
 
@@ -44,9 +40,9 @@ Fig. 13. & 14.
 Fig. 18.
 [/Margin]
 
-[Curated heading level=2 type=definitions: Lib. III, Def. 5]
+[Curated heading level=4 type=definitions: 5.]
 
-[Curated heading level=2 type=figures: Fig. 37]
+[Curated heading level=5 type=figures: Fig. 37]
 
 5. Segmenta, ſeu portiones circuli ſunt
 

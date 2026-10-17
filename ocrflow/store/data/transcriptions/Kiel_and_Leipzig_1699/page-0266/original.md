@@ -6,9 +6,9 @@
 
 Wenn derowegen aus vier Grössen die I. zu der II. in solcher Verhältnüß / wie die III. zu der IV. stehet; Und die V. zu der I. sich also wie die VI. zu der III. und auch die VII. zu der II. wie die IIX. zu der IV. sich verhält: So wird auch die V. zu der VII. also wie die VI. zu der IIX. sich verhalten. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der V. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der V. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 5. Beweiß-Stück. Der V. Vortrag.]
+[Curated heading level=2 type=theorems: Das 5. Beweiß-Stück.]
 
 ## Der V. Vortrag.
 

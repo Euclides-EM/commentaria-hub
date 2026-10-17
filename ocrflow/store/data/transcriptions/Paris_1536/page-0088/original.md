@@ -22,19 +22,19 @@ Tertia pars de angulo cōtingentiæ.
 
 ¶Dico tandem, q angulus b/a/d/ipsius a/b/c/semicirculi, omni acuto & rectilineo angulo maior est: reliquus autem (vtpote, b/a/e) minor. Cùm enim angulus e/a/d/sit rectus, & diuisus à sola circunferentia a/b, inter quam & rectam a/e/non cadit altera recta linea (vti nunc ostensum est) non potest ipse angulus b/a/e/bipartiri: & proinde non minuetur neq; augebitur consequēter ipse b/a/d. Igitur angulus b/a/d, sub a/b/circunferētia, & a/d/recta comprehensus, omni acuto rectilineo maior est angulo: b/a/e/ verò, qui sub eadem circunferentia, & a/e/ recta continetur (quem angulum contingētiæ nominare consueuimus) omni itidem acuto & rectilineo angulo minor est. Quæ omnia fuere demonstranda.
 
-### Corollarium.
+#### Corollarium.
 
 ¶Quæ igitur ab extremitate dimetientis dati circuli, ad rectos ducitur angulos, ipsum circulū tangit, idq́; in vno tantummodo puncto: ad duo enim puncta adplicata recta linea, per secundam huius tertij, cadit intra datum circulum.
 
-[Curated heading level=2 type=propositions: Problema 2, Propositio 17.]
+[Curated heading level=3 type=propositions: Problema 2, Propositio 17.]
 
-[Curated heading level=2 type=problems: Problema 2, Propositio 17.]
+[Curated heading level=3 type=problems: Problema 2, Propositio 17.]
 
-## Πρόβλημα β, Πρόθεσις ιζ.
+### Πρόβλημα β, Πρόθεσις ιζ.
 
 Απὸ δοθέντος σημείου, τοῦ δοθέντος κύκλου ἐφαπτομένην εὐθεῖαν γραμμὴν ἀγαγεῖν.
 
-## Problema 2, Propositio 17.
+### Problema 2, Propositio 17.
 
 A Dato puncto, dato circulo, contingentē rectā lineam ducere.
 

@@ -51,9 +51,9 @@ TOUT ce qui a eſté dit de la raiſon des rectangles par la comparaiſon de leu
 
 ## DES TRIANGLES EQUIANGLES OU SEMBLABLES.
 
-[Curated heading level=2 type=propositions: XXVII. PREMIER THEOREME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVII. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 

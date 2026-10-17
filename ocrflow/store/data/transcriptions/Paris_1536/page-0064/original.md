@@ -3,15 +3,15 @@
 vnà cum quadrato quod ex d/c, æquum est gnomoni g/a/l,atque ipsi quadrato h/f.
 Ipsis demum g/a/l/gnomoni & quadrato h/f, æquum est a/c/e/f,quod à dimidia a/c/descriptum est quadratum.Rectangulum igitur comprehēsum sub a/d/ & d/b/ inæqualibus sectionibus,vnà cum quadrato quod à medio sectionū d/c, æquum est ei quod ex a/b/dimidia fit quadrato. Si recta igitur linea,& quæ sequūtur reliqua: vt in theoremate.Quod ostendendum susceperamus.
 
-[Curated heading level=2 type=propositions: Theorema 6, Propositio 6.]
+[Curated heading level=3 type=propositions: Theorema 6, Propositio 6.]
 
-[Curated heading level=2 type=theorems: Theorema 6, Propositio 6.]
+[Curated heading level=3 type=theorems: Theorema 6, Propositio 6.]
 
-## Θεώρημα ς, Πρόθεσις ς.
+### Θεώρημα ς, Πρόθεσις ς.
 
 Εὰν εὐθεῖα γραμμὴ τμηθῇ δίχα,προστεθῇ δέ τις αὐτῇ εὐθεῖα ἐπ' εὐθείας,τὸ ἀπὸ τῆς ὅλης σὺν τῇ προσκειμένῃ,καὶ τῆς προσκειμένης περιεχόμενον ὀρθογώνιον,μετὰ τοῦ ἀπὸ τῆς ἡμισείας τετραγώνου,ἴσον ἐστὶ τῷ ἀπὸ τῆς συγκειμένης ἔκ τε τῆς ἡμισείας καὶ τῆς προσκειμένης ὡς ἀπὸ μιᾶς ἀναγραφέντι τετραγώνῳ.
 
-## Theorema 6, Propositio 6.
+### Theorema 6, Propositio 6.
 
 SI recta linea bifariam secetur,adijciatúrque ei aliqua recta linea in rectum:rectangulum comprehensum sub tota cum apposita & apposita,vnà cum quadrato quod fit à dimidia, æquum est ei quod ex coniecta ex dimidia & apposita, tāquàm ex vna descripto quadrato.
 

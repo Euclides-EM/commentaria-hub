@@ -5,7 +5,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XIV. PROBLEME II.]
 
-[Curated heading level=2 type=problems: PROBLEME II. PROPOSITION XIV.]
+[Curated heading level=2 type=problems: PROPOSITION XIV. PROBLEME II.]
 
 ## PROPOSITION XIV. PROBLEME II.
 

@@ -3,7 +3,7 @@
 
 dont la difference eſt moindre avec cette troiſiéme grandeur, a une plus grande raiſon à cette grandeur, que celle dont la difference eſt plus grande. Car on ne peut pas douter alors que la raiſon de celle dont la difference eſt moindre, n’approche plus de l’égalité. Cela eſt tres clair.
 
-[Curated heading level=2 type=axioms: XXXIX. SECOND AXIOME.]
+[Curated heading level=3 type=axioms: SECOND AXIOME.]
 
 ### SECOND AXIOME.
 
@@ -15,11 +15,9 @@ XXXIX.
 
 Deux raiſons eſtant égales à deux raiſons inégales chacune à chacune, celle qui eſt égale à la plus grande, eſt plus grande que celle qui eſt égale à la plus petite. Cela eſt encore évident.
 
-[Curated heading level=1 type=problems: LIVRE TROISIEME.]
+[Curated heading level=3 type=propositions: PROBLEME.]
 
-[Curated heading level=2 type=propositions: XL. PROBLEME.]
-
-[Curated heading level=2 type=problems: XL. PROBLEME.]
+[Curated heading level=3 type=problems: PROBLEME.]
 
 ### PROBLEME.
 

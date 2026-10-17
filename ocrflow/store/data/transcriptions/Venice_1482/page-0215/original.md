@@ -18,11 +18,9 @@
 hic finit [unclear: libre ellemẽtoꝝ] euclidis
 [/Handwritten]
 
-[Curated heading level=1 type=propositions: LIBER XII]
+[Curated heading level=1: LIBER XII]
 
 [Curated heading level=2 type=propositions: Propoſitio .1.]
-
-[Curated heading level=1: LIBER XII]
 
 ## Propoſitio .1.
 

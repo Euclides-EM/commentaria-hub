@@ -3,7 +3,7 @@
 
 modum demonſtratis efficiemus propoſitionem hanc 10. Euclidis magis vniuerſalem, hoc modo.
 
-[Curated heading level=4 type=numbered_item: III.]
+[Curated heading level=4: III]
 
 [Margin]
 III.

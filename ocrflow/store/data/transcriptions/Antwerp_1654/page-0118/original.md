@@ -7,7 +7,7 @@ catur enim ab aliquo diametri puncto ad tangentem recta A Q. Infiniti circuli ce
 Fig.20.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 5.]
+[Curated heading level=5 type=numbered_corollaries: 5.]
 
 5. Angulum contingentiæ ſeu contactus L B Q (eum nempe qui tangente & peripheriâ continetur ) nulla recta linea poteſt diuidere.
 
@@ -15,7 +15,7 @@ Fig.20.
 Fig.17.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 6.]
+[Curated heading level=5 type=numbered_corollaries: 6.]
 
 6. Per circumferentias tamen in eodem puncto tangentes ſecari poteſt ac minui in infinitum. Atque in hoc & tertio corollario latet totum myſterium aſymptoticum, hoc eſt lineæ rectæ ad Hyperbolam vnà ſecum in infinitum productam, accedentis ad interuallum quocunque dato minus, nunquam tamen concurrentis: quod præclarè obſeruauit & demonſtrauit Marius Bettinus noſter in Apiarijs, & ante illum Barocius atque Cardanus ex Rabbi Moyſe Narbonenſi, cuius demonſtrationem refert Cardanus de ſubtilitate lib.16.
 

@@ -25,9 +25,9 @@
 
 Sind derowegen allezeit die beyden/ auf denen beyden/ den rechten Winckel begreiffenden Seiten stehende/ und einander ähnliche Gestalte/ derjenigen Gestalt/ welche auch diesen beyden Gestalten ähnlich/ und auf der dem rechten Winckel übergespanneten Seite stehet/ gleichmässig. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXXII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 22. Beweiß-Stück. Der XXXII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 22. Beweiß-Stück.]
 
 ## Der XXXII. Vortrag.
 

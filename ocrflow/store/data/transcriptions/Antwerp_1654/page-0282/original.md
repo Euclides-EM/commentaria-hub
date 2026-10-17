@@ -13,7 +13,7 @@ ABC. Æ. CAB.
 
 *Eodem modo oſtendes primum tertiò, & tertium ſecundo eſſe æqualia,*
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XXXVII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXVII.]
 
 ## PROPOSITIO XXXVII.
 

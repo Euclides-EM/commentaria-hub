@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE V. -->
 <!-- Page number: 155 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XIX. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIX.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIX.]
+[Curated heading level=2 type=theorems: PROPOSITION XIX.]
 
 ## PROPOSITION XIX.
 
@@ -17,9 +17,9 @@ F. 194.
 
 Car si par le point P on éleve une perpendiculaire au plan MN, cette perpendiculaire doit se trouver à la fois dans le plan AB et dans le plan AD ; donc elle est leur intersection commune AP.
 
-[Curated heading level=2 type=propositions: PROPOSITION XX. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XX.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XX.]
+[Curated heading level=2 type=theorems: PROPOSITION XX.]
 
 ## PROPOSITION XX.
 

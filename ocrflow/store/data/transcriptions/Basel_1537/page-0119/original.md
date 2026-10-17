@@ -4,6 +4,8 @@
 
 mutata, & in isto modo arguendi sit antecedens secundæ proportionis, consequens primæ, & consequens primæ, antecedens secundæ.
 
+[Curated heading level=3 type=definitions: Coniuncta uero proportionalitas]
+
 [Curated heading level=3 type=campanus_sequence: 13.]
 
 [Margin]
@@ -15,6 +17,8 @@ Coniuncta uero proportionalitas dicitur, quoties sicut antecedens cū consequent
 CAMPANVS. Diffinit coniunctam, disiunctam, & euersam, in quibus etiam nihil extra sumitur, sed termini non manent in ipsis ijdem secundum substantiam, & uult quod si ita fuerit ut sit a ad b, sicut c ad d, & ego ex hoc cōcludam ergo totius a b ad b sicut totius c d ad d, quod iste modus arguendi dicatur proportionalitas coniuncta.
 
 [Diagram: at right, two horizontal lines each divided by a tick, the upper labelled a and b, the lower labelled c and d]
+
+[Curated heading level=3 type=definitions: Disiuncta uero proportionalitas]
 
 [Curated heading level=3 type=campanus_sequence: 14.]
 
@@ -28,6 +32,8 @@ CAMPANVS. Vult quod si fuerit proportio totius a b ad b sicut totius c d ad d, &
 
 [Diagram: at right, two horizontal lines each divided by a tick, the upper labelled a and b, the lower labelled c and d]
 
+[Curated heading level=3 type=definitions: Euersa proportionalitas]
+
 [Curated heading level=3 type=campanus_sequence: 15.]
 
 [Margin]
@@ -39,6 +45,8 @@ Euersa proportionalitas, dicitur quorumlibet antecedentiū ad augmēta sui supra
 CAMPANVS. Vult quod si fuerit a b ad b, sicut c d ad d, & ex hoc ego cōcludam ergo a b ad a sicut c d ad c, quod iste modus arguendi dicatur euersa proportionalitas.
 
 [Diagram: at right, two horizontal lines each divided by a tick, the upper labelled a and b, the lower labelled c and d]
+
+[Curated heading level=3 type=definitions: Aequa proportionalitas]
 
 [Curated heading level=3 type=campanus_sequence: 16.]
 

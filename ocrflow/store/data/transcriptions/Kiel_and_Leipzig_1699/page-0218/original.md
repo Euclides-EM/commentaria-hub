@@ -15,23 +15,19 @@ und ad | Rührstrich n. 16. III. u. 2. Besch. III.
 
 Wird also allezeit der auff den Kreyß khdg stossende/und aus a gezogene Strich ad, wenn desselben gleichseitiges Viereck eben so groß ist/ als das rechtwincklichte Viereck / welches von dem gantzen schneidenden Strich ah, und dem zwischen dem Düttel a und äussern Kreyßkrümme stehenden Stück ag begriffen wird/ein Rührstrich seyn. W. Z. B.
 
-[Curated heading level=1 type=propositions: Das IV. Buch]
-
 # Das IV. Buch Euclidis.
 
 ## Beschreibungen.
 
-[Curated heading level=1 type=definitions: Das IV. Buch]
-
-[Curated heading level=2 type=definitions: Beschreibung I.]
+[Curated heading level=3 type=definitions: I.]
 
 I. Diejenige geradstrichichte Gestalt wird einer andern geradstrichichten Gestalt eingeschrieben genennet / welche mit ihren Ecken aller derselben Gestalt/ welcher sie einverleibet ist/ Seiten berühret.
 
-[Curated heading level=2 type=definitions: Beschreibung II.]
+[Curated heading level=3 type=definitions: II.]
 
 II. Gleicherweise wird eine einer andern Gestalt umbschriebene Gestalt genennet / welche mit ihren Seiten alle derselben Gestalt/ so sie ümbgiebt/ Ecken berühret.
 
-[Curated heading level=2 type=definitions: Beschreibung III.]
+[Curated heading level=3 type=definitions: III.]
 
 III. Eine geradstrichichte Gestalt wird einem Kreyß eingeschrieben genennet / wenn sie mit ihren Ecken den Umbkreyß oder Umbfang berühret.
 

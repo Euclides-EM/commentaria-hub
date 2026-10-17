@@ -2,8 +2,6 @@
 
 <!-- Page number: 35. -->
 
-[Curated heading level=1 type=definitions: LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLI]
-
 # LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLI
 
 [Subhead]
@@ -23,10 +21,6 @@ des Megarenſe philoſopho, Griego.
 ### Que ſea gnomon,
 
 ¶Cada vno de aquellos parallelográmos de todo parallelográmo que eſtá en la diagonal ſuya:cõ los dos ſupplemẽtos ſe llama gnomõ
-
-[Curated heading level=1 type=propositions: LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLI]
-
-[Curated heading level=1 type=theorems: LIBRO SEGVNDO DE LOS ELEMENTOS DE EVCLI]
 
 [Curated heading level=2 type=propositions: Theorema. 1. Propoſicion. 1.]
 

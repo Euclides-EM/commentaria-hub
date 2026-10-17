@@ -8,15 +8,15 @@ vigesimamprimam huius tertij:sunt enim in eodem segmẽto b/a/d/c. Angulo rursum
 
 [Diagram: b c a d]
 
-[Curated heading level=2 type=propositions: Theorema 21, Propositio 23.]
+[Curated heading level=3 type=propositions: Theorema 21, Propositio 23.]
 
-[Curated heading level=2 type=theorems: Theorema 21, Propositio 23.]
+[Curated heading level=3 type=theorems: Theorema 21, Propositio 23.]
 
-## Θεώρημα κα, Πρόθεσις κγ.
+### Θεώρημα κα, Πρόθεσις κγ.
 
 Επὶ τῆς ἀυτῆς ἐυθείασ' δύο τμήματα κύκλωρ ὅμοια καὶ ἄνισα, ὀυ συσαθήσονται ἐπὶ τὰ ἀυτὰ μέρη.
 
-## Theorema 21, Propositio 23.
+### Theorema 21, Propositio 23.
 
 SVper eadem recta linea, duæ sectiones circulorum similes, & inæquales non constituentur ad easdem partes.
 
@@ -24,15 +24,15 @@ ORONTIVS. ¶Super eadem nanque recta linea a/c, binæ & inæquales circulorum se
 
 [Diagram: a b d c]
 
-[Curated heading level=2 type=propositions: Theorema 22, Propositio 24.]
+[Curated heading level=3 type=propositions: Theorema 22, Propositio 24.]
 
-[Curated heading level=2 type=theorems: Theorema 22, Propositio 24.]
+[Curated heading level=3 type=theorems: Theorema 22, Propositio 24.]
 
-## Θεώρημα κβ, Πρόθεσις κδ.
+### Θεώρημα κβ, Πρόθεσις κδ.
 
 Τὰ ἐπὶ ἴσωρ ἐυθειῶρ ὅμοια τμήματα κύκλωρ, ἴσα ἀλλήλοις ἐσίρ
 
-## Theorema 22, Propositio 24.
+### Theorema 22, Propositio 24.
 
 SVper æqualibus rectis lineis similes circulorum sectiones constitutæ, sibi inuicem sunt æquales.
 

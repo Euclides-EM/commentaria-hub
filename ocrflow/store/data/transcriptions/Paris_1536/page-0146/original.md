@@ -4,7 +4,7 @@
 
 decimamsextā huius quinti. Fit igitur vt sicut a/b/ad a/e, sic c/d/ad e/f: atq̄; rursum velut idem a/b/ad e/b, sic idem c/d/ad f/d.
 
-### Corollarium.
+#### Corollarium.
 
 ¶Et proinde cóuersio rationis, hoc est, acceptio antecedētis ad excessum quo antecedens ipsum excedit consequens, fit manifesta.
 
@@ -12,15 +12,15 @@ decimamsextā huius quinti. Fit igitur vt sicut a/b/ad a/e, sic c/d/ad e/f: atq�
 Conuersio rationis.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 20, Propositio 20.]
+[Curated heading level=3 type=propositions: Theorema 20, Propositio 20.]
 
-[Curated heading level=2 type=theorems: Theorema 20, Propositio 20.]
+[Curated heading level=3 type=theorems: Theorema 20, Propositio 20.]
 
-## Θεώρημα κ, Πρόθεσις κ.
+### Θεώρημα κ, Πρόθεσις κ.
 
 EΑν ᾖ τρία μεγέθη, καὶ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα, καὶ ἐν τῷ αὐτῷ λόγῳ, δι' ἴσου δὲ τὸ πρῶτον τοῦ τρίτου μεῖζον ᾖ, καὶ τὸ τέταρτον τοῦ ἕκτου μεῖζον ἔσαι, κἂν ἴσον, ἴσον, κἂν ἔλασσον, ἔλασσον.
 
-## Theorema 20, Propositio 20.
+### Theorema 20, Propositio 20.
 
 SI fuerint tres magnitudines, & aliæ eisdem æquales numero, binatim sumptæ, & in eadem ratione, ex æquali autem prima tertia maior fuerit: & quarta sexta maior erit: etsi æqualis, æqualis: etsi minor, minor.
 
@@ -44,14 +44,14 @@ Secūda differentia.
 Tertia differentia.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 21, Propositio 21.]
+[Curated heading level=3 type=propositions: Theorema 21, Propositio 21.]
 
-[Curated heading level=2 type=theorems: Theorema 21, Propositio 21.]
+[Curated heading level=3 type=theorems: Theorema 21, Propositio 21.]
 
-## Θεώρημα κα, Πρόθεσις κα.
+### Θεώρημα κα, Πρόθεσις κα.
 
 EΑν ᾖ τρία μεγέθη, καὶ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα, καὶ ἐν τῷ αὐτῷ λόγῳ, ᾖ δὲ τεταραγμένη αὐτῶν ἡ ἀναλογία, δι' ἴσου δὲ τὸ πρῶτον τοῦ τρίτου μεῖζον ᾖ, καὶ τὸ τέταρτον τοῦ ἕκτου μεῖζον ἔσαι: κἂν ἴσον, ἴσον, κἂν ἔλασσον, ἔλασσον.
 
-## Theorema 21, Propositio 21.
+### Theorema 21, Propositio 21.
 
 SI fuerint tres magnitudines, & aliæ eisdem æquales numero, bintim sumptæ, & in eadem ratione, fuerit autem perturbata

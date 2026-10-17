@@ -11,9 +11,9 @@ Dans l'hypotheſe du precedent Theoreme, lorſque des deux coſtez ſuppoſez é
 
 Car alors dans l'un & dans l'autre angle c d b eſt neceſſairement aigu, par 8. s̄.
 
-[Curated heading level=2 type=propositions: XX. CINQUIEME THEOREME.]
+[Curated heading level=4 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XX. CINQUIEME THEOREME.]
+[Curated heading level=4 type=theorems: CINQUIEME THEOREME.]
 
 #### CINQUIEME THEOREME.
 
@@ -25,7 +25,7 @@ XX.
 
 Deux triangles équiangles entr'eux ſont ſemblables. C'eſtadire que les coſtez de l'un ſont proportionnels aux coſtez de l'autre. C'eſt ce qui a eſté prouvé en diverſes manieres dans les deux livres des Proportionnelles. Voyez X. 18.
 
-[Curated heading level=2 type=definitions: XXI. AVERTISSEMENT ET DEFINITION.]
+[Curated heading level=4 type=definitions: AVERTISSEMENT ET DEFINITION.]
 
 #### AVERTISSEMENT ET DEFINITION.
 

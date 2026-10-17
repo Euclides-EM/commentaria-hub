@@ -11,7 +11,7 @@ Similiter ſi abſcindere à data AB ordinatam incertam velimus, ſecetur AG, pe
 
 [Curated heading level=2 type=propositions: Propoſitio decima.]
 
-[Curated heading level=2 type=problems: Propoſitio decima. Problema 2.]
+[Curated heading level=2 type=problems: Problema 2.]
 
 ## Propoſitio decima.
 
@@ -31,7 +31,7 @@ Hinc fit datam rectam lineam in datarum rectarum ratione, ſecare. Nam coniungan
 
 [Curated heading level=2 type=propositions: Propoſitio vndecima.]
 
-[Curated heading level=2 type=problems: Propoſitio vndecima. Problema 3.]
+[Curated heading level=2 type=problems: Problema 3.]
 
 ## Propoſitio vndecima.
 
@@ -47,7 +47,7 @@ Sint binæ rectæ AB AG ad angulum A diſpoſitæ, quæ producantur in rectum ad
 
 [Curated heading level=2 type=propositions: Propoſitio duodecima.]
 
-[Curated heading level=2 type=problems: Propoſitio duodecima. Problema 4.]
+[Curated heading level=2 type=problems: Problema 4.]
 
 ## Propoſitio duodecima.
 

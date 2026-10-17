@@ -22,9 +22,9 @@ k f. k d : : k g. k c.
 T.  p : :  T.  p.
 [/Calculation]
 
-[Curated heading level=2 type=propositions: XLIX. QUATRIEME THEOREME, COROLLAIRE DU SECOND.]
+[Curated heading level=5 type=propositions: QUATRIEME THEOREME, COROLLAIRE DU SECOND.]
 
-[Curated heading level=2 type=theorems: XLIX. QUATRIEME THEOREME, COROLLAIRE DU SECOND.]
+[Curated heading level=5 type=theorems: QUATRIEME THEOREME, COROLLAIRE DU SECOND.]
 
 ##### QUATRIEME THEOREME, COROLLAIRE DU SECOND.
 

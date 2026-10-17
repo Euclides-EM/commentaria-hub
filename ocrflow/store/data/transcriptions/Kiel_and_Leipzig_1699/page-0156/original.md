@@ -16,12 +16,8 @@
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde auff den [unclear: Düttel] a gesetzet ein ∠ ael ⋀ [unclear: aeb]
 n. 23. I.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werden aus dem Mittel-Düpffel e gezogen ek,
 eg, eh, ei, el, und al.

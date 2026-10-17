@@ -3,13 +3,13 @@
 
 roient la circonférence aux points A, B, C, etc. ; on joindroit ensuite ces points par les cordes AB, DC, etc. qui formeroient le polygone inscrit. On pourroit aussi, dans le même cas, joindre tout simplement les points de contact T, N, P, etc., par les cordes TN, NP, etc., ce qui formeroit également un polygone inscrit semblable au circonscrit.
 
-[Curated heading level=5 type=numbered_item: 2.]
+[Curated heading level=4: Corollaire II.]
 
 *Corollaire II.* Donc on peut circonscrire à un cercle donné tous les polygones réguliers qu’on sait y inscrire, et réciproquement.
 
-[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+[Curated heading level=2 type=theorems: PROPOSITION VII.]
 
 ## PROPOSITION VII.
 

@@ -11,13 +11,13 @@
 35 : 31⅔  ;   55   :   57
 [/Calculation]
 
-[Curated heading level=2 type=definitions: DEFINITION VIII.]
+[Curated heading level=3 type=definitions: VIII.]
 
 ### VIII.
 
 La proportion eſt une ſimilitude des raiſons. (*Voyez* Def. V §. 5 & 6).
 
-[Curated heading level=2 type=definitions: DEFINITION IX.]
+[Curated heading level=3 type=definitions: IX.]
 
 ### IX.
 

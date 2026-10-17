@@ -1,9 +1,9 @@
 <!-- Page number: 90 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XXXI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXXI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXXI.]
+[Curated heading level=2 type=theorems: PROPOSITION XXXI.]
 
 ## PROPOSITION XXXI.
 
@@ -35,9 +35,9 @@ Le triangle BAD est semblable au triangle EAC; car, par hypothèse, l’angle BA
 
 BA×AC=AD²+BD×DC.
 
-[Curated heading level=2 type=propositions: PROPOSITION XXXII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XXXII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XXXII.]
+[Curated heading level=2 type=theorems: PROPOSITION XXXII.]
 
 ## PROPOSITION XXXII.
 

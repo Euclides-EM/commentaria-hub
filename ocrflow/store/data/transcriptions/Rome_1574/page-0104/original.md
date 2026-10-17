@@ -5,7 +5,7 @@ rum, vel angulorum, declarat prius ſpecies prioris diuiſionis, quæ tres ſunt
 
 [Figure: equilateral triangle]
 
-[Curated heading level=2 type=definitions: XXIIII.]
+[Curated heading level=3 type=definitions: XXIIII.]
 
 ### XXIIII.
 
@@ -17,7 +17,7 @@ EX hac rurſum æqualitate duorum laterum trianguli Iſoſcelis efficitur, duos 
 
 [Figure: two isosceles triangles, the first with a longer base, the second with a shorter base]
 
-[Curated heading level=2 type=definitions: XXV.]
+[Curated heading level=3 type=definitions: XXV.]
 
 ### XXV.
 

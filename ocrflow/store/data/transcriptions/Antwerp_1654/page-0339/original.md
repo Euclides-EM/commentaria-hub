@@ -5,11 +5,11 @@
 
 {dropcap:S|lines=2|style=plain}Vperficies cylindri habentis latus diametro baſis æquale, baſeos quadrupla eſt. Si verò latus fuerit quarta pars diametri baſeos, ſuperficies cylindri, baſi æqualis erit. Vtrumque ex propoſitione manifeſtum eſt.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIII.]
 
 ## PROPOSITIO XIII.
 
-[Curated heading level=2 type=figures: Fig. 9]
+[Curated heading level=5 type=figures: Fig. 9]
 
 {dropcap:C|lines=3|style=plain}Irculus, cuius radius (O L) eſt medius proportionalis inter coni recti latus (B C) & baſis radium (A C,) æqualis eſt ſuperficiei conicæ.
 

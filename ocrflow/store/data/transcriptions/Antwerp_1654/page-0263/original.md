@@ -11,11 +11,11 @@ a Per præc.
 
 {dropcap:P|lines=2|style=plain}Racticè per datum punctum perpendicularis ducitur dato plano, ſi norma O K N ad datum punctum applicetur.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIII.]
 
 ## PROPOSITIO XIII.
 
-[Curated heading level=2 type=figures: Fig. 20]
+[Curated heading level=5 type=figures: Fig. 20]
 
 {dropcap:L|lines=2|style=plain}Ineæ ex eodem puncto ductæ (D C, E C) nequeunt ambæ ad idem planum (A B) eße rectæ.
 
@@ -25,11 +25,11 @@ Fig.20.
 
 Alias enim per 6 forent parallelæ, Quod fieri non poteſt.
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XIV.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIV.]
 
 ## PROPOSITIO XIV.
 
-[Curated heading level=2 type=figures: Fig. 21]
+[Curated heading level=5 type=figures: Fig. 21]
 
 {dropcap:S|lines=2|style=plain}I eadem recta (A B) ad duo plana (F G, L Q) perpendicularis eſt, plana erunt parallela.
 

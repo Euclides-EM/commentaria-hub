@@ -25,9 +25,9 @@ XXXVIII.
 
 INSCRIRE en un cercle donné une figure de 12 coſtez, de 24, de 48. Et ainſy à l'infini. 1re Regle generale.
 
-[Curated heading level=2 type=propositions: XXXIX. TROISIEME PROBLEME.]
+[Curated heading level=4 type=propositions: TROISIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XXXIX. TROISIEME PROBLEME.]
+[Curated heading level=4 type=problems: TROISIEME PROBLEME.]
 
 #### TROISIEME PROBLEME.
 
@@ -63,9 +63,9 @@ XLI.
 
 INSCRIRE en un cercle donné une figure de 20 coſtez, de 40, de 80 : & ainſy à l'infini. 1re Regle generale.
 
-[Curated heading level=2 type=propositions: XLII. QUATRIEME PROBLEME.]
+[Curated heading level=4 type=propositions: QUATRIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XLII. QUATRIEME PROBLEME.]
+[Curated heading level=4 type=problems: QUATRIEME PROBLEME.]
 
 #### QUATRIEME PROBLEME.
 

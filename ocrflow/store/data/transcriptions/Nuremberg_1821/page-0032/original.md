@@ -12,8 +12,6 @@ Von der größern zweier gegebenen Linien, einen Theil abzuſchneiden, welcher d
 
 Auflöſung und Beweis. Siehe die Uiberſetzungen von Lorenz oder von Bärmann.
 
-[Curated heading level=1 type=theorems: Erſtes Buch der Elemente]
-
 [Curated heading level=2 type=propositions: N. 4 Fünfter Satz. Lehrſatz.]
 
 [Curated heading level=2 type=theorems: N. 4 Fünfter Satz. Lehrſatz.]

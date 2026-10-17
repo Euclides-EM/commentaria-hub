@@ -12,11 +12,7 @@ Des Striches zween gleich Theile AC | CB.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auff den gegebenen Strich AB wird ein gleichseitiges oder gleichschenckliches △ gemacht/ nach 1. Vortr.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Dieses △es Winckel D wird in zween gleiche theile getheilet/ nach 9. Vortr.
 

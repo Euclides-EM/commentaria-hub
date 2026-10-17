@@ -3,7 +3,7 @@
 
 (per 41 huius) quia ſimiliter triangulum Z B G & quadratum A Z ſuper eadem ſunt baſi Z B, & in eiſdem parallelis Z B I G, duplum eſt (per eandem) A Z ipſius Z B G. Igitur B L parallelogrammum & Z D quadratum, æqualium triangulorum A B D Z B G duplicia, adinuicem erunt æqualia. Simili argumento oſtendemus reliquum quadratum A G K T, rectangulo G L æquum eſſe. Bina igitur A B Z I & A G K T quadrata, toti B G E D erunt æqualia: & proinde quadratum quod fit ex B G æquum eſt eis quæ fiunt ex A B A G lateribus. In triangulis itaque rectangulis quadratum quod à latere, &c.
 
-[Curated heading level=2 type=propositions: Propoſitio quadrageſimaoctaua.]
+[Curated heading level=3 type=propositions: Propoſitio quadrageſimaoctaua.]
 
 ### Propoſitio quadrageſimaoctaua.
 

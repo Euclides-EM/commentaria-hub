@@ -3,7 +3,7 @@
 
 [Curated heading level=2 type=propositions: Propoſitio decimaquarta.]
 
-[Curated heading level=2 type=problems: Propoſitio decimaquarta. Problema 3.]
+[Curated heading level=2 type=problems: Problema 3.]
 
 ## Propoſitio decimaquarta.
 
@@ -19,7 +19,7 @@ Eſto propoſita recta (hoc eſt cuius quantitas ſit certa ſeu determinata, pe
 
 [Curated heading level=2 type=propositions: Propoſitio decimaquinta.]
 
-[Curated heading level=2 type=problems: Propoſitio decimaquinta. Problema 4.]
+[Curated heading level=2 type=problems: Problema 4.]
 
 ## Propoſitio decimaquinta.
 

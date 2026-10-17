@@ -13,7 +13,7 @@ Il ne seroit pas difficile de présenter cette démonstration sous une forme pur
 
 Ce théorême qu’Euler a démontré le premier dans les Mémoires de Pétersbourg, année 1758, offre plusieurs conséquences qui méritent d’être développées.
 
-[Curated heading level=3 type=numbered_item: 1.]
+[Curated heading level=3: 1°.]
 
 1°. Soit *a* le nombre des triangles, *b* le nombre des quadrilatères, *c* le nombre des pentagones, etc. qui composent la surface d’un polyèdre ; le nombre total des faces sera *a* + *b* + *c* + *d* +, etc., et le nombre total de leurs côtés sera 3*a* + 4*b* + 5*c* + 6*d* +, etc. Ce dernier nombre est double de celui des arêtes, puisque la même arête appartient à deux faces ; ainsi on aura
 

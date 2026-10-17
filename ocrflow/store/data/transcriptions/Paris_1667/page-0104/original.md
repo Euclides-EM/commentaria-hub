@@ -9,9 +9,9 @@ Mais il faut remarquer qu'il n'en faut oſter qu'autant de l'un que de l'autre. 
 bbc.    bfg  ::  bc.  fg.
 [/Calculation]
 
-[Curated heading level=2 type=propositions: XII. SECOND THEOREME.]
+[Curated heading level=2 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XII. SECOND THEOREME.]
+[Curated heading level=2 type=theorems: SECOND THEOREME.]
 
 ## SECOND THEOREME.
 

@@ -3,7 +3,7 @@
 
 ### XIII.
 
-[Curated heading level=2 type=figures: Fig. 36]
+[Curated heading level=5 type=figures: Fig. 36]
 
 Si dentur quotcumque rationes, A ad B, C ad D, E ad F: Exhibebitur ratio ex omnibus compoſita.
 

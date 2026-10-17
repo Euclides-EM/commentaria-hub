@@ -7,9 +7,9 @@ sera perpendiculaire à chacune des deux droites BC, DE : mais l’angle APD, fo
 
 *Scholie.* Lorsque trois droites telles que AP, BP, DP, sont perpendiculaires entre elles, chacune de ces lignes est perpendiculaire au plan des deux autres, et les trois plans sont perpendiculaires entre eux.
 
-[Curated heading level=2 type=propositions: PROPOSITION XVIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XVIII.]
 
 ## PROPOSITION XVIII.
 

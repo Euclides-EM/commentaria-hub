@@ -5,13 +5,13 @@ inclinatio, quæquidem æqualis exiſtens, æquales denominat angulos, hoſque r
 
 [Diagram: perpendicular vertical and horizontal lines labelled A and B]
 
-[Curated heading level=2 type=definitions: Diffinitio 11.]
+[Curated heading level=3 type=definitions: Diffinitio 11.]
 
 ### Diffinitio 11.
 
 Obtuſus angulus, maior eſt recto.
 
-[Curated heading level=2 type=definitions: Diffinitio 12.]
+[Curated heading level=3 type=definitions: Diffinitio 12.]
 
 ### Diffinitio 12.
 
@@ -21,7 +21,7 @@ Iam oſtendimus linearum inclinationem anguli efficere magnitudinem. Sed cùm in
 
 [Diagram: horizontal line and oblique ray labelled C and D]
 
-[Curated heading level=2 type=definitions: Diffinitio 13.]
+[Curated heading level=3 type=definitions: Diffinitio 13.]
 
 ### Diffinitio 13.
 
@@ -29,7 +29,7 @@ Terminus eſt, quod alicuius eſt extremum.
 
 Quoniam cuiuſuis quantitatis extrema eam concludunt ſuis terminis: dicemus terminos eſſe ea extrema quæ magnitudinem coarctant: quem quidem terminum aliqui finem vocarunt, eò quòd ſuppoſito in oblata magnitudine motu, ab intima parte ad extremas, vbi extremum aliquod eo motu attigimus, ibi huius motus finem reperimus. Sed aptior eius ſubſtantiæ denominatio per extremum nuncupatur, ne in finis & principij differentias incidamus.
 
-[Curated heading level=2 type=definitions: Diffinitio 14.]
+[Curated heading level=3 type=definitions: Diffinitio 14.]
 
 ### Diffinitio 14.
 
@@ -37,7 +37,7 @@ Figura, eſt quæ ſub aliquo vel aliquibus terminis comprehenditur.
 
 Figuram iuxta præcedentem diffinitionem, dicimus eſſe eam, quæ ſub aliquo extremo concluditur, aut equidem ſub pluribus: ſub vno tantùm extremo (hoc eſt vnica tantùm linea) concludimus circulum, coni ſectionem: in ſolidis verò, ſphæram: vnica ſuperficie, ſphæroidem, & huiusmodi plana & ſolida: ſub pluribus verò, ſuperficies pluribus rectis ſiue curuis lineis comprehenſas, ſolida pluribus planis contenta. Quorum omnium termini ſunt, ſcilicet planorum, lineæ, ſolidorum verò ſuperficies. Quia verò ſigna lineam limitantia, nihil quantitatis concludere poſſunt, lineæ ea limites, non terminos eſſe dicemus, cùm infinitæ nihil componere poſſint, nec igitur concludere.
 
-[Curated heading level=2 type=definitions: Diffinitio 15.]
+[Curated heading level=3 type=definitions: Diffinitio 15.]
 
 ### Diffinitio 15.
 
@@ -45,13 +45,13 @@ Circulus, eſt figura plana, vnica linea contenta, quæ circuferentia appellatur
 
 Hac diffinitione circuli nec illum rotundum, nec quidem eius ſignum medium eſſe dicit. Concludit autem neceſſariò ex ea rectarum ab vno interiori ſigno ad ambitum æqualitate, & circunferentiam in rotundum, & ſignum in medium ferri: hunc autem ambitum, circunferentiam denominat, quæquidem ab vno ſigno orta, eouſque figuram circumit, donec vnde orta eſt, redeat.
 
-[Curated heading level=2 type=definitions: Diffinitio 16.]
+[Curated heading level=3 type=definitions: Diffinitio 16.]
 
 ### Diffinitio 16.
 
 Centrum verò circuli, illud ſignum appellatur.
 
-[Curated heading level=2 type=definitions: Diffinitio 17.]
+[Curated heading level=3 type=definitions: Diffinitio 17.]
 
 ### Diffinitio 17.
 

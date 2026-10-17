@@ -11,9 +11,9 @@ u. DE : EF | de : ef
 
 Und ist also abcdef ähnlich der Gestalt ABCDEF n. der 1. Beschr. VI. und auf den gegebenen Strich ab gesetzet n. 2. Wirck. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 13. Beweiß-Stück. Der XIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 13. Beweiß-Stück.]
 
 ## Der XIX. Vortrag.
 

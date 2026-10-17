@@ -7,19 +7,11 @@ OD−CO+AO−OB+BD>CA, et en réduisant AD−CB+BD>CA, ou AD+BD>AC+CB. Or cette 
 
 *Scholie.* Ces deux dernieres propositions sont analogues aux propositions I et III de l’appendice au livre IV ; ainsi on peut en tirer, par rapport aux polygones sphériques, les conséquences qui ont lieu pour les polygones rectilignes. Voici les principales.
 
-[Curated heading level=5 type=numbered_item: 1.]
-
 1°. *De tous les polygones sphériques isopérimetres et d’un même nombre de côtés le plus grand a ses côtés égaux.*
-
-[Curated heading level=5 type=numbered_item: 2.]
 
 2°. *De tous les polygones sphériques formés avec des côtés donnés et un dernier à volonté, le plus grand est celui qu’on peut inscrire dans un demi-cercle dont la corde du côté non déterminé est le diametre.* Il faut pour la possibilité de la solution que la somme des côtés donnés soit moindre qu’une demi-circonférence de grand cercle.
 
-[Curated heading level=5 type=numbered_item: 3.]
-
 3°. *Le plus grand des polygones sphériques formés avec des côtés donnés est celui qu’on peut inscrire dans un cercle de la sphere.*
-
-[Curated heading level=5 type=numbered_item: 4.]
 
 4°. *Le plus grand des polygones sphériques qui ont le même périmetre et le même nombre de côtés est le polygone régulier.*
 

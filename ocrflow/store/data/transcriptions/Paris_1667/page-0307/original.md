@@ -5,9 +5,9 @@ Donc les deux autres angles eſtant égaux chacun à chacun ſeront appuyez ſur
 
 Donc les 3 coſtez de ces deux triangles ſont égaux chacun à chacun auſſy bien que les angles. Donc ils ſont tout-égaux.
 
-[Curated heading level=2 type=propositions: XIX. QUATRIEME THEOREME.]
+[Curated heading level=4 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XIX. QUATRIEME THEOREME.]
+[Curated heading level=4 type=theorems: QUATRIEME THEOREME.]
 
 #### QUATRIEME THEOREME.
 

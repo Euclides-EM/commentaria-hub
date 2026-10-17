@@ -15,7 +15,7 @@ LXXVI.
 
 CE que nous avons dit dans le IV. Livre des grandeurs incommenſurables donne une ſi grande facilité d'expliquer les lignes incommenſurables , qu'il ne faut pour cela qu'ajoûter à ce Livre trois ou quatre propoſitions.
 
-[Curated heading level=2 type=propositions: PROPOSITION GENERALE.]
+[Curated heading level=3 type=propositions: PROPOSITION GENERALE.]
 
 ### PROPOSITION GENERALE.
 

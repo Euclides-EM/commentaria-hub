@@ -20,7 +20,7 @@
 
 [Diagram: rows of dotted lines, one labelled H]
 
-[Curated heading level=4 type=numbered_item: I.]
+[Curated heading level=4: I]
 
 [Margin]
 I.

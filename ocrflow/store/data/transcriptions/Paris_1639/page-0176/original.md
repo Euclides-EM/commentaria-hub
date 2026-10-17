@@ -4,25 +4,25 @@ des costez du circonscrit ABC, & au contraire le triangle ABC est descrit à l'e
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 
 Vne figure rectiligne est dite estre inscrite en vn cercle, quand vn chacun angle de l'inscrite, touche la circonference du cercle.
 
-[Curated heading level=2 type=definitions: DEF. IV.]
+[Curated heading level=3 type=definitions: IV.]
 
 ### IV.
 
 Mais vne figure rectiligne est dite estre descrite à l'entour du cercle, lors que chacun costé de la circonscrite, touche la circonference du cercle.
 
-[Curated heading level=2 type=definitions: DEF. V.]
+[Curated heading level=3 type=definitions: V.]
 
 ### V.
 
 Semblablement le cercle est dit estre inscrit en vne figure rectiligne, lors que la circonference du cercle touche chacun costé de la figure en laquelle il est inscrit.
 
-[Curated heading level=2 type=definitions: DEF. VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 

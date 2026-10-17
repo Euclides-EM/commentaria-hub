@@ -10,7 +10,7 @@ d Per corol. 1 p.14. huius.
 e Per 24. huius.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XLI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XLI.]
 
 ## PROPOSITIO XLI.
 

@@ -33,9 +33,9 @@ Car par le Theoreme precedent les figures ſemblables ſont entr'elles en raiſo
 
 Or les quarrez de ces coſtez homologues ſont auſſy entr'eux en raiſon doublée de ces coſtez qui ſont leurs racines.
 
-[Curated heading level=2 type=propositions: XXXI. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXI. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 

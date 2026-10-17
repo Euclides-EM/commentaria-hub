@@ -1,16 +1,16 @@
 <!-- Page number: 29 -->
 
-[Curated heading level=4 type=cases: Erſter Fall.]
+#### Erſter Fall.
 
-Erſter Fall. Die Spitze D liege in AC oder deren Verlängerung über C, ſo iſt die Seite AD entweder kleiner oder größer als die Seite AC, gegen die Vorausſetzung.
+Die Spitze D liege in AC oder deren Verlängerung über C, ſo iſt die Seite AD entweder kleiner oder größer als die Seite AC, gegen die Vorausſetzung.
 
-[Curated heading level=4 type=cases: Zweiter Fall.]
+#### Zweiter Fall.
 
-Zweiter Fall. Die Spitze D liege auſſerhalb des Dreiecks ACB. Man verbinde die Winkelpunkte C und D mit der geraden Linie CD. Da nun AD=AC, (nach der Annahme,) ſo iſt ADC=ACD, (6 Satz.) und da BCD ein Theil des Winkels ACD, alſo ACD größer als BCD iſt, (9 Grundſ.) ſo iſt auch ADC größer BCD, und da ferner BDC größer als ADC iſt, (9 Grundſ.) ſo iſt auch BDC größer als BCD. Allein es iſt BD=BC, (nach der Annahme,) daher BDB{printer-error-correction:BDC}=BCD, (6 Satz,) welches dem Vorigen widerſpricht.
+Die Spitze D liege auſſerhalb des Dreiecks ACB. Man verbinde die Winkelpunkte C und D mit der geraden Linie CD. Da nun AD=AC, (nach der Annahme,) ſo iſt ADC=ACD, (6 Satz.) und da BCD ein Theil des Winkels ACD, alſo ACD größer als BCD iſt, (9 Grundſ.) ſo iſt auch ADC größer BCD, und da ferner BDC größer als ADC iſt, (9 Grundſ.) ſo iſt auch BDC größer als BCD. Allein es iſt BD=BC, (nach der Annahme,) daher BDB{printer-error-correction:BDC}=BCD, (6 Satz,) welches dem Vorigen widerſpricht.
 
-[Curated heading level=4 type=cases: Dritter Fall.]
+#### Dritter Fall.
 
-Dritter Fall. Die Spitze D liege innerhalb des Dreiecks ACB. Man verlängere AC nach E und AD nach F. Da AD=AC, ſo iſt ECD=FDC. (6 Satz.) Es iſt aber ECD größer als BCD, folglich auch FDC größer als BCD, daher um ſo mehr BDC größer als BCD. Nun iſt aber BD=BC, (nach der Annahme,) alſo BDC=BCD, (6 Satz,) welches dem Vorigen widerſpricht.
+Die Spitze D liege innerhalb des Dreiecks ACB. Man verlängere AC nach E und AD nach F. Da AD=AC, ſo iſt ECD=FDC. (6 Satz.) Es iſt aber ECD größer als BCD, folglich auch FDC größer als BCD, daher um ſo mehr BDC größer als BCD. Nun iſt aber BD=BC, (nach der Annahme,) alſo BDC=BCD, (6 Satz,) welches dem Vorigen widerſpricht.
 
 [Curated heading level=2 type=propositions: N. 8 Neunter Satz. Lehrſatz.]
 

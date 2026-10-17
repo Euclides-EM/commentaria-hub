@@ -3,7 +3,7 @@
 
 Ad praxim tantum opus centris B, C, D, deſcribere tres æquales circulos ſe mutuo interſecantes, & per interſectiones ducere rectas, hæ ſibi occurrentes dabunt centrum quæſitum.
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO VI. & VII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VI. & VII.]
 
 ## PROPOSITIO VI. & VII.
 

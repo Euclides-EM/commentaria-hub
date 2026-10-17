@@ -1,14 +1,6 @@
 <!-- Page number: 53 -->
 
-[Curated heading level=1 type=theorems: GEOMETRICORVM ELEMENTORVM LIBER TERTIVS]
-
-[Curated heading level=1 type=problems: GEOMETRICORVM ELEMENTORVM LIBER TERTIVS]
-
-[Curated heading level=1 type=definitions: GEOMETRICORVM ELEMENTORVM LIBER TERTIVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS{printer-error-correction:TERTIVS}.
-
-[Curated heading level=2 type=definitions: Ex Campano. Diffinitiones.]
 
 ## Ex Campano. Diffinitiones.
 

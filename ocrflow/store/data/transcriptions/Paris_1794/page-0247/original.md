@@ -1,9 +1,9 @@
 <!-- Running title: LIVRE VII. -->
 <!-- Page number: 219 -->
 
-[Curated heading level=2 type=propositions: PROPOSITION XVII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVII.]
+[Curated heading level=2 type=theorems: PROPOSITION XVII.]
 
 ## PROPOSITION XVII.
 
@@ -17,9 +17,9 @@ F. 233.
 
 La démonstration est absolument semblable à celle de la prop. X, liv. I.
 
-[Curated heading level=2 type=propositions: PROPOSITION XVIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XVIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XVIII.]
+[Curated heading level=2 type=theorems: PROPOSITION XVIII.]
 
 ## PROPOSITION XVIII.
 

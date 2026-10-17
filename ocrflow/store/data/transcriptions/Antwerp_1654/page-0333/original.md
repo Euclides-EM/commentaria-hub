@@ -1,7 +1,7 @@
 <!-- Page number: 298 -->
 <!-- Running title: Theoremata ſelecta -->
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO X.]
+[Curated heading level=2 type=propositions: PROPOSITIO X.]
 
 ## PROPOSITIO X.
 

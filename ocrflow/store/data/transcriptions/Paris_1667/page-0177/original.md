@@ -3,7 +3,7 @@
 
 paſſe par le centre, eſt perpendiculaire à la circonference.
 
-[Curated heading level=2 type=lemmas: XXXIX. TROISIEME LEMME.]
+[Curated heading level=3 type=lemmas: TROISIEME LEMME.]
 
 ### TROISIEME LEMME.
 
@@ -17,7 +17,7 @@ La diſtance d'un point à une circonference, ſe meſure par la plus courte lig
 
 Et par conſequent cette ligne eſt perpendiculaire à la circonference par les deux premiers Lemmes.
 
-[Curated heading level=2 type=definitions: XL. DEFINITION]
+[Curated heading level=3 type=definitions: DEFINITION]
 
 ### DEFINITION
 
@@ -35,9 +35,9 @@ Deux circonferences ſont paralleles, lorſque tous les points de chacune ſont 
 
 C'eſtadire ſelon les precedens Lemmes, lorſque toutes les lignes droites, menées chacune des points de l'une perpendiculairement ſur l'autre, ſont égales.
 
-[Curated heading level=2 type=propositions: XLI. PREMIER THEOREME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XLI. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 
@@ -53,9 +53,9 @@ Car tous les rayons de la plus grande circonference ſont perpendiculaires à l'
 
 [Figure: two concentric circles]
 
-[Curated heading level=2 type=propositions: XLII. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XLII. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 

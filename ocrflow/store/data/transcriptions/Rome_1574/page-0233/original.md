@@ -8,7 +8,7 @@ et EF. æqualis rectæ B. Deinde cẽtro E, & interuallo EC, ſemicirculus deſc
 47. primi
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: VI.]
+[Curated heading level=4: VI]
 
 [Margin]
 VI.
@@ -24,7 +24,7 @@ SINT latera quinque quadratorum A, B, C, D, E. oportet igitur inuenire quadratum
 47. primi.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: VII.]
+[Curated heading level=4: VII]
 
 [Margin]
 VII.

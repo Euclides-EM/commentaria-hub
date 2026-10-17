@@ -2,9 +2,9 @@
 
 <!-- Page number: 180 -->
 
-[Curated heading level=2 type=propositions: Der XXXI. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXXI. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 27. Beweiß-Stück. Der XXXI. Vortrag.]
+[Curated heading level=2 type=theorems: Das 27. Beweiß-Stück.]
 
 ## Der XXXI. Vortrag.
 
@@ -25,11 +25,7 @@ cdb ⋀ ∟
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde der Strich bd verlängt biß e.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Der Strahl ad gezogen.
 

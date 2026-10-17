@@ -1,9 +1,3 @@
-[Curated heading level=1 type=propositions: APPENDICE]
-
-[Curated heading level=1 type=definitions: APPENDICE]
-
-[Curated heading level=1 type=postulates: APPENDICE]
-
 # APPENDICE.
 
 [Subhead]

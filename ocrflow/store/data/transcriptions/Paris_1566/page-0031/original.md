@@ -4,7 +4,7 @@ tantùm angulis, Rhombus dicetur, nō variatis lateribus. Quæ verò Alterolongi
 
 [Diagram: four quadrilaterals captioned Quadratum. Alterolongius. Rhombus. Rhomboides.]
 
-[Curated heading level=2 type=definitions: Diffinitio 34.]
+[Curated heading level=3 type=definitions: Diffinitio 34.]
 
 ### Diffinitio 34.
 
@@ -14,7 +14,7 @@ Vltra eas de quibus locuti ſumus, quadrilateras figuras Trapeſia vocat: Ea ſc
 
 [Diagram: two quadrilaterals labelled A and B.]
 
-[Curated heading level=2 type=definitions: Diffinitio 35.]
+[Curated heading level=3 type=definitions: Diffinitio 35.]
 
 ### Diffinitio 35.
 
@@ -22,7 +22,7 @@ Parallelæ, rectæ lineæ ſunt, quæ in eodem exiſtentes plano, & ex vtraque p
 
 Hæc diffinitio notanda propter eius frequentem vſum erit. Sunt itaque parallelæ rectæ lineæ, (quas vocauit Campanus Æquidiſtantes) in eadem plana ſuperficie deſcriptæ vel conceptæ, ea tamen arte, qua ſemper & vbique, inter eas æqualis diſtantia intercipiatur. Perſpicuum igitur erit ſi ſemper æquidiſtent: nunquam eas coniungi, vel concurrere.
 
-[Curated heading level=2 type=definitions: Diffinitio 36.]
+[Curated heading level=3 type=definitions: Diffinitio 36.]
 
 ### Diffinitio 36.
 
@@ -38,9 +38,7 @@ Hanc diffinimus figuram tanquam genus ad trigeſimam & tres eam ſequentes, quas
 ſimplices, à nullis præmiſſis deductæ: quas concedi nobis optamus ad faciliorem artis progreſſum, quæ quidem nullo argumento poteſt mens rationalis denegare.
 [/Subhead]
 
-[Curated heading level=1 type=postulates: DEMONSTRATIONVM EVCLIDIS Liber primus.]
-
-[Curated heading level=2 type=postulates: Poſtulatum primum.]
+[Curated heading level=3 type=postulates: Poſtulatum primum.]
 
 ### Poſtulatum primum.
 
@@ -48,7 +46,7 @@ Hanc diffinimus figuram tanquam genus ad trigeſimam & tres eam ſequentes, quas
 
 Non inconuenit ſenſui vt ab omni ſigno mente concepto (cum aliud non ſit) in omne aliud ſignum, lineam rectam excogitare: quod quidem æque facile reperimus vt ſignum ipſum concipere. Nam lineam aut ſignum, qualis ars depoſcit, ſenſibus proponere non poſſumus percipienda, ſed tantùm concipienda: ea quæ nobis ars tradidit perfecta. Quæ itaque externis exequenda erunt ſenſibus, per artis intelligentiam mente conceptam dirigenda erunt, vt eam quam proxime valeant, imitentur.
 
-[Curated heading level=2 type=postulates: Poſtulatum ſecundum.]
+[Curated heading level=3 type=postulates: Poſtulatum ſecundum.]
 
 ### Poſtulatum ſecundum.
 

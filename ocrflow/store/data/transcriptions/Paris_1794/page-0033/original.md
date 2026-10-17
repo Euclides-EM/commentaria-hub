@@ -19,7 +19,7 @@ Le signe √ indique une racine à extraire ; ainsi √2 est la racine quarrée 
 
 ## AXIOMES.
 
-[Curated heading level=3 type=numbered_item: 1.]
+[Curated heading level=3 type=axioms: 1.]
 
 1. Deux quantités égales à une troisième sont égales entre elles.
 

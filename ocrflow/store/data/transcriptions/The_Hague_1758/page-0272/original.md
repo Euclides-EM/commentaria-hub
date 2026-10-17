@@ -5,7 +5,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XIV. THEOREME IX.]
 
-[Curated heading level=2 type=theorems: THEOREME IX. PROPOSITION XIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XIV. THEOREME IX.]
 
 ## PROPOSITION XIV. *THEOREME IX.*
 

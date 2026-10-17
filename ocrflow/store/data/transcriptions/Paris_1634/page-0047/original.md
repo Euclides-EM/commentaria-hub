@@ -4,7 +4,7 @@ guras rectilineas, quæ pluribus quam quatuor rectis lineis circumscribuntur gen
 
 [Figure: triangle equilateral A]
 
-[Curated heading level=2 type=definitions: XXIII.]
+[Curated heading level=3 type=definitions: XXIII.]
 
 ### XXIII.
 

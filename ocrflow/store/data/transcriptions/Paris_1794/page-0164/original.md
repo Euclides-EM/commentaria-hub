@@ -3,9 +3,9 @@
 
 inscrit ABCDEFG plus grand que le non-inscriptible *abcdefg*.
 
-[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+[Curated heading level=2 type=theorems: PROPOSITION VII.]
 
 ## PROPOSITION VII.
 
@@ -15,11 +15,7 @@ inscrit ABCDEFG plus grand que le non-inscriptible *abcdefg*.
 
 Car, suivant le théorême II, le polygone *maximum* a tous ses côtés égaux ; et, suivant le théorême précédent, il est inscriptible dans le cercle ; donc il est régulier.
 
-[Curated heading level=1 type=lemmas: Appendice au Livre IV]
-
-[Curated heading level=2 type=propositions: PROPOSITION VIII. LEMME.]
-
-[Curated heading level=2 type=lemmas: LEMME. PROPOSITION VIII.]
+[Curated heading level=2 type=propositions: PROPOSITION VIII.]
 
 ## PROPOSITION VIII.
 

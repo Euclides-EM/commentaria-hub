@@ -11,11 +11,11 @@ i Per 8. l.6.
 k Per 16. l.6.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XVII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XVII.]
 
 ## PROPOSITIO XVII.
 
-[Curated heading level=2 type=figures: Fig. 14]
+[Curated heading level=5 type=figures: Fig. 14]
 
 {dropcap:S|lines=2|style=plain}Egmento circuli DAF, cuius baſis DF perpendicularis ſit diametro AOE, inſcribatur figura æquilatera & parilatera, ducaturq́, vt in præcedenti recta EB.
 

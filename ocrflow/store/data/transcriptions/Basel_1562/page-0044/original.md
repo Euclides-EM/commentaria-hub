@@ -7,15 +7,15 @@ halbtail des quadrats a c e f / nach außweiſung der 34 propoſ. Auch der halbt
 
 ¶ Merckh. Es wirt auch durch ain neheren weg gefunden der begriff des triangels ſo ainē rechten winckel hatt / daruon in der 41 härnach / wie auch von ainem andern weg zefinden die weitte ains / weitteeckheten oder ſcharpffeckheten triangels / in dem andern bůch / bei der 12 vnd 13 propoſ / vnd auch bei der 47 diß bůchs.
 
-### Ercklärung gegenwertiger Propoſition mitt zalen.
+#### Ercklärung gegenwertiger Propoſition mitt zalen.
 
 Nim für dich das quadrat a c e f / vnd das parallelogram c e f h. Der quadrats inhalt iſt hundert / dann ſouil thůn 10 mal 10. Nun iſt yetz bewiſen / daß der triangel c e f / 50 innhelt / welcher dan iſt ½ des gemelten parallelograms / demnach daß gantz iſt 100 / vnd alſo dem quadrat gleich.
 
 ¶ Merckh. Darbei merckh / daß waß in diſer vnd volgender prop. von figurn ſo zwiſchen parallel linien ſtehn / geredt iſt von allen figurn ſo ainerlay höchin haben oder gleich hoch ſein / verſtanden mag werden. Dann es iſt ain ding / vnd gleiche höche bringt diſe parallellinien mit ſych / wie auch die parallel linien gleiche höche außweiſen. wollt ich dich manen.
 
-[Curated heading level=2 type=propositions: XXXVI. Die ſechßvnddreyſſigſt Propoſition]
+[Curated heading level=3 type=propositions: XXXVI Die ſechßvnddreyſſigſt Propoſition.]
 
-## XXXVI Die ſechßvnddreyſſigſt Propoſition.
+### XXXVI Die ſechßvnddreyſſigſt Propoſition.
 
 Alle paralleliſch figurn ſo zwiſchen zwayen parallel linien vnd auff gleichen baſibus oder boden ſtehn / ſeind einander gleich.
 

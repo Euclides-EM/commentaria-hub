@@ -8,7 +8,7 @@ Quemadmodùm in a/b/c/d/circulo, cuius centrum e, exiſtētes lineæ rectæ a/b/
 
 Τμῆμα κύκλου,ἐστὶ τὸ περιεχόμενον σχῆμα, ὑπό τε εὐθείας καὶ κύκλου περιφερείας.
 
-[Curated heading level=2 type=definitions: Diffinitio 5.]
+[Curated heading level=4 type=definitions: 5]
 
 5 Sectio circuli:eſt figura comprehēſa ſub recta linea, & circuli circunferentia.
 
@@ -22,7 +22,7 @@ Sectio, maior minor.
 
 Τμήματος δὲ γωνία ἐστὶν,ἡ περιεχομένη ὑπό τε εὐθείας,καὶ κύκλου περιφερείας.
 
-[Curated heading level=2 type=definitions: Diffinitio 6.]
+[Curated heading level=4 type=definitions: 6]
 
 6 Sectionis angulus: eſt qui ſub recta linea,& circuli circunferentia comprehenditur.
 
@@ -34,7 +34,7 @@ Anguli mixti
 
 Ἐν τμήματι δὲ γωνία ἐστὶν,ὅταν ἐπὶ τῆς περιφερείας τοῦ τμήματος,ληφθῇ τι σημεῖον,καὶ ἀπ' αὐτοῦ ἐπὶ τὰ πέρατα τῆς εὐθείας,ἥτις ἐστὶ βάσις τοῦ τμήματος,ἐπιζευχθῶσιν εὐθεῖαι. ἡ περιεχομένη γωνία ὑπὸ τῶν ἐπιζευχθεισῶν εὐθειῶν.
 
-[Curated heading level=2 type=definitions: Diffinitio 7.]
+[Curated heading level=4 type=definitions: 7]
 
 7 In ſectione autē angulus eſt:cùm in circunferentia ſectionis contingit aliquod punctum,& ab eo in rectæ lineæ fines,quæ baſis eſt ſectionis,rectæ lineæ coniunguntur. Contentus autē angulus,ſub coniunctis rectis lineis eſt.
 
@@ -44,7 +44,7 @@ Quemadmodùm ex ſubiectę deſcriptionis angulis g/h/k,& l/m/n,deprehendere lic
 
 Ὅταν δὲ αἱ περιέχουσαι τὴν γωνίαν εὐθεῖαι ἀπολαμβάνωσί τινα περιφέρειαν, ἐπ' ἐκείνης λέγεται βεβηκέναι ἡ γωνία.
 
-[Curated heading level=2 type=definitions: Diffinitio 8.]
+[Curated heading level=4 type=definitions: 8]
 
 8 Cùm verò comprehendentes angulum rectę lineæ,aliquam ſuſcipiunt circunferentiam:in illa angulus eſſe dicitur.
 
@@ -58,6 +58,6 @@ Angulus in cētro.
 
 Τομεὺς δὲ κύκλου ἐστὶν,ὅταν πρὸς τῷ κέντρῳ αὐτοῦ τοῦ κύκλου σταθῇ ἡ γωνία τὸ περιεχόμενον σχῆμα ὑπό τε τὴν γωνίαν περιεχουσῶν εὐθειῶν,καὶ τῆς ἀπολαμβανομένης ὑπ' αὐτῶν περιφερείας.
 
-[Curated heading level=2 type=definitions: Diffinitio 9.]
+[Curated heading level=4 type=definitions: 9]
 
 9 Sector autem circuli:eſt cùm ad centrum circuli ſteterit angulus,

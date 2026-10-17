@@ -4,15 +4,15 @@
 
 ſicut igitur a/d/ad d/e,ſic a/f/ad f/g:ſicútq; d/e/ad e/c,ſic f/g/ad g/b. Data ergo recta linea inſecta a/b,datæ rectæ lineæ vtcunq; ſectæ a/c,ſimiliter ſecatur.Quod faciendum receperamus.
 
-[Curated heading level=2 type=propositions: Problema 3, Propoſitio 11.]
+[Curated heading level=3 type=propositions: Problema 3, Propoſitio 11.]
 
-[Curated heading level=2 type=problems: Problema 3, Propoſitio 11.]
+[Curated heading level=3 type=problems: Problema 3, Propoſitio 11.]
 
-## Πρόβλημα γ, Πρόθεσις ια.
+### Πρόβλημα γ, Πρόθεσις ια.
 
 ΔΥο δοθεισῶν εὐθειῶν,τρίτην ἀνάλογον προσευρεῖν.
 
-## Problema 3, Propoſitio 11.
+### Problema 3, Propoſitio 11.
 
 DVabus datis rectis lineis,tertiam proportionalem inuenire.
 
@@ -28,15 +28,15 @@ Conſtructio figuræ.
 Demōſtratio problematis.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Problema 4, Propoſitio 12.]
+[Curated heading level=3 type=propositions: Problema 4, Propoſitio 12.]
 
-[Curated heading level=2 type=problems: Problema 4, Propoſitio 12.]
+[Curated heading level=3 type=problems: Problema 4, Propoſitio 12.]
 
-## Πρόβλημα δ, Πρόθεσις ιβ.
+### Πρόβλημα δ, Πρόθεσις ιβ.
 
 ΤΡιῶν δοθεισῶν εὐθειῶν,τετάρτην ἀνάλογον προσευρεῖν.
 
-## Problema 4, Propoſitio 12.
+### Problema 4, Propoſitio 12.
 
 TRibus datis rectis lineis, quartam proportionalem inuenire.
 

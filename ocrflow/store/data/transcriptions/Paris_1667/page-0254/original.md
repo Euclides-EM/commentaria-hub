@@ -7,7 +7,7 @@ Et *M* & p ſont également inclinées, *M* dans l'eſpace *A* & p dans l'eſpac
 
 Donc ( par 15. s̄. ) T. *M* :: *M*. p.
 
-[Curated heading level=2 type=propositions: XXI. II. PROPOSITION FONDAMENTALE DES RECIPROQUES.]
+[Curated heading level=2 type=propositions: II. PROPOSITION FONDAMENTALE DES RECIPROQUES.]
 
 ## II. PROPOSITION FONDAMENTALE DES RECIPROQUES.
 

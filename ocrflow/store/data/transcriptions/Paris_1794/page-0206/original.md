@@ -9,9 +9,9 @@ l’angle solide E est égal à l’angle solide F, le côté EH tombera sur son
 
 Mais si du solide AEL on retranche le prisme AEM, il restera le parallélépipede AIL ; et si du même solide AEL on retranche le prisme BFL, il restera le parallélépipede AEG. Donc les deux parallélépipedes AIL, AEG, sont équivalents entre eux.
 
-[Curated heading level=2 type=propositions: PROPOSITION VIII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VIII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VIII.]
+[Curated heading level=2 type=theorems: PROPOSITION VIII.]
 
 ## PROPOSITION VIII.
 

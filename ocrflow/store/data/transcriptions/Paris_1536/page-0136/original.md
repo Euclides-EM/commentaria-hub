@@ -14,15 +14,15 @@ Exemplum in numeris.
 
 Si duæ itaque magnitudines: & quæ sequūtur reliqua. Quod fuerat ostendendum.
 
-[Curated heading level=2 type=propositions: Theorema 7, Propositio 7.]
+[Curated heading level=3 type=propositions: Theorema 7, Propositio 7.]
 
-[Curated heading level=2 type=theorems: Theorema 7, Propositio 7.]
+[Curated heading level=3 type=theorems: Theorema 7, Propositio 7.]
 
-## Θεώρημα ζ, Πρόθεσις ζ.
+### Θεώρημα ζ, Πρόθεσις ζ.
 
 Τὰ ἴσα πρὸς τὸ αὐτὸ τὸν αὐτὸν ἔχει λόγον, καὶ τὸ αὐτὸ πρὸς τὰ ἴσα.
 
-## Theorema 7, Propositio 7.
+### Theorema 7, Propositio 7.
 
 AEquales ad eandē, eandē habēt rationē: & eadem ad æquales.
 
@@ -46,14 +46,14 @@ Pars secunda theorematis.
 Idem aliter.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Theorema 8, Propositio 8.]
+[Curated heading level=3 type=propositions: Theorema 8, Propositio 8.]
 
-[Curated heading level=2 type=theorems: Theorema 8, Propositio 8.]
+[Curated heading level=3 type=theorems: Theorema 8, Propositio 8.]
 
-## Θεώρημα η, Πρόθεσις η.
+### Θεώρημα η, Πρόθεσις η.
 
 Τῶν ἀνίσων μεγεθῶν τὸ μεῖζον πρὸς τὸ αὐτὸ μείζονα λόγον ἔχει ἤπερ τὸ ἔλαττον· καὶ τὸ αὐτὸ πρὸς τὸ ἔλαττον, μείζονα λόγον ἔχει ἤπερ πρὸς τὸ μεῖζον.
 
-## Theorema 8, Propositio 8.
+### Theorema 8, Propositio 8.
 
 INæqualium magnitudinum maior ad eādem, maiorem rationē

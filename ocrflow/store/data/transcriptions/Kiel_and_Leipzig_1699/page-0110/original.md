@@ -37,9 +37,9 @@ a | b + c | n. 3. Gegeb.
 a | a
 aa | ab + ac | n. 1. II. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der III. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der III. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 3. Beweiß-Stück. Der III. Vortrag.]
+[Curated heading level=2 type=theorems: Das 3. Beweiß-Stück.]
 
 ## Der III. Vortrag.
 

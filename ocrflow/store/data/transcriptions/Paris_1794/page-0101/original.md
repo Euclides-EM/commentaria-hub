@@ -3,9 +3,9 @@
 
 du troisieme ; car si l’angle compris par ces côtés est aigu, la somme de leurs quarrés sera plus grande que le quarré du côté opposé ; s’il est obtus, elle sera moindre.
 
-[Curated heading level=2 type=propositions: PROPOSITION XIV. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XIV.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XIV.]
+[Curated heading level=2 type=theorems: PROPOSITION XIV.]
 
 ## PROPOSITION XIV.
 

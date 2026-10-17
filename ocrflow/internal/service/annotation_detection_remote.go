@@ -86,6 +86,13 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, dispatch 
 			}
 		}
 	}()
+	requiredBytes, err := r.inputSize(req)
+	if err != nil {
+		return fmt.Errorf("measure GPU farm detection inputs: %w", err)
+	}
+	if err := r.submitter.EnsureCapacity(remoteEnv.RemoteRunDir, requiredBytes); err != nil {
+		return fmt.Errorf("GPU farm detection preflight for %d bytes: %w", requiredBytes, err)
+	}
 
 	log.Printf("GPU farm detection upload started: annotation=%s mode=%s pages=%d run_id=%s run_dir=%s", req.Annotation.ID, req.Mode, len(req.Pages), remoteEnv.RunID, remoteEnv.RemoteRunDir)
 	if err := r.stageInputs(req, remoteEnv.RunID, func(localPath string, relPath string) error {
@@ -108,6 +115,37 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, dispatch 
 		dispatch.submitted(followCommand)
 	}
 	return nil
+}
+
+func (r *AnnotationDetectionRemote) inputSize(req remoteDetectionRequest) (int64, error) {
+	var total int64
+	add := func(filePath string) error {
+		info, err := os.Stat(filePath)
+		if err != nil {
+			return err
+		}
+		total += info.Size()
+		return nil
+	}
+	for _, page := range req.Pages {
+		if err := add(filepath.Join(req.ImageDir, pagesparser.PageToPNGFilename(page))); err != nil {
+			return 0, err
+		}
+	}
+	if req.Mode != annotation.DetectionModeModelSegment {
+		altoDir := r.fileSysMgt.DatasetAnnotationAltoDir(req.Annotation)
+		for _, page := range req.Pages {
+			if err := add(filepath.Join(altoDir, pagesparser.PageToXMLFilename(page))); err != nil {
+				return 0, err
+			}
+		}
+	}
+	if req.ModelPath != "" {
+		if err := add(req.ModelPath); err != nil {
+			return 0, err
+		}
+	}
+	return total, nil
 }
 
 func (r *AnnotationDetectionRemote) submitManual(req remoteDetectionRequest, dispatch *gpuFarmDispatch) error {

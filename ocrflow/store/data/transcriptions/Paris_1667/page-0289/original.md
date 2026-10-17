@@ -1,9 +1,9 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XII. -->
 <!-- Page number: 251 -->
 
-#### DES FIGURES INSCRITTES OU CIRCONSCRITTES AU CERCLE.
+### DES FIGURES INSCRITTES OU CIRCONSCRITTES AU CERCLE.
 
-##### DES INSCRITTES.
+#### DES INSCRITTES.
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 
@@ -17,9 +17,9 @@ On dit qu'une figure rectiligne eſt *inſcritte au cercle*, quand les ſommets 
 
 2. Qu'ainſy les angles d'une figure inſcritte ne ſçauroient eſtre égaux, que quand les deux arcs qui ſoûtiennent les deux coſtez de chaque angle ſont égaux pris enſemble aux deux arcs que ſoutiennent les deux coſtez de chaque autre angle : parceque chacun de ces angles a pour meſure la demycirconference moins la moitié des deux arcs que ſoutiennent ces coſtez. IX. 19. D'où s'enſuit ce Theoreme.
 
-[Curated heading level=2 type=propositions: XV. SECOND THEOREME.]
+[Curated heading level=5 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XV. SECOND THEOREME.]
+[Curated heading level=5 type=theorems: SECOND THEOREME.]
 
 ##### SECOND THEOREME.
 

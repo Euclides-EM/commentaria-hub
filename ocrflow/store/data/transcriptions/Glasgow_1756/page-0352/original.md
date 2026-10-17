@@ -1,9 +1,3 @@
-[Curated heading level=1 type=propositions: NOTAE CRITICAE ET GEOMETRICAE.]
-
-[Curated heading level=1 type=theorems: NOTAE CRITICAE ET GEOMETRICAE.]
-
-[Curated heading level=1 type=problems: NOTAE CRITICAE ET GEOMETRICAE.]
-
 # NOTAE
 
 # CRITICAE ET GEOMETRICAE;

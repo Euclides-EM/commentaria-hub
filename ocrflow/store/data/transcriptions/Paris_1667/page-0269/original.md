@@ -1,9 +1,9 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XI. -->
 <!-- Page number: 231 -->
 
-[Curated heading level=2 type=propositions: LVII. HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.]
+[Curated heading level=3 type=propositions: HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.]
 
-[Curated heading level=2 type=theorems: LVII. HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.]
+[Curated heading level=3 type=theorems: HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.]
 
 ### HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.
 
@@ -29,9 +29,9 @@ Si d'un point quelconque d'un diametre on éleve une perpendiculaire juſques à
 
 Car il eſt clair que cette perpendiculaire eſt la moitié de la corde qui couperoit le diametre perpendiculairement par ce point. Donc par le Theoreme precedent elle doit eſtre moyenne proportionelle entre les parties du diametre.
 
-[Curated heading level=2 type=propositions: LIX. NEUVIEME THEOREME.]
+[Curated heading level=3 type=propositions: NEUVIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: LIX. NEUVIEME THEOREME.]
+[Curated heading level=3 type=theorems: NEUVIEME THEOREME.]
 
 ### NEUVIEME THEOREME.
 

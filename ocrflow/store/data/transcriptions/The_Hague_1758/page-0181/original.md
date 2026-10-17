@@ -15,7 +15,7 @@
 
 *Au reſte quand Euclide parle de* parties *dans ce Cinquieme Livre, il entend toujours des parties aliquotes, conformément à cette définition. Il n'explique les parties aliquantes que dans la IV Définition du VIIe Livre.*
 
-[Curated heading level=2 type=definitions: DEFINITION II.]
+[Curated heading level=3 type=definitions: II.]
 
 ### II.
 
@@ -25,7 +25,7 @@ Une grandeur plus grande eſt nommée *un multiple* d'une moindre; lorſque la m
 
 *Au terme de multiple repond celui de* ſousmultiple, *qui déſigne qu'une moindre grandeur eſt une partie aliquote d'une plus grande; ainſi* 4 *eſt un ſousmultiple de* 12, *comme* 12 *eſt un multiple de* 4.
 
-[Curated heading level=2 type=definitions: DEFINITION III.]
+[Curated heading level=3 type=definitions: III.]
 
 ### III.
 

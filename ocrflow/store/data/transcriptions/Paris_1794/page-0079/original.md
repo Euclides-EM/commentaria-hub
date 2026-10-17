@@ -7,8 +7,6 @@ Il faut dans ce premier cas que le côté B soit plus grand que A, car l’angle
 Fig. 81.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2º. Si l’angle C est aigu, et que B soit plus grand que A, la même construction a toujours lieu, et DEF est le triangle requis.
 
 [Margin]
@@ -21,7 +19,7 @@ Mais si, l’angle C étant aigu, le côté B est moindre que A, alors l’arc d
 
 *Scholie.* Le problême seroit impossible dans tous les cas si le côté B étoit plus petit que la perpendiculaire abaissée de E sur la ligne DF.
 
-[Curated heading level=2 type=problems: PROBLÊME XII.]
+[Curated heading level=3 type=problems: PROBLÊME XII.]
 
 ### PROBLÊME XII.
 

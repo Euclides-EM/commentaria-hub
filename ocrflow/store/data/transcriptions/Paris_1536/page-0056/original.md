@@ -12,15 +12,15 @@ Notandum.
 
 [Diagram: a e f h b d c g k l m]
 
-[Curated heading level=2 type=propositions: Problema 14, Propositio 46.]
+[Curated heading level=3 type=propositions: Problema 14, Propositio 46.]
 
-[Curated heading level=2 type=problems: Problema 14, Propositio 46.]
+[Curated heading level=3 type=problems: Problema 14, Propositio 46.]
 
-## Πρόβλημα ιδ, Πρόθεσις μς.
+### Πρόβλημα ιδ, Πρόθεσις μς.
 
 ΑΠὸ τῆς δοθείσης εὐθείας τετράγωνον ἀναγράψαι.
 
-## Problema 14, Propositio 46.
+### Problema 14, Propositio 46.
 
 EX data recta linea, quadratum describere.
 

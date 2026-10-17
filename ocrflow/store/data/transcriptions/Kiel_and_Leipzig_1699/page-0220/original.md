@@ -4,19 +4,11 @@
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werde der Durchschlag cg gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Von diesem Durschlag werde abgeschnitten das Stück ce | ab n. 3. I.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Nach der Weite ce, werde aus c, als einem Mittel-Düpffel/ ein Kreyß gezogen.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Zu dem Düttel d, wo dieser Kreyß den gegebenen Kreyß durchschneidet/werde der Strich cd gezogen.
 
@@ -31,9 +23,9 @@ und cd | dem Kreyß eingefüget n. 7. Beschr. IV.
 
 Ist also der Strich cd | ab dem Kreyß cdf eingefüget. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der II. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der II. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 2. Werck-Stück. Der II. Vortrag.]
+[Curated heading level=2 type=problems: Das 2. Werckstück.]
 
 ## Der II. Vortrag.
 

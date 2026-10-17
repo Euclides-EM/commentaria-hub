@@ -8,7 +8,7 @@
 
 <!-- Running title: DEFINITIONS. -->
 
-[Curated heading level=2 type=definitions: DEFINITION XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 ### XVIII.
 
@@ -16,13 +16,13 @@
 
 Si le coté immobile (BE) du triangle (ABE) (*Fig.* 2.) eſt égal à l'autre coté (AE) comprenant l'angle droit, le Cone ſera nommé Rectangle; Si BE eſt plus petit que AE (*Fig.* 3.) il ſera Amblygone; & Oxygone ſi BE eſt plus grand que AE (*Fig.* 1.)
 
-[Curated heading level=2 type=definitions: DEFINITION XIX.]
+[Curated heading level=3 type=definitions: XIX.]
 
 ### XIX.
 
 *L'Axe du Cone* eſt la ligne immobile (BE) ſur laquelle le triangle ABE a tourné lorſqu'il a décrit la ſuperficie du Cone.
 
-[Curated heading level=2 type=definitions: DEFINITION XX.]
+[Curated heading level=3 type=definitions: XX.]
 
 ### XX.
 

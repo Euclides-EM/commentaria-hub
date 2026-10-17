@@ -13,9 +13,7 @@ parfaitte meſure eſt le quarré, & que c'eſt par le quarré qu'on meſure les
 
 Mais comme toutes nos connoiſſances qui dependent de l'art en ſuppoſent de naturelles qu'on appelle Axiomes, voicy ceux ſur leſquels eſt fondée toute la ſcience de la dimenſion des figures planes.
 
-[Curated heading level=1 type=axioms: LIVRE QUATORZIEME.]
-
-[Curated heading level=2 type=axioms: II. PREMIER AXIOME.]
+[Curated heading level=3 type=axioms: PREMIER AXIOME.]
 
 ### PREMIER AXIOME.
 

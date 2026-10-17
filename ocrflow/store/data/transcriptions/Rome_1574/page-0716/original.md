@@ -7,7 +7,7 @@ DE, ipſius HI; & EB, ipſius IK, pars erit a C, denominata, nempe eadem quæ AB
 4. pron.
 [/Margin]
 
-[Curated heading level=5 type=numbered_item: II.]
+[Curated heading level=5: II]
 
 [Margin]
 II.
@@ -27,7 +27,7 @@ E . . . . . . . .
 A . . . C . . . D . . B
 [/Calculation]
 
-[Curated heading level=5 type=numbered_item: III.]
+[Curated heading level=5: III]
 
 [Margin]
 III.

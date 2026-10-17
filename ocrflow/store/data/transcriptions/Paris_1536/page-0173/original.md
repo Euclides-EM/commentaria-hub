@@ -16,20 +16,20 @@ sic e/f/ad b/g: & proinde sicut a/b/ad d/e, sic per vndecimam quinti e/f/ad b/g.
 
 tres itaque rectæ lineæ sunt proportionales. Prima igitur ad tertiam, duplicem rationem habet, quam ad secundam: per decimam huius quinti diffinitionem. Sed sicut prima b/c/ad tertiam b/g, sic a/b/c/ triāgulum ad triangulum a/b/g, per primam huius sexti: sub eodem enim sunt vertice, atque in eadem altitudine ipsa triangula. Et triangulum igitur a/b/c/ad triangulum a/b/g, duplam rationē habet quam b/c/ad e/f. Ipsi porrò a/b/g/ triangulo, æquum est triangulum d/e/f: & idem triangulum ad æqualia triangula eandem habet rationem, per septimam quinti. Et triangulum igitur a/b/c/ad triangulum d/e/f, duplicem rationem habet quam b/c/ad e/f. Simila itaq; triangula, in dupla ratione sunt laterū similis rationis. Quod demonstrandum receperamus.
 
-### Corollarium.
+#### Corollarium.
 
 ¶ Fit proinde manifestū, quòd si tres rectæ lineæ fuerint proportionales: erit sicut prima ad tertiam, sic quod à prima describitur rectangulum, ad simile similitérq; positū rectangulum quod à secunda. Ostensum est enim sicut b/c/ad b/g, sic a/b/c/triangulū ad triāgulum a/b/g. Et sicut igitur b/ c/ ad b/g, sic a/c/ rectangulum ad d/f/ rectangulum.
 
 [Diagram: a d / b c e f b g]
 
-[Curated heading level=2 type=propositions: Theorema 14, Propositio 20.]
+[Curated heading level=3 type=propositions: Theorema 14, Propositio 20.]
 
-[Curated heading level=2 type=theorems: Theorema 14, Propositio 20.]
+[Curated heading level=3 type=theorems: Theorema 14, Propositio 20.]
 
-## Θεώρημα ιδ, Πρόθεσις κ.
+### Θεώρημα ιδ, Πρόθεσις κ.
 ΤΑ ὅμοια πολύγωνα, εἴς τε ὅμοια τρίγωνα διαιρεῖται, καὶ εἰς ἴσα τὸ πλῆθος, καὶ ὁμόλογα τοῖς ὅλοις. καὶ τὸ πολύγωνον διπλασίονα λόγον ἔχει, ἤπερ ἡ ὁμόλογος πλευρὰ πρὸς τὴν ὁμόλογον πλευράν.
 
-## Theorema 14, Propositio 20.
+### Theorema 14, Propositio 20.
 
 SImilia polygona, in similia triangula diuiduntur, & in æqualia numero: & æqua ratione totis. Et polygonum ad polygonum duplicem rationem habet, quàm similis rationis latus ad similis rationis latus.
 

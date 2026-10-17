@@ -2,7 +2,7 @@
 
 cedentem) quod ſimiliter poſito obuiaret. Non eſt igitur B A G angulus ipſi E D Z æqualis, nec minor ipſo: Ergo maior neceſſario erit. Si itaque duo triangula, &c.
 
-[Curated heading level=2 type=propositions: Propoſitio vigeſimaſexta.]
+[Curated heading level=3 type=propositions: Propoſitio vigeſimaſexta.]
 
 ### Propoſitio vigeſimaſexta.
 
@@ -16,7 +16,7 @@ Sint triangula A B G D E Z duos angulos duobus æquales habentia, ſcilicet A B 
 
 Quoniam dicit triangula æqualia eſſe quæ duos angulos duobus æquales habent. Si modo vnum latus lateri æquale habeant, aut quod æquis adiacet angulis, aut quod ſub vno æqualium angulorum ſubtenditur. Quod quidem analogum eſt, nam ſi in altero triangulorum latus adiaceat, in reliquo verò ſubtendat vnum æqualium angulorum, falſum erit æqua eſſe triangula: quare diximus æqualia latera ſimul adiacere, aut ſimul opponi æqualibus angulis. Hæc enim animaduerſio 10. decimitertij demonſtrandæ proderit.
 
-[Curated heading level=2 type=propositions: Propoſitio vigeſimaſeptima.]
+[Curated heading level=3 type=propositions: Propoſitio vigeſimaſeptima.]
 
 ### Propoſitio vigeſimaſeptima.
 

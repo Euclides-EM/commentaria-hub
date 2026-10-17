@@ -11,13 +11,11 @@
 DE LA MESURE DE L'AIRE DES PARALLELOGRAMMES, DES TRIANGLES, ET AUTRES POLYGONES.
 [/Subhead]
 
-[Curated heading level=1 type=definitions: LIVRE QVINZIEME.]
-
-[Curated heading level=2 type=definitions: I. DEFINITIONS.]
-
 ## DEFINITIONS.
 
 {dropcap:Q|lines=3|style=decorated|decoration="foliate ornament on dark ground"}Uand on parle des coſtez d'un parallelogramme, on entend les coſtez angulaires, amoins qu'on ne marque autre choſe.
+
+[Curated heading level=3 type=definitions: I.]
 
 [Curated heading level=4 type=paragraph_order: I.]
 
@@ -26,6 +24,8 @@ I.
 [/Margin]
 
 On peut prendre lequel on veut de ces coſtez pour meſure de la longueur du parallelogramme; & alors ce coſté s'appelle la baſe.
+
+[Curated heading level=3 type=definitions: Et la perpendiculaire qui meſure]
 
 Et la perpendiculaire qui meſure la diſtance entre la baſe & ſon coſté oppoſé s'appelle la hauteur du parallelogramme.
 

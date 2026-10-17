@@ -33,9 +33,9 @@ XXVII.
 
 Si deux cordes égales de divers cercles ſoutiennent chacune autant de degrez, les cercles ſont égaux. Car par le precedent Corollaire elles ſont en même raiſon que les diametres des cercles. Donc ſi elles ſont égales, les diametres ſont éganx{printer-error-correction:égaux}. Donc les cercles ſont égaux.
 
-[Curated heading level=2 type=propositions: XXVIII. TROISIEME THEOREME.]
+[Curated heading level=2 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVIII. TROISIEME THEOREME.]
+[Curated heading level=2 type=theorems: TROISIEME THEOREME.]
 
 ## TROISIEME THEOREME.
 

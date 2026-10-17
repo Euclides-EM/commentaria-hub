@@ -6,11 +6,11 @@ cta in tres æquales, tota igitur AB ſecta eſt in quatuor æquales.
 
 Hæ duæ praxes ſunt faciliores Euclideâ, quia pauciores ducendæ ſunt parallelæ.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XI.]
 
 ## PROPOSITIO XI.
 
-[Curated heading level=2 type=figures: Fig. 16]
+[Curated heading level=5 type=figures: Fig. 16]
 
 [Margin]
 Fig.16.
@@ -32,7 +32,7 @@ d Per conſtr.
 
 ### Aliter.
 
-[Curated heading level=2 type=figures: Fig. 17]
+[Curated heading level=5 type=figures: Fig. 17]
 
 [Margin]
 Fig.17.

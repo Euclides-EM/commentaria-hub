@@ -19,13 +19,13 @@ e Per 20. l.6 & defin. 10. l.5.
 i Per 1.l.6.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXVI.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXVI.]
 
 ## PROPOSITIO XXVI.
 
 {dropcap:P|lines=2|style=plain}Arallelogramma ſimilia (B D, F N) habentia angulum communem (A) circa eandem diametrum exiſtunt.
 
-[Curated heading level=2 type=figures: Fig. 44]
+[Curated heading level=5 type=figures: Fig. 44]
 
 Duc rectas A E, C E, ſi negas A E C eſſe diametrum communem parallelogrammorum
 

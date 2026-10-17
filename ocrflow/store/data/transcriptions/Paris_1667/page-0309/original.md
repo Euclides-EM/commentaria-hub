@@ -13,9 +13,9 @@ XXIII.
 
 Deux triangles ſont équiangles, ſi deux angles de l'un ſont égaux aux deux angles de l'autre, chacun à chacun. Car il s'enſuit de là que le 3ᵉ eſt auſſy égal au 3ᵉ.
 
-[Curated heading level=2 type=propositions: XXIV. SIXIEME THEOREME.]
+[Curated heading level=4 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXIV. SIXIEME THEOREME.]
+[Curated heading level=4 type=theorems: SIXIEME THEOREME.]
 
 #### SIXIEME THEOREME.
 
@@ -27,9 +27,9 @@ XXIV.
 
 Lorsque deux triangles ont un angle égal, & les coſtez qui ſoûtiennent ces angles proportionnels, ils ſont ſemblables. Car alors la baſe eſt auſſy proportionnelle à la baſe, & les deux angles ſur cette baſe égaux, par XI. 63.
 
-[Curated heading level=2 type=propositions: XXV. SEPTIEME THEOREME.]
+[Curated heading level=4 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXV. SEPTIEME THEOREME.]
+[Curated heading level=4 type=theorems: SEPTIEME THEOREME.]
 
 #### SEPTIEME THEOREME.
 
@@ -43,9 +43,9 @@ Si deux triangles ſont de même hauteur, les paralleles à la baſe également 
 
 Cela eſt demonſtré X 20.
 
-[Curated heading level=2 type=propositions: XXVI. HUITIEME THEOREME.]
+[Curated heading level=4 type=propositions: HUITIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXVI. HUITIEME THEOREME.]
+[Curated heading level=4 type=theorems: HUITIEME THEOREME.]
 
 #### HUITIEME THEOREME.
 

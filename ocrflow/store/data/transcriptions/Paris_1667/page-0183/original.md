@@ -5,11 +5,9 @@ grand que la moitié de la demycirconference. D'où il s'enſuit
 
 Que tout angle plus grand que de 90. degrez eſt obtus.
 
-[Curated heading level=1 type=theorems: LIVRE HUITIEME.]
+[Curated heading level=3 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=propositions: XIV. PREMIER THEOREME.]
-
-[Curated heading level=2 type=theorems: XIV. PREMIER THEOREME.]
+[Curated heading level=3 type=theorems: PREMIER THEOREME.]
 
 ### PREMIER THEOREME.
 
@@ -23,9 +21,9 @@ TOUTE ligne qui en coupe une autre obliquement fait d'un coſté un angle aigu &
 
 [Figure: demycirconference coupée par une ligne oblique]
 
-[Curated heading level=2 type=propositions: XV. SECOND THEOREME.]
+[Curated heading level=3 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XV. SECOND THEOREME.]
+[Curated heading level=3 type=theorems: SECOND THEOREME.]
 
 ### SECOND THEOREME.
 
@@ -43,7 +41,7 @@ et du meme coste,
 
 [Figure: demycirconference avec pluſieurs lignes rayonnantes depuis le centre]
 
-[Curated heading level=2 type=definitions: XVI. DEFINITION.]
+[Curated heading level=3 type=definitions: DEFINITION.]
 
 ### DEFINITION.
 
@@ -55,9 +53,9 @@ XVI.
 
 L'ANGLE *aigu*, qui avec l'obtus vaut deux angles droits, s'appelle le *complement de l'angle obtus*.
 
-[Curated heading level=2 type=propositions: XVII. TROISIEME THEOREME.]
+[Curated heading level=3 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XVII. TROISIEME THEOREME.]
+[Curated heading level=3 type=theorems: TROISIEME THEOREME.]
 
 ### TROISIEME THEOREME.
 

@@ -3,7 +3,7 @@
 
 ctæ parti C B; cum quadratus totius A D, compoſiti ex A B, & B D, ſiue dicta, parte C B, ſit æqualis per 4. theorema, quadratis numerorum A B, B D, vna cum numero qui fit bis ex A B, in B D, hoc eſt, quadratis numerorum A B; C B, vna cum eo, qui fit bis ex A B, in C B; Sint autem, ex 7. theorem. quadrati numerorum A B, C B, ſimul æquales numero bis comprehenſo ſub A B, C B, vna cum quadrato numeri A C; Erit quadratus factus ex A D, æqualis numero, qui fit quater ex A B, in C B, vna cum quadrato reliquæ partis A C. Quod eſt propoſitum.
 
-[Curated heading level=5 type=numbered_item: IX.]
+[Curated heading level=5: IX]
 
 [Margin]
 IX.
@@ -15,7 +15,7 @@ DIVISVS ſit numerus A B, in partes æquales A C, C B, & non æquales A D, D B. 
 
 [Diagram: horizontal line with points labelled A, C, D, B]
 
-[Curated heading level=5 type=numbered_item: X.]
+[Curated heading level=5: X]
 
 [Margin]
 X.

@@ -17,22 +17,14 @@ gegebenen Kreyß eingeschrieben werden.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
 se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
 e und o schneidet.
 
-[Curated heading level=4 type=numbered_item: 2.]
-
 2. Aus e und o werden nach selbiger Weite zwey Kreyßstücke
 gemacht /welche den Kreyß in d und b schneiden.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Werden die Striche fd und fb gezogen.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Wird der Strich db gezogen.
 

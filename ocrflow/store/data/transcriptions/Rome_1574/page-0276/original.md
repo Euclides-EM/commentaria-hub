@@ -1,19 +1,13 @@
 <!-- Running title: LIBER III. -->
 <!-- Page number: 96 -->
 
-[Curated heading level=1 type=theorems: EVCLIDIS ELEMENTVM III.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTVM III.]
-
-[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTVM III.]
-
 # EVCLIDIS ELEMENTVM III.
 
 [Ornament: floral headpiece]
 
 ## DEFINITIONES.
 
-[Curated heading level=2 type=definitions: I.]
+[Curated heading level=3 type=definitions: I.]
 
 ### I.
 

@@ -9,7 +9,7 @@ Cylindrus igitur & priſma quoduis producitur ex altitudine multiplicata per ba�
 
 Sit baſis Cylindri aut coni 50 ped. quadratorum, altitudo pedum 100. Duc 100 in 50; proueniunt 5000 pedes cubici pro ſoliditate cylindri. Duc tertiam partem altitudinis 100, nimirum 33⅓ in 50: proueniunt 1666⅔ pedes cubici pro ſoliditate coni.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO VII.]
+[Curated heading level=2 type=propositions: PROPOSITIO VII.]
 
 ## PROPOSITIO VII.
 

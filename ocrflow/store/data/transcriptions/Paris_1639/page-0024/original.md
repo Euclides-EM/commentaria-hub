@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=2 type=definitions: DEF. XVII.]
+[Curated heading level=3 type=definitions: XVII.]
 
 ### XVII.
 
@@ -10,7 +10,7 @@ Le diametre du cercle est vne ligne droicte menée par le centre, & terminée de
 
 ABCD est vn cercle. / E est le centre du cercle. / AC est le diametre du cercle.
 
-[Curated heading level=2 type=definitions: DEF. XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 ### XVIII.
 
@@ -18,7 +18,7 @@ Le demy-cercle est vne figure, contenuë sous le diametre, & sous la ligne retra
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XIX.]
+[Curated heading level=3 type=definitions: XIX.]
 
 ### XIX.
 

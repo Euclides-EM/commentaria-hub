@@ -1,7 +1,7 @@
 <!-- Running title: Liber Quintus. Pars I. -->
 <!-- Page number: 145 -->
 
-### Corollarium 1.
+#### Corollarium 1.
 
 [Margin]
 Fig.12.
@@ -19,7 +19,7 @@ c Per 18.l 5.
 
 Hæc argumentatio vocatur conuerſio rationis.
 
-### Corollarium 2.
+#### Corollarium 2.
 
 [Margin]
 Fig.12.
@@ -34,9 +34,9 @@ d Per 17.l.5.
 e Per 18.l 5.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. V, PROPOSITIO XIX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIX.]
 
-## PROPOSITIO XIX.
+### PROPOSITIO XIX.
 
 [Margin]
 Fig.12.

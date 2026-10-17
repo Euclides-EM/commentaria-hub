@@ -15,7 +15,7 @@ Donc on ne ſçauroit rien retrancher de *b f*, ny y rien ajoûter, que *b f* & 
 
 Donc elles ſont égales.
 
-[Curated heading level=2 type=lemmas: X. SIXIEME LEMME.]
+[Curated heading level=2 type=lemmas: SIXIEME LEMME.]
 
 ## SIXIEME LEMME.
 
@@ -31,7 +31,7 @@ Car s'il y en avoit une ſeule qui fuſt perpendiculaire ſur l'une & oblique ſ
 
 Donc s'il y en a une ſeule qui ſoit perpendiculaire à toutes les deux, il faudra neceſſairement que toutes celles qui ſont perpendiculaires à l'une des deux enfermantes, le ſoient à toutes les deux, & par conſequent qu'elles ſoient toutes égales par le precedent Lemme.
 
-[Curated heading level=2 type=lemmas: XI. SEPTIEME LEMME.]
+[Curated heading level=2 type=lemmas: SEPTIEME LEMME.]
 
 ## SEPTIEME LEMME.
 

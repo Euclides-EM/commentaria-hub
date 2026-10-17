@@ -1,11 +1,11 @@
 <!-- Running title: Liber Quartus. -->
 <!-- Page number: 113 -->
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO VIII. & IX.]
+[Curated heading level=2 type=propositions: PROPOSITIO VIII. & IX.]
 
 ## PROPOSITIO VIII. & IX.
 
-[Curated heading level=2 type=figures: Fig. 6]
+[Curated heading level=5 type=figures: Fig. 6]
 
 [Margin]
 Fig.6.

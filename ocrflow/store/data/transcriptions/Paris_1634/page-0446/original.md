@@ -35,7 +35,7 @@ Termini siue radices proportionis dicuntur duo numeri, quibus in eadem proportio
 
 ## PETITIONS, OV DEMANDES.
 
-[Curated heading level=2 type=postulates: I.]
+[Curated heading level=3 type=postulates: I.]
 
 ### I.
 

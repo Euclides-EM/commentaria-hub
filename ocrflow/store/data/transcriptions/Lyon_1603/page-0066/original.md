@@ -37,8 +37,6 @@
 
 FINIS QVARTI.
 
-[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM QVINTVS.]
-
 # EVCLIDIS ELEMENTORVM QVINTVS.
 
 [Curated heading level=2 type=propositions: PROP. I.]

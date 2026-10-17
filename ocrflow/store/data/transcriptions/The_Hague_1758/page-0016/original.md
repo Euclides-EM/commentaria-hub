@@ -16,37 +16,37 @@
 
 <!-- Running title: DEFINITIONS. -->
 
-[Curated heading level=2 type=definitions: DEFINITION XIV.]
+[Curated heading level=3 type=definitions: XIV.]
 
 ### XIV.
 
 {dropcap:U|lines=2|style=plain}*Ne Figure* eſt une étendue limitée d'un ou de pluſieurs termes. *Fig.* 10.
 
-[Curated heading level=2 type=definitions: DEFINITION XV.]
+[Curated heading level=3 type=definitions: XV.]
 
 ### XV.
 
 *Le Cercle* eſt une figure plane terminée par une ſeule ligne, ayant la propriété que toutes les lignes droites (CB, CD,) tirées d'un même point (C) à cette ſeule ligne, nommée *Circonférence*, ſont égales entr'elles. *Fig.* 11.
 
-[Curated heading level=2 type=definitions: DEFINITION XVI.]
+[Curated heading level=3 type=definitions: XVI.]
 
 ### XVI.
 
 On nomme ce point (C) *Centre*, & les droites (CB, CD,) tirées du centre à la circonférence, des *Rayons*. *Fig.* 11.
 
-[Curated heading level=2 type=definitions: DEFINITION XVII.]
+[Curated heading level=3 type=definitions: XVII.]
 
 ### XVII.
 
 On nomme *Diametre* du cercle toute droite (DB) tirée par le centre, & terminée à la circonférence de part & d'autre (*Fig.* 12). Un diametre partage le cercle en deux parties égales.
 
-[Curated heading level=2 type=definitions: DEFINITION XVIII.]
+[Curated heading level=3 type=definitions: XVIII.]
 
 ### XVIII.
 
 Le *Demi-cercle* eſt une figure plane (DEB) terminée par le diametre (DB) & par la demi-circonférence (DEB), c. a. d. cette portion de la circonférence (DEB) qui aboutit de part & d'autre à ce diametre (DB). *Fig* 12.
 
-[Curated heading level=2 type=definitions: DEFINITION XIX.]
+[Curated heading level=3 type=definitions: XIX.]
 
 ### XIX.
 

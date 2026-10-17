@@ -5,7 +5,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION XX. THEOREME XVIII.]
 
-[Curated heading level=2 type=theorems: THEOREME XVIII. PROPOSITION XX.]
+[Curated heading level=2 type=theorems: PROPOSITION XX. THEOREME XVIII.]
 
 ## PROPOSITION XX. THEOREME XVIII.
 

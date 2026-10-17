@@ -3,7 +3,7 @@
 
 drato latus ad diametrum. Quod erat demonſtr.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXVIII.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXVIII.]
 
 ## PROPOSITIO XXXVIII.
 
@@ -19,7 +19,7 @@ a Per 35. huius.
 
 Patet ſimiliter ex 35. Nam ſuperficies portionis B G K D eſt ad inſcriptam conicam, vt a B K ad B A, Sed quia conus B K D æquilaterus ponitur, K B eſt æqualis B D, adeoque dupla B A. Ergo etiam ſuperficies B G K D dupla eſt inſcriptæ conicæ B K D. Quod erat dem.
 
-[Curated heading level=2 type=propositions: Archim., PROPOSITIO XXXIX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXXIX.]
 
 ## PROPOSITIO XXXIX.
 

@@ -8,9 +8,9 @@ AB | bc. a.
 AF | ac ß.
 und BF | ba γ. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der XXIII. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der XXIII. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 9. Werck-Stück. Der XXIII. Vortrag.]
+[Curated heading level=2 type=problems: Das 9. Werck-Stück.]
 
 ## Der XXIII. Vortrag.
 
@@ -36,19 +36,11 @@ Auff einen gegebenen geraden Strich/ und zwar auff den darin gegebenen Düttel /
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Auß dem Düttel E wird nach beliebiger grösse ein Kreyßstück FG gezogen/ damit EG | EF.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Werde der Strich FG gezogen.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Auß dem Düttel C wird von dem Strich AB abgeschnitten ein Stück CK | EG n. 3. Vortr.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. Auff den Strich CK setze man CI | EF)
 und KI | GF) n. 22. Vort.

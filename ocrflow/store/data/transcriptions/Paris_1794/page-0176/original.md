@@ -1,9 +1,9 @@
 <!-- Page number: 148 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-[Curated heading level=2 type=propositions: PROPOSITION X. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION X.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION X.]
+[Curated heading level=2 type=theorems: PROPOSITION X.]
 
 ## PROPOSITION X.
 
@@ -17,9 +17,9 @@ F. 189.
 
 Car si les lignes EF, GH, situées dans un même plan, ne sont pas parallèles, prolongées elles se rencontreront ; donc les plans MN, PQ, dans lesquels elles sont, se rencontreroient aussi; donc ils ne seroient pas parallèles.
 
-[Curated heading level=2 type=propositions: PROPOSITION XI. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XI.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XI.]
+[Curated heading level=2 type=theorems: PROPOSITION XI.]
 
 ## PROPOSITION XI.
 
@@ -33,9 +33,9 @@ F. 188.
 
 Ayant tiré à volonté la ligne BC dans le plan PQ, suivant AB et BC, conduisez un plan ABC dont l’intersection avec le plan MN soit AD, l’intersection AD sera parallèle à BC : mais la ligne AB perpendiculaire au plan MN est perpendiculaire à la droite AD; donc elle sera aussi perpendiculaire à sa parallèle BC; et puisque la ligne AB est perpendiculaire à toute ligne BC menée par son pied dans le plan PQ, il s’ensuit qu’elle est perpendiculaire au plan PQ.
 
-[Curated heading level=2 type=propositions: PROPOSITION XII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION XII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION XII.]
+[Curated heading level=2 type=theorems: PROPOSITION XII.]
 
 ## PROPOSITION XII.
 

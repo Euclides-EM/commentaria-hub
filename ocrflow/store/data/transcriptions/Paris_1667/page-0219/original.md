@@ -25,9 +25,9 @@ La preuve du troiſiême Cas eſt ſemblable à ces deux là, tenant quelque cho
 
 *Outre cette meſure qui eſt generale à toutes ces ſortes d'angles, il y en a qui ſont particulieres à quelques uns qu'il eſt bon de marquer par des Theoremes particuliers.*
 
-[Curated heading level=2 type=propositions: XLVI. SIXIEME THEOREME.]
+[Curated heading level=3 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XLVI. SIXIEME THEOREME.]
+[Curated heading level=3 type=theorems: SIXIEME THEOREME.]
 
 ### SIXIEME THEOREME.
 

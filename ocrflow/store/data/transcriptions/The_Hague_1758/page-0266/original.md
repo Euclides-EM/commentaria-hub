@@ -5,7 +5,7 @@
 
 [Curated heading level=2 type=propositions: PROPOSITION VIII. THEOREME VIII.]
 
-[Curated heading level=2 type=theorems: THEOREME VIII. PROPOSITION VIII.]
+[Curated heading level=2 type=theorems: PROPOSITION VIII. THEOREME VIII.]
 
 ## PROPOSITION VIII. *THEOREME VIII.*
 

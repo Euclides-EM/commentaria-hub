@@ -2,13 +2,13 @@
 
 [Figure: triangle rectangle A, triangle obtusangle B]
 
-[Curated heading level=2 type=definitions: XXVII.]
+[Curated heading level=3 type=definitions: XXVII.]
 
 ### XXVII.
 
 Amblygonium autem quod obtusum angulum habet, vt triangulum B. | L'amblygone est celuy qui a vn angle obtus ou moussu, comme le triägle B.
 
-[Curated heading level=2 type=definitions: XXVIII.]
+[Curated heading level=3 type=definitions: XXVIII.]
 
 ### XXVIII.
 

@@ -17,9 +17,9 @@ Et quand l'un touche & l'autre coupe le cercle, le concave eſt compris entre le
 
 *Il eſtoit neceſſaire de bien expliquer ces deux ſortes d'arcs, parceque de là depend la meſure de ces angles ſelon ce Theoreme.*
 
-[Curated heading level=2 type=propositions: XLV. CINQUIEME THEOREME.]
+[Curated heading level=3 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XLV. CINQUIEME THEOREME.]
+[Curated heading level=3 type=theorems: CINQUIEME THEOREME.]
 
 ### CINQUIEME THEOREME.
 

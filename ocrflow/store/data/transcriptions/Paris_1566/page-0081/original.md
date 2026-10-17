@@ -20,7 +20,7 @@ Circulum A D G B tangat recta E Z in B. A contactu autem B ducatur B D circulum 
 
 [Curated heading level=2 type=propositions: Propoſitio trigeſimatertia.]
 
-[Curated heading level=2 type=problems: Propoſitio trigeſimatertia. Problema 5.]
+[Curated heading level=2 type=problems: Problema 5.]
 
 ## Propoſitio trigeſimatertia.
 

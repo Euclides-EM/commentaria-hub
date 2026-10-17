@@ -8,17 +8,17 @@ a Per 24. l.6.
 b Per defin. 1.l.6.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOS. XXVII. XXVIII. XXIX.]
+[Curated heading level=2 type=propositions: PROPOS. XXVII. XXVIII. XXIX.]
 
 ## PROPOS. XXVII. XXVIII. XXIX.
 
 {dropcap:T|lines=2|style=plain}Yronibus faceſſunt negotium, & nullius fere ſunt vſus.
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XXX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XXX.]
 
 ## PROPOSITIO XXX.
 
-[Curated heading level=2 type=figures: Fig. 45]
+[Curated heading level=5 type=figures: Fig. 45]
 
 {dropcap:D|lines=2|style=plain}Atam rectam (A B) ita ſecare, vt tota (A B) ſit ad vnum ſegmentum (AC,) ſicut idem ſegmentum eſt ad reliquum (C B)
 

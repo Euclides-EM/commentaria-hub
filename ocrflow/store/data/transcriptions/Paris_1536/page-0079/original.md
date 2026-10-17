@@ -2,15 +2,15 @@
 
 ſuæ parti a/e/f/erit æqualis: quod per nonā cōmunē ſententiā eſt impoſſibile . Si in circulo igitur a/b/c/d/binæ rectæ lineæ a/c/& b/d,ſeſe inuicē ſecuerint nō per centrum extēſæ:ſeſe inuicē bifariā non ſecabunt. Quod oſtendere fuerat operæpretiū.
 
-[Curated heading level=2 type=propositions: Theorema 4, Propoſitio 5.]
+[Curated heading level=3 type=propositions: Theorema 4, Propoſitio 5.]
 
-[Curated heading level=2 type=theorems: Theorema 4, Propoſitio 5.]
+[Curated heading level=3 type=theorems: Theorema 4, Propoſitio 5.]
 
-## Θεώρημα δ, Πρόθεσις ε.
+### Θεώρημα δ, Πρόθεσις ε.
 
 Ἐὰν δύο κύκλοι τέμνωσιν ἀλλήλους,οὐκ ἴσαι αὐτῶν ἔσονται τὸ αὐτὸ κέντρον.
 
-## Theorema 4, Propoſitio 5.
+### Theorema 4, Propoſitio 5.
 
 SI bini circuli ſeſe inuicem ſecuerint : non erit eorum idem centrum.
 
@@ -22,15 +22,15 @@ Oſtenſio rurſum ab impoſſibili.
 
 [Diagram: b a d f c e]
 
-[Curated heading level=2 type=propositions: Theorema 5, Propoſitio 6.]
+[Curated heading level=3 type=propositions: Theorema 5, Propoſitio 6.]
 
-[Curated heading level=2 type=theorems: Theorema 5, Propoſitio 6.]
+[Curated heading level=3 type=theorems: Theorema 5, Propoſitio 6.]
 
-## Θεώρημα ε, Πρόθεσις ς.
+### Θεώρημα ε, Πρόθεσις ς.
 
 Ἐὰν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐντὸς,οὐκ ἴσαι αὐτῶν τὸ αὐτὸ κέντρον.
 
-## Theorema 5, Propoſitio 6.
+### Theorema 5, Propoſitio 6.
 
 SI duo circuli ſe adinuicem tetigerint : eorum non eſt idem centrum.
 

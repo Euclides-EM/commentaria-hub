@@ -30,7 +30,7 @@ f Per 27.l.1.
 o Per 5.l.1.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO IV.]
+[Curated heading level=2 type=propositions: PROPOSITIO IV.]
 
 ## PROPOSITIO IV.
 
@@ -46,7 +46,7 @@ o Def.1.l.6.
 Fig.7.
 [/Margin]
 
-[Curated heading level=2 type=figures: Fig. 8]
+[Curated heading level=5 type=figures: Fig. 8]
 
 Dem. ſi angulus F ponatur ſupra ſibi æqualem A, latera FI, FL, cadent ſupra la-
 

@@ -1,6 +1,6 @@
 <!-- Running title: D'EVCLIDE, LIV. I. -->
 
-[Curated heading level=2 type=definitions: DEF. XXVI.]
+[Curated heading level=3 type=definitions: XXVI.]
 
 ### XXVI.
 
@@ -8,7 +8,7 @@ Au surplus des figures trilateres, le triangle ortogone ou rectangle est, celuy 
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XXVII.]
+[Curated heading level=3 type=definitions: XXVII.]
 
 ### XXVII.
 
@@ -16,7 +16,7 @@ L'Amblygone est celuy qui a vn angle obtus ou moussu, comme le triangle HFG.
 
 [Figure]
 
-[Curated heading level=2 type=definitions: DEF. XXVIII.]
+[Curated heading level=3 type=definitions: XXVIII.]
 
 ### XXVIII.
 
@@ -26,7 +26,7 @@ L'Oxygone est celuy qui a tous les trois angles aigus, comme le triangle C.
 
 *Vne figure est equiangle, si tous ses angles sont égaux entr'eux : mais deux figures sont equiangles, si chaque angle de l'vne est égal à chaque angle de l'autre.*
 
-[Curated heading level=2 type=definitions: DEF. XXIX.]
+[Curated heading level=3 type=definitions: XXIX.]
 
 ### XXIX.
 

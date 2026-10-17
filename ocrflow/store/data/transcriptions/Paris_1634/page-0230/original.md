@@ -1,9 +1,3 @@
-[Curated heading level=1 type=propositions: EVCLIDIS ELEMENTORVM LIBER QVARTVS.]
-
-[Curated heading level=1 type=problems: EVCLIDIS ELEMENTORVM LIBER QVARTVS.]
-
-[Curated heading level=1 type=definitions: EVCLIDIS ELEMENTORVM LIBER QVARTVS.]
-
 # EVCLIDIS ELEMENTORVM LIBER QVARTVS.
 
 # LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.

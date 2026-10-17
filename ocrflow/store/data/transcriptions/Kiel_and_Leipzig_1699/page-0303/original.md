@@ -18,9 +18,9 @@
 
 Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auf umgekehrte Weise die II. zu der I. eine kleinere Verhältnüß / als die IV. zu der III. haben/ W. Z. B.
 
-[Curated heading level=2 type=propositions: Der XXVII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der XXVII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 27. Beweiß-Stück. Der XXVII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 27. Beweiß-Stück.]
 
 ## Der XXVII. Vortrag.
 

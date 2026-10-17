@@ -2,7 +2,7 @@
 
 ræ sunt, triangulum, quadratum, cubus, pyramis, &c. | le triangle, le quarré, le cube, la pyramide, &c.
 
-[Curated heading level=2 type=definitions: XV.]
+[Curated heading level=3 type=definitions: XV.]
 
 ### XV.
 
@@ -12,7 +12,7 @@ Circulus est figura plana, sub vna linea comprehensa, quæ peripheria appellatur
 
 Ex hac definitione sequitur, ea quorum distantia à centro circuli est æqualis semidiametro, esse in circunferentia circuli, quorum minor in circulo, quorum maior extra circulum, dummodo sint in eodem plano cum circulo. | De ceste definition s'ensuit, que ce qui est esloigné du centre du cercle de la quantité du semidiametre est en la circonference, si moins dans le cercle, si plus hors du cercle, pourueu qu'ils soient en mesme plan que le cercle.
 
-[Curated heading level=2 type=definitions: XVI.]
+[Curated heading level=3 type=definitions: XVI.]
 
 ### XVI.
 

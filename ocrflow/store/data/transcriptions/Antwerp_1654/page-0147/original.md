@@ -7,11 +7,11 @@ f Per 16.l.3.
 
 per G, H, I, tangetq́ue latera f omnia quadrati, quia anguli ad D, G, H, I ſunt recti. Fecimus ergo quod petebatur.
 
-[Curated heading level=2 type=propositions: Lib. IV, PROPOSITIO X.]
+[Curated heading level=2 type=propositions: PROPOSITIO X.]
 
 ## PROPOSITIO X.
 
-[Curated heading level=2 type=figures: Fig. 7]
+[Curated heading level=5 type=figures: Fig. 7]
 
 [Margin]
 Fig.7.

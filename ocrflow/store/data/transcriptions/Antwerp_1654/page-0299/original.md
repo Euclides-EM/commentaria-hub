@@ -17,15 +17,15 @@ b Per 34. l.11.
 c Per 7. l.12.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 1.]
+[Curated heading level=5 type=numbered_corollaries: 1.]
 
 1. Priſmatum æquè altorum eadem eſt proportio, quæ baſium. Id enim oſtenſum eſt de pyramidibus p.6.
 
-[Curated heading level=4 type=numbered_item: 2.]
+[Curated heading level=5 type=numbered_corollaries: 2.]
 
 2. Similium priſmatum proportio eſt triplicata proportionis homologorum laterum. Id enim oſtenſum eſt de pyram. p.8.
 
-[Curated heading level=4 type=numbered_item: 3.]
+[Curated heading level=5 type=numbered_corollaries: 3.]
 
 3. Æqualia priſmata reciprocant baſes & altitudines, & quæ reciprocant ſunt æqualia. Id enim de pyramidibus oſtenditur p.9.
 

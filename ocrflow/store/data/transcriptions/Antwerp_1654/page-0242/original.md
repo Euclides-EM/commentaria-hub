@@ -16,11 +16,11 @@ d Per 15.l.6.
 e Per 1.l.6.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. VI, PROPOSITIO XX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XX.]
 
 ## PROPOSITIO XX.
 
-[Curated heading level=2 type=figures: Fig. 38]
+[Curated heading level=5 type=figures: Fig. 38]
 
 {dropcap:S|lines=2|style=plain}Imilia polygona (A B C D E, F G H I K) diuiduntur (1) in ſimilia triangula (P, S & Q, T, & R, V) numero æqualia: (2) & totis proportionalia: (3) & polygonorum proportio duplicata eſt proportionis laterum (A B, F G) inter æquales angulos (B, G & B A E, G F K) exiſtentium.
 

@@ -10,17 +10,13 @@ NOBIS OCTAVVS.
 
 ## DEFINITIONES.
 
-[Curated heading level=1 type=figures: Liber XII]
-
-[Curated heading level=2 type=figures: Fig. 1]
+[Curated heading level=5 type=figures: Fig. 1]
 
 [Margin]
 Fig. 1. l. 12. tabulâ 5.
 [/Margin]
 
-[Curated heading level=1 type=definitions: Liber XII]
-
-[Curated heading level=2 type=definitions: Lib. XII, Def. 1]
+[Curated heading level=4 type=definitions: 1.]
 
 1. Pyramis eſt ſolidum (Z L) triangulis (A L C, C L F, F L B, B L A) comprehenſum ab vno plano (Z) ad vnum punctum (L) conſtitutis.
 

@@ -5,11 +5,11 @@ que l'on compare. Or ces trois raiſons ſont égales par l'hypotheſe, & une ra
 
 On prouvera de même tous les autres cas.
 
-[Curated heading level=2 type=propositions: XVI. SEPTIEME THEOREME.]
+[Curated heading level=2 type=propositions: SEPTIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XVI. SEPTIEME THEOREME.]
+[Curated heading level=2 type=theorems: SEPTIEME THEOREME.]
 
-### SEPTIEME THEOREME.
+## SEPTIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XVI.]
 
@@ -23,11 +23,11 @@ Mais la raiſon de ceux entre leſquels il y a double intervale eſt doublée ; 
 
 La 1re partie eſt claire par 4. & la 2e, ſuppoſé cette premiere, n'eſt qu'une ſuite de la propoſition precedente.
 
-[Curated heading level=2 type=propositions: XVII. HUITIEME THEOREME.]
+[Curated heading level=2 type=propositions: HUITIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XVII. HUITIEME THEOREME.]
+[Curated heading level=2 type=theorems: HUITIEME THEOREME.]
 
-### HUITIEME THEOREME.
+## HUITIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XVII.]
 
@@ -39,7 +39,7 @@ La raiſon d'une grandeur de pluſieurs dimenſions à toute autre grandeur homo
 
 Ce n'eſt qu'une application de la definition de la raiſon compoſée. Car comparant chacune des dimenſions d'une grandeur à chacune des dimenſions de l'autre, on met tous les antecedens de ces raiſons dans une des grandeurs, & tous les conſequens dans l'autre. Or une grandeur de pluſieurs dimenſions eſt la même choſe que le produit de ces dimenſions multipliées l'une par l'autre. Et par conſequent les grandeurs ſont entr'elles comme le produit de leurs dimenſions, c'eſt à dire, comme le produit des antecedens des raiſons de chacune des dimenſions de l'une à chacune des dimenſions de l'autre, au produit des conſequens de ces mêmes raiſons. Ce qui eſt une raiſon compoſée de ces raiſons par la definition même de la raiſon compoſée.
 
-### PREMIER COROLLAIRE.
+## PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XVIII.]
 

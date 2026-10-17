@@ -20,19 +20,11 @@ Oder also:
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. A Werde zweymahl/
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. deßgleichen B zweymahl/ und
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. a üm die Helffte.
-
-[Curated heading level=4 type=numbered_item: 4.]
 
 4. wie auch b üm die Helffte vergrössert.
 

@@ -1,11 +1,13 @@
 <!-- Running title: LIBER IX. -->
 <!-- Page number: 317 -->
 
+[Curated heading level=1 type=duplicate_pages: Page 720, duplicate of page 718]
+
 medij C D, eſſe æqualem quadrato, qui ex dimidio numero C B, efficitur. Nam cum numerus quadratus ipſius C B, per 4. theorema, æqualis ſit quadratis partium C D, D B, vna cum plano numero bis comprehenſo ſub C D, D B; numero vero comprehenſo ſub C D, D B, vna cum quadrato ipſius D B, æqualis ſit, per 3. theorema, numerus factus ex C B, in D B; erit numerus quadratus ipſius C B, æqualis etiam reliquo quadrato ipſius CD, vna cum reliquo numero facto ex C D, in D B, & numero ex C B, hoc eſt, ex A C, in D B, producto. Atqui ex 1. theorem. numeris, qui fiunt ex C D, in D B, & ex A C, in D B, æqualis eſt numerus, qui fit ex A D, in D B. Igitur quadratus ipſius C B, æqualis erit quadrato ipſius C D, vna cum numero qui fit ex A D, in D B; hoc eſt, numerus factus ex A D, in D B, vna cum quadrato ipſius C D, æqualis eſt quadrato ipſius C B. Quod eſt propoſitũ.
 
 [Diagram: horizontal line with points labelled A, C, D, B]
 
-[Curated heading level=5 type=numbered_item: VI.]
+[Curated heading level=5: VI]
 
 [Margin]
 VI.

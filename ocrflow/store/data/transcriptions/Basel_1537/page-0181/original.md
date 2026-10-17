@@ -1,12 +1,6 @@
 <!-- Page number: 170 -->
 
-[Curated heading level=1 type=theorems: ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS]
-
-[Curated heading level=1 type=problems: ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS]
-
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS.
-
-[Curated heading level=2 type=definitions: Euclidis ex Zamberto. Diffinitiones.]
 
 ## Euclidis ex Zamberto. Diffinitiones.
 
@@ -16,7 +10,11 @@
 
 19 Quadratus numerus,est qui æque æqualis, uel qui sub duobus æqualibus numeris continetur. 20 Cubus uero,qui æque æqualis æque uel qui sub tribus æqualibus uumeris continetur. 21 Numeri proportionales, sunt quando primus secundi, & tertius quarti æque fuerit multiplex,uel eadem pars uel eædem partes.
 
+[Curated heading level=3 type=definitions: Similes plani & solidi]
+
 Similes plani & solidi numeri, sunt qui proportionalia habent latera.
+
+[Curated heading level=3 type=definitions: Perfectus numerus]
 
 Perfectus numerus,est qui suijpsius pattibus est æqualis.
 

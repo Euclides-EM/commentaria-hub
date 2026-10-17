@@ -24,9 +24,9 @@ u. dem Kreyß dahf umbschrieben/ n. 4. Besch. IV.
 
 Ist also umb den O dahf ein □ bcge beschrieben. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der VIII. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der VIII. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 8. Werck-Stück. Der VIII. Vortrag.]
+[Curated heading level=2 type=problems: Das 8. Werckstück.]
 
 ## Der VIII. Vortrag.
 
@@ -45,11 +45,7 @@ Viereck bcde.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werden die Zwergstriche bd, ec gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Alle Seiten des Vierecks bc, cd, de, eb werden in zwey gleiche Theile bf | fc : ci | id und so weiter/ getheilet/n. 10. I.
 

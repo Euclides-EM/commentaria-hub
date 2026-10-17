@@ -7,7 +7,7 @@ faces de ce prisme seront des quarrés égaux, et que ses angles solides sont é
 F. 245.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: 3.]
+[Curated heading level=4: 3°.]
 
 3°. *L’octaedre.* Soit AMB un triangle équilatéral donné : sur le côté AB décrivez le quarré ABCD ; au point O, centre de ce quarré, élevez sur son plan la perpendiculaire TS, terminée de part et d’autre en T et S, de maniere que OT=OS=AO ; joignez ensuite SA, SB, TA, etc. ; vous aurez un solide SABCDT, composé de deux pyramides quadrangulaires SABCD, TABCD, adossées par leur base commune ABDC : ce solide sera l’octaedre régulier demandé.
 

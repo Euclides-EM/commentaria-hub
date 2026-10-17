@@ -7,9 +7,9 @@ deux des points mentionnés passera nécessairement par le troisième et sera pe
 
 Car cette perpendiculaire se confond avec celle qui seroit abaissée du centre sur la même corde, puisqu’elles passent toutes deux par le milieu de la corde.
 
-[Curated heading level=2 type=propositions: PROPOSITION VII. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION VII.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION VII.]
+[Curated heading level=2 type=theorems: PROPOSITION VII.]
 
 ## PROPOSITION VII.
 

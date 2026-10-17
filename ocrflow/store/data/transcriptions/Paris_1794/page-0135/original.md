@@ -19,9 +19,9 @@ homologues proportionnels; donc elles sont semblables*.
 
 *Scholie.* L’angle d’un polygone régulier se détermine par le nombre de ses côtés comme celui d’un polygone équiangle. *Voyez la propos. XXIX, liv. I.*
 
-[Curated heading level=2 type=propositions: PROPOSITION II. THÉORÊME.]
+[Curated heading level=2 type=propositions: PROPOSITION II.]
 
-[Curated heading level=2 type=theorems: THÉORÊME. PROPOSITION II.]
+[Curated heading level=2 type=theorems: PROPOSITION II.]
 
 ## PROPOSITION II.
 

@@ -5,37 +5,37 @@ Nim für dich ain rechtliniſche figur / wie deren ettlich hiebey verzaichnet / 
 
 [Figure: three polygons divided into triangles, the lower labelled b]
 
-### ¶ Warnung.
+#### ¶ Warnung.
 
 Darbey wiß / daß die vilſeittigen figuren zwayerlai ſeind / ettlich Regular / das iſt / gleichen ſeittig / da alle linien vnd winckel einander gleich ſeind / als alle die ſeind / ſo in diſer propoſ. anhang verzaichnet / außgenommen die zwo / ſo mit a vnd b gemerckt. Ettlich irregular / das iſt / vngeſchickt oder vngleich / als a vnd b ſeind / das iſt / da ein linj oder winckel nit durchauß dem andern gleich. Darbey merckh / was hierin von vilſeittigen figuren geredt / das es von baiden geſchlechten warhafftig iſt. Hab diſe ſtücklin dem kunſtliebendem leſer / als die nit allain luſtig vnd holdſelig zůwiſſen / ſonder auch (wie härnach offenbar ſoll werden) gantz nutzlich / kains wegs vermaint zůuerhalten ſein.
 
-[Curated heading level=3 type=margin_topics: Zwaierlay rechtliniſch vilſeittig figuren]
+[Curated heading level=3 type=marginal_headings: Zwaierlay rechtliniſch vilſeittig figuren]
 
 [Margin]
 Zwaierlay rechtliniſch vilſeittig figuren.
 [/Margin]
 
-[Curated heading level=2 type=propositions: XXXIII. Die dreyvnddreyſſigſt Prop.]
+[Curated heading level=3 type=propositions: XXXIII Die dreyvnddreyſſigſt Prop.]
 
-## XXXIII Die dreyvnddreyſſigſt Prop.
+### XXXIII Die dreyvnddreyſſigſt Prop.
 
 Linien welche zwo parallel linien ſo einand̓ an der lenge glich ſein / jede auff einer ſeiten zeſamē knüpffen od̓ binden ſeind auch einander glich vnd parallel.
 
 [Figure: two quadrilaterals with diagonals and sides labelled a, b, c, d]
 
-### Erklärung.
+#### Erklärung.
 
 Die zwo parallel a vnnd b ſo gleicher lenge diſe werden zůſamen gezogen mitt den linien c vnnd d durch yede an ainer ſeitten / volgt das die linien c d ainander gleich vnd parallel ſeind. Diß magſtu durch hilff ainer vbereckh gezognen linien / welche diameter genent / vnnd hie mitt dem bůchſtaben e bezaichnet wirdt / durch die 4 vnnd 27 prop. beweyſen.
 
-[Curated heading level=3 type=margin_terms: Diameter]
+[Curated heading level=3 type=marginal_headings: Diameter]
 
 [Margin]
 Diameter.
 [/Margin]
 
-[Curated heading level=2 type=propositions: XXXIIII. Die viervnddryſſigſten Prop.]
+[Curated heading level=3 type=propositions: XXXIIII Die viervnddryſſigſten Prop.]
 
-## XXXIIII Die viervnddryſſigſten Prop.
+### XXXIIII Die viervnddryſſigſten Prop.
 
 [Subhead]
 Ainer yeden paralleliſchen figur
@@ -43,7 +43,7 @@ Ainer yeden paralleliſchen figur
 
 Diſt / welche mit vier liniē begriffen / da je zwo gegē einander vber parallel ſeind. zwen winckel vbereckhs / auch des gleichen zwo ſeitten gegen einander vber / ſeind einander gleich / Vnd der diameter zerteilt ſy in zwo gleiche tail.
 
-### Erklärung.
+#### Erklärung.
 
 Diſe Propoſition iſt vmbkehrt / die vorgehnd mag auch darauß verſtanden vnnd bewyſen werden.
 

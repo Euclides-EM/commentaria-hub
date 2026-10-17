@@ -14,15 +14,15 @@ Secūdus, priori similis, discursus ostensionis.
 
 Et deinceps ita quantumlibet, prioribus consequentes adiungendo magnitudines, pro contingente ipsorum æquè multiplicium e/f & g/h multitudine. Atqui multitudo e/l, l/m, & m/f, multitudini g/n, n/o, & o/h æqualis est: vtraque enim ipsi k numero æqualis. Si igitur primū secundi æquè fuerit multiplex & tertiū quarti: &c. vt in theoremate. Quod fuerat ostendendum.
 
-[Curated heading level=2 type=propositions: Theorema 4, Propositio 4.]
+[Curated heading level=3 type=propositions: Theorema 4, Propositio 4.]
 
-[Curated heading level=2 type=theorems: Theorema 4, Propositio 4.]
+[Curated heading level=3 type=theorems: Theorema 4, Propositio 4.]
 
-## Θεώρημα δ, Πρόθεσις δ.
+### Θεώρημα δ, Πρόθεσις δ.
 
 Ἐὰν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, ⁊ τρίτον πρὸς τέταρτον· καὶ τὰ ἰσάκις πολλαπλάσια τοῦ τε πρώτου καὶ τρίτου πρὸς τὰ ἰσάκις πολλαπλάσια τοῦ δευτέρου ⁊ τετάρτου καθ᾽ ὁποιονοῦν πολλαπλασιασμόν, τὸν αὐτὸν ἕξει λόγον ληφθέντα κατάλληλα.
 
-## Theorema 4, Propositio 4.
+### Theorema 4, Propositio 4.
 
 SI primum ad secundum eandem habuerit rationem, & tertiū ad quartum: & æquè multiplicia primi & tertij ad æquè multiplicia secundi & quarti iuxta quāuis multiplicationem, eandem habebunt rationem sumpta adinuicem.
 

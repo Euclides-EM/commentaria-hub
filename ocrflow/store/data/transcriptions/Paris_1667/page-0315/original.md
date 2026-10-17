@@ -1,13 +1,17 @@
 <!-- Running title: DE GEOMETRIE. LIVRE XIII. -->
 <!-- Page number: 277 -->
 
+[Curated heading level=4 type=definitions: Ceux qui ne comprennent]
+
 Ceux qui ne comprennent point le même angle, coſtez oppoſez.
+
+[Curated heading level=4 type=definitions: Les angles de même]
 
 Les angles de même ſont proches ou oppoſez.
 
-[Curated heading level=2 type=propositions: XXXVI. THEOREME.]
+[Curated heading level=3 type=propositions: THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXVI. THEOREME.]
+[Curated heading level=3 type=theorems: THEOREME.]
 
 ### THEOREME.
 
@@ -27,9 +31,9 @@ Soit trouvé le cercle dont la circonference paſſe par les 3 points *fbc*. par
 
 Car tout angle qui a *fc* pour baſe, & qui eſt inſcrit dans ce cercle du coſté de *d*, comme *fgc*, plus l'angle *b*, vaut deux droits. IX. 26. Or l'angle *fgc* eſt égal à l'angle *d*, qui plus l'angle *b* vaut auſſy deux droits. Donc l'angle *d* eſt auſſy inſcrit dans ce cercle par IX. 30.
 
-[Curated heading level=2 type=definitions: XXXVII. DIVISION ET DEFINITIONS.]
-
 ### DIVISION ET DEFINITIONS.
+
+[Curated heading level=4 type=definitions: XXXVII.]
 
 [Curated heading level=4 type=paragraph_order: XXXVII.]
 
@@ -41,9 +45,9 @@ LORSQUE les coſtez oppoſez d'un quadrilatere ſont paralleles, le 1ᵉʳ au 3�
 
 ### DES PARALLELOGRAMMES.
 
-[Curated heading level=2 type=propositions: XXXVIII. PREMIER THEOREME.]
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXVIII. PREMIER THEOREME.]
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
 
 #### PREMIER THEOREME.
 
@@ -55,9 +59,9 @@ XXXVIII.
 
 SI les coſtez oppoſez d'un quadrilatere ſont égaux, ils ſont paralleles; & s'ils ſont paralleles, ils ſont égaux. VI. 26. & 27.
 
-[Curated heading level=2 type=propositions: XXXIX. SECOND THEOREME.]
+[Curated heading level=4 type=propositions: SECOND THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXIX. SECOND THEOREME.]
+[Curated heading level=4 type=theorems: SECOND THEOREME.]
 
 #### SECOND THEOREME.
 
@@ -69,9 +73,9 @@ XXXIX.
 
 SI tous les 4 angles d'un quadrilatere ſont droits, il eſt parallelogramme. VI. 23.
 
-[Curated heading level=2 type=propositions: XL. TROISIEME THEOREME.]
+[Curated heading level=4 type=propositions: TROISIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XL. TROISIEME THEOREME.]
+[Curated heading level=4 type=theorems: TROISIEME THEOREME.]
 
 #### TOISIEME{printer-error-correction:TROISIEME} THEOREME.
 

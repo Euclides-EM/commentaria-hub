@@ -1,16 +1,14 @@
 <!-- Running title: LIBER III. -->
 
-[Curated heading level=1 type=theorems: LIBER III.]
+[Curated heading level=3 type=propositions: Theorema 1, Propoſitio 2.]
 
-[Curated heading level=2 type=propositions: Theorema 1, Propoſitio 2.]
+[Curated heading level=3 type=theorems: Theorema 1, Propoſitio 2.]
 
-[Curated heading level=2 type=theorems: Theorema 1, Propoſitio 2.]
-
-## Θεώρημα α, Πρόθεσις β.
+### Θεώρημα α, Πρόθεσις β.
 
 Ἐὰν κύκλου ἐπὶ τῆς περιφερείας ληφθῇ δύο τυχόντα σημεῖα,ἡ ἐπὶ τὰ αὐτὰ σημεῖα ἐπιζευγνυμένη εὐθεῖα ἐντὸς πεσεῖται τοῦ κύκλου.
 
-## Theorema 1, Propoſitio 2.
+### Theorema 1, Propoſitio 2.
 
 SI in circuli circunferentia duo fuerint puncta vtcunque contingentia : ad ea puncta applicata recta linea, intra ipſum circulum cadit.
 
@@ -22,15 +20,15 @@ Oſtenſio rurſum per impoſſibile.
 
 [Diagram: a d b c e f]
 
-[Curated heading level=2 type=propositions: Theorema 2, Propoſitio 3.]
+[Curated heading level=3 type=propositions: Theorema 2, Propoſitio 3.]
 
-[Curated heading level=2 type=theorems: Theorema 2, Propoſitio 3.]
+[Curated heading level=3 type=theorems: Theorema 2, Propoſitio 3.]
 
-## Θεώρημα β, Πρόθεσις γ.
+### Θεώρημα β, Πρόθεσις γ.
 
 Ἐὰν ἐν κύκλῳ εὐθεῖά τις διὰ τοῦ κέντρου,εὐθεῖάν τινα μὴ διὰ τοῦ κέντρου δίχα τέμνῃ,καὶ πρὸς ὀρθὰς αὐτὴν τεμεῖ:καὶ ἐὰν πρὸς ὀρθὰς αὐτὴν τέμνῃ,καὶ δίχα αὐτὴν τεμεῖ.
 
-## Theorema 2, Propoſitio 3.
+### Theorema 2, Propoſitio 3.
 
 SI in circulo recta linea quædam per centrum extenſa, quandam non per centrum extenſam rectam lineam bifariam ſecuerit : & ad angulos rectos ipſam diſpeſcet. Et ſi ad angulos rectos ipſam diſpeſcat:bifariam quoq; ipſam ſecabit.
 

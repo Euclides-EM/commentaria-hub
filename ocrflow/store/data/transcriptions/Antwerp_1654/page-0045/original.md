@@ -13,11 +13,11 @@ Ex defi. 36.
 
 Eius loco alia duo ſequentia ſubſtituo, quorum veritas ex definitione paralleliſmi ſtatim apparet. Eſto igitur axioma.
 
-[Curated heading level=2 type=axioms: Lib. I, Ax. 11]
+[Curated heading level=5 type=axioms: 11.]
 
 11. Parallelæ lineæ communi perpendiculo vtuntur.
 
-[Curated heading level=2 type=figures: Fig. 21]
+[Curated heading level=5 type=figures: Fig. 21]
 
 Hoc eſt, recta, quæ ad parallelarum vnam perpendicularis, eſt quoque perpẽdicularis ad alteram.
 
@@ -25,19 +25,19 @@ Hoc eſt, recta, quæ ad parallelarum vnam perpendicularis, eſt quoque perpẽd
 Fig.21.
 [/Margin]
 
-[Curated heading level=2 type=axioms: Lib. I, Ax. 12]
+[Curated heading level=5 type=axioms: 12.]
 
 12. Perpendicula bina (L O, Q I) ex parallelis æquales vtrimque intercipiunt partes (L I, O Q.)
 
-[Curated heading level=2 type=axioms: Lib. I, Ax. 13]
+[Curated heading level=5 type=axioms: 13.]
 
 13. Duæ rectæ lineæ ſpatium non comprehendunt.
 
 Ad hoc ſiquidem opus eſt ad minimum tribus.
 
-[Curated heading level=2 type=axioms: Lib. I, Ax. 14]
+[Curated heading level=5 type=axioms: 14.]
 
-[Curated heading level=2 type=figures: Fig. 22]
+[Curated heading level=5 type=figures: Fig. 22]
 
 14. Duæ rectæ lineæ nequeunt habere ſegmentum commune : & omnes rectæ punctualiter ſe interſecant.
 

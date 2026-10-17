@@ -6,7 +6,7 @@ hyp. | b 2|2 2c,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 6. a. b.]
+[Curated heading level=4 type=axioms: 6. a. b.]
 
 ### 6. a. b.
 
@@ -19,7 +19,7 @@ hyp. | b 2|2 2d,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 6. a. c.]
+[Curated heading level=4 type=axioms: 6. a. c.]
 
 ### 6. a. c.
 
@@ -31,7 +31,7 @@ hyp. | a 2|2 2b,
 
 [Figure]
 
-[Curated heading level=3 type=axioms: AXIOME 6. a. d.]
+[Curated heading level=4 type=axioms: 6. a. d.]
 
 ### 6. a. d.
 
@@ -43,7 +43,7 @@ hyp. | a 2|2 2c,
 
 [Figure]
 
-[Curated heading level=2 type=axioms: AXIOME 7. a. 1.]
+[Curated heading level=3 type=axioms: 7. a. 1.]
 
 ### 7. a. 1.
 

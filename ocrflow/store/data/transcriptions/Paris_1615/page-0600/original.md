@@ -2,12 +2,6 @@
 
 [Ornament]
 
-[Curated heading level=1 type=propositions: ELEMENT TREIZIESME.]
-
-[Curated heading level=1 type=theorems: ELEMENT TREIZIESME.]
-
-[Curated heading level=1 type=problems: ELEMENT TREIZIESME.]
-
 # ELEMENT TREIZIESME.
 
 [Curated heading level=2 type=propositions: THEOR. 1. PROP. I.]

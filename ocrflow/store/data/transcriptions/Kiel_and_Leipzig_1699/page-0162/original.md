@@ -17,9 +17,9 @@ und ef muß durch den Mittel-Düpffel gehen/n. 1. Zugabe III. Gleicher gestalt w
 
 Wird demnach allezeit derjenige Düttel/ von welchem mehr/ als zween gerade Striche zu des Kreyses Umfang können gezogen werden/ solches Kreyses Mittel-Düpffel seyn. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der X. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der X. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 9. Beweiß-Stück. Der X. Vortrag.]
+[Curated heading level=2 type=theorems: Das 9. Beweiß-Stück.]
 
 ## Der X. Vortrag.
 
@@ -37,8 +37,6 @@ Es kan kein Kreyß einen andern Kreyß in mehr/ als zween Dütteln schneiden.
 Nicht in mehr/als in 2. Dütteln geschnitten.
 
 ### Vorbereitung.
-
-[Curated heading level=4 type=numbered_item: 1.]
 
 1. Zu drey Dütteln/ wo die Kreyse einander durchschneiden/ nemlich zu f, o, d werden aus dem Mittel-Düpffel gerade Striche af, ac, ad gezogen.
 

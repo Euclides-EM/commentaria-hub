@@ -9,11 +9,11 @@ La 2e raiſon ſera inverſe de la 1re en diſpoſant les termes ainſy, *b. c :
 
 Or la raiſon compoſée de ces deux raiſons ſera celle de *bg* à *cf*. Ce qui fait une raiſon d'égalité, parce que le produit des extrêmes d'une proportion ( tel qu'eſt *bg* de la proportion *b. c :: f. g.* ) eſt égal au produit des extrêmes de la même proportion ; ( tel qu'eſt *cf*. ) par Liv. II. 54.
 
-[Curated heading level=2 type=propositions: XV. SIXIEME THEOREME.]
+[Curated heading level=2 type=propositions: SIXIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XV. SIXIEME THEOREME.]
+[Curated heading level=2 type=theorems: SIXIEME THEOREME.]
 
-### SIXIEME THEOREME.
+## SIXIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XV.]
 

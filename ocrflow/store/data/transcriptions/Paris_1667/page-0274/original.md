@@ -5,9 +5,9 @@ Tout cercle dont la circonference paſſera par le point commun , & qui aura pou
 
 [Figure: several lines drawn from a common apex to a horizontal base line, with a circle passing through the apex and touching the base line]
 
-[Curated heading level=2 type=propositions: LXVIII. QUATRIEME PROBLEME.]
+[Curated heading level=3 type=propositions: QUATRIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: LXVIII. QUATRIEME PROBLEME.]
+[Curated heading level=3 type=problems: QUATRIEME PROBLEME.]
 
 ### QUATRIEME PROBLEME.
 

@@ -3,7 +3,7 @@
 
 deux angles peuvent eſtre compris dans le même eſpace parallele. Car mettant ces deux baſes ſur une même ligne, la ligne qui paſſera par les deux ſommets ſera parallele à celle qui comprendra les deux baſes.
 
-[Curated heading level=2 type=lemmas: IX. HUITIEME LEMME.]
+[Curated heading level=2 type=lemmas: HUITIEME LEMME.]
 
 ## HUITIEME LEMME.
 
@@ -17,7 +17,7 @@ DANS le même eſpace parallele, ou dans les eſpaces paralleles égaux, toutes 
 
 Et au contraire les eſpaces paralleles ſont égaux quand les également inclinées y ſont égales. Car de là il eſt certain que les perpendiculaires le ſont auſſy. VIII. 56.
 
-[Curated heading level=2 type=lemmas: X. NEUVIEME LEMME.]
+[Curated heading level=2 type=lemmas: NEUVIEME LEMME.]
 
 ## NEUVIEME LEMME.
 
@@ -29,7 +29,7 @@ X.
 
 LORS qu'une même ligne eſt coupée par pluſieurs lignes toutes paralleles, toutes les portions de cette ligne coupée ſont également inclinées entre les paralleles qui les renferment. VIII. 57.
 
-[Curated heading level=2 type=lemmas: XI. DIXIEME LEMME.]
+[Curated heading level=2 type=lemmas: DIXIEME LEMME.]
 
 ## DIXIEME LEMME.
 
@@ -41,9 +41,7 @@ XI.
 
 LORS qu'il y a proportion entre quatre lignes, on dit que deux de ces lignes ſont proportionelles aux deux autres lignes quand les deux antecedens de la proportion ſe trouvent dans les deux premieres, & les deux conſequens dans les deux dernieres. D'où il s'enſuit auſſy qu'*Alternando*, on peut prendre auſſy les deux premieres pour les deux termes d'une raiſon, & les deux dernieres pour les deux termes de l'autre.
 
-[Curated heading level=1 type=propositions: LIVRE DIXIEME.]
-
-[Curated heading level=2 type=propositions: XII. PROPOSITION FONDAMENTALE]
+[Curated heading level=2 type=propositions: PROPOSITION FONDAMENTALE]
 
 ## PROPOSITION FONDAMENTALE
 [Subhead]

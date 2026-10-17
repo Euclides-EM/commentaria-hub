@@ -10,11 +10,11 @@ b Per 8.l.11.
 c Per defin. 4.l.11.
 [/Margin]
 
-[Curated heading level=2 type=propositions: Lib. XI, PROPOSITIO XIX.]
+[Curated heading level=2 type=propositions: PROPOSITIO XIX.]
 
 ## PROPOSITIO XIX.
 
-[Curated heading level=2 type=figures: Fig. 26]
+[Curated heading level=5 type=figures: Fig. 26]
 
 {dropcap:S|lines=2|style=plain}I duo plana (M F, G D) ſe ſecantia, ſint ambo recta eidem plano (A B:) erit etiam communis illorum ſectio (K L) recta plano (A B.)
 

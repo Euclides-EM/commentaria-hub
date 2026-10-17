@@ -27,9 +27,9 @@ XXXIII.
 
 On peut faire icy un Corollaire ſemblable à celuy du Theoreme precedent. Ie le laiſſe à chercher, & à prouver ſi l'on veut par les principes du livre des lignes proportionelles.
 
-[Curated heading level=2 type=propositions: XXXIV. HUITIEME THEOREME.]
+[Curated heading level=3 type=propositions: HUITIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXIV. HUITIEME THEOREME.]
+[Curated heading level=3 type=theorems: HUITIEME THEOREME.]
 
 ### HUITIEME THEOREME.
 
@@ -51,9 +51,9 @@ b b = c c. + d d + 2. d y.
 
 Donc b b = c c + d d + d c. égal à 2 d y.
 
-[Curated heading level=2 type=propositions: XXXV. NEUVIEME THEOREME.]
+[Curated heading level=3 type=propositions: NEUVIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXV. NEUVIEME THEOREME.]
+[Curated heading level=3 type=theorems: NEUVIEME THEOREME.]
 
 ### NEUVIEME THEOREME.
 

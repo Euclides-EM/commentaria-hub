@@ -23,9 +23,9 @@ XXXVII.
 
 LEs cercles ſont entr'eux comme les quarrez de leurs diametres. Car les uns & les autres ſont en raiſon doublée de celle de leurs diametres.
 
-[Curated heading level=2 type=propositions: XXXVIII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXVIII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=theorems: QUATRIEME THEOREME.]
 
 ### QUATRIEME THEOREME.
 
@@ -47,9 +47,9 @@ Donc ils ſont auſſy en raiſon doublée de ces diametres.
 
 Donc ils ſont auſſy entr'eux comme les cercles & comme les quarrez des diametres.
 
-[Curated heading level=2 type=propositions: XXXIX. CINQUIEME THEOREME.]
+[Curated heading level=3 type=propositions: CINQUIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XXXIX. CINQUIEME THEOREME.]
+[Curated heading level=3 type=theorems: CINQUIEME THEOREME.]
 
 ### CINQUIEME THEOREME.
 

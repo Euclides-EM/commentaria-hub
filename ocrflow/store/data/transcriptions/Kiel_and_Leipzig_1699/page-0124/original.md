@@ -8,9 +8,9 @@ aa + cc + 2bc + 2cc | 2ac + bb + 2bc + 2cc — n. 2. Grs. I.
 Dw. aa + cc | 2ac + bb — n. 3. Gr. I.
 W. Z. B.
 
-[Curated heading level=2 type=propositions: Der IIX. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der IIX. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 8. Beweiß-Stück. Der IIX. Vortrag.]
+[Curated heading level=2 type=theorems: Das 8. Beweiß-Stück.]
 
 ## Der IIX. Vortrag.
 
@@ -31,23 +31,13 @@ Weñ ein gerader Strich auff waserley Weise in zwey Stücke geschnitten ist/ so 
 
 ### Vorbereitung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Der Strich ab werde verlänget biß d. daß bd | bc
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Auff einen Strich/ so dem Strich ad gleich/ werde ein gleichseitiges □ gesetzet. n. 46. I.
 
-[Curated heading level=4 type=numbered_item: 3.]
-
 3. Dieser Strich werde eben so getheilet/ wie der Strich ad. n. 3. I.
 
-[Curated heading level=4 type=numbered_item: 4.]
-
 4. Auff ac werde ein gleichseitig □ gesetzet. n. 46. I.
-
-[Curated heading level=4 type=numbered_item: 5.]
 
 5. Werden vier □ a b c gemacht.
 

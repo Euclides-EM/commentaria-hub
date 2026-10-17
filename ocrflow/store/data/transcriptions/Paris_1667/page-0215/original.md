@@ -7,9 +7,9 @@ Soit élevé du point *b* une perpendiculaire à *b f*, & qu'il y ait une autre 
 
 Donc le ſegment oppoſé à celuy vers lequel eſt *f b* ſera capable d'un angle égal à l'angle *f b d*, par le 5e Corollaire, parceque l'un ſera l'angle du ſegment, & l'autre l'angle dans le ſegment oppoſé.
 
-[Curated heading level=2 type=propositions: XL. CINQUIEME PROBLEME.]
+[Curated heading level=4 type=propositions: CINQUIEME PROBLEME.]
 
-[Curated heading level=2 type=problems: XL. CINQUIEME PROBLEME.]
+[Curated heading level=4 type=problems: CINQUIEME PROBLEME.]
 
 #### CINQUIEME PROBLEME.
 

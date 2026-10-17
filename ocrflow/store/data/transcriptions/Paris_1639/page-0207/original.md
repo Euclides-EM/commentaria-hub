@@ -1,6 +1,6 @@
 <!-- Running title: D'EVCLIDE, LIV. V. -->
 
-[Curated heading level=2 type=definitions: DEF. VI.]
+[Curated heading level=3 type=definitions: VI.]
 
 ### VI.
 

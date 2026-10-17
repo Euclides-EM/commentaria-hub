@@ -45,9 +45,9 @@ A | B
 a | b — n. Gegeb.
 A : a | B : b — n. 7. Besch. V. W. Z. B.
 
-[Curated heading level=2 type=propositions: Der VIII. Vortrag. Beweiß-Stück]
+[Curated heading level=2 type=propositions: Der VIII. Vortrag.]
 
-[Curated heading level=2 type=theorems: Das 8. Beweiß-Stück. Der VIII. Vortrag.]
+[Curated heading level=2 type=theorems: Das 8. Beweiß-Stück.]
 
 ## Der VIII. Vortrag.
 

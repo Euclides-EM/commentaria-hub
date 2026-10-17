@@ -23,9 +23,9 @@ Et ainſy ces angles ſe reduiſent aux angles qui ſe font dans la ſection de 
 
 Voicy donc le Theoreme qui nous apprendra la meſure de ces angles.
 
-[Curated heading level=2 type=propositions: XLII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=propositions: QUATRIEME THEOREME.]
 
-[Curated heading level=2 type=theorems: XLII. QUATRIEME THEOREME.]
+[Curated heading level=3 type=theorems: QUATRIEME THEOREME.]
 
 ### QUATRIEME THEOREME.
 

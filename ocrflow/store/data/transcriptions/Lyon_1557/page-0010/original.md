@@ -2,20 +2,6 @@
 
 [Ornament: foliate headpiece]
 
-[Curated heading level=1 type=propositions: LIBER PRIMVS]
-
-[Curated heading level=1 type=theorems: LIBER PRIMVS]
-
-[Curated heading level=1 type=problems: LIBER PRIMVS]
-
-[Curated heading level=1 type=additions: LIBER PRIMVS]
-
-[Curated heading level=1 type=definitions: LIBER PRIMVS]
-
-[Curated heading level=1 type=postulates: LIBER PRIMVS]
-
-[Curated heading level=1 type=axioms: LIBER PRIMVS]
-
 # IACOBI PELETARII CENOMANI IN EVCLIDIS ELEMENTA GEOMETRICA DEMONSTRATIONVM LIBER PRIMVS.
 
 [Ornament: small fleuron]

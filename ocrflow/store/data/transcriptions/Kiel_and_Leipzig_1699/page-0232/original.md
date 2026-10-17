@@ -10,9 +10,9 @@ Und dem □ eingeschrieben ist/ n. 5. Beschr. IV.
 Ist also dem gegebenen Viereck bcde ein Kreyß fghi einge-
 schrieben. W. Z. M.
 
-[Curated heading level=2 type=propositions: Der IX. Vortrag. Werck-Stück]
+[Curated heading level=2 type=propositions: Der IX. Vortrag.]
 
-[Curated heading level=2 type=problems: Das 9. Werck-Stück. Der IX. Vortrag.]
+[Curated heading level=2 type=problems: Das 9. Werckstück.]
 
 ## Der IX. Vortrag.
 
@@ -32,11 +32,7 @@ Viereck bcde.
 
 ### Wirckung.
 
-[Curated heading level=4 type=numbered_item: 1.]
-
 1. Werden die Zwergstriche bd, ec gezogen.
-
-[Curated heading level=4 type=numbered_item: 2.]
 
 2. Aus dem Düttel a, wo diese Zwergstriche einander durch-
 schneiden/ werde nach der Weite ab ein Kreyß beschrieben.
