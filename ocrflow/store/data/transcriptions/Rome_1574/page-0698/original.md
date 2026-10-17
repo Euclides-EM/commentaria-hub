@@ -46,7 +46,7 @@ D,64.  C,216.
 
 Ex his & hac, quæ ſequuntur, facile demonſtrabuntur, videlicet.
 
-[Curated heading level=4 type=numbered_item: I.]
+[Curated heading level=4: I]
 
 [Margin]
 I.
@@ -65,7 +65,7 @@ C,160.
 5. noni.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: II.]
+[Curated heading level=4: II]
 
 [Margin]
 II.

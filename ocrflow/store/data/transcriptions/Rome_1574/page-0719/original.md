@@ -1,12 +1,14 @@
 <!-- Running title: EVCLID. GEOM. -->
 <!-- Page number: [unclear: 317] -->
 
+[Curated heading level=1 type=duplicate_pages: Page 719, duplicate of page 717]
+
 Sumpto enim numero D, qui dictæ parti AC, æqualis ſit; erit ex 1. theorem. numerus factus ex D, hoc eſt, ex AC, in AB; vel (quod idem eſt) ex AB, in AC, æqualis numeris factis ex D, hoc eſt, ex AC, in CB, & ex D, hoc eſt, ex [unclear: AC], in AC, quadrato ſcilicet ipſius AG{printer-error-correction:AC}. Quod eſt propoſitum.
 
 [Calculation]
 [/Calculation]
 
-[Curated heading level=5 type=numbered_item: IIII.]
+[Curated heading level=5: IIII]
 
 [Margin]
 IIII.
@@ -19,7 +21,7 @@ SIT numerus AB, diuiſus in AC, CB. Dico numerum quadratum ex AB, factum æquale
 [Calculation]
 [/Calculation]
 
-[Curated heading level=5 type=numbered_item: V.]
+[Curated heading level=5: V]
 
 [Margin]
 V.

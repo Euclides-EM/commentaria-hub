@@ -10,7 +10,7 @@ A,4.  B,20.
 C,80.
 [/Calculation]
 
-[Curated heading level=4 type=numbered_item: IIII.]
+[Curated heading level=4: IIII]
 
 [Margin]
 IIII.

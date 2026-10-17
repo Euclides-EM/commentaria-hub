@@ -16,7 +16,7 @@ SINT data duo rectilinea A, & BCD, quibus inueniendum ſit tertium proportionale
 
 [Figure: a triangle labelled A, a triangle BCD, and three similar triangles labelled EFG, HIK on the line EFHI]
 
-[Curated heading level=4 type=numbered_item: III.]
+[Curated heading level=4: III]
 
 [Margin]
 III.
@@ -40,7 +40,7 @@ TRIA rectilinea data ſint A, BCDE, FGH, quibus quartum ſit inueniendum proport
 
 [Figure: a triangle labelled A, a parallelogram BCDE, a triangle FGH, a parallelogram IKLM, and a triangle NOP]
 
-[Curated heading level=4 type=numbered_item: IIII.]
+[Curated heading level=4: IIII]
 
 [Margin]
 IIII.

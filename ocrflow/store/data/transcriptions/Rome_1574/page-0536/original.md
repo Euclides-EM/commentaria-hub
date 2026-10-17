@@ -17,7 +17,7 @@ QVONIAM vero Euclides multa dixit de inuentione linearũ proportionaliũ, nihil 
 
 A DATO rectilineo imperatam partem auferre, ita tamen, ut & ablatum, & id, quod relinquitur, ſimile ſit cuiuis rectilineo dato, ſimiliterque poſitum.
 
-[Curated heading level=4 type=numbered_item: I.]
+[Curated heading level=4: I]
 
 [Margin]
 I.

@@ -1,14 +1,10 @@
 <!-- Running title: INDEX. -->
 
-[Curated heading level=3 type=numbered_item: 21.]
-
 [Margin]
 21
 [/Margin]
 
 Segmentum circuli, in quo angulus conſtitutus eſt rectus, ſemicirculus eſt. 126.b.
-
-[Curated heading level=3 type=numbered_item: 22.]
 
 [Margin]
 22
@@ -16,15 +12,11 @@ Segmentum circuli, in quo angulus conſtitutus eſt rectus, ſemicirculus eſt. 
 
 Si angulo recto recta ſubtenſa bifariam ſecetur, & ex puncto diuiſionis circulus deſcribatur ad interuallum dimidiæ ſubtenſæ; circulus tranſit per angulum rectum. 127.a.
 
-[Curated heading level=3 type=numbered_item: 23.]
-
 [Margin]
 23
 [/Margin]
 
 Si linea recta ducta ad extremitatem lineæ circulum ſecantis fecerit cum ipſa angulos æquales ijs, qui in alternis circuli ſegmentis conſiſtunt, angulis; Linea ducta circulum tanget. 127.b.
-
-[Curated heading level=3 type=numbered_item: 24.]
 
 [Margin]
 24
@@ -32,23 +24,17 @@ Si linea recta ducta ad extremitatem lineæ circulum ſecantis fecerit cum ipſa
 
 Si duæ rectæ ita ſe ſecent, ut rectangulum ſub unius ſegmentis comprehenſum æquale ſit ei, quod ſub ſegmentis alterius cõprehenditur, rectangulo; deſcribi poterit per quatuor illarum puncta extrema, circulus. 129.b.
 
-[Curated heading level=3 type=numbered_item: 25.]
-
 [Margin]
 25
 [/Margin]
 
 Si a puncto quouis extra circulum aſſumpto plurimæ lineæ rectæ circulum ſecantes ducantur; rectangula comprehenſa ſub totis lineis, & partibus exterioribus, inter ſe ſunt æqualia. 130.b.
 
-[Curated heading level=3 type=numbered_item: 26.]
-
 [Margin]
 26
 [/Margin]
 
 Duæ rectæ lineæ ab eodem puncto ductæ, quæ circulum tangant, inter ſe ſunt æquales. 131.a.
-
-[Curated heading level=3 type=numbered_item: 27.]
 
 [Margin]
 27
@@ -58,15 +44,11 @@ Ab eodem puncto extra circulum aſſumpto, duci tantum poſſunt duæ lineæ, qu
 
 ## IN QVARTO LIBRO.
 
-[Curated heading level=3 type=numbered_item: 1.]
-
 [Margin]
 1
 [/Margin]
 
 {dropcap:I|lines=2|style=plain}N dato circulo rectam lineam accommodare æqualem datæ rectæ lineæ, quæ circuli diametro non ſit maior, & alteri datæ parallelam. 133.b.
-
-[Curated heading level=3 type=numbered_item: 2.]
 
 [Margin]
 2
@@ -74,23 +56,17 @@ Ab eodem puncto extra circulum aſſumpto, duci tantum poſſunt duæ lineæ, qu
 
 Si circulo circa triangulum deſcripto, centrum intra triangulum cadat, triangulum eſt acutangulum: Si uero in unum latus trianguli, rectangulum: ſi denique extra triangulum, obtuſangulum. 135.b.
 
-[Curated heading level=3 type=numbered_item: 3.]
-
 [Margin]
 3
 [/Margin]
 
 Centrum circuli circa triangulum acutangulum deſcripti intra triangulum cadit: circa rectangulum uero, in latus recto angulo oppoſitum: circa obtuſangulum denique, extra triangulum. 135.b.
 
-[Curated heading level=3 type=numbered_item: 4.]
-
 [Margin]
 4
 [/Margin]
 
 Per data tria puncta non in una recta linea exiſtentia circulum deſcribere. 135.b.
-
-[Curated heading level=3 type=numbered_item: 5.]
 
 [Margin]
 5

@@ -13,7 +13,7 @@ habeant rationem; & detracti quidam habeant ad eoſdem eandem: Et reliqui ad eo�
 
 *ITEM & hoc demonſtrabimus.*
 
-[Curated heading level=4 type=numbered_item: VII.]
+[Curated heading level=4: VII]
 
 [Margin]
 VII.

@@ -22,7 +22,7 @@ ALITER. Sit rurſus inter rectilinea A, & B, perquirendum mediũ proportionale. 
 
 QVOD etiam in hunc modum confirmari poteſt. Cum DF, GI, ſimilia ſint, ſimiliterq́ue poſita, conſiſtent ea circa eandem diametrum. Quare complementa EK, EL, æqualia erunt. Vt autem DF, ad EK, ita eſt EL, ad GI, eo quod vtraque proportio eadem ſit proportioni DE, ad EI. Igitur erit, vt DF, ad EK, ita EK, ad GI.
 
-[Curated heading level=4 type=numbered_item: V.]
+[Curated heading level=4: V]
 
 [Margin]
 26. ſexti.

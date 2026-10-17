@@ -15,7 +15,7 @@ IN parallelogrammo ABCD, duæ rectæ EF, GH, lateribus AD, DC, parallelæ ſe mu
 11. quinti.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: XII.]
+[Curated heading level=4: XII]
 
 [Margin]
 XII.
@@ -33,7 +33,7 @@ DIVIDANT diametri AC, BD, ſe mutuo ſecantes in E, quadrilaterum ABCD. Dico qua
 1. ſexti.
 [/Margin]
 
-[Curated heading level=4 type=numbered_item: XIII.]
+[Curated heading level=4: XIII]
 
 [Margin]
 XIII.

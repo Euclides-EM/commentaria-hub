@@ -10,7 +10,7 @@ eorum, quæ in lineis ſecundo libro Euclides demonſtrauit prioribus 10. theore
 
 {dropcap:Q|lines=3|style=plain}VONIAM in theoremate ſequente demõſtrando Theon quædam aſſumit in numeris, quæ demonſtrata ſunt de lineis libro ſecundo, tanquam ſi eadem de numeris eſſent oſtenſa; non alienum inſtituto noſtro duximus, nonnulla ex ijs, quæ Geometrice ab Euclide libro 2. demonſtrata ſunt de lineis, hoc loco de numeris demonſtrare. Quod idem & Barlaam monachum feciſſe a nonnullis eſt traditum. Sequemur autem eundem ordinem, quem Euclidem in ſecundo libro tenuiſſe conſpicimus.
 
-[Curated heading level=5 type=numbered_item: I.]
+[Curated heading level=5: I]
 
 [Margin]
 I.
