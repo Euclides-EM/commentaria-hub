@@ -254,7 +254,7 @@ export function IndexMenu({
   const [indexTypes, setIndexTypes] = useLocalStorageState<string[] | null>(
     useScopedStorageKey(`indexTypes.${indexKey}`),
     {
-      defaultValue: null,
+      defaultValue: ['default'],
       storageSync: false,
     },
   )
