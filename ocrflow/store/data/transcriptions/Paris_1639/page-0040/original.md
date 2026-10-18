@@ -12,7 +12,7 @@ hyp. | eb 2|2 fd,
 
 [Figure]
 
-[Curated heading level=4 type=axioms: 5. a. b.]
+[Curated heading level=3 type=axioms: 5. a. b.]
 
 ### 5. a. b.
 
@@ -24,7 +24,7 @@ hyp. | ae 3|2 cf,
 
 [Figure]
 
-[Curated heading level=4 type=axioms: 5. a. c.]
+[Curated heading level=3 type=axioms: 5. a. c.]
 
 ### 5. a. c.
 

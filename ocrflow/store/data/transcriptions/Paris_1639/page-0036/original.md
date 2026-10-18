@@ -22,7 +22,7 @@ hyp. | cd 2|2 ef,
 
 Les six axiomes suiuants distinguez par les lettres b, c, d, e, f, g, se rapportent à ce premier ; & ne sont pas d'Euclide, non plus que les autres qui sont distinguez par lettres.
 
-[Curated heading level=4 type=axioms: 1. a. b.]
+[Curated heading level=3 type=axioms: 1. a. b.]
 
 ### 1. a. b.
 

@@ -22,6 +22,10 @@ hyp. | a, b, c, d *ſnt magnitud. propoſ.*
 20.d.5 | raō.. a π c 2|2 raō.. a π b + raō.. b π c,
 20.d.5 | raō.. a π d 2|2 raō.. a π b + raō.. b π c + raō.. c π d.
 
-AXIOME.
+[Curated heading level=2 type=theorems: THEOR. I. PROPOS. I.]
+
+[Curated heading level=4 type=axioms: AXIOME.] 
+
+## AXIOME.
 
 Les equimultiples à vne mesme multiple, sont aussi equimultiples entr'elles.

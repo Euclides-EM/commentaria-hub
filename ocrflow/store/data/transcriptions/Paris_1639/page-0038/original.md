@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=4 type=axioms: 1. a. g.]
+[Curated heading level=3 type=axioms: 1. a. g.]
 
 ### 1. a. g.
 
@@ -39,7 +39,7 @@ hyp. | ae 2|2 cf,
 
 [Figure]
 
-[Curated heading level=4 type=axioms: 3. a. b.]
+[Curated heading level=3 type=axioms: 3. a. b.]
 
 ### 3. a. b.
 

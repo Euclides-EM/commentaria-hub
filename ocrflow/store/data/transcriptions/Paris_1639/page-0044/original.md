@@ -12,7 +12,7 @@ hyp. | ∠b *eſt* ┘,
 
 [Figure]
 
-[Curated heading level=4 type=axioms: 12. a. b.]
+[Curated heading level=3 type=axioms: 12. a. b.]
 
 ### 12. a. b.
 

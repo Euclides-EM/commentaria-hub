@@ -1,6 +1,6 @@
 <!-- Running title: LES ELEMENTS -->
 
-[Curated heading level=4 type=axioms: 20. a. b.]
+[Curated heading level=3 type=axioms: 20. a. b.]
 
 ### 20. a. b.
 

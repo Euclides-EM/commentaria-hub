@@ -21,7 +21,7 @@ hyp. | be 2|2 df,
 
 [Figure]
 
-[Curated heading level=4 type=axioms: 4. a. b.]
+[Curated heading level=3 type=axioms: 4. a. b.]
 
 ### 4. a. b.
 
@@ -33,7 +33,7 @@ hyp. | be 3|2 df,
 
 [Figure]
 
-[Curated heading level=4 type=axioms: 4. a. c.]
+[Curated heading level=3 type=axioms: 4. a. c.]
 
 ### 4. a. c.
 

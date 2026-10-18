@@ -16,13 +16,13 @@ Deux lignes droictes ne contiennent pas vn espace.
 
 C'est à dire, que deux lignes droites n'enuirõnent pas vn espace.
 
-[Curated heading level=4 type=axioms: 14. a. b.]
+[Curated heading level=3 type=axioms: 14. a. b.]
 
 ### 14. a. b.
 
 Si vn poinct est en deux lignes droictes, il sera en leur intersection, ou attouchement.
 
-[Curated heading level=4 type=axioms: 14. a. c.]
+[Curated heading level=3 type=axioms: 14. a. c.]
 
 ### 14. a. c.
 

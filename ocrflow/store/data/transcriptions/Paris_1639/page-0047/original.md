@@ -15,7 +15,7 @@ hyp. | ac, cd, db, *ſont parties de* ab.
 
 [Figure]
 
-[Curated heading level=4 type=axioms: 19. a. b.]
+[Curated heading level=3 type=axioms: 19. a. b.]
 
 ### 19. a. b.
 

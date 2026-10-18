@@ -14,7 +14,7 @@ Les grandeurs qui conuiennent sont celles, dont les parties estans mises l'vne s
 
 Et le tout est plus grand que sa partie.
 
-[Curated heading level=4 type=axioms: 9. a. b.]
+[Curated heading level=3 type=axioms: 9. a. b.]
 
 ### 9. a. b.
 
