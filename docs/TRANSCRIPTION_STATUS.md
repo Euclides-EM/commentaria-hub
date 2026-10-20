@@ -1,5 +1,6 @@
 # OCR Pipeline Queue
 
+> Rome_1574_vol2 - TODO
 > Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4 - OCR running
 > Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect running
 > Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg running [LARGE FILE]
@@ -396,7 +397,7 @@ using Codex. Partial run stats:
 - Total tokens: 2,301,221
 - Cache hit requests: 89/89 (100%)
 - 
-## Rome_1574
+## Rome_1574_vol1
 
 Two facsimiles are available:
 
