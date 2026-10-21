@@ -396,56 +396,7 @@ using Codex. Partial run stats:
 - Reasoning tokens: 0
 - Total tokens: 2,301,221
 - Cache hit requests: 89/89 (100%)
-- 
-## Rome_1574_vol1
 
-Two facsimiles are available:
-
-* **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
-* **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
-
-Run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
-
-Done 734/753 pages with Fable and the rest with Codex Sol. Got very partial token counts.
-
-Fable:
-- Input tokens: 2
-- Cache creation tokens: 4,951
-- Cache read tokens: 7,346
-- Output tokens: 92
-- Haiku 4.5 tokens: 4,210
-- Total tokens: 16,601
-- Total cost: $0.115292
-
-Codex:
-- Requests: 19
-- Input tokens: 1,536,835
-- Cached tokens: 1,285,504
-- Cache creation tokens: 0
-- Output tokens: 71,078
-- Reasoning tokens: 0
-- Total tokens: 1,607,913
-- Cache hit requests: 18/18 (100%)
-- Cost: unavailable
-
-## Nuremberg_1821
-
-OCR was done on Google books facs:
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_tjokpg
-
-Actual final version is on public domain facs:
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_yp36ia
-
-Fable usage:
-
-- Input tokens: 340
-- Cache creation tokens: 583,576
-- Cache read tokens: 1,697,451
-- Output tokens: 165,781
-- Total tokens: 2,447,148
-- Total cost: $21.876591
 
 ## Paris_1536
 
@@ -484,6 +435,66 @@ LLM corrector run in two cycles, due to token limit. Log available only from the
 ```
 
 Curated Fable transcriptions have been committed.
+
+# Curation Reviewed
+
+## Nuremberg_1821
+
+OCR was done on Google books facs:
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_tjokpg
+
+Actual final version is on public domain facs:
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_yp36ia
+
+Fable usage:
+
+- Input tokens: 340
+- Cache creation tokens: 583,576
+- Cache read tokens: 1,697,451
+- Output tokens: 165,781
+- Total tokens: 2,447,148
+- Total cost: $21.876591
+
+Curation reviewed, no action item identified. Only an open Q: in the edition, the vocabulary is Lehrſatz and Aufgabe, not theorem and problem. In the curation index category name, do we want to preserve the editor's vocabulary or introduce ours?
+
+## Rome_1574_vol1
+
+Two facsimiles are available:
+
+* **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
+* **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
+
+Run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
+
+Done 734/753 pages with Fable and the rest with Codex Sol. Got very partial token counts.
+
+Fable:
+- Input tokens: 2
+- Cache creation tokens: 4,951
+- Cache read tokens: 7,346
+- Output tokens: 92
+- Haiku 4.5 tokens: 4,210
+- Total tokens: 16,601
+- Total cost: $0.115292
+
+Codex:
+- Requests: 19
+- Input tokens: 1,536,835
+- Cached tokens: 1,285,504
+- Cache creation tokens: 0
+- Output tokens: 71,078
+- Reasoning tokens: 0
+- Total tokens: 1,607,913
+- Cache hit requests: 18/18 (100%)
+- Cost: unavailable
+
+Curation reviewed, no action item identified. 
+
+To remember: Clavius mentions that the marginal Roman numerals refer to Campanus’s numbering immediately before the propositions of Book I:
+> “Primum cuilibet propositioni duos numeros affiximus, quorum alter in margine depictus significat ordinem, quem Campanus ex traditione Arabum est secutus in Euclidis propositionibus…”
+> (English: “First, we have attached two numbers to each proposition, one of which, printed in the margin, indicates the order that Campanus followed in Euclid’s propositions, according to the Arabic tradition…”)
 
 # Open Questions
 

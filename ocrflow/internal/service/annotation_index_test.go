@@ -112,7 +112,7 @@ func TestBuildNodesNestsCuratedAndPrintedHeadingsByStructuralLevel(t *testing.T)
 	require.Equal(t, "Book I", nodes[1].Content)
 }
 
-func TestBuildNodesKeepsHiddenHeadingsAsStructuralBoundaries(t *testing.T) {
+func TestBuildNodesIgnoresHiddenHeadingsAsStructuralBoundaries(t *testing.T) {
 	nodes := buildNodes(
 		[]string{"header1", "header2", "curated-heading2", "curated-heading3"},
 		[]categoryPageContent{
@@ -126,12 +126,11 @@ func TestBuildNodesKeepsHiddenHeadingsAsStructuralBoundaries(t *testing.T) {
 		},
 	)
 
-	require.Len(t, nodes, 3)
+	require.Len(t, nodes, 2)
 	require.Equal(t, "Diffinitio vndecima", nodes[0].Content)
-	require.Empty(t, nodes[0].Children)
-	require.Equal(t, "Diffinitio prima", nodes[1].Content)
-	require.Equal(t, "Diffinitio secunda", nodes[2].Content)
-	require.Equal(t, "Diffinitio tertia", nodes[2].Children[0].Content)
+	require.Equal(t, "Diffinitio prima", nodes[0].Children[0].Content)
+	require.Equal(t, "Diffinitio secunda", nodes[1].Content)
+	require.Equal(t, "Diffinitio tertia", nodes[1].Children[0].Content)
 }
 
 func TestBuildNodesNestsEverythingUntilNextBookUnderBook(t *testing.T) {
@@ -315,4 +314,28 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	text, err := annotationTEI.GetTxt("ds_priority", "ann_priority", "1", nil)
 	require.NoError(t, err)
 	require.Equal(t, "# Annotation wins\n\n[Curated heading level=2 type=myType: Parallel section]\n\n[Curated heading level=3: Editorial section]\n", text)
+}
+
+func TestGetIndexFromMarkdownExcludedLayersDoNotChangeNesting(t *testing.T) {
+	for _, normalize := range []bool{false, true} {
+		categories, locations, _, err := getIndexFromMarkdown([]int{1, 2, 3}, nil,
+			func(page int) (*markdown.Markdown, error) {
+				contents := map[int]string{
+					1: "[Curated heading level=1 type=books: Book I]\n\n[Curated heading level=2 type=propositions: VII. Die ſibendt propoſition]\n\n## VII. Die ſibendt propoſition.\n\n[Curated heading level=3 type=proposition_claims: 1.]",
+					2: "[Curated heading level=1 type=duplicate_pages: Duplicate page]",
+					3: "[Curated heading level=3 type=proposition_claims: 2.]",
+				}
+				return &markdown.Markdown{Content: contents[page]}, nil
+			}, "test markdown", []string{"books", "propositions", "proposition_claims"}, normalize)
+		require.NoError(t, err)
+		nodes := buildNodes(categories, locations)
+		require.Len(t, nodes, 1)
+		require.Equal(t, "Book I", nodes[0].Content)
+		require.Len(t, nodes[0].Children, 1)
+		proposition := nodes[0].Children[0]
+		require.Equal(t, "VII. Die ſibendt propoſition", proposition.Content)
+		require.Len(t, proposition.Children, 2)
+		require.Equal(t, "1.", proposition.Children[0].Content)
+		require.Equal(t, "2.", proposition.Children[1].Content)
+	}
 }

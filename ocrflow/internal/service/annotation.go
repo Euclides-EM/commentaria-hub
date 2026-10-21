@@ -1217,20 +1217,20 @@ func buildNodes(categories []string, data []categoryPageContent) []*annotation.I
 	var nodes []*annotation.IndexNode
 	stack := make([]rankedNode, 0, len(categories))
 	for _, item := range data {
+		// Excluded layers must not close parents in the selected hierarchy.
+		if item.hidden {
+			continue
+		}
 		rank, ok := categoryRank[item.category]
 		if !ok {
 			continue
 		}
-		if item.indexType == markdown.BooksIndexType && !item.hidden {
+		if item.indexType == markdown.BooksIndexType {
 			rank = -1
 		}
 
 		for len(stack) > 0 && stack[len(stack)-1].rank >= rank {
 			stack = stack[:len(stack)-1]
-		}
-		if item.hidden {
-			stack = append(stack, rankedNode{rank: rank})
-			continue
 		}
 
 		node := &annotation.IndexNode{
