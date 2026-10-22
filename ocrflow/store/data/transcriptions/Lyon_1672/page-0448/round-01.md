@@ -1,3 +1,0 @@
-[Handwritten]
-[illegible]
-[/Handwritten]

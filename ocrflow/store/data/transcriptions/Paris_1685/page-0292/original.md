@@ -1,0 +1,6 @@
+<!-- Page number: 264 -->
+<!-- Running title: ELEMENS DE GEOMETRIE. -->
+
+verité. Il ſe diſtrait facilement : mille & mille pẽſées ſe preſentent à luy en foule, qui le font tourner de tous côtez, & ne luy permettent pas de conſiderer une même choſe autant de temps qu’il ſeroit neceſſaire pour appercevoir ce qu’elle eſt. Pour remedier à ce defaut qui eſt la cauſe de pluſieurs autres, il faut tâcher de fixer l’eſprit & de l’arrêter par quelque objet qui luy ſoit ſenſible, c’eſt à dire, qu’il luy faut exprimer d’une maniere qui frappe les ſens la choſe qui eſt le ſujet de la queſtion. Cela n’eſt pas impoſſible ; car quoy qu’on ne connoiſſe pas entierement les choſes qui ſont propoſées, puis qu’il n’y auroit pas lieu d’en faire une queſtion, auſſi ne l’ignore-t-on pas entierement, on nel’attaqueroit pas, ſi elle n’avoit quelque priſe, ſi l’on n’en connoiſſoit quelque partie qui pût donner la connoiſſance du tout. De ce qu’on connoit on peut ſuppoſer que la choſe qui eſt propoſée eſt telle ou telle : ce qui ſe comprendra mieux dans un exemple.
+
+On propoſe de couper un des côtez d’un quarré par une ligne menée de l’un des angles de ce quarré juſques à ce qu’elle rencontre un de ſes autres côtez prolongé autant qu’il eſt neceſſaire, de ſorte que la partie de cette ligne qui eſt hors le quarré ſoit égale à une ligne donnée.
