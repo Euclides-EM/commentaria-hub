@@ -39,19 +39,19 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy&annotationId=ann_pr4ar8
 
-0/576
+58/576
 
 ## Paris_1685
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr&annotationId=ann_i31qou
 
-Running OCR, 121/388
+Running OCR, DONE
 
 ## Strasbourg_1566
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7&annotationId=ann_fsoleq
 
-Running OCR, 60/221
+Running OCR, 108/221
 
 # Manual Curation
 
