@@ -39,21 +39,32 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy&annotationId=ann_pr4ar8
 
-58/576
-
-## Paris_1685
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr&annotationId=ann_i31qou
-
-Running OCR, DONE
+226/576
 
 ## Strasbourg_1566
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7&annotationId=ann_fsoleq
 
-Running OCR, 108/221
+Running OCR, 178/221
 
 # Manual Curation
+
+## Paris_1685
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr&annotationId=ann_i31qou
+
+### Dataset Usage Summary
+
+Claude Code — Fable
+
+- **Requests:** 388
+- **Input tokens:** 1,578
+- **Cached tokens:** 9,173,575
+- **Cache creation tokens:** 4,744,324
+- **Output tokens:** 467,560
+- **Reasoning tokens:** 0
+- **Total tokens:** 14,387,037
+- **Cost:** $128.22
 
 ## Oxford_1703
 
