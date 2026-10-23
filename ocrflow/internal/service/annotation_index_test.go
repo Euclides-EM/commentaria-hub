@@ -199,7 +199,7 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	log.SetOutput(&logs)
 	t.Cleanup(func() { log.SetOutput(originalLogOutput) })
 
-	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil, nil, false)
+	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil, nil, false, annotation.IndexSourceAnnotation)
 	require.NoError(t, err)
 	require.Equal(t, "ds_unprepared", index.DatasetID)
 	require.Equal(t, "ann_unprepared", index.AnnotationID)
@@ -292,7 +292,7 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
 	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
 
-	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil, false)
+	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil, false, annotation.IndexSourceAnnotation)
 	require.NoError(t, err)
 	require.Len(t, index.Nodes, 1)
 	require.Equal(t, "Annotation wins", index.Nodes[0].Content)
@@ -303,12 +303,17 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	require.Equal(t, markdown.DefaultIndexType, index.Nodes[0].Children[0].Type)
 	require.Equal(t, []string{"default", "myType"}, index.AvailableTypes)
 
-	combinedIndex, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, []string{"default", "myType"}, false)
+	combinedIndex, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, []string{"default", "myType"}, false, annotation.IndexSourceAnnotation)
 	require.NoError(t, err)
 	require.Len(t, combinedIndex.Nodes[0].Children, 1)
 	require.Equal(t, "Parallel section", combinedIndex.Nodes[0].Children[0].Content)
 	require.Equal(t, "myType", combinedIndex.Nodes[0].Children[0].Type)
 	require.Equal(t, "Editorial section", combinedIndex.Nodes[0].Children[0].Children[0].Content)
+
+	editionIndex, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil, false, annotation.IndexSourceEdition)
+	require.NoError(t, err)
+	require.Len(t, editionIndex.Nodes, 1)
+	require.Equal(t, "Edition loses", editionIndex.Nodes[0].Content)
 
 	annotationTEI := &AnnotationTEI{annotationSvc: annotationSvc, fileSysMgt: fileSysMgt}
 	text, err := annotationTEI.GetTxt("ds_priority", "ann_priority", "1", nil)

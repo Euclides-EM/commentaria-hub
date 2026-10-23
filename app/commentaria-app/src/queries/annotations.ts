@@ -59,13 +59,14 @@ const annotationIndexQueryKey = (
   annotationId: string,
   indexTypes: string[],
   normalize: boolean,
+  source: 'annotation' | 'edition',
 ) =>
   [
     'annotations',
     datasetId,
     annotationId,
     'index',
-    { indexTypes, normalize },
+    { indexTypes, normalize, source },
   ] as const
 
 export function useAnnotationIndexQuery(
@@ -73,6 +74,7 @@ export function useAnnotationIndexQuery(
   annotationId: string,
   indexTypes: string[] = ['default'],
   normalize = false,
+  source: 'annotation' | 'edition' = 'annotation',
 ) {
   return useQuery({
     queryKey: annotationIndexQueryKey(
@@ -80,6 +82,7 @@ export function useAnnotationIndexQuery(
       annotationId,
       indexTypes,
       normalize,
+      source,
     ),
     queryFn: () =>
       AnnotationsService.getDatasetsAnnotationsIndex({
@@ -88,6 +91,7 @@ export function useAnnotationIndexQuery(
         categories: '',
         types: indexTypes.join(','),
         normalize,
+        source,
       }),
     placeholderData: (previousData) =>
       previousData?.dataset_id === datasetId &&

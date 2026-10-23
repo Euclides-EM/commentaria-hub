@@ -272,6 +272,13 @@ export function IndexMenu({
       storageSync: false,
     },
   )
+  const [teiSource] = useLocalStorageState<'annotation' | 'edition'>(
+    useScopedStorageKey('teiSource'),
+    {
+      defaultValue: 'annotation',
+      storageSync: false,
+    },
+  )
   const {
     data: annotationIndex,
     isLoading,
@@ -281,6 +288,7 @@ export function IndexMenu({
     state.annotationId,
     effectiveIndexTypes,
     normalize,
+    teiSource,
   )
   const availableIndexTypes = annotationIndex?.available_types
   useEffect(() => {
