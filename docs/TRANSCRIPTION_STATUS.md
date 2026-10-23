@@ -39,13 +39,13 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy&annotationId=ann_pr4ar8
 
-226/576
+285/576
 
 ## Strasbourg_1566
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7&annotationId=ann_fsoleq
 
-Running OCR, 178/221
+Running OCR, 190/221
 
 # Manual Curation
 
