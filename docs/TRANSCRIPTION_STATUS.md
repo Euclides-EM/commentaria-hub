@@ -39,15 +39,34 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy&annotationId=ann_pr4ar8
 
-285/576
+391/576
+
+# Manual Curation
 
 ## Strasbourg_1566
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7&annotationId=ann_fsoleq
 
-Running OCR, 190/221
+Claude Code — Fable
 
-# Manual Curation
+- **Requests:** 60
+- **Input tokens:** 276
+- **Cached tokens:** 1,766,220
+- **Cache creation tokens:** 1,172,164
+- **Output tokens:** 630,561
+- **Reasoning tokens:** 0
+- **Total tokens:** 3,569,221
+- **Cost:** $57.00
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 161
+- **Input tokens:** 19,726,257
+- **Cached tokens:** 16,990,720
+- **Cache creation tokens:** 0
+- **Output tokens:** 1,027,869
+- **Reasoning tokens:** 0
+- **Total tokens:** 20,754,126
 
 ## Paris_1685
 

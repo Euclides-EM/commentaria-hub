@@ -1,0 +1,21 @@
+<!-- Running title: Euclidis -->
+
+angulo βγδ. Explicatio. Maior eſt lemma. Minoris pars prior eſt κοινὴ ἔννοια. Poſterior eſt concluſio ſyllogiſmi ſecundi.
+
+Quartus. Triangulus æquicrurus habet angulos ad baſin, ęquales inter ſe. Trianguli βγδ, latus βγ, eſt ęquale lateri βδ. Ergo. Trianguli βγδ, angulus βδγ, eſt æqualis angulo βγδ. Explicatio. Maior eſt propoſitio quinta. Minor eſt ὑπόθεσις. Solutio obiectionis. Quintus. Si punctum δ, cadit extra lineas αγ, γβ, erit etiam angulus βδγ, ſimul æqualis & maior angulo βγδ. Sed angulus βδγ, non poteſt ſimul eſſe æqualis & maior angulo βγδ. Ergo, Nec punctũ δ, cadet extra lineas αγ, γβ. Explicatio. Maioris pars prior eſt concluſio ſyllogiſmi quarti. Poſterior eſt concluſio ſyllogiſmi tertij. Minor eſt nota per ſe. Obiectio ſecunda. Quid ſi punctũ δ, cadat intra lineas αγ, γβ. ὑπόθεσις. Fingamus igitur punctum δ, cadere intra lineas αγ, γβ. ἡ κατασκευή. Ducatur linea γδ. & ducantur lineis βδ, βγ, ἐπ' εὐθείας lineæ δε, γζ. ἡ ἀπόδειξις. Sextus. Triangulus æquicrurus, protractis æqualibus rectis lineis: habet angulos ſub baſi æquales inter ſe. Trianguli γβδ, latus γβ, eſt æquale lateri βδ. Ergo, Angulus εδγ, eſt æqualis angulo δγζ. Explicatio. Maior eſt propoſitio quinta. Minor eſt ὑπόθεσις. Septimus. Si fuerit magnitudo prima æqualis magnitudini ſecundæ: ſecunda uero maior quàm tertia: erit etiã magnitudo prima maior quàm tertia. Angulus εδγ, eſt æqualis angulo δγζ: ſed angulus δγζ, eſt maior angulo δγα. Ergo, Angulus εδγ, eſt maior angulo δγα. Explicatio. Maior eſt lemma. Minoris pars prior eſt concluſio ſyllogiſmi ſexti. Poſterior eſt nota per ſe. Octauus. Si fuerit magnitudo prima maior quàm ſecunda: ſecunda item maior quàm tertia: erit etiã magnitudo prima maior quàm tertia. Angulus αδγ, eſt maior angulo εδγ: angulus item εδγ, eſt maior angulo δγα. Ergo. Angulus αδγ, eſt maior angulo δγα. Explicatio. Maior eſt lemma. Minoris pars prior eſt nota per ſe. Poſterior eſt concluſio ſyllogiſmi ſeptimi. Nonus. Triangulus æquicrurus habet angulos ad baſin æquales inter ſe. Trianguli δαγ, latus αδ, eſt æquale lateri αγ. Ergo, Trianguli δαγ, angulus αδγ, eſt æqualis angulo δγα. Explicatio. Maior eſt propoſitio quinta. Minor eſt ὑπόθεσις. Solutio obiectionis. Decimus. Si punctum δ, cadit intra lineas αγ, γβ. erit etiam angulus αδγ, ſimul æqualis & maior angulo δγα. Sed non poteſt angulus αδγ, ſimul eſſe æqualis, & maior angulo δγα. Ergo, Nec punctum δ, cadet intra lineas αγ, γβ. Explicatio. Maioris pars prior eſt concluſio ſyllogiſmi noni Poſterior eſt concluſio ſyllogiſmi octaui. Minor eſt nota per ſe. Obiectio tertia. Quid ſi punctũ δ, cadat in lineam αγ, inter α, & γ. ὑπόθεσις. Fingamus igitur punctum δ, cadere in lineam αγ, inter α, & γ. ἡ ἀπόδειξις. Vndecimus. Si punctum δ, cadit in lineam αγ, inter α, & γ, erit linea αγ, ſimul ęqualis lineę αδ, & etiam maior quàm αδ. Sed non poteſt linea αγ, ſimul eſſe æqualis lineæ αδ, & etiam maior quàm αδ. Ergo, Nec punctum δ, cadet in lineam αγ, inter α, & γ. Explicatio. Maioris pars prior eſt ὑπόθεσις. Poſterior eſt nota per ſe. Minor eſt nota per ſe. Duodecimus. Punctum δ, cadet in punctum γ, uel extra: & ſi extra, cadet etiam uel extra lineas αγ, γβ: uel intra eas, uel in alteram illarum. Sed punctum δ, non poteſt cadere extra lineas αγ, γβ, neque intra eas, neque in alteram illarum. Ergo, Punctum δ, cadit in punctũ γ. Explicatio. Maior eſt nota per ſe. Minoris pars prima eſt concluſio ſyllogiſmi quinti. Secunda eſt concluſio ſyllogiſmi decimi. Tertia eſt concluſio ſyllogiſmi undecimi. τὸ συμπέρασμα. Punctum δ, non cadit niſi in punctum γ. Super eadem igitur recta, duabus eiſdem rectis, &c. ὅπερ ἔδει δεῖξαι.
+
+## PROPOSITIO VIII.
+
+[Subhead]
+Theorema.
+[/Subhead]
+
+{dropcap:Ε|lines=2|style=plain}ὰν δύο τρίγωνα, τὰς δύο πλευρὰς, ταῖς δυσὶ πλευραῖς ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ: ἔχῃ δὲ καὶ τὴν βάσιν, τῇ βάσει ἴσην: καὶ τὴν γωνίαν τῇ γωνίᾳ ἴσην ἕξει, τὴν ὑπὸ τῶν ἴσων εὐθειῶν περιεχομένην.
+
+Si duo triãguli, duo latera duobus lateribus habuerint æqualia alterum alteri: habuerint uero etiam baſin æqualem baſi: etiam angulum angulo habebunt æqualem, quem æquales rectæ lineæ continent.
+
+### ἡ ἔκθεσις.
+
+Sint duo trianguli αβγ, δεζ, habẽtes duo latera αβ, αγ, æqualia duobus lateribus δε, δζ, alterum alteri: latus ſcil. αβ, æquale lateri δε, & latus αγ, lateri δζ. Item, baſin
+
+<!-- Catchword: βγ -->
