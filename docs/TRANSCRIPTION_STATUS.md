@@ -1,10 +1,8 @@
 # OCR Pipeline Queue
 
 > Rome_1574_vol2 - TODO
-> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4 - OCR running
-> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect running
-> Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg running [LARGE FILE]
-> Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - OCR running
+> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect pending
+> Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg pending [LARGE FILE]
 > Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - OCR running
 
 # Train to improve segmentation
@@ -34,6 +32,21 @@
 > Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r  Seg done. Need to train to improve.
 
 # Run LLM Corrector
+
+
+## Strasbourg_1564
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4
+http://18.216.154.29:5180/hub/?datasetId=ds_ypncw4&annotationId=ann_w91i73
+
+0/221
+
+## Paris_1814_vol1
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph
+http://18.216.154.29:5180/hub/?datasetId=ds_mz3oph&annotationId=ann_ees3kv
+
+0/577
 
 # Manual Curation
 
