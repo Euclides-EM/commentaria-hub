@@ -1,0 +1,12 @@
+<!-- Running title: LE DIXIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+<!-- Page number: 381 -->
+
+ὑπὸ τῶν ΑΗ, ΗΒ. Καὶ ἐπεὶ αἱ ΑΗ, ΗΒ δυνάμει εἰσὶν ἀσύμμετροι, ἀσύμμετρον ἄρα ἐστὶ τὸ ἀπὸ τῆς ΑΗ τῷ ἀπὸ τῆς ΗΒ. Ἀλλὰ τῷ μὲν ἀπὸ τῆς ΑΗ ἴσον ἐστὶ τὸ⁸ ΓΘ, τῷ δὲ ἀπὸ τῆς ΗΒ ἴσον ἐστὶ τὸ ΚΛ· ἀσύμμετρον ἄρα ἐστὶ⁹ τὸ ΓΘ τῷ ΚΛ. Ὡς δὲ τὸ ΓΘ πρὸς τὸ ΚΛ οὕτως ἐστὶν¹⁰ ἡ ΓΚ πρὸς τὴν ΚΜ· ἀσύμμετρος ἄρα ἐστὶν ἡ ΓΚ τῇ ΚΜ. Καὶ ἐπεὶ τῶν ἀπὸ τῶν¹¹ ΑΗ, ΗΒ μέσον ἀνάλογόν ἐστι τὸ ὑπὸ τῶν ΑΗ, ΗΒ, καὶ ἔστι τῷ μὲν ἀπὸ τῆς ΑΗ ἴσον τὸ ΓΘ, τῷ δὲ ἀπὸ τῆς ΗΒ ἴσον τὸ ΚΛ, τῷ δὲ ὑπὸ τῶν ΑΗ, ΗΒ ἴσον ἐστὶ¹² τὸ ΝΛ· ἔστιν ἄρα ὡς τὸ ΓΘ πρὸς τὸ ΝΛ οὕτως τὸ ΝΛ πρὸς τὸ ΚΛ¹³. Καὶ διὰ τὰ αὐτὰ ἡ ΓΜ τῆς ΜΖ μεῖζον δύναται τῷ ἀπὸ ἀσυμμέτρου ἑαυτῇ. Καὶ οὐδετέρα αὐτῶν σύμμετρός ἐστι τῇ ἐκκειμένῃ ῥητῇ τῇ ΓΔ· ἡ ΓΖ ἄρα ἀποτομή ἐστιν ἕκτη.
+
+Τὸ ἄρα, καὶ τὰ ἑξῆς.
+
+sub ΑΗ, ΗΒ. Et quoniam ΑΗ, ΗΒ potentiâ sunt incommensurabiles, incommensurabile igitur est ex ΑΗ quadratum quadrato ex ΗΒ. Sed quadrato quidem ex ΑΗ æquale est ΓΘ, quadrato verò ex ΗΒ æquale est ΚΛ; incommensurabile igitur est ΓΘ ipsi ΚΛ. Ut autem ΓΘ ad ΚΛ ita est ΓΚ ad ΚΜ; incommensurabilis igitur est ΓΚ ipsi ΚΜ. Et quoniam quadratorum ex ΑΗ, ΗΒ medium proportionale est rectangulum sub ΑΗ, ΗΒ, atque est quadrato quidem ex ΑΗ æquale ΓΘ, quadrato verò ex ΗΒ æquale ΚΛ, rectangulo autem sub ΑΗ, ΗΒ æquale est ΝΛ; est igitur ut ΓΘ ad ΝΛ ita ΝΛ ad ΚΛ. Et eâdem ratione ΓΜ quam ΜΖ plus potest quadrato ex rectâ sibi incommensurabili. Et neutra ipsarum commensurabilis est expositæ rationali ΓΔ; ergo ΓΖ apotome est sexta.
+
+Quadratum igitur, etc.
+
+égal au rectangle sous ΑΗ, ΗΒ. Et puisque les droites ΑΗ, ΗΒ sont incommensurables en puissance, le quarré de ΑΗ sera incommensurable avec le quarré de ΗΒ. Mais ΓΘ est égal au quarré de ΑΗ, et ΚΛ égal au quarré de ΗΒ; le parallélogramme ΓΘ est donc incommensurable avec ΚΛ. Mais ΓΘ est à ΚΛ comme ΓΚ est à ΚΜ (1. 6); la droite ΓΚ est donc incommensurable avec ΚΜ. Et puisque le rectangle sous ΑΗ, ΗΒ est moyen proportionnel entre les quarrés des droites ΑΗ, ΗΒ (55. lem. 10), que ΓΘ est égal au quarré de ΑΗ, que ΚΛ est égal au quarré de ΗΒ, et que ΝΛ est égal au rectangle sous ΑΗ, ΗΒ, le parallélogramme ΓΘ est donc à ΝΛ comme ΝΛ est à ΚΛ. Par la même raison, la puissance de ΓΜ surpassera la puissance de ΜΖ du quarré d'une droite incommensurable en longueur avec ΓΜ; aucune des droites ΓΜ, ΜΖ n'est donc commensurable avec la rationelle exposée ΓΔ; la droite ΓΖ est donc un sixième apotome (déf. trois. 6. 10). Le quarré, etc.

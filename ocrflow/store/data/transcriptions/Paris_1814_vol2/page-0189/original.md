@@ -1,0 +1,11 @@
+<!-- Running title: LE DIXIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+<!-- Page number: 137 -->
+
+τὸν Δ πολλαπλασιάσας τὸν Ζ ποιείτω· οἱ Ε, Ζ, Η ἄρα ἑξῆς εἰσιν ἀνάλογον ἐν τῷ τοῦ Γ πρὸς τὸν Δ λόγῳ. Καὶ ἐπεὶ τῶν ἀπὸ τῶν Α, Β μέσον ἀνάλογόν ἐστι⁶ τὸ ὑπὸ τῶν Α, Β, τῶν δὲ Ε, Η ὁ Ζ· ἔστιν ἄρα ὡς τὸ ἀπὸ τῆς Α πρὸς τὸ ὑπὸ τῶν Α, Β οὕτως ὁ Ε πρὸς τὸν Ζ. Ως δὲ τὸ ὑπὸ τῶν Α, Β πρὸς τὸ ἀπὸ τῆς Β οὕτως ὁ Ζ πρὸς τὸν Η⁷, ἀλλ᾽ ὡς τὸ ἀπὸ τῆς Α πρὸς τὸ ὑπὸ τῶν Α, Β οὕτως ἡ Α πρὸς τὴν Β· αἱ Α, Β ἄρα σύμμετροί εἰσι, λόγον γὰρ ἔχουσιν ὃν ἀριθμὸς ὁ Ε πρὸς ἀριθμὸν τὸν Ζ, τουτέστιν ὃν ὁ Γ πρὸς τὸν Δ· ὡς γὰρ ὁ Γ πρὸς τὸν Δ οὕτως⁸ ὁ Ε πρὸς τὸν Ζ· ὁ γὰρ Γ ἑαυτὸν μὲν πολλαπλασιάσας τὸν Ε πεποίηκε, τὸν δὲ Δ πολλαπλασιάσας τὸν Ζ πεποίηκεν· ἔστιν ἄρα ὡς ὁ Γ πρὸς τὸν Δ οὕτως⁹ ὁ Ε πρὸς τὸν Ζ¹⁰. Οπερ ἔδει δεῖξαι.
+
+et Γ ipsum Δ multiplicans ipsum Z faciat; ergo E, Z, H deinceps sunt proportionales in ratione ipsius Γ ad Δ. Et quoniam ipsorum ex A, B medium proportionale est rectangulum sub A, B, ipsorum autem E, H ipse Z; est igitur ut ex A quadratum ad rectangulum sub A, B ita E ad Z. Ut autem sub A, B rectangulum ad quadratum ex B ita Z ad H, sed ut ex A quadratum ad rectangulum sub A, B ita A ad B; ergo A, B commensurabiles sunt, rationem enim habent quam numerus E ad numerum Z, hoc est quam Γ ad Δ; ut enim Γ ad Δ ita E ad Z; etenim Γ se ipsum quidem multiplicans ipsum E fecit, ipsum autem Δ multiplicans ipsum Z fecit; est igitur ut Γ ad Δ ita E ad Z. Quod oportebat ostendere.
+
+pliant Δ fasse Z, les nombres E, Z, H seront successivement proportionnels dans la raison de Γ à Δ (17. 7). Et puisque le rectangle sous A, B est moyen proportionnel entre les quarrés de A et de B (1. 6), et que Z l'est entre E et H (11. 8), le quarré de A sera au rectangle sous A, B comme E est à Z. Mais le rectangle sous A, B est au quarré de B comme Z est à H, et le quarré de A est au rectangle sous A, B comme A est à B; donc A et B sont commensurables, car ils ont la raison qu'a le nombre E avec le nombre Z, c'est-à-dire la raison que Γ a avec Δ; car Γ est à Δ comme E est à Z, puisque Γ se multipliant lui-même fait E, et que Γ multipliant Δ a fait Z; donc Γ est à Δ comme E est à Z (17. 7). Ce qu'il fallait démontrer.
+
+<!-- Signature: II. -->
+<!-- Signature: 18 -->

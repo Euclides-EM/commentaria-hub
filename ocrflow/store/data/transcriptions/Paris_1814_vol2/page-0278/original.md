@@ -1,0 +1,14 @@
+<!-- Page number: 226 -->
+<!-- Running title: LE DIXIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+τῷ δὲ δὶς ὑπὸ τῶν ΑΓ, ΓΒ ἴσον τὸ ΘΚ· ὅλον ἄρα τὸ ΕΚ ἴσον ἐστὶ τῷ ἀπὸ τῆς ΑΒ τετραγώνῳ. Πάλιν δὴ παραβεβλήσθω παρὰ τὴν ΕΖ τοῖς ἀπὸ τῶν ΑΔ, ΔΒ ἴσον τὸ ΕΛ· λοιπὸν ἄρα τὸ δὶς ὑπὸ τῶν ΑΔ, ΔΒ λοιπῷ τῷ ΜΚ ἴσον ἐστί. Καὶ ἐπεὶ μέσον ὑπόκειται τὸ συγκείμενον ἐκ τῶν ἀπὸ τῶν ΑΓ, ΓΒ· μέσον ἄρα ἐστὶ καὶ τὸ ΕΗ, καὶ παρὰ ῥητὴν τὴν ΕΖ παράκειται· ῥητὴ ἄρα
+
+ΑΓ, ΓΒ æquale ΘΚ; totum igitur ΕΚ æquale est quadrato ex ΑΒ. Rursus et applicetur ad ΕΖ quadratis ex ΑΔ, ΔΒ æquale ΕΛ; reliquum igitur rectangulum bis sub ΑΔ, ΔΒ reliquo ΜΚ æquale est. Et quoniam medium supponitur compositum ex quadratis ipsarum ΑΓ, ΓΒ; medium igitur est et ΕΗ, et ad rationalem ΕΖ applicatur; rationalis igitur est ΘΕ, et
+
+[Diagram: rectangle with corners labelled Ε, Ν, Κ and Ζ, with Μ and Θ marked on the top side and Λ and Η on the bottom side, divided by vertical lines; beside it a vertical line from Α to Β with intermediate points Δ and Γ]
+
+ἐστὶν ἡ ΘΕ, καὶ ἀσύμμετρος τῇ ΕΖ μήκει. Διὰ τὰ αὐτὰ δὴ καὶ ἡ ΘΝ ῥητή ἐστι καὶ ἀσύμμετρος τῇ ΕΖ μήκει. Καὶ ἐπεὶ ἀσύμμετρόν ἐστι τὸ συγκείμενον ἐκ τῶν ἀπὸ τῶν ΑΓ, ΓΒ τῷ δὶς ὑπὸ τῶν ΑΓ, ΓΒ· καὶ τὸ ΕΗ ἄρα τῷ ΘΚ ἀσύμμετρόν ἐστιν· ὥστε καὶ ἡ ΕΘ τῇ ΘΝ ἀσύμμετρός ἐστι. Καὶ εἰσὶ ῥηταί· αἱ ΕΘ, ΘΝ ἄρα ῥηταί εἰσι δυνάμει μόνον σύμμετροι· ἡ ΕΝ ἄρα ἐκ δύο ὀνομάτων ἐστὶ διῃρημένη κατὰ τὸ Θ. Ὁμοίως δὴ δείξομεν ὅτι καὶ κατὰ τὸ Μ διῄρηται,
+
+incommensurabilis ipsi ΕΖ longitudine. Propter eadem utique et ΘΝ rationalis est et incommensurabilis ipsi ΕΖ longitudine. Et quoniam incommensurabile est compositum ex quadratis ipsarum ΑΓ, ΓΒ rectangulo bis sub ΑΓ, ΓΒ; et ΕΗ igitur ipsi ΘΚ incommensurabile est; quare et ΕΘ ipsi ΘΝ incommensurabilis est. Et sunt rationales; ergo ΕΘ, ΘΝ rationales sunt potentiâ solùm commensurabiles; ergo ΕΝ ex binis nominibus est divisa in Θ. Similiter utique ostendemus et
+
+ΑΓ et de ΓΒ, et ΘΚ égal au double rectangle sous ΑΓ, ΓΒ; le parallélogramme entier ΕΗ sera égal au quarré de ΑΒ (4. 2). De plus, appliquons à ΕΖ le parallélogramme ΕΛ égal à la somme des quarrés de ΑΔ et de ΔΒ; le double rectangle restant sous ΑΔ, ΔΒ sera égal au reste ΜΚ (4. 2). Et puisque on a supposé que la somme des quarrés de ΑΓ et de ΓΒ est médiale, ΕΗ sera médial. Mais il est appliqué à la rationelle ΕΖ; donc ΘΕ est rationel, et incommensurable en longueur avec ΕΖ (23. 10). Par la même raison, ΘΝ est rationel et incommensurable en longueur avec ΕΖ. Mais la somme des quarrés de ΑΓ et de ΓΒ est incommensurable avec le double rectangle sous ΑΓ, ΓΒ; donc ΕΗ est incommensurable avec ΘΚ; donc ΕΘ est incommensurable avec ΘΝ (10. 10). Mais ces droites sont rationelles; les rationelles ΕΘ, ΘΝ ne sont donc commensurables qu'en puissance; le droite ΕΝ de deux noms est donc divisée au point Θ. Nous démontrerons semblablement qu'elle est divisée au point Μ; mais

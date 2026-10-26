@@ -35,13 +35,32 @@
 
 # Run LLM Corrector
 
-## Paris_1814 vol2
+# Manual Curation
+
+## Paris_1814_vol2
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy&annotationId=ann_pr4ar8
 
-391/576
+Claude Code — Fable
 
-# Manual Curation
+- **Requests:** 481
+- **Input tokens:** 2,082
+- **Cached tokens:** 13,182,590
+- **Cache creation tokens:** 8,147,548
+- **Output tokens:** 1,782,861
+- **Reasoning tokens:** 0
+- **Total tokens:** 23,115,081
+- **Cost:** $267.01
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 95
+- **Input tokens:** 4,402,575
+- **Cached tokens:** 3,435,904
+- **Cache creation tokens:** 0
+- **Output tokens:** 259,765
+- **Reasoning tokens:** 0
+- **Total tokens:** 4,662,340
 
 ## Strasbourg_1566
 
