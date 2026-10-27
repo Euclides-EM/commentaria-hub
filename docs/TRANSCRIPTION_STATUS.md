@@ -3,7 +3,6 @@
 > Rome_1574_vol2 - TODO
 > Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect pending
 > Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg pending [LARGE FILE]
-> Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - OCR running
 
 # Train to improve segmentation
 
@@ -33,7 +32,6 @@
 
 # Run LLM Corrector
 
-
 ## Strasbourg_1564
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4
@@ -47,6 +45,11 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph
 http://18.216.154.29:5180/hub/?datasetId=ds_mz3oph&annotationId=ann_ees3kv
 
 0/577
+
+## Paris_1814_vol3
+ 
+https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
+http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
 
 # Manual Curation
 
