@@ -46,6 +46,11 @@ http://18.216.154.29:5180/hub/?datasetId=ds_mz3oph&annotationId=ann_ees3kv
 
 95/577
 
+## Paris_1814_vol3
+ 
+https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
+http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
+
 # Manual Curation
 
 ## Strasbourg_1564
