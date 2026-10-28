@@ -3,7 +3,6 @@
 > Rome_1574_vol2 - TODO
 > Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect pending
 > Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg pending [LARGE FILE]
-> Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - OCR running
 
 # Train to improve segmentation
 
@@ -33,22 +32,36 @@
 
 # Run LLM Corrector
 
+## Paris_1814_vol3
 
-## Strasbourg_1564
+https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
+http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
 
-https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4
-http://18.216.154.29:5180/hub/?datasetId=ds_ypncw4&annotationId=ann_w91i73
-
-0/221
+77/658
 
 ## Paris_1814_vol1
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph
 http://18.216.154.29:5180/hub/?datasetId=ds_mz3oph&annotationId=ann_ees3kv
 
-0/577
+95/577
 
 # Manual Curation
+
+## Strasbourg_1564
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4
+http://18.216.154.29:5180/hub/?datasetId=ds_ypncw4&annotationId=ann_w91i73
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 221
+- **Input tokens:** 10,125,986
+- **Cached tokens:** 7,866,496
+- **Cache creation tokens:** 0
+- **Output tokens:** 626,147
+- **Reasoning tokens:** 0
+- **Total tokens:** 10,752,133
 
 ## Paris_1814_vol2
 
