@@ -37,14 +37,14 @@
 https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
 http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
 
-77/658
+349/658
 
 ## Paris_1814_vol1
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph
 http://18.216.154.29:5180/hub/?datasetId=ds_mz3oph&annotationId=ann_ees3kv
 
-95/577
+406/577
 
 ## Paris_1814_vol3
  
