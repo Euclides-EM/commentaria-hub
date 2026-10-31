@@ -1,6 +1,5 @@
 # OCR Pipeline Queue
 
-> Rome_1574_vol2 - TODO
 > Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect pending
 > Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg pending [LARGE FILE]
 
@@ -31,7 +30,7 @@
 > Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r  Seg done. Need to train to improve.
 
 # Run LLM Corrector
-
+- 
 ## Paris_1814_vol3
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
@@ -40,6 +39,21 @@ http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
 599/658
 
 # Manual Curation
+
+## Rome_1574_vol2
+
+Claude Opus
+
+- **Requests:** 604
+- **Total cost:** $128.45
+- **Total tokens:** 23,545,468
+- **Input tokens (uncached):** 2,418
+- **Cache-read tokens:** 10,008,019
+- **Cache-creation tokens:** 12,021,733
+- **Output tokens:** 1,513,298
+- **Reasoning tokens:** 0
+- **Cache-read requests:** 603/603
+- **Cache misses after warmup:** 0
 
 ## Paris_1814_vol1
 
@@ -514,7 +528,7 @@ The facsimile is public domain and can be used. OCR and llm correction with fabl
 LLM corrector run in two cycles, due to token limit. Log available only from the second run:
 
 ```shell
-2026/09/04 15:55:49 complete pages=79 rounds=1 requests=79 tokens_input=326 tokens_cached=1509871 tokens_cache_creation=659121 tokens_output=222941 tokens_reasoning=0 tokens_total=2392259 cost_usd=26.574715 cost_reports=79/79 final_outputs=store/data/ds_5da9w5/annotations/ann_8k4g9h/transcriptions/page-NNNN/original.md
+2026/09/04 15:55:49 complete pages=79 rounds=1 requests=79 tokens_input=326 tokens_cached=1509871 tokens_cache_creation=659121 tokens_output=222941 tokens_reasoning=0 tokens_total=2392259 cost_usd=26.574715 cost_reports=79/79 final_outputs=store/data/ds_5da9w5/annotations/ann_8k4g9h/Rome_1574_vol2/page-NNNN/original.md
 ```
 
 Curated Fable transcriptions have been committed.
@@ -547,7 +561,7 @@ Curation reviewed, no action item identified. Only an open Q: in the edition, th
 Two facsimiles are available:
 
 * **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
-* **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
+* **`Rome_1574_vol1`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
 
 Run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
 
