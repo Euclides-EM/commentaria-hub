@@ -37,21 +37,24 @@
 https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
 http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
 
-349/658
+599/658
+
+# Manual Curation
 
 ## Paris_1814_vol1
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph
 http://18.216.154.29:5180/hub/?datasetId=ds_mz3oph&annotationId=ann_ees3kv
 
-406/577
+Codex — GPT-5.6 Sol
 
-## Paris_1814_vol3
- 
-https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
-http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
-
-# Manual Curation
+- **Requests:** 380
+- **Input tokens:** 11,477,083
+- **Cached tokens:** 7,553,152
+- **Cache creation tokens:** 0
+- **Output tokens:** 1,056,225
+- **Reasoning tokens:** 0
+- **Total tokens:** 12,533,308
 
 ## Strasbourg_1564
 
