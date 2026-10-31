@@ -1,0 +1,16 @@
+<!-- Page number: 204 -->
+<!-- Running title: LE DOUZIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+τῆς ΒΟ μείζων ἐστὶν ἡ ΗΩ· πολλῷ ἄρα ἡ ΗΩ μείζων ἐστὶ τῆς ΒΨ· μείζων ἄρα καὶ τὸ ἀπὸ τῆς ΗΩ τοῦ ἀπὸ τῆς ΒΨ. Καὶ ἐπεὶ ἴση ἐστὶν ἡ ΑΩ τῇ ΑΒ, ἴσον ἄρα καὶ τὸ ἀπὸ τῆς ΑΩ τῷ ἀπὸ τῆς ΑΒ. Ἀλλὰ τῷ μὲν ἀπὸ τῆς ΑΩ ἴσα τὰ ἀπὸ τῶν ΑΗ, ΗΩ, τῷ δὲ ἀπὸ τῆς ΑΒ ἴσα τὰ ἀπὸ
+
+ipsâ ΒΟ major est ipsa ΗΩ; multo igitur major est ΗΩ ipsâ ΒΨ; majus igitur et quadratum ex ΗΩ quadrato ex ΒΨ. Et quoniam æqualis est ΑΩ ipsi ΑΒ, æquale igitur et quadratum ex ΑΩ quadrato ex ΑΒ. Sed quadrato quidem ex ΑΩ æqualia quadrata ex ΑΗ, ΗΩ, quadrato autem
+
+ΗΩ est plus grand que ΒΟ; la droite ΗΩ est donc à plus forte raison plus grande que la droite ΒΨ; le quarré de ΗΩ est donc plus grand que le quarré de ΒΨ. Mais ΑΩ est égal à ΑΒ; le quarré de ΑΩ est donc égal au quarré de ΑΒ. Mais les quarrés des droites ΑΗ, ΗΩ sont égaux au quarré de la droite ΑΩ, et les quarrés
+
+[Footnote]
+Utcumque autem se res habeat, sic ostendere licet circuli centrum cadere intra ΣΚΒΟ quadrilaterum. Etenim si circuli centrum non caderet intra hoc quadrilaterum, caderet vel in unum laterum ipsius, vel intra unum segmentorum circuli, quorum bases sunt quadrilateri latera. Dico circuli centrum non cadere in unum laterum quadrilateri ΣΚΒΟ. Etenim si circuli centrum caderet in unum laterum hujus quadrilateri, hoc latus, existens circuli diameter, majus esset aliis quadrilateri lateribus, quod non ponitur; etenim ΣΚ, ΚΒ, ΒΟ latera inter se sunt æqualia, et latus ΣΟ minus est unoquoque ipsorum ΣΚ, ΚΒ, ΒΟ laterum. Dico rursus circuli centrum non cadere intra unum segmentorum circuli, quorum bases sunt ΣΚΒΟ quadrilateri latera. Etenim si circuli centrum intra unum horum segmentorum caderet, hoc segmentum semicirculo esset majus, et hujus segmenti basis major esset unoquoque reliquorum ΣΚΒΟ quadrilateri laterum; quod non ponitur. Similiter utique ostendetur circuli centrum cadere et intra reliqua quadrilatera et intra triangulum ΥΡΞ.
+[/Footnote]
+
+[Footnote]
+Quoi qu'il en soit, on peut démontrer ainsi que le centre du cercle tombe en dedans du quadrilatère ΣΚΒΟ. Car si le centre du cercle ne tombait pas en dedans de ce quadrilatère, il tomberait ou sur un de ses côtés, ou en dedans d'un des segments de cercle, qui ont pour bases les côtés de ce même quadrilatère. Je dis que le centre du cercle ne tombe pas sur un des côtés du quadrilatère ΣΚΒΟ; car si le centre du cercle tombait sur un des côtés de ce quadrilatère, ce côté, qui serait alors un diamètre du cercle, serait plus grand que chacun des autres côtés de ce même quadrilatère, ce qui n'est point, puisque les côtés ΣΚ, ΚΒ, ΒΟ sont égaux entre eux, et que le côté ΣΟ est plus petit que chacun des côtés ΣΚ, ΚΒ, ΒΟ. Je dis de plus que le centre du cercle ne tombe pas en dedans d'un des segments de cercle, qui ont pour bases les côtés du quadrilatère ΣΚΒΟ. Car si le centre du cercle tombait en dedans d'un de ces segments, ce segment serait plus grand qu'un demi-cercle, et la base de ce même segment serait plus grande que chacun des autres côtés du quadrilatère ΣΚΒΟ, ce qui n'est point. On démontrera semblablement que le centre du cercle tombe en dedans des autres quadrilatères et en dedans du triangle ΥΡΞ.
+[/Footnote]

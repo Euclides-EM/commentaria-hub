@@ -30,15 +30,34 @@
 > Vienna_1694 - https://euclides.huma-num.fr/hub/?datasetId=ds_ak4z2r  Seg done. Need to train to improve.
 
 # Run LLM Corrector
-- 
+
+# Manual Curation
+
 ## Paris_1814_vol3
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
 http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
 
-599/658
+Claude Code — Fable
 
-# Manual Curation
+- **Requests:** 272
+- **Input tokens:** 1,232
+- **Cached tokens:** 8,616,382
+- **Cache creation tokens:** 4,925,131
+- **Output tokens:** 995,247
+- **Reasoning tokens:** 0
+- **Total tokens:** 14,537,992
+- **Cost:** $157.95
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 217
+- **Input tokens:** 10,714,810
+- **Cached tokens:** 8,366,592
+- **Cache creation tokens:** 0
+- **Output tokens:** 694,939
+- **Reasoning tokens:** 0
+- **Total tokens:** 11,409,749
 
 ## Rome_1574_vol2
 

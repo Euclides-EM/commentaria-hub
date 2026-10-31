@@ -1,0 +1,10 @@
+<!-- Page number: 528 -->
+<!-- Running title: LE SECOND LIVRE D’HYPSICLE. -->
+
+κάθετος τοῦ ΘΚΛ τριγώνου ἡ ΘΟ· λέγω ὅτι ἡ ΘΟ μείζων ἐστὶ τῆς ἡμισείας τῆς ΜΛ τῆς ὑποτεινούσης τὴν κλίσιν τῶν ἐπιπέδων. Ἀχθείσης ἀπὸ τοῦ Κ ἐπὶ τὴν ΜΛ καθέτου τῆς ΚΠ, ἐπεὶ ἡ ὑπὸ ΚΛΠ μείζων ἐστὶ τρίτου ὀρθῆς, τουτέστι τῆς ὑπὸ ΚΘΟ, συνεστάτω τῇ ὑπὸ ΚΘΟ ἴση ἡ ὑπὸ ΠΛΡ· ἡ ἄρα ΠΛ κάθετός ἐστιν ἰσοπλεύρου τριγώνου, οὗ πλευρὰ ἡ ΡΛ· ὥστε τὸ ἀπὸ ΡΛ πρὸς τὸ ἀπὸ ΛΠ λόγον ἔχει ὃν ὁ δʹ πρὸς τὸν γʹ. Μείζων δὲ ἡ ΚΛ τῆς ΛΡ· τὸ ἄρα ἀπὸ ΚΛ πρὸς τὸ ἀπὸ ΛΠ μείζονα λόγον ἔχει ἢ ὁ δʹ πρὸς τὸν γʹ. Ἔχει δὴ καὶ πρὸς τὸ ἀπὸ ΘΟ ὃν ὁ δʹ πρὸς τὸν γʹ· ἡ ἄρα ΚΛ πρὸς τὴν ΛΠ μείζονα λόγον ἔχει ἤπερ πρὸς τὴν ΘΟ· μείζων ἄρα ἡ ΘΟ τῆς ΛΠ.
+
+perpendicularis ΘΟ trianguli ΘΚΛ; dico ΘΟ majorem esse dimidiâ ipsius ΜΛ subtendentis inclinationem planorum. Ductâ a puncto Κ ad ΜΛ perpendiculari ΚΠ, quoniam angulus ΚΛΠ major est tertiâ parte recti, hoc est angulo ΚΘΟ, constituatur angulo ΚΘΟ æqualis angulus ΠΛΡ; ipsa igitur ΠΛ perpendicularis est æquilateri trianguli, cujus latus ΡΛ. Quare ipsum ex ΡΛ ad ipsum ΛΠ rationem habet quam 4 ad 3. Major autem ΚΛ ipsâ ΛΡ; ipsum igitur ex ΚΛ ad ipsum ex ΛΠ majorem rationem habet quam 4 ad 3. Habet autem et ad ipsum ex ΘΟ quam 4 ad 3; ipsa igitur ΚΛ ad ΛΠ majorem rationem habet quam ad ΘΟ; major igitur ΘΟ quam ΛΠ.
+
+[Diagram: pentagon ΚΜΝΞΛ surmounted by triangle ΘΚΛ, with internal lines ΜΛ, ΚΠ and ΘΟ, and point Ρ]
+
+ΘΚΛ ; je dis que ΘΟ est plus grand que la moitié de ΜΛ qui soutend l’inclinaison des plans. Du point Κ menons ΚΠ perpendiculaire à ΜΛ. Puisque l’angle ΚΛΠ est plus grand que la troisième partie du droit, c’est-à-dire que l’angle ΚΘΟ, faisons l’angle ΠΛΡ égal à l’angle ΚΘΟ ; la droite ΠΛ sera la perpendiculaire du triangle équilatéral, dont ΡΛ est le côté ; le quarré de ΡΛ a donc avec le quarré de ΛΠ, la raison que quatre a avec trois. Mais ΚΛ est plus grand que ΛΡ (21. 1) ; le quarré de ΚΛ a donc avec ΛΠ une raison plus grande que celle de quatre à trois. Mais le quarré de ΚΛ a avec le quarré de ΘΟ, la raison que quatre a avec trois, la droite ΚΛ a donc avec ΛΠ une raison plus grande qu’avec ΘΟ ; la droite ΘΟ est donc plus grande que ΛΠ (10. 5).
