@@ -34,7 +34,7 @@ func TestUnmarshalLLMTranscriptionCorrector(t *testing.T) {
 	require.True(t, corrector.SkipExisting)
 	require.Equal(t, []string{"ann_one", "ann_two"}, corrector.AdditionalAnnotations)
 	require.True(t, corrector.IncludeEditionTranscription)
-	require.Equal(t, []PipelineStage{PipelineStageOCR}, corrector.ApplicableStages)
+	require.Equal(t, AllPipelineStages, corrector.ApplicableStages)
 
 	encoded, err := json.Marshal(corrector)
 	require.NoError(t, err)

@@ -45,7 +45,10 @@ func buildDirectoryPrompt(cfg Config, pages []page) (llm.Prompt, []string, error
 			fmt.Fprintf(&sources, "- %s: %s\n", group.label, absolutePath)
 		}
 	}
-	static := fmt.Sprintf(`You are correcting scholarly Markdown transcriptions of early printed pages. Work directly with the local files whose absolute paths are supplied. For each requested page, inspect its image and every available candidate transcription, reconcile disagreements using the image as authority, and write the complete corrected transcription to the requested output path.
+	if sources.Len() == 0 {
+		sources.WriteString("- none; transcribe each page directly from its image\n")
+	}
+	static := fmt.Sprintf(`You are correcting scholarly Markdown transcriptions of early printed pages. Work directly with the local files whose absolute paths are supplied. For each requested page, inspect its image and every available candidate transcription, reconcile disagreements using the image as authority, and write the complete corrected transcription to the requested output path. When no candidate transcriptions are available, transcribe each page directly from its image.
 
 Do not modify input files or any file outside the output directory. Do not create correction-round files. Preserve historical text and follow this normative transcription dialect:
 
@@ -98,12 +101,12 @@ type diffStats struct {
 //go:generate go run ./internal/gendialect -input ../../../docs/MARKDOWN_DIALECT.md -output markdown_dialect_generated.go
 
 func buildPrompt(pageKey string, round, rounds int, candidates []candidate, previousPage string) llm.Prompt {
-	static := fmt.Sprintf(`You are correcting a scholarly markdown transcription from an image of an early printed page.
+	static := fmt.Sprintf(`You are producing a scholarly markdown transcription from an image of an early printed page.
 
-Use the attached image as the authority. Silently compare it with the supplied candidate transcriptions, reconcile disagreements, and make only evidence-based corrections. Preserve historical spelling, capitalization, punctuation, special characters, and textual order. Do not modernize, translate, summarize, invent illegible text, or describe your reasoning.
+Use the attached image as the authority. When candidate transcriptions are supplied, silently compare them with the image, reconcile disagreements, and make only evidence-based corrections. When none are supplied, transcribe the page directly from the image. Preserve historical spelling, capitalization, punctuation, special characters, and textual order. Do not modernize, translate, summarize, invent illegible text, or describe your reasoning.
 
 OUTPUT CONTRACT
-Your entire response is written directly to the transcription file. Return only the complete corrected Markdown for the current page.
+Your entire response is written directly to the transcription file. Return only the complete Markdown transcription for the current page.
 
 Never include:
 - explanations, observations, confidence statements, or correction summaries;
@@ -131,6 +134,9 @@ Correction round: %d of %d
 
 CURRENT-PAGE TRANSCRIPTIONS:
 `, pageKey, round, rounds)
+	if len(candidates) == 0 {
+		dynamic.WriteString("\nNo candidate transcriptions are available for this page; transcribe it directly from the image.\n")
+	}
 	for i, c := range candidates {
 		fmt.Fprintf(&dynamic, "\n--- BEGIN TRANSCRIPTION %d: %s ---\n%s\n--- END TRANSCRIPTION %d ---\n", i+1, c.label, strings.TrimSpace(c.text), i+1)
 	}

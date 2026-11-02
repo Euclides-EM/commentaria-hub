@@ -9,8 +9,8 @@ import { request as __request } from '../core/request';
 export class TranscriptionsService {
     /**
      * List Transcriptions
-     * Retrieve a list of transcriptions, optionally filtered by edition or facsimile.
-     * @returns model_EditionTranscription List of transcriptions
+     * Retrieve a list of Rome_1574_vol2, optionally filtered by edition or facsimile.
+     * @returns model_EditionTranscription List of Rome_1574_vol2
      * @throws ApiError
      */
     public static getEditionsTranscriptions({

@@ -150,28 +150,36 @@ func TestApplyLLMTranscriptionCorrectorRetainsUsageAfterDirectoryValidationFailu
 	require.InDelta(t, 0.01, *rule.Usage.CostUSD, 0.0000001)
 }
 
-func TestApplyLLMTranscriptionCorrectorRejectsNonOCRAnnotation(t *testing.T) {
-	ann := &annotation.Annotation{Ocred: false}
-	ann.ID = "not-ocr"
-	applier := &AnnotationRuleApplier{}
-
-	_, err := applier.applyLLMTranscriptionCorrector("images", ann, annotationrule.NewLLMTranscriptionCorrector("ollama", "vision", nil, false))
-	require.ErrorContains(t, err, "only applicable to OCR-ed annotations")
-}
-
-func TestApplyLLMTranscriptionCorrectorRejectsNonOCRAdditionalAnnotation(t *testing.T) {
-	target := &annotation.Annotation{DatasetID: "dataset", Ocred: true}
+func TestApplyLLMTranscriptionCorrectorRunsWithoutOCRAltos(t *testing.T) {
+	root := t.TempDir()
+	manager := filesys.NewFileSystemManager(root, filepath.Join(root, "models"), filepath.Join(root, "diagrams"), filepath.Join(root, "defaults"))
+	target := &annotation.Annotation{DatasetID: "dataset", Ocred: false, Pages: "1"}
 	target.ID = "target"
-	additional := &annotation.Annotation{DatasetID: "dataset", Ocred: false}
+	additional := &annotation.Annotation{DatasetID: "dataset", Ocred: false, Pages: "1"}
 	additional.ID = "additional"
-	applier := &AnnotationRuleApplier{
-		fileSysMgt:       filesys.NewFileSystemManager(t.TempDir(), "", "", ""),
-		annotationStore:  &transcriptionAnnotationStore{annotations: map[string]*annotation.Annotation{"additional": additional}},
-		transcriptionLLM: &transcriptionLLM{},
-	}
+	imagesDir := manager.DatasetImagesDirByID("dataset")
+	require.NoError(t, os.MkdirAll(imagesDir, 0o755))
+	require.NoError(t, os.WriteFile(filepath.Join(imagesDir, "page-0001.png"), []byte("image"), 0o644))
 
-	_, err := applier.applyLLMTranscriptionCorrector("images", target, annotationrule.NewLLMTranscriptionCorrector("ollama", "vision", []string{"additional"}, false))
-	require.ErrorContains(t, err, "additional annotation additional is not OCR-ed")
+	llmClient := &transcriptionLLM{}
+	applier := NewAnnotationRuleApplier(
+		nil,
+		manager,
+		"",
+		nil,
+		&transcriptionAnnotationStore{annotations: map[string]*annotation.Annotation{"additional": additional}},
+		nil,
+		llmClient,
+	)
+	rule := annotationrule.NewLLMTranscriptionCorrector("ollama", "vision", []string{"additional"}, false)
+
+	_, err := applier.applyLLMTranscriptionCorrector(imagesDir, target, rule)
+	require.NoError(t, err)
+	require.Len(t, llmClient.calls, 1)
+	require.Contains(t, llmClient.calls[0].prompt.Dynamic, "No candidate transcriptions are available")
+	final, err := os.ReadFile(filepath.Join(manager.AnnotationTxtTranscriptionDir(target), "page-0001", "original.md"))
+	require.NoError(t, err)
+	require.Equal(t, "corrected round 1\n", string(final))
 }
 
 func testCorrectionALTO(text string) *alto.Alto {

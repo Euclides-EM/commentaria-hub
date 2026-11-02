@@ -214,9 +214,6 @@ func Run(cfg Config, client Executor) (totalUsage llm.Usage, err error) {
 }
 
 func validateConfig(cfg Config) error {
-	if len(cfg.MarkdownDirs)+len(cfg.ALTODirs)+len(cfg.TranscriptionDirs) == 0 {
-		return errors.New("at least one Markdown or ALTO input directory is required")
-	}
 	if strings.TrimSpace(cfg.ImagesDir) == "" {
 		return errors.New("images directory is required")
 	}

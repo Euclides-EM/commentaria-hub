@@ -146,9 +146,6 @@ func (a *AnnotationRuleApplier) applyRule(imgPath string, ann *annotation.Annota
 }
 
 func (a *AnnotationRuleApplier) applyLLMTranscriptionCorrector(imgPath string, ann *annotation.Annotation, rule *annotationrule.LLMTranscriptionCorrector) (*annotation.Annotation, error) {
-	if !ann.Ocred {
-		return nil, fmt.Errorf("LLM transcription corrector is only applicable to OCR-ed annotations; annotation %s is not OCR-ed", ann.ID)
-	}
 	if strings.TrimSpace(rule.Provider) == "" {
 		return nil, fmt.Errorf("LLM transcription corrector provider is required")
 	}
@@ -159,7 +156,10 @@ func (a *AnnotationRuleApplier) applyLLMTranscriptionCorrector(imgPath string, a
 		return nil, fmt.Errorf("LLM transcription corrector client is not configured")
 	}
 
-	altoDirs := []string{a.fileSysMgt.DatasetAnnotationAltoDir(ann)}
+	var altoDirs []string
+	if ann.Ocred {
+		altoDirs = append(altoDirs, a.fileSysMgt.DatasetAnnotationAltoDir(ann))
+	}
 	seen := map[string]struct{}{ann.ID: {}}
 	if len(rule.AdditionalAnnotations) > 0 && a.annotationStore == nil {
 		return nil, fmt.Errorf("annotation store is not configured for additional_annotations")
@@ -181,7 +181,7 @@ func (a *AnnotationRuleApplier) applyLLMTranscriptionCorrector(imgPath string, a
 			return nil, fmt.Errorf("additional annotation %s was not found in dataset %s", additionalID, ann.DatasetID)
 		}
 		if !additional.Ocred {
-			return nil, fmt.Errorf("additional annotation %s is not OCR-ed", additionalID)
+			continue
 		}
 		altoDirs = append(altoDirs, a.fileSysMgt.DatasetAnnotationAltoDir(additional))
 	}

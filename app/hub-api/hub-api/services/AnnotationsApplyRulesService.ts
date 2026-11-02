@@ -204,7 +204,7 @@ export class AnnotationsApplyRulesService {
     }
     /**
      * Apply LLM Transcription Corrector Rule to Annotation
-     * Correct an OCR-ed annotation using its page images, its OCR ALTO, optional OCR-ed annotations, and optional edition transcriptions.
+     * Transcribe or correct an annotation at any pipeline stage using its page images, its OCR ALTO when OCR-ed, optional OCR-ed annotations, and optional edition Rome_1574_vol2.
      * @returns annotation_Annotation OK
      * @returns job_Job Accepted
      * @throws ApiError

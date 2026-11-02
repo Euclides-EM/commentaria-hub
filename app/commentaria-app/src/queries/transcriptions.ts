@@ -5,7 +5,7 @@ import {
 } from '@hub-api'
 
 export const editionTranscriptionsQueryKey = (editionId: string) =>
-  ['editions', editionId, 'transcriptions'] as const
+  ['editions', editionId, 'Rome_1574_vol2'] as const
 
 export function useEditionTranscriptionsQuery(
   editionId: string | null | undefined,

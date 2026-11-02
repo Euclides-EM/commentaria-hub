@@ -50,7 +50,7 @@ var applicableStagesByType = map[Type][]PipelineStage{
 	TypeLimitCategoryZones:           {PipelineStageZoneSegmentation},
 	TypeReassignTextLinesByTolerance: {PipelineStageTextLineSegmentation},
 	TypeTextBlocksCorrections:        {PipelineStageOCR},
-	TypeLLMTranscriptionCorrector:    {PipelineStageOCR},
+	TypeLLMTranscriptionCorrector:    {PipelineStageRaw, PipelineStageZoneSegmentation, PipelineStageTextLineSegmentation, PipelineStageOCR},
 }
 
 var minEnsuredStageByType = map[Type]PipelineStage{
@@ -67,7 +67,7 @@ var minEnsuredStageByType = map[Type]PipelineStage{
 	TypeLimitCategoryZones:           PipelineStageZoneSegmentation,
 	TypeReassignTextLinesByTolerance: PipelineStageTextLineSegmentation,
 	TypeTextBlocksCorrections:        PipelineStageOCR,
-	TypeLLMTranscriptionCorrector:    PipelineStageOCR,
+	TypeLLMTranscriptionCorrector:    PipelineStageRaw,
 }
 
 func ZeroFromType(t Type) AnnotationRule {

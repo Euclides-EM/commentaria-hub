@@ -346,7 +346,7 @@ func (h *Handlers) ApplyRuleTextBlockCorrections(r *http.Request) (any, error) {
 
 // ApplyRuleLLMTranscriptionCorrector godoc
 // @Summary      Apply LLM Transcription Corrector Rule to Annotation
-// @Description  Correct an OCR-ed annotation using its page images, its OCR ALTO, optional OCR-ed annotations, and optional edition transcriptions.
+// @Description  Transcribe or correct an annotation at any pipeline stage using its page images, its OCR ALTO when OCR-ed, optional OCR-ed annotations, and optional edition transcriptions.
 // @Tags         Annotations Apply Rules
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"

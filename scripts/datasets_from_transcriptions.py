@@ -15,7 +15,7 @@ from urllib import error, parse, request
 BASE_URL = "https://euclides.huma-num.fr/commentaria/api/v1"
 DATASET_NAME_SUFFIX = "Book_X_Transcriptions"
 TRANSCRIPTIONS_ROOT = (
-        Path(__file__).resolve().parent.parent / "ocrflow" / "store" / "data" / "transcriptions"
+        Path(__file__).resolve().parent.parent / "ocrflow" / "store" / "data" / "Rome_1574_vol2"
 )
 REQUEST_TIMEOUT_SECONDS = 300
 GITHUB_TOKEN_ENV_VAR = "GITHUB_TOKEN"
@@ -193,7 +193,7 @@ def main() -> int:
         return 1
 
     if not TRANSCRIPTIONS_ROOT.is_dir():
-        print(f"ERROR: transcriptions dir not found: {TRANSCRIPTIONS_ROOT}", file=sys.stderr)
+        print(f"ERROR: Rome_1574_vol2 dir not found: {TRANSCRIPTIONS_ROOT}", file=sys.stderr)
         return 1
 
     transcription_dirs = sorted(p for p in TRANSCRIPTIONS_ROOT.iterdir() if p.is_dir())
