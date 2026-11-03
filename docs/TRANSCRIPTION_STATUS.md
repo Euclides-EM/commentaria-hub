@@ -1,7 +1,6 @@
 # OCR Pipeline Queue
 
 > Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect pending
-> Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg pending [LARGE FILE]
 
 # Train to improve segmentation
 
@@ -32,6 +31,27 @@
 # Run LLM Corrector
 
 # Manual Curation
+
+## Würzburg_1661
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi
+
+Skipped Kraken, run OCR with Opus.
+
+- **Requests:** 311
+- **Model:** Claude Opus (Claude Code)
+- **Total cost:** $82.88
+- **Average cost per page:** $0.098
+- **Total tokens:** 13,632,545
+- **Input tokens (uncached):** 1,256
+- **Cache-read tokens:** 5,641,309
+- **Cache-creation tokens:** 6,504,407
+- **Output tokens:** 1,485,573
+- **Reasoning tokens:** 0
+- **Cache-read requests:** 310/310
+- **Cache misses after warmup:** 0
+- **Average output per page:** 1,762 tokens
+- **Average output per request:** 4,777 tokens
 
 ## Paris_1814_vol3
 
