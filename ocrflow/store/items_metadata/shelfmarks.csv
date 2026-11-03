@@ -514,8 +514,8 @@ Paris_1566,,https://www.google.com/books/edition/Elementa_geometrica/hJdpAAAAcAA
 Venice_1569,,https://www.google.com/books/edition/Evclide_Megarense_Acvtissimo_Philosopho/qV8nH4gk-ZQC,Venice_1569_tp.png,,,,unknown,,,,
 Venice_1569,1,https://echo-old.mpiwg-berlin.mpg.de/ECHOdocuView?url=/mpiwg/online/permanent/library/RZ3VMY2U/pageimg&viewMode=auto&pn=7&mode=imagepath,venice_1569_tp_v3lyky.jpg,,,Print from 1567,Public Domain,,,,
 London_1570,,https://archive.org/details/elementsgeometr00eucl/page/n21/mode/2up,London_1570_tp.png,,,,Public domain. The Library considers that this work is no longer under copyright protection,none,,shm_b81ba3085fba,none
-Strasbourg_1570a,,https://www.google.com/books/edition/Euclidis_Propositiones_Elementorum_15_Op/b_AegGpLGmwC,Strasbourg_1570a_tp.png,,,,unknown,,,,
-Strasbourg_1570a,1,"https://www.digitale-sammlungen.de/en/view/bsb00015398?page=6,7",,,,,Public Domain,,,,
+Strasbourg_1570a,,https://www.google.com/books/edition/Euclidis_Propositiones_Elementorum_15_Op/b_AegGpLGmwC,Strasbourg_1570a_tp.png,,,,unknown,none,,shm_1643f4ec2a17,none
+Strasbourg_1570a,1,https://www.digitale-sammlungen.de/en/view/bsb00015398,,,,,Public Domain,none,,shm_da4b9e794548,none
 Strasbourg_1571,,https://www.google.nl/books/edition/Evclidis_Elementorvm_Liber_primus/0d5RAAAAcAAJ,Strasbourg_1571_tp.png,,,,,,,,
 Strasbourg_1571a,,https://www.google.com/books/edition/Evclidis_Omnes_Omnivm_Librorvm_Propositi/BJtoAAAAcAAJ,Strasbourg_1571a_tp.png,,,,,,,,
 Pesaro_1572,,https://www.google.com/books/edition/Euclidis_elementorum_libri_XV/jEoRPuxe_pcC,Pesaro_1572_tp.png,,,,unknown,none,,shm_921e8b8693ae,none
@@ -713,15 +713,15 @@ Paris_1794,1,https://gallica.bnf.fr/ark:/12148/bpt6k1521831j,,,,,Public domain,n
 Edinburgh_1795,,https://www.google.com/books/edition/Elements_of_Geometry/9y7JI4_79RMC,Edinburgh_1795_tp.png,,,,,none,,shm_40e152f3e11d,none
 Naples_1810,,https://archive.org/details/bub_gb_DI0bsb_dJm0C/page/n9/mode/1up,,,,,Public Domain,none,This is the 1818 edition,shm_21a9c974926f,none
 Naples_1810,1,https://archive.org/details/bub_gb_7d1AAgADPuEC/page/n11/mode/1up,,,,,Public Domain,none,This is the 1812 edition,shm_104a0a8ed55a,none
-Paris_1814,1,https://gallica.bnf.fr/ark:/12148/bpt6k1521328b,,,,,unknown,,,,
-Paris_1814,2,https://gallica.bnf.fr/ark:/12148/bpt6k65659793,,,,,unknown,,,,
-Paris_1814,3,https://gallica.bnf.fr/ark:/12148/bpt6k65149676,,,,,unknown,,,,
-Paris_1814,1,https://www.e-rara.ch/zut/content/titleinfo/15336362,,,,,Public Domain,,,,
-Paris_1814,2,https://www.e-rara.ch/zut/content/titleinfo/15336922,,,,,Public Domain,,,,
-Paris_1814,3,https://www.e-rara.ch/zut/content/titleinfo/15337494,,,,,Public Domain,,,,
-Paris_1814,1,https://dlc.mpg.de/!image/867386010/9/-/,paris_1814_tp_pq6kkb.jpg,,,,Public Domain,,,,
-Paris_1814,3,https://dlc.mpg.de/image/867386029/9/,paris_1814_tp_26efep.jpg,,,,Public Domain,,,,
-Paris_1814,1,https://dlc.mpg.de/toc/867434457/,,,,All three volumes,Public Domain,,,,
+Paris_1814,1,https://gallica.bnf.fr/ark:/12148/bpt6k1521328b,,,,,Public Domain,none,,shm_f41c955ffcc3,none
+Paris_1814,2,https://gallica.bnf.fr/ark:/12148/bpt6k65659793,,,,,Public Domain,none,,shm_629de4cd9cf2,none
+Paris_1814,3,https://gallica.bnf.fr/ark:/12148/bpt6k65149676,,,,,Public Domain,none,,shm_73aa0e5573a4,none
+Paris_1814,1,https://www.e-rara.ch/zut/content/titleinfo/15336362,,,,,Public Domain,none,,shm_59caf42d4aaf,none
+Paris_1814,2,https://www.e-rara.ch/zut/content/titleinfo/15336922,,,,,Public Domain,none,,shm_6415cb932b76,none
+Paris_1814,3,https://www.e-rara.ch/zut/content/titleinfo/15337494,,,,,Public Domain,none,,shm_81b036c4d39c,none
+Paris_1814,1,https://dlc.mpg.de/!image/867386010/9/-/,paris_1814_tp_pq6kkb.jpg,,,,Public Domain,none,,shm_c9fc5f55f4c7,none
+Paris_1814,3,https://dlc.mpg.de/image/867386029/9/,paris_1814_tp_26efep.jpg,,,,Public Domain,none,,shm_dc3ab9cd41e1,none
+Paris_1814,1,https://dlc.mpg.de/toc/867434457/,,,,All three volumes,Public Domain,none,,shm_f37bf3b3c7a9,none
 Nuremberg_1821,,https://www.google.com/books/edition/Mathematisch_critische_Bearbeitung_des_e/iG9Qdfm2gasC,Nuremberg_1821_tp.png,,,,,none,,shm_7e9006ffb38f,none
 Berlin_1824,1,https://www.google.com/books/edition/Euclidis_Elementorum_libri_sex_priores/Ap4AAAAAYAAJ,Berlin_1824_tp.png,,,,unknown,none,,shm_d0a604876d82,none
 Berlin_1824,1,https://archive.org/details/bub_gb_Ap4AAAAAYAAJ/page/II/mode/2up,Berlin_1824_tp_alt.png,,,,http://creativecommons.org/publicdomain/mark/1.0/,none,,shm_c03c4d5df80e,none
@@ -1976,3 +1976,6 @@ Arnhem_1605a,1,https://babel.hathitrust.org/cgi/pt?id=mdp.39015063894243,,,,,"Pu
 PEZ2GJ,1,https://www.google.co.il/books/edition/Les_Quinze_livres_des_%C3%A9l%C3%A9ments_g%C3%A9om%C3%A9/DnG2u-0fb9kC,pez2gj_tp_1ds3z8.png,,,,,none,,shm_3f15ef4f6a19,none
 Rome_1589,2,https://www.digitale-sammlungen.de/en/view/bsb11770103,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_33122869f9ea,none
 Rome_1589,1,https://www.digitale-sammlungen.de/en/view/bsb11770102,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_457d6f9e6ee7,none
+Arnhem_1605,1,https://www.e-rara.ch/doi/10.3931/e-rara-16309,,,,,Public Domain Mark,none,,shm_8f0ab5a87a0b,none
+Arnhem_1605a,1,https://www.e-rara.ch/doi/10.3931/e-rara-16310,,,,,Public Domain Mark,none,,shm_5e721f2c742c,none
+H5LJ0J,1,https://books.google.fr/books?id=Iqqo_NcuUZUC,h5lj0j_tp_di7r7a.png,,,,,none,,shm_ca8986bd6b98,none

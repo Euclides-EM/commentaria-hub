@@ -1,0 +1,31 @@
+<!-- Running title: Mechanicæ. -->
+
+<!-- Page number: 625 -->
+
+tamen, quomodo ea ad augmentum debilioris Potentiæ per machinam conducat; nimirum per æquivalentiam ex replicatione in motu velociori.
+
+### Secunda Sententia.
+
+{dropcap:S|lines=2|style=plain}I Major ſit Proportio Impetuum quàm Gravitatum, reciproca, Potentia major ſuperabitur à minore. Eſt P. Pauli Caſati, quam ille proponit his verbis: Unicum ergò & generale Principium Motûs Machinalis eſt major ratio intenſionis Impetûs in motore, ad intenſionem Impetûs cui reſiſtit Mobile, quàm ſit ratio Gravitatis Mobilis, ad gravitatem vel Potentiam Motoris. Hunc autem Impetum, in diſcurſu à ſe inſtituto, dicit produci in Ponderibus à ſua inſita gravitate, in eadem menſura, ſive ſurſum ſive deorſum pondera moveantur, dummodò par utrobique ſit velocitas.
+
+### Tertia Sententia.
+
+{dropcap:S|lines=2|style=plain}I major ſit ratio Diſtantiarum quàm Potentiarum permutata, Potentia minor prævalebit majori. Hanc per modum Corollarij deduco ex Archimedis ſexta & ſeptima libri 1 Æqueponderãtium Propoſitionibus; quibus demonſtrat de Commenſurabilibus, Incommenſurabilibúſve in Gravitate Magnitudinibus, Eas ex diſtantijs ad Gravitates proportionalibus permutatim appenſas æqueponderare. Igitur ſi non ſit eadem inter eas ratio, non æqueponderabunt, ſed motus incipiet ex ea parte, à qua eſt exceſſus in Pondere vel diſtantia.
+
+### Quarta Sententia.
+
+{dropcap:S|lines=2|style=plain}I major ſit ratio Activitatum quàm Potentiarum reciproca; Potentia minor plùs poterit majore. vel in Gravibus. Si major ſit proportio Gravitationum quàm Gravitatum permutata, Grave minus majori præponderabit. Cauſa hujus Activitatis infrà luculenter conſtabit ex Demonſtratione Propoſitionis, quam duplicem adferre placet; Unam quidem Phyſicam, ut ſic difficultati initiò propoſitæ fiat ſatis; Alteram verò Mathematicam, petitam ex Novo quodam modo philoſophandi, quem circa Potentiarum inter ſe Agentium & Reſiſtentium varias combinationes inſtitui poſſe video. Iſtud paragraphus ſequens exequetur; prius illud hæc pauca præmitti poſtulat.
+
+Suppono I. Quodvis Agens Naturale plùs in Paſſum magis, quàm minùs approximatum agere. Cùm enim certos à Natura poſitos habeat terminos, quibus ipſius Potentia, ſive Activitatis Sphæra circumſcribatur, agere debebit actione uniformiter difformi; hoc eſt, intenſiùs in propinquiora, in remotiora remiſſiùs. Et hinc fieri poſſe, ut duo Paſſa inæqualis contra aliquod Agens reſiſtentiæ, æqualia evadant, ſi eorum majus tantò plùs minore patiatur ex approximatione ad agens, quantus eſt exceſſus ille, quo dicitur eſſe majus minore
+
+Suppono II. Duas Potentias in invicem Activas, eſſe ſibi mutuò Reſtitivas: & utraſque eſſe in duplici differentia: Vel enim utraque tendit ad oppoſitos terminos Naturaliter, ut Gravitas & Levitas: vel tantùm Artificialiter vi connexionis per Machinam, ut duo Gravia. Vel denique una earum ſubſiſtit in termino, ſubjectúmque detinet in loco, alterâ verſus eundem tendente: qualis eſt Potentia reſiſtens Corporum Diſcontinuationi, Rarefactioni, & Condenſationi: atque has etiam eſſe activas conſtat, quòd Motivis ſint commenſurabiles, & minores, majores, vel æquales.
+
+Suppono III. Potentiam minorem, majori æqualem, vel potiùs æquivalentem effici, ſi exceſſus quo hæc illam ſuperat, aliunde ſit ſublatus, vel impeditus: Cùm enim Potentiæ ab eo quod hîc & nunc ad invicem poſſunt, Denominationem æqualium vel inæqualium ſortiantur; id virium, quod in aliqua Potentia eſt impeditum pro eo tempore quo cum altera confertur, vel in eam agit reſiſtitque, in cenſum activitatis Potentiæ venire non debet.
+
+Suppono IV. Potentiam cui major vel æqualis opponitur & reſiſtit, deſinere eſſe in actu ſecundo Potentiam, ſive vires in aliud agendi omnes prorſus amittere. Nam cùm Potentia omnis ad actum dicat ordinem, ſi is ſit impoſſibilis, quemadmodum majori vel æquali prævalere eſt impoſſibile; erit & Potentia impoſſibilis, adeóque nulla. Et hinc eſt quòd Gravia in Loco ſuo Connaturali non gravitent; id eſt, partes Gravium ſuperiores, ab inferioribus æqualis, vel paulò majoris gravitatis ſuſtentatæ, non agant in partes ſibi ſubjectas; ſed perinde ſe habeant, ac ſi gravitatis omnis eſſent expertes.
+
+Suppono V. Duo vel plura Gravia, aliáſque Potentias Motrices homogeneas, id eſt, ad eandem poſitionem motivas, nexu quodam continuo, ſolidóque copulata, in unum Grave coaleſcere; eâque ratione, ad Centrum Gravitatis commune, ſimultaneitatem motûs, & reliqua quæ illis ſeorſim competebant, adſtringi: Quemadmodum enim ex uno Gravi diſcontinuato plura Gravium Individua proſiliunt; ita viciſſim è pluribus in unum continuatis, unum idémque grave ſibi reſtitui, Lex & Natura Homogeneorum poſtulat. At verò heterogeneæ Potentiæ ob corpus illud continuum ſolidúmque cui applicantur, ſaltem ad motum ſimul peragendum coguntur.
+
+EX HIS UNIVERSALITER CONCLUDO, Fieri poſſe ut ſi duæ Potentiæ inter ſe inæquales, & vel Homogeneæ, id eſt, ad eandem quamcunque poſitionem motivæ, ut duo Gravia; vel Heterogeneæ, & ad diverſos terminos ex natura ſua tendentes, Corpori cuidam Continuo ſolidóque applicentur, & ita diſponantur, ut alia quædam Potentia Reſtitiva (ſive ea in loco quieſcens obſiſtat, ſive ex natura ſua in contrarium nitatur) eidem illi Continuo applicata, Puncto ſuæ applicationis, ſuſtentationis, vel appenſionis, vicinior ſit illarum Potentiarum validiori, ut Gravi majori, eâque reſiſtentiæ ſuæ vicinitate, Activitatem in contrarium, vel Gravitationem, prædictæ illius validioris Potentiæ, vel Gravis excedentis, tantum infringat & obtundat, ac in ſe exoneratam ſuſtineat, quantus eſt exceſſus, quo ſuperat vires alterius Potentiæ imbecillioris, vel Gravis minoris, ab ea Reſiſtentis activitate plùs elongati; tunc inæquales illæ Potentiæ Motivæ, vel Gravia imparium momentorum, tandem ad invicem æqualia, vel magis propriè loquendo Æquepotentia vel æquevalentia, in Activitate, vel Gravitatione evadant: ita ut in mutua eorum ad invicem Lucta, neutrum alteri prævaleat & præponderet, ſed inter utrumque quies & conſiſtentia conſequatur circa punctum illud Reſiſtentis applicati, & Potentiam illam excedentem impedientis: quod Punctum in Potentijs quidem homogeneis, Centrum Potentiæ, ex duabus
+
+<!-- Catchword: ob com- -->
