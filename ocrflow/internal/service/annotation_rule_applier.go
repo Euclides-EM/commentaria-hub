@@ -201,7 +201,7 @@ func (a *AnnotationRuleApplier) applyLLMTranscriptionCorrector(imgPath string, a
 		if strings.TrimSpace(dataset.EditionID) == "" {
 			return nil, fmt.Errorf("dataset %s has no edition for include_edition_transcription", ann.DatasetID)
 		}
-		transcriptionDirs = append(transcriptionDirs, a.fileSysMgt.EditionTxtTranscriptionDir(dataset.EditionID))
+		transcriptionDirs = append(transcriptionDirs, a.fileSysMgt.EditionTxtTranscriptionDir(dataset.EditionID, dataset.Volume))
 	}
 
 	pageNumbers, err := pagesparser.IntRange(ann.Pages)

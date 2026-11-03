@@ -88,7 +88,7 @@ func TestApplyLLMTranscriptionCorrectorUsesAnnotationAndEditionInputs(t *testing
 	imagesDir := manager.DatasetImagesDirByID("dataset")
 	require.NoError(t, os.MkdirAll(imagesDir, 0o755))
 	require.NoError(t, os.WriteFile(filepath.Join(imagesDir, "page-0001.png"), []byte("image"), 0o644))
-	editionPageDir := manager.EditionTxtPageTranscriptionDir("edition", "1")
+	editionPageDir := manager.EditionTxtPageTranscriptionDir("edition", nil, "1")
 	require.NoError(t, os.MkdirAll(editionPageDir, 0o755))
 	require.NoError(t, os.WriteFile(filepath.Join(editionPageDir, "original.md"), []byte("edition transcription\n"), 0o644))
 

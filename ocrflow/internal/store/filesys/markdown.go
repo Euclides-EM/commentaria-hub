@@ -12,8 +12,8 @@ import (
 
 var ErrMarkdownPageNotFound = errors.New("markdown page not found")
 
-func (m *Manager) RetrieveEditionMarkdownPage(editionKey string, pageNum int) (*markdown.Markdown, error) {
-	dir := m.EditionTxtPageTranscriptionDir(editionKey, fmt.Sprintf("%d", pageNum))
+func (m *Manager) RetrieveEditionMarkdownPage(editionKey string, volume *int, pageNum int) (*markdown.Markdown, error) {
+	dir := m.EditionTxtPageTranscriptionDir(editionKey, volume, fmt.Sprintf("%d", pageNum))
 	md, err := m.extractMarkdownPage(dir)
 	if err != nil {
 		return nil, fmt.Errorf("retrieve edition markdown page %d for edition %s: %w", pageNum, editionKey, err)
