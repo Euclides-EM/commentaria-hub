@@ -4,7 +4,7 @@
 
 # Train to improve segmentation
 
-> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].
+> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE]. [OCR via LLM already running]
 
 > Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job done. Need to train to improve. [LARGE FILE]
 
@@ -30,6 +30,12 @@
 
 # Run LLM Corrector
 
+## Venice_1505
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726
+
+Skipped Kraken, running OCR: 210/447
+
 # Manual Curation
 
 ## Würzburg_1661
@@ -52,32 +58,6 @@ Skipped Kraken, run OCR with Opus.
 - **Cache misses after warmup:** 0
 - **Average output per page:** 1,762 tokens
 - **Average output per request:** 4,777 tokens
-
-## Paris_1814_vol3
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
-http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
-
-Claude Code — Fable
-
-- **Requests:** 272
-- **Input tokens:** 1,232
-- **Cached tokens:** 8,616,382
-- **Cache creation tokens:** 4,925,131
-- **Output tokens:** 995,247
-- **Reasoning tokens:** 0
-- **Total tokens:** 14,537,992
-- **Cost:** $157.95
-
-Codex — GPT-5.6 Sol
-
-- **Requests:** 217
-- **Input tokens:** 10,714,810
-- **Cached tokens:** 8,366,592
-- **Cache creation tokens:** 0
-- **Output tokens:** 694,939
-- **Reasoning tokens:** 0
-- **Total tokens:** 11,409,749
 
 ## Rome_1574_vol2
 
@@ -148,6 +128,32 @@ Codex — GPT-5.6 Sol
 - **Output tokens:** 259,765
 - **Reasoning tokens:** 0
 - **Total tokens:** 4,662,340
+
+## Paris_1814_vol3
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
+http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
+
+Claude Code — Fable
+
+- **Requests:** 272
+- **Input tokens:** 1,232
+- **Cached tokens:** 8,616,382
+- **Cache creation tokens:** 4,925,131
+- **Output tokens:** 995,247
+- **Reasoning tokens:** 0
+- **Total tokens:** 14,537,992
+- **Cost:** $157.95
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 217
+- **Input tokens:** 10,714,810
+- **Cached tokens:** 8,366,592
+- **Cache creation tokens:** 0
+- **Output tokens:** 694,939
+- **Reasoning tokens:** 0
+- **Total tokens:** 11,409,749
 
 ## Strasbourg_1566
 
