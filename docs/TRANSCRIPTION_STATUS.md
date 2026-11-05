@@ -4,9 +4,9 @@
 
 # Train to improve segmentation
 
-> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE]. [OCR via LLM already running]
+> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE]. [OCR done]
 
-> Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job done. Need to train to improve. [LARGE FILE]
+> Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job done. Need to train to improve. [LARGE FILE]  [OCR done]
 
 > Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg done. Might need train to improve, i.e page 83.
 
@@ -37,6 +37,23 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726
 Skipped Kraken, running OCR: 210/447
 
 # Manual Curation
+
+## Venice_1543
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6
+
+Skipped Kraken, run OCR with Opus.
+
+- Requests: 493
+- Provider/model: Claude Code / Opus
+- Cost: $124.56
+- Input tokens: 1,986
+- Cached tokens: 8,654,905
+- Cache creation tokens: 10,334,316
+- Output tokens: 2,007,138
+- Reasoning tokens: 0
+- Total tokens: 20,998,345
+
 
 ## Würzburg_1661
 
