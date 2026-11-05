@@ -1,0 +1,20 @@
+<!-- Running title: SECONDO -->
+<!-- Page number: Fo. XXX -->
+
+vna figura chiamata gnomone,verbi gratia,tollendo il paralellogrammo.K.h.f.d.inſieme con li duoi ſupplimenti.e.K,c,h,&.g.k.b.f.formaranno una figura, come qua in margine appare,laqual (come e' detto di ſopra)ſi chiamara gnomone,ma chi toleſſe anchora l'altro paralellograummo.a.e.g.k.con li predetti duoi ſupplimenti.e.K.c.h.&.g.k.b.f.formaranno etiam loro vna figura, come qua in margine appare;laquale,come e' detto di ſopra,ſi chiamera ſimilmente gnomone,e queſto e' quello che volemo inferire.Onde ſeguita che aggionto a cadauno di queſti duoi gnomoni il paralellogrammo che gli manca,reformano un'altra volta tutto il paralellogrammo,& abenche,il detto gnomone creſca di area,tamen il non ſe altera, ouer muta della ſua circonferentia laterale, ſi come dice Ariſtotele nelli predicamenti.
+
+[Diagram: gnomon figure titled "Gnomon", L-shaped with diagonal in the corner square, labelled b, f, a, k, g, e, c, d]
+
+[Diagram: gnomon figure titled "Gnomon", rectangle with diagonal and inner lines, labelled b, f, g, k, h, a, c, d]
+
+### Il Tradottore.
+
+{dropcap:Q|lines=2|style=plain}Veſto ſopraſcritto correllario vol inferire che per l'aggiongere ouer cauare delli ſopradetti paralellogrammi,ſempre ſe creſce,ouer ſe ſminuiſce la ſuperficie della figura,doue ſi aggionge,ouer caua,& tamen mai gli creſce ouer ſminuiſce la circõferentia laterale,exempli gratia, ſe del paralellogrammo.a.b.c.d.ne cauaremo lo paralellogrammo.a.g.e.k.reſtara lo primo gnomone,ilqual gnomone ſera di minor ſuperficie del paralellogrammo.a.b.c.d.tamen la ſua circonferentia laterale ſera equale alla circonferentia laterale del detto total paralellogrammo,cioe che le ſei linee.e.K:K.g:g.b:b.d:d.c.&.c.e.che circondano il detto gnomone,ſotto equale in ſumma quattro.a.b:b.d:c.a.che circondano il totale paralellogrammo, laqualcoſa per te facilmente apprehenderai, ſenza altra dimoſtratione.
+
+## Theorema prima. Propoſitione prima.
+
+Se ſeranno due linee rette delle quale una ſia diuiſa in quante parti ſi uoglia,Quello che uien fatto del dutto dell'una in l'altra ſera equale a' quelli rettangoli, che ſeranno produtti dal dutto della linea non diuiſa in cadauna parte della linea particolarmente diuiſa.
+
+{dropcap:S|lines=2|style=plain}Iano le due linee.a.b.&.c.vna delleq̃l,cioe.a.b.ſia diuiſa poniamo in tre parti,l'una dellequal parte ſia.a.d.la ſcd'a.d.e.& la terza.e.b. hor dico che quel che vien fatto del dutto della linea.c.in tutta la linea.a.b.ſera equale a quelli paralellogrãmi rettangoli(gionti inſieme)che ſeran fatti della linea.c.in la.a.d.& in la.d.e.& in la.e.b.E per dimoſtrar queſto ſopra li duoi ponti.a.&.b.erigero le due linee.a.n.&.b.m.ꝑpendicolare alla linea.a.b.(per la dottrina dell' undecima ꝓpoſitione del primo)dellequal ꝑpendicolare ne ſegaro le duoi parti.a.f.&.b.g.che ciaſcuna ſia equale alla linea.c.poi compiro il paralellogrãmo.a.f.b.g.ducendo la linea.f.g.& queſto tal rettangolo, ouer paralellogrammo e' proprio il dutto de.la linea.c.in tutta la linea.a.b.come di ſopra fu detto. Anchora delli duoi ponti.d.&.e.tiraro le due linee.d.h.&.e.k.equidiſtãte alli duoi lati.a.f.&.b.g.e l'una e l'altra di quelle ſeranno equale(per la trigeſima quarta propoſitione del primo)& ſimilmente l'una e l'altra ſera equal alla linea.a.f.& ꝑ la prima concettione,alla linea.c.Adonque per le coſe diffinite di ſopra,il rettangolo.a.d.f.h.vien produtto dal dutto della linea.c.in la linea.a.d.& vien ditto eſſer contenuto ſotto a quelle(come fu detto di ſopra)& coſi il rettangol.d.h.e.K.della detta linea.c.& della linea.d.e.ſera contenuto,& ſimilmente il rettangolo.e.k.b.g.vien pur fatto della linea.c.dutta in linea.e.b.& perche tutti queſti tre rettangoli piccoli inſieme gionti impiſſino totalmente tutto il gran rettangolo.a.f.b.g.pero tutti tre gionti inſieme ſono equali a quello,che e' il propoſito.
+
+[Diagram: rectangle divided into three parts, labelled a, d, e, b along the top, f, h, k, g along the bottom, n and m below, with a separate line c at left]

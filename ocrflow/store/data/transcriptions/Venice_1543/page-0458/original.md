@@ -1,0 +1,21 @@
+<!-- Running title: DECIMOQVARTO -->
+
+<!-- Page number: Fo. CCXXV -->
+
+to ſotto della perpẽdicolare dutta dal centro del cerchio al lato del triangolo della figura del uinti baſe a quello inſcritto,& ſotto del lato di quel triangolo, e equale a tutte le ſuperficie della figura del uinti baſe tolte inſieme.
+
+{dropcap:S|lines=2|style=plain}Ia anchora in queſto loco el triangolo.e.una delle uinti baſe della figura del ycocedron,& uno de ſuoi lati ſia la la.f.g.Et a quello(per la quinta del.4.)ſia circonſcritto un cerchio ſopra el centro.e.& ſiano protratte le linee.e.f.e.g.& la e.h.perpendicolare alla.f.g.Dico adonque che el trentuplo di quello che uien fatto dalla.e.h.in la.f.g.e equale a tutte le ſuperficie del ycoedron tolte inſieme;cioe che tutte le ſuperficie del ycocedron tolte inſieme ſono trenta uolte tanto quanto e lo rettangolo contenuto ſotto della.e.h.& della.f.g.perche e manifeſto el triangolo.e.eſſer diuiſibile in tre triangoli cadauno di quelli(per la ottaua & quarta del primo)e equale al triangolo.e.f.g.Adonque tutti li uinti triangoli del ycocedron tolti inſieme(concio ſia che tutti ſiano equali & ſimili al triangolo.e.)ſono ſi come el ſeſſantuplo del triangolo.e.f.g.Et perche ( per la quadrageſima prima del primo ) quello che uien fatto dalla.e.h.in.la.f.g.e doppio al triangolo.e.f.g.E pero el tſentuplo{printer-error-correction:trentuplo} di queſto e equale al ſeſſantuplo di quello. Seguita che il trentuplo di quello che uien fatto della.e.h.in la.f.g. ſia equale a tutte le ſuperficie del ycocedron tolte inſieme la qual coſa era da dimoſtrare.
+
+[Diagram: circle with inscribed triangle and a smaller triangle drawn from the centre to the base, with a perpendicular from the centre to the base; labelled e at centre, f at lower left, h at bottom and g at lower right]
+
+### Correlario.
+
+Adonque e manifeſto che la proportione delle ſuperficie della figura del dodice baſe(contenute in qualche ſphera)alle ſuperficie della figura de uinti baſe concluſe in la medeſima ſphera,e ſi come quella del rettangolo contenuto ſotto del lato dun penthagono di eſſa figura de dodice baſe:& ſotto della perpendicolare dutta dal centro del ſuo cerchio al lato di eſſo penthagono: Al rettangolo contenuto ſotto del lato dun triangolo di eſſa figura di uinti baſe,& della perpendicolare dutta dal centro del ſuo cerchio al lato di quel triangolo dil corpo di uinti baſe.
+
+{dropcap:E|lines=2|style=plain}Glie manifeſto eſſer il uero q̃llo che ſe cõclude ꝑ el el correlario,o ſiã la figura del.12.baſe & la figura del.20.baſe circõſcrittibile da una medema ſphera. cõe ſe ꝓpone ouer ſe ſarãno etiã circõſcritibile da diuerſe ſphere:Ma el ſe ꝓpone cõe q̃ſte figure ſiano circõſcrittibile da una medeſima ſphera ꝑche q̃ſto modo uale & e ſufficiẽte al ꝓpoſito:adõq; la cõmuna uerita di q̃llo coſi ſe manifeſta. ꝑche (ꝑ la.6.di q̃ſto)e manifeſto che el trẽtuplo di q̃llo che uien fatto dalla.a.d.in la.b.c.e eq̃le a tutte le ſup̃ficie del dodecedron tolte inſieme,del q̃le el pẽthagono.a.e una de le ſue.12.ſup̃ficie.&(ꝑ q̃ſta.7.)ſimilmẽte e manifeſto che il trẽtuplo di q̃llo che uien fatto dalla.e.h.in la.f.g.e eq̃le a tutte le ſup̃ficie del ycocedrõ tolte inſieme dil q̃le el triãgolo.e.e una delle ſue.20.baſe o ſia che q̃l dodecedrõ & q̃ſto ycocedrõ una medeſima ſphera li circõſcriua,ouer diuerſe. adõq; la ꝓportione del trẽtuplo della.a.d.in la.b.c.a tutte le ſup̃ficie di q̃l dodecedrõ tolte inſieme e ſi cõe q̃lla del trẽtuplo della.e.h.in.la.f.g.a tutte le ſup̃ficie del ycocdrõ tolte inſieme ꝑche luna e laltra ꝓportiõe de eq̃lita:ꝑ la q̃l coſa ꝑmutatamẽte el trẽtuplo della.a.d.in la.b.c.al trẽtuplo della.e.h.in la.f.g.e ſi cõe tutte le ſup̃ficie di q̃l dodecedrõ a tutte le ſup̃ficie di q̃ſto ycocedrõ:&(ꝑ la.15.del.5.)del trẽtuplo al trẽtuplo,e ſi cõe del ſempio al ſempio,adõq; e manifeſto(ꝑ la.11.del.5.)che la ꝓportione di tutte le ſup̃ficie di q̃l dodecedrõ a tutte le ſuperficie di q̃ſto ycocedron e come quella di q̃llo che uien fatto dalla.a.d.in la.b.c.a quello uien fatto dalla.e.h. In la.f.g.Et queſto e quello che propone el correlario.
+
+## Theorema.viii. Propoſitione.viii.
+
+La proportione de tutte le ſuperficie del corpo de dodeci baſe tolte
+
+<!-- Signature: CC -->

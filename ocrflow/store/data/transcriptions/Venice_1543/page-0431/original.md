@@ -1,0 +1,19 @@
+<!-- Running title: LIBRO -->
+
+linea.f.e.perche tutta la.b.d.era equale a tutta la.c.e.e pero ( per la quinta del primo(langolo.f.b.e.ſara equale al angolo.f.e.b.& (per la medeſima ) langolo a.b.e.e.equale al angolo.a.e.b.adonque ( per communa ſcientia)langolo.b.totale e equale al total angolo.e.perche li trei angoli partiali componenti luno ſono equali alli trei angoli partiali compōnēti laltro cadauno al ſuo relatiuo.adōque e manifeſto che li trei angoli.e.b.c.tolti diſcontinuamēte in el propoſto penthagono ſono equali& concio ſia che in tal modo eglie ſtato dimoſtrato tutto el pēthagono eſſer eqangolo.adonq̃ ꝑ luno e laltro modo e manifeſto el ꝓpoſito.
+
+## Theorema.viii. Propoſitione.viii.
+
+Di ogni triangolo equilatero lo quadrato che uien deſcritto dal ſuo lato e treppio al quadrato della mita del diametro del cerchio dal quale eſſo triangolo ſara circonſcritto.
+
+{dropcap:S|lines=2|style=plain}Ia il triangolo.a.b.c.equilatero al qual ſia circonſcritto lo cerchio.a.b.c.ſopra el centro.d.( ſi come inſegna la quinta del quarto libro ) & ſia protratto in quello lo diametro.a.d.e.Dico adonque che il quadrato della linea.a.b.e treppio al quadrato del mezzo diametro.a.d.& ꝑ demoſtrar queſto ſiano dutte le due linee.b.d.&.d.c.& a larco.b.e.ſia protratto ſotto la corda.b.e.& ( per la ottaua del primo libro ) langolo.b.a.d.ſara equale a langolo.c.a.d.per la qual coſa ( per la ultima del ſeſto ) larco.b.e.e equale al arco.e.c.& perche ( per la uigeſimaottaua del terzo ( li trei archi.a.b.b.c.&.c.a.ſono fra loro equali impero che le corde di quegli ( le quale ſono li lati del triangolo) ſono equale(dal preſuppoſito ) larco.b.e.ſara la ſeſta parte della circonferentia : e pero la corda b.e.ſara il lato del exagono equilatero inſcritto in quel cerchio: per la qual coſa (per el correlario della decimaquinta del quarto ) la linea.b.e.e equale al mezo diametro.a.d.Et e manifeſto(per la prima parte della trigeſimaprima del tertio)che langolo.a.b.e.e retto e pero el quadrato della linea.a.e.e equale alli quadrati delle due linee a.b.&.b.e.tolti inſieme (per la penultima del primo )& lo quadrato della.a.e.e quadruplo al quadrato della.b.e.( per la quarta del ſecondo ( concio ſia che la linea.a.e.ſia doppia alla.b.e.reſta adonque lo quadrato della.a.b.eſſer treppio al quadrato della.b.e.e pero etiam al quadrato della a.d.che e il propoſito.& accio che a noi ſia chiaro che la linea.b.c.( che e il lato del triangolo ) diuida lo ſemidiametro.d.e.in due parti equali,ſia.f.el ponto della diuiſione.Adonque e manifeſto ( per la quarta del primo ) che la.b.f.e equale alla.f.c.e pero ( per la prima parte della tertia del tertio ) tutti li angoli che ſono al.f.ſono retti,per la qual coſa (per la penultima del primo ) lo quadrato della.b.d.e equale alli quadrati delle due linee.d.f.&.f.b.ma lo quadrato della.b.e.e equale alli quadrati delle due linee che ſono la.b.f.& la.f.e.Et perche la.b.d e equale alla.b.e.( per communa ſcientia ) li duoi quadrati delle due linee.b.f.&.f.d.tolti inſieme ſaranno equali alli duoi quadrati delle due linee.b.f.&.f.e.tolti inſieme,leuado adonque uia da luna e laltra banda lo quadrato della.b.f.( per communa ſcientia ) lo quadrato della.f.d.( reſiduo ) ſara equale al quadrato della.f.e.( reſiduo ) per la qual coſa & la linea.f.d.alla linea.f.e.(per queſta cōmuna ſententia ) quelle linee ſono equale delle quale li quadrati ſono equali: Adonque per queſto e manifeſto che la perpendicolare dutta dal centro dun cerchio al lato del triangolo equilatero a ſe inſcritto e equale alla mita della linea dutta dal centro del medeſimo cerchio alla circonferentia di quello.
+
+[Diagram: circle with inscribed equilateral triangle, labelled a at top, b and c at the base, d the centre, f on the base, e at the bottom of the diameter a d e]
+
+## Theorema.ix.Propoſitione.ix.
+
+[Handwritten]
+[unclear: 9/9]
+[/Handwritten]
+
+Se il lato dello exagono equilatero, & il lato del decagono equilatero:li

@@ -1,0 +1,19 @@
+<!-- Running title: DECIMO -->
+
+<!-- Page number: XCXXXIX -->
+
+che ſe la.c.a.&.a.b. non ſono incommenſurabile ( per l'aduerſario ) adonque (per la diffinitione)alcuna grandezza li miſura ambedue, hor ſe eglie poſſibile ſia che.d.miſuri quelle adonque perche.d.miſura le dette.c.a.&.a.b.miſurara etiam el rimanente.b.c.& gia miſura.a.b.adonque el.d.miſura le dette.a.b.&.b.c.e per tanto(ꝑ la prima diffinitione del.10.)dette.a.b.&.b.c.ſono commenſurabile,& ſono ſuppoſte incommenſurabile laqualcoſa e impoſſibile,adonque alcuna gradezza non miſurara le dette.a.b.&.c.a.e per tanto quelle ſono incommẽſurabile.Ma ſupponendo al preſente che la detta. a.c. ſia incommenſurabile a vna delle dette.a.b.&.b.c.ſimilmente demoſtraremo anchora che le dette due grandezze.a.b.&.b.c.ſono incommenſurabile,hor ſia primamente alla.a.b. Dico che dette.a.b.&.b.c ſono incommenſurabile,perche ſe ſono commenſurabile(per l'aduerſario)alcuna grandezza ( per la diffinitione ) miſurara quelle, & ſia quella tal grandezza(ſe poſſibile e).d.adonque perche.d.miſura dette. a.b. &.b.c.adonque miſurara etiam tutta.a.c.& miſura etiam.a.b.adonque.d. miſura dette.c.a.&.a.b.e per tanto le dette.c.a.&.a.b. ſono commenſurabile & ſono ſuppoſte incommenſurabile laqualcoſa e impoſſibile adonque alcuna grandezza non miſurara le dette.a.b.&.b.c.e per tanto dette.a.b.&.b.c.ſono incommẽſurabile,ſimilmente ſe demoſtrara che la.a.c.alla rimanente.b.c.e incommenſurabile,adonque ſe due grandezze & el rimanente che ſeguita, laquale coſa era da demoſtrare.
+
+## Theorema.xii. Propoſitione.xiiii.
+
+[Handwritten]
+10 11
+[/Handwritten]
+
+Se la prima ( de ogni quattro quantita proportionale ) ſera commenſurabile alla ſeconda, anchora la terza ſera commenſurabile alla quarta,& ſe la prima ſera incommenſurabile alla ſeconda,anchora la terza ſera incommenſurabile alla quarta.
+
+{dropcap:S|lines=2|style=plain}Iano le quattro quantita proportionale.a.b.c.d. Dico che ſe.a.communica con.b.anchora.c.communicara con. d. & ſe. a. e incommenſurabile con. b. anchora.c.ſera incommenſurabile con.d.& ſe.a.communica con. b. in potentia ſolamente anchora.c.communicara con.d.in potentia ſolamente niente di manco l'author non propone queſto perche facilmente e manifeſto per la demoſtratione delle prime parte,lequale ſe demoſtreno in queſto modo, ſe.a.communica con.b.(per la quinta di queſto)ſera.a.al.b.ſi come numero a numero ſia adonque ſi come.e.al.f.ma perche(per el preſuppoſito ).a.al.b.e ſi come.c. al. d. ſera c.al.d.ſi come el numero.e.al numero.f.adonque(per la ſeſta).c.e communicante con.d.che e il primo propoſito, el ſecondo e manifeſto dal primo dalla deſtruttione del conſequente,perche ſe.a.e incommenſurabile con.b.le neceſſario. c.eſſer in cõmenſurabile con.d.perche ſel fuſſe a quello commenſurabile ( concioſia che ſia come.c.al.d.coſi.a.al.b.(per el preſuppoſito )ſeria ( per la prima parte.a.communicante con.b.& non era communicante, perlaqualcoſa e manifeſto tutto quello che ha propoſto l'authore ma quella parte che gli hauemo agiunto(cioe che ſe.a.communica con. b. ſolamente in potentia. c. communica con.d.ſolamente in potentia)e manifeſto in queſto modo concioſia che. a. non communichi con.b.in longhezza ne el.c.(per la ſeconda parte de queſta) communicara con.d.in longhezza & concioſia che'l quadrato de. a. communichi con el quadrato de.b.(dal preſuppoſito)ſera(per la quinta)el quadrato della linea.a.al quadrato della linea.b.ſi come numero a numero liquali ſian.e. &f. & perche el quadrato de.c.al quadrato de.d. e ſi come el quadrato de. a. al quadrato de.b.ſera etiam el quadrato de.c.al quadrato de.d.ſi come el numero.e. al numero.f.adonque(per la ſeſta).c.&.d.communicano in potentia, & perche non communicano in longhezza,el propoſito e manifeſto.
+
+[Diagram: horizontal lines labelled a, e, b, d and two shorter lines labelled with further letters]
+
+<!-- Signature: S iii -->

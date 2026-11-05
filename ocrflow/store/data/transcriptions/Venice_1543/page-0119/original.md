@@ -1,0 +1,23 @@
+<!-- Running title: LIBRO -->
+
+## Problema.x. Propoſitione.x.
+
+[Diagram: two circles, a smaller circle inside a larger one touching it, with a triangle inscribed; labels b, d, c, e, a]
+
+[Handwritten]
+10
+[/Handwritten]
+
+[Margin]
+10
+[/Margin]
+
+Puotemo deſignare uno triangolo de duoi lati equali,delquale l'un e l'altro di duoi angoli,che ſono ſopra la baſa ſia doppio dell'altro.
+
+{dropcap:L|lines=2|style=plain}A intentione e da deſcriuere vno triangolo de duoi lati equali & del tertio non equale,del quale l'uno e l'altro delli duoi angoli che ſono ſopra il lato che non e equale alli altri duoi ſia doppio al tertio. Et per far queſto ſia tolto a' bene placito vna linea retta laquale ſia.a.b.laqual ſia diuiſa ſecondo che ne inſegna la vndecima del ſecondo in ponto.c.talmente che quello ch'e fatto della a.b.in la.b.c.ſia equale al quadrato della.a.c.& fatto il ponto.a.centro ſia deſcritto(ſecondo la quantita della detta linea.a.b.)il cerchio.b.d e.drento dilquale ſia accommodata la linea.b.d.(per la prima di queſto) equale alla linea.a.c.& ſiano produtte le due linee.d.a:d.c.dico il triangolo.a.b.d.eſſer tal qual e ſtato propoſto & per dimoſtrar queſto ſia circonſcritto vn cerchio,ilqual ſia.d.c.a.(per la quinta di queſto)al triangolo.d.c.a.perche adonque la linea.d.b.e' equale alla linea.a.c.ſera quello che vien fatto della.a.b.in la.b.c.equale al quadrato della linea.b.d.per laqualcoſa la linea.b.d.(per la ultima del tertio) e toccante il cerchio.d.c.a.(& per la trigeſima ſeconda del medeſimo)l'angolo.c.d.b.e' equale al angolo.c.a.d.gionto adonque cõmunamente l'angolo.c.d.a.tutto l'angolo.b.d.a.(ꝑ la ſeconda concettione)ſera equal alli duoi angoli.c.a.d.&.c.d.a.ma(per la trigeſima ſeconda del primo)l'angolo.b.c.d.e' equale all medeſimi duoi angoli c.a.d.&.c.d.a.(perch'e' eſtrinſico a quelli) adonque l'angolo.b.d.a.e equale all'ãgolo.b.c.d.& perche l'angolo.a.d.b.e' equale all'angolo.a.b.d.(& per la quinta del primo)per eſſer li duoi lati.a.b.&.a.d.equali (per la diffinitione del cerchio) l'angolo.b.c.d.(per la prima concettione(ſera equale all'angolo.c.b.d.adonque (per la ſeſta del primo)la linea.c.d.e' equale alla linea.b.d.& perche la linea.b.d.fu poſta equale alla linea.c.a.ſeguita adonque(per la prima communa ſententia)che la linea.c.d.ſia equale alla linea.c.a.adonque (per la quinta del primo) l'angolo.c.a.d.e' equale all'angolo.c.d.a.perche adonque l'uno e l'altro di duoi angoli.c.d.b.&.c.d.a.e' equale all'angolo.c.a.d.tutto l'angolo.b.d.a.ſera doppio all'angolo.d.a.b.& per tanto l'angolo.a.b.d.a lui equale e anchora lui doppio al medeſimo angolo.b.a.d.che e il propoſito. Forſi l'aduerſario dice il cerchio.d.c.a.circonſcritto al triangolo partiale ſeghara il cerchio.b.d.e.in alcun ponto dell'arco.b.d.ſiche inſiema ſeghara la linea.b.d.onde quella non ſera applicata al cerchio(ſi come ſe ſuppone in la demoſtratione )ma ſera ſeghante quello. ſia adonque (ſe poſſibile e )come pone l'aduerſario,& dal ponto.b.ſia dutto al detto cerchio minor la linea.b.f.& (ꝑ la.17.del tertio),toccãte quello ſian dutte le linee f.a.f.d.ſera(per la penultima del tertio)quello che vien fatto della.a.b.in la.b.c. equale al quadrato della.b.f.adonque la.b.f.e' equale alla.b.d.perlaqualcoſa l'ãgolo.b.f.d.(per la quinta del primo)ſera equale all'angolo.b.d.f.& perche l'angolo.b.f.a.e' equale(per la trigeſima ſeconda del tertio)all'angolo.a.d.f.& perche tutto l'angolo.b.f.d.(per la vltima concettione )e' maggiore dell'angolo.b.f.a.ſera etiam maggiore dellangolo.f.d.a.(a quello equale)& perche l'angolo.f.d.b.e equal al detto angolo.b.f.d.ſeguiria(per communa ſcientia)che l'angolo f.d.b.fuſſe maggiore dell'angolo.f.d.a.laqualcoſa e impoſſibile ( per la vltima concettione) che la parte ſia maggiore del tutto ſeghara in alcuno ponto l'arco.b.d.anchora per vno altro modo poſſiamo. adonque il cerchio.d.c.a. non dimoſtra queſto che il cerchio minore per modo alcuno ſeghara la linea.b.d. perche il detto aduerſario forſe dira che ſeghara quella non ſeghando l'arco.d.b.del maggior cerchio,ſe pur poſſibil e che ſeghi quella ſia queſto in ponto.h.& ſera quello che e fatto della.a.b.in.b.c.equale a quel che vien fatto della.d.b.in b.h. Perche'l fu dimoſtrato di ſopra nella penultima del tertio che ſe da alcuno ponto ſignato fuora d'un cerchio ſiano dutte quante linee ſi voglia al detto cer-
+
+[Diagram: smaller circle inside a larger circle, touching it, with triangle and lines from a; handwritten labels b, f, c, d, a and handwritten number 10]
+
+[Diagram: smaller circle inside a larger circle with an inscribed triangle; handwritten labels b, b, c, d]
+
+<!-- Catchword: chio -->

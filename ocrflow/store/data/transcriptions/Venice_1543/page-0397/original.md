@@ -1,0 +1,21 @@
+<!-- Running title: LIBRO -->
+
+b.e ad angoli retti,adonche langolo che ſotto.e.f.g.e retto. Per laqual coſa,duoi angoli de quel triangolo.e.f.g.ſono equali a duoi angoli retti:la qual coſa e impoſſibile(per la decima ſettima del primo ) Adonque la perpendicolare dutta dal ponto.e.in el piano.a.b.non cadde fora di eſſa ſettione.a.d.adonque cade in quella che era da demonſtrare.
+
+## Theorema.xxxvi. Propoſitione.xli.
+
+[Handwritten]
+40 39
+[/Handwritten]
+
+Se li lati de due oppoſite ſuperficie,del cubo ſaranno tagliati in due parti equali,& dalli ponti delle ſectioni ,uſiranno due ſuperficie ſegante el cubo etiam fra loro, la commune ſectione de quelle e neceſſario ſegar el diametro del cubo in due parti equali, & quella ſimilmente e neceſſario eſſer ſegata dal diametro in due parti equali.
+
+[Diagram: cube divided by intersecting planes, labelled c, a, m, q, f, g, o, s, u, t, r, e, p, d, n, b, h, with handwritten 41]
+
+[Diagram: circle with inscribed pentagon and diagonals, labelled b, a, g, c, k, h]
+
+[Diagram: circle with inscribed pentagon and diagonals, labelled e, d, l, f, n, m]
+
+{dropcap:S|lines=2|style=plain}Tatuiſſe un cubo,el qual,ſia.a.b.del quale e manifeſto(per la diffinitione)che tutte le linee chel contiene ſono equale &le ſue ſuperficie rettangole,perche a un tal corpo diſemo cubo, Adõche la baſa di queſto cubo ſia la ſuperficie.a.c. d.e.& la ſuperficie ſuprema di quello ſia.b.f.g.h.& la deſtra di quello ſia.a.e.g.h. & la ſiniſtra ſia la ſuperficie.b.f.c.d. Anchora quella de qua ſia la.d.e.b.h.&quella di la.la.a.c.g.f.& lo diametro di quello ſia la.a.b.adonche ſian diuiſi tutti li lati de due qual ſi uoglian ſuperficie oppoſite di quello in due parti equali,& ſiano p (al preſente) le ſupficie delle quale li lati ſian diuiſi la deſtra,& la ſiniſtra,Dico che ſiano diuiſi li quatro lati, della deſtra, ſopra li quatro ponti, li quali ſono.o.p.q.r.Et la ſiniſtra ſopra li quatro li quali ſono.K.l.m.n.& ſiano congiunti li ponti in queſte ſuperficie oppoſite dutte le linee.o.p.&.q.r. lequale ſe ſegano fra lor in ponto.t. Anchora dutte le.K.l.&.m n.lequale ſe ſegano fra loro in ponto.s.& ſiano anchor compite le due ſuperficie ſegante fra loro, etiam ſegante il cubo protratte le linee.o.k.&.p.l.q.m.&.r.n.& ſia la commune ſectione di queſte due ſuperficie la.s.t. Dico adõque che la linea.s.t. diuide il diametro.a.b.& q̃lla e diuiſa dal medemo diametro in due parti equali,laq̃l coſa e manifeſta ꝑche luna e laltra di quelle tranſiſſe per il centro dil cubo. Ma altramente cõuien demoſtrare quello che e propoſto. Hor.ſian produtte le due linee.t.a.&.t.h.ſimelmente le due.ſ.c.ſ.b.&(per la.4.del primo)la.a.t.ſara equale alla.t.h.& la.ſ.c. equale alla.ſ.b.& e manifeſto(per la prima parte della.29.del primo)che langolo.p.t q.e equale al angolo.a.q.t,&(per la quantita del primo)langolo.h.t.p. e equale al angolo.t.a.q. Adõque per la.32.del primo)tutto langolo.h.t.q.con langolo.q t.a.uale per dui retti. Per laqual coſa(per la.14. del primo)la linea.a.h.ſara una ſol linea. ſimilmente anhora la linea.c. b. ſara una ſol linea. & perche (per la nona di queſto) la linea.a.c. e equidiſtante alla linea. b.h. perche luna e laltra e equidiſtante alla linea. d.e. & concioſia che quelle ſiano equale,perche ſono lati del cubo,ſeguita per la.33 del primo,le due linee.a.h. &.c.b. eſſer equale & e quidiſtante.& pero per la concettione) le mita di quelle,le qual ſono.a.t.&.b.s,ſaranno equale.&(per la ſettima di queſto ) e manifeſto che la linea.ſ.t.e in ſuperficie delle due linee.a.h &.b.c.&(per la medema) la linea a.b,la quale e il diametro del cubo,e etiam diametro della ſuperficie,paralellogramma a.c.b.h. Adonque la linea.ſ.t.ſega lo diametro.a.b. Seghi adonque quella in põto.u. Dico adonque la linea.ſ.u.eſſer,equale alla linea.u.t.etiam la linea.a.u alla linea.u.b. Siano inteſi li duoi triangoli.a.t.u.b.ſ.u.di quali li angoli che ſono al.t. &.ſ.ſono equali fra loro, ſimelmente li angoli di medemi che ſono al.a.&.b.ſono equali fra loro ( per la prima parte della uigeſimanona del primo ) per queſto, che la linea.a.t.e equidiſtãte alla linea.ſ.b. Et perche anchora loro ſono equale. ſeguita(per la uigeſima ſeſta del primo)il propoſito. I l medemo anchora ſe concludera per el medemo modo ſe il ſolido. a. b. non ſia cubo. ma ſolamente
+
+<!-- Catchword: corpo -->

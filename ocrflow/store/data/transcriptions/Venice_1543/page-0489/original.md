@@ -1,0 +1,1 @@
+[Illustration: printer's device: a horse rearing before a crenellated tower within an oval frame, surrounded by scrollwork with lion masks and dragons, with initials F Z F in a cartouche at the bottom]

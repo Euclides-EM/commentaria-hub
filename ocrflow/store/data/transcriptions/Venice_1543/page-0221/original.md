@@ -1,0 +1,19 @@
+<!-- Running title: LIBRO -->
+
+[Diagram: three rows of horizontal lines labelled e, g, f; a, c; b, d]
+
+{dropcap:Q|lines=2|style=plain}Vello che propoſſe Euclide in la quintadecima del ſeſto de quarto linee proportionale,in queſto luoco propone de quattro numeri proportionali verbi gratia, ſia la proportione dal.a.al.b.ſi come dal.c.al.d.& ſia il produtto del.a.in el.d.e.& del.b.in el.c.f.dico che.e.&.f.ſono equali, & e conuerſo,& per dimoſtrar queſto ſia dutto.a.in.b.& ſia fatto.g.& ſera (per la decima ottaua ptopoſitione{printer-error-correction:propoſitione})dal.g.al.e.ſi come dal.b.al.d.& perche( per la decima ſettima propoſitione)dal.b.in.a.e' fatto.g.& dal medeſimo.b.in.c.e fatto.f.ſera(per la decimaottaua propoſitione)dal.g.al.f.ſi come dal.a.al.c. ma per la quartadecima e dal.a.al.c.ſi come dal.b.al.d.adonque dal.g.al.f. ſera ſi come dal.g.al.e.Adonque.f.&.e.ſono equali che e il primo propoſito. Ne biſogna dimoſtrare ſe da vn numero a duoi ſia vna proportione che eſſi ſono equali,ouer ſe eſſi ſono equali che dall'uno a eſſi ſia vna proportione, perche ſe da.g.al.e.& al.f.e vna proportione eſſo ſera tal parte,ouer parti del e.quala.ouer quale il medeſimo e del.f.& per tanto(per la concettione)e manifeſto.e.&.f.eſſer equali,ouer che tante volte.g.contienera.e.quante volte contenera.f.& ſuperfluano in quello tal parte,ouer parti del.e.quala, ouero quale inel medeſimo ſuperfluano del.f.& per tanto anchora (per la concettione)e manifeſto quelli eſſer equali. Ma ſe eſſi ſeranno equali e manifeſto (per la concettione)che,ouer.g.ſera tal parte,ouer parti del.e.quala, ouero quale ſera del.f.& al preſente ( per la diffinitione)ſera de eſſo.g.all'uno e l'altro de quelli vna proportione, ouero equalmente contenera l'uno e l'altro con ſuperfluita de ſimile & tanto numero de parti,& per tanto anchora(per la diffinitione)ſera de quello all'un e l'altro vna proportione, el ſecondo propoſito coſi e manifeſto;ſia.e.(produtto dal.a.in.d.)equale al.f.(produtto dal b.in.c.)Dico che la proportione del.a.al.b.e ſi come del.c.al.d.&.queſta e al contrario della prima parte,perche ſia come prima.g.ilquale e fatto dal.a.in b.& perche.e.&.f.ſono equali ſera dal.g.all'uno e l'altro de quelli vna proportione,& perche come prima(per la decimaottaua propoſitione)del.g.al f.e ſi come del.a.al.c.& al.e.ſi come del.b.al.d.ſera del.a.al.c.ſi come del.b.al d. perlaqualcoſa permutatamente del.a.al.b.ſera ſi come del.c.al.d.che e il propoſito.
+
+## Theorema.xix. Propoſitioee{printer-error-correction:Propoſitione}.xxi.
+
+[Diagram: three vertical lines labelled a, b and c]
+
+[Handwritten]
+[illegible] 20
+[/Handwritten]
+
+Se tre numeri ſeranno proportionali il produtto delli eſtremi ſera equale al produtto del medio in ſe medeſimo, & ſel.produtto delli eſtremi ſera equale al produtto del medio in ſe medeſimo, quelli tre numeri ſeranno proportionali.
+
+{dropcap:S|lines=2|style=plain}Ian li tre numeri proportionali.a.b.c.ſi come dal.a.al.b.coſi ſia dal.b.al c.Dico che il produtto del.a.in.c.e equale al prodntto{printer-error-correction:produtto} del.b.in ſe medeſimo & per dimoſtrare queſto ſia poſto.d.equale al.b.adonque ſi cone{printer-error-correction:come} dal a.al.b.coſi e dal.d.al.c.adonque quello che vien fatto dal.a.in.c.e equale a quello che vien fatto dal.b.in.d.(per la precedente) ma quello che uien fatto del.b.in.d.e equale al dutto del.b.in ſe (per eſſer il.b.equale a eſſo.d.) adonque quello che vien fatto del.a.in.c.e equale a quello che vien fatto del. b.in ſe.Ma ſupponendo che'l dutto del.a.in.c.ſia equale al dutto del.b.in ſe medeſimo.Dico ſi come e dal.a.al.b.coſi e del.b.al.c.perche quello che vien fatto del.a.in.c.e equale a quello che vien fatto del.b.in ſe & quello che vien fatto del.b.in ſe e equale al dutto del.b.in.d.adonque(per la vndecima del.5.ſi come e dal.a.al.b.coſi e dal.d.al.c.& il.b.e equale al.d.adonque ſi )come dal.a.al.b.coſi e dal.b.al.c.laqualcoſa era da demoſtrare.
+
+<!-- Catchword: Theorema -->

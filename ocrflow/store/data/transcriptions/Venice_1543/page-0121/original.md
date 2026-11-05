@@ -1,0 +1,21 @@
+<!-- Running title: LIBRO -->
+
+a tutta la circonferentia.d.b.c.e.adonque li duoi angoli,a.d.b.&.d.a.e.(per eſſer dedutti ſopra le dette due circonferentie eq uale)(per la vigeſima ſettima del tertio)ſeranno equali fra loro,e per queſta medeſima ragion cadauno di q̃lli angoli che ſono ſotto.a.e.c.&.e.c.b.&.c.b.d.ſeranno equali a cadauno di quelli angoli che ſono ſotto.e.a.d.&.a.d.b.adonque il penthagono.a.d.b.c.e.e' equiangolo,& di ſopra hauemo dimoſtrato come egli e equilatero, adonque in lo dato cerchio.a.b.c.hauemo deſcritto il penthagono.a.d.b.c.e.equilatero,& equiangolo che e il propoſito.
+
+## Problema.xii. Propoſitione xii.
+
+[Handwritten]
+12
+[/Handwritten]
+
+[Margin]
+12
+[/Margin]
+
+Cerca a uno dato cerchio puotemo deſcriuere uno penthagono,equilatero,& equiangolo.
+
+[Diagram: pentagon circumscribed about a circle with lines from the centre to the vertices and points of contact; labels m, a, g, e, d, l, h, c, b, k, f and handwritten 12]
+
+{dropcap:S|lines=2|style=plain}Ia il prepoſto cerchio.a.b.c.il centro dilquale e il ponto.f.uoglio cerca di lui deſcriuere vno penthagono equilatero & equiangolo ſopra la circonferentia del detto cerchio ſecondo la dottrina della precedente notaro li cinque ponti angulari quaſi come haueſſe inſcritto vn penthagono,liquali ſiano.a.d.b.c.e.alliquali(dal centro)tiraro le linee.f.a.f.d.f.b.f.c.f.e.& dalli medeſmi ponti p̄durro le perpendicolare a queſte linee,& quelle ſlongaro in l'una e l'altra parte ſina a tanto che quelle concorrano in li cinque ponti.g.h.K.l.m.& queſte linee ſeranno(per lo correlario della decimaſeſta del tertio) toccante il cerchio,& a queſti ponti del concorſo(dal centro.f.)conduro le linee.f.g.f.h.f.K.f.l.f.m.(& perche fu dimoſtrato ſopra la penultima del tertio che ſe dalcun ponto ſignato fuora d'un cerchio ſian dutte due linee al detto cerchio toccante quello che quelle ſeranno equale)ſera la linea.g.a.equale alla linea.g.d.& la.h.d.alla.h.b.& coſi de tutte le altre. Ma perche li cinque archi in li quali li cinque ponti.a.d.b.c.e.diuideno il cerchio ſono equali fra loro(per la vigeſima ſettima del tertio)li cinque angoli.a.f.d:d.f.b:b.f.c:c.f.e:e.f.a.(liquali ſono dedutti ſopra a queſti archi in lo centro.f.ſeranno fra loro equali,ma li duoi lati.a.g.&.f.a.del triangolo.f.a.g.ſono equali a duoi lati.d.g.&.f.d.del triangolo.f.g.d.& il lato.g.f.e' cõmune,adonque (per la ottaua del primo)li duoi angoli de quelli liquali ſono al centro f.e ſimilmente li duoi angoli che ſono al.g.ſono equali fra loro,& per la medeſima ragione li duoi angoli liquali ſono al centro.f.in li triangoli.d.f.h.&.h.f.b.e anchora li duoi che ſono al ponto.h.ſono equali. Similmente anchora cadauno delli altri tre angoli liquali ſono.b.f.c:c.f.e:e.f.a.& cadauno di tre liquali ſono.K.l.m.ſono diuiſi in due parti equali li primi per la linea.f.K.li ſecondi per la linea f.l.li tertii per la linea.f.m.& perche queſti tre angoli liquali ſono.b.f.c:c.f.e.&e.f.a.ſono equali a ſi medeſimi etiam alli altri duoi(liquali ſono.a.f.d.&.d.f.b.ſono pur equali ſeranno le dieſi mitade de quelli liquali ſono dieſe angoli fatti in lo centro.f.equali fra loro,perche adõque li duoi angoli.a.&f.del triangolo.g.a.f.ſono equali alli duoi angoli.a.&.f.del triangolo.m.a.f.& lo lato.a.f.e commune(per la.26.del primo) l'angolo.g.de l'uno ſera equale all'angolo.m.dell'altro & lo lato.g.a.al lato.a.m.per la medeſima ragione ſera l'angolo.g.(nel triangolo.g.f.d.)equale al angolo.h.in lo triangolo.d.f.h.)& lo lato.g.d.ſera equale al lato.d.h.perlaqualcoſa perche.g.a.e' la mita de.g.m.&.g.d.e' la mita de.g.h.&.g.a.&.g.d.ſono equali ſeranno(per communa ſcientia).g.m.&.g.h.(che ſono il doppio di quelle) equali fra loro,ſimilmente anchora haueremo prouato.g.m.eſſere equale al.m.l.&.m.l.al.l.K.&.l.K.al.K.h.perlaqualcoſa il penthagono g.h.K.l.m.e' equilatero,ma dico anchora quello eſſer equiangolo,concioſia che li duoi angoli che ſono al.g.ſiano fra loro equali & li duoi che ſono al.m.ſimilmente equali fra loro &.g.partiale al.m.partiale,l'uno e l'altro di ſopra fu approuato eſſer equali, cioe che l'angolo.f.g.a.e' equale all'angolo.f.m.a.dilche (per la medeſima communa ſcientia)tutto l'angolo.g.e' equale a tutto l'angolo
+
+<!-- Catchword: m.& per -->

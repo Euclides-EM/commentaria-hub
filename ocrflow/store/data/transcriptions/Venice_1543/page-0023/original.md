@@ -1,0 +1,19 @@
+<!-- Running title: LIBRO -->
+
+mente longhezza e larghezza,cioe,che gli manca la profondita, ouer groſſezza:li termini dellaquale (eſſendo terminata) ſono linee.dico eſſendo terminata,perche ſono molte ſuperficie che non ſono terminate,come ſaria la ſuperficie d'una balla tonda,ouer d'un ouo,& altri corpi ſimili. Ma per intender bene queſta diffinitione biſogna notare,qualmente ſono alcune ſuperficie fatte dalla natura,alcune dal l'arte,alcune á caſo,& alcune imaginate con la mente. Le ſuperficie fatte dalla natura ſono li ſuperficiali termini terminanti ogni qualita di corpo dalla natura prodotto,ouer dall'arte fabricato:ma per non eſſer anchora diffinito che coſa ſia corpo,metteremo queſto parlar da banda, per non preterir l'ordine dell'Autthore, ilqual non coſtuma parlare d'una coſa auanti la diffinitione di quella:ma le ſuperficie fatte dall'arte,ouer á caſo ſono quelle che vengono fatte, ouer diſſegnate volontariamente,ouer á caſo dall'operante geometrico, ouer pittorico,con qualche ſtilletto apontito, ouer con qualche materia colorata in qualche altra ſuperficie, come per eſempio hauemo deſignato in margine, ilqual margine e' pur anchora lui ſuperficie di queſto foglio di carta. Ma dui dubbii ponno occorrere nella mente del ſtudente circa alla ſoprapoſta diffinitione,e circa alla noſtra eſpoſitione,l'uno di quali é queſto. Lui potria dire, la diffinitione dice che la ſuperficie ha ſolamente longhezza,e larghezza,& trouo la maggior parte delle ſuperficie hauer piu longhezze & piu larghezze,come appare nella ſuperficie.a.b.c.d.laquale ha due longhezze,cioe il lato.a.b.& il lato.c.d.& due diuerſe larghezze,cioe,il lato.a.d.& il lato.b.c. Circa á queſto dubbio riſpondo,che la longhezza & la larghezza d'una ſuperficie e' vna coſa,& li lati,ouer linee che la terminano ne e' vn'altra:perche le linee che terminano ogni qualita di ſuperficie (ſiano quante ſi vogliano) ſe dicono ſolamente termini di quella ſuperficie,e non longhezze, ne larghezze di quella:vero e' che per mezzo de ditti termini noi vegniamo in cognitione della vera e ſimplice longhezza e larghezza de ogni qualita di ſuperficie, & poi per mezzo della detta vera e ſimplice longhezza & larghezza noi vegniamo in cognitione della quantita di quella tal ſuperficie,come nel.2.libro ſi vedera manifeſto: & per queſto ſi dice che la ſuperficie ha ſolamente longhezza,& larghezza, & che li termini di quella ſono linee: ma non dice che le linee che la terminano ſiano la ſua longhezza,ouer larghezza: & queſto baſta per dechiaratione del primo dubbio. El ſecondo e' ſimile á quello della linea,cioe,che ſe potria dire, che quelle ſuperficie artificialmente fatte, ouer deſignate, ouer pinte con qualche liquor corporeo colorato,hauer in ſe ſempre qualche groſſezza,ouer profondita:ma queſto dubbio ſe riſolue come quello del ponto,ouer della linea,cioe,che il Geometra le conſidera (ſecondo la ragione) nude,& ſpogliate di quella materia colorata ſecondo che ſono in ſe,cioe,ſenza profondita,ouer groſſezza: & queſto baſta per delucidatione della ſuperficie in genere.
+
+[Diagram: marginal quadrilateral with corners labelled a, d, b, c, inscribed "Superficie"]
+
+## Diffinitione.v.
+
+[Handwritten]
+5 7
+[/Handwritten]
+
+La ſuperficie piana e' la breuiſſima eſtenſione da una linea a un'altra, che riceua nelle ſue eſtremita l'una e l'altra di quelle.
+
+### Il Tradduttore.
+
+{dropcap:H|lines=2|style=plain}Auendo l'Autthor di ſopra diffinito che coſa ſia ſupficie in genere (e perche ſono due ſpecie principali de ſuperficie; cioe, piana,e globoſa, ouer conueſſa, ouer ſpherica,ouer montuoſa) e pero in queſta diffinitione ne diffiniſſe la piana,& dice,che la ſuperficie piana e' la piu breuiſſima ſuperficie che ſi poſſa eſtendere da vna linea á vn'altra,riceuendo nelle ſue eſtremita ciaſcuna di quelle:perilche biſogna notare che queſta diffinitione e' quaſi ſimile á quella della linea retta: Onde
+
+<!-- Catchword: ſimilmente -->

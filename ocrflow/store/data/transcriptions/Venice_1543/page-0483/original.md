@@ -1,0 +1,21 @@
+<!-- Running title: LIBRO -->
+
+nella pyramide non gli ſono baſe ouer angoli ouer lati in li quali li angoli del cubo ouer del ycocedro ouer etiam del dodecedro ) poſſano toccare li eſtremi di eſſa pyramide, anchora el cubo e atto a receuere in ſe ſolamente la pyramide: & lo ottocedro. Similmente lo ottocedro e atto a reuere{printer-error-correction:receuere} ſolamente, la pyramide & el cubo, & in niun di queſti e poſſibile a colocarui alcuno delli altri cioe lo ycocedro & lo dodecedro, Auenga che lo ycocedro a tre delli altri dia ricetto al ottocedro ſolamente ha denegato eſſer recettaculo, perche li ſei angoli del ottocedro, receueno la oppoſitione fra loro a duoi a duoi ſemidiametralmeute{printer-error-correction:ſemidiametralmente} & le linee che continuano quelli ſe diuidono fra loro orthogonalmente in due parti equali e, per tanto formano q̃l glorioſo ſigno di croce, che tutti li demoni fa tremare ) treplicato, adonque queſte ſegni di croce, ne li triangoli, ne le baſe: ne li angoli, ne li lati del ycocedro li poſſono receuere ſotto al ſuo ſito, perche in quello non ſi puol trouare ſei baſe; ouer ſei angoli, ouer ſei lati fra loro continuati da queſta diametrale & orthogonale oppoſitione. Ma el dodecedro, a niuno delli altri a prohibito ouer uetato alogiamento, immo de tutti e ricettacolo, E pero non inconuenientemente, la figura del dodecedro: li antiqui diſcipoli di Platone: la attribuirno al celo ſi come la forma della pyramide al fuoco impo che q̃llo uola in ſuſo in figura de pyramide, & la figura del ottocedro al aere. perche ſi come laere in paruita del moto, ſeguita il foco, coſi la forma del ottocedro ſeguita la forma della pyramide al moto della habilita. Ma la figura del uinti baſe la dedicorno al acqua. Perche concio ſia che quella ſia piu circolabile in la ſphera de tutti li altri: per la moltitudine delle ſue baſe: parue conuenire piu al moto delle coſe ſcorrente, che delle aſcendente, E la figura del cubo latribuirno alla terra. Perche quala e quella coſa in le figure che habbia piu de biſogno di maggior uiolentia al moto chel cubo, & in li elementi qual ſe ritrona{printer-error-correction:ritroua} piu fiſſo e coſtante della terra, Adonque ſe dalle uinti inſcrittioni: ſe ne toglie le tre che non ſoſtiene la pyramide, & le due, & due che la natura del cubo & del ottocedron non comporta, Et ſimilmente quella una che repugna la figura del ycocedro. Le rimanente ſaranno ſolamente dodeci inſcrittioni, una ſola della pyramide, due del cubo, due del ottocedro: tre del ycocedro, & quatro del dodecedro. De tutte le quale come penſo ſufficientemente e ſtato diſputado.
+
+### Nicolo Tartalea Tradottore.
+
+{dropcap:Q|lines=2|style=plain}Vantunque Euclide non habbia a noi aſſignato ouer propoſto ſaluo che dodeci inſcrittioni ( cõe ꝑ auanti e ſtato diſſputado ) Et che medeſimamente il commentatore affermi con certe ſue ragioni non poter eſſerne piu delle predette dodeci, Niente di meno due altre ne hauemo nouamente ritrouate
+
+La prima e a deſcriuere in uno propoſto cubo, il corpo de uinti baſe.
+
+La ſeconda e a inſcriuere nel uinti baſe, il corpo di otto baſe.
+
+La qual inſcrittione, dal commentatore e aſſolutamente negata come di ſopra appare hor uegnando alla prima dico che
+
+[Diagram: cube in perspective with handwritten labels a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, q, r, s, t, u, x, y, z]
+
+{dropcap:E|lines=2|style=plain}Glie poſſibile a inſcriuere in un propoſto cubo un corpo di uinti baſe triangolare equilatere.
+
+{dropcap:S|lines=2|style=plain}Ia il propoſto cubo.a.f.nel quale uoglio inſcriuere il uinti baſe diuido li duoi lati.a.b.&.c.d.(della ſuperficie ſuperiore in due parti equali ( per la decima propopoſitione{printer-error-correction:propoſitione} del primo libro ) nelli duoi ponti.h.i.il medeſimo fazzo delli altri duoi lati a quelli oppoſiti & equidiſtanti della ſuperficie ſubgiacente ( non apparente che e baſa del cubo ) & quelli congiongo con due linee rette luna delle quale e la linea.h.i.laltra a lei equidiſtante uien a reſtar occulta & coperta dal cubo. Da puoi diuido anchora li duoi lati.d.e.&.c.f.( & ſimilmente li altri duoi a quelli oppoſiti & equidiſtanti ) pur in due parti equali & congiongo pur mede
+
+<!-- Catchword: ſimamente -->

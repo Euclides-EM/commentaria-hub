@@ -1,0 +1,23 @@
+<!-- Running title: LIBRO -->
+
+{dropcap:S|lines=2|style=plain}Ia il dato triangnlo.a.alquale noi uolemo deſcriuere uno quadrato equale deſignaro una ſuperficie de lati equidiſtanti, & de angoli retti(per la quadrageſima ſeconda del primo)equale al dato triangolo.a.laqual pongo ſia la ſuperficie.b.c.d.e. & ſe per caſo li lati di quella fuſſeno equali,cioe, che lo lato. b.d. fuſſe equale al lato.d.e.noi hauereſſimo quello che cercamo.perche la detta ſuperficie per la diffinitione ſeria vn quadrato, come ſe adimanda, ma ſe li lati ſeranno inequali allhora agiungero il lato minore, al lato maggiore indiretto, & ſia.c.f.cioe che.c.f.ſia equale al.c.e.ſuo minor lato,ilquale e' agiunto indiretto al b.c.ſuo maggior lato ſecondo la rettitudine. hor tutta queſta linea. b.f. diuidero in due parti inequale in ponto. g.& fatto.g. centro ſopra la linea.b.f. ſecondo la quantita della linea.g.b.deſcriuero il mezzo cerhio.b.h.f.& lo lato.e.c.allongaro per fina a tanto che'l ſeghi la circonferentia in ponto.h.hor dico che'l quadrato della linea.c.h.e' equale al ditto triangolo dato.Et per dimoſtrar queſto io tiraro la linea.g.h.& perche la linea.f.b.diuiſa in due parti equali in ponto. g. & in due parti inequali in ponto.c.quello che vien fatto del dutto della.b.e. in la c.f.con lo quadrato della.c.g.(per la quinta di queſto)e' equale al quadrato del la.g.f.& perche.g.h.e' equale alla.g.f.(per la quartadecima diffinitione del primo)perche ambedue ſe parteno dal centro.g.e' vanno allac irconferentia,adonque quello che vien fatto dal dutto della.b.c.in la.c.f.con lo quadrato della.g.c. ſera equale al quadrato della.g.h.& perche il quadrato della.g.h.ſie' equale(per la penultima del primo)alli duoi quadrati delle due linee g.c.&.c.h. adonque li detti duoi quadrati de.g.c.&.c.h.ſeranno equali al detto quadrato.de.g.c.inſieme con quello ch'e' fatto dal dutto della.b.c.in la.c.f.leuando adonque communamente da l'una e l'altra parte il quadrato della. c. g. reſtara il quadrato ſolo della.c.h.equale a quello che vien fatto dal dutto della.b.c.in la.c. f. & perche il dutto della.b.c.in la.c.f.e' equale alla ſuperficie.b.c.d.e.perche. c. e. e' equale alla.c.f. adonque il quadrato della linea.c.h. ſera equale alla ſuperficie.b.c.d.e. & perche la ſuperficie.b.c.d.e.e' equale al triangolo.a.adonque il quadrato della linea.c.h.ſera equale(per la prima concettione)al triangolo.a.che e' il propoſito.Et nota che per queſto modo ſe troua il lato tetragonico de qual ſi voglia figura piu longa da vna banda che dall'altra,& ſimplicemente d'ogni figura cōtenuta da linee rette ſia come ſi voglia. Perche ogni tal figura la reſoluemo in triangoli, & de cadauno di quegli triangoli, trouamo il lato tetragonico ſecondo la dottrina di queſta propoſitione, et dapoi trouamo (per la penultima del primo) una linea la qual poſſi in tutti quei lati tetragonici trouati, exempli gratia, voglio al preſente trouar il lato tetragonico della figura irregulare.a.b.c.d.e.f.reſoluo quella in tre triangoli,quali ſono.a.b.f..c.d.e.&.c.f.e . Anchora ſecondo la dottrina di queſta ritrouo li lati tetragonici di queſti tre triangoli,quali ſiano.g. h:h. K.&.K.l.& rigo la. h.k.perpendicolarmente ſopra la.g.h.& tiro la.g.K. onde(per la penultima del primo)il quadrato della.g. K. ſera equale alli quadrati delle due linee.g.h.&.h.K.& lo terzo lato.K.l.lo coſtituiſco ꝑpendicolarmente ſopra la linea.g.K.e tiro la linea.g.l.e la linea.g.l.(ꝑ la detta penultima del primo) ſera il lato tetragonico di tutta la figura rettilinea ꝓpoſta,ch'e' il noſtro ꝓpoſito.
+
+[Diagram: triangle labelled a]
+
+[Diagram: semicircle on base f c g b standing on rectangle c b d e, with lines from h to c and from h to g; labelled h, f, c, g, b, e, d]
+
+[Diagram: irregular rectilinear figure divided into triangles, with handwritten 15; labelled b, c, d, a, f, e]
+
+[Diagram: three separate line segments labelled g h, h k and k l]
+
+[Diagram: right triangle on g k with line g l, with handwritten 15; labelled l, k, h, g]
+
+### Il Tradottore.
+
+El teſto di queſta vltima propoſitione di queſto ſecondo libro, in la ſeconda tradottione dice in queſta forma.
+
+Puotemo conſtituir un quadrato equale a un dato rettilineo.
+
+{dropcap:L|lines=2|style=plain}Aqual propoſitione e' piu generale della ſopra ſcritta, perche lei propone tutto quello,che agionge il commentatore nella ſopra ſcritta,ma non la conclude, per il modo dato di ſopra, anci la conclude per la quadrigeſima quinta del primo (dellaqual manca la prima traodttione)cioe lui vol che ſia coſtituido vn paralellogrãmo rettangolo equale al dato rettilineo (ꝑ la detta quadrageſima ꝗnta del primo)dapoi ꝓcede come di ſopra ſi fece del paralellogrãmo.b.d.c.e.
+
+Fine del ſecondo libro.

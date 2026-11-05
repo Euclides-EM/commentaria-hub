@@ -1,0 +1,21 @@
+<!-- Running title: PRIMO -->
+
+<!-- Page number: Fo. XXII -->
+
+uerſario,dell'angolo.d.ſera adonque equale,ouer minor di lui,equale non puo eſſere, perche ſe coſi fuſſe, per la quarta,la baſa.b.c.ſeria equale alla baſa.e.f.che ſeria contra il preſuppoſiro{printer-error-correction:preſuppoſito}, Ma dico che anchora el non puo eſſere minore,perche ſe l'angolo.a.fuſſe minore dell'angolo.d.la baſa.b.c.ſeria, per la precedente,minor della baſa.e.f.che ſeria molto contra il preſuppoſito,adonque non poſſendo l'angolo.a.eſſer ne equale ne minor dell'angolo.d.glie neceſſario che ſia maggiore,che e' il propoſito.
+
+[Diagram: two triangles side by side, the first labelled a, b, c and the second labelled d, e, f]
+
+## Theorema.xvii. Propoſitione.xxvi.
+
+[Handwritten]
+26 26
+[/Handwritten]
+
+De ogni duoi triangoli di quali li duoi angoli di l'uno ſeranno equali a' duoi angoli di l'altro ciaſcuno al ſuo relatiuo, anchora che un lato dell'uno ſia equale a' un lato dell'altra, o' ſia quel tal lato fra li duoi angoli equali oueramente oppoſito a' uno di quelli,anchora li duoi reſtanti lati di l'uno ſeranno equali alli duoi reſtanti lati dell'altro,ciaſcuno al ſuo riſguardante,ouer relatiuo, & ſimilmente l'altro angolo di l'uno ſera equale a'l altro angolo dell'altro.
+
+{dropcap:S|lines=2|style=plain}Iano li duoi triangoli.a.b.c.&.d.e.f.& ſia l'angolo.b.equale allo angolo.e.& l'angolo.c.equal all'angolo.f.& ſia el lato.b.c.equale al lato.e.f.ouer l'uno delli altri duoi lati.a.b.&.a.c.ſia equale a vno delli altri duoi lati.d.e.&.d.f.cioe vno di loro al ſuo relatiuo,cioe che.a.b.ſia equale al.d.e.ouer.a.c.al.d.f.Dico che li altri duoi lati dell'uno ſera equale alli altri duoi lati dell'altro,& l'altro angolo dell'uno ſera equal all'altro angolo dell'altro,cioe l'angolo.a.ſera equale all'angolo.d.Ponero adonque primamente che lo lato.b.c.ſopra delquale giaceno li duoi angoli.b.c.ſia equale al lato.e.f.ſopra dil quale giaceno li duoi angoli e.f.liquali ſono ſtati poſti equali alli detti duoi angoli.b.c.hor dico che'l lato.a.b.ſera equale al lato.d.e.il lato.a.c.al lato.d.f.& l'angolo.a.all'angolo.d.Perche,ſe poſſibil ſia per l'aduerſario,che'l lato.a.b.non ſia equale al lato.d.e.l'uno di quelli ſera adonque maggiore,hor poniamo che'l lato.d.e.ſia maggiore del lato.a.b.io ſegaro del lato.d.e.la parte.g.e.equali al lato.a.b.per la tertia propoſitione,& produro la linea.g.f.li duoi lati adonque.e.g.&.e.f.del triangolo.e.g.f.ſono equali duoi lati.a.b.&.b.c.del triangolo.a.b.c.& l'angolo.a.b.c.e' equale all'angolo g.e.f.dal proſuppoſito,perlaqualcoſa l'angolo.g.f.e.ſeria equale all'angolo.a.c.b.per la quarta propoſitione,& perche l'angolo.d.f.e.ſi e' anchora lui equale al ditto angolo.a.c.b.dal proſuppoſito per la prima concettione,ſera etiam equale all'angolo.g.f.e.ſua parte,che e' impoſſibile,per l'ultima concettione,adonq;.d.e.ſera equale al.a.b.per la quarta propoſitione, il lato.d.f.ſera etiam equale al lato.a.c.& l'angolo.d.all'angolo.a.ſera equale,che e' il primo membro della diuiſion propoſita,Sia anchora li duoi angoli.b.&.c.equali alli duoi angoli.e.f.come prima, & ſia lo lato.a.b.ilquale e' oppoſito all'angolo.c.equale al lato.d.e.ilqual e' oppoſito all'angolo.f.ilqual e' poſto equale all'angolo.c.dico che lato.b.c.ſera equal al lato.e.f.& il lato.a.c.al lato.d.f.& l'angolo.a.all'ãgolo.d.& ſel lato.e.f.nõ fuſſe equale al lato.b.c.per l'aduerſario l'uno di loro ſera maggior dell'altro.ſia adonque.e.f.maggior del.b c. e per tanto ponero.e.h.equale al.b.c.per la tertia propoſitione,& produro la linea.d.h.& ſera conſtituido il triangolo.d.e.h.che li duoi lati.e.d.&.e.h.ſon equali alli duoi lati.b c.&.b.a.del triãgolo.a.b.c.e l'angol e.ſi e' equale all'angolo.b. dal preſuppoſito,dilche l'angolo.e.h.d.ſeria equale al'angolo.b.c.a.per la quarta propoſitione,& langolo.f.per eſſer equale anchora all'angolo.c.ſera etiam equale all'angolo.e.h.d.per la prima concettione, laqual coſa e' impoſſibile, per la ſeſtadecima propoſitione, che l'angolo.e.h.d.eſtrinſico del triangolo.d.h.f.ſia equale allo angolo.h.f.d.intrinſico, & oppoſito,adonque il lato.e.f.ſera equale al lato.b.c.& ſimilmente, per la quarta propoſitione,
+
+[Diagram: triangle d e f with point g on side d e and point h on base e f, lines drawn from f to g and from d to h]
+
+[Diagram: triangle labelled a, b, c]

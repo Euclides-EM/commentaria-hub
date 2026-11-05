@@ -1,0 +1,21 @@
+<!-- Running title: VNDECIMO -->
+
+<!-- Page number: Fo. CC -->
+
+nitione delle ſuperficie ſimile ) per la qual coſa ( per la uigeſimaquarta del undecimo ) tutte le ſei ſuperficie di queſti duoi ſolidi parallellogrammi : ſono ſimili fra loro : adonque ( per la diffinitione di corpi ſimili ) quelli ſolidi ſaranno ſimili, per la qual coſa concioſia che la proportione di ſolidi,& delle pyramide ſia una medeſima ( per la decimaquinta del quinto ) perche li ſolidi ſono ſeſupli alle pyramide ( per la ſeſta di queſto ) Et concio ſia che la proportione di ſolidi ſia una medeſima, ſi come quella di ſuoi lati relatiui triplicata ( per la trigeſimaſeſta del undecimo ) & li lati di ſſolidi ſiano anchora li medeſimi delle pyramiee{printer-error-correction:pyramide}. Anchora ( per la undecima del quinto ) la proportione delle propoſte pyramide ſara ſi come la proportione triplicata di ſuoi relatiui lati che e il propoſito.
+
+### Il Tradottore.
+
+{dropcap:P|lines=2|style=plain}Er eſſempio figurale della ſopraſcritta propoſitione ſiano le dette due pyramide triangolare ſimile.a.b.c.d.&.f.g.h.le baſe delle quale ſono li triangoli b.c.d.&.f.g.h.& la loro cima ouer angolo ſupremo.a.&.e.& li loro ſolidi ſiano.c.K.&.g.l.ſopra le qual figure arguendo come di ſopra facilmente uien concluſo il propoſito.
+
+[Diagram: parallelepiped containing a pyramid, labelled k, a, b, e, d]
+
+[Diagram: parallelepiped containing a pyramid, labelled l, f, g, h]
+
+Ma ſe qualunque due piramide laterate ſaranno ſimile , la proportione di luna a laltra,ſara ſi come la proportione triplicata del ſuo lato al lato a ſe relatiuo di laltra.
+
+{dropcap:S|lines=2|style=plain}Iano due pyramide laterate ſimili li coni delle quale ſian.a.&.b.& ſiano ſopra baſe penthagonale, le quale ſono.c.d.e.f.g.h.K.l.m.n.Dico che la proportione di quelle e ſi come la proportione triplicata di ſuoi lati relatiui:perche egli e manifeſto ( per la diffinitione delle ſuperficie ſimile & di corpi ) che li penthagoni che ſono baſe delle propoſte pyramide,& tutti li altri triangoli circondanti eſſe pyramide ſono fra loro ſimili,ſiano adonque diuiſe ambedue le baſe in triangoli ſimili & di numero equali,ſi come propone ) la decimaottaua del ſeſto ) eſſer poſſibile protratte in queſta le linee.c.e,&.c.f.& in quella . h.l.&. h.m. Dico adonque queſte pyramide eſſer diuiſe in pyramide triangole ſimile e di numero equale,perche parangonate fra loro le due pyramide.a.c.d.e.b.h.K.l.delle quale li coni ſono.a.&.b.& e manifeſto dal preſuppoſito ) lo triangolo.c.a.d.eſſer ſimile al triangolo.b.h.K.& lo triangolo.d.a.e.al triangolo.k.b.l.Et perche anchora ( dal preſuppoſito ) lo angolo.d.e equale al angolo . K & li lati.c.d.&.d.e. (continenti langolo.d.)ſono proportionali alli lati.h.K.&.K.l.( continenti langolo.K.li duoi triangoli.c.d.e.&.h.K.l.( per la ſeſta del ſeſto ) ſaranno equiangoli, e pero ( per la quarta del ſeſto ) la proportione del.c.d.al.h.K.ſara ſi come del.c.e.al.h.l.& concio ſia che (dal preſuppoſito ) la proportione del.c.a.al.h.b. & anchora del.a.e.al.b.l.ſia ſi come del.c.d.al h.k.( per la undecima del quinto )del.c.a.al.h.b.& del.a.e.al.b.l.ſara ſi come del.c.e.al.h.l.adõque( per la quinta del ſeſto,& per la diffinitione delle ſuperficie ſimile)lo triangolo.c.a.e.ſara ſimile al triangolo.h.b.l.adonque ( per la diffinitione di corpi ſimili) e manifeſto che la pyramide.a.c.d.e.e ſimile alla pyramide.b.h.k.l. Similmente anchora e manifeſto la pyramide.a.c.e.f.eſſer ſimile alla pyramide.b.k.l.m.& la pyramide a.c.f.g.alla pyramide.b.h.m.n.adonque perche (per la ottaua) la proportione della pyramide.a.c.d.e.alla pyramide.b.h.k.l e ſi come quella del lato.c.d.al lato.h.k.triplicata. & anchora della pyramide.a.c.e.f.alla pyramide.b.h.l.m.ſi come del.e.f.al.l.m.triplicata,&anchora della pyramide.a.c.f.g.alla pyramide.b.h.m.n.ſi come del.c.g.al.h.n.triplicata:concio ſia che( dal preſuppoſito ) la proportione del.e.f.al.l.m.& del.c.g.al.h.n.ſia ſi come del.c.d.al.h.k.ſeguita( per la decimatertia del quinto)che la proportione delle totale pyramide.a.&. b.ſia ſi come di una di quelle partiale ad una altra:adonque(per queſta ottaua & per la undecima del quinto)e manifeſto eſſer il uero quello che hauemo detto.
+
+[Diagram: pentagonal pyramid with apex a, base labelled c, d, e, f, g]
+
+[Diagram: pentagonal pyramid with apex b, base labelled h, k, l, m, n]

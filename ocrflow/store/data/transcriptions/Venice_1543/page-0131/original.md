@@ -1,0 +1,19 @@
+<!-- Running title: LIBRO -->
+
+ſcere,ouer dimoſtrar tre quantita continue,eſſer continue proportionale,& molto mi marauiglio dil cōmentatore che vol diffinire tre quantita continue proportionale per tre quantita continue proportionale, cioe per li lor multiplici, ma voria ſaper da lui come potro io conoſcer,ouer dimoſtrar che li multiplici ſiano cōtinui proportionali in le quantita continue non ſapendo qual ſieno le quātita cōtinue ꝓportionale,adōq; nō aſſignādone vn ꝓprio accidēte di conoſcer le quātita ꝯtinue ꝓportionali,nō ſapremo conoſcer che li multiplici che ſon pur quātita ſiano ꝯtinui ꝓportionali,adōq; tal diffinitione nō manifeſta le coſa diffenita, la ſecōda ragione che la nō ſia di Euclide e che di tal diffinitione nō ſene ſerue in loco alcuno per tutta lopra ſua , perilche tal diffinitione( quando che bene fuſſe bona)ſeria coſa fruſtra,& il coſtume di Euclide(come piu volte e ſtato detto)nō e di mettere coſa alcuna fruſtatoria,la tertia ragione e che tal diffinitione non ſi ritroua nella ſeconda tradottione,per ilche tengo che la ſia ſtata aggionta dalcuno che ſi preſumaua di ſapere, ma alcuno potria dire tal diffinitione eſſer pur del l'authore,ma che la non ſi puo diffinire altramente, io riſpondo che quando tal diffinitione gli fuſſe ſta biſognoſa in qualche propoſitione, ben l'haueria ſaputa rettamente porre, come in fine della ſequente ſe dira.
+
+## Diffinitione.vii.
+
+[Margin]
+6/6
+[/Margin]
+
+Le quantita lequale ſono dette eſſer ſecondo una proportione, cioe la prima alla ſeconda, come la tertia alla quarta, ſono quelle delle quale li multiplici equalmente tolti alla prima & tertia, comparati alli multiplici equalmente tolti alla ſeconda e quarta, ſeranno ſimili ouer in eccedere , ouer mancare, ouer in equaliarſe tolti in quel medeſimo ordine.
+
+{dropcap:P|lines=2|style=plain}Oſta di ſopra la diffinitione delle quantita continue proportionale quiui pone la diffinitione delle proportionale diſcontinue,& e che di qualunque quatro quantita delle quale ſeranno tolti li multiplici equalmente alla prima, & tertia,& ſimilmente li multiplici equalmente alla ſeconda, & quarta , & ſera che il multiplice della prima ſia coſi al multiplice della ſeconda(inquanto al eccedere ouer manchare,ouer alla equalita)ſi come il multiplice della tertia al multiplice della quarta , la proportione della prima di quelle alla ſeconda ſera ſi come della tertia alla quarta,exempli gratia,ſiano le quattro quantita.a.b.c d.& ſiano tolti,alla prima & tertia(lequale ſono.a.&.c.)li multiplici equalmente(come ſeria a dire doppii)liquali ſiano.e.&.f.& ſimilmente alla ſeconda & quarta(lequali ſono.b.&.d.)ſiano tolti li multiplici equalmente (come ſeria a dire treppii)liquali ſiano.g.&.h.& ſia che queſti quattro multiplici coſi tolti (comparati fra loro ſecondo l'ordine delle prime quattro quantita,cioe che la.e.ſia comparata alla.g. & la.f.alla.h.& non la.e.alla.f.ouer la.g.alla.h.ſiano ſimile nel auanzare,diminuire & equaliare,cioe che ſe la.e.eccede la.g.che ſimilmente la.f.ecceda la.h.ouero che ſe la.e.minuiſſe della.g.ſimilmente la.f.minuiſca della.h.ouer che ſe la.e.e' eqle alla.g.che ſimilmente la.f.ſia equale alla.h.allhora la proportione della.a. alla.b.e' ſi come della.c.alla.d.
+
+[Diagram: two rows of vertical lines of varying lengths, labelled with letters including a, b, c, d, e, f, g, h]
+
+*Ma la ſimilitudine del ſopra aggioner,ouer diminuir,ſia inteſo in queſto loco ſi come in la diffinitione delle quantita contiuue proportionale,cioe non inquanto alla quantita delli ecceſſi,ma inquanto alla proportione,& quella parte che dice tolte in quel medeſimo ordine,ſia inteſa ſi come e ſtato eſpoſto,cioe che li multiplici non ſiano refferti inſieme ſecondo l'ordine di quella quantita dalle quale ſerāno ſtati tolti li multiplici eq̄lmente,cioe che'l multiplice della prima nō ſia refferto al multiplice della tertia , ouer il multiplice della ſeconda al multiplice
+
+<!-- Catchword: della -->
