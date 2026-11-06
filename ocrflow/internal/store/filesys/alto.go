@@ -11,8 +11,8 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 )
 
-func (m *Manager) RetrieveEditionAltoPage(editionKey string, pageNum int) (*alto.Alto, string, error) {
-	pageDir := m.EditionTxtPageTranscriptionDir(editionKey, strconv.Itoa(pageNum))
+func (m *Manager) RetrieveEditionAltoPage(editionKey string, volume *int, pageNum int) (*alto.Alto, string, error) {
+	pageDir := m.EditionTxtPageTranscriptionDir(editionKey, volume, strconv.Itoa(pageNum))
 	a, filePath, err := retrieveTranscriptionAltoPage(pageDir)
 	if err != nil {
 		return nil, filePath, fmt.Errorf("retrieve edition ALTO page %d for edition %s: %w", pageNum, editionKey, err)

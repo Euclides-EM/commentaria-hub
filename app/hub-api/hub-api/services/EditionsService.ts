@@ -239,6 +239,7 @@ export class EditionsService {
     public static getEditionsTei({
         editionId,
         pageNum,
+        volume,
     }: {
         /**
          * Edition ID
@@ -248,6 +249,10 @@ export class EditionsService {
          * Page Number
          */
         pageNum: string,
+        /**
+         * Volume number
+         */
+        volume?: number,
     }): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -255,6 +260,9 @@ export class EditionsService {
             path: {
                 'editionId': editionId,
                 'pageNum': pageNum,
+            },
+            query: {
+                'volume': volume,
             },
         });
     }

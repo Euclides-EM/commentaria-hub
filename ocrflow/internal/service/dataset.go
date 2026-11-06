@@ -503,6 +503,7 @@ func (d *Dataset) Update(id string, m *model.Dataset) (*model.Dataset, error) {
 	existingDS.Name = m.Name
 	existingDS.Description = m.Description
 	existingDS.Pages = m.Pages
+	existingDS.Volume = m.Volume
 	if err := d.datasetStore.UpdateDataset(existingDS); err != nil {
 		return nil, fmt.Errorf("failed to update dataset in store: %w", err)
 	}

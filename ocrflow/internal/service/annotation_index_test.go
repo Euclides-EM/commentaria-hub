@@ -169,6 +169,10 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	require.NoError(t, err)
 	_, err = db.Exec(string(schema))
 	require.NoError(t, err)
+	volumeSchema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1782950402_dataset_volume.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(volumeSchema))
+	require.NoError(t, err)
 
 	baseDir := t.TempDir()
 	fileSysMgt := filesys.NewFileSystemManager(baseDir, t.TempDir(), t.TempDir(), t.TempDir())
@@ -219,6 +223,10 @@ func TestCreateAnnotationInfersPagesFromDatasetImages(t *testing.T) {
 	require.NoError(t, err)
 	_, err = db.Exec(string(schema))
 	require.NoError(t, err)
+	volumeSchema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1782950402_dataset_volume.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(volumeSchema))
+	require.NoError(t, err)
 
 	baseDir := t.TempDir()
 	fileSysMgt := filesys.NewFileSystemManager(baseDir, t.TempDir(), t.TempDir(), t.TempDir())
@@ -253,6 +261,10 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	schema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1774207510_tables.sql"))
 	require.NoError(t, err)
 	_, err = db.Exec(string(schema))
+	require.NoError(t, err)
+	volumeSchema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1782950402_dataset_volume.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(volumeSchema))
 	require.NoError(t, err)
 
 	baseDir := t.TempDir()

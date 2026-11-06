@@ -25,8 +25,8 @@ type TranscriptionFile struct {
 	Format TranscriptionFileFormat
 }
 
-func (m *Manager) ListEditionTranscriptionFiles(editionKey string, pageNum int) ([]TranscriptionFile, error) {
-	dir := m.EditionTxtPageTranscriptionDir(editionKey, fmt.Sprintf("%d", pageNum))
+func (m *Manager) ListEditionTranscriptionFiles(editionKey string, volume *int, pageNum int) ([]TranscriptionFile, error) {
+	dir := m.EditionTxtPageTranscriptionDir(editionKey, volume, fmt.Sprintf("%d", pageNum))
 	files, err := listTranscriptionFiles(dir)
 	if err != nil {
 		return nil, fmt.Errorf("list edition transcription files for page %d of edition %s: %w", pageNum, editionKey, err)
