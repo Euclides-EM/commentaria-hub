@@ -195,7 +195,7 @@ func (a *Annotation) transcriptionFallbackUncached(ann *annotation.Annotation) (
 	}
 
 	all, some = availability(annPages, func(page string) bool {
-		return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, page), "original.txt"))
+		return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, ds.Volume, page), "original.txt"))
 	})
 	if all {
 		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelAnnotation, false), nil
@@ -211,7 +211,7 @@ func (a *Annotation) transcriptionFallbackUncached(ann *annotation.Annotation) (
 		}
 
 		all, some = availability(edPages, func(page int) bool {
-			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, strconv.Itoa(page)), "original.xml"))
+			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, ds.Volume, strconv.Itoa(page)), "original.xml"))
 		})
 		if all {
 			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelDataset, false), nil
@@ -221,7 +221,7 @@ func (a *Annotation) transcriptionFallbackUncached(ann *annotation.Annotation) (
 		}
 
 		all, some = availability(edPages, func(page int) bool {
-			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, strconv.Itoa(page)), "original.md"))
+			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, ds.Volume, strconv.Itoa(page)), "original.md"))
 		})
 		if all {
 			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelDataset, false), nil
@@ -231,7 +231,7 @@ func (a *Annotation) transcriptionFallbackUncached(ann *annotation.Annotation) (
 		}
 
 		all, some = availability(edPages, func(page int) bool {
-			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, strconv.Itoa(page)), "original.txt"))
+			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, ds.Volume, strconv.Itoa(page)), "original.txt"))
 		})
 		if all {
 			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelDataset, false), nil
@@ -626,20 +626,21 @@ func (a *Annotation) getAvailableCategoriesUncached(ann *annotation.Annotation) 
 	return categories, nil
 }
 
-func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexTypes []string, normalize bool) (*annotation.Index, error) {
+func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexTypes []string, normalize bool, source annotation.IndexSource) (*annotation.Index, error) {
 	ann, err := a.getWithoutFallback(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
 	if a.disableCache {
-		return a.getAnnotationIndexUncached(datasetID, id, ann, categories, indexTypes, normalize)
+		return a.getAnnotationIndexUncached(datasetID, id, ann, categories, indexTypes, normalize, source)
 	}
 	keyData, _ := json.Marshal(struct {
 		Version    string
 		Categories []string
 		IndexTypes []string
 		Normalize  bool
-	}{annotationCacheVersion(ann), categories, indexTypes, normalize})
+		Source     annotation.IndexSource
+	}{annotationCacheVersion(ann), categories, indexTypes, normalize, source})
 	key := "index:" + string(keyData)
 	if value, ok := a.derivedCache.Get(key); ok {
 		return value.(*annotation.Index), nil
@@ -648,7 +649,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexT
 		if value, ok := a.derivedCache.Get(key); ok {
 			return value, nil
 		}
-		index, err := a.getAnnotationIndexUncached(datasetID, id, ann, categories, indexTypes, normalize)
+		index, err := a.getAnnotationIndexUncached(datasetID, id, ann, categories, indexTypes, normalize, source)
 		if err != nil {
 			return nil, err
 		}
@@ -662,7 +663,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexT
 	return value.(*annotation.Index), nil
 }
 
-func (a *Annotation) getAnnotationIndexUncached(datasetID, id string, ann *annotation.Annotation, categories, indexTypes []string, normalize bool) (*annotation.Index, error) {
+func (a *Annotation) getAnnotationIndexUncached(datasetID, id string, ann *annotation.Annotation, categories, indexTypes []string, normalize bool, source annotation.IndexSource) (*annotation.Index, error) {
 	var pages []int
 	var err error
 	if strings.TrimSpace(ann.Pages) == "" {
@@ -689,6 +690,18 @@ func (a *Annotation) getAnnotationIndexUncached(datasetID, id string, ann *annot
 			AnnotationID:   id,
 			AvailableTypes: []string{markdown.DefaultIndexType},
 			Nodes:          []*annotation.IndexNode{},
+		}
+	}
+
+	if source == annotation.IndexSourceEdition {
+		ds, err := a.datasetSvc.Get(datasetID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get dataset: %w", err)
+		}
+		if ds.EditionID != "" {
+			if index, edAltoErr, edMdErr := a.getIndexFromEdition(datasetID, id, pages, ds.EditionID, ds.Volume, categories, indexTypes, normalize); edAltoErr == nil || edMdErr == nil {
+				return index, nil
+			}
 		}
 	}
 
@@ -731,24 +744,9 @@ func (a *Annotation) getAnnotationIndexUncached(datasetID, id string, ann *annot
 		return nil, fmt.Errorf("annotation doesn't contain ALTO or markdown files for one or more of the pages and dataset doesn't have an edition to extract index from: [annotation ALTO err: %w] [annotation markdown err: %w]", annAltoErr, annMdErr)
 	}
 
-	categories, allLocs, edAltoErr := a.getIndexFromEditionAlto(pages, ds.EditionID, categories)
-	if edAltoErr == nil {
-		return &annotation.Index{
-			DatasetID:      datasetID,
-			AnnotationID:   id,
-			AvailableTypes: []string{markdown.DefaultIndexType},
-			Nodes:          buildNodes(categories, allLocs),
-		}, nil
-	}
-
-	categories, allLocs, availableTypes, edMdErr := a.getIndexFromEditionMarkdown(pages, ds.EditionID, categories, indexTypes, normalize)
-	if edMdErr == nil {
-		return &annotation.Index{
-			DatasetID:      datasetID,
-			AnnotationID:   id,
-			AvailableTypes: availableTypes,
-			Nodes:          buildNodes(categories, allLocs),
-		}, nil
+	index, edAltoErr, edMdErr := a.getIndexFromEdition(datasetID, id, pages, ds.EditionID, ds.Volume, categories, indexTypes, normalize)
+	if edAltoErr == nil || edMdErr == nil {
+		return index, nil
 	}
 	if !ann.Segmented && errors.Is(annMdErr, filesys.ErrMarkdownPageNotFound) && errors.Is(edMdErr, filesys.ErrMarkdownPageNotFound) {
 		log.Printf("annotation index unavailable; returning empty index: dataset=%s annotation=%s edition=%s annotation_markdown_error=%v edition_markdown_error=%v", datasetID, ann.ID, ds.EditionID, annMdErr, edMdErr)
@@ -1047,6 +1045,29 @@ func (a *Annotation) Merge(datasetID string, dstAnnID string, req annotation.Mer
 	return dstAnn, nil
 }
 
+func (a *Annotation) getIndexFromEdition(datasetID, id string, pages []int, editionKey string, volume *int, categories, indexTypes []string, normalize bool) (*annotation.Index, error, error) {
+	altoCategories, allLocs, edAltoErr := a.getIndexFromEditionAlto(pages, editionKey, volume, categories)
+	if edAltoErr == nil {
+		return &annotation.Index{
+			DatasetID:      datasetID,
+			AnnotationID:   id,
+			AvailableTypes: []string{markdown.DefaultIndexType},
+			Nodes:          buildNodes(altoCategories, allLocs),
+		}, nil, nil
+	}
+
+	mdCategories, allLocs, availableTypes, edMdErr := a.getIndexFromEditionMarkdown(pages, editionKey, volume, categories, indexTypes, normalize)
+	if edMdErr == nil {
+		return &annotation.Index{
+			DatasetID:      datasetID,
+			AnnotationID:   id,
+			AvailableTypes: availableTypes,
+			Nodes:          buildNodes(mdCategories, allLocs),
+		}, edAltoErr, nil
+	}
+	return nil, edAltoErr, edMdErr
+}
+
 func (a *Annotation) getIndexFromAnnotationAlto(pages []int, ann *annotation.Annotation, categories []string) ([]string, []categoryPageContent, error) {
 	return getIndexFromAlto(pages, categories, func(page int) (*alto.Alto, error) {
 		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
@@ -1067,9 +1088,9 @@ func (a *Annotation) getIndexFromAnnotationMarkdown(pages []int, ann *annotation
 	}, "annotation markdown", indexTypes, normalize)
 }
 
-func (a *Annotation) getIndexFromEditionAlto(pages []int, editionKey string, categories []string) ([]string, []categoryPageContent, error) {
+func (a *Annotation) getIndexFromEditionAlto(pages []int, editionKey string, volume *int, categories []string) ([]string, []categoryPageContent, error) {
 	return getIndexFromAlto(pages, categories, func(page int) (*alto.Alto, error) {
-		af, _, err := a.fileSysMgt.RetrieveEditionAltoPage(editionKey, page)
+		af, _, err := a.fileSysMgt.RetrieveEditionAltoPage(editionKey, volume, page)
 		if err != nil {
 			return nil, fmt.Errorf("failed to retrieve edition alto: %w", err)
 		}
@@ -1077,9 +1098,9 @@ func (a *Annotation) getIndexFromEditionAlto(pages []int, editionKey string, cat
 	}, "edition ALTO")
 }
 
-func (a *Annotation) getIndexFromEditionMarkdown(pages []int, editionKey string, categories, indexTypes []string, normalize bool) ([]string, []categoryPageContent, []string, error) {
+func (a *Annotation) getIndexFromEditionMarkdown(pages []int, editionKey string, volume *int, categories, indexTypes []string, normalize bool) ([]string, []categoryPageContent, []string, error) {
 	return getIndexFromMarkdown(pages, categories, func(page int) (*markdown.Markdown, error) {
-		md, err := a.fileSysMgt.RetrieveEditionMarkdownPage(editionKey, page)
+		md, err := a.fileSysMgt.RetrieveEditionMarkdownPage(editionKey, volume, page)
 		if err != nil {
 			return nil, fmt.Errorf("failed to retrieve edition markdown page: %w", err)
 		}

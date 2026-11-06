@@ -439,6 +439,7 @@ export class AnnotationsService {
         categories,
         types = 'default',
         normalize = false,
+        source = 'annotation',
     }: {
         /**
          * Dataset ID
@@ -460,6 +461,10 @@ export class AnnotationsService {
          * Normalize headings by applying printer error corrections and removing a leading paragraph mark
          */
         normalize?: boolean,
+        /**
+         * Preferred transcription source for the index
+         */
+        source?: 'annotation' | 'edition',
     }): CancelablePromise<annotation_Index> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -472,6 +477,7 @@ export class AnnotationsService {
                 'categories': categories,
                 'types': types,
                 'normalize': normalize,
+                'source': source,
             },
         });
     }

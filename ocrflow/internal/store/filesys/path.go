@@ -2,6 +2,7 @@ package filesys
 
 import (
 	"fmt"
+	"os"
 	"path"
 	"path/filepath"
 	"strconv"
@@ -87,20 +88,38 @@ func DiagramCropPath(diagramsDir, relPath string) string {
 	return path.Join(diagramsDir, relPath)
 }
 
-func (m *Manager) EditionTxtTranscriptionDir(editionKey string) string {
-	return path.Join(m.baseDir, "transcriptions", editionKey)
+func (m *Manager) editionTxtTranscriptionDirCandidates(editionKey string, volume *int) []string {
+	editionDir := path.Join(m.baseDir, "transcriptions", editionKey)
+	if volume == nil {
+		return []string{editionDir}
+	}
+	volumeDir := path.Join(m.baseDir, "transcriptions", fmt.Sprintf("%s_vol%d", editionKey, *volume))
+	if *volume == 1 {
+		return []string{editionDir, volumeDir}
+	}
+	return []string{volumeDir}
+}
+
+func (m *Manager) EditionTxtTranscriptionDir(editionKey string, volume *int) string {
+	candidates := m.editionTxtTranscriptionDirCandidates(editionKey, volume)
+	for _, candidate := range candidates {
+		if info, err := os.Stat(candidate); err == nil && info.IsDir() {
+			return candidate
+		}
+	}
+	return candidates[0]
 }
 
 func (m *Manager) AnnotationTxtTranscriptionDir(ann *annotation.Annotation) string {
 	return path.Join(m.baseAnnotationPath(ann), "transcriptions")
 }
 
-func (m *Manager) EditionTxtPageTranscriptionDir(editionKey, key string) string {
+func (m *Manager) EditionTxtPageTranscriptionDir(editionKey string, volume *int, key string) string {
 	var d = key
 	if pageNum, err := strconv.Atoi(key); err == nil {
 		d = pagesparser.PageToFilename(pageNum, "")
 	}
-	return path.Join(m.EditionTxtTranscriptionDir(editionKey), d)
+	return path.Join(m.EditionTxtTranscriptionDir(editionKey, volume), d)
 }
 
 func (m *Manager) AnnotationTxtPageTranscriptionDir(ann *annotation.Annotation, key string) string {

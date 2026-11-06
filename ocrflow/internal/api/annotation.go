@@ -363,6 +363,7 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 // @Param        categories  query     string  false  "Categories for the index"
 // @Param        types query string false "Comma-separated index layers (default: default)" default(default)
 // @Param        normalize query bool false "Normalize headings by applying printer error corrections and removing a leading paragraph mark" default(false)
+// @Param        source query string false "Preferred transcription source for the index" Enums(annotation, edition) default(annotation)
 // @Produce      json
 // @Success      200  {object}   annotation.Index
 // @Router       /datasets/{dataSetId}/annotations/{id}/index [get]
@@ -381,6 +382,14 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 	if err != nil {
 		normalize = false
 	}
+	source := annotation.IndexSource(r.FormValue("source"))
+	switch source {
+	case "":
+		source = annotation.IndexSourceAnnotation
+	case annotation.IndexSourceAnnotation, annotation.IndexSourceEdition:
+	default:
+		return nil, fmt.Errorf("invalid index source %q", source)
+	}
 	typesStr := strings.TrimSpace(r.URL.Query().Get("types"))
 	if typesStr != "" {
 		indexTypes := lo.Map(strings.Split(typesStr, ","), func(s string, _ int) string { return strings.TrimSpace(s) })
@@ -396,9 +405,9 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 			seen[indexType] = struct{}{}
 			uniqueTypes = append(uniqueTypes, indexType)
 		}
-		return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, uniqueTypes, normalize)
+		return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, uniqueTypes, normalize, source)
 	}
-	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, nil, normalize)
+	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, nil, normalize, source)
 }
 
 // ListAnnotationCategories godoc

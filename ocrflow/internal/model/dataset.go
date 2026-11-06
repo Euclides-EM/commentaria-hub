@@ -13,6 +13,7 @@ type Dataset struct {
 	common.Meta
 	FacsimileID   string  `json:"facsimile_id"`
 	EditionID     string  `json:"edition_id"`
+	Volume        *int    `json:"volume,omitempty"`
 	DPI           float64 `json:"dpi" default:"300"`
 	Deskewed      bool    `json:"deskewed" default:"false"`
 	Denoised      bool    `json:"denoised" default:"false"`

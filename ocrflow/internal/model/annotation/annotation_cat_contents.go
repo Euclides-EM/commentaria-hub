@@ -16,3 +16,10 @@ type IndexNode struct {
 	Location common.ALTOLocation `json:"location"`
 	Children []*IndexNode        `json:"children"`
 }
+
+type IndexSource string
+
+const (
+	IndexSourceAnnotation IndexSource = "annotation"
+	IndexSourceEdition    IndexSource = "edition"
+)
