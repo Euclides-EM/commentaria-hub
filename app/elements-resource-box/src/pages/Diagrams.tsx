@@ -293,6 +293,9 @@ const parseImageName = (imagePath: string): ImageInfo => {
 };
 
 function getImagePath(imageName: string) {
+  if (/^https?:\/\//i.test(imageName)) {
+    return imageName;
+  }
   return `${new URL(import.meta.env.VITE_BACKEND_URL).origin}${imageName}`;
 }
 

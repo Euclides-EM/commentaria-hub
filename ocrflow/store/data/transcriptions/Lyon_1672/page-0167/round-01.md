@@ -1,5 +1,0 @@
-<!-- Page number: 152 -->
-
-<!-- Running title: Liure troiſieſme -->
-
-lieu, tirant la ligne AD : nous ne voulons pas que cette inclination BAC ſoit diuiſée, mais cela ſignifie que quelque arc de cercle que nous tirerons du poinct A , comme centre , il ſera diuiſé également , par la ligne AD , & c'eſt en ce ſens qu'il faut entendre ce qu'on demonſtre de la grandeur des angles : doncques la meſure des angles de contingence ne peut eſtre la meſme , que de l'angle rectiligne , puiſque il n'en à poinct , l'angle de contingence, ne peut eſtre comparé auec l'angle rectiligne : & il n'y a aucune proportion ou raiſon de l'vn à l'autre eu égard meſme à la definition ordinaire de la raiſon, cõme nous ne comparons iamais vne ligne auec vne ſuperficie, ou auec vn corps ſolide : en effet, ſi dans la figure de la propoſition , l'on deſcriuoit pluſieurs cercles concentriques du poinct A comme centre : on trouueroit que des arcs compris entre la tangente , & la circonference, quelques-vns ſeroient plus petits , quelques autres plus grands que les arcs interceptez entre la tangente , & la ligne FA. Ainſi l'on ne peut conclurre abſolument,

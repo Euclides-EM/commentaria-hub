@@ -1,5 +1,0 @@
-<!-- Page number: 428 -->
-
-<!-- Running title: Liure douzieſme -->
-
-eu égard à celle de CD , à EF ; je veux que ce ſoit la quãtité G, puiſque la quantité G eſt moindre que la ſphere A, l'on pourra ( par le premier lemme ) en ſoubdiuiſant le diametre de la ſphere A , inſcrire des cylindres ; en ſorte que tous pris enſemble ſeront plus grands que la quantité G : imaginez-vous que l'on ayt diuiſé de meſme façon le diametre de la ſphere B , & que l'on ayt inſcrit autant de cylindres ſemblables. La raiſon des cylindres de la ſphere A , aux cylindres de la ſphere B , ſera triple, eu égard à celle des diametres, ( par le lemme ſecond. ) Or la quantité G , comparée à la ſphere B , auoit auſſi vne raiſon triple , ainſi la quantité G, aura vne meſme raiſon, comparée à la ſphere B ; que les cylindres de A , comparés aux cylindres de B ; & comme la quantité G , eſt plus petite que les cylindres de A , la ſphere B , ſera plus petite que les cylindres inſcrits dans B , ce qui eſt abſurde. Il n'y a donc aucune quantité plus perite{printer-error-correction:petite} que la ſphere A , qui ayt à la ſphere B , vne raiſon triple comparée à celle des diametres , &

@@ -1,0 +1,14 @@
+<!-- Page number: 348 -->
+<!-- Running title: LE DIXIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+ἡ δὲ ΔΗ τῇ ΗΕ· ἀσύμμετρος ἄρα ἐστὶν ἡ ΑΖ τῇ ΕΗ μήκει. Ὡς δὲ ἡ ΑΖ πρὸς τὴν ΕΗ οὕτως ἐστὶ τὸ ΑΙ πρὸς τὸ ΕΚ· ἀσύμμετρον ἄρα ἐστὶ τὸ ΑΙ τῷ ΕΚ³. Συνεστάτω οὖν τῷ μὲν ΑΙ ἴσον τετράγωνον τὸ ΛΜ, τῷ δὲ ΖΚ ἴσον ἀφῃρήσθω τὸ ΝΞ, περὶ τὴν αὐτὴν γωνίαν ὂν τῷ ΛΜ· περὶ τὴν αὐτὴν ἄρα διάμετρόν ἐστι τὰ ΛΜ, ΝΞ.
+
+surabilis est longitudine, ipsa verò ΔΗ ipsi ΗΕ; incommensurabilis igitur est ΑΖ ipsi ΕΗ longitudine. Ut autem ΑΖ ad ΕΗ ita est ΑΙ ad ΕΚ; incommensurabile igitur est ΑΙ ipsi ΕΚ. Constituatur igitur ipsi quidem ΑΙ æquale quadratum ΛΜ, ipsi verò ΖΚ æquale auferatur ΝΞ, eumdem angulum habens cum ipso ΛΜ; ergo circa eamdem dia-
+
+[Diagram: two squares; the left square ΑΓ with points Α, Δ, Ε, Ζ, Η along the top and Γ, Β, Θ, Ι, Κ along the bottom, divided by vertical lines; the right square with points Λ, Ν, Ο along the top, Ρ, Τ, Μ along the bottom, Μ and Ξ on the sides, a diagonal from Ρ to Ο, and interior points Χ, Π, Φ, Τ]
+
+Εστω αὐτῶν διάμετρος ἡ ΟΡ, καὶ καταγεγράφθω τὸ σχῆμα. Ἐπεὶ οὖν τὸ ὑπὸ τῶν ΑΖ, ΖΗ ἴσον ἐστὶ τῷ ἀπὸ τῆς ΕΗ· ἔστιν ἄρα ὡς ἡ ΑΖ πρὸς τὴν ΕΗ οὕτως ἡ ΕΗ πρὸς τὴν ΖΗ. Ἀλλ᾽ ὡς μὲν ἡ ΑΖ πρὸς τὴν ΕΗ οὕτως ἐστὶ τὸ ΑΙ πρὸς τὸ ΕΚ· ὡς δὲ ἡ ΕΗ πρὸς τὴν ΖΗ οὕτως ἐστὶ⁴ τὸ ΕΚ πρὸς τὸ ΖΚ· καὶ ὡς ἄρα τὸ ΑΙ πρὸς τὸ ΕΚ οὕτως τὸ ΕΚ πρὸς τὸ ΖΚ⁵· τῶν ἄρα ΑΙ, ΖΚ μέσον ἀνάλογόν ἐστι τὸ ΕΚ. Εστι δὲ καὶ τῶν ΛΜ, ΝΞ τετραγώνων μέσον ἀνάλογον τὸ ΜΝ, καὶ ἔστιν ἴσον τὸ μὲν ΑΙ τῷ ΛΜ, τὸ δὲ
+
+metrum sunt quadrata ΛΜ, ΝΞ. Sit ipsorum diameter ΟΡ, et describatur figura. Quoniam igitur rectangulum sub ΑΖ, ΖΗ æquale est quadrato ex ΕΗ, est igitur ut ΑΖ ad ΕΗ ita ΕΗ ad ΖΗ. Sed ut quidem ΑΖ ad ΕΗ ita est ΑΙ ad ΕΚ, ut verò ΕΗ ad ΖΗ ita est ΕΚ ad ΖΚ; et ut igitur ΑΙ ad ΕΚ ita ΕΚ ad ΖΚ; ipsorum igitur ΑΙ, ΖΚ medium proportionale est ΕΚ. Est autem et quadratorum ΛΜ, ΝΞ medium proportiotionale{printer-error-correction:proportionale} ΜΝ, et est æquale quidem ΑΙ ipsi ΛΜ,
+
+avec ΑΖ, et ΔΗ avec ΗΕ ; la droite ΑΖ est donc incommensurable en longueur avec ΕΗ (13. 10). Mais ΑΖ est à ΕΗ comme le parallélogramme ΑΙ est au parallélogramme ΕΚ (1. 6) ; le parallélogramme ΑΙ est donc incommensurable avec le parallélogramme ΕΚ. Faisons le quarré ΛΜ égal à ΑΙ (14. 2), et retranchons de ΛΜ le quarré ΝΞ égal à ΖΚ, ce quarré étant dans le même angle que ΛΜ, les quarrés ΛΜ, ΝΞ seront autour de la même diagonale (26. 6). Que leur diagonale soit ΟΡ, et décrivons la figure. Puisque le rectangle sous ΑΖ, ΖΗ est égal au quarré de ΕΗ ; la droite ΑΖ sera à ΕΗ comme ΕΗ est à ΖΗ (17. 6). Mais ΑΖ est à ΕΗ comme ΑΙ est à ΕΚ (1. 6), et ΕΗ est à ΖΗ comme ΕΚ est à ΖΚ ; le parallélogramme ΑΙ est donc à ΕΚ comme ΕΚ est à ΖΚ ; le parallélogramme ΕΚ est donc moyen proportionnel entre ΑΙ et ΖΚ. Puisque ΜΝ est moyen proportionnel entre les quarrés ΛΜ, ΝΞ, que le parallélogramme ΑΙ est égal

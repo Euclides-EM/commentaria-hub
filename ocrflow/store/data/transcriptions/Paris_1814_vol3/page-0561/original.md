@@ -1,0 +1,14 @@
+<!-- Running title: LE SECOND LIVRE D’HYPSICLE. -->
+<!-- Page number: 527 -->
+
+ΒΖΓ, ΓΖΔ τριγώνων. Ταύτης δεδομένης, δεδομένη ἔσται καὶ ἡ κλίσις τῶν τοῦ εἰκοσαέδρου ἐπιπέδων· ἀπὸ γὰρ τῆς πλευρᾶς τοῦ τριγώνου τοῦ εἰκοσαέδρου ἀναγραφέντος πενταγώνου, ἐπιζευχθείσης τῆς ὑπὸ δύο πλευρὰς ὑποτεινούσης τοῦ πενταγώνου, ὡς ἐπὶ τῆς καταγραφῆς, τῆς ΒΔ δεδομένης, ὁμοίως δὲ καὶ τῶν ΒΗ, ΗΔ καθέτων τῶν τριγώνων, δέδοται καὶ ἡ ὑπὸ ΒΗΔ. Εἰ γὰρ κέντροις τοῖς πέρασι τῆς ὑπὸ δύο πλευρὰς ὑποτεινούσης τοῦ πενταγώνου ὡς τῆς ΒΔ, διαστήματι δὲ τῇ τοῦ τριγώνου καθέτῳ κύκλοι γραφῶσι, τέμνουσιν ἀλλήλους ὡς κατὰ τὸ Η, καὶ αἱ ἀπὸ τοῦ Η ἐπὶ τὰ Β, Δ ἐπιζευγνύμεναι εὐθεῖαι περιέξουσι τὴν λείπουσαν εἰς τὰς δύο ὀρθὰς τῆς τῶν ἐπιπέδων κλίσεως. Καὶ ἐνταῦθα δὴ ἐκ μὲν τῆς καταγραφῆς δῆλον ἐστὶν ὅτι ἑκατέρα τῶν ΒΗ, ΗΔ μείζων ἐστὶ τῆς ἡμισείας τῆς ΒΔ· εἶναι δὲ καὶ ἐπὶ τῆς ὀργανικῆς κατασκευῆς ἀποδειχθήσεται.
+
+duobus rectis inclinationis triangulorum ΒΖΓ, ΓΖΔ. Hoc dato, data erit et inclinatio icosaedri planorum; a latere enim trianguli icosaedri descripto pentagono, juncta duo latera pentagoni subtendente, ut in figura, ipsa ΒΔ data, similiter autem et perpendicularibus ΒΗ, ΗΔ triangulorum, datus est et angulus ΒΗΔ. Si enim centris terminis ipsius duo latera pentagoni subtendentis, ut ΒΔ, intervallo autem trianguli perpendiculari circuli describantur, sese secant, ut in puncto Η, et a puncto Η ad puncta Β, Δ junctæ rectæ comprehendent reliquum ex duobus rectis planorum inclinationis. Et hoc loco ex figurâ quidem manifestum est utramque ipsarum ΒΗ, ΗΔ majorem esse dimidia ipsius ΒΔ; hoc autem potest ex organica constructione demonstrari.
+
+Νενόησθω χωρὶς ἰσόπλευρον μὲν τρίγωνον τὸ ΘΚΛ, ἀπὸ δὲ τῆς ΚΛ πεντάγωνον ἀναγεγράφθω τὸ ΚΜΝΞΛ, καὶ ἐπεζεύχθω ἡ ΜΛ, καὶ ἤχθω
+
+Intelligatur seorsim æquilaterum quidem triangulum ΘΚΛ, et ab ipsâ ΚΛ pentagonum describatur ΚΜΝΞΛ, et jungatur ΜΛ, et ducatur
+
+de l’angle ΒΗΔ à deux droits, sera l’inclinaison des triangles ΒΖΓ, ΓΖΔ. Cet angle étant donné, l’inclinaison des plans de l’icosaèdre sera donnée ; car ayant décrit un pentagone sur un côté d’un triangle de l’icosaèdre, et étant donnée la droite ΒΔ qui soutend deux côtés du pentagone, comme dans la figure, ainsi que les perpendiculaires ΒΗ, ΗΔ des triangles, l’angle ΒΗΔ sera donné. Car si des extrémités de la droite ΒΔ qui soutend deux côtés du pentagone, comme centres, et d’un intervalle égal à la perpendiculaire d’un triangle, on décrit des arcs de cercle qui se coupent en un point Η, les droites menées du point Η aux points Β, Δ, comprendront un angle dont le supplément à deux droits sera l’inclinaison des plans. Il est évident ici, d’après la figure, que chacune des droites ΒΗ, ΗΔ, est plus grande que la moitié de ΒΔ ; ce qui peut aussi se démontrer par la construction organique.
+
+Car concevons séparément le triangle équilatéral ΘΚΛ ; sur ΚΛ décrivons le pentagone ΚΜΝΞΛ ; joignons ΜΛ, et menons la perpendiculaire ΘΟ du triangle

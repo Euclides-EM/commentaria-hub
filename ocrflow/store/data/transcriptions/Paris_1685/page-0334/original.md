@@ -1,0 +1,6 @@
+<!-- Page number: 306 -->
+<!-- Running title: ELEMENS DE GEOMETRIE. -->
+
+mot de la transformation des équations, c'eſt à dire, de la maniere de changer leurs expreſſions, ſans que leur valeur augmente ou diminüe. On fait ces changemens pour faire paroître une equation ſous une forme plus commode, & qui en faſſe appercevoir la reſolution, auſſi c'eſt en cela que conſiſte le grand ſecret de la bonne methode, comme nous l'avons vû par une infinité d'exemples.
+
+Par la transformation d'une équation, l'on n'entend que les changemens qui ſe font dans les lettres qui marquent les grandeurs inconnuës. On a dit que pour reduire une équation à des termes plus ſimples, quant on a pluſieurs grandeurs connuës, il en faut prendre une ſeule qui ſoit égale à toutes celles-là : Par exemple ſi xd + xb ∝ xx prenant c ∝ b + d il eſt evident que xc ∝ xx. Ces changemens ſe peuvent faire auſſi ſur les racines inconnuës d'une équation qu'on peut augmenter ou diminüer de quelque quantité connuë : Au lieu du terme inconnu, il en faut ſuppoſer un autre qui ſoit plus ou moins grand, de cette même quantité, & le ſubſtituer par tout en la place du premier : Comme ſi xx ∝ xd + bb, dont les racines ſont x + d, b, x, & qu'on veüille augmenter cette équation de 3. Il faut prendre y, qu'on ſupo-

@@ -1,0 +1,8 @@
+<!-- Running title: LE DOUZIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+<!-- Page number: 187 -->
+
+ΜΝ ὕψος πρὸς τὸ ΚΛ ὕψος, ἴσον δὲ τὸ ΚΛ ὕψος τῷ ΜΠ ὕψει· ἔστιν ἄρα ὡς ἡ ΑΒΓΔ βάσις πρὸς τὴν ΕΖΗΘ βάσιν οὕτως τὸ ΜΝ ὕψος πρὸς τὸ ΜΠ ὕψος¹⁰. Ἀλλ᾽ ὡς μὲν ἡ ΑΒΓΔ βάσις πρὸς τὴν ΕΖΗΘ βάσιν οὕτως ὁ ΑΞ κύλινδρος πρὸς τὸν ΕΣ κύλινδρον, ὑπὸ γὰρ τὸ αὐτὸ ὕψος εἰσίν· ὡς δὲ τὸ ΜΝ ὕψος πρὸς τὸ ΜΠ ὕψος¹¹ οὕτως ὁ ΕΟ κύλινδρος πρὸς τὸν ΕΣ κύλινδρον· ἔστιν ἄρα ὡς ὁ ΑΞ κύλινδρος πρὸς τὸν ΕΣ κύλινδρον οὕτως ὁ ΕΟ κύλινδρος πρὸς τὸν ΕΣ κύλινδρον¹²· ἴσος ἄρα ὁ ΑΞ κύλινδρος τῷ ΕΟ κυλίνδρῳ. Ὡσαύτως δὲ καὶ ἐπὶ τῶν κώνων. Ὅπερ ἔδει δεῖξαι.
+
+ΚΛ altitudinem, æqualis autem ΚΛ altitudo altitudini ΜΠ; est igitur ut ΑΒΓΔ basis ad ΕΖΗΘ basim ita ΜΝ altitudo ad ΜΠ altitudinem. Sed ut quidem ΑΒΓΔ basis ad ΕΖΗΘ basim ita ΑΞ cylindrus ad ΕΣ cylindrum, etenim sub eâdem altitudine sunt; ut autem ΜΝ altitudo ad ΜΠ altitudinem ita ΕΟ cylindrus ad ΕΣ cylindrum; est igitur ut ΑΞ cylindrus ad ΕΣ cylindrum ita ΕΟ cylindrus ad ΕΣ cylindrum; æqualis igitur ΑΞ cylindrus ΕΟ cylindro. Similiter autem et in conis. Quod oportebat ostendere.
+
+comme la hauteur ΜΝ est à la hauteur ΚΛ, que la hauteur ΚΛ est égale à la hauteur ΜΠ, la base ΑΒΓΔ sera à la base ΕΖΗΘ comme la hauteur ΜΝ est à la hauteur ΜΠ. Mais la base ΑΒΓΔ est à la base ΕΖΗΘ comme le cylindre ΑΞ est au cylindre ΕΣ ( 11. 12 ), car ils ont la même hauteur, et la hauteur ΜΝ est à la hauteur ΜΠ comme le cylindre ΕΟ est au cylindre ΕΣ ( 13. 12 ); le cylindre ΑΞ est donc au cylindre ΕΣ comme le cylindre ΕΟ est au cylindre ΕΣ; le cylindre ΑΞ est donc égal au cylindre ΕΟ ( 9. 5 ). Il en serait de même pour les cônes. Ce qu'il fallait démontrer.

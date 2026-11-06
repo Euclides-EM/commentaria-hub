@@ -1,0 +1,13 @@
+<!-- Page number: xliv -->
+
+éditions grecques, est une simple note placée au bas du manuscrit, d’où elle avait été mal à propos portée dans le texte : Robert Simson a écrit six pages contre cette mauvaise et inutile définition, et elle n’est pas d’Euclide.
+
+Le même traducteur relève une bévue remarquable de tous les textes grecs imprimés; un changement de lettre dans la figure avait causé tout l’embarras. En rétablissant la lettre véritable φ au lieu de ω, on ne donne plus à Euclide le ridicule de paraître ignorer une vérité de la géométrie la plus élémentaire. Voyez *Prop. 17, liv. XII.*
+
+La proposition 86 des *Données* avait fort inquiété Grégori qui, dans sa préface, en propose deux rédactions identiques, et à laquelle il voulait en ajouter une troisième, qui compléterait le système de la résolution des équations bi-quadratiques à la manière des anciens. Cette dernière conjecture n’est pas confirmée par le manuscrit, qui n’offre que l’une des deux premières rédactions. Grégori croyait le théorème singulièrement altéré; son erreur venait de ce qu’il ne connaissait pas un lemme qui se trouve dans le manuscrit à la fin des *Données*, et qui doit précéder la proposition 86.
+
+M. Peyrard donne ce lemme qui, au reste, est une proposition bien simple et bien connue. Il s’agit de trouver la surface d’un parallélogramme obtus-angle; mais cette proposition renferme une construction nécessaire à la démonstration des propositions 86 et 87, qui disent que si deux lignes formant un angle donné comprennent un espace donné, et que le carré de l’une, augmenté ou diminué d’un espace donné, soit au carré de la seconde, en raison donnée, ces deux lignes seront connues.
+
+D’après toutes ces considérations, nous pensons que la classe peut donner son approbation au travail de M. Peyrard, pour l’encourager encore à terminer l’entreprise qu’il poursuit avec une persévérance digne d’éloges, et qui nous fera mieux connaître tous les mathématiciens grecs. Nous exprimerions le vœu de voir paraître une édition grecque du texte d’Euclide, purgée de toutes les fautes que les manuscrits ont fait rectifier, et enrichie de toutes les additions qu’ils ont fournies; mais cette édition serait dispendieuse et demanderait beaucoup de temps : nous nous bornerons donc à souhaiter que M. Peyrard ajoute à sa traduction la liste de toutes les variantes qu’il a recueillies, et qui lui paraîtront mériter quelque attention. Ainsi les géomètres pourront corriger les éditions anciennes, en attendant celle qui pourrait faire oublier toutes les précédentes.
+
+*Signé à la minute,* LAGRANGE, LEGENDRE, DELAMBRE, *rapporteur.*

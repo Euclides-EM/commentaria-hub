@@ -1,11 +1,6 @@
 # OCR Pipeline Queue
 
-> Rome_1574_vol2 - TODO
-> Strasbourg_1564 - https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4 - OCR running
-> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect running
-> Würzburg_1661 - https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi - Seg running [LARGE FILE]
-> Paris_1814 vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph - OCR running
-> Paris_1814 vol3 - https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3 - OCR running
+> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect pending
 
 # Train to improve segmentation
 
@@ -35,25 +30,166 @@
 
 # Run LLM Corrector
 
-## Paris_1814 vol2
+# Manual Curation
+
+## Würzburg_1661
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_n0qsmi
+
+Skipped Kraken, run OCR with Opus.
+
+- **Requests:** 311
+- **Model:** Claude Opus (Claude Code)
+- **Total cost:** $82.88
+- **Average cost per page:** $0.098
+- **Total tokens:** 13,632,545
+- **Input tokens (uncached):** 1,256
+- **Cache-read tokens:** 5,641,309
+- **Cache-creation tokens:** 6,504,407
+- **Output tokens:** 1,485,573
+- **Reasoning tokens:** 0
+- **Cache-read requests:** 310/310
+- **Cache misses after warmup:** 0
+- **Average output per page:** 1,762 tokens
+- **Average output per request:** 4,777 tokens
+
+## Paris_1814_vol3
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
+http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
+
+Claude Code — Fable
+
+- **Requests:** 272
+- **Input tokens:** 1,232
+- **Cached tokens:** 8,616,382
+- **Cache creation tokens:** 4,925,131
+- **Output tokens:** 995,247
+- **Reasoning tokens:** 0
+- **Total tokens:** 14,537,992
+- **Cost:** $157.95
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 217
+- **Input tokens:** 10,714,810
+- **Cached tokens:** 8,366,592
+- **Cache creation tokens:** 0
+- **Output tokens:** 694,939
+- **Reasoning tokens:** 0
+- **Total tokens:** 11,409,749
+
+## Rome_1574_vol2
+
+Claude Opus
+
+- **Requests:** 604
+- **Total cost:** $128.45
+- **Total tokens:** 23,545,468
+- **Input tokens (uncached):** 2,418
+- **Cache-read tokens:** 10,008,019
+- **Cache-creation tokens:** 12,021,733
+- **Output tokens:** 1,513,298
+- **Reasoning tokens:** 0
+- **Cache-read requests:** 603/603
+- **Cache misses after warmup:** 0
+
+## Paris_1814_vol1
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_mz3oph
+http://18.216.154.29:5180/hub/?datasetId=ds_mz3oph&annotationId=ann_ees3kv
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 380
+- **Input tokens:** 11,477,083
+- **Cached tokens:** 7,553,152
+- **Cache creation tokens:** 0
+- **Output tokens:** 1,056,225
+- **Reasoning tokens:** 0
+- **Total tokens:** 12,533,308
+
+## Strasbourg_1564
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_ypncw4
+http://18.216.154.29:5180/hub/?datasetId=ds_ypncw4&annotationId=ann_w91i73
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 221
+- **Input tokens:** 10,125,986
+- **Cached tokens:** 7,866,496
+- **Cache creation tokens:** 0
+- **Output tokens:** 626,147
+- **Reasoning tokens:** 0
+- **Total tokens:** 10,752,133
+
+## Paris_1814_vol2
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_a2q3yy&annotationId=ann_pr4ar8
 
-0/576
+Claude Code — Fable
 
-## Paris_1685
+- **Requests:** 481
+- **Input tokens:** 2,082
+- **Cached tokens:** 13,182,590
+- **Cache creation tokens:** 8,147,548
+- **Output tokens:** 1,782,861
+- **Reasoning tokens:** 0
+- **Total tokens:** 23,115,081
+- **Cost:** $267.01
 
-https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr&annotationId=ann_i31qou
+Codex — GPT-5.6 Sol
 
-Running OCR, 121/388
+- **Requests:** 95
+- **Input tokens:** 4,402,575
+- **Cached tokens:** 3,435,904
+- **Cache creation tokens:** 0
+- **Output tokens:** 259,765
+- **Reasoning tokens:** 0
+- **Total tokens:** 4,662,340
 
 ## Strasbourg_1566
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ilx0l7&annotationId=ann_fsoleq
 
-Running OCR, 60/221
+Claude Code — Fable
 
-# Manual Curation
+- **Requests:** 60
+- **Input tokens:** 276
+- **Cached tokens:** 1,766,220
+- **Cache creation tokens:** 1,172,164
+- **Output tokens:** 630,561
+- **Reasoning tokens:** 0
+- **Total tokens:** 3,569,221
+- **Cost:** $57.00
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 161
+- **Input tokens:** 19,726,257
+- **Cached tokens:** 16,990,720
+- **Cache creation tokens:** 0
+- **Output tokens:** 1,027,869
+- **Reasoning tokens:** 0
+- **Total tokens:** 20,754,126
+
+## Paris_1685
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_fa95xr&annotationId=ann_i31qou
+
+### Dataset Usage Summary
+
+Claude Code — Fable
+
+- **Requests:** 388
+- **Input tokens:** 1,578
+- **Cached tokens:** 9,173,575
+- **Cache creation tokens:** 4,744,324
+- **Output tokens:** 467,560
+- **Reasoning tokens:** 0
+- **Total tokens:** 14,387,037
+- **Cost:** $128.22
 
 ## Oxford_1703
 
@@ -431,7 +567,7 @@ The facsimile is public domain and can be used. OCR and llm correction with fabl
 LLM corrector run in two cycles, due to token limit. Log available only from the second run:
 
 ```shell
-2026/09/04 15:55:49 complete pages=79 rounds=1 requests=79 tokens_input=326 tokens_cached=1509871 tokens_cache_creation=659121 tokens_output=222941 tokens_reasoning=0 tokens_total=2392259 cost_usd=26.574715 cost_reports=79/79 final_outputs=store/data/ds_5da9w5/annotations/ann_8k4g9h/transcriptions/page-NNNN/original.md
+2026/09/04 15:55:49 complete pages=79 rounds=1 requests=79 tokens_input=326 tokens_cached=1509871 tokens_cache_creation=659121 tokens_output=222941 tokens_reasoning=0 tokens_total=2392259 cost_usd=26.574715 cost_reports=79/79 final_outputs=store/data/ds_5da9w5/annotations/ann_8k4g9h/Rome_1574_vol2/page-NNNN/original.md
 ```
 
 Curated Fable transcriptions have been committed.
@@ -464,7 +600,7 @@ Curation reviewed, no action item identified. Only an open Q: in the edition, th
 Two facsimiles are available:
 
 * **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
-* **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
+* **`Rome_1574_vol1`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
 
 Run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
 

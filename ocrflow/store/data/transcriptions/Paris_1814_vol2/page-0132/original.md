@@ -1,0 +1,14 @@
+<!-- Page number: 80 -->
+<!-- Running title: LE NEUVIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+ΔΕ, ΕΖ ἐλάχιστοί εἰσι, πρῶτοι πρὸς ἀλλήλους εἰσίν. Ἐὰν δὲ δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλους ὦσι, καὶ συναμφότερος πρὸς ἑκάτερον πρῶτός ἐστι· καὶ ὁ ΔΖ ἄρα πρὸς ἑκάτερον τῶν ΔΕ, ΕΖ πρῶτός ἐστιν. Ἀλλὰ μὲν καὶ ὁ ΔΕ πρὸς τὸν ΕΖ πρῶτός ἐστιν· οἱ ΔΖ, ΔΕ ἄρα πρὸς τὸν ΕΖ πρῶτοί
+
+quoniam ΔΕ, ΕΖ minimi sunt, primi inter se sunt. Si autem duo numeri primi inter se sunt, et uterque ad utrumque primus est; et ΔΖ igitur ad utrumque ipsorum ΔΕ, ΕΖ primus est. Sed quidem et ΔΕ ad ΕΖ primus est; ergo ΔΖ, ΔΕ ad ΕΖ primi sunt. Si autem duo numeri ad
+
+[Diagram: Α, 9. Β, 12. Γ, 16; a dotted line labelled Δ, Ε, Ζ]
+
+εἰσίν³. Ἐὰν δὲ δύο ἀριθμοὶ πρός τινα ἀριθμὸν πρῶτοι ὦσι, καὶ ὁ ἐξ αὐτῶν γενόμενος πρὸς τὸν λοιπὸν πρῶτός ἐστιν· ὥς τε ὁ ἐκ τῶν ΖΔ, ΔΕ πρὸς τὸν ΕΖ πρῶτός ἐστιν. Ὥς τε καὶ ὁ ἐκ τῶν ΖΔ, ΔΕ πρὸς τὸν ἀπὸ τοῦ ΕΖ πρῶτός ἐστι. Ἐὰν γὰρ δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλους ὦσιν, ὁ ἐκ τοῦ ἑνὸς αὐτῶν γενόμενος³ πρὸς τὸν λοιπὸν πρῶτός ἐστιν⁴. Ἀλλ᾽ ὁ ἐκ τῶν ΖΔ, ΔΕ ὁ ἀπὸ τοῦ ΔΕ ἐστὶ μετὰ τοῦ ἐκ τῶν ΔΕ, ΕΖ· ὁ ἄρα ἀπὸ τοῦ ΔΕ μετὰ τοῦ ἐκ τῶν ΔΕ, ΕΖ πρὸς τὸν ἀπὸ τοῦ ΕΖ πρῶτός ἐστι. Καὶ ἔστιν ὁ μὲν ἀπὸ τοῦ ΔΕ ὁ Α, ὁ δὲ ἐκ τῶν ΔΕ, ΕΖ ὁ Β, ὁ δὲ ἀπὸ τοῦ ΕΖ ὁ Γ· οἱ Α, Β ἄρα συντεθέντες πρὸς τὸν Γ πρῶτοί εἰσιν. Ὁμοίως δὴ δείξομεν ὅτι καὶ
+
+aliquem numerum primi sunt, et ex ipsis factus ad reliquum primus est; quare ipse ex ΖΔ, ΔΖ ad ΕΖ primus est. Quare et ipse ex ΖΔ, ΔΕ ad ipsum ex ΕΖ primus est. Si enim duo numeri primi inter se sunt, ipse ex uno ipsorum factus ad reliquum primus est. Sed ipse ex ΖΔ, ΔΕ est ipse ex ΔΕ cum ipso ex ΔΕ, ΕΖ; ipse igitur ex ΔΕ cum ipso ex ΔΕ, ΕΖ ad ipsum ex ΕΖ primus est. Et ipse quidem ex ΔΕ est Α, ipse vero ex ΔΕ, ΕΖ est Β, ipse autem ex ΕΖ est Γ; ergo Α, Β compositi ad ipsum Γ primi sunt. Similiter utique demonstrabimus et
+
+les nombres ΔΕ, ΕΖ sont les plus petits, ces nombres sont premiers entr'eux (24. 7). Mais si deux nombres sont premiers entr'eux, leur somme est un nombre premier avec chacun d'eux (30. 7); donc ΔΖ est un nombre premier avec chacun des nombres ΔΕ, ΕΖ. Mais ΔΕ est premier avec ΕΖ; donc ΔΖ et ΔΕ sont premiers avec ΕΖ. Mais si deux nombres sont premiers avec un autre, le produit de ces deux nombres est premier avec cet autre (26. 7); donc le produit de ΖΔ par ΔΕ est premier avec ΕΖ; donc le produit de ΖΔ par ΔΕ est premier avec le quarré de ΕΖ. Car si deux nombres sont premiers entr'eux, le quarré de l'un d'eux est premier avec l'autre (27. 7). Mais le produit de ΖΔ par ΔΕ égale le quarré de ΔΕ avec le produit de ΔΕ par ΕΖ (3. 2); donc le quarré de ΔΕ avec le produit de ΔΕ par ΕΖ est un nombre premier avec le quarré de ΕΖ. Mais le quarré de ΔΕ est Α, le produit de ΔΕ par ΕΖ est Β, et le quarré de ΕΖ est Γ; donc la somme de Α et de Β est un nombre premier avec Γ. Nous démontrerons de la même manière que la somme des

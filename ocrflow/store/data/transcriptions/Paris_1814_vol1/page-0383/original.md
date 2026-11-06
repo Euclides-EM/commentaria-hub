@@ -1,0 +1,14 @@
+<!-- Running title: LE SIXIÉME LIVRE DES ÉLÉMENTS D’EUCLIDE. -->
+<!-- Page number: 331 -->
+
+Εἰλήφθω γὰρ τῶν ΒΓ, ΕΖ τρίτη ἀνάλογον ἡ ΒΗ, ὥστε εἶναι ὡς τὴν ΒΓ πρὸς τὴν ΕΖ οὕτως τὴν ΕΖ πρὸς τὴν ΒΗ· καὶ ἐπεζεύχθω ἡ ΗΑ.
+
+Ἐπεὶ οὖν ἐστὶν ὡς ἡ ΑΒ πρὸς τὴν ΒΓ οὕτως ἡ ΔΕ πρὸς τὴν ΕΖ· ἐναλλὰξ ἄρα ἐστὶν ὡς ἡ ΑΒ πρὸς τὴν ΔΕ οὕτως ἡ ΒΓ πρὸς τὴν ΕΖ. Ἀλλ’ ὡς ἡ ΒΓ πρὸς τὴν ΕΖ οὕτως ἐστὶν ἡ ΕΖ πρὸς τὴν ΒΗ· καὶ ὡς ἄρα ἡ ΑΒ πρὸς τὴν ΔΕ οὕτως ἡ ΕΖ πρὸς τὴν ΒΗ· τῶν ΑΒΗ, ΔΕΖ ἄρα τριγώνων ἀντιπεπόνθασιν αἱ πλευραὶ, αἱ περὶ τὰς ἴσας γωνίας. Ὧν δὲ, μίαν μιᾷ ἴσην ἐχόντων γωνίαν τριγώνων, ἀντιπεπόνθασιν αἱ πλευραὶ, αἱ περὶ τὰς ἴσας γωνίας, ἴσα ἐστὶν ἐκεῖνα· ἴσον ἄρα ἐστὶ τὸ ΑΒΗ τρίγωνον τῷ ΔΕΖ τριγώνῳ. Καὶ ἐπεὶ ἐστὶν ὡς ἡ ΒΓ πρὸς τὴν ΕΖ οὕτως ἡ ΕΖ πρὸς τὴν ΒΗ· ἐὰν δὲ τρεῖς εὐθεῖαι ἀνάλογον ὦσιν, ἡ πρώτη πρὸς τὴν τρίτην διπλασίονα λόγον ἔχειν λέγεται ἤπερ πρὸς τὴν δευτέραν· ἡ ΒΓ ἄρα πρὸς τὴν ΒΗ διπλασίονα λόγον ἔχει ἤπερ ἡ ΒΓ πρὸς τὴν ΕΖ. Ὡς δὲ ἡ ΒΓ πρὸς τὴν ΒΗ οὕτως τὸ ΑΒΓ τρίγωνον πρὸς τὸ ΑΒΗ τρίγωνον· καὶ τὸ ΑΒΓ ἄρα τρίγωνον πρὸς τὸ
+
+Sumatur enim ipsis ΒΓ, ΕΖ tertia proportionalis ΒΗ, ita ut sit ut ΒΓ ad ΕΖ ita ΕΖ ad ΒΗ; et jungatur ΗΑ.
+
+Et quoniam est ut ΑΒ ad ΒΓ ita ΔΕ ad ΕΖ; alterne igitur est ut ΑΒ ad ΔΕ ita ΒΓ ad ΕΖ. Sed ut ΒΓ ad ΕΖ ita est ΕΖ ad ΒΗ; et ut igitur ΑΒ ad ΔΕ ita ΕΖ ad ΒΗ; ipsorum igitur ΑΒΗ, ΔΕΖ triangulorum reciproca sunt latera circa æquales angulos. Quorum autem unum uni æqualem habentium angulum triangulorum, reciproca sunt latera circa æquales angulos, æqualia sunt illa; æquale igitur est ΑΒΗ triangulum ipsi ΔΕΖ triangulo. Et quoniam est ut ΒΓ ad ΕΖ ita ΕΖ ad ΒΗ; si autem tres rectæ proportionales sint, prima ad tertiam duplam rationem habere dicitur ejus quam ad secundam; ΒΓ igitur ad ΒΗ duplam rationem habet ejus quam ΒΓ ad ΕΖ. Ut autem ΒΓ ad ΒΗ ita ΑΒΓ triangulum ad ΑΒΗ triangulum; et ΑΒΓ igitur triangulum ad ΑΒΗ duplam rationem habet ejus quam ΒΓ ad ΕΖ. Æquale autem ΑΒΗ
+
+Prenons une troisième proportionnelle ΒΗ aux droites ΒΓ, ΕΖ, de manière que ΒΓ soit à ΕΖ comme ΕΖ est à ΒΗ; et joignons ΗΑ (11. 6).
+
+Puisque ΑΒ est à ΒΓ comme ΔΕ est à ΕΖ, par permutation, ΑΒ est à ΔΕ comme ΒΓ est à ΕΖ (16. 6). Mais ΒΓ est à ΕΖ comme ΕΖ est à ΒΗ; donc ΑΒ est à ΔΕ comme ΕΖ est à ΒΗ (11. 5); donc les côtés des triangles ΑΒΗ, ΔΕΖ, autour des angles égaux, sont réciproquement proportionnels. Mais deux triangles sont égaux entr’eux lorsqu’ils ont un angle égal à un angle, et les côtés autour des angles égaux, réciproquement proportionnels (15. 6); donc le triangle ΑΒΗ est égal au triangle ΔΕΖ. Et puisque ΒΓ est à ΕΖ comme ΕΖ est à ΒΗ, et que lorsque trois droites sont proportionnelles, la première est dite avoir avec la troisième une raison double de celle que la première a avec la seconde (10. 5), la droite ΒΓ a avec la droite ΒΗ une raison double de celle que ΒΓ a avec ΕΖ. Mais ΒΓ est à ΒΗ comme le triangle ΑΒΓ est au triangle ΑΒΗ (déf. 1. 6); donc le triangle ΑΒΓ a avec le triangle ΑΒΗ une raison double

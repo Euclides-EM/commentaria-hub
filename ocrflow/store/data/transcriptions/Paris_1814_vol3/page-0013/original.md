@@ -1,0 +1,5 @@
+EΥΚΛΕΙΔΟΥ ΤΑ ΣΩΖΟΜΕΝΑ.
+
+*EUCLIDIS QUÆ SUPERSUNT.*
+
+LES OEUVRES D'EUCLIDE.

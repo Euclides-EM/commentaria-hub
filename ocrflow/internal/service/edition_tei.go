@@ -21,7 +21,7 @@ func NewEditionTEI(fileSysMgt *filesys.Manager, editionSvc *Edition) *EditionTEI
 	}
 }
 
-func (t *EditionTEI) GetTEI(editionID string, pageNum int) ([]byte, error) {
+func (t *EditionTEI) GetTEI(editionID string, volume *int, pageNum int) ([]byte, error) {
 	edition, err := t.editionSvc.GetEditionByID(editionID)
 	if err != nil {
 		return nil, err
@@ -30,7 +30,7 @@ func (t *EditionTEI) GetTEI(editionID string, pageNum int) ([]byte, error) {
 		return nil, fmt.Errorf("%w: edition with key %s does not exist", ErrEditionNotFound, editionID)
 	}
 
-	tei, err := t.getTEI(edition, pageNum)
+	tei, err := t.getTEI(edition, volume, pageNum)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get TEI for edition %s: %v", editionID, err)
 	}
@@ -43,23 +43,23 @@ func (t *EditionTEI) GetTEI(editionID string, pageNum int) ([]byte, error) {
 	return xml, nil
 }
 
-func (t *EditionTEI) getTEI(edition *model.Edition, pageNum int) (*model2.TEI, error) {
+func (t *EditionTEI) getTEI(edition *model.Edition, volume *int, pageNum int) (*model2.TEI, error) {
 	pageKey := fmt.Sprintf("%d", pageNum)
-	if files, err := t.fileSysMgt.ListEditionTranscriptionFiles(edition.Key, pageNum); err == nil {
+	if files, err := t.fileSysMgt.ListEditionTranscriptionFiles(edition.Key, volume, pageNum); err == nil {
 		return buildTEIFromTranscriptionFiles(pageKey, files, nil, "", model.EditionToBiblFull(edition))
 	}
 
-	a, _, err := t.fileSysMgt.RetrieveEditionAltoPage(edition.Key, pageNum)
+	a, _, err := t.fileSysMgt.RetrieveEditionAltoPage(edition.Key, volume, pageNum)
 	if err == nil {
 		return tei2.BuildTEIFromALTO(pageKey, a, nil, "", model.EditionToBiblFull(edition))
 	}
 
-	markdown, err := t.fileSysMgt.RetrieveEditionMarkdownPage(edition.Key, pageNum)
+	markdown, err := t.fileSysMgt.RetrieveEditionMarkdownPage(edition.Key, volume, pageNum)
 	if err == nil {
 		return tei2.BuildTEIFromMarkdown(pageKey, markdown, model.EditionToBiblFull(edition))
 	}
 
-	lines, translations, err := t.fileSysMgt.RetrieveEditionTXTPage(edition.Key, pageKey)
+	lines, translations, err := t.fileSysMgt.RetrieveEditionTXTPage(edition.Key, volume, pageKey)
 	if err != nil {
 		return nil, fmt.Errorf("failed to retrieve TXT page for edition %s: %v", edition.Key, err)
 	}

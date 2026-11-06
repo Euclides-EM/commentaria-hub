@@ -1,0 +1,14 @@
+<!-- Page number: 74 -->
+<!-- Running title: LE NEUVIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+Εἰ γὰρ δυνατὸν, μετρείσθω ὑπὸ τοῦ Ε, καὶ ὁ Ε μηδενὶ τῶν Α, Β, Γ ἔστω ὁ αὐτός· φανερὸν δὴ ὅτι ὁ Ε πρῶτος οὐκ ἔστιν. Εἰ γὰρ ὁ Ε πρῶτός ἐστι καὶ μετρεῖ τὸν Δ, καὶ τὸν Α μετρήσει πρῶτον ὄντα, μὴ ὢν αὐτῷ ὁ αὐτὸς, ὅπερ ἐστὶν ἀδύνατον· οὐκ ἄρα ὁ Ε πρῶτός ἐστι· σύνθετος ἄρα· πᾶς³ δὲ σύνθετος ἀριθμὸς ὑπὸ πρώτου τινὸς ἀριθμοῦ μετρεῖται· ὁ Ε ἄρα ὑπὸ πρώτου τινὸς ἀριθμοῦ μετρεῖται⁴. Λέγω δὴ ὅτι ὑπ᾽ οὐδενὸς ἄλλου μετρηθήσεται⁵, πλὴν τοῦ Α. Εἰ γὰρ ὑφ᾽ ἑτέρου μετρεῖται ὁ Ε, ὁ δὲ Ε τὸν Δ μετρεῖ·
+
+Si enim possibile, mensuretur ab ipso Ε, et ipse Ε cum nullo ipsorum Α, Β, Γ sit idem; evidens est autem Ε primum non esse. Si enim Ε primus est, et metitur ipsum Δ, et ipsum Α metietur primum existentem, non existens cum ipso idem, quod est impossibile; non igitur Ε primus est; ergo compositus; omnis autem compositus numerus a primo aliquo numero mensuratur; ergo Ε a primo aliquo numero mensuratur. Dico etiam ipsum a nullo alio numero mensuratum iri, nisi ab ipso Α. Si enim ab alio mensu-
+
+[Diagram: Ι. Α, 5. Β, 25. Γ, 125. Δ, 625. Lignes Ε, Θ, Η, Ζ]
+
+κἀκεῖνος ἄρα τὸν Δ μετρήσει· ὥς τε καὶ τὸν Α μετρήσει πρῶτον ὄντα, μὴ ὢν αὐτῷ ὁ αὐτὸς, ὅπερ ἐστὶν ἀδύνατον· ὁ Α ἄρα τὸν Ε μετρεῖ. Καὶ ἐπεὶ ὁ Ε τὸν Δ μετρεῖ, μετρείτω αὐτὸν κατὰ τὸν Ζ. Λέγω ὅτι ὁ Ζ οὐδενὶ τῶν Α, Β, Γ ἐστὶν ὁ αὐτός. Εἰ γὰρ ὁ Ζ ἑνὶ τῶν Α, Β, Γ ἐστὶν ὁ αὐτὸς, καὶ μετρεῖ τὸν Δ κατὰ τὸν Ε· καὶ εἷς ἄρα τῶν Α, Β, Γ τὸν Δ μετρεῖ κατὰ τὸν Ε.
+
+ratur ipse Ε, sed Ε ipsum Δ metitur; et ille igitur ipsum Δ metietur; quare et ipsum Α metietur primum existentem, non existens cum ipso idem, quod est impossibile; ergo Α ipsum Ε metitur. Et quoniam Ε ipsum Δ metitur, metiatur ipsum per Ζ. Dico Ζ cum nullo ipsorum Α, Β, Γ esse eumdem. Si enim Ζ cum uno ipsorum Α, Β, Γ est idem, et metitur ipsum Δ per Ε; et unus igitur ipsorum Α, Β, Γ ipsum Δ metitur
+
+Car si cela est possible, que Ε mesure Δ, et que Ε ne soit aucun des nombres Α, Β, Γ; il est évident que Ε n'est pas un nombre premier. Car si Ε est un nombre premier, et s'il mesure Δ, il mesurera Α, qui est un nombre premier, Ε n'étant pas le même que Α (12. 9), ce qui est impossible; donc Ε n'est pas un nombre premier; il est donc composé. Mais tout nombre composé est mesuré par quelque nombre premier (33. 7); donc Ε est mesuré par quelque nombre premier. Je dis qu'aucun autre nombre premier ne le mesurera, si ce n'est Α. Car si Ε, qui mesure Δ, est mesuré par un autre nombre, cet autre nombre mesurera Δ; il mesurera donc Α, qui est un nombre premier, cet autre n'étant pas le même que Α (12. 9); ce qui est impossible. Donc Α mesure Ε. Et puisque Ε mesure Δ, qu'il le mesure par Ζ; je dis que Ζ n'est aucun des nombres Α, Β, Γ. Car si Ζ est le même qu'un des nombres Α, Β, Γ, et s'il mesure Δ par Ε, un des nombres Α, Β, Γ

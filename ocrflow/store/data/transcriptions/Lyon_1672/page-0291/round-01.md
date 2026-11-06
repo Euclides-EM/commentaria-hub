@@ -1,6 +1,0 @@
-<!-- Page number: 276 -->
-<!-- Running title: Liure ſixieſme -->
-
-*propoſées, l'vne de douze pieds, l'autre de 6 nous diſons que la raiſon de la premiere à la ſeconde eſt double, parce que le nombre de deux denote que la premiere grandeur eſt à l'égard de la ſeconde, que deux eſt à l'égard d'vn. Que ſi l'on propoſoit ces deux quantitez 4. & 12. nous appellerions cette propoſition ſoubtriple; car le trois ſignifie que la raiſon de 4. à 12. eſt la meſme que celle d'vn tiers d'vne vnité à l'vnité: Or quand il y a pluſieurs raiſons continuées par exemple 12. 6. 2. le denominateur de la raiſon de 12. à 6. qui eſt double; c'eſt 2. & le denominateur de la raiſon de 6. à 2. qui eſt triple c'eſt 3. pour ſçauoir le denomiteur{printer-error-correction:denominateur} de la raiſon de 12. à 2. compoſée de celle de 12. à 6. & de celle de 6 à 2. multipliez les denominateur 2. & 3. & vous aurez 6. denominateur de la raiſon de 12. à 2. qui eſt ſextuple, compoſée de la double & de la triple, auſſi pouuons-nous dire qu'elle eſt deux fois triple, ou trois fois double. Quand donc nous diſons qu'vne raiſon eſt compoſée d'autres raiſons, nous n'entendons autre choſe, ſi ce n'eſt que ſon denominateur, à eſté produit par la mul*
-
-<!-- Catchword: tiplica -->

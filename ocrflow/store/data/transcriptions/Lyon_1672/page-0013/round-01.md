@@ -1,5 +1,0 @@
-## ERRATA.
-
-{dropcap:P|lines=2|style=plain}Age 11. ligne 11. ſe remue ſoubs la. liſez ſe remue ſur la. p.11.l.24. l'vne à l'autre l. l'vn à l'autre. p.13.l.6. à cette ſeconde l. cette ſeconde, p.13. l.13. des quantitez. l. les quantitez. p. 14.l.12. adiouſte liſez adiuſte. p.16.l.2.diſtinctes par tout; ou. l. diſtantes par tout or. p.18. l.11 au ſecond l. en ſecond p. 21. l. 1. dans ces. liſez de ces p.21. l. 14. AB, eſgales l. AB, puiſque elles ſont eſgales p.25. l. 11. de plus des coſtés. l. de plus les coſtez p.25. l.15. ABC, ACD. l. ABE, ACD. p.28.l.9. ABC,DEG, l. ABC DEF.p.32 l.7. BAG l. BAC. p.36. l.4. ſur la ligne AE. l.comme fait la ligne AE,p.38.l.22.au poinct e. l. au poinct c. p.41. l. 20. au triangle liſ. dans le triangle ADC. p.45.l.6.les coſtez BE BD, l. les coſtes BE, ED, p. 50. l.21. l'angle ABA l.l'angle A ſoit p.51.l.10.l'angle A l. l'angle AcB p. 51. l. 14. l'angle cAB l. le triangle cAB. p.58. l.27. les coſtez CD. l. les coſtez CE. p. 68. l.4. le coſté formé &c. l.le coſté AD. p.74. l.13. or entre l. & entre p. 75. l. 18. or entre
-
-<!-- Catchword: l. & -->

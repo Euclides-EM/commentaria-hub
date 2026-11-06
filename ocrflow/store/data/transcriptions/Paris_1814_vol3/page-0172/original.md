@@ -1,0 +1,8 @@
+<!-- Page number: 138 -->
+<!-- Running title: LE DOUZIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+ἐπίπεδον δίχα τμηθήσεται ὑπὸ τοῦ ΣΤΥ ἐπιπέδου. Καὶ εἰσὶν ἴσαι αἱ ἀπὸ τῶν Η, Θ κάθετοι ἐπὶ τὰ ΑΒΓ, ΔΕΖ ἐπίπεδα· ἴσαι ἄρα καὶ αἱ⁴ ἀπὸ τῶν ΟΜΝ, ΣΤΥ τριγώνων ἐπὶ τὰ ΑΒΓ, ΔΕΖ κάθετοι· ἰσοϋψῆ ἄρα ἐστὶ⁵ τὰ πρίσματα, ὧν βάσεις μέν εἰσι τὰ ΛΞΓ, ΡΦΖ τρίγωνα, ἀπεναντίον δὲ τὰ ΟΜΝ, ΣΤΥ· ὥστε καὶ τὰ στερεὰ παραλληλεπίπεδα, τὰ ἀπὸ τῶν εἰρημένων πρισμάτων ἀναγραφόμενα, ἰσοϋψῆ τυγχάνον⁶, πρὸς ἄλληλά ἐστιν⁷ ὡς αἱ βάσεις· καὶ τὰ ἡμίση ἄρα ἐστὶν⁸, ὡς ἡ ΛΞΓ βάσις πρὸς τὴν ΡΦΖ βάσιν οὕτως τὰ εἰρημένα πρίσματα πρὸς ἄλληλα. Ὅπερ ἔδει δεῖξαι.
+
+plano ΣΤΥ. Et sunt æquales a punctis Η, Θ perpendiculares ad ΑΒΓ, ΔΕΖ plana; æquales igitur ipsæ a triangulis ΟΜΝ, ΣΤΥ ad ipsa ΑΒΓ, ΔΕΖ perpendiculares; æquealta igitur sunt prismata, quorum bases quidem sunt ΛΞΓ, ΡΦΖ triangula, opposita autem ipsa ΟΜΝ, ΣΤΥ; quare et solida parallelepipeda a dictis prismatibus descripta, et æquealta, inter se sunt ut bases; et dimidia igitur sunt ut ΛΞΓ basis ad ΡΦΖ basim ita dicta prismata inter se. Quod oportebat ostendere.
+
+perpendiculaires menées des points Η, Θ aux plans ΑΒΓ, ΔΕΖ sont égales entr'elles; les perpendiculaires menées des triangles ΟΜΝ, ΣΤΥ aux triangles ΑΒΓ, ΔΕΖ sont donc égales entr'elles; les prismes qui ont pour bases les triangles ΛΞΓ, ΡΦΖ opposés à ΟΜΝ, ΣΤΥ sont donc égaux en hauteur; les parallélépipèdes composés des prismes égaux en hauteur, dont nous venons de parler, sont donc entr'eux comme leurs bases (32. 11), et il en sera de même de leurs moitiés, c'est-à-dire que les bases ΛΞΓ, ΡΦΖ seront entr'elles comme les prismes dont nous avons parlé. Ce qu'il fallait démontrer.

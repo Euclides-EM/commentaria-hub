@@ -1,0 +1,10 @@
+<!-- Running title: LE SIXIÈME LIVRE DES ÉLÉMENTS D’EUCLIDE. -->
+<!-- Page number: 305 -->
+
+ΔΖ οὕτως ἡ ΗΔ πρὸς τὴν ΔΖ· ἴση ἄρα ἡ ΕΔ τῇ ΔΗ, καὶ κοινὴ ἡ ΔΖ· δύο δὴ αἱ ΕΔ, ΔΖ δυσὶ ταῖς ΗΔ, ΔΖ ἴσαι εἰσὶ, καὶ γωνία ἡ ὑπὸ ΕΔΖ γωνίᾳ τῇ ὑπὸ ΗΔΖ ἴση. βάσις ἄρα ἡ ΕΖ βάσει τῇ ΖΗ ἐστὶν ἴση, καὶ τὸ ΔΕΖ τρίγωνον τῷ ΔΗΖ τριγώνῳ ἴσον ἐστὶ, καὶ αἱ λοιπαὶ γωνίαι ταῖς λοιπαῖς γωνίαις ἴσαι ἔσονται, ὑφ’ ἃς αἱ ἴσαι πλευραὶ ὑποτείνουσιν· ἴση ἄρα ἐστὶν ἡ μὲν ὑπὸ ΔΖΗ τῇ ὑπὸ ΔΖΕ, ἡ δὲ ὑπὸ ΔΗΖ τῇ ὑπὸ ΔΕΖ. Ἀλλ’ ἡ ὑπὸ ΔΖΗ τῇ ὑπὸ ΑΓΒ ἐστὶν ἴση, καὶ ἡ ὑπὸ ΑΓΒ ἄρα τῇ ὑπὸ ΔΖΕ ἐστὶν ἴση. Ὑπόκειται δὲ καὶ ἡ ὑπὸ ΒΑΓ τῇ ὑπὸ ΕΔΖ ἴση, καὶ λοιπὴ ἄρα ἡ πρὸς τῷ Β λοιπῇ τῇ πρὸς τῷ Ε ἴση ἐστίν· ἰσογώνιον ἄρα ἐστὶ τὸ ΑΒΓ τρίγωνον τῷ ΔΕΖ τριγώνῳ. Ἐὰν ἄρα δύο τρίγωνα, καὶ τὰ ἑξῆς.
+
+æqualis igitur ΕΔ ipsi ΔΗ, et communis ΔΖ; duæ igitur ΕΔ, ΔΖ duabus ΗΔ, ΔΖ æquales sunt, et angulus ΕΔΖ angulo ΗΔΖ æqualis; basis igitur ΕΖ basi ΖΗ est æqualis, et ΔΕΖ triangulum ipsi ΔΗΖ triangulo æquale est, et reliqui anguli reliquis angulis æquales erunt, quos æqualia latera subtendunt; æqualis igitur est ΔΖΗ quidem ipsi ΔΖΕ, ipse vero ΔΗΖ ipsi ΔΕΖ. Sed ipse ΔΖΗ ipsi ΑΓΒ est æqualis, et ΑΓΒ igitur ipsi ΔΖΕ est æqualis. Ponitur autem et ΒΑΓ ipsi ΕΔΖ æqualis; et reliquus igitur ad Β reliquo ad Ε æqualis est; æquiangulum igitur est ΑΒΓ triangulum ipsi ΔΕΖ triangulo. Si igitur duo triangula, etc.
+
+est à ΔΖ (11. 5); donc ΕΔ est égal à ΔΗ (9. 5); mais ΔΖ est commun; donc les deux droites ΕΔ, ΔΖ sont égales aux deux droites ΗΔ, ΔΖ; mais l’angle ΕΔΖ est égal à l’angle ΗΔΖ; donc la base ΕΖ est égale à la base ΖΗ (4. 1); donc le triangle ΔΕΖ est égal au triangle ΔΗΖ, et les autres angles seront égaux aux autres angles, savoir, ceux qui sont soutendus par des côtés égaux; donc l’angle ΔΖΗ est égal à l’angle ΔΖΕ, et l’angle ΔΗΖ égal à l’angle ΔΕΖ. Mais l’angle ΔΖΗ est égal à l’angle ΑΓΒ; donc l’angle ΑΓΒ est égal à ΔΖΕ. Mais l’angle ΒΑΓ est supposé égal à l’angle ΕΔΖ; donc l’angle restant en Β est égal à l’angle restant en Ε (32. 1); donc les triangles ΑΒΓ, ΔΕΖ sont équiangles. Donc, etc.
+
+<!-- Signature: 39 -->

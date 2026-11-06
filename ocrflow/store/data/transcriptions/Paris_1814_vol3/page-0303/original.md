@@ -1,0 +1,14 @@
+<!-- Page number: 269 -->
+<!-- Running title: LE TREIZIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+τῆς ΚΗ, περιενεχθὲν τὸ ἡμικύκλιον εἰς τὸ αὐτὸ πάλιν¹⁰ ἀποκατασταθῇ ὅθεν ἤρξατο φέρεσθαι, ἔσται σφαίρᾳ περιειλημμένος ὁ κύβος. Λέγω δὴ ὅτι καὶ τῇ δοθείσῃ. Ἐπεὶ γὰρ ἴση ἐστὶν ἡ ΗΖ τῇ ΖΕ, καὶ ἔστιν ὀρθὴ ἡ πρὸς τὸ Ζ γωνία· τὸ ἄρα ἀπὸ τῆς ΓΗ διπλάσιόν ἐστι τοῦ ἀπὸ τῆς ΕΖ. Ἴση δὲ ἡ ΕΖ τῇ ΕΚ· τὸ ἄρα ἀπὸ τῆς ΕΗ διπλάσιόν ἐστι τοῦ ἀπὸ τῆς ΕΚ· ὥστε τὰ ἀπὸ τῶν ΗΕ, ΕΚ, τουτέστι τὸ ἀπὸ τῆς ΗΚ, τριπλάσιόν ἐστι τοῦ ἀπὸ τῆς ΕΚ. Καὶ ἐπεὶ τριπλασίων ἐστὶν ἡ ΑΒ τῆς ΒΓ, ὡς δὲ ἡ ΑΒ πρὸς τὴν ΒΓ οὕτως τὸ ἀπὸ τῆς ΑΒ πρὸς τὸ ἀπὸ τῆς ΒΔ· τριπλάσιον ἄρα τὸ ἀπὸ τῆς ΑΒ τοῦ ἀπὸ τῆς ΒΔ. Ἐδείχθη δὲ καὶ τὸ ἀπὸ τῆς ΗΚ τοῦ ἀπὸ τῆς ΚΕ τριπλάσιον. Καὶ κεῖται ἴση ἡ ΚΕ τῇ ΕΔ¹¹· ἴση ἄρα καὶ ἡ ΚΗ τῇ ΑΒ. Καὶ ἔστιν ἡ ΑΒ τῆς δοθείσης σφαίρας διάμετρος· καὶ ἡ ΚΗ ἄρα ἴση ἐστὶ τῇ τῆς δοθείσης σφαίρας διαμέτρῳ.
+
+Τῇ δοθείσῃ¹² ἄρα σφαίρᾳ περιείληπται ὁ κύβος· καὶ συναποδέδεικται ὅτι ἡ τῆς σφαίρας διάμετρος δυνάμει τριπλασίων ἐστὶ τῆς τοῦ κύβου πλευρᾶς. Ὅπερ ἔδει ποιῆσαι.
+
+ΚΗ, conversus semicirculus in eumdem rursus locum restituatur a quo cœpit moveri, erit sphærâ comprehensus cubus. Dico etiam et datâ. Quoniam enim æqualis est ΗΖ ipsi ΖΕ, et est rectus ad Ζ angulus; ipsum igitur ex ΓΗ duplum est ipsius ex ΕΖ. Æqualis autem ΕΖ ipsi ΕΚ; ipsum igitur ex ΕΗ duplum est ipsius ex ΕΚ; quare ipsa ex ΗΕ, ΕΚ, hoc est ipsum ex ΗΚ, triplum est ipsius ex ΕΚ. Et quoniam tripla est ΑΒ ipsius ΒΓ, ut autem ΑΒ ad ΒΓ ita ipsum ex ΑΒ ad ipsum ex ΒΔ; triplum igitur ipsum ex ΑΒ ipsius ex ΒΔ. Ostensum est autem et ipsum ex ΗΚ ipsius ex ΚΕ triplum. Et posita est æqualis ΚΕ ipsi ΕΔ; æqualis igitur et ΚΗ ipsi ΑΒ. Et est ΑΒ datæ sphæræ diameter; et ΚΗ igitur æqualis est datæ sphæræ diametro.
+
+Datâ igitur sphærâ comprehensus est cubus; et simul demonstratum est sphæræ diametrum potentiâ triplam esse lateris cubi. Quod oportebat facere.
+
+qu'il soit revenu au même endroit d'où il avait commencé à se mouvoir, le cube sera circonscrit par une sphère. Je dis à présent que le cube sera circonscrit par la sphère donnée. Car puisque ΗΖ est égal à ΖΕ, et que l'angle est droit en Ζ; le quarré de ΓΗ sera double du quarré de ΕΖ (47. 1). Mais ΕΖ est égal à ΕΚ; le quarré de ΕΗ est donc double du quarré de ΕΚ; la somme des quarrés des droites ΗΕ, ΕΚ, c'est-à-dire le quarré de ΗΚ, est donc triple du quarré de ΕΚ. Et puisque ΑΒ est triple de ΒΓ, et que ΑΒ est à ΒΓ comme le quarré de ΑΒ est au quarré de ΒΔ (8, et 26. 6); le quarré de ΑΒ sera triple du quarré de ΒΔ. Mais on a démontré que le quarré de ΗΚ est triple du quarré de ΚΕ, et l'on a fait ΚΕ égal à ΒΔ; la droite ΚΗ est donc égale à ΑΒ. Mais ΑΒ est le diamètre de la sphère donnée; la droite ΚΗ est donc égale au diamètre de la sphère donnée.
+
+On a donc circonscrit le cube par la sphère donnée, et l'on a démontré, en même temps, que le quarré du diamètre de la sphère est triple du quarré du côté du cube. Ce qu'il fallait faire.

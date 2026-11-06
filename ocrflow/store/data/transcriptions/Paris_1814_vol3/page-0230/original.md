@@ -1,0 +1,14 @@
+<!-- Page number: 196 -->
+<!-- Running title: LE DOUZIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+συσταθήσεταί τι σχῆμα πολύεδρον ἐγγεγραμμένον¹³ εἰς τὴν σφαῖραν ἐκ πυραμίδων συγκείμενον ὧν βάσεις μὲν¹⁴ τὰ εἰρημένα τετράπλευρα καὶ τὸ ΥΡΞ τρίγωνον καὶ τὰ ὁμοταγῆ αὐτοῖς, κορυφὴ δὲ τὸ Α σημεῖον.
+
+Λέγω δὴ ὅτι τὸ εἰρημένον πολύεδρον οὐκ ἐφάψεται¹⁵ τῆς ἐλάσσονος σφαίρας, κατὰ τὴν ἐπιφάνειαν, ἐφ' ἧς ἐστιν ὁ ΖΗΘ κύκλος. Ἤχθω ἀπὸ τοῦ Α σημείου ἐπὶ τὸ τοῦ ΚΒΟΣ τετραπλεύρου ἐπίπεδον κάθετος ἡ ΑΨ, καὶ συμβαλλέτω τῷ ἐπιπέδῳ κατὰ τὸ Ψ σημεῖον, καὶ ἐπεζεύχθωσαν αἱ ΒΨ, ΨΟ. Καὶ ἐπεὶ ἡ ΑΨ ὀρθή ἐστι πρὸς τὸ τοῦ ΚΒΟΣ τετραπλεύρου ἐπίπεδον, καὶ πρὸς πάσας ἄρα τὰς ἁπτομένας αὐτῆς εὐθείας καὶ οὔσας ἐν τῷ τοῦ τετραπλεύρου ἐπιπέδῳ ὀρθή ἐστιν ἡ ΑΨ¹⁶, ἡ ΑΨ ἄρα ὀρθή ἐστι πρὸς ἑκατέραν¹⁷ τῶν ΒΨ, ΨΟ. Καὶ ἐπεὶ ἴση ἐστὶν ἡ ΑΒ τῇ ΑΟ, ἴσον ἐστὶ¹⁸ καὶ τὸ ἀπὸ τῆς ΑΒ τῷ ἀπὸ τῆς¹⁹ ΑΟ. Καὶ ἔστι τῷ μὲν ἀπὸ τῆς ΑΒ ἴσα τὰ ἀπὸ τῶν ΑΨ, ΨΒ, ὀρθὴ γὰρ ἡ πρὸς τῷ Ψ, τῷ δὲ ἀπὸ τῆς ΑΟ ἴσα τὰ ἀπὸ τῶν ΑΨ, ΨΟ· τὰ ἄρα ἀπὸ τῶν ΑΨ, ΨΒ ἴσα ἐστὶ τοῖς ἀπὸ τῶν ΑΨ,
+
+dra descripta in sphærâ ex pyramidibus compositâ, quarum bases quidem dicta quadrilatera et ΥΡΞ triangulum, et quæ sunt ejusdem ordinis cum ipsis, vertex autem punctum Α.
+
+Dico etiam dictum polyedrum non tacturum esse minorem sphæram, secundum superficiem in quâ est ΖΗΘ circulus. Ducatur a puncto Α ad ΚΒΟΣ quadrilateri planum perpendicularis ΑΨ, et ipsa occurrat plano in puncto Ψ, et jungantur ipsæ ΒΨ, ΨΟ. Et quoniam ΑΨ recta est ad ΚΒΟΣ quadrilateri planum, et ad omnes igitur rectas eam tangentes, et existentes in quadrilateri plano, perpendicularis est ipsa ΑΨ; ergo ΑΨ perpendicularis est ad utramque ipsarum ΒΨ, ΨΟ. Et quoniam æqualis est ΑΒ ipsi ΑΟ, æquale est et quadratum ex ΑΒ quadrato ex ΑΟ. Et sunt quadrato quidem ex ΑΒ æqualia quadrata ex ΑΨ, ΨΒ, rectus enim angulus ad Ψ, quadrato autem ex ΑΟ æqualia quadrata ex ΑΨ, ΨΟ; quadrata igitur ex ΑΨ, ΨΒ æqualia
+
+sphère un certain polyèdre composé des pyramides qui ont pour bases les quadrilatères ΚΒΟΣ, ΣΟΠΤ, ΤΠΡΥ et le triangle ΥΡΞ, et les quadrilatères et les triangles du même ordre que ces quadrilatères et que ce triangle, le point Α étant le sommet commun de ces pyramides.
+
+Je dis que les faces de ce polyèdre ne toucheront point la plus petite sphère dans laquelle est le cercle ΖΗΘ. Du point Α menons la droite ΑΨ perpendiculaire au plan du quadrilatère ΚΒΟΣ (11. 11), que cette perpendiculaire rencontre ce plan au point Ψ, et joignons ΒΨ, ΨΟ. Puisque ΑΨ est perpendiculaire au plan du quadrilatère ΚΒΟΣ, la droite ΑΨ sera perpendiculaire à toutes les droites qui la rencontrent, et qui sont dans ce plan (déf. 3. 11); la droite ΑΨ est donc perpendiculaire à chacune des droites ΒΨ, ΨΟ. Mais ΑΒ est égal à ΑΟ; le quarré de ΑΒ est donc égal au quarré de ΑΟ. Mais les quarrés des droites ΑΨ, ΨΒ sont égaux au quarré de ΑΒ, et les quarrés de ΑΨ, ΨΟ sont égaux au quarré de ΑΟ (47. 1), car l'angle en Ψ est droit; les quarrés des droites ΑΨ, ΨΒ sont donc égaux aux quarrés

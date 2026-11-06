@@ -1,0 +1,6 @@
+<!-- Page number: 326 -->
+<!-- Running title: ELEMENS DE GEOMETRIE. -->
+
+même temps de la fecondité Divine, puis qu’il n’y a point de figure qui n’y puiſſe étre r’enfermée, & qu’il eſt imcomprehenſible. Quelques efforts qu’ayent fait les Geometres, ils n’ont pû, un cercle étant donné, aſſigner une ligne droite, égale à la circonference. Ce qui vient de ce qu’on ne peut concevoir dans un cercle aucune partie pour petite qu’elle ſoit, qui luy ſoit cõmune avec une ligne droite; car ſi cette partie eſt une ligne droite, les points dont elle eſt compoſée ne ſeront pas éloignez également du centre du cercle, ainſi elle n’eſt pas partie d’un cercle.
+
+Les moyens les plus exacts pour connoître le cercle, ſont les polygones qui luy ſont inſcrits & circonſcrits, car comme plus un polygone à de côtés, plus il approche du cercle, ainſi qu’il a été demontré, en prenant deux polygones z & x d’un nombre de côtés fort grand, dont l’un ſoit circonſcrit, & l’autre inſcrit, ſi on pouvoit connoître la raiſon que x inſcrit à avec le diametre du cercle, on connoîtroit une raiſon plus petite, mais de peu, que celle que le cercle a avec le diametre, & voyant celle que circonſcrit z a avec le diametre du même cercle, on connoîtroit une raiſon plus grande, mais de peu de choſe, que celle du même cercle avec le diametre

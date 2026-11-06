@@ -1,0 +1,3 @@
+fans nôtre expreſſe licence par écrit, ſous peine de confiſcation des exemplaires, & de mille livres d'amende. Permettons au ſieur ANDRE' PRALARD, Marchand Libraire à Paris, de faire imprimer & expoſer en vente un Livre intitulé, *Les Elemens de Geometrie, ou de la meſure du Corps, qui comprennens tout ce qu'Euclide en a enſeigné: Les plus belles Propoſitions d'Archimede & d'Analyſe*, Compoſé par le P. BERNARD LAMY, Prêtre de nôtre Congregation. Fait à S. Paul aux Bois le 24 Iuin 1684. A. L. DE SAINTE MARTHE.
+
+[Ornament: large engraved cul-de-lampe with mascaron, scrollwork, foliage and floral pendants]

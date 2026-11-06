@@ -1,0 +1,14 @@
+<!-- Page number: 216 -->
+<!-- Running title: LE DIXIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+συμμέτρους. Φανερὸν δὴ ὅτι ἡ ΑΓ¹ τῇ ΔΒ οὐκ ἔστιν ἡ αὐτή. Εἰ γὰρ δυνατὸν, ἔστω· ἔσται δὴ καὶ ἡ ΑΔ τῇ ΓΒ ἡ αὐτή· καὶ ἔσται ὡς ἡ ΑΓ πρὸς τὴν ΓΒ οὕτως ἡ ΒΔ πρὸς τὴν ΔΑ, καὶ ἔσται ἡ ΑΒ κατὰ τὸ αὐτὸ τμῆμα κατὰ τὸ Γ² διαιρέσει διαιρεθεῖσα καὶ κατὰ τὸ Δ, ὅπερ οὐκ ὑπόκειται· οὐκ ἄρα ἡ ΑΓ τῇ ΔΒ ἐστὶν ἡ αὐτή· διὰ δὴ τοῦτο καὶ τὰ Γ, Δ σημεῖα οὐκ
+
+mensurabiles. Evidens utique est ΑΓ cum ipsâ ΔΒ non esse eamdem. Si enim possibile, sit; erit igitur et ΑΔ cum ipsâ ΓΒ eadem; et erit ut ΑΓ ad ΓΒ ita ΒΔ ad ΔΑ, et erit ΑΒ in idem segmentum divisa in puncto Γ atque in puncto Δ, quod non supponitur; non igitur ΑΓ cum ipsâ ΔΒ est eadem; ob id igitur et Γ, Δ puncta non æqualiter distant
+
+[Diagram: horizontal line with endpoints Α and Β, and points Δ, Γ marked between them]
+
+ἴσον ἀπέχουσι τῆς διχοτομίας³· ᾧ ἄρα διαφέρει τὰ ἀπὸ τῶν ΑΓ, ΓΒ τῶν⁴ ἀπὸ τῶν ΑΔ, ΔΒ, τούτῳ διαφέρει καὶ τὸ δὶς ὑπὸ τῶν ΑΔ, ΔΒ τοῦ δὶς ὑπὸ τῶν ΑΓ, ΓΒ, διὰ τὸ καὶ τὰ ἀπὸ τῶν ΑΓ, ΓΒ μετὰ τοῦ δὶς ὑπὸ τῶν ΑΓ, ΓΒ καὶ τὰ ἀπὸ τῶν ΑΔ, ΔΒ μετὰ τοῦ δὶς ὑπὸ τῶν ΑΔ, ΔΒ ἴσα εἶναι τῷ ἀπὸ τῆς ΑΒ. Αλλὰ τὰ ἀπὸ τῶν ΑΓ, ΓΒ τῶν ἀπὸ τῶν ΑΔ, ΔΒ διαφέρει ῥητῷ, ῥητὰ γὰρ ἀμφότερα· καὶ τὸ δὶς ἄρα ὑπὸ τῶν ΑΔ, ΔΒ τοῦ δὶς ὑπὸ τῶν ΑΓ,
+
+à bipartitâ sectione; quo igitur differunt ex ΑΓ, ΓΒ quadrata à quadratis ex ΑΔ, ΔΒ, hoc differt et rectangulum bis sub ΑΔ, ΔΒ à rectangulo bis sub ΑΓ, ΓΒ, proptereà quòd et ex ΑΓ, ΓΒ quadrata cum rectangulo bis sub ΑΓ, ΓΒ et ex ΑΔ, ΔΒ quadrata cum rectangulo bis sub ΑΔ, ΔΒ æqualia sunt quadrato ex ΑΒ. Sed ex ΑΓ, ΓΒ quadrata à quadratis ex ΑΔ, ΔΒ differunt rationali, rationalia enim utraque; et rectangulum bis igitur sub ΑΔ, ΔΒ à rectangulo
+
+tionelles ΑΔ, ΔΒ ne soient commensurables qu'en puissance. Il est évident que ΑΓ n'est pas égal à ΔΒ. Car que cela soit, si c'est possible ; la droite ΑΔ sera alors égale à ΓΒ, la droite ΑΓ sera à la droite ΓΒ comme ΒΔ est à ΔΑ, et la droite ΑΒ sera coupée en segments égaux au point Δ qu'au point Γ, ce qui n'est pas supposé ; donc ΑΓ n'est pas égale à ΔΒ ; donc les points Γ, Δ ne sont pas également éloignés du point qui coupe ΑΒ en deux parties égales ; donc la différence de la somme des quarrés de ΑΓ et de ΒΓ, à la somme des quarrés de ΑΔ et de ΔΒ, est égale à la différence du double rectangle sous ΑΔ, ΔΒ, au double rectangle sous ΑΓ, ΓΒ ; parce que la somme des quarrés de ΑΓ et de ΓΒ avec le double rectangle sous ΑΓ, ΓΒ, et la somme des quarrés de ΑΔ et ΔΒ avec le double rectangle sous ΑΔ, ΔΒ, sont égales chacune au quarré de ΑΒ (4. 2). Mais la différence de la somme des quarrés de ΑΓ et de ΓΒ, à la somme des quarrés de ΑΔ et de ΔΒ, est une surface rationelle ; car ces deux sommes sont rationelles ; donc la différence du double rectangle sous ΑΔ, ΔΒ au double rectangle sous ΑΓ, ΓΒ est une surface
