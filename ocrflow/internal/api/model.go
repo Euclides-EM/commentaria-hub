@@ -43,7 +43,7 @@ func (h *Handlers) ListModels(r *http.Request) (any, error) {
 
 // TrainModel godoc
 // @Summary      Train a Model
-// @Description  Submits model training to the GPU farm.
+// @Description  Submits model training to the GPU farm. Set manual_run to generate a downloadable bundle for manual GPU farm submission instead of connecting over SSH.
 // @Tags         Models
 // @Accept       json
 // @Produce      json
