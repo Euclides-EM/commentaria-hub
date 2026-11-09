@@ -1,0 +1,15 @@
+<!-- Running title: Protheoria Marini -->
+
+elemētari prius ſimpl’ce lineā q̃ lineę ſpecies: & alia hmōi diffiniuiſſe uidetur.
+
+## ¶ Quęnam utilitas ex datorum tractatu caput ſecundum.
+
+¶ Cum forſitā quod præſentaneũ uſum ip̃m datũ diiudicatũ ſit: ſubſequẽs fuerit ipſius tractatus utilitatẽ p̄bere: eſt ſiq̃ de hoc ad aliud hactenus reductiōem. ad loci enim qui reſolutus eſt neceſſaria eſt admodũ huius cognitio. Quātam nāq̃ potentiā heāt in mathematicis diſciplinis: & aliis eiusdē generis ſicut perſpectiua & canonica locus reſolutus in aliis diffinite eſt: & q̃ demonſtrationis inuẽtio ipſa reſolutio: & q̃ ad inuentionẽ demonſtrationis ſimiliũ nobis cōfert. Et q̃ maius eſt reſolutiuā potentiā obtinere: q̃ plures particulares demonſtrationes h̄re.
+
+## ¶ Ad quam diſciplinam reducatur datorum tractatus caput. iii.
+
+¶ Ad omnes ſiquidẽ hmōi diſciplinas: cũ datorũ ſpeculatio utilis ſit: qñq̃dem ad reſolutionẽ plurimũ cōfert: oportunũ neutiq̃ fuerit ip̃am reduci ad aliquam unā diſciplinā dicere. Sed ad eā quę in uniuerſali mathematicā dĩr. ea ſiq̃dem eſt quę ſeſe hēt circa multitudines: tpa: & celeritates: hmōiq̃ oĩa: inq̃tũ iam circa rōnes: p̄portiones: & ubiq̃ medietates negociat̃. Hmōi ergo datorũ diſciplinari p̄ceptione utilima exiſtente: datorũ uolumen Euclides elaborauit: quem proprie & elemētare appellauerũt. Totius enim ferme mathematicæ diſciplinę elemēta: & tanq̃ introductoria ordinauit: ſicut geometriæ quidẽ totius in treſdecim uoluminibus: & aſtronomiæ in phænomenis: muſiceſq̃ & p̄ſpectiuæ ſimiliter elemēta prebuit. At dati tractatus in propoſito libro elementarẽ reſolutionem fecit. Geometricus enim exiſtens. ipſe uir diuiſim cōmunes ipſius dati rōnes propriè conglutinauit. Sicut in uniuersalibus rationibus fecit: ut in magnitudinibus eas p̄prie operatꝰ in q̃nto de plano uolumine. Coĩter qdẽ qd ſit datũ dictũ eſt. & ad quā diſciplinā reducatur. ac q̃ eius ſpeculatio utilima eſt. hiis iam q̃ dicta ſunt adiiciatur quoq̃ ipſius deſcriptio diſciplinæ. erit ea ſiquidẽ. ſicut ex p̄dictis eſt manifeſtũ datorũ p̄ceptio iuxta oẽm locũ. & eorũ quę eis eueniũt. p̄prie uero & ſicut ex propoſito uolumine dicat̃ eſſe methodus totius datorũ diſciplinę elemēta cōprehendens. hēbit aũt & ip̃a cōſequenter utilitatẽ & alia iuxta relationẽ ad ip̃um datũ. Diuiditur aũt ip̃m uolumen in dati ſpecies. & in primis. primũ ſegmentũ ea quę rōne data ſunt cōprehendit. ſecundum aũt ea qua poſitione. & demũ ea quę ſpecie. Simplex enim erat quę de magnitudine datis. diſſeminauit aũt & hæc particulatim in aliis. & maxime in hiis quæ ſpecie data ſunt. Orſus aũt eſt ab hiis quæ ratione & poſitione data ſunt. qñdoquidem ex hiis quæ ſpecie dantur conſtat. Aliterq̃ facta etiam ip̃ius libri diuiſio. in uniuersales magnitudines in lineas & plana. & cyclica theoremata: ſimili nāq̃ ordine & in diffinitionibus ſiue uoluminis ſuppoſitoibus uſus eſt. Secūtus aũt eſt modum doctrinę nō p̄ compoſitionẽ ſed p̄ reſolutionẽ. quẽadmodũ & Pappus ſatis in libri huius comentationibus demonſtrauit.
+
+¶ In Librum Datorũ Euclidis philoſophi platonici Marini philoſophi præſtantiſſimi Protheoriæ Finis.
+
+Bartho. Zamber. Veneto interprete.
