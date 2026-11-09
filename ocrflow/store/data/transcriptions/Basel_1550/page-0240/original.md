@@ -1,0 +1,15 @@
+<!-- Running title: LIBER QVINTVS. -->
+<!-- Page number: 225 -->
+
+## BREVIS INTERPRETATIO
+
+[Subhead]
+HVIVS QVINTI LIBRI, INCERTI AVTORIS.
+[/Subhead]
+
+Scopus huius quinti libri eſt is, ut tractetur de proportionib. Pertinet enim liber iſte & ad geometriã, ac arithmeticam & muſicã, omnesq́; alias quæ ſimpliciter mathematicæ diſciplinæ uocãtur. Etenim quę in ipſo traduntur, non geometricis ſolum contemplationibus cõueniũt, illisq́; propria exiſtũt, ſed & omnib. quę ſub mathematica ipſa cõprehenduntur, & ut prius dixi, diſciplinis. Sit igitur hic libri ſcopus. Cæterùm librũ ipſum cuiuſdã Eudoxi inuentũ eſſe aſſerunt, diſcipuli Platonis. Cũ igitur ſit ſcopus de proportionib. proportio aũt ſit rationũ quarundã habitudo: quę ſint illæ rationes, prius cognoſcendum erit neceſſariò. Oportet enim ſimpliciũ cognitionẽ præcedere, ꝙ de cõpoſitis dicatur aliquid. Itaq́; ſi quædam inter ſe cõparentur (ſumamus aũt duas magnitudines) illæ quidem Termini appellabũtur, tranſmutatio aũt ſiue trãſitus ab uno in alterũ, Interuallum dicitur. Cõparatio uerò alterius ad alterũ, Habitudo uocatur, quam ueteres Rationẽ nominauerũt. Collationem uerò huiuſcemodi rationis ad aliã rationẽ, quæ fit ſimilitudine quadã, aut eiuſcemodi habitudinem, appellarũt Proportionẽ, nõ perinde quaſi magnitudo illa cõparetũ, ſed ut illa ratio ad illã rationẽ: quæ deinde collatio, Rationis ratio dicitur. ut ſi duæ fuerint rectæ lineę, quarũ una alterius reſpectu duplam habeat rationem: quadratum quod ab ea linea eſt deſcriptum, quæ duplam rationem habet, quadruplã quoq́; rationẽ habebit, reſpectu uidelicet eius quadrati, quod ab altera eſt deſcriptũ, ſiquidẽ collatio habeatũ longioris lineæ ad breuiorẽ rectã. Quæ enim lõgitudine dupla ſunt: ea potẽtia quadrupla exiſtũt. Ratio igitur quadratorũ quadrupla exiſtens, duplæ rationis exiſtentiũ rectarũ dupla eſt. Talis aũt uocatũ Rationis ratio. Sed fuerit illa in quãtitate. duplex enim eſt ratio, una in dignitate, altera uerò quantitatis. ac dignioris quidẽ nulla ſpecies uidetur eſſe ad pręſentẽ uſum accommodata: huius uerò rationis, quæ ſecundũ quantitatẽ dicitur, ſpecies ſunt quinq́;. Alia enim ratio Multiplex appellatur: cuiuſmodi eſt 6 ad 3: alia Superparticularis, ut 4 ad 3: alia uerò Superpurtiens, ut 5 ad 3. atq́; hæ quidẽ ſunt Simplices, quarũ tamen omnium rationũ magis ſimplex eſt Multiplex. Reliquæ uerò duę ſpecies ex harũ naſcũtur cõpoſitione, Multiplex ſuperparticularis ſcilicet, ut 7 ad 3: & Multiplex ſuperpartiens, ut 8 ad 3.
+
+Sub rationes aũt uocãtur, cum minores maiorib. cõferuntur: Submultiplices, Subſuperparticulares, Subſuperpartiẽtes, & ſic deinceps. Sciendum aũt, diuidi hunc librũ in duas partes, et initiò quidẽ ſimpliciũ cõtinet doctrinã, hoc eſt, eam quę de multiplicib. tractat, deinde uniuerſaliora de omnib. rationib. tradũtur. Oportet enim, ut iã oſtẽſum eſt, in omni re ſimpliciũ doctrinã pręcedere. Si quis aũt cõſideret modũ diuiſionis, terminorum etiã diuiſio facta erit. Nã priores quidẽ, ſcilicet termini, Multiplices: qui autem deinceps ſequuntur uniuerſaliores, de omnibus rationibus.
+
+<!-- Signature: Ff -->
+<!-- Catchword: ΕΥΚΛΕΙΔΟΥ -->

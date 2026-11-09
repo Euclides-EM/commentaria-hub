@@ -1,0 +1,17 @@
+<!-- Running title: LIBER QVARTVS. -->
+<!-- Page number: 217 -->
+
+## ΠΡΟΤΑΣΙΣ ι.
+
+Ἰσοσκελὲς τρίγωνον συστήσασθαι, ἔχον ἑκατέραν τῶν πρὸς τῇ βάσει γωνιῶν διπλασίονα τῆς λοιπῆς.
+
+## PROPOSITIO X.
+
+Duum ęqualium laterum triangulum conſtituere,habens utrunq; eorum, qui ad baſim ſunt,angulorum,duplum reliqui.
+
+Sententia eſt propoſitionis,triangulũ iſoſceles, cuius uterq; angulorũ qui ab æqualibus lateribus ſubtenduntur,ad tertium reliquum duplus ſit,deſcribere.Ducatur igitur linea recta,longa uel breuis,ad placitum.hac recta deinde,ut quidem habet propoſitio ſecundi undecima, in duas portiones diuiſa,ex pũcto hoc, quod eſt communis terminus diuiſæ & portionis longioris, ſecundum interuallum rectæ datæ circulus deſcribatur.Hoc facto,longiori portioni,quæ nimirum eſt diametro circuli breuior, æqualis recta in circulo,per propoſitionem primam huius,coaptetur.Quòd ſi tandem extremitas huius, longiori portioni æqualis, altera cum centro & diuiſionis puncto duabus rectis lineis copuletur: propoſitioni ſatisfactum erit. Nam id demũ triangulum, cuius duo latera à centro uſq; ad circumferentiam continuata ſunt,erit quod quærebatur, cuius quidem demonſtratio ut ſequitur. Circa triangulũ partiale,cuius unus angulus ad cẽtrum ponitur, per propoſitionẽ 5 huius,circulus deſcribatur. Et quoniã tam quadrato longioris portionis ex ſtructura,uel propoſitione 11 ſecundi,quàm etiam quadrato rectę in circulo coaptatę, huic longiori portioni ęquali,rectangulum ſub prioris circuli ſemidiametro & breuiori eius portione compræhẽſum,ęquale eſt: longiori æqualis poſita recta linea, per propoſitionem 37 tertij,minorem circulum contingens erit. Et rurſus quoniã hæc recta circulum minorem contingit,à puncto item contactus alia quædã,eundem circulum ſecãs, ducta eſt,illa nimirum quæ in diametro ad punctũ diuiſionis terminatur: angulus igitur,quẽ hæ duæ rectæ cõtinent,partialis, angulo alterni ſegmẽti, qui ad centrum ponitur, ex propoſitione 32 tertij ęqualis erit. unde totalis poſtea, ſi partialis alter ex æquo his æqualibus adijciatur,duobus æqualis. Sed quia duobus his, ut trianguli huius partialis internis,angulus ille,qui in alio partiali ad diuiſionis punctum ponitur,externus,ex propoſitione 32 primi,eſt æqualis: & eidẽ externo ille totalis,ex communi quadam notitia,æqualis erit.Et quia etiam totalis,illi qui ſub diametro atq; circulum minorem tangente recta linea continetur,ex definitione circuli & priori parte propoſitionis quintæ primi,æqualis eſt: & qui ſub iſtis lineis continetur angulus, dicto externo æqualis erit. Tres igitur anguli inter ſe æquales, unum etiam triangulum partiale, cum duo ex æqualibus angulis in eo ſint poſiti, ex propoſitione 6 primi, Iſoſceles,hoc eſt duũm æqualium laterum erit. Sed quia uni eorum , coaptatæ ſcilicet in circulo lineæ, æqualis eſt, ex ſtructura, longior diuiſæ ſemidiametri portio , & alteri lateri hæc eadem longior portio æqualis erit : quare Iſoſceles, triangulum etiam partiale alterum. Hoc autem quia, ex propoſitione 5 primi, duos ad baſim angulos inter ſe æquales habet,& quia etiam illis æqualibus, angulus huius Iſoſcelis externus æqualis eſt,unde ſic ad utrunq;, ac per conſequens, ad eum qui ad centrum ponitur duplus; & illorum qui huic externo æquales ſunt, uterq;
+
+[Diagram: large circle with a smaller circle inside touching it, a vertical diameter segment, and chords forming isosceles triangles from the top of the large circle]
+
+<!-- Signature: Ee -->
+<!-- Catchword: ad eundem -->

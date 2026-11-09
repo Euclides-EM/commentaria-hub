@@ -8,9 +8,9 @@
 
 > Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job done. Need to train to improve. [LARGE FILE]  [OCR done]
 
-> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg done. Might need train to improve, i.e page 83.
+> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg done. Might need train to improve, i.e page 83. [OCR in progress]
 
-> Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - Seg job done. Need to train to improve. i.e page 45.
+> Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - Seg job done. Need to train to improve. i.e page 45. [OCR in progress]
 
 > Rome_1589_vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n - Seg done. Need to train to improve.
 
@@ -30,13 +30,71 @@
 
 # Run LLM Corrector
 
+## Rome_1589_vol1
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n
+
+559/945
+
+## Rome_1589_vol2
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6
+
+535/1063
+
+## Pisa_1658
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_469aie
+
+384/509
+
 ## Venice_1505
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726
 
-Skipped Kraken, running OCR: 210/447
+Skipped Kraken, running OCR with Codex: 448/477
 
 # Manual Curation
+
+## Cambridge_1655
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn
+
+Skipped Kraken, run OCR with Opus.
+
+- Requests: 127
+- Provider/model: Claude Code / Opus
+- Total cost: $26.20
+- Input tokens: 508
+- Cached tokens: 2,149,963
+- Cache creation tokens: 2,703,844
+- Output tokens: 206,737
+- Reasoning tokens: 0
+- Total tokens: 5,061,052
+- Read opportunities: 126
+- Cache read requests: 126
+- Cache misses after warmup: 0
+- Cache hit rate after warmup: 100%
+
+## Basel_1550
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj
+
+Skipped Kraken, run OCR with Opus.
+
+- Requests: 115 (24 + 91)
+- Provider/model: Claude Code / Opus
+- Total cost: $26.76
+- Input tokens: 460
+- Cached tokens: 1,993,059
+- Cache creation tokens: 2,517,095
+- Output tokens: 311,089
+- Reasoning tokens: 0
+- Total tokens: 4,832,703
+- Read opportunities: 113
+- Cache read requests: 113
+- Cache misses after warmup: 0
+- Cache hit rate after warmup: 100%
 
 ## Venice_1543
 
