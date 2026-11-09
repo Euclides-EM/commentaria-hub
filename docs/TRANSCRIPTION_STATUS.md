@@ -46,13 +46,27 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_469aie
 
 384/509
 
+
+# Manual Curation
+
 ## Venice_1505
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726
 
-Skipped Kraken, running OCR with Codex: 448/477
+Skipped Kraken, run OCR with Codex.
 
-# Manual Curation
+- Total requests: 310 (39 + 62 + 59 + 59 + 72 + 9)
+- Provider/model: Codex / GPT-5.6-Sol
+- Input tokens: 31,829,814
+- Cached tokens: 28,035,320
+- Cache creation tokens: 0
+- Output tokens: 1,480,030
+- Reasoning tokens: 0
+- Total tokens: 33,309,844
+- Read opportunities: 308
+- Cache read requests: 306
+- Cache misses after warmup: 2
+- Cache hit rate: 99.35%
 
 ## Cambridge_1655
 
