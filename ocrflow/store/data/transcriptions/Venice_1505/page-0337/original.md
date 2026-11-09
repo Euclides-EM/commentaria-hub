@@ -1,0 +1,17 @@
+<!-- Running title: Liber -->
+
+### ¶ Problema primum: propoſitio .xiij.
+
+{dropcap:P|lines=3|style=decorated|decoration="foliate ornament"}yramidem conſtituere: & data ſphæra comprehendere: & demonſtrare q; ipſius ſphæræ dimetiens potentia ſeſquialter eſt lateris ipſius pyramidis.
+
+[Diagram: triangular pyramid with apex k and base efg, centre h, and connecting lines]
+
+[Diagram: semicircle adb on diameter ab, with perpendicular cd and line ad]
+
+¶ Exponatur data ſphærę dimetiens.ab. ſeceturq; in.c.ſigno: ut.ac.ipſius.cb.dupla ſit. Deſcribaturq; ſup.ab.ſemicirculus.adb. exciteturq; per.xi.primi ab ipſo.c.ſigno ad angulos rectos.cd. & conectatur.da. exponaturq; circulus.efg.æquam habens eam q̃ ex centro ipſi.dc. Deſcribaturq; in ipſo.efg.circulo triangulũ æquilaterũ.efg. & accipiatur per primam tertii centrum circuli ſitq;.h.ſignũ: & connectatur.eh.hf. Et conſtituat̃ per.xii.xi.ab ipſo.h.ſigno ipſius.efg.circuli plano ad angulos rectos rectos.hk. & ponatur ipſa.hk.ipſi.ac.rectæ lineæ æqualis. & connectantur.ke.kf.kg. & quoniam.kh.recta eſt ad ipſius.efg.circuli planum & ad oẽs igitur ipſam tangẽtes rectas lineas & in eodem ipſius.efg.circuli plano rectos efficit angulos per ii.xi.diffinitionẽ. Tangit aut̃ ipſam unaq; ipſarũ.he.hf.hg. Igitur.hk.ad unã quanq; ipſarũ.he.hf.hg.recta eſt: & quoniã æqualis eſt.ac.ipſi.hk. &.cd.ipſi.he. de rectos comprehendunt angulos. Baſis igitur.da.per.iiij.primi.baſi.ke. eſt æqualis: & id propterea & unaq; ipſarũ.kf.kg.ipſi.da.eſt æqualis. Tres igit̃.ke.kf.kg.inuicem ſunt æquales: & q̃m dupla eſt.ac.ipſius.cb.tripla igitur eſt ab.ipſius.bc. ſicut aut̃.ab.ad.bc.ſic quod ex.ad.ad id qd ex.dc.ſicut oſtendẽ.
+
+Quoniã enim eſt ſicut.ba.ad.ac.ſic qd ex.da.ad id quod ex.ac. Conuertendo per correlariũ.xix.v.ſicut.ab.ad.bc.ſic quod ex.ad.ad id quod ex.ac. ſicut demõſtrabit. Triplũ igitur eſt quod ex.ad.eius quod ex.dc.eſt autẽ & quod ex.ſe.eius quod ex.eh.triplum: & æqualis eſt.dc.ipſi.eh. æqualis igit̃ eſt.da.ipſi.ef. Sed.da.utriq; ipſarũ.ke.kf.kg.oſtenſa eſt æqualis: æqlatera igit̃ ſunt ipſa quattuor triangula hoc eſt.efg.kef.kfg.kgh. pyramis igitur conſtruit ex quattuor triangulis æqualibus & æquilateris:cuius baſis eſt.efg.triangulũ faſtigiũ uero eſt ſignũ.k. Oportet iam ipſam data ſphæra comprehendere.oſtendere q; q; ipſius ſphærę diameter potẽtia lateris ipſius pyramidis ſeſquialter eſt. Extendatur enim in rectas lineas ipſius.kh.recta linea.kl. & ipſi.cb.æqualis ponatur.hl. & quoniã eſt ſicut.ac.ad.cd.ſic.cd.ad.cb. æqualis autem eſt ipſa q;dem.ac.ipſi.kh. &.cd.ipſi.he. &.cb.ipſi.hl. eſt igit̃ ſicut.kh.ad.he.ſic.eh.ad.hl. quod igitur ſub ipſis.kh.hl.æquũ eſt ei quod ex.eh. & rectus eſt uterq; ipſorum.khe.ehl.angulorũ igitur ſemicirculus deſcriptus ſuper.kl.ueniet & per h. Quoniã ſi conectamus.el. rectus fit qui ſub.lek.angulus eo quia triangulum.elk.utriq; ipſorũ.elh.ehk.triangulorũ æquiangulum ſit. Si iam manente.kl. circunducat̃ ſemicirculus & in idẽ unde duci cœpit rurſus ſteterit: ueniet & per ſigna.fg. conexis ipſis.fl.lg. & rectis ſimiliter factis eis qui ad.fg.angulis: pyramis data ſphæra cōprehenſa erit.
+
+[Diagram: faint sphere containing a triangular pyramid, with vertical axis through its centre]
+
+Igitur.kl.ipſius ſphæræ dimetiens. æqualis eſt datæ ſphæræ diametro: q̃m ipſi q̃dem.ac.æqualis ponit.kh. ipſi autẽ.cb.ipſa.hl. Dico iam q; ipſius ſphæræ dimetiens lateris ipſius pyramidis potẽcia ſeſquialter eſt. Quoniam & enim.dupla eſt.ac.ipſius.cb.tripla igitur eſt.ab.

@@ -1,0 +1,15 @@
+<!-- Running title: Tertiudecimus -->
+
+ſahedrum circũſcribitur:& q̃m decagoni quidem.lb.hexagoni aut̃.ml. Aeq̃lis enim eſt ipſi.kl.quoniam & ipſi.kh.æqualiter enim diſtant a cẽtro. Et utraq; ipſarum.hk.kl.dupla eſt ipſius.kc. Quinquanguli igitur eſt.mb. Quod autem pentagoni eſt & icoſahedri. Icoſahedri ergo eſt.mb. & q̃m.fb.ē latus cubi:ſecet̃ extrema & media rōne in.n.ſitq; maius ſegmentũ.nb. Igitur.nb.dodecahedri eſt latus:& q̃m oſtẽſum ē q; ipſius ſphæræ diameter potẽtia ē ſeſquialter ipſius.af.lateris pyramidis:ipſius aut̃.be.lateris octahedri potẽtia duplus:ipſius aut̃.fb.cubi potẽtia triplus:ipſius igitur ſpherę diameter ſex:ipſi9 aut̃ pyramidis latus q̃ttuor:octahedri uero latus triũ:cubi uero duorũ. Latus igitur ipſius pyramidis lateris octahedri potẽtia eſt epitritiũ. Cubi aut̃ lateris potẽtia eſt duplũ. Octahedri aut latus lateris cubi potẽtia eſt hemioſiũ. Ipſa q;dem igit̃ prædicta triũ figurarũ latera:hoc eſt pyramidis:& Octahedri & cubi adinuicẽ in rōnibus rōnalibus ſubſiſtũt. Reliqua uero duo & icoſahedri:& dodecahedri neq; adinuicẽ neq; ad prędicta in rationibus rationalibus exiſtunt:irrationalia ſunt etenim:hoc eſt minor & apotome.
+
+[Diagram]
+
+¶ Qd aut̃ maius ē icoſahedri latus.mb.dodecahedri latere.nb.ſic oſtendem9. Q̃m triãgulu.fdb.ipſi triãgulo.fab.æquiãgulu eſt:p̄portionale ē:ſicut.db.ad ba.ſic.bf.ad.ba.& q̃m tres rectę lineę p̄portionales ſunt:eſt igit̃ ſicut prima ad tertiā ſic qd ex prima ad id qd ex ſecũda. Eſt igit̃ ſicut.db.ad.ba.ſic quod ex db.ad id qd ex.bf. Rurſus igitur ſicut.ab.ad.bd.ſic qd ex.fb.ad id qd ex.bd. tripla aut̃ eſt.ab.ipſius.bd.triplu igitur quod ex.fb.eius qd ex.bd.ē aut̃ & qd ex.ad.eius quod ex.db.quadruplũ:dupla eni eſt.ad.ipſius.db.maius igitur ē quod hexãgulus:ſub q̃dratis tribus cubi angulus cõprehenditur:ſub q̃ttuor eſt ipoſſibile:erũt eni rurſus q̃ttuor recti:ſub pentagonis æqlateris:& æqangulis tribus dodecahedri. At ſub q̃ttuor ipoſſibile. Exiſtente nāq; quinquãguli æquilateri angulo recto:& q̃nto:erunt q̃ttuor anguli quattuor rectis minores:quod eſt ipoſſibile. Neq; ſub polygonis aliis figuris cõprehendet̃ ſolidus angulus:q̃m abſurdũ eẽt. Igit̃ p̃ter p̃dictas qnq; figuras alia figura ſolida nõ cõſtruet̃ ſub æqlateris & æquiãgulis cõprehenſa:quod erat oſtendendum.
+
+[Diagram]
+
+¶ Qd aut̃ æquilateri & æqanguli q̃nquanguli angulus rectus ē & q̃ntũ ſic oſtendũ. Sit nāq; quinquãgulũ æquilater9 & æquiangulũ.abcde. & circũſcribatur per.xiiii.iiii.ei circulus.abcde.& accipiāt per primā.iii.illius cẽtrũ ſitq;.f. Cõnectanturq;.fa.fb.fc.fd.fe.bifariā igitur ſecant ipſius pẽtagoni angulos ad ipſa.abcde.ſigna:& q̃m quinq; anguli qui ad.f.q̃ttuor rectis ſunt æquales:& ſunt æq̃les igitur unus ipſorũ ſicut qui ſub.afb.unius recti eſt quaſi quintũ reliqui igitur qui ſub.fab.abf.unius ſunt recti & quintu. Aequalis autẽ eſt qui ſub.fab.ei qui ſub.fbc.totus igitur qui ſub.abc.pentagoni angulus unius recti eſt & quintum:quod oſtendere oportuit.
+
+¶ Euclidis preſtantiſſimi mathematici elementorum Libri tertii decimi & ſolidorum tertii ex traditione Theonis Bartholameo Zamberto Veneto interprete. FINIS.
+
+<!-- Signature: X iii -->

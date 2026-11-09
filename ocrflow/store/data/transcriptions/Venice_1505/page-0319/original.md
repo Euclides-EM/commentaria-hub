@@ -1,0 +1,15 @@
+<!-- Running title: Liber -->
+
+[Diagram]
+
+planis:hoc eſt ipſis.ab.cd. Dico q̃ eſt ſicut.bg.cylindrus:ad.gd.cylindrum: ſic eſt.ek.axis ad.kf.axẽ. Extendantur axis.et.ex utraq; parte in.lm.ſigna:exponanturq; ipſi.ek.axi quilibet utcunq;.en.nl. ipſi autem.fk.quilibet utcunq;.fx.xm. & extendantur per.ln.xm.ſigna plana parallela.ab.cd. & intelligant̃ in ipſis per.lnxm.planis circũ centra.lnxm.circuli.op.rf.ty.qu.æquales ipſis.ab.cd. & intelligantur cylindri.pr.rb.dt.tu. & quoniã ipſi.ln.ne.ek.axes adinuicẽ ſunt æquales. ipſi igitur.pr.rb.bg.cylindri adinuicẽ ſunt ſicut baſes per.xi.xii. Baſes autẽ ſunt æquales. igitur &.pr.rb.bg.cylindri.ſunt æq̄les. Q̃m igit̃ .ln.ne.ek.axes adinuicẽ ſunt æquales ſicut baſes:baſes autẽ ſunt æquales æquales igitur ſunt &.pr.rb.bg.cylindri adinuicem. Quoniã igitur ipſi.ln.ne.ek.axes adinuicem ſunt æquales. Sunt autẽ & ipſi.pr.rb.bg.cylindri adinuicem æquales:& multitudo ipſorũ.ln.ne.ek.æqualis eſt multitudini ipſorũ.pr.rb.bg. quotuplex igitur eſt.kl.axis:ipſius.ek.axis. totuplex erit &.pg.cylindrus ipſius.bg.cylindri:& iam id propterea: quotuplex eſt.mk.axis ipſius.kf.axis. totuplex eſt & cylindrus.ug.ipſius.gd.cylindri: & ſi.kl.axis æqualis eſt ipſi.km.axi.æqualis eſt & cylindrus.pg.ipſi.gu.cylindro. Si autẽ axis.kl.maior eſt ipſo.km.axe.maior erit &.pg.cylindrus ipſo.gu.cylindro: & ſi minor:minor per.i.v. Quattuor iam exiſtentibus magnitudinibus:axibus q̃dem ek.kf.cylindris autẽ.bg.gd.accipiuntur per diffinitiõe.vi.v.æque multiplex ipſius q̃dem.ek.axis:&.bg.cylindri ipſe axis.kl.&.pg.cylindrus. Ipſius autẽ.kf.axis.&.gd.cylindri.km.axis.&.gu.cylindrus.& patet q̃ ſi.kl.axis excedit.km.axem.&.pg.cylindrus ipſum excedit.gu.cylindrum.& ſi æqualis:æqualis & ſi minor.minor. Eſt igitur ſicut.ek.axis ad.kf.axem:ſic.bg.cylindrus ad.gd.cylindrum quod oſtendere oportuit.
+
+### Interpres.
+
+¶ Campanus precedens theorema non recte eſt interpretatus.non habetur enim apud græcam lectionẽ in ipſo theoremate.q̃ cylindri axibus ſint proportionales. ſed q̃ eſt ſicut cylindrus ad cylindrum.ſic eſt axis ad axem.ſic etiã in duodecima propoſitione ait ſi duæ pyramides rotundæ. & unde obſecro is bonus uir ducat.aut ubi uiderit unq̃ pyramides rotundas. quid hoc eſt hominis.pyramides.rotundæ nuſq; gentiũ inueniunt̃.q; ſcia. Pyramides &.n.oẽs. p̃ter conos & ſint ſup̃ q̃cunq; baſi conſtitutæ in accutu inſurgetes deſinunt. & quo altius eriguntur tanto fortius latitudinem fugiunt & amittunt.quoad ſignum & faſtigiũ peruenerint.formam ignis imitantes unde ſumpſerunt nomen.qui ut omnes ſciunt in accutum ſemper ſeſe erigit.
+
+## Theorema .xiiii. propoſitio .xiiii.
+
+{dropcap:I|lines=3|style=decorated|decoration="foliate design"}N æqualibus baſibus exiſtentes coni & cylindri: adinuicem ſeſe habent:ſicut faſtigia.
+
+¶ Sint enim in æqualibꝰ baſibus.ab.cd.cylindri.fd.eb. Dico q̃ eſt ſicut cylindrus.eb.ad cylindrũ.fd.ſic eſt.gh.axis ad.kl.axem extendatur inq̃.kl.axis in.n.ſignũ.ponaturq; ipſi.gh.axi æqualis.ln. & circũ axem.ln.intelligatur cylindrus.cm. Quoniam igitur.eb.cm.cylindri.ſub eo
