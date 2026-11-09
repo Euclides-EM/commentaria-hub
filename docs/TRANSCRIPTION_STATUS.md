@@ -1,16 +1,14 @@
 # OCR Pipeline Queue
 
-> Pisa_1658 - https://euclides.huma-num.fr/hub/?datasetId=ds_469aie - LineDetect pending
-
 # Train to improve segmentation
 
-> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].
+> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE]. [OCR done]
 
-> Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job done. Need to train to improve. [LARGE FILE]
+> Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job done. Need to train to improve. [LARGE FILE]  [OCR done]
 
-> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg done. Might need train to improve, i.e page 83.
+> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg done. Might need train to improve, i.e page 83. [OCR in progress]
 
-> Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - Seg job done. Need to train to improve. i.e page 45.
+> Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - Seg job done. Need to train to improve. i.e page 45. [OCR in progress]
 
 > Rome_1589_vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n - Seg done. Need to train to improve.
 
@@ -30,7 +28,88 @@
 
 # Run LLM Corrector
 
+## Rome_1589_vol1
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n
+
+559/945
+
+## Rome_1589_vol2
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6
+
+535/1063
+
+## Pisa_1658
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_469aie
+
+384/509
+
+## Venice_1505
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726
+
+Skipped Kraken, running OCR with Codex: 448/477
+
 # Manual Curation
+
+## Cambridge_1655
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn
+
+Skipped Kraken, run OCR with Opus.
+
+- Requests: 127
+- Provider/model: Claude Code / Opus
+- Total cost: $26.20
+- Input tokens: 508
+- Cached tokens: 2,149,963
+- Cache creation tokens: 2,703,844
+- Output tokens: 206,737
+- Reasoning tokens: 0
+- Total tokens: 5,061,052
+- Read opportunities: 126
+- Cache read requests: 126
+- Cache misses after warmup: 0
+- Cache hit rate after warmup: 100%
+
+## Basel_1550
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj
+
+Skipped Kraken, run OCR with Opus.
+
+- Requests: 115 (24 + 91)
+- Provider/model: Claude Code / Opus
+- Total cost: $26.76
+- Input tokens: 460
+- Cached tokens: 1,993,059
+- Cache creation tokens: 2,517,095
+- Output tokens: 311,089
+- Reasoning tokens: 0
+- Total tokens: 4,832,703
+- Read opportunities: 113
+- Cache read requests: 113
+- Cache misses after warmup: 0
+- Cache hit rate after warmup: 100%
+
+## Venice_1543
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6
+
+Skipped Kraken, run OCR with Opus.
+
+- Requests: 493
+- Provider/model: Claude Code / Opus
+- Cost: $124.56
+- Input tokens: 1,986
+- Cached tokens: 8,654,905
+- Cache creation tokens: 10,334,316
+- Output tokens: 2,007,138
+- Reasoning tokens: 0
+- Total tokens: 20,998,345
+
 
 ## Würzburg_1661
 
@@ -52,32 +131,6 @@ Skipped Kraken, run OCR with Opus.
 - **Cache misses after warmup:** 0
 - **Average output per page:** 1,762 tokens
 - **Average output per request:** 4,777 tokens
-
-## Paris_1814_vol3
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
-http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
-
-Claude Code — Fable
-
-- **Requests:** 272
-- **Input tokens:** 1,232
-- **Cached tokens:** 8,616,382
-- **Cache creation tokens:** 4,925,131
-- **Output tokens:** 995,247
-- **Reasoning tokens:** 0
-- **Total tokens:** 14,537,992
-- **Cost:** $157.95
-
-Codex — GPT-5.6 Sol
-
-- **Requests:** 217
-- **Input tokens:** 10,714,810
-- **Cached tokens:** 8,366,592
-- **Cache creation tokens:** 0
-- **Output tokens:** 694,939
-- **Reasoning tokens:** 0
-- **Total tokens:** 11,409,749
 
 ## Rome_1574_vol2
 
@@ -148,6 +201,32 @@ Codex — GPT-5.6 Sol
 - **Output tokens:** 259,765
 - **Reasoning tokens:** 0
 - **Total tokens:** 4,662,340
+
+## Paris_1814_vol3
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_9s7hg3
+http://18.216.154.29:5180/hub/?datasetId=ds_9s7hg3&annotationId=ann_ia8s3w
+
+Claude Code — Fable
+
+- **Requests:** 272
+- **Input tokens:** 1,232
+- **Cached tokens:** 8,616,382
+- **Cache creation tokens:** 4,925,131
+- **Output tokens:** 995,247
+- **Reasoning tokens:** 0
+- **Total tokens:** 14,537,992
+- **Cost:** $157.95
+
+Codex — GPT-5.6 Sol
+
+- **Requests:** 217
+- **Input tokens:** 10,714,810
+- **Cached tokens:** 8,366,592
+- **Cache creation tokens:** 0
+- **Output tokens:** 694,939
+- **Reasoning tokens:** 0
+- **Total tokens:** 11,409,749
 
 ## Strasbourg_1566
 
