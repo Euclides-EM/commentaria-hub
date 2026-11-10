@@ -31,10 +31,11 @@ func (m *ModelTraining) Submit(training *model.ModelTraining) (*model.ModelTrain
 		return nil, err
 	}
 	return &model.ModelTraining{
-		Meta:   common.NewMeta(createdJob.ID).WithCreatedAt(createdJob.CreatedAt).WithUpdatedAt(createdJob.UpdatedAt),
-		Model:  createdJob.ModelTraining.Model,
-		Epochs: training.Epochs,
-		Status: model.ModelTrainingStatusSubmitted,
+		Meta:      common.NewMeta(createdJob.ID).WithCreatedAt(createdJob.CreatedAt).WithUpdatedAt(createdJob.UpdatedAt),
+		Model:     createdJob.ModelTraining.Model,
+		Epochs:    training.Epochs,
+		Status:    model.ModelTrainingStatusSubmitted,
+		ManualRun: training.ManualRun,
 		StatusDetails: map[string]string{
 			"job_id": createdJob.ID,
 		},
