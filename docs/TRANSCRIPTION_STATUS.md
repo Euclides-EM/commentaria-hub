@@ -32,20 +32,19 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n
 
-559/945
+637/945
 
 ## Rome_1589_vol2
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6
 
-535/1063
+589/1063
 
 ## Pisa_1658
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_469aie
 
-384/509
-
+438/509
 
 # Manual Curation
 
