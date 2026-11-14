@@ -1,0 +1,42 @@
+Edition,Provider,Recorded requests,Pages count,Count status,Count basis,Dataset ID,LLM rules in public annotations,Analysis date
+Antwerp_1654,OpenAI,37,37,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_9ni7al,0,2026-11-14
+Antwerp_1654,Fable,376,376,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_9ni7al,0,2026-11-14
+Basel_1537,Fable,,599,Estimated from completion,Full correction/transcription documented for this sole provider; using full facsimile count. Historical scan alignment may differ.,ds_yp3x8a,0,2026-11-14
+Basel_1562,OpenAI,174,174,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_emvd28,0,2026-11-14
+Basel_1562,Fable,39,39,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_emvd28,0,2026-11-14
+Glasgow_1756,OpenAI,401,323,Reported,Explicit page count in status document (Lyon_1557: logged second run only).,ds_ii8nbl,0,2026-11-14
+Glasgow_1756,Fable,108,108,Reported,Explicit page count in status document (Lyon_1557: logged second run only).,ds_ii8nbl,0,2026-11-14
+Kiel_and_Leipzig_1699,Fable,,413,Estimated from completion,Full correction/transcription documented for this sole provider; using full facsimile count. Historical scan alignment may differ.,ds_l2ztyi,0,2026-11-14
+London_1570,OpenAI,267,267,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_9lpdf8,0,2026-11-14
+London_1570,Fable,656,656,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_9lpdf8,0,2026-11-14
+Lyon_1557,Fable,,79,Reported,Explicit page count in status document (Lyon_1557: logged second run only).,ds_wqmfll,0,2026-11-14
+Lyon_1603,OpenAI,89,89,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_69jfii,0,2026-11-14
+Lyon_1672,OpenAI,108,108,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_71gygq,0,2026-11-14
+Lyon_1672,Fable,790,,Unresolved,Requests exceed facsimile pages; rounds/repeated-page coverage cannot be recovered from public history.,ds_71gygq,0,2026-11-14
+Nuremberg_1821,Fable,,72,Estimated from completion,Full correction/transcription documented for this sole provider; using full facsimile count. Historical scan alignment may differ.,ds_tjokpg,0,2026-11-14
+Oxford_1703,OpenAI,627,627,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_ej5frn,0,2026-11-14
+Oxford_1703,Fable,57,57,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_ej5frn,0,2026-11-14
+Paris_1566,OpenAI,246,246,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_sfmbfc,0,2026-11-14
+Paris_1566,Fable,234,234,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_sfmbfc,0,2026-11-14
+Paris_1615,OpenAI,,651,Estimated from completion,Full correction/transcription documented for this sole provider; using full facsimile count. Historical scan alignment may differ.,ds_57vh5j,0,2026-11-14
+Paris_1634,Fable,,1086,Estimated from completion,Full correction/transcription documented for this sole provider; using full facsimile count. Historical scan alignment may differ.,ds_w5j2g1,0,2026-11-14
+Paris_1639,Fable,,482,Estimated from completion,Full correction/transcription documented for this sole provider; using full facsimile count. Historical scan alignment may differ.,ds_lysuca,0,2026-11-14
+Paris_1667,Fable,,388,Reported,Explicit page count in status document (Lyon_1557: logged second run only).,ds_j0l55w,0,2026-11-14
+Paris_1685,Fable,388,388,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_fa95xr,0,2026-11-14
+Paris_1794,OpenAI,90,90,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_fcnxho,0,2026-11-14
+Paris_1814_vol1,OpenAI,380,380,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_mz3oph,0,2026-11-14
+Paris_1814_vol2,OpenAI,95,95,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_a2q3yy,0,2026-11-14
+Paris_1814_vol2,Fable,481,481,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_a2q3yy,0,2026-11-14
+Paris_1814_vol3,OpenAI,217,217,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_9s7hg3,0,2026-11-14
+Paris_1814_vol3,Fable,272,272,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_9s7hg3,0,2026-11-14
+Pesaro_1572,OpenAI,237,237,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_g17zx1,0,2026-11-14
+Pesaro_1572,Fable,248,248,Estimated,One successful request per page in default one-round page_by_page mode. Assumes no repeated pages across runs; skip-existing and provider overlap can explain non-reconciling totals.,ds_g17zx1,0,2026-11-14
+Rome_1574_vol1,OpenAI,19,19,Reported,Explicit page count in status document (Lyon_1557: logged second run only).,ds_0m73by,0,2026-11-14
+Rome_1574_vol1,Fable,,734,Reported,Explicit page count in status document (Lyon_1557: logged second run only).,ds_0m73by,0,2026-11-14
+Seville_1576,Fable,252,252,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_uwclpr,0,2026-11-14
+Strasbourg_1564,OpenAI,221,221,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_ypncw4,0,2026-11-14
+Strasbourg_1566,OpenAI,161,161,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_ilx0l7,0,2026-11-14
+Strasbourg_1566,Fable,60,60,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_ilx0l7,0,2026-11-14
+The_Hague_1758,OpenAI,28,28,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_9m13nh,0,2026-11-14
+The_Hague_1758,Fable,382,382,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_9m13nh,0,2026-11-14
+Venice_1482,Fable,284,284,Estimated,Request count with one-call-per-page assumption; counts reconcile to facsimile pages.,ds_6vegrr,0,2026-11-14
