@@ -3,7 +3,7 @@
 Updated: 2026-11-14.
 
 - 2026-10-18_costs.csv: original report, moved without changing its contents. Its original serialization contains literal backslash-r/backslash-n separators; the current CSV uses real CRLF line endings.
-- llm-curation-costs.csv: current analysis, 28 editions. The Analysis date column dates every row.
+- llm-curation-costs.csv: current analysis, 28 editions. Analysis dated 2026-11-14.
 
 Sources: ../docs/TRANSCRIPTION_STATUS.md; public Huma-Num dataset image metadata (uniqueOnly=true), retrieved 2026-11-14; https://developers.openai.com/api/docs/pricing (checked 2026-11-14).
 
@@ -45,3 +45,11 @@ Page-count API sources:
 - Strasbourg_1566: https://euclides.huma-num.fr/commentaria/api/v1/datasets/ds_ilx0l7/images?uniqueOnly=true
 - The_Hague_1758: https://euclides.huma-num.fr/commentaria/api/v1/datasets/ds_9m13nh/images?uniqueOnly=true
 - Venice_1482: https://euclides.huma-num.fr/commentaria/api/v1/datasets/ds_6vegrr/images?uniqueOnly=true
+
+## Edition list page counts
+
+The page-count columns in items_print_elements_or_selected_studies.csv were added on 2026-11-14. All 356 rows and the original 15 columns are preserved. Page counts include the complete PDF scans, including front matter and blank pages. Multi-volume counts are summed only when every identified/expected volume has a count. Alternative scans of a volume are not added together. The largest identified volume number is used alongside the existing volumes column, which understates some multi-volume editions.
+
+Sources: Huma-Num /commentaria/api/v1/datasets, /facsimilies, /shelfmarks, and /datasets/{id}/images?uniqueOnly=true. Open rights are checked against linked shelfmark copyright or the existing local facsimile manifest. For open PDFs without image datasets, counts are matched by exact PDF filename to https://raw.githubusercontent.com/Euclides-EM/elements-facsimile/refs/heads/main/page_counts.csv. Matching local PDFs are used when the filename and byte size match the server metadata; those rows identify this source explicitly. Huma-Num's PDF download endpoint requires authentication, so some counts remain unavailable.
+
+Results: 150 open rights not confirmed; 143 no hosted facsimile; 52 available; 10 page count unavailable; 1 incomplete volume coverage. Blank page counts are not zero. “Open rights not confirmed” means an edition has a hosted scan but the linked metadata does not establish an open scan. It does not establish that the scan is restricted.
