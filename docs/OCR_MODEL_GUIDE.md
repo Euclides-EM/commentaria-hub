@@ -18,3 +18,6 @@ This guide lists **Kraken models only**. The order shown is the recommended tria
 
 - CATMuS is the default Latin-script baseline and preserves `ſ`, historical `u/v` and `i/j`, and abbreviations.
 - `en_best` is only a control for diplomatic OCR: its alphabet lacks long `ſ`.
+
+## Notes:
+I found two additional German models, we might want to test them: [https://zenodo.org/records/7933402](https://zenodo.org/records/7933402), [https://zenodo.org/records/11046062](https://zenodo.org/records/11046062)
