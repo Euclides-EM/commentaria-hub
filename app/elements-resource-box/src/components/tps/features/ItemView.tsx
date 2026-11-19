@@ -12,9 +12,13 @@ import {
 } from "../../common.ts";
 import { openScan } from "../../../utils/dataUtils.ts";
 import { ItemModal } from "../modal/ItemModal.tsx";
-import { NO_EDITOR, NO_CITY, NO_YEAR } from "../../../constants";
+import { NO_CITY } from "../../../constants";
 import { joinArr, toItemImageUrl } from "../../../utils/util.ts";
 import styled from "@emotion/styled";
+import {
+  formatDisplayEditors,
+  formatDisplayYear,
+} from "../../../utils/itemDisplay.ts";
 
 const HighlightedText = lazy(() =>
   import("./HighlightedText.tsx").then((module) => ({
@@ -59,7 +63,7 @@ export const ItemView = memo(
     return (
       <Column id={item.key} style={{ height, width }} ref={itemRef}>
         <div style={{ zIndex: 11 }}>
-          {item.year || NO_YEAR} {joinArr(item.editors) || NO_EDITOR},{" "}
+          {formatDisplayYear(item)} {formatDisplayEditors(item)},{" "}
           {joinArr(item.cities) || NO_CITY}
           <LanguagesInfo>{joinArr(item.languages)}</LanguagesInfo>
         </div>

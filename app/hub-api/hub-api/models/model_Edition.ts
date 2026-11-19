@@ -34,9 +34,9 @@ export type model_Edition = {
     isManuscript?: boolean;
     key?: string;
     languages?: Array<string>;
-    manuscriptClass?: string;
-    manuscriptSubclass?: string;
+    manuscriptElementsContent?: string;
     manuscriptYearFrom?: number;
+    manuscriptYearIsApproximate?: boolean;
     manuscriptYearTo?: number;
     notes?: string;
     publisher?: Array<string>;
@@ -55,4 +55,3 @@ export type model_Edition = {
     wardhaughClassification?: string;
     year?: string;
 };
-

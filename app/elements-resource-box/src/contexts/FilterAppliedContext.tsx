@@ -1,24 +1,25 @@
 import React, {
   createContext,
   ReactNode,
+  useCallback,
   useContext,
   useMemo,
   useRef,
   useState,
-  useCallback,
 } from "react";
-import { Item, MAX_YEAR, MIN_YEAR } from "../types";
+import { Item, MAX_YEAR, MIN_YEAR, MIN_YEAR_MS } from "../types";
 import { FilterValue } from "../components/map/Filter";
 import { mapEditionsToItems } from "../utils/dataUtils";
 import {
-  FilterState,
   filterQueryParsers,
+  FilterState,
   getFilterStateSignature,
   mergeFilterQueryWithDefaults,
 } from "../utils/filterQueryState";
 import { useQueryStates } from "nuqs";
 import { useQuery } from "@tanstack/react-query";
 import { listAllEditions } from "../api/editionApi";
+import { inEuclidesMode } from "../utils/mode";
 
 export type { FilterState } from "../utils/filterQueryState";
 
@@ -64,6 +65,28 @@ export const useAppliedFilter = () => {
   return context;
 };
 
+const includesManuscripts = (
+  filters: Record<string, FilterValue[] | undefined>,
+  filtersInclude: Record<string, boolean>,
+) => {
+  const materialType = filters.materialType;
+  const include = filtersInclude.materialType ?? true;
+
+  if (!materialType || materialType.length === 0) {
+    return true;
+  }
+
+  const values = new Set(materialType.map((item) => item.value));
+  const hasManuscript = values.has("Manuscript");
+  const hasPrint = values.has("Print");
+
+  if (include) {
+    return hasManuscript;
+  }
+
+  return !hasPrint;
+};
+
 export const FilterAppliedProvider = ({
   children,
 }: {
@@ -77,14 +100,29 @@ export const FilterAppliedProvider = ({
     () => mapEditionsToItems(editionsQuery.data || []),
     [editionsQuery.data],
   );
-  const minYear = MIN_YEAR;
-  const maxYear = MAX_YEAR;
 
   const getDefaultState = useCallback((): FilterState => {
     return {
-      filters: {} as Record<string, FilterValue[] | undefined>,
+      filters: {
+        ...(inEuclidesMode()
+          ? {}
+          : {
+              materialType: [
+                {
+                  label: "Print",
+                  value: "Print",
+                },
+              ],
+            }),
+        type: [
+          {
+            label: "Elements",
+            value: "Elements",
+          },
+        ],
+      } as Record<string, FilterValue[] | undefined>,
       filtersInclude: {},
-      range: [minYear || 0, maxYear || 9999] as [number, number],
+      range: [MIN_YEAR, MAX_YEAR] as [number, number],
       includeUndated: true,
       textSearch: "",
       textSearchFields: [
@@ -94,7 +132,7 @@ export const FilterAppliedProvider = ({
         "titleEn",
       ] as (keyof Item)[],
     };
-  }, [minYear, maxYear]);
+  }, []);
   const [queryFilters, setQueryFilters] = useQueryStates(filterQueryParsers, {
     history: "replace",
   });
@@ -120,6 +158,15 @@ export const FilterAppliedProvider = ({
     };
   }
   const appliedFilters = stableAppliedFiltersRef.current.value;
+  const minYear = useMemo(
+    () =>
+      !inEuclidesMode() &&
+      includesManuscripts(appliedFilters.filters, appliedFilters.filtersInclude)
+        ? MIN_YEAR_MS
+        : MIN_YEAR,
+    [appliedFilters.filters, appliedFilters.filtersInclude],
+  );
+  const maxYear = MAX_YEAR;
 
   const [hasUnappliedChanges, setHasUnappliedChanges] = useState(false);
 

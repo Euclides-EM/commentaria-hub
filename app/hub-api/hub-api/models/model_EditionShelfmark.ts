@@ -11,6 +11,7 @@ export type model_EditionShelfmark = {
     frontispiece_img?: string;
     id?: string;
     note?: string;
+    repository?: string;
     scan?: string;
     shelfmark?: string;
     structural_metadata_available?: model_EditionShelfmarkStructuralMetadataAvailability;

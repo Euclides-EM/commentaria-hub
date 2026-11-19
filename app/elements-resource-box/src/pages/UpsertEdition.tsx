@@ -41,6 +41,16 @@ import { SubjectCategoriesNotice } from "../components/SubjectCategoriesNotice.t
 import { mapEditionsToItems } from "../utils/dataUtils.ts";
 
 type Locator = model_EditionLocator;
+type ShelfmarkFormData = {
+  volume: number | null;
+  scan: string | string[] | null;
+  shelfmark: string | null;
+  repository: string | null;
+  title_page_img: string | null;
+  frontispiece_img: string | null;
+  annotations: string | null;
+  copyright: string | null;
+};
 
 type EditionFormData = {
   key: string;
@@ -49,19 +59,12 @@ type EditionFormData = {
   cities: string[];
   notes: string;
   corpus: string[];
-  shelfmarks: {
+  shelfmarks: (ShelfmarkFormData & {
     id?: string;
-    volume: number | null;
-    scan: string | null;
-    shelfmark: string | null;
-    title_page_img: string | null;
-    frontispiece_img: string | null;
-    annotations: string | null;
-    copyright: string | null;
     transcriptionAvailable: model_EditionShelfmarkTranscriptionAvailability;
     structuralMetadataAvailable: model_EditionShelfmarkStructuralMetadataAvailability;
     note: string | null;
-  }[];
+  })[];
   verified: boolean;
   hasDiagrams: boolean | "";
   bibliography: string[];
@@ -80,8 +83,7 @@ type EditionFormData = {
   isManuscript: boolean;
   manuscriptYearFrom?: number;
   manuscriptYearTo?: number;
-  manuscriptClass?: string;
-  manuscriptSubclass?: string | null;
+  manuscriptYearIsApproximate?: boolean;
   year?: string | null;
   languages?: string[];
   editor?: string[];
@@ -99,12 +101,33 @@ type EditionFormData = {
   frontispiece_EN?: string | null;
   isElements: boolean;
   books?: number[];
+  manuscriptElementsContent?: string | null;
   additionalContent?: string[];
   subjectCategories: {
     category: string;
     classification: string;
   }[];
 };
+
+function serializeManuscriptScans(
+  scan: ShelfmarkFormData["scan"],
+): string | null {
+  if (Array.isArray(scan)) {
+    const values = scan.map((value) => value.trim()).filter(Boolean);
+    return values.length > 0 ? values.join(";") : null;
+  }
+  return scan ?? null;
+}
+
+function deserializeManuscriptScans(scan: string | null | undefined): string[] {
+  if (!scan) {
+    return [];
+  }
+  return scan
+    .split(";")
+    .map((value) => value.trim())
+    .filter(Boolean);
+}
 
 const formatFileSize = (bytes?: number): string => {
   if (!bytes || bytes <= 0) {
@@ -128,11 +151,18 @@ function toModelEdition(data: EditionFormData): EditionWithShelfmarks {
     corpus: data.corpus,
     shelfmarks: data.shelfmarks.map((s) => ({
       id: s.id,
-      volume: nullToUndef(s.volume),
-      scan: nullToUndef(s.scan),
+      volume: data.isManuscript ? undefined : nullToUndef(s.volume),
+      scan: data.isManuscript
+        ? nullToUndef(serializeManuscriptScans(s.scan))
+        : nullToUndef(typeof s.scan === "string" ? s.scan : null),
       shelfmark: nullToUndef(s.shelfmark),
-      title_page_img: nullToUndef(s.title_page_img),
-      frontispiece_img: nullToUndef(s.frontispiece_img),
+      repository: nullToUndef(s.repository),
+      title_page_img: data.isManuscript
+        ? undefined
+        : nullToUndef(s.title_page_img),
+      frontispiece_img: data.isManuscript
+        ? undefined
+        : nullToUndef(s.frontispiece_img),
       annotations: nullToUndef(s.annotations),
       copyright: nullToUndef(s.copyright),
       transcription_available: s.transcriptionAvailable,
@@ -177,8 +207,7 @@ function toModelEdition(data: EditionFormData): EditionWithShelfmarks {
     isManuscript: data.isManuscript,
     manuscriptYearFrom: data.manuscriptYearFrom,
     manuscriptYearTo: data.manuscriptYearTo,
-    manuscriptClass: data.manuscriptClass,
-    manuscriptSubclass: nullToUndef(data.manuscriptSubclass),
+    manuscriptYearIsApproximate: data.manuscriptYearIsApproximate,
     year: nullToUndef(data.year),
     languages: data.languages,
     editor: data.editor,
@@ -196,8 +225,9 @@ function toModelEdition(data: EditionFormData): EditionWithShelfmarks {
     frontispiece_EN: nullToUndef(data.frontispiece_EN),
     isElements: data.isElements,
     books: data.books,
+    manuscriptElementsContent: nullToUndef(data.manuscriptElementsContent),
     additionalContent: data.additionalContent,
-  };
+  } as model_Edition;
 }
 
 function toEditionFormData(
@@ -205,19 +235,25 @@ function toEditionFormData(
   key: string,
 ): EditionFormData {
   const isManuscript = Boolean(edition.isManuscript);
+  const editionWithManuscriptElementsContent = edition as model_Edition & {
+    manuscriptElementsContent?: string | null;
+  };
 
   return {
     key,
     shortTitle: edition.shortTitle || "",
     shortTitleSource: edition.shortTitleSource || "",
-    cities: isManuscript ? [] : edition.cities || [],
+    cities: edition.cities || [],
     notes: edition.notes || "",
     corpus: edition.corpus || [],
     shelfmarks: (edition.shelfmarks || []).map((s) => ({
       id: s.id,
       volume: s.volume ?? null,
-      scan: s.scan ?? null,
+      scan: isManuscript
+        ? deserializeManuscriptScans(s.scan)
+        : (s.scan ?? null),
       shelfmark: s.shelfmark ?? null,
+      repository: s.repository ?? null,
       title_page_img: s.title_page_img ?? null,
       frontispiece_img: s.frontispiece_img ?? null,
       annotations: s.annotations ?? null,
@@ -271,11 +307,18 @@ function toEditionFormData(
           isManuscript: true,
           manuscriptYearFrom: edition.manuscriptYearFrom || 0,
           manuscriptYearTo: edition.manuscriptYearTo || 0,
-          manuscriptClass: edition.manuscriptClass || "",
-          manuscriptSubclass: edition.manuscriptSubclass || null,
+          manuscriptYearIsApproximate: Boolean(
+            edition.manuscriptYearIsApproximate,
+          ),
+          languages: edition.languages || [],
+          editor: edition.editor || [],
+          title: edition.title || null,
+          title_EN: edition.title_EN || null,
         }
       : {
           isManuscript: false,
+          manuscriptYearIsApproximate: false,
+          manuscriptElementsContent: null,
           year: edition.year || "",
           languages: edition.languages || [],
           editor: edition.editor || [],
@@ -295,10 +338,20 @@ function toEditionFormData(
     ...(edition.isElements
       ? {
           isElements: true,
-          books: edition.books || [],
+          books: Array.isArray(edition.books)
+            ? edition.books.filter((value): value is number =>
+                Number.isFinite(value),
+              )
+            : [],
+          manuscriptElementsContent:
+            editionWithManuscriptElementsContent.manuscriptElementsContent ||
+            null,
           additionalContent: edition.additionalContent || [],
         }
-      : { isElements: false }),
+      : {
+          isElements: false,
+          manuscriptElementsContent: null,
+        }),
     subjectCategories: (edition.subjectCategories || []).map((entry) => ({
       category: entry.category || "",
       classification: entry.classification || "unknown",
@@ -886,6 +939,7 @@ const defaultValues = (): EditionFormData => ({
       volume: 1,
       scan: null,
       shelfmark: null,
+      repository: null,
       title_page_img: null,
       frontispiece_img: null,
       annotations: null,
@@ -898,6 +952,7 @@ const defaultValues = (): EditionFormData => ({
   verified: false,
   hasDiagrams: "",
   isManuscript: false,
+  manuscriptYearIsApproximate: false,
   year: "",
   languages: [],
   editor: [],
@@ -915,6 +970,7 @@ const defaultValues = (): EditionFormData => ({
   frontispiece_EN: null,
   isElements: false,
   books: [],
+  manuscriptElementsContent: null,
   additionalContent: [],
   subjectCategories: [],
   bibliography: [],
@@ -1017,6 +1073,12 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
     locatorTypes,
   };
 };
+
+const toSingleSelectOptions = (items: string[]) =>
+  items.map((item) => ({
+    value: item,
+    label: item,
+  }));
 
 function deepTrim<T>(input: T): T {
   if (typeof input === "string") {
@@ -1140,6 +1202,13 @@ export const UpsertEdition = () => {
       onBlur: ({ value }) => {
         return {
           fields: {
+            shelfmarks: value.isManuscript
+              ? !value.shelfmarks.length
+                ? "One source is required"
+                : value.shelfmarks.length !== 1
+                  ? "Exactly one source is allowed for manuscripts"
+                  : undefined
+              : undefined,
             manuscriptYearTo:
               value.isManuscript &&
               value.manuscriptYearFrom &&
@@ -1333,6 +1402,7 @@ export const UpsertEdition = () => {
             volume: 1,
             scan: url,
             shelfmark: null,
+            repository: null,
             title_page_img: null,
             frontispiece_img: null,
             annotations: null,
@@ -1635,26 +1705,144 @@ export const UpsertEdition = () => {
                   </FormField>
 
                   <FormField>
-                    <Label className="required">Manuscript Class</Label>
+                    <Label>Year Is Approximate</Label>
+                    <form.Field name="manuscriptYearIsApproximate">
+                      {(field) => (
+                        <Input
+                          type="checkbox"
+                          checked={Boolean(field.state.value)}
+                          onChange={(e) => field.handleChange(e.target.checked)}
+                          onBlur={field.handleBlur}
+                        />
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label>Composition City</Label>
                     <form.Field
-                      name="manuscriptClass"
+                      name="cities"
                       validators={{
                         onBlur: ({ value }) =>
-                          !value && "Manuscript class is required",
+                          value && value.some((v) => !v)
+                            ? "City names cannot be empty"
+                            : value && value.length > 1
+                              ? "Only one composition city is allowed"
+                              : undefined,
                       }}
                     >
                       {(field) => (
                         <>
-                          <Input
-                            type="text"
-                            value={field.state.value}
-                            onChange={(e) => field.handleChange(e.target.value)}
+                          <SingleSelect
+                            name="composition city"
+                            options={toSingleSelectOptions(lists?.cities || [])}
+                            value={field.state.value?.[0] || null}
                             onBlur={field.handleBlur}
+                            onChange={(value) =>
+                              field.handleChange(value ? [value as string] : [])
+                            }
+                            isCreatable={true}
+                            placeholder="Choose or add composition city..."
                           />
                           {!field.state.meta.isValid && (
                             <em>{field.state.meta.errors.join(",")}</em>
                           )}
                         </>
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label className="required">Languages</Label>
+                    <form.Field
+                      name="languages"
+                      validators={{
+                        onBlur: ({ value }) =>
+                          !value || value.length < 1
+                            ? "At least one language is required"
+                            : value.length !== uniq(value).length
+                              ? "Languages must be unique"
+                              : undefined,
+                      }}
+                    >
+                      {(field) => (
+                        <>
+                          <MultiSelect
+                            name="languages"
+                            options={LANGUAGES.map((lang) => lang)}
+                            value={field.state.value}
+                            onChange={(values) =>
+                              field.handleChange(values.map((v) => v))
+                            }
+                            onBlur={field.handleBlur}
+                            placeholder="Select languages used in the text..."
+                          />
+                          {!field.state.meta.isValid && (
+                            <em>{field.state.meta.errors.join(",")}</em>
+                          )}
+                        </>
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label>Compositors</Label>
+                    <form.Field
+                      name="editor"
+                      validators={{
+                        onBlur: ({ value }) =>
+                          value && value.length !== uniq(value).length
+                            ? "Compositors must be unique"
+                            : undefined,
+                      }}
+                    >
+                      {(field) => (
+                        <>
+                          <MultiSelect
+                            name="compositors"
+                            options={lists?.editors || []}
+                            value={field.state.value}
+                            onChange={(values) =>
+                              field.handleChange(values.map((v) => v))
+                            }
+                            onBlur={field.handleBlur}
+                            isCreatable={true}
+                            placeholder="Choose or add compositors..."
+                          />
+                          {!field.state.meta.isValid && (
+                            <em>{field.state.meta.errors.join(",")}</em>
+                          )}
+                        </>
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label>Long Title</Label>
+                    <form.Field name="title">
+                      {(field) => (
+                        <TextArea
+                          value={field.state.value || ""}
+                          onChange={(e) =>
+                            field.handleChange(e.target.value || null)
+                          }
+                          onBlur={field.handleBlur}
+                        />
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label>Long Title (English)</Label>
+                    <form.Field name="title_EN">
+                      {(field) => (
+                        <TextArea
+                          value={field.state.value || ""}
+                          onChange={(e) =>
+                            field.handleChange(e.target.value || null)
+                          }
+                          onBlur={field.handleBlur}
+                        />
                       )}
                     </form.Field>
                   </FormField>
@@ -2108,6 +2296,22 @@ export const UpsertEdition = () => {
                     </form.Field>
                   </FormField>
 
+                  {isManuscript && (
+                    <FormField>
+                      <Label>Manuscript Elements Content</Label>
+                      <form.Field name="manuscriptElementsContent">
+                        {(field) => (
+                          <TextArea
+                            value={field.state.value || ""}
+                            onChange={(e) => field.handleChange(e.target.value)}
+                            onBlur={field.handleBlur}
+                            placeholder="Optional manuscript-specific Elements content..."
+                          />
+                        )}
+                      </form.Field>
+                    </FormField>
+                  )}
+
                   <FormField>
                     <Label>Additional Content</Label>
                     <form.Field name="additionalContent">
@@ -2308,30 +2512,33 @@ export const UpsertEdition = () => {
                           {mappingCSVStatus && <em>{mappingCSVStatus}</em>}
                         </>
                       )}
-                      <button
-                        style={{
-                          padding: 4,
-                          width: "fit-content",
-                          cursor: "pointer",
-                        }}
-                        type="button"
-                        onClick={() =>
-                          field.pushValue({
-                            volume: 1,
-                            scan: null,
-                            shelfmark: null,
-                            title_page_img: null,
-                            frontispiece_img: null,
-                            annotations: null,
-                            copyright: null,
-                            transcriptionAvailable: "none",
-                            structuralMetadataAvailable: "none",
-                            note: null,
-                          })
-                        }
-                      >
-                        Add a source
-                      </button>
+                      {(!isManuscript || field.state.value.length === 0) && (
+                        <button
+                          style={{
+                            padding: 4,
+                            width: "fit-content",
+                            cursor: "pointer",
+                          }}
+                          type="button"
+                          onClick={() =>
+                            field.pushValue({
+                              volume: isManuscript ? null : 1,
+                              scan: isManuscript ? [] : null,
+                              shelfmark: null,
+                              repository: null,
+                              title_page_img: null,
+                              frontispiece_img: null,
+                              annotations: null,
+                              copyright: null,
+                              transcriptionAvailable: "none",
+                              structuralMetadataAvailable: "none",
+                              note: null,
+                            })
+                          }
+                        >
+                          Add a source
+                        </button>
+                      )}
 
                       {!field.state.meta.isValid && (
                         <em>{field.state.meta.errors.join(", ")}</em>
@@ -2339,31 +2546,154 @@ export const UpsertEdition = () => {
                     </FormField>
                     {field.state.value.map((_, i) => (
                       <FormField key={i} gap={0.5} bgColor="#D8ECFC">
-                        <FormField>
-                          <Label>Volume</Label>
-                          <form.Field name={`shelfmarks[${i}].volume`}>
-                            {(f) => (
-                              <Input
-                                type="number"
-                                defaultValue={1}
-                                value={f.state.value || ""}
-                                onChange={(e) =>
-                                  f.handleChange(e.target.valueAsNumber || null)
-                                }
-                                onBlur={f.handleBlur}
-                                placeholder="Volume"
-                              />
-                            )}
-                          </form.Field>
-                        </FormField>
+                        {!isManuscript && (
+                          <FormField>
+                            <Label>Volume</Label>
+                            <form.Field name={`shelfmarks[${i}].volume`}>
+                              {(f) => (
+                                <Input
+                                  type="number"
+                                  defaultValue={1}
+                                  value={f.state.value || ""}
+                                  onChange={(e) =>
+                                    f.handleChange(
+                                      e.target.valueAsNumber || null,
+                                    )
+                                  }
+                                  onBlur={f.handleBlur}
+                                  placeholder="Volume"
+                                />
+                              )}
+                            </form.Field>
+                          </FormField>
+                        )}
                         <FormField>
                           <Label>Facsimile URL</Label>
                           <form.Field
                             name={`shelfmarks[${i}].scan`}
                             validators={{
                               onBlur: ({ value }) =>
-                                value && !isValidUrl(value)
-                                  ? "Must be a valid URL"
+                                isManuscript
+                                  ? Array.isArray(value) &&
+                                    value.some((url) => url && !isValidUrl(url))
+                                    ? "All facsimile URLs must be valid"
+                                    : undefined
+                                  : value &&
+                                      typeof value === "string" &&
+                                      !isValidUrl(value)
+                                    ? "Must be a valid URL"
+                                    : undefined,
+                            }}
+                          >
+                            {(f) => (
+                              <>
+                                {isManuscript ? (
+                                  <>
+                                    <div
+                                      style={{
+                                        display: "flex",
+                                        flexDirection: "column",
+                                        gap: 8,
+                                      }}
+                                    >
+                                      {(Array.isArray(f.state.value)
+                                        ? f.state.value
+                                        : []
+                                      ).map((url, urlIndex) => (
+                                        <div
+                                          key={`${i}-scan-${urlIndex}`}
+                                          style={{
+                                            display: "flex",
+                                            gap: 8,
+                                            alignItems: "center",
+                                          }}
+                                        >
+                                          <Input
+                                            type="text"
+                                            value={url}
+                                            onChange={(e) => {
+                                              const next = Array.isArray(
+                                                f.state.value,
+                                              )
+                                                ? [...f.state.value]
+                                                : [];
+                                              next[urlIndex] =
+                                                e.target.value || "";
+                                              f.handleChange(next);
+                                            }}
+                                            onBlur={f.handleBlur}
+                                            placeholder="Facsimile URL"
+                                          />
+                                          <RemoveButton
+                                            type="button"
+                                            onClick={() => {
+                                              const next = Array.isArray(
+                                                f.state.value,
+                                              )
+                                                ? [...f.state.value]
+                                                : [];
+                                              next.splice(urlIndex, 1);
+                                              f.handleChange(next);
+                                            }}
+                                          >
+                                            Remove
+                                          </RemoveButton>
+                                        </div>
+                                      ))}
+                                    </div>
+                                    <button
+                                      type="button"
+                                      style={{
+                                        padding: 4,
+                                        width: "fit-content",
+                                        cursor: "pointer",
+                                      }}
+                                      onClick={() => {
+                                        const next = Array.isArray(
+                                          f.state.value,
+                                        )
+                                          ? [...f.state.value]
+                                          : [];
+                                        next.push("");
+                                        f.handleChange(next);
+                                      }}
+                                    >
+                                      Add URL
+                                    </button>
+                                  </>
+                                ) : (
+                                  <Input
+                                    type="text"
+                                    value={
+                                      typeof f.state.value === "string"
+                                        ? f.state.value
+                                        : ""
+                                    }
+                                    onChange={(e) =>
+                                      f.handleChange(e.target.value || null)
+                                    }
+                                    onBlur={f.handleBlur}
+                                    placeholder="Facsimile URL"
+                                  />
+                                )}
+                                {!f.state.meta.isValid && (
+                                  <em>{f.state.meta.errors.join(", ")}</em>
+                                )}
+                              </>
+                            )}
+                          </form.Field>
+                        </FormField>
+
+                        <FormField>
+                          <Label className={isManuscript ? "required" : ""}>
+                            Shelfmark
+                          </Label>
+                          <form.Field
+                            name={`shelfmarks[${i}].shelfmark`}
+                            validators={{
+                              onBlur: ({ value }) =>
+                                isManuscript && !value
+                                  ? "Shelfmark is required"
                                   : undefined,
                             }}
                           >
@@ -2376,7 +2706,7 @@ export const UpsertEdition = () => {
                                     f.handleChange(e.target.value || null)
                                   }
                                   onBlur={f.handleBlur}
-                                  placeholder="Facsimile URL"
+                                  placeholder="Shelfmark"
                                 />
                                 {!f.state.meta.isValid && (
                                   <em>{f.state.meta.errors.join(", ")}</em>
@@ -2513,45 +2843,66 @@ export const UpsertEdition = () => {
                         </FormField>
 
                         <FormField>
-                          <Label>Shelfmark</Label>
-                          <form.Field name={`shelfmarks[${i}].shelfmark`}>
+                          <Label className={isManuscript ? "required" : ""}>
+                            Repository
+                          </Label>
+                          <form.Field
+                            name={`shelfmarks[${i}].repository`}
+                            validators={{
+                              onBlur: ({ value }) =>
+                                isManuscript && !value
+                                  ? "Repository is required"
+                                  : undefined,
+                            }}
+                          >
                             {(f) => (
-                              <Input
-                                type="text"
-                                value={f.state.value || ""}
-                                onChange={(e) =>
-                                  f.handleChange(e.target.value || null)
-                                }
-                                onBlur={f.handleBlur}
-                                placeholder="Shelfmark"
-                              />
+                              <>
+                                <Input
+                                  type="text"
+                                  value={f.state.value || ""}
+                                  onChange={(e) =>
+                                    f.handleChange(e.target.value || null)
+                                  }
+                                  onBlur={f.handleBlur}
+                                  placeholder="Repository"
+                                />
+                                {!f.state.meta.isValid && (
+                                  <em>{f.state.meta.errors.join(", ")}</em>
+                                )}
+                              </>
                             )}
                           </form.Field>
                         </FormField>
 
-                        <form.Field name={`shelfmarks[${i}].title_page_img`}>
-                          {(f) => (
-                            <ShelfmarkImageField
-                              label="Title Page Image"
-                              value={f.state.value}
-                              onChange={f.handleChange}
-                              images={images}
-                              setImages={setImages}
-                            />
-                          )}
-                        </form.Field>
+                        {!isManuscript && (
+                          <form.Field name={`shelfmarks[${i}].title_page_img`}>
+                            {(f) => (
+                              <ShelfmarkImageField
+                                label="Title Page Image"
+                                value={f.state.value}
+                                onChange={f.handleChange}
+                                images={images}
+                                setImages={setImages}
+                              />
+                            )}
+                          </form.Field>
+                        )}
 
-                        <form.Field name={`shelfmarks[${i}].frontispiece_img`}>
-                          {(f) => (
-                            <ShelfmarkImageField
-                              label="Frontispiece Image"
-                              value={f.state.value}
-                              onChange={f.handleChange}
-                              images={images}
-                              setImages={setImages}
-                            />
-                          )}
-                        </form.Field>
+                        {!isManuscript && (
+                          <form.Field
+                            name={`shelfmarks[${i}].frontispiece_img`}
+                          >
+                            {(f) => (
+                              <ShelfmarkImageField
+                                label="Frontispiece Image"
+                                value={f.state.value}
+                                onChange={f.handleChange}
+                                images={images}
+                                setImages={setImages}
+                              />
+                            )}
+                          </form.Field>
+                        )}
 
                         <FormField>
                           <Label>Annotations</Label>
@@ -2593,12 +2944,14 @@ export const UpsertEdition = () => {
                           </form.Field>
                         </FormField>
 
-                        <RemoveButton
-                          type="button"
-                          onClick={() => field.removeValue(i)}
-                        >
-                          Remove Source
-                        </RemoveButton>
+                        {(!isManuscript || field.state.value.length > 1) && (
+                          <RemoveButton
+                            type="button"
+                            onClick={() => field.removeValue(i)}
+                          >
+                            Remove Source
+                          </RemoveButton>
+                        )}
                       </FormField>
                     ))}
                   </>

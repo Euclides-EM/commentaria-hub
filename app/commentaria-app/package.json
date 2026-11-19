@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "euclides": "vite --mode euclides",
     "euclides:huma-num": "VITE_BACKEND_URL=https://euclides.huma-num.fr/commentaria vite",
     "build": "tsc -b && vite build",
     "build:euclides:huma-num": "VITE_BACKEND_URL=https://euclides.huma-num.fr/commentaria tsc -b && vite build",
