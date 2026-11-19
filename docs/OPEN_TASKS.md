@@ -11,7 +11,7 @@ We already integrated an LLM based subject classification of the editions, espec
 * Adapt the prompt if needed and conduct small experiments with limited number of editions, to test the adaptations.
 * Once we are satisfied, re-run the classifications on all of the editions to update the old classifications and classify the new editions.
 
-# Add manuscripts to the catalog
+# Add manuscripts to the catalog [IN PROGRESS: Liri]
 
 This is a request received from multiple scholars at CIRM, Oct 2026.
 
@@ -46,6 +46,7 @@ Currently, when the user searches for specific editor, author or publisher, ther
 * Add a name variation support to the frontend and backend that uses a CSV stored in [ocrflow/store/items_metadata](../ocrflow/store/items_metadata).
 * Add a pipeline that we can run and fills the variation mapping based on crawlers on identity repositories.
 * Add the relevant information as a skill and to AGENTS.md.
+* Some effort already made at https://github.com/Euclides-EM/commentaria-hub/pull/101
 
 # Detect and fix invalid diagram crops
 
@@ -175,11 +176,13 @@ This is a request received from Vincenzo, Oct 2026.
 
 Add an acknowledgment page that mentions the all the researchers and funding sources of the project, including scholars that contributed by sending catalogs, feedbacks, etc.
 
-# Add Spanish and British editions
+# Add Spanish and British editions [Reviewed, ready for action]
 
 This is a request received from Vincenzo, Oct 2026.
 
 A british scholar sent Vincenzo a list of Spanish and British editions to be added to the catalog (see email titled "Spanish anf British"). We need to both add them, and add the scholar's name to the acknowledgment page.
+
+Summary from the sources is at [this doc](https://docs.google.com/document/d/1o31L6fSTd4iv-RzofF5B-I3Sw-9Aum_7/edit?usp=sharing&ouid=107005912857829665978&rtpof=true&sd=true).
 
 # Add Scandinavian editions
 
