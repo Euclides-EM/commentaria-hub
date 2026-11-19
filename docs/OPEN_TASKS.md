@@ -176,11 +176,13 @@ This is a request received from Vincenzo, Oct 2026.
 
 Add an acknowledgment page that mentions the all the researchers and funding sources of the project, including scholars that contributed by sending catalogs, feedbacks, etc.
 
-# Add Spanish and British editions [IN PROGRESS: Liri]
+# Add Spanish and British editions [Reviewed, ready for action]
 
 This is a request received from Vincenzo, Oct 2026.
 
 A british scholar sent Vincenzo a list of Spanish and British editions to be added to the catalog (see email titled "Spanish anf British"). We need to both add them, and add the scholar's name to the acknowledgment page.
+
+Summary from the sources is at [this doc](https://docs.google.com/document/d/1o31L6fSTd4iv-RzofF5B-I3Sw-9Aum_7/edit?usp=sharing&ouid=107005912857829665978&rtpof=true&sd=true).
 
 # Add Scandinavian editions
 
