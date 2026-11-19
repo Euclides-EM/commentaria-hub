@@ -1,0 +1,44 @@
+<!-- Running title: Das III. Buch -->
+
+<!-- Page number: 164 -->
+
+[Curated heading level=2 type=propositions: Der XIX. Vortrag.]
+
+[Curated heading level=2 type=theorems: Das 17. Beweiß-Stück.]
+
+## Der XIX. Vortrag.
+
+## Das 17. Beweiß-Stück.
+
+Wenn in einem Kreyß von dem Rührdüpffel des Rührstrichs ein Senckstrich gezogen wird / so ist in solchem Strich des Kreyses Mitteldüpffel.
+
+### Gegebene.
+
+1. Kreyß cg
+2. Rührstrich ab
+3. Rührdüpffel c
+4. Senckstrich cd
+5. Auß deß Rührstriches Rührdüpffel in den Kreyß gezogen.
+
+### Begehrtes.
+
+Jn dem gezogenen Senckstrich cd ist des Kreyses cg Mitteldüpffel d.
+
+[Diagram: Kreis mit oben anliegendem Rührstrich ab und Rührdüpffel c; im Kreis der Senckstrich cd sowie punktierte Linie ce mit den Düpffeln d, e und g]
+
+### Vorbereitung.
+
+Wenn der Mitteldüpffel nicht in dem Senckstrich cd, so
+
+1. nehme man den Mitteldüpffel e.
+
+2. von diesem Mitteldüpffel e werde zu dem Rührdüpffel ein gerader Strich ec gezogen.
+
+### Beweiß.
+
+eca ∠ ∟ — n. 18. III.
+dca ∠ ∟ — n. 4. Gegeb.
+Dw. dca ∠ eca — n. 1 und 10. Gr. I.
+Welches unmüglich — n. 9. Gr. I.
+
+<!-- Catchword: Be- -->

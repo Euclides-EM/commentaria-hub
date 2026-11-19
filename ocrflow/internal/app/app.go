@@ -1,6 +1,7 @@
 package app
 
 import (
+	"context"
 	"database/sql"
 	"fmt"
 	"log"
@@ -8,19 +9,21 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/api"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/diagramcrops"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/migrations"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/service"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/gpufarm"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/api"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/config"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/diagramcrops"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/migrations"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/titlepage"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/service"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/cache"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/db"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/gpufarm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
+	"github.com/samber/lo"
 )
 
 type OCRFlowApp struct {
@@ -28,6 +31,7 @@ type OCRFlowApp struct {
 	DB     *sql.DB
 	Deps   *api.Dependencies
 	Router http.Handler
+	cancel context.CancelFunc
 }
 
 func NewOCRFlowApp() (*OCRFlowApp, error) {
@@ -40,7 +44,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("init mount proj to store: %w", err)
 	}
 	var sqlDB *sql.DB
-	bckSvc := service.NewBackup(env.DataDir(), env.ModelsDir(), env.ItemsMetadataStoreDir(), env.DBPath(), env.BackupDir(), env.RestoreDir(), env.RcloneRemoteName, env.BackupGDriveFolderID, env.BackupMaxToStore, func() error {
+	bckSvc := service.NewBackup(env.DataDir(), env.ModelsDir(), env.ItemsMetadataStoreDir(), env.DBPath(), env.BackupDir(), env.RestoreDir(), env.RcloneRemoteName, env.BackupGDriveFolderID, env.BackupLocalMaxToStore, env.BackupDriveMaxToStore, func() error {
 		log.Printf("shutting down app for backup/restore...")
 		if sqlDB != nil {
 			log.Printf("closing db connection for backup/restore...")
@@ -61,8 +65,11 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("handle restore if needed: %w", err)
 	}
 	log.Printf("finished app for backup/restore if needed")
+	if err := bckSvc.ApplyLocalRetention(); err != nil {
+		return nil, fmt.Errorf("apply local backup retention: %w", err)
+	}
 
-	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.ModelsDir(), env.DiagramsDir())
+	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.ModelsDir(), env.DiagramsDir(), env.DefaultModelsDir())
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
 	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow", env.OptionalMigrations())
 	if err != nil {
@@ -92,14 +99,35 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		filepath.Join(env.RootDir, "ocrflow", "store", "items_metadata"),
 		filepath.Join(env.RootDir, "ocrflow", "store", "data", titlepage.DatasetID, "imgs"),
 	)
-	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
+	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc, env.StoreDir)
 	logsSvc := service.NewLogsService(env.LogsSystemdUnit, env.LogsTailDefaultLines, env.LogsTailMaxLines)
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
-	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
-	editionSvc := service.NewEditionService(editionStore, facsimileStore)
+	if err := modelSvc.InitDefaultModels(); err != nil {
+		return nil, fmt.Errorf("init models: %w", err)
+	}
+	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
+	gpuFarmManualBundlesSvc := service.NewGPUFarmManualBundles(env.APIURL, env.GPUFarmManualBundleTTL)
+	bundleCleanupCtx, cancelBundleCleanup := context.WithCancel(context.Background())
+	gpuFarmManualBundlesSvc.StartCleanup(bundleCleanupCtx)
+	annotationDetectionRemoteSvc := service.NewAnnotationDetectionRemote(fileSystemManager, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc, gpuFarmManualBundlesSvc)
+	llmClient := llm.NewClient(env.OpenAIAPIKey, env.OllamaBaseURL, env.OllamaAuthToken)
+	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey, annotationDetectionRemoteSvc, annotationStore, datasetStore, llmClient)
+	editionSvc := service.NewEditionService(editionStore, facsimileStore, featureResultStore)
+	shelfmarkSvc := service.NewShelfmarkService(editionStore)
+	reprintSvc := service.NewReprintService(editionSvc)
 	facsimileSvc := service.NewFacsimileService(
 		facsimileStore,
+		func() ([]string, error) {
+			editions, err := editionSvc.ListAllEditions()
+			if err != nil {
+				return nil, err
+			}
+			return lo.Map(editions, func(ed *model.Edition, _ int) string {
+				return ed.Key
+			}), nil
+		},
+		shelfmarkSvc.ListAllShelfmarks,
 		env.FacsimilesPDFDir,
 		env.FacsimilesDiagramsPath,
 		env.DiagramsDir(),
@@ -115,6 +143,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		modelSvc,
 		datasetStore,
 		fileSystemManager,
+		llmClient,
 		env.GithubToken,
 		env.DatasetCreateMaxParallel,
 		env.DatasetCreateQueueWait,
@@ -123,17 +152,17 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureProperty := service.NewFeatureProperty()
 	featureSvc := service.NewFeature(featureStore, featureRevisionStore, featureProperty)
 	featureResultSvc := service.NewResult(featureResultStore, annotationStore, featureSvc, featureProperty)
-	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, featureResultSvc, fileSystemManager, annotationStore)
+	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, featureResultSvc, fileSystemManager, annotationStore, env.DisableAnnotationCache)
 	annotationGroupSvc := service.NewAnnotationGroupService(annotationSvc, annotationGroupStore)
 	editionTranscriptionSvc := service.NewEditionTranscription(editionPreferredTranscriptionStore, editionSvc, datasetSvc, annotationSvc)
 	metadataDetailsSvc := service.NewMetadataDetails()
-	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
+	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore, env.FacsimilesDiagramsPath)
 	featureRevisionSvc := service.NewRevision(featureRevisionStore, featureProperty)
 	annotationTEI := service.NewAnnotationTEI(annotationSvc, datasetSvc, fileSystemManager, datasetImgSvc, featureResultSvc, featureSvc, editionSvc)
 	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
 	langResolver := service.NewLanguagesResolver(editionSvc, datasetSvc)
 
-	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, editionSvc, langResolver, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey, env.OllamaBaseURL, env.OllamaAuthToken))
+	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, editionSvc, langResolver, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llmClient)
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,
@@ -154,8 +183,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		fileSystemManager,
 	)
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
-	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
-	modelTrainRemoteSvc := service.NewModelTrainingRemote(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.ModelTrainUploadURL, env.GithubToken, slurmSubmitterSvc)
+	modelTrainRemoteSvc := service.NewModelTrainingRemote(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc, gpuFarmManualBundlesSvc)
 	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc, modelTrainRemoteSvc)
 	modelTrainingSvc := service.NewModelTraining(jobSvc)
 	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
@@ -195,12 +223,15 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		HealthSvc:               healthSvc,
 		LogsSvc:                 logsSvc,
 		EditionSvc:              editionSvc,
+		ReprintSvc:              reprintSvc,
 		GeoSvc:                  geoSvc,
 		FacsimileSvc:            facsimileSvc,
+		ShelfmarkSvc:            shelfmarkSvc,
 		DatasetSvc:              datasetSvc,
 		DatasetImgSvc:           datasetImgSvc,
 		AnnotationSvc:           annotationSvc,
 		AnnotationRuleExecution: annotationRuleExecutionSvc,
+		GPUFarmManualBundles:    gpuFarmManualBundlesSvc,
 		AnnotationGroupSvc:      annotationGroupSvc,
 		ModelSvc:                modelSvc,
 		MetadataDetailsSvc:      metadataDetailsSvc,
@@ -230,13 +261,18 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DB:     sqlDB,
 		Deps:   deps,
 		Router: router,
+		cancel: cancelBundleCleanup,
 	}, nil
 }
 
 func (a *OCRFlowApp) Close() error {
+	if a.cancel != nil {
+		a.cancel()
+	}
+	var err error
 	if a.DB != nil {
-		return a.DB.Close()
+		err = a.DB.Close()
 	}
 	futils.CleanTemp()
-	return nil
+	return err
 }

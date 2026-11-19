@@ -1,0 +1,5 @@
+<!-- Running title: Ad Lectorem. -->
+
+cta methodus nimìs frequenter ſupervacaneas repetitiones effugere nequeat, à quibus demonſtrationes eſt quando prolixæ, aliquando & magìs intricatæ evadunt. Quibus vitiis noſter modus facilè per verborum ſignorúmque arbitrariam mixturam medetur. Atque hæc de opellæ hujus intentione & methodo dicta ſufficiant. Cæterùm quæ in laudem Matheſeos in genere, aut Geometriæ ipſius; & quæ de hiſtoria harum ſcientiarum, ideóque de Euclide, horum elementorum digeſtore dici poſſent, & reliqua hujuſmodi ἐξωτερικὰ, cui hæc placent, apud alios interpretes conſulere poteſt. Neque nos anguſtias temporis, quod huic operi impendi potuit, nec interpellationes negotiorum, nec adjumentorum ad hæc ſtudia apud nos egeſtatem, & quædam alia, ut liceret non immeritò, in excuſationem obtendemus, metu ſcilicet inducti, nè hæc noſtra omnibus minùs ſatisfaciant. Verùm quæ ingenui Lectoris uſibus elaboravimus, eadem in ſolidum ipſius cenſuræ ac judicio ſubmittimus, probanda ſi utilia ſibi compererit, ſin omnino ſecus, rejicienda.
+
+J. B.

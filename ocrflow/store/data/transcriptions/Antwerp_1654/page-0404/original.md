@@ -1,0 +1,1 @@
+[Diagram: narrow folding strip bearing numbered geometrical figures, including triangles, a circle, parallelograms and polygons, with figure numbers 10, 17, 22, 33, 36, 38, 46 and 47 and letter labels such as a, b, c, d, f, i, k, l, o, q, s, x, z, P, R, V, X and L]

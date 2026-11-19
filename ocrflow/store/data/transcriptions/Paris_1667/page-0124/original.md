@@ -1,0 +1,70 @@
+<!-- Page number: 86 -->
+<!-- Running title: NOUVEAUX ELEMENS -->
+
+la même raiſon les degrez d'une petite circonference ſont plus petits que les degrez d'une plus grande.
+
+[Curated heading level=3 type=axioms: CINQUIEME AXIOME.]
+
+### CINQUIEME AXIOME.
+
+[Curated heading level=4 type=paragraph_order: XXVI.]
+
+[Margin]
+XXVI.
+[/Margin]
+
+Dans un même cercle les cordes qui ſoûtiennent des arcs égaux ſont égales, & les arcs qui ſont ſoûtenus par des cordes égales ſont égaux. C'eſt une ſuite évidemment neceſſaire de l'entiere uniformité de la circonference. Il ne faut qu'attention pour en appercevoir la certitude.
+
+Il en eſt de même dans deux cercles égaux que dans le même cercle.
+
+[Curated heading level=3 type=axioms: SIXIEME AXIOME.]
+
+### SIXIEME AXIOME.
+
+[Curated heading level=4 type=paragraph_order: XXVII.]
+
+[Margin]
+XXVII.
+[/Margin]
+
+Toutes les lignes tirées du centre qui ſont plus petites que les rayons du cercle, ont leur extremité au dedans du cercle : que ſi elles ſont plus longues, elles l'ont au dehors ; ſi égales, dans la circonference même.
+
+[Curated heading level=3 type=axioms: SEPTIEME AXIOME.]
+
+### SEPTIEME AXIOME.
+
+[Curated heading level=4 type=paragraph_order: XXVIII.]
+
+[Margin]
+XXVIII.
+[/Margin]
+
+Lors qu'on a d'une ligne, l'une des extremitez donnée de poſition, & ſa longueur, ſon autre extremité doit eſtre dans la circonference du cercle décrit par un intervale de cette longueur donnée.
+
+## TROISIEME SECTION.
+
+[Subhead]
+DES LIGNES DROITES PERPENDICVLAIRES.
+[/Subhead]
+
+### DEFINITIONS.
+
+[Curated heading level=4 type=paragraph_order: XXIX.]
+
+[Margin]
+XXIX.
+[/Margin]
+
+Nous avons déja dit qu'une ligne droite n'en peut couper une autre droite qu'en un point. Mais la coupant elle le peut faire en deux manieres.
+
+La premiere eſt, en ne panchant point plus vers un coſté de la ligne coupée, que vers l'autre.
+
+[Curated heading level=4 type=definitions: Et alors elles ſont dites]
+
+Et alors elles ſont dites ſe couper *perpendiculairement* & eſtre *perpendiculaires* l'une à l'autre.
+
+[Curated heading level=4 type=definitions: La ſeconde, en panchant]
+
+La ſeconde, en panchant plus vers un coſté que vers l'autre, & alors elles ſont dites ſe couper *obliquement* & eſtre *obliques* l'une au regard de l'autre.
+
+Mais il ne faut pas confondre l'obliquité qui convient à une ligne droite par rapport à une autre ligne, avec la curvité qui convient à la ligne par ſa nature même, & conſtitüe une eſpece de ligne oppoſée à la ligne droite.

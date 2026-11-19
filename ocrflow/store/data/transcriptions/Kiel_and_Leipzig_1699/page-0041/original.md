@@ -1,0 +1,39 @@
+<!-- Running title: Das I. Buch -->
+
+<!-- Page number: 24 -->
+
+### Gegebene.
+
+1. Das △ ABC
+2. ABC ⋏ ACB
+
+### Begehrtes.
+
+AB | AC
+
+[Diagram: Dreyeck ABC mit Punkt D auff der Seite AB und punktiertem Strich DC]
+
+### Beweiß.
+
+Entweder ist AB | AC
+oder AB ⊣ AC
+oder AB ⊢ AC
+
+### Vorbereitung.
+
+wenn AB ⊣ AC
+so schneide man von AB ab
+ein Stück AD | AC nach 3. Vortr.
+α Darnach ziehe man den geraden Strich CD.
+verfolg des Beweises/
+
+DB | AC nach Vorber. α
+BC | BC
+DB + BC | AC + BC nach 2. GrS.
+DBC ⋏ ACB nach Gegeb. 2.
+Dw. DCB ⏉ ABC nach 4. Vortr.
+Welches aber unmüglich nach 9. GrS.
+
+Gleiche Beschaffenheit wird es haben / wenn man sagen wolte AB ⊢ AC.
+
+<!-- Catchword: Beschluß. -->

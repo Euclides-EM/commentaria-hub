@@ -1,0 +1,43 @@
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+
+<!-- Page number: 102 -->
+
+*culi, erit trium: reliqua igitur β γ, duorum æqualiū. Secetur (per 30 tertij) β γ, bifariam in ε: utraq̃ igitur ipsarum β ε, & ε γ, circunferentiarum, quintumdecimum erit ipsius α β γ δ, circuli. Si igitur coniungentes rectas lineas β ε, & ε γ, ipsis æquales in cōtinuum rectas lineas (per 1 quarti) coaptemus in circulum α β γ δ: erit in eo descriptum quintidecagonum æquilaterum & æquiangulum, quod facere oportebat. Similiter autem ut in pentagono si per circuli diuisionem, tangentes circulum ducemus: describetur circa circulum, quintidecagonum æquilaterum & æquiangulum: & per ostensionem similiter in pentagonis, & in dato quintidecagono æquilatero & æquiangulo, circulum describemus & circunscribemus.*
+
+[Diagram: circle with inscribed equilateral triangle (side α γ) and the side α β of the pentagon; point ε on the arc β γ; the circle divided for the quindecagon]
+
+QVARTI LIBRI FINIS.
+
+[Curated heading level=1 type=books: Book 5]
+
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
+
+[Curated heading level=2 type=campanus_sequence: Euclides ex Campano. Diffinitiones.]
+
+## Euclides ex Campano. Diffinitiones.
+
+[Curated heading level=3 type=definitions: 1]
+
+[Curated heading level=3 type=campanus_sequence: 1.]
+
+[Margin]
+1
+[/Margin]
+
+{dropcap:P|lines=?|style=decorated|decoration="putti"}ars, est quantitas quantitatis minor maioris, cum minor maiorem numerat.
+
+CAMPANVS. Pars, quandoq̃ sumitur proprie: & hæc est quæ aliquoties sumpta, suum totum præcise constituit: sine diminutione uel augmento: & dicitur suum totum numerare per illum numerū, secundum quem sumitur ad ipsius totius constitutionem: talem autem partem quam multiplicatiuam dicimus, hic diffinit. Quandoq̃ sumitur communiter: & hæc est quælibet quātitas minor, quæ quotiescunq̃ sumpta, suo toto minus aut maius constituit, quam aggregatiuam dicimus: eo quod cum alia quantitate diuersa totum suum constituat, per se autem quotiescunq̃ sumpta fuerit, non producat.
+
+[Curated heading level=3 type=definitions: 2]
+
+[Curated heading level=3 type=campanus_sequence: 2.]
+
+[Margin]
+2
+[/Margin]
+
+Multiplex, est maior minoris quando eam minor metitur.
+
+CAMPANVS. Pars, relatiue dicitur ad totum, & in istis duobus extremis, consistit eorum adinuicem relatio: & ideo diffinito minori extremo: diffinit hic maius: uocat autem
+
+<!-- Catchword: autem -->

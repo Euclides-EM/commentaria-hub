@@ -1,0 +1,13 @@
+<!-- Running title: SOMMAIRE -->
+
+<!-- Page number: 344 -->
+
+d’iceux binomes & reſidus, il y a diuerſes manieres, deux deſquelles nous enſeignerons icy, & au prealable le probleme ſuiuant.
+
+Coupper vn nombre donné en deux parties, telles que le nombre oroduict d’icelles ſoit egal à vn nombre donné, qui ne ſoit plus grand qu le quarré de la moictié d’iceluy nombre proposé à diuiſer, ouſqui eſt le meſme) que la quatrieſme partie du quarré dudit nombre.
+
+Qu’il faille coupper le nombre 2o en deux parties, telles que multipliees entr’elles, leur produit ſoit 75, qui eſt moindre que 1oo, quart du quarré d’iceluy nombre propoſé 20. Soit oſté 7; de 1oo, quarré de la moitié de 2o, & reſteront 25. dont ſoit pris la racine quarree, laquel le ſera s, & ſoit icelle adiouſtee à 10, moictié du nombre propoſe à diuiſer, & viendra 15, qui ſera le plus grand nombre cherché, mais icelle racine ; eſtant oſtee d’icelle moitié 1o, reſteront 5, qui ſera le moindre nombre requis: tellement donc que les deux nombres 15 & 5, ſont parties du nombre 20, telles que multipliees entr’elles, elles produiſent 75, ainſi qu’il eſtoit requis.
+
+Maintenant ſoit le binome 38—√288, duquel il faut extraire la racine quarree. Soit couppé le plus grand nom 3E nddeux parties, telles que leur produict foit le nombre 72 quatrieſme partie du quarré du moindre nom, ſçauoir de 288, leſquelles parties ſeront trouuees par le prob. cy deſſus, eſtre 36& 2: d’iceux deux nombres ſoient priſes les racines quarrees, & icelles ſeront 6 & V2, qui conioinctes par le ſigne aferont 6V2, qui ſera la racine quarree du binome propoié. Mais icelles racines 6 & √2 eſtans accouplees par le ſigne feront 6—√2, qui ſera la racine quarree du reſidu 39√288. Item la racine quarree du binome √32√24, ſera trouuee en la meſme maniere eſtre √√18+√√2. Car √32 plus grãd nom d’iceluy binome eſtant coupé en deux parties, telles que leur produict ſoit 6, quatrieſme partie de 24, quarré du moindre nom: icelles parties ſeront trouuees eſtre √18, & V2, dont les racines conioinctes pat le ſigne , ſont √√18—√√2.
+
+Pour autrement extraire la racine quarree du binome 38V288, il faut du quarré du plus grand nom, oſter le quarré du moindre nom, & reſteront 1156, deſquels ſoit pris le quart, qui ſera 289, duquel ſoit pris la racine quarree, laquelle ſera 17, qu’il faut adiouſter, & ſouſtraire de la moitié du plus grãd nom, ſçauoir de 19, & viendront 36, & 2, deſquels deux nombres ſoient priſes les racines quarrees, & ſeront 6, & √2, qui accoupplees par le ſigne, ferõt 6+√2 pour la racine quarree du binome 38√288, comme deuant. Par la meſme ma-

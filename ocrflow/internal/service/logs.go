@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 )
 
 type commandRunner func(ctx context.Context, name string, args ...string) ([]byte, error)

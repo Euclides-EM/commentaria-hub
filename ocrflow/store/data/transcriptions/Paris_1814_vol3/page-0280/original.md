@@ -1,0 +1,14 @@
+<!-- Page number: 246 -->
+<!-- Running title: LE TREIZIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+ΑΒΓΔΕ· λέγω ὅτι ἡ τοῦ ΑΒΓΔΕ πενταγώνου πλευρὰ δύναται τήν τε τοῦ ἑξαγώνου καὶ τὴν τοῦ δεκαγώνου πλευρὰν, τῶν εἰς τὸν ΑΒΓΔΕ κύκλον ἐγγραφομένων.
+
+Εἰλήφθω γὰρ τὸ κέντρον τοῦ κύκλου τὸ Ζ σημεῖον², καὶ ἐπιζευχθεῖσα ἡ ΑΖ διήχθω ἐπὶ τὸ Η σημεῖον, καὶ ἐπεζεύχθω ἡ ΖΒ, καὶ ἀπὸ τοῦ Ζ ἐπὶ τὴν ΑΒ κάθετος ἤχθω ἡ ΖΘ, καὶ διήχθω ἐπὶ τὸ Κ, καὶ ἐπεζεύχθωσαν αἱ ΑΚ, ΚΒ, καὶ πάλιν ἀπὸ τοῦ Ζ ἐπὶ τὴν ΑΚ κάθετος ἤχθω ἡ ΖΛ, καὶ διήχθω ἐπὶ τὸ Μ, καὶ ἐπεζεύχθω ἡ ΚΝ. Καὶ³ ἐπεὶ ἴση ἐστὶν ἡ ΑΒΓΗ περιφέρεια τῇ ΑΕΔΗ περιφερείᾳ, ὧν ἡ ΑΒΓ τῇ ΑΕΔ ἐστὶν ἴση· λοιπὴ ἄρα ἡ ΓΗ περιφέρεια λοιπῇ τῇ ΔΗ ἐστὶν ἴση. Πενταγώνου δὲ⁴ ἡ ΓΔ· δεκαγώνου⁵ ἄρα ἡ ΓΗ. Καὶ ἐπεὶ ἴση ἐστὶν ἡ ΑΖ τῇ ΖΒ, καὶ κάθετος ἡ ΖΘ· ἴση ἄρα καὶ ἡ ὑπὸ ΑΖΚ γωνία τῇ ὑπὸ ΚΖΒ· ὥστε καὶ περιφέρεια ἡ ΑΚ τῇ ΚΒ ἐστὶν ἴση· διπλῆ ἄρα ἡ ΑΒ περιφέρεια τῆς ΒΚ περιφερείας· δεκαγώνου ἄρα πλευρά ἐστιν ἡ ΑΚ εὐθεῖα. Διὰ τὰ αὐτὰ δὴ καὶ ἡ ΑΓ τῆς⁶ ΚΜ ἐστὶ διπλῆ. Καὶ ἐπεὶ διπλῆ ἐστιν ἡ ΑΒ περιφέρεια τῆς ΒΚ περιφερείας,
+
+dico ΑΒΓΔΕ pentagoni latus posse et latus hexagoni et latus decagoni in eodem ΑΒΓΔΕ circulo descriptorum.
+
+Sumatur enim centrum circuli punctum Ζ, et juncta ΑΖ producatur ad Η punctum, et jungatur ΖΒ, et à puncto Ζ ad ΑΒ perpendicularis agatur ΖΘ, et producatur ad Κ, et jungantur ipsæ ΑΚ, ΚΒ, et rursus a puncto Ζ ad ΑΚ perpendicularis agatur ΖΛ, et producatur ad Μ, et jungatur ΚΝ. Et quoniam æqualis est ΑΒΓΗ circumferentia circumferentiæ ΑΕΔΗ, ex quibus ΑΒΓ ipsi ΑΕΔ est æqualis; reliqua igitur ΓΗ circumferentia reliquæ ΔΗ est æqualis. Pentagoni autem latus ipsa ΔΓ; decagoni igitur latus ipsa ΓΗ. Et quoniam æqualis est ΑΖ ipsi ΖΒ, et perpendicularis ΖΘ; æqualis igitur et ΑΖΚ angulus ipsi ΚΖΒ; quare et circumferentia ΑΚ ipsi ΚΒ est æqualis; dupla igitur ΑΒ circumferentia circumferentiæ ΒΚ; decagoni igitur latus est recta ΑΚ. Propter eadem utique et ΑΓ ipsius ΚΜ est dupla. Et quoniam dupla est ΑΒ circumferentia cir-
+
+téral ΑΒΓΔΕ; je dis que le quarré du côté du pentagone ΑΒΓΔΕ est égal à la somme des quarrés de l'hexagone et du décagone, ces polygones étant décrits dans le cercle ΑΒΓΔΕ.
+
+Car prenons Ζ le centre du cercle; ayant joint ΑΖ, prolongeons cette droite vers le point Η; joignons ΖΒ, du point Ζ menons la droite ΖΘ perpendiculaire à ΑΒ; prolongeons cette droite vers Κ; joignons ΑΚ, ΚΒ; du point Ζ menons ΖΛ perpendiculaire à ΑΚ; prolongeons cette droite vers Μ, et joignons ΚΝ. Puisque l'arc ΑΒΓΗ est égal à l'arc ΑΕΔΗ, et que l'arc ΑΒΓ est égal à l'arc ΑΕΔ, l'arc restant ΓΗ sera égal à l'arc restant ΔΗ. Mais ΓΔ est le côté du pentagone; la droite ΓΗ est donc le côté du décagone. Et puisque ΑΖ est égal à ΖΒ, et que ΖΘ est une perpendiculaire, l'angle ΑΖΚ sera égal à ΚΖΒ; l'arc ΑΚ est donc égal à l'arc ΚΒ; l'arc ΑΒ est donc double de l'arc ΒΚ; la droite ΑΚ est donc le côté du décagone. Par la même raison, l'arc ΑΚ est double de l'arc ΚΜ. Et puisque l'arc

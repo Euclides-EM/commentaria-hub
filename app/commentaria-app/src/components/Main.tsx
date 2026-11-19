@@ -12,6 +12,7 @@ import { JobsTable } from './jobs/JobsTable.tsx'
 import { FeaturesTable } from './features/FeaturesTable.tsx'
 import { BackupsView } from './backups/BackupsView.tsx'
 import { LogsView } from './logging/LogsView.tsx'
+import { CompareView } from './compare/CompareView.tsx'
 import { Button } from './core/Button.tsx'
 import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
 import { DatasetDetails } from './dataset/DatasetDetails.tsx'
@@ -66,6 +67,9 @@ export function Main() {
   }
   if (state.viewMode === 'logs') {
     return <LogsView />
+  }
+  if (state.viewMode === 'compare') {
+    return <CompareView />
   }
 
   if (!state.datasetId) {

@@ -1,0 +1,37 @@
+<!-- Running title: Euclidis. -->
+
+<!-- Page number: 291 -->
+
+[Curated heading level=2 type=propositions: Der XXX. Vortrag.]
+
+[Curated heading level=2 type=theorems: Das 30. Beweiß-Stück.]
+
+## Der XXX. Vortrag.
+## Das 30. Beweiß-Stück.
+
+Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte sampt der Vierten zu der Vierten: So wird hingegen ümgekehrt die Erste sampt der Andern / zu der Ersten eine kleinere Verhältnüß / als die Dritte sampt der Vierten zu der Dritten haben.
+
+### Gegebene.
+
+[Diagram: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]
+
+A + a : a ⊣ B + b : b
+
+### Begehrtes.
+A + a : A ⊢ B + b : B.
+
+### Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+|  | A + a : a ⊣ B + b : b | | n. Geg. |
+| Dw. | A : a ⊣ B : b | | n. 29. V. |
+| und | a : A ⊢ b : B | | n 26. V. |
+| Dw. | a + A : A ⊢ b + B : B | | n. Anh. 28. V. |
+
+### Beschluß.
+Wenn derowegen die I. sampt der II. zu der II. eine grössere Verhältnüß hat / als die III. sampt der IV. zu der IV. So wird auf verkehrte Art die I. sampt der II. zu der I. eine kleinere Verhältnüß / als die III. und IV. zu der III. haben. W. Z. B.
+
+<!-- Signature: Oo 2 -->
+
+<!-- Catchword: Der -->

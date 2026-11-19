@@ -16,9 +16,15 @@ import { fetchDiagrams, VolumeData } from "../api/diagramsApi.ts";
 import { LAND_COLOR, SEA_COLOR } from "../utils/colors.ts";
 import { useQuery } from "@tanstack/react-query";
 import { isNil } from "lodash";
-import { FacsimilesService, model_Edition } from "@hub-api";
+import {
+  FacsimilesService,
+  OpenAPI,
+  type model_Edition,
+  type model_Facsimile,
+} from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
+import { streamDownloadInNewTab } from "../utils/streamDownload.ts";
 import { getEdition } from "../api/editionApi.ts";
 import { mapEditionsToItems } from "../utils/dataUtils.ts";
 
@@ -228,6 +234,29 @@ const FilterButton = styled.button`
   }
 `;
 
+const FacsimileControls = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+`;
+
+const FacsimileSelect = styled.select`
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  background-color: white;
+  color: black;
+`;
+
+const FacsimileInfo = styled.div`
+  color: white;
+`;
+
 interface ImageInfo {
   pageNumber: string;
   index: string;
@@ -264,13 +293,25 @@ const parseImageName = (imagePath: string): ImageInfo => {
 };
 
 function getImagePath(imageName: string) {
+  if (/^https?:\/\//i.test(imageName)) {
+    return imageName;
+  }
   return `${new URL(import.meta.env.VITE_BACKEND_URL).origin}${imageName}`;
 }
+
+const facsimileLabel = (facsimile: model_Facsimile) =>
+  facsimile.scan_url?.split("/").pop()?.split(".")[0] ||
+  facsimile.id ||
+  "Unnamed facsimile";
 
 export const Diagrams = () => {
   const { token } = useContext(AuthContext);
   const [searchParams] = useSearchParams();
   const editionKey = searchParams.get("key");
+  const requestedFacsimileId = searchParams.get("facsimileId");
+  const [selectedFacsimileId, setSelectedFacsimileId] = useState<string | null>(
+    requestedFacsimileId,
+  );
   const [collapsedVolumes, setCollapsedVolumes] = useState<Set<string>>(
     new Set(),
   );
@@ -300,10 +341,51 @@ export const Diagrams = () => {
     [editionQuery.data],
   );
 
-  const diagramsQuery = useQuery({
-    queryKey: ["diagrams", editionKey],
-    queryFn: () => fetchDiagrams(editionKey!),
+  const facsimilesQuery = useQuery({
+    queryKey: ["facsimiles", "edition", editionKey],
+    queryFn: () =>
+      FacsimilesService.getFacsimilies({ editionId: [editionKey!] }),
     enabled: Boolean(editionKey),
+  });
+  const diagramFacsimiles = useMemo(
+    () =>
+      (facsimilesQuery.data ?? []).filter(
+        (facsimile) => facsimile.id && facsimile.diagram_crops_available,
+      ),
+    [facsimilesQuery.data],
+  );
+  const selectedFacsimile = diagramFacsimiles.find(
+    (facsimile) => facsimile.id === selectedFacsimileId,
+  );
+  const selectedShelfmark = editionQuery.data?.shelfmarks?.find(
+    (shelfmark) =>
+      shelfmark.id === selectedFacsimile?.shelfmark_id ||
+      shelfmark.scan === selectedFacsimile?.scan_url,
+  );
+
+  useEffect(() => {
+    if (!facsimilesQuery.isSuccess) {
+      return;
+    }
+    if (
+      selectedFacsimileId &&
+      diagramFacsimiles.some(
+        (facsimile) => facsimile.id === selectedFacsimileId,
+      )
+    ) {
+      return;
+    }
+    setSelectedFacsimileId(diagramFacsimiles[0]?.id ?? null);
+  }, [diagramFacsimiles, facsimilesQuery.isSuccess, selectedFacsimileId]);
+
+  const diagramsQuery = useQuery({
+    queryKey: ["diagrams", editionKey, selectedFacsimileId],
+    queryFn: () => fetchDiagrams(editionKey || "", selectedFacsimileId),
+    enabled:
+      Boolean(editionKey) &&
+      (Boolean(selectedFacsimileId) ||
+        facsimilesQuery.isSuccess ||
+        facsimilesQuery.isError),
   });
 
   const diagramsData = diagramsQuery.data;
@@ -315,36 +397,27 @@ export const Diagrams = () => {
     () => (diagramsData?.volumes ? [] : diagramsData?.images || []),
     [diagramsData?.images, diagramsData?.volumes],
   );
-  const scanKeys = useMemo(
-    () =>
-      Array.from(
-        new Set(
-          volumes.length > 0
-            ? volumes.map((volume) => volume.key).filter(Boolean)
-            : editionKey
-              ? [editionKey]
-              : [],
-        ),
-      ),
-    [editionKey, volumes],
-  );
-  const facsimilesQuery = useQuery({
-    queryKey: ["facsimiles", "download-available", scanKeys],
-    queryFn: () => FacsimilesService.getFacsimilies({ editionId: scanKeys }),
-    enabled: scanKeys.length > 0,
-  });
-  const downloadableScanKeys = useMemo(
-    () =>
-      new Set(
-        (facsimilesQuery.data || [])
-          .filter(
-            (facsimile) => facsimile.download_available && facsimile.edition_id,
-          )
-          .map((facsimile) => facsimile.edition_id!),
-      ),
-    [facsimilesQuery.data],
-  );
-  const loading = diagramsQuery.isLoading || editionQuery.isLoading;
+  const downloadableFacsimilesByScanKey = useMemo(() => {
+    const byScanKey = new Map<string, model_Facsimile[]>();
+    for (const facsimile of facsimilesQuery.data || []) {
+      if (
+        !facsimile.download_available ||
+        !facsimile.edition_id ||
+        !facsimile.id
+      ) {
+        continue;
+      }
+      byScanKey.set(facsimile.edition_id, [
+        ...(byScanKey.get(facsimile.edition_id) ?? []),
+        facsimile,
+      ]);
+    }
+    return byScanKey;
+  }, [facsimilesQuery.data]);
+  const loading =
+    diagramsQuery.isLoading ||
+    editionQuery.isLoading ||
+    facsimilesQuery.isLoading;
   const error =
     (editionQuery.isError ? "Edition not found" : null) ||
     diagramsData?.error ||
@@ -378,17 +451,50 @@ export const Diagrams = () => {
     });
   };
 
-  const openScanPage = () => {
+  const openScanPage = (facsimile: model_Facsimile) => {
     if (!token || modal.pageNumber === null) {
       return;
     }
     void openAuthenticatedFacsimilePDF(
-      modal.scanKey,
+      facsimile.id!,
       token,
       modal.pageNumber,
+      facsimile.name ? `${facsimile.name}.pdf` : undefined,
     ).catch((error) => {
-      console.error("Failed to open main scan page:", error);
+      console.error("Failed to open scan page:", error);
     });
+  };
+
+  const openSelectedFacsimile = () => {
+    if (!token || !selectedFacsimile?.id) {
+      return;
+    }
+    void openAuthenticatedFacsimilePDF(
+      selectedFacsimile.id,
+      token,
+      undefined,
+      selectedFacsimile.name ? `${selectedFacsimile.name}.pdf` : undefined,
+    ).catch((error) => {
+      console.error("Failed to open facsimile:", error);
+    });
+  };
+
+  const downloadDiagramsZip = () => {
+    if (!editionKey) {
+      return;
+    }
+    const baseURL = OpenAPI.BASE.replace(/\/$/, "");
+    const url = selectedFacsimile?.id
+      ? `${baseURL}/facsimilies/${encodeURIComponent(selectedFacsimile.id)}/diagrams/zip`
+      : `${baseURL}/editions/${encodeURIComponent(editionKey)}/diagrams/zip`;
+    const name = selectedFacsimile
+      ? facsimileLabel(selectedFacsimile)
+      : editionKey;
+    void streamDownloadInNewTab(url, `${name}-diagrams.zip`, token).catch(
+      (error) => {
+        console.error("Failed to download diagrams:", error);
+      },
+    );
   };
 
   useEffect(() => {
@@ -545,6 +651,47 @@ export const Diagrams = () => {
 
         {item && <ItemInfo item={item} showDiagramsLink={false} isRow />}
 
+        {diagramFacsimiles.length > 0 && selectedFacsimile && (
+          <FacsimileControls>
+            <FilterLabel htmlFor="facsimile">Facsimile:</FilterLabel>
+            <FacsimileSelect
+              id="facsimile"
+              value={selectedFacsimile.id}
+              onChange={(event) => setSelectedFacsimileId(event.target.value)}
+            >
+              {diagramFacsimiles
+                .slice()
+                .sort((a, b) =>
+                  facsimileLabel(a).localeCompare(facsimileLabel(b)),
+                )
+                .map((facsimile) => (
+                  <option key={facsimile.id} value={facsimile.id}>
+                    {facsimileLabel(facsimile)}
+                  </option>
+                ))}
+            </FacsimileSelect>
+            <FacsimileInfo>
+              {selectedFacsimile.description && (
+                <div>{selectedFacsimile.description}</div>
+              )}{" "}
+              {token && selectedFacsimile.download_available && (
+                <ScanPageButton type="button" onClick={openSelectedFacsimile}>
+                  Download PDF
+                </ScanPageButton>
+              )}{" "}
+              {selectedShelfmark?.scan && (
+                <a
+                  href={selectedShelfmark.scan}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View facsimile online
+                </a>
+              )}
+            </FacsimileInfo>
+          </FacsimileControls>
+        )}
+
         <DocumentDescription>
           {loading
             ? "Loading diagrams..."
@@ -582,6 +729,14 @@ export const Diagrams = () => {
                     return `${allImages.length.toLocaleString()} diagram${allImages.length === 1 ? "" : "s"} detected across ${distinctPages.toLocaleString()} distinct page${distinctPages === 1 ? "" : "s"}${volumeText}`;
                   })()}
         </DocumentDescription>
+
+        {!loading && !error && getAllImages().length > 0 && (
+          <Row justifyStart>
+            <ScanPageButton type="button" onClick={downloadDiagramsZip}>
+              Download diagrams (ZIP)
+            </ScanPageButton>
+          </Row>
+        )}
 
         {item && (
           <Row justifyStart>
@@ -721,11 +876,19 @@ export const Diagrams = () => {
                 <ModalTitle>{modal.title}</ModalTitle>
                 {token &&
                   modal.pageNumber !== null &&
-                  downloadableScanKeys.has(modal.scanKey) && (
-                    <ScanPageButton type="button" onClick={openScanPage}>
-                      View page in main scan
+                  (
+                    downloadableFacsimilesByScanKey.get(modal.scanKey) ?? []
+                  ).map((facsimile) => (
+                    <ScanPageButton
+                      key={facsimile.id}
+                      type="button"
+                      onClick={() => openScanPage(facsimile)}
+                    >
+                      {facsimile.name
+                        ? `View page in ${facsimile.name}`
+                        : "View page in scan"}
                     </ScanPageButton>
-                  )}
+                  ))}
               </ModalTitleRow>
               <CloseButton onClick={closeImageModal}>×</CloseButton>
             </ModalHeader>

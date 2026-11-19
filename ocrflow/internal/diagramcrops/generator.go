@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/config"
 )
 
 type volumeInfo struct {

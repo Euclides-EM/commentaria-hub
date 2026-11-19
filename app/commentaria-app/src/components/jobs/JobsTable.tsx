@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import type { job_Job } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import { useNonCompletedIntegrationJobsQuery } from '../../queries/integrations'
+import { useDatasetsQuery } from '../../queries/datasets'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'
 import { SearchInput } from '../core/SearchInput'
@@ -16,9 +17,33 @@ type SortConfig = {
   direction: SortDirection
 }
 
+const getJobDatasetId = (job: job_Job) =>
+  job.target?.dataset_id || job.annotation?.dataset_id || ''
+
+const getJobAnnotation = (job: job_Job) =>
+  job.target?.annotation_id
+    ? { datasetId: job.target.dataset_id || '', id: job.target.annotation_id }
+    : {
+        datasetId: job.annotation?.dataset_id || '',
+        id: job.annotation?.id || '',
+      }
+
+const formatJobDetails = (details: string) => {
+  try {
+    const parsed = JSON.parse(details)
+    if (parsed && typeof parsed === 'object') {
+      return JSON.stringify(parsed, null, 2).replace(/\\n/g, '\n')
+    }
+  } catch {
+    return details
+  }
+  return details
+}
+
 export function JobsTable() {
   const { setState } = useAppState()
   const { data: jobs, isLoading, error } = useNonCompletedIntegrationJobsQuery()
+  const { data: datasets } = useDatasetsQuery()
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
     'jobsSearch',
     {
@@ -37,6 +62,16 @@ export function JobsTable() {
 
   const rows = useMemo(() => jobs ?? [], [jobs])
 
+  const datasetNameById = useMemo(() => {
+    const lookup = new Map<string, string>()
+    datasets?.forEach((dataset) => {
+      if (dataset.id) {
+        lookup.set(dataset.id, dataset.name || dataset.id)
+      }
+    })
+    return lookup
+  }, [datasets])
+
   const filteredRows = useMemo(() => {
     const trimmed = searchQuery.trim().toLowerCase()
     if (!trimmed) {
@@ -50,7 +85,10 @@ export function JobsTable() {
         job.status,
         job.task,
         job.annotation?.dataset_id,
+        job.target?.dataset_id,
+        datasetNameById.get(getJobDatasetId(job)),
         job.annotation?.id,
+        job.target?.annotation_id,
         job.target?.platform,
       ]
         .filter(Boolean)
@@ -58,7 +96,7 @@ export function JobsTable() {
         .toLowerCase()
       return haystack.includes(trimmed)
     })
-  }, [rows, searchQuery])
+  }, [rows, searchQuery, datasetNameById])
 
   const sortedRows = useMemo(() => {
     const getSortValue = (job: job_Job, key: SortKey) => {
@@ -175,6 +213,9 @@ export function JobsTable() {
                         Job details
                       </th>
                       <th className="px-4 py-3 text-left whitespace-nowrap">
+                        Dataset
+                      </th>
+                      <th className="px-4 py-3 text-left whitespace-nowrap">
                         Annotation
                       </th>
                       <th className="px-4 py-3 text-left whitespace-nowrap">
@@ -208,21 +249,47 @@ export function JobsTable() {
                           )}
                         </td>
                         <td className="px-4 py-3 text-left text-gray-700">
-                          {job.details || '-'}
+                          {job.details ? (
+                            <pre className="whitespace-pre-wrap break-all font-mono text-xs">
+                              {formatJobDetails(job.details)}
+                            </pre>
+                          ) : (
+                            '-'
+                          )}
                         </td>
                         <td className="px-4 py-3 text-left whitespace-nowrap">
-                          {job.annotation?.dataset_id && job.annotation?.id ? (
+                          {getJobDatasetId(job) ? (
                             <button
                               type="button"
                               className="text-teal-700 hover:text-teal-900 hover:underline"
                               onClick={() =>
                                 setState({
-                                  datasetId: job.annotation?.dataset_id || '',
-                                  annotationId: job.annotation?.id || '',
+                                  datasetId: getJobDatasetId(job),
+                                  annotationId: '',
                                 })
                               }
                             >
-                              {job.annotation.id}
+                              {datasetNameById.get(getJobDatasetId(job)) ||
+                                getJobDatasetId(job)}
+                            </button>
+                          ) : (
+                            <span className="text-gray-400">-</span>
+                          )}
+                        </td>
+                        <td className="px-4 py-3 text-left whitespace-nowrap">
+                          {getJobAnnotation(job).datasetId &&
+                          getJobAnnotation(job).id ? (
+                            <button
+                              type="button"
+                              className="text-teal-700 hover:text-teal-900 hover:underline"
+                              onClick={() =>
+                                setState({
+                                  datasetId: getJobAnnotation(job).datasetId,
+                                  annotationId: getJobAnnotation(job).id,
+                                })
+                              }
+                            >
+                              {getJobAnnotation(job).id}
                             </button>
                           ) : (
                             <span className="text-gray-400">-</span>

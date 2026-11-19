@@ -2,13 +2,15 @@ package api
 
 import (
 	"fmt"
+	"io"
 	"net/http"
 	"strconv"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/httpwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/markdown"
 	"github.com/samber/lo"
 )
 
@@ -77,6 +79,34 @@ func (h *Handlers) GetAnnotation(r *http.Request) (any, error) {
 		return nil, fmt.Errorf("missing parameters")
 	}
 	return h.deps.AnnotationSvc.Get(datasetID, annotationID)
+}
+
+// DownloadAnnotationZip godoc
+// @Summary      Download Annotation ZIP
+// @Description  Stream a ZIP of a specific annotation, with its ALTO files under alto/ and the dataset page images under imgs/.
+// @Tags         Annotations
+// @Param        dataSetId       path      string  true   "Dataset ID"
+// @Param        id              path      string  true   "Annotation ID"
+// @Param        include_alto    query     bool    false  "Whether to include the ALTO files"
+// @Param        include_images  query     bool    false  "Whether to include the dataset page images"
+// @Produce      application/zip
+// @Security 	 BearerAuth
+// @Success      200  {file}  string  "Annotation ZIP"
+// @Router       /datasets/{dataSetId}/annotations/{id}/zip [get]
+func (h *Handlers) DownloadAnnotationZip(r *http.Request) (string, func(io.Writer) error, error) {
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return "", nil, err
+	}
+	includeAlto, err := strconv.ParseBool(r.FormValue("include_alto"))
+	if err != nil {
+		includeAlto = false
+	}
+	includeImages, err := strconv.ParseBool(r.FormValue("include_images"))
+	if err != nil {
+		includeImages = false
+	}
+	return h.deps.AnnotationSvc.Zip(datasetID, annotationID, includeAlto, includeImages)
 }
 
 // DeleteAnnotation godoc
@@ -331,6 +361,9 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        categories  query     string  false  "Categories for the index"
+// @Param        types query string false "Comma-separated index layers (default: default)" default(default)
+// @Param        normalize query bool false "Normalize headings by applying printer error corrections and removing a leading paragraph mark" default(false)
+// @Param        source query string false "Preferred transcription source for the index" Enums(annotation, edition) default(annotation)
 // @Produce      json
 // @Success      200  {object}   annotation.Index
 // @Router       /datasets/{dataSetId}/annotations/{id}/index [get]
@@ -345,7 +378,36 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 	if categoriesStr != "" {
 		categories = lo.Map(strings.Split(strings.TrimSpace(categoriesStr), ","), func(s string, _ int) string { return strings.TrimSpace(s) })
 	}
-	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories)
+	normalize, err := strconv.ParseBool(r.FormValue("normalize"))
+	if err != nil {
+		normalize = false
+	}
+	source := annotation.IndexSource(r.FormValue("source"))
+	switch source {
+	case "":
+		source = annotation.IndexSourceAnnotation
+	case annotation.IndexSourceAnnotation, annotation.IndexSourceEdition:
+	default:
+		return nil, fmt.Errorf("invalid index source %q", source)
+	}
+	typesStr := strings.TrimSpace(r.URL.Query().Get("types"))
+	if typesStr != "" {
+		indexTypes := lo.Map(strings.Split(typesStr, ","), func(s string, _ int) string { return strings.TrimSpace(s) })
+		seen := make(map[string]struct{}, len(indexTypes))
+		uniqueTypes := make([]string, 0, len(indexTypes))
+		for _, indexType := range indexTypes {
+			if !markdown.IsValidIndexType(indexType) {
+				return nil, fmt.Errorf("invalid index type %q", indexType)
+			}
+			if _, ok := seen[indexType]; ok {
+				continue
+			}
+			seen[indexType] = struct{}{}
+			uniqueTypes = append(uniqueTypes, indexType)
+		}
+		return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, uniqueTypes, normalize, source)
+	}
+	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, nil, normalize, source)
 }
 
 // ListAnnotationCategories godoc
@@ -364,4 +426,21 @@ func (h *Handlers) ListAnnotationCategories(r *http.Request) (any, error) {
 	}
 
 	return h.deps.AnnotationSvc.GetAvailableCategories(datasetID, annotationID)
+}
+
+// ListAnnotationCategoriesBulk godoc
+// @Summary      Get Available Categories for Annotations
+// @Description  Get the combined available categories for a collection of annotations.
+// @Tags         Annotations
+// @Param        annotations  body      []annotation.Reference  true  "Annotations"
+// @Produce      json
+// @Success      200  {array}   string
+// @Router       /annotations/categories [post]
+func (h *Handlers) ListAnnotationCategoriesBulk(r *http.Request) (any, error) {
+	var annotations []annotation.Reference
+	if err := DecodeBody(r, &annotations); err != nil {
+		return nil, err
+	}
+
+	return h.deps.AnnotationSvc.GetAvailableCategoriesBulk(annotations)
 }

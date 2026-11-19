@@ -13,9 +13,12 @@ logs
 
 node_modules
 
+__pycache__/
+*.py[cod]
+
 .idea
 
-ocrflow/.env_private
+**/.env_private
 
 *.db*
 ocrflow/full_backups
@@ -34,3 +37,6 @@ dh_datasets_create.state.json
 **/testdata/**/*.stage.png
 
 **/imgs/_variants/
+**/.gocache/
+
+transkribus_ingest/pages/

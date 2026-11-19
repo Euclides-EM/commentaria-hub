@@ -1,0 +1,14 @@
+order,use_case,key,subtitle,year,language,editor,elements,standardness,rationale,pair_key,pair_subtitle
+1,Operational Traces and Blind Construction Lines,Nuremberg_1539,Case 3 / p.68,1539,GERMAN,Wolfgang Schmid,no,non-standard,"Text explicitly names blind lines, making the function unusually legible.",Rome_1589,I.12
+2,Explanatory Visual Aids (Revealing Internal Logic),QWCWLH,P.36,1545,"FRENCH, ITALIAN",Sebastiano Serlio,no,non-standard,Strong early case where dotted lines are not mentioned in the text and function as a purely visual explanation of symmetry.,,
+3,Impossible & Hypothetical Configurations,Basel_1550,III.1,1550,LATIN,Johannes Scheubel,yes,standard,Clean early Elements example of a false/hypothetical center in proof by contradiction.,Paris_1564,I.43
+4,Spatial Projection - Visualizing 3D in 2D,2I9HSY,P.136,1560,FRENCH,Jean Cousin,no,standardizing,Excellent transparent-body formulation: dotted lines reveal interior geometry while solid lines mark exterior geometry.,ZN24V0,P.17
+5,Compass Sweeps,bib-4,P.8,1564,FRENCH,Jean Bullant,no,non-standard,Clear compass operation in an area-transformation procedure; keeps the shortlist from repeating the 1539 Schmid edition.,,
+6,Diagrammatic Hierarchy / Visual Subordination,London_1570,VI.def.6,1570,ENGLISH,"Henry Billingsley, John Dee",yes,non-standard,Dotted extensions distinguish secondary conceptual parts from the main applied parallelogram.,,
+7,Explanatory Visual Aids or Scaffold (Revealing Internal Logic),Cologne_1591,III.11,1591,LATIN,Christopher Clavius,yes,non-standard,Nice contradiction-proof contrast: dotted line shows the proposition/internal relation rather than the absurd alternative.,,
+8,Constructional Reasoning in Problem Propositions,Paris_1598a,III.25,1598,FRENCH,Jean Errard,yes,standard,Good Elements construction-proposition case without repeating Clavius as a main example.,Paris_1615,VI.18
+9,Demonstrative Scaffolding / Auxiliary Lines,Leiden_1606,I.13,1606,DUTCH,Jan Pietersz Dou,yes,standard,Compact and clear: dotted line belongs to the demonstration itself as an auxiliary.,Wittenberg_1609,I.42
+10,Numeric Examples / Count Unit Squares,Ansbach_1610,II.10,1610,"GERMAN, LATIN",Simon Marius,yes,non-standard,Best counting-grid example; makes the arithmetic turn in Euclidean diagrams visible at a glance.,Paris_1566,Book X
+11,Invisible Physical Processes,MorisS-9-3,P.11,1637,FRENCH,René Descartes,no,non-standard,Descartes gives a sharp non-Elements case for rays/motion/processes that cannot be directly seen.,,
+12,Emphasis and Visual Highlighting,Vienna_1694,I.3,1694,GERMAN,Anton Ernst Burckhard von Pirckenstein,yes,non-standard,"Late, clear emphasis function; avoids reusing Ansbach after the numeric example.",Amsterdam_1695,VI.16
+13,Infinite Extension,Kiel_and_Leipzig_1699,I.34,1699,GERMAN,Samuel Reyher,yes,non-standard,"The definition explicitly invokes indefinite extension, making the visual convention easy to explain.",,

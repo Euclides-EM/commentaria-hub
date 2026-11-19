@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 )
 
 func DeleteLines(src, dst string) error {

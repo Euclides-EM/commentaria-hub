@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/coco"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/coco"
 )
 
 type roboflowResult struct {

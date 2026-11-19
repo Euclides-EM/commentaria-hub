@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/titlepage"
 	"github.com/samber/lo"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

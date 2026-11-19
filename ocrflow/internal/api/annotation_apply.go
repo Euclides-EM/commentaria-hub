@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotationrule"
 )
 
 // ApplyRules godoc
@@ -51,7 +51,7 @@ func (h *Handlers) ApplyRuleModelDetect(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -75,7 +75,7 @@ func (h *Handlers) ApplyRuleSlicePages(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -99,7 +99,7 @@ func (h *Handlers) ApplyRuleStretch(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -123,7 +123,7 @@ func (h *Handlers) ApplyRuleAddMargin(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -147,7 +147,7 @@ func (h *Handlers) ApplyRuleDetectLines(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -171,7 +171,7 @@ func (h *Handlers) ApplyRuleRemoveCategories(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -195,7 +195,7 @@ func (h *Handlers) ApplyRuleRenameCategories(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -219,7 +219,7 @@ func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -243,7 +243,7 @@ func (h *Handlers) ApplyRuleResolveOverlapWithPriority(r *http.Request) (any, er
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -267,7 +267,7 @@ func (h *Handlers) ApplyRuleRecategorizeByAlignment(r *http.Request) (any, error
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -291,7 +291,7 @@ func (h *Handlers) ApplyRuleLimitCategoryZones(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -315,7 +315,7 @@ func (h *Handlers) ApplyRuleReassignTextLinesByTolerance(r *http.Request) (any, 
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -339,8 +339,32 @@ func (h *Handlers) ApplyRuleTextBlockCorrections(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
-	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+	annotationrule.HydrateMetadata(&rule)
 
+	return h.applyRuleGeneric(r, &rule)
+}
+
+// ApplyRuleLLMTranscriptionCorrector godoc
+// @Summary      Apply LLM Transcription Corrector Rule to Annotation
+// @Description  Correct an OCR-ed annotation using its page images, its OCR ALTO, optional OCR-ed annotations, and optional edition transcriptions.
+// @Tags         Annotations Apply Rules
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
+// @Param        annotationRule  body  annotationrule.LLMTranscriptionCorrector  true  "LLM transcription corrector rule"
+// @Security     BearerAuth
+// @Produce      json
+// @Success      200  {object}   annotation.Annotation
+// @Success      202  {object}   job.Job
+// @Router       /datasets/{dataSetId}/annotations/{id}/apply/llm_transcription_corrector [put]
+func (h *Handlers) ApplyRuleLLMTranscriptionCorrector(r *http.Request) (any, error) {
+	var rule annotationrule.LLMTranscriptionCorrector
+	if err := DecodeBody(r, &rule); err != nil {
+		return nil, err
+	}
+	rule.Type = rule.GetType()
+	annotationrule.HydrateMetadata(&rule)
 	return h.applyRuleGeneric(r, &rule)
 }
 

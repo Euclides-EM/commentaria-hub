@@ -19,6 +19,7 @@ import {
 import { GroupByOption } from "./useTrendsData";
 import { ChartContainer } from "./TrendsStyles";
 import { itemProperties } from "../../constants/itemProperties.ts";
+import { formatBookFormat } from "../../utils/util";
 
 type TrendsBarChartProps = {
   chartData: Record<string, unknown>[];
@@ -39,6 +40,9 @@ export function TrendsBarChart({
   uniqueGroups,
   groupBy,
 }: TrendsBarChartProps) {
+  const formatGroupLabel = (value: string) =>
+    groupBy.key === "format" ? formatBookFormat(value) : value;
+
   return (
     <ChartContainer>
       <ResponsiveContainer width="100%" height="100%">
@@ -146,7 +150,7 @@ export function TrendsBarChart({
                             }}
                           />
                           <span style={{ marginRight: "8px" }}>
-                            {entry.name}:
+                            {formatGroupLabel(entry.name as string)}:
                           </span>
                           <span>
                             {Number.isInteger(entry.value)
@@ -162,7 +166,7 @@ export function TrendsBarChart({
               return null;
             }}
           />
-          <Legend />
+          <Legend formatter={formatGroupLabel} />
           {groupBy.key ? (
             [...uniqueGroups]
               .sort((a, b) => {

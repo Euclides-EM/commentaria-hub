@@ -6,6 +6,7 @@ export type ItemProperty = {
   displayName: string;
   filterGroup?: FilterGroup | "General";
   isArray?: boolean;
+  filterOptions?: { label: string; value: string }[];
   customCompareFn?: (a: unknown, b: unknown) => number;
   isTitlePageImageFeature?: boolean;
   isTitlePageTextFeature?: boolean;
@@ -132,11 +133,47 @@ export const itemProperties: {
     customCompareFn: ((a: string, b: string): number => {
       const numA = parseInt(a);
       const numB = parseInt(b);
+      if (Number.isNaN(numA)) return Number.isNaN(numB) ? 0 : 1;
+      if (Number.isNaN(numB)) return -1;
       return numA - numB;
     }) as (a: unknown, b: unknown) => number,
+  },
+  shelfmarkProperties: {
+    displayName: "Shelfmark Properties",
+    filterGroup: "Material",
+    isArray: true,
+    filterOptions: [
+      { label: "Shelfmark available", value: "shelfmark_available" },
+      { label: "Facsimile available", value: "facsimile_available" },
+      {
+        label: "Copyright status unknown",
+        value: "copyright_status_unknown",
+      },
+      {
+        label: "External transcription available",
+        value: "external_transcription_available",
+      },
+      {
+        label: "Internal transcription available",
+        value: "internal_transcription_available",
+      },
+      {
+        label: "External structural metadata available",
+        value: "external_structural_metadata_available",
+      },
+      {
+        label: "Internal structural metadata available",
+        value: "internal_structural_metadata_available",
+      },
+    ],
   },
   titlePageStatus: {
     displayName: "Has Title Page",
     filterGroup: "Title Page",
+  },
+  subjectCategoryValues: {
+    displayName: "Subject Categories",
+    filterGroup: "Subject Categories",
+    isArray: true,
   },
 };

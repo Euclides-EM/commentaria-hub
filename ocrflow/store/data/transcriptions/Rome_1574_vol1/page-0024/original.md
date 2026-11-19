@@ -1,0 +1,11 @@
+<!-- Running title: PROLEGOMENA. -->
+
+firmantque, ita vt vere ſcientiam in auditoris animo gignant, omnemque prorſus dubitationem tollant; Id quod alijs ſcientijs vix tribuere poſſumus, cum in eis ſæpenumero intellectus multitudine opinionum, ac ſententiarum varietate in veritate concluſionum iudicanda ſuſpenſus hæreat, atque incertus. Huius rei fidem aperte faciunt tot Peripateticorũ ſectæ, (ut alios interim philoſophos ſilentio inuoluam) quæ ab Ariſtotele, veluti rami e trunco aliquo, exortæ, adeo & inter ſe, & nonnunquam a fonte ipſo Ariſtotele diſſident, ut prorſus ignores, quid nam ſibi uelit Ariſtoteles, num de nominibus, an de rebus potius diſputationem inſtituat. Hinc fit, ut pars interpretes Græcos, pars Latinos, alij Arabes, alij Nominales, alij denique Reales, quos vocant (qui omnes tamen Peripateticos ſe eſſe gloriantur) tanquam ductores ſequantur. Quod quam longe a Mathematicis demonſtrationibus abſit, neminem latere exiſtimo. Theoremata enim Euclidis, cæterorumque Mathematicorum, eandem hodie, quam ante tot annos, in ſcholis retinent veritatis puritatem, rerum certitudinem, demonſtrationum robur, ac firmitatem. Huc accedit id, quod Plato ait in Philebo, ſeu dialogo, qui de ſummo bono inſcribitur; Eam ſcientiã eſſe digniorem, præſtantiuremque, quæ magis ſynceritatis, ueritatisque eſt amans. Cum igitur diſciplinæ Mathematicæ ueritatem adeo expetant, adament, excolantque, ut non ſolum nihil, quod ſit falſum, uerum etiam nihil, quod tantum probabile exiſtat, nihil denique admittant, quod certiſſimis demonſtrationibus non confirment, corroborentque, dubium eſſe non poteſt, quin eis primus locus inter alias ſcientias omnes ſit concedendus.
+
+## VTILITATES VARIAE MATHEmaticarum diſciplinarum.
+
+{dropcap:N|lines=2|style=plain}ON ſolum vtiles, verumetiam neceſſariæ admodum cenſeri debent diſciplinæ Mathematicæ cum ad alias artes perfecte perdiſcendas, tum ad rem etiam publicam recte inſtituendam, & adminiſtrandam. Neque enim ad Metaphyſicã, vt eleganter oſtendit Proclus, vlli patet aditus, niſi per Mathematicas diſciplinas. Nam ſi a rebus ſenſibilibus, quas Phyſicus conſiderat, ad res ab omni materia ſenſibili ſecretas, ſeiunctasque, quas contemplatur Metaphyſicus, vires, aciemq́;
+
+<!-- Signature: b 2 -->
+
+<!-- Catchword: noſtri -->

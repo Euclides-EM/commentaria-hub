@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
 )
 
 const AnnotationGroupIDPrefix = "anng"

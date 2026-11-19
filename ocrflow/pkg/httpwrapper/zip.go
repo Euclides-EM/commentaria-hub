@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 )
 
 // StoreUncompressedDirFromRequest extracts a ZIP file from the HTTP request and stores its contents in the specified destination path.

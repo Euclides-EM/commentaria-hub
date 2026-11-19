@@ -10,6 +10,7 @@ export type model_ModelTraining = {
     epochs?: number;
     gpu_farm_host?: string;
     readonly id?: string;
+    manual_run?: boolean;
     model?: model_Model;
     name?: string;
     remote_run_dir?: string;

@@ -3,7 +3,6 @@ package service
 import (
 	"context"
 	"fmt"
-	"io"
 	"log"
 	"net/http"
 	"net/url"
@@ -12,18 +11,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/name"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotationrule"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/formatcov"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/name"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/querylang"
 	"github.com/samber/lo"
 )
 
@@ -33,12 +33,17 @@ type Dataset struct {
 	modelSvc        *Model
 	datasetStore    *store.DatasetSQL
 	fileSysMgt      *filesys.Manager
+	llmAvailability llmAvailability
 	httpBearerToken string
 	createQueue     chan struct{}
 	createQueueWait time.Duration
 }
 
-func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, httpBearerToken string, maxParallelCreates int, createQueueWait time.Duration) *Dataset {
+type llmAvailability interface {
+	IsAvailable(provider string) bool
+}
+
+func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, llmAvailability llmAvailability, httpBearerToken string, maxParallelCreates int, createQueueWait time.Duration) *Dataset {
 	if maxParallelCreates <= 0 {
 		maxParallelCreates = 1
 	}
@@ -51,10 +56,33 @@ func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *M
 		modelSvc:        modelSvc,
 		datasetStore:    datasetStore,
 		fileSysMgt:      fileSystemMgt,
+		llmAvailability: llmAvailability,
 		httpBearerToken: strings.TrimSpace(httpBearerToken),
 		createQueue:     make(chan struct{}, maxParallelCreates),
 		createQueueWait: createQueueWait,
 	}
+}
+
+func (d *Dataset) suggestedLLMTranscriptionCorrector() (provider, model string) {
+	providers := []struct {
+		provider string
+		model    string
+	}{
+		{provider: llm.ProviderClaudeCode, model: "fable"},
+		{provider: llm.ProviderOpenAI, model: "gpt-5.6-terra"},
+		{provider: llm.ProviderOllama, model: "qwen3-vl:32b"},
+	}
+
+	for _, candidate := range providers {
+		if d.llmAvailability != nil && d.llmAvailability.IsAvailable(candidate.provider) {
+			return candidate.provider, candidate.model
+		}
+	}
+
+	// Preserve Ollama as the final suggested fallback even when no provider is
+	// currently configured; the rule may be saved and executed elsewhere.
+	fallback := providers[len(providers)-1]
+	return fallback.provider, fallback.model
 }
 
 func (d *Dataset) List(filter *querylang.Filter, sort querylang.Sort) ([]*model.Dataset, error) {
@@ -318,30 +346,10 @@ func (d *Dataset) downloadHTTPFacsimile(ctx context.Context, rawURL, dst string)
 	if d.httpBearerToken != "" {
 		req.Header.Set("Authorization", "Bearer "+d.httpBearerToken)
 	}
-	resp, err := http.DefaultClient.Do(req)
-	if err != nil {
-		return err
-	}
-	defer resp.Body.Close()
-	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
-		body, _ := io.ReadAll(io.LimitReader(resp.Body, 4<<10))
-		return fmt.Errorf("HTTP %d: %s", resp.StatusCode, strings.TrimSpace(string(body)))
-	}
-	if err := os.MkdirAll(filepath.Dir(dst), 0o755); err != nil {
-		return err
-	}
-	out, err := os.Create(dst)
-	if err != nil {
-		return err
-	}
-	defer out.Close()
-	if _, err := io.Copy(out, resp.Body); err != nil {
-		return err
-	}
-	return out.Sync()
+	return futils.DownloadFileWithProgress(req, dst)
 }
 
-func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.AnnotationRule, error) {
+func (d *Dataset) ListSuggestedAnnotationRules(id string, usedInAnnotations map[string][]*annotation.Reference) ([][]annotationrule.AnnotationRule, error) {
 	ds, err := d.Get(id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
@@ -358,21 +366,30 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	if err != nil {
 		return nil, fmt.Errorf("failed to list models: %w", err)
 	}
-	suggestedSegModel := lo.MaxBy(allModels, func(m1, m2 *model.Model) bool {
-		if m2.Type != common.OCRModelTypeSegment {
-			return true
+
+	largestModel := func(models []*model.Model, modelType common.OCRModelType) string {
+		m := lo.MaxBy(lo.Filter(allModels, func(m *model.Model, _ int) bool {
+			return m.Type == modelType
+		}), func(m1, m2 *model.Model) bool {
+			if len(m1.BaseAnnotations) > len(m2.BaseAnnotations) {
+				return true
+			}
+			if len(m1.BaseAnnotations) < len(m2.BaseAnnotations) {
+				return false
+			}
+			if len(usedInAnnotations[m1.ID]) > len(usedInAnnotations[m2.ID]) {
+				return true
+			}
+			if len(usedInAnnotations[m1.ID]) < len(usedInAnnotations[m2.ID]) {
+				return false
+			}
+			return m1.CreatedAt.After(m2.CreatedAt)
+		})
+		if m == nil {
+			return ""
 		}
-		if m1.Type != common.OCRModelTypeSegment {
-			return false
-		}
-		if len(m1.BaseAnnotations) > len(m2.BaseAnnotations) {
-			return true
-		}
-		if len(m1.BaseAnnotations) < len(m2.BaseAnnotations) {
-			return false
-		}
-		return m1.CreatedAt.After(m2.CreatedAt)
-	})
+		return m.ID
+	}
 
 	categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
 	categoriesToRename :=
@@ -400,7 +417,6 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		"CatchWord",
 		"DigitizationArtefactZone",
 		"DropCapitalZone",
-		"DropCapitalZone-Plain",
 		"GraphicZone-Decoration",
 		"GraphicZone-Diagram",
 		"GraphicZone-Table",
@@ -409,10 +425,12 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		"RunningTitleZone",
 	}
 
+	llmTranscriptionCorrectorProvider, llmTranscriptionCorrectorModel := d.suggestedLLMTranscriptionCorrector()
+
 	return [][]annotationrule.AnnotationRule{
 		{
 			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
-			annotationrule.NewModelDetect(lo.TernaryF(suggestedSegModel == nil, func() string { return "" }, func() string { return suggestedSegModel.ID })),
+			annotationrule.NewModelDetect(largestModel(allModels, common.OCRModelTypeSegment)),
 			annotationrule.NewRemoveCategories(categoriesToRemove),
 			annotationrule.NewRenameCategories(categoriesToRename),
 			annotationrule.NewRemoveOverlap(categoriesForOverlapRemove, 1000),
@@ -421,9 +439,12 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 			annotationrule.NewLimitCategoryZones("RunningTitleZone", 1, annotationrule.KeepPositionTop),
 			annotationrule.NewResolveOverlapWithPriority("DropCapitalZone", "GraphicZone-Diagram", 0.8),
 			annotationrule.NewResolveOverlapWithPriority("DropCapitalZone", "GraphicZone-Decoration", 0.8),
-			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone"}, categoriesToExcludeFromLineDetection),
+			annotationrule.NewResolveOverlapWithPriority("MainZone-Head--Book", "MainZone-Head--Section", 0.8),
+			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone", "DropCapitalZone-Plain"}, categoriesToExcludeFromLineDetection),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),
+			annotationrule.NewOCRModelDetect(largestModel(allModels, common.OCRModelTypeOCR)),
+			annotationrule.NewLLMTranscriptionCorrector(llmTranscriptionCorrectorProvider, llmTranscriptionCorrectorModel, nil, false),
 		},
 	}, nil
 }
@@ -482,6 +503,7 @@ func (d *Dataset) Update(id string, m *model.Dataset) (*model.Dataset, error) {
 	existingDS.Name = m.Name
 	existingDS.Description = m.Description
 	existingDS.Pages = m.Pages
+	existingDS.Volume = m.Volume
 	if err := d.datasetStore.UpdateDataset(existingDS); err != nil {
 		return nil, fmt.Errorf("failed to update dataset in store: %w", err)
 	}

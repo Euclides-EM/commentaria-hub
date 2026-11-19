@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/annotationrules"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/annotationrules"
 )
 
 // ApplyAddMarginALTO adds a margin on the given side(s) of all TextBlocks

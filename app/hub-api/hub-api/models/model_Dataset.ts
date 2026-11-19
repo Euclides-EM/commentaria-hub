@@ -25,5 +25,6 @@ export type model_Dataset = {
      */
     status?: string;
     readonly updated_at?: string;
+    volume?: number;
 };
 

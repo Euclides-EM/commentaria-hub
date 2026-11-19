@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
+import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
 import {
   getTeiParagraphSelection,
@@ -16,6 +18,7 @@ import { parseLineMatchIds } from './teiPaneUtils.tsx'
 
 const TEI_HIGHLIGHT_SELECTOR = '[data-tei-highlight="true"]'
 const TEI_LINE_MATCH_SELECTOR = '[data-tei-line-match-ids]'
+const TEI_CURATED_HEADING_SELECTOR = '[data-tei-block-type="curated-heading"]'
 const TOOLTIP_VIEWPORT_MARGIN = 12
 
 const getTooltipItems = (element: Element | null): TeiTooltipItem[] => {
@@ -125,8 +128,8 @@ const getSelectionDraft = (
       ? range.endContainer
       : range.endContainer.parentElement
 
-  const startParagraph = startParent?.closest('p[data-tei-paragraph-index]')
-  const endParagraph = endParent?.closest('p[data-tei-paragraph-index]')
+  const startParagraph = startParent?.closest('[data-tei-paragraph-index]')
+  const endParagraph = endParent?.closest('[data-tei-paragraph-index]')
 
   if (!startParagraph || !endParagraph || startParagraph !== endParagraph) {
     return null
@@ -195,7 +198,15 @@ export const TeiContentView = ({
   onRequestAddHighlight,
   onRequestRemoveHighlight,
 }: TeiContentViewProps) => {
-  const { searchResultHighlight: contextSearchResultHighlight } = useAppState()
+  const { state, searchResultHighlight: contextSearchResultHighlight } =
+    useAppState()
+  const [selectedIndexTypes] = useLocalStorageState<string[]>(
+    useScopedStorageKey(`indexTypes.${state.datasetId}.${state.annotationId}`),
+    {
+      defaultValue: ['default'],
+      storageSync: false,
+    },
+  )
   const [tooltipState, setTooltipState] = useState<TeiTooltipState | null>(null)
   const [selectionState, setSelectionState] = useState<SelectionDraft | null>(
     null,
@@ -273,6 +284,23 @@ export const TeiContentView = ({
       }
     })
   }, [activeLineMatchIds, html])
+
+  useEffect(() => {
+    const root = rootRef.current
+    if (!root) return
+
+    const selectedTypes = new Set(selectedIndexTypes)
+    root
+      .querySelectorAll<HTMLElement>(TEI_CURATED_HEADING_SELECTOR)
+      .forEach((heading) => {
+        const indexType = heading.dataset.teiBlockSubtype || 'default'
+        if (selectedTypes.has(indexType)) {
+          heading.removeAttribute('data-tei-index-layer-unselected')
+        } else {
+          heading.setAttribute('data-tei-index-layer-unselected', 'true')
+        }
+      })
+  }, [html, selectedIndexTypes])
 
   const tooltip =
     tooltipState &&
@@ -508,7 +536,7 @@ export const TeiContentView = ({
         </div>
       )}
       <div
-        className={`text-xs leading-relaxed p-2 ${noFrame ? '' : 'border border-gray-300 rounded-xl bg-gray-50'} ${showViewLabel ? 'pt-7' : ''} [&_p]:mb-2 [&_p:last-child]:mb-0 ${centerRows ? '[&_p]:text-center' : ''} [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5 [&_[data-tei-corresp-hovered='true']]:bg-teal-100/70 [&_[data-tei-corresp-hovered='true']]:outline [&_[data-tei-corresp-hovered='true']]:outline-1 [&_[data-tei-corresp-hovered='true']]:outline-teal-500/70 [&_[data-tei-corresp-hovered='true']]:rounded-sm`}
+        className={`tei-readable text-xs leading-relaxed p-2 ${noFrame ? '' : 'border border-gray-300 rounded-xl bg-gray-50'} ${showViewLabel ? 'pt-7' : ''} [&_p]:mb-2 [&_p:last-child]:mb-0 ${centerRows ? '[&_p]:text-center [&_table]:text-center' : ''} [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5 [&_[data-tei-corresp-hovered='true']]:bg-teal-100/70 [&_[data-tei-corresp-hovered='true']]:outline [&_[data-tei-corresp-hovered='true']]:outline-1 [&_[data-tei-corresp-hovered='true']]:outline-teal-500/70 [&_[data-tei-corresp-hovered='true']]:rounded-sm`}
         style={{ whiteSpace: 'normal' }}
         dangerouslySetInnerHTML={{ __html: html }}
       />

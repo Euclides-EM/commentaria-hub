@@ -27,6 +27,7 @@ import { ModelImportModal } from './ModelImportModal'
 import { ModelTrainModal } from './ModelTrainModal'
 import { useDatasetsQuery } from '../../queries/datasets'
 import { useQueries } from '@tanstack/react-query'
+import { API_BASE_URL } from '../../config/api'
 
 const getDisplayValue = (value?: string) => value?.trim() || '—'
 
@@ -427,6 +428,15 @@ export function ModelsTable() {
     })
   }
 
+  const handleDownload = (id: string | undefined) => {
+    if (!id) return
+    window.open(
+      `${API_BASE_URL}/models/${encodeURIComponent(id)}/download`,
+      '_blank',
+      'noopener,noreferrer',
+    )
+  }
+
   const handleCopyId = (id: string | undefined) => {
     if (!id) return
     void navigator.clipboard.writeText(id).then(() => {
@@ -570,6 +580,14 @@ export function ModelsTable() {
                           {isAuthenticated && (
                             <td className="px-4 py-3 whitespace-nowrap">
                               <div className="flex items-center justify-end gap-2">
+                                {model.location === 'local' && (
+                                  <Button
+                                    className="px-2 py-1 text-xs"
+                                    onClick={() => handleDownload(model.id)}
+                                  >
+                                    Download
+                                  </Button>
+                                )}
                                 <Button
                                   className="px-2 py-1 text-xs"
                                   onClick={() => handleCopyId(model.id)}

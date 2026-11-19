@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type feature_AIProvider = 'ollama' | 'openai';
+export type feature_AIProvider = 'claude-code' | 'ollama' | 'openai';

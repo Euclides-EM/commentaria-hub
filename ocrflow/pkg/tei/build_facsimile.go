@@ -3,8 +3,8 @@ package tei
 import (
 	"fmt"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 )
 
 func buildFacsimileForLines(pageKey, imageUrl string, lines []string) model.Facsimile {
@@ -70,6 +70,8 @@ func buildFacsimileForAlto(pageKey, imageUrl string, a *alto.Alto) model.Facsimi
 				XmlID: surfaceID(pageKey),
 				Facs:  imageUrl,
 				N:     pageKey,
+				LRX:   float64(a.Layout.Page[0].Width),
+				LRY:   float64(a.Layout.Page[0].Height),
 				Zones: append(textBlockZones, lineZones...),
 			},
 		},

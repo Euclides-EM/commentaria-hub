@@ -1,0 +1,57 @@
+marker,comparison_group,count,denominator,share
+practical / utility,Elements: Jesuit-marked,7,24,0.2916666666666667
+practical / utility,Elements: other,12,235,0.05106382978723404
+practical / utility,Non-Elements: Jesuit-marked,7,17,0.4117647058823529
+practical / utility,Non-Elements: other,89,533,0.1669793621013133
+access / pedagogy,Elements: Jesuit-marked,8,24,0.3333333333333333
+access / pedagogy,Elements: other,33,235,0.14042553191489363
+access / pedagogy,Non-Elements: Jesuit-marked,1,17,0.058823529411764705
+access / pedagogy,Non-Elements: other,49,533,0.09193245778611632
+method / order,Elements: Jesuit-marked,17,24,0.7083333333333334
+method / order,Elements: other,95,235,0.40425531914893614
+method / order,Non-Elements: Jesuit-marked,5,17,0.29411764705882354
+method / order,Non-Elements: other,85,533,0.15947467166979362
+augmentation / composition,Elements: Jesuit-marked,12,24,0.5
+augmentation / composition,Elements: other,94,235,0.4
+augmentation / composition,Non-Elements: Jesuit-marked,7,17,0.4117647058823529
+augmentation / composition,Non-Elements: other,149,533,0.2795497185741088
+restoration / ancient authority,Elements: Jesuit-marked,20,24,0.8333333333333334
+restoration / ancient authority,Elements: other,196,235,0.8340425531914893
+restoration / ancient authority,Non-Elements: Jesuit-marked,2,17,0.11764705882352941
+restoration / ancient authority,Non-Elements: other,65,533,0.12195121951219512
+correction / revision,Elements: Jesuit-marked,12,24,0.5
+correction / revision,Elements: other,50,235,0.2127659574468085
+correction / revision,Non-Elements: Jesuit-marked,1,17,0.058823529411764705
+correction / revision,Non-Elements: other,61,533,0.11444652908067542
+translation / transfer,Elements: Jesuit-marked,0,24,0.0
+translation / transfer,Elements: other,72,235,0.30638297872340425
+translation / transfer,Non-Elements: Jesuit-marked,1,17,0.058823529411764705
+translation / transfer,Non-Elements: other,46,533,0.08630393996247655
+visual aids,Elements: Jesuit-marked,2,24,0.08333333333333333
+visual aids,Elements: other,40,235,0.1702127659574468
+visual aids,Non-Elements: Jesuit-marked,2,17,0.11764705882352941
+visual aids,Non-Elements: other,75,533,0.14071294559099437
+selection / abridgment,Elements: Jesuit-marked,2,24,0.08333333333333333
+selection / abridgment,Elements: other,40,235,0.1702127659574468
+selection / abridgment,Non-Elements: Jesuit-marked,1,17,0.058823529411764705
+selection / abridgment,Non-Elements: other,38,533,0.07129455909943715
+completeness / system,Elements: Jesuit-marked,8,24,0.3333333333333333
+completeness / system,Elements: other,35,235,0.14893617021276595
+completeness / system,Non-Elements: Jesuit-marked,2,17,0.11764705882352941
+completeness / system,Non-Elements: other,62,533,0.11632270168855535
+students / schools,Elements: Jesuit-marked,3,24,0.125
+students / schools,Elements: other,6,235,0.02553191489361702
+students / schools,Non-Elements: Jesuit-marked,4,17,0.23529411764705882
+students / schools,Non-Elements: other,1,533,0.001876172607879925
+universities / colleges,Elements: Jesuit-marked,0,24,0.0
+universities / colleges,Elements: other,3,235,0.01276595744680851
+universities / colleges,Non-Elements: Jesuit-marked,0,17,0.0
+universities / colleges,Non-Elements: other,10,533,0.01876172607879925
+institution mentioned,Elements: Jesuit-marked,24,24,1.0
+institution mentioned,Elements: other,85,235,0.3617021276595745
+institution mentioned,Non-Elements: Jesuit-marked,17,17,1.0
+institution mentioned,Non-Elements: other,104,533,0.1951219512195122
+Jesuit,Elements: Jesuit-marked,24,24,1.0
+Jesuit,Elements: other,0,235,0.0
+Jesuit,Non-Elements: Jesuit-marked,12,17,0.7058823529411765
+Jesuit,Non-Elements: other,0,533,0.0

@@ -1,0 +1,42 @@
+<!-- Running title: Das I Buch -->
+
+<!-- Page number: 28 -->
+
+[Diagram: zwey Dreyecke ABC und DEF nebeneinander]
+
+### Beweiß.
+
+Auff den Grund-Strich BC setze man die zween Striche ED und FD, auff dieselbe Seite / an welcher die Striche AB und AC stehen/ so werden sie zusammen kommen in dem Düttel A, nach 7. Vortr. und werden sich alßdann die beeden Winckel BAC und EDF zusammen schicken/und auch ein ander gleich seyn/nach 8. Grund-Satz. W. Z. B.
+
+### I. Zugabe.
+
+Weil in den beeden Dreyecken
+Die Seiten-Striche AB + AC | DE + DF
+und die Grund-Striche BC | EF wären
+Darnach BAC ⋏ EDF bewiesen/
+so folget daß
+
+ABC ⋏ DEF
+BCA ⋏ EFD
+und ABC ⏉ DEF } alles nach 4. Vortr. W. Z. B.
+
+[Curated heading level=2 type=propositions: Der IX. Vortrag.]
+
+[Curated heading level=2 type=problems: Das 4. Werck-Stück.]
+
+## Der IX. Vortrag.
+
+## Das 4. Werck-Stück.
+
+Einen gegebenen gerad-strichichen Winckel in zweene gleiche Theile zu theilen.
+
+### Gegebenes
+
+Gerad-strichicher Winckel ⋀ BAC.
+
+### Begehrtes
+
+1. theilung des ⋀ BAC.
+2. BAF ⋏ CAF.
+
+<!-- Catchword: Wir- -->

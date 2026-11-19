@@ -2,13 +2,14 @@ package filesys
 
 import (
 	"fmt"
+	"os"
 	"path"
 	"path/filepath"
 	"strconv"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 )
 
 // Dataset storage layout:
@@ -26,17 +27,9 @@ import (
 //          │  ├─ page-0001.xml
 //          │  ├─ page-0002.xml
 //          │  └─ ...
-//          └─ yolo/
-//             ├─ images/
-//             │  ├─ page-0001.jpg
-//             │  ├─ page-0002.jpg
-//             │  └─ ...
-//             ├─ labels/
-//             │  ├─ page-0001.txt
-//             │  ├─ page-0002.txt
-//             │  └─ ...
-//             ├─ config.yml
-//             └─ labelmap.txt
+//
+// YOLO is an interchange/training format generated in temporary directories;
+// it is not part of the durable per-annotation storage layout.
 
 func (m *Manager) DatasetDir(dsID string) string {
 	return path.Join(m.baseDir, dsID)
@@ -52,6 +45,10 @@ func (m *Manager) DatasetImagesDir(ds *model.Dataset) string {
 
 func (m *Manager) DatasetImagesDirByID(dsID string) string {
 	return path.Join(m.DatasetDir(dsID), "imgs")
+}
+
+func (m *Manager) DatasetImagePathByID(dsID string, imageName string) string {
+	return path.Join(m.DatasetImagesDirByID(dsID), imageName)
 }
 
 func (m *Manager) DatasetImageVariantsDirByID(dsID string, variant string) string {
@@ -71,32 +68,58 @@ func (m *Manager) DatasetAnnotationAltoDir(ann *annotation.Annotation) string {
 	return path.Join(m.baseAnnotationPath(ann), "alto")
 }
 
-func (m *Manager) DatasetAnnotationYoloDir(ann *annotation.Annotation) string {
-	return path.Join(m.baseAnnotationPath(ann), "yolo")
-}
-
 func (m *Manager) ModelPath(model *model.Model) string {
 	return path.Join(m.modelsDir, model.LocalPath)
+}
+
+func (m *Manager) DefaultModelPath() string {
+	return m.defaultModelsDir
 }
 
 func (m *Manager) DiagramCropsMetadataFile(editionKey string) string {
 	return path.Join(m.diagramsDir, editionKey+".json")
 }
 
-func (m *Manager) EditionTxtTranscriptionDir(ed *model.Edition) string {
-	return path.Join(m.baseDir, "transcriptions", ed.Key)
+func DiagramCropRelPath(key, imageName string) string {
+	return path.Join(key, "crops", imageName)
+}
+
+func DiagramCropPath(diagramsDir, relPath string) string {
+	return path.Join(diagramsDir, relPath)
+}
+
+func (m *Manager) editionTxtTranscriptionDirCandidates(editionKey string, volume *int) []string {
+	editionDir := path.Join(m.baseDir, "transcriptions", editionKey)
+	if volume == nil {
+		return []string{editionDir}
+	}
+	volumeDir := path.Join(m.baseDir, "transcriptions", fmt.Sprintf("%s_vol%d", editionKey, *volume))
+	if *volume == 1 {
+		return []string{editionDir, volumeDir}
+	}
+	return []string{volumeDir}
+}
+
+func (m *Manager) EditionTxtTranscriptionDir(editionKey string, volume *int) string {
+	candidates := m.editionTxtTranscriptionDirCandidates(editionKey, volume)
+	for _, candidate := range candidates {
+		if info, err := os.Stat(candidate); err == nil && info.IsDir() {
+			return candidate
+		}
+	}
+	return candidates[0]
 }
 
 func (m *Manager) AnnotationTxtTranscriptionDir(ann *annotation.Annotation) string {
 	return path.Join(m.baseAnnotationPath(ann), "transcriptions")
 }
 
-func (m *Manager) EditionTxtPageTranscriptionDir(ed *model.Edition, key string) string {
+func (m *Manager) EditionTxtPageTranscriptionDir(editionKey string, volume *int, key string) string {
 	var d = key
 	if pageNum, err := strconv.Atoi(key); err == nil {
 		d = pagesparser.PageToFilename(pageNum, "")
 	}
-	return path.Join(m.EditionTxtTranscriptionDir(ed), d)
+	return path.Join(m.EditionTxtTranscriptionDir(editionKey, volume), d)
 }
 
 func (m *Manager) AnnotationTxtPageTranscriptionDir(ann *annotation.Annotation, key string) string {

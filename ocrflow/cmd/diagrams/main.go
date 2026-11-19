@@ -11,11 +11,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/formatcov"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/krakenwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 	"golang.org/x/sync/errgroup"
 
 	_ "image/gif"

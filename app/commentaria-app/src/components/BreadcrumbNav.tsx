@@ -1,27 +1,40 @@
 import { useMemo } from 'react'
 import Select from 'react-select'
-import { useDatasetsQuery } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { selectStyles } from '../styles/selectStyles.ts'
 import { useAppState } from '../context/useAppState.ts'
 import { usePipelineStages } from '../queries/metadata.ts'
 import useLocalStorageState from 'use-local-storage-state'
-import type { annotationrule_PipelineStage } from '@hub-api'
 import { MultiSelectDropdown } from './core/MultiSelectDropdown.tsx'
 
-import { getStageDisplayName } from '../utils/stages.ts'
 import { Button } from './core/Button.tsx'
+import {
+  DATASET_COMPLETENESS_ITEMS,
+  getDatasetCompleteness,
+  type DatasetCompleteness,
+} from '../utils/datasets.ts'
+import {
+  buildAnnotationOptions,
+  type AnnotationFilterItem,
+} from '../utils/annotationOptions.ts'
+import { StageFilterDropdown } from './StageFilterDropdown.tsx'
+import { useDatasetOptions } from './useDatasetOptions.ts'
 
-const Separator = () => <span className="bg-gray-600 w-px h-fill mx-2" />
-const HIDDEN_FILTER = '__hidden__' as const
-type AnnotationFilterItem = annotationrule_PipelineStage | typeof HIDDEN_FILTER
+const Separator = () => <span className="self-stretch bg-gray-600 w-px mx-2" />
 
 export function BreadcrumbNav() {
   const { state, setState } = useAppState()
 
-  const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
+  const {
+    datasets,
+    datasetsLoading,
+    datasetOptions,
+    selectedDatasetCompleteness,
+    setSelectedDatasetCompleteness,
+  } = useDatasetOptions()
   const { data: annotations, isLoading: annotationsLoading } =
     useAnnotationsQuery(state.datasetId)
+  const isCompareMode = state.viewMode === 'compare'
   const { data: stages } = usePipelineStages()
   const [selectedStages, setSelectedStages] = useLocalStorageState<
     AnnotationFilterItem[] | null
@@ -29,68 +42,22 @@ export function BreadcrumbNav() {
     defaultValue: null,
   })
 
-  const stageFilterItems = useMemo<AnnotationFilterItem[]>(
-    () => [...(stages || []), HIDDEN_FILTER],
-    [stages],
-  )
   const effectiveSelectedStages = useMemo<AnnotationFilterItem[] | null>(() => {
     if (selectedStages != null) {
       return selectedStages
     }
     return stages || null
   }, [selectedStages, stages])
-  const filteredAnnotations = useMemo(() => {
-    if (!annotations) {
-      return []
-    }
-    const includeHidden =
-      effectiveSelectedStages?.includes(HIDDEN_FILTER) ?? false
-    return annotations.filter((a) => {
-      if (a.hidden && !includeHidden) {
-        return false
-      }
-      return (
-        effectiveSelectedStages == null ||
-        !a.pipeline_stage ||
-        effectiveSelectedStages.includes(a.pipeline_stage)
-      )
-    })
-  }, [annotations, effectiveSelectedStages])
 
-  const datasetOptions = useMemo(() => {
-    if (!datasets) return []
-    return datasets
-      .filter((d) => !!d.id)
-      .map((d) => ({
-        value: d.id as string,
-        label: d.name || (d.id as string),
-      }))
-      .sort((a, b) => a.label.localeCompare(b.label))
-  }, [datasets])
-
-  const annotationOptions = useMemo(() => {
-    const options = filteredAnnotations
-      .filter((a) => !!a.id)
-      .map((a) => ({
-        value: a.id as string,
-        label: a.name || (a.id as string),
-      }))
-    if (state.annotationId && annotations) {
-      const selectedAnnotation = annotations.find(
-        (a) => a.id === state.annotationId,
-      )
-      if (
-        selectedAnnotation?.id &&
-        !options.some((option) => option.value === selectedAnnotation.id)
-      ) {
-        options.push({
-          value: selectedAnnotation.id,
-          label: selectedAnnotation.name || selectedAnnotation.id,
-        })
-      }
-    }
-    return options.sort((a, b) => a.label.localeCompare(b.label))
-  }, [annotations, filteredAnnotations, state.annotationId])
+  const annotationOptions = useMemo(
+    () =>
+      buildAnnotationOptions(
+        annotations,
+        effectiveSelectedStages,
+        state.annotationId,
+      ),
+    [annotations, effectiveSelectedStages, state.annotationId],
+  )
 
   const selectedDataset =
     datasetOptions.find((d) => d.value === state.datasetId) || null
@@ -101,6 +68,24 @@ export function BreadcrumbNav() {
 
   const handleDatasetChange = (value: string) => {
     setState({ datasetId: value, annotationId: '' })
+  }
+
+  const handleDatasetCompletenessChange = (
+    items: DatasetCompleteness[] | null,
+  ) => {
+    setSelectedDatasetCompleteness(items)
+
+    if (!state.datasetId || !datasets) return
+    const selectedDataset = datasets.find(
+      (dataset) => dataset.id === state.datasetId,
+    )
+    if (!selectedDataset) return
+
+    const selectedCompleteness = getDatasetCompleteness(selectedDataset.pages)
+    const effectiveItems = items ?? DATASET_COMPLETENESS_ITEMS
+    if (!effectiveItems.includes(selectedCompleteness)) {
+      handleDatasetChange('')
+    }
   }
 
   const handleAnnotationChange = (value: string) => {
@@ -158,91 +143,102 @@ export function BreadcrumbNav() {
       >
         Jobs
       </Button>
-
-      <Separator />
-
-      <div
-        className={`text-shadow-gray-800 font-semibold px-1 rounded ${highlightDataset ? 'label-glow text-teal-800' : ''}`}
+      <Button
+        variant="primary"
+        className={`h-8 w-16 px-2 text-xs px-2 ${isCompareMode && '!bg-teal-100 hover:!bg-white'}`}
+        onClick={() =>
+          setState(
+            isCompareMode
+              ? { viewMode: null }
+              : {
+                  viewMode: 'compare',
+                  leftDatasetId: state.datasetId,
+                  leftAnnotationId: state.annotationId,
+                  leftPage: state.currentPageOrKey,
+                },
+          )
+        }
       >
-        Dataset
-      </div>
-      <div style={{ minWidth: '200px' }}>
-        <Select
-          value={selectedDataset}
-          onChange={(option: { value: string; label: string } | null) =>
-            handleDatasetChange(option?.value || '')
-          }
-          options={datasetOptions}
-          placeholder="Select dataset..."
-          isLoading={datasetsLoading}
-          styles={selectStyles<{ value: string; label: string }>()}
-          menuPortalTarget={document.body}
-          menuPosition="fixed"
-          isClearable
-        />
-      </div>
+        Compare
+      </Button>
 
-      {showAnnotationSelect && (
-        <div className="flex items-center gap-2 flex-nowrap shrink-0">
-          <div className="h-3 w-3 rotate-[-45deg] border-b border-r border-slate-600" />
+      {!isCompareMode && (
+        <>
+          <Separator />
 
           <div
-            className={`text-shadow-gray-800 font-semibold px-1 rounded ${highlightAnnotation ? 'label-glow text-teal-800' : ''}`}
+            className={`text-shadow-gray-800 font-semibold px-1 rounded ${highlightDataset ? 'label-glow text-teal-800' : ''}`}
           >
-            Annotation
+            Dataset
           </div>
           <div style={{ minWidth: '200px' }}>
             <Select
-              value={selectedAnnotation}
+              value={selectedDataset}
               onChange={(option: { value: string; label: string } | null) =>
-                handleAnnotationChange(option?.value || '')
+                handleDatasetChange(option?.value || '')
               }
-              options={annotationOptions}
-              placeholder="Select annotation..."
-              isLoading={annotationsLoading}
+              options={datasetOptions}
+              placeholder="Select dataset..."
+              isLoading={datasetsLoading}
               styles={selectStyles<{ value: string; label: string }>()}
               menuPortalTarget={document.body}
               menuPosition="fixed"
               isClearable
-              isDisabled={!state.datasetId}
             />
           </div>
 
-          <MultiSelectDropdown
-            allItems={stageFilterItems}
-            selectedItems={effectiveSelectedStages}
-            setSelectedItems={setSelectedStages}
-            itemsLabel="stages"
-            bulkActionItems={stages || []}
-            bulkActionLabel="stages"
-            showSeparatorBeforeItem={(item) => item === HIDDEN_FILTER}
-            getItemLabel={(item) =>
-              item === HIDDEN_FILTER ? 'Hidden' : getStageDisplayName(item)
-            }
+          <MultiSelectDropdown<DatasetCompleteness>
+            allItems={DATASET_COMPLETENESS_ITEMS}
+            selectedItems={selectedDatasetCompleteness}
+            setSelectedItems={handleDatasetCompletenessChange}
+            itemsLabel="coverage types"
+            getItemLabel={(item) => (item === 'full' ? 'Full' : 'Partial')}
             getPickerLabel={({ selectedItems }) => {
-              const selected = selectedItems ?? stageFilterItems
-              const allStageCount = stages?.length ?? 0
-              const selectedStages = (stages || []).filter((stage) =>
-                selected.includes(stage),
-              )
-              const isHiddenSelected = selected.includes(HIDDEN_FILTER)
-
               if (
-                allStageCount > 0 &&
-                selectedStages.length === allStageCount
+                selectedItems == null ||
+                selectedItems.length === DATASET_COMPLETENESS_ITEMS.length
               ) {
-                return 'All stages'
+                return 'Full & partial'
               }
-              if (selectedStages.length === 0) {
-                return isHiddenSelected ? 'Hidden' : 'None'
-              }
-              if (selectedStages.length === 1) {
-                return getStageDisplayName(selectedStages[0])
-              }
-              return `${selectedStages.length} stages`
+              if (selectedItems.length === 0) return 'None'
+              return selectedItems[0] === 'full' ? 'Full only' : 'Partial only'
             }}
           />
-        </div>
+
+          {showAnnotationSelect && (
+            <div className="flex items-center gap-2 flex-nowrap shrink-0">
+              <div className="h-3 w-3 rotate-[-45deg] border-b border-r border-slate-600" />
+
+              <div
+                className={`text-shadow-gray-800 font-semibold px-1 rounded ${highlightAnnotation ? 'label-glow text-teal-800' : ''}`}
+              >
+                Annotation
+              </div>
+              <div style={{ minWidth: '200px' }}>
+                <Select
+                  value={selectedAnnotation}
+                  onChange={(option: { value: string; label: string } | null) =>
+                    handleAnnotationChange(option?.value || '')
+                  }
+                  options={annotationOptions}
+                  placeholder="Select annotation..."
+                  isLoading={annotationsLoading}
+                  styles={selectStyles<{ value: string; label: string }>()}
+                  menuPortalTarget={document.body}
+                  menuPosition="fixed"
+                  isClearable
+                  isDisabled={!state.datasetId}
+                />
+              </div>
+
+              <StageFilterDropdown
+                stages={stages}
+                selectedItems={effectiveSelectedStages}
+                setSelectedItems={setSelectedStages}
+              />
+            </div>
+          )}
+        </>
       )}
     </div>
   )

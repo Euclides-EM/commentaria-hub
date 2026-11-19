@@ -1,0 +1,29 @@
+<!-- Running title: D'EVCLIDE, LIV. III. -->
+
+gnée du centre sur laquelle tombe la plus grande perpendiculaire.
+
+[Figure]
+
+[Curated heading level=3 type=definitions: V.]
+
+### V.
+
+Segment ou section de cercle, est vne figure comprise sous vne ligne droicte, & la circonference du cercle.
+
+[Figure]
+
+5.d.3 | abc & def *ſnt* ⌓.
+
+[Curated heading level=3 type=definitions: VI.]
+
+### VI.
+
+L'angle du segment ou de la section, est celuy qui est compris sous vne ligne droicte, & la circonference du cercle.
+
+6.d.3 | cab *eſt* ∠ *du ſegment* ABC.
+
+[Curated heading level=3 type=definitions: VII.]
+
+### VII.
+
+Mais vn angle est au segment ou en la section, lors qu'on prend quelque poinct en la circonference du segment, & d'iceluy sont menées deux lignes droictes sur les extremitez de la ligne droicte, laquelle est la base du segment, & c'est celuy-là,

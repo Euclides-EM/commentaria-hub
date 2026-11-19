@@ -1,0 +1,15 @@
+<!-- Running title: Euclidis -->
+
+lo dato acta eſt.
+
+## ¶ Diffinitio. xvi.
+
+¶ Appoſitione eſt quæ per datũ ſignũ poſitione rectę lineę parallelus acta eſt.
+
+### ¶ Interpres.
+
+¶ {dropcap:Q|lines=2|style=plain}uoniam in eo uolumine ex quo Data huiusmodi tranſcripſimus: in latinũq; conuertimus: quod ſane uetuſtiſſimum eſt. nõ nullas adiectiones comperimus. quæ. licet breues & conciſæ ſint. q̃m ad datorum intelligentiã plurimum conferunt. ut ſe ſe habent ſic eas ſumus interpretati. ſtudentes uero iudicabunt. Apud græcos id obſeruatum inq̃ inuenimus. ut non omnes interpretationes auctorum ſcribant aut conficiant. ſed hii tantum qui inter auctores nominari poſſint. ut fuerũt homerici. & pyndarici interpretes. & alii plures uiri ſane grauiſſimi. in diſciplinis humanioribus. Idemq; quoq; in phyſiologicis ut ſuñt interpretes. Ariſtotelici. Ammonius. Alexander. Ioannes grã. Themiſtius. & Platonici. ſic etiã in mathematicis. ut Theon. Hypſicles. Pappus. Heron alexandrinus. Proclus Lycius qui in Euclide ſcripſerunt. factũq; eſt id propterea ut apud græcos nõ uideamus iſta imẽſa nugarũ uolumina. quorũ nos latini pleni ſumus. Videmus enim unũquenq; auctorem tribus & quattuor cõmentationibus eſſe nõ interpretatũ ſed laceratũ. & adeo ut crebro ſtudentes neſciãt ubi nam ſit incipiendũ. quippe q̃m ſunt adeo nugis & laruis neſcio quibus obſiti ut cecutientes in tenebris ambulent. illud namq; Horatianũ ſi nunq; nunc mirũ inmodum uerũ eſt. nã ſcribimus indocti doctiq; poemata paſſim. nolim tamẽ detrahere phamæ & auctoritati. Seruii. Acronis. Porphyrii. Donati. Lactãtii grauiſſimorꝝ auctorꝝ: qui linguã latinã illuſtrarũt. de illis uero aliis quid dicendum ſuperſit ignoramꝰ? Ecce etiã plurima uideas opuſcula in grãmaticis cõpoſita. quæ in eũ creuerunt numerũ ut ſtudentes ſuperauerint. Miramur plurimũ q; hac noſtra ætate tanta ſit audacia. ut q̃ſi Priſcianus. Diomedes. Agreſius. Phocas. Donatus: & alii auctores grauiſſimi non ſatis exquiſite ea quæ in gramaticis erãt dicenda conſcripſerint. neſcio qui inſurrexerint conãtes ut ſuæ nugæ neglectis auctoribus bonis legantur. & hiis aſſueſcãt adoleſcentes qui hiis nugis cura præceptorum iudicio carentium ſtudentes ſcholis ignorantiſſimi exeunt. ſed hos iam miſſos faciamus cũ cuilibet audẽdi ſemp̃ æqua fuerit poteſtas: redeamuſq; ad rem noſtrã. Ubicunq; igitur id datorum theorematibus lector humaniſſime uidebis aliqua dicta per Scholium. ea omnia ex græcis adiectionibus ſumpta eſſe cenſeto. Ea enim a græcis ſcholia nuncupantur q̃ a nobis latine poſtilla dicuntur.
+
+### Scolium.
+
+¶ Datorum aliqua poſitione: at alia magnitudine data ſũt. Datum ſiquidem quadrupliciter dicetur. aut enim magnitudine. aut ſpecie. aut ratione. aut poſitione dari dicitur. quid uero horum unumquodq; ſignificet: ipſe Euclides docet: Cõmuniter aũt dicitur datũ: cui idem inuenire & exhibere eſt poſſibile. Datorum uero traditionem in plano ſuppoſitam accipimus ſicut in ſex prioribꝰ libris elementorũ. Data ſunt definita: hoc eſt quorũ finis datur aut intellectu aut ſenſu: hiis enim æqua poſſumus exhibere, ſimiliter aũt ſiue intelligentia. ſi

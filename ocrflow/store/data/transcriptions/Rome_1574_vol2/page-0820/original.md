@@ -1,0 +1,11 @@
+<!-- Running title: EVCLID. GEOM. -->
+
+[Ornament: decorative pieces flanking the running title]
+
+illarum rectarum Rationalium potentia ſolum commenſurabilium, quemadmodum & recta ipſa media proportionalis eſt inter dictas Rationales. Nam ſi tres lineæ ſint continue proportionales, quales ſunt B C, & recta Irrationalis, quæ Media dicitur, & C D; erunt quoque rectilinea ſimilia, ſimiliterq; deſcripta ſuper ipſas, cuiuſmodi ſunt earum quadrata, proportionalia, vt in ſcholio propoſ. 22. lib. 6. demonſtrauimus. Quare quadratum ex Media deſcriptũ proportionale eſt inter quadrata rectarum B C, C D, ideoq; Medium appellari poteſt.
+
+HOC autem non ita intelligas, vt putes omne rectangulum Medium contineri ſub duabus rectis Rationalibus potentia tantum commenſurabilibus, quale eſt Medium B D. Hoc enim falſum eſt, cum & ſpatium Medium contineri poſſit ſub duabus Irrationalibus, nempe Medijs longitudine, vel potentia tantum inter ſe commenſurabilibus, vt ex propoſ. 25. & 26. huius lib. conſtabit. Itaque non reciprocantur rectangulum ſub duabus Rationalibus potentia tantum inter ſe commenſurabilibus contentum, & ſpatium Medium. Omne ſiquidem rectangulum ſub duabus Rationalibus potentiæ tantum commenſurabilibus contentum, Medium eſt, vt oſtendimus: At non omne ſpatium Medium ſub duabus Rationalibus potentia tantum commenſurabilibus continetur. Vniuerſe tamen omne ſpatium Medium æquale eſt alteri cuipiam Medio ſub duabus Rationalibus potentia tantum commenſurabilibus contento. Nam alias recta ipſum potens, non eſſet dicenda Media, quia non poſſet rectangulum ſub duabus Rationalibus potentia tantum commenſurabilibus comprehenſum; vel non eſſet proportionalis inter duas Rationales potentia tantum commenſurabiles.
+
+VNDE Medium deſcribi ſic poterit, vt dicamus, illud eſſe rectangulum ſub duabus Rationalibus potentia tantum cõmenſurabilibus contentum: Vel certe rectangulum, quod alteri cuipiam rectangulo ſub duabus Rationalibus potentia ſolum commenſurabilibus comprehenſo æquale eſt, ita vt ipſum poſſit linea recta, quæ Media in hoc theoremate eſt vocata. Omne enim Medium non contentum ſub duabus huiuſmodi Rationalibus reuocari poteſt ad aliud Medium, cuius latera ſunt duæ lineæ Rationales potentia tantum commenſurabiles, vt in ſcholio ſequentis theorematis oſtendemus.
+
+<!-- Catchword: THEOR. -->

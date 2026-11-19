@@ -2,11 +2,28 @@ package httpwrapper
 
 import (
 	"encoding/json"
+	"errors"
+	"io"
+	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
 )
+
+// statusCoder lets handlers mark an error as a specific HTTP response status.
+// Errors without a status code retain the wrapper's default 500 response.
+type statusCoder interface {
+	HTTPStatusCode() int
+}
+
+func errorStatus(err error, defaultStatus int) int {
+	var statusErr statusCoder
+	if errors.As(err, &statusErr) {
+		return statusErr.HTTPStatusCode()
+	}
+	return defaultStatus
+}
 
 func writeJSON(w http.ResponseWriter, status int, v any) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
@@ -57,6 +74,16 @@ func GetFile(f func(*http.Request) (filePath string, downloadName string, err er
 	return wb.GetFile(f, contentType)
 }
 
+func GetDownload(f func(*http.Request) (filePath string, downloadName string, cleanup func(), err error), contentType string) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.GetDownload(f, contentType)
+}
+
+func GetStream(f func(*http.Request) (downloadName string, write func(io.Writer) error, err error), contentType string) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.GetStream(f, contentType)
+}
+
 func Create(f func(*http.Request) (any, error)) *wrapperBuilder {
 	wb := &wrapperBuilder{}
 	return wb.Create(f)
@@ -93,7 +120,7 @@ func (wb *wrapperBuilder) GetXML(f func(*http.Request) ([]byte, error)) *wrapper
 	wb.get = func(w http.ResponseWriter, r *http.Request) {
 		resp, err := f(r)
 		if err != nil {
-			http.Error(w, err.Error(), http.StatusInternalServerError)
+			http.Error(w, err.Error(), errorStatus(err, http.StatusInternalServerError))
 			return
 		}
 		w.Header().Set("Content-Type", "application/xml; charset=utf-8")
@@ -163,6 +190,48 @@ func (wb *wrapperBuilder) GetFile(f func(r *http.Request) (filePath string, down
 		}
 		w.Header().Set("Content-Disposition", "attachment; filename=\""+downloadName+"\"")
 		http.ServeFile(w, r, filePath)
+	}
+	return wb
+}
+
+func (wb *wrapperBuilder) GetDownload(f func(r *http.Request) (filePath string, downloadName string, cleanup func(), err error), contentType string) *wrapperBuilder {
+	wb.get = func(w http.ResponseWriter, r *http.Request) {
+		filePath, downloadName, cleanup, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+		if cleanup != nil {
+			defer cleanup()
+		}
+		if contentType != "" {
+			w.Header().Set("Content-Type", contentType)
+		}
+		if downloadName == "" {
+			downloadName = filepath.Base(filePath)
+		}
+		w.Header().Set("Content-Disposition", "attachment; filename=\""+downloadName+"\"")
+		http.ServeFile(w, r, filePath)
+	}
+	return wb
+}
+
+func (wb *wrapperBuilder) GetStream(f func(r *http.Request) (downloadName string, write func(io.Writer) error, err error), contentType string) *wrapperBuilder {
+	wb.get = func(w http.ResponseWriter, r *http.Request) {
+		downloadName, write, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+		if contentType != "" {
+			w.Header().Set("Content-Type", contentType)
+		}
+		w.Header().Set("Content-Disposition", "attachment; filename=\""+downloadName+"\"")
+		w.WriteHeader(http.StatusOK)
+		if err := write(w); err != nil {
+			log.Printf("failed to stream %s: %v", downloadName, err)
+			panic(http.ErrAbortHandler)
+		}
 	}
 	return wb
 }
@@ -243,7 +312,8 @@ func (wb *wrapperBuilder) Build() func(w http.ResponseWriter, r *http.Request) {
 			if origin == allowedOrigin {
 				w.Header().Set("Access-Control-Allow-Origin", origin)
 				w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
-				w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
+				w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization, Range")
+				w.Header().Set("Access-Control-Expose-Headers", "Content-Range, Accept-Ranges, Content-Length")
 				break
 			}
 		}

@@ -30,6 +30,7 @@ import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts'
 import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
+import { ShelfmarkDetailsTable } from '../../core/ShelfmarkDetailsTable.tsx'
 import {
   hasAnnotationPages,
   TITLE_PAGES_DATASET_ID,
@@ -396,6 +397,15 @@ const AnnotationDetailsContent = ({
             <div className="text-sm leading-tight break-all">
               <EditionDetailsTable editionId={editionId} />
             </div>
+            <div className="font-semibold text-xs opacity-80 pt-0.5">
+              Shelfmark
+            </div>
+            <div className="text-sm leading-tight break-all">
+              <ShelfmarkDetailsTable
+                editionId={editionId}
+                facsimileId={datasetForAnnotation?.facsimile_id}
+              />
+            </div>
           </>
         )}
       </div>
@@ -421,7 +431,7 @@ const AnnotationDetailsContent = ({
 }
 
 export function AnnotationDetailsPane() {
-  const { annotation, refetch, setState } = useAppState()
+  const { annotation, refetch, state, setState } = useAppState()
   const queryClient = useQueryClient()
   const [isEditing, setIsEditing] = useState(false)
   const [editedName, setEditedName] = useState('')
@@ -649,6 +659,21 @@ export function AnnotationDetailsPane() {
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white m-3 mb-0">
       <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
         <div>Annotation Details</div>
+        {annotation && !isEditing && (
+          <Button
+            onClick={() =>
+              setState({
+                viewMode: 'compare',
+                leftDatasetId: state.datasetId,
+                leftAnnotationId: state.annotationId,
+                leftPage: state.currentPageOrKey,
+              })
+            }
+            className="px-2 py-1 text-xs ml-auto"
+          >
+            Compare to
+          </Button>
+        )}
         {isAuthenticated && annotation && (
           <div className="flex items-center gap-2">
             {isEditing ? (

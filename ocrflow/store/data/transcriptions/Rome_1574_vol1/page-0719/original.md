@@ -1,0 +1,1 @@
+<!-- This page repeats page 717 because the same page was scanned twice in the digitized copy. Its transcription is omitted here to avoid duplicating the text. See page 717 for the transcription. -->

@@ -1,7 +1,7 @@
-export type TeiViewMode = 'original' | `translation:${number}`
+export type TeiViewMode = 'original' | `alternative:${number}`
 
-export type TeiTranslation = {
-  id: `translation:${number}`
+export type TeiAlternative = {
+  id: `alternative:${number}`
   label: string
 }
 
@@ -61,7 +61,7 @@ export type TeiSurfaceZone = {
   hasSurfaceBounds: boolean
 }
 
-export type TeiTranslationSource = {
+export type TeiAlternativeSource = {
   label: string
   element: Element
 }
@@ -150,6 +150,20 @@ export type ParagraphTextWithAnchors = {
   text: string
   anchors: Record<string, number>
   lineRanges: ParagraphLineRange[]
+  blockType?: string
+  blockSubtype?: string
+  blockLevel?: string
+  table?: ParagraphTable
+}
+
+export type ParagraphTableCell = {
+  start: number
+  end: number
+}
+
+export type ParagraphTable = {
+  rows: ParagraphTableCell[][]
+  columnCount: number
 }
 
 export type LineMatchMode = 'none' | 'original-id' | 'corresp'

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	teim "github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	teim "github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 )
 
 func EditionToBiblFull(ed *Edition) *teim.BiblFull {
@@ -230,6 +230,8 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 		addNote(prefix+"frontispieceImg", sh.FrontispieceImg)
 		addNote(prefix+"annotations", sh.Annotations)
 		addNote(prefix+"copyright", sh.Copyright)
+		addNote(prefix+"transcriptionAvailable", string(sh.TranscriptionAvailable))
+		addNote(prefix+"note", sh.Note)
 	}
 
 	if len(notes) == 0 {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
+	fpstore "github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
 	"github.com/samber/lo"
 )
 
@@ -58,7 +58,7 @@ func (fr *Revision) validate(m *feature.Revision) error {
 		return errors.New("ai_provider is required")
 	}
 	switch m.AIProvider {
-	case feature.AIProviderOpenAI, feature.AIProviderOllama:
+	case feature.AIProviderClaudeCode, feature.AIProviderOpenAI, feature.AIProviderOllama:
 	default:
 		return fmt.Errorf("ai_provider %q is not supported", m.AIProvider)
 	}

@@ -69,6 +69,7 @@ export function ModelTrainModal({
   const [description, setDescription] = useState('')
   const [modelType, setModelType] = useState<common_OCRModelType>('text')
   const [epochs, setEpochs] = useState('')
+  const [manualRun, setManualRun] = useState(false)
   const [baseModelId, setBaseModelId] = useState<string | null>(null)
   const [selectedBaseGroupIds, setSelectedBaseGroupIds] = useState<string[]>([])
   const [baseAnnotationRows, setBaseAnnotationRows] = useState<
@@ -245,6 +246,7 @@ export function ModelTrainModal({
         base_annotations: baseAnnotations,
       },
       epochs: parsedEpochs || undefined,
+      manual_run: manualRun || undefined,
     })
   }
 
@@ -338,6 +340,24 @@ export function ModelTrainModal({
               disabled={isSaving}
             />
           </div>
+
+          <label className="flex items-start gap-2 text-sm text-gray-700">
+            <input
+              type="checkbox"
+              checked={manualRun}
+              onChange={(event) => setManualRun(event.target.checked)}
+              className="mt-0.5"
+              disabled={isSaving}
+            />
+            <span>
+              <span className="block font-medium">Run manually on GPU farm</span>
+              <span className="block text-gray-500">
+                Prepare a downloadable job bundle instead of submitting it over
+                SSH. The job details will include the instructions and download
+                link.
+              </span>
+            </span>
+          </label>
 
           <div className="space-y-2">
             <label className="block text-sm font-medium text-gray-700">

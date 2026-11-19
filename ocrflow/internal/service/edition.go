@@ -3,35 +3,218 @@ package service
 import (
 	"errors"
 	"fmt"
+	"maps"
+	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/search"
+	"github.com/samber/lo"
 )
 
 // todo: add interfaces to all services
 
 var ErrEditionNotFound = errors.New("edition not found")
 
-type Edition struct {
-	editionStore   *store.EditionCSV
-	facsimileStore *store.FacsimileSQL
+const subjectCategoriesFeatureID = "m_classifier"
+const editionFeatureFilterPrefix = "feature:"
+const shelfmarkPropertiesFilterField = "shelfmarkProperties"
+
+const (
+	shelfmarkAvailable             = "shelfmark_available"
+	facsimileAvailable             = "facsimile_available"
+	copyrightStatusUnknown         = "copyright_status_unknown"
+	externalTranscriptionAvailable = "external_transcription_available"
+	internalTranscriptionAvailable = "internal_transcription_available"
+	externalStructuralMetadata     = "external_structural_metadata_available"
+	internalStructuralMetadata     = "internal_structural_metadata_available"
+)
+
+type editionFeatureFilter struct {
+	matchingEditionIDs map[string]struct{}
+	include            bool
 }
 
-func NewEditionService(editionStore *store.EditionCSV, facsimileStore *store.FacsimileSQL) *Edition {
+type Edition struct {
+	editionStore       *store.EditionCSV
+	facsimileStore     *store.FacsimileSQL
+	featureResultStore *store.FeatureResultSql
+}
+
+func NewEditionService(editionStore *store.EditionCSV, facsimileStore *store.FacsimileSQL, featureResultStore *store.FeatureResultSql) *Edition {
 	return &Edition{
-		editionStore:   editionStore,
-		facsimileStore: facsimileStore,
+		editionStore:       editionStore,
+		facsimileStore:     facsimileStore,
+		featureResultStore: featureResultStore,
 	}
 }
 
-// ListEditions returns a paginated list of editions, optionally filtered by corpus.
-func (e *Edition) ListEditions(filter func(e any) bool, orderBy func(e1, e2 any) int, offset, limit int) (*model.EditionListResult, error) {
-	items, total, err := e.editionStore.ListEditions(filter, orderBy, offset, limit)
+// SearchEditions applies API search filters, including edition feature-backed fields.
+func (e *Edition) SearchEditions(query search.Query, offset, limit int) (*model.EditionListResult, error) {
+	query.FieldsFilter = maps.Clone(query.FieldsFilter)
+	query.FilterIncludes = maps.Clone(query.FilterIncludes)
+	shelfmarkPropertyValues := query.FieldsFilter[shelfmarkPropertiesFilterField]
+	shelfmarkPropertiesInclude := true
+	if configured, exists := query.FilterIncludes[shelfmarkPropertiesFilterField]; exists {
+		shelfmarkPropertiesInclude = configured
+	}
+	delete(query.FieldsFilter, shelfmarkPropertiesFilterField)
+	delete(query.FilterIncludes, shelfmarkPropertiesFilterField)
+	features := make(map[string][]string)
+	featureFilters := make([]editionFeatureFilter, 0)
+	for field, allowed := range query.FieldsFilter {
+		if !strings.HasPrefix(field, editionFeatureFilterPrefix) || len(allowed) == 0 {
+			continue
+		}
+		featureID := strings.TrimPrefix(field, editionFeatureFilterPrefix)
+		if featureID == "" {
+			continue
+		}
+
+		features[featureID] = allowed
+
+		matchingIDs, err := e.featureResultStore.ListEditionIDsByFeatureValues(featureID, allowed)
+		if err != nil {
+			return nil, fmt.Errorf("filter editions by feature %q: %w", featureID, err)
+		}
+		include := true
+		if configured, exists := query.FilterIncludes[field]; exists {
+			include = configured
+		}
+		featureFilters = append(featureFilters, editionFeatureFilter{
+			matchingEditionIDs: matchingIDs,
+			include:            include,
+		})
+		delete(query.FieldsFilter, field)
+		delete(query.FilterIncludes, field)
+	}
+
+	baseFilter := query.FilterFunc()
+	filter := func(value any) bool {
+		if !baseFilter(value) {
+			return false
+		}
+		edition, ok := value.(*model.Edition)
+		if !ok {
+			return false
+		}
+		if len(shelfmarkPropertyValues) > 0 && editionHasAnyShelfmarkProperty(edition, shelfmarkPropertyValues) != shelfmarkPropertiesInclude {
+			return false
+		}
+		for _, featureFilter := range featureFilters {
+			_, matched := featureFilter.matchingEditionIDs[edition.Key]
+			if matched != featureFilter.include {
+				return false
+			}
+		}
+		return true
+	}
+
+	items, total, err := e.editionStore.ListEditions(filter, query.OrderByFunc(), offset, limit)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list editions from store: %w", err)
 	}
+	if err := e.addSubjectCategories(items); err != nil {
+		return nil, err
+	}
 	return &model.EditionListResult{Items: items, Total: total, Offset: offset, Limit: limit}, nil
+}
+
+func editionHasAnyShelfmarkProperty(edition *model.Edition, allowed []string) bool {
+	for _, property := range allowed {
+		switch property {
+		case copyrightStatusUnknown:
+			if len(edition.Shelfmarks) > 0 && lo.EveryBy(edition.Shelfmarks, func(shelfmark model.EditionShelfmark) bool {
+				return strings.TrimSpace(shelfmark.Copyright) == ""
+			}) {
+				return true
+			}
+		default:
+			for _, shelfmark := range edition.Shelfmarks {
+				switch property {
+				case shelfmarkAvailable:
+					if strings.TrimSpace(shelfmark.Shelfmark) != "" {
+						return true
+					}
+				case facsimileAvailable:
+					if strings.TrimSpace(shelfmark.Scan) != "" {
+						return true
+					}
+				case externalTranscriptionAvailable:
+					if shelfmark.TranscriptionAvailable == model.EditionShelfmarkTranscriptionExternal {
+						return true
+					}
+				case internalTranscriptionAvailable:
+					if shelfmark.TranscriptionAvailable == model.EditionShelfmarkTranscriptionInternal {
+						return true
+					}
+				case externalStructuralMetadata:
+					if shelfmark.StructuralMetadataAvailable == model.EditionShelfmarkStructuralMetadataAvailabilityExternal {
+						return true
+					}
+				case internalStructuralMetadata:
+					if shelfmark.StructuralMetadataAvailable == model.EditionShelfmarkStructuralMetadataAvailabilityInternal {
+						return true
+					}
+				}
+			}
+		}
+	}
+	return false
+}
+
+func (e *Edition) ListEditions(filter func(e any) bool, orderBy func(e1, e2 any) int, offset, limit int) (*model.EditionListResult, error) {
+	items, total, err := e.editionStore.ListEditions(filter, orderBy, offset, limit)
+	if err != nil {
+		return nil, err
+	}
+	if err := e.addSubjectCategories(items); err != nil {
+		return nil, err
+	}
+	return &model.EditionListResult{Items: items, Total: total, Offset: offset, Limit: limit}, nil
+}
+
+func (e *Edition) addSubjectCategories(editions []*model.Edition) error {
+	keys := lo.Map(editions, func(edition *model.Edition, _ int) string { return edition.Key })
+	valuesByEdition, err := e.featureResultStore.ListEditionFeatureValues(subjectCategoriesFeatureID, keys)
+	if err != nil {
+		return fmt.Errorf("failed to load edition subject categories: %w", err)
+	}
+	for _, edition := range editions {
+		edition.SubjectCategories = parseSubjectCategories(valuesByEdition[edition.Key])
+	}
+	return nil
+}
+
+func parseSubjectCategories(values []string) []model.EditionSubjectCategory {
+	categories := make([]model.EditionSubjectCategory, 0, len(values))
+	for _, value := range values {
+		category, classification, found := strings.Cut(value, "::")
+		if !found {
+			continue
+		}
+		categories = append(categories, model.EditionSubjectCategory{
+			Category:       category,
+			Classification: classification,
+		})
+	}
+	return categories
+}
+
+func (e *Edition) ListAllEditions() ([]*model.Edition, error) {
+	const pageSize = 5000
+	all := make([]*model.Edition, 0, pageSize)
+	for offset := 0; ; offset += pageSize {
+		page, err := e.ListEditions(nil, nil, offset, pageSize)
+		if err != nil {
+			return nil, err
+		}
+		all = append(all, page.Items...)
+		if len(page.Items) < pageSize || len(all) >= page.Total {
+			return all, nil
+		}
+	}
 }
 
 func (e *Edition) CreateEdition(ed *model.Edition, login string) (*model.Edition, error) {
@@ -80,6 +263,9 @@ func (e *Edition) GetEditionByID(key string) (*model.Edition, error) {
 	}
 	if ed == nil {
 		return nil, fmt.Errorf("%w: edition with key %s does not exist", ErrEditionNotFound, key)
+	}
+	if err := e.addSubjectCategories([]*model.Edition{ed}); err != nil {
+		return nil, err
 	}
 	return ed, nil
 }

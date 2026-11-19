@@ -1,0 +1,13 @@
+<!-- Running title: ELEMENT. -->
+
+<!-- Page number: 529 -->
+
+Que ſi la hauteur EG eſt plus grande que la hauteur AC. Soit cetranchee d’icelle EI, egale à AC, &parI ſoit tiré le plan IK parallele à la baſe EH. Donc par la 32.p.11. comme la baſe AD eſt a la baſe EH, ainſi le ſolide AB eſt au ſolide EK, puis que leurs hauteurs ſont egales: Et par la 1.p.6. oomme EG eſt a EI, ainſi le plan GL eſt au plan IL Mais comme la baſe GL. eſt a la baſe IL, ainſi le ſolide EE, eſt au ſolide EK: (car ils ſont de meſme hauteur,) donc comme le ſolide AB eſt au ſolide EK, ainſi le ſolide EF eſt au meſme ſolide EK, puis que par l’hypoteſe AD eſt à EH comme EG à AC ou EI: partant par la 9.p.5-les ſolides AB, EF ſeront egaux.
+
+### SCHOLIE.
+
+Il faut noter qu’à ceſte demonſtration & preſque à toutes les auires de ce liure, les hauteurs des ſo ides doivent eſtre perpendiculaires. Parquoy ſi elles n’eſtoient telles, les y fau ſroit reduire, comme nous auons faict à la fiu de 31.p.de ce liure.
+
+Or toutes les choſes que nous auons demonſteees és 6.precedentes propoſitions, ſçauoir, 29.3031.32.33. &34. conuiennent außi aux priſ. mes qui ont deux plans oppoſez triangulaires, obſeruant les ſuſdites hypoteſes. Car ſi à denx tels priſmes de meſme hauteur, et conſtituez ſur vne meſine baſe, ou ſur baſes egales, on appoſe deux autres priſmes egaux & ſemblables à iceux, ſeront faicts deux parallelipipedes de meſmc hauteur, & conſtituez ſur meſme, ou baſes egales. Parquoy par la 29.30. ou 31.p.11. ſeront égaux ieeux parallelip. & partant außi les priſimes donnez, c’eſt à ſçauoir les moitiez d’iceux parallelip. Derechef ſi aux deux priſmes ſuſdits de meſiue hauteur, & conſtituez ſur diuerſes baſes, on adioinct deux auttes priſmes egaux, & ſemblables Aiceux, ſeront faicts derechef deux parallelipipedes de meſme hauteur: Parquoy par la 32.p.11. le parallelipipede ſera au parallelipipede comne la baſeà la baſe; & partant par le 15.p.5.le priſme ſera au priſme, c’eſt à ſçauoir la moitié de l’vn des parallelip. à la moictie de l’autre, comme la meſme baſe à la baſe, ſi les baſes des priſmes ſont parallelogrames, ou comme le triangle au triangle, ſçauoir eſt la moitié d’vne baſe à la moitié de l’autre, ſiles baſes ſont triangolaires.
+
+D’auantage, ſi aiceux deux priſmes ſemblables, on adiouſte deux autres priſmes igaux & ſemblablesà eux ſeront conſtituez deux paralleli. ſemblables, leſquels par la 35.p.11. ſirout entr’eux en raiſon triplee des coſtez homologues. Donc außi par la 15.p.5. les priſmes, ſçauiit eſt les moitiez d’iceux, auront la raiſon triplee de meſmes coſtez homologuei, leſquels ſons pareillement eoſtez, lomolagues du priſme.

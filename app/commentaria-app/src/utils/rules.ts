@@ -2,6 +2,7 @@ import type {
   annotationrule_ExecutionMode,
   annotationrule_AddMargin,
   annotationrule_LinesDetect,
+  annotationrule_LLMTranscriptionCorrector,
   annotationrule_LimitCategoryZones,
   annotationrule_PipelineStage,
   annotationrule_RecategorizeByAlignment,
@@ -30,6 +31,7 @@ export type AnnotationRule = BaseAnnotationRule &
     | annotationrule_Stretch
     | annotationrule_AddMargin
     | annotationrule_LinesDetect
+    | annotationrule_LLMTranscriptionCorrector
     | annotationrule_RemoveCategories
     | annotationrule_RenameCategories
     | annotationrule_RemoveOverlap
@@ -41,7 +43,7 @@ export type AnnotationRule = BaseAnnotationRule &
   )
 
 export type RuleRequestPayload = AnnotationRule & {
-  execution_mode?: annotationrule_ExecutionMode
+  preferred_execution_mode?: annotationrule_ExecutionMode
   name?: string
   description?: string
 }
@@ -93,11 +95,29 @@ export const isRuleApplied = (
   suggestedRule: AnnotationRule,
   annotation: annotation_Annotation,
 ): boolean => {
-  const serializedRule = JSON.stringify(suggestedRule)
+  const withoutExecutionMetadata = (rule: AnnotationRule) => {
+    const definition = { ...rule } as AnnotationRule & {
+      usage?: unknown
+    }
+    delete definition.usage
+    return definition
+  }
+  const serializedRule = JSON.stringify(withoutExecutionMetadata(suggestedRule))
+  const suggestedModelType =
+    suggestedRule.type === 'model_detect'
+      ? (suggestedRule as annotationrule_ModelDetect).model_type
+      : undefined
   return (
     !!annotation?.applied_rules &&
     annotation.applied_rules.some(
-      (rule) => JSON.stringify(rule) === serializedRule,
+      (rule) =>
+        (suggestedRule.type === 'lines_detect' &&
+          rule.type === 'lines_detect') ||
+        (!!suggestedModelType &&
+          rule.type === 'model_detect' &&
+          (rule as annotationrule_ModelDetect).model_type ===
+            suggestedModelType) ||
+        JSON.stringify(withoutExecutionMetadata(rule)) === serializedRule,
     )
   )
 }

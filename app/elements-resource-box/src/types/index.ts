@@ -3,6 +3,7 @@ import {
   feature_Feature,
   model_City,
   model_EditionShelfmark,
+  model_EditionSubjectCategory,
   type model_EditionTitlePageStatus,
 } from "@hub-api";
 
@@ -13,7 +14,8 @@ export type FilterGroup =
   | "Elements"
   | "Title Page"
   | "Material"
-  | "Diagrams";
+  | "Diagrams"
+  | "Subject Categories";
 
 export type Range = {
   start: number;
@@ -51,6 +53,7 @@ export type Item = {
   imprint: string | null;
   imprintEn: string | null;
   facsimiles: model_EditionShelfmark[];
+  shelfmarkProperties: string[];
   type: string;
   format: number | null;
   elementsBooks: Range[];
@@ -62,6 +65,8 @@ export type Item = {
   diagramCropsAvailable: boolean | null;
   hasDiagrams: boolean | undefined;
   visualElementsTypes: string[];
+  subjectCategories: model_EditionSubjectCategory[];
+  subjectCategoryValues: string[];
 };
 
 export type RadioProps = {
@@ -81,10 +86,12 @@ export type ItemProps = {
 
 export const STUDY_CORPUSES: Record<string, string> = {
   dh: "DH Core",
-  dotted_lines: "Dotted Lines",
+  dotted_lines: "Dotted Lines (Experiment)",
+  dotted_lines_26_additional_works: "Dotted Lines (2026, Additional Works)",
+  dotted_lines_26_elements: "Dotted Lines (2026, Elements)",
   Angela_metadata: "Angela Metadata",
   origin_eip_csv: "Original EiP",
   axiomatics_16: "Axiomatics 16",
-  tps_experiment: "Title Pages Experiment",
-  tps_experiment_reviewed: "Title Pages Experiment [Reviewed]",
+  tps_experiment: "Title Pages (Experiment)",
+  tps_experiment_reviewed: "Title Pages (Experiment, Reviewed)",
 };

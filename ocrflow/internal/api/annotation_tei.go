@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 )
 
 // GetAnnotationTEI godoc
@@ -99,6 +99,7 @@ func (h *Handlers) GetAnnotationTEIs(r *http.Request) ([]byte, error) {
 // @Tags         Editions
 // @Param        editionId   path      string  true  "Edition ID"
 // @Param        pageNum   path      string  true  "Page Number"
+// @Param        volume   query      int  false  "Volume number"
 // @Produce      application/xml
 // @Success      200  {string}   string "TEI XML content"
 // @Router       /editions/{editionId}/tei/{pageNum} [get]
@@ -117,5 +118,14 @@ func (h *Handlers) GetEditionTEI(r *http.Request) ([]byte, error) {
 		return nil, fmt.Errorf("invalid page number: %w", err)
 	}
 
-	return h.deps.EditionTEI.GetTEI(editionID, p)
+	var volume *int
+	if raw := r.URL.Query().Get("volume"); raw != "" {
+		v, err := strconv.Atoi(raw)
+		if err != nil {
+			return nil, fmt.Errorf("invalid volume: %w", err)
+		}
+		volume = &v
+	}
+
+	return h.deps.EditionTEI.GetTEI(editionID, volume, p)
 }

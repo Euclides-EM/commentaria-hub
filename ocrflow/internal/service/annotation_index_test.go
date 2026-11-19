@@ -1,0 +1,358 @@
+package service
+
+import (
+	"bytes"
+	"database/sql"
+	"log"
+	"os"
+	"path/filepath"
+	"testing"
+
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/markdown"
+	_ "github.com/mattn/go-sqlite3"
+	"github.com/stretchr/testify/require"
+)
+
+func TestOrderedMarkdownHeaderCategoriesSortsByHeaderLevel(t *testing.T) {
+	got := orderedMarkdownHeaderCategories(map[string]struct{}{
+		"header3": {},
+		"header1": {},
+		"header2": {},
+	})
+
+	require.Equal(t, []string{"header1", "header2", "header3"}, got)
+}
+
+func TestGetIndexFromMarkdownJoinsConsecutiveHeaders(t *testing.T) {
+	categories, locations, availableTypes, err := getIndexFromMarkdown(
+		[]int{39},
+		nil,
+		func(page int) (*markdown.Markdown, error) {
+			return &markdown.Markdown{Content: "# NOVVEAVX ELEMENS DE GEOMETRIE.\n\n# LIVRE PREMIER.\n"}, nil
+		},
+		"test markdown",
+		[]string{markdown.DefaultIndexType},
+		false,
+	)
+
+	require.NoError(t, err)
+	require.Equal(t, []string{markdown.DefaultIndexType}, availableTypes)
+	require.Equal(t, []string{"header1"}, categories)
+	require.Equal(t, []categoryPageContent{{
+		page:      39,
+		category:  "header1",
+		content:   "NOVVEAVX ELEMENS DE GEOMETRIE. LIVRE PREMIER.",
+		indexType: markdown.DefaultIndexType,
+	}}, locations)
+}
+
+func TestBuildNodesNestsMarkdownHeadersInDocumentOrder(t *testing.T) {
+	nodes := buildNodes([]string{"header1", "header2", "header3"}, []categoryPageContent{
+		{page: 1, category: "header1", content: "Book I"},
+		{page: 1, category: "header2", content: "Definitions"},
+		{page: 2, category: "header3", content: "I."},
+		{page: 3, category: "header3", content: "II."},
+		{page: 4, category: "header2", content: "Propositions"},
+		{page: 5, category: "header3", content: "I."},
+	})
+
+	require.Len(t, nodes, 1)
+	require.Equal(t, "Book I", nodes[0].Content)
+	require.Len(t, nodes[0].Children, 2)
+	require.Equal(t, "Definitions", nodes[0].Children[0].Content)
+	require.Len(t, nodes[0].Children[0].Children, 2)
+	require.Equal(t, "I.", nodes[0].Children[0].Children[0].Content)
+	require.Equal(t, "II.", nodes[0].Children[0].Children[1].Content)
+	require.Equal(t, "Propositions", nodes[0].Children[1].Content)
+	require.Len(t, nodes[0].Children[1].Children, 1)
+	require.Equal(t, "I.", nodes[0].Children[1].Children[0].Content)
+}
+
+func TestBuildNodesRetainsHeaderWhenIntermediateLevelIsMissing(t *testing.T) {
+	nodes := buildNodes([]string{"header1", "header2", "header3", "header4"}, []categoryPageContent{
+		{page: 18, category: "header1", content: "Book I"},
+		{page: 18, category: "header2", content: "Definitions"},
+		{page: 18, category: "header4", content: "I."},
+		{page: 19, category: "header3", content: "II."},
+	})
+
+	require.Len(t, nodes, 1)
+	require.Len(t, nodes[0].Children, 1)
+	definitions := nodes[0].Children[0]
+	require.Len(t, definitions.Children, 2)
+	require.Equal(t, "header4", definitions.Children[0].Category)
+	require.Equal(t, "I.", definitions.Children[0].Content)
+	require.Equal(t, "18", definitions.Children[0].Location.Page)
+	require.Equal(t, "header3", definitions.Children[1].Category)
+	require.Equal(t, "II.", definitions.Children[1].Content)
+	require.Equal(t, "19", definitions.Children[1].Location.Page)
+}
+
+func TestBuildNodesNestsCuratedAndPrintedHeadingsByStructuralLevel(t *testing.T) {
+	nodes := buildNodes(
+		[]string{"curated-heading1", "header1", "header2", "curated-heading2"},
+		[]categoryPageContent{
+			{page: 1, category: "curated-heading1", content: "Front matter"},
+			{page: 2, category: "header2", content: "Printed dedication"},
+			{page: 3, category: "curated-heading2", content: "Letters"},
+			{page: 4, category: "header1", content: "Book I"},
+		},
+	)
+
+	require.Len(t, nodes, 2)
+	require.Equal(t, "Front matter", nodes[0].Content)
+	require.Equal(t, "Printed dedication", nodes[0].Children[0].Content)
+	require.Equal(t, "Letters", nodes[0].Children[1].Content)
+	require.Equal(t, "Book I", nodes[1].Content)
+}
+
+func TestBuildNodesIgnoresHiddenHeadingsAsStructuralBoundaries(t *testing.T) {
+	nodes := buildNodes(
+		[]string{"header1", "header2", "curated-heading2", "curated-heading3"},
+		[]categoryPageContent{
+			{page: 1, category: "header1", hidden: true},
+			{page: 1, category: "curated-heading2", content: "Diffinitio vndecima", indexType: "definitions"},
+			{page: 2, category: "header2", hidden: true},
+			{page: 2, category: "curated-heading3", content: "Diffinitio prima", indexType: "definitions"},
+			{page: 3, category: "header1", hidden: true},
+			{page: 3, category: "curated-heading2", content: "Diffinitio secunda", indexType: "definitions"},
+			{page: 3, category: "curated-heading3", content: "Diffinitio tertia", indexType: "definitions"},
+		},
+	)
+
+	require.Len(t, nodes, 2)
+	require.Equal(t, "Diffinitio vndecima", nodes[0].Content)
+	require.Equal(t, "Diffinitio prima", nodes[0].Children[0].Content)
+	require.Equal(t, "Diffinitio secunda", nodes[1].Content)
+	require.Equal(t, "Diffinitio tertia", nodes[1].Children[0].Content)
+}
+
+func TestBuildNodesNestsEverythingUntilNextBookUnderBook(t *testing.T) {
+	nodes := buildNodes(
+		[]string{"header1", "header2", "curated-heading1", "curated-heading2"},
+		[]categoryPageContent{
+			{page: 1, category: "header1", content: "Praefatio"},
+			{page: 2, category: "curated-heading1", content: "Book 1", indexType: "books"},
+			{page: 2, category: "header1", content: "LIBER PRIMVS"},
+			{page: 3, category: "header2", content: "PROP. I."},
+			{page: 4, category: "header1", content: "APPENDIX"},
+			{page: 5, category: "curated-heading2", content: "Book 2", indexType: "books"},
+			{page: 5, category: "header1", hidden: true},
+			{page: 6, category: "curated-heading2", content: "PROP. I.", indexType: "propositions"},
+		},
+	)
+
+	require.Len(t, nodes, 3)
+	require.Equal(t, "Praefatio", nodes[0].Content)
+	require.Empty(t, nodes[0].Children)
+	require.Equal(t, "Book 1", nodes[1].Content)
+	require.Len(t, nodes[1].Children, 2)
+	require.Equal(t, "LIBER PRIMVS", nodes[1].Children[0].Content)
+	require.Equal(t, "PROP. I.", nodes[1].Children[0].Children[0].Content)
+	require.Equal(t, "APPENDIX", nodes[1].Children[1].Content)
+	require.Equal(t, "Book 2", nodes[2].Content)
+	require.Equal(t, "PROP. I.", nodes[2].Children[0].Content)
+}
+
+func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
+	db, err := sql.Open("sqlite3", ":memory:")
+	require.NoError(t, err)
+	defer db.Close()
+
+	schema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1774207510_tables.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(schema))
+	require.NoError(t, err)
+	volumeSchema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1782950402_dataset_volume.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(volumeSchema))
+	require.NoError(t, err)
+
+	baseDir := t.TempDir()
+	fileSysMgt := filesys.NewFileSystemManager(baseDir, t.TempDir(), t.TempDir(), t.TempDir())
+	datasetStore := store.NewDatasetSQL(db, fileSysMgt)
+	annotationStore := store.NewAnnotationSQL(db)
+	dataset := &model.Dataset{
+		Meta:        common.Meta{ID: "ds_unprepared", Name: "Unprepared"},
+		EditionID:   "XANRSM",
+		FacsimileID: "facsimile",
+		DPI:         300,
+	}
+	require.NoError(t, datasetStore.InsertDataset(dataset))
+	require.NoError(t, os.MkdirAll(fileSysMgt.DatasetImagesDir(dataset), 0o755))
+	require.NoError(t, os.WriteFile(filepath.Join(fileSysMgt.DatasetImagesDir(dataset), "page-0001.png"), nil, 0o644))
+	require.NoError(t, annotationStore.InsertAnnotation(&annotation.Annotation{
+		Meta:      common.Meta{ID: "ann_unprepared", Name: "Unprepared"},
+		DatasetID: "ds_unprepared",
+		Pages:     "",
+		Segmented: false,
+		Ocred:     false,
+	}))
+
+	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
+
+	var logs bytes.Buffer
+	originalLogOutput := log.Writer()
+	log.SetOutput(&logs)
+	t.Cleanup(func() { log.SetOutput(originalLogOutput) })
+
+	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil, nil, false, annotation.IndexSourceAnnotation)
+	require.NoError(t, err)
+	require.Equal(t, "ds_unprepared", index.DatasetID)
+	require.Equal(t, "ann_unprepared", index.AnnotationID)
+	require.Empty(t, index.Nodes)
+	require.Contains(t, logs.String(), "annotation index unavailable; returning empty index: dataset=ds_unprepared annotation=ann_unprepared edition=XANRSM")
+	require.Contains(t, logs.String(), "annotation_markdown_error=")
+	require.Contains(t, logs.String(), "page-0001")
+	require.Contains(t, logs.String(), "edition_markdown_error=")
+}
+
+func TestCreateAnnotationInfersPagesFromDatasetImages(t *testing.T) {
+	db, err := sql.Open("sqlite3", ":memory:")
+	require.NoError(t, err)
+	defer db.Close()
+
+	schema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1774207510_tables.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(schema))
+	require.NoError(t, err)
+	volumeSchema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1782950402_dataset_volume.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(volumeSchema))
+	require.NoError(t, err)
+
+	baseDir := t.TempDir()
+	fileSysMgt := filesys.NewFileSystemManager(baseDir, t.TempDir(), t.TempDir(), t.TempDir())
+	datasetStore := store.NewDatasetSQL(db, fileSysMgt)
+	annotationStore := store.NewAnnotationSQL(db)
+	dataset := &model.Dataset{
+		Meta:        common.Meta{ID: "ds_infer_pages", Name: "Infer pages"},
+		FacsimileID: "facsimile",
+		DPI:         300,
+	}
+	require.NoError(t, datasetStore.InsertDataset(dataset))
+	require.NoError(t, os.MkdirAll(fileSysMgt.DatasetImagesDir(dataset), 0o755))
+	for _, filename := range []string{"page-0001.png", "page-0002.png"} {
+		require.NoError(t, os.WriteFile(filepath.Join(fileSysMgt.DatasetImagesDir(dataset), filename), nil, 0o644))
+	}
+
+	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
+
+	created, err := annotationSvc.Create("ds_infer_pages", &annotation.Annotation{
+		Meta: common.Meta{Name: "Infer pages"},
+	}, false)
+	require.NoError(t, err)
+	require.Equal(t, "1-2", created.Pages)
+}
+
+func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testing.T) {
+	db, err := sql.Open("sqlite3", ":memory:")
+	require.NoError(t, err)
+	defer db.Close()
+
+	schema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1774207510_tables.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(schema))
+	require.NoError(t, err)
+	volumeSchema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1782950402_dataset_volume.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(volumeSchema))
+	require.NoError(t, err)
+
+	baseDir := t.TempDir()
+	fileSysMgt := filesys.NewFileSystemManager(baseDir, t.TempDir(), t.TempDir(), t.TempDir())
+	datasetStore := store.NewDatasetSQL(db, fileSysMgt)
+	annotationStore := store.NewAnnotationSQL(db)
+	require.NoError(t, datasetStore.InsertDataset(&model.Dataset{
+		Meta:        common.Meta{ID: "ds_priority", Name: "Priority"},
+		EditionID:   "edition_priority",
+		FacsimileID: "facsimile",
+		DPI:         300,
+	}))
+	ann := &annotation.Annotation{
+		Meta:      common.Meta{ID: "ann_priority", Name: "Priority"},
+		DatasetID: "ds_priority",
+		Pages:     "1",
+		Segmented: true,
+		Ocred:     true,
+	}
+	require.NoError(t, annotationStore.InsertAnnotation(ann))
+
+	writeMarkdownPage := func(dir, content string) {
+		require.NoError(t, os.MkdirAll(filepath.Join(dir, "page-0001"), 0o755))
+		require.NoError(t, os.WriteFile(filepath.Join(dir, "page-0001", "original.md"), []byte(content), 0o644))
+	}
+	writeMarkdownPage(filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "transcriptions"), "# Annotation wins\n\n[Curated heading level=2 type=myType: Parallel section]\n\n[Curated heading level=3: Editorial section]\n")
+	writeMarkdownPage(filepath.Join(baseDir, "transcriptions", "edition_priority"), "# Edition loses\n")
+	annotationAltoDir := filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "alto")
+	require.NoError(t, os.MkdirAll(annotationAltoDir, 0o755))
+	require.NoError(t, alto.SaveToFile(&alto.Alto{
+		Tags: alto.Tags{OtherTags: []alto.OtherTag{{ID: "book", Label: "MainZone-Head--Book"}}},
+		Layout: alto.Layout{Page: []alto.Page{{PrintSpace: alto.PrintSpace{TextBlocks: []alto.TextBlock{{
+			TagRefs: "book", Lines: []alto.TextLine{{Strings: []alto.String{{Content: "ALTO loses"}}}},
+		}}}}}},
+	}, filepath.Join(annotationAltoDir, "page-0001.xml")))
+
+	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore, false)
+
+	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil, false, annotation.IndexSourceAnnotation)
+	require.NoError(t, err)
+	require.Len(t, index.Nodes, 1)
+	require.Equal(t, "Annotation wins", index.Nodes[0].Content)
+	require.Equal(t, "header1", index.Nodes[0].Category)
+	require.Len(t, index.Nodes[0].Children, 1)
+	require.Equal(t, "Editorial section", index.Nodes[0].Children[0].Content)
+	require.Equal(t, "curated-heading3", index.Nodes[0].Children[0].Category)
+	require.Equal(t, markdown.DefaultIndexType, index.Nodes[0].Children[0].Type)
+	require.Equal(t, []string{"default", "myType"}, index.AvailableTypes)
+
+	combinedIndex, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, []string{"default", "myType"}, false, annotation.IndexSourceAnnotation)
+	require.NoError(t, err)
+	require.Len(t, combinedIndex.Nodes[0].Children, 1)
+	require.Equal(t, "Parallel section", combinedIndex.Nodes[0].Children[0].Content)
+	require.Equal(t, "myType", combinedIndex.Nodes[0].Children[0].Type)
+	require.Equal(t, "Editorial section", combinedIndex.Nodes[0].Children[0].Children[0].Content)
+
+	editionIndex, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil, false, annotation.IndexSourceEdition)
+	require.NoError(t, err)
+	require.Len(t, editionIndex.Nodes, 1)
+	require.Equal(t, "Edition loses", editionIndex.Nodes[0].Content)
+
+	annotationTEI := &AnnotationTEI{annotationSvc: annotationSvc, fileSysMgt: fileSysMgt}
+	text, err := annotationTEI.GetTxt("ds_priority", "ann_priority", "1", nil)
+	require.NoError(t, err)
+	require.Equal(t, "# Annotation wins\n\n[Curated heading level=2 type=myType: Parallel section]\n\n[Curated heading level=3: Editorial section]\n", text)
+}
+
+func TestGetIndexFromMarkdownExcludedLayersDoNotChangeNesting(t *testing.T) {
+	for _, normalize := range []bool{false, true} {
+		categories, locations, _, err := getIndexFromMarkdown([]int{1, 2, 3}, nil,
+			func(page int) (*markdown.Markdown, error) {
+				contents := map[int]string{
+					1: "[Curated heading level=1 type=books: Book I]\n\n[Curated heading level=2 type=propositions: VII. Die ſibendt propoſition]\n\n## VII. Die ſibendt propoſition.\n\n[Curated heading level=3 type=proposition_claims: 1.]",
+					2: "[Curated heading level=1 type=duplicate_pages: Duplicate page]",
+					3: "[Curated heading level=3 type=proposition_claims: 2.]",
+				}
+				return &markdown.Markdown{Content: contents[page]}, nil
+			}, "test markdown", []string{"books", "propositions", "proposition_claims"}, normalize)
+		require.NoError(t, err)
+		nodes := buildNodes(categories, locations)
+		require.Len(t, nodes, 1)
+		require.Equal(t, "Book I", nodes[0].Content)
+		require.Len(t, nodes[0].Children, 1)
+		proposition := nodes[0].Children[0]
+		require.Equal(t, "VII. Die ſibendt propoſition", proposition.Content)
+		require.Len(t, proposition.Children, 2)
+		require.Equal(t, "1.", proposition.Children[0].Content)
+		require.Equal(t, "2.", proposition.Children[1].Content)
+	}
+}

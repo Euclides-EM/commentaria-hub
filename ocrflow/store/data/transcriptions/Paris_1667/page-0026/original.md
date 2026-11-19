@@ -1,0 +1,7 @@
+<!-- Running title: PREFACE. -->
+
+qu'elles dépendent d'un long enchaiſnement de principes qu'il faut ſuivre pour arriver à la concluſion ; & comme cette concluſion tire ſa lumiere de ces principes il faut que l'eſprit voye en même temps, & ce qui éclaire & ce qui eſt éclairé, ce qu'il ne peut faire ſans s'étendre & ſans porter ſa veuë plus loin que dans ſes actions ordinaires.
+
+Cette étendüe d'eſprit, qui paroiſt dans la Geometrie, eſt non ſeulement tres utile pour tous les ſujets qui ont beſoin de raiſonnement ; mais elle eſt auſſy tres admirable en elle même ; & il n'y a gueres de qualité de noſtre ame qui en faſſe mieux voir la grandeur, & qui détruiſe davantage les imaginations baſſes & groſſieres de ceux qui voudroient la faire paſſer pour une matiere. Car le moyen de s'imaginer qu'un corps, c'eſtadire, un eſtre où nous ne concevons qu'une étendüe figurée & mobile, puiſſe penetrer ce grand nombre de principes tout ſpirituels qu'il faut lier enſemble pour la preuve des propoſitions que la Geometrie nous demótre, & qu'il porte même ſa veuë juſques dans l'infiny pour en aſſeurer ou en tirer pluſieurs choſes avec une certitude entiere. Elle nous fait voir par exemple, que la Diagonale & le coſté d'un Quarré n'ont nulle meſure commune, c'eſtadire, que l'eſprit voit que dans l'infinité des parties de differente grandeur qu'on y peut choiſir, il n'y en a aucune qui puiſſe meſurer exactement l'une & l'autre de ces deux lignes.
+
+On peut dire que toutes les propoſitions Geo-

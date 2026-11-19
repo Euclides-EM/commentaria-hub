@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 	"github.com/gen2brain/go-fitz"
 	"github.com/samber/lo"
 )

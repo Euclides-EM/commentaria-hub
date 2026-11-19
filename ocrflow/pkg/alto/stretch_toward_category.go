@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/annotationrules"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/annotationrules"
 )
 
 // ApplyStretchTowardsCategoryALTO applies StretchTowardsCategory logic to an ALTO document.

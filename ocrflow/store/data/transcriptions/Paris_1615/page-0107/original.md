@@ -1,0 +1,9 @@
+<!-- Running title: TROISIESME -->
+
+<!-- Page number: 84 -->
+
+Su poinct A bors le cercle BCD Ple centre duqueſ eſt K, ſoient menees les ugnes droictes Ar, ac r Ai cougpans le cercle, deſqueiles Al paiſe par le centre K, e les autres comment que ce ſoit le Ais que AI qui paſſe par le centre, eſt la plus grande de toutes: puis apres que AHI qui eſt la plus procne d icelle Al, eſt plus grade que Ac qu en eſt plus eſoignee: E pour meſme raiſonAG, plus grande oue AF. Et au contraire. Ie Sis que an copriſe entre le poinct A& la circonference conuexe, eſt la plus petite ligne, de toutes celſesou lont hors le cercle: quis reroula ſgue acpus proctaine de la plus peue du, t apoindie eue db qu eneſt pius enoignte. Ee prmeſneratguiceile ab mondre oue ar pienſenent ié dus eue de & Supeu feneneut meur dens lenes aioides, eques de deux parts de la plus petite An. gtn cntte &’elairmenees aur poincs C.D EEOu. ſianee droictes xe, R , &E KO. EHi, les deur coſte rigu, du viangſe A Bl ſont pus grands que la ligneſr: Sit ſes ueues al xii ſont egoles aux lignes Ax. E.ceca diee conels igne droide Aſeicie ai ſen done auſs pu crnde oue dtiſou la meſme riſon AI ſer pius grande guea ci’ aue ar’ſfarqioyrſiugnc aiet ſa ps gude de Soutes celles qus tombent de A dans le cercle. foisapes, dantt qieles coites ax. Kti au gonglea xni ſouferaur aenſes dx.Ec durmaigſe Anc cuc ſen e ſ’ange axis, pſus arna quelengle axc, l bale Aſi ſpur gruſe que la ſiſe acmrusa vu pa meſne riſon ati ſeſ plas grande que aps item aG plus grade que Aicprqoyleſlene piisprocte de coiſe ou ic prie eeſe eſt pus gronde que eeſſe quien eſt plus eſoignet berenes ps q an maneſe àcix higue ax eit moiarquc les deur ac,cr.t on oite ſes egaſeux. cx deneueencore au moindre que nc.Par ſenbiable raiſon dn ſei pus trndeque nn d qu aE. parouoy lnene an et ſr pſus peure de tontes ceſes qu ſon mencei de s’ala eueo
+
+[Diagram]
+
+ference conuexe.

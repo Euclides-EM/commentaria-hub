@@ -5,19 +5,22 @@ import {
   getElementAttr,
   getElementCertaintyDegree,
   getLineElements,
-  getTeiTranslationSources,
+  getTeiAlternativeSources,
   getXmlId,
   isElement,
+  parseAnaRefs,
   parseCorrespRefs,
   toUniqueSorted,
 } from './teiDom.ts'
 import { getTeiHighlightSpans, isVerbCategory } from './teiHighlights.ts'
+import { startCase } from 'lodash'
 import type {
   LineMatchMode,
   LineTextWithAnchors,
   ParagraphAnchorLocation,
   ParagraphHighlightSpan,
   ParagraphLineRange,
+  ParagraphTable,
   ParagraphTextWithAnchors,
   ReadingOptions,
   TeiHighlightConfig,
@@ -82,6 +85,119 @@ const startsWithClosingPunctuation = (text: string) =>
 
 const trimTrailingSpaces = (text: string) => text.replace(/ +$/, '')
 
+type TextRange = { start: number; end: number }
+
+type InlineMarkerKind = 'dropcap' | 'bold' | 'italic' | 'link'
+
+type ChipMarkerKind = 'printer-correction' | 'unclear' | 'illegible'
+
+type MarkerKind = InlineMarkerKind | ChipMarkerKind
+
+type MarkerRange = TextRange & { kind: MarkerKind; target?: string }
+
+const inlineMarkerKinds = new Set<MarkerKind>([
+  'dropcap',
+  'bold',
+  'italic',
+  'link',
+])
+
+const markerTitles: Record<ChipMarkerKind, string> = {
+  'printer-correction': 'Correction to the original print',
+  unclear: 'Unclear from the facsimile',
+  illegible: 'Illegible on the facsimile',
+}
+
+const markerStartPrefix = '__marker-start:'
+const markerEndPrefix = '__marker-end:'
+let markerCounter = 0
+
+const getMarkerKind = (element: Element): MarkerKind | null => {
+  if (element.localName === 'hi') {
+    const rend = (element.getAttribute('rend') || '').split(/\s+/)
+    if (rend.includes('dropcap')) {
+      return 'dropcap'
+    }
+    if (rend.includes('bold')) {
+      return 'bold'
+    }
+    if (rend.includes('italic')) {
+      return 'italic'
+    }
+  }
+  if (
+    element.localName === 'ref' &&
+    /^https?:\/\//i.test(element.getAttribute('target') || '')
+  ) {
+    return 'link'
+  }
+  if (element.localName === 'unclear') {
+    return 'unclear'
+  }
+  const anaRefs = parseAnaRefs(element.getAttribute('ana'))
+  if (
+    element.localName === 'note' &&
+    anaRefs.includes('printer-error-correction')
+  ) {
+    return 'printer-correction'
+  }
+  if (element.localName === 'gap' && anaRefs.includes('illegible')) {
+    return 'illegible'
+  }
+  return null
+}
+
+const getMarkerRanges = (anchors: Record<string, number>): MarkerRange[] => {
+  const ranges: MarkerRange[] = []
+  for (const [id, start] of Object.entries(anchors)) {
+    if (!id.startsWith(markerStartPrefix)) {
+      continue
+    }
+    const key = id.slice(markerStartPrefix.length)
+    const end = anchors[`${markerEndPrefix}${key}`]
+    if (end != null && end > start) {
+      const [kind, , ...targetParts] = key.split(':')
+      ranges.push({
+        start,
+        end,
+        kind: kind as MarkerKind,
+        target: targetParts.length
+          ? decodeURIComponent(targetParts.join(':'))
+          : undefined,
+      })
+    }
+  }
+  return ranges
+}
+
+const wrapMarker = (marker: MarkerRange, html: string) => {
+  switch (marker.kind) {
+    case 'dropcap':
+      return `<span data-tei-dropcap="true">${html}</span>`
+    case 'bold':
+      return `<strong>${html}</strong>`
+    case 'italic':
+      return `<i>${html}</i>`
+    case 'link':
+      return `<a data-tei-link="true" href="${escapeHtmlAttr(marker.target || '')}" target="_blank" rel="noopener noreferrer">${html}</a>`
+    default:
+      return `<span data-tei-marker="${marker.kind}" title="${markerTitles[marker.kind]}">${html}</span>`
+  }
+}
+
+const sliceTextRanges = <T extends TextRange>(
+  ranges: T[],
+  sliceStart: number,
+  sliceEnd: number,
+): T[] =>
+  ranges
+    .map((range) => ({
+      ...range,
+      start: Math.max(sliceStart, range.start) - sliceStart,
+      end: Math.min(sliceEnd, range.end) - sliceStart,
+    }))
+    .filter((range) => range.end > range.start)
+
 const clampTrailingAnchorOffsets = (
   anchors: Record<string, number>,
   nextLength: number,
@@ -134,6 +250,43 @@ export const appendTextWithAnchors = (
       const n = element.getAttribute('n') || ''
       builder.text += n || facs ? `Page break ${n || facs}` : 'Page break'
     }
+    return
+  }
+
+  const markerKind = getMarkerKind(element)
+  if (markerKind && inlineMarkerKinds.has(markerKind)) {
+    const target =
+      markerKind === 'link'
+        ? `:${encodeURIComponent(element.getAttribute('target') || '')}`
+        : ''
+    const key = `${markerKind}:${markerCounter++}${target}`
+    builder.anchors[`${markerStartPrefix}${key}`] = builder.text.length
+    for (let i = 0; i < element.childNodes.length; i++) {
+      appendTextWithAnchors(element.childNodes[i], opts, builder)
+    }
+    builder.anchors[`${markerEndPrefix}${key}`] = builder.text.length
+    return
+  }
+  if (markerKind) {
+    const noteBuilder: TextWithAnchors = { text: '', anchors: {} }
+    for (let i = 0; i < element.childNodes.length; i++) {
+      appendTextWithAnchors(element.childNodes[i], opts, noteBuilder)
+    }
+    const noteText = noteBuilder.text
+      .trim()
+      .replace(/^\[/, '')
+      .replace(/\]$/, '')
+      .trim()
+    if (!noteText) {
+      return
+    }
+    if (builder.text && !/\s$/.test(builder.text)) {
+      builder.text += ' '
+    }
+    const key = `${markerKind}:${markerCounter++}`
+    builder.anchors[`${markerStartPrefix}${key}`] = builder.text.length
+    builder.text += noteText
+    builder.anchors[`${markerEndPrefix}${key}`] = builder.text.length
     return
   }
 
@@ -205,6 +358,8 @@ const getMatchIdsForElement = (
 const joinLineTexts = (
   lines: LineTextWithAnchors[],
   alignLines: boolean,
+  blockType?: string,
+  blockSubtype?: string,
 ): ParagraphTextWithAnchors[] => {
   if (!alignLines) {
     const paragraphs: ParagraphTextWithAnchors[] = []
@@ -220,6 +375,8 @@ const joinLineTexts = (
         text: currentText,
         anchors: currentAnchors,
         lineRanges: currentLineRanges,
+        blockType,
+        blockSubtype,
       })
       currentText = ''
       currentAnchors = {}
@@ -254,7 +411,7 @@ const joinLineTexts = (
     pushCurrent()
     return paragraphs.length
       ? paragraphs
-      : [{ text: '', anchors: {}, lineRanges: [] }]
+      : [{ text: '', anchors: {}, lineRanges: [], blockType, blockSubtype }]
   }
 
   const paragraphs: ParagraphTextWithAnchors[] = []
@@ -292,6 +449,7 @@ const joinLineTexts = (
       text: currentText,
       anchors: currentAnchors,
       lineRanges: currentLineRanges,
+      blockType,
     })
     currentText = ''
     currentAnchors = {}
@@ -338,7 +496,163 @@ const joinLineTexts = (
   pushCurrent()
   return paragraphs.length
     ? paragraphs
-    : [{ text: '', anchors: {}, lineRanges: [] }]
+    : [{ text: '', anchors: {}, lineRanges: [], blockType, blockSubtype }]
+}
+
+const joinLiteralLineTexts = (
+  lines: LineTextWithAnchors[],
+  blockType?: string,
+  blockSubtype?: string,
+): ParagraphTextWithAnchors[] => {
+  let text = ''
+  const anchors: Record<string, number> = {}
+  const lineRanges: ParagraphLineRange[] = []
+
+  for (const [lineIndex, line] of lines.entries()) {
+    if (lineIndex > 0) {
+      text += '\n'
+    }
+    const offset = text.length
+    text += line.text
+    if (line.matchIds.length > 0 && line.text.length > 0) {
+      lineRanges.push({
+        start: offset,
+        end: text.length,
+        matchIds: line.matchIds,
+        certaintyDegree: line.certaintyDegree,
+      })
+    }
+    for (const [id, position] of Object.entries(line.anchors)) {
+      anchors[id] = offset + position
+    }
+  }
+
+  return [{ text, anchors, lineRanges, blockType, blockSubtype }]
+}
+
+const getTeiBlockType = (element: Element) =>
+  getElementAttr(element, 'type') || undefined
+
+const getTableLineCells = (text: string, separator: string) => {
+  const cells: { start: number; end: number }[] = []
+  let cellStart = 0
+  for (const cell of text.split(separator)) {
+    cells.push({ start: cellStart, end: cellStart + cell.length })
+    cellStart += cell.length + separator.length
+  }
+
+  const first = cells[0]
+  const firstText = text.slice(first.start, first.end)
+  if (firstText === '|' || firstText.startsWith('| ')) {
+    first.start += firstText === '|' ? 1 : 2
+    cells.unshift({ start: 0, end: 0 })
+  }
+
+  const last = cells[cells.length - 1]
+  const lastText = text.slice(last.start, last.end)
+  if (lastText === '|' || lastText.endsWith(' |')) {
+    last.end -= lastText === '|' ? 1 : 2
+    last.start = Math.min(last.start, last.end)
+    cells.push({ start: text.length, end: text.length })
+  }
+
+  return cells
+}
+
+const getParagraphTable = (
+  lines: LineTextWithAnchors[],
+): Pick<
+  ParagraphTextWithAnchors,
+  'text' | 'anchors' | 'lineRanges' | 'table'
+> | null => {
+  const separator = ' | '
+  if (!lines.some((line) => line.text.includes(separator))) {
+    return null
+  }
+
+  const columnCount = Math.max(
+    ...lines.map((line) => getTableLineCells(line.text, separator).length),
+  )
+  let text = ''
+  const anchors: Record<string, number> = {}
+  const lineRanges: ParagraphLineRange[] = []
+  const rows: ParagraphTable['rows'] = []
+
+  for (const [lineIndex, line] of lines.entries()) {
+    if (lineIndex > 0) {
+      text += '\n'
+    }
+    const lineStart = text.length
+    const row = getTableLineCells(line.text, separator).map((cell) => ({
+      start: lineStart + cell.start,
+      end: lineStart + cell.end,
+    }))
+    while (row.length < columnCount) {
+      row.push({
+        start: lineStart + line.text.length,
+        end: lineStart + line.text.length,
+      })
+    }
+    rows.push(row)
+
+    text += line.text
+    if (line.matchIds.length > 0 && line.text.length > 0) {
+      lineRanges.push({
+        start: lineStart,
+        end: text.length,
+        matchIds: line.matchIds,
+        certaintyDegree: line.certaintyDegree,
+      })
+    }
+    for (const [id, position] of Object.entries(line.anchors)) {
+      anchors[id] = lineStart + position
+    }
+  }
+
+  return { text, anchors, lineRanges, table: { rows, columnCount } }
+}
+
+const appendParagraphLines = (
+  paragraphs: ParagraphTextWithAnchors[],
+  lines: LineTextWithAnchors[],
+  opts: ReadingOptions,
+  blockType: string | undefined,
+  blockSubtype: string | undefined,
+) => {
+  const separator = ' | '
+  let run: LineTextWithAnchors[] = []
+  let runIsTable = false
+
+  const pushRun = () => {
+    if (run.length === 0) {
+      return
+    }
+    if (runIsTable) {
+      const table = getParagraphTable(run)
+      if (table) {
+        paragraphs.push({ ...table, blockType, blockSubtype })
+      }
+    } else {
+      paragraphs.push(
+        ...joinLineTexts(run, opts.alignLines, blockType, blockSubtype),
+      )
+    }
+    run = []
+  }
+
+  const lineHasSeparator = lines.map((line) => line.text.includes(separator))
+  for (const [lineIndex, line] of lines.entries()) {
+    const lineIsTable =
+      lineHasSeparator[lineIndex] &&
+      (lineHasSeparator[lineIndex - 1] === true ||
+        lineHasSeparator[lineIndex + 1] === true)
+    if (run.length > 0 && lineIsTable !== runIsTable) {
+      pushRun()
+    }
+    runIsTable = lineIsTable
+    run.push(line)
+  }
+  pushRun()
 }
 
 export const renderStructuredDivToParagraphs = (
@@ -351,12 +665,17 @@ export const renderStructuredDivToParagraphs = (
   const paragraphs: ParagraphTextWithAnchors[] = []
 
   for (const container of containers) {
+    const blockType = getTeiBlockType(container)
+    const blockSubtype = getElementAttr(container, 'subtype') || undefined
+    const blockLevel = getElementAttr(container, 'n') || undefined
     const lines = getLineElements(container)
     if (lines.length) {
       const renderedLines = lines.map((line) => {
-        const lineText = trimTextWithAnchors(
-          toReadingTextWithAnchors(line, opts),
-        )
+        const rawLineText = toReadingTextWithAnchors(line, opts)
+        const lineText =
+          blockType === 'calculation'
+            ? rawLineText
+            : trimTextWithAnchors(rawLineText)
         const degree = getElementCertaintyDegree(line, opts)
         return {
           ...lineText,
@@ -367,9 +686,27 @@ export const renderStructuredDivToParagraphs = (
           certaintyDegree: degree,
         } satisfies LineTextWithAnchors
       })
-      const blocks = joinLineTexts(renderedLines, opts.alignLines)
+      if (blockType === 'paragraph' || blockType === 'table') {
+        appendParagraphLines(
+          paragraphs,
+          renderedLines,
+          opts,
+          blockType,
+          blockSubtype,
+        )
+        continue
+      }
+      const blocks =
+        blockType === 'calculation'
+          ? joinLiteralLineTexts(renderedLines, blockType, blockSubtype)
+          : joinLineTexts(
+              renderedLines,
+              opts.alignLines,
+              blockType,
+              blockSubtype,
+            )
       for (const block of blocks) {
-        paragraphs.push(block)
+        paragraphs.push({ ...block, blockLevel })
       }
       continue
     }
@@ -393,6 +730,9 @@ export const renderStructuredDivToParagraphs = (
               },
             ]
           : [],
+      blockType,
+      blockSubtype,
+      blockLevel,
     })
   }
 
@@ -457,6 +797,7 @@ export const renderParagraphWithHighlights = (
   text: string,
   spans: ParagraphHighlightSpan[],
   paragraphIndex: number,
+  markerRanges: MarkerRange[] = [],
 ) => {
   if (!text) {
     return '&nbsp;'
@@ -470,12 +811,14 @@ export const renderParagraphWithHighlights = (
     }))
     .filter((span) => span.end > span.start)
 
-  if (!clampedSpans.length) {
+  const clampedMarkers = sliceTextRanges(markerRanges, 0, text.length)
+
+  if (!clampedSpans.length && !clampedMarkers.length) {
     return escapeHtml(text).replaceAll('\n', '<br>')
   }
 
   const boundaries = new Set<number>([0, text.length])
-  for (const span of clampedSpans) {
+  for (const span of [...clampedSpans, ...clampedMarkers]) {
     boundaries.add(span.start)
     boundaries.add(span.end)
   }
@@ -494,8 +837,12 @@ export const renderParagraphWithHighlights = (
       (span) => span.start < end && span.end > start,
     )
 
+    const activeMarkers = clampedMarkers
+      .filter((range) => range.start < end && range.end > start)
+      .sort((a, b) => a.end - a.start - (b.end - b.start))
+
     const escapedSegment = escapeHtml(segmentText).replaceAll('\n', '<br>')
-    if (!activeSpans.length) {
+    if (!activeSpans.length && !activeMarkers.length) {
       html += escapedSegment
       continue
     }
@@ -546,8 +893,14 @@ export const renderParagraphWithHighlights = (
     const tooltipItemsAttr = escapeHtmlAttr(
       encodeURIComponent(JSON.stringify(tooltipItems)),
     )
+    const highlightHtml = activeSpans.length
+      ? `<span data-tei-highlight="true" data-tei-highlight-tooltip="${tooltipItemsAttr}" style="${style}">${escapedHighlightedText}</span>`
+      : escapedHighlightedText
     html += escapedLeadingWhitespace
-    html += `<span data-tei-highlight="true" data-tei-highlight-tooltip="${tooltipItemsAttr}" style="${style}">${escapedHighlightedText}</span>`
+    html += activeMarkers.reduce(
+      (wrapped, marker) => wrapMarker(marker, wrapped),
+      highlightHtml,
+    )
     html += escapedTrailingWhitespace
   }
 
@@ -560,6 +913,7 @@ export const renderParagraphWithLineRanges = (
   paragraphIndex: number,
   lineRanges: ParagraphLineRange[],
   showCertaintyVisualization: boolean,
+  markerRanges: MarkerRange[] = [],
 ) => {
   const validRanges = lineRanges
     .map((range) => ({
@@ -575,7 +929,12 @@ export const renderParagraphWithLineRanges = (
     .sort((left, right) => left.start - right.start)
 
   if (!validRanges.length) {
-    return renderParagraphWithHighlights(text, spans, paragraphIndex)
+    return renderParagraphWithHighlights(
+      text,
+      spans,
+      paragraphIndex,
+      markerRanges,
+    )
   }
 
   let html = ''
@@ -589,6 +948,7 @@ export const renderParagraphWithLineRanges = (
         text.slice(cursor, rangeStart),
         gapSpans,
         paragraphIndex,
+        sliceTextRanges(markerRanges, cursor, rangeStart),
       )
     }
 
@@ -600,6 +960,7 @@ export const renderParagraphWithLineRanges = (
       text.slice(rangeStart, rangeEnd),
       lineSpans,
       paragraphIndex,
+      sliceTextRanges(markerRanges, rangeStart, rangeEnd),
     )
     const attrs = [
       `data-tei-line-match-ids="${escapeHtmlAttr(range.matchIds.join(' '))}"`,
@@ -630,10 +991,102 @@ export const renderParagraphWithLineRanges = (
       text.slice(cursor),
       tailSpans,
       paragraphIndex,
+      sliceTextRanges(markerRanges, cursor, text.length),
     )
   }
 
   return html || '&nbsp;'
+}
+
+const DESCRIBED_BLOCK_TYPES = new Set([
+  'diagram',
+  'figure',
+  'illustration',
+  'ornament',
+])
+
+const getRenderedBlockType = (paragraph: ParagraphTextWithAnchors) =>
+  paragraph.blockType === 'calculation' && !paragraph.text
+    ? 'figure'
+    : paragraph.blockType
+
+const renderParagraphElement = (
+  paragraph: ParagraphTextWithAnchors,
+  spans: ParagraphHighlightSpan[],
+  paragraphIndex: number,
+  showCertaintyVisualization: boolean,
+  attrs: string,
+) => {
+  const markerRanges = getMarkerRanges(paragraph.anchors)
+  const blockType = getRenderedBlockType(paragraph)
+  if (!paragraph.text && blockType && DESCRIBED_BLOCK_TYPES.has(blockType)) {
+    return `<p${attrs}></p>`
+  }
+  if (!paragraph.table) {
+    return `<p${attrs}>${renderParagraphWithLineRanges(paragraph.text, spans, paragraphIndex, paragraph.lineRanges, showCertaintyVisualization, markerRanges)}</p>`
+  }
+
+  const rows = paragraph.table.rows
+    .map((row) => {
+      const cells = row
+        .map((cell) => {
+          const cellText = paragraph.text.slice(cell.start, cell.end)
+          const cellSpans = getParagraphHighlightSlice(
+            spans,
+            cell.start,
+            cell.end,
+          )
+          const cellLineRanges = paragraph.lineRanges
+            .map((range) => ({
+              ...range,
+              start: Math.max(range.start, cell.start) - cell.start,
+              end: Math.min(range.end, cell.end) - cell.start,
+            }))
+            .filter((range) => range.end > range.start)
+          return `<td>${renderParagraphWithLineRanges(cellText, cellSpans, paragraphIndex, cellLineRanges, showCertaintyVisualization, sliceTextRanges(markerRanges, cell.start, cell.end))}</td>`
+        })
+        .join('')
+      return `<tr>${cells}</tr>`
+    })
+    .join('')
+  return `<table${attrs} data-tei-table="true"><tbody>${rows}</tbody></table>`
+}
+
+const getBlockTypeAttrs = (
+  blockType?: string,
+  blockSubtype?: string,
+  blockLevel?: string,
+) => {
+  if (!blockType) {
+    return ''
+  }
+
+  const headerLevel =
+    blockType.match(/^header(.*)$/)?.[1] ??
+    (blockType === 'curated-heading' ? blockLevel : undefined)
+  if (headerLevel !== undefined && !/^[1-6]$/.test(headerLevel)) {
+    console.warn(
+      `Unsupported TEI header level "${headerLevel}" for block type "${blockType}"`,
+    )
+  }
+
+  let attrs = ` data-tei-block-type="${escapeHtmlAttr(blockType)}"`
+  if (blockSubtype) {
+    attrs += ` data-tei-block-subtype="${escapeHtmlAttr(blockSubtype)}"`
+    attrs += ` data-tei-block-subtype-label="${escapeHtmlAttr(startCase(blockSubtype))}"`
+  }
+  if (blockLevel) {
+    attrs += ` data-tei-block-level="${escapeHtmlAttr(blockLevel)}"`
+  }
+  if (DESCRIBED_BLOCK_TYPES.has(blockType)) {
+    attrs += ` title="${escapeHtmlAttr(startCase(blockType))}"`
+  }
+  const otherPrefix = 'other:'
+  if (blockType.startsWith(otherPrefix)) {
+    const otherType = blockType.slice(otherPrefix.length)
+    attrs += ` data-tei-other-type="${escapeHtmlAttr(otherType)}"`
+  }
+  return attrs
 }
 
 export const renderStructuredDiv = (
@@ -644,14 +1097,17 @@ export const renderStructuredDiv = (
   const paragraphs = renderStructuredDivToParagraphs(div, opts, lineMatchMode)
   return paragraphs
     .map((paragraph, index) => {
-      const html = renderParagraphWithLineRanges(
-        paragraph.text,
+      return renderParagraphElement(
+        paragraph,
         [],
         index,
-        paragraph.lineRanges,
         !!opts.showCertaintyVisualization,
+        getBlockTypeAttrs(
+          getRenderedBlockType(paragraph),
+          paragraph.blockSubtype,
+          paragraph.blockLevel,
+        ),
       )
-      return `<p>${html}</p>`
     })
     .join('')
 }
@@ -804,6 +1260,49 @@ export const getOriginalParagraphSpans = (
   return { paragraphs, paragraphSpans }
 }
 
+const HEADER_ANCHOR_BLOCK_TYPES = new Set(['running-title', 'page-number'])
+const HEADER_BLOCK_TYPES = new Set([...HEADER_ANCHOR_BLOCK_TYPES, 'ornament'])
+const FOOTER_ANCHOR_BLOCK_TYPES = new Set([
+  'page-number',
+  'catchword',
+  'signature',
+])
+const FOOTER_BLOCK_TYPES = new Set([...FOOTER_ANCHOR_BLOCK_TYPES, 'ornament'])
+
+const getPageSectionEnd = (
+  paragraphs: ParagraphTextWithAnchors[],
+  blockTypes: Set<string>,
+  anchorBlockTypes: Set<string>,
+) => {
+  let end = 0
+  for (const [index, paragraph] of paragraphs.entries()) {
+    if (!paragraph.blockType || !blockTypes.has(paragraph.blockType)) {
+      break
+    }
+    if (anchorBlockTypes.has(paragraph.blockType)) {
+      end = index + 1
+    }
+  }
+  return end
+}
+
+const PAGE_SECTION_TITLE_LABELS: Record<string, string> = {
+  'running-title': 'Running title',
+  'page-number': 'Page number',
+  signature: 'Signature',
+  catchword: 'Catchword',
+}
+
+const getPageSectionTitleAttr = (paragraph: ParagraphTextWithAnchors) => {
+  const label = paragraph.blockType
+    ? PAGE_SECTION_TITLE_LABELS[paragraph.blockType]
+    : undefined
+  if (!label) {
+    return ''
+  }
+  return ` title="${escapeHtmlAttr(`${label}: ${paragraph.text.trim()}`)}"`
+}
+
 export const renderOriginalView = (
   doc: Document,
   body: Element,
@@ -816,21 +1315,71 @@ export const renderOriginalView = (
     opts,
     highlightConfig,
   )
+  const blankPageParagraphs = paragraphs.filter(
+    (paragraph) => paragraph.blockType === 'blank-page',
+  )
+  if (blankPageParagraphs.length) {
+    const hasAdditionalContents = paragraphs.some(
+      (paragraph) => paragraph.text.trim() !== '',
+    )
+    if (!hasAdditionalContents) {
+      return '<div class="tei-blank-page" data-tei-blank-page="true"><span class="tei-blank-page-label">Blank page</span><span class="tei-blank-page-hint">This page has no printed text</span></div>'
+    }
+    console.warn(
+      'TEI blank-page marker found alongside additional contents',
+      paragraphs,
+    )
+  }
+  const headerEnd = getPageSectionEnd(
+    paragraphs,
+    HEADER_BLOCK_TYPES,
+    HEADER_ANCHOR_BLOCK_TYPES,
+  )
+  const footerStart =
+    paragraphs.length -
+    getPageSectionEnd(
+      [...paragraphs].reverse().slice(0, paragraphs.length - headerEnd),
+      FOOTER_BLOCK_TYPES,
+      FOOTER_ANCHOR_BLOCK_TYPES,
+    )
   const parts = paragraphs.map((paragraph, index) => {
     const spans = paragraphSpans.get(index) || []
     const paragraphTextAttr = escapeHtmlAttr(encodeURIComponent(paragraph.text))
-    return `<p data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}">${renderParagraphWithLineRanges(paragraph.text, spans, index, paragraph.lineRanges, !!opts.showCertaintyVisualization)}</p>`
+    const blockTypeAttrs = getBlockTypeAttrs(
+      getRenderedBlockType(paragraph),
+      paragraph.blockSubtype,
+      paragraph.blockLevel,
+    )
+    return renderParagraphElement(
+      paragraph,
+      spans,
+      index,
+      !!opts.showCertaintyVisualization,
+      ` data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttrs}${getPageSectionTitleAttr(paragraph)}`,
+    )
   })
 
-  return parts.join('') || '<p></p>'
+  const header = parts.slice(0, headerEnd).join('')
+  const main = parts.slice(headerEnd, footerStart).join('')
+  const footer = parts.slice(footerStart).join('')
+  const sections = [
+    header
+      ? `<div class="tei-page-header" data-tei-page-section="header">${header}</div>`
+      : '',
+    main,
+    footer
+      ? `<div class="tei-page-footer" data-tei-page-section="footer">${footer}</div>`
+      : '',
+  ]
+  return sections.join('') || '<p></p>'
 }
 
-export const renderTranslationView = (
+export const renderAlternativeView = (
   body: Element,
   translationIndex: number,
   opts: ReadingOptions,
 ): string => {
-  const sources = getTeiTranslationSources(body)
+  const sources = getTeiAlternativeSources(body)
   const source = sources[translationIndex]
   if (!source) return '<p></p>'
   return renderStructuredDiv(source.element, opts, 'corresp') || '<p></p>'
@@ -940,9 +1489,9 @@ export const renderTeiHtml = (
   )
 
   if (viewMode !== 'original') {
-    const translationIndex = Number.parseInt(viewMode.split(':')[1] || '', 10)
-    const joined = Number.isFinite(translationIndex)
-      ? renderTranslationView(body, translationIndex, opts)
+    const alternativeIndex = Number.parseInt(viewMode.split(':')[1] || '', 10)
+    const joined = Number.isFinite(alternativeIndex)
+      ? renderAlternativeView(body, alternativeIndex, opts)
       : '<p></p>'
     return applyHighlights(joined, searchResultHighlight)
   }

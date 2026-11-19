@@ -131,13 +131,13 @@ Create a job script:
 vim job.sbatch
 ```
 
-Change the `--partition` and `--gres` lines as needed:
+Change the `--partition` and `--gpus` lines as needed:
 
 ```bash
 #!/bin/bash
 #SBATCH --job-name=hello_gpu
 #SBATCH --partition=gpu_v100
-#SBATCH --gres=gpu:v100:1
+#SBATCH --gpus=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4G
 #SBATCH --time=00:05:00
@@ -161,6 +161,45 @@ sbatch job.sbatch
 ```
 
 You can exit the server or start another job, the job will run in the background.
+
+## Choosing the wall-time request
+
+The `--time` setting is the maximum elapsed ("wall-clock") time Slurm may run the
+job, not an estimate of how long the job will actually take:
+
+```bash
+#SBATCH --time=15:00:00
+```
+
+The example above allows the job to run for up to 15 hours. Resources are
+released as soon as the job finishes, but Slurm terminates it if it is still
+running when the limit is reached.
+
+Request a realistic duration with some safety margin. Slurm must find an
+uninterrupted scheduling window at least as long as the requested wall time. An
+oversized request can therefore leave a job pending even when `sinfo` reports
+idle GPUs. A typical pending reason is:
+
+```text
+ReqNodeNotAvail, May be reserved for other job
+```
+
+Inspect the job and ask Slurm for an estimated start time with:
+
+```bash
+scontrol show job <JOBID>
+squeue --start -j <JOBID>
+```
+
+For a job that has not started, the time limit can be reduced without cancelling
+and resubmitting it:
+
+```bash
+scontrol update JobId=<JOBID> TimeLimit=15:00:00
+```
+
+Use a limit that the training can safely finish within. A shorter request may
+start sooner, but Slurm will stop the job at that limit if it has not completed.
 
 # Monitoring jobs
 
@@ -325,3 +364,66 @@ cat artifacts/result.json
 ```
 
 This JSON file contains the trained model path and dataset metadata.
+
+# Manual GPU farm runs
+
+GPU farm work can be run manually, without the API connecting to the GPU farm over SSH, by setting `"manual_run": true`.
+
+Download the generated bundle within `GPU_FARM_MANUAL_BUNDLE_TTL` (24 hours by
+default). The API removes expired bundles periodically and refuses downloads
+after expiry.
+
+Use a GitHub token that is allowed by the API:
+
+```bash
+cd .../commentaria-hub/jobs
+GITHUB_TOKEN="XXXX"
+
+# copy these from job details in hub
+JOB='...'
+RUN_ID='...'
+BUNDLE_URL='...'
+
+PROJECT_ROOT=`pwd`
+RUN_DIR="$PROJECT_ROOT/$RUN_ID"
+mkdir -p "$PROJECT_ROOT"
+curl --fail -L -H "Authorization: Bearer $GITHUB_TOKEN" -o "$PROJECT_ROOT/$RUN_ID.zip" "$BUNDLE_URL"
+unzip -o "$PROJECT_ROOT/$RUN_ID.zip" -x job.sbatch -d "$PROJECT_ROOT"
+unzip -n "$PROJECT_ROOT/$RUN_ID.zip" job.sbatch -d "$PROJECT_ROOT" && rm -f "$PROJECT_ROOT/$RUN_ID.zip"
+mkdir -p "$RUN_DIR/logs"
+
+pushd "$RUN_DIR" && sbatch "$PROJECT_ROOT/job.sbatch" && popd
+
+# monitor:
+squeue -u $USER
+tail -n 100 -F "$RUN_DIR"/logs/*
+```
+
+For automatic SSH submissions, the API measures the complete detection batch
+before upload and requires enough remote capacity for the batch plus a 2 GiB
+safety reserve. It also rechecks the reserve before each copied file. An
+oversized batch therefore fails during preflight instead of filling the GPU
+farm filesystem partway through an upload.
+
+The Slurm job reports back to the API itself.  If the Slurm job ends without reaching the API (for example it was cancelled, hit its time limit, or the upload failed), resolve it from `$RUN_DIR`.
+
+Detection success:
+
+```bash
+cd "$RUN_DIR" && source manifest.env
+curl --fail -H "Authorization: Bearer $RESULT_UPLOAD_TOKEN" -F "mode=$MODE" -F "file=@artifacts/alto-result.zip;type=application/zip" "$RESULT_UPLOAD_URL"
+```
+
+Detection failure:
+
+```bash
+cd "$RUN_DIR" && source manifest.env
+curl --fail -H "Authorization: Bearer $RESULT_UPLOAD_TOKEN" --form-string "mode=$MODE" --form-string "error=<reason>" "$RESULT_FAILURE_URL"
+```
+
+Training, with `MODEL_FILE` set to the trained model under `trained_models/` (the latest `kraken_model_*.mlmodel` for OCR, `yolo_model_best.pt` for YOLO):
+
+```bash
+cd "$RUN_DIR" && source manifest.env
+curl --fail -H "Authorization: Bearer $MODEL_UPLOAD_TOKEN" -F "file=@trained_models/$MODEL_FILE;type=application/octet-stream" --form-string "name=$MODEL_NAME" --form-string "description=$MODEL_DESCRIPTION" --form-string "base_annotations=$MODEL_BASE_ANNOTATIONS" --form-string "base_model_id=$MODEL_BASE_MODEL_ID" "$MODEL_UPLOAD_URL"
+```

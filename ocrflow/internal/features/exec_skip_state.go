@@ -3,7 +3,7 @@ package features
 import (
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
 )
 
 type ExecutionSkipState struct {

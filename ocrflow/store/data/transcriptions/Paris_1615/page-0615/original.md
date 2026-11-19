@@ -1,0 +1,13 @@
+<!-- Running title: TREZIESME -->
+
+<!-- Page number: 592 -->
+
+egale à AB, & ſoit imaginé eſtre poſé le demy cercle ADB à l’entour de la pyramidé: ſçauoir le poinct A, au poinct I; le poinct B au poinct K: Et puis que AC & BC ſont egales à I H& HK; & HG egale à DC, fuiſant angle droict auec IH, auſſi bien que leurs egales AC & CD, il eſt enident que le poinct D, du demy cercle tombera ſur le poinct G. Partant le diametre demeurant immobile, ſi le demy cercle faict vne reuolution, il touchera les deux autres angles de la pyramide B & F; (eſtans les lignes HE, HF, HG egales) ainſi la pyramide eſt inſcrite en la ſphere donnee.
+
+Finalement que le quarré du diametre AB, foit ſeſquialtere au quarré du coſté AD, qui eſt egal à chacun coſté de la pyramide, il appert: Car puis que ABeſt triple de BC: & AC double de la meſme BC AB ſera en raiſon ſeſquialtere à AC. Mais par le corol. de la 8.p.6.les trois lignes AB, AD, AC ſont proportioneles: Et partant par le cor.de la 20.p.6.comme Ah ſera à AC, ainſi le quarré de AB ſera au quarré de AD. Donc auſſi le quarré de AB ſera au quarré de AD en raiſon ſeſquialtere.
+
+### COROLLAIRE.
+
+De ces choſes on peut facilement colliger, que la puiſſane du diametre de la phere eſt quadruple ſeſquialtere de la puiſſance du ſemidia. du cercle deſcrit al’entour de la baſe de la pyramide. Car puis que AB diam de la ſphere, a eſté demonſtré ſeſquialtere en pieiſſance à EF coſté de la pyramide, le quarrè de EF ſera de 6. parties, telles que le quarré du diametre AB en contiendra 9, & le quarre d. la ligne HE2, pource que le quarrè de EF eſt irip'e du quarré de HE, pir la 12.p.13. Donc de9 telles parties que le quarré de AB contiendra; le quarré de HE en contiendra 2: Et pariant le diametre AB eſt quadruple ſeſquialtere en puiſſance ax ſemidiametre HE, puis que la raiſon des quarrez eſt comme 9 à 2. auſſi la perpendiculaire tiree du centre de la ſphere au plan de la baſe de la pyramide eſt la ſixieſme partie dudiametre de la ſphere, & la tierce partie du ſemidia. Car L ſoit le cẽtre du demy cercle ADB. L ſera pareillement le cen.re de la i̧here. Ie dis que la ligne LC (qui est la perpend. tiree du centre de la ſphere à la baſe LFG: puis que AC est egale à HI, & partant le poinct C, le meſme que H, ainſi a. ſſi L eſt le meſme que le centre de la ſphere) eſt la 6. partie du dia. de le ſohere, ſçauoir eſt de AB, & la tierce partie du ſemid a. AL. Car puis que AC eſt double de CB, de telles a parties qu’eſt AC, 2 telles jera CB: & partant Stelles ſera la toute AB, &; le ſemidia. AL.
+
+<!-- Catchword: Farquoy -->

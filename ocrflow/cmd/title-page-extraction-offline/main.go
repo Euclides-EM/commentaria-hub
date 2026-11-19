@@ -13,8 +13,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/textmatch"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/textmatch"
 	"github.com/joho/godotenv"
 )
 

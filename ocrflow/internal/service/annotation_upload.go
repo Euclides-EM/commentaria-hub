@@ -3,16 +3,21 @@ package service
 import (
 	"fmt"
 	"log"
+	"net/url"
 	"os"
 	"path"
+	"slices"
+	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/client"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/escriptorium"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/roboflow"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/client"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/escriptorium"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/formatcov"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/roboflow"
 	"github.com/samber/lo"
 	"github.com/tiendc/go-deepcopy"
 )
@@ -28,6 +33,15 @@ type AnnotationsUploader struct {
 	escriptoriumBasePath string
 	commentariaAPIKey    string
 	commentariaBasePath  string
+}
+
+type AmbiguousCommentariaFacsimilesError struct {
+	EditionID      string   `json:"edition_id"`
+	FacsimileNames []string `json:"facsimile_names"`
+}
+
+func (e *AmbiguousCommentariaFacsimilesError) Error() string {
+	return fmt.Sprintf("multiple matching facsimiles for edition %s: %s", e.EditionID, strings.Join(e.FacsimileNames, ", "))
 }
 
 func NewAnnotationsUploader(
@@ -56,27 +70,11 @@ func NewAnnotationsUploader(
 	}
 }
 
-// ensureYoloDirForUpload ensures the annotation has a YOLO directory (converting from ALTO if needed).
-// Returns the annotation to use for building the upload path.
-func (a *AnnotationsUploader) ensureYoloDirForUpload(ann *annotation.Annotation, datasetID string, id string) (*annotation.Annotation, error) {
-	if _, err := os.Stat(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
-		if !os.IsNotExist(err) {
-			return nil, fmt.Errorf("failed to stat YOLO annotations dir for roboflow upload: %w", err)
-		}
-		converted, err := a.convertAlto2Yolo(datasetID, id)
-		if err != nil {
-			return nil, fmt.Errorf("failed to convert ALTO to YOLO for roboflow upload: %w", err)
-		}
-		return converted, nil
-	}
-	return ann, nil
-}
-
-func (a *AnnotationsUploader) doRoboflowUpload(ann *annotation.Annotation, rbu *annotation.UploadRoboflow) error {
+func (a *AnnotationsUploader) doRoboflowUpload(yoloDir string, rbu *annotation.UploadRoboflow) error {
 	params := roboflow.NewUploadDatasetParams().
 		SetAPIKey(lo.Ternary(rbu.APIKey == "", a.roboflowAPIKey, rbu.APIKey)).
 		SetWorkspaceID(rbu.WorkspaceID).
-		SetDatasetPath(a.fileSysMgt.DatasetAnnotationYoloDir(ann)).
+		SetDatasetPath(yoloDir).
 		SetProjectID(rbu.ProjectID).
 		SetIsNotGroundTruth(rbu.IsNotGroundTruth)
 	return roboflow.UploadDataset(a.pythonExecutable, params)
@@ -90,11 +88,12 @@ func (a *AnnotationsUploader) UploadToRoboflow(datasetID string, id string, rbu 
 	if !ann.Segmented {
 		return nil, fmt.Errorf("annotation is not segmented, cannot upload to roboflow")
 	}
-	ann, err = a.ensureYoloDirForUpload(ann, datasetID, id)
+	yoloDir, err := a.createTemporaryYolo(ann, datasetID)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("prepare temporary YOLO for roboflow upload: %w", err)
 	}
-	if err = a.doRoboflowUpload(ann, rbu); err != nil {
+	defer os.RemoveAll(yoloDir)
+	if err = a.doRoboflowUpload(yoloDir, rbu); err != nil {
 		return nil, fmt.Errorf("failed to upload to roboflow: %w", err)
 	}
 	var dst *annotation.Annotation
@@ -125,12 +124,13 @@ func (a *AnnotationsUploader) UploadToRoboflowAsync(datasetID string, id string,
 			log.Printf("roboflow async upload: get annotation: %v", err)
 			return
 		}
-		annForUpload, err = a.ensureYoloDirForUpload(annForUpload, datasetID, id)
+		yoloDir, err := a.createTemporaryYolo(annForUpload, datasetID)
 		if err != nil {
 			log.Printf("roboflow async upload: %v", err)
 			return
 		}
-		if err = a.doRoboflowUpload(annForUpload, &rbuCopy); err != nil {
+		defer os.RemoveAll(yoloDir)
+		if err = a.doRoboflowUpload(yoloDir, &rbuCopy); err != nil {
 			log.Printf("roboflow async upload failed for %s: %v", id, err)
 			return
 		}
@@ -203,17 +203,25 @@ func (a *AnnotationsUploader) UploadToCommentaria(datasetID string, id string, c
 		return nil, fmt.Errorf("failed to authenticate to commentaria: %w", err)
 	}
 
-	facsimilies, err := c.GetFacsimilesByEditionID(ds.EditionID)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get facsimilies from commentaria: %w", err)
-	}
-	if len(facsimilies) == 0 {
-		return nil, fmt.Errorf("no facsimilies found in commentaria for dataset %s", ds.ID)
-	}
-	facsimile := facsimilies[0] // we assume there's only one facsimile per dataset, which is the one we want to upload annotations to
-	ds.FacsimileID = facsimile.ID
-
 	if cbu.DatasetID == "" {
+		localFacsimile, err := a.datasetSvc.facsimileSvc.GetFacsimile(ds.FacsimileID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get local facsimile for commentaria upload: %w", err)
+		}
+
+		facsimilies, err := c.GetFacsimilesByEditionID(ds.EditionID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get facsimilies from commentaria: %w", err)
+		}
+		if len(facsimilies) == 0 {
+			return nil, fmt.Errorf("no facsimilies found in commentaria for dataset %s", ds.ID)
+		}
+		facsimile, err := matchingCommentariaFacsimile(ds.EditionID, localFacsimile, facsimilies)
+		if err != nil {
+			return nil, err
+		}
+		ds.FacsimileID = facsimile.ID
+
 		log.Printf("creating dataset in commentaria instance %s for dataset %s (%s)", cbu.BasePath, ds.Name, ds.ID)
 		remoteDs, err := c.CreateDataset(ds)
 		if err != nil {
@@ -251,29 +259,97 @@ func (a *AnnotationsUploader) UploadToCommentaria(datasetID string, id string, c
 	return dst, nil
 }
 
-func (a *AnnotationsUploader) convertAlto2Yolo(datasetID string, id string) (*annotation.Annotation, error) {
-	ann, err := a.annotationSvc.Get(datasetID, id)
-	if err != nil {
-		return nil, fmt.Errorf("annotation not found: %w", err)
+func matchingCommentariaFacsimile(editionID string, local *model.Facsimile, remote []*model.Facsimile) (*model.Facsimile, error) {
+	localName := strings.TrimSpace(local.Name)
+	if localName != "" {
+		matches := matchingFacsimiles(remote, func(f *model.Facsimile) bool {
+			return strings.EqualFold(strings.TrimSpace(f.Name), localName)
+		})
+		if len(matches) == 1 {
+			return matches[0], nil
+		}
+		if len(matches) > 1 {
+			return nil, ambiguousCommentariaFacsimilesError(editionID, matches)
+		}
 	}
+
+	localBasename := facsimileScanBasename(local.ScanURL)
+	if localBasename != "" {
+		matches := matchingFacsimiles(remote, func(f *model.Facsimile) bool {
+			return strings.EqualFold(facsimileScanBasename(f.ScanURL), localBasename)
+		})
+		if len(matches) == 1 {
+			return matches[0], nil
+		}
+		if len(matches) > 1 {
+			return nil, ambiguousCommentariaFacsimilesError(editionID, matches)
+		}
+	}
+
+	if len(remote) == 1 {
+		return remote[0], nil
+	}
+	return nil, ambiguousCommentariaFacsimilesError(editionID, remote)
+}
+
+func matchingFacsimiles(facs []*model.Facsimile, match func(*model.Facsimile) bool) []*model.Facsimile {
+	out := make([]*model.Facsimile, 0, len(facs))
+	for _, fac := range facs {
+		if fac != nil && match(fac) {
+			out = append(out, fac)
+		}
+	}
+	return out
+}
+
+func ambiguousCommentariaFacsimilesError(editionID string, facs []*model.Facsimile) error {
+	names := make([]string, 0, len(facs))
+	for _, fac := range facs {
+		if fac == nil {
+			continue
+		}
+		name := strings.TrimSpace(fac.Name)
+		if name == "" {
+			name = facsimileScanBasename(fac.ScanURL)
+		}
+		if name == "" {
+			name = fac.ID
+		}
+		names = append(names, name)
+	}
+	slices.Sort(names)
+	return &AmbiguousCommentariaFacsimilesError{EditionID: editionID, FacsimileNames: names}
+}
+
+func facsimileScanBasename(scanURL string) string {
+	u, err := url.Parse(scanURL)
+	if err != nil {
+		return ""
+	}
+	return path.Base(u.Path)
+}
+
+func (a *AnnotationsUploader) createTemporaryYolo(ann *annotation.Annotation, datasetID string) (string, error) {
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
-		return nil, fmt.Errorf("failed to get dataset: %w", err)
+		return "", fmt.Errorf("failed to get dataset: %w", err)
 	}
 	if !ann.Segmented {
-		return nil, fmt.Errorf("no ALTO annotations found for conversion")
+		return "", fmt.Errorf("no ALTO annotations found for conversion")
 	}
-	if err := os.RemoveAll(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
-		return nil, fmt.Errorf("failed to clear YOLO annotations dir: %w", err)
+	yoloDir, err := futils.MkdirTemp("roboflow-yolo")
+	if err != nil {
+		return "", fmt.Errorf("create temporary YOLO directory: %w", err)
 	}
 	// we could use other segmonto granularities here, the options are: region, subtype, full
 	// I didn't notice any difference in the output for different granularities, so I chose "full"...
-	if err := formatcov.Alto2Yolo(a.fileSysMgt.DatasetImagesDir(ds), a.fileSysMgt.DatasetAnnotationAltoDir(ann), a.fileSysMgt.DatasetAnnotationYoloDir(ann), 0, "full"); err != nil {
-		return nil, fmt.Errorf("failed to convert annotations: %w", err)
+	if err := formatcov.Alto2Yolo(a.fileSysMgt.DatasetImagesDir(ds), a.fileSysMgt.DatasetAnnotationAltoDir(ann), yoloDir, 0, "full"); err != nil {
+		os.RemoveAll(yoloDir)
+		return "", fmt.Errorf("failed to convert annotations: %w", err)
 	}
-	var dst *annotation.Annotation
-	if err := deepcopy.Copy(&dst, &ann); err != nil {
-		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	if err := formatcov.ValidateYoloDataset(yoloDir); err != nil {
+		os.RemoveAll(yoloDir)
+		return "", fmt.Errorf("validate temporary YOLO: %w", err)
 	}
-	return dst, nil
+	return yoloDir, nil
 }

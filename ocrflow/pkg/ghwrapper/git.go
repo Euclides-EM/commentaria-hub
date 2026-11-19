@@ -113,6 +113,18 @@ func StatusPorcelain(repoDir string, paths ...string) (string, error) {
 	return stdout, gitCommandError("git status --porcelain", stderr, err)
 }
 
+func changedFiles(repoDir string, paths []string) ([]string, error) {
+	args := append([]string{"ls-files", "--modified", "--others", "--deleted", "--exclude-standard", "--"}, paths...)
+	stdout, stderr, err := gitExec(repoDir, "git", args...)
+	if err != nil {
+		return nil, gitCommandError("git ls-files", stderr, err)
+	}
+	if stdout == "" {
+		return nil, nil
+	}
+	return strings.Split(stdout, "\n"), nil
+}
+
 // CreateBranch creates and checks out a new branch.
 func CreateBranch(repoDir, name string) error {
 	_, stderr, err := gitExec(repoDir, "git", "checkout", "-b", name)
@@ -139,7 +151,14 @@ func AddAndCommit(repoDir string, paths []string, message string) error {
 	if len(paths) == 0 {
 		return nil
 	}
-	args := append([]string{"add", "--"}, paths...)
+	files, err := changedFiles(repoDir, paths)
+	if err != nil {
+		return err
+	}
+	if len(files) == 0 {
+		return nil
+	}
+	args := append([]string{"add", "--"}, files...)
 	_, stderr, err := gitExec(repoDir, "git", args...)
 	if err != nil {
 		return gitCommandError("git add", stderr, err)

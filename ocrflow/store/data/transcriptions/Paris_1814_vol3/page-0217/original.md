@@ -1,0 +1,8 @@
+<!-- Running title: LE DOUZIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+<!-- Page number: 183 -->
+
+ΓΜ κύλινδροι ἀλλήλοις³. Καὶ ἐπεὶ κύλινδρος ὁ ΖΜ ἐπιπέδῳ τέτμηται τῷ ΓΔ παραλλήλῳ ὄντι τοῖς ἀπεναντίον ἐπιπέδοις· ἔστιν ἄρα ὡς ὁ ΓΜ κύλινδρος πρὸς τὸν ΖΔ κύλινδρον οὕτως ὁ ΛΝ ἄξων πρὸς τὸν ΚΛ ἄξονα. Ισος δέ ἐστιν ὁ μὲν ΓΜ κύλινδρος τῷ ΕΒ κυλίνδρῳ, ὁ δὲ ΛΝ ἄξων τῷ ΗΘ ἄξονι· ἔστιν ἄρα ὡς ὁ ΕΒ κύλινδρος πρὸς τὸν ΖΔ κύλινδρον οὕτως ὁ ΗΘ ἄξων πρὸς τὸν ΚΛ ἄξονα. Ως δὲ ὁ ΕΒ κύλινδρος πρὸς τὸν ΖΔ κύλινδρον οὕτως ὁ ΑΒΗ κῶνος πρὸς τὸν ΓΔΚ κῶνον⁴· καὶ ὡς ἄρα ὁ ΗΘ ἄξων πρὸς τὸν ΚΛ ἄξονα οὕτως ὁ ΑΒΗ κῶνος πρὸς ΓΔΚ κῶνον καὶ ὁ ΕΒ κύλινδρος πρὸς τὸν ΖΔ κύλινδρον. Οπερ ἔδει δεῖξαι.
+
+ΕΒ, ΓΜ inter se. Et quoniam cylindrus ΖΜ secatur plano ΓΔ parallelo existente oppositis planis est igitur ut ΓΜ cylindrus ad ΖΔ cylindrum ita ΛΝ axis ad ΚΛ axem. Æqualis autem est quidem ΓΜ cylindrus cylindro ΕΒ, axis vero ΛΝ axi ΗΘ; est igitur ut ΕΒ cylindrus ad ΖΔ cylindrum ita ΗΘ axis ad ΚΛ axem. Ut autem ΕΒ cylindrus ad ΖΔ cylindrum ita ΑΒΗ conus ad ΓΔΚ conum; et igitur ut ΗΘ axis ad ΚΛ axem ita est ΑΒΗ conus ad ΓΔΚ conum, et ΕΒ cylindrus ad ΖΔ cylindrum. Quod oportebat ostendere.
+
+Et puisque le cylindre ΖΜ est coupé par le plan ΓΔ parallèle aux plans opposés, le cylindre ΓΜ sera au cylindre ΖΔ comme l'axe ΛΝ est à l'axe ΚΛ. Mais le cylindre ΓΜ est égal au cylindre ΕΒ, et l'axe ΛΝ égal à l'axe ΗΘ; le cylindre ΕΒ est donc au cylindre ΖΔ comme l'axe ΗΘ est à l'axe ΚΛ (13. 12). Mais le cylindre ΕΒ est au cylindre ΖΔ comme le cône ΑΒΗ est au cône ΓΔΚ (10. 12); l'axe ΗΘ est donc à l'axe ΚΛ comme le cône ΑΒΗ est au cône ΓΔΚ, et comme le cylindre ΕΒ est au cylindre ΖΔ. Ce qu'il fallait démontrer.

@@ -8,6 +8,7 @@ export type ViewMode =
   | 'jobs'
   | 'backups'
   | 'logs'
+  | 'compare'
 export type PageOrKey = number | string
 export type DatasetTab = 'details' | 'annotations' | 'features'
 export type AnnotationTab =
@@ -24,6 +25,12 @@ export interface AppState {
   currentPageOrKey: PageOrKey
   datasetTab: DatasetTab
   annotationTab: AnnotationTab
+  leftDatasetId: string
+  leftAnnotationId: string
+  leftPage: PageOrKey
+  rightDatasetId: string
+  rightAnnotationId: string
+  rightPage: PageOrKey
 }
 
 export interface AppStateContextType {

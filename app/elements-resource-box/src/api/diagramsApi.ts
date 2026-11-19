@@ -1,4 +1,8 @@
-import { EditionsService, model_DiagramCropVolume } from "@hub-api";
+import {
+  EditionsService,
+  FacsimilesService,
+  model_DiagramCropVolume,
+} from "@hub-api";
 import type { model_DiagramCrops } from "@hub-api";
 
 export interface VolumeData {
@@ -48,8 +52,9 @@ const mapDiagramResponse = (
 
 export const fetchDiagrams = async (
   editionId: string,
+  facsimileId?: string | null,
 ): Promise<DiagramsResult> => {
-  if (!editionId) {
+  if (!editionId && !facsimileId) {
     return {
       images: [],
       hasNoDiagrams: false,
@@ -58,7 +63,9 @@ export const fetchDiagrams = async (
   }
 
   try {
-    const response = await EditionsService.getEditionsDiagrams({ editionId });
+    const response = facsimileId
+      ? await FacsimilesService.getFacsimiliesDiagrams({ id: facsimileId })
+      : await EditionsService.getEditionsDiagrams({ editionId });
     return mapDiagramResponse(editionId, response);
   } catch {
     return {

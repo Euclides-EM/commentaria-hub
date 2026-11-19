@@ -1,0 +1,15 @@
+<!-- Running title: The ſecond Booke. -->
+
+the multiplication of the numbers BD and DC the one into the other twiſe, let be produced either of theſe numbers LM and MN. Wherefore the whole number KX is equall to the number E. And foraſmuch as the number BD multiplying it ſelfe produced the number KL, therefor it meaſureth it by the vnities which are in it ſelfe. More ouer foraſmuch as the number CD multiplying the number BD produced the number LM, therefore alſo DB meaſureth LM by the vnities which are in the number CD: but it before meaſured the number KL by the vnities which are in it ſelfe. Wherefore the number DB meaſureth the whole number KM by the vnities which are in CB. But the number CB is equall to the number CA. Wherefore the number DB meaſureth the number KM by the vnities which are in CA. Agayne foraſmuch as the nũber CD multiplying the number DB produced the number MN: therefore the number DB meaſureth the number MN by the vnities which are in the number CD: but it before meaſured the number KM by the vnities which are in the number AC. Wherfore the number BD meaſureth the whole number KN by the vnities which are in the number AD. Wherefore the number FG is equall to the number KN. For numbers which are equemultiplices to one and the ſelfe ſame number, are equall the one to the other. But the number GH is equall to the number NX: for either of them is ſuppoſed to be the ſquare of the number CD. Wherefore the whole number KX is equall to the whole number FH. But the number KX is equall to the number E. Wherefore alſo the number FH is equall to the number E. And the number FH is the ſuperficiall number produced of the multiplication of the numbers AD and DB the one into the other together with the ſquare of the number DC. And the number E is the ſquare of the number CB. Wherfore the ſuperficiall number produced of the multiplication of the vnequall partes AD and DB the one into the other, together with the ſquare of the nũber DC which is ſet betwene thoſe vnequall partes, is equall to the ſquare of the number CB, which is the halfe of the whole number AB. If therfore an euen number be deuided into two equall partes, &c. which was required to be proued.
+
+[Ornament: pointing hand]
+
+## The 6. Theoreme. The 6. Proposition.
+
+[Subhead]
+If a right line be deuided into two equall partes, and if vnto it be added an other right line directly, the rectangle figure contayned vnder the whole line with that which is added, & the line which is added, together with the ſquare which is made of the halfe, is equall to the ſquare which is made of the halfe line and of that which is added as of one line.
+[/Subhead]
+
+{dropcap:S|lines=3|style=decorated|decoration="lattice pattern"}uppoſe that the righte line AB be deuided into two equall partes in yᵉ point C: & let there added vnto it an other right line DB directly, that is to ſay, which being ioyned vnto AB make both one right line AD. Then I ſay, that the rectangle figure comprehended vnder AD and DB, together
+
+[Diagram]

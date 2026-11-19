@@ -1,12 +1,20 @@
 package gpufarm
 
-import "path"
+import (
+	"fmt"
+	"path"
+	"time"
+)
 
 type RemoteEnv struct {
 	RemoteDir    string
 	RemoteRunDir string
 	RunID        string
 	LogsDir      string
+}
+
+func NewRunID() string {
+	return "run_" + fmt.Sprintf("%s-%d", time.Now().UTC().Format("060102-150405"), time.Now().UnixNano()%100000)
 }
 
 type PythonEnvRequest struct {
@@ -32,6 +40,8 @@ type JobSubmission struct {
 
 type Submitter interface {
 	CopyTo(localPath string, remotePath string) error
+	Discard(request *RemoteEnv) error
+	EnsureCapacity(remoteDir string, requiredBytes int64) error
 	FileExists(remotePath string) (bool, error)
 	PreparePythonEnv(request PythonEnvRequest) (*RemoteEnv, error)
 	Submit(request *RemoteEnv) (*JobSubmission, error)

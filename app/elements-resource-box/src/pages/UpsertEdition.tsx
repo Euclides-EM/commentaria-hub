@@ -1,5 +1,5 @@
 import { useForm, useStore } from "@tanstack/react-form";
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import styled from "@emotion/styled";
 import {
@@ -7,10 +7,19 @@ import {
   getEdition,
   listAllEditions,
   searchEditionsPage,
+  updateEditionSubjectCategories,
   upsertEdition,
   ustcLookup,
+  type EditionWithShelfmarks,
 } from "../api/editionApi";
-import type { model_Edition, model_USTC } from "@hub-api";
+import type {
+  model_Edition,
+  model_Facsimile,
+  model_EditionShelfmarkStructuralMetadataAvailability,
+  model_EditionShelfmarkTranscriptionAvailability,
+  model_USTC,
+} from "@hub-api";
+import { FacsimilesService, OpenAPI } from "@hub-api";
 import type { model_EditionLocator } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { CATALOGUE_ROUTE } from "../components/layout/routes.ts";
@@ -28,6 +37,7 @@ import { useNavigateWithQuery } from "../utils/navigationUtils.ts";
 import { useQuery } from "@tanstack/react-query";
 import { STUDY_CORPUSES } from "../types";
 import { ItemLinksRow } from "../components/ItemLinksRow.tsx";
+import { SubjectCategoriesNotice } from "../components/SubjectCategoriesNotice.tsx";
 import { mapEditionsToItems } from "../utils/dataUtils.ts";
 
 type Locator = model_EditionLocator;
@@ -49,7 +59,12 @@ type EditionFormData = {
   cities: string[];
   notes: string;
   corpus: string[];
-  shelfmarks: ShelfmarkFormData[];
+  shelfmarks: (ShelfmarkFormData & {
+    id?: string;
+    transcriptionAvailable: model_EditionShelfmarkTranscriptionAvailability;
+    structuralMetadataAvailable: model_EditionShelfmarkStructuralMetadataAvailability;
+    note: string | null;
+  })[];
   verified: boolean;
   hasDiagrams: boolean | "";
   bibliography: string[];
@@ -88,6 +103,10 @@ type EditionFormData = {
   books?: number[];
   manuscriptElementsContent?: string | null;
   additionalContent?: string[];
+  subjectCategories: {
+    category: string;
+    classification: string;
+  }[];
 };
 
 function serializeManuscriptScans(
@@ -110,7 +129,18 @@ function deserializeManuscriptScans(scan: string | null | undefined): string[] {
     .filter(Boolean);
 }
 
-function toModelEdition(data: EditionFormData): model_Edition {
+const formatFileSize = (bytes?: number): string => {
+  if (!bytes || bytes <= 0) {
+    return "";
+  }
+  const kib = bytes / 1024;
+  if (kib < 1024) {
+    return `${Math.max(1, Math.round(kib))} KB`;
+  }
+  return `${(kib / 1024).toFixed(1).replace(/\.0$/, "")} MB`;
+};
+
+function toModelEdition(data: EditionFormData): EditionWithShelfmarks {
   const nullToUndef = <T,>(v: T | null): T | undefined => v ?? undefined;
   return {
     key: data.key,
@@ -120,6 +150,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
     notes: data.notes,
     corpus: data.corpus,
     shelfmarks: data.shelfmarks.map((s) => ({
+      id: s.id,
       volume: data.isManuscript ? undefined : nullToUndef(s.volume),
       scan: data.isManuscript
         ? nullToUndef(serializeManuscriptScans(s.scan))
@@ -134,6 +165,9 @@ function toModelEdition(data: EditionFormData): model_Edition {
         : nullToUndef(s.frontispiece_img),
       annotations: nullToUndef(s.annotations),
       copyright: nullToUndef(s.copyright),
+      transcription_available: s.transcriptionAvailable,
+      structural_metadata_available: s.structuralMetadataAvailable,
+      note: nullToUndef(s.note),
     })),
     verified: data.verified,
     ...(data.hasDiagrams !== "" ? { hasDiagrams: data.hasDiagrams } : {}),
@@ -197,7 +231,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
 }
 
 function toEditionFormData(
-  edition: model_Edition,
+  edition: EditionWithShelfmarks,
   key: string,
 ): EditionFormData {
   const isManuscript = Boolean(edition.isManuscript);
@@ -213,6 +247,7 @@ function toEditionFormData(
     notes: edition.notes || "",
     corpus: edition.corpus || [],
     shelfmarks: (edition.shelfmarks || []).map((s) => ({
+      id: s.id,
       volume: s.volume ?? null,
       scan: isManuscript
         ? deserializeManuscriptScans(s.scan)
@@ -223,6 +258,9 @@ function toEditionFormData(
       frontispiece_img: s.frontispiece_img ?? null,
       annotations: s.annotations ?? null,
       copyright: s.copyright ?? null,
+      transcriptionAvailable: s.transcription_available || "none",
+      structuralMetadataAvailable: s.structural_metadata_available || "none",
+      note: s.note ?? null,
     })),
     verified: Boolean(edition.verified),
     hasDiagrams:
@@ -314,8 +352,22 @@ function toEditionFormData(
           isElements: false,
           manuscriptElementsContent: null,
         }),
+    subjectCategories: (edition.subjectCategories || []).map((entry) => ({
+      category: entry.category || "",
+      classification: entry.classification || "unknown",
+    })),
   };
 }
+
+const SUBJECT_CATEGORY_CLASSIFICATIONS = [
+  "primary",
+  "secondary",
+  "unrelated",
+  "unknown",
+] as const;
+
+const normalizeSubjectCategory = (value: string) =>
+  value.trim().toLocaleLowerCase();
 
 const SHORT_TITLE_SOURCES = [
   "Specified in source",
@@ -629,6 +681,132 @@ const resolvePreviewImageUrl = (value: string | null) => {
   return toItemImageUrl(value);
 };
 
+const RemoveImageButton = styled.button`
+  padding: 0.35rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: white;
+  transition: opacity 0.2s;
+  width: fit-content;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`;
+
+type ShelfmarkImageFieldProps = {
+  label: string;
+  value: string | null;
+  onChange: (value: string | null) => void;
+  images: Record<string, File>;
+  setImages: React.Dispatch<React.SetStateAction<Record<string, File>>>;
+};
+
+const ShelfmarkImageField = ({
+  label,
+  value,
+  onChange,
+  images,
+  setImages,
+}: ShelfmarkImageFieldProps) => {
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const localFile = value ? images[value] : undefined;
+  const localPreviewUrl = useMemo(() => {
+    if (localFile) {
+      return URL.createObjectURL(localFile);
+    }
+    return null;
+  }, [localFile]);
+
+  useEffect(() => {
+    return () => {
+      if (localPreviewUrl) {
+        URL.revokeObjectURL(localPreviewUrl);
+      }
+    };
+  }, [localPreviewUrl]);
+
+  const previewUrl = !localFile ? resolvePreviewImageUrl(value) : null;
+  const displayPreviewUrl = localPreviewUrl || previewUrl;
+
+  const handleRemove = () => {
+    if (value && images[value]) {
+      setImages((prev) => {
+        const next = { ...prev };
+        delete next[value];
+        return next;
+      });
+    }
+    onChange(null);
+    if (fileInputRef.current) {
+      fileInputRef.current.value = "";
+    }
+  };
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) {
+      return;
+    }
+    if (value && images[value]) {
+      setImages((prev) => {
+        const next = { ...prev };
+        delete next[value];
+        return next;
+      });
+    }
+    const id = uniqueId();
+    setImages((m) => ({
+      ...m,
+      [id]: file,
+    }));
+    onChange(id);
+  };
+
+  return (
+    <FormField>
+      <Label>{label}</Label>
+      <FileInput
+        ref={fileInputRef}
+        type="file"
+        accept="image/*"
+        onChange={handleFileChange}
+      />
+      {value && (
+        <Row gap={0.5} justifyStart>
+          <SelectedImage>
+            {localFile ? `Selected: ${localFile.name}` : "Image is set"}
+          </SelectedImage>
+          {displayPreviewUrl && (
+            <ExistingImagePreview
+              href={displayPreviewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Open image in new tab"
+            >
+              <ExistingImageThumbnail
+                src={displayPreviewUrl}
+                alt={`${label} preview`}
+              />
+            </ExistingImagePreview>
+          )}
+          <RemoveImageButton
+            type="button"
+            onClick={handleRemove}
+            title="Remove image"
+          >
+            Remove image
+          </RemoveImageButton>
+        </Row>
+      )}
+    </FormField>
+  );
+};
+
 const LoadingOverlay = styled.div`
   position: fixed;
   top: 0;
@@ -693,6 +871,19 @@ const WarningActions = styled.div`
   margin-top: 1.25rem;
 `;
 
+const SubjectCategoriesCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+`;
+
+const SubjectCategoryGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+`;
+
 const getSuggestedKey = (): string => {
   return Math.random().toString(36).slice(2, 8).toUpperCase();
 };
@@ -731,7 +922,7 @@ const generateCitationWithShortTitle = (item: model_Edition): string => {
 
 const loadExistingItem = async (
   key: string,
-): Promise<{ edition: model_Edition; formData: EditionFormData }> => {
+): Promise<{ edition: EditionWithShelfmarks; formData: EditionFormData }> => {
   const edition = await getEdition(key);
   return { edition, formData: toEditionFormData(edition, key) };
 };
@@ -753,6 +944,9 @@ const defaultValues = (): EditionFormData => ({
       frontispiece_img: null,
       annotations: null,
       copyright: null,
+      transcriptionAvailable: "none",
+      structuralMetadataAvailable: "none",
+      note: null,
     },
   ],
   verified: false,
@@ -778,6 +972,7 @@ const defaultValues = (): EditionFormData => ({
   books: [],
   manuscriptElementsContent: null,
   additionalContent: [],
+  subjectCategories: [],
   bibliography: [],
   reprintOf: null,
   visualElements: [],
@@ -800,6 +995,7 @@ type OptionLists = {
   editors: string[];
   publishers: string[];
   additionalContents: string[];
+  subjectCategories: string[];
   cities: string[];
   reprintOptions: { value: string; label: string }[];
   visualElementTypes: string[];
@@ -815,6 +1011,13 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
       .map((item) => item.trim())
       .filter(Boolean)
       .sort(),
+  );
+  const subjectCategories = uniq(
+    editions
+      .flatMap((item) => item.subjectCategories || [])
+      .map((item) => item.category?.trim() || "")
+      .filter(Boolean)
+      .sort((a, b) => a.localeCompare(b)),
   );
   const cityNames = uniq(
     editions
@@ -863,6 +1066,7 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
     editors,
     publishers,
     additionalContents,
+    subjectCategories,
     cities: cityNames,
     reprintOptions,
     visualElementTypes,
@@ -917,6 +1121,8 @@ export const UpsertEdition = () => {
     [],
   );
   const formContainerRef = useRef<HTMLDivElement>(null);
+  const mappingCSVInputRef = useRef<HTMLInputElement>(null);
+  const [mappingCSVStatus, setMappingCSVStatus] = useState<string | null>(null);
   const existingItemQuery = useQuery({
     queryKey: ["edition", "upsert", key],
     queryFn: () => loadExistingItem(key!),
@@ -928,6 +1134,12 @@ export const UpsertEdition = () => {
     queryKey: ["editions", "upsert", "lists"],
     queryFn: () => listAllEditions(),
     staleTime: Infinity,
+    refetchOnWindowFocus: false,
+  });
+  const editionFacsimilesQuery = useQuery({
+    queryKey: ["facsimiles", "edition", key],
+    queryFn: () => FacsimilesService.getFacsimilies({ editionId: [key!] }),
+    enabled: Boolean(key && token),
     refetchOnWindowFocus: false,
   });
   const valuesLoading = Boolean(key) && existingItemQuery.isLoading;
@@ -952,6 +1164,25 @@ export const UpsertEdition = () => {
             existingItemQuery.data?.edition.wardhaughClassification;
         }
         await upsertEdition(edition, images, { isNew: !key });
+        try {
+          await updateEditionSubjectCategories(
+            edition.key!,
+            uniqBy(
+              value.subjectCategories
+                .map((entry) => ({
+                  category: entry.category.trim(),
+                  classification: entry.classification,
+                }))
+                .filter((entry) => entry.category),
+              (entry) => entry.category.toLocaleLowerCase(),
+            ),
+          );
+        } catch (err) {
+          console.error("Failed to update subject categories", err);
+          alert(
+            "The edition was saved, but its subject categories could not be updated.",
+          );
+        }
         navigateWithQuery(CATALOGUE_ROUTE);
       } catch (err) {
         console.error(err);
@@ -993,6 +1224,98 @@ export const UpsertEdition = () => {
   });
   const isManuscript = useStore(form.store, (s) => s.values.isManuscript);
   const isElements = useStore(form.store, (s) => s.values.isElements);
+  const downloadFacsimileMappingCSV = async () => {
+    try {
+      setMappingCSVStatus("Preparing facsimile mapping CSVs...");
+      const response = await fetch(
+        `${OpenAPI.BASE.replace(/\/$/, "")}/facsimilies/mapping-csv`,
+        {
+          headers: {
+            Accept: "application/zip",
+            Authorization: `Bearer ${token}`,
+          },
+        },
+      );
+      if (!response.ok) {
+        throw new Error(`Download failed (${response.status})`);
+      }
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "facsimile-mapping.zip";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(url);
+      setMappingCSVStatus("Downloaded facsimiles.csv and shelfmarks.csv.");
+    } catch (error) {
+      console.error("Failed to download facsimile mapping CSVs", error);
+      setMappingCSVStatus("Failed to download facsimile mapping CSVs.");
+    }
+  };
+
+  const uploadFacsimileMappingCSV = async (file: File) => {
+    try {
+      setMappingCSVStatus(`Uploading ${file.name}...`);
+      await FacsimilesService.postFacsimiliesMappingCsv({
+        file,
+      });
+      setMappingCSVStatus("Uploaded facsimile mapping CSV.");
+    } catch (error) {
+      console.error("Failed to upload facsimile mapping CSV", error);
+      setMappingCSVStatus("Failed to upload facsimile mapping CSV.");
+    }
+  };
+
+  const facsimileOptionLabel = (facsimile: model_Facsimile) => {
+    const name = facsimile.name?.trim() || facsimile.id || "Unnamed scan";
+    const size = formatFileSize(facsimile.file_size_bytes);
+    return size ? `${name} (${size})` : name;
+  };
+
+  const assignFacsimileToShelfmark = async (
+    shelfmarkID: string,
+    facsimileID: string,
+  ) => {
+    const facsimiles = editionFacsimilesQuery.data ?? [];
+    const updates: Array<ReturnType<typeof FacsimilesService.putFacsimilies>> =
+      [];
+    for (const facsimile of facsimiles) {
+      if (!facsimile.id) {
+        continue;
+      }
+      if (
+        facsimile.shelfmark_id === shelfmarkID &&
+        facsimile.id !== facsimileID
+      ) {
+        updates.push(
+          FacsimilesService.putFacsimilies({
+            id: facsimile.id,
+            facsimile: {
+              ...facsimile,
+              shelfmark_id: "",
+              facsimile_connection_confirmation_status: undefined,
+            },
+          }),
+        );
+      }
+      if (facsimile.id === facsimileID) {
+        updates.push(
+          FacsimilesService.putFacsimilies({
+            id: facsimile.id,
+            facsimile: {
+              ...facsimile,
+              shelfmark_id: shelfmarkID,
+              facsimile_connection_confirmation_status: "human_confirmed",
+            },
+          }),
+        );
+      }
+    }
+    await Promise.all(updates);
+    await editionFacsimilesQuery.refetch();
+  };
 
   const fetchAndMergeUstcData = async (ustcId: string) => {
     if (!ustcId || isNaN(Number(ustcId)) || !token) {
@@ -1084,6 +1407,11 @@ export const UpsertEdition = () => {
             frontispiece_img: null,
             annotations: null,
             copyright: null,
+            transcriptionAvailable:
+              "none" as model_EditionShelfmarkTranscriptionAvailability,
+            structuralMetadataAvailable:
+              "none" as model_EditionShelfmarkStructuralMetadataAvailability,
+            note: null,
           }))
           .filter(
             (shelfmark) =>
@@ -2030,11 +2358,160 @@ export const UpsertEdition = () => {
                 </form.Field>
               </FormField>
 
+              <FormField className="full-width">
+                <SubjectCategoriesCard>
+                  <Label isTitle>Subject Categories</Label>
+                  <SubjectCategoriesNotice editionKey={key} />
+
+                  <form.Field
+                    name="subjectCategories"
+                    validators={{
+                      onChange: ({ value }) => {
+                        const normalized = value.map((entry) =>
+                          normalizeSubjectCategory(entry.category),
+                        );
+                        return new Set(normalized).size !== normalized.length
+                          ? "Each subject category can only be added once."
+                          : undefined;
+                      },
+                    }}
+                  >
+                    {(field) => (
+                      <>
+                        <SubjectCategoryGrid>
+                          {SUBJECT_CATEGORY_CLASSIFICATIONS.map(
+                            (classification) => {
+                              const selectedForClassification =
+                                field.state.value
+                                  .filter(
+                                    (entry) =>
+                                      entry.classification === classification &&
+                                      entry.category.trim(),
+                                  )
+                                  .map((entry) => entry.category.trim());
+                              const selectedElsewhere = field.state.value
+                                .filter(
+                                  (entry) =>
+                                    entry.classification !== classification &&
+                                    entry.category.trim(),
+                                )
+                                .map((entry) =>
+                                  normalizeSubjectCategory(entry.category),
+                                );
+                              const categoryOptions = uniq([
+                                ...(lists?.subjectCategories || []),
+                                ...selectedForClassification,
+                              ]).filter(
+                                (category) =>
+                                  category &&
+                                  !selectedElsewhere.includes(
+                                    normalizeSubjectCategory(category),
+                                  ),
+                              );
+
+                              return (
+                                <FormField key={classification}>
+                                  <Label>{startCase(classification)}</Label>
+                                  <MultiSelect
+                                    name={`subject categories ${classification}`}
+                                    options={categoryOptions}
+                                    value={selectedForClassification}
+                                    onChange={(values) => {
+                                      const next = field.state.value.filter(
+                                        (entry) =>
+                                          entry.classification !==
+                                            classification &&
+                                          !values.some(
+                                            (value) =>
+                                              normalizeSubjectCategory(
+                                                value,
+                                              ) ===
+                                              normalizeSubjectCategory(
+                                                entry.category,
+                                              ),
+                                          ),
+                                      );
+
+                                      values.forEach((category) => {
+                                        const trimmed = category.trim();
+                                        if (!trimmed) {
+                                          return;
+                                        }
+                                        next.push({
+                                          category: trimmed,
+                                          classification,
+                                        });
+                                      });
+
+                                      field.handleChange(next);
+                                    }}
+                                    onBlur={field.handleBlur}
+                                    isCreatable
+                                    placeholder={`Choose or add ${classification} categories...`}
+                                  />
+                                </FormField>
+                              );
+                            },
+                          )}
+                        </SubjectCategoryGrid>
+                        {!field.state.meta.isValid && (
+                          <em>{field.state.meta.errors.join(", ")}</em>
+                        )}
+                      </>
+                    )}
+                  </form.Field>
+                </SubjectCategoriesCard>
+              </FormField>
+
               <form.Field name="shelfmarks">
                 {(field) => (
                   <>
                     <FormField className="full-width">
                       <Label isTitle>Sources</Label>
+                      {token && (
+                        <>
+                          <Row gap={0.5} justifyStart>
+                            <button
+                              style={{
+                                padding: 4,
+                                width: "fit-content",
+                                cursor: "pointer",
+                              }}
+                              type="button"
+                              onClick={() => void downloadFacsimileMappingCSV()}
+                            >
+                              Download facsimile mapping CSVs
+                            </button>
+                            <button
+                              style={{
+                                padding: 4,
+                                width: "fit-content",
+                                cursor: "pointer",
+                              }}
+                              type="button"
+                              onClick={() =>
+                                mappingCSVInputRef.current?.click()
+                              }
+                            >
+                              Upload facsimile mapping CSV
+                            </button>
+                          </Row>
+                          <input
+                            ref={mappingCSVInputRef}
+                            type="file"
+                            accept=".csv,text/csv"
+                            style={{ display: "none" }}
+                            onChange={(event) => {
+                              const file = event.currentTarget.files?.[0];
+                              if (file) {
+                                void uploadFacsimileMappingCSV(file);
+                              }
+                              event.currentTarget.value = "";
+                            }}
+                          />
+                          {mappingCSVStatus && <em>{mappingCSVStatus}</em>}
+                        </>
+                      )}
                       {(!isManuscript || field.state.value.length === 0) && (
                         <button
                           style={{
@@ -2053,6 +2530,9 @@ export const UpsertEdition = () => {
                               frontispiece_img: null,
                               annotations: null,
                               copyright: null,
+                              transcriptionAvailable: "none",
+                              structuralMetadataAvailable: "none",
+                              note: null,
                             })
                           }
                         >
@@ -2236,6 +2716,132 @@ export const UpsertEdition = () => {
                           </form.Field>
                         </FormField>
 
+                        {(() => {
+                          const shelfmarkID = field.state.value[i]?.id;
+                          if (!token) {
+                            return null;
+                          }
+                          if (!shelfmarkID) {
+                            return (
+                              <FormField>
+                                <Label>Connected local scan</Label>
+                                <SelectInput value="" disabled>
+                                  <option value="">
+                                    Save this source before connecting a local
+                                    scan
+                                  </option>
+                                </SelectInput>
+                              </FormField>
+                            );
+                          }
+                          const options = (
+                            editionFacsimilesQuery.data ?? []
+                          ).filter(
+                            (facsimile) =>
+                              !facsimile.shelfmark_id ||
+                              facsimile.shelfmark_id === shelfmarkID,
+                          );
+                          const selectedFacsimile = (
+                            editionFacsimilesQuery.data ?? []
+                          ).find(
+                            (facsimile) =>
+                              facsimile.shelfmark_id === shelfmarkID,
+                          );
+                          return (
+                            <FormField>
+                              <Label>Connected local scan</Label>
+                              <SelectInput
+                                value={selectedFacsimile?.id || ""}
+                                onChange={(event) =>
+                                  void assignFacsimileToShelfmark(
+                                    shelfmarkID,
+                                    event.target.value,
+                                  )
+                                }
+                              >
+                                <option value="">
+                                  No local scan connected
+                                </option>
+                                {options.map((facsimile) => (
+                                  <option
+                                    key={facsimile.id}
+                                    value={facsimile.id || ""}
+                                  >
+                                    {facsimileOptionLabel(facsimile)}
+                                  </option>
+                                ))}
+                              </SelectInput>
+                              {editionFacsimilesQuery.isLoading && (
+                                <em>Loading local scans...</em>
+                              )}
+                            </FormField>
+                          );
+                        })()}
+
+                        <FormField>
+                          <Label>Transcription availability</Label>
+                          <form.Field
+                            name={`shelfmarks[${i}].transcriptionAvailable`}
+                          >
+                            {(f) => (
+                              <SelectInput
+                                value={f.state.value}
+                                onChange={(e) =>
+                                  f.handleChange(
+                                    e.target
+                                      .value as model_EditionShelfmarkTranscriptionAvailability,
+                                  )
+                                }
+                                onBlur={f.handleBlur}
+                              >
+                                <option value="none">None</option>
+                                <option value="external">External</option>
+                                <option value="internal">Internal</option>
+                              </SelectInput>
+                            )}
+                          </form.Field>
+                        </FormField>
+
+                        <FormField>
+                          <Label>Structural metadata availability</Label>
+                          <form.Field
+                            name={`shelfmarks[${i}].structuralMetadataAvailable`}
+                          >
+                            {(f) => (
+                              <SelectInput
+                                value={f.state.value}
+                                onChange={(e) =>
+                                  f.handleChange(
+                                    e.target
+                                      .value as model_EditionShelfmarkStructuralMetadataAvailability,
+                                  )
+                                }
+                                onBlur={f.handleBlur}
+                              >
+                                <option value="none">None</option>
+                                <option value="external">External</option>
+                                <option value="internal">Internal</option>
+                              </SelectInput>
+                            )}
+                          </form.Field>
+                        </FormField>
+
+                        <FormField>
+                          <Label>Note</Label>
+                          <form.Field name={`shelfmarks[${i}].note`}>
+                            {(f) => (
+                              <TextArea
+                                value={f.state.value || ""}
+                                onChange={(e) =>
+                                  f.handleChange(e.target.value || null)
+                                }
+                                onBlur={f.handleBlur}
+                                placeholder="Add context about the transcription..."
+                              />
+                            )}
+                          </form.Field>
+                        </FormField>
+
                         <FormField>
                           <Label className={isManuscript ? "required" : ""}>
                             Repository
@@ -2267,104 +2873,35 @@ export const UpsertEdition = () => {
                             )}
                           </form.Field>
                         </FormField>
+
                         {!isManuscript && (
-                          <FormField>
-                            <form.Field
-                              name={`shelfmarks[${i}].title_page_img`}
-                            >
-                              {(f) => {
-                                const previewUrl = !images[f.state.value || ""]
-                                  ? resolvePreviewImageUrl(f.state.value)
-                                  : null;
-                                return (
-                                  <>
-                                    <Label>
-                                      Title Page Image{" "}
-                                      {f.state.value && (
-                                        <>
-                                          <SelectedImage>
-                                            Image is set
-                                          </SelectedImage>
-                                          {previewUrl && (
-                                            <ExistingImagePreview
-                                              href={previewUrl}
-                                              target="_blank"
-                                              rel="noopener noreferrer"
-                                              title="Open image in new tab"
-                                            >
-                                              <ExistingImageThumbnail
-                                                src={previewUrl}
-                                                alt="Title page preview"
-                                              />
-                                            </ExistingImagePreview>
-                                          )}
-                                        </>
-                                      )}
-                                    </Label>
-                                    <FileInput
-                                      type="file"
-                                      accept="image/*"
-                                      onChange={(e) => {
-                                        if (!e.target.files?.[0]) {
-                                          f.handleChange(null);
-                                        } else {
-                                          const id = uniqueId();
-                                          setImages((m) => ({
-                                            ...m,
-                                            [id]: e.target.files![0],
-                                          }));
-                                          f.handleChange(id);
-                                        }
-                                      }}
-                                    />
-                                    {f.state.value && images[f.state.value] && (
-                                      <div>
-                                        <SelectedImage>
-                                          Selected: {images[f.state.value].name}
-                                        </SelectedImage>
-                                      </div>
-                                    )}
-                                  </>
-                                );
-                              }}
-                            </form.Field>
-                          </FormField>
+                          <form.Field name={`shelfmarks[${i}].title_page_img`}>
+                            {(f) => (
+                              <ShelfmarkImageField
+                                label="Title Page Image"
+                                value={f.state.value}
+                                onChange={f.handleChange}
+                                images={images}
+                                setImages={setImages}
+                              />
+                            )}
+                          </form.Field>
                         )}
+
                         {!isManuscript && (
-                          <FormField>
-                            <Label>Frontispiece Image</Label>
-                            <form.Field
-                              name={`shelfmarks[${i}].frontispiece_img`}
-                            >
-                              {(f) => (
-                                <>
-                                  <FileInput
-                                    type="file"
-                                    accept="image/*"
-                                    onChange={(e) => {
-                                      if (!e.target.files?.[0]) {
-                                        f.handleChange(null);
-                                      } else {
-                                        const id = uniqueId();
-                                        setImages((m) => ({
-                                          ...m,
-                                          [id]: e.target.files![0],
-                                        }));
-                                        f.handleChange(id);
-                                      }
-                                    }}
-                                  />
-                                  {f.state.value && (
-                                    <SelectedImage>
-                                      {images[f.state.value]
-                                        ? `Selected: ${images[f.state.value].name}`
-                                        : "Image is set"}
-                                    </SelectedImage>
-                                  )}
-                                </>
-                              )}
-                            </form.Field>
-                          </FormField>
+                          <form.Field
+                            name={`shelfmarks[${i}].frontispiece_img`}
+                          >
+                            {(f) => (
+                              <ShelfmarkImageField
+                                label="Frontispiece Image"
+                                value={f.state.value}
+                                onChange={f.handleChange}
+                                images={images}
+                                setImages={setImages}
+                              />
+                            )}
+                          </form.Field>
                         )}
 
                         <FormField>

@@ -7,11 +7,32 @@ import type { annotation_DuplicateRequest } from '../models/annotation_Duplicate
 import type { annotation_ExpectedBlocks } from '../models/annotation_ExpectedBlocks';
 import type { annotation_Index } from '../models/annotation_Index';
 import type { annotation_MergeRequest } from '../models/annotation_MergeRequest';
+import type { annotation_Reference } from '../models/annotation_Reference';
 import type { annotation_Search } from '../models/annotation_Search';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class AnnotationsService {
+    /**
+     * Get Available Categories for Annotations
+     * Get the combined available categories for a collection of annotations.
+     * @returns string OK
+     * @throws ApiError
+     */
+    public static postAnnotationsCategories({
+        annotations,
+    }: {
+        /**
+         * Annotations
+         */
+        annotations: Array<annotation_Reference>,
+    }): CancelablePromise<Array<string>> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/annotations/categories',
+            body: annotations,
+        });
+    }
     /**
      * List Annotations
      * Get a list of annotations for a specific dataset.
@@ -416,6 +437,9 @@ export class AnnotationsService {
         dataSetId,
         id,
         categories,
+        types = 'default',
+        normalize = false,
+        source = 'annotation',
     }: {
         /**
          * Dataset ID
@@ -429,6 +453,18 @@ export class AnnotationsService {
          * Categories for the index
          */
         categories?: string,
+        /**
+         * Comma-separated index layers (default: default)
+         */
+        types?: string,
+        /**
+         * Normalize headings by applying printer error corrections and removing a leading paragraph mark
+         */
+        normalize?: boolean,
+        /**
+         * Preferred transcription source for the index
+         */
+        source?: 'annotation' | 'edition',
     }): CancelablePromise<annotation_Index> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -439,6 +475,9 @@ export class AnnotationsService {
             },
             query: {
                 'categories': categories,
+                'types': types,
+                'normalize': normalize,
+                'source': source,
             },
         });
     }
@@ -669,6 +708,48 @@ export class AnnotationsService {
                 'feature': feature,
                 'fallback_to_origin': fallbackToOrigin,
                 'image_variant': imageVariant,
+            },
+        });
+    }
+    /**
+     * Download Annotation ZIP
+     * Stream a ZIP of a specific annotation, with its ALTO files under alto/ and the dataset page images under imgs/.
+     * @returns binary Annotation ZIP
+     * @throws ApiError
+     */
+    public static getDatasetsAnnotationsZip({
+        dataSetId,
+        id,
+        includeAlto,
+        includeImages,
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Whether to include the ALTO files
+         */
+        includeAlto?: boolean,
+        /**
+         * Whether to include the dataset page images
+         */
+        includeImages?: boolean,
+    }): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/datasets/{dataSetId}/annotations/{id}/zip',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'include_alto': includeAlto,
+                'include_images': includeImages,
             },
         });
     }

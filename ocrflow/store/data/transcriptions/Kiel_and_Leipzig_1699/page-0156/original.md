@@ -1,0 +1,34 @@
+<!-- Running title: Euclidis. -->
+
+<!-- Page number: 139 -->
+
+4. Welcher nicht in der Mitte des Kreyses stehet.
+5. Die geraden Striche ai, ah, ag, ak, ab, ac.
+6. ab durch den Mittel-Dupffel gehend.
+7. Das übrige dieses Striches / nemlich ac.
+8. Die Striche ah und al gleich weit von dem durch den Mittel-Düpffel gehenden Strich entfernet.
+
+4. ag ⊣ ah
+5. ah ⊣ ai
+6. ah | al.
+
+[Diagram: Kreis mit den Punkten h, g, k oben, i links, c, a, e, b auf dem waagerechten Durchmesser und l unten; von a und e ausgehende teils punktierte Striche zu den Punkten am Umfang]
+
+### Vorbereitung.
+
+1. Werde auff den [unclear: Düttel] a gesetzet ein ∠ ael ⋀ [unclear: aeb]
+n. 23. I.
+
+2. Werden aus dem Mittel-Düpffel e gezogen ek,
+eg, eh, ei, el, und al.
+
+### Beweiß.
+
+eb | ek — n. 15. Beschr. I.
+ae + ke ⊣ ak — n. 20. I.
+ae + ke | ab — n. 9. Gr. q. [unclear: I.]
+Dw. ab ⊣ ak — n. 1. Gr. c. [unclear: I.]
+
+<!-- Signature: S 2 -->
+
+<!-- Catchword: ea -->

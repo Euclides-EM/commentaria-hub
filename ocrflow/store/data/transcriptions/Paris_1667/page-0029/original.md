@@ -1,0 +1,7 @@
+<!-- Running title: PREFACE. -->
+
+faire des Elemens de Geometrie mieux ordonnez que ceux que l'on luy avoit montrez; mais ce n'eſtoit encore qu'un projet en l'air qu'il avoit peu d'eſperance de pouvoir executer, quoique quelques perſonnes l'en priaſſent; parcequ'il auroit fait ſcrupule d'y employer un temps où il auroit eſté en eſtat de faire quelque autre choſe.
+
+Il eſt arrivé neanmoins depuis que diverſes rencontres luy ont donné le loiſir dont il avoit beſoin pour cela. Il fut une fois obligé par une indiſpoſition de quitter ſes occupations ordinaires, & il trouva ſon ſoulagement en ſe déchargeant d'une partie de ce qu'il avoit dans l'eſprit ſur cette matiere. Une autrefois il ſe trouva quatre ou cinq jours dans une maiſon de Campagne ſans aucun livre, & il remplit encore ce vuide en compoſant quelque partie de ce Traitté. Enfin en ménageant ainſy quelques petits temps, il a achevé ce qu'il avoit deſſein de faire de cet ouvrage, s'eſtant borné d'abord à la Geometrie des Plans comme pouvant ſuffire au commun du monde.
+
+Quelques perſonnes ſe ſont étonnez qu'en écrivant d'une matiere ſi étendüe, & qui a eſté traitée par un ſi grand nombre d'habiles gens, il ne leuſt pour cela aucun livre de Geometrie, n'en ayant point même dans ſa bibliotheque: mais il leur répondoit, que l'ordre le conduiſoit tellement qu'il ne croyoit pas pouvoir rien oublier de conſiderable. Il ajoûtoit même que cet ordre ne ſervoit pas ſeulement à faciliter l'intelligence & à ſoulager la memoire; mais qu'il don-

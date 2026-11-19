@@ -7,10 +7,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/normalize"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/normalize"
 	"github.com/samber/lo"
 )
 

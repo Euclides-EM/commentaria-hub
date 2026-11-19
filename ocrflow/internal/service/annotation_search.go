@@ -10,14 +10,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 )
 
 type AnnotationSearch struct {
@@ -39,7 +39,7 @@ func NewAnnotationSearch(annotationSvc *Annotation, fileSysMgt *filesys.Manager,
 }
 
 func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, error) {
-	ann, err := s.annotationSvc.Get(as.DatasetID, as.AnnotationId)
+	ann, err := s.annotationSvc.getWithoutFallback(as.DatasetID, as.AnnotationId)
 	if err != nil {
 		return nil, err
 	}
@@ -195,6 +195,7 @@ func (s *AnnotationSearch) searchWithinByTEIExtractor(ann *annotation.Annotation
 }
 
 func (s *AnnotationSearch) searchWithinCategories(ann *annotation.Annotation, maxResults int, rg *regexp.Regexp, page string, categories []string) ([]*common.ALTOPart, error) {
+	// todo: support markdown and edition level search
 	var results []*common.ALTOPart
 	a, _, err := s.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
 	if err != nil {

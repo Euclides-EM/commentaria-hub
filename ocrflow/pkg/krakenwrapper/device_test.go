@@ -2,6 +2,8 @@ package krakenwrapper
 
 import (
 	"testing"
+
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
 )
 
 func TestAnnotation_ApplyRules(t *testing.T) {
@@ -22,4 +24,14 @@ func TestAnnotation_ApplyRules(t *testing.T) {
 		return
 	}
 
+}
+
+func TestKrakenDeviceArgMatchesNvidiaSMIPresence(t *testing.T) {
+	want := "cpu"
+	if envexec.Cmd("nvidia-smi") != nil {
+		want = "cuda:0"
+	}
+	if got := krakenDeviceArg(); got != want {
+		t.Fatalf("krakenDeviceArg() = %q, want %q", got, want)
+	}
 }

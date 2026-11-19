@@ -3,6 +3,8 @@ import type { common_ALTOPart } from '@hub-api'
 export const ANNOTATION_SEARCH_TERM_KEY = 'annotationSearchTerm'
 export const ANNOTATION_SEARCH_CATEGORIES_KEY = 'annotationSearchCategories'
 export const ANNOTATION_SEARCH_WITHIN_KEY = 'annotationSearchWithin'
+export const ANNOTATION_SEARCH_ANNOTATION_ID_KEY =
+  'annotationSearchAnnotationId'
 
 export const buildSearchSnippet = (content: string, maxLength = 64) => {
   const startMatch = content.match(/<em[^>]*>/i)

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/httpwrapper"
 )
 
 // ListDatasetResults godoc

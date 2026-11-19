@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import {
   AnnotationsService,
+  ApiError,
   EditionsService,
   type annotation_SearchWithin,
 } from '@hub-api'
@@ -53,21 +54,50 @@ export function useAnnotationsQuery(datasetId: string) {
   })
 }
 
-const annotationIndexQueryKey = (datasetId: string, annotationId: string) =>
-  ['annotations', datasetId, annotationId, 'index'] as const
+const annotationIndexQueryKey = (
+  datasetId: string,
+  annotationId: string,
+  indexTypes: string[],
+  normalize: boolean,
+  source: 'annotation' | 'edition',
+) =>
+  [
+    'annotations',
+    datasetId,
+    annotationId,
+    'index',
+    { indexTypes, normalize, source },
+  ] as const
 
 export function useAnnotationIndexQuery(
   datasetId: string,
   annotationId: string,
+  indexTypes: string[] = ['default'],
+  normalize = false,
+  source: 'annotation' | 'edition' = 'annotation',
 ) {
   return useQuery({
-    queryKey: annotationIndexQueryKey(datasetId, annotationId),
+    queryKey: annotationIndexQueryKey(
+      datasetId,
+      annotationId,
+      indexTypes,
+      normalize,
+      source,
+    ),
     queryFn: () =>
       AnnotationsService.getDatasetsAnnotationsIndex({
         dataSetId: datasetId,
         id: annotationId,
         categories: '',
+        types: indexTypes.join(','),
+        normalize,
+        source,
       }),
+    placeholderData: (previousData) =>
+      previousData?.dataset_id === datasetId &&
+      previousData?.annotation_id === annotationId
+        ? previousData
+        : undefined,
     enabled: !!datasetId && !!annotationId,
   })
 }
@@ -110,6 +140,10 @@ export function useAnnotationTeiQuery(
         imageVariant,
       }),
     enabled: !!datasetId && !!annotationId && !!pageOrKey && enabled,
+    // A bad TEI request is not transient; retain the normal retry behavior for
+    // transport and server failures, which may recover.
+    retry: (failureCount, error) =>
+      !(error instanceof ApiError && error.status === 400) && failureCount < 3,
   })
 }
 

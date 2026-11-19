@@ -8,6 +8,8 @@ type LinesDetect struct {
 	// IgnoreCategories specifies which categories to ignore when running line detection. For example, "GraphicZone", "DigitizationArtefactZone", ...
 	// Example: ["CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"]
 	IgnoreCategories []string `json:"ignore_categories,omitempty"`
+	UseGPUFarm       bool     `json:"use_gpu_farm"`
+	ManualRun        bool     `json:"manual_run"`
 }
 
 func (t *LinesDetect) GetType() Type {
@@ -24,5 +26,6 @@ func NewLinesDetect(includeCategories, ignoreCategories []string) *LinesDetect {
 		Base:              Base{Type: TypeLinesDetect, ApplicableStages: GetApplicableStages(TypeLinesDetect)},
 		IncludeCategories: includeCategories,
 		IgnoreCategories:  ignoreCategories,
+		UseGPUFarm:        true,
 	}
 }

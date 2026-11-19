@@ -6,15 +6,9 @@ import {
   useState,
 } from 'react'
 import { parseAsString, useQueryStates } from 'nuqs'
-import {
-  useDatasetImageKeysQuery,
-  useDatasetsQuery,
-} from '../queries/datasets.ts'
-import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { useAuthStore } from '../store/authStore.ts'
-import { parsePageEntries } from '../utils/pages.ts'
-import { findMatchingImage, hasAnnotationPages } from '../utils/editions.ts'
 import { buildAppStateUrl, getNextAppStateQueryState } from './appStateUrl'
+import { useAnnotationSelection } from './useAnnotationSelection'
 import type {
   AnnotationTab,
   AppState,
@@ -32,14 +26,6 @@ interface AppStateProviderProps {
 const DEFAULT_DATASET_TAB: DatasetTab = 'details'
 const DEFAULT_ANNOTATION_TAB: AnnotationTab = 'details'
 
-const getDefaultPageOrKey = (availablePages: string[]): string => {
-  if (!availablePages.length) return ''
-  if (availablePages[0] !== '1') {
-    return availablePages[0]
-  }
-  return availablePages[Math.floor(availablePages.length / 2)]
-}
-
 export function AppStateProvider({ children }: AppStateProviderProps) {
   const token = useAuthStore((store) => store.token)
   const [queryState, setQueryState] = useQueryStates({
@@ -49,6 +35,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     currentPageOrKey: parseAsString.withDefault(''),
     datasetTab: parseAsString.withDefault(''),
     annotationTab: parseAsString.withDefault(''),
+    leftDatasetId: parseAsString.withDefault(''),
+    leftAnnotationId: parseAsString.withDefault(''),
+    leftPage: parseAsString.withDefault(''),
+    rightDatasetId: parseAsString.withDefault(''),
+    rightAnnotationId: parseAsString.withDefault(''),
+    rightPage: parseAsString.withDefault(''),
   })
   const [searchResultHighlight, setSearchResultHighlight] = useState<
     string | null
@@ -62,7 +54,8 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     queryState.viewMode === 'features' ||
     queryState.viewMode === 'jobs' ||
     queryState.viewMode === 'backups' ||
-    queryState.viewMode === 'logs'
+    queryState.viewMode === 'logs' ||
+    queryState.viewMode === 'compare'
       ? queryState.viewMode
       : null
   const parsedDatasetTab: DatasetTab =
@@ -86,6 +79,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       currentPageOrKey: queryState.currentPageOrKey,
       datasetTab: parsedDatasetTab,
       annotationTab: parsedAnnotationTab,
+      leftDatasetId: queryState.leftDatasetId,
+      leftAnnotationId: queryState.leftAnnotationId,
+      leftPage: queryState.leftPage,
+      rightDatasetId: queryState.rightDatasetId,
+      rightAnnotationId: queryState.rightAnnotationId,
+      rightPage: queryState.rightPage,
     }),
     [
       parsedAnnotationTab,
@@ -94,11 +93,14 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       queryState.annotationId,
       queryState.currentPageOrKey,
       queryState.datasetId,
+      queryState.leftDatasetId,
+      queryState.leftAnnotationId,
+      queryState.leftPage,
+      queryState.rightDatasetId,
+      queryState.rightAnnotationId,
+      queryState.rightPage,
     ],
   )
-  const { data: datasets, refetch: refetchDatasets } = useDatasetsQuery()
-  const { data: annotations, refetch: refetchAnnotations } =
-    useAnnotationsQuery(state.datasetId)
 
   const wrappedSetState = useCallback(
     (updates: Partial<AppState>) => {
@@ -129,56 +131,23 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     [setQueryState],
   )
 
-  const dataset = useMemo(
-    () =>
-      datasets?.find((d) => state.datasetId && d.id === state.datasetId) ||
-      null,
-    [datasets, state.datasetId],
+  const setResolvedAnnotationId = useCallback(
+    (annotationId: string) => setQueryState({ annotationId }),
+    [setQueryState],
   )
 
-  const annotation = useMemo(
-    () =>
-      annotations?.find(
-        (a) => state.annotationId && a.id === state.annotationId,
-      ) || null,
-    [annotations, state.annotationId],
+  const setResolvedPageOrKey = useCallback(
+    (currentPageOrKey: string) => setQueryState({ currentPageOrKey }),
+    [setQueryState],
   )
-  const hasPages = hasAnnotationPages(annotation)
-  const annotationPageEntries = useMemo(
-    () => (annotation ? parsePageEntries(annotation.pages || '') : []),
-    [annotation],
-  )
-  const shouldLoadImageKeys = !!annotation && !hasPages
-  const { data: imageKeys = [] } = useDatasetImageKeysQuery(
-    state.datasetId,
-    shouldLoadImageKeys,
-    annotationPageEntries.length > 0 ? annotationPageEntries : null,
-  )
-  const availablePageOrKeys = useMemo(() => {
-    if (!annotation) {
-      return []
-    }
-    if (annotationPageEntries.length > 0) {
-      return [...new Set(annotationPageEntries)].sort((a, b) =>
-        a.localeCompare(b, undefined, { numeric: true }),
-      )
-    }
-    return imageKeys.map((image) => image.key)
-  }, [annotation, annotationPageEntries, imageKeys])
 
-  const refetch = useCallback(() => {
-    refetchDatasets()
-    refetchAnnotations()
-  }, [refetchDatasets, refetchAnnotations])
-
-  useEffect(() => {
-    if (annotations?.length === 1) {
-      setQueryState((s) => ({
-        ...s,
-        annotationId: annotations[0].id!,
-      }))
-    }
-  }, [annotations, setQueryState])
+  const { dataset, annotation, refetch } = useAnnotationSelection({
+    datasetId: state.datasetId,
+    annotationId: state.annotationId,
+    currentPageOrKey: state.currentPageOrKey,
+    onAnnotationIdResolved: setResolvedAnnotationId,
+    onPageOrKeyResolved: setResolvedPageOrKey,
+  })
 
   useEffect(() => {
     if (queryState.datasetId || !queryState.datasetTab) {
@@ -195,36 +164,35 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   }, [queryState.annotationId, queryState.annotationTab, setQueryState])
 
   useEffect(() => {
-    if (!annotation || !availablePageOrKeys.length) {
+    if (
+      queryState.viewMode === 'compare' ||
+      (!queryState.leftDatasetId &&
+        !queryState.leftAnnotationId &&
+        !queryState.leftPage &&
+        !queryState.rightDatasetId &&
+        !queryState.rightAnnotationId &&
+        !queryState.rightPage)
+    ) {
       return
-    }
-    if (availablePageOrKeys.includes(String(state.currentPageOrKey))) {
-      return
-    }
-    if (!hasPages) {
-      const matchedImage = findMatchingImage(
-        String(state.currentPageOrKey),
-        imageKeys,
-      )
-      if (matchedImage?.key) {
-        setQueryState((s) => ({
-          ...s,
-          currentPageOrKey: matchedImage.key,
-        }))
-        return
-      }
     }
     setQueryState((s) => ({
       ...s,
-      currentPageOrKey: getDefaultPageOrKey(availablePageOrKeys),
+      leftDatasetId: '',
+      leftAnnotationId: '',
+      leftPage: '',
+      rightDatasetId: '',
+      rightAnnotationId: '',
+      rightPage: '',
     }))
   }, [
-    annotation,
-    availablePageOrKeys,
-    hasPages,
-    imageKeys,
+    queryState.viewMode,
+    queryState.leftAnnotationId,
+    queryState.leftDatasetId,
+    queryState.leftPage,
+    queryState.rightAnnotationId,
+    queryState.rightDatasetId,
+    queryState.rightPage,
     setQueryState,
-    state.currentPageOrKey,
   ])
 
   const contextValue = useMemo<AppStateContextType>(

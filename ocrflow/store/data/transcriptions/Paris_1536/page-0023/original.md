@@ -1,0 +1,117 @@
+<!-- Running title: LIBER I. -->
+
+Ετι δὲ τῶν τριπλεύρων σχημάτων, ὀρθογώνιον μὲν τρίγωνόν ἐστι, τὸ ἔχον ὀρθὴν γωνίαν.
+
+[Margin]
+Trilaterarũ figurarum ab angulis differentiæ.
+[/Margin]
+
+[Curated heading level=4 type=definitions: 27]
+
+27 Amplius trilaterarum figurarum, rectangulum triangulum eſt, quod rectum angulum habet.
+
+Vt iſoſceles b, vel ſcalenum triangulum e, proxima diffinitione deſcriptum.
+
+Αμβλυγώνιον δὲ, τὸ ἔχον ἀμβλεῖαν γωνίαν.
+
+[Margin]
+Amblygoniũ
+[/Margin]
+
+[Curated heading level=4 type=definitions: 28]
+
+28 Amblygonium autem, quod obtuſum angulum habet.
+
+Veluti antecedens iſoſceles d, ſcalenúmve triangulum g.
+
+Οξυγώνιον δὲ, τὸ τρεῖς ὀξείας ἔχον γωνίας.
+
+[Margin]
+Oxygoniũ
+[/Margin]
+
+[Curated heading level=4 type=definitions: 29]
+
+29 Oxygonium verò, quod tres habet acutos angulos.
+
+[Margin]
+Baſis triãguli
+[/Margin]
+
+Cuiuſmodi ſunt æquilaterum a, & iſoſceles c, atq̃ triangulum ſcalenum f: & quæ eis ſimilia ſunt triangula. Omnis porrò trianguli vnumquodque latus, cæteris duobus expreſſis, baſis vocitatur. Sequitur itaq̃, rectãgula & amblygonia triangula: fore tantummodò iſoſcelia, vel ſcalena. Oxygonium autem: & æquilaterum, & iſoſceles, & ſcalenum offenditur triãgulum. Quemadmodùm ex ſupraſcriptis triangulorum licet elicere figuris. Haud diſſimiliter quadrilaterarum figurarum, tum ab angulorũ rectitudine vel obliquitate, tum ab æqualitate vel inæqualitate laterum, ſuccedentia colliguntur diſcrimina.
+
+[Margin]
+Quadrilaterarum figurarũ diſcrimina
+[/Margin]
+
+Τῶν δὲ τετραπλεύρων σχημάτων, τετράγωνον μὲν ἐστιν, ὃ ἰσόπλευρόν τέ ἐστι καὶ ὀρθογώνιον.
+
+[Margin]
+Quadratum eſt equilaterum et rectãgulũ
+[/Margin]
+
+[Curated heading level=4 type=definitions: 30]
+
+30 Quadrilaterarum autem figurarum, quadratũ quidem eſt, quod & æquilaterum & rectangulum eſt.
+
+[Margin]
+Radix quadrati.
+[/Margin]
+
+[Diagram: h k]
+
+Veluti quadratum h. Omnnis itaq̃ quadrati vnumquodque latus, radix eiuſdem indifferenter adpellatur. Fit enim quadratum, ex data linea recta abſtractiuè in ſeipſam rectiſſimè ducta: quemadmodùm numerus in ſeipſum ductus, quadratum efficit numerum.
+
+[Margin]
+Quatuor ſequẽtia ſunt parallelogrammata
+[/Margin]
+
+Επρόμηκες δὲ, ὃ ὀρθογώνιον μὲν ὀυκ ἰσόπλευρον δὲ.
+
+[Curated heading level=4 type=definitions: 31]
+
+31 Altera parte longius, eſt quod rectangulum quidem, at æquilaterum non eſt.
+
+Quemadmodũ ſupraſcripa figura k, quoad angulorum rectitudinem conueniẽs cum ipſo quadrato, diſſidens autem ex parte laterum.
+
+Ρόμβος δὲ, ὃ ἰσόπλευρον μὲν οὐκ ὀρθογώνιον δὲ.
+
+[Margin]
+Rhombus
+[/Margin]
+
+[Curated heading level=4 type=definitions: 32]
+
+32 Rhombus, eſt quæ æquilatera, at rectangula non eſt.
+
+[Diagram: l m]
+
+Cuiuſmodi eſt figura l. Cõuenit itaque rhombus cum ipſo quadrato, in ſola laterũ æqualitate: habet enim duos obtuſos, & totidem acutos angulos, quatuor rectorum ſimul efficientes quantitatem.
+
+Ρομβοειδὲς δὲ, τὸ τὰς ἀπεναντίον πλευράς τε καὶ γωνίας ἴσας ἀλλήλαις ἔχον, ὃ ουτε ἰσόπλευρόν ἐστιν, ὄυτε ὀρθογώνιον.
+
+[Margin]
+Rhomboides
+[/Margin]
+
+[Curated heading level=4 type=definitions: 33]
+
+33 Rhomboides verò, eſt quæ ex oppoſito latera & angulos habens æquales, neque æquilatera, neque rectangula eſt.
+
+[Margin]
+Parallelogramma.
+[/Margin]
+
+Quemadmodùm ſuprà depicta figura m/ repræſentat. Súntque hæc omnia nuper enarrata quadrilatera, parallelogramma: id eſt, quorum oppoſita latera ſunt adinuicem parallela, ſeu æquidiſtantia. Neque plures quadrilaterarum & regularium figurarum contingit inueniri differentias: hinc dicit Euclides,
+
+Τὰ δὲ παρὰ ταῦτα τετράπλευρα, τραπέζια καλείσθω.
+
+[Margin]
+Trapezia
+[/Margin]
+
+[Curated heading level=4 type=definitions: 34]
+
+34 Præter hæc autem reliqua quadrilatera, trapezia adpellantur.
+
+<!-- Signature: a.iiij. -->

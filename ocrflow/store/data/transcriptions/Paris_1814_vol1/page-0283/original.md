@@ -1,0 +1,14 @@
+<!-- Running title: LE QUATRIÈME LIVRE DES ÉLÉMENTS D’EUCLIDE. -->
+<!-- Page number: 231 -->
+
+ΖΗΕ ἴσαι ἀλλήλαις εἰσίν. Αἱ δὲ ἴσαι γωνίαι ἐπὶ ἴσων περιφερειῶν βεβήκασιν· αἱ ἓξ ἄρα περιφέρειαι αἱ ΑΒ, ΒΓ, ΓΔ, ΔΕ, ΕΖ, ΖΑ ἴσαι ἀλλήλαις εἰσίν. Ὑπὸ δὲ τὰς ἴσας περιφερείας αἱ² ἴσαι εὐθεῖαι ὑποτείνουσιν· αἱ ἓξ ἄρα εὐθεῖαι ἴσαι ἀλλήλαις εἰσίν· ἰσόπλευρον ἄρα ἐστὶ τὸ ΑΒΓΔΕΖ ἑξάγωνον· λέγω δὴ ὅτι καὶ ἰσογώνιον. Ἐπεὶ γὰρ ἴση ἐστὶν ἡ ΖΑ περιφέρεια τῇ ΕΔ περιφερείᾳ, κοινὴ προσκείσθω ἡ ΑΒΓΔ περιφέρεια· ὅλη ἄρα ἡ ΖΑΒΓΔ³ ὅλη τῇ ΕΔΓΒΑ⁴ ἐστιν ἴση, καὶ βέβηκε ἐπὶ μὲν τῆς ΖΑΒΓΔ περιφερείας ἡ ὑπὸ ΖΕΑ γωνία, ἐπὶ δὲ τῆς ΕΔΓΒΑ περιφερείας⁵ ἡ ὑπὸ ΑΖΕ γωνία· ἴση ἄρα ἡ ὑπὸ ΑΖΕ γωνία τῇ ὑπὸ ΖΕΑ. Ὁμοίως δὴ δειχθήσεται ὅτι καὶ αἱ λοιπαὶ γωνίαι τοῦ ΑΒΓΔΕΖ ἑξαγώνου κατὰ μίαν ἴσαι εἰσὶν ἑκατέρᾳ τῶν ὑπὸ ΑΖΕ, ΖΕΑ γωνιῶν· ἰσογώνιον ἄρα ἐστὶν τὸ ΑΒΓΔΕΖ ἑξάγωνον. Ἐδείχθη δὲ καὶ ἰσόπλευρον, καὶ ἐγγέγραπται εἰς τὸν ΑΒΓΔΕΖ κύκλον.
+
+Εἰς ἄρα τὸν δοθέντα κύκλον ἑξάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον ἐγγέγραπται. Ὅπερ ἔδει ποιῆσαι.
+
+ΔΗΓ, ΓΗΒ, ΒΗΑ, ΑΗΖ, ΖΗΕ æquales inter se sunt. Æquales autem anguli æqualibus circumferentiis insistunt; sex igitur circumferentiæ ΑΒ, ΒΓ, ΓΔ, ΔΕ, ΕΖ, ΖΑ æquales inter se sunt. Æquales autem circumferentias æquales rectæ subtendunt; sex igitur rectæ æquales inter se sunt; æquilaterum igitur est ΑΒΓΔΕΖ hexagonum; dico etiam et æquiangulum. Quoniam enim æqualis est ΖΑ circumferentia ipsi ΕΔ circumferentiæ, communis addatur ΑΒΓΔ circumferentia; tota igitur ΖΑΒΓΔ toti ΕΔΓΒΑ est æqualis, et insistit quidem ipsi ΖΑΒΓΔ circumferentiæ ipse ΖΕΑ angulus, ipsi vero ΕΔΓΒΑ circumferentiæ ipse ΑΖΕ angulus. Æqualis igitur ΑΖΕ angulus ipsi ΖΕΑ. Similiter utique ostendetur et reliquos angulos ipsius ΑΒΓΔΕΖ hexagoni secundum unum æquales esse alterutri ipsorum ΑΖΕ, ΖΕΑ angulorum. Æquiangulum igitur est ΑΒΓΔΕΖ hexagonum. Ostensum est autem et æquilaterum, et inscriptum est in ΑΒΓΔΕΖ circulo.
+
+In dato igitur circulo hexagonum æquilaterumque et æquiangulum inscriptum est. Quod oportebat facere.
+
+ΑΗΖ, ΖΗΕ sont égaux entr’eux. Mais des angles égaux s’appuient sur des arcs égaux (26. 3); donc les six arcs ΑΒ, ΒΓ, ΓΔ, ΔΕ, ΕΖ, ΖΑ sont égaux entr’eux. Mais des arcs égaux sont soutendus par des droites égales (29. 3); donc ces six droites sont égales entr’elles; donc l’hexagone ΑΒΓΔΕΖ est équilatéral. Je dis qu’il est équiangle. Car puisque l’arc ΖΑ est égal à l’arc ΕΔ, ajoutons l’arc commun ΑΒΓΔ, l’arc entier ΖΑΒΓΔ sera égal à l’arc entier ΕΔΓΒΑ. Mais l’angle ΖΕΑ s’appuie sur l’arc ΖΑΒΓΔ, et l’angle ΑΖΕ s’appuie sur l’arc ΕΔΓΒΑ; donc l’angle ΑΖΕ est égal à l’angle ΖΕΑ (27. 3). On démontrera semblablement que les angles restants de l’hexagone ΑΒΓΔΕΖ sont égaux un à un à l’un et à l’autre des angles ΑΖΕ, ΖΕΑ; donc l’hexagone ΑΒΓΔΕΖ est équiangle. Mais on a démontré qu’il est équilatéral, et il est inscrit dans le cercle ΑΒΓΔΕΖ.
+
+Donc on a inscrit un hexagone équilatéral et équiangle dans le cercle donné. Ce qu’il fallait faire.

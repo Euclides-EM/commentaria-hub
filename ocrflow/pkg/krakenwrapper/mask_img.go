@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
 )
 
 // Kraken requires the mask to be bitonal (exactly two colors). We use a 2-color

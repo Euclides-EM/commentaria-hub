@@ -1,0 +1,32 @@
+<!-- Page number: 312 -->
+
+<!-- Running title: Das VI. Buch -->
+
+[Curated heading level=2 type=propositions: Der II. Vortrag.]
+
+[Curated heading level=2 type=theorems: Das 2. Beweiß-Stück.]
+
+## Der II. Vortrag.
+
+## Das 2. Beweiß-Stück.
+
+Wenn gegen eines Dreyeckes eine Seite ein gerader Nebenstrich gezogen wird/ so schneidet solcher Strich die übrigen Seiten nach der Ebenmaß. Und wenn ein gerader Strich zwo des Dreyeckes Seiten nach der Ebenmaß schneidet; so wird er ein Nebenstrich des Grundstrichs seyn.
+
+### I. Gegebene.
+
+1. Dreyeck abc.
+2. Strich de
+3. de ⧣ cb.
+4. Das Dreyeck schneidend.
+
+### Begehrtes.
+
+ae : ec | ad : db.
+
+[Diagram: Dreyeck mit Gipffel a und Grundlinie bc, darin der Strich de nebst gestrichelten Strichen be und cd]
+
+### Vorbereitung.
+
+Es werden die geraden Striche be und cd gezogen.
+
+<!-- Catchword: Beweiß. -->

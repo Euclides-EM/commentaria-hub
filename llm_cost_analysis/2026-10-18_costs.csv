@@ -1,0 +1,23 @@
+Edition,Facsimile pages,OpenAI model,OpenAI pages count,OpenAI Estimated cost,OpenAI $/facsimile page,Fable model,Fable pages count,Fable Estimated cost,Fable $/facsimile page
+Antwerp_1654,417,GPT-5.6 Sol,,2.955729,0.007088,Fable,,73.72,0.176787
+Basel_1537,599,,,,,Fable,,,
+Basel_1562,213,GPT-5.6 Sol,174,33.668085,0.158066,Fable,39,14.3,0.067136
+Glasgow_1756,431,GPT-5.6 Sol,323,35.45574,0.082264,Fable,108,23.054672,0.053491
+Kiel_and_Leipzig_1699,413,,,,,Fable,,,
+London_1570,1098,GPT-5.6 Sol,,36.80373,0.033519,Fable,,259.51,0.236348
+Lyon_1557,203,,,,,Fable,79,26.574715,0.13091
+Lyon_1603,89,GPT-5.6 Sol,89,16.999226,0.191003,,,,
+Lyon_1672,449,GPT-5.6 Sol,,7.600247,0.016927,Fable,,197.06,0.438886
+Nuremberg_1821,72,,,,,Fable,,21.876591,0.303842
+Oxford_1703,719,GPT-5.6 Sol,,180.998526,0.251736,Fable,,48.45,0.067385
+Paris_1566,441,GPT-5.6 Sol,,47.698803,0.108161,Fable,,107.55,0.243878
+Paris_1615,651,GPT-5.6 Sol,,,,,,,
+Paris_1634,1086,,,,,Fable,,,
+Paris_1639,482,,,,,Fable,,,
+Paris_1667,396,,,,,Fable,388,46.74245,0.118036
+Paris_1794,419,GPT-5.6 Sol,,5.38537,0.012853,,,,
+Pesaro_1572,544,GPT-5.6 Sol,,54.131105,0.099506,Fable,,137.2,0.252206
+Rome_1574,753,GPT-5.6 Sol,19,2.941086,0.003906,Fable,734,0.115292,0.000153
+Seville_1576,252,,,,,Fable,252,83.87,0.332817
+The_Hague_1758,410,GPT-5.6 Sol,28,3.512162,0.008566,Fable,382,90.53,0.220805
+Venice_1482,284,,,,,Fable,284,312.29,1.099613

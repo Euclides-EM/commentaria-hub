@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
 )
 
 func extractDatasetAndAnnotationIDs(r *http.Request) (string, string, error) {

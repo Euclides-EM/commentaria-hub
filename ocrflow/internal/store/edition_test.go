@@ -3,8 +3,8 @@ package store
 import (
 	"testing"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/csv"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/csv"
 )
 
 func TestLoadEditionByKeyLoadsManuscriptElementsMetadataLikePrint(t *testing.T) {
@@ -67,17 +67,17 @@ func TestUpsertManuscriptPersistsElementsMetadataLikePrint(t *testing.T) {
 
 	store := NewEditionCSV(dir, nil)
 	err = store.upsertManuscript(&model.Edition{
-		Key:                   "ms_60",
-		IsManuscript:          true,
-		IsElements:            true,
-		Books:                 []int{1, 2, 3, 5},
-		AdditionalContent:     []string{"copy of Naples V A 13", "fragment"},
+		Key:                       "ms_60",
+		IsManuscript:              true,
+		IsElements:                true,
+		Books:                     []int{1, 2, 3, 5},
+		AdditionalContent:         []string{"copy of Naples V A 13", "fragment"},
 		ManuscriptElementsContent: strPtr("I-XV; abbreviated version"),
-		ShortTitle:            "Test manuscript",
-		ManuscriptYearFrom:    intPtr(1500),
-		ManuscriptYearTo:      intPtr(1600),
-		Title:                 strPtr("Long title"),
-		ShortTitleSource:      "source",
+		ShortTitle:                "Test manuscript",
+		ManuscriptYearFrom:        intPtr(1500),
+		ManuscriptYearTo:          intPtr(1600),
+		Title:                     strPtr("Long title"),
+		ShortTitleSource:          "source",
 	})
 	if err != nil {
 		t.Fatalf("upsert manuscript: %v", err)

@@ -1,0 +1,8 @@
+<!-- Page number: [illegible] -->
+<!-- Running title: EVCLID. GEOM. -->
+
+bus eam connexionem, ut omnis proportio æqualitatis ſit neceßario rationalis, ſed non contra. Omnis item proportio irrationalis neceßario ſit proportio inæqualitatis, ſed non contra. Ex quo manifeſtum eſt, non recte a quibuſdam diuidi proportionem rationalem, in proportionem æqualitatis, & inæqualitatis. Quamuis enim omnis proportio rationalis ſit neceßario æqualitatis, inæqualitatisue, non tamen contra omnis proportio huiuſmodi eſt rationalis; cum multæ proportiones inæqualitatis ſint irrationales. Pari ratione perſpicuum eſt, quoſdam non recte diſtribuere proportionem inæqualitatis, in proportionem rationalem & irrationalem. Quamuis enim omnis proportio inæqualitatis ſit neceſſario rationalis, irrationalisue, non tamen omnis huiuſmodi proportio e contrario eſt proportio inæqualitatis; cum multæ proportiones rationales ſint proportiones æqualitatis. Rectius igitur meo iudicio duplici diuiſione ſecanda eſt proportio in genere, priori quidem in proportionem rationalem & irrationalem; Poſteriori uero in proportionem æqualitatis & inæqualitatis; ut a nobis factum eſt.
+
+RVRSVS proportio inæqualitatis (Relinquimus enim æqualitatis proportionem, quoniam amplius ſub diuidi nequit, cum quæcunque quantitates æquales ſiue magnæ, ſiue paruæ fuerint, eandem ſemper habeat proportionem æqualitatis) ſubdiuiditur in proportionem maioris inæqualitatis, & minoris inæqualitatis. Maioris inæqualitatis proportio eſt, quãdo maior quãtitas cum minore confertur; qualis eſt proportio 20. ad 10. Item lineæ 8. pedum ad lineam 6. pedum, &c.
+
+<!-- Catchword: Pro- -->

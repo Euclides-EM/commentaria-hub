@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/cache"
 )
 
 const featureExecutionTTL = 24 * time.Hour

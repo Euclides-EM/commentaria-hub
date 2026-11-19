@@ -57,7 +57,7 @@ export function SuggestedRulesPane() {
       return
     }
 
-    const { name, description, ...rulePayload } = rule
+    const { name, description, preferred_execution_mode, ...rulePayload } = rule
     const isCreate = action === 'create_new'
     const result =
       await AnnotationsApplyRulesService.putDatasetsAnnotationsApply({
@@ -65,7 +65,7 @@ export function SuggestedRulesPane() {
         id: annotation.id,
         annotationApplyRules: {
           action,
-          execution_mode: rule.execution_mode,
+          execution_mode: preferred_execution_mode,
           ...(isCreate && {
             copy_feature_results: copyFeatureResults,
             ...(name && { name }),

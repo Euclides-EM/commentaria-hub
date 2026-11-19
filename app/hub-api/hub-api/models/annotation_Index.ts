@@ -5,6 +5,7 @@
 import type { annotation_IndexNode } from './annotation_IndexNode';
 export type annotation_Index = {
     readonly annotation_id?: string;
+    readonly available_types?: Array<string>;
     readonly dataset_id?: string;
     nodes?: Array<annotation_IndexNode>;
 };

@@ -31,6 +31,7 @@ type AIModelOption = {
 }
 
 const aiProviderOptions: AIProviderOption[] = [
+  { value: 'claude-code', label: 'Claude Code' },
   { value: 'openai', label: 'OpenAI' },
   { value: 'ollama', label: 'Ollama' },
 ]
@@ -39,6 +40,7 @@ const aiModelOptionsByProvider: Record<
   NonNullable<feature_Revision['ai_provider']>,
   AIModelOption[]
 > = {
+  'claude-code': [{ value: 'fable', label: 'fable' }],
   openai: [{ value: 'gpt-5-mini', label: 'gpt-5-mini' }],
   ollama: [{ value: 'gpt-oss:120b', label: 'gpt-oss:120b' }],
 }

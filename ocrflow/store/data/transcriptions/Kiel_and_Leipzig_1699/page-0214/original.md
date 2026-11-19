@@ -1,0 +1,36 @@
+<!-- Running title: Euclidis. -->
+
+<!-- Page number: 197 -->
+
+wird/eben so groß seyn/ als das Viereck der beeden Stücke bl, ld des andern Striches. W. Z. B.
+
+[Curated heading level=2 type=propositions: Der XXXVI. Vortrag.]
+
+[Curated heading level=2 type=theorems: Das 30. Beweiß-Stück.]
+
+## Der XXXVI. Vortrag.
+
+## Das 30. Beweiß-Stück.
+
+Wenn man von einem ausser dem gegebenen Kreyß erwehlten Düttel zween gerade Striche zu dem Kreyß zeucht/ deren einer den Kreyß nur anrühret/ der andere aber selbigen schneidet: So wird das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/und dem Stück desselben/ so zwischen dem Düttel und aussern Kreyß-krümme stehet/ eben so groß seyn / als das rechtwincklichte Viereck/ das von dem Rührstrich kan gemacht werden.
+
+### Gegebene.
+
+1. Kreyß edgh.
+2. Düttel a.
+3. Ausser dem Kreyß erwehlet.
+4. Gerade Striche ad, ae, ah.
+5. Von dem Düttel a gezogen.
+6. Also daß ad den Kreyß anrühre.
+7. ah den Kreyß in g,
+8. Und ae denselben in b schneide /
+9. Zugleich aber durch den Mittel-Düpffel c gehe.
+
+### Begehrtes.
+
+1. ▭ ha, ag | □ ad
+2. ▭ ea, ab | □ ad
+
+<!-- Signature: Bb 3 -->
+
+<!-- Catchword: Vor- -->

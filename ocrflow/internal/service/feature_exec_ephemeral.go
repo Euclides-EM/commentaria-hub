@@ -6,9 +6,9 @@ import (
 	"log"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/features"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/features"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
 	"github.com/samber/lo"
 )
 

@@ -1,0 +1,6 @@
+<!-- Page number: 324 -->
+<!-- Running title: ELEMENS DE GEOMETRIE. -->
+
+d ⫦ 3g & f ⫦ 3h; ainſi gx−h ⫦ xx, je trouve un quarré égal à h, que je nomme ll, partant gx−ll ⫦ xx; ainſi par le problême 3e du chap. 8e ou 3e exemple du chap. 9e cette equation ſe reduit à cette progreſſion ÷ g−x, l, x, car gx−xx ⫦ ll, & par conſequent gx ⫦ ll+xx, & gx−ll ⫦ xx; les extrêmes de cette progreſſion ſont g−x & x, dont g eſt la ſomme. On trouvera leur difference ſi ſur AB ⫦ g ayant décrit le cercle AGB on éleve perpendiculairement BD ⫦ l, & l'on tire de DG parallele à AB, & du point E la perpendiculaire EF qui coupera AB aux points cherchés: ce qui eſt expliqué, Probl. 1. chap 9. La grandeur inconnüe que l'on cherchoit eſt x. Or comme dans ce Problême on cherche la valeur de x en nombre, il faut du quarré de CE ou CB, moitié de AB, ſomme des extrémes connuës, ôter le quarré de FE ⫦ ll auſſi connuë, il reſtera le quarré de CF, moitié de la difference des extrêmes, dont la racine ajoûtée à CB donnera le plus grand, & étant ôtée le plus petit x ⫦ 3 miſe du premier. Aprés quoy tout le reſte eſt facile.
+
+[Diagram: dotted semicircle on base AB with points G and E on the arc, a vertical line EF meeting the base at F, lines from E to C and to B, and points A, C, F and B along the base]

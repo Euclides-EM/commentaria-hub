@@ -10,6 +10,7 @@ import { getStableColor, MARKER_3, SEA_COLOR } from "../../utils/colors";
 import { GroupByOption } from "./useTrendsData";
 import { PieChartContainer } from "./TrendsStyles";
 import { Text } from "../../components/common";
+import { formatBookFormat } from "../../utils/util";
 
 type TrendsPieChartProps = {
   pieChartData: Array<{
@@ -24,6 +25,9 @@ export function TrendsPieChart({ pieChartData, groupBy }: TrendsPieChartProps) {
   if (!groupBy.key || pieChartData.length === 0) {
     return null;
   }
+
+  const formatGroupLabel = (value: string) =>
+    groupBy.key === "format" ? formatBookFormat(value) : value;
 
   return (
     <>
@@ -42,7 +46,7 @@ export function TrendsPieChart({ pieChartData, groupBy }: TrendsPieChartProps) {
               outerRadius="70%"
               labelLine={true}
               label={({ name, percent }) =>
-                `${name}: ${Number.isInteger(percent) ? percent : parseFloat(percent.toFixed(2))}%`
+                `${formatGroupLabel(String(name))}: ${Number.isInteger(percent) ? percent : parseFloat(percent.toFixed(2))}%`
               }
             >
               {pieChartData.map((entry) => (
@@ -73,7 +77,7 @@ export function TrendsPieChart({ pieChartData, groupBy }: TrendsPieChartProps) {
                       }}
                     />
                     <span>
-                      {name}:{" "}
+                      {formatGroupLabel(name as string)}:{" "}
                       {Number.isInteger(value)
                         ? value
                         : parseFloat(Number(value).toFixed(2))}{" "}
@@ -97,7 +101,7 @@ export function TrendsPieChart({ pieChartData, groupBy }: TrendsPieChartProps) {
                         borderRadius: "2px",
                       }}
                     />
-                    {name}
+                    {formatGroupLabel(name as string)}
                   </span>,
                 ];
               }}
@@ -111,7 +115,7 @@ export function TrendsPieChart({ pieChartData, groupBy }: TrendsPieChartProps) {
                 return (
                   <span style={{ display: "flex", alignItems: "center" }}>
                     <span>
-                      {value}:{" "}
+                      {formatGroupLabel(value)}:{" "}
                       {entry?.value
                         ? Number.isInteger(entry.value)
                           ? entry.value

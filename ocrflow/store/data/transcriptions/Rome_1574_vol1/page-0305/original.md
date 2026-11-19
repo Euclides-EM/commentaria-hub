@@ -1,0 +1,11 @@
+<!-- Running title: EVCLID.GEOM. -->
+
+parte maius, quam dimidium; ſicque continuo ex reſiduis partibus maius, quam dimidium; tandem relinqui minorem angulum, quam B C D. Cuius demonſtrationem hic non appono, cum ex ſequentibus pendeat. Nulla tamen in tota Geometria propoſitio eſt, quæ (ut ſic dicam) magis naturaliter vera ſit. Quod ex numeris (in quibus rerum omnium imagines) luce clarius euadit. Quis enim non uidet propoſitis duobus numeris 8. & 3. cum ab octonario maius quam dimidium abſtuleris, ut quinarium; tum a ternario reſiduo, maius quam dimidium, ut binarium; relinqui vnitatem poſito binario minorem? Neque vero ad rem facit, quod Campanus illic excipit, propoſitionis ſententiam de quantitatibus eiuſdem generis eſſe intelligendam. Hæc quippe conciliatio nulla eſt; quin etiam menti Euclidis contraria, vt nos, cum illuc uentum erit, manifeſtum faciemus. Immo & ipſe Campanus ſecum pugnat, cum in ſecunda duodecimi demonſtranda, alijsq́ue propoſitionibus nonnullis ſolidorum, a curuo rectum auferat.
+
+[Figure: circle with tangent line touching at C, line marked A and B above, point D on the circle]
+
+Nos igitur hanc dubitationem ſic expediemus; ut dicamus lineam rectam, quæ circulum tangit, cum peripheria angulũ non efficere; ſcilicet B C D, nullo modo angulum dici debere. Omnis enim angulus in ſectione conſiſtit, non in contactu. Et vbi ceſſat ſectio, ceſſat quoque anguli forma. Atque vt vno verbo dicam, in decuſſatione (Decuſſationem hoc loco, & ſectionem ſine diſcrimine accipio) omnes angulorum ſpecies perficiuntur. Duabus enim lineis A B, & C D, ſe ſcindẽtibus in puncto E ad angulos rectos, intelligatur C D, ſic moueri in orbẽ, ſcilicet ſuper puncto E, fixo, vt ex C D, fiat F G; hinc ſane ex recto angulo A E C, fiet obtuſus A E F: Inde ex recto B E C, fiet acutus B E F Cũque facta fuerit H K, hinc quidem angulus obtuſior fiet H E A, inde vero acutior B E H; ſicque continuo, donec peruenerit ad A B, & intra eoſdem terminos concludatur cũ ea. Tum enim immerſa, vt ſic dicam linea C D, in lineam A B, euaneſcet angulus. Neque diuerſa ratio eſt in curuo: Sit enim in cir-
+
+[Figure: several lines crossing at a point E, with endpoints labelled C, F, H, A, B, K, G, D]
+
+<!-- Catchword: culo -->

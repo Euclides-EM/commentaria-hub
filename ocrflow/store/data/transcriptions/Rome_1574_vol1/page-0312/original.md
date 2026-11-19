@@ -1,0 +1,11 @@
+<!-- Running title: LIBER. III. -->
+<!-- Page number: 114 -->
+
+QVOD autem anguli contactus ſint inæquales inter ſe, & non omnes æquales, vt vult Peletarius, ſimiliter & anguli ſemicirculorum, ex eo manifeſtum eſt, quod angulus quilibet conſiſtit in vnico puncto, & linearum inclinatione, quæ non in directum iacent, vt conſtat ex anguli plani definitione. Hinc enim fit, vt æqualitas angulorum eiuſdem generis requirat eandem inclinationem linearum, ita vt lineæ vnius conueniant omnino lineis alterius ſi vnus alteri ſuperponatur; Ea enim æqualia ſunt, quæ ſibi mutuo congruunt, iuxta 8. pronunciatum. Cum igitur in angulis contactus, nec non in angulis ſemicirculorum, nequaquam reperiatur ſemper eadem inclinatio, quod (vno ſuperpoſito alteri) lineæ eorum non ſibi reſpondeant, ſed prorſus inter ſe diſſideant, ceu ex figuris ſuperioribus perſpicuum eſt; Non erunt omnes anguli huiuſcemodi inter ſe æquales; Immo quilibet angulus contactus augeri, & diuidi poterit infinite per lineam curuam, licet per rectam ſecari nequeat, vt recte oſtendit Euclides. Cuius etiam rei hæc aſſerri poteſt cauſa; Si enim linea contingens circulum concipiatur moueri circa punctum contactus immobile, continuo circulum ſecabit, donec iterum ipſum contingat: Tunc enim primum ſecare deſinet circulum: Quare ſi vel minime inclinari intelligatur ſuper puncto illo contactus fixo, ſecabit circulum, cum in vno tantum puncto linea recta circulum poſſit tangere, vt ex 2. propoſitione huius lib. collegimus.
+
+SOLVM igitur illi anguli contactus, pariterqꝫ illi duntaxat anguli ſemicirculorum æquales inter ſe erunt, qui efficiuntur a peripherijs æqualibus: In his enim tantummodo lineæ ſibi congruunt mutuo. Anguli vero contactus, qui efficiuntur a peripherijs minoribus, maiores erunt; Et qui a peripherijs maioribus, minores. Anguli denique ſemicirculorum maiorum maiores, minorum autem minores erunt, vt non obſcure intelligi poteſt ex ſuperioribus figuris: Neque enim lineæ talium angulorum ſibi mutuo conueniunt.
+
+CONSTAT ergo, quemuis angulum contactus habere partes, & vnum alteri poſſe æqualem exhiberi, ac rurſus inæqualem, nempe maiorem, vel minorem: quemadmodum & in reliquis angulis omnibus fieri cernimus. Quod etiam
+
+<!-- Signature: P 2 -->
+<!-- Catchword: etiam -->

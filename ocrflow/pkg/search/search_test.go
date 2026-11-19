@@ -6,13 +6,13 @@ import (
 )
 
 type testEdition struct {
-	ShortTitle          string  `json:"shortTitle"`
-	Title               *string `json:"title"`
-	TitleEN             *string `json:"title_EN"`
-	Year                *string `json:"year"`
-	IsManuscript        bool    `json:"isManuscript"`
-	ManuscriptYearFrom  *int    `json:"manuscriptYearFrom"`
-	ManuscriptYearTo    *int    `json:"manuscriptYearTo"`
+	ShortTitle         string  `json:"shortTitle"`
+	Title              *string `json:"title"`
+	TitleEN            *string `json:"title_EN"`
+	Year               *string `json:"year"`
+	IsManuscript       bool    `json:"isManuscript"`
+	ManuscriptYearFrom *int    `json:"manuscriptYearFrom"`
+	ManuscriptYearTo   *int    `json:"manuscriptYearTo"`
 }
 
 func TestFilterFuncAppliesTextSearchWhenNonStrictRangeFieldIsMissing(t *testing.T) {
@@ -150,8 +150,8 @@ func TestOrderByYearUsesManuscriptYears(t *testing.T) {
 
 	items := []testEdition{
 		{
-			ShortTitle:         "print",
-			Year:               strPtr("1500"),
+			ShortTitle: "print",
+			Year:       strPtr("1500"),
 		},
 		{
 			ShortTitle:         "manuscript",
@@ -177,13 +177,13 @@ func TestOrderByYearUsesManuscriptYearToWhenYearFromMissing(t *testing.T) {
 
 	items := []testEdition{
 		{
-			ShortTitle:         "later",
-			IsManuscript:       true,
-			ManuscriptYearTo:   intPtr(1400),
+			ShortTitle:       "later",
+			IsManuscript:     true,
+			ManuscriptYearTo: intPtr(1400),
 		},
 		{
-			ShortTitle:         "earlier",
-			Year:               strPtr("1300"),
+			ShortTitle: "earlier",
+			Year:       strPtr("1300"),
 		},
 	}
 
@@ -203,8 +203,8 @@ func TestOrderByYearTreatsUndatedManuscriptLikeMissingYear(t *testing.T) {
 
 	items := []testEdition{
 		{
-			ShortTitle:   "dated",
-			Year:         strPtr("1500"),
+			ShortTitle: "dated",
+			Year:       strPtr("1500"),
 		},
 		{
 			ShortTitle:   "undated manuscript",

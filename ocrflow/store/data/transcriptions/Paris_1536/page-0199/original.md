@@ -1,0 +1,3 @@
+[Other type="binding"]
+FINEVS IN SEX PRIORES LIBROS EVCLIDI PARISIIS. 1536
+[/Other]

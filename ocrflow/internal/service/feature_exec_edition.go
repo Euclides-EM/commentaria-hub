@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 )
 
 func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string, logLabel string) applyFunc {

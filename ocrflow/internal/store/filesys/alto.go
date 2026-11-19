@@ -1,20 +1,50 @@
 package filesys
 
 import (
-	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
 	"strconv"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 )
 
-func (m *Manager) RetrieveEditionAltoPage(edition *model.Edition, pageNum int) (*alto.Alto, string, error) {
-	return nil, "", errors.New("edition ALTO retrieval not implemented yet")
+func (m *Manager) RetrieveEditionAltoPage(editionKey string, volume *int, pageNum int) (*alto.Alto, string, error) {
+	pageDir := m.EditionTxtPageTranscriptionDir(editionKey, volume, strconv.Itoa(pageNum))
+	a, filePath, err := retrieveTranscriptionAltoPage(pageDir)
+	if err != nil {
+		return nil, filePath, fmt.Errorf("retrieve edition ALTO page %d for edition %s: %w", pageNum, editionKey, err)
+	}
+	return a, filePath, nil
+}
+
+// RetrieveAnnotationTranscriptionAltoPage loads an ALTO transcription stored
+// alongside the annotation's TXT and Markdown transcription alternatives.
+func (m *Manager) RetrieveAnnotationTranscriptionAltoPage(ann *annotation.Annotation, pageNumOrKey string) (*alto.Alto, string, error) {
+	pageDir := m.AnnotationTxtPageTranscriptionDir(ann, pageNumOrKey)
+	a, filePath, err := retrieveTranscriptionAltoPage(pageDir)
+	if err != nil {
+		return nil, filePath, fmt.Errorf("retrieve annotation ALTO page %s for annotation %s: %w", pageNumOrKey, ann.ID, err)
+	}
+	return a, filePath, nil
+}
+
+func retrieveTranscriptionAltoPage(pageDir string) (*alto.Alto, string, error) {
+	filePath := filepath.Join(pageDir, "original.xml")
+	if _, err := os.Stat(filePath); err != nil {
+		if os.IsNotExist(err) {
+			return nil, filePath, fmt.Errorf("ALTO transcription %s does not exist", filePath)
+		}
+		return nil, filePath, fmt.Errorf("stat ALTO transcription %s: %w", filePath, err)
+	}
+
+	a, err := alto.LoadFromFile(filePath)
+	if err != nil {
+		return nil, filePath, fmt.Errorf("load ALTO transcription: %w", err)
+	}
+	return a, filePath, nil
 }
 
 func (m *Manager) RetrieveAnnotationAltoPage(ann *annotation.Annotation, pageNumOrKey string) (*alto.Alto, string, error) {

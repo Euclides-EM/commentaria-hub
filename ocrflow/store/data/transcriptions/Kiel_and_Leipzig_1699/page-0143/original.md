@@ -1,0 +1,35 @@
+<!-- Page number: 126 -->
+
+<!-- Running title: Das III. Buch -->
+
+### Beweiß.
+
+d ⊣ c
+aa | cd ✠ bb — n. 7. II.
+aa | ee ✠ bb — n. 47. I.
+ee (✠ bb) | cd (✠ bb) — n. 1. Gr. I.
+Dw. ee | cd — n. 3. Gr. I.
+
+W. Z. M.
+
+[Diagram: links ein Quadrat (schwach), rechts ein schiefes Viereck]
+
+[Curated heading level=1 type=books: Book 3]
+
+# Das III. Buch Euclidis.
+
+## Beschreibungen.
+
+[Curated heading level=3 type=definitions: I.]
+
+I. Gleichgrosse Kreyse sind / deren Durchschläge gleichlang sind.
+
+[Diagram: zwei gleichgrosse Kreise, der linke mit waagerechtem, der rechte mit schrägem Durchmesser]
+
+[Curated heading level=3 type=definitions: II.]
+
+II. Ein anrührender Strich ca ist / welcher den Kreyß zwar in dem Düttel a berühret / wenn er aber fort gezogen wird / denselben nicht durchschneidet.
+
+[Diagram: Kreis mit Mitteldüpffel b, oben berührender Strich durch a, punktierte Linie von b nach c]
+
+<!-- Catchword: III. An- -->

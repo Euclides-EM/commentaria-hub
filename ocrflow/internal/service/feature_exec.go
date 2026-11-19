@@ -12,13 +12,13 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/features"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/textmatch"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/features"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
+	fpstore "github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/textmatch"
 	"github.com/samber/lo"
 )
 

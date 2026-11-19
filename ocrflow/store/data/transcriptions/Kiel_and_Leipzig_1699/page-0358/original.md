@@ -1,0 +1,39 @@
+<!-- Page number: 341 -->
+
+<!-- Running title: Euclidis. -->
+
+[Curated heading level=2 type=propositions: Der XIV. Vortrag.]
+
+[Curated heading level=2 type=theorems: Das 9. Beweiß-Stück.]
+
+## Der XIV. Vortrag.
+
+## Das 9. Beweiß-Stück.
+
+Gleichmässige Nebenstrichichte Vierecke/ welche einen gleichmässigen oder gleichgrossen Winckel haben/ dieselbigen haben auch bey dem gleichmässigen Winckel wechselmässige (reciproca) Seiten.
+
+Und diejenigen Nebenstrichichten Vierecke/ welche bey dem gleichmässigen Winckel wechselmässige Seiten haben/ sind gleichmässig oder gleichgroß.
+
+### I. Gegebene.
+
+1. Nebenstrichichte Viereck ad
+2. und fh
+3. ad ⌻ fh
+4. d ⋏ e.
+
+### Begehrte.
+
+ab : eh ⊤ fe : db.
+□ ad wechselmässig □ fh.
+
+[Diagram: Zwei kleine Parallelogramme mit den Ecken h, g, a, b, c, d, e, f; darunter grössere Vierecke mit den Ecken F, D, E, H, C, A, B, I, wobei B—I punktiert]
+
+### Vorbereitung.
+
+1. Es werde gemacht ABDC ⌻ abdc. n. 46. I.
+
+2. Verlänget man nach Nothdurfft die Striche CD und BD gegen H und F.
+
+<!-- Signature: Uu 3 -->
+
+<!-- Catchword: 3. werde -->

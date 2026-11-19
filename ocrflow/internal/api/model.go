@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
 	"github.com/samber/lo"
 )
 
@@ -43,7 +43,7 @@ func (h *Handlers) ListModels(r *http.Request) (any, error) {
 
 // TrainModel godoc
 // @Summary      Train a Model
-// @Description  Submits model training to the GPU farm.
+// @Description  Submits model training to the GPU farm. Set manual_run to generate a downloadable bundle for manual GPU farm submission instead of connecting over SSH.
 // @Tags         Models
 // @Accept       json
 // @Produce      json
@@ -101,6 +101,18 @@ func (h *Handlers) UploadModel(r *http.Request) (any, error) {
 	}
 
 	return h.deps.ModelSvc.Upload(file, header.Filename, name, description, baseAnnotations, baseModelID)
+}
+
+// DownloadModel godoc
+// @Summary      Download a Model
+// @Description  Download the file of a local model by its ID.
+// @Tags         Models
+// @Param        id   path      string  true  "Model ID"
+// @Produce      application/octet-stream
+// @Success      200  {file}  string  "Model file"
+// @Router       /models/{id}/download [get]
+func (h *Handlers) DownloadModel(r *http.Request) (filePath string, downloadName string, err error) {
+	return h.deps.ModelSvc.GetFilePath(r.PathValue("id"))
 }
 
 // DeleteModel godoc

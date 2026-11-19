@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 )
 
 type OCRModelLocation string
@@ -44,4 +44,5 @@ type ModelTraining struct {
 	Backend       string              `json:"backend"`
 	GPUFarmHost   string              `json:"gpu_farm_host"`
 	RemoteRunDir  string              `json:"remote_run_dir"`
+	ManualRun     bool                `json:"manual_run,omitempty"`
 }

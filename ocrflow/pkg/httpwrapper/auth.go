@@ -14,6 +14,8 @@ import (
 var allowList = map[string]struct{}{
 	"reallyliri": {},
 	"miamish":    {},
+	"lennartrx":  {},
+	"denisafb":   {},
 }
 
 var cache *ttlcache.Cache[string, *GitHubUser]
@@ -74,10 +76,16 @@ func isPublicReadPath(path string) bool {
 	if strings.HasSuffix(path, "/logs") {
 		return false
 	}
+	if strings.HasSuffix(path, "/facsimilies/mapping-csv") {
+		return false
+	}
+	if strings.Contains(path, "/gpu_farm_runs") {
+		return false
+	}
 	if strings.HasPrefix(path, "/facsimilies/") && strings.HasSuffix(path, "/pdf") {
 		return false
 	}
-	if strings.HasPrefix(path, "/editions/") && strings.HasSuffix(path, "/facsimile.pdf") {
+	if strings.HasPrefix(path, "/datasets/") && strings.HasSuffix(path, "/zip") {
 		return false
 	}
 	return true

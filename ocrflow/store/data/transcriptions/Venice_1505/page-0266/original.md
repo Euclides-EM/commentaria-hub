@@ -1,0 +1,17 @@
+<!-- Running title: Decimus -->
+
+ipſæ irrationales differunt adinuicẽ: & quoniam oſtenſum eſt p̄ .cxi.x. q̃ apotome non eſt eadẽ ei quæ ex binis nominibus. ad rationale autẽ appoſitæ latitudinem efficiunt: quia ſane poſt apotomen apotomas cōſequenter unaq̃q̃ quæ in ordine circa eandẽ: quatuor poſt eas quæ ex binis nominibus eas q̃ ex binis nominibus: & eaſdẽ ordine cōſequenter. aliæ igitur ſunt quæ poſt apotomen: & aliæ quæ poſt eam quæ ex binis nominibus eſt. ut in ordine omnes irrationales ſint heæ uidelicet.
+
+¶ Media. Ex binis noĩbus. Ex binis prima mediis. Ex binis ſecunda mediis. Maior. Rōnale mediũq̃ potens. Bina potens media. Apotome. Mediæ ſecunda apotome. Minor. Cum rationali medium totum efficiens. Cum medio medium totum efficiens.
+
+## Theorema .lxxxviii. propoſitio .cxii.
+
+[Subhead]
+Rationali ad rationalẽ ex binis noĩbus appoſita latitudo efficit apotomen cuius noĩa cōmenſurabilia ſunt nominibus eius quæ ex binis nominibus eſt. & in eadẽ ratione: & inſuper apotome quæ gignitur eundẽ habebit ordinem ei quæ ex binis nominibus eſt.
+[/Subhead]
+
+{dropcap:A|lines=4|style=decorated|decoration="interlaced foliate ornament"} Sit rationalis q̃dem .a. ex binis uero noĩbus ſit .bc. cuius maius nomẽ eſto .dc. & ei quod ex .a. atque eſto id quod ſub .bc.ef. Dico q̃ ipſa .ef. apotome e nominibus ex .xxxvi.x. cuius nomina cōmenſurabilia ſunt ipſis .cd.db. & in eadẽ ratione: & inſup. ef. eandem rationẽ habet ipſi .bc. Sit enim r̄rſus ei quod ex .a. atque id quod ſub .bd.g. Quoniã igitur quod ſub .bc.ef. atque eſt ei quod ſub .bd.g. eſt igitur per .xiii.v. ſicut .cb.ad.bd. ſic eſt .g.ad.ef. maior autẽ eſt .cb. ipſa .bd. maior igitur & .g. ipſa .ef. Eſto ipſi .g. æqualis .ch. Eſt igitur per .vii. & .xi.v. ſicut .cb.ad bd. ſic eſt .hc.ad.ef. manifeſtũ igitur eſt per .xvii.v. q̃ ſicut .cd.ad.db. ſic ē .he. ad .ef. Fiat ſicut .hf.ad.fe. ſic .fk.ad.ke. & tota igitur .hk. per .xii.v. ad totã .kf. ē ſicut .fk.ad.ke. Sicut enim unum antecedentiũ ad unum conſequentium: ſic omnia antecedentia ad oĩa ſequentia. Sicut aut̃ per .xii.v. .fk.ad.ke. ſic eſt .cd. ad .db. & ſicut igitur per .xi.v. .hk.ad.kf. ſic .cd.ad.db. cōmenſurabile autẽ eſt per .xi.x. quod ex .cd. ei. quod ex .bd. cōmenſurabile igitur eſt: & q̃d ex .hk. ei quod ex .fk. & eſt ſicut per .xxii.vi. q̃d ex .hk. ad id q̃d ex .kf. ſic eſt .hk.ad ke. Et quoniã ipſæ tres .hk.kf.ke. ſunt proportionales. Cōmenſurabilis igitur eſt per .xi.x. .hk. ipſi .ke. longitudine. Quare & .he. ipſi .ek. longitudine eſt cōmenſurabilis: & quoniã per correlarũ .xx.vi. quod ex .a. æquum eſt ei quod ſub .eh.bd. Rōnale autẽ eſt id quod ex .a. Rationale igitur eſt & id q̃d ſub .eh.bd. & ad ipſam .bd. rationalem apponitur. Rationalis igitur eſt & .eh. & ipſi .bd. longitudine cōmenſurabilis. Quare & .ek. cōmenſurabilis eſt rationalis eſt. & ipſi .bd. longitudine cōmenſurabilis. Quoniã igitur eſt ſicut .cd.ad.db. ſic eſt .fk.ad.ke. ipſæ autem .cd.db. potentia tm̃ ſunt cōmenſurabiles: & ipſæ igitur .fk.ke. per .xi.x. potentia tm̃ ſunt cōmenſurabiles. Rōnalis autẽ eſt .ke. & ipſi .bd. longitudine cōmenſurabilis. Rōnalis igitur eſt & .kf. & ipſi .cd. longitudine cōmenſurabilis. Ipſæ igit̃ .fk.ke. rōnales ſunt potentia tm̃ cōmenſu
+
+[Diagram: geometrical line diagram labelled c, d, b across an upper horizontal line; h, f, e, k across a lower horizontal line; and i, g, a along vertical and auxiliary lines]
+
+<!-- Signature: Q iii -->

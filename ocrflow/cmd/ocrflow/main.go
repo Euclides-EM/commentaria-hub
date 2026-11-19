@@ -4,12 +4,12 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/app"
-	_ "github.com/MiaMish/elements-dh/ocrflow/internal/docs"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/app"
+	_ "github.com/Euclides-EM/commentaria-hub/ocrflow/internal/docs"
 	"github.com/joho/godotenv"
 )
 
-//go:generate swag init -g main.go -d .,../../internal/api,../../internal/model,../../internal/model/annotation,../../internal/model/annotationrule,../../internal/model/feature,../../internal/model/common,../../pkg/search --parseInternal -o ../../internal/docs
+//go:generate swag init -g main.go -d .,../../internal/api,../../internal/model,../../internal/model/annotation,../../internal/model/annotationrule,../../internal/model/feature,../../internal/model/common,../../pkg/search,../../pkg/llm --parseInternal -o ../../internal/docs
 
 // @title          	OCR Flow API
 // @version         1.0

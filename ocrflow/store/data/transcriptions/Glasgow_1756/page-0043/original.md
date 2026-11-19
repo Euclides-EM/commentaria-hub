@@ -1,0 +1,52 @@
+<!-- Running title: EUCLIDIS ELEMENTORUM -->
+<!-- Page number: 28 -->
+
+angulo BAC aequalis angulus EDGᵃ;
+
+[Margin]
+a. 23. 1.
+[/Margin]
+
+ponaturque alterutri ipſarum AC, DF aequalis DGᵇ,
+
+[Margin]
+b. 3. 1.
+[/Margin]
+
+et EG, GF jungantur.
+
+Itaque quoniam AB quidem eſt aequalis DE, AC vero ipſi DG, duae BA, AC duabus ED, DG aequales ſunt, altera alteri; et angulus BAC eſt aequalis angulo EDG; baſis igitur BC baſi EG eſt aequalisᶜ.
+
+[Margin]
+c. 4. 1.
+[/Margin]
+
+rurſus quoniam aequalis eſt DG ipſi DF, eſt angulus DFG angulo DGF aequalisᵈ;
+
+[Margin]
+d. 5. 1.
+[/Margin]
+
+major autem eſt angulus DGF angulo EGF, erit itaque DFG angulus angulo EGF major; multo igitur major eſt EFG angulus ipſo EGF. et quoniam triangulum eſt EFG angulum EFG majorem habens angulo EGF, majori autem angulo latus majus ſubtenditurᵉ;
+
+[Margin]
+e. 19. 1.
+[/Margin]
+
+erit latus EG latere EF majus. ſed EG latus eſt aequale lateri BC; ergo et BC ipſo EF majus erit. ſi igitur duo triangula &c. Q. E. D.
+
+[Diagram: triangle ABC and geometrical construction DEFG]
+
+[Curated heading level=2 type=propositions: PROP. XXV. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. XXV. THEOR.]
+
+## PROP. XXV. THEOR.
+
+[Subhead]
+{dropcap:S|lines=2|style=plain}I duo triangula duo latera duobus lateribus aequalia habeant, alterum alteri, baſim vero baſi majorem; et angulum angulo, qui aequalibus lateribus continetur, majorem habebunt.
+[/Subhead]
+
+Sint duo triangula ABC, DEF, quae duo latera AB, AC duobus lateribus DE, DF aequalia habeant, alterum alteri, videlicet latus AB aequale lateri DE, et latus AC lateri DF; baſis autem BC baſi EF ſit major. dico, et angulum BAC angulo EDF majorem eſſe.
+
+Si enim non eſt major, vel aequalis eſt vel minor. aequalis autem non eſt angulus BAC angulo EDF, eſſet enim et baſis BC baſi EF aequalisᵃ.

@@ -1,0 +1,130 @@
+import styled from "@emotion/styled";
+import Select from "react-select";
+import { uniq } from "lodash";
+import { Item } from "../../types";
+import { FilterValue } from "./Filter";
+import { SubjectCategoriesNotice } from "../SubjectCategoriesNotice";
+
+const CLASSIFICATIONS = [
+  "primary",
+  "secondary",
+  "unknown",
+  "unrelated",
+] as const;
+const DEFAULT_CLASSIFICATIONS = ["primary", "secondary"];
+
+const RelevanceRow = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+
+  label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    text-transform: capitalize;
+  }
+`;
+
+const Label = styled.div`
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+`;
+
+type Props = {
+  data: Item[];
+  value: FilterValue[] | undefined;
+  setValue: (value: FilterValue[] | undefined) => void;
+};
+
+const parseValue = (value: string) => {
+  const separator = value.lastIndexOf("::");
+  return separator < 0
+    ? null
+    : {
+        category: value.slice(0, separator),
+        classification: value.slice(separator + 2),
+      };
+};
+
+export const SubjectCategoriesFilter = ({ data, value, setValue }: Props) => {
+  const parsed = (value || [])
+    .map((item) => parseValue(item.value))
+    .filter(Boolean) as {
+    category: string;
+    classification: string;
+  }[];
+  const selectedCategories = uniq(parsed.map((item) => item.category));
+  const selectedClassifications = parsed.length
+    ? uniq(parsed.map((item) => item.classification))
+    : DEFAULT_CLASSIFICATIONS;
+  const categoryOptions = uniq(
+    data.flatMap((item) =>
+      item.subjectCategories.map((entry) => entry.category || ""),
+    ),
+  )
+    .filter(Boolean)
+    .sort((a, b) => a.localeCompare(b))
+    .map((category) => ({ label: category, value: category }));
+
+  const update = (categories: string[], classifications: string[]) => {
+    const next = categories.flatMap((category) =>
+      classifications.map((classification) => ({
+        label: `${category} — ${classification}`,
+        value: `${category}::${classification}`,
+      })),
+    );
+    setValue(next.length ? next : undefined);
+  };
+
+  return (
+    <>
+      <div>
+        <Label>Subjects</Label>
+        <Select
+          value={categoryOptions.filter((option) =>
+            selectedCategories.includes(option.value),
+          )}
+          options={categoryOptions}
+          isMulti
+          placeholder="Select subjects..."
+          onChange={(options) =>
+            update(
+              options.map((option) => option.value),
+              selectedClassifications,
+            )
+          }
+        />
+      </div>
+      <div>
+        <Label>Relevance</Label>
+        <RelevanceRow>
+          {CLASSIFICATIONS.map((classification) => (
+            <label key={classification}>
+              <input
+                type="checkbox"
+                checked={selectedClassifications.includes(classification)}
+                disabled={
+                  selectedClassifications.length === 1 &&
+                  selectedClassifications.includes(classification)
+                }
+                onChange={(event) => {
+                  const next = event.target.checked
+                    ? [...selectedClassifications, classification]
+                    : selectedClassifications.filter(
+                        (item) => item !== classification,
+                      );
+                  update(selectedCategories, next);
+                }}
+              />
+              {classification}
+            </label>
+          ))}
+        </RelevanceRow>
+      </div>
+      <SubjectCategoriesNotice />
+    </>
+  );
+};

@@ -10,10 +10,6 @@ func ExtractModelIDsFromRules(rule []AnnotationRule) []string {
 			if v.Model != "" {
 				modelIDSet[v.Model] = struct{}{}
 			}
-		case *DetectText:
-			if v.Model != "" {
-				modelIDSet[v.Model] = struct{}{}
-			}
 		}
 	}
 	for _, r := range rule {

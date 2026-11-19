@@ -18,7 +18,12 @@ func (h *Handlers) ListSuggestedRulesForDataset(r *http.Request) (any, error) {
 		return nil, err
 	}
 
-	return h.deps.DatasetSvc.ListSuggestedAnnotationRules(datasetID)
+	usedInAnnotations, err := h.deps.AnnotationSvc.ListAnnotationsByUsedModels()
+	if err != nil {
+		return nil, err
+	}
+
+	return h.deps.DatasetSvc.ListSuggestedAnnotationRules(datasetID, usedInAnnotations)
 }
 
 // ListSuggestedReviewForDataset godoc

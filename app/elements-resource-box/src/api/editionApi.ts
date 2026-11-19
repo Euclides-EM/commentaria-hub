@@ -1,9 +1,24 @@
-import type { model_Edition, model_USTC, search_Query } from "@hub-api";
-import { EditionsService, ThirdPartyCatalogsService } from "@hub-api";
+import type {
+  model_Edition,
+  model_EditionShelfmark,
+  model_USTC,
+  search_Query,
+} from "@hub-api";
+import {
+  EditionsService,
+  FeatureResultsService,
+  OpenAPI,
+  ShelfmarksService,
+  ThirdPartyCatalogsService,
+} from "@hub-api";
 import { uploadImage } from "./imageApi.ts";
 
+export type EditionWithShelfmarks = model_Edition & {
+  shelfmarks?: model_EditionShelfmark[];
+};
+
 export const upsertEdition = async (
-  data: model_Edition,
+  data: EditionWithShelfmarks,
   images: Record<string, File>,
   options?: { isNew?: boolean },
 ): Promise<void> => {
@@ -61,15 +76,64 @@ export const upsertEdition = async (
 
   await Promise.all(uploads);
 
+  const { shelfmarks = [], ...edition } = data;
+
   if (options?.isNew) {
-    await EditionsService.postEditions({ edition: data });
+    await EditionsService.postEditions({ edition });
   } else {
-    await EditionsService.putEditions({ editionId: data.key!, edition: data });
+    await EditionsService.putEditions({ editionId: data.key!, edition });
+    const existingShelfmarks = await ShelfmarksService.getEditionsShelfmarks({
+      editionId: data.key!,
+    });
+    const nextIDs = new Set(
+      shelfmarks.map((shelfmark) => shelfmark.id).filter(Boolean),
+    );
+    for (const shelfmark of existingShelfmarks.filter(
+      (shelfmark) => shelfmark.id && !nextIDs.has(shelfmark.id),
+    )) {
+      await ShelfmarksService.deleteEditionsShelfmarks({
+        editionId: data.key!,
+        shelfmarkId: shelfmark.id!,
+      });
+    }
+  }
+
+  for (const shelfmark of shelfmarks) {
+    if (shelfmark.id) {
+      await ShelfmarksService.putEditionsShelfmarks({
+        editionId: data.key!,
+        shelfmarkId: shelfmark.id,
+        shelfmark,
+      });
+    } else {
+      await ShelfmarksService.postEditionsShelfmarks({
+        editionId: data.key!,
+        shelfmark,
+      });
+    }
   }
 };
 
 export const deleteEdition = async (editionId: string): Promise<void> => {
   await EditionsService.deleteEditions({ editionId });
+};
+
+export const updateEditionSubjectCategories = async (
+  editionId: string,
+  categories: { category: string; classification: string }[],
+): Promise<void> => {
+  await FeatureResultsService.postFeaturesResults({
+    result: [
+      {
+        scope: { type: "editions" },
+        key: editionId,
+        feature_id: "m_classifier",
+        values: categories.map(({ category, classification }) => ({
+          surface: `${category}::${classification}`,
+        })),
+      },
+    ],
+  });
 };
 
 export const ustcLookup = async (
@@ -80,12 +144,119 @@ export const ustcLookup = async (
   });
 };
 
-export const getEdition = async (editionId: string): Promise<model_Edition> => {
-  return EditionsService.getEditions({ editionId });
+export const getEdition = async (
+  editionId: string,
+): Promise<EditionWithShelfmarks> => {
+  const [edition, shelfmarks] = await Promise.all([
+    EditionsService.getEditions({ editionId }),
+    ShelfmarksService.getEditionsShelfmarks({ editionId }),
+  ]);
+  return { ...edition, shelfmarks };
 };
 
 export const searchEditionsPage = async (query?: search_Query) =>
   EditionsService.postEditionsSearch({ edition: query });
+
+export const listEditionShelfmarks = (editionId: string) =>
+  ShelfmarksService.getEditionsShelfmarks({ editionId });
+
+const SHELFMARKS_BATCH_SIZE = 50;
+
+const chunksOf = <T>(items: T[], size: number): T[][] => {
+  const chunks: T[][] = [];
+  for (let i = 0; i < items.length; i += size) {
+    chunks.push(items.slice(i, i + size));
+  }
+  return chunks;
+};
+
+export const listShelfmarks = async (
+  editionIds?: string[],
+): Promise<model_EditionShelfmark[]> => {
+  if (!editionIds || editionIds.length === 0) {
+    return ShelfmarksService.getShelfmarks({});
+  }
+
+  const uniqueEditionIds = Array.from(
+    new Set(editionIds.filter((editionId) => Boolean(editionId))),
+  );
+  if (uniqueEditionIds.length === 0) {
+    return [];
+  }
+
+  const batches = await Promise.all(
+    chunksOf(uniqueEditionIds, SHELFMARKS_BATCH_SIZE).map((batch) =>
+      ShelfmarksService.getShelfmarks({ editionId: batch }),
+    ),
+  );
+  return batches.flat();
+};
+
+export const attachShelfmarks = async <T extends model_Edition>(
+  editions: T[],
+): Promise<Array<T & { shelfmarks: model_EditionShelfmark[] }>> => {
+  const editionIds = editions
+    .map((edition) => edition.key)
+    .filter((key): key is string => Boolean(key));
+  if (editionIds.length === 0) {
+    return editions.map((edition) => ({ ...edition, shelfmarks: [] }));
+  }
+  const shelfmarks = await listShelfmarks(editionIds);
+  const byEdition = new Map<string, model_EditionShelfmark[]>();
+  for (const shelfmark of shelfmarks) {
+    if (!shelfmark.edition_id) continue;
+    byEdition.set(shelfmark.edition_id, [
+      ...(byEdition.get(shelfmark.edition_id) ?? []),
+      shelfmark,
+    ]);
+  }
+  return editions.map((edition) => ({
+    ...edition,
+    shelfmarks: edition.key ? (byEdition.get(edition.key) ?? []) : [],
+  }));
+};
+
+export type ReprintRelationship = {
+  editionKey: string;
+  reprintOf: string;
+};
+
+const postReprintRequest = async <T>(
+  path: string,
+  body: unknown,
+  token: string,
+): Promise<T> => {
+  const response = await fetch(`${OpenAPI.BASE}${path}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) {
+    const detail = await response.text();
+    throw new Error(detail || `Request failed (${response.status})`);
+  }
+  return response.json() as Promise<T>;
+};
+
+export const detectReprints = async (token: string) =>
+  postReprintRequest<{ candidates: ReprintRelationship[] }>(
+    "/editions/reprints/detect",
+    {},
+    token,
+  );
+
+export const applyReprints = async (
+  token: string,
+  relationships: ReprintRelationship[],
+) =>
+  postReprintRequest<{ updated: string[]; skipped: string[] }>(
+    "/editions/reprints/apply",
+    { relationships },
+    token,
+  );
 
 const pageSignature = (items: model_Edition[] | undefined) =>
   (items || []).map((item) => item.key || "").join("|");

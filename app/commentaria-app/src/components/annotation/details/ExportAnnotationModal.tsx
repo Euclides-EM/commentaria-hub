@@ -9,8 +9,11 @@ import { selectStyles } from '../../../styles/selectStyles.ts'
 import { ErrorMessage } from '../../core/ErrorMessage'
 import useLocalStorageState from 'use-local-storage-state'
 import { runningIntegrationJobsQueryKey } from '../../../queries/integrations.ts'
+import { API_BASE_URL } from '../../../config/api.ts'
+import { useAuthStore } from '../../../store/authStore.ts'
+import { streamDownloadInNewTab } from '../../../utils/streamDownload.ts'
 
-type ExportMode = 'roboflow' | 'escriptorium' | 'commentaria'
+type ExportMode = 'roboflow' | 'escriptorium' | 'commentaria' | 'zip'
 
 interface ExportAnnotationModalProps {
   isOpen: boolean
@@ -36,10 +39,16 @@ type CommentariaSettings = Required<
   Pick<job_Target, 'api_key' | 'base_path' | 'dataset_id'>
 >
 
+type ZipSettings = {
+  includeAlto: boolean
+  includeImages: boolean
+}
+
 const exportOptions = [
   { value: 'roboflow', label: 'Upload to Roboflow' },
   { value: 'escriptorium', label: 'Upload to Escriptorium' },
   { value: 'commentaria', label: 'Export to Commentaria' },
+  { value: 'zip', label: 'Download as ZIP' },
 ] as const
 
 export function ExportAnnotationModal({
@@ -50,6 +59,7 @@ export function ExportAnnotationModal({
 }: ExportAnnotationModalProps) {
   const queryClient = useQueryClient()
   const { annotation } = useAppState()
+  const token = useAuthStore((store) => store.token)
   const [mode, setMode] = useState<ExportMode>('roboflow')
   const [roboflow, setRoboflow] = useLocalStorageState<RoboflowSettings>(
     'export-roboflow',
@@ -78,6 +88,15 @@ export function ExportAnnotationModal({
         dataset_id: '',
       },
     })
+  const [zipSettings, setZipSettings] = useLocalStorageState<ZipSettings>(
+    'export-zip',
+    {
+      defaultValue: {
+        includeAlto: true,
+        includeImages: false,
+      },
+    },
+  )
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const exportCount = exportTargets?.length || 0
@@ -102,6 +121,29 @@ export function ExportAnnotationModal({
           : []
 
     if (resolvedTargets.length === 0) {
+      return
+    }
+
+    if (mode === 'zip') {
+      const params = new URLSearchParams({
+        include_alto: String(zipSettings.includeAlto),
+        include_images: String(zipSettings.includeImages),
+      })
+      resolvedTargets.forEach((target) => {
+        const downloadName =
+          annotation?.id === target.annotationId && annotation.name
+            ? `${annotation.name}.zip`
+            : `${target.datasetId}_${target.annotationId}.zip`
+        void streamDownloadInNewTab(
+          `${API_BASE_URL}/datasets/${encodeURIComponent(target.datasetId)}/annotations/${encodeURIComponent(target.annotationId)}/zip?${params.toString()}`,
+          downloadName,
+          token,
+        ).catch((e) => {
+          console.error('Failed to download annotation zip:', e)
+        })
+      })
+      onSuccess?.()
+      onClose()
       return
     }
 
@@ -341,6 +383,42 @@ export function ExportAnnotationModal({
             </div>
           )}
 
+          {mode === 'zip' && (
+            <div className="space-y-3">
+              <label className="flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="checkbox"
+                  checked={zipSettings.includeAlto}
+                  onChange={(e) =>
+                    setZipSettings((prev) => ({
+                      ...prev,
+                      includeAlto: e.target.checked,
+                    }))
+                  }
+                  disabled={loading}
+                />
+                ALTO files
+              </label>
+              <label className="flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="checkbox"
+                  checked={zipSettings.includeImages}
+                  onChange={(e) =>
+                    setZipSettings((prev) => ({
+                      ...prev,
+                      includeImages: e.target.checked,
+                    }))
+                  }
+                  disabled={loading}
+                />
+                Page images
+              </label>
+              <p className="text-xs text-gray-500">
+                The ZIP is streamed in a new tab and saved once complete.
+              </p>
+            </div>
+          )}
+
           {mode === 'commentaria' && (
             <div className="space-y-3">
               <div className="space-y-2">
@@ -430,8 +508,13 @@ export function ExportAnnotationModal({
                 type="submit"
                 variant="primary"
                 className="px-3 py-1.5 text-sm"
+                disabled={
+                  mode === 'zip' &&
+                  !zipSettings.includeAlto &&
+                  !zipSettings.includeImages
+                }
               >
-                Export
+                {mode === 'zip' ? 'Download' : 'Export'}
               </Button>
             </>
           )}

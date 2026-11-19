@@ -1,0 +1,79 @@
+package gpufarm
+
+import (
+	"os/exec"
+	"strings"
+	"testing"
+)
+
+func TestRenderCleanupCompletedRunsScriptIsValidBash(t *testing.T) {
+	script, err := renderCleanupCompletedRunsScript("/tmp/jobs with ' quote", 3)
+	if err != nil {
+		t.Fatalf("render cleanup script: %v", err)
+	}
+
+	if output, err := exec.Command("bash", "-n", "-c", script).CombinedOutput(); err != nil {
+		t.Fatalf("validate cleanup script: %v: %s", err, output)
+	}
+}
+
+func TestCleanupScriptReportsRetentionDecisions(t *testing.T) {
+	script, err := renderCleanupCompletedRunsScript("/tmp/jobs", 3)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, expected := range []string{
+		"reason=active",
+		"abandoned_upload_older_than_24h",
+		"retention_limit",
+		"deleted_abandoned=",
+		"deleted_retention=",
+	} {
+		if !strings.Contains(script, expected) {
+			t.Fatalf("cleanup script lacks %q", expected)
+		}
+	}
+}
+
+func TestCleanupScriptReportsHumanReadableStorageAndLowSpaceWarnings(t *testing.T) {
+	script, err := renderCleanupCompletedRunsScript("/tmp/jobs", 3)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, expected := range []string{
+		"used=$used_before_human total=$total_before_human available=$available_before_human usage=$usage_before",
+		"size=$run_human bytes=$run_bytes",
+		"deleted=$deleted_human reclaimed=$reclaimed_human",
+		"level=warning reason=low_space",
+		"low_space_threshold_percent=90",
+	} {
+		if !strings.Contains(script, expected) {
+			t.Fatalf("cleanup script lacks %q", expected)
+		}
+	}
+}
+
+func TestDiscardRejectsPathsOutsideDirectJobRunDirectory(t *testing.T) {
+	s := NewSubmitterSlurm("unused", "/remote/jobs")
+	for _, runDir := range []string{
+		"/remote/jobs",
+		"/remote/jobs/detect_annotation",
+		"/remote/jobs/detect_annotation/not-a-run",
+		"/remote/jobs/detect_annotation/nested/run_123",
+		"/remote/elsewhere/detect_annotation/run_123",
+	} {
+		if err := s.Discard(&RemoteEnv{RemoteRunDir: runDir}); err == nil {
+			t.Errorf("Discard(%q) unexpectedly succeeded", runDir)
+		}
+	}
+}
+
+func TestParseDFCapacity(t *testing.T) {
+	total, available, err := parseDFCapacity("1B-blocks Avail\n42949672960 15728640000")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if total != 42949672960 || available != 15728640000 {
+		t.Fatalf("capacity = (%d, %d), want (42949672960, 15728640000)", total, available)
+	}
+}

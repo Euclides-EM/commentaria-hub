@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import Select from 'react-select'
 import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import {
   useAnnotationCategories,
   useAnnotationSearch,
@@ -15,6 +16,7 @@ import { selectStyles } from '../../../../styles/selectStyles.ts'
 import type { annotation_SearchWithin, common_ALTOPart } from '@hub-api'
 import { startCase } from 'lodash'
 import {
+  ANNOTATION_SEARCH_ANNOTATION_ID_KEY,
   ANNOTATION_SEARCH_CATEGORIES_KEY,
   ANNOTATION_SEARCH_TERM_KEY,
   ANNOTATION_SEARCH_WITHIN_KEY,
@@ -91,22 +93,45 @@ const getResultLocationDisplay = (result: common_ALTOPart) => {
 export function AnnotationSearchMenu() {
   const { state, dataset, jumpToPage, setSearchResultHighlight } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState(
-    ANNOTATION_SEARCH_TERM_KEY,
+    useScopedStorageKey(ANNOTATION_SEARCH_TERM_KEY),
     { defaultValue: '', storageSync: false },
   )
-  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState(searchTerm)
+  const [debouncedSearch, setDebouncedSearch] = useState({
+    term: searchTerm,
+    annotationId: state.annotationId,
+  })
   const [selectedCategories, setSelectedCategories] = useLocalStorageState<
     string[] | null
-  >(ANNOTATION_SEARCH_CATEGORIES_KEY, {
+  >(useScopedStorageKey(ANNOTATION_SEARCH_CATEGORIES_KEY), {
     defaultValue: null,
     storageSync: false,
   })
   const [selectedSearchWithin, setSelectedSearchWithin] = useLocalStorageState<
     annotation_SearchWithin | annotation_SearchWithin[] | null
-  >(ANNOTATION_SEARCH_WITHIN_KEY, {
+  >(useScopedStorageKey(ANNOTATION_SEARCH_WITHIN_KEY), {
     defaultValue: null,
     storageSync: false,
   })
+  const [searchAnnotationId, setSearchAnnotationId] = useLocalStorageState<
+    string | null
+  >(useScopedStorageKey(ANNOTATION_SEARCH_ANNOTATION_ID_KEY), {
+    defaultValue: null,
+    storageSync: false,
+  })
+  const isSearchForCurrentAnnotation = searchAnnotationId === state.annotationId
+
+  useEffect(() => {
+    if (isSearchForCurrentAnnotation) return
+    setSearchAnnotationId(state.annotationId)
+    setSearchTerm('')
+    setSelectedCategories(null)
+  }, [
+    isSearchForCurrentAnnotation,
+    setSearchAnnotationId,
+    setSearchTerm,
+    setSelectedCategories,
+    state.annotationId,
+  ])
 
   const { data: categories } = useAnnotationCategories(
     state.datasetId,
@@ -115,14 +140,18 @@ export function AnnotationSearchMenu() {
 
   useEffect(() => {
     const timeoutId = window.setTimeout(() => {
-      setDebouncedSearchTerm(searchTerm)
+      setDebouncedSearch({ term: searchTerm, annotationId: state.annotationId })
     }, 300)
     return () => {
       window.clearTimeout(timeoutId)
     }
-  }, [searchTerm])
+  }, [searchTerm, state.annotationId])
 
-  const normalizedSearch = debouncedSearchTerm.trim()
+  const normalizedSearch =
+    isSearchForCurrentAnnotation &&
+    debouncedSearch.annotationId === state.annotationId
+      ? debouncedSearch.term.trim()
+      : ''
 
   const activeCategories = useMemo(() => {
     if (!categories || categories.length === 0) {
@@ -165,24 +194,12 @@ export function AnnotationSearchMenu() {
         ? [selectedSearchWithin]
         : []
 
-    return currentSelection.find((option) =>
-      availableSearchWithinOptions.includes(option),
+    return (
+      currentSelection.find((option) =>
+        availableSearchWithinOptions.includes(option),
+      ) ?? availableSearchWithinOptions[0]
     )
   }, [availableSearchWithinOptions, selectedSearchWithin])
-
-  useEffect(() => {
-    const nextSelection =
-      normalizedSelectedSearchWithin ?? availableSearchWithinOptions[0] ?? null
-
-    if (selectedSearchWithin !== nextSelection) {
-      setSelectedSearchWithin(nextSelection)
-    }
-  }, [
-    availableSearchWithinOptions,
-    normalizedSelectedSearchWithin,
-    selectedSearchWithin,
-    setSelectedSearchWithin,
-  ])
 
   const activeSearchWithin = useMemo(() => {
     return normalizedSelectedSearchWithin
@@ -363,7 +380,7 @@ export function AnnotationSearchMenu() {
 
       <div className="overflow-auto px-3 pb-3 flex-1 min-h-0">
         {!normalizedSearch && (
-          <div className="text-gray-500 text-xs italic text-center py-6">
+          <div className="text-gray-600 text-xs italic text-center py-6">
             Type to search
           </div>
         )}
@@ -374,13 +391,13 @@ export function AnnotationSearchMenu() {
           <ErrorMessage error={error} variant="centered" />
         )}
         {normalizedSearch && !isLoading && !error && results.length === 0 && (
-          <div className="text-gray-500 text-xs italic text-center py-6">
+          <div className="text-gray-600 text-xs italic text-center py-6">
             No results found
           </div>
         )}
         {normalizedSearch && !isLoading && !error && results.length > 0 && (
           <div className="space-y-2">
-            <div className="text-xs text-gray-500">
+            <div className="text-xs text-gray-600">
               Listing {results.length} results
             </div>
             {results.map((result, index) => {
@@ -388,7 +405,7 @@ export function AnnotationSearchMenu() {
               return (
                 <div
                   key={getResultKey(result, index)}
-                  className="border border-gray-200 rounded-lg p-2 text-xs bg-white hover:bg-gray-50 transition-colors cursor-pointer"
+                  className="border border-gray-300 rounded-lg p-2 text-xs bg-white hover:bg-gray-50 transition-colors cursor-pointer"
                   onClick={() => {
                     const jumpTarget = getSearchResultPageOrKey(result)
                     if (jumpTarget != null) {
@@ -397,7 +414,7 @@ export function AnnotationSearchMenu() {
                     setSearchResultHighlight(result.content || null)
                   }}
                 >
-                  <div className="flex items-center justify-between text-[11px] text-gray-500 mb-1">
+                  <div className="flex items-center justify-between text-[11px] text-gray-600 mb-1">
                     <span>
                       {getFormattedCategory(
                         result.category,

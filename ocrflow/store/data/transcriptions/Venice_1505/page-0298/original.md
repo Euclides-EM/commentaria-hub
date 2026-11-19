@@ -1,0 +1,17 @@
+<!-- Running title: Undecimus -->
+
+lium aut̃ ſolidoꝝ parallelepipedoꝝ quoꝝ altitudines ad angulos rectos ipſis eoꝝ baſibus ſunt: reciproce ſunt baſes ipſis altitudinibus eſt igitur ſicut .fk. baſis ad .xr. baſim: ſic ipſius .dψ. ſolidi altitudo ad ipſius .bt. ſolidi altitudinẽ æqualis autẽ eſt .fk. baſis ipſi .eh. baſi. & .xr. baſis ipſi .np. baſi. eſt igitur ſicut .eh. baſis ad .np. baſim. ſic eſt ipſius .dψ. ſolidi altitudo ad ipſius .bt. ſolidi altitudinem: eedem uero altitudines ſunt ipſoꝝ .dψ. & .bt. ſolidoꝝ & ipſoꝝ .dc.ba. Eſt igitur ſicut .eh. baſis ad .np. baſim: ſic ipſius .dc. ſolidi altitudo ad ipſius .ab. ſolidi altitudinem. Ipſorum igitur .ab.cd. ſolidorum parallelepipedorum reciproce ſunt baſes altitudinibus.
+
+[Diagram: labelled oblique parallelepiped]
+
+¶ Rurſus iam ipſoꝝ .ab.cd. ſolidoꝝ parallelepipedoꝝ reciproce ſint baſes altitudinibus, ſitq̃ ſicut .eh. baſis ad .np. baſim. ſic ipſius .cd. ſolidi altitudo ad ipſius .ab. ſolidi altitudinẽ. Dico q̃ ſolidũ .ab. æquũ eſt ipſi .cd. ſolido: eiſdẽ nāq̃ diſpoſitis: q̃m eſt ſicut .eh. baſis ad .np. baſim: ſic ipſius .cd. ſolidi altitudo ad ipſius .ab. ſolidi altitudinẽ æqlis autẽ eſt baſis .fk. ipſi .eh. & .np ipſi .xr. eſt igitur ſicut .fk. baſis ad .xr. baſim: ſic ipſius .cd. ſolidi altitudo ad ipſius .ab. ſolidi altitudinem: eedem autẽ ipſoꝝ .ab.cd.bt. & .dψ. ſolidoꝝ ſunt altitudines, eſt igitur ſicut .fk. baſis ad .xr. baſim: ſic ipſius .dψ. ſolidi altitudo ad ipſius .bt. ſolidi altitudinem. Ipſoꝝ igitꝰ .bt.dψ. ſolidoꝝ parallelepipedoꝝ reciprocae ſunt baſes altitudinibus. Solida uero parallelepipeda quoꝝ altitudines ad angulos rectos ſunt baſibus eoꝝ: & reciprocae ſunt baſes altitudinibus: æqualia ſunt per .xxxi.xi. Igitur ſolidũ .bt. æquũ eſt ipſi .dψ. ſolido. Sed ipſum quidem .bt. ipſi .ba. æquũ eſt per .xxx.xi. ſup eadẽ nāq̃ ſunt baſi .fk. & ſub eadẽ altitudine quoꝝ ſtantes nō ſunt ſup eiſdem rectis lineis. Solidũ autẽ .dψ. ipſi .dc. ſolido æquũ eſt. Sup eadẽ nāq̃ ſut baſi .xr. & ſub eadẽ altitudine & ſtãtes nō ſut ſup eiſdẽ rectis lineis. Igitꝰ & .ab. ſolidũ ipſi .dc. ſolido æquũ eſt: q̃d demonſtrare oportebat.
+
+[Diagram: labelled oblique parallelepiped]
+
+## Theorema .xxx. propoſitio .xxxv.
+
+{dropcap:S|lines=4|style=decorated|decoration="foliate ornament"}i fuerint bini anguli plani æquales ſupra quoꝝ uerticibꝰ ſublimes rectae lineae ſteterint æquales angulos cōprehendentes. cũ hiis quae in principio rectis lineis alterum alteri: in ſublimibus aut̃ cōtingant cōtingentia ſigna: & ab eiſdem ad plana in quibus ſunt qui in principio anguli ppendiculares actae fuerint: a factis aut̃ ſignis ſub perpendicularibus in planis ad eos q̃ in principio anguli coniunctae fuerint rectae lineae: æquos angulos cum ſublimibus comprehendent.
+
+¶ Sint bini anguli rectilinei æquales plani qui ſub .bac.edf. a ſignis autẽ ad ſublimes excitentur rectae linee .ag.dm. æquos cōprehendentes angulos: cũ hiis q̃ in principio angulis alterꝰ alteri hoc eſt angulũ .mde. angulo ei q̃ ſub .gab. eum aut̃ qui ſub .mdf. ei qui ſub .gac. ſumanturq̃ in ipſis .ag.dm. cōtingentia ſigna .g.m. Excitenturq̃ per .xi.xi. ab ipſis .g.m. ſignis ad ea q̃ ſub .bac.edf. plana perpendiculares .gl.mn. coincidantq̃ ipſis planis in .nl. conẽctanturq̃ ipſe .la.nd. Dico q̃ angulus q̃ ſub .gal. æquus eſt angulo .mdn. ponat p̃ .ii. primi ipſi .dm. æqualis .ah. Exciteturq̃ per .xxxi. primi .p ſignũ .h. ipſi .gl. parallelus .hk. at .gl.
+
+<!-- Signature: S iii -->

@@ -1,0 +1,13 @@
+<!-- Running title: DE L’ALGEBRE. -->
+
+<!-- Page number: 293 -->
+
+ques d’iceux demonſtrent: comme ce nombre quarré de ſurſolide 102 4.eſt procreé de la racine io fois poſee en ceſte maniere 2.1.2.1.2.2.2.2.2.2 ainſi que monſtre ſon expoſant 10: toutesfois pource que ſon ſigne coſſique qReſt compoſé de ces deux ſignes coſſiques q & ß, les expoſans deſquels ſont 2 & 5. partant ſi la meſme racine z eſt deux fois poſee en ceſte maniere 2, 2, à cauſe de 2 expoſant du ſigne q, & ſoit multiplié, afin que a ſoit produict, & ce produict; fois poſé en ceſte mantere 4, 4, 4, 4, 4, à cauſe de s, expoſant du ſigne ß, ſoit multiplié; ſera procreé le meſme nombre 024. Par la meſme maniere ſi la racine 2, eſt poſee ; fois, à cauſe du ſigne ß, & pareillement multiplié, & le nõbre ;2 produict, ſoit poſé deux fois, à cauſe du ſigne q, ſera procreé le meſme nombre: Car la racine ainſi multipliee 2, 2, 2, 2,2, faict 32: mais ce nombre cy ainſi multiplié 12, 2 procree 1024. Le meſme doit eſtre dict des autres, ſi les ſiones coſſiques d’iceux ſont compoſez de pluſieurs ſignes coſſi ques.
+
+Pareillement és ſupetieures progreſſions, eſt bien conſiderable que l’addition des nombres de la progreſſion Arith. reſpond à la multiplication des nombres de la progreſsion geo. & la ſubſtraction à la diuiſion. ( ar pour exemple, ainſi quez & ; font 7, ſi on les adiouſte enſemble, ainſi pareillemét q& ß, deſquels 2 &e ſont expoſans, c’eſt à ſçauoir , & 31, eſtas multipliez entr’eux produiſent 128, c’eſt à dire bſ, l’expoſant duquel eſt 7. Item ainſi que; & 9 adiouſtez enſemble font 12, ainſi auſsi c & cc: c’eſt à ſçauoir 8. & c12. les expoſans deſquels ſont 3 & 9, multipliez entr’eux produiſent 406, c’eſt à dire qqc, duquel l’expoſant eſt 12: & ainſi des autres.
+
+Derechef tout ainſi qu’en ſubſtrayant 5 de 7 reſte z, ainſi en diuiſant bß, c’eſt à ſçauoir 128, duquel 7 eſt expoſant, par ſ, c’eſt à dire par 12, duquel l’expoſant eſt s, prouient a: c’eſt aſçauoir q, duquel l’expoſant eſt 2. ſemblablement. ainſi qu’en ſouſtrayant 3 de I1 reſtent 9, ainſi auſſi en diuiſant qqc, c’eſt à dire 4096, duquel l’expoſant eſt 12. par c. c’eſt à dire par 8, duquel l’expoſant eſt3, prouiẽt c: c’eſt à ſçauoir 512, duquel l’expoſant eſt 9. & ainſi des autres.
+
+Or ce qui a eſté dict iuſques à preſent de la progreſſion geometrique de double proportion qui commence à l’vnité, le meſme doit eſtre entédu en quelque autre progreſſion geo metrique que ce ſoit, le commencement de laquelle eſt l’vnité.
+
+R eſte à monſtrer par quelle raiſon tous les nombres propoſez de quelconque progreſſion geo. commençant à l’vni-

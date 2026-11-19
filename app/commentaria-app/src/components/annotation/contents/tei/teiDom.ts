@@ -1,4 +1,4 @@
-import type { ReadingOptions, TeiTranslationSource } from './teiTypes.ts'
+import type { ReadingOptions, TeiAlternativeSource } from './teiTypes.ts'
 
 export const parseXml = (xmlString: string) => {
   const parser = new DOMParser()
@@ -117,19 +117,22 @@ export function getBody(doc: Document): Element {
 export const getXmlLang = (el: Element) =>
   getElementAttr(el, 'xml:lang') || getElementAttr(el, 'lang')
 
-export const getTeiTranslationSources = (
+export const getTeiAlternativeSources = (
   body: Element,
-): TeiTranslationSource[] => {
-  const directDivTranslations: TeiTranslationSource[] = []
+): TeiAlternativeSource[] => {
+  const alternatives: TeiAlternativeSource[] = []
   const directDivs = getDirectChildrenByName(body, 'div')
   for (const div of directDivs) {
-    if (getElementAttr(div, 'type') !== 'translation') continue
-    const lang = getXmlLang(div)
-    const n = getElementAttr(div, 'n')
-    directDivTranslations.push({
+    const type = getElementAttr(div, 'type')
+    if (type !== 'transcription-alternative' && type !== 'translation') continue
+    const label =
+      type === 'translation'
+        ? getXmlLang(div) || getElementAttr(div, 'n')
+        : getElementAttr(div, 'n')
+    alternatives.push({
       element: div,
-      label: lang || n,
+      label,
     })
   }
-  return directDivTranslations
+  return alternatives
 }

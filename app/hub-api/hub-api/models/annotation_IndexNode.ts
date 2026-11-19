@@ -8,5 +8,6 @@ export type annotation_IndexNode = {
     children?: Array<annotation_IndexNode>;
     content?: string;
     location?: common_ALTOLocation;
+    type?: string;
 };
 

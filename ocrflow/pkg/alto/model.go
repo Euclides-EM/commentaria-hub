@@ -60,8 +60,10 @@ type TextLine struct {
 	Height   float64 `xml:"HEIGHT,attr"`
 	Baseline string  `xml:"BASELINE,attr,omitempty"`
 	// child elements
-	Shape   Shape    `xml:"Shape"`
-	Strings []String `xml:"http://www.loc.gov/standards/alto/ns-v4# String"`
+	Shape Shape `xml:"Shape"`
+	// Match by local name so ALTO documents from supported namespace versions
+	// (and documents without an explicit namespace) retain their OCR tokens.
+	Strings []String `xml:"String"`
 }
 
 type String struct {

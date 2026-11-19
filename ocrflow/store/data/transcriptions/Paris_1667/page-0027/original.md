@@ -1,0 +1,7 @@
+<!-- Running title: PREFACE. -->
+
+metriques ſont de même infinies en étendüe; parceque l'on n'y conclut pas ce qu'on démótre d'une ſeule ligne, d'un ſeul angle, d'un ſeul cercle, d'un ſeul triangle, mais de toutes les lignes, de tous les angles, de tous les cercles, de tous les triangles; & qu'ainſy l'eſprit les renferme & les comprend tous en quelque ſorte quelques infinis qu'ils ſoiét. Or que tout cela ſe puiſſe faire par le bouleverſement d'une matiere, & qu'en la remuant elle devienne capable de comprendre des objets ſpirituels, & d'en comprendre même une infinité, c'eſt ce que perſonne ne ſçauroit croire ny penſer, pourveu qu'il veüille de bonne foy ſonger à ce qu'il dit.
+
+Ce ſont ces reflexions qui ont fait juger à l'Auteur de ces Elemens, qu'on pouvoit faire un bon uſage de la Geometrie ; mais ce n'eſt pas neanmoins ce qui l'a porté à travailler à en faire de nouveaux, puiſqu'on peut tirer tous ces avantages des livres ordinaires qui en traittent. Ils portent tous à aimer la verité; ils apprennent à la diſcerner; ils fortifient la raiſon; ils étendent la veuë de l'eſprit, & ils donnent lieu d'admirer la grandeur de l'ame de l'homme, & de reconnoiſtre qu'elle ne peut eſtre autre que ſpirituelle & immortelle. Ce qui luy a donc fait croire qu'il eſtoit utile de donner une nouvelle forme à cette ſcience eſt, qu'eſtant perſuadé que c'eſtoit une choſe fort avantageuſe de s'accoûtumer à reduire ſes penſées à un ordre naturel, cet ordre eſtant comme une lumiere qui les éclaircit toutes les unes
+
+<!-- Signature: é iij -->

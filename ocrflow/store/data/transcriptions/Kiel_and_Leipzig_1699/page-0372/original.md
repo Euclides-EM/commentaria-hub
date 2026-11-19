@@ -1,0 +1,39 @@
+<!-- Running title: Euclidis. -->
+
+<!-- Page number: 355 -->
+
+Dw. △ abc : △ abg | △ abc : △ def n. 7. V.
+u. △ abc : △ def ⊐ bc : ef n. 11. V.
+
+### Beschluß.
+
+Haben derowegen ähnliche Dreyecke zu einander zwiefach grössere Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
+
+[Curated heading level=2 type=propositions: Der XX. Vortrag.]
+
+[Curated heading level=2 type=theorems: Das 14. Beweiß-Stück.]
+
+## Der XX. Vortrag.
+
+## Das 14. Beweiß-Stück.
+
+Aehnliche Vielecke können in ähnliche/ und gleichviele/ und mit denen Gantzen Verhältniß-ähnliche oder ebenmässige Dreyecke abgetheilet werden.
+
+Die ähnlichen Vielecke stehen auch gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältniß-ähnliche Seiten.
+
+### Gegebene.
+
+1. Fünfeck cad
+2. u. hfi
+3. cad ähnlich hfi.
+
+### I. Begehrte.
+
+1. Beyde Fünfecke in ähnliche/ und
+2. Gleichviele/ und
+3. mit denen Fünfecken/ Verhältnüß-ähnliche Dreyecke abgetheilet.
+
+[Diagram: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]
+
+<!-- Signature: Y y 2 -->
+<!-- Catchword: Vorbe- -->

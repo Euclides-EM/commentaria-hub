@@ -9,16 +9,17 @@ import (
 	"os"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/app"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/app"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 	"github.com/joho/godotenv"
 )
 
 var allowedModelsByProvider = map[string][]string{
-	string(feature.AIProviderOpenAI): {"gpt-5-mini"},
-	string(feature.AIProviderOllama): {"gpt-oss:120b"},
+	string(feature.AIProviderClaudeCode): {"fable"},
+	string(feature.AIProviderOpenAI):     {"gpt-5-mini"},
+	string(feature.AIProviderOllama):     {"gpt-oss:120b"},
 }
 
 type cliConfig struct {
@@ -219,7 +220,7 @@ func fillMissingInputs(reader *bufio.Reader, ocrApp *app.OCRFlowApp, cfg *cliCon
 	}
 
 	if cfg.aiProvider == "" {
-		cfg.aiProvider, err = promptChoice(reader, "AI provider (openai/ollama)", []string{string(feature.AIProviderOllama), string(feature.AIProviderOpenAI)})
+		cfg.aiProvider, err = promptChoice(reader, "AI provider (claude-code/openai/ollama)", []string{string(feature.AIProviderClaudeCode), string(feature.AIProviderOllama), string(feature.AIProviderOpenAI)})
 		if err != nil {
 			return err
 		}

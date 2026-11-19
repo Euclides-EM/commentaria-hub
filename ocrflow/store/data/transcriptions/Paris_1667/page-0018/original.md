@@ -1,0 +1,7 @@
+<!-- Running title: PREFACE. -->
+
+rations à d'autres connoiſſances vraiment utiles. Ainſy ceux qui s'y attachét pour elles mêmes comme à quelque choſe de grand & de relevé n'en connoiſſent pas le vray uſage , & cette ignorance eſt en eux un beaucoup plus grand défaut que s'ils ignoroient abſolument ces ſciences.
+
+Ce n'eſt pas un grand mal que de n'eſtre pas Geometre ; mais c'en eſt un conſiderable que de croire que la Geometrie eſt une choſe fort eſtimable , & de s'eſtimer ſoy même pour s'eſtre rempli la teſte de lignes , d'angles , de cercles , de proportions. C'eſt une ignorance tres blâmable que de ne pas ſçavoir , que toutes ces ſpeculations ſteriles ne contribuent rien à nous rendre heureux ; qu'elles ne ſoulagent point nos miſeres ; qu'elles ne gueriſſent point nos maux ; qu'elles ne nous peuvent donner aucun contentement réel & ſolide ; que l'homme n'eſt point fait pour cela , & que bien loin que ces ſciences luy donnent ſujet de s'élever en luy même , elles ſont au contraire des preuves de la baſſeſſe de ſon eſprit ; puiſqu'il eſt ſi vain & ſi vuide de vray bien , qu'il eſt capable de s'occuper tout entier à des choſes ſi vaines & ſi inutiles.
+
+Cependant on ne voit que trop par experience, que ces ſortes de connoiſſances ſont d'ordinaire jointes à l'ignorance de leur prix & de leur uſage. On les recherche pour elles mêmes ; on s'y applique comme à des choſes fort importantes ; on en fait ſa principale profeſſion ; on ſe glorifie des découvertes que l'on y fait ; on croit fort obliger le

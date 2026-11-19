@@ -1,0 +1,5 @@
+Geometria quatuor, de lineis indiuiduis vnum: ille hiſtoriam Mathematicam condidit, ex quo Proclus alijque ſua mutuati ſunt. Aryſteo, Iſidoro, Hypſicli Geometris ſubtiliſſimis ſolidorum libros maximè debemus. Denique Euclides aliorum inuenta collegit, ordinauit, auxit, demonſtrauitque accuratius, eaque nobis reliquit elementa, quibus iam vbique terrarum ad Mathematicam iuuentus inſtituitur. Obijt anno ante Chriſtum 284. Euclidem ſecuti ſunt centum ferè poſt annis Eratoſthenes & Archimedes. Eratoſthenis clarum inprimis nomen fuit, ſed eius ſcripta periêre. Archimedis habemus multa, multa amiſimus.
+
+Sed Archimedem cum nomino, apicem quendam humanæ ſubtilitatis, totiuſque Mathematicæ diſciplinæ abſolutionem animo concipio. Eius inuenta admiranda prodidêre Polybius, Plutarchus, Tzetzes, alijque. Archimedi coæuus fuit Conon Geometra & Aſtronomus, cuius mortem Archimedes deflet in lib. de quad. parab. Archimedem & Cononem interuallo non magno ſequitur Appollonius Pergeus, alter Geometriæ princeps, qui egregiæ laudis encomio magnus Geometra fuit appellatus. Illius extant quatuor Conicorum ſubtiliſſimi libri. Eidem adſcribuntur Euclidis
+
+<!-- Catchword: libri -->

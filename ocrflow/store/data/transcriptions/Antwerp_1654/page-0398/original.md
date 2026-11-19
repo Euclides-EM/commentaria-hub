@@ -1,0 +1,1 @@
+[Diagram: narrow visible edge of a folded plate showing fragments of geometrical figures with letter and number labels, including f, g, b, c, m, z, 25, 37, and a small ruled grid; the remainder of the page is blank with show-through of figures from the other side]

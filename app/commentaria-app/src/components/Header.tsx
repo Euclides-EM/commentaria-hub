@@ -22,9 +22,24 @@ export function Header({ onShowLogin }: HeaderProps) {
     'idle' | 'running' | 'done' | 'failed'
   >('idle')
   const [serverSha, setServerSha] = useState<string | null>(null)
+  const [fsUsedPercent, setFsUsedPercent] = useState<number | null>(null)
   const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8085'
   const serverShaLabel =
     !token || !username ? 'Unavailable' : serverSha || 'Loading...'
+  const fsUsageLabel =
+    fsUsedPercent === null
+      ? serverSha
+        ? 'Unavailable'
+        : 'Loading...'
+      : `${fsUsedPercent.toFixed(1)}%`
+  const fsUsageColor =
+    fsUsedPercent === null
+      ? 'text-gray-800'
+      : fsUsedPercent < 60
+        ? 'text-teal-600'
+        : fsUsedPercent <= 85
+          ? 'text-yellow-600'
+          : 'text-red-600'
 
   useEffect(() => {
     if (!token || !username) {
@@ -36,6 +51,7 @@ export function Header({ onShowLogin }: HeaderProps) {
     Promise.resolve().then(() => {
       if (!cancelled) {
         setServerSha(null)
+        setFsUsedPercent(null)
       }
     })
 
@@ -45,6 +61,7 @@ export function Header({ onShowLogin }: HeaderProps) {
           return
         }
         setServerSha(health.commit_sha || 'Unavailable')
+        setFsUsedPercent(health.filesystem?.used_percent ?? null)
       })
       .catch(() => {
         if (cancelled) {
@@ -132,10 +149,20 @@ export function Header({ onShowLogin }: HeaderProps) {
               {isMenuOpen ? (
                 <div className="absolute right-0 top-full z-50 pt-2">
                   <div className="w-80 rounded-md border border-gray-200 bg-white shadow-lg p-2">
-                    <div className="px-2 py-2 text-xs text-gray-500">
-                      Signed in as
-                      <div className="text-sm font-semibold text-gray-900 truncate">
-                        {username}
+                    <div className="px-2 py-2 text-xs text-gray-500 grid grid-cols-2 gap-3">
+                      <div className="min-w-0">
+                        Signed in as
+                        <div className="text-sm font-semibold text-gray-900 truncate">
+                          {username}
+                        </div>
+                      </div>
+                      <div className="min-w-0">
+                        Disk Usage
+                        <div
+                          className={`text-sm font-semibold ${fsUsageColor}`}
+                        >
+                          {fsUsageLabel}
+                        </div>
                       </div>
                     </div>
                     <div className="px-2 pb-2 text-xs text-gray-500 grid grid-cols-2 gap-3">

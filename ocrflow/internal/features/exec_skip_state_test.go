@@ -3,7 +3,7 @@ package features
 import (
 	"testing"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
 )
 
 func TestExecutionSkipStateValueNotEmpty(t *testing.T) {

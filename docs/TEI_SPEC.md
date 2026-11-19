@@ -183,6 +183,53 @@ Key points:
 * Entities embedded inline
 * Mention IDs allow relation linking
 
+### Markdown structural blocks
+
+When the source transcription uses the canonical transcription Markdown dialect,
+each block is encoded as an `<ab>` with a semantic `@type`. A paired Markdown
+subhead block is encoded as `type="subhead"`:
+
+```markdown
+## DEFINITIONS DE QUELQUES MOTS
+
+[Subhead]
+dont on s'eſt ſervi dans ces Elemens ſans les definir.
+[/Subhead]
+```
+
+```xml
+<ab xml:id="transcription_anon_blk_page_page1_1" type="header2">
+  <l xml:id="line_page_page1_1_1">DEFINITIONS DE QUELQUES MOTS</l>
+</ab>
+<ab xml:id="transcription_anon_blk_page_page1_2" type="subhead">
+  <l xml:id="line_page_page1_2_1">dont on s'eſt ſervi dans ces Elemens ſans les definir.</l>
+</ab>
+```
+
+The subhead remains a sibling of the heading and following body blocks. It MUST
+NOT be represented as another heading or alter the heading hierarchy.
+
+A curated Markdown heading is encoded as `type="curated-heading"`, with its
+structural level in `@n`. A named parallel index layer is preserved in TEI
+`@subtype`; the default layer omits `@subtype`:
+
+```markdown
+[Curated heading level=1: Dedications]
+[Curated heading level=1 type=genre: Mathematical books]
+```
+
+```xml
+<ab xml:id="transcription_anon_blk_page_page1_1" type="curated-heading" n="1">
+  <l xml:id="line_page_page1_1_1">Dedications</l>
+</ab>
+<ab xml:id="transcription_anon_blk_page_page1_2" type="curated-heading" subtype="genre" n="1">
+  <l xml:id="line_page_page1_2_1">Mathematical books</l>
+</ab>
+```
+
+Here `@type` identifies the TEI block as a curated heading, while `@subtype`
+identifies its optional index layer.
+
 ### 5.2 Translation alignment
 
 Translations remain parallel:

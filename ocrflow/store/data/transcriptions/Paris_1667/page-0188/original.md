@@ -1,0 +1,94 @@
+<!-- Page number: 150 -->
+<!-- Running title: NOUVEAUX ELEMENS -->
+
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
+
+[Margin]
+XXXVIII.
+[/Margin]
+
+4. QUE la grandeur du ſinus reglant toûjours celle du ſinus verſe (comme il a eſté montré VII. 16.) elle regle toûjours auſſy celle des *antiſinus*, quoyque par rapport au rayon, puiſque l'*antiſinus* n'eſt autre choſe que le rayon moins le *ſinus verſe*; de ſorte que dans deux angles differens les rayons & les ſinus ne ſçauroient eſtre égaux que les antiſinus ne le ſoient auſſy.
+
+Tout cela ſuppoſé, ſoient conſiderez les Lemmes ſuivans.
+
+[Curated heading level=4 type=lemmas: PREMIER LEMME.]
+
+#### PREMIER LEMME.
+
+[Curated heading level=4 type=paragraph_order: XXXIX.]
+
+[Margin]
+XXXIX.
+[/Margin]
+
+QUAND on dit que deux angles qu'on veut meſurer par les ſinus ont le rayon égal, c'eſt de même que ſi l'on diſoit qu'ils ſont meſurez par des arcs de cercles égaux; & s'ils ont le rayon inégal, par des arcs de cercles inégaux.
+
+[Curated heading level=4 type=lemmas: SECOND LEMME.]
+
+#### SECOND LEMME.
+
+[Curated heading level=4 type=paragraph_order: XL.]
+
+[Margin]
+XL.
+[/Margin]
+
+DANS les cercles égaux les arcs égaux ont des ſinus égaux, & les ſinus égaux donnent des arcs égaux. VII. 15.
+
+[Curated heading level=4 type=lemmas: TROISIEME LEMME.]
+
+#### TROISIEME LEMME.
+
+[Curated heading level=4 type=paragraph_order: XLI.]
+
+[Margin]
+XLI.
+[/Margin]
+
+DANS les cercles égaux les plus grands arcs ont les plus grands ſinus, & les plus grands ſinus donnent les plus grands arcs. VII. 15.
+
+[Curated heading level=4 type=lemmas: QUATRIEME LEMME.]
+
+#### QUATRIEME LEMME.
+
+[Curated heading level=4 type=paragraph_order: XLII.]
+
+[Margin]
+XLII.
+[/Margin]
+
+DANS des cercles inégaux les arcs eſtant égaux, ceux des plus grands cercles ont les plus grands ſinus. VII. 18.
+
+[Curated heading level=4 type=lemmas: CINQUIEME LEMME.]
+
+#### CINQUIEME LEMME.
+
+[Curated heading level=4 type=paragraph_order: XLIII.]
+
+[Margin]
+XLIII.
+[/Margin]
+
+DANS des cercles inégaux les ſinus eſtant égaux, ceux des plus grands cercles donnent des arcs proportionellement plus petits, c'eſtadire de moins de degrez. C'eſt une ſuitte claire du precedent.
+
+[Curated heading level=4 type=propositions: PREMIER THEOREME.]
+
+[Curated heading level=4 type=theorems: PREMIER THEOREME.]
+
+#### PREMIER THEOREME.
+
+[Curated heading level=4 type=paragraph_order: XLIV.]
+
+[Margin]
+XLIV.
+[/Margin]
+
+TROIS égalitez peuvent eſtre conſiderées dans les angles que l'on compare & que l'on meſure par les ſinus.
+
+1. L'égalité des rayons.
+
+2. L'égalité des ſinus.
+
+3. L'égalité des angles mêmes.
+
+Or deux eſtant données donnent la 3e.

@@ -12,9 +12,13 @@ import {
   SortingState,
   useReactTable,
 } from "@tanstack/react-table";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import styled from "@emotion/styled";
-import { FacsimilesService, type search_OrderByOption } from "@hub-api";
+import {
+  FacsimilesService,
+  type model_Facsimile,
+  type search_OrderByOption,
+} from "@hub-api";
 import { SiMaterialdesign } from "react-icons/si";
 import { Item, STUDY_CORPUSES } from "../types";
 import { useAppliedFilter } from "../contexts/FilterAppliedContext";
@@ -28,12 +32,7 @@ import {
 import { ItemModal } from "../components/tps/modal/ItemModal";
 import { ItemTypes, NO_CITY } from "../constants";
 import { joinArr } from "../utils/util.ts";
-import {
-  FaCheck,
-  FaChevronDown,
-  FaChevronRight,
-  FaFilePdf,
-} from "react-icons/fa";
+import { FaCheck, FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { AiFillEdit, AiOutlineCopy } from "react-icons/ai";
 import { SEA_COLOR } from "../utils/colors.ts";
 import { AuthContext } from "../contexts/Auth.ts";
@@ -52,6 +51,8 @@ import {
   formatDisplayYear,
 } from "../utils/itemDisplay.ts";
 import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
+import { detectReprints, type ReprintRelationship } from "../api/editionApi.ts";
+import { ReprintDetectionModal } from "../components/ReprintDetectionModal.tsx";
 
 const TableContainer = styled.div`
   ${ScrollbarStyle};
@@ -61,6 +62,14 @@ const TableContainer = styled.div`
   color: black;
   margin-bottom: 2rem;
   overflow-x: auto;
+`;
+
+const CatalogueTableArea = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: fit-content;
+  max-width: 100%;
 `;
 
 const StyledTable = styled.table`
@@ -226,6 +235,28 @@ const ViewModeToggle = styled.div`
   align-items: center;
 `;
 
+const CatalogueActions = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+`;
+
+const SecondaryActionButton = styled(ExportButton)`
+  background-color: white;
+  color: ${SEA_COLOR};
+  border: 1px solid ${SEA_COLOR};
+
+  &:hover {
+    background-color: #f3f7fa;
+    opacity: 1;
+  }
+`;
+
+const DetectReprintsButton = styled(SecondaryActionButton)``;
+
 const ExpandIcon = styled.div`
   display: flex;
   align-items: center;
@@ -288,6 +319,7 @@ const toServerOrderBy = (sorting: SortingState): search_OrderByOption[] => {
 export function Catalogue() {
   const { filters } = useAppliedFilter();
   const { token } = useContext(AuthContext);
+  const queryClient = useQueryClient();
   const [sorting, setSorting] = useState<SortingState>([
     { id: "year", desc: false },
   ]);
@@ -295,6 +327,11 @@ export function Catalogue() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [isExporting, setIsExporting] = useState(false);
+  const [isDetectingReprints, setIsDetectingReprints] = useState(false);
+  const [reprintCandidates, setReprintCandidates] = useState<
+    ReprintRelationship[] | null
+  >(null);
+  const [reprintMessage, setReprintMessage] = useState<string | null>(null);
   const [viewMode, setViewMode] = useLocalStorage<ViewMode>(
     "catalogue-view-mode",
     "reprint",
@@ -306,17 +343,40 @@ export function Catalogue() {
     queryKey: ["facsimiles", "download-available"],
     queryFn: () => FacsimilesService.getFacsimilies({}),
   });
-  const downloadAvailableEditionKeys = useMemo(
-    () =>
-      new Set(
-        localFacsimiles
-          .filter(
-            (facsimile) => facsimile.download_available && facsimile.edition_id,
-          )
-          .map((facsimile) => facsimile.edition_id!),
-      ),
-    [localFacsimiles],
-  );
+  const downloadableFacsimilesByEdition = useMemo(() => {
+    const byEdition = new Map<string, model_Facsimile[]>();
+    for (const facsimile of localFacsimiles) {
+      if (
+        !facsimile.download_available ||
+        !facsimile.edition_id ||
+        !facsimile.id
+      ) {
+        continue;
+      }
+      byEdition.set(facsimile.edition_id, [
+        ...(byEdition.get(facsimile.edition_id) ?? []),
+        facsimile,
+      ]);
+    }
+    return byEdition;
+  }, [localFacsimiles]);
+  const diagramFacsimilesByEdition = useMemo(() => {
+    const byEdition = new Map<string, model_Facsimile[]>();
+    for (const facsimile of localFacsimiles) {
+      if (
+        !facsimile.diagram_crops_available ||
+        !facsimile.edition_id ||
+        !facsimile.id
+      ) {
+        continue;
+      }
+      byEdition.set(facsimile.edition_id, [
+        ...(byEdition.get(facsimile.edition_id) ?? []),
+        facsimile,
+      ]);
+    }
+    return byEdition;
+  }, [localFacsimiles]);
 
   const copyEditionKey = useCallback(async (editionKey: string) => {
     try {
@@ -329,13 +389,18 @@ export function Catalogue() {
       console.error("Failed to copy edition key:", err);
     }
   }, []);
-  const openMainScan = useCallback(
-    (editionKey: string) => {
+  const openLocalScan = useCallback(
+    (facsimile: model_Facsimile) => {
       if (!token) {
         return;
       }
-      void openAuthenticatedFacsimilePDF(editionKey, token).catch((error) => {
-        console.error("Failed to open main scan:", error);
+      void openAuthenticatedFacsimilePDF(
+        facsimile.id!,
+        token,
+        undefined,
+        facsimile.name ? `${facsimile.name}.pdf` : undefined,
+      ).catch((error) => {
+        console.error("Failed to open scan:", error);
       });
     },
     [token],
@@ -371,6 +436,22 @@ export function Catalogue() {
       );
     } finally {
       setIsExporting(false);
+    }
+  };
+
+  const handleDetectReprints = async () => {
+    if (!token) return;
+    setIsDetectingReprints(true);
+    setReprintMessage(null);
+    try {
+      const result = await detectReprints(token);
+      setReprintCandidates(result.candidates || []);
+    } catch (error) {
+      setReprintMessage(
+        error instanceof Error ? error.message : "Could not detect reprints.",
+      );
+    } finally {
+      setIsDetectingReprints(false);
     }
   };
 
@@ -596,24 +677,29 @@ export function Catalogue() {
                   <AiOutlineCopy style={{ fontSize: "1rem" }} />
                 )}
               </IconButton>
-              {token &&
-                downloadAvailableEditionKeys.has(info.row.original.key) && (
-                  <IconButton
-                    type="button"
-                    onClick={() => openMainScan(info.row.original.key)}
-                    title="View main scan"
-                    aria-label="View main scan"
-                  >
-                    <FaFilePdf style={{ color: SEA_COLOR, fontSize: "1rem" }} />
-                  </IconButton>
-                )}
-              {info.row.original.facsimiles.length > 0 && (
+              {(info.row.original.facsimiles.length > 0 ||
+                (token &&
+                  (
+                    downloadableFacsimilesByEdition.get(
+                      info.row.original.key,
+                    ) ?? []
+                  ).length > 0)) && (
                 <FacsimileLinks
                   facsimiles={info.row.original.facsimiles}
+                  localFacsimiles={
+                    token
+                      ? (downloadableFacsimilesByEdition.get(
+                          info.row.original.key,
+                        ) ?? [])
+                      : []
+                  }
+                  onOpenLocalFacsimile={openLocalScan}
                   color={SEA_COLOR}
                 />
               )}
-              {info.row.original.diagramCropsAvailable && (
+              {((diagramFacsimilesByEdition.get(info.row.original.key) ?? [])
+                .length > 0 ||
+                info.row.original.diagramCropsAvailable) && (
                 <a
                   href={withAppBasePath(
                     `/diagrams?key=${info.row.original.key}`,
@@ -743,8 +829,9 @@ export function Catalogue() {
       token,
       copiedKey,
       copyEditionKey,
-      downloadAvailableEditionKeys,
-      openMainScan,
+      downloadableFacsimilesByEdition,
+      diagramFacsimilesByEdition,
+      openLocalScan,
     ],
   );
 
@@ -777,116 +864,151 @@ export function Catalogue() {
 
       <Stats />
 
-      <Row gap={4}>
-        <ViewModeToggle>
-          <span>View Mode:</span>
-          <Switch>
-            <SwitchOption
-              selected={viewMode === "flat"}
-              onClick={() => setViewMode("flat")}
+      <CatalogueTableArea>
+        <Row gap={4}>
+          <ViewModeToggle>
+            <span>View Mode:</span>
+            <Switch>
+              <SwitchOption
+                selected={viewMode === "flat"}
+                onClick={() => setViewMode("flat")}
+              >
+                Flat
+              </SwitchOption>
+              <SwitchOption
+                selected={viewMode === "reprint"}
+                onClick={() => setViewMode("reprint")}
+              >
+                Group by publication
+              </SwitchOption>
+            </Switch>
+          </ViewModeToggle>
+
+          <CatalogueActions>
+            <SecondaryActionButton
+              onClick={handleExportCitations}
+              disabled={isExporting}
             >
-              Flat
-            </SwitchOption>
-            <SwitchOption
-              selected={viewMode === "reprint"}
-              onClick={() => setViewMode("reprint")}
-            >
-              Group by publication
-            </SwitchOption>
-          </Switch>
-        </ViewModeToggle>
+              {isExporting
+                ? "Exporting citations..."
+                : "Export Citations (Chicago Style)"}
+            </SecondaryActionButton>
+            {token && (
+              <DetectReprintsButton
+                onClick={handleDetectReprints}
+                disabled={isDetectingReprints}
+              >
+                {isDetectingReprints
+                  ? "Detecting reprints..."
+                  : "Detect reprints"}
+              </DetectReprintsButton>
+            )}
+          </CatalogueActions>
+        </Row>
 
-        <ExportButton onClick={handleExportCitations} disabled={isExporting}>
-          {isExporting
-            ? "Exporting citations..."
-            : "Export Citations (Chicago Style)"}
-        </ExportButton>
-      </Row>
+        {reprintMessage && <p role="status">{reprintMessage}</p>}
 
-      <TableContainer>
-        <StyledTable>
-          <thead>
-            {table.getHeaderGroups().map((headerGroup) => (
-              <tr key={headerGroup.id}>
-                {headerGroup.headers.map((header) => (
-                  <th
-                    key={header.id}
-                    colSpan={header.colSpan}
-                    style={{
-                      width: header.getSize(),
-                    }}
-                  >
-                    {header.isPlaceholder ? null : (
-                      <div
-                        onClick={header.column.getToggleSortingHandler()}
-                        style={
-                          header.column.getCanSort()
-                            ? {
-                                display: "inline-flex",
-                                cursor: "pointer",
-                                userSelect: "none",
-                              }
-                            : {}
-                        }
-                      >
-                        {flexRender(
-                          header.column.columnDef.header,
-                          header.getContext(),
-                        )}
-                        {header.column.getCanSort() && (
-                          <SortIndicator>
-                            {{
-                              asc: "↑",
-                              desc: "↓",
-                            }[header.column.getIsSorted() as string] || ""}
-                          </SortIndicator>
-                        )}
-                      </div>
-                    )}
-                    <div
-                      {...{
-                        onMouseDown: header.getResizeHandler(),
-                        onTouchStart: header.getResizeHandler(),
-                        className: `resizer ${header.column.getIsResizing() ? "isResizing" : ""}`,
-                      }}
-                    />
-                  </th>
-                ))}
-              </tr>
-            ))}
-          </thead>
-          <tbody>
-            {table.getRowModel().rows.map((row) => {
-              const isChildRow = row.depth > 0;
-              const RowComponent = isChildRow ? ChildRow : "tr";
-
-              return (
-                <RowComponent key={row.id}>
-                  {row.getVisibleCells().map((cell) => (
-                    <td
-                      key={cell.id}
+        <TableContainer>
+          <StyledTable>
+            <thead>
+              {table.getHeaderGroups().map((headerGroup) => (
+                <tr key={headerGroup.id}>
+                  {headerGroup.headers.map((header) => (
+                    <th
+                      key={header.id}
+                      colSpan={header.colSpan}
                       style={{
-                        width: cell.column.getSize(),
+                        width: header.getSize(),
                       }}
                     >
-                      {flexRender(
-                        cell.column.columnDef.cell,
-                        cell.getContext(),
+                      {header.isPlaceholder ? null : (
+                        <div
+                          onClick={header.column.getToggleSortingHandler()}
+                          style={
+                            header.column.getCanSort()
+                              ? {
+                                  display: "inline-flex",
+                                  cursor: "pointer",
+                                  userSelect: "none",
+                                }
+                              : {}
+                          }
+                        >
+                          {flexRender(
+                            header.column.columnDef.header,
+                            header.getContext(),
+                          )}
+                          {header.column.getCanSort() && (
+                            <SortIndicator>
+                              {{
+                                asc: "↑",
+                                desc: "↓",
+                              }[header.column.getIsSorted() as string] || ""}
+                            </SortIndicator>
+                          )}
+                        </div>
                       )}
-                    </td>
+                      <div
+                        {...{
+                          onMouseDown: header.getResizeHandler(),
+                          onTouchStart: header.getResizeHandler(),
+                          className: `resizer ${header.column.getIsResizing() ? "isResizing" : ""}`,
+                        }}
+                      />
+                    </th>
                   ))}
-                </RowComponent>
-              );
-            })}
-          </tbody>
-        </StyledTable>
-      </TableContainer>
+                </tr>
+              ))}
+            </thead>
+            <tbody>
+              {table.getRowModel().rows.map((row) => {
+                const isChildRow = row.depth > 0;
+                const RowComponent = isChildRow ? ChildRow : "tr";
+
+                return (
+                  <RowComponent key={row.id}>
+                    {row.getVisibleCells().map((cell) => (
+                      <td
+                        key={cell.id}
+                        style={{
+                          width: cell.column.getSize(),
+                        }}
+                      >
+                        {flexRender(
+                          cell.column.columnDef.cell,
+                          cell.getContext(),
+                        )}
+                      </td>
+                    ))}
+                  </RowComponent>
+                );
+              })}
+            </tbody>
+          </StyledTable>
+        </TableContainer>
+      </CatalogueTableArea>
 
       {selectedItem && (
         <ItemModal
           item={selectedItem}
           featuresById={{}}
           onClose={() => setSelectedItem(null)}
+        />
+      )}
+      {token && reprintCandidates && (
+        <ReprintDetectionModal
+          candidates={reprintCandidates}
+          token={token}
+          onClose={() => setReprintCandidates(null)}
+          onApplied={(updated, skipped) => {
+            setReprintCandidates(null);
+            setReprintMessage(
+              skipped > 0
+                ? `Updated ${updated} reprints; skipped ${skipped} editions that had already changed.`
+                : `Updated ${updated} reprint${updated === 1 ? "" : "s"}.`,
+            );
+            void queryClient.invalidateQueries({ queryKey: ["editions"] });
+          }}
         />
       )}
     </Container>

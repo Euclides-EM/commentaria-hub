@@ -1,7 +1,8 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import Select from 'react-select'
 import { useAppState } from '../../../context/useAppState.ts'
+import { useScopedStorageKey } from '../../../context/storageScope.ts'
 import {
   useAnnotationCategories,
   useAnnotationSearch,
@@ -17,7 +18,7 @@ import { TeiDisplayControls } from '../contents/tei/TeiDisplayControls.tsx'
 import {
   getTeiHighlightCategories,
   getTeiSurfaceZones,
-  getTeiTranslations,
+  getTeiAlternatives,
   hasTeiCertaintyDegrees,
   parseTeisXml,
   type TeiHighlightConfig,
@@ -68,6 +69,8 @@ type HighlightMode = 'hide' | 'hover' | 'show'
 type HighlightModeOption = { value: HighlightMode; label: string }
 
 const BATCH_SIZE = 20
+const VIEWPORT_SETTLE_MS = 150
+const VIEWPORT_ROOT_MARGIN = '200px'
 const DEFAULT_CARD_SIZE = 280
 const PREVIEW_VARIANT_CARD_SIZE_THRESHOLD = 400
 const PREVIEW_VARIANT_ZOOM_THRESHOLD = 300
@@ -410,6 +413,42 @@ export function GalleryViewTab() {
     state: { annotationId, datasetId, currentPageOrKey },
     setState,
   } = useAppState()
+  const [navigationFloating, setNavigationFloating] = useLocalStorageState(
+    useScopedStorageKey('navigationFloating'),
+    { defaultValue: false, storageSync: false },
+  )
+  const [navigationFloatingOpen, setNavigationFloatingOpen] = useState(false)
+  const [navigationExpandGlow, setNavigationExpandGlow] = useState(true)
+  const [navigationPinnedCollapsed, setNavigationPinnedCollapsed] =
+    useLocalStorageState(useScopedStorageKey('sidebarCollapsed'), {
+      defaultValue: false,
+      storageSync: false,
+    })
+  const navigationCollapsed = navigationFloating
+    ? !navigationFloatingOpen
+    : navigationPinnedCollapsed
+  const navigationDocked = !navigationFloating && !navigationCollapsed
+  const handleNavigationCollapsedChange = useCallback(
+    (collapsed: boolean) => {
+      if (!collapsed) {
+        setNavigationExpandGlow(false)
+      }
+      if (navigationFloating) {
+        setNavigationFloatingOpen(!collapsed)
+      } else {
+        setNavigationPinnedCollapsed(collapsed)
+      }
+    },
+    [navigationFloating, setNavigationPinnedCollapsed],
+  )
+  const handleNavigationFloatingChange = (floating: boolean) => {
+    if (floating) {
+      setNavigationFloatingOpen(true)
+    } else {
+      setNavigationPinnedCollapsed(false)
+    }
+    setNavigationFloating(floating)
+  }
 
   const annotationPageEntries = useMemo(
     () => (annotation ? parsePageEntries(annotation.pages || '') : []),
@@ -627,10 +666,15 @@ export function GalleryViewTab() {
 
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE)
   const sentinelRef = useRef<HTMLDivElement | null>(null)
+  const [loadedPages, setLoadedPages] = useState(new Set<string>())
 
   useEffect(() => {
     setVisibleCount(BATCH_SIZE)
   }, [datasetId, annotationId, filteredAvailablePages.length, normalizedSearch])
+
+  useEffect(() => {
+    setLoadedPages(new Set())
+  }, [datasetId, annotationId])
 
   const visiblePages = useMemo(
     () => filteredAvailablePages.slice(0, visibleCount),
@@ -686,9 +730,11 @@ export function GalleryViewTab() {
     if (!segmented) {
       return []
     }
-    return visiblePages.filter((p) => !fetchedPageSetRef.current.has(p))
+    return visiblePages.filter(
+      (p) => loadedPages.has(p) && !fetchedPageSetRef.current.has(p),
+    )
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [JSON.stringify(visiblePages), segmented])
+  }, [JSON.stringify(visiblePages), loadedPages, segmented])
   const pendingTeiPageSet = useMemo(() => new Set(pagesToFetch), [pagesToFetch])
 
   pagesToFetchRef.current = pagesToFetch
@@ -718,13 +764,13 @@ export function GalleryViewTab() {
     () => (teiByPage.size > 0 ? [...teiByPage.values()][0] : null),
     [teiByPage],
   )
-  const teiTranslations = useMemo(
-    () => (firstTei ? getTeiTranslations(firstTei) : []),
+  const teiAlternatives = useMemo(
+    () => (firstTei ? getTeiAlternatives(firstTei) : []),
     [firstTei],
   )
   const availableTeiViewModes = useMemo<TeiViewMode[]>(
-    () => ['original', ...teiTranslations.map((t) => t.id)],
-    [teiTranslations],
+    () => ['original', ...teiAlternatives.map((alternative) => alternative.id)],
+    [teiAlternatives],
   )
   const showMinCertControl = useMemo(
     () => (firstTei ? hasTeiCertaintyDegrees(firstTei) : false),
@@ -738,7 +784,9 @@ export function GalleryViewTab() {
 
   const getViewModeLabel = (mode: TeiViewMode): string => {
     if (mode === 'original') return 'Original'
-    const rawLabel = teiTranslations.find((t) => t.id === mode)?.label || mode
+    const rawLabel =
+      teiAlternatives.find((alternative) => alternative.id === mode)?.label ||
+      mode
     return VIEW_LABEL_MAP[rawLabel] || rawLabel
   }
 
@@ -908,6 +956,44 @@ export function GalleryViewTab() {
 
   const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
   const lastScrolledPageRef = useRef('')
+  const cardObserverRef = useRef<IntersectionObserver | null>(null)
+
+  useEffect(() => {
+    const intersectingPages = new Set<string>()
+    let settleTimer: ReturnType<typeof setTimeout> | undefined
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const page = (entry.target as HTMLElement).dataset.page
+          if (!page) continue
+          if (entry.isIntersecting) {
+            intersectingPages.add(page)
+          } else {
+            intersectingPages.delete(page)
+          }
+        }
+        clearTimeout(settleTimer)
+        settleTimer = setTimeout(() => {
+          const pages = [...intersectingPages]
+          setLoadedPages((prev) =>
+            pages.every((p) => prev.has(p))
+              ? prev
+              : new Set([...prev, ...pages]),
+          )
+        }, VIEWPORT_SETTLE_MS)
+      },
+      { rootMargin: VIEWPORT_ROOT_MARGIN },
+    )
+    cardObserverRef.current = observer
+    Object.values(cardRefs.current).forEach((el) => {
+      if (el?.isConnected) observer.observe(el)
+    })
+    return () => {
+      clearTimeout(settleTimer)
+      observer.disconnect()
+      cardObserverRef.current = null
+    }
+  }, [])
 
   const handleOpenInPageView = (pageKey: string) => {
     setState({
@@ -927,16 +1013,21 @@ export function GalleryViewTab() {
 
   const makeGetVariantUrl = (pageOrKey: string) => {
     const num = Number(pageOrKey)
+    const matched = findMatchingImage(pageOrKey, imageKeys)
     let normalizedKey: string
     if (!Number.isNaN(num) && Number.isInteger(num)) {
       normalizedKey = `page-${String(num).padStart(4, '0')}.png`
     } else {
-      const matched = findMatchingImage(pageOrKey, imageKeys)
       normalizedKey = matched?.filename || ''
     }
     if (!normalizedKey) return null
     return (variant: DatasetImageVariant) =>
-      buildDatasetImageUrl(datasetId, normalizedKey, variant)
+      buildDatasetImageUrl(
+        datasetId,
+        normalizedKey,
+        variant,
+        matched?.modifiedAt || 'pending',
+      )
   }
 
   const cardWidth = viewMode === 'side-by-side' ? cardSize * 2 : cardSize
@@ -951,8 +1042,25 @@ export function GalleryViewTab() {
 
   return (
     <div className="h-full flex overflow-hidden">
-      <AnnotationNavigation />
-      <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
+      {navigationDocked && (
+        <AnnotationNavigation
+          floating={navigationFloating}
+          onFloatingChange={handleNavigationFloatingChange}
+          collapsed={navigationCollapsed}
+          onCollapsedChange={handleNavigationCollapsedChange}
+          expandGlow={navigationExpandGlow}
+        />
+      )}
+      <div className="relative flex-1 flex flex-col min-h-0 overflow-hidden">
+        {!navigationDocked && (
+          <AnnotationNavigation
+            floating={navigationFloating}
+            onFloatingChange={handleNavigationFloatingChange}
+            collapsed={navigationCollapsed}
+            onCollapsedChange={handleNavigationCollapsedChange}
+            expandGlow={navigationExpandGlow}
+          />
+        )}
         <div className="border-b border-gray-200 bg-gray-50 shrink-0 flex flex-col">
           <div className="px-3 py-2 flex items-center gap-3 flex-wrap">
             {teisQuery.isFetching && (
@@ -1134,8 +1242,10 @@ export function GalleryViewTab() {
             {visiblePages.map((page) => (
               <div
                 key={page}
+                data-page={page}
                 ref={(el) => {
                   cardRefs.current[page] = el
+                  if (el) cardObserverRef.current?.observe(el)
                 }}
                 className="border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white shrink-0"
                 style={{ width: cardWidth, height: cardSize }}
@@ -1151,30 +1261,32 @@ export function GalleryViewTab() {
                   </button>
                 </div>
                 <div className="flex-1 min-h-0 flex overflow-hidden">
-                  <GalleryCardBody
-                    key={`${page}:${galleryRenderKey}`}
-                    baseVariant={imageVariant}
-                    getVariantUrl={showImage ? makeGetVariantUrl(page) : null}
-                    imageZoom={imageZoom}
-                    highlightMode={highlightMode}
-                    highlightZoneFilters={highlightZoneFilters}
-                    selectedZoneCategoryIds={selectedZoneCategoryIds}
-                    surfaceZones={surfaceZonesByPage.get(page) ?? []}
-                    sideBySide={viewMode === 'side-by-side'}
-                    showText={showText}
-                    teiContent={showText ? teiByPage.get(page) : undefined}
-                    isFetchingTei={pendingTeiPageSet.has(page)}
-                    minCert={minCert}
-                    showCertaintyVisualization={showCertaintyVisualization}
-                    teiViewMode={effectiveTeiViewMode}
-                    alignLines={alignLines}
-                    highlightConfig={highlightConfig}
-                    visibleFeatureIdsKey={visibleFeatureIdsKey}
-                    showTeiLineHighlights={showTeiLineHighlights}
-                    searchResultHighlight={
-                      searchHighlightsByPage.get(page) ?? null
-                    }
-                  />
+                  {loadedPages.has(page) && (
+                    <GalleryCardBody
+                      key={`${page}:${galleryRenderKey}`}
+                      baseVariant={imageVariant}
+                      getVariantUrl={showImage ? makeGetVariantUrl(page) : null}
+                      imageZoom={imageZoom}
+                      highlightMode={highlightMode}
+                      highlightZoneFilters={highlightZoneFilters}
+                      selectedZoneCategoryIds={selectedZoneCategoryIds}
+                      surfaceZones={surfaceZonesByPage.get(page) ?? []}
+                      sideBySide={viewMode === 'side-by-side'}
+                      showText={showText}
+                      teiContent={showText ? teiByPage.get(page) : undefined}
+                      isFetchingTei={pendingTeiPageSet.has(page)}
+                      minCert={minCert}
+                      showCertaintyVisualization={showCertaintyVisualization}
+                      teiViewMode={effectiveTeiViewMode}
+                      alignLines={alignLines}
+                      highlightConfig={highlightConfig}
+                      visibleFeatureIdsKey={visibleFeatureIdsKey}
+                      showTeiLineHighlights={showTeiLineHighlights}
+                      searchResultHighlight={
+                        searchHighlightsByPage.get(page) ?? null
+                      }
+                    />
+                  )}
                 </div>
               </div>
             ))}

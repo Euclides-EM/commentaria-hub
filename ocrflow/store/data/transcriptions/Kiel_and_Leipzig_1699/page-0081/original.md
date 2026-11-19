@@ -1,0 +1,43 @@
+<!-- Page number: 64 -->
+
+<!-- Running title: Das I. Buch -->
+
+[Curated heading level=2 type=propositions: Der XXXIV. Vortrag.]
+
+[Curated heading level=2 type=theorems: Das 24. Beweiß Stück.]
+
+## Der XXXIV. Vortrag.
+
+## Das 25{printer-error-correction:24}. Beweiß Stück.
+
+Aller Nebenstrichichten Vier-Ecke gegen überstehende Seiten und Winckel sind gleich groß/ werden auch von dem Zwerg-Strich in zweene gleiche Theile getheilet.
+
+### Gegebene.
+
+Nebenstrichichtes Viereck ABCD
+
+### Begehrte.
+
+1. AB | CD
+2. AC | BD
+3. A ⋀ D
+4. B ⋀ C
+5. ACD ⩓ ABD
+
+[Diagram: Nebenstrichichtes Viereck (Parallelogramm) ABCD mit punktirter Zwerg-Linie von A nach D]
+
+### Beweiß.
+
+AB ⟛ CD n. 35. Beschr.
+Drw. BAD ⋀ ADC n. 29. Vortr.
+AC ⟛ BD n. 35. Beschr.
+Drw. CAD ⋀ ADB n. 29. Vortr.
+AD | AD
+α. Dw. AB | CD
+β. und AC | BD
+γ. und ABD ⋀ ACD
+δ. und ACD ⩓ ABD nach 26. Vortr.
+BAD + DAC ⋀ BDA + ADC n. 2. Gr:S.
+ε. oder BAC ⋀ BDC n. 9. Gr:S. q.
+
+<!-- Catchword: Be- -->

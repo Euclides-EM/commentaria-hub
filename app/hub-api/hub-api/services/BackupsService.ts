@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { job_Job } from '../models/job_Job';
+import type { model_Backup } from '../models/model_Backup';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -10,10 +11,10 @@ export class BackupsService {
     /**
      * List backups
      * Returns a list of available backups with their metadata.
-     * @returns string OK
+     * @returns model_Backup OK
      * @throws ApiError
      */
-    public static getBackups(): CancelablePromise<Array<string>> {
+    public static getBackups(): CancelablePromise<Array<model_Backup>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/backups',

@@ -1,0 +1,23 @@
+<!-- Running title: of Euclides Elementes. -->
+
+<!-- Page number: Fol.268. -->
+
+and let the ſame be E. And as the number D is to the number A B, ſo let the ſquare of the line E be to the ſquare of F G. Wherefore (by the 6. of the tenth) the line E is commenſurable in power to the line F G, & the line E is rationall. Wherfore alſo the line F G is rationall. And forthat the number D hath not to the number A B that proportion that a ſquare nũber hath to a ſquare number, therefore neither alſo ſhall the ſquare of the line E haue to the ſquare of the line F G that proportion that a ſquare number hath to a ſquare number. Wherefore the line F G is incommenſurable in length to the line E. Againe, as the number B A is to the number A C, ſo let the ſquare of the line F G be to the ſquare of the line G H. Wherefore (by the 6. of the tenth) the ſquare of the line F G is commenſurable to the ſquare of the line G H. And the ſquare of the line F G is rationall. Wherefore the ſquare of the line G H is alſo rationall. Wherefore alſo the line G H is rationall. And for that the number A B hath not to the number A C, that proportion that a ſquare number hath to a ſquare number: therefore neither alſo hath the ſquare of the line F G to the ſquare of the line G H, that proportion that a ſquare number hath to a ſquare number. Wherefore the line F G is incommenſurable in length to the line G H. Wherefore the lines F G and G H are rationall commenſurable in power onely. Wherefore the whole line F H is a binomiall line. I ſay moreouer, that it is a ſixt binomiall line. For for that as the number D is to the number A B, ſo is the ſquare of the line E to the ſquare of the line F G. And as the number B A is to the number A C, ſo is the ſquare of the line F G to the ſquare of the line G H. Wherefore of equalitie (by the 22. of the fift) as the number D is to the number A C, ſo is the ſquare of the line E to the ſquare of the line G H. But the number D hath not to the nũber A C that proportion that a ſquare number hath to a ſquare number. Wherefore neither alſo hath the ſquare of the line E to the ſquare of the line G H that proportion that a ſquare number hath to a ſquare number. Wherfore the line E is incommenſurable in length to the line G H. And it is already proued, that the line F G is alſo incommenſurable in length to the line E. Wherefore either of theſe lines F G and G H is incommenſurable in length to the line E. And for that as the number B A is to the number A C, ſo is the ſquare of the line F G to the ſquare of the line G H: therfore the ſquare of the line F G is greater then the ſquare of the line G H. Vnto the ſquare of the line F G, let the ſquares of the lines G H and K be equall. Wherefore by euerſion of proportion, as the number A B is to the number B C, ſo is the ſquare of the line F G to the ſquare of the line K. But the number A B hath not to the number B C that proportion that a ſquare number hath to a ſquare number. Wherefore neither alſo hath the ſquare of the line F G to the ſquare of the line K that proportion that a ſquare number hath to a ſquare number. Wherefore the line F G is incommenſurable in length vnto the line K. Wherefore the line F G is in power more then the line G H, by the ſquare of a line incommenſurable in length to it. And the lines F G and G H are rationall commenſurable in power onely. And neither of the lines F G & G H is commenſurable in length to the rationall line geuen, namely, to E. Wherefore the line F H is a ſixt binomiall line: which was required to be found out.
+
+[Margin]
+Demonſtration.
+[/Margin]
+
+## ¶ A Corollary added out of Fluſſates.
+
+[Margin]
+A Corollary added by Fluſſates.
+[/Margin]
+
+By the 6. former Propoſitions it is manifeſt, how to deuide any right line geuen into the names of euery one of the ſixe foreſayd binomiall lines. For if it be required to deuide a right line geuen into a firſt binomiall line, then by the 48. of this booke finde out a firſt binomiall line. And this right line being ſo found out deuided into his names, you may by the 10. of the ſixt, deuide the right line geuen in like ſort. And ſo in the other fiue following.
+
+Although I here note vnto you this Corollary out of Fluſſas, yet, in very conſcience and of gratefull minde, I am enforced to certifie you, that, many yeares, before the trauailes of Fluſſas (vpõ Euclides Geometricall Elementes) were publiſhed, the order how to deuide, not onely the 6. Binomiall lines into their names, but alſo to adde to the 6. Reſiduals their due partes: and farthermore to deuide all the o-
+
+<!-- Signature: KK.j. -->
+
+<!-- Catchword: ther -->

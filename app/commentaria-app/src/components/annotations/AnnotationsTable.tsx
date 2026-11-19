@@ -1,12 +1,17 @@
 import { Fragment, useMemo, useState } from 'react'
-import { useQueries, useQueryClient } from '@tanstack/react-query'
+import { useQueries, useQuery, useQueryClient } from '@tanstack/react-query'
 import type {
   annotation_Annotation,
   annotation_Group,
   annotationrule_PipelineStage,
   model_Dataset,
 } from '@hub-api'
-import { AnnotationsService, ApiError } from '@hub-api'
+import {
+  AnnotationsService,
+  ApiError,
+  FacsimilesService,
+  ShelfmarksService,
+} from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import {
   annotationGroupsQueryKey,
@@ -31,6 +36,21 @@ import { DeleteAnnotationModal } from '../modal/DeleteAnnotationModal.tsx'
 import useLocalStorageState from 'use-local-storage-state'
 import { hasAnnotationPages } from '../../utils/editions.ts'
 import { useAuthStore } from '../../store/authStore'
+import {
+  normalizeEditionId,
+  useAllEditionsQuery,
+} from '../../queries/editions.ts'
+import {
+  COPYRIGHT_FILTER_OPTIONS,
+  getCopyrightStatus,
+  getFacsimileCopyright,
+  type CopyrightStatus,
+} from '../../utils/copyright.ts'
+import {
+  DATASET_COMPLETENESS_ITEMS,
+  getDatasetCompleteness,
+  type DatasetCompleteness,
+} from '../../utils/datasets.ts'
 
 type AnnotationRow = {
   datasetId: string
@@ -51,6 +71,10 @@ type SortConfig = {
 
 type GroundTruthFilter = 'all' | 'true' | 'false'
 type HiddenFilter = 'all' | 'true' | 'false'
+type RawStageFilter =
+  | 'raw_with_transcription_fallback'
+  | 'raw_no_transcription_fallback'
+type StageFilter = annotationrule_PipelineStage | RawStageFilter
 type GroupSection = {
   datasetId?: string
   group: annotation_Group | null
@@ -62,12 +86,79 @@ interface AnnotationsTableProps {
   datasetIds?: string[]
 }
 
+const RAW_WITH_TRANSCRIPTION_FALLBACK: RawStageFilter =
+  'raw_with_transcription_fallback'
+const RAW_NO_TRANSCRIPTION_FALLBACK: RawStageFilter =
+  'raw_no_transcription_fallback'
+
+const isRawStageFilter = (filter: StageFilter): filter is RawStageFilter =>
+  filter === RAW_WITH_TRANSCRIPTION_FALLBACK ||
+  filter === RAW_NO_TRANSCRIPTION_FALLBACK
+
+const getFallbackFormatName = (annotation: annotation_Annotation) =>
+  annotation.transcription_fallback?.format
+    ? annotation.transcription_fallback.format
+    : 'unknown'
+
+const getFallbackCompletenessName = (annotation: annotation_Annotation) =>
+  annotation.transcription_fallback?.partial ? 'partial' : 'full'
+
+const getFallbackLabelPart = (annotation: annotation_Annotation) =>
+  `${getFallbackCompletenessName(annotation)} ${getFallbackFormatName(annotation)}`
+
+const getAnnotationStageFilter = (
+  annotation: annotation_Annotation,
+): StageFilter | null => {
+  if (annotation.pipeline_stage !== 'raw') {
+    return annotation.pipeline_stage || null
+  }
+  return annotation.transcription_fallback
+    ? RAW_WITH_TRANSCRIPTION_FALLBACK
+    : RAW_NO_TRANSCRIPTION_FALLBACK
+}
+
+const getStageFilterLabel = (
+  filter: StageFilter,
+  rawFallbackFormatLabel = 'unknown',
+): string => {
+  if (filter === RAW_WITH_TRANSCRIPTION_FALLBACK) {
+    return `Raw (with ${rawFallbackFormatLabel} transcription fallback)`
+  }
+  if (filter === RAW_NO_TRANSCRIPTION_FALLBACK) {
+    return 'Raw (no transcription fallback)'
+  }
+  return getStageDisplayName(filter)
+}
+
+const getAnnotationStageDisplayName = (
+  annotation: annotation_Annotation,
+): string => {
+  if (annotation.pipeline_stage !== 'raw') {
+    return annotation.pipeline_stage
+      ? getStageDisplayName(annotation.pipeline_stage)
+      : 'None'
+  }
+  if (annotation.transcription_fallback) {
+    return `Raw (with ${getFallbackLabelPart(annotation)} transcription fallback)`
+  }
+  return 'Raw (no transcription fallback)'
+}
+
 export function AnnotationsTable({
   datasetIds: providedDatasetIds,
 }: AnnotationsTableProps = {}) {
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const queryClient = useQueryClient()
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
+  const { data: editions } = useAllEditionsQuery()
+  const { data: facsimiles } = useQuery({
+    queryKey: ['facsimiles'],
+    queryFn: () => FacsimilesService.getFacsimilies({}),
+  })
+  const { data: shelfmarks } = useQuery({
+    queryKey: ['shelfmarks'],
+    queryFn: () => ShelfmarksService.getShelfmarks({}),
+  })
   const { data: stages } = usePipelineStages()
   const {
     data: annotationGroups = [],
@@ -105,11 +196,21 @@ export function AnnotationsTable({
       defaultValue: '',
     },
   )
-  const [selectedStages, setSelectedStages] = useLocalStorageState<
-    annotationrule_PipelineStage[] | null
-  >('annotationsFilterStages', {
+  const [selectedStageFilters, setSelectedStageFilters] = useLocalStorageState<
+    StageFilter[] | null
+  >('annotationsFilterStageFilters', {
     defaultValue: null,
   })
+  const [selectedCopyrights, setSelectedCopyrights] = useLocalStorageState<
+    CopyrightStatus[] | null
+  >('annotationsFilterCopyrights', {
+    defaultValue: null,
+  })
+  const [selectedDatasetCompleteness, setSelectedDatasetCompleteness] =
+    useLocalStorageState<DatasetCompleteness[] | null>(
+      'annotationsFilterDatasetCompleteness',
+      { defaultValue: null },
+    )
   const [groundTruthFilter, setGroundTruthFilter] =
     useLocalStorageState<GroundTruthFilter>('annotationsGroundTruthFilter', {
       defaultValue: 'all',
@@ -201,6 +302,32 @@ export function AnnotationsTable({
     })
   }, [annotationQueries, datasetIds, datasets])
 
+  const stageFilterOptions = useMemo<StageFilter[]>(
+    () =>
+      (stages || []).flatMap((stage) =>
+        stage === 'raw'
+          ? [RAW_WITH_TRANSCRIPTION_FALLBACK, RAW_NO_TRANSCRIPTION_FALLBACK]
+          : [stage],
+      ),
+    [stages],
+  )
+
+  const rawFallbackFormatLabel = useMemo(() => {
+    const formatNames = [
+      ...new Set(
+        rows
+          .filter(
+            (row) =>
+              row.annotation.pipeline_stage === 'raw' &&
+              row.annotation.transcription_fallback,
+          )
+          .map((row) => getFallbackLabelPart(row.annotation)),
+      ),
+    ].sort((a, b) => a.localeCompare(b))
+
+    return formatNames.length > 0 ? formatNames.join(', ') : 'unknown'
+  }, [rows])
+
   const rowKey = (row: AnnotationRow) => `${row.datasetId}:${row.annotation.id}`
 
   const validRowKeys = useMemo(
@@ -271,15 +398,84 @@ export function AnnotationsTable({
     return map
   }, [datasets])
 
+  const copyrightByDatasetId = useMemo(() => {
+    const shelfmarksByEdition = new Map(
+      (editions ?? [])
+        .filter((edition) => edition.key)
+        .map((edition) => [
+          edition.key!,
+          (shelfmarks ?? []).filter(
+            (shelfmark) => shelfmark.edition_id === edition.key,
+          ),
+        ]),
+    )
+    const editionById = new Map(
+      (editions ?? []).flatMap((edition) =>
+        edition.key
+          ? [
+              [
+                edition.key,
+                {
+                  ...edition,
+                  shelfmarks: shelfmarksByEdition.get(edition.key) ?? [],
+                },
+              ] as const,
+            ]
+          : [],
+      ),
+    )
+    const facsimileById = new Map(
+      (facsimiles ?? []).flatMap((facsimile) =>
+        facsimile.id ? [[facsimile.id, facsimile] as const] : [],
+      ),
+    )
+    return new Map(
+      (datasets ?? []).flatMap((dataset) =>
+        dataset.id
+          ? [
+              [
+                dataset.id,
+                getFacsimileCopyright(
+                  dataset.edition_id
+                    ? editionById.get(normalizeEditionId(dataset.edition_id))
+                    : undefined,
+                  dataset.facsimile_id
+                    ? facsimileById.get(dataset.facsimile_id)
+                    : undefined,
+                ),
+              ] as const,
+            ]
+          : [],
+      ),
+    )
+  }, [datasets, editions, facsimiles, shelfmarks])
+
   const filteredRows = useMemo(() => {
     const trimmed = searchQuery.trim().toLowerCase()
     const trimmedGroupQuery = groupSearchQuery.trim().toLowerCase()
 
     return rows.filter((row) => {
-      const stage = row.annotation.pipeline_stage
+      const selectedCompleteness =
+        selectedDatasetCompleteness ?? DATASET_COMPLETENESS_ITEMS
+      const datasetCompleteness = getDatasetCompleteness(
+        datasetById.get(row.datasetId)?.pages,
+      )
+      if (!selectedCompleteness.includes(datasetCompleteness)) {
+        return false
+      }
+      const copyrightStatus = getCopyrightStatus(
+        copyrightByDatasetId.get(row.datasetId) ?? 'unknown copyright',
+      )
+      const matchesCopyright =
+        selectedCopyrights == null ||
+        selectedCopyrights.includes(copyrightStatus)
+      if (!matchesCopyright) {
+        return false
+      }
+      const stageFilter = getAnnotationStageFilter(row.annotation)
       const matchesStage =
-        selectedStages == null ||
-        (stage != null && selectedStages.includes(stage))
+        selectedStageFilters == null ||
+        (stageFilter != null && selectedStageFilters.includes(stageFilter))
       if (!matchesStage) {
         return false
       }
@@ -325,13 +521,17 @@ export function AnnotationsTable({
       return haystack.includes(trimmed)
     })
   }, [
+    copyrightByDatasetId,
+    datasetById,
     groundTruthFilter,
     groupSearchQuery,
     groupsByRowKey,
     hiddenFilter,
     rows,
     searchQuery,
-    selectedStages,
+    selectedCopyrights,
+    selectedDatasetCompleteness,
+    selectedStageFilters,
   ])
 
   const filteredDatasetCount = useMemo(
@@ -347,9 +547,7 @@ export function AnnotationsTable({
         case 'dataset':
           return row.datasetName.toLowerCase()
         case 'stage':
-          return row.annotation.pipeline_stage
-            ? getStageDisplayName(row.annotation.pipeline_stage).toLowerCase()
-            : ''
+          return getAnnotationStageDisplayName(row.annotation).toLowerCase()
         case 'updated': {
           const raw = row.annotation.updated_at || row.annotation.created_at
           const time = raw ? new Date(raw).getTime() : 0
@@ -398,38 +596,27 @@ export function AnnotationsTable({
   )
   const categorySourceRows =
     selectedCount > 0 ? selectedAnnotationRows : sortedRows
-  const categoryQueries = useQueries({
-    queries: categorySourceRows.map((row) => ({
-      queryKey: [
-        'annotations',
-        row.datasetId,
-        row.annotation.id,
-        'categories',
-      ] as const,
-      queryFn: () =>
-        AnnotationsService.getDatasetsAnnotationsCategories({
-          dataSetId: row.datasetId,
-          id: row.annotation.id || '',
-        }),
-      enabled: !!row.datasetId && !!row.annotation.id,
-    })),
+  const categoryReferences = useMemo(
+    () =>
+      categorySourceRows.map((row) => ({
+        dataset_id: row.datasetId,
+        id: row.annotation.id || '',
+      })),
+    [categorySourceRows],
+  )
+  const {
+    data: aggregatedCategories = [],
+    isLoading: categoriesLoading,
+    error: categoryError,
+  } = useQuery({
+    queryKey: ['annotations', 'categories', categoryReferences] as const,
+    queryFn: () =>
+      AnnotationsService.postAnnotationsCategories({
+        annotations: categoryReferences,
+      }),
+    enabled: categoryReferences.length > 0,
   })
-  const categoriesLoading =
-    categorySourceRows.length > 0 &&
-    categoryQueries.some((query) => query.isLoading)
-  const categoriesError =
-    categoryQueries.find((query) => query.error)?.error?.toString() || null
-  const aggregatedCategories = useMemo(() => {
-    const categories = new Set<string>()
-    categoryQueries.forEach((query) => {
-      query.data?.forEach((category) => {
-        if (category) {
-          categories.add(category)
-        }
-      })
-    })
-    return [...categories].sort((a, b) => a.localeCompare(b))
-  }, [categoryQueries])
+  const categoriesError = categoryError?.toString() || null
   const allVisibleSelected =
     sortedRows.length > 0 &&
     sortedRows.every(
@@ -951,9 +1138,7 @@ export function AnnotationsTable({
         )}
       </td>
       <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
-        {row.annotation.pipeline_stage
-          ? getStageDisplayName(row.annotation.pipeline_stage)
-          : 'None'}
+        {getAnnotationStageDisplayName(row.annotation)}
       </td>
       <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
         {row.annotation.ground_truth ? 'Yes' : 'No'}
@@ -1035,15 +1220,50 @@ export function AnnotationsTable({
             placeholder="Filter groups..."
             className="w-[18rem] max-w-full"
           />
+          <MultiSelectDropdown<DatasetCompleteness>
+            allItems={DATASET_COMPLETENESS_ITEMS}
+            selectedItems={selectedDatasetCompleteness}
+            setSelectedItems={setSelectedDatasetCompleteness}
+            itemsLabel="coverage types"
+            getItemLabel={(item) => (item === 'full' ? 'Full' : 'Partial')}
+            getPickerLabel={({ selectedItems }) => {
+              if (
+                selectedItems == null ||
+                selectedItems.length === DATASET_COMPLETENESS_ITEMS.length
+              ) {
+                return 'Full & partial'
+              }
+              if (selectedItems.length === 0) return 'None'
+              return selectedItems[0] === 'full' ? 'Full only' : 'Partial only'
+            }}
+          />
           {stages && (
             <MultiSelectDropdown
-              allItems={stages}
-              selectedItems={selectedStages}
-              setSelectedItems={setSelectedStages}
+              allItems={stageFilterOptions}
+              selectedItems={selectedStageFilters}
+              setSelectedItems={setSelectedStageFilters}
               itemsLabel="stages"
-              getItemLabel={(stage) => getStageDisplayName(stage)}
+              getItemLabel={(stage) =>
+                getStageFilterLabel(stage, rawFallbackFormatLabel)
+              }
+              getItemKey={(stage) => stage}
+              showSeparatorBeforeItem={(stage) =>
+                isRawStageFilter(stage) &&
+                stage === RAW_WITH_TRANSCRIPTION_FALLBACK
+              }
+              minWidth="280px"
             />
           )}
+          <MultiSelectDropdown
+            allItems={COPYRIGHT_FILTER_OPTIONS}
+            selectedItems={selectedCopyrights}
+            setSelectedItems={setSelectedCopyrights}
+            itemsLabel="copyrights"
+            getItemLabel={(status) =>
+              status === 'known' ? 'known copyrights' : 'unknown copyright'
+            }
+            showBulkActions={false}
+          />
           <label className="flex items-center gap-2 text-sm text-gray-700">
             <span>Ground truth</span>
             <select

@@ -1,0 +1,25 @@
+<!-- Running title: EUCLIDIS DATA. -->
+<!-- Page number: 503 -->
+
+τὸ ἀπὸ συναμφοτέρων τῆς ΒΑΓ τὸ ἀπὸ τῆς ΒΓ, ἐκεῖνο τὸ χωρίον πρὸς τὸ ΑΒΓ τρίγωνον λόγον ἕξει δεδομένον.
+
+Διήχθω δὴ ἐπ᾽ εὐθείας τῆς ΒΑ εὐθεῖα ἡ ΑΔ, καὶ κείσθω τῇ ΑΓ ἴση ἡ ΑΔ, καὶ ἐπεζεύχθω ἡ ΔΓ· διήχθω δὲ ἐπὶ τὸ Ε, καὶ ἤχθω διὰ τοῦ Β τῇ ΑΓ παράλληλος ἡ ΒΕ. καὶ ἐπεὶ ἴση ἐστὶν ἡ ΑΔ τῇ ΑΓ· ἴση ἄρα ἐστὶ καὶ ἡ ΔΒ τῇ ΒΕ. καὶ διήχθω ἡ ΒΓ· τὸ ἄρα ὑπὸ τῶν ΔΓ, ΓΕ μετὰ τοῦ ἀπὸ τῆς ΒΓ ἴσον ἐστὶ τῷ ἀπὸ τῆς ΒΔ. ἴση δὲ ἡ ΔΑ τῇ ΑΓ· τὸ ἄρα ἀπὸ συναμφοτέρων τῆς ΒΑΓ ἴσον ἐστὶ τῷ ὑπὸ τῶν ΔΓ, ΓΕ μετὰ τοῦ ἀπὸ τῆς ΒΓ· ὥστε τὸ ἀπὸ συναμφοτέρων τῆς ΒΑΓ, τοῦ ἀπὸ τῆς ΒΓ μεῖζον εἶναι τῷ ὑπὸ τῶν ΔΓ, ΓΕ· λέγω δὴ ὅτι τὸ ὑπὸ τῶν ΔΓ, ΓΕ πρὸς τὸ ΑΒΓ τρίγωνον λόγος ἐστὶ δοθείς.
+
+[Diagram: triangle ΒΕΔ with Α on the base ΒΔ, Γ on ΕΔ, and lines ΒΓ and ΑΓ]
+
+ἐπεὶ γὰρ δοθεῖσά ἐστιν ἡ ὑπὸ ΒΑΓ γωνία, ἡ ἐφεξῆς ἄρα ἡ ὑπὸ ΔΑΓ ἐστὶ δοθεῖσα. ἐστὶ δὲ ἑκατέρα τῶν ὑπὸ ΑΔΓ, ΔΓΑ δοθεῖσα, ἑκατέρα γὰρ αὐτῶν ἡμίσειά ἐστι τῆς ὑπὸ ΒΑΓ δεδομένης ὄνσης· δεδομένον ἄρα τὸ ΔΑΓ τρίγωνον τῷ εἴδει· λόγος ἄρα ἐστὶ τῆς ΑΔ πρὸς τὴν ΔΓ δοθείς· ὥστε καὶ τοῦ ἀπὸ τῆς ΑΔ πρὸς τὸ ἀπὸ τῆς ΔΓ λόγος ἐστὶ δοθείς. ἢ ἐπεὶ ἐστὶν ὡς ἡ ΒΑ πρὸς τὴν ΑΔ οὕτως ἡ ΕΓ πρὸς τὴν ΓΔ, ἀλλ᾽ ὡς μὲν ἡ ΒΑ πρὸς τὴν ΑΔ οὕτως τὸ ὑπὸ τῶν ΒΑ, ΑΔ πρὸς τὸ ἀπὸ τῆς ΑΔ, ὡς δὲ ἡ ΕΓ πρὸς τὴν ΓΔ οὕτως τὸ ὑπὸ τῶν ΕΓ, ΓΔ πρὸς τὸ ἀπὸ τῆς ΓΔ· ὡς ἄρα τὸ ὑπὸ τῶν ΒΑ, ΑΔ πρὸς τὸ ἀπὸ τῆς ΑΔ οὕτως τὸ ὑπὸ τῶν ΕΓ, ΓΔ πρὸς τὸ ἀπὸ τῆς ΓΔ· ἐναλλὰξ ἄρα ὡς τὸ ὑπὸ τῶν ΒΑ, ΑΔ πρὸς τὸ ὑπὸ τῶν ΕΓ, ΓΔ οὕτως τὸ ἀπὸ τῆς ΑΔ πρὸς τὸ ἀπὸ τῆς ΓΔ. λόγος δὲ τοῦ ἀπὸ τῆς ΑΔ πρὸς τὸ ἀπὸ τῆς ΓΔ δοθείς· λόγος ἄρα καὶ τοῦ ὑπὸ τῶν ΒΑ, ΑΔ πρὸς τὸ ὑπὸ τῶν ΕΓ, ΓΔ δοθείς. ἴση δὲ ἡ ΔΑ τῇ ΑΓ· λόγος ἄρα καὶ τοῦ ὑπὸ τῶν ΒΑ, ΑΓ πρὸς τὸ ὑπὸ τῶν ΕΓ, ΓΔ δοθείς. τοῦ δὲ ὑπὸ τῶν ΒΑ, ΑΓ πρὸς τὸ ΒΑΓ τρίγωνον λόγος ἐστὶ δοθείς, διὰ τὸ δοθεῖσαν εἶναι τὴν ὑπὸ ΒΑΓ γωνίαν· ἡ τοῦ ὑπὸ τῶν ΕΓ, ΓΔ ἄρα πρὸς τὸ ΑΒΓ τρίγωνον λόγος ἐστὶ δοθείς. καὶ ἐστὶ τὸ ὑπὸ τῶν ΔΓ, ΓΕ ᾧ μεῖζόν ἐστι τὸ ἀπὸ συναμφοτέρων τῆς ΒΑΓ τοῦ ἀπὸ
+
+majus eſt quadratum ab ſimul utraque ΒΑΓ quam quadratum à recta ΒΓ, ad triangulum ΑΒΓ habebit rationem datam.
+
+Producatur enim in directum ipſi ΒΑ recta ΑΔ, & [per 3. 1.] fiat ipſi ΑΓ æqualis ΑΔ, & connexa recta ΔΓ producatur ad punctum Ε; & [per 31. 1.] agatur per punctum Β ipſi ΑΓ parallela ΒΕ. & quoniam æqualis eſt ΑΔ ipſi ΑΓ; æqualis quoque [per 4.6. & 14.5.] eſt ΔΒ ipſi ΒΕ. educta autem eſt quædam recta ΒΓ: igitur * quod continetur ſub ΔΓ, ΓΕ una cum quadrato rectæ ΒΓ æquale eſt quadrato rectæ ΒΔ. eſt autem ΑΔ ipſi ΑΓ æqualis: ergo quod ab utraque ſimul ΒΑΓ quadratum æquale eſt ei quod continetur ſub ΔΓ, ΓΕ una cum quadrato rectæ ΒΓ; ideoque & quod ab utraque ſimul ΒΑΓ, hoc eſt quadratum à recta ΒΔ, majus eſt quam quadratum rectæ ΒΓ eo quod continetur ſub ΔΓ, ΓΕ, dico jam quod ratio rectanguli ſub ΔΓ, ΓΕ ad triangulum ΑΒΓ data eſt.
+
+quoniam enim datus eſt angulus ΒΑΓ: & qui deinceps eſt ΔΑΓ [per 13. 1. & 4. dat.] datus eſt. uterque autem angulorum ΑΔΓ, ΔΓΑ datus eſt; etenim [per 5. & 32. 1.] uterque dimidius eſt anguli ΒΑΓ, qui [ex hyp.] datus eſt: quare [per 40. dat.] triangulum ΑΔΓ ſpecie datum eſt: ergo [per 3. def. dat.] ratio ipſius ΑΔ ad ΔΓ data eſt: ideoque [per 50. dat.] & ejus quod à recta ΑΔ ad id quod à ΔΓ deſcribitur quadratum ratio eſt data. quoniam vero [per 2. 6.] ut ΒΑ ad ΑΔ ita eſt ΕΓ ad ΓΔ; atque [per 1. 6.] ut ΒΑ quidem ad ΑΔ ita rectangulum ſub ΒΑ, ΑΔ ad quadratum rectæ ΑΔ; itaq; etiam ut ΕΓ ad ΓΔ ita rectangulum ſub ΕΓ, ΓΔ ad quadratum rectæ ΓΔ: erit igitur ut rectangulum ſub ΒΑ, ΑΔ ad quadratum ex ΑΔ ita rectangulum ſub ΕΓ, ΓΔ ad quadratum ex ΓΔ; ideoque permutando [per 16.5.] ut id quod continetur ſub ΒΑ, ΑΔ ad id quod continetur ſub ΕΓ, ΓΔ ita erit quod à recta ΑΔ ad id quod à recta ΓΔ deſcribitur quadratum. ratio autem quadrati rectæ ΑΔ ad quadratum rectæ ΔΓ data eſt: igitur & ratio ejus quod continetur ſub ΒΑ, ΑΔ ad id quod ſub ΕΓ, ΓΔ continetur data eſt. æqualis autem eſt [per conſtr.] ΔΑ ipſi ΑΓ: igitur & ratio ejus quod continetur ſub ΒΑ, ΑΓ ad id quod ſub ΕΓ, ΓΔ continetur data eſt. ratio autem rectanguli ſub ΒΑ, ΑΓ ad triangulum ΒΑΓ [per 66.dat.] data eſt, quia datus eſt angulus ΒΑΓ: quare [per 8.dat.] & ratio rectanguli ſub ΕΓ, ΓΔ ad triangulum ΑΒΓ data eſt. & eſt [per ſupra oſtenſa] rectangulum ſub ΔΓ, ΓΕ id quo quadratum ab utraque ſimul ΒΑΓ majus eſt quam quadra-
+
+[Footnote]
+* Quod rectangulum ſub ΔΓ, ΓΕ una cum quadrato rectæ ΒΓ æqualis ſit quadrato rectæ ΒΔ ſic oſtenditur. Dividatur ΔΕ bifariam in Ζ, & jungatur ΒΖ; quæ [per 8. 1.] normalis erit in ΔΕ. Rectangulum ſub ΔΓ, ΓΕ una cum quadrato rectæ ΓΖ [per 5. 2.] æquale eſt quadrato rectæ ΔΖ. Addatur commune quadratum rectæ ΒΖ: erit igitur rectangulum ſub ΔΓ, ΓΕ una cum quadratis rectarum ΓΖ, ΒΖ æquale quadratis rectarum ΔΖ, ΒΖ. Sed [per 47.1.] quadrata rectarum ΓΖ, ΒΖ æqualia ſunt quadrato rectæ ΒΓ; & quadrata rectarum ΔΖ, ΒΖ quadrato ipſius ΒΔ: Rectangulum igitur ſub ΔΓ, ΓΕ una cum quadrato rectæ ΒΓ æquale eſt quadrato rectæ ΒΔ.
+[/Footnote]
+
+[Diagram: triangle ΒΔΕ with Γ and Ζ on the base ΔΕ and lines ΒΓ and ΒΖ]
+
+<!-- Signature: T t t 2 -->
+<!-- Catchword: tum -->

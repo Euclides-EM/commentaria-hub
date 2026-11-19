@@ -3,33 +3,12 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { job_Job } from '../models/job_Job';
+import type { model_DiagramCrops } from '../models/model_DiagramCrops';
 import type { model_Facsimile } from '../models/model_Facsimile';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class FacsimilesService {
-    /**
-     * Download edition facsimile PDF
-     * Downloads the first local facsimile PDF for an edition.
-     * @returns binary Facsimile PDF
-     * @throws ApiError
-     */
-    public static getEditionsFacsimilePdf({
-        editionId,
-    }: {
-        /**
-         * Edition ID
-         */
-        editionId: string,
-    }): CancelablePromise<Blob> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/editions/{editionId}/facsimile.pdf',
-            path: {
-                'editionId': editionId,
-            },
-        });
-    }
     /**
      * List Facsimiles (bulk get)
      * Get facsimiles, optionally filtered by edition ID.
@@ -95,6 +74,40 @@ export class FacsimilesService {
         });
     }
     /**
+     * Download facsimile mapping CSVs
+     * Downloads a ZIP containing facsimiles.csv and shelfmarks.csv for facsimile-to-shelfmark mapping.
+     * @returns binary Facsimile mapping ZIP
+     * @throws ApiError
+     */
+    public static getFacsimiliesMappingCsv(): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/facsimilies/mapping-csv',
+        });
+    }
+    /**
+     * Upload facsimile mapping CSV
+     * Uploads an edited facsimiles.csv file and updates facsimile shelfmark mappings.
+     * @returns string OK
+     * @throws ApiError
+     */
+    public static postFacsimiliesMappingCsv({
+        file,
+    }: {
+        /**
+         * facsimiles.csv
+         */
+        file: Blob,
+    }): CancelablePromise<Record<string, string>> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/facsimilies/mapping-csv',
+            formData: {
+                'file': file,
+            },
+        });
+    }
+    /**
      * Get Facsimile by ID
      * Get a single facsimile by its ID.
      * @returns model_Facsimile OK
@@ -145,6 +158,72 @@ export class FacsimilesService {
                 'id': id,
             },
             body: facsimile,
+        });
+    }
+    /**
+     * Delete Facsimile
+     * Delete a facsimile and its server-managed local PDF. Facsimiles used by datasets cannot be deleted until those datasets are deleted.
+     * @returns string OK
+     * @throws ApiError
+     */
+    public static deleteFacsimilies({
+        id,
+    }: {
+        /**
+         * Facsimile ID
+         */
+        id: string,
+    }): CancelablePromise<Record<string, string>> {
+        return __request(OpenAPI, {
+            method: 'DELETE',
+            url: '/facsimilies/{id}',
+            path: {
+                'id': id,
+            },
+        });
+    }
+    /**
+     * Get Facsimile Diagrams
+     * Get diagram image URLs for a specific facsimile.
+     * @returns model_DiagramCrops OK
+     * @throws ApiError
+     */
+    public static getFacsimiliesDiagrams({
+        id,
+    }: {
+        /**
+         * Facsimile ID
+         */
+        id: string,
+    }): CancelablePromise<model_DiagramCrops> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/facsimilies/{id}/diagrams',
+            path: {
+                'id': id,
+            },
+        });
+    }
+    /**
+     * Download Facsimile Diagrams
+     * Stream a ZIP of the diagram crop images of a specific facsimile, laid out as <key>/crops/<image>.
+     * @returns binary Diagram crops ZIP
+     * @throws ApiError
+     */
+    public static getFacsimiliesDiagramsZip({
+        id,
+    }: {
+        /**
+         * Facsimile ID
+         */
+        id: string,
+    }): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/facsimilies/{id}/diagrams/zip',
+            path: {
+                'id': id,
+            },
         });
     }
     /**

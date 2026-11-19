@@ -1,0 +1,15 @@
+<!-- Running title: Data -->
+
+¶ Excitetur.ba.& ipſi.ac.æqualis ponatur.da.connectaturq;.dc.Quoniam igitur angulus.abc.datus eſt.& eius uterq; qui ſub.adc.acd.dimidium ē. Datur ergo uterq; eorum qui ſub.adc.acd.& reliquus igitur qui ſub.dac.datus eſt.Datur ergo triangulum.acd.ſpecie.
+
+[Diagram]
+
+Ratio igitur ipſius.ac.ad.cd.data eſt. Et quoniam qui ſub.adc.datus eſt.exciteturq; eidem æquus uterq; eorum qui ſub.dec.afc.per.xxii.primi elementorum. Et quoniã angulus.bdc.ipſi.dec.æquus eſt.Communis autem qui ſub.bcd.ipſius.dcb.trianguli exiſtens:& ipſius.dbc.Reliquus igitur angulus.dbe.reliquo angulo.bcd.eſt æqualis.æquiãgulum igitur eſt.bde.triangulum ipſi.dbc.triangulo.Eſt igitur ſicut.eb.ad.bd.ſic eſt.db.ad.cb.Quod igitur ſub.eb.bc.hoc eſt quod ſub.ecb.una cum eo quod ex.cb.ei æquum eſt quod ex.bd.hoc eſt ei quod ex utroq;.bac.æqualis enim eſt.da.ipſi.ac.Quod igitur ſub.ecb.una cum eo quod ex.cb.æquũ eſt ei quod ex utroq;.bac.Quod igitur ex utroq;.bac.id quod ex.bc.excedit eo quod ſub.bce.Dico igitur q; ratio ipſius qui ſub.bce.ad.abc.triangulum data eſt.Quoniam æqualis eſt angulus.bde.angulo.bcd.quorũ qui ſub.adc.ei qui ſub.acd.eſt æqualis.Reliquus ergo qui ſub.cde.reliquo qui ſub.acb.ē æqualis.Eſt autem & qui ſub.dec.ei qui ſub.afc.æqualis.reliquus ergo q̃ ſub.caf.reliquo qui ſub.dce.eſt æqualis.æquiangulum igitur eſt triangulum.acf.triangulo.dec.Eſt igitur ſicut.ca.ad.af.ſic.dc.ad.ce.& uiciſſim igit̃ per.xvi.v.elementorum ſicut.ca.ad.dc.ſic.af.ad.ce.Ratio autem ipſius.ac.ad.cd.data eſt.Ratio igitur ipſius.af.ad.ce.data.Excitetur per.xii.primi elementorũ ab ipſo.a.in.bc.perpendicularis.ag.& quoniam angulus.afc.datus eſt.eſt autẽ & qui ſub.agf.datus:& reliquus ergo qui ſub.gaf.datus eſt.Datur ergo.agf.triangulum ſpecie.Ratio igitur ipſius.fa.ad.ag.data eſt.ipſius autem.fa.ac.ce.ratio data eſt.Quare & quod ſub.ag.bc.ad id quod ſub.bc.ce.ratio data eſt.Eius autem quod ſub.ag.bc.ad id quod ſub.abc.triangulum ratio eſt data.& eius quod ſub.bc.ce.ad.abc.ratio eſt data.Eſt autem quod ſub.bc.ce.q̃ maius eſt quod ex utroq;.bac.eo quod ex.bc.Quare igitur maius eſt quod ex utroq;.bac.eo quod ex.bc.ea area ad triangulum rationem habet datam.
+
+### ¶ Scholium ſuper prima demonſtratione.lxii.p̄poſitionis.
+
+¶ Si in triãgulo iſoſcele acta fuerit aliqua recta linea utcunq; in baſim: quod ex acta una cum eo quod ſub baſis ſegmentis:æquum eſt ei quod ex uno laterum æqualium gignitur.Sit nempe iſoſceles triangulum.abc.æquum habens latus.ab.lateri.ac.& ab ipſo.a.in.bc.agatur quædam recta linea utcunq;.ad.
+
+[Diagram: isosceles triangle labelled a, b, c and d, with an internal line from a to d]
+
+Dico q; quod ex.ad.una cum eo quod ſub.bdc.æquum eſt ei quod ex.ac.Ipſa.ad.in.bc.aut perpendicularis eſt:aut non.Sit prius perpendicularis:& quoniam recta linea aliqua.bc.ſecatur bifariam in.d.Quod igitur ſub.cdb.æquum eſt ei quod ex.bd.cõmune apponatur quod ex.ad.quod igitur ſub.cdb.una cum eo quod ex.ad.æquum eſt quod ex.ad.db.At eis quæ ex.ad.db.æquum eſt quod ex.ab.Quod uero ſub.db.una cũ eo quod ex.ad.æquũ eſt ei quod ex.ab.Sed iam non ſit perpendicularis.ad.exciteturq; ab ipſo.a.

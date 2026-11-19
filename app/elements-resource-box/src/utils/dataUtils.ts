@@ -1,14 +1,57 @@
 import { Item } from "../types";
-import { startCase, uniq } from "lodash";
+import { startCase, uniq, uniqBy } from "lodash";
 import { ItemTypes } from "../constants";
-import type { model_Edition } from "@hub-api";
+import type { model_Edition, model_EditionShelfmark } from "@hub-api";
 import { toItemImageUrl } from "./util.ts";
 
 type EditionWithVisualElementsTypes = model_Edition & {
   visualElementsTypes?: string[];
 };
 
+type EditionWithShelfmarks = model_Edition & {
+  shelfmarks?: model_EditionShelfmark[];
+};
+
 const firstOrNull = <T>(arr: T[]): T | null => (arr.length > 0 ? arr[0] : null);
+
+const dedupeShelfmarksByScan = (shelfmarks: model_EditionShelfmark[]) =>
+  uniqBy(
+    shelfmarks.filter((shelfmark) => shelfmark.scan?.trim()),
+    (shelfmark) => shelfmark.scan!.trim(),
+  );
+
+const shelfmarkProperties = (
+  shelfmarks: model_EditionShelfmark[],
+): string[] => {
+  const properties = new Set<string>();
+  for (const shelfmark of shelfmarks) {
+    if (shelfmark.shelfmark?.trim()) {
+      properties.add("shelfmark_available");
+    }
+    if (shelfmark.scan?.trim()) {
+      properties.add("facsimile_available");
+    }
+    if (shelfmark.transcription_available === "external") {
+      properties.add("external_transcription_available");
+    }
+    if (shelfmark.transcription_available === "internal") {
+      properties.add("internal_transcription_available");
+    }
+    if (shelfmark.structural_metadata_available === "external") {
+      properties.add("external_structural_metadata_available");
+    }
+    if (shelfmark.structural_metadata_available === "internal") {
+      properties.add("internal_structural_metadata_available");
+    }
+  }
+  if (
+    shelfmarks.length > 0 &&
+    shelfmarks.every((shelfmark) => !shelfmark.copyright?.trim())
+  ) {
+    properties.add("copyright_status_unknown");
+  }
+  return Array.from(properties);
+};
 
 const toBookRanges = (books: number[]) => {
   return Array.from(new Set(books))
@@ -24,13 +67,16 @@ const toBookRanges = (books: number[]) => {
     }, []);
 };
 
-export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
+export const mapEditionsToItems = (
+  editions: EditionWithShelfmarks[],
+): Item[] => {
   return editions
     .filter((edition) => edition.key)
     .map((edition) => {
       const editionWithVisualElementsTypes =
         edition as EditionWithVisualElementsTypes;
-      const shelfmarks = edition.shelfmarks || [];
+      const editionShelfmarks = edition.shelfmarks || [];
+      const shelfmarks = dedupeShelfmarksByScan(editionShelfmarks);
       const books = Array.isArray(edition.books)
         ? edition.books.filter((value): value is number =>
             Number.isFinite(value),
@@ -55,7 +101,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
           .filter(Boolean),
         repository:
           firstOrNull(
-            shelfmarks
+            editionShelfmarks
               .map((s) => s.repository?.trim())
               .filter(Boolean) as string[],
           ) || null,
@@ -73,7 +119,8 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         titleEn: edition.title_EN || null,
         imprint: edition.imprint || null,
         imprintEn: edition.imprint_EN || null,
-        facsimiles: shelfmarks.filter((s) => s.scan),
+        facsimiles: shelfmarks,
+        shelfmarkProperties: shelfmarkProperties(editionShelfmarks),
         type: edition.isElements ? ItemTypes.elements : ItemTypes.secondary,
         format: edition.format || null,
         elementsBooks: toBookRanges(books),
@@ -91,6 +138,10 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
               .map((v) => v.visual_element_type)
               .filter(Boolean)) as string[],
         ),
+        subjectCategories: edition.subjectCategories || [],
+        subjectCategoryValues: (edition.subjectCategories || [])
+          .filter((item) => item.category && item.classification)
+          .map((item) => `${item.category}::${item.classification}`),
         reprintOf: edition.reprintOf || null,
       } satisfies Item;
     });

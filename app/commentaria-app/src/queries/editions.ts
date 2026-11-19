@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { EditionsService, type model_Edition } from '@hub-api'
 
-const normalizeEditionId = (editionId: string | null | undefined) =>
+export const normalizeEditionId = (editionId: string | null | undefined) =>
   editionId?.replace(/_vol\d+$/, '') || ''
 
 const editionQueryKey = (editionId: string) => ['editions', editionId] as const

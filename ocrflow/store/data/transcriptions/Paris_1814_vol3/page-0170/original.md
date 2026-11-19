@@ -1,0 +1,8 @@
+<!-- Page number: 136 -->
+<!-- Running title: LE DOUZIÈME LIVRE DES ÉLÉMENTS D'EUCLIDE. -->
+
+ὡς ἡ ΟΜΝ βάσις πρὸς τὴν ΣΤΥ βάσιν οὕτως ἡ ΑΒΓ βάσις πρὸς τὴν ΔΕΖ βάσιν· ἴσον γὰρ ἑκάτερον τῶν ΟΜΝ, ΣΤΥ τριγώνων ἑκατέρῳ τῶν ΛΞΓ, ΡΦΖ¹¹, καὶ ὡς ἄρα ἡ ΑΒΓ βάσις πρὸς τὴν ΔΕΖ βάσιν οὕτως καὶ ἐν τῇ ΑΒΓΗ πυραμίδι δύο πρίσματα πρὸς τὰ ἐν τῇ ΔΕΖΘ πυραμίδι δύο πρίσματα, καὶ τὰ ἐν τῇ ΟΜΝΗ δύο πρίσματα πρὸς τὰ ἐν τῇ ΣΤΥΘ πυραμίδι δύο πρίσματα, καὶ τέσσαρα πρὸς τέσσαρα. Τὰ αὐτὰ δὲ δειχθήσεται καὶ ἐπὶ τῶν γενομένων πρισμάτων ἐκ τῆς διαιρέσεως τῶν ΑΚΛΟ καὶ ΔΠΡΣ πυραμίδων καὶ πάντων ἁπλῶς τῶν ἰσοπληθῶν¹². Ὅπερ ἔδει δεῖξαι.
+
+ad ΣΤΥ basim ita ΑΒΓ basis ad ΔΕΖ basim, æquale enim utrumque triangulorum ΟΜΝ, ΣΤΥ utrique triangulorum ΛΞΓ, ΡΦΖ; et ut igitur basis ΑΒΓ ad ΔΕΖ basim ita et in ΑΒΓΗ pyramide duo prismata ad duo prismata in ΔΕΖΘ pyramide, et in ΟΜΝΗ duo prismata ad duo prismata in ΣΤΥΘ pyramide, et quatuor ad quatuor. Eadem autem ostendentur et in prismatibus factis divisione pyramidum ΑΚΛΟ et ΔΠΡΣ, et omnium simpliciter multitudine æqualium. Quod oportebat ostendere.
+
+la base ΣΤΥ comme la base ΑΒΓ est à la base ΔΕΖ; car chacun des triangles ΟΜΝ, ΣΤΥ est égal à chacun des triangles ΛΞΓ, ΡΦΖ; la base ΑΒΓ est donc à la base ΔΕΖ comme les deux prismes de la pyramide ΑΒΓΗ sont aux deux prismes de la pyramide ΔΕΖΘ, comme les deux prismes de la pyramide ΟΜΝΗ sont aux deux prismes de la pyramide ΣΤΥΘ, et comme quatre prismes sont à quatre prismes. On démontrera la même chose pour tous les autres prismes qu'on obtiendra par la division des pyramides ΑΚΛΟ et ΔΠΡΣ, et enfin de toutes les pyramides égales en nombre. Ce qu'il fallait démontrer.

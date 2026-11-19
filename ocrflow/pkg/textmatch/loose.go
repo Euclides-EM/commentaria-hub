@@ -5,6 +5,8 @@ import (
 	"strings"
 	"unicode"
 	"unicode/utf8"
+
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/editdistance"
 )
 
 func FindLoosePhraseMatches(text string, featureValue string) [][2]int {
@@ -87,7 +89,7 @@ func FindFuzzyPhraseMatch(text string, featureValue string, maxEdits int) ([2]in
 			maxEnd = len(normalizedText)
 		}
 		for end := minEnd; end <= maxEnd; end++ {
-			distance := boundedEditDistance(normalizedValue, normalizedText[start:end], maxEdits)
+			distance := editdistance.BoundedRunes(normalizedValue, normalizedText[start:end], maxEdits)
 			if distance > maxEdits || distance > bestDistance {
 				continue
 			}
@@ -118,43 +120,6 @@ func normalizeForFuzzyMatch(s string) ([]rune, []int, []int) {
 		ends = append(ends, byteStart+utf8.RuneLen(r))
 	}
 	return normalized, starts, ends
-}
-
-func boundedEditDistance(a, b []rune, maxDistance int) int {
-	if len(a)-len(b) > maxDistance || len(b)-len(a) > maxDistance {
-		return maxDistance + 1
-	}
-
-	prev := make([]int, len(b)+1)
-	curr := make([]int, len(b)+1)
-	for j := range prev {
-		prev[j] = j
-	}
-
-	for i := 1; i <= len(a); i++ {
-		curr[0] = i
-		rowMin := curr[0]
-		for j := 1; j <= len(b); j++ {
-			cost := 0
-			if a[i-1] != b[j-1] {
-				cost = 1
-			}
-			curr[j] = min(
-				prev[j]+1,
-				curr[j-1]+1,
-				prev[j-1]+cost,
-			)
-			if curr[j] < rowMin {
-				rowMin = curr[j]
-			}
-		}
-		if rowMin > maxDistance {
-			return maxDistance + 1
-		}
-		prev, curr = curr, prev
-	}
-
-	return prev[len(b)]
 }
 
 func absInt(n int) int {

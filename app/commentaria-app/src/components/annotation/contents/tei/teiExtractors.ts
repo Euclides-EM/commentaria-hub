@@ -3,7 +3,7 @@ import {
   getDirectChildrenByName,
   getElementAttr,
   getLineElements,
-  getTeiTranslationSources,
+  getTeiAlternativeSources,
   getXmlId,
   parseCorrespRefs,
   parseXml,
@@ -18,17 +18,17 @@ import type {
   TeiEditableHighlight,
   TeiHighlightConfig,
   TeiOriginalEditableLine,
-  TeiTranslation,
+  TeiAlternative,
 } from './teiTypes.ts'
 
-export function getTeiTranslations(tei: string): TeiTranslation[] {
+export function getTeiAlternatives(tei: string): TeiAlternative[] {
   try {
     const doc = parseXml(tei.trim())
     const body = getBody(doc)
-    const sources = getTeiTranslationSources(body)
+    const sources = getTeiAlternativeSources(body)
     return sources.map((source, index) => ({
-      id: `translation:${index}`,
-      label: source.label || `Translation ${index + 1}`,
+      id: `alternative:${index}`,
+      label: source.label || `Alternative ${index + 1}`,
     }))
   } catch {
     return []

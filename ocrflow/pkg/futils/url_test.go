@@ -33,3 +33,14 @@ func TestLocalFilePathToURL(t *testing.T) {
 		t.Fatalf("LocalFilePathToURL() = %q, want %q", got, want)
 	}
 }
+
+func TestURLToLocalFilePathUnescapesPath(t *testing.T) {
+	got, err := URLToLocalFilePath("file:///tmp/London_1680%E2%80%9381/W%C3%BCrzburg_1661.pdf")
+	if err != nil {
+		t.Fatalf("URLToLocalFilePath returned error: %v", err)
+	}
+	want := "/tmp/London_1680–81/Würzburg_1661.pdf"
+	if got != want {
+		t.Fatalf("URLToLocalFilePath() = %q, want %q", got, want)
+	}
+}

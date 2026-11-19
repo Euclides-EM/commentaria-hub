@@ -4,6 +4,7 @@ import { selectStyles } from '../../../../styles/selectStyles.ts'
 import Select from 'react-select'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
 import { useDatasetImageKeysQuery } from '../../../../queries/datasets.ts'
@@ -34,7 +35,7 @@ const getDefaultPageOrKey = (availablePages: string[]): string => {
 }
 
 export function PageNavigation() {
-  const { annotation, state, setState, jumpToPage } = useAppState()
+  const { annotation, dataset, state, setState, jumpToPage } = useAppState()
   const isTitlePagesDataset = annotation?.dataset_id === TITLE_PAGES_DATASET_ID
   const hasPages = hasAnnotationPages(annotation)
   const annotationPageEntries = useMemo(
@@ -42,7 +43,8 @@ export function PageNavigation() {
     [annotation],
   )
   const shouldLoadImageKeys = !!annotation
-  const showIndexPane = !!annotation?.segmented
+  const showIndexPane =
+    !!annotation && (annotation.segmented || !!dataset?.edition_id)
   const showSearchPane =
     !!annotation && (isTitlePagesDataset || !hasPages || !!annotation.ocred)
   const isKeyNavigation = !!annotation && !hasPages
@@ -58,21 +60,21 @@ export function PageNavigation() {
     [currentValue, imageKeys],
   )
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(
-    'indexCollapsed',
+    useScopedStorageKey('indexCollapsed'),
     {
       defaultValue: false,
       storageSync: false,
     },
   )
   const [isSearchCollapsed, setIsSearchCollapsed] = useLocalStorageState(
-    'searchCollapsed',
+    useScopedStorageKey('searchCollapsed'),
     {
       defaultValue: true,
       storageSync: false,
     },
   )
   const [splitRatio, setSplitRatio] = useLocalStorageState(
-    'indexSearchSplitRatio',
+    useScopedStorageKey('indexSearchSplitRatio'),
     {
       defaultValue: 0.5,
       storageSync: false,
@@ -80,8 +82,6 @@ export function PageNavigation() {
   )
   const [isResizing, setIsResizing] = useState(false)
   const splitRef = useRef<HTMLDivElement | null>(null)
-  const previousShowIndexPaneRef = useRef(showIndexPane)
-  const previousShowSearchPaneRef = useRef(showSearchPane)
 
   const onPageNumChange = (value: string) =>
     setState({ currentPageOrKey: value })
@@ -181,20 +181,6 @@ export function PageNavigation() {
   }, [availablePages, currentOption, currentValue, matchedImage?.key, setState])
 
   useEffect(() => {
-    const enteredSearchOnlyMode =
-      showSearchPane &&
-      !showIndexPane &&
-      (!previousShowSearchPaneRef.current || previousShowIndexPaneRef.current)
-
-    if (enteredSearchOnlyMode && isSearchCollapsed) {
-      setIsSearchCollapsed(false)
-    }
-
-    previousShowIndexPaneRef.current = showIndexPane
-    previousShowSearchPaneRef.current = showSearchPane
-  }, [isSearchCollapsed, setIsSearchCollapsed, showIndexPane, showSearchPane])
-
-  useEffect(() => {
     if (!isResizing) {
       return
     }
@@ -232,7 +218,7 @@ export function PageNavigation() {
         <div className="flex gap-2">
           <button
             title="Previous page"
-            className={`px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white font-semibold text-xs ${isFirstPage ? 'invisible pointer-events-none' : 'hover:bg-gray-50'}`}
+            className={`px-2.5 py-1.5 border border-gray-400 rounded-lg bg-white font-semibold text-xs ${isFirstPage ? 'invisible pointer-events-none' : 'hover:bg-gray-50'}`}
             onClick={onPrevPage}
             disabled={isFirstPage}
             aria-hidden={isFirstPage}
@@ -270,7 +256,7 @@ export function PageNavigation() {
 
           <button
             title="Next page"
-            className={`px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white font-semibold text-xs ${isLastPage ? 'invisible pointer-events-none' : 'hover:bg-gray-50'}`}
+            className={`px-2.5 py-1.5 border border-gray-400 rounded-lg bg-white font-semibold text-xs ${isLastPage ? 'invisible pointer-events-none' : 'hover:bg-gray-50'}`}
             onClick={onNextPage}
             disabled={isLastPage}
             aria-hidden={isLastPage}
@@ -288,16 +274,18 @@ export function PageNavigation() {
       {showIndexPane && showSearchPane && (
         <div className="flex flex-col flex-1 min-h-0" ref={splitRef}>
           <div
-            className="flex flex-col min-h-0 border-t border-gray-300 overflow-hidden flex-none"
+            className="flex flex-col min-h-0 border-t border-gray-400 overflow-hidden flex-none"
             style={{ flexBasis: `calc(${splitRatio * 100}% - 4px)` }}
           >
-            <div className="px-3 py-4 text-gray-500">
+            <div className="px-3 py-4 text-gray-600">
               <button
-                title={isIndexCollapsed ? 'Expand index' : 'Collapse index'}
-                aria-label={
-                  isIndexCollapsed ? 'Expand index' : 'Collapse index'
+                title={
+                  isIndexCollapsed ? 'Expand navigation' : 'Minimize navigation'
                 }
-                className="inline-flex items-center gap-2 text-left hover:text-gray-700 transition-colors"
+                aria-label={
+                  isIndexCollapsed ? 'Expand navigation' : 'Minimize navigation'
+                }
+                className="inline-flex items-center gap-2 text-left hover:text-gray-800 transition-colors"
                 onClick={() => setIsIndexCollapsed((prev) => !prev)}
               >
                 <span className="text-sm">{isIndexCollapsed ? '▶' : '▼'}</span>
@@ -327,13 +315,13 @@ export function PageNavigation() {
             className="flex flex-col min-h-0 flex-none"
             style={{ flexBasis: `calc(${(1 - splitRatio) * 100}% - 4px)` }}
           >
-            <div className="px-3 py-4 text-gray-500">
+            <div className="px-3 py-4 text-gray-600">
               <button
                 title={isSearchCollapsed ? 'Expand search' : 'Collapse search'}
                 aria-label={
                   isSearchCollapsed ? 'Expand search' : 'Collapse search'
                 }
-                className="inline-flex items-center gap-2 text-left hover:text-gray-700 transition-colors"
+                className="inline-flex items-center gap-2 text-left hover:text-gray-800 transition-colors"
                 onClick={() => setIsSearchCollapsed((prev) => !prev)}
               >
                 <span className="text-sm">{isSearchCollapsed ? '▶' : '▼'}</span>
@@ -347,42 +335,22 @@ export function PageNavigation() {
         </div>
       )}
       {showIndexPane && !showSearchPane && (
-        <div className="flex flex-col flex-1 min-h-0 border-t border-gray-300">
-          <div className="px-3 py-4 text-gray-500">
-            <button
-              title={isIndexCollapsed ? 'Expand index' : 'Collapse index'}
-              aria-label={isIndexCollapsed ? 'Expand index' : 'Collapse index'}
-              className="inline-flex items-center gap-2 text-left hover:text-gray-700 transition-colors"
-              onClick={() => setIsIndexCollapsed((prev) => !prev)}
-            >
-              <span className="text-sm">{isIndexCollapsed ? '▶' : '▼'}</span>
-              <span className="font-semibold text-sm">Index</span>
-            </button>
+        <div className="flex flex-col flex-1 min-h-0 border-t border-gray-400">
+          <div className="px-3 py-4 text-gray-600">
+            <span className="font-semibold text-sm">Index</span>
           </div>
           <div className="flex-1 min-h-0 overflow-hidden">
-            {!isIndexCollapsed && (
-              <IndexMenu disableHighlight={state.annotationTab === 'gallery'} />
-            )}
+            <IndexMenu disableHighlight={state.annotationTab === 'gallery'} />
           </div>
         </div>
       )}
       {!showIndexPane && showSearchPane && (
-        <div className="flex flex-col flex-1 min-h-0 border-t border-gray-300">
-          <div className="px-3 py-4 text-gray-500">
-            <button
-              title={isSearchCollapsed ? 'Expand search' : 'Collapse search'}
-              aria-label={
-                isSearchCollapsed ? 'Expand search' : 'Collapse search'
-              }
-              className="inline-flex items-center gap-2 text-left hover:text-gray-700 transition-colors"
-              onClick={() => setIsSearchCollapsed((prev) => !prev)}
-            >
-              <span className="text-sm">{isSearchCollapsed ? '▶' : '▼'}</span>
-              <span className="font-semibold text-sm">Search</span>
-            </button>
+        <div className="flex flex-col flex-1 min-h-0 border-t border-gray-400">
+          <div className="px-3 py-4 text-gray-600">
+            <span className="font-semibold text-sm">Search</span>
           </div>
           <div className="flex-1 min-h-0 overflow-hidden">
-            {!isSearchCollapsed && <AnnotationSearchMenu />}
+            <AnnotationSearchMenu />
           </div>
         </div>
       )}

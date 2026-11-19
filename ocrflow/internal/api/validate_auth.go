@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/httpwrapper"
 )
 
 func ValidateAuth(r *http.Request) (any, error) {

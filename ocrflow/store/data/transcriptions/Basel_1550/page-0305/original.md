@@ -1,0 +1,16 @@
+<!-- Page number: 290 -->
+<!-- Running title: ELEMENTORVM EVCLIDIS -->
+
+comprehenditur rectangulum, æquale eſt ei, quod ſub medijs comprehenditur rectangulo. Et ſi ſub extremis comprehenſum rectangulum, æquale fuerit ei quod ſub medijs comprehenditur rectangulo: quatuor rectæ lineæ proportionales erunt.
+
+Sint quatuor rectæ lineę proportionales, prima ſcilicet ad ſecundam ut tertia ad quartam: dico rectangulum ſub prima & quarta comprehenſum, ei quod ſub ſecunda & tertia comprehenditur rectangulo æquale eſſe. Deſcribãtur ex quatuor rectis proportionalibus duo rectangula, utrunq; ex ſuis lineis. Et quoniam primæ
+
+[Diagram: labelled "Rectæ quatuor proportionales", four vertical lines marked 10, 6, 3 and 5; beside it, labelled "Rectangula ex ſuis lineis deſcripta", two rectangles, the first with sides marked 10 and 3, the second with sides marked 6 and 5]
+
+ad ſecundam, lateris ſcilicet unius ad latus rectanguli alterius, ex hypotheſi, eſt ut tertiæ lineæ ad quartam, lateris nimirum huius ad latus illius: hæc duo rectangula, cum circa æquales angulos (omnes enim recti inter ſe ęquales ſunt) latera reciproca habeant, ex propoſitione 14 huius, inter ſe æqualia erunt: quę eſt pars prior. Poſterior iam, lineis ſcilicet quatuor rectis propoſitis, ſi rectangula ſub prima & quarta, ſub ſecũda item & tertia, cõprehenſa, ex hypotheſi inter ſe æqualia ſint: illas tum lineas proportionales eſſe, ſic patet. Cum rectangula, ex hypotheſi, inter ſe æqualia ſint, cumq; etiam omnes anguli recti inter ſe æquales: ipſa rectangula primò æquiangula erunt, atque deinde circa æquales angulos, ex priore parte propoſitionis 14 huius, latera reciproca habebunt, quæ eſt pars poſterior. Si quatuor igitur rectæ lineæ proportionales fuerint: quod ſub extremis comprehenditur rectangulum, æquale eſt ei, quod ſub medijs comprehenditur rectangulo. Et ſi ſub extremis comprehenſum rectangulum, æquale fuerit ei quod ſub medijs comprehenditur rectãgulo: quatuor rectæ lineæ proportionales erũt. quod demonſtraſſe oportuit.
+
+### ALIA HVIVS PROPOSITIONIS DEMONSTRATIO.
+
+Quatuor rectis lineis expoſitis, dico, ſi hæ rectæ, ex hypotheſi, proportionales fuerint, prima ſcilicet ad ſecundam ut tertia ad quartam: & quæ ſub prima & quarta, ſub ſecunda item & tertia linea comprehenduntur rectangula, inter ſe æqualia eſſe. Quòd ſi harum rectarum rectangula, quæ ſub prima & quarta, ſubq; ſecunda & tertia comprehenduntur, ex hypotheſi, inter ſe æqualia ſint: & ipſas rectas proportionales eſſe oportere. Quantum igitur ad partem priorem, excitentur à duabus, primæ & ſecundæ, rectarum extremitatibus, utræ hæ fuerint, per propoſitionem 11 primi, duæ ad angulos rectos lineę: de priori deinde excitata, à cõmuni puncto incipiendo, recta quartæ æqualis, ab altera uerò, tertiæ datæ æqualis recta, per propoſitionẽ 3 primi, abſcindatur, cõpleanturq; parallelogrãma. Et quoniam prima ad ſecundam, ex hypotheſi, eſt ut tertia ad lineam quartam, cum lineis tertiæ & quartæ æquales aliæ in parallelogrammis poſitæ ſint, æqualibus illis pro tertia & quarta ſumptis: deſcriptorum parallelogrammorum circa æquales angulos latera reciprocè proportionalia erunt: unum igitur parallelogrammum, ex priori parte propoſitionis 14 huius, alteri æquale. Quare cum unũ ſub prima & alia quadam
+
+<!-- Catchword: recta -->

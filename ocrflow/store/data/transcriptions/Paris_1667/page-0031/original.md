@@ -1,0 +1,7 @@
+<!-- Running title: PREFACE. -->
+
+s'accoûtumer. La raiſon qui a obligé d'en uſer ainſy eſt, que traittant des grandeurs en general entant que ce mot comprend toutes les eſpeces de quantité, on ne pouvoit pas ſe ſervir de figures pour aider l'imagination; outre que l'on jugeoit qu'il eſtoit utile de ſe rompre d'abord à cette methode, qui eſt la plus feconde & la plus Geometrique; mais ceux neanmoins à qui elle feroit trop de peine ont moyen de s'en exemter en commençant par le Vᵉ Livre, & en ſuppoſant prouvées quelques propoſitions qui dépendent des quatre premiers. Ce remede eſt aiſé, & il ne les privera pas du fruit qu'ils pourront tirer de la methode de ces Elemens lors qu'en une ſeconde lecture ils les liront tous de ſuite.
+
+Pour les autres jugemens qu'on peut faire de cet ouvrage, comme il eſt facile de les prévoir, il ſemble auſſy qu'on n'ait pas ſujet de s'en mettre en peine. Car s'il ſe trouve des perſonnes qui le mépriſent par des principes plus élevez, & par un éloignement de toutes ces ſortes de ſciences, peuteſtre ne ſeront-ils pas fort éloignez du ſentiment de l'Auteur. S'il y en a qui le blaſment comme Geometres en y remarquant de veritables fautes ils ſeront encore d'accord avec luy, parcequ'il ſera toujours tout preſt de les corriger. Enfin ceux qui le reprendront comme Geometres, mais en ſe trompant, ne peuvent pas luy eſtre fort incommodes, parceque c'eſt une matiere où les veritez ſont ſi claires qu'elles n'ont gueres beſoin d'apologie contre les injuſtes accuſations.
+
+<!-- Signature: ĩ -->

@@ -1,0 +1,8 @@
+format_group,n,avg_rich_claim_count,avg_intellectual_value_count,avg_social_arena_count,pct_no_visible_social_arena,pct_sparse_authoritative,pct_has_metadata_diagrams
+folio,54,3.67,0.87,1.04,46.3,9.3,9.3
+quarto,67,3.37,0.81,1.27,41.8,11.9,3.0
+octavo,111,4.3,1.21,1.19,41.4,15.3,0.0
+duodecimo,30,4.4,1.8,0.93,30.0,16.7,0.0
+6,5,2.8,0.4,0.2,80.0,40.0,0.0
+18,1,2.0,0.0,0.0,100.0,100.0,0.0
+missing/unknown,18,2.94,0.83,0.78,66.7,33.3,0.0

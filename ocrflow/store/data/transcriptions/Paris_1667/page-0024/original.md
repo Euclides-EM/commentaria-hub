@@ -1,0 +1,7 @@
+<!-- Running title: PREFACE. -->
+
+ſoûtiennent les uns les autres, que par des raiſonnemens ſemblables aux demonſtrations Geometriques.
+
+C'eſt donc ſans doute un fort grand défaut que de ne faire pas diſtinction des matieres; d'exiger par tout cette ſuite methodique de propoſitions, que l'on voit dans la Geometrie; de faire difficulté ſur tout, & de croire avoir droit de rejetter abſolument un principe lors qu'on juge qu'il peut recevoir quelque exception en quelque rencontre.
+
+Mais ſi ce défaut eſt aſſez ordinaire à quelques Geometres, il ne naiſt pas neanmoins de la Geotrie{printer-error-correction:Geometrie} même. Cette ſcience eſtant toute veritable ne peut pas autoriſer une conduite qui n'eſt fondée que ſur des principes d'erreur. Car il n'eſt pas vray qu'un principe qui ne prouve pas abſolument ne prouve rien; & que ne prouvant pas tout ſeul, il ne prouve pas eſtant joint à d'autres. Il y a differens degrez de preuves. Il y en a dont on conclut la certitude, & d'autres dont on conclut l'apparence; & de pluſieurs apparences jointes enſemble on conclut quelquefois une certitude à laquelle tous les eſprits raiſonnables ſe doivent rendre. Il n'eſt pas abſolument certain que l'on doive voir le Soleil quelqu'un des jours de l'année qui vient, je le dois neanmoins croire; & je ſerois ridicule d'en douter, quoiqu'il ſoit impoſſible de le démontrer. La raiſon ne doit donc pas pretendre de démontrer Geometriquement ces choſes; mais elle peut prouver Geometriquement que c'eſt une ſottiſe

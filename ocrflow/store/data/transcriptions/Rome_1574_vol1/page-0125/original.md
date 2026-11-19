@@ -1,0 +1,11 @@
+<!-- Running title: EVCLID. GEOM. -->
+
+Quæ eidem æqualia, inter ſe quoq; æqualia ſunt. Huius autem ſtatim demonſtrationem deſiderabit quis. Omnis trianguli tres anguli interni æquales ſunt duobus rectis. Idem iudicium habeto de reliquis axiomatis, atq; Theorematis, nec non de poſtulatis, problematiſq́;.
+
+CONSTAT quoq;, Poſtulatorum alia propria eſſe Geometriæ, qualia ſunt illa tria, quæ Euclides nobis propoſuit; quædam vero communia & Geometriæ, & Arithmeticæ, cuiuſmodi eſt hoc, Quantitatem poſſe infinite augeri. Tam enim numerus, quam magnitudo, per additionem augeri poteſt, ita vt nunquam huius incrementi finis reperiatur. Idem dices de Axiomatis, ſiue pronunciatis. Nam octauum, decimum, vndecimum, duodecimum, & tertiumdecimũ, ſoli Geometriæ conueniunt; Reliqua vero omnia adhibentur & ad demonſtrationes Geometricas, & ad Arithmeticas. Quemadmodum enim magnitudines æquales ablatæ a magnitudinibus æqualibus, relinquũt magnitudines æquales, ſiue hæ magnitudines lineæ ſint, ſiue ſuperficies, ſiue corpora; Ita quoq; numeri æquales detracti e numeris æqualibus relinquunt numeros æquales, &c.
+
+HAEC dicta a nobis ſint de triplici hoc genere principiorum, nunc ad demonſtrationes accedamus, ex quibus plenius, perfectiuſq́; principiorum omnium natura percipietur. Sunt enim plurima principia Mathematicorum eiuſmodi, vt plane non intelligantur, niſi prius eorum vſus appareat in demonſtrationibus; id quod ſatis te experientia docebit.
+
+ANTEQVAM porro ad propoſitiones Euclidis interpretandas veniamus, paucis explicandum eſt, quemnam ordinem, ac modum in ipſis demonſtrationibus ſimus ſecuti. Primum cuilibet propoſitioni duos numeros affiximus, quorum alter in margine depictus ſignificat ordinem, quem Campanus ex traditione Arabum eſt ſecutus in Euclidis propoſitionibus, alter vero in ipſa propoſitionum ſerie deſcriptus refert diſpoſitionem propoſitionum ex traditione Theonis & quam adhuc obſeruari cernimus in codicibus græcis. Id vero eo conſilio a nobis eſt factum: quoniam cum a quibuſdam Geometris propoſitiones Euclidis iuxta ordinem Campani, ab alijs vero iuxta Theonis ſeriem citentur, maximeq́; interdum duo hi interpretes inter ſe diſcrepent, quoad ordinem propoſitionum, id quod maxime in 6. 7. & 10. libris perſpicitur; neceſſarium eſſe duximus, vt
+
+<!-- Catchword: vtriuſq; -->

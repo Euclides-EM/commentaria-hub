@@ -9,6 +9,7 @@ func (p AIProvider) ToLLMAIProvider() string {
 }
 
 const (
-	AIProviderOllama AIProvider = "ollama"
-	AIProviderOpenAI AIProvider = "openai"
+	AIProviderClaudeCode AIProvider = "claude-code"
+	AIProviderOllama     AIProvider = "ollama"
+	AIProviderOpenAI     AIProvider = "openai"
 )

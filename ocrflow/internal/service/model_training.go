@@ -3,9 +3,9 @@ package service
 import (
 	"fmt"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/job"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/job"
 )
 
 type ModelTraining struct {
@@ -31,10 +31,11 @@ func (m *ModelTraining) Submit(training *model.ModelTraining) (*model.ModelTrain
 		return nil, err
 	}
 	return &model.ModelTraining{
-		Meta:   common.NewMeta(createdJob.ID).WithCreatedAt(createdJob.CreatedAt).WithUpdatedAt(createdJob.UpdatedAt),
-		Model:  createdJob.ModelTraining.Model,
-		Epochs: training.Epochs,
-		Status: model.ModelTrainingStatusSubmitted,
+		Meta:      common.NewMeta(createdJob.ID).WithCreatedAt(createdJob.CreatedAt).WithUpdatedAt(createdJob.UpdatedAt),
+		Model:     createdJob.ModelTraining.Model,
+		Epochs:    training.Epochs,
+		Status:    model.ModelTrainingStatusSubmitted,
+		ManualRun: training.ManualRun,
 		StatusDetails: map[string]string{
 			"job_id": createdJob.ID,
 		},

@@ -3,28 +3,31 @@ package service
 import (
 	"errors"
 	"fmt"
+	"log"
 	"os"
 	"path"
 	"path/filepath"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/gpufarm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/gpufarm"
 )
 
 type ModelTrainingRemote struct {
-	models                *Model
-	fileSysMgt            *filesys.Manager
-	datasets              *Dataset
-	annotations           *Annotation
-	submitter             gpufarm.Submitter
-	modelTrainUploadURL   string
-	modelTrainUploadToken string
-	rootDir               string
+	models      *Model
+	fileSysMgt  *filesys.Manager
+	datasets    *Dataset
+	annotations *Annotation
+	submitter   gpufarm.Submitter
+	apiURL      string
+	apiToken    string
+	rootDir     string
+	bundles     *GPUFarmManualBundles
 }
 
 type trainingRemoteAsset struct {
@@ -34,12 +37,13 @@ type trainingRemoteAsset struct {
 
 type trainingRemoteRequest struct {
 	Training      *model.ModelTraining
+	AsyncJobID    string
 	TmpDir        string
 	JobName       string
 	BaseModelPath string
 	Assets        []trainingRemoteAsset
 	StatusDetails map[string]string
-	Manifest      func(remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string, remoteAssetPaths []string) string
+	Manifest      func(runID string, baseModelRelPath string, assetRelPaths []string) string
 	AssetProgress func(done int, total int) string
 }
 
@@ -48,22 +52,24 @@ func NewModelTrainingRemote(models *Model,
 	datasets *Dataset,
 	annotations *Annotation,
 	rootDir string,
-	modelTrainUploadURL string,
-	modelTrainUploadToken string,
-	submitter gpufarm.Submitter) *ModelTrainingRemote {
+	apiURL string,
+	apiToken string,
+	submitter gpufarm.Submitter,
+	bundles *GPUFarmManualBundles) *ModelTrainingRemote {
 	return &ModelTrainingRemote{
-		models:                models,
-		fileSysMgt:            fileSysMgt,
-		datasets:              datasets,
-		annotations:           annotations,
-		rootDir:               rootDir,
-		modelTrainUploadURL:   modelTrainUploadURL,
-		modelTrainUploadToken: modelTrainUploadToken,
-		submitter:             submitter,
+		models:      models,
+		fileSysMgt:  fileSysMgt,
+		datasets:    datasets,
+		annotations: annotations,
+		rootDir:     rootDir,
+		apiURL:      strings.TrimRight(apiURL, "/"),
+		apiToken:    apiToken,
+		submitter:   submitter,
+		bundles:     bundles,
 	}
 }
 
-func (r *ModelTrainingRemote) Submit(training *model.ModelTraining, progress func(string)) (*model.ModelTraining, error) {
+func (r *ModelTrainingRemote) Submit(training *model.ModelTraining, jobID string, progress func(string)) (*model.ModelTraining, error) {
 	if training == nil {
 		return nil, fmt.Errorf("missing model training request")
 	}
@@ -79,9 +85,9 @@ func (r *ModelTrainingRemote) Submit(training *model.ModelTraining, progress fun
 
 	switch training.Model.Type {
 	case common.OCRModelTypeOCR:
-		return r.submitOCR(training, progress)
+		return r.submitOCR(training, jobID, progress)
 	case common.OCRModelTypeSegment:
-		return r.submitYOLO(training, progress)
+		return r.submitYOLO(training, jobID, progress)
 	default:
 		return nil, fmt.Errorf("unsupported model training type: %s", training.Model.Type)
 	}
@@ -115,48 +121,39 @@ func (r *ModelTrainingRemote) submit(req trainingRemoteRequest, progress func(st
 	if req.Manifest == nil {
 		return nil, errors.New("missing training manifest builder")
 	}
+	if req.Training.ManualRun {
+		return r.submitManual(req, progress)
+	}
 
 	progress("preparing remote training Python environment")
 	remoteEnv, err := r.submitter.PreparePythonEnv(gpufarm.NewPythonEnvRequest(filepath.Join(r.rootDir, "jobs", req.JobName)))
 	if err != nil {
 		return nil, err
 	}
-
-	remoteBaseModelPath := ""
-	if req.BaseModelPath != "" {
-		remoteBaseModelPath = path.Join(remoteEnv.RemoteDir, "assets", "models", filepath.Base(req.BaseModelPath))
-		progress("syncing base model to remote")
-		exists, err := r.submitter.FileExists(remoteBaseModelPath)
-		if err != nil {
-			return nil, err
-		}
-		if !exists {
-			if err := r.submitter.CopyTo(req.BaseModelPath, remoteBaseModelPath); err != nil {
-				return nil, err
+	submitted := false
+	defer func() {
+		if !submitted {
+			if err := r.submitter.Discard(remoteEnv); err != nil {
+				log.Printf("GPU farm abandoned training upload cleanup failed: training=%s run_dir=%s error=%v", req.Training.ID, remoteEnv.RemoteRunDir, err)
 			}
 		}
-	}
+	}()
 
-	remoteAssetPaths := make([]string, 0, len(req.Assets))
-	for i, asset := range req.Assets {
-		if req.AssetProgress != nil {
-			progress(req.AssetProgress(i, len(req.Assets)))
-		}
-		remoteAssetPath := path.Join(remoteEnv.RemoteDir, "assets", asset.AssetDir, filepath.Base(asset.LocalPath))
-		if err := r.submitter.CopyTo(asset.LocalPath, remoteAssetPath); err != nil {
-			return nil, err
-		}
-		remoteAssetPaths = append(remoteAssetPaths, remoteAssetPath)
-		if req.AssetProgress != nil {
-			progress(req.AssetProgress(len(remoteAssetPaths), len(req.Assets)))
-		}
+	copyTo := func(localPath string, relPath string) error {
+		return r.submitter.CopyTo(localPath, path.Join(remoteEnv.RemoteDir, relPath))
+	}
+	baseModelRelPath, assetRelPaths, err := r.stageTrainingAssets(req, progress, copyTo, func(relPath string) (bool, error) {
+		return r.submitter.FileExists(path.Join(remoteEnv.RemoteDir, relPath))
+	})
+	if err != nil {
+		return nil, err
 	}
 
 	manifestPath := filepath.Join(req.TmpDir, "manifest.env")
-	if err := os.WriteFile(manifestPath, []byte(req.Manifest(remoteEnv, remoteBaseModelPath, remoteAssetPaths)), 0o600); err != nil {
+	if err := os.WriteFile(manifestPath, []byte(req.Manifest(remoteEnv.RunID, baseModelRelPath, assetRelPaths)), 0o600); err != nil {
 		return nil, fmt.Errorf("write training manifest: %w", err)
 	}
-	if err := r.submitter.CopyTo(manifestPath, path.Join(remoteEnv.RemoteRunDir, "manifest.env")); err != nil {
+	if err := copyTo(manifestPath, path.Join(remoteEnv.RunID, "manifest.env")); err != nil {
 		return nil, err
 	}
 
@@ -165,6 +162,7 @@ func (r *ModelTrainingRemote) submit(req trainingRemoteRequest, progress func(st
 	if err != nil {
 		return nil, err
 	}
+	submitted = true
 
 	statusDetails := r.trainingStatusDetails(submission, remoteEnv, req.StatusDetails)
 	return &model.ModelTraining{
@@ -178,13 +176,93 @@ func (r *ModelTrainingRemote) submit(req trainingRemoteRequest, progress func(st
 	}, nil
 }
 
+func (r *ModelTrainingRemote) submitManual(req trainingRemoteRequest, progress func(string)) (*model.ModelTraining, error) {
+	runID := gpufarm.NewRunID()
+	stageDir := filepath.Join(req.TmpDir, "manual_bundle")
+	copyTo := func(localPath string, relPath string) error {
+		return futils.CopyFile(localPath, filepath.Join(stageDir, filepath.FromSlash(relPath)))
+	}
+	baseModelRelPath, assetRelPaths, err := r.stageTrainingAssets(req, progress, copyTo, func(string) (bool, error) {
+		return false, nil
+	})
+	if err != nil {
+		return nil, err
+	}
+
+	manifestPath := filepath.Join(stageDir, runID, "manifest.env")
+	if err := os.MkdirAll(filepath.Dir(manifestPath), 0o755); err != nil {
+		return nil, fmt.Errorf("create manual training run directory: %w", err)
+	}
+	if err := os.WriteFile(manifestPath, []byte(req.Manifest(runID, baseModelRelPath, assetRelPaths)), 0o600); err != nil {
+		return nil, fmt.Errorf("write training manifest: %w", err)
+	}
+
+	progress("publishing manual GPU farm bundle")
+	message, err := r.bundles.Publish(filepath.Join(r.rootDir, "jobs", req.JobName), req.AsyncJobID, runID, stageDir)
+	if err != nil {
+		return nil, err
+	}
+	log.Printf("GPU farm training awaiting manual run: training=%s run_id=%s: %s", req.Training.ID, runID, message)
+
+	statusDetails := map[string]string{
+		"manual_run": message,
+		"run_id":     runID,
+	}
+	if r.modelUploadURL() != "" {
+		statusDetails["model_upload_url"] = r.modelUploadURL()
+	}
+	for k, v := range req.StatusDetails {
+		statusDetails[k] = v
+	}
+	return &model.ModelTraining{
+		Status:        model.ModelTrainingStatusSubmitted,
+		StatusDetails: statusDetails,
+		Backend:       gpuFarmManualBackend,
+		Model:         req.Training.Model,
+		Epochs:        req.Training.Epochs,
+	}, nil
+}
+
+func (r *ModelTrainingRemote) stageTrainingAssets(req trainingRemoteRequest, progress func(string), copyTo func(localPath string, relPath string) error, exists func(relPath string) (bool, error)) (string, []string, error) {
+	baseModelRelPath := ""
+	if req.BaseModelPath != "" {
+		baseModelRelPath = path.Join("assets", "models", filepath.Base(req.BaseModelPath))
+		progress("syncing base model to remote")
+		found, err := exists(baseModelRelPath)
+		if err != nil {
+			return "", nil, err
+		}
+		if !found {
+			if err := copyTo(req.BaseModelPath, baseModelRelPath); err != nil {
+				return "", nil, err
+			}
+		}
+	}
+
+	assetRelPaths := make([]string, 0, len(req.Assets))
+	for i, asset := range req.Assets {
+		if req.AssetProgress != nil {
+			progress(req.AssetProgress(i, len(req.Assets)))
+		}
+		assetRelPath := path.Join("assets", asset.AssetDir, filepath.Base(asset.LocalPath))
+		if err := copyTo(asset.LocalPath, assetRelPath); err != nil {
+			return "", nil, err
+		}
+		assetRelPaths = append(assetRelPaths, assetRelPath)
+		if req.AssetProgress != nil {
+			progress(req.AssetProgress(len(assetRelPaths), len(req.Assets)))
+		}
+	}
+	return baseModelRelPath, assetRelPaths, nil
+}
+
 func (r *ModelTrainingRemote) trainingStatusDetails(submission *gpufarm.JobSubmission, remoteEnv *gpufarm.RemoteEnv, extra map[string]string) map[string]string {
 	statusDetails := map[string]string{
 		"submit_output":   submission.SubmitOutput,
 		"monitor_command": fmt.Sprintf("ssh %s %s", submission.Host, envexec.ShellQuote("tail -f "+path.Join(remoteEnv.LogsDir, "*.*"))),
 	}
-	if r.modelTrainUploadURL != "" {
-		statusDetails["model_upload_url"] = r.modelTrainUploadURL
+	if r.modelUploadURL() != "" {
+		statusDetails["model_upload_url"] = r.modelUploadURL()
 	}
 	if submission.SchedulerJobID != "" {
 		statusDetails["scheduler_job_id"] = submission.SchedulerJobID
@@ -198,17 +276,17 @@ func (r *ModelTrainingRemote) trainingStatusDetails(submission *gpufarm.JobSubmi
 	return statusDetails
 }
 
-func (r *ModelTrainingRemote) writeCommonManifest(b *strings.Builder, training *model.ModelTraining, remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string) {
+func (r *ModelTrainingRemote) writeCommonManifest(b *strings.Builder, training *model.ModelTraining, runID string, baseModelRelPath string) {
 	mo := training.Model
-	fmt.Fprintf(b, "export PROJECT_ROOT=%s\n", envexec.ShellQuote(remoteEnv.RemoteDir))
-	fmt.Fprintf(b, "export RUN_ID=%s\n", envexec.ShellQuote(remoteEnv.RunID))
-	fmt.Fprintf(b, "export RUN_DIR=%s\n", envexec.ShellQuote(remoteEnv.RemoteRunDir))
-	fmt.Fprintf(b, "export BASE_MODEL_PATH=%s\n", envexec.ShellQuote(remoteBaseModelPath))
-	fmt.Fprintf(b, "export WORK_DIR=%s\n", envexec.ShellQuote(path.Join(remoteEnv.RemoteRunDir, "workspace")))
-	fmt.Fprintf(b, "export OUTPUT_DIR=%s\n", envexec.ShellQuote(path.Join(remoteEnv.RemoteRunDir, "trained_models")))
-	fmt.Fprintf(b, "export LOGS_DIR=%s\n", envexec.ShellQuote(remoteEnv.LogsDir))
-	fmt.Fprintf(b, "export MODEL_UPLOAD_URL=%s\n", envexec.ShellQuote(r.modelTrainUploadURL))
-	fmt.Fprintf(b, "export MODEL_UPLOAD_TOKEN=%s\n", envexec.ShellQuote(r.modelTrainUploadToken))
+	fmt.Fprintf(b, "export RUN_DIR=\"$(pwd)\"\n")
+	fmt.Fprintf(b, "export PROJECT_ROOT=\"$(dirname \"$RUN_DIR\")\"\n")
+	fmt.Fprintf(b, "export RUN_ID=%s\n", envexec.ShellQuote(runID))
+	fmt.Fprintf(b, "export BASE_MODEL_PATH=%s\n", manifestPathUnder("PROJECT_ROOT", baseModelRelPath))
+	fmt.Fprintf(b, "export WORK_DIR=\"$RUN_DIR/workspace\"\n")
+	fmt.Fprintf(b, "export OUTPUT_DIR=\"$RUN_DIR/trained_models\"\n")
+	fmt.Fprintf(b, "export LOGS_DIR=\"$RUN_DIR/logs\"\n")
+	fmt.Fprintf(b, "export MODEL_UPLOAD_URL=%s\n", envexec.ShellQuote(r.modelUploadURL()))
+	fmt.Fprintf(b, "export MODEL_UPLOAD_TOKEN=%s\n", envexec.ShellQuote(r.apiToken))
 	fmt.Fprintf(b, "export MODEL_NAME=%s\n", envexec.ShellQuote(mo.Name))
 	fmt.Fprintf(b, "export MODEL_DESCRIPTION=%s\n", envexec.ShellQuote(mo.Description))
 	fmt.Fprintf(b, "export MODEL_BASE_MODEL_ID=%s\n", envexec.ShellQuote(mo.BaseModelID))
@@ -218,6 +296,13 @@ func (r *ModelTrainingRemote) writeCommonManifest(b *strings.Builder, training *
 	} else {
 		fmt.Fprintf(b, "export TRAIN_EPOCHS=%s\n", envexec.ShellQuote(""))
 	}
+}
+
+func (r *ModelTrainingRemote) modelUploadURL() string {
+	if r.apiURL == "" {
+		return ""
+	}
+	return r.apiURL + "/models_upload"
 }
 
 func baseAnnotationRefs(refs []*annotation.Reference) string {

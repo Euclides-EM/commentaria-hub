@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 )
 
 func ExtractTranslationLines(tei *model.TEI) []string {
@@ -103,7 +103,7 @@ func extractTextFromNodes(nodes []model.ABNode) string {
 	var text string
 	for _, node := range nodes {
 		if node.Inline != nil {
-			text += node.Inline.Text
+			text += node.Inline.Text + extractTextFromNodes(node.Inline.Nodes)
 		} else {
 			text += node.CharData
 		}

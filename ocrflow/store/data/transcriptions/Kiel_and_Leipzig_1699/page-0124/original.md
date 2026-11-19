@@ -1,0 +1,45 @@
+<!-- Running title: Euclidis. -->
+
+<!-- Page number: 107 -->
+
+2bc + 2cc | 2ac — n. 6. Gr. i. I.
+aa + cc + 2bc + 2cc | 2ac + bb + 2bc + 2cc — n. 2. Grs. I.
+2bc + 2cc | 2bc + 2cc
+Dw. aa + cc | 2ac + bb — n. 3. Gr. I.
+W. Z. B.
+
+[Curated heading level=2 type=propositions: Der IIX. Vortrag.]
+
+[Curated heading level=2 type=theorems: Das 8. Beweiß-Stück.]
+
+## Der IIX. Vortrag.
+
+## Das 8. Beweiß-Stück.
+
+Weñ ein gerader Strich auff waserley Weise in zwey Stücke geschnitten ist/ so wird das rechtwincklichte Viereck/ so von dem gantzen Strich und dem einen Stück begriffen wird/ viermahl genommen/ samt dem gleichseitigen Viereck des andern Stückes/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem gantzen/ und ersten Stück zusammen gesetzten Strich gemacht wird.
+
+### Gegebene.
+
+1. Gerader Strich ab
+2. Geschnitten in c
+3. Angesetztes Stück. bd | bc
+4. ab + bd | ad
+
+### Begehrte.
+
+□ ad | 4 □ abc + □ ca
+
+### Vorbereitung.
+
+1. Der Strich ab werde verlänget biß d. daß bd | bc
+
+2. Auff einen Strich/ so dem Strich ad gleich/ werde ein gleichseitiges □ gesetzet. n. 46. I.
+
+3. Dieser Strich werde eben so getheilet/ wie der Strich ad. n. 3. I.
+
+4. Auff ac werde ein gleichseitig □ gesetzet. n. 46. I.
+
+5. Werden vier □ a b c gemacht.
+
+<!-- Signature: O 2 -->
+<!-- Catchword: Beweiß -->

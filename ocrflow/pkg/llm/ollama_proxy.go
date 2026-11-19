@@ -45,7 +45,7 @@ func ExecOllamaProxy(baseURL string, payload *OllamaGenerateRequest) (*OllamaGen
 		return nil, fmt.Errorf("llm exec: read ollama response: %w", err)
 	}
 	if resp.StatusCode < http.StatusOK || resp.StatusCode >= http.StatusMultipleChoices {
-		return nil, fmt.Errorf("llm exec: ollama generate api returned %d after %s: %s", resp.StatusCode, time.Since(startedAt), truncateForError(respBody))
+		return nil, fmt.Errorf("llm exec: ollama generate api returned %d after %s: %s", resp.StatusCode, time.Since(startedAt), errorBody(respBody))
 	}
 
 	var out OllamaGenerateResponse

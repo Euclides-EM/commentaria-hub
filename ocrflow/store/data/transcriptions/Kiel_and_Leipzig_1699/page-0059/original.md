@@ -1,0 +1,43 @@
+<!-- Page number: 42 -->
+
+<!-- Running title: Das I. Buch -->
+
+sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als die dritte.
+
+### Gegebenes.
+
+△ ABC.
+
+### Begehrte.
+
+1. AB + BC ⊣ CA
+2. CA + AB ⊣ BC
+3. BC + CA ⊣ BA.
+
+### Vorbereitung.
+
+1. Werde die Seite CA nach nohturfft verlängert. n. 2. Fod.
+
+2. werde AD | AB n. 3. Vortr.
+
+3. Ziehe man den geraden Strich BD.
+
+[Diagram: Dreieck ABC mit C unten links, B unten rechts, A oben; die Seite CA über A hinaus punktiert verlängert bis D, punktierte Linie von D nach B.]
+
+### Beweiß.
+
+AD | AB n. 2. Vorbereitung.
+Drw. ADB ⋀ ABD n. 5. Vortr.
+CBD ⲗ ABD n. 9. Gr-S.
+CBD ⲗ CDB n. 1. Gr-S. a.
+CD ⊣ CB n. 19. Vortr.
+CA | CA
+CA + AD | CA + AB n. 2. Gr-S.
+aber CA + AD | CD n. 9. Gr-S. q.
+Drw. CA + AB ⊣ CB n. 1. Gr-S. c.
+
+Gleicher Weise kan auch erwiesen werden
+daß AB + BC ⊣ CA
+und BC + CA ⊣ BA
+
+<!-- Catchword: Beschluß. -->

@@ -1,0 +1,48 @@
+<!-- Page number: 75 -->
+
+<!-- Running title: Euclidis. -->
+
+### Beschluß.
+
+Wird dannenhero allezeit das □ , so mit einem △ auff einem Grundstrich / und zwischen einerley Nebenstrichen stehet/ doppelt so groß/als das △ seyn. W. Z. B.
+
+[Curated heading level=2 type=propositions: Der XLII. Vortrag.]
+
+[Curated heading level=2 type=problems: Das 11. Werck-Stück.]
+
+## Der XLII. Vortrag.
+
+## Das 11. Werck-Stück.
+
+Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck zu machen.
+
+### Gegebene.
+
+1. △ ABC
+2. ∧ D
+
+### Begerthe{printer-error-correction:Begehrte}.
+
+1. □ CEFG
+2. □ CEFG | △ ABC
+3. ECG ⋀ D
+
+[Diagram: Dreyeck und Viereck auff dem Grundstrich mit den Puncten G, F, A oben und C, E, B unten, daneben der Winckel D]
+
+### Wirckung.
+
+1. Durch denn Gipffel des △ werde dem Grundstrich gegen über/ der Nebenstrich GA gezogen / nach 31. Vortr.
+
+2. Der Grundstrich BC werde in zwey gleiche Theile geschnitten in E, nach 10. Vortr.
+
+3. Auff des Grundstrichs Enddüttel E setze man den Winckel ECG ⋀ D, nach 23. Vortr.
+
+4. Aus E ziehe man EF ⟛ CG nach 31. Vortr.
+
+### Vorbereitung.
+
+Aus E werde ein gerader Strich EA nach dem Gipffel A gezogen.
+
+<!-- Signature: K 2 -->
+
+<!-- Catchword: Beweiß -->

@@ -1,0 +1,13 @@
+<!-- Running title: ELEMENT. -->
+
+<!-- Page number: 209 -->
+
+mp partie, ou parties du ſecod que le;. du 4. Ou bien que le premier ne contienne autant de fois le ſecond que le troiſieſine contient le 4. &o en outre vne meſme partie, ou meſmes parties d’iceluy; les nombres propoſez ne pourront eſtre appellez proportionnaux. Parquoy ſi 4. nombres ſont poſez proportionnaax, il eſt neceſſaire d’accordr que le premier eſt autant multiple, &c.
+
+Or Euclide definit ſeulement les nombres proportionnaux, qui ont vne meſme raſon d’inegalité: Car de la raiſon d’egalité, il eſt eui lent que le premier eſtant egal au ſecond, auſſi le; doit eſtre egl au 4. fin que les nombres ſoient dicts proportionnaux.
+
+Or de ceſte def. reſulte apertemet, que les nombres egaux ont meſme raiſon à vn meſme, & au contraire qu’vn nõbre a auſſi meſme raisõ à deux egaux:item que les nõbres ayãt meſme raiſon à vn meſme, ou auſquels vn meſme nombre à meſme raiſon, ſont eg uux. Car puis que les nombres egaux ſont, ou equemultiplice, ou meſine partie, ou meſmes parties d’vn meſme nombre; ou contiennent egalement vn meſme nombre, & en outre vne meſine partie, ou parties d’iceluy. Item qu’vn meſme nombre eſt ou equemultiplicés, ou meſme partie, ou meſmes parties de nombres egaux; ou bien qu’il les contient egalement, & en outre vne meſme partie, ou parties d’iceux :il eſt euillet par ceſte def que les nombres egaux ont meſme raiſon à vn meſme nombre, ou vn meſme a des egaux. Ce qui a eſté demonſtré és grãdeurs à la 7. p.5.
+
+Derechef pource que les nombres ayans meſme raiſon à vn meſine nombre, ſont ou equ.mu ltiplices d’iceluy, au meſme par tie, ou parties: ou bien ils le contiennent egalement, &en outre vne meſme partie, ou meſmes parties d’iceluy:Item puis que vn meſme nombre ayant meſme raiſon a quel ju’vns, eſt ou equcmultiplice d’iceux, ou la meſme partie, ou p:rties; ou bien il les contient egalement, & en outre vne meſme pirtie, ou meſmes parties d’iceux; ſelon ceſte def.il eſt manifeſte que les nombres qui ont meſme raiſon à vn meſme nombre, ou auſquels vn meſve nombre à meſme raiſon, ſont egaux entr’eux. Ce aui a auſſi eſté demonſtré en toutes ſortes de grandeurs en la 9.p.5.
+
+Par meſme raiſon on collige, que de deux nombres inegaux, le plus grand a plus grande raiſon à vn meſme nombre, que le plus petit: & du contraire qu’vn meſmen mbre à pluis grande raiſon à vn petit nombre, qu’à vn plus grand. Item que des nombres inegaux, celuy qui a plus gra de raiſon à vn meſme, eſt le plus grand: & celuy auque vn meſme nombre a plus grande raiſon, eſt le plus petit. Toutes leſquelles choſes ſont claires, & euidentes, ſi ceſte def. eſt bien entenduë. Cecy aauſſi eſté demonſtré és grandeurs au 5. liure prop 8. &10.

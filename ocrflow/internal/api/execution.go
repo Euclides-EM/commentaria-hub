@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	mfeatureplat "github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	mfeatureplat "github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
 	"github.com/samber/lo"
 )
 

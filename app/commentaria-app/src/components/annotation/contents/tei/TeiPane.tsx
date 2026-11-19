@@ -1,13 +1,15 @@
 import {
   getTeiAllZoneCategories,
   getTeiHighlightCategories,
+  getTeiOriginalEditableLines,
   getTeiSurfaceZones,
-  getTeiTranslations,
+  getTeiAlternatives,
+  getTeiZoneToServerTextBlockId,
   hasTeiCertaintyDegrees,
   type TeiHighlightConfig,
   type TeiManualHighlight,
   type TeiSurfaceZone,
-  type TeiTranslation,
+  type TeiAlternative,
   type TeiViewMode,
 } from './tei.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
@@ -20,18 +22,26 @@ import {
 } from '../../../../queries/annotations.ts'
 import { useDatasetFeaturesQuery } from '../../../../queries/datasets.ts'
 import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import Select from 'react-select'
 import { selectStyles } from '../../../../styles/selectStyles.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
-import { type feature_Result, FeatureResultsService } from '@hub-api'
+import {
+  type annotationrule_TextBlockCorrections,
+  AnnotationsApplyRulesService,
+  type feature_Result,
+  FeatureResultsService,
+} from '@hub-api'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useAuthStore } from '../../../../store/authStore.ts'
 import { TITLE_PAGES_DATASET_ID } from '../../../../utils/editions.ts'
 import { FeatureHighlightModal } from './FeatureHighlightModal.tsx'
+import { OriginalViewEditor } from './OriginalViewEditor.tsx'
 import { TeiContentView } from './TeiContentView.tsx'
 import { TeiDisplayControls } from './TeiDisplayControls.tsx'
 import type {
   DraftHighlight,
+  EditableOriginalLine,
   FeatureModalState,
   FeatureOption,
   ResolvedTeiFeature,
@@ -48,7 +58,6 @@ import {
   matchTeiCategoryToFeature,
   normalizeTeiViewModes,
   removeHighlightFromDrafts,
-  sameStringArray,
   toDraftHighlightsFromResults,
   toFeatureOptions,
   toResultValues,
@@ -59,6 +68,7 @@ type TeiPaneProps = {
   onHoverLineMatchIds: (ids: string[]) => void
   onSurfaceZonesChange: (zones: TeiSurfaceZone[]) => void
   onAllZoneCategoriesChange: (categories: string[]) => void
+  titleInset?: boolean
 }
 
 export function TeiPane({
@@ -66,6 +76,7 @@ export function TeiPane({
   onHoverLineMatchIds,
   onSurfaceZonesChange,
   onAllZoneCategoriesChange,
+  titleInset = false,
 }: TeiPaneProps) {
   const {
     annotation,
@@ -75,22 +86,30 @@ export function TeiPane({
   const queryClient = useQueryClient()
   const isAuthenticated = !!useAuthStore((store) => store.token)
 
-  const [minCert, setMinCert] = useLocalStorageState('minCert', {
-    defaultValue: 0.8,
-    storageSync: false,
-  })
+  const [minCert, setMinCert] = useLocalStorageState(
+    useScopedStorageKey('minCert'),
+    {
+      defaultValue: 0.8,
+      storageSync: false,
+    },
+  )
   const [showTeiLineHighlights, setShowTeiLineHighlights] =
-    useLocalStorageState('showTeiLineHighlights', { defaultValue: true })
-  const [alignLines, setAlignLines] = useLocalStorageState('alignTeiLines', {
-    defaultValue: false,
-    storageSync: false,
-  })
+    useLocalStorageState(useScopedStorageKey('showTeiLineHighlights'), {
+      defaultValue: true,
+    })
+  const [alignLines, setAlignLines] = useLocalStorageState(
+    useScopedStorageKey('alignTeiLines'),
+    {
+      defaultValue: false,
+      storageSync: false,
+    },
+  )
   const [showCertaintyVisualization, setShowCertaintyVisualization] =
-    useLocalStorageState('showTeiCertaintyVisualization', {
+    useLocalStorageState(useScopedStorageKey('showTeiCertaintyVisualization'), {
       defaultValue: false,
     })
   const [isFeatureSelectExpanded, setIsFeatureSelectExpanded] =
-    useLocalStorageState('teiFeatureSelectExpanded', {
+    useLocalStorageState(useScopedStorageKey('teiFeatureSelectExpanded'), {
       defaultValue: false,
       storageSync: false,
     })
@@ -98,6 +117,12 @@ export function TeiPane({
     useState<FeatureModalState | null>(null)
   const [modalFeatureId, setModalFeatureId] = useState<string>('')
   const [saveError, setSaveError] = useState<string | null>(null)
+  const [isTextEditMode, setIsTextEditMode] = useState(false)
+  const [textEditError, setTextEditError] = useState<string | null>(null)
+  const [textEditSavePending, setTextEditSavePending] = useState(false)
+  const [editableOriginalLines, setEditableOriginalLines] = useState<
+    EditableOriginalLine[]
+  >([])
   const [baselineHighlights, setBaselineHighlights] = useState<
     DraftHighlight[]
   >([])
@@ -125,7 +150,10 @@ export function TeiPane({
 
   const [storedTeiSource, setStoredTeiSource] = useLocalStorageState<
     'annotation' | 'edition'
-  >('teiSource', { defaultValue: 'annotation', storageSync: false })
+  >(useScopedStorageKey('teiSource'), {
+    defaultValue: 'annotation',
+    storageSync: false,
+  })
   const preferredTeiSource = candidateSources.includes(storedTeiSource)
     ? storedTeiSource
     : candidateSources[0]
@@ -177,21 +205,6 @@ export function TeiPane({
     ? storedTeiSource
     : availableSources[0] || preferredTeiSource
 
-  useEffect(() => {
-    if (
-      availableSources.length > 0 &&
-      effectiveTeiSource &&
-      effectiveTeiSource !== storedTeiSource
-    ) {
-      setStoredTeiSource(effectiveTeiSource)
-    }
-  }, [
-    availableSources,
-    effectiveTeiSource,
-    setStoredTeiSource,
-    storedTeiSource,
-  ])
-
   const data =
     effectiveTeiSource === 'edition'
       ? editionTeiQuery.data
@@ -200,15 +213,30 @@ export function TeiPane({
         : undefined
 
   const teiContents = data ?? null
+  const baseEditableOriginalLines = useMemo(
+    () =>
+      teiContents
+        ? getTeiOriginalEditableLines(teiContents).map((line, index) => ({
+            ...line,
+            id: `${line.id}:${String(index)}`,
+            originalText: line.text,
+          }))
+        : [],
+    [teiContents],
+  )
+  const zoneToServerTextBlockId = useMemo(
+    () => (teiContents ? getTeiZoneToServerTextBlockId(teiContents) : {}),
+    [teiContents],
+  )
   const surfaceZoneTeiContents =
     teiContents ?? annotationTeiQuery.data ?? editionTeiQuery.data ?? null
   const [teiViewModes, setTeiViewModes] = useLocalStorageState<TeiViewMode[]>(
-    'teiViewModes',
+    useScopedStorageKey('teiViewModes'),
     { defaultValue: [] },
   )
 
-  const teiTranslations = useMemo<TeiTranslation[]>(
-    () => (teiContents ? getTeiTranslations(teiContents) : []),
+  const teiAlternatives = useMemo<TeiAlternative[]>(
+    () => (teiContents ? getTeiAlternatives(teiContents) : []),
     [teiContents],
   )
   const showMinCertControl = useMemo(
@@ -217,23 +245,9 @@ export function TeiPane({
   )
 
   const availableViewModes = useMemo<TeiViewMode[]>(
-    () => ['original', ...teiTranslations.map((translation) => translation.id)],
-    [teiTranslations],
+    () => ['original', ...teiAlternatives.map((alternative) => alternative.id)],
+    [teiAlternatives],
   )
-
-  useEffect(() => {
-    if (teiContents == null) {
-      return
-    }
-    const next = normalizeTeiViewModes(teiViewModes, availableViewModes)
-    if (
-      next.length === teiViewModes.length &&
-      next.every((mode, index) => mode === teiViewModes[index])
-    ) {
-      return
-    }
-    setTeiViewModes(next)
-  }, [availableViewModes, setTeiViewModes, teiContents, teiViewModes])
 
   const orderedSelectedViewModes = useMemo(() => {
     const selected = new Set(
@@ -269,6 +283,16 @@ export function TeiPane({
     },
     [onAllZoneCategoriesChange],
   )
+
+  useEffect(() => {
+    setEditableOriginalLines(baseEditableOriginalLines)
+  }, [baseEditableOriginalLines])
+
+  useEffect(() => {
+    setIsTextEditMode(false)
+    setTextEditError(null)
+    setTextEditSavePending(false)
+  }, [annotationId, currentPageOrKey, datasetId, effectiveTeiSource])
 
   const teiCategories = useMemo(
     () => (teiContents ? getTeiHighlightCategories(teiContents) : []),
@@ -394,9 +418,12 @@ export function TeiPane({
     ? `teiVisibleHighlightFeatures:${datasetId}`
     : 'teiVisibleHighlightFeatures'
   const [storedVisibleFeatureIds, setStoredVisibleFeatureIds] =
-    useLocalStorageState<string[] | null>(highlightStorageKey, {
-      defaultValue: null,
-    })
+    useLocalStorageState<string[] | null>(
+      useScopedStorageKey(highlightStorageKey),
+      {
+        defaultValue: null,
+      },
+    )
 
   const visibleFeatureIds = useMemo(() => {
     const availableIds = allResolvedFeatures.map((feature) => feature.id)
@@ -426,24 +453,6 @@ export function TeiPane({
 
     return filtered
   }, [allResolvedFeatures, storedVisibleFeatureIds])
-
-  useEffect(() => {
-    if (!allResolvedFeatures.length) {
-      if (storedVisibleFeatureIds !== null) {
-        setStoredVisibleFeatureIds(null)
-      }
-      return
-    }
-
-    if (!sameStringArray(storedVisibleFeatureIds, visibleFeatureIds)) {
-      setStoredVisibleFeatureIds(visibleFeatureIds)
-    }
-  }, [
-    allResolvedFeatures,
-    setStoredVisibleFeatureIds,
-    storedVisibleFeatureIds,
-    visibleFeatureIds,
-  ])
 
   const highlightConfig = useMemo<TeiHighlightConfig | undefined>(() => {
     if (!allResolvedFeatures.length) {
@@ -521,6 +530,9 @@ export function TeiPane({
   ])
 
   const removeHighlightFromTooltip = (item: TeiTooltipItem) => {
+    if (isTextEditMode) {
+      return
+    }
     setRemovedTeiHighlightIds((previous) =>
       previous.includes(item.id) ? previous : [...previous, item.id],
     )
@@ -568,8 +580,22 @@ export function TeiPane({
 
   const unsavedFeatureCount = changedFeatureIds.length
   const hasUnsavedChanges = unsavedFeatureCount > 0
+  const unsavedTextLineCount = useMemo(
+    () =>
+      editableOriginalLines.filter((line) => line.text !== line.originalText)
+        .length,
+    [editableOriginalLines],
+  )
+  const hasUnsavedTextChanges = unsavedTextLineCount > 0
+  const canStartTextEdit =
+    isAuthenticated &&
+    !!teiContents &&
+    baseEditableOriginalLines.length > 0 &&
+    !hasUnsavedChanges &&
+    !isTextEditMode
 
-  const showPane = annotation?.ocred || datasetId === TITLE_PAGES_DATASET_ID
+  const showPane =
+    annotation?.ocred || datasetId === TITLE_PAGES_DATASET_ID || !!editionId
   const annotationSourceFailed =
     segmented && annotationTeiQuery.isError && !annotationTeiQuery.data
   const editionSourceFailed =
@@ -590,9 +616,112 @@ export function TeiPane({
         pushToOrigin: true,
       }),
   })
+  const textEditMutation = useMutation({
+    mutationFn: (payload: annotationrule_TextBlockCorrections) =>
+      AnnotationsApplyRulesService.putDatasetsAnnotationsApplyTextBlockCorrections(
+        {
+          dataSetId: datasetId,
+          id: annotationId,
+          annotationTextBlockCorrections: payload,
+        },
+      ),
+  })
+
+  const handleStartTextEdit = () => {
+    if (hasUnsavedChanges || !isAuthenticated || !teiContents) {
+      return
+    }
+    if (!orderedSelectedViewModes.includes('original')) {
+      setTeiViewModes(
+        normalizeTeiViewModes(
+          ['original', ...teiViewModes],
+          availableViewModes,
+        ),
+      )
+    }
+    setEditableOriginalLines(baseEditableOriginalLines)
+    setFeatureModalState(null)
+    setModalFeatureId('')
+    setTextEditError(null)
+    setTextEditSavePending(false)
+    setIsTextEditMode(true)
+  }
+
+  const handleCancelTextEdit = () => {
+    setEditableOriginalLines(baseEditableOriginalLines)
+    setTextEditError(null)
+    setTextEditSavePending(false)
+    setIsTextEditMode(false)
+  }
+
+  const handleSaveTextEdit = async () => {
+    if (!datasetId || !annotationId || !isAuthenticated || !teiContents) {
+      return
+    }
+
+    if (currentFeatureResults.length > 0 && !textEditSavePending) {
+      setTextEditSavePending(true)
+      return
+    }
+
+    const grouped = new Map<string, { old: string[]; correction: string[] }>()
+    for (const line of editableOriginalLines) {
+      if (line.text === line.originalText) {
+        continue
+      }
+      const current = grouped.get(line.blockId) || {
+        old: [],
+        correction: [],
+      }
+      current.old.push(line.originalText)
+      current.correction.push(line.text)
+      grouped.set(line.blockId, current)
+    }
+
+    if (!grouped.size) {
+      setIsTextEditMode(false)
+      setTextEditError(null)
+      setTextEditSavePending(false)
+      return
+    }
+
+    const parsedPage = Number.parseInt(String(currentPageOrKey), 10)
+    const payload: annotationrule_TextBlockCorrections = {
+      type: 'text_blocks_corrections',
+      corrections: [...grouped.entries()].map(([blockId, value]) => ({
+        text_block_id: zoneToServerTextBlockId[blockId] || blockId,
+        old: value.old,
+        correction: value.correction,
+        page: Number.isFinite(parsedPage) ? parsedPage : undefined,
+      })),
+    }
+
+    try {
+      setTextEditError(null)
+      await textEditMutation.mutateAsync(payload)
+      setTextEditSavePending(false)
+      await Promise.all([
+        annotationTeiQuery.refetch(),
+        queryClient.invalidateQueries({
+          queryKey: [
+            'featureResults',
+            datasetId,
+            annotationId,
+            currentPageOrKey,
+          ],
+        }),
+        editionId ? editionTeiQuery.refetch() : Promise.resolve(),
+      ])
+      setIsTextEditMode(false)
+    } catch (error) {
+      setTextEditError(
+        error instanceof Error ? error.message : 'Failed to save text edits.',
+      )
+    }
+  }
 
   const handleSave = async () => {
-    if (!datasetId || !annotationId || !isAuthenticated) {
+    if (!datasetId || !annotationId || !isAuthenticated || isTextEditMode) {
       return
     }
 
@@ -677,7 +806,7 @@ export function TeiPane({
   }
 
   const openModalForAdd = (selection: SelectionDraft) => {
-    if (allFeatureOptions.length === 0) {
+    if (isTextEditMode || allFeatureOptions.length === 0) {
       return
     }
     setFeatureModalState({ selection })
@@ -685,7 +814,7 @@ export function TeiPane({
   }
 
   const submitFeatureModal = () => {
-    if (!featureModalState || !modalFeatureId) {
+    if (!featureModalState || !modalFeatureId || isTextEditMode) {
       return
     }
 
@@ -719,7 +848,7 @@ export function TeiPane({
       return 'Original'
     }
     const rawLabel =
-      teiTranslations.find((translation) => translation.id === mode)?.label ||
+      teiAlternatives.find((alternative) => alternative.id === mode)?.label ||
       mode
     return VIEW_LABEL_MAP[rawLabel] || rawLabel
   }
@@ -733,19 +862,76 @@ export function TeiPane({
 
   const paneTitle = hasUnsavedChanges
     ? `Contents (${unsavedFeatureCount} unsaved feature${unsavedFeatureCount === 1 ? '' : 's'})`
-    : 'Contents'
+    : isTextEditMode && hasUnsavedTextChanges
+      ? `Contents (${unsavedTextLineCount} unsaved text line${unsavedTextLineCount === 1 ? '' : 's'})`
+      : 'Contents'
   const centerTeiRows = datasetId === TITLE_PAGES_DATASET_ID
 
   return (
     <>
-      <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white">
+      <section
+        data-navigation-dismiss
+        className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white"
+      >
         <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
-          <div>{paneTitle}</div>
+          <div className={titleInset ? 'pl-6' : undefined}>{paneTitle}</div>
           <div className="flex items-center gap-2">
+            {textEditError && (
+              <span className="text-xs text-red-600">{textEditError}</span>
+            )}
             {saveError && (
               <span className="text-xs text-red-600">{saveError}</span>
             )}
-            {isAuthenticated && hasUnsavedChanges && (
+            {isAuthenticated && isTextEditMode && !textEditSavePending && (
+              <>
+                <button
+                  type="button"
+                  className="px-2 py-1 rounded border border-gray-300 text-gray-700 bg-white hover:bg-gray-50 text-xs"
+                  onClick={handleCancelTextEdit}
+                  disabled={textEditMutation.isPending}
+                >
+                  Cancel
+                </button>
+                <button
+                  type="button"
+                  className="px-2 py-1 rounded border border-teal-300 text-teal-700 bg-white hover:bg-teal-50 text-xs"
+                  onClick={() => {
+                    void handleSaveTextEdit()
+                  }}
+                  disabled={
+                    textEditMutation.isPending || !hasUnsavedTextChanges
+                  }
+                >
+                  {textEditMutation.isPending ? 'Saving…' : 'Save'}
+                </button>
+              </>
+            )}
+            {isAuthenticated && isTextEditMode && textEditSavePending && (
+              <>
+                <span className="text-xs text-amber-600">
+                  Feature results may be affected by these text edits.
+                </span>
+                <button
+                  type="button"
+                  className="px-2 py-1 rounded border border-gray-300 text-gray-700 bg-white hover:bg-gray-50 text-xs"
+                  onClick={() => setTextEditSavePending(false)}
+                  disabled={textEditMutation.isPending}
+                >
+                  Back
+                </button>
+                <button
+                  type="button"
+                  className="px-2 py-1 rounded border border-teal-300 text-teal-700 bg-white hover:bg-teal-50 text-xs"
+                  onClick={() => {
+                    void handleSaveTextEdit()
+                  }}
+                  disabled={textEditMutation.isPending}
+                >
+                  {textEditMutation.isPending ? 'Saving…' : 'Confirm Save'}
+                </button>
+              </>
+            )}
+            {isAuthenticated && hasUnsavedChanges && !isTextEditMode && (
               <button
                 type="button"
                 className="px-2 py-1 rounded border border-teal-300 text-teal-700 bg-white hover:bg-teal-50 text-xs"
@@ -755,6 +941,16 @@ export function TeiPane({
                 disabled={saveMutation.isPending}
               >
                 {saveMutation.isPending ? 'Saving…' : 'Save'}
+              </button>
+            )}
+            {!isTextEditMode && !hasUnsavedChanges && (
+              <button
+                type="button"
+                className="px-2 py-1 rounded border border-teal-300 text-teal-700 bg-white hover:bg-teal-50 text-xs disabled:opacity-50 disabled:cursor-not-allowed"
+                onClick={handleStartTextEdit}
+                disabled={!canStartTextEdit}
+              >
+                Edit
               </button>
             )}
           </div>
@@ -783,6 +979,7 @@ export function TeiPane({
                     }}
                     options={sourceOptions}
                     isClearable={false}
+                    isDisabled={isTextEditMode}
                     styles={selectStyles<SourceOption>()}
                     menuPortalTarget={document.body}
                     menuPosition="fixed"
@@ -799,6 +996,9 @@ export function TeiPane({
                   allItems={availableViewModes}
                   selectedItems={orderedSelectedViewModes}
                   setSelectedItems={(items) => {
+                    if (isTextEditMode) {
+                      return
+                    }
                     if (!items || items.length === 0) {
                       setTeiViewModes(['original'])
                       return
@@ -864,26 +1064,42 @@ export function TeiPane({
                     key={`${viewMode}:${effectiveTeiSource}:${String(currentPageOrKey)}`}
                     className="min-w-105 basis-105 flex-1"
                   >
-                    <TeiContentView
-                      key={`${viewMode}:${effectiveTeiSource}:${String(currentPageOrKey)}:${visibleFeatureIdsKey}`}
-                      data={teiContents}
-                      minCert={minCert}
-                      showCertaintyVisualization={showCertaintyVisualization}
-                      viewMode={viewMode}
-                      viewLabel={getViewModeLabel(viewMode)}
-                      showViewLabel={availableViewModes.length > 1}
-                      alignLines={alignLines}
-                      centerRows={centerTeiRows}
-                      highlightConfig={highlightConfig}
-                      editable={isAuthenticated}
-                      canAddHighlight={allFeatureOptions.length > 0}
-                      activeLineMatchIds={
-                        showTeiLineHighlights ? activeLineMatchIds : []
-                      }
-                      onHoverLineMatchIds={onHoverLineMatchIds}
-                      onRequestAddHighlight={openModalForAdd}
-                      onRequestRemoveHighlight={removeHighlightFromTooltip}
-                    />
+                    {isTextEditMode && viewMode === 'original' ? (
+                      <OriginalViewEditor
+                        lines={editableOriginalLines}
+                        showViewLabel={availableViewModes.length > 1}
+                        onChangeLine={(lineId, text) => {
+                          setEditableOriginalLines((previous) =>
+                            previous.map((line) =>
+                              line.id === lineId ? { ...line, text } : line,
+                            ),
+                          )
+                        }}
+                      />
+                    ) : (
+                      <TeiContentView
+                        key={`${viewMode}:${effectiveTeiSource}:${String(currentPageOrKey)}:${visibleFeatureIdsKey}`}
+                        data={teiContents}
+                        minCert={minCert}
+                        showCertaintyVisualization={showCertaintyVisualization}
+                        viewMode={viewMode}
+                        viewLabel={getViewModeLabel(viewMode)}
+                        showViewLabel={availableViewModes.length > 1}
+                        alignLines={isTextEditMode ? false : alignLines}
+                        centerRows={centerTeiRows}
+                        highlightConfig={
+                          isTextEditMode ? undefined : highlightConfig
+                        }
+                        editable={isAuthenticated && !isTextEditMode}
+                        canAddHighlight={allFeatureOptions.length > 0}
+                        activeLineMatchIds={
+                          showTeiLineHighlights ? activeLineMatchIds : []
+                        }
+                        onHoverLineMatchIds={onHoverLineMatchIds}
+                        onRequestAddHighlight={openModalForAdd}
+                        onRequestRemoveHighlight={removeHighlightFromTooltip}
+                      />
+                    )}
                   </div>
                 ))}
               </div>
@@ -894,7 +1110,7 @@ export function TeiPane({
 
       <FeatureHighlightModal
         state={featureModalState}
-        isOpen
+        isOpen={!isTextEditMode}
         modalFeatureId={modalFeatureId}
         allFeatureOptions={allFeatureOptions}
         onChangeFeatureId={setModalFeatureId}

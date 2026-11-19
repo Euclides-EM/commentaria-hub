@@ -9,7 +9,7 @@ export function useBackupsQuery() {
     queryKey: backupsQueryKey(),
     queryFn: async () => {
       const backups = await BackupsService.getBackups()
-      return [...backups].sort((a, b) => b.localeCompare(a))
+      return [...backups].sort((a, b) => b.id.localeCompare(a.id))
     },
   })
 }
@@ -17,7 +17,8 @@ export function useBackupsQuery() {
 export function useCreateBackupMutation() {
   const queryClient = useQueryClient()
   return useMutation({
-    mutationFn: () => BackupsService.postBackups({ async: true }),
+    mutationFn: () =>
+      BackupsService.postBackups({ async: true, syncToDrive: true }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: backupsQueryKey() })
       queryClient.invalidateQueries({

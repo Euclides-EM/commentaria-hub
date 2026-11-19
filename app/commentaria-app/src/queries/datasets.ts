@@ -16,6 +16,7 @@ export const datasetsImagesQueryKey = (
 export interface DatasetImageKey {
   key: string
   filename: string
+  modifiedAt: string
 }
 
 export function useDatasetsQuery() {
@@ -54,7 +55,8 @@ export function useDatasetImageKeysQuery(
         .map((image) => {
           const key = image.key?.trim() || ''
           const filename = image.filename?.trim() || ''
-          return { key, filename }
+          const modifiedAt = image.modified_at?.trim() || ''
+          return { key, filename, modifiedAt }
         })
         .filter(
           (image) =>
@@ -66,7 +68,9 @@ export function useDatasetImageKeysQuery(
       if (keys) {
         const existingKeys = new Set(mapped.map((image) => image.key))
         const missingKeys = keys.filter((key) => !existingKeys.has(key))
-        mapped.push(...missingKeys.map((key) => ({ key, filename: '' })))
+        mapped.push(
+          ...missingKeys.map((key) => ({ key, filename: '', modifiedAt: '' })),
+        )
       }
 
       return mapped.sort((a, b) =>

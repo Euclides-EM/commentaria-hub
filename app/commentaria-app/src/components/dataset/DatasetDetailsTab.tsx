@@ -1,7 +1,8 @@
-import type { model_Dataset } from '@hub-api'
+import { type model_Dataset } from '@hub-api'
 import { AnnotationActions } from '../annotation/AnnotationActions.tsx'
 import { Button } from '../core/Button.tsx'
 import { EditionDetailsTable } from '../core/EditionDetailsTable.tsx'
+import { ShelfmarkDetailsTable } from '../core/ShelfmarkDetailsTable.tsx'
 import { ErrorMessage } from '../core/ErrorMessage.tsx'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Timestamp } from '../core/Timestamp.tsx'
@@ -301,6 +302,16 @@ export function DatasetDetailsTab({
                   </div>
                   <div className="text-sm leading-tight break-all">
                     <EditionDetailsTable editionId={editionId} />
+                  </div>
+
+                  <div className="font-semibold text-xs opacity-80 pt-0.5">
+                    Shelfmark
+                  </div>
+                  <div className="text-sm leading-tight break-all">
+                    <ShelfmarkDetailsTable
+                      editionId={editionId}
+                      facsimileId={dataset.facsimile_id}
+                    />
                   </div>
                 </>
               )}

@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
 )
 
 type EditionTranscription struct {

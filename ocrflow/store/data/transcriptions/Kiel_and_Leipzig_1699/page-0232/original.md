@@ -1,0 +1,49 @@
+<!-- Running title: Euclidis. -->
+
+<!-- Page number: 215 -->
+
+Welcher das □ bcde anrühret/n. 17. III.
+Und dem □ eingeschrieben ist/ n. 5. Beschr. IV.
+
+### Beschluß.
+
+Ist also dem gegebenen Viereck bcde ein Kreyß fghi einge-
+schrieben. W. Z. M.
+
+[Curated heading level=2 type=propositions: Der IX. Vortrag.]
+
+[Curated heading level=2 type=problems: Das 9. Werckstück.]
+
+## Der IX. Vortrag.
+
+## Das 9. Werckstück.
+
+Umb ein gegebenes Viereck einen Kreyß zube-
+schreiben.
+
+### Gegebenes.
+
+Viereck bcde.
+
+### Begehrte.
+
+1. Kreyß cdeb
+2. Umb das Viereck beschrieben.
+
+### Wirckung.
+
+1. Werden die Zwergstriche bd, ec gezogen.
+
+2. Aus dem Düttel a, wo diese Zwergstriche einander durch-
+schneiden/ werde nach der Weite ab ein Kreyß beschrieben.
+
+[Diagram: Quadrat b c d e mit gezogenen Diagonalen, die sich im Mittelpunkt a schneiden, umschrieben von einem Kreis]
+
+### Beweiß.
+
+a. — dcb ∧ ∟
+bc | dc — n. 1. Geg. u. 29. Besch. I.
+ß. Dw. — dbc ∧ bdc — n. 5. I.
+dcb + dbc + bdc ∧ ⌓ — n. 32. I.
+
+<!-- Catchword: Dw. -->

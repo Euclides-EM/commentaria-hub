@@ -1,0 +1,33 @@
+<!-- Running title: Das III. Buch -->
+
+<!-- Page number: 172 -->
+
+cken / und so ist es auch nicht gleich gestalt / n. 23. III. welches wider das 2. Gegeb. oder es wird sich schicken/ und also wird es gleich groß seyn / n. 8. Gr. I.
+### Beschluß.
+Werden also gleichgestalte auff gleichlangen Strichen stehende Kreyßstücke gleicher grösse seyn. W. Z. B.
+
+[Curated heading level=2 type=propositions: Der XXV. Vortrag.]
+
+[Curated heading level=2 type=problems: Das 3. Werckstück.]
+
+## Der XXV. Vortrag.
+
+## Das 3. Werckstück.
+
+Wenn ein Kreyßstück gegeben wird/ desselben Kreyßstückes Kreyß zu beschreiben.
+
+### Gegebenes.
+Kreyßstück abc.
+
+### Begehrtes.
+Kreyß bhac, dessen Theil das gegebene Kreyßstück ist.
+
+[Diagram: Kreyßstück mit den Punckten k, b, h, d, e, c, a, f; der Kreyß ist punctirt vollendet, mit Strichen durch e und f]
+
+### Wirckung.
+
+1. Man ziehe in dem gegebenen Bogen den geraden Strich ac.
+
+2. Welcher in zwey gleiche Stücke ea | ec getheilet wird. n. 10. I.
+
+<!-- Catchword: 3. Durch -->

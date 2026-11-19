@@ -1,0 +1,52 @@
+<!-- Running title: Euclidis. -->
+
+<!-- Page number: 93 -->
+
+AD | ad | n. 2. I.
+Dw. ad | AB | n. 1. Gr-S. I.
+α. ab | AB | n. 2 I.
+Dw. ab | ad | n. 1. Gr. I.
+ab | ab
+□ ab | □ bad | n. 1. Gr. II.
+□ oni + □ mlg | □ bad | n. 1. II.
+Dw. □ ab | □ oni + □ mlg | n. 1. Gr. I.
+ab | AB | n. Bew. α.
+Dw. □ ab | □ AB | n. 1. Gr. t. II.
+und □ AB | □ oni + □ mlg
+und □ AB | □ CAB + □ CBA | n. 1. Gr. I.
+
+### Beschluß.
+
+Wird also allezeit das □ von dem gantzen Strich AB so groß seyn/ als die beeden □ □ so von den gantzen AB, und den beeden Stücken CA und CB begriffen werden. W. Z. B.
+
+### Nach der Löse-Kunst.
+
+### Gegebene.
+
+1. a.
+2. b + c
+3. a | b + c
+
+### Begehrte.
+
+aa | ab + ac
+
+### Beweiß.
+
+a | b + c | n. 3. Gegeb.
+a | a
+aa | ab + ac | n. 1. II. W. Z. B.
+
+[Curated heading level=2 type=propositions: Der III. Vortrag.]
+
+[Curated heading level=2 type=theorems: Das 3. Beweiß-Stück.]
+
+## Der III. Vortrag.
+
+## Das 3. Beweiß-Stück.
+
+Wenn man einen geraden Strich/ auff waserley weiß / in zwey Stücke schneidet/ so wird das
+
+<!-- Signature: M 3 -->
+
+<!-- Catchword: Vier- -->

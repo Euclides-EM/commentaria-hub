@@ -1,5 +1,6 @@
 -- Optional migration: final edition subject classifications from V6/V7/V8 review work.
--- Generated on 2026-06-03 from edition_classification_final_data/final_hybrid_classifications.csv.
+-- Generated on 2026-06-03 from the reviewed classifications now retained at
+-- research_analysis/edition_classification/data/edition_subject_classifications_reviewed.csv.
 -- This single file replaces the separate V7/V8/V9 prompt migrations and seeds final hybrid results for the 155 reviewed editions.
 -- It preserves prompt provenance by upserting V6, V7, V8, and V9 feature revisions.
 -- The seeded result source_revision is final_hybrid_v1_2026_06_03, meaning:

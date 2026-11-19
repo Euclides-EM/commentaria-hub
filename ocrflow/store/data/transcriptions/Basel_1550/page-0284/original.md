@@ -1,0 +1,16 @@
+<!-- Running title: LIBER SEXTVS. -->
+<!-- Page number: 269 -->
+
+quod eſt 60 min. à q̄ integro tertiū exiſtente ternarij, quaternarius ſeſq̄tertium ipſius dicit̃. accipio & 30, integri dimidiū, per quæ 3 ad 2 ſeſquialterꝫ erit. nominat̃ uerò ſeſquialterꝫ à dimidio, & facio 30 ad integrum, utpote 60 min. & fiunt 1800, ſecunda min. his diuiſis, & fiunt 30 prima min. hæc dimidium ſunt integri: quare & binarius ipſius quaternarij dimidiū eſt.
+
+Ratio ex duab. ſiue ex plurib. rationib. cōponi dicitur, quando rationū quātitates, hoc eſt denominationes, multiplicatę, aliquā rationis quātitatē cōſtituunt. Habeat igit̃ primū ad ſecundū, rationē datā, ueluti duplā, aut triplā, ſiue aliquā aliā, habeat & ſecundū ad tertiū, rationē, & ipſam datā: dico ꝙ primi ad tertiū ratio, ex primi ad ſecundū, & ſecūdi ad tertiū rationibus, cōpoſita ſit. Aut, quando primi ad ſecundū rationis quantitas cum ſecundi ad tertium rationis quātitate multiplicata fuerit, quantitatē primi ad tertiū cōſtituit. Sit igit̃, et primò quidē, primū maius ſecundo, ſecundū itē maius tertio, eſto etiā, q̄d primū quidē ad ſecundum duplā, ſecundū ꝟò ad ipſum tertiū triplā rationē habeat. Quoniā em̄ ſecundū triplū eſt ipſius tertij, ipſius uerò ſecundi duplū ipſum primū: primū igit̃ ipſi⁹ tertij ſexcuplū erit. q̄m. n. ſi triplū alicui⁹ duplicauerimus, ipſius ſexcuplū ꝓducitur: hoc enim eſt ꝓpriē cōpoſitio. Aut ſic, q̄m primū ſecundi duplū eſt, ſubdiuidat̃ primū in partes ipſi ſecundo æquales: uocetur aūt hæ prior & poſterior. Et q̄m ſecundū ipſius tertij triplū eſt, æqualis uerò eſt prior primi pars ipſi ſecundo: & hęc eadē pars, ut ipſum ſecundū, tertij tripla erit. primū igit̃ ipſius ſecundi eſt ſexcuplū. q̄ igitur primi ad tertiū ratio (cōiuncta ꝑ ſecundū, mediū terminū) ex primi ad ſecundū & ſecundi ad tertiū ratione, cōpoſita eſt.
+
+Similiter ꝟò & ſi minus fuerit ſecundū utriſq; ipſorꝫ, primò ſcilicet & tertio, cōtrahetur illa. Eſto em̄ iterꝫ primū quidē ſecundi triplum, ſecundū ꝟò tertij dimidiū. Et q̄m ſecundū eſt tertij dimidiū, ſecundi ꝟò triplū eſt ipſum primū: primū igit̃ ipſius ſecūdi ſeſq̄alterꝫ erit. q̄m. n. ſi dimidiū alicuius triplicauerimus, habet̃ ipſum ſemel & dimidiū. Et q̄m primū ſecūdi triplū, ſecundū ꝟò ipſius tertij dimidiū eſt: qualiū primū eſt trium ſecundo æqualiū, taliū eſt & tertiū duorꝫ, quaꝓpter ſeſquialterꝫ eſt primū ipſius tertij. primi igit̃ ad tertiū ratio (ut q̄ per ſecundū, mediū eius terminum cōiuncta eſt) ex primi ad ſecundum et ſecundi ad tertium ratione cōpoſita eſt. Sed rurſus, ſit ſecundū utriſq; illorꝫ, primo & tertio, maius, & ſit quidē primū ſecūdi dimidia pars, ſecundū ꝟò tertij ſeſq̄tertiū. Quoniā igit̃ quantū eſt primi dimidiū, tāta eſt ſecūdi quarta: quāta ꝟò eſt ſecundi q̄rta pars, tāta eſt primi cū tertio una quinta: dimidia igit̃ primi, tertia deinde tertij, inter ſe æqualia erunt. Primi igitur ad tertium, nimirꝫ 2 ad 3, ratio, ꝑ ſecundum, mediū eius terminum, cōiuncta eſt. Similiter etiā & in plurib. in reliq̄s etiā caſib. Et manifeſtum eſt, ꝙ ſi à cōpoſita ratiōe una q̄liſcunq; cōpoſitarꝫ auferat̃, una ſimpliciū ſublata, reliq̄ ratiōes cōpoſitarꝫ cōprehēdant̃.
+
+[Diagram: three vertical lines of decreasing length labelled 6, 6 and 2, with 12 below the first line]
+
+[Diagram: three vertical lines labelled 6, 4 and 2]
+
+[Diagram: three vertical lines labelled 4, 3 and 2]
+
+<!-- Signature: Ll 3 -->

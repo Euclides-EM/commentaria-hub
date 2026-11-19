@@ -1,14 +1,36 @@
 import { type FormEvent, useEffect, useMemo, useState } from 'react'
-import { DatasetsService, FacsimilesService, ApiError } from '@hub-api'
+import {
+  DatasetsService,
+  FacsimilesService,
+  ApiError,
+  ShelfmarksService,
+} from '@hub-api'
 import { useQuery } from '@tanstack/react-query'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Button } from '../core/Button.tsx'
 import Select from 'react-select'
-import { selectStyles } from '../../styles/selectStyles.ts'
+import { wrappedOptionSelectStyles } from '../../styles/selectStyles.ts'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { useAppState } from '../../context/useAppState'
+import {
+  normalizeEditionId,
+  useAllEditionsQuery,
+} from '../../queries/editions.ts'
+import {
+  formatCopyright,
+  getFacsimileCopyright,
+} from '../../utils/copyright.ts'
 
 const DEFAULT_DPI = 300
+
+type FacsimileOption = {
+  value: string
+  label: string
+  facsimileId: string
+  editionId: string
+  facsimileName?: string
+  copyright?: string
+}
 
 interface CreateDatasetModalProps {
   isOpen: boolean
@@ -28,7 +50,8 @@ export function CreateDatasetModal({
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [dpi, setDpi] = useState(DEFAULT_DPI)
-  const [facsimileId, setFacsimileId] = useState<string | null>(null)
+  const [selectedFacsimile, setSelectedFacsimile] =
+    useState<FacsimileOption | null>(null)
   const [facsimileUrl, setFacsimileUrl] = useState('')
   const [pages, setPages] = useState('')
   const [deskewed, setDeskewed] = useState(true)
@@ -44,22 +67,97 @@ export function CreateDatasetModal({
     queryFn: () => FacsimilesService.getFacsimilies({}),
     enabled: isOpen,
   })
+  const { data: editions, isLoading: editionsLoading } = useAllEditionsQuery(
+    undefined,
+    isOpen,
+  )
+  const { data: shelfmarks, isLoading: shelfmarksLoading } = useQuery({
+    queryKey: ['shelfmarks'],
+    queryFn: () => ShelfmarksService.getShelfmarks({}),
+    enabled: isOpen,
+  })
 
   const facsimileOptions = useMemo(() => {
-    if (!facsimiles) {
-      return []
+    const shelfmarksByEdition = new Map<
+      string,
+      NonNullable<typeof shelfmarks>
+    >()
+    for (const shelfmark of shelfmarks ?? []) {
+      const editionId = normalizeEditionId(shelfmark.edition_id ?? '')
+      if (!editionId) {
+        continue
+      }
+      shelfmarksByEdition.set(editionId, [
+        ...(shelfmarksByEdition.get(editionId) ?? []),
+        shelfmark,
+      ])
     }
-    return facsimiles
-      .filter((f) => f.id != null)
-      .map((f) => ({
-        value: `${f.id}/${f.edition_id}`,
-        label: `${f.edition_id ?? ''}${f.id && ` (${f.id})`}`,
-      }))
-  }, [facsimiles])
 
-  const selectedFacsimileLabel =
-    facsimileOptions.find((o) => o.value.split('/')[0] === facsimileId)
-      ?.label ?? null
+    const editionById = new Map(
+      (editions ?? []).map((edition) => [
+        normalizeEditionId(edition.key ?? ''),
+        edition,
+      ]),
+    )
+
+    const copyrightForFacsimile = (
+      facsimile: NonNullable<typeof facsimiles>[number],
+    ) => {
+      const editionId = normalizeEditionId(facsimile.edition_id ?? '')
+      const edition = editionById.get(editionId)
+      return getFacsimileCopyright(
+        edition
+          ? {
+              ...edition,
+              shelfmarks: shelfmarksByEdition.get(editionId) ?? [],
+            }
+          : undefined,
+        facsimile,
+      )
+    }
+
+    const existingOptions: FacsimileOption[] = (facsimiles ?? [])
+      .filter((f) => f.id != null && f.download_available === true)
+      .map((f) => {
+        const editionId = f.edition_id ?? ''
+        return {
+          value: `existing:${f.id}`,
+          label: editionId,
+          facsimileId: f.id!,
+          editionId,
+          facsimileName: f.name?.trim() || '',
+          copyright: copyrightForFacsimile(f),
+        }
+      })
+
+    const facsimileCounts = new Map<string, number>()
+    for (const option of existingOptions) {
+      facsimileCounts.set(
+        option.editionId,
+        (facsimileCounts.get(option.editionId) ?? 0) + 1,
+      )
+    }
+
+    const facsimileNumbers = new Map<string, number>()
+    return existingOptions
+      .sort((a, b) => a.editionId.localeCompare(b.editionId))
+      .map((option) => {
+        const number = (facsimileNumbers.get(option.editionId) ?? 0) + 1
+        facsimileNumbers.set(option.editionId, number)
+        const showNumber = (facsimileCounts.get(option.editionId) ?? 0) > 1
+        const facsimile =
+          option.facsimileName || (showNumber ? `facsimile ${number}` : '')
+        const facsimileLabel = facsimile ? ` · ${facsimile}` : ''
+        return {
+          ...option,
+          label: `${option.editionId}${facsimileLabel} · ${formatCopyright(
+            option.copyright,
+          )}`,
+        }
+      })
+  }, [editions, facsimiles, shelfmarks])
+
+  const selectedFacsimileLabel = selectedFacsimile?.label ?? null
 
   const handleCopyFacsimile = () => {
     if (!selectedFacsimileLabel) return
@@ -75,7 +173,7 @@ export function CreateDatasetModal({
       setName('')
       setDescription('')
       setDpi(DEFAULT_DPI)
-      setFacsimileId(null)
+      setSelectedFacsimile(null)
       setFacsimileUrl('')
       setFacsimileCopied(false)
       setPages('')
@@ -99,11 +197,11 @@ export function CreateDatasetModal({
       setLoading(true)
       let datasetFacsimileId: string
       if (facsimileMode === 'existing') {
-        if (!facsimileId) {
+        if (!selectedFacsimile) {
           setError('Please select a facsimile.')
           return
         }
-        datasetFacsimileId = facsimileId
+        datasetFacsimileId = selectedFacsimile.facsimileId
       } else {
         const url = facsimileUrl.trim()
         if (!url) {
@@ -246,20 +344,17 @@ export function CreateDatasetModal({
               <div className="flex items-center gap-2">
                 <div className="flex-1 min-w-0">
                   <Select
-                    value={
-                      facsimileOptions.find(
-                        (o) => o.value.split('/')[0] === facsimileId,
-                      ) ?? null
-                    }
-                    onChange={(opt) =>
-                      setFacsimileId(opt?.value.split('/')[0] || null)
-                    }
+                    value={selectedFacsimile}
+                    onChange={setSelectedFacsimile}
                     options={facsimileOptions}
                     placeholder="Select facsimile..."
-                    isLoading={facsimilesLoading}
+                    isLoading={
+                      facsimilesLoading || editionsLoading || shelfmarksLoading
+                    }
                     isDisabled={loading}
-                    styles={selectStyles<{ value: string; label: string }>({
+                    styles={wrappedOptionSelectStyles<FacsimileOption>({
                       controlWidth: '100%',
+                      menuWidth: 'min(52rem, calc(100vw - 2rem))',
                     })}
                     menuPortalTarget={document.body}
                     menuPosition="fixed"

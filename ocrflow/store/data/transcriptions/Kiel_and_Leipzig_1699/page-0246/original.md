@@ -1,0 +1,34 @@
+<!-- Running title: Euclidis. -->
+
+<!-- Page number: 229 -->
+
+|  |  |  |  |
+|---|---|---|---|
+| Dw. | fd | bd | n. 15. IV. |
+| | fd | bd | n. 29. III. |
+| und | fdb | Gleichseitiges △ | n. 23. Besch. I. W. Z. M. |
+
+[Curated heading level=2 type=propositions: Der XVI. Vortrag.]
+
+[Curated heading level=2 type=problems: Das 16. Werckstück.]
+
+## Der XVI. Vortrag.
+
+## Das 16. Werckstück.
+
+Dem gegebenen Kreyß ein gleichseitig und gleichwincklicht Funffzehen-Eck einzuschreiben.
+
+### Gegebenes.
+
+Kreyß abfdea.
+
+### Begehrte.
+
+1. Funffzehn-Eck dgafe
+2. dem Kreyß eingeschrieben.
+
+[Diagram: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]
+
+<!-- Signature: Ff 3 -->
+
+<!-- Catchword: Wir- -->

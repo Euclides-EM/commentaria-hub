@@ -7,9 +7,10 @@ import (
 	"path/filepath"
 	"regexp"
 	"strconv"
+	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 )
 
 func InferPages(dstPath string, format annotation.Format) ([]int, error) {
@@ -107,7 +108,7 @@ func inferPagesFromAltoDir(p string) ([]int, error) {
 
 	res := make([]int, 0)
 	for _, f := range files {
-		if f.IsDir() || f.Name() == "METS.xml" {
+		if f.IsDir() || !strings.EqualFold(filepath.Ext(f.Name()), ".xml") || f.Name() == "METS.xml" {
 			continue
 		}
 		pageNum, err := pagesparser.FileNameToPage(f.Name())

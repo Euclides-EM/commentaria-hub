@@ -1,29 +1,37 @@
 package service
 
 import (
+	"encoding/json"
 	"errors"
 	"fmt"
 	"log"
 	"os"
 	"path"
+	"path/filepath"
 	"slices"
+	"strconv"
+	"strings"
 	"sync"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/name"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotationrule"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/titlepage"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/cache"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/formatcov"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/markdown"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/name"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 	"github.com/samber/lo"
 	"github.com/tiendc/go-deepcopy"
+	"golang.org/x/sync/errgroup"
+	"golang.org/x/sync/singleflight"
 )
 
 // todo: add interfaces to all services
@@ -36,11 +44,20 @@ type Annotation struct {
 	fileSysMgt        *filesys.Manager
 	annotationStore   *store.AnnotationSQL
 	activeRuleRuns    sync.Map
+	derivedCache      *cache.Cache
+	derivedCacheGroup singleflight.Group
+	disableCache      bool
 }
+
+const (
+	annotationDerivedCacheEntries = 512
+	annotationDerivedCacheBytes   = 64 << 20
+	annotationDerivedCacheTTL     = 5 * time.Minute
+)
 
 var ErrAnnotationRuleRunInProgress = errors.New("annotation rule application already in progress")
 
-func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, featureResultsSvc *Result, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
+func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, featureResultsSvc *Result, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL, disableCache bool) *Annotation {
 	return &Annotation{
 		datasetSvc:        datasetSvc,
 		datasetImgSvc:     datasetImgSvc,
@@ -48,6 +65,8 @@ func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleA
 		featureResultsSvc: featureResultsSvc,
 		fileSysMgt:        fileSysMgt,
 		annotationStore:   annotationStore,
+		derivedCache:      cache.NewCache(cache.WithLimits(annotationDerivedCacheEntries, annotationDerivedCacheBytes)),
+		disableCache:      disableCache,
 	}
 }
 
@@ -56,18 +75,229 @@ func (a *Annotation) ListAnnotations(id string) ([]*annotation.Annotation, error
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
+	if err := a.populateTranscriptionFallbacks(annotations); err != nil {
+		return nil, err
+	}
 	return annotations, nil
 }
 
 func (a *Annotation) Get(datasetId, id string) (*annotation.Annotation, error) {
-	annotation, err := a.annotationStore.GetAnnotation(datasetId, id)
+	ann, err := a.getWithoutFallback(datasetId, id)
+	if err != nil {
+		return nil, err
+	}
+	if err := a.populateTranscriptionFallbacks([]*annotation.Annotation{ann}); err != nil {
+		return nil, err
+	}
+	return ann, nil
+}
+
+func (a *Annotation) getWithoutFallback(datasetId, id string) (*annotation.Annotation, error) {
+	ann, err := a.annotationStore.GetAnnotation(datasetId, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
 	}
-	if annotation == nil || annotation.DatasetID != datasetId {
+	if ann == nil || ann.DatasetID != datasetId {
 		return nil, fmt.Errorf("annotation not found")
 	}
-	return annotation, nil
+	return ann, nil
+}
+
+func (a *Annotation) populateTranscriptionFallbacks(annotations []*annotation.Annotation) error {
+	fallbackFormatByDatasetID := make(map[string]*annotation.TranscriptionFallback)
+	for _, ann := range annotations {
+		if ann.DatasetID == "" {
+			continue
+		}
+		fallback, ok := fallbackFormatByDatasetID[ann.DatasetID]
+		if !ok {
+			var err error
+			fallback, err = a.transcriptionFallback(ann)
+			if err != nil {
+				return err
+			}
+			fallbackFormatByDatasetID[ann.DatasetID] = fallback
+		}
+		if fallback != nil {
+			ann.TranscriptionFallback = fallback
+		}
+	}
+	return nil
+}
+
+func (a *Annotation) transcriptionFallback(ann *annotation.Annotation) (*annotation.TranscriptionFallback, error) {
+	if a.disableCache {
+		return a.transcriptionFallbackUncached(ann)
+	}
+	key := "fallback:" + annotationCacheVersion(ann)
+	if value, ok := a.derivedCache.Get(key); ok {
+		return value.(transcriptionFallbackCacheValue).fallback, nil
+	}
+	value, err, _ := a.derivedCacheGroup.Do(key, func() (any, error) {
+		if value, ok := a.derivedCache.Get(key); ok {
+			return value.(transcriptionFallbackCacheValue), nil
+		}
+		fallback, err := a.transcriptionFallbackUncached(ann)
+		if err != nil {
+			return nil, err
+		}
+		cached := transcriptionFallbackCacheValue{fallback: fallback}
+		a.derivedCache.SetWithTTLAndSize(key, cached, annotationDerivedCacheTTL, 128)
+		return cached, nil
+	})
+	if err != nil {
+		return nil, err
+	}
+	return value.(transcriptionFallbackCacheValue).fallback, nil
+}
+
+type transcriptionFallbackCacheValue struct {
+	fallback *annotation.TranscriptionFallback
+}
+
+func annotationCacheVersion(ann *annotation.Annotation) string {
+	return fmt.Sprintf("%s:%s:%d:%s:%t:%t:%t", ann.DatasetID, ann.ID, ann.UpdatedAt.UnixNano(), ann.Pages, ann.Segmented, ann.Ocred, ann.LinesDetected)
+}
+
+func (a *Annotation) transcriptionFallbackUncached(ann *annotation.Annotation) (*annotation.TranscriptionFallback, error) {
+	ds, err := a.datasetSvc.Get(ann.DatasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset from store: %w", err)
+	}
+
+	annPages, err := pagesparser.Range(ann.Pages)
+	if err != nil {
+		return nil, err
+	}
+
+	all, some := availability(annPages, func(page string) bool {
+		fileName := page + ".xml"
+		if pageNum, err := strconv.Atoi(page); err == nil {
+			fileName = pagesparser.PageToXMLFilename(pageNum)
+		}
+		return regularFileExists(filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), fileName))
+	})
+	if all {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelAnnotation, false), nil
+	}
+	if some {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelAnnotation, true), nil
+	}
+
+	all, some = availability(annPages, func(page string) bool {
+		return regularFileExists(filepath.Join(a.fileSysMgt.AnnotationTxtPageTranscriptionDir(ann, page), "original.md"))
+	})
+	if all {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelAnnotation, false), nil
+	}
+	if some {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelAnnotation, true), nil
+	}
+
+	all, some = availability(annPages, func(page string) bool {
+		return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, ds.Volume, page), "original.txt"))
+	})
+	if all {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelAnnotation, false), nil
+	}
+	if some {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelAnnotation, true), nil
+	}
+
+	if ds.EditionID != "" {
+		edPages, err := pagesparser.IntRange(ann.Pages)
+		if err != nil {
+			return nil, err
+		}
+
+		all, some = availability(edPages, func(page int) bool {
+			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, ds.Volume, strconv.Itoa(page)), "original.xml"))
+		})
+		if all {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelDataset, false), nil
+		}
+		if some {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelDataset, true), nil
+		}
+
+		all, some = availability(edPages, func(page int) bool {
+			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, ds.Volume, strconv.Itoa(page)), "original.md"))
+		})
+		if all {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelDataset, false), nil
+		}
+		if some {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelDataset, true), nil
+		}
+
+		all, some = availability(edPages, func(page int) bool {
+			return regularFileExists(filepath.Join(a.fileSysMgt.EditionTxtPageTranscriptionDir(ds.EditionID, ds.Volume, strconv.Itoa(page)), "original.txt"))
+		})
+		if all {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelDataset, false), nil
+		}
+		if some {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelDataset, true), nil
+		}
+	}
+
+	return nil, nil
+}
+
+func availability[T any](values []T, exists func(T) bool) (all bool, some bool) {
+	all = len(values) > 0
+	for _, value := range values {
+		present := exists(value)
+		all = all && present
+		some = some || present
+	}
+	return all, some
+}
+
+func regularFileExists(filename string) bool {
+	info, err := os.Stat(filename)
+	return err == nil && info.Mode().IsRegular()
+}
+
+var errStopTranscriptionFallbackScan = errors.New("stop transcription fallback scan")
+
+func transcriptionFallbackFormatInDir(dir string) (string, error) {
+	format := ""
+	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+		if err != nil {
+			if os.IsNotExist(err) {
+				return nil
+			}
+			return err
+		}
+		if d.IsDir() {
+			return nil
+		}
+		switch filepath.Base(path) {
+		case "original.xml":
+			format = "alto"
+			return errStopTranscriptionFallbackScan
+		case "original.md":
+			if format == "" || format == "text" {
+				format = "markdown"
+			}
+		case "original.txt":
+			if format == "" {
+				format = "text"
+			}
+		}
+		return nil
+	})
+	if errors.Is(err, errStopTranscriptionFallbackScan) {
+		return format, nil
+	}
+	if err != nil {
+		if os.IsNotExist(err) {
+			return "", nil
+		}
+		return "", fmt.Errorf("scan transcription fallback dir %s: %w", dir, err)
+	}
+	return format, nil
 }
 
 func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFeatureResults bool) (*annotation.Annotation, error) {
@@ -92,7 +322,7 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFe
 
 	if ann.Pages == "" {
 		// infer pages from existing images
-		pages, err := store.InferPages(imgPath, annotation.FormatAlto)
+		pages, err := store.InferPages(imgPath, annotation.FormatImage)
 		if err != nil {
 			return nil, fmt.Errorf("failed to infer pages from existing dataset images: %w", err)
 		}
@@ -146,7 +376,7 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFe
 }
 
 func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dstPath string) error) (*annotation.Annotation, error) {
-	_, err := a.datasetSvc.Get(aum.DatasetID)
+	ds, err := a.datasetSvc.Get(aum.DatasetID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
@@ -173,17 +403,26 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewModelDetect(aum.SegmentModelID))
 	}
 	if aum.Ocred && aum.OCRModelID != "" {
-		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewDetectText(aum.OCRModelID))
+		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewOCRModelDetect(aum.OCRModelID))
 	}
 	dstPath := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
+	var yoloImportDir string
 	if aum.Format == annotation.FormatYolo {
-		dstPath = a.fileSysMgt.DatasetAnnotationYoloDir(ann)
+		yoloImportDir, err = futils.MkdirTemp("yolo-import")
+		if err != nil {
+			return nil, fmt.Errorf("create temporary YOLO import directory: %w", err)
+		}
+		defer os.RemoveAll(yoloImportDir)
+		dstPath = yoloImportDir
 	}
 	if err := save(dstPath); err != nil {
 		return nil, fmt.Errorf("failed to store uploaded annotations: %w", err)
 	}
 	if aum.Format == annotation.FormatYolo {
-		if err := formatcov.Yolo2Alto(a.fileSysMgt.DatasetAnnotationYoloDir(ann), a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
+		if err := formatcov.ValidateYoloImagesAgainstDataset(yoloImportDir, a.fileSysMgt.DatasetImagesDir(ds)); err != nil {
+			return nil, fmt.Errorf("validate uploaded YOLO images against dataset: %w", err)
+		}
+		if err := formatcov.Yolo2AltoWithCanonicalImages(yoloImportDir, a.fileSysMgt.DatasetAnnotationAltoDir(ann), a.fileSysMgt.DatasetImagesDir(ds)); err != nil {
 			return nil, fmt.Errorf("failed to convert YOLO annotations to ALTO: %w", err)
 		}
 	}
@@ -234,6 +473,10 @@ func (a *Annotation) PrepareApplyRules(datasetID string, id string, aar *annotat
 }
 
 func (a *Annotation) ExecuteApplyRules(datasetID string, id string, aar *annotationrule.ApplyRules) (*annotation.Annotation, error) {
+	return a.ExecuteApplyRulesWithRemoteProgress(datasetID, id, aar, nil)
+}
+
+func (a *Annotation) ExecuteApplyRulesWithRemoteProgress(datasetID string, id string, aar *annotationrule.ApplyRules, dispatch *gpuFarmDispatch) (*annotation.Annotation, error) {
 	ann, err := a.Get(datasetID, id)
 	if err != nil {
 		return nil, err
@@ -251,7 +494,7 @@ func (a *Annotation) ExecuteApplyRules(datasetID string, id string, aar *annotat
 	defer release()
 
 	// apply rules...
-	if err := a.ruleApplier.ApplyRules(a.fileSysMgt.DatasetImagesDir(ds), ann, aar.Rules); err != nil {
+	if err := a.ruleApplier.ApplyRulesWithRemoteProgress(a.fileSysMgt.DatasetImagesDir(ds), ann, aar.Rules, dispatch); err != nil {
 		return nil, fmt.Errorf("failed to apply annotation rules: %w", err)
 	}
 
@@ -275,10 +518,72 @@ func (a *Annotation) acquireRuleRun(datasetID string, id string) (func(), error)
 }
 
 func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, error) {
-	ann, err := a.Get(datasetID, id)
+	ann, err := a.getWithoutFallback(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
+	if a.disableCache {
+		return a.getAvailableCategoriesUncached(ann)
+	}
+	key := "categories:" + annotationCacheVersion(ann)
+	if value, ok := a.derivedCache.Get(key); ok {
+		return slices.Clone(value.([]string)), nil
+	}
+	value, err, _ := a.derivedCacheGroup.Do(key, func() (any, error) {
+		if value, ok := a.derivedCache.Get(key); ok {
+			return value, nil
+		}
+		categories, err := a.getAvailableCategoriesUncached(ann)
+		if err != nil {
+			return nil, err
+		}
+		data, _ := json.Marshal(categories)
+		a.derivedCache.SetWithTTLAndSize(key, categories, annotationDerivedCacheTTL, int64(len(data)))
+		return categories, nil
+	})
+	if err != nil {
+		return nil, err
+	}
+	return slices.Clone(value.([]string)), nil
+}
+
+func (a *Annotation) GetAvailableCategoriesBulk(refs []annotation.Reference) ([]string, error) {
+	uniqueRefs := make(map[annotation.Reference]struct{}, len(refs))
+	for _, ref := range refs {
+		if ref.DatasetID != "" && ref.ID != "" {
+			uniqueRefs[ref] = struct{}{}
+		}
+	}
+
+	categorySet := make(map[string]struct{})
+	var categorySetMu sync.Mutex
+	var group errgroup.Group
+	group.SetLimit(8)
+	for ref := range uniqueRefs {
+		ref := ref
+		group.Go(func() error {
+			categories, err := a.GetAvailableCategories(ref.DatasetID, ref.ID)
+			if err != nil {
+				return err
+			}
+			categorySetMu.Lock()
+			for _, category := range categories {
+				categorySet[category] = struct{}{}
+			}
+			categorySetMu.Unlock()
+			return nil
+		})
+	}
+	if err := group.Wait(); err != nil {
+		return nil, err
+	}
+
+	categories := lo.Keys(categorySet)
+	slices.Sort(categories)
+	return categories, nil
+}
+
+func (a *Annotation) getAvailableCategoriesUncached(ann *annotation.Annotation) ([]string, error) {
 	if !ann.Segmented {
 		return nil, nil
 	}
@@ -293,13 +598,22 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	categorySet := make(map[string]struct{})
 
 	for _, page := range pages {
-		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
-		if err != nil {
-			return nil, err
+		af, _, altoErr := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
+		if altoErr == nil {
+			for _, ot := range af.Tags.OtherTags {
+				categorySet[ot.Label] = struct{}{}
+			}
 		}
 
-		for _, ot := range af.Tags.OtherTags {
-			categorySet[ot.Label] = struct{}{}
+		md, mdErr := a.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, page)
+		if mdErr != nil {
+			if altoErr != nil {
+				return nil, fmt.Errorf("failed to retrieve markdown or ALTO annotation: [ALTO err: %w] [markdown err: %w]", altoErr, mdErr)
+			}
+			continue
+		}
+		for _, ot := range md.GetCategories() {
+			categorySet[ot] = struct{}{}
 		}
 	}
 
@@ -307,71 +621,139 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	for cat := range categorySet {
 		categories = append(categories, cat)
 	}
+	slices.Sort(categories)
 
 	return categories, nil
 }
 
-func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []string) (*annotation.Index, error) {
-	ann, err := a.Get(datasetID, id)
+func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories, indexTypes []string, normalize bool, source annotation.IndexSource) (*annotation.Index, error) {
+	ann, err := a.getWithoutFallback(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
-	if !ann.Segmented {
-		return nil, fmt.Errorf("no ALTO directory found for annotation %s", ann.ID)
+	if a.disableCache {
+		return a.getAnnotationIndexUncached(datasetID, id, ann, categories, indexTypes, normalize, source)
 	}
-	pages, err := pagesparser.IntRange(ann.Pages)
+	keyData, _ := json.Marshal(struct {
+		Version    string
+		Categories []string
+		IndexTypes []string
+		Normalize  bool
+		Source     annotation.IndexSource
+	}{annotationCacheVersion(ann), categories, indexTypes, normalize, source})
+	key := "index:" + string(keyData)
+	if value, ok := a.derivedCache.Get(key); ok {
+		return value.(*annotation.Index), nil
+	}
+	value, err, _ := a.derivedCacheGroup.Do(key, func() (any, error) {
+		if value, ok := a.derivedCache.Get(key); ok {
+			return value, nil
+		}
+		index, err := a.getAnnotationIndexUncached(datasetID, id, ann, categories, indexTypes, normalize, source)
+		if err != nil {
+			return nil, err
+		}
+		data, _ := json.Marshal(index)
+		a.derivedCache.SetWithTTLAndSize(key, index, annotationDerivedCacheTTL, int64(len(data)))
+		return index, nil
+	})
 	if err != nil {
-		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
+		return nil, err
+	}
+	return value.(*annotation.Index), nil
+}
+
+func (a *Annotation) getAnnotationIndexUncached(datasetID, id string, ann *annotation.Annotation, categories, indexTypes []string, normalize bool, source annotation.IndexSource) (*annotation.Index, error) {
+	var pages []int
+	var err error
+	if strings.TrimSpace(ann.Pages) == "" {
+		ds, err := a.datasetSvc.Get(datasetID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get dataset: %w", err)
+		}
+		pages, err = store.InferPages(a.fileSysMgt.DatasetImagesDir(ds), annotation.FormatImage)
+		if err != nil {
+			return nil, fmt.Errorf("failed to infer pages for annotation %s from dataset images: %w", ann.ID, err)
+		}
+	} else {
+		pages, err = pagesparser.IntRange(ann.Pages)
+		if err != nil {
+			return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
+		}
 	}
 	if len(pages) == 0 {
 		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
 	}
-	if len(categories) == 0 {
-		categories = []string{"MainZone-Head--Book", "MainZone-Head--Section"}
-	}
-
-	allLocs := make([]categoryPageContent, 0)
-
-	for _, page := range pages {
-		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
-		if err != nil {
-			return nil, fmt.Errorf("load ALTO: %w", err)
-		}
-
-		headers, err := alto.ExtractCategoryContents(af, categories, " / ")
-		if err != nil {
-			return nil, fmt.Errorf("failed to extract headers from ALTO page %d: %w", page, err)
-		}
-
-		slices.SortFunc(headers, func(a, b *alto.CategoryAndContent) int {
-			if a.VerticalPosition < b.VerticalPosition {
-				return -1
-			}
-			if a.VerticalPosition > b.VerticalPosition {
-				return 1
-			}
-			if a.HorizontalPosition < b.HorizontalPosition {
-				return -1
-			}
-			if a.HorizontalPosition > b.HorizontalPosition {
-				return 1
-			}
-			return 0
-		})
-		for _, h := range headers {
-			allLocs = append(allLocs, categoryPageContent{
-				page:     page,
-				category: h.Category,
-				content:  h.Content,
-			})
+	emptyIndex := func() *annotation.Index {
+		return &annotation.Index{
+			DatasetID:      datasetID,
+			AnnotationID:   id,
+			AvailableTypes: []string{markdown.DefaultIndexType},
+			Nodes:          []*annotation.IndexNode{},
 		}
 	}
 
-	return &annotation.Index{
-		DatasetID:    datasetID,
-		AnnotationID: id,
-		Nodes:        buildNodes(categories, allLocs),
-	}, nil
+	if source == annotation.IndexSourceEdition {
+		ds, err := a.datasetSvc.Get(datasetID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get dataset: %w", err)
+		}
+		if ds.EditionID != "" {
+			if index, edAltoErr, edMdErr := a.getIndexFromEdition(datasetID, id, pages, ds.EditionID, ds.Volume, categories, indexTypes, normalize); edAltoErr == nil || edMdErr == nil {
+				return index, nil
+			}
+		}
+	}
+
+	// An annotation-level Markdown transcription is an explicit override of the
+	// annotation's original ALTO and must be indexed first.
+	categories, allLocs, availableTypes, annMdErr := a.getIndexFromAnnotationMarkdown(pages, ann, categories, indexTypes, normalize)
+	if annMdErr == nil {
+		return &annotation.Index{
+			DatasetID:      datasetID,
+			AnnotationID:   id,
+			AvailableTypes: availableTypes,
+			Nodes:          buildNodes(categories, allLocs),
+		}, nil
+	}
+
+	var annAltoErr error
+	if ann.Segmented {
+		categories, allLocs, err := a.getIndexFromAnnotationAlto(pages, ann, categories)
+		if err == nil {
+			return &annotation.Index{
+				DatasetID:      datasetID,
+				AnnotationID:   id,
+				AvailableTypes: []string{markdown.DefaultIndexType},
+				Nodes:          buildNodes(categories, allLocs),
+			}, nil
+		}
+		annAltoErr = err
+	} else {
+		annAltoErr = fmt.Errorf("annotation %s is not segmented", ann.ID)
+	}
+
+	ds, err := a.datasetSvc.Get(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	if ds.EditionID == "" {
+		if !ann.Segmented {
+			return emptyIndex(), nil
+		}
+		return nil, fmt.Errorf("annotation doesn't contain ALTO or markdown files for one or more of the pages and dataset doesn't have an edition to extract index from: [annotation ALTO err: %w] [annotation markdown err: %w]", annAltoErr, annMdErr)
+	}
+
+	index, edAltoErr, edMdErr := a.getIndexFromEdition(datasetID, id, pages, ds.EditionID, ds.Volume, categories, indexTypes, normalize)
+	if edAltoErr == nil || edMdErr == nil {
+		return index, nil
+	}
+	if !ann.Segmented && errors.Is(annMdErr, filesys.ErrMarkdownPageNotFound) && errors.Is(edMdErr, filesys.ErrMarkdownPageNotFound) {
+		log.Printf("annotation index unavailable; returning empty index: dataset=%s annotation=%s edition=%s annotation_markdown_error=%v edition_markdown_error=%v", datasetID, ann.ID, ds.EditionID, annMdErr, edMdErr)
+		return emptyIndex(), nil
+	}
+
+	return nil, fmt.Errorf("failed to get annotation index, tried annotation ALTO, annotation markdown, edition ALTO, and edition markdown: [annotation ALTO err: %w] [annotation markdown err: %w] [edition ALTO err: %w] [edition markdown err: %w]", annAltoErr, annMdErr, edAltoErr, edMdErr)
 }
 
 func (a *Annotation) Delete(datasetID string, annotationID string, fileSysClean bool) error {
@@ -484,6 +866,8 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 			return nil, fmt.Errorf("load ALTO: %w", err)
 		}
 
+		// todo: add support for markdown...
+
 		bp, err := alto.ExtractBlocksByCategory(af, toReview.Category)
 		if err != nil {
 			return nil, fmt.Errorf("failed to extract headers from ALTO page %s: %w", pageAltoPath, err)
@@ -551,6 +935,9 @@ func (a *Annotation) ListAnnotationsByAnnotationReferences(refs []*annotation.Re
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
+	if err := a.populateTranscriptionFallbacks(anns); err != nil {
+		return nil, err
+	}
 	return anns, nil
 }
 
@@ -558,6 +945,9 @@ func (a *Annotation) ListAnnotationsByDatasetIDs(dsIDs []string) ([]*annotation.
 	anns, err := a.annotationStore.ListAnnotationsByDatasetIDs(dsIDs)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
+	}
+	if err := a.populateTranscriptionFallbacks(anns); err != nil {
+		return nil, err
 	}
 	return anns, nil
 }
@@ -655,49 +1045,244 @@ func (a *Annotation) Merge(datasetID string, dstAnnID string, req annotation.Mer
 	return dstAnn, nil
 }
 
-func buildNodes(remainingCats []string, data []categoryPageContent) []*annotation.IndexNode {
-	// Base case: if no more categories to nest or no data left
-	if len(remainingCats) == 0 || len(data) == 0 {
-		return nil
+func (a *Annotation) getIndexFromEdition(datasetID, id string, pages []int, editionKey string, volume *int, categories, indexTypes []string, normalize bool) (*annotation.Index, error, error) {
+	altoCategories, allLocs, edAltoErr := a.getIndexFromEditionAlto(pages, editionKey, volume, categories)
+	if edAltoErr == nil {
+		return &annotation.Index{
+			DatasetID:      datasetID,
+			AnnotationID:   id,
+			AvailableTypes: []string{markdown.DefaultIndexType},
+			Nodes:          buildNodes(altoCategories, allLocs),
+		}, nil, nil
 	}
 
-	currentCat := remainingCats[0]
-	nextCats := remainingCats[1:]
+	mdCategories, allLocs, availableTypes, edMdErr := a.getIndexFromEditionMarkdown(pages, editionKey, volume, categories, indexTypes, normalize)
+	if edMdErr == nil {
+		return &annotation.Index{
+			DatasetID:      datasetID,
+			AnnotationID:   id,
+			AvailableTypes: availableTypes,
+			Nodes:          buildNodes(mdCategories, allLocs),
+		}, edAltoErr, nil
+	}
+	return nil, edAltoErr, edMdErr
+}
+
+func (a *Annotation) getIndexFromAnnotationAlto(pages []int, ann *annotation.Annotation, categories []string) ([]string, []categoryPageContent, error) {
+	return getIndexFromAlto(pages, categories, func(page int) (*alto.Alto, error) {
+		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
+		if err != nil {
+			return nil, fmt.Errorf("failed to retrieve annotation alto: %w", err)
+		}
+		return af, nil
+	}, "ALTO")
+}
+
+func (a *Annotation) getIndexFromAnnotationMarkdown(pages []int, ann *annotation.Annotation, categories, indexTypes []string, normalize bool) ([]string, []categoryPageContent, []string, error) {
+	return getIndexFromMarkdown(pages, categories, func(page int) (*markdown.Markdown, error) {
+		md, err := a.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, fmt.Sprintf("%d", page))
+		if err != nil {
+			return nil, fmt.Errorf("failed to retrieve annotation markdown page: %w", err)
+		}
+		return md, nil
+	}, "annotation markdown", indexTypes, normalize)
+}
+
+func (a *Annotation) getIndexFromEditionAlto(pages []int, editionKey string, volume *int, categories []string) ([]string, []categoryPageContent, error) {
+	return getIndexFromAlto(pages, categories, func(page int) (*alto.Alto, error) {
+		af, _, err := a.fileSysMgt.RetrieveEditionAltoPage(editionKey, volume, page)
+		if err != nil {
+			return nil, fmt.Errorf("failed to retrieve edition alto: %w", err)
+		}
+		return af, nil
+	}, "edition ALTO")
+}
+
+func (a *Annotation) getIndexFromEditionMarkdown(pages []int, editionKey string, volume *int, categories, indexTypes []string, normalize bool) ([]string, []categoryPageContent, []string, error) {
+	return getIndexFromMarkdown(pages, categories, func(page int) (*markdown.Markdown, error) {
+		md, err := a.fileSysMgt.RetrieveEditionMarkdownPage(editionKey, volume, page)
+		if err != nil {
+			return nil, fmt.Errorf("failed to retrieve edition markdown page: %w", err)
+		}
+		return md, nil
+	}, "edition markdown", indexTypes, normalize)
+}
+
+func getIndexFromAlto(pages []int, categories []string, loadPage func(int) (*alto.Alto, error), source string) ([]string, []categoryPageContent, error) {
+	altoCat := categories
+	if len(altoCat) == 0 {
+		altoCat = []string{"MainZone-Head--Book", "MainZone-Head--Section"}
+	}
+	allLocs := make([]categoryPageContent, 0)
+	for _, page := range pages {
+		af, err := loadPage(page)
+		if err != nil {
+			return nil, nil, err
+		}
+		headers, err := alto.ExtractCategoryContents(af, altoCat, " / ")
+		if err != nil {
+			return nil, nil, fmt.Errorf("failed to extract headers from %s page %d: %w", source, page, err)
+		}
+
+		slices.SortFunc(headers, func(a, b *alto.CategoryAndContent) int {
+			if a.VerticalPosition < b.VerticalPosition {
+				return -1
+			}
+			if a.VerticalPosition > b.VerticalPosition {
+				return 1
+			}
+			if a.HorizontalPosition < b.HorizontalPosition {
+				return -1
+			}
+			if a.HorizontalPosition > b.HorizontalPosition {
+				return 1
+			}
+			return 0
+		})
+		for _, h := range headers {
+			allLocs = append(allLocs, categoryPageContent{
+				page:      page,
+				category:  h.Category,
+				content:   h.Content,
+				indexType: markdown.DefaultIndexType,
+			})
+		}
+	}
+
+	return altoCat, allLocs, nil
+}
+
+func getIndexFromMarkdown(pages []int, categories []string, loadPage func(int) (*markdown.Markdown, error), source string, indexTypes []string, normalize bool) ([]string, []categoryPageContent, []string, error) {
+	allLocs := make([]categoryPageContent, 0)
+	seenCategories := make(map[string]struct{})
+	seenTypes := map[string]struct{}{markdown.DefaultIndexType: {}}
+	for _, page := range pages {
+		md, err := loadPage(page)
+		if err != nil {
+			return nil, nil, nil, err
+		}
+		headers, availableTypes, err := markdown.ExtractIndexContentsFromMarkdown(md, categories, indexTypes, normalize)
+		if err != nil {
+			return nil, nil, nil, fmt.Errorf("failed to extract headers from %s page %d: %w", source, page, err)
+		}
+		for _, indexType := range availableTypes {
+			seenTypes[indexType] = struct{}{}
+		}
+		for _, h := range headers {
+			allLocs = append(allLocs, categoryPageContent{
+				page:      page,
+				category:  h.Category,
+				content:   h.Content,
+				indexType: h.IndexType,
+				hidden:    h.Hidden,
+			})
+			seenCategories[h.Category] = struct{}{}
+		}
+	}
+	availableTypes := orderedIndexTypes(seenTypes)
+	if len(categories) == 0 {
+		return orderedMarkdownHeaderCategories(seenCategories), allLocs, availableTypes, nil
+	}
+	return categories, allLocs, availableTypes, nil
+}
+
+func orderedIndexTypes(seen map[string]struct{}) []string {
+	types := lo.Keys(seen)
+	slices.Sort(types)
+	if i := slices.Index(types, markdown.DefaultIndexType); i > 0 {
+		types[0], types[i] = types[i], types[0]
+	}
+	return types
+}
+
+func orderedMarkdownHeaderCategories(seenCategories map[string]struct{}) []string {
+	categories := lo.Keys(seenCategories)
+	slices.SortFunc(categories, func(a, b string) int {
+		if levelDifference := markdownHeaderLevel(a) - markdownHeaderLevel(b); levelDifference != 0 {
+			return levelDifference
+		}
+		return strings.Compare(a, b)
+	})
+	return categories
+}
+
+func markdownHeaderLevel(category string) int {
+	prefix := markdown.HeaderPrefix
+	if strings.HasPrefix(category, markdown.CuratedHeadingPrefix) {
+		prefix = markdown.CuratedHeadingPrefix
+	} else if !strings.HasPrefix(category, markdown.HeaderPrefix) {
+		return int(^uint(0) >> 1)
+	}
+	level, err := strconv.Atoi(strings.TrimPrefix(category, prefix))
+	if err != nil || level < 1 {
+		return 7
+	}
+	return level
+}
+
+func buildNodes(categories []string, data []categoryPageContent) []*annotation.IndexNode {
+	categoryRank := make(map[string]int, len(categories))
+	for rank, category := range categories {
+		if strings.HasPrefix(category, markdown.HeaderPrefix) || strings.HasPrefix(category, markdown.CuratedHeadingPrefix) {
+			categoryRank[category] = markdownHeaderLevel(category) - 1
+		} else {
+			categoryRank[category] = rank
+		}
+	}
+
+	type rankedNode struct {
+		rank int
+		node *annotation.IndexNode
+	}
 
 	var nodes []*annotation.IndexNode
-
-	var wipNode *annotation.IndexNode
-	var wipNodeFirstChildIndex int
-
-	for i, item := range data {
-		if item.category == currentCat {
-			if wipNode != nil {
-				if wipNodeFirstChildIndex != i {
-					wipNode.Children = buildNodes(nextCats, data[wipNodeFirstChildIndex:i])
-				}
-				nodes = append(nodes, wipNode)
-			}
-			wipNode = &annotation.IndexNode{
-				Category: item.category,
-				Content:  item.content,
-				Location: common.ALTOLocation{Page: fmt.Sprintf("%d", item.page)},
-			}
-			wipNodeFirstChildIndex = i + 1
+	stack := make([]rankedNode, 0, len(categories))
+	for _, item := range data {
+		// Excluded layers must not close parents in the selected hierarchy.
+		if item.hidden {
+			continue
 		}
-	}
-	// Handle the last wipNode if exists
-	if wipNode != nil {
-		if wipNodeFirstChildIndex != len(data) {
-			wipNode.Children = buildNodes(nextCats, data[wipNodeFirstChildIndex:])
+		rank, ok := categoryRank[item.category]
+		if !ok {
+			continue
 		}
-		nodes = append(nodes, wipNode)
+		if item.indexType == markdown.BooksIndexType {
+			rank = -1
+		}
+
+		for len(stack) > 0 && stack[len(stack)-1].rank >= rank {
+			stack = stack[:len(stack)-1]
+		}
+
+		node := &annotation.IndexNode{
+			Category: item.category,
+			Type:     item.indexType,
+			Content:  item.content,
+			Location: common.ALTOLocation{Page: fmt.Sprintf("%d", item.page)},
+		}
+		if node.Type == "" {
+			node.Type = markdown.DefaultIndexType
+		}
+
+		var parent *annotation.IndexNode
+		for i := len(stack) - 1; i >= 0 && parent == nil; i-- {
+			parent = stack[i].node
+		}
+		if parent == nil {
+			nodes = append(nodes, node)
+		} else {
+			parent.Children = append(parent.Children, node)
+		}
+		stack = append(stack, rankedNode{rank: rank, node: node})
 	}
 
 	return nodes
 }
 
 type categoryPageContent struct {
-	page     int
-	category string
-	content  string
+	page      int
+	category  string
+	content   string
+	indexType string
+	hidden    bool
 }

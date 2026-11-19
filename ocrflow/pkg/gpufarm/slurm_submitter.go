@@ -1,18 +1,55 @@
 package gpufarm
 
 import (
+	"bytes"
+	_ "embed"
 	"fmt"
+	"log"
+	"os"
 	"os/exec"
 	"path"
 	"path/filepath"
 	"regexp"
+	"strconv"
 	"strings"
-	"time"
+	"text/template"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
 )
 
 var slurmJobIDPattern = regexp.MustCompile(`Submitted batch job\s+([^\s]+)`)
+
+const completedRunsToKeep = 0
+
+const gpuFarmFreeSpaceReserveBytes int64 = 2 * 1024 * 1024 * 1024
+
+//go:embed templates/cleanup_completed_runs.sh
+var cleanupCompletedRunsScript string
+
+//go:embed templates/python_venv_setup.sh
+var pythonVEnvSetupScript string
+
+var cleanupCompletedRunsTemplate = template.
+	Must(template.New("cleanup-completed-gpu-runs").
+		Funcs(template.FuncMap{
+			"shellquote": envexec.ShellQuote,
+		}).Parse(cleanupCompletedRunsScript))
+
+type cleanupCompletedRunsTemplateData struct {
+	JobRoot             string
+	CompletedRunsToKeep int
+}
+
+func renderCleanupCompletedRunsScript(jobRoot string, runsToKeep int) (string, error) {
+	var script bytes.Buffer
+	if err := cleanupCompletedRunsTemplate.Execute(&script, cleanupCompletedRunsTemplateData{
+		JobRoot:             jobRoot,
+		CompletedRunsToKeep: runsToKeep,
+	}); err != nil {
+		return "", err
+	}
+	return script.String(), nil
+}
 
 type SubmitterSlurm struct {
 	host    string
@@ -41,17 +78,86 @@ func (s *SubmitterSlurm) run(args ...string) (string, error) {
 }
 
 func (s *SubmitterSlurm) CopyTo(localPath string, remotePath string) error {
+	info, statErr := os.Stat(localPath)
+	if statErr != nil {
+		return fmt.Errorf("stat local upload %s: %w", localPath, statErr)
+	}
 	if _, err := s.run("mkdir", "-p", path.Dir(remotePath)); err != nil {
-		return fmt.Errorf("create directory %s remotely: %w", path.Dir(remotePath), err)
+		return fmt.Errorf("create remote upload directory host=%s directory=%s source=%s source_bytes=%d: %w", s.host, path.Dir(remotePath), localPath, info.Size(), err)
+	}
+	if err := s.EnsureCapacity(path.Dir(remotePath), info.Size()); err != nil {
+		return fmt.Errorf("upload capacity check host=%s source=%s source_bytes=%d destination=%s: %w", s.host, localPath, info.Size(), remotePath, err)
 	}
 	out, err := exec.Command("scp", "-o", "StrictHostKeyChecking=accept-new", localPath, fmt.Sprintf("%s:%s", s.host, remotePath)).CombinedOutput()
 	output := strings.TrimSpace(string(out))
 	if err != nil {
+		storage := s.remoteStorageStatus(path.Dir(remotePath))
 		if output != "" {
-			return fmt.Errorf("scp to remote job host: %w: %s", err, output)
+			return fmt.Errorf("upload failed host=%s source=%s source_bytes=%d destination=%s storage=%s: %w: %s", s.host, localPath, info.Size(), remotePath, storage, err, output)
 		}
-		return fmt.Errorf("scp to remote job host: %w", err)
+		return fmt.Errorf("upload failed host=%s source=%s source_bytes=%d destination=%s storage=%s: %w", s.host, localPath, info.Size(), remotePath, storage, err)
 	}
+	return nil
+}
+
+func (s *SubmitterSlurm) EnsureCapacity(remoteDir string, requiredBytes int64) error {
+	output, err := s.run("df", "-B1", "--output=size,avail", remoteDir)
+	if err != nil {
+		return fmt.Errorf("check storage capacity in %s: %w", remoteDir, err)
+	}
+	totalBytes, availableBytes, err := parseDFCapacity(output)
+	if err != nil {
+		return fmt.Errorf("check storage capacity in %s: %w", remoteDir, err)
+	}
+	neededBytes := requiredBytes + gpuFarmFreeSpaceReserveBytes
+	if availableBytes < neededBytes {
+		return fmt.Errorf("insufficient GPU farm space: required=%d reserve=%d available=%d total=%d", requiredBytes, gpuFarmFreeSpaceReserveBytes, availableBytes, totalBytes)
+	}
+	return nil
+}
+
+func parseDFCapacity(output string) (totalBytes int64, availableBytes int64, err error) {
+	fields := strings.Fields(output)
+	if len(fields) < 4 {
+		return 0, 0, fmt.Errorf("unexpected df output %q", output)
+	}
+	totalBytes, err = strconv.ParseInt(fields[len(fields)-2], 10, 64)
+	if err != nil {
+		return 0, 0, fmt.Errorf("parse total bytes from df output %q: %w", output, err)
+	}
+	availableBytes, err = strconv.ParseInt(fields[len(fields)-1], 10, 64)
+	if err != nil {
+		return 0, 0, fmt.Errorf("parse available bytes from df output %q: %w", output, err)
+	}
+	return totalBytes, availableBytes, nil
+}
+
+func (s *SubmitterSlurm) remoteStorageStatus(remoteDir string) string {
+	output, err := s.run("df", "-B1", "--output=size,used,avail,pcent", remoteDir)
+	if err != nil {
+		return fmt.Sprintf("unavailable (%v)", err)
+	}
+	return strings.Join(strings.Fields(output), " ")
+}
+
+// Discard removes a run that failed before it was handed to Slurm. Restricting
+// removal to a direct run_* child of the configured job root prevents callers
+// from accidentally deleting shared job files or Python environments.
+func (s *SubmitterSlurm) Discard(request *RemoteEnv) error {
+	if request == nil {
+		return nil
+	}
+	runDir := path.Clean(request.RemoteRunDir)
+	jobDir := path.Dir(runDir)
+	jobRoot := path.Clean(s.jobRoot)
+	if path.Dir(jobDir) != jobRoot || !strings.HasPrefix(path.Base(runDir), "run_") {
+		return fmt.Errorf("refusing to discard invalid GPU farm run directory %q", request.RemoteRunDir)
+	}
+	output, err := s.run("rm", "-rf", "--", runDir)
+	if err != nil {
+		return fmt.Errorf("discard remote GPU farm run %s: %w", runDir, err)
+	}
+	log.Printf("GPU farm abandoned upload removed: host=%s run_dir=%s output=%q", s.host, runDir, output)
 	return nil
 }
 
@@ -61,6 +167,25 @@ func (s *SubmitterSlurm) FileExists(remotePath string) (bool, error) {
 		return false, err
 	}
 	return strings.TrimSpace(output) == "exists", nil
+}
+
+// cleanupCompletedRuns bounds disk usage across every managed job kind. Slurm
+// work directories are protected even when they are older than the retained
+// completed runs.
+func (s *SubmitterSlurm) cleanupCompletedRuns() error {
+	script, err := renderCleanupCompletedRunsScript(s.jobRoot, completedRunsToKeep)
+	if err != nil {
+		return fmt.Errorf("render completed run cleanup script: %w", err)
+	}
+
+	output, err := s.run("bash", "-lc", script)
+	if output != "" {
+		log.Printf("GPU farm cleanup:\n%s", output)
+	}
+	if err != nil {
+		return fmt.Errorf("clean up completed runs in %s: %w", s.jobRoot, err)
+	}
+	return nil
 }
 
 func (s *SubmitterSlurm) PreparePythonEnv(request PythonEnvRequest) (*RemoteEnv, error) {
@@ -74,11 +199,20 @@ func (s *SubmitterSlurm) PreparePythonEnv(request PythonEnvRequest) (*RemoteEnv,
 		return nil, fmt.Errorf("missing Python job files")
 	}
 
-	runID := "run_" + fmt.Sprintf("%s-%d", time.Now().UTC().Format("060102-150405"), time.Now().UnixNano()%100000)
+	runID := NewRunID()
 	remoteRoot := path.Join(s.jobRoot, request.JobName)
+	if _, err := s.run("mkdir", "-p", s.jobRoot); err != nil {
+		return nil, err
+	}
+	if err := s.cleanupCompletedRuns(); err != nil {
+		return nil, err
+	}
+	if _, err := s.run("mkdir", "-p", remoteRoot); err != nil {
+		return nil, err
+	}
 	remoteRunDir := path.Join(remoteRoot, runID)
 	logDir := path.Join(remoteRunDir, "logs")
-	if _, err := s.run("mkdir", "-p", remoteRoot, remoteRunDir, logDir); err != nil {
+	if _, err := s.run("mkdir", "-p", remoteRunDir, logDir); err != nil {
 		return nil, err
 	}
 
@@ -89,21 +223,7 @@ func (s *SubmitterSlurm) PreparePythonEnv(request PythonEnvRequest) (*RemoteEnv,
 		}
 	}
 
-	envScript := fmt.Sprintf(`
-set -euo pipefail
-if command -v module >/dev/null 2>&1; then
-  module purge || true
-fi
-unset PYTHONHOME PYTHONPATH LD_LIBRARY_PATH
-PROJECT_ROOT=%s
-if [[ ! -d "${PROJECT_ROOT}/.venv" ]]; then
-  python3 -m venv "${PROJECT_ROOT}/.venv"
-fi
-source "${PROJECT_ROOT}/.venv/bin/activate"
-python -m pip install -U pip wheel
-python -m pip install -r "${PROJECT_ROOT}/requirements.txt"
-deactivate
-`, envexec.ShellQuote(remoteRoot))
+	envScript := fmt.Sprintf(pythonVEnvSetupScript, envexec.ShellQuote(remoteRoot))
 	if _, err := s.run("bash", "-lc", envScript); err != nil {
 		return nil, err
 	}

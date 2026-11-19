@@ -1,0 +1,5 @@
+<!-- Running title: EPISTOLA. -->
+
+ſtrandis ſtudium, atque operam collocant, ut quanto hæc mathematicarum diſciplinarum initia aut faciliora, aut firmiora fuerint, tanto quæ conſequuntur omnia planius cognoſcantur. Quæ cum ego multos annos partim publice docendo, partim priuatim commentando, & cum alijs viris doctis com municando diligentius pertractaſſem, collegiſſemque (ut fere fit) in meum priuatum uſum nonnulla, quæ ad eorum cognitionem facere uiderentur; faciendum mihi neceſſario exiſtimaui, præſertim auditorum, amicorumque meorum precibus fatigatus, præterea Laurentij Caſtellani ciuis Romani liberalitate inuitatus, qui oẽs ad id neceſſari os ſumptꝰ benigne admodũ ſuppeditauit, ad publicã ſtudioſorum utilitatẽ, in lucem manusque hominum exire permitterem. Tibi uero potiſſimũ Princeps Sereniſſ. has meas lucubrationes dicaui, primum quod tibi Mathematicorum omnium eximio patrono hæc noſtra maxime ſtudia cordi eſſe intelligebam; deinde quod pro tua in noſtrũ ordinem uniuerſum ſingulari beneuolentia, atque promeritis aliquod tibi grati animi indicium extare ſocietas noſtra uehementer optabat. Huc accedebat priuatum etiam
+
+<!-- Catchword: ſtudium -->

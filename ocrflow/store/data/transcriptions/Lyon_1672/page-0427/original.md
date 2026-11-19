@@ -1,0 +1,5 @@
+<!-- Page number: 412 -->
+
+<!-- Running title: Liure douzieſme -->
+
+poſons que la baſe de ce priſme ſoit CDEF , inſcriuez dans le cercle B , vn ſemblable polygone GHIK , & vn priſme deſſus. Il y auroit vne meſme raiſon du priſme A , au priſme B , que du polygone CDEF , au polygone GHIK ( *par la 40.* ) or les polygones ſemblables, ont vne meſme raiſon , que les cercles ( *par le cor. de la 2.* ) doncques le priſme A comparé au priſme , B , auroit vne méme raiſon que le cercle A , comparé au cercle B , or ce qu'eſt le cercle A comparé au cercle B , la quantité L , l'eſt comparée au cylindre B , doncques cequ'eſt le priſme A , comparé au priſme B , la quantité L, l'eſt comparée au cylindre B, deplus le priſme A eſt plus grand que la quantité L ; ainſi le priſme A , ſeroit plus grand que le cylindre B , dans lequel il eſt inſcrit : c'eſt à dire que la partie ſeroit plus grande que le tout, doncques le cylindre A n'a pas vne plus grande raiſon comparé au cylindre B , que le cercle A comparé au cercle B. Puiſque les cones ſont la troiſiéme partie des cylindres de meſme hauteur , ils au-

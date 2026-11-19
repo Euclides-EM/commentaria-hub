@@ -1,0 +1,44 @@
+<!-- Running title: LIBER DUODECIMUS. -->
+<!-- Page number: 293 -->
+
+[Curated heading level=2 type=propositions: PROP. III. THEOR.]
+
+[Curated heading level=2 type=theorems: PROP. III. THEOR.]
+
+## PROP. III. THEOR.
+
+{dropcap:O|lines=2|style=plain}MNIS pyramis triangularem habens baſim dividitur in duas pyramides aequales et ſimiles inter ſe, quae triangulares baſes habent, ſimileſque toti; et in duo priſmata aequalia, quae quidem priſmata dimidio totius pyramidis ſunt majora.
+
+Sit pyramis cujus baſis quidem ABC triangulum, vertex autem punctum D. Dico pyramidem ABCD dividi in duas pyramides aequales et ſimiles inter ſe, triangulares baſes habentes, et ſimiles toti; et in duo priſmata aequalia; et duo priſmata dimidio totius pyramidis eſſe majora.
+
+Secentur enim AB, BC, CA, AD, DB, DC bifariam in punctis E, F, G, H, K, L, et EH, EG, GH, HK, KL, LH, EK, KF, FG jungantur.
+
+[Diagram: triangular pyramid ABCD with points E, F, G, H, K and L and connecting lines]
+
+Quoniam igitur AE quidem eſt aequalis EB, AH vero ipſi HD, erit HE ipſi DB parallelaᵃ.
+
+[Margin]
+a. 2. 6.
+[/Margin]
+
+eadem ratione et HK eſt parallela ipſi AB. parallelogrammum igitur eſt HEBK; quare HK eſt aequalis EBᵇ.
+
+[Margin]
+b. 34. 1.
+[/Margin]
+
+ſed EB ipſi AE eſt aequalis; ergo et AE ipſi HK aequalis erit. eſt autem et AH aequalis HD; duae igitur EA, AH duabus KH, HD aequales ſunt, altera alteri; et angulus EAH aequalis angulo KHDᶜ;
+
+[Margin]
+c. 29. 1.
+[/Margin]
+
+baſis igitur EH baſi KD eſt aequalis, et triangulum AEH aequaleᵈ
+
+[Margin]
+d. 4. 1.
+[/Margin]
+
+et ſimile triangulo HKD. eadem ratione et triangulum AGH triangulo HLD aequale eſt et ſimile. et quoniam duae rectae lineae EH, HG ſeſe tangentes duabus rectis lineis ſeſe tangentibus KD, DL parallelae ſunt, non autem in eodem
+
+<!-- Catchword: plano, -->

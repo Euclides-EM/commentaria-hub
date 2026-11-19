@@ -1,58 +1,93 @@
 package service
 
 import (
-	"errors"
 	"fmt"
 	"log"
 	"math/rand/v2"
 	"os"
 	"path/filepath"
+	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/annotationrules"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/roboflow"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotationrule"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/annotationrules"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/krakenwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/roboflow"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/transcriptioncorrector"
 	"github.com/samber/lo"
 )
 
 type AnnotationRuleApplier struct {
-	modelSvc       *Model
-	fileSysMgt     *filesys.Manager
-	roboflowAPIKey string
+	modelSvc         *Model
+	remoteDetectSvc  *AnnotationDetectionRemote
+	fileSysMgt       *filesys.Manager
+	roboflowAPIKey   string
+	annotationStore  annotationRuleAnnotationStore
+	datasetStore     annotationRuleDatasetStore
+	transcriptionLLM transcriptioncorrector.Executor
 }
 
-func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *filesys.Manager, roboflowAPIKey string) *AnnotationRuleApplier {
+type annotationRuleAnnotationStore interface {
+	GetAnnotation(datasetID, id string) (*annotation.Annotation, error)
+}
+
+type annotationRuleDatasetStore interface {
+	GetDataset(id string) (*model.Dataset, error)
+}
+
+func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *filesys.Manager, roboflowAPIKey string, remoteDetect *AnnotationDetectionRemote, annotationStore annotationRuleAnnotationStore, datasetStore annotationRuleDatasetStore, transcriptionLLM transcriptioncorrector.Executor) *AnnotationRuleApplier {
 	return &AnnotationRuleApplier{
-		modelSvc:       modelSvc,
-		fileSysMgt:     fileSysMgt,
-		roboflowAPIKey: roboflowAPIKey,
+		modelSvc:         modelSvc,
+		remoteDetectSvc:  remoteDetect,
+		fileSysMgt:       fileSysMgt,
+		roboflowAPIKey:   roboflowAPIKey,
+		annotationStore:  annotationStore,
+		datasetStore:     datasetStore,
+		transcriptionLLM: transcriptionLLM,
 	}
 }
 
 func (a *AnnotationRuleApplier) ApplyRules(imgPath string, ann *annotation.Annotation, rules []annotationrule.AnnotationRule) error {
+	return a.ApplyRulesWithRemoteProgress(imgPath, ann, rules, nil)
+}
+
+func (a *AnnotationRuleApplier) ApplyRulesWithRemoteProgress(imgPath string, ann *annotation.Annotation, rules []annotationrule.AnnotationRule, dispatch *gpuFarmDispatch) error {
 	var err error
 	log.Printf("Applying %d rules to annotation %s", len(rules), ann.ID)
+	hasRemoteWork := false
 	for _, rule := range rules {
 		log.Printf("Applying rule %+v", rule)
-		ann, err = a.ApplyRule(imgPath, ann, rule)
+		switch t := rule.(type) {
+		case *annotationrule.ModelDetect:
+			hasRemoteWork = hasRemoteWork || t.UseGPUFarm
+		case *annotationrule.LinesDetect:
+			hasRemoteWork = hasRemoteWork || t.UseGPUFarm
+		}
+		ann, err = a.applyRule(imgPath, ann, rule, dispatch)
 		if err != nil {
 			return fmt.Errorf("failed to apply rule %+v: %w", rule, err)
 		}
 	}
-	log.Printf("Applied %d rules", len(rules))
+	if hasRemoteWork {
+		log.Printf("Dispatched %d rules for annotation %s; GPU farm processing continues asynchronously until its result upload completes", len(rules), ann.ID)
+	} else {
+		log.Printf("Applied %d rules to annotation %s", len(rules), ann.ID)
+	}
 	return nil
 }
 
 func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annotation, rule annotationrule.AnnotationRule) (*annotation.Annotation, error) {
-	// delete YOLO dir if exists, as it will be invalid after ALTO modification
-	if err := os.RemoveAll(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
-		return nil, fmt.Errorf("failed to remove YOLO dir after ALTO modification: %w", err)
+	return a.applyRule(imgPath, ann, rule, nil)
+}
+
+func (a *AnnotationRuleApplier) applyRule(imgPath string, ann *annotation.Annotation, rule annotationrule.AnnotationRule, dispatch *gpuFarmDispatch) (*annotation.Annotation, error) {
+	if t, ok := rule.(*annotationrule.LLMTranscriptionCorrector); ok {
+		return a.applyLLMTranscriptionCorrector(imgPath, ann, t)
 	}
 
 	// rules that modify ALTO files in a batch:
@@ -60,13 +95,11 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 	case *annotationrule.SlicePages:
 		return a.applySlicePagesRule(ann, t)
 	case *annotationrule.LinesDetect:
-		return a.applyLinesDetectRule(imgPath, ann, t)
+		return a.applyLinesDetectRule(imgPath, ann, t, dispatch)
 	case *annotationrule.ModelDetect:
-		return a.applyModelDetect(imgPath, ann, t)
+		return a.applyModelDetect(imgPath, ann, t, dispatch)
 	case *annotationrule.TextBlockCorrections:
 		return a.applyTextBlockCorrection(ann, t)
-	case *annotationrule.DetectText:
-		return a.applyDetectText(imgPath, ann, t)
 	}
 
 	// rules that require per-page ALTO processing
@@ -109,6 +142,94 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 		}
 	}
 
+	return ann, nil
+}
+
+func (a *AnnotationRuleApplier) applyLLMTranscriptionCorrector(imgPath string, ann *annotation.Annotation, rule *annotationrule.LLMTranscriptionCorrector) (*annotation.Annotation, error) {
+	if !ann.Ocred {
+		return nil, fmt.Errorf("LLM transcription corrector is only applicable to OCR-ed annotations; annotation %s is not OCR-ed", ann.ID)
+	}
+	if strings.TrimSpace(rule.Provider) == "" {
+		return nil, fmt.Errorf("LLM transcription corrector provider is required")
+	}
+	if strings.TrimSpace(rule.Model) == "" {
+		return nil, fmt.Errorf("LLM transcription corrector model is required")
+	}
+	if a.transcriptionLLM == nil {
+		return nil, fmt.Errorf("LLM transcription corrector client is not configured")
+	}
+
+	altoDirs := []string{a.fileSysMgt.DatasetAnnotationAltoDir(ann)}
+	seen := map[string]struct{}{ann.ID: {}}
+	if len(rule.AdditionalAnnotations) > 0 && a.annotationStore == nil {
+		return nil, fmt.Errorf("annotation store is not configured for additional_annotations")
+	}
+	for _, additionalID := range rule.AdditionalAnnotations {
+		additionalID = strings.TrimSpace(additionalID)
+		if additionalID == "" {
+			continue
+		}
+		if _, exists := seen[additionalID]; exists {
+			return nil, fmt.Errorf("additional annotation %s is duplicated or is the target annotation", additionalID)
+		}
+		seen[additionalID] = struct{}{}
+		additional, err := a.annotationStore.GetAnnotation(ann.DatasetID, additionalID)
+		if err != nil {
+			return nil, fmt.Errorf("get additional annotation %s: %w", additionalID, err)
+		}
+		if additional == nil {
+			return nil, fmt.Errorf("additional annotation %s was not found in dataset %s", additionalID, ann.DatasetID)
+		}
+		if !additional.Ocred {
+			return nil, fmt.Errorf("additional annotation %s is not OCR-ed", additionalID)
+		}
+		altoDirs = append(altoDirs, a.fileSysMgt.DatasetAnnotationAltoDir(additional))
+	}
+
+	var transcriptionDirs []string
+	if rule.IncludeEditionTranscription {
+		if a.datasetStore == nil {
+			return nil, fmt.Errorf("dataset store is not configured for include_edition_transcription")
+		}
+		dataset, err := a.datasetStore.GetDataset(ann.DatasetID)
+		if err != nil {
+			return nil, fmt.Errorf("get dataset %s for edition transcription: %w", ann.DatasetID, err)
+		}
+		if dataset == nil {
+			return nil, fmt.Errorf("dataset %s not found", ann.DatasetID)
+		}
+		if strings.TrimSpace(dataset.EditionID) == "" {
+			return nil, fmt.Errorf("dataset %s has no edition for include_edition_transcription", ann.DatasetID)
+		}
+		transcriptionDirs = append(transcriptionDirs, a.fileSysMgt.EditionTxtTranscriptionDir(dataset.EditionID, dataset.Volume))
+	}
+
+	pageNumbers, err := pagesparser.IntRange(ann.Pages)
+	if err != nil {
+		return nil, fmt.Errorf("parse pages for annotation %s: %w", ann.ID, err)
+	}
+	pageKeys := make([]string, 0, len(pageNumbers))
+	for _, pageNumber := range pageNumbers {
+		pageKeys = append(pageKeys, pagesparser.PageToFilename(pageNumber, ""))
+	}
+
+	cfg := transcriptioncorrector.Config{
+		ALTODirs:          altoDirs,
+		TranscriptionDirs: transcriptionDirs,
+		PageKeys:          pageKeys,
+		ImagesDir:         imgPath,
+		OutputDir:         a.fileSysMgt.AnnotationTxtTranscriptionDir(ann),
+		Rounds:            rule.Rounds,
+		ExecutionMode:     rule.ExecutionMode,
+		SkipExisting:      rule.SkipExisting,
+		Provider:          strings.TrimSpace(rule.Provider),
+		Model:             strings.TrimSpace(rule.Model),
+	}
+	usage, err := transcriptioncorrector.Run(cfg, a.transcriptionLLM)
+	rule.Usage = &usage
+	if err != nil {
+		return nil, fmt.Errorf("run LLM transcription corrector for annotation %s: %w", ann.ID, err)
+	}
 	return ann, nil
 }
 
@@ -278,7 +399,13 @@ func (a *AnnotationRuleApplier) applyReassignTextLinesByTolerance(af *alto.Alto,
 	return nil
 }
 
-func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect, dispatch *gpuFarmDispatch) (*annotation.Annotation, error) {
+	if t.ManualRun && !t.UseGPUFarm {
+		return nil, fmt.Errorf("lines detect manual_run requires use_gpu_farm")
+	}
+	if t.UseGPUFarm {
+		return a.applyLinesDetectRuleRemote(imgPath, ann, t, dispatch)
+	}
 	if err := krakenwrapper.DetectLines(imgPath, a.fileSysMgt.DatasetAnnotationAltoDir(ann), t.IncludeCategories, t.IgnoreCategories); err != nil {
 		return nil, fmt.Errorf("failed to apply lines detect to annotation %s: %w", ann.ID, err)
 	}
@@ -286,7 +413,10 @@ func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annota
 	return ann, nil
 }
 
-func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation.Annotation, t *annotationrule.ModelDetect) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation.Annotation, t *annotationrule.ModelDetect, dispatch *gpuFarmDispatch) (*annotation.Annotation, error) {
+	if t.ManualRun && !t.UseGPUFarm {
+		return nil, fmt.Errorf("model detect manual_run requires use_gpu_farm")
+	}
 	m, err := a.modelSvc.Get(t.Model)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get segmentation model %s: %w", t.Model, err)
@@ -295,14 +425,19 @@ func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation
 	if m.Type != t.ModelType {
 		return nil, fmt.Errorf("model type mismatch for model %s: the model is of type %s but rule requires type %s", t.Model, m.Type, t.ModelType)
 	}
-	if m.Type == common.OCRModelTypeOCR && !ann.Segmented {
-		return nil, fmt.Errorf("cannot apply OCR model detect rule to annotation %s that is not segmented", ann.ID)
+	if m.Type == common.OCRModelTypeOCR && !ann.LinesDetected {
+		return nil, fmt.Errorf("cannot apply OCR model detect rule to annotation %s before text lines are detected", ann.ID)
 	}
 
 	pages, err := pagesparser.IntRange(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}
+
+	if t.UseGPUFarm {
+		return a.applyModelDetectRemote(imgPath, ann, m, pages, t.ManualRun, dispatch)
+	}
+
 	var filenames []string
 	for _, p := range pages {
 		filenames = append(filenames, pagesparser.PageToPNGFilename(p))
@@ -365,8 +500,4 @@ func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation
 		ann.Segmented = true
 	}
 	return ann, nil
-}
-
-func (a *AnnotationRuleApplier) applyDetectText(imgPath string, ann *annotation.Annotation, t *annotationrule.DetectText) (*annotation.Annotation, error) {
-	return nil, errors.New("detect text rule applier not implemented")
 }

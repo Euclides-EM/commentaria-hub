@@ -1,6 +1,6 @@
 package annotation
 
-import "github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+import "github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 
 type Group struct {
 	common.Meta `json:",inline"`

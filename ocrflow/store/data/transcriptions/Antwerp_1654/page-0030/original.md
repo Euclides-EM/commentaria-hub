@@ -1,0 +1,5 @@
+Euclidem Ramus, neque vllo ſolido nixus fundamento, hic audiendus non erit. vt finis aliquando ſit, agmen Pappus claudat tempore inter veteres poſtremus; vt qui vixerit circa annum 400, ſed nominis claritudine, omni laude Mathematum primis adnumerandus. Quæ ante Hypſiclem, Cteſibium, & Diophantum protulerat fœcunda ingeniorum parens Alexandria, hunc quoque ingenti bono Matheſeos dedit. Scripſit collectionum Mathematicarum libros ſeptem, è quibus duo primi perierunt. Reliqui quinque tam multis abundant, tamque varijs, ex omni propè genere Mathematum nobiliſſimis inuentis, vt inter prima quæ extant veterum monimenta, ab omnibus cenſeantur.
+
+Habetis originis ac progreſſionis Mathematicæ hiſtoriam breuem. Ex qua Matheſeos antiquitas, præſtantia, ac dignitas apparet. Sanè Reip. litterariæ principes, ijdem qui Philoſophiam, etiam Mathematicam genuêre, gemellas ſorores partu velut vno, quas qui diſtrahere ab inuicem violente velit, næ ille in natiuam illarum concordiam, cum inſigni iniuria crudelis ſit; quando, quod fieri in gemellis ſolet, vno vel loco vel morte ſublato, languere, quin & contabeſcere alterum neceſſe ſit,
+
+<!-- Catchword: APPRO- -->

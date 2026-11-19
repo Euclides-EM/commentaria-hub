@@ -1,0 +1,44 @@
+<!-- Page number: 77 -->
+
+<!-- Running title: Euclidis. -->
+
+### Beweiß.
+
+ACB ⩓ ADB
+AFE ⩓ AGF
+EHB ⩓ EIB } n. 34. Vortr.
+Dw. ACB—AEF—FHB ⩓ ADB—AGF—FIB n. 3. Gr:S.
+oder FH ⌻ GI.
+
+### Beschluß.
+
+Aus diesem ist klar zu sehen / daß alle eines durch einen Zwergstrich getheileten Viereckes Füllflächen gleiche Grösse haben müssen. W. Z. B.
+
+[Curated heading level=2 type=propositions: Der XLIV. Vortrag.]
+
+[Curated heading level=2 type=problems: Das 12. Werckstück.]
+
+## Der XLIV. Vortrag.
+
+## Das 12. Werckstück.
+
+An einen gegebenen geraden Strich/nach dem gegebenen Winckel / ein geschicktes Viereck / welches dem gegebenen Dreyeck an grösse gleich sey/ anzusetzen.
+
+### Gegebene.
+
+1. Gerader Strich EF
+2. ∧ D
+3. △ ABC
+
+### Begehrte.
+
+1. □ IK
+2. □ IK | △ ABC
+3. IL | EF
+4. KLI ⋀ D
+
+[Diagram: Figur mit den Puncten B, H, M, N oben, E, K, C, A, D, L, I, O, F, G unten und in der Mitte, mit gezogenen und punctirten Strichen]
+
+<!-- Signature: K 3 -->
+
+<!-- Catchword: Wir- -->

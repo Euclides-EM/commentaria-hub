@@ -1,0 +1,5 @@
+[Ornament]
+
+# D. HENRION. AV LECTEVR.
+
+{dropcap:I|lines=5|style=decorated}L y a quatre ans ou enuiron, que voyant que perſonne n’auoit encore traduict en noſtre langue, tous les Elemens de la Geometrie d’Euclide, le deſir de ſeruir au public, m’excita d’entreprendre ceſte traduction: Mais comme ie me reſoluois de la mettre au iour, ie fus preuenu de Mõſieur Dounot: ce qui me diuertit pour lors d’effectuer mon deſſein, me perſuadant que ledit Sieur ſe ſeroit contenu dans les bornes d’vne iuſte tranſlation: Mais voyant en liſant ladite traduction, que ledit Dounot auoit alteré & changé le vray ſens de l’Autheur en pluſieurs endroicts, & meſme introduit de nouuelles demonſtrations vitieuſes & erronees: cela fut cauſe que ie me propoſay de reprendre mes premieres erres: & neantmoins ivſay de quelque ſurſeance, eſperant que par vne ſeconde impreſſion, ledit Dounot pourroit emander la premiere: Mais voyant qu’en ladite ſeconde impreßion il auoit torrigé peu de fautes, & meſme qu’il y en auoit de
