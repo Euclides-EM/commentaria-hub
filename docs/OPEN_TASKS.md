@@ -11,7 +11,7 @@ We already integrated an LLM based subject classification of the editions, espec
 * Adapt the prompt if needed and conduct small experiments with limited number of editions, to test the adaptations.
 * Once we are satisfied, re-run the classifications on all of the editions to update the old classifications and classify the new editions.
 
-# Add manuscripts to the catalog
+# Add manuscripts to the catalog [IN PROGRESS: Liri]
 
 This is a request received from multiple scholars at CIRM, Oct 2026.
 
