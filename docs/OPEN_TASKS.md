@@ -11,15 +11,15 @@ We already integrated an LLM based subject classification of the editions, espec
 * Adapt the prompt if needed and conduct small experiments with limited number of editions, to test the adaptations.
 * Once we are satisfied, re-run the classifications on all of the editions to update the old classifications and classify the new editions.
 
-# Add manuscripts to the catalog [IN PROGRESS: Liri]
+# Add manuscripts to the catalog [BLOCKED: Mia]
 
 This is a request received from multiple scholars at CIRM, Oct 2026.
 
 Currently, the catalog only supports printed editions, but we want to add support for manuscripts as well. This requires diffrent approach to the material.
 
 The work to add the manuscripts was already done in https://github.com/Euclides-EM/commentaria-hub/pull/73, but since then we made multiple changes. Therfore, we need to:
-* Align the [PR](https://github.com/Euclides-EM/commentaria-hub/pull/73) to the new code.
-* Fix according to the review in the [document](https://docs.google.com/document/d/1zc2cSq8M2GXC5enRmirEuZQwwhzJVEqzo6yUsxO3xIk/edit?usp=sharing)
+* Review the [PR](https://github.com/Euclides-EM/commentaria-hub/pull/73).
+* Detail additional review comments in [document](https://docs.google.com/document/d/1zc2cSq8M2GXC5enRmirEuZQwwhzJVEqzo6yUsxO3xIk/edit?usp=sharing)
 
 Then, we need to add a few manuscripts:
 * Euclid in the Portuguese Empire corpus [link](https://collectionguides.universiteitleiden.nl/resources/ubl248#) 
