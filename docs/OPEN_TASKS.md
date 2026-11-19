@@ -46,6 +46,7 @@ Currently, when the user searches for specific editor, author or publisher, ther
 * Add a name variation support to the frontend and backend that uses a CSV stored in [ocrflow/store/items_metadata](../ocrflow/store/items_metadata).
 * Add a pipeline that we can run and fills the variation mapping based on crawlers on identity repositories.
 * Add the relevant information as a skill and to AGENTS.md.
+* Some effort already made at https://github.com/Euclides-EM/commentaria-hub/pull/101
 
 # Detect and fix invalid diagram crops
 
