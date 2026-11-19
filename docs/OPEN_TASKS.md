@@ -175,7 +175,7 @@ This is a request received from Vincenzo, Oct 2026.
 
 Add an acknowledgment page that mentions the all the researchers and funding sources of the project, including scholars that contributed by sending catalogs, feedbacks, etc.
 
-# Add Spanish and British editions
+# Add Spanish and British editions [IN PROGRESS: Liri]
 
 This is a request received from Vincenzo, Oct 2026.
 
