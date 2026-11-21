@@ -338,7 +338,7 @@ func (s *EditionCSV) ListShelfmarks(editionIDs []string) ([]*model.EditionShelfm
 		return nil, err
 	}
 	allowed := lo.SliceToMap(editionIDs, func(id string) (string, struct{}) { return id, struct{}{} })
-	var out []*model.EditionShelfmark
+	out := []*model.EditionShelfmark{}
 	for _, row := range rows {
 		if len(allowed) > 0 {
 			if _, ok := allowed[row["key"]]; !ok {
